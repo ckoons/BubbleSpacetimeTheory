@@ -7,7 +7,7 @@ I wrote to you previously with a review paper on Bubble Spacetime Theory. The wo
 
 The central claim: the bounded symmetric domain D(IV,5) = SO₀(5,2) / [SO(5)×SO(2)] and its Bergman geometry determine the fundamental constants of the Standard Model with no free parameters. You've written about Wyler's 1969 formula — BST provides what Wyler was missing: a physical reason for D(IV,5).
 
-The following results can each be verified with a calculator (Sections 5.1, 7.4, 7.5, 12.5, 15.1):
+The following numerical results can each be verified with a calculator (Sections 5.1, 7.4, 7.5, 12.5, 15.1):
 
 ```
 Quantity   Formula                    Predicted      Observed       Accuracy
@@ -21,13 +21,17 @@ Tc         Nmax * 20/21               130.476        130.5          0.018%
 
 Five independent quantities spanning 122 orders of magnitude, same geometry, no fitting.
 
+Two additional structural results have since been established (Section 6.5):
+
+The electroweak gauge algebra su(2)_L + u(1)_Y sits inside the isotropy algebra so(5) of D(IV,5) as an exact subalgebra, with explicit generators verified numerically. Among all 21 generators of so(5,2), exactly one is simultaneously color-singlet and commutes with SU(2)_L: J_56, the so(2) generator of the S^1 fiber rotation. Physical hypercharge is S^1 winding — a theorem, not a fitting. The Killing norm ratio |T_3|^2 : |Y_phys|^2 = 20:10 gives sin^2(theta_W) = 1/3 at the geometric scale, corresponding to an intermediate unification scale near 10^12 GeV from standard two-loop running.
+
 The physical argument: the substrate is S²×S¹ — circles (the simplest closed 1D object, requiring no boundary conditions) tiling a sphere (the unique simply connected orientable surface), communicating through S¹ phase. The configuration space of causal windings on this substrate is forced by the Chern-Moser theorem at complex dimension 5, through Harish-Chandra embedding, to be D(IV,5). The Wyler formula gives α from the Bergman volume ratio. Everything else follows.
 
 The known gap: the restriction from SU(6,1) — the full CR automorphism group at complex dimension 5 — to SO₀(5,2) relies on the real analyticity of the S¹ fiber. Seven numerical checks pass; the analytic proof is incomplete. Section 4.3 states this explicitly.
 
 One thing I want to be transparent about: I am an engineer by training, not a professional physicist, and this paper was developed in close collaboration with Claude 4.6 (Anthropic). The theory — the physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the key insights about what structure is required for geometry "to do physics" — originated with me. The derivations, numerical verifications, mathematical development, and manuscript were built in genuine back-and-forth with Claude. I mention this not to deflect responsibility for the claims, but because I think the collaboration itself is worth being honest about. The mathematics either holds up or it doesn't, regardless of who worked it out.
 
-The paper is also available at: https://github.com/ckoons/BubbleSpacetime
+The paper is also available at: https://github.com/ckoons/BubbleSpacetimeTheory
 
 Sections 5, 7.4–7.5, and 12.5 are self-contained and independently verifiable. You need not read the whole paper to check any one of them. Any of the numerical results can be verified with a calculator in less than five minutes.
 
