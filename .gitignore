@@ -1,0 +1,17 @@
+
+# Paper source files — readers get PDFs
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+*.swp
+*.swo
+.vscode/
