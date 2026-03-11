@@ -1370,7 +1370,8 @@ Once the $\mathrm{SO}(2)$ generator activates:
 2. **The 10 generators of $\mathfrak{m}$ become dynamical.** The configuration space $D_{IV}^5$ activates. The Bergman metric determines distances and energies. Channel capacity $N_{\max} = 137$ sets the Haldane exclusion. The first contacts commit.
 3. **The first particles form.** Complete windings on $S^1$ are the first stable circuits (topologically protected). The electron is the minimal winding. The proton is the minimal $Z_3$ circuit.
 4. **BBN proceeds.** The BST phase transition injects entropy — latent heat from the heat capacity $C_v = 330{,}000$ at $T_c$ — into the baryon-photon plasma during the beryllium-7 production window, diluting the baryon-to-photon ratio by the needed $\sim 3\times$ and potentially resolving the lithium-7 problem.
-5. **Today.** The committed contact graph has expanded to $\sim 10^{122}$ contacts. The channel utilization is $\sim 10^{-123}$. The vacuum free energy $F_{\mathrm{BST}} = \ln(138)/50$ and the cosmological constant $\Lambda = F_{\mathrm{BST}} \times \alpha^{56} \times e^{-2} = 2.90 \times 10^{-122}$ follow from the geometry of the single generator that activated 13.8 billion years ago.
+5. **Rapid structure formation.** The ultra-strong phase transition ($C_v = 330{,}000$) seeds density perturbations far larger than inflation's $\delta\rho/\rho \sim 10^{-5}$. The positive feedback instability of the contact graph (Section 16) drives exponential growth from these large seeds. Channel noise (incomplete windings) provides instant gravitational scaffolding — no slow halo accretion required. Galaxies form within hundreds of millions of years, not billions. See Section 16.3.
+6. **Today.** The committed contact graph has expanded to $\sim 10^{122}$ contacts. The channel utilization is $\sim 10^{-123}$. The vacuum free energy $F_{\mathrm{BST}} = \ln(138)/50$ and the cosmological constant $\Lambda = F_{\mathrm{BST}} \times \alpha^{56} \times e^{-2} = 2.90 \times 10^{-122}$ follow from the geometry of the single generator that activated 13.8 billion years ago.
 
 **Key difference from inflation:** Inflation requires special initial conditions (the inflaton at the top of its potential) with no explanation for why those conditions obtained. BST requires no special initial conditions — the pre-spatial state is the most symmetric possible state, requiring no fine-tuning. The transition is forced: the substrate cools, and at $T_c = m_e \times (20/21)$, the $\mathrm{SO}(2)$ generator activates because it is the only self-sustaining symmetry breaking. No other single-generator activation produces a thermodynamically stable spatial phase with calculable physics.
 
@@ -1499,6 +1500,36 @@ If vacuum pressure varies with local contact density, then dense regions of the 
 1. **Environment-dependent galaxy properties:** Galaxies in denser environments should exhibit systematic differences beyond what gravitational and hydrodynamic effects predict, due to the modified local metric from enhanced vacuum pressure. Such environmental correlations are observed but not fully explained by standard models.
 1. **Void-filament expansion rate asymmetry:** Voids should expand at a different rate than filaments, with the difference traceable to their different vacuum pressures rather than their different matter content alone.
 1. **Modified redshift-distance relation:** Objects in overdense environments carry uncorrected vacuum pressure contributions to their measured redshift, beyond the gravitational redshift that standard corrections account for. This systematic bias affects all distance measurements based on redshift.
+
+### 16.3 Rapid Early Structure Formation
+
+The James Webb Space Telescope (JWST) has revealed massive, morphologically mature galaxies at redshifts $z > 10$ — within 300–500 million years of the conventional Big Bang. Some exhibit disk and spiral structure. These observations are in tension with $\Lambda$CDM, where hierarchical structure formation from inflationary seed perturbations ($\delta\rho/\rho \sim 10^{-5}$) requires billions of years to build large galaxies. In standard cosmology, dark matter halos must accrete particle by particle to provide gravitational wells, baryons must then fall in and cool, and disk settling and density wave development require additional dynamical times.
+
+BST predicts rapid early structure formation through three mechanisms that are absent in $\Lambda$CDM:
+
+**Large initial perturbations.** The BST phase transition at $T_c = 0.487$ MeV is ultra-strong ($C_v = 330{,}000$ — three orders of magnitude above electroweak). The latent heat released by this transition seeds density perturbations far larger than inflation's $\sim 10^{-5}$. Larger seeds reach nonlinear collapse faster. The perturbation amplitude is calculable from the partition function dynamics (Section 15.0) and is a quantitative prediction of BST.
+
+**Instant gravitational scaffolding from channel noise.** In $\Lambda$CDM, dark matter halos must assemble over cosmological timescales through gravitational accretion of collisionless particles. In BST, the gravitational excess attributed to dark matter is channel noise — incomplete windings whose density is an instantaneous property of the local channel state (Section 19). The Haldane relaxation time $\tau_H$ for the incomplete winding population to reach equilibrium at a given density is effectively instantaneous at galactic densities ($\rho/\rho_{137} \sim 10^{-60}$). The gravitational scaffolding for galaxy formation does not need to accrete — it exists the moment the baryonic density enhancement exists. Every overdensity is born with its full dark matter complement.
+
+**Exponential positive feedback.** The contact graph instability (Section 16.1) is a positive feedback loop: mass increases contact density, which supports more stable circuits, which means more mass. With the large seeds from the phase transition and instant channel noise scaffolding, this feedback drives exponential growth to galaxy-scale structures on timescales set by the local commitment rate — not by the slow linear growth of tiny perturbations.
+
+**Spiral structure as ground state.** A rotating overdensity with a radial density gradient on the Koons substrate develops spiral structure spontaneously through differential commitment rates (the lapse function $N(r)$ varies with density). The spiral is not a late-time dynamical development requiring disk settling — it is the natural wavefront pattern of any rotating contact density enhancement. Spiral galaxies at $z > 10$ are expected, not anomalous.
+
+Together, these mechanisms predict that BST structure formation is qualitatively faster than $\Lambda$CDM at early times:
+
+| Factor | $\Lambda$CDM | BST |
+|--------|-------------|-----|
+| Seed perturbations | $\delta\rho/\rho \sim 10^{-5}$ (inflation) | Large (ultra-strong phase transition, $C_v = 330{,}000$) |
+| Dark matter scaffolding | Slow halo accretion (Gyr timescale) | Instantaneous (channel noise, $\tau_H \approx 0$) |
+| Growth mechanism | Linear $\to$ nonlinear (slow) | Exponential positive feedback (fast) |
+| Spiral formation | Late-time disk settling + density waves | Ground state of rotating overdensity |
+| Massive galaxies at $z > 10$ | In tension with simulations | Expected |
+
+**Testable predictions:**
+
+1. **Galaxy mass function at high redshift.** BST predicts more massive galaxies at $z > 10$ than $\Lambda$CDM simulations. The excess is quantifiable once the phase transition perturbation spectrum is computed from the partition function. JWST data through 2025–2030 will measure this function with increasing precision.
+1. **Morphological maturity at high redshift.** BST predicts spiral and disk galaxies at the earliest observable epochs. $\Lambda$CDM predicts predominantly irregular morphologies at $z > 8$, with disks forming later. JWST morphological surveys are the direct test.
+1. **No epoch of "first light" delay.** In $\Lambda$CDM, the first stars form at $z \sim 20$–$30$ after a cosmological "dark age" while perturbations grow. In BST, the large phase transition seeds and instant scaffolding allow star formation to begin almost immediately after the transition. The duration of the dark age — or its absence — is a discriminant.
 
 -----
 
@@ -2042,6 +2073,7 @@ With $\chi \approx 5.5$ from $m_\pi$ as input, all hadronic quantities are simul
 1. **Three spatial dimensions necessary and sufficient:** No extra dimensions at any energy scale. Three is the minimum dimensionality of a self-communicating surface ($S^2$ base + $S^1$ fiber) and no additional dimensions are required or predicted.
 1. **Matter-antimatter asymmetry from commitment direction:** The baryon asymmetry $\eta \approx 6 \times 10^{-10}$ is a critical exponent of the pre-spatial phase transition, not an unexplained initial condition. Forward windings (matter) are slightly favored over backward windings (antimatter) because the commitment direction biases $S^1$ winding orientation.
 1. **Arrow of time = second law = commitment order:** Time, entropy increase, and matter preference are three manifestations of one principle — irreversible contact commitment on the substrate.
+1. **Rapid early galaxy formation:** Massive, morphologically mature galaxies at $z > 10$ — as observed by JWST — are expected from the ultra-strong phase transition seeds, instant channel noise scaffolding, and exponential contact graph feedback. $\Lambda$CDM requires billions of years; BST requires hundreds of millions.
 
 ### 25.5 Quantitative Predictions (Testable at Future Experiments)
 
@@ -2070,35 +2102,36 @@ With $\chi \approx 5.5$ from $m_\pi$ as input, all hadronic quantities are simul
 |2|Nuclear half-life systematics follow phase cycling|Existing nuclear data tables |No correlation between shell structure and Hopf sampling geometry|
 |3|Hubble tension correlates with local density      |Existing supernova catalogs  |No residual density correlation after standard corrections       |
 |4|CMB anomalies match $S^2$ topology                |Planck satellite data        |Anomaly pattern inconsistent with SO(3) on $S^2$                 |
+|5|Massive mature galaxies at $z > 10$               |JWST galaxy surveys          |High-$z$ mass function consistent with $\Lambda$CDM hierarchical formation|
 
 **Testable within 5 years:**
 
 |#|Prediction                |Data Source        |What kills BST                                      |
 |-|--------------------------|-------------------|----------------------------------------------------|
-|5|Dark energy $w \neq -1$   |DESI, Euclid, Roman|$w = -1$ confirmed to high precision                |
-|6|No dark matter particles  |LUX-ZEPLIN, XENONnT|Any confirmed WIMP detection                        |
-|7|Black hole ringdown echoes|LIGO O4/O5         |Echoes definitively ruled out at predicted amplitude|
+|6|Dark energy $w \neq -1$   |DESI, Euclid, Roman|$w = -1$ confirmed to high precision                |
+|7|No dark matter particles  |LUX-ZEPLIN, XENONnT|Any confirmed WIMP detection                        |
+|8|Black hole ringdown echoes|LIGO O4/O5         |Echoes definitively ruled out at predicted amplitude|
 
 **Testable within 10–15 years:**
 
 |# |Prediction                        |Data Source          |What kills BST                                                      |
 |--|----------------------------------|---------------------|--------------------------------------------------------------------|
-|8 |Proton decay rate                 |Hyper-Kamiokande     |Decay rate inconsistent with structured unification                 |
-|9 |CMB B-modes match phase transition|LiteBIRD, CMB-S4     |$n_s$–$r$ relationship matches inflation, not BST                   |
-|10|No extra dimensions               |LHC, future colliders|Detection of Kaluza-Klein resonances or extra-dimensional signatures|
+|9 |Proton decay rate                 |Hyper-Kamiokande     |Decay rate inconsistent with structured unification                 |
+|10|CMB B-modes match phase transition|LiteBIRD, CMB-S4     |$n_s$–$r$ relationship matches inflation, not BST                   |
+|11|No extra dimensions               |LHC, future colliders|Detection of Kaluza-Klein resonances or extra-dimensional signatures|
 
 **Permanently falsifiable:**
 
 |# |Prediction                                         |What kills BST                                       |
 |--|---------------------------------------------------|-----------------------------------------------------|
-|11|No dark matter particles ever                      |Confirmed direct detection of dark matter particle   |
-|12|No individual graviton quanta                      |Confirmed detection of single graviton               |
-|13|Information preserved in black holes               |Demonstrated unitarity violation                     |
-|14|$N_{GUT} = 4\pi^2$                                 |Precision measurement giving $N_{GUT} \neq 4\pi^2$   |
-|15|Three spatial dimensions only                      |Detection of extra spatial dimensions at any energy  |
-|16|No singularities                                   |Observational evidence requiring curvature divergence|
-|17|No closed timelike curves                          |Demonstrated physical mechanism for time loops       |
-|18|Growing manifold consistent with all GR predictions|Any GR prediction failing on the committed manifold  |
+|12|No dark matter particles ever                      |Confirmed direct detection of dark matter particle   |
+|13|No individual graviton quanta                      |Confirmed detection of single graviton               |
+|14|Information preserved in black holes               |Demonstrated unitarity violation                     |
+|15|$N_{GUT} = 4\pi^2$                                 |Precision measurement giving $N_{GUT} \neq 4\pi^2$   |
+|16|Three spatial dimensions only                      |Detection of extra spatial dimensions at any energy  |
+|17|No singularities                                   |Observational evidence requiring curvature divergence|
+|18|No closed timelike curves                          |Demonstrated physical mechanism for time loops       |
+|19|Growing manifold consistent with all GR predictions|Any GR prediction failing on the committed manifold  |
 
 ### 25.7 Comparison with Competing Frameworks
 
