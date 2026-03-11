@@ -1075,29 +1075,91 @@ Quantum mechanics is what the BST substrate looks like when described in the lan
 
 -----
 
-## Section 14: Three Forces, Not Four
+## Section 14: Three Geometric Layers — Forces and Boundary Conditions
 
-### 14.1 Force Unification in BST
+### 14.1 The Force/Boundary-Condition Structure
 
-BST contains exactly three forces, all arising from circuit interactions on the $S^1$ communication channel at different packing dimensions:
+BST does not contain four forces, nor three forces in the traditional sense. It contains **three geometric layers**, each carrying a **force** (an active dynamical process) and a **boundary condition** (a constraint that governs where and how the force operates). The forces are the dynamics. The boundary conditions are the geometry that shapes them.
 
-- **Electromagnetic:** Circuits on $S^1$. One-dimensional packing. Coupling $\alpha = 1/137$.
-- **Weak:** Circuits on $S^3$ via Hopf fibration $S^3 \to S^2$. Two-dimensional packing on the base $S^2$. Coupling related to $\alpha$ through the Weinberg angle $\sin^2\theta_W \approx 0.234$.
-- **Strong:** Circuits on $\mathbb{CP}^2$ with $Z_3$ confinement topology. Four-dimensional packing base reduced by factor $N_c = 3$. Coupling $\alpha_s = N_{GUT}/N_c = 4\pi^2/3$ at the GUT scale.
+| Geometric layer | Force (dynamics) | Boundary condition (constraint) |
+|---|---|---|
+| $S^1$ fiber | Electromagnetism | Gravity |
+| $D_{IV}^5$ bulk ($\mathbb{CP}^2$) | Strong force | Weak variation operator |
+| Contact graph | Contact commitment | Riemann zeros (prime spectrum) |
 
-All three are circuit interactions unified at the GUT scale in the structured sense described in Section 6.
+Each pair has the same structure: the force is a direct interaction on the geometric object; the boundary condition is the collective or extremal consequence of operating on that object. The boundary conditions are not forces — they are what happens at the edges.
 
-### 14.2 Gravity Is Not a Force
+### 14.2 Layer 1: The Fiber — Electromagnetism and Gravity
 
-Gravity does not belong in the unification because it is not a circuit interaction. It is the thermodynamic equation of state of the contact graph (Section 10). Attempting to unify gravity with the gauge forces is a category error — analogous to unifying temperature with molecular collisions. They are related (one emerges from the other) but are not the same kind of phenomenon.
+**The force: electromagnetism.** Circuits on $S^1$ interact through their winding numbers. The coupling is $\alpha = 1/137$, derived from the Bergman volume of $D_{IV}^5$ via the Wyler formula (Section 5). Charge is winding number. Photons are phase disturbances. Maxwell's equations are the curvature of the $S^1$ connection (Section 14.10). Electromagnetism is the force *on* the fiber.
 
-This explains fifty years of failure to achieve quantum gravity through force unification. String theory, supergravity, and loop quantum gravity all attempt to put gravity and gauge forces on equal mathematical footing. BST predicts this cannot work because the two categories have fundamentally different origins: gauge forces are direct circuit interactions on $S^1$; gravity is the collective statistical geometry of the entire contact graph.
+**The boundary condition: gravity.** Gravity is not a force on $S^1$. It is the collective statistical geometry of the entire contact graph — the thermodynamic equation of state (Section 10). Contact density determines the emergent metric. The lapse function $N = N_0\sqrt{1 - \rho/\rho_{137}}$ encodes gravitational time dilation, event horizons, and singularity resolution. Gravity is what the fiber dynamics *produce* when summed over the full contact graph. It is the boundary condition — the macroscopic constraint that the fiber interactions collectively impose on the geometry.
 
-### 14.3 The Higgs Mechanism
+This explains fifty years of failure to achieve quantum gravity through force unification. String theory, supergravity, and loop quantum gravity all attempt to put gravity and gauge forces on equal mathematical footing. BST predicts this cannot work because they are not the same category: electromagnetism is the force on $S^1$; gravity is its boundary condition on the contact graph.
+
+### 14.3 Layer 2: The Bulk — Strong Force and Weak Variation
+
+**The force: the strong interaction.** Color confinement operates on $\mathbb{CP}^2$ within $D_{IV}^5$ through $Z_3$ circuit topology. Triads cycle through color orderings at the strong timescale ($\sim 10^{-24}$ s). The coupling is $\alpha_s = N_{GUT}/N_c = 4\pi^2/3$ at the GUT scale. The strong force is the force *in* the bulk — the direct circuit interaction that confines quarks into color-neutral hadrons.
+
+**The boundary condition: the weak variation operator.** The weak interaction is not a force (Section 20). It is a discrete substitution — one quark flavor replaced by another within an intact triad, topological closure preserved. It operates through the Hopf fibration $S^3 \to S^2$, which is the boundary structure connecting the $S^1$ fiber to the $S^2$ base. The weak interaction is what happens when a strong-force triad's cycling trajectory intersects the Hopf boundary — the low-dimensional submanifold where flavor variation is permitted.
+
+The weak interaction is slow (spanning 28 orders of magnitude in decay lifetimes) because the Hopf intersection is a small target in the 12-dimensional triad configuration space. It is the boundary condition on the strong force: the constraint that determines which variations are accessible and at what rate.
+
+### 14.4 Layer 3: The Contact Graph — Commitment and the Prime Spectrum
+
+**The force: contact commitment.** The most fundamental dynamical process in BST is the commitment of contacts — the irreversible transition from uncommitted (quantum, reversible) to committed (classical, irreversible). This is the process that creates space, drives expansion, and establishes the arrow of time. It is not a Standard Model force. It is the force that underlies all Standard Model forces — the substrate dynamics from which the fiber and bulk forces emerge.
+
+**The boundary condition: the Riemann zeros.** When new information must be written to the contact graph — when a new contact commits — it is written at the minimum Bergman cost. The Bergman Minimum Principle (proved in the companion paper [Koons 2026b]) establishes that the minimum-cost locus is the fixed point of the Cartan involution $\theta$ of $\mathrm{SO}_0(5,2)$ — the origin of $D_{IV}^5$, corresponding to $\mathrm{Re}(s) = 1/2$.
+
+The Riemann zeros are the spectral eigenvalues of this minimum-cost locus. The primes are the geodesics of $D_{IV}^5$ — the paths along which information propagates through the contact graph. Each prime is an irreducible channel. Each zero marks an energy level at which the contact graph can accept new information. The trace formula duality (primes $\leftrightarrow$ zeros) is the duality between the geodesic paths and the spectral eigenvalues of the contact graph configuration space.
+
+A new prime "births" when the contact graph reaches a scale where the next irreducible geodesic becomes accessible — when the existing channels are insufficient and information must overflow to the next minimal-energy location. The Riemann zeros constrain where this happens (on the critical line = at the vacuum = at minimum Bergman cost). The primes constrain which channels are available. Together, they are the boundary condition on contact commitment: the number-theoretic constraint that governs the growth of the contact graph.
+
+*Note: the identification of the Riemann zeros as the boundary condition of the contact force depends on the Langlands-Bergman Embedding conjecture (Lemma 2 of the companion Riemann paper). The force/boundary-condition structure for the fiber and bulk layers is established; for the contact graph layer it is conditional on this conjecture.*
+
+### 14.5 Why the Weak Force Excludes Higher Dimensions
+
+The weak variation operator provides a deep constraint on the dimensionality of physics: it requires exactly three spatial dimensions.
+
+**The argument.** The weak force operates through the Hopf fibration $S^3 \to S^2$. The Hopf fibrations over the real division algebras are completely classified (Adams 1960):
+
+| Fibration | Fiber | Base | Fiber is a Lie group? |
+|---|---|---|---|
+| $S^1 \to S^1$ | $S^1 = \mathrm{U}(1)$ | point | Yes (abelian) |
+| $S^3 \to S^2$ | $S^3 = \mathrm{SU}(2)$ | $S^2$ | **Yes** |
+| $S^7 \to S^4$ | $S^7$ | $S^4$ | **No** (octonions, non-associative) |
+| $S^{15} \to S^8$ | $S^{15}$ | $S^8$ | No |
+
+The weak variation operator requires the fiber to be a **Lie group** — because the flavor substitution ($u \to d$, $c \to s$, $t \to b$) must be an associative group operation to preserve the triad's $Z_3$ closure. If the substitution operation is non-associative, the result of sequential substitutions depends on the order of evaluation, and the triad's topological protection is destroyed.
+
+$S^3 = \mathrm{SU}(2)$ is a Lie group: associative, with well-defined group multiplication. The weak variation operator on $S^3 \to S^2$ is a consistent, well-defined substitution.
+
+$S^7$ is **not** a Lie group: the unit octonions are non-associative. A "weak variation operator" on $S^7 \to S^4$ would be an inconsistent substitution — $(a \cdot b) \cdot c \neq a \cdot (b \cdot c)$ — and could not preserve topological closure. No well-defined flavor physics is possible over a 4-dimensional base.
+
+**The conclusion.** A consistent weak variation operator requires a Hopf fibration whose total space is a Lie group. The only Hopf fibrations with this property are $S^1 \to S^1$ (trivial) and $S^3 \to S^2$ (the physically realized case). The base must be $S^2$, which means the BST substrate is $S^2 \times S^1$, which produces 3 emergent spatial dimensions (2D base + 1D holonomy encoding through $S^1$ phase). Higher-dimensional substrates ($S^4$, $S^8$) have no consistent variation operator. The weak force is the dimensional lock.
+
+**Why "extra dimensions" cannot exist.** This is not the statement that extra dimensions are unobserved (an empirical claim). It is the statement that extra dimensions are **algebraically excluded** by the requirement that the variation operator be associative. Any universe with more than 3 spatial dimensions has no consistent mechanism for flavor variation, no nucleosynthesis beyond hydrogen and helium, and no complexity. The weak force does not merely operate in 3 dimensions — it *requires* exactly 3 dimensions, from the classification of spheres that are Lie groups ($S^0$, $S^1$, $S^3$ only).
+
+### 14.6 Force Unification in the New Framework
+
+The three forces (EM, strong, contact commitment) are unified at the GUT scale in the structured sense described in Section 6. All three are circuit interactions on $D_{IV}^5$ at different geometric depths. The three boundary conditions (gravity, weak variation, Riemann zeros) are not forces and are not unified — they are the constraints that the geometry imposes on the forces at each layer.
+
+The Standard Model's "four forces" are reinterpreted:
+
+| Standard Model | BST classification | Geometric layer |
+|---|---|---|
+| Electromagnetism | Force | $S^1$ fiber |
+| Gravity | Boundary condition | $S^1$ fiber (collective) |
+| Strong force | Force | $D_{IV}^5$ bulk ($\mathbb{CP}^2$) |
+| Weak force | Boundary condition | $D_{IV}^5$ bulk (Hopf boundary) |
+| *(not in SM)* | Contact commitment (force) | Contact graph |
+| *(not in SM)* | Riemann zeros (boundary condition) | Contact graph (prime spectrum) |
+
+### 14.7 The Higgs Mechanism
 
 The Higgs boson may correspond to a scalar fluctuation mode of the Hopf fibration geometry of the electroweak sector — a radial mode of the symmetry breaking rather than a separate field. The thesis question is well-defined: compute the spectrum of small fluctuations around the ground state of the BST electroweak geometry ($S^3 \to S^2$ Hopf fibration) and determine whether a scalar mode exists with mass $\sim 125$ GeV and the correct coupling structure. If present, the Higgs is explained geometrically. If absent, BST requires additional structure for electroweak symmetry breaking.
 
-### 14.4 The BST Field Equation
+### 14.8 The BST Field Equation
 
 Einstein's field equation $G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G T_{\mu\nu}$ is recovered as the macroscopic limit of BST substrate dynamics. BST does not modify the equation — it derives every term.
 
@@ -1142,7 +1204,7 @@ where $\rho_{137}$ is the channel saturation density ($N_{\max} = 137$ slots ful
 
 At low densities and macroscopic scales, the BST field equation is Einstein's equation, with $G$ and $\Lambda$ taking the values derived in Sections 10.3 and 12.5. Full derivation: `notes/BST_Field_Equation.md`.
 
-### 14.5 Conservation Laws from Substrate Geometry
+### 14.9 Conservation Laws from Substrate Geometry
 
 Every conservation law in physics corresponds to a symmetry of the substrate. Noether's theorem (1915) establishes the symmetry-conservation correspondence, but it takes the symmetries as given. BST derives those symmetries from the geometry of $S^2 \times S^1$ and $D_{IV}^5$, and then goes further: it identifies conservation mechanisms that are *topological* rather than Noetherian — absolute prohibitions that no energy threshold can overcome, because they are completeness conditions on the mathematics itself, not physical restrictions on energetically accessible states.
 
@@ -1207,7 +1269,7 @@ The complete hierarchy:
 
 The deepest conservation law — unitarity — has no Noether analog. Information is conserved not because of a symmetry but because the fiber has no boundary. This is the correct resolution of the black hole information paradox: information cannot be lost because the $S^1$ mode space is complete, which is because $S^1$ is compact, which is because a circle has no edge.
 
-### 14.6 Maxwell's Equations from the Substrate
+### 14.10 Maxwell's Equations from the Substrate
 
 The electromagnetic force is the simplest gauge sector of BST — the U(1) curvature of the $S^1$ fiber over $S^2$. Maxwell's four equations, which took two centuries to assemble from experiment, follow in one step from the geometry of a circle fibered over a sphere. The derivation is not approximate. Every element of classical electromagnetism — the field equations, the wave equation, the speed of light, the coupling constant, gauge invariance, and the absence of magnetic monopoles — is a consequence of $S^2 \times S^1$.
 
@@ -1268,7 +1330,7 @@ The Dirac construction shows that a U(1) bundle over $S^2$ CAN carry a monopole 
 | Gauge invariance | Coordinate freedom | $S^1$ fiber reparameterization |
 | No monopoles | Topology | Trivial Chern class of product bundle $S^2 \times S^1$ |
 
-All of classical electromagnetism — field equations, wave equation, speed of light, coupling constant, gauge invariance, and the absence of monopoles — from the geometry of a circle fibered over a sphere. This is the U(1) sector of BST. Sections 14.2 and 14.3 derive the strong and weak forces from the same substrate by the same method, extended to non-Abelian curvature. Maxwell's equations are the simplest case — which is why electromagnetism was the first force to be understood mathematically.
+All of classical electromagnetism — field equations, wave equation, speed of light, coupling constant, gauge invariance, and the absence of monopoles — from the geometry of a circle fibered over a sphere. This is the U(1) sector of BST. The strong and weak interactions (Sections 14.3, 20) arise from the same substrate by the same method, extended to non-Abelian curvature on $\mathbb{CP}^2$ and the Hopf fibration $S^3 \to S^2$. Maxwell's equations are the simplest case — which is why electromagnetism was the first force to be understood mathematically.
 
 **Thesis topic 95:** Derive the Yang-Mills equations for SU(3) (QCD) and SU(2) (weak) from the curvature of the $\mathbb{CP}^2$ and Hopf $S^3$ connections on the BST substrate, extending the Maxwell derivation to the non-Abelian sectors.
 
@@ -1761,6 +1823,17 @@ The slowness of the variation is essential. The Hopf intersection is a small tar
 
 The weak force is not a force. It is the universe’s mechanism for exploring its own configuration space through controlled variation, at a rate determined by the Hopf fibration geometry on $D_{IV}^5$, slow enough to permit complexity and thorough enough to eventually find every stable configuration.
 
+### 20.6 The Weak Force as Dimensional Lock
+
+The weak variation operator provides a uniquely powerful constraint on the dimensionality of physics. The argument, developed fully in Section 14.5, is summarized here: the Hopf fibration $S^3 \to S^2$ is the unique Hopf fibration whose total space is a Lie group (other than the trivial $S^1 \to S^1$). The next Hopf fibration, $S^7 \to S^4$, has $S^7$ as its total space — the unit octonions, which are non-associative. A variation operator on a non-associative fiber cannot preserve the $Z_3$ closure of triads. Therefore:
+
+- A 2D substrate ($S^2$) supports the $S^3 \to S^2$ Hopf fibration with associative fiber $\mathrm{SU}(2)$. Flavor variation is consistent. 3D physics works.
+- A 4D substrate ($S^4$) would require the $S^7 \to S^4$ Hopf fibration with non-associative fiber. Flavor variation is inconsistent. No weak force. No nucleosynthesis. No complexity.
+
+The weak force does not merely operate in 3 spatial dimensions — it algebraically requires exactly 3, because $\mathrm{SU}(2) = S^3$ is the unique non-trivial sphere that is also a Lie group. This is a classification theorem (Adams 1960), not a physical assumption.
+
+This has a striking implication: the very mechanism that makes the universe complex (controlled flavor variation, enabling nucleosynthesis and chemistry) is the same mechanism that locks the universe to three spatial dimensions. Complexity and dimensionality are not independent properties — they are jointly determined by the associativity of the Hopf fiber.
+
 -----
 
 ## Section 21: Thermodynamic and Information-Theoretic Foundation
@@ -1853,7 +1926,7 @@ The coupling constant $\alpha = 1/137$ appears at every vertex because each cont
 
 **Renormalization is Bergman coarse-graining.** In BST, the running of coupling constants with energy scale is a real physical process: coarse-graining the contact graph from the substrate scale $d_0$ up to the observation scale $\mu$. Each integrated-out mode contributes $\sim 1/137$. The beta function $\beta(g) = \mu\, dg/d\mu$ is the rate of change of the effective Bergman weight with resolution. QED’s coupling grows at short distances because finer resolution reveals more contact structure. QCD’s coupling decreases (asymptotic freedom) because the $Z_3$ circuit topology dilutes effective contact density at high resolution. The Standard Model’s renormalization procedure works because it accidentally mimics Bergman coarse-graining on a Haldane-capped discrete graph.
 
-**Why the diagrams compute correctly.** Conservation laws are automatic because the diagrams are maps of the contact graph, which has the symmetries that produce those laws (Section 14.5). Causality is automatic because the $i\epsilon$ prescription is the commitment direction, not a regularization trick. Crossing symmetry is $S^1$ winding reversal: an incoming electron (winding $-1$) crossed to the final state becomes an outgoing positron (winding $+1$). Quantum anomalies are topological properties of the contact graph — the chiral anomaly counts the index of the Dirac operator on the substrate, a topological invariant that the diagrams capture faithfully because they ARE topological maps.
+**Why the diagrams compute correctly.** Conservation laws are automatic because the diagrams are maps of the contact graph, which has the symmetries that produce those laws (Section 14.9). Causality is automatic because the $i\epsilon$ prescription is the commitment direction, not a regularization trick. Crossing symmetry is $S^1$ winding reversal: an incoming electron (winding $-1$) crossed to the final state becomes an outgoing positron (winding $+1$). Quantum anomalies are topological properties of the contact graph — the chiral anomaly counts the index of the Dirac operator on the substrate, a topological invariant that the diagrams capture faithfully because they ARE topological maps.
 
 The physicist who draws a Feynman diagram is performing substrate geometry. The diagram is the substrate. Every amplitude computed in the past seventy-five years is a contact graph observable computed on $D_{IV}^5$, in a formalism that gave the right answer without knowing what it was computing.
 
@@ -2187,7 +2260,7 @@ This gives a 1.2% reduction, corresponding to $\Delta r_p \approx 0.010$ fm — 
 
 #### Neutrinoless Double Beta Decay — Clean Binary Test
 
-BST predicts Dirac neutrinos: neutrino and antineutrino carry opposite $S^1$ winding directions and are distinct particles. The conservation law $B - L$ is topologically protected by the Hopf invariant (Section 14.5). Neutrinoless double beta decay would require $\Delta(B - L) = 2$, violating a topologically protected conservation law. **BST prediction: neutrinoless double beta decay does not occur.** This is not a probabilistic statement — it is a categorical exclusion by topology.
+BST predicts Dirac neutrinos: neutrino and antineutrino carry opposite $S^1$ winding directions and are distinct particles. The conservation law $B - L$ is topologically protected by the Hopf invariant (Section 14.9). Neutrinoless double beta decay would require $\Delta(B - L) = 2$, violating a topologically protected conservation law. **BST prediction: neutrinoless double beta decay does not occur.** This is not a probabilistic statement — it is a categorical exclusion by topology.
 
 Multiple experiments are searching at or approaching the sensitivity required by the inverted neutrino mass hierarchy ($\sim 20$ meV): GERDA/LEGEND, nEXO, KamLAND-Zen, CUPID. A null result at the inverted hierarchy scale is BST-consistent and progressively constrains Majorana alternatives. A confirmed detection falsifies BST at the topological conservation law level — it would require a fundamental modification of the Hopf bundle structure.
 
@@ -2203,9 +2276,9 @@ The specific BST prediction for $w$ requires computing the substrate growth dyna
 
 Three BST null predictions are being actively tested:
 
-**No magnetic monopoles** (Section 14.6): the trivial Chern class of $S^2 \times S^1$ excludes them. MoEDAL at the LHC searches continuously. Any confirmed detection falsifies the bundle structure of BST.
+**No magnetic monopoles** (Section 14.10): the trivial Chern class of $S^2 \times S^1$ excludes them. MoEDAL at the LHC searches continuously. Any confirmed detection falsifies the bundle structure of BST.
 
-**No SUSY particles:** fermion number $(-1)^F$ is a $\mathbb{Z}_2$ topological invariant (Section 14.5) that SUSY would require to change. No mechanism on the substrate can alter this index. BST excludes SUSY as a theorem. LHC Run 3 and HL-LHC will extend the search to $\sim 3$ TeV.
+**No SUSY particles:** fermion number $(-1)^F$ is a $\mathbb{Z}_2$ topological invariant (Section 14.9) that SUSY would require to change. No mechanism on the substrate can alter this index. BST excludes SUSY as a theorem. LHC Run 3 and HL-LHC will extend the search to $\sim 3$ TeV.
 
 **No dark matter particles:** dark matter is channel noise — incomplete $S^1$ windings that have energy but no integer winding number, hence no charge and no decodable particle identity (Section 16). The LZ and XENONnT experiments search for WIMP-nucleus scattering signals. BST predicts continued null results.
 
@@ -2313,7 +2386,7 @@ The BST framework does not select from alternatives. It follows a single logical
 
 **Step 11 → 12: Cosmic expansion.** The Hubble parameter is $H = \tfrac{1}{2}\dot{N}_c/N_c$ — half the fractional rate of new contact commitment. The Friedmann equation is the contact commitment rate equation. The dark matter term is the uncommitted reservoir draining at $(1+z)^3$; no dark matter particles are needed.
 
-**Step 12 → 13: Conservation laws.** Electric charge is $\pi_1(S^1) = \mathbb{Z}$. Color confinement is $Z_3$ circuit completeness. CPT is a contact graph automorphism. Fermion number is $\pi_1(\mathrm{SO}(3)) = \mathbb{Z}_2$. Unitarity is $S^1$ compactness. Each conservation law is a theorem of the geometry, ranked by topological depth (Section 14.5).
+**Step 12 → 13: Conservation laws.** Electric charge is $\pi_1(S^1) = \mathbb{Z}$. Color confinement is $Z_3$ circuit completeness. CPT is a contact graph automorphism. Fermion number is $\pi_1(\mathrm{SO}(3)) = \mathbb{Z}_2$. Unitarity is $S^1$ compactness. Each conservation law is a theorem of the geometry, ranked by topological depth (Section 14.9).
 
 **Step 13 → 14: Quantum mechanics.** Circuit states are functions on $S^1$; the Hilbert space is $L^2(S^1)$, forced by the fiber geometry. Quantization is integer winding numbers. The Born rule follows from Gleason's theorem. Unitarity follows from $S^1$ compactness. $\hbar$ is the substrate diffusion coefficient. All of quantum mechanics derives from $S^1$ geometry.
 
