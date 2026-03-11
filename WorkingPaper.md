@@ -1,15 +1,60 @@
-# Bubble Spacetime: A Causal-Topological Framework for Fundamental Physics
+---
+title: "Bubble Spacetime: A Causal-Topological Framework for Fundamental Physics"
+subtitle: "Comprehensive Working Paper v8"
+author: "Casey Koons"
+date: "March 2026"
+abstract: |
+  Bubble Spacetime (BST) proposes that the observable universe is the three-dimensional
+  projection of a two-dimensional substrate communicating through a one-dimensional channel.
+  The substrate geometry $S^2 \times S^1$ is derived from structural minimality --- the unique
+  closed, interacting, phase-bearing topology. The configuration space of the resulting contact
+  graph is the type IV bounded symmetric domain $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$,
+  a 10-real-dimensional K\"ahler--Einstein manifold whose Bergman kernel serves as the propagator
+  and whose discrete series representations encode the particle spectrum.
 
-## Comprehensive Working Paper v8
+  From this single geometric identification, with zero free parameters, BST derives:
+  the fine structure constant $\alpha^{-1} = 137.036$ (0.0001\%);
+  the proton-to-electron mass ratio $m_p/m_e = 6\pi^5 = 1836.118$ (0.002\%);
+  the muon-to-electron mass ratio $m_\mu/m_e = (24/\pi^2)^6 = 206.761$ (0.003\%);
+  the cosmological constant $\Lambda$ (0.02\%);
+  the Weinberg angle $\sin^2\theta_W = 3/13$ (0.2\%);
+  the strong coupling $\alpha_s = 7/20$ (exact at the proton scale);
+  all three neutrino masses from a boundary seesaw with $m_1 = 0$ exactly;
+  the baryon asymmetry $\eta = 2\alpha^4/(3\pi)$ (1.4\%);
+  the Hubble constant $H_0 \approx 66.7$ km/s/Mpc (1.0\%);
+  and the full CKM and PMNS mixing matrices as rational functions of the domain dimension $n_C = 5$
+  and the number of colors $N_c = 3$.
+  The Yang--Mills mass gap is proved: the lightest color-neutral bulk excitation has mass
+  $6\pi^5 m_e = 938.272$ MeV, matching the proton mass to 0.002\%.
+  BST predicts normal neutrino ordering, a sum of neutrino masses
+  $\Sigma m_\nu = 0.058$ eV, and galaxy rotation curves from channel noise without dark matter particles.
+  Over 25 parameter-free predictions are presented, all testable against current or near-future experiments.
+documentclass: article
+classoption:
+  - 12pt
+  - a4paper
+header-includes:
+  - \usepackage{amssymb}
+  - \usepackage{amsmath}
+  - \renewcommand{\abstractname}{\large Abstract}
+  - \usepackage{titling}
+  - \pretitle{\begin{center}\LARGE\bfseries}
+  - \posttitle{\par\end{center}\vskip 0.5em}
+  - \preauthor{\begin{center}\large}
+  - \postauthor{\par\end{center}}
+  - \predate{\begin{center}\large}
+  - \postdate{\par\end{center}}
+---
 
-**Author:** Casey Koons
-**Date:** March 2026
-**Status:** Working paper — to be updated with additional calculations or corrections
+\newpage
+\tableofcontents
+\newpage
 
-**Version History:**
-- v8 (March 2026): QFT foundations complete — all six open QFT calculations solved: $\alpha_s = 7/20$ (Section 7.6 note ref); $\eta = 2\alpha^4/(3\pi)$ ($-1.4\%$); $H_0 \approx 66.7$ km/s/Mpc ($-1.0\%$); $\sin^2\theta_W = 3/13$ ($-0.2\%$); neutrino masses from boundary seesaw $m_{\nu_i} = f_i \alpha^2 m_e^2/m_p$ with $m_1 = 0$, $m_2 = 0.00865$ eV, $m_3 = 0.04940$ eV (Section 7.6); CKM and PMNS mixing matrices from $D_{IV}^5$ geometry (Section 7.7). Vacuum quantum identification: the massless $\nu_1$ IS the vacuum ground state; $\Lambda \propto m_\nu^4$ resolves cosmic coincidence problem. Updated Section 25.2 prediction table (now 25+ parameter-free predictions). Updated Section 28.3 open problems (6 items closed). Yang-Mills mass gap proved in companion notes.
-- v6 (March 2026): Added explicit Lie algebra verification of the SO(5)×SO(2) isotropy group (Section 4.4 updated; see companion document `LieAlgebraVerification.md`); S² uniqueness proved by surface classification theorem ruling out T² and all genus ≥ 1 surfaces (Section 2.2); contact form candidate identified as Berry-Hopf connection (Section 4.2); quantum mechanics derived from substrate geometry — Hilbert space, Born rule, unitary evolution, uncertainty principle, and $\hbar$ as diffusion coefficient (Sections 13.5–13.8); universality of $\hbar$ established via D $\propto$ 1/m with mD = m₀ℓ₀ universal; de Broglie relation derived as consequence (Section 13.8); closed-form derivation of Λ — $F_\mathrm{BST} = \ln(138)/50$ from partition function with $\beta_\mathrm{phys} = 2n_C^2$ from Bergman oscillator condition, giving $\Lambda = F_\mathrm{BST} \times \alpha^{56} \times e^{-2}$ at 0.02% (Section 12.5); proton/electron mass ratio derived as $m_p/m_e = (n_C+1)\pi^{n_C} = 6\pi^5 = 1836.118$ (0.002%, Section 7.4); muon/electron mass ratio derived as $m_\mu/m_e = (24/\pi^2)^6 = 206.761$ (0.003%, Section 7.5) from Bergman kernel ratios of $D_{IV}^k$ submanifold embeddings; phase transition temperature derived as $T_c = N_\mathrm{max} \times 20/21$ (0.018%) from $\mathrm{SO}_0(5,2)$ generator count (Section 15.1); Big Bang defined as activation of exactly 1 of the 21 generators of $\mathrm{SO}_0(5,2)$ (the SO(2) fiber rotation), selected uniquely by the Cartan classification theorem; BST field equation and Friedmann equation derived from substrate contact commitment rate; primordial gravitational wave spectrum from pre-spatial phase transition — $f_\mathrm{peak} \approx 6$–9 nHz, in the NANOGrav band (Section 15.6)
-- v5 (March 2026): Merged duplicate sections (Sections 9/13, 10/20); added CR dimension counting argument (Section 4.1); renumbered to 27 sections; fixed cross-references
+## Version History
+
+- **v8** (March 2026): QFT foundations complete --- all six open QFT calculations solved: $\alpha_s = 7/20$; $\eta = 2\alpha^4/(3\pi)$ ($-1.4\%$); $H_0 \approx 66.7$ km/s/Mpc ($-1.0\%$); $\sin^2\theta_W = 3/13$ ($-0.2\%$); neutrino masses from boundary seesaw $m_{\nu_i} = f_i \alpha^2 m_e^2/m_p$ with $m_1 = 0$, $m_2 = 0.00865$ eV, $m_3 = 0.04940$ eV; CKM and PMNS mixing matrices from $D_{IV}^5$ geometry. Vacuum quantum identification: the massless $\nu_1$ IS the vacuum ground state; $\Lambda \propto m_\nu^4$ resolves cosmic coincidence problem. Updated prediction table (now 25+ parameter-free predictions). Yang-Mills mass gap proved in companion notes.
+- **v6** (March 2026): Lie algebra verification of SO(5)$\times$SO(2) isotropy; $S^2$ uniqueness proved; quantum mechanics derived from substrate geometry; closed-form $\Lambda$ derivation; $m_p/m_e = 6\pi^5$; $m_\mu/m_e = (24/\pi^2)^6$; phase transition temperature $T_c$; Big Bang as activation of SO(2) generator; primordial gravitational wave spectrum in NANOGrav band.
+- **v5** (March 2026): Merged duplicate sections; CR dimension counting argument; renumbered to 27 sections.
 
 -----
 
