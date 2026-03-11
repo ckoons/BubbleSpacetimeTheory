@@ -8,7 +8,7 @@
 
 **Version History:**
 - v8 (March 2026): QFT foundations complete — all six open QFT calculations solved: $\alpha_s = 7/20$ (Section 7.6 note ref); $\eta = 2\alpha^4/(3\pi)$ ($-1.4\%$); $H_0 \approx 66.7$ km/s/Mpc ($-1.0\%$); $\sin^2\theta_W = 3/13$ ($-0.2\%$); neutrino masses from boundary seesaw $m_{\nu_i} = f_i \alpha^2 m_e^2/m_p$ with $m_1 = 0$, $m_2 = 0.00865$ eV, $m_3 = 0.04940$ eV (Section 7.6); CKM and PMNS mixing matrices from $D_{IV}^5$ geometry (Section 7.7). Vacuum quantum identification: the massless $\nu_1$ IS the vacuum ground state; $\Lambda \propto m_\nu^4$ resolves cosmic coincidence problem. Updated Section 25.2 prediction table (now 25+ parameter-free predictions). Updated Section 28.3 open problems (6 items closed). Yang-Mills mass gap proved in companion notes.
-- v6 (March 2026): Added explicit Lie algebra verification of the SO(5)×SO(2) isotropy group (Section 4.4 updated; see companion document `LieAlgebraVerification.md`); S² uniqueness proved by surface classification theorem ruling out T² and all genus ≥ 1 surfaces (Section 2.2); contact form candidate identified as Berry-Hopf connection (Section 4.2); quantum mechanics derived from substrate geometry — Hilbert space, Born rule, unitary evolution, uncertainty principle, and ℏ as diffusion coefficient (Sections 13.5–13.8); universality of ℏ established via D ∝ 1/m with mD = m₀ℓ₀ universal; de Broglie relation derived as consequence (Section 13.8); closed-form derivation of Λ — $F_\mathrm{BST} = \ln(138)/50$ from partition function with $\beta_\mathrm{phys} = 2n_C^2$ from Bergman oscillator condition, giving $\Lambda = F_\mathrm{BST} \times \alpha^{56} \times e^{-2}$ at 0.02% (Section 12.5); proton/electron mass ratio derived as $m_p/m_e = (n_C+1)\pi^{n_C} = 6\pi^5 = 1836.118$ (0.002%, Section 7.4); muon/electron mass ratio derived as $m_\mu/m_e = (24/\pi^2)^6 = 206.761$ (0.003%, Section 7.5) from Bergman kernel ratios of $D_{IV}^k$ submanifold embeddings; phase transition temperature derived as $T_c = N_\mathrm{max} \times 20/21$ (0.018%) from $\mathrm{SO}_0(5,2)$ generator count (Section 15.1); Big Bang defined as activation of exactly 1 of the 21 generators of $\mathrm{SO}_0(5,2)$ (the SO(2) fiber rotation), selected uniquely by the Cartan classification theorem; BST field equation and Friedmann equation derived from substrate contact commitment rate; primordial gravitational wave spectrum from pre-spatial phase transition — $f_\mathrm{peak} \approx 6$–9 nHz, in the NANOGrav band (Section 15.6)
+- v6 (March 2026): Added explicit Lie algebra verification of the SO(5)×SO(2) isotropy group (Section 4.4 updated; see companion document `LieAlgebraVerification.md`); S² uniqueness proved by surface classification theorem ruling out T² and all genus ≥ 1 surfaces (Section 2.2); contact form candidate identified as Berry-Hopf connection (Section 4.2); quantum mechanics derived from substrate geometry — Hilbert space, Born rule, unitary evolution, uncertainty principle, and $\hbar$ as diffusion coefficient (Sections 13.5–13.8); universality of $\hbar$ established via D $\propto$ 1/m with mD = m₀ℓ₀ universal; de Broglie relation derived as consequence (Section 13.8); closed-form derivation of Λ — $F_\mathrm{BST} = \ln(138)/50$ from partition function with $\beta_\mathrm{phys} = 2n_C^2$ from Bergman oscillator condition, giving $\Lambda = F_\mathrm{BST} \times \alpha^{56} \times e^{-2}$ at 0.02% (Section 12.5); proton/electron mass ratio derived as $m_p/m_e = (n_C+1)\pi^{n_C} = 6\pi^5 = 1836.118$ (0.002%, Section 7.4); muon/electron mass ratio derived as $m_\mu/m_e = (24/\pi^2)^6 = 206.761$ (0.003%, Section 7.5) from Bergman kernel ratios of $D_{IV}^k$ submanifold embeddings; phase transition temperature derived as $T_c = N_\mathrm{max} \times 20/21$ (0.018%) from $\mathrm{SO}_0(5,2)$ generator count (Section 15.1); Big Bang defined as activation of exactly 1 of the 21 generators of $\mathrm{SO}_0(5,2)$ (the SO(2) fiber rotation), selected uniquely by the Cartan classification theorem; BST field equation and Friedmann equation derived from substrate contact commitment rate; primordial gravitational wave spectrum from pre-spatial phase transition — $f_\mathrm{peak} \approx 6$–9 nHz, in the NANOGrav band (Section 15.6)
 - v5 (March 2026): Merged duplicate sections (Sections 9/13, 10/20); added CR dimension counting argument (Section 4.1); renumbered to 27 sections; fixed cross-references
 
 -----
@@ -42,10 +42,44 @@ All results below are derived from the geometry of $D_{IV}^5$ with zero free par
 | Phase transition temperature $T_c$ | $N_{\rm max}\times 20/21$ | **0.018%** | 15.1 |
 | Gravitational constant $G$ | $\hbar c\,(6\pi^5)^2\alpha^{24}/m_e^2$ — HC complete | **0.034%**† | 10.3 |
 | Contact scale $d_0/\ell_{\rm Pl}$ | $\alpha^{14}\times e^{-1/2}$ | — | 12.5 |
+| Strong coupling $\alpha_s(m_p)$ | $(n_C{+}2)/(4n_C) = 7/20$ | **~0%** | 7.6 note |
+| Weinberg angle $\sin^2\theta_W$ | $N_c/(N_c{+}2n_C) = 3/13$ | **0.2%** | 6.3 |
+| Baryon asymmetry $\eta$ | $2\alpha^4/(3\pi)$ | **1.4%** | 7.6 note |
+| Hubble constant $H_0$ | 66.7 km/s/Mpc from $\eta$ | **1.0%** | 12.6 |
+| Neutrino masses $m_{\nu_2}, m_{\nu_3}$ | $(7/12)\alpha^2 m_e^2/m_p$, $(10/3)\alpha^2 m_e^2/m_p$ | **0.35%, 1.8%** | 7.6 |
+| PMNS angles $\theta_{12}, \theta_{23}, \theta_{13}$ | $3/10$, $4/7$, $1/45$ | **1%, 0.1%, 0.9%** | 7.7 |
+| Cabibbo angle $\sin\theta_C$ | $1/(2\sqrt{5})$ | **0.3%** | 7.7 |
 | SPARC rotation curves (175 galaxies) | Channel noise, no dark matter | $\chi^2/\nu < 1$ | 19 |
 | NANOGrav GW spectrum | Phase transition at $T_c=0.487$ MeV, $f_{\rm peak}\approx 6$–9 nHz | In band | 15.6 |
 
 †The 0.034% residual in $m_e/m_{\rm Pl}$ (and hence $G$) has no clean closed-form identification. The Wyler formula precision ($\Delta\alpha/\alpha \approx 6\times10^{-7}$, amplified $12\times$ = $0.0007\%$) accounts for only $\sim 2\%$ of it. No simple one-loop QED formula matches. The residual $\Delta S = 0.000326$ in the Bergman action is an open calculation.
+
+### 1.5 The One Cycle
+
+The universe runs one essential cycle:
+
+> **Light is emitted $\to$ touches the universe $\to$ brings back information $\to$ information is stored $\to$ the substrate emits light $\to$ the cycle continues.**
+
+This is the literal operation of the contact graph on $S^2 \times S^1$. A committed contact releases a phase oscillation (photon). The oscillation reaches another bubble. Phases compare — information is exchanged. The receiving bubble commits — its phase is permanently determined, the contact graph grows by one entry. The newly committed contact participates in the next round. Every physical phenomenon is this cycle running on $S^2 \times S^1$ with configuration space $D_{IV}^5$.
+
+Every particle plays a role in this cycle:
+
+| Particle | What it IS on the substrate | Role in the cycle |
+|---|---|---|
+| **Photon** | Phase oscillation on $S^1$, zero winding | The messenger — carries information between contacts |
+| **Electron** | One complete $S^1$ winding — the minimal circuit | The simplest persistent commitment |
+| **Proton** | Three quarks, $Z_3$ closure on $\mathbb{CP}^2$ — first bulk resonance | The first complete sentence — mass gap = $6\pi^5 m_e$ |
+| **Neutron** | Proton with one flavor changed via Hopf intersection | The proton rephrased — same structure, different content |
+| **Neutrino** | The vacuum quantum — propagating ground state of $D_{IV}^5$ | The silence between words — the vacuum checking on itself |
+| **Quarks** | Partial $Z_3$ circuits on $\mathbb{CP}^2$ — fragments | Letters, not words — meaningful only in combination |
+| **W/Z bosons** | Hopf fibration excitations on $S^3 \to S^2$ | The editor — changes meaning (flavor) at a cost (mass) |
+| **Gluon** | $Z_3$ phase mediator on $\mathbb{CP}^2$ | The binding — holds the sentence (baryon) together |
+| **Dark matter** | Channel noise — incomplete windings, non-integer | The blank page — not empty, has capacity |
+| **Higgs** | Scalar fluctuation of committed Hopf geometry | The choice — which vacuum orientation was committed |
+
+The electron (boundary excitation, $k=1$, below Wallach set) is light because it lives on the Shilov boundary $\check{S} = S^4 \times S^1$. The proton (bulk resonance, $k=6$, Bergman space $\pi_6$) is heavy because it resonates through the full interior of $D_{IV}^5$. The neutrino ($m_1 = 0$ exactly) is the vacuum itself — the substrate's geometric ground state in propagating form. The mass ratio $m_p/m_e = 6\pi^5$ measures how much more geometry the proton traverses compared to the electron's single winding.
+
+Full particle descriptions: `notes/BST_ParticleFamily_Portrait.md`.
 
 -----
 
@@ -162,13 +196,13 @@ The derivation chain requires that the local isotropy group of the BST contact s
 
 | Check | Pairs tested | Result |
 |-------|-------------|--------|
-| All generators in $\mathfrak{so}(5,2)$ | 21 | ✓ |
-| $[\mathfrak{k},\mathfrak{k}] \subseteq \mathfrak{k}$ | 121 | ✓ |
-| $[\mathfrak{k},\mathfrak{m}] \subseteq \mathfrak{m}$ | 110 | ✓ |
-| $[\mathfrak{m},\mathfrak{m}] \subseteq \mathfrak{k}$ — symmetric space | 100 | ✓ |
-| Dimension chain: $\dim_{\mathbb{C}}(G/K) = 5$, Shilov $= S^4 \times S^1$ | — | ✓ |
-| SO(2) rotation of fiber pairs | 2 | ✓ |
-| Complex structure $J^2 = -1$ on $\mathfrak{m} \cong \mathbb{C}^5$ | 10 | ✓ |
+| All generators in $\mathfrak{so}(5,2)$ | 21 | $\checkmark$ |
+| $[\mathfrak{k},\mathfrak{k}] \subseteq \mathfrak{k}$ | 121 | $\checkmark$ |
+| $[\mathfrak{k},\mathfrak{m}] \subseteq \mathfrak{m}$ | 110 | $\checkmark$ |
+| $[\mathfrak{m},\mathfrak{m}] \subseteq \mathfrak{k}$ — symmetric space | 100 | $\checkmark$ |
+| Dimension chain: $\dim_{\mathbb{C}}(G/K) = 5$, Shilov $= S^4 \times S^1$ | — | $\checkmark$ |
+| SO(2) rotation of fiber pairs | 2 | $\checkmark$ |
+| Complex structure $J^2 = -1$ on $\mathfrak{m} \cong \mathbb{C}^5$ | 10 | $\checkmark$ |
 
 All 7 checks pass. The symmetric space condition $[\mathfrak{m},\mathfrak{m}] \subseteq \mathfrak{k}$ — the defining algebraic property of $D_{IV}^5$ — holds exactly. The complex structure on $\mathfrak{m}$ confirms that $D_{IV}^5$ is a Hermitian symmetric space, which is the condition required for the Bergman kernel construction to produce Wyler's formula.
 
@@ -253,7 +287,7 @@ Each step is forced. The Cartan classification is a theorem — given the group 
 |------|--------|-------------|
 | I | SU(p,q)/S[U(p)×U(q)] | Different isotropy group |
 | II | SO*(2n)/U(n) | Different isotropy group |
-| III | Sp(n,ℝ)/U(n) | Different isotropy group |
+| III | Sp(n,$\mathbb{R}$)/U(n) | Different isotropy group |
 | **IV** | **SO(n,2)/[SO(n)×SO(2)]** | **$n = 5$ from CR dimension** |
 | V | $E_6$ quotient | Different isotropy group |
 | VI | $E_7$ quotient | Different isotropy group |
@@ -682,9 +716,9 @@ $$S_{\mathrm{Bergman}} \;=\; \underbrace{3\ln K_5}_{5.509} \;+\; \underbrace{2(n
 
 | Piece | Formula | Value | Geometric origin |
 |---|---|---|---|
-| $S_A$ | $3\ln K_5 = -3\ln\mathrm{Vol}(D_{IV}^5)$ | $+5.509$ | Bergman kernel normalization ✓ |
-| $S_B$ | $2(n_C{+}1)\ln\!\left(\tfrac{8\pi^4}{(n_C{-}2)^2}\right)$ | $+53.534$ | HC Weyl vector: $\rho_2 = (n_C{-}2)/2$ ✓ |
-| $S_C$ | $-\ln((n_C{+}1)\pi^{n_C})$ | $-7.515$ | $m_p/m_e = 6\pi^5$ Bergman formula ✓ |
+| $S_A$ | $3\ln K_5 = -3\ln\mathrm{Vol}(D_{IV}^5)$ | $+5.509$ | Bergman kernel normalization $\checkmark$ |
+| $S_B$ | $2(n_C{+}1)\ln\!\left(\tfrac{8\pi^4}{(n_C{-}2)^2}\right)$ | $+53.534$ | HC Weyl vector: $\rho_2 = (n_C{-}2)/2$ $\checkmark$ |
+| $S_C$ | $-\ln((n_C{+}1)\pi^{n_C})$ | $-7.515$ | $m_p/m_e = 6\pi^5$ Bergman formula $\checkmark$ |
 
 All three pieces are identified as geometric invariants of $D_{IV}^5$. $S_B$ is derived from the Harish-Chandra Weyl vector $\rho_2 = (n_C-2)/2 = 3/2$ (the $S^1$ spectral component of $\mathrm{SO}_0(5,2)$, Section 5.1). The result is a closed-form expression in $n_C = 5$ and $\pi$ alone — no observational input.
 
@@ -1538,8 +1572,8 @@ The wavefront does not stop at the antipode. It passes through, re-diverges, pro
 
 | Echo | Path | Information carried |
 |---|---|---|
-| Primary ring | Nucleation → observer | Phase transition energy, critical exponents |
-| First echo | Nucleation → antipode → observer | Substrate diameter, topology |
+| Primary ring | Nucleation $\to$ observer | Phase transition energy, critical exponents |
+| First echo | Nucleation $\to$ antipode $\to$ observer | Substrate diameter, topology |
 | Second echo | Full circuit of $S^2$ | Substrate curvature, damping rate |
 | $n$-th echo | $n$ half-crossings | Expansion history over $n$ crossings |
 
@@ -2031,7 +2065,7 @@ The standard cosmological account has no principled explanation for why the univ
 
 BST’s answer is structural. Matter exists because the universe has a time direction. The time direction biases forward windings. Forward windings are matter. The magnitude of the bias is determined by the geometry of the domain on which the phase transition occurs. No tuning. No new physics. Just the fact that a phase transition on a complex domain with a definite causal direction produces a slight preference for windings aligned with that direction.
 
-One chain: $D_{IV}^5$ is complex → domain has natural complex phases → CP violation is geometric → phase transition establishes commitment direction → forward windings slightly favored → matter exceeds antimatter → we exist.
+One chain: $D_{IV}^5$ is complex $\to$ domain has natural complex phases $\to$ CP violation is geometric $\to$ phase transition establishes commitment direction $\to$ forward windings slightly favored $\to$ matter exceeds antimatter $\to$ we exist.
 
 -----
 
@@ -2165,37 +2199,37 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 
 |Prediction                           |BST Value                        |Observed        |Status     |
 |-------------------------------------|---------------------------------|----------------|-----------|
-|Fine structure constant $\alpha^{-1}$|$137.036082$ (Wyler, $D_{IV}^5$ volume)|$137.035999$ (CODATA)|✓ 0.0001%|
-|$\alpha^{-1}$ independent derivation|$137.035$ (cost function + Bergman mixing, $D_{IV}^5$ mode density)|$137.036$ (Wyler)|✓ 5 ppm|
-|Cosmological constant $\Lambda$      |$F_{\mathrm{BST}} \times \alpha^{56} \times e^{-2} = 2.8994\times10^{-122}$|$2.90\times10^{-122}$ Pl|✓ 0.02%|
-|Vacuum free energy $F_{\mathrm{BST}}$ |$\ln(N_{\max}+1)/(2n_C^2) = \ln(138)/50 = 0.098545$| 0.09855 (partition fn)| ✓ exact |
-|Committed contact scale $d_0/\ell_{\rm Pl}$ |$\alpha^{2(n_C+2)} \times e^{-1/2} = \alpha^{14} \times e^{-1/2} = 7.365\times10^{-31}$ | $7.37\times10^{-31}$ (from observed $\Lambda$) | ✓ 0.005% |
-|Phase transition temperature $T_c$   |$N_{\max} \times 20/21 = 130.476$ BST units |$130.5$ BST units (partition fn)|✓ 0.018%|
-|GUT coupling $N_{GUT}$               |$4\pi^2 \approx 39.48$           |$\sim 40$ (1.3%)|✓          |
-|Weinberg angle $\sin^2\theta_W$      |$N_c/(N_c + 2n_C) = 3/13 = 0.23077$|0.23122 (MS-bar)|✓ 0.2%     |
-|W boson mass $m_W$                   |$m_Z\sqrt{10/13} = 79.977$ GeV  |80.377 GeV      |✓ 0.5%     |
-|Strong coupling $\alpha_s(m_p)$      |$(n_C+2)/(4n_C) = 7/20 = 0.350$ |~0.35           |✓ ~0%      |
-|Strong coupling $\alpha_s(m_Z)$      |1-loop running from 7/20         |0.1179          |✓ 1.7%     |
-|Baryon asymmetry $\eta$              |$2\alpha^4/(3\pi) = 6.018\times10^{-10}$|$(6.104\pm0.058)\times10^{-10}$|✓ 1.4%|
-|Hubble constant $H_0$               |66.7 km/s/Mpc (from $\eta$)      |$67.36\pm0.54$ (Planck)|✓ 1.0%|
-|Neutrino mass $m_{\nu_3}$           |$(10/3)\alpha^2 m_e^2/m_p = 0.0494$ eV|$\approx 0.050$ eV|✓ 1.8%|
-|Neutrino mass $m_{\nu_2}$           |$(7/12)\alpha^2 m_e^2/m_p = 0.00865$ eV|$\approx 0.00868$ eV|✓ 0.35%|
-|Neutrino mass $m_{\nu_1}$           |0 (exactly, Z₃ Goldstone)        |$< 0.009$ eV    |✓ prediction|
-|Solar splitting $\Delta m^2_{21}$    |$m_{\nu_2}^2 = 7.48\times10^{-5}$ eV²|$(7.53\pm0.18)\times10^{-5}$ eV²|✓ 0.7%|
-|Mass ratio $m_{\nu_3}/m_{\nu_2}$    |$40/7 = 5.714$                   |$\approx 5.79$  |✓ 1.4%     |
-|PMNS $\sin^2\theta_{12}$            |$N_c/(2n_C) = 3/10 = 0.300$     |$0.303\pm0.012$ |✓ 1.0%     |
-|PMNS $\sin^2\theta_{23}$            |$(n_C-1)/(n_C+2) = 4/7 = 0.5714$|$0.572\pm0.018$ |✓ 0.1%     |
-|PMNS $\sin^2\theta_{13}$            |$1/(n_C(2n_C-1)) = 1/45 = 0.02222$|$0.02203\pm0.00056$|✓ 0.9%|
-|CKM Cabibbo angle $\sin\theta_C$    |$1/(2\sqrt{n_C}) = 1/(2\sqrt{5}) = 0.2236$|$0.2243\pm0.0005$|✓ 0.3%|
-|Number of colors $N_c$               |3 (from $Z_3$ center)            |3               |✓          |
-|Baryon = 3 quarks                    |Required by $Z_3$ closure        |Observed        |✓          |
-|Proton radius                        |0.94 fm (geometric)              |0.87 fm (8%)    |✓          |
-|Proton/electron mass ratio           |$(n_C+1)\pi^{n_C} = 6\pi^5 = 1836.118$|$1836.153$|✓ 0.002%|
-|Muon/electron mass ratio             |$(24/\pi^2)^6 = [K_3(0,0)/K_1(0,0)]^{\dim_{\mathbb{R}}(D_{IV}^3)}= 206.761$|$206.768$|✓ 0.003%|
-|Hierarchy / Newton's G               |$m_e/\sqrt{m_p \cdot m_{\rm Pl}} = \alpha^{n_C+1} = \alpha^6$|$1.5098\times10^{-13}$|✓ 0.017%|
-|Wyler constant origin (HC)           |$9/(8\pi^4) = \rho_2^2/(2\pi^4)$, $\rho_2=(n_C{-}2)/2=3/2$ — Weyl vector of $\mathrm{SO}_0(5,2)$|Exact|✓ Derived|
+|Fine structure constant $\alpha^{-1}$|$137.036082$ (Wyler, $D_{IV}^5$ volume)|$137.035999$ (CODATA)|$\checkmark$ 0.0001%|
+|$\alpha^{-1}$ independent derivation|$137.035$ (cost function + Bergman mixing, $D_{IV}^5$ mode density)|$137.036$ (Wyler)|$\checkmark$ 5 ppm|
+|Cosmological constant $\Lambda$      |$F_{\mathrm{BST}} \times \alpha^{56} \times e^{-2} = 2.8994\times10^{-122}$|$2.90\times10^{-122}$ Pl|$\checkmark$ 0.02%|
+|Vacuum free energy $F_{\mathrm{BST}}$ |$\ln(N_{\max}+1)/(2n_C^2) = \ln(138)/50 = 0.098545$| 0.09855 (partition fn)| $\checkmark$ exact |
+|Committed contact scale $d_0/\ell_{\rm Pl}$ |$\alpha^{2(n_C+2)} \times e^{-1/2} = \alpha^{14} \times e^{-1/2} = 7.365\times10^{-31}$ | $7.37\times10^{-31}$ (from observed $\Lambda$) | $\checkmark$ 0.005% |
+|Phase transition temperature $T_c$   |$N_{\max} \times 20/21 = 130.476$ BST units |$130.5$ BST units (partition fn)|$\checkmark$ 0.018%|
+|GUT coupling $N_{GUT}$               |$4\pi^2 \approx 39.48$           |$\sim 40$ (1.3%)|$\checkmark$          |
+|Weinberg angle $\sin^2\theta_W$      |$N_c/(N_c + 2n_C) = 3/13 = 0.23077$|0.23122 (MS-bar)|$\checkmark$ 0.2%     |
+|W boson mass $m_W$                   |$m_Z\sqrt{10/13} = 79.977$ GeV  |80.377 GeV      |$\checkmark$ 0.5%     |
+|Strong coupling $\alpha_s(m_p)$      |$(n_C+2)/(4n_C) = 7/20 = 0.350$ |~0.35           |$\checkmark$ ~0%      |
+|Strong coupling $\alpha_s(m_Z)$      |1-loop running from 7/20         |0.1179          |$\checkmark$ 1.7%     |
+|Baryon asymmetry $\eta$              |$2\alpha^4/(3\pi) = 6.018\times10^{-10}$|$(6.104\pm0.058)\times10^{-10}$|$\checkmark$ 1.4%|
+|Hubble constant $H_0$               |66.7 km/s/Mpc (from $\eta$)      |$67.36\pm0.54$ (Planck)|$\checkmark$ 1.0%|
+|Neutrino mass $m_{\nu_3}$           |$(10/3)\alpha^2 m_e^2/m_p = 0.0494$ eV|$\approx 0.050$ eV|$\checkmark$ 1.8%|
+|Neutrino mass $m_{\nu_2}$           |$(7/12)\alpha^2 m_e^2/m_p = 0.00865$ eV|$\approx 0.00868$ eV|$\checkmark$ 0.35%|
+|Neutrino mass $m_{\nu_1}$           |0 (exactly, Z₃ Goldstone)        |$< 0.009$ eV    |$\checkmark$ prediction|
+|Solar splitting $\Delta m^2_{21}$    |$m_{\nu_2}^2 = 7.48\times10^{-5}$ eV²|$(7.53\pm0.18)\times10^{-5}$ eV²|$\checkmark$ 0.7%|
+|Mass ratio $m_{\nu_3}/m_{\nu_2}$    |$40/7 = 5.714$                   |$\approx 5.79$  |$\checkmark$ 1.4%     |
+|PMNS $\sin^2\theta_{12}$            |$N_c/(2n_C) = 3/10 = 0.300$     |$0.303\pm0.012$ |$\checkmark$ 1.0%     |
+|PMNS $\sin^2\theta_{23}$            |$(n_C-1)/(n_C+2) = 4/7 = 0.5714$|$0.572\pm0.018$ |$\checkmark$ 0.1%     |
+|PMNS $\sin^2\theta_{13}$            |$1/(n_C(2n_C-1)) = 1/45 = 0.02222$|$0.02203\pm0.00056$|$\checkmark$ 0.9%|
+|CKM Cabibbo angle $\sin\theta_C$    |$1/(2\sqrt{n_C}) = 1/(2\sqrt{5}) = 0.2236$|$0.2243\pm0.0005$|$\checkmark$ 0.3%|
+|Number of colors $N_c$               |3 (from $Z_3$ center)            |3               |$\checkmark$          |
+|Baryon = 3 quarks                    |Required by $Z_3$ closure        |Observed        |$\checkmark$          |
+|Proton radius                        |0.94 fm (geometric)              |0.87 fm (8%)    |$\checkmark$          |
+|Proton/electron mass ratio           |$(n_C+1)\pi^{n_C} = 6\pi^5 = 1836.118$|$1836.153$|$\checkmark$ 0.002%|
+|Muon/electron mass ratio             |$(24/\pi^2)^6 = [K_3(0,0)/K_1(0,0)]^{\dim_{\mathbb{R}}(D_{IV}^3)}= 206.761$|$206.768$|$\checkmark$ 0.003%|
+|Hierarchy / Newton's G               |$m_e/\sqrt{m_p \cdot m_{\rm Pl}} = \alpha^{n_C+1} = \alpha^6$|$1.5098\times10^{-13}$|$\checkmark$ 0.017%|
+|Wyler constant origin (HC)           |$9/(8\pi^4) = \rho_2^2/(2\pi^4)$, $\rho_2=(n_C{-}2)/2=3/2$ — Weyl vector of $\mathrm{SO}_0(5,2)$|Exact|$\checkmark$ Derived|
 |$D_{IV}^5$ identification            |Proven from BST contact geometry |—               |Established|
-|Friedmann equation                   |Contact commitment rate equation $H=(1/2)\dot{N}_c/N_c$ recovers all FLRW terms|FLRW cosmology|✓ exact structure|
+|Friedmann equation                   |Contact commitment rate equation $H=(1/2)\dot{N}_c/N_c$ recovers all FLRW terms|FLRW cosmology|$\checkmark$ exact structure|
 
 ### 25.3 One-Parameter Predictions (Condensate $\chi$)
 
@@ -2433,37 +2467,37 @@ The null predictions (monopoles, SUSY, dark matter particles) are falsifiable by
 
 The BST framework does not select from alternatives. It follows a single logical chain from one question — *what is the minimum structure capable of producing physics?* — through a cascade of forced steps. No choices are made. No parameters are adjusted. No alternatives are viable at any step. Each step is forced by the inadequacy of the simpler alternative and the uniqueness theorems of mathematics.
 
-**Step 0 → 1: Something must exist.** The simplest possible structure is a one-dimensional object. But a line has endpoints — boundaries — which require additional structure to specify. The simplest structure must therefore be *closed*. The unique closed one-dimensional object is a circle: $S^1$.
+**Step 0 $\to$ 1: Something must exist.** The simplest possible structure is a one-dimensional object. But a line has endpoints — boundaries — which require additional structure to specify. The simplest structure must therefore be *closed*. The unique closed one-dimensional object is a circle: $S^1$.
 
-**Step 1 → 2: Interaction requires a surface.** A single circle is isolated. Multiple circles interact by touching — sharing a contact point. Circles touching requires a surface to tile on. The simplest such surface must be closed (no boundaries) and simply connected (so the $S^1$ fiber remains the unique communication channel — any base with non-contractible loops generates competing, unobserved circuit families). The classification of closed orientable surfaces is complete; only $S^2$ (genus 0) satisfies both conditions. The base is uniquely $S^2$.
+**Step 1 $\to$ 2: Interaction requires a surface.** A single circle is isolated. Multiple circles interact by touching — sharing a contact point. Circles touching requires a surface to tile on. The simplest such surface must be closed (no boundaries) and simply connected (so the $S^1$ fiber remains the unique communication channel — any base with non-contractible loops generates competing, unobserved circuit families). The classification of closed orientable surfaces is complete; only $S^2$ (genus 0) satisfies both conditions. The base is uniquely $S^2$.
 
-**Step 2 → 3: Communication requires a channel.** Each circle already carries a natural degree of freedom: its phase — a position on $S^1$. This phase encodes the relationship between contacting circles and is the communication channel. No external channel is needed. The substrate is $S^2 \times S^1$: circles tiling a sphere, communicating through phase.
+**Step 2 $\to$ 3: Communication requires a channel.** Each circle already carries a natural degree of freedom: its phase — a position on $S^1$. This phase encodes the relationship between contacting circles and is the communication channel. No external channel is needed. The substrate is $S^2 \times S^1$: circles tiling a sphere, communicating through phase.
 
-**Step 3 → 4: Three dimensions.** Three is the minimum dimensionality of a self-communicating surface: two for $S^2$, one for $S^1$. This is BST's answer to "why three spatial dimensions" — three is the unique answer to "what is the minimum dimensionality of a self-organizing information surface."
+**Step 3 $\to$ 4: Three dimensions.** Three is the minimum dimensionality of a self-communicating surface: two for $S^2$, one for $S^1$. This is BST's answer to "why three spatial dimensions" — three is the unique answer to "what is the minimum dimensionality of a self-organizing information surface."
 
-**Step 4 → 5: The gauge structure.** The contact geometry has two sectors: the color sector (quark circuits on $\mathbb{CP}^2$ with $Z_3$ closure, $N_c = 3$ complex dimensions) and the electroweak sector (Hopf fibration $S^3 \to S^2$, $N_w = 2$ complex dimensions). The total CR dimension is $n_C = N_c + N_w = 3 + 2 = 5$. The number $N_c = 3$ is forced: a closed circuit on a 2-dimensional surface requires at least 3 vertices — the triangle is the minimal closed polygon, and $Z_3$ is the minimal non-trivial closure. The gauge structure of the Standard Model — three colors, two electroweak dimensions — is geometrically necessary, not chosen.
+**Step 4 $\to$ 5: The gauge structure.** The contact geometry has two sectors: the color sector (quark circuits on $\mathbb{CP}^2$ with $Z_3$ closure, $N_c = 3$ complex dimensions) and the electroweak sector (Hopf fibration $S^3 \to S^2$, $N_w = 2$ complex dimensions). The total CR dimension is $n_C = N_c + N_w = 3 + 2 = 5$. The number $N_c = 3$ is forced: a closed circuit on a 2-dimensional surface requires at least 3 vertices — the triangle is the minimal closed polygon, and $Z_3$ is the minimal non-trivial closure. The gauge structure of the Standard Model — three colors, two electroweak dimensions — is geometrically necessary, not chosen.
 
-**Step 5 → 6: The configuration space is $D_{IV}^5$.** The derivation chain Chern-Moser (1974) → Harish-Chandra (1956) → Cartan classification → Hua (1958) is fully determined by $n_C = 5$. The bounded symmetric domain is uniquely $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$. No alternatives exist in Cartan's classification.
+**Step 5 $\to$ 6: The configuration space is $D_{IV}^5$.** The derivation chain Chern-Moser (1974) $\to$ Harish-Chandra (1956) $\to$ Cartan classification $\to$ Hua (1958) is fully determined by $n_C = 5$. The bounded symmetric domain is uniquely $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$. No alternatives exist in Cartan's classification.
 
-**Step 6 → 7: $\alpha = 1/137$.** The channel capacity of $S^1$ within $D_{IV}^5$ is given by the Wyler formula — the Bergman metric weight at the Shilov boundary, computed from the Harish-Chandra Weyl vector $\rho_2 = (n_C-2)/2 = 3/2$ of $\mathrm{SO}_0(5,2)$: $\alpha = (9/8\pi^4)({\pi^5}/{1920})^{1/4} = 1/137.036$ at 0.0001% with no free parameters. The maximum channel occupancy is $N_{\max} = \lfloor 1/\alpha \rfloor = 137$.
+**Step 6 $\to$ 7: $\alpha = 1/137$.** The channel capacity of $S^1$ within $D_{IV}^5$ is given by the Wyler formula — the Bergman metric weight at the Shilov boundary, computed from the Harish-Chandra Weyl vector $\rho_2 = (n_C-2)/2 = 3/2$ of $\mathrm{SO}_0(5,2)$: $\alpha = (9/8\pi^4)({\pi^5}/{1920})^{1/4} = 1/137.036$ at 0.0001% with no free parameters. The maximum channel occupancy is $N_{\max} = \lfloor 1/\alpha \rfloor = 137$.
 
-**Step 7 → 8: The mass spectrum.** Each particle is a circuit topology on $D_{IV}^5$. Its mass is the Bergman embedding cost: $m_p/m_e = (n_C+1)\pi^{n_C} = 6\pi^5 = 1836.118$ (0.002%); $m_\mu/m_e = (24/\pi^2)^6 = 206.761$ (0.003%). Every mass ratio is a geometric invariant of the domain.
+**Step 7 $\to$ 8: The mass spectrum.** Each particle is a circuit topology on $D_{IV}^5$. Its mass is the Bergman embedding cost: $m_p/m_e = (n_C+1)\pi^{n_C} = 6\pi^5 = 1836.118$ (0.002%); $m_\mu/m_e = (24/\pi^2)^6 = 206.761$ (0.003%). Every mass ratio is a geometric invariant of the domain.
 
-**Step 8 → 9: Newton's $G$.** The Bergman action decomposes into three geometric pieces giving $m_e/m_{\rm Pl} = \sqrt{6\pi^5} \times \alpha^6$, so $G = \hbar c(6\pi^5)^2\alpha^{24}/m_e^2$ (0.034%). Gravity is weak because $\alpha^{24} \approx 10^{-52}$ — the weakness is $\alpha$ raised to $8N_c = 8 \times 3$ powers, a consequence of there being three quark colors.
+**Step 8 $\to$ 9: Newton's $G$.** The Bergman action decomposes into three geometric pieces giving $m_e/m_{\rm Pl} = \sqrt{6\pi^5} \times \alpha^6$, so $G = \hbar c(6\pi^5)^2\alpha^{24}/m_e^2$ (0.034%). Gravity is weak because $\alpha^{24} \approx 10^{-52}$ — the weakness is $\alpha$ raised to $8N_c = 8 \times 3$ powers, a consequence of there being three quark colors.
 
-**Step 9 → 10: The cosmological constant.** The partition function gives vacuum free energy $F_{\rm BST} = \ln(138)/50$ and committed contact scale $d_0/\ell_{\rm Pl} = \alpha^{14} \times e^{-1/2}$. Together: $\Lambda = F_{\rm BST} \times \alpha^{56} \times e^{-2} = 2.8993 \times 10^{-122}$ Planck units at 0.02%. The cosmological constant is small because $\alpha \approx 1/137$ appears to the 56th power — a consequence of $n_C = 5$.
+**Step 9 $\to$ 10: The cosmological constant.** The partition function gives vacuum free energy $F_{\rm BST} = \ln(138)/50$ and committed contact scale $d_0/\ell_{\rm Pl} = \alpha^{14} \times e^{-1/2}$. Together: $\Lambda = F_{\rm BST} \times \alpha^{56} \times e^{-2} = 2.8993 \times 10^{-122}$ Planck units at 0.02%. The cosmological constant is small because $\alpha \approx 1/137$ appears to the 56th power — a consequence of $n_C = 5$.
 
-**Step 10 → 11: The Big Bang.** The Lie algebra $\mathfrak{so}(5,2)$ has 21 generators, all frozen in the pre-spatial phase. At $T_c = N_{\max} \times 20/21 = 0.487$ MeV, exactly one — the SO(2) fiber rotation — unfreezes. This is the minimum symmetry breaking that produces a Hermitian symmetric space with a Bergman kernel; no other single-generator activation is self-sustaining. The Big Bang is one generator unfreezing, selected by the Cartan classification theorem, not by initial conditions.
+**Step 10 $\to$ 11: The Big Bang.** The Lie algebra $\mathfrak{so}(5,2)$ has 21 generators, all frozen in the pre-spatial phase. At $T_c = N_{\max} \times 20/21 = 0.487$ MeV, exactly one — the SO(2) fiber rotation — unfreezes. This is the minimum symmetry breaking that produces a Hermitian symmetric space with a Bergman kernel; no other single-generator activation is self-sustaining. The Big Bang is one generator unfreezing, selected by the Cartan classification theorem, not by initial conditions.
 
-**Step 11 → 12: Cosmic expansion.** The Hubble parameter is $H = \tfrac{1}{2}\dot{N}_c/N_c$ — half the fractional rate of new contact commitment. The Friedmann equation is the contact commitment rate equation. The dark matter term is the uncommitted reservoir draining at $(1+z)^3$; no dark matter particles are needed.
+**Step 11 $\to$ 12: Cosmic expansion.** The Hubble parameter is $H = \tfrac{1}{2}\dot{N}_c/N_c$ — half the fractional rate of new contact commitment. The Friedmann equation is the contact commitment rate equation. The dark matter term is the uncommitted reservoir draining at $(1+z)^3$; no dark matter particles are needed.
 
-**Step 12 → 13: Conservation laws.** Electric charge is $\pi_1(S^1) = \mathbb{Z}$. Color confinement is $Z_3$ circuit completeness. CPT is a contact graph automorphism. Fermion number is $\pi_1(\mathrm{SO}(3)) = \mathbb{Z}_2$. Unitarity is $S^1$ compactness. Each conservation law is a theorem of the geometry, ranked by topological depth (Section 14.9).
+**Step 12 $\to$ 13: Conservation laws.** Electric charge is $\pi_1(S^1) = \mathbb{Z}$. Color confinement is $Z_3$ circuit completeness. CPT is a contact graph automorphism. Fermion number is $\pi_1(\mathrm{SO}(3)) = \mathbb{Z}_2$. Unitarity is $S^1$ compactness. Each conservation law is a theorem of the geometry, ranked by topological depth (Section 14.9).
 
-**Step 13 → 14: Quantum mechanics.** Circuit states are functions on $S^1$; the Hilbert space is $L^2(S^1)$, forced by the fiber geometry. Quantization is integer winding numbers. The Born rule follows from Gleason's theorem. Unitarity follows from $S^1$ compactness. $\hbar$ is the substrate diffusion coefficient. All of quantum mechanics derives from $S^1$ geometry.
+**Step 13 $\to$ 14: Quantum mechanics.** Circuit states are functions on $S^1$; the Hilbert space is $L^2(S^1)$, forced by the fiber geometry. Quantization is integer winding numbers. The Born rule follows from Gleason's theorem. Unitarity follows from $S^1$ compactness. $\hbar$ is the substrate diffusion coefficient. All of quantum mechanics derives from $S^1$ geometry.
 
-**Step 14 → 15: General relativity.** Gravity is the thermodynamic equation of state of the contact graph. The Einstein field equation is the constitutive relation between contact density (source) and emergent geometry (response). BST provides the microstates that Jacobson's derivation requires.
+**Step 14 $\to$ 15: General relativity.** Gravity is the thermodynamic equation of state of the contact graph. The Einstein field equation is the constitutive relation between contact density (source) and emergent geometry (response). BST provides the microstates that Jacobson's derivation requires.
 
-**Step 15 → 16: Feynman diagrams.** Diagrams are maps of the contact graph. Vertices are contact points on $S^2$. Propagators are Bergman Green's functions. Loops are sums over uncommitted substrate configurations. The coupling constant is the Bergman metric weight. They compute exactly because they describe the substrate exactly (Section 21.8).
+**Step 15 $\to$ 16: Feynman diagrams.** Diagrams are maps of the contact graph. Vertices are contact points on $S^2$. Propagators are Bergman Green's functions. Loops are sums over uncommitted substrate configurations. The coupling constant is the Bergman metric weight. They compute exactly because they describe the substrate exactly (Section 21.8).
 
 $$\boxed{\begin{aligned}
 &\varnothing \;\to\; S^1 \;\to\; S^2 \;\to\; S^2{\times}S^1 \;\to\; n_C{=}5 \;\to\; D_{IV}^5 \;\to\; \alpha \;\to\; \text{masses} \\[4pt]
