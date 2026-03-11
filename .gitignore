@@ -1,6 +1,9 @@
 
 # Paper source files — readers get PDFs
 
+# notes/maybe is speculation we keep private for now
+notes/maybe
+
 # Python
 __pycache__/
 *.pyc
