@@ -407,23 +407,21 @@ The couplings do not converge to a point. They converge to a structure: electrow
 
 ### 6.3 The Weinberg Angle
 
-The Weinberg angle $\sin^2\theta_W$ is the ratio of the electromagnetic to electroweak couplings. In BST, this ratio is determined by the geometry of the Hopf fibration $S^3 \to S^2$ that mediates the electroweak interaction.
+The Weinberg angle $\sin^2\theta_W$ measures the mixing between $\mathrm{SU}(2)_L$ and $\mathrm{U}(1)_Y$ in the electroweak sector. In BST, this mixing is geometric: it is the ratio of the color sector dimension to the total gauge-active dimension of $D_{IV}^5$.
 
-$$\sin^2\theta_W = \frac{3}{8} \times \frac{4\pi^2}{N_{GUT}} \approx 0.234$$
+$$\boxed{\sin^2\theta_W = \frac{N_c}{N_c + 2n_C} = \frac{3}{3 + 10} = \frac{3}{13} = 0.23077}$$
 
-The measured value is 0.231 (at the Z pole). Agreement to 1.3% with no free parameters.
+matching the $\overline{\mathrm{MS}}$ value 0.23122 to **0.2%** with no free parameters. The numerator $N_c = 3$ counts color directions; the denominator $N_c + 2n_C = 13$ is color ($N_c = 3$) plus the real dimension of $D_{IV}^5$ ($2n_C = 10$) — the total number of gauge-active real dimensions. The physical interpretation: $\sin^2\theta_W$ measures what fraction of the gauge interaction comes from the color sector (hypercharge) versus the full geometric structure.
 
-**Direct dimension ratio (March 2026).** A more precise result comes from the D_IV^5 dimension ratio:
+**Consequences.** The double angle gives $\cos 2\theta_W = 7/13$, connecting the Weinberg angle to the same genus $7 = n_C + 2$ that appears in $\alpha_s = 7/20$, $H_{\mathrm{YM}} = 7/(10\pi)$, and $\beta_0 = 7$. The W mass follows from the tree-level relation:
 
-$$\sin^2\theta_W = \frac{N_c}{N_c + 2n_C} = \frac{3}{3 + 10} = \frac{3}{13} = 0.23077$$
+$$m_W = m_Z\sqrt{1 - 3/13} = m_Z\sqrt{10/13} = 79.977 \text{ GeV} \quad (0.5\% \text{ from observed } 80.377 \text{ GeV})$$
 
-matching the MS-bar value 0.23122 to 0.2% with no free parameters. The numerator $N_c = 3$ counts color directions; the denominator $N_c + 2n_C = 13$ is color plus twice the complex dimension of D_IV^5. This gives cos 2θ_W = (2n_C − N_c)/(2n_C + N_c) = 7/13, connecting to the same genus 7 = n_C + 2 that appears in α_s = 7/20, H_YM = 7/(10π), and β₀ = 7. The W mass follows: m_W = m_Z√(1 − 3/13) = m_Z√(10/13) = 79.977 GeV (0.5% from observed 80.377 GeV). Full derivation: `notes/BST_WeinbergAngle_Sin2ThetaW.md`.
+The 0.5% deviation is consistent with radiative corrections (loop effects shift $m_W$ upward by $\sim 0.3$--$0.7$ GeV from tree level).
 
-**Derivation of 3/8.** The factor 3/8 is the GUT-scale Weinberg angle, identical to the standard SU(5) prediction. In BST, it arises from the normalization of the hypercharge generator in the contact structure:
+**Relation to the standard GUT value 3/8.** The standard $\mathrm{SU}(5)$ prediction is $\sin^2\theta_W = 3/8 = 0.375$ at the GUT scale. In BST, 3/8 arises from using the complex dimension $n_C$ in the denominator instead of the real dimension $2n_C$: $N_c/(N_c + n_C) = 3/8$. The BST result $3/13$ is the low-energy value; the $D_{IV}^5$ geometry already incorporates the renormalization group flow. No explicit running is needed because the domain geometry encodes the full scale dependence.
 
-The total CR dimension is $n_C = N_c + N_w = 3 + 2 = 5$. The electromagnetic U(1) coupling shares normalization with the SU(2) weak coupling because both arise from the $N_w = 2$ electroweak winding dimensions. The hypercharge trace normalization over the fundamental representation (analogous to the SU(5) trace condition $\mathrm{Tr}(Y^2) = \mathrm{Tr}(T_3^2)$) gives:
-$$\sin^2\theta_W = \frac{N_c}{N_c + n_C} = \frac{3}{3 + 5} = \frac{3}{8}$$
-The numerator $N_c = 3$ counts the color sector (the dimensions that contribute to the hypercharge normalization via $Z_3$ closure); the denominator $N_c + n_C = 3 + 5 = 8$ is the total BST contact dimension. At the GUT scale, $N_{GUT} = 4\pi^2$ and the low-energy value is $\sin^2\theta_W = (3/8) \times (4\pi^2/N_{GUT}) = 3/8$ — the running from GUT to Z-pole reduces this by $\approx 2\%$, giving the observed 0.231.
+Full derivation: `notes/BST_WeinbergAngle_Sin2ThetaW.md`.
 
 ### 6.4 Number of Colors
 
