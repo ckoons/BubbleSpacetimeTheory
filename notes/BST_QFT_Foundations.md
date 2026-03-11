@@ -535,13 +535,21 @@ The framework enables the following specific calculations, listed by priority:
 
 **Full details:** `BST_WeinbergAngle_Sin2ThetaW.md`
 
-### Priority 1 (Open): Neutrino Masses
+### SOLVED: Neutrino Masses ✓
+
+**Result:** m_νi = f_i × α² × m_e²/m_p (boundary seesaw). m₁ = 0, m₂ = 0.00865 eV (−0.35%), m₃ = 0.04940 eV (−1.8%). Solar splitting Δm²₂₁ = m₂² matches to 0.7%. Mass ratio m₃/m₂ = 40/7 = 5.714.
+
+**Derivation:** BST seesaw m_e²/m_p (boundary²/bulk) × α² (two EW vertices) × geometric factors from D_IV^5 (f₃ = 2n_C/N_c = 10/3, f₂ = (n_C+2)/(4N_c) = 7/12, f₁ = 0).
+
+**Full details:** `BST_NeutrinoMasses.md`
+
+### Priority 1 (Open): CKM and PMNS Matrices
 
 **Target:** m_ν < 0.1 eV (cosmological bound); mass-squared differences known from oscillations.
 
 **Method:** Neutrinos are boundary excitations on Š = S⁴ × S¹ with weight k below the Wallach set, like the electron. Their masses arise from the Bergman energy at temperature T_ν ~ 2 MeV (neutrino decoupling temperature). The hierarchy m_ν₁ < m_ν₂ < m_ν₃ should follow from the representation structure of SO₀(5,2) below k_min = 3.
 
-### Priority 2 (Open): CKM and PMNS Matrices
+### Priority 1 (Open): CKM and PMNS Matrices
 
 **Target:** The quark and lepton mixing matrices.
 
@@ -595,13 +603,16 @@ The Wick rotation β ↔ it/ℏ connecting them is not a mathematical trick — 
 | **H₀ ≈ 66.7 km/s/Mpc** | **Computed** | **1.0%** |
 | **sin²θ_W = 3/13** | **Derived** | **0.2%** |
 | **m_W = 79.98 GeV** | **Computed** | **0.5%** |
+| **m_ν₃ = 0.0494 eV** | **Derived** | **1.8%** |
+| **m_ν₂ = 0.00865 eV** | **Derived** | **0.35%** |
+| **m₁ = 0 (exactly)** | **Predicted** | **—** |
+| **Δm²₂₁ = 7.48 × 10⁻⁵ eV²** | **Computed** | **0.7%** |
 
 ### Open (Remaining Targets)
 
 | Target | Priority | Difficulty |
 |--------|----------|------------|
-| Neutrino masses | 1 | High — below-Wallach boundary states |
-| CKM/PMNS matrices | 2 | High — two geometric bases |
+| CKM/PMNS matrices | 1 | High — two geometric bases |
 | Newton's G from first principles | 3 | α^{12} pattern: (α²)⁶ from Bergman layers? |
 | 2-loop α_s running (close 1.7% gap) | 4 | Numerical |
 | Higher-order η correction (close 1.4% gap) | 5 | Numerical |
