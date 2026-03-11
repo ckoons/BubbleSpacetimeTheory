@@ -2,7 +2,7 @@
 
 **Author:** Casey Koons & Claude (Anthropic)
 **Date:** March 2026
-**Status:** Foundation document — formal QFT framework on D_IV^5. Four of six open calculations now complete: α_s, η, H₀, sin²θ_W. Remaining: neutrino masses, CKM/PMNS.
+**Status:** Foundation document — formal QFT framework on D_IV^5. All six open calculations complete: α_s, η, H₀, sin²θ_W, neutrino masses, CKM/PMNS.
 
 -----
 
@@ -347,13 +347,24 @@ Five-step proof:
 4. No color-neutral state with 0 < C₂ < 6 (Wallach set k_min = 3)
 5. Gap = C₂ × π^{n_C} × m_e = 6π⁵ × m_e (1920 cancellation)
 
-### 9.4 Open Masses
+### 9.4 Neutrino Masses (Derived)
+
+| Neutrino | Formula | Mass (eV) | Observed | Precision |
+|----------|---------|-----------|----------|-----------|
+| ν₁ | 0 | **0** | < 0.009 | Exact prediction |
+| ν₂ | (7/12) × α² × m_e²/m_p | **0.00865** | ≈ 0.00868 | 0.35% |
+| ν₃ | (10/3) × α² × m_e²/m_p | **0.04940** | ≈ 0.0503 | 1.8% |
+
+The neutrino IS the vacuum quantum: ν₁ (m₁ = 0 exactly) is the vacuum ground state; ν₂ and ν₃ are vacuum fluctuations. Neutrino oscillation = vacuum shifting between geometric modes on D_IV^5. See `BST_VacuumQuantum_NeutrinoLambda.md` for the connection Λ ∝ m_ν⁴.
+
+Full details: `BST_NeutrinoMasses.md`
+
+### 9.5 Open Masses
 
 | Particle | Current status | What's needed |
 |----------|---------------|---------------|
-| Neutrinos (ν_e, ν_μ, ν_τ) | Not yet derived | Boundary excitations below Wallach; Bergman energy at T_ν ~ 2 MeV |
-| W boson | Not yet derived | Hopf fibration mass from S³→S² geometry |
-| Z boson | Not yet derived | Related to W by Weinberg angle |
+| W boson | m_W = m_Z√(10/13) = 79.977 GeV (0.5%) | Full Hopf fibration derivation |
+| Z boson | Input (from sin²θ_W = 3/13) | — |
 | Higgs | Not yet derived | Scalar fluctuation of Hopf geometry |
 
 -----
@@ -543,19 +554,15 @@ The framework enables the following specific calculations, listed by priority:
 
 **Full details:** `BST_NeutrinoMasses.md`
 
-### Priority 1 (Open): CKM and PMNS Matrices
+### SOLVED: CKM and PMNS Mixing Matrices ✓
 
-**Target:** m_ν < 0.1 eV (cosmological bound); mass-squared differences known from oscillations.
+**PMNS results:** sin²θ₁₂ = N_c/(2n_C) = 3/10 = 0.300 (−1.0% from NuFIT 0.303); sin²θ₂₃ = (n_C−1)/(n_C+2) = 4/7 = 0.5714 (−0.1% from NuFIT 0.572); sin²θ₁₃ = 1/(n_C(2n_C−1)) = 1/45 = 0.02222 (+0.9% from NuFIT 0.02203).
 
-**Method:** Neutrinos are boundary excitations on Š = S⁴ × S¹ with weight k below the Wallach set, like the electron. Their masses arise from the Bergman energy at temperature T_ν ~ 2 MeV (neutrino decoupling temperature). The hierarchy m_ν₁ < m_ν₂ < m_ν₃ should follow from the representation structure of SO₀(5,2) below k_min = 3.
+**CKM results:** sinθ_C = 1/(2√n_C) = 1/(2√5) = 0.2236 (−0.3% from PDG 0.2243); A = (n_C−1)/n_C = 4/5 (Wolfenstein parameter); |V_cb| = A × sinθ_C² = 4/125 = 0.0400 (−2.7% from PDG 0.0411).
 
-### Priority 1 (Open): CKM and PMNS Matrices
+**Physical insight:** PMNS angles are large because neutrinos are vacuum modes (no Bergman suppression); CKM angles are small because quarks carry Bergman embedding weight. All six angles are ratios of n_C = 5 and N_c = 3.
 
-**Target:** The quark and lepton mixing matrices.
-
-**Method:** These encode the mismatch between mass eigenstates and weak-interaction eigenstates. In BST, this mismatch is the angle between Bergman bulk eigenstates (mass, from H_YM) and Hopf fiber eigenstates (weak interaction, from S³→S² geometry). The CKM and PMNS matrices are the rotation matrices between these two geometric bases.
-
-### Note: Weinberg Angle — SOLVED (see above)
+**Full details:** `BST_CKM_PMNS_MixingMatrices.md`
 
 -----
 
@@ -607,15 +614,21 @@ The Wick rotation β ↔ it/ℏ connecting them is not a mathematical trick — 
 | **m_ν₂ = 0.00865 eV** | **Derived** | **0.35%** |
 | **m₁ = 0 (exactly)** | **Predicted** | **—** |
 | **Δm²₂₁ = 7.48 × 10⁻⁵ eV²** | **Computed** | **0.7%** |
+| **sin²θ₁₂ = 3/10 (PMNS)** | **Derived** | **1.0%** |
+| **sin²θ₂₃ = 4/7 (PMNS)** | **Derived** | **0.1%** |
+| **sin²θ₁₃ = 1/45 (PMNS)** | **Derived** | **0.9%** |
+| **sinθ_C = 1/(2√5) (CKM)** | **Derived** | **0.3%** |
+| **|V_cb| = 4/125 (CKM)** | **Derived** | **2.7%** |
 
 ### Open (Remaining Targets)
 
 | Target | Priority | Difficulty |
 |--------|----------|------------|
-| CKM/PMNS matrices | 1 | High — two geometric bases |
-| Newton's G from first principles | 3 | α^{12} pattern: (α²)⁶ from Bergman layers? |
-| 2-loop α_s running (close 1.7% gap) | 4 | Numerical |
-| Higher-order η correction (close 1.4% gap) | 5 | Numerical |
+| Newton's G from first principles | 1 | α^{12} pattern: (α²)⁶ from Bergman layers? |
+| Tau mass geometric derivation | 2 | Bergman metric (not kernel at origin) needed |
+| 2-loop α_s running (close 1.7% gap) | 3 | Numerical |
+| Higher-order η correction (close 1.4% gap) | 4 | Numerical |
+| W/Z masses from Hopf fibration | 5 | S³→S² geometry |
 
 -----
 
