@@ -67,11 +67,12 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | τ_n (neutron lifetime) | Fermi theory + BST inputs, g_A=4/π | ≈898 s | 878.4 ± 0.5 s | 2.1% |
 | g_A (axial coupling) | 4/π (candidate) | 1.2732 | 1.2762 | 0.23% |
 | ⁷Li/H (lithium-7) | Δg=genus=7 at T_c=0.487 MeV | ~1.7×10⁻¹⁰ | 1.6×10⁻¹⁰ | 7% |
+| r_p (proton radius) | dim_R(CP²)/m_p = 4ℏ/(m_p c) | 0.8412 fm | 0.84075 fm | 0.058% |
 | Dark matter ratio | Shannon: B·log₂(1+S/N) | 5.33:1 | 5.4:1 (Planck) | 0.10 pp |
 | Galaxy rotation curves | Channel noise S/N | 12.5 km/s RMS | — | 175 galaxies, 0 params |
 | CP floor (BH horizon) | α × 2GM/(Rc²) = α | 0.730% | ~1% (EHT) | consistent |
 
-**56+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
+**57+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
 
 ---
 

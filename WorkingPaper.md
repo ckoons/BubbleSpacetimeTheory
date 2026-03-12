@@ -569,9 +569,11 @@ The charged/neutral current split is not imposed on BST — it is the canonical 
 
 ### 7.1 Proton Radius
 
-The proton radius in BST is the geometric size of the packing configuration for a three-quark circuit with $Z_3$ closure on $\mathbb{CP}^2$. The bare geometric estimate gives $r_p \approx 0.94$ fm, compared to the measured value of $0.87$ fm. Agreement to 8% with no free parameters.
+The proton charge radius is the spatial extent of the $Z_3$ circuit on $\mathbb{CP}^2$. The circuit extends over all $\dim_{\mathbb{R}}(\mathbb{CP}^2) = 4$ real directions of the circuit space, each contributing one proton Compton wavelength:
 
-The 8% discrepancy is expected to reduce when the chiral condensate correction (Section 11) is applied to the geometric calculation. The proton radius requires no condensate correction in the leading approximation because it is a geometric size determined by circuit length rather than a propagation quantity.
+$$r_p = \frac{\dim_{\mathbb{R}}(\mathbb{CP}^2)}{m_p} = \frac{4\hbar}{m_p c} = 0.8412\;\text{fm} \quad (0.058\%\text{ from CODATA } 0.84075 \pm 0.00064)$$
+
+The integer 4 = $2(N_c - 1)$ connects the proton's charge radius directly to the color geometry. BST predicts the muonic hydrogen value, siding with the smaller radius in the proton radius puzzle. See `notes/BST_ProtonRadius.md`.
 
 ### 7.2 Nuclear Shell Structure
 
@@ -934,7 +936,7 @@ The bare BST values represent single-circuit geometry on an empty substrate. Phy
 |Glueball mass |490 MeV   |$n \approx 1.5$|$\sim 2$ GeV    |1.5–1.7 GeV|
 |$g_{\pi NN}$  |3.4       |$n=1$          |$\sim 19$       |13.5       |
 |Spin-orbit    |0.04 MeV  |$n=2$          |$\sim 1.1$ MeV  |0.5–2 MeV  |
-|Proton radius |0.94 fm   |$n=0$          |0.94 fm         |0.87 fm    |
+|Proton radius |$4/m_p$   |$n=0$          |0.8412 fm       |0.8408 fm  |
 
 The proton radius requires no condensate correction because it is a geometric size determined by circuit length, not a propagation quantity. Similarly, the proton/electron mass ratio $m_p/m_e = 6\pi^5$ (Section 7.4) requires no condensate correction — it is the Bergman kernel power $\times$ domain volume factor for the $Z_3$ baryon circuit relative to the minimal winding, a purely geometric ratio that does not involve the effective impedance from circuit-anticircuit condensation. The condensate enhances propagation energies uniformly, not the mass ratios between different circuit topologies.
 
@@ -2486,7 +2488,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Top quark mass $m_t$                |$(1-\alpha)v/\sqrt{2} = 172.75$ GeV|$172.69\pm0.30$ GeV|$\checkmark$ 0.037%|
 |Number of colors $N_c$               |3 (from $Z_3$ center)            |3               |$\checkmark$          |
 |Baryon = 3 quarks                    |Required by $Z_3$ closure        |Observed        |$\checkmark$          |
-|Proton radius                        |0.94 fm (geometric)              |0.87 fm (8%)    |$\checkmark$          |
+|Proton charge radius $r_p$           |$\dim_{\mathbb{R}}(\mathbb{CP}^2)/m_p = 4\hbar/(m_p c) = 0.8412$ fm|$0.84075 \pm 0.00064$ fm (CODATA)|$\checkmark$ 0.058%|
 |Proton/electron mass ratio           |$(n_C+1)\pi^{n_C} = 6\pi^5 = 1836.118$|$1836.153$|$\checkmark$ 0.002%|
 |Muon/electron mass ratio             |$(24/\pi^2)^6 = [K_3(0,0)/K_1(0,0)]^{\dim_{\mathbb{R}}(D_{IV}^3)}= 206.761$|$206.768$|$\checkmark$ 0.003%|
 |Tau/electron mass ratio              |$(24/\pi^2)^6 \times (7/3)^{10/3} = 3483.8$|$3477.2$|$\checkmark$ 0.19%|
