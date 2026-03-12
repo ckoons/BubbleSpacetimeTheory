@@ -239,6 +239,7 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 
 | Problem | BST Resolution | Precision |
 |---|---|---|
+| BST Lagrangian | 6-term action S_BST on D(IV,5), all couplings derived, zero free params | complete |
 | Yang-Mills mass gap | C₂ = 6 spectral gap on D(IV,5); m_p = 6π⁵ mₑ | 0.002% |
 | Strong CP problem (θ = 0) | D_IV^5 contractible → c₂ = 0 → θ-term vanishes identically | exact |
 | Proton spin puzzle | ΔΣ = N_c/(2n_C) = 3/10; color dims / total dims | 0% |
@@ -267,6 +268,8 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | EHT verification of CP = α floor | Awaiting data access / recalibration | 4 |
 | Full numerical BBN code | Lithium-7 quantitative (qualitative already solved) | 5 |
 | Pion/kaon radii | Meson circuits on CP¹ need different treatment from baryons | 6 |
+
+**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem.
 
 ---
 
