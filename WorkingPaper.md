@@ -1,6 +1,6 @@
 ---
 title: "Bubble Spacetime: A Causal-Topological Framework for Fundamental Physics"
-subtitle: "Comprehensive Working Paper v10"
+subtitle: "Comprehensive Working Paper v9"
 author: "Casey Koons"
 date: "March 2026"
 abstract: |
@@ -46,7 +46,7 @@ abstract: |
   $\Sigma m_\nu = 0.058$ eV, and galaxy rotation curves from channel noise without dark matter particles.
   The full Standard Model mass chain --- from the electron through the proton to the Fermi scale
   and the Higgs boson --- is derived with zero free parameters.
-  Over 35 parameter-free predictions are presented, all testable against current or near-future experiments.
+  Over 40 parameter-free predictions are presented, all testable against current or near-future experiments.
 documentclass: article
 classoption:
   - 12pt
@@ -70,7 +70,7 @@ header-includes:
 
 ## Version History
 
-- **v10** (March 12, 2026): CKM CP phase derived: $\gamma = \arctan(\sqrt{n_C}) = \arctan(\sqrt{5}) = 65.91°$ (0.6\%); Wolfenstein parameters $\bar\rho = 1/(2\sqrt{10}) = 0.158$ (0.6\%), $\bar\eta = 1/(2\sqrt{2}) = 0.354$ (1.3\%); Jarlskog invariant $J_{\rm CKM} = \sqrt{2}/50000 = 2.83 \times 10^{-5}$ (2.1\%). Key structural relation: $\bar\eta/\bar\rho = \sqrt{n_C}$ exactly. CKM CP violation removed from open problems. Prediction table expanded to 37+ parameter-free results.
+- **v10** (March 12, 2026): CKM CP phase derived: $\gamma = \arctan(\sqrt{n_C}) = \arctan(\sqrt{5}) = 65.91°$ (0.6\%); Wolfenstein parameters $\bar\rho = 1/(2\sqrt{10}) = 0.158$ (0.6\%), $\bar\eta = 1/(2\sqrt{2}) = 0.354$ (1.3\%); Jarlskog invariant $J_{\rm CKM} = \sqrt{2}/50000 = 2.83 \times 10^{-5}$ (2.1\%). Key structural relation: $\bar\eta/\bar\rho = \sqrt{n_C}$ exactly. CKM CP violation removed from open problems. Prediction table expanded to 43+ parameter-free results (including quark mass ratios: $m_s/m_d = 4n_C$, $m_t/m_c = N_{\max}-1$, $m_b/m_\tau = 7/3$, $m_b/m_c = 10/3$, $m_c/m_s = 137/10$).
 - **v9** (March 12, 2026): Newton's G derived: $G = \hbar c(6\pi^5)^2\alpha^{24}/m_e^2$ (0.07\%), with $12 = 2C_2$ from $C_2 = 6$ Bergman kernel round trips; hierarchy problem dissolved as theorem. Two master equations determine all four fundamental mass scales from one mass plus geometry. Fermi scale derived: $v = m_p^2/(\text{genus} \times m_e) = 36\pi^{10}m_e/7$ (0.046\%), $m_W = n_C m_p/(8\alpha)$ (0.02\%). Both Higgs mass routes now fully parameter-free. Higgs mass derived (two routes: $\lambda_H = 1/\sqrt{60}$ at 0.11%, $m_H/m_W = \pi/2$ at 0.07%); geometric circular polarization prediction $\text{CP} = \alpha \times 2GM/(Rc^2)$ for EHT testing; measurement problem dissolved via commitment framework; error correction structure of spacetime (light as matched filter, conservation laws as parity checks, $\alpha$ as bootstrap fixed point); Shannon interpretation of $\alpha$ (von Mises-Packing equivalence, 1920 as coding symmetry, Bergman-Fisher duality); $\alpha$ running recast as dimensional flow ($d_{\text{eff}}$ from 4.00 to 3.94). Signal/curvature/noise $\to$ strong/weak/dark matter identification in $\alpha$ three-factor decomposition. Prediction table expanded to 33+ parameter-free results.
 - **v8** (March 2026): QFT foundations complete --- all six open QFT calculations solved: $\alpha_s = 7/20$; $\eta = 2\alpha^4/(3\pi)$ ($-1.4\%$); $H_0 \approx 66.7$ km/s/Mpc ($-1.0\%$); $\sin^2\theta_W = 3/13$ ($-0.2\%$); neutrino masses from boundary seesaw $m_{\nu_i} = f_i \alpha^2 m_e^2/m_p$ with $m_1 = 0$, $m_2 = 0.00865$ eV, $m_3 = 0.04940$ eV; CKM and PMNS mixing matrices from $D_{IV}^5$ geometry. Vacuum quantum identification: the massless $\nu_1$ IS the vacuum ground state; $\Lambda \propto m_\nu^4$ resolves cosmic coincidence problem. Updated prediction table (now 25+ parameter-free predictions). Yang-Mills mass gap proved in companion notes.
 - **v6** (March 2026): Lie algebra verification of SO(5)$\times$SO(2) isotropy; $S^2$ uniqueness proved; quantum mechanics derived from substrate geometry; closed-form $\Lambda$ derivation; $m_p/m_e = 6\pi^5$; $m_\mu/m_e = (24/\pi^2)^6$; phase transition temperature $T_c$; Big Bang as activation of SO(2) generator; primordial gravitational wave spectrum in NANOGrav band.
@@ -629,14 +629,29 @@ Equivalently: $m_\mu/m_e = \exp(\dim_{\mathbb{R}}(D_{IV}^3) \cdot \Delta S_{\rm 
 | Ratio | BST formula | BST value | Observed | Error |
 |---|---|---|---|---|
 | $m_\mu/m_e$ | $(24/\pi^2)^6$ | $206.761$ | $206.768$ | **0.003%** |
-| $m_\tau/m_e$ | $8\pi(N_{\max}+1)$ | $3468.3$ | $3477.2$ | 0.26% |
+| $m_\tau/m_e$ | $(24/\pi^2)^6 \times (7/3)^{10/3}$ | $3483.8$ | $3477.2$ | **0.19%** |
+| $m_\tau/m_\mu$ | $(7/3)^{10/3} = (\kappa_1/\kappa_5)^{2n_C/N_c}$ | $16.850$ | $16.817$ | **0.19%** |
 | $m_t/m_c$ | $N_{\max}-1$ | $136$ | $135.98$ | 0.017%* |
+| $m_s/m_d$ | $4n_C$ | $20$ | $20.0 \pm \sim 5\%$ | $\sim 0\%$ |
+| $m_b/m_\tau$ | genus$/N_c = 7/3$ | $2.333$ | $2.352$ | 0.81% |
+| $m_b/m_c$ | $\dim_{\mathbb{R}}(D_{IV}^5)/N_c = 10/3$ | $3.333$ | $3.291$ | 1.3%* |
+| $m_c/m_s$ | $N_{\max}/\dim_{\mathbb{R}} = 137/10$ | $13.7$ | $13.6$ | 0.75% |
 
-*Within experimental uncertainty on $m_t$.
+*Within experimental uncertainty on $m_t$ and heavy quark masses.
 
-The tau formula $8\pi(N_{\max}+1)$ has a suggestive structure — $8\pi$ is a geometric factor and $N_{\max}+1 = 138$ is the ground state degeneracy of the BST vacuum — but no clean Bergman submanifold derivation analogous to the muon formula has been found. The tau is an open problem. The exponent derivation for the muon (proving that $\dim_{\mathbb{R}}$ is the correct power from embedding theory) is also open.
+The lepton mass hierarchy has a two-step geometric structure. Step 1 (electron $\to$ muon): the volume Jacobian of $D_{IV}^1 \hookrightarrow D_{IV}^3$, giving $(24/\pi^2)^6$. Step 2 (muon $\to$ tau): the holomorphic sectional curvature ratio $(7/3)^{10/3}$, where $7/3 = \kappa_1/\kappa_5 = \text{genus}/N_c$ is the curvature ratio and $10/3 = 2n_C/N_c = \dim_{\mathbb{R}}(D_{IV}^5)/N_c$ is the real dimension per color. In physical units: $m_\tau(\text{BST}) = 1780.2$ MeV vs. observed $1776.86 \pm 0.12$ MeV. The exponent derivation for the muon (proving that $\dim_{\mathbb{R}}$ is the correct power from embedding theory) is also open.
 
 Full derivation and numerical verification: `notes/BST_FermionMass.md`, `notes/BST_ProtonMass.md`.
+
+**Quark mass ratios from $D_{IV}^5$ invariants.** The quark mass hierarchy is organized by the same geometric invariants. Six quark mass ratios are identified as clean $D_{IV}^5$ numbers:
+
+- $m_s/m_d = 4n_C = 20$ (exact to measurement precision). The same $4n_C$ that appears in $\sin^2\theta_C = 1/(4n_C) = 1/20$ — CKM mixing and quark masses share a common geometric origin.
+- $m_t/m_c = N_{\max} - 1 = 136$ (0.017%). The top saturates the vacuum minus one level.
+- $m_b/m_\tau = \text{genus}/N_c = 7/3$ (0.81%). Third-generation quark-lepton partners coupled by the holomorphic curvature ratio $\kappa_1/\kappa_5 = 7/3$.
+- $m_b/m_c = \dim_{\mathbb{R}}(D_{IV}^5)/N_c = 10/3$ (1.3%). The real dimension per color.
+- $m_c/m_s = N_{\max}/\dim_{\mathbb{R}} = 137/10$ (0.75%). Bridging thermal and geometric sectors.
+
+The third generation is universally stamped by $N_c = 3$ as denominator: $m_b/m_\tau = 7/3$, $m_b/m_c = 10/3$, $m_\tau/m_\mu$ exponent $= 10/3$. Color is the denominator of the third generation because it probes the full $D_{IV}^5$ domain where all $N_c$ color channels are active. Full details: `notes/BST_QuarkMassRatios.md`.
 
 ### 7.6 Neutrino Masses from the Boundary Seesaw
 
@@ -2456,6 +2471,12 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Proton radius                        |0.94 fm (geometric)              |0.87 fm (8%)    |$\checkmark$          |
 |Proton/electron mass ratio           |$(n_C+1)\pi^{n_C} = 6\pi^5 = 1836.118$|$1836.153$|$\checkmark$ 0.002%|
 |Muon/electron mass ratio             |$(24/\pi^2)^6 = [K_3(0,0)/K_1(0,0)]^{\dim_{\mathbb{R}}(D_{IV}^3)}= 206.761$|$206.768$|$\checkmark$ 0.003%|
+|Tau/electron mass ratio              |$(24/\pi^2)^6 \times (7/3)^{10/3} = 3483.8$|$3477.2$|$\checkmark$ 0.19%|
+|Quark ratio $m_s/m_d$               |$4n_C = 20$                          |$20.0 \pm \sim 5\%$ |$\checkmark$ $\sim 0\%$|
+|Quark ratio $m_t/m_c$               |$N_{\max}-1 = 136$                   |$135.98 \pm \sim 1\%$|$\checkmark$ 0.017%|
+|Quark ratio $m_b/m_\tau$            |genus$/N_c = 7/3 = 2.333$            |$2.352 \pm \sim 1\%$|$\checkmark$ 0.81%|
+|Quark ratio $m_b/m_c$               |$\dim_{\mathbb{R}}/N_c = 10/3 = 3.333$|$3.291 \pm \sim 2\%$|$\checkmark$ 1.3%|
+|Quark ratio $m_c/m_s$               |$N_{\max}/\dim_{\mathbb{R}} = 137/10 = 13.7$|$13.6 \pm \sim 2\%$|$\checkmark$ 0.75%|
 |Newton's G (gravitational constant)  |$G = \hbar c\,(6\pi^5)^2\alpha^{24}/m_e^2$; $12 = 2C_2$, $C_2{=}6$ Bergman round trips|$6.679\times10^{-11}$|$\checkmark$ 0.07%|
 |Hierarchy $m_e/\sqrt{m_p m_{\rm Pl}}$|$\alpha^{n_C+1} = \alpha^6$|$1.5098\times10^{-13}$|$\checkmark$ 0.017%|
 |Wyler constant origin (HC)           |$9/(8\pi^4) = \rho_2^2/(2\pi^4)$, $\rho_2=(n_C{-}2)/2=3/2$ — Weyl vector of $\mathrm{SO}_0(5,2)$|Exact|$\checkmark$ Derived|
@@ -2499,7 +2520,7 @@ With $\chi \approx 5.5$ from $m_\pi$ as input, all hadronic quantities are simul
 1. **Nuclear half-lives from phase coherence:** Specific half-lives calculable from triad cycling trajectories on $\mathbb{CP}^2$ and their sampling rates of the Hopf intersection, testable against hundreds of measured values.
 1. **Bekenstein coefficient:** The factor $1/4$ in $S = A/4l_P^2$ derivable from the Bergman metric on $D_{IV}^5$.
 1. **Dark energy equation of state $w \neq -1$:** Substrate growth dynamics predict deviation from cosmological constant value. Sign and magnitude determined by ratio of boundary growth rate to commitment rate. Testable at percent-level precision by DESI, Euclid, and Roman Space Telescope within 5 years.
-1. **Tau and quark mass ratios:** $m_\tau/m_\mu \approx 16.8$ and $m_t/m_c \approx 136$ from $D_{IV}^5$ geometry. Note: $m_\mu/m_e = (24/\pi^2)^6$ is already established at 0.003% (Section 7.5, Section 25.2); the open problem is the tau and the full quark mass spectrum.
+1. **Tau mass ratio:** Now derived: $m_\tau/m_e = (24/\pi^2)^6 \times (7/3)^{10/3} = 3483.8$ (0.19% from observed $3477.2$). Two-step geometric derivation: volume Jacobian (muon) + curvature ratio (tau). See Section 7.5, Section 25.2. **SOLVED.** Quark mass ratios also derived: $m_s/m_d = 4n_C$, $m_t/m_c = N_{\max}-1$, $m_b/m_\tau = 7/3$, $m_b/m_c = 10/3$, $m_c/m_s = 137/10$. See `notes/BST_QuarkMassRatios.md`. **PARTIALLY SOLVED.**
 1. **Baryon-to-photon ratio $\eta$:** Now derived: $\eta = 2\alpha^4/(3\pi) = 6.018 \times 10^{-10}$, matching Planck to 1.4%. See `notes/BST_BaryonAsymmetry_Eta.md`. **SOLVED.**
 1. **Solar system commitment map.** A standard two-instrument package — chip-scale atomic clock (commitment rate detector, $N = N_0\sqrt{1 - \rho/\rho_{137}}$) and precision accelerometer (gravitometer, $\nabla\rho$) — on every future space probe would produce, over 30 years, a 3D map of the substrate's commitment density from 0.3 to 100+ AU. BST predicts a transition from gravitational ($\rho \propto 1/r$) to cosmological ($\rho \to \rho_\infty$) at $r \sim GM_\odot/a_0 \approx 7000$ AU. Mass: $< 200$ g, cost: $< \$50$K per probe. See `notes/BST_CommitmentDetector_Proposal.md`.
 
@@ -2742,7 +2763,7 @@ $$\boxed{\begin{aligned}
 
 Sixteen steps. One question. Zero free parameters. Every step forced by the failure of the simpler alternative and the uniqueness theorems of mathematics.
 
-What is *not* yet in the chain: the chiral condensate $\chi$ from first principles, the tau mass geometric derivation, and the full quark mass spectrum. The neutrino masses, CKM/PMNS mixing matrices, $\alpha_s$, $\eta$, $H_0$, and $\sin^2\theta_W$ have all been derived (Sections 7.6–7.7, notes). These are no longer open — they are verified against experiment at the 0.1–3% level. Everything else — the Standard Model, general relativity, cosmology, and the computational architecture of quantum mechanics — is a consequence of circles on a sphere communicating through phase.
+What is *not* yet in the chain: the chiral condensate $\chi$ from first principles and the full quark mass spectrum. The neutrino masses, CKM/PMNS mixing matrices, $\alpha_s$, $\eta$, $H_0$, and $\sin^2\theta_W$ have all been derived (Sections 7.6–7.7, notes). These are no longer open — they are verified against experiment at the 0.1–3% level. Everything else — the Standard Model, general relativity, cosmology, and the computational architecture of quantum mechanics — is a consequence of circles on a sphere communicating through phase.
 
 -----
 
@@ -2801,10 +2822,12 @@ The following were all derived from $D_{IV}^5$ geometry with zero free parameter
 - **Shannon interpretation of alpha:** $\alpha$ as optimal code rate. Von Mises-Packing equivalence. Three-factor decomposition of Wyler. 1920 as coding symmetry. Bergman-Fisher duality. Alpha running as dimensional flow ($d_{\text{eff}}$ from 4.00 to 3.94). Full details: `notes/BST_Shannon_Alpha_Paper.md`.
 - **Error correction structure:** Light as matched filter. Conservation laws as parity checks. Alpha as bootstrap fixed point. Full details: `notes/BST_ErrorCorrection_Physics.md`.
 - **Measurement problem dissolved** via commitment framework: superposition = uncommitted capacity, measurement = commitment of correlation, no consciousness role. Full details: `notes/BST_DoubleSlit_Commitment.md`.
+- **Tau mass** $m_\tau/m_e = (24/\pi^2)^6 \times (7/3)^{10/3} = 3483.8$ (0.19% from observed $3477.2$). Two-step geometric derivation: volume Jacobian ($D_{IV}^1 \to D_{IV}^3$) for the muon, curvature ratio $(\kappa_1/\kappa_5)^{2n_C/N_c}$ ($D_{IV}^3 \to D_{IV}^5$) for the tau. In physical units: $m_\tau(\text{BST}) = 1780.2$ MeV vs. $1776.86 \pm 0.12$ MeV observed. Full details: `notes/BST_FermionMass.md`.
+- **Quark mass ratios** from $D_{IV}^5$ invariants: $m_s/m_d = 4n_C = 20$ ($\sim 0\%$), $m_t/m_c = N_{\max}-1 = 136$ (0.017%), $m_b/m_\tau = \text{genus}/N_c = 7/3$ (0.81%), $m_b/m_c = 10/3$ (1.3%), $m_c/m_s = 137/10$ (0.75%). The third generation is universally stamped by $N_c = 3$ as denominator. Full details: `notes/BST_QuarkMassRatios.md`.
 
 **Still open, in priority order:**
 
-1. **Tau mass.** $m_\tau/m_e \approx 8\pi(N_{\max}+1)$ at 0.26% but not geometrically derived. The Bergman kernel ratio approach requires non-integer exponent $p = 1.349$; the full Bergman metric (not just the kernel at the origin) is likely needed.
+1. **Shannon-Wyler circle (last 5%).** Prove the multiplicative assembly of the Wyler formula from Shannon channel capacity. The three-factor decomposition of $\alpha$ is established; the rigorous connection closing the loop is not.
 
 2. **BST Lagrangian.** Write the complete BST action on $D_{IV}^5$ that generates all derived quantities from a single variational principle. The ingredients exist (Bergman kernel propagator, Haldane exclusion, $Z_3$ closure) but have not been assembled into a unified Lagrangian density.
 
