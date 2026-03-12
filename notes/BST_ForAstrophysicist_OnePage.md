@@ -82,7 +82,7 @@ The geometric component has **zero free parameters**. Either the data shows a fr
 - `notes/BST_CP_Alpha_Paper.md` — Full paper with derivation and predictions
 - `notes/BST_CP_SignedFit.py` — Fit code with signed-addition model
 - `notes/BST_CP_SignedFit.png` — Multi-panel fit results
-- `BST_WorkingPaper_v8.md` — Full theory (warning: 200+ pages)
+- `WorkingPaper.md` — Full theory, v9 (warning: 200+ pages)
 
 ---
 
