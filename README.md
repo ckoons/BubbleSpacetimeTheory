@@ -55,11 +55,18 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | m_b/m_τ (quark ratio) | genus/N_c = 7/3 | 2.333 | 2.352 | 0.81% |
 | m_b/m_c (quark ratio) | dim_R/N_c = 10/3 | 3.333 | 3.291 | 1.3% |
 | m_c/m_s (quark ratio) | N_max/dim_R = 137/10 | 13.7 | 13.6 | 0.75% |
+| m_u (up quark mass) | N_c·√2·mₑ = 3√2·mₑ | 2.169 MeV | 2.16 MeV | 0.4% |
+| m_d (down quark mass) | (13/6)·m_u | 4.694 MeV | 4.67 MeV | 0.4% |
+| m_d/m_u (quark ratio) | (N_c+2n_C)/(n_C+1) = 13/6 | 2.167 | 2.117 ± 0.038 | 1.3σ |
+| m_n−m_p (neutron-proton) | 91/36 × mₑ (91=7×13) | 1.292 MeV | 1.293 MeV | 0.13% |
+| χ (chiral condensate) | √(n_C(n_C+1)) = √30 | 5.477 | 5.452 | 0.46% |
+| m_π (pion mass) | 25.6 × √30 | 140.2 MeV | 139.57 MeV | 0.46% |
+| f_π (pion decay const.) | mₚ/dim_R = mₚ/10 | 93.8 MeV | 92.1 MeV | 1.9% |
 | Dark matter ratio | Shannon: B·log₂(1+S/N) | 5.33:1 | 5.4:1 (Planck) | 0.10 pp |
 | Galaxy rotation curves | Channel noise S/N | 12.5 km/s RMS | — | 175 galaxies, 0 params |
 | CP floor (BH horizon) | α × 2GM/(Rc²) = α | 0.730% | ~1% (EHT) | consistent |
 
-**43+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
+**51+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
 
 ---
 
@@ -198,7 +205,7 @@ BST follows a single logical chain from one question to all of physics. Each ste
 
 | Problem | Status | Priority |
 |---|---|---|
-| Shannon-Wyler circle (last 5%) | 5-step proof: Steps 1-2 proved, Steps 3-5 formulated. 3 gaps remain | 1 |
+| Shannon-Wyler circle | SOLVED: All 3 gaps closed (Bergman capacity, MIMO 9/8, S^4 packing) | -- |
 | EHT verification of CP = α floor | Awaiting data access / recalibration | 2 |
 | BST Lagrangian | Assemble unified action on D(IV,5) | 3 |
 | Tau mass geometric derivation | SOLVED: (24/π²)⁶ × (7/3)^(10/3) = 3483.8 (0.19%) | -- |
