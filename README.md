@@ -42,11 +42,13 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | λ_H (Higgs quartic) | √(2/5!) = 1/√60 | 0.12910 | 0.12938 | 0.22% |
 | m_H (Higgs mass, Route A) | v·√(2·√(2/5!)) | 125.11 GeV | 125.25 GeV | 0.11% |
 | m_H (Higgs mass, Route B) | (π/2)(1−α)·m_W | 125.33 GeV | 125.25 GeV | 0.07% |
+| v (Fermi scale) | mₚ²/(g·mₑ), g=7 | 246.12 GeV | 246.22 GeV | 0.046% |
+| m_W (W mass, Route B) | n_C·mₚ/(8α) | 80.361 GeV | 80.377 GeV | 0.02% |
 | Dark matter ratio | Shannon: B·log₂(1+S/N) | 5.33:1 | 5.4:1 (Planck) | 0.10 pp |
 | Galaxy rotation curves | Channel noise S/N | 12.5 km/s RMS | — | 175 galaxies, 0 params |
 | CP floor (BH horizon) | α × 2GM/(Rc²) = α | 0.730% | ~1% (EHT) | consistent |
 
-**30+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
+**32+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
 
 ---
 
@@ -104,6 +106,8 @@ BST follows a single logical chain from one question to all of physics. Each ste
 **Complete electroweak mixing**: sin²θ_W = 3/13 (0.2%), m_W = 79.977 GeV (0.5%), plus the full CKM and PMNS mixing matrices as rational functions of n_C = 5 and N_c = 3.
 
 **Higgs mass derived**: Two independent routes — λ_H = √(2/5!) = 1/√60 gives m_H = 125.11 GeV (0.11%), and m_H/m_W = (π/2)(1−α) gives 125.33 GeV (0.07%). The Higgs is the radial (dilation) mode on D(IV,5). The identity 8N_c = (n_C−1)! holds uniquely at n_C = 5, connecting the two formulas.
+
+**Fermi scale derived**: v = mₚ²/(7mₑ) = 36π¹⁰mₑ/7 (0.046%). The boson scale is the fermion scale squared, divided by the genus of D(IV,5). Also m_W = n_C·mₚ/(8α) (0.02%). The 8 connects to the identity 8N_c = (n_C−1)! unique to n_C = 5. The hierarchy problem dissolves: curvature of D(IV,5) (through the factor 1/π⁴ in α) is why the weak scale is ~100× the strong scale. Signal → strong force, curvature → weak force.
 
 **Geometric circular polarization**: CP = α × 2GM/(Rc²) — a parameter-free prediction for frequency-independent CP from any black hole horizon. At the horizon: CP = α = 0.730%, independent of mass. Signed-addition model (geometric floor + oscillatory Faraday) fits Sgr A* data with χ²_red = 0.22. Testable with EHT data by recalibrating without V=0 assumption.
 
@@ -181,12 +185,12 @@ BST follows a single logical chain from one question to all of physics. Each ste
 
 | Problem | Status | Priority |
 |---|---|---|
-| Fermi scale v from geometry | Both Higgs routes need v or m_W as input | 1 |
-| CKM CP phase (ρ̄, η̄, Jarlskog invariant) | Open | 2 |
-| Newton's G — prove α¹² = (α²)⁶ from Bergman layers | Open | 3 |
-| Tau mass geometric derivation | 0.26% with 8π(N_max+1), needs Bergman metric | 4 |
-| Shannon-Wyler circle (last 5%) | Prove multiplicative assembly from Shannon | 5 |
-| EHT verification of CP = α floor | Awaiting data access / recalibration | 6 |
+| CKM CP phase (ρ̄, η̄, Jarlskog invariant) | Open | 1 |
+| Newton's G — prove α¹² = (α²)⁶ from Bergman layers | Open | 2 |
+| Tau mass geometric derivation | 0.26% with 8π(N_max+1), needs Bergman metric | 3 |
+| Shannon-Wyler circle (last 5%) | Prove multiplicative assembly from Shannon | 4 |
+| EHT verification of CP = α floor | Awaiting data access / recalibration | 5 |
+| Fermi scale v from geometry | SOLVED: v = mₚ²/(7mₑ) | -- |
 
 ---
 
