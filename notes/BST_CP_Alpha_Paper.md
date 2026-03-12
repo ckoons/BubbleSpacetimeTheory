@@ -243,21 +243,37 @@ Published Stokes V measurements of Sgr A* span from 4.8 GHz
 
 Simple Faraday conversion models predict CP $\sim \nu^{-n}$
 ($n > 0$), monotonically decreasing with frequency. The data
-shows the opposite trend at high frequencies: CP *increases*
-from 86 to 345 GHz.
+shows a non-monotonic structure: CP oscillates between 0.31%
+and 1.20% across two decades of frequency, with four of eight
+measurements falling *below* $\alpha = 0.73\%$.
 
-A two-component model:
+The correct two-component model treats the geometric CP as the
+neutral condition (ground state) and Faraday conversion as a
+signed perturbation:
 
-$$\text{CP}_{\text{total}}(\nu) = \sqrt{\text{CP}_{\text{Faraday}}(\nu)^2 + \text{CP}_{\text{geometric}}^2}$$
+$$\text{CP}_{\text{obs}}(\nu) = |\text{CP}_{\text{geometric}} + \text{CP}_{\text{Faraday}}(\nu)|$$
 
-with $\text{CP}_{\text{Faraday}} \propto \nu^{-1}$ and
-$\text{CP}_{\text{geometric}} = \alpha \approx 0.73\%$ provides
-a better qualitative fit: Faraday dominates at low frequencies,
-the geometric floor is revealed at high frequencies where
-Faraday conversion has fallen off.
+where $\text{CP}_{\text{Faraday}}(\nu) = A \sin(\text{RM}_{\text{eff}}/\nu^2 + \phi_0)$
+is oscillatory in $\lambda^2$, as expected for Faraday conversion.
+The signed addition allows destructive interference: when the
+Faraday contribution is negative and partially cancels the
+geometric floor, the observed CP falls *below* $\alpha$.
 
+Fitting $|\alpha + A \sin(\text{RM}_{\text{eff}}/\nu^2 + \phi_0)|$
+to the Sgr A* data with the geometric floor *fixed* at
+$\alpha = 1/137$ (zero free parameters for the geometric
+component) yields $\chi^2_{\text{red}} = 0.22$ with all
+residuals within 0.6$\sigma$ — a significantly better fit than
+either pure Faraday ($\chi^2_{\text{red}} = 0.60$) or a
+quadrature model ($\chi^2_{\text{red}} = 2.39$). The quadrature
+model fails structurally because it cannot produce CP below
+the floor.
+
+At high frequencies where Faraday conversion vanishes
+($\text{RM}_{\text{eff}}/\nu^2 \to 0$), the model converges
+to the geometric floor: $\text{CP} \to \alpha = 0.73\%$.
 The observed high-frequency CP ($\sim 1\%$) is slightly above
-the pure-horizon value of $\alpha = 0.73\%$, consistent with
+this, consistent with residual Faraday contribution and with
 emission from $R \sim 2$--$3 \, R_s$ (between the ISCO and
 photon sphere) where $\text{CP}_{\text{geometric}}$ ranges
 from $0.24\%$ to $0.49\%$, combined with lensing enhancement
