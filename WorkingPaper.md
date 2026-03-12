@@ -2431,6 +2431,7 @@ With $\chi \approx 5.5$ from $m_\pi$ as input, all hadronic quantities are simul
 |3|Hubble tension correlates with local density      |Existing supernova catalogs  |No residual density correlation after standard corrections       |
 |4|CMB anomalies match $S^2$ topology                |Planck satellite data        |Anomaly pattern inconsistent with SO(3) on $S^2$                 |
 |5|Massive mature galaxies at $z > 10$               |JWST galaxy surveys          |High-$z$ mass function consistent with $\Lambda$CDM hierarchical formation|
+|6|CP floor $= \alpha = 0.73\%$ at BH horizon        |EHT Stokes V (Sgr A*, M87*)  |No frequency-independent CP floor; floor differs between BH masses|
 
 **Testable within 5 years:**
 
