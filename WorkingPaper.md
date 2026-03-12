@@ -2827,7 +2827,7 @@ The following were all derived from $D_{IV}^5$ geometry with zero free parameter
 
 **Still open, in priority order:**
 
-1. **Shannon-Wyler circle (last 5%).** Prove the multiplicative assembly of the Wyler formula from Shannon channel capacity. The three-factor decomposition of $\alpha$ is established; the rigorous connection closing the loop is not.
+1. **Shannon-Wyler circle (last 5%).** Five-step proof pathway established: Bergman-Fisher duality (Step 1, proved), Poisson kernel spectral theory (Step 2, proved), signal model on $D_{IV}^5$ (Step 3, formulated), packing fraction = Bergman-averaged concentration (Step 4, computed), volume ratio = Wyler (Step 5, verified). The Gindikin gamma computation gives $\Gamma(11/2)/\Gamma(17/2) = 8/2145$ as the Poisson concentration ratio. Three gaps remain for full rigor: (a) the Bergman measure as capacity-achieving input, (b) the $N_c^2/2^{N_c}$ MIMO factor from $Z_3$ structure, (c) the $1/(n_C-1)$ power from root system geometry. See `notes/BST_ShannonWyler_Proof.md`.
 
 2. **BST Lagrangian.** Write the complete BST action on $D_{IV}^5$ that generates all derived quantities from a single variational principle. The ingredients exist (Bergman kernel propagator, Haldane exclusion, $Z_3$ closure) but have not been assembled into a unified Lagrangian density.
 

@@ -198,7 +198,7 @@ BST follows a single logical chain from one question to all of physics. Each ste
 
 | Problem | Status | Priority |
 |---|---|---|
-| Shannon-Wyler circle (last 5%) | Prove multiplicative assembly from Shannon | 1 |
+| Shannon-Wyler circle (last 5%) | 5-step proof: Steps 1-2 proved, Steps 3-5 formulated. 3 gaps remain | 1 |
 | EHT verification of CP = α floor | Awaiting data access / recalibration | 2 |
 | BST Lagrangian | Assemble unified action on D(IV,5) | 3 |
 | Tau mass geometric derivation | SOLVED: (24/π²)⁶ × (7/3)^(10/3) = 3483.8 (0.19%) | -- |
