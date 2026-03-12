@@ -64,11 +64,14 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | f_π (pion decay const.) | mₚ/dim_R = mₚ/10 | 93.8 MeV | 92.1 MeV | 1.9% |
 | n_s (spectral index) | 1 − n_C/N_max = 1 − 5/137 | 0.96350 | 0.9649 ± 0.0042 | 0.3σ |
 | r (tensor-to-scalar) | ≈ 0 (T_c ≪ m_Pl) | ~0 | < 0.036 | consistent |
+| τ_n (neutron lifetime) | Fermi theory + BST inputs, g_A=4/π | ≈898 s | 878.4 ± 0.5 s | 2.1% |
+| g_A (axial coupling) | 4/π (candidate) | 1.2732 | 1.2762 | 0.23% |
+| ⁷Li/H (lithium-7) | Δg=genus=7 at T_c=0.487 MeV | ~1.7×10⁻¹⁰ | 1.6×10⁻¹⁰ | 7% |
 | Dark matter ratio | Shannon: B·log₂(1+S/N) | 5.33:1 | 5.4:1 (Planck) | 0.10 pp |
 | Galaxy rotation curves | Channel noise S/N | 12.5 km/s RMS | — | 175 galaxies, 0 params |
 | CP floor (BH horizon) | α × 2GM/(Rc²) = α | 0.730% | ~1% (EHT) | consistent |
 
-**53+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
+**56+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
 
 ---
 
