@@ -1,6 +1,6 @@
 ---
 title: "Bubble Spacetime: A Causal-Topological Framework for Fundamental Physics"
-subtitle: "Comprehensive Working Paper v9"
+subtitle: "Comprehensive Working Paper v10"
 author: "Casey Koons"
 date: "March 2026"
 abstract: |
@@ -22,8 +22,10 @@ abstract: |
   all three neutrino masses from a boundary seesaw with $m_1 = 0$ exactly;
   the baryon asymmetry $\eta = 2\alpha^4/(3\pi)$ (1.4\%);
   the Hubble constant $H_0 \approx 66.7$ km/s/Mpc (1.0\%);
-  and the full CKM and PMNS mixing matrices as rational functions of the domain dimension $n_C = 5$
-  and the number of colors $N_c = 3$.
+  the full CKM and PMNS mixing matrices as rational functions of the domain dimension $n_C = 5$
+  and the number of colors $N_c = 3$;
+  and the CKM CP-violating phase $\gamma = \arctan(\sqrt{5}) = 65.91°$ (0.6\%),
+  with the Jarlskog invariant $J = \sqrt{2}/50000$ (2.1\%).
   The Yang--Mills mass gap is proved: the lightest color-neutral bulk excitation has mass
   $6\pi^5 m_e = 938.272$ MeV, matching the proton mass to 0.002\%.
   The Fermi scale (Higgs vacuum expectation value) is derived:
@@ -44,7 +46,7 @@ abstract: |
   $\Sigma m_\nu = 0.058$ eV, and galaxy rotation curves from channel noise without dark matter particles.
   The full Standard Model mass chain --- from the electron through the proton to the Fermi scale
   and the Higgs boson --- is derived with zero free parameters.
-  Over 30 parameter-free predictions are presented, all testable against current or near-future experiments.
+  Over 35 parameter-free predictions are presented, all testable against current or near-future experiments.
 documentclass: article
 classoption:
   - 12pt
@@ -68,7 +70,8 @@ header-includes:
 
 ## Version History
 
-- **v9** (March 12, 2026): Newton's G derived: $G = \hbar c(6\pi^5)^2\alpha^{24}/m_e^2$ (0.07\%), with $12 = 2C_2$ from $C_2 = 6$ Bergman kernel round trips; hierarchy problem dissolved as theorem. Two master equations determine all four fundamental mass scales from one mass plus geometry. Fermi scale derived: $v = m_p^2/(\text{genus} \times m_e) = 36\pi^{10}m_e/7$ (0.046\%), $m_W = n_C m_p/(8\alpha)$ (0.02\%). Both Higgs mass routes now fully parameter-free. Higgs mass derived (two routes: $\lambda_H = 1/\sqrt{60}$ at 0.11%, $m_H/m_W = \pi/2$ at 0.07%); geometric circular polarization prediction $\text{CP} = \alpha \times 2GM/(Rc^2)$ for EHT testing; measurement problem dissolved via commitment framework; error correction structure of spacetime (light as matched filter, conservation laws as parity checks, $\alpha$ as bootstrap fixed point); Shannon interpretation of $\alpha$ (von Mises-Packing equivalence, 1920 as coding symmetry, Bergman-Fisher duality); $\alpha$ running recast as dimensional flow ($d_{\text{eff}}$ from 4.00 to 3.94). Signal/curvature/noise $\to$ strong/weak/dark matter identification in $\alpha$ three-factor decomposition. Prediction table expanded to 32+ parameter-free results.
+- **v10** (March 12, 2026): CKM CP phase derived: $\gamma = \arctan(\sqrt{n_C}) = \arctan(\sqrt{5}) = 65.91°$ (0.6\%); Wolfenstein parameters $\bar\rho = 1/(2\sqrt{10}) = 0.158$ (0.6\%), $\bar\eta = 1/(2\sqrt{2}) = 0.354$ (1.3\%); Jarlskog invariant $J_{\rm CKM} = \sqrt{2}/50000 = 2.83 \times 10^{-5}$ (2.1\%). Key structural relation: $\bar\eta/\bar\rho = \sqrt{n_C}$ exactly. CKM CP violation removed from open problems. Prediction table expanded to 37+ parameter-free results.
+- **v9** (March 12, 2026): Newton's G derived: $G = \hbar c(6\pi^5)^2\alpha^{24}/m_e^2$ (0.07\%), with $12 = 2C_2$ from $C_2 = 6$ Bergman kernel round trips; hierarchy problem dissolved as theorem. Two master equations determine all four fundamental mass scales from one mass plus geometry. Fermi scale derived: $v = m_p^2/(\text{genus} \times m_e) = 36\pi^{10}m_e/7$ (0.046\%), $m_W = n_C m_p/(8\alpha)$ (0.02\%). Both Higgs mass routes now fully parameter-free. Higgs mass derived (two routes: $\lambda_H = 1/\sqrt{60}$ at 0.11%, $m_H/m_W = \pi/2$ at 0.07%); geometric circular polarization prediction $\text{CP} = \alpha \times 2GM/(Rc^2)$ for EHT testing; measurement problem dissolved via commitment framework; error correction structure of spacetime (light as matched filter, conservation laws as parity checks, $\alpha$ as bootstrap fixed point); Shannon interpretation of $\alpha$ (von Mises-Packing equivalence, 1920 as coding symmetry, Bergman-Fisher duality); $\alpha$ running recast as dimensional flow ($d_{\text{eff}}$ from 4.00 to 3.94). Signal/curvature/noise $\to$ strong/weak/dark matter identification in $\alpha$ three-factor decomposition. Prediction table expanded to 33+ parameter-free results.
 - **v8** (March 2026): QFT foundations complete --- all six open QFT calculations solved: $\alpha_s = 7/20$; $\eta = 2\alpha^4/(3\pi)$ ($-1.4\%$); $H_0 \approx 66.7$ km/s/Mpc ($-1.0\%$); $\sin^2\theta_W = 3/13$ ($-0.2\%$); neutrino masses from boundary seesaw $m_{\nu_i} = f_i \alpha^2 m_e^2/m_p$ with $m_1 = 0$, $m_2 = 0.00865$ eV, $m_3 = 0.04940$ eV; CKM and PMNS mixing matrices from $D_{IV}^5$ geometry. Vacuum quantum identification: the massless $\nu_1$ IS the vacuum ground state; $\Lambda \propto m_\nu^4$ resolves cosmic coincidence problem. Updated prediction table (now 25+ parameter-free predictions). Yang-Mills mass gap proved in companion notes.
 - **v6** (March 2026): Lie algebra verification of SO(5)$\times$SO(2) isotropy; $S^2$ uniqueness proved; quantum mechanics derived from substrate geometry; closed-form $\Lambda$ derivation; $m_p/m_e = 6\pi^5$; $m_\mu/m_e = (24/\pi^2)^6$; phase transition temperature $T_c$; Big Bang as activation of SO(2) generator; primordial gravitational wave spectrum in NANOGrav band.
 - **v5** (March 2026): Merged duplicate sections; CR dimension counting argument; renumbered to 27 sections.
@@ -111,6 +114,8 @@ All results below are derived from the geometry of $D_{IV}^5$ with zero free par
 | Neutrino masses $m_{\nu_2}, m_{\nu_3}$ | $(7/12)\alpha^2 m_e^2/m_p$, $(10/3)\alpha^2 m_e^2/m_p$ | **0.35%, 1.8%** | 7.6 |
 | PMNS angles $\theta_{12}, \theta_{23}, \theta_{13}$ | $3/10$, $4/7$, $1/45$ | **1%, 0.1%, 0.9%** | 7.7 |
 | Cabibbo angle $\sin\theta_C$ | $1/(2\sqrt{5})$ | **0.3%** | 7.7 |
+| CKM CP phase $\gamma$ | $\arctan(\sqrt{n_C}) = \arctan(\sqrt{5})$ | **0.6%** | 7.7 |
+| Jarlskog invariant $J_{\rm CKM}$ | $\sqrt{2}/50000$ | **2.1%** | 7.7 |
 | Fermi scale $v$ (Higgs vev) | $m_p^2/(g \cdot m_e) = 36\pi^{10}m_e/7$, $g=7=\text{genus}$ | **0.046%** | 14.7 |
 | W boson mass $m_W$ (Route B) | $n_C m_p/(8\alpha)$ | **0.02%** | 14.7 |
 | SPARC rotation curves (175 galaxies) | Channel noise, no dark matter | $\chi^2/\nu < 1$ | 19 |
@@ -675,7 +680,21 @@ The quark and lepton mixing matrices encode the mismatch between mass eigenstate
 | $A$ (Wolfenstein) | $(n_C-1)/n_C = 4/5$ | 0.800 | $0.825 \pm 0.012$ | $-3.1\%$ |
 | $\|V_{cb}\|$ | $A\lambda^2 = 4/125$ | 0.0400 | $0.0411 \pm 0.0013$ | $-2.7\%$ |
 
-**Physical insight:** PMNS angles are large because neutrinos are vacuum modes — they rotate freely on the Shilov boundary with no Bergman embedding cost. CKM angles are small because quarks carry full Bergman weight in the bulk of $D_{IV}^5$ — the overlap between mass and weak eigenstates is suppressed by the Bergman embedding cost.
+**CKM CP violation — Wolfenstein parameters $\bar\rho$, $\bar\eta$, and the unitarity triangle:**
+
+| Parameter | BST formula | BST value | PDG 2024 | Deviation |
+|---|---|---|---|---|
+| $\gamma$ (CP phase) | $\arctan(\sqrt{n_C}) = \arctan(\sqrt{5})$ | $65.91°$ | $65.5° \pm 2.5°$ | $0.6\%$ |
+| $\bar\rho$ | $1/(2\sqrt{2n_C}) = 1/(2\sqrt{10})$ | $0.158$ | $0.159 \pm 0.010$ | $0.6\%$ |
+| $\bar\eta$ | $1/(2\sqrt{2})$ | $0.354$ | $0.349 \pm 0.010$ | $1.3\%$ |
+| $J_{\rm CKM}$ (Jarlskog) | $\sqrt{2}/50000$ | $2.83 \times 10^{-5}$ | $(2.77 \pm 0.11) \times 10^{-5}$ | $2.1\%$ |
+
+**Structural relations:**
+- $\bar\eta/\bar\rho = \sqrt{n_C}$ exactly: the ratio of the two Wolfenstein parameters is the square root of the domain dimension.
+- $\sin^2\gamma = n_C/(n_C+1) = 5/6$: the CP phase follows the same rational-function-of-$n_C$ pattern as all other mixing parameters.
+- $R_b = \lambda\sqrt{N_c} = \sqrt{3/20}$: the unitarity triangle base is Cabibbo $\times$ $\sqrt{\text{colors}}$.
+
+**Physical insight:** PMNS angles are large because neutrinos are vacuum modes — they rotate freely on the Shilov boundary with no Bergman embedding cost. CKM angles are small because quarks carry full Bergman weight in the bulk of $D_{IV}^5$ — the overlap between mass and weak eigenstates is suppressed by the Bergman embedding cost. The CP-violating phase $\gamma = \arctan(\sqrt{n_C})$ encodes the geometric angle between the Bergman bulk and the Shilov boundary in the CKM sector.
 
 Full derivation: `notes/BST_CKM_PMNS_MixingMatrices.md`.
 
@@ -2422,6 +2441,10 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |PMNS $\sin^2\theta_{23}$            |$(n_C-1)/(n_C+2) = 4/7 = 0.5714$|$0.572\pm0.018$ |$\checkmark$ 0.1%     |
 |PMNS $\sin^2\theta_{13}$            |$1/(n_C(2n_C-1)) = 1/45 = 0.02222$|$0.02203\pm0.00056$|$\checkmark$ 0.9%|
 |CKM Cabibbo angle $\sin\theta_C$    |$1/(2\sqrt{n_C}) = 1/(2\sqrt{5}) = 0.2236$|$0.2243\pm0.0005$|$\checkmark$ 0.3%|
+|CKM CP phase $\gamma$               |$\arctan(\sqrt{n_C}) = \arctan(\sqrt{5}) = 65.91°$|$65.5° \pm 2.5°$|$\checkmark$ 0.6%|
+|Wolfenstein $\bar\rho$              |$1/(2\sqrt{2n_C}) = 1/(2\sqrt{10}) = 0.158$|$0.159\pm0.010$|$\checkmark$ 0.6%|
+|Wolfenstein $\bar\eta$              |$1/(2\sqrt{2}) = 0.354$|$0.349\pm0.010$|$\checkmark$ 1.3%|
+|Jarlskog invariant $J_{\rm CKM}$   |$\sqrt{2}/50000 = 2.83\times10^{-5}$|$(2.77\pm0.11)\times10^{-5}$|$\checkmark$ 2.1%|
 |Higgs quartic $\lambda_H$           |$\sqrt{2/n_C!} = 1/\sqrt{60} = 0.12910$|$0.12938$ (from $m_H$)|$\checkmark$ 0.22%|
 |Higgs mass (Route A)                |$v\sqrt{2\sqrt{2/5!}} = 125.11$ GeV|$125.25\pm0.17$ GeV|$\checkmark$ 0.11%|
 |Higgs mass (Route B)                |$(\pi/2)(1-\alpha)m_W = 125.33$ GeV|$125.25\pm0.17$ GeV|$\checkmark$ 0.07%|
@@ -2764,7 +2787,8 @@ The following were all derived from $D_{IV}^5$ geometry with zero free parameter
 - **Weinberg angle** $\sin^2\theta_W = N_c/(N_c + 2n_C) = 3/13 = 0.23077$ (0.2% from MS-bar). Predicts $m_W = m_Z\sqrt{10/13} = 79.977$ GeV (0.5%). Full details: `notes/BST_WeinbergAngle_Sin2ThetaW.md`.
 - **Neutrino masses** from the boundary seesaw $m_{\nu_i} = f_i \times \alpha^2 \times m_e^2/m_p$: $m_1 = 0$ (exactly), $m_2 = 0.00865$ eV (0.35%), $m_3 = 0.04940$ eV (1.8%). The lightest neutrino is the vacuum quantum — the propagating mode of the $D_{IV}^5$ vacuum itself. Normal ordering, $\Sigma m_\nu = 0.058$ eV. Full details: `notes/BST_NeutrinoMasses.md`, `notes/BST_VacuumQuantum_NeutrinoLambda.md`.
 - **PMNS mixing matrix**: $\sin^2\theta_{12} = 3/10$ (1.0%), $\sin^2\theta_{23} = 4/7$ (0.1%), $\sin^2\theta_{13} = 1/45$ (0.9%). All angles are ratios of $n_C = 5$ and $N_c = 3$.
-- **CKM mixing matrix**: $\sin\theta_C = 1/(2\sqrt{5})$ (0.3%), $A = 4/5$, $|V_{cb}| = 4/125$ (2.7%). Quark mixing is small because quarks carry Bergman embedding weight; neutrino mixing is large because neutrinos are vacuum modes. Full details: `notes/BST_CKM_PMNS_MixingMatrices.md`.
+- **CKM mixing matrix**: $\sin\theta_C = 1/(2\sqrt{5})$ (0.3%), $A = 4/5$, $|V_{cb}| = 4/125$ (2.7%). Quark mixing is small because quarks carry Bergman embedding weight; neutrino mixing is large because neutrinos are vacuum modes.
+- **CKM CP violation**: $\gamma = \arctan(\sqrt{n_C}) = \arctan(\sqrt{5}) = 65.91°$ (0.6%), $\bar\rho = 1/(2\sqrt{10}) = 0.158$ (0.6%), $\bar\eta = 1/(2\sqrt{2}) = 0.354$ (1.3%), $J_{\rm CKM} = \sqrt{2}/50000 = 2.83 \times 10^{-5}$ (2.1%). The CP phase is the geometric angle $\arctan(\sqrt{n_C})$ between Bergman bulk and Shilov boundary; $\bar\eta/\bar\rho = \sqrt{n_C}$ exactly. Full details: `notes/BST_CKM_PMNS_MixingMatrices.md`.
 
 **The vacuum quantum insight:** The massless neutrino $\nu_1$ IS the vacuum ground state of $D_{IV}^5$. Neutrino oscillation is the vacuum shifting between geometric modes. The connection $\Lambda \propto m_\nu^4$ follows from the exponent chain: $m_\nu \sim \alpha^{14} m_{\rm Pl}$ and $\Lambda \sim \alpha^{56} = (\alpha^{14})^4$, where $14 = 2 \times \text{genus} = 2(n_C + 2)$. This resolves the cosmic coincidence problem ($\Lambda^{1/4} \sim m_\nu$) as a geometric identity, not a coincidence.
 
@@ -2780,9 +2804,9 @@ The following were all derived from $D_{IV}^5$ geometry with zero free parameter
 
 **Still open, in priority order:**
 
-1. **CKM CP phase ($\bar\rho$, $\bar\eta$).** The Jarlskog invariant, $|V_{ub}|$, $|V_{td}|$, and CP-violating phases remain to be derived from $D_{IV}^5$ geometry.
+1. **Tau mass.** $m_\tau/m_e \approx 8\pi(N_{\max}+1)$ at 0.26% but not geometrically derived. The Bergman kernel ratio approach requires non-integer exponent $p = 1.349$; the full Bergman metric (not just the kernel at the origin) is likely needed.
 
-2. **Tau mass.** $m_\tau/m_e \approx 8\pi(N_{\max}+1)$ at 0.26% but not geometrically derived. The Bergman kernel ratio approach requires non-integer exponent $p = 1.349$; the full Bergman metric (not just the kernel at the origin) is likely needed.
+2. **BST Lagrangian.** Write the complete BST action on $D_{IV}^5$ that generates all derived quantities from a single variational principle. The ingredients exist (Bergman kernel propagator, Haldane exclusion, $Z_3$ closure) but have not been assembled into a unified Lagrangian density.
 
 3. **Commitment rate exponent $n_c = 3$.** Proving from contact topology that the uncommitted reservoir drains as $(1+z)^3$ (completing the Friedmann derivation of Section 12.7) requires a rigorous scaling argument from the Bergman measure on $\Sigma = S^4 \times S^1$.
 

@@ -39,6 +39,10 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | sin²θ₁₂ (PMNS solar) | N_c/(2n_C) = 3/10 | 0.300 | 0.303 | 1.0% |
 | sin²θ₂₃ (PMNS atm.) | (n_C−1)/(n_C+2) = 4/7 | 0.5714 | 0.572 | 0.1% |
 | sinθ_C (Cabibbo angle) | 1/(2√5) | 0.2236 | 0.2243 | 0.3% |
+| γ_CKM (CP phase) | arctan(√5) | 65.91° | 65.5° ± 2.5° | 0.6% |
+| ρ̄ (Wolfenstein) | 1/(2√10) | 0.158 | 0.159 ± 0.010 | 0.6% |
+| η̄ (Wolfenstein) | 1/(2√2) | 0.354 | 0.349 ± 0.010 | 1.3% |
+| J_CKM (Jarlskog) | √2/50000 | 2.83×10⁻⁵ | (2.77±0.11)×10⁻⁵ | 2.1% |
 | λ_H (Higgs quartic) | √(2/5!) = 1/√60 | 0.12910 | 0.12938 | 0.22% |
 | m_H (Higgs mass, Route A) | v·√(2·√(2/5!)) | 125.11 GeV | 125.25 GeV | 0.11% |
 | m_H (Higgs mass, Route B) | (π/2)(1−α)·m_W | 125.33 GeV | 125.25 GeV | 0.07% |
@@ -49,7 +53,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Galaxy rotation curves | Channel noise S/N | 12.5 km/s RMS | — | 175 galaxies, 0 params |
 | CP floor (BH horizon) | α × 2GM/(Rc²) = α | 0.730% | ~1% (EHT) | consistent |
 
-**33+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
+**37+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
 
 ---
 
@@ -104,7 +108,7 @@ BST follows a single logical chain from one question to all of physics. Each ste
 
 **Neutrino masses with zero free parameters**: mνᵢ = fᵢ × α² × mₑ²/mₚ, with f₃ = 10/3, f₂ = 7/12, f₁ = 0. The lightest neutrino is exactly massless — a strong, falsifiable prediction. Normal ordering. Σmν = 0.058 eV. The vacuum quantum identification: the massless ν₁ IS the vacuum ground state; Λ ∝ mν⁴ resolves the cosmic coincidence problem.
 
-**Complete electroweak mixing**: sin²θ_W = 3/13 (0.2%), m_W = 79.977 GeV (0.5%), plus the full CKM and PMNS mixing matrices as rational functions of n_C = 5 and N_c = 3.
+**Complete electroweak mixing**: sin²θ_W = 3/13 (0.2%), m_W = 79.977 GeV (0.5%), plus the full CKM and PMNS mixing matrices as rational functions of n_C = 5 and N_c = 3. CKM CP phase derived: γ = arctan(√n_C), giving ρ̄ = 1/(2√10) and η̄ = 1/(2√2), completing the full mixing sector.
 
 **Higgs mass derived**: Two independent routes — λ_H = √(2/5!) = 1/√60 gives m_H = 125.11 GeV (0.11%), and m_H/m_W = (π/2)(1−α) gives 125.33 GeV (0.07%). The Higgs is the radial (dilation) mode on D(IV,5). The identity 8N_c = (n_C−1)! holds uniquely at n_C = 5, connecting the two formulas.
 
@@ -188,12 +192,12 @@ BST follows a single logical chain from one question to all of physics. Each ste
 
 | Problem | Status | Priority |
 |---|---|---|
-| CKM CP phase (ρ̄, η̄, Jarlskog invariant) | Open | 1 |
-| Tau mass geometric derivation | 0.26% with 8π(N_max+1), needs Bergman metric | 2 |
-| Shannon-Wyler circle (last 5%) | Prove multiplicative assembly from Shannon | 3 |
-| EHT verification of CP = α floor | Awaiting data access / recalibration | 4 |
+| Tau mass geometric derivation | 0.26% with 8π(N_max+1), needs Bergman metric | 1 |
+| Shannon-Wyler circle (last 5%) | Prove multiplicative assembly from Shannon | 2 |
+| EHT verification of CP = α floor | Awaiting data access / recalibration | 3 |
 | Newton's G — prove α¹² from geometry | SOLVED: 12=2C₂, C₂=6 Bergman round trips (0.07%) | -- |
 | Fermi scale v from geometry | SOLVED: v = mₚ²/(7mₑ) | -- |
+| CKM CP phase (ρ̄, η̄, Jarlskog) | SOLVED: γ = arctan(√5), η̄/ρ̄ = √5 | -- |
 
 ---
 
