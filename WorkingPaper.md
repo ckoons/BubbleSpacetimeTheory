@@ -2419,6 +2419,7 @@ With $\chi \approx 5.5$ from $m_\pi$ as input, all hadronic quantities are simul
 1. **Dark energy equation of state $w \neq -1$:** Substrate growth dynamics predict deviation from cosmological constant value. Sign and magnitude determined by ratio of boundary growth rate to commitment rate. Testable at percent-level precision by DESI, Euclid, and Roman Space Telescope within 5 years.
 1. **Tau and quark mass ratios:** $m_\tau/m_\mu \approx 16.8$ and $m_t/m_c \approx 136$ from $D_{IV}^5$ geometry. Note: $m_\mu/m_e = (24/\pi^2)^6$ is already established at 0.003% (Section 7.5, Section 25.2); the open problem is the tau and the full quark mass spectrum.
 1. **Baryon-to-photon ratio $\eta$:** Now derived: $\eta = 2\alpha^4/(3\pi) = 6.018 \times 10^{-10}$, matching Planck to 1.4%. See `notes/BST_BaryonAsymmetry_Eta.md`. **SOLVED.**
+1. **Solar system commitment map.** A standard two-instrument package — chip-scale atomic clock (commitment rate detector, $N = N_0\sqrt{1 - \rho/\rho_{137}}$) and precision accelerometer (gravitometer, $\nabla\rho$) — on every future space probe would produce, over 30 years, a 3D map of the substrate's commitment density from 0.3 to 100+ AU. BST predicts a transition from gravitational ($\rho \propto 1/r$) to cosmological ($\rho \to \rho_\infty$) at $r \sim GM_\odot/a_0 \approx 7000$ AU. Mass: $< 200$ g, cost: $< \$50$K per probe. See `notes/BST_CommitmentDetector_Proposal.md`.
 
 ### 25.6 Falsifiability by Timeline
 
