@@ -90,6 +90,7 @@ All mass scales from $D_{IV}^5$ geometry, zero free parameters:
 | $m_p$ | $6\pi^5\, m_e$ | 938.3 MeV | Bulk color, Casimir $C_2 = 6$ |
 | $v$ | $m_p^2/(7\, m_e) = 36\pi^{10}\, m_e/7$ | 246.1 GeV | Bulk flavor, genus $g = 7$ |
 | $m_W$ | $n_C\, m_p/(8\alpha)$ | 80.36 GeV | Channels $\times$ strong / EM |
+| $m_t$ | $(1 - \alpha)\, v/\sqrt{2}$ | 172.75 GeV | Top Yukawa $= 1 - \alpha$, channel saturation |
 | $m_H$ | $v\sqrt{2/\sqrt{60}}$ | 125.1 GeV | Radial mode, $\lambda = 1/\sqrt{60}$ |
 | $m_\text{Pl}$ | $m_e/(6\pi^5\, \alpha^{12})$ | $1.22\times 10^{19}$ GeV | Full coupling tower |
 
@@ -101,7 +102,7 @@ The hierarchy problem dissolves. "Why is gravity so weak?" = "Why is $\alpha$ sm
 
 2. $\sqrt{v \times m_e} \approx 355\text{ MeV} \approx \Lambda_\text{QCD}$. The geometric mean of the weak and electron scales is the QCD confinement scale. Bulk–boundary duality.
 
-3. $y_t = \sqrt{2}\, m_t/v \approx 0.992$. The top Yukawa is near unity — the top quark nearly saturates the channel capacity.
+3. **Top Yukawa $y_t = 1 - \alpha$:** The top mass $m_t = (1 - \alpha)\, v/\sqrt{2} = 172.75$ GeV, matching the observed 172.69 $\pm$ 0.30 GeV to 0.037% (0.2$\sigma$). The top quark saturates the channel capacity ($y = 1$) minus the EM overhead ($\alpha = 1/137$). The same $(1 - \alpha)$ factor appears in the Higgs mass Route B: $m_H = (\pi/2)(1 - \alpha)\, m_W$. Both the heaviest fermion and the Higgs carry the signal overhead correction.
 
 4. $v \times \alpha \approx 1.80\text{ GeV} \approx 2m_p$. The weak scale times the coupling is twice the strong scale.
 

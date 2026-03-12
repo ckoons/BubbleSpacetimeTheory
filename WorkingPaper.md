@@ -68,7 +68,7 @@ header-includes:
 
 ## Version History
 
-- **v9** (March 12, 2026): Fermi scale derived: $v = m_p^2/(\text{genus} \times m_e) = 36\pi^{10}m_e/7$ (0.046\%), $m_W = n_C m_p/(8\alpha)$ (0.02\%). Hierarchy problem dissolved --- the weak scale is the second-order Bergman ratio divided by genus. Both Higgs mass routes now fully parameter-free. Higgs mass derived (two routes: $\lambda_H = 1/\sqrt{60}$ at 0.11%, $m_H/m_W = \pi/2$ at 0.07%); geometric circular polarization prediction $\text{CP} = \alpha \times 2GM/(Rc^2)$ for EHT testing; measurement problem dissolved via commitment framework; error correction structure of spacetime (light as matched filter, conservation laws as parity checks, $\alpha$ as bootstrap fixed point); Shannon interpretation of $\alpha$ (von Mises-Packing equivalence, 1920 as coding symmetry, Bergman-Fisher duality); $\alpha$ running recast as dimensional flow ($d_{\text{eff}}$ from 4.00 to 3.94). Signal/curvature/noise $\to$ strong/weak/dark matter identification in $\alpha$ three-factor decomposition. Prediction table expanded to 30+ parameter-free results.
+- **v9** (March 12, 2026): Newton's G derived: $G = \hbar c(6\pi^5)^2\alpha^{24}/m_e^2$ (0.07\%), with $12 = 2C_2$ from $C_2 = 6$ Bergman kernel round trips; hierarchy problem dissolved as theorem. Two master equations determine all four fundamental mass scales from one mass plus geometry. Fermi scale derived: $v = m_p^2/(\text{genus} \times m_e) = 36\pi^{10}m_e/7$ (0.046\%), $m_W = n_C m_p/(8\alpha)$ (0.02\%). Both Higgs mass routes now fully parameter-free. Higgs mass derived (two routes: $\lambda_H = 1/\sqrt{60}$ at 0.11%, $m_H/m_W = \pi/2$ at 0.07%); geometric circular polarization prediction $\text{CP} = \alpha \times 2GM/(Rc^2)$ for EHT testing; measurement problem dissolved via commitment framework; error correction structure of spacetime (light as matched filter, conservation laws as parity checks, $\alpha$ as bootstrap fixed point); Shannon interpretation of $\alpha$ (von Mises-Packing equivalence, 1920 as coding symmetry, Bergman-Fisher duality); $\alpha$ running recast as dimensional flow ($d_{\text{eff}}$ from 4.00 to 3.94). Signal/curvature/noise $\to$ strong/weak/dark matter identification in $\alpha$ three-factor decomposition. Prediction table expanded to 32+ parameter-free results.
 - **v8** (March 2026): QFT foundations complete --- all six open QFT calculations solved: $\alpha_s = 7/20$; $\eta = 2\alpha^4/(3\pi)$ ($-1.4\%$); $H_0 \approx 66.7$ km/s/Mpc ($-1.0\%$); $\sin^2\theta_W = 3/13$ ($-0.2\%$); neutrino masses from boundary seesaw $m_{\nu_i} = f_i \alpha^2 m_e^2/m_p$ with $m_1 = 0$, $m_2 = 0.00865$ eV, $m_3 = 0.04940$ eV; CKM and PMNS mixing matrices from $D_{IV}^5$ geometry. Vacuum quantum identification: the massless $\nu_1$ IS the vacuum ground state; $\Lambda \propto m_\nu^4$ resolves cosmic coincidence problem. Updated prediction table (now 25+ parameter-free predictions). Yang-Mills mass gap proved in companion notes.
 - **v6** (March 2026): Lie algebra verification of SO(5)$\times$SO(2) isotropy; $S^2$ uniqueness proved; quantum mechanics derived from substrate geometry; closed-form $\Lambda$ derivation; $m_p/m_e = 6\pi^5$; $m_\mu/m_e = (24/\pi^2)^6$; phase transition temperature $T_c$; Big Bang as activation of SO(2) generator; primordial gravitational wave spectrum in NANOGrav band.
 - **v5** (March 2026): Merged duplicate sections; CR dimension counting argument; renumbered to 27 sections.
@@ -102,7 +102,7 @@ All results below are derived from the geometry of $D_{IV}^5$ with zero free par
 | Proton/electron mass ratio $m_p/m_e$ | $(n_C{+}1)\pi^{n_C} = 6\pi^5$ | **0.002%** | 7.4 |
 | Cosmological constant $\Lambda$ | $F_{\rm BST}\times\alpha^{56}\times e^{-2}$ | **0.02%** | 12.5 |
 | Phase transition temperature $T_c$ | $N_{\rm max}\times 20/21$ | **0.018%** | 15.1 |
-| Gravitational constant $G$ | $\hbar c\,(6\pi^5)^2\alpha^{24}/m_e^2$ — HC complete | **0.034%**† | 10.3 |
+| Gravitational constant $G$ | $\hbar c\,(6\pi^5)^2\alpha^{24}/m_e^2$ — $12{=}2C_2$ Bergman round trips | **0.07%** | 10.3 |
 | Contact scale $d_0/\ell_{\rm Pl}$ | $\alpha^{14}\times e^{-1/2}$ | — | 12.5 |
 | Strong coupling $\alpha_s(m_p)$ | $(n_C{+}2)/(4n_C) = 7/20$ | **~0%** | 7.6 note |
 | Weinberg angle $\sin^2\theta_W$ | $N_c/(N_c{+}2n_C) = 3/13$ | **0.2%** | 6.3 |
@@ -1402,6 +1402,16 @@ With $v$ derived, both Higgs mass routes become fully parameter-free: Route A gi
 
 Full derivation: `notes/BST_FermiScale_Derivation.md`.
 
+**The two master equations.** All four fundamental mass scales — electron mass $m_e$, proton mass $m_p$, Fermi scale $v$, and Planck mass $m_{\rm Pl}$ — are determined by two geometric equations plus one input mass:
+
+$$\boxed{v \times g \times m_e = m_p^2 \qquad [\text{weak: Bergman hierarchy, } g = \text{genus} = 7]}$$
+
+$$\boxed{m_{\rm Pl} \times m_p \times \alpha^{2C_2} = m_e^2 \qquad [\text{gravity: } C_2 = 6 \text{ Bergman kernel round trips}]}$$
+
+The first equation says the Fermi scale times genus times the electron mass equals the proton mass squared — the weak hierarchy is the second-order Bergman ratio divided by genus. The second says the Planck mass times the proton mass, suppressed by $C_2 = 6$ Bergman kernel round trips ($\alpha^{2C_2} = \alpha^{12}$), equals the electron mass squared — gravity is weak because each round trip costs a factor of $\alpha^2$. Together they yield $G = \hbar c\,(6\pi^5)^2 \alpha^{24}/m_e^2 = 6.679 \times 10^{-11}$ (0.07% from CODATA). The hierarchy problem is a theorem: $v/m_{\rm Pl} \sim 10^{-17}$ is not fine-tuned but is the geometric ratio $(6\pi^5)^2 \alpha^{24}/7$, fully determined by $D_{IV}^5$.
+
+Full derivation: `notes/BST_NewtonG_Derivation.md`.
+
 ### 14.8 The BST Field Equation
 
 Einstein's field equation $G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G T_{\mu\nu}$ is recovered as the macroscopic limit of BST substrate dynamics. BST does not modify the equation — it derives every term.
@@ -2416,7 +2426,8 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Proton radius                        |0.94 fm (geometric)              |0.87 fm (8%)    |$\checkmark$          |
 |Proton/electron mass ratio           |$(n_C+1)\pi^{n_C} = 6\pi^5 = 1836.118$|$1836.153$|$\checkmark$ 0.002%|
 |Muon/electron mass ratio             |$(24/\pi^2)^6 = [K_3(0,0)/K_1(0,0)]^{\dim_{\mathbb{R}}(D_{IV}^3)}= 206.761$|$206.768$|$\checkmark$ 0.003%|
-|Hierarchy / Newton's G               |$m_e/\sqrt{m_p \cdot m_{\rm Pl}} = \alpha^{n_C+1} = \alpha^6$|$1.5098\times10^{-13}$|$\checkmark$ 0.017%|
+|Newton's G (gravitational constant)  |$G = \hbar c\,(6\pi^5)^2\alpha^{24}/m_e^2$; $12 = 2C_2$, $C_2{=}6$ Bergman round trips|$6.679\times10^{-11}$|$\checkmark$ 0.07%|
+|Hierarchy $m_e/\sqrt{m_p m_{\rm Pl}}$|$\alpha^{n_C+1} = \alpha^6$|$1.5098\times10^{-13}$|$\checkmark$ 0.017%|
 |Wyler constant origin (HC)           |$9/(8\pi^4) = \rho_2^2/(2\pi^4)$, $\rho_2=(n_C{-}2)/2=3/2$ — Weyl vector of $\mathrm{SO}_0(5,2)$|Exact|$\checkmark$ Derived|
 |$D_{IV}^5$ identification            |Proven from BST contact geometry |—               |Established|
 |Friedmann equation                   |Contact commitment rate equation $H=(1/2)\dot{N}_c/N_c$ recovers all FLRW terms|FLRW cosmology|$\checkmark$ exact structure|
@@ -2751,6 +2762,7 @@ The following were all derived from $D_{IV}^5$ geometry with zero free parameter
 **The vacuum quantum insight:** The massless neutrino $\nu_1$ IS the vacuum ground state of $D_{IV}^5$. Neutrino oscillation is the vacuum shifting between geometric modes. The connection $\Lambda \propto m_\nu^4$ follows from the exponent chain: $m_\nu \sim \alpha^{14} m_{\rm Pl}$ and $\Lambda \sim \alpha^{56} = (\alpha^{14})^4$, where $14 = 2 \times \text{genus} = 2(n_C + 2)$. This resolves the cosmic coincidence problem ($\Lambda^{1/4} \sim m_\nu$) as a geometric identity, not a coincidence.
 
 **Derived since v8 (March 12, 2026):**
+- **Newton's $G$ from first principles.** $G = \hbar c\,(6\pi^5)^2 \alpha^{24}/m_e^2 = 6.679 \times 10^{-11}$ m³ kg⁻¹ s⁻² (0.07% from CODATA $6.6743 \times 10^{-11}$). The exponent 12 in $m_e/m_{\rm Pl} = 6\pi^5 \times \alpha^{12}$ is $2C_2$, where $C_2 = 6$ is the quadratic Casimir of the Bergman space $\pi_6$ (Harish-Chandra). Each factor of $\alpha^2$ is one Bergman kernel round trip (boundary $\to$ bulk $\to$ boundary); $C_2 = 6$ round trips connect the electron (boundary excitation) to the Planck scale (bulk curvature). The master equation $m_{\rm Pl} \times m_p \times \alpha^{2C_2} = m_e^2$ combines with $v \times g \times m_e = m_p^2$ to determine all four fundamental mass scales ($m_e$, $m_p$, $v$, $m_{\rm Pl}$) from one mass plus geometry. The hierarchy problem is a theorem, not fine-tuning. Full details: `notes/BST_NewtonG_Derivation.md`.
 - **Fermi scale** $v = m_p^2/(g \cdot m_e) = 36\pi^{10} m_e/7 = 246.12$ GeV (0.046%), where $g = 7$ is the genus of $D_{IV}^5$. The Fermi scale is the second-order Bergman ratio: fermion mass $(n_C+1)\pi^{n_C} m_e$ squared, divided by genus $(n_C+2)$. Also $m_W = n_C m_p/(8\alpha) = 80.361$ GeV (0.02%). Both Higgs mass routes are now fully parameter-free. The hierarchy problem is dissolved. Full details: `notes/BST_FermiScale_Derivation.md`.
 - **Higgs mass** by two independent routes: $\lambda_H = \sqrt{2/n_C!} = 1/\sqrt{60}$ giving $m_H = 125.11$ GeV (0.11%), and $m_H/m_W = (\pi/2)(1-\alpha)$ giving $m_H = 125.33$ GeV (0.07%). The Higgs is the radial mode on $D_{IV}^5$. The identity $8N_c = (n_C-1)!$ (unique to $n_C = 5$) connects the two routes. Full details: `notes/BST_HiggsMass_TwoRoutes.md`.
 - **Geometric circular polarization** from black hole horizons: $\text{CP} = \alpha \times 2GM/(Rc^2)$, parameter-free. Signed-addition model $|\alpha + A\sin(\text{RM}/\nu^2 + \phi_0)|$ fits Sgr A* data with $\chi^2_{\text{red}} = 0.22$. Testable with EHT data. Full details: `notes/BST_CP_Alpha_Paper.md`.
@@ -2766,19 +2778,17 @@ The following were all derived from $D_{IV}^5$ geometry with zero free parameter
 
 3. **Commitment rate exponent $n_c = 3$.** Proving from contact topology that the uncommitted reservoir drains as $(1+z)^3$ (completing the Friedmann derivation of Section 12.7) requires a rigorous scaling argument from the Bergman measure on $\Sigma = S^4 \times S^1$.
 
-4. **Newton's G from first principles.** The pattern $m_e/m_{\rm Pl} = 6\pi^5 \times \alpha^{12}$ is established at 0.034%; proving $\alpha^{12} = (\alpha^2)^6$ from six Bergman layer transitions is open.
+4. **2-loop $\alpha_s$ running.** Close the 1.7% gap at $m_Z$. Numerical.
 
-5. **2-loop $\alpha_s$ running.** Close the 1.7% gap at $m_Z$. Numerical.
+5. **Chiral condensate $\chi$ from first principles.** Currently $\chi \approx 5.5$ is measured from $m_\pi$. It should emerge from the $Z_3$ sector of the $D_{IV}^5$ partition function.
 
-6. **Chiral condensate $\chi$ from first principles.** Currently $\chi \approx 5.5$ is measured from $m_\pi$. It should emerge from the $Z_3$ sector of the $D_{IV}^5$ partition function.
+6. **SO(5)$\times$SO(2) isotropy proof (analytic).** Numerical verification passes all seven checks; a rigorous proof via Chern-Moser normal form theory is outstanding.
 
-7. **SO(5)$\times$SO(2) isotropy proof (analytic).** Numerical verification passes all seven checks; a rigorous proof via Chern-Moser normal form theory is outstanding.
+7. **Uniqueness of the SO(2) activation.** Prove that the $\mathrm{SO}(2)$ activation is the unique self-sustaining symmetry breaking of $\mathrm{SO}_0(5,2)$: that no other single-generator activation produces a thermodynamically stable spatial phase with a well-defined Bergman kernel. This would close the logical gap in the Big Bang derivation of Section 15.1 — replacing the consistency argument with a theorem.
 
-8. **Uniqueness of the SO(2) activation.** Prove that the $\mathrm{SO}(2)$ activation is the unique self-sustaining symmetry breaking of $\mathrm{SO}_0(5,2)$: that no other single-generator activation produces a thermodynamically stable spatial phase with a well-defined Bergman kernel. This would close the logical gap in the Big Bang derivation of Section 15.1 — replacing the consistency argument with a theorem.
+8. **CMB spectral index $n_s$ and tensor-to-scalar ratio $r$.** Compute the critical exponents of the $\mathrm{SO}_0(5,2) \to \mathrm{SO}(5) \times \mathrm{SO}(2)$ phase transition on $D_{IV}^5$. These exponents set the initial perturbation spectrum and predict $n_s$ and $r$, both precisely measured by Planck. A BST derivation that matches the observed $n_s = 0.965 \pm 0.004$ would be a quantitative test against existing CMB data with no free parameters.
 
-9. **CMB spectral index $n_s$ and tensor-to-scalar ratio $r$.** Compute the critical exponents of the $\mathrm{SO}_0(5,2) \to \mathrm{SO}(5) \times \mathrm{SO}(2)$ phase transition on $D_{IV}^5$. These exponents set the initial perturbation spectrum and predict $n_s$ and $r$, both precisely measured by Planck. A BST derivation that matches the observed $n_s = 0.965 \pm 0.004$ would be a quantitative test against existing CMB data with no free parameters.
-
-10. **Lithium-7 problem from BST latent heat.** Compute the entropy injection from the phase transition latent heat ($C_v \approx 330{,}000$ at $T_c$) and its dilution of the baryon-to-photon ratio during the beryllium-7 production window. If the BST-predicted entropy injection reduces ${}^7\text{Li}$ by the observed factor of $\sim 3\times$ relative to standard BBN, this is a falsifiable resolution of the lithium-7 problem from first principles.
+9. **Lithium-7 problem from BST latent heat.** Compute the entropy injection from the phase transition latent heat ($C_v \approx 330{,}000$ at $T_c$) and its dilution of the baryon-to-photon ratio during the beryllium-7 production window. If the BST-predicted entropy injection reduces ${}^7\text{Li}$ by the observed factor of $\sim 3\times$ relative to standard BBN, this is a falsifiable resolution of the lithium-7 problem from first principles.
 
 The full open problem list with tools and programs is in `notes/BST_ResearchRoadmap.md`.
 

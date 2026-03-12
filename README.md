@@ -28,7 +28,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | mμ/mₑ (muon/electron) | (24/π²)⁶ | 206.761 | 206.768 | 0.003% |
 | Λ (cosmological constant) | [ln(138)/50] × α⁵⁶ × e⁻² | 2.8993×10⁻¹²² | 2.888×10⁻¹²² | 0.025% |
 | Tс (Big Bang temperature) | N_max × 20/21 | 0.487 MeV | — | 0.018% |
-| G (gravitational constant) | ℏc(6π⁵)²α²⁴/mₑ² | — | — | 0.034% |
+| G (gravitational constant) | ℏc(6π⁵)²α²⁴/mₑ², 12=2C₂ Bergman round trips | 6.679×10⁻¹¹ | 6.674×10⁻¹¹ | 0.07% |
 | sin²θ_W (Weinberg angle) | N_c/(N_c + 2n_C) = 3/13 | 0.23077 | 0.23122 (MS-bar) | 0.2% |
 | α_s (strong coupling) | (n_C+2)/(4n_C) = 7/20 | 0.350 (at mₚ) | runs to 0.1179 at m_Z | 1.7% at m_Z |
 | m_W (W boson mass) | m_Z√(10/13) | 79.977 GeV | 80.377 GeV | 0.5% |
@@ -109,6 +109,8 @@ BST follows a single logical chain from one question to all of physics. Each ste
 
 **Fermi scale derived**: v = mₚ²/(7mₑ) = 36π¹⁰mₑ/7 (0.046%). The boson scale is the fermion scale squared, divided by the genus of D(IV,5). Also m_W = n_C·mₚ/(8α) (0.02%). The 8 connects to the identity 8N_c = (n_C−1)! unique to n_C = 5. The hierarchy problem dissolves: curvature of D(IV,5) (through the factor 1/π⁴ in α) is why the weak scale is ~100× the strong scale. Signal → strong force, curvature → weak force.
 
+**Newton's G derived**: G = ℏc(6π⁵)²α²⁴/mₑ² = 6.679 × 10⁻¹¹ (0.07% from CODATA 6.674 × 10⁻¹¹). The exponent 12 in mₑ/m_Pl = 6π⁵ × α¹² is 2C₂, where C₂ = 6 is the Casimir of the Bergman space — each factor of α² is one Bergman kernel round trip. Two master equations determine all four fundamental mass scales from one mass plus geometry: (1) v × genus × mₑ = mₚ² [weak hierarchy] and (2) m_Pl × mₚ × α^{2C₂} = mₑ² [gravitational hierarchy]. The hierarchy problem is a theorem, not fine-tuning.
+
 **Geometric circular polarization**: CP = α × 2GM/(Rc²) — a parameter-free prediction for frequency-independent CP from any black hole horizon. At the horizon: CP = α = 0.730%, independent of mass. Signed-addition model (geometric floor + oscillatory Faraday) fits Sgr A* data with χ²_red = 0.22. Testable with EHT data by recalibrating without V=0 assumption.
 
 **Measurement problem dissolved**: Superposition is uncommitted capacity. Measurement is commitment of correlation. A correlation that dissolves before commitment to definite state just isn't there at all. No consciousness, no collapse postulate, no many worlds. Every variant of the double-slit experiment follows from one principle.
@@ -186,10 +188,10 @@ BST follows a single logical chain from one question to all of physics. Each ste
 | Problem | Status | Priority |
 |---|---|---|
 | CKM CP phase (ρ̄, η̄, Jarlskog invariant) | Open | 1 |
-| Newton's G — prove α¹² = (α²)⁶ from Bergman layers | Open | 2 |
-| Tau mass geometric derivation | 0.26% with 8π(N_max+1), needs Bergman metric | 3 |
-| Shannon-Wyler circle (last 5%) | Prove multiplicative assembly from Shannon | 4 |
-| EHT verification of CP = α floor | Awaiting data access / recalibration | 5 |
+| Tau mass geometric derivation | 0.26% with 8π(N_max+1), needs Bergman metric | 2 |
+| Shannon-Wyler circle (last 5%) | Prove multiplicative assembly from Shannon | 3 |
+| EHT verification of CP = α floor | Awaiting data access / recalibration | 4 |
+| Newton's G — prove α¹² from geometry | SOLVED: 12=2C₂, C₂=6 Bergman round trips (0.07%) | -- |
 | Fermi scale v from geometry | SOLVED: v = mₚ²/(7mₑ) | -- |
 
 ---
