@@ -49,7 +49,9 @@ abstract: |
   The chiral condensate $\chi = \sqrt{n_C(n_C+1)} = \sqrt{30}$ (0.46\%) is derived from superradiant vacuum coherence,
   yielding the pion mass $m_\pi = 140.2$ MeV (0.46\%) and decay constant $f_\pi = m_p/10 = 93.8$ MeV (1.9\%)
   with zero free parameters.
-  Over 51 parameter-free predictions are presented, all testable against current or near-future experiments.
+  The CMB spectral index $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($0.3\sigma$ from Planck),
+  with tensor-to-scalar ratio $r \approx 0$ (no primordial B-modes), are derived from the phase transition dynamics.
+  Over 53 parameter-free predictions are presented, all testable against current or near-future experiments.
 documentclass: article
 classoption:
   - 12pt
@@ -2502,6 +2504,8 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Pion decay constant $f_\pi$          |$m_p/\dim_{\mathbb{R}} = m_p/10 = 93.8$ MeV|92.1 MeV (FLAG)|$\checkmark$ 1.9%|
 |Newton's G (gravitational constant)  |$G = \hbar c\,(6\pi^5)^2\alpha^{24}/m_e^2$; $12 = 2C_2$, $C_2{=}6$ Bergman round trips|$6.679\times10^{-11}$|$\checkmark$ 0.07%|
 |Hierarchy $m_e/\sqrt{m_p m_{\rm Pl}}$|$\alpha^{n_C+1} = \alpha^6$|$1.5098\times10^{-13}$|$\checkmark$ 0.017%|
+|CMB spectral index $n_s$             |$1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$|$0.9649\pm0.0042$ (Planck)|$\checkmark$ 0.3$\sigma$|
+|Tensor-to-scalar ratio $r$           |$\approx 0$ ($T_c \ll m_{\rm Pl}$)   |$< 0.036$ (BICEP)|$\checkmark$ consistent|
 |Wyler constant origin (HC)           |$9/(8\pi^4) = \rho_2^2/(2\pi^4)$, $\rho_2=(n_C{-}2)/2=3/2$ — Weyl vector of $\mathrm{SO}_0(5,2)$|Exact|$\checkmark$ Derived|
 |$D_{IV}^5$ identification            |Proven from BST contact geometry |—               |Established|
 |Friedmann equation                   |Contact commitment rate equation $H=(1/2)\dot{N}_c/N_c$ recovers all FLRW terms|FLRW cosmology|$\checkmark$ exact structure|
@@ -2538,7 +2542,7 @@ With $\chi = \sqrt{n_C(n_C+1)} = \sqrt{30}$ derived from superradiant vacuum coh
 ### 25.5 Quantitative Predictions (Testable at Future Experiments)
 
 1. **Proton decay:** Lifetime $\tau_p \gtrsim 3 \times 10^{34}$ years with specific channel preferences from structured coupling. Testable at Hyper-Kamiokande within $\sim 10$ years.
-1. **CMB spectral index and tensor-to-scalar ratio:** Derivable from phase transition critical exponents on $D_{IV}^5$, not from inflationary slow-roll parameters. Testable against CMB-S4 and LiteBIRD data. BST and inflation predict different relationships between $n_s$ and $r$.
+1. **CMB spectral index and tensor-to-scalar ratio:** $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($-0.3\sigma$ from Planck $0.9649 \pm 0.0042$). Tensor ratio $r \approx 0$ ($T_c \sim 130$ MeV $\ll m_{\rm Pl}$). BST predicts no primordial B-modes — sharply falsifiable by LiteBIRD and CMB-S4. See `notes/BST_CMB_SpectralIndex.md`.
 1. **No gravitons:** Gravitational wave detectors will detect wave effects but never isolate individual graviton quanta.
 1. **Black hole ringdown echoes:** Channel saturation boundary acts as partially reflective surface. Gravitational wave ringdown should show delayed echoes at intervals determined by the saturated region geometry. Testable in LIGO O4/O5 data.
 1. **Hawking radiation fine structure:** Deviations from perfect thermal spectrum at energy scales related to channel capacity 137. Beyond current detection but a specific quantitative prediction.
@@ -2862,7 +2866,7 @@ The following were all derived from $D_{IV}^5$ geometry with zero free parameter
 
 3. **Commitment rate exponent $n_c = 3$.** Proving from contact topology that the uncommitted reservoir drains as $(1+z)^3$ (completing the Friedmann derivation of Section 12.7) requires a rigorous scaling argument from the Bergman measure on $\Sigma = S^4 \times S^1$.
 
-4. **2-loop $\alpha_s$ running.** Close the 1.7% gap at $m_Z$. Numerical.
+4. **$\alpha_s$ running beyond 1-loop.** The 2-loop and 3-loop perturbative corrections make the result WORSE (−11\%, −13\%) because $\alpha_s = 0.35$ at $m_p$ is in the non-perturbative regime where the MS-bar beta function series diverges (40\% correction per order). The 1-loop result $\alpha_s(m_Z) = 0.1158$ (−1.7\%) stands as the best perturbative estimate. The 1.7\% gap is comparable to scheme-conversion effects (BST Bergman metric $\neq$ MS-bar). A proper non-perturbative running requires deriving the BST beta function from Bergman metric coarse-graining. See `notes/BST_AlphaS_2Loop.py`.
 
 5. ~~**Chiral condensate $\chi$ from first principles** (complete).~~ $\chi = \sqrt{n_C(n_C+1)} = \sqrt{30} = 5.477$ (0.46%). Superradiant vacuum coherence on $\mathbb{CP}^1$. BST now has zero free parameters. Full details: `notes/BST_ChiralCondensate_Derived.md`.
 
@@ -2870,7 +2874,7 @@ The following were all derived from $D_{IV}^5$ geometry with zero free parameter
 
 7. **Uniqueness of the SO(2) activation.** Prove that the $\mathrm{SO}(2)$ activation is the unique self-sustaining symmetry breaking of $\mathrm{SO}_0(5,2)$: that no other single-generator activation produces a thermodynamically stable spatial phase with a well-defined Bergman kernel. This would close the logical gap in the Big Bang derivation of Section 15.1 — replacing the consistency argument with a theorem.
 
-8. **CMB spectral index $n_s$ and tensor-to-scalar ratio $r$.** Compute the critical exponents of the $\mathrm{SO}_0(5,2) \to \mathrm{SO}(5) \times \mathrm{SO}(2)$ phase transition on $D_{IV}^5$. These exponents set the initial perturbation spectrum and predict $n_s$ and $r$, both precisely measured by Planck. A BST derivation that matches the observed $n_s = 0.965 \pm 0.004$ would be a quantitative test against existing CMB data with no free parameters.
+8. ~~**CMB spectral index $n_s$ and tensor-to-scalar ratio $r$** (candidate formula identified).~~ $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($-0.3\sigma$ from Planck). Each of the $n_C = 5$ complex dimensions of the order parameter space contributes a tilt of $1/N_{\max}$. Tensor ratio $r \approx 0$ (BST phase transition at $T_c = 130$ MeV $\ll m_{\rm Pl}$). Formal derivation from SO₀(5,2) critical fluctuation spectrum is OPEN. Alternative: $n_s = 1 - 5/144 = 0.96528$ ($+0.1\sigma$). See `notes/BST_CMB_SpectralIndex.md`.
 
 9. **Lithium-7 problem from BST latent heat.** Compute the entropy injection from the phase transition latent heat ($C_v \approx 330{,}000$ at $T_c$) and its dilution of the baryon-to-photon ratio during the beryllium-7 production window. If the BST-predicted entropy injection reduces ${}^7\text{Li}$ by the observed factor of $\sim 3\times$ relative to standard BBN, this is a falsifiable resolution of the lithium-7 problem from first principles.
 

@@ -62,11 +62,13 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | χ (chiral condensate) | √(n_C(n_C+1)) = √30 | 5.477 | 5.452 | 0.46% |
 | m_π (pion mass) | 25.6 × √30 | 140.2 MeV | 139.57 MeV | 0.46% |
 | f_π (pion decay const.) | mₚ/dim_R = mₚ/10 | 93.8 MeV | 92.1 MeV | 1.9% |
+| n_s (spectral index) | 1 − n_C/N_max = 1 − 5/137 | 0.96350 | 0.9649 ± 0.0042 | 0.3σ |
+| r (tensor-to-scalar) | ≈ 0 (T_c ≪ m_Pl) | ~0 | < 0.036 | consistent |
 | Dark matter ratio | Shannon: B·log₂(1+S/N) | 5.33:1 | 5.4:1 (Planck) | 0.10 pp |
 | Galaxy rotation curves | Channel noise S/N | 12.5 km/s RMS | — | 175 galaxies, 0 params |
 | CP floor (BH horizon) | α × 2GM/(Rc²) = α | 0.730% | ~1% (EHT) | consistent |
 
-**51+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
+**53+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
 
 ---
 

@@ -131,13 +131,19 @@ Starting from α_s(m_p = 0.938 GeV) = 7/20 = 0.35:
 **Observed:** α_s(m_Z) = 0.1179 ± 0.0010.
 **Deviation:** −1.74% (within expected 2-loop correction range).
 
-### 5.2 Expected 2-Loop Correction
+### 5.2 Multi-Loop Analysis (Updated March 12, 2026)
 
-The 2-loop beta function adds a term:
+Full numerical calculation (`BST_AlphaS_2Loop.py`) reveals that higher-loop corrections do NOT close the 1.7% gap — they make it worse:
 
-$$\beta_1 = \frac{306 - 38N_f}{3}$$
+| Loops | α_s(m_Z) | vs PDG |
+|-------|----------|--------|
+| 1-loop | 0.1158 | −1.7% |
+| 2-loop | 0.1046 | −11.3% |
+| 3-loop | 0.1025 | −13.0% |
 
-For N_f = 5: β₁ = (306 − 190)/3 = 116/3 ≈ 38.7. The 2-loop correction slows the running (β₁ > 0 adds to the denominator), pushing α_s(m_Z) upward by approximately 1-3%. This would bring the BST prediction to α_s(m_Z) ≈ 0.117-0.119, consistent with observation.
+**Why:** At α_s(m_p) = 0.35, the perturbative beta function series does not converge. The 2-loop term is 40% of the 1-loop term at m_p, and the 3-loop is 56% of the 2-loop. The perturbative expansion breaks down in the non-perturbative regime.
+
+**Conclusion:** The 1-loop result α_s(m_Z) = 0.1158 (−1.7%) is the best perturbative estimate. The 1.7% gap is comparable to scheme-conversion effects between BST's geometric (Bergman) coupling and the MS-bar scheme. A proper non-perturbative running requires deriving the BST beta function from Bergman metric coarse-graining on D_IV^5.
 
 ### 5.3 Comparison to Lattice QCD
 
@@ -204,7 +210,7 @@ The coupling decreases with n_C because higher-dimensional domains dilute the co
 |-------|--------|----------|
 | α_s = c × Vol(CP²)/π is the correct geometric identification | **Conjectured** | 1 |
 | N_f = n_C + 1 = 6 from Bergman layers | **Conjectured** | 2 |
-| 2-loop running gives α_s(m_Z) = 0.118 ± 0.001 | **Expected** | 3 — numerical |
+| 2-loop running DOES NOT converge at m_p (α_s=0.35 is non-perturbative) | **Resolved** | See BST_AlphaS_2Loop.py |
 | Derivation of β₀ from Bergman coarse-graining (not from standard QCD) | **Open** | 4 |
 
 -----
