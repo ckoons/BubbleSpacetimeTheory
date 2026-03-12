@@ -44,11 +44,12 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | m_H (Higgs mass, Route B) | (π/2)(1−α)·m_W | 125.33 GeV | 125.25 GeV | 0.07% |
 | v (Fermi scale) | mₚ²/(g·mₑ), g=7 | 246.12 GeV | 246.22 GeV | 0.046% |
 | m_W (W mass, Route B) | n_C·mₚ/(8α) | 80.361 GeV | 80.377 GeV | 0.02% |
+| m_t (top quark mass) | (1−α)v/√2 | 172.75 GeV | 172.69 GeV | 0.037% |
 | Dark matter ratio | Shannon: B·log₂(1+S/N) | 5.33:1 | 5.4:1 (Planck) | 0.10 pp |
 | Galaxy rotation curves | Channel noise S/N | 12.5 km/s RMS | — | 175 galaxies, 0 params |
 | CP floor (BH horizon) | α × 2GM/(Rc²) = α | 0.730% | ~1% (EHT) | consistent |
 
-**32+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
+**33+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
 
 ---
 

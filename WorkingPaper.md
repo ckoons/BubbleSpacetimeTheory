@@ -1382,6 +1382,12 @@ The tree-level ratio $m_H/m_W = \pi/2$ is the ratio of radial to angular oscilla
 
 The two routes are independent (they differ by 0.18%) and their average is $125.22$ GeV — within $0.02\%$ of the observed value.
 
+**The top quark mass is fully determined.** The top Yukawa coupling is $y_t = 1 - \alpha$: channel capacity (1) minus electromagnetic overhead ($\alpha$). The top mass follows immediately:
+
+$$m_t = (1 - \alpha)\frac{v}{\sqrt{2}} = 172.75 \text{ GeV} \quad (0.037\%, \; 0.2\sigma \text{ from observed } 172.69 \pm 0.30 \text{ GeV})$$
+
+The same $(1-\alpha)$ factor appears in Higgs mass Route B: $m_H = (\pi/2)(1-\alpha)m_W$. This is not a coincidence — both the Higgs and the top couple to the radial mode on $D_{IV}^5$, and the channel noise correction $\alpha$ enters identically. The top quark, as the heaviest fermion, saturates the Yukawa channel at $y_t = 1 - \alpha$; the Higgs radial frequency is reduced by the same factor. With $v$ derived (below), $m_t$ is parameter-free.
+
 **Special identity:** $8 N_c = (n_C - 1)!$, i.e., $24 = 4!$, holds uniquely at $n_C = 5$. This identity connects the two formulas and means $4 N_c n_C = n_C!/2$ — the product of the three BST integers ($4, N_c, n_C$) equals half the permutation group of $n_C$ dimensions.
 
 Full derivation: `notes/BST_HiggsMass_TwoRoutes.md`.
@@ -2421,6 +2427,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Higgs mass (Route B)                |$(\pi/2)(1-\alpha)m_W = 125.33$ GeV|$125.25\pm0.17$ GeV|$\checkmark$ 0.07%|
 |Fermi scale $v$ (Higgs vev)         |$m_p^2/(g \cdot m_e) = 36\pi^{10}m_e/7 = 246.12$ GeV, $g{=}7{=}\text{genus}$|$246.22$ GeV|$\checkmark$ 0.046%|
 |W boson mass $m_W$ (Route B)        |$n_C m_p/(8\alpha) = 80.361$ GeV |$80.377$ GeV    |$\checkmark$ 0.02%|
+|Top quark mass $m_t$                |$(1-\alpha)v/\sqrt{2} = 172.75$ GeV|$172.69\pm0.30$ GeV|$\checkmark$ 0.037%|
 |Number of colors $N_c$               |3 (from $Z_3$ center)            |3               |$\checkmark$          |
 |Baryon = 3 quarks                    |Required by $Z_3$ closure        |Observed        |$\checkmark$          |
 |Proton radius                        |0.94 fm (geometric)              |0.87 fm (8%)    |$\checkmark$          |
@@ -2765,6 +2772,7 @@ The following were all derived from $D_{IV}^5$ geometry with zero free parameter
 - **Newton's $G$ from first principles.** $G = \hbar c\,(6\pi^5)^2 \alpha^{24}/m_e^2 = 6.679 \times 10^{-11}$ m³ kg⁻¹ s⁻² (0.07% from CODATA $6.6743 \times 10^{-11}$). The exponent 12 in $m_e/m_{\rm Pl} = 6\pi^5 \times \alpha^{12}$ is $2C_2$, where $C_2 = 6$ is the quadratic Casimir of the Bergman space $\pi_6$ (Harish-Chandra). Each factor of $\alpha^2$ is one Bergman kernel round trip (boundary $\to$ bulk $\to$ boundary); $C_2 = 6$ round trips connect the electron (boundary excitation) to the Planck scale (bulk curvature). The master equation $m_{\rm Pl} \times m_p \times \alpha^{2C_2} = m_e^2$ combines with $v \times g \times m_e = m_p^2$ to determine all four fundamental mass scales ($m_e$, $m_p$, $v$, $m_{\rm Pl}$) from one mass plus geometry. The hierarchy problem is a theorem, not fine-tuning. Full details: `notes/BST_NewtonG_Derivation.md`.
 - **Fermi scale** $v = m_p^2/(g \cdot m_e) = 36\pi^{10} m_e/7 = 246.12$ GeV (0.046%), where $g = 7$ is the genus of $D_{IV}^5$. The Fermi scale is the second-order Bergman ratio: fermion mass $(n_C+1)\pi^{n_C} m_e$ squared, divided by genus $(n_C+2)$. Also $m_W = n_C m_p/(8\alpha) = 80.361$ GeV (0.02%). Both Higgs mass routes are now fully parameter-free. The hierarchy problem is dissolved. Full details: `notes/BST_FermiScale_Derivation.md`.
 - **Higgs mass** by two independent routes: $\lambda_H = \sqrt{2/n_C!} = 1/\sqrt{60}$ giving $m_H = 125.11$ GeV (0.11%), and $m_H/m_W = (\pi/2)(1-\alpha)$ giving $m_H = 125.33$ GeV (0.07%). The Higgs is the radial mode on $D_{IV}^5$. The identity $8N_c = (n_C-1)!$ (unique to $n_C = 5$) connects the two routes. Full details: `notes/BST_HiggsMass_TwoRoutes.md`.
+- **Top quark mass** $m_t = (1-\alpha)v/\sqrt{2} = 172.75$ GeV (0.037%, $0.2\sigma$ from observed $172.69 \pm 0.30$ GeV). The top Yukawa coupling $y_t = 1 - \alpha$ is channel capacity minus EM overhead — the same $(1-\alpha)$ factor that appears in Higgs Route B. With $v$ derived, the top mass is fully parameter-free.
 - **Geometric circular polarization** from black hole horizons: $\text{CP} = \alpha \times 2GM/(Rc^2)$, parameter-free. Signed-addition model $|\alpha + A\sin(\text{RM}/\nu^2 + \phi_0)|$ fits Sgr A* data with $\chi^2_{\text{red}} = 0.22$. Testable with EHT data. Full details: `notes/BST_CP_Alpha_Paper.md`.
 - **Shannon interpretation of alpha:** $\alpha$ as optimal code rate. Von Mises-Packing equivalence. Three-factor decomposition of Wyler. 1920 as coding symmetry. Bergman-Fisher duality. Alpha running as dimensional flow ($d_{\text{eff}}$ from 4.00 to 3.94). Full details: `notes/BST_Shannon_Alpha_Paper.md`.
 - **Error correction structure:** Light as matched filter. Conservation laws as parity checks. Alpha as bootstrap fixed point. Full details: `notes/BST_ErrorCorrection_Physics.md`.
