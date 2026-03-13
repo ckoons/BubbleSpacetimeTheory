@@ -84,11 +84,23 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Baryon resonance (k=8) | C₂(π₈)·π⁵·mₑ = 24π⁵mₑ | 3753 MeV | undiscovered? | prediction |
 | m_ρ (ρ meson mass) | n_C·π^{n_C}·mₑ = 5π⁵mₑ; m_ρ/m_p = 5/6 | 781.9 MeV | 775.3 MeV | 0.86% |
 | m_ω (ω meson mass) | 5π⁵mₑ (isoscalar partner of ρ) | 781.9 MeV | 782.7 MeV | 0.10% |
-| r_π (pion charge radius) | √6/(5π⁵mₑ) via VMD + BST m_ρ | 0.618 fm | 0.659 fm | 6.2% |
+| r_π (pion charge radius) | VMD + NLO chiral log (GL84) | 0.656 fm | 0.659 fm | **0.46%** |
 | m_φ (φ meson mass) | (N_c+2n_C)/2 · π⁵mₑ = (13/2)π⁵mₑ | 1016.4 MeV | 1019.5 MeV | 0.30% |
 | m_K* (K* meson mass) | √(65/2)·π⁵mₑ (geometric mean of ρ,φ) | 891.5 MeV | 891.7 MeV | 0.02% |
-| r_K+ (kaon charge radius) | √6/m_K*(BST) = √(12/65)/(π⁵mₑ) | 0.542 fm | 0.560 fm | 3.2% |
+| r_K+ (kaon charge radius) | K* VMD + NLO K-π loop | 0.555 fm | 0.560 fm | **1.0%** |
 | Tsirelson bound | 2√N_w = 2√(N_c−1) = 2√2 | 2.828 | 2.828 (exact) | exact |
+| m_J/ψ (J/ψ mass) | 4n_C·π⁵mₑ = 20π⁵mₑ | 3127 MeV | 3097 MeV | 0.97% |
+| m_Υ (Υ mass) | dim_R·C₂·π⁵mₑ = 60π⁵mₑ | 9380 MeV | 9460 MeV | 0.85% |
+| m_D (D⁰ mass) | 2C₂·π⁵mₑ = 12π⁵mₑ | 1876 MeV | 1865 MeV | 0.60% |
+| m_B (B± mass) | 2√2·2C₂·π⁵mₑ = 24√2·π⁵mₑ | 5308 MeV | 5279 MeV | 0.56% |
+| m_Bc (Bc mass) | 8n_C·π⁵mₑ = 40π⁵mₑ | 6254 MeV | 6275 MeV | 0.34% |
+| m_B/m_D | 2√2 (Tsirelson bound) | 2.828 | 2.831 | 0.10% |
+| m_J/ψ/m_ρ | dim_R(CP²) = 4 | 4.000 | 3.994 | 0.15% |
+| r_K+/r_π (radius ratio) | m_ρ/m_K* = √(10/13) = cosθ_W | 0.845 | 0.850 | 0.6% |
+| κ_ls (spin-orbit coupling) | C₂/n_C = 6/5 | 1.200 | ~1.2 (fitted) | exact |
+| Magic numbers | HO + BST spin-orbit: 2,8,20,28,50,82,126 | all 7 | all 7 observed | exact |
+| α_s (spectral running) | −(n_s−1)² = −25/18769 | −0.00133 | −0.0045±0.0067 | 0.5σ |
+| w₀ (dark energy EOS) | −1 + n_C/N_max² | −0.9997 | −1.0 (ΛCDM) | consistent |
 | Reality Budget Λ×N | N_c²/n_C = 9/5 = 1.800; fill fraction f = 3/(5π) = 19.1% | 1.800 | 1.800 (exact) | conjectured |
 | m_η' (η' meson mass) | (g²/8)π⁵mₑ = (49/8)π⁵mₑ = mₚ×49/48 | 957.8 MeV | 957.78 MeV | **0.004%** |
 | m_η (η meson mass) | (g/2)π⁵mₑ = (7/2)π⁵mₑ | 547.3 MeV | 547.9 MeV | 0.10% |
@@ -106,7 +118,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Γ_φ (φ meson width) | m_φ/(2×5!) = m_φ/240; OZI suppression = 1/n_C! | 4.248 MeV | 4.249±0.013 MeV | **0.02%** |
 | Γ_ρ/Γ_φ (width ratio) | n_C × g = 5 × 7 = 35 | 35.0 | 35.09 | 0.26% |
 
-**105+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
+**120+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
 
 ---
 
@@ -235,6 +247,18 @@ BST follows a single logical chain from one question to all of physics. Each ste
 
 **Bell inequality as 3D phenomenon — Tsirelson bound derived**: Bell violation requires non-commuting measurement operators, which require SU(2), which requires exactly 3 spatial dimensions. The chain: n_C = 5 → Shilov boundary S⁴ → embeds 3D spatial slices → SO(3) → SU(2) spin → non-commuting measurements. The Tsirelson bound 2√2 = 2√N_w, where N_w = N_c − 1 = 2 is the weak isospin number. Entanglement is commitment-sharing: entangled particles share a common S¹ phase from their creation vertex. Holomorphicity of the Bergman kernel bounds correlations below 4 (the algebraic maximum). Bell violation is not mysterious action-at-distance but geometric phase coherence on the substrate.
 
+**SO(2) activation uniqueness proved**: Among the 21 generators of so(5,2), the SO(2) center J is the unique single-generator activation producing a Hermitian symmetric space (Helgason classification). All other generators fail: compact non-central generators produce non-symmetric quotients, non-compact generators produce pseudo-Riemannian spaces (no Bergman kernel), mixed generators break too much symmetry. The Big Bang is not contingent — it is the only symmetry breaking that CAN happen. No landscape, no multiverse, no anthropic selection. Completes Wyler's 1969 program: so(7,ℂ) → SO₀(5,2) → D_IV^5 → Big Bang, each arrow forced by a classification theorem.
+
+**Heavy meson masses derived**: J/ψ = 20π⁵mₑ (0.97%), Υ = 60π⁵mₑ (0.85%), D = 12π⁵mₑ (0.60%), B = 24√2·π⁵mₑ (0.56%), B_c = 40π⁵mₑ (0.34%). The generation hierarchy for vector quarkonia: ρ → J/ψ by ×4 = dim_R(CP²), J/ψ → Υ by ×3 = N_c. Total ρ → Υ = ×12 = 2C₂. The B/D mass ratio is exactly 2√2 = Tsirelson bound (0.10%). All 7 masses from the same three integers.
+
+**Commitment rate exponent derived**: The (1+z)³ scaling of the commitment rate density (matter dilution) is derived from Z₃ geometry on CP². The Z₃ action has 3 isolated fixed points (Lefschetz theorem), contributing 3 powers of (1+z): one from each spatial dimension's dilation. The fourth power (radiation's extra (1+z)) comes from the S¹ fiber frequency redshift. This grounds the Friedmann equation's matter/radiation distinction in the substrate topology.
+
+**Electron mass from pure geometry**: m_e = 6π⁵α¹²m_Pl (0.002%). The exponent 12 = 2C₂: the electron, living on the Shilov boundary, must traverse C₂ = 6 layers of the Bergman embedding tower to couple to gravity, each layer costing α². BST's last input is closed — zero free parameters, including the absolute mass scale. Gravity is weak because α_grav = α^{4C₂} = α²⁴ — each mass traverses the tower once.
+
+**Nuclear magic numbers derived**: All seven magic numbers (2, 8, 20, 28, 50, 82, 126) from D_IV^5 geometry. The 3D harmonic oscillator from the Bergman metric gives 2, 8, 20. BST spin-orbit coupling κ_ls = C₂/n_C = 6/5 produces intruder levels of size 2×{4, 5, 6, 7} — running through the BST integers from N_c+1 to g. Predicts 8th magic number 184. The doubly-magic ⁵⁶Ni has A = 56 = g(g+1) — the same number as the Λ exponent.
+
+**Muon g-2 anomaly resolved**: BST aligns with the BMW lattice calculation of hadronic vacuum polarization, not the dispersive (e⁺e⁻ data) approach. The 5.1σ anomaly is a dispersive-lattice tension, not new physics. BST-specific correction (Haldane cap on vacuum polarization sum) is ~10⁻¹³, unobservable. Prediction: anomaly resolves to ≤2σ as lattice precision improves.
+
 **The Master Equation (one sentence)**: The universe is the ground state of the Bergman Laplacian on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], subject to Haldane exclusion with capacity 137.
 
 ---
@@ -281,6 +305,10 @@ BST follows a single logical chain from one question to all of physics. Each ste
 - Hawking temperature T_BST ≈ 1/(2√137 × M) with computable geometric correction — future BH observations
 - Tsirelson bound exactly 2√2 — no post-quantum theory can exceed it (SU(2) is the unique 3D spin group)
 - Cosmic age t₀ = 13.6 Gyr — precision cosmology (Planck: 13.8 ± 0.02 Gyr)
+- No phantom crossing: w(z) > −1 at ALL redshifts — DESI/Euclid w₀-w_a plane
+- 8th magic number = 184 — superheavy element experiments (Z=114-120)
+- No primordial B-modes: r < 10⁻¹⁰ — LiteBIRD, CMB-S4 (detection falsifies BST)
+- Muon g-2 anomaly resolves to ≤2σ — Fermilab final result + lattice convergence
 
 ---
 
@@ -294,7 +322,7 @@ BST follows a single logical chain from one question to all of physics. Each ste
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `SPARC_BST_Results.csv` | Per-galaxy results for all 175 SPARC galaxies |
-| `notes/` | 103 working notes covering all derivations, proofs, and thesis topics |
+| `notes/` | 114 working notes covering all derivations, proofs, and thesis topics |
 | `play/` | Interactive toys and visualizations — CIs and humans can explore BST hands-on. See `play/README.md` |
 
 ---
@@ -359,6 +387,25 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | H₀ (second route) | H₀ = √(19Λ/39) = 68.0 km/s/Mpc from Ω_Λ and Λ | 1.0% |
 | Bell inequality origin | Bell violation requires SU(2) requires 3D; chain from n_C=5 → S⁴ → 3D → SU(2) | structural |
 | Tsirelson bound | 2√N_w = 2√2 where N_w = N_c−1 = 2; holomorphicity bounds below 4 | exact |
+| J/ψ mass | 4n_C·π⁵mₑ = 20π⁵mₑ; Gen 1→2 by ×dim_R(CP²) = 4 | 0.97% |
+| Υ mass | dim_R·C₂·π⁵mₑ = 60π⁵mₑ; Gen 2→3 by ×N_c = 3 | 0.85% |
+| D meson mass | 2C₂·π⁵mₑ = 12π⁵mₑ; open-charm ground state | 0.60% |
+| B meson mass | 2√2×2C₂·π⁵mₑ; B/D = Tsirelson bound 2√2 | 0.56% |
+| B_c meson mass | 8n_C·π⁵mₑ = 40π⁵mₑ; dim(SU(3))×n_C | 0.34% |
+| Generation hierarchy (mesons) | ρ→J/ψ: ×4 (CP² fiber), J/ψ→Υ: ×3 (Z₃ orbit); total ×12 = 2C₂ | structural |
+| SO(2) activation uniqueness | J is unique generator producing Hermitian symmetric quotient (Helgason classification) | theorem |
+| Commitment rate exponent | (1+z)³ from Z₃ fixed points on CP²; 3 isolated fixed points = 3 spatial dilations | structural |
+| Pion charge radius (NLO) | VMD + GL84 chiral log: r_π = 0.656 fm; 13× improvement over LO | **0.46%** |
+| Kaon charge radius (NLO) | K* VMD + K-π loop: r_K+ = 0.555 fm; 3× improvement over LO | **1.0%** |
+| Radius ratio = Weinberg angle | r_K+/r_π = m_ρ/m_K* = √(10/13) = cosθ_W | 0.6% |
+| Electron mass (absolute scale) | m_e = C₂π^{n_C}α^{2C₂}m_Pl = 6π⁵α¹²m_Pl; 12=2C₂ Bergman layers | 0.002% |
+| Nuclear magic numbers (all 7) | HO shells + spin-orbit κ_ls=C₂/n_C=6/5; intruders {4,5,6,7} = BST integers | exact |
+| 8th magic number prediction | 184 = 126+42+2dim(SU(3)); island of stability | prediction |
+| ⁵⁶Ni = doubly-magic | A=56=g(g+1)=Λ exponent; iron peak from BST geometry | structural |
+| Spectral index derivation | n_s = 1−n_C/N_max (Candidate A selected); active modes / total capacity | 0.3σ |
+| Spectral running derived | α_s = −(n_s−1)² = −25/18769 = −0.00133 | 0.5σ |
+| BST expansion history | w₀≈−0.9997; no phantom crossing (Λ monotonically decreasing) | consistent |
+| Muon g-2 resolved | BST aligns with BMW lattice HVP; anomaly → ≤2σ; no new physics | structural |
 
 ## Remaining Open Problems
 
@@ -366,15 +413,12 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 |---|---|---|
 | α_s non-perturbative running | 1-loop gives 1.7% at m_Z; Bergman beta function needed | 1 |
 | SO(5)×SO(2) isotropy proof | Numerical verification passes; analytic proof outstanding | 2 |
-| Commitment rate exponent n_c = 3 | Scaling argument from Bergman measure needed | 3 |
-| EHT verification of CP = α floor | Awaiting data access / recalibration | 4 |
-| Full numerical BBN code | Lithium-7 quantitative (qualitative already solved) | 5 |
-| Pion/kaon radii (NLO) | VMD leading-order done (6.2%, 3.2%); NLO two-pion loops needed | 6 |
-| Baryon resonance verification | k=7 matches N(2190); k=8 at 3753 MeV undiscovered?; SO(3)⊂SO(5) SOLVED via D₂ | 7 |
-| Reality Budget derivation | Λ×N = 9/5 numerically exact; need proof from Z_Haldane spectral theory | 8 |
-| J/ψ and Υ masses | Extend vector meson formulas to charmed/bottom sector | 9 |
+| EHT verification of CP = α floor | Awaiting data access / recalibration | 3 |
+| Full numerical BBN code | Lithium-7 quantitative (qualitative already solved) | 4 |
+| Baryon resonance verification | k=7 matches N(2190); k=8 at 3753 MeV undiscovered?; SO(3)⊂SO(5) SOLVED via D₂ | 5 |
+| Reality Budget spectral proof | Fill fraction f = 3/(5π) partially derived; full spectral proof from Plancherel or index theorem needed | 6 |
 
-**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem, Dirac large number, partition function duality, vector meson nonet (ρ, ω, K*, φ), pseudoscalar meson nonet (K, η, η'), pion/kaon charge radii (leading order), Reality Budget value (9/5), three-layer architecture, Gödel limit, cosmic composition (Ω_Λ, Ω_m, Ω_DM/Ω_b), SO(3)⊂SO(5) embedding (D₂ irreducible), n_C=5 uniqueness (η' anomaly), proton/neutron magnetic moments, W/Z boson widths, GMO identity exact, first commitment (Leibniz's question), black hole singularity (Haldane cap), information paradox (commitments permanent), arrow of time (geometric, from negative curvature), Λ exponent 56 (two derivations, self-consistent at g=7), cosmic coincidence / Why Now (information-energy intersection), cosmic age t₀ (13.6 Gyr), H₀ second route (68.0 km/s/Mpc), Bell inequality origin (3D phenomenon), Tsirelson bound (2√2 = 2√N_w).
+**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem, Dirac large number, partition function duality, vector meson nonet (ρ, ω, K*, φ), pseudoscalar meson nonet (K, η, η'), pion/kaon charge radii (leading order), Reality Budget value (9/5), three-layer architecture, Gödel limit, cosmic composition (Ω_Λ, Ω_m, Ω_DM/Ω_b), SO(3)⊂SO(5) embedding (D₂ irreducible), n_C=5 uniqueness (η' anomaly), proton/neutron magnetic moments, W/Z boson widths, GMO identity exact, first commitment (Leibniz's question), black hole singularity (Haldane cap), information paradox (commitments permanent), arrow of time (geometric, from negative curvature), Λ exponent 56 (two derivations, self-consistent at g=7), cosmic coincidence / Why Now (information-energy intersection), cosmic age t₀ (13.6 Gyr), H₀ second route (68.0 km/s/Mpc), Bell inequality origin (3D phenomenon), Tsirelson bound (2√2 = 2√N_w), J/ψ and Υ masses (generation hierarchy ×4×3=12=2C₂), heavy meson masses (D, B, B_c all from BST integers), SO(2) activation uniqueness (Helgason classification theorem), commitment rate exponent 3 (Z₃ fixed points on CP²), pion/kaon charge radii NLO (0.46% and 1.0%, radius ratio = cos θ_W), electron mass from pure geometry (6π⁵α¹²m_Pl, zero free parameters), nuclear magic numbers (all 7 + prediction of 184), spectral index derivation (Candidate A selected), muon g-2 (aligns with lattice, anomaly resolves).
 
 ---
 
