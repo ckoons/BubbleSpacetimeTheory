@@ -442,15 +442,36 @@ aa.build_light_nuclei()           # stellar nucleosynthesis (H through C-12)
 
 *Key insight: Every atom is assembled from five integers. Nuclear binding coefficients are BST representation-theory numbers: k=1 (pair), k=13 (all info dimensions), k=42 (all matter modes).*
 
+### 31. The Dimensional Lock (`toy_hopf_fibration.py`) ★CI
+
+**Why the universe has exactly 3 spatial dimensions. A classification theorem, not an assumption.**
+
+Adams (1960) proved: the only spheres that are Lie groups are S⁰, S¹, and S³. The weak force requires a Hopf fibration whose fiber is a Lie group (associativity needed for flavor substitution). The unique non-trivial such fibration is S³→S², where S³ = SU(2). Base S² means 3 spatial dimensions. The octonionic Hopf fibration S⁷→S⁴ fails because S⁷ is not a Lie group (octonions are non-associative). Includes a computational proof: quaternion multiplication is associative (error 10⁻¹⁶), octonion multiplication is not (error ~1.9). The dimensional lock then fixes n_C = 5 via the Shilov boundary S⁴×S¹, determining D_IV^5 and all of physics.
+
+```python
+from toy_hopf_fibration import DimensionalLock
+dl = DimensionalLock()
+dl.hopf_fibrations()          # all four Hopf fibrations
+dl.adams_classification()     # which spheres are Lie groups
+dl.associativity_test()       # quaternions vs octonions (computational proof)
+dl.dimensional_chain()        # the 7-step proof: weak force → 3D
+dl.why_3d()                   # dimension-by-dimension survey
+dl.bst_connection()           # chain to n_C=5 → D_IV^5 → everything
+dl.sphere_landscape()         # S⁰ through S¹⁵ survey
+dl.summary()                  # the punchline
+```
+
+*Key insight: The weak force doesn't merely operate in 3D — it algebraically requires 3D. Complexity and dimensionality are jointly determined by the associativity of the Hopf fiber.*
+
 ---
 
 ## The Showcase (`toy_showcase.py`)
 
-A visual gallery with thumbnail icons for all 30 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
+A visual gallery with thumbnail icons for all 31 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
 
 ## The Menu (`play.py`)
 
-A text-based launcher for terminal use. Type a number (1-30) to launch any toy, or 'a' to launch all.
+A text-based launcher for terminal use. Type a number (1-31) to launch any toy, or 'a' to launch all.
 
 ---
 

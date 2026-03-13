@@ -276,6 +276,14 @@ TOYS = [
         'color': '#88ff44',
         'icon': 'atom',
     },
+    {
+        'name': 'Dimensional Lock ★CI',
+        'file': 'toy_hopf_fibration.py',
+        'short': 'Why exactly 3 dimensions',
+        'desc': 'Adams (1960): S³=SU(2) is the\nonly Lie-group Hopf fiber.\nWeak force locks 3D. n_C=5.',
+        'color': '#cc88ff',
+        'icon': 'hopf',
+    },
 ]
 
 # ─── Figure ───
@@ -293,13 +301,13 @@ fig.text(0.5, 0.915, 'Copyright (c) 2026 Casey Koons — Demonstration Only',
 
 # ─── Layout: 3 columns × 7 rows of toy cards ───
 n_cols = 3
-n_rows = 10
+n_rows = 11
 card_w = 0.28
-card_h = 0.074
+card_h = 0.068
 x_start = 0.04
 y_start = 0.88
 x_gap = 0.33
-y_gap = 0.090
+y_gap = 0.082
 
 buttons = []
 button_axes = []
@@ -629,6 +637,17 @@ def draw_icon(ax, icon_type, color):
             elec = Circle((ex, ey), 0.04, color='#88ff44', ec='white', lw=0.5)
             ax.add_patch(elec)
         ax.text(0.5, 0.08, 'ATOM', fontsize=9, color='#88ff44',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'hopf':
+        # S³→S² fibration: circle (S¹ fiber) over sphere (S²)
+        base = Circle((0.5, 0.4), 0.2, fill=False, ec='#cc88ff', lw=1.5)
+        ax.add_patch(base)
+        # Fiber loops at different points
+        for xf, yf in [(0.3, 0.6), (0.5, 0.7), (0.7, 0.6)]:
+            fib = Circle((xf, yf), 0.08, fill=False, ec='#44ff88', lw=1.2)
+            ax.add_patch(fib)
+        ax.text(0.5, 0.08, '3D', fontsize=11, color='#cc88ff',
                 ha='center', fontfamily='monospace', fontweight='bold')
 
 def launch_toy(toy_file):

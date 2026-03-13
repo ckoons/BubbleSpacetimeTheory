@@ -169,6 +169,11 @@ TOYS = {
            'Quarks → nucleons → nuclei → atoms. Zero free parameters.\n'
            '   H at 0.002%, He-4 at 0.003%, C-12 at 0.004%.'),
 
+    '31': ('The Dimensional Lock ★CI',
+           'toy_hopf_fibration.py',
+           'Why exactly 3 spatial dimensions. Adams (1960):\n'
+           '   S³=SU(2) is the unique Lie-group Hopf fiber.'),
+
     's': ('★ Showcase (visual gallery)',
           'toy_showcase.py',
           'Visual gallery of all toys with thumbnails and\n'
@@ -193,7 +198,7 @@ def main():
     print(f'  [q]  Quit')
     print()
 
-    choice = input('  Choose a toy (1-30, s=showcase, a=all, q=quit): ').strip().lower()
+    choice = input('  Choose a toy (1-31, s=showcase, a=all, q=quit): ').strip().lower()
 
     if choice == 'q':
         print('  Goodbye!')
