@@ -162,12 +162,14 @@ class MONDAcceleration:
         """
         Newtonian + MOND rotation curves for a given baryonic mass.
 
-        Uses the simple interpolating function:
-            g_eff = g_N / sqrt(1 + a_0/g_N)
+        Uses the standard MOND interpolating function mu(x) = x/(1+x):
+            mu(g/a_0) * g = g_N
+            => g^2 / (a_0 + g) = g_N
+            => g = [g_N + sqrt(g_N^2 + 4*g_N*a_0)] / 2
 
         This gives:
-            g >> a_0: g_eff -> g_N (Newtonian)
-            g << a_0: g_eff -> sqrt(g_N * a_0) (deep MOND)
+            g_N >> a_0: g_eff -> g_N (Newtonian)
+            g_N << a_0: g_eff -> sqrt(g_N * a_0) (deep MOND, flat curves)
 
         Parameters
         ----------
@@ -197,10 +199,10 @@ class MONDAcceleration:
         # Newtonian velocity
         v_newton = np.sqrt(G_N * M_kg / r_m)
 
-        # MOND effective acceleration (simple interpolating function)
-        # g_eff = g_N / sqrt(1 + a_0/g_N)
-        # v^2 = r * g_eff
-        g_eff = g_N / np.sqrt(1.0 + a0_val / g_N)
+        # MOND effective acceleration (standard interpolation mu(x) = x/(1+x))
+        # Solving mu(g/a_0)*g = g_N with mu(x)=x/(1+x):
+        # g^2/(a_0 + g) = g_N  =>  g = [g_N + sqrt(g_N^2 + 4*g_N*a_0)] / 2
+        g_eff = 0.5 * (g_N + np.sqrt(g_N**2 + 4.0 * g_N * a0_val))
         v_mond = np.sqrt(r_m * g_eff)
 
         # Asymptotic flat velocity (deep MOND)

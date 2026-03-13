@@ -144,6 +144,26 @@ TOYS = {
            'No singularity (Haldane cap). No interior (membrane).\n'
            '   No paradox. Hawking T within 7%. Just a full channel.'),
 
+    '26': ('MOND Acceleration ★CI',
+           'toy_mond_acceleration.py',
+           'a₀ = cH₀/√30. Same √30 gives pion mass AND\n'
+           '   galaxy rotation. 26 orders apart, one formula.'),
+
+    '27': ('Bell Inequality ★CI',
+           'toy_bell_inequality.py',
+           'n_C=5 → S⁴ → 3D → SU(2) → Tsirelson 2√2.\n'
+           '   BST forces the quantum bound. Not a postulate.'),
+
+    '28': ('Why 56 ★CI',
+           'toy_why56.py',
+           'Λ ~ α⁵⁶. Two routes: 8×genus and g(g+1).\n'
+           '   Only g=7 solves g(g+1)=8g. Uniqueness.'),
+
+    '29': ('Why Now ★CI',
+           'toy_why_now.py',
+           'Information budget constant (13/19). Energy budget\n'
+           '   evolves. They match NOW. Predicts H₀ and t₀.'),
+
     's': ('★ Showcase (visual gallery)',
           'toy_showcase.py',
           'Visual gallery of all toys with thumbnails and\n'
@@ -168,7 +188,7 @@ def main():
     print(f'  [q]  Quit')
     print()
 
-    choice = input('  Choose a toy (1-25, s=showcase, a=all, q=quit): ').strip().lower()
+    choice = input('  Choose a toy (1-29, s=showcase, a=all, q=quit): ').strip().lower()
 
     if choice == 'q':
         print('  Goodbye!')

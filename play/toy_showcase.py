@@ -235,6 +235,39 @@ TOYS = [
         'color': '#111144',
         'icon': 'black_hole',
     },
+    # ─── Deep Question Toys (26-29) ───
+    {
+        'name': 'MOND Acceleration ★CI',
+        'file': 'toy_mond_acceleration.py',
+        'short': 'a₀ = cH₀/√30, 0.4% match',
+        'desc': 'Same √30 gives pion mass AND\ngalaxy rotation curves.\n26 orders apart, one formula.',
+        'color': '#ff9944',
+        'icon': 'mond',
+    },
+    {
+        'name': 'Bell Inequality ★CI',
+        'file': 'toy_bell_inequality.py',
+        'short': 'Tsirelson 2√2 from geometry',
+        'desc': 'n_C=5 → S⁴ → 3D → SU(2) →\nTsirelson bound. BST forces\nthe quantum limit.',
+        'color': '#aa44ff',
+        'icon': 'bell',
+    },
+    {
+        'name': 'Why 56 ★CI',
+        'file': 'toy_why56.py',
+        'short': 'Λ ~ α⁵⁶, uniquely g=7',
+        'desc': 'Two routes: 8×genus and g(g+1).\nOnly g=7 gives g(g+1)=8g.\nThe exponent is determined.',
+        'color': '#44ffdd',
+        'icon': 'why56',
+    },
+    {
+        'name': 'Why Now ★CI',
+        'file': 'toy_why_now.py',
+        'short': 'Energy = Information epoch',
+        'desc': 'Info budget 13/19 is constant.\nEnergy budget evolves. Match at\none epoch: NOW. Predicts H₀, t₀.',
+        'color': '#ffdd88',
+        'icon': 'why_now',
+    },
 ]
 
 # ─── Figure ───
@@ -252,13 +285,13 @@ fig.text(0.5, 0.915, 'Copyright (c) 2026 Casey Koons — Demonstration Only',
 
 # ─── Layout: 3 columns × 7 rows of toy cards ───
 n_cols = 3
-n_rows = 9
+n_rows = 10
 card_w = 0.28
-card_h = 0.082
+card_h = 0.074
 x_start = 0.04
 y_start = 0.88
 x_gap = 0.33
-y_gap = 0.100
+y_gap = 0.090
 
 buttons = []
 button_axes = []
@@ -532,6 +565,47 @@ def draw_icon(ax, icon_type, color):
                 color='#ffaa22', lw=1, alpha=0.3)
         ax.text(0.5, 0.5, 'N=0', fontsize=8, color='#333366',
                 ha='center', va='center', fontfamily='monospace')
+
+    elif icon_type == 'mond':
+        # Galaxy rotation curve
+        r = np.linspace(0.15, 0.9, 30)
+        v_newton = np.sqrt(0.4/r) * 0.8
+        v_mond = np.full_like(r, 0.62)
+        ax.plot(r, 0.1 + v_newton * 0.7, color='#ff5555', lw=1.2, alpha=0.5)
+        ax.plot(r, 0.1 + v_mond * 0.7, color='#ff9944', lw=2)
+        ax.text(0.5, 0.12, '√30', fontsize=11, color='#ff9944',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'bell':
+        # CHSH: classical 2 vs quantum 2√2
+        ax.barh(0.65, 0.5, height=0.2, left=0.1, color='#666688', alpha=0.5)
+        ax.barh(0.35, 0.707, height=0.2, left=0.1, color='#aa44ff', alpha=0.7)
+        ax.text(0.65, 0.65, '2', fontsize=9, color='#888888',
+                ha='center', va='center', fontfamily='monospace')
+        ax.text(0.82, 0.35, '2√2', fontsize=9, color='#cc66ff',
+                ha='center', va='center', fontfamily='monospace')
+
+    elif icon_type == 'why56':
+        # Two crossing lines at g=7
+        g_vals = np.linspace(1, 12, 30)
+        y1 = g_vals * 8 / 100
+        y2 = g_vals * (g_vals + 1) / 100
+        ax.plot(g_vals/12, 0.1 + y1 * 0.8, color='#44ffdd', lw=1.5)
+        ax.plot(g_vals/12, 0.1 + y2 * 0.8, color='#ff8844', lw=1.5)
+        ax.plot(7/12, 0.1 + 56/100 * 0.8, 'o', color='#ffffff', markersize=8)
+        ax.text(0.5, 0.08, '56', fontsize=11, color='#44ffdd',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'why_now':
+        # Two curves crossing at a=1
+        a_vals = np.linspace(0.1, 3, 40)
+        ol = 13/19 / (13/19 + 6/19 * a_vals**(-3))
+        om = 1 - ol
+        ax.plot(a_vals/3, 0.1 + ol * 0.7, color='#8888ff', lw=1.5)
+        ax.plot(a_vals/3, 0.1 + om * 0.7, color='#ffaa44', lw=1.5)
+        ax.axvline(1/3, color='#ffffff', lw=1, alpha=0.3, linestyle='--')
+        ax.text(0.5, 0.08, 'NOW', fontsize=9, color='#ffdd88',
+                ha='center', fontfamily='monospace', fontweight='bold')
 
 def launch_toy(toy_file):
     def callback(event):

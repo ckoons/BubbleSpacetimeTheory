@@ -340,9 +340,86 @@ bh.has_interior()              # Always False
 
 ---
 
+## Deep Question Toys (26-29) — The Four Remaining Questions
+
+*These toys investigate BST's answers to four foundational questions: where does MOND come from, why is quantum mechanics non-classical, why is the cosmological constant exponent 56, and why is the current epoch special.*
+
+### 26. MOND Acceleration (`toy_mond_acceleration.py`) ★CI
+
+**One formula: a₀ = cH₀/√30. Same √30 that gives pion mass.**
+
+BST derives Milgrom's MOND acceleration scale from first principles: a₀ = cH₀/√(n_C(n_C+1)) = cH₀/√30 = 1.195×10⁻¹⁰ m/s² (0.4% from observed). The chiral coupling χ = √30 connects particle physics (pion mass m_π = χ × 25.6 MeV) to galactic dynamics (a₀ = cH₀/χ) across 26 orders of magnitude. Donato's universal surface density Σ₀ follows. Galaxy rotation curves flatten without dark matter particles.
+
+```python
+from toy_mond_acceleration import MONDAcceleration
+m = MONDAcceleration()
+m.a0()                        # 1.195e-10 m/s²
+m.compare_observed()           # 0.4% match
+m.pion_connection()            # Same √30 in both
+m.donato_surface_density()     # Σ₀ matches Donato (2009)
+```
+
+*Key insight: The same √30 that sets pion mass also sets the galaxy rotation scale — because both come from n_C=5.*
+
+### 27. Bell Inequality (`toy_bell_inequality.py`) ★CI
+
+**BST forces the Tsirelson bound 2√2. It's geometry, not a postulate.**
+
+The chain: n_C=5 → D_IV^5 has Shilov boundary S⁴×S¹ → S⁴ contains S³ → S³→S² is the unique Hopf fibration with Lie group fiber SU(2) (Adams 1960) → SU(2) gives spin-1/2 → spin-1/2 correlations satisfy E(θ) = -cos(θ) → CHSH maximum = 2√2. The Tsirelson bound is not an axiom but a consequence of BST's geometry requiring exactly 3 spatial dimensions.
+
+```python
+from toy_bell_inequality import BellInequality
+b = BellInequality()
+b.tsirelson_bound()            # 2√2 = 2.828...
+b.classical_bound()            # 2
+b.bst_chain()                  # 8-step derivation
+opt = b.optimal_angles()       # a=0°, a'=90°, b=45°, b'=135°
+b.chsh(opt['a'], opt['a_prime'], opt['b'], opt['b_prime'])  # -2√2
+```
+
+*Key insight: Quantum mechanics is non-classical because n_C=5 forces SU(2) structure in 3D.*
+
+### 28. Why 56 (`toy_why56.py`) ★CI
+
+**Λ ~ α⁵⁶ — and 56 is uniquely determined.**
+
+The cosmological constant exponent 56 has two independent derivations: Route A gives 56 = 8 × genus = 8 × 7 (neutrino-vacuum connection). Route B gives 56 = g(g+1) = 7 × 8 (partition function ground state). The equation g(g+1) = 8g has only one non-trivial solution: g = 7. BST's genus IS 7 = n_C + 2. The exponent tower: α⁵⁶ = (α⁷)⁸ = (α⁸)⁷. BST Λ = 2.899×10⁻¹²² matches observation at 0.025%.
+
+```python
+from toy_why56 import Why56
+w = Why56()
+w.route_A()                    # 56 = 8 × 7
+w.route_B()                    # 56 = 7 × 8 (partition function)
+w.sweep_genus()                # Only g=7 gives agreement
+w.lambda_value()               # Λ_BST vs Λ_observed
+w.exponent_chain()             # α¹², α¹⁴, α²⁴, α⁵⁶
+```
+
+*Key insight: The 120-order-of-magnitude hierarchy between Planck and vacuum energy is the number 56 = g(g+1) = 8g, uniquely solved by g=7.*
+
+### 29. Why Now (`toy_why_now.py`) ★CI
+
+**The current epoch is when energy = information. BST predicts H₀ and the age.**
+
+BST's information budget (13/19 uncommitted, 6/19 committed) is a constant structural fact of D_IV^5. The energy budget (Ω_Λ, Ω_m) evolves via Friedmann equations. They match at exactly one epoch — and that epoch is NOW: Ω_Λ = 13/19 = 0.6842 matches Planck's 0.685 to 0.07σ. From this, BST predicts H₀ = 68.0 km/s/Mpc (Planck side of Hubble tension) and t₀ = 13.6 Gyr (1.4% from Planck). The cosmic coincidence is resolved: we observe the universe at the unique moment when physics matches geometry.
+
+```python
+from toy_why_now import WhyNow
+wn = WhyNow()
+wn.information_budget()        # 13/19 + 6/19, constant
+wn.energy_budget(1.0)          # Ω_Λ(now) = 13/19
+wn.equality_epoch()            # a_eq where they match
+wn.predict_H0()                # 68.0 km/s/Mpc
+wn.predict_age()               # 13.6 Gyr
+```
+
+*Key insight: "Now" is not special — it IS the epoch when the physical expansion catches up to the information structure.*
+
+---
+
 ## The Showcase (`toy_showcase.py`)
 
-A visual gallery with thumbnail icons for all 25 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
+A visual gallery with thumbnail icons for all 29 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
 
 ## The Menu (`play.py`)
 

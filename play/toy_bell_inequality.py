@@ -877,13 +877,14 @@ if __name__ == '__main__':
         print(f"  b  = {opt['b']:.1f} deg")
         print(f"  b' = {opt['b_prime']:.1f} deg")
         print(f"  S  = {opt['S']:.6f}")
+        print(f"  |S| = {opt['S_abs']:.6f}")
         print(f"  Theory: {opt['S_theory']:.6f}")
-        assert abs(opt['S'] - opt['S_theory']) < 1e-10, "Mismatch!"
+        assert abs(opt['S_abs'] - opt['S_theory']) < 1e-10, "Mismatch!"
 
         # Sweep
         sweep = bell.sweep_angles(n=500)
         print(f"\n--- Angle Sweep ---")
-        print(f"  Max |S| = {sweep['S_max']:.6f} at b = {sweep['b_max_deg']:.1f} deg")
+        print(f"  Max |S| = {abs(sweep['S_max']):.6f} at b = {sweep['b_max_deg']:.1f} deg")
 
         # Correlation
         print(f"\n--- Sample Correlations ---")

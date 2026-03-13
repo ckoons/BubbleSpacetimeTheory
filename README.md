@@ -295,6 +295,7 @@ BST follows a single logical chain from one question to all of physics. Each ste
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `SPARC_BST_Results.csv` | Per-galaxy results for all 175 SPARC galaxies |
 | `notes/` | 103 working notes covering all derivations, proofs, and thesis topics |
+| `play/` | Interactive toys and visualizations — CIs and humans can explore BST hands-on. See `play/README.md` |
 
 ---
 
