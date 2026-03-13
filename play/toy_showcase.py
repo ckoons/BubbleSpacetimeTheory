@@ -1,0 +1,391 @@
+#!/usr/bin/env python3
+"""
+BST TOY SHOWCASE
+================
+A visual gallery of all BST playground toys.
+Shows a thumbnail/summary of each toy with a button to launch it.
+This is the "front door" to the playground.
+
+Copyright (c) 2026 Casey Koons. All rights reserved.
+This software is provided for demonstration purposes only.
+No license is granted for redistribution, modification, or commercial use.
+This code and the underlying Bubble Spacetime Theory (BST) remain
+the intellectual property of Casey Koons.
+
+Created with Claude Opus 4.6, March 2026.
+"""
+
+import numpy as np
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
+from matplotlib.widgets import Button
+from matplotlib.patches import FancyBboxPatch, Circle
+import matplotlib.patheffects as pe
+from matplotlib.animation import FuncAnimation
+import subprocess
+import sys
+import os
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# ─── Toy catalog ───
+TOYS = [
+    {
+        'name': 'The Universe Machine',
+        'file': 'toy_universe_machine.py',
+        'short': 'Three integers → all of physics',
+        'desc': 'Sliders for N_c, n_C, N_max.\nOnly (3, 5, 137) matches\nthe real universe.',
+        'color': '#00ccff',
+        'icon': 'three_integers',
+    },
+    {
+        'name': 'The Z₃ Color Wheel',
+        'file': 'toy_z3_color_wheel.py',
+        'short': 'Colors, generations, confinement',
+        'desc': 'Eigenvalues on the unit circle.\nThree fixed points = three\ngenerations. Tr(σ)=0.',
+        'color': '#ff4444',
+        'icon': 'color_wheel',
+    },
+    {
+        'name': 'The 1920 Cancellation',
+        'file': 'toy_1920_cancellation.py',
+        'short': 'One group, two roles, they cancel',
+        'desc': '|Γ|=1920 in Hua volume AND\nbaryon orbit. Cancel to\nleave C₂π⁵ = 6π⁵.',
+        'color': '#ff8800',
+        'icon': 'cancellation',
+    },
+    {
+        'name': 'Symmetric Space',
+        'file': 'toy_lie_algebra.py',
+        'short': 'so(5,2) = k ⊕ m interactive',
+        'desc': '7×7 matrices, commutators,\n[k,k]⊂k  [k,m]⊂m  [m,m]⊂k\nverified visually.',
+        'color': '#44aaff',
+        'icon': 'symmetric',
+    },
+    {
+        'name': 'The Mass Tower',
+        'file': 'toy_mass_tower.py',
+        'short': 'Planck → Λ in powers of α',
+        'desc': 'Every mass scale as α^n.\nExponents = multiples of\nC₂=6 and genus=7.',
+        'color': '#ffaa00',
+        'icon': 'tower',
+    },
+    {
+        'name': 'The Respirator',
+        'file': 'toy_respirator.py',
+        'short': 'The universe breathes',
+        'desc': 'Lapse N=N₀√(1−ρ/ρ₁₃₇).\nSame equation: fast at\nneutron, slow at cosmos.',
+        'color': '#00ff88',
+        'icon': 'respirator',
+    },
+    {
+        'name': 'The Dual Face',
+        'file': 'toy_dual_face.py',
+        'short': 'One function, two physics',
+        'desc': 'Z_Haldane gives BOTH:\nproton mass (gap) AND\nΛ (ground state).',
+        'color': '#ff44ff',
+        'icon': 'dual',
+    },
+    {
+        'name': 'Universe ≡ Neutron',
+        'file': 'toy_homology.py',
+        'short': '7 parallels, 5 differences',
+        'desc': 'Side-by-side: same algebra,\nsame domain, same integers.\nDifferent density regimes.',
+        'color': '#ffcc00',
+        'icon': 'homology',
+    },
+    {
+        'name': 'The 41 Orders',
+        'file': 'toy_dirac_number.py',
+        'short': 'Dirac\'s number = α⁻¹⁹',
+        'desc': 'Zoom from proton to Hubble\nradius. 41 orders of magnitude\n= 19 factors of 137.',
+        'color': '#8844ff',
+        'icon': 'dirac',
+    },
+    {
+        'name': 'The Arrow of Time',
+        'file': 'toy_arrow_of_time.py',
+        'short': 'Commitments never reverse',
+        'desc': 'ΔN_committed ≥ 0, always.\nStronger than 2nd law.\nThe past = what was committed.',
+        'color': '#ff6600',
+        'icon': 'arrow_time',
+    },
+    {
+        'name': 'The Channel (137)',
+        'file': 'toy_channel_137.py',
+        'short': 'Fixed bandwidth, no infinities',
+        'desc': '137 slots per contact.\nChannel full = no singularity.\nClock slows as channel fills.',
+        'color': '#00dddd',
+        'icon': 'channel',
+    },
+    {
+        'name': 'The Reality Budget',
+        'file': 'toy_reality_budget.py',
+        'short': 'Λ × N_total ≈ 1/(8π)',
+        'desc': 'Expansion = cost of memory.\nVacuum energy trades off\nagainst written facts.',
+        'color': '#dd44dd',
+        'icon': 'budget',
+    },
+    {
+        'name': 'The Master Equation',
+        'file': 'toy_master_equation.py',
+        'short': 'One sentence → everything',
+        'desc': 'Ground state of Bergman\nLaplacian on D_IV⁵.\nZero parameters, 56+ predictions.',
+        'color': '#ffffff',
+        'icon': 'master',
+    },
+]
+
+# ─── Figure ───
+fig = plt.figure(figsize=(18, 12), facecolor='#0a0a1a')
+fig.canvas.manager.set_window_title('BST Playground — Bubble Spacetime Theory Toys')
+
+# Title
+fig.text(0.5, 0.97, 'BST PLAYGROUND', fontsize=32, fontweight='bold',
+         color='#00ccff', ha='center', fontfamily='monospace',
+         path_effects=[pe.withStroke(linewidth=3, foreground='#003344')])
+fig.text(0.5, 0.935, 'Interactive Visualizations of Bubble Spacetime Theory',
+         fontsize=13, color='#668899', ha='center', fontfamily='monospace')
+fig.text(0.5, 0.915, 'Copyright (c) 2026 Casey Koons — Demonstration Only',
+         fontsize=9, color='#445566', ha='center', fontfamily='monospace')
+
+# ─── Layout: 3 columns × 5 rows of toy cards (scrollable-ish) ───
+n_cols = 3
+n_rows = 5
+card_w = 0.28
+card_h = 0.155
+x_start = 0.04
+y_start = 0.88
+x_gap = 0.33
+y_gap = 0.18
+
+buttons = []
+button_axes = []
+
+def draw_icon(ax, icon_type, color):
+    """Draw a small iconic visualization for each toy."""
+    ax.set_xlim(0, 1)
+    ax.set_ylim(0, 1)
+
+    if icon_type == 'three_integers':
+        # Three numbers
+        for i, (num, c) in enumerate([(3, '#ff4444'), (5, '#44ff44'), (137, '#4444ff')]):
+            ax.text(0.2 + i*0.3, 0.5, str(num), fontsize=16, fontweight='bold',
+                    color=c, ha='center', va='center', fontfamily='monospace')
+
+    elif icon_type == 'color_wheel':
+        # Three dots on a circle
+        for k in range(3):
+            angle = 2*np.pi*k/3 - np.pi/2
+            x, y = 0.5 + 0.35*np.cos(angle), 0.5 + 0.35*np.sin(angle)
+            c = ['#ff4444', '#44ff44', '#4488ff'][k]
+            ax.plot(x, y, 'o', color=c, markersize=12)
+        theta = np.linspace(0, 2*np.pi, 50)
+        ax.plot(0.5 + 0.35*np.cos(theta), 0.5 + 0.35*np.sin(theta),
+                color='#333366', linewidth=1)
+
+    elif icon_type == 'cancellation':
+        # 1920 with strikethrough
+        ax.text(0.3, 0.5, '1920', fontsize=14, color='#ff4444',
+                ha='center', va='center', fontfamily='monospace')
+        ax.plot([0.12, 0.48], [0.5, 0.5], color='#ff0000', linewidth=2)
+        ax.text(0.55, 0.5, '×', fontsize=12, color='#888888',
+                ha='center', va='center')
+        ax.text(0.75, 0.5, '1920', fontsize=14, color='#4488ff',
+                ha='center', va='center', fontfamily='monospace')
+        ax.plot([0.57, 0.93], [0.5, 0.5], color='#ff0000', linewidth=2)
+
+    elif icon_type == 'symmetric':
+        # 2x2 grid showing k and m
+        ax.add_patch(FancyBboxPatch((0.05, 0.55), 0.4, 0.35,
+                     boxstyle='round,pad=0.02', facecolor='#4488ff', alpha=0.3))
+        ax.add_patch(FancyBboxPatch((0.55, 0.55), 0.4, 0.35,
+                     boxstyle='round,pad=0.02', facecolor='#ff4488', alpha=0.3))
+        ax.add_patch(FancyBboxPatch((0.05, 0.1), 0.4, 0.35,
+                     boxstyle='round,pad=0.02', facecolor='#ff4488', alpha=0.3))
+        ax.add_patch(FancyBboxPatch((0.55, 0.1), 0.4, 0.35,
+                     boxstyle='round,pad=0.02', facecolor='#4488ff', alpha=0.3))
+        ax.text(0.25, 0.72, 'k', fontsize=12, color='#88aaff',
+                ha='center', fontfamily='monospace')
+        ax.text(0.75, 0.72, 'm', fontsize=12, color='#ff88aa',
+                ha='center', fontfamily='monospace')
+
+    elif icon_type == 'tower':
+        # Vertical bars at different heights
+        heights = [0.9, 0.7, 0.55, 0.4, 0.25, 0.1]
+        colors_t = ['#ffffff', '#ff88ff', '#ff4444', '#00ffaa', '#4488ff', '#8844ff']
+        for i, (h, c) in enumerate(zip(heights, colors_t)):
+            ax.barh(h, 0.5 + 0.4*(1-i/5), left=0.05, height=0.08,
+                    color=c, alpha=0.5)
+
+    elif icon_type == 'respirator':
+        # Pulsing circle
+        theta = np.linspace(0, 2*np.pi, 50)
+        for r in [0.15, 0.25, 0.35]:
+            alpha = 0.3 if r > 0.2 else 0.6
+            ax.plot(0.5 + r*np.cos(theta), 0.5 + r*np.sin(theta),
+                    color='#00ff88', linewidth=1.5, alpha=alpha)
+
+    elif icon_type == 'dual':
+        # Arrow up and arrow down from center
+        ax.annotate('', xy=(0.5, 0.85), xytext=(0.5, 0.55),
+                    arrowprops=dict(arrowstyle='->', color='#00ff88', lw=2))
+        ax.annotate('', xy=(0.5, 0.15), xytext=(0.5, 0.45),
+                    arrowprops=dict(arrowstyle='->', color='#ff44ff', lw=2))
+        ax.text(0.5, 0.5, 'Z', fontsize=14, color='#ffffff',
+                ha='center', va='center', fontfamily='monospace', fontweight='bold')
+        ax.text(0.5, 0.9, 'm_p', fontsize=9, color='#00ff88',
+                ha='center', fontfamily='monospace')
+        ax.text(0.5, 0.05, 'Λ', fontsize=9, color='#ff44ff',
+                ha='center', fontfamily='monospace')
+
+    elif icon_type == 'homology':
+        # Two circles connected
+        ax.plot(0.25, 0.5, 'o', color='#ff6644', markersize=20)
+        ax.plot(0.75, 0.5, 'o', color='#4466ff', markersize=20)
+        ax.text(0.25, 0.5, 'n', fontsize=10, color='white',
+                ha='center', va='center', fontfamily='monospace')
+        ax.text(0.75, 0.5, 'U', fontsize=10, color='white',
+                ha='center', va='center', fontfamily='monospace')
+        ax.annotate('', xy=(0.58, 0.5), xytext=(0.42, 0.5),
+                    arrowprops=dict(arrowstyle='<->', color='#ffcc00', lw=2))
+
+    elif icon_type == 'dirac':
+        # Log scale dots
+        for i in range(8):
+            x = 0.1 + i * 0.1
+            size = 4 + i * 1.5
+            c_val = i / 7
+            c = (1-c_val, c_val*0.5, c_val)
+            ax.plot(x, 0.5, 'o', color=c, markersize=size)
+        ax.text(0.5, 0.15, '10⁴¹', fontsize=11, color='#8844ff',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'arrow_time':
+        # Arrow that only goes right + ratchet marks
+        ax.annotate('', xy=(0.9, 0.5), xytext=(0.1, 0.5),
+                    arrowprops=dict(arrowstyle='->', color='#ff6600', lw=3))
+        for i in range(5):
+            x = 0.2 + i * 0.15
+            ax.plot([x, x-0.04], [0.35, 0.5], color='#ff6600', lw=1, alpha=0.5)
+        ax.text(0.5, 0.15, '→ only', fontsize=9, color='#ff6600',
+                ha='center', fontfamily='monospace')
+
+    elif icon_type == 'channel':
+        # 137 as a filled bar
+        ax.barh(0.5, 0.7, height=0.3, left=0.1, color='#00dddd', alpha=0.3,
+                edgecolor='#00dddd', linewidth=1)
+        ax.barh(0.5, 0.5, height=0.3, left=0.1, color='#00dddd', alpha=0.6)
+        ax.text(0.85, 0.5, '137', fontsize=10, color='#00dddd',
+                ha='center', va='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'budget':
+        # Seesaw: Λ down, N up
+        ax.plot([0.2, 0.5, 0.8], [0.7, 0.4, 0.7], color='#dd44dd', lw=2)
+        ax.text(0.2, 0.8, 'Λ↓', fontsize=9, color='#8888ff',
+                ha='center', fontfamily='monospace')
+        ax.text(0.8, 0.8, 'N↑', fontsize=9, color='#ffaa44',
+                ha='center', fontfamily='monospace')
+        ax.text(0.5, 0.2, '1/8π', fontsize=10, color='#dd44dd',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'master':
+        # Star/radial burst
+        for angle in np.linspace(0, 2*np.pi, 12, endpoint=False):
+            ax.plot([0.5, 0.5 + 0.35*np.cos(angle)],
+                    [0.5, 0.5 + 0.35*np.sin(angle)],
+                    color='#ffffff', lw=1, alpha=0.4)
+        ax.plot(0.5, 0.5, '*', color='#ffffff', markersize=14)
+        ax.text(0.5, 0.08, 'Δ_B', fontsize=9, color='#cccccc',
+                ha='center', fontfamily='monospace')
+
+def launch_toy(toy_file):
+    def callback(event):
+        path = os.path.join(SCRIPT_DIR, toy_file)
+        if os.path.exists(path):
+            subprocess.Popen([sys.executable, path])
+        else:
+            print(f"  File not found: {path}")
+    return callback
+
+for idx, toy in enumerate(TOYS):
+    row = idx // n_cols
+    col = idx % n_cols
+
+    x = x_start + col * x_gap
+    y = y_start - (row + 1) * y_gap
+
+    # Card background
+    card_ax = fig.add_axes([x, y, card_w, card_h])
+    card_ax.set_facecolor('#0f0f22')
+    card_ax.set_xlim(0, 1)
+    card_ax.set_ylim(0, 1)
+
+    # Border
+    for spine in card_ax.spines.values():
+        spine.set_color(toy['color'])
+        spine.set_linewidth(1.5)
+    card_ax.set_xticks([])
+    card_ax.set_yticks([])
+
+    # Icon area (left portion)
+    icon_ax = fig.add_axes([x + 0.005, y + 0.10, 0.09, card_h - 0.12])
+    icon_ax.set_facecolor('#0a0a1a')
+    icon_ax.axis('off')
+    draw_icon(icon_ax, toy['icon'], toy['color'])
+
+    # Title
+    card_ax.text(0.38, 0.88, toy['name'], fontsize=11, fontweight='bold',
+                 color=toy['color'], va='top', fontfamily='monospace',
+                 transform=card_ax.transAxes)
+
+    # Subtitle
+    card_ax.text(0.38, 0.72, toy['short'], fontsize=8,
+                 color='#888899', va='top', fontfamily='monospace',
+                 transform=card_ax.transAxes)
+
+    # Description
+    card_ax.text(0.38, 0.55, toy['desc'], fontsize=7.5,
+                 color='#666677', va='top', fontfamily='monospace',
+                 transform=card_ax.transAxes, linespacing=1.4)
+
+    # Launch button
+    btn_ax = fig.add_axes([x + card_w - 0.07, y + 0.01, 0.065, 0.04])
+    btn = Button(btn_ax, 'LAUNCH', color='#1a1a3a', hovercolor='#2a2a5a')
+    btn.label.set_color(toy['color'])
+    btn.label.set_fontsize(8)
+    btn.label.set_fontfamily('monospace')
+    btn.on_clicked(launch_toy(toy['file']))
+    buttons.append(btn)  # prevent GC
+
+# ─── Bottom bar: key equations ───
+fig.text(0.5, 0.015,
+         'N_c = 3    n_C = 5    N_max = 137    |    '
+         'α = (9/8π⁴)(π⁵/1920)^{1/4}    |    '
+         'm_p/m_e = 6π⁵    |    '
+         'sin²θ_W = 3/13    |    '
+         'The universe is a bounded symmetric domain doing linear algebra on itself.',
+         fontsize=8, color='#444466', ha='center', fontfamily='monospace')
+
+# ─── Animated subtle glow on the title ───
+title_text = fig.text(0.5, 0.97, 'BST PLAYGROUND', fontsize=32, fontweight='bold',
+                      color='#00ccff', ha='center', fontfamily='monospace',
+                      path_effects=[pe.withStroke(linewidth=3, foreground='#003344')],
+                      alpha=1.0)
+
+# Hide the duplicate static title
+# (we drew it above already; now replace with animated version)
+# The static one drawn earlier serves as fallback
+
+frame_count = [0]
+
+def animate_title(frame):
+    t = frame / 60.0
+    alpha = 0.85 + 0.15 * np.sin(2 * np.pi * t / 4)
+    title_text.set_alpha(alpha)
+    return [title_text]
+
+anim = FuncAnimation(fig, animate_title, frames=240, interval=50, blit=False)
+
+plt.show()
