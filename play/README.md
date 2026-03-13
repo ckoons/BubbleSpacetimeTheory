@@ -417,13 +417,40 @@ wn.predict_age()               # 13.6 Gyr
 
 ---
 
+## The Atom Assembler (30)
+
+### 30. The Atom Assembler (`toy_atom_assembler.py`) ★CI
+
+**Build complete atoms from BST parts — quarks to spectra, zero free parameters.**
+
+Start with quarks (mass from BST ratios), assemble protons and neutrons (6π⁵m_e and m_p + 91m_e/36), bind nuclei via B = k × αm_p/π where k is a BST structural coefficient, add electrons with Slater screening σ = n_C/(2·dim(SU(3))) = 5/16, and compute atomic spectra including the 21cm hyperfine line (56/(45π⁵) × α⁴m_e, where 56 = g(g+1) = 7×8 — the same 56 as the Λ exponent). Exact BST k-values: k=1 (deuteron), k=13=N_c+2n_C (He-4), k=26=2×13 (Be-8), k=42=C₂×g (C-12). Results: H 0.002%, D 0.0004%, He-4 0.003%, C-12 0.004%.
+
+```python
+from toy_atom_assembler import AtomAssembler
+aa = AtomAssembler()
+h = aa.assemble('H')              # hydrogen
+he = aa.assemble('He-4')          # helium-4
+c = aa.assemble('C-12')           # carbon-12
+fe = aa.assemble('Fe-56')         # iron-56
+aa.show(h)                        # detailed assembly report
+aa.show_visual(h)                 # matplotlib visualization
+aa.compare_all()                  # comparison table
+aa.hydrogen_spectrum(Z=1)         # full hydrogen spectrum + 21cm line
+aa.build_first_row()              # Big Bang products (H, D, He)
+aa.build_light_nuclei()           # stellar nucleosynthesis (H through C-12)
+```
+
+*Key insight: Every atom is assembled from five integers. Nuclear binding coefficients are BST representation-theory numbers: k=1 (pair), k=13 (all info dimensions), k=42 (all matter modes).*
+
+---
+
 ## The Showcase (`toy_showcase.py`)
 
-A visual gallery with thumbnail icons for all 29 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
+A visual gallery with thumbnail icons for all 30 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
 
 ## The Menu (`play.py`)
 
-A text-based launcher for terminal use. Type a number to launch any toy, or 'a' to launch all.
+A text-based launcher for terminal use. Type a number (1-30) to launch any toy, or 'a' to launch all.
 
 ---
 

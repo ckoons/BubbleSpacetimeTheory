@@ -268,6 +268,14 @@ TOYS = [
         'color': '#ffdd88',
         'icon': 'why_now',
     },
+    {
+        'name': 'Atom Assembler ★CI',
+        'file': 'toy_atom_assembler.py',
+        'short': 'Build atoms from BST parts',
+        'desc': 'Quarks → nucleons → nuclei →\natoms. H 0.002%, He-4 0.003%,\nC-12 0.004%. Zero parameters.',
+        'color': '#88ff44',
+        'icon': 'atom',
+    },
 ]
 
 # ─── Figure ───
@@ -605,6 +613,22 @@ def draw_icon(ax, icon_type, color):
         ax.plot(a_vals/3, 0.1 + om * 0.7, color='#ffaa44', lw=1.5)
         ax.axvline(1/3, color='#ffffff', lw=1, alpha=0.3, linestyle='--')
         ax.text(0.5, 0.08, 'NOW', fontsize=9, color='#ffdd88',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'atom':
+        # Nucleus + electron orbits
+        nuc = Circle((0.5, 0.5), 0.12, color='#442200', ec='#ff8844', lw=1.5)
+        ax.add_patch(nuc)
+        for r, c in [(0.28, '#88ff4488'), (0.38, '#88ff4444')]:
+            orbit = Circle((0.5, 0.5), r, fill=False, ec=c, lw=1, ls='--')
+            ax.add_patch(orbit)
+        # Electron dots
+        for angle in [0.3, 2.5, 4.7]:
+            ex = 0.5 + 0.28 * np.cos(angle)
+            ey = 0.5 + 0.28 * np.sin(angle)
+            elec = Circle((ex, ey), 0.04, color='#88ff44', ec='white', lw=0.5)
+            ax.add_patch(elec)
+        ax.text(0.5, 0.08, 'ATOM', fontsize=9, color='#88ff44',
                 ha='center', fontfamily='monospace', fontweight='bold')
 
 def launch_toy(toy_file):

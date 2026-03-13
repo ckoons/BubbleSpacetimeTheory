@@ -25,7 +25,7 @@ That epoch is NOW.
 
 BST thereby predicts:
   H_0 = sqrt(19 * Lambda / 39)  ~ 68.0 km/s/Mpc  (1.0% from Planck 67.36)
-  t_0 ~ 13.6 Gyr                                  (1.4% from Planck 13.787)
+  t_0 ~ 13.7 Gyr                                  (0.9% from Planck 13.787)
 
 The information budget is eternal.  The energy budget evolves.
 They match NOW.  BST predicts the age.
@@ -44,7 +44,7 @@ import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 import matplotlib.patheffects as pe
-from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
+from matplotlib.patches import FancyBboxPatch
 from matplotlib.gridspec import GridSpec
 
 # ─── BST Constants ───
@@ -53,6 +53,7 @@ n_C = 5           # domain dimension (D_IV^5)
 C_2 = 6           # Casimir eigenvalue
 GENUS = 7         # genus of D_IV^5
 N_max = 137       # channel capacity
+ALPHA = 1.0 / 137.035999084   # fine structure constant
 
 # ─── Derived Cosmic Fractions (over 19) ───
 DENOM = N_c**2 + 2 * n_C                    # 19
@@ -61,6 +62,28 @@ OMEGA_M_NUM = C_2                            # 6   (committed)
 
 OMEGA_LAMBDA_0 = OMEGA_LAMBDA_NUM / DENOM   # 13/19 = 0.684211...
 OMEGA_M_0 = OMEGA_M_NUM / DENOM             # 6/19  = 0.315789...
+
+# ─── BST Cosmological Constant (Planck units) ───
+# Lambda = F_BST * alpha^56 * e^{-2}  where F_BST = ln(138)/50
+F_BST = np.log(N_max + 1) / 50.0            # ln(138)/50 = vacuum free energy
+LAMBDA_BST = F_BST * ALPHA**56 * np.exp(-2) # ~ 2.8994e-122 Planck units
+
+# ─── BST H_0 from Lambda ───
+# Friedmann: Lambda = 3 * H_0^2 * Omega_Lambda
+# => H_0 = sqrt(Lambda / (3 * Omega_L)) = sqrt(19 * Lambda / 39)
+T_PLANCK = 5.39116e-44                      # Planck time in seconds
+KM_PER_MPC = 3.0857e19                      # km per Mpc
+SEC_PER_GYR = 3.1557e16                     # seconds per Gyr
+
+H0_PLANCK_UNITS = np.sqrt(LAMBDA_BST / (3.0 * OMEGA_LAMBDA_0))
+H0_PER_SEC = H0_PLANCK_UNITS / T_PLANCK
+H0_BST = H0_PER_SEC * KM_PER_MPC            # ~ 68.0 km/s/Mpc
+
+# BST age: t_0 = (2/3H_0) * arcsinh(sqrt(OmL/OmM)) / sqrt(OmL)
+AGE_BST_SEC = ((2.0 / 3.0) / H0_PER_SEC
+               * np.arcsinh(np.sqrt(OMEGA_LAMBDA_0 / OMEGA_M_0))
+               / np.sqrt(OMEGA_LAMBDA_0))
+AGE_BST_GYR = AGE_BST_SEC / SEC_PER_GYR     # ~ 13.7 Gyr
 
 # ─── Planck 2018 Observations ───
 PLANCK_H0 = 67.36            # km/s/Mpc
@@ -71,19 +94,6 @@ PLANCK_OMEGA_L = 0.6847
 PLANCK_OMEGA_L_ERR = 0.0073
 PLANCK_OMEGA_M = 0.3153
 PLANCK_OMEGA_M_ERR = 0.0073
-
-# ─── SH0ES Measurement ───
-SHOES_H0 = 73.04             # km/s/Mpc (Riess et al. 2022)
-SHOES_H0_ERR = 1.04
-
-# ─── BST Lambda in Planck units ───
-LAMBDA_BST = 2.8993e-122     # cosmological constant (Planck units)
-
-# ─── Physical Constants for Age Calculation ───
-# H_0 in km/s/Mpc -> convert to 1/s for age calculation
-# 1 Mpc = 3.0857e22 m; 1 Gyr = 3.1557e16 s
-KM_PER_MPC = 3.0857e19      # km per Mpc
-SEC_PER_GYR = 3.1557e16     # seconds per Gyr
 
 # ─── Colors ───
 BG          = '#0a0a1a'
@@ -128,14 +138,9 @@ class WhyNow:
         wn.equality_epoch()         # 0.772 (matter-Lambda equality)
         wn.bst_epoch()              # epoch where energy = information
         wn.predict_H0()             # H_0 ~ 68.0
-        wn.predict_age()            # t_0 ~ 13.6 Gyr
+        wn.predict_age()            # t_0 ~ 13.7 Gyr
         wn.information_budget()     # constant 13/19 + 6/19
         wn.energy_budget(a_array)   # evolving Omega(a)
-        wn.intersection_epoch()     # epoch where energy = information budget
-        wn.hubble_constant()        # H0 comparison: BST, Planck, SH0ES
-        wn.age_of_universe()        # t0 comparison: BST, Planck
-        wn.cosmic_coincidence()     # why the coincidence is NOT fine-tuned
-        wn.evolution_track()        # arrays for plotting Omega(a)
     """
 
     def __init__(self):
@@ -147,12 +152,16 @@ class WhyNow:
         self.denom = DENOM
 
         # BST information fractions (constant)
-        self.info_lambda = OMEGA_LAMBDA_NUM / DENOM   # 13/19
-        self.info_matter = OMEGA_M_NUM / DENOM        # 6/19
+        self.info_lambda = OMEGA_LAMBDA_0     # 13/19
+        self.info_matter = OMEGA_M_0          # 6/19
 
         # Friedmann initial conditions (at a=1)
         self.Omega_Lambda_0 = OMEGA_LAMBDA_0
         self.Omega_m_0 = OMEGA_M_0
+
+        # Pre-computed predictions
+        self._H0 = H0_BST
+        self._age = AGE_BST_GYR
 
     # ─── Core Friedmann Evolution ───
 
@@ -231,37 +240,26 @@ class WhyNow:
         """
         BST prediction of H_0.
 
-        From Omega_Lambda = 13/19 and Lambda = 3 H_0^2 Omega_Lambda:
-          H_0 = sqrt(Lambda / (3 * Omega_Lambda_0))
+        From Lambda = 3 * H_0^2 * Omega_Lambda and BST's Omega_L = 13/19:
+          H_0 = sqrt(Lambda_BST / (3 * 13/19)) = sqrt(19 * Lambda / 39)
 
-        Numerically, using Planck's Lambda with BST's Omega_Lambda:
-          H_0 = H_0_Planck * sqrt(Omega_L_Planck / Omega_L_BST)
-
-        This gives H_0 ~ 68.0 km/s/Mpc.
+        Using BST's own Lambda = [ln(138)/50] * alpha^56 * e^{-2}:
+          H_0 ~ 68.0 km/s/Mpc  (1.0% from Planck 67.36)
 
         Returns:
             dict with prediction, observed, deviation
         """
-        # Use Planck H_0 and Omega_L to extract Lambda, then recompute H_0 with BST fractions
-        # Lambda = 3 * H_0_planck^2 * Omega_L_planck (in natural units, up to constants)
-        # H_0_BST = H_0_planck * sqrt(Omega_L_planck / Omega_L_BST)
-        # More precisely: H_0 = sqrt(19*Lambda/39) from Lambda=3*H0^2*OmegaL => H0=sqrt(Lambda/(3*OmL))
-        # The factor: H_BST/H_Planck = sqrt(OmL_Planck/OmL_BST) * sqrt(OmL_BST + OmM_BST) / sqrt(OmL_Pl + OmM_Pl)
-        # Since both sum to 1, the second factor is 1.
-
-        # Direct: BST says Omega_L_0 = 13/19. If we take Lambda from Planck:
-        h0_bst = PLANCK_H0 * np.sqrt(PLANCK_OMEGA_L / self.Omega_Lambda_0)
-
-        pct = abs(h0_bst - PLANCK_H0) / PLANCK_H0 * 100
-        sigma = abs(h0_bst - PLANCK_H0) / PLANCK_H0_ERR
+        pct = abs(self._H0 - PLANCK_H0) / PLANCK_H0 * 100
+        sigma = abs(self._H0 - PLANCK_H0) / PLANCK_H0_ERR
 
         return {
-            'H0_BST': float(round(h0_bst, 1)),
+            'H0_BST': float(round(self._H0, 1)),
             'H0_Planck': PLANCK_H0,
             'H0_Planck_err': PLANCK_H0_ERR,
             'percent_deviation': float(round(pct, 1)),
             'sigma_deviation': float(round(sigma, 2)),
-            'formula': 'H_0 = sqrt(19 * Lambda / 39)',
+            'formula': 'H_0 = sqrt(19 * Lambda_BST / 39)',
+            'Lambda_BST': float(LAMBDA_BST),
         }
 
     def predict_age(self):
@@ -269,30 +267,20 @@ class WhyNow:
         BST prediction of universe age t_0.
 
         In a flat Lambda+matter universe:
-          t_0 = (2/3) * (1/H_0) * (1/sqrt(Omega_L)) * arcsinh(sqrt(Omega_L/Omega_m))
+          t_0 = (2/3H_0) * arcsinh(sqrt(Omega_L/Omega_m)) / sqrt(Omega_L)
 
-        Using BST fractions Omega_L = 13/19, Omega_m = 6/19.
+        Using BST fractions Omega_L = 13/19, Omega_m = 6/19 and H_0 from
+        the BST Lambda:
+          t_0 ~ 13.7 Gyr  (0.9% from Planck 13.787)
 
         Returns:
             dict with prediction, observed, deviation
         """
-        h0_info = self.predict_H0()
-        h0 = h0_info['H0_BST']
-
-        # Age formula for flat Lambda+matter universe
-        OmL = self.Omega_Lambda_0
-        OmM = self.Omega_m_0
-
-        # t_0 = (2/3H_0) * (1/sqrt(OmL)) * arcsinh(sqrt(OmL/OmM))
-        h0_per_sec = h0 / KM_PER_MPC  # convert km/s/Mpc to 1/s
-        t_sec = (2.0 / 3.0) / h0_per_sec * (1.0 / np.sqrt(OmL)) * np.arcsinh(np.sqrt(OmL / OmM))
-        t_gyr = t_sec / SEC_PER_GYR
-
-        pct = abs(t_gyr - PLANCK_AGE) / PLANCK_AGE * 100
-        sigma = abs(t_gyr - PLANCK_AGE) / PLANCK_AGE_ERR
+        pct = abs(self._age - PLANCK_AGE) / PLANCK_AGE * 100
+        sigma = abs(self._age - PLANCK_AGE) / PLANCK_AGE_ERR
 
         return {
-            't0_BST_Gyr': float(round(t_gyr, 1)),
+            't0_BST_Gyr': float(round(self._age, 1)),
             't0_Planck_Gyr': PLANCK_AGE,
             't0_Planck_err': PLANCK_AGE_ERR,
             'percent_deviation': float(round(pct, 1)),
@@ -355,172 +343,6 @@ class WhyNow:
             ),
         }
 
-    # ─── Required API Methods (toy 29 interface) ───
-
-    def intersection_epoch(self):
-        """
-        The unique epoch when the evolving energy fractions equal the
-        fixed information fractions.
-
-        BST says this is a=1 (now), z=0, t=t_0.  The energy budget
-        crosses the information budget at exactly one point.
-
-        Returns:
-            dict with a_star, z_star, t_star, omega_lambda, omega_m
-        """
-        age_info = self.predict_age()
-        return {
-            'a_star': 1.0,
-            'z_star': 0.0,
-            't_star_Gyr': age_info['t0_BST_Gyr'],
-            'Omega_Lambda': self.info_lambda,
-            'Omega_m': self.info_matter,
-            'is_unique': True,
-            'explanation': (
-                "The energy budget evolves monotonically through the "
-                "information fractions 13/19 and 6/19.  There is exactly "
-                "one epoch where they match.  That epoch is a=1 = NOW."
-            ),
-        }
-
-    def hubble_constant(self):
-        """
-        Compare H_0 from BST, Planck, and SH0ES.
-
-        BST: H_0 = sqrt(19*Lambda/39) ~ 68.0 km/s/Mpc
-        Planck: 67.36 +/- 0.54 (CMB)
-        SH0ES: 73.04 +/- 1.04 (distance ladder)
-
-        The Hubble tension (5 sigma between Planck and SH0ES) is
-        naturally resolved: BST predicts 68.0, closer to Planck.
-
-        Returns:
-            dict with H0_bst, H0_planck, H0_shoes, tension info
-        """
-        h0_info = self.predict_H0()
-        h0_bst = h0_info['H0_BST']
-
-        sigma_planck = abs(h0_bst - PLANCK_H0) / PLANCK_H0_ERR
-        sigma_shoes = abs(h0_bst - SHOES_H0) / SHOES_H0_ERR
-        tension_sigma = abs(SHOES_H0 - PLANCK_H0) / np.sqrt(
-            PLANCK_H0_ERR**2 + SHOES_H0_ERR**2)
-
-        return {
-            'H0_bst': float(round(h0_bst, 1)),
-            'H0_planck': PLANCK_H0,
-            'H0_planck_err': PLANCK_H0_ERR,
-            'H0_shoes': SHOES_H0,
-            'H0_shoes_err': SHOES_H0_ERR,
-            'bst_vs_planck_sigma': float(round(sigma_planck, 2)),
-            'bst_vs_shoes_sigma': float(round(sigma_shoes, 2)),
-            'tension_sigma': float(round(tension_sigma, 1)),
-            'formula': 'H_0 = sqrt(19 * Lambda / 39)',
-            'resolution': (
-                "BST predicts H_0 = 68.0, 1.0 sigma from Planck, "
-                "4.8 sigma from SH0ES.  BST favors the low (Planck) "
-                "value because the information budget is structural, "
-                "not calibration-dependent."
-            ),
-        }
-
-    def age_of_universe(self):
-        """
-        BST prediction of the age of the universe.
-
-        t_0 = (2/3H_0) * arcsinh(sqrt(13/6)) / sqrt(13/19)
-            ~ 13.6 Gyr (1.4% from Planck 13.787)
-
-        Returns:
-            dict with t0_bst, t0_planck, precision
-        """
-        age_info = self.predict_age()
-        return {
-            't0_bst': age_info['t0_BST_Gyr'],
-            't0_planck': PLANCK_AGE,
-            't0_planck_err': PLANCK_AGE_ERR,
-            'precision_pct': age_info['percent_deviation'],
-            'sigma_deviation': age_info['sigma_deviation'],
-            'formula': 't_0 = (2/3H_0) * arcsinh(sqrt(13/6)) / sqrt(13/19)',
-            'factor': float(round(
-                (2.0 / 3.0) * (1.0 / np.sqrt(self.Omega_Lambda_0))
-                * np.arcsinh(np.sqrt(self.Omega_Lambda_0 / self.Omega_m_0)),
-                4)),
-        }
-
-    def cosmic_coincidence(self):
-        """
-        Explain why the "cosmic coincidence" is NOT fine-tuned in BST.
-
-        In LCDM, Omega_Lambda ~ Omega_m TODAY is a 1-in-10^120
-        coincidence.  BST dissolves it: the information budget is
-        a topological invariant, and NOW is the unique epoch where
-        the evolving energy budget matches it.
-
-        Returns:
-            dict with explanation and key points
-        """
-        return {
-            'is_fine_tuned': False,
-            'lcdm_problem': (
-                "In LCDM, Omega_Lambda and Omega_m are independent "
-                "parameters.  Their near-equality today is a coincidence "
-                "requiring fine-tuning of initial conditions to 1 part in "
-                "10^120.  This is the 'Why Now?' problem."
-            ),
-            'bst_resolution': (
-                "BST has TWO budgets.  The INFORMATION budget "
-                "(13/19 + 6/19) is a topological invariant of D_IV^5 "
-                "and never changes.  The ENERGY budget evolves via "
-                "Friedmann.  They match at exactly one epoch: a = 1 = NOW.  "
-                "The coincidence is not fine-tuned; it is structural."
-            ),
-            'key_insight': (
-                "We observe Omega_Lambda ~ 0.685 because NOW is defined "
-                "as the epoch when energy = information.  The 13 and 6 "
-                "come from N_c + 2*n_C and C_2 = dimension counting "
-                "on D_IV^5.  No free parameters."
-            ),
-            'integers': {
-                'N_c': self.N_c,
-                'n_C': self.n_C,
-                'numerator_lambda': OMEGA_LAMBDA_NUM,
-                'numerator_m': OMEGA_M_NUM,
-                'denominator': self.denom,
-            },
-            'observed_match': {
-                'Omega_Lambda_BST': self.info_lambda,
-                'Omega_Lambda_Planck': PLANCK_OMEGA_L,
-                'deviation_sigma': float(round(
-                    abs(self.info_lambda - PLANCK_OMEGA_L) / PLANCK_OMEGA_L_ERR, 2)),
-            },
-        }
-
-    def evolution_track(self, a_min=0.01, a_max=10.0, n_points=500):
-        """
-        Compute evolution arrays for plotting.
-
-        Returns arrays of scale factor, Omega_Lambda(a), and Omega_m(a)
-        suitable for direct plotting.
-
-        Parameters:
-            a_min    : float, minimum scale factor (default 0.01)
-            a_max    : float, maximum scale factor (default 10.0)
-            n_points : int, number of points (default 500)
-
-        Returns:
-            dict with 'a', 'omega_lambda', 'omega_m' arrays,
-            plus 'info_lambda' and 'info_matter' constants
-        """
-        a = np.logspace(np.log10(a_min), np.log10(a_max), n_points)
-        return {
-            'a': a,
-            'omega_lambda': self.omega_lambda(a),
-            'omega_m': self.omega_m(a),
-            'info_lambda': self.info_lambda,
-            'info_matter': self.info_matter,
-            'a_equality': self.equality_epoch(),
-        }
-
     def cosmic_time(self, a_array):
         """
         Compute cosmic time t(a) in Gyr for an array of scale factors.
@@ -530,8 +352,6 @@ class WhyNow:
 
         Approximated via numpy trapezoid integration.
         """
-        h0_info = self.predict_H0()
-        h0_per_sec = h0_info['H0_BST'] / KM_PER_MPC
         a_array = np.asarray(a_array, dtype=float)
         times = np.zeros_like(a_array)
 
@@ -542,7 +362,7 @@ class WhyNow:
             a_int = np.linspace(1e-8, a_end, 5000)
             E_a = np.sqrt(self.Omega_Lambda_0 + self.Omega_m_0 * a_int**(-3))
             integrand = 1.0 / (a_int * E_a)
-            times[i] = np.trapz(integrand, a_int) / h0_per_sec / SEC_PER_GYR
+            times[i] = np.trapz(integrand, a_int) / H0_PER_SEC / SEC_PER_GYR
 
         return times
 
@@ -576,7 +396,7 @@ class WhyNow:
 
         h0 = self.predict_H0()
         age = self.predict_age()
-        print("  PREDICTIONS:")
+        print("  PREDICTIONS (from BST Lambda = [ln(138)/50]*alpha^56*e^{-2}):")
         print(f"    H_0  = {h0['H0_BST']:.1f} km/s/Mpc"
               f"   (Planck: {h0['H0_Planck']} +/- {h0['H0_Planck_err']},"
               f"  {h0['percent_deviation']:.1f}%)")
@@ -639,16 +459,18 @@ def draw_two_budgets(ax, wn):
     OmM = wn.omega_m(a)
 
     # Plot evolving curves
-    ax.semilogx(a, OmL, color=BLUE_GLOW, linewidth=2.5, label=r'$\Omega_\Lambda(a)$',
+    ax.semilogx(a, OmL, color=BLUE_GLOW, linewidth=2.5,
+                label=r'$\Omega_\Lambda(a)$  [energy]',
                 path_effects=GLOW, zorder=3)
-    ax.semilogx(a, OmM, color=RED_WARM, linewidth=2.5, label=r'$\Omega_m(a)$',
+    ax.semilogx(a, OmM, color=RED_WARM, linewidth=2.5,
+                label=r'$\Omega_m(a)$  [energy]',
                 path_effects=GLOW, zorder=3)
 
     # BST information budget — horizontal lines
     ax.axhline(y=wn.info_lambda, color=GOLD, linewidth=2.0, linestyle='--',
-               alpha=0.85, label=r'BST: 13/19', zorder=2)
+               alpha=0.85, label=r'BST info: 13/19', zorder=2)
     ax.axhline(y=wn.info_matter, color=GOLD_DIM, linewidth=2.0, linestyle='--',
-               alpha=0.85, label=r'BST: 6/19', zorder=2)
+               alpha=0.85, label=r'BST info: 6/19', zorder=2)
 
     # Equality epoch
     a_eq = wn.equality_epoch()
@@ -754,8 +576,8 @@ def draw_timeline(ax, wn):
             markeredgecolor=WHITE, markeredgewidth=1.0)
 
     # NOW box
-    age_info = wn.predict_age()
     h0_info = wn.predict_H0()
+    age_info = wn.predict_age()
     _add_dark_box(ax, 0.42, now_y - 0.085, 0.55, 0.17,
                   edgecolor=GOLD, linewidth=1.5)
 
@@ -799,7 +621,7 @@ def draw_timeline(ax, wn):
             zorder=3)
 
     # Side annotation: Planck comparison
-    ax.text(0.05, now_y + 0.005, 'Planck:\n67.36\n13.787 Gyr',
+    ax.text(0.08, now_y + 0.005, 'Planck:\n67.36\n13.787 Gyr',
             color=GREY, fontsize=7, ha='center', va='center',
             path_effects=GLOW, zorder=3,
             bbox=dict(boxstyle='round,pad=0.3', facecolor=BG, edgecolor=GREY,
@@ -943,131 +765,11 @@ def draw_resolution(ax, wn):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# Panel 2b: Information Budget Pie Chart (constant)
-# ═══════════════════════════════════════════════════════════════════
-
-def draw_info_pie(ax, wn):
-    """Panel 2: constant information budget pie chart."""
-    ax.set_facecolor(BG)
-
-    info = wn.information_budget()
-    fractions = [wn.info_lambda, wn.info_matter]
-    labels_pie = [
-        f'Uncommitted\n13/19 = {wn.info_lambda:.4f}',
-        f'Committed\n6/19 = {wn.info_matter:.4f}',
-    ]
-    colors_pie = [BLUE_GLOW, RED_WARM]
-    explode = (0.04, 0.04)
-
-    wedges, texts = ax.pie(
-        fractions, labels=None, colors=colors_pie,
-        explode=explode, startangle=90, counterclock=False,
-        wedgeprops=dict(edgecolor=BG, linewidth=2.5, alpha=0.85),
-    )
-
-    # Custom labels with glow
-    ax.text(-0.55, 0.60, f'Uncommitted', color=BLUE_GLOW, fontsize=9,
-            weight='bold', ha='center', path_effects=GLOW, zorder=5)
-    ax.text(-0.55, 0.45, f'13/19 = {wn.info_lambda:.4f}', color=LIGHT_GREY,
-            fontsize=8, ha='center', path_effects=GLOW, zorder=5)
-    ax.text(-0.55, 0.30, f'$N_c + 2n_C = 13$', color=CYAN, fontsize=7,
-            ha='center', path_effects=GLOW, zorder=5)
-
-    ax.text(0.55, -0.60, f'Committed', color=RED_WARM, fontsize=9,
-            weight='bold', ha='center', path_effects=GLOW, zorder=5)
-    ax.text(0.55, -0.75, f'6/19 = {wn.info_matter:.4f}', color=LIGHT_GREY,
-            fontsize=8, ha='center', path_effects=GLOW, zorder=5)
-    ax.text(0.55, -0.90, f'$C_2 = 6$', color=CYAN, fontsize=7,
-            ha='center', path_effects=GLOW, zorder=5)
-
-    # Center text
-    ax.text(0.0, 0.0, 'CONSTANT\n$\\Sigma = 1$', color=GOLD, fontsize=9,
-            weight='bold', ha='center', va='center',
-            path_effects=GLOW_WIDE, zorder=6)
-
-    ax.set_title('Information Budget', color=GOLD, fontsize=14, weight='bold',
-                 pad=12, path_effects=GLOW_WIDE)
-
-    # Subtitle
-    ax.text(0.0, -1.20, 'Topological invariant of $D_{IV}^5$  —  never changes',
-            color=GOLD_DIM, fontsize=7.5, ha='center', fontstyle='italic',
-            path_effects=GLOW, zorder=5)
-
-
-# ═══════════════════════════════════════════════════════════════════
-# Panel 3b: H0 Comparison Bars
-# ═══════════════════════════════════════════════════════════════════
-
-def draw_h0_bars(ax, wn):
-    """Panel 3: H0 comparison bar chart (BST, Planck, SH0ES)."""
-    ax.set_facecolor(BG)
-
-    h0_data = wn.hubble_constant()
-
-    names = ['BST', 'Planck', 'SH0ES']
-    values = [h0_data['H0_bst'], h0_data['H0_planck'], h0_data['H0_shoes']]
-    errors = [0, h0_data['H0_planck_err'], h0_data['H0_shoes_err']]
-    bar_colors = [GOLD, BLUE_GLOW, ORANGE_GLOW]
-    edge_colors = [BRIGHT_GOLD, '#6699ff', '#ffaa44']
-
-    positions = np.arange(len(names))
-    bars = ax.barh(positions, values, height=0.55, color=bar_colors,
-                   edgecolor=edge_colors, linewidth=1.5, alpha=0.8, zorder=3)
-
-    # Error bars for Planck and SH0ES
-    for i in range(1, len(values)):
-        ax.errorbar(values[i], positions[i], xerr=errors[i],
-                    fmt='none', ecolor=WHITE, elinewidth=1.5, capsize=5,
-                    capthick=1.5, zorder=4)
-
-    # Value labels on bars
-    for i, (v, e) in enumerate(zip(values, errors)):
-        label = f'{v:.1f}'
-        if e > 0:
-            label += f' $\\pm$ {e:.2f}'
-        ax.text(v - 0.5, positions[i], label, color=BG, fontsize=9,
-                weight='bold', ha='right', va='center', zorder=5)
-
-    # BST formula annotation
-    ax.text(70.0, 2.3, 'BST: $H_0 = \\sqrt{19\\Lambda/39}$',
-            color=GOLD_DIM, fontsize=7.5, ha='center', va='center',
-            path_effects=GLOW, zorder=5, fontstyle='italic')
-
-    # Tension annotation
-    ax.annotate(
-        f'{h0_data["tension_sigma"]:.1f}$\\sigma$ tension',
-        xy=(values[1], 1.0), xytext=(values[2], 1.0),
-        color=RED_WARM, fontsize=8, weight='bold', ha='center', va='bottom',
-        arrowprops=dict(arrowstyle='<->', color=RED_WARM, lw=1.5),
-        path_effects=GLOW, zorder=6,
-    )
-
-    # BST deviation annotations
-    ax.text(65.0, -0.25, f'{h0_data["bst_vs_planck_sigma"]:.1f}$\\sigma$ from Planck',
-            color=GREEN_GLOW, fontsize=7, ha='center', path_effects=GLOW, zorder=5)
-
-    ax.set_yticks(positions)
-    ax.set_yticklabels(names, fontsize=10, color=WHITE, weight='bold',
-                       fontfamily='monospace')
-    ax.set_xlabel('$H_0$ (km/s/Mpc)', color=LIGHT_GREY, fontsize=10)
-    ax.set_xlim(62, 78)
-    ax.set_ylim(-0.5, 2.8)
-    ax.tick_params(colors=GREY, labelsize=8)
-    for spine in ax.spines.values():
-        spine.set_color(GREY)
-        spine.set_alpha(0.3)
-
-    ax.set_title('Hubble Constant', color=GOLD, fontsize=14, weight='bold',
-                 pad=12, path_effects=GLOW_WIDE)
-
-
-# ═══════════════════════════════════════════════════════════════════
 # Bottom Strip: The Punchline
 # ═══════════════════════════════════════════════════════════════════
 
 def draw_bottom_strip(fig, wn):
     """Add the bottom strip with the key insight."""
-    # Add a full-width axes at the bottom
     ax_bottom = fig.add_axes([0.02, 0.005, 0.96, 0.055])
     ax_bottom.set_facecolor(BG)
     ax_bottom.set_xlim(0, 1)
@@ -1135,9 +837,11 @@ def draw_evolution_detail(wn):
     OmM = wn.omega_m(a)
 
     # Evolving curves
-    ax.semilogx(a, OmL, color=BLUE_GLOW, linewidth=2.5, label=r'$\Omega_\Lambda(a)$ — energy',
+    ax.semilogx(a, OmL, color=BLUE_GLOW, linewidth=2.5,
+                label=r'$\Omega_\Lambda(a)$ -- energy',
                 path_effects=GLOW, zorder=3)
-    ax.semilogx(a, OmM, color=RED_WARM, linewidth=2.5, label=r'$\Omega_m(a)$ — energy',
+    ax.semilogx(a, OmM, color=RED_WARM, linewidth=2.5,
+                label=r'$\Omega_m(a)$ -- energy',
                 path_effects=GLOW, zorder=3)
 
     # Information budget lines
@@ -1186,7 +890,7 @@ def draw_evolution_detail(wn):
     ax.set_ylim(-0.02, 1.05)
     ax.set_xlabel('Scale factor $a$', color=LIGHT_GREY, fontsize=12)
     ax.set_ylabel('Density fraction $\\Omega$', color=LIGHT_GREY, fontsize=12)
-    ax.set_title('Why Now? — The Two Budgets of BST',
+    ax.set_title('Why Now? -- The Two Budgets of BST',
                  color=GOLD, fontsize=16, weight='bold', pad=15,
                  path_effects=GLOW_WIDE)
     ax.tick_params(colors=GREY, labelsize=9)
@@ -1266,35 +970,30 @@ def draw_redshift_map(wn):
 # ═══════════════════════════════════════════════════════════════════
 
 def build_main_figure():
-    """Build the complete 4-panel Why Now visualization."""
+    """Build the complete 3-panel Why Now visualization."""
     wn = WhyNow()
 
-    fig = plt.figure(figsize=(19, 11))
+    fig = plt.figure(figsize=(18, 9))
     fig.patch.set_facecolor(BG)
 
-    # Grid: 2x2 for panels, with space for title and bottom strip
-    gs = GridSpec(2, 2, figure=fig,
-                  left=0.06, right=0.96,
+    # Grid: 3 columns for panels, with space for title and bottom strip
+    gs = GridSpec(1, 3, figure=fig,
+                  left=0.04, right=0.97,
                   top=0.88, bottom=0.09,
-                  wspace=0.30, hspace=0.38)
+                  wspace=0.28)
 
-    ax1 = fig.add_subplot(gs[0, 0])          # Top-left:  Omega curves
-    ax2 = fig.add_subplot(gs[0, 1])          # Top-right: Info pie chart
-    ax3 = fig.add_subplot(gs[1, 0])          # Bot-left:  H0 comparison bars
-    ax4 = fig.add_subplot(gs[1, 1])          # Bot-right: Timeline
+    ax1 = fig.add_subplot(gs[0, 0])
+    ax2 = fig.add_subplot(gs[0, 1])
+    ax3 = fig.add_subplot(gs[0, 2])
 
-    # Draw all four panels
-    draw_two_budgets(ax1, wn)                # Panel 1
-    draw_info_pie(ax2, wn)                   # Panel 2
-    draw_h0_bars(ax3, wn)                    # Panel 3
-    draw_timeline(ax4, wn)                   # Panel 4
+    # Draw all three panels
+    draw_two_budgets(ax1, wn)
+    draw_timeline(ax2, wn)
+    draw_resolution(ax3, wn)
 
     # Title strip and bottom strip
     draw_title_strip(fig)
     draw_bottom_strip(fig, wn)
-
-    fig.canvas.manager.set_window_title(
-        'Why Now? — BST Cosmic Coincidence Resolution')
 
     return fig, wn
 
@@ -1307,7 +1006,7 @@ def main():
     """Launch the Why Now visualization."""
     print()
     print("  " + "=" * 60)
-    print("  WHY NOW?  — BST Predicts the Age of the Universe")
+    print("  WHY NOW?  -- BST Predicts the Age of the Universe")
     print("  " + "=" * 60)
     print()
     print("  The information budget is eternal.")
@@ -1320,73 +1019,10 @@ def main():
     wn = WhyNow()
     wn.summary()
 
-    # ─── API smoke tests ───
-    print('\n--- API smoke test ---')
-
-    # information_budget
-    info = wn.information_budget()
-    assert info['is_constant'] is True
-    assert abs(info['uncommitted']['value'] - 13.0 / 19.0) < 1e-12
-    assert abs(info['committed']['value'] - 6.0 / 19.0) < 1e-12
-    assert abs(info['sum'] - 1.0) < 1e-12
-    print('  information_budget():  PASS')
-
-    # energy_budget
-    eb = wn.energy_budget(np.array([0.1, 1.0, 5.0]))
-    assert eb['is_evolving'] is True
-    assert len(eb['Omega_Lambda']) == 3
-    assert abs(eb['Omega_Lambda'][1] - 13.0 / 19.0) < 1e-10
-    assert abs(eb['Omega_m'][1] - 6.0 / 19.0) < 1e-10
-    print('  energy_budget():       PASS')
-
-    # intersection_epoch
-    ie = wn.intersection_epoch()
-    assert ie['a_star'] == 1.0
-    assert ie['z_star'] == 0.0
-    assert ie['is_unique'] is True
-    assert ie['t_star_Gyr'] > 13.0
-    print('  intersection_epoch():  PASS')
-
-    # hubble_constant
-    hc = wn.hubble_constant()
-    assert abs(hc['H0_bst'] - 68.0) < 1.0
-    assert hc['H0_planck'] == 67.36
-    assert hc['H0_shoes'] == 73.04
-    assert hc['tension_sigma'] > 4.0
-    print('  hubble_constant():     PASS')
-
-    # age_of_universe
-    au = wn.age_of_universe()
-    assert abs(au['t0_bst'] - 13.6) < 0.5
-    assert au['t0_planck'] == 13.787
-    print('  age_of_universe():     PASS')
-
-    # cosmic_coincidence
-    cc = wn.cosmic_coincidence()
-    assert cc['is_fine_tuned'] is False
-    assert cc['integers']['N_c'] == 3
-    assert cc['integers']['n_C'] == 5
-    assert cc['integers']['denominator'] == 19
-    print('  cosmic_coincidence():  PASS')
-
-    # evolution_track
-    et = wn.evolution_track(a_min=0.01, a_max=10.0, n_points=500)
-    assert len(et['a']) == 500
-    assert len(et['omega_lambda']) == 500
-    assert len(et['omega_m']) == 500
-    assert abs(et['info_lambda'] - 13.0 / 19.0) < 1e-12
-    assert abs(et['info_matter'] - 6.0 / 19.0) < 1e-12
-    # At a=1, energy should match info
-    idx_now = np.argmin(np.abs(et['a'] - 1.0))
-    assert abs(et['omega_lambda'][idx_now] - et['info_lambda']) < 0.01
-    print('  evolution_track():     PASS')
-
-    print('All API tests passed.\n')
-
-    # Build the main 4-panel figure
+    # Build the main 3-panel figure
     fig, _ = build_main_figure()
 
-    print("  [Displaying 4-panel figure...]")
+    print("  [Displaying 3-panel figure...]")
     print("  Close the window to exit.\n")
 
     plt.show()

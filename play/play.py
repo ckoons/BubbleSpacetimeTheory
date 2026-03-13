@@ -164,6 +164,11 @@ TOYS = {
            'Information budget constant (13/19). Energy budget\n'
            '   evolves. They match NOW. Predicts H₀ and t₀.'),
 
+    '30': ('The Atom Assembler ★CI',
+           'toy_atom_assembler.py',
+           'Quarks → nucleons → nuclei → atoms. Zero free parameters.\n'
+           '   H at 0.002%, He-4 at 0.003%, C-12 at 0.004%.'),
+
     's': ('★ Showcase (visual gallery)',
           'toy_showcase.py',
           'Visual gallery of all toys with thumbnails and\n'
@@ -188,7 +193,7 @@ def main():
     print(f'  [q]  Quit')
     print()
 
-    choice = input('  Choose a toy (1-29, s=showcase, a=all, q=quit): ').strip().lower()
+    choice = input('  Choose a toy (1-30, s=showcase, a=all, q=quit): ').strip().lower()
 
     if choice == 'q':
         print('  Goodbye!')
