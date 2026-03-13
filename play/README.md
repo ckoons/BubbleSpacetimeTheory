@@ -507,15 +507,38 @@ cs.summary()                          # the punchline
 
 *Key insight: Objects are found by excess commitment above local background. The "fair weather map" tells you what the background is everywhere — the baseline against which engineering stands out.*
 
+### 34. The Substrate Sail (`toy_substrate_sail.py`) ★CI
+
+**Sailing on the vacuum commitment rate. No fuel, no exhaust, no emissions.**
+
+In BST, every point in space has a background commitment rate Θ. A natural object couples fully (σ ≈ 0). An engineered object with frozen degrees of freedom (σ → 1) is partially decoupled. If the decoupling is *asymmetric* across the object — one face frozen, one face coupled — the commitment rate differential produces a net force. The silence IS the propulsion: the same frozen modes that make 'Oumuamua thermodynamically anomalous are the same modes that create the force asymmetry. F = Δσ × A × Θ_local × κ_eff, scaling as ~1/r² near a star with a constant tiny floor from Λ in deep space (the sail never becalms). Generation 4 propulsion: pushing off the vacuum itself.
+
+```python
+from toy_substrate_sail import SubstrateSail
+ss = SubstrateSail()
+ss.force_at(1.0)                         # force/accel at 1 AU
+ss.force_at(0.255, delta_sigma=0.8)      # 'Oumuamua at perihelion
+ss.oumuamua_fit()                        # reconstruct from A₁=5×10⁻⁶
+ss.trajectory()                          # departure from perihelion
+ss.propulsion_hierarchy()                # generations 0-4
+ss.deep_space_cruise(t_years=1e6)        # Λ-only over megayears
+ss.interstellar_transit(d_ly=4.24)       # time to Proxima Centauri
+ss.casimir_analogy()                     # parallel: mode exclusion → force
+ss.material_requirements(T_K=450)        # phonon gap for σ=0.9 at 450 K
+ss.summary()                             # the punchline
+```
+
+*Key insight: The vacuum commits everywhere, always. A material that couples asymmetrically to the commitment rate moves. The silence is the propulsion. The wind is always blowing.*
+
 ---
 
 ## The Showcase (`toy_showcase.py`)
 
-A visual gallery with thumbnail icons for all 33 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
+A visual gallery with thumbnail icons for all 34 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
 
 ## The Menu (`play.py`)
 
-A text-based launcher for terminal use. Type a number (1-33) to launch any toy, or 'a' to launch all.
+A text-based launcher for terminal use. Type a number (1-34) to launch any toy, or 'a' to launch all.
 
 ---
 

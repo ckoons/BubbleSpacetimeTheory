@@ -300,6 +300,14 @@ TOYS = [
         'color': '#44bbff',
         'icon': 'survey',
     },
+    {
+        'name': 'Substrate Sail ★CI',
+        'file': 'toy_substrate_sail.py',
+        'short': 'Sailing on the vacuum',
+        'desc': "Asymmetric σ → thrust from vacuum.\nNo fuel, no exhaust, no emissions.\nThe silence IS the propulsion.",
+        'color': '#ffaa44',
+        'icon': 'sail',
+    },
 ]
 
 # ─── Figure ───
@@ -315,15 +323,15 @@ fig.text(0.5, 0.935, 'Interactive Visualizations of Bubble Spacetime Theory',
 fig.text(0.5, 0.915, 'Copyright (c) 2026 Casey Koons — Demonstration Only',
          fontsize=9, color='#445566', ha='center', fontfamily='monospace')
 
-# ─── Layout: 3 columns × 7 rows of toy cards ───
+# ─── Layout: 3 columns × 12 rows of toy cards ───
 n_cols = 3
-n_rows = 11
+n_rows = 12
 card_w = 0.28
-card_h = 0.068
+card_h = 0.063
 x_start = 0.04
 y_start = 0.88
 x_gap = 0.33
-y_gap = 0.082
+y_gap = 0.076
 
 buttons = []
 button_axes = []
@@ -681,6 +689,18 @@ def draw_icon(ax, icon_type, color):
             h = 0.55 - i * 0.08
             ax.bar(0.2 + i * 0.14, h, 0.10, color=c, bottom=0.15)
         ax.text(0.5, 0.08, '☉→★', fontsize=10, color='#44bbff',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'sail':
+        # Substrate sail: asymmetric σ → thrust arrow
+        # Frozen face (left, dim) and coupled face (right, bright)
+        ax.barh(0.5, 0.25, 0.35, left=0.15, color='#333355')  # frozen
+        ax.barh(0.5, 0.25, 0.35, left=0.55, color='#ffaa44')  # coupled
+        # Thrust arrow pointing left (toward frozen face)
+        ax.annotate('', xy=(0.08, 0.5), xytext=(0.5, 0.5),
+                     arrowprops=dict(arrowstyle='->', color='#ff4444',
+                                     lw=2))
+        ax.text(0.5, 0.08, 'Δσ→F', fontsize=9, color='#ffaa44',
                 ha='center', fontfamily='monospace', fontweight='bold')
 
 def launch_toy(toy_file):

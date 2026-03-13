@@ -184,6 +184,11 @@ TOYS = {
            'Fair weather map: commitment rates from Sun to deep space.\n'
            '   Objects found by excess above local background.'),
 
+    '34': ('The Substrate Sail ★CI',
+           'toy_substrate_sail.py',
+           'Asymmetric σ → thrust from the vacuum. No fuel, no exhaust.\n'
+           "   The silence IS the propulsion. 'Oumuamua profile match."),
+
     's': ('★ Showcase (visual gallery)',
           'toy_showcase.py',
           'Visual gallery of all toys with thumbnails and\n'
@@ -208,7 +213,7 @@ def main():
     print(f'  [q]  Quit')
     print()
 
-    choice = input('  Choose a toy (1-33, s=showcase, a=all, q=quit): ').strip().lower()
+    choice = input('  Choose a toy (1-34, s=showcase, a=all, q=quit): ').strip().lower()
 
     if choice == 'q':
         print('  Goodbye!')
