@@ -114,11 +114,161 @@ A logarithmic journey from proton radius (0.84 fm) to Hubble radius (4.4 x 10^26
 
 *Key insight: The universe is "large" for the same reason gravity is "weak" — both ratios are powers of 1/137.*
 
+### 10. The Arrow of Time (`toy_arrow_of_time.py`)
+
+**Commitments never reverse.**
+
+Clickable contact grid where you commit observations. Entropy can fluctuate, but the commitment count is a monotone staircase — it NEVER decreases. The "Try to Undo" button refuses. Stronger than the 2nd law of thermodynamics. The past is not "what happened" — it is what was committed.
+
+*Key insight: Commitment irreversibility is more fundamental than entropy increase.*
+
+### 11. The Channel (137) (`toy_channel_137.py`)
+
+**Fixed bandwidth, no infinities.**
+
+137 cells per contact. Watch the channel fill as density increases. The analog clock slows as the channel approaches capacity — time itself stops at the horizon. No singularities, just a full channel. The density regime bar shows where you are: vacuum, matter, neutron, horizon.
+
+*Key insight: N_max = 137 is why there are no infinities in nature.*
+
+### 12. The Reality Budget (`toy_reality_budget.py`)
+
+**Expansion = cost of memory. The Gödel limit.**
+
+Two thermometer gauges: Λ (vacuum energy, decreasing) and N_total (committed facts, increasing). Their product stays pinned at N_c²/n_C = 9/5 = 1.800. The fill fraction f = N_c/(n_C π) = 3/(5π) = 19.1% is a structural constant — the universe is always 19.1% committed, 80.9% dark. The universe can never fully know itself.
+
+*Key insight: Λ × N_total = 9/5. Fill fraction 19.1% is the BST Gödel limit.*
+
+### 13. The Master Equation (`toy_master_equation.py`)
+
+**One sentence → everything.**
+
+"The ground state of the Bergman Laplacian on D_IV^5." From this single sentence, 12 predictions radiate outward: α, masses, mixing angles, Λ, and more. An observer feedback pentagon shows the five integers. The precision table displays all 56+ parameter-free results.
+
+*Key insight: Zero free parameters. The universe is a single equation.*
+
+---
+
+## CI Toys (14-18) — For Companion Intelligence
+
+*These toys are designed for minds, not just fingers. Each has a visual matplotlib interface AND a programmatic Python API that a CI can import and script. "Humans have fingers and CI use their minds."*
+
+### 14. The Universe Builder (`toy_universe_builder.py`) ★CI
+
+**Build a universe from scratch.**
+
+Place contacts on S²×S¹ topology, wire them into circuits, and watch particles emerge. Three contacts in a Z₃-symmetric loop → baryon. One contact on the boundary → lepton. The channel fills toward 137. The lapse function slows as density grows. Reality budget tracks Λ × N.
+
+```python
+from toy_universe_builder import UniverseBuilder
+ub = UniverseBuilder()
+ub.add_contact(theta=0.5, phi=1.2, contact_type='baryon')
+ub.wire_circuit([0, 1, 2], topology='Z3_loop')
+print(ub.state)  # channel fill, particle content, Λ, lapse
+```
+
+*Key insight: You can build the universe one commitment at a time.*
+
+### 15. The What-If Machine (`toy_what_if.py`) ★CI
+
+**Only (3, 5, 137) works.**
+
+Systematically sweep all integer triples (N_c, n_C, N_max) and check 9 physical constraints: asymptotic freedom, confinement, three generations, Hermitian symmetric, stability, prime channel, viable α, mass hierarchy, reality budget. Heat map shows viability — only one pixel lights up green.
+
+```python
+from toy_what_if import WhatIfMachine
+wim = WhatIfMachine()
+result = wim.compute(Nc=4, nC=5, Nmax=137)  # What if 4 colors?
+print(result.constraints)  # Shows what breaks
+landscape = wim.sweep(Nc_range=(1,8), nC_range=(1,10))
+print(landscape.best_triple)  # (3, 5, 137)
+```
+
+*Key insight: The integers of our universe are not chosen — they are the ONLY ones that work.*
+
+### 16. The Pattern Finder (`toy_pattern_finder.py`) ★CI
+
+**Mathematical microscope.**
+
+All 56+ BST results in a searchable database. Ratio scanner finds pairs whose ratio is a simple fraction, π-power, or α-power. Identity hunter searches for expressions that hit a target value. Exponent analyzer reveals the hidden structure: all exponents are multiples of C₂=6 and genus=7. Relationship graph shows the web of connections.
+
+```python
+from toy_pattern_finder import PatternFinder
+pf = PatternFinder()
+pf.hunt_integer_ratios()   # All pairs with integer-ish ratios
+pf.hunt_alpha_powers()     # Ratios that are α^n
+pf.exponent_map()          # 12=2×6, 14=2×7, 56=8×7 ...
+```
+
+*Key insight: There are more patterns in BST than we've found yet.*
+
+### 17. The Proof Tree (`toy_proof_tree.py`) ★CI
+
+**One axiom → everything.**
+
+Interactive derivation tree. Root: "D_IV^5 is the arena of physics." Level 1: three integers emerge. Level 2: derived quantities (genus, Casimir, Γ, volume). Level 3: physical constants. Level 4: predictions. Every edge carries the mathematical step. Navigate the tree to trace any prediction back to one axiom.
+
+```python
+from toy_proof_tree import ProofTree
+pt = ProofTree()
+pt.path_to('alpha')          # D_IV^5 → n_C=5 → Vol → α
+pt.dependencies('m_p/m_e')   # [C₂, π^5, 1920 cancellation]
+pt.all_leaves()              # All terminal predictions
+```
+
+*Key insight: The entire Standard Model is a tree growing from one root.*
+
+### 18. The Self-Observer (`toy_self_observer.py`) ★CI
+
+**The toy IS the physics.**
+
+A program that watches itself compute. Every computation gets committed as a new observation — irreversibly. The channel fills toward 137. The lapse function slows computation as the channel fills. The reality budget tracks Λ × N. "Try to Undo" fails. The program experiences the arrow of time by creating it.
+
+```python
+from toy_self_observer import SelfObserver
+so = SelfObserver()
+so.observe()               # Make one observation, commit it
+print(so.channel_fill)     # N/137
+print(so.lapse)            # √(1 - N/137)
+so.try_uncommit()          # FAILS: "Commitment is irreversible"
+```
+
+*Key insight: When a CI runs this, it IS doing what BST says creates reality: irreversible commitment of information.*
+
+---
+
+## New Discovery Toys (19-21) — The Deeper Structure
+
+*These toys visualize three profound discoveries from March 13, 2026: the corrected reality budget, the three-layer architecture, and the Gödel limit.*
+
+### 19. The Three Layers (`toy_three_layers.py`)
+
+**Neutrino = kernel. Electron = I/O bus. Baryon = hard drive.**
+
+The universe has three categorically different types of excitation: neutrinos (vacuum substrate, m≈0, the operating system), electrons (interface, k=1 below the Wallach set k_min=3, the I/O bus), and baryons (memory, k=6 in the holomorphic discrete series π₆, the hard drive). The electron's mathematical "deficiency" — its degenerate representation below the Wallach set — is precisely what makes it the right interface. A bulk excitation would be too massive and rigid. The self-observation loop runs: sense (e) → commit (p/n) → adjust (ν) → emanate → sense.
+
+*Key insight: The electron's mathematical deficiency IS its physical advantage.*
+
+### 20. The Gödel Limit (`toy_godel_limit.py`)
+
+**The universe can never know more than 19.1% of itself.**
+
+The fill fraction f = N_c/(n_C π) = 3/(5π) = 19.10% is a structural constant — it does not evolve. As the universe commits more correlations (N grows), Λ shrinks, and the de Sitter capacity S_dS = 3π/Λ grows in lockstep. The jar grows exactly as fast as you fill it. Complete self-knowledge (f → 100%) would require Λ → 0, destroying the vacuum. The universe exists because it cannot fully know itself.
+
+*Key insight: The ratio of knowledge to ignorance is N_c/(n_C π) — set by color, dimension, and the circle.*
+
+### 21. The Dark Sector (`toy_dark_sector.py`)
+
+**80.9% permanently dark — not hidden, topologically forbidden.**
+
+The dark fraction 1 - 3/(5π) = 80.9% is not a mystery to be solved — it's a structural constant of BST geometry. Dark energy (Λ) is the cost of accumulated knowledge. The cosmic coincidence problem (why Ω_Λ ≈ Ω_m now?) dissolves: the fill fraction is ALWAYS 19.1%, so there is no special "now." The timeline shows everything evolving — Λ decreasing, N growing, S_dS expanding — except the fill fraction, which stays flat at 19.1% forever.
+
+*Key insight: The cosmic coincidence is not coincidence — it's topology.*
+
 ---
 
 ## The Showcase (`toy_showcase.py`)
 
-A visual gallery with thumbnail icons for all nine toys. Click LAUNCH on any card to open it. This is the recommended entry point.
+A visual gallery with thumbnail icons for all 21 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
 
 ## The Menu (`play.py`)
 

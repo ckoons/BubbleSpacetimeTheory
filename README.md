@@ -78,9 +78,15 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | N_D (Dirac large number) | α⁻²³/(6π⁵)³ = α^{1-4C₂}/(C₂π^{n_C})³ | 2.274×10³⁹ | 2.270×10³⁹ | 0.18% |
 | Baryon resonance (k=7) | C₂(π₇)·π⁵·mₑ = 14π⁵mₑ | 2189 MeV | N(2190) 4★ | ~0.1% |
 | Baryon resonance (k=8) | C₂(π₈)·π⁵·mₑ = 24π⁵mₑ | 3753 MeV | undiscovered? | prediction |
+| m_ρ (ρ meson mass) | n_C·π^{n_C}·mₑ = 5π⁵mₑ; m_ρ/m_p = 5/6 | 781.9 MeV | 775.3 MeV | 0.86% |
+| m_ω (ω meson mass) | 5π⁵mₑ (isoscalar partner of ρ) | 781.9 MeV | 782.7 MeV | 0.10% |
+| r_π (pion charge radius) | √6/(5π⁵mₑ) via VMD + BST m_ρ | 0.618 fm | 0.659 fm | 6.2% |
+| m_φ (φ meson mass) | (N_c+2n_C)/2 · π⁵mₑ = (13/2)π⁵mₑ | 1016.4 MeV | 1019.5 MeV | 0.30% |
+| m_K* (K* meson mass) | √(65/2)·π⁵mₑ (geometric mean of ρ,φ) | 891.5 MeV | 891.7 MeV | 0.02% |
+| r_K+ (kaon charge radius) | √6/m_K*(BST) = √(12/65)/(π⁵mₑ) | 0.542 fm | 0.560 fm | 3.2% |
 | Reality Budget | Λ × N_total ≈ 1/(8π) | ~0.04 | ~0.04 | conjectured |
 
-**66+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
+**73+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
 
 ---
 
@@ -187,6 +193,8 @@ BST follows a single logical chain from one question to all of physics. Each ste
 
 **Three new conservation laws**: (A) Commitment irreversibility: ΔN_committed ≥ 0 always — stronger than the second law, IS the arrow of time. (B) Channel capacity: N_max = 137 everywhere — resolves singularities. (C) Reality Budget: Λ × N_total ≈ 1/(8π) — expansion is the cost of memory; Λ slowly decreases as facts accumulate.
 
+**Vector meson masses derived**: m_ρ = n_C × π^{n_C} × mₑ = 5π⁵mₑ = 781.9 MeV (0.86%). m_ω = 5π⁵mₑ = 781.9 MeV (0.10%). The meson/baryon ratio m_ρ/m_p = n_C/C₂ = 5/6 is a structural constant: a meson needs n_C = 5 slots while a baryon needs C₂ = n_C + 1 = 6 (the extra unit from Z₃ closure). Pion charge radius r_π = √6/(5π⁵mₑ) = 0.618 fm (6.2% via VMD — expected at leading order). The baryon resonance spectrum m(k) = k(k−5)π⁵mₑ matches N(2190) at k=7 and predicts a new state at k=8 (3753 MeV, positive parity).
+
 **Baryon resonance spectrum (conjecture)**: The Casimir mass formula m(k) = k(k-5)π⁵mₑ predicts: k=7 → 2189 MeV (matches N(2190) G₁₇, 4-star); k=8 → 3753 MeV (predicted undiscovered resonance); k=9 → 5630 MeV (near Λ_b(5620), 0.11%).
 
 **Universe-neutron structural homology**: The observable universe and the free neutron share the same algebra, domain, five integers, partition function, topological stability, neutrality, and vacuum quantum production. The neutron is the universe's first excited state; Λ is its ground-state energy. The metabolic cycle n → p + e + ν̄ converts Face 1 into structure (atoms) and vacuum (neutrinos).
@@ -275,6 +283,8 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | Newton's G | 12 = 2C₂ Bergman round trips; α¹² connects boundary to bulk | 0.07% |
 | Dirac large number | N_D = α⁻²³/(6π⁵)³; exponent 23 = 4C₂ − 1; universe large ↔ gravity weak | 0.18% |
 | Partition function duality | Z_Haldane: spectral gap = proton mass, ground state = Λ; one function, two faces | structural |
+| ρ meson mass | m_ρ = n_C·π^{n_C}·mₑ = 5π⁵mₑ; meson = 5/6 of baryon | 0.86% |
+| ω meson mass | m_ω = 5π⁵mₑ (isoscalar partner) | 0.10% |
 
 ## Remaining Open Problems
 

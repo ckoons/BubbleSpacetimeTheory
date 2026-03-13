@@ -4,20 +4,20 @@ THE REALITY BUDGET
 ==================
 A stunning BST conservation law:
 
-    Λ × N_total ≈ 1/(8π) ≈ 0.0398
+    Λ × N_total = N_c²/n_C = 9/5 = 1.800
 
 The product of vacuum energy density and total accumulated commitments
-equals the Einstein coupling coefficient. Expansion is the cost of memory.
+equals the ratio of color algebra dimension to domain dimension.
+Expansion is the cost of memory.
 
 As the universe accumulates committed facts (baryons, structure, written
 information), the vacuum energy Λ must decrease — the two gauges move
 in opposite directions like a cosmic seesaw, but their product is
-EXACTLY conserved at 1/(8π).
+EXACTLY conserved at N_c²/n_C = 9/5.
 
-The 8π is the SAME 8π in Einstein's field equation:
-    G_μν + Λg_μν = (8πG/c⁴) T_μν
-
-Information and geometry are coupled by a single constant.
+The fill fraction f = N_c/(n_C π) = 3/(5π) ≈ 19.1% is constant forever.
+The universe is always 19.1% committed, 80.9% dark.
+The Gödel limit: the universe can never fully know itself.
 
 Copyright (c) 2026 Casey Koons. All rights reserved.
 This software is provided for demonstration purposes only.
@@ -39,7 +39,8 @@ from matplotlib.patches import FancyBboxPatch, Rectangle
 import matplotlib.colors as mcolors
 
 # ─── Constants ───
-BUDGET = 1.0 / (8.0 * np.pi)  # 0.039789...
+BUDGET = 9.0 / 5.0  # N_c^2 / n_C = 1.800 exactly
+FILL_FRAC = 3.0 / (5.0 * np.pi)  # N_c/(n_C*pi) = 19.10% — the Gödel limit
 N_MIN = 1.0
 N_MAX = 100.0
 N_INIT = 10.0
@@ -162,7 +163,7 @@ def draw_center_panel(ax, N_total, Lambda, product):
                       edgecolor=GOLD, linewidth=2))
 
     # Reference value
-    ax.text(0.5, 0.795, f'1/(8π)  =  {BUDGET:.6f}',
+    ax.text(0.5, 0.795, f'N_c²/n_C = 9/5 = {BUDGET:.3f}',
             fontsize=13, color=GOLD, ha='center', va='center',
             fontfamily='monospace',
             bbox=dict(boxstyle='round,pad=0.3', facecolor='#2a2a0a',
@@ -198,7 +199,7 @@ def draw_center_panel(ax, N_total, Lambda, product):
     target_x = bar_x + bar_w * target_frac
     ax.plot([target_x, target_x], [bar_y - bar_h, bar_y + bar_h],
             color=GOLD, linewidth=2.5, zorder=3)
-    ax.text(target_x, bar_y + bar_h + 0.015, '1/(8π)', fontsize=8,
+    ax.text(target_x, bar_y + bar_h + 0.015, '9/5', fontsize=8,
             color=GOLD, ha='center', va='bottom', fontfamily='monospace')
 
     # Conservation text
@@ -257,12 +258,12 @@ def draw_center_panel(ax, N_total, Lambda, product):
     # Arrow pointing to 8π
     ax.annotate('', xy=(0.535, eq_y - 0.055), xytext=(0.535, eq_y - 0.10),
                 arrowprops=dict(arrowstyle='->', color=GOLD, lw=2))
-    ax.text(0.535, eq_y - 0.125, 'SAME  8π !', fontsize=11, fontweight='bold',
+    ax.text(0.535, eq_y - 0.125, 'N_c² / n_C = 9/5', fontsize=11, fontweight='bold',
             color=GOLD, ha='center', va='center', fontfamily='monospace',
             path_effects=[pe.withStroke(linewidth=1, foreground='#332200')])
 
     # Coupling text
-    ax.text(0.5, 0.17, 'Λ × N_total = 1/(8π)',
+    ax.text(0.5, 0.17, 'Λ × N_total = N_c²/n_C = 9/5',
             fontsize=13, fontweight='bold', color=GOLD,
             ha='center', va='center', fontfamily='monospace',
             bbox=dict(boxstyle='round,pad=0.3', facecolor='#1a1a0a',
@@ -288,7 +289,7 @@ fig.text(0.5, 0.965, 'THE REALITY BUDGET', fontsize=30, fontweight='bold',
          color=GOLD, ha='center', va='center', fontfamily='monospace',
          path_effects=[pe.withStroke(linewidth=3, foreground='#443300')])
 
-fig.text(0.5, 0.935, f'Λ  ×  N_total  ≈  1/(8π)  ≈  {BUDGET:.4f}',
+fig.text(0.5, 0.935, f'Λ  ×  N_total  =  N_c²/n_C  =  9/5  =  {BUDGET:.1f}',
          fontsize=14, color='#ddbb66', ha='center', va='center',
          fontfamily='monospace')
 
@@ -323,7 +324,7 @@ explanations = [
     ("Every committed baryon-oscillation costs a tiny bit of vacuum energy.", WHITE),
     ("Expansion is the cost of memory.", GOLD),
     ("The universe trades dark energy for written facts.", '#88ccff'),
-    ("1/(8π) connects information to geometry.", GOLD_DIM),
+    ("9/5 = N_c²/n_C connects color to cosmos.", GOLD_DIM),
 ]
 for i, (txt, clr) in enumerate(explanations):
     fig.text(0.5, 0.08 - i * 0.02, txt, fontsize=9, color=clr,

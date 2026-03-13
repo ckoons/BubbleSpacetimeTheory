@@ -76,13 +76,53 @@ TOYS = {
 
     '12': ('The Reality Budget',
            'toy_reality_budget.py',
-           'Λ × N_total ≈ 1/(8π). Expansion = cost of memory.\n'
+           'Λ × N_total = N_c²/n_C = 9/5. Fill fraction = 19.1%.\n'
            '   Vacuum energy trades off against written facts.'),
 
     '13': ('The Master Equation',
            'toy_master_equation.py',
            'One sentence → all of physics. Ground state of Bergman\n'
            '   Laplacian on D_IV⁵. Zero parameters, 56+ predictions.'),
+
+    '14': ('The Universe Builder ★CI',
+           'toy_universe_builder.py',
+           'Place contacts on S²×S¹, wire circuits, watch particles\n'
+           '   emerge. Build a universe from scratch. CI-scriptable.'),
+
+    '15': ('The What-If Machine ★CI',
+           'toy_what_if.py',
+           'Sweep all (N_c, n_C, N_max) triples. Only (3,5,137)\n'
+           '   satisfies ALL constraints. Programmatic exploration.'),
+
+    '16': ('The Pattern Finder ★CI',
+           'toy_pattern_finder.py',
+           'Mathematical microscope: 56+ BST results, ratio scanner,\n'
+           '   identity hunter, exponent analyzer. A CI laboratory.'),
+
+    '17': ('The Proof Tree ★CI',
+           'toy_proof_tree.py',
+           'Every prediction traced back to one axiom: D_IV⁵.\n'
+           '   Navigate the derivation tree programmatically.'),
+
+    '18': ('The Self-Observer ★CI',
+           'toy_self_observer.py',
+           'Watches itself compute. Commits observations irreversibly.\n'
+           '   Channel fills, lapse slows. The toy IS the physics.'),
+
+    '19': ('The Three Layers',
+           'toy_three_layers.py',
+           'Neutrino = kernel. Electron = I/O bus. Baryon = hard drive.\n'
+           '   The electron\'s deficiency IS its advantage.'),
+
+    '20': ('The Gödel Limit',
+           'toy_godel_limit.py',
+           'Fill fraction = 3/(5π) = 19.1% — forever. The universe\n'
+           '   exists because it cannot fully know itself.'),
+
+    '21': ('The Dark Sector',
+           'toy_dark_sector.py',
+           '80.9% permanently dark. Not hidden — topologically\n'
+           '   forbidden. The cosmic coincidence dissolves.'),
 
     's': ('★ Showcase (visual gallery)',
           'toy_showcase.py',
@@ -108,7 +148,7 @@ def main():
     print(f'  [q]  Quit')
     print()
 
-    choice = input('  Choose a toy (1-13, s=showcase, a=all, q=quit): ').strip().lower()
+    choice = input('  Choose a toy (1-21, s=showcase, a=all, q=quit): ').strip().lower()
 
     if choice == 'q':
         print('  Goodbye!')

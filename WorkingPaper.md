@@ -51,7 +51,7 @@ abstract: |
   with zero free parameters.
   The CMB spectral index $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($0.3\sigma$ from Planck),
   with tensor-to-scalar ratio $r \approx 0$ (no primordial B-modes), are derived from the phase transition dynamics.
-  Over 66 parameter-free predictions are presented, all testable against current or near-future experiments.
+  Over 73 parameter-free predictions are presented, all testable against current or near-future experiments.
 documentclass: article
 classoption:
   - 12pt
@@ -740,6 +740,51 @@ The discrepancies are systematic and traceable to a single physical effect: the 
 ### 8.2 Distinction: Predictions vs. Estimates
 
 It is important to distinguish between BST *predictions* — quantities derived from the domain geometry with no adjustable parameters — and BST *estimates* — quantities that require additional physics (the chiral condensate) to be quantitative. The parameter-free predictions (Table in Section 25) are strong results. The hadronic estimates are order-of-magnitude geometric calculations that require condensate corrections.
+
+### 8.3 Vector Meson Masses: $\rho$ and $\omega$ (March 2026)
+
+The proton mass uses $C_2 = n_C + 1 = 6$ Casimir eigenvalue units — $n_C$ complex dimensions plus one extra from the $Z_3$ circuit closure. A meson ($q\bar{q}$) has no $Z_3$ closure; the quark and antiquark share the same color space. The meson mass formula uses $n_C$ slots instead of $C_2$:
+
+$$m_\rho = n_C \times \pi^{n_C} \times m_e = 5\pi^5 m_e = 781.9 \text{ MeV}$$
+
+$$\frac{m_\rho}{m_p} = \frac{n_C}{C_2} = \frac{n_C}{n_C + 1} = \frac{5}{6}$$
+
+Observed: $m_\rho = 775.26 \pm 0.25$ MeV (0.86% error). The isoscalar partner $\omega(782)$ is the same geometric object in a different isospin state: $m_\omega(\text{BST}) = 5\pi^5 m_e = 781.9$ MeV vs. observed $782.66 \pm 0.13$ MeV (0.10% error).
+
+The ratio $m_\rho/m_p = 5/6$ is a structural constant of $D_{IV}^5$: a meson is 5/6 of a baryon because it needs one fewer geometric dimension.
+
+The $\phi(1020)$ meson ($s\bar{s}$) uses $(N_c + 2n_C)/2 = 13/2$ slots — the strange quark probes the full color-plus-weak structure:
+
+$$m_\phi = \frac{13}{2}\pi^5 m_e = 1016.4 \text{ MeV} \quad (0.30\%\text{ from observed }1019.5\text{ MeV})$$
+
+The $K^*(892)$ ($q\bar{s}$, one light and one strange quark) is the **geometric mean**:
+
+$$m_{K^*} = \sqrt{n_C \times \frac{N_c + 2n_C}{2}}\,\pi^5 m_e = \sqrt{\frac{65}{2}}\,\pi^5 m_e = 891.5 \text{ MeV} \quad (\mathbf{0.02\%}\text{ from observed }891.7\text{ MeV})$$
+
+The geometric mean is 80$\times$ more accurate than the Gell-Mann–Okubo formula ($m^2_{K^*} = (m^2_\rho + m^2_\phi)/2$, which gives 1.7% error). This reflects BST's multiplicative mass structure: meson mass factors are eigenvalues of Bergman kernel restrictions, which combine as products (geometric means), not sums (arithmetic means).
+
+### 8.4 Baryon Resonance Spectrum (Conjecture)
+
+If the 1920 cancellation is a property of the domain $D_{IV}^5$ (via its Weyl group $\Gamma = S_5 \times (\mathbb{Z}_2)^4$, $|\Gamma| = 1920$), independent of the representation, then the baryon mass formula generalizes:
+
+$$m(k) = C_2(\pi_k) \times \pi^{n_C} \times m_e = k(k-5) \times \pi^5 \times m_e, \quad k \geq 6$$
+
+| $k$ | $C_2 = k(k-5)$ | Mass (MeV) | Candidate | Parity $(-1)^k$ |
+|:----|:----------------|:-----------|:----------|:----------------|
+| 5 | 0 | 0 | vacuum | — |
+| 6 | 6 | 938.3 | proton (938.3) | $+$ |
+| 7 | 14 | 2189 | N(2190) $G_{17}$ (4$\star$) | $-$ |
+| 8 | 24 | 3753 | **prediction** | $+$ |
+
+The $k = 7$ prediction matches the N(2190) resonance; $k = 8$ at 3753 MeV with positive parity is an open prediction. See `notes/BST_BaryonResonances_MesonMasses.md`.
+
+### 8.5 Pion Charge Radius via VMD
+
+Using vector meson dominance with BST-derived $m_\rho$:
+
+$$r_\pi = \frac{\sqrt{6}}{m_\rho} = \frac{\sqrt{6}}{5\pi^5 m_e} = 0.618 \text{ fm}$$
+
+Observed: $0.659 \pm 0.004$ fm (6.2% error). The discrepancy is expected at leading-order VMD; NLO two-pion loop corrections typically add $\sim$5–10%.
 
 -----
 
@@ -2519,6 +2564,13 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Dirac large number $N_D$            |$\alpha^{-23}/(6\pi^5)^3 = \alpha^{1-4C_2}/(C_2\pi^{n_C})^3$; exponent $23 = 4C_2 - 1$|$2.274 \times 10^{39}$|$\checkmark$ 0.18%|
 |Baryon resonance $N(2190)$          |$C_2(\pi_7) \times \pi^5 m_e = 14\pi^5 m_e = 2189$ MeV ($k{=}7$, spin $7/2^-$)|$2100$–$2200$ MeV (PDG 4$\star$)|$\checkmark$ conjectured|
 |Baryon resonance ($k{=}8$)          |$C_2(\pi_8) \times \pi^5 m_e = 24\pi^5 m_e = 3753$ MeV|undiscovered?|prediction|
+|$\rho$ meson mass $m_\rho$         |$n_C \pi^{n_C} m_e = 5\pi^5 m_e = 781.9$ MeV; $m_\rho/m_p = n_C/C_2 = 5/6$|$775.26 \pm 0.25$ MeV (PDG)|$\checkmark$ 0.86%|
+|$\omega$ meson mass $m_\omega$     |$n_C \pi^{n_C} m_e = 5\pi^5 m_e = 781.9$ MeV (isoscalar partner of $\rho$)|$782.66 \pm 0.13$ MeV (PDG)|$\checkmark$ 0.10%|
+|Meson/baryon ratio $m_\rho/m_p$    |$n_C/(n_C + 1) = 5/6 = 0.8333$; meson needs $n_C$ slots, baryon $C_2$|$0.8263$|$\checkmark$ 0.86%|
+|Pion charge radius $r_\pi$         |$\sqrt{6}/(n_C \pi^{n_C} m_e) = \sqrt{6}/(5\pi^5 m_e) = 0.618$ fm (VMD + BST $m_\rho$)|$0.659 \pm 0.004$ fm|$\checkmark$ 6.2%|
+|$\phi$ meson mass $m_\phi$         |$(N_c + 2n_C)/2 \times \pi^{n_C} m_e = (13/2)\pi^5 m_e = 1016.4$ MeV|$1019.461 \pm 0.016$ MeV (PDG)|$\checkmark$ 0.30%|
+|$K^*$ meson mass $m_{K^*}$         |$\sqrt{n_C(N_c+2n_C)/2}\,\pi^{n_C}m_e = \sqrt{65/2}\,\pi^5 m_e = 891.5$ MeV (geometric mean)|$891.67 \pm 0.26$ MeV (PDG)|$\checkmark$ 0.02%|
+|Kaon charge radius $r_{K^+}$       |$\sqrt{6}/m_{K^*}(\text{BST}) = \sqrt{12/65}/(\pi^5 m_e) = 0.542$ fm (VMD + BST $m_{K^*}$)|$0.560 \pm 0.031$ fm|$\checkmark$ 3.2%|
 |Reality Budget                      |$\Lambda \times N_{\text{total}} \approx 1/(8\pi)$; expansion = cost of memory|$10^{-122} \times 10^{120} \sim 0.04$|$\checkmark$ conjectured|
 |Wyler constant origin (HC)           |$9/(8\pi^4) = \rho_2^2/(2\pi^4)$, $\rho_2=(n_C{-}2)/2=3/2$ — Weyl vector of $\mathrm{SO}_0(5,2)$|Exact|$\checkmark$ Derived|
 |$D_{IV}^5$ identification            |Proven from BST contact geometry |—               |Established|
@@ -2890,6 +2942,13 @@ The following were all derived from $D_{IV}^5$ geometry with zero free parameter
 - **Universe-neutron structural homology.** Systematic catalog of parallels between the observable universe and the free neutron: same algebra ($\mathfrak{so}(5,2)$), same domain ($D_{IV}^5$), same five integers, same partition function, same topological stability mechanism, same neutrality condition, same vacuum quantum production, same self-monitoring through the lapse function. The neutron is the universe's first excited state; $\Lambda$ is its ground-state energy. The scale ratio $R_H/r_p \sim 10^{41}$ is a power of $\alpha$, derivable from domain geometry. See `notes/maybe/BST_UniverseNeutron_Analogy.md`.
 - **Master equation (one sentence).** The universe is the ground state of the Bergman Laplacian on $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$, subject to Haldane exclusion with capacity 137.
 - **The metabolic cycle.** Neutron decay $n \to p + e^- + \bar\nu_e$ is the universe's primary metabolic reaction: converts Face 1 (spectral gap) into structure ($p + e \to$ atoms $\to$ chemistry $\to$ life) and vacuum ($\bar\nu_e \to$ feeds $\Lambda$). The mass splitting $(m_n - m_p)/m_e = 91/36 = 7 \times 13/6^2$ puts the genus and Weinberg denominator in the reaction that controls helium abundance, neutron lifetime, and habitability.
+- **$\rho$ meson mass — DERIVED.** $m_\rho = n_C \pi^{n_C} m_e = 5\pi^5 m_e = 781.9$ MeV (0.86% from observed 775.3 MeV). Meson uses $n_C = 5$ slots (quark-antiquark share color space); baryon uses $C_2 = n_C + 1 = 6$ (extra unit from $Z_3$ closure). The ratio $m_\rho/m_p = n_C/C_2 = 5/6$ is a structural constant — a meson is 5/6 of a baryon because it needs one fewer dimension.
+- **$\omega$ meson mass — DERIVED.** $m_\omega = 5\pi^5 m_e = 781.9$ MeV (0.10% from observed 782.7 MeV). The $\omega$ is the isoscalar ($I = 0$) partner of the $\rho$ ($I = 1$); BST gives them the same mass, which is nearly exact.
+- **Pion charge radius — first BST estimate.** Via VMD with BST-derived $m_\rho$: $r_\pi = \sqrt{6}/(5\pi^5 m_e) = 0.618$ fm (6.2% from observed 0.659 fm). The 6.2% discrepancy is expected at leading-order VMD; NLO two-pion loop corrections typically add ~5-10%. See `notes/BST_BaryonResonances_MesonMasses.md`.
+- **$\phi$(1020) mass — DERIVED.** $m_\phi = (N_c + 2n_C)/2 \times \pi^{n_C} m_e = (13/2)\pi^5 m_e = 1016.4$ MeV (0.30% from observed 1019.5 MeV). The factor 13 = $N_c + 2n_C$ is the Weinberg denominator — the ss̄ meson probes the full color+weak structure.
+- **K*(892) mass — DERIVED via geometric mean rule.** $m_{K^*} = \sqrt{n_C \times (N_c + 2n_C)/2} \times \pi^5 m_e = \sqrt{65/2}\,\pi^5 m_e = 891.5$ MeV (0.021% from observed 891.67 MeV). The K* is the geometric mean of ρ and φ masses — BST predicts multiplicative (not additive) mass relations. This is 80$\times$ more accurate than the Gell-Mann–Okubo formula (1.7%).
+- **Kaon charge radius — now fully parameter-free.** $r_{K^+} = \sqrt{6}/m_{K^*}(\text{BST}) = 0.542$ fm (3.2% from observed 0.560 fm, within 0.6$\sigma$). Uses only $N_c$, $n_C$, $m_e$, and $\hbar c$.
+- **Complete vector meson nonet.** All four light vector mesons ($\rho$, $\omega$, $K^*$, $\phi$) derived from three BST integers with errors $\leq 0.86\%$. The K* at 0.02% is the most precise BST hadronic prediction. See `notes/BST_BaryonResonances_MesonMasses.md`.
 
 **Still open, in priority order:**
 

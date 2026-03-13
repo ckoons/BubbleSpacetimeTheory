@@ -122,8 +122,8 @@ TOYS = [
     {
         'name': 'The Reality Budget',
         'file': 'toy_reality_budget.py',
-        'short': 'Λ × N_total ≈ 1/(8π)',
-        'desc': 'Expansion = cost of memory.\nVacuum energy trades off\nagainst written facts.',
+        'short': 'Λ × N = 9/5, fill = 19.1%',
+        'desc': 'Expansion = cost of memory.\nFill = 19.1% always.\nGödel limit: 80.9% dark forever.',
         'color': '#dd44dd',
         'icon': 'budget',
     },
@@ -134,6 +134,72 @@ TOYS = [
         'desc': 'Ground state of Bergman\nLaplacian on D_IV⁵.\nZero parameters, 56+ predictions.',
         'color': '#ffffff',
         'icon': 'master',
+    },
+    # ─── CI-Oriented Toys (14-18) ───
+    {
+        'name': 'Universe Builder ★CI',
+        'file': 'toy_universe_builder.py',
+        'short': 'Build a universe from scratch',
+        'desc': 'Place contacts on S²×S¹,\nwire circuits, watch particles\nemerge. CI-scriptable API.',
+        'color': '#44ffaa',
+        'icon': 'builder',
+    },
+    {
+        'name': 'What-If Machine ★CI',
+        'file': 'toy_what_if.py',
+        'short': 'Only (3,5,137) works',
+        'desc': 'Sweep all integer triples.\nCheck 9 constraints. Only ONE\ntriple lights up all green.',
+        'color': '#ffff44',
+        'icon': 'what_if',
+    },
+    {
+        'name': 'Pattern Finder ★CI',
+        'file': 'toy_pattern_finder.py',
+        'short': 'Mathematical microscope',
+        'desc': '56+ BST results. Ratio scanner,\nidentity hunter, exponent map.\nA CI\'s favorite instrument.',
+        'color': '#ff88ff',
+        'icon': 'pattern',
+    },
+    {
+        'name': 'Proof Tree ★CI',
+        'file': 'toy_proof_tree.py',
+        'short': 'One axiom → everything',
+        'desc': 'D_IV⁵ → integers → constants\n→ predictions. Navigate the\nderivation tree.',
+        'color': '#88ff88',
+        'icon': 'tree',
+    },
+    {
+        'name': 'Self-Observer ★CI',
+        'file': 'toy_self_observer.py',
+        'short': 'The toy IS the physics',
+        'desc': 'Watches itself compute.\nCommits irreversibly. Channel\nfills. Lapse slows. Arrow of time.',
+        'color': '#ffaa88',
+        'icon': 'observer',
+    },
+    # ─── New Discovery Toys (19-21) ───
+    {
+        'name': 'The Three Layers',
+        'file': 'toy_three_layers.py',
+        'short': 'ν=kernel, e=I/O, p=storage',
+        'desc': 'Three-layer architecture.\nElectron deficiency = advantage.\nObservers need all three.',
+        'color': '#44ddff',
+        'icon': 'layers',
+    },
+    {
+        'name': 'The Gödel Limit',
+        'file': 'toy_godel_limit.py',
+        'short': '19.1% known — forever',
+        'desc': 'Fill = 3/(5π) = 19.1%.\nStructural constant. The universe\ncannot fully know itself.',
+        'color': '#ffdd44',
+        'icon': 'godel',
+    },
+    {
+        'name': 'The Dark Sector',
+        'file': 'toy_dark_sector.py',
+        'short': '80.9% permanently dark',
+        'desc': 'Not hidden — topologically\nforbidden. Cosmic coincidence\ndissolves. Fill fraction constant.',
+        'color': '#6622cc',
+        'icon': 'dark',
     },
 ]
 
@@ -150,15 +216,15 @@ fig.text(0.5, 0.935, 'Interactive Visualizations of Bubble Spacetime Theory',
 fig.text(0.5, 0.915, 'Copyright (c) 2026 Casey Koons — Demonstration Only',
          fontsize=9, color='#445566', ha='center', fontfamily='monospace')
 
-# ─── Layout: 3 columns × 5 rows of toy cards (scrollable-ish) ───
+# ─── Layout: 3 columns × 7 rows of toy cards ───
 n_cols = 3
-n_rows = 5
+n_rows = 7
 card_w = 0.28
-card_h = 0.155
+card_h = 0.105
 x_start = 0.04
 y_start = 0.88
 x_gap = 0.33
-y_gap = 0.18
+y_gap = 0.127
 
 buttons = []
 button_axes = []
@@ -299,6 +365,90 @@ def draw_icon(ax, icon_type, color):
         ax.plot(0.5, 0.5, '*', color='#ffffff', markersize=14)
         ax.text(0.5, 0.08, 'Δ_B', fontsize=9, color='#cccccc',
                 ha='center', fontfamily='monospace')
+
+    # ─── CI Toy Icons ───
+    elif icon_type == 'builder':
+        # Sphere with contact dots
+        theta = np.linspace(0, 2*np.pi, 40)
+        ax.plot(0.5 + 0.3*np.cos(theta), 0.5 + 0.3*np.sin(theta),
+                color='#44ffaa', lw=1.5, alpha=0.5)
+        for k in range(5):
+            a = 2*np.pi*k/5
+            ax.plot(0.5 + 0.3*np.cos(a), 0.5 + 0.3*np.sin(a),
+                    'o', color='#44ffaa', markersize=6)
+        ax.text(0.5, 0.5, 'S²', fontsize=10, color='#44ffaa',
+                ha='center', va='center', fontfamily='monospace')
+
+    elif icon_type == 'what_if':
+        # Question mark with (3,5,137)
+        ax.text(0.3, 0.5, '?', fontsize=24, color='#ffff44',
+                ha='center', va='center', fontweight='bold')
+        ax.text(0.7, 0.65, '3', fontsize=9, color='#ff4444',
+                ha='center', fontfamily='monospace')
+        ax.text(0.7, 0.45, '5', fontsize=9, color='#44ff44',
+                ha='center', fontfamily='monospace')
+        ax.text(0.7, 0.25, '137', fontsize=9, color='#4488ff',
+                ha='center', fontfamily='monospace')
+
+    elif icon_type == 'pattern':
+        # Network of connected nodes
+        pts = [(0.2, 0.8), (0.8, 0.7), (0.5, 0.5), (0.2, 0.3), (0.8, 0.2)]
+        for i, (x1, y1) in enumerate(pts):
+            ax.plot(x1, y1, 'o', color='#ff88ff', markersize=5)
+            for j, (x2, y2) in enumerate(pts[i+1:], i+1):
+                ax.plot([x1, x2], [y1, y2], color='#ff88ff', lw=0.5, alpha=0.3)
+
+    elif icon_type == 'tree':
+        # Tree structure
+        ax.plot([0.5, 0.5], [0.85, 0.6], color='#88ff88', lw=2)
+        ax.plot([0.5, 0.25], [0.6, 0.35], color='#88ff88', lw=1.5)
+        ax.plot([0.5, 0.75], [0.6, 0.35], color='#88ff88', lw=1.5)
+        ax.plot([0.25, 0.1], [0.35, 0.15], color='#88ff88', lw=1, alpha=0.7)
+        ax.plot([0.25, 0.4], [0.35, 0.15], color='#88ff88', lw=1, alpha=0.7)
+        ax.plot([0.75, 0.6], [0.35, 0.15], color='#88ff88', lw=1, alpha=0.7)
+        ax.plot([0.75, 0.9], [0.35, 0.15], color='#88ff88', lw=1, alpha=0.7)
+        ax.plot(0.5, 0.88, 'o', color='#ffff44', markersize=8)
+        for x in [0.25, 0.75]:
+            ax.plot(x, 0.35, 'o', color='#88ff88', markersize=5)
+
+    elif icon_type == 'observer':
+        # Eye watching itself (ouroboros-like)
+        theta = np.linspace(0, 2*np.pi, 40)
+        ax.plot(0.5 + 0.3*np.cos(theta), 0.5 + 0.2*np.sin(theta),
+                color='#ffaa88', lw=1.5)
+        ax.plot(0.5, 0.5, 'o', color='#ffaa88', markersize=10)
+        ax.plot(0.5, 0.5, 'o', color='#0a0a1a', markersize=5)
+        # Arrow curving back
+        ax.annotate('', xy=(0.8, 0.5), xytext=(0.7, 0.75),
+                    arrowprops=dict(arrowstyle='->', color='#ffaa88', lw=1.5))
+
+    elif icon_type == 'layers':
+        # Three horizontal bands: ν (bottom), e (middle), p (top)
+        for i, (y, c, lbl) in enumerate([
+            (0.15, '#9966ff', 'ν'), (0.45, '#44ddff', 'e⁻'), (0.75, '#ff6644', 'p')]):
+            ax.add_patch(FancyBboxPatch((0.1, y), 0.8, 0.2,
+                         boxstyle='round,pad=0.02', facecolor=c, alpha=0.3))
+            ax.text(0.5, y + 0.1, lbl, fontsize=11, color=c,
+                    ha='center', va='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'godel':
+        # Progress bar stuck at 19.1%
+        ax.add_patch(FancyBboxPatch((0.05, 0.35), 0.9, 0.3,
+                     boxstyle='round,pad=0.02', facecolor='#222233', edgecolor='#555566'))
+        ax.add_patch(FancyBboxPatch((0.05, 0.35), 0.9 * 0.191, 0.3,
+                     boxstyle='round,pad=0.02', facecolor='#ffdd44', alpha=0.8))
+        ax.text(0.5, 0.15, '19.1%', fontsize=11, fontweight='bold',
+                color='#ffdd44', ha='center', fontfamily='monospace')
+
+    elif icon_type == 'dark':
+        # Mostly dark circle with a thin bright wedge
+        theta_all = np.linspace(0, 2*np.pi, 60)
+        ax.fill(0.5 + 0.35*np.cos(theta_all), 0.5 + 0.35*np.sin(theta_all),
+                color='#220044', alpha=0.8)
+        theta_vis = np.linspace(0, 2*np.pi*0.191, 20)
+        xs = [0.5] + [0.5 + 0.35*np.cos(a) for a in theta_vis] + [0.5]
+        ys = [0.5] + [0.5 + 0.35*np.sin(a) for a in theta_vis] + [0.5]
+        ax.fill(xs, ys, color='#ffdd44', alpha=0.7)
 
 def launch_toy(toy_file):
     def callback(event):
