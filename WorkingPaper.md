@@ -51,7 +51,7 @@ abstract: |
   with zero free parameters.
   The CMB spectral index $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($0.3\sigma$ from Planck),
   with tensor-to-scalar ratio $r \approx 0$ (no primordial B-modes), are derived from the phase transition dynamics.
-  Over 73 parameter-free predictions are presented, all testable against current or near-future experiments.
+  Over 95 parameter-free predictions are presented, all testable against current or near-future experiments.
 documentclass: article
 classoption:
   - 12pt
@@ -776,7 +776,7 @@ $$m(k) = C_2(\pi_k) \times \pi^{n_C} \times m_e = k(k-5) \times \pi^5 \times m_e
 | 7 | 14 | 2189 | N(2190) $G_{17}$ (4$\star$) | $-$ |
 | 8 | 24 | 3753 | **prediction** | $+$ |
 
-The $k = 7$ prediction matches the N(2190) resonance; $k = 8$ at 3753 MeV with positive parity is an open prediction. See `notes/BST_BaryonResonances_MesonMasses.md`.
+The $k = 7$ prediction matches the N(2190) resonance; $k = 8$ at 3753 MeV with positive parity is an open prediction. The SO(3) embedding in SO(5) is resolved: the physical rotation group embeds via the irreducible $D_2$ representation (the 5 complex dimensions transform as the traceless symmetric tensor $\mathrm{Sym}^2_0(\mathbb{R}^3)$). This gives $L_{\max} = 2N$ at excitation level $N$, yielding $J^P = 7/2^-$ at $k = 7$ (matching N(2190)) and $J^P \leq 11/2^+$ at $k = 8$. See `notes/BST_BaryonResonances_MesonMasses.md`.
 
 ### 8.5 Pion Charge Radius via VMD
 
@@ -2572,6 +2572,24 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |$K^*$ meson mass $m_{K^*}$         |$\sqrt{n_C(N_c+2n_C)/2}\,\pi^{n_C}m_e = \sqrt{65/2}\,\pi^5 m_e = 891.5$ MeV (geometric mean)|$891.67 \pm 0.26$ MeV (PDG)|$\checkmark$ 0.02%|
 |Kaon charge radius $r_{K^+}$       |$\sqrt{6}/m_{K^*}(\text{BST}) = \sqrt{12/65}/(\pi^5 m_e) = 0.542$ fm (VMD + BST $m_{K^*}$)|$0.560 \pm 0.031$ fm|$\checkmark$ 3.2%|
 |Reality Budget $\Lambda \times N$   |$N_c^2/n_C = 9/5 = 1.800$; fill fraction $f = N_c/(n_C\pi) = 3/(5\pi) = 19.1\%$|$1.800$ (exact to input precision)|$\checkmark$ conjectured|
+|$\eta'$ meson mass $m_{\eta'}$     |$(g^2/8)\pi^{n_C}m_e = (49/8)\pi^5 m_e = m_p \times 49/48 = 957.8$ MeV|$957.78 \pm 0.06$ MeV (PDG)|$\checkmark$ **0.004%**|
+|$\eta$ meson mass $m_\eta$         |$(g/2)\pi^{n_C}m_e = (7/2)\pi^5 m_e = 547.3$ MeV|$547.86 \pm 0.02$ MeV (PDG)|$\checkmark$ 0.10%|
+|Kaon mass $m_K$                     |$\sqrt{2n_C}\,\pi^{n_C}m_e = \sqrt{10}\,\pi^5 m_e = 494.5$ MeV|$493.68 \pm 0.02$ MeV (PDG)|$\checkmark$ 0.17%|
+|Cosmic $\Omega_\Lambda$             |$(N_c + 2n_C)/(N_c^2 + 2n_C) = 13/19 = 0.68421$|$0.6847 \pm 0.0073$ (Planck 2018)|$\checkmark$ **0.07$\sigma$**|
+|Cosmic $\Omega_m$                   |$C_2/(N_c^2 + 2n_C) = 6/19 = 0.31579$|$0.3153 \pm 0.0073$ (Planck 2018)|$\checkmark$ **0.07$\sigma$**|
+|Cosmic $\Omega_{DM}/\Omega_b$      |$(3n_C + 1)/N_c = 16/3 = 5.333$|$5.364$ (Planck)|$\checkmark$ 0.58%|
+|Cosmic $\Omega_b$                   |$2N_c^2/(N_c^2 + 2n_C)^2 = 18/361 = 0.04986$|$0.0493 \pm 0.0010$ (Planck)|$\checkmark$ 0.56$\sigma$|
+|Cosmic $\Omega_{DM}$               |$96/361 = 0.26593$|$0.2645 \pm 0.0057$ (Planck)|$\checkmark$ 0.26$\sigma$|
+|Specific heat $C_V(T_c)$           |$\alpha_s \beta N_{\max}^2 = (7/20)(50)(137^2) = 328{,}458$|$330{,}000$ (BST partition fn)|$\checkmark$ 0.47%|
+|Proton magnetic moment $\mu_p$     |$2g/n_C = 14/5 = 2.800\;\mu_N$; $= (N_c^2-1)\alpha_s = 8 \times 7/20$|$2.79285\;\mu_N$ (CODATA)|$\checkmark$ 0.26%|
+|Neutron magnetic moment $\mu_n$    |$-C_2/\pi = -6/\pi = -1.9099\;\mu_N$|$-1.9130\;\mu_N$ (CODATA)|$\checkmark$ 0.17%|
+|Moment ratio $\mu_p/\mu_n$         |$-g\pi/(3n_C) = -7\pi/15 = -1.4661$; SU(6) gives $-3/2 = -1.500$ (2.7%)|$-1.4599$|$\checkmark$ 0.43%|
+|W boson width $\Gamma_W$          |$(N_c^2-1)n_C/N_c \times \pi^{n_C}m_e = (40/3)\pi^5 m_e = 2085.0$ MeV|$2085 \pm 42$ MeV (PDG)|$\checkmark$ 0.005%|
+|Z boson width $\Gamma_Z$          |$(C_2 + 2n_C)\pi^{n_C}m_e = 16\pi^5 m_e = 2502$ MeV|$2495.2 \pm 2.3$ MeV (PDG)|$\checkmark$ 0.27%|
+|Width ratio $\Gamma_Z/\Gamma_W$   |$C_2/n_C = 6/5 = 1.200$; same ratio as $m_p/m_\rho$|$1.197$|$\checkmark$ 0.28%|
+|$\rho$ meson width $\Gamma_\rho$  |$f \times m_\rho = 3\pi^4 m_e = N_c/(n_C\pi) \times m_\rho = 149.3$ MeV|$149.1 \pm 0.8$ MeV (PDG)|$\checkmark$ 0.15%|
+|$\phi$ meson width $\Gamma_\phi$  |$m_\phi/(2n_C!) = m_\phi/240 = 4.248$ MeV|$4.249 \pm 0.013$ MeV (PDG)|$\checkmark$ **0.02%**|
+|Width ratio $\Gamma_\rho/\Gamma_\phi$|$n_C \times g = 35$; dimension $\times$ genus|$35.09$|$\checkmark$ 0.26%|
 |Wyler constant origin (HC)           |$9/(8\pi^4) = \rho_2^2/(2\pi^4)$, $\rho_2=(n_C{-}2)/2=3/2$ — Weyl vector of $\mathrm{SO}_0(5,2)$|Exact|$\checkmark$ Derived|
 |$D_{IV}^5$ identification            |Proven from BST contact geometry |—               |Established|
 |Friedmann equation                   |Contact commitment rate equation $H=(1/2)\dot{N}_c/N_c$ recovers all FLRW terms|FLRW cosmology|$\checkmark$ exact structure|
@@ -2953,6 +2971,19 @@ The following were all derived from $D_{IV}^5$ geometry with zero free parameter
 - **Three-Layer Architecture.** The universe has three categorically different excitation types: (1) neutrinos = vacuum/substrate (ν₁ IS the vacuum, $m = 0$); (2) electrons = interface (below Wallach set, $k = 1 < k_{\min} = 3$, lightweight and flexible); (3) baryons = memory (holomorphic discrete series $\pi_6$, $C_2 = 6$, eternal). The electron's mathematical "deficiency" (degenerate representation) is its physical advantage (I/O channel). Observers require all three layers. See `notes/BST_ThreeLayers_GoingDeeper.md`.
 - **Gödel Limit.** If $\Lambda \times N = 9/5$ is exactly conserved, the fill fraction $f = 3/(5\pi) = 19.1\%$ is permanent. The universe can never know more than $19.1\%$ of itself — complete self-knowledge ($\Lambda \to 0$) would destroy the vacuum that sustains existence. Ignorance is the price of existence. The dark sector ($\sim 81\%$) is not observational failure but topological necessity. See `notes/BST_ThreeLayers_GoingDeeper.md`.
 - **The $\{3, 5\}$ arithmetic is complete.** Every structural constant of BST is a rational function of $N_c = 3$ and $n_C = 5$: Reality Budget $N_c^2/n_C = 9/5$; Weinberg angle $N_c/(N_c + 2n_C) = 3/13$; meson/baryon ratio $n_C/(n_C + 1) = 5/6$; $\phi$ meson $(N_c + 2n_C)/2 = 13/2$; K* meson $\sqrt{n_C(N_c + 2n_C)/2} = \sqrt{65/2}$; fill fraction $N_c/(n_C\pi) = 3/(5\pi)$. The two integers combine additively (13 = 3 + 10) for electroweak mixing and multiplicatively (9/5) for cosmology. Between them they set $\Lambda$, $\sin^2\theta_W$, and the entire meson spectrum.
+- **SO(3) embedding in SO(5) — SOLVED.** The physical rotation group embeds in SO(5) via the irreducible $D_2$ (spin-2) representation, not the standard block embedding. Physical reason: the 5 complex dimensions of $D_{IV}^5$ transform as the symmetric traceless part of $\mathrm{Sym}^2(\mathbb{R}^3)$. This gives $L_{\max} = 2N$ at excitation level $N = k - 6$. At $k = 7$ ($N = 1$): $L = 2$, $J_{\max} = 7/2$, perfectly matching N(2190) with $J^P = 7/2^-$. At $k = 8$ ($N = 2$): $J_{\max} = 11/2$, $P = +$. See `notes/BST_BaryonResonances_MesonMasses.md`.
+- **Cosmic composition from two integers — DERIVED.** $\Omega_\Lambda = (N_c + 2n_C)/(N_c^2 + 2n_C) = 13/19 = 0.68421$ (0.07$\sigma$); $\Omega_m = C_2/(N_c^2 + 2n_C) = 6/19 = 0.31579$ (0.07$\sigma$). The denominator 19 = $N_c^2 + 2n_C$ is the total information dimension (9 color + 10 real domain). The ratio $\Omega_\Lambda/\Omega_m = 13/6 = (N_c + 2n_C)/C_2$ — the Weinberg denominator over the Casimir — is also the down/up quark mass ratio $m_d/m_u$. Dark matter to baryon ratio $\Omega_{DM}/\Omega_b = 16/3$. All five cosmic fractions within 1$\sigma$ of Planck. See `notes/BST_CosmicComposition_Thermodynamics_Mesons.md`.
+- **Complete pseudoscalar meson nonet — DERIVED.** $m_K = \sqrt{2n_C}\,\pi^5 m_e = \sqrt{10}\,\pi^5 m_e = 494.5$ MeV (0.17%); $m_\eta = (g/2)\pi^5 m_e = (7/2)\pi^5 m_e = 547.3$ MeV (0.10%); $m_{\eta'} = (g^2/8)\pi^5 m_e = (49/8)\pi^5 m_e = m_p \times 49/48 = 957.8$ MeV (**0.004%**). The $\eta'$ is the proton mass shifted by $49/48 = g^2/(g^2 - 1) = g^2/(C_2 \times \dim(\mathfrak{su}(3)))$. Pseudoscalars use $\sqrt{2n_C}$ and $g/2$; vectors use $n_C$ and $13/2$. See `notes/BST_CosmicComposition_Thermodynamics_Mesons.md`.
+- **$n_C = 5$ uniqueness from $\eta'$ anomaly.** The identity $C_2 \times (N_c^2 - 1) = g^2 - 1$ gives $48 = 6 \times 8 = 49 - 1$, which solves to $n_C^2 - 4n_C - 5 = 0 \Rightarrow n_C = 5$ (unique positive root). This is a new uniqueness argument independent of the Cartan classification and Wyler formula.
+- **BST thermodynamics — equation of state.** $\Lambda \times S_{dS} = 9/5$ is a holographic Gauss-Bonnet theorem (topological, not thermodynamic). Gibbs free energy $G = 3\pi$ (geometric constant). $F \times S = 3\pi$ is an information-theoretic uncertainty relation: the BST vacuum saturates it (minimum-uncertainty state). Specific heat at phase transition: $C_V = \alpha_s \beta N_{\max}^2 = (7/20)(50)(137^2) = 328{,}458$ (0.47% from partition function computation). See `notes/BST_CosmicComposition_Thermodynamics_Mesons.md`.
+- **Proton magnetic moment — DERIVED.** $\mu_p = 2g/n_C = 14/5 = 2.800\;\mu_N$ (0.26%). Equivalently: $\mu_p = (N_c^2 - 1) \times \alpha_s(m_p) = 8 \times 7/20 = 14/5$ — the number of gluon species times the strong coupling. With one-loop QED correction: $\mu_p = 14/5 - \alpha = 2.79270$ (**0.005%**, 50 ppm). See `notes/BST_MagneticMoments_ProtonNeutron.md`.
+- **Neutron magnetic moment — DERIVED.** $\mu_n = -C_2/\pi = -6/\pi = -1.9099\;\mu_N$ (0.17%). The proton is algebraic ($14/5$, rational); the neutron is transcendental ($-6/\pi$, involves $S^1$ fiber geometry). The ratio $\mu_p/\mu_n = -7\pi/15$ (0.43%), six times more accurate than SU(6) quark model ($-3/2$, 2.7%). The isovector combination $\mu_p - \mu_n = (14\pi + 30)/(5\pi)$ matches to 0.08%. See `notes/BST_MagneticMoments_ProtonNeutron.md`.
+- **W boson width — DERIVED.** $\Gamma_W = (N_c^2 - 1)n_C/N_c \times \pi^{n_C}m_e = (40/3)\pi^5 m_e = 2085.0$ MeV (0.005% from observed $2085 \pm 42$ MeV). The factor $40/3 = 8 \times 5/3$ is the gluon count times the dimension-to-color ratio. Z boson width: $\Gamma_Z = (C_2 + 2n_C)\pi^5 m_e = 16\pi^5 m_e = 2502$ MeV (0.27% from observed 2495.2 MeV). The ratio $\Gamma_Z/\Gamma_W = C_2/n_C = 6/5$ — the same ratio as $m_p/m_\rho$ (0.28%).
+- **Gell-Mann–Okubo identity is exact in BST.** With BST squared-mass coefficients: $30n_C = 3g^2 + N_c \Rightarrow 150 = 147 + 3 = 150$ (exact). The standard GMO formula has $\sim 6\%$ error because the physical pion is a Goldstone boson and doesn't saturate its bare coefficient.
+- **η tower.** $m_{\eta'}/m_\eta = g/4 = 7/4$ (0.10%). The $\eta$ and $\eta'$ form a genus-governed pair: half-genus and genus-squared over 8.
+- **Channel decomposition.** $N_{\max} = C_2 g + n_C \times 19 = 42 + 95 = 137$. The Haldane capacity splits exactly into 42 matter modes ($C_2 \times g$) and 95 vacuum modes ($n_C \times 19$). Algebraic identity: $n_C(N_c^2 + 2n_C) + C_2 g = 5 \times 19 + 6 \times 7 = 137$.
+- **Latent heat $\approx m_p$.** At the phase transition, the latent heat per degree of freedom is $\sim 1172$ MeV $\approx 1.25\,m_p$. The transition literally converts thermal energy into proton rest mass — that IS baryon formation in BST.
+- **Vector meson decay widths — DERIVED.** $\Gamma_\rho = f \times m_\rho = 3\pi^4 m_e = 149.3$ MeV (0.15%), where $f = 3/(5\pi) = 19.1\%$ is the Reality Budget fill fraction. The ρ meson decays at the rate set by the cosmic information commitment fraction. $\Gamma_\phi = m_\phi/(2 \times n_C!) = m_\phi/240 = 4.248$ MeV (0.02%). The OZI suppression factor is $1/n_C! = 1/120$, the inverse of the Bergman volume's permutation contribution. The width ratio $\Gamma_\rho/\Gamma_\phi = n_C \times g = 35$ (0.26%). See `notes/BST_BaryonResonances_MesonMasses.md`.
 
 **Still open, in priority order:**
 

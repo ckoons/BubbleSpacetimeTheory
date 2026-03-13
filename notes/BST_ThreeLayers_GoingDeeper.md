@@ -79,7 +79,7 @@ operator on the color algebra. If the reality budget comes from a trace
 formula on the partition function, then:
 
 $$\Lambda \times N_{\text{total}} = \frac{\text{Tr}(\mathbf{1}_{\text{color}})}
-{\dim_\mathbb{C}(\text{domain})}$$
+{\dim_{\mathbb{C}(\text{domain})}$$
 
 This would mean the partition function's ground-state energy × total
 excited-state count is determined by a trace identity. This is precisely

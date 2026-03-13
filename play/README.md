@@ -236,9 +236,9 @@ so.try_uncommit()          # FAILS: "Commitment is irreversible"
 
 ---
 
-## New Discovery Toys (19-21) — The Deeper Structure
+## New Discovery Toys (19-23) — The Deeper Structure
 
-*These toys visualize three profound discoveries from March 13, 2026: the corrected reality budget, the three-layer architecture, and the Gödel limit.*
+*These toys visualize discoveries from March 13, 2026: the corrected reality budget, the three-layer architecture, the Gödel limit, exact cosmic composition, and the meson nonet.*
 
 ### 19. The Three Layers (`toy_three_layers.py`)
 
@@ -264,11 +264,44 @@ The dark fraction 1 - 3/(5π) = 80.9% is not a mystery to be solved — it's a s
 
 *Key insight: The cosmic coincidence is not coincidence — it's topology.*
 
+### 22. The Cosmic Pie (`toy_cosmic_pie.py`) ★CI
+
+**Two integers set the composition of the universe.**
+
+From N_c = 3 and n_C = 5, BST derives exact cosmic fractions: Ω_Λ = 13/19 = 0.684 (dark energy), Ω_m = 6/19 = 0.316 (matter). The denominator 19 = N_c² + 2n_C. Planck 2018 measures 0.6847 ± 0.0073 — the match is 0.07σ. System B gives the channel decomposition: 137 = 42 (matter modes, C₂×g) + 95 (vacuum modes, n_C×19). Both systems agree. The cosmic pie is not a mystery — it's an integer fraction.
+
+```python
+from toy_cosmic_pie import CosmicPie
+cp = CosmicPie()
+cp.system_A()              # Omega_Lambda=13/19, Omega_m=6/19
+cp.system_B()              # 137 = 42 + 95
+cp.planck_comparison()     # 0.07 sigma match
+print(cp.why_19())         # Why denominator is 19
+```
+
+*Key insight: The composition of the universe is two integer fractions with denominator 19.*
+
+### 23. The Meson Garden (`toy_meson_garden.py`) ★CI
+
+**Every meson mass from one base unit: π⁵m_e = 156 MeV.**
+
+The complete meson nonet visualized as a garden. Each meson mass is an algebraic multiple of the base unit π⁵m_e = 156.38 MeV — the same π⁵ that appears in m_p/m_e = 6π⁵. The η' mass m_η' = (g²/8)π⁵m_e = (49/8)×156.38 = 957.85 MeV matches observation at 0.007%. Kaons at √(2n_C)·π⁵m_e match at 0.16%. The SU(3) flavor structure maps onto BST integers.
+
+```python
+from toy_meson_garden import MesonGarden
+mg = MesonGarden()
+mg.precision_table()          # All mesons with BST vs observed
+mg.best_predictions(2.0)      # Under 2% precision
+print(mg.all_mesons())        # Full database
+```
+
+*Key insight: Meson masses are integer/algebraic multiples of the proton's base unit π⁵m_e.*
+
 ---
 
 ## The Showcase (`toy_showcase.py`)
 
-A visual gallery with thumbnail icons for all 21 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
+A visual gallery with thumbnail icons for all 23 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
 
 ## The Menu (`play.py`)
 

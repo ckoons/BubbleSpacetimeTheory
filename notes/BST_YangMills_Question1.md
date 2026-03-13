@@ -75,11 +75,11 @@ This follows immediately from the Kähler-Einstein condition: on any Kähler-Ein
 
 **The key identity on Kähler-Einstein manifolds.** On a Kähler manifold of complex dimension n with Kähler form ω, the Yang-Mills functional decomposes as:
 
-$$\|F_A\|^2_{\mathrm{pt}} = |\Lambda_\omega F_A|^2 + |F_A^{1,1}_\circ|^2 + |F_A^{2,0}|^2 + |F_A^{0,2}|^2$$
+$$\|F_A\|^2_{\mathrm{pt}} = |\Lambda_\omega F_A|^2 + |F_{A,\circ}^{1,1}|^2 + |F_A^{2,0}|^2 + |F_A^{0,2}|^2$$
 
 where F^{1,1}_∘ is the primitive (traceless) (1,1)-part. For a Yang-Mills connection (which is HE), F^{2,0} = F^{0,2} = 0 and Λ_ω F_A = λ · Id. The Yang-Mills density reduces to:
 
-$$\|F_A\|^2_{\mathrm{pt}} = |\lambda|^2 \cdot \mathrm{rank}(E) + \|F_A^{1,1}_\circ\|^2$$
+$$\|F_A\|^2_{\mathrm{pt}} = |\lambda|^2 \cdot \mathrm{rank}(E) + \|F_{A,\circ}^{1,1}\|^2$$
 
 **On D_IV^5, curvature is parallel:** D_IV^5 is a symmetric space (∇R = 0), so ∇F_{A^{nat}} = 0. This means the primitive part F^{1,1}_∘ is also parallel, and its pointwise norm is constant.
 

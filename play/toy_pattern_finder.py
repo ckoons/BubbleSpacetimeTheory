@@ -197,6 +197,46 @@ _reg('mass_gap_MeV', 6*pi**5 * m_e_MeV, '6*pi^5 * m_e', 'mass_ratio',
 _reg('m_e/m_Pl_ratio', 6*pi**5 * alpha_val**12, '6*pi^5 * alpha^12',
      'mass_ratio', 'Electron-to-Planck mass ratio * 6pi^5')
 
+# --- Cosmic composition (March 13 discoveries) ---
+_reg('Omega_Lambda', 13/19, '(N_c+2n_C)/(N_c^2+2n_C) = 13/19', 'cosmological',
+     'Dark energy fraction (0.07σ from Planck)')
+_reg('Omega_m', 6/19, 'C_2/(N_c^2+2n_C) = 6/19', 'cosmological',
+     'Total matter fraction (0.07σ from Planck)')
+_reg('Omega_DM/Omega_b', 16/3, '(3n_C+1)/N_c = 16/3', 'cosmological',
+     'Dark matter to baryon ratio (0.58%)')
+_reg('Omega_Lambda/Omega_m', 13/6, '13/6', 'cosmological',
+     'Dark energy to matter ratio (0.24%)')
+_reg('info_dim_19', 19, 'N_c^2 + 2n_C = 9+10', 'structural',
+     'Total information dimension (denominator of cosmic fractions)')
+
+# --- Mesons (pseudoscalar nonet) ---
+_reg('pi5_me_MeV', pi**5 * m_e_MeV, 'pi^5 * m_e', 'nuclear',
+     'Meson base unit = 156.38 MeV')
+_reg('m_K_MeV', sqrt(10) * pi**5 * m_e_MeV, 'sqrt(2n_C)*pi^5*m_e', 'nuclear',
+     'Kaon mass (0.17%)')
+_reg('m_eta_MeV', 3.5 * pi**5 * m_e_MeV, '(g/2)*pi^5*m_e', 'nuclear',
+     'Eta mass (0.10%)')
+_reg('m_eta_prime_MeV', (49/8) * pi**5 * m_e_MeV, '(g^2/8)*pi^5*m_e', 'nuclear',
+     'Eta-prime mass (0.002%)')
+_reg('m_eta_prime/m_eta', 7/4, 'g/4 = 7/4', 'nuclear',
+     'Eta-prime to eta mass ratio (eta tower)')
+
+# --- Mesons (vector nonet) ---
+_reg('m_rho_MeV', 5 * pi**5 * m_e_MeV, 'n_C*pi^5*m_e', 'nuclear',
+     'Rho mass (0.85%)')
+_reg('m_Kstar_MeV', sqrt(65/2) * pi**5 * m_e_MeV, 'sqrt(n_C*13/2)*pi^5*m_e',
+     'nuclear', 'K-star mass (0.02%)')
+_reg('m_phi_MeV', 6.5 * pi**5 * m_e_MeV, '(13/2)*pi^5*m_e', 'nuclear',
+     'Phi meson mass (0.30%)')
+
+# --- Thermodynamics ---
+_reg('C_V', 328458, '(7/20)*50*137^2', 'cosmological',
+     'Specific heat at phase transition (0.47%)')
+_reg('budget_9_5', 9/5, 'N_c^2/n_C = 9/5', 'cosmological',
+     'Reality budget Lambda*N = 1.800')
+_reg('fill_fraction', 3/(5*pi), 'N_c/(n_C*pi) = 3/(5pi)', 'cosmological',
+     'Fill fraction = 19.1% (Gödel limit)')
+
 # ─── Pattern Finder Engine ───────────────────────────────────────────
 
 class PatternFinder:

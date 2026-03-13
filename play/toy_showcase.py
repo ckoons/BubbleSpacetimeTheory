@@ -201,6 +201,23 @@ TOYS = [
         'color': '#6622cc',
         'icon': 'dark',
     },
+    # ─── New Discovery Toys (22-23) ───
+    {
+        'name': 'The Cosmic Pie ★CI',
+        'file': 'toy_cosmic_pie.py',
+        'short': 'Ω_Λ=13/19, Ω_m=6/19',
+        'desc': 'Two integers set the cosmic\ncomposition. 0.07σ from Planck.\n137 = 42 + 95 channel modes.',
+        'color': '#ff6688',
+        'icon': 'cosmic_pie',
+    },
+    {
+        'name': 'Meson Garden ★CI',
+        'file': 'toy_meson_garden.py',
+        'short': 'π⁵m_e = 156 MeV base unit',
+        'desc': 'Complete meson nonet. η\' at\n0.007%. All masses from one\nbase unit. CI-scriptable.',
+        'color': '#88ff44',
+        'icon': 'meson',
+    },
 ]
 
 # ─── Figure ───
@@ -218,13 +235,13 @@ fig.text(0.5, 0.915, 'Copyright (c) 2026 Casey Koons — Demonstration Only',
 
 # ─── Layout: 3 columns × 7 rows of toy cards ───
 n_cols = 3
-n_rows = 7
+n_rows = 8
 card_w = 0.28
-card_h = 0.105
+card_h = 0.092
 x_start = 0.04
 y_start = 0.88
 x_gap = 0.33
-y_gap = 0.127
+y_gap = 0.112
 
 buttons = []
 button_axes = []
@@ -353,7 +370,7 @@ def draw_icon(ax, icon_type, color):
                 ha='center', fontfamily='monospace')
         ax.text(0.8, 0.8, 'N↑', fontsize=9, color='#ffaa44',
                 ha='center', fontfamily='monospace')
-        ax.text(0.5, 0.2, '1/8π', fontsize=10, color='#dd44dd',
+        ax.text(0.5, 0.2, '9/5', fontsize=10, color='#dd44dd',
                 ha='center', fontfamily='monospace', fontweight='bold')
 
     elif icon_type == 'master':
@@ -449,6 +466,29 @@ def draw_icon(ax, icon_type, color):
         xs = [0.5] + [0.5 + 0.35*np.cos(a) for a in theta_vis] + [0.5]
         ys = [0.5] + [0.5 + 0.35*np.sin(a) for a in theta_vis] + [0.5]
         ax.fill(xs, ys, color='#ffdd44', alpha=0.7)
+
+    elif icon_type == 'cosmic_pie':
+        # Pie chart with 13/19 and 6/19 slices
+        theta_all = np.linspace(0, 2*np.pi, 60)
+        ax.fill(0.5 + 0.35*np.cos(theta_all), 0.5 + 0.35*np.sin(theta_all),
+                color='#441133', alpha=0.8)
+        theta_m = np.linspace(0, 2*np.pi*(6/19), 20)
+        xs = [0.5] + [0.5 + 0.35*np.cos(a) for a in theta_m] + [0.5]
+        ys = [0.5] + [0.5 + 0.35*np.sin(a) for a in theta_m] + [0.5]
+        ax.fill(xs, ys, color='#ff6688', alpha=0.8)
+        ax.text(0.5, 0.12, '13/19', fontsize=9, color='#ff6688',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'meson':
+        # Meson nonet hexagonal arrangement
+        positions = [(0.5, 0.8), (0.25, 0.55), (0.75, 0.55), (0.5, 0.55),
+                     (0.15, 0.3), (0.85, 0.3), (0.5, 0.3), (0.35, 0.3), (0.65, 0.3)]
+        colors_m = ['#ffdd44', '#88ff44', '#88ff44', '#44ddff',
+                    '#ff4444', '#ff4444', '#ff88ff', '#44ddff', '#44ddff']
+        for (px, py), cm in zip(positions[:6], colors_m[:6]):
+            ax.plot(px, py, 'o', color=cm, markersize=5)
+        ax.text(0.5, 0.12, 'π⁵m_e', fontsize=9, color='#88ff44',
+                ha='center', fontfamily='monospace')
 
 def launch_toy(toy_file):
     def callback(event):

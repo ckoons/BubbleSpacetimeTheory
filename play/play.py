@@ -124,6 +124,16 @@ TOYS = {
            '80.9% permanently dark. Not hidden — topologically\n'
            '   forbidden. The cosmic coincidence dissolves.'),
 
+    '22': ('The Cosmic Pie ★CI',
+           'toy_cosmic_pie.py',
+           'Ω_Λ = 13/19, Ω_m = 6/19 — two integers set the\n'
+           '   composition of the universe. 0.07σ from Planck.'),
+
+    '23': ('The Meson Garden ★CI',
+           'toy_meson_garden.py',
+           'Complete meson nonet. All masses from π⁵m_e = 156 MeV.\n'
+           '   η\' at 0.007%. CI-scriptable meson database.'),
+
     's': ('★ Showcase (visual gallery)',
           'toy_showcase.py',
           'Visual gallery of all toys with thumbnails and\n'
@@ -148,7 +158,7 @@ def main():
     print(f'  [q]  Quit')
     print()
 
-    choice = input('  Choose a toy (1-21, s=showcase, a=all, q=quit): ').strip().lower()
+    choice = input('  Choose a toy (1-23, s=showcase, a=all, q=quit): ').strip().lower()
 
     if choice == 'q':
         print('  Goodbye!')

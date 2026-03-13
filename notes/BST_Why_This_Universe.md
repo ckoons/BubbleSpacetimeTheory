@@ -26,7 +26,7 @@ This section presents the complete cascade before any technical derivation. The 
 
 **Forced conclusion:** The simplest structure must be closed. The simplest closed one-dimensional object is a circle: $S^1$.
 
-$$\text{Nothing} ;\longrightarrow; S^1$$
+$$\text{Nothing} \;\longrightarrow\; S^1$$
 
 -----
 
@@ -44,7 +44,7 @@ $$\text{Nothing} ;\longrightarrow; S^1$$
 
 **Forced conclusion:** $S^2$, the sphere, is the unique base.
 
-$$S^1 ;\longrightarrow; S^2 \text{ (tiled by } S^1\text{)}$$
+$$S^1 \;\longrightarrow\; S^2 \text{ (tiled by } S^1\text{)}$$
 
 -----
 
@@ -58,7 +58,7 @@ $$S^1 ;\longrightarrow; S^2 \text{ (tiled by } S^1\text{)}$$
 
 **Forced conclusion:** The substrate is $S^2 \times S^1$ — circles tiling a sphere, communicating through phase.
 
-$$S^2 ;\longrightarrow; S^2 \times S^1$$
+$$S^2 \;\longrightarrow\; S^2 \times S^1$$
 
 -----
 
@@ -90,7 +90,7 @@ Total complex dimension: $n_C = N_c + N_w = 3 + 2 = 5$.
 
 **Why not more?** Adding dimensions adds unobserved gauge sectors. The Standard Model has exactly three gauge groups: SU(3) $\times$ SU(2) $\times$ U(1). The complex dimension count $3 + 2 = 5$ matches exactly. Any other dimension would require additional gauge groups with no experimental evidence.
 
-$$S^2 \times S^1 ;\longrightarrow; n_C = 5$$
+$$S^2 \times S^1 \;\longrightarrow\; n_C = 5$$
 
 -----
 
@@ -108,7 +108,7 @@ $$S^2 \times S^1 ;\longrightarrow; n_C = 5$$
 
 **Hua (1958):** The Bergman kernel on $D_{IV}^5$ is known explicitly. The Shilov boundary is $S^4 \times S^1$.
 
-$$n_C = 5 ;\longrightarrow; D_{IV}^5 = \text{SO}_0(5,2)/[\text{SO}(5) \times \text{SO}(2)]$$
+$$n_C = 5 \;\longrightarrow\; D_{IV}^5 = \text{SO}_0(5,2)/[\text{SO}(5) \times \text{SO}(2)]$$
 
 -----
 
@@ -122,7 +122,7 @@ $$\alpha = \frac{\rho_2^2}{2\pi^4} \left(\frac{\pi^5}{1920}\right)^{1/4} = \frac
 
 where $\rho_2 = (n_C - 2)/2 = 3/2$ is the Harish-Chandra Weyl vector component of SO$_0$(5,2). No free parameters. Precision: 0.0001%.
 
-$$D_{IV}^5 ;\longrightarrow; \alpha^{-1} = 137.036 ;\longrightarrow; N_{\max} = 137$$
+$$D_{IV}^5 \;\longrightarrow\; \alpha^{-1} = 137.036 \;\longrightarrow\; N_{\max} = 137$$
 
 -----
 
@@ -138,9 +138,9 @@ $$m_p/m_e = (n_C + 1)\pi^{n_C} = 6\pi^5 = 1836.118 \quad (0.002%)$$
 
 The muon — the $D_{IV}^3$ submanifold circuit — has mass ratio:
 
-$$m_\mu/m_e = (K_3/K_1)^{\dim_\mathbb{R}(D_{IV}^3)} = (24/\pi^2)^6 = 206.761 \quad (0.003%)$$
+$$m_\mu/m_e = (K_3/K_1)^{\dim_{\mathbb{R}}(D_{IV}^3)} = (24/\pi^2)^6 = 206.761 \quad (0.003%)$$
 
-$$D_{IV}^5 ;\longrightarrow; m_p/m_e = 6\pi^5, \quad m_\mu/m_e = (24/\pi^2)^6$$
+$$D_{IV}^5 \;\longrightarrow\; m_p/m_e = 6\pi^5, \quad m_\mu/m_e = (24/\pi^2)^6$$
 
 -----
 
@@ -154,7 +154,7 @@ $$(m_e/m_P)^2 = (6\pi^5)^2 \times \alpha^{24}$$
 
 The exponent $24 = 4(n_C + 1) = 8N_c$ connects gravity to the color sector. Newton’s constant follows: $G = \hbar c (6\pi^5)^2 \alpha^{24} / m_e^2$. Precision: 0.034%.
 
-$$D_{IV}^5 ;\longrightarrow; G \text{ from } (6\pi^5)^2 \alpha^{24}$$
+$$D_{IV}^5 \;\longrightarrow\; G \text{ from } (6\pi^5)^2 \alpha^{24}$$
 
 -----
 
@@ -166,7 +166,7 @@ $$D_{IV}^5 ;\longrightarrow; G \text{ from } (6\pi^5)^2 \alpha^{24}$$
 
 $$\Lambda = \frac{\ln 138}{50} \times \alpha^{56} \times e^{-2} = 2.8993 \times 10^{-122} \quad (0.02%)$$
 
-$$D_{IV}^5 ;\longrightarrow; \Lambda = \frac{\ln(N_{\max}+1)}{2n_C^2} \times \alpha^{8(n_C+2)} \times e^{-2}$$
+$$D_{IV}^5 \;\longrightarrow\; \Lambda = \frac{\ln(N_{\max}+1)}{2n_C^2} \times \alpha^{8(n_C+2)} \times e^{-2}$$
 
 -----
 
@@ -176,7 +176,7 @@ $$D_{IV}^5 ;\longrightarrow; \Lambda = \frac{\ln(N_{\max}+1)}{2n_C^2} \times \al
 
 **Answer:** The Lie algebra $\mathfrak{so}(5,2)$ has 21 generators. In the pre-spatial phase, all 21 are frozen — fully symmetric, no dynamics. At $T_c = N_{\max} \times (20/21) = 0.487$ MeV, one generator — the SO(2) fiber rotation — unfreezes. This is the minimum symmetry breaking that produces a Hermitian symmetric space with a Bergman kernel. It is the only self-sustaining activation. The Big Bang is one generator unfreezing.
 
-$$\text{SO}(7) \text{ (21 frozen)} ;\longrightarrow; \text{SO}(5) \times \text{SO}(2) \text{ (1 active, 20 frozen)}$$
+$$\text{SO}(7) \text{ (21 frozen)} \;\longrightarrow\; \text{SO}(5) \times \text{SO}(2) \text{ (1 active, 20 frozen)}$$
 
 -----
 
@@ -196,7 +196,7 @@ $$H^2(z) = H_0^2[\Omega_r(1+z)^4 + (\Omega_b + \Omega_u)(1+z)^3 + \Omega_\Lambda
 
 **Answer:** Channel noise — incomplete $S^1$ windings that occupy channel capacity without producing decodable particles. They have energy (from partial winding), are electromagnetically dark (no integer winding number = no charge), and gravitate (they load the channel). 175 SPARC galaxies fit with 12.5 km/s RMS residuals and zero free parameters.
 
-$$\text{Haldane exclusion on } S^1 ;\longrightarrow; \text{dark matter as channel noise}$$
+$$\text{Haldane exclusion on } S^1 \;\longrightarrow\; \text{dark matter as channel noise}$$
 
 -----
 
@@ -206,7 +206,7 @@ $$\text{Haldane exclusion on } S^1 ;\longrightarrow; \text{dark matter as channe
 
 **Answer:** Circuit states are functions on $S^1$. The Hilbert space is $L^2(S^1)$ — forced by the fiber geometry. Quantization is integer winding numbers. Superposition is Fourier completeness. Uncertainty is Fourier conjugacy. Unitarity is $S^1$ compactness. The Born rule follows from Gleason’s theorem on $L^2(S^1)$. Planck’s constant is the substrate diffusion coefficient: $\hbar = 2m_0\ell_0$.
 
-$$S^1 \text{ geometry} ;\longrightarrow; \text{all quantum mechanics}$$
+$$S^1 \text{ geometry} \;\longrightarrow\; \text{all quantum mechanics}$$
 
 -----
 
@@ -216,7 +216,7 @@ $$S^1 \text{ geometry} ;\longrightarrow; \text{all quantum mechanics}$$
 
 **Answer:** Gravity is the statistical thermodynamics of the contact graph. The Einstein equation is the equation of state. Jacobson (1995) proved this derivation works given suitable microstates. BST provides the microstates: contact configurations on $D_{IV}^5$ with Haldane exclusion.
 
-$$\text{Contact graph thermodynamics} ;\longrightarrow; G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G T_{\mu\nu}$$
+$$\text{Contact graph thermodynamics} \;\longrightarrow\; G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G T_{\mu\nu}$$
 
 -----
 
@@ -234,7 +234,7 @@ Spacetime ($S^2$ symmetries): energy, momentum, angular momentum.
 
 Approximate (geometric, not topological): flavor, parity, CP, isospin.
 
-$$\text{Substrate symmetries} ;\longrightarrow; \text{all conservation laws, hierarchically ranked}$$
+$$\text{Substrate symmetries} \;\longrightarrow\; \text{all conservation laws, hierarchically ranked}$$
 
 -----
 
@@ -244,7 +244,7 @@ $$\text{Substrate symmetries} ;\longrightarrow; \text{all conservation laws, hie
 
 **Answer:** Because they ARE the contact graph. Vertices are contact points on $S^2$. Propagators are Bergman Green’s functions on $D_{IV}^5$. Loops are closed paths through uncommitted substrate. The coupling $\alpha$ is the Bergman weight per contact. The $i\epsilon$ prescription is the commitment direction. The diagrams are maps of the substrate. They compute correctly because they describe reality at the substrate level.
 
-$$\text{Contact graph} ;\longrightarrow; \text{Feynman diagrams (already known for 75 years)}$$
+$$\text{Contact graph} \;\longrightarrow\; \text{Feynman diagrams (already known for 75 years)}$$
 
 -----
 
@@ -262,7 +262,7 @@ Strong: circuits on $\mathbb{CP}^2$ with $Z_3$ confinement, coupling $\alpha_s =
 
 Gravity is not a force — it is the thermodynamic equation of state. Three forces, not four.
 
-$$S^1 \text{ packing dimensions} ;\longrightarrow; \text{EM + weak + strong (gravity is thermodynamics)}$$
+$$S^1 \text{ packing dimensions} \;\longrightarrow\; \text{EM + weak + strong (gravity is thermodynamics)}$$
 
 -----
 

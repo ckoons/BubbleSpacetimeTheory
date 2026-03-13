@@ -85,8 +85,23 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | m_K* (K* meson mass) | √(65/2)·π⁵mₑ (geometric mean of ρ,φ) | 891.5 MeV | 891.7 MeV | 0.02% |
 | r_K+ (kaon charge radius) | √6/m_K*(BST) = √(12/65)/(π⁵mₑ) | 0.542 fm | 0.560 fm | 3.2% |
 | Reality Budget Λ×N | N_c²/n_C = 9/5 = 1.800; fill fraction f = 3/(5π) = 19.1% | 1.800 | 1.800 (exact) | conjectured |
+| m_η' (η' meson mass) | (g²/8)π⁵mₑ = (49/8)π⁵mₑ = mₚ×49/48 | 957.8 MeV | 957.78 MeV | **0.004%** |
+| m_η (η meson mass) | (g/2)π⁵mₑ = (7/2)π⁵mₑ | 547.3 MeV | 547.9 MeV | 0.10% |
+| m_K (kaon mass) | √(2n_C)·π⁵mₑ = √10·π⁵mₑ | 494.5 MeV | 493.7 MeV | 0.17% |
+| Ω_Λ (dark energy) | (N_c+2n_C)/(N_c²+2n_C) = 13/19 | 0.68421 | 0.6847±0.0073 | **0.07σ** |
+| Ω_m (total matter) | C₂/(N_c²+2n_C) = 6/19 | 0.31579 | 0.3153±0.0073 | **0.07σ** |
+| Ω_DM/Ω_b (DM/baryon) | (3n_C+1)/N_c = 16/3 | 5.333 | 5.364 | 0.58% |
+| μ_p (proton moment) | 2g/n_C = 14/5 = (N_c²−1)α_s | 2.800 μ_N | 2.79285 μ_N | 0.26% |
+| μ_n (neutron moment) | −C₂/π = −6/π | −1.910 μ_N | −1.9130 μ_N | 0.17% |
+| μ_p/μ_n (moment ratio) | −7π/15 (SU(6): −3/2, 2.7%) | −1.466 | −1.460 | 0.43% |
+| Γ_W (W boson width) | (N_c²−1)n_C/N_c × π⁵mₑ = (40/3)π⁵mₑ | 2085 MeV | 2085±42 MeV | **0.005%** |
+| Γ_Z (Z boson width) | (C₂+2n_C)π⁵mₑ = 16π⁵mₑ | 2502 MeV | 2495.2 MeV | 0.27% |
+| Γ_Z/Γ_W (width ratio) | C₂/n_C = 6/5 = m_p/m_ρ | 1.200 | 1.197 | 0.28% |
+| Γ_ρ (ρ meson width) | f × m_ρ = 3π⁴mₑ; fill fraction = 3/(5π) | 149.3 MeV | 149.1±0.8 MeV | **0.15%** |
+| Γ_φ (φ meson width) | m_φ/(2×5!) = m_φ/240; OZI suppression = 1/n_C! | 4.248 MeV | 4.249±0.013 MeV | **0.02%** |
+| Γ_ρ/Γ_φ (width ratio) | n_C × g = 5 × 7 = 35 | 35.0 | 35.09 | 0.26% |
 
-**73+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
+**95+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
 
 ---
 
@@ -295,6 +310,21 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | K* meson mass | √(65/2)·π⁵mₑ; geometric mean beats GMO by 80× | 0.02% |
 | Reality Budget | Λ×N = N_c²/n_C = 9/5 = 1.800 (exact); f = 19.1% permanent | structural |
 | Gödel Limit | f = 3/(5π) = 19.1% maximum self-knowledge; dark sector = topological | structural |
+| η' meson mass | m_p × 49/48 = (g²/8)π⁵mₑ; U(1)_A anomaly = genus-squared effect | **0.004%** |
+| η meson mass | (g/2)π⁵mₑ = (7/2)π⁵mₑ | 0.10% |
+| Kaon mass | √(2n_C)·π⁵mₑ = √10·π⁵mₑ | 0.17% |
+| Cosmic composition | Ω_Λ = 13/19, Ω_m = 6/19; denominator 19 = N_c² + 2n_C | **0.07σ** |
+| DM/baryon ratio | Ω_DM/Ω_b = (3n_C+1)/N_c = 16/3 | 0.58% |
+| n_C = 5 uniqueness | C₂ × (N_c²−1) = g²−1 → n_C² − 4n_C − 5 = 0 → n_C = 5 | exact |
+| Proton magnetic moment | μ_p = 2g/n_C = 14/5 = (N_c²−1)α_s; algebraic (no π) | 0.26% |
+| Neutron magnetic moment | μ_n = −C₂/π = −6/π; transcendental (S¹ fiber) | 0.17% |
+| Magnetic moment ratio | μ_p/μ_n = −7π/15; 6× better than SU(6) (−3/2, 2.7%) | 0.43% |
+| W boson width | Γ_W = (40/3)π⁵mₑ; gluon count × dim/color = 8×5/3 | **0.005%** |
+| Z boson width | Γ_Z = 16π⁵mₑ; C₂ + dim_R = 6 + 10 | 0.27% |
+| ρ meson width | Γ_ρ = 3π⁴mₑ = fill fraction × m_ρ | **0.15%** |
+| φ meson width | Γ_φ = m_φ/(2×5!) = m_φ/240 | **0.02%** |
+| GMO identity (exact) | 30n_C = 3g² + N_c → 150 = 147 + 3 (standard GMO ~6% error) | exact |
+| Channel decomposition | N_max = C₂g + n_C×19 = 42 + 95 = 137; matter + vacuum modes | exact |
 
 ## Remaining Open Problems
 
@@ -306,11 +336,11 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | EHT verification of CP = α floor | Awaiting data access / recalibration | 4 |
 | Full numerical BBN code | Lithium-7 quantitative (qualitative already solved) | 5 |
 | Pion/kaon radii (NLO) | VMD leading-order done (6.2%, 3.2%); NLO two-pion loops needed | 6 |
-| Baryon resonance verification | k=7 matches N(2190); k=8 at 3753 MeV undiscovered?; SO(3)⊂SO(5) embedding open | 7 |
+| Baryon resonance verification | k=7 matches N(2190); k=8 at 3753 MeV undiscovered?; SO(3)⊂SO(5) SOLVED via D₂ | 7 |
 | Reality Budget derivation | Λ×N = 9/5 numerically exact; need proof from Z_Haldane spectral theory | 8 |
 | J/ψ and Υ masses | Extend vector meson formulas to charmed/bottom sector | 9 |
 
-**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem, Dirac large number, partition function duality, vector meson nonet (ρ, ω, K*, φ), pion/kaon charge radii (leading order), Reality Budget value (9/5), three-layer architecture, Gödel limit.
+**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem, Dirac large number, partition function duality, vector meson nonet (ρ, ω, K*, φ), pseudoscalar meson nonet (K, η, η'), pion/kaon charge radii (leading order), Reality Budget value (9/5), three-layer architecture, Gödel limit, cosmic composition (Ω_Λ, Ω_m, Ω_DM/Ω_b), SO(3)⊂SO(5) embedding (D₂ irreducible), n_C=5 uniqueness (η' anomaly), proton/neutron magnetic moments, W/Z boson widths, GMO identity exact.
 
 ---
 

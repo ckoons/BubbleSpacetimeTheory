@@ -19,7 +19,7 @@ $$\boxed{\Lambda \times N_{\text{total}} = \frac{N_c^2}{n_C} = \frac{9}{5} = 1.8
 
 The product of the cosmological constant (in Planck units) and the total
 number of committed correlations in the observable universe equals the
-ratio of the full color algebra dimension ($N_c^2 = 9 = \dim_\mathbb{C}
+ratio of the full color algebra dimension ($N_c^2 = 9 = \dim_{\mathbb{C}}
 M_{N_c}(\mathbb{C})$) to the complex dimension of the domain ($n_C = 5$).
 
 **Physical meaning**: The universe has a fixed *reality budget*. Vacuum
@@ -68,7 +68,7 @@ $$\boxed{= 1.800}$$
 | $C_2/\pi = 6/\pi$ | 1.910 | 6.1% |
 
 The exact match is $N_c^2/n_C = 9/5 = 1.800$. Here $N_c^2 = 9$ is
-$\dim_\mathbb{C}(M_{N_c}(\mathbb{C}))$ — the dimension of the full
+$\dim_{\mathbb{C}}(M_{N_c}(\mathbb{C}))$ — the dimension of the full
 $3\times 3$ color matrix algebra (the $\text{U}(N_c)$ algebra, before
 imposing tracelessness to get $\text{SU}(N_c)$). And $n_C = 5$ is the
 complex dimension of $D_{IV}^5$.

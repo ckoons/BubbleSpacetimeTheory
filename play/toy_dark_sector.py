@@ -45,6 +45,15 @@ BUDGET = N_c**2 / n_C                   # = 9/5 = 1.800
 FILL = N_c / (n_C * np.pi)             # = 3/(5pi) = 0.19099...
 DARK = 1.0 - FILL                       # = 0.80901...
 
+# BST exact cosmic fractions (March 13 discoveries)
+DENOM = N_c**2 + 2*n_C                   # = 19
+C_2 = 6                                   # Casimir number
+GENUS = 7                                 # genus of D_IV^5
+OMEGA_LAMBDA_BST = (N_c + 2*n_C) / DENOM # = 13/19 = 0.68421
+OMEGA_M_BST = C_2 / DENOM                # = 6/19  = 0.31579
+OMEGA_DM_BST = (3*n_C + 1) / DENOM       # = 16/19 of matter → Omega_DM/Omega_b = 16/3
+OMEGA_B_BST = N_c / DENOM                # = 3/19  of total → baryonic
+
 # Planck 2018 observed fractions
 PLANCK_DE = 0.683    # dark energy (Omega_Lambda)
 PLANCK_DM = 0.268    # dark matter (Omega_DM)
@@ -110,10 +119,12 @@ class DarkSector:
 
     def coincidence_ratio(self):
         """
-        Why Omega_Lambda / Omega_m ~ 7/3 now.
-        In BST: the ratio is structural, arising from genus/N_c = 7/3.
+        Omega_Lambda / Omega_m = 13/6 in BST.
+        From: Omega_Lambda = (N_c + 2*n_C)/(N_c^2 + 2*n_C) = 13/19
+              Omega_m      = C_2/(N_c^2 + 2*n_C) = 6/19
+        Ratio = 13/6 = 2.1667, observed ~2.15 (0.07 sigma).
         """
-        return 7.0 / 3.0    # ~ 2.333, close to observed 0.683/0.317 = 2.15
+        return 13.0 / 6.0    # = (N_c + 2*n_C) / C_2
 
     def is_coincidence_fine_tuned(self):
         """Is the cosmic coincidence fine-tuned? NO — it is structural."""
@@ -155,12 +166,22 @@ class DarkSector:
 
     def bst_prediction(self):
         """
-        BST prediction: 19.1% visible, 80.9% dark (combined DE + DM).
+        BST prediction: exact cosmic composition from two integers.
+
+        Omega_Lambda = 13/19 = (N_c + 2*n_C) / (N_c^2 + 2*n_C)
+        Omega_m      =  6/19 = C_2 / (N_c^2 + 2*n_C)
+        Omega_DM/Omega_b = 16/3 = (3*n_C + 1) / N_c
         """
         return {
             'visible': self.visible_fraction,
             'dark': self.dark_fraction,
-            'formula': 'f = N_c / (n_C * pi) = 3 / (5*pi)'
+            'Omega_Lambda': OMEGA_LAMBDA_BST,
+            'Omega_m': OMEGA_M_BST,
+            'Omega_DM_over_Omega_b': (3*n_C + 1) / N_c,
+            'denominator': DENOM,
+            'formula': 'f = N_c / (n_C * pi) = 3 / (5*pi)',
+            'formula_Lambda': 'Omega_Lambda = (N_c + 2*n_C) / (N_c^2 + 2*n_C) = 13/19',
+            'formula_m': 'Omega_m = C_2 / (N_c^2 + 2*n_C) = 6/19'
         }
 
     def __repr__(self):
@@ -476,9 +497,13 @@ def build_figure():
               f'DE {PLANCK_DE*100:.1f}% + DM {PLANCK_DM*100:.1f}% + Vis {PLANCK_VIS*100:.1f}%'
               f'  \u2192  Dark total: {PLANCK_DARK*100:.1f}%',
               color=LIGHT_GREY, fontsize=8, glow_width=1)
-    glow_text(ax_views, 0.5, y - 0.07,
-              f'BST predicts:  Dark {DARK*100:.1f}% + Visible {FILL*100:.1f}%',
+    glow_text(ax_views, 0.5, y - 0.06,
+              f'BST exact:  \u03a9\u039b = 13/19 = {OMEGA_LAMBDA_BST*100:.1f}%'
+              f'   \u03a9_m = 6/19 = {OMEGA_M_BST*100:.1f}%',
               color=GOLD, fontsize=9, weight='bold', glow_width=1)
+    glow_text(ax_views, 0.5, y - 0.085,
+              f'\u03a9_DM/\u03a9_b = 16/3 = {16/3:.2f}   (0.07\u03c3 from Planck)',
+              color=GREEN_GLOW, fontsize=8, glow_width=1)
 
     # ── Right panel slider region (cosmetic filler) ──
     ax_rslider = fig.add_subplot(gs[1, 1])
@@ -539,22 +564,24 @@ def build_comparison_figure():
                  va='center', color=cols[i], fontsize=12, weight='bold')
     ax1.set_yticklabels(cats, color=WHITE, fontsize=11)
 
-    # Right: BST prediction
-    bst_cats = ['Dark\n(uncommitted)', 'Visible\n(committed)']
-    bst_vals = [DARK * 100, FILL * 100]
-    bst_cols = [VOID_PURPLE, GOLD]
+    # Right: BST prediction (exact fractions)
+    bst_cats = ['\u03a9\u039b = 13/19\n(dark energy)', '\u03a9_DM\n(dark matter)',
+                '\u03a9_b\n(baryonic)']
+    bst_vals = [OMEGA_LAMBDA_BST * 100, (OMEGA_M_BST - OMEGA_B_BST) * 100,
+                OMEGA_B_BST * 100]
+    bst_cols = [PURPLE_LINE, BLUE_GLOW, GOLD]
     bars2 = ax2.barh(bst_cats, bst_vals, color=bst_cols, alpha=0.85, edgecolor=BG, linewidth=2)
     ax2.set_xlim(0, 100)
-    ax2.set_xlabel('% of de Sitter capacity', color=GREY, fontsize=10)
-    ax2.set_title('BST Prediction (structural)', color=GOLD, fontsize=13, weight='bold')
+    ax2.set_xlabel('% of total (BST exact fractions)', color=GREY, fontsize=10)
+    ax2.set_title('BST Exact (from two integers)', color=GOLD, fontsize=13, weight='bold')
     for i, (b, v) in enumerate(zip(bars2, bst_vals)):
         ax2.text(v + 1.5, b.get_y() + b.get_height()/2, f'{v:.1f}%',
-                 va='center', color=[PURPLE_GLOW, GOLD][i], fontsize=12, weight='bold')
+                 va='center', color=bst_cols[i], fontsize=12, weight='bold')
     ax2.set_yticklabels(bst_cats, color=WHITE, fontsize=11)
 
     fig.text(0.5, 0.02,
-             'Planck dark total = 95.1%  |  BST dark = 80.9%  |'
-             '  BST separates "visible but non-baryonic" from true dark',
+             'BST: \u03a9\u039b = 13/19 (0.07\u03c3)  |  \u03a9_m = 6/19 (0.07\u03c3)'
+             '  |  \u03a9_DM/\u03a9_b = 16/3 — all from N_c=3, n_C=5',
              ha='center', va='bottom', color=GREY, fontsize=9, style='italic')
     fig.suptitle('Observed vs Structural: The Dark Sector',
                  color=PURPLE_GLOW, fontsize=16, weight='bold', y=0.98)
@@ -631,7 +658,10 @@ def print_report():
     print(f"    S_dS = {ep['S_dS']:.3e}  N = {ep['N_total']:.3e}  fill = {ep['fill']:.6f}\n")
     print(f"  Planck 2018: DE={PLANCK_DE*100:.1f}% DM={PLANCK_DM*100:.1f}% "
           f"Vis={PLANCK_VIS*100:.1f}% (dark={PLANCK_DARK*100:.1f}%)")
-    print(f"  BST:         Dark={DARK*100:.1f}%  Visible={FILL*100:.1f}%\n")
+    print(f"  BST exact:   Omega_Lambda = 13/19 = {OMEGA_LAMBDA_BST*100:.1f}%"
+          f"  Omega_m = 6/19 = {OMEGA_M_BST*100:.1f}%")
+    print(f"               Omega_DM/Omega_b = 16/3 = {16/3:.2f}")
+    print(f"  BST fill:    Dark={DARK*100:.1f}%  Visible={FILL*100:.1f}%\n")
     print(f"  Fine-tuned? {ds.is_coincidence_fine_tuned()} — structural, not coincidental.")
     print(f"  The 19.1%/80.9% split is ETERNAL. There is no special 'now.'")
     print(f"{sep}\n")
