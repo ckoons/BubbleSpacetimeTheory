@@ -574,15 +574,60 @@ fg.summary()                   # the punchline
 
 *Key insight: The diagrams aren't abstract squiggles — they're counting substrate topology. Every Feynman loop is one winding around S¹. The fine structure constant is the winding coupling. QED perturbation theory is a Taylor expansion of the geometric answer.*
 
+### 37. The Star Machine (`toy_star_machine.py`) ★CI
+
+**Stellar evolution as a commitment budget. Born with mass, spent as light, ending in geometry.**
+
+A star's life through the BST lens. Pick any of 9 spectral types (O5 through M5) and see: commitment rate C = M×T×k_B/ℏ, channel fill ξ = 2GM/(Rc²), lapse function 1−ξ, three-phase evolution (main sequence → giant → remnant), total information budget, and the BST narrative of each remnant fate. White dwarfs = boundary agents (S⁴×S¹) at maximum packing. Neutron stars = baryon circuits (D_IV^5 bulk) at maximum packing. Black holes = channel full, N_max=137, lapse→0, time stops. Interactive RadioButtons to switch star types. Full comparison table of all 9 types.
+
+```python
+from toy_star_machine import StarMachine
+sm = StarMachine()
+sm.star_profile('G2')            # Sun: mass, T, L, R, BST parameters
+sm.evolution('O5')               # O5: MS → supergiant → BH
+sm.commitment_rate(1.0, 15e6)    # C for 1 M_sun at 15 MK
+sm.channel_fill(1.0, 1.0)       # compactness of the Sun
+sm.remnant('B5')                 # B5 → neutron star
+sm.compare_all()                 # all 9 types side-by-side
+sm.energy_budget('G2')           # total fusions, total bits
+sm.bst_lifecycle('G2')           # the full BST narrative
+sm.summary()                     # key insight box
+```
+
+*Key insight: A star is a commitment factory. Its mass sets the budget, its temperature sets the rate, and its remnant records the final channel state.*
+
+### 38. The Electron Agent (`toy_electron_agent.py`) ★CI
+
+**The universe's read/write head on the Shilov boundary S⁴ × S¹.**
+
+The electron lives on the Shilov boundary because it must — the Wallach set theorem forbids it from entering the D_IV^5 bulk (weight k=1 < k_min=3). This is not a deficiency but the electron's role: it sits at the interface between bulk (baryons) and S¹ fiber (photons). Every photon absorption or emission is a COMMITMENT EVENT: information is written irreversibly onto the substrate. Each event commits log₂(137) ≈ 7.1 bits — the channel capacity. From hydrogen atoms to black-hole horizons, the agent is the same. Five physical regimes (free 300K → event-horizon 10¹²K) with commitment rates spanning 10 orders of magnitude. Hydrogen and helium transition databases. Energy-per-bit analysis showing the channel capacity is fixed regardless of photon energy.
+
+```python
+from toy_electron_agent import ElectronAgent
+ea = ElectronAgent()
+ea.profile()                     # mass, charge, weight, location, role
+ea.wallach_theorem()             # k=1 < k_min=3, boundary confinement
+ea.transition('absorption')      # Lyman-alpha: photon → committed fact
+ea.transition('emission')        # Balmer-alpha: committed fact → photon
+ea.information_per_event()       # 7.098 bits, fixed regardless of energy
+ea.regimes()                     # 5 regimes: free → horizon
+ea.commitment_rate(5000, 1e20)   # rate for 10²⁰ electrons at 5000 K
+ea.substrate_budget(1e57)        # total bits after 10⁵⁷ events
+ea.atom_transitions(1)           # hydrogen: Lyman-α, Balmer-α, 21cm, ionization
+ea.summary()                     # the punchline
+```
+
+*Key insight: The electron's mathematical deficiency (k below the Wallach set) IS its physical advantage. It cannot enter the bulk — so it mediates between bulk and fiber. The boundary IS the interface.*
+
 ---
 
 ## The Showcase (`toy_showcase.py`)
 
-A visual gallery with thumbnail icons for all 36 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
+A visual gallery with thumbnail icons for all 38 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
 
 ## The Menu (`play.py`)
 
-A text-based launcher for terminal use. Type a number (1-36) to launch any toy, or 'a' to launch all.
+A text-based launcher for terminal use. Type a number (1-38) to launch any toy, or 'a' to launch all.
 
 ---
 

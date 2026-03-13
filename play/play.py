@@ -199,6 +199,16 @@ TOYS = {
            'Feynman loops = S¹ fiber windings. Slider 1→5 loops.\n'
            '   13,643 diagrams → 8 digits. Or: 14/5, one formula.'),
 
+    '37': ('The Star Machine ★CI',
+           'toy_star_machine.py',
+           'Stellar evolution through the BST lens. Pick a star type.\n'
+           '   Commitment rates, channel fill, lapse → WD/NS/BH.'),
+
+    '38': ('The Electron Agent ★CI',
+           'toy_electron_agent.py',
+           'The universe\'s read/write head on S⁴×S¹.\n'
+           '   Every transition commits log₂(137) = 7.1 bits.'),
+
     's': ('★ Showcase (visual gallery)',
           'toy_showcase.py',
           'Visual gallery of all toys with thumbnails and\n'
@@ -223,7 +233,7 @@ def main():
     print(f'  [q]  Quit')
     print()
 
-    choice = input('  Choose a toy (1-36, s=showcase, a=all, q=quit): ').strip().lower()
+    choice = input('  Choose a toy (1-38, s=showcase, a=all, q=quit): ').strip().lower()
 
     if choice == 'q':
         print('  Goodbye!')

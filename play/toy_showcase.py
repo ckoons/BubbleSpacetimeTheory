@@ -324,6 +324,22 @@ TOYS = [
         'color': '#ff44ff',
         'icon': 'feynman',
     },
+    {
+        'name': 'Star Machine ★CI',
+        'file': 'toy_star_machine.py',
+        'short': 'Stellar BST commitment budget',
+        'desc': "Pick a star type (O5→M5).\nCommitment rate, channel fill,\nlapse → WD / NS / BH.",
+        'color': '#ffaa44',
+        'icon': 'star_machine',
+    },
+    {
+        'name': 'Electron Agent ★CI',
+        'file': 'toy_electron_agent.py',
+        'short': 'Read/write head on S⁴×S¹',
+        'desc': "k=1 below Wallach k_min=3.\nEvery transition: 7.1 bits.\nThe boundary IS the interface.",
+        'color': '#ffdd44',
+        'icon': 'electron_agent',
+    },
 ]
 
 # ─── Figure ───
@@ -341,13 +357,13 @@ fig.text(0.5, 0.915, 'Copyright (c) 2026 Casey Koons — Demonstration Only',
 
 # ─── Layout: 3 columns × 12 rows of toy cards ───
 n_cols = 3
-n_rows = 12
+n_rows = 13
 card_w = 0.28
-card_h = 0.063
+card_h = 0.058
 x_start = 0.04
 y_start = 0.88
 x_gap = 0.33
-y_gap = 0.076
+y_gap = 0.070
 
 buttons = []
 button_axes = []
@@ -752,6 +768,34 @@ def draw_icon(ax, icon_type, color):
                 color='#ff44ff', lw=1.5)
         ax.text(0.5, 0.78, '=', fontsize=10, color='#ffffff',
                 ha='center', va='center', fontfamily='monospace')
+
+    elif icon_type == 'star_machine':
+        # Star with glow rings + WD/NS/BH endpoint labels
+        star = Circle((0.5, 0.5), 0.2, color='#ffaa44', alpha=0.9, zorder=2)
+        ax.add_patch(star)
+        for r_g in [0.25, 0.30, 0.35]:
+            glow = Circle((0.5, 0.5), r_g, fill=False, ec='#ffaa44',
+                          lw=0.8, alpha=0.2, zorder=1)
+            ax.add_patch(glow)
+        ax.text(0.5, 0.08, 'WD·NS·BH', fontsize=7, color='#ffaa44',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'electron_agent':
+        # Electron dot on boundary ring with read/write arrows
+        ring = Circle((0.5, 0.5), 0.3, fill=False, ec='#ffdd44',
+                       lw=2, zorder=2)
+        ax.add_patch(ring)
+        ax.plot(0.5, 0.8, 'o', color='#ffdd44', markersize=8, zorder=3)
+        ax.text(0.5, 0.8, 'e⁻', fontsize=6, color='#000000',
+                ha='center', va='center', fontweight='bold', zorder=4)
+        # Arrows in/out
+        ax.annotate('', xy=(0.5, 0.55), xytext=(0.5, 0.72),
+                    arrowprops=dict(arrowstyle='->', color='#00ff88', lw=1.5))
+        ax.annotate('', xy=(0.5, 0.28), xytext=(0.5, 0.45),
+                    arrowprops=dict(arrowstyle='->', color='#ff6644', lw=1.5))
+        ax.text(0.5, 0.08, '7.1 bits', fontsize=8, color='#ffdd44',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
 
 def launch_toy(toy_file):
     def callback(event):

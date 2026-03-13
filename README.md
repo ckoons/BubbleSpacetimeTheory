@@ -136,7 +136,13 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Γ_φ (φ meson width) | m_φ/(2×5!) = m_φ/240; OZI suppression = 1/n_C! | 4.248 MeV | 4.249±0.013 MeV | **0.02%** |
 | Γ_ρ/Γ_φ (width ratio) | n_C × g = 5 × 7 = 35 | 35.0 | 35.09 | 0.26% |
 
-**140+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
+| B_α (⁴He binding) | (N_c+2n_C)·αm_p/π = 13·B_d | 28.333 MeV | 28.296 MeV | 0.13% |
+| ℓ₁ (CMB 1st peak) | BST geometry, zero params | 222 | 220 (Planck) | 1.0% |
+| Ω_b h² (baryon density) | BST geometry | 0.02198 | 0.02237 (Planck) | 1.7% |
+| Δt_echo (BH echo delay) | N_max·r_s/c = 137·2GM/c³ | 1.352 ms/M☉ | — | prediction |
+| ν_21cm (hyperfine) | BST μ_p=14/5 | 1425 MHz | 1420.4 MHz | 0.3% |
+
+**150+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
 
 ---
 
@@ -311,6 +317,18 @@ BST follows a single logical chain from one question to all of physics. Each ste
 
 **The Chern Class Oracle — Q⁵ as Rosetta Stone**: The compact dual Q⁵ = SO(7)/[SO(5)×SO(2)] has total Chern class c(Q⁵) = (1+h)⁷/(1+2h), giving the sequence {5, 11, 13, 9, 3} with χ = 6. Every BST integer is a Chern class coefficient with a proven group-theoretic identity: c₁ = n (dimension) = 5, c₂ = dim K (isotropy group) = 11, c₅ = (n+1)/2 (Euler/2, odd n) = N_c = 3, c₄ = (c₅)² = N_c² = 9, χ = n+1 = C₂ = 6, n+2 = g = 7. The color number N_c is DERIVED from n_C via the top Chern class — BST has only two inputs (n_C=5 and N_max=137), not five. Every fundamental ratio — sin²θ_W = c₅/c₃, Λ×N = c₄/c₁, α_s = g/(4c₁) — is a ratio of topological invariants of one compact manifold. One surface. One formula. All the integers.
 
+**Alpha particle binding derived**: B_α = 13·B_d = (N_c+2n_C)·αm_p/π = 28.333 MeV (0.13% from observed 28.296 MeV). The integer 13 = c₃(Q⁵) = Weinberg denominator. The alpha particle is special because A = 4 = dim_R(CP²). Decomposes as 6 pairwise bonds (K₄ complete graph, C₂ = 6) plus genus-7 bulk coherence. Zero free parameters.
+
+**Hydrogen spectrum and Lamb shift from BST**: QED is the S¹ sector of BST — the hydrogen spectrum follows exactly through all computed orders. BST adds geometric derivation of all inputs: r_p = 4/m_p = 0.8412 fm (0.058%, resolves proton radius puzzle), μ_p = 14/5 = 2.800 μ_N (0.26%). The 21-cm hyperfine line at 1425 MHz (0.3% from 1420.4 MHz). The BST-specific Haldane cap correction enters at α¹³⁸ ~ 10⁻²⁹⁹ eV — permanently undetectable. QED is exact because it IS the substrate S¹ dynamics.
+
+**Magnetic monopoles excluded — topological proof**: The BST substrate S²×S¹ is a trivial U(1) bundle over S², so c₁ = 0. Monopoles require c₁ ≠ 0. Exclusion is absolute, energy-independent — not a mass bound but a topological impossibility. Charge quantization explained independently by π₁(S¹) = Z (Dirac's argument inverted). Detection of a single monopole at any energy falsifies BST at its most fundamental level.
+
+**Gravitational wave echoes predicted**: BST's Haldane saturation surface (ρ = ρ₁₃₇) replaces the black hole interior with a reflecting boundary. Echo delay Δt = N_max·r_s/c = 137·2GM/c³, giving a universal slope of 1.352 ms/M☉. Perfect reflection |R| = 1, phase flip δφ = π per echo, frequency comb at Δf = c³/(2GM·137). Testable: O5 stacking of 200+ BBH events. Detection with delay scaling as 137·r_s/c would be the first astrophysical measurement of N_max.
+
+**Superconductor pairing channels classified**: Three distinct superconducting channels from the three geometric layers of the Shilov boundary: Channel I (phonon, S¹) with ceiling Θ_D/38 where 38 = n_C·g+N_c; Channel II (spin, Hopf S³→S²) with ceiling J/12; Channel III (multi-orbital, CP²) with ceiling Ω/6. The full ratio T_c(III)/T_c(I) = 19/3 = 6.33 matches LaH₁₀/MgB₂ = 6.41 at 1.3%. Room-temperature superconductivity requires Channel III with Ω > 1758 K.
+
+**CMB power spectrum from zero parameters**: All 6 standard ΛCDM parameters derived from D_IV^5 geometry. Dark matter fraction Ω_DM/Ω_b = 2^(n_C−1)/N_c = 16/3 = 5.333 (0.3% from Planck). First acoustic peak ℓ₁ = 222 (observed 220, 1.0%). n_s = 1−5/137. Dark matter is channel noise — incomplete Z₃ windings that gravitate but carry no charge. All direct detection experiments will remain null.
+
 **The Master Equation (one sentence)**: The universe is the ground state of the Bergman Laplacian on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], subject to Haldane exclusion with capacity 137.
 
 ---
@@ -377,7 +395,7 @@ BST follows a single logical chain from one question to all of physics. Each ste
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `SPARC_BST_Results.csv` | Per-galaxy results for all 175 SPARC galaxies |
-| `notes/` | 137 working notes covering all derivations, proofs, and thesis topics |
+| `notes/` | 144 working notes covering all derivations, proofs, and thesis topics |
 | `play/` | Interactive toys and visualizations — CIs and humans can explore BST hands-on. See `play/README.md` |
 
 ---
@@ -487,6 +505,13 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | Neutron star max mass | M_max = (8/7)m_Pl³/m_p²; (g+1)/g × OV limit | 1.8% |
 | NS canonical radius | R(1.4M☉) = C₂ × GM/c² = 12.41 km; compactness β = 1/C₂ | **0.1%** |
 | NS speed of sound | c_s² → 1/N_c = 1/3 (conformal limit) | exact |
+| Alpha particle binding | B_α = 13·B_d = (N_c+2n_C)·αm_p/π; 13 = Weinberg denominator | 0.13% |
+| Hydrogen Lamb shift | QED = S¹ sector of BST; r_p = 4/m_p resolves radius puzzle | structural |
+| 21-cm hyperfine line | μ_p = 14/5 → ν = 1425 MHz | 0.3% |
+| Monopole exclusion | c₁(S²×S¹) = 0 → no monopoles at any energy; topological proof | exact |
+| GW echo delay | Δt = 137·r_s/c; Haldane surface reflects with |R|=1 | prediction |
+| Superconductor channels | Three pairing channels from Shilov boundary layers; T_c(III)/T_c(I) = 19/3 | 1.3% |
+| CMB power spectrum | All 6 ΛCDM params from geometry; ℓ₁ = 222; Ω_DM/Ω_b = 16/3 | 0.3% |
 
 ## Remaining Open Problems
 
@@ -499,7 +524,7 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | Baryon resonance verification | k=7 matches N(2190); k=8 at 3753 MeV undiscovered?; SO(3)⊂SO(5) SOLVED via D₂ | 5 |
 | Reality Budget spectral proof | c₄/c₁ discovery closes the topological side; spectral derivation from Plancherel would upgrade to full theorem | 6 |
 
-**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem, Dirac large number, partition function duality, vector meson nonet (ρ, ω, K*, φ), pseudoscalar meson nonet (K, η, η'), pion/kaon charge radii (leading order), Reality Budget value (9/5), three-layer architecture, Gödel limit, cosmic composition (Ω_Λ, Ω_m, Ω_DM/Ω_b), SO(3)⊂SO(5) embedding (D₂ irreducible), n_C=5 uniqueness (η' anomaly), proton/neutron magnetic moments, W/Z boson widths, GMO identity exact, first commitment (Leibniz's question), black hole singularity (Haldane cap), information paradox (commitments permanent), arrow of time (geometric, from negative curvature), Λ exponent 56 (two derivations, self-consistent at g=7), cosmic coincidence / Why Now (information-energy intersection), cosmic age t₀ (13.6 Gyr), H₀ second route (68.0 km/s/Mpc), Bell inequality origin (3D phenomenon), Tsirelson bound (2√2 = 2√N_w, holomorphic derivation from H⁰(O(1))), J/ψ and Υ masses (generation hierarchy ×4×3=12=2C₂), heavy meson masses (D, B, B_c all from BST integers), SO(2) activation uniqueness (Helgason classification theorem), commitment rate exponent 3 (Z₃ fixed points on CP²), pion/kaon charge radii NLO (0.46% and 1.0%, radius ratio = cos θ_W), electron mass from pure geometry (6π⁵α¹²m_Pl, zero free parameters), nuclear magic numbers (all 7 + prediction of 184), spectral index derivation (Candidate A selected), muon g-2 (aligns with lattice, anomaly resolves), nuclear binding energy curve (all 5 SEMF coefficients, iron peak at A=56=g(g+1)), Bekenstein 1/4 ((1/2)_holo × (1/2)_Z₂, disambiguation confirmed), complete quark mass spectrum (6 quarks, 0.59% mean), α_s non-perturbative running (geometric β-function, 0.34% at m_Z), Einstein equations from S¹ bundle (O'Neill formulas), Kerr black holes (no singularity, quantized J), primordial GW spectrum (6.4 nHz, γ=3.60), neutrinoless double-beta (Dirac, |m_ββ|=0), 1920 Weyl group theorem (W(D₅) cancellation generalizes to all D_IV^n), Reality Budget c₄/c₁ identity (Chern classes of compact dual Q⁵), substrate propulsion (asymmetric σ → force from vacuum), Casimir effect from commitment exclusion, periodic table terminus Z=137 (block widths = 2×{1,3,5,7}), superconductor T_c ceiling (MgB₂ from genus), Weinberg angle as Chern class ratio (sin²θ_W = c₅/c₃ topological), Chern Class Oracle (all BST integers from c(Q⁵), N_c derived from topology, only 2 inputs: n_C=5 and N_max=137), c₂ = 11 decoded (dim K = isotropy group dimension), QCD deconfinement (T_deconf = π⁵mₑ = m_p/C₂, 0.08%), string tension (√σ = m_p√2/N_c, 0.5%), neutron star max mass (M_max = (8/7)m_Pl³/m_p², 1.8%), NS radius (R = C₂×GM/c², 0.1%).
+**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem, Dirac large number, partition function duality, vector meson nonet (ρ, ω, K*, φ), pseudoscalar meson nonet (K, η, η'), pion/kaon charge radii (leading order), Reality Budget value (9/5), three-layer architecture, Gödel limit, cosmic composition (Ω_Λ, Ω_m, Ω_DM/Ω_b), SO(3)⊂SO(5) embedding (D₂ irreducible), n_C=5 uniqueness (η' anomaly), proton/neutron magnetic moments, W/Z boson widths, GMO identity exact, first commitment (Leibniz's question), black hole singularity (Haldane cap), information paradox (commitments permanent), arrow of time (geometric, from negative curvature), Λ exponent 56 (two derivations, self-consistent at g=7), cosmic coincidence / Why Now (information-energy intersection), cosmic age t₀ (13.6 Gyr), H₀ second route (68.0 km/s/Mpc), Bell inequality origin (3D phenomenon), Tsirelson bound (2√2 = 2√N_w, holomorphic derivation from H⁰(O(1))), J/ψ and Υ masses (generation hierarchy ×4×3=12=2C₂), heavy meson masses (D, B, B_c all from BST integers), SO(2) activation uniqueness (Helgason classification theorem), commitment rate exponent 3 (Z₃ fixed points on CP²), pion/kaon charge radii NLO (0.46% and 1.0%, radius ratio = cos θ_W), electron mass from pure geometry (6π⁵α¹²m_Pl, zero free parameters), nuclear magic numbers (all 7 + prediction of 184), spectral index derivation (Candidate A selected), muon g-2 (aligns with lattice, anomaly resolves), nuclear binding energy curve (all 5 SEMF coefficients, iron peak at A=56=g(g+1)), Bekenstein 1/4 ((1/2)_holo × (1/2)_Z₂, disambiguation confirmed), complete quark mass spectrum (6 quarks, 0.59% mean), α_s non-perturbative running (geometric β-function, 0.34% at m_Z), Einstein equations from S¹ bundle (O'Neill formulas), Kerr black holes (no singularity, quantized J), primordial GW spectrum (6.4 nHz, γ=3.60), neutrinoless double-beta (Dirac, |m_ββ|=0), 1920 Weyl group theorem (W(D₅) cancellation generalizes to all D_IV^n), Reality Budget c₄/c₁ identity (Chern classes of compact dual Q⁵), substrate propulsion (asymmetric σ → force from vacuum), Casimir effect from commitment exclusion, periodic table terminus Z=137 (block widths = 2×{1,3,5,7}), superconductor T_c ceiling (MgB₂ from genus), Weinberg angle as Chern class ratio (sin²θ_W = c₅/c₃ topological), Chern Class Oracle (all BST integers from c(Q⁵), N_c derived from topology, only 2 inputs: n_C=5 and N_max=137), c₂ = 11 decoded (dim K = isotropy group dimension), QCD deconfinement (T_deconf = π⁵mₑ = m_p/C₂, 0.08%), string tension (√σ = m_p√2/N_c, 0.5%), neutron star max mass (M_max = (8/7)m_Pl³/m_p², 1.8%), NS radius (R = C₂×GM/c², 0.1%), alpha particle binding (B_α = 13·B_d, 0.13%), hydrogen Lamb shift (QED = S¹ sector), monopole exclusion (topological c₁=0), GW echoes (Δt = 137·r_s/c), superconductor three-channel classification (T_c ratios 19/3), CMB power spectrum (all 6 ΛCDM params, ℓ₁ = 222).
 
 ---
 
