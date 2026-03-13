@@ -284,6 +284,14 @@ TOYS = [
         'color': '#cc88ff',
         'icon': 'hopf',
     },
+    {
+        'name': 'Commitment Detector ★CI',
+        'file': 'toy_commitment_detector.py',
+        'short': 'G/C ratio detects engineering',
+        'desc': "Natural=noisy, engineered=quiet.\nG/C mass-independent diagnostic.\n'Oumuamua Q≥9, 3I/ATLAS Q≈0.2.",
+        'color': '#ff6644',
+        'icon': 'detector',
+    },
 ]
 
 # ─── Figure ───
@@ -648,6 +656,14 @@ def draw_icon(ax, icon_type, color):
             fib = Circle((xf, yf), 0.08, fill=False, ec='#44ff88', lw=1.2)
             ax.add_patch(fib)
         ax.text(0.5, 0.08, '3D', fontsize=11, color='#cc88ff',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'detector':
+        # G/C ratio bars: natural (green) vs engineered (red, taller)
+        ax.bar(0.3, 0.4, 0.15, color='#44ff88', bottom=0.15)
+        ax.bar(0.5, 0.4, 0.15, color='#44ff88', bottom=0.15)
+        ax.bar(0.7, 0.65, 0.15, color='#ff6644', bottom=0.15)
+        ax.text(0.5, 0.08, 'G/C', fontsize=10, color='#ff6644',
                 ha='center', fontfamily='monospace', fontweight='bold')
 
 def launch_toy(toy_file):

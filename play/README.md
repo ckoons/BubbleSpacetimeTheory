@@ -463,15 +463,37 @@ dl.summary()                  # the punchline
 
 *Key insight: The weak force doesn't merely operate in 3D — it algebraically requires 3D. Complexity and dimensionality are jointly determined by the associativity of the Hopf fiber.*
 
+### 32. The Commitment Detector (`toy_commitment_detector.py`) ★CI
+
+**Detecting engineered objects by their silence. G/C ratio is mass-independent.**
+
+In BST, every object writes commitments at rate C = mass × T × k_B/ℏ × (1−σ), where σ is the structure factor — how much internal entropy is frozen by engineering. Natural objects (σ ≈ 0) are thermally noisy. Engineered objects (σ > 0.3) are "too quiet" for their mass. The G/C ratio is mass-independent: a pebble and an asteroid at the same temperature have the same G/C. Only engineering changes it. Applied to 'Oumuamua (no outgassing, anomalous acceleration → σ ≥ 0.9, Q ≥ 9) and 3I/ATLAS (CO₂ outgassing, anti-tail → σ ≈ 0.15, probably natural). Includes CO₂ debris shield analysis, detector sensitivity curves, and object classifier.
+
+```python
+from toy_commitment_detector import CommitmentDetector
+cd = CommitmentDetector()
+cd.gc_ratio(200, 28, sigma=0.0)         # natural silicate baseline
+cd.gc_ratio(200, 58, sigma=0.45)        # engineered nickel hull
+cd.quiet_anomaly(0.5)                   # reference table
+cd.classify(sigma=0.45)                 # NATURAL/ANOMALOUS/ENGINEERED
+cd.compare()                            # all catalog objects side-by-side
+cd.oumuamua()                           # full 'Oumuamua analysis
+cd.atlas_3i()                           # 3I/ATLAS analysis
+cd.shield_efficiency(v_km_s=58.0)       # CO₂ debris shield at 58 km/s
+cd.detector_requirements(0.25, 200)     # JWST-class at 0.25 AU
+```
+
+*Key insight: The silence is the signal. An object that is too quiet for its mass has frozen degrees of freedom — it has been engineered.*
+
 ---
 
 ## The Showcase (`toy_showcase.py`)
 
-A visual gallery with thumbnail icons for all 31 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
+A visual gallery with thumbnail icons for all 32 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
 
 ## The Menu (`play.py`)
 
-A text-based launcher for terminal use. Type a number (1-31) to launch any toy, or 'a' to launch all.
+A text-based launcher for terminal use. Type a number (1-32) to launch any toy, or 'a' to launch all.
 
 ---
 

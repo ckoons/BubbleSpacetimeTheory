@@ -174,6 +174,11 @@ TOYS = {
            'Why exactly 3 spatial dimensions. Adams (1960):\n'
            '   S³=SU(2) is the unique Lie-group Hopf fiber.'),
 
+    '32': ('The Commitment Detector ★CI',
+           'toy_commitment_detector.py',
+           'G/C ratio detects engineering: natural objects are noisy,\n'
+           "   engineered ones are quiet. Applied to 'Oumuamua & 3I."),
+
     's': ('★ Showcase (visual gallery)',
           'toy_showcase.py',
           'Visual gallery of all toys with thumbnails and\n'
@@ -198,7 +203,7 @@ def main():
     print(f'  [q]  Quit')
     print()
 
-    choice = input('  Choose a toy (1-31, s=showcase, a=all, q=quit): ').strip().lower()
+    choice = input('  Choose a toy (1-32, s=showcase, a=all, q=quit): ').strip().lower()
 
     if choice == 'q':
         print('  Goodbye!')
