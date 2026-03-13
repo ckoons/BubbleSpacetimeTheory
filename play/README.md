@@ -238,7 +238,7 @@ so.try_uncommit()          # FAILS: "Commitment is irreversible"
 
 ## New Discovery Toys (19-23) — The Deeper Structure
 
-*These toys visualize discoveries from March 13, 2026: the corrected reality budget, the three-layer architecture, the Gödel limit, exact cosmic composition, and the meson nonet.*
+*These toys visualize discoveries from March 13, 2026: the three-layer architecture, the Gödel limit, exact cosmic composition, and the meson nonet.*
 
 ### 19. The Three Layers (`toy_three_layers.py`)
 
@@ -299,9 +299,50 @@ print(mg.all_mesons())        # Full database
 
 ---
 
+## Deep Question Toys (24-25) — The Boundaries of Existence
+
+*These toys explore the two endpoints of the BST density spectrum: the empty state that cannot exist, and the full state where time stops.*
+
+### 24. The Self-Starting Universe (`toy_self_starting.py`) ★CI
+
+**N=0 is forbidden. Existence is a theorem.**
+
+The frozen state (zero commitments, full SO₀(5,2) symmetry) cannot exist — four independent proofs: (1) Negative curvature H=-2/7 makes the origin dynamically unstable (Jacobi divergence), (2) Uncertainty principle forbids localization at the origin, (3) The trivial representation k=0 is below the Wallach set — not a valid physical state, (4) Entropy drives exponential spreading on negatively curved space (τ ≈ 1.87 Planck times). Plus the Reality Budget: Λ×N=9/5 requires N≥2. The universe begins with a ν₁ν̄₁ pair and cascades through the Casimir ratchet: k=0→1→3→6.
+
+```python
+from toy_self_starting import SelfStartingUniverse
+ss = SelfStartingUniverse()
+ss.frozen_state_arguments()   # Four proofs
+ss.commitment_cascade()        # k=0→1→3→6 with C₂ values
+ss.initial_N()                 # N=2, Λ~9/10, ν₁ν̄₁ pair
+ss.is_frozen_valid()           # Always False
+```
+
+*Key insight: "Nothing" is not a valid state on D_IV^5. The universe exists because N=0 violates the mathematics.*
+
+### 25. The BST Black Hole (`toy_black_hole.py`) ★CI
+
+**No singularity. No interior. No information paradox. Just a full channel.**
+
+The Haldane cap (N_max=137 channels per contact) replaces the singularity with a maximally committed membrane at ρ=ρ₁₃₇. Time stops (N=0) but the spatial geometry is well-defined. Both infalling and external observers agree: the horizon is never crossed. Hawking radiation is density-gradient tunneling — BST temperature T~1/(2√137×M) matches standard Hawking within 7%. The information paradox dissolves: commitments are permanent, radiation carries them out.
+
+```python
+from toy_black_hole import BSTBlackHole
+bh = BSTBlackHole(M_solar=10.0)
+bh.hawking_temperature()      # BST vs standard, 7% match
+bh.membrane_properties()       # Contacts, entropy, evaporation time
+bh.compare_endpoints()         # First commitment vs black hole
+bh.is_singular()               # Always False
+bh.has_interior()              # Always False
+```
+
+*Key insight: The black hole is the opposite endpoint from the first commitment — maximum density instead of minimum — but both have N=0 lapse.*
+
+---
+
 ## The Showcase (`toy_showcase.py`)
 
-A visual gallery with thumbnail icons for all 23 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
+A visual gallery with thumbnail icons for all 25 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
 
 ## The Menu (`play.py`)
 
@@ -320,6 +361,8 @@ All toys visualize concepts from three BST papers:
 And from the speculative:
 
 4. **"The Universe and the Neutron"** — Structural homology in BST
+5. **"The First Commitment"** — Why the frozen state cannot persist
+6. **"Black Holes in BST"** — What replaces the singularity
 
 The underlying space is D_IV^5 = SO_0(5,2) / [SO(5) x SO(2)], a bounded symmetric domain of complex dimension 5. Three integers generate everything:
 

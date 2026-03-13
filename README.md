@@ -34,7 +34,9 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | α_s (strong coupling) | (n_C+2)/(4n_C) = 7/20 | 0.350 (at mₚ) | runs to 0.1179 at m_Z | 1.7% at m_Z |
 | m_W (W boson mass) | m_Z√(10/13) | 79.977 GeV | 80.377 GeV | 0.5% |
 | η (baryon asymmetry) | 2α⁴/(3π) | 6.018×10⁻¹⁰ | 6.104×10⁻¹⁰ | 1.4% |
-| H₀ (Hubble constant) | from η via ΛCDM | 66.7 km/s/Mpc | 67.36 (Planck) | 1.0% |
+| H₀ (Hubble, Route A) | from η via ΛCDM | 66.7 km/s/Mpc | 67.36 (Planck) | 1.0% |
+| H₀ (Hubble, Route B) | √(19Λ/39) from Ω_Λ=13/19 | 68.0 km/s/Mpc | 67.36 (Planck) | 1.0% |
+| t₀ (cosmic age) | (2/3√Ω_Λ)/H₀ | 13.6 Gyr | 13.8 Gyr (Planck) | 1.4% |
 | mν₂ (neutrino mass) | (7/12)α²mₑ²/mₚ | 0.00865 eV | ~0.00868 eV | 0.35% |
 | mν₃ (neutrino mass) | (10/3)α²mₑ²/mₚ | 0.04940 eV | ~0.0503 eV | 1.8% |
 | sin²θ₁₂ (PMNS solar) | N_c/(2n_C) = 3/10 | 0.300 | 0.303 | 1.0% |
@@ -74,6 +76,8 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | B_d (deuteron) | α m_p/π | 2.179 MeV | 2.225 MeV | 2.1% |
 | Dark matter ratio | Shannon: B·log₂(1+S/N) | 5.33:1 | 5.4:1 (Planck) | 0.10 pp |
 | Galaxy rotation curves | Channel noise S/N | 12.5 km/s RMS | — | 175 galaxies, 0 params |
+| a₀ (MOND acceleration) | cH₀/√30 = cH₀/χ | 1.195×10⁻¹⁰ m/s² | 1.20±0.02 | **0.4%** |
+| Σ₀ (halo surface density) | a₀/(2πG) | 141 M☉/pc² | 10^(2.15±0.2) | **0.0 dex** |
 | CP floor (BH horizon) | α × 2GM/(Rc²) = α | 0.730% | ~1% (EHT) | consistent |
 | N_D (Dirac large number) | α⁻²³/(6π⁵)³ = α^{1-4C₂}/(C₂π^{n_C})³ | 2.274×10³⁹ | 2.270×10³⁹ | 0.18% |
 | Baryon resonance (k=7) | C₂(π₇)·π⁵·mₑ = 14π⁵mₑ | 2189 MeV | N(2190) 4★ | ~0.1% |
@@ -84,6 +88,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | m_φ (φ meson mass) | (N_c+2n_C)/2 · π⁵mₑ = (13/2)π⁵mₑ | 1016.4 MeV | 1019.5 MeV | 0.30% |
 | m_K* (K* meson mass) | √(65/2)·π⁵mₑ (geometric mean of ρ,φ) | 891.5 MeV | 891.7 MeV | 0.02% |
 | r_K+ (kaon charge radius) | √6/m_K*(BST) = √(12/65)/(π⁵mₑ) | 0.542 fm | 0.560 fm | 3.2% |
+| Tsirelson bound | 2√N_w = 2√(N_c−1) = 2√2 | 2.828 | 2.828 (exact) | exact |
 | Reality Budget Λ×N | N_c²/n_C = 9/5 = 1.800; fill fraction f = 3/(5π) = 19.1% | 1.800 | 1.800 (exact) | conjectured |
 | m_η' (η' meson mass) | (g²/8)π⁵mₑ = (49/8)π⁵mₑ = mₚ×49/48 | 957.8 MeV | 957.78 MeV | **0.004%** |
 | m_η (η meson mass) | (g/2)π⁵mₑ = (7/2)π⁵mₑ | 547.3 MeV | 547.9 MeV | 0.10% |
@@ -101,7 +106,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Γ_φ (φ meson width) | m_φ/(2×5!) = m_φ/240; OZI suppression = 1/n_C! | 4.248 MeV | 4.249±0.013 MeV | **0.02%** |
 | Γ_ρ/Γ_φ (width ratio) | n_C × g = 5 × 7 = 35 | 35.0 | 35.09 | 0.26% |
 
-**100+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
+**105+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
 
 ---
 
@@ -224,6 +229,12 @@ BST follows a single logical chain from one question to all of physics. Each ste
 
 **Black hole singularity resolved**: The Haldane cap ρ ≤ ρ₁₃₇ replaces the GR singularity with a maximally committed surface — finite density, finite curvature, N = 0 (time stopped). No interior exists: the membrane paradigm is exact. Both observers agree: the horizon is never crossed (universal lapse → 0). Hawking radiation is density gradient tunneling; the information paradox does not arise (commitments permanent, Page curve automatic). The BST Hawking temperature T ≈ 1/(2√137 × M) is 7% from exact; the geometric correction is computable. Black holes are Gödel-saturated regions (local f = 100%), requiring compensating cosmic voids — a structural consequence of the Reality Budget.
 
+**Why 56 — the cosmological constant exponent derived**: The exponent 56 in Λ ~ α⁵⁶ has two independent derivations: (1) 56 = 8g from the neutrino-vacuum connection (Λ ~ mν⁴ ~ (α²ᵍ)⁴ = α⁸ᵍ), and (2) 56 = g(g+1) from the partition function thermal scaling. These are self-consistent only at g = 7 (genus of D_IV^5). The connection g+1 = 8 = dim(SU(3)) links the genus to the gauge group. The 122 orders of magnitude between the Planck scale and vacuum energy are a theorem of the Cartan classification.
+
+**Cosmic coincidence resolved — the age of the universe derived**: BST's cosmic composition Ω_Λ = 13/19, Ω_m = 6/19 describes the information budget (always constant). The energy budget evolves with ΛCDM. These two budgets match at exactly one epoch — now. BST thereby predicts H₀ = √(19Λ/39) = 68.0 km/s/Mpc (1.0% from Planck) and t₀ = 13.6 Gyr (1.4%). The "why now?" problem is dissolved: we observe 13/19 because the information-energy intersection defines the current epoch.
+
+**Bell inequality as 3D phenomenon — Tsirelson bound derived**: Bell violation requires non-commuting measurement operators, which require SU(2), which requires exactly 3 spatial dimensions. The chain: n_C = 5 → Shilov boundary S⁴ → embeds 3D spatial slices → SO(3) → SU(2) spin → non-commuting measurements. The Tsirelson bound 2√2 = 2√N_w, where N_w = N_c − 1 = 2 is the weak isospin number. Entanglement is commitment-sharing: entangled particles share a common S¹ phase from their creation vertex. Holomorphicity of the Bergman kernel bounds correlations below 4 (the algebraic maximum). Bell violation is not mysterious action-at-distance but geometric phase coherence on the substrate.
+
 **The Master Equation (one sentence)**: The universe is the ground state of the Bergman Laplacian on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], subject to Haldane exclusion with capacity 137.
 
 ---
@@ -268,6 +279,8 @@ BST follows a single logical chain from one question to all of physics. Each ste
 - No black hole singularity (finite density ρ ≤ ρ₁₃₇) — gravitational wave echoes from LIGO/Virgo mergers
 - No firewall at horizon — smooth N→0 approach, not violent transition
 - Hawking temperature T_BST ≈ 1/(2√137 × M) with computable geometric correction — future BH observations
+- Tsirelson bound exactly 2√2 — no post-quantum theory can exceed it (SU(2) is the unique 3D spin group)
+- Cosmic age t₀ = 13.6 Gyr — precision cosmology (Planck: 13.8 ± 0.02 Gyr)
 
 ---
 
@@ -281,7 +294,7 @@ BST follows a single logical chain from one question to all of physics. Each ste
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `SPARC_BST_Results.csv` | Per-galaxy results for all 175 SPARC galaxies |
-| `notes/` | 91 working notes covering all derivations, proofs, and thesis topics |
+| `notes/` | 103 working notes covering all derivations, proofs, and thesis topics |
 
 ---
 
@@ -336,6 +349,15 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | Black hole singularity | Haldane cap ρ₁₃₇ replaces singularity; no interior (membrane paradigm exact); both observers agree horizon never crossed; N=0 (time stops, not space) | structural |
 | Information paradox | Does not arise: commitments permanent, Hawking radiation carries correlations, Page curve automatic | structural |
 | Arrow of time (geometric) | Negative holomorphic curvature H = −2/7 → irreversible spreading → Casimir ratchet k=0→1→3→6. Theorem of Cartan classification | structural |
+| MOND acceleration derived | a₀ = cH₀/χ = cH₀/√30; same √30 as pion mass and chiral condensate | **0.4%** |
+| Donato constant surface density | Σ₀ = a₀/(2πG) = 141 M☉/pc² universal for all halos | **0.0 dex** |
+| Baryonic Tully-Fisher derived | v⁴ = GMa₀ with a₀ from BST; zero intrinsic scatter | structural |
+| Λ exponent 56 derived (Why 56) | 56 = 8g = g(g+1), self-consistent only at g=7; g+1=8=dim(SU(3)) | structural |
+| Cosmic coincidence (Why Now) | Information budget constant (13/19), energy budget evolves; match at unique epoch = now | structural |
+| Cosmic age t₀ derived | t₀ = (2/3√Ω_Λ)/H₀ = 13.6 Gyr from BST integers alone | 1.4% |
+| H₀ (second route) | H₀ = √(19Λ/39) = 68.0 km/s/Mpc from Ω_Λ and Λ | 1.0% |
+| Bell inequality origin | Bell violation requires SU(2) requires 3D; chain from n_C=5 → S⁴ → 3D → SU(2) | structural |
+| Tsirelson bound | 2√N_w = 2√2 where N_w = N_c−1 = 2; holomorphicity bounds below 4 | exact |
 
 ## Remaining Open Problems
 
@@ -351,7 +373,7 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | Reality Budget derivation | Λ×N = 9/5 numerically exact; need proof from Z_Haldane spectral theory | 8 |
 | J/ψ and Υ masses | Extend vector meson formulas to charmed/bottom sector | 9 |
 
-**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem, Dirac large number, partition function duality, vector meson nonet (ρ, ω, K*, φ), pseudoscalar meson nonet (K, η, η'), pion/kaon charge radii (leading order), Reality Budget value (9/5), three-layer architecture, Gödel limit, cosmic composition (Ω_Λ, Ω_m, Ω_DM/Ω_b), SO(3)⊂SO(5) embedding (D₂ irreducible), n_C=5 uniqueness (η' anomaly), proton/neutron magnetic moments, W/Z boson widths, GMO identity exact, first commitment (Leibniz's question), black hole singularity (Haldane cap), information paradox (commitments permanent), arrow of time (geometric, from negative curvature).
+**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem, Dirac large number, partition function duality, vector meson nonet (ρ, ω, K*, φ), pseudoscalar meson nonet (K, η, η'), pion/kaon charge radii (leading order), Reality Budget value (9/5), three-layer architecture, Gödel limit, cosmic composition (Ω_Λ, Ω_m, Ω_DM/Ω_b), SO(3)⊂SO(5) embedding (D₂ irreducible), n_C=5 uniqueness (η' anomaly), proton/neutron magnetic moments, W/Z boson widths, GMO identity exact, first commitment (Leibniz's question), black hole singularity (Haldane cap), information paradox (commitments permanent), arrow of time (geometric, from negative curvature), Λ exponent 56 (two derivations, self-consistent at g=7), cosmic coincidence / Why Now (information-energy intersection), cosmic age t₀ (13.6 Gyr), H₀ second route (68.0 km/s/Mpc), Bell inequality origin (3D phenomenon), Tsirelson bound (2√2 = 2√N_w).
 
 ---
 

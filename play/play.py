@@ -134,6 +134,16 @@ TOYS = {
            'Complete meson nonet. All masses from π⁵m_e = 156 MeV.\n'
            '   η\' at 0.007%. CI-scriptable meson database.'),
 
+    '24': ('The Self-Starting Universe ★CI',
+           'toy_self_starting.py',
+           'N=0 is forbidden. Four proofs. The Casimir ratchet\n'
+           '   k=0→1→3→6. Existence is a theorem.'),
+
+    '25': ('The BST Black Hole ★CI',
+           'toy_black_hole.py',
+           'No singularity (Haldane cap). No interior (membrane).\n'
+           '   No paradox. Hawking T within 7%. Just a full channel.'),
+
     's': ('★ Showcase (visual gallery)',
           'toy_showcase.py',
           'Visual gallery of all toys with thumbnails and\n'
@@ -158,7 +168,7 @@ def main():
     print(f'  [q]  Quit')
     print()
 
-    choice = input('  Choose a toy (1-23, s=showcase, a=all, q=quit): ').strip().lower()
+    choice = input('  Choose a toy (1-25, s=showcase, a=all, q=quit): ').strip().lower()
 
     if choice == 'q':
         print('  Goodbye!')

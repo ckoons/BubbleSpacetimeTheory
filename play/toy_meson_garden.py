@@ -1,26 +1,39 @@
 #!/usr/bin/env python3
 """
-THE MESON GARDEN — Every Meson Mass from Two Integers
-=====================================================
-The COMPLETE pseudoscalar and vector meson nonets emerge from BST integers.
-All masses are multiples of the base unit pi^5 * m_e = 156.38 MeV.
+THE MESON GARDEN
+================
+A BST playground visualizing the complete pseudoscalar meson nonet
+and vector meson quartet, with all masses derived from a single
+base unit: pi^5 * m_e = 156.38 MeV.
 
-Two integers (n_C=5, genus=7) plus the electron mass give every meson.
-The pion is a Goldstone mode. The eta-prime is a genus-squared anomaly.
-Everything in between is integer arithmetic on a single scale.
+The same pi^5 that appears in the proton mass formula m_p/m_e = 6*pi^5
+sets the scale for ALL meson masses. Each meson mass is an integer
+or algebraic multiple of this unit, determined by BST integers:
+  n_C = 5, C_2 = 6, genus = 7, N_c = 3.
+
+Pseudoscalar nonet:
+  pi0, pi+/-     :  pi^5 * m_e                       =  156.38 MeV
+  K+/-, K0       :  sqrt(2*n_C) * pi^5 * m_e         =  494.49 MeV
+  eta            :  sqrt(C_2) * pi^5 * m_e            =  383.08 MeV
+  eta'           :  (g^2/8) * pi^5 * m_e              =  957.85 MeV
+
+Vector mesons:
+  rho            :  n_C * pi^5 * m_e                  =  781.89 MeV
+  omega          :  n_C * pi^5 * m_e                  =  781.89 MeV
+  K*             :  C_2 * pi^5 * m_e                  =  938.27 MeV
+  phi            :  (n_C+1) * pi^5 * m_e              =  938.27 MeV
+
+Key insight: pi^5 * m_e is the meson base unit, and 6 * (pi^5 * m_e)
+= proton mass.  The proton is the sixth harmonic of the meson garden.
 
 CI Interface:
     from toy_meson_garden import MesonGarden
     mg = MesonGarden()
-    mg.pseudoscalars()       # Full pseudoscalar nonet data
-    mg.vectors()             # Full vector nonet data
-    mg.meson('eta_prime')    # Single meson details
-    mg.eta_tower()           # eta'/eta = 7/4
-    mg.gmo_identity()        # 30*n_C = 3*g^2 + N_c
-    mg.cross_ratios()        # All inter-meson BST ratios
-    mg.uniqueness_proof()    # C2*8 = g^2 - 1 forces n_C=5
-    mg.phase_transition()    # T_c, C_V, latent heat
-    mg.channel_decomposition()  # 137 = 42 + 95
+    mg.all_mesons()          # All mesons with BST predictions
+    mg.pseudoscalars()       # Pseudoscalar nonet data
+    mg.vectors()             # Vector meson data
+    mg.precision_table()     # Formatted comparison table
+    mg.best_predictions()    # Sub-threshold predictions
 
 Copyright (c) 2026 Casey Koons. All rights reserved.
 This software is provided for demonstration purposes only.
@@ -32,531 +45,847 @@ Created with Claude Opus 4.6, March 2026.
 """
 
 import numpy as np
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
+import matplotlib.patheffects as pe
+from matplotlib.patches import FancyBboxPatch, Circle
+from matplotlib.gridspec import GridSpec
 
-# ─── BST Constants ───
-N_c = 3           # color number
-n_C = 5           # BST dimension parameter
+# ──────────────────────────────────────────────────────────────────
+#  BST Constants
+# ──────────────────────────────────────────────────────────────────
+N_c   = 3         # color charges
+n_C   = 5         # domain dimension  (D_IV^5)
+C_2   = n_C + 1   # 6  Casimir eigenvalue
+genus = n_C + 2   # 7  genus of D_IV^5
 N_max = 137       # channel capacity
-genus = n_C + 2   # 7
-C2 = n_C + 1      # 6  (Casimir)
-m_e = 0.51100     # MeV (electron mass)
+GAMMA = 1920      # |S_5 x (Z_2)^4|
+m_e   = 0.511     # electron mass in MeV
+PI5   = np.pi**5  # 306.0197...
 alpha = 1 / 137.035999
-pi5_me = np.pi**5 * m_e   # 156.38 MeV — the meson scale
-m_p = C2 * pi5_me         # 938.27 MeV (proton mass)
+
+# ──────────────────────────────────────────────────────────────────
+#  Colors (dark theme)
+# ──────────────────────────────────────────────────────────────────
+BG          = '#0a0a1a'
+DARK_PANEL  = '#0d0d24'
+GOLD        = '#ffd700'
+GOLD_DIM    = '#aa8800'
+BRIGHT_GOLD = '#ffee44'
+CYAN        = '#00ddff'
+GREEN       = '#00ff88'
+YELLOW      = '#ffee00'
+ORANGE      = '#ff8800'
+RED         = '#ff3344'
+MAGENTA     = '#ff44cc'
+WHITE       = '#eeeeff'
+GREY        = '#666688'
+SOFT_BLUE   = '#4488ff'
+VIOLET      = '#aa44ff'
 
 
-# ═══════════════════════════════════════════════════════════════════════
-# CI INTERFACE — MesonGarden class
-# ═══════════════════════════════════════════════════════════════════════
+def _precision_color(pct):
+    """Color by prediction quality: gold < 2%, green 2-5%, yellow 5-15%, red > 15%."""
+    ap = abs(pct)
+    if ap < 2.0:
+        return GOLD
+    elif ap < 5.0:
+        return GREEN
+    elif ap < 15.0:
+        return YELLOW
+    else:
+        return RED
 
+
+def _bar_color(pct):
+    """Softer bar fill color by precision bracket."""
+    ap = abs(pct)
+    if ap < 2.0:
+        return '#33aa55'
+    elif ap < 5.0:
+        return '#55aa33'
+    elif ap < 15.0:
+        return '#aa8833'
+    else:
+        return '#aa3333'
+
+
+# ══════════════════════════════════════════════════════════════════
+#  MesonGarden Class  (CI-scriptable API)
+# ══════════════════════════════════════════════════════════════════
 class MesonGarden:
-    """Complete BST meson spectrum from integers."""
+    """
+    BST meson mass predictions from the single base unit pi^5 * m_e.
+
+    Every pseudoscalar and vector meson mass is an algebraic multiple
+    of pi^5 * m_e = 156.38 MeV, determined by BST integers only.
+
+    Usage
+    -----
+        garden = MesonGarden()
+        print(garden.precision_table())
+        best = garden.best_predictions(threshold=1.0)
+    """
 
     def __init__(self):
-        self._base = pi5_me
-        self._build_mesons()
+        self.base_unit = PI5 * m_e                # pi^5 * m_e ~ 156.38 MeV
+        self.m_e = m_e
+        self.n_C = n_C
+        self.N_c = N_c
+        self.C_2 = C_2
+        self.genus = genus
 
-    def _build_mesons(self):
-        """Construct all meson data from BST integers."""
-        b = self._base
-        def _m(sym, form, bst, obs, s, note):
-            return {'symbol': sym, 'formula': form, 'bst': bst,
-                    'observed': obs, 'strangeness': s, 'note': note}
-        self._pseudoscalar = {
-            'pion':      _m('pi+/-', '25.6*sqrt(30)', 25.6 * np.sqrt(30),
-                            139.570, 0, 'Goldstone mode'),
-            'kaon':      _m('K+/-', 'sqrt(2*n_C) * pi^5*m_e', np.sqrt(2*n_C) * b,
-                            493.677, 1, 'One strange quark'),
-            'eta':       _m('eta', '(genus/2) * pi^5*m_e', (genus/2) * b,
-                            547.862, 0, 'Genus/2 coefficient'),
-            'eta_prime': _m("eta'", '(genus^2/8) * pi^5*m_e', (genus**2/8) * b,
-                            957.78, 0, 'U(1)_A anomaly = genus^2 effect'),
-        }
-        self._vector = {
-            'rho':   _m('rho(775)', 'n_C * pi^5*m_e', n_C * b,
-                         775.26, 0, 'n_C coefficient'),
-            'omega': _m('omega(783)', 'n_C * pi^5*m_e', n_C * b,
-                         782.66, 0, 'Isospin partner of rho'),
-            'k_star': _m('K*(892)', 'sqrt(n_C*13/2) * pi^5*m_e', np.sqrt(n_C*13/2) * b,
-                          891.67, 1, 'Weinberg denominator appears'),
-            'phi':   _m('phi(1020)', '(13/2) * pi^5*m_e', (13/2) * b,
-                         1019.461, 2, 's-sbar: Weinberg denominator / 2'),
-        }
+        self._pseudoscalars = self._build_pseudoscalars()
+        self._vectors       = self._build_vectors()
 
-    def _pct(self, v):
-        return abs(v['bst'] - v['observed']) / v['observed'] * 100
+    # ── builders ─────────────────────────────────────────────────
 
-    def pseudoscalars(self):
-        """Return the full pseudoscalar nonet with formulas and precision."""
-        return {k: {**v, 'match': f'{self._pct(v):.3f}%'}
-                for k, v in self._pseudoscalar.items()}
+    def _build_pseudoscalars(self):
+        bu = self.base_unit
+        g  = self.genus
+        return [
+            {
+                'name': '\u03c0\u2070',
+                'latex': r'$\pi^0$',
+                'formula_str': 'pi^5 * m_e',
+                'multiplier': 1.0,
+                'multiplier_label': '1',
+                'bst_mass': bu,
+                'observed': 134.977,
+                'strangeness': 0,
+                'isospin3': 0.0,
+                'category': 'pseudoscalar',
+                'note': 'needs quark mass correction',
+            },
+            {
+                'name': '\u03c0\u207a',
+                'latex': r'$\pi^+$',
+                'formula_str': 'pi^5 * m_e',
+                'multiplier': 1.0,
+                'multiplier_label': '1',
+                'bst_mass': bu,
+                'observed': 139.570,
+                'strangeness': 0,
+                'isospin3': 1.0,
+                'category': 'pseudoscalar',
+                'note': 'needs quark mass correction',
+            },
+            {
+                'name': '\u03c0\u207b',
+                'latex': r'$\pi^-$',
+                'formula_str': 'pi^5 * m_e',
+                'multiplier': 1.0,
+                'multiplier_label': '1',
+                'bst_mass': bu,
+                'observed': 139.570,
+                'strangeness': 0,
+                'isospin3': -1.0,
+                'category': 'pseudoscalar',
+                'note': 'needs quark mass correction',
+            },
+            {
+                'name': 'K\u207a',
+                'latex': r'$K^+$',
+                'formula_str': 'sqrt(2*n_C) * pi^5 * m_e',
+                'multiplier': np.sqrt(2 * n_C),
+                'multiplier_label': '\u221a10',
+                'bst_mass': np.sqrt(2 * n_C) * bu,
+                'observed': 493.677,
+                'strangeness': 1,
+                'isospin3': 0.5,
+                'category': 'pseudoscalar',
+                'note': '',
+            },
+            {
+                'name': 'K\u207b',
+                'latex': r'$K^-$',
+                'formula_str': 'sqrt(2*n_C) * pi^5 * m_e',
+                'multiplier': np.sqrt(2 * n_C),
+                'multiplier_label': '\u221a10',
+                'bst_mass': np.sqrt(2 * n_C) * bu,
+                'observed': 493.677,
+                'strangeness': -1,
+                'isospin3': -0.5,
+                'category': 'pseudoscalar',
+                'note': '',
+            },
+            {
+                'name': 'K\u2070',
+                'latex': r'$K^0$',
+                'formula_str': 'sqrt(2*n_C) * pi^5 * m_e',
+                'multiplier': np.sqrt(2 * n_C),
+                'multiplier_label': '\u221a10',
+                'bst_mass': np.sqrt(2 * n_C) * bu,
+                'observed': 497.611,
+                'strangeness': 1,
+                'isospin3': -0.5,
+                'category': 'pseudoscalar',
+                'note': '',
+            },
+            {
+                'name': 'K\u0304\u2070',
+                'latex': r'$\bar{K}^0$',
+                'formula_str': 'sqrt(2*n_C) * pi^5 * m_e',
+                'multiplier': np.sqrt(2 * n_C),
+                'multiplier_label': '\u221a10',
+                'bst_mass': np.sqrt(2 * n_C) * bu,
+                'observed': 497.611,
+                'strangeness': -1,
+                'isospin3': 0.5,
+                'category': 'pseudoscalar',
+                'note': '',
+            },
+            {
+                'name': '\u03b7',
+                'latex': r'$\eta$',
+                'formula_str': 'sqrt(C_2) * pi^5 * m_e',
+                'multiplier': np.sqrt(C_2),
+                'multiplier_label': '\u221a6',
+                'bst_mass': np.sqrt(C_2) * bu,
+                'observed': 547.862,
+                'strangeness': 0,
+                'isospin3': 0.0,
+                'category': 'pseudoscalar',
+                'note': "eta-eta' mixing not included",
+            },
+            {
+                'name': "\u03b7'",
+                'latex': r"$\eta'$",
+                'formula_str': '(g^2/8) * pi^5 * m_e',
+                'multiplier': g**2 / 8.0,
+                'multiplier_label': '49/8',
+                'bst_mass': (g**2 / 8.0) * bu,
+                'observed': 957.78,
+                'strangeness': 0,
+                'isospin3': 0.0,
+                'category': 'pseudoscalar',
+                'note': 'U(1)_A anomaly mass',
+            },
+        ]
 
-    def vectors(self):
-        """Return the full vector nonet with formulas and precision."""
-        return {k: {**v, 'match': f'{self._pct(v):.3f}%'}
-                for k, v in self._vector.items()}
+    def _build_vectors(self):
+        bu = self.base_unit
+        return [
+            {
+                'name': '\u03c1',
+                'latex': r'$\rho$',
+                'formula_str': 'n_C * pi^5 * m_e',
+                'multiplier': float(n_C),
+                'multiplier_label': '5',
+                'bst_mass': n_C * bu,
+                'observed': 775.26,
+                'strangeness': 0,
+                'isospin3': 0.0,
+                'category': 'vector',
+                'note': '',
+            },
+            {
+                'name': '\u03c9',
+                'latex': r'$\omega$',
+                'formula_str': 'n_C * pi^5 * m_e',
+                'multiplier': float(n_C),
+                'multiplier_label': '5',
+                'bst_mass': n_C * bu,
+                'observed': 782.66,
+                'strangeness': 0,
+                'isospin3': 0.0,
+                'category': 'vector',
+                'note': '',
+            },
+            {
+                'name': 'K*',
+                'latex': r'$K^*$',
+                'formula_str': 'C_2 * pi^5 * m_e',
+                'multiplier': float(C_2),
+                'multiplier_label': '6',
+                'bst_mass': C_2 * bu,
+                'observed': 891.67,
+                'strangeness': 1,
+                'isospin3': 0.0,
+                'category': 'vector',
+                'note': '',
+            },
+            {
+                'name': '\u03c6',
+                'latex': r'$\phi$',
+                'formula_str': '(n_C+1) * pi^5 * m_e',
+                'multiplier': float(n_C + 1),
+                'multiplier_label': '6',
+                'bst_mass': (n_C + 1) * bu,
+                'observed': 1019.461,
+                'strangeness': 0,
+                'isospin3': 0.0,
+                'category': 'vector',
+                'note': 's-sbar',
+            },
+        ]
 
-    def meson(self, name):
-        """Look up a single meson by name."""
-        all_m = {**self._pseudoscalar, **self._vector}
-        if name not in all_m:
-            return f"Unknown meson '{name}'. Available: {list(all_m.keys())}"
-        v = all_m[name]
-        return {**v, 'match': f'{self._pct(v):.3f}%'}
+    # ── public API ───────────────────────────────────────────────
+
+    def _add_precision(self, m):
+        """Return copy of meson dict with precision_pct added."""
+        entry = dict(m)
+        entry['precision_pct'] = 100.0 * (m['bst_mass'] - m['observed']) / m['observed']
+        return entry
 
     def all_mesons(self):
-        """Return all 8 mesons as a sorted list by BST mass."""
-        result = []
-        for src, kind in [(self._pseudoscalar, 'pseudoscalar'),
-                          (self._vector, 'vector')]:
-            for k, v in src.items():
-                result.append({
-                    'name': k, 'type': kind,
-                    'precision_pct': self._pct(v), **v,
-                    'match': f'{self._pct(v):.3f}%'
-                })
-        return sorted(result, key=lambda m: m['bst'])
+        """Return all mesons with BST predictions and observed values."""
+        return [self._add_precision(m) for m in self._pseudoscalars + self._vectors]
+
+    def pseudoscalars(self):
+        """Return pseudoscalar nonet."""
+        return [self._add_precision(m) for m in self._pseudoscalars]
+
+    def vectors(self):
+        """Return vector mesons."""
+        return [self._add_precision(m) for m in self._vectors]
+
+    def precision_table(self):
+        """Return a formatted precision comparison table as a string."""
+        lines = []
+        lines.append('')
+        lines.append('=' * 92)
+        lines.append('  THE MESON GARDEN  --  BST Mass Predictions from pi^5 * m_e')
+        lines.append('=' * 92)
+        lines.append(f'  Base unit:  pi^5 * m_e = {self.base_unit:.2f} MeV')
+        lines.append(f'  Proton:     6 * pi^5 * m_e = {6 * self.base_unit:.2f} MeV'
+                      f'  (observed: 938.272 MeV)')
+        lines.append('-' * 92)
+        hdr = f'  {"Meson":<12} {"Multiplier":<14} {"BST (MeV)":>12}'
+        hdr += f'  {"Obs (MeV)":>12}  {"Delta":>10}  {"Note"}'
+        lines.append(hdr)
+        lines.append('-' * 92)
+
+        lines.append('  PSEUDOSCALAR NONET (J^P = 0^-)')
+        lines.append('  ' + '-' * 88)
+        for m in self.pseudoscalars():
+            delta = f'{m["precision_pct"]:+.2f}%'
+            note = m.get('note', '')
+            lines.append(
+                f'  {m["name"]:<12} {m["multiplier_label"]:<14}'
+                f' {m["bst_mass"]:>12.2f}  {m["observed"]:>12.3f}'
+                f'  {delta:>10}  {note}'
+            )
+
+        lines.append('')
+        lines.append('  VECTOR MESONS (J^P = 1^-)')
+        lines.append('  ' + '-' * 88)
+        for m in self.vectors():
+            delta = f'{m["precision_pct"]:+.2f}%'
+            note = m.get('note', '')
+            lines.append(
+                f'  {m["name"]:<12} {m["multiplier_label"]:<14}'
+                f' {m["bst_mass"]:>12.2f}  {m["observed"]:>12.3f}'
+                f'  {delta:>10}  {note}'
+            )
+
+        lines.append('-' * 92)
+        lines.append(f'  BST integers: N_c={N_c}, n_C={n_C}, C_2={C_2},'
+                      f' genus={genus}, |Gamma|={GAMMA}')
+        lines.append('=' * 92)
+        lines.append('')
+        return '\n'.join(lines)
+
+    def best_predictions(self, threshold=2.0):
+        """Return predictions better than *threshold* percent."""
+        return [m for m in self.all_mesons() if abs(m['precision_pct']) < threshold]
 
     def summary(self):
-        """Print a formatted summary of the complete meson garden."""
-        print("\n  THE MESON GARDEN — BST Meson Spectrum")
-        print(f"  Base unit: pi^5 * m_e = {pi5_me:.2f} MeV")
-        print(f"  From integers: n_C={n_C}, genus={genus}, N_c={N_c}\n")
-        print(f"  {'Meson':<12} {'Type':<13} {'BST (MeV)':>10} {'Obs (MeV)':>10} {'Match':>8}")
-        print("  " + "-" * 57)
-        for m in self.all_mesons():
-            print(f"  {m['name']:<12} {m['type']:<13} {m['bst']:>10.2f} "
-                  f"{m['observed']:>10.2f} {m['match']:>8}")
-        print()
-        gmo = self.gmo_identity()
-        print(f"  GMO identity: {gmo['identity']} (exact={gmo['exact']})")
-        print(f"  Eta tower: m_eta'/m_eta = {self.eta_tower()['ratio_bst']:.4f} "
-              f"(BST: {genus}/4 = 7/4)")
-        up = self.uniqueness_proof()
-        print(f"  Uniqueness: {up['equation']} -> {up['solution']}")
-        pt = self.phase_transition()
-        print(f"  Phase transition: C_V = {pt['C_V_bst']:.0f} "
-              f"(obs ~330,000, {pt['C_V_match']})")
-        cd = self.channel_decomposition()
-        print(f"  Channel: {cd['N_max']} = {cd['matter_modes']} + {cd['vacuum_modes']}"
-              f" (check={cd['check']})\n")
-
-    def eta_tower(self):
-        """The eta tower: m_eta'/m_eta = genus/4 = 7/4."""
-        r_bst = self._pseudoscalar['eta_prime']['bst'] / self._pseudoscalar['eta']['bst']
-        r_exact = genus / 4
-        return {
-            'ratio_bst': r_bst,
-            'ratio_exact': r_exact,
-            'formula': "m_eta'/m_eta = genus/4 = 7/4",
-            'match': f'{abs(r_bst - r_exact) / r_exact * 100:.4f}%',
-            'note': 'Exact in BST: (g^2/8)/(g/2) = g/4'
-        }
-
-    def gmo_identity(self):
-        """The Gell-Mann--Okubo identity in BST: 30*n_C = 3*g^2 + N_c."""
-        lhs = 30 * n_C
-        rhs = 3 * genus**2 + N_c
-        return {
-            'lhs': f'30 * n_C = 30 * {n_C} = {lhs}',
-            'rhs': f'3 * g^2 + N_c = 3*{genus**2} + {N_c} = {rhs}',
-            'exact': lhs == rhs,
-            'identity': f'{lhs} = {rhs}',
-            'note': 'EXACT — the GMO sum rule is an algebraic identity in BST'
-        }
-
-    def cross_ratios(self):
-        """All inter-meson mass ratios with BST explanations."""
-        ps, vc = self._pseudoscalar, self._vector
-        R = lambda a, b: a['bst'] / b['bst']
-        return {
-            "eta'/eta":    {'value': R(ps['eta_prime'], ps['eta']),
-                            'bst': 'genus/4 = 7/4 = 1.750'},
-            "phi/eta":     {'value': R(vc['phi'], ps['eta']),
-                            'bst': '13/7 = Weinberg_denom / genus'},
-            "K*/K":        {'value': R(vc['k_star'], ps['kaon']),
-                            'bst': 'sqrt(13/4) = sqrt(Weinberg_denom/4)'},
-            "rho/pion":    {'value': R(vc['rho'], ps['pion']),
-                            'bst': 'n_C * pi^5 * m_e / (25.6*sqrt(30))'},
-            "eta'/proton": {'value': ps['eta_prime']['bst'] / m_p,
-                            'bst': 'g^2 / (8*C2) = 49/48'},
-            "phi/rho":     {'value': R(vc['phi'], vc['rho']),
-                            'bst': '13/10 = (N_c+2*n_C)/(2*n_C)'},
-        }
-
-    def uniqueness_proof(self):
-        """C2*8 = g^2 - 1 forces n_C = 5."""
-        return {
-            'equation': 'C2 * 8 = g^2 - 1',
-            'expanded': '(n_C+1)*8 = (n_C+2)^2 - 1',
-            'simplified': 'n_C^2 - 4*n_C - 5 = 0',
-            'factors': '(n_C - 5)(n_C + 1) = 0',
-            'solution': 'n_C = 5 (unique positive root)',
-            'check': {
-                'C2_times_8': C2 * 8,
-                'g_squared_minus_1': genus**2 - 1,
-                'equal': C2 * 8 == genus**2 - 1
-            },
-            'note': 'The U(1)_A anomaly coefficient times dim(SU(3)) '
-                    'equals genus^2 - 1. Only n_C=5 works.'
-        }
-
-    def phase_transition(self):
-        """Phase transition: T_c, C_V, latent heat."""
-        T_c = N_max * 20 / 21
-        alpha_s = (n_C + 2) / (4 * n_C)  # 7/20
-        C_V = alpha_s * 50 * N_max**2
-        return {
-            'T_c_formula': 'N_max * 20/21',
-            'T_c_MeV': T_c * m_e / N_max,  # convert to physical
-            'T_c_raw': T_c,
-            'T_c_observed': '~0.487 MeV',
-            'C_V_formula': 'alpha_s * 50 * N_max^2 = (7/20)*50*137^2',
-            'C_V_bst': C_V,
-            'C_V_observed': '~330,000',
-            'C_V_match': f'{abs(C_V - 330000) / 330000 * 100:.2f}%',
-            'latent_heat': 'approx m_p per degree of freedom',
-            'note': 'The transition literally makes protons'
-        }
-
-    def channel_decomposition(self):
-        """N_max = 137 = 42 (matter) + 95 (vacuum)."""
-        matter = C2 * genus     # 6*7 = 42
-        vacuum = n_C * 19       # 5*19 = 95
-        return {
-            'N_max': N_max,
-            'matter_modes': matter,
-            'matter_formula': f'C2 * genus = {C2} * {genus} = {matter}',
-            'vacuum_modes': vacuum,
-            'vacuum_formula': f'n_C * 19 = {n_C} * 19 = {vacuum}',
-            'sum': matter + vacuum,
-            'check': matter + vacuum == N_max,
-            'note': '42 gold (matter) + 95 purple (vacuum) = 137'
-        }
+        """One-line summary statistics."""
+        all_m = self.all_mesons()
+        precs = [abs(m['precision_pct']) for m in all_m]
+        n_good = sum(1 for p in precs if p < 2.0)
+        return (f'{len(all_m)} mesons | base unit {self.base_unit:.2f} MeV |'
+                f' median error {np.median(precs):.1f}% |'
+                f' {n_good}/{len(all_m)} within 2%')
 
 
-# ═══════════════════════════════════════════════════════════════════════
-# VISUALIZATION
-# ═══════════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════════
+#  Visualization Helpers
+# ══════════════════════════════════════════════════════════════════
 
-def _draw_flower(ax, x, y_base, y_head, color, name, info,
-                 obs_y=None, petal='o', glow=True):
-    """Draw a meson as a flower: stem + blossom at its energy level."""
-    ax.plot([x, x], [y_base, y_head - 8], color='#224422', lw=1.8, alpha=0.6, zorder=1)
-    mid = (y_base + y_head) / 2
-    for ly in [mid - 30, mid, mid + 30]:
-        if y_base + 10 < ly < y_head - 20:
-            dx = 6 if int(ly) % 2 == 0 else -6
-            ax.plot([x, x + dx], [ly, ly + 5], color='#336633', lw=1.2, alpha=0.5, zorder=1)
-    if glow:
-        ax.scatter([x], [y_head], s=900, color=color, alpha=0.10, zorder=2)
-        ax.scatter([x], [y_head], s=500, color=color, alpha=0.15, zorder=2)
-    mk = {'o': 'o', '*': '*', 'D': 'D'}.get(petal, 'o')
-    ax.scatter([x], [y_head], s=250, marker=mk, color=color,
-               edgecolors='white', linewidth=0.7, zorder=5, alpha=0.95)
-    if obs_y is not None:
-        ax.plot([x-4, x+4], [obs_y, obs_y], color='white', lw=1.2, alpha=0.6, zorder=4)
-        ax.plot([x-3.5, x+3.5], [obs_y, obs_y], color=color, lw=0.6, alpha=0.8, zorder=4)
-    ax.text(x - 5.5, y_head, name, fontsize=7.5, color=color, ha='right',
-            va='center', fontfamily='monospace', fontweight='bold', zorder=6)
-    ax.text(x + 5.5, y_head, info, fontsize=6.5, color='#999999', ha='left',
-            va='center', fontfamily='monospace', zorder=6)
+# Nonet layout: positions in the (I_3, Strangeness) weight diagram.
+_NONET_NODES = [
+    # key,        I3,    S,   display_name,        data_name,         latex
+    ('pi+',       1.0,   0,   '\u03c0\u207a',      '\u03c0\u207a',   r'$\pi^+$'),
+    ('pi0',       0.0,   0,   '\u03c0\u2070',      '\u03c0\u2070',   r'$\pi^0$'),
+    ('pi-',      -1.0,   0,   '\u03c0\u207b',      '\u03c0\u207b',   r'$\pi^-$'),
+    ('K+',        0.5,   1,   'K\u207a',           'K\u207a',        r'$K^+$'),
+    ('K0',       -0.5,   1,   'K\u2070',           'K\u2070',        r'$K^0$'),
+    ('Kbar0',     0.5,  -1,   'K\u0304\u2070',     'K\u0304\u2070',  r'$\bar{K}^0$'),
+    ('K-',       -0.5,  -1,   'K\u207b',           'K\u207b',        r'$K^-$'),
+    ('eta',       0.0,   0,   '\u03b7',            '\u03b7',         r'$\eta$'),
+    ('etap',      0.0,   0,   "\u03b7'",           "\u03b7'",        r"$\eta'$"),
+]
 
+# Visual offsets so eta, eta', pi0 don't overlap at origin
+_NONET_OFFSETS = {
+    'pi0':  ( 0.00,  0.00),
+    'eta':  ( 0.00, -0.35),
+    'etap': ( 0.00, -0.70),
+}
 
-def _connect(ax, x1, y1, x2, y2, label, color='#555555'):
-    """Dashed line between two mesons with a ratio label."""
-    ax.plot([x1, x2], [y1, y2], '--', color=color, lw=0.8, alpha=0.5, zorder=3)
-    ax.text((x1+x2)/2 + 2, (y1+y2)/2, label, fontsize=6.5, color=color,
-            ha='left', va='center', fontfamily='monospace', fontweight='bold',
-            bbox=dict(boxstyle='round,pad=0.15', facecolor='#0a0a1a',
-                      edgecolor=color, alpha=0.8, linewidth=0.5))
+# SU(3) flavor structure lines (outer hexagon + radial)
+_SU3_EDGES = [
+    ('pi+', 'K+'),  ('K+', 'K0'),   ('K0', 'pi-'),
+    ('pi-', 'K-'),  ('K-', 'Kbar0'),('Kbar0', 'pi+'),
+    ('pi+', 'pi0'), ('pi-', 'pi0'),
+    ('K+',  'pi0'), ('K0',  'pi0'),
+    ('K-',  'pi0'), ('Kbar0','pi0'),
+]
 
 
-def show():
-    """Render the full Meson Garden visualization."""
-    import matplotlib
-    matplotlib.use('TkAgg')
-    import matplotlib.pyplot as plt
-    import matplotlib.patheffects as pe
-    from matplotlib.patches import FancyBboxPatch, Rectangle
+def _draw_nonet(ax, garden):
+    """Draw the pseudoscalar meson nonet on the (I_3, S) weight diagram."""
+    ax.set_facecolor(BG)
+    ax.set_xlim(-1.9, 1.9)
+    ax.set_ylim(-1.7, 1.7)
+    ax.set_aspect('equal')
+    ax.axis('off')
 
-    mg = MesonGarden()
-    ps = mg.pseudoscalars()
-    vc = mg.vectors()
+    ax.set_title('Pseudoscalar Nonet  (J$^P$ = 0$^-$)',
+                 fontsize=14, fontweight='bold', color=GOLD,
+                 fontfamily='monospace', pad=12)
 
-    fig = plt.figure(figsize=(20, 13), facecolor='#0a0a1a')
-    fig.canvas.manager.set_window_title('The Meson Garden — BST')
+    # Axis labels and arrows
+    ax.text(1.80, -1.50, '$I_3$', fontsize=12, color=GREY,
+            ha='right', fontfamily='monospace')
+    ax.text(-1.80, 1.55, '$S$', fontsize=12, color=GREY,
+            ha='left', fontfamily='monospace')
+    ax.annotate('', xy=(1.75, 0), xytext=(-1.75, 0),
+                arrowprops=dict(arrowstyle='->', color=GREY, lw=0.8, ls='--'))
+    ax.annotate('', xy=(0, 1.55), xytext=(0, -1.45),
+                arrowprops=dict(arrowstyle='->', color=GREY, lw=0.8, ls='--'))
 
-    # ─── Title ───
-    fig.text(0.50, 0.965, 'THE MESON GARDEN', fontsize=28, fontweight='bold',
-             color='#88dd44', ha='center', fontfamily='monospace',
-             path_effects=[pe.withStroke(linewidth=3, foreground='#224411')])
-    fig.text(0.50, 0.938, 'Every Meson Mass from Two Integers',
-             fontsize=13, color='#669933', ha='center', fontfamily='monospace')
+    # Strangeness labels
+    for s_val, s_lbl in [(1, 'S=+1'), (0, 'S=0'), (-1, 'S=-1')]:
+        ax.text(-1.75, s_val, s_lbl, fontsize=7, color='#445566',
+                ha='left', va='center', fontfamily='monospace', alpha=0.6)
 
-    # ═════════════════════════════════════════════════
-    # LEFT PANEL (45%) — The Meson Spectrum
-    # ═════════════════════════════════════════════════
-    ax = fig.add_axes([0.03, 0.07, 0.42, 0.84])
-    ax.set_facecolor('#0a0a1a')
-    ax.set_xlim(-15, 85); ax.set_ylim(-20, 1100)
+    # Build position map
+    positions = {}
+    for key, i3, s, dname, data_name, latex in _NONET_NODES:
+        dx, dy = _NONET_OFFSETS.get(key, (0, 0))
+        positions[key] = (i3 + dx, s + dy)
 
-    for e in range(0, 1100, 100):
-        ax.axhline(y=e, color='#181830', lw=0.4, zorder=0)
-    for e in range(0, 1100, 200):
-        ax.text(-14, e, f'{e}', fontsize=7, color='#446644', ha='right',
+    # Draw SU(3) connecting lines
+    for a, b in _SU3_EDGES:
+        if a in positions and b in positions:
+            xa, ya = positions[a]
+            xb, yb = positions[b]
+            ax.plot([xa, xb], [ya, yb], color='#223355', lw=0.8,
+                    alpha=0.45, zorder=1)
+
+    # Draw outer hexagon
+    hex_keys = ['K+', 'pi+', 'Kbar0', 'K-', 'pi-', 'K0']
+    hx = [positions[k][0] for k in hex_keys] + [positions[hex_keys[0]][0]]
+    hy = [positions[k][1] for k in hex_keys] + [positions[hex_keys[0]][1]]
+    ax.plot(hx, hy, color='#334466', lw=1.3, alpha=0.55, zorder=0)
+
+    # Build data lookup
+    ps_data = {}
+    for m in garden.pseudoscalars():
+        ps_data[m['name']] = m
+
+    # Draw nodes
+    for key, i3, s, dname, data_name, latex in _NONET_NODES:
+        x, y = positions[key]
+        mdata = ps_data.get(data_name)
+        if mdata is None:
+            continue
+        mass = mdata['bst_mass']
+        prec = mdata['precision_pct']
+        node_color = _precision_color(prec)
+        radius = 0.07 + 0.09 * (mass / 1000.0)
+
+        # glow
+        glow = plt.Circle((x, y), radius * 1.7, color=node_color,
+                           alpha=0.08, zorder=2)
+        ax.add_patch(glow)
+        # node
+        circ = plt.Circle((x, y), radius, color=node_color,
+                           alpha=0.85, zorder=3)
+        ax.add_patch(circ)
+        # particle label
+        ax.text(x, y + radius + 0.13, latex, fontsize=11,
+                color=WHITE, ha='center', va='bottom',
+                fontfamily='monospace', fontweight='bold',
+                path_effects=[pe.withStroke(linewidth=2, foreground=BG)],
+                zorder=4)
+        # mass value
+        ax.text(x, y - radius - 0.09, f'{mass:.0f}',
+                fontsize=8, color=node_color, ha='center',
+                va='top', fontfamily='monospace', zorder=4)
+
+    # Precision legend
+    ly = -1.35
+    for label, col in [('<2%', GOLD), ('2\u20135%', GREEN),
+                       ('5\u201315%', YELLOW), ('>15%', RED)]:
+        ax.plot(-1.60, ly, 'o', color=col, markersize=6)
+        ax.text(-1.44, ly, label, fontsize=8, color=col,
                 va='center', fontfamily='monospace')
-    ax.text(-14, 1080, 'MeV', fontsize=7, color='#446644', ha='right',
+        ly -= 0.20
+
+
+def _draw_vectors_diagram(ax, garden):
+    """Draw vector mesons in a diamond layout."""
+    ax.set_facecolor(BG)
+    ax.set_xlim(-1.6, 1.6)
+    ax.set_ylim(-1.0, 1.3)
+    ax.set_aspect('equal')
+    ax.axis('off')
+
+    ax.set_title('Vector Mesons  (J$^P$ = 1$^-$)',
+                 fontsize=13, fontweight='bold', color=GOLD,
+                 fontfamily='monospace', pad=8)
+
+    v_list = garden.vectors()
+    # rho, omega, K*, phi in diamond
+    layout = [
+        (v_list[0], -0.65,  0.0),   # rho
+        (v_list[1],  0.65,  0.0),   # omega
+        (v_list[2],  0.0,   0.65),  # K*
+        (v_list[3],  0.0,  -0.45),  # phi
+    ]
+
+    # connecting lines
+    for i in range(len(layout)):
+        for j in range(i + 1, len(layout)):
+            _, x1, y1 = layout[i]
+            _, x2, y2 = layout[j]
+            ax.plot([x1, x2], [y1, y2], color='#334466', lw=0.8,
+                    alpha=0.35, zorder=0)
+
+    for mdata, x, y in layout:
+        mass = mdata['bst_mass']
+        prec = mdata['precision_pct']
+        node_color = _precision_color(prec)
+        radius = 0.08 + 0.07 * (mass / 1000.0)
+
+        glow = plt.Circle((x, y), radius * 1.7, color=node_color,
+                           alpha=0.08, zorder=2)
+        ax.add_patch(glow)
+        circ = plt.Circle((x, y), radius, color=node_color,
+                           alpha=0.85, zorder=3)
+        ax.add_patch(circ)
+
+        ax.text(x, y + radius + 0.11, mdata['latex'], fontsize=11,
+                color=WHITE, ha='center', va='bottom',
+                fontfamily='monospace', fontweight='bold',
+                path_effects=[pe.withStroke(linewidth=2, foreground=BG)],
+                zorder=4)
+        ax.text(x, y - radius - 0.07, f'{mass:.0f}',
+                fontsize=8, color=node_color, ha='center',
+                va='top', fontfamily='monospace', zorder=4)
+
+    # Multiplier annotations
+    ax.text(-1.40, -0.85, 'k = n_C = 5', fontsize=7, color=GREY,
+            fontfamily='monospace', ha='left')
+    ax.text(0.55, -0.85, 'k = C\u2082 = 6', fontsize=7, color=GREY,
+            fontfamily='monospace', ha='left')
+
+
+def _draw_comparison_bars(ax, garden):
+    """Horizontal bar chart comparing BST predictions vs observed."""
+    ax.set_facecolor(DARK_PANEL)
+
+    all_m = garden.all_mesons()
+    # Deduplicate: merge charge conjugates for display
+    seen = set()
+    display = []
+    for m in all_m:
+        key = m['name'].replace('\u207a', '').replace('\u207b', '')
+        key = key.replace('K\u0304\u2070', 'K\u2070')
+        if key in seen:
+            continue
+        seen.add(key)
+        display.append(m)
+
+    display = list(reversed(display))
+    n = len(display)
+    y_pos = np.arange(n)
+
+    names     = [m['name'] for m in display]
+    bst_vals  = [m['bst_mass'] for m in display]
+    obs_vals  = [m['observed'] for m in display]
+    precs     = [m['precision_pct'] for m in display]
+
+    # Observed bars (dim)
+    ax.barh(y_pos, obs_vals, height=0.36, color='#223344', alpha=0.70,
+            label='Observed', zorder=1)
+
+    # BST bars (colored by precision)
+    for i in range(n):
+        col = _bar_color(precs[i])
+        ax.barh(y_pos[i], bst_vals[i], height=0.36, color=col,
+                alpha=0.85, zorder=2)
+        # precision label at right
+        pcol = _precision_color(precs[i])
+        xtext = max(bst_vals[i], obs_vals[i]) + 18
+        ax.text(xtext, y_pos[i], f'{precs[i]:+.2f}%', fontsize=8,
+                color=pcol, va='center', fontfamily='monospace', zorder=3)
+
+    ax.set_yticks(y_pos)
+    ax.set_yticklabels(names, fontsize=10, color=WHITE, fontfamily='monospace')
+    ax.set_xlabel('Mass (MeV)', fontsize=11, color=GOLD_DIM,
+                  fontfamily='monospace')
+    ax.set_title('BST Prediction vs Observed',
+                 fontsize=13, fontweight='bold', color=GOLD,
+                 fontfamily='monospace', pad=10)
+
+    ax.tick_params(colors=GREY, which='both')
+    ax.spines['bottom'].set_color(GREY)
+    ax.spines['left'].set_color(GREY)
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.set_xlim(0, 1250)
+
+    # Legend
+    from matplotlib.patches import Patch
+    legend_elements = [
+        Patch(facecolor='#223344', alpha=0.7, label='Observed'),
+        Patch(facecolor='#33aa55', label='BST (colored by precision)'),
+    ]
+    ax.legend(handles=legend_elements, loc='lower right', fontsize=8,
+              facecolor=DARK_PANEL, edgecolor=GREY, labelcolor=WHITE,
+              framealpha=0.9)
+
+
+def _draw_table_panel(ax, garden):
+    """Compact in-figure table showing BST formulas, multipliers, and precision."""
+    ax.set_facecolor(DARK_PANEL)
+    ax.set_xlim(0, 1)
+    ax.set_ylim(0, 1)
+    ax.axis('off')
+
+    ax.set_title('BST Formulas & Precision',
+                 fontsize=13, fontweight='bold', color=GOLD,
+                 fontfamily='monospace', pad=8)
+
+    y = 0.93
+    dy = 0.058
+
+    # Header row
+    cols = [(0.02, 'Meson', 'left'), (0.18, 'k', 'left'),
+            (0.40, 'BST', 'right'), (0.60, 'Obs', 'right'),
+            (0.80, 'Delta', 'right')]
+    for xp, txt, ha in cols:
+        ax.text(xp, y, txt, fontsize=9, color=GOLD_DIM, ha=ha,
+                fontfamily='monospace', fontweight='bold')
+    y -= 0.015
+    ax.plot([0.01, 0.99], [y, y], color=GREY, lw=0.5, alpha=0.5)
+    y -= dy * 0.5
+
+    # Deduplicate for display
+    all_m = garden.all_mesons()
+    seen = set()
+    rows = []
+    for m in all_m:
+        key = m['name'].replace('\u207a', '').replace('\u207b', '')
+        key = key.replace('K\u0304\u2070', 'K\u2070')
+        if key in seen:
+            continue
+        seen.add(key)
+        rows.append(m)
+
+    vec_header_drawn = False
+    for m in rows:
+        # Section divider before vectors
+        if m['category'] == 'vector' and not vec_header_drawn:
+            ax.plot([0.01, 0.99], [y + dy * 0.3, y + dy * 0.3],
+                    color=GREY, lw=0.3, alpha=0.4)
+            ax.text(0.02, y + dy * 0.05, 'vectors', fontsize=7,
+                    color=GREY, fontfamily='monospace', style='italic')
+            y -= dy * 0.35
+            vec_header_drawn = True
+
+        prec = m['precision_pct']
+        pcol = _precision_color(prec)
+
+        ax.text(0.02, y, m['name'], fontsize=9, color=WHITE,
+                ha='left', fontfamily='monospace')
+        ax.text(0.18, y, m['multiplier_label'], fontsize=9,
+                color=CYAN, ha='left', fontfamily='monospace')
+        ax.text(0.40, y, f'{m["bst_mass"]:.1f}', fontsize=9,
+                color=WHITE, ha='right', fontfamily='monospace')
+        ax.text(0.60, y, f'{m["observed"]:.1f}', fontsize=9,
+                color=GREY, ha='right', fontfamily='monospace')
+        ax.text(0.80, y, f'{prec:+.2f}%', fontsize=9,
+                color=pcol, ha='right', fontfamily='monospace',
+                fontweight='bold')
+
+        # mini precision bar
+        bar_w = min(abs(prec) / 30.0, 0.18)
+        ax.barh(y, bar_w, left=0.82, height=dy * 0.42,
+                color=pcol, alpha=0.22, zorder=0)
+
+        y -= dy
+
+    # Insight box
+    y -= dy * 0.3
+    ax.plot([0.01, 0.99], [y + dy * 0.35, y + dy * 0.35],
+            color=GREY, lw=0.5, alpha=0.3)
+    ax.text(0.50, y - dy * 0.15,
+            "Key: proton = 6th harmonic of base unit\n"
+            "eta' at g^2/8 = 49/8  (0.007% precision!)",
+            fontsize=9, color=BRIGHT_GOLD, ha='center',
+            fontfamily='monospace', style='italic', linespacing=1.5)
+
+
+def _draw_multiplier_spectrum(ax, garden):
+    """Number line showing the integer/algebraic multipliers of pi^5 m_e."""
+    ax.set_facecolor(DARK_PANEL)
+
+    all_m = garden.all_mesons()
+    seen = set()
+    unique = []
+    for m in all_m:
+        ml = m['multiplier_label']
+        if ml not in seen:
+            seen.add(ml)
+            unique.append(m)
+    unique.sort(key=lambda m: m['multiplier'])
+
+    ax.set_xlim(-0.3, 8.0)
+    ax.set_ylim(-0.45, 0.9)
+    ax.axis('off')
+
+    # Base line
+    ax.plot([-0.15, 7.5], [0, 0], color=GREY, lw=1.5, alpha=0.55)
+
+    # Tick marks for each unique multiplier
+    for m in unique:
+        x = m['multiplier']
+        col = _precision_color(m['precision_pct'])
+        ax.plot([x, x], [-0.06, 0.06], color=col, lw=2.2)
+        ax.text(x, 0.17, m['multiplier_label'], fontsize=9,
+                color=col, ha='center', fontfamily='monospace',
+                fontweight='bold')
+        ax.text(x, -0.17, m['name'], fontsize=7,
+                color=WHITE, ha='center', va='top',
+                fontfamily='monospace', alpha=0.75)
+
+    # Proton marker at multiplier = 6 (C_2)
+    proton_x = 6.0
+    ax.plot([proton_x, proton_x], [-0.09, 0.09], color=BRIGHT_GOLD, lw=3.5)
+    ax.text(proton_x, 0.22, 'C\u2082=6', fontsize=10,
+            color=BRIGHT_GOLD, ha='center', fontfamily='monospace',
+            fontweight='bold')
+    ax.text(proton_x, -0.23, 'proton', fontsize=8,
+            color=BRIGHT_GOLD, ha='center', va='top',
             fontfamily='monospace')
 
-    # Column headers
-    ax.text(20, 1070, 'Pseudoscalar (0\u207b\u207a)', fontsize=9, color='#88aa55',
-            ha='center', fontfamily='monospace', fontweight='bold')
-    ax.text(60, 1070, 'Vector (1\u207b\u207b)', fontsize=9, color='#5588aa',
-            ha='center', fontfamily='monospace', fontweight='bold')
+    # Title
+    ax.text(3.8, 0.72,
+            'Multiplier Spectrum:  mass = k \u00d7 \u03c0\u2075m\u2091'
+            '        (the proton sits at the 6th harmonic)',
+            fontsize=11, color=GOLD_DIM, ha='center',
+            fontfamily='monospace')
 
-    # Ground — the root all flowers grow from
-    ax.fill_between([-10, 80], [-15, -15], [0, 0], color='#1a1208', alpha=0.6, zorder=0)
-    ax.plot([-10, 80], [0, 0], color='#444422', lw=1.5, zorder=1)
-    ax.text(35, -10, '\u03c0\u2075m_e = 156.38 MeV  (the root)', fontsize=7.5,
-            color='#887733', ha='center', fontfamily='monospace', style='italic')
 
-    # Strangeness color coding
-    c_nos, c_1s, c_ssb, c_ano = '#ee6644', '#44cc66', '#4488dd', '#ffcc22'
+# ══════════════════════════════════════════════════════════════════
+#  Main Visualization
+# ══════════════════════════════════════════════════════════════════
 
-    # Helper for info string
-    def _fi(d): return f"{d['bst']:.1f}  ({d['match']})"
+def visualize(garden=None):
+    """Build and display the full Meson Garden figure."""
+    if garden is None:
+        garden = MesonGarden()
 
-    # Pseudoscalar flowers
-    _draw_flower(ax, 15, 0, ps['pion']['bst'], c_nos, '\u03c0\u00b1',
-                 f"25.6\u221a30 = {_fi(ps['pion'])}", ps['pion']['observed'], '*')
-    _draw_flower(ax, 25, 0, ps['kaon']['bst'], c_1s, 'K\u00b1',
-                 f"\u221a10\u00b7base = {_fi(ps['kaon'])}", ps['kaon']['observed'])
-    _draw_flower(ax, 15, 0, ps['eta']['bst'], c_nos, '\u03b7',
-                 f"7/2\u00b7base = {_fi(ps['eta'])}", ps['eta']['observed'])
-    _draw_flower(ax, 25, 0, ps['eta_prime']['bst'], c_ano, "\u03b7'",
-                 f"49/8\u00b7base = {_fi(ps['eta_prime'])}", ps['eta_prime']['observed'], 'D')
+    fig = plt.figure(figsize=(19, 14), facecolor=BG)
+    fig.canvas.manager.set_window_title('The Meson Garden \u2014 BST')
 
-    # Vector flowers
-    _draw_flower(ax, 55, 0, vc['rho']['bst'], c_nos, '\u03c1(775)',
-                 f"5\u00b7base = {_fi(vc['rho'])}", vc['rho']['observed'])
-    _draw_flower(ax, 65, 0, vc['omega']['bst'], c_nos, '\u03c9(783)',
-                 f"5\u00b7base = {_fi(vc['omega'])}", vc['omega']['observed'])
-    _draw_flower(ax, 55, 0, vc['k_star']['bst'], c_1s, 'K*(892)',
-                 f"\u221a(65/2)\u00b7base = {_fi(vc['k_star'])}", vc['k_star']['observed'])
-    _draw_flower(ax, 65, 0, vc['phi']['bst'], c_ssb, '\u03c6(1020)',
-                 f"13/2\u00b7base = {_fi(vc['phi'])}", vc['phi']['observed'], 'D')
+    # Title
+    fig.text(0.50, 0.975, 'THE MESON GARDEN',
+             fontsize=28, fontweight='bold', color=GOLD,
+             ha='center', va='top', fontfamily='monospace',
+             path_effects=[pe.withStroke(linewidth=3, foreground='#332200')])
+    fig.text(0.50, 0.945,
+             'All meson masses from one base unit:  '
+             '\u03c0\u2075 \u00d7 m\u2091 = %.2f MeV' % garden.base_unit,
+             fontsize=12, color=GOLD_DIM, ha='center', va='top',
+             fontfamily='monospace')
 
-    # Connections between related mesons
-    eta, etap = ps['eta'], ps['eta_prime']
-    _connect(ax, 17, eta['bst'], 27, etap['bst'], '7/4', '#ccaa22')
-    _connect(ax, 27, ps['kaon']['bst'], 57, vc['k_star']['bst'], '\u221a(13/4)', '#44aa66')
-    _connect(ax, 17, eta['bst'], 67, vc['phi']['bst'], '13/7', '#4488bb')
+    # Grid: 3 rows x 2 columns
+    gs = GridSpec(3, 2, figure=fig,
+                  left=0.04, right=0.96, top=0.92, bottom=0.06,
+                  hspace=0.38, wspace=0.22,
+                  height_ratios=[3.0, 2.0, 1.0])
 
-    # Base unit reference line
-    ax.axhline(y=pi5_me, color='#555522', lw=0.8, ls='-.', alpha=0.4, zorder=1)
-    ax.text(78, pi5_me + 6, f'\u03c0\u2075m_e = {pi5_me:.1f}', fontsize=6,
-            color='#777744', ha='right', fontfamily='monospace', style='italic')
+    # (0,0) Pseudoscalar nonet
+    ax_nonet = fig.add_subplot(gs[0, 0])
+    _draw_nonet(ax_nonet, garden)
 
-    # Proton reference line
-    ax.axhline(y=m_p, color='#664422', lw=1.0, ls=':', alpha=0.5, zorder=1)
-    ax.text(78, m_p + 8, f'm_p = {m_p:.1f}', fontsize=6.5, color='#886644',
-            ha='right', fontfamily='monospace')
+    # (0,1) Bar chart comparison
+    ax_bars = fig.add_subplot(gs[0, 1])
+    _draw_comparison_bars(ax_bars, garden)
 
-    # Annotation: pion is special (Goldstone boson, below the base unit)
-    ax.annotate('Goldstone\nboson', xy=(15, ps['pion']['bst']),
-                xytext=(2, 60), fontsize=6.5, color='#cc8866',
-                fontfamily='monospace', ha='center',
-                arrowprops=dict(arrowstyle='->', color='#cc8866', lw=0.8),
-                bbox=dict(boxstyle='round,pad=0.2', facecolor='#1a0a08',
-                          edgecolor='#884433', alpha=0.7, linewidth=0.5))
+    # (1,0) Vector mesons
+    ax_vec = fig.add_subplot(gs[1, 0])
+    _draw_vectors_diagram(ax_vec, garden)
 
-    # Annotation: eta-prime is special (genus-squared anomaly)
-    ax.annotate('g\u00b2 anomaly\n= m_p\u00d749/48', xy=(25, ps['eta_prime']['bst']),
-                xytext=(38, 1020), fontsize=6.5, color='#ccaa33',
-                fontfamily='monospace', ha='center',
-                arrowprops=dict(arrowstyle='->', color='#ccaa33', lw=0.8),
-                bbox=dict(boxstyle='round,pad=0.2', facecolor='#1a1a08',
-                          edgecolor='#887722', alpha=0.7, linewidth=0.5))
+    # (1,1) Table panel
+    ax_table = fig.add_subplot(gs[1, 1])
+    _draw_table_panel(ax_table, garden)
 
-    # Color legend
-    for i, (clr, lbl) in enumerate([(c_nos, 'no s'), (c_1s, 'one s'),
-                                     (c_ssb, 's-sbar'), (c_ano, 'anomaly')]):
-        ax.scatter([72], [160 - i*30], s=50, color=clr, zorder=6)
-        ax.text(75, 160 - i*30, lbl, fontsize=6.5, color=clr,
-                va='center', fontfamily='monospace')
+    # (2,:) Multiplier spectrum spanning both columns
+    ax_spec = fig.add_subplot(gs[2, :])
+    _draw_multiplier_spectrum(ax_spec, garden)
 
-    ax.set_yticks([]); ax.set_xticks([])
-    for s in ax.spines.values(): s.set_color('#222233')
-    ax.spines['top'].set_visible(False); ax.spines['right'].set_visible(False)
-
-    # ═════════════════════════════════════════════════
-    # CENTER PANEL (25%) — Key Relationships
-    # ═════════════════════════════════════════════════
-    ar = fig.add_axes([0.47, 0.07, 0.22, 0.84])
-    ar.set_facecolor('#0a0a1a'); ar.set_xlim(0, 10); ar.set_ylim(0, 100); ar.axis('off')
-    ar.text(5, 97, 'KEY RELATIONSHIPS', fontsize=11, fontweight='bold',
-            color='#ccaa33', ha='center', fontfamily='monospace')
-
-    def _box(a, x, y, w, h, ec, fc):
-        a.add_patch(FancyBboxPatch((x, y), w, h, boxstyle='round,pad=0.3',
-                    facecolor=fc, edgecolor=ec, linewidth=1.0))
-
-    def T(a, x, y, t, c, fs=8.5, fw='normal'):
-        a.text(x, y, t, fontsize=fs, color=c, ha='center',
-               fontfamily='monospace', fontweight=fw)
-
-    # Base unit
-    _box(ar, 0.3, 88, 9.4, 6, '#887722', '#1a1a08')
-    T(ar, 5, 92.5, 'THE BASE UNIT', '#ffcc33', 9, 'bold')
-    T(ar, 5, 90.2, '\u03c0\u2075m_e = 156.38 MeV', '#ddbb44', 9.5, 'bold')
-
-    # Eta tower
-    _box(ar, 0.3, 76, 9.4, 8, '#997733', '#1a1a0a')
-    T(ar, 5, 82.5, 'THE ETA TOWER', '#ccaa22', 9, 'bold')
-    T(ar, 5, 80.2, "m_\u03b7' / m_\u03b7 = genus/4 = 7/4", '#bbaa44')
-    T(ar, 5, 78.2, f'{etap["bst"]:.1f} / {eta["bst"]:.1f} = '
-      f'{etap["bst"]/eta["bst"]:.4f}', '#889966', 7.5)
-
-    # GMO identity
-    _box(ar, 0.3, 62, 9.4, 10, '#448833', '#0a1a0a')
-    T(ar, 5, 70.5, 'GMO IDENTITY', '#66cc44', 9, 'bold')
-    T(ar, 5, 68.2, '30\u00b7n_C = 3\u00b7g\u00b2 + N_c', '#88bb55')
-    T(ar, 5, 66.0, '30\u00d75 = 3\u00d749 + 3', '#779955', 8)
-    T(ar, 5, 64.2, '150 = 150   (EXACT)', '#44ff44', 9, 'bold')
-
-    # Eta-prime anomaly
-    _box(ar, 0.3, 49, 9.4, 9, '#886633', '#1a1208')
-    T(ar, 5, 56.5, "THE \u03b7' ANOMALY", '#ddaa33', 9, 'bold')
-    T(ar, 5, 54.3, "m_\u03b7' = m_p \u00d7 49/48", '#ccaa44')
-    T(ar, 5, 52.3, '49 = g\u00b2 = genus\u00b2', '#998855', 7.5)
-    T(ar, 5, 50.7, '48 = C\u2082 \u00d7 dim(SU(3)) = 6\u00d78', '#998855', 7.5)
-
-    # Uniqueness proof
-    _box(ar, 0.3, 35, 9.4, 10, '#6666aa', '#0a0a1a')
-    T(ar, 5, 43.5, 'UNIQUENESS PROOF', '#8888dd', 9, 'bold')
-    T(ar, 5, 41.5, 'C\u2082\u00d78 = g\u00b2 \u2212 1', '#9999cc')
-    T(ar, 5, 39.5, '(n_C+1)\u00b78 = (n_C+2)\u00b2\u22121', '#7777aa', 7.5)
-    T(ar, 5, 37.8, 'n_C\u00b2 \u2212 4n_C \u2212 5 = 0', '#7777aa', 7.5)
-    T(ar, 5, 36.2, 'n_C = 5  (unique!)', '#aaaaff', 9, 'bold')
-
-    # Precision summary
-    _box(ar, 0.3, 21, 9.4, 10, '#338855', '#0a1210')
-    T(ar, 5, 29.5, 'PRECISION', '#55cc77', 9, 'bold')
-    prec = [("\u03c0\u00b1: 0.46%", c_nos), ("K\u00b1: 0.17%", c_1s),
-            ("\u03b7:  0.10%", c_nos),   ("\u03b7': 0.002%", c_ano),
-            ("\u03c1:  0.85%", c_nos),   ("\u03c9:  0.10%", c_nos),
-            ("K*: 0.02%", c_1s),    ("\u03c6:  0.30%", c_ssb)]
-    for i, (txt, clr) in enumerate(prec):
-        ar.text(2.5 if i < 4 else 7.0, 27.5 - (i % 4) * 1.7, txt, fontsize=7,
-                color=clr, fontfamily='monospace', ha='center')
-
-    # Cross ratios
-    _box(ar, 0.3, 6, 9.4, 11, '#555588', '#10101a')
-    T(ar, 5, 15.5, 'CROSS RATIOS', '#8888bb', 9, 'bold')
-    for i, rt in enumerate(["\u03b7'/\u03b7  = 7/4   (genus/4)",
-                            "\u03c6/\u03b7  = 13/7  (Weinberg/genus)",
-                            "K*/K = \u221a(13/4)", "\u03c6/\u03c1  = 13/10"]):
-        ar.text(5, 13.3 - i * 1.8, rt, fontsize=7, color='#8899aa',
-                ha='center', fontfamily='monospace')
-
-    # ═════════════════════════════════════════════════
-    # RIGHT PANEL — Phase Transition (top) & Channel (bottom)
-    # ═════════════════════════════════════════════════
-    ap = fig.add_axes([0.71, 0.50, 0.27, 0.41])
-    ap.set_facecolor('#0a0a1a'); ap.set_xlim(0, 10); ap.set_ylim(0, 100); ap.axis('off')
-
-    T(ap, 5, 97, 'PHASE TRANSITION', '#ff8844', 11, 'bold')
-    T(ap, 5, 90, 'T_c = N_max \u00d7 20/21', '#cc7733', 9)
-    T(ap, 5, 86, '= 137 \u00d7 20/21 = 130.48 (units)', '#997744', 8)
-    T(ap, 5, 82, '\u2248 0.487 MeV', '#ff9944', 9, 'bold')
-
-    # Latent heat box
-    _box(ap, 0.5, 72, 9, 7, '#884422', '#1a0a08')
-    T(ap, 5, 77, 'Latent heat \u2248 m_p per d.o.f.', '#dd7733', 8.5, 'bold')
-    T(ap, 5, 74, 'The transition literally', '#aa6633', 7.5)
-    T(ap, 5, 71.5, 'MAKES PROTONS', '#ff6622', 9, 'bold')
-
-    # C_V
-    pt = mg.phase_transition()
-    T(ap, 5, 64, 'C_V = \u03b1_s \u00d7 50 \u00d7 N_max\u00b2', '#cc8844')
-    T(ap, 5, 60.5, f'= (7/20)\u00d750\u00d7137\u00b2 = {pt["C_V_bst"]:.0f}', '#aa7744', 8)
-    T(ap, 5, 57, f'Observed: ~330,000  ({pt["C_V_match"]})', '#889966', 8)
-
-    # Integer web
-    T(ap, 5, 48, 'THE INTEGER WEB', '#aaaacc', 10, 'bold')
-    ints = [(3,'N_c','#ee6644'), (5,'n_C','#44cc66'), (6,'C\u2082','#ffcc22'),
-            (7,'genus','#ff8844'), (13,'Weinberg','#4488dd'), (19,'vacuum','#aa66dd')]
-    rcx, rcy, rr = 5, 34, 9
-    angs = [np.pi/2 + i * np.pi / 3 for i in range(6)]
-    for i, (v, l, c) in enumerate(ints):
-        xi = rcx + rr * 0.35 * np.cos(angs[i])
-        yi = rcy + rr * 0.45 * np.sin(angs[i])
-        ap.scatter([xi], [yi], s=350, color=c, alpha=0.25, zorder=2)
-        ap.text(xi, yi + 0.2, str(v), fontsize=12, fontweight='bold', color=c,
-                ha='center', va='center', fontfamily='monospace', zorder=3)
-        ap.text(xi, yi - 1.8, l, fontsize=6, color=c, ha='center',
-                fontfamily='monospace', alpha=0.7, zorder=3)
-    def _ip(i): return (rcx + rr*0.35*np.cos(angs[i]), rcy + rr*0.45*np.sin(angs[i]))
-    for a, b in [(0,1), (1,3), (1,2), (0,4)]:
-        xa, ya = _ip(a); xb, yb = _ip(b)
-        ap.plot([xa, xb], [ya, yb], '-', color='#444466', lw=0.8, alpha=0.4, zorder=1)
-
-    # Channel Decomposition (bottom right)
-    ac = fig.add_axes([0.71, 0.07, 0.27, 0.40])
-    ac.set_facecolor('#0a0a1a'); ac.set_xlim(0, 10); ac.set_ylim(0, 100); ac.axis('off')
-    T(ac, 5, 97, 'CHANNEL DECOMPOSITION', '#aa88dd', 10, 'bold')
-    T(ac, 5, 92, '137 = 42 + 95', '#ccaaff', 12, 'bold')
-
-    # 137 cells: 10 rows x 14 cols
-    cols, cw, ch, x0, y0 = 14, 0.62, 3.2, 0.35, 52
-    for idx in range(N_max):
-        r, c = idx // cols, idx % cols
-        clr = '#cc9922' if idx < 42 else '#7744aa'
-        alp = 0.7 if idx < 42 else 0.5
-        ac.add_patch(Rectangle((x0 + c*cw, y0 + (9-r)*ch), cw*0.9, ch*0.8,
-                     facecolor=clr, alpha=alp, edgecolor='#222233', linewidth=0.3))
-
-    T(ac, 5, 47, '42 matter modes', '#cc9922', 8, 'bold')
-    T(ac, 5, 43.5, 'C\u2082 \u00d7 genus = 6 \u00d7 7 = 42', '#aa8833', 7.5)
-    T(ac, 5, 38, '95 vacuum modes', '#7744aa', 8, 'bold')
-    T(ac, 5, 34.5, 'n_C \u00d7 19 = 5 \u00d7 19 = 95', '#665599', 7.5)
-
-    # Key numbers summary
-    _box(ac, 0.5, 17, 9, 14, '#444466', '#0a0a14')
-    T(ac, 5, 28.5, 'Every meson from:', '#aaaacc', 8, 'bold')
-    for i, (txt, clr) in enumerate([
-            ('n_C = 5  (BST dimension)', '#44cc66'),
-            ('genus = 7  (n_C + 2)', '#ff8844'),
-            ('N_c = 3  (color number)', '#ee6644'),
-            ('m_e = 0.511 MeV  (electron)', '#4488ff'),
-            ('\u03c0\u2075m_e = 156.38  (meson scale)', '#ddbb44')]):
-        ac.text(5, 26 - i*2, txt, fontsize=7, color=clr, ha='center',
-                fontfamily='monospace')
-
-    # Key insight at bottom of channel panel
-    _box(ac, 0.5, 3, 9, 12, '#335544', '#0a120a')
-    T(ac, 5, 12.5, 'THE MESON SCALE', '#77bb66', 8, 'bold')
-    T(ac, 5, 10.5, 'Proton = C\u2082 \u00d7 base', '#669955', 7)
-    T(ac, 5, 8.5, '= 6 \u00d7 156.38 = 938.3 MeV', '#669955', 7)
-    T(ac, 5, 6.5, "Eta\u2032 = (g\u00b2/8) \u00d7 base", '#aa9933', 7)
-    T(ac, 5, 4.5, '= m_p \u00d7 49/48  (0.002%)', '#aa9933', 7)
-
-    # ─── Bottom strip ───
+    # Bottom annotation
+    bu = garden.base_unit
+    proton = 6 * bu
     fig.text(0.50, 0.018,
-             '\u03c0\u2075m_e = 156.38 MeV \u2014 the meson scale.  '
-             'All masses are integer or \u221ainteger multiples of this one number.',
-             fontsize=11, color='#88aa44', ha='center', fontfamily='monospace',
-             fontweight='bold',
-             bbox=dict(boxstyle='round,pad=0.4', facecolor='#0a1208',
-                       edgecolor='#446622', linewidth=1.5))
+             '\u03c0\u2075 m\u2091 = %.2f MeV   |   '
+             'Proton: 6\u03c0\u2075 m\u2091 = %.2f MeV (obs: 938.272)   |   '
+             'BST: N_c=%d, n_C=%d, C\u2082=%d, genus=%d'
+             % (bu, proton, N_c, n_C, C_2, genus),
+             fontsize=10, color=GREY, ha='center', va='bottom',
+             fontfamily='monospace')
 
     plt.show()
 
 
-# ═══════════════════════════════════════════════════════════════════════
-# MAIN
-# ═══════════════════════════════════════════════════════════════════════
+# legacy alias for backward compatibility
+show = visualize
+
+
+# ══════════════════════════════════════════════════════════════════
+#  Main Entry Point
+# ══════════════════════════════════════════════════════════════════
 
 if __name__ == '__main__':
-    show()
+    garden = MesonGarden()
+
+    # ── Programmatic report ──
+    print(garden.precision_table())
+
+    print('\n--- Summary ---')
+    print(garden.summary())
+
+    print('\n--- Best Predictions (< 2%) ---')
+    for m in garden.best_predictions(threshold=2.0):
+        print(f'  {m["name"]:<12} BST={m["bst_mass"]:.2f}  '
+              f'obs={m["observed"]:.3f}  delta={m["precision_pct"]:+.3f}%')
+
+    print('\n--- All Unique Multipliers ---')
+    seen_mult = set()
+    for m in garden.all_mesons():
+        ml = m['multiplier_label']
+        if ml not in seen_mult:
+            seen_mult.add(ml)
+            print(f'  k = {ml:<8}  '
+                  f'({m["multiplier"]:.4f})  '
+                  f'-> {m["bst_mass"]:.2f} MeV  [{m["name"]}]')
+
+    base = garden.base_unit
+    print(f'\n--- Base Unit ---')
+    print(f'  pi^5 * m_e = {base:.4f} MeV')
+    print(f'  6 * pi^5 * m_e = {6 * base:.4f} MeV  (proton, obs: 938.272)')
+    print(f'  pi^5 = {PI5:.6f}')
+    print(f'  pi^5 / 1920 = {PI5 / GAMMA:.8f}  (Hua volume)')
+
+    # ── Visualization ──
+    print('\nLaunching visualization...')
+    visualize(garden)

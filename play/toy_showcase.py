@@ -218,6 +218,23 @@ TOYS = [
         'color': '#88ff44',
         'icon': 'meson',
     },
+    # ─── Deep Question Toys (24-25) ───
+    {
+        'name': 'Self-Starting ★CI',
+        'file': 'toy_self_starting.py',
+        'short': 'N=0 forbidden. Existence=theorem',
+        'desc': 'Four proofs: frozen state cannot\nexist. Casimir ratchet k=0→6.\nThe universe self-boots.',
+        'color': '#ff4488',
+        'icon': 'self_start',
+    },
+    {
+        'name': 'BST Black Hole ★CI',
+        'file': 'toy_black_hole.py',
+        'short': 'No singularity. No interior.',
+        'desc': 'Haldane cap replaces singularity.\nMembrane paradigm is exact.\nHawking T within 7%.',
+        'color': '#111144',
+        'icon': 'black_hole',
+    },
 ]
 
 # ─── Figure ───
@@ -235,13 +252,13 @@ fig.text(0.5, 0.915, 'Copyright (c) 2026 Casey Koons — Demonstration Only',
 
 # ─── Layout: 3 columns × 7 rows of toy cards ───
 n_cols = 3
-n_rows = 8
+n_rows = 9
 card_w = 0.28
-card_h = 0.092
+card_h = 0.082
 x_start = 0.04
 y_start = 0.88
 x_gap = 0.33
-y_gap = 0.112
+y_gap = 0.100
 
 buttons = []
 button_axes = []
@@ -489,6 +506,32 @@ def draw_icon(ax, icon_type, color):
             ax.plot(px, py, 'o', color=cm, markersize=5)
         ax.text(0.5, 0.12, 'π⁵m_e', fontsize=9, color='#88ff44',
                 ha='center', fontfamily='monospace')
+
+    elif icon_type == 'self_start':
+        # Ratchet arrow going up with X on "N=0"
+        ax.text(0.2, 0.2, 'N=0', fontsize=9, color='#ff2222',
+                ha='center', fontfamily='monospace', fontweight='bold')
+        ax.plot([0.08, 0.32], [0.28, 0.12], color='#ff2222', lw=2)
+        ax.plot([0.08, 0.32], [0.12, 0.28], color='#ff2222', lw=2)
+        # Upward cascade arrow
+        ax.annotate('', xy=(0.7, 0.85), xytext=(0.7, 0.15),
+                    arrowprops=dict(arrowstyle='->', color='#ff4488', lw=2.5))
+        for ky in [0.25, 0.45, 0.65]:
+            ax.plot([0.62, 0.7], [ky, ky+0.05], color='#ff4488', lw=1, alpha=0.5)
+        ax.text(0.7, 0.9, 'k=6', fontsize=7, color='#ffaa44',
+                ha='center', fontfamily='monospace')
+
+    elif icon_type == 'black_hole':
+        # Dark circle with glowing membrane ring
+        theta = np.linspace(0, 2*np.pi, 50)
+        ax.fill(0.5 + 0.35*np.cos(theta), 0.5 + 0.35*np.sin(theta),
+                color='#000000', alpha=0.9)
+        ax.plot(0.5 + 0.35*np.cos(theta), 0.5 + 0.35*np.sin(theta),
+                color='#ffaa22', lw=2.5, alpha=0.8)
+        ax.plot(0.5 + 0.37*np.cos(theta), 0.5 + 0.37*np.sin(theta),
+                color='#ffaa22', lw=1, alpha=0.3)
+        ax.text(0.5, 0.5, 'N=0', fontsize=8, color='#333366',
+                ha='center', va='center', fontfamily='monospace')
 
 def launch_toy(toy_file):
     def callback(event):
