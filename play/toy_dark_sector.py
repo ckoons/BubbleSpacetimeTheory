@@ -59,11 +59,9 @@ BG          = '#0a0a1a'
 DARK_PANEL  = '#0d0d24'
 GOLD        = '#ffd700'
 GOLD_DIM    = '#aa8800'
-BRIGHT      = '#ffe066'
 DEEP_PURPLE = '#1a0033'
 VOID_PURPLE = '#2d0050'
 BLUE_GLOW   = '#4488ff'
-BLUE_DEEP   = '#1a1a6a'
 PURPLE_GLOW = '#9955dd'
 PURPLE_LINE = '#bb77ff'
 RED_WARM    = '#ff6644'
@@ -407,9 +405,7 @@ def build_figure():
     slider.on_changed(update_slider)
     update_slider(t_now)
 
-    # ═══════════════════════════════════════════════════════════════
-    #  RIGHT PANEL: Three Views of Darkness
-    # ═══════════════════════════════════════════════════════════════
+    # ── Right Panel: Three Views of Darkness ──
 
     ax_views = fig.add_subplot(gs[2, 1])
     ax_views.set_facecolor(DARK_PANEL)
@@ -493,9 +489,7 @@ def build_figure():
                     ha='center', va='center', color=GOLD_DIM, fontsize=9,
                     transform=ax_rslider.transAxes)
 
-    # ═══════════════════════════════════════════════════════════════
-    #  BOTTOM STRIP: The Formula Chain
-    # ═══════════════════════════════════════════════════════════════
+    # ── Bottom Strip: Formula Chain ──
 
     ax_bot = fig.add_subplot(gs[3, :])
     ax_bot.set_facecolor(BG)
