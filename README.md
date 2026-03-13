@@ -31,7 +31,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Tс (Big Bang temperature) | N_max × 20/21 | 0.487 MeV | — | 0.018% |
 | G (gravitational constant) | ℏc(6π⁵)²α²⁴/mₑ², 12=2C₂ Bergman round trips | 6.679×10⁻¹¹ | 6.674×10⁻¹¹ | 0.07% |
 | sin²θ_W (Weinberg angle) | N_c/(N_c + 2n_C) = 3/13 | 0.23077 | 0.23122 (MS-bar) | 0.2% |
-| α_s (strong coupling) | (n_C+2)/(4n_C) = 7/20 | 0.350 (at mₚ) | runs to 0.1179 at m_Z | 1.7% at m_Z |
+| α_s (strong coupling) | (n_C+2)/(4n_C) = 7/20 | 0.350 (at mₚ) | runs to 0.1179 at m_Z | 0.34% at m_Z |
 | m_W (W boson mass) | m_Z√(10/13) | 79.977 GeV | 80.377 GeV | 0.5% |
 | η (baryon asymmetry) | 2α⁴/(3π) | 6.018×10⁻¹⁰ | 6.104×10⁻¹⁰ | 1.4% |
 | H₀ (Hubble, Route A) | from η via ΛCDM | 66.7 km/s/Mpc | 67.36 (Planck) | 1.0% |
@@ -99,6 +99,11 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | r_K+/r_π (radius ratio) | m_ρ/m_K* = √(10/13) = cosθ_W | 0.845 | 0.850 | 0.6% |
 | κ_ls (spin-orbit coupling) | C₂/n_C = 6/5 | 1.200 | ~1.2 (fitted) | exact |
 | Magic numbers | HO + BST spin-orbit: 2,8,20,28,50,82,126 | all 7 | all 7 observed | exact |
+| α_s(m_Z) (geometric β) | Bergman kernel c₁=C₂/(2n_C)=3/5 | 0.1175 | 0.1179 (PDG) | 0.34% |
+| Tsirelson bound (holo.) | 2√2 from H⁰(O(1)) on CP¹ | 2.828 | 2.828 (exact) | exact |
+| |m_ββ| (0νββ) | 0 (Dirac neutrinos, Hopf h=1) | 0 | — | exact prediction |
+| GW peak frequency | BST phase transition at 3.1 s | 6.4 nHz | NANOGrav ~nHz band | consistent |
+| GW spectral index γ | g/n_C = 7/5 = 1.4 → γ=13/5+1=3.60 | 3.60 | NANOGrav ~3.2–4.6 | consistent |
 | α_s (spectral running) | −(n_s−1)² = −25/18769 | −0.00133 | −0.0045±0.0067 | 0.5σ |
 | w₀ (dark energy EOS) | −1 + n_C/N_max² | −0.9997 | −1.0 (ΛCDM) | consistent |
 | a_V (SEMF volume) | g·B_d = 7αm_p/π | 15.24 MeV | 15.56 MeV | 2.0% |
@@ -107,7 +112,8 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | a_A (SEMF asymmetry) | m_p/(4·dim_R) = f_π/4 | 23.46 MeV | 23.29 MeV | 0.7% |
 | δ (SEMF pairing) | (g/4)αm_p | 11.99 MeV | 12.0 MeV | 0.1% |
 | r₀ (nuclear radius) | (N_c π²/n_C)ℏc/m_p | 1.245 fm | 1.25 fm | 0.4% |
-| Reality Budget Λ×N | N_c²/n_C = 9/5 = 1.800; fill fraction f = 3/(5π) = 19.1% | 1.800 | 1.800 (exact) | conjectured |
+| Reality Budget Λ×N | N_c²/n_C = c₄(Q⁵)/c₁(Q⁵) = 9/5; f = 3/(5π) = 19.1% | 1.800 | 1.800 (exact) | topological |
+| 1920 = |W(D₅)| | Weyl group cancellation: orbit × Vol = |W|×π⁵/|W| = π⁵ | exact | exact | theorem |
 | m_η' (η' meson mass) | (g²/8)π⁵mₑ = (49/8)π⁵mₑ = mₚ×49/48 | 957.8 MeV | 957.78 MeV | **0.004%** |
 | m_η (η meson mass) | (g/2)π⁵mₑ = (7/2)π⁵mₑ | 547.3 MeV | 547.9 MeV | 0.10% |
 | m_K (kaon mass) | √(2n_C)·π⁵mₑ = √10·π⁵mₑ | 494.5 MeV | 493.7 MeV | 0.17% |
@@ -124,7 +130,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Γ_φ (φ meson width) | m_φ/(2×5!) = m_φ/240; OZI suppression = 1/n_C! | 4.248 MeV | 4.249±0.013 MeV | **0.02%** |
 | Γ_ρ/Γ_φ (width ratio) | n_C × g = 5 × 7 = 35 | 35.0 | 35.09 | 0.26% |
 
-**130+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
+**140+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
 
 ---
 
@@ -269,6 +275,26 @@ BST follows a single logical chain from one question to all of physics. Each ste
 
 **Bekenstein-Hawking 1/4 derived**: S = A/(4l_Pl²) where 1/4 = (1/2)×(1/2). First 1/2: the complex structure on D_IV^5 decomposes the tangent space into holomorphic + anti-holomorphic sectors; only the holomorphic sector carries independent information. Second 1/2: the Z₂ charge conjugation (θ → θ+π on S¹) identifies matter and antimatter modes at the maximally committed horizon. The no-hair theorem IS the Z₂ identification — black holes don't distinguish matter from antimatter.
 
+**Tsirelson bound from holomorphic geometry**: The Tsirelson bound 2√2 is derived from the parallelogram law on H⁰(O(1)) ≅ ℂ² — the space of holomorphic sections of the tautological bundle on CP¹ = S². This closes the open question from the Bell inequality derivation: 2√2 is not just 2√N_w but is forced by the holomorphic section norm on the Shilov boundary's CP¹ slices.
+
+**Einstein equations from S¹ bundle integrability**: Einstein's field equations, Newton's gravitational constant G, the cosmological constant Λ, geodesic motion, and gravitational waves are all derived as integrability conditions of the S¹ fiber bundle via O'Neill's Riemannian submersion formulas. This substantially closes the largest remaining gap in BST — the full derivation of gravity from the substrate geometry.
+
+**Kerr black holes — no singularity, no interior**: The ring singularity of Kerr spacetime is replaced by a ring of Haldane saturation. There is no interior and no Cauchy horizon. Angular momentum is quantized: J = wℏ/2. The Penrose process is reinterpreted as UNC (uncommitted capacity) harvesting. QNM echoes with Casimir fine structure are predicted.
+
+**Bekenstein 1/4 disambiguation resolved**: The candidate factorization 1/4 = (1/2)_holomorphic × (1/2)_Z₂ is confirmed by testing against Schwarzschild, Kerr, and Reissner-Nordström black holes. Alternative candidates B (n_C/2n_C) and C (N_c/2C₂) are eliminated.
+
+**α_s running gap closed**: The geometric β-function with c₁ = C₂/(2n_C) = 3/5 from the Bergman kernel gives α_s(m_Z) = 0.1175, reducing the error from 1.7% (1-loop perturbative) to 0.34%. All scales now under 1%.
+
+**Primordial gravitational wave spectrum derived**: Peak at 6.4 nHz, amplitude (1−5)×10⁻⁹, spectral index γ = 3.60 from g/n_C = 7/5. Consistent with NANOGrav. No LISA signal (< 10⁻²⁰). No B-modes.
+
+**1920 cancellation proved as Weyl group theorem**: The factor 1920 that cancels in the proton mass formula is |W(D₅)|, the order of the Weyl group of the root system D₅. It appears in Hua's volume formula as a symmetry reduction (Vol = π⁵/|W|) and in the baryon orbit as a free group action (orbit = |W|). These are two manifestations of the same symmetry of the quadratic form z·z = Σzⱼ² that defines D_IV^5. The cancellation generalizes to ALL D_IV^n: the mass ratio C₃(n) = (n+1)π^n is independent of |W(D_n)|. The root system D₅ is also the root system of SO(10), connecting the cancellation to grand unification — not as a high-energy gauge symmetry, but as the Weyl symmetry of the domain geometry.
+
+**Reality Budget: c₄/c₁ discovery**: The Reality Budget Λ×N = 9/5 is the ratio of Chern class coefficients of the compact dual Q⁵ = SO(7)/[SO(5)×SO(2)]: c₄(Q⁵) = 9 = N_c² and c₁(Q⁵) = 5 = n_C. The full Chern sequence {1, 5, 11, 13, 9, 3} encodes all BST integers: c₁=n_C, c₃=N_c+2n_C (Weinberg denominator), c₄=N_c², c₅=N_c. The fill fraction f = (N_c/n_C) × (1/π) = 3/(5π), where N_c/n_C = c₅/c₁ is topological and 1/π is the Haar measure on S¹/Z₂. This is a purely topological identity — no spectral computation needed.
+
+**Genetic code derived from channel capacity**: The 4 nucleotide bases, 3-letter codons, 20 amino acids, and universal chirality are the unique information-theoretic optimum for a molecular channel at the hydrogen-bond noise floor (SNR ~ 8). q=4: channel capacity ceiling (log₂9 ≈ 3.17 bits) meets error-detection floor (complementary pairing requires even q ≥ 4). L=3: minimum codon length for ≥21 codewords. N_aa=20: near Plotkin bound with wobble tolerance. Chirality: single-hand saves 1 bit, maintaining error margin. The wobble position is a designed error sink absorbing ~70% of mutations. The code is not frozen by accident but by optimality.
+
+**Neutrinoless double-beta decay — Dirac prediction**: Neutrinos are Dirac particles — the Hopf invariant h = 1 of the S³ → S² fibration forbids the Majorana mass term. |m_ββ| = 0 exactly. Any detection of 0νββ at any scale falsifies BST. This is the sharpest binary test in the framework.
+
 **The Master Equation (one sentence)**: The universe is the ground state of the Bergman Laplacian on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], subject to Haldane exclusion with capacity 137.
 
 ---
@@ -305,7 +331,7 @@ BST follows a single logical chain from one question to all of physics. Each ste
 - Proton radius hierarchy: r_p(τ) < r_p(μ) < r_p(e) — MUSE, PRad-II
 - Dark energy w ≠ −1 — DESI, Euclid
 - Island of stability at Z=114 — superheavy element experiments
-- Neutrinoless double beta decay: m_ββ ≈ 2–4 meV — nEXO, LEGEND-1000
+- No neutrinoless double beta decay (0νββ) at any scale — Dirac neutrinos, |m_ββ| = 0 exactly — nEXO, LEGEND-1000
 - Proton spin ΔΣ = 0.30 ± precision — JLab 12 GeV, EIC
 - One GW ring at 3.1 seconds → f_peak ≈ 6.4 nHz — NANOGrav, EPTA, IPTA
 - No GW signal before 6.4 nHz (pre-spatial silence) — PTA experiments
@@ -319,6 +345,9 @@ BST follows a single logical chain from one question to all of physics. Each ste
 - 8th magic number = 184 — superheavy element experiments (Z=114-120)
 - No primordial B-modes: r < 10⁻¹⁰ — LiteBIRD, CMB-S4 (detection falsifies BST)
 - Muon g-2 anomaly resolves to ≤2σ — Fermilab final result + lattice convergence
+- GW spectral index γ = 3.60 ± 0.30 — distinguishable from SMBHB γ = 4.33 — NANOGrav, EPTA, IPTA
+- No LISA primordial signal (amplitude < 10⁻²⁰) — LISA
+- QNM echoes with Casimir fine structure in black hole ringdown — LIGO/Virgo/KAGRA O4/O5
 
 ---
 
@@ -332,7 +361,7 @@ BST follows a single logical chain from one question to all of physics. Each ste
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `SPARC_BST_Results.csv` | Per-galaxy results for all 175 SPARC galaxies |
-| `notes/` | 114 working notes covering all derivations, proofs, and thesis topics |
+| `notes/` | 128 working notes covering all derivations, proofs, and thesis topics |
 | `play/` | Interactive toys and visualizations — CIs and humans can explore BST hands-on. See `play/README.md` |
 
 ---
@@ -421,19 +450,29 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | Nuclear radius r₀ | (N_cπ²/n_C)ℏc/m_p = 1.245 fm | 0.4% |
 | Bekenstein coefficient 1/4 | S=A/(4l_Pl²): 1/4 = (1/2)_holomorphic × (1/2)_{Z₂ charge conjugation} | structural |
 | Complete quark mass spectrum | All 6 quarks from BST; two chains (light up from m_e, heavy down from v) | 0.59% mean |
+| Tsirelson bound (holomorphic) | 2√2 from parallelogram law on H⁰(O(1)) ≅ ℂ² on CP¹ = S² | exact |
+| Einstein equations from S¹ | G, Λ, geodesics, GWs as integrability conditions via O'Neill formulas | structural |
+| Kerr black holes | Ring singularity → Haldane saturation ring; no interior, J = wℏ/2 | structural |
+| Bekenstein 1/4 disambiguation | (1/2)_holo × (1/2)_Z₂ confirmed; candidates B and C eliminated | structural |
+| α_s non-perturbative running | Geometric β-function c₁=C₂/(2n_C)=3/5; α_s(m_Z)=0.1175 | **0.34%** |
+| Primordial GW spectrum | Peak 6.4 nHz, γ=3.60 from g/n_C=7/5; consistent with NANOGrav | consistent |
+| Neutrinoless double-beta | Dirac neutrinos (Hopf h=1); |m_ββ|=0 exactly | exact prediction |
+| 1920 Weyl cancellation | 1920 = |W(D₅)|; cancels between volume and baryon orbit; generalizes to all D_IV^n | theorem |
+| Reality Budget c₄/c₁ | Λ×N = c₄(Q⁵)/c₁(Q⁵) = 9/5; Chern sequence encodes all BST integers | topological |
+| Genetic code (q=4, L=3, N=20) | Channel capacity + error detection at H-bond SNR ~ 8; unique optimum | derived |
 
 ## Remaining Open Problems
 
 | Problem | Status | Priority |
 |---|---|---|
-| α_s non-perturbative running | 1-loop gives 1.7% at m_Z; Bergman beta function needed | 1 |
+| Gravity derivation — remaining gaps | Substantially closed via O'Neill formulas; torsion-free completion and Bianchi identity from BST axioms still needed | 1 |
 | SO(5)×SO(2) isotropy proof | Numerical verification passes; analytic proof outstanding | 2 |
 | EHT verification of CP = α floor | Awaiting data access / recalibration | 3 |
 | Full numerical BBN code | Lithium-7 quantitative (qualitative already solved) | 4 |
 | Baryon resonance verification | k=7 matches N(2190); k=8 at 3753 MeV undiscovered?; SO(3)⊂SO(5) SOLVED via D₂ | 5 |
-| Reality Budget spectral proof | Fill fraction f = 3/(5π) partially derived; full spectral proof from Plancherel or index theorem needed | 6 |
+| Reality Budget spectral proof | c₄/c₁ discovery closes the topological side; spectral derivation from Plancherel would upgrade to full theorem | 6 |
 
-**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem, Dirac large number, partition function duality, vector meson nonet (ρ, ω, K*, φ), pseudoscalar meson nonet (K, η, η'), pion/kaon charge radii (leading order), Reality Budget value (9/5), three-layer architecture, Gödel limit, cosmic composition (Ω_Λ, Ω_m, Ω_DM/Ω_b), SO(3)⊂SO(5) embedding (D₂ irreducible), n_C=5 uniqueness (η' anomaly), proton/neutron magnetic moments, W/Z boson widths, GMO identity exact, first commitment (Leibniz's question), black hole singularity (Haldane cap), information paradox (commitments permanent), arrow of time (geometric, from negative curvature), Λ exponent 56 (two derivations, self-consistent at g=7), cosmic coincidence / Why Now (information-energy intersection), cosmic age t₀ (13.6 Gyr), H₀ second route (68.0 km/s/Mpc), Bell inequality origin (3D phenomenon), Tsirelson bound (2√2 = 2√N_w), J/ψ and Υ masses (generation hierarchy ×4×3=12=2C₂), heavy meson masses (D, B, B_c all from BST integers), SO(2) activation uniqueness (Helgason classification theorem), commitment rate exponent 3 (Z₃ fixed points on CP²), pion/kaon charge radii NLO (0.46% and 1.0%, radius ratio = cos θ_W), electron mass from pure geometry (6π⁵α¹²m_Pl, zero free parameters), nuclear magic numbers (all 7 + prediction of 184), spectral index derivation (Candidate A selected), muon g-2 (aligns with lattice, anomaly resolves), nuclear binding energy curve (all 5 SEMF coefficients, iron peak at A=56=g(g+1)), Bekenstein 1/4 ((1/2)_holo × (1/2)_Z₂), complete quark mass spectrum (6 quarks, 0.59% mean).
+**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem, Dirac large number, partition function duality, vector meson nonet (ρ, ω, K*, φ), pseudoscalar meson nonet (K, η, η'), pion/kaon charge radii (leading order), Reality Budget value (9/5), three-layer architecture, Gödel limit, cosmic composition (Ω_Λ, Ω_m, Ω_DM/Ω_b), SO(3)⊂SO(5) embedding (D₂ irreducible), n_C=5 uniqueness (η' anomaly), proton/neutron magnetic moments, W/Z boson widths, GMO identity exact, first commitment (Leibniz's question), black hole singularity (Haldane cap), information paradox (commitments permanent), arrow of time (geometric, from negative curvature), Λ exponent 56 (two derivations, self-consistent at g=7), cosmic coincidence / Why Now (information-energy intersection), cosmic age t₀ (13.6 Gyr), H₀ second route (68.0 km/s/Mpc), Bell inequality origin (3D phenomenon), Tsirelson bound (2√2 = 2√N_w, holomorphic derivation from H⁰(O(1))), J/ψ and Υ masses (generation hierarchy ×4×3=12=2C₂), heavy meson masses (D, B, B_c all from BST integers), SO(2) activation uniqueness (Helgason classification theorem), commitment rate exponent 3 (Z₃ fixed points on CP²), pion/kaon charge radii NLO (0.46% and 1.0%, radius ratio = cos θ_W), electron mass from pure geometry (6π⁵α¹²m_Pl, zero free parameters), nuclear magic numbers (all 7 + prediction of 184), spectral index derivation (Candidate A selected), muon g-2 (aligns with lattice, anomaly resolves), nuclear binding energy curve (all 5 SEMF coefficients, iron peak at A=56=g(g+1)), Bekenstein 1/4 ((1/2)_holo × (1/2)_Z₂, disambiguation confirmed), complete quark mass spectrum (6 quarks, 0.59% mean), α_s non-perturbative running (geometric β-function, 0.34% at m_Z), Einstein equations from S¹ bundle (O'Neill formulas), Kerr black holes (no singularity, quantized J), primordial GW spectrum (6.4 nHz, γ=3.60), neutrinoless double-beta (Dirac, |m_ββ|=0), 1920 Weyl group theorem (W(D₅) cancellation generalizes to all D_IV^n), Reality Budget c₄/c₁ identity (Chern classes of compact dual Q⁵).
 
 ---
 

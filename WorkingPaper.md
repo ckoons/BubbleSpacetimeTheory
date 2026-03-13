@@ -51,7 +51,7 @@ abstract: |
   with zero free parameters.
   The CMB spectral index $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($0.3\sigma$ from Planck),
   with tensor-to-scalar ratio $r \approx 0$ (no primordial B-modes), are derived from the phase transition dynamics.
-  Over 130 parameter-free predictions are presented, all testable against current or near-future experiments.
+  Over 140 parameter-free predictions are presented, all testable against current or near-future experiments.
 documentclass: article
 classoption:
   - 12pt
@@ -2509,7 +2509,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Weinberg angle $\sin^2\theta_W$      |$N_c/(N_c + 2n_C) = 3/13 = 0.23077$|0.23122 (MS-bar)|$\checkmark$ 0.2%     |
 |W boson mass $m_W$                   |$m_Z\sqrt{10/13} = 79.977$ GeV  |80.377 GeV      |$\checkmark$ 0.5%     |
 |Strong coupling $\alpha_s(m_p)$      |$(n_C+2)/(4n_C) = 7/20 = 0.350$ |~0.35           |$\checkmark$ ~0%      |
-|Strong coupling $\alpha_s(m_Z)$      |1-loop running from 7/20         |0.1179          |$\checkmark$ 1.7%     |
+|Strong coupling $\alpha_s(m_Z)$      |Geometric $\beta$-function, $c_1 = 3/5$|0.1175     |$\checkmark$ 0.34%    |
 |Baryon asymmetry $\eta$              |$2\alpha^4/(3\pi) = 6.018\times10^{-10}$|$(6.104\pm0.058)\times10^{-10}$|$\checkmark$ 1.4%|
 |Hubble constant $H_0$               |66.7 km/s/Mpc (from $\eta$)      |$67.36\pm0.54$ (Planck)|$\checkmark$ 1.0%|
 |Neutrino mass $m_{\nu_3}$           |$(10/3)\alpha^2 m_e^2/m_p = 0.0494$ eV|$\approx 0.050$ eV|$\checkmark$ 1.8%|
@@ -2593,7 +2593,10 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Halo surface density $\Sigma_0$   |$a_0/(2\pi G) = 141\;M_\odot/$pc²|$\log_{10} = 2.15 \pm 0.2$ (Donato)|$\checkmark$ **0.0 dex**|
 |Hubble constant $H_0$ (Route B)  |$\sqrt{19\Lambda/39} = 68.0$ km/s/Mpc (information-energy intersection)|$67.36 \pm 0.54$ (Planck)|$\checkmark$ 1.0%|
 |Cosmic age $t_0$                  |$(2/3\sqrt{\Omega_\Lambda})/H_0 = 13.6$ Gyr|$13.80 \pm 0.02$ Gyr (Planck)|$\checkmark$ 1.4%|
-|Tsirelson bound                   |$2\sqrt{N_w} = 2\sqrt{N_c - 1} = 2\sqrt{2}$|$2\sqrt{2}$ (exact, Tsirelson 1980)|$\checkmark$ exact|
+|Tsirelson bound                   |$2\sqrt{2}$ from $H^0(\mathcal{O}(1)) \cong \mathbb{C}^2$ on $\mathbb{CP}^1$|$2\sqrt{2}$ (exact, Tsirelson 1980)|$\checkmark$ exact|
+|$\|m_{\beta\beta}\|$ ($0\nu\beta\beta$)|0 (Dirac neutrinos, Hopf $h=1$ forbids Majorana)|—|exact prediction|
+|Primordial GW peak frequency      |BST phase transition at 3.1 s $\to$ 6.4 nHz|NANOGrav $\sim$ nHz band|$\checkmark$ consistent|
+|GW spectral index $\gamma$        |$g/n_C + 2 = 7/5 + 2 = 3.60$|NANOGrav $3.2$–$4.6$|$\checkmark$ consistent|
 |Width ratio $\Gamma_\rho/\Gamma_\phi$|$n_C \times g = 35$; dimension $\times$ genus|$35.09$|$\checkmark$ 0.26%|
 |Wyler constant origin (HC)           |$9/(8\pi^4) = \rho_2^2/(2\pi^4)$, $\rho_2=(n_C{-}2)/2=3/2$ — Weyl vector of $\mathrm{SO}_0(5,2)$|Exact|$\checkmark$ Derived|
 |$D_{IV}^5$ identification            |Proven from BST contact geometry |—               |Established|
@@ -2647,11 +2650,14 @@ With $\chi = \sqrt{n_C(n_C+1)} = \sqrt{30}$ derived from superradiant vacuum coh
 1. **Null results in dark matter direct detection:** LUX-ZEPLIN, XENONnT, PandaX, and all future experiments will find no dark matter particles.
 1. **Strong-to-weak timescale ratio:** The ratio $\sim 10^{16}$ between strong cycling and weak transition timescales derivable from the volume ratio of $\mathbb{CP}^2$ to its intersection with the Hopf fibration $S^3 \to S^2$ within $D_{IV}^5$.
 1. **Nuclear half-lives from phase coherence:** Specific half-lives calculable from triad cycling trajectories on $\mathbb{CP}^2$ and their sampling rates of the Hopf intersection, testable against hundreds of measured values.
-1. **Bekenstein coefficient:** The factor $1/4$ in $S = A/4l_P^2$ derivable from the Bergman metric on $D_{IV}^5$.
+1. **Bekenstein coefficient:** The factor $1/4$ in $S = A/4l_P^2$ derived: $(1/2)_{\text{holo}} \times (1/2)_{Z_2}$. Disambiguation confirmed against Schwarzschild, Kerr, Reissner-Nordström. **SOLVED.** See `notes/BST_Bekenstein_Quarter_Disambiguation.md`.
 1. **Dark energy equation of state $w \neq -1$:** Substrate growth dynamics predict deviation from cosmological constant value. Sign and magnitude determined by ratio of boundary growth rate to commitment rate. Testable at percent-level precision by DESI, Euclid, and Roman Space Telescope within 5 years.
 1. **Tau mass ratio:** Now derived: $m_\tau/m_e = (24/\pi^2)^6 \times (7/3)^{10/3} = 3483.8$ (0.19% from observed $3477.2$). Two-step geometric derivation: volume Jacobian (muon) + curvature ratio (tau). See Section 7.5, Section 25.2. **SOLVED.** Quark mass ratios also derived: $m_s/m_d = 4n_C$, $m_t/m_c = N_{\max}-1$, $m_b/m_\tau = 7/3$, $m_b/m_c = 10/3$, $m_c/m_s = 137/10$. See `notes/BST_QuarkMassRatios.md`. **PARTIALLY SOLVED.**
 1. **Baryon-to-photon ratio $\eta$:** Now derived: $\eta = 2\alpha^4/(3\pi) = 6.018 \times 10^{-10}$, matching Planck to 1.4%. See `notes/BST_BaryonAsymmetry_Eta.md`. **SOLVED.**
 1. **Solar system commitment map.** A standard two-instrument package — chip-scale atomic clock (commitment rate detector, $N = N_0\sqrt{1 - \rho/\rho_{137}}$) and precision accelerometer (gravitometer, $\nabla\rho$) — on every future space probe would produce, over 30 years, a 3D map of the substrate's commitment density from 0.3 to 100+ AU. BST predicts a transition from gravitational ($\rho \propto 1/r$) to cosmological ($\rho \to \rho_\infty$) at $r \sim GM_\odot/a_0 \approx 7000$ AU. Mass: $< 200$ g, cost: $< \$50$K per probe. See `notes/BST_CommitmentDetector_Proposal.md`.
+1. **Primordial GW spectrum.** Peak frequency 6.4 nHz, amplitude $(1$–$5) \times 10^{-9}$, spectral index $\gamma = 3.60$ from $g/n_C = 7/5$. Consistent with NANOGrav 15-year data. Distinguishable from SMBHB prediction ($\gamma = 4.33$). No LISA primordial signal ($< 10^{-20}$). No B-modes ($r < 10^{-10}$). See `notes/BST_PrimordialGW_Spectrum.md`. **DERIVED.**
+1. **Neutrinoless double-beta decay null result.** $|m_{\beta\beta}| = 0$ exactly (Dirac neutrinos, Hopf $h = 1$). nEXO, LEGEND-1000, KamLAND-Zen, and all future $0\nu\beta\beta$ experiments should see null results at all scales. Any detection falsifies BST at the topological level. See `notes/BST_NeutrinolessDoubleBeta.md`. **SHARPENED.**
+1. **QNM echo fine structure.** Black hole quasi-normal mode ringdown should show delayed echoes with Casimir fine structure from the Haldane saturation surface. Kerr black holes: quantized angular momentum $J = w\hbar/2$, no interior, no Cauchy horizon. Testable in LIGO/Virgo/KAGRA O4/O5 data. See `notes/BST_KerrBlackHoles.md`. **DERIVED.**
 
 ### 25.6 Falsifiability by Timeline
 
@@ -2694,6 +2700,9 @@ With $\chi = \sqrt{n_C(n_C+1)} = \sqrt{30}$ derived from superradiant vacuum coh
 |17|No singularities                                   |Observational evidence requiring curvature divergence|
 |18|No closed timelike curves                          |Demonstrated physical mechanism for time loops       |
 |19|Growing manifold consistent with all GR predictions|Any GR prediction failing on the committed manifold  |
+|20|No $0\nu\beta\beta$ at any scale (Dirac neutrinos)|Confirmed detection of neutrinoless double-beta decay|
+|21|GW spectral index $\gamma = 3.60 \pm 0.30$        |$\gamma$ measured inconsistent with BST (e.g. $\gamma > 4$)|
+|22|No LISA primordial signal ($< 10^{-20}$)           |Primordial GW detected in LISA band                  |
 
 ### 25.7 Comparison with Competing Frameworks
 
@@ -2751,7 +2760,7 @@ This gives a 1.2% reduction, corresponding to $\Delta r_p \approx 0.010$ fm — 
 
 BST predicts Dirac neutrinos: neutrino and antineutrino carry opposite $S^1$ winding directions and are distinct particles. The conservation law $B - L$ is topologically protected by the Hopf invariant (Section 14.9). Neutrinoless double beta decay would require $\Delta(B - L) = 2$, violating a topologically protected conservation law. **BST prediction: neutrinoless double beta decay does not occur.** This is not a probabilistic statement — it is a categorical exclusion by topology.
 
-BST further predicts normal ordering with $m_1 = 0$ exactly (Section 7.6). The effective Majorana mass for $0\nu\beta\beta$ in normal ordering with $m_1 = 0$ is $m_{\beta\beta} = |U_{e2}^2 m_2 + U_{e3}^2 m_3| \approx 2$–$4$ meV — below current experimental sensitivity but within reach of next-generation experiments (nEXO, LEGEND-1000). However, since BST categorically forbids the Majorana mechanism, these experiments should see a null result regardless. Inverted ordering is excluded by the BST prediction $m_1 = 0$.
+BST further predicts normal ordering with $m_1 = 0$ exactly (Section 7.6). The Hopf invariant $h = 1$ of the $S^3 \to S^2$ fibration provides a second, independent proof that Majorana mass terms are forbidden: the Hopf fiber winding number $h = 1$ is odd, which forces Dirac structure (even $h$ would permit Majorana). Therefore $|m_{\beta\beta}| = 0$ exactly — not merely small, but identically zero. Any detection of $0\nu\beta\beta$ at any scale falsifies BST. See `notes/BST_NeutrinolessDoubleBeta.md`. Inverted ordering is excluded by the BST prediction $m_1 = 0$.
 
 Multiple experiments are searching at or approaching the sensitivity required by the inverted neutrino mass hierarchy ($\sim 20$ meV): GERDA/LEGEND, nEXO, KamLAND-Zen, CUPID. A null result at the inverted hierarchy scale is BST-consistent and progressively constrains Majorana alternatives. A confirmed detection falsifies BST at the topological conservation law level — it would require a fundamental modification of the Hopf bundle structure.
 
@@ -3022,13 +3031,23 @@ The following were all derived from $D_{IV}^5$ geometry with zero free parameter
 - **Bekenstein-Hawking entropy coefficient — DERIVED.** $S = A/(4\ell_{\text{Pl}}^2)$ where $1/4 = (1/2)_{\text{holo}} \times (1/2)_{Z_2}$. First factor: the complex structure on $D_{IV}^5$ halves real DOF (only holomorphic sector carries independent information). Second factor: $Z_2$ charge conjugation ($\theta \to \theta + \pi$ on $S^1$) identifies matter/antimatter modes at the maximally committed horizon. The no-hair theorem IS the $Z_2$ identification. Grade B overall: complex structure factor is rigorous, $Z_2$ factor is physically sound but needs tighter derivation from BST axioms. See `notes/BST_Bekenstein_Quarter.md`.
 - **Complete quark mass spectrum — SYSTEMATIZED.** All 6 quarks with BST formulas, mean error 0.59\%. Two chains: light chain (up from $m_e$ via $m_u = 3\sqrt{2}m_e$, $m_d/m_u = 13/6$, $m_s/m_d = 20$, $m_c/m_s = 137/10$) and heavy chain (down from $v$ via $m_t = (1-\alpha)v/\sqrt{2}$, $m_b/m_\tau = 7/3$). Chains meet at charm with 1.3\% consistency. No single unified master formula found — different geometric mechanisms at each scale. Bottom quark has 2\% tension between two routes (flagged as main open issue). Constituent quark mass $M_q = m_p/N_c = 312.8$ MeV. BST reproduces lepton Koide to 0.028\% but quark Koide fails. See `notes/BST_QuarkMassSpectrum_Complete.md`.
 
+**Derived March 13, 2026 (Session 2 — hunting session):**
+
+- **Tsirelson bound from holomorphic geometry — DERIVED.** The Tsirelson bound $2\sqrt{2}$ is derived from the parallelogram law on $H^0(\mathcal{O}(1)) \cong \mathbb{C}^2$ — the space of holomorphic sections of the tautological bundle on $\mathbb{CP}^1 = S^2$. This closes the open question from `BST_BellInequality.md`: the bound is not merely $2\sqrt{N_w}$ but is forced by the holomorphic section norm on the Shilov boundary's $\mathbb{CP}^1$ slices. See `notes/BST_TsirelsonBound_Holomorphic.md`.
+- **Neutrinoless double-beta decay — Dirac prediction sharpened.** Neutrinos are Dirac particles: the Hopf invariant $h = 1$ of the $S^3 \to S^2$ fibration forbids the Majorana mass term. $|m_{\beta\beta}| = 0$ exactly. Any detection of $0\nu\beta\beta$ at any scale falsifies BST. This is the sharpest binary test in the framework. See `notes/BST_NeutrinolessDoubleBeta.md`.
+- **Kerr black holes — no singularity, no interior.** The ring singularity of Kerr spacetime is replaced by a ring of Haldane saturation. No interior exists, no Cauchy horizon. Angular momentum is quantized: $J = w\hbar/2$. The Penrose process is reinterpreted as UNC (uncommitted capacity) harvesting. QNM echoes with Casimir fine structure are predicted. See `notes/BST_KerrBlackHoles.md`.
+- **Bekenstein 1/4 disambiguation — RESOLVED.** The candidate factorization $1/4 = (1/2)_{\text{holo}} \times (1/2)_{Z_2}$ is confirmed by testing against Schwarzschild, Kerr, and Reissner-Nordström black holes. Alternative candidates B ($n_C/2n_C$) and C ($N_c/2C_2$) are eliminated. See `notes/BST_Bekenstein_Quarter_Disambiguation.md`.
+- **$\alpha_s$ non-perturbative running — GAP CLOSED.** The geometric $\beta$-function with $c_1 = C_2/(2n_C) = 3/5$ from the Bergman kernel gives $\alpha_s(m_Z) = 0.1175$ (0.34% from PDG 0.1179), reducing the error from 1.7% (1-loop perturbative) to 0.34%. All scales now under 1%. See `notes/BST_AlphaS_NonperturbativeRunning.md`.
+- **Primordial GW spectrum — DERIVED.** Peak at 6.4 nHz, amplitude $(1$–$5) \times 10^{-9}$, spectral index $\gamma = 3.60$ from $g/n_C = 7/5$. Consistent with NANOGrav. No LISA signal ($< 10^{-20}$). No B-modes. The spectral index $\gamma = 13/5 + 1 = 3.60$ is distinguishable from SMBHB prediction $\gamma = 4.33$. See `notes/BST_PrimordialGW_Spectrum.md`.
+- **Einstein equations from commitment — largest gap substantially closed.** Einstein's field equations are derived as integrability conditions of the $S^1$ fiber bundle via O'Neill's Riemannian submersion formulas. Newton's $G$, the cosmological constant $\Lambda$, geodesic motion, and gravitational waves all emerge from the bundle structure. Remaining gaps: torsion-free completion and Bianchi identity from BST axioms. See `notes/BST_EinsteinEquations_FromCommitment.md`.
+
 **Still open, in priority order:**
 
 1. **BST Lagrangian — first formulation complete.** Six-term action $S_{\text{BST}} = S_{\text{geom}} + S_{\text{YM}} + S_{\text{EW}} + S_{\text{ferm}} + S_{\text{Higgs}} + S_{\text{Haldane}}$ assembled on $D_{IV}^5$ with all coupling constants derived (zero free parameters). Open sub-problems: (a) explicit Bergman Dirac operator $\gamma_B^\mu$ on $D_{IV}^5$, (b) dimensional reduction $D_{IV}^5 \to \mathbb{R}^{3,1}$, (c) $Z_{\text{Haldane}}[g_B]$ as a functional of the metric. See `notes/BST_Lagrangian.md`.
 
 3. ~~**Commitment rate exponent $n_c = 3$** — **SOLVED.** See above.~~
 
-4. **$\alpha_s$ running beyond 1-loop.** The 2-loop and 3-loop perturbative corrections make the result WORSE (−11\%, −13\%) because $\alpha_s = 0.35$ at $m_p$ is in the non-perturbative regime where the MS-bar beta function series diverges (40\% correction per order). The 1-loop result $\alpha_s(m_Z) = 0.1158$ (−1.7\%) stands as the best perturbative estimate. The 1.7\% gap is comparable to scheme-conversion effects (BST Bergman metric $\neq$ MS-bar). A proper non-perturbative running requires deriving the BST beta function from Bergman metric coarse-graining. See `notes/BST_AlphaS_2Loop.py`.
+4. ~~**$\alpha_s$ running beyond 1-loop** — **SOLVED.** Geometric $\beta$-function with $c_1 = C_2/(2n_C) = 3/5$ gives $\alpha_s(m_Z) = 0.1175$ (0.34\%, was 1.7\%). See `notes/BST_AlphaS_NonperturbativeRunning.md`.~~
 
 5. ~~**Chiral condensate $\chi$ from first principles** (complete).~~ $\chi = \sqrt{n_C(n_C+1)} = \sqrt{30} = 5.477$ (0.46%). Superradiant vacuum coherence on $\mathbb{CP}^1$. BST now has zero free parameters. Full details: `notes/BST_ChiralCondensate_Derived.md`.
 
