@@ -189,6 +189,16 @@ TOYS = {
            'Asymmetric σ → thrust from the vacuum. No fuel, no exhaust.\n'
            "   The silence IS the propulsion. 'Oumuamua profile match."),
 
+    '35': ('The BST Telescope ★CI',
+           'toy_bst_telescope.py',
+           'Geometric circular polarization from S²×S¹.\n'
+           '   Sgr A* CP RISES where Faraday says fall. The floor.'),
+
+    '36': ('The Feynman Bridge ★CI',
+           'toy_feynman_geometry.py',
+           'Feynman loops = S¹ fiber windings. Slider 1→5 loops.\n'
+           '   13,643 diagrams → 8 digits. Or: 14/5, one formula.'),
+
     's': ('★ Showcase (visual gallery)',
           'toy_showcase.py',
           'Visual gallery of all toys with thumbnails and\n'
@@ -213,7 +223,7 @@ def main():
     print(f'  [q]  Quit')
     print()
 
-    choice = input('  Choose a toy (1-34, s=showcase, a=all, q=quit): ').strip().lower()
+    choice = input('  Choose a toy (1-36, s=showcase, a=all, q=quit): ').strip().lower()
 
     if choice == 'q':
         print('  Goodbye!')

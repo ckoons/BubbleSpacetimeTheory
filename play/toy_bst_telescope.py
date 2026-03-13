@@ -229,7 +229,7 @@ class BSTTelescope:
         best_n = 0.0
 
         # 2D grid search over (floor, n); solve for B analytically
-        for floor in np.linspace(0.3, 2.0, 170):
+        for floor in np.linspace(0.3, 3.0, 270):
             for n_val in np.linspace(0.1, 2.0, 100):
                 # CP_i = floor - B * freq_i^(-n)
                 # Minimize chi2 → B = Σ[(floor-cp_i)*f_i^(-n)/σ²] / Σ[f_i^(-2n)/σ²]
@@ -378,10 +378,11 @@ class BSTTelescope:
 
     def floor_fit(self, source='sgr_a') -> dict:
         """
-        Fit CP(ν) = A × ν⁻ⁿ + floor to the data.
+        Fit CP(ν) = floor − B × ν⁻ⁿ to the data.
 
-        The floor is the BST geometric component.
-        If floor > 0 with statistical significance, geometry speaks.
+        Faraday subtracts at low frequencies (destructive).
+        At high frequencies the Faraday term vanishes and
+        the geometric floor is revealed.
         """
         if source == 'm87':
             data = M87_DATA
@@ -761,25 +762,28 @@ class BSTTelescope:
                      markersize=8, capsize=4, capthick=1.5, lw=1.5,
                      label='Sgr A* data', zorder=5)
 
-        # Faraday-only model (falls with freq)
-        f_model = np.logspace(0, 3, 200)
-        # Use a simple power law that roughly matches low-freq data
-        cp_faraday = 0.20 * f_model**0.15  # rising slightly — but
-        # Actually for Faraday, it should fall. The data rises!
-        # Show a pure power law fit
+        # Fit the destructive model: CP = floor - B * nu^(-n)
+        sgr_fit = self.sgr_a_star()
+        floor_val = sgr_fit['floor_pct']
+        B_val = sgr_fit['faraday_B']
+        n_val = sgr_fit['faraday_n']
+
+        f_model = np.logspace(np.log10(0.5), np.log10(1000), 200)
+
+        # Faraday-only (should fall at high freq)
         cp_pure_fall = 2.0 * f_model**(-0.3)
         ax1.plot(f_model, cp_pure_fall, '--', color='#44ff88', lw=1.5,
                  alpha=0.7, label='Faraday-only (should fall)')
 
-        # BST model: Faraday + floor
-        floor = 0.85
-        cp_bst = np.maximum(0.5 * f_model**(-0.5), 0) + floor
+        # BST destructive model: CP = floor - B * nu^(-n)
+        cp_bst = floor_val - B_val * f_model**(-n_val)
         ax1.plot(f_model, cp_bst, '-', color='#ff4444', lw=2,
-                 label=f'Faraday + floor ({floor}%)')
+                 label=f'Floor − Faraday ({floor_val:.1f}%)')
 
-        # Floor line
-        ax1.axhline(floor, color='#ff4444', ls=':', lw=1, alpha=0.5)
-        ax1.text(1.5, floor + 0.05, f'geometric floor = {floor}%',
+        # Floor asymptote
+        ax1.axhline(floor_val, color='#ff4444', ls=':', lw=1, alpha=0.5)
+        ax1.text(1.5, floor_val + 0.05,
+                 f'geometric floor = {floor_val:.1f}%',
                  color='#ff4444', fontsize=7, fontfamily='monospace')
 
         ax1.set_xscale('log')
@@ -792,7 +796,7 @@ class BSTTelescope:
                       fontweight='bold')
         ax1.legend(loc='lower right', fontsize=7, facecolor='#0d0d24',
                    edgecolor='#333333', labelcolor='#cccccc')
-        ax1.set_ylim(0, 2.0)
+        ax1.set_ylim(0, max(2.5, floor_val + 0.5))
         ax1.tick_params(colors='#888888')
         for spine in ax1.spines.values():
             spine.set_color('#333333')
@@ -815,7 +819,7 @@ class BSTTelescope:
                      alpha=0.5, label='Sgr A*', zorder=4)
 
         # Floor reference
-        ax2.axhline(floor, color='#ff4444', ls=':', lw=1, alpha=0.5)
+        ax2.axhline(floor_val, color='#ff4444', ls=':', lw=1, alpha=0.5)
 
         # Faraday expectation
         ax2.plot(f_model, cp_pure_fall, '--', color='#44ff88', lw=1,
@@ -851,10 +855,6 @@ class BSTTelescope:
         # Filter out zero compactness for log scale
         comp_data = [(s['compactness'], s['cp_pct'], s['name'], s['type'])
                      for s in SOURCES if s['compactness'] > 0]
-        comp_vals = [c[0] for c in comp_data]
-        cp_vals = [c[1] for c in comp_data]
-        names = [c[2] for c in comp_data]
-        types = [c[3] for c in comp_data]
 
         # Color by type
         type_colors = {

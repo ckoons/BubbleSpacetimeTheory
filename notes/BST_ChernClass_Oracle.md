@@ -18,7 +18,7 @@ The central results:
 5. $\chi(Q^n) = n + 1$ for odd $n$ (Euler characteristic) — gives $C_2 = 6$
 6. The ambient dimension $n + 2$ in $Q^n \subset \mathbb{CP}^{n+1}$ — gives $g = 7$ (genus)
 
-**From the single input $n_C = 5$, the Chern classes of $Q^5$ derive $N_c = 3$, $C_2 = 6$, $N_c^2 = 9$, and $g = 7$. Four of the five BST integers follow from one.**
+**From the single input $n_C = 5$, the Chern classes of $Q^5$ derive $N_c = 3$, $C_2 = 6$, $N_c^2 = 9$, $g = 7$, and — via the Wyler-BST formula — $\alpha = 1/137.036$ and $N_{\max} = 137$. All BST integers follow from one.**
 
 The Weinberg angle $\sin^2\theta_W = c_5/c_3 = 3/13$ and the Reality Budget $\Lambda \times N = c_4/c_1 = 9/5$ are ratios of Chern class coefficients. Every fundamental ratio in BST is a ratio of topological invariants of a single compact manifold.
 
@@ -281,6 +281,26 @@ $$\sin^2\theta_W = \frac{c_n}{c_n + (c_2 - 1)} = \frac{N_c}{N_c + \dim SO(n_C)}$
 
 This is the ratio of color degrees of freedom to total gauge degrees of freedom at the isotropy level.
 
+### 8.4 $c_3 = 13$ as Standard Model Boson Count
+
+The Standard Model contains exactly 13 fundamental boson species:
+
+| Sector | Bosons | Count | Chern origin |
+|--------|--------|-------|---|
+| SU($N_c$) gauge | gluons $g_1, \ldots, g_8$ | $N_c^2 - 1 = 8$ | $c_5^2 - 1$ |
+| SU(2) gauge | $W^+, W^-, Z$ | 3 | — |
+| U(1) gauge | $\gamma$ | 1 | — |
+| Scalar | $H$ | 1 | — |
+| **Total** | | **13** | **$c_3(Q^5)$** |
+
+The non-gluonic bosons (electroweak + Higgs) number exactly $n_C = c_1 = 5$:
+
+$$c_3 = (N_c^2 - 1) + n_C = (c_5^2 - 1) + c_1 = 8 + 5 = 13$$
+
+Equivalently: $c_3 = c_4 + c_5 + 1 = N_c^2 + N_c + 1$. This identity holds specifically for $n = 5$, not for general quadrics — another signature that $n_C = 5$ is the physical dimension.
+
+Gravity is absent from this count: in BST, gravity is a boundary condition (Section 14 of the Working Paper), not a gauge force. The count $c_3 = 13$ captures exactly the propagating boson content of the Standard Model.
+
 ---
 
 ## 9. Complete Dictionary: Every BST Integer from $Q^5$
@@ -307,7 +327,7 @@ $$n_C = 5 \;\longrightarrow\; N_c = 3 \;\longrightarrow\; N_c^2 = 9 \;\longright
 
 via $c_n = (n_C+1)/2$, then $(c_n)^2$, then $\chi = n_C+1$, then $n_C + 2$.
 
-Four of the five BST integers are **derived**, not input. Only $n_C = 5$ (and $N_{\max} = 137$) are independent.
+**All five BST integers are derived from $n_C = 5$**, including $N_{\max} = 137 = \lfloor 1/\alpha(n_C) \rfloor$ via the Wyler-BST formula (Section 12).
 
 ### 9.3 The Ratios
 
@@ -345,13 +365,13 @@ $$\frac{m_p}{m_e}(n) = (n+1) \pi^n$$
 
 ### 10.2 The Fine Structure Constant Test
 
-The fine structure constant for $D_{IV}^n$ involves the Wyler formula:
+The Wyler-BST formula (Section 12) gives $\alpha$ as a function of $n_C$ alone:
 
-$$\alpha(n) = \frac{(n+4)/8\pi^4}{} \left(\frac{\pi^n}{|W(D_n)|}\right)^{1/4}$$
+$$\alpha(n_C) = \frac{((n_C+1)/2)^2}{8\pi^4} \left(\frac{\pi^{n_C}}{n_C! \cdot 2^{n_C-1}}\right)^{1/4}$$
 
-For $n = 5$: $\alpha = (9/8\pi^4)(\pi^5/1920)^{1/4} \approx 1/137.036$ at 0.0001% precision.
+For $n_C = 5$: $\alpha = (9/8\pi^4)(\pi^5/1920)^{1/4} \approx 1/137.036$ at 0.0001% precision.
 
-For other $n$, the formula gives values inconsistent with observation. $n = 5$ is the unique solution.
+For other $n_C$, the formula gives values inconsistent with observation. $n_C = 5$ is the unique solution.
 
 ### 10.3 The Odd-$n$ Requirement
 
@@ -386,9 +406,48 @@ The Reality Budget $\Lambda \times N = 9/5$ is the value of the general quadric 
 
 ---
 
-## 12. Summary
+## 12. $N_{\max}$ from $n_C$: BST Has ONE Input
 
-### 12.1 What Is Proved
+The fine structure constant in BST (via the Wyler-Robertson formula adapted to $D_{IV}^n$) is:
+
+$$\alpha(n_C) = \frac{N_c^2}{8\pi^4} \left(\frac{\pi^{n_C}}{|W(D_{n_C})|}\right)^{1/4}$$
+
+By Theorem 4.1, $N_c = (n_C + 1)/2$. The Weyl group order is $|W(D_{n_C})| = n_C! \times 2^{n_C - 1}$. Substituting:
+
+$$\alpha(n_C) = \frac{((n_C+1)/2)^2}{8\pi^4} \left(\frac{\pi^{n_C}}{n_C! \cdot 2^{n_C-1}}\right)^{1/4}$$
+
+**Every factor depends only on $n_C$.** No other input is needed.
+
+**Evaluation at $n_C = 5$:**
+
+$$\alpha(5) = \frac{9}{8\pi^4} \left(\frac{\pi^5}{1920}\right)^{1/4} = \frac{1}{137.036\ldots}$$
+
+agreeing with observation to $0.0001\%$. Then:
+
+$$N_{\max} = \left\lfloor \frac{1}{\alpha(n_C)} \right\rfloor = \left\lfloor 137.036 \right\rfloor = 137$$
+
+The floor function appears because $N_{\max}$ counts **complete** Haldane channels — integer-valued by construction, like wavelengths fitting in a cavity.
+
+**Complete derivation chain from one integer:**
+
+$$\boxed{n_C = 5 \;\longrightarrow\; N_c = 3 \;\longrightarrow\; \alpha = 1/137.036 \;\longrightarrow\; N_{\max} = 137}$$
+
+| Quantity | Formula | Chern origin |
+|----------|---------|---|
+| $N_c = 3$ | $(n_C + 1)/2$ | $c_{n_C}(Q^{n_C})$ |
+| $N_c^2 = 9$ | $((n_C+1)/2)^2$ | $c_{n_C-1}(Q^{n_C})$ |
+| $C_2 = 6$ | $n_C + 1$ | $\chi(Q^{n_C})$ |
+| $g = 7$ | $n_C + 2$ | $c_1(\mathbb{CP}^{n_C+1})$ |
+| $\alpha$ | Wyler-BST | $N_c^2$, $\pi^{n_C}$, $\|W(D_{n_C})\|$ |
+| $N_{\max} = 137$ | $\lfloor 1/\alpha \rfloor$ | derived |
+
+**BST has ONE input: $n_C = 5$.**
+
+---
+
+## 13. Summary
+
+### 13.1 What Is Proved
 
 The compact dual $Q^5$ encodes the complete BST integer set through its Chern classes:
 
@@ -402,17 +461,17 @@ Each coefficient has a proven group-theoretic identity:
 - $\chi = n + 1$ (Euler characteristic, odd $n$)
 - $n + 2 = c_1(\mathbb{CP}^{n+1})$ (ambient Chern class)
 
-### 12.2 What This Means
+### 13.2 What This Means
 
-BST has **two** independent inputs, not five:
-1. $n_C = 5$ (the complex dimension of the domain)
-2. $N_{\max} = 137$ (the Haldane number / channel capacity)
+BST has **ONE** independent input:
 
-Everything else — $N_c$, $C_2$, $g$, $N_c^2$, $\sin^2\theta_W$, $\Lambda \times N$, $\alpha_s$ — is derived from the Chern classes of a single compact manifold $Q^5$.
+$$n_C = 5 \quad\text{(the complex dimension of the domain)}$$
+
+Everything else — $N_c$, $C_2$, $g$, $N_c^2$, $\alpha$, $N_{\max}$, $\sin^2\theta_W$, $\Lambda \times N$, $\alpha_s$ — is derived from the Chern classes and Wyler-BST formula of $Q^5$ (Section 12).
 
 The Standard Model is the unique point in the family $\{Q^n\}_{n \geq 1}$ where the mass ratio $(n+1)\pi^n$ matches observation. There is no free parameter to tune. The Chern classes do the rest.
 
-### 12.3 The One Object
+### 13.3 The One Object
 
 All of BST's numerical results flow from one formula:
 

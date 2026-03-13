@@ -308,6 +308,22 @@ TOYS = [
         'color': '#ffaa44',
         'icon': 'sail',
     },
+    {
+        'name': 'BST Telescope ★CI',
+        'file': 'toy_bst_telescope.py',
+        'short': 'Geometric CP from curvature',
+        'desc': "CP floor at high ν — not zero.\nSgr A* rises where Faraday falls.\nThe geometry is speaking.",
+        'color': '#00ccff',
+        'icon': 'telescope',
+    },
+    {
+        'name': 'Feynman Bridge ★CI',
+        'file': 'toy_feynman_geometry.py',
+        'short': 'Loops = S¹ windings',
+        'desc': "Feynman diagrams ARE geometry.\n13,643 diagrams → 8 digits.\nOr: 14/5, one formula.",
+        'color': '#ff44ff',
+        'icon': 'feynman',
+    },
 ]
 
 # ─── Figure ───
@@ -702,6 +718,40 @@ def draw_icon(ax, icon_type, color):
                                      lw=2))
         ax.text(0.5, 0.08, 'Δσ→F', fontsize=9, color='#ffaa44',
                 ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'telescope':
+        # CP vs frequency: data rises, Faraday falls, floor line
+        xs = [0.1, 0.3, 0.5, 0.7, 0.9]
+        # Data (rises)
+        ys_data = [0.2, 0.35, 0.5, 0.65, 0.75]
+        ax.plot(xs, ys_data, 'o-', color='#ffcc44', markersize=5, lw=1.5)
+        # Faraday (falls)
+        ys_far = [0.7, 0.5, 0.35, 0.25, 0.18]
+        ax.plot(xs, ys_far, '--', color='#44ff88', lw=1, alpha=0.6)
+        # Floor line
+        ax.axhline(0.7, color='#ff4444', ls=':', lw=1, alpha=0.7)
+        ax.text(0.5, 0.82, 'floor', fontsize=7, color='#ff4444',
+                ha='center', fontfamily='monospace')
+
+    elif icon_type == 'feynman':
+        # Electron line with wavy photon arc
+        ax.plot([0.1, 0.9], [0.3, 0.3], color='#ffcc44', lw=2)
+        ax.plot(0.3, 0.3, 'o', color='#ff4444', markersize=5)
+        ax.plot(0.7, 0.3, 'o', color='#ff4444', markersize=5)
+        # Wavy arc
+        t = np.linspace(0, np.pi, 100)
+        x_arc = 0.5 + 0.2 * np.cos(np.pi - t)
+        y_arc = 0.3 + 0.3 * np.sin(t)
+        amp = 0.03 * np.sin(6 * t)
+        ax.plot(x_arc + amp * np.sin(t), y_arc + amp * np.cos(t),
+                color='#00ccff', lw=1.5)
+        # S¹ label
+        theta_c = np.linspace(0, 2 * np.pi, 50)
+        ax.plot(0.5 + 0.12 * np.cos(theta_c),
+                0.78 + 0.1 * np.sin(theta_c),
+                color='#ff44ff', lw=1.5)
+        ax.text(0.5, 0.78, '=', fontsize=10, color='#ffffff',
+                ha='center', va='center', fontfamily='monospace')
 
 def launch_toy(toy_file):
     def callback(event):

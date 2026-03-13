@@ -2333,13 +2333,29 @@ The second law of thermodynamics follows immediately. Entropy is $S = k \ln W$, 
 
 The arrow of time and the second law are the same principle: contacts commit and do not uncommit. There is no separate “past hypothesis” needed to explain why entropy was low at the Big Bang. The Big Bang was the phase transition from the pre-spatial state (fully connected, fully symmetric, maximum substrate entropy) to the spatial state (locally connected, symmetry broken, low macroscopic entropy). The macroscopic entropy was low because the phase transition had just begun — few contacts committed, little macroscopic structure, enormous remaining freedom. The subsequent increase of macroscopic entropy is the ongoing process of contact commitment — the universe becoming definite, one contact at a time.
 
-### 22.2 Antimatter as Anti-Commitment-Order Winding
+### 22.2 The Absence of Time in BST's Native Language
+
+A structural feature of BST deserves explicit comment. The theory's natural outputs are dimensionless ratios and energies — never durations:
+
+- $m_p/m_e = 6\pi^5$ (dimensionless)
+- $\sin^2\theta_W = 3/13$ (dimensionless)
+- $\alpha = 1/137.036$ (dimensionless)
+- $T_{\text{deconf}} = \pi^5 m_e$ (energy)
+- All Chern class coefficients $\{5, 11, 13, 9, 3\}$ (integers)
+
+Every BST derivation that produces a time — the cosmic age $t_0 = 13.6$ Gyr, the neutron lifetime $\tau_n$, the gravitational wave frequency $f = 6.4$ nHz, the Hubble constant $H_0$ — requires converting from energy units via $\hbar$ or $c$. Time is never the native output. It must be forced in.
+
+This is not an oversight. It is the architecture. The substrate has no clock. It has topology (the contact graph), geometry (the bounded domain), and energy (the Bergman spectrum). Duration is what commitment looks like to an observer already embedded in the system — a derived quantity, not a fundamental one. The substrate knows *how many* commitments have occurred and *what* their topology is. It does not know *how long* they took, because "how long" is a question asked in the language of time, and time is the answer, not the question.
+
+This explains why BST's most precise results are mass ratios and mixing angles (dimensionless, time-free), while quantities involving explicit time units tend to require additional physical input (the commitment rate, the expansion history). The theory speaks geometry. Time is a translation.
+
+### 22.3 Antimatter as Anti-Commitment-Order Winding
 
 A particle is a winding on $S^1$ aligned with the commitment direction — a circuit that propagates forward in the causal ordering of the contact graph. An antiparticle is a winding that opposes the commitment direction — a circuit propagating backward in the causal ordering.
 
 This gives precise physical content to the Feynman-Stueckelberg interpretation, which treats antiparticles as particles moving backward in time. In standard QFT this is a mathematical convenience with no physical mechanism. In BST “backward in time” means “against the commitment order” — a winding on $S^1$ that opposes the direction in which contacts are committing. The interpretation becomes a mechanism.
 
-### 22.3 CPT Invariance and CP Violation
+### 22.4 CPT Invariance and CP Violation
 
 **CPT invariance** follows from the structure of the contact graph. Reversing charge (flipping winding direction on $S^1$), parity (flipping spatial orientation on $S^2$), and time (flipping commitment order) together restores the original relationship between winding direction and causal direction. CPT invariance is the statement that physics depends on the relationship between these directions, not on their absolute orientations.
 
@@ -2347,7 +2363,7 @@ This gives precise physical content to the Feynman-Stueckelberg interpretation, 
 
 The CKM phase — the single complex parameter responsible for all observed CP violation in the quark sector — arises from the complex structure of $D_{IV}^5$. Real symmetric domains have no natural complex phases. Complex symmetric domains do. $D_{IV}^5$ is complex, so CP violation is built into the domain geometry. The magnitude of the CKM phase is determined by the specific complex structure of the domain — a geometric property, not a free parameter. The CKM mixing angles are now derived (Section 7.7): the Cabibbo angle $\sin\theta_C = 1/(2\sqrt{n_C}) = 1/(2\sqrt{5}) = 0.2236$ (0.3% from PDG), the Wolfenstein parameter $A = (n_C-1)/n_C = 4/5$, and $|V_{cb}| = A\lambda^2 = 4/125 = 0.0400$ (2.7% from PDG).
 
-### 22.4 The Matter-Antimatter Asymmetry
+### 22.5 The Matter-Antimatter Asymmetry
 
 During the pre-spatial phase transition, the symmetry between forward and backward causal directions was broken. The nucleation event defined a commitment direction. From that moment, forward windings (matter) and backward windings (antimatter) were no longer equivalent.
 
@@ -2359,7 +2375,7 @@ The observed baryon-to-photon ratio $\eta \approx 6 \times 10^{-10}$ (approximat
 
 **Result (March 2026):** The baryon asymmetry is now derived: $\eta = 2\alpha^4/(3\pi) = 6.018 \times 10^{-10}$, matching the Planck value $6.104 \times 10^{-10}$ to 1.4%. The formula decomposes as: four Bergman contacts ($\alpha^4$) times the Yang-Mills coefficient ($7/(10\pi)$) times the transition efficiency ($20/21 = T_c/N_{\max}$). This removes $\eta$ from the list of unexplained initial conditions. Full derivation: `notes/BST_BaryonAsymmetry_Eta.md`.
 
-### 22.5 Why There Is Something Rather Than Nothing
+### 22.6 Why There Is Something Rather Than Nothing
 
 The standard cosmological account has no principled explanation for why the universe contains matter. The Sakharov conditions (baryon number violation, CP violation, departure from equilibrium) identify necessary conditions for an asymmetry but do not determine its magnitude. Every baryogenesis mechanism in standard physics requires beyond-Standard-Model physics with tuned parameters.
 

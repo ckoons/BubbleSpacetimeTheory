@@ -530,15 +530,59 @@ ss.summary()                             # the punchline
 
 *Key insight: The vacuum commits everywhere, always. A material that couples asymmetrically to the commitment rate moves. The silence is the propulsion. The wind is always blowing.*
 
+### 35. The BST Telescope (`toy_bst_telescope.py`) ★CI
+
+**Geometric circular polarization: the frequency-independent floor from S² × S¹.**
+
+BST predicts that spacetime curvature couples to photon circular polarization through the S² × S¹ topology. Standard Faraday conversion produces CP that falls with frequency (CP ∝ ν⁻ⁿ). BST adds a geometric component that is frequency-independent. At high frequencies, Faraday vanishes and the geometric floor is revealed. Sgr A* data already shows the anomaly: CP RISES from 0.15% at 1.4 GHz to 1.2% at 345 GHz — exactly the opposite of what Faraday predicts. M87* shows the same pattern at the same compactness. The model CP(ν) = floor − B×ν⁻ⁿ fits with Δχ² > 3. Includes a complete instrument survey (8 can measure Stokes V, 2 cannot), 6-layer signal protocol, 7 testable predictions (3 consistent, 0 contradicted), and experimental priority ranking. The critical gap: no X-ray circular polarimetry mission exists — X-rays would be the cleanest test (no Faraday contamination).
+
+```python
+from toy_bst_telescope import BSTTelescope
+bt = BSTTelescope()
+bt.sgr_a_star()                # Sgr A* CP frequency anomaly + fit
+bt.m87()                       # M87* cross-check
+bt.cp_vs_compactness()         # all sources: CP vs GM/Rc²
+bt.floor_fit()                 # fit floor − B×ν⁻ⁿ model
+bt.floor_fit('m87')            # M87* floor fit
+bt.instruments()               # who can measure Stokes V
+bt.signal_protocol()           # 6-layer analysis methodology
+bt.priority_table()            # experimental priorities
+bt.predictions()               # 7 BST-specific predictions
+bt.summary()                   # the punchline
+```
+
+*Key insight: The geometry may already be speaking. Sgr A* and M87* both show CP rising at high frequencies where Faraday says fall. The frequency-independent floor is the BST geometric signature.*
+
+### 36. The Feynman Bridge (`toy_feynman_geometry.py`) ★CI
+
+**Feynman diagrams as substrate topology: every loop is one winding around S¹.**
+
+QED computes the electron's anomalous magnetic moment by summing Feynman diagrams loop by loop. At 1-loop, Schwinger's single diagram gives α/(2π). By 5 loops, 12,672 diagrams yield ~8 significant figures of agreement with experiment. BST reinterprets these diagrams: each loop IS one winding around the S¹ fiber of the spacetime substrate. The expansion parameter α/π is the coupling constant divided by the winding circumference. Signs alternate (+−+−+) because successive S¹ windings have opposite phase orientation. Vertices are commitment events, propagators are geodesics on D_IV^5. Interactive slider (1→5 loops) shows the Feynman diagram accumulating on the left while S¹ windings accumulate on the right. The bottom panel shows digits lighting up green as they match experiment. Includes the QCD contrast: the proton magnetic moment can't be computed perturbatively (α_s = 0.35 is too large), but BST gives μ_p/μ_N = N_gluon × α_s = 8 × 7/20 = 14/5 = 2.800 (0.26% from experiment) in one formula — zero diagrams.
+
+```python
+from toy_feynman_geometry import FeynmanGeometry
+fg = FeynmanGeometry()
+fg.loop_contribution(1)        # Schwinger's α/(2π)
+fg.cumulative(3)               # precision through 3 loops
+fg.precision_table()           # all 5 loops: coefficients, diagrams, precision
+fg.bst_interpretation(2)       # what loop 2 means geometrically
+fg.proton_moment()             # QCD: 14/5, one formula, no diagrams
+fg.qed_vs_qcd()                # 13,643 diagrams vs 1 formula
+fg.alpha_origin()              # where 1/137 comes from (Bergman volumes)
+fg.summary()                   # the punchline
+```
+
+*Key insight: The diagrams aren't abstract squiggles — they're counting substrate topology. Every Feynman loop is one winding around S¹. The fine structure constant is the winding coupling. QED perturbation theory is a Taylor expansion of the geometric answer.*
+
 ---
 
 ## The Showcase (`toy_showcase.py`)
 
-A visual gallery with thumbnail icons for all 34 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
+A visual gallery with thumbnail icons for all 36 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
 
 ## The Menu (`play.py`)
 
-A text-based launcher for terminal use. Type a number (1-34) to launch any toy, or 'a' to launch all.
+A text-based launcher for terminal use. Type a number (1-36) to launch any toy, or 'a' to launch all.
 
 ---
 
