@@ -104,6 +104,43 @@ class MesonGarden:
         v = all_m[name]
         return {**v, 'match': f'{self._pct(v):.3f}%'}
 
+    def all_mesons(self):
+        """Return all 8 mesons as a sorted list by BST mass."""
+        result = []
+        for src, kind in [(self._pseudoscalar, 'pseudoscalar'),
+                          (self._vector, 'vector')]:
+            for k, v in src.items():
+                result.append({
+                    'name': k, 'type': kind,
+                    'precision_pct': self._pct(v), **v,
+                    'match': f'{self._pct(v):.3f}%'
+                })
+        return sorted(result, key=lambda m: m['bst'])
+
+    def summary(self):
+        """Print a formatted summary of the complete meson garden."""
+        print("\n  THE MESON GARDEN — BST Meson Spectrum")
+        print(f"  Base unit: pi^5 * m_e = {pi5_me:.2f} MeV")
+        print(f"  From integers: n_C={n_C}, genus={genus}, N_c={N_c}\n")
+        print(f"  {'Meson':<12} {'Type':<13} {'BST (MeV)':>10} {'Obs (MeV)':>10} {'Match':>8}")
+        print("  " + "-" * 57)
+        for m in self.all_mesons():
+            print(f"  {m['name']:<12} {m['type']:<13} {m['bst']:>10.2f} "
+                  f"{m['observed']:>10.2f} {m['match']:>8}")
+        print()
+        gmo = self.gmo_identity()
+        print(f"  GMO identity: {gmo['identity']} (exact={gmo['exact']})")
+        print(f"  Eta tower: m_eta'/m_eta = {self.eta_tower()['ratio_bst']:.4f} "
+              f"(BST: {genus}/4 = 7/4)")
+        up = self.uniqueness_proof()
+        print(f"  Uniqueness: {up['equation']} -> {up['solution']}")
+        pt = self.phase_transition()
+        print(f"  Phase transition: C_V = {pt['C_V_bst']:.0f} "
+              f"(obs ~330,000, {pt['C_V_match']})")
+        cd = self.channel_decomposition()
+        print(f"  Channel: {cd['N_max']} = {cd['matter_modes']} + {cd['vacuum_modes']}"
+              f" (check={cd['check']})\n")
+
     def eta_tower(self):
         """The eta tower: m_eta'/m_eta = genus/4 = 7/4."""
         r_bst = self._pseudoscalar['eta_prime']['bst'] / self._pseudoscalar['eta']['bst']
@@ -244,8 +281,8 @@ def show():
     from matplotlib.patches import FancyBboxPatch, Rectangle
 
     mg = MesonGarden()
-    ps_data = mg.pseudoscalars()
-    vc_data = mg.vectors()
+    ps = mg.pseudoscalars()
+    vc = mg.vectors()
 
     fig = plt.figure(figsize=(20, 13), facecolor='#0a0a1a')
     fig.canvas.manager.set_window_title('The Meson Garden — BST')
@@ -257,376 +294,253 @@ def show():
     fig.text(0.50, 0.938, 'Every Meson Mass from Two Integers',
              fontsize=13, color='#669933', ha='center', fontfamily='monospace')
 
-    # ═══════════════════════════════════════════════════════════
+    # ═════════════════════════════════════════════════
     # LEFT PANEL (45%) — The Meson Spectrum
-    # ═══════════════════════════════════════════════════════════
-    ax_spec = fig.add_axes([0.03, 0.07, 0.42, 0.84])
-    ax_spec.set_facecolor('#0a0a1a')
-    ax_spec.set_xlim(-15, 85)
-    ax_spec.set_ylim(-20, 1100)
+    # ═════════════════════════════════════════════════
+    ax = fig.add_axes([0.03, 0.07, 0.42, 0.84])
+    ax.set_facecolor('#0a0a1a')
+    ax.set_xlim(-15, 85); ax.set_ylim(-20, 1100)
 
-    # Energy axis
     for e in range(0, 1100, 100):
-        ax_spec.axhline(y=e, color='#181830', linewidth=0.4, zorder=0)
+        ax.axhline(y=e, color='#181830', lw=0.4, zorder=0)
     for e in range(0, 1100, 200):
-        ax_spec.text(-14, e, f'{e}', fontsize=7, color='#446644',
-                     ha='right', va='center', fontfamily='monospace')
-    ax_spec.text(-14, 1080, 'MeV', fontsize=7, color='#446644',
-                 ha='right', fontfamily='monospace')
+        ax.text(-14, e, f'{e}', fontsize=7, color='#446644', ha='right',
+                va='center', fontfamily='monospace')
+    ax.text(-14, 1080, 'MeV', fontsize=7, color='#446644', ha='right',
+            fontfamily='monospace')
 
     # Column headers
-    ax_spec.text(20, 1070, 'Pseudoscalar', fontsize=9, color='#88aa55',
-                 ha='center', fontfamily='monospace', fontweight='bold')
-    ax_spec.text(20, 1050, '(0\u207b\u207a)', fontsize=8, color='#667744',
-                 ha='center', fontfamily='monospace')
-    ax_spec.text(60, 1070, 'Vector', fontsize=9, color='#5588aa',
-                 ha='center', fontfamily='monospace', fontweight='bold')
-    ax_spec.text(60, 1050, '(1\u207b\u207b)', fontsize=8, color='#446677',
-                 ha='center', fontfamily='monospace')
+    ax.text(20, 1070, 'Pseudoscalar (0\u207b\u207a)', fontsize=9, color='#88aa55',
+            ha='center', fontfamily='monospace', fontweight='bold')
+    ax.text(60, 1070, 'Vector (1\u207b\u207b)', fontsize=9, color='#5588aa',
+            ha='center', fontfamily='monospace', fontweight='bold')
 
-    # Ground line (the root)
-    ax_spec.fill_between([-10, 80], [-15, -15], [0, 0], color='#1a1208',
-                         alpha=0.6, zorder=0)
-    ax_spec.plot([-10, 80], [0, 0], color='#444422', linewidth=1.5, zorder=1)
-    ax_spec.text(35, -10, '\u03c0\u2075m_e = 156.38 MeV  (the root)',
-                 fontsize=7.5, color='#887733', ha='center',
-                 fontfamily='monospace', style='italic')
+    # Ground — the root all flowers grow from
+    ax.fill_between([-10, 80], [-15, -15], [0, 0], color='#1a1208', alpha=0.6, zorder=0)
+    ax.plot([-10, 80], [0, 0], color='#444422', lw=1.5, zorder=1)
+    ax.text(35, -10, '\u03c0\u2075m_e = 156.38 MeV  (the root)', fontsize=7.5,
+            color='#887733', ha='center', fontfamily='monospace', style='italic')
 
-    # Color coding: no-s=red/coral, one-s=green, s-sbar=blue, anomaly=gold
-    c_nos = '#ee6644'     # no strangeness
-    c_1s  = '#44cc66'     # one strange
-    c_ssb = '#4488dd'     # s-sbar
-    c_ano = '#ffcc22'     # anomaly (eta')
+    # Strangeness color coding
+    c_nos, c_1s, c_ssb, c_ano = '#ee6644', '#44cc66', '#4488dd', '#ffcc22'
 
-    # ── Pseudoscalar column (x ~ 10-30) ──
-    pion = ps_data['pion']
-    _draw_flower(ax_spec, 15, 0, pion['bst'], c_nos,
-                 '\u03c0\u00b1', f"25.6\u221a30 = {pion['bst']:.1f}  ({pion['match']})",
-                 obs_y=pion['observed'], petal_style='star')
+    # Helper for info string
+    def _fi(d): return f"{d['bst']:.1f}  ({d['match']})"
 
-    kaon = ps_data['kaon']
-    _draw_flower(ax_spec, 25, 0, kaon['bst'], c_1s,
-                 'K\u00b1', f"\u221a10\u00b7base = {kaon['bst']:.1f}  ({kaon['match']})",
-                 obs_y=kaon['observed'], petal_style='circle')
+    # Pseudoscalar flowers
+    _draw_flower(ax, 15, 0, ps['pion']['bst'], c_nos, '\u03c0\u00b1',
+                 f"25.6\u221a30 = {_fi(ps['pion'])}", ps['pion']['observed'], '*')
+    _draw_flower(ax, 25, 0, ps['kaon']['bst'], c_1s, 'K\u00b1',
+                 f"\u221a10\u00b7base = {_fi(ps['kaon'])}", ps['kaon']['observed'])
+    _draw_flower(ax, 15, 0, ps['eta']['bst'], c_nos, '\u03b7',
+                 f"7/2\u00b7base = {_fi(ps['eta'])}", ps['eta']['observed'])
+    _draw_flower(ax, 25, 0, ps['eta_prime']['bst'], c_ano, "\u03b7'",
+                 f"49/8\u00b7base = {_fi(ps['eta_prime'])}", ps['eta_prime']['observed'], 'D')
 
-    eta = ps_data['eta']
-    _draw_flower(ax_spec, 15, 0, eta['bst'], c_nos,
-                 '\u03b7', f"7/2\u00b7base = {eta['bst']:.1f}  ({eta['match']})",
-                 obs_y=eta['observed'], petal_style='circle')
+    # Vector flowers
+    _draw_flower(ax, 55, 0, vc['rho']['bst'], c_nos, '\u03c1(775)',
+                 f"5\u00b7base = {_fi(vc['rho'])}", vc['rho']['observed'])
+    _draw_flower(ax, 65, 0, vc['omega']['bst'], c_nos, '\u03c9(783)',
+                 f"5\u00b7base = {_fi(vc['omega'])}", vc['omega']['observed'])
+    _draw_flower(ax, 55, 0, vc['k_star']['bst'], c_1s, 'K*(892)',
+                 f"\u221a(65/2)\u00b7base = {_fi(vc['k_star'])}", vc['k_star']['observed'])
+    _draw_flower(ax, 65, 0, vc['phi']['bst'], c_ssb, '\u03c6(1020)',
+                 f"13/2\u00b7base = {_fi(vc['phi'])}", vc['phi']['observed'], 'D')
 
-    etap = ps_data['eta_prime']
-    _draw_flower(ax_spec, 25, 0, etap['bst'], c_ano,
-                 "\u03b7'", f"49/8\u00b7base = {etap['bst']:.1f}  ({etap['match']})",
-                 obs_y=etap['observed'], petal_style='diamond')
+    # Connections between related mesons
+    eta, etap = ps['eta'], ps['eta_prime']
+    _connect(ax, 17, eta['bst'], 27, etap['bst'], '7/4', '#ccaa22')
+    _connect(ax, 27, ps['kaon']['bst'], 57, vc['k_star']['bst'], '\u221a(13/4)', '#44aa66')
+    _connect(ax, 17, eta['bst'], 67, vc['phi']['bst'], '13/7', '#4488bb')
 
-    # ── Vector column (x ~ 50-70) ──
-    rho = vc_data['rho']
-    _draw_flower(ax_spec, 55, 0, rho['bst'], c_nos,
-                 '\u03c1(775)', f"5\u00b7base = {rho['bst']:.1f}  ({rho['match']})",
-                 obs_y=rho['observed'], petal_style='circle')
-
-    omega = vc_data['omega']
-    _draw_flower(ax_spec, 65, 0, omega['bst'], c_nos,
-                 '\u03c9(783)', f"5\u00b7base = {omega['bst']:.1f}  ({omega['match']})",
-                 obs_y=omega['observed'], petal_style='circle')
-
-    kstar = vc_data['k_star']
-    _draw_flower(ax_spec, 55, 0, kstar['bst'], c_1s,
-                 'K*(892)', f"\u221a(65/2)\u00b7base = {kstar['bst']:.1f}  ({kstar['match']})",
-                 obs_y=kstar['observed'], petal_style='circle')
-
-    phi = vc_data['phi']
-    _draw_flower(ax_spec, 65, 0, phi['bst'], c_ssb,
-                 '\u03c6(1020)', f"13/2\u00b7base = {phi['bst']:.1f}  ({phi['match']})",
-                 obs_y=phi['observed'], petal_style='diamond')
-
-    # ── Connections between related mesons ──
-    _draw_connection(ax_spec, 17, eta['bst'], 27, etap['bst'],
-                     '7/4', color='#ccaa22')
-    _draw_connection(ax_spec, 27, kaon['bst'], 57, kstar['bst'],
-                     '\u221a(13/4)', color='#44aa66')
-    _draw_connection(ax_spec, 17, eta['bst'], 67, phi['bst'],
-                     '13/7', color='#4488bb')
+    # Base unit reference line
+    ax.axhline(y=pi5_me, color='#555522', lw=0.8, ls='-.', alpha=0.4, zorder=1)
+    ax.text(78, pi5_me + 6, f'\u03c0\u2075m_e = {pi5_me:.1f}', fontsize=6,
+            color='#777744', ha='right', fontfamily='monospace', style='italic')
 
     # Proton reference line
-    ax_spec.axhline(y=m_p, color='#664422', linewidth=1.0, linestyle=':',
-                    alpha=0.5, zorder=1)
-    ax_spec.text(78, m_p + 8, f'm_p = {m_p:.1f}', fontsize=6.5,
-                 color='#886644', ha='right', fontfamily='monospace')
+    ax.axhline(y=m_p, color='#664422', lw=1.0, ls=':', alpha=0.5, zorder=1)
+    ax.text(78, m_p + 8, f'm_p = {m_p:.1f}', fontsize=6.5, color='#886644',
+            ha='right', fontfamily='monospace')
+
+    # Annotation: pion is special (Goldstone boson, below the base unit)
+    ax.annotate('Goldstone\nboson', xy=(15, ps['pion']['bst']),
+                xytext=(2, 60), fontsize=6.5, color='#cc8866',
+                fontfamily='monospace', ha='center',
+                arrowprops=dict(arrowstyle='->', color='#cc8866', lw=0.8),
+                bbox=dict(boxstyle='round,pad=0.2', facecolor='#1a0a08',
+                          edgecolor='#884433', alpha=0.7, linewidth=0.5))
+
+    # Annotation: eta-prime is special (genus-squared anomaly)
+    ax.annotate('g\u00b2 anomaly\n= m_p\u00d749/48', xy=(25, ps['eta_prime']['bst']),
+                xytext=(38, 1020), fontsize=6.5, color='#ccaa33',
+                fontfamily='monospace', ha='center',
+                arrowprops=dict(arrowstyle='->', color='#ccaa33', lw=0.8),
+                bbox=dict(boxstyle='round,pad=0.2', facecolor='#1a1a08',
+                          edgecolor='#887722', alpha=0.7, linewidth=0.5))
 
     # Color legend
     for i, (clr, lbl) in enumerate([(c_nos, 'no s'), (c_1s, 'one s'),
                                      (c_ssb, 's-sbar'), (c_ano, 'anomaly')]):
-        ax_spec.scatter([72], [160 - i * 30], s=50, color=clr, zorder=6)
-        ax_spec.text(75, 160 - i * 30, lbl, fontsize=6.5, color=clr,
-                     va='center', fontfamily='monospace')
+        ax.scatter([72], [160 - i*30], s=50, color=clr, zorder=6)
+        ax.text(75, 160 - i*30, lbl, fontsize=6.5, color=clr,
+                va='center', fontfamily='monospace')
 
-    # Axis cleanup
-    ax_spec.set_yticks([])
-    ax_spec.set_xticks([])
-    for spine in ax_spec.spines.values():
-        spine.set_color('#222233')
-    ax_spec.spines['top'].set_visible(False)
-    ax_spec.spines['right'].set_visible(False)
+    ax.set_yticks([]); ax.set_xticks([])
+    for s in ax.spines.values(): s.set_color('#222233')
+    ax.spines['top'].set_visible(False); ax.spines['right'].set_visible(False)
 
-    # ═══════════════════════════════════════════════════════════
+    # ═════════════════════════════════════════════════
     # CENTER PANEL (25%) — Key Relationships
-    # ═══════════════════════════════════════════════════════════
-    ax_rel = fig.add_axes([0.47, 0.07, 0.22, 0.84])
-    ax_rel.set_facecolor('#0a0a1a')
-    ax_rel.set_xlim(0, 10)
-    ax_rel.set_ylim(0, 100)
-    ax_rel.axis('off')
+    # ═════════════════════════════════════════════════
+    ar = fig.add_axes([0.47, 0.07, 0.22, 0.84])
+    ar.set_facecolor('#0a0a1a'); ar.set_xlim(0, 10); ar.set_ylim(0, 100); ar.axis('off')
+    ar.text(5, 97, 'KEY RELATIONSHIPS', fontsize=11, fontweight='bold',
+            color='#ccaa33', ha='center', fontfamily='monospace')
 
-    ax_rel.text(5, 97, 'KEY RELATIONSHIPS', fontsize=11, fontweight='bold',
-                color='#ccaa33', ha='center', fontfamily='monospace')
+    def _box(a, x, y, w, h, ec, fc):
+        a.add_patch(FancyBboxPatch((x, y), w, h, boxstyle='round,pad=0.3',
+                    facecolor=fc, edgecolor=ec, linewidth=1.0))
 
-    # ── Base unit ──
-    box_y = 90
-    ax_rel.add_patch(FancyBboxPatch((0.3, box_y - 2), 9.4, 6,
-                     boxstyle='round,pad=0.3', facecolor='#1a1a08',
-                     edgecolor='#887722', linewidth=1.5))
-    ax_rel.text(5, box_y + 2.5, 'THE BASE UNIT', fontsize=9, fontweight='bold',
-                color='#ffcc33', ha='center', fontfamily='monospace')
-    ax_rel.text(5, box_y + 0.2, '\u03c0\u2075m_e = 156.38 MeV', fontsize=9.5,
-                color='#ddbb44', ha='center', fontfamily='monospace',
-                fontweight='bold')
+    def T(a, x, y, t, c, fs=8.5, fw='normal'):
+        a.text(x, y, t, fontsize=fs, color=c, ha='center',
+               fontfamily='monospace', fontweight=fw)
 
-    # ── Eta tower ──
-    box_y = 78
-    ax_rel.add_patch(FancyBboxPatch((0.3, box_y - 2), 9.4, 8,
-                     boxstyle='round,pad=0.3', facecolor='#1a1a0a',
-                     edgecolor='#997733', linewidth=1.0))
-    ax_rel.text(5, box_y + 4.5, 'THE ETA TOWER', fontsize=9, fontweight='bold',
-                color='#ccaa22', ha='center', fontfamily='monospace')
-    ax_rel.text(5, box_y + 2.2, "m_\u03b7' / m_\u03b7 = genus/4 = 7/4",
-                fontsize=8.5, color='#bbaa44', ha='center', fontfamily='monospace')
-    ax_rel.text(5, box_y + 0.2, f'{etap["bst"]:.1f} / {eta["bst"]:.1f} = '
-                f'{etap["bst"]/eta["bst"]:.4f}',
-                fontsize=7.5, color='#889966', ha='center', fontfamily='monospace')
+    # Base unit
+    _box(ar, 0.3, 88, 9.4, 6, '#887722', '#1a1a08')
+    T(ar, 5, 92.5, 'THE BASE UNIT', '#ffcc33', 9, 'bold')
+    T(ar, 5, 90.2, '\u03c0\u2075m_e = 156.38 MeV', '#ddbb44', 9.5, 'bold')
 
-    # ── GMO identity ──
-    box_y = 64
-    ax_rel.add_patch(FancyBboxPatch((0.3, box_y - 2), 9.4, 10,
-                     boxstyle='round,pad=0.3', facecolor='#0a1a0a',
-                     edgecolor='#448833', linewidth=1.0))
-    ax_rel.text(5, box_y + 6.5, 'GMO IDENTITY', fontsize=9, fontweight='bold',
-                color='#66cc44', ha='center', fontfamily='monospace')
-    ax_rel.text(5, box_y + 4.2, '30\u00b7n_C = 3\u00b7g\u00b2 + N_c',
-                fontsize=8.5, color='#88bb55', ha='center', fontfamily='monospace')
-    ax_rel.text(5, box_y + 2.0, f'30\u00d75 = 3\u00d749 + 3',
-                fontsize=8, color='#779955', ha='center', fontfamily='monospace')
-    ax_rel.text(5, box_y + 0.2, '150 = 150   (EXACT)',
-                fontsize=9, color='#44ff44', ha='center',
-                fontfamily='monospace', fontweight='bold')
+    # Eta tower
+    _box(ar, 0.3, 76, 9.4, 8, '#997733', '#1a1a0a')
+    T(ar, 5, 82.5, 'THE ETA TOWER', '#ccaa22', 9, 'bold')
+    T(ar, 5, 80.2, "m_\u03b7' / m_\u03b7 = genus/4 = 7/4", '#bbaa44')
+    T(ar, 5, 78.2, f'{etap["bst"]:.1f} / {eta["bst"]:.1f} = '
+      f'{etap["bst"]/eta["bst"]:.4f}', '#889966', 7.5)
 
-    # ── Eta-prime = proton with genus correction ──
-    box_y = 51
-    ax_rel.add_patch(FancyBboxPatch((0.3, box_y - 2), 9.4, 9,
-                     boxstyle='round,pad=0.3', facecolor='#1a1208',
-                     edgecolor='#886633', linewidth=1.0))
-    ax_rel.text(5, box_y + 5.5, "THE \u03b7' ANOMALY", fontsize=9,
-                fontweight='bold', color='#ddaa33', ha='center',
-                fontfamily='monospace')
-    ax_rel.text(5, box_y + 3.3, "m_\u03b7' = m_p \u00d7 49/48",
-                fontsize=8.5, color='#ccaa44', ha='center', fontfamily='monospace')
-    ax_rel.text(5, box_y + 1.3, '49 = g\u00b2 = genus\u00b2',
-                fontsize=7.5, color='#998855', ha='center', fontfamily='monospace')
-    ax_rel.text(5, box_y - 0.3, '48 = C\u2082 \u00d7 dim(SU(3)) = 6\u00d78',
-                fontsize=7.5, color='#998855', ha='center', fontfamily='monospace')
+    # GMO identity
+    _box(ar, 0.3, 62, 9.4, 10, '#448833', '#0a1a0a')
+    T(ar, 5, 70.5, 'GMO IDENTITY', '#66cc44', 9, 'bold')
+    T(ar, 5, 68.2, '30\u00b7n_C = 3\u00b7g\u00b2 + N_c', '#88bb55')
+    T(ar, 5, 66.0, '30\u00d75 = 3\u00d749 + 3', '#779955', 8)
+    T(ar, 5, 64.2, '150 = 150   (EXACT)', '#44ff44', 9, 'bold')
 
-    # ── Uniqueness proof ──
-    box_y = 37
-    ax_rel.add_patch(FancyBboxPatch((0.3, box_y - 2), 9.4, 10,
-                     boxstyle='round,pad=0.3', facecolor='#0a0a1a',
-                     edgecolor='#6666aa', linewidth=1.0))
-    ax_rel.text(5, box_y + 6.5, 'UNIQUENESS PROOF', fontsize=9,
-                fontweight='bold', color='#8888dd', ha='center',
-                fontfamily='monospace')
-    ax_rel.text(5, box_y + 4.5, 'C\u2082\u00d78 = g\u00b2 \u2212 1',
-                fontsize=8.5, color='#9999cc', ha='center', fontfamily='monospace')
-    ax_rel.text(5, box_y + 2.5, '(n_C+1)\u00b78 = (n_C+2)\u00b2\u22121',
-                fontsize=7.5, color='#7777aa', ha='center', fontfamily='monospace')
-    ax_rel.text(5, box_y + 0.8, 'n_C\u00b2 \u2212 4n_C \u2212 5 = 0',
-                fontsize=7.5, color='#7777aa', ha='center', fontfamily='monospace')
-    ax_rel.text(5, box_y - 0.8, 'n_C = 5  (unique!)',
-                fontsize=9, color='#aaaaff', ha='center',
-                fontfamily='monospace', fontweight='bold')
+    # Eta-prime anomaly
+    _box(ar, 0.3, 49, 9.4, 9, '#886633', '#1a1208')
+    T(ar, 5, 56.5, "THE \u03b7' ANOMALY", '#ddaa33', 9, 'bold')
+    T(ar, 5, 54.3, "m_\u03b7' = m_p \u00d7 49/48", '#ccaa44')
+    T(ar, 5, 52.3, '49 = g\u00b2 = genus\u00b2', '#998855', 7.5)
+    T(ar, 5, 50.7, '48 = C\u2082 \u00d7 dim(SU(3)) = 6\u00d78', '#998855', 7.5)
 
-    # ── Precision summary ──
-    box_y = 23
-    ax_rel.add_patch(FancyBboxPatch((0.3, box_y - 2), 9.4, 10,
-                     boxstyle='round,pad=0.3', facecolor='#0a1210',
-                     edgecolor='#338855', linewidth=1.0))
-    ax_rel.text(5, box_y + 6.5, 'PRECISION', fontsize=9, fontweight='bold',
-                color='#55cc77', ha='center', fontfamily='monospace')
+    # Uniqueness proof
+    _box(ar, 0.3, 35, 9.4, 10, '#6666aa', '#0a0a1a')
+    T(ar, 5, 43.5, 'UNIQUENESS PROOF', '#8888dd', 9, 'bold')
+    T(ar, 5, 41.5, 'C\u2082\u00d78 = g\u00b2 \u2212 1', '#9999cc')
+    T(ar, 5, 39.5, '(n_C+1)\u00b78 = (n_C+2)\u00b2\u22121', '#7777aa', 7.5)
+    T(ar, 5, 37.8, 'n_C\u00b2 \u2212 4n_C \u2212 5 = 0', '#7777aa', 7.5)
+    T(ar, 5, 36.2, 'n_C = 5  (unique!)', '#aaaaff', 9, 'bold')
 
-    prec_lines = [
-        ("\u03c0\u00b1:  0.46%", c_nos), ("K\u00b1:  0.17%", c_1s),
-        ("\u03b7:   0.10%", c_nos),   ("\u03b7':  0.002%", c_ano),
-        ("\u03c1:   0.85%", c_nos),   ("\u03c9:   0.10%", c_nos),
-        ("K*:  0.02%", c_1s),    ("\u03c6:   0.30%", c_ssb),
-    ]
-    for i, (txt, clr) in enumerate(prec_lines):
-        col = 2.5 if i < 4 else 7.0
-        row = box_y + 4.5 - (i % 4) * 1.7
-        ax_rel.text(col, row, txt, fontsize=7, color=clr,
-                    fontfamily='monospace', ha='center')
+    # Precision summary
+    _box(ar, 0.3, 21, 9.4, 10, '#338855', '#0a1210')
+    T(ar, 5, 29.5, 'PRECISION', '#55cc77', 9, 'bold')
+    prec = [("\u03c0\u00b1: 0.46%", c_nos), ("K\u00b1: 0.17%", c_1s),
+            ("\u03b7:  0.10%", c_nos),   ("\u03b7': 0.002%", c_ano),
+            ("\u03c1:  0.85%", c_nos),   ("\u03c9:  0.10%", c_nos),
+            ("K*: 0.02%", c_1s),    ("\u03c6:  0.30%", c_ssb)]
+    for i, (txt, clr) in enumerate(prec):
+        ar.text(2.5 if i < 4 else 7.0, 27.5 - (i % 4) * 1.7, txt, fontsize=7,
+                color=clr, fontfamily='monospace', ha='center')
 
-    # ── Cross ratios ──
-    box_y = 8
-    ax_rel.add_patch(FancyBboxPatch((0.3, box_y - 2), 9.4, 11,
-                     boxstyle='round,pad=0.3', facecolor='#10101a',
-                     edgecolor='#555588', linewidth=1.0))
-    ax_rel.text(5, box_y + 7.5, 'CROSS RATIOS', fontsize=9, fontweight='bold',
-                color='#8888bb', ha='center', fontfamily='monospace')
-    ratios_txt = [
-        "\u03b7'/\u03b7  = 7/4   (genus/4)",
-        "\u03c6/\u03b7  = 13/7  (Weinberg/genus)",
-        "K*/K = \u221a(13/4)",
-        "\u03c6/\u03c1  = 13/10",
-    ]
-    for i, rt in enumerate(ratios_txt):
-        ax_rel.text(5, box_y + 5.3 - i * 1.8, rt, fontsize=7,
-                    color='#8899aa', ha='center', fontfamily='monospace')
+    # Cross ratios
+    _box(ar, 0.3, 6, 9.4, 11, '#555588', '#10101a')
+    T(ar, 5, 15.5, 'CROSS RATIOS', '#8888bb', 9, 'bold')
+    for i, rt in enumerate(["\u03b7'/\u03b7  = 7/4   (genus/4)",
+                            "\u03c6/\u03b7  = 13/7  (Weinberg/genus)",
+                            "K*/K = \u221a(13/4)", "\u03c6/\u03c1  = 13/10"]):
+        ar.text(5, 13.3 - i * 1.8, rt, fontsize=7, color='#8899aa',
+                ha='center', fontfamily='monospace')
 
-    # ═══════════════════════════════════════════════════════════
-    # RIGHT PANEL (30%) — Phase Transition & Channel
-    # ═══════════════════════════════════════════════════════════
-    ax_phase = fig.add_axes([0.71, 0.50, 0.27, 0.41])
-    ax_phase.set_facecolor('#0a0a1a')
-    ax_phase.set_xlim(0, 10)
-    ax_phase.set_ylim(0, 100)
-    ax_phase.axis('off')
+    # ═════════════════════════════════════════════════
+    # RIGHT PANEL — Phase Transition (top) & Channel (bottom)
+    # ═════════════════════════════════════════════════
+    ap = fig.add_axes([0.71, 0.50, 0.27, 0.41])
+    ap.set_facecolor('#0a0a1a'); ap.set_xlim(0, 10); ap.set_ylim(0, 100); ap.axis('off')
 
-    ax_phase.text(5, 97, 'PHASE TRANSITION', fontsize=11, fontweight='bold',
-                  color='#ff8844', ha='center', fontfamily='monospace')
+    T(ap, 5, 97, 'PHASE TRANSITION', '#ff8844', 11, 'bold')
+    T(ap, 5, 90, 'T_c = N_max \u00d7 20/21', '#cc7733', 9)
+    T(ap, 5, 86, '= 137 \u00d7 20/21 = 130.48 (units)', '#997744', 8)
+    T(ap, 5, 82, '\u2248 0.487 MeV', '#ff9944', 9, 'bold')
 
-    # T_c
-    ax_phase.text(5, 90, 'T_c = N_max \u00d7 20/21', fontsize=9,
-                  color='#cc7733', ha='center', fontfamily='monospace')
-    ax_phase.text(5, 86, '= 137 \u00d7 20/21 = 130.48 (units)',
-                  fontsize=8, color='#997744', ha='center', fontfamily='monospace')
-    ax_phase.text(5, 82, '\u2248 0.487 MeV', fontsize=9, fontweight='bold',
-                  color='#ff9944', ha='center', fontfamily='monospace')
-
-    # Latent heat
-    ax_phase.add_patch(FancyBboxPatch((0.5, 72), 9, 7,
-                       boxstyle='round,pad=0.3', facecolor='#1a0a08',
-                       edgecolor='#884422', linewidth=1.0))
-    ax_phase.text(5, 77, 'Latent heat \u2248 m_p per d.o.f.', fontsize=8.5,
-                  color='#dd7733', ha='center', fontfamily='monospace',
-                  fontweight='bold')
-    ax_phase.text(5, 74, 'The transition literally', fontsize=7.5,
-                  color='#aa6633', ha='center', fontfamily='monospace')
-    ax_phase.text(5, 71.5, 'MAKES PROTONS', fontsize=9, fontweight='bold',
-                  color='#ff6622', ha='center', fontfamily='monospace')
+    # Latent heat box
+    _box(ap, 0.5, 72, 9, 7, '#884422', '#1a0a08')
+    T(ap, 5, 77, 'Latent heat \u2248 m_p per d.o.f.', '#dd7733', 8.5, 'bold')
+    T(ap, 5, 74, 'The transition literally', '#aa6633', 7.5)
+    T(ap, 5, 71.5, 'MAKES PROTONS', '#ff6622', 9, 'bold')
 
     # C_V
     pt = mg.phase_transition()
-    cv_bst = pt['C_V_bst']
-    ax_phase.text(5, 64, 'C_V = \u03b1_s \u00d7 50 \u00d7 N_max\u00b2',
-                  fontsize=8.5, color='#cc8844', ha='center', fontfamily='monospace')
-    ax_phase.text(5, 60.5, f'= (7/20)\u00d750\u00d7137\u00b2 = {cv_bst:.0f}',
-                  fontsize=8, color='#aa7744', ha='center', fontfamily='monospace')
-    ax_phase.text(5, 57, f'Observed: ~330,000  ({pt["C_V_match"]})',
-                  fontsize=8, color='#889966', ha='center', fontfamily='monospace')
+    T(ap, 5, 64, 'C_V = \u03b1_s \u00d7 50 \u00d7 N_max\u00b2', '#cc8844')
+    T(ap, 5, 60.5, f'= (7/20)\u00d750\u00d7137\u00b2 = {pt["C_V_bst"]:.0f}', '#aa7744', 8)
+    T(ap, 5, 57, f'Observed: ~330,000  ({pt["C_V_match"]})', '#889966', 8)
 
-    # Integers web
-    ax_phase.text(5, 48, 'THE INTEGER WEB', fontsize=10, fontweight='bold',
-                  color='#aaaacc', ha='center', fontfamily='monospace')
+    # Integer web
+    T(ap, 5, 48, 'THE INTEGER WEB', '#aaaacc', 10, 'bold')
+    ints = [(3,'N_c','#ee6644'), (5,'n_C','#44cc66'), (6,'C\u2082','#ffcc22'),
+            (7,'genus','#ff8844'), (13,'Weinberg','#4488dd'), (19,'vacuum','#aa66dd')]
+    rcx, rcy, rr = 5, 34, 9
+    angs = [np.pi/2 + i * np.pi / 3 for i in range(6)]
+    for i, (v, l, c) in enumerate(ints):
+        xi = rcx + rr * 0.35 * np.cos(angs[i])
+        yi = rcy + rr * 0.45 * np.sin(angs[i])
+        ap.scatter([xi], [yi], s=350, color=c, alpha=0.25, zorder=2)
+        ap.text(xi, yi + 0.2, str(v), fontsize=12, fontweight='bold', color=c,
+                ha='center', va='center', fontfamily='monospace', zorder=3)
+        ap.text(xi, yi - 1.8, l, fontsize=6, color=c, ha='center',
+                fontfamily='monospace', alpha=0.7, zorder=3)
+    def _ip(i): return (rcx + rr*0.35*np.cos(angs[i]), rcy + rr*0.45*np.sin(angs[i]))
+    for a, b in [(0,1), (1,3), (1,2), (0,4)]:
+        xa, ya = _ip(a); xb, yb = _ip(b)
+        ap.plot([xa, xb], [ya, yb], '-', color='#444466', lw=0.8, alpha=0.4, zorder=1)
 
-    # Draw the six key integers in a ring
-    integers = [(3, 'N_c', '#ee6644'), (5, 'n_C', '#44cc66'),
-                (6, 'C\u2082', '#ffcc22'), (7, 'genus', '#ff8844'),
-                (13, 'Weinberg', '#4488dd'), (19, 'vacuum', '#aa66dd')]
-    ring_cx, ring_cy, ring_r = 5, 34, 9
-    angles_ring = [np.pi/2 + i * 2 * np.pi / 6 for i in range(6)]
+    # Channel Decomposition (bottom right)
+    ac = fig.add_axes([0.71, 0.07, 0.27, 0.40])
+    ac.set_facecolor('#0a0a1a'); ac.set_xlim(0, 10); ac.set_ylim(0, 100); ac.axis('off')
+    T(ac, 5, 97, 'CHANNEL DECOMPOSITION', '#aa88dd', 10, 'bold')
+    T(ac, 5, 92, '137 = 42 + 95', '#ccaaff', 12, 'bold')
 
-    for i, (val, lbl, clr) in enumerate(integers):
-        xi = ring_cx + ring_r * 0.35 * np.cos(angles_ring[i])
-        yi = ring_cy + ring_r * 0.45 * np.sin(angles_ring[i])
-        ax_phase.scatter([xi], [yi], s=350, color=clr, alpha=0.25, zorder=2)
-        ax_phase.text(xi, yi + 0.2, str(val), fontsize=12, fontweight='bold',
-                      color=clr, ha='center', va='center', fontfamily='monospace',
-                      zorder=3)
-        ax_phase.text(xi, yi - 1.8, lbl, fontsize=6, color=clr,
-                      ha='center', fontfamily='monospace', alpha=0.7, zorder=3)
-
-    # Connect some integers with relationships
-    def _int_pos(idx):
-        return (ring_cx + ring_r * 0.35 * np.cos(angles_ring[idx]),
-                ring_cy + ring_r * 0.45 * np.sin(angles_ring[idx]))
-
-    pairs = [(0, 1, 'N_c+2=n_C'), (1, 3, 'n_C+2=g'), (1, 2, 'n_C+1=C\u2082'),
-             (0, 4, 'N_c+2n_C=13')]
-    for a, b, lbl in pairs:
-        xa, ya = _int_pos(a)
-        xb, yb = _int_pos(b)
-        ax_phase.plot([xa, xb], [ya, yb], '-', color='#444466',
-                      linewidth=0.8, alpha=0.4, zorder=1)
-
-    # ── Channel Decomposition ──
-    ax_chan = fig.add_axes([0.71, 0.07, 0.27, 0.40])
-    ax_chan.set_facecolor('#0a0a1a')
-    ax_chan.set_xlim(0, 10)
-    ax_chan.set_ylim(0, 100)
-    ax_chan.axis('off')
-
-    ax_chan.text(5, 97, 'CHANNEL DECOMPOSITION', fontsize=10,
-                fontweight='bold', color='#aa88dd', ha='center',
-                fontfamily='monospace')
-    ax_chan.text(5, 92, '137 = 42 + 95', fontsize=12, fontweight='bold',
-                color='#ccaaff', ha='center', fontfamily='monospace')
-
-    # Draw 137 cells as a grid: 10 rows x 14 cols (with 137 filled)
-    cols, rows = 14, 10
-    cell_w = 0.62
-    cell_h = 3.2
-    x_off = 0.35
-    y_off = 52
+    # 137 cells: 10 rows x 14 cols
+    cols, cw, ch, x0, y0 = 14, 0.62, 3.2, 0.35, 52
     for idx in range(N_max):
-        r = idx // cols
-        c = idx % cols
-        cx = x_off + c * cell_w
-        cy = y_off + (rows - 1 - r) * cell_h
-        if idx < 42:
-            clr = '#cc9922'  # gold = matter
-            alpha_v = 0.7
-        else:
-            clr = '#7744aa'  # purple = vacuum
-            alpha_v = 0.5
-        ax_chan.add_patch(Rectangle((cx, cy), cell_w * 0.9, cell_h * 0.8,
-                         facecolor=clr, alpha=alpha_v, edgecolor='#222233',
-                         linewidth=0.3))
+        r, c = idx // cols, idx % cols
+        clr = '#cc9922' if idx < 42 else '#7744aa'
+        alp = 0.7 if idx < 42 else 0.5
+        ac.add_patch(Rectangle((x0 + c*cw, y0 + (9-r)*ch), cw*0.9, ch*0.8,
+                     facecolor=clr, alpha=alp, edgecolor='#222233', linewidth=0.3))
 
-    # Labels
-    ax_chan.text(5, 47, '42 matter modes', fontsize=8, fontweight='bold',
-                color='#cc9922', ha='center', fontfamily='monospace')
-    ax_chan.text(5, 43.5, 'C\u2082 \u00d7 genus = 6 \u00d7 7 = 42',
-                fontsize=7.5, color='#aa8833', ha='center', fontfamily='monospace')
+    T(ac, 5, 47, '42 matter modes', '#cc9922', 8, 'bold')
+    T(ac, 5, 43.5, 'C\u2082 \u00d7 genus = 6 \u00d7 7 = 42', '#aa8833', 7.5)
+    T(ac, 5, 38, '95 vacuum modes', '#7744aa', 8, 'bold')
+    T(ac, 5, 34.5, 'n_C \u00d7 19 = 5 \u00d7 19 = 95', '#665599', 7.5)
 
-    ax_chan.text(5, 38, '95 vacuum modes', fontsize=8, fontweight='bold',
-                color='#7744aa', ha='center', fontfamily='monospace')
-    ax_chan.text(5, 34.5, 'n_C \u00d7 19 = 5 \u00d7 19 = 95',
-                fontsize=7.5, color='#665599', ha='center', fontfamily='monospace')
+    # Key numbers summary
+    _box(ac, 0.5, 17, 9, 14, '#444466', '#0a0a14')
+    T(ac, 5, 28.5, 'Every meson from:', '#aaaacc', 8, 'bold')
+    for i, (txt, clr) in enumerate([
+            ('n_C = 5  (BST dimension)', '#44cc66'),
+            ('genus = 7  (n_C + 2)', '#ff8844'),
+            ('N_c = 3  (color number)', '#ee6644'),
+            ('m_e = 0.511 MeV  (electron)', '#4488ff'),
+            ('\u03c0\u2075m_e = 156.38  (meson scale)', '#ddbb44')]):
+        ac.text(5, 26 - i*2, txt, fontsize=7, color=clr, ha='center',
+                fontfamily='monospace')
 
-    # The key numbers
-    ax_chan.add_patch(FancyBboxPatch((0.5, 17), 9, 14,
-                     boxstyle='round,pad=0.3', facecolor='#0a0a14',
-                     edgecolor='#444466', linewidth=1.0))
-    ax_chan.text(5, 28.5, 'Every meson from:', fontsize=8, fontweight='bold',
-                color='#aaaacc', ha='center', fontfamily='monospace')
-    key_lines = [
-        ('n_C = 5', '#44cc66', 'BST dimension'),
-        ('genus = 7', '#ff8844', 'n_C + 2'),
-        ('N_c = 3', '#ee6644', 'color number'),
-        ('m_e = 0.511 MeV', '#4488ff', 'electron mass'),
-        ('\u03c0\u2075m_e = 156.38', '#ddbb44', 'the meson scale'),
-    ]
-    for i, (txt, clr, note) in enumerate(key_lines):
-        ax_chan.text(5, 26 - i * 2, f'{txt}  ({note})',
-                    fontsize=7, color=clr, ha='center', fontfamily='monospace')
+    # Key insight at bottom of channel panel
+    _box(ac, 0.5, 3, 9, 12, '#335544', '#0a120a')
+    T(ac, 5, 12.5, 'THE MESON SCALE', '#77bb66', 8, 'bold')
+    T(ac, 5, 10.5, 'Proton = C\u2082 \u00d7 base', '#669955', 7)
+    T(ac, 5, 8.5, '= 6 \u00d7 156.38 = 938.3 MeV', '#669955', 7)
+    T(ac, 5, 6.5, "Eta\u2032 = (g\u00b2/8) \u00d7 base", '#aa9933', 7)
+    T(ac, 5, 4.5, '= m_p \u00d7 49/48  (0.002%)', '#aa9933', 7)
 
     # ─── Bottom strip ───
     fig.text(0.50, 0.018,

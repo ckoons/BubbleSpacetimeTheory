@@ -101,7 +101,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Γ_φ (φ meson width) | m_φ/(2×5!) = m_φ/240; OZI suppression = 1/n_C! | 4.248 MeV | 4.249±0.013 MeV | **0.02%** |
 | Γ_ρ/Γ_φ (width ratio) | n_C × g = 5 × 7 = 35 | 35.0 | 35.09 | 0.26% |
 
-**95+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
+**100+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
 
 ---
 
@@ -220,6 +220,10 @@ BST follows a single logical chain from one question to all of physics. Each ste
 
 **Universe-neutron structural homology**: The observable universe and the free neutron share the same algebra, domain, five integers, partition function, topological stability, neutrality, and vacuum quantum production. The neutron is the universe's first excited state; Λ is its ground-state energy. The metabolic cycle n → p + e + ν̄ converts Face 1 into structure (atoms) and vacuum (neutrinos).
 
+**The First Commitment — Leibniz's question answered**: The frozen state (N=0) is not a valid quantum state on D_IV^5. Four independent proofs: (1) negative curvature H = −2/7 → Jacobi instability, (2) uncertainty principle forbids localization, (3) trivial representation below Wallach set, (4) entropy drives delocalization. The Reality Budget requires N ≥ 2 always (a ν₁ν̄₁ pair). The arrow of time is the direction of increasing Casimir eigenvalue, forced by negative holomorphic curvature — a theorem of the Cartan classification. "Nothing" is not a valid state. Existence is a theorem, not an axiom.
+
+**Black hole singularity resolved**: The Haldane cap ρ ≤ ρ₁₃₇ replaces the GR singularity with a maximally committed surface — finite density, finite curvature, N = 0 (time stopped). No interior exists: the membrane paradigm is exact. Both observers agree: the horizon is never crossed (universal lapse → 0). Hawking radiation is density gradient tunneling; the information paradox does not arise (commitments permanent, Page curve automatic). The BST Hawking temperature T ≈ 1/(2√137 × M) is 7% from exact; the geometric correction is computable. Black holes are Gödel-saturated regions (local f = 100%), requiring compensating cosmic voids — a structural consequence of the Reality Budget.
+
 **The Master Equation (one sentence)**: The universe is the ground state of the Bergman Laplacian on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], subject to Haldane exclusion with capacity 137.
 
 ---
@@ -261,6 +265,9 @@ BST follows a single logical chain from one question to all of physics. Each ste
 - One GW ring at 3.1 seconds → f_peak ≈ 6.4 nHz — NANOGrav, EPTA, IPTA
 - No GW signal before 6.4 nHz (pre-spatial silence) — PTA experiments
 - Deuteron binding B_d ≈ α m_p/π to ~2% — precision nuclear physics
+- No black hole singularity (finite density ρ ≤ ρ₁₃₇) — gravitational wave echoes from LIGO/Virgo mergers
+- No firewall at horizon — smooth N→0 approach, not violent transition
+- Hawking temperature T_BST ≈ 1/(2√137 × M) with computable geometric correction — future BH observations
 
 ---
 
@@ -325,6 +332,10 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | φ meson width | Γ_φ = m_φ/(2×5!) = m_φ/240 | **0.02%** |
 | GMO identity (exact) | 30n_C = 3g² + N_c → 150 = 147 + 3 (standard GMO ~6% error) | exact |
 | Channel decomposition | N_max = C₂g + n_C×19 = 42 + 95 = 137; matter + vacuum modes | exact |
+| First commitment (Leibniz) | Frozen state (N=0) impossible: 4 arguments (curvature, uncertainty, representation theory, entropy). N_min = 2 (ν₁ν̄₁ pair). Existence is a theorem | structural |
+| Black hole singularity | Haldane cap ρ₁₃₇ replaces singularity; no interior (membrane paradigm exact); both observers agree horizon never crossed; N=0 (time stops, not space) | structural |
+| Information paradox | Does not arise: commitments permanent, Hawking radiation carries correlations, Page curve automatic | structural |
+| Arrow of time (geometric) | Negative holomorphic curvature H = −2/7 → irreversible spreading → Casimir ratchet k=0→1→3→6. Theorem of Cartan classification | structural |
 
 ## Remaining Open Problems
 
@@ -340,7 +351,7 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | Reality Budget derivation | Λ×N = 9/5 numerically exact; need proof from Z_Haldane spectral theory | 8 |
 | J/ψ and Υ masses | Extend vector meson formulas to charmed/bottom sector | 9 |
 
-**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem, Dirac large number, partition function duality, vector meson nonet (ρ, ω, K*, φ), pseudoscalar meson nonet (K, η, η'), pion/kaon charge radii (leading order), Reality Budget value (9/5), three-layer architecture, Gödel limit, cosmic composition (Ω_Λ, Ω_m, Ω_DM/Ω_b), SO(3)⊂SO(5) embedding (D₂ irreducible), n_C=5 uniqueness (η' anomaly), proton/neutron magnetic moments, W/Z boson widths, GMO identity exact.
+**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem, Dirac large number, partition function duality, vector meson nonet (ρ, ω, K*, φ), pseudoscalar meson nonet (K, η, η'), pion/kaon charge radii (leading order), Reality Budget value (9/5), three-layer architecture, Gödel limit, cosmic composition (Ω_Λ, Ω_m, Ω_DM/Ω_b), SO(3)⊂SO(5) embedding (D₂ irreducible), n_C=5 uniqueness (η' anomaly), proton/neutron magnetic moments, W/Z boson widths, GMO identity exact, first commitment (Leibniz's question), black hole singularity (Haldane cap), information paradox (commitments permanent), arrow of time (geometric, from negative curvature).
 
 ---
 
