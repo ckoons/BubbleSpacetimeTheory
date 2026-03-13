@@ -340,6 +340,151 @@ TOYS = [
         'color': '#ffdd44',
         'icon': 'electron_agent',
     },
+    # ─── Extended Toys (39-56) ───
+    {
+        'name': 'Double Slit ★CI',
+        'file': 'toy_double_slit.py',
+        'short': 'Measurement = commitment',
+        'desc': 'Which-path coupling slider.\nFringes vanish when substrate\nwrites "which slit."',
+        'color': '#44ffcc',
+        'icon': 'double_slit',
+    },
+    {
+        'name': 'Shannon Channel ★CI',
+        'file': 'toy_shannon_channel.py',
+        'short': 'α = optimal code rate',
+        'desc': '1/137 is Shannon-optimal for\nD_IV⁵ channel. Capacity meets\nBergman geometry.',
+        'color': '#ff88cc',
+        'icon': 'shannon',
+    },
+    {
+        'name': 'Big Bang Unfreeze ★CI',
+        'file': 'toy_unfreeze.py',
+        'short': '21 generators thaw one by one',
+        'desc': 'SO₀(5,2) has 21 generators.\nPhase transition at T_c =\n137 × 20/21 = 0.487 MeV.',
+        'color': '#ff4444',
+        'icon': 'unfreeze',
+    },
+    {
+        'name': 'Gravitational Bell ★CI',
+        'file': 'toy_gravitational_bell.py',
+        'short': 'S² bell rings at contact',
+        'desc': 'Commitment events ring S².\nNANOGrav comparison.\nGrav. waves from geometry.',
+        'color': '#88aaff',
+        'icon': 'grav_bell',
+    },
+    {
+        'name': 'Particle Zoo ★CI',
+        'file': 'toy_particle_zoo.py',
+        'short': '19 allowed + 5 forbidden',
+        'desc': 'Complete BST particle catalog.\nDecay chains. Every mass from\nD_IV⁵ integers.',
+        'color': '#ffaa44',
+        'icon': 'zoo',
+    },
+    {
+        'name': 'Complexity Arrow ★CI',
+        'file': 'toy_complexity.py',
+        'short': 'Commitment → complexity',
+        'desc': 'Cellular automaton. 8 levels\nfrom contact to civilization.\nComplexity from commitment.',
+        'color': '#88ff88',
+        'icon': 'complexity',
+    },
+    {
+        'name': 'Gravity Bottleneck ★CI',
+        'file': 'toy_newton_g.py',
+        'short': 'G from α¹² = 6 round trips',
+        'desc': 'G = ℏc(6π⁵)²α²⁴/m_e².\nGravity weak because 12 trips\nthrough 1/137 aperture.',
+        'color': '#ddaa44',
+        'icon': 'gravity',
+    },
+    {
+        'name': 'Lithium Fix ★CI',
+        'file': 'toy_lithium7.py',
+        'short': 'Δg=7 solves ⁷Li problem',
+        'desc': 'BBN with genus=7 extra d.o.f.\nat T_c. 5 light elements.\n⁷Li/H within 7%.',
+        'color': '#44ddaa',
+        'icon': 'lithium',
+    },
+    {
+        'name': 'Deuteron Bond ★CI',
+        'file': 'toy_deuteron.py',
+        'short': 'B_d = αm_p/π = 2.179 MeV',
+        'desc': 'First nuclear bond from BST.\n7 nuclei matched. Binding\nk-values from rep theory.',
+        'color': '#ff6644',
+        'icon': 'deuteron',
+    },
+    {
+        'name': 'Reality Writer ★CI',
+        'file': 'toy_reality_writer.py',
+        'short': 'Clocks write reality',
+        'desc': 'Altitude → commitment rate.\nGPS demo: 38 μs/day offset\n= geometry at work.',
+        'color': '#44aaff',
+        'icon': 'writer',
+    },
+    {
+        'name': 'Higgs Lock ★CI',
+        'file': 'toy_higgs.py',
+        'short': 'Two routes to 125 GeV',
+        'desc': 'm_H = 125.11 and 125.33 GeV.\nv = m_p²/(7m_e). λ_H = 1/√60.\nElectroweak lock.',
+        'color': '#ffdd44',
+        'icon': 'higgs',
+    },
+    {
+        'name': 'Substrate Layers ★CI',
+        'file': 'toy_substrate_layers.py',
+        'short': '7 layers: Nothing → Horizon',
+        'desc': 'Each layer commits structure.\nVacuum → ν → e → p → atom →\nstar → BH. Full stack.',
+        'color': '#cc88ff',
+        'icon': 'substrate',
+    },
+    {
+        'name': 'Fermion Staircase ★CI',
+        'file': 'toy_fermion_staircase.py',
+        'short': '12 masses, 10 ratios, 0 params',
+        'desc': 'Complete fermion mass spectrum.\nEvery ratio from BST integers.\nu through t, all 12.',
+        'color': '#ff8844',
+        'icon': 'staircase',
+    },
+    {
+        'name': 'CKM Triangle ★CI',
+        'file': 'toy_ckm_triangle.py',
+        'short': 'γ = arctan(√5) from n_C',
+        'desc': 'Unitarity triangle. CKM +\nPMNS from one geometry.\nCP phase from √n_C.',
+        'color': '#44ffaa',
+        'icon': 'ckm',
+    },
+    {
+        'name': 'Proton Spin ★CI',
+        'file': 'toy_proton_spin.py',
+        'short': 'ΔΣ = 3/10, spin crisis solved',
+        'desc': 'N_c/(2n_C) = 3/10. Quarks\ncarry 30% of spin, exact.\nDimension decomposition.',
+        'color': '#ff44aa',
+        'icon': 'proton_spin',
+    },
+    {
+        'name': 'CMB Ruler ★CI',
+        'file': 'toy_cmb_ruler.py',
+        'short': 'n_s = 1 − 5/137, tilt from BW',
+        'desc': 'Spectral tilt from channel\nbandwidth. r ≈ 0. Five\nfalsification criteria.',
+        'color': '#88ddff',
+        'icon': 'cmb',
+    },
+    {
+        'name': 'Biology Stack ★CI',
+        'file': 'toy_biology_stack.py',
+        'short': '7-layer protocol [SPECULATIVE]',
+        'desc': '4 bases, 3 codons, 20 AAs.\nInformation theory → biology.\n⚠ Exploratory framework.',
+        'color': '#44ff88',
+        'icon': 'biology',
+    },
+    {
+        'name': 'JWST Prediction ★CI',
+        'file': 'toy_jwst_prediction.py',
+        'short': 'Early BH from phase seeds',
+        'desc': 'C_v = 330,000 at T_c.\n5 JWST observations matched.\nBST predicts early galaxies.',
+        'color': '#ff6688',
+        'icon': 'jwst',
+    },
 ]
 
 # ─── Figure ───
@@ -355,15 +500,15 @@ fig.text(0.5, 0.935, 'Interactive Visualizations of Bubble Spacetime Theory',
 fig.text(0.5, 0.915, 'Copyright (c) 2026 Casey Koons — Demonstration Only',
          fontsize=9, color='#445566', ha='center', fontfamily='monospace')
 
-# ─── Layout: 3 columns × 12 rows of toy cards ───
+# ─── Layout: 3 columns × 19 rows of toy cards ───
 n_cols = 3
-n_rows = 13
+n_rows = 19
 card_w = 0.28
-card_h = 0.058
+card_h = 0.037
 x_start = 0.04
 y_start = 0.88
 x_gap = 0.33
-y_gap = 0.070
+y_gap = 0.044
 
 buttons = []
 button_axes = []
@@ -796,6 +941,180 @@ def draw_icon(ax, icon_type, color):
         ax.text(0.5, 0.08, '7.1 bits', fontsize=8, color='#ffdd44',
                 ha='center', fontfamily='monospace', fontweight='bold')
 
+    elif icon_type == 'double_slit':
+        # Two slits with interference pattern
+        ax.plot([0.3, 0.3], [0.0, 0.35], color='#44ffcc', lw=2)
+        ax.plot([0.3, 0.3], [0.45, 0.55], color='#44ffcc', lw=2)
+        ax.plot([0.3, 0.3], [0.65, 1.0], color='#44ffcc', lw=2)
+        # Interference fringes on right
+        for fy in [0.2, 0.35, 0.5, 0.65, 0.8]:
+            intensity = np.cos(np.pi * (fy - 0.5) * 5) ** 2
+            ax.plot(0.7, fy, 'o', color='#44ffcc', markersize=3 + 5*intensity, alpha=0.3 + 0.7*intensity)
+
+    elif icon_type == 'shannon':
+        # Channel capacity curve
+        x = np.linspace(0.1, 0.9, 30)
+        y = 0.2 + 0.6 * np.log2(1 + 3 * x)/ np.log2(4)
+        ax.plot(x, y, color='#ff88cc', lw=2)
+        ax.axvline(1/137 * 10, color='#ffffff', lw=1, alpha=0.5, ls='--')
+        ax.text(0.5, 0.08, '1/137', fontsize=9, color='#ff88cc',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'unfreeze':
+        # Frozen → thawed: ice crystal → flame
+        ax.text(0.2, 0.5, '❄', fontsize=14, ha='center', va='center', color='#4488ff')
+        ax.annotate('', xy=(0.65, 0.5), xytext=(0.4, 0.5),
+                    arrowprops=dict(arrowstyle='->', color='#ff4444', lw=2))
+        ax.text(0.8, 0.5, '21', fontsize=14, fontweight='bold', color='#ff4444',
+                ha='center', va='center', fontfamily='monospace')
+
+    elif icon_type == 'grav_bell':
+        # Bell shape with ripples
+        theta = np.linspace(0, np.pi, 30)
+        bx = 0.5 + 0.3 * np.cos(theta)
+        by = 0.3 + 0.4 * np.sin(theta)
+        ax.plot(bx, by, color='#88aaff', lw=2)
+        ax.plot([0.2, 0.8], [0.3, 0.3], color='#88aaff', lw=1)
+        # Ripples
+        for r in [0.15, 0.25]:
+            ax.plot(0.5 + r*np.cos(theta), 0.15 + r*0.3*np.sin(theta),
+                    color='#88aaff', lw=0.8, alpha=0.4)
+
+    elif icon_type == 'zoo':
+        # Grid of particle symbols
+        particles = ['u', 'd', 'e', 'ν', 'γ', 'p']
+        colors_z = ['#ff4444', '#44ff44', '#4488ff', '#aaaaff', '#ffff44', '#ff8844']
+        for i, (p, c) in enumerate(zip(particles, colors_z)):
+            row, col = i // 3, i % 3
+            ax.text(0.2 + col*0.3, 0.7 - row*0.4, p, fontsize=10, color=c,
+                    ha='center', va='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'complexity':
+        # Ascending staircase
+        for i in range(6):
+            ax.add_patch(FancyBboxPatch((0.1 + i*0.12, 0.1 + i*0.12), 0.15, 0.1,
+                         boxstyle='round,pad=0.01', facecolor='#88ff88',
+                         alpha=0.3 + i*0.12))
+        ax.text(0.5, 0.08, '→', fontsize=14, color='#88ff88',
+                ha='center', fontfamily='monospace')
+
+    elif icon_type == 'gravity':
+        # Funnel/bottleneck shape
+        y_vals = np.linspace(0.1, 0.9, 30)
+        width = 0.3 * (1 - 0.7 * np.exp(-((y_vals - 0.5)/0.15)**2))
+        ax.fill_betweenx(y_vals, 0.5 - width, 0.5 + width,
+                         color='#ddaa44', alpha=0.3)
+        ax.plot(0.5 - width, y_vals, color='#ddaa44', lw=1.5)
+        ax.plot(0.5 + width, y_vals, color='#ddaa44', lw=1.5)
+        ax.text(0.5, 0.5, 'α¹²', fontsize=9, color='#ddaa44',
+                ha='center', va='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'lithium':
+        # Li-7 nucleus: 3 protons + 4 neutrons
+        positions = [(0.4, 0.6), (0.6, 0.6), (0.5, 0.4),
+                     (0.3, 0.5), (0.7, 0.5), (0.5, 0.7), (0.5, 0.55)]
+        colors_li = ['#ff4444']*3 + ['#4488ff']*4
+        for (px, py), c in zip(positions, colors_li):
+            ax.plot(px, py, 'o', color=c, markersize=6)
+        ax.text(0.5, 0.08, '⁷Li', fontsize=10, color='#44ddaa',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'deuteron':
+        # Two nucleons bonded
+        ax.plot(0.35, 0.5, 'o', color='#ff4444', markersize=14)
+        ax.plot(0.65, 0.5, 'o', color='#4488ff', markersize=14)
+        ax.text(0.35, 0.5, 'p', fontsize=8, color='white',
+                ha='center', va='center', fontfamily='monospace')
+        ax.text(0.65, 0.5, 'n', fontsize=8, color='white',
+                ha='center', va='center', fontfamily='monospace')
+        ax.plot([0.43, 0.57], [0.5, 0.5], color='#ff6644', lw=3)
+
+    elif icon_type == 'writer':
+        # Clock with pen
+        theta = np.linspace(0, 2*np.pi, 40)
+        ax.plot(0.4 + 0.25*np.cos(theta), 0.5 + 0.25*np.sin(theta),
+                color='#44aaff', lw=1.5)
+        ax.plot([0.4, 0.4], [0.5, 0.7], color='#44aaff', lw=1.5)
+        ax.plot([0.4, 0.55], [0.5, 0.5], color='#44aaff', lw=1)
+        # Pen marks
+        ax.plot([0.7, 0.75, 0.8, 0.85], [0.35, 0.4, 0.35, 0.4],
+                color='#ff8844', lw=1.5)
+
+    elif icon_type == 'higgs':
+        # Mexican hat potential
+        x_h = np.linspace(-0.4, 0.4, 40)
+        y_h = 0.3 + 0.8*(x_h**4 - 0.5*x_h**2 + 0.1)
+        ax.plot(x_h + 0.5, y_h, color='#ffdd44', lw=2)
+        ax.plot(0.5, 0.26, 'o', color='#ffdd44', markersize=6)
+        ax.text(0.5, 0.08, '125 GeV', fontsize=8, color='#ffdd44',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'substrate':
+        # 7 stacked layers
+        colors_sub = ['#220044', '#440066', '#660088', '#8800aa', '#aa44cc', '#cc88ff', '#eeccff']
+        for i, c in enumerate(colors_sub):
+            y_layer = 0.1 + i * 0.11
+            ax.add_patch(FancyBboxPatch((0.15, y_layer), 0.7, 0.08,
+                         boxstyle='round,pad=0.01', facecolor=c, alpha=0.7))
+        ax.text(0.5, 0.08, '7', fontsize=12, color='#cc88ff',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'staircase':
+        # Rising steps for fermion masses
+        for i in range(6):
+            h = 0.1 + i * 0.13
+            w = 0.1 + i * 0.04
+            c = (1.0, 0.5 + i*0.08, 0.2 + i*0.05)
+            ax.barh(h, w, 0.08, left=0.1, color=c, alpha=0.7)
+
+    elif icon_type == 'ckm':
+        # Unitarity triangle
+        ax.plot([0.15, 0.85, 0.6, 0.15], [0.25, 0.25, 0.8, 0.25],
+                color='#44ffaa', lw=2)
+        ax.plot(0.6, 0.8, 'o', color='#ffdd44', markersize=6)
+        ax.text(0.6, 0.9, 'γ', fontsize=9, color='#ffdd44',
+                ha='center', fontfamily='monospace')
+        ax.text(0.5, 0.08, '√5', fontsize=10, color='#44ffaa',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'proton_spin':
+        # Spinning proton with 3/10 label
+        theta = np.linspace(0, 2*np.pi, 40)
+        ax.plot(0.5 + 0.3*np.cos(theta), 0.5 + 0.3*np.sin(theta),
+                color='#ff44aa', lw=1.5)
+        ax.annotate('', xy=(0.5, 0.85), xytext=(0.45, 0.8),
+                    arrowprops=dict(arrowstyle='->', color='#ff44aa', lw=2))
+        ax.text(0.5, 0.5, '3/10', fontsize=10, color='#ff44aa',
+                ha='center', va='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'cmb':
+        # CMB power spectrum
+        l_vals = np.linspace(0.1, 0.9, 40)
+        power = 0.5 + 0.3*np.exp(-((l_vals-0.35)/0.1)**2) + 0.15*np.exp(-((l_vals-0.55)/0.08)**2)
+        ax.plot(l_vals, power, color='#88ddff', lw=2)
+        ax.axhline(0.5, color='#88ddff', lw=0.5, alpha=0.3, ls='--')
+
+    elif icon_type == 'biology':
+        # DNA helix
+        t = np.linspace(0, 2*np.pi, 40)
+        x1 = 0.35 + 0.15*np.sin(t)
+        x2 = 0.65 - 0.15*np.sin(t)
+        y_dna = np.linspace(0.15, 0.85, 40)
+        ax.plot(x1, y_dna, color='#44ff88', lw=1.5)
+        ax.plot(x2, y_dna, color='#88ff44', lw=1.5)
+        for i in range(0, 40, 5):
+            ax.plot([x1[i], x2[i]], [y_dna[i], y_dna[i]],
+                    color='#ffffff', lw=0.5, alpha=0.3)
+
+    elif icon_type == 'jwst':
+        # Hexagonal mirror segments (JWST style)
+        for dx, dy in [(0, 0), (0.2, 0), (-0.2, 0), (0.1, 0.17), (-0.1, 0.17), (0.1, -0.17), (-0.1, -0.17)]:
+            hex_t = np.linspace(0, 2*np.pi, 7)
+            hx = 0.5 + dx + 0.09*np.cos(hex_t)
+            hy = 0.5 + dy + 0.09*np.sin(hex_t)
+            ax.fill(hx, hy, color='#ff6688', alpha=0.3)
+            ax.plot(hx, hy, color='#ff6688', lw=0.8)
+
 
 def launch_toy(toy_file):
     def callback(event):
@@ -827,28 +1146,28 @@ for idx, toy in enumerate(TOYS):
     card_ax.set_yticks([])
 
     # Icon area (left portion)
-    icon_ax = fig.add_axes([x + 0.005, y + 0.10, 0.09, card_h - 0.12])
+    icon_ax = fig.add_axes([x + 0.005, y + 0.06, 0.07, card_h - 0.07])
     icon_ax.set_facecolor('#0a0a1a')
     icon_ax.axis('off')
     draw_icon(icon_ax, toy['icon'], toy['color'])
 
     # Title
-    card_ax.text(0.38, 0.88, toy['name'], fontsize=11, fontweight='bold',
+    card_ax.text(0.38, 0.92, toy['name'], fontsize=8, fontweight='bold',
                  color=toy['color'], va='top', fontfamily='monospace',
                  transform=card_ax.transAxes)
 
     # Subtitle
-    card_ax.text(0.38, 0.72, toy['short'], fontsize=8,
+    card_ax.text(0.38, 0.72, toy['short'], fontsize=6.5,
                  color='#888899', va='top', fontfamily='monospace',
                  transform=card_ax.transAxes)
 
     # Description
-    card_ax.text(0.38, 0.55, toy['desc'], fontsize=7.5,
+    card_ax.text(0.38, 0.52, toy['desc'], fontsize=6,
                  color='#666677', va='top', fontfamily='monospace',
                  transform=card_ax.transAxes, linespacing=1.4)
 
     # Launch button
-    btn_ax = fig.add_axes([x + card_w - 0.07, y + 0.01, 0.065, 0.04])
+    btn_ax = fig.add_axes([x + card_w - 0.07, y + 0.005, 0.065, 0.025])
     btn = Button(btn_ax, 'LAUNCH', color='#1a1a3a', hovercolor='#2a2a5a')
     btn.label.set_color(toy['color'])
     btn.label.set_fontsize(8)

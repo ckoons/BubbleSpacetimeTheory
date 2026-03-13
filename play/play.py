@@ -209,6 +209,96 @@ TOYS = {
            'The universe\'s read/write head on S⁴×S¹.\n'
            '   Every transition commits log₂(137) = 7.1 bits.'),
 
+    '39': ('The Double Slit ★CI',
+           'toy_double_slit.py',
+           'Measurement = commitment. Which-path coupling slider.\n'
+           '   Fringes vanish when the substrate writes "which slit."'),
+
+    '40': ('The Shannon Channel ★CI',
+           'toy_shannon_channel.py',
+           'α = 1/137 is the optimal code rate for D_IV⁵.\n'
+           '   Shannon capacity meets Bergman geometry.'),
+
+    '41': ('The Big Bang Unfreeze ★CI',
+           'toy_unfreeze.py',
+           '21 generators of SO₀(5,2) unfreeze one by one.\n'
+           '   Phase transition at T_c = 137 × 20/21 = 0.487 MeV.'),
+
+    '42': ('The Gravitational Bell ★CI',
+           'toy_gravitational_bell.py',
+           'S² bell rings at every contact. NANOGrav comparison.\n'
+           '   Gravitational waves from commitment geometry.'),
+
+    '43': ('The Particle Zoo ★CI',
+           'toy_particle_zoo.py',
+           '19 allowed particles + 5 forbidden. Decay chains.\n'
+           '   The complete BST particle catalog from D_IV⁵.'),
+
+    '44': ('The Complexity Arrow ★CI',
+           'toy_complexity.py',
+           'Cellular automaton shows commitment → complexity.\n'
+           '   8 hierarchy levels from contact to civilization.'),
+
+    '45': ('The Gravity Bottleneck ★CI',
+           'toy_newton_g.py',
+           'G = ℏc(6π⁵)²α²⁴/m_e². α¹² = 6 trips through\n'
+           '   the 1/137 aperture. Gravity is weak by geometry.'),
+
+    '46': ('The Lithium Fix ★CI',
+           'toy_lithium7.py',
+           'BBN with Δg = genus = 7 extra d.o.f. at T_c.\n'
+           '   ⁷Li problem solved. 5 light elements matched.'),
+
+    '47': ('The Deuteron Bond ★CI',
+           'toy_deuteron.py',
+           'B_d = αm_p/π = 2.179 MeV. First nuclear bond.\n'
+           '   7 nuclei from BST binding formula.'),
+
+    '48': ('The Reality Writer ★CI',
+           'toy_reality_writer.py',
+           'Clocks as commitment counters. Altitude → rate.\n'
+           '   GPS demo: 38 μs/day = geometry writing reality.'),
+
+    '49': ('The Higgs Lock ★CI',
+           'toy_higgs.py',
+           'Two routes to m_H: 125.11 and 125.33 GeV.\n'
+           '   Fermi scale v = m_p²/(7m_e). λ_H = 1/√60.'),
+
+    '50': ('The Substrate Layers ★CI',
+           'toy_substrate_layers.py',
+           '7 layers from Nothing to Horizon. Each layer\n'
+           '   commits new structure. The full BST stack.'),
+
+    '51': ('The Fermion Staircase ★CI',
+           'toy_fermion_staircase.py',
+           '12 fermion masses, 10 mass ratios. All from\n'
+           '   BST integers. The complete mass spectrum.'),
+
+    '52': ('The CKM Triangle ★CI',
+           'toy_ckm_triangle.py',
+           'γ = arctan(√5). Unitarity triangle from n_C.\n'
+           '   CKM + PMNS mixing from one geometry.'),
+
+    '53': ('The Proton Spin ★CI',
+           'toy_proton_spin.py',
+           'ΔΣ = N_c/(2n_C) = 3/10. The proton spin crisis\n'
+           '   solved: 30% carried by quarks, exact.'),
+
+    '54': ('The CMB Ruler ★CI',
+           'toy_cmb_ruler.py',
+           'n_s = 1 − 5/137. Spectral tilt from channel\n'
+           '   bandwidth. 5 falsification criteria.'),
+
+    '55': ('The Biology Stack ★CI [SPECULATIVE]',
+           'toy_biology_stack.py',
+           '7-layer protocol: 4 bases, 3 codons, 20 amino\n'
+           '   acids. Information theory → biology.'),
+
+    '56': ('The JWST Prediction ★CI',
+           'toy_jwst_prediction.py',
+           'Early black holes from phase transition seeds.\n'
+           '   C_v = 330,000. Five JWST observations matched.'),
+
     's': ('★ Showcase (visual gallery)',
           'toy_showcase.py',
           'Visual gallery of all toys with thumbnails and\n'
@@ -233,7 +323,7 @@ def main():
     print(f'  [q]  Quit')
     print()
 
-    choice = input('  Choose a toy (1-38, s=showcase, a=all, q=quit): ').strip().lower()
+    choice = input('  Choose a toy (1-56, s=showcase, a=all, q=quit): ').strip().lower()
 
     if choice == 'q':
         print('  Goodbye!')

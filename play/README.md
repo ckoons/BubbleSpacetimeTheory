@@ -621,13 +621,382 @@ ea.summary()                     # the punchline
 
 ---
 
+## Extended Toys (39-56) — The Complete Toolkit
+
+*These toys round out the BST playground, covering quantum measurement, cosmology, nuclear physics, and the biology connection.*
+
+### 39. The Double Slit (`toy_double_slit.py`) ★CI
+
+**Measurement = commitment. Fringes vanish when the substrate writes "which slit."**
+
+Superposition is uncommitted capacity, not "both paths." Measurement is irreversible commitment of a correlation. "Collapse" is the moment a correlation is written to the substrate. Slide the which-path coupling from 0 (full interference) to 1 (full commitment) and watch the fringes dissolve. Includes Wheeler delayed choice, quantum eraser, and decoherence timeline.
+
+```python
+from toy_double_slit import DoubleSlit
+ds = DoubleSlit()
+ds.setup()                            # initialize slit geometry
+ds.interference_pattern()             # full fringe pattern
+ds.which_path(coupling=0.5)           # partial commitment erases fringes
+ds.commitment_events(n_photons=50)    # watch photons commit one by one
+ds.wheeler_delayed_choice()           # delayed choice experiment
+ds.quantum_eraser()                   # erase which-path, fringes return
+ds.decoherence_timeline()             # commitment rate vs coherence
+```
+
+*Key insight: There is no "collapse" — there is only commitment. The fringes vanish when the substrate writes "which slit" irreversibly.*
+
+### 40. The Shannon Channel (`toy_shannon_channel.py`) ★CI
+
+**Alpha = 1/137 is an engineering specification: the optimal code rate for a noisy geometric channel.**
+
+The fine structure constant is the ratio of signal to capacity on the D_IV^5 substrate. Signal carries 1/137 of capacity; 136/137 is error-correction overhead. Three converging views: Bergman volume (geometry), EM coupling (physics), and Shannon capacity (information theory). The substrate is a communication system running at rate alpha with error probability P_err ~ e^(-10^58). Physics never fails because the code is astronomically overcorrected.
+
+```python
+from toy_shannon_channel import ShannonChannel
+sc = ShannonChannel()
+sc.channel_capacity()                 # C = log2(137) = 7.098 bits
+sc.optimal_code_rate()                # R = 1/137
+sc.three_views()                      # geometry, physics, information
+sc.error_probability()                # P_err ~ e^(-10^58)
+sc.compare_codes(rates=[0.01, 0.05])  # compare code rates
+sc.redundancy_pyramid()               # 136 overhead modes
+```
+
+*Key insight: Alpha is not mysterious — it is the optimal code rate. Physics works perfectly because 136 of every 137 channels are error correction.*
+
+### 41. The Big Bang Unfreezing (`toy_unfreeze.py`) ★CI
+
+**Not an explosion. One of 21 generators unfreezes at T_c = 0.487 MeV.**
+
+The Big Bang in BST is a phase transition: the SO(2) generator (S^1 fiber) becomes dynamical, breaking SO(7) to SO(5) x SO(2) and activating D_IV^5. No singularity, no infinite density — just one rotation begins and everything happens at once. All 21 SO(5,2) generators are shown: 10 frozen (so(5)), 1 unfreezing (so(2)), and 10 dynamical (tangent space m). Includes BBN element predictions and comparison with inflation.
+
+```python
+from toy_unfreeze import BigBangUnfreeze
+bu = BigBangUnfreeze()
+bu.generators()                       # all 21 SO(5,2) generators
+bu.phase_transition()                 # T_c = 0.487 MeV, one generator unfreezes
+bu.timeline(t_max=1e18)              # cosmic timeline from transition
+bu.bbn_elements()                     # D, He-3, He-4, Li-7 abundances
+bu.cmb_predictions()                  # n_s, r predictions
+bu.vs_inflation()                     # BST vs inflation comparison
+```
+
+*Key insight: The Big Bang is not a singularity — it is one rotation unfreezing. Twenty generators were already there; one more joined them.*
+
+### 42. The Gravitational Bell (`toy_gravitational_bell.py`) ★CI
+
+**The phase transition rang S^2 like a bell. NANOGrav hears it at nanohertz.**
+
+The BST phase transition at T_c nucleated into the spatial state, ringing the closed S^2 substrate. Gravitational waves rippled out, converged at the antipode, reflected, and echoed — each traversal fainter as expansion dilutes energy. NANOGrav 2023 detected a nanohertz GW background at 1-100 nHz. BST predicts f_peak ~ 6-9 nHz, directly in the observed band. Inflation predicts a featureless spectrum; BST predicts spectral features from S^2 resonant modes.
+
+```python
+from toy_gravitational_bell import GravitationalBell
+gb = GravitationalBell()
+gb.ring_event()                       # the nucleation event
+gb.wave_propagation(t_steps=100)      # waves on S^2
+gb.frequency_spectrum(n_modes=20)     # resonant mode spectrum
+gb.nanograv_comparison()              # BST vs NANOGrav data
+gb.vs_inflation_spectrum()            # BST spectral features vs featureless
+gb.echo_times()                       # antipodal echo sequence
+```
+
+*Key insight: Inflation predicts featureless noise. BST predicts a bell with harmonics. NANOGrav can distinguish them.*
+
+### 43. The Particle Zoo (`toy_particle_zoo.py`) ★CI
+
+**Every Standard Model particle as what it IS on the D_IV^5 substrate — plus 5 that are forbidden.**
+
+Each particle is a specific topological configuration: photon (S^1 phase oscillation), electron (minimal S^1 winding, k=1 below Wallach set), proton (Z_3 closure on CP^2, C_2=6), neutrino (vacuum quantum of D_IV^5 itself), W/Z (Hopf fibration excitations), Higgs (scalar fluctuation of Hopf condensate). Plus five forbidden particles — axion, monopole, SUSY partners, 4th generation, graviton — with topological proofs of why they CANNOT exist on the substrate.
+
+```python
+from toy_particle_zoo import ParticleZoo
+pz = ParticleZoo()
+pz.catalog()                          # full particle catalog with topology
+pz.particle('electron')               # detailed single-particle profile
+pz.fermion_generations()              # why exactly 3 generations
+pz.forbidden_particles()              # what CANNOT exist and why
+pz.decay_chains()                     # decay as commitment events
+pz.mass_hierarchy()                   # all masses with BST formulas
+pz.interactions()                     # four forces as geometric operations
+```
+
+*Key insight: Particles are not point objects — they are topological configurations. Some configurations are forbidden by the substrate geometry.*
+
+### 44. The Complexity Arrow (`toy_complexity.py`) ★CI
+
+**Entropy and structure both increase — because commitments are append-only.**
+
+On an append-only contact graph with constraint propagation, self-replicating patterns emerge inevitably. Both entropy increase AND structure accumulation arise from append-only contact commitment. A cellular automaton demonstrates the 8 hierarchy levels of complexity emerging from irreversible commitment. Complexity is monotonically non-decreasing — a stronger arrow than thermodynamics alone.
+
+```python
+from toy_complexity import ComplexityArrow
+ca = ComplexityArrow()
+ca.setup()                            # initialize the automaton
+ca.run(500)                           # run 500 commitment steps
+ca.entropy_vs_complexity()            # both increase, different curves
+ca.pattern_catalog()                  # emergent patterns classified
+ca.commitment_ledger()                # append-only record
+ca.hierarchy_levels()                 # 8 levels of emergent structure
+ca.arrow_proof()                      # why complexity never decreases
+```
+
+*Key insight: The complexity arrow is not the entropy arrow. Both point forward, but complexity counts structure while entropy counts disorder. Commitment drives both.*
+
+### 45. The Gravity Bottleneck (`toy_newton_g.py`) ★CI
+
+**Gravity is weak because it requires 6 coherent round trips through a 1/137 aperture.**
+
+G = hbar*c * (6pi^5)^2 * alpha^24 / m_e^2. Each round trip (boundary to bulk to boundary) has probability alpha^2. Gravity requires C_2 = 6 simultaneous coherent round trips: (alpha^2)^6 = alpha^12 ~ 10^(-25.6). EM needs only one channel (coupling ~ alpha). The hierarchy problem dissolves: it is a counting problem, not fine-tuning.
+
+```python
+from toy_newton_g import GravityBottleneck
+gb = GravityBottleneck()
+gb.hierarchy()                        # why gravity is 10^36 weaker than EM
+gb.bottleneck(n_trips=6)              # 6 coherent round trips
+gb.newton_g()                         # compute G from BST
+gb.why_weak()                         # the geometric explanation
+gb.force_comparison(r_m=1e-15)        # EM vs gravity at 1 fm
+gb.alpha_powers()                     # the exponent ladder
+gb.transmission_probability(n=6)      # (alpha^2)^n suppression
+```
+
+*Key insight: The hierarchy problem is a counting problem. EM uses 1 channel; gravity uses 6 coherent channels. Each channel costs a factor of alpha^2.*
+
+### 46. The Lithium Fix (`toy_lithium7.py`) ★CI
+
+**The cosmological lithium problem solved: one phase transition, zero free parameters.**
+
+Standard BBN predicts 3x too much lithium-7. For 50 years nobody could fix it without breaking deuterium or helium-4. BST does it in one line: T_c = m_e x 20/21 = 0.487 MeV. The phase transition fires right in the 7Be production window. Entropy injection by genus Delta_g = 7 selectively suppresses 7Be to 7Li by factor 2.73x. Observed deficit: 2.93x. Match to 7%. D/H and He-4 are untouched.
+
+```python
+from toy_lithium7 import LithiumFix
+lf = LithiumFix()
+lf.bbn_overview()                     # what is Big Bang nucleosynthesis
+lf.element_abundances()               # the lithium-7 problem
+lf.phase_transition()                 # T_c = 0.487 MeV
+lf.lithium_suppression()              # Delta_g = 7 gives 2.73x reduction
+lf.temperature_evolution()            # T(t) with BST kink
+lf.reaction_rates()                   # nuclear reactions at T
+lf.other_elements_unchanged()         # D, He-4 protected
+```
+
+*Key insight: The lithium problem is a timing problem. BST's phase transition fires at exactly the right temperature to suppress 7Be without touching anything else.*
+
+### 47. The Deuteron Bond (`toy_deuteron.py`) ★CI
+
+**Nuclear binding from BST geometry: B_d = alpha * m_p / pi = 2.179 MeV.**
+
+The nuclear force is NOT the strong force leaked out. It is the residual S^1-fiber coupling between color-neutral baryon circuits — like van der Waals for EM, but for the S^1 fiber of D_IV^5. The strong force (Z_3 closure on CP^2) confines quarks at ~938 MeV. The nuclear force (S^1 coupling between neutral circuits) binds hadrons at ~2 MeV, suppressed by alpha. Extends to He-4, Be-8, C-12, and the full nuclear landscape up to Fe-56.
+
+```python
+from toy_deuteron import DeuteronBond
+db = DeuteronBond()
+db.binding_energy()                   # B_d = alpha * m_p / pi = 2.179 MeV
+db.proton_neutron_structure()         # Z_3 circuits on D_IV^5
+db.binding_mechanism()                # S^1 fiber coupling
+db.nuclear_force_origin()             # residual coupling, not strong force
+db.spin_states()                      # why spin-1 (triplet channel)
+db.heavier_nuclei()                   # He-4, Be-8, C-12 extensions
+db.nuclear_landscape()                # B/A curve, H to Fe-56
+```
+
+*Key insight: The nuclear force is to the strong force what van der Waals is to electromagnetism — a residual coupling between neutral composites, suppressed by alpha.*
+
+### 48. The Reality Writer (`toy_reality_writer.py`) ★CI
+
+**Atomic clocks do not measure "time." They count how fast correlations are committed.**
+
+In BST, a clock counts how fast new correlations are committed to the substrate at its location: N(x) = N_0 * sqrt(1 - rho/rho_137). Where the substrate is saturated (near mass), writing is slow and the clock ticks slowly. In deep space, abundant uncommitted capacity means fast writing. At the horizon, N approaches 0: reality stops being updated. GPS satellites demonstrate this: clocks at 20,200 km orbit write faster by ~4.5 x 10^-10, accumulating ~38 us/day drift. Includes Pound-Rebka test.
+
+```python
+from toy_reality_writer import RealityWriter
+rw = RealityWriter()
+rw.clock_rate(altitude_m=0)           # commitment rate at sea level
+rw.gps_demo()                         # satellite vs ground: 38 us/day
+rw.gravity_well_profile()             # commitment rate vs altitude
+rw.place_clocks()                     # compare clocks at different altitudes
+rw.schwarzschild_limit()              # N -> 0 at the horizon
+rw.commitment_density_field()         # full field visualization
+rw.pound_rebka()                      # Harvard tower experiment
+```
+
+*Key insight: "Time dilation" is not time slowing down — it is commitment density increasing. Clocks near mass write slower because the channel is more full.*
+
+### 49. The Higgs Lock (`toy_higgs.py`) ★CI
+
+**Two independent geometric routes to m_H — both from D_IV^5 — bracket the observed value.**
+
+Route A: quartic coupling lambda_H = sqrt(2/5!) = 1/sqrt(60), giving m_H = v * sqrt(2*lambda_H) = 125.11 GeV (-0.11%). Route B: radial/angular ratio m_H = (pi/2)(1-alpha) * m_W = 125.33 GeV (+0.07%). The Fermi scale itself is derived: v = m_p^2/(genus * m_e) = 246.12 GeV (0.04%). The top quark mass: m_t = (1-alpha) * v/sqrt(2) = 172.75 GeV (0.037%). Two routes, zero free parameters, 0.18% bracket.
+
+```python
+from toy_higgs import HiggsLock
+hl = HiggsLock()
+hl.fermi_scale()                      # v = m_p^2 / (7 * m_e) = 246.12 GeV
+hl.route_a()                          # lambda_H = 1/sqrt(60), m_H = 125.11 GeV
+hl.route_b()                          # m_H = (pi/2)(1-alpha) * m_W = 125.33 GeV
+hl.top_mass()                         # m_t = (1-alpha) * v/sqrt(2) = 172.75 GeV
+hl.w_mass()                           # m_W from BST
+hl.mass_cascade()                     # full electroweak mass cascade
+hl.precision_table()                  # all results vs observed
+```
+
+*Key insight: The Higgs mass is locked by geometry from two directions. The quartic coupling is 1/sqrt(5!) — the permutation group of n_C dimensions.*
+
+### 50. The Substrate Layers (`toy_substrate_layers.py`) ★CI
+
+**Six layers from Nothing to Cosmic Horizon. Commitment density = mass.**
+
+A cross-section of reality: Nothing, Circle Plain, Planck Boundary, Gap/Vacuum, Quantum Mist (oscillation), Rendered (committed), and Cosmic Horizon. Each layer serves the layer above and consumes the layer below — the same architecture as the biological protocol stack and OSI network model. Mass is not a substance; it is commitment density. The visual metaphor for all of BST.
+
+```python
+from toy_substrate_layers import SubstrateLayers
+sl = SubstrateLayers()
+sl.layers()                           # the six layers
+sl.layer_detail('Rendered')           # deep dive into one layer
+sl.nothing_to_rendered()              # the full commitment journey
+sl.commitment_density_profile()       # density from 0 to rho_137
+sl.black_hole_cross_section()         # all layers visible
+sl.mass_as_density()                  # mass = commitment density
+sl.vacuum_structure()                 # the vacuum is NOT empty
+```
+
+*Key insight: Reality has layers. Each layer is defined by its commitment density. The journey from Nothing to Rendered is the journey from empty channel to full channel.*
+
+### 51. The Fermion Staircase (`toy_fermion_staircase.py`) ★CI
+
+**All 12 fermion masses from nested domain embeddings D_IV^1 subset D_IV^3 subset D_IV^5.**
+
+The BST fermion mass hierarchy is not arbitrary. Every charged lepton, quark, and neutrino mass is determined by the Bergman geometry and its totally geodesic submanifolds. The electron lives on the boundary (k=1). The muon "sees" the D_IV^3 embedding, giving the ratio (24/pi^2)^6 = 206.761. The tau probes the full D_IV^5 domain. Quark mass ratios are BST integers: m_s/m_d = 4*n_C = 20, m_t/m_c = N_max - 1 = 136, m_b/m_tau = genus/N_c = 7/3. Ten mass ratios, zero free parameters.
+
+```python
+from toy_fermion_staircase import FermionStaircase
+fs = FermionStaircase()
+fs.electron()                         # base unit on the boundary
+fs.muon()                             # (24/pi^2)^6 ratio
+fs.tau()                              # (7/3)^{10/3} above muon
+fs.light_quarks()                     # u, d, s from BST integers
+fs.heavy_quarks()                     # c, b, t from ratios
+fs.mass_ratios()                      # all 10 BST mass ratios
+fs.domain_embeddings()                # D_IV^1, D_IV^3, D_IV^5
+fs.complete_table()                   # all 12 fermions
+```
+
+*Key insight: The mass hierarchy is a staircase of domain embeddings. Each fermion "sees" a different amount of the full D_IV^5 geometry.*
+
+### 52. The CKM Triangle (`toy_ckm_triangle.py`) ★CI
+
+**Every mixing angle from two integers: n_C = 5 and N_c = 3. The unitarity triangle closes exactly.**
+
+The complete CKM and PMNS mixing matrices from D_IV^5 geometry. CKM: sin(theta_C) = 1/(2*sqrt(5)) (Cabibbo, 0.3%), gamma = arctan(sqrt(5)) (CP phase, 0.6%), J = sqrt(2)/50000 (Jarlskog, 2.1%). PMNS: sin^2(theta_12) = 3/10 (solar, 1.0%), sin^2(theta_23) = 4/7 (atmospheric, 0.1%), sin^2(theta_13) = 1/45 (reactor, 0.9%). Neutrino mixing is large because vacuum modes rotate freely; quark mixing is small due to Bergman layer suppression ~1/sqrt(n_C).
+
+```python
+from toy_ckm_triangle import CKMTriangle
+ct = CKMTriangle()
+ct.cabibbo_angle()                    # sin(theta_C) = 1/(2*sqrt(5))
+ct.cp_phase()                         # gamma = arctan(sqrt(5)) = 65.9 deg
+ct.wolfenstein_params()               # lambda, A, rho_bar, eta_bar
+ct.unitarity_triangle()               # the triangle closes exactly
+ct.jarlskog_invariant()               # J = sqrt(2)/50000
+ct.ckm_matrix()                       # full 3x3 CKM matrix
+ct.pmns_matrix()                      # full 3x3 PMNS matrix
+ct.quark_vs_lepton_mixing()           # why quarks mix small, leptons mix large
+```
+
+*Key insight: The CKM phase gamma = arctan(sqrt(5)) and the Cabibbo angle sin(theta_C) = 1/(2*sqrt(5)) both come from n_C = 5 — the complex dimension of the substrate.*
+
+### 53. The Proton Spin (`toy_proton_spin.py`) ★CI
+
+**The "spin crisis" resolved: DeltaSigma = N_c/(2*n_C) = 3/10 = 0.300. Exact match.**
+
+The proton is a Z_3 circuit on D_IV^5 (real dimension 2*n_C = 10). Quark spins occupy N_c = 3 color dimensions; the remaining genus = 7 dimensions carry orbital angular momentum. 3 (color/spin) + 7 (orbital) = 10 (total). Observed: 0.30 +/- 0.06. The "crisis" arose from assuming quarks carry all the spin. In BST, the proton is a circuit on a 10-dimensional configuration space — of course the angular momentum is distributed over all dimensions.
+
+```python
+from toy_proton_spin import ProtonSpin
+ps = ProtonSpin()
+ps.spin_fraction()                    # DeltaSigma = 3/10 = 0.300
+ps.puzzle_history()                   # EMC 1988, 35 years of confusion
+ps.angular_momentum_budget()          # 3 spin + 7 orbital = 10 total
+ps.dimension_decomposition()          # N_c vs genus dimensions
+ps.q2_dependence()                    # scale dependence of DeltaSigma
+ps.comparison_with_lattice()          # BST vs lattice QCD
+ps.gluon_contribution()              # gluon angular momentum share
+```
+
+*Key insight: The proton has 10 dimensions of angular momentum. Quarks carry 3/10. The remaining 7/10 is orbital — one for each genus dimension.*
+
+### 54. The CMB Ruler (`toy_cmb_ruler.py`) ★CI
+
+**n_s = 1 - 5/137 = 0.96350. The spectral tilt is pure geometry. Five falsification criteria.**
+
+BST derives the CMB spectral index from D_IV^5 geometry: n_s = 1 - n_C/N_max = 1 - 5/137. Planck 2018 measures 0.9649 +/- 0.0042 — BST is -0.3 sigma. The tensor-to-scalar ratio r = 0 is BST's sharpest binary prediction: inflation requires r > 0, BST requires r = 0. If LiteBIRD detects r > 0.001, BST is falsified. Five tilt dimensions each contribute 1/N_max. No inflaton, no potential, no free parameters.
+
+```python
+from toy_cmb_ruler import CMBRuler
+cr = CMBRuler()
+cr.spectral_index()                   # n_s = 1 - 5/137 = 0.96350
+cr.tensor_ratio()                     # r = 0 (BST's sharpest prediction)
+cr.power_spectrum(l_max=2500)         # angular power spectrum
+cr.planck_comparison()                # BST vs Planck 2018 data
+cr.falsification_criteria()           # 5 ways to kill BST
+cr.vs_inflation_models()              # BST vs slow-roll, chaotic, etc.
+cr.physical_origin()                  # why n_C dimensions tilt the spectrum
+cr.future_experiments()               # LiteBIRD, CMB-S4, Simons Observatory
+```
+
+*Key insight: The spectral tilt counts how many complex dimensions contribute to the primordial fluctuations. Five dimensions, each contributing 1/137 of tilt.*
+
+### 55. The Biology Stack (`toy_biology_stack.py`) ★CI [SPECULATIVE]
+
+**4 bases, 3 codons, 20 amino acids, 7-layer stack — all from information theory.**
+
+Biology from BST information-theoretic principles. 4 bases = minimum error-correcting alphabet (2 bits per symbol). 3 codon length = Z_3 closure (the same symmetry as QCD color confinement). 20 amino acids = 4^2 + 2^2 (coding + pairing structures). DNA/RNA = store-and-forward TCP/IP architecture, 3 billion years before DARPA. The 7-layer biological protocol stack (chemistry through function) mirrors the OSI network model. Introns are the evolutionary git log, not junk. Cancer is boundary enforcement failure. SPECULATIVE — awaits rigorous proof and experimental verification.
+
+```python
+from toy_biology_stack import BiologyStack
+bs = BiologyStack()
+bs.genetic_alphabet()                 # 4 bases = 2 bits, minimum error-correcting
+bs.codon_length()                     # 3 = Z_3 closure
+bs.amino_acid_count()                 # 20 = 4^2 + 2^2
+bs.chirality()                        # one form, least energy
+bs.protocol_stack()                   # 7-layer biological stack
+bs.dna_as_tcpip()                     # store-and-forward architecture
+bs.introns_as_git()                   # protocol layer, not junk
+bs.cancer_as_boundary_failure()       # NEXT without BOUNDARY
+bs.aging_as_deferred_maintenance()    # chronic channel noise
+```
+
+*Key insight: The same information-theoretic principles that generate the Standard Model also constrain the architecture of life. Biology is substrate engineering.*
+
+### 56. The JWST Prediction (`toy_jwst_prediction.py`) ★CI
+
+**Early supermassive black holes from the BST phase transition. No seed delay needed.**
+
+JWST discovers supermassive black holes at z > 10, earlier than LCDM accretion models permit. BST predicts direct formation from the phase transition: ultra-strong specific heat C_v = 330,000 at T_c injects enormous energy density, creating black holes directly with no stellar seed delay. Standard cosmology needs time to build a black hole. BST needs commitment density. The data says they were already there.
+
+```python
+from toy_jwst_prediction import JWSTPrediction
+jp = JWSTPrediction()
+jp.the_problem()                      # JWST early BH timing problem
+jp.bst_mechanism()                    # C_v = 330,000 at T_c
+jp.vs_standard_model()                # BST vs LCDM accretion
+jp.mass_scale()                       # predicted BH masses at z > 10
+jp.specific_heat()                    # why C_v is enormous at T_c
+jp.jwst_observations()                # current JWST data
+jp.testable_predictions()             # upcoming observations
+jp.galaxy_formation()                 # early galaxy formation from BST
+```
+
+*Key insight: Standard cosmology asks "how did they grow so fast?" BST answers: they did not grow — they formed directly from the phase transition's enormous specific heat.*
+
+---
+
 ## The Showcase (`toy_showcase.py`)
 
-A visual gallery with thumbnail icons for all 38 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
+A visual gallery with thumbnail icons for all 56 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
 
 ## The Menu (`play.py`)
 
-A text-based launcher for terminal use. Type a number (1-38) to launch any toy, or 'a' to launch all.
+A text-based launcher for terminal use. Type a number (1-56) to launch any toy, or 'a' to launch all.
 
 ---
 
