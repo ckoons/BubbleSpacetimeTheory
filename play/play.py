@@ -179,6 +179,11 @@ TOYS = {
            'G/C ratio detects engineering: natural objects are noisy,\n'
            "   engineered ones are quiet. Applied to 'Oumuamua & 3I."),
 
+    '33': ('The Commitment Survey ★CI',
+           'toy_commitment_survey.py',
+           'Fair weather map: commitment rates from Sun to deep space.\n'
+           '   Objects found by excess above local background.'),
+
     's': ('★ Showcase (visual gallery)',
           'toy_showcase.py',
           'Visual gallery of all toys with thumbnails and\n'
@@ -203,7 +208,7 @@ def main():
     print(f'  [q]  Quit')
     print()
 
-    choice = input('  Choose a toy (1-32, s=showcase, a=all, q=quit): ').strip().lower()
+    choice = input('  Choose a toy (1-33, s=showcase, a=all, q=quit): ').strip().lower()
 
     if choice == 'q':
         print('  Goodbye!')

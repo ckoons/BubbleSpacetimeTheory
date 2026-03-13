@@ -485,15 +485,37 @@ cd.detector_requirements(0.25, 200)     # JWST-class at 0.25 AU
 
 *Key insight: The silence is the signal. An object that is too quiet for its mass has frozen degrees of freedom — it has been engineered.*
 
+### 33. The Commitment Survey (`toy_commitment_survey.py`) ★CI
+
+**Fair weather map: commitment rates from Sun to deep space. Objects found above local background.**
+
+Every location in the solar system has a "commitment weather" — how fast reality is being written at that temperature. Near the Sun (INFERNO, T > 3000 K), commitment is extreme. At the CMB floor (CALM, T = 2.725 K), it's the minimum possible. The survey maps this gradient across 15 landmarks from Sun surface to Proxima Centauri. Objects are detected by commitment *above* the local background — the same way a radio telescope finds a signal above noise. The "sweet spot" for detecting engineered objects (σ > 0) is 1–5 AU: warm enough for measurable commitment, cool enough to see suppression. Includes 'Oumuamua and 3I/ATLAS trajectory analyses through the commitment landscape.
+
+```python
+from toy_commitment_survey import CommitmentSurvey
+cs = CommitmentSurvey()
+cs.temperature_at(1.0)                # 279 K at Earth orbit
+cs.conditions_at(5.2)                 # full report at Jupiter
+cs.survey()                           # all 15 landmarks Sun → Proxima
+cs.weather_map()                      # 8-zone text forecast
+cs.detection_window(sigma=0.5)        # where can we spot σ=0.5?
+cs.radial_profile()                   # arrays for plotting
+cs.trajectory_oumuamua()              # commitment landscape crossing
+cs.trajectory_3i()                    # 3I/ATLAS inbound trajectory
+cs.summary()                          # the punchline
+```
+
+*Key insight: Objects are found by excess commitment above local background. The "fair weather map" tells you what the background is everywhere — the baseline against which engineering stands out.*
+
 ---
 
 ## The Showcase (`toy_showcase.py`)
 
-A visual gallery with thumbnail icons for all 32 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
+A visual gallery with thumbnail icons for all 33 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
 
 ## The Menu (`play.py`)
 
-A text-based launcher for terminal use. Type a number (1-32) to launch any toy, or 'a' to launch all.
+A text-based launcher for terminal use. Type a number (1-33) to launch any toy, or 'a' to launch all.
 
 ---
 

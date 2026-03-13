@@ -292,6 +292,14 @@ TOYS = [
         'color': '#ff6644',
         'icon': 'detector',
     },
+    {
+        'name': 'Commitment Survey ★CI',
+        'file': 'toy_commitment_survey.py',
+        'short': 'Fair weather map of solar system',
+        'desc': 'Commitment rates Sun→deep space.\nObjects found above background.\nSweet spot: 1-5 AU.',
+        'color': '#44bbff',
+        'icon': 'survey',
+    },
 ]
 
 # ─── Figure ───
@@ -664,6 +672,15 @@ def draw_icon(ax, icon_type, color):
         ax.bar(0.5, 0.4, 0.15, color='#44ff88', bottom=0.15)
         ax.bar(0.7, 0.65, 0.15, color='#ff6644', bottom=0.15)
         ax.text(0.5, 0.08, 'G/C', fontsize=10, color='#ff6644',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'survey':
+        # Temperature/commitment gradient: warm to cool bars
+        colors = ['#ff4444', '#ff8844', '#ffcc44', '#44aaff', '#2266cc']
+        for i, c in enumerate(colors):
+            h = 0.55 - i * 0.08
+            ax.bar(0.2 + i * 0.14, h, 0.10, color=c, bottom=0.15)
+        ax.text(0.5, 0.08, '☉→★', fontsize=10, color='#44bbff',
                 ha='center', fontfamily='monospace', fontweight='bold')
 
 def launch_toy(toy_file):

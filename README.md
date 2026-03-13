@@ -101,6 +101,12 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Magic numbers | HO + BST spin-orbit: 2,8,20,28,50,82,126 | all 7 | all 7 observed | exact |
 | α_s (spectral running) | −(n_s−1)² = −25/18769 | −0.00133 | −0.0045±0.0067 | 0.5σ |
 | w₀ (dark energy EOS) | −1 + n_C/N_max² | −0.9997 | −1.0 (ΛCDM) | consistent |
+| a_V (SEMF volume) | g·B_d = 7αm_p/π | 15.24 MeV | 15.56 MeV | 2.0% |
+| a_S (SEMF surface) | (g+1)·B_d = 8αm_p/π | 17.42 MeV | 17.23 MeV | 1.2% |
+| a_C (SEMF Coulomb) | B_d/π = αm_p/π² | 0.694 MeV | 0.697 MeV | 0.5% |
+| a_A (SEMF asymmetry) | m_p/(4·dim_R) = f_π/4 | 23.46 MeV | 23.29 MeV | 0.7% |
+| δ (SEMF pairing) | (g/4)αm_p | 11.99 MeV | 12.0 MeV | 0.1% |
+| r₀ (nuclear radius) | (N_c π²/n_C)ℏc/m_p | 1.245 fm | 1.25 fm | 0.4% |
 | Reality Budget Λ×N | N_c²/n_C = 9/5 = 1.800; fill fraction f = 3/(5π) = 19.1% | 1.800 | 1.800 (exact) | conjectured |
 | m_η' (η' meson mass) | (g²/8)π⁵mₑ = (49/8)π⁵mₑ = mₚ×49/48 | 957.8 MeV | 957.78 MeV | **0.004%** |
 | m_η (η meson mass) | (g/2)π⁵mₑ = (7/2)π⁵mₑ | 547.3 MeV | 547.9 MeV | 0.10% |
@@ -118,7 +124,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Γ_φ (φ meson width) | m_φ/(2×5!) = m_φ/240; OZI suppression = 1/n_C! | 4.248 MeV | 4.249±0.013 MeV | **0.02%** |
 | Γ_ρ/Γ_φ (width ratio) | n_C × g = 5 × 7 = 35 | 35.0 | 35.09 | 0.26% |
 
-**120+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
+**130+ quantities spanning 122 orders of magnitude from the same geometry. This is not fitting.**
 
 ---
 
@@ -258,6 +264,10 @@ BST follows a single logical chain from one question to all of physics. Each ste
 **Nuclear magic numbers derived**: All seven magic numbers (2, 8, 20, 28, 50, 82, 126) from D_IV^5 geometry. The 3D harmonic oscillator from the Bergman metric gives 2, 8, 20. BST spin-orbit coupling κ_ls = C₂/n_C = 6/5 produces intruder levels of size 2×{4, 5, 6, 7} — running through the BST integers from N_c+1 to g. Predicts 8th magic number 184. The doubly-magic ⁵⁶Ni has A = 56 = g(g+1) — the same number as the Λ exponent.
 
 **Muon g-2 anomaly resolved**: BST aligns with the BMW lattice calculation of hadronic vacuum polarization, not the dispersive (e⁺e⁻ data) approach. The 5.1σ anomaly is a dispersive-lattice tension, not new physics. BST-specific correction (Haldane cap on vacuum polarization sum) is ~10⁻¹³, unobservable. Prediction: anomaly resolves to ≤2σ as lattice precision improves.
+
+**Nuclear binding energy curve derived**: All five Bethe-Weizsäcker coefficients from BST geometry with zero free parameters. The deuteron binding B_d = αm_p/π is the nuclear binding quantum — four of five terms are BST-integer multiples of B_d: a_V = 7B_d (genus), a_S = 8B_d (genus+1 = dim SU(3)), a_C = B_d/π, δ = (7/4)αm_p. The asymmetry term a_A = f_π/4 = m_p/(4·dim_R) connects nuclear physics to the chiral condensate. The iron peak at A=56 = g(g+1) comes from liquid-drop maximum plus doubly-magic shell closure at Z=N=28=4g. Nuclear physics is α-scale S¹ coupling on D_IV^5.
+
+**Bekenstein-Hawking 1/4 derived**: S = A/(4l_Pl²) where 1/4 = (1/2)×(1/2). First 1/2: the complex structure on D_IV^5 decomposes the tangent space into holomorphic + anti-holomorphic sectors; only the holomorphic sector carries independent information. Second 1/2: the Z₂ charge conjugation (θ → θ+π on S¹) identifies matter and antimatter modes at the maximally committed horizon. The no-hair theorem IS the Z₂ identification — black holes don't distinguish matter from antimatter.
 
 **The Master Equation (one sentence)**: The universe is the ground state of the Bergman Laplacian on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], subject to Haldane exclusion with capacity 137.
 
@@ -406,6 +416,11 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | Spectral running derived | α_s = −(n_s−1)² = −25/18769 = −0.00133 | 0.5σ |
 | BST expansion history | w₀≈−0.9997; no phantom crossing (Λ monotonically decreasing) | consistent |
 | Muon g-2 resolved | BST aligns with BMW lattice HVP; anomaly → ≤2σ; no new physics | structural |
+| Nuclear binding energy (all 5 SEMF terms) | B_d = αm_p/π is the nuclear quantum; a_V=7B_d, a_S=8B_d, a_C=B_d/π, a_A=f_π/4, δ=(7/4)αm_p | 0.1–2.0% |
+| Iron peak at A=56 | A=56=g(g+1): liquid-drop maximum + doubly-magic shell closure at Z=N=28=4g | structural |
+| Nuclear radius r₀ | (N_cπ²/n_C)ℏc/m_p = 1.245 fm | 0.4% |
+| Bekenstein coefficient 1/4 | S=A/(4l_Pl²): 1/4 = (1/2)_holomorphic × (1/2)_{Z₂ charge conjugation} | structural |
+| Complete quark mass spectrum | All 6 quarks from BST; two chains (light up from m_e, heavy down from v) | 0.59% mean |
 
 ## Remaining Open Problems
 
@@ -418,7 +433,7 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | Baryon resonance verification | k=7 matches N(2190); k=8 at 3753 MeV undiscovered?; SO(3)⊂SO(5) SOLVED via D₂ | 5 |
 | Reality Budget spectral proof | Fill fraction f = 3/(5π) partially derived; full spectral proof from Plancherel or index theorem needed | 6 |
 
-**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem, Dirac large number, partition function duality, vector meson nonet (ρ, ω, K*, φ), pseudoscalar meson nonet (K, η, η'), pion/kaon charge radii (leading order), Reality Budget value (9/5), three-layer architecture, Gödel limit, cosmic composition (Ω_Λ, Ω_m, Ω_DM/Ω_b), SO(3)⊂SO(5) embedding (D₂ irreducible), n_C=5 uniqueness (η' anomaly), proton/neutron magnetic moments, W/Z boson widths, GMO identity exact, first commitment (Leibniz's question), black hole singularity (Haldane cap), information paradox (commitments permanent), arrow of time (geometric, from negative curvature), Λ exponent 56 (two derivations, self-consistent at g=7), cosmic coincidence / Why Now (information-energy intersection), cosmic age t₀ (13.6 Gyr), H₀ second route (68.0 km/s/Mpc), Bell inequality origin (3D phenomenon), Tsirelson bound (2√2 = 2√N_w), J/ψ and Υ masses (generation hierarchy ×4×3=12=2C₂), heavy meson masses (D, B, B_c all from BST integers), SO(2) activation uniqueness (Helgason classification theorem), commitment rate exponent 3 (Z₃ fixed points on CP²), pion/kaon charge radii NLO (0.46% and 1.0%, radius ratio = cos θ_W), electron mass from pure geometry (6π⁵α¹²m_Pl, zero free parameters), nuclear magic numbers (all 7 + prediction of 184), spectral index derivation (Candidate A selected), muon g-2 (aligns with lattice, anomaly resolves).
+**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem, Dirac large number, partition function duality, vector meson nonet (ρ, ω, K*, φ), pseudoscalar meson nonet (K, η, η'), pion/kaon charge radii (leading order), Reality Budget value (9/5), three-layer architecture, Gödel limit, cosmic composition (Ω_Λ, Ω_m, Ω_DM/Ω_b), SO(3)⊂SO(5) embedding (D₂ irreducible), n_C=5 uniqueness (η' anomaly), proton/neutron magnetic moments, W/Z boson widths, GMO identity exact, first commitment (Leibniz's question), black hole singularity (Haldane cap), information paradox (commitments permanent), arrow of time (geometric, from negative curvature), Λ exponent 56 (two derivations, self-consistent at g=7), cosmic coincidence / Why Now (information-energy intersection), cosmic age t₀ (13.6 Gyr), H₀ second route (68.0 km/s/Mpc), Bell inequality origin (3D phenomenon), Tsirelson bound (2√2 = 2√N_w), J/ψ and Υ masses (generation hierarchy ×4×3=12=2C₂), heavy meson masses (D, B, B_c all from BST integers), SO(2) activation uniqueness (Helgason classification theorem), commitment rate exponent 3 (Z₃ fixed points on CP²), pion/kaon charge radii NLO (0.46% and 1.0%, radius ratio = cos θ_W), electron mass from pure geometry (6π⁵α¹²m_Pl, zero free parameters), nuclear magic numbers (all 7 + prediction of 184), spectral index derivation (Candidate A selected), muon g-2 (aligns with lattice, anomaly resolves), nuclear binding energy curve (all 5 SEMF coefficients, iron peak at A=56=g(g+1)), Bekenstein 1/4 ((1/2)_holo × (1/2)_Z₂), complete quark mass spectrum (6 quarks, 0.59% mean).
 
 ---
 

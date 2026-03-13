@@ -51,7 +51,7 @@ abstract: |
   with zero free parameters.
   The CMB spectral index $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($0.3\sigma$ from Planck),
   with tensor-to-scalar ratio $r \approx 0$ (no primordial B-modes), are derived from the phase transition dynamics.
-  Over 120 parameter-free predictions are presented, all testable against current or near-future experiments.
+  Over 130 parameter-free predictions are presented, all testable against current or near-future experiments.
 documentclass: article
 classoption:
   - 12pt
@@ -3017,6 +3017,10 @@ The following were all derived from $D_{IV}^5$ geometry with zero free parameter
 - **BST expansion history — SOLVED.** Reality Budget $\Lambda \times N = 9/5$ implies $\Lambda(t)$ monotonically decreasing as commitments accumulate. Dark energy EOS: $w_0 \approx -1 + n_C/N_{\max}^2 \approx -0.9997$, $w_a \approx -0.0003$. Nearly ΛCDM at current precision. KEY PREDICTION: no phantom crossing ($w > -1$ always, because commitments only grow). If $w(z)$ crosses $-1$, BST is falsified. See `notes/BST_ExpansionHistory_DESI.md`.
 - **Muon g-2 — RESOLVED.** BST aligns with BMW lattice HVP (first-principles, like BST). The 5.1$\sigma$ dispersive anomaly reflects dispersive-lattice tension, not new physics. BST-specific Haldane cap correction $\sim 10^{-13}$ (unobservable). Prediction: anomaly resolves to $\leq 2\sigma$. See `notes/BST_MuonG2_Rigorous.md`.
 - **Pion/kaon charge radii — NLO DERIVED.** The Gasser-Leutwyler (1984) one-loop chiral correction with all BST inputs: $r_\pi = 0.656$ fm (0.46% from observed 0.659, was 6.2% at LO). Kaon: $r_{K^+} = 0.555$ fm (1.0% from observed 0.560, was 3.2% at LO). Structural discovery: the LO radius ratio $r_{K^+}/r_\pi = m_\rho/m_{K^*} = \sqrt{10/13} = \cos\theta_W$, connecting meson radii to the Weinberg angle through their common $D_{IV}^5$ origin. See `notes/BST_MesonRadii_NLO.md`.
+
+- **Nuclear binding energy curve — ALL 5 SEMF COEFFICIENTS DERIVED.** The deuteron binding $B_d = \alpha m_p/\pi = 2.179$ MeV is the nuclear binding quantum. Volume: $a_V = g \cdot B_d = 7B_d = 15.24$ MeV ($-2.0\%$). Surface: $a_S = (g+1) B_d = 8B_d = 17.42$ MeV ($+1.2\%$). Coulomb: $a_C = B_d/\pi = 0.694$ MeV ($-0.5\%$). Asymmetry: $a_A = m_p/(4 \dim_R) = f_\pi/4 = 23.46$ MeV ($+0.7\%$). Pairing: $\delta = (g/4)\alpha m_p = 11.99$ MeV ($-0.1\%$). Nuclear radius $r_0 = (N_c\pi^2/n_C)\hbar c/m_p = 1.245$ fm ($0.4\%$). The iron peak at $A = 56 = g(g+1)$ follows from the liquid-drop maximum plus the doubly-magic shell closure at $Z = N = 28 = 4g$. See `notes/BST_NuclearBindingEnergy.md`.
+- **Bekenstein-Hawking entropy coefficient — DERIVED.** $S = A/(4\ell_{\text{Pl}}^2)$ where $1/4 = (1/2)_{\text{holo}} \times (1/2)_{Z_2}$. First factor: the complex structure on $D_{IV}^5$ halves real DOF (only holomorphic sector carries independent information). Second factor: $Z_2$ charge conjugation ($\theta \to \theta + \pi$ on $S^1$) identifies matter/antimatter modes at the maximally committed horizon. The no-hair theorem IS the $Z_2$ identification. Grade B overall: complex structure factor is rigorous, $Z_2$ factor is physically sound but needs tighter derivation from BST axioms. See `notes/BST_Bekenstein_Quarter.md`.
+- **Complete quark mass spectrum — SYSTEMATIZED.** All 6 quarks with BST formulas, mean error 0.59\%. Two chains: light chain (up from $m_e$ via $m_u = 3\sqrt{2}m_e$, $m_d/m_u = 13/6$, $m_s/m_d = 20$, $m_c/m_s = 137/10$) and heavy chain (down from $v$ via $m_t = (1-\alpha)v/\sqrt{2}$, $m_b/m_\tau = 7/3$). Chains meet at charm with 1.3\% consistency. No single unified master formula found — different geometric mechanisms at each scale. Bottom quark has 2\% tension between two routes (flagged as main open issue). Constituent quark mass $M_q = m_p/N_c = 312.8$ MeV. BST reproduces lepton Koide to 0.028\% but quark Koide fails. See `notes/BST_QuarkMassSpectrum_Complete.md`.
 
 **Still open, in priority order:**
 
