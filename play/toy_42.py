@@ -368,6 +368,7 @@ class TheAnswer:
         self.factorization()
         self.all_ways_to_42()
         self.critical_line()
+        self.uniqueness_42()
 
         print("═" * 70)
         print("  CONCLUSION")
@@ -393,11 +394,78 @@ class TheAnswer:
         print("  So long, and thanks for all the Chern classes.")
         print()
 
+    def uniqueness_42(self):
+        """
+        The 42 uniqueness theorem: d₁ × λ₁ = P(1) ONLY at n = 5.
+
+        On the quadric Q^n, the spectral gap λ₁ = n+1 and its multiplicity
+        d₁ = n+2. Their product (n+1)(n+2) equals P_n(1) = Σ c_k(Q^n)
+        only when n = 5. This is a number-theoretic uniqueness condition
+        independent of all other proofs that n_C = 5 is special.
+        """
+        from math import comb
+        print()
+        print("═" * 70)
+        print("  THE 42 UNIQUENESS THEOREM")
+        print("  d₁ × λ₁ = P(1)  holds ONLY at n = 5")
+        print("═" * 70)
+        print()
+        print("  On the compact dual Q^n = SO(n+2)/[SO(n)×SO(2)]:")
+        print("    Spectral gap:   λ₁ = n + 1")
+        print("    Multiplicity:   d₁ = n + 2")
+        print("    Product:        d₁ × λ₁ = (n+1)(n+2)  [quadratic in n]")
+        print()
+        print("  Chern class sum:  P_n(1) = Σ cₖ(Q^n)    [exponential in n]")
+        print()
+
+        def chern_sum(n):
+            """Sum of Chern classes for Q^n via (1+h)^(n+2)/(1+2h) mod h^(n+1)."""
+            # Compute polynomial coefficients
+            # (1+h)^(n+2) / (1+2h) mod h^(n+1)
+            num = [0] * (n + 1)
+            for k in range(n + 1):
+                num[k] = comb(n + 2, k)
+            # Divide by (1+2h): c_k = num_k - 2*c_{k-1}
+            c = [0] * (n + 1)
+            c[0] = num[0]  # = 1
+            for k in range(1, n + 1):
+                c[k] = num[k] - 2 * c[k - 1]
+            return sum(c)
+
+        print("  ┌─────┬──────┬──────┬─────────────┬──────────────┬───────────┐")
+        print("  │  n  │  λ₁  │  d₁  │  d₁ × λ₁   │   P_n(1)     │  Match?   │")
+        print("  ├─────┼──────┼──────┼─────────────┼──────────────┼───────────┤")
+
+        for n in [1, 3, 5, 7, 9, 11]:
+            lam1 = n + 1
+            d1 = n + 2
+            product = lam1 * d1
+            pn1 = chern_sum(n)
+            match = "★ YES ★" if product == pn1 else "no"
+            marker = "→ " if n == 5 else "  "
+            print(f"  │{marker}{n:<3}│  {lam1:<4}│  {d1:<4}│  {product:<11}│  {pn1:<12}│  {match:<9}│")
+
+        print("  └─────┴──────┴──────┴─────────────┴──────────────┴───────────┘")
+        print()
+        print("  At n = 5: d₁ × λ₁ = 7 × 6 = 42 = P₅(1) = Σ cₖ  ★")
+        print()
+        print("  Why unique? The product grows as ~n², the Chern sum as ~2ⁿ.")
+        print("  A quadratic can cross an exponential at most once.")
+        print("  The crossing occurs at n = 5.")
+        print()
+        print("  This is the 4th independent proof that n_C = 5 is special:")
+        print("    1. max-α (fine structure constant maximized)")
+        print("    2. η' anomaly (mass formula requires n = 5)")
+        print("    3. Casimir-root correspondence (C₂ = 6 uniquely)")
+        print("    4. d₁ × λ₁ = P(1) (spectral = topological ONLY here)")
+        print()
+
     def summary(self):
         """One-line summary."""
         print("\n  42 = Σ cₖ(Q⁵) = 2×3×7 = rank × colors × genus")
-        print("     = C₂×g = 6×7 = (h+1)(h²+h+1)(3h²+3h+1)|_{h=1}")
-        print("  The total topological content of the universe is 42.\n")
+        print("     = C₂×g = 6×7 = d₁×λ₁ = (h+1)(h²+h+1)(3h²+3h+1)|_{h=1}")
+        print("  The total topological content of the universe is 42.")
+        print("  d₁ × λ₁ = P(1) holds ONLY at n = 5. The 4th uniqueness proof.\n")
 
     # ── Visualization ────────────────────────────────────────────
 
@@ -876,7 +944,10 @@ def main():
     # Step 4: Critical line
     ta.critical_line()
 
-    # Step 5: The serious bit
+    # Step 5: Uniqueness
+    ta.uniqueness_42()
+
+    # Step 6: The serious bit
     print("═" * 70)
     print("  THE MATHEMATICS")
     print("═" * 70)

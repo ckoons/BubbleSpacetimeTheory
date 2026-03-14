@@ -56,14 +56,14 @@ CATEGORIES = {
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
         'berezin_toeplitz', 'poisson_szego', 'plancherel_spectrum',
-        'self_dual_point', 'bst_matrix',
+        'self_dual_point', 'bst_matrix', 'quantum_metric',
     ],
     'Particles': [
         'mass_tower', 'meson_garden', 'fermion_staircase', 'particle_zoo',
         'proton_spin', 'proton_radius', 'neutron_proton', 'baryon_radiative',
         'ckm_triangle', 'neutrino_oscillation', 'heavy_mesons',
         'quark_masses', 'magnetic_moments', 'axial_coupling',
-        'electron_g2',
+        'electron_g2', 'hyperfine_splittings',
     ],
     'Forces & Higgs': [
         'higgs', 'running_couplings', 'mass_gap_proof', 'feynman_geometry',
@@ -259,6 +259,8 @@ METADATA = {
     'pion_radius':              ('The Pion Radius',                  'r_pi from Bergman projection. Pion vs proton. Four observables, zero params.'),
     'constants_dashboard':      ('The Constants Dashboard',          'Toy 137 = N_max. 160+ predictions. The complete scorecard. Channel full.'),
     'circles_on_surfaces':      ('Circles on Closed Surfaces',       'Compact geometry -> integer winding -> discrete spectrum -> quantum. Why QM exists.'),
+    'hyperfine_splittings':     ('Hyperfine Splittings from Chern',  'c3=13 controls ALL heavy meson splittings. cc/bb = c2/C2 = 11/6. 0.06%.'),
+    'quantum_metric':           ('The Quantum Metric',               'Bergman = Fubini-Study = Geneva. Physics is measured geometry on state space.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -396,6 +398,7 @@ _STEM_TO_NUMBER = {
     'why_this_universe': 134, 'chiral_condensate': 135,
     'pion_radius': 136, 'constants_dashboard': 137,
     'circles_on_surfaces': 138,
+    'hyperfine_splittings': 139, 'quantum_metric': 140,
 }
 
 

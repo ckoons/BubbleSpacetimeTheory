@@ -20,6 +20,7 @@ ONE geometry.  ONE universe.
     wtu.five_forces_one()
     wtu.zero_inputs()
     wtu.uniqueness_proof()
+    wtu.spectral_uniqueness()
     wtu.not_chosen_forced()
     wtu.summary()
     wtu.show()
@@ -473,6 +474,66 @@ class WhyThisUniverse:
             print()
 
         return results
+
+    # ─── 5b. The 42 Uniqueness (4th independent proof) ───
+
+    def spectral_uniqueness(self):
+        """
+        The d₁ × λ₁ = P(1) identity holds ONLY at n = 5.
+        This is the 4th independent proof that n_C = 5 is forced.
+
+        Returns
+        -------
+        dict with n values, products, chern sums, and match flags
+        """
+        from math import comb
+
+        def chern_sum(n):
+            """Sum of Chern classes for Q^n."""
+            num = [comb(n + 2, k) for k in range(n + 1)]
+            c = [0] * (n + 1)
+            c[0] = 1
+            for k in range(1, n + 1):
+                c[k] = num[k] - 2 * c[k - 1]
+            return sum(c)
+
+        rows = []
+        for n in [1, 3, 5, 7, 9, 11]:
+            d1 = n + 2
+            lam1 = n + 1
+            product = d1 * lam1
+            pn1 = chern_sum(n)
+            rows.append({'n': n, 'd1': d1, 'lam1': lam1,
+                         'product': product, 'P1': pn1,
+                         'match': product == pn1})
+
+        if not self.quiet:
+            print('  4TH UNIQUENESS PROOF: d₁ × λ₁ = P(1)')
+            print('  ' + '=' * 60)
+            print()
+            print('  On Q^n: spectral gap λ₁ = n+1, multiplicity d₁ = n+2')
+            print('  Chern class sum P_n(1) = Σ cₖ(Q^n)')
+            print()
+            print(f'  {"n":>3}  {"d₁":>4}  {"λ₁":>4}  {"d₁×λ₁":>8}  '
+                  f'{"P_n(1)":>8}  {"Match?":>8}')
+            print('  ' + '-' * 45)
+            for r in rows:
+                m = '★ YES' if r['match'] else 'no'
+                arrow = '  <--' if r['n'] == 5 else ''
+                print(f'  {r["n"]:>3}  {r["d1"]:>4}  {r["lam1"]:>4}  '
+                      f'{r["product"]:>8}  {r["P1"]:>8}  {m:>8}{arrow}')
+            print()
+            print('  Product grows as n². Chern sum grows as 2^n.')
+            print('  They cross ONCE, at n = 5: 7 × 6 = 42 = P₅(1).')
+            print()
+            print('  Four independent proofs that n_C = 5:')
+            print('    1. max-α (fine structure constant peaks)')
+            print('    2. η\' anomaly (mass formula requires n = 5)')
+            print('    3. Casimir-root correspondence (C₂ = 6 unique)')
+            print('    4. d₁ × λ₁ = P(1) (spectral = topological)')
+            print()
+
+        return {'rows': rows, 'unique_n': 5}
 
     # ─── 6. Not Chosen -- Forced ───
 
@@ -1204,6 +1265,7 @@ if __name__ == '__main__':
     wtu.five_forces_one()
     wtu.zero_inputs()
     wtu.uniqueness_proof()
+    wtu.spectral_uniqueness()
     wtu.not_chosen_forced()
     wtu.summary()
     wtu.show()
