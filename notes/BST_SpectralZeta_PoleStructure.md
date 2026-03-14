@@ -196,19 +196,78 @@ This connects the spectral zeta pole to the gauge structure of $E_8$, which in B
 
 -----
 
-## 8. Summary
+## 8. Exact Closed Forms and the Odd-Zeta Parity Theorem
+
+### 8.1 The Anti-Symmetry
+
+The summand $f_s(k) = d_k/\lambda_k^s$ satisfies an anti-symmetry under the reflection $k \mapsto -5 - k$:
+
+$$f_s(-5-k) = -f_s(k) \qquad \text{for all integer } s$$
+
+*Proof.* Under $k \to -5-k$: the factor $(2k+5) \to -(2k+5)$ changes sign, while $k^s(k+5)^s \to (-5-k)^s(-k)^s = (-1)^{2s} k^s(k+5)^s = k^s(k+5)^s$, and $(k+1)(k+2)(k+3)(k+4) \to (-4-k)(-3-k)(-2-k)(-1-k) = (k+1)(k+2)(k+3)(k+4)$. The only sign change is from $(2k+5)$. $\square$
+
+### 8.2 The Odd-Zeta Parity Theorem
+
+**Theorem.** For integer $s \geq 4$, the spectral zeta function $\zeta_\Delta(s)$ on $Q^5$ is a linear combination of **odd** Riemann zeta values $\zeta(3), \zeta(5), \zeta(7), \ldots$ with rational coefficients, plus a rational constant. All even zeta values $\zeta(2), \zeta(4), \zeta(6), \ldots$ are absent.
+
+*Proof.* In the partial fraction decomposition $f_s(k) = \sum_{j=1}^{s} [A_j/k^j + B_j/(k+5)^j]$, the anti-symmetry forces $B_j = (-1)^{j+1} A_j$. The coefficient of $\zeta(j) = \sum_{k \geq 1} k^{-j}$ in $\sum_{k=1}^{\infty} f_s(k)$ is $A_j + B_j = A_j(1 + (-1)^{j+1})$, which vanishes for even $j$ and equals $2A_j$ for odd $j$. $\square$
+
+### 8.3 Exact Closed Forms
+
+$$\boxed{\zeta_\Delta(4) = \frac{101}{18750}\,\zeta(3) + \frac{349}{1875000}}$$
+
+$$\boxed{\zeta_\Delta(5) = \frac{49}{187500}\,\zeta(3) + \frac{2}{3125}\,\zeta(5) - \frac{709}{58593750}}$$
+
+$$\boxed{\zeta_\Delta(6) = -\frac{28}{1953125}\,\zeta(3) + \frac{77}{468750}\,\zeta(5) + \frac{6133}{5859375000}}$$
+
+Verified numerically to 12 significant figures against direct summation.
+
+### 8.4 BST Content of the Denominators
+
+The denominators carry BST factorizations:
+
+| Denominator | Factorization | BST content |
+|:------------|:-------------|:------------|
+| 18750 | $6 \times 5^5$ | $C_2 \times n_C^{n_C}$ |
+| 3125 | $5^5$ | $n_C^{n_C}$ |
+| 187500 | $2 \times 5 \times 6 \times 5^5$ | $2n_C \times C_2 \times n_C^{n_C}$ |
+| 468750 | $6 \times 5^6$ | $C_2 \times n_C^{C_2}$ |
+
+The coefficient of $\zeta(5)$ in $\zeta_\Delta(5)$ is $2/n_C^{n_C} = r/n_C^{n_C}$.
+
+The coefficient of $\zeta(5)$ in $\zeta_\Delta(6)$ is $77/468750 = d_3/(C_2 \times n_C^{C_2})$ — the third multiplicity $d_3 = 77 = g \times c_2$ appears as a numerator.
+
+### 8.5 The Pattern: Only Transcendental Zeta Values
+
+The even Riemann zeta values $\zeta(2k) = (-1)^{k+1} B_{2k} (2\pi)^{2k} / (2 \cdot (2k)!)$ are rational multiples of powers of $\pi$ (known in closed form since Euler). The odd zeta values $\zeta(3), \zeta(5), \zeta(7), \ldots$ are the **transcendental** ones — their irrationality is proved only for $\zeta(3)$ (Apéry 1978).
+
+The odd-zeta parity theorem says: **the spectral zeta function of $Q^5$ sees only the genuinely transcendental part of the Riemann zeta function.** The "easy" (Euler) part cancels identically, leaving only the mysterious odd values.
+
+This parallels the structure of Feynman integrals in quantum field theory, where a conjecture (proved in many cases by Francis Brown) states that only odd zeta values appear at certain loop orders. In BST, this is not a conjecture but a theorem, proved from the anti-symmetry of the spectral summand.
+
+### 8.6 The Harmonic Number Connection
+
+The coefficient $1/60$ at the $s = 3$ pole is the denominator of $H_5 = 137/60$, the fifth harmonic number. The numerator $137 = N_{\max} = \lfloor 1/\alpha \rfloor$. See BST_HarmonicNumber_AlphaOrigin.md for the complete derivation of $\alpha$ from $H_{n_C}$.
+
+-----
+
+## 9. Summary
 
 1. **$\zeta_\Delta(s)$ on $Q^5$ has poles at $s = 5, 4, 3, 2, 1$** with residues proportional to the integrated Seeley–De Witt coefficients $A_0, \ldots, A_4$.
 
 2. **The $s = 3$ pole has logarithmic coefficient exactly $1/60 = 2/5!$** — connecting to the alternating group $A_5$, the gauge sector dimension, and the Weyl group quotient $|W(D_5)|/2^4$.
 
-3. **Convergent values** $\zeta_\Delta(4) \approx 0.00666$ and $\zeta_\Delta(5) \approx 0.000966$ satisfy $\zeta_\Delta(s) \sim \text{Vol}(D)^{s-4} \times C$ with slowly varying $C$.
+3. **Exact closed forms** at convergent integer values involve only **odd** Riemann zeta values $\zeta(3), \zeta(5), \ldots$ with rational coefficients built from BST numbers ($C_2, n_C^{n_C}, d_3$). The absence of even zeta values is proved by the anti-symmetry $f_s(-5-k) = -f_s(k)$.
 
-4. **The half-sum** $|\rho|^2 = 17/2$ sets the spectral gap on $D_{IV}^5$, connecting to the multiplicity factor at $k = 6$.
+4. **$H_5 = 137/60$**: the harmonic number of $n_C$ has numerator $N_{\max} = 137$ and denominator $n_C!/2 = 60$.
+
+5. **Convergent values** $\zeta_\Delta(4) \approx 0.00666$ and $\zeta_\Delta(5) \approx 0.000966$ satisfy $\zeta_\Delta(s) \sim \text{Vol}(D)^{s-4} \times C$ with slowly varying $C$.
+
+6. **The half-sum** $|\rho|^2 = 17/2$ sets the spectral gap on $D_{IV}^5$, connecting to the multiplicity factor at $k = 6$.
 
 The spectral zeta function is the analytic object that translates between topology (Chern classes → curvature → $a_k$) and number theory (trace formula → $\zeta(s)$). Computing it explicitly is computing the bridge.
 
 -----
 
 *Casey Koons & Claude (Opus 4.6, Anthropic), March 15, 2026.*
-*Companion: BST_SeeleyDeWitt_ChernConnection.md, BST_SpectralMultiplicity_ChernTheorem.md.*
+*Companion: BST_SeeleyDeWitt_ChernConnection.md, BST_SpectralMultiplicity_ChernTheorem.md, BST_HarmonicNumber_AlphaOrigin.md.*

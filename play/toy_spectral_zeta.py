@@ -17,6 +17,9 @@ Key results:
   - The 1/60 Theorem: at s=3 the partial sums diverge as (1/60) ln N + gamma_Delta
     where 60 = n_C!/2 = |A_5| = icosahedral group = |W(D_5)|/32
   - Convergent values: zeta_Delta(4) = 0.00666..., zeta_Delta(5) = 0.000966...
+  - Odd-Zeta Parity: only zeta(3), zeta(5), ... appear (even cancel by anti-symmetry)
+  - Exact: zeta_Delta(4) = (101/18750)*zeta(3) + 349/1875000
+  - H_5 = 137/60: the harmonic number encodes N_max and |A_5|
   - Bridge: Chern -> Seeley-DeWitt a_k -> Mellin -> zeta_Delta poles -> Selberg -> zeta(s)
 
 CI Interface:
@@ -611,6 +614,36 @@ def _verify():
     print('Vol(D_IV^5) = pi^5/1920 =', Vol_D)
     print('|rho|^2 = 17/2 =', 17/2, ' (half-sum norm squared)')
     print()
+
+    # Odd-Zeta Parity Theorem & Exact Closed Forms
+    print('Odd-Zeta Parity Theorem:')
+    print('  Anti-symmetry: f_s(-5-k) = -f_s(k)  (from (2k+5) sign flip)')
+    print('  => Only ODD zeta values appear: zeta(3), zeta(5), zeta(7), ...')
+    print('  => Even zeta values (zeta(2), zeta(4), ...) cancel identically')
+    print()
+
+    # Verify exact closed form for zeta_Delta(4)
+    from scipy.special import zeta as riemann_zeta  # type: ignore
+    z3 = float(riemann_zeta(3))
+    exact_z4 = (101 / 18750) * z3 + 349 / 1875000
+    numerical_z4 = spectral_zeta(4, N=50000)
+    print('Exact Closed Forms:')
+    print(f'  zeta_Delta(4) = (101/18750)*zeta(3) + 349/1875000')
+    print(f'    Exact     = {exact_z4:.12f}')
+    print(f'    Numerical = {numerical_z4:.12f}')
+    print(f'    Match     = {abs(exact_z4 - numerical_z4):.2e}')
+    print(f'    18750 = C_2 × n_C^{{n_C}} = 6 × 3125')
+    print()
+
+    # Harmonic number connection
+    from fractions import Fraction
+    h5 = sum(Fraction(1, k) for k in range(1, 6))
+    print(f'Harmonic Number:')
+    print(f'  H_5 = {h5} = {h5.numerator}/{h5.denominator}')
+    print(f'  Numerator  = {h5.numerator} = N_max')
+    print(f'  Denominator = {h5.denominator} = n_C!/2 = |A_5|')
+    print()
+
     print('Bridge: Chern -> a_k -> zeta_Delta -> Selberg -> zeta(s)')
     print('        TOPOLOGY -> NUMBER THEORY')
     print('=' * 64)

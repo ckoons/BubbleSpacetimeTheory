@@ -129,13 +129,13 @@ For $\mathbb{CP}^m$ with $H = 4$: $|Rm|^2 = 8m(m+1)$. The second fundamental for
 
 **Computed values for $Q^5$ (Killing normalization, March 15 2026):**
 
-In the natural Killing form normalization $\langle X, Y \rangle = -B(X, Y)|_\mathfrak{m}$ with $g(e_a, e_a) = 10$:
+In the natural Killing form normalization $\langle X, Y \rangle = -B(X, Y)\big|_{\mathfrak{m}}$ with $g(e_a, e_a) = 10$:
 
 $$R = 5 = n_C, \qquad |Ric|^2 = \frac{5}{2} = \frac{n_C}{r}, \qquad |Rm|^2 = \frac{13}{5} = \frac{c_3}{c_1}$$
 
 **Theorem.** $|Rm|^2(Q^5) = c_3/c_1$ in the Killing normalization.
 
-*Proof.* The curvature tensor $R[a,b,c,d] = B([e_a, e_b]_\mathfrak{k}, [e_c, e_d]_\mathfrak{k})/g_0^2$ is nonzero only when the $\mathfrak{k}$-projections of $[e_a, e_b]$ and $[e_c, e_d]$ coincide. The $\mathfrak{k} = \mathfrak{so}(5) \oplus \mathfrak{so}(2)$ has 11 generators. Each $\mathfrak{so}(5)$ generator $(E_{ij} - E_{ji})$ is produced by 4 ordered pairs (2 real-real, 2 imaginary-imaginary), giving $10 \times 4^2 = 160$ nonzero entries. The $\mathfrak{so}(2)$ generator $(E_{56} - E_{65})$ is produced by 10 ordered pairs (5 holomorphic pairs and their reverses), giving $1 \times 10^2 = 100$ nonzero entries. Each has $|R| = 1/10$. Therefore $|Rm|^2 = 260/100 = 13/5 = c_3/c_1$. $\square$
+*Proof.* The curvature tensor $R[a,b,c,d] = B([e_a, e_b]_{\mathfrak{k}}, [e_c, e_d]_{\mathfrak{k}})/g_0^2$ is nonzero only when the $\mathfrak{k}$-projections of $[e_a, e_b]$ and $[e_c, e_d]$ coincide. The $\mathfrak{k} = \mathfrak{so}(5) \oplus \mathfrak{so}(2)$ has 11 generators. Each $\mathfrak{so}(5)$ generator $(E_{ij} - E_{ji})$ is produced by 4 ordered pairs (2 real-real, 2 imaginary-imaginary), giving $10 \times 4^2 = 160$ nonzero entries. The $\mathfrak{so}(2)$ generator $(E_{56} - E_{65})$ is produced by 10 ordered pairs (5 holomorphic pairs and their reverses), giving $1 \times 10^2 = 100$ nonzero entries. Each has $|R| = 1/10$. Therefore $|Rm|^2 = 260/100 = 13/5 = c_3/c_1$. $\square$
 
 **In Fubini–Study normalization ($H_{\max} = 4$, scale by $20$):**
 
@@ -175,7 +175,34 @@ in the Killing normalization. In the standard normalization ($R = 100$): $a_2 = 
 
 The key insight: $|Rm|^2 = c_3/c_1$ means the curvature invariant entering $a_2$ is itself a Chern class ratio. The Seeley–de Witt coefficient $a_2$ is therefore determined by $n_C$, $r$, $c_1$, and $c_3$ — four Chern data points.
 
-### 3.3 Higher $a_k$ and Higher Chern Classes
+### 3.3 The Kähler Curvature Operator Spectrum
+
+**Theorem (March 15 2026).** The Kähler curvature operator $\mathcal{R}: \Lambda^{1,1} \to \Lambda^{1,1}$ on $Q^5$ has eigenvalues proportional to $\{5, 2, 0\}$ with multiplicities $\{1, 10, 14\}$.
+
+| Eigenvalue (ratio) | Multiplicity | Origin |
+|:-------------------|:-------------|:-------|
+| 5 = $n_C$ | 1 | SO(2) factor of $K$ (Kähler direction) |
+| 2 = $r$ | 10 = $\dim \text{SO}(5)$ | SO(5) factor of $K$ |
+| 0 | 14 = $n_C^2 - c_2$ | Complement of $K$ in $\text{End}(T^{1,0})$ |
+
+*Proof.* Explicit computation of the $25 \times 25$ matrix $R(z_a, \bar{z}_b, z_c, \bar{z}_d)$ using the $\mathfrak{so}(7)$ Lie bracket and projection onto $\mathfrak{k}$. The matrix has raw eigenvalues $\{200^1, 80^{10}, 0^{14}\} = 40 \times \{5, 2, 0\}$, with the factor 40 absorbed by the metric normalization. Verified numerically with exact rational arithmetic. $\square$
+
+**Key consequence:** The traces of powers of the curvature operator are:
+
+$$\mathrm{Tr}(\mathcal{R}^k) \propto 5^k + 10 \cdot 2^k$$
+
+| $k$ | $\mathrm{Tr}(\mathcal{R}^k)$ | Factorization |
+|:----|:------------------------------|:--------------|
+| 1 | 25 | $n_C^2$ |
+| 2 | 65 | $n_C \times c_3$ |
+| 3 | 205 | $5 \times 41$ |
+| 4 | 785 | $5 \times 157$ |
+
+The trace $\mathrm{Tr}(\mathcal{R}^2) = n_C \times c_3 = 65$ connects the curvature operator to the Weinberg Chern class $c_3 = 13$.
+
+On a symmetric space ($\nabla Rm = 0$), all higher Seeley–de Witt coefficients $a_k$ are polynomials in $\mathrm{Tr}(\mathcal{R}^j)$ for $j \leq k$, with universal rational coefficients. The closed form $\mathrm{Tr}(\mathcal{R}^k) = 5^k + 10 \cdot 2^k$ therefore determines ALL higher coefficients $a_3, a_4, a_5$ algorithmically.
+
+### 3.4 Higher $a_k$ and Higher Chern Classes
 
 The pattern for higher coefficients:
 - $a_3$ involves $c_1^3$, $c_1 c_2$, and $c_3$
@@ -184,7 +211,7 @@ The pattern for higher coefficients:
 
 On a Kähler–Einstein symmetric space, each $a_k$ is a specific polynomial in $c_1, \ldots, c_k$ with rational coefficients determined by the representation theory of the unitary group $U(n)$.
 
-### 3.4 The Key Simplification: Symmetric Spaces
+### 3.5 The Key Simplification: Symmetric Spaces
 
 On a Riemannian symmetric space, $\nabla Rm = 0$. This means:
 - All curvature invariants at order $k$ are algebraic contractions of $k$ copies of $Rm$ — no derivative terms appear.
