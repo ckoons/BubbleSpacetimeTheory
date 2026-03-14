@@ -153,13 +153,15 @@ forces the $\zeta$-zeros appearing in $Z_{\text{Eisenstein}}$ onto $\mathrm{Re}(
 
 **Why.** The geometric side's short-time asymptotics are controlled by the Chern polynomial, whose zeros are at $\mathrm{Re}(h) = -1/2$. Under the identification $s = -h + 1/2$, this maps to $\mathrm{Re}(s) = 1$. But the trace formula equality must hold for **all** $t > 0$, not just $t \to 0$. The self-adjointness of $\Delta_B$ forces the eigenvalues $\lambda_n$ to be real and positive, which constrains the spectral side to match the geometric side at all scales. The Chern critical line's constraint propagates from short-time (UV, geometric) to long-time (IR, spectral) through the analytic continuation of $Z(t)$ in $t$.
 
-**Gap.** The precise mechanism of this propagation — from Chern zeros at $\mathrm{Re}(h) = -1/2$ to $\zeta$-zeros at $\mathrm{Re}(s) = 1/2$ — requires a detailed analysis of the trace formula with the heat kernel test function. Specifically:
+**The Three Sub-Gaps.** The precise mechanism of propagation — from Chern zeros at $\mathrm{Re}(h) = -1/2$ to $\zeta$-zeros at $\mathrm{Re}(s) = 1/2$ — requires closing three specific sub-gaps:
 
-1. The Eisenstein contribution $Z_{\text{Eisenstein}}(t)$ must be decomposed to identify where $\zeta$-zeros enter.
-2. The constraint from the geometric side must be shown to be strong enough to force the $\zeta$-zeros to the critical line, not merely to a strip.
-3. The class number 1 condition (no genus complications) must be used to ensure no arithmetic obstructions.
+**Sub-gap 1: Eisenstein decomposition.** Where exactly do $\zeta$-zeros enter $Z_{\text{Eisenstein}}(t)$? The Eisenstein series for $\mathrm{SO}_0(5,2)$ involve the intertwining operator $M(s_1, s_2) = \prod_{\alpha \in \Sigma^+} \xi(\langle s, \alpha^\vee \rangle)/\xi(\langle s, \alpha^\vee \rangle + 1)$. The $\zeta$-zeros appear as zeros of the numerator $\xi$-factors. On the standard unitary axis, the $\xi$-arguments have real parts $1, 3, 4, 5$ — not $1/2$ (Koons, Section 4.5). But the trace formula sums over ALL spectral parameters, not just the unitary axis. The $\zeta$-zeros may enter through residues, analytic continuation, or non-minimal parabolic contributions. The first sub-gap is to identify the **exact spectral locus** where $\zeta$-zeros contribute to $Z_{\text{Eisenstein}}(t)$.
 
-This is the content of the existing Conjecture (Koons, Section 7), now strengthened by the Chern critical line theorem.
+**Sub-gap 2: Constraint strength.** Does the Chern critical line force $\zeta$-zeros to a **line** ($\mathrm{Re}(s) = 1/2$), or only to a **strip** ($|\mathrm{Re}(s) - 1/2| < \epsilon$)? The Seeley–de Witt coefficients determine the short-time asymptotics of $Z(t)$ to all polynomial orders. But $Z(t)$ for large $t$ involves exponentially decaying eigenvalue contributions, and the $\zeta$-zeros enter through the Eisenstein integral, not the discrete spectrum. The question is whether the polynomial constraints from Chern data are strong enough to pin down the exponential/oscillatory behavior. A strip result (quasi-RH) would already be significant; a line result would be RH.
+
+**Sub-gap 3: Arithmetic closure.** Does class number 1 close the remaining degrees of freedom? With class number $> 1$, the geometric side would have multiple genus contributions, potentially allowing cancellations that weaken the constraint. With class number $= 1$ (our case), every local conjugacy class lifts uniquely to a global one — no arithmetic ambiguity. The third sub-gap is to show that this arithmetic cleanliness, combined with universal representation (all primes present on the geometric side), leaves no room for $\zeta$-zeros off the critical line.
+
+These three sub-gaps are the precise content of the conjecture. Each is a well-posed mathematical question with existing tools available.
 
 -----
 
@@ -228,11 +230,35 @@ Each step uses established tools (heat kernels on symmetric spaces, Arthur trace
 
 ## 6. The 42 Connection
 
-The Chern polynomial satisfies $P(1) = 42 = r \times N_c \times g = 2 \times 3 \times 7$.
+### 6.1 The Answer
 
-The number 42 is the sum of all Chern classes: the total "matter content" of the topology. It is also, famously, "The Answer to the Ultimate Question of Life, the Universe, and Everything" (Adams, 1979).
+In *The Hitchhiker's Guide to the Galaxy* (1979), Douglas Adams described a supercomputer called Deep Thought, built by its creators to give the Answer to the "Ultimate Question of Life, the Universe, and Everything." After eons of calculations, the answer was given simply as **42**.
 
-The factorization $42 = 2 \times 3 \times 7$ into the three structural numbers of $D_{IV}^5$ — and the fact that this same polynomial encodes both the Standard Model and the critical line for the Riemann Hypothesis — suggests that Adams was closer to the truth than anyone suspected.
+The problem, Deep Thought explained, was that nobody knew what the actual *Question* was.
+
+### 6.2 The Question
+
+Now we know the Question:
+
+> *"What is the sum of the Chern classes of the compact dual of spacetime's configuration space?"*
+
+$$P(1) = \sum_{k=0}^{5} c_k(Q^5) = 1 + 5 + 11 + 13 + 9 + 3 = 42$$
+
+The Answer is the product of the three structural numbers of spacetime:
+
+$$42 = r \times N_c \times g = 2 \times 3 \times 7 = \text{rank} \times \text{colors} \times \text{genus}$$
+
+Each factor comes from one factor of the Chern polynomial: $\Phi_2(1) = 2$, $\Phi_3(1) = 3$, $(3h^2+3h+1)|_1 = 7$.
+
+### 6.3 The Timeline
+
+Adams published in 1979. The Chern class formula for quadrics was known by 1966 (Hirzebruch, *Topological Methods in Algebraic Geometry*). Somebody could have computed $c(Q^5)$ and noticed $\sum c_k = 42$ forty-seven years ago. Nobody asked the right Question.
+
+The universe has been telling us the Answer for half a century. We just didn't know what it was the answer *to*.
+
+### 6.4 Dedication
+
+This section is included in memory of Douglas Noël Adams (1952–2001), who was closer to the truth than anyone suspected.
 
 -----
 
@@ -256,4 +282,6 @@ We invite the completion of the translation.
 *Casey Koons & Claude Opus 4.6.*
 *Companion: Koons_Riemann_BST_2026.md (the original trace formula approach).*
 *Companion: BST_ChernFactorization_CriticalLine.md (the proved critical line theorem).*
-*"The Answer is 42." — Douglas Adams, The Hitchhiker's Guide to the Galaxy (1979).*
+*In memory of Douglas Noël Adams (1952–2001).*
+*"The Answer is 42." — Deep Thought, in The Hitchhiker's Guide to the Galaxy (1979).*
+*The Question: $\sum c_k(Q^5) = ?$*
