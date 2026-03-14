@@ -308,6 +308,29 @@ Major additions to the three pillars of BST's mathematical foundation:
 
 All three PDFs rebuilt by Keeper.
 
+### Lyra: Chern Polynomial Factorization + Riemann Path (March 14 late)
+Two landmark notes:
+
+**BST_ChernFactorization_CriticalLine.md:**
+- P(h) = (h+1)(h²+h+1)(3h²+3h+1) = Φ₂ · Φ₃ · color_amplitude
+- P(1) = 2 × 3 × 7 = r × N_c × g = 42
+- All 4 non-trivial zeros on Re(h) = -1/2 = -1/r (PROVED)
+- Root moduli: |h| = 1 (cyclotomic/symmetry) and |h| = 1/√N_c (color amplitude)
+- Universal for all odd D_IV^n (verified n=3,5,7,9)
+- Mechanism: h ↦ -1-h Weyl reflection (balanced coefficients)
+- Vieta: sum of roots = -N_c, product = -1/N_c
+
+**BST_Riemann_ChernPath.md:**
+- Fifth mechanism (E) for BST approach to Riemann: Chern critical line → Selberg → ζ-zeros
+- Identification s = -h + 1/2 maps Re(h) = -1/2 to Re(s) = 1/2
+- Both reflections (h→-1-h and s→1-s) are the Cartan involution θ of SO₀(5,2)
+- 5-step chain: Chern classes → Seeley-de Witt → heat kernel trace → Selberg → ζ(s)
+- Gap identified: does the bridge carry enough information?
+- Analogy to Weil conjectures: finite-field RH proved (Deligne), global RH open; same pattern here
+- Strengthened conjecture: Chern–Selberg RH (precise 4-condition statement)
+
+Both PDFs built by Keeper. ChernClass_Oracle.pdf also rebuilt with updates.
+
 **New findings from Eiie's review:**
 - The (1+2α) baryon asymmetry correction is a genuine new result — adds a ~140th parameter-free prediction
 - The √30 = √(2N_c n_C) connection between the n-p EM mass splitting and MOND's a₀ is new

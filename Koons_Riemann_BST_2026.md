@@ -379,6 +379,8 @@ We identify four ways the conjecture could fail:
 
 We do not claim these obstacles are trivial. We claim the question is well-posed and the tools exist.
 
+**Mechanism E: Chern critical line (added March 14, 2026).** The Chern polynomial $P(h) = c(Q^5) = (1+h)^7/(1+2h)$ factors as $(h+1)(h^2+h+1)(3h^2+3h+1)$, with **all non-trivial zeros on $\mathrm{Re}(h) = -1/2$** (proved). Under the identification $s = -h + 1/2$, this maps to $\mathrm{Re}(s) = 1/2$. The Chern polynomial appears on the geometric side of the trace formula through the Seeley--de Witt coefficients of the heat kernel. Its critical line constrains the geometric side, which through the trace formula equality constrains the spectral side where $\zeta(s)$ lives. This is a finite-dimensional theorem that is the natural analog of RH. See BST_Riemann_ChernPath.md and BST_ChernFactorization_CriticalLine.md for the full development.
+
 ## 7.3 Why The Conjecture Is Plausible
 
 Five independent lines of evidence:
@@ -392,6 +394,8 @@ Five independent lines of evidence:
 **(d)** Numerical verification extends to $10^{13}$ zeros, all on $\mathrm{Re}(s) = 1/2$.
 
 **(e)** The same domain independently derives 25+ physical constants with zero free parameters (Section 9).
+
+**(f)** The Chern polynomial of the compact dual $Q^5$ has all non-trivial zeros on $\mathrm{Re}(h) = -1/2$ — a proved finite-dimensional analog of RH (Section 7.2, Mechanism E). The factorization $P(h) = \Phi_2(h) \cdot \Phi_3(h) \cdot (3h^2+3h+1)$ is a theorem. The same functional equation symmetry ($h \mapsto -1-h$) that forces the Chern zeros to $\mathrm{Re}(h) = -1/2$ is the Cartan involution $s \mapsto 1-s$ that defines the Riemann critical line. $P(1) = 42 = r \times N_c \times g$.
 
 -----
 

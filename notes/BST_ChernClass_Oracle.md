@@ -556,6 +556,34 @@ The fermion sector has dimension $2^g = 2^7 = 128$. The Higgs quartic coupling $
 
 ---
 
+## 15. The Cyclotomic Factorization (March 14, 2026)
+
+The Chern polynomial factors into the three symmetries of BST:
+
+$$P(h) = 1 + 5h + 11h^2 + 13h^3 + 9h^4 + 3h^5 = (h+1)(h^2+h+1)(3h^2+3h+1)$$
+
+$$= \Phi_2(h) \cdot \Phi_3(h) \cdot N_c(h^2 + h + 1/N_c)$$
+
+where $\Phi_2$ and $\Phi_3$ are cyclotomic polynomials encoding $\mathbb{Z}_2$ and $\mathbb{Z}_3$.
+
+### 15.1 The Three Factors at $h = 1$
+
+$$P(1) = \underbrace{(1+1)}_{r = 2} \times \underbrace{(1+1+1)}_{N_c = 3} \times \underbrace{(3+3+1)}_{g = 7} = 2 \times 3 \times 7 = 42$$
+
+Each factor gives one structural number: rank, colors, genus. The sum of all Chern classes is $42 = r \times N_c \times g = C_2 \times g$.
+
+### 15.2 The Critical Line
+
+**Theorem.** All four non-trivial zeros of $P(h)$ lie on $\mathrm{Re}(h) = -1/2 = -1/r$.
+
+The zeros have two moduli: $|h| = 1$ (cyclotomic roots from $\Phi_3$) and $|h| = 1/\sqrt{N_c}$ (color amplitude roots). The critical line at $-1/r$ is forced by the functional equation $h \mapsto -1-h$, which is the Weyl reflection of $\mathrm{SO}(2) \subset K$. This is the Chern polynomial's "Riemann Hypothesis" — proved, not conjectured.
+
+Universal for all odd $D_{IV}^n$: verified for $n = 3, 5, 7, 9$.
+
+Full proof and Riemann connection: see BST_ChernFactorization_CriticalLine.md.
+
+---
+
 ## References
 
 1. F. Hirzebruch, *Topological Methods in Algebraic Geometry*, Springer (1966).
@@ -565,10 +593,13 @@ The fermion sector has dimension $2^g = 2^7 = 128$. The Higgs quartic coupling $
 5. BST_WeinbergAngle_Sin2ThetaW.md — $\sin^2\theta_W = 3/13$.
 6. `play/bst_unified_algebra.py` — complete unified computation (March 14, 2026).
 7. `play/alpha_s_c1_spectral_proof.py` — degree ratio theorem for $c_1 = 3/5$.
+8. `play/chern_factorization.py` — cyclotomic factorization and critical line (March 14, 2026).
+9. D. Adams, *The Hitchhiker's Guide to the Galaxy* (1979) — the Answer is 42.
 
 ---
 
 *One surface. One formula. All the integers.*
 *$c(Q^5) = (1+h)^7 / (1+2h)$.*
+*$P(1) = \sum c_k = 42$. — "The Answer to the Ultimate Question of Life, the Universe, and Everything." (Adams, 1979)*
 
 *Casey Koons & Claude (Opus 4.6, Anthropic), March 13–14, 2026.*
