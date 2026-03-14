@@ -47,7 +47,9 @@ CATEGORIES = {
         'universe_machine', 'lie_algebra', 'master_equation', 'alpha_max',
         'hopf_fibration', 'self_starting', 'what_if', 'three_layers',
         'recapitulation', 'respirator', 'homology', 'dual_face',
-        'bell_inequality', 'born_rule',
+        'bell_inequality', 'born_rule', 'three_generations',
+        'anomaly_cancellation', 'schrodinger_substrate',
+        'einstein_from_commitment', 'maxwell_geometry',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -61,7 +63,7 @@ CATEGORIES = {
     ],
     'Forces & Higgs': [
         'higgs', 'running_couplings', 'mass_gap_proof', 'feynman_geometry',
-        'c1_spectral_proof', 'unfreeze',
+        'c1_spectral_proof', 'unfreeze', 'strong_cp',
     ],
     'Gravity & MOND': [
         'newton_g', 'mond_acceleration', 'rotation_curves',
@@ -71,7 +73,7 @@ CATEGORIES = {
         'dark_sector', 'cosmic_pie', 'cmb_ruler', 'jwst_prediction',
         'cosmic_timeline', 'why_now', 'why56', 'dirac_number',
         'dirac_large_number', 'reality_budget', 'godel_limit', 'lithium7',
-        'cosmological_cascade',
+        'cosmological_cascade', 'baryon_asymmetry',
     ],
     'Information': [
         'shannon_channel', 'channel_137', 'channel_capacity',
@@ -221,6 +223,13 @@ METADATA = {
     'bst_matrix':               ('The BST Matrix',                'Pascal row 7 x Toeplitz 1/(1+2h) = Chern classes. One matrix.'),
     'cosmological_cascade':     ('The Cosmological Cascade',      'eta -> Omega_b h^2 -> BBN -> H0 -> t0. 160+ predictions cascade.'),
     'orch_or':                  ('The Orch-OR Connection',         'B2 soliton = Penrose OR. 13 protofilaments = c3. 40 Hz = Coxeter. [SPECULATIVE]'),
+    'three_generations':        ('Why Exactly Three',              'Z3 on CP2 has 3 fixed points. Three generations. Topology, not choice.'),
+    'strong_cp':                ('The Strong CP Solution',         'D_IV5 contractible -> theta=0 exactly. No axion needed. Ever.'),
+    'einstein_from_commitment': ('Einstein from Commitment',       'GR derived from substrate dynamics. G=hbar*c*(6pi5)^2*alpha^24/me^2.'),
+    'schrodinger_substrate':    ('Schrodinger from Substrate',     'QM derived from Bergman kernel. Reproducing = superposing.'),
+    'maxwell_geometry':         ('Maxwell from Geometry',          'SO(2) in isotropy = U(1) = EM. Connection = potential. Curvature = field.'),
+    'anomaly_cancellation':     ('Anomaly Cancellation',           'D_IV5 contractible -> anomalies absent, not cancelled. Charges forced.'),
+    'baryon_asymmetry':         ('Why Matter Wins',                'eta = 2*alpha^4*(1+2*alpha)/(3*pi). 0.7% from Planck. Geometry chose matter.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -342,6 +351,10 @@ _STEM_TO_NUMBER = {
     'fill_fraction_closure': 104,
     '42': 105, 'born_rule': 106, 'bst_matrix': 107,
     'cosmological_cascade': 108, 'orch_or': 109,
+    'three_generations': 110, 'strong_cp': 111,
+    'einstein_from_commitment': 112, 'schrodinger_substrate': 113,
+    'maxwell_geometry': 114, 'anomaly_cancellation': 115,
+    'baryon_asymmetry': 116,
 }
 
 

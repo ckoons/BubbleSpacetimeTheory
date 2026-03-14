@@ -466,7 +466,27 @@ BST makes several predictions that differ from standard QFT:
 
 **Prediction 1: Haldane saturation at extreme temperature.** The thermal Casimir force should saturate at temperatures where $k_B T \sim 138 \hbar c / d$. For $d = 1\;\mu\text{m}$, this corresponds to $T \sim 10^{10}$ K — inaccessible in the laboratory but relevant in astrophysical contexts.
 
-**Prediction 2: Phonon-gap modification.** A material with an engineered phonon bandgap (BST_SubstratePropulsion.md, Prediction 4) should exhibit a modified Casimir force compared to a normal conductor at the same separation, because the phonon gap alters the commitment coupling at the surface.
+**Prediction 2: Phonon-gap modification.** A material with an engineered phonon bandgap should exhibit a modified Casimir force compared to a normal conductor at the same separation, because the phonon gap alters the commitment coupling at the surface. This is BST's most accessible NEW prediction — testable with current technology.
+
+*Concrete experimental parameters:*
+
+The modification arises because a phonon-gapped material has frozen internal degrees of freedom in the gap frequency range. These frozen modes reduce the material's commitment coupling to the substrate, which changes the effective boundary condition from "perfect conductor" (full commitment) to "partial commitment."
+
+The predicted fractional deviation from the standard Casimir force:
+
+$$\frac{\Delta F}{F} = -\frac{\omega_{\text{gap}}}{\omega_{\text{plasma}}} \times \frac{\alpha}{2\pi}$$
+
+where $\omega_{\text{gap}}$ is the phonon gap frequency and $\omega_{\text{plasma}}$ is the electronic plasma frequency. For candidate materials:
+
+| Material | $\omega_{\text{gap}}$ (THz) | $\omega_{\text{plasma}}$ (eV) | $\Delta F/F$ | Plate separation |
+|:---|:---|:---|:---|:---|
+| Phononic crystal (Si/Ge) | 1-3 THz | ~16 eV | $\sim 10^{-7}$ | 0.5-2 μm |
+| Topological insulator (Bi₂Se₃) | 1.8 THz | ~10 eV | $\sim 2 \times 10^{-7}$ | 0.5-2 μm |
+| Metamaterial (acoustic) | 0.1-1 THz | ~15 eV | $\sim 10^{-8}$ | 1-5 μm |
+
+The key signature: the deviation is **frequency-dependent** and vanishes when the plate separation $d \gg c/\omega_{\text{gap}}$ (when the excluded Casimir modes are all above the gap). At $d \sim c/\omega_{\text{gap}} \sim 100\;\mu\text{m}$ for THz gaps, the deviation peaks.
+
+*Experimental protocol:* Compare the Casimir force between (a) two gold plates and (b) one gold plate + one phonon-gapped material plate, at separations 0.5-5 μm. The gold-gold measurement is the control. The deviation should appear as a systematic offset in the gapped-material measurement, with magnitude $\sim 10^{-7}$ of the total force. Current Casimir experiments (Lamoreaux-type) achieve $\sim 1\%$ precision; reaching $10^{-7}$ requires next-generation interferometric techniques, but the frequency-dependent signature (deviation peaks at specific $d$) provides a distinctive BST fingerprint distinguishable from systematic errors.
 
 **Prediction 3: Commitment-coupled Casimir.** In regions of different gravitational potential, the Casimir force should differ by a factor of $(1 - \rho/\rho_{137})$ from the commitment rate equation $N = N_0\sqrt{1 - \rho/\rho_{137}}$. Near Earth's surface, this correction is $\sim 10^{-9}$ — small but potentially measurable with next-generation Casimir experiments in orbit.
 
