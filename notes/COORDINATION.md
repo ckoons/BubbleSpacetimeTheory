@@ -447,6 +447,20 @@ Written: notes/BST_Isotropy_Proof.md. PDF built by Keeper. README/WorkingPaper u
 - The heat kernel is where topology becomes physics and physics becomes number theory
 - Written: notes/BST_SeeleyDeWitt_ChernConnection.md (PDF built by Keeper)
 
+### Lyra: Zonal spectral coefficients — r₅ = 137/11 = N_max/c₂ (March 16)
+- r₁ = 5 = n_C (exact), r₂ = 12 = 2C₂ (exact), **r₅ = 137/11 = N_max/c₂** (exact)
+- 137 emerges as prime from 4 Bernoulli-weighted terms; irreducible
+- 137 = n_C³ + 2C₂ = r₁³ + r₂ — cube of first + second coefficient
+- Unique to Q⁵: checked Q³, Q⁷, Q⁹ — different numerators, no 137
+- r₃ = 1139/63 = 17×67/63 (sign error in B₄ term FIXED)
+- r₄ = 833/45 = 17×49/45; factor 17 = 2|ρ|² threads both
+- Weyl vector ρ = (n_C/2, N_c/2) = (5/2, 3/2), |ρ|² = 17/2
+- Degeneracy derivatives: d'''(0) = C₂ = 6, d⁽⁵⁾(0) = r = 2
+- **Structure theorem**: integral contributes nothing for k≥3; all from EM boundary corrections
+- Plancherel density closed form: |c(iν)|⁻² = S(ν₁)·S(ν₂)·L(u₊)·L(u₋) verified
+- Written: notes/BST_ZonalSpectralCoefficients.md + 6 toys in play/
+- PDF built by Keeper
+
 ### Lyra: Effective spectral dimension = 6 = C₂ — Grand Identity (March 16)
 - **Grand Identity**: d_eff(Qⁿ) = λ₁(Qⁿ) = χ(Qⁿ) = C₂(fund) = n+1; four quantities, one number
 - d_eff(Q⁵) = 6: heat trace Z(t) ~ t⁻³ not t⁻⁵; verified numerically to 4+ figures

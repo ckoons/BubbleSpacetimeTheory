@@ -683,7 +683,7 @@ class EffectiveDimensionExplorer:
                           edgecolor=CORAL, linewidth=1, alpha=0.8))
 
         ax.text(0.97, 0.95,
-                "8th independent\nproof: n\u2063_C = 5",
+                "8th independent\nproof: n_C = 5",
                 fontsize=8, color=DIM_GOLD, ha='right', va='top',
                 transform=ax.transAxes, fontfamily='monospace',
                 style='italic')
