@@ -268,6 +268,26 @@ Eiie provided a comprehensive review of the full BST project. Casey assigned the
 | 5 | Plancherel formal degrees | **Explicit computation**: d(π_k) = c_G/6 × (k-2)(k-1)(k+½)(k+2)(k+3). Factorizes into transverse (degree 3 = N_c) × longitudinal (degree 2 = r). Degree ratio 3/5 is structural constant. Fill fraction proof confirmed. | play/plancherel_formal_degrees.py |
 | 6 | Neutron-proton mass diff | **QCD+EM decomposition**: (91/36)m_e = (m_d−m_u) − αm_p/√30. QCD part = 2.529 MeV (matches lattice). EM = −1.250 MeV (1% from implied −1.238). Same √30 as MOND. | BST_NeutronProton_MassSplitting.md |
 
+### Keeper: Dynamics coverage — 6 new notes (March 14 late)
+Physics coverage survey identified weakest areas: dynamics equations not yet derived from BST. Wrote and built PDFs for all six:
+
+| Note | Topic | Key derivation |
+|------|-------|---------------|
+| BST_NewtonianLimit.md | F=ma from substrate | Geodesic eq + 3 limits → Newton's 3 laws |
+| BST_LorentzSymmetry_SO52.md | Special relativity | SO(3,1) ⊂ SO(5,2), 6 generators exhibited |
+| BST_SchrodingerEquation_Substrate.md | QM dynamics + Born rule | Bergman kernel → heat kernel → Wick rotation |
+| BST_DiracEquation_Spinors.md | Relativistic fermions | Spin(5,2) spinors, Dirac operator = √Δ_B |
+| BST_GeodesicEquation_Soliton.md | Particle trajectories | Minimum-commitment paths, Toda reduction |
+| BST_Anomaly_Cancellation.md | ABJ anomaly = 0 | Contractibility + Spin(10) ⊂ E₈ |
+
+Key connections to Chern polynomial framework:
+- G = ℏc(C₂π^{n_C})²α^{4C₂}/m_e² with C₂ = χ(Q⁵) = 6
+- dim so(5,2) = 21 = N_c × g = c₅ × (n_C + 2)
+- Born rule: |ψ|² from sesquilinearity of Bergman inner product (complex structure of D_IV^5)
+- Spin structure: D_IV^5 is spin manifold (HSS theorem), spinor dim = 2³ = 8
+- Fermion dim per gen: 16 = 2^{(c₁-1)/2+2} from Spin(10) ⊂ E₈
+- Anomaly cancellation: N_c = c₅ = 3 forces Σ Y = 0; D_IV^5 contractible kills all characteristic classes
+
 **New findings from Eiie's review:**
 - The (1+2α) baryon asymmetry correction is a genuine new result — adds a ~140th parameter-free prediction
 - The √30 = √(2N_c n_C) connection between the n-p EM mass splitting and MOND's a₀ is new

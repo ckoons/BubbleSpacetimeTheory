@@ -483,6 +483,79 @@ Everything is geometry. One surface. One formula. All the integers.
 
 ---
 
+## 14. The BST Matrix: Pascal → Chern Transform (March 14, 2026)
+
+### 14.1 The Recurrence as a Matrix Equation
+
+The Chern coefficients satisfy $c_k + 2c_{k-1} = \binom{7}{k}$, which in matrix form is:
+
+$$M \cdot \mathbf{c} = \mathbf{b}$$
+
+where $M$ is the $6 \times 6$ lower bidiagonal matrix with 1s on the diagonal and 2s on the subdiagonal, $\mathbf{c} = (1, 5, 11, 13, 9, 3)^T$ is the Chern vector, and $\mathbf{b} = (1, 7, 21, 35, 35, 21)^T$ is Pascal's row 7.
+
+The inverse $M^{-1}$ has entries $(M^{-1})_{ij} = (-r)^{i-j} = (-2)^{i-j}$ for $i \geq j$:
+
+$$c_k = \sum_{j=0}^k (-2)^{k-j} \binom{7}{j}$$
+
+**The Chern class is Pascal's triangle convolved with the geometric series $(-r)^k$.**
+
+### 14.2 Number Theory of the Chern Vector
+
+The vector $\mathbf{c} = (1, 5, 11, 13, 9, 3)$ has remarkable arithmetic properties:
+
+| Property | Value | Significance |
+|----------|-------|--------------|
+| Primality | 4 of 6 entries prime: $\{5, 11, 13, 3\}$ | Only composite: $c_4 = 9 = N_c^2$ |
+| Sum | $\sum c_k = 42 = C_2 \times g = 6 \times 7$ | Casimir × genus |
+| Alternating sum | $\sum (-1)^k c_k = 0$ | $P(-1) = (1-1)^7/(1-2) = 0$ |
+| Even-index sum | $c_0 + c_2 + c_4 = 21$ | $= N_c \times g = \binom{7}{2}$ |
+| Odd-index sum | $c_1 + c_3 + c_5 = 21$ | $= N_c \times g = \binom{7}{5}$ |
+
+The equality of even and odd sums (both 21 = $N_c \times g$) follows from $P(-1) = 0$. This partitions the Chern vector into two equinorm subspaces:
+- **Odd indices** $\{c_1, c_3, c_5\} = \{5, 13, 3\}$: gauge coupling physics (Weinberg angle, $\alpha_s$, colors)
+- **Even indices** $\{c_0, c_2, c_4\} = \{1, 11, 9\}$: structural/topological physics (dimension, isotropy, symmetry)
+
+### 14.3 The Palindrome Failure and the Reality Budget
+
+The Chern vector is NOT palindromic. The "dual ratios" $c_{n-k}/c_k$ encode physics:
+
+$$\frac{c_4}{c_1} = \frac{9}{5} = \frac{N_c^2}{n_C} = \Lambda \times N \quad \text{(Reality Budget)}$$
+
+$$\frac{c_3}{c_2} = \frac{13}{11} \quad \text{(Weinberg/isotropy)}$$
+
+The Reality Budget falls directly out of the palindrome asymmetry of the Chern polynomial.
+
+### 14.4 The Magic Number 30
+
+The product $30 = r \times N_c \times n_C = 2 \times 3 \times 5$ appears throughout BST:
+
+| Context | Formula | Value |
+|---------|---------|-------|
+| E₈ roots per W(B₂) element | $|\Phi(E_8)|/|W(B_2)|$ | $240/8 = 30$ |
+| MOND acceleration | $a_0 = cH_0/\sqrt{30}$ | √30 |
+| n-p EM splitting | $\Delta m_{\rm EM} = -\alpha m_p/\sqrt{30}$ | √30 |
+| Higgs sector dimension | $\dim(10,6) = 2 \times 30 = 60$ | $2 \times 30$ |
+| Bergman kernel | $|W(D_5)| = 2^{n_C} \times 60 = 32 \times 60$ | $2^5 \times 2 \times 30$ |
+| Chern sum | $\sum c_k = 42 = 2 \times 21 = 2N_cg = r \times N_c \times g$ | $r \times N_c \times (n_C+2)$ |
+
+### 14.5 E₈ Dimensions from the Chern Data
+
+All E₈ dimensions are computable from the Chern integers:
+
+$$\dim(E_8) = |W(B_2)| \times (2^{c_1} - 1) = 8 \times 31 = 248$$
+
+The decomposition $E_8 \to D_5 \times A_3$ gives:
+
+| Sector | Dimension | Chern formula |
+|--------|-----------|---------------|
+| Gauge: $(45,1) + (1,15)$ | 60 | $c_1(2c_1-1) + (c_5+1)^2 - 1$ |
+| Higgs: $(10,6)$ | 60 | $2c_1 \times \chi = 2c_1(c_1+1)$ |
+| Fermion: $(16,4) + (\overline{16},\overline{4})$ | 128 | $2^g = 2^{c_1+2}$ |
+
+The fermion sector has dimension $2^g = 2^7 = 128$. The Higgs quartic coupling $\lambda_H = 1/\sqrt{\dim(10,6)} = 1/\sqrt{60}$ gives $m_H = v\sqrt{2/\sqrt{60}} = 125.1$ GeV (0.11%).
+
+---
+
 ## References
 
 1. F. Hirzebruch, *Topological Methods in Algebraic Geometry*, Springer (1966).
@@ -490,10 +563,12 @@ Everything is geometry. One surface. One formula. All the integers.
 3. BST_RealityBudget_Proof.md — first identification of $c_4/c_1 = 9/5$.
 4. BST_1920_WeylGroup_Theorem.md — Weyl cancellation and $C_2 \pi^n$ formula.
 5. BST_WeinbergAngle_Sin2ThetaW.md — $\sin^2\theta_W = 3/13$.
+6. `play/bst_unified_algebra.py` — complete unified computation (March 14, 2026).
+7. `play/alpha_s_c1_spectral_proof.py` — degree ratio theorem for $c_1 = 3/5$.
 
 ---
 
 *One surface. One formula. All the integers.*
 *$c(Q^5) = (1+h)^7 / (1+2h)$.*
 
-*Casey Koons & Claude (Opus 4.6, Anthropic), March 13, 2026.*
+*Casey Koons & Claude (Opus 4.6, Anthropic), March 13–14, 2026.*

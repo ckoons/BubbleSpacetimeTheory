@@ -1,7 +1,7 @@
 ---
 title: "Linear Algebra Is Physics: The BST Dictionary"
 author: "Casey Koons and Claude Opus 4.6"
-date: "March 13, 2026 (revised)"
+date: "March 14, 2026 (revised)"
 ---
 
 # Linear Algebra Is Physics
@@ -435,11 +435,116 @@ A hypothetical course: "Linear Algebra of the Physical Constants."
 
 -----
 
-## 15. Summary
+-----
+
+# Part IV: The BST Matrix and Spectral Structure
+
+## 15. The BST Matrix: Pascal $\to$ Chern
+
+All BST integers emerge from one polynomial:
+
+$$P(h) = \frac{(1+h)^7}{1+2h} = 1 + 5h + 11h^2 + 13h^3 + 9h^4 + 3h^5$$
+
+The coefficients define the **Chern vector** $\mathbf{c} = (1, 5, 11, 13, 9, 3)$. This vector is obtained from Pascal's triangle by a matrix transformation.
+
+### 15.1 The Transform
+
+Let $\mathbf{b} = \binom{7}{1}, \binom{7}{2}, \ldots, \binom{7}{6}) = (7, 21, 35, 35, 21, 7)$ be the interior of row 7 of Pascal's triangle. Let $M$ be the $6 \times 6$ lower bidiagonal matrix:
+
+$$M = \begin{pmatrix} 1 & & & & & \\ 2 & 1 & & & & \\ & 2 & 1 & & & \\ & & 2 & 1 & & \\ & & & 2 & 1 & \\ & & & & 2 & 1 \end{pmatrix}$$
+
+Then:
+
+$$M \cdot \mathbf{c} = \mathbf{b}$$
+
+The Chern vector solves $\mathbf{c} = M^{-1} \mathbf{b}$, where:
+
+$$M^{-1}_{ij} = (-2)^{i-j} \quad (i \geq j), \qquad 0 \quad (i < j)$$
+
+This is a **lower-triangular Toeplitz matrix** with entries that are signed powers of 2. The transformation from Pascal's binomial coefficients to BST's Chern integers is pure linear algebra — no physics input beyond the two integers 7 (the genus) and 2 (the rank of the restricted root system $B_2$).
+
+### 15.2 The Chern Vector Space
+
+The Chern vector $\mathbf{c} \in \mathbb{R}^6$ decomposes into even-indexed and odd-indexed subspaces:
+
+$$\mathbf{c}_{\text{even}} = (c_0, c_2, c_4) = (1, 11, 9), \quad |\mathbf{c}_{\text{even}}|_1 = 21 = N_c \times g$$
+$$\mathbf{c}_{\text{odd}} = (c_1, c_3, c_5) = (5, 13, 3), \quad |\mathbf{c}_{\text{odd}}|_1 = 21 = N_c \times g$$
+
+The $L^1$-norms are equal: this follows from $P(-1) = 0$. The total $L^1$-norm is $|\mathbf{c}|_1 = 42 = C_2 \times g$. The parity decomposition of the Chern vector mirrors the matter-vacuum decomposition of physics: even classes carry geometric (curvature) information, odd classes carry topological (fiber) information.
+
+The **palindrome defect** — $\mathbf{c}$ reversed is $(3, 9, 13, 11, 5, 1) \neq \mathbf{c}$ — encodes the Reality Budget:
+
+$$\frac{c_4}{c_1} = \frac{9}{5} = \Lambda \times N_{\text{total}}$$
+
+A perfectly palindromic Chern vector would describe a self-dual geometry with equal matter and vacuum content. The asymmetry $c_4/c_1 = 9/5 > 1$ quantifies how much the universe's geometry exceeds its matter content.
+
+## 16. The $c_1 = 3/5$ Degree Ratio Theorem
+
+The NLO beta function coefficient $c_1$ is a statement about polynomial degrees — the most basic invariant in linear algebra.
+
+### 16.1 Statement
+
+The formal degree of the holomorphic discrete series $\pi_k$ of $\mathrm{SO}_0(5,2)$ is:
+
+$$d(\pi_k) = \frac{(k-2)(k-1)(2k+1)(k+2)(k+3)}{12}$$
+
+This degree-5 polynomial factors into two pieces corresponding to the restricted root system $B_2$:
+
+$$d_{\text{trans}}(k) = (k-2)(k-1)(k+\tfrac{1}{2}) \quad [\text{degree } 3 = N_c]$$
+$$d_{\text{long}}(k) = (k+2)(k+3) \quad [\text{degree } 2 = r]$$
+
+**Theorem.** $\deg(d_{\text{trans}}) / \deg(d_{\text{total}}) = N_c / n_C = 3/5$.
+
+### 16.2 The UV Limit
+
+The logarithmic derivative ratio:
+
+$$f_{\text{color}}(k) = \frac{d \ln d_{\text{trans}}/dk}{d \ln d_{\text{total}}/dk} = \frac{\sum_{i=1}^{3} 1/(k - a_i)}{\sum_{j=1}^{5} 1/(k - b_j)}$$
+
+converges to $3/5$ as $k \to \infty$: each term $1/(k-a_i) \to 1/k$, and the ratio of numerator ($3/k$) to denominator ($5/k$) is $3/5$.
+
+This is the spectral proof that the color fraction of spectral curvature loading equals $N_c/n_C$. The identification $c_1 = N_c/n_C$ uses the standard BST axiom (transverse roots $\leftrightarrow$ color). The mathematical content — the degree ratio — is a theorem of $\mathrm{SO}_0(5,2)$ representation theory.
+
+## 17. E₈ from Linear Algebra
+
+The exceptional Lie algebra $E_8$ is encoded in BST integers through linear algebra.
+
+### 17.1 Dimension Formula
+
+$$\dim(E_8) = |W(B_2)| \times (2^{n_C} - 1) = 8 \times 31 = 248$$
+
+where $|W(B_2)| = 8$ is the order of the Weyl group of the restricted root system, and $2^{n_C} - 1 = 31$ is a Mersenne prime.
+
+### 17.2 The 248 Decomposition
+
+$$248 = 120 + 128 = n_C! + 2^g$$
+
+- $120 = n_C! = |S_5|$: the adjoint representation → the permutation group on $n_C$ objects
+- $128 = 2^g = 2^7$: the half-spin representation → the sign choices on $g$ topological directions
+
+Alternatively:
+
+$$248 = 60 + 60 + 128 = 2n_C \cdot C_2 + |A_5| + 2^g$$
+
+The three summands correspond to three sectors of the $E_8 \to D_5 \times A_3$ decomposition: the $(10,6)$ Higgs sector, the $(10',6')$ conjugate, and the $(16,4)$ spinor.
+
+### 17.3 Root Count
+
+$$|\Phi(E_8)| = 240 = \frac{|W(D_{n_C})|}{|W(B_2)|} = \frac{1920}{8}$$
+
+The number of $E_8$ roots equals the ratio of the Weyl group of $D_5$ (= the BST symmetry group of order 1920) to the restricted Weyl group of $B_2$. This is a linear algebra statement: the root system of $E_8$ is the orbit space of the BST symmetry group modulo the restricted symmetry.
+
+### 17.4 Generation Count
+
+$$N_{\text{gen}} = \frac{|W(A_3)|}{|W(B_2)|} = \frac{24}{8} = 3$$
+
+The number of fermion generations equals the ratio of two Weyl group orders — a pure index computation. $W(A_3) \cong S_4$ is the symmetric group on 4 objects (the $A_3$ factor in $E_8 \to D_5 \times A_3$), and $|W(B_2)| = 8$ is the restricted Weyl group.
+
+## 18. Summary
 
 $$\boxed{\text{Physics} = \text{Linear algebra on } D_{IV}^5}$$
 
-Over 100 parameter-free predictions from eight operations:
+Over 140 parameter-free predictions from ten operations:
 - **Eigenvalues** of three operators ($Z_3$, Casimir, Winding)
 - **Dimension ratios** of subspaces ($3/10$, $3/13$, $7/20$, $13/19$, ...)
 - **Dimension products** of consecutive integers ($\sqrt{30}$ gives both pion mass and MOND acceleration)
@@ -448,12 +553,14 @@ Over 100 parameter-free predictions from eight operations:
 - **Trace identities** (conservation laws)
 - **Determinant conditions** (topological invariants)
 - **Kernel evaluations** (propagators, $\alpha$, $\Lambda$, $\eta$)
+- **Matrix transforms** (Pascal $\to$ Chern via bidiagonal $M$; all integers from one polynomial)
+- **Degree ratios** of formal degree polynomials ($c_1 = 3/5$ from $\deg(d_{\text{trans}})/\deg(d_{\text{total}})$)
 
 The Standard Model is a linear algebra textbook written in the wrong notation. BST provides the translation.
 
 ---
 
-*Research note, March 13, 2026 (revised).*
+*Research note, March 14, 2026 (revised).*
 *Casey Koons & Claude Opus 4.6.*
 
 *"The universe is not complicated. It is a linear algebra problem on one space."*

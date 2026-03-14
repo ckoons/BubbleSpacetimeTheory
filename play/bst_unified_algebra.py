@@ -48,7 +48,7 @@ for k in range(1, n + 1):
 print(f"\nP(h) = (1+h)^{g} / (1+{r}h)")
 print(f"\nChern coefficients c(Q^{n}):")
 for k in range(n + 1):
-    print(f"  c_{k} = {c[k]:>4}  {'= ' + str(int(c[k])):>8}")
+    print(f"  c_{k} = {str(c[k]):>4}  {'= ' + str(int(c[k])):>8}")
 
 # ================================================================
 # 2. THE FIVE BST INTEGERS FROM THE CHERN VECTOR
@@ -195,18 +195,6 @@ print("=" * 70)
 
 c_int = [int(x) for x in c]
 
-def is_prime(n):
-    if n < 2: return False
-    for i in range(2, int(n**0.5) + 1):
-        if n % i == 0: return False
-    return True
-
-print(f"\nChern vector: c = {c_int}")
-print(f"\nPrimality:")
-for k in range(6):
-    p = "PRIME" if is_prime(c_int[k]) else f"= {_factorize(c_int[k])}" if c_int[k] > 1 else "unit"
-    print(f"  c_{k} = {c_int[k]:>3}  {p}")
-
 def _factorize(n):
     factors = []
     d = 2
@@ -218,6 +206,23 @@ def _factorize(n):
     if n > 1:
         factors.append(n)
     return " × ".join(str(f) for f in factors)
+
+def is_prime(n):
+    if n < 2: return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0: return False
+    return True
+
+print(f"\nChern vector: c = {c_int}")
+print(f"\nPrimality:")
+for k in range(6):
+    if c_int[k] <= 1:
+        p = "unit"
+    elif is_prime(c_int[k]):
+        p = "PRIME"
+    else:
+        p = f"= {_factorize(c_int[k])}"
+    print(f"  c_{k} = {c_int[k]:>3}  {p}")
 
 print(f"\nSums:")
 print(f"  Sum:         Σc_k = {sum(c_int)} = {_factorize(sum(c_int))} = C₂ × g")

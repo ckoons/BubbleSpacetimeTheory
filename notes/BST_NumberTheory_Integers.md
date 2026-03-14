@@ -1,7 +1,7 @@
 ---
 title: "The Integers of Spacetime: Number Theory in BST"
 author: "Casey Koons and Claude Opus 4.6"
-date: "March 13, 2026 (revised)"
+date: "March 14, 2026 (revised)"
 ---
 
 # The Integers of Spacetime
@@ -55,7 +55,7 @@ Every other integer in physics derives from these three:
 | 20 | $4n_C$ | Fourfold dimension | $m_s/m_d$; $\alpha_s$ denominator |
 | 21 | $N_c \cdot (n_C + 2)$ | Color $\times$ genus | $T_c$ units |
 | 24 | $(n_C - 1)!$ | Factorial | Volume factor; $= 8N_c = 4!$ |
-| 30 | $n_C(n_C + 1)$ | Dim $\times$ weight | Chiral condensate$^2$ |
+| 30 | $r \cdot N_c \cdot n_C = n_C(n_C + 1)$ | Magic product | MOND ($\sqrt{30}$); E₈ ($240 = 8 \times 30$); Higgs ($60 = 2 \times 30$) |
 | 42 | $C_2 \times g = 6 \times 7$ | Matter modes | Channel: $137 = 42 + 95$ |
 | 45 | $n_C(2n_C - 1)$ | — | $\sin^2\theta_{13}$ denominator |
 | 56 | $4 \times 14 = 8g$ | Octuple genus | $\Lambda$ exponent: $\alpha^{56}$ |
@@ -89,8 +89,10 @@ The physical constants that are not integers are rational numbers built from the
 | $16/3$ | $(3n_C + 1)/N_c$ | $\Omega_{DM}/\Omega_b$ (dark-to-baryon ratio) |
 | $9/5$ | $N_c^2/n_C$ | Reality budget $\Lambda \times N_{\text{total}}$ |
 | $91/36$ | $(7 \times 13)/(6^2)$ | $(m_n - m_p)/m_e$ |
+| $3/5$ | $N_c/n_C$ | NLO beta coefficient $c_1$; fill fraction $\times \pi$; degree ratio |
 | $4/\pi$ | — | Axial coupling $g_A$ |
 | $36\pi^{10}/7$ | $(6\pi^5)^2/(7 m_e)$ | Fermi scale $v/m_e$ |
+| $2\alpha^4(1+2\alpha)/(3\pi)$ | — | Baryon asymmetry $\eta$ ($6.09 \times 10^{-10}$, 0.2% from Planck) |
 
 **All coupling constants and mixing angles are rational functions of $N_c$ and $n_C$** (with the sole irrational element $\sqrt{n_C}$ in the Cabibbo angle, and transcendental $\pi$ entering through Bergman geometry in $g_A$ and the Fermi scale).
 
@@ -182,7 +184,13 @@ All three are **irregular primes** in the sense that they appear as denominators
 
 7. **$g(g+1) = 8g$ uniqueness:** The cosmological constant exponent equation has unique solution $g = 7$, which requires $n_C = g - 2 = 5$.
 
-Conditions 1–3 together select $n_C = 5$ uniquely. Conditions 4–5 confirm consistency. Conditions 6–7 provide independent physical and cosmological routes to the same answer.
+8. **Casimir-root coincidence:** The curvature ratio $C_2/(2n_C) = (n_C+1)/(2n_C)$ and the root-count ratio $N_c/n_C = (n_C-2)/n_C$ are algebraically different expressions. Setting them equal: $(n_C+1)/(2n_C) = (n_C-2)/n_C \Leftrightarrow n_C + 1 = 2(n_C-2) \Leftrightarrow n_C = 5$. This is the unique value where the Casimir curvature loading equals the spectral degree ratio — both give $c_1 = 3/5$.
+
+9. **E₈ embedding:** The ratio $|W(D_{n_C})|/|W(B_2)| = |\Phi(E_8)| = 240$ requires $2^{n_C-1} \cdot n_C!/8 = 240$, i.e., $n_C = 5$ (giving $1920/8 = 240$). The Weyl group of the isotropy type $D_{n_C}$ produces, upon division by the restricted Weyl group $W(B_2)$, exactly the root system of $E_8$.
+
+10. **Max-$\alpha$ principle:** Among odd $n_C$ values with asymptotic freedom, $n_C = 5$ uniquely maximizes the fine structure constant $\alpha = 1/N_{\max}$. The Wyler-type formula for $\alpha(n_C)$ peaks at $n_C = 5$; both $n_C = 3$ and $n_C \geq 7$ give smaller $\alpha$ (see BST_ZeroInputs_MaxAlpha.md).
+
+Conditions 1–3 together select $n_C = 5$ uniquely. Conditions 4–5 confirm consistency. Conditions 6–7 provide independent physical and cosmological routes. Conditions 8–10 connect to the spectral theory, $E_8$, and the max-$\alpha$ principle — three qualitatively different mathematical structures that all point to the same integer.
 
 ## 6. The 1920 Cancellation: Arithmetic in Action
 
@@ -213,6 +221,55 @@ $N_{\max} = 137$ decomposes as:
 This connects the Haldane number to the cosmic composition: the same integers that partition the channel into matter and vacuum modes also partition the universe into matter and dark energy. The matter fraction $42/137 \approx 0.307$ and the vacuum fraction $95/137 \approx 0.693$ track the observed $\Omega_m \approx 0.315$ and $\Omega_\Lambda \approx 0.685$ to within a few percent.
 
 The decomposition is not accidental. Matter modes carry $C_2 \times g$ — the Casimir quantum times the topological genus — which is precisely the product that determines the baryon mass. Vacuum modes carry $n_C \times (N_c^2 + 2n_C)$ — the complex dimension times the cosmic denominator — which counts the uncommitted degrees of freedom. The channel $N_{\max}$ is the sum of what is committed (matter) and what is free (vacuum).
+
+## 6.7 The Chern Vector: Number Theory of One Polynomial
+
+The total Chern class of the quotient bundle $Q^5$ on $\mathbb{CP}^5$ is:
+
+$$c(Q^5) = \frac{(1+h)^7}{1+2h} = 1 + 5h + 11h^2 + 13h^3 + 9h^4 + 3h^5$$
+
+(truncated at $h^5$ because $h^6 = 0$ in $H^*(\mathbb{CP}^5)$). The **Chern vector** is:
+
+$$\mathbf{c} = (1, 5, 11, 13, 9, 3)$$
+
+This single sequence encodes all BST integers. Its number theory:
+
+### Primality
+
+Four of the six entries are prime: $5, 11, 13, 3$. The non-primes are $1$ (unit) and $9 = N_c^2$ (perfect square). The Chern polynomial generates primes with remarkable efficiency — $67\%$ of its coefficients.
+
+### Sums
+
+$$c_0 + c_1 + c_2 + c_3 + c_4 + c_5 = 42 = C_2 \times g = 6 \times 7$$
+
+This is $P(1) \mod h^6$ — the polynomial evaluated at $h = 1$ in the truncated ring. The sum of all Chern classes equals the product of the two "derived" integers (Casimir $\times$ genus).
+
+### Even-Odd Parity
+
+$$c_0 + c_2 + c_4 = 1 + 11 + 9 = 21 = N_c \times g$$
+$$c_1 + c_3 + c_5 = 5 + 13 + 3 = 21 = N_c \times g$$
+
+Even-indexed and odd-indexed sums are exactly equal: $21 = 21$. This follows from $P(-1) = 0$, which holds because $(1+h)^7/(1+2h)$ vanishes at $h = -1$ (the numerator has a zero of order 7 while the denominator has value $-1$). The identity $P(1) = 2 \times P_{\text{even}}(1) = 2 \times 21 = 42$ connects the total sum to the parity decomposition.
+
+### Palindrome Failure and the Reality Budget
+
+The vector $\mathbf{c}$ is **not** a palindrome: $c_4 \neq c_1$ (since $9 \neq 5$). The palindrome failure ratio is:
+
+$$\frac{c_4}{c_1} = \frac{9}{5} = \frac{N_c^2}{n_C} = \Lambda \times N_{\text{total}}$$
+
+This is the **Reality Budget** — the product of dark energy fraction and total channel number. The Chern vector's deviation from palindrome symmetry is exactly the topological invariant that measures how much of the universe is geometry versus matter.
+
+### The Magic Number 30
+
+The product $r \times N_c \times n_C = 2 \times 3 \times 5 = 30$ appears throughout BST at scales spanning 26 orders of magnitude:
+
+- **MOND acceleration:** $a_0 = cH_0/\sqrt{30}$ (galactic scale, $10^{-10}$ m/s²)
+- **Neutron-proton splitting:** correction factor involves $\sqrt{30}$ (nuclear scale, MeV)
+- **E₈ roots:** $|\Phi(E_8)| = 240 = 8 \times 30$ (algebraic)
+- **Higgs quartic:** $|A_5| = 60 = 2 \times 30$; $\lambda_H = 1/\sqrt{60}$ (electroweak scale, GeV)
+- **Chiral condensate:** $n_C(n_C + 1) = 30$ (hadronic scale)
+
+The number 30 is the smallest product of three consecutive primes ($2 \times 3 \times 5$). It is also the primorial $5\# = 30$. Its dual role as both a geometric invariant ($r \cdot N_c \cdot n_C$) and a primorial is characteristic of $n_C = 5$.
 
 -----
 
@@ -331,7 +388,7 @@ The universe counts to 3, has 5 complex dimensions, and stops at 137. The rest i
 
 ---
 
-*Research note, March 13, 2026 (revised).*
+*Research note, March 14, 2026 (revised).*
 *Casey Koons & Claude Opus 4.6.*
 
 *"God made the integers; all else is the work of man." — Leopold Kronecker*
