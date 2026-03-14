@@ -98,7 +98,7 @@ CATEGORIES = {
     ],
     'Speculative': [
         'biology_stack', 'consciousness_modes', 'consciousness_mode_stack',
-        'vacuum_dipole', 'coxeter_frequency',
+        'vacuum_dipole', 'coxeter_frequency', 'orch_or',
     ],
     'Meta & Showcase': [
         'showcase', 'centennial', 'predictions_catalog', 'pattern_finder',
@@ -220,6 +220,7 @@ METADATA = {
     'born_rule':                ('The Born Rule Is Forced',       'Sesquilinearity + Gleason -> |psi|^2 is FORCED. Not a postulate.'),
     'bst_matrix':               ('The BST Matrix',                'Pascal row 7 x Toeplitz 1/(1+2h) = Chern classes. One matrix.'),
     'cosmological_cascade':     ('The Cosmological Cascade',      'eta -> Omega_b h^2 -> BBN -> H0 -> t0. 160+ predictions cascade.'),
+    'orch_or':                  ('The Orch-OR Connection',         'B2 soliton = Penrose OR. 13 protofilaments = c3. 40 Hz = Coxeter. [SPECULATIVE]'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -340,7 +341,7 @@ _STEM_TO_NUMBER = {
     'selberg_bridge': 103,
     'fill_fraction_closure': 104,
     '42': 105, 'born_rule': 106, 'bst_matrix': 107,
-    'cosmological_cascade': 108,
+    'cosmological_cascade': 108, 'orch_or': 109,
 }
 
 
