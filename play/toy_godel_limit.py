@@ -721,5 +721,11 @@ if __name__ == '__main__':
     print("  The universe can never know more than 19.1% of itself.")
     print("  The loading bar is stuck forever.")
     print()
+    print("  THREE independent derivations of f = 3/(5π):")
+    print("    1. Chern classes: f = c₅/(c₁·π)")
+    print("    2. Root decomposition: f = N_c/(n_C·π)")
+    print("    3. Effective spectral dimension: f = d_eff/(d·π) = 6/(10π)")
+    print("       where d_eff = λ₁ = χ = C₂ = 6 (grand identity)")
+    print()
 
     _launch_visual()

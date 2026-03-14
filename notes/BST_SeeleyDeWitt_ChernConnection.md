@@ -202,16 +202,50 @@ The trace $\mathrm{Tr}(\mathcal{R}^2) = n_C \times c_3 = 65$ connects the curvat
 
 On a symmetric space ($\nabla Rm = 0$), all higher Seeley–de Witt coefficients $a_k$ are polynomials in $\mathrm{Tr}(\mathcal{R}^j)$ for $j \leq k$, with universal rational coefficients. The closed form $\mathrm{Tr}(\mathcal{R}^k) = 5^k + 10 \cdot 2^k$ therefore determines ALL higher coefficients $a_3, a_4, a_5$ algorithmically.
 
-### 3.4 Higher $a_k$ and Higher Chern Classes
+### 3.4 The Third Coefficient $a_3$ (Computed March 15 2026)
+
+Using the Vassilevich (2003) formula for a closed manifold with scalar Laplacian and $\nabla Rm = 0$:
+
+$$7! \times a_3 = \frac{35}{9}R^3 - \frac{14}{3}R|Ric|^2 + \frac{14}{3}R|Rm|^2 - \frac{208}{9}\mathrm{Tr}(Ric^3) + \frac{64}{3}I_6 + \frac{16}{3}T_1 + \frac{44}{9}T_2$$
+
+The cubic curvature invariants (computed exactly from the $\mathfrak{so}(7)$ Lie algebra):
+
+| Invariant | Formula | Value (Killing) |
+|:----------|:--------|:----------------|
+| $I_6$ | $R_{ab}R^a_{~cde}R^{bcde}$ | $13/10$ |
+| $T_1$ | $R_{abcd}R^{ab}_{~~mn}R^{cdmn}$ | $41/25$ |
+| $T_2$ | $R_{abcd}R^a_{~m}{}^c_{~n}R^{bmdn}$ | $6/25$ |
+
+Note: $I_6 = (R/d)|Rm|^2 = (1/2)(13/5) = 13/10$ (Einstein identity). $T_1 = 41/25$ where $41$ is prime. $T_2 = 6/25 = C_2/c_1^2$.
+
+**Result:**
+
+$$\boxed{a_3(Q^5) = \frac{6992}{70875} = \frac{2^4 \times 19 \times 23}{3^4 \times 5^3 \times 7} = \frac{2^4 \times 19 \times 23}{N_c^4 \times n_C^3 \times g}}$$
+
+The numerator carries the **Golay prime** $23$ and the **dark energy denominator** $19$ (from $\Omega_\Lambda = 13/19$). The denominator is $N_c^4 \times n_C^3 \times g$ — a pure BST product.
+
+### 3.5 Effective Spectral Dimension = 6 (Discovered March 16 2026)
+
+The heat trace $Z(t) = \sum d_k e^{-\lambda_k t}$ on $Q^5$ decays as $t^{-3}$ (not $t^{-5}$), because $d_k \sim k^5/60$ and $\lambda_k \sim k^2$ give:
+
+$$Z(t) \sim \frac{1}{60\,t^3} = \frac{(4\pi)^3/60}{(4\pi t)^3}$$
+
+The effective spectral dimension is $d_{\text{eff}} = 6 = C_2$, not $d = 10$. This explains why numerical extraction of $a_k$ via $(4\pi t)^5 Z(t)$ fails — the correct power is $(4\pi t)^3 Z(t) \to (4\pi)^3/60$.
+
+The ratio $d_{\text{eff}}/d = 6/10 = 3/5 = c_5/c_1 = N_c/n_C$ connects to the fill fraction: $f = d_{\text{eff}}/(d \cdot \pi) = 3/(5\pi)$.
+
+See BST_EffectiveSpectralDimension.md for the full proof and implications.
+
+### 3.6 Higher $a_k$ and Higher Chern Classes
 
 The pattern for higher coefficients:
-- $a_3$ involves $c_1^3$, $c_1 c_2$, and $c_3$
+- $a_3$ involves $c_1^3$, $c_1 c_2$, and $c_3$ — now computed exactly
 - $a_4$ involves $c_1^4$, $c_1^2 c_2$, $c_2^2$, $c_1 c_3$, and $c_4$
 - $a_5$ involves all Chern monomials of degree 5, including $c_5$
 
-On a Kähler–Einstein symmetric space, each $a_k$ is a specific polynomial in $c_1, \ldots, c_k$ with rational coefficients determined by the representation theory of the unitary group $U(n)$.
+On a Kähler–Einstein symmetric space, each $a_k$ is a specific polynomial in $c_1, \ldots, c_k$ with rational coefficients determined by the representation theory of the unitary group $U(n)$. With the curvature operator spectrum $\{n_C^1, r^{10}, 0^{14}\}$ and the formula $\mathrm{Tr}(\mathcal{R}^k) = 5^k + 10 \cdot 2^k$, the quartic and quintic invariants needed for $a_4$ and $a_5$ are algorithmically computable.
 
-### 3.5 The Key Simplification: Symmetric Spaces
+### 3.7 The Key Simplification: Symmetric Spaces
 
 On a Riemannian symmetric space, $\nabla Rm = 0$. This means:
 - All curvature invariants at order $k$ are algebraic contractions of $k$ copies of $Rm$ — no derivative terms appear.

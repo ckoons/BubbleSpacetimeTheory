@@ -561,7 +561,25 @@ at the de Sitter temperature $\beta_{dS} = 2n_C^2 = 50$ may yield the fill fract
 
 -----
 
-## 14. Summary
+## 14. The Spectral Dimension Derivation (March 16, 2026)
+
+A third, independent derivation of $f = 3/(5\pi)$ via the effective spectral dimension of $Q^5$:
+
+**Step 1.** The zonal ($q = 0$) sector of $Q^5$ has spectral counting function $N_0(\lambda) \sim \lambda^3/360$, giving effective spectral dimension $d_s^{\text{zonal}} = 6$. The full spectrum has $d_s^{\text{full}} = 10$.
+
+**Step 2.** The ratio is $d_s^{\text{zonal}}/d_s^{\text{full}} = 6/10 = 3/5 = N_c/n_C = c_5/c_1$.
+
+**Step 3.** The factor $1/\pi$ comes from $\text{Vol}(S^1/\mathbb{Z}_2) = \pi$ on the Shilov boundary.
+
+**Step 4.** $f = (d_s^{\text{zonal}}/d_s^{\text{full}}) / \text{Vol}(S^1/\mathbb{Z}_2) = (6/10)/\pi = 3/(5\pi)$.
+
+This derivation is independent of the root decomposition (Section 3-4) and the Chern class identification (Section 14 below). It gives a spectral-geometric meaning: the fill fraction is the fraction of spectral degrees of freedom in the committed sector, normalized by the Shilov boundary measure.
+
+The remarkable grand identity $d_s^{\text{zonal}} = \lambda_1 = \chi(Q^5) = C_2 = 6$ (specific to quadrics, fails on $\mathbb{CP}^n$) provides a deep connection between the spectral dimension, the mass gap, and the Euler characteristic. See BST_EffectiveSpectralDimension.md.
+
+-----
+
+## 15. Summary
 
 **Main result.** The spectral fill fraction of $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ is:
 

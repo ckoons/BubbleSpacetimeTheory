@@ -628,7 +628,7 @@ class HarmonicAlphaExplorer:
         # "THEOREM" label
         ax.text(0.50, 0.84, 'T H E O R E M', fontsize=13,
                 fontweight='bold', color=GOLD, ha='center', va='center',
-                fontfamily='monospace', letterspacin=0)
+                fontfamily='monospace')
 
         # The statement
         lines = [

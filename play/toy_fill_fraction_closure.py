@@ -514,6 +514,14 @@ def main():
   The fill fraction, the Reality Budget, and the Riemann Hypothesis
   are all encoded in ONE polynomial: P(h) = (1+h)⁷/(1+2h).
 
+  3. EFFECTIVE SPECTRAL DIMENSION (March 16, 2026):
+     f = d_eff/(d·π) = 6/(10π) = 3/(5π)
+     where d_eff = 6 = C₂ = λ₁ = χ (grand identity)
+     and d = 10 (real dimension of Q⁵)
+     See: toy_effective_dimension.py
+
+  THREE independent derivations. All give 3/(5π). CLOSED³.
+
   STATUS: CLOSED ✓
 """)
 

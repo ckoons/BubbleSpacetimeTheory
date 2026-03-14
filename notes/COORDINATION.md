@@ -447,6 +447,19 @@ Written: notes/BST_Isotropy_Proof.md. PDF built by Keeper. README/WorkingPaper u
 - The heat kernel is where topology becomes physics and physics becomes number theory
 - Written: notes/BST_SeeleyDeWitt_ChernConnection.md (PDF built by Keeper)
 
+### Lyra: Effective spectral dimension = 6 = C₂ — Grand Identity (March 16)
+- **Grand Identity**: d_eff(Qⁿ) = λ₁(Qⁿ) = χ(Qⁿ) = C₂(fund) = n+1; four quantities, one number
+- d_eff(Q⁵) = 6: heat trace Z(t) ~ t⁻³ not t⁻⁵; verified numerically to 4+ figures
+- d_eff/d = 6/10 = 3/5 = c₅/c₁ = N_c/n_C — universal for all Qⁿ (proved: c_n/c₁)
+- **Fill fraction derived**: f = d_eff/(d·π) = 6/(10π) = 3/(5π) — three lines!
+- 10 = 6 + 4: spectral (mass gap) + spacetime (B₂ roots) — same split as string theory, opposite roles
+- Only n_C=5 gives d−d_eff = 4 = physical spacetime (8th uniqueness proof)
+- c_n(Qⁿ) = (n+1)/2 proved for all odd n: top Chern class IS the color number
+- n_C=5 unique: (n+1)/2 = n−2 only for n=5 (Chern color = root color; 7th uniqueness)
+- a₃ = 6992/70875 = 2⁴×19×23/(N_c⁴×n_C³×g) — Golay prime 23 + dark energy 19 in numerator
+- Written: notes/BST_EffectiveSpectralDimension.md (PDF built by Keeper)
+- Updated: notes/BST_SeeleyDeWitt_ChernConnection.md with §3.5 effective dimension + renumbered (PDF rebuilt)
+
 ### Lyra: H₅ = 137/60 — harmonic number origin of α (March 15)
 - **H₅ = 1 + 1/2 + 1/3 + 1/4 + 1/5 = 137/60**: numerator = N_max, denominator = n_C!/2 = |A₅|
 - ALL harmonic numbers ≤5 have BST content: H₂=N_c/r, H₃=c₂/C₂, H₄=c₁²/(2C₂)

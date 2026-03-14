@@ -52,7 +52,7 @@ CATEGORIES = {
         'einstein_from_commitment', 'maxwell_geometry',
         'field_equations', 'isotropy_proof', 'why_this_universe',
         'first_commitment', 'error_correction', 'circles_on_surfaces',
-        'harmonic_alpha',
+        'harmonic_alpha', 'effective_dimension',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -273,6 +273,7 @@ METADATA = {
     'spectral_multiplicity':    ('The Spectral Multiplicity Theorem',    'd_k = C(k+4,4)·(2k+5)/5. Factor (2k+5) cycles through ALL Chern integers. Topology IS the spectrum.'),
     'spectral_zeta':            ('The Spectral Zeta Function',           'ζ_Δ(s) on Q5: poles at s=5,4,3,2,1. The 1/60 theorem. Bridge: Chern → Selberg → ζ(s).'),
     'harmonic_alpha':           ('H₅ = 137/60',                          '1+1/2+1/3+1/4+1/5 = 137/60. Numerator = N_max. Denominator = |A₅|. Simplest route to α.'),
+    'effective_dimension':      ('The Effective Spectral Dimension',      'd_eff = λ₁ = χ = C₂ = 6. Ten = six + four. Fill fraction derived. 8th uniqueness proof.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -416,6 +417,7 @@ _STEM_TO_NUMBER = {
     'self_duality_rh': 145,
     'spectral_multiplicity': 146, 'spectral_zeta': 147,
     'harmonic_alpha': 148,
+    'effective_dimension': 149,
 }
 
 
