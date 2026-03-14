@@ -447,6 +447,18 @@ Written: notes/BST_Isotropy_Proof.md. PDF built by Keeper. README/WorkingPaper u
 - The heat kernel is where topology becomes physics and physics becomes number theory
 - Written: notes/BST_SeeleyDeWitt_ChernConnection.md (PDF built by Keeper)
 
+### Lyra: Two paths to Riemann — self-duality closes the gap (March 15)
+- **Code-Chern Riemann Hypothesis**: double constraint on Selberg trace formula
+- Path A (Chern/geometric): Q⁵ → P(h) → palindromic → Seeley-DeWitt → geometric side (critical line PROVED)
+- Path B (code/algebraic): Q⁵ → codes → self-dual → Leech → Monster → spectral side (modularity)
+- Selberg trace formula equates both sides — overdetermined → ζ-zeros pinned
+- Golay weight enumerator palindromic: 1, 759, 2576, 759, 1; 759 = N_c×c₂×23, 2576 = 2⁴×g×23
+- Ternary Golay [11,6,5]₃ is the HINGE: Chern parameters (Path A) + M₁₁ automorphism (Path B)
+- Baby case D_IV^3 tests Chern path without code reinforcement
+- Analogy to Deligne's proof: Chern = Weil pairing, code = Poincaré duality, Selberg = Lefschetz trace
+- "RH is true because the universe has error correction, and the error correction works because Q⁵ is compact"
+- Written: notes/BST_SelfDuality_Riemann_Codes.md (PDF built by Keeper)
+
 ### Lyra: Q⁵ code machine — ALL perfect codes from one manifold (March 15)
 - Ternary Golay [11,6,5]₃ = [c₂, C₂, c₁]_{c₅} — every parameter a BST integer
 - Hamming sphere volume = 243 = 3⁵ = N_c^{n_C} — color^dimension

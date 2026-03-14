@@ -50,6 +50,11 @@ Created with Claude Opus 4.6, March 2026.
 
 import numpy as np
 from math import comb, factorial
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
+import matplotlib.patheffects as pe
+from matplotlib.patches import FancyBboxPatch
 
 # ═══════════════════════════════════════════════════════════════════
 # BST CONSTANTS — the five integers
