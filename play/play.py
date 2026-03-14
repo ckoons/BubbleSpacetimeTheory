@@ -47,12 +47,12 @@ CATEGORIES = {
         'universe_machine', 'lie_algebra', 'master_equation', 'alpha_max',
         'hopf_fibration', 'self_starting', 'what_if', 'three_layers',
         'recapitulation', 'respirator', 'homology', 'dual_face',
-        'bell_inequality',
+        'bell_inequality', 'born_rule',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
         'berezin_toeplitz', 'poisson_szego', 'plancherel_spectrum',
-        'self_dual_point',
+        'self_dual_point', 'bst_matrix',
     ],
     'Particles': [
         'mass_tower', 'meson_garden', 'fermion_staircase', 'particle_zoo',
@@ -71,6 +71,7 @@ CATEGORIES = {
         'dark_sector', 'cosmic_pie', 'cmb_ruler', 'jwst_prediction',
         'cosmic_timeline', 'why_now', 'why56', 'dirac_number',
         'dirac_large_number', 'reality_budget', 'godel_limit', 'lithium7',
+        'cosmological_cascade',
     ],
     'Information': [
         'shannon_channel', 'channel_137', 'channel_capacity',
@@ -101,7 +102,8 @@ CATEGORIES = {
     ],
     'Meta & Showcase': [
         'showcase', 'centennial', 'predictions_catalog', 'pattern_finder',
-        'proof_tree', 'universe_builder', 'selberg_bridge',
+        'proof_tree', 'universe_builder', 'selberg_bridge', '42',
+        'fill_fraction_closure',
     ],
 }
 
@@ -213,6 +215,11 @@ METADATA = {
     # ── Extras ──
     'consciousness_mode_stack': ('Consciousness Mode Stack',     'Full stack: qualia, binding, awareness from B2 Toda. [SPECULATIVE]'),
     'selberg_bridge':           ('The Selberg Bridge',            'Chern critical line -> Selberg trace formula -> zeta(s). The gap.'),
+    'fill_fraction_closure':    ('Fill Fraction Closure',         'Two proofs: Chern + heat kernel both give f=3/(5pi). Closed.'),
+    '42':                       ('The Answer',                    'P(1) = 2x3x7 = 42. Douglas Adams was right. Chern proof.'),
+    'born_rule':                ('The Born Rule Is Forced',       'Sesquilinearity + Gleason -> |psi|^2 is FORCED. Not a postulate.'),
+    'bst_matrix':               ('The BST Matrix',                'Pascal row 7 x Toeplitz 1/(1+2h) = Chern classes. One matrix.'),
+    'cosmological_cascade':     ('The Cosmological Cascade',      'eta -> Omega_b h^2 -> BBN -> H0 -> t0. 160+ predictions cascade.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -331,6 +338,9 @@ _STEM_TO_NUMBER = {
     'centennial': 100, 'consciousness_mode_stack': 101,
     'tba_soliton_gas': 92, 'sqrt30_connection': 102,
     'selberg_bridge': 103,
+    'fill_fraction_closure': 104,
+    '42': 105, 'born_rule': 106, 'bst_matrix': 107,
+    'cosmological_cascade': 108,
 }
 
 
