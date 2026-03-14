@@ -526,11 +526,12 @@ class WhyThisUniverse:
             print('  Product grows as n². Chern sum grows as 2^n.')
             print('  They cross ONCE, at n = 5: 7 × 6 = 42 = P₅(1).')
             print()
-            print('  Four independent proofs that n_C = 5:')
+            print('  Five independent proofs that n_C = 5:')
             print('    1. max-α (fine structure constant peaks)')
             print('    2. η\' anomaly (mass formula requires n = 5)')
             print('    3. Casimir-root correspondence (C₂ = 6 unique)')
             print('    4. d₁ × λ₁ = P(1) (spectral = topological)')
+            print('    5. dim SU(n) = (n-1)! (GUT = factorial, only at n=5: 24=24)')
             print()
 
         return {'rows': rows, 'unique_n': 5}

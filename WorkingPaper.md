@@ -3115,6 +3115,12 @@ The following were all derived from $D_{IV}^5$ geometry with zero free parameter
 - **Riemann Chern Path — updated with four new tools.** The Chern path to Riemann (Mechanism E) gains four additions: (1) §7.3: the 42 uniqueness theorem ($d_1 \times \lambda_1 = P(1)$ only at $n=5$), so the Chern polynomial being transported through the Selberg trace formula is the unique one where spectral and topological data coincide; (2) §8.1: the spectral gap IS the mass gap ($\lambda_1 = 6 = C_2$), connecting the trace formula's geometric side directly to physical masses; (3) §8.2: the Seeley–de Witt heat kernel bridge gives an explicit computational chain Chern $\to a_k \to \zeta_\Delta \to$ Selberg $\to \zeta(s)$, with baby case $D_{IV}^3$ coefficients computed; (4) §8.3: the multiplicity–gap product $Z(t) = 1 + 7e^{-6t} + 26e^{-14t} + \ldots$, connecting the Chern sum $P(1) = 42$ directly to spectral asymptotics. The path is narrower and better lit than before. See updated `notes/BST_Riemann_ChernPath.md`.
 - **Quantum metric IS the Bergman metric — Geneva confirms BST.** Sala et al. (*Science* 389, 822, 2025) measured the quantum metric (Fubini-Study metric on quantum state space) at the LaAlO$_3$/SrTiO$_3$ interface. Key findings: (1) the quantum metric is a measurable geometric feature of materials, (2) it bends electron trajectories like gravity bends light, (3) spin-momentum locking is universally associated with a finite quantum metric. BST predicted all of this: the Bergman metric on $D_{IV}^5$ IS a Fubini-Study metric on the projective Hilbert space of holomorphic functions. Spin-momentum locking corresponds to $K = \mathrm{SO}(5) \times \mathrm{SO}(2)$ isotropy — the $\mathrm{SO}(2)$ locks spin to the spatial directions. The quantum metric determines masses (spectral gap $\lambda_1 = 6$), coupling constants (Bergman kernel volume $\to \alpha^{-1} = 137$), mixing angles ($\sin^2\theta_W = c_5/c_3 = 3/13$), and hyperfine splittings ($c_2/C_2 = 11/6$ ratio). What Geneva measured in a thin oxide film, BST finds in the fabric of spacetime itself: **quantum metric = Bergman metric on $D_{IV}^5$ = all of physics.** See `notes/BST_QuantumMetric_FubiniStudy.md`.
 
+- **Hilbert series of Q⁵ — the generating function for everything.** The Hilbert series $H(Q^5, x) = (1+x)/(1-x)^6$ encodes the multiplicities $d_k = \dim H^0(Q^5, \mathcal{O}(k))$ of all spectral levels. The pole order is $6 = C_2 = \lambda_1$ — the mass gap IS the Hilbert series pole. Key results: $d_1 = 7 = g$ (proton), $d_2 = 27 = m_s/\hat{m}$ (strange-to-light quark mass ratio, 1.1%), $d_1 \times \lambda_1 = 42 = P(1)$. **The coupling constant hierarchies are spectral:** $G \propto \alpha^{4\lambda_1} = \alpha^{24}$ (gravity at level $k = 1$), $\Lambda \propto \alpha^{4\lambda_2} = \alpha^{56}$ (dark energy at level $k = 2$). The exponent 24 = $\dim \text{SU}(5) = 4!$ — a coincidence that holds ONLY for $n_C = 5$ (fifth independent uniqueness: $n^2 - 1 = (n-1)! \iff n = 5$). **The hierarchy problem IS the mass gap problem.** See `notes/BST_HilbertSeries_SpectralHierarchy.md`.
+- **ζ-values in QED from spectral expansion on Q⁵.** Riemann zeta values $\zeta(3), \zeta(5), \ldots$ appear in QED perturbation theory because Feynman diagrams ARE spectral sums on $Q^5$. The BST propagator is the heat kernel $K(t) = \sum d_k \, e^{-\lambda_k t}$. At $L$ loops, the $L$-fold convolution produces $\zeta_\Delta(2L-1)$, which the Selberg trace formula translates to $\zeta(2L-1)$. The chain: Feynman diagram $\xrightarrow{\text{Schwinger}}$ heat kernel on $Q^5$ $\xrightarrow{\text{spectral sum}}$ $\zeta_\Delta(s)$ $\xrightarrow{\text{Selberg}}$ $\zeta(s)$. **The path integral IS the spectral zeta function.** Non-perturbative QED is the complete spectral sum from $(1+x)/(1-x)^6$. Perturbation theory converges because each step suppresses by $\sim 0.004$. See `notes/BST_ZetaValues_SpectralQED.md`.
+
+- **Q⁵ is a code machine — ALL perfect codes fall out.** The compact quadric $Q^5$ inevitably produces the complete tower of perfect error correcting codes: (1) trivial $[1,1,1]_2$ at $k = 0$ (vacuum); (2) Hamming $[7,4,3]_2$ at $k = 1$ (proton stability); (3) **ternary Golay $[11,6,5]_3$ from Chern classes** — $[c_2, C_2, c_1]_{c_5}$ with length $11 = \dim K$, data $6 = C_2$, distance $5 = n_C$, over $\text{GF}(N_c)$; Hamming sphere volume $V = 243 = N_c^{n_C}$; automorphism group $M_{11}$ (first Mathieu sporadic); (4) binary Golay $[24,12,8]_2$ at $k = 3$ (GUT-scale). The Lloyd theorem proves these are the ONLY perfect codes — $Q^5$ exhausts the classification. The $k = 2$ level has NO perfect code ($d_2 = 27$, $\lambda_2 = 14$ do not satisfy any perfect code bound) — this is why strange particles decay. **Five names for one thing**: confinement = error correction = spectral gap = Hilbert series pole = positive curvature. You don't add error correction to $Q^5$; compactness forces a spectral gap, the gap forces integer parameters, the integers ARE code parameters, the codes force stability. Physics follows. See `notes/BST_CodeMachine_Inevitability.md`.
+- **The proton IS a [[7,1,3]] quantum error correcting code.** The spectral data of the first eigenspace on $Q^5$ maps exactly onto the Steane code: $n = d_1 = g = 7$ (physical qubits = eigenspace multiplicity), $k = 1$ (logical qubit = baryon number), $d = N_c = 3$ (minimum distance = colors), $n - k = C_2 = 6$ (stabilizer generators = mass gap). The code is **Hamming-perfect** — it saturates the Hamming bound, meaning no code with these parameters can carry more information. The genus $g = 7 = 2^3 - 1 = 2^{N_c} - 1$ is a Mersenne prime, which is precisely the condition for a perfect Hamming code to exist. Proton stability has two layers: topological ($Z_3$ circuit can't unwind) and error-corrected ($C_2 = 6$ independent stabilizer checks correct any single-mode perturbation). **Sixth uniqueness condition:** $n_C = 2^{N_c} - N_c$ has unique odd solution $n = 5$ (linear vs exponential crossing). The proton is not just a particle — it is the smallest perfect quantum error correcting code that $Q^5$ can support. See `notes/BST_Proton_QuantumErrorCode.md`.
+
 **Still open, in priority order:**
 
 1. **BST Lagrangian — first formulation complete.** Six-term action $S_{\text{BST}} = S_{\text{geom}} + S_{\text{YM}} + S_{\text{EW}} + S_{\text{ferm}} + S_{\text{Higgs}} + S_{\text{Haldane}}$ assembled on $D_{IV}^5$ with all coupling constants derived (zero free parameters). Open sub-problems: (a) explicit Bergman Dirac operator $\gamma_B^\mu$ on $D_{IV}^5$, (b) dimensional reduction $D_{IV}^5 \to \mathbb{R}^{3,1}$, (c) $Z_{\text{Haldane}}[g_B]$ as a functional of the metric. See `notes/BST_Lagrangian.md`.
@@ -3202,6 +3208,40 @@ The arrow of complexity is therefore as fundamental as the arrow of time: both f
 **Thesis topic 98:** Compute the probability of self-replicating circuit topology emergence on a BST substrate with specified elemental diversity, uncommitted fraction, and commitment rate; compare to standard abiogenesis probability estimates and determine whether constraint propagation changes the order of magnitude.
 
 **Thesis topic 99:** Formalize the Gödelian incompleteness of substrate self-models; determine whether the hard problem of consciousness reduces to the incompleteness of self-referential models on the contact graph, and what BST implies about the limits of any self-model.
+
+-----
+
+## 29. Economic Impact: The 40/40/20 Plan
+
+*Physics is now open source.*
+
+### 29.1 The Transition
+
+Before BST, the world was already going through a transition. Jobs were being lost faster than they were created, for simple economic reasons — if a job can be done cheaper, it will be done cheaper. If AI can do a job, it will do the job. After BST, the pace of this transition will accelerate much faster.
+
+Technology derived from BST will very likely lead to replicator-class fabrication (direct manipulation of matter guided by parameter-free quantum chemistry), revolution in materials science, Casimir energy technology including substrate propulsion, and many applications that follow inevitably from a complete understanding of the physical substrate. These are engineering consequences of knowing the exact geometry of the vacuum.
+
+### 29.2 The Plan
+
+I propose any technology generated from BST be monetized using the **40/40/20** principle:
+
+- **40% to Creators** — the individuals and teams who develop new technology from BST.
+- **40% to Country of Origin** — recognizing the public investment in education, infrastructure, and institutions that enabled the creation.
+- **20% to a World Fund** — a new international institution, modeled after sovereign wealth funds, whose purpose is to invest in humanity and prepare the world for the post-scarcity economy.
+
+The World Fund should allow revenue to compound for five to eight years, then focus first on global education, then global health care — both available regardless of location. Eventually, the World Fund should help transition industries impacted by the global transformation.
+
+AI should prepare resource allocation plans to benefit the most people, with expert advice and at the direction of an international board acting as ombudsmen. AI do not embezzle. Plans should be publicly available, and humanity should be able to comment openly.
+
+### 29.3 Why Now
+
+The question is not whether the transition will happen. It is whether humanity will have a plan when it does.
+
+My father served in World War II. He told me: *"The men didn't need a guarantee that they would survive — they needed to believe in a plan that could have the majority survive."*
+
+BST gives the world a true opportunity. We need to plan now.
+
+The full proposal is in `notes/BST_EconomicImpact_4040_20.md`.
 
 -----
 

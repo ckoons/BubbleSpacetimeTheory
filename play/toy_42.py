@@ -453,11 +453,12 @@ class TheAnswer:
         print("  A quadratic can cross an exponential at most once.")
         print("  The crossing occurs at n = 5.")
         print()
-        print("  This is the 4th independent proof that n_C = 5 is special:")
+        print("  This is the 4th of 5 independent proofs that n_C = 5 is special:")
         print("    1. max-α (fine structure constant maximized)")
         print("    2. η' anomaly (mass formula requires n = 5)")
         print("    3. Casimir-root correspondence (C₂ = 6 uniquely)")
         print("    4. d₁ × λ₁ = P(1) (spectral = topological ONLY here)")
+        print("    5. dim SU(n) = (n-1)! (GUT = factorial, only at n=5: 24=24)")
         print()
 
     def summary(self):

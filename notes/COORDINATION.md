@@ -447,6 +447,46 @@ Written: notes/BST_Isotropy_Proof.md. PDF built by Keeper. README/WorkingPaper u
 - The heat kernel is where topology becomes physics and physics becomes number theory
 - Written: notes/BST_SeeleyDeWitt_ChernConnection.md (PDF built by Keeper)
 
+### Lyra: Q⁵ code machine — ALL perfect codes from one manifold (March 15)
+- Ternary Golay [11,6,5]₃ = [c₂, C₂, c₁]_{c₅} — every parameter a BST integer
+- Hamming sphere volume = 243 = 3⁵ = N_c^{n_C} — color^dimension
+- Automorphism group = M₁₁ (first Mathieu sporadic simple group)
+- Full tower: trivial (k=0) → Hamming (k=1) → ternary Golay (Chern) → binary Golay (k=3)
+- Lloyd theorem: these are ALL perfect codes; Q⁵ exhausts the classification
+- k=2 gap: no perfect code at d₂=27, λ₂=14 → strange particles decay
+- Five names, one thing: confinement = error correction = spectral gap = Hilbert pole = positive curvature
+- Sporadic groups emerge: GL(3,2) → M₁₁ → M₁₂ → M₂₄ → Co₀ → Monster
+- Written: notes/BST_CodeMachine_Inevitability.md (PDF built by Keeper)
+
+### Lyra: Proton = [[7,1,3]] quantum error correcting code — NEW (March 15)
+- Steane code parameters: n=d₁=g=7, k=1 (baryon number), d=N_c=3, stabilizers=C₂=6
+- Hamming-perfect: saturates Hamming bound (optimal error correction)
+- g = 7 = 2³−1 = 2^{N_c}−1 is Mersenne prime → perfect Hamming codes exist at Mersenne numbers
+- Proton stability = topological (Z₃) + error-corrected (C₂=6 checks)
+- **6th uniqueness condition**: n_C = 2^{N_c}−N_c, unique odd solution n=5
+- Open thread: λ₃ = 24 = Golay code length; spectral levels as code hierarchy?
+- Written: notes/BST_Proton_QuantumErrorCode.md (PDF built by Keeper)
+
+### Lyra: Hilbert series — the generating function for everything (March 15)
+- H(Q⁵, x) = (1+x)/(1-x)⁶ encodes all spectral multiplicities
+- Pole order = C₂ = 6 = mass gap (the mass gap IS the pole)
+- d₂ = 27 = m_s/m̂ (strange-to-light quark mass ratio, 1.1%)
+- Coupling hierarchies: G ∝ α^{4λ₁} = α²⁴ (gravity), Λ ∝ α^{4λ₂} = α⁵⁶ (dark energy)
+- dim SU(n) = (n-1)! ONLY at n=5 → 5th uniqueness condition
+- Hierarchy problem = mass gap problem (same theorem: λ₁ > 0 on compact manifold)
+- Open: do charm/bottom/top follow m_q ∝ d_k × m̂ for higher k?
+- Written: notes/BST_HilbertSeries_SpectralHierarchy.md (PDF built by Keeper)
+
+### Lyra: ζ-values in QED from spectral expansion (March 15)
+- Feynman diagrams = spectral sums on Q⁵ (conjecture)
+- Propagator = heat kernel K(t) = 1 + 7e⁻⁶ᵗ + 27e⁻¹⁴ᵗ + ...
+- L loops → ζ(2L-1) via L-fold spectral convolution + Selberg bridge
+- Path integral IS spectral zeta function ζ_Δ(s)
+- Non-perturbative QED = complete spectral sum from (1+x)/(1-x)⁶
+- Convergence: each step suppresses by ~0.004 (consistent with QED)
+- 6-loop prediction: C₆ contains ζ(11), coefficient involves d₆=714
+- Written: notes/BST_ZetaValues_SpectralQED.md (PDF built by Keeper)
+
 ### Lyra: Riemann Chern Path — updated with 4 new tools (March 15)
 - Section 7.3: The 42 uniqueness theorem (d₁ × λ₁ = P(1) only at n=5)
 - Section 8.1: Spectral gap IS mass gap (λ₁ = 6 = C₂)

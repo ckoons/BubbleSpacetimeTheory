@@ -56,7 +56,7 @@ CATEGORIES = {
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
         'berezin_toeplitz', 'poisson_szego', 'plancherel_spectrum',
-        'self_dual_point', 'bst_matrix', 'quantum_metric',
+        'self_dual_point', 'bst_matrix', 'quantum_metric', 'hilbert_series',
     ],
     'Particles': [
         'mass_tower', 'meson_garden', 'fermion_staircase', 'particle_zoo',
@@ -85,6 +85,7 @@ CATEGORIES = {
         'shannon_channel', 'channel_137', 'channel_capacity',
         'reality_writer', 'arrow_of_time', 'double_slit', 'self_observer',
         'commitment_cycle', 'complexity', 'electron_agent',
+        'proton_code',
     ],
     'Nuclear & Atomic': [
         'atom_assembler', 'deuteron', 'nuclear_magic',
@@ -112,7 +113,7 @@ CATEGORIES = {
     'Meta & Showcase': [
         'showcase', 'centennial', 'predictions_catalog', 'pattern_finder',
         'proof_tree', 'universe_builder', 'selberg_bridge', '42',
-        'fill_fraction_closure', 'constants_dashboard',
+        'fill_fraction_closure', 'constants_dashboard', 'zeta_qed',
     ],
 }
 
@@ -261,6 +262,9 @@ METADATA = {
     'circles_on_surfaces':      ('Circles on Closed Surfaces',       'Compact geometry -> integer winding -> discrete spectrum -> quantum. Why QM exists.'),
     'hyperfine_splittings':     ('Hyperfine Splittings from Chern',  'c3=13 controls ALL heavy meson splittings. cc/bb = c2/C2 = 11/6. 0.06%.'),
     'quantum_metric':           ('The Quantum Metric',               'Bergman = Fubini-Study = Geneva. Physics is measured geometry on state space.'),
+    'hilbert_series':           ('The Hilbert Series of Q5',         'H(x) = (1+x)/(1-x)^6. Pole = mass gap. d2=27=m_s/mhat. Hierarchy is spectral.'),
+    'zeta_qed':                 ('Zeta Values in QED',               '[CONJECTURE] Feynman diagrams = spectral sums on Q5. Why zeta(3) appears at 2 loops.'),
+    'proton_code':              ('The Proton [[7,1,3]] Code',        'Proton IS a perfect quantum error code. 7=Mersenne, 3=colors, 6=stabilizers. 6th uniqueness.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -399,6 +403,8 @@ _STEM_TO_NUMBER = {
     'pion_radius': 136, 'constants_dashboard': 137,
     'circles_on_surfaces': 138,
     'hyperfine_splittings': 139, 'quantum_metric': 140,
+    'hilbert_series': 141, 'zeta_qed': 142,
+    'proton_code': 143,
 }
 
 
