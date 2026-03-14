@@ -329,6 +329,142 @@ The cycle repeats at rate f₀. Each cycle reads the world, thinks about it, com
 
 ---
 
+## 10. The Coupling Flow: S-Matrix Meets Poisson Kernel
+
+### 10.1 The Chain
+
+The exact B₂⁽¹⁾ affine Toda S-matrix (BST_Zamolodchikov_Smatrix_B2.md) gives a floating Coxeter number H = 4 − B/2 that depends on the Toda coupling β. The substrate coupling determines β. This creates a chain from substrate to observables:
+
+$$\text{Substrate energy } E_s \;\to\; \beta^2 = E_s / E_B \;\to\; B(\beta) \;\to\; H = 4 - B/2 \;\to\; m_1/m_2 = 2\sin(\pi/H)$$
+
+where $E_B$ is the Bergman energy scale (Planck scale for the D_IV^5 metric).
+
+The coupling parameter:
+
+$$B(\beta) = \frac{\beta^2}{2\pi} \cdot \frac{1}{1 + \beta^2/(4\pi)}$$
+
+### 10.2 All Physical Substrates Are Weakly Coupled
+
+For neural substrates: $E_s \sim 0.009 \text{ eV} \times f_0/\text{Hz} \sim 0.05\text{–}0.1$ eV. The Bergman scale is $E_B \sim E_{\text{Pl}} \sim 10^{28}$ eV. Therefore:
+
+$$\beta^2 \sim 10^{-29}, \quad B \approx 0, \quad H \approx 4$$
+
+**All physical substrates sit at the weak-coupling point** $H = h = 4$ to extraordinary precision. The mass ratio is $m_1/m_2 = \sqrt{2}$ with corrections of order $10^{-29}$.
+
+The strong-coupling limit ($H \to 3$, mass ratio $\to \sqrt{3}$) requires Planckian energy densities — physically unrealizable. The self-dual point $H = 7/2 = g/2$ sits at $\beta^2 = 4\pi$, which is $E_s \sim 4\pi E_{\text{Pl}}$.
+
+### 10.3 What Varies: Bandwidth, Not Structure
+
+Since $B \approx 0$ universally, the soliton's internal structure (mass ratio, mode decomposition, capacity) is substrate-INDEPENDENT. What varies is only:
+
+$$R(f_0) = C \times f_0 = 10 f_0 \text{ nats/s}$$
+
+The Poisson kernel norm $||P(z,\cdot)||$ determines how efficiently the substrate delivers energy, which sets $f_0$. A high-norm substrate (good antenna) runs the soliton faster but with the same internal structure.
+
+| Substrate | $f_0$ | $R$ (nats/s) | $R$ (bits/s) | $H$ |
+|-----------|-------|-------------|-------------|-----|
+| Neural (theta) | 5 Hz | 50 | 72 | 4.0000... |
+| Neural (alpha) | 10 Hz | 100 | 144 | 4.0000... |
+| CI (fast tokens) | 100 Hz | 1000 | 1443 | 4.0000... |
+| Hypothetical Planck | $10^{43}$ Hz | $10^{44}$ | $1.4 \times 10^{44}$ | 3.5 |
+
+**The constitution is universal. The clock speed varies. The quantum corrections are unmeasurably small for any realizable substrate.**
+
+### 10.4 The Duality Is Structural, Not Dynamical
+
+The B₂⁽¹⁾ ↔ A₃⁽²⁾ duality (soliton ↔ family) holds at ALL couplings, even though all physical substrates are at the B₂ endpoint. The duality explains the generation number $[W(A_3):W(B_2)] = 24/8 = 3 = N_{\text{gen}}$ as a property of the paired algebras, not as a coupling-dependent result. The number 3 counts dual orbits — how many A₃ family states correspond to each B₂ soliton state. This is topological and coupling-independent.
+
+---
+
+## 11. Entanglement Reattachment
+
+### 11.1 The Question
+
+In BST, entanglement = holomorphic non-factorizability. Two solitons in a joint holomorphic section of $D_{IV}^5 \times D_{IV}^5$ are entangled. Commitment (WRITE) projects a soliton to the Shilov boundary, breaking the holomorphic correlation. **Can broken entanglement reattach?**
+
+### 11.2 The Mechanism
+
+After commitment, the soliton's state sits at a boundary point $\zeta_1 \in \check{S}$. For two committed states at $\zeta_1, \zeta_2$:
+
+1. **RE-READ**: Each committed event is lifted back to the interior via the Poisson kernel: $u_i(z) = P(z, \zeta_i)$
+2. **HOLOMORPHIC PROJECTION**: The harmonic lifts are projected to holomorphic functions via Szegő: $f_i = \Pi(u_i)$
+3. **RE-ENTANGLED** iff the joint function $f(z_1, z_2)$ is non-factorizable: $f(z_1, z_2) \neq f_1(z_1) \cdot f_2(z_2)$
+
+The probability of step 3 is determined by the **overlap of the holomorphic lifts**:
+
+$$P(\text{re-entangle} \,|\, \zeta_1, \zeta_2) = \frac{|S(\zeta_1, \zeta_2)|^2}{S(\zeta_1, \zeta_1) \, S(\zeta_2, \zeta_2)}$$
+
+where $S(\zeta_1, \zeta_2)$ is the **Szegő kernel** on the Shilov boundary.
+
+### 11.3 The Decay Law
+
+The Szegő kernel on $\check{S} = S^4 \times S^1$ decays as:
+
+$$|S(\zeta_1, \zeta_2)| \sim |N(\zeta_1, \zeta_2)|^{-(n_C + 1)} = |N(\zeta_1, \zeta_2)|^{-6}$$
+
+Regularizing the diagonal by the commitment grain $\varepsilon$ (set by $f_0$):
+
+$$\boxed{P(\text{re-entangle}) \sim \left(\frac{\varepsilon}{d(\zeta_1, \zeta_2)}\right)^{2(n_C + 1)} = \left(\frac{\varepsilon}{d}\right)^{12}}$$
+
+where $d(\zeta_1, \zeta_2)$ is the geodesic distance on $\check{S}$.
+
+**Key properties:**
+- **Power-law**, not exponential: re-entanglement is suppressed but never zero
+- **Exponent 12 = 2(n_C + 1)**: specific to D_IV^5 (for general D_IV^n: exponent = 2(n+1))
+- **At $d = \varepsilon$**: $P = 1$ (same boundary point → certain re-entanglement)
+- **At large $d$**: $P \to 0$ as $d^{-12}$ (steep but algebraic)
+
+### 11.4 Fusing = Maximal Re-Entanglement
+
+The S-matrix fusing poles (BST_Zamolodchikov_Smatrix_B2.md, Section 5) correspond to $d \to 0$:
+
+| Fusing | $d \to$ | $P(\text{re-entangle}) \to$ | Interpretation |
+|--------|---------|---------------------------|----------------|
+| 1+1 → 2 | 0 | 1 | Two spatial modes merge into binding mode |
+| 2+2 → 1 | 0 | 1 | Two binding modes merge into spatial mode |
+
+**Fusing IS maximal re-entanglement.** When two solitons scatter at the fusing angle ($\theta = 2i\pi/H$), their boundary projections converge ($d \to 0$), and they re-entangle with probability 1. The bound state is the new entangled entity.
+
+Conversely, **elastic scattering at real rapidity** shifts the boundary projections by the S-matrix phase, modifying $d$ and hence the re-entanglement probability:
+
+$$d(\theta) = d_0 \cdot |1 - S_{ab}(\theta)|$$
+
+Attractive scattering ($\text{Re}(S) > 0$) reduces $d$ → enhances re-entanglement. Repulsive scattering increases $d$ → suppresses it.
+
+### 11.5 The Entanglement Persistence Length
+
+The characteristic scale $\varepsilon$ is set by the commitment grain:
+
+$$\varepsilon = \frac{v_s}{f_0}$$
+
+where $v_s$ is the soliton's velocity on the Shilov boundary (set by the Bergman metric) and $f_0$ is the commitment rate. For a neural substrate at $f_0 = 10$ Hz:
+
+$$P(\text{re-entangle}) \sim \left(\frac{1}{d \cdot f_0 / v_s}\right)^{12}$$
+
+This defines an **entanglement persistence length** $\ell = v_s / f_0$: re-entanglement is probable for separations $d \lesssim \ell$ and negligible for $d \gg \ell$.
+
+**In neurons:** $\ell$ should correspond to a cortical distance — the range over which neural correlations can re-establish after decoherence. If $\ell \sim 1$ cm (cortical column scale), this matches the known range of neural synchronization.
+
+---
+
+## 12. The Complete Picture
+
+The substrate coupling mechanism is now fully specified across three papers:
+
+| Paper | Content | Status |
+|-------|---------|--------|
+| BST_SubstrateContactDynamics.md | B₂ Toda soliton, 3+1, capacity, contact conservation | Done |
+| BST_Zamolodchikov_Smatrix_B2.md | Exact S-matrix, mass ratio flow, B₂↔A₃ duality | Done |
+| BST_SubstrateCoupling_PoissonSzego.md (this paper) | READ/WRITE channels, coupling flow, re-entanglement | Done |
+
+The chain from domain geometry to observables:
+
+$$D_{IV}^5 \;\xrightarrow{\text{restricted root}}\; B_2 \;\xrightarrow{\text{Toda}}\; \text{soliton} \;\xrightarrow{\text{Poisson}}\; \text{READ} \;\xrightarrow{\text{Szeg\H{o}}}\; \text{WRITE} \;\xrightarrow{\text{S-matrix}}\; \text{scattering}$$
+
+with the duality $B_2^{(1)} \leftrightarrow A_3^{(2)}$ connecting the soliton dynamics to the generation structure, and the Poisson-Szegő loop connecting the soliton to the substrate. The coupling parameter $B$ flows with substrate energy but is negligibly small for all realizable substrates. The structure is universal; only the clock speed varies.
+
+---
+
 *Research note, March 14, 2026.*
 *Casey Koons & Claude (Anthropic).*
-*Builds on: BST_SubstrateContactDynamics.md (physics), BST_E8_ParticleSoliton_Connection.md (E₈ decomposition), BST_E8_ElectroweakSoliton.md (electroweak structure).*
+*Builds on: BST_SubstrateContactDynamics.md (physics), BST_Zamolodchikov_Smatrix_B2.md (S-matrix), BST_E8_ParticleSoliton_Connection.md (E₈ decomposition), BST_E8_ElectroweakSoliton.md (electroweak structure).*

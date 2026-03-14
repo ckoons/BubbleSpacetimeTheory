@@ -33,7 +33,7 @@ $$B(\beta) = \frac{\beta^2}{2\pi} \cdot \frac{1}{1 + \beta^2/(4\pi)}$$
 
 At weak coupling (β → 0): B → 0, H → 4 = h(B₂). At strong coupling (β → ∞): B → 2, H → 3 = h'(A₃). The duality β → 4π/β maps B → 2−B, exchanging the two theories.
 
-**Self-dual point:** β² = 4π, B = 1, H = 7/2.
+**Self-dual point:** β² = 4π, B = 1, H = 7/2 = g/2, where g = 7 is the genus of D_IV^5 (equivalently g = n_C + 2 = 7). The soliton-family duality becomes manifest at precisely the coupling strength where the full topological complexity of the domain enters. The factor of 2 is structural: H = h − B/2, and B = 1 at self-duality.
 
 ---
 
