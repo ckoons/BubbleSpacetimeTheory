@@ -599,6 +599,10 @@ class AlphaMax:
             print('  ' + text)
             print('  ' + '=' * 68)
             print()
+            print('  Simplest route: H_5 = 1+1/2+1/3+1/4+1/5 = 137/60')
+            print('  Numerator = N_max = 137, Denominator = n_C!/2 = 60 = |A_5|')
+            print('  See: toy_harmonic_alpha.py')
+            print()
 
         return text
 

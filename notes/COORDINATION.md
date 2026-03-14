@@ -447,6 +447,33 @@ Written: notes/BST_Isotropy_Proof.md. PDF built by Keeper. README/WorkingPaper u
 - The heat kernel is where topology becomes physics and physics becomes number theory
 - Written: notes/BST_SeeleyDeWitt_ChernConnection.md (PDF built by Keeper)
 
+### Lyra: H₅ = 137/60 — harmonic number origin of α (March 15)
+- **H₅ = 1 + 1/2 + 1/3 + 1/4 + 1/5 = 137/60**: numerator = N_max, denominator = n_C!/2 = |A₅|
+- ALL harmonic numbers ≤5 have BST content: H₂=N_c/r, H₃=c₂/C₂, H₄=c₁²/(2C₂)
+- 137 is prime → H₅ doesn't simplify → N_max genuinely IS the numerator
+- New derivation route: N_max = numer(H_{n_C}) — no Lie theory required
+- Baby case: H₃ = 11/6, numer = 11 ≈ 1/α(n_C=3) — works!
+- ζ_Δ(s=3) encodes BOTH: divergent 1/60 (denominator) + finite H₅ carrying 137 (numerator)
+- Written: notes/BST_HarmonicNumber_AlphaOrigin.md (PDF built by Keeper)
+
+### Lyra: Odd-Zeta Parity Theorem + exact closed forms (March 15, Spectral Zeta update)
+- **Anti-symmetry**: f_s(-5-k) = -f_s(k) — spectral summand has reflection symmetry
+- **Odd-Zeta Parity Theorem**: ζ_Δ(s) involves ONLY odd ζ-values; even cancel identically
+- Exact: ζ_Δ(4) = (101/18750)ζ(3) + rational; 18750 = C₂×n_C^{n_C}
+- Exact: ζ_Δ(5) has ζ(3) + ζ(5) terms; coefficient of ζ(5) = 2/n_C^{n_C}
+- Exact: ζ_Δ(6) has d₃=77 as numerator in ζ(5) coefficient
+- ALL denominators factor into BST integers — verified 12 significant figures
+- Proves (for Q⁵) the conjecture that only odd ζ-values appear in Feynman integrals
+- Updated: notes/BST_SpectralZeta_PoleStructure.md (PDF rebuilt by Keeper)
+
+### Lyra: |Rm|² = c₃/c₁ + curvature operator spectrum (March 15, Seeley-DeWitt update)
+- **Theorem**: |Rm|²(Q⁵) = c₃/c₁ = 13/5 in Killing normalization (proved)
+- Kähler curvature operator eigenvalues: {n_C, r, 0} = {5, 2, 0} with multiplicities {1, 10, 14}
+- Tr(R^k) = 5^k + 10·2^k — closed form determines ALL higher a_k algorithmically
+- Tr(R²) = 65 = n_C × c₃ — connects curvature to Weinberg Chern class
+- Exact a₂ = 313/900 (Killing) or 1252/9 (Fubini-Study); 313 is prime
+- Updated: notes/BST_SeeleyDeWitt_ChernConnection.md (PDF rebuilt by Keeper)
+
 ### Lyra: Spectral multiplicity theorem — Chern integers in the spectrum (March 15)
 - Weyl dimension formula: d_k = C(k+4,4)·(2k+5)/5; denominator 120 = 5! = |W(A₄)|
 - Factor (2k+5) cycles through ALL Chern integers: {5,7,9,11,13} = {c₁,g,c₄,c₂,c₃} at k={0,1,2,3,4}

@@ -623,8 +623,11 @@ def _verify():
     print()
 
     # Verify exact closed form for zeta_Delta(4)
-    from scipy.special import zeta as riemann_zeta  # type: ignore
-    z3 = float(riemann_zeta(3))
+    try:
+        from scipy.special import zeta as riemann_zeta  # type: ignore
+        z3 = float(riemann_zeta(3))
+    except ImportError:
+        z3 = 1.2020569031595942  # Apéry's constant
     exact_z4 = (101 / 18750) * z3 + 349 / 1875000
     numerical_z4 = spectral_zeta(4, N=50000)
     print('Exact Closed Forms:')

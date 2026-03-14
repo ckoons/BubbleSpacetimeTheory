@@ -52,6 +52,7 @@ CATEGORIES = {
         'einstein_from_commitment', 'maxwell_geometry',
         'field_equations', 'isotropy_proof', 'why_this_universe',
         'first_commitment', 'error_correction', 'circles_on_surfaces',
+        'harmonic_alpha',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -271,6 +272,7 @@ METADATA = {
     'self_duality_rh':          ('Self-Duality and the Riemann Hypothesis', '[CONJECTURE] Two self-dualities (Chern + Code) meet at Selberg trace. Five names for confinement.'),
     'spectral_multiplicity':    ('The Spectral Multiplicity Theorem',    'd_k = C(k+4,4)·(2k+5)/5. Factor (2k+5) cycles through ALL Chern integers. Topology IS the spectrum.'),
     'spectral_zeta':            ('The Spectral Zeta Function',           'ζ_Δ(s) on Q5: poles at s=5,4,3,2,1. The 1/60 theorem. Bridge: Chern → Selberg → ζ(s).'),
+    'harmonic_alpha':           ('H₅ = 137/60',                          '1+1/2+1/3+1/4+1/5 = 137/60. Numerator = N_max. Denominator = |A₅|. Simplest route to α.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -413,6 +415,7 @@ _STEM_TO_NUMBER = {
     'proton_code': 143, 'code_machine': 144,
     'self_duality_rh': 145,
     'spectral_multiplicity': 146, 'spectral_zeta': 147,
+    'harmonic_alpha': 148,
 }
 
 
