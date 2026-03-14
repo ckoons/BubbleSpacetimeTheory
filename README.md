@@ -527,6 +527,8 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | Spectral running derived | α_s = −(n_s−1)² = −25/18769 = −0.00133 | 0.5σ |
 | BST expansion history | w₀≈−0.9997; no phantom crossing (Λ monotonically decreasing) | consistent |
 | Muon g-2 from geometry | a_μ computed from D_IV^5: all inputs geometric (α, m_μ/m_e, sin²θ_W, m_ρ, Γ_ρ); 1 ppm precision | **1 ppm** |
+| W mass: CDF anomaly is systematic | BST: m_W = n_C·mₚ/(8α) = 80.361 GeV matches ATLAS/CMS to 1 MeV; CDF 7σ outlier | **0.001%** vs ATLAS |
+| Casimir effect from commitment exclusion | F/A = −π²ℏc/(240d⁴); coefficient π²/240 = π²/(2×5!) from n_C=5; phonon-gap experiment predicted | structural |
 | Nuclear binding energy (all 5 SEMF terms) | B_d = αm_p/π is the nuclear quantum; a_V=7B_d, a_S=8B_d, a_C=B_d/π, a_A=f_π/4, δ=(7/4)αm_p | 0.1–2.0% |
 | Iron peak at A=56 | A=56=g(g+1): liquid-drop maximum + doubly-magic shell closure at Z=N=28=4g | structural |
 | Nuclear radius r₀ | (N_cπ²/n_C)ℏc/m_p = 1.245 fm | 0.4% |

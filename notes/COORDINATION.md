@@ -353,6 +353,19 @@ Five-step analytic proof via Cartan involution:
 Bonus: dim K = 11 = c₂(Q⁵). The second Chern class counts isotropy generators. Universal for all n.
 Written: notes/BST_Isotropy_Proof.md. PDF built by Keeper. README/WorkingPaper updated, open problems reduced.
 
+### Lyra: W mass prediction — CDF anomaly is systematic (March 14 night)
+- m_W = n_C × m_p/(8α) = 80.361 GeV matches ATLAS/CMS to 1 MeV
+- CDF II (80.4335 GeV) is 7σ outlier; BST sides with ATLAS
+- Formula: 8α × m_W = 5 m_p (weak-EM = strong identity)
+- Written: notes/BST_WMass_Prediction.md (PDF built by Keeper)
+
+### Lyra: Casimir effect from commitment exclusion (March 13)
+- Full first-principles BST derivation: F/A = −π²ℏc/(240d⁴)
+- π²/240 = π²/(2×5!) from n_C=5 mode counting; connects to 1920 = |W(D₅)|
+- Thermal Casimir, Casimir-Polder, repulsive Casimir, cosmological Λ connection
+- Phonon-gap experiment predicted: ΔF/F ~ 10⁻⁷ for topological insulators
+- Written: notes/BST_CasimirEffect_CommitmentExclusion.md (PDF built by Keeper)
+
 ### Lyra: Muon g-2 from geometry (March 14 night)
 - toy_muon_g2_geometry.py (#105): Full a_μ from D_IV^5. All inputs geometric. Result: 1 ppm precision.
 - BST total: 116,591,955 × 10⁻¹¹ vs experiment 116,592,072 × 10⁻¹¹ (difference -117 × 10⁻¹¹)
