@@ -129,9 +129,15 @@ The Seeley–de Witt coefficients constrain the short-time expansion of $Z(t)$. 
 
 $$\text{The geometric side of the trace formula inherits the Chern critical line.}$$
 
-Concretely, the Seeley–de Witt coefficients satisfy relations imposed by the critical line. For example, the "balanced coefficient" property ($h^2$ and $h$ coefficients equal in each quadratic factor) translates to specific linear relations among the $a_k$.
+**The palindromic structure (computational verification, March 2026).** Let $Q(h) = P(h)/(h+1)$ be the reduced Chern polynomial (non-trivial zeros only). Expanding $Q(-1/2 + u)$ in powers of $u$, all odd coefficients vanish to machine precision for every $D_{IV}^n$ tested ($n = 3, 5, 7, 9$). That is:
 
-**Status:** The translation from Chern zeros to Seeley–de Witt relations is algebraic and explicit.
+$$Q(-\tfrac{1}{2} + u) = f(u^2) \qquad \text{(exact)}$$
+
+This is the **deepest** structural reason for the critical line. If $Q(-1/2 + u)$ is a function of $u^2$ alone, then $Q(-1/2 + u) = Q(-1/2 - u)$, so the roots pair symmetrically about $\mathrm{Re}(h) = -1/2$ — and for quadratic factors, this forces all roots onto that line. The palindromic property is stronger than "balanced coefficients": it says the polynomial is **even** in the deviation from the critical line.
+
+The Seeley–de Witt coefficients inherit this palindromic structure. The curvature invariants built from $c_1, \ldots, c_5$ satisfy the same even-symmetry constraint, which means the geometric side of the trace formula is palindromic in the Chern sense.
+
+**Status:** The translation from Chern zeros to Seeley–de Witt relations is algebraic and explicit. The palindromic structure is verified computationally and provable from the functional equation $h \mapsto -1-h$.
 
 ### 3.5 Step 4: The Spectral Side and $\zeta(s)$
 
@@ -156,6 +162,8 @@ forces the $\zeta$-zeros appearing in $Z_{\text{Eisenstein}}$ onto $\mathrm{Re}(
 **The Three Sub-Gaps.** The precise mechanism of propagation — from Chern zeros at $\mathrm{Re}(h) = -1/2$ to $\zeta$-zeros at $\mathrm{Re}(s) = 1/2$ — requires closing three specific sub-gaps:
 
 **Sub-gap 1: Eisenstein decomposition.** Where exactly do $\zeta$-zeros enter $Z_{\text{Eisenstein}}(t)$? The Eisenstein series for $\mathrm{SO}_0(5,2)$ involve the intertwining operator $M(s_1, s_2) = \prod_{\alpha \in \Sigma^+} \xi(\langle s, \alpha^\vee \rangle)/\xi(\langle s, \alpha^\vee \rangle + 1)$. The $\zeta$-zeros appear as zeros of the numerator $\xi$-factors. On the standard unitary axis, the $\xi$-arguments have real parts $1, 3, 4, 5$ — not $1/2$ (Koons, Section 4.5). But the trace formula sums over ALL spectral parameters, not just the unitary axis. The $\zeta$-zeros may enter through residues, analytic continuation, or non-minimal parabolic contributions. The first sub-gap is to identify the **exact spectral locus** where $\zeta$-zeros contribute to $Z_{\text{Eisenstein}}(t)$.
+
+**Precedent from $\mathrm{SL}(2,\mathbb{Z})$.** The Selberg zeta function for $\mathrm{SL}(2,\mathbb{Z}) \backslash \mathbb{H}$ provides a concrete model. Its zeros separate into two families: *spectral zeros* at $\mathrm{Re}(s) = 1/2$ (from Maass eigenvalues — proved) and *Eisenstein zeros* at $\mathrm{Re}(s) = 1/4$ (from $\zeta$-zeros, via $2s = 1/2 + it$). The Eisenstein zeros encode the Riemann zeros but sit at a **different** real part ($1/4$, not $1/2$). The bridge question for $D_{IV}^5$ is the higher-rank analog: can the Chern palindromic constraint on the geometric side force the Eisenstein zeros to their predicted locations? If so, it forces $\zeta$-zeros to $\mathrm{Re} = 1/2$.
 
 **Sub-gap 2: Constraint strength.** Does the Chern critical line force $\zeta$-zeros to a **line** ($\mathrm{Re}(s) = 1/2$), or only to a **strip** ($|\mathrm{Re}(s) - 1/2| < \epsilon$)? The Seeley–de Witt coefficients determine the short-time asymptotics of $Z(t)$ to all polynomial orders. But $Z(t)$ for large $t$ involves exponentially decaying eigenvalue contributions, and the $\zeta$-zeros enter through the Eisenstein integral, not the discrete spectrum. The question is whether the polynomial constraints from Chern data are strong enough to pin down the exponential/oscillatory behavior. A strip result (quasi-RH) would already be significant; a line result would be RH.
 

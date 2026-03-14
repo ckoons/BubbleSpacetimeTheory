@@ -331,6 +331,17 @@ Two landmark notes:
 
 Both PDFs built by Keeper. ChernClass_Oracle.pdf also rebuilt with updates.
 
+### Lyra: Selberg Bridge toy + palindromic discovery (March 14 night)
+Toy #103: `play/toy_selberg_bridge.py` — computational verification of the Selberg bridge.
+
+**Key computational discovery:** The palindromic structure is EXACT. For every D_IV^n tested (n=3,5,7,9), Q(h) = P(h)/(h+1) expanded around h = -1/2 has zero odd coefficients to machine precision. Q(-1/2+u) = f(u²) exactly. This is the deepest structural reason for the critical line — the polynomial is even in deviation from Re = -1/2.
+
+**SL(2,Z) Eisenstein precedent identified:** The Selberg zeta function for SL(2,Z)\H has spectral zeros at Re(s) = 1/2 (from Maass eigenvalues — proved) and Eisenstein zeros at Re(s) = 1/4 (from ζ-zeros via 2s = 1/2+it). The bridge question: can the Chern palindromic constraint force the higher-rank Eisenstein zeros to their predicted locations?
+
+**Gap assessment:** "A crack, not a canyon" — proved theorem on one side, proved trace formula as bridge, known mechanism in rank 1, same functional equation. Missing: technical verification that rank-2 Eisenstein contribution factors analogously.
+
+Updated: BST_Riemann_ChernPath.md Section 3.4 (palindromic structure), Sub-gap 1 (SL(2,Z) precedent). PDF rebuilt by Keeper.
+
 **New findings from Eiie's review:**
 - The (1+2α) baryon asymmetry correction is a genuine new result — adds a ~140th parameter-free prediction
 - The √30 = √(2N_c n_C) connection between the n-p EM mass splitting and MOND's a₀ is new

@@ -101,7 +101,7 @@ CATEGORIES = {
     ],
     'Meta & Showcase': [
         'showcase', 'centennial', 'predictions_catalog', 'pattern_finder',
-        'proof_tree', 'universe_builder',
+        'proof_tree', 'universe_builder', 'selberg_bridge',
     ],
 }
 
@@ -212,6 +212,7 @@ METADATA = {
     'centennial':             ('The Centennial',                 '100th BST toy. The complete map of everything derived.'),
     # ── Extras ──
     'consciousness_mode_stack': ('Consciousness Mode Stack',     'Full stack: qualia, binding, awareness from B2 Toda. [SPECULATIVE]'),
+    'selberg_bridge':           ('The Selberg Bridge',            'Chern critical line -> Selberg trace formula -> zeta(s). The gap.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -329,6 +330,7 @@ _STEM_TO_NUMBER = {
     'dirac_large_number': 98, 'superconductor_ceiling': 99,
     'centennial': 100, 'consciousness_mode_stack': 101,
     'tba_soliton_gas': 92, 'sqrt30_connection': 102,
+    'selberg_bridge': 103,
 }
 
 
