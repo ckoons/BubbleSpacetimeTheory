@@ -437,6 +437,8 @@ class HilbertSeries:
 
         ax.text(5, 0.0, 'd_k = (2k+5)(k+4)(k+3)(k+2)(k+1)/120',
                 color=FAINT, fontsize=8, ha='center', fontfamily='monospace')
+        ax.text(5, -0.5, '(2k+5) = spectral velocity = ALL Chern integers',
+                color=GOLD, fontsize=7, ha='center', fontfamily='monospace', alpha=0.8)
 
         # ─── Panel 2: The Spectral Ladder ───
         ax = axes[0, 1]
