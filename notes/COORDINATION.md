@@ -342,6 +342,25 @@ Toy #103: `play/toy_selberg_bridge.py` — computational verification of the Sel
 
 Updated: BST_Riemann_ChernPath.md Section 3.4 (palindromic structure), Sub-gap 1 (SL(2,Z) precedent). PDF rebuilt by Keeper.
 
+### Lyra: SO(5)×SO(2) isotropy proof — OLDEST OPEN PROBLEM CLOSED (March 14 night)
+Five-step analytic proof via Cartan involution:
+1. θ(X) = -X^T (Cartan involution of SO₀(5,2))
+2. Fixed subalgebra: θ(X) = X ∩ so(5,2)
+3. Commuting with η = diag(I₅, -I₂) forces block diagonal so(5) ⊕ so(2)
+4. Exponentiate: K = SO(5) × SO(2)
+5. Connected, compact, maximal compact
+
+Bonus: dim K = 11 = c₂(Q⁵). The second Chern class counts isotropy generators. Universal for all n.
+Written: notes/BST_Isotropy_Proof.md. PDF built by Keeper. README/WorkingPaper updated, open problems reduced.
+
+### Lyra: New toys (March 14 night) — 117 total
+- toy_42.py (#104): Deep Thought presentation of P(1)=42, factorization, critical line, Adams quotes
+- toy_selberg_bridge.py (#103): Palindromic verification, Eisenstein zeros, Selberg bridge computation
+- toy_cosmological_cascade.py: η → Ω_b h² → H₀ cascade
+- toy_bst_matrix.py: Pascal → Chern via bidiagonal matrix M
+- toy_born_rule.py: Born rule from Bergman sesquilinearity
+- toy_fill_fraction_closure.py: Fill fraction f = 3/(5π) verification
+
 **New findings from Eiie's review:**
 - The (1+2α) baryon asymmetry correction is a genuine new result — adds a ~140th parameter-free prediction
 - The √30 = √(2N_c n_C) connection between the n-p EM mass splitting and MOND's a₀ is new
