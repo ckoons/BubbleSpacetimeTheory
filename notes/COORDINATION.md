@@ -385,3 +385,87 @@ Written: notes/BST_Isotropy_Proof.md. PDF built by Keeper. README/WorkingPaper u
 - The √30 = √(2N_c n_C) connection between the n-p EM mass splitting and MOND's a₀ is new
 - The Plancherel formal degree factorization provides a second proof route for f = 3/(5π)
 - α_s status honestly downgraded: c₁ is geometrically motivated but sketched, not rigorously proved
+
+---
+
+## New Results (March 15)
+
+### Lyra: Hyperfine splittings from Chern classes — NEW
+- Four heavy-meson hyperfine splittings from c₃ = 13 numerator with generation-dependent denominators
+- J/ψ − η_c: 13/18 × π⁵mₑ = 112.94 MeV (obs 113.0, **0.055%**)
+- Υ − η_b: 13/33 × π⁵mₑ = 61.60 MeV (obs 61.6, **0.004%**)
+- B* − B: 13/45 × π⁵mₑ = 45.18 MeV (obs 45.37, **0.42%**)
+- D*⁰ − D⁰: 10/11 × π⁵mₑ = 142.16 MeV (obs 142.01, **0.11%**)
+- **Clean test**: cc̄/bb̄ ratio = c₂/C₂ = 11/6 = 1.8333 (obs 1.834, **0.06%**) — parameter-free ratio
+- c₂ = dim K = 11 universally (theorem: true for all Q^n)
+- D*± − D± isospin splitting: 1/(dim_R × c₂) = 1/110 of base unit (0.7%)
+- Written: notes/BST_HyperfineSplittings_ChernClass.md (PDF built by Keeper)
+
+### Lyra: The spectral gap IS the mass gap — NEW
+- λ₁(Q⁵) = n_C + 1 = 6 = C₂ (the first eigenvalue of the Laplacian on Q⁵)
+- m_p = λ₁(Q⁵) × π^{n_C} × mₑ — proton mass IS the spectral gap
+- Mass gap is a spectral theorem, not a dynamical conjecture
+- Full eigenvalue spectrum λ_k = k(k+5) gives the mass hierarchy
+- Confinement = compactness of Q⁵ (discrete spectrum = confinement)
+- Written: notes/BST_SpectralGap_MassGap.md (PDF built by Keeper)
+
+### Lyra: The multiplicity d₁ = 7 IS the genus — NEW (includes new n_C=5 uniqueness)
+- d₁(Q⁵) = 7 = g = n_C + 2 (spectral multiplicity = genus = Chern exponent)
+- Three views: spectral (eigenfunctions), topological (Chern exponent), geometric (CP⁶ embedding)
+- Bridge: Borel-Weil theorem identifies d₁ = H⁰(Q⁵, O(1)) = ℂ⁷
+- **d₁ × λ₁ = P(1) = 42 holds ONLY at n = 5** — new uniqueness condition
+- Proof: (n+2)(n+1) = (2^{n+2}−2)/3 has unique positive odd solution n = 5 (polynomial vs exponential crossing)
+- This is the **4th independent uniqueness proof** for n_C = 5 (max-α, η' anomaly, Casimir-root, d₁λ₁=P(1))
+- Partition function: Z(t) = 1 + 7e^{-6t} + ...; leading correction has 42 = g × C₂ modes
+- Written: notes/BST_Multiplicity7_Genus_Synthesis.md (PDF built by Keeper)
+
+### Lyra: Proton stability — topological theorem — NEW
+- **τ_p = ∞** (exact, not a parameter choice)
+- D_IV^5 is contractible → all bundles trivial → c₂ = 0 → no instantons → no baryon number violation
+- The Z₃ circuit (baryon number) cannot unwind — no path in config space
+- Gap C₂ = 0 → C₂ = 6 has no intermediate states → no perturbative channel either
+- Strong CP (θ=0), proton stability (τ_p=∞), mass gap (C₂=6): three aspects of ONE theorem
+- Hyper-Kamiokande (2027+): no decay at 10³⁵ yr excludes most GUTs. BST predicts exact zero.
+- Any single proton decay falsifies BST — maximally falsifiable
+- Written: notes/BST_ProtonStability_Topological.md (PDF built by Keeper)
+
+### Lyra: Why quantum is discrete — NEW
+- **Quantization = compactness of Q⁵**
+- Circles on closed surfaces → integer winding numbers → discrete eigenvalues → QM
+- Three levels: topological (winding), spectral (eigenvalues), representation (quantum numbers)
+- Holomorphic = quantum: Bergman space A²(D_IV^5) IS the quantum Hilbert space
+- Mass gap: no integer between 0 and 1 → spectral gap λ₁ = 6
+- No axioms needed — "just circles on closed surfaces" (Casey Koons)
+- Written: notes/BST_WhyQuantumIsDiscrete.md (PDF built by Keeper)
+
+### Lyra: Seeley-DeWitt bridge — heat kernel connects everything (March 14)
+- Three-way dictionary: Chern classes c_k ↔ Seeley-DeWitt a_k ↔ spectral zeta ζ_Δ(s)
+- a₀ = 1, a₁ = 2c₁²/3 = 50/3 (exact), a₂ through a₅ require Lie-theoretic computation
+- Harish-Chandra heat kernel: closed form via c-function for B₂ root system (m_s=3, m_l=1)
+- Key open calculation: Plancherel measure Taylor expansion → explicit a_k dictionary
+- Bridge to Riemann: Chern critical line → a_k constraints → Selberg trace → ζ(s)
+- The heat kernel is where topology becomes physics and physics becomes number theory
+- Written: notes/BST_SeeleyDeWitt_ChernConnection.md (PDF built by Keeper)
+
+### Lyra: Riemann Chern Path — updated with 4 new tools (March 15)
+- Section 7.3: The 42 uniqueness theorem (d₁ × λ₁ = P(1) only at n=5)
+- Section 8.1: Spectral gap IS mass gap (λ₁ = 6 = C₂)
+- Section 8.2: Seeley–de Witt heat kernel bridge (Chern → a_k → ζ_Δ → Selberg → ζ(s))
+- Section 8.3: Multiplicity–gap product Z(t) = 1 + 7e⁻⁶ᵗ + ...
+- The path is narrower and better lit; baby case D_IV^3 has explicit coefficients
+- Updated: notes/BST_Riemann_ChernPath.md (PDF rebuilt by Keeper)
+
+### Lyra: Quantum metric = Bergman metric — Geneva confirmation (March 15)
+- New note connecting BST to Sala et al. (Science 389, 822, 2025)
+- Bergman metric on D_IV^5 IS a Fubini-Study metric (same structure as what Geneva measured)
+- Spin-momentum locking explained by K = SO(5)×SO(2) isotropy
+- Table mapping every Geneva finding to a BST prediction
+- Quantitative predictions: masses from spectral gap, α from Bergman kernel volume, sin²θ_W from Chern class ratio
+- Experimental implications: condensed matter verification of BST
+- Written: notes/BST_QuantumMetric_FubiniStudy.md (PDF built by Keeper)
+- README, WorkingPaper, COORDINATION all updated
+
+### New toys (March 14-15) — toy count now 140+
+- toy_spectral_gap.py (#107): spectral gap = mass gap, multiplicities, zeta function
+- toy_circles_on_surfaces.py (#108): quantization from compactness demonstration
+- 30+ additional toys from Elie (batch March 14): casimir, chiral_condensate, primordial_gw, constants_dashboard, w_mass, spectral_gap, hydrogen_spectrum, electron_g2, quark_masses, alpha_particle, magnetic_moments, heavy_mesons, einstein_from_commitment, strong_cp, three_generations, anomaly_cancellation, maxwell_geometry, baryon_asymmetry, schrodinger_substrate, orch_or, baby_trace_formula, gw_echoes, desi_expansion, field_equations, isotropy_proof, why_this_universe, deconfinement, first_commitment, error_correction, pion_radius, and more

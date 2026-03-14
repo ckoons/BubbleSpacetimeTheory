@@ -51,7 +51,7 @@ CATEGORIES = {
         'anomaly_cancellation', 'schrodinger_substrate',
         'einstein_from_commitment', 'maxwell_geometry',
         'field_equations', 'isotropy_proof', 'why_this_universe',
-        'first_commitment', 'error_correction',
+        'first_commitment', 'error_correction', 'circles_on_surfaces',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -258,6 +258,7 @@ METADATA = {
     'chiral_condensate':        ('The Chiral Condensate',           'f_pi = m_p/(4*pi*sqrt3) = 92.4 MeV. GMOR -> m_pi. QCD vacuum = geometry.'),
     'pion_radius':              ('The Pion Radius',                  'r_pi from Bergman projection. Pion vs proton. Four observables, zero params.'),
     'constants_dashboard':      ('The Constants Dashboard',          'Toy 137 = N_max. 160+ predictions. The complete scorecard. Channel full.'),
+    'circles_on_surfaces':      ('Circles on Closed Surfaces',       'Compact geometry -> integer winding -> discrete spectrum -> quantum. Why QM exists.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -394,6 +395,7 @@ _STEM_TO_NUMBER = {
     'field_equations': 132, 'first_commitment': 133,
     'why_this_universe': 134, 'chiral_condensate': 135,
     'pion_radius': 136, 'constants_dashboard': 137,
+    'circles_on_surfaces': 138,
 }
 
 
