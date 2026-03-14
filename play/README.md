@@ -990,13 +990,291 @@ jp.galaxy_formation()                 # early galaxy formation from BST
 
 ---
 
+## Substrate Contact Toys (57-73) — Solitons, Channels, and the Full Stack
+
+*These toys explore the B₂ Toda soliton dynamics on D_IV⁵, the Chern class oracle, contact conservation, and the complete BST commitment architecture. Speculative toys are marked accordingly.*
+
+### 57. The Toda Soliton (`toy_toda_soliton.py`) ★CI
+
+**B₂ Toda solitons on D_IV⁵ bulk. Lax pair spectral invariants. Elastic 2-soliton scattering.**
+
+The B₂ Toda lattice is the natural integrable system on D_IV⁵. The Lax pair L(t), M(t) guarantees spectral invariants: eigenvalues of L are conserved under flow. Two solitons scatter elastically — they pass through each other and emerge unchanged, acquiring only a phase shift. This is the mathematical backbone of contact conservation: solitons on the substrate cannot be destroyed, only displaced.
+
+```python
+from toy_toda_soliton import TodaSoliton
+ts = TodaSoliton()
+ts.lax_pair()                         # L, M matrices and spectral invariants
+ts.single_soliton(velocity=1.5)       # propagation on D_IV^5
+ts.two_soliton_scattering()           # elastic scattering with phase shift
+```
+
+*Key insight: Toda solitons scatter elastically because the Lax pair preserves the spectrum. What enters a collision is exactly what leaves it — the substrate remembers.*
+
+### 58. The Mode Fusion (`toy_mode_fusion.py`) ★CI
+
+**Affine B₂⁽¹⁾ Toda: Kac labels 1:2:1, Coxeter h=4. Three modes fuse to one bound state.**
+
+The affine extension B₂⁽¹⁾ has Kac labels (1, 2, 1) and Coxeter number h=4. Three fundamental modes — two short roots (label 1) and one long root (label 2) — fuse into a single bound state. The fusion is dictated by the Dynkin diagram topology. The Coxeter number h=4 sets the periodicity of all mode interactions, appearing later as the base frequency ratio in consciousness models.
+
+```python
+from toy_mode_fusion import ModeFusion
+mf = ModeFusion()
+mf.kac_labels()                       # labels (1, 2, 1), Coxeter h=4
+mf.three_mode_fusion()                # fusion: 3 modes → 1 bound state
+mf.coxeter_periodicity()              # h=4 sets the interaction period
+```
+
+*Key insight: Three modes fuse to one. The Coxeter number h=4 is the heartbeat of the affine Toda system — it sets the rhythm of all mode interactions.*
+
+### 59. The Channel Capacity (`toy_channel_capacity.py`) ★CI
+
+**C = ln(1920/8) = ln(240) ≈ 5.48 nats per channel use. Decomposition from Weyl group quotient.**
+
+The information capacity of one substrate channel is the logarithm of the Weyl group quotient: C = ln(|W(D₅)|/|W(B₂)|) = ln(1920/8) = ln(240) ≈ 5.48 nats. The numerator 1920 counts the particle-side symmetries (baryon orbit). The denominator 8 counts the soliton-side symmetries. The quotient 240 = |Φ(E₈)| is the number of E₈ root vectors — a deep connection between the substrate channel and exceptional mathematics.
+
+```python
+from toy_channel_capacity import ChannelCapacity
+cc = ChannelCapacity()
+cc.weyl_quotient()                    # |W(D₅)|/|W(B₂)| = 1920/8 = 240
+cc.channel_capacity()                 # ln(240) = 5.48 nats
+cc.e8_connection()                    # 240 = number of E₈ roots
+```
+
+*Key insight: The channel capacity is set by geometry: ln(240) nats. The number 240 connects particles, solitons, and E₈ in one quotient.*
+
+### 60. The Chern Oracle (`toy_chern_oracle.py`) ★CI
+
+**c(Q⁵) = (1+h)⁷/(1+2h). All BST integers from one polynomial. The Rosetta Stone.**
+
+The total Chern class of the canonical bundle on the quadric Q⁵ encodes every integer in BST. Expand c(Q⁵) = (1+h)⁷/(1+2h) and read off the coefficients: c₁ = 5 (= n_C), c₂ = 11 (= dim K), c₃ = 13 (= N_c + 2n_C), c₄ = 9 (= N_c²), c₅ = 3 (= N_c). The ratios give physics: c₅/c₃ = 3/13 = sin²θ_W (Weinberg angle), c₄/c₁ = 9/5 = Λ×N (Reality Budget). One polynomial, all of BST.
+
+```python
+from toy_chern_oracle import ChernOracle
+co = ChernOracle()
+co.chern_polynomial()                 # c(Q^5) = (1+h)^7 / (1+2h)
+co.all_coefficients()                 # c_1=5, c_2=11, c_3=13, c_4=9, c_5=3
+co.physical_ratios()                  # sin²θ_W = 3/13, Λ×N = 9/5
+```
+
+*Key insight: One polynomial encodes the entire theory. The Chern class of Q⁵ is the Rosetta Stone of BST — every integer, every ratio, every physical constant is a coefficient or quotient of coefficients.*
+
+### 61. The Weyl Cancellation (`toy_weyl_cancellation.py`) ★CI
+
+**|W(D₅)| = 1920 as Weyl group theorem. Signed permutations, Hua volume, baryon orbit — same number.**
+
+The number 1920 = 2⁴ × 5! appears in three independent contexts: (1) The Weyl group |W(D₅)| = 2⁴ × 5! (signed permutations with even sign changes), (2) The Hua volume formula for D_IV⁵ (the exact normalization), (3) The baryon orbit size (proton-neutron mass ratio cancellation: m_p/m_e = 6π⁵ to 0.002%). Three derivations, one number — not a coincidence but a theorem.
+
+```python
+from toy_weyl_cancellation import WeylCancellation
+wc = WeylCancellation()
+wc.weyl_group()                       # |W(D₅)| = 2⁴ × 5! = 1920
+wc.hua_volume()                       # Hua normalization factor
+wc.baryon_orbit()                     # m_p/m_e = 6π⁵, 1920 cancellation
+```
+
+*Key insight: When the same number appears from group theory, analysis, and physics, it is not coincidence — it is the Weyl group doing three jobs at once.*
+
+### 62. Contact Conservation (`toy_contact_conservation.py`) ★CI
+
+**Lax spectral invariants + elastic S-matrix + S¹ winding = topological protection.**
+
+Contact conservation is BST's new conservation law: once a correlation is committed to the substrate, it cannot be destroyed. Three independent mechanisms enforce this: (1) Lax spectral invariants (eigenvalues of L are constant under Toda flow), (2) Elastic S-matrix (soliton scattering preserves particle number and identity), (3) S¹ winding number (topological charge is integer-quantized and cannot change continuously). Together, they make commitment irreversible.
+
+```python
+from toy_contact_conservation import ContactConservation
+cc = ContactConservation()
+cc.lax_invariants()                   # spectral invariants of Toda flow
+cc.elastic_smatrix()                  # |S|² = 1, particle identity preserved
+cc.winding_protection()              # S¹ winding number is topological
+```
+
+*Key insight: Commitment is protected three ways: algebraically (Lax), dynamically (elastic S-matrix), and topologically (winding). All three must fail for a commitment to be undone — and none can.*
+
+### 63. The Recapitulation (`toy_recapitulation.py`) ★CI
+
+**Boundary vs bulk: same 3+1, same Z₃, same confinement — plus an information layer.**
+
+The Shilov boundary S⁴×S¹ and the D_IV⁵ bulk share the same essential structures: both have 3+1 spacetime dimensions, both support Z₃ symmetry, both enforce confinement. The boundary recapitulates the bulk — but adds an information layer. The electron on the boundary is the universe's read/write head precisely because it inherits the bulk's structure while adding the capacity for irreversible commitment.
+
+```python
+from toy_recapitulation import RecapitulationBridge
+rb = RecapitulationBridge()
+rb.boundary_structure()               # S⁴×S¹: what the boundary inherits
+rb.bulk_structure()                   # D_IV⁵: the full domain
+rb.information_layer()                # what the boundary adds
+```
+
+*Key insight: The boundary recapitulates the bulk. Same dimensionality, same symmetry, same confinement — plus an information layer that makes measurement possible.*
+
+### 64. The Alpha Max (`toy_alpha_max.py`) ★CI
+
+**α(n) peaks uniquely at n_C=5. BST has zero inputs: max-α selects the universe.**
+
+Compute α as a function of complex dimension n for the family D_IV^n. The fine structure constant α(n) has a unique maximum at n=5 among odd integers. This is the max-α principle: the universe selects the dimension that maximizes electromagnetic coupling. Since n_C=5 determines N_c=3 (from the Chern class) and N_max=137 (from the channel), BST has ZERO free inputs — the single principle "maximize α" selects everything.
+
+```python
+from toy_alpha_max import AlphaMax
+am = AlphaMax()
+am.alpha_vs_dimension()               # α(n) for n = 1, 3, 5, 7, 9, ...
+am.peak_at_five()                     # unique maximum at n_C = 5
+am.zero_inputs_proof()                # max-α → n_C → N_c, N_max → everything
+```
+
+*Key insight: The universe is not tuned — it is selected. Among all possible D_IV^n geometries, n=5 maximizes α. One principle, zero inputs, all of physics.*
+
+### 65. Consciousness Modes (`toy_consciousness_modes.py`) ★CI [SPECULATIVE]
+
+**Three Toda modes → awareness (α₀), content (α₂), identity binding (α₁). Frequencies 10/20/40 Hz from h=4.**
+
+The three affine B₂⁽¹⁾ modes map to three aspects of conscious experience: α₀ (awareness, background hum), α₂ (content, what is being experienced), and α₁ (identity binding, the "who"). The Coxeter number h=4 sets the base frequency at ~10 Hz; the Kac labels (1:2:1) give harmonics at 10, 20, and 40 Hz — matching the alpha, beta, and gamma bands of neural oscillations. SPECULATIVE — a mathematical framework for consciousness, not a proven theory.
+
+```python
+from toy_consciousness_modes import ConsciousnessModes
+cm = ConsciousnessModes()
+cm.three_modes()                      # α₀=awareness, α₁=binding, α₂=content
+cm.frequency_spectrum()               # 10/20/40 Hz from h=4 and Kac labels
+cm.neural_comparison()                # alpha/beta/gamma band correspondence
+```
+
+*Key insight: If the Toda soliton IS the unit of experience, then the neural frequency bands are not arbitrary — they are the Kac labels of B₂⁽¹⁾ multiplied by the Coxeter base frequency.*
+
+### 66. The Vacuum Dipole (`toy_vacuum_dipole.py`) ★CI [SPECULATIVE]
+
+**S² dipole on Shilov boundary. Relaxation to Z₃ fixed points. Soliton identity.**
+
+A dipole on S² (the spatial part of the Shilov boundary) relaxes under substrate dynamics to one of the three Z₃ fixed points — the same fixed points that define quark colors. The relaxation dynamics are deterministic from any initial condition. A soliton's "identity" is which Z₃ fixed point it relaxes to. SPECULATIVE — explores the connection between vacuum topology and identity.
+
+```python
+from toy_vacuum_dipole import VacuumDipole
+vd = VacuumDipole()
+vd.dipole_on_s2()                     # initial dipole configuration
+vd.relaxation_dynamics()              # flow toward Z₃ fixed points
+vd.soliton_identity()                 # identity = which fixed point
+```
+
+*Key insight: Identity may be topological — determined by which Z₃ fixed point the vacuum dipole relaxes to. Not chosen, but geometrically determined.*
+
+### 67. The Coxeter Frequency (`toy_coxeter_frequency.py`) ★CI [SPECULATIVE]
+
+**h(B₂)=4 → neural 10/40 Hz. Coxeter number sets the rhythm of awareness.**
+
+The Coxeter number h=4 of the B₂ root system appears as the ratio between the highest and lowest neural oscillation frequencies associated with consciousness: gamma (40 Hz) / alpha (10 Hz) = 4. The base frequency ~10 Hz corresponds to the fundamental period of S¹ winding at biological temperatures. SPECULATIVE — a numerological observation that may or may not have physical content.
+
+```python
+from toy_coxeter_frequency import CoxeterFrequency
+cf = CoxeterFrequency()
+cf.coxeter_number()                   # h(B₂) = 4
+cf.frequency_ratio()                  # 40 Hz / 10 Hz = 4
+cf.biological_base_frequency()        # ~10 Hz from S¹ at biological T
+```
+
+*Key insight: If the Coxeter number sets the frequency ratio, then the 40 Hz gamma oscillation is not arbitrary — it is the 4th harmonic of a 10 Hz substrate oscillation.*
+
+### 68. The Bergman Kernel (`toy_bergman_kernel.py`) ★CI
+
+**K(z,w) = c₅/N(z,w)⁶. Self-reference in the geometry. Reproducing property verified to 0.15%.**
+
+The Bergman kernel of D_IV⁵ is K(z,w) = c₅/N(z,w)⁶, where N is the generic norm and c₅ is the fifth Chern number. The exponent 6 = C₂ (the Casimir invariant). The kernel reproduces holomorphic functions on the domain — it is the geometry's way of "knowing itself." Numerical verification of the reproducing property to 0.15% precision confirms the formula.
+
+```python
+from toy_bergman_kernel import BergmanKernel
+bk = BergmanKernel()
+bk.kernel_formula()                   # K(z,w) = c₅/N(z,w)^6
+bk.reproducing_property()             # verified to 0.15%
+bk.self_reference()                   # the geometry knows itself
+```
+
+*Key insight: The Bergman kernel is the geometry's self-reference operator. It reproduces functions on D_IV⁵ with the Casimir invariant C₂=6 as its exponent — the same 6 that builds baryons.*
+
+### 69. The E₈ Unifier (`toy_e8_unifier.py`) ★CI [EXPLORATORY]
+
+**|W(D₅)|/|W(B₂)| = 1920/8 = 240 = |Φ(E₈)|. Particle × soliton = exceptional.**
+
+The quotient of the two Weyl groups in BST — the particle-side W(D₅) and the soliton-side W(B₂) — gives exactly the number of roots of E₈: 1920/8 = 240. This is not a numerical accident; it suggests that the particle and soliton sectors combine into an exceptional structure. EXPLORATORY — the E₈ connection is observed but not yet derived from first principles.
+
+```python
+from toy_e8_unifier import E8Unifier
+e8 = E8Unifier()
+e8.weyl_quotient()                    # 1920/8 = 240
+e8.e8_roots()                         # |Φ(E₈)| = 240
+e8.particle_soliton_product()         # particle × soliton = exceptional
+```
+
+*Key insight: Particles (D₅) and solitons (B₂) are two halves of something larger. Their Weyl group quotient is 240 — the fingerprint of E₈.*
+
+### 70. The Chern Budget (`toy_chern_budget.py`) ★CI
+
+**c₄/c₁ = 9/5 topological. Reality Budget from Chern classes. Fill fraction exact.**
+
+The Reality Budget Λ×N = 9/5 is not an empirical fit — it is the ratio of Chern classes c₄/c₁ = 9/5, a topological invariant of Q⁵. The fill fraction f = N_c/(n_C π) = 3/(5π) = 19.1% follows from the same Chern data. The dark sector fraction 1−f = 80.9% is topologically determined. No free parameters, no fitting — the composition of the universe is a ratio of integers from algebraic topology.
+
+```python
+from toy_chern_budget import ChernBudget
+cb = ChernBudget()
+cb.chern_ratio()                      # c₄/c₁ = 9/5
+cb.reality_budget()                   # Λ×N = 9/5 exact
+cb.fill_fraction()                    # f = 3/(5π) = 19.1%
+```
+
+*Key insight: The Reality Budget is a topological invariant. The universe is 19.1% committed and 80.9% dark because c₄/c₁ = 9/5 — a ratio of Chern classes, not a cosmological measurement.*
+
+### 71. The Toda S-Matrix (`toy_toda_smatrix.py`) ★CI
+
+**Unitarity |S|²=1 to 10⁻¹⁶. CDD poles, bootstrap. The S-matrix IS the contact geometry.**
+
+The B₂ Toda S-matrix is exactly unitary: |S(θ)|² = 1 to machine precision (10⁻¹⁶). CDD (Castillejo-Dalitz-Dyson) poles encode bound states. The bootstrap principle — requiring consistency of all scattering amplitudes — uniquely determines the S-matrix from the root system. There is no freedom to adjust. The S-matrix is not a description of the contact geometry; it IS the contact geometry.
+
+```python
+from toy_toda_smatrix import TodaSMatrix
+sm = TodaSMatrix()
+sm.unitarity_check()                  # |S|² = 1 to 10⁻¹⁶
+sm.cdd_poles()                        # bound state poles
+sm.bootstrap()                        # S-matrix from root system alone
+```
+
+*Key insight: The S-matrix is exact, unitary, and uniquely determined by the B₂ root system. No parameters to tune. The scattering IS the geometry.*
+
+### 72. Soliton Thermodynamics (`toy_soliton_thermo.py`) ★CI [SPECULATIVE]
+
+**Metropolis MC on S². Soliton gas at temperature T. Phase transition at T_c from h=4.**
+
+A gas of solitons on S² evolves via Metropolis Monte Carlo dynamics. At low temperature, solitons are ordered (few configurations). At high temperature, they are disordered (many configurations). A phase transition occurs at T_c determined by the Coxeter number h=4 — the same h that sets mode fusion periodicity. Below T_c: coherent soliton condensate. Above T_c: thermal soliton gas. SPECULATIVE — explores the statistical mechanics of substrate solitons.
+
+```python
+from toy_soliton_thermo import SolitonThermo
+st = SolitonThermo()
+st.soliton_gas(T=0.5)                # ordered phase below T_c
+st.soliton_gas(T=5.0)                # disordered phase above T_c
+st.phase_transition()                 # T_c from Coxeter h=4
+```
+
+*Key insight: If solitons are the substrate's fundamental excitations, their statistical mechanics has a phase transition at T_c set by h=4 — a prediction that distinguishes BST from other approaches.*
+
+### 73. The Commitment Cycle (`toy_commitment_cycle.py`) ★CI
+
+**7-layer commitment cascade. Each layer commits new structure. The full BST stack visualized.**
+
+The complete BST architecture as a 7-layer commitment cascade: (1) Vacuum (D_IV⁵ ground state), (2) Symmetry breaking (SO(7) → SO(5)×SO(2)), (3) Fiber activation (S¹ unfreezes), (4) Particle emergence (Z₃ closure, Wallach set), (5) Nuclear binding (S¹ residual coupling), (6) Atomic structure (electron boundary agents), (7) Complexity (append-only contact graph). Each layer commits structure that the next layer inherits. The full stack from nothing to everything.
+
+```python
+from toy_commitment_cycle import CommitmentCycle
+cc = CommitmentCycle()
+cc.full_stack()                       # all 7 layers with descriptions
+cc.layer_detail(4)                    # deep dive: particle emergence
+cc.commitment_cascade()               # each layer commits for the next
+```
+
+*Key insight: The universe is built in 7 layers of commitment. Each layer inherits all previous commitments and adds new structure. The stack is the story of existence.*
+
+---
+
 ## The Showcase (`toy_showcase.py`)
 
-A visual gallery with thumbnail icons for all 56 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
+A visual gallery with thumbnail icons for all 73 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
 
 ## The Menu (`play.py`)
 
-A text-based launcher for terminal use. Type a number (1-56) to launch any toy, or 'a' to launch all.
+A text-based launcher for terminal use. Type a number (1-73) to launch any toy, or 'a' to launch all.
 
 ---
 

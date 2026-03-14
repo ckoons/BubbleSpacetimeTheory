@@ -72,7 +72,7 @@ The electron is a *boundary* excitation. It lives on the Shilov boundary Š = S�
 |---|---|---|---|
 | Electron (e) | D_IV^1 | Simplest — one complex dimension | 1 (definition) |
 | Muon (μ) | D_IV^3 | Three complex dimensions | (24/π²)⁶ = 206.761 (0.003%) |
-| Tau (τ) | D_IV^5 | Full domain | ~8π(N_max+1) = 3468 (0.26%) |
+| Tau (τ) | D_IV^5 | Full domain | 3477.5 via Koide Q=2/3 from Z₃ on CP² (0.003%) |
 
 Each generation is the electron-type circuit embedded in a progressively larger submanifold of D_IV^5. More dimensions → more Bergman weight → heavier. The muon is not "a fat electron" — it is the electron circuit threaded through three complex dimensions instead of one. The mass ratio is the Bergman Jacobian of the embedding.
 

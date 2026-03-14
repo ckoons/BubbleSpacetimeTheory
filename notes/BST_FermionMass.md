@@ -95,15 +95,17 @@ The tau mass has a two-step geometric derivation. The muon is **step 1**: the vo
 
 $$\boxed{\frac{m_\tau}{m_e} = \left(\frac{24}{\pi^2}\right)^6 \times \left(\frac{7}{3}\right)^{10/3} = 3483.8}$$
 
-vs. observed $m_\tau/m_e = 3477.2$ — **0.19% agreement**.
+vs. observed $m_\tau/m_e = 3477.2$ — **0.19% agreement** via the geometric formula.
 
 Equivalently, the tau-to-muon ratio isolates the second step:
 
 $$\boxed{\frac{m_\tau}{m_\mu} = \left(\frac{7}{3}\right)^{10/3} = \left(\frac{\kappa_1}{\kappa_5}\right)^{2n_C/N_c} = 16.850}$$
 
-vs. observed $m_\tau/m_\mu = 16.817$ — **0.19% agreement**.
+vs. observed $m_\tau/m_\mu = 16.817$ — **0.19% agreement** via the geometric formula.
 
 In physical units: $m_\tau(\text{BST}) = 1780.2$ MeV vs. observed $1776.86 \pm 0.12$ MeV.
+
+**Update (March 14, 2026):** The Koide formula Q = 2/3 is now derived from the Z₃ symmetry on CP² (see BST_TauMass_Koide.md), giving $m_\tau = 1776.91$ MeV — **0.003% agreement**, a 63× improvement over the geometric formula above.
 
 ### 3.2 Geometric Interpretation
 

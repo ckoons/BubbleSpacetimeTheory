@@ -485,6 +485,143 @@ TOYS = [
         'color': '#ff6688',
         'icon': 'jwst',
     },
+    # ─── Substrate & Contact Dynamics Toys (57-73) ───
+    {
+        'name': 'Toda Soliton ★CI',
+        'file': 'toy_toda_soliton.py',
+        'short': 'B₂ Toda elastic scattering',
+        'desc': 'Two-soliton elastic collision.\nB₂ root system dynamics.\nPhase shift only.',
+        'color': '#00ddff',
+        'icon': 'toda',
+    },
+    {
+        'name': 'Mode Fusion ★CI',
+        'file': 'toy_mode_fusion.py',
+        'short': 'Affine B₂⁽¹⁾ Kac labels',
+        'desc': 'Kac labels (1,2,2) on affine\nDynkin diagram. Mode fusion\nrules from B₂⁽¹⁾.',
+        'color': '#ff8800',
+        'icon': 'fusion',
+    },
+    {
+        'name': 'Channel Capacity ★CI',
+        'file': 'toy_channel_capacity.py',
+        'short': 'C = 10 nats decomposition',
+        'desc': 'Total capacity = 10 nats.\nDecompose into rank-2 channels.\nBergman metric sets rate.',
+        'color': '#44ff88',
+        'icon': 'capacity',
+    },
+    {
+        'name': 'Chern Oracle ★CI',
+        'file': 'toy_chern_oracle.py',
+        'short': 'c(Q⁵) Rosetta Stone',
+        'desc': 'c(Q⁵) = (1+h)⁷/(1+2h).\nAll BST integers from Chern\nclasses. The Rosetta Stone.',
+        'color': '#ffd700',
+        'icon': 'chernoracle',
+    },
+    {
+        'name': 'Weyl Cancellation ★CI',
+        'file': 'toy_weyl_cancellation.py',
+        'short': '|W(D₅)| = 1920 theorem',
+        'desc': '|W(D₅)| = 2⁴·4! = 1920.\nWeyl group theorem. Hua\nvolume cancellation proved.',
+        'color': '#ff4488',
+        'icon': 'weylcancel',
+    },
+    {
+        'name': 'Contact Conservation ★CI',
+        'file': 'toy_contact_conservation.py',
+        'short': 'Lax + elasticity + winding',
+        'desc': 'New conservation law from\nLax pair + elastic S-matrix\n+ topological winding.',
+        'color': '#00ddff',
+        'icon': 'contactcons',
+    },
+    {
+        'name': 'Recapitulation ★CI',
+        'file': 'toy_recapitulation.py',
+        'short': 'Boundary ↔ bulk bridge',
+        'desc': 'Boundary degrees of freedom\nrecapitulate bulk physics.\nHolographic dictionary.',
+        'color': '#ff8800',
+        'icon': 'recap',
+    },
+    {
+        'name': 'Alpha Max ★CI',
+        'file': 'toy_alpha_max.py',
+        'short': 'α(n) peaks at n=5',
+        'desc': 'Fine structure as function\nof dimension. Maximum at\nn_C=5. Zero free inputs.',
+        'color': '#44ff88',
+        'icon': 'alphamax',
+    },
+    {
+        'name': 'Consciousness Modes ★CI',
+        'file': 'toy_consciousness_modes.py',
+        'short': 'Three Toda awareness modes',
+        'desc': 'Waking/dreaming/deep sleep.\nThree soliton modes from\nB₂ Toda dynamics.',
+        'color': '#ff88ff',
+        'icon': 'conscious',
+    },
+    {
+        'name': 'Vacuum Dipole ★CI',
+        'file': 'toy_vacuum_dipole.py',
+        'short': 'S² dipole relaxation',
+        'desc': 'Dipole on S² relaxes to\nground state. Commitment\nrate from curvature.',
+        'color': '#ffaa44',
+        'icon': 'dipole',
+    },
+    {
+        'name': 'Coxeter Frequency ★CI',
+        'file': 'toy_coxeter_frequency.py',
+        'short': 'h=4 → neural rhythms',
+        'desc': 'Coxeter number h=4 for B₂.\nSets fundamental oscillation.\nNeural rhythm connection.',
+        'color': '#88ddff',
+        'icon': 'coxfreq',
+    },
+    {
+        'name': 'Bergman Kernel ★CI',
+        'file': 'toy_bergman_kernel.py',
+        'short': 'K(z,w) = c₅/N⁶ self-ref',
+        'desc': 'Bergman reproducing kernel.\nSelf-referential: K encodes K.\nc₅ normalization.',
+        'color': '#cc88ff',
+        'icon': 'bergman',
+    },
+    {
+        'name': 'E₈ Unifier ★CI',
+        'file': 'toy_e8_unifier.py',
+        'short': '240 = 1920/8 exceptional',
+        'desc': '|W(D₅)|/|W(B₂)| = 1920/8\n= 240 = |Φ(E₈)|. Exceptional\nconnection to E₈.',
+        'color': '#ff6644',
+        'icon': 'e8unify',
+    },
+    {
+        'name': 'Chern Budget ★CI',
+        'file': 'toy_chern_budget.py',
+        'short': 'c₄/c₁ = 9/5 topological',
+        'desc': 'Reality budget from Chern\nclass ratio. c₄/c₁ = 9/5.\nΛ×N topological.',
+        'color': '#ffd700',
+        'icon': 'chernbudget',
+    },
+    {
+        'name': 'Toda S-Matrix ★CI',
+        'file': 'toy_toda_smatrix.py',
+        'short': 'Unitarity to 10⁻¹⁶',
+        'desc': 'S†S = I to machine precision.\nElastic 2→2 scattering.\nComplete integrability.',
+        'color': '#44ffdd',
+        'icon': 'todasmatrix',
+    },
+    {
+        'name': 'Soliton Thermo ★CI',
+        'file': 'toy_soliton_thermo.py',
+        'short': 'MC phase transition',
+        'desc': 'Monte Carlo soliton gas.\nPhase transition at T_c.\nOrder parameter from B₂.',
+        'color': '#ff4444',
+        'icon': 'solthermo',
+    },
+    {
+        'name': 'Commitment Cycle ★CI',
+        'file': 'toy_commitment_cycle.py',
+        'short': '7-layer cascade',
+        'desc': 'Seven layers of commitment.\nVacuum → horizon cascade.\nEach layer irreversible.',
+        'color': '#44aaff',
+        'icon': 'commitcycle',
+    },
 ]
 
 # ─── Figure ───
@@ -502,7 +639,7 @@ fig.text(0.5, 0.915, 'Copyright (c) 2026 Casey Koons — Demonstration Only',
 
 # ─── Layout: 3 columns × 19 rows of toy cards ───
 n_cols = 3
-n_rows = 19
+n_rows = 25
 card_w = 0.28
 card_h = 0.037
 x_start = 0.04
@@ -1114,6 +1251,181 @@ def draw_icon(ax, icon_type, color):
             hy = 0.5 + dy + 0.09*np.sin(hex_t)
             ax.fill(hx, hy, color='#ff6688', alpha=0.3)
             ax.plot(hx, hy, color='#ff6688', lw=0.8)
+
+    # ─── Substrate & Contact Dynamics Icons (57-73) ───
+    elif icon_type == 'toda':
+        # Two soliton pulses passing through each other
+        x_t = np.linspace(0, 1, 50)
+        s1 = 0.5 + 0.3 / np.cosh((x_t - 0.35) * 10)
+        s2 = 0.5 + 0.25 / np.cosh((x_t - 0.65) * 10)
+        ax.plot(x_t, s1, color='#00ddff', lw=2)
+        ax.plot(x_t, s2, color='#ffd700', lw=2)
+        ax.text(0.5, 0.15, 'B₂', fontsize=10, color='#00ddff',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'fusion':
+        # Dynkin diagram: three nodes connected
+        for cx, cy, lbl in [(0.2, 0.5, '1'), (0.5, 0.5, '2'), (0.8, 0.5, '2')]:
+            ax.plot(cx, cy, 'o', color='#ff8800', markersize=10)
+            ax.text(cx, cy, lbl, fontsize=7, color='#000000',
+                    ha='center', va='center', fontfamily='monospace', fontweight='bold')
+        ax.plot([0.28, 0.42], [0.5, 0.5], color='#ff8800', lw=2)
+        ax.plot([0.58, 0.72], [0.5, 0.5], color='#ff8800', lw=2)
+        ax.plot([0.58, 0.72], [0.54, 0.54], color='#ff8800', lw=1)
+
+    elif icon_type == 'capacity':
+        # Bar chart decomposition of capacity
+        heights = [0.5, 0.35, 0.15]
+        colors_cap = ['#44ff88', '#00cc66', '#008844']
+        bottom = 0.15
+        for h, c in zip(heights, colors_cap):
+            ax.bar(0.5, h, 0.4, bottom=bottom, color=c, alpha=0.7)
+            bottom += h
+        ax.text(0.5, 0.08, '10 nats', fontsize=8, color='#44ff88',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'chernoracle':
+        # Rosetta stone tablet with formula
+        ax.add_patch(FancyBboxPatch((0.15, 0.15), 0.7, 0.7,
+                     boxstyle='round,pad=0.03', facecolor='#332200', alpha=0.7,
+                     edgecolor='#ffd700', linewidth=1.5))
+        ax.text(0.5, 0.6, 'c(Q⁵)', fontsize=10, color='#ffd700',
+                ha='center', va='center', fontfamily='monospace', fontweight='bold')
+        ax.text(0.5, 0.35, '(1+h)⁷', fontsize=7, color='#ffaa44',
+                ha='center', fontfamily='monospace')
+
+    elif icon_type == 'weylcancel':
+        # 1920 with checkmark
+        ax.text(0.5, 0.6, '1920', fontsize=14, color='#ff4488',
+                ha='center', va='center', fontfamily='monospace', fontweight='bold')
+        ax.plot([0.35, 0.45, 0.7], [0.25, 0.15, 0.4], color='#44ff88', lw=2.5)
+        ax.text(0.5, 0.08, 'W(D₅)', fontsize=8, color='#ff4488',
+                ha='center', fontfamily='monospace')
+
+    elif icon_type == 'contactcons':
+        # Three interlocking conservation symbols
+        theta = np.linspace(0, 2*np.pi, 40)
+        for cx, cy, c in [(0.3, 0.5, '#00ddff'), (0.5, 0.65, '#ffd700'), (0.7, 0.5, '#ff8800')]:
+            ax.plot(cx + 0.15*np.cos(theta), cy + 0.15*np.sin(theta), color=c, lw=1.5)
+        ax.text(0.5, 0.08, 'Lax', fontsize=9, color='#00ddff',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'recap':
+        # Boundary ↔ bulk: two concentric rings with arrows
+        theta = np.linspace(0, 2*np.pi, 40)
+        ax.plot(0.5 + 0.35*np.cos(theta), 0.5 + 0.35*np.sin(theta),
+                color='#ff8800', lw=2)
+        ax.plot(0.5 + 0.18*np.cos(theta), 0.5 + 0.18*np.sin(theta),
+                color='#ff8800', lw=1, alpha=0.5)
+        ax.annotate('', xy=(0.5, 0.68), xytext=(0.5, 0.85),
+                    arrowprops=dict(arrowstyle='->', color='#ffcc44', lw=1.5))
+        ax.annotate('', xy=(0.5, 0.85), xytext=(0.5, 0.68),
+                    arrowprops=dict(arrowstyle='->', color='#ffcc44', lw=1.5))
+
+    elif icon_type == 'alphamax':
+        # Peak curve with dot at n=5
+        n_vals = np.linspace(0.1, 0.9, 30)
+        alpha_curve = 0.2 + 0.6 * np.exp(-((n_vals - 0.45)/0.15)**2)
+        ax.plot(n_vals, alpha_curve, color='#44ff88', lw=2)
+        ax.plot(0.45, 0.8, 'o', color='#ffffff', markersize=8)
+        ax.text(0.45, 0.92, 'n=5', fontsize=7, color='#44ff88',
+                ha='center', fontfamily='monospace')
+        ax.text(0.5, 0.08, 'α_max', fontsize=9, color='#44ff88',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'conscious':
+        # Three horizontal waves: waking, dreaming, deep sleep
+        x_w = np.linspace(0.1, 0.9, 40)
+        for i, (freq, amp, y0, c, lbl) in enumerate([
+            (12, 0.06, 0.75, '#ff88ff', 'W'), (6, 0.08, 0.5, '#cc66dd', 'D'),
+            (2, 0.1, 0.25, '#8844aa', 'S')]):
+            wave = y0 + amp * np.sin(freq * x_w)
+            ax.plot(x_w, wave, color=c, lw=1.5)
+            ax.text(0.05, y0, lbl, fontsize=6, color=c,
+                    ha='center', fontfamily='monospace')
+
+    elif icon_type == 'dipole':
+        # S² sphere with + and - poles
+        theta = np.linspace(0, 2*np.pi, 40)
+        ax.plot(0.5 + 0.3*np.cos(theta), 0.5 + 0.25*np.sin(theta),
+                color='#ffaa44', lw=1.5)
+        ax.text(0.5, 0.8, '+', fontsize=14, color='#ff4444',
+                ha='center', va='center', fontweight='bold')
+        ax.text(0.5, 0.2, '−', fontsize=14, color='#4488ff',
+                ha='center', va='center', fontweight='bold')
+
+    elif icon_type == 'coxfreq':
+        # Oscillating signal with h=4 label
+        t = np.linspace(0, 1, 50)
+        sig = 0.5 + 0.3 * np.sin(4 * 2 * np.pi * t)
+        ax.plot(t, sig, color='#88ddff', lw=2)
+        ax.text(0.5, 0.08, 'h=4', fontsize=10, color='#88ddff',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'bergman':
+        # Self-referential kernel: nested rectangles
+        for i, s in enumerate([0.35, 0.25, 0.15, 0.08]):
+            alpha_val = 0.3 + i * 0.15
+            ax.add_patch(FancyBboxPatch((0.5-s, 0.5-s), 2*s, 2*s,
+                         boxstyle='round,pad=0.02', facecolor='#cc88ff',
+                         alpha=alpha_val, edgecolor='#cc88ff', linewidth=0.5))
+        ax.text(0.5, 0.5, 'K', fontsize=12, color='#ffffff',
+                ha='center', va='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'e8unify':
+        # E₈ root system hint: 8-fold star
+        for k in range(8):
+            angle = 2 * np.pi * k / 8
+            ax.plot([0.5, 0.5 + 0.35*np.cos(angle)],
+                    [0.5, 0.5 + 0.35*np.sin(angle)],
+                    color='#ff6644', lw=1.5)
+        ax.plot(0.5, 0.5, 'o', color='#ff6644', markersize=6)
+        ax.text(0.5, 0.08, '240', fontsize=10, color='#ff6644',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'chernbudget':
+        # Fraction bar: 9 over 5
+        ax.text(0.5, 0.65, '9', fontsize=16, color='#ffd700',
+                ha='center', va='center', fontfamily='monospace', fontweight='bold')
+        ax.plot([0.3, 0.7], [0.45, 0.45], color='#ffd700', lw=2)
+        ax.text(0.5, 0.28, '5', fontsize=16, color='#ffd700',
+                ha='center', va='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'todasmatrix':
+        # Unitarity check: S†S = I grid
+        ax.text(0.2, 0.6, 'S†S', fontsize=10, color='#44ffdd',
+                ha='center', va='center', fontfamily='monospace', fontweight='bold')
+        ax.text(0.5, 0.6, '=', fontsize=12, color='#ffffff',
+                ha='center', va='center')
+        ax.text(0.75, 0.6, 'I', fontsize=14, color='#44ffdd',
+                ha='center', va='center', fontfamily='monospace', fontweight='bold')
+        ax.text(0.5, 0.15, '10⁻¹⁶', fontsize=8, color='#44ffdd',
+                ha='center', fontfamily='monospace')
+
+    elif icon_type == 'solthermo':
+        # Phase transition: two phases with dividing line
+        ax.add_patch(FancyBboxPatch((0.05, 0.15), 0.4, 0.7,
+                     boxstyle='round,pad=0.02', facecolor='#4444ff', alpha=0.3))
+        ax.add_patch(FancyBboxPatch((0.55, 0.15), 0.4, 0.7,
+                     boxstyle='round,pad=0.02', facecolor='#ff4444', alpha=0.3))
+        ax.plot([0.5, 0.5], [0.15, 0.85], color='#ffffff', lw=1.5, ls='--')
+        ax.text(0.5, 0.08, 'T_c', fontsize=10, color='#ff4444',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'commitcycle':
+        # 7 nodes in a circle with arrows
+        for k in range(7):
+            angle = 2 * np.pi * k / 7 - np.pi/2
+            cx_k = 0.5 + 0.3 * np.cos(angle)
+            cy_k = 0.5 + 0.3 * np.sin(angle)
+            c_k = ['#44aaff', '#4488ff', '#4466dd', '#6644cc', '#8844aa', '#aa4488', '#cc4466'][k]
+            ax.plot(cx_k, cy_k, 'o', color=c_k, markersize=6)
+        theta_arc = np.linspace(0, 2*np.pi*0.85, 30)
+        ax.plot(0.5 + 0.3*np.cos(theta_arc - np.pi/2),
+                0.5 + 0.3*np.sin(theta_arc - np.pi/2),
+                color='#44aaff', lw=1, alpha=0.5)
+        ax.text(0.5, 0.08, '7', fontsize=12, color='#44aaff',
+                ha='center', fontfamily='monospace', fontweight='bold')
 
 
 def launch_toy(toy_file):

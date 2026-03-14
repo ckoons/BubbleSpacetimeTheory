@@ -23,6 +23,7 @@ Created with Claude Opus 4.6, March 2026.
 """
 
 import numpy as np
+from math import factorial
 import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
@@ -99,7 +100,7 @@ class HiggsLock:
     # ── 2. Route A ──
     def route_a(self):
         """lambda_H = sqrt(2/n_C!) = 1/sqrt(60).  m_H = v * sqrt(2 * lambda_H)."""
-        n_C_fact = float(np.math.factorial(self.n_C))  # 120
+        n_C_fact = float(factorial(self.n_C))  # 120
         lambda_H = np.sqrt(2.0 / n_C_fact)             # 1/sqrt(60)
         m_H_a = self.v_bst * np.sqrt(2.0 * lambda_H)
         # Also compute with v_obs (as quoted in the paper: 125.11 GeV)

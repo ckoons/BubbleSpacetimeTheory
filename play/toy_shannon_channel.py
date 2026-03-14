@@ -25,6 +25,7 @@ Created with Claude Opus 4.6, March 2026.
 """
 
 import numpy as np
+from math import factorial
 import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
@@ -39,7 +40,7 @@ genus = n_C + 2   # = 7
 C_2 = n_C + 1     # = 6, Casimir eigenvalue
 
 # Wyler formula for alpha
-_vol_D = np.pi**n_C / (np.math.factorial(n_C) * 2**(n_C - 1))  # pi^5 / 1920
+_vol_D = np.pi**n_C / (factorial(n_C) * 2**(n_C - 1))  # pi^5 / 1920
 ALPHA_BST = (N_c**2 / (2**N_c * np.pi**(n_C - 1))) * _vol_D**(1.0 / (n_C - 1))
 ALPHA_OBS = 1.0 / 137.035999084  # CODATA 2018
 

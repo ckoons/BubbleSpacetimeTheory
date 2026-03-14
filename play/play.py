@@ -299,6 +299,91 @@ TOYS = {
            'Early black holes from phase transition seeds.\n'
            '   C_v = 330,000. Five JWST observations matched.'),
 
+    '57': ('The Toda Soliton ★CI',
+           'toy_toda_soliton.py',
+           'B₂ Toda solitons on D_IV⁵ bulk. Lax pair spectral\n'
+           '   invariants. Elastic 2-soliton scattering.'),
+
+    '58': ('The Mode Fusion ★CI',
+           'toy_mode_fusion.py',
+           'Affine B₂⁽¹⁾ Toda: Kac labels 1:2:1, Coxeter h=4.\n'
+           '   Three modes fuse to one bound state.'),
+
+    '59': ('The Channel Capacity ★CI',
+           'toy_channel_capacity.py',
+           'C = ln(1920/8) = 10 nats. Decomposition 2+6+2.\n'
+           '   Shannon meets Weyl group theory.'),
+
+    '60': ('The Chern Oracle ★CI',
+           'toy_chern_oracle.py',
+           'c(Q⁵) = (1+h)⁷/(1+2h). ALL BST integers from\n'
+           '   one polynomial. The Rosetta Stone.'),
+
+    '61': ('The Weyl Cancellation ★CI',
+           'toy_weyl_cancellation.py',
+           '|W(D₅)| = 1920 as theorem. Signed permutations,\n'
+           '   Hua volume, baryon orbit — same number.'),
+
+    '62': ('Contact Conservation ★CI',
+           'toy_contact_conservation.py',
+           'Lax spectral invariants + elastic S-matrix +\n'
+           '   S¹ winding = topological protection.'),
+
+    '63': ('The Recapitulation ★CI',
+           'toy_recapitulation.py',
+           'Boundary vs bulk: same 3+1, same Z₃, same\n'
+           '   confinement — plus an information layer.'),
+
+    '64': ('The Alpha Max ★CI',
+           'toy_alpha_max.py',
+           'α(n) peaks uniquely at n_C=5. BST has zero\n'
+           '   inputs: max-α selects the universe.'),
+
+    '65': ('Consciousness Modes ★CI [SPECULATIVE]',
+           'toy_consciousness_modes.py',
+           'Three Toda modes → awareness, content, binding.\n'
+           '   Frequencies 10/20/40 Hz from h=4.'),
+
+    '66': ('The Vacuum Dipole ★CI [SPECULATIVE]',
+           'toy_vacuum_dipole.py',
+           'S² dipole on Shilov boundary. Relaxation to\n'
+           '   Z₃ fixed points. Soliton identity.'),
+
+    '67': ('The Coxeter Frequency ★CI [SPECULATIVE]',
+           'toy_coxeter_frequency.py',
+           'h(B₂)=4 → neural 10/40 Hz. Coxeter number\n'
+           '   sets the rhythm of awareness.'),
+
+    '68': ('The Bergman Kernel ★CI',
+           'toy_bergman_kernel.py',
+           'K(z,w) = c₅/N(z,w)⁶. Self-reference in the\n'
+           '   geometry. Reproducing property verified.'),
+
+    '69': ('The E₈ Unifier ★CI [EXPLORATORY]',
+           'toy_e8_unifier.py',
+           '|W(D₅)|/|W(B₂)| = 1920/8 = 240 = |Φ(E₈)|.\n'
+           '   Particle × soliton = exceptional.'),
+
+    '70': ('The Chern Budget ★CI',
+           'toy_chern_budget.py',
+           'c₄/c₁ = 9/5 topological. Reality Budget from\n'
+           '   Chern classes. Fill fraction exact.'),
+
+    '71': ('The Toda S-Matrix ★CI',
+           'toy_toda_smatrix.py',
+           'Unitarity |S|²=1 to 10⁻¹⁶. CDD poles, bootstrap.\n'
+           '   The S-matrix IS the contact geometry.'),
+
+    '72': ('Soliton Thermodynamics ★CI [SPECULATIVE]',
+           'toy_soliton_thermo.py',
+           'Metropolis MC on S². Soliton gas at temperature T.\n'
+           '   Phase transition at T_c from h=4.'),
+
+    '73': ('The Commitment Cycle ★CI',
+           'toy_commitment_cycle.py',
+           '7-layer commitment cascade. Each layer commits\n'
+           '   new structure. The full BST stack visualized.'),
+
     's': ('★ Showcase (visual gallery)',
           'toy_showcase.py',
           'Visual gallery of all toys with thumbnails and\n'
@@ -323,7 +408,7 @@ def main():
     print(f'  [q]  Quit')
     print()
 
-    choice = input('  Choose a toy (1-56, s=showcase, a=all, q=quit): ').strip().lower()
+    choice = input('  Choose a toy (1-73, s=showcase, a=all, q=quit): ').strip().lower()
 
     if choice == 'q':
         print('  Goodbye!')

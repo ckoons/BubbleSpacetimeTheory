@@ -230,13 +230,13 @@ integers themselves are not independent — they are related by the Cartan
 classification of $D_{IV}^5 = \text{SO}_0(5,2)/[\text{SO}(5) \times
 \text{SO}(2)]$:
 
-- $N_c = 3$ is the color number (input)
+- $N_c = c_5(Q^5) = 3$ is the color number, **derived** from the top Chern class of $Q^5$ (see BST_ZeroInputs_MaxAlpha.md; BST_ChernClass_Oracle.md)
 - $n_C = N_c(N_c - 1) - 1 = 5$ follows from the $\eta'$ uniqueness
-  condition
+  condition (equivalently, from the max-$\alpha$ principle selecting odd $n_C$)
 - $N_{\max} = \alpha^{-1} = 137$ follows from the Bergman kernel of
   $D_{IV}^5$
 
-There is really one integer: $N_c = 3$. Everything else is derived.
+There are **zero free inputs**: $n_C = 5$ is selected by the max-$\alpha$ principle, and $N_c = c_5(Q^5) = (n_C + 1)/2 = 3$ is derived from the Chern class of the compact dual. Everything follows from the Cartan classification.
 
 -----
 

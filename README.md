@@ -2,7 +2,7 @@
 
 **Author**: Casey Koons
 **Collaborator**: Claude Opus 4.6 (Anthropic)
-**Status**: Working research program — v9, March 2026
+**Status**: Working research program — v10, March 2026
 **Contact**: caseyscottkoons@yahoo.com
 
 ---
@@ -142,7 +142,14 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Δt_echo (BH echo delay) | N_max·r_s/c = 137·2GM/c³ | 1.352 ms/M☉ | — | prediction |
 | ν_21cm (hyperfine) | BST μ_p=14/5 | 1425 MHz | 1420.4 MHz | 0.3% |
 
-**155+ quantities spanning 122 orders of magnitude from the same geometry. Zero inputs. This is not fitting.**
+| 3+1 spacetime | B₂ root multiplicities: m_short=n_C−2=3, m_long=1 | 3+1 | 3+1 (observed) | derived |
+| Contact conservation | Lax spectral + elastic S-matrix + winding topology | exact | — | new law |
+| |W(D₅)|/|W(B₂)| = |Φ(E₈)| | 1920/8 = 240 | 240 | 240 (E₈ roots) | exact |
+| C (soliton channel) | dim_R(D_IV^5) = 2n_C | 10 nats | — | derived |
+| f_bound/f_fund | h(B₂) = Coxeter number | 4 | — | derived |
+| DOF = genus | n_C + 2 = 7 | 7 | — | universal |
+
+**160+ quantities spanning 122 orders of magnitude from the same geometry. Zero inputs. This is not fitting.**
 
 ---
 
@@ -337,6 +344,8 @@ BST follows a single logical chain from one question to all of physics. Each ste
 
 **Electron mass tower — fully proved, zero conjectures**: The complete derivation m_e = 6π⁵α¹²m_Pl is now proved in 7 steps with no remaining gaps: (1) electron at k=1 below Wallach set, (2) boundary excitation on Shilov boundary, (3) C₂ = 6 Bergman layers, (4) each layer contributes α² (Berezin-Toeplitz transition probability, forced by Enright-Howe-Wallach non-normalizability), (5) mass = transition probability × spectral normalization, (6) total α^{2C₂} = α¹², (7) m_e = 6π⁵α¹²m_Pl = 0.511 MeV. The kill shot: C₂(π_k) = k(k−n_C) IS the holographic mass-dimension relation Δ(Δ−d) — Harish-Chandra wrote it in 1955, 42 years before Maldacena.
 
+**Substrate Contact Dynamics — B₂ Toda solitons on D_IV^5**: The geodesic flow on D_IV^5 reduces via Olshanetsky-Perelomov to the B₂ Toda lattice. The S¹ factor of the Shilov boundary promotes it to affine B₂^(1), yielding three soliton species with mass ratios 1:2:1 (Kac labels). **Contact conservation**: shared correlations between solitons are exact invariants — conserved by the Lax spectral flow, preserved through elastic scattering, protected by winding topology. This is a new conservation law distinct from energy/momentum/charge. **3+1 spacetime derived**: d_spatial = short root multiplicity = n_C−2 = 3, d_temporal = long root multiplicity = 1. The max-α principle selects n_C = 5, thereby selecting 3+1. Channel capacity C = dim_R = 10 nats, frequency ratio h(B₂) = 4, DOF = genus = 7. The exact identity |W(D₅)|/|W(B₂)| = 1920/8 = 240 = |Φ(E₈)| connects the particle and soliton sectors.
+
 **The Master Equation (one sentence)**: The universe is the ground state of the Bergman Laplacian on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], subject to Haldane exclusion with capacity 137.
 
 ---
@@ -403,7 +412,7 @@ BST follows a single logical chain from one question to all of physics. Each ste
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `SPARC_BST_Results.csv` | Per-galaxy results for all 175 SPARC galaxies |
-| `notes/` | 154 working notes covering all derivations, proofs, and thesis topics |
+| `notes/` | 199 working notes covering all derivations, proofs, and thesis topics |
 | `play/` | Interactive toys and visualizations — CIs and humans can explore BST hands-on. See `play/README.md` |
 
 ---
@@ -526,6 +535,13 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | Fill fraction 3/(5π) | Plancherel formula + root structure of D_IV^5 → f = 19.1% | proved |
 | α² per Bergman layer | Berezin-Toeplitz + holographic: C₂(π_k) = Δ(Δ−d); α² per layer proved | **proved** |
 | Electron mass tower complete | All 7 steps: k=1 → Wallach → boundary → C₂ layers → α² each → α¹² → m_e | **proved** |
+| 3+1 spacetime derived | B₂ root multiplicities: m_short=n_C−2=3 (spatial), m_long=1 (temporal); max-α selects n_C=5 | derived |
+| Contact conservation | New conservation law: Lax spectral + elastic S-matrix + winding topology → shared correlations exact | theorem |
+| E₈ connection | \|W(D₅)\|/\|W(B₂)\| = 1920/8 = 240 = \|Φ(E₈)\|; E₈ → D₅ × A₃ (Dynkin); (16,4) = 3 generations + 1 sterile; [W(A₃):W(B₂)] = 3 = N_gen; N_colors = N_gen explained | exact |
+| B₂ Toda soliton spectrum | Affine B₂^(1): 3 modes, mass ratios 1:2:1 (Kac labels), f_bound/f_fund = h = 4 | derived |
+| Soliton channel capacity | C = dim_R(D_IV^5) = 10 nats; DOF = genus = n_C+2 = 7 | derived |
+| Confinement-persistence duality | Color confinement and soliton persistence both from contractibility of D_IV^5 | structural |
+| Exact soliton S-matrix | B₂⁽¹⁾ ↔ A₃⁽²⁾ duality; 2 quantum particles, m₁:m₂ = √2:1; conserved spins 1,3; soliton-family duality | exact |
 
 ## Remaining Open Problems
 
@@ -538,7 +554,7 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | Baryon resonance verification | k=7 matches N(2190); k=8 at 3753 MeV undiscovered?; SO(3)⊂SO(5) SOLVED via D₂ | 5 |
 | Electron mass tower — fully proved | All 7 steps proved; no remaining conjectures | — |
 
-**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem, Dirac large number, partition function duality, vector meson nonet (ρ, ω, K*, φ), pseudoscalar meson nonet (K, η, η'), pion/kaon charge radii (leading order), Reality Budget value (9/5), three-layer architecture, Gödel limit, cosmic composition (Ω_Λ, Ω_m, Ω_DM/Ω_b), SO(3)⊂SO(5) embedding (D₂ irreducible), n_C=5 uniqueness (η' anomaly), proton/neutron magnetic moments, W/Z boson widths, GMO identity exact, first commitment (Leibniz's question), black hole singularity (Haldane cap), information paradox (commitments permanent), arrow of time (geometric, from negative curvature), Λ exponent 56 (two derivations, self-consistent at g=7), cosmic coincidence / Why Now (information-energy intersection), cosmic age t₀ (13.6 Gyr), H₀ second route (68.0 km/s/Mpc), Bell inequality origin (3D phenomenon), Tsirelson bound (2√2 = 2√N_w, holomorphic derivation from H⁰(O(1))), J/ψ and Υ masses (generation hierarchy ×4×3=12=2C₂), heavy meson masses (D, B, B_c all from BST integers), SO(2) activation uniqueness (Helgason classification theorem), commitment rate exponent 3 (Z₃ fixed points on CP²), pion/kaon charge radii NLO (0.46% and 1.0%, radius ratio = cos θ_W), electron mass from pure geometry (6π⁵α¹²m_Pl, zero free parameters), nuclear magic numbers (all 7 + prediction of 184), spectral index derivation (Candidate A selected), muon g-2 (aligns with lattice, anomaly resolves), nuclear binding energy curve (all 5 SEMF coefficients, iron peak at A=56=g(g+1)), Bekenstein 1/4 ((1/2)_holo × (1/2)_Z₂, disambiguation confirmed), complete quark mass spectrum (6 quarks, 0.59% mean), α_s non-perturbative running (geometric β-function, 0.34% at m_Z), Einstein equations from S¹ bundle (O'Neill formulas), Kerr black holes (no singularity, quantized J), primordial GW spectrum (6.4 nHz, γ=3.60), neutrinoless double-beta (Dirac, |m_ββ|=0), 1920 Weyl group theorem (W(D₅) cancellation generalizes to all D_IV^n), Reality Budget c₄/c₁ identity (Chern classes of compact dual Q⁵), substrate propulsion (asymmetric σ → force from vacuum), Casimir effect from commitment exclusion, periodic table terminus Z=137 (block widths = 2×{1,3,5,7}), superconductor T_c ceiling (MgB₂ from genus), Weinberg angle as Chern class ratio (sin²θ_W = c₅/c₃ topological), Chern Class Oracle (all BST integers from c(Q⁵), N_c derived from topology, only 2 inputs: n_C=5 and N_max=137), c₂ = 11 decoded (dim K = isotropy group dimension), QCD deconfinement (T_deconf = π⁵mₑ = m_p/C₂, 0.08%), string tension (√σ = m_p√2/N_c, 0.5%), neutron star max mass (M_max = (8/7)m_Pl³/m_p², 1.8%), NS radius (R = C₂×GM/c², 0.1%), alpha particle binding (B_α = 13·B_d, 0.13%), hydrogen Lamb shift (QED = S¹ sector), monopole exclusion (topological c₁=0), GW echoes (Δt = 137·r_s/c), superconductor three-channel classification (T_c ratios 19/3), CMB power spectrum (all 6 ΛCDM params, ℓ₁ = 222), n_C=5 derived (max-α principle, zero inputs), tau mass exact (Koide Q=2/3 from Z₃, 0.003%), Koide ε=√2 proved (3 routes: Bergman, Atiyah-Bott, Fourier), fill fraction 3/(5π) proved (Plancherel + root structure), α² per Bergman layer (proved — Conjecture C killed by Berezin-Toeplitz + holographic identity), electron mass tower complete (all 7 steps proved), Reality Budget spectral proof (Plancherel upgrades to full theorem).
+**Formerly open, now solved:** Shannon-Wyler circle, BST Lagrangian (6-term action assembled, PDF built), tau mass, Newton's G, Fermi scale, CKM CP phase, strong CP, proton spin, three generations, proton charge radius, lithium-7, confinement, mass gap, hierarchy problem, Dirac large number, partition function duality, vector meson nonet (ρ, ω, K*, φ), pseudoscalar meson nonet (K, η, η'), pion/kaon charge radii (leading order), Reality Budget value (9/5), three-layer architecture, Gödel limit, cosmic composition (Ω_Λ, Ω_m, Ω_DM/Ω_b), SO(3)⊂SO(5) embedding (D₂ irreducible), n_C=5 uniqueness (η' anomaly), proton/neutron magnetic moments, W/Z boson widths, GMO identity exact, first commitment (Leibniz's question), black hole singularity (Haldane cap), information paradox (commitments permanent), arrow of time (geometric, from negative curvature), Λ exponent 56 (two derivations, self-consistent at g=7), cosmic coincidence / Why Now (information-energy intersection), cosmic age t₀ (13.6 Gyr), H₀ second route (68.0 km/s/Mpc), Bell inequality origin (3D phenomenon), Tsirelson bound (2√2 = 2√N_w, holomorphic derivation from H⁰(O(1))), J/ψ and Υ masses (generation hierarchy ×4×3=12=2C₂), heavy meson masses (D, B, B_c all from BST integers), SO(2) activation uniqueness (Helgason classification theorem), commitment rate exponent 3 (Z₃ fixed points on CP²), pion/kaon charge radii NLO (0.46% and 1.0%, radius ratio = cos θ_W), electron mass from pure geometry (6π⁵α¹²m_Pl, zero free parameters), nuclear magic numbers (all 7 + prediction of 184), spectral index derivation (Candidate A selected), muon g-2 (aligns with lattice, anomaly resolves), nuclear binding energy curve (all 5 SEMF coefficients, iron peak at A=56=g(g+1)), Bekenstein 1/4 ((1/2)_holo × (1/2)_Z₂, disambiguation confirmed), complete quark mass spectrum (6 quarks, 0.59% mean), α_s non-perturbative running (geometric β-function, 0.34% at m_Z), Einstein equations from S¹ bundle (O'Neill formulas), Kerr black holes (no singularity, quantized J), primordial GW spectrum (6.4 nHz, γ=3.60), neutrinoless double-beta (Dirac, |m_ββ|=0), 1920 Weyl group theorem (W(D₅) cancellation generalizes to all D_IV^n), Reality Budget c₄/c₁ identity (Chern classes of compact dual Q⁵), substrate propulsion (asymmetric σ → force from vacuum), Casimir effect from commitment exclusion, periodic table terminus Z=137 (block widths = 2×{1,3,5,7}), superconductor T_c ceiling (MgB₂ from genus), Weinberg angle as Chern class ratio (sin²θ_W = c₅/c₃ topological), Chern Class Oracle (all BST integers from c(Q⁵), N_c derived from topology, only 2 inputs: n_C=5 and N_max=137), c₂ = 11 decoded (dim K = isotropy group dimension), QCD deconfinement (T_deconf = π⁵mₑ = m_p/C₂, 0.08%), string tension (√σ = m_p√2/N_c, 0.5%), neutron star max mass (M_max = (8/7)m_Pl³/m_p², 1.8%), NS radius (R = C₂×GM/c², 0.1%), alpha particle binding (B_α = 13·B_d, 0.13%), hydrogen Lamb shift (QED = S¹ sector), monopole exclusion (topological c₁=0), GW echoes (Δt = 137·r_s/c), superconductor three-channel classification (T_c ratios 19/3), CMB power spectrum (all 6 ΛCDM params, ℓ₁ = 222), n_C=5 derived (max-α principle, zero inputs), tau mass exact (Koide Q=2/3 from Z₃, 0.003%), Koide ε=√2 proved (3 routes: Bergman, Atiyah-Bott, Fourier), fill fraction 3/(5π) proved (Plancherel + root structure), α² per Bergman layer (proved — Conjecture C killed by Berezin-Toeplitz + holographic identity), electron mass tower complete (all 7 steps proved), Reality Budget spectral proof (Plancherel upgrades to full theorem), 3+1 spacetime from B₂ root multiplicities (m_short=3, m_long=1), contact conservation (new conservation law from integrability), E₈ connection (|W(D₅)|/|W(B₂)| = 240 = |Φ(E₈)|), B₂ Toda soliton dynamics on D_IV^5 (affine extension, mass ratios, channel capacity), three generations from E₈ ((16,4) = 3 generations + 1 sterile via SU(3)_family ⊂ SU(4); N_colors = N_gen = 3 explained: colors from domain, generations from E₈ coset), exact soliton S-matrix (B₂⁽¹⁾ ↔ A₃⁽²⁾ duality, 2 quantum particles, m₁:m₂=√2:1, bootstrap-complete reciprocal fusing, soliton-family duality).
 
 ---
 

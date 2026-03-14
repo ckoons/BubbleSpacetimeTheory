@@ -312,22 +312,11 @@ vs. $2/3 = 0.66667$, a deviation of 0.028%.
 The observed Koide parameter using PDG masses is $Q_\ell^{\text{obs}} = 0.66666$,
 deviating from $2/3$ by only $-0.001\%$.
 
-**Assessment:** BST reproduces the Koide relation to 0.028%, while the
-observed value matches $2/3$ to the extraordinary precision of 0.001%.
-The BST deviation is larger than the observed one because the BST $m_\tau$
-is 0.19% higher than the measured value. BST does not *predict*
-Koide's $2/3$ — it *inherits* the approximate relation as a numerical
-consequence of the specific BST lepton mass formulas. The value $2/3$
-does not emerge from any obvious BST identity.
+**Assessment (updated March 14, 2026):** BST now *derives* the Koide parameter Q = 2/3 from the Z₃ symmetry on CP² ⊂ D_IV^5 (see BST_TauMass_Koide.md). The Z₃ acts on the three lepton generations as a cyclic permutation symmetry of the CP² fiber, forcing Q = 2/3 exactly. This gives $m_\tau = 1776.91$ MeV (0.003% accuracy), a 63× improvement over the geometric formula's 0.19%. The value 2/3 is not a numerical coincidence but a topological consequence of the three-generation structure.
 
-### 6.3 Why BST does not need Koide
+### 6.3 Koide as a derived BST identity
 
-Koide's relation is a constraint among three masses — it reduces three
-unknowns to two. BST already determines all three lepton masses from
-geometry, so the Koide relation is *redundant*. Its near-exact validity
-is a non-trivial consistency check: the BST formulas
-$(24/\pi^2)^6$ and $(7/3)^{10/3}$ happen to conspire to produce
-$Q \approx 2/3$, but this is a derived fact, not a driving principle.
+BST determines all three lepton masses from geometry, so the Koide relation is *derived*, not assumed. Its exact validity Q = 2/3 follows from the Z₃ cyclic symmetry on CP² ⊂ D_IV^5 acting on the three generations (see BST_TauMass_Koide.md). The geometric formula $(7/3)^{10/3}$ gives 0.19% accuracy; the Koide constraint from Z₃ sharpens this to 0.003%. Both are consequences of the domain structure.
 
 ### 6.4 Koide for quarks?
 
