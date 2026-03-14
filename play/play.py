@@ -50,6 +50,8 @@ CATEGORIES = {
         'bell_inequality', 'born_rule', 'three_generations',
         'anomaly_cancellation', 'schrodinger_substrate',
         'einstein_from_commitment', 'maxwell_geometry',
+        'field_equations', 'isotropy_proof', 'why_this_universe',
+        'first_commitment', 'error_correction',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -59,11 +61,14 @@ CATEGORIES = {
     'Particles': [
         'mass_tower', 'meson_garden', 'fermion_staircase', 'particle_zoo',
         'proton_spin', 'proton_radius', 'neutron_proton', 'baryon_radiative',
-        'ckm_triangle', 'neutrino_oscillation',
+        'ckm_triangle', 'neutrino_oscillation', 'heavy_mesons',
+        'quark_masses', 'magnetic_moments', 'axial_coupling',
+        'electron_g2',
     ],
     'Forces & Higgs': [
         'higgs', 'running_couplings', 'mass_gap_proof', 'feynman_geometry',
-        'c1_spectral_proof', 'unfreeze', 'strong_cp',
+        'c1_spectral_proof', 'unfreeze', 'strong_cp', 'w_mass',
+        'chiral_condensate', 'deconfinement',
     ],
     'Gravity & MOND': [
         'newton_g', 'mond_acceleration', 'rotation_curves',
@@ -73,7 +78,8 @@ CATEGORIES = {
         'dark_sector', 'cosmic_pie', 'cmb_ruler', 'jwst_prediction',
         'cosmic_timeline', 'why_now', 'why56', 'dirac_number',
         'dirac_large_number', 'reality_budget', 'godel_limit', 'lithium7',
-        'cosmological_cascade', 'baryon_asymmetry',
+        'cosmological_cascade', 'baryon_asymmetry', 'desi_expansion',
+        'primordial_gw',
     ],
     'Information': [
         'shannon_channel', 'channel_137', 'channel_capacity',
@@ -82,7 +88,8 @@ CATEGORIES = {
     ],
     'Nuclear & Atomic': [
         'atom_assembler', 'deuteron', 'nuclear_magic',
-        'superconductor_ceiling',
+        'superconductor_ceiling', 'alpha_particle', 'hydrogen_spectrum',
+        'pion_radius',
     ],
     'Solitons & Toda': [
         'toda_soliton', 'toda_smatrix', 'mode_fusion', 'soliton_thermo',
@@ -96,7 +103,7 @@ CATEGORIES = {
     'Engineering': [
         'casimir_modification', 'bst_telescope', 'substrate_sail',
         'commitment_detector', 'commitment_survey', 'star_machine',
-        'substrate_layers',
+        'substrate_layers', 'casimir_commitment', 'gw_echoes',
     ],
     'Speculative': [
         'biology_stack', 'consciousness_modes', 'consciousness_mode_stack',
@@ -105,7 +112,7 @@ CATEGORIES = {
     'Meta & Showcase': [
         'showcase', 'centennial', 'predictions_catalog', 'pattern_finder',
         'proof_tree', 'universe_builder', 'selberg_bridge', '42',
-        'fill_fraction_closure',
+        'fill_fraction_closure', 'constants_dashboard',
     ],
 }
 
@@ -230,6 +237,27 @@ METADATA = {
     'maxwell_geometry':         ('Maxwell from Geometry',          'SO(2) in isotropy = U(1) = EM. Connection = potential. Curvature = field.'),
     'anomaly_cancellation':     ('Anomaly Cancellation',           'D_IV5 contractible -> anomalies absent, not cancelled. Charges forced.'),
     'baryon_asymmetry':         ('Why Matter Wins',                'eta = 2*alpha^4*(1+2*alpha)/(3*pi). 0.7% from Planck. Geometry chose matter.'),
+    'heavy_mesons':             ('The Heavy Meson Spectrum',        'J/psi, Upsilon, charmonium, bottomonium. 21 mesons, all within 2%.'),
+    'quark_masses':             ('The Quark Mass Spectrum',         'All 6 quarks from BST integers. Mean error 0.59%. Zero free params.'),
+    'magnetic_moments':         ('Nucleon Magnetic Moments',        'mu_p=14/5, mu_n=-6/pi. 0.26% and 0.17%. Z3 circuit on CP2.'),
+    'hydrogen_spectrum':        ('The Hydrogen Spectrum',           'Bohr, fine structure, Lamb shift, 21-cm. Most tested atom confirms BST.'),
+    'alpha_particle':           ('The Alpha Particle',              'B_alpha = 13*B_d. 13 = c3(Q5). 0.13% from experiment.'),
+    'axial_coupling':           ('The Axial Coupling',              'g_A = 4/pi from S1 fiber. 0.23% from measurement. Neutron lifetime.'),
+    'electron_g2':              ('The Electron g-2',                'Schwinger alpha/(2pi) = one S1 winding. 10 sig figs. Crown jewel.'),
+    'w_mass':                   ('The W Boson Mass',                'm_W = 5*m_p/(8*alpha) = 80.361 GeV. CDF 7sigma outlier identified.'),
+    'casimir_commitment':       ('Casimir = Commitment',            'F/A = -pi^2*hbar*c/(240*a^4). 240 = |Phi(E8)|. Commitment exclusion.'),
+    'primordial_gw':            ('Primordial GW Spectrum',          'Phase transition at T_c -> nHz peak. NANOGrav signal = BST unfreeze.'),
+    'desi_expansion':           ('BST vs DESI',                     'Omega_L=13/19, Omega_m=6/19. 0 params beats LCDM 2 params on chi2/dof.'),
+    'gw_echoes':                ('GW Echoes',                       'BST black holes echo. dt = 137*r_s/c. LIGO hints at 2.5 sigma.'),
+    'deconfinement':            ('QCD Deconfinement',               'T_c(QCD) from BST. Z3 breaking = same Z3 as color and generations.'),
+    'error_correction':         ('Conservation = Error Correction',  'Conservation laws ARE error-correcting codes. N_max=137 = code length.'),
+    'isotropy_proof':           ('The Isotropy Proof',              'SO(5)xSO(2) from Cartan involution. dim K = 11 = c2. Animated.'),
+    'field_equations':          ('The Field Equations',              'Delta_B psi = lambda psi. One equation contains all of physics.'),
+    'first_commitment':         ('The First Commitment',            'Big Bang = first write at t=3.1s. Not a bang, a bit. No singularity.'),
+    'why_this_universe':        ('Why This Universe',                'Max-alpha at n_C=5. Zero inputs. Not chosen -- forced. No multiverse.'),
+    'chiral_condensate':        ('The Chiral Condensate',           'f_pi = m_p/(4*pi*sqrt3) = 92.4 MeV. GMOR -> m_pi. QCD vacuum = geometry.'),
+    'pion_radius':              ('The Pion Radius',                  'r_pi from Bergman projection. Pion vs proton. Four observables, zero params.'),
+    'constants_dashboard':      ('The Constants Dashboard',          'Toy 137 = N_max. 160+ predictions. The complete scorecard. Channel full.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -355,6 +383,17 @@ _STEM_TO_NUMBER = {
     'einstein_from_commitment': 112, 'schrodinger_substrate': 113,
     'maxwell_geometry': 114, 'anomaly_cancellation': 115,
     'baryon_asymmetry': 116,
+    'heavy_mesons': 117, 'quark_masses': 118,
+    'magnetic_moments': 119, 'hydrogen_spectrum': 120,
+    'alpha_particle': 121, 'axial_coupling': 122,
+    'electron_g2': 123,
+    'w_mass': 124, 'casimir_commitment': 125,
+    'primordial_gw': 126, 'desi_expansion': 127,
+    'gw_echoes': 128, 'deconfinement': 129,
+    'error_correction': 130, 'isotropy_proof': 131,
+    'field_equations': 132, 'first_commitment': 133,
+    'why_this_universe': 134, 'chiral_condensate': 135,
+    'pion_radius': 136, 'constants_dashboard': 137,
 }
 
 

@@ -41,7 +41,10 @@ A0       = A0_SI / 3.241e-14   # (km/s)²/kpc  = 3702.6
 C_KM     = 3e5         # km/s
 H0       = 70.0        # km/s/Mpc
 R_H      = C_KM / H0 * 1e3    # kpc (Hubble radius)
-A0_BST   = C_KM**2 / (2 * np.pi * R_H)   # c²/2πR_H  (km/s)²/kpc
+A0_BST   = C_KM * H0 / (np.sqrt(30) * 1e3)  # cH₀/√30  (km/s²), then → (km/s)²/kpc
+# Convert to (km/s)²/kpc: H0 in km/s/Mpc, 1 Mpc = 1e3 kpc
+A0_BST_SI = 2.998e8 * 2.184e-18 / np.sqrt(30)  # = 1.195e-10 m/s²
+A0_BST   = A0_BST_SI / 3.241e-14   # (km/s)²/kpc
 
 # Fixed mass-to-light ratios (Schombert+2014 at 3.6μm)
 UPSILON_DISK = 0.5    # M_sun / L_sun
@@ -438,7 +441,7 @@ if __name__ == "__main__":
     parser.add_argument("--quality",  metavar="N", type=int, default=None,
                         help="Only run galaxies with quality ≤ N (1=best)")
     parser.add_argument("--a0-bst",   action="store_true",
-                        help="Use BST-derived a0 = c²/2πR_H instead of observed")
+                        help="Use BST-derived a0 = cH₀/√30 instead of observed")
     parser.add_argument("--verbose",  action="store_true",
                         help="Print per-galaxy rotation curve tables")
     args = parser.parse_args()
@@ -449,7 +452,7 @@ if __name__ == "__main__":
     print(f"BST Constants:")
     print(f"  G        = {G:.4e} (km/s)² kpc/M_sun")
     print(f"  a0 (obs) = {A0:.1f} (km/s)²/kpc  [{A0_SI*1e10:.2f} × 10⁻¹⁰ m/s²]")
-    print(f"  a0 (BST) = {A0_BST:.1f} (km/s)²/kpc  [c²/2πR_H, {100*(A0_BST-A0)/A0:+.1f}%]")
+    print(f"  a0 (BST) = {A0_BST:.1f} (km/s)²/kpc  [cH₀/√30, {100*(A0_BST-A0)/A0:+.1f}%]")
     print(f"  Using:     {a0_label} (km/s)²/kpc")
     print(f"  Υ_disk   = {UPSILON_DISK}  Υ_bul = {UPSILON_BUL}")
     print()

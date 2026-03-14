@@ -165,9 +165,12 @@ The $\sqrt{30}$ is not a fitting factor. It is $\sqrt{n_C(n_C+1)}$ --- a Casimir
 |---|---|---|
 | Chiral condensate | $\chi = \sqrt{n_C(n_C+1)} = \sqrt{30}$ | QCD vacuum coherence |
 | Pion mass | $m_\pi = f_\pi \times \chi = (m_p/10)\sqrt{30}$ | Strong force Goldstone boson |
+| n-p EM mass splitting | $\delta m_{np}^{\mathrm{EM}} = -\alpha m_p/\sqrt{30} = -0.70$ MeV | Proton self-energy |
 | MOND acceleration | $a_0 = cH_0/\sqrt{30}$ | Cosmological-to-galactic transition |
 
-**BST unifies the pion mass (strong nuclear physics) with the MOND acceleration (galactic dynamics) through the same $D_{IV}^5$ invariant.**
+**BST unifies the pion mass (strong nuclear physics), the neutron-proton electromagnetic mass splitting, and the MOND acceleration (galactic dynamics) through the same $D_{IV}^5$ invariant $\sqrt{n_C(n_C+1)} = \sqrt{30}$.**
+
+The electromagnetic contribution to the neutron-proton mass difference is $\delta m_{np}^{\mathrm{EM}} = -\alpha m_p/\sqrt{30} = -0.70$ MeV (Gasser \& Leutwyler 1982: $-0.76 \pm 0.30$ MeV). The same $\sqrt{30}$ that sets the MOND acceleration at galactic scales sets the proton's electromagnetic self-energy at nuclear scales --- connecting $10^{-15}$ m to $10^{21}$ m through a single geometric invariant.
 
 ### 3.5 Historical Note
 

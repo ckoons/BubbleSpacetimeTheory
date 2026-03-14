@@ -121,11 +121,14 @@ chiral/domain structure of D_IV^5:
 | Quantity | Formula | Uses $\sqrt{30}$ as |
 |:---|:---|:---|
 | Pion mass | $m_\pi = f_\pi \times \chi = (m_p/10)\sqrt{30}$ | Chiral condensate |
+| n-p EM mass splitting | $\delta m_{np}^{\mathrm{EM}} = -\alpha m_p/\sqrt{30} = -0.70$ MeV | Proton self-energy |
 | MOND acceleration | $a_0 = cH_0/\sqrt{30}$ | Cosmological-to-galactic transition |
 
-**BST unifies the pion mass (strong nuclear physics) with the MOND
-acceleration (galactic dynamics) through the same parameter
-$\sqrt{n_C(n_C+1)}$.**
+**BST unifies the pion mass (strong nuclear physics), the neutron-proton
+electromagnetic mass splitting, and the MOND acceleration (galactic
+dynamics) through the same parameter $\sqrt{n_C(n_C+1)} = \sqrt{30}$.**
+The same invariant that gives the proton its EM self-energy at $10^{-15}$ m
+sets the MOND acceleration at $10^{21}$ m.
 
 ### 2.4 Physical Interpretation
 
