@@ -81,9 +81,9 @@ The Chern polynomial is $N_c$ times a product of three quadratic-or-lower polyno
 | $h_4$ | $-\tfrac{1}{2} + \tfrac{i}{2\sqrt{3}}$ | $-\tfrac{1}{2}$ | $1/\sqrt{3}$ | Color amp. | Non-trivial |
 | $h_5$ | $-\tfrac{1}{2} - \tfrac{i}{2\sqrt{3}}$ | $-\tfrac{1}{2}$ | $1/\sqrt{3}$ | Color amp. | Non-trivial |
 
-### 2.2 The Two Moduli
+### 2.2 The Two Moduli (n = 5)
 
-The five roots have exactly **two** distinct moduli:
+The five roots of $P_5(h)$ have exactly **two** distinct non-trivial moduli:
 
 $$|h| = 1 \quad \text{(cyclotomic roots — exact symmetries)}$$
 $$|h| = \frac{1}{\sqrt{N_c}} = \frac{1}{\sqrt{3}} \quad \text{(color amplitude roots — confinement)}$$
@@ -169,7 +169,7 @@ Therefore $P_n(h) = (h+1) \cdot Q_{n-1}(h)$ where $Q_{n-1}$ has degree $n-1$ (ev
 
 Notation: $\varphi = (1+\sqrt{5})/2 \approx 1.618$ is the golden ratio.
 
-The critical line property is universal for all odd $n$. The root moduli evolve with $n$, and for $n = 9$ the golden ratio $\varphi$ appears. The unique feature of $n = 5$ is that the root moduli are $1$ (exact) and $1/\sqrt{N_c}$ (color) — the simplest possible pair.
+The critical line property is universal for all odd $n$. The root moduli evolve with $n$: the number of distinct non-trivial moduli is $(n-1)/2$, growing with dimension. For $n = 7$, the exact moduli are $\sqrt{1/2}$, $\sqrt{1 - 1/\sqrt{2}}$, and $\sqrt{1 + 1/\sqrt{2}}$ (the latter two multiply to give $1/\sqrt{2}$). For $n = 9$ the golden ratio $\varphi$ appears. The unique feature of $n = 5$ is that the root moduli are $1$ (exact) and $1/\sqrt{N_c}$ (color) — the simplest possible pair, which is another way $n_C = 5$ is singled out.
 
 -----
 
@@ -257,7 +257,7 @@ $$P(h) = (h+1)(h^2+h+1)(3h^2+3h+1) = \Phi_2 \cdot \Phi_3 \cdot N_c(h^2+h+1/N_c)$
 |:---------|:----------|
 | Factorization | Three factors: $\mathbb{Z}_2$, $\mathbb{Z}_3$, color amplitude |
 | $h = 1$ values | $2 \times 3 \times 7 = r \times N_c \times g = 42$ |
-| Root moduli | $1$ (symmetry) and $1/\sqrt{N_c}$ (color) |
+| Root moduli ($n = 5$) | $1$ (symmetry) and $1/\sqrt{N_c}$ (color) — simplest pair; higher $n$ have $(n-1)/2$ distinct moduli |
 | Critical line | All non-trivial zeros on $\mathrm{Re}(h) = -1/2 = -1/r$ |
 | Mechanism | Balanced coefficients from $h \mapsto -1-h$ symmetry |
 | Universality | Holds for all odd $D_{IV}^n$ |
