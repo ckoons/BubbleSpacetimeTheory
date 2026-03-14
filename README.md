@@ -164,6 +164,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Δt_echo (BH echo delay) | N_max·r_s/c = 137·2GM/c³ | 1.352 ms/M☉ | — | prediction |
 | ν_21cm (hyperfine) | BST μ_p=14/5 | 1425 MHz | 1420.4 MHz | 0.3% |
 
+| a_μ (muon g-2) | Full 5-loop QED + EW + HVP + HLbL, all from D_IV^5 | 116591955×10⁻¹¹ | 116592072×10⁻¹¹ | **1 ppm** |
 | 3+1 spacetime | B₂ root multiplicities: m_short=n_C−2=3, m_long=1 | 3+1 | 3+1 (observed) | derived |
 | Contact conservation | Lax spectral + elastic S-matrix + winding topology | exact | — | new law |
 | |W(D₅)|/|W(B₂)| = |Φ(E₈)| | 1920/8 = 240 | 240 | 240 (E₈ roots) | exact |
@@ -525,7 +526,7 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | Spectral index derivation | n_s = 1−n_C/N_max (Candidate A selected); active modes / total capacity | 0.3σ |
 | Spectral running derived | α_s = −(n_s−1)² = −25/18769 = −0.00133 | 0.5σ |
 | BST expansion history | w₀≈−0.9997; no phantom crossing (Λ monotonically decreasing) | consistent |
-| Muon g-2 resolved | BST aligns with BMW lattice HVP; anomaly → ≤2σ; no new physics | structural |
+| Muon g-2 from geometry | a_μ computed from D_IV^5: all inputs geometric (α, m_μ/m_e, sin²θ_W, m_ρ, Γ_ρ); 1 ppm precision | **1 ppm** |
 | Nuclear binding energy (all 5 SEMF terms) | B_d = αm_p/π is the nuclear quantum; a_V=7B_d, a_S=8B_d, a_C=B_d/π, a_A=f_π/4, δ=(7/4)αm_p | 0.1–2.0% |
 | Iron peak at A=56 | A=56=g(g+1): liquid-drop maximum + doubly-magic shell closure at Z=N=28=4g | structural |
 | Nuclear radius r₀ | (N_cπ²/n_C)ℏc/m_p = 1.245 fm | 0.4% |

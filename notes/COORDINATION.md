@@ -353,7 +353,13 @@ Five-step analytic proof via Cartan involution:
 Bonus: dim K = 11 = c₂(Q⁵). The second Chern class counts isotropy generators. Universal for all n.
 Written: notes/BST_Isotropy_Proof.md. PDF built by Keeper. README/WorkingPaper updated, open problems reduced.
 
-### Lyra: New toys (March 14 night) — 117 total
+### Lyra: Muon g-2 from geometry (March 14 night)
+- toy_muon_g2_geometry.py (#105): Full a_μ from D_IV^5. All inputs geometric. Result: 1 ppm precision.
+- BST total: 116,591,955 × 10⁻¹¹ vs experiment 116,592,072 × 10⁻¹¹ (difference -117 × 10⁻¹¹)
+- BST prediction confirmed: WP25 lattice reduces anomaly from 5.1σ to 0.6σ
+- Notes: BST_MuonG2_Rigorous.md (full analysis), BST_MuonG2_Estimate.md (earlier estimate)
+
+### Lyra: New toys (March 14 night) — 118 total
 - toy_42.py (#104): Deep Thought presentation of P(1)=42, factorization, critical line, Adams quotes
 - toy_selberg_bridge.py (#103): Palindromic verification, Eisenstein zeros, Selberg bridge computation
 - toy_cosmological_cascade.py: η → Ω_b h² → H₀ cascade

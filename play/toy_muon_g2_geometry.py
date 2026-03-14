@@ -44,10 +44,9 @@ Gamma_1920 = 1920  # |W(D_5)| = n_C! * 2^{n_C-1}
 Vol_D = np.pi**n_C / Gamma_1920  # Vol(D_IV^5)
 
 # THE FINE STRUCTURE CONSTANT — from Wyler (1969), derived from D_IV^5
-# α = (N_c² / 2^{N_c}) × (Vol_D / π⁴)^{1/4}
-# = (9/8) × (π⁵/1920 / π⁴)^{1/4}
-# = (9/8) × (π/1920)^{1/4}
-alpha_BST = (N_c**2 / 2**N_c) * (Vol_D / np.pi**4)**0.25
+# α = (N_c² / (2^{N_c} × π⁴)) × Vol_D^{1/4}
+# = (9/(8π⁴)) × (π⁵/1920)^{1/4}
+alpha_BST = (N_c**2 / (2**N_c * np.pi**4)) * Vol_D**0.25
 alpha_inv_BST = 1.0 / alpha_BST
 
 # Masses from BST (in MeV)
@@ -66,7 +65,7 @@ m_rho_BST = n_C * np.pi**n_C * m_e     # = 5π⁵ m_e ≈ 781.9 MeV (ρ meson)
 m_omega_BST = m_rho_BST                  # ρ-ω degenerate in BST
 m_phi_BST = (N_c + 2*n_C) * np.pi**n_C * m_e / 2  # ≈ 1016.4 MeV (φ meson)
 Gamma_rho_BST = N_c * np.pi**4 * m_e     # = 3π⁴ m_e ≈ 149.3 MeV
-Gamma_phi_BST = m_phi_BST / (2 * np.math.factorial(n_C))  # ≈ 4.248 MeV
+Gamma_phi_BST = m_phi_BST / (2 * 120)  # n_C! = 5! = 120; ≈ 4.248 MeV
 
 # Weinberg angle from Chern classes
 sin2_thetaW_BST = Fraction(3, 13)  # c₅/c₃ = 3/13
@@ -397,7 +396,7 @@ def full_calculation():
     print(f"""
   Every input to this calculation traces back to D_IV^5:
 
-  α = (9/8)(π/1920)^{{1/4}}        ← Bergman kernel volume
+  α = (9/(8π⁴))(π⁵/1920)^{{1/4}}   ← Bergman kernel volume
   m_μ/m_e = (24/π²)⁶              ← embedded domain ratio D_IV^1 → D_IV^3
   sin²θ_W = c₅/c₃ = 3/13         ← Chern class ratio
   m_ρ = 5π⁵ m_e                    ← partition function on D_IV^5
