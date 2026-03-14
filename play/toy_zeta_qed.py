@@ -274,7 +274,7 @@ class ZetaQED:
 
         zeta_Delta(s) = sum_{k=1}^{inf} d_k / lambda_k^s
 
-        Converges for Re(s) > dim(Q^5)/2 = 5/2.
+        Converges for Re(s) > 3 (since d_k ~ k^5/60, lambda_k ~ k^2).
 
         Parameters:
             s: float or array — the zeta parameter
@@ -299,7 +299,9 @@ class ZetaQED:
             print(f"\n  === SPECTRAL ZETA FUNCTION ON Q\u2075 ===")
             print()
             print("  zeta_Delta(s) = sum_{k=1}^{inf} d_k / lambda_k^s")
-            print(f"  Convergence: Re(s) > 5/2 = 2.5")
+            print(f"  Convergence: Re(s) > 3 (d_k ~ k^5/60, λ_k ~ k^2)")
+            print(f"  At s=3: logarithmic divergence with coefficient 1/60 = 2/5!")
+            print(f"  60 = n_C!/2 = |A₅| = icosahedral group")
             print()
             print(f"  zeta_Delta({s_val}) = {z_val:.8f}")
             print()

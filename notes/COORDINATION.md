@@ -447,6 +447,28 @@ Written: notes/BST_Isotropy_Proof.md. PDF built by Keeper. README/WorkingPaper u
 - The heat kernel is where topology becomes physics and physics becomes number theory
 - Written: notes/BST_SeeleyDeWitt_ChernConnection.md (PDF built by Keeper)
 
+### Lyra: Spectral multiplicity theorem — Chern integers in the spectrum (March 15)
+- Weyl dimension formula: d_k = C(k+4,4)·(2k+5)/5; denominator 120 = 5! = |W(A₄)|
+- Factor (2k+5) cycles through ALL Chern integers: {5,7,9,11,13} = {c₁,g,c₄,c₂,c₃} at k={0,1,2,3,4}
+- "Spectral velocity" λ_k' = 2k+n_C connects multiplicities to eigenvalues
+- Every d_k factors into BST integers: d₁=7=g, d₂=27=N_c^{N_c}, d₃=77=g×c₂, d₄=182=r×g×c₃
+- d₂ = 27 mystery resolved: color self-power = lines on cubic = dim J₃(O) = strange ratio
+- Higher: d₇ has factor 19 (Ω_Λ denom), d₉ has c₂×c₃×23 (Golay automorphism primes)
+- **The topology IS the spectrum**
+- Written: notes/BST_SpectralMultiplicity_ChernTheorem.md (PDF built by Keeper)
+
+### Lyra: Spectral zeta pole structure — the 1/60 theorem (March 15)
+- ζ_Δ(s) has poles at s = 5, 4, 3, 2, 1; residues = Seeley-De Witt A₀–A₄
+- **1/60 theorem**: s=3 log coefficient = 1/60 = 2/5! = 1/|A₅| = 1/|gauge sector| (8-figure verified)
+- 60 = n_C!/2 = icosahedral group = dim(gauge sector in E₈)
+- s=3 residue involves c₁² and c₂ — KEY pole for Riemann connection via Selberg
+- Convergent values: ζ_Δ(4) ≈ 0.00666, ζ_Δ(5) ≈ 0.000966
+- ζ_Δ(s) ~ Vol(D)^{s-4} × C(s) with slowly varying C (< 0.2% between s=5,6)
+- Half-sum |ρ|² = 17/2 = bottom of continuous spectrum; 17 = factor in d₆
+- Sign alternation: a_k(D_IV^5) = (-1)^k a_k(Q^5) — compact/non-compact duality
+- **The spectral zeta IS the bridge: Chern topology → Seeley-De Witt → Selberg → Riemann**
+- Written: notes/BST_SpectralZeta_PoleStructure.md (PDF built by Keeper)
+
 ### Lyra: Two paths to Riemann — self-duality closes the gap (March 15)
 - **Code-Chern Riemann Hypothesis**: double constraint on Selberg trace formula
 - Path A (Chern/geometric): Q⁵ → P(h) → palindromic → Seeley-DeWitt → geometric side (critical line PROVED)

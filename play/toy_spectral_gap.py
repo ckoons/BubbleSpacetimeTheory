@@ -337,3 +337,49 @@ print("  │  Therefore: the proton mass IS spectral geometry.      │")
 print("  │                                                        │")
 print("  └────────────────────────────────────────────────────────┘")
 print()
+
+
+# ═══════════════════════════════════════════════════════════════════
+# 8. THE MULTIPLICITY THEOREM (March 15, 2026)
+# ═══════════════════════════════════════════════════════════════════
+
+print()
+print("=" * 64)
+print("  8. THE MULTIPLICITY THEOREM")
+print("=" * 64)
+print()
+print("  d_k = C(k+4,4) × (2k+5)/5")
+print()
+print("  The factor (2k+5) cycles through ALL Chern integers:")
+print()
+
+chern_labels = {
+    0: "n_C = c₁",
+    1: "g (genus, Mersenne prime)",
+    2: "N_c² = c₄",
+    3: "dim K = c₂",
+    4: "c₃ (Weinberg denominator)",
+    5: "N_c × n_C",
+    7: "Ω_Λ denominator (19)",
+    8: "dim SO(7) (21)",
+    9: "Golay n-1 (23)",
+}
+
+from math import comb
+
+for k in range(10):
+    factor = 2 * k + 5
+    dk = comb(k + 4, 4) * (2 * k + 5) // 5
+    label = chern_labels.get(k, "")
+    marker = " ★" if k <= 4 else ""
+    print(f"    k={k}: (2k+5) = {factor:>2}  →  d_{k} = {dk:>5}  {label}{marker}")
+
+print()
+print("  ★ Spectral velocity: λ'_k = dλ_k/dk = 2k + n_C")
+print("    d_k = C(k+4,4) × λ'_k / n_C")
+print("    The rate of change of eigenvalues carries ALL the topology.")
+print()
+print("  ★ The 1/60 Theorem:")
+print("    At s=3 (pole boundary): Σ d_k/λ_k³ ~ (1/60) ln N")
+print("    60 = n_C!/2 = |A₅| = |icosahedral group|")
+print("    See: toy_spectral_multiplicity.py, toy_spectral_zeta.py")

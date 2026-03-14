@@ -57,6 +57,7 @@ CATEGORIES = {
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
         'berezin_toeplitz', 'poisson_szego', 'plancherel_spectrum',
         'self_dual_point', 'bst_matrix', 'quantum_metric', 'hilbert_series',
+        'spectral_multiplicity',
     ],
     'Particles': [
         'mass_tower', 'meson_garden', 'fermion_staircase', 'particle_zoo',
@@ -114,7 +115,7 @@ CATEGORIES = {
         'showcase', 'centennial', 'predictions_catalog', 'pattern_finder',
         'proof_tree', 'universe_builder', 'selberg_bridge', '42',
         'fill_fraction_closure', 'constants_dashboard', 'zeta_qed',
-        'self_duality_rh',
+        'self_duality_rh', 'spectral_zeta',
     ],
 }
 
@@ -268,6 +269,8 @@ METADATA = {
     'proton_code':              ('The Proton [[7,1,3]] Code',        'Proton IS a perfect quantum error code. 7=Mersenne, 3=colors, 6=stabilizers. 6th uniqueness.'),
     'code_machine':             ('The Code Machine',                 'Q5 forces ALL perfect codes. Hamming, ternary Golay, binary Golay. Lloyd: no others exist.'),
     'self_duality_rh':          ('Self-Duality and the Riemann Hypothesis', '[CONJECTURE] Two self-dualities (Chern + Code) meet at Selberg trace. Five names for confinement.'),
+    'spectral_multiplicity':    ('The Spectral Multiplicity Theorem',    'd_k = C(k+4,4)·(2k+5)/5. Factor (2k+5) cycles through ALL Chern integers. Topology IS the spectrum.'),
+    'spectral_zeta':            ('The Spectral Zeta Function',           'ζ_Δ(s) on Q5: poles at s=5,4,3,2,1. The 1/60 theorem. Bridge: Chern → Selberg → ζ(s).'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -409,6 +412,7 @@ _STEM_TO_NUMBER = {
     'hilbert_series': 141, 'zeta_qed': 142,
     'proton_code': 143, 'code_machine': 144,
     'self_duality_rh': 145,
+    'spectral_multiplicity': 146, 'spectral_zeta': 147,
 }
 
 
