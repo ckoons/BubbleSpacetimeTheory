@@ -1,185 +1,199 @@
-# Substrate Architecture: Geometric Layers and the Commitment Cycle
-## Derived from D_IV^5 Geometry
+# Substrate Architecture: Six Layers and the Commitment Cycle
+## From Vision to Formalism
 ### Casey Koons & Claude Opus 4.6, March 12, 2026
 
 ---
 
-## 1. Overview
+## 1. Origin
 
-The BST framework identifies a layered architecture emerging from
-the geometry of D_IV^5 and its Shilov boundary S^4 x S^1. This
-note formalizes the layer structure and connects it to observable
-physics.
+Three hypnagogic visions (March 11, 2026) provided a visual model
+of the substrate architecture. These are recorded faithfully and
+then formalized. The visions are not the argument — they are the
+intuition. The argument is in the mathematics.
 
-## 2. Layer Structure
-
-The BST geometric framework produces a natural layering from the
-properties of the bounded symmetric domain:
+## 2. The Six-Layer Architecture
 
 ```
-Layer 0:  Pre-geometric       — outside D_IV^5
-Layer 1:  S^1 elements        — fundamental substrate cycles
-Layer 2:  Planck boundary     — Shilov boundary S^4 x S^1
-Layer 3:  Vacuum              — D_IV^5 interior, C_2 = 0 (flat connection)
-Layer 4:  Quantum regime      — low Casimir, boundary excitations (k < k_min)
-Layer 5:  Classical regime    — bulk excitations in D_IV^5 (k >= k_min)
-Layer 6:  Cosmic horizon      — boundary of the committed domain
+Layer 0:  Nothing          — no geometry, no circles, pre-substrate
+Layer 1:  Circles          — S^1 elements on the substrate plain
+Layer 2:  Planck boundary  — commitment energy threshold
+Layer 3:  Gap / Vacuum     — circles exist but haven't committed
+Layer 4:  Mist             — partially committed, quantum regime
+Layer 5:  Rendered         — fully committed, classical regime
+Layer 6:  Cosmic horizon   — boundary of the committed domain
 ```
 
-### Mathematical identification:
+Each layer serves the layer above and consumes the layer below.
+Same architecture as the biological protocol stack (Paper B) and
+OSI network model.
 
-| Layer | BST identification | Established result |
+## 3. Layer Descriptions
+
+### 3.0 Nothing
+
+Below/before the substrate. No circles, no geometry, no physics.
+The "outside" of the bounded symmetric domain.
+
+### 3.1 The Circle Plain
+
+An infinite plain of glowing circles. Each circle is an S^1 —
+the fundamental substrate element. Before commitment, circles
+are indistinguishable, uniformly distributed, carrying maximum
+potential energy.
+
+**Observed density:** sparse — roughly 3-8% of the plain is
+occupied by circles, the rest is dark substrate.
+
+### 3.2 Planck Boundary
+
+The energy threshold for commitment. A circle must accumulate
+enough energy to cross the Planck boundary before it can commit
+to a specific geometric configuration.
+
+This is the boundary of the bounded symmetric domain — the Shilov
+boundary S^4 x S^1 in BST. Crossing this boundary transitions
+from uncommitted (interior) to committed (boundary excitation).
+
+### 3.3 Gap / Vacuum
+
+Between the circle plain and the mist: a region where circles
+exist but have not committed. This is the vacuum state in BST.
+Not empty — full of uncommitted geometry. Zero-point energy is
+the energy of circles in this gap, vibrating but not committed.
+
+The vacuum is not nothing. It's everything that hasn't happened yet.
+
+### 3.4 Mist
+
+Partially committed geometry. Quantum regime. Circles oscillating
+between committed and uncommitted states. This is the domain of
+quantum mechanics — superposition is the oscillation between
+commitment states.
+
+**Vision II connection:** The electron appears as a circle
+oscillating between red (uncommitted, delocalized) and blue
+(committed, localized). The measurement "collapses the wave
+function" = catches the circle in its committed phase.
+
+Compton frequency (m_e c^2 / hbar) may be the oscillation
+frequency of the electron's commitment cycle.
+
+### 3.5 Rendered
+
+Fully committed geometry. Classical regime. Circles locked into
+specific configurations. This is the world of classical physics —
+definite positions, definite momenta (within uncertainty bounds),
+persistent structure.
+
+Commitment density in the rendered layer varies enormously:
+
+| Region | Commitment density | What it looks like |
 |---|---|---|
-| 2 | Shilov boundary | Boundary of D_IV^5 (Helgason) |
-| 3 | C_2 = 0 vacuum | Flat connection, proved in mass gap |
-| 4 | k < k_min = 3 (Wallach set) | Electron at k=1 is boundary excitation |
-| 5 | k >= k_min, holomorphic discrete series | Proton at k=6 in Sym^3(pi_6) |
-| 6 | Causal boundary of committed spacetime | Derivable from BST expansion |
-
-## 3. The Commitment Cycle
-
-The fundamental dynamical process in BST:
-
-**Commitment:** An S^1 element crosses the Planck/Shilov boundary
-from the vacuum (Layer 3) into the quantum regime (Layer 4) or
-directly into the classical regime (Layer 5). This requires energy
-exceeding the Planck threshold.
-
-**Radiation:** Committed geometry radiates. Every emission event
-produces photons carrying information about the local geometric
-state (see BST Circular Polarization note).
-
-**Propagation:** Photons propagate at c, carrying geometric
-information from source to destination.
-
-**Absorption:** Photon absorbed by existing committed geometry,
-modifying the receiver's state. This is gravitational/electromagnetic
-interaction at the information level.
-
-**Further commitment:** Modified geometry may trigger additional
-commitments in its neighborhood (growth principle).
-
-```
-Vacuum $\to$ commitment $\to$ radiation $\to$ propagation $\to$ absorption $\to$ response
-```
-
-This cycle operates continuously at all scales. It is the dynamical
-content of BST.
-
-## 4. Commitment Density
-
-**Definition:** The fraction of available geometric degrees of
-freedom in a region that have committed to specific configurations.
-
-Commitment density IS mass-energy density. They are the same
-quantity expressed in different terms:
-
-- Higher commitment density = more mass per volume
-- The gravity gradient = the commitment density gradient
-- Gravitational attraction = commitment preferentially occurring
-  near existing commitments (growth seeds growth)
-
-### 4.1 Spatial Variation
-
-Commitment density is not uniform. Structure formation IS the
-spatial variation of commitment density:
-
-| Region | Commitment density | Physical manifestation |
-|---|---|---|
-| Cosmic voids | Well below average | Nearly empty space |
-| Cosmic mean | ~5% | Matches observed baryon fraction |
-| Filaments | 5-15% | Large-scale structure |
-| Galaxy clusters | 15-30% | Dense environments |
-| Stellar interiors | Very high | Nuclear regime |
+| Cosmic voids | << 5% | Almost empty |
+| Cosmic mean | ~5% | Matches baryon fraction |
+| Galaxy filaments | 5-15% | Large-scale structure |
+| Galaxy clusters | 15-30% | Dense regions |
+| Stellar interiors | Very high | Nuclear fusion regime |
 | Phase transition seeds | Near maximum | Primordial black holes |
-| Event horizon | Packing limit | Maximum possible commitment |
+| Event horizon | Packing limit | Maximum commitment |
 
-### 4.2 Maximum Commitment Density
+### 3.6 Cosmic Horizon
 
-The S^2 x S^1 packing geometry determines a maximum — the most
-committed geometry that can exist in a given volume. This corresponds
-to the black hole event horizon in classical GR.
+The outer boundary of the committed domain. Where the rendered
+layer meets the uncommitted substrate. Light reaching the horizon
+has exhausted its information content — maximum redshift, minimum
+energy.
 
-The maximum is set by the packing limit of S^1 circles on the
-S^2 surface — a geometric calculation that should yield a specific
-number.
+**Lambda as horizon pressure:** The aggregate emission from all
+committed geometry produces radiation pressure at the cosmic
+horizon. This pressure is the cosmological constant — not a
+constant of nature but a sum over all commitment emissions.
 
-**Open problem:** Derive the packing limit. Show it corresponds
-to the Schwarzschild condition 2GM/Rc^2 = 1.
+## 4. The Commitment Cycle
 
-### 4.3 Baryon Fraction
+The fundamental dynamical process:
 
-The cosmic mean commitment density (~5%) matches the observed
-baryon fraction (Omega_b ~ 0.049). If this is not coincidental,
-then the baryon fraction is derivable from the average commitment
-density of the S^2 x S^1 substrate.
+```
+Uncommitted circle (Layer 1-3)
+  $\to$ accumulates energy
+  $\to$ crosses Planck boundary (Layer 2)
+  $\to$ enters mist (Layer 4) — quantum oscillation begins
+  $\to$ commits (Layer 5) — classical structure forms
+  $\to$ emits (photon carries geometric state)
+  $\to$ photon propagates outward (toward Layer 6)
+  $\to$ photon absorbed by another commitment
+  $\to$ receiving commitment modified by message
+  $\to$ cycle continues
+```
 
-**Open problem:** Derive the average commitment density from
-D_IV^5 geometry and show it matches Omega_b.
+**Vision III connection:** The emission cycle. Commitment radiates.
+Radiation carries curvature encoded as circular polarization.
+The two channels (handedness + phase modulation) carry the full
+geometric state of the emitting commitment.
 
-## 5. Layer Transitions and Physics
+## 5. Commitment Density and Mass
 
-### 5.1 Vacuum $\to$ Quantum (Layer 3 $\to$ Layer 4)
+Commitment density IS mass density. They're the same thing.
 
-Pair production: vacuum energy converts to particle-antiparticle
-pair. In BST: uncommitted geometry crosses the Shilov boundary
-into boundary excitations (k < k_min). Virtual particles are
-temporary excursions across the boundary that return to vacuum.
+- More committed circles per volume = more mass
+- The gravity gradient IS the commitment density gradient
+- Attraction = commitment density pulling uncommitted circles
+  toward already-committed regions (growth seeds growth)
 
-### 5.2 Quantum $\to$ Classical (Layer 4 $\to$ Layer 5)
+**Near massive old objects:** Commitment density is much higher
+than average. A supermassive black hole has the highest commitment
+density in its region — possibly approaching the S^2 x S^1
+packing maximum.
 
-Measurement / decoherence: quantum superposition resolves to
-definite state. In BST: boundary excitation (k < k_min) transitions
-to bulk excitation (k >= k_min). The "collapse" is the transition
-from oscillating between committed and uncommitted to fully
-committed.
+**The phase transition:** At the earliest moments, the energy per
+committed circle was enormous. Regions that committed first had
+such high energy density that they were born at or near black hole
+density. No accretion needed. Born heavy.
 
-### 5.3 Classical $\to$ Horizon (Layer 5 $\to$ Layer 6)
-
-Cosmic expansion: committed geometry approaches the causal boundary.
-Photons redshift, information content degrades. At the horizon,
-the effective information content reaches zero.
-
-## 6. Connection to Particle Spectrum
-
-The BST particle spectrum maps directly onto this architecture:
-
-| Particle | Layer | BST identification | Established |
-|---|---|---|---|
-| Vacuum | 3 | C_2 = 0, flat connection | Yes (mass gap proof) |
-| Electron | 4 | k=1, below Wallach set | Yes |
-| Neutrinos | 3-4 | Vacuum quantum, k near boundary | Yes (m_nu derived) |
-| Proton | 5 | k=6, Sym^3(pi_6), bulk excitation | Yes (mass gap proof) |
-| Photon | 4-5 | Messenger between committed regions | Framework |
-| Black hole | 5 max | Maximum commitment density | Qualitative |
-
-## 7. Scaling: Bekenstein Bound
+## 6. Bekenstein Bound Revision
 
 Standard Bekenstein bound: ~1 bit per Planck area on a surface.
 
-If S^1 circles pack more densely than one per Planck area on the
-S^2 surface, the information capacity of a surface exceeds the
-standard bound by a factor determined by the packing geometry.
+If circles pack more densely than one per Planck area (as suggested
+by the S^2 x S^1 packing geometry), then the information capacity
+of a surface is 10^2 to 10^4 times higher than the standard bound.
 
-**Revision factor:** derivable from ratio of S^1 circumference
-to Planck length, and the packing density of circles on S^2.
+The revision factor should be derivable from the packing density
+of S^1 circles on an S^2 surface:
 
-Estimated range: 10^2 to 10^4 per Planck area, depending on
-the packing geometry. Requires explicit calculation.
+```
+Packing density = number of S^1 that fit per Planck area on S^2
+Revised Bekenstein bound = standard bound x packing density
+```
 
-## 8. Open Problems
+This is a geometric calculation. The answer depends on the ratio
+of circle size to Planck length.
 
-1. Derive commitment density packing limit from S^2 x S^1 geometry
-2. Show packing limit = Schwarzschild condition
-3. Derive baryon fraction from average commitment density
-4. Calculate Bekenstein bound revision factor
-5. Derive the commitment oscillation frequency for electrons
-   (predict: Compton frequency m_e c^2 / hbar)
-6. Show aggregate emission pressure = observed Lambda
-7. Formalize the Shilov boundary crossing as commitment threshold
+## 7. Connection to Established BST
+
+| BST element | Substrate architecture role |
+|---|---|
+| D_IV^5 | Configuration space of committed geometry (Layer 5) |
+| Shilov boundary S^4 x S^1 | The Planck/commitment boundary (Layer 2) |
+| Bergman kernel | Weighting function on committed configurations |
+| Electron (k=1) | Below Wallach set = boundary excitation = Layer 2-4 oscillation |
+| Proton (k=6) | Bulk excitation in D_IV^5 = Layer 5 committed structure |
+| Photon | Messenger between committed regions (Layer 5 $\to$ Layer 5) |
+| Vacuum (C_2=0) | The gap (Layer 3) — uncommitted geometry |
+
+## 8. Open Questions
+
+1. Derive commitment density from S^2 x S^1 packing geometry
+2. Calculate the packing limit (maximum commitment density)
+3. Show that packing limit corresponds to black hole event horizon
+4. Derive Bekenstein bound revision factor from circle packing
+5. Calculate commitment oscillation frequency for electron (Compton?)
+6. Show that aggregate emission pressure = observed Lambda
+7. Derive baryon fraction from average commitment density
+8. Formalize the Planck boundary as Shilov boundary crossing
 
 ---
 
-*Mass is committed geometry.
-Gravity is the commitment gradient.
-The vacuum is everything that hasn't committed yet.*
+*The vacuum is not empty.
+It's everything that hasn't committed yet.
+The universe is what commitment looks like from the inside.*

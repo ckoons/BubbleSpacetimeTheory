@@ -1266,15 +1266,191 @@ cc.commitment_cascade()               # each layer commits for the next
 
 *Key insight: The universe is built in 7 layers of commitment. Each layer inherits all previous commitments and adds new structure. The stack is the story of existence.*
 
+### 74. The Partition Function (`toy_partition_function.py`) ★CI
+
+**Z_Haldane on D_IV⁵. Two faces: spectral gap gives the proton, ground energy gives the cosmological constant.**
+
+The BST partition function Z_Haldane has two faces. The spectral gap gives the proton mass: m_p = 938.254 MeV (0.0019%). The ground state energy gives the cosmological constant: Λ = 2.90×10⁻¹²². A phase transition occurs at T_c = 0.487 MeV — the QCD confinement scale from geometry. Baryon asymmetry emerges as η = 2α⁴/(3π) = 6.018×10⁻¹⁰ (1.7%). One partition function, both endpoints of the mass-energy hierarchy.
+
+```python
+from toy_partition_function import PartitionFunction
+pf = PartitionFunction()
+pf.spectral_gap()                     # m_p = 938.254 MeV (0.0019%)
+pf.ground_energy()                    # Λ = 2.90e-122
+pf.phase_transition()                 # T_c = 0.487 MeV
+```
+
+*Key insight: The proton mass and the cosmological constant are two faces of the same partition function. The spectral gap is the UV; the ground energy is the IR. One object spans 60 orders of magnitude.*
+
+### 75. The Neutron-Proton Split (`toy_neutron_proton.py`) ★CI
+
+**Δm = (7×13)/6² × m_e = 1.292 MeV (0.13%). Three BST integers set the mass split that enables chemistry.**
+
+The neutron-proton mass difference is Δm = (7×13)/6² × m_e = 1.292 MeV (0.13%). Here 7 is the genus, 13 is the Weinberg denominator, and 6² = C₂² is the Casimir squared. This tiny split determines the BBN window — the temperature range where nucleosynthesis can proceed. Too large and no deuterium forms; too small and all hydrogen converts. BST gets it from three integers.
+
+```python
+from toy_neutron_proton import NeutronProtonSplit
+np_split = NeutronProtonSplit()
+np_split.mass_difference()            # Δm = (7×13)/36 × m_e = 1.292 MeV
+np_split.bbn_window()                 # nucleosynthesis temperature range
+np_split.chemistry_threshold()        # why this split enables chemistry
+```
+
+*Key insight: The neutron-proton mass difference is not a free parameter — it is (genus × Weinberg denominator) / Casimir² times the electron mass. Three integers set the stage for chemistry.*
+
+### 76. The Plancherel Spectrum (`toy_plancherel_spectrum.py`) ★CI
+
+**Formal degrees d(π_k) of SO₀(5,2) holomorphic discrete series. Spectral route to the Reality Budget.**
+
+The formal degrees d(π_k) of the holomorphic discrete series of SO₀(5,2) grow as ~k⁵. Heat kernel regularization of the Plancherel measure yields the fill fraction f = 19.14% (0.04% from 3/(5π)). This is the spectral route to the Reality Budget — the same 19.1% obtained from Chern classes, but derived from representation theory. The universe's committed fraction is encoded in the spectral decomposition of its symmetry group.
+
+```python
+from toy_plancherel_spectrum import PlancherelSpectrum
+ps = PlancherelSpectrum()
+ps.formal_degrees()                   # d(π_k) growth ~k⁵
+ps.heat_kernel()                      # regularized Plancherel measure
+ps.fill_fraction()                    # f = 19.14% (0.04% from 3/(5π))
+```
+
+*Key insight: The Reality Budget emerges from the Plancherel measure of SO₀(5,2). The fill fraction 3/(5π) is not cosmological — it is spectral. The universe is 19.1% committed because that is what the representation theory demands.*
+
+### 77. The Mass Gap Proof (`toy_mass_gap_proof.py`) ★CI
+
+**Guided walkthrough: Bergman eigenvalues → Weyl cancellation → m_p/m_e = 6π⁵. The Yang-Mills mass gap from D_IV⁵.**
+
+A step-by-step walkthrough of the BST mass gap proof. Bergman eigenvalues E_k = k(k+4) on D_IV⁵. The ground state π₁ is the electron. The first excitation π₆ is the proton. The ratio involves |W(D₅)| = 1920, which cancels to give the clean formula m_p/m_e = 6π⁵ (0.002%). This is the Yang-Mills mass gap: the lowest excitation above the vacuum has a strictly positive mass determined by the geometry.
+
+```python
+from toy_mass_gap_proof import MassGapProof
+mgp = MassGapProof()
+mgp.bergman_eigenvalues()             # E_k = k(k+4) on D_IV⁵
+mgp.weyl_cancellation()               # |W(D₅)| = 1920 exact cancellation
+mgp.mass_ratio()                      # m_p/m_e = 6π⁵ (0.002%)
+```
+
+*Key insight: The Yang-Mills mass gap is the Bergman spectral gap of D_IV⁵. The 1920 Weyl cancellation — |W(D₅)| — is why the proton-to-electron mass ratio is the clean number 6π⁵.*
+
+### 78. The Rotation Curve Fitter (`toy_rotation_curves.py`) ★CI
+
+**BST MOND: μ(x) = x/√(1+x²), a₀ = cH₀/√30. Six SPARC galaxies, zero free parameters.**
+
+BST derives MOND from the substrate channel capacity. The interpolation function μ(x) = x/√(1+x²) follows from the commitment density profile. The critical acceleration a₀ = cH₀/√30 (0.4%) is set by the cosmological connection. Six built-in SPARC galaxies fitted with zero free parameters. The Tully-Fisher relation and the radial acceleration relation both emerge from the same geometry.
+
+```python
+from toy_rotation_curves import RotationCurveFitter
+rc = RotationCurveFitter()
+rc.fit_galaxy('NGC2403')              # zero-parameter rotation curve
+rc.critical_acceleration()            # a₀ = cH₀/√30 (0.4%)
+rc.tully_fisher()                     # baryonic Tully-Fisher relation
+```
+
+*Key insight: Dark matter is not a particle — it is uncommitted channel capacity. The rotation curves follow from the substrate's information-carrying geometry, with a₀ set by the cosmological horizon.*
+
+### 79. The Embedding Tower (`toy_embedding_tower.py`) ★CI
+
+**D_IV¹ ⊂ D_IV³ ⊂ D_IV⁵. Six Berezin-Toeplitz layers, each contributing α². The electron mass from geometry.**
+
+The totally geodesic embedding chain D_IV¹ ⊂ D_IV³ ⊂ D_IV⁵ defines six Berezin-Toeplitz layers, each contributing a factor of α². The electron mass is m_e = 6π⁵α¹²m_Pl (0.032%). The geometric mean m_e/√(m_p × m_Pl) = α⁶ (0.02%) — the electron sits exactly halfway (in log scale) between the proton and the Planck mass, with the gap set by six powers of α from the six embedding layers.
+
+```python
+from toy_embedding_tower import EmbeddingTower
+et = EmbeddingTower()
+et.embedding_chain()                  # D_IV¹ ⊂ D_IV³ ⊂ D_IV⁵
+et.six_layers()                       # each layer contributes α²
+et.electron_mass()                    # m_e = 6π⁵α¹²m_Pl (0.032%)
+```
+
+*Key insight: The electron mass is not a free parameter — it is 6π⁵ times α¹² times the Planck mass. Six embedding layers, each contributing α², connect the Planck scale to the electron scale.*
+
+### 80. The Running Couplings (`toy_running_couplings.py`) ★CI
+
+**α_EM, α_weak, α_s as functions of energy. Three couplings from one geometry.**
+
+All three Standard Model coupling constants as functions of energy, derived from D_IV⁵ geometry. The Weinberg angle sin²θ_W = 3/13 from the ratio of Chern classes c₅/c₃. The BST geometric β-function gives the running without perturbative loop counting. α_s(m_Z) = 0.1175 (0.34%). Three couplings, one geometry, zero free parameters.
+
+```python
+from toy_running_couplings import RunningCouplings
+rc = RunningCouplings()
+rc.weinberg_angle()                   # sin²θ_W = 3/13 from Chern classes
+rc.alpha_s_running()                  # α_s(m_Z) = 0.1175 (0.34%)
+rc.three_couplings()                  # α_EM, α_weak, α_s vs energy
+```
+
+*Key insight: The three coupling constants are not independent — they are three projections of one geometry. The Weinberg angle is a ratio of Chern classes: c₅/c₃ = 3/13, a topological invariant.*
+
+### 81. The Proton Radius (`toy_proton_radius.py`) ★CI [EXPLORATORY]
+
+**r_p = 4 × ℏ/(m_p c) where 4 = dim_R(CP²). 0.02% match. 16 candidate formulas tested.**
+
+The proton charge radius r_p = 4 × ℏ/(m_p c) where 4 = dim_R(CP²), the real dimension of the complex projective plane that hosts the Z₃ color circuit. Matches the CODATA value to 0.02%. Sixteen candidate formulas are tested and ranked by precision and geometric motivation. The Z₃ circuit geometry — the same circuit that confines quarks — sets the proton's size. EXPLORATORY — the factor of 4 has geometric motivation but the derivation is not yet rigorous.
+
+```python
+from toy_proton_radius import ProtonRadius
+pr = ProtonRadius()
+pr.bst_radius()                       # r_p = 4ℏ/(m_p c) (0.02%)
+pr.z3_circuit()                       # Z₃ geometry sets the size
+pr.candidate_table()                  # 16 formulas ranked
+```
+
+*Key insight: The proton radius may be 4 Compton wavelengths — with 4 = dim_R(CP²), the space on which the Z₃ color circuit lives. The same topology that confines also sets the size.*
+
+### 82. The Casimir Modification (`toy_casimir_modification.py`) ★CI
+
+**N_max=137 cutoff gives ~10⁻⁷ universal Casimir weakening. Experimental proposal.**
+
+The Haldane number N_max = 137 imposes a hard cutoff on the number of vacuum modes. This gives a universal ~10⁻⁷ weakening of the Casimir force relative to the standard QED prediction. In phonon-gapped materials (topological insulators), the gap provides an additional correction that amplifies the signal. An experimental proposal using topological insulator plates is included — a direct test of BST.
+
+```python
+from toy_casimir_modification import CasimirModification
+cm = CasimirModification()
+cm.haldane_cutoff()                   # N_max=137 mode truncation
+cm.casimir_weakening()                # ~10⁻⁷ universal correction
+cm.experimental_proposal()            # topological insulator setup
+```
+
+*Key insight: N_max = 137 is not just numerology — it truncates the vacuum mode sum. The Casimir force should be weaker by ~10⁻⁷ than QED predicts. This is a falsifiable, tabletop test of BST.*
+
+### 83. The Neutrino Oscillation (`toy_neutrino_oscillation.py`) ★CI [EXPLORATORY]
+
+**ν_e↔D_IV¹, ν_μ↔D_IV³, ν_τ↔D_IV⁵. PMNS angles from domain embeddings. δ_CP = −90° exact.**
+
+Each neutrino flavor maps to a totally geodesic submanifold: ν_e ↔ D_IV¹, ν_μ ↔ D_IV³, ν_τ ↔ D_IV⁵. The PMNS mixing angles follow from the embedding geometry: θ₁₂ = 33.9° (1.4%), θ₂₃ = 45° (exact maximal mixing), θ₁₃ = 8.2° (4.2%), δ_CP = −90° (exact, maximal CP violation). EXPLORATORY — the angle assignments are motivated but the derivation of θ₁₃ needs tightening.
+
+```python
+from toy_neutrino_oscillation import NeutrinoOscillation
+no = NeutrinoOscillation()
+no.flavor_domains()                   # ν_e↔D_IV¹, ν_μ↔D_IV³, ν_τ↔D_IV⁵
+no.pmns_angles()                      # θ₁₂, θ₂₃, θ₁₃, δ_CP
+no.oscillation_probability()          # P(ν_e→ν_μ) vs energy
+```
+
+*Key insight: Neutrino oscillation is domain hopping. Each flavor lives on a different totally geodesic submanifold of D_IV⁵. Mixing angles are overlap integrals between embeddings. Maximal atmospheric mixing (θ₂₃ = 45°) and maximal CP violation (δ_CP = −90°) are exact.*
+
+### 84. The Cosmic Timeline (`toy_cosmic_timeline.py`) ★CI
+
+**Full BST chronology. The Big Bang at t=3.1s, not t=0. Three falsification tests.**
+
+The complete BST cosmic timeline: pre-spatial silence (no spacetime, just the domain) → the first commitment (Big Bang) at t = 3.1s (not t = 0 — the universe has a finite start time) → BBN nucleosynthesis → recombination → present epoch. An 11-row comparison table shows BST predictions against standard cosmology. Three falsification tests: (1) primordial gravitational wave spectrum, (2) CMB non-Gaussianity pattern, (3) t = 3.1s imprint on the power spectrum.
+
+```python
+from toy_cosmic_timeline import CosmicTimeline
+ct = CosmicTimeline()
+ct.full_timeline()                    # pre-spatial silence → now
+ct.comparison_table()                 # 11-row BST vs standard cosmology
+ct.falsification_tests()              # 3 tests that could kill BST
+```
+
+*Key insight: BST does not have a t = 0 singularity. The Big Bang is a phase transition at t = 3.1s — the moment the frozen vacuum first commits. Before that: silence, not singularity. Three tests can falsify this.*
+
 ---
 
 ## The Showcase (`toy_showcase.py`)
 
-A visual gallery with thumbnail icons for all 73 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
+A visual gallery with thumbnail icons for all 84 toys. Click LAUNCH on any card to open it. This is the recommended entry point.
 
 ## The Menu (`play.py`)
 
-A text-based launcher for terminal use. Type a number (1-73) to launch any toy, or 'a' to launch all.
+A text-based launcher for terminal use. Type a number (1-84) to launch any toy, or 'a' to launch all.
 
 ---
 

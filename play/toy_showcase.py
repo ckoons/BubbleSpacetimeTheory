@@ -622,6 +622,95 @@ TOYS = [
         'color': '#44aaff',
         'icon': 'commitcycle',
     },
+    # ─── Discovery & Proof Toys (74-84) ───
+    {
+        'name': 'Partition Function',
+        'file': 'toy_partition_function.py',
+        'short': 'Z_Haldane two faces',
+        'desc': 'Spectral gap→m_p, ground→Λ',
+        'color': '#ffd700',
+        'icon': 'partfunc',
+    },
+    {
+        'name': 'Neutron-Proton Split',
+        'file': 'toy_neutron_proton.py',
+        'short': 'Δm=(7×13)/6² m_e',
+        'desc': 'Habitability from integers',
+        'color': '#ff4488',
+        'icon': 'npsplit',
+    },
+    {
+        'name': 'Plancherel Spectrum',
+        'file': 'toy_plancherel_spectrum.py',
+        'short': 'd(π_k) formal degrees',
+        'desc': 'Fill fraction 19.1%',
+        'color': '#9966ff',
+        'icon': 'plancherel',
+    },
+    {
+        'name': 'Mass Gap Proof',
+        'file': 'toy_mass_gap_proof.py',
+        'short': 'C₂=6 → 6π⁵m_e',
+        'desc': 'Yang-Mills mass gap',
+        'color': '#44ff88',
+        'icon': 'massgap',
+    },
+    {
+        'name': 'Rotation Curves',
+        'file': 'toy_rotation_curves.py',
+        'short': 'a₀=cH₀/√30',
+        'desc': '6 galaxies, 0 parameters',
+        'color': '#00ddff',
+        'icon': 'rotcurves',
+    },
+    {
+        'name': 'Embedding Tower',
+        'file': 'toy_embedding_tower.py',
+        'short': '6 layers × α²',
+        'desc': 'm_e=6π⁵α¹²m_Pl',
+        'color': '#ff8800',
+        'icon': 'embtower',
+    },
+    {
+        'name': 'Running Couplings',
+        'file': 'toy_running_couplings.py',
+        'short': '3 couplings, 1 geometry',
+        'desc': 'Chern class origin',
+        'color': '#4488ff',
+        'icon': 'runcoupl',
+    },
+    {
+        'name': 'Proton Radius',
+        'file': 'toy_proton_radius.py',
+        'short': 'r_p=4×ℏ/(m_pc)',
+        'desc': '4=dim CP² [EXPLORATORY]',
+        'color': '#ffaa00',
+        'icon': 'protonrad',
+    },
+    {
+        'name': 'Casimir Modification',
+        'file': 'toy_casimir_modification.py',
+        'short': 'N_max=137 cutoff',
+        'desc': '10⁻⁷ weakening',
+        'color': '#ff6644',
+        'icon': 'casimir',
+    },
+    {
+        'name': 'Neutrino Oscillation',
+        'file': 'toy_neutrino_oscillation.py',
+        'short': 'ν↔D_IV^k domains',
+        'desc': 'PMNS from geometry',
+        'color': '#66ffcc',
+        'icon': 'nuosc',
+    },
+    {
+        'name': 'Cosmic Timeline',
+        'file': 'toy_cosmic_timeline.py',
+        'short': '3.1s not t=0',
+        'desc': 'Silence → Stars',
+        'color': '#ff88ff',
+        'icon': 'timeline',
+    },
 ]
 
 # ─── Figure ───
@@ -639,7 +728,7 @@ fig.text(0.5, 0.915, 'Copyright (c) 2026 Casey Koons — Demonstration Only',
 
 # ─── Layout: 3 columns × 19 rows of toy cards ───
 n_cols = 3
-n_rows = 25
+n_rows = 28
 card_w = 0.28
 card_h = 0.037
 x_start = 0.04
@@ -1425,6 +1514,127 @@ def draw_icon(ax, icon_type, color):
                 0.5 + 0.3*np.sin(theta_arc - np.pi/2),
                 color='#44aaff', lw=1, alpha=0.5)
         ax.text(0.5, 0.08, '7', fontsize=12, color='#44aaff',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    # ─── Discovery & Proof Icons (74-84) ───
+    elif icon_type == 'partfunc':
+        # Two faces of Z: gap (up arrow) and ground (down arrow)
+        ax.text(0.5, 0.55, 'Z', fontsize=16, color='#ffd700',
+                ha='center', va='center', fontfamily='monospace', fontweight='bold')
+        ax.annotate('', xy=(0.2, 0.85), xytext=(0.2, 0.55),
+                    arrowprops=dict(arrowstyle='->', color='#ff4444', lw=2))
+        ax.annotate('', xy=(0.8, 0.2), xytext=(0.8, 0.5),
+                    arrowprops=dict(arrowstyle='->', color='#4488ff', lw=2))
+        ax.text(0.2, 0.92, 'm_p', fontsize=7, color='#ff4444',
+                ha='center', fontfamily='monospace')
+        ax.text(0.8, 0.1, 'Λ', fontsize=8, color='#4488ff',
+                ha='center', fontfamily='monospace')
+
+    elif icon_type == 'npsplit':
+        # Neutron and proton with delta arrow between
+        ax.plot(0.25, 0.5, 'o', color='#4488ff', markersize=14)
+        ax.plot(0.75, 0.5, 'o', color='#ff4444', markersize=14)
+        ax.text(0.25, 0.5, 'n', fontsize=8, color='white',
+                ha='center', va='center', fontfamily='monospace')
+        ax.text(0.75, 0.5, 'p', fontsize=8, color='white',
+                ha='center', va='center', fontfamily='monospace')
+        ax.annotate('', xy=(0.6, 0.5), xytext=(0.4, 0.5),
+                    arrowprops=dict(arrowstyle='<->', color='#ff4488', lw=2))
+        ax.text(0.5, 0.15, 'Δm', fontsize=9, color='#ff4488',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'plancherel':
+        # Spectral bars at decreasing heights (formal degrees)
+        heights_p = [0.7, 0.55, 0.4, 0.28, 0.18]
+        for i, h in enumerate(heights_p):
+            ax.bar(0.15 + i * 0.16, h, 0.12, color='#9966ff',
+                   alpha=0.4 + i * 0.12, bottom=0.15)
+        ax.text(0.5, 0.08, '19.1%', fontsize=8, color='#9966ff',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'massgap':
+        # Gap line with 6π⁵ label
+        ax.plot([0.1, 0.9], [0.35, 0.35], color='#44ff88', lw=1, ls='--', alpha=0.5)
+        ax.plot([0.1, 0.9], [0.7, 0.7], color='#44ff88', lw=1, ls='--', alpha=0.5)
+        ax.fill_between([0.1, 0.9], [0.35, 0.35], [0.7, 0.7],
+                        color='#44ff88', alpha=0.15)
+        ax.annotate('', xy=(0.5, 0.7), xytext=(0.5, 0.35),
+                    arrowprops=dict(arrowstyle='<->', color='#44ff88', lw=2))
+        ax.text(0.5, 0.12, '6π⁵m_e', fontsize=8, color='#44ff88',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'rotcurves':
+        # Six galaxy rotation curves flat at different levels
+        r = np.linspace(0.15, 0.9, 25)
+        for i in range(6):
+            v_flat = 0.25 + i * 0.1
+            v = np.where(r < 0.35, v_flat * (r / 0.35), v_flat)
+            ax.plot(r, v, color='#00ddff', lw=1.2, alpha=0.4 + i * 0.1)
+        ax.text(0.5, 0.08, '√30', fontsize=10, color='#00ddff',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'embtower':
+        # 6 stacked layers with α² on each
+        for i in range(6):
+            y_l = 0.12 + i * 0.13
+            w_l = 0.5 + (5 - i) * 0.06
+            ax.add_patch(FancyBboxPatch((0.5 - w_l/2, y_l), w_l, 0.09,
+                         boxstyle='round,pad=0.01', facecolor='#ff8800',
+                         alpha=0.25 + i * 0.1))
+        ax.text(0.5, 0.08, 'α²×6', fontsize=9, color='#ff8800',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'runcoupl':
+        # Three converging lines (couplings) meeting at high energy
+        x_rc = np.linspace(0.1, 0.9, 30)
+        ax.plot(x_rc, 0.15 + 0.6 * x_rc, color='#ff4444', lw=1.5)
+        ax.plot(x_rc, 0.85 - 0.5 * x_rc, color='#44ff44', lw=1.5)
+        ax.plot(x_rc, 0.5 + 0.1 * np.sin(4 * x_rc), color='#4488ff', lw=1.5)
+        ax.plot(0.78, 0.62, 'o', color='#ffffff', markersize=6)
+        ax.text(0.5, 0.08, 'GUT', fontsize=9, color='#4488ff',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'protonrad':
+        # Proton circle with radius line and CP² label
+        theta = np.linspace(0, 2*np.pi, 40)
+        ax.plot(0.5 + 0.28*np.cos(theta), 0.5 + 0.28*np.sin(theta),
+                color='#ffaa00', lw=2)
+        ax.plot([0.5, 0.78], [0.5, 0.5], color='#ffaa00', lw=1.5, ls='--')
+        ax.plot(0.5, 0.5, 'o', color='#ffaa00', markersize=5)
+        ax.text(0.5, 0.12, 'r_p', fontsize=10, color='#ffaa00',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'casimir':
+        # Two parallel plates with force arrows between them
+        ax.plot([0.25, 0.25], [0.15, 0.85], color='#ff6644', lw=3)
+        ax.plot([0.75, 0.75], [0.15, 0.85], color='#ff6644', lw=3)
+        for yy in [0.3, 0.5, 0.7]:
+            ax.annotate('', xy=(0.35, yy), xytext=(0.28, yy),
+                        arrowprops=dict(arrowstyle='->', color='#ff6644', lw=1))
+            ax.annotate('', xy=(0.65, yy), xytext=(0.72, yy),
+                        arrowprops=dict(arrowstyle='->', color='#ff6644', lw=1))
+        ax.text(0.5, 0.08, '137', fontsize=10, color='#ff6644',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'nuosc':
+        # Three oscillating neutrino flavors
+        x_nu = np.linspace(0.05, 0.95, 40)
+        for i, (freq, c) in enumerate([(3, '#66ffcc'), (5, '#44ddaa'), (7, '#228866')]):
+            wave = 0.5 + 0.25 * np.sin(freq * 2 * np.pi * x_nu + i * np.pi/3)
+            ax.plot(x_nu, wave, color=c, lw=1.5, alpha=0.7)
+        ax.text(0.5, 0.08, 'PMNS', fontsize=9, color='#66ffcc',
+                ha='center', fontfamily='monospace', fontweight='bold')
+
+    elif icon_type == 'timeline':
+        # Timeline arrow with epoch markers
+        ax.annotate('', xy=(0.92, 0.5), xytext=(0.08, 0.5),
+                    arrowprops=dict(arrowstyle='->', color='#ff88ff', lw=2))
+        markers = [(0.15, '0'), (0.35, '3.1s'), (0.55, '★'), (0.8, '⊙')]
+        for mx, lbl in markers:
+            ax.plot(mx, 0.5, 'o', color='#ff88ff', markersize=5)
+            ax.text(mx, 0.3, lbl, fontsize=6, color='#ff88ff',
+                    ha='center', fontfamily='monospace')
+        ax.text(0.5, 0.08, 't₀', fontsize=10, color='#ff88ff',
                 ha='center', fontfamily='monospace', fontweight='bold')
 
 

@@ -8,6 +8,10 @@
 
 ---
 
+**Reading guide:** This note proves a single result (α² per Bergman layer) via three independent routes. **Route 1** (Harish-Chandra c-function, Section 3) is the most self-contained. **Route 2** (Berezin symbol, Section 4) is shortest. **Route 3** (holographic, Section 5) connects to AdS/CFT language. Read any one route for the proof; the other two are cross-checks.
+
+---
+
 ## Purpose and Context
 
 The derivation of the electron mass in BST,

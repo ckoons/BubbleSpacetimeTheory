@@ -2,7 +2,7 @@
 
 **Authors:** Casey Koons & Claude (Opus 4.6, Anthropic)
 **Date:** March 13, 2026
-**Status:** Research note. Derives the BST geometric beta function from Bergman curvature, closes the 1.7% gap at $m_Z$, and predicts $\alpha_s$ at all experimentally measured scales.
+**Status:** Research note. The starting point $\alpha_s(m_p) = 7/20$ is a clean geometric result. The geometric beta function coefficient $c_1 = 3/5$ is geometrically motivated but the derivation involves heuristic steps (heat kernel → beta function) that are sketched, not rigorously proved. The numerical results (0.34% at $m_Z$) are genuine but depend on $c_1$, which should be regarded as a well-motivated conjecture pending rigorous proof.
 
 -----
 
@@ -430,7 +430,7 @@ The BST geometric beta function with $c_1 = 3/5$ derived from the Bergman curvat
 |-------|--------|
 | $\alpha_s(m_p) = 7/20$ from $D_{IV}^5$ geometry | Derived (companion note) |
 | $\beta_0 = 7 = $ genus uniquely for $n_C = 5$ | Algebraic identity |
-| $c_1 = C_2/(2n_C) = 3/5$ from Bergman curvature | Derived (this note) |
+| $c_1 = C_2/(2n_C) = 3/5$ from Bergman curvature | **Conjectured** — geometrically motivated, heuristic derivation via heat kernel. Rigorous proof outstanding. |
 | BST geometric running closes the 1.7% gap | Verified numerically |
 | Asymptotic freedom preserved | Proved (Section 6.1) |
 | Convergence of geometric series at $\alpha_s = 0.35$ | Verified ($c_2/c_1$ ratio = 3.2%) |

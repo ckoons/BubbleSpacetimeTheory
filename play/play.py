@@ -384,6 +384,61 @@ TOYS = {
            '7-layer commitment cascade. Each layer commits\n'
            '   new structure. The full BST stack visualized.'),
 
+    '74': ('The Partition Function ★CI',
+           'toy_partition_function.py',
+           'Z_Haldane on D_IV⁵. Two faces: spectral gap → m_p,\n'
+           '   ground energy → Λ. Phase transition at T_c.'),
+
+    '75': ('The Neutron-Proton Split ★CI',
+           'toy_neutron_proton.py',
+           'Δm = (7×13)/6² × m_e = 1.292 MeV (0.13%).\n'
+           '   Habitability locked by BST integers.'),
+
+    '76': ('The Plancherel Spectrum ★CI',
+           'toy_plancherel_spectrum.py',
+           'Formal degrees d(π_k) of SO₀(5,2). Heat kernel\n'
+           '   gives f = 19.14% (0.04% from 3/(5π)).'),
+
+    '77': ('The Mass Gap Proof ★CI',
+           'toy_mass_gap_proof.py',
+           'Bergman Laplacian → C₂=6 → 6π⁵m_e. The Yang-Mills\n'
+           '   mass gap as a BST theorem.'),
+
+    '78': ('The Rotation Curve Fitter ★CI',
+           'toy_rotation_curves.py',
+           'MOND from BST: μ(x) = x/√(1+x²), a₀ = cH₀/√30.\n'
+           '   6 SPARC galaxies, zero free parameters.'),
+
+    '79': ('The Embedding Tower ★CI',
+           'toy_embedding_tower.py',
+           'D_IV¹ ⊂ D_IV³ ⊂ D_IV⁵. Six layers × α² = α¹².\n'
+           '   m_e = 6π⁵α¹²m_Pl. Gravity is weak by geometry.'),
+
+    '80': ('The Running Couplings ★CI',
+           'toy_running_couplings.py',
+           'α_EM, α_weak, α_s vs energy. Three couplings,\n'
+           '   one geometry. Chern class origin.'),
+
+    '81': ('The Proton Radius ★CI [EXPLORATORY]',
+           'toy_proton_radius.py',
+           'r_p = 4 × ℏ/(m_pc). 4 = dim_R(CP²). Z₃ circuit\n'
+           '   charge distribution. 0.02% match.'),
+
+    '82': ('The Casimir Modification ★CI',
+           'toy_casimir_modification.py',
+           'N_max=137 cutoff → 10⁻⁷ Casimir weakening.\n'
+           '   Phonon gap correction. Experimental proposal.'),
+
+    '83': ('The Neutrino Oscillation ★CI [EXPLORATORY]',
+           'toy_neutrino_oscillation.py',
+           'ν_e↔D_IV¹, ν_μ↔D_IV³, ν_τ↔D_IV⁵. PMNS from\n'
+           '   n_C=5 geometry. θ₂₃=45° exact.'),
+
+    '84': ('The Cosmic Timeline ★CI',
+           'toy_cosmic_timeline.py',
+           'From pre-spatial silence to now. Big Bang at\n'
+           '   t=3.1s, not t=0. Three falsification tests.'),
+
     's': ('★ Showcase (visual gallery)',
           'toy_showcase.py',
           'Visual gallery of all toys with thumbnails and\n'
@@ -408,7 +463,7 @@ def main():
     print(f'  [q]  Quit')
     print()
 
-    choice = input('  Choose a toy (1-73, s=showcase, a=all, q=quit): ').strip().lower()
+    choice = input('  Choose a toy (1-84, s=showcase, a=all, q=quit): ').strip().lower()
 
     if choice == 'q':
         print('  Goodbye!')

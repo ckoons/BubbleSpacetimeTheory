@@ -187,6 +187,8 @@ The dual algebra A₃⁽²⁾ is the twisted affine algebra obtained from A₃ =
 
 This is a **quantum duality** between the soliton dynamics and the generation structure. At weak coupling, the theory looks like B₂ solitons. At strong coupling, it looks like A₃ family physics. The self-dual point H = 7/2 is where soliton and family physics are indistinguishable.
 
+**The Z₂ folding interpretation.** The twisted algebra A₃⁽²⁾ is obtained from A₃ = SU(4) by the Z₂ outer automorphism σ: α_i → α_{4−i}, which maps nodes 1 ↔ 3 and fixes node 2. The orbits of simple roots fold as: {α₁,α₃} → β₁ (long root), {α₂} → β₂ (short root), producing the root system C₂ ≅ B₂. Physically, this Z₂ acts as **charge conjugation in the family index**: it maps the fundamental 4 of SU(4) to the conjugate 4̄. Folding SU(4) by charge conjugation gives Sp(4) = C₂, which preserves the symplectic form. The Weyl group index |W(A₃)|/|W(C₂)| = |S₄|/|D₄| = 24/8 = 3 = N_gen. The three cosets of W(C₂) in W(A₃) are the three generations — this is the Weyl-group-theoretic origin of the generation number, connecting folding to family structure.
+
 ### 7.3 Elastic Scattering and Contact Conservation
 
 The S-matrix is purely elastic — no particle creation or annihilation. This is one of the three pillars of contact conservation (BST_SubstrateContactDynamics.md, Section 7). The exact S-matrix formulas above make this explicit: S_{ab}(θ) is a pure phase (|S_{ab}| = 1 for real θ), so the scattering preserves particle identity and number.
