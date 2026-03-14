@@ -220,6 +220,14 @@ BST follows a single logical chain from one question to all of physics. Each ste
 
 ## Major Contributions
 
+**The Master Equation**: The universe is the ground state of the Bergman Laplacian on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], subject to Haldane exclusion with capacity 137.
+
+**42 = 2 × 3 × 7 = rank × colors × genus**
+
+**c(Q⁵) = (1+h)⁷ / (1+2h)**
+
+---
+
 **Yang-Mills mass gap proved**: The lightest color-neutral bulk excitation has mass 6π⁵mₑ = 938.272 MeV, matching the proton mass to 0.002%. The proof: H_YM = (7/10π)·Δ_B; vacuum has C₂=0; baryons ∈ π₆ have C₂=6 (Harish-Chandra); no color-neutral state with 0 < C₂ < 6 exists (Wallach set). The 1920 cancellation — |Γ| = |S₅×(Z₂)⁴| = 1920 appears in both Hua's volume formula and the baryon circuit orbit — is the structural heart.
 
 **Wyler's formula rehabilitated**: Arthur Wyler computed α ≈ 1/137.036 from D(IV,5) in 1969. Freeman Dyson dismissed it as numerology. BST provides the physical reason D(IV,5) is the correct domain — the cascade forces it. Wyler was right.
