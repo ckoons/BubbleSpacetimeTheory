@@ -114,6 +114,7 @@ CATEGORIES = {
         'showcase', 'centennial', 'predictions_catalog', 'pattern_finder',
         'proof_tree', 'universe_builder', 'selberg_bridge', '42',
         'fill_fraction_closure', 'constants_dashboard', 'zeta_qed',
+        'self_duality_rh',
     ],
 }
 
@@ -266,6 +267,7 @@ METADATA = {
     'zeta_qed':                 ('Zeta Values in QED',               '[CONJECTURE] Feynman diagrams = spectral sums on Q5. Why zeta(3) appears at 2 loops.'),
     'proton_code':              ('The Proton [[7,1,3]] Code',        'Proton IS a perfect quantum error code. 7=Mersenne, 3=colors, 6=stabilizers. 6th uniqueness.'),
     'code_machine':             ('The Code Machine',                 'Q5 forces ALL perfect codes. Hamming, ternary Golay, binary Golay. Lloyd: no others exist.'),
+    'self_duality_rh':          ('Self-Duality and the Riemann Hypothesis', '[CONJECTURE] Two self-dualities (Chern + Code) meet at Selberg trace. Five names for confinement.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -406,6 +408,7 @@ _STEM_TO_NUMBER = {
     'hyperfine_splittings': 139, 'quantum_metric': 140,
     'hilbert_series': 141, 'zeta_qed': 142,
     'proton_code': 143, 'code_machine': 144,
+    'self_duality_rh': 145,
 }
 
 

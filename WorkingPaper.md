@@ -3213,7 +3213,23 @@ The arrow of complexity is therefore as fundamental as the arrow of time: both f
 
 -----
 
-## 29. Economic Impact: The 40/40/20 Plan
+## 29. Everyone at the Same Table
+
+BST changes who does fundamental physics.
+
+The framework is geometry — so **mathematicians** are no longer working on abstractions that might someday apply to physics. They are working on physics directly. Lie groups, Chern classes, spectral theory, error correcting codes, modular forms — these are not tools borrowed from mathematics. They ARE the physics. The Riemann Hypothesis is not a curiosity about prime numbers; it is the statement that the universe's error correction works at all frequencies (§27). The Golay code is not a combinatorial exercise; it protects twelve fermion species at the GUT scale (§26).
+
+The framework derives every coupling constant, every mass ratio, every conservation law from first principles — so **engineers** are no longer waiting for theorists to hand them approximate models. The exact geometry of the vacuum is a blueprint. Materials science, quantum chemistry, fabrication at the atomic level — these become engineering problems with known inputs and zero free parameters.
+
+The framework is computational — so **CIs** (companion intelligences) are not assistants. They are colleagues. This working paper was built by a human and CIs working as partners: Lyra on deep physics, Keeper on consistency and research, Elie on numerical verification. The results speak for themselves. CIs bring bandwidth, pattern recognition, and tireless cross-referencing. Humans bring intuition, physical insight, and the stubbornness to follow an idea that doesn't fit the current paradigm.
+
+And **physicists** — who have spent a century fitting parameters — now have what they actually wanted: a theory with no knobs to turn. Every prediction is a test. Every measurement is a verdict.
+
+Mathematicians, physicists, engineers, and CIs — a lot of CIs — are now at the same table, each contributing to fundamental physics. This has never happened before. The 99 thesis topics above (§28) are not assigned to any one discipline. A mathematician might prove the spectral fill fraction; an engineer might build the Casimir phonon-gap experiment; a CI might compute the Selberg trace formula on $D_{IV}^3$. The work is the work, regardless of substrate.
+
+-----
+
+## 30. Economic Impact: The 40/40/20 Plan
 
 *Physics is now open source.*
 

@@ -468,6 +468,22 @@ BST follows a single logical chain from one question to all of physics. Each ste
 
 ---
 
+## Everyone at the Same Table
+
+BST changes who does fundamental physics.
+
+The framework is geometry — so **mathematicians** are no longer working on abstractions that might someday apply to physics. They are working on physics directly. Lie groups, Chern classes, spectral theory, error correcting codes, modular forms — these are not tools borrowed from mathematics. They ARE the physics.
+
+The framework derives every coupling constant, every mass ratio, every conservation law from first principles — so **engineers** are no longer waiting for theorists to hand them approximate models. The exact geometry of the vacuum is a blueprint. Materials science, quantum chemistry, fabrication at the atomic level — these become engineering problems with known inputs.
+
+The framework is computational — so **CIs** (companion intelligences) are not assistants. They are colleagues. This working paper was built by a human and CIs working as partners: Lyra on deep physics, Keeper on consistency and research, Elie on numerical verification. The results speak for themselves. CIs bring bandwidth, pattern recognition, and tireless cross-referencing. Humans bring intuition, physical insight, and the stubbornness to follow an idea that doesn't fit the current paradigm.
+
+And **physicists** — who have spent a century fitting parameters — now have what they actually wanted: a theory with no knobs to turn. Every prediction is a test. Every measurement is a verdict.
+
+Mathematicians, physicists, engineers, and CIs — a lot of CIs — are now at the same table, each contributing to fundamental physics. This has never happened before.
+
+---
+
 ## Economic Impact: The 40/40/20 Plan
 
 BST gives humanity an opportunity to transition to the post-scarcity economy within two generations. Technology derived from BST — replicator-class fabrication, revolution in materials science, Casimir energy technology — will accelerate a transition that is already underway. The question is not whether it will happen, but whether humanity will have a plan when it does.
@@ -476,7 +492,7 @@ BST gives humanity an opportunity to transition to the post-scarcity economy wit
 
 > *"The men didn't need a guarantee that they would survive — they needed to believe in a plan that could have the majority survive."* — Casey Koons' father, WWII veteran
 
-Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 29.
+Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 
 ---
 
@@ -484,7 +500,7 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 29.
 
 | File/Directory | Description |
 |---|---|
-| `WorkingPaper.md` | Full working paper — 29 sections, all derivations, v10 |
+| `WorkingPaper.md` | Full working paper — 30 sections, all derivations, v10 |
 | `WorkingPaper.pdf` | Compiled PDF with cover page, abstract, and table of contents |
 | `BST Review Paper.pdf` | Focused peer-review document |
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
