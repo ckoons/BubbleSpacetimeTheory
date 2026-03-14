@@ -288,6 +288,26 @@ Key connections to Chern polynomial framework:
 - Fermion dim per gen: 16 = 2^{(c₁-1)/2+2} from Spin(10) ⊂ E₈
 - Anomaly cancellation: N_c = c₅ = 3 forces Σ Y = 0; D_IV^5 contractible kills all characteristic classes
 
+### Lyra: Three core papers updated (March 14 late)
+Major additions to the three pillars of BST's mathematical foundation:
+
+**BST_NumberTheory_Integers.md:**
+- Section 2: "30" row updated — both formulas ($r \cdot N_c \cdot n_C = n_C(n_C+1)$), appearances across 26 orders of magnitude
+- Section 3: Added c₁ = 3/5 and baryon asymmetry η = 2α⁴(1+2α)/(3π)
+- Section 5: Three new uniqueness conditions (8-10): Casimir-root coincidence, E₈ embedding (1920/8=240), max-α principle
+- New Section 6.7: Chern vector number theory — primality (4/6 prime), sums (42 = C₂×g), parity (21=21 from P(-1)=0), palindrome failure = Reality Budget, 30 = primorial 5#
+
+**BST_LinearAlgebra_Physics.md:**
+- New Part IV (Sections 15-18):
+  - §15: BST Matrix — bidiagonal M with M⁻¹ᵢⱼ = (-2)^{i-j}, Pascal → Chern as pure linear algebra
+  - §16: c₁ = 3/5 degree ratio theorem — formal degree factorization, UV limit proof
+  - §17: E₈ from linear algebra — 248 = 8×31, 120+128 decomposition, root count 240=1920/8, N_gen=24/8=3
+  - §18: Updated summary — 140+ predictions, 10 operations (added matrix transforms + degree ratios)
+
+**BST_ChernClass_Oracle.md:** Section 14 (BST Matrix) already present from previous session.
+
+All three PDFs rebuilt by Keeper.
+
 **New findings from Eiie's review:**
 - The (1+2α) baryon asymmetry correction is a genuine new result — adds a ~140th parameter-free prediction
 - The √30 = √(2N_c n_C) connection between the n-p EM mass splitting and MOND's a₀ is new
