@@ -164,6 +164,11 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Δt_echo (BH echo delay) | N_max·r_s/c = 137·2GM/c³ | 1.352 ms/M☉ | — | prediction |
 | ν_21cm (hyperfine) | BST μ_p=14/5 | 1425 MHz | 1420.4 MHz | 0.3% |
 
+| J/ψ − η_c hyperfine | (c₃/18)·π⁵mₑ = (13/18)π⁵mₑ | 112.94 MeV | 113.0±0.4 MeV | **0.055%** |
+| Υ − η_b hyperfine | (c₃/33)·π⁵mₑ = (13/33)π⁵mₑ | 61.60 MeV | 61.6±2.0 MeV | **0.004%** |
+| B* − B hyperfine | (c₃/45)·π⁵mₑ = (13/45)π⁵mₑ | 45.18 MeV | 45.37±0.21 MeV | 0.42% |
+| D*⁰ − D⁰ hyperfine | (dim_R/c₂)·π⁵mₑ = (10/11)π⁵mₑ | 142.16 MeV | 142.01±0.04 MeV | 0.11% |
+| cc̄/bb̄ HF ratio | c₂/C₂ = 11/6 | 1.8333 | 1.834 | **0.06%** |
 | a_μ (muon g-2) | Full 5-loop QED + EW + HVP + HLbL, all from D_IV^5 | 116591955×10⁻¹¹ | 116592072×10⁻¹¹ | **1 ppm** |
 | 3+1 spacetime | B₂ root multiplicities: m_short=n_C−2=3, m_long=1 | 3+1 | 3+1 (observed) | derived |
 | Contact conservation | Lax spectral + elastic S-matrix + winding topology | exact | — | new law |

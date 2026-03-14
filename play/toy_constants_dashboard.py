@@ -646,9 +646,9 @@ def _build_all_predictions():
 
     bst_as = _compute_alpha_s_mZ()
     add(26, 'coupling', 'Strong coupling alpha_s(m_Z)',
-        'alpha_s(m_p) = 7/20, 1-loop run to m_Z',
+        'alpha_s(m_p) = 7/20, 1-loop QCD run to m_Z',
         bst_as, 0.1179, 0.0010, '',
-        'Geometric beta-function. b_0 = genus = 7.')
+        'BST: alpha_s(m_p) = genus/(4*n_C) = 7/20. Standard running.')
 
     bst_gA = _compute_g_A()
     add(27, 'coupling', 'Neutron beta decay g_A',
@@ -756,8 +756,8 @@ def _build_all_predictions():
     # Strong coupling at proton scale
     add(42, 'qcd', 'alpha_s(m_p) bare',
         'alpha_s(m_p) = (n_C+2)/(4*n_C) = 7/20',
-        7.0/20.0, 0.33, 0.03, '',
-        'Geometric: genus / (4 * domain dimension)')
+        7.0/20.0, 0.35, 0.03, '',
+        'Geometric starting point. Not directly measured; test via running.')
 
     bst_DS = _compute_delta_sigma()
     add(43, 'qcd', 'Proton spin fraction Delta_Sigma',
@@ -1588,7 +1588,8 @@ class ConstantsDashboard:
             coup_names.append(name)
             coup_bst.append(bst)
             coup_obs.append(obs)
-            coup_devs.append(abs(_dev(bst, obs)))
+            d = _dev(bst, obs)
+            coup_devs.append(abs(d) if d is not None else 0.0)
 
         x = np.arange(len(coup_names))
         w = 0.35
