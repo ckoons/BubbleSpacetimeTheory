@@ -53,20 +53,22 @@ CATEGORIES = {
         'field_equations', 'isotropy_proof', 'why_this_universe',
         'first_commitment', 'error_correction', 'circles_on_surfaces',
         'harmonic_alpha', 'effective_dimension', 'genesis',
-        'q3_inside_q5',
+        'q3_inside_q5', 'spectral_transport', 'transport_kernel',
+        'spectral_tower', 'inverse_transport', 'cfunction_ratio',
+        'rank_change_lift', 'geometric_spectral_duality',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
         'berezin_toeplitz', 'poisson_szego', 'plancherel_spectrum',
         'self_dual_point', 'bst_matrix', 'quantum_metric', 'hilbert_series',
-        'spectral_multiplicity',
+        'spectral_multiplicity', 'spectral_gap', 'baby_trace_formula',
     ],
     'Particles': [
         'mass_tower', 'meson_garden', 'fermion_staircase', 'particle_zoo',
         'proton_spin', 'proton_radius', 'neutron_proton', 'baryon_radiative',
         'ckm_triangle', 'neutrino_oscillation', 'heavy_mesons',
         'quark_masses', 'magnetic_moments', 'axial_coupling',
-        'electron_g2', 'hyperfine_splittings',
+        'electron_g2', 'hyperfine_splittings', 'muon_g2_geometry',
     ],
     'Forces & Higgs': [
         'higgs', 'running_couplings', 'mass_gap_proof', 'feynman_geometry',
@@ -281,6 +283,16 @@ METADATA = {
     'corrected_a3':             ('The Corrected a₃ Formula',              'Vassilevich (2003) has 3 wrong cubic coefficients. Corrected a₃(Q⁵)=437/4500. 63/64 CLOSED.'),
     'genesis':                  ('Genesis: Light and Number',             'so(2) of so(5,2) creates light, time, QM, and integers simultaneously. 21=10+1+10.'),
     'q3_inside_q5':             ('Q³ Inside Q⁵',                          'D_IV³ ↪ D_IV⁵ totally geodesic. Chern nesting chain closes. Child remembers parent.'),
+    'spectral_transport':       ('Spectral Transport Q⁵→Q³',              'B[k][j]=k-j+1 linear staircase. Full transport B[k][k]=1. At k=5: 21=dim so(5,2).'),
+    'transport_kernel':         ('The Transport Kernel',                   'T_j(t) factorizes Z_{Q⁵} through Q³. Wiles lift strategy for BST Riemann.'),
+    'spectral_tower':           ('The Spectral Tower Q¹→Q³→Q⁵',           'Universal branching at all steps. Two-step = tetrahedral. 35=C(7,4). BST integers.'),
+    'inverse_transport':        ('The Inverse Transport',                  'd_k(Qⁿ) = Δ²[d_k(Qⁿ⁺²)]. Inverse = discrete Laplacian. Self-adjoint → critical line.'),
+    'cfunction_ratio':          ('The c-Function Ratio',                   'c₅/c₃ poles on critical line. Long root cancellation. Gap 1 closed.'),
+    'rank_change_lift':         ('The Rank-Change Lift',                   'Q¹→Q³ via Saito-Kurokawa. Rank change + lifting. Gap 2 closed.'),
+    'geometric_spectral_duality': ('Geometric-Spectral Duality',           'D₅/D₃ = 4sinh²sinh² > 0. Both sides positive. Gap 3 closed.'),
+    'muon_g2_geometry':         ('The Muon g-2 from Geometry',             'Entire a_μ from D_IV⁵ geometry. QED+EW+HVP+HLbL. 1 ppm. WP25 confirmed.'),
+    'baby_trace_formula':       ('The Baby Trace Formula',                 'D_IV³ Selberg trace formula. All m=1. c-function. Plancherel. Baby Selberg.'),
+    'spectral_gap':             ('The Spectral Gap = Mass Gap',            'λ₁(Q⁵) = 6 = C₂ = mass gap. Proton mass IS first eigenvalue × π⁵ × m_e.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -430,6 +442,13 @@ _STEM_TO_NUMBER = {
     'corrected_a3': 152,
     'genesis': 153,
     'q3_inside_q5': 154,
+    'spectral_transport': 155,
+    'transport_kernel': 156,
+    'spectral_tower': 157,
+    'inverse_transport': 158,
+    'cfunction_ratio': 159,
+    'rank_change_lift': 160,
+    'geometric_spectral_duality': 161,
 }
 
 

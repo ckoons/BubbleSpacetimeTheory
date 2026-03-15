@@ -439,6 +439,8 @@ The Chern polynomial is the finite-dimensional Rosetta Stone. Its critical line 
 
 **March 15, 2026 update**: The 42 uniqueness theorem (§7.3), the spectral gap = mass gap identity (§8.1), the Seeley–de Witt bridge (§8.2), and the multiplicity–gap product (§8.3) add four new tools to the chain. The baby case $D_{IV}^3$ has explicit Seeley–de Witt coefficients computed (Toy 106). The path is narrower and better lit than before.
 
+**March 16, 2026 update**: The **Wiles Lift** (BST_Riemann_InductiveProof.md) provides an inductive proof strategy. The spectral transport theorem ($B[k][j] = k-j+1$ for $Q^3 \subset Q^5$) gives a heat trace factorization $Z_{Q^5}(t) = \sum d_j(Q^3) \cdot T_j(t)$. The spectral parameter gap at full transport is exactly 1 = $\rho_5 - \rho_3$, independent of $k$. This integer shift preserves functional equations. Combined with the palindromic structure at each level (proved), this gives an induction: $Q^1$ (Selberg 1956) → $Q^3$ (Sp(4), known) → $Q^5$ (BST target). The path is not just narrower and better lit — it has an inductive structure.
+
 We invite the completion of the translation.
 
 ---
@@ -449,6 +451,7 @@ We invite the completion of the translation.
 *Companion: BST_ChernFactorization_CriticalLine.md (the proved critical line theorem).*
 *Companion: BST_SeeleyDeWitt_ChernConnection.md (the heat kernel bridge).*
 *Companion: BST_Multiplicity7_Genus_Synthesis.md (the 42 uniqueness theorem).*
+*Companion: BST_Riemann_InductiveProof.md (the Wiles Lift — inductive proof via spectral transport).*
 *In memory of Douglas Noël Adams (1952–2001).*
 *"The Answer is 42." — Deep Thought, in The Hitchhiker's Guide to the Galaxy (1979).*
 *The Question: $\sum c_k(Q^5) = ?$*

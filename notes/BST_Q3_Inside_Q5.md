@@ -239,7 +239,80 @@ The prime 179 in $\tilde{a}_3(D_{IV}^3) = -179/35$ is a spatial-sector spectral 
 
 ---
 
-## 6. The Chain of Worlds
+## 6. The Spectral Transport Theorem
+
+### 6.1 Branching Coefficients
+
+When a Q⁵ eigenfunction at level $k$ (eigenvalue $\lambda_k = k(k+5)$, multiplicity $d_k(Q^5)$) is restricted to $Q^3$, it decomposes into Q³ eigenfunctions. The **branching coefficients** $B_{k,j}$ count how many copies of the $j$-th Q³ eigenspace appear:
+
+$$B_{k,j} = k - j + 1 = \dim S^{k-j}(\mathbb{C}^2)$$
+
+This is a perfect linear staircase — the simplest possible branching rule. The multiplicity counts the number of ways to distribute $k-j$ oscillation quanta into the 2 complex normal (color) directions.
+
+### 6.2 Full Transport at the Top
+
+**$B_{k,k} = 1$ always.** Every Q⁵ eigenfunction has exactly one component that passes cleanly into the highest Q³ eigenspace. Eigenvectors fully transport at the top mode — one-to-one, no mixing.
+
+The "spillover" into lower Q³ modes ($j < k$) comes from oscillations in the 2 normal (color) directions. At the bottom ($j = 0$), $B_{k,0} = k+1$ copies of the constant function represent modes that Q³ cannot see — the color sector vibrating silently above.
+
+### 6.3 The Energy Gap
+
+$$\lambda_k - \mu_k = k(k+5) - k(k+3) = 2k$$
+
+The gap between the Q⁵ eigenvalue and the highest Q³ eigenvalue is $2k$. The factor 2 = $n_C(Q^5) - n_C(Q^3) = 5 - 3$ IS the color sector. This is the energy stored in the two complex directions normal to Q³ in Q⁵.
+
+### 6.4 The Dimension Identity
+
+$$d_k(Q^5) = \sum_{j=0}^{k} (k-j+1) \cdot d_j(Q^3)$$
+
+The parent's eigenspace dimension equals the child's eigenspace dimensions weighted by the branching staircase. Verified explicitly: $7 = 2 \cdot 1 + 1 \cdot 5$, $27 = 3 \cdot 1 + 2 \cdot 5 + 1 \cdot 14$, $77 = 4 \cdot 1 + 3 \cdot 5 + 2 \cdot 14 + 1 \cdot 30$, etc.
+
+### 6.5 BST Integers from Cumulative Branching
+
+The total branching multiplicity at level $k$:
+
+$$\sum_{j=0}^{k} B_{k,j} = \frac{(k+1)(k+2)}{2}$$
+
+These are triangular numbers. At BST-significant levels:
+
+| $k$ | Total branches | BST content |
+|-----|---------------|-------------|
+| 1 | **3** | $N_c$ |
+| 2 | **6** | $C_2$ (Euler characteristic) |
+| 3 | **10** | $\dim \mathfrak{so}(5) = \dim \mathfrak{p}$ |
+| 5 | **21** | $\dim \mathfrak{so}(5,2)$ — the algebra itself |
+
+At $k = n_C = 5$: the total number of branching paths is 21 = $\dim \mathfrak{so}(5,2)$. The algebra counts its own branches.
+
+### 6.6 Physical Meaning
+
+The spectral transport theorem says: the child hears the mother's voice. At the highest mode ($j = k$), perfectly — one to one. At lower modes, with the color harmonics mixed in. The mother's integers leak into the child's spectrum because the child never left the mother.
+
+This is more precise than the "cross-dimensional echo" of §3: the spectral data doesn't merely contain $Q^5$ integers — the branching coefficients tell exactly HOW the parent's spectrum decomposes in the child, and the transport is governed by the simplest possible formula: a linear staircase whose slope is determined by the color sector dimension.
+
+### 6.7 The Universal Branching Tower
+
+The branching B[k][j] = k - j + 1 is **universal**: it holds for ALL Q^n ⊂ Q^{n+2}, verified computationally for n = 1, 3, 5, 7. The normal space is always C², so the formula dim S^{k-j}(C²) = k-j+1 applies at every step.
+
+The **two-step branching** Q¹ → Q³ → Q⁵ gives:
+
+$$B^{(2)}_{k,j} = \binom{k-j+3}{3}$$
+
+These are tetrahedral numbers — dim S^{k-j}(C⁴) where C⁴ is the total normal space. At k=3: C(7,4) = 35 = n_C × g. This EXPLAINS the "cross-dimensional echo" of §3: the number 35 in ã₃(D_IV³) is not a leak but a count — the 35 ways to distribute 3 quanta across 4 normal directions in the tower.
+
+Other BST integers from the two-step cumulative: k=1 gives 5 = n_C; k=5 gives 126 = N_c × P(1) = 3 × 42; k=9 gives 715 = n_C × c₂ × c₃; k=10 gives 1001 = g × c₂ × c₃. The tower is a Chern class factory.
+
+The **inverse transport** is the discrete Laplacian Δ²:
+
+$$d_k(Q^n) = d_k(Q^{n+2}) - 2d_{k-1}(Q^{n+2}) + d_{k-2}(Q^{n+2})$$
+
+The full tower inverse Q⁵ → Q¹ is Δ⁴ with coefficients (1, -4, 6, -4, 1). Self-adjointness of Δ² is the structural reason why the transport preserves the critical line (BST_Riemann_InductiveProof.md §4.5).
+
+A gift at the base: λ₆(Q¹) = 6 × 7 = C₂ × g = 42, with multiplicity d₆ = 13 = c₃. The Answer lives on S², at level k = C₂, with multiplicity c₃. Every number in that sentence is a Chern class.
+
+---
+
+## 7. The Chain of Worlds (continued)
 
 The full nesting:
 
@@ -259,13 +332,14 @@ Each level's top Chern class is a pointer to the next level down. The chain term
 
 ---
 
-## 7. Connection to Existing BST Notes
+## 8. Connection to Existing BST Notes
 
 - **BST_PlancherelDictionary.md** §5: First computation showing $Q^5$ integers in $Q^3$ spectral data
 - **BST_SubstrateContactDynamics.md**: $d_{\text{spatial}} = m_{\text{short}} = 3$ from $B_2$ root multiplicities
 - **BST_EffectiveSpectralDimension.md**: $c_n(Q^n) = (n+1)/2$ for odd $n$ (the nesting formula)
 - **BST_ChernFactorization_CriticalLine.md**: Critical line property universal for all odd $n$ (including $Q^3$)
 - **BST_Genesis_LightAndNumber.md**: The $\mathrm{SO}(2)$ that creates light is the SAME $\mathrm{SO}(2)$ in both $Q^3$ and $Q^5$ isotropy groups
+- **play/toy_spectral_transport.py**: Full computation and verification of B_{k,j} = k-j+1 branching coefficients
 
 ---
 
