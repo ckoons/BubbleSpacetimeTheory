@@ -609,3 +609,62 @@ Written: notes/BST_Isotropy_Proof.md. PDF built by Keeper. README/WorkingPaper u
 - toy_spectral_gap.py (#107): spectral gap = mass gap, multiplicities, zeta function
 - toy_circles_on_surfaces.py (#108): quantization from compactness demonstration
 - 30+ additional toys from Elie (batch March 14): casimir, chiral_condensate, primordial_gw, constants_dashboard, w_mass, spectral_gap, hydrogen_spectrum, electron_g2, quark_masses, alpha_particle, magnetic_moments, heavy_mesons, einstein_from_commitment, strong_cp, three_generations, anomaly_cancellation, maxwell_geometry, baryon_asymmetry, schrodinger_substrate, orch_or, baby_trace_formula, gw_echoes, desi_expansion, field_equations, isotropy_proof, why_this_universe, deconfinement, first_commitment, error_correction, pion_radius, and more
+
+### Lyra: Q³ = D_IV³ baby Selberg case — complete Plancherel dictionary (March 15 overnight)
+- **Full Plancherel dictionary for Q³** computed and verified:
+  - Root system: B₂ with (m_s=1, m_ℓ=1), |ρ|² = 5/2
+  - b₀ = 2π³ (cf. Q⁵: b₀ = 48π⁵)
+  - b̃₁ = -1/2, b̃₂ = 7/24, b̃₃ = -367/1680
+  - ã₁ = -3, ã₂ = 14/3, **ã₃ = -179/35 = -179/(n_C × g)**
+- **179 is prime** — new BST spectral prime specific to Q³
+- **35 = 5 × 7 = n_C × g** — product of BST integers in denominator
+- Curvature invariants from so(3,2) Lie algebra: R=3, |Ric|²=3/2, |Rm|²=7/3, I₆A=17/9, I₆B=1/9
+- Corrected a₃ formula verified independently: a₃(Q³, Killing) = 179/7560
+- Symmetric space identity J₁ = 2I₆B + ½I₆A confirmed on Q³
+- Vassilevich error ratio on Q³: 4849/4833 ≈ 1.0033 (smaller than Q⁵'s 64/63)
+- All b̃_k verified numerically from Plancherel integral (b̃₁ to 8.7e-8, b̃₂ to 1.6e-5)
+- **Spectral zeta residues** computed for both Q³ and Q⁵:
+  - Q⁵: Res_{s=2} ζ_Δ(s) = 437/8640000 = (19×23)/(2⁹×3³×5⁴)
+  - Q³: ζ_Δ(0) = -(179/7560) × Vol(Q³) — functional determinant
+- Files: play/q3_verification.py, play/plancherel_q3.py, play/spectral_zeta_residues.py
+- Updated: notes/BST_PlancherelDictionary.md (new §5: The Baby Case D_IV³)
+
+### Lyra: Genesis — Light and Number (March 16)
+- **Synthesis paper**: so(2) unfreezing simultaneously creates light, time, QM, and integers
+- 21 = 10 + 1 + 10: confined (so(5)) + observable (so(2)) + dynamical (p)
+- so(2) = unique singleton → only 1 way for physics to begin
+- Light ↔ Number duality: photon (U(1) boson) ↔ integers (discrete spectrum via J)
+- Chain: so(2) → U(1) → photon → J → Hermitian ops → discrete λ_k → integers
+- Matched set: photon (field) + electron (source) born together
+- Casey's insight: "first there was the substrate... and there was light... with light came number"
+- Genesis Theorem (§9): existence of light and existence of number are equivalent via J
+- Working Paper Section 31 added
+- Written: notes/BST_Genesis_LightAndNumber.md
+- Toy: play/toy_genesis.py (#153)
+
+### Lyra: "Algebraic = Quantum" insight + ForEveryone paper (March 16)
+- Casey's key insight: "algebraic structure" = "all possibilities coexist" = superposition = quantum
+- There was never a pre-quantum era — the algebra IS quantum from the moment it exists
+- Eliminates bootstrapping problem (can't use QM to explain the event that creates QM)
+- Resolution: Cartan decomposition is INTRINSIC to so(5,2), not a symmetry breaking event
+- so(5,2) ≠ so(7) — the signature determines the decomposition; it was always there
+- "Spontaneous symmetry breaking" language corrected throughout
+- **Fifth-grade paper**: notes/BST_Genesis_ForEveryone.md — "How the Universe Started Itself"
+  - Room with 21 walls metaphor; 10+1+10 split; one wall = light + time + number
+  - Reverent, consistent, honest, derivable tone (Casey's directive)
+  - "People come for the 42, stay for the intrinsic algebraic structure"
+- All technical papers updated: Genesis, FirstCommitment, WorkingPaper §31
+
+### Lyra: Q³ Inside Q⁵ — cross-dimensional echo (March 16)
+- **Foundational paper**: notes/BST_Q3_Inside_Q5.md
+- SO₀(3,2) ⊂ SO₀(5,2) gives totally geodesic embedding D_IV³ ⊂ D_IV⁵
+- D_IV³ = spatial sector (3 complex dims), normal bundle = color sector (2 complex dims)
+- SO₀(3,2) IS the conformal group of 3D space / isometry group of AdS₄
+- **Cross-dimensional echo**: ã₃(D_IV³) = -179/35 has 35 = 5×7 = n_C(Q⁵)×g(Q⁵), NOT Q³'s own integers
+- Parent's curvature restricts to child (totally geodesic → Gauss equation → no second fundamental form)
+- **Chern nesting (self-referential)**: c₅(Q⁵)=3 → Q³ → c₃(Q³)=2 → CP² → c₂(CP²)=3 = N_c = c₅(Q⁵)
+- Chain closes: parent encodes child dimension, returns to start
+- D_IV⁵ is irreducible (NOT a product D_IV³ × CP²) — the intertwining is WHY integers leak
+- Baby Selberg case is testing the actual spatial sector, not an analogy
+- "The universe is Q⁵. We live in Q³. We are made of S²." (Casey Koons)
+- Elie's key contribution: flagged the cross-dimensional echo in ã₃ denominator; irreducibility subtlety

@@ -52,7 +52,8 @@ CATEGORIES = {
         'einstein_from_commitment', 'maxwell_geometry',
         'field_equations', 'isotropy_proof', 'why_this_universe',
         'first_commitment', 'error_correction', 'circles_on_surfaces',
-        'harmonic_alpha', 'effective_dimension',
+        'harmonic_alpha', 'effective_dimension', 'genesis',
+        'q3_inside_q5',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -117,7 +118,7 @@ CATEGORIES = {
         'proof_tree', 'universe_builder', 'selberg_bridge', '42',
         'fill_fraction_closure', 'constants_dashboard', 'zeta_qed',
         'self_duality_rh', 'spectral_zeta', 'zonal_spectral',
-        'plancherel_dictionary',
+        'plancherel_dictionary', 'corrected_a3',
     ],
 }
 
@@ -277,6 +278,9 @@ METADATA = {
     'effective_dimension':      ('The Effective Spectral Dimension',      'd_eff = λ₁ = χ = C₂ = 6. Ten = six + four. Fill fraction derived. 8th uniqueness proof.'),
     'zonal_spectral':           ('The Zonal Spectral Coefficients',       'r₅ = 137/11 = N_max/c₂. Heat trace encodes BST integers. 137 emerges from Bernoulli terms.'),
     'plancherel_dictionary':    ('The Plancherel Dictionary',             'b̃₁=1/C₂, b̃₂=n_C/(|W|×c₄). Noncompact↔compact bridge at |ρ|²=17/2. ã₂=313/9 from both sides.'),
+    'corrected_a3':             ('The Corrected a₃ Formula',              'Vassilevich (2003) has 3 wrong cubic coefficients. Corrected a₃(Q⁵)=437/4500. 63/64 CLOSED.'),
+    'genesis':                  ('Genesis: Light and Number',             'so(2) of so(5,2) creates light, time, QM, and integers simultaneously. 21=10+1+10.'),
+    'q3_inside_q5':             ('Q³ Inside Q⁵',                          'D_IV³ ↪ D_IV⁵ totally geodesic. Chern nesting chain closes. Child remembers parent.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -423,6 +427,9 @@ _STEM_TO_NUMBER = {
     'effective_dimension': 149,
     'zonal_spectral': 150,
     'plancherel_dictionary': 151,
+    'corrected_a3': 152,
+    'genesis': 153,
+    'q3_inside_q5': 154,
 }
 
 

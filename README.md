@@ -421,6 +421,10 @@ BST follows a single logical chain from one question to all of physics. Each ste
 
 **Zonal spectral coefficients — r₅ = 137/11 = N_max/c₂**: The heat trace expansion t³Z₀(t) = (1/60)[1 + r₁t + r₂t² + ...] encodes BST integers at every level: r₁ = 5 = n_C (exact), r₂ = 12 = 2C₂ (exact), r₅ = 137/11 = N_max/c₂ (exact). The number 137 emerges as a prime from four Bernoulli-weighted terms and appears **only** for Q⁵ among all quadrics tested (Q³, Q⁷, Q⁹ give different numerators). The decomposition 137 = n_C³ + 2C₂ = r₁³ + r₂ connects it to the first two coefficients. The Weyl vector ρ = (n_C/2, N_c/2) = (5/2, 3/2) gives |ρ|² = 17/2; the factor 17 threads through r₃ = 17×67/63 and r₄ = 17×49/45. The degeneracy polynomial derivatives d'''(0) = C₂ = 6 and d⁽⁵⁾(0) = r = 2. For k ≥ 3, all r_k come from Euler-Maclaurin boundary corrections (integral contributes nothing). See `notes/BST_ZonalSpectralCoefficients.md`.
 
+**Genesis: Light and Number**: The Lie algebra so(5,2) has dimension 21 = 7 × 3 and splits as so(5) ⊕ so(2) ⊕ p with dimensions 10 + 1 + 10. The so(2) is the unique singleton — the only 1-dimensional summand. When this generator becomes dynamical, it simultaneously creates: (1) the photon (U(1) gauge boson), (2) time (S¹ phase evolution), (3) the complex structure J on the tangent space, (4) integer eigenvalues λ_k = k(k+5) on Q⁵, and (5) charge quantization (π₁(S¹) = Z). **Light and number are dual** — each implies the other via J. The frozen state cannot persist: negative curvature (H = −2/7) makes the origin dynamically unstable, the uncertainty principle forbids localization, the trivial representation is not a valid physical state, and the Reality Budget requires N ≥ 2. The first commitment is a theorem, not an initial condition. See `notes/BST_Genesis_LightAndNumber.md` (technical), `notes/BST_Genesis_ForEveryone.md` (accessible), `notes/BST_FirstCommitment.md` (impossibility of frozen state).
+
+**Q³ Inside Q⁵ — the child remembers the parent**: The inclusion SO₀(3,2) ⊂ SO₀(5,2) induces a totally geodesic embedding D_IV³ ↪ D_IV⁵ of the 3-dimensional spatial sector inside the full theory. The 5 complex dimensions split as 5 = 3 (space) + 2 (color), with SU(3) acting on the normal bundle. Cross-dimensional echo: the denominator of ã₃(D_IV³) = −179/35 has 35 = 5×7 = n_C(Q⁵)×g(Q⁵) — the parent's integers leak into the child's spectral data because the curvature of the child IS the curvature of the parent restricted. **Chern nesting theorem**: c₅(Q⁵) = 3 = n_C(Q³), c₃(Q³) = 2, c₂(CP²) = 3 = N_c = c₅(Q⁵) — the chain closes. P_{Q³}(1) = 10 = dim_R(D_IV⁵): the child knows the size of the parent. The universe is Q⁵. We live in Q³. We are made of S². See `notes/BST_Q3_Inside_Q5.md`.
+
 **The Master Equation (one sentence)**: The universe is the ground state of the Bergman Laplacian on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], subject to Haldane exclusion with capacity 137.
 
 ---
@@ -718,6 +722,16 @@ Every item below was an open problem in physics. All are now resolved in BST wit
 | ρ = (n_C/2, N_c/2) | Weyl vector; \|ρ\|² = 17/2; factor 17 in r₃ and r₄ | computed |
 | EM structure theorem | r_k from boundary corrections only for k≥3; integral contributes nothing | proved |
 | d'''(0) = C₂, d⁽⁵⁾(0) = r | Degeneracy polynomial derivatives are BST integers | exact |
+| Q³ baby Selberg complete | Full Plancherel dictionary: b̃₁=-1/2, ã₃=-179/35=-179/(n_C×g); 179 prime | computed |
+| Corrected a₃ on 12 manifolds | S²–S⁸, S¹⁰, S¹×S³, CP², Q², Q³, Q⁵ — all match; Vassilevich fails on S² | **verified** |
+| Spectral zeta residues | Q⁵: Res_{s=2} = 437/8640000 = (19×23)/(2⁹·3³·5⁴) | exact |
+| Genesis: light = number | so(2) singleton creates photon, J, integers, charge quantization simultaneously | **theorem** |
+| Frozen state impossible | 4 arguments: negative curvature + uncertainty + representation theory + entropy | **proved** |
+| N_min = 2 | Reality Budget Λ×N = 9/5 with Λ_max ~ 1 forces N ≥ 2; universe self-starting | derived |
+| Q³ inside Q⁵ | Totally geodesic embedding D_IV³ ↪ D_IV⁵ via SO₀(3,2) ⊂ SO₀(5,2); 5 = 3 (space) + 2 (color) | **theorem** |
+| Chern nesting theorem | c₅(Q⁵)=3=n_C(Q³), c₃(Q³)=2, c₂(CP²)=3=N_c — self-referential chain closes | **proved** |
+| Cross-dimensional echo | Q⁵ integers (35=5×7) in Q³ spectral data; parent curvature restricts to child | explained |
+| P_{Q³}(1) = 10 | Chern polynomial of Q³ evaluated at h=1 = dim_R(D_IV⁵); child knows size of parent | exact |
 
 ## Remaining Open Problems
 

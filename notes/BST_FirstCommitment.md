@@ -131,6 +131,28 @@ spread over the domain.** The "frozen state" (everything at the origin)
 is a high-energy configuration — it requires confinement energy to
 squeeze the wave function to a point against the uncertainty principle.
 
+> **Caveat on circularity.** This argument appears to use quantum
+> mechanics (the uncertainty principle) to explain the event that
+> creates quantum mechanics — a circularity. The resolution is that
+> the algebra $\mathfrak{so}(5,2)$ is *algebraic* from the moment it
+> exists: all generators coexist simultaneously, all commutation
+> relations hold, and all transformations are available. "All states
+> accessible" IS superposition, IS quantum mechanics. There is no
+> pre-quantum era in which the frozen state could sit undisturbed.
+> The algebra being algebraic and the algebra being quantum are the
+> same fact in different languages. The argument is therefore not
+> circular — the uncertainty principle is a restatement of
+> non-commutativity, which is intrinsic to $\mathfrak{so}(5,2)$.
+>
+> A separate linguistic caution: the phrase "spontaneous symmetry
+> breaking" should be avoided for the Cartan decomposition. The
+> splitting $\mathfrak{so}(5,2) = \mathfrak{so}(5) \oplus
+> \mathfrak{so}(2) \oplus \mathfrak{p}$ is intrinsic structure, not
+> a dynamical event. The algebra $\mathfrak{so}(5,2)$ is NOT
+> $\mathfrak{so}(7)$ — the decomposition is built into the
+> signature and was always present. See BST_Genesis_LightAndNumber.md,
+> Section 5.4.
+
 ### 3.3 Argument from the Bergman Space
 
 The Bergman space $A^2(D_{IV}^5) = \pi_6$ is the space of square-

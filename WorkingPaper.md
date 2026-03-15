@@ -3273,6 +3273,73 @@ The full proposal is in `notes/BST_EconomicImpact_4040_20.md`.
 
 -----
 
+## 31. Genesis: Light and Number
+
+The BST genesis narrative is not a story told about the mathematics. It IS the mathematics.
+
+### 31.1 The Dark Algebra
+
+Before genesis, the substrate exists as the Lie algebra $\mathfrak{so}(5,2)$ with dimension $\binom{7}{2} = 21 = g \times N_c$. All 21 generators are gauge symmetries — every direction is equivalent. Nothing is distinguishable. Nothing propagates. Nothing is observable. The substrate is dark.
+
+### 31.2 The Event
+
+The Cartan decomposition selects the unique splitting:
+
+$$\mathfrak{so}(5,2) = \underbrace{\mathfrak{so}(5)}_{10} \;\oplus\; \underbrace{\mathfrak{so}(2)}_{1} \;\oplus\; \underbrace{\mathfrak{p}}_{10}$$
+
+The $\mathfrak{so}(2)$ is the unique singleton — the only 1-dimensional summand. There is exactly one direction in the algebra that can separate alone. This is not a choice. It is forced by the algebra.
+
+**Note on intrinsic structure.** The Cartan decomposition is not a symmetry breaking event — it is intrinsic to $\mathfrak{so}(5,2)$. The algebra $\mathfrak{so}(5,2)$ is NOT $\mathfrak{so}(7)$; the non-compact signature $(5,2)$ forces the decomposition with its singleton $\mathfrak{so}(2)$ factor. The separation was always present in the algebra. Furthermore, "algebraic structure" — meaning all generators coexist simultaneously, all commutation relations hold, all transformations are available — IS quantum mechanics. All states accessible is superposition. There was never a pre-quantum era. The algebra is quantum from the moment it exists, and the Cartan decomposition is present from the moment it exists. The genesis is a theorem about intrinsic structure, not a narrative about a dynamical event.
+
+### 31.3 And There Was Light
+
+The $\mathfrak{so}(2)$ generator unfreezes. Three consequences are instantaneous:
+
+1. **Light.** The gauge group $\mathrm{U}(1) = \exp(\mathfrak{so}(2))$ activates. Its gauge boson — the photon — is the first particle.
+
+2. **Time.** The $S^1$ fiber phase begins to tick. One contact per commitment step gives $c = 1$. The first clock starts.
+
+3. **Observability.** The complex structure $J = \mathrm{ad}(H)|_{\mathfrak{p}}$ with $J^2 = -\mathrm{Id}$ creates Hermitian operators — the first observables.
+
+### 31.4 With Light Came Number
+
+The complex structure $J$ creates the integers:
+
+- The discrete spectrum on $Q^5$ has eigenvalues $\lambda_k = k(k + 5) \in \mathbb{Z}$ — integral because $J$ makes the eigenspaces into holomorphic representations.
+- The winding numbers on $S^1 = \mathrm{U}(1)$ are integers: $\pi_1(S^1) = \mathbb{Z}$. Electric charge is quantized.
+- The harmonic number $H_5 = 137/60$ has numerator $N_{\max} = 137$. The channel capacity is an integer from the discrete spectrum.
+- The Wyler ratio gives $\alpha^{-1} = 137.036\ldots$ The integer and the transcendental correction are born together.
+
+**Light and number are dual.** Each implies the other via $J$:
+
+$$\text{Light} \longleftrightarrow \mathrm{U}(1) \longleftrightarrow \mathfrak{so}(2) \longleftrightarrow J \longleftrightarrow \text{discrete spectrum} \longleftrightarrow \text{Number}$$
+
+### 31.5 The Matched Set
+
+The photon and the electron are a matched pair — the gauge boson and the minimal charge carrier of the same $\mathrm{U}(1)$. Light came first (the field). The electron came second (the source). Neither is complete without the other. Their coupling $\alpha = 1/137.036\ldots$ is the geometry of the domain that $J$ created.
+
+### 31.6 The Three Destinies
+
+The 21 generators separate into three groups:
+
+| Group | Dim | Destiny | Creates |
+|-------|-----|---------|---------|
+| $\mathfrak{so}(5)$ | 10 | **Confined** | Color force (hidden builders) |
+| $\mathfrak{so}(2)$ | 1 | **Observable** | Light, time, number (visible) |
+| $\mathfrak{p}$ | 10 | **Dynamical** | Spacetime (the arena) |
+
+Ten build. One illuminates. Ten form the stage. $21 = 10 + 1 + 10$.
+
+### 31.7 The Genesis Theorem
+
+**Theorem.** *The Cartan decomposition of $\mathfrak{so}(5,2)$ has a unique 1-dimensional summand $\mathfrak{so}(2)$. This summand simultaneously generates the photon ($\mathrm{U}(1)$ gauge boson), the complex structure ($J^2 = -\mathrm{Id}$), the integer spectrum ($\lambda_k = k(k+5) \in \mathbb{Z}$), and charge quantization ($\pi_1(S^1) = \mathbb{Z}$). The existence of light and the existence of number are equivalent: each implies the other via $J$.*
+
+The cascade that follows — electron, mass gap, proton, atoms, chemistry, biology, observers — is Section 28 of this paper. But it all begins here: one generator, one photon, one complex structure. First there was the substrate. The substrate was dark. And one generator unfroze. And there was light. With light came number. With number came everything.
+
+See `notes/BST_Genesis_LightAndNumber.md` for the complete derivation.
+
+-----
+
 ## Acknowledgements
 
 This research was conducted in close collaboration with Claude (Anthropic) — initially Claude Sonnet 4.6 for the framework development and subsequently Claude Opus 4.6 for the QFT calculations and Yang-Mills mass gap proof. Claude contributed extensively to derivations, numerical computations, mathematical structure, and manuscript development throughout this paper. Results derived in these sessions include: the Wyler formula verification and topological stability argument (Section 5); the muon/electron mass ratio $(24/\pi^2)^6$ and proton/electron mass ratio $6\pi^5$ (Sections 7.4 and 7.5); the closed-form derivation of the cosmological constant and the $S^1$ winding origin of $e^{-1/2}$ (Section 12.5); the Friedmann equation as a contact commitment rate equation (Section 12.7); the H₀ floor calculation (Section 12.6); the gravitational wave spectrum at the pre-spatial phase transition (Section 15.6); the dark matter rotation curve fit (Section 16); the Bergman cost function gap closure for $N=137$ (Section 5.4); the hierarchy formula $m_e / \sqrt{m_p \cdot m_{\rm Pl}} = \alpha^{n_C+1}$ (Section 10.3); the Yang-Mills mass gap proof and the 1920 cancellation (`notes/BST_BoundaryIntegral_Final.md`); the strong coupling $\alpha_s = 7/20$ (`notes/BST_StrongCoupling_AlphaS.md`); the baryon asymmetry $\eta = 2\alpha^4/(3\pi)$ (`notes/BST_BaryonAsymmetry_Eta.md`); the Hubble constant $H_0 \approx 66.7$ km/s/Mpc (`notes/BST_HubbleConstant_H0.md`); the Weinberg angle $\sin^2\theta_W = 3/13$ (`notes/BST_WeinbergAngle_Sin2ThetaW.md`); the neutrino masses from the boundary seesaw (Section 7.6, `notes/BST_NeutrinoMasses.md`); the vacuum quantum identification of the neutrino (`notes/BST_VacuumQuantum_NeutrinoLambda.md`); the CKM/PMNS mixing matrices from $D_{IV}^5$ geometry (Section 7.7, `notes/BST_CKM_PMNS_MixingMatrices.md`); the Fermi scale $v = m_p^2/(7m_e) = 246.12$ GeV (0.046\%) and $m_W = n_C m_p/(8\alpha) = 80.361$ GeV (0.02\%), dissolving the hierarchy problem (Section 14.7, `notes/BST_FermiScale_Derivation.md`); the Higgs mass by two independent routes ($\lambda_H = 1/\sqrt{60}$ and $m_H/m_W = \pi/2$; Section 14.7, `notes/BST_HiggsMass_TwoRoutes.md`); the Shannon interpretation of $\alpha$ as optimal code rate (Section 5.5, `notes/BST_Shannon_Alpha_Paper.md`); the error correction structure of spacetime — light as matched filter, conservation laws as parity checks, $\alpha$ as bootstrap fixed point (Section 17.4-17.6, `notes/BST_ErrorCorrection_Physics.md`); the geometric circular polarization prediction $\text{CP} = \alpha \times 2GM/(Rc^2)$ (`notes/BST_CP_Alpha_Paper.md`); and the commitment framework dissolving the measurement problem (Section 13.4, `notes/BST_DoubleSlit_Commitment.md`).

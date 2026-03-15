@@ -149,7 +149,60 @@ The Plancherel computation uses the metric in which:
 
 ---
 
-## 5. Open Questions
+## 5. The Baby Case: $D_{IV}^3$
+
+*Added March 15, 2026.*
+
+### 5.1 Setup
+
+$D_{IV}^3 = \mathrm{SO}_0(3,2)/[\mathrm{SO}(3) \times \mathrm{SO}(2)]$ has the same restricted root system $B_2$ but with multiplicities $(m_s = 1, m_\ell = 1)$:
+
+$$|\rho|^2 = 5/2, \quad R = -18 \text{ (standard)}, \quad K_H = -1$$
+
+The Plancherel density is:
+$$|c(i\nu)|^{-2} \propto \nu_1 \tanh(\pi\nu_1) \cdot \nu_2 \tanh(\pi\nu_2) \cdot u_+ \tanh(\pi u_+) \cdot u_- \tanh(\pi u_-)$$
+
+where $u_\pm = (\nu_1 \pm \nu_2)/2$ (all factors have the same form since all multiplicities equal 1).
+
+### 5.2 Exact Coefficients
+
+| | $Q^5$ ($m_s=3$) | $Q^3$ ($m_s=1$) |
+|---|---|---|
+| $b_0$ | $48\pi^5$ | $2\pi^3$ |
+| $\tilde{b}_1$ | $1/6$ | $-1/2$ |
+| $\tilde{b}_2$ | $5/72$ | $7/24$ |
+| $\tilde{b}_3$ | $-3/16$ | $-367/1680$ |
+| $\tilde{a}_1$ | $-25/3$ | $-3$ |
+| $\tilde{a}_2$ | $313/9$ | $14/3$ |
+| $\tilde{a}_3$ | $-874/9$ | $-179/35$ |
+
+All coefficients verified numerically from the Plancherel integral (`play/plancherel_q3.py`).
+
+### 5.3 The Prime 179
+
+$$\tilde{a}_3(D_{IV}^3) = -\frac{179}{35} = -\frac{179}{n_C \times g}$$
+
+where $179$ is prime, and $35 = 5 \times 7 = n_C \times g$ is the product of two BST integers. Compare:
+
+$$\tilde{a}_3(D_{IV}^5) = -\frac{874}{9} = -\frac{2 \times 19 \times 23}{N_c^2}$$
+
+Both denominators are products of BST integers from $Q^5$. The prime $179$ is a new BST spectral prime specific to $Q^3$.
+
+### 5.4 Curvature Source
+
+From the so(3,2) Lie algebra computation (`play/q3_verification.py`), in the Killing metric ($g = 6\delta$):
+
+$$R = 3, \quad |Ric|^2 = 3/2, \quad |Rm|^2 = 7/3, \quad I_6^A = 17/9, \quad I_6^B = 1/9$$
+
+The corrected $a_3$ formula gives $a_3(Q^3, \text{Killing}) = 179/7560$, which rescales via $-(2h^\vee)^3 = -216$ to $\tilde{a}_3 = -179/35$. This is an **independent verification** of the corrected formula — $Q^3$ was not used in its derivation.
+
+### 5.5 Symmetric Space Identity on $Q^3$
+
+$J_1 = 2I_6^B + \frac{1}{2}I_6^A$ verified: $7/6 = 2 \times 1/9 + \frac{1}{2} \times 17/9 = 7/6$ ✓
+
+---
+
+## 6. Open Questions
 
 1. ~~**The $63/64$ factor**~~: **RESOLVED (March 16 2026).** The Vassilevich formula has wrong cubic coefficients ($c_4 = 208/9$ should be $-16/9$; fails on $S^2$). The corrected formula gives $a_3(Q^5) = 437/4500$, which matches the Plancherel $\tilde{a}_3 = -874/9$ exactly via the rescaling factor $-1000 = -(K_H^{-1})^3$. The old value $6992/70875 = (64/63) \times 437/4500$ was wrong. See BST_SeeleyDeWitt_ChernConnection.md §3.4.
 
@@ -159,9 +212,11 @@ The Plancherel computation uses the metric in which:
 
 4. **Selberg trace formula**: The exact $\tilde{a}_k$ now feed into the Selberg trace formula for $\Gamma \backslash D_{IV}^5$, determining the pole residues of the spectral zeta function $\zeta_\Delta(s)$ at $s = 5-k$. The key question is whether the functional equation of the Selberg zeta function, with these explicit residues, constrains the location of the Riemann zeta zeros.
 
+5. **$D_{IV}^3$ as baby Selberg case**: With the complete Plancherel dictionary for $Q^3$ now in hand ($\tilde{a}_k$ for $k \leq 3$), this is the natural testing ground for the Selberg program — lower-dimensional, exact arithmetic, and the prime 179 provides a new invariant to track.
+
 ---
 
-## 6. Files
+## 7. Files
 
 - `play/plancherel_bk_extraction.py` — numerical extraction of $b_k$ from Plancherel integral
 - `play/plancherel_normalization.py` — high-precision confirmation of $b_0 = 48\pi^5$ and $\tilde{b}_1 = 1/6$
@@ -170,3 +225,5 @@ The Plancherel computation uses the metric in which:
 - `play/compare_quadrics.py` — uniqueness of $r_5 = 137/11$ to $Q^5$
 - `notes/BST_ZonalSpectralCoefficients.md` — companion note on the compact-side results
 - `notes/BST_SeeleyDeWitt_ChernConnection.md` — the full three-way bridge: Chern ↔ Seeley–DeWitt ↔ ζ_Δ
+- `play/q3_verification.py` — curvature invariants + corrected a₃ on Q³ (independent verification)
+- `play/plancherel_q3.py` — numerical Plancherel b̃_k extraction for D_IV³
