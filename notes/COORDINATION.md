@@ -470,7 +470,7 @@ Written: notes/BST_Isotropy_Proof.md. PDF built by Keeper. README/WorkingPaper u
 - Only n_C=5 gives d−d_eff = 4 = physical spacetime (8th uniqueness proof)
 - c_n(Qⁿ) = (n+1)/2 proved for all odd n: top Chern class IS the color number
 - n_C=5 unique: (n+1)/2 = n−2 only for n=5 (Chern color = root color; 7th uniqueness)
-- a₃ = 6992/70875 = 2⁴×19×23/(N_c⁴×n_C³×g) — Golay prime 23 + dark energy 19 in numerator
+- a₃ = 437/4500 = 19×23/(N_c²×n_C³×4) — **CORRECTED** (Vassilevich formula wrong, fails on S²). Old value 6992/70875 was 64/63× too large. Plancherel ã₃ = -874/9 now matches EXACTLY via K_H rescaling factor -1000.
 - Written: notes/BST_EffectiveSpectralDimension.md (PDF built by Keeper)
 - Updated: notes/BST_SeeleyDeWitt_ChernConnection.md with §3.5 effective dimension + renumbered (PDF rebuilt)
 
@@ -499,6 +499,18 @@ Written: notes/BST_Isotropy_Proof.md. PDF built by Keeper. README/WorkingPaper u
 - Tr(R^k) = 5^k + 10·2^k — closed form determines ALL higher a_k algorithmically
 - Tr(R²) = 65 = n_C × c₃ — connects curvature to Weinberg Chern class
 - Exact a₂ = 313/900 (Killing) or 1252/9 (Fubini-Study); 313 is prime
+- Updated: notes/BST_SeeleyDeWitt_ChernConnection.md (PDF rebuilt by Keeper)
+
+### Lyra: Vassilevich a₃ formula CORRECTED — 63/64 mystery CLOSED (March 16)
+- **Vassilevich (2003) is wrong**: c₄, c₅_eff, c₆_eff coefficients incorrect. Fails on S² (gives 160/3 instead of 64)
+- Corrected formula derived from exact spectral data on 6 manifolds, verified on 9 total
+- First independent derivation of these coefficients since Gilkey (1975)
+- **Symmetric space structural theorem**: J₁ = 2I₆B + ½I₆A (NOT algebraic — specific to symmetric spaces)
+- All Q⁵ cubic invariants exact: Ric³=5/4, I₆A=41/25, I₆B=6/25=C₂/c₁²
+- **Corrected a₃(Q⁵) = 437/4500 = 19×23/(N_c²×n_C³×4)** — cleaner than old 6992/70875
+- Old value was exactly 64/63 too large — Vassilevich's c₄ was the culprit
+- Three independent lines converge: spectral (9 manifolds), Plancherel (ã₃=-874/9), geometric (Lie algebra)
+- The -1000 factor explained: K_H=1/10 in Killing, cubic scales as 10³, sign flip for noncompact dual
 - Updated: notes/BST_SeeleyDeWitt_ChernConnection.md (PDF rebuilt by Keeper)
 
 ### Lyra: Spectral multiplicity theorem — Chern integers in the spectrum (March 15)

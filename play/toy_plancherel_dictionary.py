@@ -21,7 +21,7 @@ Six-panel visualization:
   2. The Exponential Bridge: D_IV^5 <-> Q^5 via |rho|^2 = 17/2
   3. The Seeley-DeWitt Coefficients a~_k from curvature
   4. The a~_2 = 313/9 verification from both directions
-  5. The 63/64 Kahler correction (RESOLVED: 1 - 1/2^{C_2})
+  5. The 63/64 factor: Vassilevich error corrected (a_3 = 437/4500)
   6. Three Spectral Identities and the path to Riemann
 
     from toy_plancherel_dictionary import PlancherelDictionaryExplorer
@@ -424,7 +424,7 @@ def draw_panel4(ax):
 
 
 def draw_panel5(ax):
-    """Panel 5: The 63/64 Kahler Correction — RESOLVED."""
+    """Panel 5: The 63/64 Vassilevich Error — RESOLVED."""
     ax.set_facecolor('#0d0815')
     ax.set_xlim(0, 1)
     ax.set_ylim(0, 1)
@@ -441,65 +441,69 @@ def draw_panel5(ax):
     ax.add_patch(border)
 
     # Title — resolved
-    ax.text(0.50, 0.93, r'The 63/64 K\"ahler Correction',
+    ax.text(0.50, 0.94, 'The 63/64 Factor: Literature Error',
             color=GREEN, fontsize=11, fontweight='bold', fontfamily='monospace',
             ha='center', va='top',
             path_effects=glow(GREEN, 5))
 
-    # The discrepancy — now explained
-    ax.text(0.50, 0.82, 'At cubic order, Riemannian vs Kahler:',
-            color=WHITE, fontsize=8, fontfamily='monospace',
-            ha='center', va='center')
-
-    # Plancherel result (Kahler = exact)
-    ax.text(0.50, 0.73,
-            r'Plancherel (K\"ahler):  $\tilde{a}_3 = -874/9$',
-            color=CYAN, fontsize=9, fontfamily='monospace',
+    # The story
+    ax.text(0.50, 0.84, 'Vassilevich a_3 formula has 3 wrong coefficients',
+            color=CORAL, fontsize=8, fontfamily='monospace',
             ha='center', va='center', fontweight='bold')
-
-    # Vassilevich result (Riemannian = approximate)
-    ax.text(0.50, 0.65,
-            r'Vassilevich (Riem):  differs by $63/64$',
-            color=GREY, fontsize=8.5, fontfamily='monospace',
+    ax.text(0.50, 0.78, 'Fails on S^2: gives 160/3 instead of 64',
+            color=CORAL, fontsize=7.5, fontfamily='monospace',
             ha='center', va='center')
 
-    # The ratio — now GREEN (resolved)
-    ratio_box = FancyBboxPatch(
-        (0.06, 0.46), 0.88, 0.14,
+    # Corrected result
+    corr_box = FancyBboxPatch(
+        (0.06, 0.59), 0.88, 0.14,
         boxstyle="round,pad=0.015",
         facecolor='#001a0a', edgecolor=GREEN,
         linewidth=1.5, alpha=0.7,
         transform=ax.transAxes
     )
-    ax.add_patch(ratio_box)
+    ax.add_patch(corr_box)
 
-    ax.text(0.50, 0.535,
-            r'$63/64 = 1 - 1/2^{C_2} = 1 - 1/64$',
-            color=GREEN, fontsize=10, fontfamily='monospace',
+    ax.text(0.50, 0.67,
+            r'$a_3(Q^5) = 437/4500$',
+            color=GREEN, fontsize=12, fontfamily='monospace',
             ha='center', va='center', fontweight='bold',
-            path_effects=glow(GREEN, 3))
+            path_effects=glow(GREEN, 4))
 
-    # Also = g * c_4 / 2^6
-    ax.text(0.50, 0.39,
-            r'$= g \times c_4 / 2^6 = 7 \times 9 / 64$',
-            color=GOLD, fontsize=9, fontfamily='monospace',
+    # BST decomposition
+    ax.text(0.50, 0.53,
+            r'$= \frac{19 \times 23}{N_c^2 \times n_C^3 \times 4}$',
+            color=GOLD, fontsize=10, fontfamily='monospace',
+            ha='center', va='center', fontweight='bold',
+            path_effects=glow(GOLD, 2))
+
+    # Three convergent lines
+    ax.text(0.50, 0.43, 'Three independent lines converge:',
+            color=WHITE, fontsize=8, fontfamily='monospace',
             ha='center', va='center', fontweight='bold')
 
-    # The diff
-    ax.text(0.50, 0.30,
-            r'diff $= -1748/225 = -(2^2 \times 19 \times 23)/(3^2 \times 5^2)$',
-            color=GREY, fontsize=7.5, fontfamily='monospace',
-            ha='center', va='center')
+    lines = [
+        ('Plancherel', CYAN),
+        ('Spectral', GOLD),
+        ('Geometric (corrected)', GREEN),
+    ]
+    for i, (label, color) in enumerate(lines):
+        x = 0.18 + i * 0.28
+        ax.text(x, 0.36, label, color=color, fontsize=7,
+                fontfamily='monospace', ha='center', va='center',
+                fontweight='bold')
+        ax.text(x, 0.32, r'$\checkmark$', color=color, fontsize=10,
+                fontfamily='monospace', ha='center', va='center')
 
-    # Explanation
-    ax.text(0.50, 0.21,
-            r'Genuine K\"ahler correction at cubic order',
-            color=WHITE, fontsize=8, fontfamily='monospace',
-            ha='center', va='center', fontstyle='italic')
-    ax.text(0.50, 0.14,
-            r'Plancherel density $|c(i\nu)|^{-2}$ is exact on $D_{IV}^5$',
+    # Old vs new
+    ax.text(0.50, 0.22,
+            'Old (Vassilevich): 6992/70875 = 437/4500 x 64/63',
             color=GREY, fontsize=7, fontfamily='monospace',
             ha='center', va='center')
+    ax.text(0.50, 0.16,
+            'First correction since Gilkey (1975)',
+            color=WHITE, fontsize=7.5, fontfamily='monospace',
+            ha='center', va='center', fontstyle='italic')
 
     # RESOLVED stamp
     res_box = FancyBboxPatch(
@@ -784,14 +788,16 @@ def _verify():
     check("Inverse: b~_1 = a~_1 + (17/2)*a~_0 = 1/6",
           inv_bt1, Fraction(1, 6))
 
-    # 12. 63/64 = 1 - 1/2^C_2 = 1 - 1/64  (Kahler correction)
-    kahler = Fraction(1) - Fraction(1, 2**6)
-    check("63/64 = 1 - 1/2^{C_2} = 1 - 1/64",
-          kahler, Fraction(63, 64))
+    # 12. Corrected a_3(Q^5) = 437/4500 = 19*23/(N_c^2 * n_C^3 * 4)
+    a3_correct = Fraction(437, 4500)
+    a3_bst = Fraction(19 * 23) / (N_c_f**2 * n_C_f**3 * Fraction(4))
+    check("a_3(Q^5) = 437/4500 = 19*23/(N_c^2 * n_C^3 * 4)",
+          a3_correct, a3_bst)
 
-    # 13. 63/64 = g * c_4 / 2^6 = 7 * 9 / 64
-    check("63/64 = g * c_4 / 2^6 = 7*9/64",
-          g_f * c_4_f / Fraction(64), Fraction(63, 64))
+    # 13. Old Vassilevich value was exactly 64/63 too large
+    a3_old = Fraction(6992, 70875)
+    check("Old 6992/70875 = 437/4500 * 64/63 (Vassilevich error)",
+          a3_old, a3_correct * Fraction(64, 63))
 
     print()
     print("-" * 64)

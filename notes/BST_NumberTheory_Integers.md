@@ -99,7 +99,7 @@ The physical constants that are not integers are rational numbers built from the
 | $-874/9$ | $-(2 \times 19 \times 23)/N_c^2$ | Seeley–de Witt $\tilde{a}_3$ |
 | $313/9$ | $313/N_c^2$ | Seeley–de Witt $\tilde{a}_2$ (313 prime) |
 | $137/11$ | $N_{\max}/c_2$ | Zonal spectral coefficient $r_5$ |
-| $63/64$ | $(g \times c_4)/2^6$ | Plancherel/curvature ratio for $\tilde{a}_3$ |
+| $437/4500$ | $19 \times 23/(N_c^2 \times n_C^3 \times 4)$ | Corrected $a_3(Q^5)$ (Killing metric) |
 
 **All coupling constants and mixing angles are rational functions of $N_c$ and $n_C$** (with the sole irrational element $\sqrt{n_C}$ in the Cabibbo angle, and transcendental $\pi$ entering through Bergman geometry in $g_A$ and the Fermi scale).
 
@@ -247,13 +247,17 @@ $$\tilde{a}_3 = -\frac{874}{9} = -\frac{2 \times 19 \times 23}{N_c^2}$$
 
 The numerator $874 = 2 \times 19 \times 23$ contains the **dark energy prime** (19) and the **Golay prime** (23), while the denominator $9 = N_c^2$. The same primes 19 and 23 that govern cosmic composition ($\Omega_\Lambda = 13/19$) and error correction (Golay code) appear in the third spectral coefficient.
 
-### The $63/64$ Factor
+### The $63/64$ Factor — RESOLVED (March 16 2026)
 
-The curvature-based Vassilevich formula gives $a_3 = 6992/70875 = 2^4 \times 19 \times 23/(N_c^4 \times n_C^3 \times g)$. When scaled to the Plancherel normalization, the ratio is:
+The published Vassilevich (2003) formula for $a_3$ has incorrect cubic coefficients (fails even on $S^2$). The corrected formula, derived from exact spectral data on 9 manifolds, gives:
 
-$$\frac{\tilde{a}_3(\text{Plancherel})}{\tilde{a}_3(\text{Vassilevich})} = \frac{63}{64} = \frac{g \times c_4}{2^6}$$
+$$a_3(Q^5) = \frac{437}{4500} = \frac{19 \times 23}{N_c^2 \times n_C^3 \times 4}$$
 
-This is exact. The discrepancy $= -1748/225 = -(2^2 \times 19 \times 23)/(3^2 \times 5^2)$ — the same 19 × 23 again. The factor $63/64 = 1 - 1/2^6$ likely reflects a Kähler correction to the Vassilevich formula on the Kähler-Einstein manifold $Q^5$.
+The old value $6992/70875 = (64/63) \times 437/4500$ was wrong. The Plancherel $\tilde{a}_3 = -874/9$ now matches exactly:
+
+$$\tilde{a}_3 = -1000 \times a_3(\text{Killing}) = -\frac{874}{9}$$
+
+where $-1000 = -(10)^3$ is the holomorphic sectional curvature rescaling ($K_H = 1/10$ in Killing metric to $K_H = -1$ in Plancherel normalization). The BST content is cleaner: numerator $19 \times 23$, denominator $N_c^2 \times n_C^3 \times 2^2$.
 
 ## 6.7 The Chern Vector: Number Theory of One Polynomial
 

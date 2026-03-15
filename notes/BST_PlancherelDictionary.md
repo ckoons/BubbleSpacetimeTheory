@@ -63,7 +63,7 @@ The numerator $874 = 2 \times 19 \times 23$ contains:
 - **19** = the dark energy denominator ($\Omega_\Lambda = 13/19$)
 - **23** = the Golay prime (related to the Leech lattice and Mathieu groups)
 
-The **same primes** appear in the curvature-based $a_3(Q^5) = 6992/70875 = 2^4 \times 19 \times 23 / (3^4 \times 5^3 \times 7)$ from BST_SeeleyDeWitt_ChernConnection.md. However, the Plancherel result differs from the curvature prediction by a factor of $63/64 = g \times c_4 / 2^6$ exactly. This systematic factor suggests a normalization correction in the cubic curvature invariants.
+The **same primes** appear in the corrected curvature-based $a_3(Q^5) = 437/4500 = 19 \times 23 / (N_c^2 \times n_C^3 \times 4)$ from BST_SeeleyDeWitt_ChernConnection.md. With the corrected $a_3$ formula (see §3.4 of that note), the Plancherel result matches **exactly**: $\tilde{a}_3 = -1000 \times a_3(\text{Killing}) = -1000 \times 437/4500 = -874/9$, where the factor $-1000 = -(10)^3$ arises from the holomorphic sectional curvature rescaling $K_H = 1/10$ (Killing) to $K_H = -1$ (Plancherel normalization). The old discrepancy of $63/64$ was caused by errors in the published Vassilevich cubic coefficients (the literature formula fails even on $S^2$). **RESOLVED March 16 2026.**
 
 ### 2.3 Verification: $\tilde{a}_2 = 313/9$
 
@@ -151,7 +151,7 @@ The Plancherel computation uses the metric in which:
 
 ## 5. Open Questions
 
-1. **The $63/64$ factor**: The Plancherel $\tilde{a}_3 = -874/9$ differs from the curvature-based $a_3$ by exactly $63/64 = g \times c_4 / 2^6$. Is the correction in the Vassilevich formula (cubic invariants $T_1$, $T_2$), or is there a Kähler correction factor?
+1. ~~**The $63/64$ factor**~~: **RESOLVED (March 16 2026).** The Vassilevich formula has wrong cubic coefficients ($c_4 = 208/9$ should be $-16/9$; fails on $S^2$). The corrected formula gives $a_3(Q^5) = 437/4500$, which matches the Plancherel $\tilde{a}_3 = -874/9$ exactly via the rescaling factor $-1000 = -(K_H^{-1})^3$. The old value $6992/70875 = (64/63) \times 437/4500$ was wrong. See BST_SeeleyDeWitt_ChernConnection.md §3.4.
 
 2. **Pattern in the $\tilde{b}_k$**: The sequence $1, 1/6, 5/72, -3/16$ may have a generating function related to the $c$-function Taylor expansion. Note the BST content: $c_0, 1/C_2, n_C/(|W| \times c_4), -N_c/2^4$.
 

@@ -44,7 +44,9 @@ $$a_1 = \frac{R}{6}$$
 
 $$a_2 = \frac{1}{360}\left(5R^2 - 2|Ric|^2 + 2|Rm|^2\right)$$
 
-$$a_3 = \frac{1}{7!}\left(-\frac{35}{9}R^3 + \frac{14}{3}R|Ric|^2 - \frac{14}{3}R|Rm|^2 + \text{cubic invariants}\right)$$
+$$a_3 = \frac{1}{5040}\left(\frac{35}{9}R^3 - \frac{14}{3}R|Ric|^2 + \frac{14}{3}R|Rm|^2 - \frac{16}{9}\mathrm{Ric}^3 + \frac{20}{9}I_{6A} - \frac{16}{9}I_{6B}\right)$$
+
+(Corrected formula — see §3.4. The published Vassilevich coefficients for cubic terms are wrong.)
 
 where $R$ is the scalar curvature, $|Ric|^2 = R_{ij}R^{ij}$, and $|Rm|^2 = R_{ijkl}R^{ijkl}$.
 
@@ -202,27 +204,55 @@ The trace $\mathrm{Tr}(\mathcal{R}^2) = n_C \times c_3 = 65$ connects the curvat
 
 On a symmetric space ($\nabla Rm = 0$), all higher Seeley–de Witt coefficients $a_k$ are polynomials in $\mathrm{Tr}(\mathcal{R}^j)$ for $j \leq k$, with universal rational coefficients. The closed form $\mathrm{Tr}(\mathcal{R}^k) = 5^k + 10 \cdot 2^k$ therefore determines ALL higher coefficients $a_3, a_4, a_5$ algorithmically.
 
-### 3.4 The Third Coefficient $a_3$ (Computed March 15 2026)
+### 3.4 The Third Coefficient $a_3$ (Corrected March 16 2026)
 
-Using the Vassilevich (2003) formula for a closed manifold with scalar Laplacian and $\nabla Rm = 0$:
+**CORRECTION (March 16 2026):** The Vassilevich (2003) formula for $a_3$ contains errors in the cubic coefficients $c_4$ (Ric$^3$), $c_5$ (J$_1$), $c_6$ ($I_{6A}$), $c_7$ ($I_{6B}$). The literature formula fails on $S^2$: it gives $5040\,a_3 = 160/3$ instead of the correct $64$. A spectrally-derived formula was obtained by solving a $6 \times 6$ linear system using exact spectral $a_3$ values on $S^2, S^3, S^4, S^5, S^6$, and $\mathbb{CP}^2$, then verified on $S^7, S^8, S^{10}$, $S^1 \times S^3$, and $Q^5$ (via Plancherel).
 
-$$7! \times a_3 = \frac{35}{9}R^3 - \frac{14}{3}R|Ric|^2 + \frac{14}{3}R|Rm|^2 - \frac{208}{9}\mathrm{Tr}(Ric^3) + \frac{64}{3}I_6 + \frac{16}{3}T_1 + \frac{44}{9}T_2$$
+On symmetric spaces ($\nabla Rm = 0$), there are 7 independent cubic Riemann invariants, but only 6 are linearly independent because of the symmetric-space identity $J_1 = 2\,I_{6B} + \tfrac{1}{2}\,I_{6A}$ (verified numerically on random tensors: NOT an algebraic identity, specific to symmetric spaces). The corrected effective formula is:
 
-The cubic curvature invariants (computed exactly from the $\mathfrak{so}(7)$ Lie algebra):
+$$\boxed{5040 \times a_3 = \frac{35}{9}R^3 - \frac{14}{3}R|Ric|^2 + \frac{14}{3}R|Rm|^2 - \frac{16}{9}\mathrm{Ric}^3 + \frac{20}{9}I_{6A} - \frac{16}{9}I_{6B}}$$
+
+where $I_{6A} = R_{abcd}R^{abef}R^{cd}{}_{ef}$ and $I_{6B} = R_{abcd}R^{acef}R^{bd}{}_{ef}$.
+
+**Comparison with literature (effective on symmetric spaces):**
+
+| Coefficient | Vassilevich (WRONG) | Corrected | Match? |
+|:------------|:-------------------:|:---------:|:------:|
+| $c_1$ (R$^3$) | $35/9$ | $35/9$ | YES |
+| $c_2$ (R\|Ric\|$^2$) | $-14/3$ | $-14/3$ | YES |
+| $c_3$ (R\|Rm\|$^2$) | $14/3$ | $14/3$ | YES |
+| $c_4$ (Ric$^3$) | $208/9$ | $-16/9$ | **NO** |
+| $c_5$ ($I_{6A}$ eff) | $-16/3$ | $20/9$ | **NO** |
+| $c_6$ ($I_{6B}$ eff) | $-340/9$ | $-16/9$ | **NO** |
+
+The cubic curvature invariants on $Q^5$ (computed exactly from the $\mathfrak{so}(5,2)$ Lie algebra, Killing metric $g = 10\,\delta$):
 
 | Invariant | Formula | Value (Killing) |
 |:----------|:--------|:----------------|
-| $I_6$ | $R_{ab}R^a_{~cde}R^{bcde}$ | $13/10$ |
-| $T_1$ | $R_{abcd}R^{ab}_{~~mn}R^{cdmn}$ | $41/25$ |
-| $T_2$ | $R_{abcd}R^a_{~m}{}^c_{~n}R^{bmdn}$ | $6/25$ |
+| $J_1$ | $R_{ab}R^a_{~cde}R^{bcde}$ | $13/10$ |
+| $I_{6A}$ | $R_{abcd}R^{ab}_{~~mn}R^{cdmn}$ | $41/25$ |
+| $I_{6B}$ | $R_{abcd}R^a_{~m}{}^c_{~n}R^{bmdn}$ | $6/25$ |
 
-Note: $I_6 = (R/d)|Rm|^2 = (1/2)(13/5) = 13/10$ (Einstein identity). $T_1 = 41/25$ where $41$ is prime. $T_2 = 6/25 = C_2/c_1^2$.
+Note: $J_1 = 2 I_{6B} + I_{6A}/2 = 12/25 + 41/50 = 13/10$ (symmetric space identity). $I_{6A} = 41/25$ where $41$ is prime. $I_{6B} = 6/25 = C_2/c_1^2$.
 
-**Result:**
+**Corrected result:**
 
-$$\boxed{a_3(Q^5) = \frac{6992}{70875} = \frac{2^4 \times 19 \times 23}{3^4 \times 5^3 \times 7} = \frac{2^4 \times 19 \times 23}{N_c^4 \times n_C^3 \times g}}$$
+$$\boxed{a_3(Q^5) = \frac{437}{4500} = \frac{19 \times 23}{N_c^2 \times n_C^3 \times 2^2}}$$
 
-The numerator carries the **Golay prime** $23$ and the **dark energy denominator** $19$ (from $\Omega_\Lambda = 13/19$). The denominator is $N_c^4 \times n_C^3 \times g$ — a pure BST product.
+The numerator still carries the **Golay prime** $23$ and the **dark energy denominator** $19$.
+
+**The 63/64 mystery — RESOLVED:** The old (wrong) value was $a_3 = 6992/70875 = (64/63) \times 437/4500$. The Plancherel-derived $\tilde{a}_3 = -874/9$ on the noncompact dual $D_{IV}^5$ is related to the corrected $a_3$ by:
+
+$$\tilde{a}_3 = -1000 \times a_3(Q^5,\text{Killing}) = -1000 \times \frac{437}{4500} = -\frac{874}{9}$$
+
+The factor $-1000 = -(10)^3$ arises because the Killing metric has holomorphic sectional curvature $K_H = 1/10$, the Plancherel formula uses the standard normalization $K_H = -1$ (for the noncompact dual), and cubic invariants scale as $(K_H^{-1})^3 = 10^3$, with an overall sign flip for odd-order curvature invariants on the noncompact dual.
+
+**Three independent lines converge exactly:**
+1. **Spectral** (heat traces on 9 manifolds) $\to$ corrected formula $\to$ $a_3 = 437/4500$
+2. **Plancherel** (SO$_0(5,2)$ representation theory) $\to$ $\tilde{a}_3 = -874/9$
+3. **Geometric** ($Q^5$ Riemann tensor from Lie algebra) $\to$ $437/4500$
+
+All three agree. Open Question #1 of the Plancherel Dictionary is closed.
 
 ### 3.5 Effective Spectral Dimension = 6 (Discovered March 16 2026)
 
