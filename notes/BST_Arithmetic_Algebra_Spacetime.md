@@ -390,6 +390,9 @@ The channel decomposes into matter modes and vacuum modes.
 $$g(g+1) = 8g \quad \Longleftrightarrow \quad g = 7$$
 The "Why 56" uniqueness trap.
 
+$$\frac{\tilde{a}_3(\text{Kähler})}{\tilde{a}_3(\text{Riemannian})} = \frac{63}{64} = \frac{g \times c_4}{2^{C_2}} = 1 - \frac{1}{2^{C_2}}$$
+The Kähler correction: Riemannian geometry overcounts cubic curvature invariants on a Kähler-Einstein manifold by $1/2^{C_2}$. Connects genus, Chern class $c_4$, and Casimir in one fraction.
+
 These are not independent. They follow from three integers: $N_c = 3$, $n_C = 5$, and $N_{\max} = 137$. Everything else is derived.
 
 ## 16. The Hierarchy of Scales

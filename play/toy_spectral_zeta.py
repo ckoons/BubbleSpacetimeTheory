@@ -385,6 +385,15 @@ class SpectralZetaExplorer:
             transform=ax.transAxes, fontsize=8, color=MAGENTA,
             ha='right', va='bottom', alpha=0.8,
         )
+        # Zonal spectral coefficients: r_5 = 137/11 = N_max/c_2.
+        # The same zeta function's heat-trace expansion yields
+        # t^3 Z_0(t) = (1/60)[1 + 5t + 12t^2 + ... + (137/11)t^5 + ...].
+        ax.text(
+            0.02, 0.02,
+            r'$r_5 = 137/11 = N_{\max}/c_2$  (zonal coeff)',
+            transform=ax.transAxes, fontsize=8, color=GREEN,
+            ha='left', va='bottom', alpha=0.8,
+        )
 
     # ─────────────────────────────────────────────────────────────
     #  PANEL 4: Seeley-DeWitt -> Chern

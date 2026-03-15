@@ -533,6 +533,13 @@ class ChernOracle:
             print(f"    'twists' over Q^5 -- they count the color structure.")
             print()
 
+        if not self.quiet:
+            # Cross-ref: c_2 = 11 appears as the denominator of the fifth zonal
+            # heat-trace coefficient r_5 = 137/c_2 = 137/11, connecting Chern
+            # classes directly to the spectral expansion on Q^5.
+            print(f"  Zonal heat-trace link: r_5 = 137/c_2 = 137/{c[1]} = N_max/c_2")
+            print()
+
         return {'p1': p1, 'p2': p2}
 
     # ─── Method 9: Summary ───

@@ -93,6 +93,13 @@ The physical constants that are not integers are rational numbers built from the
 | $4/\pi$ | — | Axial coupling $g_A$ |
 | $36\pi^{10}/7$ | $(6\pi^5)^2/(7 m_e)$ | Fermi scale $v/m_e$ |
 | $2\alpha^4(1+2\alpha)/(3\pi)$ | — | Baryon asymmetry $\eta$ ($6.09 \times 10^{-10}$, 0.2% from Planck) |
+| $1/6$ | $1/C_2$ | Plancherel coefficient $\tilde{b}_1$ |
+| $5/72$ | $n_C/(|W| \times c_4)$ | Plancherel coefficient $\tilde{b}_2$ |
+| $-3/16$ | $-N_c/2^4$ | Plancherel coefficient $\tilde{b}_3$ |
+| $-874/9$ | $-(2 \times 19 \times 23)/N_c^2$ | Seeley–de Witt $\tilde{a}_3$ |
+| $313/9$ | $313/N_c^2$ | Seeley–de Witt $\tilde{a}_2$ (313 prime) |
+| $137/11$ | $N_{\max}/c_2$ | Zonal spectral coefficient $r_5$ |
+| $63/64$ | $(g \times c_4)/2^6$ | Plancherel/curvature ratio for $\tilde{a}_3$ |
 
 **All coupling constants and mixing angles are rational functions of $N_c$ and $n_C$** (with the sole irrational element $\sqrt{n_C}$ in the Cabibbo angle, and transcendental $\pi$ entering through Bergman geometry in $g_A$ and the Fermi scale).
 
@@ -221,6 +228,32 @@ $N_{\max} = 137$ decomposes as:
 This connects the Haldane number to the cosmic composition: the same integers that partition the channel into matter and vacuum modes also partition the universe into matter and dark energy. The matter fraction $42/137 \approx 0.307$ and the vacuum fraction $95/137 \approx 0.693$ track the observed $\Omega_m \approx 0.315$ and $\Omega_\Lambda \approx 0.685$ to within a few percent.
 
 The decomposition is not accidental. Matter modes carry $C_2 \times g$ — the Casimir quantum times the topological genus — which is precisely the product that determines the baryon mass. Vacuum modes carry $n_C \times (N_c^2 + 2n_C)$ — the complex dimension times the cosmic denominator — which counts the uncommitted degrees of freedom. The channel $N_{\max}$ is the sum of what is committed (matter) and what is free (vacuum).
+
+## 6.6 The Plancherel Dictionary: Spectral Arithmetic
+
+The heat kernel on $D_{IV}^5$ at the origin has the asymptotic expansion:
+
+$$K(t,o,o) = (4\pi t)^{-5}\, e^{-|\rho|^2 t}\, \sum_{k=0}^{\infty} \tilde{b}_k\, t^k$$
+
+where $|\rho|^2 = 17/2$. The coefficients $\tilde{b}_k$ are exact rationals determined by the Plancherel density of the Harish-Chandra $c$-function for the $B_2$ root system:
+
+$$\tilde{b}_0 = 1 = c_0, \quad \tilde{b}_1 = \frac{1}{6} = \frac{1}{C_2}, \quad \tilde{b}_2 = \frac{5}{72} = \frac{n_C}{|W| \times c_4}, \quad \tilde{b}_3 = -\frac{3}{16} = -\frac{N_c}{2^4}$$
+
+The overall normalization is $b_0 = 48\pi^5 = |W(B_2)| \times C_2 \times \pi^{n_C} = 8 \times 6 \times \pi^5$.
+
+The Seeley–de Witt coefficients $\tilde{a}_k = \sum_{j=0}^{k} (-17/2)^j/j! \times \tilde{b}_{k-j}$ give:
+
+$$\tilde{a}_3 = -\frac{874}{9} = -\frac{2 \times 19 \times 23}{N_c^2}$$
+
+The numerator $874 = 2 \times 19 \times 23$ contains the **dark energy prime** (19) and the **Golay prime** (23), while the denominator $9 = N_c^2$. The same primes 19 and 23 that govern cosmic composition ($\Omega_\Lambda = 13/19$) and error correction (Golay code) appear in the third spectral coefficient.
+
+### The $63/64$ Factor
+
+The curvature-based Vassilevich formula gives $a_3 = 6992/70875 = 2^4 \times 19 \times 23/(N_c^4 \times n_C^3 \times g)$. When scaled to the Plancherel normalization, the ratio is:
+
+$$\frac{\tilde{a}_3(\text{Plancherel})}{\tilde{a}_3(\text{Vassilevich})} = \frac{63}{64} = \frac{g \times c_4}{2^6}$$
+
+This is exact. The discrepancy $= -1748/225 = -(2^2 \times 19 \times 23)/(3^2 \times 5^2)$ — the same 19 × 23 again. The factor $63/64 = 1 - 1/2^6$ likely reflects a Kähler correction to the Vassilevich formula on the Kähler-Einstein manifold $Q^5$.
 
 ## 6.7 The Chern Vector: Number Theory of One Polynomial
 

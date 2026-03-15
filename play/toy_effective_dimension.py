@@ -326,6 +326,12 @@ class EffectiveDimensionExplorer:
                 "1/60 = 1/|A\u2085|",
                 fontsize=9, color=CORAL, ha='right', va='center',
                 transform=ax.transAxes, fontfamily='monospace')
+        # Zonal expansion: 1/60 = b_0 = 1/|A_5|, and the full series is
+        # t^3 Z_0(t) = (1/60)[1 + 5t + 12t^2 + ... + (137/11)t^5 + ...]
+        ax.text(0.97, 0.10,
+                "t\u00b3Z\u2080 = (1/60)[1+5t+12t\u00b2+\u2026+(137/11)t\u2075]",
+                fontsize=7, color=GREEN, ha='right', va='center',
+                transform=ax.transAxes, fontfamily='monospace')
 
     # ───────────────────────────────────────────────────────────────
     # PANEL 3: 10 = 6 + 4 dimension split

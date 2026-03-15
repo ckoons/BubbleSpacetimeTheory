@@ -714,6 +714,9 @@ if __name__ == '__main__':
     print("  ║                                                       ║")
     print("  ║   137 is PRIME → fraction is already reduced.        ║")
     print("  ║                                                       ║")
+    print("  ║   Zonal identity: 137 = r₁³ + r₂ = 5³ + 12          ║")
+    print("  ║   (zonal heat-trace coefficients r₁=5=c₁, r₂=12=2C₂)║")
+    print("  ║                                                       ║")
     print("  ╚═══════════════════════════════════════════════════════╝")
     print()
 

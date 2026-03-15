@@ -376,6 +376,8 @@ The entire cosmological parameter set — $\Lambda$, $\eta$, $H_0$, $\Omega_\Lam
 | Hubble constant | Tension between measurements | From $\Lambda$ and $\Omega_\Lambda$ |
 | Age of universe | From $H_0$ fit | From $H_0$ and $\Omega_\Lambda$ |
 | Quark mass ratios | 6 free parameters | Integer ratios: $4n_C$, $N_{\max}-1$, genus$/N_c$ |
+| Heat kernel coefficients | Curvature tensor contractions | Plancherel density: $\tilde{b}_k$ from $c$-function |
+| Spectral zeta residues | Complex analysis | Seeley–de Witt: $\tilde{a}_k$ from integer arithmetic |
 
 Every entry on the right is undergraduate linear algebra — eigenvalues, inner products, projections, determinants, dimensions, traces, kernels — applied to one specific space.
 
@@ -528,13 +530,31 @@ $$248 = 60 + 60 + 128 = 2n_C \cdot C_2 + |A_5| + 2^g$$
 
 The three summands correspond to three sectors of the $E_8 \to D_5 \times A_3$ decomposition: the $(10,6)$ Higgs sector, the $(10',6')$ conjugate, and the $(16,4)$ spinor.
 
-### 17.3 Root Count
+### 17.3 The Kähler Curvature Operator Spectrum
+
+The Kähler curvature operator $\mathcal{R}: \Lambda^{1,1} \to \Lambda^{1,1}$ on $Q^5$ is a $25 \times 25$ Hermitian matrix with eigenvalues:
+
+$$\text{spec}(\mathcal{R}) = \{n_C^1, \; r^{10}, \; 0^{14}\} = \{5, 2, 0\} \quad \text{(multiplicities superscripted)}$$
+
+The traces of its powers are:
+
+$$\text{Tr}(\mathcal{R}^k) = 5^k + 10 \times 2^k$$
+
+These generate ALL higher Seeley–de Witt coefficients $a_k$ on the symmetric space $Q^5$, since $\nabla Rm = 0$ forces every curvature invariant to be a polynomial in $\text{Tr}(\mathcal{R}^j)$.
+
+The curvature invariants of $Q^5$ (in Killing normalization) are all Chern class ratios:
+
+$$R = n_C, \quad |Ric|^2 = n_C/r, \quad |Rm|^2 = c_3/c_1 = 13/5$$
+
+This is the curvature operator as a linear algebra object: a finite Hermitian matrix whose spectrum is determined by the BST integers, and whose traces encode all spectral geometry.
+
+### 17.5 Root Count
 
 $$|\Phi(E_8)| = 240 = \frac{|W(D_{n_C})|}{|W(B_2)|} = \frac{1920}{8}$$
 
 The number of $E_8$ roots equals the ratio of the Weyl group of $D_5$ (= the BST symmetry group of order 1920) to the restricted Weyl group of $B_2$. This is a linear algebra statement: the root system of $E_8$ is the orbit space of the BST symmetry group modulo the restricted symmetry.
 
-### 17.4 Generation Count
+### 17.5 Generation Count
 
 $$N_{\text{gen}} = \frac{|W(A_3)|}{|W(B_2)|} = \frac{24}{8} = 3$$
 
@@ -555,6 +575,7 @@ Over 140 parameter-free predictions from ten operations:
 - **Kernel evaluations** (propagators, $\alpha$, $\Lambda$, $\eta$)
 - **Matrix transforms** (Pascal $\to$ Chern via bidiagonal $M$; all integers from one polynomial)
 - **Degree ratios** of formal degree polynomials ($c_1 = 3/5$ from $\deg(d_{\text{trans}})/\deg(d_{\text{total}})$)
+- **Spectral expansions** of the heat kernel (Plancherel coefficients $\tilde{b}_k$ from the Harish-Chandra $c$-function; Seeley–de Witt bridge $\tilde{a}_k = \sum (-|\rho|^2)^j/j! \times \tilde{b}_{k-j}$; curvature operator traces $\text{Tr}(\mathcal{R}^k) = 5^k + 10 \times 2^k$)
 
 The Standard Model is a linear algebra textbook written in the wrong notation. BST provides the translation.
 

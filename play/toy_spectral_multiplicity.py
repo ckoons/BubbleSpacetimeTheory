@@ -476,6 +476,14 @@ class SpectralMultiplicityExplorer:
                 ha='center', va='top', fontsize=10, color=WHITE,
                 transform=ax.transAxes, fontstyle='italic')
 
+        # Cross-ref: The degeneracy polynomial d(x) whose derivatives at x=0
+        # give C_2=6 and r=2 is the same polynomial whose Euler-Maclaurin
+        # expansion produces the zonal r_k sequence (r_0..r_5 = 1,5,12,...,137/11).
+        y -= 0.08
+        ax.text(0.5, y, r'd(x) $\rightarrow$ EM expansion $\rightarrow$ $r_k$ sequence',
+                ha='center', va='top', fontsize=8, color='#888888',
+                transform=ax.transAxes, fontstyle='italic')
+
 
 # ═══════════════════════════════════════════════════════════════════
 # MAIN

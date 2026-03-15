@@ -285,6 +285,12 @@ ax_density.text(0.52, -0.25,
 ax_density.text(0.52, -0.38,
                 'No infinities.  No singularities.  Just a full channel.',
                 fontsize=11, color='#556677', ha='center', fontfamily='monospace')
+# 137 appears in FIVE independent ways in BST:
+#   1. H_5 numerator (harmonic sum)
+#   2. N_max = floor(1/alpha) (channel capacity)
+#   3. alpha^{-1} ~ 137.036 (fine-structure constant)
+#   4. Shannon channel capacity of D_IV^5
+#   5. r_5 = 137/11 (zonal spectral coefficient numerator)
 
 # ═══════════════════════════════════════════════════════════════════
 # STATE AND UPDATE LOGIC

@@ -116,7 +116,8 @@ CATEGORIES = {
         'showcase', 'centennial', 'predictions_catalog', 'pattern_finder',
         'proof_tree', 'universe_builder', 'selberg_bridge', '42',
         'fill_fraction_closure', 'constants_dashboard', 'zeta_qed',
-        'self_duality_rh', 'spectral_zeta',
+        'self_duality_rh', 'spectral_zeta', 'zonal_spectral',
+        'plancherel_dictionary',
     ],
 }
 
@@ -274,6 +275,8 @@ METADATA = {
     'spectral_zeta':            ('The Spectral Zeta Function',           'ζ_Δ(s) on Q5: poles at s=5,4,3,2,1. The 1/60 theorem. Bridge: Chern → Selberg → ζ(s).'),
     'harmonic_alpha':           ('H₅ = 137/60',                          '1+1/2+1/3+1/4+1/5 = 137/60. Numerator = N_max. Denominator = |A₅|. Simplest route to α.'),
     'effective_dimension':      ('The Effective Spectral Dimension',      'd_eff = λ₁ = χ = C₂ = 6. Ten = six + four. Fill fraction derived. 8th uniqueness proof.'),
+    'zonal_spectral':           ('The Zonal Spectral Coefficients',       'r₅ = 137/11 = N_max/c₂. Heat trace encodes BST integers. 137 emerges from Bernoulli terms.'),
+    'plancherel_dictionary':    ('The Plancherel Dictionary',             'b̃₁=1/C₂, b̃₂=n_C/(|W|×c₄). Noncompact↔compact bridge at |ρ|²=17/2. ã₂=313/9 from both sides.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -418,6 +421,8 @@ _STEM_TO_NUMBER = {
     'spectral_multiplicity': 146, 'spectral_zeta': 147,
     'harmonic_alpha': 148,
     'effective_dimension': 149,
+    'zonal_spectral': 150,
+    'plancherel_dictionary': 151,
 }
 
 
