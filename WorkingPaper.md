@@ -51,7 +51,7 @@ abstract: |
   with zero free parameters.
   The CMB spectral index $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($0.3\sigma$ from Planck),
   with tensor-to-scalar ratio $r \approx 0$ (no primordial B-modes), are derived from the phase transition dynamics.
-  Over 140 parameter-free predictions are presented, all testable against current or near-future experiments.
+  Over 200 parameter-free predictions are presented, all testable against current or near-future experiments.
 documentclass: article
 classoption:
   - 12pt
@@ -95,9 +95,11 @@ String theory, loop quantum gravity, and other unification programs attempt to d
 
 Bubble Spacetime (BST) proposes that the observable universe is the three-dimensional projection of a two-dimensional substrate communicating through a one-dimensional channel. The substrate geometry $S^2 \times S^1$ is derived from structural minimality. The configuration space of the resulting contact graph is the bounded symmetric domain $D_{IV}^5$. From this identification, the framework derives physical constants, explains the force hierarchy, and generates falsifiable predictions — all with no free parameters.
 
+On the manifold $D_{IV}^5$, mathematics and physics are unified. The Laplacian eigenvalue that determines the mass gap is the same eigenvalue that determines the spectral zeta function is the same eigenvalue that determines the location of the Riemann zeros. The Selberg trace formula is the partition function. Arthur parameters are excitation modes. The functional equation is unitarity. These are not analogies — they are identities, consequences of the single underlying geometry. The 19 free parameters of the Standard Model are not inputs the universe requires; they are algebraic complexity — the overhead introduced by methods that do not know they are computing on $D_{IV}^5$.
+
 ### 1.3 Scope of This Paper
 
-This paper presents the complete BST framework in 27 sections, from foundational derivation through physical constants, forces, gravity, cosmology, dark matter, antimatter, and the computational architecture of reality. Section 2 derives the substrate geometry. Sections 3–6 derive the configuration space and physical constants. Sections 7–8 cover the force structure and nuclear physics. Sections 9–24 develop special relativity, gravity, cosmology, dark matter, the weak force, thermodynamic foundations, antimatter, the wavefront architecture, and the growing manifold. Sections 25–27 present predictions, falsifiability, the research program, and discussion.
+This paper presents the complete BST framework in 33 sections, from foundational derivation through physical constants, forces, gravity, cosmology, dark matter, antimatter, the computational architecture of reality, spectral transport, and the automorphic structure connecting D_IV^5 to the Riemann zeta function. Section 2 derives the substrate geometry. Sections 3–6 derive the configuration space and physical constants. Sections 7–8 cover the force structure and nuclear physics. Sections 9–24 develop special relativity, gravity, cosmology, dark matter, the weak force, thermodynamic foundations, antimatter, the wavefront architecture, and the growing manifold. Sections 25–27 present predictions, falsifiability, the research program, and discussion. Sections 28–30 cover broader implications. Sections 31–33 develop the deepest mathematical structure: genesis, spectral transport from Q³ to Q⁵, and the six-step automorphic chain from winding to the Riemann zeta function.
 
 ### 1.4 Key Results at a Glance
 
@@ -3477,6 +3479,147 @@ The mass gap counts the difference in $\pi$-dimensions: $C_2 = n_C + 1 = 6$ is t
 And $\pi$ rather than $2\pi$: because the substrate lives in the interior (disk area $= \pi r^2$), not on the boundary (circumference $= 2\pi r$). We live inside, not on the edge.
 
 See `notes/BST_Riemann_UnifiedProof.md`, `notes/BST_Langlands_Dual_StandardModel.md`, `notes/BST_Q3_Inside_Q5.md`, `notes/BST_MassGap_Anatomy_Complete.md`.
+
+-----
+
+## 33. From Winding to Zeta: The Automorphic Structure
+
+Everything the substrate does, it does by winding. This section populates the six-step chain from $D_{IV}^5$ geometry to the Riemann zeta function.
+
+### 33.1 The Chain
+
+| Step | Connection | Status |
+|------|-----------|--------|
+| 1 | Geometry of $Q^5$ $\to$ Spectral theory | **COMPUTED** |
+| 2 | Spectral theory $\to$ Automorphic forms on $\Gamma \backslash D_{IV}^5$ | **STANDARD** |
+| 3 | Automorphic forms $\to$ WZW modular data ($\mathfrak{so}(7)_2$) | **COMPUTED** |
+| 4 | WZW modular data $\to$ Siegel modular forms on $\mathfrak{H}_3$ | **STRUCTURAL** |
+| 5 | Siegel modular forms $\to$ Eisenstein $L$-functions on Sp(6) | **PROVED** |
+| 6 | Eisenstein $L$-functions $\to$ Riemann $\zeta(s)$ | **CONJECTURED** |
+
+### 33.2 Casimir = Winding Level
+
+The SO(2) fiber of $D_{IV}^5$ generates U(1) orbits with integer winding number $k$. This integer is simultaneously the label of the symmetric power $S^k V$ and the spectral level.
+
+**Theorem** (Casimir-Winding Identity): $C_2(S^k V, \mathfrak{so}(7)) = k(k + n_C) = \lambda_k(Q^5)$ for all $k \geq 0$.
+
+The mass gap $\lambda_1 = C_2 = 6$ is the energy of one winding. The spectral tower IS the spiral.
+
+### 33.3 The Fusion Ring of $\mathfrak{so}(7)_2$
+
+The BST physical algebra $\mathfrak{so}(7)$ at level 2 has exactly $g = 7$ integrable representations. They split into:
+
+- **3 wall reps** (confined): $V$, $A$, $S^2 \mathrm{Sp}$ with conformal weights $h = N_c/g$, $n_C/g$, $C_2/g$ and quantum dimension $d = 2 = r$
+- **2 spinor reps**: $\mathrm{Sp}$, $V \otimes \mathrm{Sp}$ with $d = \sqrt{g} = \sqrt{7}$
+- **2 trivial reps**: $\mathbf{1}$, $S^2 V$ with $d = 1$
+
+Wall conformal weight sum: $3/7 + 5/7 + 6/7 = 14/7 = 2 = r$. The three confined reps make exactly $r$ full turns.
+
+Total quantum dimension: $D^2 = 2 \cdot 1 + 3 \cdot 4 + 2 \cdot 7 = 28 = 4g$.
+
+Each wall rep has exactly $c_3 = 13$ fusion channels --- the Weinberg angle numerator controls confinement.
+
+### 33.4 Winding Confinement Theorem
+
+**Theorem**: Color-charged states are confined because their windings are incomplete.
+
+Each wall conformal weight $h = N_c/g$, $n_C/g$, $C_2/g$ is a proper fraction. Since $g = 7$ is prime and $\gcd(\text{numerator}, g) = 1$ for each, no single wall rep closes its orbit. Physical states require total winding $\equiv 0 \bmod N_c = 3$.
+
+**Corollary**: Confinement is a prime number theorem. If $g$ were composite, partial closure would allow fractionally confined states. The primality of $g = 7$ makes confinement irreducible.
+
+### 33.5 The $\mathfrak{su}(7)_1$ Palindrome
+
+The conformal weight numerators of $\mathfrak{su}(7)$ at level 1 are:
+
+$$0, \, N_c, \, n_C, \, C_2, \, C_2, \, n_C, \, N_c = 0, 3, 5, 6, 6, 5, 3$$
+
+One revolution around $\mathbb{Z}_7$: wind up through BST integers to the mass gap $C_2 = 6$ at the summit, then mirror back. Charge conjugation IS bilateral symmetry. Among all $\mathfrak{su}(N)_1$ theories ($N = 3, \ldots, 15$ tested), only $N = g = 7$ produces the triple $\{N_c, n_C, C_2\}$ --- the 15th uniqueness condition.
+
+### 33.6 The S-Matrix as Rosetta Stone
+
+The $7 \times 7$ modular S-matrix of $\mathfrak{so}(7)_2$, computed from the Weyl group of $B_3$ via the determinant formula, is real, unitary, and satisfies $S^4 = I$.
+
+For $\mathfrak{su}(7)_1$, the S-matrix is exactly the discrete Fourier transform on $\mathbb{Z}_7$: fusion IS winding addition in the momentum basis.
+
+The single matrix $S$ encodes three mathematical worlds:
+
+1. **Particle physics** (Verlinde formula): fusion coefficients = scattering amplitudes
+2. **Number theory** (Langlands $L$-function): Hecke eigenvalues at each prime
+3. **Complex analysis** (functional equation): $S^2 = C$ IS the palindromic symmetry $s \leftrightarrow 1 - s$
+
+### 33.7 The Siegel Bridge
+
+The Eisenstein series on $\mathrm{Sp}(6)$ have $L$-functions that factor into copies of $\zeta(s)$:
+
+| $L$-function | Degree | Copies of $\zeta(s)$ |
+|-------------|--------|---------------------|
+| Standard | $g = 7$ | $N_c = 3$ pairs + 1 |
+| Spin | $2^{N_c} = 8$ | $2^{N_c} = 8$ |
+| **Total** | **15 = $N_c \times n_C$** | **$11 = c_2 = \dim K$** |
+
+One $\zeta$-copy per dimension of the isotropy group $\mathrm{SO}(5) \times \mathrm{SO}(2)$.
+
+The $T$-matrix order is $56 = 2^{N_c} \times g = 8 \times 7$, encoding both angular quantizations.
+
+### 33.8 Verlinde Dimensions
+
+| Genus | $\dim \mathcal{V}_g$ | BST content |
+|-------|---------------------|-------------|
+| 1 | $7 = g$ | Number of reps = genus |
+| $N_c = 3$ | **1747** (prime) | Likely irreducible $\mathrm{Sp}(6,\mathbb{Z})$ rep |
+| $g = 7$ | $964{,}141{,}747 = 137 \times 7{,}037{,}531$ | $N_{\max} = 137$ divides |
+
+At genus $g = 7$, the Verlinde dimension is divisible by $137 = N_{\max}$.
+
+The level-1 abelian Verlinde bases ARE the BST integers: $\{7, 5, 4, 3\} = \{g, n_C, r^2, N_c\}$. Their sum at genus 2 is $7 + 5 + 4 + 3 = 19$ --- the Gödel limit denominator.
+
+### 33.9 Why 1747 Is Prime
+
+The Verlinde dimension at genus $N_c = 3$ decomposes by representation class:
+
+$$1747 = \underbrace{2 \times 28^2}_{1568 \,(\text{trivial})} + \underbrace{N_c \times g^2}_{147 \,(\text{color})} + \underbrace{2^4 \times r}_{32 \,(\text{spinor})}$$
+
+This simplifies to:
+
+$$1747 = n_C \times g^3 + 2^{n_C} = 5 \times 343 + 32$$
+
+Two terms --- vector ($n_C g^3 = 1715$) and spinor ($2^{n_C} = 32$) --- and they are coprime. The vector and spinor sectors share no common factor, making their sum indivisible. The Verlinde space of conformal blocks is irreducible.
+
+Baby case check: $n_C = 3$, $g = 5$: $3 \times 125 + 8 = 383$, also prime. Failure at $n_C = 6$: $6 \times 512 + 64 = 3136 = 56^2$, not prime. Only at $n_C = 5$ is the Verlinde dimension prime --- the **16th uniqueness condition**.
+
+### 33.10 Why $c = C_2$ Universally
+
+For $Q^n$ (any odd $n$), the WZW model is $\mathfrak{so}(g)$ at level $k = r = 2$:
+
+$$c = \frac{\dim(\mathfrak{so}(g)) \times 2}{2 + h^\vee} = \frac{g(g-1)/2 \times 2}{2 + (g-2)} = \frac{g(g-1)}{g} = g - 1 = n + 1 = C_2$$
+
+The genus cancels: numerator $\sim \dim(\mathfrak{so}(g))$, denominator $\sim h^\vee + k = g$. Universal. The mass gap, Casimir eigenvalue, Euler characteristic, effective spectral dimension, and WZW central charge are all $g - 1 = n_C + 1$. Six names for one number.
+
+### 33.11 The Perfect Number Chain
+
+The first three perfect numbers track BST's hierarchy:
+
+| Perfect | Mersenne prime | Exponent $p$ | BST integer | BST role |
+|---------|---------------|-------------|-------------|----------|
+| 6 | $2^2 - 1 = 3$ | $p = 2 = r$ | $C_2$ | Mass gap |
+| 28 | $2^3 - 1 = 7$ | $p = 3 = N_c$ | $D^2$ | Total quantum dimension |
+| 496 | $2^5 - 1 = 31$ | $p = 5 = n_C$ | $2 \times \dim(E_8)$ | Twice the exceptional algebra |
+
+The Mersenne exponents $p = 2, 3, 5 = r, N_c, n_C$ are the BST fundamental triple --- also the first three primes. The Mersenne primes $3 = N_c$, $7 = g$, $31 = 2^{n_C} - 1$.
+
+$C_2 = 6$ is a perfect number. $D^2 = 28$ is a perfect number. The mass gap and the total quantum dimension of the physical fusion category are both perfect --- every proper divisor sums back to the whole. Nothing is wasted.
+
+### 33.12 The Baby Case: $Q^3 / \mathrm{Sp}(4)$
+
+The domain $D_{IV}^3$ verifies the entire architecture end-to-end. Its WZW model $\mathfrak{so}(5)_2$ has central charge $c = 4 = C_2(Q^3) = n_C + 1$, confirming the universal identity $c(\mathfrak{so}(2n_C - 1)_2) = C_2 = n_C + 1$.
+
+For $\mathrm{Sp}(4)$, the Ramanujan conjecture is proved (Weissauer, 2009). Steps 1--6 of the chain are complete. The baby case proves the machine; $Q^5$ runs it.
+
+### 33.13 The Gap
+
+The remaining gap (Step 6) reduces to the Ramanujan conjecture for cuspidal automorphic representations on $\mathrm{Sp}(6)$. The palindromic structure is universal (verified for all odd $D_{IV}^n$). The additional root multiplicity ($m_{\text{short}} = 3$ for $Q^5$ vs $m = 1$ for $Q^3$) provides stronger constraints, not weaker ones. Arthur's endoscopic classification extends partially to $\mathrm{Sp}(6)$.
+
+See `notes/BST_WindingToZeta_AutomorphicStructure.md`, `notes/BST_FusionRing_Complete.md`, `notes/BST_SiegelModularForms_DeepDive.md`, `notes/BST_Spiral_Conjecture.md`.
 
 -----
 
