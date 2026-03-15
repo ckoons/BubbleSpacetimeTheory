@@ -297,7 +297,31 @@ This is why confinement is exact and not approximate. It is not a dynamical phen
 
 -----
 
-## 10. Conclusion
+## 10. Irreducible Complexity = ln 2
+
+The modular tensor category of the BST quantum group ($\mathfrak{so}(7)$ at level 2) has total quantum dimension $D^2 = 4$, with exactly 4 non-wall primary fields, each of quantum dimension 1. The fusion ring is $\mathbb{Z}_2 \times \mathbb{Z}_2$ — the same group that stabilizes the $[[7,1,3]]$ Steane code.
+
+$$D = 2 = r \quad \text{(rank of } D_{IV}^5 \text{ as symmetric space)}$$
+
+The topological entanglement entropy is:
+
+$$\gamma = \ln D = \ln 2$$
+
+This is the **irreducible complexity of the universe** — the minimum information cost of the substrate's existence, measured in nats. One bit. Below $\ln 2$, there is nothing to distinguish from vacuum.
+
+**Universality theorem:** $D^2 = 4$ for ALL $B_N$ at level 2, regardless of rank. The proof: at level $\ell = 2$, each $B_N$ algebra has exactly 4 non-wall integrable highest weights, each with quantum dimension $|\dim_q| = 1$, giving $D^2 = \sum |\dim_q|^2 = 4$. This is not a numerical coincidence but a structural theorem about B-type quantum groups at the minimal non-trivial level.
+
+The Gödel Limit says the universe can never know more than $19.1\%$ of itself. The topological entanglement entropy says the minimum cost of existing is $\ln 2$ nats. Upper bound and lower bound on the same information budget:
+
+$$\ln 2 \leq \text{complexity} \leq f \times \ln N_{\max}$$
+
+One bit to exist. One-fifth to know.
+
+These are not independent bounds — they are the same error correction budget seen from opposite ends. The $\sim 81\%$ dark sector is the redundancy overhead required by Shannon for reliable transmission through a channel with noise floor $C_2 = 6$. The irreducible unit of that overhead is $\ln 2$ — one binary parity decision. See `BST_IrreducibleComplexity_Ln2.md` §7.
+
+-----
+
+## 11. Conclusion
 
 $Q^5$ is a code machine. It produces:
 - All perfect binary codes (trivial, Hamming, Golay) from its spectral data

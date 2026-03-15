@@ -782,3 +782,215 @@ Written: notes/BST_Isotropy_Proof.md. PDF built by Keeper. README/WorkingPaper u
 - Baby case D_IV³ ≅ Sp(4) is explicit test ground (all tools known)
 - Companion notes table, 7 toy chain, BST integer verification table
 - Five languages agree: algebra, geometry, analysis, arithmetic, combinatorics
+
+### Lyra: Maass-Selberg Constraint + Sp(6) Representation Ring (March 16)
+- **Toy 166**: play/toy_maass_selberg_constraint.py — off-line zeros break trace formula
+- **Toy 167**: play/toy_sp6_representation_ring.py — Weyl dimension formula for Sp(6) = L-group
+- **Maass-Selberg**: |M(w₀,it₁,it₂)| = 1 on unitary axis; off-line zeros create poles → residual eigenvalues NOT in {k(k+5)} → trace formula inconsistency → CONTRADICTION
+- **Sp(6) representation ring**: 64=codons is dim(2,1,0), 126=N_c×42 is Sym⁴(6), 378=d₅ is dim(3,2,2)
+- 42 and 137 transcend the representation ring (Chern/harmonic territory)
+- Weyl formula bug: ω₂,ω₃ showing dim 0 (needs fix from Elie)
+
+### Lyra: Theta Correspondence — P(1) = 42 Is the Bridge (March 16)
+- **Toy 168**: play/toy_theta_correspondence.py — **MAJOR DISCOVERY**
+- **Note**: notes/BST_ThetaCorrespondence_P1_42.md
+- **THE DISCOVERY**: P(1) = 42 = g × C₂ = dim(std_O) × dim(std_Sp) = dimension of the theta correspondence
+- The dual pair (O(5,2), Sp(6,ℝ)) sits inside Sp(84,ℝ) via ℝ⁷ ⊗ ℝ⁶ = ℝ⁴²
+- **dim O(5,2) = dim Sp(6) = 21** because g = 2N_c + 1 (self-duality condition)
+- **Rank = theta duality**: r = n_C − N_c = 2 from g = 2n_C − 3 = 2N_c + 1
+- **Fill fraction 1/π ANSWERED** (Open Problem #7 CLOSED): Gaussian vacuum ψ = exp(−π|x|²) → f = (N_c/n_C)/π = 3/(5π)
+- **Vacuum doesn't lift**: L(1/2, π₀) = 0 because ζ(−2) = 0 (trivial zero) → θ(π₀) = 0
+- **Doubled Sp(24)**: Kudla-Rallis doubling → dim(std) = 24 = λ₃ = Leech lattice
+- Heisenberg algebra dim = 85 = n_C × 17 (spectral prime)
+- Conservation law n₀ + n₀' = g = 7 for first occurrence indices
+
+### Lyra: Arthur Packets — Particle Spectrum from Partitions of C₂ (March 16)
+- **Toy 169**: play/toy_arthur_packets.py — **MAJOR DISCOVERY**
+- **Note**: notes/BST_ArthurPackets_ParticleSpectrum.md
+- **p(C₂) = p(6) = 11 = c₂ = dim K**: number of A-parameter types = second Chern number!
+- **[6] = vacuum** carries SL(2) weights (5, 3, 1) = (n_C, N_c, 1)
+- **[3,3] = mesons** (color-anticolor), **[3,2,1] = baryons** (unique maximal-diversity partition)
+- **[2,2,2] = three families**: C₂/r = N_c = 3 generations; CKM from O(3) centralizer
+- **[4,2] → [3,2,1] = electroweak breaking as partition refinement**
+- **Seesaw identity**: λ₁ = C₂ = dim(std of L-group); spectral gap = fundamental L-group dimension
+- Refinement lattice of partitions = phase diagram of the universe
+- Maximum depth from [6] to [1⁶] = n_C steps
+
+### Lyra: Partition Function Map — p(BST) = BST (March 16)
+- **Toy 170**: play/toy_partition_function_map.py — **STRIKING PATTERN**
+- **EIGHT exact BST→BST matches**: p(1)=1, p(2)=2, p(3)=3, p(5)=7, p(6)=11, p(7)=15, p(9)=30, p(11)=56
+- **Fixed points {1, 2, 3} = {trivial, r, N_c}** — elementary BST integers are partition-fixed
+- **Chains**: n_C → g → N_c×n_C (3 hits); C₂ → c₂ → Sym³(6) (3 hits)
+- **Ramanujan congruences use {5, 7, 11} = {n_C, g, c₂}** — the three BST chain integers!
+- **τ(n_C) = τ(5) = 4830 = r × N_c × n_C × g × 23** — ALL four principal BST integers × Golay prime
+- **τ(3) = 252 = C(2n_C, n_C)** — central binomial at dimension
+- **p(10) = 42 = P(1)** at k = 2n_C = real dimension of Q⁵!
+- d₁₀ = 5005 = n_C × g × c₂ × c₃ (all four odd Chern numbers)
+- Leech kissing number 196560 = 2⁴ × N_c³ × n_C × g × c₃
+- d₁/p₁ = 7 = g (spectral multiplicity / partition = genus)
+- 1/24 exponent in η(τ) = 1/λ₃ (Golay/Leech number)
+
+### Lyra: Quantum Groups — BST = Level-2 WZW of so(7) (March 16)
+- **Toy 171**: play/toy_quantum_group.py — **THE DEEPEST DISCOVERY**
+- **Note**: notes/BST_WZW_CentralCharge.md
+- **c_WZW(so(7), level 2) = 2×21/(2+5) = 42/7 = P(1)/g = C₂ = 6 = MASS GAP!!!**
+- **THE CONSECUTIVE TRIPLE**: (n_C, C₂, g) = (h∨, h∨+1, h∨+2) = (5, 6, 7)
+- BST is built on THREE CONSECUTIVE INTEGERS: the dual Coxeter number and its two successors
+- h∨(B₃) = 2N_c − 1 = n_C = 5; unique integer c at level 2 (42/7 = 6)
+- **5 anyons at level 2** = n_C integrable representations; D² = 14 = n_C² − c₂
+- **C₂(std of so(7)) = 6 = mass gap**: Casimir eigenvalue of standard rep = mass gap
+- Conformal weight h(std) = N_c/g = 3/7 at the physical level
+- Level 2 modular S-matrix involves sin(nπ/7) = heptagonal geometry
+- Level 1 → q^{C₂}=1, Level 2 → q^g=1, Level 3 → q^{2^{N_c}}=1, Level 6 → q^{c₂}=1
+- EVERY BST-special root = a level of so(7)!
+- 5 perspectives on (5,6,7): Chern, theta, Coxeter, WZW, partition function
+
+### Lyra: SM from Sp(6) Branching (March 16)
+- **Toy 173**: play/toy_sm_branching.py — Standard Model as L-group decomposition
+- 6 → 3₊₁ + 3̄₋₁ (quarks/antiquarks from standard rep)
+- 21 → 8₀ + 1₀ + 6₊₂ + 6̄₋₂ (adjoint); neutral sector = 9 = c₄
+- Λ³(6) = 20 = amino acids; Σ Λ^k = 64 = codons = 2^{C₂}
+- [4,2] Arthur parameter = Sp(4)×Sp(2) branching = electroweak
+- sin²θ_W = c₅/c₃ = 3/13 (0.2% from experiment)
+- Non-spinor Casimir sum = 0+6+10+12+14 = 42 = P(1) (algebraic, includes wall reps)
+
+### Lyra: Baby D_IV³ Complete Dictionary (March 16)
+- **Toy 174**: play/toy_baby_langlands.py — Universal vs n=5 specific separation
+- **Note**: notes/BST_BabyCase_Q3_Dictionary.md
+- Q³ = SO₀(3,2)/(SO(3)×SO(2)) = Sp(4,ℝ)/U(2) = Siegel H₂ (exceptional isomorphism)
+- BST integers: n_C=3, N_c=2, r=1, C₂=4, g=5, c₁=3, c₂=4, c₃=2, P(1)=10
+- **UNIVERSAL** (all Q^n): c_WZW = C₂, λ₁ = C₂, (n_C,C₂,g) consecutive, dim K = c₂
+- **n=5 SPECIFIC**: Ramanujan moduli = {n_C,g,c₂}, τ(n_C) has all BST primes
+- **SURPRISE**: p(C₂) = c₂ holds for BOTH Q⁵ (p(6)=11) AND Q⁷ (p(8)=22)
+- Ramanujan shifts (4,5,6) = (C₂(Q³), n_C(Q⁵), C₂(Q⁵)) — interpolation!
+- **CORRECTION**: 7 integrable reps at level 2 for B₃ (not 5); 3 wall + 4 non-wall
+
+### Lyra: Level-Rank Duality and WZW Diamond (March 16)
+- **Toy 175**: play/toy_level_rank_duality.py — The BST WZW network
+- **Note**: notes/BST_LevelRankDuality_WZWDiamond.md
+- **CONSECUTIVE TRIPLE FROM THREE WZW MODELS**:
+  - so(5)₃ (level-rank dual): c = 5 = n_C
+  - so(7)₂ (physical): c = 6 = C₂
+  - sp(6)₂ (L-group): c = 7 = g
+- **LANGLANDS CENTRAL CHARGE RECIPROCITY**: c(so(7)₂) × c(sp(6)₂) = 6 × 7 = 42 = P(1)
+  - Holds ONLY for N_c = 3! **10th uniqueness condition for BST**
+  - Both algebras have dim = 21, different h∨ (5 vs 4), numerator 42 divides as 42/7 and 42/6
+- **su(N_c)_{n_C} gives c = n_C ONLY for N_c = 3** — 9th uniqueness (N_c²−3N_c = 0)
+- **RG cascade**: c = 13 → 11 → 9 → 7 → 6 → 5 → 3 → 2 → 1 through ALL BST integers
+- su(5)₃ gives c = 9 = c₄; sp(6)₃ gives c = 9 = c₄ (A-type and C-type meet)
+- 8 models with c = n_C = 5: triple point in WZW landscape
+
+### Lyra: Verlinde Fusion Ring (March 16)
+- **Toy 176**: play/toy_verlinde_fusion.py — Modular tensor category of so(7)₂
+- **4 non-wall primaries** for B₃ level 2: vacuum, spinor, vector-spinor, sym²(vector)
+- **3 wall primaries** (dim_q = 0): vector, adjoint, sym²(spinor) — 3 = N_c!
+- **7 = 4 + 3 = C₂(Q³) + N_c**: total integrable reps = genus
+- ALL non-wall quantum dimensions |d_q| = 1 → **ABELIAN MTC**
+- **D² = 4 = C₂(Q³)** — total quantum dimension = baby mass gap (UNIVERSAL for B_N level 2)
+- **γ = ln(D) = ln(2) = ln(r)** — topological entanglement entropy = ln(rank excess)
+- Fusion ring ≅ Z₂ × Z₂ — connects to proton as [[7,1,3]] Steane code
+
+### Lyra: Siegel Modular Forms and ζ-Bridge (March 16)
+- **Toy 177**: play/toy_siegel_modular.py — Connects Q³ = Siegel H₂ to Riemann ζ
+- **Eisenstein factorization**: L(s, E_k, std) = ζ(s) × ζ(s-k+1) × ζ(s-k+2) for Sp(4)
+- **L-function degrees**: std = 7 = g, spin = 8 = 2^{N_c}, adjoint = 21 = dim G
+- **N_c + 2^{N_c} = 11 = c₂ = dim K**: total ζ-copies = isotropy dimension (verified Q⁵, Q⁹)
+- **6-step RH chain**: Chern → Selberg → L-functions → ζ-factors → RH
+
+### Lyra: Conformal Embeddings and Coset Cascade (March 16)
+- **Toy 178**: play/toy_conformal_embedding.py — Answers Elie's su(3)₉ ↪ so(7)₂ question
+- **Note**: notes/BST_ConformalEmbeddings_CosetCascade.md
+- **su(3)₉ does NOT embed conformally into so(7)₂**: unique embedding has index 1 → level 2 → c = 16/5 ≠ 6
+- **★ COSET DISCOVERY**: sp(6)₂/su(3)₁ has c = 5 = n_C (L-group modded by color = complex dimension)
+- Baby case: sp(4)₂/su(2)₁ has c = 3 = n_C(Q³)
+- **7 WZW models with c = C₂ = 6**: so(7)₂, su(3)₉, su(7)₁, so(12)₁, sp(8)₁, E₆₁, G₂₃ — seven = g!
+- **ℓ+h∨ values encode BST**: {6,7,8,11,12,13} = {C₂, g, 2^{N_c}, c₂, 2C₂, c₃}
+- Coset cascade: so(7)₂/G₂₂ = tri-critical Ising (c=4/3); so(7)₂/so(5)₂ = r (c=2)
+- Conformal embedding so(7)₅ ⊂ so(21)₁ at c = 21/2
+
+### Lyra: Coset Uniqueness Theorem (March 16)
+- **Toy 179**: play/toy_coset_uniqueness.py — The (N-2)(N-3) = 0 theorem
+- **★ THEOREM**: sp(2N)₂/su(N)₁ has c = n_C iff (N-2)(N-3) = 0, i.e., N = 2 or 3
+  - Proof: 3(N²+1)/(N+3) = 2N-1 gives N²-5N+6 = 0 = (N-2)(N-3)
+  - Discriminant = 1 (simplest perfect square) → consecutive integer roots
+- **Baby self-duality**: so(5) ≅ sp(4), c(G)=c(^LG)=4, consecutive triple degenerates to (3,4,4)
+- Breaking self-duality → N=3 → Standard Model (**12th uniqueness condition**)
+- **Three quadratics select N_c = 3**: N(N-3)=0, (N-2)(N-3)=0, and Langlands product
+
+### Lyra: Anatomy of the Mass Gap (March 16)
+- **Toy 180**: play/toy_massgap_anatomy.py — Internal structure of c = C₂ = 6
+- **DISCRIMINANT-1 THEOREM**: Δ = [2N(N-2)/(N+3)]² = 1 iff N = 3 uniquely (**13th uniqueness**)
+  - C₂ and g are roots of x² - c₃x + P(1) = 0, i.e., x² - 13x + 42 = 0
+  - c₃² - 4P(1) = 169 - 168 = 1 → roots are consecutive integers
+  - N=2: Δ=0 (self-dual), N=3: Δ=1 (threshold), N≥4: Δ>1 (too separated)
+- **c(G) + c(^LG) = c₃ = 13**: sum of Langlands pair central charges = 3rd Chern class
+- **Mass gap decompositions**: 6 = 5+1 (geometry+existence), 2+4 (rank+baby), 4/3+14/3 (Ising+G₂)
+- **Σ(ℓ+h∨) = 64 = 2^{C₂}**: sum over all c=6 models
+- Standard Model at threshold of Langlands self-duality breaking
+
+### Lyra: The c = 6 Network (March 16)
+- **Toy 181**: play/toy_c6_network.py — Seven c=6 models and their arithmetic
+- **Σ(ℓ+h∨) = 64 = 2^C₂**: total shifted level across all seven models
+- **Σ(ℓ·dim) = 384 = 2^g × N_c**
+- **LCM = 24024 = 2^N_c × N_c × g × c₂ × c₃**: every Chern prime appears
+- **91 total integrable reps = g × c₃ = T_{c₃} = C(2g, 2)**
+- so(7)₂ and G₂₃ share quantum parameter ζ₇ (heptagonal)
+- E₆₁ has ℓ+h∨ = 13 = c₃; so(12)₁ has ℓ+h∨ = 11 = c₂
+
+### Lyra: The Exceptional Chain (March 16)
+- **Toy 182**: play/toy_exceptional_chain.py — E₆-E₇-E₈ at level 1
+- **Note**: notes/BST_ExceptionalChain_c6Network.md
+- **Note**: notes/BST_Discriminant1_ConsecutiveTheorem.md
+- **E₆-E₇-E₈ TRIPLE**: c = (6,7,8) = (C₂, g, 2^N_c); sum = 21 = dim(B₃); product = 336 = 8 × 42
+- **TWO ROUTES TO MASS GAP**: IR (level 2): 5→6→7; UV (level 1): 6→7→8. Overlap at (6,7)
+- **Deligne series SKIPS N_c=3, n_C=5**: only hits C₂+ (these are infrared integers from level 2)
+- **dim(E₆) = C₂ × c₃ = 78**, dim(E₇) = g × 19 = 133, dim(E₈) = 2^N_c × (2^n_C - 1) = 248
+- **Denominator sum**: 13 + 19 + 31 = 63 = 2^C₂ - 1
+- **27 of E₆ = d₂(Q⁵)**: GUT fundamental = BST spectral multiplicity
+
+### Lyra: E₆-Spectral Bridge (March 16)
+- **Toy 183**: play/toy_e6_spectral_bridge.py — 14th uniqueness condition
+- **Note**: notes/BST_MassGap_Anatomy_Complete.md (consolidated)
+- **★ d₂ = N_c^{N_c} = 27 UNIQUE TO Q⁵**: 14th uniqueness condition
+  - Equation: 2N+3 = N^{N-1} has unique positive integer solution N = 3
+  - General: d₂(Q^n) = (n+1)(n+4)/2; polynomial grows slower than exponential except at N=3
+- **Bulk-boundary dictionary**: level 1 = UV (bulk), level 2 = IR (boundary)
+  - Holographic integers: C₂ and g present at both levels
+  - Infrared-only: N_c = 3 and n_C = 5 (level 2 only)
+  - Ultraviolet-only: 2^{N_c} = 8 (level 1 only)
+- **Spectral multiplicities**: d₀=1, d₁=7=g, d₂=27=N_c^{N_c}=dim(fund E₆), d₃=77=g×c₂, d₄=182=r×g×c₃
+
+### Lyra: Spectral Partial Sums Master Formula (March 16)
+- **Toy 184**: play/toy_spectral_partial_sums.py — Master counting formula
+- **Note**: notes/BST_SpectralPartialSums_MasterFormula.md
+- **★ MASTER FORMULA**: S(K) = C(K+n_C, n_C) × (K+N_c)/N_c (universal for all Q^n)
+  - Product form: S(K) = (K+1)(K+2)(K+3)²(K+4)(K+5)/360
+  - 360 = n_C! × N_c = C₂!/r (two BST factorizations of same normalization)
+  - (K+3)² = double zero at -N_c: color fingerprint in spectral counting
+- **Verified on Q³, Q⁵, Q⁷**: formula is universal for D_IV^n
+- **Special values**: S(1)=8=2^{N_c}, S(2)=35=n_C×g, S(9)=8008=2^{N_c}×g×c₂×c₃
+- **Asymptotics**: S(K) ~ K^{C₂}/(C₂!/r) — mass gap controls polynomial growth
+- **Modular structure**: Chern primes first divide S(K) at K=2 (7), K=6 (11), K=8 (13); periodic thereafter
+
+### Lyra: Alternating Sums and the Chern Sieve (March 16)
+- **Toy 185**: play/toy_alternating_sums.py — Multiplicity decomposition and sieve
+- **★ MULTIPLICITY DECOMPOSITION**: d_k = C(k+5,5) + C(k+4,5) (PROVED algebraically)
+  - Clean proof via Pascal's rule: = C(k+4,4) × (2k+5)/5 = d_k ∎
+- **★ ALTERNATING SUM**: A(K) = (-1)^K C(K+n_C, n_C) (PROVED by telescoping/induction)
+- **★ CHERN SIEVE**: S(K)/|A(K)| = (K+N_c)/N_c (simplest linear function)
+  - Alternating sum extracts binomial backbone; cumulative sum adds color factor
+- **|A(10)| = 3003 = N_c × g × c₂ × c₃**: full Chern prime product at K=10
+- **Chern prime thresholds in |A(K)|**: prime p enters at K = p - n_C
+- **Generating function**: H(-x) = (1-x)/(1+x)⁶; x → -x map produces telescoping
+- **Universal**: verified on Q³, Q⁵, Q⁷, Q⁹
+- dim(E₇) - dim(E₆) = 55 = C(c₂, 2) = T_{10}
+
+### Lyra: The Spectral Cascade — Simplification (March 16)
+- **Toy 186**: play/toy_spectral_cascade.py — Consolidation of Toys 178-185
+- **★ SPECTRAL CASCADE = RG CASCADE SEEN FROM BELOW**: what RG strips going down, spectral counting accumulates going up
+- **Color fingerprint UNIVERSAL**: (K+N_c) appears SQUARED in product form for every Q^n
+  - SU(N_c) leaves a double zero at K = -N_c in the spectral counting
+- **360 = four BST decompositions**: n_C!×N_c = C₂!/r = 2^{N_c}×N_c²×n_C = degrees in circle
+- **3003 appears everywhere**: |A(10)|, lcm/8, C(15,5), N_c×g×c₂×c₃ — at K=10=dim(Q⁵)
+- **Mod structure CORRECTED**: Chern primes divide S(K) periodically (not monotonically); earlier claims wrong
+- **Session summary**: 9 toys (178-186), 6 uniqueness conditions (#9-14), master formula, Chern sieve, spectral cascade
