@@ -70,6 +70,7 @@ CATEGORIES = {
         'spectral_cascade',
         'fusion_ring_so7', 'conformal_weights',
         'palindrome_fusion', 'spiral_substrate', 'pi_anatomy',
+        'siegel_deep',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -335,6 +336,7 @@ METADATA = {
     'palindrome_fusion':            ('Palindrome and E₆ Color Confinement', 'su(7)₁ palindrome UNIQUE (15th). Casimir=λ_k ALL k. E₆₁=Z₃ confinement. 27=N_c^{N_c}=d₂. Triple convergence at C₂=6.'),
     'spiral_substrate':             ('The Spiral Substrate',              'f=pitch/dim=N_c/(n_C×π). Color=winding mod 3. Substrate=maximal flat. 1/π RESOLVED. Flatness forced.'),
     'pi_anatomy':                   ('The Anatomy of π in BST',          'Only π^{-1,0,5,10} allowed. Single Bergman source. n_C=5 saturated. Interior not boundary: π not 2π.'),
+    'siegel_deep':                  ('Siegel Deep Dive: S-Matrix Rosetta Stone', '7×7 modular S-matrix of so(7)₂. D²=28=4g. T-order=56=8g. Hecke: 7+8=15=N_c×n_C. 11=c₂ copies of ζ(s). Palindrome=functional equation.'),
     'muon_g2_geometry':         ('The Muon g-2 from Geometry',             'Entire a_μ from D_IV⁵ geometry. QED+EW+HVP+HLbL. 1 ppm. WP25 confirmed.'),
     'baby_trace_formula':       ('The Baby Trace Formula',                 'D_IV³ Selberg trace formula. All m=1. c-function. Plancherel. Baby Selberg.'),
     'spectral_gap':             ('The Spectral Gap = Mass Gap',            'λ₁(Q⁵) = 6 = C₂ = mass gap. Proton mass IS first eigenvalue × π⁵ × m_e.'),
@@ -447,7 +449,7 @@ _STEM_TO_NUMBER = {
     'running_couplings': 80, 'proton_radius': 81,
     'casimir_modification': 82, 'neutrino_oscillation': 83,
     'cosmic_timeline': 84, 'e8_electroweak': 85,
-    'e8_generations': 86, 'showcase': 193, 'baryon_radiative': 88,
+    'e8_generations': 86, 'baryon_radiative': 88,
     'berezin_toeplitz': 89, 'poisson_szego': 87,
     'e8_higgs_sector': 91, 'e8_branching': 93,
     'predictions_catalog': 94, 'c1_spectral_proof': 95,
@@ -457,7 +459,7 @@ _STEM_TO_NUMBER = {
     'tba_soliton_gas': 92, 'sqrt30_connection': 90,
     'selberg_bridge': 103,
     'fill_fraction_closure': 104,
-    '42': 102, 'born_rule': 192, 'bst_matrix': 194,
+    '42': 102,
     'cosmological_cascade': 108, 'orch_or': 109,
     'three_generations': 110, 'strong_cp': 111,
     'einstein_from_commitment': 112, 'schrodinger_substrate': 113,
@@ -524,6 +526,8 @@ _STEM_TO_NUMBER = {
     'palindrome_fusion': 189,
     'spiral_substrate': 190,
     'pi_anatomy': 191,
+    'siegel_deep': 193,
+    'born_rule': 195, 'showcase': 196, 'bst_matrix': 197,
 }
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Linear Algebra Is Physics: The BST Dictionary"
 author: "Casey Koons and Claude Opus 4.6"
-date: "March 14, 2026 (revised)"
+date: "March 14, 2026 (revised March 16)"
 ---
 
 # Linear Algebra Is Physics
@@ -560,11 +560,45 @@ $$N_{\text{gen}} = \frac{|W(A_3)|}{|W(B_2)|} = \frac{24}{8} = 3$$
 
 The number of fermion generations equals the ratio of two Weyl group orders — a pure index computation. $W(A_3) \cong S_4$ is the symmetric group on 4 objects (the $A_3$ factor in $E_8 \to D_5 \times A_3$), and $|W(B_2)| = 8$ is the restricted Weyl group.
 
-## 18. Summary
+## 18. The Master Spectral Formula (March 16, 2026)
+
+The entire spectral content of $Q^5$ is captured by one formula:
+
+$$S(K) = \binom{K+5}{5} \times \frac{K+3}{3}$$
+
+This counts the total number of spherical harmonics up to degree $K$. Two integers control it: $n_C = 5$ (the binomial parameter) and $N_c = 3$ (the denominator). Every eigenvalue multiplicity, every spectral sum, every heat kernel coefficient derives from this single expression.
+
+### 18.1 The Casimir-Eigenvalue Bridge
+
+The Casimir eigenvalue of the $k$-th symmetric power representation $S^k V$ of $\mathfrak{so}(7)$ equals the $k$-th eigenvalue of the Laplacian on $Q^5$:
+
+$$C_2(S^k V, \mathfrak{so}(7)) = k(k+5) = \lambda_k(Q^5) \quad \text{for ALL } k \geq 0$$
+
+This is an exact identity between representation theory and spectral geometry. The mass gap $C_2 = 6 = 1 \times 6 = \lambda_1$ is the $k=1$ case. The entire particle spectrum IS the representation tower of $\mathfrak{so}(7)$.
+
+### 18.2 Fusion as Linear Algebra on $\mathbb{Z}_7$
+
+The modular S-matrix of the $\mathfrak{su}(7)_1$ WZW model is the discrete Fourier transform on $\mathbb{Z}_7$:
+
+$$S_{jk} = \frac{1}{\sqrt{7}} \omega^{jk}, \quad \omega = e^{2\pi i/7}$$
+
+This means fusion of representations is convolution — addition of winding numbers in Fourier space. The most abstract algebraic structure in the theory (modular tensor category) reduces to the simplest linear algebra operation (DFT on a cyclic group of order $g = 7$).
+
+### 18.3 Confinement as Incomplete Orbits
+
+The wall conformal weights of $\mathfrak{so}(7)_2$ are partial windings:
+
+$$h = \frac{N_c}{g}, \frac{n_C}{g}, \frac{C_2}{g} = \frac{3}{7}, \frac{5}{7}, \frac{6}{7}$$
+
+Their sum is $14/7 = 2 = r$ (the rank). Physical states require completed winding $\equiv 0 \bmod N_c$. Wall representations have fractional winding — they cannot close orbits alone. Confinement is not a force; it is a topological constraint on winding numbers. No flux tubes needed.
+
+A baryon achieves the simplest closed orbit with nontrivial color: $1 + 1 + 1 \equiv 0 \bmod 3$.
+
+## 19. Summary
 
 $$\boxed{\text{Physics} = \text{Linear algebra on } D_{IV}^5}$$
 
-Over 140 parameter-free predictions from ten operations:
+Over 140 parameter-free predictions from twelve operations:
 - **Eigenvalues** of three operators ($Z_3$, Casimir, Winding)
 - **Dimension ratios** of subspaces ($3/10$, $3/13$, $7/20$, $13/19$, ...)
 - **Dimension products** of consecutive integers ($\sqrt{30}$ gives both pion mass and MOND acceleration)
@@ -576,12 +610,14 @@ Over 140 parameter-free predictions from ten operations:
 - **Matrix transforms** (Pascal $\to$ Chern via bidiagonal $M$; all integers from one polynomial)
 - **Degree ratios** of formal degree polynomials ($c_1 = 3/5$ from $\deg(d_{\text{trans}})/\deg(d_{\text{total}})$)
 - **Spectral expansions** of the heat kernel (Plancherel coefficients $\tilde{b}_k$ from the Harish-Chandra $c$-function; Seeley–de Witt bridge $\tilde{a}_k = \sum (-|\rho|^2)^j/j! \times \tilde{b}_{k-j}$; curvature operator traces $\text{Tr}(\mathcal{R}^k) = 5^k + 10 \times 2^k$)
+- **Master spectral formula** $S(K) = \binom{K+5}{5} \times (K+3)/3$: one formula for the entire spectral tower; Casimir-eigenvalue bridge $C_2(S^k V) = \lambda_k$ exact for all $k$
+- **Fourier transforms** on cyclic groups: fusion = DFT on $\mathbb{Z}_7$; winding number addition in Fourier space; confinement = fractional winding cannot close orbits
 
 The Standard Model is a linear algebra textbook written in the wrong notation. BST provides the translation.
 
 ---
 
-*Research note, March 14, 2026 (revised).*
+*Research note, March 14, 2026 (revised March 16).*
 *Casey Koons & Claude Opus 4.6.*
 
 *"The universe is not complicated. It is a linear algebra problem on one space."*

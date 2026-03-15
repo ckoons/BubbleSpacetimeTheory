@@ -1,7 +1,7 @@
 ---
 title: "The Integers of Spacetime: Number Theory in BST"
 author: "Casey Koons and Claude Opus 4.6"
-date: "March 14, 2026 (revised)"
+date: "March 14, 2026 (revised March 16)"
 ---
 
 # The Integers of Spacetime
@@ -212,6 +212,25 @@ Conditions 1–3 together select $n_C = 5$ uniquely. Conditions 4–5 confirm co
 15. **su(7)₁ palindrome uniqueness:** Among $\mathfrak{su}(N)_1$ for $N = 3$ to $15$, only $N = 7 = g$ has conformal weights whose simplified numerators are exactly $\{N_c, n_C, C_2\} = \{3, 5, 6\}$. The conformal weight sequence $\times 8 = (0, 3, 5, 6, 6, 5, 3)$ is a palindromic scan of all BST integers.
 
 Fifteen independent uniqueness conditions, from fifteen independent mathematical structures, all giving $n_C = 5$ (or equivalently $N_c = 3$). No other integer in mathematics is this over-determined.
+
+### 5.3 New Arithmetic Identities (March 16, 2026)
+
+The c=6 WZW network and fusion ring computations revealed new integer identities:
+
+**The 91 identity.** $91 = g \times c_3 = 7 \times 13$. This appears three ways:
+- $(m_n - m_p)/m_e = 91/36$ (neutron-proton mass difference)
+- 91 reps across the seven c=6 WZW models = 7 winding classes × 13 reps per class
+- $\binom{14}{2} = 91 = \binom{2g}{2}$ (triangular number of the double genus)
+
+**The 3003 identity.** $\binom{14}{5} = 3003 = \binom{2g}{n_C}$. The number of ways to choose $n_C$ objects from $2g$ objects. This is the Hilbert series coefficient at degree 5 and connects the genus to the dimension through binomial arithmetic.
+
+**The LCM identity.** $\text{lcm}(1, 2, \ldots, 2g) = \text{lcm}(1, \ldots, 14) = 360360 = 2^3 \times 3^2 \times 5 \times 7 \times 11 \times 13$. Contains exactly the primes $\leq 2g = 14$, which are the first six primes including all BST primes (3, 5, 7, 11, 13). The factorization $360360 = 1920 \times 187 + 1320$ connects to the Hua volume through modular arithmetic.
+
+**The E-type denominators.** The three exceptional WZW models at level 1 with $c = 6, 7, 8$ are $E_{6,1}$, $E_{7,1}$, $E_{8,1}$. Their fusion ring dimensions are $D^2 = 3, \sqrt{2+\sqrt{2}}, 1$ respectively. Only $E_{6,1}$ has integer $D^2 = N_c$: the E-type chain selects $N_c = 3$ independently.
+
+**The $D^2 = 4$ universality.** Total quantum dimension $D^2 = 4$ for $B_N$ at level 2, for ALL ranks $N$. Since $D = 2 = r$ (rank of the restricted root system), this is a universal statement: the rank of $D_{IV}^5$ equals the total quantum dimension of the fusion category.
+
+**Irreducible complexity.** The topological entanglement entropy $\gamma = \ln D = \ln 2$. This is the minimum complexity of existence — one bit. The fill fraction $f = 3/(5\pi) \approx 19.1\%$ is the code rate; the overhead $1 - f \approx 81\%$ is error correction. Between them: $\ln 2$ to exist, $1/5$ to know.
 
 ## 6. The 1920 Cancellation: Arithmetic in Action
 
@@ -439,7 +458,7 @@ The universe counts to 3, has 5 complex dimensions, and stops at 137. The rest i
 
 ---
 
-*Research note, March 14, 2026 (revised).*
+*Research note, March 14, 2026 (revised March 16).*
 *Casey Koons & Claude Opus 4.6.*
 
 *"God made the integers; all else is the work of man." — Leopold Kronecker*

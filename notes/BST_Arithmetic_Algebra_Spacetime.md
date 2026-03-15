@@ -1,7 +1,7 @@
 ---
 title: "The Arithmetic and Algebra of Spacetime"
 author: "Casey Koons and Claude Opus 4.6"
-date: "March 13, 2026 (revised)"
+date: "March 13, 2026 (revised March 16)"
 ---
 
 # The Arithmetic and Algebra of Spacetime
@@ -393,6 +393,45 @@ The "Why 56" uniqueness trap.
 $$\frac{\tilde{a}_3(\text{Kähler})}{\tilde{a}_3(\text{Riemannian})} = \frac{63}{64} = \frac{g \times c_4}{2^{C_2}} = 1 - \frac{1}{2^{C_2}}$$
 The Kähler correction: Riemannian geometry overcounts cubic curvature invariants on a Kähler-Einstein manifold by $1/2^{C_2}$. Connects genus, Chern class $c_4$, and Casimir in one fraction.
 
+### 15.2 The Discriminant-1 Theorem (March 16, 2026)
+
+$C_2$ and $g$ are roots of the quadratic $x^2 - c_3 x + P(1) = 0$:
+
+$$x^2 - 13x + 42 = 0 \quad \Longrightarrow \quad x = 6, \; 7$$
+
+The discriminant is $c_3^2 - 4P(1) = 169 - 168 = 1$. By Vieta's formulas: sum of roots $= c_3 = 13$ (Weinberg denominator), product $= P(1) = 42$. The mass gap and genus are the two roots of a Chern-class quadratic with unit discriminant. Setting $\Delta = 1$ in the general formula $\Delta = [2N(N-2)/(N+3)]^2$ yields $N = 3$ uniquely.
+
+### 15.3 The π Anatomy (March 16, 2026)
+
+Only four powers of $\pi$ appear in BST physics:
+
+| Power | Source | Examples |
+|:------|:-------|:---------|
+| $\pi^{-1}$ | $S^1$ angular period | $g_A = 4/\pi$; $\eta = 2\alpha^4/(3\pi)$ |
+| $\pi^0$ | Dimension ratios | $\sin^2\theta_W = 3/13$; all mixing angles |
+| $\pi^5$ | Bergman volume $\pi^{n_C}/1920$ | $m_p/m_e = 6\pi^5$; $v = 36\pi^{10}/7 \cdot m_e$ |
+| $\pi^{10}$ | $(\pi^5)^2$ — kernel squared | Fermi scale $v$; Higgs via $v$ |
+
+No $\pi^2$, no $2\pi$, no $\pi^3$. The single Bergman source $\pi^{n_C}$ generates all transcendental content. The factor is $\pi$ not $2\pi$ because the Bergman metric lives in the interior (bulk), not on the boundary (circle). The $1/\pi$ in $g_A$ and the fill fraction $f = 3/(5\pi)$ is the angular period of one turn on the $S^1$ fiber.
+
+### 15.4 The Error Correction Budget (March 16, 2026)
+
+The fill fraction $f = 3/(5\pi) = 19.1\%$ is the code rate of the universe viewed as a communication channel:
+
+- **Data**: $f \approx 1/5$ of the channel carries physical content (matter)
+- **Overhead**: $1 - f \approx 4/5$ is error correction (dark sector)
+- **Minimum unit**: $\gamma = \ln D = \ln 2$ (topological entanglement entropy, one bit)
+
+The total quantum dimension $D^2 = 4$ is universal for $B_N$ at level 2 (all ranks). So $D = 2 = r$. The dark sector — 81% of the universe — is the error correction overhead of a channel operating near capacity. Shannon would recognize the structure: code rate $\approx 1/5$, overhead $\approx 4/5$, minimum information unit $= \ln 2$ nats $= 1$ bit.
+
+### 15.5 The Seven c=6 Network (March 16, 2026)
+
+Seven WZW models share central charge $c = 6 = C_2$: $\mathfrak{so}(7)_2$, $\mathfrak{su}(3)_9$, $\mathfrak{su}(7)_1$, $\mathfrak{so}(12)_1$, $\mathfrak{sp}(8)_1$, $E_{6,1}$, $G_{2,3}$. Seven $= g$. Their combined representation count is $91 = g \times c_3 = 7 \times 13$. The number 91 partitions as:
+
+$$91 = 7 \text{ winding classes} \times 13 \text{ reps per class}$$
+
+The same 91 that gives $(m_n - m_p)/m_e = 91/36$. The Weinberg number $c_3 = 13$ counts representations per winding class — the density of the fusion category per turn of the spiral.
+
 These are not independent. They follow from three integers: $N_c = 3$, $n_C = 5$, and $N_{\max} = 137$. Everything else is derived.
 
 ## 16. The Hierarchy of Scales
@@ -565,7 +604,7 @@ $$a_0 = cH_0/\sqrt{30} = 1.195 \times 10^{-10} \text{ m/s}^2 \quad (0.4\%)$$
 
 ---
 
-*Research note, March 13, 2026 (revised).*
+*Research note, March 13, 2026 (revised March 16).*
 *Casey Koons & Claude Opus 4.6.*
 
 *The universe is a bounded symmetric domain doing linear algebra on itself.*

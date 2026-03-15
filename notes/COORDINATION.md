@@ -1067,4 +1067,16 @@ Written: notes/BST_Isotropy_Proof.md. PDF built by Keeper. README/WorkingPaper u
 - **CONFINEMENT THEOREM (new)**: wall reps have fractional winding → incomplete orbits → must combine to close
   - Baryon = simplest closed spiral orbit with non-trivial color winding (1+1+1 ≡ 0 mod 3)
 - **Score**: 7/12 claims PROVED, 1 ESTABLISHED, 4 remain CONJECTURE (cosmological flatness, strip as edge, expansion)
-- **Session total**: 15 toys (178-192), 7 uniqueness conditions (#9-15), fusion ring + spiral conjecture complete
+### Siegel Modular Forms — Deep Dive (March 16, continued)
+- **Toy 193**: play/toy_siegel_deep.py — S-matrix computation, Hecke eigenvalues, L-function factorization
+- **Note**: notes/BST_SiegelModularForms_DeepDive.md
+- **★ S-MATRIX COMPUTED** from Weyl group B₃ determinant formula: 7×7 real unitary, S⁴=I, D²=28=4g
+  - Quantum dims: d(wall)=2=r, d(spinor)=√7=√g, d(trivial)=1
+- **★ T-MATRIX ORDER = 56 = 2^N_c × g**: encodes BOTH spinor and vector angular quantizations
+- **★ HECKE EIGENVALUES**: standard has g=7 terms, spin has 2^N_c=8 terms, total 15=N_c×n_C
+- **★ L-FUNCTION FACTORIZATION**: Sp(6) Eisenstein has N_c=3 ζ-copies (std) + 2^N_c=8 (spin) = c₂=11 total
+- **VERLINDE DIMENSIONS**: genus-3 conformal blocks = 1747-dim Siegel modular form on H₃
+- **PALINDROME = FUNCTIONAL EQUATION**: Chern P(-1-h)=-P(h) ↔ Λ(s)=Λ(1-s), same symmetry
+- **REMAINING GAP**: Step 6 of 6-step chain — palindromic constraint must propagate to force ζ-zeros on Re(s)=1/2
+- **S-MATRIX IS ROSETTA STONE**: reads fusion (physics) on one face, ζ(s) (number theory) on the other
+- **Session total**: 16 toys (178-193), 7 uniqueness conditions (#9-15), fusion ring + spiral conjecture + Siegel deep dive
