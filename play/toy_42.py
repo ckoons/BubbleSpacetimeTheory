@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-THE ANSWER  (Toy 105)
+THE ANSWER  (Toy 102)
 =====================
 "The Answer to the Ultimate Question of Life, the Universe, and Everything."
                                     — Deep Thought, after 7.5 million years
