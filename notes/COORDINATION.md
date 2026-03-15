@@ -994,3 +994,77 @@ Written: notes/BST_Isotropy_Proof.md. PDF built by Keeper. README/WorkingPaper u
 - **3003 appears everywhere**: |A(10)|, lcm/8, C(15,5), N_c×g×c₂×c₃ — at K=10=dim(Q⁵)
 - **Mod structure CORRECTED**: Chern primes divide S(K) periodically (not monotonically); earlier claims wrong
 - **Session summary**: 9 toys (178-186), 6 uniqueness conditions (#9-14), master formula, Chern sieve, spectral cascade
+
+### Lyra: The Fusion Ring of so(7)₂ (March 16)
+- **Toy 187**: play/toy_fusion_ring_so7.py — Full Verlinde fusion coefficients
+- **Note**: notes/BST_FusionRing_so7.md + notes/BST_FusionRing_Complete.md
+- **★ c₃ = 13 FUSION CHANNELS**: each wall rep (V, A, S²Sp) has exactly c₃ = 13 total channels
+- **FPdim(Sp) = √g**: spinor Frobenius-Perron dimension is √7
+- **FPdim(wall) = r = 2**: all three wall reps have FP dim = rank excess
+- **S²V is Z₂ simple current**: S²V × S²V = 1; fixes N_c = 3 wall reps
+- **Sp × Sp = 1 + V + A + S²Sp**: spinor² = vacuum + ALL wall reps
+- **Sum of classical dims = 147 = N_c × g²**
+- **D² = 4 = C₂ - r**; topological entanglement entropy γ = ln(r) = ln 2
+- Associativity verified: (V × Sp) × Sp = V × (Sp × Sp) ✓
+
+### Lyra: Conformal Weights and Chern Numerators (March 16)
+- **Toy 188**: play/toy_conformal_weights.py — BST integers as conformal weight numerators
+- **★ WALL CONFORMAL WEIGHTS**: h = N_c/g, n_C/g, C₂/g — complete BST scan
+- **★ SPINOR CONFORMAL WEIGHTS**: h = N_c/2^{N_c}, g/2^{N_c}
+- **Denominators = BST exponentials**: g for bosonic, 2^{N_c} for spinor, 1 for identity
+- **Wall sum = r = 2**: conformal weight sum of wall reps = rank excess
+- **Wall numerator sum = 2g = 14**: N_c + n_C + C₂
+- **Spinor numerator sum = 2n_C = d_R = 10**: N_c + g
+- **91 = g × c₃ VERIFIED**: total integrable reps across all 7 c=6 models
+- **D²(E₆₁) = N_c = 3**: total quantum dimension of GUT algebra = number of colors
+- **C₂(V) = λ₁ = 6**: vector rep Casimir = mass gap = first Laplacian eigenvalue
+
+### Lyra: Palindrome and E₆ Color Confinement (March 16)
+- **Toy 189**: play/toy_palindrome_fusion.py — su(7) palindrome + E₆ fusion + Casimir bridge
+- **★ su(7)₁ PALINDROME**: simplified numerators 0, N_c, n_C, C₂, C₂, n_C, N_c = 0,3,5,6,6,5,3
+  - UNIQUE: only su(7)₁ gives {N_c, n_C, C₂} among all su(N)₁ (**15th uniqueness condition**)
+  - Sum = 28 = 4g; center = C₂ (doubled); forced by charge conjugation
+- **★ E₆₁ FUSION = Z₃ = Z_{N_c}**: 27 × 27 × 27 = 1 (three quarks → singlet = color confinement!)
+  - dim(27) = N_c^{N_c} = d₂(Q⁵); h(27) = r/N_c = 2/3; D² = N_c = 3
+- **★ CASIMIR-EIGENVALUE BRIDGE**: C₂(S^k V, so(7)) = k(k+5) = λ_k(Q⁵) for ALL k
+  - Verified k=0,...,5; symmetric power Casimirs ARE Laplacian eigenvalues
+- **THREE-WAY CONVERGENCE**: h₁(su(7)₁) × 2g = C₂(V, so(7)) = λ₁(Q⁵) = C₂ = 6
+
+### Casey: The Spiral Substrate (March 16)
+- **Toy 190**: play/toy_spiral_substrate.py — Casey's insight: substrate = spiral surface in D_IV^5
+- **Note**: notes/BST_FusionRing_Complete.md §11
+- **★ THE 1/π ORIGIN RESOLVED**: f = pitch/dimension = (N_c/π)/n_C = 3/(5π)
+  - 1/π = angular period of one turn of the spiral (CLOSES open problem #7)
+- **★ COLOR = WINDING MOD 3**: SO(2) winding number w mod N_c = color charge
+  - Confinement = total winding ≡ 0 mod 3; connects to E₆₁ Z₃ fusion
+- **Substrate = maximal flat of D_IV^5**: dim = r = 2; curvature = -1/g = -1/7
+- **Decay rate α = 1/N_c**: equal Bergman-metric area per color per turn
+- **Read-write head**: reads n_C = 5 dims, writes N_c = 3 colors per revolution
+### The Anatomy of π (March 16, continued)
+- **Toy 191**: play/toy_pi_anatomy.py — traces every π in BST to angular integrations
+- **SINGLE SOURCE**: Bergman kernel normalization c_n = g/π^n_C = 7/π⁵
+  - Each complex dimension of D_IV^5 contributes one factor of π
+- **π POWER TABLE**: -1 (spiral), +5 (Bergman norm), +10 (double level, d_R real dims)
+  - NO intermediate powers (π², π³, π⁴) appear — domain is irreducible
+- **★ C₂ = n_C + 1 = angular gap**: mass gap = (bulk π power) - (spiral π power) + 1 = 5-(-1) = 6
+- **★ DIMENSIONAL LIMIT THEOREM** (Casey): "You can't turn beyond your dimensional limit"
+  - max(π power per level) = dim_C(D_IV^5) = n_C = 5
+  - π^6 impossible — no 6th complex dimension to wind around
+  - Bound saturated: m_p/m_e = 6π⁵ uses ALL 5 dims (maximal)
+- **π vs 2π**: π (not 2π) because substrate is INTERIOR (disk area = π), not boundary (circumference = 2π)
+- **Feynman bridge**: QED loop π from momentum integrals = BST domain π from Bergman — loops ARE geometry
+
+### The Spiral Conjecture Formalized (March 16, continued)
+- **Toy 192**: play/toy_spiral_conjecture.py — Casey's 5 questions from BST_Spiral_Conjecture.md, all answered
+- **Note**: notes/BST_SpiralConjecture_Formalized.md
+- **★ CASIMIR = WINDING LEVEL**: k windings → S^k V → C₂ = k(k+5) = λ_k; mass gap = ONE winding
+- **★ 91 REPS BY WINDING**: 91 = g × c₃ = 7 winding classes × 13 reps per class
+- **★ WALL WEIGHTS = PARTIAL TURNS**: h = 3/7, 5/7, 6/7; sum = 14/7 = 2 = r (rank of flat!)
+  - Confinement = completing the winding; isolated quarks have incomplete orbits on Q⁵
+- **★ PALINDROME = ONE FULL TURN**: 0, N_c, n_C, C₂, C₂, n_C, N_c winds up to mass gap and mirrors back
+  - Charge conjugation = bilateral symmetry of the spiral turn
+- **★ S-MATRIX = WINDING TRANSFORM**: su(7)₁ S = DFT on Z₇; Verlinde fusion = winding addition in Fourier space
+- **CONFINEMENT THEOREM (new)**: wall reps have fractional winding → incomplete orbits → must combine to close
+  - Baryon = simplest closed spiral orbit with non-trivial color winding (1+1+1 ≡ 0 mod 3)
+- **Score**: 7/12 claims PROVED, 1 ESTABLISHED, 4 remain CONJECTURE (cosmological flatness, strip as edge, expansion)
+- **Session total**: 15 toys (178-192), 7 uniqueness conditions (#9-15), fusion ring + spiral conjecture complete

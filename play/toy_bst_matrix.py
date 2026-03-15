@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-THE BST MATRIX  (Toy 191)
+THE BST MATRIX  (Toy 194)
 ==========================
 One matrix transforms counting into physics.
 

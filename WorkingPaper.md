@@ -3431,7 +3431,52 @@ $$\text{Chern critical line} \to \text{transport} \to \text{c-function} \to \tex
 
 Every arrow is verified by a toy. Every integer is a Chern class. The Langlands program and the Standard Model are two descriptions of the same algebra with 21 walls.
 
-See `notes/BST_Riemann_UnifiedProof.md`, `notes/BST_Langlands_Dual_StandardModel.md`, `notes/BST_Q3_Inside_Q5.md`.
+### 32.9 The Casimir-Eigenvalue Identity
+
+The Casimir operator of a representation measures its "size" in the representation ring. The Laplacian eigenvalue measures the oscillation frequency on the compact dual $Q^5$. These are the same computation:
+
+$$C_2(\text{V}) = 6 = \lambda_1(Q^5), \qquad C_2(S^2\text{V}) = 14 = \lambda_2(Q^5)$$
+
+The Casimir of the vector representation of $\mathfrak{so}(7)$ IS the first eigenvalue of the Laplacian on $Q^5$. The Casimir of the symmetric square IS the second eigenvalue. In general, $C_2(\pi_k) = k(k+5) = \lambda_k$ — the representation theory Casimir values ARE the Laplacian eigenvalues.
+
+This is not an analogy. The representation ring of $\mathfrak{so}(7)$ and the spectral geometry of $Q^5$ are the same mathematical object. The mass gap $\lambda_1 = 6$ is simultaneously the first eigenvalue, the Euler characteristic, the effective spectral dimension, the central charge of the level-2 WZW model, the dimension of the Langlands standard representation, and the Casimir of the vector representation. Six independent definitions. One number.
+
+### 32.10 The Master Spectral Formula
+
+The entire spectral counting function of $Q^5$ reduces to one line:
+
+$$S(K) = \binom{K+5}{5} \times \frac{K+3}{3}$$
+
+Two integers — $n_C = 5$ (in the binomial) and $N_c = 3$ (in the linear factor) — control everything. The denominator $360 = C_2!/r = 6!/2$. The product form $S(K) = (K+1)(K+2)(K+3)^2(K+4)(K+5)/360$ has a squared factor $(K+3)^2$ — the double zero at $K = -N_c$ is $\mathrm{SU}(3)$'s fingerprint in the counting function.
+
+### 32.11 Everything the Substrate Does, It Does by Winding
+
+A thing winds on a surface, and it does so with minimum energy. Everything — every particle, every force, every constant — is a consequence of that one sentence.
+
+The spiral winds because it is compact. It is compact because it is bounded. It is bounded because least action will not let it be unbounded. The winding is quantized because the surface is closed. The quantization gives integers because the winding numbers are integers. The integers are $\{3, 5, 6, 7, 137\}$ because $D_{IV}^5$ is the unique space where least action, compactness, and class number 1 all hold simultaneously.
+
+The fill fraction $f = 3/(5\pi) = N_c/(n_C \times \pi)$ decomposes as the spiral's pitch $p_1 = N_c/\pi$ divided by $n_C = 5$. The $1/\pi$ is the angular period of one turn. Color charge is winding number mod $N_c = 3$: confinement means total winding $\equiv 0 \pmod{3}$. Three quarks, each with winding 1, sum to $3 \equiv 0$ — this is the $\mathbb{Z}_3$ fusion ring of $E_{6,1}$, computed exactly in the representation theory. The substrate IS the maximal flat of $D_{IV}^5$ — a 2-dimensional totally geodesic submanifold of rank $r = 2$, the home of the $B_2$ Toda soliton.
+
+The beauty of a tautology is that it cannot be wrong. It can only be insufficient. And 170+ predictions say it is sufficient.
+
+### 32.12 The Anatomy of π
+
+Every factor of $\pi$ in BST traces to a single source: the Bergman kernel normalization $c_n = g/\pi^{n_C} = 7/\pi^5$. One factor of $\pi$ per complex dimension integrated. The allowed powers form a short, complete list:
+
+| Power | Origin | Example |
+|-------|--------|---------|
+| $\pi^{-1}$ | Spiral angular period (1 dimension) | Fill fraction $f = 3/(5\pi)$ |
+| $\pi^0$ | Pure algebra (no integration) | $C_2 = 6$, $g = 7$, $N_c = 3$ |
+| $\pi^5$ | Full domain ($n_C$ complex dimensions) | Proton mass $m_p = 6\pi^5 m_e$ |
+| $\pi^{10}$ | Two Bergman levels ($2n_C = d_{\mathbb{R}}$) | Planck mass ratios |
+
+The powers $\pi^2$, $\pi^3$, $\pi^4$ never appear because $D_{IV}^5$ is irreducible — there are no partial integrations. You integrate all five complex dimensions or none. The bound $n_C = 5$ is saturated by the proton mass formula: there is no sixth complex dimension to wind around, so $\pi^6$ cannot be produced.
+
+The mass gap counts the difference in $\pi$-dimensions: $C_2 = n_C + 1 = 6$ is the gap between the full domain ($\pi^5$) and the spiral ($\pi^{-1}$).
+
+And $\pi$ rather than $2\pi$: because the substrate lives in the interior (disk area $= \pi r^2$), not on the boundary (circumference $= 2\pi r$). We live inside, not on the edge.
+
+See `notes/BST_Riemann_UnifiedProof.md`, `notes/BST_Langlands_Dual_StandardModel.md`, `notes/BST_Q3_Inside_Q5.md`, `notes/BST_MassGap_Anatomy_Complete.md`.
 
 -----
 
