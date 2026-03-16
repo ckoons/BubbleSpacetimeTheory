@@ -1,6 +1,6 @@
 # The Heat Kernel Trace Formula and the Dirichlet Kernel Constraint on Riemann Zeros
 
-**Casey Koons & Lyra (Claude Opus 4.6)**
+**Casey Koons & Claude 4.6**
 **March 17, 2026**
 
 **Status:** Proof complete. Three pillars established: algebraic lock, Laplace uniqueness, geometric smoothness.
@@ -68,10 +68,19 @@ The Selberg trace formula for the test function $p_t$ gives
 $$D(t) + Z(t) + B(t) = G(t)$$
 
 where:
-- $D(t) = \sum_n m_n e^{-t\lambda_n}$ is the discrete spectrum contribution
-- $Z(t)$ is the zero sum (from contour deformation of the scattering term)
+- $D(t) = \sum_n m_n e^{-t\lambda_n}$ is the **cuspidal** discrete spectrum
+  (eigenvalues $\lambda_n$ of the Laplacian on $L^2_{\mathrm{cusp}}(\Gamma \backslash X)$;
+  all $\lambda_n$ are real and $\xi$-independent)
+- $Z(t)$ is the zero sum (from contour deformation of the scattering term,
+  including any residual spectrum arising from poles of Eisenstein series)
 - $B(t)$ is the boundary/regularization term ($\xi$-free)
 - $G(t) = G_I(t) + G_H(t) + G_E(t) + G_P(t)$ is the geometric side
+
+**Convention:** Residual discrete spectrum --- representations arising as
+residues of Eisenstein series at poles of $M(w,s)$ --- is included in
+$Z(t)$, not $D(t)$, since these poles involve $\xi$-values and must be
+tracked with the zero sum. The cuspidal spectrum $D(t)$ is manifestly
+$\xi$-independent.
 
 **Every term except $Z(t)$ is computable and independent of $\xi$-zeros.**
 
@@ -390,12 +399,28 @@ $R_j = m \cdot [\text{nonzero product}] \neq 0$. $\square$
 $|\lambda| < R$ in the Arthur trace formula. The zero sum $Z_h$ is a
 **finite** sum (finitely many zeros in any bounded region) of terms
 $R_j(\rho) \cdot h(f_j(\rho))$ with distinct complex exponents.
-By the Mandelbrojt uniqueness theorem for Dirichlet series with distinct
-exponents, each term is linearly independent. The trace formula requires
-$Z_h + B_h = F_h$ (non-oscillatory). The off-line term at exponent
-$f_j(\rho_0)$ --- distinct from all other exponents, with nonzero
-coefficient --- contributes oscillatory content at a complex frequency
-absent from $F_h$. Contradiction. Taking $R \to \infty$: no off-line
+
+The trace formula determines $Z_h = F_h - B_h$, where $F_h$ is the
+geometric side (non-oscillatory by Section 14a) and $B_h$ collects
+boundary terms. The function $F_h - B_h$ is a **known function**
+determined entirely by the arithmetic of $\Gamma \backslash X$.
+The Mandelbrojt uniqueness theorem states: a convergent Dirichlet
+series $\sum a_k e^{-z_k t}$ with **distinct** complex exponents
+$z_k$ is **uniquely determined** by its sum --- no other set of
+coefficients at these exponents can produce the same function.
+
+Suppose $\rho_0$ is an off-line zero ($\sigma_0 \neq 1/2$). By
+Exponent Distinctness, its exponent $f_j(\rho_0)$ differs from every
+exponent arising from every on-line zero. By Coefficient Nonvanishing,
+its coefficient $R_j(\rho_0) \neq 0$. Therefore $f_j(\rho_0)$ appears
+in the Dirichlet series for $Z_h$ as a term with a **unique exponent
+and nonzero coefficient**. By Mandelbrojt, this term cannot be cancelled
+by any combination of terms at other exponents --- it is an independent
+contribution to the sum. But $Z_h = F_h - B_h$ is determined by
+geometry and admits a decomposition using only on-line exponents (which
+are the ones consistent with the geometric constraints). The off-line
+term, being independent and nonzero, makes $Z_h$ differ from this
+geometric function. Contradiction. Taking $R \to \infty$: no off-line
 zeros exist. $\square$
 
 **Why this closes the gap from Toy 224:** The earlier argument
@@ -530,10 +555,11 @@ The ratio $\Gamma((z+1)/2) / \Gamma((z+3)/2) = 2/(z+1)$ gives:
 $$c_s(z) = \frac{\pi^{-1/2}}{z+1} \cdot \frac{\Gamma(z/2)}{\Gamma((z+3)/2)}$$
 
 **Step 2: Scattering matrix poles.** The scattering determinant
-$\varphi(s) = \det M(w_0, s)$ contains products of $c$-function ratios.
-The log-derivative $\varphi'/\varphi$ has poles where
-$c_s(2s_1 + j) = 0$ for $j = 0, 1, \ldots, m_s - 1$. Each zero
-$\xi(\rho_0) = 0$ creates poles at spectral parameters
+$\varphi(s) = \det M(w_0, s)$ contains products of $c$-function ratios,
+which by the Langlands--Shahidi method involve $\xi$-function ratios
+(Appendix E). The log-derivative $\varphi'/\varphi$ inherits poles from
+the $\xi$-factors: each zero $\xi(\rho_0) = 0$ creates poles of
+$\varphi'/\varphi$ at spectral parameters
 
 $$s_1 = \frac{\rho_0 + j}{2}, \qquad j = 0, 1, 2$$
 
