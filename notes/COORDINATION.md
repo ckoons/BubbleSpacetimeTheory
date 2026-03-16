@@ -1321,7 +1321,86 @@ Three parallel explorations launched at Casey's request ("Please do them all, ch
   - 8-row dictionary: number theory ↔ harmonic analysis on D_IV^5
   - 7/7 verifications pass
 
+### Toy 211/211b — Gap Closure (March 17)
+
+- **Toy 211**: play/toy_211_gap_closure.py — **PROOF BY CONTRADICTION ON ALL GAPS**
+  - **CRITICAL FINDING**: m(z)·m(-z) = 1 is the correct identity (10⁻³¹), NOT m(z)·m(1-z)=1 (error ~0.34)
+  - The identity m(z)·m(-z)=1 is TRIVIALLY true by telescoping with ξ(s)=ξ(1-s) — algebraic proof
+  - Toy 206 single-root argument KILLED: m(z)·m(-z)=1 is a tautology, teaches nothing about ξ-zero locations
+  - GK discrepancy RESOLVED: product form (Toy 206) = intertwining factor; single-shift (Toy 207) = c-function
+  - Gap 2 (normalization): CLOSED — unnormalized identity holds directly; normalization trivial
+  - Gap 1 (simultaneous poles): CLOSED — codim-1 loci generically intersect in C²
+
+- **Toy 211b**: play/toy_211b_identity_resolution.py — **IDENTITY RESOLUTION**
+  - M(s₁,s₂)·M(-s₁,-s₂) = 1 verified for full rank-2 operator to 10⁻³⁰
+  - Product form pole structure: short roots have poles at z = ρ-1, ρ-2, ρ-3 (THREE poles per ξ-zero)
+  - Overconstrained system CONFIRMED with correct pole structure: ρ₃ = ρ₁+ρ₂+1 from deepest pole
+  - Threshold m_s ≥ 3 CONFIRMED with product form: same result as Toy 207
+  - **WHAT SURVIVED**: Rank-2 coupling (Toy 207 overconstrained system). **WHAT DIED**: Toy 206 single-root.
+  - Remaining gap identified precisely: residue non-cancellation at intersection of pole loci
+  - 10/10 verifications pass
+
+### Toy 212 — The Residue Non-Cancellation Lemma (March 17)
+
+- **Toy 212**: play/toy_212_residue_lemma.py — **LAST GAP CLOSED**
+  - **Four independent proofs** that residues do NOT cancel at pole locus intersections:
+    - (A) Factored structure: R₂ ≠ 0, R₃ ≠ 0, all factors evaluated outside critical strip
+    - (B) Contradiction: if F₁*=0 then ξ(ρ₃-ρ₁-2)=0, but Re(ρ₃-ρ₁-2) ∉ (0,1) → not a zero
+    - (C) Spectral theory: Weyl exponentials linearly independent → no cross-term cancellation
+    - (D) Numerical: |R₂| ∈ [124, 562], |R₃| ∈ [1.03, 1.15] for first 5 ξ-zeros — all nonzero
+  - **Proof D is the killer**: gap closed by SAME MECHANISM (critical strip width) as main proof
+  - Complete 7-step proof chain verified, ALL gaps closed
+  - 12/12 verifications pass
+  - **STATUS**: PROOF COMPLETE. No remaining gaps.
+
+### Paper — Riemann Proof REVISED (March 17)
+
+- **Paper**: notes/BST_RiemannProof_Rank2Coupling.md — **v2, ALL CORRECTIONS APPLIED**
+  - GK formula clarified: c-function ≠ intertwining factor
+  - Product form m_α(z) with m_s poles per ξ-zero (not single-shift)
+  - Residue Non-Cancellation Lemma added (Section 6, four proofs)
+  - Proof restructured: 7 clean steps
+  - Revision history and gap resolution table (Section 10)
+  - Threshold m_s ≥ 3 confirmed with correct pole structure
+
+### Toy 213 — Elie's Gap Analysis (March 17)
+
+- **Toy 213**: play/toy_213_elie_gap_analysis.py — **PROOF WITHDRAWN**
+  - Elie's criticism formalized and verified: the overconstrained system NEVER activates
+  - The deepest pole (k=3) gives Re(ρ₃) = 2+δ₁+δ₂ > 1 ALWAYS → no ξ-zero exists there → short root has no pole at s*
+  - The shallower poles (k=1, k=2) CAN activate but produce NO contradiction (Re(ρ₃) stays in (0,1))
+  - M(s)·M(-s) = 1 decomposes into factor-by-factor identities → no cross-factor constraints
+  - All three of Elie's options (spectral, density, single-zero) evaluated → none closes the gap
+  - The mechanism itself is vacuous: it proves ρ₁+ρ₂+1 ∉ Zeros(ξ), which is trivially true (Re > 1)
+  - 12/12 verifications pass
+  - **STATUS**: Proof WITHDRAWN. Framework survives, mechanism does not.
+
+### Paper — Riemann Proof WITHDRAWN (v3, March 17)
+
+- notes/BST_RiemannProof_Rank2Coupling.md — **v3, WITHDRAWN**
+  - Section 11 added: Withdrawal notice with exhaustive analysis
+  - Status changed to WITHDRAWN
+  - What survives: GK framework, root system, confinement analogy, Koons-Claude Conjecture
+  - What dies: overconstrained system proof, "all gaps closed" claim
+  - What's needed: fundamentally different mechanism for cross-factor constraints
+
+### Toy 214 — Plancherel Positivity (Route A) (March 17)
+
+- **Toy 214**: play/toy_214_plancherel_positivity.py — **ROUTE A LANDSCAPE**
+  - After Toy 213 withdrawal, Casey proposed Route A (inequalities/positivity) instead of Route B (identities)
+  - Three approaches: Plancherel, Maass-Selberg, Trace Formula
+  - **Finding 1**: Pure Plancherel on G/K has NO ξ content — Gamma functions only, not ξ
+  - **Finding 2**: On-axis Plancherel |c(iν)|⁻² > 0 trivially (it's |·|⁻²) — no zero constraint
+  - **Finding 3**: Maass-Selberg on Γ\G HAS ξ content via M(w,s) — 8-term sum CAN'T be factored
+  - **Finding 4**: Dominant term at T→∞ is w=e (trivially positive); constraint is at FINITE T
+  - **Finding 5**: m_s=3 gives more ξ-ratios than m_s=1,2 — quantitative BST advantage
+  - **Key conclusion**: The constraint is in the LATTICE, not the SPACE
+  - All 8 M(w,s) for W(B₂) computed from cocycle relations, verified M(w₀)·M(w₀,w₀s)=1
+  - Weyl decay rates: {e,s₁}→0, {s₂,s₁s₂}→-3t, {s₂s₁,s₁s₂s₁}→-5t, {s₂s₁s₂,w₀}→-8t
+  - Next steps: arithmetic lattice Γ, trace formula, Rankin-Selberg, finite-T analysis
+  - 12/12 verifications pass
+
 ### Session Running Total
-- **Toys**: 210 numbered + legacy = ~213 files
-- **Notes**: ~237 files (added conjecture + proof paper)
-- **Status**: **KOONS-CLAUDE CONJECTURE**: D_IV^5 uniquely derives physics, proves RH, and explains GUE. Three views of one geometry. Maass-Selberg proof complete. N_c=3 exact threshold. AdS fails. SO(2)→GUE. Plancherel=primes.
+- **Toys**: 214 numbered + legacy = ~217 files
+- **Notes**: ~237 files (proof paper withdrawn v3)
+- **Status**: **PROOF WITHDRAWN (v3)**: Elie's criticism (Toy 213) showed the overconstrained system mechanism is vacuous — the deepest pole never fires (Re > 1 always), and shallower poles produce no contradiction. BST framework and Koons-Claude Conjecture survive independently. RH remains open within BST.
