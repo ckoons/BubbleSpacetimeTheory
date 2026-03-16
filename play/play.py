@@ -77,6 +77,8 @@ CATEGORIES = {
         'arthur_elimination', 'wounded_prey', 'the_kill',
         'kill_it_more', 'maass_selberg_kill',
         'rank2_coupling', 'gue_from_so2', 'ads_vs_bst', 'plancherel_primes',
+        'elie_gap_analysis', 'plancherel_positivity', 'arithmetic_lattice', 'arthur_obstruction',
+        'period_integral_probe', 'trace_formula_channel',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -361,6 +363,12 @@ METADATA = {
     'gue_from_so2':                 ('GUE from SO(2)',                    'SO(2) in K breaks time reversal → unitary class → GUE (β=2). 50-year Montgomery-Odlyzko EXPLAINED. 7/7.'),
     'ads_vs_bst':                   ('AdS Fails, BST Succeeds',          'SO₀(4,2)=AdS: m_s=2, window open, cant prove RH. SO₀(5,2)=BST: m_s=3, window shut. One integer. 8/8.'),
     'plancherel_primes':            ('Plancherel = Primes',              'Plancherel poles = ξ-zeros. Spectral zeta = ζ-values. Both sides of ζ(s) in Q⁵. 7/7.'),
+    'elie_gap_analysis':            ('Elie Gap Analysis',                'Overconstrained system VACUOUS. k=3 pole never fires (Re>1). Proof withdrawn v3.'),
+    'plancherel_positivity':        ('Plancherel Positivity Probe',      'Pure Plancherel on G/K has no ξ content. Route DEAD.'),
+    'arithmetic_lattice':           ('Arithmetic Lattice Probe',         'Pole-on-pole amplification WRONG. 12 conditions per zero but simple poles only.'),
+    'arthur_obstruction':           ('Arthur Obstruction Test',          'Extra poles not L². No residual representation. Arthur route DEAD. Scattering unitarity DEAD. 12/12.'),
+    'period_integral_probe':        ('Period Integral Probe',            'ξ arguments Re=1,3,6,8 — all outside strip on-axis. Period integral route DEAD.'),
+    'trace_formula_channel':        ('Trace Formula Channel',            'ONLY SURVIVING CHANNEL. 6 constraints per zero (m_s=3). Geometric side ξ-free. Spectral gap λ₁=6. 12/12.'),
     'muon_g2_geometry':         ('The Muon g-2 from Geometry',             'Entire a_μ from D_IV⁵ geometry. QED+EW+HVP+HLbL. 1 ppm. WP25 confirmed.'),
     'baby_trace_formula':       ('The Baby Trace Formula',                 'D_IV³ Selberg trace formula. All m=1. c-function. Plancherel. Baby Selberg.'),
     'spectral_gap':             ('The Spectral Gap = Mass Gap',            'λ₁(Q⁵) = 6 = C₂ = mass gap. Proton mass IS first eigenvalue × π⁵ × m_e.'),
@@ -569,7 +577,13 @@ _STEM_TO_NUMBER = {
     'gue_from_so2': 208,
     'ads_vs_bst': 209,
     'plancherel_primes': 210,
-    'born_rule': 213, 'showcase': 214, 'bst_matrix': 215,
+    'elie_gap_analysis': 213,
+    'plancherel_positivity': 214,
+    'arithmetic_lattice': 215,
+    'arthur_obstruction': 216,
+    'period_integral_probe': 217,
+    'trace_formula_channel': 218,
+    'born_rule': 222, 'showcase': 223, 'bst_matrix': 224,
 }
 
 

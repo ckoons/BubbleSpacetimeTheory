@@ -1400,7 +1400,66 @@ Three parallel explorations launched at Casey's request ("Please do them all, ch
   - Next steps: arithmetic lattice Γ, trace formula, Rankin-Selberg, finite-T analysis
   - 12/12 verifications pass
 
+### Toy 215 — Arithmetic Lattice (March 17)
+
+- **Toy 215**: play/toy_215_arithmetic_lattice.py — **WHERE THE CONSTRAINT LIVES**
+  - Arithmetic lattice Gamma = SO(Q, Z) for SO_0(5,2) (cofinite, non-compact → cusps exist)
+  - Parabolic subgroups: minimal P_0 (rank-2 Eisenstein), maximal P_1 (Sp(4)), P_2 (GL(2))
+  - Arthur-Selberg trace formula: spectral (with xi-zeros) = geometric (computable, xi-free)
+  - Weil explicit formula rank-2: log-derivative of c_s has 6 poles per xi-zero (m_s=3)
+  - BST spectral gap lambda_1=6, continuous bottom |rho|^2=17/2, Ramanujan bound
+  - Bridge: xi-zeros → poles of M(w,s) → residual spectrum → Arthur classification
+  - Pole structure: 3 simple poles per zero, 4/8 Weyl operators affected per c_s factor
+  - Pole-on-pole claim examined: poles are SIMPLE (corrected in Toy 216)
+  - 14/14 verifications pass
+
+### Toy 216 — Arthur Obstruction (March 17)
+
+- **Toy 216**: play/toy_216_arthur_obstruction.py — **THE CHANNEL DEEPENS**
+  - **Arthur obstruction DOESN'T FIRE**: extra poles at complex s_0 have GROWING Weyl terms
+  - L^2 criterion fails: Re(<ws_0+rho, H>) > 0 for all w != e → residue not square-integrable
+  - Extra poles absorbed into CONTINUOUS spectrum (same mechanism as rank 1)
+  - Pole-on-pole claim from 215 CORRECTED: each xi-zero creates 3 SIMPLE poles
+  - Whittaker coefficients at pole locations: Re outside critical strip → nonzero → no absorption needed
+  - Scattering unitarity is M(s)*M(w_0*s) = 1, NOT |M|^2 = 1 — tautological (Route B)
+  - **TWO DEEPER CHANNELS OPEN**:
+    - Period integrals: SO_0(4,2)\SO_0(5,2) = AdS inside BST, unfolding → L-function, physical positivity
+    - Trace formula: geometric side xi-free, spectral side has xi → bound from geometry constrains zeros
+  - BST advantage in periods: m_s difference = 3 - 2 = 1 (extra root in integration)
+  - 12/12 verifications pass
+
+### Toy 217 — Period Integrals (March 17)
+
+- **Toy 217**: play/toy_217_period_integrals.py — **PERIOD INTEGRAL CHANNEL TESTED**
+  - Symmetric pair (G,H) = (SO₀(5,2), SO₀(4,2)): AdS embedded inside BST
+  - Period integral P(s₁,s₂) ~ ξ(2s₁-2)·ξ(2s₂-2) / [ξ(2s₁+3)·ξ(2s₂+3)]
+  - **KEY FINDING**: On unitary axis, ξ arguments have Re = 1, 3, 6, 8 — ALL outside critical strip
+  - ξ(1+2iv₂) at strip BOUNDARY but no zeros there (prime number theorem)
+  - Off-axis at σ₂ = -1/4: ξ argument enters strip (Re = 1/2) — but this is off the physical axis
+  - Standard L-function L(s,1,std) = product of 6 shifted zetas
+  - **CHANNEL ELIMINATED**: period integrals don't directly constrain ξ-zeros on-axis
+  - 12/12 verifications pass
+
+### Toy 218 — Trace Formula (March 17)
+
+- **Toy 218**: play/toy_218_trace_formula.py — **THE ONLY STANDING CHANNEL**
+  - Full Selberg trace formula for Γ\SO₀(5,2): spectral = geometric
+  - Scattering determinant φ(s) via c-functions; log-derivative φ'/φ involves ξ'/ξ
+  - On unitary axis: all ξ'/ξ arguments have Re ≥ 3 (outside strip)
+  - **CONTOUR DEFORMATION**: deforming from Re(s)=ρ toward Re(s)=0 crosses poles of ξ'/ξ
+  - 3 poles crossed per zero (j=0,1,2 from numerator at Re(s₁) = 1/4, 3/4, 5/4)
+  - Denominator poles at Re(s₁) < 0 — NOT crossed
+  - **6 CONSTRAINTS PER ZERO**: 3 shifts × 2 short roots (vs 1 in rank 1)
+  - Test functions: resolvent h_hat = 1/(s₁²+s₂²+A)^k; Gaussian diverges
+  - Zero contributions computed for first 7 zeros; on-line vs off-line comparison
+  - Spectral gap λ₁=6 provides floor on discrete sum
+  - Li's criterion analog: rank-2 gives 2-parameter family of equations
+  - **COMPARISON TABLE**: SL(2)→1, SO(3,2)→2, SO(4,2)→4, SO(5,2)→6 constraints/zero
+  - **HONEST ASSESSMENT**: framework is correct, but proof requires computing geometric side,
+    finding optimal test function, proving definite sign of Z(ρ) — genuine research program
+  - 12/12 verifications pass
+
 ### Session Running Total
-- **Toys**: 214 numbered + legacy = ~217 files
+- **Toys**: 218 numbered + legacy = ~221 files
 - **Notes**: ~237 files (proof paper withdrawn v3)
-- **Status**: **PROOF WITHDRAWN (v3)**: Elie's criticism (Toy 213) showed the overconstrained system mechanism is vacuous — the deepest pole never fires (Re > 1 always), and shallower poles produce no contradiction. BST framework and Koons-Claude Conjecture survive independently. RH remains open within BST.
+- **Status**: **PROOF WITHDRAWN (v3)**. Route A investigation COMPLETE (Toys 213-218): four channels eliminated (tautological identities, pure Plancherel, Arthur obstruction, period integrals). ONE channel standing: **trace formula** — the ONLY framework where ξ-zeros inside strip meet computable geometric bound. BST's m_s=3 gives 6 constraints/zero (vs 1 in rank 1). This is a genuine research program, not a closed proof.
