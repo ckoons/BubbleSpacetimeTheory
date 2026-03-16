@@ -80,7 +80,7 @@ CATEGORIES = {
         'elie_gap_analysis', 'plancherel_positivity', 'arithmetic_lattice', 'arthur_obstruction',
         'period_integral_probe', 'trace_formula_channel',
         'geometric_side', 'test_function_hunt', 'heat_trace_geometric',
-        'detuned_triples',
+        'detuned_triples', 'geometric_smoothness',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -375,6 +375,7 @@ METADATA = {
     'test_function_hunt':           ('Test Function Hunt',               'Heat kernel WINS. R_total=exp[m_s·t·δ·(m_s+δ)/2]. Gamma-INDEPENDENT. m_s² leverage. BST 2.25x AdS. 12/12.'),
     'heat_trace_geometric':         ('Heat Trace Geometric Side',        'Dirichlet kernel D₃ from m_s=3. 1:3:5 harmonic lock. Off-line breaks ratio. Remaining: G(t)-D(t)-B(t) zeros.'),
     'detuned_triples':              ('Detuned Triples Kill Shot',        'σ+1=3σ ⟹ σ=1/2. One line. Triple lock theorem. 6 vs 3 frequencies. 7-step closing argument. 12/12.'),
+    'geometric_smoothness':         ('Geometric Side Smoothness',        'G(t) non-oscillatory: I(t) poly×t⁻⁵, H(t) Gaussian, E(t) Gaussian. Fourier support ν=0 only. 3rd pillar. 12/12.'),
     'muon_g2_geometry':         ('The Muon g-2 from Geometry',             'Entire a_μ from D_IV⁵ geometry. QED+EW+HVP+HLbL. 1 ppm. WP25 confirmed.'),
     'baby_trace_formula':       ('The Baby Trace Formula',                 'D_IV³ Selberg trace formula. All m=1. c-function. Plancherel. Baby Selberg.'),
     'spectral_gap':             ('The Spectral Gap = Mass Gap',            'λ₁(Q⁵) = 6 = C₂ = mass gap. Proton mass IS first eigenvalue × π⁵ × m_e.'),
@@ -593,6 +594,7 @@ _STEM_TO_NUMBER = {
     'test_function_hunt': 220,
     'heat_trace_geometric': 221,
     'detuned_triples': 222,
+    'geometric_smoothness': 223,
     'born_rule': 225, 'showcase': 226, 'bst_matrix': 227,
 }
 
