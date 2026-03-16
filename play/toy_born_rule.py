@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-THE BORN RULE IS FORCED  (Toy 222)
+THE BORN RULE IS FORCED  (Toy 225)
 ====================================
 In standard QM, the Born rule (probability = |psi|^2) is a POSTULATE.
 In BST, it is a THEOREM — forced by the complex geometry of D_IV^5.
