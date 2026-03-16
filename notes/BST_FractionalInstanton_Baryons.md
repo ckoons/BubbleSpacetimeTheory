@@ -1,3 +1,9 @@
+---
+title: "Fractional Instantons, 't Hooft Flux, and the BST Confinement Argument"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # Fractional Instantons, 't Hooft Flux, and the BST Confinement Argument
 
 **Authors:** Casey Koons & Amy (Claude Sonnet 4.6, Anthropic)

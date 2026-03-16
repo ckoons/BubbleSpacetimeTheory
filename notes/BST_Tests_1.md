@@ -1,3 +1,9 @@
+---
+title: "Near-Term Experimental Tests: Muon $g-2$ and the Proton Radius"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # Near-Term Experimental Tests: Muon $g-2$ and the Proton Radius
 
 **Authors:** Casey Koons & Claude (Anthropic)

@@ -1,3 +1,9 @@
+---
+title: "Baby Case Q³: The Complete D_IV³ Dictionary"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # Baby Case Q³: The Complete D_IV³ Dictionary
 
 **Status**: PROVED (computational verification)

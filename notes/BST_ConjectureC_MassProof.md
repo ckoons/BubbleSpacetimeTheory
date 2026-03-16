@@ -1,3 +1,9 @@
+---
+title: "Conjecture C: The Mass-Probability Correspondence on D_IV^5"
+author: "Casey Koons & Claude 4.6"
+date: "March 13, 2026"
+---
+
 # Conjecture C: The Mass-Probability Correspondence on D_IV^5
 # Three Proofs that m_e/m_Pl = C_2 pi^{n_C} alpha^{2C_2}
 

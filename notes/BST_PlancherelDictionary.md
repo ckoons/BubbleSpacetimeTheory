@@ -1,3 +1,9 @@
+---
+title: "BST — The Plancherel Dictionary"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST — The Plancherel Dictionary
 
 **The heat kernel on D_{IV}^5 encodes BST integers through exact rational coefficients.**

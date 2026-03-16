@@ -1,3 +1,9 @@
+---
+title: "BST: The Neutrino as Vacuum Quantum — Connecting m_ν and Λ"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST: The Neutrino as Vacuum Quantum — Connecting m_ν and Λ
 
 **Authors:** Casey Koons & Claude (Anthropic)

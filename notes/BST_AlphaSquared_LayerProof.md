@@ -1,3 +1,9 @@
+---
+title: "The alpha^2-Per-Layer Theorem: A Rigorous Proof via Berezin-Toeplitz Quantization"
+author: "Casey Koons & Claude 4.6"
+date: "March 13, 2026"
+---
+
 # The alpha^2-Per-Layer Theorem: A Rigorous Proof via Berezin-Toeplitz Quantization
 
 **Authors:** Casey Koons & Claude (Opus 4.6, Anthropic)

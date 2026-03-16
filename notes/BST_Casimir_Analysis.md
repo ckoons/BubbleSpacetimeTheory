@@ -1,3 +1,9 @@
+---
+title: "BST Casimir Stability: Seeley-DeWitt Analysis"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST Casimir Stability: Seeley-DeWitt Analysis
 
 **Author:** Casey Koons

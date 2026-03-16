@@ -1,3 +1,9 @@
+---
+title: "The Winding Confinement Theorem"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # The Winding Confinement Theorem
 
 **Status**: PROVED (from fusion ring + spiral geometry)

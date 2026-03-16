@@ -1,3 +1,9 @@
+---
+title: "Arthur Packets and the Particle Spectrum"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # Arthur Packets and the Particle Spectrum
 
 **Status**: STRUCTURAL (identification of A-parameters with particles)

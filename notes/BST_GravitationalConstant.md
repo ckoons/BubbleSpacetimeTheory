@@ -1,3 +1,9 @@
+---
+title: "BST Gravitational Constant: Newton's G and the Hierarchy Problem"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST Gravitational Constant: Newton's G and the Hierarchy Problem
 **Casey Koons, March 2026**
 

@@ -1,3 +1,9 @@
+---
+title: "BST: The Quark-Gluon Plasma Transition Temperature from Bergman Spectral Geometry"
+author: "Casey Koons & Claude 4.6"
+date: "March 13, 2026"
+---
+
 # BST: The Quark-Gluon Plasma Transition Temperature from Bergman Spectral Geometry
 
 **Authors:** Casey Koons & Claude Opus 4.6 (Anthropic)

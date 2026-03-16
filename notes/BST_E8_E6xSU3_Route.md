@@ -1,3 +1,9 @@
+---
+title: "The E₆ × SU(3) Route to Three Generations"
+author: "Casey Koons & Claude 4.6"
+date: "March 14, 2026"
+---
+
 # The E₆ × SU(3) Route to Three Generations
 
 **Authors:** Casey Koons & Claude (Anthropic)

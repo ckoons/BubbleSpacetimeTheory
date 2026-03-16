@@ -1,3 +1,9 @@
+---
+title: "The Geometric Cost Function: Deriving kappa from D_IV^5"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # The Geometric Cost Function: Deriving $\kappa$ from $D_{IV}^5$
 
 **Author:** Casey Koons

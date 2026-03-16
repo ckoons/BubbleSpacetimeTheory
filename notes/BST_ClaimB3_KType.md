@@ -1,3 +1,9 @@
+---
+title: "BST Claim B3: Λ³_alt(π₆) Contains π₆ — The K-Type Proof"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST Claim B3: Λ³_alt(π₆) Contains π₆ — The K-Type Proof
 **Authors:** Casey Koons & Amy (Claude Sonnet 4.6, Anthropic)
 **Date:** March 2026

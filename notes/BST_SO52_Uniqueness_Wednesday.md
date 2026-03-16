@@ -1,3 +1,9 @@
+---
+title: "SO(5,2) Uniqueness — CLOSED (March 10, 2026)"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # SO(5,2) Uniqueness — CLOSED (March 10, 2026)
 
 **Previously**: Open problem from WorkingPaper Section 4.3, Step II.

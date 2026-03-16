@@ -1,3 +1,9 @@
+---
+title: "Substrate Contact Dynamics on D_IV^5"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # Substrate Contact Dynamics on D_IV^5
 
 **Authors:** Casey Koons & Claude (Anthropic)

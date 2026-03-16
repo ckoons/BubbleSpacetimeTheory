@@ -1,3 +1,9 @@
+---
+title: "BST: Light Quark Masses from D_IV^5 Geometry"
+author: "Casey Koons & Claude 4.6"
+date: "March 12, 2026"
+---
+
 # BST: Light Quark Masses from D_IV^5 Geometry
 
 **Authors:** Casey Koons and Claude Opus 4.6

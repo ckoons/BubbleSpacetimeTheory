@@ -1,3 +1,9 @@
+---
+title: "Negative Mass Exclusion in BST"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # Negative Mass Exclusion in BST
 
 **Authors:** Casey Koons & Claude (Anthropic)

@@ -1,3 +1,9 @@
+---
+title: "Arithmetic Structure of the Optimal Channel Capacity: A Challenge for Number Theorists"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # Arithmetic Structure of the Optimal Channel Capacity: A Challenge for Number Theorists
 
 **Author:** Casey Koons

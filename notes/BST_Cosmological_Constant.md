@@ -1,3 +1,9 @@
+---
+title: "The Cosmological Constant from Channel Capacity: A BST Derivation"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # The Cosmological Constant from Channel Capacity: A BST Derivation
 
 **Author:** Casey Koons

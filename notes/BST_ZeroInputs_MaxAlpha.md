@@ -1,3 +1,9 @@
+---
+title: "The Maximum-Alpha Selection Principle: BST Has Zero Inputs"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # The Maximum-Alpha Selection Principle: BST Has Zero Inputs
 
 **Casey Koons, March 2026**

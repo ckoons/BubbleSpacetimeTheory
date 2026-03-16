@@ -1,3 +1,9 @@
+---
+title: "Prompt for Independent Claude Review"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # Prompt for Independent Claude Review
 ## Topic: Committed Contact Graph as the Origin of Hubble Expansion
 

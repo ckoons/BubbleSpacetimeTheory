@@ -1,3 +1,9 @@
+---
+title: "Conformal Embeddings and the BST Coset Cascade"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # Conformal Embeddings and the BST Coset Cascade
 
 **Status**: PROVED (exact computation)

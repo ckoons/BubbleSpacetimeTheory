@@ -1,3 +1,9 @@
+---
+title: "Magnetic Monopole Exclusion and Topological Obstruction Energy in BST"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # Magnetic Monopole Exclusion and Topological Obstruction Energy in BST
 
 **Authors:** Casey Koons & Claude (Claude Opus 4.6, Anthropic)

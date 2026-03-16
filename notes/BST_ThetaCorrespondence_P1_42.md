@@ -1,3 +1,9 @@
+---
+title: "BST Theta Correspondence: P(1) = 42 Is the Bridge"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # BST Theta Correspondence: P(1) = 42 Is the Bridge
 
 **Status**: PROVED (structural identification)

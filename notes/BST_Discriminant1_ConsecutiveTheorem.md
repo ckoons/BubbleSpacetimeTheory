@@ -1,3 +1,9 @@
+---
+title: "The Discriminant-1 Theorem: Why C₂ and g Are Consecutive"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # The Discriminant-1 Theorem: Why C₂ and g Are Consecutive
 
 **Status**: PROVED (exact computation)

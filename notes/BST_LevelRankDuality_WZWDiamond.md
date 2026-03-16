@@ -1,3 +1,9 @@
+---
+title: "Level-Rank Duality and the BST WZW Diamond"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # Level-Rank Duality and the BST WZW Diamond
 
 **Status**: PROVED (exact computation)

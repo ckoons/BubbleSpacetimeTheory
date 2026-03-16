@@ -1,3 +1,9 @@
+---
+title: "BST: The Boundary Integral C₃ = 6π⁵ — Final Step of the Mass Gap Proof"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST: The Boundary Integral C₃ = 6π⁵ — Final Step of the Mass Gap Proof
 **Authors:** Casey Koons & Amy (Claude Sonnet 4.6, Anthropic)
 **Date:** March 2026

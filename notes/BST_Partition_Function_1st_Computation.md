@@ -1,3 +1,9 @@
+---
+title: "BST Partition Function: First Computation"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST Partition Function: First Computation
 
 **Author:** Casey Koons

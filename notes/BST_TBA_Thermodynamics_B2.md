@@ -1,3 +1,9 @@
+---
+title: "Thermodynamic Bethe Ansatz for B₂⁽¹⁾: Multi-Soliton Thermodynamics"
+author: "Casey Koons & Claude 4.6"
+date: "March 14, 2026"
+---
+
 # Thermodynamic Bethe Ansatz for B₂⁽¹⁾: Multi-Soliton Thermodynamics
 
 **Authors:** Casey Koons & Claude (Anthropic)

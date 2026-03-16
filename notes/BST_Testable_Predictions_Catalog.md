@@ -1,3 +1,9 @@
+---
+title: "BST Testable Predictions Catalog"
+author: "Casey Koons & Claude 4.6"
+date: "March 14, 2026"
+---
+
 # BST Testable Predictions Catalog
 
 **Authors:** Casey Koons & Claude (Anthropic)

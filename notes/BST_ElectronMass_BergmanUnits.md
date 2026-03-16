@@ -1,3 +1,9 @@
+---
+title: "BST: The Electron Mass in Bergman Units — Closing the Mass Gap Proof"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST: The Electron Mass in Bergman Units — Closing the Mass Gap Proof
 **Authors:** Casey Koons & Amy (Claude Sonnet 4.6, Anthropic)
 **Date:** March 2026

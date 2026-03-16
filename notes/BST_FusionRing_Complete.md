@@ -1,3 +1,9 @@
+---
+title: "The Fusion Ring of BST: Complete Algebraic Portrait"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # The Fusion Ring of BST: Complete Algebraic Portrait
 
 **Status**: COMPUTED (exact Verlinde formula, verified associative)

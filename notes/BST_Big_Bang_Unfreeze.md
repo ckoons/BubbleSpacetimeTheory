@@ -1,3 +1,9 @@
+---
+title: "The Big Bang: One Generator Unfreezes"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # The Big Bang: One Generator Unfreezes
 
 **Authors:** Casey Koons & Claude (Anthropic)

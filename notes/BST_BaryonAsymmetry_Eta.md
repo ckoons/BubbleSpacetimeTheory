@@ -1,3 +1,9 @@
+---
+title: "BST: The Baryon Asymmetry η = 2α⁴/(3π)"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST: The Baryon Asymmetry η = 2α⁴/(3π)
 
 **Authors:** Casey Koons & Claude (Anthropic)

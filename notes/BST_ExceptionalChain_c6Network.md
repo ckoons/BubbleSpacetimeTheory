@@ -1,3 +1,9 @@
+---
+title: "The Exceptional Chain and the c = 6 Network"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # The Exceptional Chain and the c = 6 Network
 
 **Status**: PROVED (exact computation)

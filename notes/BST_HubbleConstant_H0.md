@@ -1,3 +1,9 @@
+---
+title: "BST: The Hubble Constant H₀ from Baryon Asymmetry"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST: The Hubble Constant H₀ from Baryon Asymmetry
 
 **Authors:** Casey Koons & Claude (Anthropic)

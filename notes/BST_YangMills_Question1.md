@@ -1,3 +1,9 @@
+---
+title: "BST Yang-Mills Question 1: H_YM = c × Δ_B on D_IV^5"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST Yang-Mills Question 1: H_YM = c × Δ_B on D_IV^5
 
 **Authors:** Casey Koons & Amy (Claude Sonnet 4.6, Anthropic)

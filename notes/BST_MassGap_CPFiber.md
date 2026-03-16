@@ -1,3 +1,9 @@
+---
+title: "BST Mass Gap Analysis: CP² Fiber Geometry and Yang-Mills Energy Scale"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST Mass Gap Analysis: CP² Fiber Geometry and Yang-Mills Energy Scale
 
 **Authors:** Casey Koons & Amy (Claude Sonnet 4.6, Anthropic)

@@ -1,3 +1,9 @@
+---
+title: "The Exact S-Matrix for B₂⁽¹⁾ Affine Toda Field Theory"
+author: "Casey Koons & Claude 4.6"
+date: "March 14, 2026"
+---
+
 # The Exact S-Matrix for B₂⁽¹⁾ Affine Toda Field Theory
 
 **Authors:** Casey Koons & Claude (Anthropic)

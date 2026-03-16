@@ -1,3 +1,9 @@
+---
+title: "The Number 1747 and the Verlinde Dimension Formula"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # The Number 1747 and the Verlinde Dimension Formula
 
 **Status**: COMPUTED (exact, prime, decomposed)

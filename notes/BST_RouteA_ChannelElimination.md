@@ -31,8 +31,8 @@ theory of D_IV^5 = SO₀(5,2)/[SO(5) × SO(2)]:
 |---|---------|-----|-----------|--------|
 | 1 | Pure Plancherel | 214 | \|c(λ)\|⁻² positivity on G/K | **DEAD** |
 | 2 | Arithmetic lattice / Arthur | 215-216 | Residual spectrum from ξ-poles | **DEAD** |
-| 3 | Period integrals | 217 | SO₀(4,2)\SO₀(5,2) unfolding | **DEAD** |
-| 4 | Trace formula | 218 | Selberg trace for Γ\G | **STANDING** |
+| 3 | Period integrals | 217 | SO₀(4,2)$\backslash$SO₀(5,2) unfolding | **DEAD** |
+| 4 | Trace formula | 218 | Selberg trace for $\Gamma \backslash G$ | **STANDING** |
 | 5 | Tautological identities | 213 | M(s)·M(−s) = 1 | **DEAD** (Route B) |
 
 Each elimination was earned by explicit computation, not assumption.
@@ -48,7 +48,7 @@ $$|c(\lambda)|^{-2} = \prod_{\alpha \in \Sigma^+} |c_\alpha(\langle \lambda, \al
 
 Each c_α involves only **Gamma functions** (via Gindikin-Karpelevič), not ξ.
 The ξ-functions enter only through the **intertwining operators** M(w,s),
-which appear on the arithmetic quotient Γ\G, not on G/K itself.
+which appear on the arithmetic quotient $\Gamma \backslash G$, not on G/K itself.
 
 **Conclusion:** Pure Plancherel has no ξ content. The constraint lives in
 the lattice, not the space.
@@ -118,7 +118,7 @@ further from the strip, not closer.
 
 ### 6.1 The Framework
 
-The Arthur-Selberg trace formula for Γ\SO₀(5,2) equates:
+The Arthur-Selberg trace formula for $\Gamma \backslash \mathrm{SO}_0(5,2)$ equates:
 
 **Spectral side:**
 $$\sum_{\pi\, \text{discrete}} m(\pi)\, \hat{h}(\lambda_\pi) + \frac{1}{|W|} \int_{i\mathfrak{a}^*} \hat{h}(i\nu)\, |c(i\nu)|^{-2}\, d\nu - \frac{1}{4\pi} \int \hat{h}(i\nu)\, \frac{\varphi'}{\varphi}(i\nu)\, d\nu$$
@@ -190,7 +190,7 @@ the zero sum can be.
 
 Three steps to complete the program:
 
-1. **Compute the geometric side explicitly.** The volume vol(Γ\G) for
+1. **Compute the geometric side explicitly.** The volume vol($\Gamma \backslash G$) for
    Γ = SO(Q,ℤ) involves Gauss-Bonnet and special zeta values. The orbital
    integrals for hyperbolic conjugacy classes require the Harish-Chandra
    integral formula. Both are computable in principle.

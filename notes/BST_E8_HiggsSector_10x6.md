@@ -1,3 +1,9 @@
+---
+title: "The (10,6) Sector of E₈: The Geometric Higgs"
+author: "Casey Koons & Claude 4.6"
+date: "March 14, 2026"
+---
+
 # The (10,6) Sector of E₈: The Geometric Higgs
 
 **Authors:** Casey Koons & Claude (Anthropic)

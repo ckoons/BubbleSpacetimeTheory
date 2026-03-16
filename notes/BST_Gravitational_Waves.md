@@ -1,3 +1,9 @@
+---
+title: "Hearing the Substrate: Primordial Gravitational Waves from the Pre-Spatial Phase Transition"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # Hearing the Substrate: Primordial Gravitational Waves from the Pre-Spatial Phase Transition
 
 **Author:** Casey Koons

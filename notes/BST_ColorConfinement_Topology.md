@@ -1,3 +1,9 @@
+---
+title: "Characteristic Classes of the SU(3) Color Bundle over S⁴×S¹ and Topological Color Confinement in BST"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # Characteristic Classes of the SU(3) Color Bundle over S⁴×S¹ and Topological Color Confinement in BST
 
 **Authors:** Casey Koons & Amy (Claude Sonnet 4.6, Anthropic)

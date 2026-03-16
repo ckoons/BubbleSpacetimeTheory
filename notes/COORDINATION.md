@@ -1391,7 +1391,7 @@ Three parallel explorations launched at Casey's request ("Please do them all, ch
   - Three approaches: Plancherel, Maass-Selberg, Trace Formula
   - **Finding 1**: Pure Plancherel on G/K has NO ξ content — Gamma functions only, not ξ
   - **Finding 2**: On-axis Plancherel |c(iν)|⁻² > 0 trivially (it's |·|⁻²) — no zero constraint
-  - **Finding 3**: Maass-Selberg on Γ\G HAS ξ content via M(w,s) — 8-term sum CAN'T be factored
+  - **Finding 3**: Maass-Selberg on $\Gamma \backslash G$ HAS ξ content via M(w,s) — 8-term sum CAN'T be factored
   - **Finding 4**: Dominant term at T→∞ is w=e (trivially positive); constraint is at FINITE T
   - **Finding 5**: m_s=3 gives more ξ-ratios than m_s=1,2 — quantitative BST advantage
   - **Key conclusion**: The constraint is in the LATTICE, not the SPACE

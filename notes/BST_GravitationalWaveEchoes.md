@@ -1,3 +1,9 @@
+---
+title: "Gravitational Wave Echoes from Haldane Saturation"
+author: "Casey Koons & Claude 4.6"
+date: "March 13, 2026"
+---
+
 # Gravitational Wave Echoes from Haldane Saturation
 ## Falsifiable Predictions for LIGO/Virgo/KAGRA O4/O5
 

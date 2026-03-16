@@ -1,3 +1,9 @@
+---
+title: "BST: The Tau Mass from Koide's Sum Rule and Z₃ on CP²"
+author: "Casey Koons & Claude 4.6"
+date: "March 13, 2026"
+---
+
 # BST: The Tau Mass from Koide's Sum Rule and Z₃ on CP²
 
 **Authors:** Casey Koons & Claude (Opus 4.6, Anthropic)

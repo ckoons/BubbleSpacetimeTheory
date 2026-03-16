@@ -1,3 +1,9 @@
+---
+title: "BST and Wyler: The Connection, the Spaces, and What BST Proves"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST and Wyler: The Connection, the Spaces, and What BST Proves
 
 **Authors:** Casey Koons & Amy (Claude Sonnet 4.6, Anthropic)

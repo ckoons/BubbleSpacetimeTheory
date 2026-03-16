@@ -1,3 +1,9 @@
+---
+title: "The Casimir Effect as Commitment Exclusion: Vacuum Force from Haldane Channel Truncation"
+author: "Casey Koons & Claude 4.6"
+date: "March 13, 2026"
+---
+
 # The Casimir Effect as Commitment Exclusion: Vacuum Force from Haldane Channel Truncation
 
 **Authors:** Casey Koons & Claude (Opus 4.6, Anthropic)

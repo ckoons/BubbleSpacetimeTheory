@@ -1,3 +1,9 @@
+---
+title: "The Fundamental Frequency f₀: What the Geometry Does and Does Not Determine"
+author: "Casey Koons & Claude 4.6"
+date: "March 14, 2026"
+---
+
 # The Fundamental Frequency f₀: What the Geometry Does and Does Not Determine
 
 **Authors:** Casey Koons & Claude (Anthropic)

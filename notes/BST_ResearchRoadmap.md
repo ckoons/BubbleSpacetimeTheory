@@ -1,3 +1,9 @@
+---
+title: "BST Research Roadmap"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST Research Roadmap
 **Casey Koons, March 2026**
 *Master list of open problems, priority order, and tools needed*

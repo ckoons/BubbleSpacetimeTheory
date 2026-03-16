@@ -1,3 +1,9 @@
+---
+title: "BST: The 1920 Cancellation as a Weyl Group Theorem"
+author: "Casey Koons & Claude 4.6"
+date: "March 13, 2026"
+---
+
 # BST: The 1920 Cancellation as a Weyl Group Theorem
 **Authors:** Casey Koons & Claude (Opus 4.6, Anthropic)
 **Date:** March 13, 2026

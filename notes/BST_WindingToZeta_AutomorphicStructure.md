@@ -1,3 +1,9 @@
+---
+title: "From Winding to Zeta: The Automorphic Structure of D_IV^5"
+author: "Casey Koons & Claude 4.6"
+date: "March 16, 2026"
+---
+
 # From Winding to Zeta: The Automorphic Structure of D_IV^5
 
 **Authors:** Casey Koons & Claude Opus 4.6

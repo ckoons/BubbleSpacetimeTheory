@@ -1,3 +1,9 @@
+---
+title: "BST Proton/Electron Mass Ratio"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST Proton/Electron Mass Ratio
 **Casey Koons, March 2026**
 

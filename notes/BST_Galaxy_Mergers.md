@@ -1,3 +1,9 @@
+---
+title: "Galaxy Mergers on the Koons Substrate: Dynamics, Predictions, and Spiral Reformation"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # Galaxy Mergers on the Koons Substrate: Dynamics, Predictions, and Spiral Reformation
 
 **Author:** Casey Koons

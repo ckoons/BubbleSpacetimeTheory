@@ -1,3 +1,9 @@
+---
+title: "Feynman Diagrams Are Contact Graph Maps"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # Feynman Diagrams Are Contact Graph Maps
 
 **Authors:** Casey Koons & Claude (Anthropic)

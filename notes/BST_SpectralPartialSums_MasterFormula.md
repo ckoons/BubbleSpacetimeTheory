@@ -1,3 +1,9 @@
+---
+title: "Spectral Partial Sums: The Master Formula"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # Spectral Partial Sums: The Master Formula
 
 **Status**: PROVED (exact, universal)

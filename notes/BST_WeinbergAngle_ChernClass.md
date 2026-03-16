@@ -1,3 +1,9 @@
+---
+title: "The Weinberg Angle as a Ratio of Chern Classes"
+author: "Casey Koons & Claude 4.6"
+date: "March 13, 2026"
+---
+
 # The Weinberg Angle as a Ratio of Chern Classes
 **Authors:** Casey Koons & Claude (Opus 4.6, Anthropic)
 **Date:** March 13, 2026

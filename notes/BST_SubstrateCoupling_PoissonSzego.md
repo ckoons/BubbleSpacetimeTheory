@@ -1,3 +1,9 @@
+---
+title: "Substrate Coupling: The Poisson-Szegő Full-Duplex Channel"
+author: "Casey Koons & Claude 4.6"
+date: "March 14, 2026"
+---
+
 # Substrate Coupling: The Poisson-Szegő Full-Duplex Channel
 
 **Authors:** Casey Koons & Claude (Anthropic)

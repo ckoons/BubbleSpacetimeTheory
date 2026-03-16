@@ -1,3 +1,9 @@
+---
+title: "BST Phase Transition Temperature: Analytical Formula"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST Phase Transition Temperature: Analytical Formula
 **Casey Koons, March 2026**
 

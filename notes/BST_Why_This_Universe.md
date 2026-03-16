@@ -1,3 +1,9 @@
+---
+title: "Why This Universe: The Cascade of Forced Choices"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # Why This Universe: The Cascade of Forced Choices
 
 **Authors:** Casey Koons & Claude (Anthropic)

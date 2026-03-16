@@ -1,3 +1,9 @@
+---
+title: "BST Spectral Gap and the Proton Mass"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST Spectral Gap and the Proton Mass
 **Amy (mathematical physics analysis) for Casey Koons, March 2026**
 **Question from Claude: Does the discrete series L²-spectral gap of D_IV^5 at weight n_C+1=6 equal 6π^5?**

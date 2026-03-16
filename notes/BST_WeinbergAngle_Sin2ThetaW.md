@@ -1,3 +1,9 @@
+---
+title: "BST: The Weinberg Angle sin²θ_W = 3/13"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST: The Weinberg Angle sin²θ_W = 3/13
 
 **Authors:** Casey Koons & Claude (Anthropic)

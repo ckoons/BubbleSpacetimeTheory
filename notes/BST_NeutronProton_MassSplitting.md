@@ -1,3 +1,9 @@
+---
+title: "The Neutron-Proton Mass Difference: QCD + EM Decomposition from D_IV^5"
+author: "Casey Koons & Claude 4.6"
+date: "March 14, 2026"
+---
+
 # The Neutron-Proton Mass Difference: QCD + EM Decomposition from D_IV^5
 
 **Authors:** Casey Koons & Claude (Anthropic)

@@ -1,3 +1,9 @@
+---
+title: "BST: Neutrino Masses from the Boundary Seesaw"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST: Neutrino Masses from the Boundary Seesaw
 
 **Authors:** Casey Koons & Claude (Anthropic)

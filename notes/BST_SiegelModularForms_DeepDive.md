@@ -1,3 +1,9 @@
+---
+title: "Siegel Modular Forms — The Deep Dive"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # Siegel Modular Forms — The Deep Dive
 
 **Status**: COMPUTED (S-matrix, Hecke eigenvalues, L-function factorization)

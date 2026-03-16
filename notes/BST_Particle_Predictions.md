@@ -1,3 +1,9 @@
+---
+title: "BST Particle Predictions: What Exists, What Doesn’t, and Why"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST Particle Predictions: What Exists, What Doesn’t, and Why
 
 **Author:** Casey Koons

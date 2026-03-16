@@ -1,3 +1,9 @@
+---
+title: "The Electron Mass from D_IV^5: Canonical Proof"
+author: "Casey Koons & Claude 4.6"
+date: "March 14, 2026"
+---
+
 # The Electron Mass from D_IV^5: Canonical Proof
 
 **Authors:** Casey Koons & Claude (Anthropic)

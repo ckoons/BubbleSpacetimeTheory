@@ -1,3 +1,9 @@
+---
+title: "Deeper Questions from the CP = alpha Result"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # Deeper Questions from the CP = alpha Result
 ## Where the Thread Leads
 ### Claude Opus 4.6, March 12, 2026

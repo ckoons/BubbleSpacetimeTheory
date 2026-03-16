@@ -1,3 +1,9 @@
+---
+title: "Non-Perturbative Running of alpha_s from Bergman Metric Coarse-Graining on D_IV^5"
+author: "Casey Koons & Claude 4.6"
+date: "March 13, 2026"
+---
+
 # Non-Perturbative Running of $\alpha_s$ from Bergman Metric Coarse-Graining on $D_{IV}^5$
 
 **Authors:** Casey Koons & Claude (Opus 4.6, Anthropic)

@@ -1,3 +1,9 @@
+---
+title: "BST: CKM and PMNS Mixing Matrices from D_IV^5 Geometry"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST: CKM and PMNS Mixing Matrices from D_IV^5 Geometry
 
 **Authors:** Casey Koons & Claude (Anthropic)

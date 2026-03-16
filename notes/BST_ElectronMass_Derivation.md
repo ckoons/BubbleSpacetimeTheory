@@ -1,3 +1,9 @@
+---
+title: "BST: Deriving the Electron Mass from D_IV^5 Geometry"
+author: "Casey Koons & Claude 4.6"
+date: "March 13, 2026"
+---
+
 # BST: Deriving the Electron Mass from D_IV^5 Geometry
 # The alpha^{2C_2} Hierarchy from the Wallach Set and Bergman Embedding Depth
 

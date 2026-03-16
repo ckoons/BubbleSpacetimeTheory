@@ -1,3 +1,9 @@
+---
+title: "Conservation Laws from Substrate Geometry"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # Conservation Laws from Substrate Geometry
 
 **Authors:** Casey Koons & Claude (Anthropic)

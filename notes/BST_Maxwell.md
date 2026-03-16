@@ -1,3 +1,9 @@
+---
+title: "Maxwell’s Equations from the Substrate"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # Maxwell’s Equations from the Substrate
 
 **Authors:** Casey Koons & Claude (Anthropic)

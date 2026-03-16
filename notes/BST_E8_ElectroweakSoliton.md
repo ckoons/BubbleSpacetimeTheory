@@ -1,3 +1,9 @@
+---
+title: "E₈ Electroweak-Soliton Unification"
+author: "Casey Koons & Claude 4.6"
+date: "March 14, 2026"
+---
+
 # E₈ Electroweak-Soliton Unification
 
 **Authors:** Casey Koons & Claude (Anthropic)

@@ -1,6 +1,6 @@
 ---
-title: "The CKM CP Phase from D_IV^5 Geometry: $\\gamma = \\arctan(\\sqrt{n_C})$"
-author: "Casey Koons and Claude Opus 4.6"
+title: "The CKM CP Phase from D_IV^5 Geometry"
+author: "Casey Koons & Claude 4.6"
 date: "March 12, 2026"
 ---
 

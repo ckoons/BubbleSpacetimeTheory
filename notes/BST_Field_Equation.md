@@ -1,3 +1,9 @@
+---
+title: " The BST Field Equation: Einstein’s Equation from the Koons Substrate"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
  The BST Field Equation: Einstein’s Equation from the Koons Substrate
 
 **Author:** Casey Koons

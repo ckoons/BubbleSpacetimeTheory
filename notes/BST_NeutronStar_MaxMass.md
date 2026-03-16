@@ -1,3 +1,9 @@
+---
+title: "BST: The Chandrasekhar Limit and Neutron Star Maximum Mass"
+author: "Casey Koons & Claude 4.6"
+date: "March 13, 2026 (revised)"
+---
+
 # BST: The Chandrasekhar Limit and Neutron Star Maximum Mass
 
 **Authors:** Casey Koons & Claude (Opus 4.6, Anthropic)

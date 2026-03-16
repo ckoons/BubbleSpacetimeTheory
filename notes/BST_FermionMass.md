@@ -1,3 +1,9 @@
+---
+title: "BST Fermion Mass Spectrum: Geometric Derivation"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST Fermion Mass Spectrum: Geometric Derivation
 
 **Author:** Casey Koons

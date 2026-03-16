@@ -2,7 +2,7 @@
 title: "The Maass-Selberg Proof of the Riemann Hypothesis"
 author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026"
-status: "Rank-2 coupling COMPLETE — overconstrained system proves δ=0"
+status: "Rank-2 coupling COMPLETE — overconstrained system proves delta=0"
 toy: "206 (Maass-Selberg Kill), 207 (Rank-2 Coupling)"
 depends_on: "BST_ArthurElimination_PotentialMinimum.md, BST_RiemannReduction_FiniteComputation.md"
 ---

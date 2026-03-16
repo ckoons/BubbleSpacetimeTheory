@@ -1,3 +1,9 @@
+---
+title: "BST Quantum Field Theory: Foundations"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST Quantum Field Theory: Foundations
 
 **Author:** Casey Koons & Claude (Anthropic)

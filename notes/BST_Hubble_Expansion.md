@@ -1,3 +1,9 @@
+---
+title: "BST Hubble Expansion: Committed Contact Graph Area Rate"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST Hubble Expansion: Committed Contact Graph Area Rate
 **Casey Koons, March 2026**
 

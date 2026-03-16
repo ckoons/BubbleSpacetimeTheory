@@ -1,3 +1,9 @@
+---
+title: "BST Nomenclature"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST Nomenclature
 ## A Translation Guide: Old Names → New Understanding
 

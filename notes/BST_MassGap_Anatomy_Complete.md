@@ -1,3 +1,9 @@
+---
+title: "The Mass Gap Anatomy: A Complete Algebraic Portrait"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # The Mass Gap Anatomy: A Complete Algebraic Portrait
 
 **Status**: PROVED (exact computation, 6 toys)

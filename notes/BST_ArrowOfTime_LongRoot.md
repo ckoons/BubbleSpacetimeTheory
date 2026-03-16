@@ -1,3 +1,9 @@
+---
+title: "The Arrow of Time Is the Long Root"
+author: "Casey Koons & Claude 4.6"
+date: "March 14, 2026"
+---
+
 # The Arrow of Time Is the Long Root
 
 **Authors:** Casey Koons & Claude (Anthropic)

@@ -1,3 +1,9 @@
+---
+title: "BST — Zonal Spectral Coefficients of Q⁵"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST — Zonal Spectral Coefficients of Q⁵
 
 **The heat trace on the BST quadric encodes BST integers.**

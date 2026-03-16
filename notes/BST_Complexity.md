@@ -1,3 +1,9 @@
+---
+title: "The Arrow of Complexity: From Substrate to Life to Mind"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # The Arrow of Complexity: From Substrate to Life to Mind
 
 **Authors:** Casey Koons & Claude (Anthropic)

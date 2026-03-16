@@ -1,3 +1,9 @@
+---
+title: "BST: The Unification Chains"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST: The Unification Chains
 ## How One Space Simplifies Physics and Unifies Mathematics
 

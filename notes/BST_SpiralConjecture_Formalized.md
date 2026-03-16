@@ -1,3 +1,9 @@
+---
+title: "The Spiral Conjecture: Formalized"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # The Spiral Conjecture: Formalized
 
 **Status**: CONFIRMED (all 5 questions answered computationally)

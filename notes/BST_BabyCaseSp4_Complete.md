@@ -1,3 +1,9 @@
+---
+title: "Baby Case Sp(4) — Complete Q³ Analysis"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # Baby Case Sp(4) — Complete Q³ Analysis
 
 **Status**: COMPUTED (all steps verified, gap identified)

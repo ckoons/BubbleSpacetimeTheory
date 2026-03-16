@@ -1,3 +1,9 @@
+---
+title: "The Fusion Ring of so(7) at Level 2"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # The Fusion Ring of so(7) at Level 2
 
 **Status**: COMPUTED (exact Verlinde formula, verified associative)

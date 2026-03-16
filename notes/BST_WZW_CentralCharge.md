@@ -1,3 +1,9 @@
+---
+title: "BST = Level-2 WZW Model of so(7)"
+author: "Casey Koons & Claude 4.6"
+date: "Date: March 16, 2026"
+---
+
 # BST = Level-2 WZW Model of so(7)
 
 **Status**: PROVED (exact computation)

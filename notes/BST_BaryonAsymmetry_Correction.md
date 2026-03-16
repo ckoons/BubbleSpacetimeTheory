@@ -1,3 +1,9 @@
+---
+title: "The First-Order Correction to η: (1 + 2α)"
+author: "Casey Koons & Claude 4.6"
+date: "March 14, 2026"
+---
+
 # The First-Order Correction to η: (1 + 2α)
 
 **Authors:** Casey Koons & Claude (Anthropic)
