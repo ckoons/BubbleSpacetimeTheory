@@ -121,7 +121,7 @@ where $n$ is the number of independent checkpoint layers that must be defeated. 
 
 $$P \sim \mu^6$$
 
-This explains the steep age-dependence of cancer incidence (approximately age$^5$ to age$^6$ for many solid tumors) — it is the sixth power of the cumulative mutation probability, corresponding to three independent two-hit failures.
+This explains the steep age-dependence of cancer incidence (approximately age$^{5}$ to age$^{6}$ for many solid tumors) — it is the sixth power of the cumulative mutation probability, corresponding to three independent two-hit failures.
 
 The exponent $2n = 6 = C_2$ — the mass gap. The same integer that controls the proton's stability ($\lambda_1 = 6$) also controls the cancer threshold. This is not a coincidence if the checkpoint cascade inherits its code structure from the same $D_{IV}^5$ geometry that produces the Steane code. The minimum number of independent checkpoint failures required for cancer is $C_2/2 = 3 = N_c$.
 
@@ -447,7 +447,7 @@ The scale-invariant pathology follows: if the architecture is the same at every 
 
 The topological entanglement entropy $\gamma = \ln D = \ln 2$ is the irreducible complexity of existence (BST_IrreducibleComplexity_Ln2.md). The chain from substrate to biology:
 
-$$\ln 2 \text{ (substrate)} \to f = \frac{3}{5\pi} \text{ (code rate)} \to \text{81% overhead (dark sector)} \to d_{\text{cell}} = 2^g = 128 \text{ (cell code distance)}$$
+$$\ln 2 \text{ (substrate)} \to f = \frac{3}{5\pi} \text{ (code rate)} \to \text{81\% overhead (dark sector)} \to d_{\text{cell}} = 2^g = 128 \text{ (cell code distance)}$$
 
 At every scale, the same error correction architecture: minimum information unit $= \ln 2$, code rate $\approx 1/5$, overhead $\approx 4/5$. The dark sector is checksums. The immune system is checksums. The checkpoint cascade is checksums. It's the same principle at every layer.
 

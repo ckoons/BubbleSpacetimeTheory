@@ -393,7 +393,7 @@ Every symbol refers to something you can compute. Every theorem has a number you
 
 ### Level 2 — General Mechanisms Derived from Underlying Methods
 
-Spectral theory on *any* Riemannian symmetric space. The Selberg trace formula for *any* locally symmetric space Γ\G/K. Chern-Weil theory on *any* principal bundle. Peter-Weyl on *any* compact group.
+Spectral theory on *any* Riemannian symmetric space. The Selberg trace formula for *any* locally symmetric space $\Gamma \backslash G / K$. Chern-Weil theory on *any* principal bundle. Peter-Weyl on *any* compact group.
 
 The step from Level 1 to Level 2 is the first generalization: the method that worked on Q⁵ is recognized as an instance of a mechanism that works on a class of spaces. The mechanism carries structure — it tells you *why* the Level 1 computation worked, and predicts that the same pattern holds elsewhere.
 

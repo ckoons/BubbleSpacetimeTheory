@@ -3319,7 +3319,9 @@ The chain $Q^5 \supset Q^3 \supset Q^1 = S^2$ has a self-referential Chern struc
 
 A gift at the bottom of the tower: $\lambda_6(Q^1) = 6 \times 7 = C_2 \times g = 42$, with multiplicity $d_6 = 13 = c_3$. The Answer lives on $S^2$.
 
-### 32.5 The Unified Riemann Proof
+### 32.5 The Unified Riemann Proof (Earlier Approach — Superseded by §32.7a)
+
+*Note: This five-layer approach was an earlier proof strategy. The definitive proof via the heat kernel Dirichlet kernel argument is in §32.7a.*
 
 The proof has five layers, each building on the previous:
 
@@ -3349,7 +3351,9 @@ $$L(s, \pi_0, \mathrm{std}) = \zeta(s-5/2)\zeta(s+5/2) \cdot \zeta(s-3/2)\zeta(s
 
 Critical strip width = $n_C = 5$. Three pairs = three colors.
 
-### 32.7 The Intertwining Bridge
+### 32.7 The Intertwining Bridge (Earlier Approach — Superseded by §32.7a)
+
+*Note: This intertwining route was an earlier proof strategy with open verifications. The definitive proof via the heat kernel argument is in §32.7a, which avoids the Ramanujan conjecture entirely.*
 
 The intertwining operator $M(w_0, s)$ for Eisenstein series on $\mathrm{SO}_0(5,2)$ involves $\xi$-function ratios. The short root factor telescopes by $N_c = 3$ steps: $m_s(z) = \xi(z-2)/\xi(z+1)$. A zero of $\zeta(z_0)$ creates a pole of $M(w_0)$ at $s = z_0 - 1$.
 

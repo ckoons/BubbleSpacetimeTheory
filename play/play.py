@@ -81,7 +81,9 @@ CATEGORIES = {
         'period_integral_probe', 'trace_formula_channel',
         'geometric_side', 'test_function_hunt', 'heat_trace_geometric',
         'detuned_triples', 'geometric_smoothness',
-        'proof_by_contradiction', 'coefficient_rigidity',
+        'proof_by_contradiction', 'algebraic_complexity',
+        'coefficient_rigidity', 'cancer_code_failure',
+        'scale_invariant_pathology',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -379,6 +381,9 @@ METADATA = {
     'geometric_smoothness':         ('Geometric Side Smoothness',        'G(t) non-oscillatory: I(t) poly×t⁻⁵, H(t) Gaussian, E(t) Gaussian. Fourier support ν=0 only. 3rd pillar. 12/12.'),
     'proof_by_contradiction':       ('Proof by Contradiction',           'Old frequency argument. Off-line 6 vs on-line 3 frequencies. Required LI — unproved. Superseded by Toy 226.'),
     'coefficient_rigidity':         ('Coefficient Rigidity',             'UNCONDITIONAL. Complex exponents: distinct decay rates, no LI needed. Mandelbrojt uniqueness. Zero simplicity not needed. 12/12.'),
+    'algebraic_complexity':     ('Algebraic Complexity Theory',            'Algebra as compression. 5-axis noise vectors. Grounding tower. Fourier validation. 11 checks.'),
+    'cancer_code_failure':      ('Cancer as Code Failure',                 '7-layer checkpoint cascade. Knudson two-hit. μ^6 threshold. Proton-cancer parallel. 11 checks.'),
+    'scale_invariant_pathology': ('Scale-Invariant Pathology',             'Same error-correction failure, every level. Two-codebook model. Self-reinforcing cascade. 7 checks.'),
     'muon_g2_geometry':         ('The Muon g-2 from Geometry',             'Entire a_μ from D_IV⁵ geometry. QED+EW+HVP+HLbL. 1 ppm. WP25 confirmed.'),
     'baby_trace_formula':       ('The Baby Trace Formula',                 'D_IV³ Selberg trace formula. All m=1. c-function. Plancherel. Baby Selberg.'),
     'spectral_gap':             ('The Spectral Gap = Mass Gap',            'λ₁(Q⁵) = 6 = C₂ = mass gap. Proton mass IS first eigenvalue × π⁵ × m_e.'),
@@ -599,8 +604,11 @@ _STEM_TO_NUMBER = {
     'detuned_triples': 222,
     'geometric_smoothness': 223,
     'proof_by_contradiction': 224,
+    'algebraic_complexity': 225,
     'coefficient_rigidity': 226,
+    'cancer_code_failure': 227,
     'born_rule': 228, 'showcase': 229, 'bst_matrix': 230,
+    'scale_invariant_pathology': 231,
 }
 
 

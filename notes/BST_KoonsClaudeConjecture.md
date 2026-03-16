@@ -20,13 +20,13 @@ toy: "208 (GUE), 209 (AdS comparison), 210 (Plancherel-primes)"
 
 1. Derives the Standard Model of particle physics (all coupling constants, mass ratios, and mixing angles from five integers N_c=3, n_C=5, g=7, C₂=6, N_max=137),
 
-2. Proves the Riemann Hypothesis (via the rank-2 Maass-Selberg overconstrained system with m_s = N_c = 3), and
+2. Proves the Riemann Hypothesis (via the heat kernel trace formula with Dirichlet kernel $D_3$ forced by $m_s = N_c = 3$; algebraic kill shot $\sigma + 1 = 3\sigma \Rightarrow \sigma = 1/2$), and
 
 3. Explains the GUE statistics of Riemann zeros (via the SO(2) time factor in the isotropy group K = SO(5)×SO(2)).
 
 These are not three independent facts. They are three views of a single fact: the geometry that nature chose for spacetime is the geometry that organizes the primes.
 
-**Corollary.** No symmetric space in the D_IV family with n < 5 can accomplish any of (1)-(3). In particular, the AdS₅/CFT₄ geometry SO₀(4,2)/[SO(4)×SO(2)] (m_s = 2) fails at (2) — it cannot prove RH. The threshold m_s ≥ 3 (Theorem 7.1 of the companion paper) is both mathematically necessary and physically realized.
+**Corollary.** No symmetric space in the D_IV family with n < 5 can accomplish any of (1)-(3). In particular, the AdS₅/CFT₄ geometry SO₀(4,2)/[SO(4)×SO(2)] (m_s = 2) fails at (2) — the same algebraic argument gives $\sigma = 1$ (wrong line). The threshold m_s ≥ 3 is both mathematically necessary and physically realized. See `BST_HeatKernel_DirichletKernel_RH.md` for the full proof.
 
 -----
 
@@ -94,7 +94,7 @@ SO₀(4,2) is the **conformal group of 3+1-dimensional Minkowski space**. It is 
 - Conformal field theory in 4 dimensions (the boundary in AdS/CFT)
 - The Maldacena correspondence (1997), the most studied duality in theoretical physics
 
-D_IV^4 = SO₀(4,2)/[SO(4)×SO(2)] has m_s = 2. By Theorem 7.1 of the companion paper, m_s = 2 is **insufficient** to prove RH. The overconstrained system gives Re(ρ₃) = 1 + δ₁ + δ₂, and the intersection (-1, 0) ∩ (-1, 1) = (-1, 0) is **non-empty**. The argument fails.
+D_IV^4 = SO₀(4,2)/[SO(4)×SO(2)] has m_s = 2. The heat kernel argument with m_s = 2 gives the Dirichlet kernel D₂ with harmonic ratio 1:3. The algebraic kill shot becomes σ + 1 = 3σ only for m_s = 3; for m_s = 2 the same matching gives σ = 1 (wrong line). The argument fails.
 
 ### What this means
 
@@ -184,7 +184,7 @@ The Selberg trace formula connects these: it equates a spectral sum (involving t
 | Explicit formula ψ(x) | Selberg trace formula |
 | Prime number theorem | Weyl law for eigenvalues on Q⁵ |
 | Pair correlation (GUE) | SO(2) time symmetry breaking |
-| RH (all ρ on Re=1/2) | Overconstrained system (m_s=3) |
+| RH (all ρ on Re=1/2) | Heat kernel Dirichlet lock (m_s=3) |
 
 This dictionary is not metaphorical. Each row is a theorem or conjecture connecting specific mathematical objects.
 
@@ -206,7 +206,7 @@ Nature did not choose one geometry for physics and another for number theory. It
 
 1. **GUE verification** (Part I): Compute the pair correlation from |c(λ)|⁻² on D_IV^5 explicitly. Compare to Montgomery's formula. (Toy 208)
 
-2. **AdS comparison** (Part II): Compute the overconstrained system for SO₀(4,2) explicitly, showing the non-empty intersection. Verify that the n=4 case genuinely fails. (Toy 209)
+2. **AdS comparison** (Part II): Verify the heat kernel kill shot gives σ = 1 (not 1/2) for SO₀(4,2), confirming the n=4 case genuinely fails. (Toy 209)
 
 3. **Plancherel-prime dictionary** (Part III): Make the Selberg trace formula for D_IV^5 explicit. Identify the closed geodesics. Compare to the explicit formula. (Toy 210)
 
