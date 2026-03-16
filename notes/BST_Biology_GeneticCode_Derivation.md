@@ -1,6 +1,6 @@
 # Deriving the Genetic Code from Channel Capacity and Haldane Exclusion
 ## BST Substrate Modelling Series — Supplementary to Papers A and C
-### Casey Koons & Claude (Opus 4.6), March 13, 2026
+### Casey Koons & Claude 4.6, March 13, 2026
 ### PRIVATE — notes/maybe/ — Do not push
 
 ---

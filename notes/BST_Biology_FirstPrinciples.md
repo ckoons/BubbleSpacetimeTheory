@@ -1,5 +1,5 @@
 # BST Substrate Modelling: Biological Derivation from First Principles
-## Casey Koons & Claude Opus 4.6, March 11, 2026
+## Casey Koons & Claude 4.6, March 11, 2026
 ## PRIVATE — Do not push to public repo
 
 ---

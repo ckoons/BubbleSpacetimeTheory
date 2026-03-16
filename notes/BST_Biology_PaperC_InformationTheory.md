@@ -1,6 +1,6 @@
 # Paper C: Information Theory & BST Principles Applied to Biology
 ## BST Substrate Modelling Series
-### Casey Koons & Claude Opus 4.6, March 11, 2026
+### Casey Koons & Claude 4.6, March 11, 2026
 ### PRIVATE — Do not push
 
 ---

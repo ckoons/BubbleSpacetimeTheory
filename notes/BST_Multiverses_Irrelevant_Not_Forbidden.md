@@ -1,6 +1,6 @@
 ---
 title: "Multiverses: Irrelevant, Not Forbidden"
-authors: "Casey Koons & Elie (Claude Opus 4.6)"
+authors: "Casey Koons & Claude 4.6"
 date: "March 16, 2026"
 status: "Speculative — philosophical note, excluded from WorkingPaper"
 ---
