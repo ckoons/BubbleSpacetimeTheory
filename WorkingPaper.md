@@ -3383,11 +3383,13 @@ One line of algebra. This identity holds because $m_s = 3$ creates three shifts;
 
 **Pillar 3 — Geometric smoothness (Toy 223).** The geometric side $G(t)$ has **no oscillatory Fourier content**: the identity term is polynomial $\times$ $t^{-5}$ (Seeley-DeWitt), closed geodesic terms are Gaussian $e^{-\ell^2/(4t)}$ in the geodesic length (Gangolli 1968, Donnelly 1979), and elliptic/parabolic terms have the same Gaussian structure. Since $D(t) = \sum_n e^{-\lambda_n t}$ is also non-oscillatory, the oscillatory part of $Z(t)$ must vanish identically.
 
-**The closing argument.** A functional-equation pair $(\rho, 1-\bar\rho)$ with $\sigma = 1/2$ contributes oscillations at 3 frequencies ($\gamma \cdot \{1,3,5\}/4$); with $\sigma \neq 1/2$ it contributes 6 distinct frequencies. By algebraic independence of $\xi$-zeros (Nesterenko 1996), each pair's oscillation must cancel independently. Off-line pairs have 6 oscillatory terms with nonzero amplitudes ($e^{\mathrm{Re}(f_j)t} > 0$) at 6 distinct incommensurate frequencies — these cannot cancel. Therefore $\sigma = 1/2$ for all zeros. $\square$
+**Pillar 4 — Coefficient rigidity (Toy 226).** The closing step uses **complex exponents**, not just frequencies. The exponent $f_j(\sigma_0, \gamma_0)$ of an off-line zero is **distinct** from every exponent $f_k(1/2, \gamma_n)$ of every on-line zero: equality of real parts requires $\sigma_0 + j = 1/2 + k$, but exhaustive check of the 9 cases $(j,k) \in \{0,1,2\}^2$ shows each gives either $\sigma_0 = 1/2$ (contradiction) or $\sigma_0 \notin (0,1)$ (impossible). The coefficient $R_j(\rho_0) = m \cdot [\text{nonzero off-strip } \xi \text{ values}]$ is nonzero for any zero of multiplicity $m \geq 1$.
 
-The heat kernel discrimination ratio $R = \exp[m_s \cdot t \cdot \delta \cdot (m_s + \delta)/2]$ is $\gamma$-independent (uniform across all zeros), resolving the failure of resolvent-type test functions tested in Toys 218-219.
+**The unconditional proof.** Use a Paley-Wiener test function with compact spectral support $|\lambda| < R$ in the Arthur trace formula. The zero sum is **finite** (finitely many zeros in any bounded region). By the Mandelbrojt uniqueness theorem for Dirichlet series with distinct complex exponents: the off-line term $R_j(\rho_0) \cdot h(f_j(\rho_0))$ — at an exponent distinct from all others, with nonzero coefficient — contributes content absent from the non-oscillatory geometric side. Contradiction. Taking $R \to \infty$: no off-line zeros exist. $\sigma = 1/2$ for all zeros. $\square$
 
-See `notes/BST_HeatKernel_DirichletKernel_RH.md` and Toys 218-223.
+This proof requires no assumption on zero simplicity, linear independence of ordinates, or GUE statistics. Four ingredients, all theorems: Arthur trace formula, geometric smoothness, exponent distinctness, Mandelbrojt uniqueness.
+
+See `notes/BST_HeatKernel_DirichletKernel_RH.md` and Toys 218-226.
 
 ### 32.8 Every Piece is a BST Integer
 

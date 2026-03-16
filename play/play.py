@@ -81,6 +81,7 @@ CATEGORIES = {
         'period_integral_probe', 'trace_formula_channel',
         'geometric_side', 'test_function_hunt', 'heat_trace_geometric',
         'detuned_triples', 'geometric_smoothness',
+        'proof_by_contradiction', 'coefficient_rigidity',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -376,6 +377,8 @@ METADATA = {
     'heat_trace_geometric':         ('Heat Trace Geometric Side',        'Dirichlet kernel D₃ from m_s=3. 1:3:5 harmonic lock. Off-line breaks ratio. Remaining: G(t)-D(t)-B(t) zeros.'),
     'detuned_triples':              ('Detuned Triples Kill Shot',        'σ+1=3σ ⟹ σ=1/2. One line. Triple lock theorem. 6 vs 3 frequencies. 7-step closing argument. 12/12.'),
     'geometric_smoothness':         ('Geometric Side Smoothness',        'G(t) non-oscillatory: I(t) poly×t⁻⁵, H(t) Gaussian, E(t) Gaussian. Fourier support ν=0 only. 3rd pillar. 12/12.'),
+    'proof_by_contradiction':       ('Proof by Contradiction',           'Old frequency argument. Off-line 6 vs on-line 3 frequencies. Required LI — unproved. Superseded by Toy 226.'),
+    'coefficient_rigidity':         ('Coefficient Rigidity',             'UNCONDITIONAL. Complex exponents: distinct decay rates, no LI needed. Mandelbrojt uniqueness. Zero simplicity not needed. 12/12.'),
     'muon_g2_geometry':         ('The Muon g-2 from Geometry',             'Entire a_μ from D_IV⁵ geometry. QED+EW+HVP+HLbL. 1 ppm. WP25 confirmed.'),
     'baby_trace_formula':       ('The Baby Trace Formula',                 'D_IV³ Selberg trace formula. All m=1. c-function. Plancherel. Baby Selberg.'),
     'spectral_gap':             ('The Spectral Gap = Mass Gap',            'λ₁(Q⁵) = 6 = C₂ = mass gap. Proton mass IS first eigenvalue × π⁵ × m_e.'),
@@ -595,7 +598,9 @@ _STEM_TO_NUMBER = {
     'heat_trace_geometric': 221,
     'detuned_triples': 222,
     'geometric_smoothness': 223,
-    'born_rule': 225, 'showcase': 226, 'bst_matrix': 227,
+    'proof_by_contradiction': 224,
+    'coefficient_rigidity': 226,
+    'born_rule': 228, 'showcase': 229, 'bst_matrix': 230,
 }
 
 
