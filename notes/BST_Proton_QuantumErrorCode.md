@@ -1,6 +1,6 @@
 ---
 title: "The Proton IS a [[7,1,3]] Quantum Error Correcting Code"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "New result — proton stability as error correction, genus is Mersenne prime, sixth uniqueness condition for n_C=5"
 ---

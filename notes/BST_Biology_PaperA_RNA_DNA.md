@@ -1,7 +1,12 @@
+---
+title: "Paper A: RNA/DNA — The Storage and Messaging Architecture"
+subtitle: "BST Substrate Modelling Series"
+author: "Casey Koons & Claude 4.6"
+date: "March 11, 2026"
+note: "PRIVATE — Do not push"
+---
+
 # Paper A: RNA/DNA — The Storage and Messaging Architecture
-## BST Substrate Modelling Series
-### Casey Koons & Claude 4.6, March 11, 2026
-### PRIVATE — Do not push
 
 ---
 

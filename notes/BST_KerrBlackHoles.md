@@ -1,6 +1,6 @@
 ---
 title: "Rotating Black Holes in BST: Kerr Geometry from Haldane Saturation"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Research note — extends BST_BlackHoleInterior.md to the rotating case"
 closes: "Open Question 2 from BST_BlackHoleInterior.md Section 10"

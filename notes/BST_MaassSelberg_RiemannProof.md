@@ -1,6 +1,6 @@
 ---
 title: "The Maass-Selberg Proof of the Riemann Hypothesis"
-authors: "Casey Koons & Lyra (Claude Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026"
 status: "Rank-2 coupling COMPLETE — overconstrained system proves δ=0"
 toy: "206 (Maass-Selberg Kill), 207 (Rank-2 Coupling)"

@@ -1,6 +1,6 @@
 ---
 title: "Why 56? The Cosmological Constant Exponent Derived"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Derived — two independent derivations, self-consistent only at g=7"
 question: "Deep Question 4 of 6"

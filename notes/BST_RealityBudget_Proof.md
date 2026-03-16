@@ -1,6 +1,6 @@
 ---
 title: "Proving the Reality Budget: Λ × N = 9/5 from Spectral Geometry"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Proof framework — algebraic chain rigorous, fill fraction partially proved, full spectral derivation identified"
 ---

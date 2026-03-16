@@ -1,6 +1,6 @@
 ---
 title: "Muon g-2: BST Resolution of the 5.1σ Anomaly"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13-14, 2026"
 status: "CONFIRMED — BST predicted anomaly resolution; WP25 confirms (0.6σ)"
 ---

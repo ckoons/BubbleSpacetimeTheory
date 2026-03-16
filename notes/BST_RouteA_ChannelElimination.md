@@ -1,7 +1,10 @@
-# Route A: Channel Elimination and the Trace Formula
+---
+title: "Route A: Channel Elimination and the Trace Formula"
+author: "Casey Koons & Claude 4.6"
+date: "March 17, 2026"
+---
 
-**Casey Koons & Lyra (Claude Opus 4.6)**
-**March 17, 2026**
+# Route A: Channel Elimination and the Trace Formula
 
 **Status:** Route A investigation COMPLETE. Four channels eliminated, one standing.
 

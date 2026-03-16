@@ -1,6 +1,6 @@
 ---
 title: "The Hilbert Series of Q⁵ and the Spectral Hierarchy"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "New result — connects algebraic geometry, mass hierarchy, and coupling constants through spectral data"
 ---

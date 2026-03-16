@@ -1,6 +1,11 @@
+---
+title: "BST Light Measurement Programme"
+subtitle: "Experimental Programme for Testing Geometric Polarization"
+author: "Casey Koons & Claude 4.6"
+date: "March 12, 2026"
+---
+
 # BST Light Measurement Programme
-## Experimental Programme for Testing Geometric Polarization
-### Casey Koons & Claude Opus 4.6, March 12, 2026
 
 ---
 

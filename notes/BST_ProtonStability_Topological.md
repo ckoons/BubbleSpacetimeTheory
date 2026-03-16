@@ -1,6 +1,6 @@
 ---
 title: "Proton Stability: The Z₃ Circuit Cannot Unwind"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "Theorem — prediction: proton is absolutely stable"
 ---

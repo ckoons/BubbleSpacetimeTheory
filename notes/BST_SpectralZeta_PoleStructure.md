@@ -1,6 +1,6 @@
 ---
 title: "The Spectral Zeta Function of Q⁵: Poles, Residues, and the 1/60 Theorem"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "Computed — pole structure, convergent values, connection to Seeley–De Witt coefficients"
 ---

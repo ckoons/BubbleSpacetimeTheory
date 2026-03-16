@@ -1,6 +1,6 @@
 ---
 title: "ζ-Values in QED from Spectral Expansion on Q⁵"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "Conjecture — connects QED perturbation theory to spectral structure of Q⁵ and Riemann"
 ---

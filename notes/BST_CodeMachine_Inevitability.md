@@ -1,6 +1,6 @@
 ---
 title: "The Code Machine: Q⁵ Forces All Perfect Codes"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "Deep synthesis — Q⁵ geometry inevitably produces all perfect codes, including the ternary Golay [11,6,5]₃ from Chern classes"
 ---

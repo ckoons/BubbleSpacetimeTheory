@@ -1,6 +1,6 @@
 ---
 title: "The Reality Budget: Λ × N_total and the Information Capacity of the Universe"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Speculative — numerically computed, BST derivation conjectured"
 ---

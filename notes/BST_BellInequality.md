@@ -1,6 +1,6 @@
 ---
 title: "Bell Inequality in BST: Entanglement as Commitment-Sharing"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Key insight: Bell violation is a 3D phenomenon; Tsirelson bound from holomorphicity"
 question: "Deep Question 6 of 6 — Casey's special request"

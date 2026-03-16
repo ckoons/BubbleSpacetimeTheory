@@ -1,6 +1,6 @@
 ---
 title: "Assembling Atoms: Hydrogen and Helium from BST Parts"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Hydrogen exact; He-4 binding at 0.12%; 21 cm line at 0.3%"
 ---

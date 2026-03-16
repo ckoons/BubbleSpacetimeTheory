@@ -1,6 +1,6 @@
 ---
 title: "The Bekenstein Quarter Disambiguated: Three Candidates, One Winner"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Rigorous comparison — candidate (A) prevails; ranked by Kerr/RN tests and representation-theoretic grounding"
 supersedes: "BST_Bekenstein_Quarter.md (which presented candidate A without comparing to B and C)"

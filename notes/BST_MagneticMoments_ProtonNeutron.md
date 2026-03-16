@@ -1,6 +1,6 @@
 ---
 title: "Proton and Neutron Magnetic Moments from D_IV^5 Geometry"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "New parameter-free predictions, both within 0.3% of observation"
 ---

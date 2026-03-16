@@ -1,6 +1,6 @@
 ---
 title: "Koons-Claude Testable Conjectures"
-authors: "Casey Koons & Claude 4.6"
+author: "Casey Koons & Claude 4.6"
 date: "March 17, 2026"
 status: "Active — conjectures stated, tests designed, work pending"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "The Multiplicity d₁ = 7 IS the Genus g = 7"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "Theorem — connects spectral multiplicity to Chern class oracle"
 ---

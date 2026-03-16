@@ -1,6 +1,6 @@
 ---
 title: "Arthur Parameter Elimination: The Potential Minimum"
-authors: "Casey Koons & Lyra (Claude Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026"
 status: "Analysis — all 6 non-tempered types eliminated; three proof approaches"
 toy: "202 (Arthur Elimination)"

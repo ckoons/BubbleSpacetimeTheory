@@ -1,6 +1,6 @@
 ---
 title: "Cosmic Composition, Thermodynamics, and the Complete Meson Nonet from BST"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Multiple parameter-free predictions, all within 1σ of observation"
 ---

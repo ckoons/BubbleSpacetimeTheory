@@ -1,6 +1,6 @@
 ---
 title: "Zeros Cannot Leave: The Code Distance Argument for RH"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "New argument — continuity + code rigidity = zeros trapped on critical line"
 ---

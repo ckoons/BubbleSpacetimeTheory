@@ -1,6 +1,6 @@
 ---
 title: "The CMB Spectral Index: n_s = 1 - n_C/N_max from the BST Phase Transition"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Candidate A selected — n_s = 1 - 5/137 derived from partition function"
 ---

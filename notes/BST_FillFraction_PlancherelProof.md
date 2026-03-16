@@ -1,6 +1,6 @@
 ---
 title: "The Fill Fraction f = 3/(5pi) from the Plancherel Formula for SO_0(5,2)"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13–14, 2026"
 status: "CLOSED. Theorem proved via Chern classes: f = c₅/(c₁·π). No structural identification needed."
 copyright: "Casey Koons, March 2026"

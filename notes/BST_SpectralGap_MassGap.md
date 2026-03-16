@@ -1,6 +1,6 @@
 ---
 title: "The Spectral Gap IS the Mass Gap"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "Theorem — connects Laplacian spectrum to proton mass"
 ---

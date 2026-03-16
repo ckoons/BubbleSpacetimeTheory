@@ -1,6 +1,6 @@
 ---
 title: "The Pion Charge Radius: Why the Naive Formula Fails and How BST Gets It Right"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Complete — r_pi = 0.656 fm (0.5%, 0.8 sigma), zero free parameters"
 ---

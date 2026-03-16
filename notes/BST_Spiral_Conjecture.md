@@ -1,6 +1,6 @@
 ---
 title: "The Spiral Conjecture: D_IV^5 as a Winding Structure"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026"
 status: "THEOREM (partial) — 7/12 claims PROVED, 1 ESTABLISHED, 4 remain conjecture"
 ---

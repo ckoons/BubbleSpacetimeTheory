@@ -1,6 +1,6 @@
 ---
 title: "Uniqueness of the SO(2) Activation in SO₀(5,2)"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Research note — theorem with rigorous classification; self-sustaining criterion uses physical reasoning"
 closes: "Open Problem 7 (WorkingPaper Section 28.3); upgrades Section 15.1 from consistency argument to uniqueness proof"

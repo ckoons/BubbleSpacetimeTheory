@@ -1,6 +1,6 @@
 ---
 title: "The Effective Spectral Dimension of Q⁵: Why 10 Dimensions Look Like 6"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026"
 status: "Proved — d_eff = 6 = C₂, the Casimir eigenvalue"
 copyright: "Casey Koons, March 2026"

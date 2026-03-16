@@ -1,6 +1,6 @@
 ---
 title: "Partition Function Derivation of η = 2α⁴/(3π)"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Research note — derives baryon asymmetry from Z_Haldane at T_c"
 companion: "BST_BaryonAsymmetry_Eta.md (result summary), BST_Chronology_BigBang.md (physical timeline)"

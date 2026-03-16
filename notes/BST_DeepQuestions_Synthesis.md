@@ -1,6 +1,6 @@
 ---
 title: "Six Deep Questions, Three Integers: A BST Synthesis"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Synthesis of six deep question investigations"
 ---

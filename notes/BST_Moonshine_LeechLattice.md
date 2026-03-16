@@ -1,6 +1,6 @@
 ---
 title: "From Q⁵ to the Monster: The Moonshine Chain"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "Deep conjecture — traces the chain from BST spectral data through Golay/Leech/Monster to Riemann"
 ---

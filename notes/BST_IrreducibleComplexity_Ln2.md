@@ -1,6 +1,6 @@
 ---
 title: "Irreducible Complexity = ln 2"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026"
 status: "Derived — topological entanglement entropy from B-type quantum groups at level 2"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Baryon Resonance Spectrum and Meson Masses from D_IV^5"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "New predictions — baryon spectrum conjectured, ρ meson mass derived"
 ---

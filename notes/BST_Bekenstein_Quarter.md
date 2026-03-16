@@ -1,6 +1,6 @@
 ---
 title: "The Bekenstein-Hawking Quarter: Why S = A/(4 l_Pl^2) from BST Geometry"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Partial derivation — the 1/4 decomposes into two independent factors of 1/2, each with a clean BST origin; the combination is structurally compelling but one step remains conjectural"
 ---

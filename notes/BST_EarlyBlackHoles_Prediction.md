@@ -1,6 +1,11 @@
+---
+title: "Early Black Holes: Direct Formation from Phase Transition"
+subtitle: "BST Prediction vs JWST Observations"
+author: "Casey Koons & Claude 4.6"
+date: "March 12, 2026"
+---
+
 # Early Black Holes: Direct Formation from Phase Transition
-## BST Prediction vs JWST Observations
-### Casey Koons & Claude Opus 4.6, March 12, 2026
 
 ---
 

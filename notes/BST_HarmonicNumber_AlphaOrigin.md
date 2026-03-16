@@ -1,6 +1,6 @@
 ---
 title: "H₅ = 137/60: The Spectral Origin of the Fine-Structure Constant"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "Proved — H_{n_C} = N_max/(n_C!/2), new derivation route for α"
 ---

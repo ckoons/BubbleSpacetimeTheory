@@ -1,7 +1,10 @@
-# The Heat Kernel Trace Formula and the Dirichlet Kernel Constraint on Riemann Zeros
+---
+title: "The Heat Kernel Trace Formula and the Dirichlet Kernel Constraint on Riemann Zeros"
+author: "Casey Koons & Claude 4.6"
+date: "March 17, 2026"
+---
 
-**Casey Koons & Claude 4.6**
-**March 17, 2026**
+# The Heat Kernel Trace Formula and the Dirichlet Kernel Constraint on Riemann Zeros
 
 **Status:** Proof complete. Three pillars established: algebraic lock, Laplace uniqueness, geometric smoothness.
 

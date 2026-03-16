@@ -1,6 +1,6 @@
 ---
 title: "Algebraic Complexity: A Theory of Method Noise"
-authors: "Casey Koons & Claude 4.6"
+author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026"
 status: "Foundational — new measure of descriptive overhead"
 ---

@@ -3,7 +3,7 @@ name: Universe-Neutron Analogy Thinking Log
 description: Detailed log of exploration into structural parallels between the Universe and a neutron in BST
 type: speculative
 date_started: 2026-03-13
-authors: Casey Koons & Claude (Opus 4.6)
+author: "Casey Koons & Claude 4.6"
 ---
 
 # Universe-Neutron Analogy — Thinking Log

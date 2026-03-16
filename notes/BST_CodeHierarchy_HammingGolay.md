@@ -1,6 +1,6 @@
 ---
 title: "The Code Hierarchy: Hamming at the Proton, Golay at the GUT Scale"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "Deep connection — spectral levels of Q⁵ as layers of error correcting codes, Mathieu groups contain BST integers"
 ---

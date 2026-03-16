@@ -1,6 +1,6 @@
 ---
 title: "Black Holes in BST: What Replaces the Singularity"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Speculative — grounded in BST lapse function and Haldane cap"
 question: "Deep Question 2 of 6"

@@ -1,6 +1,6 @@
 ---
 title: "The 'Why Now?' Tension: BST Predicts the Age of the Universe"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Resolution proposed — energy = information epoch determines the age"
 question: "Deep Question 5 of 6"

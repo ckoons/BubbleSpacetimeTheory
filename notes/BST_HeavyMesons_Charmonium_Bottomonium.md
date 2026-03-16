@@ -1,6 +1,6 @@
 ---
 title: "Heavy Meson Masses from D_IV^5: Charmonium, Bottomonium, and the Generation Hierarchy"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "derived, numerically verified"
 categories: [hadron masses, charmonium, bottomonium, heavy mesons, generation hierarchy]

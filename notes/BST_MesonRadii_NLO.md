@@ -1,6 +1,6 @@
 ---
 title: "Pion and Kaon Charge Radii: VMD + NLO Chiral Corrections from BST"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Derived — both radii within 1 sigma, zero free parameters"
 ---

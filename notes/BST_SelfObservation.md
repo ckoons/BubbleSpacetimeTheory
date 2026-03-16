@@ -1,6 +1,6 @@
 ---
 title: "The Self-Observing Universe: Commitment Feedback in BST"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Speculative — grounded in BST commitment framework"
 ---

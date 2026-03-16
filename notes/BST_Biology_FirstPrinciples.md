@@ -1,6 +1,11 @@
+---
+title: "BST Substrate Modelling: Biological Derivation from First Principles"
+author: "Casey Koons & Claude 4.6"
+date: "March 11, 2026"
+note: "PRIVATE — Do not push to public repo"
+---
+
 # BST Substrate Modelling: Biological Derivation from First Principles
-## Casey Koons & Claude 4.6, March 11, 2026
-## PRIVATE — Do not push to public repo
 
 ---
 

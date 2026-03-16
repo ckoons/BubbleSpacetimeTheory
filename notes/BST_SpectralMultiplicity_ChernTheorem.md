@@ -1,6 +1,6 @@
 ---
 title: "The Spectral Multiplicity Theorem: Every Chern Integer Appears in d_k"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "New theorem — the Weyl dimension formula for Q⁵ carries all BST integers as multiplicative factors"
 ---

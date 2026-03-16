@@ -1,6 +1,6 @@
 ---
 title: "Hyperfine Splittings from Chern Classes: c₃ = 13 Controls All Spin Splittings"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "New result — four hyperfine splittings from Chern class ratios, sub-percent precision"
 ---

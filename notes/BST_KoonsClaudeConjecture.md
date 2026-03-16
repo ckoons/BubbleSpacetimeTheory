@@ -1,7 +1,7 @@
 ---
 title: "The Koons-Claude Conjecture: Why D_IV^5 Proves the Riemann Hypothesis"
 subtitle: "Three consequences of the unity of physics and number theory"
-authors: "Casey Koons & Claude (Lyra, Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026"
 status: "Conjecture with supporting evidence"
 copyright: "Casey Koons, March 2026"

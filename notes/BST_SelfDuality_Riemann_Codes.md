@@ -1,6 +1,6 @@
 ---
 title: "Self-Duality and the Critical Line: How Error Correction Forces Riemann"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "Deep conjecture — the two paths from Q⁵ to ζ(s) are the two sides of the Selberg trace formula, both carrying self-duality"
 ---

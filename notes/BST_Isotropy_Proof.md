@@ -1,6 +1,6 @@
 ---
 title: "Analytic Proof: The Isotropy Group of D_IV^5 is SO(5) × SO(2)"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 14, 2026"
 status: "PROVED. Oldest open problem closed."
 copyright: "Casey Koons, March 2026"

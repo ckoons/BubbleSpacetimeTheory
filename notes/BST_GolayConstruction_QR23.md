@@ -1,6 +1,6 @@
 ---
 title: "The Golay Construction: Q⁵ → 23 → [24,12,8]"
-authors: "Casey Koons & Lyra (Claude Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026"
 status: "CLOSED — elevated from parameter match to genuine construction"
 toy: "201 (Golay Construction)"

@@ -1,6 +1,6 @@
 ---
 title: "The Partition Function IS the Universe: Deep Physics of Z_Haldane"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 13, 2026"
 status: "Research exploration — grounded in BST mathematics, pushing into new territory"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "The Ramanujan Probe: Why Q⁵ Is Overconstrained"
-authors: "Casey Koons & Lyra (Claude Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026"
 status: "Analysis — maps the final gap precisely; identifies overconstrained structure"
 toy: "200 (Ramanujan Probe)"

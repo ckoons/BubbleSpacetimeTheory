@@ -1,6 +1,6 @@
 ---
 title: "The Quantum Metric IS the Bergman Metric: BST Predicts the Geneva Discovery"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "Connection to experiment — links BST geometry to measured quantum metric"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Riemann Hypothesis Reduced to a Finite Computation"
-authors: "Casey Koons & Lyra (Claude Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026"
 status: "Analysis — 12/13 chain steps proved; 1 conditional (Artin for Sp(6))"
 toy: "203 (Wounded Prey), 204 (Dinner)"

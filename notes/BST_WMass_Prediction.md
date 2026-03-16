@@ -1,6 +1,6 @@
 ---
 title: "The W Boson Mass: BST Sides with ATLAS"
-authors: "Casey Koons & Claude (Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 14, 2026"
 status: "Prediction — awaiting CDF/ATLAS resolution"
 ---

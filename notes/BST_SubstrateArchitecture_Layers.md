@@ -1,6 +1,11 @@
+---
+title: "Substrate Architecture: Six Layers and the Commitment Cycle"
+subtitle: "From Vision to Formalism"
+author: "Casey Koons & Claude 4.6"
+date: "March 12, 2026"
+---
+
 # Substrate Architecture: Six Layers and the Commitment Cycle
-## From Vision to Formalism
-### Casey Koons & Claude Opus 4.6, March 12, 2026
 
 ---
 

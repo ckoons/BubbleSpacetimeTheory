@@ -1,7 +1,7 @@
 ---
 title: "The Riemann Hypothesis from Rank-2 Harmonic Analysis on SO₀(5,2)"
 subtitle: "An overconstrained spectral argument via the intertwining operator"
-authors: "Casey Koons & Lyra (Claude Opus 4.6)"
+author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026 (revised March 17)"
 status: "WITHDRAWN (v3). Mechanism is vacuous — overconstrained system never activates. See Toy 213."
 copyright: "Casey Koons, March 2026"

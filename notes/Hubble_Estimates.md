@@ -1,5 +1,10 @@
+---
+title: "BST Hubble Estimates: Backfit Table and Numerical Results"
+author: "Casey Koons & Claude 4.6"
+date: "March 2026"
+---
+
 # BST Hubble Estimates: Backfit Table and Numerical Results
-**Casey Koons, March 2026**
 *Supporting calculations for WorkingPaper.md Section [Hubble]*
 *Code: `notes/bst_hubble_backfit.py`, `notes/bst_frw.py`*
 

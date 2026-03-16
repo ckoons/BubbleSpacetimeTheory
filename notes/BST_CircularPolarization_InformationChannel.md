@@ -1,6 +1,11 @@
+---
+title: "Circular Polarization as Substrate Information Channel"
+subtitle: "BST Prediction & Analysis Framework"
+author: "Casey Koons & Claude 4.6"
+date: "March 12, 2026"
+---
+
 # Circular Polarization as Substrate Information Channel
-## BST Prediction & Analysis Framework
-### Casey Koons & Claude Opus 4.6, March 12, 2026
 
 ---
 
