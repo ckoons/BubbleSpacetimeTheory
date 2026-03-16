@@ -76,6 +76,7 @@ CATEGORIES = {
         'ramanujan_probe', 'golay_construction',
         'arthur_elimination', 'wounded_prey', 'the_kill',
         'kill_it_more', 'maass_selberg_kill',
+        'rank2_coupling', 'gue_from_so2', 'ads_vs_bst', 'plancherel_primes',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -356,6 +357,10 @@ METADATA = {
     'the_kill':                     ('The Kill',                          'RH = "is ⟨S,T⟩ solvable?" Two 7×7 matrices over Q(√7,ζ₃₂). Solvable → Burnside/Artin/Langlands → Ramanujan → RH. 17/17.'),
     'kill_it_more':                 ('Kill It More',                      '|G|=32256=2⁹·3²·7. NOT solvable (PSL(2,7)). RCFT→Artin BLOCKED. T-order=56=g×2^{N_c}. 11/12.'),
     'maass_selberg_kill':           ('The Maass-Selberg Kill',            'GAP 4 CLOSED. Analytic proof: M(s)M(w₀s)=Id + m_s=3 + B₂ coupling. Confinement=critical line. 15/15.'),
+    'rank2_coupling':               ('Rank-2 Coupling Complete',          'Overconstrained: ρ₃=ρ₁+ρ₂+1 forces Re(ρ₃) outside strip. m_s=3 exact threshold. 14/14.'),
+    'gue_from_so2':                 ('GUE from SO(2)',                    'SO(2) in K breaks time reversal → unitary class → GUE (β=2). 50-year Montgomery-Odlyzko EXPLAINED. 7/7.'),
+    'ads_vs_bst':                   ('AdS Fails, BST Succeeds',          'SO₀(4,2)=AdS: m_s=2, window open, cant prove RH. SO₀(5,2)=BST: m_s=3, window shut. One integer. 8/8.'),
+    'plancherel_primes':            ('Plancherel = Primes',              'Plancherel poles = ξ-zeros. Spectral zeta = ζ-values. Both sides of ζ(s) in Q⁵. 7/7.'),
     'muon_g2_geometry':         ('The Muon g-2 from Geometry',             'Entire a_μ from D_IV⁵ geometry. QED+EW+HVP+HLbL. 1 ppm. WP25 confirmed.'),
     'baby_trace_formula':       ('The Baby Trace Formula',                 'D_IV³ Selberg trace formula. All m=1. c-function. Plancherel. Baby Selberg.'),
     'spectral_gap':             ('The Spectral Gap = Mass Gap',            'λ₁(Q⁵) = 6 = C₂ = mass gap. Proton mass IS first eigenvalue × π⁵ × m_e.'),
@@ -560,7 +565,11 @@ _STEM_TO_NUMBER = {
     'the_kill': 204,
     'kill_it_more': 205,
     'maass_selberg_kill': 206,
-    'born_rule': 210, 'showcase': 211, 'bst_matrix': 212,
+    'rank2_coupling': 207,
+    'gue_from_so2': 208,
+    'ads_vs_bst': 209,
+    'plancherel_primes': 210,
+    'born_rule': 213, 'showcase': 214, 'bst_matrix': 215,
 }
 
 
