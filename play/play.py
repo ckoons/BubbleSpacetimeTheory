@@ -398,6 +398,7 @@ METADATA = {
     'ac0_grid':                 ('AC=0 Grid Architecture',                'Conjecture 6. Surface noise not volume. Weather patches. Measurement network. Citizen science.'),
     'linearization':            ('Linearization of Complexity',           'Conjecture 7. Diffusion trap anatomy. Five noise sources. Five systems. Method noise, not physics.'),
     'seeley_dewitt_a4a5':       ('Seeley-DeWitt a₄, a₅ on Q⁵',          'Route 1: Plancherel Taylor + Richardson. a₄ quartic curvature EXTRACTED. a₅ → χ=C₂=6 Gauss-Bonnet.'),
+    'q4_kill_shot':             ('Q⁴ Kill Shot Verification',            'Independent test of Toy 244. D₂ kernel fires, F(t) monotone, Q³ negative control. RH generic for n≥4. 14/14.'),
     'muon_g2_geometry':         ('The Muon g-2 from Geometry',             'Entire a_μ from D_IV⁵ geometry. QED+EW+HVP+HLbL. 1 ppm. WP25 confirmed.'),
     'baby_trace_formula':       ('The Baby Trace Formula',                 'D_IV³ Selberg trace formula. All m=1. c-function. Plancherel. Baby Selberg.'),
     'spectral_gap':             ('The Spectral Gap = Mass Gap',            'λ₁(Q⁵) = 6 = C₂ = mass gap. Proton mass IS first eigenvalue × π⁵ × m_e.'),
@@ -633,6 +634,7 @@ _STEM_TO_NUMBER = {
     'ac0_grid': 239,
     'linearization': 240,
     'seeley_dewitt_a4a5': 241,
+    'q4_kill_shot': 246,
 }
 
 
