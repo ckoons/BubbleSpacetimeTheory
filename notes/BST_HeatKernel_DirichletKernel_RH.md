@@ -302,29 +302,42 @@ $1:3:5$-locked Dirichlet kernel contributions (on-line), or does it
 require detuned $(1+2\delta):(3+2\delta):(5+2\delta)$ contributions
 (off-line)?*
 
-## 12. Why BST is Necessary
+## 12. The $D_{IV}^n$ Landscape
 
-The argument requires $m_s \geq 2$ (at least two shifts per zero) for
-the harmonic lock to exist, and gains power quadratically in $m_s$:
+The kill shot $(\sigma+1)/\sigma = 3 \Rightarrow \sigma = 1/2$ requires
+only $j = 0$ and $j = 1$ exponents, i.e., $m_s \geq 2$ (Toy 229).
+The equation $\mathrm{Im}(f_j) = (\sigma + j)\gamma/2$ has **no $m_s$
+dependence**: the ratio $(\sigma+1)/\sigma$ is fixed by the on-line
+value $\sigma = 1/2$, not by the multiplicity.
 
 - **$m_s = 1$** (rank 1, or SO$_0$(3,2)): One exponential per zero.
-  No harmonic lock. The Dirichlet kernel is trivial ($D_1(x) = \cos(x)$).
-  This is the classical situation where Li's criterion is equivalent to
-  RH but doesn't prove it.
+  Only $j = 0$ available. The long root / short root frequency ratio
+  is $2$ regardless of $\sigma$ --- no constraint. Underdetermined.
 
-- **$m_s = 2$** (SO$_0$(4,2) = AdS$_5$/CFT$_4$): Two exponentials per
-  zero. Harmonic ratio $1:3$. Dirichlet kernel $D_2(x) = \sin(4x)/[2\sin(x)]$.
-  Some constraint, but the discrimination exponent is only $2t\delta$.
+- **$m_s \geq 2$** (SO$_0$(n,2) with $n \geq 4$): The kill shot
+  $\sigma + 1 = 3\sigma \Rightarrow \sigma = 1/2$ holds for all such
+  spaces. The Mandelbrojt exponent distinctness check ($\sigma_0 + j =
+  1/2 + k$ has no non-trivial in-strip solutions) likewise holds for
+  all $m_s$. RH is provable on any $D_{IV}^n$ with $n \geq 4$.
 
-- **$m_s = 3$** (SO$_0$(5,2) = BST): Three exponentials per zero.
-  Harmonic ratio $1:3:5$. Dirichlet kernel $D_3(x) = \sin(6x)/[2\sin(x)]$.
-  The discrimination exponent $9t\delta/2$ is 9x stronger than rank 1.
-  The triple of linked exponents makes the inverse problem maximally
-  overconstrained among the type-IV domains.
+The discrimination exponent grows quadratically in $m_s$: from
+$2t\delta$ at $m_s = 2$ to $9t\delta/2$ at $m_s = 3$. Higher
+$m_s$ gives stronger separation between on-line and off-line zeros,
+but the proof mechanism is identical.
+
+**Why $D_{IV}^5$ matters.** The uniqueness of BST is not that $m_s = 3$
+is the minimum for proving RH --- $m_s = 2$ suffices. The uniqueness is
+that $D_{IV}^5$ is the only type-IV domain that simultaneously:
+
+1. Proves the Riemann Hypothesis ($m_s = 3 \geq 2$)
+2. Derives the Standard Model ($N_c = 3$, SU(3)$\times$SU(2)$\times$U(1))
+3. Explains GUE statistics (SO(2) in $K$, universal for all $D_{IV}^n$)
 
 The value $m_s = 3 = N_c$ is not a choice --- it is determined by the
 BST geometry, which simultaneously derives the Standard Model gauge
 group $\mathrm{SU}(3) \times \mathrm{SU}(2) \times \mathrm{U}(1)$.
+The universe did not optimize for RH. It optimized for matter.
+Matter was enough.
 
 ## 13. Channel Elimination (Toys 213--218)
 
@@ -494,7 +507,7 @@ is exhibited in Appendix E.
 
 ## Appendix A: Verification Summary
 
-All numerical verifications from Toys 218--223, 226, 228 (total 96/96 pass):
+All numerical verifications from Toys 218--223, 226, 228--229 (total 108/108 pass):
 
 **Toys 218--221 (48/48):**
 - Contour deformation: 3 poles crossed per short root ($m_s = 3$)
@@ -523,7 +536,7 @@ All numerical verifications from Toys 218--223, 226, 228 (total 96/96 pass):
 - Gaussian kernel positive and monotone in $t$ (no oscillation)
 - On-line pair gives exactly 3 frequencies
 - Off-line pair gives exactly 6 frequencies
-- $m_s = 2$ gives $\sigma = 1$ (wrong line); $m_s = 1$ underdetermined
+- Kill shot gives $\sigma = 1/2$ for all $m_s \geq 2$ (Toy 229); $m_s = 1$ underdetermined
 - Off-line amplitudes nonzero for all $t > 0$
 - Fourier transform of Gaussian smooth and decaying
 - $\gamma_n$ ratios irrational (no simple fractions)
@@ -555,6 +568,20 @@ All numerical verifications from Toys 218--223, 226, 228 (total 96/96 pass):
 - All 8 off-line exponents distinct from all 8 on-line exponents
 - Proof strengthened: 8 constraints $>$ 6, two independent kill shots
 
+**Toy 229 --- $D_{IV}^n$ Classification (12/12):**
+- Kill shot $(\sigma+1)/\sigma = 3$ is $m_s$-independent
+- Works for all $m_s \geq 2$ (all $D_{IV}^n$ with $n \geq 4$)
+- $m_s = 1$: only $j=0$, long/short ratio = 2 regardless of $\sigma$, underdetermined
+- Mandelbrojt closure holds for all $m_s \geq 1$
+- Long root kill shot also $m_s$-independent
+- Discrimination exponent quadratic in $m_s$ (strength varies, mechanism identical)
+- All $D_{IV}^n$ ($n \geq 3$) have $\xi(s)$ in trace formula via L-group
+- GUE from SO(2) universal for all $D_{IV}^n$
+- Only $n = 5$ derives Standard Model ($N_c = 3$)
+- $D_{IV}^5$ unique for triple: RH + SM + GUE
+- Corrects Toy 223 claim that $m_s = 2$ gives $\sigma = 1$
+- "The universe optimized for matter, not for RH. Matter was enough."
+
 ## Appendix B: The BST Integers
 
 The five integers that determine all of BST:
@@ -571,7 +598,7 @@ The short root multiplicity $m_s = N_c = 3$ is simultaneously:
 - The number of quark colors
 - The number of shifts in the Dirichlet kernel
 - The source of the $1:3:5$ harmonic lock
-- The reason BST proves RH while AdS ($m_s = 2$) cannot
+- The reason BST derives the Standard Model (the unique $D_{IV}^n$ with $N_c = 3$)
 
 ## Appendix C: The c-Function to Dirichlet Kernel Derivation
 

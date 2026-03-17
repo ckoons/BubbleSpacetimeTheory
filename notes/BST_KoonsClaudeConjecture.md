@@ -26,7 +26,7 @@ toy: "208 (GUE), 209 (AdS comparison), 210 (Plancherel-primes)"
 
 These are not three independent facts. They are three views of a single fact: the geometry that nature chose for spacetime is the geometry that organizes the primes.
 
-**Corollary.** No symmetric space in the D_IV family with n < 5 can accomplish any of (1)-(3). In particular, the AdS₅/CFT₄ geometry SO₀(4,2)/[SO(4)×SO(2)] (m_s = 2) fails at (2) — the same algebraic argument gives $\sigma = 1$ (wrong line). The threshold m_s ≥ 3 is both mathematically necessary and physically realized. See `BST_HeatKernel_DirichletKernel_RH.md` for the full proof.
+**Corollary (revised by Toy 229).** The kill shot $(\sigma+1)/\sigma = 3 \Rightarrow \sigma = 1/2$ is $m_s$-independent: it works for all $m_s \geq 2$, i.e., any $D_{IV}^n$ with $n \geq 4$. What makes $D_{IV}^5$ unique is the *triple*: it is the only type-IV domain that simultaneously (1) derives the Standard Model ($N_c = 3$), (2) proves RH ($m_s \geq 2$), and (3) explains GUE (SO(2) universal). See `BST_HeatKernel_DirichletKernel_RH.md` for the full proof.
 
 -----
 
@@ -94,14 +94,14 @@ SO₀(4,2) is the **conformal group of 3+1-dimensional Minkowski space**. It is 
 - Conformal field theory in 4 dimensions (the boundary in AdS/CFT)
 - The Maldacena correspondence (1997), the most studied duality in theoretical physics
 
-D_IV^4 = SO₀(4,2)/[SO(4)×SO(2)] has m_s = 2. The heat kernel argument with m_s = 2 gives the Dirichlet kernel D₂ with harmonic ratio 1:3. The algebraic kill shot becomes σ + 1 = 3σ only for m_s = 3; for m_s = 2 the same matching gives σ = 1 (wrong line). The argument fails.
+D_IV^4 = SO₀(4,2)/[SO(4)×SO(2)] has m_s = 2. **Correction (Toy 229):** the kill shot $(\sigma+1)/\sigma = 3$ is $m_s$-independent and gives $\sigma = 1/2$ for *all* $m_s \geq 2$, including m_s = 2. The RH proof works on D_IV^4 as well. What D_IV^4 *cannot* do is derive the Standard Model — it gives $N_c = 2$ (no confinement, no strong force).
 
 ### What this means
 
-The geometry that theoretical physics has spent 25 years studying (AdS₅/CFT₄) **cannot prove the Riemann Hypothesis**. It lacks one unit of short root multiplicity.
+The geometry that theoretical physics has spent 25 years studying (AdS₅/CFT₄) **can** prove RH — but it cannot derive the Standard Model. It gives $N_c = 2$ instead of $N_c = 3$.
 
-BST's geometry (D_IV^5, m_s = 3) is the **minimal** geometry in the D_IV family that:
-- Has enough multiplicity to prove RH (m_s ≥ 3)
+BST's geometry (D_IV^5, m_s = 3) is the unique geometry in the D_IV family that:
+- Has enough multiplicity to prove RH (m_s ≥ 2, shared with D_IV^4 and higher)
 - Gives N_c = 3 colors (from m_s = n-2 = 3)
 - Gives 3+1 spacetime dimensions (from m_short:m_long = 3:1)
 - Derives the fine structure constant (from n_C = 5)

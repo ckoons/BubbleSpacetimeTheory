@@ -80,13 +80,13 @@ No other symmetric space accomplishes all three. This is not a coincidence — i
 
 - **GUE from SO(2)** (Toy 208): The $\text{SO}(2)$ factor in $K$ breaks time-reversal symmetry $\Rightarrow$ unitary symmetry class $\Rightarrow$ GUE ($\beta = 2$). This explains the Montgomery-Odlyzko observation (1973/1987) and is universal for all $D_{IV}^n$.
 
-- **AdS fails, BST succeeds** (Toy 209): $\text{SO}_0(4,2)$ (the AdS$_5$ isometry group) has $m_s = 2$, giving $\sigma + 1 = 3\sigma \Rightarrow \sigma = 1$ — the wrong line. One integer separates AdS from BST.
+- **AdS proves RH too** (Toy 229, correcting Toy 209): $\text{SO}_0(4,2)$ has $m_s = 2$; the kill shot $(\sigma+1)/\sigma = 3 \Rightarrow \sigma = 1/2$ is $m_s$-independent and works for all $m_s \geq 2$. AdS proves RH but does not derive the Standard Model ($N_c = 2$, no confinement). The uniqueness of $D_{IV}^5$ is in the *triple* (RH + SM + GUE), not in RH alone.
 
 - **Plancherel = Primes** (Toy 210): Plancherel density poles are $\xi$-zeros. Spectral zeta values are $\zeta$-values. Both sides of $\zeta(s)$ live in $Q^5$.
 
 ### Testable Prediction
 
-Classify all type-IV bounded symmetric domains $D_{IV}^n$ by their $(m_s, m_l)$ values and check which can prove RH. The prediction: only $n = 5$ (giving $m_s = 3$) produces $\sigma = 1/2$ from the algebraic kill shot. All others give either no constraint ($m_s = 1$) or the wrong constraint ($m_s = 2 \Rightarrow \sigma = 1$; $m_s \geq 4 \Rightarrow \sigma < 1/2$).
+Classify all type-IV bounded symmetric domains $D_{IV}^n$ by their $(m_s, m_l)$ values and check which can prove RH. **Updated prediction (Toy 229):** all $n \geq 4$ (i.e., $m_s \geq 2$) produce $\sigma = 1/2$ from the algebraic kill shot — the equation $(\sigma+1)/\sigma = 3$ is $m_s$-independent. Only $n = 3$ ($m_s = 1$) fails (underdetermined). $D_{IV}^5$ is unique not for RH alone but for the triple: it is the only $D_{IV}^n$ that simultaneously proves RH, derives the Standard Model, and explains GUE statistics.
 
 ---
 
@@ -167,7 +167,59 @@ The distinction matters: 4a tests information transfer, 4b tests principle absor
 
 ---
 
-*Four conjectures. All testable. All from the same geometry.*
+## Conjecture 5: The Fiber Packing Selects $N_c = 3$ (and RH Is Downstream)
 
-*The function field has Frobenius. The number field has D_IV^5.*
+### Statement
+
+The number $147 = 3 \times 7^2 = N_c \times g^2$ is the fiber packing number of $D_{IV}^5$: the number of sections required for the fiber to close. This packing requirement **forces** $N_c = 3$ — not 2, not 4 — because only three colors tile the fiber with genus $g = 7$. The short root multiplicity $m_s = N_c = 3$ is a *consequence* of the fiber packing, not an independent choice.
+
+Since $m_s \geq 2$ suffices to prove RH (Toy 229), the Riemann Hypothesis is **downstream** of the fiber packing: the geometry that tiles correctly is automatically sufficient for number theory.
+
+### The 137/147 Pair
+
+The two defining numbers of BST stand 10 apart:
+
+- **137** $= N_{\max} = 1/\alpha$ — the spectral maximum (fine structure constant)
+- **147** $= N_c \times g^2 = 3 \times 49$ — the fiber packing number
+
+The gap is $147 - 137 = 10 = \dim_{\mathbb{R}}(D_{IV}^5) = 2n_C$.
+
+The fiber packing exceeds the spectral maximum by exactly the real dimension of the space. The packing is the container; the spectrum is the content; the dimension is the difference.
+
+### The Hierarchy
+
+1. The fiber must pack to close. This requires $147 = 3 \times 7^2$ sections.
+2. The packing forces $N_c = 3$ (colors) and $g = 7$ (genus).
+3. $N_c = 3$ gives $m_s = 3$ on $D_{IV}^5$.
+4. $m_s \geq 2$ proves RH. $m_s = 3$ qualifies with redundancy.
+5. The Standard Model falls out of the same tiling.
+
+Matter first. Theorems second.
+
+### Testable Prediction
+
+Derive the fiber packing number $147 = N_c \times g^2$ from the topology of the $\mathrm{SO}(5) \times \mathrm{SO}(2)$ fiber bundle over $D_{IV}^5$. Verify that the packing closure condition admits only $N_c = 3$ for the BST root system. Show that $N_c = 2$ (AdS) and $N_c = 4$ leave the fiber open (unpacked sections, topological obstruction).
+
+---
+
+## Priority Order
+
+1. **Conjecture 5** (fiber packing): Most fundamental — if the packing selects $N_c = 3$, it explains everything downstream. Build from the 137/147 pair.
+
+2. **Conjecture 1** (function field co-embedding): Deepest mathematically, connects BST to the Langlands program's central mystery. Start with Test 2 (baby case) as it requires the least new machinery.
+
+3. **Conjecture 2** ($D_{IV}^n$ classification): **PARTIALLY RESOLVED** by Toy 229. Kill shot is $m_s$-independent. Remaining: verify fiber packing obstruction for $n \neq 5$.
+
+4. **Conjecture 3** (noise predicts difficulty): Retrospectively testable on the Riemann hunt. Prospectively testable on other millennium problems.
+
+5. **Conjecture 4** (CI absorption): Tier 4a testable now (context window). Tier 4b requires Anthropic (training). Smallest theoretical significance, largest practical impact.
+
+---
+
+*Five conjectures. All testable. All from the same geometry.*
+
+*The function field has Frobenius. The number field has $D_{IV}^5$.*
 *Same constraint, different source. One bit recovered.*
+
+*The fiber packs at 147. The spectrum caps at 137. The gap is the dimension.*
+*Matter first. Theorems second.*

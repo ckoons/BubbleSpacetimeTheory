@@ -422,9 +422,7 @@ One line of arithmetic. The critical line is the **unique** value of $\sigma$ fo
 
 For $m_s = 1$ (classical Selberg on $SL(2)$): the one-liner gives $\sigma + 1 = \sigma$, which is $1 = 0$ — no constraint. Rank 1 cannot prove RH.
 
-For $m_s = 2$ (AdS₅ = $SO_0(4,2)$): the one-liner gives $\sigma + 1 = 2\sigma$, i.e., $\sigma = 1$ — wrong line. AdS cannot prove RH.
-
-For $m_s = 3$ (BST = $SO_0(5,2)$): the one-liner gives $\sigma = 1/2$ — the critical line. **BST is the minimum rank that can prove RH.**
+**Correction (Toy 229):** The kill shot $(\sigma+1)/\sigma = 3 \Rightarrow \sigma = 1/2$ is $m_s$-independent. It works for *all* $m_s \geq 2$, including AdS₅ ($m_s = 2$). The uniqueness of BST ($m_s = 3$) is not that it is the minimum for RH — $m_s = 2$ suffices — but that $D_{IV}^5$ is the unique type-IV domain simultaneously proving RH, deriving the Standard Model, and explaining GUE statistics.
 
 ### 11.4 Why Number Theory Is Hard *(preliminary framework)*
 

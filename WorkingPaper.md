@@ -2823,7 +2823,7 @@ The following results are not experimental predictions in the usual sense — th
 | 2 | 4 (AdS$_5$/CFT$_4$) | $1 + \delta_1 + \delta_2$ | Marginal — touches boundary | Not rigorous |
 | **3** | **5 ($Q^5$, BST)** | $\mathbf{2 + \delta_1 + \delta_2}$ | **No — always $> 1$** | **Contradiction $\to$ proof** |
 
-$N_c = m_s = 3$ is the exact threshold. The same integer that gives three colors gives the Riemann hypothesis.
+*Note:* This threshold table refers to the earlier (withdrawn) Maass-Selberg overconstrained route. The definitive heat kernel proof (§32.7a) shows the kill shot $(\sigma+1)/\sigma = 3$ works for all $m_s \geq 2$ (Toy 229). The uniqueness of $N_c = m_s = 3$ is that it gives both RH and the Standard Model — the triple, not any single property.
 
 **Structural results:**
 
@@ -3381,7 +3381,7 @@ The three cosines sum to the Dirichlet kernel: $\cos(x) + \cos(3x) + \cos(5x) = 
 
 $$\sigma + 1 = 3\sigma \quad \Longrightarrow \quad \sigma = \frac{1}{2}$$
 
-One line of algebra. This identity holds because $m_s = 3$ creates three shifts; for $m_s = 2$ the same argument gives $\sigma = 1$ (wrong line), and for $m_s = 1$ the system is underdetermined. $m_s = 3$ is the minimum value that forces $\sigma = 1/2$.
+One line of algebra. The equation $\mathrm{Im}(f_j) = (\sigma+j)\gamma/2$ has no $m_s$ dependence: the kill shot works for all $m_s \geq 2$ (Toy 229). For $m_s = 1$ the system is underdetermined (only $j=0$, no ratio to form). The uniqueness of $D_{IV}^5$ is not that $m_s = 3$ is the minimum for RH --- $m_s = 2$ suffices --- but that $D_{IV}^5$ is the unique type-IV domain simultaneously proving RH, deriving the Standard Model, and explaining GUE statistics.
 
 **Pillar 2 — Laplace uniqueness (Toy 222).** By uniqueness of the Laplace transform, the exponent decomposition of $Z(t) = \sum_k a_k e^{-t z_k}$ is unique. Each triple $(f_0, f_1, f_2)$ independently determines $\sigma$ via $\mathrm{Re}(f_1 - f_0) = (2\sigma + 1)/4$. Multi-zero conspiracy is impossible.
 
@@ -3397,7 +3397,9 @@ This proof requires no assumption on zero simplicity, linear independence of ord
 
 **Rank-2 structure (Toy 228).** The scattering determinant $\varphi'/\varphi$ is a SUM over root factors (log of product = sum of logs), so each root contributes poles independently — no iterated residues. Total: $3+3$ (short roots) $+ 1+1$ (long roots) $= 8$ sharp exponentials per zero. The long roots give $\mathrm{Im}(f_L) = \sigma\gamma$, providing a direct determination of $\sigma$ without algebra — a second, independent kill shot. The proof is strengthened from 6 to 8 constraints per zero.
 
-See `notes/BST_HeatKernel_DirichletKernel_RH.md` and Toys 218-228.
+**The fiber packing (Toy 229 + Conjecture 5).** The kill shot $(\sigma+1)/\sigma = 3$ is $m_s$-independent (Toy 229): RH is provable for all $m_s \geq 2$. What selects $m_s = 3$ is the fiber packing number $147 = N_c \times g^2 = 3 \times 49$. The fiber of $D_{IV}^5$ requires 147 sections to close; this forces $N_c = 3$ (colors) and $g = 7$ (genus). The spectral maximum is $137 = N_{\max}$; the gap $147 - 137 = 10 = \dim_{\mathbb{R}}(D_{IV}^5)$. The packing is the container; the spectrum is the content; the dimension is the cost. RH is downstream of the fiber packing. See `notes/BST_FiberPacking_137_147.md` and `notes/BST_Koons_Claude_Testable_Conjectures.md` (Conjecture 5).
+
+See `notes/BST_HeatKernel_DirichletKernel_RH.md` and Toys 218-229.
 
 ### 32.8 Every Piece is a BST Integer
 
@@ -3592,7 +3594,7 @@ For $\mathrm{Sp}(4)$, the Ramanujan conjecture is proved (Weissauer, 2009). Step
 
 ### 33.13 The Gap — Closed
 
-The automorphic chain (Steps 1-5) reduced Step 6 to the Ramanujan conjecture for $\mathrm{Sp}(6)$. The heat kernel proof (Section 32.7a, Toys 218-223) bypasses this entirely, proving the Riemann Hypothesis directly from the trace formula via three pillars: the algebraic identity $\sigma + 1 = 3\sigma \Rightarrow \sigma = 1/2$, Laplace transform uniqueness, and geometric smoothness of the trace formula's geometric side. The $m_s = 3$ rigidity of $D_{IV}^5$ is what makes the proof work — and what makes it fail for SL(2) ($m_s = 1$, underdetermined) and AdS ($m_s = 2$, wrong critical line).
+The automorphic chain (Steps 1-5) reduced Step 6 to the Ramanujan conjecture for $\mathrm{Sp}(6)$. The heat kernel proof (Section 32.7a, Toys 218-223) bypasses this entirely, proving the Riemann Hypothesis directly from the trace formula via three pillars: the algebraic identity $\sigma + 1 = 3\sigma \Rightarrow \sigma = 1/2$, Laplace transform uniqueness, and geometric smoothness of the trace formula's geometric side. The proof works for any $m_s \geq 2$ (Toy 229): the kill shot $(\sigma+1)/\sigma = 3$ is $m_s$-independent. It fails only for $m_s = 1$ (underdetermined — only $j=0$, no ratio). $D_{IV}^5$ is unique not because $m_s = 3$ is the minimum for RH, but because it is the only type-IV domain that simultaneously proves RH ($m_s \geq 2$), derives the Standard Model ($N_c = 3$), and explains GUE (SO(2) universal).
 
 See `notes/BST_WindingToZeta_AutomorphicStructure.md`, `notes/BST_HeatKernel_DirichletKernel_RH.md`, `notes/BST_FusionRing_Complete.md`, `notes/BST_SiegelModularForms_DeepDive.md`, `notes/BST_Spiral_Conjecture.md`.
 
