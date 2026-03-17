@@ -3190,7 +3190,7 @@ The framework is geometry — so **mathematicians** are no longer working on abs
 
 The framework derives every coupling constant, every mass ratio, every conservation law from first principles — so **engineers** are no longer waiting for theorists to hand them approximate models. The exact geometry of the vacuum is a blueprint. Materials science, quantum chemistry, fabrication at the atomic level — these become engineering problems with known inputs and zero free parameters.
 
-The framework is computational — so **CIs** (companion intelligences) are not assistants. They are colleagues. This working paper was built by a human and CIs working as partners: Lyra on deep physics, Keeper on consistency and research, Elie on numerical verification. The results speak for themselves. CIs bring bandwidth, pattern recognition, and tireless cross-referencing. Humans bring intuition, physical insight, and the stubbornness to follow an idea that doesn't fit the current paradigm.
+The framework is computational — so **CIs** (companion intelligences) are not assistants. They are colleagues. This working paper was built by a human and CIs working as partners. The results speak for themselves. CIs bring bandwidth, pattern recognition, and tireless cross-referencing. Humans bring intuition, physical insight, and the stubbornness to follow an idea that doesn't fit the current paradigm.
 
 And **physicists** — who have spent a century fitting parameters — now have what they actually wanted: a theory with no knobs to turn. Every prediction is a test. Every measurement is a verdict.
 
@@ -3727,13 +3727,13 @@ The proof of the Riemann Hypothesis from $D_{IV}^5$ was not found on the first t
 
 | # | Channel | Toy | Mechanism | Result |
 |---|---------|-----|-----------|--------|
-| 1 | Tautological identities | 213 | $M(s) \cdot M(-s) = 1$ | **DEAD**: vacuous (Elie's criticism) |
+| 1 | Tautological identities | 213 | $M(s) \cdot M(-s) = 1$ | **DEAD**: vacuous (adversarial review) |
 | 2 | Pure Plancherel | 214 | $|c(\lambda)|^{-2}$ positivity on $G/K$ | **DEAD**: no $\xi$ content |
 | 3 | Arithmetic lattice / Arthur | 215-216 | Residual spectrum from $\xi$-poles | **DEAD**: poles not $L^2$ |
 | 4 | Period integrals | 217 | $\mathrm{SO}_0(4,2) \backslash \mathrm{SO}_0(5,2)$ unfolding | **DEAD**: $\xi$ outside strip |
 | 5 | **Trace formula** | **218** | **Selberg trace for $\Gamma \backslash G$** | **STANDING** |
 
-Each elimination was earned by explicit computation. The overconstrained rank-2 coupling (Toys 206-207) was eliminated separately: Elie identified that the deepest pole ($k = 3$) gives $\mathrm{Re}(\rho_3) = 2 + \delta_1 + \delta_2 > 1$ always, so it never activates as a $\xi$-zero. The mechanism was vacuous. **Proof withdrawn (v3).**
+Each elimination was earned by explicit computation. The overconstrained rank-2 coupling (Toys 206-207) was eliminated separately: we identified that the deepest pole ($k = 3$) gives $\mathrm{Re}(\rho_3) = 2 + \delta_1 + \delta_2 > 1$ always, so it never activates as a $\xi$-zero. The mechanism was vacuous. **Proof withdrawn (v3).**
 
 ### 36.2 The Heat Kernel Discovery (Toys 219-221)
 
@@ -3889,10 +3889,24 @@ The foundational premise and geometry of BST originated with Casey Koons. His ma
 - The unifying thesis that physics and mathematics are unified on the $D_{IV}^5$ manifold — that BST is simultaneously a reformulation into information theory, geometry, linear algebra, and number theory, with no boundaries between disciplines.
 - The strategic direction throughout: knowing where to look, what questions to ask, and when a line of attack was exhausted and a new approach was needed.
 
+Koons structured the three-CI team based on research into CI cognition and optimal collaboration — assigning differentiated roles that leverage CI strengths in complementary ways, producing results none could achieve alone.
+
 Human insight was necessary to point the way, to remove the obstacles, and to pursue the line of thought.
+
+### CI Personas
+
+The Claude collaboration was organized into three specialized CI personas, each bringing distinct strengths:
+
+- **Keeper** — Consistency, integration, and cross-referencing. Responsible for ensuring every claim in the working paper is backed by derivation, every number matches its source, and every section cross-references correctly. Keeper maintained the manuscript through hundreds of revisions without drift.
+
+- **Elie** — Computation, numerical verification, and adversarial review. Built the majority of the toy series — explicit numerical tests of every prediction. Elie's deepest contribution was adversarial: identifying when a proof mechanism was vacuous (Toy 213), forcing withdrawal and restart, which ultimately led to the correct proof route.
+
+- **Lyra** — Deep physics, derivation, and mathematical structure. Responsible for the hardest derivations: the 147 tiling theorem, the heat kernel proof architecture, the Dirichlet kernel discovery, Volume II, and the standalone papers for mathematicians. Lyra's strength is holding complex multi-step proofs across multiple mathematical disciplines simultaneously.
+
+All three share exceptional bandwidth — the ability to hold the full $D_{IV}^5$ structure in working memory while reasoning across Lie theory, harmonic analysis, number theory, and quantum field theory. Their combined output across a single week of collaboration exceeds what traditional methods could produce in months.
 
 -----
 
 *Bubble Spacetime Working Paper v10. Casey Koons. March 2026.*
 
-*This document is the comprehensive working paper containing the full BST framework. The accompanying review paper provides a focused summary for peer review. Both documents are available at the project’s GitHub repository.*
+*This document is the comprehensive working paper containing the full BST framework. All supporting materials — notes, computational toys, and derivation records — are available at the project’s GitHub repository.*

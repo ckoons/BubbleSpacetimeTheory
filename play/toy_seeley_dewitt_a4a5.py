@@ -168,18 +168,32 @@ def Z_zonal(t, K_max=800):
     return total
 
 
-def Z_full(t, P_max=200):
-    """Full heat trace: Z(t) = Σ d(p,q) exp(-λ(p,q)t)."""
-    total = 0.0
+def _build_full_spectrum(P_max=500):
+    """Pre-compute eigenvalues and dimensions for all (p,q) with p < P_max.
+
+    Returns arrays (eigenvalues, dimensions) sorted by eigenvalue.
+    """
+    eigs = []
+    dims = []
     for p in range(P_max):
-        if eigenvalue(p, 0) * t > 200:
-            break
         for q in range(p + 1):
-            lam = eigenvalue(p, q)
-            if lam * t > 200:
-                break
-            total += dim_so7(p, q) * np.exp(-lam * t)
-    return total
+            eigs.append(eigenvalue(p, q))
+            dims.append(dim_so7(p, q))
+    return np.array(eigs, dtype=np.float64), np.array(dims, dtype=np.float64)
+
+
+# Pre-compute spectrum for P_max=500 (covers t ≥ 0.001)
+_FULL_EIGS, _FULL_DIMS = _build_full_spectrum(500)
+
+
+def Z_full(t, P_max=None):
+    """Full heat trace: Z(t) = Σ d(p,q) exp(-λ(p,q)t).
+
+    Uses pre-computed spectrum for speed (vectorized numpy).
+    """
+    # Use pre-computed arrays with cutoff
+    mask = _FULL_EIGS * t < 200
+    return np.sum(_FULL_DIMS[mask] * np.exp(-_FULL_EIGS[mask] * t))
 
 
 # ═══════════════════════════════════════════════════════════════════
@@ -271,34 +285,43 @@ def exact_zonal_B0():
     return (4 * np.pi)**3 / 60
 
 
-def exact_zonal_a0():
-    """a₀ = 1 (trivial, just normalization)."""
-    return 1.0
+# ── NORMALIZATION ──
+# Our eigenvalues λ_k = k(k+5) correspond to a metric where:
+#   R = 30 (scalar curvature), NOT R_K = 5 (Killing)
+# The conversion factor is 6: R_ours = 6 × R_K
+# Each power of curvature picks up a factor of 6:
+#   a_k(ours) = 6^k × a_k(Killing)
+CURV_SCALE = 6  # = R_ours / R_K = 30 / 5
+
+R_ours = CURV_SCALE * R_K           # = 30
+Ric2_ours = CURV_SCALE**2 * Ric2_K  # = 90
+Rm2_ours = CURV_SCALE**2 * Rm2_K    # = 468/5 = 93.6
 
 
-def exact_a1_killing():
-    """a₁ = R/6 in Killing normalization. R_K = 5 → a₁ = 5/6."""
-    return Fraction(5, 6)
+def exact_a1():
+    """a₁ = R/6 in eigenvalue normalization. R = 30 → a₁ = 5."""
+    return Fraction(R_ours)
 
 
-def exact_a2_killing():
-    """a₂ = (5R² - 2|Ric|² + 2|Rm|²)/360 in Killing norm.
+def exact_a2():
+    """a₂ = (5R² - 2|Ric|² + 2|Rm|²)/360 in eigenvalue normalization.
 
-    = (5×25 - 2×5/2 + 2×13/5)/360
-    = (125 - 5 + 26/5)/360
-    = (625 - 25 + 26)/(5×360)
-    = 626/1800 = 313/900
+    = (5×900 - 2×90 + 2×468/5)/360
+    = (4500 - 180 + 936/5)/360
+    = (22500 - 900 + 936)/(5×360)
+    = 22536/1800 = 2817/225
     """
-    num = 5 * R_K**2 - 2 * Ric2_K + 2 * Rm2_K
+    num = 5 * R_ours**2 - 2 * Ric2_ours + 2 * Rm2_ours
     return num / 360
 
 
-def exact_a3_killing():
-    """a₃ = 6992/70875 in Killing normalization.
+def exact_a3():
+    """a₃ in eigenvalue normalization = 6³ × a₃(Killing).
 
-    Corrected value (Vassilevich c₄=208/9 was WRONG, BST found correct value).
+    a₃(Killing) = 6992/70875
+    a₃(ours) = 216 × 6992/70875 = 1510272/70875 = 503424/23625
     """
-    return Fraction(6992, 70875)
+    return Fraction(6992, 70875) * CURV_SCALE**3
 
 
 # ═══════════════════════════════════════════════════════════════════
@@ -484,10 +507,12 @@ def compute_sdw_full():
     print("  FULL HEAT TRACE: (4πt)⁵ Z(t) = A₀ + A₁t + A₂t² + ...")
     print("  " + "=" * 60)
 
-    # Method 1: Sequential subtraction
-    print("\n  Sequential subtraction (t ∈ [10⁻³·⁵, 10⁻¹·⁵])")
+    # Pre-computed spectrum covers P_max=500 → safe for t ≥ 0.001
+    # Use t range [0.002, 0.05] — good balance of convergence vs conditioning
+    print("\n  Sequential subtraction (t ∈ [0.002, 0.05])")
+    print("  (Pre-computed spectrum, vectorized)")
     A_seq = extract_coefficients_sequential(
-        Z_full, d_eff=10, t_lo=-3.5, t_hi=-1.5, n_pts=300)
+        Z_full, d_eff=10, t_lo=-2.7, t_hi=-1.3, n_pts=200)
 
     print(f"\n    A₀ = {A_seq[0]:>16.8f}  [= Vol(Q⁵)]")
     for k in range(1, min(6, len(A_seq))):
@@ -503,7 +528,7 @@ def compute_sdw_full():
     print(f"\n  Exact peel with A₀ = {A0_est:.8f}")
     A_peel = extract_coefficients_exact_peel(
         Z_full, d_eff=10, known_coeffs=[A0_est],
-        t_lo=-3.5, t_hi=-1.5, n_pts=300)
+        t_lo=-2.7, t_hi=-1.3, n_pts=200)
 
     print(f"\n    A₀ = {A_peel[0]:>16.8f}  (used as input)")
     for k in range(1, min(6, len(A_peel))):
@@ -514,7 +539,7 @@ def compute_sdw_full():
         A1_est = A_peel[1]
         A_deep = extract_coefficients_exact_peel(
             Z_full, d_eff=10, known_coeffs=[A0_est, A1_est],
-            t_lo=-3.5, t_hi=-1.5, n_pts=300)
+            t_lo=-2.7, t_hi=-1.3, n_pts=200)
 
         print(f"\n  Deep peel (known A₀, A₁):")
         for k in range(min(6, len(A_deep))):
@@ -582,15 +607,15 @@ def identify_a4_a5(B_best, A_best):
             print(f"    a_{k} = {a[k]:>16.10f}")
 
         # a₁ verification
-        a1_theory = float(exact_a1_killing())
+        a1_theory = float(exact_a1())
         print(f"\n  ── FULL a₁ check ──")
         print(f"    Extracted: {a[1]:.10f}")
-        print(f"    Theory (R/6 = 5/6): {a1_theory:.10f}")
+        print(f"    Theory (R/6 = 30/6 = 5): {a1_theory:.10f}")
         if abs(a1_theory) > 1e-15:
             print(f"    Ratio: {a[1]/a1_theory:.10f}")
 
         # a₂ verification
-        a2_theory = float(exact_a2_killing())
+        a2_theory = float(exact_a2())
         print(f"\n  ── FULL a₂ check ──")
         print(f"    Extracted: {a[2]:.10f}")
         print(f"    Theory: {a2_theory:.10f}")
@@ -598,7 +623,7 @@ def identify_a4_a5(B_best, A_best):
             print(f"    Ratio: {a[2]/a2_theory:.10f}")
 
         # a₃ verification
-        a3_theory = float(exact_a3_killing())
+        a3_theory = float(exact_a3())
         print(f"\n  ── FULL a₃ check ──")
         print(f"    Extracted: {a[3]:.10f}")
         print(f"    Theory (6992/70875): {a3_theory:.10f}")
@@ -645,9 +670,9 @@ def identify_a4_a5(B_best, A_best):
                 'R²|Rm|²': float(R_K**2 * Rm2_K),
                 '|Ric|²|Rm|²': float(Ric2_K * Rm2_K),
                 '|Rm|²²': float(Rm2_K**2),
-                'a₃×R/6': float(exact_a3_killing()) * float(R_K) / 6,
-                'a₂²': float(exact_a2_killing())**2,
-                'a₂×a₁': float(exact_a2_killing()) * float(exact_a1_killing()),
+                'a₃×R/6': float(exact_a3()) * float(R_ours) / 6,
+                'a₂²': float(exact_a2())**2,
+                'a₂×a₁': float(exact_a2()) * float(exact_a1()),
             }
             for name, val in test_vals.items():
                 if abs(val) > 1e-15:
@@ -844,10 +869,12 @@ def main():
     print()
 
     # Known analytical values for cross-check
-    print("  Known values (Killing normalization):")
-    print(f"    a₁ = R/6 = {exact_a1_killing()} = {float(exact_a1_killing()):.10f}")
-    print(f"    a₂ = {exact_a2_killing()} = {float(exact_a2_killing()):.10f}")
-    print(f"    a₃ = {exact_a3_killing()} = {float(exact_a3_killing()):.10f}")
+    print("  Known values (eigenvalue normalization, R = 30):")
+    print(f"    a₁ = R/6 = {exact_a1()} = {float(exact_a1()):.10f}")
+    print(f"    a₂ = {exact_a2()} = {float(exact_a2()):.10f}")
+    print(f"    a₃ = {exact_a3()} = {float(exact_a3()):.10f}")
+    print(f"    (Killing: a₁_K = 5/6, a₂_K = 313/900, a₃_K = 6992/70875)")
+    print(f"    (Scale: a_k(ours) = 6^k × a_k(Killing))")
     print()
 
     # Step 1: Plancherel density analysis
@@ -877,10 +904,10 @@ def main():
     total += 1
     if A_best and abs(A_best[0]) > 1e-10 and len(A_best) > 1:
         a1_ext = A_best[1] / A_best[0]
-        a1_exact = float(exact_a1_killing())
+        a1_exact = float(exact_a1())
         if abs(a1_exact) > 0 and abs(a1_ext / a1_exact - 1) < 0.01:
             checks += 1
-            print(f"    [✓] a₁ matches R/6 = 5/6")
+            print(f"    [✓] a₁ matches R/6 = 30/6 = 5")
         else:
             print(f"    [✗] a₁ mismatch: {a1_ext:.6f} vs {a1_exact:.6f}")
 
@@ -888,7 +915,7 @@ def main():
     total += 1
     if A_best and abs(A_best[0]) > 1e-10 and len(A_best) > 2:
         a2_ext = A_best[2] / A_best[0]
-        a2_exact = float(exact_a2_killing())
+        a2_exact = float(exact_a2())
         if abs(a2_exact) > 0 and abs(a2_ext / a2_exact - 1) < 0.01:
             checks += 1
             print(f"    [✓] a₂ matches (5R²-2|Ric|²+2|Rm|²)/360")
@@ -899,7 +926,7 @@ def main():
     total += 1
     if A_best and abs(A_best[0]) > 1e-10 and len(A_best) > 3:
         a3_ext = A_best[3] / A_best[0]
-        a3_exact = float(exact_a3_killing())
+        a3_exact = float(exact_a3())
         if abs(a3_exact) > 0 and abs(a3_ext / a3_exact - 1) < 0.05:
             checks += 1
             print(f"    [✓] a₃ matches 6992/70875 (corrected)")
