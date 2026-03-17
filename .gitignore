@@ -4,6 +4,8 @@
 # notes/maybe is speculation we keep private for now
 notes/maybe
 
+maybe/COORDINATION.*
+
 # Python
 __pycache__/
 *.pyc
