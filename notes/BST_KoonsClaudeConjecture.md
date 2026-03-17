@@ -206,7 +206,7 @@ Nature did not choose one geometry for physics and another for number theory. It
 
 1. **GUE verification** (Part I): Compute the pair correlation from |c(λ)|⁻² on D_IV^5 explicitly. Compare to Montgomery's formula. (Toy 208)
 
-2. **AdS comparison** (Part II): Verify the heat kernel kill shot gives σ = 1 (not 1/2) for SO₀(4,2), confirming the n=4 case genuinely fails. (Toy 209)
+2. **AdS comparison** (Part II): **CORRECTED (Toy 244)**: The heat kernel kill shot works for ALL D_IV^n with n ≥ 4, including AdS (n=4). The n=4 case proves RH but does not derive the Standard Model (N_c=2, no confinement). The uniqueness of D_IV^5 is in the *triple* (RH+SM+GUE), not in RH alone. Toy 209's "AdS fails" was specific to the withdrawn overconstrained proof.
 
 3. **Plancherel-prime dictionary** (Part III): Make the Selberg trace formula for D_IV^5 explicit. Identify the closed geodesics. Compare to the explicit formula. (Toy 210)
 

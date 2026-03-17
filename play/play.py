@@ -370,7 +370,7 @@ METADATA = {
     'maass_selberg_kill':           ('The Maass-Selberg Kill',            'GAP 4 CLOSED. Analytic proof: M(s)M(w₀s)=Id + m_s=3 + B₂ coupling. Confinement=critical line. 15/15.'),
     'rank2_coupling':               ('Rank-2 Coupling Complete',          'Overconstrained: ρ₃=ρ₁+ρ₂+1 forces Re(ρ₃) outside strip. m_s=3 exact threshold. 14/14.'),
     'gue_from_so2':                 ('GUE from SO(2)',                    'SO(2) in K breaks time reversal → unitary class → GUE (β=2). 50-year Montgomery-Odlyzko EXPLAINED. 7/7.'),
-    'ads_vs_bst':                   ('AdS Fails, BST Succeeds',          'SO₀(4,2)=AdS: m_s=2, window open, cant prove RH. SO₀(5,2)=BST: m_s=3, window shut. One integer. 8/8.'),
+    'ads_vs_bst':                   ('AdS vs BST (CORRECTED)',           'Route A: kill shot works for ALL m_s≥2 incl AdS. AdS proves RH but not SM. BST unique for triple (RH+SM+GUE). 8/8.'),
     'plancherel_primes':            ('Plancherel = Primes',              'Plancherel poles = ξ-zeros. Spectral zeta = ζ-values. Both sides of ζ(s) in Q⁵. 7/7.'),
     'elie_gap_analysis':            ('Elie Gap Analysis',                'Overconstrained system VACUOUS. k=3 pole never fires (Re>1). Proof withdrawn v3.'),
     'plancherel_positivity':        ('Plancherel Positivity Probe',      'Pure Plancherel on G/K has no ξ content. Route DEAD.'),

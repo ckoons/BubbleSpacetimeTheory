@@ -62,6 +62,12 @@ Verify that $D_{IV}^3$ fails to co-embed with sufficient constraint (because $m_
 
 **Test 3: The lost context.** In the function field trace formula, identify the specific term that encodes Frobenius. Show that this term is absent in the number field version. Then show that the $m_s = 3$ residue structure (three poles per $\xi$-zero) provides an equivalent constraint.
 
+### Computational Status (March 17, 2026)
+
+**Test 2: STRONGLY CONSISTENT.** Toy 242 (baby case E/F_5): D₁ has no kill shot, D₃ has exact 1:3:5. 9/9 checks. Toy 243 (universality sweep): 63 curves — 55 genus-1 across F_3, F_5, F_7, F_11, F_13, plus 8 genus-2 — every curve produces D₁ with no kill shot but D₃ with exact 1:3:5 ratio. Zero exceptions. Genus-2 curves produce superpositions of D₃ kernels (one per Frobenius conjugate pair), matching the number field structure. Frobenius trace on so(7)⊗V₁ decomposes as 7+35+105=147 at the trace level.
+
+**Key finding (Toy 244):** The kill shot works for all D_IV^n with n ≥ 4 (not just n=5). This strengthens the co-embedding thesis: the "missing bit" from Frobenius is recovered by any m_s ≥ 2, and what makes D_IV^5 unique is the physics (Standard Model), not the RH proof. See `notes/BST_FunctionField_CoEmbedding.md`.
+
 ---
 
 ## Conjecture 2: D_IV^5 Uniquely Derives Physics, Proves RH, and Explains GUE
