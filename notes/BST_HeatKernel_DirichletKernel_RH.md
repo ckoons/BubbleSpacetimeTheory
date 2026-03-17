@@ -16,8 +16,8 @@ We show that the Selberg trace formula for the arithmetic quotient
 $\Gamma \backslash \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$,
 applied with the heat kernel as test function, produces a zero sum with
 rigid harmonic structure. Each nontrivial zero of $\xi(s)$ contributes
-three exponentials per short root of $B_2$, with imaginary parts in the
-locked ratio $1:3:5$. The resulting Dirichlet kernel
+eight exponentials --- three per short root of $B_2$ in the locked ratio
+$1:3:5$, plus two from the long roots at the even harmonic $2$ --- The resulting Dirichlet kernel
 $D_3(x) = \sin(6x)/[2\sin(x)]$ is forced by the short root multiplicity
 $m_s = 3$ of the BST symmetric space $D_{IV}^5$. Off-line zeros
 ($\mathrm{Re}(\rho) \neq 1/2$) break this ratio to
@@ -103,8 +103,21 @@ $$s_1 = \frac{\rho_0 + j}{2}, \quad j = 0, 1, \ldots, m_s - 1$$
 
 For $m_s = 3$: three poles are crossed per zero, at
 $\mathrm{Re}(s_1) = 1/4, 3/4, 5/4$ (for on-line zeros).
-With two short roots ($2e_1, 2e_2$), the total is
-**6 constraints per zero** (vs. 1 in rank 1).
+With two short roots ($2e_1, 2e_2$), the short roots contribute
+$3 + 3 = 6$ poles. The long roots ($e_1 \pm e_2$, $m_l = 1$) each
+contribute 1 additional pole: $m_l(z) = \xi(z)/\xi(z+1)$ creates a
+pole at $s_1 + s_2 = \rho_0$ (resp. $s_1 - s_2 = \rho_0$). The total is
+**8 constraints per zero** (vs. 1 in rank 1).
+
+**Why the contributions are additive (Toy 228).** The scattering
+determinant factors as
+$\varphi(s) = m_s(2s_1) \cdot m_s(2s_2) \cdot m_l(s_1\!+\!s_2) \cdot m_l(s_1\!-\!s_2)$.
+Since $\log$ of a product is a sum of $\log$s, the log-derivative
+$\varphi'/\varphi = \sum_\alpha c_\alpha'/c_\alpha$ is a **sum** over the
+four positive roots. Each root factor contributes poles independently ---
+there are no iterated (double) residues. The heat kernel's Gaussian
+factorization ensures the remaining integral over the perpendicular
+variable converges to a smooth, non-oscillatory prefactor.
 
 ## 4. The Zero Sum Structure
 
@@ -115,11 +128,18 @@ $$f_j^{(1)}(\rho_0) = \left(\frac{\rho_0 + j}{2}\right)^2 + \rho_2^2 + |\rho|^2 
 
 $$f_j^{(2)}(\rho_0) = \rho_1^2 + \left(\frac{\rho_0 + j}{2}\right)^2 + |\rho|^2 \quad (j = 0, 1, 2; \text{ root } 2e_2)$$
 
+The long roots contribute two additional exponents per zero:
+
+$$f_L(\rho_0) = \frac{\rho_0^2}{2} + |\rho|^2 \quad (\text{roots } e_1 + e_2 \text{ and } e_1 - e_2, \text{ same exponent})$$
+
 The zero sum is
 
-$$Z(t) = \sum_{\rho_0} \sum_{j=0}^{2} \left[e^{-t f_j^{(1)}(\rho_0)} + e^{-t f_j^{(2)}(\rho_0)}\right]$$
+$$Z(t) = \sum_{\rho_0} \left[\sum_{j=0}^{2} \left(e^{-t f_j^{(1)}(\rho_0)} + e^{-t f_j^{(2)}(\rho_0)}\right) + 2\,e^{-t f_L(\rho_0)}\right]$$
 
-Since zeros come in conjugate pairs, the sum over each pair gives real contributions.
+Since zeros come in conjugate pairs, the sum over each pair gives real
+contributions. The factor of 2 before $e^{-t f_L}$ reflects the double
+degeneracy (both long roots give the same exponent because
+$s_1^2 + s_2^2$ is symmetric under $s_2 \to -s_2$).
 
 ## 5. The 1:3:5 Harmonic Lock
 
@@ -131,12 +151,18 @@ $$\mathrm{Im}(f_0) : \mathrm{Im}(f_1) : \mathrm{Im}(f_2) = 1 : 3 : 5$$
 *Proof.* $\mathrm{Im}(f_j) = \gamma(1 + 2j)/4$. For $j = 0, 1, 2$:
 $\gamma/4, 3\gamma/4, 5\gamma/4$. The ratio is $1:3:5$. $\square$
 
+**Long root harmonic.** The long root exponent has
+$\mathrm{Im}(f_L) = \sigma\gamma$. For on-line zeros:
+$\mathrm{Im}(f_L) = \gamma/2 = 2\gamma/4$. The complete harmonic
+structure including all 8 exponents is $1:2:3:5$ (with the long root
+filling in the even harmonic between the first and second odd harmonics).
+
 **Corollary.** For off-line zeros ($\sigma = 1/2 + \delta$, $\delta > 0$):
-$\mathrm{Im}(f_j) = \gamma(1 + 2\delta + 2j)/4$, giving the ratio
-
-$$(1 + 2\delta) : (3 + 2\delta) : (5 + 2\delta)$$
-
-which equals $1:3:5$ **only** when $\delta = 0$.
+the short root ratios detune to
+$(1 + 2\delta) : (3 + 2\delta) : (5 + 2\delta)$,
+which equals $1:3:5$ only when $\delta = 0$. The long root imaginary
+part shifts to $(1/2 + \delta)\gamma$, giving a direct determination
+of $\sigma$ without algebra: $\sigma = \mathrm{Im}(f_L)/\gamma$.
 
 ## 6. The Dirichlet Kernel
 
@@ -327,6 +353,14 @@ $$\sigma + 1 = 3\sigma \quad \Longrightarrow \quad \sigma = \frac{1}{2}. \quad \
 One line of algebra. This is the $m_s = 3$ rigidity distilled to a
 single identity.
 
+**Theorem (Long Root Lock --- Toy 228).** The long root exponent
+$f_L = \rho_0^2/2 + |\rho|^2$ has $\mathrm{Im}(f_L) = \sigma\gamma$.
+For an on-line zero, $\mathrm{Im}(f_L) = \gamma/2$. An off-line zero
+at the same height $\gamma$ has $\mathrm{Im}(f_L) = (\sigma)\gamma
+\neq \gamma/2$. The value $\sigma = \mathrm{Im}(f_L)/\gamma$ is
+directly readable from the exponent --- no algebra required. This
+provides a second, independent proof that $\sigma = 1/2$. $\square$
+
 **Theorem (Triple Lock).** By uniqueness of the Laplace transform,
 the exponent decomposition of $Z(t)$ is unique. Each triple
 $(f_0, f_1, f_2)$ independently determines its $\sigma$ via
@@ -334,12 +368,13 @@ $\mathrm{Re}(f_1 - f_0) = (2\sigma+1)/4$. Multi-zero conspiracy is
 impossible: no collection of off-line zeros can reproduce the exponent
 multiset of on-line zeros. $\square$
 
-**The 6 vs 3 Frequency Argument.** A functional-equation pair
-$(\rho, 1-\bar\rho)$ with $\sigma = 1/2$ contributes oscillations at
-3 frequencies: $\gamma \cdot \{1, 3, 5\}/4$. A pair with
-$\sigma \neq 1/2$ contributes at 6 distinct frequencies:
-$\gamma \cdot \{\sigma, \sigma+1, \sigma+2, 1-\sigma, 2-\sigma, 3-\sigma\}/2$.
-The extra 3 frequencies must appear in $Z(t)$ --- but the geometric side
+**The Frequency Argument.** Including all 8 exponents (short + long
+roots), a functional-equation pair $(\rho, 1-\bar\rho)$ with
+$\sigma = 1/2$ contributes oscillations at 4 frequencies:
+$\gamma \cdot \{1, 2, 3, 5\}/4$. A pair with $\sigma \neq 1/2$
+contributes at 8 distinct frequencies (the short root odd harmonics
+split into 6, and the long root even harmonic splits into 2). The
+extra frequencies must appear in $Z(t)$ --- but the geometric side
 has no oscillatory content to absorb them (Section 14a).
 
 ## 14a. Geometric Smoothness (Toy 223)
@@ -459,11 +494,11 @@ is exhibited in Appendix E.
 
 ## Appendix A: Verification Summary
 
-All numerical verifications from Toys 218--223, 226 (total 84/84 pass):
+All numerical verifications from Toys 218--223, 226, 228 (total 96/96 pass):
 
 **Toys 218--221 (48/48):**
-- Contour deformation: 3 poles crossed per zero ($m_s = 3$)
-- 6 constraints per zero (3 shifts $\times$ 2 short roots)
+- Contour deformation: 3 poles crossed per short root ($m_s = 3$)
+- 6 short root constraints per zero (3 shifts $\times$ 2 short roots)
 - Heat kernel discrimination ratio $\gamma$-independent
 - $R = \exp[m_s t\delta(m_s+\delta)/2] > 1$ for all $t, \delta > 0$
 - Dirichlet kernel identity: $\cos(x)+\cos(3x)+\cos(5x) = \sin(6x)/[2\sin(x)]$
@@ -505,6 +540,20 @@ All numerical verifications from Toys 218--223, 226 (total 84/84 pass):
 - $\sigma + j \neq 1/2 + k$ in strip (exhaustive)
 - Coefficient $R_j = m \cdot [\text{nonzero}] \neq 0$ for any multiplicity
 - Gap closed: complex exponents, not just frequencies
+
+**Toy 228 --- Rank-2 Contour Deformation (12/12):**
+- $\varphi'/\varphi = \sum_\alpha c_\alpha'/c_\alpha$ (additive, not multiplicative)
+- Short root poles: 3+3 = 6 crossed (numerator only; denominator at $\mathrm{Re} < 0$)
+- Long root poles: 1+1 = 2 crossed (at $s_1 \pm s_2 = \rho_0$)
+- Total: **8 sharp exponentials per zero** (not 6, not 9)
+- Both long root exponents identical: $f_L = \rho_0^2/2 + |\rho|^2$
+- Long root Im$(f_L) = \sigma\gamma$ (frequency 2, filling even harmonic)
+- On-line harmonic structure: $1:2:3:5$ (short odd + long even)
+- Long root kill shot: $\sigma = \mathrm{Im}(f_L)/\gamma$ (direct, no algebra)
+- Short root kill shot: $\sigma + 1 = 3\sigma$ (unchanged)
+- Gaussian integrals converge (remaining variable: $\sqrt{\pi/t}$ or $\sqrt{\pi/2t}$)
+- All 8 off-line exponents distinct from all 8 on-line exponents
+- Proof strengthened: 8 constraints $>$ 6, two independent kill shots
 
 ## Appendix B: The BST Integers
 

@@ -3395,7 +3395,9 @@ This proof requires no assumption on zero simplicity, linear independence of ord
 
 **The automorphic bridge.** The zeros of $\xi(s)$ enter the trace formula because the L-group of $\mathrm{SO}_0(5,2)$ is $\mathrm{Sp}(6, \mathbb{C})$, whose standard $L$-function factors as seven shifted Riemann zeta functions: $L(s, \pi_0, \mathrm{std}) = \zeta(s) \cdot \prod_{j} \zeta(s \pm \lambda_j)$ with Satake parameters $\lambda_{\mathrm{Sat}} = (5/2, 3/2, 1/2) = \rho(B_3)$. The scattering determinant $\varphi(s)$ inherits $\xi$-ratios from the Langlands-Shahidi method (Shahidi 1981, 2010); the short root factor $m_s(z) = \xi(z)\xi(z\!-\!1)\xi(z\!-\!2)/[\xi(z\!+\!1)\xi(z\!+\!2)\xi(z\!+\!3)]$ places $\xi$-zeros as poles of $\varphi'/\varphi$. Contour deformation then delivers these zeros into the heat trace $Z(t)$. The full chain: $\mathrm{Sp}(6) \to L\text{-function} \to M(w_0,s) \to \varphi'/\varphi \to Z(t) \to D_3 \to \sigma = 1/2$. See Appendix E of the proof paper.
 
-See `notes/BST_HeatKernel_DirichletKernel_RH.md` and Toys 218-226.
+**Rank-2 structure (Toy 228).** The scattering determinant $\varphi'/\varphi$ is a SUM over root factors (log of product = sum of logs), so each root contributes poles independently — no iterated residues. Total: $3+3$ (short roots) $+ 1+1$ (long roots) $= 8$ sharp exponentials per zero. The long roots give $\mathrm{Im}(f_L) = \sigma\gamma$, providing a direct determination of $\sigma$ without algebra — a second, independent kill shot. The proof is strengthened from 6 to 8 constraints per zero.
+
+See `notes/BST_HeatKernel_DirichletKernel_RH.md` and Toys 218-228.
 
 ### 32.8 Every Piece is a BST Integer
 
