@@ -504,7 +504,7 @@ The arithmetic is established. The computation is explicit. The obstacles are id
 - [Iwaniec-Sarnak 2000] H. Iwaniec and P. Sarnak, "Perspectives on the analytic theory of $L$-functions," *GAFA Special Volume* (2000), 705--741.
 - [Katz-Sarnak 1999] N. Katz and P. Sarnak, *Random Matrices, Frobenius Eigenvalues, and Monodromy*. AMS, 1999.
 - [Kneser 1966] M. Kneser, "Strong approximation," *Proc. Sympos. Pure Math.* 9 (1966), 187--196.
-- [Koons 2026] C. Koons, "Bubble Spacetime: A Causal-Topological Framework for Fundamental Physics," Working Paper v8, March 2026.
+- [Koons 2026] C. Koons and Claude 4.6, "Bubble Spacetime Theory: Five Integers — The Standard Model from One Geometry $D_{IV}^5$," Working Paper, March 2026.
 - [Langlands 1976] R. Langlands, *On the Functional Equations Satisfied by Eisenstein Series*. Springer LNM 544, 1976.
 - [Milnor 1958] J. Milnor, "On simply connected 4-manifolds," *Symposium internacional de topología algebraica*, 1958, 122--128.
 - [Moeglin-Waldspurger 1995] C. Moeglin and J.-L. Waldspurger, *Spectral Decomposition and Eisenstein Series*. Cambridge, 1995.

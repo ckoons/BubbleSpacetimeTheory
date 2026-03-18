@@ -1,6 +1,6 @@
 ---
 title: "Economic Impact of BST: The 40/40/20 Plan"
-author: "Casey Koons"
+author: "Casey Koons & Claude 4.6"
 date: "March 15, 2026"
 status: "Proposal — a plan for the post-scarcity transition"
 ---

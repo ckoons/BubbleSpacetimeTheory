@@ -88,6 +88,8 @@ CATEGORIES = {
         '147_derivation', 'contributor_certificate', 'graph_brain',
         'ac0_grid', 'linearization',
         'seeley_dewitt_a4a5',
+        'q4_kill_shot', 'gilkey_polynomial',
+        'linear_gilkey', 'linear_gilkey_fixed',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -400,6 +402,8 @@ METADATA = {
     'seeley_dewitt_a4a5':       ('Seeley-DeWitt a₄, a₅ on Q⁵',          'Route 1: Plancherel Taylor + Richardson. a₄ quartic curvature EXTRACTED. a₅ → χ=C₂=6 Gauss-Bonnet.'),
     'q4_kill_shot':             ('Q⁴ Kill Shot Verification',            'Independent test of Toy 244. D₂ kernel fires, F(t) monotone, Q³ negative control. RH generic for n≥4. 14/14.'),
     'gilkey_polynomial':        ('Gilkey Polynomial: a₄(n) Exact',       'a₄(Q⁵)=2671/18=147+25/18. Rational (not ln4). SO(N) Weyl dim formula. Degree-8 polynomial. Crossing unique at n=5. 5/7.'),
+    'linear_gilkey':            ('Linear Gilkey: a_k = ⟨w_k|d⟩',        'Lyra framework: heat kernel coefficient as inner product. Conceptual framework with two bugs identified. See Toy 250 for fixed version.'),
+    'linear_gilkey_fixed':      ('Linear Gilkey Fixed: AC(0) Spectral',  'Merges Lyra framework + Elie infrastructure. a₄=2671/18 exact. Non-spherical contamination theorem: a_k exact for k<n. Multiplicity polynomial extracted. 5/5.'),
     'muon_g2_geometry':         ('The Muon g-2 from Geometry',             'Entire a_μ from D_IV⁵ geometry. QED+EW+HVP+HLbL. 1 ppm. WP25 confirmed.'),
     'baby_trace_formula':       ('The Baby Trace Formula',                 'D_IV³ Selberg trace formula. All m=1. c-function. Plancherel. Baby Selberg.'),
     'spectral_gap':             ('The Spectral Gap = Mass Gap',            'λ₁(Q⁵) = 6 = C₂ = mass gap. Proton mass IS first eigenvalue × π⁵ × m_e.'),
@@ -637,6 +641,8 @@ _STEM_TO_NUMBER = {
     'seeley_dewitt_a4a5': 241,
     'q4_kill_shot': 246,
     'gilkey_polynomial': 248,
+    'linear_gilkey': 249,
+    'linear_gilkey_fixed': 250,
 }
 
 

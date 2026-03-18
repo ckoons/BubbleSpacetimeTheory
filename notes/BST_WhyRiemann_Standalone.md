@@ -1,6 +1,6 @@
 ---
 title: "Why Riemann: A Proof of the Riemann Hypothesis via the Heat Kernel Trace Formula on SO₀(5,2)"
-author: "Casey Koons"
+author: "Casey Koons & Claude 4.6"
 date: "March 2026"
 status: "Complete — standalone for mathematicians"
 audience: "Analytic number theorists and automorphic forms specialists"

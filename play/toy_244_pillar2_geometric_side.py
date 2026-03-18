@@ -383,7 +383,7 @@ CONCLUSION: The RH proof mechanism works for ANY D_IV^n with n ≥ 4.
 The proof does not uniquely select n = 5.
 
 What DOES select n = 5 is the PHYSICS:
-  - 20 uniqueness conditions from 6 branches of mathematics
+  - 22 uniqueness conditions from 6 branches of mathematics
   - Fiber packing 147 = N_c g² only closes for n = 5
   - Standard Model = Sp(6) Langlands dual, only for n = 5
   - Error correction [[7,1,3]] Steane code, only for n = 5
@@ -496,7 +496,7 @@ rows = [
     ("RH provable", ["NO", "YES", "YES", "YES"]),
     ("Standard Model", ["NO", "NO", "YES", "NO"]),
     ("Fiber packing closes", ["NO", "NO", "YES", "NO"]),
-    ("20 uniqueness conditions", ["NO", "NO", "YES", "NO"]),
+    ("22 uniqueness conditions", ["NO", "NO", "YES", "NO"]),
 ]
 
 for label, vals in rows:

@@ -138,7 +138,7 @@ The "missing bit" over $\mathbb{Q}$ is Frobenius. For $N_c = 1$, this missing bi
 
 2. **RH is generic in type IV.** Any $D_{IV}^n$ with $n \geq 4$ proves RH. The number-theoretic constraint is not specific to BST's geometry.
 
-3. **Physics is specific.** Only $n = 5$ produces the Standard Model (20 uniqueness conditions). The physics selects the geometry; the geometry happens to also prove RH.
+3. **Physics is specific.** Only $n = 5$ produces the Standard Model (22 uniqueness conditions). The physics selects the geometry; the geometry happens to also prove RH.
 
 4. **BST is the intersection.** The unique $n$ that does both: proves RH AND produces the Standard Model. Neither fact requires the other, but both follow from the same domain.
 
