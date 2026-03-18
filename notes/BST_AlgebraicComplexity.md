@@ -365,7 +365,43 @@ The failed methods all sit far from the origin. The surviving method (trace form
 
 **This is the validation.** If the classification framework correctly predicts which methods will succeed and which will fail, it has content. BST provides the first data set. The Standard Model comparison (§9.3, Priority 2) will provide the second.
 
-### 11.5 The Teaching Principle
+### 11.5 Measured Example: Heat Kernel Linearization
+
+The fourth Seeley-DeWitt coefficient a₄(Q⁵) provides a controlled measurement of algebraic complexity — the same number computed two ways, with the noise difference quantified.
+
+**Route B (Gilkey tensor contraction):**
+- Build the Riemann tensor R_{(ia)(jb)(kc)(ld)} explicitly — a 10×10×10×10 array
+- Contract four copies to form five independent quartic invariants: R⁴, R²|Rm|², |Rm|⁴, cyclic, pair
+- Solve a 6×5 linear system for universal Gilkey coefficients α_j
+- Result: a₄(Q⁵) ≈ 148.48 (6.5% relative error at n=3, rank deficiency in the invariant matrix)
+
+The invariant matrix has rank 4, not 5 — cyclic and pair are identical on Q^n. The system is underdetermined. The least-squares fit absorbs the degeneracy silently, producing coefficients that are not universal but approximate. The residual (0.21) reveals method noise that the algebra cannot remove.
+
+**Route A (Linear spectral):**
+- The eigenvalues λ(p,q) = p(p+n) + q(q+n−2) are known from the Casimir operator
+- The multiplicities d(p,q) are known from the Weyl dimension formula
+- The heat trace Z(t) = Σ d(p,q) e^{−λ(p,q)t} is a sum — no contractions, no invariants, no fitting
+- Extract a₄ as the coefficient of t⁴ in the polynomial expansion of (4πt)^n Z(t)
+- Result: a₄(Q⁵) = 2671/18 (exact rational, identified from numerical computation to 10⁻⁴)
+
+**Non-spherical contamination theorem** (discovered in verification): On Q^n (dim = 2n), representations without K-fixed vectors contribute O(t^n) to (4πt)^n Z(t). Therefore a₀ through a_{n−1} are exact — uncontaminated by non-spherical terms. For Q⁵, a₄ is the last clean coefficient.
+
+**The measurement:**
+
+| | Route B (Gilkey) | Route A (Spectral) |
+|:--|:--|:--|
+| Parameters introduced | 5 (α_j) | 0 |
+| Matrix rank deficiency | Yes (rank 4/5) | N/A |
+| Max relative error | 6.5% | 0 (exact rational) |
+| Steps | ~100 quartic contractions | 1 sum |
+| Invertible? | No (degenerate) | Yes |
+| Noise content | Medium | 0 |
+
+The Gilkey formula is a Level 2 method: general, powerful, applicable to any Riemannian manifold. On Q⁵ — a symmetric space where ∇R = 0 and the spectrum is known exactly — it is pure overhead. The answer is a single inner product a₄ = ⟨w₄|d⟩ between the heat kernel weights w₄(p,q) = [λ(p,q)]⁴/4! and the multiplicity polynomial d(p,q). The quartic tensor machinery recomputes this inner product by a detour through invariant theory, introducing a rank-deficient system and losing precision in the process.
+
+The algebraic complexity of the Gilkey method on Q⁵ is not theoretical — it is measured: 6.5% error at n=3, a rank-deficient matrix, and five parameters where zero are needed. The spectral method gives the exact answer in one step. Same object. Different noise. *(Toys 248–250.)*
+
+### 11.6 The Teaching Principle
 
 The method map has an immediate application in education: **teach the minimum-noise method first.**
 

@@ -25,7 +25,7 @@ Results:
   a₁ = 47/6 = 7.8333...  (R_spec = 47 = 2n²-3)
   a₂ ≈ 30.44
   a₃ ≈ 78.11
-  a₄ ≈ 148.39             ← N_c g² = 147, ratio 1.009 (unique to n=5)
+  a₄ = 2671/18 ≈ 148.389  ← = N_c g² + 25/18 (rational, Toy 248 precision)
   a₅ ≈ 221.69 ± 0.10      ← deg-7/8/9 polyfit converge; no clean BST identification
 
 R-gap: R_spec = 2n²-3 for ALL Q^n (n=3,4,5,6 confirmed). Gap = 3 = 2r-1.
