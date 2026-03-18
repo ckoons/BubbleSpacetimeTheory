@@ -57,7 +57,7 @@ Add to the Seeley-DeWitt section (§8.2 or new subsection): the linearization re
 
 2. **Multiplicity polynomial extracted** (Toy 250): d(p,q) for Q⁵ expressed as a degree-12 polynomial in (p,q) with 38 monomials, all rational coefficients verified to 10⁻⁹. This IS the "right basis" — the group theory data separated cleanly from the heat kernel weights.
 
-3. **Non-spherical contamination theorem** (NEW): On Q^n (dim=2n), non-spherical representations contribute O(t^n) to (4πt)^n Z(t). Therefore coefficients a₀ through a_{n-1} from the FULL sum over all (p,q) are EXACT. For Q⁵ (n=5), a₄ is uncontaminated. This bypasses the metric normalization puzzle entirely for n≥5.
+3. **Spectral completeness** (Toy 254 correction): On Q^n (rank 2), ALL (p,q) reps with p ≥ q ≥ 0 are spherical — Helgason's theorem for rank-r symmetric spaces. The full (p,q) sum IS the heat trace; there are no non-spherical corrections. (An earlier claim from Toy 250 was incorrect.) This means a₄(n) values from Toy 248 for ALL n are correct as computed — no decontamination needed.
 
 4. **a₄(Q⁵) = 2671/18 confirmed** (Toy 248): Exact rational identification from numerical heat trace, independently of Gilkey tensor contractions. No free parameters, no fitting.
 
@@ -66,11 +66,12 @@ Add to the Seeley-DeWitt section (§8.2 or new subsection): the linearization re
 ### What remains
 
 - The explicit eigenvalue construction on the root system — expressing a₄ as a single eigenvalue of an operator on C₂ root data — is not yet done
-- The degree-8 polynomial a₄(n) as a closed rational function could not be extracted because lower-n values (n=3,4) have non-spherical contamination and higher-n values lack precision
+- The degree-8 polynomial a₄(n) as a closed rational function: Lagrange interpolation from Toy 248 values (n=3..8+) is the preferred route. All values are correct as computed (no decontamination needed — Toy 254 correction).
 - The Harish-Chandra route (step 2 of The Program) awaits explicit computation
+- **a₅(Q⁵) ≈ 221.641 ± 0.004** (Toys 254-255): candidates 14185/64 (den=2^{C₂}), 5541/25 (den=n_C²), 7979/36 (den=C₂²). Needs precision push.
 
 ## Status
 
-- Partially verified — the linear structure is confirmed (Toy 250), the non-spherical theorem is new, but the explicit eigenvalue construction on the root system remains open
+- Partially verified — the linear structure is confirmed (Toy 250), spectral completeness established (Toy 254), but the explicit eigenvalue construction on the root system remains open
 - Simpler than a conjecture: it's a reformulation, not a claim about new mathematics
-- Next step: express a₄(n) directly from root multiplicities (m_s, m_l, m_{2s}) = (n−2, 1, 1) using the Harish-Chandra isomorphism, bypassing explicit tensor construction
+- Next step: a₄(n) closed form via Lagrange interpolation from Toy 248 values; a₅ precision push

@@ -391,7 +391,7 @@ The invariant matrix has rank 4, not 5 — cyclic and pair are identical on Q^n.
 - Extract a₄ as the coefficient of t⁴ in the polynomial expansion of (4πt)^n Z(t)
 - Result: a₄(Q⁵) = 2671/18 (exact rational, identified from numerical computation to 10⁻⁴)
 
-**Non-spherical contamination theorem** (discovered in verification): On Q^n (dim = 2n), representations without K-fixed vectors contribute O(t^n) to (4πt)^n Z(t). Therefore a₀ through a_{n−1} are exact — uncontaminated by non-spherical terms. For Q⁵, a₄ is the last clean coefficient.
+**Spectral completeness** (Helgason): On Q^n (rank 2), all representations (p,q) with p ≥ q ≥ 0 are spherical — they have K-fixed vectors and contribute to L²(G/K). The full (p,q) sum IS the heat trace. There are no non-spherical corrections. The identification a₄ = 2671/18 comes directly from this sum, confirmed to 6 significant figures across multiple extraction methods (Toy 248).
 
 **The measurement:**
 

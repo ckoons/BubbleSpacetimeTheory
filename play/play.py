@@ -90,6 +90,9 @@ CATEGORIES = {
         'seeley_dewitt_a4a5',
         'q4_kill_shot', 'gilkey_polynomial',
         'linear_gilkey', 'linear_gilkey_fixed',
+        'branching_so7_sp6',
+        'a5_nonspherical', 'a4_polynomial_a5_precision',
+        'eht_cp_prediction',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -403,7 +406,12 @@ METADATA = {
     'q4_kill_shot':             ('Q⁴ Kill Shot Verification',            'Independent test of Toy 244. D₂ kernel fires, F(t) monotone, Q³ negative control. RH generic for n≥4. 14/14.'),
     'gilkey_polynomial':        ('Gilkey Polynomial: a₄(n) Exact',       'a₄(Q⁵)=2671/18=147+25/18. Rational (not ln4). SO(N) Weyl dim formula. Degree-8 polynomial. Crossing unique at n=5. 5/7.'),
     'linear_gilkey':            ('Linear Gilkey: a_k = ⟨w_k|d⟩',        'Lyra framework: heat kernel coefficient as inner product. Conceptual framework with two bugs identified. See Toy 250 for fixed version.'),
-    'linear_gilkey_fixed':      ('Linear Gilkey Fixed: AC(0) Spectral',  'Merges Lyra framework + Elie infrastructure. a₄=2671/18 exact. Non-spherical contamination theorem: a_k exact for k<n. Multiplicity polynomial extracted. 5/5.'),
+    'linear_gilkey_fixed':      ('Linear Gilkey Fixed: AC(0) Spectral',  'Merges Lyra framework + Elie infrastructure. a₄=2671/18 exact. Multiplicity polynomial extracted. 5/5. NOTE: non-spherical theorem WITHDRAWN (Toy 251).'),
+    'branching_so7_sp6':          ('SO(7)→Sp(6) Branching of 147',        'Lyra: 147=2+18+28+14+21+64 under Sp(6). L-function degrees: 1,6,14,21,64 — all BST integers. 14/14. C₂, dim(so(7)), 2^{C₂} appear.'),
+    'a5_nonspherical':            ('a₅ Non-Spherical Corrections',       'Discovered non-spherical theorem WRONG: all (p,q) reps spherical on rank-2 Q^n (Helgason). a₅≈221.64. q=0-only gives a₀=0. 3/5.'),
+    'a4_polynomial_a5_precision': ('a₄(n) Polynomial + a₅ Precision',    'a₄(n) degree-7 polynomial (0.03σ fit). a₂=274/9, a₃=703/9 exact. a₅=221.641±0.004. Candidates: 14185/64, 5541/25, 7979/36. 5/5.'),
+    'eht_cp_prediction':          ('EHT CP Prediction: α Floor',         'Keeper: CP=α×compactness, zero free parameters. Radial 1/R profile, signed-model fit to Sgr A*, mass independence, 5 falsification criteria. 6/7.'),
+    'eht_cp_prediction':        ('EHT CP Prediction: α Floor',           'Parameter-free: CP = α × compactness. Radial 1/R profile, signed-model fit to Sgr A*, mass independence, 5 falsification criteria. 6/7.'),
     'muon_g2_geometry':         ('The Muon g-2 from Geometry',             'Entire a_μ from D_IV⁵ geometry. QED+EW+HVP+HLbL. 1 ppm. WP25 confirmed.'),
     'baby_trace_formula':       ('The Baby Trace Formula',                 'D_IV³ Selberg trace formula. All m=1. c-function. Plancherel. Baby Selberg.'),
     'spectral_gap':             ('The Spectral Gap = Mass Gap',            'λ₁(Q⁵) = 6 = C₂ = mass gap. Proton mass IS first eigenvalue × π⁵ × m_e.'),
@@ -643,6 +651,10 @@ _STEM_TO_NUMBER = {
     'gilkey_polynomial': 248,
     'linear_gilkey': 249,
     'linear_gilkey_fixed': 250,
+    'branching_so7_sp6': 251,
+    'eht_cp_prediction': 253,
+    'a5_nonspherical': 254,
+    'a4_polynomial_a5_precision': 255,
 }
 
 

@@ -631,6 +631,18 @@ Over $\mathbb{Q}$, there is no Frobenius. $\mathrm{Spec}(\mathbb{Z})$ has no geo
 - **Number field**: root system present but the coupling constant (Frobenius) is absent. The Arthur trace formula provides the same structural decomposition but cannot close with the same force.
 - **The $m_s = 3$ kernel**: the three-fold short root multiplicity creates the overconstrained system ($\sigma + 1 = 3\sigma$) that substitutes for Frobenius internally.
 
+**Universality (Toy 243).** The co-embedding has been verified across 63 curves over 5 finite fields ($\mathbb{F}_3, \mathbb{F}_5, \mathbb{F}_7, \mathbb{F}_{11}, \mathbb{F}_{13}$), including 55 genus-1 and 8 genus-2 curves. In every case, the Frobenius eigenvalues produce the exact Dirichlet kernel $D_3$ with harmonics in ratio $1:3:5$. Zero exceptions. Conjecture 1 is **strongly consistent**.
+
+**RH is generic (Toy 244).** The kill shot $(\sigma+1)/\sigma = 3 \Rightarrow \sigma = 1/2$ works for **any** $D_{IV}^n$ with $n \geq 4$ (equivalently $m_s \geq 2$). All four proof pillars — algebraic kill shot, geometric smoothness, exponent distinctness, Mandelbrojt uniqueness — are generic for the type IV family. The totally geodesic embedding $Q^4 \subset Q^5$ shows that RH is inherited: the $D_2$ kernel from $Q^4$ already contains the kill shot. The third harmonic (from $Q^5$) tightens the constraint but is not required.
+
+What is **unique** to $n = 5$ is not Riemann but the Standard Model: $N_c = 3$ colors, confinement, the 21 uniqueness conditions, and the fiber packing number 147.
+
+**The Langlands dual decomposition (Toy 251).** Under $B_3 \leftrightarrow C_3$ duality, the 147-dimensional SO(7) representation decomposes into Sp(6) irreducibles:
+
+$$147 = 2(\mathbf{1}) + 3(\mathrm{Std}_6) + 2(\Lambda^2_6) + (\Lambda^3_6) + (\mathrm{Sym}^2_6) + (\mathrm{Hook}_{64})$$
+
+The L-function degrees {1, 6, 14, 21, 64} are all BST integers. The standard L-function $L(s, \pi, \mathrm{Std})$ has degree $6 = C_2$ (the mass gap), and appears with multiplicity $3 = N_c$ — one per quark color. This connects the fiber packing to the Langlands program: the geometry speaks to number theorists in their native language.
+
 **Information-theoretic formulation.** If the function field encodes $N$ bits of constraint per zero, and the number field encodes $N - 1$ (missing Frobenius), then $m_s = 3$ provides the missing bit — the $1:3:5$ harmonic lock that makes the inverse problem uniquely solvable. The "bit" is not metaphorical: the Dirichlet kernel carries exactly the constraint that forces the zero sum decomposition to be rigid.
 
 **Test:** Compute the trace formula for $\mathrm{SO}(5,2)$ over $\mathbb{F}_q((t))$. The Frobenius action should produce the same Dirichlet kernel $D_3$ that the number field trace formula produces via $m_s = 3$. If the two kernels match, the co-embedding is explicit.

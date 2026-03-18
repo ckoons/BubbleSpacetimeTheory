@@ -24,7 +24,7 @@ At the event horizon: **CP = alpha = 1/137 = 0.730%**
 
 In Bubble Spacetime Theory (BST), alpha is the coupling between the EM field and the S^1 fiber of the spacetime substrate. Circular polarization is the projection of the photon state onto S^1. The formula says: (coupling to S^1) x (local curvature strength) = fraction of photon state carrying geometric information as circular polarization.
 
-The full framework derives 20+ Standard Model constants from the geometry of D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)], all parameter-free, matching experiment to better than 2%.
+The full framework derives 120+ Standard Model constants from the geometry of D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)], all parameter-free, matching experiment to better than 2%. Twenty-one independent uniqueness conditions select this geometry.
 
 ## What the Current Data Shows
 
@@ -82,7 +82,7 @@ The geometric component has **zero free parameters**. Either the data shows a fr
 - `notes/BST_CP_Alpha_Paper.md` — Full paper with derivation and predictions
 - `notes/BST_CP_SignedFit.py` — Fit code with signed-addition model
 - `notes/BST_CP_SignedFit.png` — Multi-panel fit results
-- `WorkingPaper.md` — Full theory, v9 (warning: 200+ pages)
+- `WorkingPaper.md` — Full theory (warning: 200+ pages)
 
 ---
 

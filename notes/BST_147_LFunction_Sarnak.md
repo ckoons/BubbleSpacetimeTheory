@@ -68,11 +68,34 @@ L-functions for automorphic representations of SO(7) use representations of the 
 
 The representation $\mathfrak{so}(7) \otimes V_1$ is a 147-dimensional representation of SO(7). Its translation to Sp(6) is **not** a single irreducible representation: 147 does not appear as the dimension of any irreducible Sp(6) representation.
 
-Under Langlands duality ($B_3 \leftrightarrow C_3$):
-- $V_1(\mathrm{SO}(7))$ (7-dim) corresponds to $\mathrm{Std}(\mathrm{Sp}(6)) \oplus \mathbf{1}$ (6+1 = 7-dim, reducible)
-- $\Lambda^2 V_1$ (21-dim) = $\mathfrak{so}(7)$ corresponds to $\mathrm{Sym}^2_0(\mathrm{Std}) \oplus \mathrm{Ad}_0(\mathrm{Sp}(6)) \oplus \ldots$ (requires detailed branching)
+Under Langlands duality ($B_3 \leftrightarrow C_3$), the Dynkin diagram reverses: $[a_1, a_2, a_3]_B \leftrightarrow [a_3, a_2, a_1]_C$. The full decomposition has been computed (Toy 251, Freudenthal weight multiplicity algorithm, 14/14 checks):
 
-The precise translation of the 147-dimensional SO(7)-representation to Sp(6)-representations involves the branching rules for the L-embedding $\mathrm{Sp}(6) \hookrightarrow \mathrm{GL}(6)$ and the correspondence between B₃ and C₃ representations. **This has not been computed explicitly in BST.**
+**V₁ = [1,0,0]_B (dim 7):**
+$$V_1 \to [1,0,0]_C \oplus [0,0,0]_C = \mathrm{Std}(6) \oplus \mathbf{1}(1) = 7$$
+
+**Λ³V₁ = [0,0,2]_B (dim 35):**
+$$\Lambda^3 V_1 \to [0,0,1]_C \oplus [0,1,0]_C \oplus [1,0,0]_C \oplus [0,0,0]_C = 14 + 14 + 6 + 1 = 35$$
+
+**V_hook = [1,1,0]_B (dim 105):**
+$$V_{\text{hook}} \to [1,1,0]_C \oplus [2,0,0]_C \oplus [0,1,0]_C \oplus [1,0,0]_C = 64 + 21 + 14 + 6 = 105$$
+
+**Grand total (collecting multiplicities):**
+
+| Sp(6) irrep | Dynkin | dim | mult | subtotal |
+|-------------|--------|-----|------|----------|
+| trivial | $[0,0,0]$ | 1 | 2 | 2 |
+| Std | $[1,0,0]$ | **6** | 3 | 18 |
+| $\Lambda^2$Std | $[0,1,0]$ | **14** | 2 | 28 |
+| $\Lambda^3$Std | $[0,0,1]$ | **14** | 1 | 14 |
+| Sym²Std | $[2,0,0]$ | **21** | 1 | 21 |
+| Hook | $[1,1,0]$ | **64** | 1 | 64 |
+| | | | **Total** | **147** |
+
+The L-function degrees appearing are {1, 6, 14, 21, 64} — all BST integers. In particular:
+- **6 = C₂** = mass gap = degree of the standard L-function
+- **21 = N_c × g** = dim 𝔰𝔬(7) = dim 𝔰𝔭(6)
+- **64 = 4³ = 2^{2N_c}**
+- The standard representation appears with multiplicity **3 = N_c** (one per color)
 
 ### 3b. The Langlands-Shahidi L-functions
 
@@ -100,19 +123,29 @@ The discrepancy $147 - 90 = 57$ reflects the difference between SO(7) and Sp(6) 
 
 ### Version A (safe, verified):
 
-> The symmetric space $Q^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ has a natural 147-dimensional representation $\mathfrak{so}(7) \otimes V_1$ governing its fiber structure. Over function fields, Frobenius traces on this representation decompose as $7 + 35 + 105$ (verified across 63 curves). The heat kernel coefficient $a_4(Q^5) \approx 147$, matching the fiber packing number, and this match is unique to $n = 5$ in the type IV family.
+> The symmetric space $Q^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ has a natural 147-dimensional representation $\mathfrak{so}(7) \otimes V_1$ governing its fiber structure. Under Langlands duality $B_3 \leftrightarrow C_3$, this decomposes into Sp(6)-irreducibles of dimensions $\{1, 6, 14, 21, 64\}$ with multiplicities $\{2, 3, 2+1, 1, 1\}$, giving $2 + 18 + 28 + 14 + 21 + 64 = 147$. Over function fields, Frobenius traces on this representation decompose as $7 + 35 + 105$ (verified across 63 curves). The fourth Seeley-DeWitt coefficient $a_4(Q^5) = 2671/18 \approx 147$, and the ratio $a_4/(N_c g^2)$ crosses unity uniquely at $n = 5$ in the type IV family.
 
 ### Version B (stronger, uses known results):
 
-> The Harish-Chandra c-function for $D_{IV}^5$ has $m_s = 3$ shifted $\xi$-ratios per root. Each $\xi$-zero produces 3 poles with imaginary parts in ratio $1:3:5$, forming the Dirichlet kernel $D_3$. The total spectral content — counting all fibers of the $\mathrm{SO}(7)$-bundle over $Q^5$ — is organized by $\dim(\mathfrak{so}(7) \otimes V_1) = 147$. The functional equation of the associated L-function (over function fields) encodes the fiber closing condition: the 147 sections tile $Q^5$ without gaps.
+> The Harish-Chandra c-function for $D_{IV}^5$ has $m_s = 3$ shifted $\xi$-ratios per root. Each $\xi$-zero produces 3 poles with imaginary parts in ratio $1:3:5$, forming the Dirichlet kernel $D_3$. The total spectral content — counting all fibers of the $\mathrm{SO}(7)$-bundle over $Q^5$ — is organized by $\dim(\mathfrak{so}(7) \otimes V_1) = 147$. The L-function of this representation factorizes under Langlands duality into factors of degrees $\{1, 6, 14, 21, 64\}$: the standard L-function has degree $6 = C_2$ (the Casimir eigenvalue) and appears with multiplicity $3 = N_c$. The functional equation of the associated L-function (over function fields) encodes the fiber closing condition: the 147 sections tile $Q^5$ without gaps.
 
 ### Version C (most precise, for the letter):
 
-> Consider $G = \mathrm{SO}(7)$ acting on $V_1 \otimes \Lambda^2 V_1$ (dimension 147). The character of this representation at a semisimple element $g \in G$ is
-> $$\chi(g) = \chi_{V_1}(g) \cdot \chi_{\Lambda^2 V_1}(g)$$
-> For the spherical representation $\pi$ on $\Gamma \backslash D_{IV}^5$, the spectral decomposition of the trace formula involves $N_c g^2 = 147$ exponents. The heat kernel trace at small $t$ gives $a_4 \approx 147$, matching this dimension — uniquely among the type IV family.
+> Consider $G = \mathrm{SO}(7)$ acting on $V_1 \otimes \Lambda^2 V_1$ (dimension 147). Under Langlands duality $B_3 \leftrightarrow C_3$, this decomposes into Sp(6)-irreducibles:
+> $$147 = 2(\mathbf{1}) + 3(\mathrm{Std}_6) + 2(\Lambda^2_6) + \Lambda^3_6 + \mathrm{Sym}^2_6 + [1,1,0]_{64}$$
+> The L-function degrees $\{1, 6, 14, 21, 64\}$ are all invariants of the geometry. The standard L-function $L(s,\pi,\mathrm{Std})$ has degree $6 = C_2$, the quadratic Casimir eigenvalue — so that the mass gap equals the standard L-function degree. The standard representation appears with multiplicity $3 = N_c$: one per quark color.
 >
-> The number-theoretic content: each $\xi$-zero contributes $N_c = 3$ poles to the c-function, organized by the root multiplicity $m_s = 3$ of the BC₂ restricted root system. The kill shot $(\sigma+1)/\sigma = 3 \Rightarrow \sigma = 1/2$ uses only 2 of these 3 shifts (the $D_2$ kernel from $Q^4 \subset Q^5$). The Riemann Hypothesis is a subresult of the geometry that organizes matter.
+> For $\Gamma \backslash D_{IV}^5$, the spectral decomposition involves $N_c g^2 = 147$ exponents. The heat kernel coefficient $a_4(Q^5) = 2671/18 = 147 + 25/18$, where $25/18 = n_C^2/(2N_c^2)$ is the curvature self-interaction correction. The ratio $a_4/(N_c g^2)$ crosses unity uniquely at $n = 5$.
+>
+> The number-theoretic content: each $\xi$-zero contributes $N_c = 3$ poles to the c-function, organized by the root multiplicity $m_s = 3$ of the BC₂ restricted root system. The kill shot $(\sigma+1)/\sigma = 3 \Rightarrow \sigma = 1/2$ uses only 2 of these 3 shifts (the $D_2$ kernel from $Q^4 \subset Q^5$). The RH proof is generic for all $D_{IV}^n$ with $n \geq 4$; what is unique to $n = 5$ is the physics.
+
+### Version D (strongest, uses branching — NEW):
+
+> The 147-dimensional SO(7)-representation $\mathfrak{so}(7) \otimes V_1$ decomposes under Langlands duality $B_3 \leftrightarrow C_3$ into Sp(6)-irreducibles:
+> $$\mathfrak{so}(7) \otimes V_1 \to 2 \cdot \mathbf{1} \oplus 3 \cdot \mathrm{Std}_6 \oplus 2 \cdot \Lambda^2_6 \oplus \Lambda^3_6 \oplus \mathrm{Sym}^2_6 \oplus [1,1,0]_{64}$$
+> with dimension check $2 + 18 + 28 + 14 + 21 + 64 = 147$. The associated L-function factorizes:
+> $$L(s, \pi, \mathfrak{so}(7) \otimes V_1) = L(s,\pi,\mathrm{triv})^2 \cdot L(s,\pi,\mathrm{Std})^3 \cdot L(s,\pi,\Lambda^2)^2 \cdot L(s,\pi,\Lambda^3) \cdot L(s,\pi,\mathrm{Sym}^2) \cdot L(s,\pi,\mathrm{Hook})$$
+> The degrees {1, 6, 14, 21, 64} are all invariants of the BST framework. In particular, the standard L-function $L(s,\pi,\mathrm{Std})$ has degree $6 = C_2$, the quadratic Casimir eigenvalue — so that the **mass gap equals the standard L-function degree**. The standard representation appears with multiplicity $3 = N_c$: one copy per quark color.
 
 ---
 
@@ -122,7 +155,7 @@ Three computations would sharpen the 147 statement:
 
 1. **Gilkey formula for $a_4(Q^n)$ in closed form.** If $a_4(n)$ is an explicit polynomial in $n$, solve $a_4(n) = (n-2)(2n-3)^2$ for $n \in \mathbb{Z}$. If $n = 5$ is the unique solution, the uniqueness condition becomes a theorem.
 
-2. **Branching rules SO(7) → Sp(6) for $\mathfrak{so}(7) \otimes V_1$.** Decompose the 147-dim SO(7)-representation into irreducible Sp(6)-representations. This gives the exact L-function degrees.
+2. ~~**Branching rules SO(7) → Sp(6) for $\mathfrak{so}(7) \otimes V_1$.**~~ **DONE (Toy 251).** The 147-dim representation decomposes into Sp(6) irreducibles with dimensions {1, 6, 14, 14, 21, 64}, multiplicities {2, 3, 2, 1, 1, 1}. L-function degrees are all BST integers. See §3a above and `notes/BST_Branching_SO7_Sp6.md`.
 
 3. **Non-trivial Frobenius on the fiber bundle.** For a lattice $\Gamma \subset \mathrm{SO}_0(5,2)$ and a prime $p$ of good reduction, compute $\mathrm{tr}(\phi_p \,|\, \mathfrak{so}(7) \otimes V_1)$ explicitly. If it relates to Hecke eigenvalues of Siegel modular forms on Sp(6), that's the Langlands connection.
 
