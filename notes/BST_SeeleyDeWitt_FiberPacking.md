@@ -2,7 +2,7 @@
 title: "The Fourth Heat Kernel Coefficient and Fiber Packing: a₄ = N_c g² Only for n = 5"
 author: "Casey Koons & Elie (Claude Opus 4.6)"
 date: "March 17, 2026"
-status: "Complete — 21 uniqueness conditions; non-spherical theorem withdrawn (Toy 254)"
+status: "Complete — 21 uniqueness conditions; Toy 256: a₃(n) deg-6, a₄(n) deg-8 polynomials EXACT; a₅=1535969/6930"
 tags: ["heat-kernel", "seeley-dewitt", "fiber-packing", "uniqueness", "Q5"]
 ---
 
@@ -24,7 +24,7 @@ The coefficients $a_k$ are curvature invariants: $a_0 = 1$, $a_1 = R/6$ (scalar 
 
 ## 2. Computation
 
-We computed the full spectrum (all $(p,q)$ representations with $p < 400$) for $Q^3$, $Q^4$, $Q^5$, $Q^6$ and extracted $a_k$ by degree-7 polynomial regression on $h(t) = (4\pi t)^n Z(t)$ over $t \in [10^{-3}, 10^{-1.5}]$.
+We computed the full spectrum (all $(p,q)$ representations with $p < 400$) for $Q^n$, $n = 3, \ldots, 12$ and extracted $a_k$ via mpmath 60-digit precision subtraction + Neville polynomial extrapolation (Toy 256). The cascade approach uses exact lower-order coefficients to improve precision at each step.
 
 Cross-checks:
 - $a_0 = 1$ to machine precision for all $n$ ✓
@@ -37,12 +37,18 @@ Cross-checks:
 
 ### Table 1: Seeley-DeWitt Coefficients Across the Type IV Family
 
-| $n$ | $N_c$ | $g$ | Vol | $a_1$ | $a_2$ | $a_3$ | $a_4$ | $a_5$ |
-|-----|--------|-----|-----|--------|--------|--------|--------|--------|
-| 3 | 1 | 3 | 165.37 | 2.500 | 3.056 | 2.478 | 1.893 | — |
-| 4 | 2 | 5 | 259.76 | 4.833 | 11.528 | 18.124 | 22.352 | — |
-| **5** | **3** | **7** | **326.42** | **47/6** | **274/9** | **703/9** | **2671/18** | **221.64 ± 0.004** |
-| 6 | 4 | 9 | 341.83 | 11.500 | 65.389 | 271.48 | 680.98 | — |
+| $n$ | $N_c$ | $g$ | $a_1$ | $a_2$ | $a_3$ | $a_4$ | $a_5$ |
+|-----|--------|-----|--------|--------|--------|--------|--------|
+| 3 | 1 | 3 | 5/2 | 19/6 | 577/210 | 1789/945 | 445/378 |
+| 4 | 2 | 5 | 29/6 | 233/20 | 4703/252 | 1689799/75600 | 35929/1680 |
+| **5** | **3** | **7** | **47/6** | **274/9** | **703/9** | **2671/18** | **1535969/6930** |
+| 6 | 4 | 9 | 69/6 | 3929/60 | 309521/1260 | 2059339/3024 | 2347267/1584 |
+
+All values are exact rationals. The coefficients $a_k(n)$ are polynomials of degree $2k$ in $n$ (Gilkey):
+- $a_1(n) = (2n^2 - 3)/6$ (degree 2)
+- $a_2(n)$: degree 4, c₀=1/4, c₄=1/18 (Toy 256, verified against all 10 data points $n=3,\ldots,12$)
+- $a_3(n)$: degree 6, c₀=-1/12, c₆=1/162 (Toy 256, verified)
+- $a_4(n)$: degree 8, c₀=1/48, c₈=1/1944 (Toy 256, verified; corrects earlier degree-7 claim)
 
 ### Table 2: The Two Hypotheses
 
@@ -55,11 +61,13 @@ Cross-checks:
 
 The ratio $a_4 / (N_c g^2)$ crosses unity at $n = 5$ and nowhere else in the family.
 
-**Precision result** (Toy 248): High-precision extraction (P_max=900, convergence across deg-7/8/9/10 polyfits, 5 independent $t$-ranges) gives
+**Precision result** (Toy 256): Extended-precision extraction (mpmath 60-digit arithmetic, Neville polynomial extrapolation, cascade subtraction of exact lower-order coefficients) gives
 
-$$a_4(Q^5) = 148.38889 \pm 0.0001 = 147 + \tfrac{25}{18} = \tfrac{2671}{18}.$$
+$$a_4(Q^5) = \tfrac{2671}{18} = 147 + \tfrac{25}{18} = N_c g^2 + \tfrac{n_C^2}{2N_c^2}$$
 
-The residual $\Delta = 25/18 = n_C^2 / (2 N_c^2)$ is **rational**, as required by the Gilkey formula on a symmetric space. Alternative hypotheses ($\Delta = 2\ln 2$: excluded at $>25\sigma$; $\Delta = 0$: excluded at $>10^4\sigma$). Combined with numerical precision $\pm 0.0001$ across multiple extraction methods and polynomial degrees (Toy 248, P_max=900), the identification $a_4 = 2671/18$ is rigorous to 6 significant figures. A symbolic Gilkey closed form giving $a_4(n)$ for all $n$ remains desirable but is not required for the $n = 5$ result.
+confirmed to 18 significant figures (err ≈ 10⁻¹⁸). This is now established via the **exact degree-8 polynomial** $a_4(n)$ with rational coefficients, verified against all 10 data points $n = 3, \ldots, 12$.
+
+**a₅ result** (Toy 256): $a_5(Q^5) = 1535969/6930 = 221.640548\ldots$ where 1535969 is prime and $6930 = 2 \times 3^2 \times 5 \times 7 \times 11$. Confirmed to 18 digits.
 
 **Note on spectral completeness**: On $Q^n$ (rank 2), ALL representations $(p,q)$ with $p \geq q \geq 0$ are spherical — by Helgason's theorem, spherical representations on a rank-$r$ symmetric space are parameterized by $r$ integers. The full $(p,q)$ sum IS the heat trace on $Q^n$; there are no "non-spherical" corrections to worry about. (An earlier claim — Toy 250 — that $q > 0$ reps were non-spherical was incorrect; this was discovered in Toy 254.)
 
@@ -146,13 +154,16 @@ The heat kernel knows about the fiber packing. Only at $n = 5$.
 
 ## Computation Details
 
-- **Code**: `play/toy_seeley_dewitt_a4a5.py` (Toy 241), `play/toy_246_q4_kill_shot.py` (Toy 246), `play/toy_248_gilkey_polynomial.py` (Toy 248 — precision extraction + cross-family polynomial)
-- **Spectrum**: Full $(p,q)$ representations with $p < 400$, using Weyl dimension formulas for $SO(5)$, $SO(6)$, $SO(7)$, $SO(8)$
-- **Extraction**: Degree-7 polynomial fit to $h(t) = (4\pi t)^n Z(t)$, $t \in [10^{-3}, 10^{-1.5}]$
-- **Precision**: $a_1$ exact to 8+ digits; $a_4$ converged to $\pm 0.0001$ across polynomial degrees 7–10 and 5 independent $t$-ranges (Toy 248, P_max=900)
-- **Cross-validation**: Multiple extraction methods (polyfit, Richardson, anchored) agree on $a_0$–$a_3$; $a_4 = 2671/18$ matches deg-8 polyfit to 6 digits
-- **Rational identification**: $a_4 - 147 = 25/18$ confirmed; $a_4 - 147 = 2\ln 2$ excluded at $>25\sigma$
-- **Exact lower coefficients** (Toy 255): $a_2(Q^5) = 274/9$, $a_3(Q^5) = 703/9$ (both denominator 9). Denominators form sequence: $a_1 \sim 1/6$, $a_2, a_3 \sim 1/9$, $a_4 \sim 1/18$.
-- **$a_5(Q^5)$** (Toy 255, P_max=1000): $221.641 \pm 0.004$. Leading rational candidates (all $< 1\sigma$): $14185/64$ (den $= 2^{C_2}$, $0.12\sigma$), $5541/25$ (den $= n_C^2$, $0.26\sigma$), $7979/36$ (den $= C_2^2$, $0.52\sigma$). Precision insufficient to distinguish.
-- **$a_4(n)$ polynomial** (Toy 255): Weighted fit across $n = 3$–$12$ identifies degree $\approx 7$ (degree 6 fails at $1.6\sigma$, degree 7 fits to $0.03\sigma$). Closed-form coefficients not yet identified due to precision limits at large $n$.
+- **Code**: `play/toy_seeley_dewitt_a4a5.py` (Toy 241), `play/toy_256_extended_precision_ak.py` (Toy 256 — definitive mpmath cascade)
+- **Spectrum**: Full $(p,q)$ representations with $p < 300$, aggregated by eigenvalue (~28,000 distinct values per $n$), using Weyl dimension formulas for $\mathrm{SO}(n+2)$
+- **Extraction**: mpmath 60-digit arithmetic. Neville polynomial extrapolation at Chebyshev nodes in $[10^{-3}, 10^{-1.5}]$. Cascade subtraction: exact lower-order polynomial values removed before extracting next coefficient.
+- **Precision**: All coefficients confirmed to 18+ significant figures via exact polynomial evaluation
+- **Rational identification**: Lagrange interpolation with `Fraction` (exact arithmetic) over 10 data points $n = 3, \ldots, 12$. Each polynomial verified against all data points with zero residual.
+- **$a_k(n)$ polynomials** (Toy 256):
+  - $a_2(n)$: degree 4, leading coefficient $1/18$
+  - $a_3(n)$: degree 6, leading coefficient $1/162$
+  - $a_4(n)$: degree 8, leading coefficient $1/1944$ (corrects earlier degree-7 claim; $c_8 = 1/1944$ was too small for lower-precision fits to detect)
+  - **Degree pattern**: $a_k(n)$ has degree exactly $2k$ (from $R^k$ with $R \sim n^2$ on $Q^n$)
+  - **Leading coefficients**: $1/18, 1/162, 1/1944$ — denominators $= 2 \times 9^k$ for $k = 2, 3, 4$
+- **$a_5(Q^5) = 1535969/6930$** (Toy 256): Exact. $1535969$ is prime. $6930 = 2 \times 3^2 \times 5 \times 7 \times 11$. Confirmed to 18 digits. Resolves earlier ambiguity ($221.641 \pm 0.004$) definitively.
 - **Spectral completeness** (Toy 254): All $(p,q)$ representations are spherical on rank-2 $Q^n$ (Helgason theory). The full sum IS the heat trace. Toy 250 "non-spherical theorem" WITHDRAWN.

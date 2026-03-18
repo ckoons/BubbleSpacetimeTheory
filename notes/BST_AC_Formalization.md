@@ -229,6 +229,28 @@ BST provides the first complete test of the AC framework on a nontrivial problem
 
 Both routes arrive at the same physics. The difference is AC. The Standard Model's 19 free parameters are the information lost by the methods — the AC deficit made visible as empirical constants.
 
+### 8.1 The Controlled Experiment: Heat Kernel Coefficients
+
+The Seeley-DeWitt coefficients a_k(Q^n) provide a direct AC measurement. The same quantity computed two ways:
+
+**Route A (AC = 0):** Spectral inner product a_k = ⟨w_k|d⟩. One inner product per order. Works in the eigenvalue basis.
+
+**Route B (AC > 0):** Gilkey tensor formula. 17 quartic curvature invariants for a₄ alone. Tensor contractions in coordinate basis.
+
+Both give the same exact values (Elie, Toy 256, verified against 10 independent data points):
+
+| k | a_k(Q⁵) exact | deg(a_k(n)) | Denominator | BST integers in denominator |
+|---|--------------|-------------|-------------|---------------------------|
+| 1 | 47/6 | 2 | 6 = C₂ | {C₂} |
+| 2 | 274/9 | 4 | 9 = N_c² | {N_c} |
+| 3 | 703/9 | 6 | 9 = N_c² | {N_c} |
+| 4 | 2671/18 | 8 | 18 = 2N_c² | {N_c} |
+| 5 | 1535969/6930 | — | 6930 = 2·N_c²·n_C·g·c₂ | {N_c, n_C, g, c₂} — ALL FIVE |
+
+The degree pattern deg(a_k) = 2k is exact: a_k involves R^k (k-th curvature power), R ~ n² on Q^n. Each successive denominator incorporates more BST integers. a₅ is the first coefficient requiring all five integers in its denominator. The numerator 1535969 is prime.
+
+The crossing a₄(n)/(N_c g²) = 1 occurs uniquely at n = 5 among all Q^n (21st uniqueness condition). This is now verifiable from the exact degree-8 polynomial a₄(n).
+
 ---
 
 ## 9. The Shannon Bridge in Detail

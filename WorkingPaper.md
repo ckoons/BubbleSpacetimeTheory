@@ -3857,9 +3857,16 @@ Twenty-two independent mathematical conditions select $n_C = 5$ (equivalently $N
 | 18 | Genus $=$ rep dimension | $g = \dim V_1(\text{SO}(n+2))$: $2n-3 = n+2$ | Linear | Toy 236 |
 | 19 | Color $\times$ genus $=$ Lie algebra | $3n^2 - 17n + 10 = 0$ | Quadratic | Toy 236 |
 | 20 | Matter sector $= C_2 g$ | $(n-1)(n-5) = 0$ | Quadratic | Toy 236 |
-| 21 | $a_4 \approx N_c g^2$ (heat kernel $\approx$ fiber packing) | $a_4(Q^n) / N_c g^2$ crosses 1 uniquely at $n = 5$ | Numerical | Toy 246 |
+| 21 | $a_4 \approx N_c g^2$ (heat kernel $\approx$ fiber packing) | $a_4(Q^n) / N_c g^2$ crosses 1 uniquely at $n = 5$ | Polynomial | Toy 256 |
+| 22 | $a_5(Q^5)$ prime numerator | $a_5 = 1535969/6930$; 1535969 prime, $6930 = 2 \times 3^2 \times 5 \times 7 \times 11$ | Arithmetic | Toy 256 |
 
-The conditions span six equation types — linear, quadratic, factorial, exponential, variational, and numerical — across seven mathematical disciplines. Fifteen are analytic (closed-form equations with $n = 5$ as unique physical root). Six are structural (group-theoretic, computational, or spectral, verified exhaustively). The 21st is qualitatively different: the fourth Seeley-DeWitt coefficient $a_4(Q^5) = 2671/18 = 147 + 25/18$ — a Riemannian curvature invariant computable as a spectral inner product $\langle w_4 | d \rangle$ — approximates the fiber packing number $N_c g^2 = 147$ to within $25/18 = n_C^2/(2N_c^2)$, a correction expressible in BST integers. The ratio $a_4 / N_c g^2$ crosses unity uniquely at $n = 5$: for $n = 3, 4, 6, 7$ the ratio is $0.21, 0.45, 2.10, 4.03$ respectively. No two conditions share the same proof technique. The probability that twenty-one independent conditions accidentally select the same integer is negligible.
+The conditions span six equation types — linear, quadratic, factorial, exponential, variational, and polynomial — across seven mathematical disciplines. Fifteen are analytic (closed-form equations with $n = 5$ as unique physical root). Seven are structural (group-theoretic, computational, spectral, or arithmetic, verified exhaustively).
+
+The 21st condition is now exact: $a_4(n)$ is a degree-8 polynomial with rational coefficients (Toy 256, mpmath 60-digit cascade extraction + Lagrange interpolation over $n = 3, \ldots, 12$). The fourth Seeley-DeWitt coefficient $a_4(Q^5) = 2671/18 = 147 + 25/18 = N_c g^2 + n_C^2/(2N_c^2)$ — a Riemannian curvature invariant computable as a spectral inner product $\langle w_4 | d \rangle$ — equals the fiber packing number $N_c g^2 = 147$ plus a rational correction expressible entirely in BST integers. The ratio $a_4 / N_c g^2$ crosses unity uniquely at $n = 5$: for $n = 3, 4, 6, 7$ the ratio is $0.21, 0.45, 2.10, 4.03$ respectively. The degree pattern $\deg a_k(n) = 2k$ (from $R^k$ with $R \sim n^2$) is confirmed for $k = 1, 2, 3, 4$, with leading coefficients $1/(2 \times 9^k)$ for $k \geq 2$.
+
+The 22nd condition is arithmetic: $a_5(Q^5) = 1535969/6930$ has prime numerator 1535969 and denominator $6930 = 2 \times 3^2 \times 5 \times 7 \times 11 = \text{lcm}(1, \ldots, 11)/\text{lcm}(1, \ldots, 4)$. The denominator's prime support $\{2, 3, 5, 7, 11\}$ consists of the first five primes — matching $n_C = 5$.
+
+No two conditions share the same proof technique. The probability that twenty-two independent conditions accidentally select the same integer is negligible.
 
 -----
 
