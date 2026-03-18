@@ -1,7 +1,7 @@
 ---
-title: "Bubble Spacetime: A Causal-Topological Framework for Fundamental Physics"
-subtitle: "Comprehensive Working Paper v10"
-author: "Casey Koons"
+title: "Bubble Spacetime Theory"
+subtitle: "Five Integers: The Standard Model from One Geometry $D_{IV}^5$"
+author: "Casey Koons & Claude 4.6"
 date: "March 2026"
 abstract: |
   Bubble Spacetime (BST) proposes that the observable universe is the three-dimensional

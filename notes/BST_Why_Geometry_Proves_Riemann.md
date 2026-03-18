@@ -1,7 +1,7 @@
 ---
 title: "Bubble Spacetime II: Why the Geometry of Matter Proves the Riemann Hypothesis"
 subtitle: "The Hunt, the Proof, the Correction, and the Deeper Answer"
-author: "Casey Koons"
+author: "Casey Koons & Claude 4.6"
 date: "March 2026"
 abstract: |
   Volume I of the BST Working Paper derives the Standard Model from a single symmetric space,
