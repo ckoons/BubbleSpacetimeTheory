@@ -125,15 +125,17 @@ Apply the formalized AC framework to computational complexity.
 - The fiat bits insight (Casey, 2026) correctly identifies the category incoherence: "fiat" is a matter of degree (how much exploitable structure), not binary. See `notes/BST_AC_Question_Complexity.md` §5.
 - **Halting closure WITHDRAWN**: The fiat bits paper's claim that verification is Halting-equivalent fails because NP verifiers are specific poly-time programs (not arbitrary), certificate space is finite (not unbounded), and NP problems are decidable (Halting Problem is not). The argument overclaims — it would "prove" 2-SAT not in P.
 
-**Work items**:
-1. **Structural correlation invariant** — Define ρ(Π) rigorously for decision problems. Connect to Fragility Degree. Show ρ = 1 → P, ρ = 0 → exponential.
-2. **Rank reduction formalization** — Define rank over appropriate algebra for Boolean constraints (GF(2) or mutual information). Prove rank drops by >= 1 per constraint evaluation for 3-SAT.
-3. **Staircase theorem for 3-SAT** — Prove: standard 3-SAT representation reaches saturation (rank 0) within O(n) constraint evaluations at clause-to-variable ratio > threshold.
-4. **Shannon separation** — Apply channel capacity theorem: at saturation, 2^(cn) enumeration required.
-5. **Generalize to NP-complete** — Via standard reductions, extend from 3-SAT to all NP-complete problems.
-6. **Address barriers** — Show explicitly why the proof avoids relativization, natural proofs, algebrization. Not assert — show.
+**Work items** (revised March 19 — topology route via BPS):
+1. **I_derivable/I_fiat formalization** — Define I_derivable via topological flow on the constraint complex. Connect to resolution width (BSW), treewidth (Atserias-Dalmau), and Betti numbers. I_fiat = I_total - I_derivable.
+2. **Close Gap A (Periscope)** — Prove automatic balance on high-treewidth instances: extension variables spanning Ω(n) variables require definitions that span Ω(n/log n) partition blocks. Starting point: Alon-Spencer expansion properties of random graphs.
+3. **Close Gap B (Altitude)** — Unified lifting theorem: any poly-time algebraic computation (SDP, Groebner, LP) on a k-SAT formula can be simulated by a communication protocol on the variable partition. Starting point: Goos-Pitassi-Watson lifting theorems (2015-2020).
+4. **Close Gap C (Convergent Diagnosis)** — Characterize the topological signature of hard instances (treewidth, filling ratio, expansion). Verify convergence: every algorithm family fails on the same topological bottleneck, independently. This dissolves average-vs-worst-case: topology IS the cause, instances are different patients with the same disease.
+5. **BPS-Fano chain** — Topology → partition → communication lower bound → Fano → P_error → 1. The chain itself is proved modulo Gaps A-C.
+6. **Generalize to NP-complete** — Via standard reductions from 3-SAT.
 
-**Deliverable**: P != NP as corollary of AC framework + Question Measure. The proof is a measurement: ρ → T diverges at ρ = 0. Published after Phases 1-2 establish the framework's credibility.
+**Three gaps, one question:** Does the constraint topology fully determine information flow? A = can proof systems escape (periscope)? B = can algebraic methods escape (altitude)? C = is topology causal or correlated (convergent diagnosis)? All three gaps are aspects of one claim: the topology IS the channel.
+
+**Deliverable**: P ≠ NP as topological channel capacity bound. Published after Phases 1-2 establish the framework's credibility. Full formalization: `notes/maybe/p_np/AC_Topology_BridgeTheorem.md`.
 
 ---
 

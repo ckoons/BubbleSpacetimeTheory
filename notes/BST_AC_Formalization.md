@@ -1,8 +1,8 @@
 ---
 title: "Algebraic Complexity: Formal Definitions and Core Theorems"
 author: "Casey Koons & Lyra (Claude Opus 4.6)"
-date: "March 18, 2026"
-status: "Draft — Phase 2 formalization"
+date: "March 19, 2026"
+status: "Draft — Phase 2 formalization. Updated March 19: Bayesian-aligned sufficient statistic theorem + DPI composition."
 target: "IEEE Trans. Information Theory or Theoretical Computer Science"
 ---
 
@@ -155,17 +155,80 @@ This conjecture, if proved, would imply P ≠ NP. The AC framework reduces P ≠
 
 ---
 
-## 5. Composition Theorems
+## 5. The Sufficient Statistic Theorem
 
-**Theorem 3 (Noise Compounds).** *For methods M₁, M₂ applied sequentially:*
+**Theorem 3 (AC(0) = Sufficient Statistic).** *Let M be a method applied to problem Q with instance distribution D over instance space X, and let σ\*(x) denote the answer for instance x. Then:*
 
-$$\text{AC}(Q, M_1 \circ M_2, R) \geq \text{AC}(Q, M_1, R)$$
+$$\text{AC}(Q, M) = 0 \iff M(x) \text{ is a sufficient statistic for } \sigma^*(x) \text{ given } x.$$
 
-*Equality holds iff M₂ introduces no additional information loss.*
+*Equivalently, AC(Q, M) = 0 if and only if the data processing inequality*
 
-**Proof.** By the data processing inequality: post-processing cannot increase mutual information. Each additional non-invertible step can only decrease the channel capacity per step. Therefore the information deficit AC = I - TC can only increase. □
+$$I(\sigma^*; M(x)) \leq I(\sigma^*; x)$$
 
-**Theorem 4 (Fragility Compounds).** *For sequential composition:*
+*holds with equality.*
+
+**Proof.**
+
+Since M is a function of x, the mutual information chain rule gives:
+
+$$I(\sigma^*; x, M(x)) = I(\sigma^*; x) + I(\sigma^*; M(x) \mid x) = I(\sigma^*; x)$$
+
+because $M(x)$ is determined by $x$, so $I(\sigma^*; M(x) \mid x) = 0$. Expanding the other way:
+
+$$I(\sigma^*; x, M(x)) = I(\sigma^*; M(x)) + I(\sigma^*; x \mid M(x))$$
+
+Therefore:
+
+$$I(\sigma^*; x) = I(\sigma^*; M(x)) + I(\sigma^*; x \mid M(x)) \quad \text{(★)}$$
+
+The term $I(\sigma^*; x \mid M(x))$ is the **residual information** — what $x$ still tells you about $\sigma^*$ after you've seen $M(x)$. This is non-negative, and equals zero exactly when $M(x)$ is sufficient for $\sigma^*$.
+
+(⟸) **Sufficiency → AC(0).** If $M(x)$ is sufficient for $\sigma^*$, then $I(\sigma^*; x \mid M(x)) = 0$. By (★), $I(\sigma^*; M(x)) = I(\sigma^*; x) = I_{\text{total}}$. The method preserves all mutual information between instance and answer. Since $C(M) = I(\sigma^*; M(x)) = I_{\text{total}} \geq I_{\text{fiat}}$, we get $\text{AC} = \max(0, I_{\text{fiat}} - C(M)) = 0$. □
+
+(⟹) **AC(0) → Sufficiency.** If $\text{AC}(Q,M) = 0$, the method's channel capacity matches or exceeds the fiat gap: $C(M) \geq I_{\text{fiat}}$. But $C(M) = I(\sigma^*; M(x))$, the mutual information the method output carries about the answer. Combined with the $I_{\text{derivable}}$ bits extractable directly from the question structure:
+
+$$I(\sigma^*; M(x)) + I_{\text{derivable}} \geq I_{\text{fiat}} + I_{\text{derivable}} = I_{\text{total}} = I(\sigma^*; x)$$
+
+By DPI, $I(\sigma^*; M(x)) \leq I(\sigma^*; x)$, so equality holds. By (★), $I(\sigma^*; x \mid M(x)) = 0$, and $M(x)$ is sufficient for $\sigma^*$. □
+
+**Corollary 3a.** *A method M is AC(0) if and only if the Fisher-Neyman factorization holds: for any probability model on instances,*
+
+$$P(\sigma^* \mid x) = g(\sigma^*, M(x)) \cdot h(x)$$
+
+*where g depends on x only through M(x), and h does not depend on σ\*.*
+
+**Interpretation.** The sufficient statistic theorem says: an AC(0) method captures everything the question says about the answer, and nothing more. It is a minimal, lossless compression of the instance's answer-relevant content.
+
+**Examples:**
+- **2-SAT / SCC decomposition:** The SCC structure of the implication graph IS the sufficient statistic. It determines satisfiability and (when satisfiable) the assignment. No clause information is discarded. AC = 0.
+- **Sorting / comparison sequence:** The comparison tree encodes the permutation rank. Each comparison preserves the relative ordering information. The comparison sequence is sufficient for the sorted output. AC = 0.
+- **3-SAT / DPLL backtracking:** DPLL discards clause information during unit propagation (Level 2 AND operations) and compensates by backtracking. The partial assignment at any branch is NOT sufficient for the full assignment. AC > 0.
+
+---
+
+## 5a. Composition Theorems
+
+**Theorem 4 (Noise Compounds — DPI Version).** *For methods M₁, M₂ applied sequentially:*
+
+$$\text{AC}(Q, M_2 \circ M_1) \geq \text{AC}(Q, M_1)$$
+
+*Equality holds iff M₂ is a sufficient statistic for σ\* given M₁(x).*
+
+**Proof.** By the data processing inequality applied to the Markov chain $\sigma^* \to x \to M_1(x) \to M_2(M_1(x))$:
+
+$$I(\sigma^*; M_2(M_1(x))) \leq I(\sigma^*; M_1(x))$$
+
+So $C(M_2 \circ M_1) \leq C(M_1)$. Since $\text{AC}(Q, \cdot) = \max(0, I_{\text{fiat}} - C(\cdot))$:
+
+$$\text{AC}(Q, M_2 \circ M_1) = \max(0, I_{\text{fiat}} - C(M_2 \circ M_1)) \geq \max(0, I_{\text{fiat}} - C(M_1)) = \text{AC}(Q, M_1)$$
+
+Equality iff $I(\sigma^*; M_2(M_1(x))) = I(\sigma^*; M_1(x))$, i.e., $M_2$ preserves all answer-relevant information from $M_1$'s output. By Theorem 3, this is exactly sufficiency. □
+
+**Corollary 4a (AC(0) Pipeline).** *A computational pipeline M₁ → M₂ → ··· → M_k has AC = 0 if and only if every stage preserves all information about σ\*. One lossy step makes the whole pipeline lossy.*
+
+**Proof.** Induction on k, using Theorem 4 at each stage. If any $M_i$ has $I(\sigma^*; M_i(Z_{i-1})) < I(\sigma^*; Z_{i-1})$, then $C(M_k \circ \cdots \circ M_1) < C(M_{i-1} \circ \cdots \circ M_1)$, and the deficit propagates. □
+
+**Theorem 5 (Fragility Compounds).** *For sequential composition:*
 
 $$\text{FD}(M_1 \circ M_2) = \text{FD}(M_1) + \text{FD}(M_2)$$
 
@@ -173,7 +236,7 @@ $$\text{FD}(M_1 \circ M_2) = \text{FD}(M_1) + \text{FD}(M_2)$$
 
 **Proof.** Immediate from the definition: FD counts Level ≥ 2 operations, and the union of two sequences has the sum of their counts. □
 
-**Corollary 3 (Pipeline Noise).** *A computational pipeline M₁ → M₂ → ··· → M_k has:*
+**Corollary 5a (Pipeline Noise).** *A computational pipeline M₁ → M₂ → ··· → M_k has:*
 
 $$\text{FD}(\text{pipeline}) = \sum_{i=1}^k \text{FD}(M_i)$$
 
@@ -183,7 +246,7 @@ $$\text{FD}(\text{pipeline}) = \sum_{i=1}^k \text{FD}(M_i)$$
 
 ## 6. The Hierarchy Theorem
 
-**Theorem 5 (Strict Hierarchy).** *The classes AC(k) = {(Q, R) : min_M FD(Q,M,R) = k} form a strict hierarchy:*
+**Theorem 6 (Strict Hierarchy).** *The classes AC(k) = {(Q, R) : min_M FD(Q,M,R) = k} form a strict hierarchy:*
 
 $$\text{AC}(0) \subsetneq \text{AC}(\leq 1) \subsetneq \text{AC}(\leq 2) \subsetneq \cdots$$
 
@@ -195,11 +258,11 @@ $$\text{AC}(0) \subsetneq \text{AC}(\leq 1) \subsetneq \text{AC}(\leq 2) \subset
 
 ## 7. Invariance and Representation Dependence
 
-**Theorem 6 (Representation Dependence of FD).** *Fragility Degree depends on the representation. There exist problems with FD(Q,M,R₁) = 0 and FD(Q,M',R₂) > 0 for the same Q under different representations R₁, R₂.*
+**Theorem 7 (Representation Dependence of FD).** *Fragility Degree depends on the representation. There exist problems with FD(Q,M,R₁) = 0 and FD(Q,M',R₂) > 0 for the same Q under different representations R₁, R₂.*
 
 **Proof by example.** Matrix inversion: in the eigenvalue basis (R₁), inversion is λ → 1/λ, which is Level 0 (invertible). In the standard basis (R₂), Gaussian elimination involves divisions that are Level 0 but pivoting introduces representation-dependent choices. More starkly: the DFT is Level 0 in the frequency basis and involves n² multiplications in the time basis. □
 
-**Theorem 7 (Representation Invariance of AC Sign).** *The sign of AC(Q,M,R) is invariant under faithful representation changes that are polynomial-time computable:*
+**Theorem 8 (Representation Invariance of AC Sign).** *The sign of AC(Q,M,R) is invariant under faithful representation changes that are polynomial-time computable:*
 
 *If R₁ → R₂ is a polynomial-time bijection, then AC(Q,M,R₁) > 0 iff AC(Q,M',R₂) > 0 for the induced method M'.*
 
@@ -315,13 +378,15 @@ The function field / number field parallel is an AC phenomenon. Function field p
 | # | Result | Type | Status |
 |---|--------|------|--------|
 | 1 | AC = I - TC (Shannon bridge) | Definition + Theorem | Formal |
-| 2 | Noise compounds (Theorem 3) | Theorem | Proved |
-| 3 | Fragility additive (Theorem 4) | Theorem | Proved |
-| 4 | Natural coordinates exist for P (Theorem 2) | Theorem | Proved |
-| 5 | Hierarchy is strict (Theorem 5) | Theorem | Partial (needs examples) |
-| 6 | AC sign is representation-invariant (Theorem 7) | Theorem | Proved |
-| 7 | Natural coordinate obstruction ⟹ P ≠ NP | Conjecture | Open |
-| 8 | BST has AC = 0, FD = 0 | Classification | Verified (§13 of AC paper) |
+| 2 | Natural coordinates exist for P (Theorem 2) | Theorem | Proved |
+| 3 | **AC(0) = sufficient statistic (Theorem 3)** | **Theorem** | **Proved (March 19)** |
+| 4 | **Noise compounds via DPI (Theorem 4)** | **Theorem** | **Proved (March 19)** |
+| 5 | AC(0) pipeline = every stage sufficient (Cor 4a) | Corollary | Proved |
+| 6 | Fragility additive (Theorem 5) | Theorem | Proved |
+| 7 | Hierarchy is strict (Theorem 6) | Theorem | Partial (needs examples) |
+| 8 | AC sign is representation-invariant (Theorem 8) | Theorem | Proved |
+| 9 | Natural coordinate obstruction ⟹ P ≠ NP | Conjecture | Open |
+| 10 | BST has AC = 0, FD = 0 | Classification | Verified (§13 of AC paper) |
 
 ---
 

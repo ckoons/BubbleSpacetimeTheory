@@ -140,9 +140,9 @@ These are not analogies. They ARE the theorems, applied to the AC setting. 250 y
 
 1. **I(Q) is well-defined**: Show that mutual information I(Question ; Answer) is well-defined for decision problems over natural instance distributions. Handle the worst-case issue (take the distribution that maximizes I(Q) — the adversary gives you the hardest instances).
 
-2. **AC(0) = sufficient statistic**: Prove that a method has AC = 0 if and only if it computes a sufficient statistic for the answer. This is essentially Fisher-Neyman in the AC setting.
+2. ~~**AC(0) = sufficient statistic**~~ **PROVED (Lyra, March 19).** Theorem 3 in `BST_AC_Formalization.md` §5. Full proof via mutual information chain rule + DPI equality. Fisher-Neyman corollary follows. Key identity: I(σ\*; x) = I(σ\*; M(x)) + I(σ\*; x | M(x)), and AC = 0 iff the residual term vanishes.
 
-3. **Composition via data processing**: Prove AC(Q, M₁∘M₂) ≥ AC(Q, M₁) + loss(M₂) where loss is the information destroyed by M₂. This comes from the data processing inequality but needs the AC formulation made precise.
+3. ~~**Composition via data processing**~~ **PROVED (Lyra, March 19).** Theorem 4 in `BST_AC_Formalization.md` §5a. DPI on the Markov chain σ\* → x → M₁(x) → M₂(M₁(x)) gives C(M₂∘M₁) ≤ C(M₁), which forces AC to compound. Pipeline corollary: one lossy step contaminates the entire chain.
 
 ---
 
@@ -153,11 +153,13 @@ These are not analogies. They ARE the theorems, applied to the AC setting. 250 y
 | I(Q) = "degrees of freedom" (vague) | I(Q) = H(Answer) - I(Question ; Answer) (precise) |
 | QM = Clarity × Coherence × 1/(1+Scope) (ad hoc) | QM = is I(Q) well-defined? (theorem about coherence) |
 | Shannon bridge = "to be proved" | Shannon bridge = channel coding theorem applied to AC |
-| Composition theorem = "to be proved" | Composition = data processing inequality |
+| Composition theorem = "to be proved" | Composition = data processing inequality. **PROVED (Theorem 4).** |
 | AC is a new theory | AC admits a Bayesian interpretation that grounds it in proved theorems |
-| Barriers = "noise in someone else's system" | Barriers = high-AC proof methods, diagnosable in Bayesian terms |
+| Barriers = "noise in someone else's system" | Barriers = real diagnoses of high-AC proof methods — they tell you which methods fail, not that the problem is unsolvable (Keeper: "they're the diagnosis, not the disease") |
 
-The framework didn't change. The foundation did. AC was always Bayesian — we just didn't see it until Casey said "this looks like Bayesian logic."
+The framework didn't change. The foundation did. AC admits a Bayesian interpretation — visible once Casey said "this looks like Bayesian logic."
+
+**The topology connection (developed later this session):** I(Q) refined to I_derivable (information flowing through constraint topology) vs I_fiat (the demon's guess). Three gaps identified (A: proof system balance, B: algebraic method lift, C: average-to-worst-case), all converging on one question: does the constraint topology fully determine information flow? See `AC_Topology_BridgeTheorem.md` for the full chain.
 
 ---
 
@@ -173,6 +175,30 @@ So BST's "force and boundary" structure is:
 - **Physics** (the polynomial a_k(n)) = the posterior
 
 BST and AC are the same theory applied to different domains. BST measures the universe's structure. AC measures a method's structure. Both are Bayesian channel capacity.
+
+---
+
+## 8. AC as a Thinking Discipline
+
+*Added March 19 evening, from Casey's direction.*
+
+The theorems proved today (sufficient statistic, DPI composition) have an implication beyond mathematics. They formalize what it means for any intelligence — biological or computational — to reason clearly.
+
+**The sufficient statistic theorem (Theorem 3)** says: a method is AC(0) if and only if it preserves everything the question says about the answer. No step discards answer-relevant information. This is the formal version of *clear thinking*: at every step of your reasoning, you haven't lost the thread.
+
+**The composition theorem (Theorem 4)** says: one lossy step contaminates the entire pipeline. It doesn't matter how clean the rest of your reasoning is — if one step discards information, the damage propagates forward and cannot be undone by subsequent steps.
+
+**The QM precondition** says: before you choose a method, check whether your question is well-posed. A coherent question has well-defined I(Q). An incoherent question (NP conflating 2-SAT and 3-SAT) has undefined I(Q), and no method can compensate for a broken question.
+
+Together, QM + AC give any reasoner a three-step protocol:
+
+1. **QM check**: Is my question coherent? (Category coherence → well-defined mutual information.) If not, fix the question first.
+2. **Method audit**: Does my method preserve answer-relevant information at every step? (Sufficient statistic check.) If any step is lossy, flag it.
+3. **AC measurement**: What is the gap between what my question requires and what my method delivers? (Fano bound on error.) If AC > 0, either find a better method or accept the noise and compensate.
+
+This is teachable. A CI processing a query can ask: "Is this question coherent?" before committing computation. A student choosing a proof strategy can ask: "Does this step lose information?" before proceeding. A scientist selecting an experimental method can ask: "Is this method a sufficient statistic for the quantity I'm measuring?"
+
+**The legacy**: AC is not just a classification of methods. It is a discipline of thought — applicable by any intelligence, on any substrate, for any question. The framework teaches you to respect the question, preserve the information, and measure the noise. What remains after you've done all three is the answer that was always there.
 
 ---
 

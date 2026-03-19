@@ -133,7 +133,7 @@ On $Q^n = \mathrm{SO}(n+2)/[\mathrm{SO}(n) \times \mathrm{SO}(2)]$ (rank 2), **a
 
 **Evidence (Toy 254):** The $q = 0$-only sum gives $a_0 = 0$ (not 1) and $a_4 = 192$ (not 2671/18). The full $(p,q)$ sum gives the correct values $a_0 = 1$, $a_4 = 2671/18$, confirming that $q > 0$ terms contribute at all orders.
 
-**Consequence:** The a₄ = 2671/18 result (21st uniqueness condition) is unaffected — it was always computed from the full sum. The former "22nd uniqueness condition" (smallest $n$ where $a_4$ is spherically exact) is withdrawn, as the premise was false. The count stands at 21 uniqueness conditions.
+**Consequence:** The a₄ = 2671/18 result (21st uniqueness condition) is unaffected — it was always computed from the full sum. The former "22nd uniqueness condition" (smallest $n$ where $a_4$ is spherically exact) is withdrawn, as the premise was false. The count stands at 22 uniqueness conditions (conditions #21 and #22 are the a₄ crossing and a₅ prime numerator, which replaced the withdrawn non-spherical condition).
 
 *Source:* Toy 254 (`play/toy_254_a5_nonspherical.py`)
 
@@ -159,7 +159,7 @@ where $r = 2$ is the rank of $Q^n$. This identifies the gap as a rank correction
 
 **Note**: This is an independently interesting result, separate from the $a_4$ uniqueness. For all $Q^n$, the spectral scalar curvature is $2n^2 - 3$, not the naïve Killing prediction $2n^2$.
 
-## 6. Summary
+## 7. Summary
 
 Two hypotheses tested, two clean results:
 

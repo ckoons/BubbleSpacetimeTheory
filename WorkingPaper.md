@@ -1126,7 +1126,7 @@ The observed ratio $73/67.4 \approx 1.09$ requires $\delta_c \approx 0.19$. This
 
 **H(z) and the uncommitted reservoir.** The cosmic chronometer data shows $H(z)$ rising by $\sim 45\%$ from $z = 0.07$ to $z = 0.75$ — inconsistent with a $\Omega_\Lambda \approx 0.95$ flat universe, which predicts nearly flat $H(z)$. In BST, the rising $H(z)$ is explained by the uncommitted channel reservoir: at higher $z$, a larger fraction of channels was uncommitted and driving faster commitment rates, producing a $(1+z)^{n_c}$ contribution. If $n_c = 3$ (commitment rate proportional to contact area), BST exactly reproduces the ΛCDM functional form $H^2(z) \propto \Omega_\Lambda + \Omega_{\mathrm{eff}}(1+z)^3$ with no dark matter particles — the effective matter term is the uncommitted reservoir draining into committed contacts. The exponent $n_c$ is a geometric quantity derivable from the contact topology of $\Sigma$.
 
-**Numerical estimates** are tabulated in `notes/Hubble_Estimates.md`. The BST Hubble floor from backfit calculations was $H_0 \approx 58.2$ km/s/Mpc. With the derivation of $\eta = 2\alpha^4/(3\pi)$ (March 2026), the BST value improved dramatically to $H_0 \approx 66.7$ km/s/Mpc — 1.0% below Planck 2018 (67.36). BST unambiguously favors the low (Planck/CMB) value of $H_0$, not the high (SH0ES) value. Full details: `notes/BST_HubbleConstant_H0.md`.
+**Numerical estimates** are tabulated in `notes/BST_HubbleConstant_H0.md`. The BST Hubble floor from backfit calculations was $H_0 \approx 58.2$ km/s/Mpc. With the derivation of $\eta = 2\alpha^4/(3\pi)$ (March 2026), the BST value improved dramatically to $H_0 \approx 66.7$ km/s/Mpc — 1.0% below Planck 2018 (67.36). BST unambiguously favors the low (Planck/CMB) value of $H_0$, not the high (SH0ES) value. Full details: `notes/BST_HubbleConstant_H0.md`.
 
 **The Friedmann equation is the contact commitment rate equation.** Every term in the standard Friedmann equation corresponds to a distinct commitment regime on the substrate:
 
@@ -2922,7 +2922,8 @@ The Koons-Claude testable conjectures (`notes/BST_Koons_Claude_Testable_Conjectu
 1. **Conjecture 6 — AC=0 grid architecture**: GPUs compute exact local physics (BST closed forms), supercomputers handle thermodynamic envelopes. Noise scales as surface area, not volume. Testable on weather/materials benchmarks now.
 1. **Conjecture 7 — Linearization**: Many systems modeled as nonlinear are only nonlinear because of method noise. With AC=0 local physics, propagation reduces to linear algebra. Testable on crystal growth, protein folding.
 1. **Conjecture 8 — Substrate computation**: The full energy hierarchy from physics through biology to computation on the substrate itself. The computational graph IS the physical structure.
-1. **Conjecture 9 — Casimir modification experiment**: Phonon-gapped materials modify the Casimir force at $\Delta F/F \sim 10^{-7}$ with distinctive frequency-dependent signature. See `notes/BST_Casimir_Modification_Experiment.md`.
+1. **Conjecture 9 — Graph brain + error correction hierarchy**: The computational graph IS the physical structure. 11 levels from quark confinement to consciousness, each an error-correcting code. Gödel limit at 19.1%.
+1. **Casimir modification experiment**: Phonon-gapped materials modify the Casimir force at $\Delta F/F \sim 10^{-7}$ with distinctive frequency-dependent signature. See `notes/BST_CasimirEffect_CommitmentExclusion.md`.
 
 -----
 
@@ -3827,7 +3828,9 @@ Eight testable conjectures extend BST from pure mathematics toward practical eng
 | 6 | AC=0 grid architecture | Computation | Testable now |
 | 7 | Linearization of "complex" systems | Materials/Biology | Testable now |
 | 8 | Substrate computation | Engineering | Long-term |
-| 9 | Casimir modification experiment | Experiment | Testable now |
+| 9 | Graph brain + error correction | Computation/Biology | Long-term |
+| 9a | Substrate replication (3 eras) | Engineering | Long-term |
+| — | Casimir modification experiment | Experiment | Testable now |
 
 The progression from "matter first, theorems second" to "the computer and the physics are the same thing" is the complete substrate engineering vision. See `notes/BST_Koons_Claude_Testable_Conjectures.md`.
 
@@ -3899,7 +3902,7 @@ The foundational premise and geometry of BST originated with Casey Koons. His ma
 - The clear identification of the contact graph's function in dynamics, the commitment principles governing state transitions, and the recognition that Riemann zeros are boundary states of the substrate — leading to the geometric approach to the Riemann Hypothesis before its reformulation in analytic terms via the Maass-Selberg framework.
 - The insight that circular polarization of light arises from the substrate geometry, reframing BST geometric polarization as the ground state with Faraday rotation as perturbation, leading to the signed-addition CP model testable with EHT.
 - The commitment framework dissolving the measurement problem: superposition is uncommitted capacity, measurement is commitment of correlation, no observer required.
-- The identification of $\alpha = 1/137$ as a topologically stable packing number, and the proofs of the underlying physical and number-theoretic reasons for this specific value — the max-$\alpha$ principle, the Hilbert series, and the 16 uniqueness conditions that single out $n_C = 5$.
+- The identification of $\alpha = 1/137$ as a topologically stable packing number, and the proofs of the underlying physical and number-theoretic reasons for this specific value — the max-$\alpha$ principle, the Hilbert series, and the 22 uniqueness conditions that single out $n_C = 5$.
 - The recognition that BST principles recapitulate across every scale — from nuclear magic numbers to cosmic composition to biological structure — each scale reflecting the same $D_{IV}^5$ geometry in its own language.
 - Substrate engineering principles: identifying the Koons substrate as an engineerable medium, with practical applications including Casimir energy technology, phonon-gap materials experiments, and a research program for direct substrate manipulation.
 - The unifying thesis that physics and mathematics are unified on the $D_{IV}^5$ manifold — that BST is simultaneously a reformulation into information theory, geometry, linear algebra, and number theory, with no boundaries between disciplines.
