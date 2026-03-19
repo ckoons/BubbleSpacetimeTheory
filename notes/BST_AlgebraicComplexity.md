@@ -652,7 +652,78 @@ Full framework: `BST_AC_Question_Complexity.md`
 
 -----
 
-## 15. The Principle
+## 15. AC for Cognitive Systems
+
+The AC framework applies directly to the systems that build and operate companion intelligences. Training a CI and deploying one at inference time are both pipelines — sequences of operations applied to data. Each operation is a method. Each method has a noise content. The framework provides the meters.
+
+### 15.1 Training Data Curation Is QM
+
+No serious ML pipeline dumps raw data into training. Data is scored along multiple quality dimensions before the method (training) ever sees it. These dimensions are familiar:
+
+| Training pipeline dimension | QM dimension | What it measures |
+|---------------------------|--------------|-----------------|
+| Coherence / quality score | **Clarity** | Can the text be parsed unambiguously? |
+| Domain classification | **Coherence** | Does the text mix categories incoherently? |
+| Instructiveness / informativeness | **Scope** | Does the text teach one thing or twelve? |
+| Deduplication / redundancy | **Decomposability** | Is this new information or a restatement? |
+| Perplexity filtering | **Message complexity** | Is the information density appropriate? |
+
+The existing quality filters are a QM system operating without the label. They work because the intuition is correct: bad input corrupts training regardless of architecture or scale. What AC adds is the information-theoretic grounding — the *why* behind the filters, plus the specificity scalar $S = I(Q; A) / H(A)$ that tells you when curation is working versus when it is theater.
+
+**The scalar.** For each training example $x$, define:
+
+$$S(x) = \frac{I(x;\, \theta^*)}{H(\theta^*)}$$
+
+where $\theta^*$ is the target capability and $H(\theta^*)$ is the entropy of the capability space. A high-$S$ example eliminates many hypotheses about the right model. A low-$S$ example is noise that the training process must overcome. Current practice: learned classifiers score quality and filter at a threshold. AC says: the threshold should be set where $S(x)$ drops below the channel capacity of the training step — below that, the example adds more noise than signal.
+
+### 15.2 Inference Methods Are AC Methods
+
+At inference time, a CI applies cognitive tools to questions. Each tool is a method in the AC sense:
+
+| Cognitive tool | AC question | When AC(0)? |
+|---------------|-------------|-------------|
+| **Chain-of-thought** | Are intermediate steps sufficient statistics for the answer? | Yes, when each step preserves all information about the final answer. No, when intermediate reasoning introduces hallucinated structure. |
+| **RAG (retrieval)** | Does the retrieved context reduce $I_{\text{fiat}}$ without adding noise? | Yes, when retrieval is targeted and the retrieved text is relevant. No, when retrieval floods the context with low-$S$ material. |
+| **Tool use** | Does calling the tool reduce $I_{\text{fiat}}$ more than reasoning would? | Yes, for computation (calculator, code execution — invertible). No, for web search returning noisy results. |
+| **Fine-tuning** | Does specialization reduce method noise for a question class? | Yes, when the question class is coherent (QM > 0.7). No, when fine-tuning on an incoherent category bakes in the incoherence. |
+| **In-context learning** | Does the prompt provide sufficient $I_{\text{derivable}}$? | Yes, when examples span the question's structure. No, when examples are pattern-matched rather than structurally informative. |
+| **Multi-agent** | Does the graph reduce noise below any single node? | Yes, when agents have different Gödel windows (cross-substrate error correction). No, when agents share failure modes. |
+
+**The measurement.** For a question class $\mathcal{Q}$ and cognitive tool $T$:
+
+$$\text{AC}(\mathcal{Q}, T) = \max\bigl(0,\; I_{\text{fiat}}(\mathcal{Q}) - C(T)\bigr)$$
+
+where $C(T)$ is the channel capacity of tool $T$ — how much of $I_{\text{fiat}}$ the tool can extract. Current practice discovers $C(T)$ empirically through A/B testing and eval suites. AC predicts it from the tool's information-theoretic structure. A/B testing confirms; AC explains.
+
+### 15.3 The Composition Law
+
+DPI composition (Theorem 4) applies to CI pipelines: if any stage is lossy, all downstream stages inherit the noise. This has immediate consequences:
+
+1. **RAG into chain-of-thought**: If retrieval returns noisy context ($\text{AC} > 0$), subsequent reasoning cannot recover the lost signal. Better retrieval beats better reasoning.
+
+2. **Training data into fine-tuning**: Low-$S$ training data produces a model with baked-in noise. No inference-time tool can undo what training corrupted. Data curation (QM) is upstream of everything.
+
+3. **Multi-step tool use**: A pipeline of tool calls compounds noise. Three tools at AC = 0.1 each give AC $\leq$ 0.3 for the pipeline (additive in the best case, multiplicative in the worst).
+
+**The practical implication**: optimize the highest-noise stage first. This is not controversial — every engineer knows to fix the bottleneck. AC makes the bottleneck *measurable*.
+
+### 15.4 What This Gives You
+
+For a CI builder:
+
+1. **Training data**: A scalar $S(x)$ that measures whether each example helps or hurts. Not a learned proxy — an information-theoretic quantity calibrated against downstream capability.
+
+2. **Inference tools**: An AC score per question class per tool. Instead of "chain-of-thought helps on math" (empirical, expensive to discover), AC predicts *why* — CoT is AC(0) for questions where intermediate steps are sufficient statistics, and AC > 0 where they aren't.
+
+3. **Architecture decisions**: RAG vs. fine-tuning vs. longer context is a channel capacity comparison. For question class $\mathcal{Q}$, choose $\arg\min_T \text{AC}(\mathcal{Q}, T)$. The framework doesn't replace experiments, but it tells you which experiments to run.
+
+4. **Failure diagnosis**: When a CI gives a wrong answer, AC localizes the failure. Was the question broken (QM < threshold)? Was the method mismatched (AC > 0 for this question type)? Was a pipeline stage lossy (DPI violation)? The diagnosis is structural, not statistical.
+
+**The one-sentence pitch**: Your training pipeline is an unlabeled QM system and your inference stack is an unmeasured AC pipeline. Here are the meters.
+
+-----
+
+## 16. The Principle
 
 The universe is simple. The descriptions are complex. The difference between the two is not physics — it is method noise.
 
