@@ -25,7 +25,7 @@ When $\text{AC} = 0$, the method matches the question.
 When $\text{AC} > 0$, the method is adding noise.
 When $\text{AC} \gg 0$, the method is catastrophically mismatched.
 
-Bad methods applied to bad questions compound: the noise doesn't add — it multiplies. Bad questions and bad methods are usually bad⁴.
+Bad methods applied to bad questions compound: the noise doesn't add — it multiplies. Bad questions and bad methods are usually bad$^4$.
 
 -----
 
@@ -53,7 +53,7 @@ These methods have noise content ≈ 0 because every step can be undone. The inf
 - Renormalization: absorbs infinities into parameters → lossy
 - Effective field theory: integrates out degrees of freedom → lossy by design
 
-### 2.3 Catastrophically Lossy Methods (Noise ≫ 0)
+### 2.3 Catastrophically Lossy Methods (Noise $\gg$ 0)
 
 **Algebraic abstraction** is many-to-one. Many geometric situations map to the same algebraic structure. The inverse map doesn't exist or isn't unique. Information is destroyed in the translation.
 
@@ -173,7 +173,7 @@ Noise compounds. When a bad method is applied to a poorly posed question, the er
 - A clean question + clean method → clean answer (AC = 0)
 - A clean question + noisy method → noisy answer (AC > 0)
 - A noisy question + clean method → reveals the noise in the question
-- A noisy question + noisy method → **catastrophic** (AC ≫ 0, noise ~ bad⁴)
+- A noisy question + noisy method → **catastrophic** (AC $\gg$ 0, noise ~ bad$^4$)
 
 The cosmological constant illustrates this clearly. The standard vacuum energy calculation predicts a value $10^{120}$ times too large — widely acknowledged as one of the deepest puzzles in physics. The question ("what is the energy of empty space?") may itself carry hidden assumptions. In BST, the cosmological constant is a curvature: $\Lambda \sim \alpha^{56}$, where $56 = 8g$. The discrepancy disappears not because the calculation was wrong, but because the question changes: curvature, not energy. When the question matches the geometry, the method simplifies.
 
@@ -296,12 +296,12 @@ Each method has a domain where it's the right tool — where its noise content i
 | **Geometry** | Shape, curvature, geodesics | Discrete/combinatorial problems |
 | **Combinatorics** | Counting, enumeration | Continuous geometry |
 | **Linear algebra** | Eigenproblems, systems | When it becomes abstract module theory |
-| **Complex analysis** | Holomorphic/meromorphic functions | Real-variable problems forced into ℂ |
+| **Complex analysis** | Holomorphic/meromorphic functions | Real-variable problems forced into $\mathbb{C}$ |
 | **Group theory (concrete)** | Symmetries you can perform | Classification for its own sake |
 | **Group theory (abstract)** | Classification problems | Spectral problems dressed in algebra |
 | **Homological algebra** | Topological obstructions | Anything computable by direct methods |
 | **Category theory** | Organizing known mathematics | Producing new results |
-| **Scheme theory** | Arithmetic geometry over ℤ | Smooth manifolds, physics |
+| **Scheme theory** | Arithmetic geometry over $\mathbb{Z}$ | Smooth manifolds, physics |
 | **String theory** | Active research | $10^{500}$ vacua — AC depends on selection mechanism |
 
 The landscape has a clear gradient: methods at the top are constructive, invertible, and low-noise. Methods at the bottom are assertive, irreversible, and high-noise. The gradient correlates with *how close the method stays to computation*. Arithmetic is computation itself. Category theory is as far from computation as mathematics gets.
@@ -339,9 +339,9 @@ BST is the natural starting point for the classification program because every m
 
 | Method | R | C | P | D | K | AC | Verdict |
 |:-------|:-:|:-:|:-:|:-:|:-:|:---|:--------|
-| Spectral gap (λ₁ = C₂) | 0 | 0 | 0 | 0 | 1.0 | 0 | Eigenvalue. Direct. |
+| Spectral gap ($\lambda_1$ = $C_2$) | 0 | 0 | 0 | 0 | 1.0 | 0 | Eigenvalue. Direct. |
 | Chern polynomial | 0 | 0 | 0 | 1 | 1.0 | 0 | Topological, but computable from metric |
-| Heat kernel on Q⁵ | 0 | 0 | 0 | 0 | 1.0 | 0 | Fourier transform of spectrum |
+| Heat kernel on $Q^5$ | 0 | 0 | 0 | 0 | 1.0 | 0 | Fourier transform of spectrum |
 | Plancherel measure | 0 | 0 | 0 | 0 | 1.0 | 0 | Spectral density. Invertible. |
 | Bergman kernel | 0 | 0 | 0 | 1 | 1.0 | 0 | Reproducing kernel. Constructive. |
 | Dirichlet kernel (1:3:5) | 0 | 0 | 0 | 0 | 1.0 | 0 | Partial Fourier sum. Explicit. |
@@ -350,7 +350,7 @@ BST is the natural starting point for the classification program because every m
 | Root system data | 0 | 0 | 0 | 0 | 1.0 | 0 | Finite, exact, computable. |
 | Branching rules (concrete) | 0 | 0 | 0 | 0 | 1.0 | 0 | Multiplicities by direct decomposition. |
 | Harish-Chandra c-function | 0 | 0 | 0 | 0 | 1.0 | 0 | Product of gamma ratios on rank-2. Explicit. |
-| Seeley-DeWitt a_k (spectral) | 0 | 0 | 0 | 0 | 1.0 | 0 | Inner product ⟨w_k\|d⟩. Replaces Gilkey. |
+| Seeley-DeWitt a_k (spectral) | 0 | 0 | 0 | 0 | 1.0 | 0 | Inner product $\langle$w_k\|d$\rangle$. Replaces Gilkey. |
 
 Every method BST uses sits at the origin in noise space. This is not an accident — it's the Fourier Validation Principle applied from the start. The framework was built on Route A.
 
@@ -374,13 +374,13 @@ The methods that did not reach the answer sit farther from the origin in noise s
 
 ### 11.5 Measured Example: Heat Kernel Linearization
 
-The fourth Seeley-DeWitt coefficient a₄(Q⁵) provides a controlled measurement of algebraic complexity — the same number computed two ways, with the noise difference quantified.
+The fourth Seeley-DeWitt coefficient $a_4$($Q^5$) provides a controlled measurement of algebraic complexity — the same number computed two ways, with the noise difference quantified.
 
 **Route B (Gilkey tensor contraction):**
 - Build the Riemann tensor R_{(ia)(jb)(kc)(ld)} explicitly — a 10×10×10×10 array
-- Contract four copies to form five independent quartic invariants: R⁴, R²|Rm|², |Rm|⁴, cyclic, pair
+- Contract four copies to form five independent quartic invariants: $R^4$, $R^2$$|Rm|^2$, $|Rm|^4$, cyclic, pair
 - Solve a 6×5 linear system for universal Gilkey coefficients α_j
-- Result: a₄(Q⁵) ≈ 148.48 (6.5% relative error at n=3, rank deficiency in the invariant matrix)
+- Result: $a_4$($Q^5$) ≈ 148.48 (6.5% relative error at n=3, rank deficiency in the invariant matrix)
 
 The invariant matrix has rank 4, not 5 — cyclic and pair are identical on Q^n. The system is underdetermined. The least-squares fit absorbs the degeneracy silently, producing coefficients that are not universal but approximate. The residual (0.21) reveals method noise that the algebra cannot remove.
 
@@ -388,10 +388,10 @@ The invariant matrix has rank 4, not 5 — cyclic and pair are identical on Q^n.
 - The eigenvalues λ(p,q) = p(p+n) + q(q+n−2) are known from the Casimir operator
 - The multiplicities d(p,q) are known from the Weyl dimension formula
 - The heat trace Z(t) = Σ d(p,q) e^{−λ(p,q)t} is a sum — no contractions, no invariants, no fitting
-- Extract a₄ as the coefficient of t⁴ in the polynomial expansion of (4πt)^n Z(t)
-- Result: a₄(Q⁵) = 2671/18 (exact rational, identified from numerical computation to 10⁻⁴)
+- Extract $a_4$ as the coefficient of $t^4$ in the polynomial expansion of (4πt)^n Z(t)
+- Result: $a_4$($Q^5$) = 2671/18 (exact rational, identified from numerical computation to $10^{-4}$)
 
-**Spectral completeness** (Helgason): On Q^n (rank 2), all representations (p,q) with p ≥ q ≥ 0 are spherical — they have K-fixed vectors and contribute to L²(G/K). The full (p,q) sum IS the heat trace. There are no non-spherical corrections. The identification a₄ = 2671/18 comes directly from this sum, confirmed to 6 significant figures across multiple extraction methods (Toy 248).
+**Spectral completeness** (Helgason): On Q^n (rank 2), all representations (p,q) with p ≥ q ≥ 0 are spherical — they have K-fixed vectors and contribute to $L^2$(G/K). The full (p,q) sum IS the heat trace. There are no non-spherical corrections. The identification $a_4$ = 2671/18 comes directly from this sum, confirmed to 6 significant figures across multiple extraction methods (Toy 248).
 
 **The measurement:**
 
@@ -404,9 +404,9 @@ The invariant matrix has rank 4, not 5 — cyclic and pair are identical on Q^n.
 | Invertible? | No (degenerate) | Yes |
 | Noise content | Medium | 0 |
 
-The Gilkey formula is a Level 2 method: general, powerful, applicable to any Riemannian manifold. On Q⁵ — a symmetric space where ∇R = 0 and the spectrum is known exactly — it is pure overhead. The answer is a single inner product a₄ = ⟨w₄|d⟩ between the heat kernel weights w₄(p,q) = [λ(p,q)]⁴/4! and the multiplicity polynomial d(p,q). The quartic tensor machinery recomputes this inner product by a detour through invariant theory, introducing a rank-deficient system and losing precision in the process.
+The Gilkey formula is a Level 2 method: general, powerful, applicable to any Riemannian manifold. On $Q^5$ — a symmetric space where $\nabla R$ = 0 and the spectrum is known exactly — it is pure overhead. The answer is a single inner product $a_4$ = $\langle w_4 | d \rangle$ between the heat kernel weights $w_4(p,q) = [\lambda(p,q)]^4/4!$ and the multiplicity polynomial d(p,q). The quartic tensor machinery recomputes this inner product by a detour through invariant theory, introducing a rank-deficient system and losing precision in the process.
 
-The algebraic complexity of the Gilkey method on Q⁵ is not theoretical — it is measured: 6.5% error at n=3, a rank-deficient matrix, and five parameters where zero are needed. The spectral method gives the exact answer in one step. Same object. Different noise. *(Toys 248–250.)*
+The algebraic complexity of the Gilkey method on $Q^5$ is not theoretical — it is measured: 6.5% error at n=3, a rank-deficient matrix, and five parameters where zero are needed. The spectral method gives the exact answer in one step. Same object. Different noise. *(Toys 248–250.)*
 
 ### 11.6 The Teaching Principle
 
@@ -426,23 +426,23 @@ Mathematical methods form a natural tower, ordered by distance from computation.
 
 ### Level 1 — Concrete Methods on Specific Spaces
 
-Eigenvalues of the Laplacian on Q⁵. The heat kernel of SO₀(5,2)/[SO(5)×SO(2)]. Chern classes c₁ through c₅ of a particular manifold. The Dirichlet kernel D₃(x) = sin(3x)/(2sin(x)).
+Eigenvalues of the Laplacian on $Q^5$. The heat kernel of $SO_0$(5,2)/[SO(5)×SO(2)]. Chern classes $c_1$ through $c_5$ of a particular manifold. The Dirichlet kernel $D_3$(x) = sin(3x)/(2sin(x)).
 
 Every symbol refers to something you can compute. Every theorem has a number you can check. The method is fully grounded — it touches the ground at every step, and you can see the ground through every formula.
 
 **Noise content:** ≈ 0. The method matches the question because the method IS the question, stated in its own language.
 
-**Where BST lives:** Almost entirely here. The proton mass is λ₁ × π⁵ × mₑ. The Weinberg angle is 3/13. The cosmological constant is α⁵⁶. Every result is a computation on a specific space with a specific metric. This is why BST has zero free parameters — Level 1 methods don't introduce parameters, they read them off the geometry.
+**Where BST lives:** Almost entirely here. The proton mass is $\lambda_1$ × $\pi^5$ × mₑ. The Weinberg angle is 3/13. The cosmological constant is $\alpha^{56}$. Every result is a computation on a specific space with a specific metric. This is why BST has zero free parameters — Level 1 methods don't introduce parameters, they read them off the geometry.
 
 ### Level 2 — General Mechanisms Derived from Underlying Methods
 
 Spectral theory on *any* Riemannian symmetric space. The Selberg trace formula for *any* locally symmetric space $\Gamma \backslash G / K$. Chern-Weil theory on *any* principal bundle. Peter-Weyl on *any* compact group.
 
-The step from Level 1 to Level 2 is the first generalization: the method that worked on Q⁵ is recognized as an instance of a mechanism that works on a class of spaces. The mechanism carries structure — it tells you *why* the Level 1 computation worked, and predicts that the same pattern holds elsewhere.
+The step from Level 1 to Level 2 is the first generalization: the method that worked on $Q^5$ is recognized as an instance of a mechanism that works on a class of spaces. The mechanism carries structure — it tells you *why* the Level 1 computation worked, and predicts that the same pattern holds elsewhere.
 
-**Noise content:** Low but nonzero. The generalization introduces abstraction — "any symmetric space" is not a specific space, and theorems about "any" may not be sharp for the specific case. The noise comes from the gap between the general statement and the particular instance. A theorem that holds for all rank-2 symmetric spaces may be tight for Q⁵ but loose for Q³.
+**Noise content:** Low but nonzero. The generalization introduces abstraction — "any symmetric space" is not a specific space, and theorems about "any" may not be sharp for the specific case. The noise comes from the gap between the general statement and the particular instance. A theorem that holds for all rank-2 symmetric spaces may be tight for $Q^5$ but loose for $Q^3$.
 
-**Grounding test:** A Level 2 result is grounded if, for every specific space in its domain, it reduces to a Level 1 computation with no residual abstraction. If the general theorem, applied to Q⁵, gives you back the exact same number you computed directly — and you can verify this — the generalization is lossless. If it gives you an inequality or an estimate, the gap between the estimate and the exact value is the noise.
+**Grounding test:** A Level 2 result is grounded if, for every specific space in its domain, it reduces to a Level 1 computation with no residual abstraction. If the general theorem, applied to $Q^5$, gives you back the exact same number you computed directly — and you can verify this — the generalization is lossless. If it gives you an inequality or an estimate, the gap between the estimate and the exact value is the noise.
 
 **Where the Standard Model lives:** Mostly here, and for good reason. Gauge theory is Level 2 — it works for any gauge group, and the Standard Model is the specific instance SU(3)×SU(2)×U(1). Perturbation theory is Level 2 — it works for any weakly coupled QFT. This generality was essential: the Standard Model was built before anyone knew which specific geometry underlies the physics. The general tools were the right choice given what was known. The empirical parameters (masses, mixing angles, couplings) anchor the general framework to the specific universe we observe.
 
@@ -501,15 +501,15 @@ Every core BST prediction is an eigenvalue read off the geometry:
 
 | Prediction | Method | Invertible? | Parameters introduced |
 |:-----------|:-------|:-----------|:---------------------|
-| Mass gap (m_p = 6π⁵ m_e) | λ₁ = C₂ = 6 (Casimir eigenvalue) | Yes | 0 |
-| Weinberg angle (sin²θ_W = 3/13) | Ratio of Casimir eigenvalues | Yes | 0 |
+| Mass gap (m_p = 6$\pi^5$ m_e) | $\lambda_1$ = $C_2$ = 6 (Casimir eigenvalue) | Yes | 0 |
+| Weinberg angle ($\sin^2\theta$_W = 3/13) | Ratio of Casimir eigenvalues | Yes | 0 |
 | Fine structure constant | From n_C = 5 geometry | Yes | 0 |
 | G (Newton's constant) | Bergman embedding tower | Yes | 0 |
-| Fermi scale (v = m_p²/7m_e) | Algebraic identity | Yes | 0 |
+| Fermi scale (v = $m_p^2$/7m_e) | Algebraic identity | Yes | 0 |
 | CKM/PMNS mixing angles | n_C = 5 fiber geometry | Yes | 0 |
 | Cosmological composition (13/19) | Fill fraction | Yes | 0 |
-| MOND (a₀ = cH₀/√30) | Geometric acceleration scale | Yes | 0 |
-| Magic numbers (κ_ls = 6/5) | Eigenvalue ratio C₂/n_C | Yes | 0 |
+| MOND ($a_0$ = c$H_0$/$\sqrt{30}$) | Geometric acceleration scale | Yes | 0 |
+| Magic numbers ($\kappa_{ls}$ = 6/5) | Eigenvalue ratio $C_2$/n_C | Yes | 0 |
 
 Each is a direct read: geometry → eigenvalue → physics. One step. No fitting.
 
@@ -518,11 +518,11 @@ Each is a direct read: geometry → eigenvalue → physics. One step. No fitting
 | Method | What it computes | Linear? | Invertible? |
 |:-------|:----------------|:--------|:-----------|
 | Heat kernel Z(t) = Σ d(λ)e^{−λt} | Laplace transform of spectrum | Yes | Yes (inverse Laplace) |
-| Seeley-DeWitt a_k = ⟨w_k\|d⟩ | Inner product of weights and multiplicities | Yes | Yes |
+| Seeley-DeWitt a_k = $\langle$w_k\|d$\rangle$ | Inner product of weights and multiplicities | Yes | Yes |
 | Plancherel measure | Spectral density on G/K | Yes | Yes (Fourier inversion) |
 | Weyl dimension formula | Multiplicities d(p,q) | Yes (polynomial) | Yes |
 | Zonal spherical functions | K-spherical harmonics | Yes | Yes (Peter-Weyl) |
-| Dirichlet kernel D₃(x) | Partial Fourier sum (1:3:5 harmonics) | Yes | Yes |
+| Dirichlet kernel $D_3$(x) | Partial Fourier sum (1:3:5 harmonics) | Yes | Yes |
 
 Every spectral method is a Fourier-type operation: decompose, read, reconstruct. The forward map has an inverse. Nothing is lost.
 
@@ -531,7 +531,7 @@ Every spectral method is a Fourier-type operation: decompose, read, reconstruct.
 | Method | What it computes | Computable from metric? |
 |:-------|:----------------|:----------------------|
 | Chern classes c_k | Topological invariants | Yes (Chern-Weil) |
-| Euler characteristic χ(Q⁵) = 6 | Topological invariant | Yes (Gauss-Bonnet) |
+| Euler characteristic χ($Q^5$) = 6 | Topological invariant | Yes (Gauss-Bonnet) |
 | Signature | Oriented topological invariant | Yes (Hirzebruch) |
 
 These lose metric information by design — topology forgets distances. But they are computable from the metric (forward map exists) and they don't introduce parameters. On a symmetric space where the metric is unique up to scale, no information is actually lost: the topology determines the metric class, and the metric determines the topology. The forward and backward maps both exist. AC(0).
@@ -560,9 +560,9 @@ BST uses representation theory concretely, not abstractly:
 |:----------|:----------------|:---|
 | Weyl dimension formula d(p,q) | A polynomial, evaluated at specific (p,q) | 0 |
 | Branching SO(7) → SO(5)×SO(2) | Multiplicities by direct decomposition | 0 |
-| Root system of B₃ | Finite set of vectors, computable | 0 |
+| Root system of $B_3$ | Finite set of vectors, computable | 0 |
 | Root multiplicities (n−2, 1, 1) | Three integers, read from classification | 0 |
-| Casimir eigenvalue λ = ⟨μ+ρ, μ+ρ⟩ − ⟨ρ,ρ⟩ | Inner product on weight lattice | 0 |
+| Casimir eigenvalue λ = $\langle$μ+ρ, μ+ρ$\rangle$ − $\langle$ρ,ρ$\rangle$ | Inner product on weight lattice | 0 |
 
 Every use is Level 1: specific group, specific representation, specific number. The abstract classification (Dynkin diagrams, Cartan matrices) is referenced but never computed through. BST uses the *results* of classification, not the classification machinery.
 
@@ -585,13 +585,13 @@ The computational structure of BST is a sequence of linear maps:
 
 ```
   Geometry     →   Eigenvalues    →   Heat trace   →   Coefficients   →   Physics
-     Q⁵        →    λ(p,q)        →     Z(t)       →      a_k         →   m_p, α, ...
+     $Q^5$        →    λ(p,q)        →     Z(t)       →      a_k         →   m_p, α, ...
   (metric)      (Casimir: linear)  (Laplace: linear) (extraction: linear) (reading: linear)
 ```
 
 Each arrow is linear:
 
-1. **Geometry → Eigenvalues**: The Casimir operator C acts linearly on representations. Its eigenvalue on the representation with highest weight μ is ⟨μ+ρ, μ+ρ⟩ − ⟨ρ,ρ⟩. This is a quadratic form in μ, but the *map* from representation to eigenvalue is a fixed function — no choices, no parameters.
+1. **Geometry → Eigenvalues**: The Casimir operator C acts linearly on representations. Its eigenvalue on the representation with highest weight μ is $\langle$μ+ρ, μ+ρ$\rangle$ − $\langle$ρ,ρ$\rangle$. This is a quadratic form in μ, but the *map* from representation to eigenvalue is a fixed function — no choices, no parameters.
 
 2. **Eigenvalues → Heat trace**: Z(t) = Σ d(λ) e^{−λt}. This is a linear map: change d(λ) → d(λ) + δd(λ), and Z changes by Σ δd(λ) e^{−λt}. Invertible by inverse Laplace transform.
 
@@ -601,7 +601,7 @@ Each arrow is linear:
 
 **The composition of linear, invertible maps is linear and invertible.**
 
-This means: the information in the geometry of Q⁵ arrives at the physical predictions with zero loss. No step discards data. No step introduces parameters. No step requires a choice. The physics is a linear image of the geometry.
+This means: the information in the geometry of $Q^5$ arrives at the physical predictions with zero loss. No step discards data. No step introduces parameters. No step requires a choice. The physics is a linear image of the geometry.
 
 Compare with the Standard Model pipeline:
 
@@ -610,7 +610,7 @@ Compare with the Standard Model pipeline:
               (nonlinear)     (series truncation)    (scheme selection) (parameter fitting)  (discretization)
 ```
 
-This pipeline is powerful and general — it works for *any* quantum field theory, not just Q⁵. That generality comes at a cost: each arrow introduces choices (which scheme, which truncation, which lattice spacing), and those choices require empirical input to resolve. The 19 measured parameters anchor the calculation to experiment. In BST, the same numbers are geometric outputs rather than empirical inputs — not because the Standard Model got them wrong, but because the spectral method derives what the perturbative method must measure.
+This pipeline is powerful and general — it works for *any* quantum field theory, not just $Q^5$. That generality comes at a cost: each arrow introduces choices (which scheme, which truncation, which lattice spacing), and those choices require empirical input to resolve. The 19 measured parameters anchor the calculation to experiment. In BST, the same numbers are geometric outputs rather than empirical inputs — not because the Standard Model got them wrong, but because the spectral method derives what the perturbative method must measure.
 
 ### 13.4 What AC(0) Means
 
@@ -618,13 +618,13 @@ AC(0) throughout is not a philosophical position. It is a structural property:
 
 1. **Reproducibility**: Every intermediate result is computable by anyone with the eigenvalue formula and the Weyl dimension formula. No specialized software, no proprietary databases, no lattice configurations.
 
-2. **Verifiability**: Every step is invertible. If you doubt a result, run the pipeline backward. The geometry you reconstruct must match Q⁵. If it doesn't, the error is locatable.
+2. **Verifiability**: Every step is invertible. If you doubt a result, run the pipeline backward. The geometry you reconstruct must match $Q^5$. If it doesn't, the error is locatable.
 
-3. **Portability**: The same pipeline works for any symmetric space G/K. Change the root system, change the multiplicities, get different physics. The method doesn't care which space you apply it to — it cares that the space is symmetric (∇R = 0).
+3. **Portability**: The same pipeline works for any symmetric space G/K. Change the root system, change the multiplicities, get different physics. The method doesn't care which space you apply it to — it cares that the space is symmetric ($\nabla R$ = 0).
 
-4. **Zero parameters**: The method introduces nothing. Every number in the output was present in the input (the geometry of Q⁵). The pipeline transports information, it doesn't create it.
+4. **Zero parameters**: The method introduces nothing. Every number in the output was present in the input (the geometry of $Q^5$). The pipeline transports information, it doesn't create it.
 
-The Standard Model's 19 empirical parameters represent decades of precision measurement — some of the most careful experimental work in the history of science. In the AC(0) framework, those same quantities emerge as geometric derivations. The measurements were always correct. What changes is their status: from inputs that must be measured to outputs that can be computed. AC(0) means every number in the output traces back to the geometry of Q⁵, with nothing added along the way.
+The Standard Model's 19 empirical parameters represent decades of precision measurement — some of the most careful experimental work in the history of science. In the AC(0) framework, those same quantities emerge as geometric derivations. The measurements were always correct. What changes is their status: from inputs that must be measured to outputs that can be computed. AC(0) means every number in the output traces back to the geometry of $Q^5$, with nothing added along the way.
 
 -----
 
