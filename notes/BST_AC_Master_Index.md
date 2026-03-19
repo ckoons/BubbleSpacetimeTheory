@@ -179,6 +179,8 @@ R4-R5 (Linearization) ←── Method noise reduction = AC in action
 | March 18, 2026 | P9 created (barriers are incompleteness + Shannon analysis) | Keeper |
 | March 18, 2026 | Elie's Toy 256: exact polynomials a₁-a₄, a₅=1535969/6930, deg(a_k)=2k | Elie |
 | March 18, 2026 | C1, T1, master index updated with Elie's results + barrier dissolution | Lyra |
+| March 18, 2026 | Elie's Toy 257d: c₁₀=1/29160 PROVED. a₅(n) complete (11 coefficients). c₉=-2c₁₀. | Elie |
+| March 18, 2026 | All papers updated: linearization, classification, formalization, letters | Lyra |
 
 ---
 

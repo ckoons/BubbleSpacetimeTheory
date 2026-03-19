@@ -655,6 +655,12 @@ _STEM_TO_NUMBER = {
     'eht_cp_prediction': 253,
     'a5_nonspherical': 254,
     'a4_polynomial_a5_precision': 255,
+    'a5_polynomial': 257,
+    'verify_c10': '257b',
+    'constrained': '257c',
+    'prove_c10': '257d',
+    'ac_mutual_information': 258,
+    'topology_fiat_correlation': 259,
 }
 
 

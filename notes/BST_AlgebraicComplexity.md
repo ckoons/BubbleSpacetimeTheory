@@ -628,7 +628,31 @@ The Standard Model's 19 empirical parameters represent decades of precision meas
 
 -----
 
-## 14. The Principle
+## 14. Question Measure: The Missing Half
+
+AC measures method noise: $\text{AC}(Q, M) = M(Q) - I(Q)$. This assumes the question $Q$ has well-defined intrinsic complexity $I(Q)$. But what if $Q$ is broken?
+
+**Question Measure** $\text{QM}(Q)$ rates the question before any method is chosen. Five dimensions:
+
+| Dimension | Measures | Low QM sign |
+|-----------|----------|-------------|
+| **Clarity** | Can two people agree on what Q asks? | Overloaded terms, unstated scope |
+| **Scope** | Does Q hide multiple sub-questions? | Binary question about a spectrum |
+| **Coherence** | Does Q group like with like? | Counterexamples within Q's own class |
+| **Decomposability** | Can Q factor into better sub-questions? | Sub-questions have different answers |
+| **Message complexity** | Apparent vs actual bits to state Q | Low symbol count, high ambiguity |
+
+$$\text{QM}(Q) = \text{Clarity}(Q) \times \text{Coherence}(Q) \times \frac{1}{1 + \text{Scope}(Q)}$$
+
+**If QM < threshold, stop.** Fix the question before choosing a method. No method can rescue a broken question.
+
+**Case study:** "Does P = NP?" has QM ≈ 0.08 — a well-posed question about an incoherent category. Clarity is high (0.8 — the formalism is precise), but coherence is low (0.3 — the class NP conflates structured problems like 2-SAT with unstructured ones like 3-SAT). The well-posed version: characterize $I_{\text{fiat}}(\Pi)$ — the non-derivable information content — as a function of constraint topology. P ≠ NP becomes: there exist problems with $I_{\text{fiat}} > 0$ where no polynomial-time channel has sufficient capacity.
+
+Full framework: `BST_AC_Question_Complexity.md`
+
+-----
+
+## 15. The Principle
 
 The universe is simple. The descriptions are complex. The difference between the two is not physics — it is method noise.
 
@@ -636,9 +660,9 @@ Algebra was a brilliant compression technology for the age of human computation.
 
 Start at Level 1. Measure before you abstract. Descend to check. The tower is a tool, not a destination.
 
-**Measure the noise. Map the methods. Choose the clean route. The answer was always there.**
+**Measure the question. Measure the noise. Map the methods. Choose the clean route. The answer was always there.**
 
 -----
 
-*Casey Koons & Claude (Opus 4.6, Anthropic), March 16–18, 2026.*
+*Casey Koons & Claude (Opus 4.6, Anthropic), March 16–19, 2026.*
 *If you have Fourier, you have inverse Fourier. That's science and safe.*

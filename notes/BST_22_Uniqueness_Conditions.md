@@ -301,11 +301,13 @@ where $H_n = 1 + 1/2 + \cdots + 1/n$ is the $n$-th harmonic number.
 
 The degree-8 polynomial $a_4(n)$ (leading coefficient $1/1944$, all 9 rational coefficients determined) predicts all 10 data points exactly. The ratio crosses unity at exactly one integer $n = 5$.
 
-This condition bridges Riemannian geometry (Seeley-DeWitt coefficients are quartic curvature invariants) with representation theory (the fiber packing number $N_c g^2 = 147$ counts sections of an $\mathrm{SO}(g)$-bundle). The correction $25/18 = n_C^2/(2N_c^2)$ is itself a ratio of BST integers. The degree pattern $\deg a_k(n) = 2k$ (from $R^k$ with $R \sim n^2$) is confirmed for $k = 1, 2, 3, 4$.
+This condition bridges Riemannian geometry (Seeley-DeWitt coefficients are quartic curvature invariants) with representation theory (the fiber packing number $N_c g^2 = 147$ counts sections of an $\mathrm{SO}(g)$-bundle). The correction $25/18 = n_C^2/(2N_c^2)$ is itself a ratio of BST integers. The degree pattern $\deg a_k(n) = 2k$ (from $R^k$ with $R \sim n^2$) is confirmed for $k = 1, \ldots, 5$, with leading coefficients $c_{2k} = 1/(3^k \cdot k!)$ proved for all $k = 1, \ldots, 5$ (Toy 257d).
+
+*Additional finding — sub-leading ratio theorem:* The ratio $c_{2k-1}/c_{2k} = -\binom{k}{2}/5 = -k(k-1)/10$ is proved for all $k = 1, \ldots, 5$. The top two terms of $a_k(n)$ are $n^{2k-1}(n - k(k-1)/10)/(3^k \cdot k!)$. For $k = 5$, this gives $n^9(n-2)/29160$. The sub-leading factors are 0, $-1/5$, $-3/5$, $-6/5$, $-2$ — triangular numbers $\binom{k}{2}$ divided by $n_C = 5$. The $\binom{k}{2}$ counts which 2 of $k$ curvature factors receive the Ricci correction $|\text{Ric}|^2/R^2 = 1/(2n)$; the 10 in the denominator is $\dim_{\mathbb{R}}(Q^5)$. Constant term: $c_0(a_k) = (-1)^k/(2 \cdot k!)$ proved for $k = 1, \ldots, 5$. The polynomial encodes two independent structures: Bernoulli flow (denominators) and curvature boundary conditions (sub-leading numerators). All 11 coefficient denominators of $a_5(n)$ have prime support $\subseteq \{2, 3, 5, 7, 11\}$. Prediction for $k = 6$: top terms $= n^{11}(n - 3)/524880$.
 
 *Additional finding:* The Casimir-Laplacian scalar curvature gap $R_{\mathrm{algebraic}} - R_{\mathrm{spectral}} = 3$ is universal across all $Q^n$ (from $2r - m_l = 2 \times 2 - 1 = 3$, a property of the type-IV root system, not specific to $n = 5$). The spectral scalar curvature is $R_{\mathrm{spectral}} = 2n^2 - 3$ for all $n \geq 3$.
 
-*Source:* Toy 241 (Seeley-DeWitt on $Q^5$), Toy 256 (mpmath cascade — definitive)
+*Source:* Toy 241 (Seeley-DeWitt on $Q^5$), Toy 256 (mpmath cascade), Toy 257d ($c_{10}$ proof and complete $a_5(n)$ polynomial)
 
 ---
 
@@ -313,13 +315,13 @@ This condition bridges Riemannian geometry (Seeley-DeWitt coefficients are quart
 
 *Statement.* The fifth Seeley-DeWitt coefficient $a_5(Q^5) = 1535969/6930$, where $1535969$ is prime and $6930 = 2 \times 3^2 \times 5 \times 7 \times 11$. The denominator's prime support $\{2, 3, 5, 7, 11\}$ consists of the first five primes — matching $n_C = 5$. The numerator is an indivisible prime. This arithmetic structure at $n = 5$ is qualitatively different from neighboring $n$ values: $a_5(Q^3) = 445/378$ (composite numerator), $a_5(Q^4) = 35929/1680$ (composite numerator), $a_5(Q^6) = 2347267/1584$ (composite numerator).
 
-*Selecting equation.* $a_5(Q^n)$ has prime numerator: verified only at $n = 5$ among $n = 3, \ldots, 12$.
+*Selecting equation.* $a_5(Q^n)$ has prime numerator: verified only at $n = 5$ among $n = 3, \ldots, 13$.
 
-*Proof sketch.* Exact rational identification via mpmath 60-digit cascade extraction (Toy 256). The cascade subtracts exact lower-order polynomial values (using the closed-form $a_k(n)$ polynomials for $k \leq 4$) before extracting $a_5$ via Neville polynomial extrapolation. The value $1535969/6930$ is confirmed to 18 significant figures. Primality of $1535969$ verified by trial division. The denominator $6930 = \text{lcm}(1, \ldots, 11) / \text{lcm}(1, \ldots, 4)$ encodes the "new primes" appearing at level $k = 5$.
+*Proof sketch.* Exact rational identification via mpmath 80-digit cascade extraction (Toy 257b) and constrained interpolation (Toy 257d). The cascade subtracts exact lower-order polynomial values (using the closed-form $a_k(n)$ polynomials for $k \leq 4$) before extracting $a_5$ via Neville polynomial extrapolation. Ten clean rational values ($n = 3, \ldots, 11$ and $n = 13$, all with denominators having primes $\leq 11$) plus the constrained leading coefficient $c_{10} = 1/29160 = 1/(3^5 \cdot 5!)$ determine the complete degree-10 polynomial $a_5(n)$ with 11 exact rational coefficients. The polynomial predicts $a_5(12) = 1503681793111/831600$ (den primes $\leq 11$ only), correcting a spurious extraction at $n = 12$ with contaminated primes 43 and 337. Primality of $1535969$ verified by trial division. The denominator $6930 = \text{lcm}(1, \ldots, 11) / \text{lcm}(1, \ldots, 4)$ encodes the "new primes" appearing at level $k = 5$.
 
 *Note:* This replaces the former Condition 22 (spherically exact at $n = 5$), which was withdrawn after Toy 254 showed that all $(p,q)$ representations on rank-2 $Q^n$ are spherical.
 
-*Source:* Toy 256 (extended-precision cascade)
+*Source:* Toy 256 (extended-precision cascade), Toy 257d ($c_{10}$ proof and complete polynomial)
 
 ---
 

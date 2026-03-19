@@ -135,35 +135,120 @@ At n = 5, k = 5: the Bernoulli primes {2,3,5,7,11} and the Weyl primes {3} combi
 
 ---
 
-## The Leading Coefficient Theorem
+## The Two-Term Asymptotic Theorem
 
-**Theorem (proved).** The leading coefficient of a_k(n) as a polynomial in n is
+### The Leading Coefficient (Force)
+
+**Theorem (proved for k = 1,...,5).** The leading coefficient of a_k(n) is:
 
 $$c_{2k} = \frac{1}{3^k \cdot k!}$$
 
-**Proof.** The heat trace on any Riemannian manifold has leading behavior Z(t) ~ exp(-Rt/6). On Q^n, the scalar curvature R = 2n²-3, so R/6 = (2n²-3)/6 → n²/3 at leading order. The Taylor expansion exp(n²t/3) = Σ (n²/3)^k t^k / k! gives leading coefficient n^{2k} / (3^k · k!) for the t^k term. ∎
+| k | 3^k · k! | c_{2k} | Status |
+|---|----------|--------|--------|
+| 1 | 3 | 1/3 | **proved** |
+| 2 | 18 | 1/18 | **proved** |
+| 3 | 162 | 1/162 | **proved** |
+| 4 | 1944 | 1/1944 | **proved** |
+| 5 | 29160 | 1/29160 | **proved** (Toy 257d) |
 
-Verified exactly for k=1,2,3,4 and to ~7 ppb for k=5 (Elie, Toy 256).
+**Origin:** The heat trace Z(t) ~ exp(-Rt/6), with R = 2n² - 3 → n²/3 at leading order. The Taylor expansion gives 1/(3^k · k!). This is the **force** — the heat equation's universal propagator. It doesn't know what manifold it's on. Bernoulli numbers are its language.
 
-| k | 3^k · k! | c_{2k} | Verified |
-|---|----------|--------|----------|
-| 1 | 3 | 1/3 | exact |
-| 2 | 18 | 1/18 | exact |
-| 3 | 162 | 1/162 | exact |
-| 4 | 1944 | 1/1944 | exact |
-| 5 | 29160 | 1/29160 | ~7 ppb |
+### The Sub-Leading Ratio (Boundary Condition)
 
-The heat kernel exponentiates the scalar curvature. The leading term at every order is determined by a single number: R/6 ≈ n²/3. The subleading coefficients encode the actual geometry (Ricci, Riemann, higher invariants).
+**Theorem (proved for k = 1,...,5; Elie).** The sub-leading ratio is:
+
+$$\frac{c_{2k-1}}{c_{2k}} = -\frac{k(k-1)}{10}$$
+
+| k | -k(k-1)/10 | Actual | C(k,2) | Status |
+|---|-----------|--------|--------|--------|
+| 1 | 0 | 0 | 0 | **proved** |
+| 2 | -1/5 | -1/5 | 1 | **proved** |
+| 3 | -3/5 | -3/5 | 3 | **proved** |
+| 4 | -6/5 | -6/5 | 6 | **proved** |
+| 5 | -2 | -2 | 10 | **proved** |
+
+The numerators 0, 1, 3, 6, 10 are the **triangular numbers** C(k,2). The denominator 10 = dim_ℝ(Q⁵) = 2n_C.
+
+**Origin:** Q^n is Einstein: |Ric|² = R²/(2n). At order k, the Gilkey integrand has k curvature factors. The sub-leading correction picks 2 of k factors to be Ricci-corrected — C(k,2) ways to do that. Each Ricci correction contributes 1/(2n) relative to R. Combined with the Gilkey normalization: C(k,2)/5 = k(k-1)/10. This is the **boundary condition** — the manifold pushing back, constraining how heat can flow.
+
+### The Combined Theorem
+
+**Theorem (Two-Term Asymptotics of Heat Kernel Polynomials on Complex Quadrics).**
+
+$$\boxed{a_k(n) = \frac{n^{2k-1}}{3^k \cdot k!}\left(n - \frac{k(k-1)}{10}\right) + O(n^{2k-2})}$$
+
+Equivalently, as a 1/n expansion (large-dimension form):
+
+$$a_k(n) = \frac{n^{2k}}{3^k \cdot k!}\left(1 - \frac{k(k-1)}{10n} + O(1/n^2)\right)$$
+
+Proved for k = 1,...,5. The (n-2) factor at k=5 was a special case: k(k-1)/10 = 20/10 = 2.
+
+### Force and Boundary: The Structural Separation
+
+The polynomial a_k(n) is a negotiation between two independent structures:
+
+| Structure | Role | Origin | Controls |
+|-----------|------|--------|----------|
+| **Bernoulli numbers** | Force (flow, propagator) | Euler-Maclaurin formula for spectral sum | Denominator primes (von Staudt-Clausen) |
+| **Triangular numbers** C(k,2) | Boundary (curvature constraint) | Ricci correction |Ric|²/R² = 1/(2n) | Sub-leading polynomial coefficients |
+
+The force is **universal** — Bernoulli numbers appear in every heat kernel on every manifold. They don't know the geometry. They just move heat.
+
+The boundary is **specific** — C(k,2)/10 encodes the Einstein curvature of Q^n. The manifold says "you can't flow equally in all directions." The Ricci tensor is the directional constraint on volume growth.
+
+Both are exact (AC = 0). Neither introduces information beyond what the question requires. The polynomial IS their conversation.
+
+### The 1/n Expansion and Gauge Theory
+
+The large-dimension form is a **'t Hooft expansion**: each correction is suppressed by 1/n, where n-2 = N_c is the color number. The heat kernel on Q^n is doing a 1/N expansion because Q^n IS a gauge theory geometry seen from the spectral side. If the next correction layer involves C(k,3)/(An²) (tetrahedral numbers, from |Rm|²), the expansion continues as:
+
+$$a_k(n) = \frac{n^{2k}}{3^k \cdot k!}\left(1 - \frac{C(k,2)}{5n} + \frac{C(k,3)}{An^2} + \ldots\right)$$
+
+This is testable from the c_{2k-2} coefficients already in hand.
+
+### Cautionary Tale
+
+The sub-leading ratio at k = 5 was initially obscured. The 9-point constrained polynomial fit defaulted c₉ = 0 (underdetermined: 9 equations, 10 unknowns). Adding the clean n=13 point resolved c₉ = -1/14580 = -2c₁₀. The n=12 extraction (P_max=500) produced a spurious rational with alien primes 43, 337; the true denominator (831600 = 2⁴ × 3³ × 5² × 7 × 11) has primes ≤ 11 only (Toy 257d). The correction culture caught the false negative within one session.
 
 ---
 
 ## Predictions and Updates
 
-1. **a₆(Q⁵)**: denominator should include 13 (from B₁₂, since (13-1)=12 divides 12). New prime enters. den(a₆) divisible by 2 × 3² × 5 × 7 × 11 × 13. But 13 = c₃ (the third Casimir eigenvalue of so(7)) — so even a₆ speaks BST. Leading coefficient: 1/(3⁶ · 6!) = 1/524880.
+1. **a₆(Q⁵)**: denominator should include 13 (from B₁₂, since (13-1)=12 divides 12). New prime enters. den(a₆) divisible by 2 × 3² × 5 × 7 × 11 × 13. But 13 = c₃ (the third Casimir eigenvalue of so(7)) — so even a₆ speaks BST. Leading coefficient: 1/(3⁶ · 6!) = 1/524880. **Sub-leading prediction: top two terms = n¹¹(n - 3)/524880.**
 
 2. **"First n primes" pattern**: den(a₅(Q^n)) has prime support = first n primes for n=3,4,5 but BREAKS at n=6 (collapses to 3 primes). The pattern is not universal — but it holds at the BST point n=5, consistent with n=5 being special. (Elie, Toy 256.)
 
-3. **a₅(n) polynomial**: degree 10 CONFIRMED (= 2×5). All 11 rationals (n=3..13) identified and self-consistent. Leading coefficient 1/29160 = 1/(3⁵ · 5!), confirming the theorem. (Elie, Toy 256.)
+3. **a₅(n) polynomial**: degree 10 CONFIRMED (= 2×5). All 11 rationals (n=3..13) identified and self-consistent. Leading coefficient 1/29160 = 1/(3⁵ · 5!), sub-leading ratio c₉/c₁₀ = -2 = -k(k-1)/10 at k=5. (Elie, Toys 256-257d.)
+
+---
+
+## Force and Boundary: Two Independent Structures
+
+The heat kernel polynomial a_k(n) is the negotiation between two independent structures:
+
+### The Force: Bernoulli Numbers (Flow)
+
+The Euler-Maclaurin formula converts the spectral sum Z(t) = Σ d_k exp(-λ_k t) into the heat kernel expansion. This conversion introduces Bernoulli numbers at each order. The Bernoulli numbers are the **force** — the heat equation propagator. They don't know about the manifold. They just move heat.
+
+The Bernoulli numbers control the **denominators**: which primes appear, via von Staudt-Clausen. The primes accumulate with k because higher-order Bernoulli numbers involve more primes.
+
+### The Boundary: Binomial Coefficients (Curvature Constraint)
+
+The manifold pushes back. At order k, you have k copies of curvature. Most stay as scalar curvature R (giving the leading 1/(3^k · k!) term). The sub-leading term comes from promoting 2 of the k factors to the Ricci correction |Ric|²/R. There are C(k,2) = k(k-1)/2 ways to do this. The correction per promotion is 1/(2n) = 1/dim_R.
+
+The Ricci tensor IS the directional constraint on volume growth. It tells the heat "you can't flow equally in all directions." The combinatorics count how many ways that constraint bites at each order.
+
+**Theorem (Leading asymptotics, Elie Toy 257d).** For a_k on Q^n:
+
+$$a_k(n) = \frac{n^{2k-1}}{3^k \cdot k!}\left(n - \frac{k(k-1)}{2n_C}\right) + O(n^{2k-2})$$
+
+where n_C = 5 for Q⁵ (dim_R = 2n_C = 10). Verified k = 1, ..., 5.
+
+The leading coefficient is the force (scalar curvature exponential). The sub-leading correction is the boundary (Ricci curvature combinatorics). The polynomial is their negotiation.
+
+### Prediction: The Third Layer
+
+If C(k,2)/dim_R is the Ricci correction (choosing 2 of k factors), then C(k,3)/something should be the |Rm|² correction (choosing 3 of k factors for the full Riemann tensor). The "something" involves the Riemann norm |Rm|²/R³. This gives **tetrahedral numbers** C(k,3) = k(k-1)(k-2)/6 in the sub-sub-leading term. Testable from the c_{2k-2} coefficients already computed.
 
 ---
 

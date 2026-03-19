@@ -98,34 +98,42 @@ Define AC levels rigorously. Prove theorems about the hierarchy.
    - Method complexity M(Q,R) in representation R
    - Channel capacity C(R) of a representation
    - Fragility Degree F(P,R) as computable invariant
-2. **Shannon bridge** — Prove: AC(Q,M) = I(Q) - C(R_M) where R_M is the representation induced by method M. AC = channel capacity deficit.
-3. **Composition theorems** — Prove: AC compounds under composition (the "noise multiplies" claim from §8). Precisely: AC(Q, M1 o M2) >= AC(Q, M1) + AC(Q, M2) under what conditions?
-4. **Coordinate system theorem** — Prove: for every problem Q with AC(Q,M) > 0, there exists a representation R* with AC(Q,M*) = 0. (Natural Coordinate System existence)
-5. **Invariance theorem** — Prove: Fragility Degree is representation-invariant within a computational model.
-6. **Hierarchy theorem** — Prove: AC(0) subset AC(1) subset AC(2) is strict.
+2. **Question Measure QM(Q)** — The precondition for AC. Rate the *question* before choosing a method. Five dimensions: Clarity (unambiguity), Scope (hidden sub-questions), Category Coherence (does Q group like with like?), Decomposability (can Q be factored?), Message Complexity (apparent vs actual bits to state Q). Formula: QM = Clarity × Coherence × 1/(1+Scope). If QM < threshold, STOP — fix the question before choosing a method. **Full framework: `notes/BST_AC_Question_Complexity.md`**. P vs NP rated as first case study (QM ≈ 0.05 — ill-posed). (Casey + Elie, March 19)
+3. **Shannon bridge** — Prove: AC(Q,M) = I(Q) - C(R_M) where R_M is the representation induced by method M. AC = channel capacity deficit. Note: Shannon bridge requires QM(Q) > threshold — channel capacity is only defined when the message (the question) is well-specified.
+4. **Composition theorems** — Prove: AC compounds under composition (the "noise multiplies" claim from §8). Precisely: AC(Q, M1 o M2) >= AC(Q, M1) + AC(Q, M2) under what conditions?
+5. **Coordinate system theorem** — Prove: for every problem Q with AC(Q,M) > 0, there exists a representation R* with AC(Q,M*) = 0. (Natural Coordinate System existence)
+6. **Invariance theorem** — Prove: Fragility Degree is representation-invariant within a computational model.
+7. **Hierarchy theorem** — Prove: AC(0) subset AC(1) subset AC(2) is strict.
 
 **Additional theorems to consider**:
-7. **Monotonicity** — If M₁ is a refinement of M₂, then AC(Q, M₁) ≤ AC(Q, M₂). Proof via data processing inequality.
-8. **Grounding Theorem** — Level k+1 methods have AC ≥ Level k methods on specific instances. Formalize the Grounding Tower (§12).
+8. **Monotonicity** — If M₁ is a refinement of M₂, then AC(Q, M₁) ≤ AC(Q, M₂). Proof via data processing inequality.
+9. **Grounding Theorem** — Level k+1 methods have AC ≥ Level k methods on specific instances. Formalize the Grounding Tower (§12).
+10. **QM-AC duality** — Prove: for questions with QM = 1, AC is the unique obstruction to solution. For questions with QM < 1, AC is undefined (I(Q) is not well-defined). Relates to Shannon: you can't measure channel capacity if you haven't defined the message.
 
-**Connections to establish**: AC ↔ Shannon (core bridge), AC ↔ Kolmogorov (AC is computable, K is not), AC ↔ Catastrophe Theory (§9.5), AC ↔ Computational Complexity (Phase 3), AC ↔ Education (§11.6 — teach minimum-noise method first).
+**Connections to establish**: AC ↔ Shannon (core bridge), AC ↔ Kolmogorov (AC is computable, K is not), AC ↔ Catastrophe Theory (§9.5), AC ↔ Computational Complexity (Phase 3), AC ↔ Education (§11.6 — teach minimum-noise method first), **QM ↔ AC (dual measures: question quality vs method quality)**.
 
-**Deliverable**: Standalone mathematics paper. No BST required. "Algebraic Complexity: A Shannon-Theoretic Framework for Method Noise." Target: IEEE Transactions on Information Theory or Theoretical Computer Science journal. ~20 pages, self-contained.
+**Deliverable**: Standalone mathematics paper. No BST required. "Algebraic Complexity: A Shannon-Theoretic Framework for Method Noise." Target: IEEE Transactions on Information Theory or Theoretical Computer Science journal. ~20 pages, self-contained. **Now includes Question Measure as §2 (before method analysis).**
 
 ### Phase 3: P != NP (The Kill)
 Apply the formalized AC framework to computational complexity.
 
-**Prerequisites**: Phase 2 complete. Fragility Degree defined. Shannon bridge proved.
+**Prerequisites**: Phase 2 complete. Fragility Degree defined. Shannon bridge proved. **Question Measure applied to P vs NP** — the formal question "P = NP?" has QM ≈ 0.05 (ill-posed: incoherent category NP, binary question about spectrum). Phase 3 starts by repairing the question.
+
+**Step 0: Question Repair** (NEW — from QM analysis, March 19)
+- The question "P = NP?" is broken (QM ≈ 0.05). Category "NP" conflates structured problems (2-SAT, matching) with unstructured ones (3-SAT worst case). Binary framing hides a spectrum.
+- **Repaired question Q':** Characterize the function ρ → T(Π) where ρ is the structural correlation between problem instance and certificate space, and T is the optimal deterministic time complexity. P ≠ NP falls out as: T diverges as ρ → 0. This is a measurement, not a binary.
+- The fiat bits insight (Casey, 2026) correctly identifies the category incoherence: "fiat" is a matter of degree (how much exploitable structure), not binary. See `notes/BST_AC_Question_Complexity.md` §5.
+- **Halting closure WITHDRAWN**: The fiat bits paper's claim that verification is Halting-equivalent fails because NP verifiers are specific poly-time programs (not arbitrary), certificate space is finite (not unbounded), and NP problems are decidable (Halting Problem is not). The argument overclaims — it would "prove" 2-SAT not in P.
 
 **Work items**:
-1. **Rank reduction formalization** — Define rank over appropriate algebra for Boolean constraints (GF(2) or mutual information). Prove rank drops by >= 1 per constraint evaluation for 3-SAT.
-2. **Staircase theorem for 3-SAT** — Prove: standard 3-SAT representation reaches saturation (rank 0) within O(n) constraint evaluations at clause-to-variable ratio > threshold.
-3. **Shannon separation** — Apply channel capacity theorem: at saturation, 2^(cn) enumeration required.
-4. **Generalize to NP-complete** — Via standard reductions, extend from 3-SAT to all NP-complete problems.
-5. **Address barriers** — Show explicitly why the proof avoids relativization, natural proofs, algebrization. Not assert — show.
-6. **Halting closure** (if needed) — Construct explicit reduction: polynomial-time SAT solver -> Halting Problem decision procedure. Not sketch — construct.
+1. **Structural correlation invariant** — Define ρ(Π) rigorously for decision problems. Connect to Fragility Degree. Show ρ = 1 → P, ρ = 0 → exponential.
+2. **Rank reduction formalization** — Define rank over appropriate algebra for Boolean constraints (GF(2) or mutual information). Prove rank drops by >= 1 per constraint evaluation for 3-SAT.
+3. **Staircase theorem for 3-SAT** — Prove: standard 3-SAT representation reaches saturation (rank 0) within O(n) constraint evaluations at clause-to-variable ratio > threshold.
+4. **Shannon separation** — Apply channel capacity theorem: at saturation, 2^(cn) enumeration required.
+5. **Generalize to NP-complete** — Via standard reductions, extend from 3-SAT to all NP-complete problems.
+6. **Address barriers** — Show explicitly why the proof avoids relativization, natural proofs, algebrization. Not assert — show.
 
-**Deliverable**: P != NP proof from AC framework. Published after Phases 1-2 establish the framework's credibility.
+**Deliverable**: P != NP as corollary of AC framework + Question Measure. The proof is a measurement: ρ → T diverges at ρ = 0. Published after Phases 1-2 establish the framework's credibility.
 
 ---
 

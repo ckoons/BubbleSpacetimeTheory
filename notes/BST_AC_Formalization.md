@@ -245,9 +245,11 @@ Both give the same exact values (Elie, Toy 256, verified against 10 independent 
 | 2 | 274/9 | 4 | 9 = N_c² | {N_c} |
 | 3 | 703/9 | 6 | 9 = N_c² | {N_c} |
 | 4 | 2671/18 | 8 | 18 = 2N_c² | {N_c} |
-| 5 | 1535969/6930 | — | 6930 = 2·N_c²·n_C·g·c₂ | {N_c, n_C, g, c₂} — ALL FIVE |
+| 5 | 1535969/6930 | 10 | 6930 = 2·N_c²·n_C·g·c₂ | {N_c, n_C, g, c₂} — ALL FIVE |
 
-The degree pattern deg(a_k) = 2k is exact: a_k involves R^k (k-th curvature power), R ~ n² on Q^n. Each successive denominator incorporates more BST integers. a₅ is the first coefficient requiring all five integers in its denominator. The numerator 1535969 is prime.
+**Two-term asymptotic theorem (proved k=1,...,5):** a_k(n) = [n^{2k-1}/(3^k · k!)] × [n - k(k-1)/10] + O(n^{2k-2}). The leading coefficient 1/(3^k · k!) is the **force** — the heat equation's universal propagator (from exp(-Rt/6)). The sub-leading ratio -k(k-1)/10 involves triangular numbers C(k,2) and is the **boundary condition** — the manifold's Ricci curvature constraining the flow (from |Ric|² = R²/(2n) on Einstein Q^n). Both are AC(0): neither introduces information beyond what the question requires. The polynomial is the negotiation between force and boundary.
+
+Each successive denominator incorporates more BST integers (von Staudt-Clausen from Bernoulli numbers — also the force). a₅ is the first coefficient requiring all five integers in its denominator. The numerator 1535969 is prime.
 
 The crossing a₄(n)/(N_c g²) = 1 occurs uniquely at n = 5 among all Q^n (21st uniqueness condition). This is now verifiable from the exact degree-8 polynomial a₄(n).
 

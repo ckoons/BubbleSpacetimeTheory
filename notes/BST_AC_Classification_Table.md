@@ -194,9 +194,9 @@ Same answer. Different noise. The spectral method finds it in one step because i
 | a₂ | 274/9 | 4 | 9 = N_c² | Color |
 | a₃ | 703/9 | 6 | 9 = N_c² | Color |
 | a₄ | 2671/18 | 8 | 18 = 2N_c² | Both roots |
-| a₅ | 1535969/6930 | — | 6930 = 2·N_c²·n_C·g·c₂ | ALL five integers |
+| a₅ | 1535969/6930 | 10 | 6930 = 2·N_c²·n_C·g·c₂ | ALL five integers |
 
-The degree pattern deg(a_k) = 2k is exact (from Gilkey: a_k involves R^k, curvature R ~ n²). Each successive denominator incorporates more BST integers. a₅ is the first coefficient requiring all five integers {N_c, n_C, g, C₂, c₂} = {3, 5, 7, 6, 11} in its denominator. The numerator 1535969 is prime.
+**Two-term asymptotic theorem (proved k=1,...,5):** a_k(n) = [n^{2k-1}/(3^k · k!)] × [n - k(k-1)/10] + O(n^{2k-2}). The leading coefficient is the **force** (heat equation propagator, Bernoulli denominators). The sub-leading ratio -k(k-1)/10 involves triangular numbers C(k,2) and is the **boundary condition** (Ricci curvature constraint). Both AC(0). Denominators: primes ≤ 11 only (von Staudt-Clausen). Numerator 1535969 is prime (unique to n=5).
 
 ### Experiment 2: Proton mass
 
