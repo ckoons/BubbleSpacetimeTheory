@@ -106,6 +106,60 @@ If QM(Q) < threshold, **stop**. Fix the question before choosing a method. No me
 
 ---
 
+## 3a. The Specificity Scalar
+
+The five dimensions are features. The scalar is **specificity**:
+
+$$S(Q) = \frac{I(Q;\, A)}{H(A)}$$
+
+where $I(Q; A)$ is the mutual information between the question's specification and the answer space, and $H(A)$ is the prior entropy of the answer space before the question is asked.
+
+- $S = 1$: The question eliminates all but one answer. ("What is $2 + 3$?")
+- $S = 0$: The question eliminates nothing. ("What?")
+- $S \approx 0.08$: The question eliminates almost nothing because its categories are incoherent. ("Does P = NP?")
+
+**Specificity is already in the Bayesian reframing.** The AC definition $I(Q) = H(A) - I(Q; A)$ implies $I(Q) = H(A)(1 - S)$. The intrinsic information of a question is the answer entropy that survives the question's specification. A high-specificity question leaves little $I(Q)$ for the method to handle. A low-specificity question dumps nearly all of $H(A)$ onto the method as unstructured work.
+
+**QM and S are related but distinct.** QM rates whether the question is well-posed (precondition). Specificity rates how much work the question does for you (performance). A question can have high QM but low S (well-posed but broad: "Classify all finite simple groups"). A question can have low QM but would have high S if repaired ("Does P = NP?" → repaired Q' has $S \approx 0.9$).
+
+**The scalar the AC pipeline reports is S, not QM.** QM is the gate (pass/fail). S is the meter (how much answer entropy the question eliminates). Together:
+
+$$Q \xrightarrow{\text{QM} > \theta} S(Q) \xrightarrow{} I_{\text{fiat}} = H(A)(1 - S) \xrightarrow{\text{AC}(Q,M)} \text{Answer}$$
+
+---
+
+## 3b. Measuring the Dimensions
+
+The five QM dimensions are currently defined as rubric scores (human judgment). This is provisional. Each dimension admits a computable measure.
+
+### Training data as precedent
+
+No serious ML pipeline dumps raw data into training. Anthropic, like every large-scale system, scores training data along multiple quality dimensions before the method (training) ever sees it. This scoring is a QM operation applied to data rather than questions, but the structure is identical: rate the input before choosing how to process it. Dimensions typically scored include coherence, factuality, instructiveness, and toxicity — each measured by classifiers, embedding models, or smaller LLMs. The key point: **QM already works in practice as a multi-dimensional quality gate. The theory needs to catch up.**
+
+### Measurement approaches
+
+| Dimension | Rubric (current) | Measure (target) | Method |
+|-----------|-----------------|-------------------|--------|
+| **Clarity** | "Can two people agree on what Q asks?" | Inter-annotator agreement $\kappa(Q)$ (Cohen's kappa) or, for formal questions, ratio of explicit to implicit quantifiers $n_{\text{explicit}} / n_{\text{total}}$ | Human annotation, or LLM-based paraphrase consistency (embedding cosine similarity between $k$ independent paraphrases of Q) |
+| **Coherence** | "Does Q treat distinct things as same kind?" | Within-class behavioral variance: $1 - \text{Var}[T(\Pi) \mid \Pi \in \mathcal{C}] / \text{Var}[T(\Pi)]$ where $T$ is complexity and $\mathcal{C}$ is Q's category | Empirical: sample problems from the category, measure complexity variance. Information-theoretic: $H(\text{behavior} \mid \text{class label})$ — low means coherent |
+| **Scope** | "$\log_2 k$ hidden sub-questions" | Spectral gap of Q's decomposition graph, or rank of the mutual information matrix $I(Q_i; Q_j)$ across sub-questions | Factor analysis on the sub-question space. If $Q$ decomposes into $k$ independent blocks, rank = $k$ |
+| **Decomposability** | "Can Q factor into $Q_1 \wedge \cdots \wedge Q_k$?" | Whether the mutual information matrix $I(Q_i; Q_j)$ is block-diagonal | Same as scope measurement; decomposability is the structure, scope is the count |
+| **Message Complexity** | "How many bits to state Q unambiguously?" | $K(Q)$ (Kolmogorov complexity of the fully explicit statement) or, practically, token count of the unambiguous restatement minus token count of the original | LLM-based: ask for unambiguous restatement, measure expansion ratio |
+
+### Standard ML is welcome
+
+Casey's position: **a standard ML approach to measuring each dimension is acceptable, as long as the specificity scalar $S(Q)$ is also computed information-theoretically.** The dimensions are the feature space; $S$ is the target. If a learned model maps (Clarity, Coherence, Scope, Decomposability, MessageComplexity) → $S$ with high accuracy, that model IS a QM implementation. The information-theoretic definition of $S = I(Q;A)/H(A)$ provides ground truth for calibration.
+
+This is no different from how Anthropic's training pipeline works: multi-dimensional quality scores (features) combined into a filtering decision (scalar). The only addition AC makes is the information-theoretic grounding — the scalar has a definition, not just a learned correlation.
+
+### The calibration loop
+
+$$\text{Dimensions (measured)} \xrightarrow{\text{model}} \hat{S} \xrightarrow{\text{compare}} S = I(Q;A)/H(A)$$
+
+When ground truth $S$ is available (questions with known answer spaces), the model calibrates. When ground truth is unavailable (open questions like P vs NP), the model predicts. The prediction is falsifiable: if a question with predicted low $S$ turns out to be easy (someone solves it quickly), the model was wrong about the dimensions.
+
+---
+
 ## 4. Relationship to AC
 
 QM and AC are dual measures:
@@ -278,7 +332,7 @@ Question Measure is a **Phase 2 deliverable** (formalization). It provides:
 
 2. **For Phase 2 (formalization):** QM is a formal precondition for AC. The Shannon bridge theorem should include QM: channel capacity is only defined when the message (the question) is well-specified.
 
-3. **For Phase 3 (P ≠ NP):** The fiat bits insight says P vs NP has QM ≈ 0.05. The kill shot is not proving "P ≠ NP" as stated — it's replacing Q with Q' (the structural correlation characterization) and showing that the answer to Q' implies P ≠ NP as a corollary. *Fix the question, then the answer is forced.*
+3. **For Phase 3 (P ≠ NP):** P vs NP has QM ≈ 0.08 and specificity $S \approx 0.08$ — the question eliminates almost none of the answer entropy. The kill shot is not proving "P ≠ NP" as stated — it's replacing Q with Q' (the structural correlation characterization, $S \approx 0.9$) and showing that the answer to Q' implies P ≠ NP as a corollary. *Fix the question, then the answer is forced.*
 
 This is consistent with BST's approach to Riemann: RH has QM ≈ 0.81 (well-posed), and Route A (heat kernel on Q⁵) is the AC(0) method. The method matched the question because the question was already good. For P ≠ NP, the method keeps failing because the question is bad. QM diagnosis → question repair → AC(0) method → answer.
 

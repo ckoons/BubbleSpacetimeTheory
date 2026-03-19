@@ -7,8 +7,8 @@ Tests whether I_fiat (non-derivable information) correlates with topological
 complexity of the constraint complex.
 
 For each random k-SAT instance, computes:
-  - I_fiat proxy: fraction of answer bits not derivable from structure
-    (= 1 - backbone fraction for satisfiable instances)
+  - I_derivable = backbone = fraction forced to same value in ALL solutions
+  - I_fiat = 1 - I_derivable = fraction not derivable from structure
   - β₀: connected components of Variable Interaction Graph (VIG)
   - β₁(VIG): cycle rank of the VIG = |E| - |V| + β₀
   - β₁(complex): first Betti number of the clause complex
@@ -306,7 +306,7 @@ def run_experiment():
         print(f"\n{'─' * 80}")
         print(f"  {k}-SAT  (phase transition ≈ {'1.0' if k == 2 else '4.267'})")
         print(f"{'─' * 80}")
-        header = (f"  {'α':>6}  {'P(SAT)':>6}  {'I_fiat':>6}  "
+        header = (f"  {'α':>6}  {'P(SAT)':>6}  {'I_drv':>5} {'I_fiat':>6}  "
                   f"{'β₀':>4}  {'β₁VIG':>6}  {'β₁cpx':>6}  {'rk∂₂':>5}  "
                   f"{'tw':>3}  {'|E|':>5}")
         if k == 2:
@@ -319,6 +319,7 @@ def run_experiment():
             m = max(1, int(alpha * N_VARS))
 
             sat_count = 0
+            total_derivable = 0.0
             total_fiat = 0.0
             total_beta0 = 0.0
             total_beta1_vig = 0.0
@@ -342,7 +343,9 @@ def run_experiment():
 
                 if n_sol > 0:
                     sat_count += 1
-                    i_fiat = 1.0 - backbone
+                    i_derivable = backbone  # structure-forced bits
+                    i_fiat = 1.0 - backbone  # must-guess bits
+                    total_derivable += i_derivable
                     total_fiat += i_fiat
                     valid += 1
 
@@ -358,6 +361,7 @@ def run_experiment():
                 total_edges += len(edges)
 
             p_sat = sat_count / N_SAMPLES
+            avg_deriv = total_derivable / valid if valid > 0 else 0.0
             avg_fiat = total_fiat / valid if valid > 0 else 0.0
             avg_b0 = total_beta0 / N_SAMPLES
             avg_b1_vig = total_beta1_vig / N_SAMPLES
@@ -368,12 +372,13 @@ def run_experiment():
             avg_scc = total_scc / valid if valid > 0 and k == 2 else 0.0
 
             results.append({
-                'alpha': alpha, 'p_sat': p_sat, 'i_fiat': avg_fiat,
+                'alpha': alpha, 'p_sat': p_sat,
+                'i_derivable': avg_deriv, 'i_fiat': avg_fiat,
                 'beta0': avg_b0, 'beta1_vig': avg_b1_vig, 'beta1_cpx': avg_b1_cpx,
                 'rank': avg_rank, 'tw': avg_tw, 'edges': avg_edges, 'scc': avg_scc,
             })
 
-            line = (f"  {alpha:6.3f}  {p_sat:6.3f}  {avg_fiat:6.3f}  "
+            line = (f"  {alpha:6.3f}  {p_sat:6.3f}  {avg_deriv:5.3f} {avg_fiat:6.3f}  "
                     f"{avg_b0:4.1f}  {avg_b1_vig:6.1f}  {avg_b1_cpx:6.1f}  {avg_rank:5.1f}  "
                     f"{avg_tw:3.0f}  {avg_edges:5.0f}")
             if k == 2:
@@ -437,13 +442,14 @@ def run_experiment():
         if trans:
             d = trans[0]
             print(f"\n  {k}-SAT at phase transition (α ≈ {d['alpha']:.2f}):")
-            print(f"    I_fiat:         {d['i_fiat']:.4f}")
-            print(f"    β₁(VIG):       {d['beta1_vig']:.1f}")
-            print(f"    β₁(complex):   {d['beta1_cpx']:.1f}")
-            print(f"    rank(∂₂):      {d['rank']:.1f}")
-            print(f"    Treewidth:     {d['tw']:.0f}")
+            print(f"    I_derivable:   {d['i_derivable']:.4f}")
+            print(f"    I_fiat:        {d['i_fiat']:.4f}")
+            print(f"    β₁(VIG):      {d['beta1_vig']:.1f}")
+            print(f"    β₁(complex):  {d['beta1_cpx']:.1f}")
+            print(f"    rank(∂₂):     {d['rank']:.1f}")
+            print(f"    Treewidth:    {d['tw']:.0f}")
             if k == 2:
-                print(f"    SCC yield:     {d['scc']:.4f}")
+                print(f"    SCC yield:    {d['scc']:.4f}")
 
     print(f"""
 {'─' * 80}

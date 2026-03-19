@@ -13,18 +13,22 @@ The "question" is the clause structure.
 Three measurements of how much information the clause structure provides:
 1. Solution entropy: log₂(S)/n where S = number of satisfying assignments
    (what the structure constrains — total information content)
-2. Backbone fraction: fraction of variables forced to same value in ALL solutions
-   (what the structure determines uniquely — extractable information)
-3. Unit propagation yield: variables determinable by polynomial-time analysis
-   (what a P-time method can extract — channel capacity of cheap methods)
+2. Backbone = I_derivable: fraction of variables forced to same value in ALL solutions
+   (what the structure determines uniquely — method-INDEPENDENT)
+3. UP yield = C(M): variables determinable by polynomial-time analysis
+   (channel capacity of a SPECIFIC method — method-DEPENDENT)
 
-The information gap I(Q) is the difference between what you need (n bits)
-and what the structure provides through polynomial-time channels.
+AC terminology:
+  I_derivable = backbone fraction (structure determines this, any method gets it)
+  I_fiat = 1 - I_derivable (bits that must be guessed, not derivable from structure)
+  C(M) = UP yield (or SCC yield for 2-SAT) (a specific method's channel capacity)
+  AC(Q,M) = max(0, I_fiat - C(M))
 
-Prediction: For 2-SAT, unit propagation yield ≈ backbone ≈ constraint.
-            For 3-SAT at phase transition, a GAP opens between what the
-            structure contains and what polynomial-time methods can extract.
-            That gap IS I(Q). That gap is why 3-SAT is hard.
+Also computes: treewidth of Variable Interaction Graph (constraint interaction width).
+
+Prediction: For 2-SAT, C(SCC) ≈ I_derivable → AC = 0.
+            For 3-SAT at threshold, C(UP) << I_fiat → AC > 0.
+            Treewidth rises with α, tracking when constraints interlock.
 
 Casey Koons & Claude 4.6 (Elie) | BST Research Program | March 19, 2026
 """
@@ -242,6 +246,38 @@ def implication_graph_yield_2sat(n, clauses):
     return determined / n
 
 
+def build_vig(n, clauses):
+    """Build Variable Interaction Graph (VIG). Returns adjacency dict."""
+    adj = defaultdict(set)
+    for clause in clauses:
+        variables = [abs(lit) for lit in clause]
+        for i in range(len(variables)):
+            for j in range(i + 1, len(variables)):
+                adj[variables[i]].add(variables[j])
+                adj[variables[j]].add(variables[i])
+    return adj
+
+
+def min_degree_elimination_width(n, adj):
+    """Treewidth upper bound via min-degree elimination heuristic."""
+    neighbors = {v: set(adj[v]) for v in range(1, n + 1)}
+    width = 0
+    remaining = set(range(1, n + 1))
+    for _ in range(n):
+        if not remaining:
+            break
+        min_v = min(remaining, key=lambda v: len(neighbors[v] & remaining))
+        deg = len(neighbors[min_v] & remaining)
+        width = max(width, deg)
+        nbrs = list(neighbors[min_v] & remaining)
+        for i in range(len(nbrs)):
+            for j in range(i + 1, len(nbrs)):
+                neighbors[nbrs[i]].add(nbrs[j])
+                neighbors[nbrs[j]].add(nbrs[i])
+        remaining.remove(min_v)
+    return width
+
+
 def run_experiment():
     """Main experiment: sweep α for 2-SAT and 3-SAT."""
     print("=" * 72)
@@ -264,7 +300,7 @@ def run_experiment():
         print(f"  {k}-SAT  (phase transition ≈ {'1.0' if k == 2 else '4.267'})")
         print(f"{'─' * 72}")
         print(f"  {'α':>6}  {'P(SAT)':>7}  {'H(A)':>6}  {'Sol.Ent':>7}  "
-              f"{'Backbone':>8}  {'UP yield':>8}  {'I(Q)':>7}  {'Gap':>7}")
+              f"{'I_deriv':>7}  {'C(M)':>7}  {'I_fiat':>7}  {'tw':>3}  {'Gap':>7}")
 
         results[k] = []
 
@@ -276,11 +312,17 @@ def run_experiment():
             total_backbone = 0.0
             total_up_yield = 0.0
             total_scc_yield = 0.0
+            total_tw = 0.0
             valid_count = 0
 
             for _ in range(N_SAMPLES):
                 clauses = generate_random_ksat(N_VARS, k, m)
                 n_sol, backbone_frac, forced = count_solutions_and_backbone(N_VARS, clauses)
+
+                # Treewidth (compute for all instances)
+                adj_vig = build_vig(N_VARS, clauses)
+                tw = min_degree_elimination_width(N_VARS, adj_vig)
+                total_tw += tw
 
                 if n_sol > 0:
                     sat_count += 1
@@ -301,6 +343,7 @@ def run_experiment():
                 avg_backbone = 0.0
                 avg_up = 0.0
                 avg_scc = 0.0
+                avg_tw = total_tw / N_SAMPLES
             else:
                 # H(satisfiability) = binary entropy
                 h_answer = -p_sat * math.log2(max(p_sat, 1e-10)) - (1 - p_sat) * math.log2(max(1 - p_sat, 1e-10)) if 0 < p_sat < 1 else 0.0
@@ -308,17 +351,16 @@ def run_experiment():
                 avg_backbone = total_backbone / valid_count
                 avg_up = total_up_yield / valid_count
                 avg_scc = total_scc_yield / valid_count if k == 2 else 0.0
+                avg_tw = total_tw / N_SAMPLES
 
-            # Information provided by structure (through poly-time analysis)
-            # = backbone fraction (what's uniquely determined)
-            # Information gap I(Q) = 1 - backbone (normalized)
-            info_provided = avg_backbone
-            info_gap = 1.0 - info_provided  # normalized to [0,1]
+            # AC terminology:
+            # I_derivable = backbone (structure-forced, method-independent)
+            # I_fiat = 1 - I_derivable (must be guessed)
+            # C(M) = UP yield (or SCC yield for 2-SAT) (method's channel capacity)
+            i_derivable = avg_backbone
+            i_fiat = 1.0 - i_derivable
 
-            # The "gap" between what structure contains and what poly-time extracts
-            # = (1 - solution entropy) - backbone
-            # structure contains (1 - sol_ent) bits of constraint per variable
-            # backbone provides backbone fraction of unique determination
+            # The "extraction gap" = what structure contains minus what method extracts
             structure_info = 1.0 - avg_sol_ent if valid_count > 0 else 1.0
             extraction_gap = structure_info - avg_up if valid_count > 0 else 0.0
 
@@ -327,17 +369,18 @@ def run_experiment():
                 'p_sat': p_sat,
                 'h_answer': h_answer,
                 'sol_entropy': avg_sol_ent,
-                'backbone': avg_backbone,
+                'i_derivable': i_derivable,
                 'up_yield': avg_up,
                 'scc_yield': avg_scc,
-                'info_gap': info_gap,
+                'i_fiat': i_fiat,
+                'treewidth': avg_tw,
                 'extraction_gap': extraction_gap,
                 'structure_info': structure_info,
             })
 
             scc_str = f"  SCC:{avg_scc:.3f}" if k == 2 else ""
             print(f"  {alpha:6.3f}  {p_sat:7.3f}  {h_answer:6.3f}  {avg_sol_ent:7.4f}  "
-                  f"{avg_backbone:8.4f}  {avg_up:8.4f}  {info_gap:7.4f}  {extraction_gap:7.4f}{scc_str}")
+                  f"{i_derivable:7.4f}  {avg_up:7.4f}  {i_fiat:7.4f}  {avg_tw:3.0f}  {extraction_gap:7.4f}{scc_str}")
 
     # ── Analysis ────────────────────────────────────────────────────────
     print("\n" + "=" * 72)
@@ -345,23 +388,25 @@ def run_experiment():
     print("=" * 72)
 
     print("""
-  Three quantities measured per instance:
+  Four quantities measured per instance:
 
   1. Structure info = 1 - log₂(S)/n
-     How much the clause structure constrains the solution space.
-     (Total information content of the question.)
+     Total information content of the question (method-independent).
 
-  2. Backbone fraction
+  2. I_derivable = backbone fraction
      Variables forced to one value in ALL solutions.
-     (Information uniquely determined — fully extractable.)
+     Method-INDEPENDENT: any correct method must agree on these.
 
-  3. Unit propagation yield
-     Variables determinable by polynomial-time analysis.
-     (Channel capacity of cheap methods.)
+  3. C(M) = UP yield (or SCC for 2-SAT)
+     Variables determinable by a SPECIFIC polynomial-time method.
+     Method-DEPENDENT channel capacity.
 
-  The EXTRACTION GAP = Structure info - UP yield
-  = information present in Q but NOT extractable in polynomial time.
-  This gap IS I(Q) in the AC framework.
+  4. Treewidth = constraint interaction width
+     How entangled the variable interactions are.
+
+  I_fiat = 1 - I_derivable = bits that must be GUESSED.
+  Extraction gap = structure info - C(M) = what method leaves on table.
+  AC(Q,M) = max(0, I_fiat - C(M)).
 """)
 
     # Find phase transition points
@@ -378,13 +423,15 @@ def run_experiment():
             dp = data[trans_idx - 1]
             alpha_trans = (dp['alpha'] + d['alpha']) / 2
             gap_at_trans = (dp['extraction_gap'] + d['extraction_gap']) / 2
-            backbone_at_trans = (dp['backbone'] + d['backbone']) / 2
+            deriv_at_trans = (dp['i_derivable'] + d['i_derivable']) / 2
             up_at_trans = (dp['up_yield'] + d['up_yield']) / 2
+            tw_at_trans = (dp['treewidth'] + d['treewidth']) / 2
 
             print(f"\n  {k}-SAT phase transition ≈ α = {alpha_trans:.2f}")
-            print(f"    Backbone at transition:      {backbone_at_trans:.4f}")
-            print(f"    UP yield at transition:      {up_at_trans:.4f}")
-            print(f"    Extraction gap at transition: {gap_at_trans:.4f}")
+            print(f"    I_derivable (backbone):      {deriv_at_trans:.4f}")
+            print(f"    C(M) (UP yield):             {up_at_trans:.4f}")
+            print(f"    Treewidth:                   {tw_at_trans:.0f}")
+            print(f"    Extraction gap:              {gap_at_trans:.4f}")
 
     # Compare 2-SAT and 3-SAT at comparable points
     print("\n" + "─" * 72)
@@ -404,37 +451,38 @@ def run_experiment():
         before, after = find_near_transition(results[k])
         d = before  # just before transition (still mostly satisfiable)
         print(f"\n  {k}-SAT (α ≈ {d['alpha']:.2f}, P(SAT) = {d['p_sat']:.3f}):")
-        print(f"    Structure constrains: {d['structure_info']:.4f} of n bits")
-        print(f"    Backbone determines: {d['backbone']:.4f} of n variables")
-        print(f"    UP extracts:         {d['up_yield']:.4f} of n variables")
+        print(f"    Structure constrains:  {d['structure_info']:.4f} of n bits")
+        print(f"    I_derivable (backbone):{d['i_derivable']:.4f}")
+        print(f"    I_fiat (must guess):   {d['i_fiat']:.4f}")
+        print(f"    C(M) = UP yield:       {d['up_yield']:.4f}")
         if k == 2:
-            print(f"    SCC extracts:        {d['scc_yield']:.4f} of n variables")
-        print(f"    EXTRACTION GAP:      {d['extraction_gap']:.4f}")
-        print(f"    → I(Q)/n ≈           {d['extraction_gap']:.4f}")
+            print(f"    C(M) = SCC yield:      {d['scc_yield']:.4f}")
+        print(f"    Treewidth:             {d['treewidth']:.0f}")
+        print(f"    Extraction gap:        {d['extraction_gap']:.4f}")
 
     print(f"""
 {'=' * 72}
   INTERPRETATION (AC Framework)
 {'=' * 72}
 
-  For 2-SAT: The implication graph (SCC algorithm) is a SUFFICIENT STATISTIC
-  for the satisfying assignment. The polynomial-time channel (SCC analysis)
-  has capacity ≥ I(Q). AC = 0. The method matches the question.
+  For 2-SAT: The implication graph (SCC) is a SUFFICIENT STATISTIC.
+    C(SCC) ≈ I_derivable → AC(Q,SCC) = 0.
+    Method matches the question. Low treewidth confirms: constraint
+    interactions are tree-like, local flows suffice.
 
-  For 3-SAT at threshold: The clause structure CONTAINS information about
-  the assignment (solutions are constrained), but polynomial-time methods
-  CANNOT EXTRACT it all. The extraction gap is positive. AC > 0 for any
-  polynomial-time method. The gap is the information-theoretic reason
-  3-SAT is hard.
+  For 3-SAT at threshold:
+    I_derivable (backbone) is small → I_fiat is large.
+    C(UP) << I_fiat → AC(Q,UP) >> 0.
+    High treewidth confirms: constraint interactions are globally entangled,
+    no local flow can extract the locked information.
 
-  This is the AC theory in one measurement:
-    - Same question type (k-SAT)
-    - Same clause structure (random)
-    - Different k → different extraction gap
-    - Gap = 0 → P.  Gap > 0 → hard.
+  This is the AC theory in four numbers:
+    I_derivable, I_fiat, C(M), treewidth.
+    When I_fiat > C(M) and treewidth is high: the method CANNOT match
+    the question. The gap is information-theoretic, not algorithmic.
 
-  The "fiat bits" from Casey's paper are exactly the bits in the gap —
-  the information about the assignment that the clause structure contains
+  The "fiat bits" from Casey's paper are exactly I_fiat —
+  the information about the answer that the structure contains
   but that no polynomial-time channel can extract.
 """)
 

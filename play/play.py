@@ -661,6 +661,9 @@ _STEM_TO_NUMBER = {
     'prove_c10': '257d',
     'ac_mutual_information': 258,
     'topology_fiat_correlation': 259,
+    'crystallography_ac0': 260,
+    'convergent_diagnosis': 261,
+    'perturbation_ac_decomposition': 262,
 }
 
 
