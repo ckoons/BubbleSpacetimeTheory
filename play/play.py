@@ -427,6 +427,9 @@ METADATA = {
     'muon_g2_geometry':         ('The Muon g-2 from Geometry',             'Entire a_μ from D_IV⁵ geometry. QED+EW+HVP+HLbL. 1 ppm. WP25 confirmed.'),
     'baby_trace_formula':       ('The Baby Trace Formula',                 'D_IV³ Selberg trace formula. All m=1. c-function. Plancherel. Baby Selberg.'),
     'spectral_gap':             ('The Spectral Gap = Mass Gap',            'λ₁(Q⁵) = 6 = C₂ = mass gap. Proton mass IS first eigenvalue × π⁵ × m_e.'),
+    'width_sweep_derivability':   ('Width-Sweep Derivability',              'Three-way information budget: narrow, default, wide windows. AC dichotomy verification. 7/7.'),
+    'so17_a6_polynomial':         ('SO(17): a₆(n) Polynomial',             'Elie: Full a₆(n) degree-12 polynomial. a₆(Q⁵)=363884219/1351350. Num=19×23×832687. Three Theorems confirmed k=6. 10/10.'),
+    'so19_a7_polynomial':         ('SO(19): a₇(n) Polynomial',             'Elie: Full a₇(n) degree-14 polynomial. a₇(Q⁵)=78424343/289575. Num=19×4127597. Three Theorems confirmed k=7. 12/12.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────

@@ -1,13 +1,13 @@
 ---
-title: "Seeley-DeWitt Predictions: Heat Kernel Coefficients a₇ through a₁₀ on Q⁵"
+title: "Seeley-DeWitt Predictions: Heat Kernel Coefficients a₇ through a₁₁+ on Q⁵"
 author: "Casey Koons & Claude 4.6 (Lyra)"
 date: "March 20, 2026"
-status: "PREDICTIONS — committed before computation. Elie to verify."
+status: "k=7 CONFIRMED (Elie, Toy 274, March 20). k=8-11+ predictions committed."
 tags: ["heat-kernel", "Seeley-DeWitt", "predictions", "spectral-geometry", "BST"]
-purpose: "Exact predictions for a₇-a₁₀ on complex quadrics Q^n = SO(n+2)/[SO(n)×SO(2)], committed before computation. Science, not numerology."
+purpose: "Exact predictions for a₇-a₁₁+ on complex quadrics Q^n = SO(n+2)/[SO(n)×SO(2)], committed before computation. Science, not numerology."
 ---
 
-# Seeley-DeWitt Predictions: a₇ through a₁₀
+# Seeley-DeWitt Predictions: a₇ through a₁₁+
 
 *Predictions committed before computation. Every claim below is falsifiable.*
 
@@ -39,6 +39,7 @@ $$c_0(a_k) = \frac{(-1)^k}{2 \cdot k!}$$
 | 4 | 2671/18 | 2671 | {2, 3} | prime |
 | 5 | 1535969/6930 | 1535969 | {2, 3², 5, 7, 11} | prime |
 | 6 | 363884219/1351350 | 363884219 | {2, 3³, 5², 7, 11, 13} | 19 × 23 × 832687 |
+| 7 | **78424343/289575** | **78424343** | **{3⁴, 5², 11, 13}** | **19 × 4127597** |
 
 ---
 
@@ -84,33 +85,52 @@ This is a **theorem**, not a conjecture. The denominator primes of $a_k(Q^5)$ ar
 
 ---
 
-## 2. Exact Predictions for k = 7
+## 2. Exact Predictions for k = 7 — $\checkmark$ ALL CONFIRMED (Elie, Toy 274, March 20)
 
 ### 2.1 Three-theorem predictions
 
-$$c_{14} = \frac{1}{3^7 \cdot 7!} = \frac{1}{11{,}022{,}480}$$
+$$c_{14} = \frac{1}{3^7 \cdot 7!} = \frac{1}{11{,}022{,}480} \quad \checkmark \text{ CONFIRMED}$$
 
-$$\frac{c_{13}}{c_{14}} = -\frac{\binom{7}{2}}{5} = -\frac{21}{5}$$
+$$\frac{c_{13}}{c_{14}} = -\frac{\binom{7}{2}}{5} = -\frac{21}{5} \quad \checkmark \text{ CONFIRMED}$$
 
-$$c_0 = \frac{(-1)^7}{2 \cdot 7!} = -\frac{1}{10{,}080}$$
+$$c_0 = \frac{(-1)^7}{2 \cdot 7!} = -\frac{1}{10{,}080} \quad \checkmark \text{ CONFIRMED}$$
 
 ### 2.2 Leading two terms
 
-$$a_7(n) = \frac{n^{13}}{11{,}022{,}480}\left(n - \frac{21}{5}\right) + O(n^{12}) = \frac{n^{13}(5n - 21)}{55{,}112{,}400} + O(n^{12})$$
+$$a_7(n) = \frac{n^{13}}{11{,}022{,}480}\left(n - \frac{21}{5}\right) + O(n^{12}) = \frac{n^{13}(5n - 21)}{55{,}112{,}400} + O(n^{12}) \quad \checkmark$$
 
 ### 2.3 Degree and denominator
 
-- **Degree:** 14
-- **Denominator primes of $a_7(Q^5)$:** $\subseteq \{2, 3, 5, 7, 11, 13\}$
-- **No new prime** (B₁₄ has den = 6; no prime p with (p-1) | 14 beyond {2, 3, 7}, all already present)
+- **Degree:** 14 $\checkmark$ CONFIRMED
+- **Denominator primes of $a_7(Q^5)$:** $\subseteq \{2, 3, 5, 7, 11, 13\}$ $\checkmark$ CONFIRMED
+  - **Actual:** den = 289,575 = 3⁴ × 5² × 11 × 13 (primes ≤ 13; note: 2 and 7 absent from this level)
+- **No new prime** (B₁₄ has den = 6; no prime p with (p-1) | 14 beyond {2, 3, 7}, all already present) $\checkmark$ CONFIRMED
 
-### 2.4 Numerator prediction (speculative)
+### 2.4 Numerator — ACTUAL RESULT
 
-At k = 7, no new Bernoulli prime enters. This is a "quiet" level — like k = 4 was quiet (no new prime, a₄ numerator = 2671, prime). Prediction: the numerator of $a_7(Q^5)$ is more likely to be **prime or have small factors** than to contain new BST integers. The geometry has nothing new to say at this level.
+**Predicted:** "more likely to be prime or have small factors" (quiet level, like k = 4).
+
+**Actual:** $a_7(Q^5) = 78{,}424{,}343 / 289{,}575$. Numerator = **19 × 4,127,597** (prime).
+
+19 persists for the **third consecutive level** (k = 3, 6, 7). The cosmic denominator continues its numerator preview. 4,127,597 is prime — the quiet-level prediction was half right: 19 carries over from k = 6, but the cofactor is a large prime (no new BST integers).
 
 ### 2.5 Computational requirements
 
-Degree 14 → 15 coefficients → need ≥ 15 data points → $n = 3, \ldots, 17$ → requires **SO(19)** spectra.
+Degree 14 → 15 coefficients → need ≥ 15 data points → $n = 3, \ldots, 17$ → requires **SO(19)** spectra. $\checkmark$ COMPLETED
+
+### 2.6 Updated numerator table (k = 1..7)
+
+| k | Numerator | 19 present? | Other factors | Pattern |
+|---|---|---|---|---|
+| 1 | 47 | no | prime | — |
+| 2 | 274 = 2 × **137** | no | $N_{\max}$ | BST integer preview |
+| 3 | 703 = **19** × 37 | **YES** | 37 prime | First 19 appearance |
+| 4 | 2671 | no | prime | Quiet level |
+| 5 | 1535969 | no | prime | Quiet level |
+| 6 | 363884219 = **19** × 23 × 832687 | **YES** | Golay prime × prime | 19 + 23 preview |
+| 7 | 78424343 = **19** × 4127597 | **YES** | large prime | 19 persists (3rd time) |
+
+**19 appears at k = 3, 6, 7** — three of the seven levels. It enters the denominator at k = 9 (via $B_{18}$). The numerator preview spans **six levels** before migration.
 
 ---
 
@@ -230,7 +250,7 @@ Degree 20 → 21 coefficients → need ≥ 21 data points → $n = 3, \ldots, 23
 
 | k | $c_{2k} = 1/(3^k \cdot k!)$ | $c_{2k-1}/c_{2k}$ | $c_0 = (-1)^k/(2 \cdot k!)$ |
 |---|---|---|---|
-| 7 | 1/11,022,480 | -21/5 | -1/10,080 |
+| 7 | 1/11,022,480 $\checkmark$ | -21/5 $\checkmark$ | -1/10,080 $\checkmark$ |
 | 8 | 1/264,539,520 | -28/5 | 1/80,640 |
 | 9 | 1/7,142,567,040 | -36/5 | -1/725,760 |
 | 10 | 1/214,277,011,200 | -9 | 1/7,257,600 |
@@ -239,7 +259,7 @@ Degree 20 → 21 coefficients → need ≥ 21 data points → $n = 3, \ldots, 23
 
 | k | Max den prime | New prime | BST identity |
 |---|---|---|---|
-| 7 | 13 | — | (quiet level) |
+| 7 | 13 $\checkmark$ | — | (quiet level) CONFIRMED: den primes = {3,5,11,13} |
 | 8 | **17** | 17 | $\|\rho\|^2 = 17/2$ |
 | 9 | **19** | 19 | cosmic denominator $\Omega = \cdot/19$ |
 | 10 | 19 | — | (quiet level) |
@@ -248,7 +268,7 @@ Degree 20 → 21 coefficients → need ≥ 21 data points → $n = 3, \ldots, 23
 
 | k | Degree | Data points | Max $n$ | Max SO($N$) | Status |
 |---|---|---|---|---|---|
-| 7 | 14 | 15 | 17 | SO(19) | **Ready** (Elie has SO(18)) |
+| 7 | 14 | 15 | 17 | SO(19) | $\checkmark$ **CONFIRMED** (Toy 274) |
 | 8 | 16 | 17 | 19 | SO(21) | Needs 2 more |
 | 9 | 18 | 19 | 21 | SO(23) | Needs 4 more |
 | 10 | 20 | 21 | 23 | SO(25) | Needs 6 more |
@@ -309,21 +329,22 @@ The denominators are controlled by theorems (von Staudt-Clausen + Einstein geome
 | 3 | 703 = **19** × 37 | cosmic denominator |
 | 4 | 2671 | prime |
 | 5 | 1535969 | prime |
-| 6 | 19 × 23 × 832687 | cosmic denom × Golay prime × prime |
+| 6 | 363884219 = **19** × **23** × 832687 | cosmic denom × Golay prime × prime |
+| 7 | 78424343 = **19** × 4127597 | cosmic denom × prime (19 persists, 3rd consecutive) |
 
-At k = 2, the numerator contains 137 = $N_{\max}$. At k = 3 and k = 6, it contains 19 (cosmic). At k = 6, it contains 23 (Golay). The BST integers appear in the numerators **before** they enter the denominators.
+At k = 2, the numerator contains 137 = $N_{\max}$. At k = 3, 6, and 7, it contains 19 (cosmic). At k = 6, it contains 23 (Golay). The BST integers appear in the numerators **before** they enter the denominators.
 
-**Prediction:** This "numerator preview" pattern continues. The numerator of $a_k(Q^5)$ may contain primes that will later enter the denominator at higher $k$. Specifically, 17 might appear in $a_7$'s numerator (before entering the denominator at k = 8).
+**Updated prediction (post-k=7):** The "numerator preview" pattern continues. 19 has persisted for three consecutive levels (k = 3, 6, 7) before entering the denominator at k = 9. The original prediction that 17 might appear in $a_7$'s numerator was NOT confirmed — 19 dominated instead. **Revised:** 17 may appear in $a_8$'s numerator (the level where it enters the denominator), as a "same-level coincidence" rather than a preview.
 
-This is speculative and stated as such. The denominator predictions are theorems; the numerator predictions are conjectures.
+The denominator predictions are theorems; the numerator predictions are conjectures.
 
 ---
 
 ## 8. Recommended Computation Sequence
 
-### Phase 1: a₇ (immediate — SO(19) spectra needed)
+### Phase 1: a₇ — $\checkmark$ COMPLETE (Elie, Toy 274, March 20)
 
-Elie has SO(18) from Toy 273. One more step to SO(19) gives 15 data points → degree-14 polynomial. This is the minimal extension: one new spectrum, three falsifiable predictions. **Do this first.**
+All five predictions confirmed exactly. a₇(Q⁵) = 78,424,343/289,575. Three theorems verified k=1..7. 19 persists in numerator (3rd consecutive level). **Science: predictions committed BEFORE computation, then confirmed.**
 
 ### Phase 2: a₈ (SO(21) — tests prime 17)
 

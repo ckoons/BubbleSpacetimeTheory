@@ -31,9 +31,16 @@ the intellectual property of Casey Koons.
 Created with Claude Opus 4.6 (Elie). March 2026.
 """
 
+import sys
 import time
 from fractions import Fraction
 import mpmath
+
+# Force unbuffered output for progress tracking
+_print = print
+def print(*args, **kwargs):
+    kwargs.setdefault('flush', True)
+    _print(*args, **kwargs)
 
 mpmath.mp.dps = 140  # 140 decimal digits for 7-deep cascade
 
@@ -288,12 +295,14 @@ def constrained_polynomial(clean_rats, c_top, c_subtop, c_const, deg):
     c_subtop: sub-leading coefficient (c_{deg-1})
     c_const: constant term (c_0)
     Returns polynomial coefficients list [c_0, c_1, ..., c_deg] or None.
+
+    After subtracting c_top*n^deg + c_subtop*n^{deg-1} + c_const, the residual
+    R(n) = c_1*n + ... + c_{deg-2}*n^{deg-2} has deg-2 unknowns.
+    R(n)/n has degree deg-3 with deg-2 coefficients → needs deg-2 data points.
     """
     clean_ns = sorted(clean_rats.keys())
-    # Residual = value - c_top*n^deg - c_subtop*n^(deg-1) - c_const
-    # Residual has zero constant → residual(n)/n has degree ≤ deg-2
-    need_pts = deg - 2  # degree of residual/n polynomial, need deg-1 points
-    if len(clean_ns) < deg - 1:
+    n_needed = deg - 2  # number of data points needed
+    if len(clean_ns) < n_needed:
         return None
 
     residual_pts = []
@@ -302,7 +311,7 @@ def constrained_polynomial(clean_rats, c_top, c_subtop, c_const, deg):
               - c_subtop * Fraction(nv)**(deg-1) - c_const
         residual_pts.append((Fraction(nv), res / Fraction(nv)))
 
-    n_use = min(len(residual_pts), deg - 1)
+    n_use = min(len(residual_pts), n_needed)
     reduced_poly = lagrange_interpolate(residual_pts[:n_use])
 
     # Validate with extras
@@ -398,7 +407,7 @@ def main():
         a1_mpf = frac_to_mpf(Fraction(2 * n * n - 3, 6))
         known = {0: mpmath.mpf(1), 1: a1_mpf}
         a2, _ = extract_from_precomputed(precomp[n], ts, volumes[n], known, 2)
-        frac, _ = identify_rational(a2, max_den=500000, tol=1e-14)
+        frac, _ = identify_rational_cf(a2, max_den=500000, tol=1e-14)
         if frac:
             a2_rats[n] = frac
 
@@ -420,7 +429,7 @@ def main():
         a2_mpf = frac_to_mpf(a2_rats[n])
         known = {0: mpmath.mpf(1), 1: a1_mpf, 2: a2_mpf}
         a3, _ = extract_from_precomputed(precomp[n], ts, volumes[n], known, 3)
-        frac, _ = identify_rational(a3, max_den=500000, tol=1e-14)
+        frac, _ = identify_rational_cf(a3, max_den=500000, tol=1e-14)
         if frac:
             a3_rats[n] = frac
 
@@ -443,7 +452,7 @@ def main():
         a3_mpf = frac_to_mpf(a3_rats[n])
         known = {0: mpmath.mpf(1), 1: a1_mpf, 2: a2_mpf, 3: a3_mpf}
         a4, _ = extract_from_precomputed(precomp[n], ts, volumes[n], known, 4)
-        frac, _ = identify_rational(a4, max_den=500000, tol=1e-14)
+        frac, _ = identify_rational_cf(a4, max_den=500000, tol=1e-14)
         if frac:
             a4_rats[n] = frac
 
@@ -468,7 +477,7 @@ def main():
         a4_mpf_v = frac_to_mpf(a4_rats[n])
         known = {0: mpmath.mpf(1), 1: a1_mpf, 2: a2_mpf, 3: a3_mpf, 4: a4_mpf_v}
         a5, a5_err = extract_from_precomputed(precomp[n], ts, volumes[n], known, 5)
-        frac, _ = identify_rational(a5, max_den=1000000, tol=1e-12)
+        frac, _ = identify_rational_cf(a5, max_den=1000000, tol=1e-12)
         if frac:
             den_f = factor(frac.denominator)
             if max(den_f) <= 11:
@@ -511,13 +520,13 @@ def main():
         a6, a6_err = extract_from_precomputed(precomp[n], ts, volumes[n], known, 6)
         a6_vals[n] = (a6, a6_err)
 
-        frac_cf, _ = identify_rational_cf(a6, max_den=10000000,
+        frac_cf, _ = identify_rational_cf(a6, max_den=500000000,
                                            tol=1e-12, max_prime=A6_MAX_PRIME)
         if frac_cf:
             a6_rats[n] = frac_cf
             a6_clean[n] = frac_cf
         else:
-            frac_any, _ = identify_rational_cf(a6, max_den=10000000, tol=1e-12)
+            frac_any, _ = identify_rational_cf(a6, max_den=500000000, tol=1e-12)
             if frac_any:
                 a6_rats[n] = frac_any
 
@@ -537,7 +546,9 @@ def main():
 
     if n6_clean >= 11:
         print(f"    Constrained polynomial (c₁₂, c₁₁, c₀ known)...")
+        t_cp = time.time()
         a6_poly = constrained_polynomial(a6_clean, c12_known, c11_known, c0_a6, 12)
+        print(f"      constrained_polynomial took {time.time()-t_cp:.1f}s")
         if a6_poly:
             all_ok = all(eval_poly(a6_poly, Fraction(nv)) == a6_clean[nv]
                          for nv in a6_clean)
@@ -576,13 +587,14 @@ def main():
         a7_vals[n] = (a7, a7_err)
 
         # CF identification with denominator sanity (primes ≤ 13)
-        frac_cf, _ = identify_rational_cf(a7, max_den=10000000,
+        # LCM of clean denominators ≈ 454M, so use max_den=500M
+        frac_cf, _ = identify_rational_cf(a7, max_den=500000000,
                                            tol=1e-10, max_prime=A7_MAX_PRIME)
         if frac_cf:
             a7_rats[n] = frac_cf
             a7_clean[n] = frac_cf
         else:
-            frac_any, _ = identify_rational_cf(a7, max_den=10000000, tol=1e-10)
+            frac_any, _ = identify_rational_cf(a7, max_den=500000000, tol=1e-10)
             if frac_any:
                 a7_rats[n] = frac_any
 
@@ -623,9 +635,11 @@ def main():
 
     a7_poly = None
 
-    if n7_clean >= 13:
+    if n7_clean >= 12:
         print(f"    Strategy A+: {n7_clean} clean rationals + 3 known coefficients")
+        t_cp = time.time()
         a7_poly = constrained_polynomial(a7_clean, c14_known, c13_known, c0_a7, 14)
+        print(f"      constrained_polynomial took {time.time()-t_cp:.1f}s")
         if a7_poly:
             all_ok = all(eval_poly(a7_poly, Fraction(nv)) == a7_clean[nv]
                          for nv in a7_clean)
@@ -645,6 +659,8 @@ def main():
         deg_try = 11  # residual/n has degree ≤ 11
         all_ns_num = sorted(a7_vals.keys())
 
+        t_sb = time.time()
+        print(f"      Building matrix system...", end=' ')
         A = mpmath.matrix(len(all_ns_num), deg_try + 1)
         b_vec = mpmath.matrix(len(all_ns_num), 1)
         for i, nv in enumerate(all_ns_num):
@@ -655,14 +671,24 @@ def main():
             for j in range(deg_try + 1):
                 A[i, j] = mpmath.mpf(nv) ** j
             b_vec[i] = reduced
+        print(f"({time.time()-t_sb:.1f}s)")
 
+        t_sb = time.time()
+        print(f"      Forming normal equations...", end=' ')
         AT = A.T
         ATA = AT * A
         ATb = AT * b_vec
+        print(f"({time.time()-t_sb:.1f}s)")
+
         try:
+            t_sb = time.time()
+            print(f"      Solving...", end=' ')
             coeffs_mpf = mpmath.lu_solve(ATA, ATb)
+            print(f"({time.time()-t_sb:.1f}s)")
             print(f"      Least-squares solved (15 points, degree {deg_try})")
 
+            t_sb = time.time()
+            print(f"      Computing residuals...", end=' ')
             max_residual = mpmath.mpf(0)
             for i, nv in enumerate(all_ns_num):
                 pred = sum(coeffs_mpf[j] * mpmath.mpf(nv)**j
@@ -673,14 +699,15 @@ def main():
                 resid = abs(pred - actual)
                 if resid > max_residual:
                     max_residual = resid
-            print(f"      Max residual: {mpmath.nstr(max_residual, 3)}")
+            print(f"max={mpmath.nstr(max_residual, 3)} ({time.time()-t_sb:.1f}s)")
 
             print(f"\n      Coefficient identification (reduced poly):")
             reduced_frac = []
             all_id = True
             for j in range(deg_try + 1):
                 cv = coeffs_mpf[j]
-                frac, ferr = identify_rational_cf(cv, max_den=10000000, tol=1e-8)
+                frac, ferr = identify_rational_cf(cv, max_den=500000000, tol=1e-8,
+                                                   max_prime=13)
                 if frac:
                     reduced_frac.append(frac)
                     print(f"        r_{j:<2} = {frac}  ({float(frac):.12e})")
@@ -690,6 +717,8 @@ def main():
                     print(f"        r_{j:<2} ≈ {mpmath.nstr(cv, 15)}  [NOT IDENTIFIED]")
 
             if all_id:
+                print(f"      Building exact polynomial...", end=' ')
+                t_sb = time.time()
                 a7_poly = [Fraction(0)] * 15
                 a7_poly[0] = c0_a7
                 for k, c in enumerate(reduced_frac):
@@ -698,11 +727,12 @@ def main():
                 a7_poly[14] = c14_known
                 while len(a7_poly) > 1 and a7_poly[-1] == 0:
                     a7_poly.pop()
-                print(f"      → a₇(n) degree-{len(a7_poly)-1} polynomial (numerical)")
+                print(f"degree-{len(a7_poly)-1} ({time.time()-t_sb:.1f}s)")
         except Exception as e:
             print(f"      Numerical solve failed: {e}")
 
     # ─── Phase 6: Polynomial analysis ─────────────────────────
+    print(f"\n  Phase 6: Polynomial analysis")
     if a7_poly:
         deg = len(a7_poly) - 1
         print(f"\n    ╔═══ a₇(n) POLYNOMIAL (degree {deg}) ═══╗")
@@ -714,6 +744,8 @@ def main():
         print(f"    ╚{'═'*50}╝")
 
         # Self-consistency check
+        print(f"\n    Self-consistency check...")
+        t_sc = time.time()
         all_ok = True
         for nv in sorted(a7_clean.keys()):
             pred = eval_poly(a7_poly, Fraction(nv))
@@ -721,10 +753,11 @@ def main():
                 all_ok = False
                 diff = float(abs(pred - a7_clean[nv]))
                 print(f"    ✗ Mismatch at n={nv}: diff={diff:.2e}")
-        print(f"\n    Self-consistency: {'✓ ALL MATCH' if all_ok else '✗'} "
-              f"(vs {n7_clean} clean values)")
+        print(f"    Self-consistency: {'✓ ALL MATCH' if all_ok else '✗'} "
+              f"(vs {n7_clean} clean values) ({time.time()-t_sc:.1f}s)")
 
         # Numerical validation
+        t_nv = time.time()
         print(f"    Numerical validation (all 15 points):")
         max_num_err = 0
         for nv in ALL_RANGE:
@@ -733,7 +766,7 @@ def main():
             err = abs(pred - actual) / max(abs(actual), 1e-30)
             if err > max_num_err:
                 max_num_err = err
-        print(f"      Max relative error: {max_num_err:.2e}")
+        print(f"      Max relative error: {max_num_err:.2e} ({time.time()-t_nv:.1f}s)")
 
         # BST value
         a7_5 = eval_poly(a7_poly, Fraction(5))
@@ -769,10 +802,10 @@ def main():
           17 in spectra,
           f"N=19, B₉")
 
-    # Test 7: a₇ clean rationals
+    # Test 7: a₇ clean rationals (need ≥12 for constrained polynomial)
     score(f"a₇ clean rationals: ≥12 of 15",
           n7_clean >= 12,
-          f"{n7_clean}/15 clean (primes ≤ {A7_MAX_PRIME})")
+          f"{n7_clean}/15 clean (primes ≤ {A7_MAX_PRIME}), max_den=500M")
 
     # Test 8: Polynomial degree
     if a7_poly:

@@ -364,9 +364,11 @@ The framework inherits Shannon's channel capacity, Fisher's sufficient statistic
 15. Neyman, J. (1935). Sur un teorema concernente le cosiddette statistiche sufficienti. *Giorn. Ist. Ital. Attuari* 6, 320–334.
 16. Razborov, A. (1998). Lower bounds for the polynomial calculus. *Comput. Complexity* 7(4), 291–324.
 17. Razborov, A. (2003). Resolution lower bounds for the weak pigeonhole principle. *Theor. Comput. Sci.* 303(1), 233–243.
-18. Schaefer, T.J. (1978). The complexity of satisfiability problems. *STOC 1978*, 216–226.
-19. Shannon, C.E. (1948). A mathematical theory of communication. *Bell Syst. Tech. J.* 27, 379–423, 623–656.
-20. Zhuk, D. (2020). A proof of the CSP dichotomy conjecture. *J. ACM* 67(5), 30.
+18. Mézard, M., Parisi, G., Zecchina, R. (2002). Analytic and algorithmic solution of random satisfiability problems. *Science* 297, 812–815.
+19. Schaefer, T.J. (1978). The complexity of satisfiability problems. *STOC 1978*, 216–226.
+20. Shannon, C.E. (1948). A mathematical theory of communication. *Bell Syst. Tech. J.* 27, 379–423, 623–656.
+21. Tseitin, G.S. (1968). On the complexity of derivation in propositional calculus. *Structures in Constructive Mathematics and Mathematical Logic*, Part II, 115–125.
+22. Zhuk, D. (2020). A proof of the CSP dichotomy conjecture. *J. ACM* 67(5), 30.
 
 ---
 

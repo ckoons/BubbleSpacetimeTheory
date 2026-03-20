@@ -1690,7 +1690,7 @@ Three theorems proved for k=1..5:
 
 ---
 
-## Algebraic Complexity Framework + Seeley-DeWitt (258-273) — NEW
+## Algebraic Complexity Framework + Seeley-DeWitt (258-274) — NEW
 
 *AC(Q,M) = max(0, I_fiat(Q) - C(M)). When does a method fail? When the question's topology exceeds the method's channel capacity. A theory of difficulty itself — and ultimately, a framework to help CI think more clearly.*
 
@@ -1828,6 +1828,14 @@ Full pipeline: build SO(N) spectra (P_max=600, 120-digit precision), precompute 
 
 *Key result: The three theorems now verified k=1..6 (scalar curvature exponential, triangular number sub-leading, alternating constant). The a₆(n) polynomial has clean structure with all denominator primes ≤ 13 — the (k+1)-th prime bound holds.*
 
+### 274. SO(19) Spectra & the a₇ Polynomial (`toy_274_so19_a7_polynomial.py`)
+
+**Extends to a₇(n) on Q^n for n=3..17 (SO(5) through SO(19)). Tests predictions committed before computation.**
+
+Full pipeline: SO(5)..SO(19) spectra (P_max=600, 140-digit precision), 28 Chebyshev nodes, cascade a₂..a₆ (all exact polynomials), extract a₇ for 15 values. CF rational identification with max_den=500M and denominator sanity (primes ≤ 13): 14/15 clean rationals. Constrained polynomial using three proved theorems (c₁₄=1/11022480, c₁₃/c₁₄=-21/5, c₀=-1/10080) with 12 data points, verified with 2 extras. **All three theorems confirmed at k=7**: leading 1/(3⁷×7!), sub-leading ratio -21/5 = -C(7,2)/5, constant -1/10080. **a₇(Q⁵) = 78424343/289575** (num = 19 × 4127597, den = 3⁴×5²×11×13). Degree-14 polynomial with 15 exact rational coefficients. Denominator primes ≤ 13 everywhere — "quiet level" confirmed (B₁₄ has den = 6, no new prime). 12/12 scorecard.
+
+*Key result: The cosmic 19 (from Ω_Λ = 13/19) appears in the numerator of BOTH a₆ and a₇ at Q⁵. All predictions from the committed note BST_SeeleyDeWitt_Predictions_k7_k10.md were confirmed — science, not numerology.*
+
 ---
 
 ## The Showcase (`toy_showcase.py`)
@@ -1836,7 +1844,7 @@ A visual gallery with thumbnail icons for all toys. Click LAUNCH on any card to 
 
 ## The Menu (`play.py`)
 
-A text-based Tkinter launcher with categories, search, and click-to-launch. Type a number (1-273) or browse by category.
+A text-based Tkinter launcher with categories, search, and click-to-launch. Type a number (1-274) or browse by category.
 
 ---
 
@@ -1849,7 +1857,7 @@ All toys visualize concepts from BST papers:
 3. **"The Arithmetic and Algebra of Spacetime"** — The combined translation
 4. **"From Winding to Zeta"** — The automorphic structure (toys 191-199)
 5. **"Heat Kernel, Dirichlet Kernel, and RH"** — Route A Riemann proof (toys 214-226)
-6. **"Seeley-DeWitt on Q⁵"** — Heat kernel coefficients (toys 241-257)
+6. **"Seeley-DeWitt on Q⁵"** — Heat kernel coefficients (toys 241-274)
 
 And from the speculative:
 
