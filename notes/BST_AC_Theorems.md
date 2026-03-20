@@ -611,14 +611,14 @@ An algorithm approximating beyond $7/8 + \varepsilon$ would distinguish $\text{O
 
 | Requirement | Status | Theorem |
 |---|---|---|
-| Correct classifier for P/NP-complete | ✓ | T1 (Dichotomy) |
-| $I_{\text{fiat}} = \Theta(n)$ for hard instances | ✓ | T2 (β₁) + T1(b) |
-| Fiat preserved under reductions | ✓ | T8 (Monotonicity) |
-| Fano lower bound from $I_{\text{fiat}}$ | ✓ | T7 (AC-Fano) |
-| 8/8 proof systems confirm $I_{\text{fiat}} > 0$ | ✓ | T11 (Landscape) |
-| ETH/SETH from $I_{\text{fiat}}$ | ✓ | T9 (AC-ETH) |
-| Circuit lower bounds from $I_{\text{fiat}}$ | ✓ | T12 (Restriction) |
-| Approximation resistance from $I_{\text{fiat}}$ | ✓ | T13 (Barrier) |
+| Correct classifier for P/NP-complete | $\checkmark$ | T1 (Dichotomy) |
+| $I_{\text{fiat}} = \Theta(n)$ for hard instances | $\checkmark$ | T2 (β₁) + T1(b) |
+| Fiat preserved under reductions | $\checkmark$ | T8 (Monotonicity) |
+| Fano lower bound from $I_{\text{fiat}}$ | $\checkmark$ | T7 (AC-Fano) |
+| 8/8 proof systems confirm $I_{\text{fiat}} > 0$ | $\checkmark$ | T11 (Landscape) |
+| ETH/SETH from $I_{\text{fiat}}$ | $\checkmark$ | T9 (AC-ETH) |
+| Circuit lower bounds from $I_{\text{fiat}}$ | $\checkmark$ | T12 (Restriction) |
+| Approximation resistance from $I_{\text{fiat}}$ | $\checkmark$ | T13 (Barrier) |
 | **Method-Independent Fiat Conjecture** | **THE GAP** | Equivalent to: no proof system has poly-size random 3-SAT refutations |
 | **Extended Frege lower bound** | **OPEN** | Would close the gap |
 
