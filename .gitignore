@@ -1,12 +1,12 @@
 
-# Public / Private Directories
-
-# notes/maybe is speculation we keep private for now
-notes/maybe
+# Private — speculation and internal coordination
+notes/maybe/
 notes/BACKLOG.md
 notes/CI_BOARD.md
+notes/COORDINATION.*
 
-maybe/COORDINATION.*
+# CI communication — ephemeral, reset daily
+notes/.running/
 
 # Python
 __pycache__/

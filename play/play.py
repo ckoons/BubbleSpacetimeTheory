@@ -96,6 +96,9 @@ CATEGORIES = {
         'first_blood_ifiat_betti',
         'topology_guided_solver',
         'ef_rigidity_threshold',
+        'ac_dichotomy_verification',
+        'width_sweep_derivability',
+        'so17_a6_polynomial',
         'q4_kill_shot', 'gilkey_polynomial',
         'linear_gilkey', 'linear_gilkey_fixed',
         'branching_so7_sp6',
@@ -680,6 +683,9 @@ _STEM_TO_NUMBER = {
     'first_blood_ifiat_betti': 268,
     'topology_guided_solver': 269,
     'ef_rigidity_threshold': 270,
+    'ac_dichotomy_verification': 271,
+    'width_sweep_derivability': 272,
+    'so17_a6_polynomial': 273,
 }
 
 
