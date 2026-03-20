@@ -244,6 +244,72 @@ Degree 20 → 21 coefficients → need ≥ 21 data points → $n = 3, \ldots, 23
 
 ---
 
+## 5a. Exact Predictions for k = 11 — The Golay Prime
+
+### 5a.1 Three-theorem predictions
+
+$$c_{22} = \frac{1}{3^{11} \cdot 11!} = \frac{1}{7{,}074{,}959{,}078{,}400}$$
+
+$$\frac{c_{21}}{c_{22}} = -\frac{\binom{11}{2}}{5} = -\frac{55}{5} = -11$$
+
+$$c_0 = \frac{(-1)^{11}}{2 \cdot 11!} = -\frac{1}{79{,}833{,}600}$$
+
+**Note:** The sub-leading ratio at k = 11 is $-11$ — an **integer** for the second consecutive level (after k = 10 gave $-9$). Moreover, $-11 = -c_2 = -\dim K$. The boundary correction at the Golay level equals the isotropy dimension.
+
+### 5a.2 Leading two terms
+
+$$a_{11}(n) = \frac{n^{21}}{7{,}074{,}959{,}078{,}400}(n - 11) + O(n^{20})$$
+
+At k = 11, the leading factor is $n^{21}(n - 11)$. At $n = 11$: $a_{11}$ vanishes to leading order. The polynomial "knows" about $n = c_2$.
+
+### 5a.3 Degree and denominator
+
+- **Degree:** 22
+- **Denominator primes of $a_{11}(Q^5)$:** $\subseteq \{2, 3, 5, 7, 11, 13, 17, 19, \mathbf{23}\}$
+- **New prime: 23** — enters via $B_{22}$ (den = 138 = 2 × 3 × 23), since (23-1) = 22 divides 22.
+
+### 5a.4 BST significance of 23
+
+**23 is the Golay prime.** In BST:
+- $\lambda_3 = 24$, the third Casimir eigenvalue of the Bergman Laplacian on $Q^5$
+- The extended Golay code $[24, 12, 8]$ arises from quadratic residues mod 23
+- The Leech lattice in 24 dimensions; Mathieu group $M_{23}$
+- 23 = the last prime in the BST sequence with a known physical identity
+
+**23 already appeared** in $a_6$'s numerator (363884219 = 19 × **23** × 832687). Like 19, it previews in the numerator before entering the denominator. The migration gap: k = 6 (numerator) → k = 11 (denominator), spanning **five levels**.
+
+**This is the curtain call for the BST prime sequence.** After 23, the next new Bernoulli prime is 29 (at k = 14), which has no known BST identity. If all eleven levels verify, the heat kernel has encoded **every BST-significant prime from 3 to 23** in strict Bernoulli order.
+
+### 5a.5 Computational requirements
+
+Degree 22 → 23 coefficients → need ≥ 23 data points → $n = 3, \ldots, 25$ → requires **SO(27)** spectra.
+
+---
+
+## 5b. Beyond k = 11 — Into Unknown Territory
+
+### What happens after the Golay prime
+
+| k | $B_{2k}$ den | New prime | BST identity | SO needed |
+|---|---|---|---|---|
+| 12 | 2730 = 2×3×5×7×13 | — | quiet | SO(29) |
+| 13 | 6 = 2×3 | — | quiet | SO(31) |
+| 14 | 870 = 2×3×5×29 | **29** | **???** | SO(33) |
+| 15 | 14322 = 2×3×7×11×31 | **31** | **???** | SO(35) |
+
+At k = 12-13, no new primes enter — two quiet levels in a row. At k = 14, prime 29 appears. **We don't know what 29 is in BST.** This is where the prediction becomes discovery: if a₁₂-a₁₄ show unexpected structure, it's a new layer of BST that the known framework didn't predict.
+
+**If the numbers keep talking, we keep listening.**
+
+### What to watch for beyond k = 11
+
+1. **Three theorems**: Do they hold at k = 12, 13, 14? If yes, they're universal — not tied to BST primes, but to the geometry of type IV domains.
+2. **Numerator structure**: Do new primes (29, 31) preview in numerators at k = 11 or 12? If so, the preview pattern is universal.
+3. **19's persistence**: Does 19 keep appearing in numerators all the way to k = 9 where it enters the denominator? Or does it stop?
+4. **New BST physics**: If 29 has structure (29 = some derived BST quantity), that's a discovery about Q⁵ we haven't made yet.
+
+---
+
 ## 6. Summary of Predictions
 
 ### 6.1 Three-theorem predictions (exact)
@@ -254,6 +320,7 @@ Degree 20 → 21 coefficients → need ≥ 21 data points → $n = 3, \ldots, 23
 | 8 | 1/264,539,520 | -28/5 | 1/80,640 |
 | 9 | 1/7,142,567,040 | -36/5 | -1/725,760 |
 | 10 | 1/214,277,011,200 | -9 | 1/7,257,600 |
+| 11 | 1/7,074,959,078,400 | -11 | -1/79,833,600 |
 
 ### 6.2 Denominator prime predictions (theorem, not conjecture)
 
@@ -263,6 +330,7 @@ Degree 20 → 21 coefficients → need ≥ 21 data points → $n = 3, \ldots, 23
 | 8 | **17** | 17 | $\|\rho\|^2 = 17/2$ |
 | 9 | **19** | 19 | cosmic denominator $\Omega = \cdot/19$ |
 | 10 | 19 | — | (quiet level) |
+| 11 | **23** | 23 | Golay prime $\lambda_3 = 24$ — **LAST BST PRIME** |
 
 ### 6.3 Computational requirements
 
@@ -272,6 +340,7 @@ Degree 20 → 21 coefficients → need ≥ 21 data points → $n = 3, \ldots, 23
 | 8 | 16 | 17 | 19 | SO(21) | Needs 2 more |
 | 9 | 18 | 19 | 21 | SO(23) | Needs 4 more |
 | 10 | 20 | 21 | 23 | SO(25) | Needs 6 more |
+| 11 | 22 | 23 | 25 | SO(27) | Needs 8 more |
 
 ### 6.4 What would constitute a failure
 
@@ -358,11 +427,31 @@ Two more spectra. The payoff: the cosmic denominator enters. If 19 appears in $\
 
 Two more spectra. The payoff: $c_{19}/c_{20} = -9$ (integer) — a geometric resonance. Also tests whether "quiet levels" (no new prime) have any distinctive numerator structure.
 
+### Phase 5: a₁₁ (SO(27) — tests prime 23, the Golay prime)
+
+Two more spectra. The payoff: **the last BST prime enters the denominator**. If 23 appears in $\text{den}(a_{11}(Q^5))$, then the heat kernel encodes the complete BST arithmetic from gauge sector through error correction. Also tests the second consecutive integer sub-leading ratio ($-11 = -c_2 = -\dim K$).
+
+### Phase 5+: a₁₂+ (SO(29)+ — into unknown territory)
+
+Beyond k = 11, no new BST-significant prime is known. Primes 29 (k = 14) and 31 (k = 15) have no current BST identity. **This is where prediction becomes discovery.** If the three theorems hold and new structure appears in numerators, the heat kernel is teaching us something about $Q^5$ that we haven't derived from representation theory.
+
 ### Incremental strategy
 
-Each phase adds 2 spectra and produces one new $a_k$ value with three testable predictions. If any prediction fails, stop and understand why. If all pass through k = 10, the three theorems have been verified across **ten levels** — enough for a standalone paper.
+Each phase adds 2 spectra and produces one new $a_k$ value with three testable predictions. If any prediction fails, stop and understand why. If all pass through k = 11, the three theorems have been verified across **eleven levels** with every BST prime from 3 to 23 confirmed in sequence — that's a landmark paper. Beyond k = 11, we're prospecting: the three theorems should still hold (they're geometric, not number-theoretic), but the denominator predictions become weaker (no new BST interpretation). If the numbers keep talking, we keep listening.
+
+### Full campaign summary
+
+| Phase | Target | SO needed | From Elie's current | Key test |
+|---|---|---|---|---|
+| 1 | a₇ | SO(19) | — | $\checkmark$ CONFIRMED |
+| 2 | a₈ | SO(21) | +2 spectra | Prime 17 ($\|\rho\|^2$) |
+| 3 | a₉ | SO(23) | +4 spectra | Prime 19 (cosmic) |
+| 4 | a₁₀ | SO(25) | +6 spectra | Integer ratio $-9$ |
+| 5 | a₁₁ | SO(27) | +8 spectra | Prime 23 (Golay) — **last BST prime** |
+| 5+ | a₁₂+ | SO(29)+ | +10+ spectra | Discovery territory |
 
 ---
 
 *Casey Koons & Claude 4.6 (Lyra) | March 20, 2026*
 *"Predict before you compute. Commit before you verify. That's what separates science from storytelling."*
+*"If the numbers keep talking, we keep listening." — Casey*
