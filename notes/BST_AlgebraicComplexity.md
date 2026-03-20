@@ -418,6 +418,50 @@ The alternative: teach by question. What is the shape? What are the frequencies?
 
 A nine-year-old who sees integration in the jump from $\pi r^2$ to $\frac{4}{3}\pi r^3$ is learning Route A. A graduate student who proves the volume formula via differential forms and Stokes' theorem is learning Route B. Both arrive at the same answer. One of them understands why.
 
+### 11.7 Extended Classification: Computational Evidence
+
+The noise vector and AC classification have been measured across 14 method/problem pairs in six domains. The results confirm: **AC is a property of the question, not the method.** The same method transitions AC = 0 $\to$ AC > 0 when applied to a topologically different problem. Different methods applied to the same hard problem all yield AC > 0. *(Toys 260–265.)*
+
+**Table: AC Measurements Across Domains**
+
+| Domain | Method | Problem | $I_{\text{total}}$ | $I_{\text{deriv}}$ | $I_{\text{fiat}}$ | AC | FD |
+|:-------|:-------|:--------|:-----|:------|:------|:---|:---|
+| Crystallography | Direct methods | 4-atom cell | 53.2 bits | 339 bits | 0 | **0** | 0 |
+| Quantum mech. | Exact diag. | Anharmonic osc. | — | $E_0$ = 0.68 | 0 | **0** | 0 |
+| Quantum mech. | Perturbation $k$=15 | Same oscillator | — | 0.68 $\pm$ 0.05 | — | **$>$ 5 bits** | 15 |
+| Optimization | Convex opt. | Quadratic bowl | $d$ | $d$ | 0 | **0** | 0 |
+| Optimization | Convex opt. | Rastrigin ($d$ = 10) | $d \log d$ | $\sim$0 | $\sim d \log d$ | **$>$ 0** | $d \log d$ |
+| Integration | Monte Carlo | Smooth $f$, low-$d$ | $I(f)$ | $I(f)$ | 0 | **0** | 0 |
+| Integration | Monte Carlo | Rough $f$, high-$d$ | $I(f)$ | $\sim$0 | $\sim I(f)$ | **$>$ 0** | — |
+| Optimization | Gradient descent | Convex (smooth) | $d$ | $d$ | 0 | **0** | 0 |
+| Optimization | Gradient descent | Rastrigin ($d$ = 10) | 30.9 bits | $\sim$0 | $\sim$30.9 | **$>$ 0** | — |
+| SAT | 2-SAT (implication) | Linear instance | $n$ | $n$ | 0 | **0** | 0 |
+| SAT | 3-SAT at $\alpha_c$ | Phase transition | $n$ | $\sim$0 | $\sim n$ | **$>$ 0** | — |
+| SAT | Tseitin on expander | UNSAT ($n$ = 90) | 90 bits | 15.2 | 74.8 | **59.6** | — |
+
+*FD = Fragility Degree (number of irreversible steps). Dash = not applicable or not measured.*
+
+Three patterns emerge:
+
+1. **Invertibility determines AC.** Crystallography (Toy 260) achieves AC = 0 because the Sayre equation algebraically recovers the phases lost in measurement — every step in the pipeline is invertible. Exact diagonalization (Toy 262) achieves AC = 0 for the same reason: basis truncation converges, and nothing is discarded. Perturbation theory fails because truncation at order $k$ is a Level 2 operation — the discarded tail carries information that cannot be recovered.
+
+2. **Topology determines hardness.** Gradient descent on a convex bowl is AC = 0; on the Rastrigin function ($(2d)^d$ local minima), it is AC $\gg$ 0. The method did not change. The problem's topology — convex versus exponentially fragmented landscape — determines whether the method's channel capacity suffices. Monte Carlo integration shows the same transition: smooth integrand $\to$ AC = 0; rough integrand (needle in high-dimensional haystack) $\to$ AC $>$ 0. *(Toy 265.)*
+
+3. **Hard instances converge.** On hard 3-SAT at the phase transition, four independent algorithms (DPLL, WalkSAT, unit propagation, LP relaxation) all fail at the same topological bottleneck: high treewidth, high filling ratio, low unit-propagation yield. Tseitin formulas on expander graphs (Toy 264) show treewidth $= \Theta(n)$ with $R^2 = 0.987$, giving $I_{\text{fiat}} = \Theta(n)$. The convergent diagnosis (Toy 261) confirms: same filling ratio, same cost catastrophe, regardless of method.
+
+**Perturbation as AC counter-example.** The anharmonic oscillator $H = p^2/2 + \omega^2 x^2/2 + \lambda x^4$ computed two ways (Toy 262):
+
+| Method | FD | AC | Error at $\lambda$ = 0.1 | Noise vector (R, C, P, D, K) |
+|:-------|:---|:---|:---|:---|
+| Exact diag. ($N$ = 80) | 0 | 0 bits | $10^{-8}$ | (0, 0, 0, 0, 1.0) |
+| Perturbation $k$ = 1 | 1 | 2.4 bits | 0.015 | (1.0, 0, 1.0, 0.1, 0.95) |
+| Perturbation $k$ = 5 | 5 | 0.8 bits | 0.003 | (0.2, 0, 0.17, 0.5, 0.99) |
+| Perturbation $k$ = 15 | 15 | $>$ 5 bits | 0.05 | (0.07, 0, 0.06, 1.5, 0.80) |
+
+The series diverges as $|E^{(k)}| \sim k!$ (Dyson 1952). More terms make it *worse* past the optimal truncation. Each order adds an irreversible truncation (Level 2 step), accumulating FD and AC. The 19 free parameters of the Standard Model are this deficit: perturbation theory cannot derive what the exact spectral method reads directly.
+
+**Crystallography: AC = 0 outside physics.** X-ray crystallography via direct methods (Toy 260) provides the first non-physics AC(0) measurement. The pipeline: Fourier synthesis $\to$ phase recovery (Sayre equation) $\to$ peak picking. Information budget: $I_{\text{total}}$ = 53.2 bits (4 atom positions in a 10 \AA\ cell), $I_{\text{data}}$ = 339 bits (50 strong reflections), overdetermination ratio 6.4$\times$. The phase problem — detector measures $|F|^2$, not $F$ — is physical, not methodological. The Sayre equation is an algebraic identity (not an approximation), recovering every lost phase bit exactly. Compare with powder diffraction (angular averaging $\to$ peak overlap $\to$ Rietveld refinement with 15 free parameters): AC $>$ 0. Same crystal, different method, different noise.
+
 -----
 
 ## 12. The Grounding Tower *(preliminary framework)*

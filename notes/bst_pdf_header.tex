@@ -4,3 +4,194 @@
 \setmainfont{STIX Two Text}
 \setmathfont{STIX Two Math}
 \setmonofont{Menlo}[Scale=0.85]
+
+% ─────────────────────────────────────────────────────────────────
+% Bare-Unicode → LaTeX routing
+%
+% Problem: STIX Two Text (body font) lacks many math/symbol glyphs.
+% When bare Unicode appears in markdown outside $...$, xelatex
+% renders boxes. The newunicodechar package intercepts each character
+% and routes it through math mode (which uses STIX Two Math).
+%
+% To add a new character: \newunicodechar{⟨char⟩}{⟨LaTeX replacement⟩}
+% ─────────────────────────────────────────────────────────────────
+\usepackage{newunicodechar}
+\usepackage{textcomp}     % for \textpm, \texttimes, \textmiddot, etc.
+\usepackage{amssymb}      % fallback for some symbols
+
+% ── Greek lowercase ──────────────────────────────────────────────
+\newunicodechar{α}{$\alpha$}
+\newunicodechar{β}{$\beta$}
+\newunicodechar{γ}{$\gamma$}
+\newunicodechar{δ}{$\delta$}
+\newunicodechar{ε}{$\varepsilon$}
+\newunicodechar{ζ}{$\zeta$}
+\newunicodechar{η}{$\eta$}
+\newunicodechar{θ}{$\theta$}
+\newunicodechar{ι}{$\iota$}
+\newunicodechar{κ}{$\kappa$}
+\newunicodechar{λ}{$\lambda$}
+\newunicodechar{μ}{$\mu$}
+\newunicodechar{ν}{$\nu$}
+\newunicodechar{ξ}{$\xi$}
+\newunicodechar{ο}{$o$}
+\newunicodechar{π}{$\pi$}
+\newunicodechar{ρ}{$\rho$}
+\newunicodechar{σ}{$\sigma$}
+\newunicodechar{τ}{$\tau$}
+\newunicodechar{υ}{$\upsilon$}
+\newunicodechar{φ}{$\varphi$}
+\newunicodechar{χ}{$\chi$}
+\newunicodechar{ψ}{$\psi$}
+\newunicodechar{ω}{$\omega$}
+
+% ── Greek uppercase ──────────────────────────────────────────────
+\newunicodechar{Γ}{$\Gamma$}
+\newunicodechar{Δ}{$\Delta$}
+\newunicodechar{Θ}{$\Theta$}
+\newunicodechar{Λ}{$\Lambda$}
+\newunicodechar{Ξ}{$\Xi$}
+\newunicodechar{Π}{$\Pi$}
+\newunicodechar{Σ}{$\Sigma$}
+\newunicodechar{Φ}{$\Phi$}
+\newunicodechar{Ψ}{$\Psi$}
+\newunicodechar{Ω}{$\Omega$}
+
+% ── Superscripts ─────────────────────────────────────────────────
+\newunicodechar{⁰}{${}^{0}$}
+\newunicodechar{¹}{${}^{1}$}
+\newunicodechar{²}{${}^{2}$}
+\newunicodechar{³}{${}^{3}$}
+\newunicodechar{⁴}{${}^{4}$}
+\newunicodechar{⁵}{${}^{5}$}
+\newunicodechar{⁶}{${}^{6}$}
+\newunicodechar{⁷}{${}^{7}$}
+\newunicodechar{⁸}{${}^{8}$}
+\newunicodechar{⁹}{${}^{9}$}
+\newunicodechar{⁻}{${}^{-}$}
+\newunicodechar{⁺}{${}^{+}$}
+\newunicodechar{⁽}{${}^{(}$}
+\newunicodechar{⁾}{${}^{)}$}
+\newunicodechar{ⁿ}{${}^{n}$}
+
+% ── Subscripts ───────────────────────────────────────────────────
+\newunicodechar{₀}{${}_{0}$}
+\newunicodechar{₁}{${}_{1}$}
+\newunicodechar{₂}{${}_{2}$}
+\newunicodechar{₃}{${}_{3}$}
+\newunicodechar{₄}{${}_{4}$}
+\newunicodechar{₅}{${}_{5}$}
+\newunicodechar{₆}{${}_{6}$}
+\newunicodechar{₇}{${}_{7}$}
+\newunicodechar{₈}{${}_{8}$}
+\newunicodechar{₉}{${}_{9}$}
+\newunicodechar{ₑ}{${}_{e}$}
+\newunicodechar{ₐ}{${}_{a}$}
+\newunicodechar{ₒ}{${}_{o}$}
+\newunicodechar{ₓ}{${}_{x}$}
+\newunicodechar{ₙ}{${}_{n}$}
+\newunicodechar{ₖ}{${}_{k}$}
+\newunicodechar{ₘ}{${}_{m}$}
+\newunicodechar{ₛ}{${}_{s}$}
+\newunicodechar{ₜ}{${}_{t}$}
+
+% ── Arrows ───────────────────────────────────────────────────────
+\newunicodechar{→}{$\rightarrow$}
+\newunicodechar{←}{$\leftarrow$}
+\newunicodechar{↔}{$\leftrightarrow$}
+\newunicodechar{⟶}{$\longrightarrow$}
+\newunicodechar{⟵}{$\longleftarrow$}
+\newunicodechar{⇒}{$\Rightarrow$}
+\newunicodechar{⇐}{$\Leftarrow$}
+\newunicodechar{⇔}{$\Leftrightarrow$}
+\newunicodechar{↦}{$\mapsto$}
+\newunicodechar{↑}{$\uparrow$}
+\newunicodechar{↓}{$\downarrow$}
+
+% ── Relations ────────────────────────────────────────────────────
+\newunicodechar{≈}{$\approx$}
+\newunicodechar{≠}{$\neq$}
+\newunicodechar{≤}{$\leq$}
+\newunicodechar{≥}{$\geq$}
+\newunicodechar{≪}{$\ll$}
+\newunicodechar{≫}{$\gg$}
+\newunicodechar{≅}{$\cong$}
+\newunicodechar{∼}{$\sim$}
+\newunicodechar{≡}{$\equiv$}
+\newunicodechar{∝}{$\propto$}
+\newunicodechar{⊂}{$\subset$}
+\newunicodechar{⊃}{$\supset$}
+\newunicodechar{⊆}{$\subseteq$}
+\newunicodechar{⊇}{$\supseteq$}
+\newunicodechar{∈}{$\in$}
+\newunicodechar{∉}{$\notin$}
+\newunicodechar{∋}{$\ni$}
+
+% ── Operators and math symbols ───────────────────────────────────
+\newunicodechar{×}{\texttimes}
+\newunicodechar{±}{\textpm}
+\newunicodechar{∓}{$\mp$}
+\newunicodechar{·}{\textperiodcentered}
+\newunicodechar{÷}{$\div$}
+\newunicodechar{−}{$-$}
+\newunicodechar{√}{$\sqrt{}$}
+\newunicodechar{∞}{$\infty$}
+\newunicodechar{∂}{$\partial$}
+\newunicodechar{∇}{$\nabla$}
+% ∫ ∑ ∏ omitted: unicode-math maps \int \sum \prod to these chars
+% internally, causing recursion. They never appear bare in text.
+\newunicodechar{∧}{$\wedge$}
+\newunicodechar{∨}{$\vee$}
+\newunicodechar{¬}{$\lnot$}
+\newunicodechar{∅}{$\emptyset$}
+\newunicodechar{∀}{$\forall$}
+\newunicodechar{∃}{$\exists$}
+\newunicodechar{⊕}{$\oplus$}
+\newunicodechar{⊗}{$\otimes$}
+\newunicodechar{⊖}{$\ominus$}
+\newunicodechar{†}{$\dagger$}
+\newunicodechar{‡}{$\ddagger$}
+
+% ── Brackets and delimiters ──────────────────────────────────────
+\newunicodechar{⟨}{$\langle$}
+\newunicodechar{⟩}{$\rangle$}
+\newunicodechar{⌈}{$\lceil$}
+\newunicodechar{⌉}{$\rceil$}
+\newunicodechar{⌊}{$\lfloor$}
+\newunicodechar{⌋}{$\rfloor$}
+\newunicodechar{‖}{$\|$}
+
+% ── Double-struck (blackboard bold) ─────────────────────────────
+\newunicodechar{ℂ}{$\mathbb{C}$}
+\newunicodechar{ℕ}{$\mathbb{N}$}
+\newunicodechar{ℚ}{$\mathbb{Q}$}
+\newunicodechar{ℝ}{$\mathbb{R}$}
+\newunicodechar{ℤ}{$\mathbb{Z}$}
+\newunicodechar{𝔽}{$\mathbb{F}$}
+
+% ── Script / calligraphic ───────────────────────────────────────
+\newunicodechar{ℓ}{$\ell$}
+\newunicodechar{ℏ}{$\hbar$}
+\newunicodechar{ℑ}{$\Im$}
+\newunicodechar{ℜ}{$\Re$}
+\newunicodechar{℘}{$\wp$}
+
+% ── Miscellaneous symbols ───────────────────────────────────────
+\newunicodechar{§}{\S}
+\newunicodechar{°}{\ensuremath{{}^{\circ}}}
+\newunicodechar{′}{$'$}
+\newunicodechar{″}{$''$}
+\newunicodechar{✓}{\checkmark}
+\newunicodechar{✗}{$\times$}
+\newunicodechar{★}{$\star$}
+\newunicodechar{⋯}{$\cdots$}
+\newunicodechar{⋮}{$\vdots$}
+\newunicodechar{⋱}{$\ddots$}
+\newunicodechar{∘}{$\circ$}
+\newunicodechar{•}{$\bullet$}
+\newunicodechar{△}{$\triangle$}
+\newunicodechar{▷}{$\triangleright$}
+
+% ── Accented Latin (names: Erdős, Hörmander, Séminaire, etc.) ──
+% These are handled natively by STIX Two Text — no mapping needed.
+% Listed here for reference: ä ö ü é è ê ë ñ ő ŠàáâãåæçÅÉ
