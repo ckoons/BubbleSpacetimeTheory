@@ -101,9 +101,9 @@ A 2-SAT clause $(\ell_1 \vee \ell_2)$ is equivalent to two implications: $\neg\e
 
 **Step 4: Filling ratio confirms.** The filling ratio $\text{FR} = \text{rank}(\partial_2) / \beta_1 = 0/\beta_1 = 0$. There are no 2-boundaries because there are no 2-simplices. All 1-cycles are "open" — traversable by the SCC algorithm.
 
-**Step 5: Information budget.** $I_{\text{total}} = n$ (one bit per variable in the satisfying assignment). $I_{\text{derivable}} = n$ (SCC determines all variables). $I_{\text{fiat}} = 0$. $\square$
+**Step 5: Information budget.** Let $f$ be the number of free variables (those whose literal and negation are in separate, incomparable SCCs — either value is consistent). Then $I_{\text{total}} = n - f$, $I_{\text{derivable}} = n - f$ (SCC determines every constrained variable), $I_{\text{free}} = f$, $I_{\text{fiat}} = I_{\text{total}} - I_{\text{derivable}} = 0$. $\square$
 
-**AC method:** SCC decomposition. Noise vector $(R, C, P, D, K) = (0, 0, 0, 0, 1)$. Every step is invertible (graph traversal). AC $= 0$.
+**AC method:** SCC decomposition. Every step is invertible (graph traversal). AC $= 0$.
 
 ---
 
@@ -132,9 +132,11 @@ This terminates in $O(nm)$ time. Every TRUE variable is forced by a derivation c
 
 **Step 4: Why it works informationally.** Horn clauses are **monotone implications**: truth propagates forward but never backward. Setting $x = \text{TRUE}$ can force $y = \text{TRUE}$ (via $x \to y$) but cannot force any variable FALSE. This means the derivation flow has no ambiguity: each step either forces a variable TRUE or leaves it undetermined. There is no branching, no choice, no embedding ambiguity.
 
-In AC terms: the constraint-to-solution mapping has a unique embedding. Each clause embeds into the solution space in exactly one way (the direction of implication is fixed). $I_{\text{fiat}} = 0$ because there is nothing to choose. $\square$
+In AC terms: the constraint-to-solution mapping has a unique embedding. Each clause embeds into the solution space in exactly one way (the direction of implication is fixed). $I_{\text{fiat}} = 0$ because there is nothing to choose.
 
-**AC method:** Forward chaining (unit propagation). Noise vector $(0, 0, 0, 0, 1)$. AC $= 0$.
+**Information budget.** Let $f$ be the number of free variables (those appearing only in non-triggered implications, so both TRUE and FALSE are consistent). Then $I_{\text{total}} = n - f$, $I_{\text{derivable}} = n - f$ (forward chaining determines every constrained variable: TRUE by forcing, FALSE by exhaustion), $I_{\text{fiat}} = 0$. $\square$
+
+**AC method:** Forward chaining (unit propagation). AC $= 0$.
 
 ---
 
@@ -146,7 +148,7 @@ In AC terms: the constraint-to-solution mapping has a unique embedding. Each cla
 
 The negation map is an involution — perfectly invertible. AC $= 0$ is preserved under invertible transformations. $\square$
 
-**AC method:** Negate, apply Horn forward chaining, negate back. AC $= 0$.
+**AC method:** Negate, apply Horn forward chaining, negate back. Negation is an involution on the variable space and preserves the constraint language class. AC $= 0$.
 
 ---
 
@@ -189,7 +191,7 @@ For XOR-SAT: determined = constrained (rank $r$), all determined bits are deriva
 
 This is NOT true for polynomial algebra over fields of characteristic 0 (Groebner bases require degree bounds, truncation is irreversible) or for linear algebra over rings (Smith normal form involves division, which is not always invertible). XOR-SAT is special because $\text{GF}(2)$ is both a field and has characteristic 2 — the XOR operation is its own inverse.
 
-**AC method:** Gaussian elimination over $\text{GF}(2)$. Noise vector $(0, 0, 0, 0, 1)$. AC $= 0$.
+**AC method:** Gaussian elimination over $\text{GF}(2)$. AC $= 0$.
 
 ---
 
@@ -272,7 +274,9 @@ AC theory does not merely classify problems after the fact. It *prescribes* the 
 
 4. **0/1-valid:** The constraint space contains a universal satisfier. The natural coordinate system is trivial (the origin). AC prescribes: output the origin. The result is the constant function.
 
-**The principle:** $I_{\text{fiat}} = 0$ means the constraint-to-solution mapping has a natural coordinate system in which the solution is readable. The AC-minimum method is the coordinate transformation that makes the solution visible. For each Schaefer class, this coordinate transformation is the known optimal algorithm.
+**The principle:** $I_{\text{fiat}} = 0$ means the constraint-to-solution mapping admits a polynomial-time invertible transformation after which every determined variable's value is readable from the transformed structure. The AC-minimum method IS this transformation. For each Schaefer class, the transformation is the known optimal algorithm.
+
+**What "prescriptive" means precisely:** Given a new constraint language $\Gamma$ with $I_{\text{fiat}} = 0$, AC does not directly output an algorithm. Rather, it identifies the *type* of derivation flow (SCC, forward chaining, Gaussian elimination, or trivial) by measuring which topological operations suffice to extract all information. The algorithm is then the standard implementation of that flow type. The prescriptive claim is that AC correctly identifies which flow type matches the constraint topology — as verified by the 6/6 match above.
 
 **Honest acknowledgment (C5).** The information-theoretic framework *classifies* all six cases uniformly, but the *proofs* that each class has $I_{\text{fiat}} = 0$ require class-specific algebraic arguments: SCC decomposition for 2-SAT, forward chaining for Horn, Gaussian elimination for XOR-SAT. The framework is the classification principle; the proofs require case analysis. This is analogous to Schaefer's own proof, which classifies uniformly via Post's lattice but verifies tractability class by class.
 
@@ -288,14 +292,14 @@ The theorem is qualitative: $I_{\text{fiat}} = 0$ vs $I_{\text{fiat}} > 0$. But 
 
 Even within $I_{\text{fiat}} = 0$, instances vary in difficulty. The channel capacity of the optimal method provides a finer measure:
 
-| Class | Channel capacity $C(M)$ | Running time | Why |
-|---|---|---|---|
-| 0/1-valid | $\infty$ (trivial) | $O(1)$ | No information to process |
-| 2-SAT | $O(n + m)$ | $O(n + m)$ | Graph traversal is linear |
-| Horn-SAT | $O(nm)$ | $O(nm)$ | Forward chaining touches each clause per forced variable |
-| XOR-SAT | $O(n^2 m)$ | $O(n^2 m)$ (naive) | Gaussian elimination is cubic |
+| Class | $I_{\text{fiat}}$ | Derivation steps | Method complexity | Why |
+|---|---|---|---|---|
+| 0/1-valid | 0 | 0 | $O(1)$ | No information to process |
+| 2-SAT | 0 | $n$ | $O(n + m)$ | Graph traversal: one pass |
+| Horn-SAT | 0 | $n$ | $O(nm)$ | Forward chaining: propagation loop |
+| XOR-SAT | 0 | $\text{rank}(A)$ | $O(n^2 m)$ | Gaussian elimination: matrix algebra |
 
-The hierarchy $0\text{-valid} < \text{2-SAT} < \text{Horn} < \text{XOR}$ reflects increasing channel capacity requirements. All have $I_{\text{fiat}} = 0$, but the derivation flow requires progressively more complex methods.
+The hierarchy $0\text{-valid} < \text{2-SAT} < \text{Horn} < \text{XOR}$ reflects increasing method complexity for the same outcome ($I_{\text{fiat}} = 0$). All derive every determined bit, but through progressively more sophisticated derivation flows.
 
 ### 7.2 At the NP-Complete Boundary
 
@@ -428,7 +432,9 @@ Paper A structure with this result:
 - Bulatov, A. (2017). A dichotomy theorem for nonuniform CSPs.
 - Dowling, W.F., Gallier, J.H. (1984). Linear-time algorithms for testing the satisfiability of propositional Horn formulae.
 - Razborov, A. (2003). Resolution lower bounds for the weak pigeonhole principle.
+- Mézard, M., Parisi, G., Zecchina, R. (2002). Analytic and algorithmic solution of random satisfiability problems.
 - Schaefer, T.J. (1978). The complexity of satisfiability problems.
+- Tseitin, G.S. (1968). On the complexity of derivation in propositional calculus.
 - Zhuk, D. (2020). A proof of the CSP dichotomy conjecture.
 
 ---

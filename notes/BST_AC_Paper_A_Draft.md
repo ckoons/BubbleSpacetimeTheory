@@ -155,7 +155,7 @@ Schaefer's Dichotomy Theorem (1978) classifies every Boolean constraint satisfac
 
 **Lemma 1 (2-SAT).** Every 2-SAT instance has $I_{\text{fiat}} = 0$.
 
-*Proof sketch.* Each clause $(\ell_1 \vee \ell_2)$ contributes two directed edges to the implication graph. The constraint complex is 1-dimensional. SCC decomposition determines every variable's value through directed path traversal — 1-chain flow on the graph. Every cycle is walkable; no 2-face locks information into higher-dimensional structure. The filling ratio $\text{FR} = \text{rank}(\partial_2)/\beta_1 = 0$. All $n$ variable bits are derivable. $\square$
+*Proof sketch.* Each clause $(\ell_1 \vee \ell_2)$ contributes two directed edges to the implication graph. The constraint complex is 1-dimensional. SCC decomposition determines every constrained variable's value through directed path traversal — 1-chain flow on the graph. Every cycle is walkable; no 2-face locks information into higher-dimensional structure. If $f$ variables are free (literal and negation in separate, incomparable SCCs), then $I_{\text{total}} = n - f$, $I_{\text{derivable}} = n - f$, $I_{\text{fiat}} = 0$. $\square$
 
 **Lemma 2 (Horn-SAT).** Every Horn-SAT instance has $I_{\text{fiat}} = 0$.
 
@@ -204,7 +204,7 @@ The dichotomy was verified computationally by measuring $I_{\text{fiat}}$ direct
 | 0-valid | Trivial | Constant function | Constant function | **Yes** |
 | 1-valid | Trivial | Constant function | Constant function | **Yes** |
 
-For each class, the AC-minimum method IS the coordinate transformation that makes the solution visible. The principle: $I_{\text{fiat}} = 0$ means the constraint-to-solution mapping has a natural coordinate system — a lossless, invertible representation in which the solution is derivable. The coordinate transformation to that system is the algorithm. AC does not *discover* these algorithms (they were known before the framework existed); rather, it explains *why* they are optimal: each one is the unique lossless channel matching the constraint topology.
+For each class, the AC-minimum method IS the coordinate transformation that makes the solution visible. The principle: $I_{\text{fiat}} = 0$ means the constraint-to-solution mapping admits a polynomial-time invertible transformation after which every determined variable's value is readable. AC does not *discover* these algorithms (they were known before the framework existed); rather, it identifies the *type* of derivation flow (SCC, forward chaining, Gaussian elimination, or trivial) by measuring which topological operations suffice to extract all information. The prescriptive claim is that AC correctly identifies which flow type matches the constraint topology — as verified by the 6/6 match above.
 
 ### 4.5 What AC Adds Beyond Schaefer
 

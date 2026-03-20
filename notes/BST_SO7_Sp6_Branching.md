@@ -179,7 +179,7 @@ Each short root contributes a factor $[c(2s_i)]^3 = [\xi(2s_i)/\xi(2s_i + 1)]^3$
 
 ### 4.2 The Sp(6) representation content of $M(s)$
 
-The L-function degrees appearing in $M(s)$ are exactly those in the table of Section 3.1. The standard $L$-function (degree 6) controls the leading poles; the exterior and symmetric square $L$-functions (degrees 14 and 21) enter through the rank-2 structure. The intertwining operator factorizes according to the Sp(6) decomposition of the 147:
+The L-function degrees appearing in $M(s)$ are exactly those in the table of Section 3.1. The standard $L$-function (degree 6) controls the leading poles; the exterior and symmetric square $L$-functions (degrees 14 and 21) enter through the rank-2 structure. The intertwining operator factorization is consistent with the Sp(6) decomposition of the 147:
 
 - The $\mathbf{6}$ (standard) governs the mass gap: $\lambda_1 = C_2 = 6 = \deg(L_{\mathrm{Std}})$.
 - The $\mathbf{14}$ (exterior square) and $\mathbf{21}$ (symmetric square) enforce the coupling between the two spectral parameters via the long roots.
@@ -192,6 +192,8 @@ The heat kernel proof of RH on $D_{IV}^5$ (Route A) exploits the rank-2 structur
 $$\sigma + 1 = 3\sigma \quad \Longrightarrow \quad \sigma = \tfrac{1}{2}$$
 
 where $\sigma = \mathrm{Re}(\rho)$ for a hypothetical zero $\rho$ of $\zeta(s)$. This identity arises from the $m_{\text{short}} = 3$ multiplicity: the short-root factor $[\xi(z)/\xi(z+1)]^3$ has a third-order pole at a $\zeta$-zero, while the constraint from the Maass-Selberg relation $M(s) \cdot M(1-s) = \mathrm{Id}$ forces the pole orders to balance, yielding the equation above.
+
+> **Note:** This refers to the Route A proof via heat kernel trace formula on $Q^5$ (the $\sigma + 1 = 3\sigma$ algebraic identity from the rank-2 restricted root system; Toy 222), not the earlier overconstrained system approach which was withdrawn (Toy 213).
 
 **For Sarnak's attention**: the constraint $\sigma = 1/2$ is algebraic and $m_s$-independent in the sense that it holds for any $D_{IV}^n$ with $m_s \geq 2$ (i.e., $n \geq 4$). What is special about $n = 5$ ($m_s = 3$) is not the RH proof but the *physics*: only $n = 5$ gives the Standard Model particle content, and this content is determined by the same Sp(6) branching described above.
 

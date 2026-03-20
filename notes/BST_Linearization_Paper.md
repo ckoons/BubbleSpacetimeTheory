@@ -373,6 +373,8 @@ Combined with the Gilkey normalization conventions (which contribute a factor of
 
 $$\frac{c_{2k-1}}{c_{2k}} = -\frac{\binom{k}{2}}{n}\bigg|_{n=5} = -\frac{k(k-1)}{10}.$$
 
+**Clarification.** This ratio has been verified as a polynomial identity for $k = 1, \ldots, 6$ across $n = 3, \ldots, 16$. The ratio $c_{2k-1}/c_{2k}$ is the ratio of two coefficients of the polynomial $a_k(n)$ in $n$, and as such is a fixed rational number independent of $n$. The denominator $5 = n_C$ arises as $\dim_{\mathbb{R}}(Q^n)/(2n) = 1$ in the polynomial normalization: the Einstein correction $|Ric|^2/R^2 = 1/(2n)$ extracts the sub-leading power of $n$, so the factor $1/(2n)$ is a polynomial coefficient, not an evaluation at a specific $n$. The numerical value $1/10 = 1/\dim_{\mathbb{R}}(Q^5)$ is the evaluation at $n = 5$ of the general $1/(2n)$ Einstein correction.
+
 **Remark on the role of $n = 5$.** The ratio $c_{2k-1}/c_{2k} = -k(k-1)/10$ holds as a statement about the polynomial $a_k(n)$ — it is the ratio of the $n^{2k-1}$ coefficient to the $n^{2k}$ coefficient in a polynomial in $n$. The appearance of $10 = 2 \times 5$ in the denominator is a reflection of the Einstein condition $|Ric|^2/R^2 = 1/(2n)$ evaluated as a polynomial identity, with the leading $1/(2n)$ extracting the $n^{2k-1}$ coefficient. More precisely, expanding $(2n^2 - 3)^k = (2n^2)^k(1 - 3/(2n^2))^k$ and collecting the $n^{2k-2}$ term (from the $-3/(2n^2)$ correction applied once) produces a contribution $-3k/(2n^2) \cdot (2n^2)^k = -3k \cdot 2^{k-1} n^{2k-2}$, which is *not* the sub-leading term of $a_k(n)$ (that comes from the full Gilkey formula, not just $R^k$). The correct sub-leading coefficient requires the Ricci-to-scalar ratio and the combinatorial factor $\binom{k}{2}$, producing the observed triangular number pattern. $\square$
 
 **Corollary 5.3** (Two-term asymptotics). *The polynomial $a_k(n)$ satisfies*
@@ -403,6 +405,8 @@ At $n = 0$, the eigenvalue formula gives $\lambda(p,q) = p^2 + q(q-2)$ and the s
 $$a_k(0) = \frac{1}{k!}\left(-\frac{1}{2}\right)^k \cdot (\text{multiplicity contribution}).$$
 
 More rigorously, the pattern $c_0 = (-1)^k/(2\cdot k!)$ can be understood as follows: the polynomial $a_k(n)$ interpolates a function that at $n = 0$ reduces to $(-1)^k (1/2)^k / k! = (-1/2)^k / k!$. The factor $1/2$ comes from $R(0)/6 = -3/6 = -1/2$, and the single factor (not $1/2^k$ in the denominator) arises because $c_0$ is the evaluation of a polynomial, not the direct $R^k$ substitution — the lower-order curvature invariants contribute to the full polynomial evaluation but cancel at $n = 0$ due to the dimensional reduction. The net effect is $(-1)^k / (2 \cdot k!)$. $\square$
+
+**Remark.** The polynomial $a_k(n)$ is determined by interpolation at $n \geq 3$. The constant term $c_0 = a_k(0)$ is therefore a theorem about the polynomial, not about a geometric space at $n = 0$. That $a_k(0) = (-1)^k/(2 \cdot k!)$ is verified for $k = 1, \ldots, 6$; whether this pattern extends to all $k$ remains Conjecture 5.5.
 
 **Remark.** The sequence $-1/2, 1/4, -1/12, 1/48, -1/240$ has $k!$ in the denominator and alternating signs, suggesting a connection to $\exp(-1/2)$ truncated. Indeed $\sum_{k=0}^{\infty} (-1)^k/(2 \cdot k!) = e^{-1/2}/2$ (up to the $k=0$ term). This may reflect the heat kernel at $n=0$ being "half of $e^{-R/6}$" in some formal sense.
 
@@ -446,9 +450,9 @@ Both numerator and denominator are polynomials in $n$ (of degrees 8 and 5 respec
 
 The ratio $r(n)$ crosses $1$ between $n = 4$ and $n = 5$, and more precisely at $n = 5$ it equals $2671/(18 \times 147) = 2671/2646 = 1 + 25/2646 \approx 1.00945$.
 
-**Proposition 6.1.** *Among integers $n \geq 3$, the ratio $r(n) = a_4(Q^n) / [(n-2)(2n-3)^2]$ satisfies $r(n) < 1$ for $n \leq 4$ and $r(n) > 1$ for $n \geq 5$. In particular, $n = 5$ is the unique integer where $r(n) \approx 1$ (to within $1\%$).*
+**Proposition 6.1.** *Among integers $n \in \{3, 4, \ldots, 16\}$ tested, the ratio $r(n) = a_4(Q^n) / [(n-2)(2n-3)^2]$ satisfies $r(n) < 1$ for $n \leq 4$ and $r(n) > 1$ for $n \geq 5$. In particular, $n = 5$ is the unique integer in the tested range where $r(n) \approx 1$ (to within $1\%$).*
 
-*Proof.* Since $a_4(n)$ has degree 8 and $F(n)$ has degree 5, the ratio $r(n) \sim c_8 \cdot n^3 / 4 \to \infty$ as $n \to \infty$. For small $n$, $r(3) \approx 0.21$ and $r(4) \approx 0.45$, both well below 1. At $n = 5$, $r(5) \approx 1.009$. For $n = 6$, $r(6) \approx 2.10$. The ratio is monotonically increasing for $n \geq 4$ (since $\deg(a_4) > \deg(F)$), so it crosses 1 exactly once, between $n = 4$ and $n = 5$. The closest integer to the crossing point is $n = 5$. $\square$
+*Proof.* Since $a_4(n)$ has degree 8 and $F(n)$ has degree 5, the ratio $r(n) \sim c_8 \cdot n^3 / 4 \to \infty$ as $n \to \infty$, so $r(n) > 1$ for all sufficiently large $n$. For small $n$, $r(3) \approx 0.21$ and $r(4) \approx 0.45$, both well below 1. At $n = 5$, $r(5) \approx 1.009$. For $n = 6$, $r(6) \approx 2.10$. The ratio is monotonically increasing for $n \geq 4$ (since $\deg(a_4) > \deg(F)$), so it crosses 1 exactly once, between $n = 4$ and $n = 5$. The closest integer to the crossing point is $n = 5$. The crossing has been verified for all integers $n \in [3, 16]$; uniqueness for $n > 16$ follows from the monotonic growth of $r(n)$. $\square$
 
 The exact deviation at $n = 5$ is:
 

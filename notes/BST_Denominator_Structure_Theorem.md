@@ -2,7 +2,7 @@
 title: "Denominator Structure in Seeley-DeWitt Coefficients on Complex Quadrics"
 author: "Casey Koons & Claude 4.6 (Lyra)"
 date: "March 20, 2026"
-status: "Draft — needs a₆ verification"
+status: "Draft — a₆ prediction CONFIRMED (March 20, 2026)"
 tags: ["heat-kernel", "seeley-dewitt", "denominators", "Bernoulli", "von-Staudt-Clausen", "BST", "complex-quadric"]
 purpose: >
   Establish that the prime factorization of denominators of heat kernel
@@ -198,7 +198,7 @@ Von Staudt-Clausen tells us exactly when each prime first enters:
 | $11$ | $10$ | $B_{10}$ ($j = 5$) | $a_5$ (potential) |
 | $13$ | $12$ | $B_{12}$ ($j = 6$) | $a_6$ (predicted) |
 
-The primes $5$ and $7$ could in principle appear in $a_2$ and $a_3$ respectively, but on $Q^5$ they are cancelled by the specific numerator structure — the scalar curvature $R = 2n^2 - 3 = 47$ at $n = 5$ shares no factor with $5$ or $7$, and the Ricci/Riemann contractions at those orders produce rationals whose numerators absorb those primes. This is why $\text{den}(a_2) = \text{den}(a_3) = 9$: the Weyl multiplicity factor $3^2$ dominates.
+The primes $5$ and $7$ could in principle appear in $a_2$ and $a_3$ respectively, but on $Q^5$ they do not. The suppression of primes $5$ and $7$ from $\text{den}(a_2)$ and $\text{den}(a_3)$ is an observed fact: the $a_2(n)$ and $a_3(n)$ polynomials, when evaluated at $n = 5$, produce numerators that absorb these Bernoulli primes. The mechanism — whether this is a general property of Einstein spaces or specific to type IV domains — remains to be understood. The result is that $\text{den}(a_2) = \text{den}(a_3) = 9$: the Weyl multiplicity factor $3^2$ dominates.
 
 At $k = 5$, the coefficient is sufficiently complex (involving all quintic curvature invariants across the full $10$-dimensional geometry) that the Bernoulli primes can no longer be absorbed. They persist in the denominator. This is the sense in which $a_5$ "sees" all $10$ dimensions.
 
@@ -268,7 +268,9 @@ $$
 
 This is testable: it requires computing the $SO(N)$ spectrum for $Q^n$ with $n = 3, \ldots, 15$ (i.e., up to $SO(17)$) and extracting $a_6$ via the cascade method.
 
-If confirmed, the first **six** primes $\{2, 3, 5, 7, 11, 13\}$ appear by $k = 6$, and the pattern of prime accumulation continues: each new order of the heat kernel expansion potentially admits one new prime, governed by the sieve of von Staudt-Clausen.
+**UPDATE (March 20, 2026)**: This prediction has been **CONFIRMED**. Elie (Toy 273) computed $a_6(Q^5) = 363884219/1351350$ with $\text{den} = 2 \times 3^3 \times 5^2 \times 7 \times 11 \times 13$. The prime $13$ enters as predicted. All three structural theorems verified at $k = 6$.
+
+The first **six** primes $\{2, 3, 5, 7, 11, 13\}$ appear by $k = 6$, and the pattern of prime accumulation continues: each new order of the heat kernel expansion potentially admits one new prime, governed by the sieve of von Staudt-Clausen.
 
 ---
 
@@ -345,9 +347,11 @@ The primes $\{2, 3, 5, 7, 11\}$ that appear in $\text{den}(a_5(Q^5))$ are the BS
 | $7$ | $g = 2n - 3$ | Gauge coupling; long root + dim parameter | Von Staudt-Clausen: $(7-1) = 6 \mid 6$ in $B_6$ |
 | $11$ | $c_2 = \dim K - 1$ | Isotropy dimension; $\dim SO(5) + \dim SO(2) = 11$ | Von Staudt-Clausen: $(11-1) = 10 \mid 10$ in $B_{10}$ |
 
-### 8.2. Why this is not numerology
+### 8.2. The prime alignment: what it is and what it is not
 
-The identification has three independent legs:
+The alignment of Bernoulli primes $\{2, 3, 5, 7, 11\}$ with BST integers at $n = 5$ is a mathematical fact: von Staudt-Clausen determines which primes appear, and $n = 5$ happens to be the value where these primes coincide with the integers governing $SO_0(5,2)$. That this coincidence has a deeper explanation — connecting spectral geometry to particle physics — is the central claim of BST, supported by the alignment but not proved by it alone.
+
+The identification rests on three independent legs, each of which is a theorem or observation in its own domain:
 
 **Leg 1 (Number theory).** The primes in $\text{den}(B_{2k})$ are exactly those $p$ with $(p-1) \mid 2k$. Through $B_{10}$ ($k = 5$), the primes are $\{2, 3, 5, 7, 11\}$. This is the von Staudt-Clausen theorem — proved in 1840, independent of physics.
 
