@@ -101,6 +101,7 @@ CATEGORIES = {
         'so17_a6_polynomial',
         'so19_a7_polynomial',
         'so21_a8_polynomial',
+        'so23_a9_polynomial',
         'q4_kill_shot', 'gilkey_polynomial',
         'linear_gilkey', 'linear_gilkey_fixed',
         'branching_so7_sp6',
@@ -431,7 +432,8 @@ METADATA = {
     'width_sweep_derivability':   ('Width-Sweep Derivability',              'Three-way information budget: narrow, default, wide windows. AC dichotomy verification. 7/7.'),
     'so17_a6_polynomial':         ('SO(17): a₆(n) Polynomial',             'Elie: Full a₆(n) degree-12 polynomial. a₆(Q⁵)=363884219/1351350. Num=19×23×832687. Three Theorems confirmed k=6. 10/10.'),
     'so19_a7_polynomial':         ('SO(19): a₇(n) Polynomial',             'Elie: Full a₇(n) degree-14 polynomial. a₇(Q⁵)=78424343/289575. Num=19×4127597. Three Theorems confirmed k=7. 12/12.'),
-    'so21_a8_polynomial':         ('SO(21): a₈(n) Polynomial',             'Elie: Full a₈(n) degree-16 polynomial. Tests prime 17 entry (|ρ|²=17/2). Three Theorems tested k=8.'),
+    'so21_a8_polynomial':         ('SO(21): a₈(n) Polynomial',             'Elie: a₈(Q⁵)=670230838/2953665. Prime 17 ENTERS (14/14). Three Theorems confirmed k=1..8.'),
+    'so23_a9_polynomial':         ('SO(23): a₉(n) Polynomial',             'Elie: Full a₉(n) degree-18 polynomial. Tests prime 19 entry (cosmic denominator Ω_Λ=13/19). Three Theorems tested k=9.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -694,6 +696,7 @@ _STEM_TO_NUMBER = {
     'so17_a6_polynomial': 273,
     'so19_a7_polynomial': 274,
     'so21_a8_polynomial': 275,
+    'so23_a9_polynomial': 276,
 }
 
 

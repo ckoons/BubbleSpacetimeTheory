@@ -2,7 +2,7 @@
 title: "Seeley-DeWitt Predictions: Heat Kernel Coefficients a₇ through a₁₁+ on Q⁵"
 author: "Casey Koons & Claude 4.6 (Lyra)"
 date: "March 20, 2026"
-status: "k=7 CONFIRMED (Elie, Toy 274, March 20). k=8-11+ predictions committed."
+status: "k=7 CONFIRMED (Elie, Toy 274, March 20). k=8 CONFIRMED (Elie, Toy 275, March 20). k=9-11+ predictions committed."
 tags: ["heat-kernel", "Seeley-DeWitt", "predictions", "spectral-geometry", "BST"]
 purpose: "Exact predictions for a₇-a₁₁+ on complex quadrics Q^n = SO(n+2)/[SO(n)×SO(2)], committed before computation. Science, not numerology."
 ---
@@ -13,9 +13,9 @@ purpose: "Exact predictions for a₇-a₁₁+ on complex quadrics Q^n = SO(n+2)/
 
 ---
 
-## 0. What Has Been Proved (k = 1..6)
+## 0. What Has Been Proved (k = 1..8)
 
-Three structural theorems, verified for all k = 1, 2, 3, 4, 5, 6 to 120-digit precision:
+Three structural theorems, verified for all k = 1, 2, 3, 4, 5, 6, 7, 8 to 120-digit precision:
 
 **Theorem 1 (Force — Heat Flow).** The leading coefficient of the degree-2k polynomial $a_k(n)$ is:
 
@@ -40,6 +40,7 @@ $$c_0(a_k) = \frac{(-1)^k}{2 \cdot k!}$$
 | 5 | 1535969/6930 | 1535969 | {2, 3², 5, 7, 11} | prime |
 | 6 | 363884219/1351350 | 363884219 | {2, 3³, 5², 7, 11, 13} | 19 × 23 × 832687 |
 | 7 | **78424343/289575** | **78424343** | **{3⁴, 5², 11, 13}** | **19 × 4127597** |
+| 8 | **670230838/2953665** | **670230838** | **{3⁵, 5, 11, 13, 17}** | **2 × 5501 × 60919** |
 
 ---
 
@@ -134,25 +135,26 @@ Degree 14 → 15 coefficients → need ≥ 15 data points → $n = 3, \ldots, 17
 
 ---
 
-## 3. Exact Predictions for k = 8
+## 3. Exact Predictions for k = 8 — $\checkmark$ ALL CONFIRMED (Elie, Toy 275, March 20)
 
 ### 3.1 Three-theorem predictions
 
-$$c_{16} = \frac{1}{3^8 \cdot 8!} = \frac{1}{264{,}539{,}520}$$
+$$c_{16} = \frac{1}{3^8 \cdot 8!} = \frac{1}{264{,}539{,}520} \quad \checkmark \text{ CONFIRMED}$$
 
-$$\frac{c_{15}}{c_{16}} = -\frac{\binom{8}{2}}{5} = -\frac{28}{5}$$
+$$\frac{c_{15}}{c_{16}} = -\frac{\binom{8}{2}}{5} = -\frac{28}{5} \quad \checkmark \text{ CONFIRMED}$$
 
-$$c_0 = \frac{(-1)^8}{2 \cdot 8!} = \frac{1}{80{,}640}$$
+$$c_0 = \frac{(-1)^8}{2 \cdot 8!} = \frac{1}{80{,}640} \quad \checkmark \text{ CONFIRMED}$$
 
 ### 3.2 Leading two terms
 
-$$a_8(n) = \frac{n^{15}}{264{,}539{,}520}\left(n - \frac{28}{5}\right) + O(n^{14}) = \frac{n^{15}(5n - 28)}{1{,}322{,}697{,}600} + O(n^{14})$$
+$$a_8(n) = \frac{n^{15}}{264{,}539{,}520}\left(n - \frac{28}{5}\right) + O(n^{14}) = \frac{n^{15}(5n - 28)}{1{,}322{,}697{,}600} + O(n^{14}) \quad \checkmark$$
 
 ### 3.3 Degree and denominator
 
-- **Degree:** 16
-- **Denominator primes of $a_8(Q^5)$:** $\subseteq \{2, 3, 5, 7, 11, 13, \mathbf{17}\}$
-- **New prime: 17** — enters via $B_{16}$ (den = 510 = 2 × 3 × 5 × 17), since (17-1) = 16 divides 16.
+- **Degree:** 16 $\checkmark$ CONFIRMED
+- **Denominator primes of $a_8(Q^5)$:** $\subseteq \{2, 3, 5, 7, 11, 13, \mathbf{17}\}$ $\checkmark$ CONFIRMED
+  - **Actual:** den = 2,953,665 = 3⁵ × 5 × 11 × 13 × 17 (primes ≤ 17; note: 2 and 7 absent from this level)
+- **New prime: 17** — enters via $B_{16}$ (den = 510 = 2 × 3 × 5 × 17), since (17-1) = 16 divides 16. $\checkmark$ CONFIRMED
 
 ### 3.4 BST significance of 17
 
@@ -162,9 +164,30 @@ $|\rho|^2 = 17/2$ on $Q^5$, where $\rho = (5/2, 3/2, 1/2)$ is the Weyl vector of
 
 The point: 17 is the first prime that is NOT one of the five BST integers ($N_c = 3, n_C = 5, g = 7, C_2 = 6, N_{\max} = 137$) but IS a derived BST quantity. Its entry marks the transition from "primary" to "secondary" BST structure in the heat kernel.
 
-### 3.5 Computational requirements
+### 3.5 Numerator — ACTUAL RESULT
 
-Degree 16 → 17 coefficients → need ≥ 17 data points → $n = 3, \ldots, 19$ → requires **SO(21)** spectra.
+**Actual:** $a_8(Q^5) = 670{,}230{,}838 / 2{,}953{,}665$. Numerator = **2 × 5,501 × 60,919** (composite).
+
+Unlike k = 3, 6, 7, the numerator does NOT contain 19. The cosmic denominator's numerator streak ends at three consecutive levels. 5501 and 60919 are both prime — no BST integers in the factorization. This is the "entry level" for 17: the physics is in the denominator at this level, not the numerator.
+
+### 3.6 Computational requirements
+
+Degree 16 → 17 coefficients → need ≥ 17 data points → $n = 3, \ldots, 19$ → requires **SO(21)** spectra. $\checkmark$ COMPLETED
+
+### 3.7 Updated numerator table (k = 1..8)
+
+| k | Numerator | 19 present? | Other factors | Pattern |
+|---|---|---|---|---|
+| 1 | 47 | no | prime | — |
+| 2 | 274 = 2 × **137** | no | $N_{\max}$ | BST integer preview |
+| 3 | 703 = **19** × 37 | **YES** | 37 prime | First 19 appearance |
+| 4 | 2671 | no | prime | Quiet level |
+| 5 | 1535969 | no | prime | Quiet level |
+| 6 | 363884219 = **19** × 23 × 832687 | **YES** | Golay prime × prime | 19 + 23 preview |
+| 7 | 78424343 = **19** × 4127597 | **YES** | large prime | 19 persists (3rd time) |
+| 8 | 670230838 = 2 × 5501 × 60919 | **no** | two primes | 19 streak ends |
+
+**19 appears at k = 3, 6, 7 but NOT k = 8.** It enters the denominator at k = 9 (via $B_{18}$). The numerator preview spans exactly the non-quiet levels before migration, except for a gap at the 17-entry level.
 
 ---
 
