@@ -186,16 +186,85 @@ def extract_from_precomputed(fs, ts, vol, known_exact, target_k):
 # RATIONAL IDENTIFICATION & INTERPOLATION
 # ═══════════════════════════════════════════════════════════════════
 
+def _cf_convergents(frac, max_den=10**12):
+    """Yield ALL convergents AND semi-convergents of the CF for frac.
+
+    Each is a Fraction. Stops when denominator exceeds max_den.
+    Semi-convergents between h_{k-1}/k_{k-1} and h_k/k_k are:
+        (m*h_{k-1} + h_{k-2}) / (m*k_{k-1} + k_{k-2})  for m = 1..a_k-1
+    These can have different prime factorizations from the convergents.
+    """
+    x = frac
+    h_prev, h_curr = Fraction(0), Fraction(1)
+    k_prev, k_curr = Fraction(1), Fraction(0)
+    for _ in range(500):  # safety bound
+        if x.denominator == 0:
+            break
+        a = x.numerator // x.denominator
+
+        # Save pre-update values for semi-convergent generation
+        h_pp, h_p = h_prev, h_curr
+        k_pp, k_p = k_prev, k_curr
+
+        h_prev, h_curr = h_curr, a * h_curr + h_prev
+        k_prev, k_curr = k_curr, a * k_curr + k_prev
+
+        if k_curr > max_den:
+            # Yield semi-convergents that fit within max_den
+            for m in range(1, int(a) + 1):
+                sk = m * k_p + k_pp
+                if sk > max_den:
+                    break
+                sh = m * h_p + h_pp
+                yield Fraction(int(sh), int(sk))
+            break
+
+        # Yield semi-convergents before the full convergent
+        if a > 1:
+            for m in range(1, int(a)):
+                sk = m * k_p + k_pp
+                sh = m * h_p + h_pp
+                yield Fraction(int(sh), int(sk))
+
+        yield Fraction(int(h_curr), int(k_curr))
+        remainder = x - a
+        if remainder == 0:
+            break
+        x = Fraction(1, 1) / remainder
+
+
 def identify_rational_cf(x_mpf, max_den=500000000, tol=1e-14, max_prime=None):
-    """Fast rational identification using continued fractions + denominator check."""
+    """Rational identification: enumerate ALL convergents, filter by prime bound.
+
+    Unlike limit_denominator (which returns only the BEST approximation ≤ max_den),
+    this checks EVERY convergent of the CF expansion. A convergent with small
+    denominator and good primes may be a worse approximation than one with bad primes,
+    but it's the CORRECT identification when we know the prime bound.
+    """
     x_str = mpmath.nstr(x_mpf, 50, strip_zeros=False)
     try:
         x_frac_exact = Fraction(x_str)
     except (ValueError, ZeroDivisionError):
         return None, float('inf')
+
     best = None
     best_err = float('inf')
-    for md in [max_den, max_den // 10, max_den // 100]:
+
+    # Strategy 1: Enumerate all convergents, check prime filter
+    for conv in _cf_convergents(x_frac_exact, max_den=max_den * 10):
+        if conv.denominator > max_den * 10:
+            break
+        err = abs(float(x_frac_exact - conv))
+        if err < tol and err < best_err:
+            if max_prime:
+                den_factors = factor(conv.denominator)
+                if den_factors and max(den_factors) > max_prime:
+                    continue  # bad primes, but keep looking
+            best = conv
+            best_err = err
+
+    # Strategy 2: Also try limit_denominator at several scales (catches mediants)
+    for md in [max_den, max_den // 10, max_den // 100, max_den * 10]:
         if md < 1:
             continue
         cand = x_frac_exact.limit_denominator(md)
@@ -207,6 +276,7 @@ def identify_rational_cf(x_mpf, max_den=500000000, tol=1e-14, max_prime=None):
                     continue
             best = cand
             best_err = err
+
     return best, best_err
 
 
@@ -565,13 +635,13 @@ def main():
         a7, a7_err = extract_from_precomputed(precomp[n], ts, volumes[n], known, 7)
         a7_vals[n] = (a7, a7_err)
 
-        frac_cf, _ = identify_rational_cf(a7, max_den=500000000,
+        frac_cf, _ = identify_rational_cf(a7, max_den=2000000000,
                                            tol=1e-10, max_prime=A7_MAX_PRIME)
         if frac_cf:
             a7_rats[n] = frac_cf
             a7_clean[n] = frac_cf
         else:
-            frac_any, _ = identify_rational_cf(a7, max_den=500000000, tol=1e-10)
+            frac_any, _ = identify_rational_cf(a7, max_den=2000000000, tol=1e-10)
             if frac_any:
                 a7_rats[n] = frac_any
 
@@ -622,13 +692,14 @@ def main():
         a8_vals[n] = (a8, a8_err)
 
         # CF identification with denominator sanity (primes ≤ 17)
-        frac_cf, _ = identify_rational_cf(a8, max_den=500000000,
+        # max_den=5B because a₈ denominators can be very large (LCM ~ trillions)
+        frac_cf, _ = identify_rational_cf(a8, max_den=5000000000,
                                            tol=1e-9, max_prime=A8_MAX_PRIME)
         if frac_cf:
             a8_rats[n] = frac_cf
             a8_clean[n] = frac_cf
         else:
-            frac_any, _ = identify_rational_cf(a8, max_den=500000000, tol=1e-9)
+            frac_any, _ = identify_rational_cf(a8, max_den=5000000000, tol=1e-9)
             if frac_any:
                 a8_rats[n] = frac_any
 
@@ -747,7 +818,7 @@ def main():
     # Test 8: a₈ clean rationals
     score(f"a₈ clean rationals: ≥14 of 17",
           n8_clean >= 14,
-          f"{n8_clean}/17 clean (primes ≤ {A8_MAX_PRIME}), max_den=500M")
+          f"{n8_clean}/17 clean (primes ≤ {A8_MAX_PRIME}), max_den=5B")
 
     # Test 9: Polynomial degree
     if a8_poly:

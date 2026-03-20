@@ -123,7 +123,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Magic numbers | HO + BST spin-orbit: 2,8,20,28,50,82,126 | all 7 | all 7 observed | exact |
 | α_s(m_Z) (geometric β) | Bergman kernel c₁=C₂/(2n_C)=3/5 | 0.1175 | 0.1179 (PDG) | 0.34% |
 | Tsirelson bound (holo.) | 2√2 from H⁰(O(1)) on CP¹ | 2.828 | 2.828 (exact) | exact |
-| |m_ββ| (0νββ) | 0 (Dirac neutrinos, Hopf h=1) | 0 | — | exact prediction |
+| $\lvert m_{\beta\beta}\rvert$ (0νββ) | 0 (Dirac neutrinos, Hopf h=1) | 0 | — | exact prediction |
 | GW peak frequency | BST phase transition at 3.1 s | 6.4 nHz | NANOGrav ~nHz band | consistent |
 | GW spectral index γ | g/n_C = 7/5 = 1.4 → γ=13/5+1=3.60 | 3.60 | NANOGrav ~3.2–4.6 | consistent |
 | α_s (spectral running) | −(n_s−1)² = −25/18769 | −0.00133 | −0.0045±0.0067 | 0.5σ |
@@ -157,13 +157,11 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Γ_ρ (ρ meson width) | f × m_ρ = 3π⁴mₑ; fill fraction = 3/(5π) | 149.3 MeV | 149.1±0.8 MeV | **0.15%** |
 | Γ_φ (φ meson width) | m_φ/(2×5!) = m_φ/240; OZI suppression = 1/n_C! | 4.248 MeV | 4.249±0.013 MeV | **0.02%** |
 | Γ_ρ/Γ_φ (width ratio) | n_C × g = 5 × 7 = 35 | 35.0 | 35.09 | 0.26% |
-
 | B_α (⁴He binding) | (N_c+2n_C)·αm_p/π = 13·B_d | 28.333 MeV | 28.296 MeV | 0.13% |
 | ℓ₁ (CMB 1st peak) | BST geometry, zero params | 222 | 220 (Planck) | 1.0% |
 | Ω_b h² (baryon density) | BST geometry | 0.02198 | 0.02237 (Planck) | 1.7% |
 | Δt_echo (BH echo delay) | N_max·r_s/c = 137·2GM/c³ | 1.352 ms/M☉ | — | prediction |
 | ν_21cm (hyperfine) | BST μ_p=14/5 | 1425 MHz | 1420.4 MHz | 0.3% |
-
 | J/ψ − η_c hyperfine | (c₃/18)·π⁵mₑ = (13/18)π⁵mₑ | 112.94 MeV | 113.0±0.4 MeV | **0.055%** |
 | Υ − η_b hyperfine | (c₃/33)·π⁵mₑ = (13/33)π⁵mₑ | 61.60 MeV | 61.6±2.0 MeV | **0.004%** |
 | B* − B hyperfine | (c₃/45)·π⁵mₑ = (13/45)π⁵mₑ | 45.18 MeV | 45.37±0.21 MeV | 0.42% |
@@ -201,7 +199,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | D² = 28 perfect number | 28 = 2²(2³-1); quantum dim² is perfect | 1+2+4+7+14 = 28 | 28 | exact |
 | Mersenne exponents = BST | p = 2,3,5 = r,N_c,n_C; first 3 primes | Perfect(k) = 2^{p_k-1}(2^{p_k}-1) | — | structural |
 
-**200+ quantities spanning 122 orders of magnitude from the same geometry. Zero inputs. This is not fitting.**
+**153+ quantities spanning 122 orders of magnitude from the same geometry. Zero inputs. This is not fitting.**
 
 ---
 
@@ -344,7 +342,7 @@ Full derivations: WorkingPaper §1-33, plus 237 research notes in `notes/`.
 - Proton radius hierarchy: r_p(τ) < r_p(μ) < r_p(e) — MUSE, PRad-II
 - Dark energy w ≠ −1 — DESI, Euclid
 - Island of stability at Z=114 — superheavy element experiments
-- No neutrinoless double beta decay (0νββ) at any scale — Dirac neutrinos, |m_ββ| = 0 exactly — nEXO, LEGEND-1000
+- No neutrinoless double beta decay (0νββ) at any scale — Dirac neutrinos, $\lvert m_{\beta\beta}\rvert$ = 0 exactly — nEXO, LEGEND-1000
 - Proton spin ΔΣ = 0.30 ± precision — JLab 12 GeV, EIC
 - One GW ring at 3.1 seconds → f_peak ≈ 6.4 nHz — NANOGrav, EPTA, IPTA
 - No GW signal before 6.4 nHz (pre-spatial silence) — PTA experiments
