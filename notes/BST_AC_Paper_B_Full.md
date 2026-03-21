@@ -137,6 +137,21 @@ This is BST's information budget applied to computation. The universe has the sa
 
 The universe has $I_{\text{fiat}} = 0$ because it IS the geometry. Computational problems have $I_{\text{fiat}} > 0$ because they are DESCRIPTIONS of geometric objects — and descriptions are always lossy.
 
+#### 6.1a AC is AC(0): The Self-Consistency Theorem
+
+The Algebraic Complexity framework is itself an AC(0) theory. It classifies problems using Shannon theory, topology, and Euler characteristic — all derivable, zero free parameters. The recovery table reproduces 14 known results with the same constants, adding no information. AC is a coordinate transformation that makes complexity readable, not a computation with hidden inputs.
+
+This self-consistency is necessary, not accidental. A framework with $I_{\text{fiat}} > 0$ would have a blind spot — hidden assumptions that correlate with the hidden structure of the problems it classifies. Only an AC(0) framework can correctly see the P/NP boundary. Any internal fiat would create systematic bias at precisely the point where the classification matters most.
+
+The parallel to BST is exact:
+- BST derives physics from $D_{IV}^5$ with zero free parameters → AC(0) theory of physics
+- AC derives complexity classification from Shannon + topology with zero free parameters → AC(0) theory of computation
+- Both are coordinate transformations: the right basis in which the answer is readable
+
+And the deeper point: **an AC(0) theory is the only kind that CAN correctly classify P vs NP.** Just as a proof system with $\text{AC}(Q, M) > 0$ cannot efficiently solve $Q$ (it lacks channel capacity), a classification framework with internal fiat cannot correctly see the boundary (it lacks resolution). AC works because it has nothing to hide.
+
+This is the computational analogue of Wigner's "unreasonable effectiveness": mathematics classifies physics effectively because both are AC(0) — zero-fiat coordinate transformations of one underlying geometry. AC classifies computation effectively for the same reason. There is only one geometry, and its self-description has zero fiat.
+
 #### 6.2 The AC Program: 29 Results
 
 The full Algebraic Complexity program has produced 29 results:

@@ -346,15 +346,27 @@ The three-layer argument is consistent with the existing landscape:
 
 - **Razborov-Rudich natural proofs (1997):** Our approach does not construct a "useful" property of Boolean functions. The topological invariants ($\beta_1$, $H_1$ basis) are properties of the *formula description* (size $O(n \log n)$), not the *truth table* (size $2^n$). Moreover, they apply specifically to random 3-SAT at threshold, not to "most" functions. Neither the largeness nor the constructivity condition of Razborov-Rudich is satisfied.
 
-### 7.4 What Would Close Layer 3
+### 7.4 The Shannon Independence Path
 
-A proof that $\text{Aut}(\varphi) = \{e\}$ implies no useful algebraic structure for EF would close the argument. Concretely, one would need to show:
+The three-layer argument can be sharpened via a Shannon independence argument. Topological inertness (Theorem 6.1) establishes that the $H_1$ generators $\gamma_1, \ldots, \gamma_{\beta_1}$ are topologically independent — they live in orthogonal homological subspaces. If this topological independence implies algebraic independence of the cycle solutions:
 
-(a) Every polynomial-size EF extension that is useful for refutation must encode an algebraic operation (group action, linear map, etc.) on the variable space.
+$$I(\text{sol}(\gamma_i); \text{sol}(\gamma_j)) = 0 \quad \text{for } i \neq j$$
 
-(b) For formulas with trivial automorphism group, no such algebraic operation exists that reduces the fiat content by more than $O(\log n)$ bits.
+then the joint search is a product of $\beta_1 = \Theta(n)$ independent searches, giving $2^{\Theta(n)}$ total work by Shannon's source coding theorem.
 
-This would give: EF on random 3-SAT $\leq$ resolution + $O(\log n)$ algebraic reductions $\leq 2^{\Omega(n)}$.
+**Conjecture 7.2 (Algebraic Independence).** For random 3-SAT at $\alpha_c$ with $\text{Aut}(\varphi) = \{e\}$: topological independence of $H_1$ generators implies algebraic independence of their solution spaces.
+
+The PHP counterexample shows this requires $\text{Aut}(\varphi) = \{e\}$: PHP has topologically independent cycles but algebraically correlated solutions, because the $S_n$ symmetry group creates a global counting function that correlates all cycles simultaneously. Without symmetry, no such correlation mechanism is known to exist.
+
+### 7.5 What Would Close Layer 3
+
+Two equivalent formulations:
+
+**(A) Algebraic independence.** Prove Conjecture 7.2. Then: $\Theta(n)$ independent searches $\to$ $\prod |\text{search}(\gamma_i)| = 2^{\Theta(n)}$ $\to$ MIFC $\to$ P $\neq$ NP.
+
+**(B) Symmetry characterization.** Prove that every polynomial-size EF proof on a formula $\varphi$ with $\beta_1 = \Theta(n)$ requires $\text{Aut}(\varphi) \neq \{e\}$ — that is, symmetry is a necessary condition for EF efficiency when the topology is complex.
+
+Either formulation would give: EF on random 3-SAT requires $2^{\Omega(n)}$.
 
 ---
 
@@ -391,7 +403,17 @@ The main results:
 3. **Inertness:** The original $H_1$ basis is preserved under extensions (Theorem 6.1).
 4. **Unconditional polynomial EF lower bound:** $S \geq \Theta(n)$ (Corollary 5.2).
 
-The remaining question — whether trivial automorphism group implies no useful algebraic structure for EF — is identified as the sole gap. We regard this as a question about the computational power of symmetry: can computation exploit structure that isn't there?
+The remaining question — whether topological independence of $H_1$ generators implies algebraic independence of cycle solutions when $\text{Aut}(\varphi) = \{e\}$ — is identified as the sole gap. If topological independence implies algebraic independence, the exponential follows from Shannon: $\Theta(n)$ independent searches with zero mutual information give $2^{\Theta(n)}$ total work. We regard this as a question about the computational power of symmetry: every known EF shortcut exploits symmetry ($S_n$ for PHP, GF(2) for Tseitin). Is symmetry the only mechanism?
+
+### 9.1 Remark: AC is AC(0)
+
+We observe that the Algebraic Complexity framework is self-consistent in a precise sense: the framework itself operates at $\text{AC} = 0$.
+
+AC classifies computational problems by their fiat content $I_{\text{fiat}}$, using three tools: Shannon information theory (channel capacity), simplicial topology ($\beta_1$, homology), and Euler characteristic. Each tool is derivable — no free parameters, no hidden assumptions, no "fiat" within the classification itself. The recovery table (§8) reproduces 14 known theorems from the literature with the same constants, adding no information beyond what the original proofs contain. This is a coordinate transformation — a change of basis that makes the landscape readable — not a computation with hidden inputs.
+
+This self-consistency is not incidental. A framework with $I_{\text{fiat}} > 0$ — one that required unjustified assumptions or hidden parameters to classify problems — would have a blind spot at precisely the complexity boundary it attempts to characterize. Only a zero-fiat framework can correctly see the full P/NP landscape, because any hidden information in the framework would correlate with the hidden information in the problems, creating a systematic bias.
+
+The analogy is exact: a proof system with $\text{AC}(Q, M) > 0$ cannot efficiently solve $Q$ because it lacks the channel capacity to transmit the fiat bits. A classification framework with internal fiat cannot correctly classify the P/NP boundary because it lacks the resolution to see where the boundary lies. AC classifies at $\text{AC} = 0$ because it must — and the fact that it can is itself evidence that the classification is correct.
 
 ---
 

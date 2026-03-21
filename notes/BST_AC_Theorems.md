@@ -52,6 +52,12 @@ AC = 0 when the method's capacity matches or exceeds the fiat gap.
 
 $$I_{\text{fiat}}(\Gamma) = \sup_{\varphi \in \text{CSP}(\Gamma)} I_{\text{fiat}}(\varphi) / n$$
 
+### Remark: AC is AC(0)
+
+The AC framework itself operates at $\text{AC} = 0$. It classifies computational problems using Shannon information theory, simplicial topology ($\beta_1$, homology), and Euler characteristic — all derivable tools with zero free parameters. The recovery table (§27) reproduces 14 known theorems with the same constants, adding no hidden information. AC is a coordinate transformation that makes the complexity landscape readable, not a computation with fiat inputs.
+
+This self-consistency is necessary: a framework with $I_{\text{fiat}} > 0$ would have a blind spot at precisely the P/NP boundary. Only an AC(0) framework can correctly classify the full landscape, because any internal fiat would correlate with the fiat it attempts to measure. AC classifies at AC(0) because it must — and the fact that it can is evidence that the classification is correct.
+
 ---
 
 ## 2. Theorem 1: AC Dichotomy
@@ -1254,7 +1260,44 @@ For $k$-clause extensions: an old cycle $\gamma$ becomes a boundary only if the 
 
 ---
 
-## 34. Updated Status Summary
+## 34. Theorem 29: Algebraic Independence of Cycle Solutions (Conditional)
+
+*Source: Elie's reframe of Keeper's halting reduction, March 21 Socratic dialogue. The cleanest formulation of the remaining gap.*
+
+**Theorem 29 (Algebraic Independence — conditional).** For random 3-SAT at $\alpha_c$ with $n$ variables, $\text{Aut}(\varphi) = \{e\}$ w.h.p., and topologically independent $H_1$ generators $\gamma_1, \ldots, \gamma_{\beta_1}$ of the VIG clique complex $K(\varphi)$:
+
+$$I(\text{sol}(\gamma_i); \text{sol}(\gamma_j)) = 0 \quad \text{for } i \neq j$$
+
+where $\text{sol}(\gamma_i)$ denotes the restriction of satisfying assignments to the variables of $\gamma_i$.
+
+**Consequence.** If T29 holds, then the joint search over all cycle solutions is a product of $\beta_1 = \Theta(n)$ independent searches. By Shannon's source coding theorem:
+
+$$\text{Total work} = \prod_{i=1}^{\beta_1} |\text{search}(\gamma_i)| = \exp\left(\sum_i \log|\text{search}(\gamma_i)|\right) = 2^{\Theta(n)}$$
+
+This is AC(0) — the simplest possible information-theoretic lower bound. MIFC follows. P $\neq$ NP follows.
+
+**Why this is not circular (Elie's key observation).** The halting reduction (Keeper) assumed "brute enumeration is the only path," which presupposes P $\neq$ NP. The independence argument (Elie) derives the exponential from MEASURED topological independence ($r \approx 1$, T28) plus the algebraic independence claim (T29). The product of independent searches is multiplicative by Shannon — no circularity.
+
+**The PHP counterexample.** PHP has topologically independent cycles ($\beta_1 = \Theta(n)$) BUT algebraically correlated solutions. The counting function $f(x) = |\{i : x_i = 1\}|$ creates global algebraic correlation through the $S_n$ symmetry group. EF extensions encoding this function collapse all cycles simultaneously in $O(n^3)$.
+
+This shows T29 REQUIRES $\text{Aut}(\varphi) = \{e\}$. Topological independence alone doesn't imply algebraic independence when symmetry is present.
+
+**Why trivial automorphism should suffice.** Every known example of EF efficiency uses symmetry:
+- PHP: $S_n$ → counting
+- Tseitin: GF(2) → parity
+- Circuit lower bounds: monotone → switching
+
+No example exists where EF achieves polynomial size on a formula with trivial automorphism group. The conjecture: **symmetry is the ONLY mechanism for algebraic correlation between topologically independent cycle solutions.**
+
+**Status:** OPEN — this is THE remaining gap. If proved: P $\neq$ NP. If refuted (by exhibiting a polynomial EF proof on random 3-SAT): P = NP for random instances.
+
+**Measurability.** $I(\text{sol}(\gamma_i); \text{sol}(\gamma_j))$ is computable for small $n$. A Toy 282 could measure it directly: sample random 3-SAT, compute $H_1$ generators, enumerate solutions restricted to each cycle's variables, measure pairwise mutual information. If $I \to 0$ as $n \to \infty$: empirical support for T29.
+
+**Traditional counterpart:** Closest analogue is the independence assumption in random CSP analysis (Achlioptas-Coja-Oghlan 2008). **AC adds:** the independence is topologically grounded ($r \approx 1$) and the algebraic gap is precisely identified (symmetry vs. no symmetry).
+
+---
+
+## 35. Updated Status Summary
 
 | # | Theorem | Status | Type | Key result |
 |---|---|---|---|---|
@@ -1287,10 +1330,11 @@ For $k$-clause extensions: an old cycle $\gamma$ becomes a boundary only if the 
 | **26** | **Proof Instability** | **FAILED** (geometric); **OPEN** (algebraic) | **New** | Geometric $c \to 0$ (Toy 279); weak force direction open |
 | **27** | **Weak Homological Monotonicity** | **Proved** | **New** | $\Delta\beta_1 \in \{0, +1\}$; extensions never shrink topology |
 | **28** | **Topological Inertness** | **Proved** | **New** | $r = 1$; extensions don't interact with original $H_1$ (Toy 281) |
+| **29** | **Algebraic Independence** | **OPEN** (conditional) | **New** | $I(\text{sol}(\gamma_i); \text{sol}(\gamma_j)) = 0$ when $\text{Aut} = \{e\}$; if proved → P $\neq$ NP |
 
 ### Counts
 
-**Total: 29 results.** 24 proved, 1 empirical, 1 measured, 1 proved+measured, 1 conjecture, 1 failed/open.
+**Total: 30 results.** 24 proved, 1 empirical, 1 measured, 1 proved+measured, 1 conjecture, 1 failed/open, 1 open (conditional).
 
 | Category | Count | Theorems |
 |---|---|---|
@@ -1345,7 +1389,7 @@ For $k$-clause extensions: an old cycle $\gamma$ becomes a boundary only if the 
 | ~~Linking cascade $c \geq 1/2$~~ | **FAILED** (geometric, Toy 279) | T26 — $c_{\text{geometric}} \to 0$; strong force doesn't fire |
 | Weak monotonicity ($\Delta\beta_1 \geq 0$) | $\checkmark$ | T27 — extensions never shrink $\beta_1$ (Toy 280, proved) |
 | Topological inertness ($r = 1$) | $\checkmark$ | T28 — extensions don't interact with original $H_1$ (Toy 281) |
-| Algebraic back door (random 3-SAT) | **THE GAP** | Layer 3: $\text{Aut}(\varphi) = \{e\}$ → no algebraic structure for EF to exploit? |
+| Algebraic independence of cycle solutions | **THE GAP** | T29: $\text{Aut}(\varphi) = \{e\}$ + topological independence → algebraic independence → $2^{\Theta(n)}$? |
 
 ---
 
