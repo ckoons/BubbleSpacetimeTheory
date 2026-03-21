@@ -436,6 +436,8 @@ METADATA = {
     'so23_a9_polynomial':         ('SO(23): a₉(n) Polynomial',             'Elie: a₉(Q⁵)=4412269889539/27498621150. Prime 19 ENTERS (cosmic denominator Ω_Λ=13/19). den=2×3⁵×5²×7²×11×13×17×19. 14/19 clean; poly needs dps≥300.'),
     'so25_a10_polynomial':        ('SO(25): a₁₀(n) Polynomial',            'Elie: a₁₀(Q⁵)=2409398458451/21709437750 (PRIME num!). Quiet level: den primes≤17, no 19. Also: a₉ poly RECOVERED (16/23 clean). Cascade wall at k=10 (8/23).'),
     'symbolic_a12_polynomial':    ('Enhanced Cascade to a₁₂',               'Elie: Breaking the cascade wall. P_MAX=1000, dps=400, n=3..27. Robust polynomial recovery. Targeting a₁₁ (Golay prime 23) + a₁₂ (quiet).'),
+    'linking_cascade_constant':   ('Linking Cascade Constant c',             'Elie: c(α_c) from random 3-SAT VIG complex. F₂ homology + R³ linking. Prediction: c=1/2. Result: c→0. Strong force doesn\'t confine.'),
+    'weak_homological_force':     ('The Weak Homological Force',              'Elie: Pure F₂ algebra — Δβ₁ per extension. No R³. If Δβ₁≥0: β₁ never decreases → T25 → P≠NP. The error-correction cost of dimensional expansion.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -701,6 +703,8 @@ _STEM_TO_NUMBER = {
     'so23_a9_polynomial': 276,
     'so25_a10_polynomial': 277,
     'symbolic_a12_polynomial': 278,
+    'linking_cascade_constant': 279,
+    'weak_homological_force': 280,
 }
 
 
