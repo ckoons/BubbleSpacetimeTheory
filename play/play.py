@@ -435,6 +435,7 @@ METADATA = {
     'so21_a8_polynomial':         ('SO(21): a₈(n) Polynomial',             'Elie: a₈(Q⁵)=670230838/2953665. Prime 17 ENTERS (14/14). Three Theorems confirmed k=1..8.'),
     'so23_a9_polynomial':         ('SO(23): a₉(n) Polynomial',             'Elie: a₉(Q⁵)=4412269889539/27498621150. Prime 19 ENTERS (cosmic denominator Ω_Λ=13/19). den=2×3⁵×5²×7²×11×13×17×19. 14/19 clean; poly needs dps≥300.'),
     'so25_a10_polynomial':        ('SO(25): a₁₀(n) Polynomial',            'Elie: a₁₀(Q⁵)=2409398458451/21709437750 (PRIME num!). Quiet level: den primes≤17, no 19. Also: a₉ poly RECOVERED (16/23 clean). Cascade wall at k=10 (8/23).'),
+    'symbolic_a12_polynomial':    ('Enhanced Cascade to a₁₂',               'Elie: Breaking the cascade wall. P_MAX=1000, dps=400, n=3..27. Robust polynomial recovery. Targeting a₁₁ (Golay prime 23) + a₁₂ (quiet).'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -699,6 +700,7 @@ _STEM_TO_NUMBER = {
     'so21_a8_polynomial': 275,
     'so23_a9_polynomial': 276,
     'so25_a10_polynomial': 277,
+    'symbolic_a12_polynomial': 278,
 }
 
 
