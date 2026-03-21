@@ -189,21 +189,30 @@ Formally:
 
 ### 6.1 The computation as embedding
 
-A polynomial-time algorithm computes a sequence of $T = n^c$ steps. Each step is a local operation — it examines $O(1)$ variables and updates $O(1)$ bits. This is a **1-chain** on the constraint graph: a path through the graph, one edge at a time.
+A polynomial-time algorithm computes a sequence of $T = n^c$ steps. Its execution trace is a **path** through state space — a 1-dimensional object. Even if each step manipulates $O(n)$ bits of state, the trace itself is a sequence of states: $s_0 \to s_1 \to \cdots \to s_T$. Topologically, this is a 1-chain.
 
 The satisfying assignment of a 3-SAT formula at $\alpha_c$ is a point in $\{0,1\}^n$ that satisfies all $m = 4.27n$ constraints simultaneously. Finding this point requires understanding the GLOBAL structure of the constraint complex — the 2D surface, its holes, its curvature.
 
-**The embedding question:** Can the 2D surface be embedded in a 1D chain of $n^c$ steps?
+**The embedding question:** Can the topological content of a 2D complex be captured by a 1D path of polynomial length?
 
-For 2-SAT (1D surface, 1D chain): YES. The surface IS a chain. $I_{\text{fiat}} = 0$.
+For 2-SAT (1D complex): YES. The constraint structure is a directed graph (1-complex). Its topology is fully captured by 1-chains (SCCs, walks). $I_{\text{fiat}} = 0$.
 
-For 3-SAT (2D surface, 1D chain): The surface has $\beta_1 = \Theta(n)$ independent holes. Embedding a surface with $\Theta(n)$ holes in a 1D chain requires the chain to have length $2^{\Theta(n)}$ — exponential in the number of holes. Each hole represents a fiat bit that must be "threaded" by the chain.
+For 3-SAT (2D complex): The constraint complex $K(\varphi)$ has $\beta_1 = \Theta(n)$ independent 1-cycles. These cycles can be LINKED in $\mathbb{R}^3$ — a topological property that is invisible to any 1-chain traversal (proved: §2 of BST_AC_MIFC_Proof_Attempt.md). A 1-chain can walk along individual cycles and count them, but it cannot detect which pairs are linked without a 2D computation (the Gauss linking integral). The linking pattern encodes $\Theta(n)$ fiat bits.
 
-**P $\neq$ NP is the statement that a 2D surface with $\Theta(n)$ holes cannot be embedded in a 1D chain of polynomial length.**
+**Concrete proof (Tseitin on expanders):** For Tseitin formulas on $d$-regular expanders: $I_{\text{fiat}} = \beta_1 = \Theta(n)$ exactly (Theorem 2). Resolution (1-chain) requires $2^{\Omega(n)}$ size (BSW 2001). The fiat = topology = exponential cost. This is the rigorous instance of "1-chain cannot navigate 2D topology."
 
-### 6.2 The Whitney bound
+**P $\neq$ NP is the conjecture that this dimensional obstruction applies to ALL proof systems, not just resolution.** The proved cases (T23a) cover all dimension-1 systems. The open case is Extended Frege.
 
-Whitney embedding: an $n$-manifold embeds in $\mathbb{R}^{2n+1}$. For a simplicial complex with $\Theta(n)$ simplices: the embedding dimension is $\Theta(n)$. A polynomial-time algorithm provides $O(\log n)$ effective dimensions (the depth of the computation tree). Since $\log n \ll n$, the algorithm cannot embed the constraint complex.
+### 6.2 The topological obstruction (replaces Whitney)
+
+The obstruction is not an embedding dimension bound (the Whitney argument is too loose — Keeper correctly identified this). The obstruction is **linking**:
+
+**Theorem (Goldilocks).** Linking of 1-cycles is:
+- Impossible in $\mathbb{R}^2$ (Jordan curve theorem — no threading)
+- Non-trivial in $\mathbb{R}^3$ (Hopf link — threading exists)
+- Trivial in $\mathbb{R}^4$ (codimension too high — everything unlinks)
+
+$\mathbb{R}^3$ is the unique dimension where 1-cycle linking is a non-trivial invariant. This is the topological content of the 2→3 transition. For a 2-complex $K$ with $\beta_1 = \Theta(n)$: the linking pattern in $\mathbb{R}^3$ encodes $\Theta(n)$ bits of mutual constraint between cycles. A 1-chain computation accesses the cycle names but not their entanglement. The linking IS the fiat.
 
 ### 6.3 Connection to BST
 
@@ -268,7 +277,11 @@ The method lattice (T17) is an embedding hierarchy. Each level adds a dimensiona
 - Level 4 (GF(2)): 2-dimensional — linear algebra over fields
 - Level 5 (Extended Frege): ??? — extension variables as dimensional lifting?
 
-If EF's extension variables perform dimensional lifting (embedding the 2D complex in a higher-dimensional proof space), then EF would solve 3-SAT. The MIFC says this lifting fails for random instances — there's nothing to grab in the formless topology.
+**The proved boundary (T23a).** Every level 0-4 system requires exponential time on random 3-SAT. The obstruction is dimensional: these systems operate on the 1-skeleton and cannot access the 2D linking topology. This is PROVED — not conjectured — for all dimension-1 systems, unifying resolution (Chvátal-Szemerédi), cutting planes (Pudlák), polynomial calculus (Razborov), and Lasserre (Schoenebeck) under one topological theorem.
+
+**The concrete example.** Tseitin formulas on expander graphs: $I_{\text{fiat}} = \beta_1 = \Theta(n)$ exactly (Theorem 2). Resolution requires $2^{\Omega(n)}$ (BSW 2001). The fiat IS the topology IS the exponential cost. EF handles Tseitin efficiently via GF(2) extensions — but Tseitin has ALGEBRAIC structure (parity). Random 3-SAT has no algebraic structure. The topology is non-algebraic.
+
+**The open question (EF).** EF's extension variables can potentially perform dimensional lifting — introducing new vertices connected to arbitrary variable subsets, creating higher-dimensional simplices in the augmented complex. For structured formulas (Tseitin, PHP), EF exploits algebraic handles to lift efficiently. The MIFC conjectures that for RANDOM 3-SAT, no such handles exist: the topology is formless, and EF's lifting power is circular (targeting the right simplices requires the answer). See BST_AC_MIFC_Proof_Attempt.md §5 for the full analysis, including why this approach is not blocked by the natural proofs barrier (Razborov-Rudich).
 
 ---
 

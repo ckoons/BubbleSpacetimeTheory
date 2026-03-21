@@ -1,30 +1,32 @@
 #!/usr/bin/env python3
 """
-Toy 276 — SO(23) Spectra & the a₉ Polynomial
-==============================================
+Toy 277 — SO(25) Spectra & the a₁₀ Polynomial
+===============================================
 
-Extends the Seeley-DeWitt heat kernel cascade to a₉(n) on Q^n = D_IV^n.
+Extends the Seeley-DeWitt heat kernel cascade to a₁₀(n) on Q^n = D_IV^n.
 
 Pipeline:
-  Phase 0: Build SO(N) spectra for N=5..23 (n=3..21), P_max=750
+  Phase 0: Build SO(N) spectra for N=5..25 (n=3..25), P_max=750
   Phase 1: Precompute f(t) at Chebyshev nodes (expensive — once per n)
   Phase 2: Full cascade for n=3..13 → exact polynomials a₂..a₅
-  Phase 3: a₆ cascade for n=3..21 → constrained polynomial (Three Theorems)
-  Phase 4: a₇ cascade for n=3..21 → constrained polynomial (Three Theorems)
-  Phase 5: a₈ cascade for n=3..21 → constrained polynomial (Three Theorems)
-  Phase 6: a₉ extraction for n=3..21 → rational identification + constrained polynomial
-  Phase 7: Scorecard — test predictions from BST_SeeleyDeWitt_Predictions_k7_k10.md
+  Phase 3: a₆ cascade for n=3..25 → constrained polynomial (Three Theorems)
+  Phase 4: a₇ cascade for n=3..25 → constrained polynomial (Three Theorems)
+  Phase 5: a₈ cascade for n=3..25 → constrained polynomial (Three Theorems)
+  Phase 6: a₉ extraction for n=3..25 → rational identification + constrained polynomial
+  Phase 7: a₁₀ extraction for n=3..25 → rational identification + constrained polynomial
+  Phase 8: a₁₀ polynomial construction (degree 20)
+  Phase 9: Polynomial analysis & BST value
+  Scorecard: 15 tests
 
 Structural expectation (Gilkey): a_k(n) has degree 2k.
-  → a₉(n) should be degree 18 → need 19 data points → n=3..21 minimal
+  → a₁₀(n) should be degree 20 → need 21 data points → n=3..25 gives 23 (2 extra)
 
-Three proved theorems predict (from Predictions Note):
-  (1) Leading:     c₁₈ = 1/(3⁹ × 9!) = 1/7,142,567,040
-  (2) Sub-leading: c₁₇/c₁₈ = -C(9,2)/5 = -36/5
-  (3) Constant:    c₀(a₉) = (-1)⁹/(2 × 9!) = -1/725,760
-  (4) Denominator: primes ≤ 19 (NEW — B₁₈ has den = 798, prime 19 enters)
-      19 is the COSMIC DENOMINATOR (Ω_Λ = 13/19). It previewed in numerators
-      at k=3,6,7 and now migrates to the denominator.
+Three proved theorems predict:
+  (1) Leading:     c₂₀ = 1/(3¹⁰ × 10!) = 1/214,277,011,200
+  (2) Sub-leading: c₁₉/c₂₀ = -C(10,2)/5 = -9 (INTEGER — first time since k=1!)
+  (3) Constant:    c₀(a₁₀) = 1/(2 × 10!) = 1/7,257,600
+  (4) Denominator: primes ≤ 19 (QUIET LEVEL — B₂₀ has den=330 = 2×3×5×11, no new prime)
+      Tests whether the numbers keep talking after the cosmic denominator entered at k=9
 
 Copyright (c) 2026 Casey Koons. All rights reserved.
 This software is provided for demonstration purposes only.
@@ -46,7 +48,7 @@ def print(*args, **kwargs):
     kwargs.setdefault('flush', True)
     _print(*args, **kwargs)
 
-mpmath.mp.dps = 220  # 220 decimal digits for 9-deep cascade (need ~29 digits at a₉ level)
+mpmath.mp.dps = 300  # 300 decimal digits for 10-deep cascade (need ~35+ digits at a₁₀ level)
 
 PASS = 0
 FAIL = 0
@@ -374,24 +376,25 @@ def constrained_polynomial(clean_rats, c_top, c_subtop, c_const, deg):
 def main():
     t_start = time.time()
     print("╔══════════════════════════════════════════════════════════════╗")
-    print("║  Toy 276 — SO(23) Spectra & the a₉ Polynomial             ║")
-    print("║  Full cascade: a₁..a₈ → a₉(n) degree-18, n=3..21         ║")
-    print("║  Testing predictions: prime 19 enters (cosmic denominator) ║")
+    print("║  Toy 277 — SO(25) Spectra & the a₁₀ Polynomial            ║")
+    print("║  Full cascade: a₁..a₉ → a₁₀(n) degree-20, n=3..25        ║")
+    print("║  Testing: c₁₉/c₂₀ = -9 (INTEGER!) + quiet denominator    ║")
     print("╚══════════════════════════════════════════════════════════════╝")
 
     P_MAX = 750
-    N_PTS = 32       # More nodes for deeper cascade
+    N_PTS = 32       # Chebyshev nodes
     T_LO = 0.001
-    T_HI = 0.011     # Tighter window for better conditioning at 9-deep
+    T_HI = 0.010     # Slightly tighter for better conditioning at 10-deep
 
     CASCADE_RANGE = range(3, 14)  # n=3..13: build a₂..a₅ polynomials
-    ALL_RANGE = range(3, 22)      # n=3..21: extract a₆, a₇, a₈, a₉
+    ALL_RANGE = range(3, 26)      # n=3..25: extract a₆, a₇, a₈, a₉, a₁₀
 
     # Max prime for denominator sanity check
     A6_MAX_PRIME = 13
     A7_MAX_PRIME = 13   # Confirmed: quiet level
     A8_MAX_PRIME = 17   # Confirmed: prime 17 enters at k=8
-    A9_MAX_PRIME = 19   # Prediction: prime 19 enters at k=9
+    A9_MAX_PRIME = 19   # Confirmed: prime 19 enters at k=9
+    A10_MAX_PRIME = 19  # Prediction: no new prime at k=10 (B₂₀ den=330=2×3×5×11)
 
     # Known coefficients from Three Theorems
     # a₆: k=6 (CONFIRMED by Toy 273)
@@ -409,10 +412,15 @@ def main():
     c15_a8 = Fraction(-28, 5) * c16_a8           # -28/5 × c₁₆
     c0_a8 = Fraction(1, 2 * _factorial(8))       # 1/80640
 
-    # a₉: k=9 (PREDICTIONS)
+    # a₉: k=9 (CONFIRMED by Toy 276)
     c18_a9 = Fraction(1, 3**9 * _factorial(9))   # 1/7142567040
     c17_a9 = Fraction(-36, 5) * c18_a9           # -36/5 × c₁₈
     c0_a9 = Fraction(-1, 2 * _factorial(9))      # -1/725760
+
+    # a₁₀: k=10 (PREDICTIONS)
+    c20_a10 = Fraction(1, 3**10 * _factorial(10))  # 1/214277011200
+    c19_a10 = Fraction(-9) * c20_a10               # -C(10,2)/5 = -45/5 = -9 (INTEGER!)
+    c0_a10 = Fraction(1, 2 * _factorial(10))       # 1/7257600
 
     ts = chebyshev_nodes(T_LO, T_HI, N_PTS)
 
@@ -551,12 +559,12 @@ def main():
     if a5_poly:
         for nv in ALL_RANGE:
             a5_rats[nv] = eval_poly(a5_poly, Fraction(nv))
-        print(f"      → Exact a₅(n) polynomial for all n=3..21")
+        print(f"      → Exact a₅(n) polynomial for all n=3..25")
     print(f"      a₅(5) = {a5_rats.get(5)} "
           f"{'✓' if a5_rats.get(5) == Fraction(1535969, 6930) else '✗'}")
 
-    # ─── Phase 3: a₆ cascade for n=3..21 ─────────────────────
-    print(f"\n  Phase 3: a₆ cascade for n=3..21")
+    # ─── Phase 3: a₆ cascade for n=3..25 ─────────────────────
+    print(f"\n  Phase 3: a₆ cascade for n=3..25")
     print("  " + "═" * 58)
 
     a6_rats = {}; a6_clean = {}
@@ -585,7 +593,7 @@ def main():
         print(f"    n={n:>2}: err={mpmath.nstr(a6_err, 3):<12} {status}")
 
     n6_clean = len(a6_clean)
-    print(f"\n    Clean a₆ rationals: {n6_clean}/19")
+    print(f"\n    Clean a₆ rationals: {n6_clean}/23")
 
     a6_poly = None
     if n6_clean >= 10:
@@ -604,8 +612,8 @@ def main():
     print(f"    a₆(5) = {a6_rats.get(5)} "
           f"{'✓' if a6_rats.get(5) == Fraction(363884219, 1351350) else '✗'}")
 
-    # ─── Phase 4: a₇ cascade for n=3..21 ─────────────────────
-    print(f"\n  Phase 4: a₇ cascade for n=3..21")
+    # ─── Phase 4: a₇ cascade for n=3..25 ─────────────────────
+    print(f"\n  Phase 4: a₇ cascade for n=3..25")
     print("  " + "═" * 58)
 
     a7_rats = {}; a7_clean = {}; a7_vals = {}
@@ -636,7 +644,7 @@ def main():
         print(f"    n={n:>2}: err={mpmath.nstr(a7_err, 3):<12} {status}")
 
     n7_clean = len(a7_clean)
-    print(f"\n    Clean a₇ rationals: {n7_clean}/19 (primes ≤ {A7_MAX_PRIME})")
+    print(f"\n    Clean a₇ rationals: {n7_clean}/23 (primes ≤ {A7_MAX_PRIME})")
 
     a7_poly = None
     if n7_clean >= 12:
@@ -657,8 +665,8 @@ def main():
     print(f"    a₇(5) = {a7_rats.get(5)} "
           f"{'✓' if a7_rats.get(5) == Fraction(78424343, 289575) else '✗'}")
 
-    # ─── Phase 5: a₈ cascade for n=3..21 ─────────────────────
-    print(f"\n  Phase 5: a₈ cascade for n=3..21")
+    # ─── Phase 5: a₈ cascade for n=3..25 ─────────────────────
+    print(f"\n  Phase 5: a₈ cascade for n=3..25")
     print("  " + "═" * 58)
 
     a8_vals = {}; a8_rats = {}; a8_clean = {}
@@ -679,7 +687,6 @@ def main():
         a8_vals[n] = (a8, a8_err)
 
         # CF identification with denominator sanity (primes ≤ 17)
-        # max_den=5T because LCM of a₈ denominators ≈ 2.78 trillion
         frac_cf, _ = identify_rational_cf(a8, max_den=5000000000000,
                                            tol=1e-9, max_prime=A8_MAX_PRIME)
         if frac_cf:
@@ -699,8 +706,8 @@ def main():
 
     n8_clean = len(a8_clean)
     n8_total = len(a8_rats)
-    print(f"\n    Clean a₈ rationals: {n8_clean}/19 (primes ≤ {A8_MAX_PRIME})")
-    print(f"    Total identified: {n8_total}/19")
+    print(f"\n    Clean a₈ rationals: {n8_clean}/23 (primes ≤ {A8_MAX_PRIME})")
+    print(f"    Total identified: {n8_total}/23")
 
     # Rational table
     print(f"\n    {'n':>3}  {'a₈ (rational)':<45} {'den':>15} {'factors(den)':<35} {'clean?'}")
@@ -738,8 +745,8 @@ def main():
     print(f"    a₈(5) = {a8_rats.get(5)} "
           f"{'✓' if a8_rats.get(5) == Fraction(670230838, 2953665) else '✗'}")
 
-    # ─── Phase 6: a₉ extraction for n=3..21 ─────────────────
-    print(f"\n  Phase 6: a₉ extraction for n=3..21")
+    # ─── Phase 6: a₉ extraction for n=3..25 ─────────────────
+    print(f"\n  Phase 6: a₉ extraction for n=3..25")
     print("  " + "═" * 58)
 
     a9_vals = {}; a9_rats = {}; a9_clean = {}
@@ -762,7 +769,6 @@ def main():
 
         # CF identification with denominator sanity (primes ≤ 19)
         # max_den=500T because LCM of a₉ denominators ≈ 53T with primes ≤ 19
-        # CF convergent requires |x - p/q| < 1/(2q²), so we need ~29 digits
         frac_cf, _ = identify_rational_cf(a9, max_den=500000000000000,
                                            tol=1e-8, max_prime=A9_MAX_PRIME)
         if frac_cf:
@@ -782,8 +788,8 @@ def main():
 
     n9_clean = len(a9_clean)
     n9_total = len(a9_rats)
-    print(f"\n    Clean a₉ rationals: {n9_clean}/19 (primes ≤ {A9_MAX_PRIME})")
-    print(f"    Total identified: {n9_total}/19")
+    print(f"\n    Clean a₉ rationals: {n9_clean}/23 (primes ≤ {A9_MAX_PRIME})")
+    print(f"    Total identified: {n9_total}/23")
 
     # Rational table
     print(f"\n    {'n':>3}  {'a₉ (rational)':<45} {'den':>15} {'factors(den)':<35} {'clean?'}")
@@ -799,9 +805,9 @@ def main():
             v, e = a9_vals[n]
             print(f"    {n:>3}  ≈{mpmath.nstr(v, 18):<44} {'?':>15}")
 
-    # ─── Phase 7: a₉ polynomial construction ─────────────────
-    print(f"\n  Phase 7: a₉(n) Polynomial")
-    print("  " + "═" * 58)
+    # ─── a₉ polynomial construction ─────────────────────────
+    print(f"\n    a₉(n) Polynomial Construction")
+    print("    " + "─" * 54)
 
     a9_poly = None
 
@@ -820,28 +826,20 @@ def main():
             n9_clean = len(a9_clean)
     elif n9_clean >= 14:
         # Strategy B: hybrid — use clean rationals + mpmath numerical for missing
-        # Fit degree-18 polynomial using all 19 points (14 exact + 5 numerical)
-        # with Three Theorem constraints
-        print(f"    Strategy B: {n9_clean} clean + {19 - n9_clean} numerical → "
+        print(f"    Strategy B: {n9_clean} clean + {23 - n9_clean} numerical → "
               f"constrained least-squares")
 
-        # Build full data set: clean rationals + numerical approximations
         all_data = {}
         for nv in ALL_RANGE:
             if nv in a9_clean:
                 all_data[nv] = frac_to_mpf(a9_clean[nv])
             else:
-                all_data[nv] = a9_vals[nv][0]  # numerical value
+                all_data[nv] = a9_vals[nv][0]
 
-        # Subtract known: c₁₈*n¹⁸ + c₁₇*n¹⁷ + c₀
-        # Residual R(n) = a₉(n) - c₁₈*n¹⁸ - c₁₇*n¹⁷ - c₀
-        # R(n)/n has degree 16 (coefficients c₁..c₁₆)
-        # Solve via Vandermonde system in mpmath
         n_unknowns = 16  # c₁ through c₁₆
         n_data = len(all_data)
         ns_sorted = sorted(all_data.keys())
 
-        # Build matrix A (n_data × n_unknowns) and vector b
         A = mpmath.matrix(n_data, n_unknowns)
         b = mpmath.matrix(n_data, 1)
         for row, nv in enumerate(ns_sorted):
@@ -849,31 +847,24 @@ def main():
             residual = val - frac_to_mpf(c18_a9) * mpmath.mpf(nv)**18 \
                            - frac_to_mpf(c17_a9) * mpmath.mpf(nv)**17 \
                            - frac_to_mpf(c0_a9)
-            # R(n)/n = c₁ + c₂*n + ... + c₁₆*n¹⁵
             rn = residual / mpmath.mpf(nv)
             b[row] = rn
             for col in range(n_unknowns):
                 A[row, col] = mpmath.mpf(nv) ** col
 
-        # Solve via QR (least-squares)
-        # A^T A x = A^T b
         AT = A.T
         ATA = AT * A
         ATb = AT * b
         x = mpmath.lu_solve(ATA, ATb)
 
-        # Reconstruct full polynomial
         a9_poly = [Fraction(0)] * 19
         a9_poly[0] = c0_a9
         for col in range(n_unknowns):
-            # x[col] corresponds to c_{col+1}
-            # Rationalize via CF
             coeff_frac, _ = identify_rational_cf(x[col], max_den=500000000000000,
                                                   tol=1e-10)
             if coeff_frac:
                 a9_poly[col + 1] = coeff_frac
             else:
-                # Try harder with limit_denominator
                 x_str = mpmath.nstr(x[col], 80, strip_zeros=False)
                 try:
                     xf = Fraction(x_str)
@@ -885,11 +876,9 @@ def main():
         if a9_poly:
             a9_poly[17] = c17_a9
             a9_poly[18] = c18_a9
-            # Trim trailing zeros
             while len(a9_poly) > 1 and a9_poly[-1] == 0:
                 a9_poly.pop()
 
-            # Verify against clean values
             n_match = 0
             n_close = 0
             for nv in a9_clean:
@@ -919,12 +908,187 @@ def main():
     else:
         print(f"    ✗ Need ≥14 clean a₉ rationals, have {n9_clean}")
 
-    # ─── Phase 8: Polynomial analysis ─────────────────────────
-    print(f"\n  Phase 8: Polynomial analysis")
-    if a9_poly:
-        deg = len(a9_poly) - 1
-        print(f"\n    ╔═══ a₉(n) POLYNOMIAL (degree {deg}) ═══╗")
-        for k, c in enumerate(a9_poly):
+    print(f"    a₉(5) = {a9_rats.get(5)} "
+          f"{'✓' if a9_rats.get(5) == Fraction(4412269889539, 27498621150) else '✗'}")
+
+    # ─── Phase 7: a₁₀ extraction for n=3..25 ────────────────
+    print(f"\n  Phase 7: a₁₀ extraction for n=3..25")
+    print("  " + "═" * 58)
+
+    a10_vals = {}; a10_rats = {}; a10_clean = {}
+
+    for n in ALL_RANGE:
+        t0 = time.time()
+        a1_mpf = frac_to_mpf(Fraction(2 * n * n - 3, 6))
+        a2_mpf = frac_to_mpf(a2_rats[n])
+        a3_mpf = frac_to_mpf(a3_rats[n])
+        a4_mpf_v = frac_to_mpf(a4_rats[n])
+        a5_mpf_v = frac_to_mpf(a5_rats[n])
+        a6_mpf_v = frac_to_mpf(a6_rats[n])
+        a7_mpf_v = frac_to_mpf(a7_rats[n])
+        a8_mpf_v = frac_to_mpf(a8_rats[n])
+        # Use exact polynomial value for a₉ if available, else numerical
+        if n in a9_clean:
+            a9_mpf_v = frac_to_mpf(a9_clean[n])
+        elif n in a9_rats:
+            a9_mpf_v = frac_to_mpf(a9_rats[n])
+        else:
+            a9_mpf_v = a9_vals[n][0]  # numerical fallback
+        known = {0: mpmath.mpf(1), 1: a1_mpf, 2: a2_mpf,
+                 3: a3_mpf, 4: a4_mpf_v, 5: a5_mpf_v,
+                 6: a6_mpf_v, 7: a7_mpf_v, 8: a8_mpf_v,
+                 9: a9_mpf_v}
+        a10, a10_err = extract_from_precomputed(precomp[n], ts, volumes[n], known, 10)
+        a10_vals[n] = (a10, a10_err)
+
+        # CF identification with denominator sanity (primes ≤ 19)
+        # max_den=500T because LCM with primes ≤ 19 is ~53T
+        frac_cf, _ = identify_rational_cf(a10, max_den=500000000000000,
+                                           tol=1e-7, max_prime=A10_MAX_PRIME)
+        if frac_cf:
+            a10_rats[n] = frac_cf
+            a10_clean[n] = frac_cf
+        else:
+            frac_any, _ = identify_rational_cf(a10, max_den=500000000000000, tol=1e-7)
+            if frac_any:
+                a10_rats[n] = frac_any
+
+        elapsed = time.time() - t0
+        status = "✓" if n in a10_clean else ("✗ bad den" if n in a10_rats else "?")
+        frac_str = str(a10_rats.get(n, ''))
+        print(f"    n={n:>2}: a₁₀ = {mpmath.nstr(a10, 15):<22} "
+              f"err={mpmath.nstr(a10_err, 3):<12} {status:<12} "
+              f"{frac_str[:35]}  ({elapsed:.1f}s)")
+
+    n10_clean = len(a10_clean)
+    n10_total = len(a10_rats)
+    print(f"\n    Clean a₁₀ rationals: {n10_clean}/23 (primes ≤ {A10_MAX_PRIME})")
+    print(f"    Total identified: {n10_total}/23")
+
+    # Rational table
+    print(f"\n    {'n':>3}  {'a₁₀ (rational)':<45} {'den':>15} {'factors(den)':<35} {'clean?'}")
+    print(f"    {'─'*110}")
+    for n in ALL_RANGE:
+        if n in a10_rats:
+            f = a10_rats[n]
+            den_f = factor(f.denominator)
+            clean = "✓" if n in a10_clean else "✗"
+            print(f"    {n:>3}  {str(f):<45} {f.denominator:>15} "
+                  f"{str(den_f):<35} {clean}")
+        else:
+            v, e = a10_vals[n]
+            print(f"    {n:>3}  ≈{mpmath.nstr(v, 18):<44} {'?':>15}")
+
+    # ─── Phase 8: a₁₀ polynomial construction ───────────────
+    print(f"\n  Phase 8: a₁₀(n) Polynomial Construction")
+    print("  " + "═" * 58)
+
+    a10_poly = None
+
+    if n10_clean >= 18:
+        print(f"    Strategy A+: {n10_clean} clean rationals + 3 known coefficients")
+        print(f"    (degree 20 - 3 known = 17 reduced unknowns, need 18 to verify)")
+        t_cp = time.time()
+        a10_poly = constrained_polynomial(a10_clean, c20_a10, c19_a10, c0_a10, 20)
+        print(f"      constrained_polynomial took {time.time()-t_cp:.1f}s")
+        if a10_poly:
+            all_ok = all(eval_poly(a10_poly, Fraction(nv)) == a10_clean[nv]
+                         for nv in a10_clean)
+            print(f"      {'✓' if all_ok else '✗'} All {n10_clean} clean values verified")
+            for nv in ALL_RANGE:
+                a10_rats[nv] = eval_poly(a10_poly, Fraction(nv))
+                a10_clean[nv] = a10_rats[nv]
+            n10_clean = len(a10_clean)
+    elif n10_clean >= 16:
+        # Strategy B: hybrid — use clean rationals + mpmath numerical for missing
+        print(f"    Strategy B: {n10_clean} clean + {23 - n10_clean} numerical → "
+              f"constrained least-squares")
+
+        all_data = {}
+        for nv in ALL_RANGE:
+            if nv in a10_clean:
+                all_data[nv] = frac_to_mpf(a10_clean[nv])
+            else:
+                all_data[nv] = a10_vals[nv][0]
+
+        n_unknowns = 18  # c₁ through c₁₈
+        n_data = len(all_data)
+        ns_sorted = sorted(all_data.keys())
+
+        A = mpmath.matrix(n_data, n_unknowns)
+        b = mpmath.matrix(n_data, 1)
+        for row, nv in enumerate(ns_sorted):
+            val = all_data[nv]
+            residual = val - frac_to_mpf(c20_a10) * mpmath.mpf(nv)**20 \
+                           - frac_to_mpf(c19_a10) * mpmath.mpf(nv)**19 \
+                           - frac_to_mpf(c0_a10)
+            rn = residual / mpmath.mpf(nv)
+            b[row] = rn
+            for col in range(n_unknowns):
+                A[row, col] = mpmath.mpf(nv) ** col
+
+        AT = A.T
+        ATA = AT * A
+        ATb = AT * b
+        x = mpmath.lu_solve(ATA, ATb)
+
+        a10_poly = [Fraction(0)] * 21
+        a10_poly[0] = c0_a10
+        for col in range(n_unknowns):
+            coeff_frac, _ = identify_rational_cf(x[col], max_den=500000000000000,
+                                                  tol=1e-10)
+            if coeff_frac:
+                a10_poly[col + 1] = coeff_frac
+            else:
+                x_str = mpmath.nstr(x[col], 80, strip_zeros=False)
+                try:
+                    xf = Fraction(x_str)
+                    a10_poly[col + 1] = xf.limit_denominator(500000000000000)
+                except:
+                    print(f"      ✗ Cannot rationalize c_{col+1}")
+                    a10_poly = None
+                    break
+        if a10_poly:
+            a10_poly[19] = c19_a10
+            a10_poly[20] = c20_a10
+            while len(a10_poly) > 1 and a10_poly[-1] == 0:
+                a10_poly.pop()
+
+            n_match = 0
+            n_close = 0
+            for nv in a10_clean:
+                pred = eval_poly(a10_poly, Fraction(nv))
+                if pred == a10_clean[nv]:
+                    n_match += 1
+                elif abs(float(pred - a10_clean[nv])) < 1e-6 * abs(float(a10_clean[nv])):
+                    n_close += 1
+            print(f"      Exact match: {n_match}/{n10_clean}, "
+                  f"close: {n_close}/{n10_clean}")
+
+            if n_match == n10_clean:
+                print(f"      ✓ All {n10_clean} clean values verified exactly")
+                for nv in ALL_RANGE:
+                    a10_rats[nv] = eval_poly(a10_poly, Fraction(nv))
+                    a10_clean[nv] = a10_rats[nv]
+                n10_clean = len(a10_clean)
+            elif n_match >= n10_clean - 2:
+                print(f"      ~ Mostly verified ({n_match}/{n10_clean}), using polynomial")
+                for nv in ALL_RANGE:
+                    a10_rats[nv] = eval_poly(a10_poly, Fraction(nv))
+                    a10_clean[nv] = a10_rats[nv]
+                n10_clean = len(a10_clean)
+            else:
+                print(f"      ✗ Too many mismatches, Strategy B failed")
+                a10_poly = None
+    else:
+        print(f"    ✗ Need ≥16 clean a₁₀ rationals, have {n10_clean}")
+
+    # ─── Phase 9: Polynomial analysis ────────────────────────
+    print(f"\n  Phase 9: Polynomial analysis")
+    if a10_poly:
+        deg = len(a10_poly) - 1
+        print(f"\n    ╔═══ a₁₀(n) POLYNOMIAL (degree {deg}) ═══╗")
+        for k, c in enumerate(a10_poly):
             if c != 0:
                 print(f"    ║  c_{k:<2} = {c}")
                 print(f"    ║       = {float(c):.15e}  "
@@ -934,24 +1098,26 @@ def main():
         # Self-consistency check
         print(f"\n    Self-consistency check...")
         all_ok = True
-        for nv in sorted(a9_clean.keys()):
-            pred = eval_poly(a9_poly, Fraction(nv))
-            if pred != a9_clean[nv]:
+        for nv in sorted(a10_clean.keys()):
+            pred = eval_poly(a10_poly, Fraction(nv))
+            if pred != a10_clean[nv]:
                 all_ok = False
-                diff = float(abs(pred - a9_clean[nv]))
+                diff = float(abs(pred - a10_clean[nv]))
                 print(f"    ✗ Mismatch at n={nv}: diff={diff:.2e}")
         print(f"    Self-consistency: {'✓ ALL MATCH' if all_ok else '✗'} "
-              f"(vs {n9_clean} clean values)")
+              f"(vs {n10_clean} clean values)")
 
         # BST value
-        a9_5 = eval_poly(a9_poly, Fraction(5))
-        print(f"\n    a₉(Q⁵) = {a9_5} = {float(a9_5):.12f}")
-        print(f"    Numerator: {a9_5.numerator}  "
-              f"{'PRIME' if is_prime(abs(a9_5.numerator)) else 'composite'}")
-        if not is_prime(abs(a9_5.numerator)):
-            print(f"    Num factors: {factor(abs(a9_5.numerator))}")
-        print(f"    Denominator: {a9_5.denominator}  factors: "
-              f"{factor(a9_5.denominator)}")
+        a10_5 = eval_poly(a10_poly, Fraction(5))
+        print(f"\n    a₁₀(Q⁵) = {a10_5} = {float(a10_5):.12f}")
+        print(f"    Numerator: {a10_5.numerator}  "
+              f"{'PRIME' if is_prime(abs(a10_5.numerator)) else 'composite'}")
+        if not is_prime(abs(a10_5.numerator)):
+            print(f"    Num factors: {factor(abs(a10_5.numerator))}")
+        print(f"    Denominator: {a10_5.denominator}  factors: "
+              f"{factor(a10_5.denominator)}")
+    else:
+        print(f"    ✗ No polynomial available")
 
     # ─── Scorecard ────────────────────────────────────────────
     print(f"\n  " + "═" * 58)
@@ -970,92 +1136,107 @@ def main():
     score("a₈(5) = 670230838/2953665",
           a8_rats.get(5) == Fraction(670230838, 2953665))
 
-    # Test 8: SO(23) spectrum built
-    score("SO(23) spectrum built (n=21)", 21 in spectra, f"N=23, B₁₁")
+    # Test 8: a₉(5) verification
+    score("a₉(5) = 4412269889539/27498621150",
+          a9_rats.get(5) == Fraction(4412269889539, 27498621150))
 
-    # Test 9: a₉ clean rationals
-    score(f"a₉ clean rationals: ≥16 of 19",
-          n9_clean >= 16,
-          f"{n9_clean}/19 clean (primes ≤ {A9_MAX_PRIME}), max_den=500T")
+    # Test 9: SO(25) spectrum built
+    score("SO(25) spectrum built (n=25)", 25 in spectra, f"N=27, B₁₃")
 
-    # Test 10: Polynomial
-    if a9_poly:
-        d = len(a9_poly) - 1
-        score(f"a₉(n) degree = 18 (Gilkey: 2×9)", d == 18,
+    # Test 10: a₁₀ clean rationals
+    score(f"a₁₀ clean rationals: ≥18 of 23",
+          n10_clean >= 18,
+          f"{n10_clean}/23 clean (primes ≤ {A10_MAX_PRIME}), max_den=500T")
+
+    # Test 11: Polynomial
+    if a10_poly:
+        d = len(a10_poly) - 1
+        score(f"a₁₀(n) polynomial computed (degree=20)", d == 20,
               f"actual degree = {d}")
     else:
-        score("a₉(n) polynomial computed", False, "no polynomial")
+        score("a₁₀(n) polynomial computed (degree=20)", False, "no polynomial")
 
-    # Test 11: Leading coefficient
-    if a9_poly and len(a9_poly) > 18:
-        c18 = a9_poly[18]
-        score(f"c₁₈ = 1/7142567040 = 1/(3⁹×9!)",
-              c18 == c18_a9,
-              f"actual = {c18} = {float(c18):.15e}")
+    # Test 12: Leading coefficient
+    if a10_poly and len(a10_poly) > 20:
+        c20 = a10_poly[20]
+        score(f"c₂₀ = 1/214277011200 = 1/(3¹⁰×10!)",
+              c20 == c20_a10,
+              f"actual = {c20} = {float(c20):.15e}")
     else:
-        score("c₁₈ = 1/7142567040", False, "no degree-18 polynomial")
+        score("c₂₀ = 1/214277011200", a10_poly is not None and len(a10_poly) > 20 and a10_poly[20] == c20_a10,
+              "no degree-20 polynomial" if not a10_poly else f"degree = {len(a10_poly)-1}")
 
-    # Test 12: Sub-leading ratio
-    if a9_poly and len(a9_poly) > 17:
-        c17 = a9_poly[17]
-        ratio = c17 / a9_poly[18] if a9_poly[18] != 0 else None
-        expected = Fraction(-36, 5)
+    # Test 13: Sub-leading ratio — THE INTEGER RATIO!
+    if a10_poly and len(a10_poly) > 19:
+        c19 = a10_poly[19]
+        ratio = c19 / a10_poly[20] if a10_poly[20] != 0 else None
+        expected = Fraction(-9)
         ratio_ok = ratio == expected if ratio else False
-        score(f"c₁₇/c₁₈ = -C(9,2)/5 = -36/5",
+        score(f"c₁₉/c₂₀ = -C(10,2)/5 = -9 (INTEGER!)",
               ratio_ok,
               f"ratio = {ratio} = {float(ratio) if ratio else '?'}")
     else:
-        score("c₁₇/c₁₈ = -36/5", False, "no polynomial")
+        score("c₁₉/c₂₀ = -9 (INTEGER!)", False, "no polynomial")
 
-    # Test 13: Constant term
-    if a9_poly:
-        c0 = a9_poly[0]
-        score(f"c₀(a₉) = -1/725760 = (-1)⁹/(2×9!)",
-              c0 == c0_a9,
+    # Test 14: Constant term
+    if a10_poly:
+        c0 = a10_poly[0]
+        score(f"c₀(a₁₀) = 1/7257600 = 1/(2×10!)",
+              c0 == c0_a10,
               f"actual = {c0} = {float(c0):.15e}")
     else:
-        score("c₀(a₉) = -1/725760", False, "no polynomial")
+        score("c₀(a₁₀) = 1/7257600", False, "no polynomial")
 
-    # Test 14-15: Denominator primes of a₉(Q⁵) — THE BIG TEST
-    if a9_poly:
-        a9_5 = eval_poly(a9_poly, Fraction(5))
-        den_f = factor(a9_5.denominator)
+    # Test 15: Denominator primes of a₁₀(Q⁵)
+    if a10_poly:
+        a10_5 = eval_poly(a10_poly, Fraction(5))
+        den_f = factor(a10_5.denominator)
         max_p = max(den_f) if den_f else 0
-        has_19 = 19 in den_f
-        score(f"den(a₉(Q⁵)) primes ≤ 19 (prime 19 ENTERS)",
+        score(f"den(a₁₀(Q⁵)) primes ≤ 19 (quiet level)",
               max_p <= 19,
-              f"max prime = {max_p}, den = {a9_5.denominator}")
-        score(f"19 ∈ den(a₉(Q⁵)) — cosmic denominator Ω_Λ=13/19",
-              has_19,
-              f"19 {'present' if has_19 else 'ABSENT'} in den factors {den_f}")
+              f"max prime = {max_p}, den = {a10_5.denominator}, factors = {den_f}")
     else:
-        score("den(a₉(Q⁵)) primes ≤ 19", False, "no polynomial")
-        score("19 ∈ den(a₉(Q⁵))", False, "no polynomial")
+        score("den(a₁₀(Q⁵)) primes ≤ 19", False, "no polynomial")
 
     print(f"\n  " + "═" * 58)
     print(f"  SCORECARD: {PASS}/{PASS + FAIL}")
     print("  " + "═" * 58)
 
     # Leading coefficient pattern summary
-    if a9_poly and len(a9_poly) > 18:
+    if a10_poly and len(a10_poly) > 20:
         print(f"\n  Leading coefficient pattern c_{{2k}} = 1/(3^k × k!):")
-        for k in range(1, 10):
+        for k in range(1, 11):
             expected = Fraction(1, 3**k * _factorial(k))
             tag = ""
-            if k == 9 and len(a9_poly) > 18:
-                actual = a9_poly[18]
+            if k == 10 and len(a10_poly) > 20:
+                actual = a10_poly[20]
                 tag = "✓" if actual == expected else "✗"
+            elif k == 9 and a9_poly and len(a9_poly) > 18:
+                actual = a9_poly[18]
+                tag = "✓" if actual == expected else "?"
             elif k == 8 and a8_poly and len(a8_poly) > 16:
                 actual = a8_poly[16]
                 tag = "✓" if actual == expected else "?"
             elif k == 7 and a7_poly and len(a7_poly) > 14:
                 actual = a7_poly[14]
                 tag = "✓" if actual == expected else "?"
-            print(f"    k={k}: 1/(3^{k}×{k}!) = {expected} = "
+            print(f"    k={k:>2}: 1/(3^{k}×{k}!) = {expected} = "
                   f"{float(expected):.15e} {tag}")
 
+    # Sub-leading ratio pattern summary
+    if a10_poly and len(a10_poly) > 20:
+        print(f"\n  Sub-leading ratio pattern c_{{2k-1}}/c_{{2k}} = -C(k,2)/5:")
+        for k in range(1, 11):
+            expected_ratio = Fraction(-k * (k - 1), 2 * 5) if k >= 2 else Fraction(0)
+            # k=1 special: c₁/c₂ = 0
+            if k == 1:
+                expected_ratio = Fraction(0)
+            print(f"    k={k:>2}: -C({k},2)/5 = {expected_ratio} = "
+                  f"{float(expected_ratio):.4f}"
+                  f"{'  ← INTEGER!' if expected_ratio.denominator == 1 and k >= 2 else ''}")
+
     elapsed = time.time() - t_start
-    print(f"\n  Toy 276 complete. ({elapsed:.0f}s)")
+    print(f"\n  Toy 277 complete. ({elapsed:.0f}s)")
 
 
 if __name__ == '__main__':

@@ -433,7 +433,8 @@ METADATA = {
     'so17_a6_polynomial':         ('SO(17): a₆(n) Polynomial',             'Elie: Full a₆(n) degree-12 polynomial. a₆(Q⁵)=363884219/1351350. Num=19×23×832687. Three Theorems confirmed k=6. 10/10.'),
     'so19_a7_polynomial':         ('SO(19): a₇(n) Polynomial',             'Elie: Full a₇(n) degree-14 polynomial. a₇(Q⁵)=78424343/289575. Num=19×4127597. Three Theorems confirmed k=7. 12/12.'),
     'so21_a8_polynomial':         ('SO(21): a₈(n) Polynomial',             'Elie: a₈(Q⁵)=670230838/2953665. Prime 17 ENTERS (14/14). Three Theorems confirmed k=1..8.'),
-    'so23_a9_polynomial':         ('SO(23): a₉(n) Polynomial',             'Elie: Full a₉(n) degree-18 polynomial. Tests prime 19 entry (cosmic denominator Ω_Λ=13/19). Three Theorems tested k=9.'),
+    'so23_a9_polynomial':         ('SO(23): a₉(n) Polynomial',             'Elie: a₉(Q⁵)=4412269889539/27498621150. Prime 19 ENTERS (cosmic denominator Ω_Λ=13/19). den=2×3⁵×5²×7²×11×13×17×19. 14/19 clean; poly needs dps≥300.'),
+    'so25_a10_polynomial':        ('SO(25): a₁₀(n) Polynomial',            'Elie: a₁₀(Q⁵)=2409398458451/21709437750 (PRIME num!). Quiet level: den primes≤17, no 19. Also: a₉ poly RECOVERED (16/23 clean). Cascade wall at k=10 (8/23).'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -697,6 +698,7 @@ _STEM_TO_NUMBER = {
     'so19_a7_polynomial': 274,
     'so21_a8_polynomial': 275,
     'so23_a9_polynomial': 276,
+    'so25_a10_polynomial': 277,
 }
 
 
