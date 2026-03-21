@@ -107,6 +107,10 @@ CATEGORIES = {
         'branching_so7_sp6',
         'a5_nonspherical', 'a4_polynomial_a5_precision',
         'eht_cp_prediction',
+        'so25_a10_polynomial', 'symbolic_a12_polynomial',
+        'linking_cascade_constant', 'weak_homological_force',
+        'basis_rotation',
+        'shannon_independence',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -438,6 +442,8 @@ METADATA = {
     'symbolic_a12_polynomial':    ('Enhanced Cascade to a₁₂',               'Elie: Breaking the cascade wall. P_MAX=1000, dps=400, n=3..27. Robust polynomial recovery. Targeting a₁₁ (Golay prime 23) + a₁₂ (quiet).'),
     'linking_cascade_constant':   ('Linking Cascade Constant c',             'Elie: c(α_c) from random 3-SAT VIG complex. F₂ homology + R³ linking. Prediction: c=1/2. Result: c→0. Strong force doesn\'t confine.'),
     'weak_homological_force':     ('The Weak Homological Force',              'Elie: Pure F₂ algebra — Δβ₁ per extension. No R³. If Δβ₁≥0: β₁ never decreases → T25 → P≠NP. The error-correction cost of dimensional expansion.'),
+    'basis_rotation':             ('Basis Rotation: Weinberg Angle',          'Elie: r = dim(H₁_old ∩ H₁_new)/β₁ after extensions. 1-clause: r=1 (no mixing). Multi-clause: r<1 (mixing). Cumulative decay → exponential disorientation → 2^Θ(n).'),
+    'shannon_independence':       ('Shannon Independence: AC(0)',              'Elie: Are H₁ fiat bits independent? Jaccard overlap, kill probability, sequential resolution cost. AC > 0 for all polynomial methods → Shannon Bridge → P ≠ NP.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -705,6 +711,8 @@ _STEM_TO_NUMBER = {
     'symbolic_a12_polynomial': 278,
     'linking_cascade_constant': 279,
     'weak_homological_force': 280,
+    'basis_rotation': 281,
+    'shannon_independence': 282,
 }
 
 

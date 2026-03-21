@@ -141,11 +141,13 @@ def f2_nullspace(A):
 
 def compute_h1_basis(n, edges, triangles):
     """Compute H₁ generators as rows of a matrix over F₂.
-    Returns (beta1, generator_matrix) where generator_matrix has shape (beta1, E).
+    Returns (beta1, generator_matrix, boundary_data) where:
+      generator_matrix has shape (beta1, E)
+      boundary_data = (d2_pivots, rref_d2T) for reducing cycles modulo B₁
     """
     E = len(edges)
     if E == 0:
-        return 0, np.zeros((0, 0), dtype=np.uint8)
+        return 0, np.zeros((0, 0), dtype=np.uint8), ([], np.zeros((0, 0), dtype=np.uint8))
 
     edge_idx = {e: i for i, e in enumerate(edges)}
     V = n
@@ -164,31 +166,41 @@ def compute_h1_basis(n, edges, triangles):
 
     z1_basis = f2_nullspace(d1)
     if not z1_basis:
-        return 0, np.zeros((0, E), dtype=np.uint8)
+        return 0, np.zeros((0, E), dtype=np.uint8), ([], np.zeros((0, E), dtype=np.uint8))
 
     rref_d2T, d2_pivots = f2_rref(d2.T.copy() % 2)
-    dim_b1 = len(d2_pivots)
+    # rref_d2T rows are in F₂^F (triangle indices), but we need B₁ in F₂^E (edge indices).
+    # B₁ = column space of d2. Get RREF of d2 columns viewed as vectors in F₂^E.
+    # Actually: d2 columns are boundary vectors in F₂^E. Compute their RREF directly.
+    if F > 0:
+        b1_mat = d2 % 2  # (E, F) — columns are boundary vectors
+        b1_rref, b1_pivots = f2_rref(b1_mat.T.copy())  # RREF of (F, E) → pivots are edge positions
+    else:
+        b1_rref = np.zeros((0, E), dtype=np.uint8)
+        b1_pivots = []
+
+    dim_b1 = len(b1_pivots)
     beta1_est = len(z1_basis) - dim_b1
     if beta1_est <= 0:
-        return 0, np.zeros((0, E), dtype=np.uint8)
+        return 0, np.zeros((0, E), dtype=np.uint8), (b1_pivots, b1_rref)
 
     reduced = []
     for z in z1_basis:
         z_red = z.copy()
-        for i, pc in enumerate(d2_pivots):
+        for i, pc in enumerate(b1_pivots):
             if z_red[pc]:
-                z_red ^= rref_d2T[i]
+                z_red ^= b1_rref[i]
         z_red %= 2
         if np.any(z_red):
             reduced.append(z_red)
 
     if not reduced:
-        return 0, np.zeros((0, E), dtype=np.uint8)
+        return 0, np.zeros((0, E), dtype=np.uint8), (b1_pivots, b1_rref)
 
     M = np.array(reduced, dtype=np.uint8) % 2
     R, pivots = f2_rref(M)
     gen_mat = R[:len(pivots)].copy()
-    return len(pivots), gen_mat
+    return len(pivots), gen_mat, (b1_pivots, b1_rref)
 
 
 def compute_beta1_fast(n, edges, triangles):
@@ -280,28 +292,47 @@ def add_extension_multi(n, edges_set, triangles_set, n_clauses=3):
     return sorted(new_edges), sorted(new_triangles), n + 1, added_edges
 
 
-def compute_overlap(gen_old, beta1_old, E_old, gen_new, beta1_new, E_new):
-    """Compute overlap ratio r = dim(H₁_old ∩ H₁_new) / β₁_old.
+def compute_overlap(gen_old, beta1_old, edges_old,
+                    gen_new, beta1_new, edges_new, bnd_new):
+    """Compute overlap ratio r = dim(image of ι: H₁(K_old) → H₁(K_new)) / β₁_old.
 
-    gen_old: (beta1_old, E_old) matrix — old H₁ generators
-    gen_new: (beta1_new, E_new) matrix — new H₁ generators
+    The injection ι maps old H₁ classes into the new complex.
+    We embed old generators in the new edge space, reduce modulo B₁(K_new),
+    then count how many independent classes survive.
 
-    We embed gen_old into the new edge space (pad with zeros for new edges)
-    then compute: dim(intersection) = beta1_old + beta1_new - rank([gen_old_padded; gen_new])
+    bnd_new = (b1_pivots, b1_rref) — boundary reduction data for K_new
     """
     if beta1_old == 0:
         return 1.0  # trivially preserved
 
-    # Pad old generators to new edge space
-    gen_old_padded = np.zeros((beta1_old, E_new), dtype=np.uint8)
-    gen_old_padded[:, :E_old] = gen_old
+    E_new = len(edges_new)
+    b1_pivots, b1_rref = bnd_new
 
-    # Stack and compute rank
-    stacked = np.vstack([gen_old_padded, gen_new])
-    r = f2_rank(stacked)
+    # Step 1: Embed old generators in new edge space using edge index map
+    edge_new_idx = {e: i for i, e in enumerate(edges_new)}
+    embedded = np.zeros((beta1_old, E_new), dtype=np.uint8)
+    for row in range(beta1_old):
+        for col in range(len(edges_old)):
+            if gen_old[row, col]:
+                embedded[row, edge_new_idx[edges_old[col]]] = 1
 
-    dim_intersection = beta1_old + beta1_new - r
-    return max(0, dim_intersection) / beta1_old
+    # Step 2: Reduce each embedded generator modulo B₁(K_new)
+    # This projects old H₁ classes into H₁(K_new) correctly,
+    # accounting for the different boundary spaces
+    for row in range(beta1_old):
+        for i, pc in enumerate(b1_pivots):
+            if embedded[row, pc]:
+                embedded[row] ^= b1_rref[i]
+        embedded[row] %= 2
+
+    # Step 3: Count independent non-zero reduced vectors
+    nonzero = [embedded[row] for row in range(beta1_old) if np.any(embedded[row])]
+    if not nonzero:
+        return 0.0
+
+    M = np.array(nonzero, dtype=np.uint8)
+    rank = f2_rank(M)
+    return rank / beta1_old
 
 
 # ═══════════════════════════════════════════════════════════════════
@@ -353,25 +384,23 @@ def main():
             edges_set = set(edges)
             triangles_set = set(triangles)
 
-            beta1_old, gen_old = compute_h1_basis(n, edges, triangles)
+            beta1_old, gen_old, _ = compute_h1_basis(n, edges, triangles)
             all_beta1.append(beta1_old)
 
             if beta1_old < 3:
                 continue
-
-            E_old = len(edges)
 
             # ─── Test 1: Single-extension overlap for each clause count ──
             for nc in N_CLAUSES_LIST:
                 for _ in range(N_SINGLE):
                     new_edges, new_triangles, n_new, _ = add_extension_multi(
                         n, edges_set, triangles_set, n_clauses=nc)
-                    beta1_new, gen_new = compute_h1_basis(n_new, new_edges, new_triangles)
-                    E_new = len(new_edges)
+                    beta1_new, gen_new, bnd_new = compute_h1_basis(
+                        n_new, new_edges, new_triangles)
 
                     if beta1_new > 0:
-                        r = compute_overlap(gen_old, beta1_old, E_old,
-                                            gen_new, beta1_new, E_new)
+                        r = compute_overlap(gen_old, beta1_old, edges,
+                                            gen_new, beta1_new, new_edges, bnd_new)
                         all_r_single[nc].append(r)
 
             # ─── Test 2: Adversarial — minimize overlap (maximize mixing) ──
@@ -381,12 +410,11 @@ def main():
                     for _ in range(15):  # candidates
                         new_edges, new_triangles, n_new, _ = add_extension_multi(
                             n, edges_set, triangles_set, n_clauses=nc)
-                        beta1_new, gen_new = compute_h1_basis(
+                        beta1_new, gen_new, bnd_new = compute_h1_basis(
                             n_new, new_edges, new_triangles)
-                        E_new = len(new_edges)
                         if beta1_new > 0:
-                            r = compute_overlap(gen_old, beta1_old, E_old,
-                                                gen_new, beta1_new, E_new)
+                            r = compute_overlap(gen_old, beta1_old, edges,
+                                                gen_new, beta1_new, new_edges, bnd_new)
                             if r < best_r:
                                 best_r = r
                     if best_r <= 1.0:
@@ -400,22 +428,18 @@ def main():
             curve = [(0, 1.0)]  # (step, overlap_with_original)
 
             for step in range(1, N_CUMULATIVE_STEPS + 1):
-                cur_edges_sorted = sorted(cur_edges_set)
-                cur_triangles_sorted = sorted(cur_triangles_set)
-
                 new_edges, new_triangles, n_new, _ = add_extension_multi(
                     cur_n, cur_edges_set, cur_triangles_set,
                     n_clauses=N_CUMULATIVE_CLAUSES)
 
                 # Compute new H₁
-                beta1_new, gen_new = compute_h1_basis(
+                beta1_new, gen_new, bnd_new = compute_h1_basis(
                     n_new, new_edges, new_triangles)
-                E_new = len(new_edges)
 
                 if beta1_new > 0 and beta1_old > 0:
                     # Overlap with ORIGINAL basis (not previous step)
-                    r = compute_overlap(gen_old, beta1_old, E_old,
-                                        gen_new, beta1_new, E_new)
+                    r = compute_overlap(gen_old, beta1_old, edges,
+                                        gen_new, beta1_new, new_edges, bnd_new)
                     curve.append((step, r))
                 else:
                     curve.append((step, curve[-1][1] if curve else 1.0))
