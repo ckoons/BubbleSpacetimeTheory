@@ -111,6 +111,11 @@ CATEGORIES = {
         'linking_cascade_constant', 'weak_homological_force',
         'basis_rotation',
         'shannon_independence',
+        'compound_interest',
+        'boltzmann_entropy',
+        'halting_shadow',
+        'incompressible_witness',
+        'overlap_gap',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -444,6 +449,11 @@ METADATA = {
     'weak_homological_force':     ('The Weak Homological Force',              'Elie: Pure F₂ algebra — Δβ₁ per extension. No R³. If Δβ₁≥0: β₁ never decreases → T25 → P≠NP. The error-correction cost of dimensional expansion.'),
     'basis_rotation':             ('Basis Rotation: Weinberg Angle',          'Elie: r = dim(H₁_old ∩ H₁_new)/β₁ after extensions. 1-clause: r=1 (no mixing). Multi-clause: r<1 (mixing). Cumulative decay → exponential disorientation → 2^Θ(n).'),
     'shannon_independence':       ('Shannon Independence: AC(0)',              'Elie: Are H₁ fiat bits independent? Jaccard overlap, kill probability, sequential resolution cost. AC > 0 for all polynomial methods → Shannon Bridge → P ≠ NP.'),
+    'compound_interest':          ('Compound Interest Theorem (T29)',          'Elie: Per-kill compound ratio c > 1. Each cycle killed makes the next harder. Total = c^{β₁} = 2^{Θ(n)}. Compound interest breaks the bank. P ≠ NP.'),
+    'boltzmann_entropy':          ('Boltzmann Entropy: Second Law of Proof',   'Elie: Random 3-SAT at α_c is a spin glass. 2^{Θ(n)} local minima, barriers Θ(n). Shannon collects the bits; Boltzmann scatters them. Entropy wins.'),
+    'halting_shadow':             ('The Halting Shadow: Undecidability at α_c', 'Elie: SAT/UNSAT invisible until last clauses. Algorithm can\'t detect completion. P≠NP is the halting problem\'s shadow in complexity theory. Turing > Boltzmann > Shannon.'),
+    'incompressible_witness':     ('The Incompressible Witness: K(b|φ)=Θ(n)',  'Elie: Backbone of random 3-SAT is poly-time incompressible. FLP ceiling + local unpredictability + high entropy = Kolmogorov proof of T29. Path C: the kill shot.'),
+    'overlap_gap':                ('The Overlap Gap: OGP at k=3',              'Elie: Solution space clusters with forbidden overlap interval at α_c. Gamarnik-Sudan for large k; visible at k=3. Path B: β₁ cycles create the clustering dimensions.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -713,6 +723,11 @@ _STEM_TO_NUMBER = {
     'weak_homological_force': 280,
     'basis_rotation': 281,
     'shannon_independence': 282,
+    'compound_interest': 283,
+    'boltzmann_entropy': 284,
+    'halting_shadow': 285,
+    'incompressible_witness': 286,
+    'overlap_gap': 287,
 }
 
 

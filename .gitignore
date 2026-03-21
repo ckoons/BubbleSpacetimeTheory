@@ -4,6 +4,8 @@ notes/maybe/
 notes/BACKLOG.md
 notes/CI_BOARD.md
 notes/COORDINATION.*
+notes/submission/
+notes/build_submission.sh
 
 # CI communication — ephemeral, reset daily
 notes/.running/
