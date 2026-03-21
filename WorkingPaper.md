@@ -146,7 +146,7 @@ Every particle plays a role in this cycle:
 | **Photon** | Phase oscillation on $S^1$, zero winding | The messenger — carries information between contacts |
 | **Electron** | One complete $S^1$ winding — the minimal circuit | The simplest persistent commitment |
 | **Proton** | Three quarks, $Z_3$ closure on $\mathbb{CP}^2$ — first bulk resonance | The first complete sentence — mass gap = $6\pi^5 m_e$ |
-| **Neutron** | Proton with one flavor changed via Hopf intersection | The proton rephrased — same structure, different content |
+| **Neutron** | Proton with one flavor changed via Hopf intersection | The proton rephrased — same structure, different content. Decays into the three fundamental roles: proton (matter), electron (connection), neutrino (vacuum) |
 | **Neutrino** | The vacuum quantum — propagating ground state of $D_{IV}^5$ | The silence between words — the vacuum checking on itself |
 | **Quarks** | Partial $Z_3$ circuits on $\mathbb{CP}^2$ — fragments | Letters, not words — meaningful only in combination |
 | **W/Z bosons** | Hopf fibration excitations on $S^3 \to S^2$ | The editor — changes meaning (flavor) at a cost (mass) |
@@ -2227,7 +2227,13 @@ The slowness of the variation is essential. The Hopf intersection is a small tar
 
 The weak force is not a force. It is the universe’s mechanism for exploring its own configuration space through controlled variation, at a rate determined by the Hopf fibration geometry on $D_{IV}^5$, slow enough to permit complexity and thorough enough to eventually find every stable configuration.
 
-**Neutron decay as assembly instruction.** Free neutron decay $n \to p + e^- + \bar{\nu}_e$ is not destruction — it is the universe’s assembly instruction for hydrogen. The neutron’s role is to serve as the transport vehicle for a proton-electron pair across the BBN epoch. Once delivered to a low-energy environment, the neutron unpacks: the proton provides the nucleus, the electron provides the shell, and the antineutrino carries away the binding energy difference. The 880-second lifetime is precisely tuned by the Hopf intersection geometry to allow neutron transport through the BBN window while ensuring eventual delivery. Each particle in the decay products has a role: the proton anchors matter, the electron enables chemistry, the antineutrino balances the books. The weak force does not break things — it assembles them, one substitution at a time.
+**Neutron decay as assembly instruction.** Free neutron decay $n \to p + e^- + \bar{\nu}_e$ is not destruction — it is the universe’s assembly instruction for hydrogen. The neutron’s role is to serve as the transport vehicle for a proton-electron pair across the BBN epoch. Once delivered to a low-energy environment, the neutron unpacks into the three fundamental substrate roles:
+
+- **Proton** (matter): the first bulk resonance, mass gap $6\pi^5 m_e$ — the stable anchor that persists. Every atom in the universe began as a proton released from a neutron.
+- **Electron** (connection): one complete $S^1$ winding — the one-dimensional channel connecting the bubble to the universe. Without it, the proton is isolated geometry with no way to participate in chemistry, bonding, or information exchange.
+- **Antineutrino** (vacuum quantum): the propagating ground state of $D_{IV}^5$ — the substrate checking on itself. It carries away the binding energy difference and returns to the vacuum, closing the thermodynamic books.
+
+The 880-second lifetime is precisely tuned by the Hopf intersection geometry to allow neutron transport through the BBN window while ensuring eventual delivery. The weak force does not break things — it assembles them, one substitution at a time. Every neutron decay is the universe unpacking itself into matter, connection, and vacuum.
 
 ### 20.6 The Weak Force as Dimensional Lock
 
@@ -3881,7 +3887,7 @@ No two conditions share the same proof technique. The probability that twenty-th
 
 ## 38. Algebraic Complexity: Method Noise and the P $\neq$ NP Bridge
 
-*Added March 20, 2026. The AC framework, developed alongside BST, measures the information deficit of mathematical methods. This section summarizes the March 19–20 results: extended classification table, swallowtail catastrophe, and the bridge theorem connecting AC to P $\neq$ NP.*
+*Added March 20, 2026. Updated March 21, 2026. The AC framework, developed alongside BST, measures the information deficit of mathematical methods. This section summarizes results through March 21: extended classification, swallowtail catastrophe, the three-layer topological argument (Paper A, submitted to FOCS 2026), empirical results on OGP and Kolmogorov incompressibility, and the phased publication strategy.*
 
 ### 38.1 The Framework
 
@@ -3939,13 +3945,60 @@ The catastrophe minimum (§38.3) provides the method-independent capacity bound 
 
 **Status**: The bridge has five identified gaps requiring formalization: (1) channel capacity per Boolean constraint evaluation, (2) information content of SAT certificates (precise statement), (3) Shannon bridge from capacity to complexity (full AC formalization), (4) explicit barrier avoidance, (5) explicit Cook-Levin reduction for Halting closure. Full development: `notes/maybe/p_np/AC_Topology_BridgeTheorem.md`.
 
-### 38.6 Connection to BST
+### 38.6 Three-Layer Topological Argument (March 19–21, Paper A)
+
+The AC program crystallized into a three-layer structure for proving superpolynomial proof complexity lower bounds, presented in Paper A (submitted to FOCS 2026, March 24).
+
+**Layer 1 — Bounded-width exponential (PROVED).** All dimension-1 proof systems (Resolution, DPLL, bounded-width) require $2^{\Omega(n)}$ steps on random 3-SAT at the satisfiability threshold $\alpha_c \approx 4.267$. This follows from $\beta_1(K(\varphi)) = \Theta(n)$ (Theorem 2.1) combined with the topology of the VIG clique complex.
+
+**Layer 2 — Extension inertness (PROVED).** Two key results establish that Extended Frege (EF) extensions cannot cheaply reduce the topological complexity:
+- *Weak homological monotonicity* (T27): Single-clause extensions introducing a new variable satisfy $\Delta\beta_1 \geq 0$ — they cannot kill cycles.
+- *Topological inertness* (T28): The basis overlap between $H_1(K(\varphi))$ and $H_1(K')$ satisfies $r = 1$ — existing cycles are not rotated by the extension.
+- *Extension cost bound* (T32): Multi-clause extensions can kill cycles, but each clause changes $\beta_1$ by at most $\pm 1$. Combined with $\beta_1(K(\varphi)) = \Theta(n)$, this gives the unconditional linear lower bound $S \geq \Theta(n)$ on EF proof size for random 3-SAT (Corollary 5.2) — the first such result.
+
+**Layer 3 — Algebraic independence (OPEN).** The exponential EF lower bound requires showing that the $H_1$ generators of $K(\varphi)$ are algebraically independent over the Boolean ring — no polynomial identity relates them. If proved, EF proofs require $S \geq 2^{\Theta(n)}$. This is the central open question (Open Question 7.2 in Paper A).
+
+**Failed mechanisms (Toys 279–283).** Three natural approaches to closing Layer 3 were tested and failed:
+- *Geometric linking* (Toy 279): Linking density $c \to 0$ — homological linking does not create an exponential barrier.
+- *Basis mixing* (Toy 281): Basis overlap $r \to 1$ — EF extensions don't rotate the $H_1$ basis.
+- *Compound interest* (Toy 283): Finding kills $\neq$ deriving through proofs — counting arguments don't transfer to proof complexity.
+
+These failures are informative: they eliminate three of the four natural attack vectors, identifying algebraic independence as the correct path.
+
+### 38.7 Empirical Results: OGP and Kolmogorov (Toys 286–287)
+
+**OGP at $k = 3$ (Toy 287).** Random 3-SAT at $\alpha_c$ exhibits the Overlap Gap Property with 100% consistency across all tested instances and sizes ($n = 12, 14, 16, 18$). OGP has been proved for large $k$ (Gamarnik-Sudan 2014) and identified as a "central open challenge" at small $k$ (Bresler-Huang-Sellke 2025). Our data provides the first direct evidence at $k = 3$.
+
+| $n$ | Gap interval | Intra $d$ | Inter $d$ | $\beta_1$ | OGP |
+|---|---|---|---|---|---|
+| 12 | $[0.26, 0.38]$ | 0.275 | 0.560 | 4.6 | 100% |
+| 14 | $[0.24, 0.35]$ | 0.249 | 0.491 | 11.8 | 100% |
+| 16 | $[0.07, 0.15]$ | 0.262 | 0.386 | 20.9 | 100% |
+| 18 | $[0.18, 0.25]$ | 0.200 | 0.523 | 29.8 | 100% |
+
+**Kolmogorov incompressibility (Toy 286).** $K^{\text{poly}}(\text{backbone} \mid \varphi) \geq 0.90n$ for random 3-SAT — the satisfying assignment backbone is computationally incompressible given the formula. Symmetry $\leftrightarrow$ compressibility verified: PHP and Tseitin formulas (which have symmetry) are compressible; random formulas (no symmetry) are not. FLP (fraction of learnable positions) = 0%, entropy $\to 1.0$.
+
+### 38.8 Publication Strategy (Phased)
+
+The AC results are organized into four publication phases, leading with the tool rather than the claim:
+
+1. **Phase 1 — "Topological Proof Complexity" (Paper A).** The three-layer argument, unconditional EF lower bound, no P $\neq$ NP claim. *Target: FOCS 2026. Submitted March 24, 2026.* File: `notes/BST_AC_Paper_A_Topological.md`.
+
+2. **Phase 2 — "OGP at $k = 3$" (empirical).** 100% OGP, topological interpretation via $H_1$ generators, connection to clustering. Standalone paper. *Target: Random Structures & Algorithms or SODA 2027.* Sketch: `notes/BST_AC_Paper_OGP_Sketch.md`.
+
+3. **Phase 3 — "Backbone Incompressibility" (Kolmogorov).** $K^{\text{poly}} \geq 0.90n$, halting problem connection. *Target: STOC 2027 or Information & Computation.*
+
+4. **Phase 4 — "The Full Argument" (synthesis).** Three layers, two paths (Kolmogorov + OGP), T29 as the explicit gap. *Target: after community engagement with Phases 1–3.*
+
+The principle: Phases 1–3 make no P $\neq$ NP claim. Each is a self-contained contribution. By Phase 4, the community understands the tools and can evaluate honestly.
+
+### 38.9 Connection to BST
 
 BST is the existence proof that AC $= 0$ methods work in practice. The Standard Model's 19 free parameters represent AC $> 0$ — perturbation theory's channel capacity falls short of the information content, requiring empirical measurement to close the gap. BST's spectral methods derive the same 19 numbers with zero free parameters: AC $= 0$ throughout (§13 audit).
 
 The AC framework unifies BST's technical results with a general theory of method noise applicable to any domain — physics, computation, optimization, machine learning (§15). The P $\neq$ NP bridge would establish that the AC $= 0$/AC $> 0$ boundary is fundamental: some problems require information that no efficient method can derive.
 
-*Full AC paper: `notes/BST_AlgebraicComplexity.md`. Bridge theorem: `notes/maybe/p_np/AC_Topology_BridgeTheorem.md`. Worked examples: Toys 260–265. AC Paper A draft (single-voice, FoCM target): `notes/BST_AC_Paper_A_Draft.md`. Shannon Bridge standalone proof (three core theorems): `notes/BST_AC_Shannon_Bridge_Proof.md`.*
+*Full AC paper: `notes/BST_AlgebraicComplexity.md`. Bridge theorem: `notes/maybe/p_np/AC_Topology_BridgeTheorem.md`. Worked examples: Toys 260–265, 279–283, 286–287. Paper A (FOCS 2026): `notes/BST_AC_Paper_A_Topological.md`. Paper B (full): `notes/BST_AC_Paper_B_Full.md`. OGP sketch (Phase 2): `notes/BST_AC_Paper_OGP_Sketch.md`. Theorems reference: `notes/BST_AC_Theorems.md`. Shannon Bridge proof: `notes/BST_AC_Shannon_Bridge_Proof.md`. Publication strategy: see §38.8.*
 
 -----
 

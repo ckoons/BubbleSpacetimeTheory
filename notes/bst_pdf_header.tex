@@ -138,8 +138,15 @@
 \newunicodechar{∞}{$\infty$}
 \newunicodechar{∂}{$\partial$}
 \newunicodechar{∇}{$\nabla$}
-% ∫ ∑ ∏ omitted: unicode-math maps \int \sum \prod to these chars
-% internally, causing recursion. They never appear bare in text.
+% ── N-ary operators (unicode-math recursion fix) ───────────────
+% unicode-math redefines \sum, \prod, \int to output their Unicode
+% codepoints. Mapping those codepoints back via the same commands
+% causes infinite recursion. Fix: \Umathchar (XeTeX primitive)
+% references the glyph slot directly, bypassing the redefinition.
+\newcommand{\bstmathsafe}[1]{\ifmmode #1\else $#1$\fi}
+\newunicodechar{∑}{\bstmathsafe{\Umathchar 1 0 "2211}}
+\newunicodechar{∏}{\bstmathsafe{\Umathchar 1 0 "220F}}
+\newunicodechar{∫}{\bstmathsafe{\Umathchar 1 0 "222B}}
 \newunicodechar{∧}{$\wedge$}
 \newunicodechar{∨}{$\vee$}
 \newunicodechar{¬}{$\lnot$}
