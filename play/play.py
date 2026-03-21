@@ -117,6 +117,13 @@ CATEGORIES = {
         'incompressible_witness',
         'overlap_gap',
         'march_to_a16',
+        'circle_confinement',
+        'noether_charge',
+        'probe_hierarchy',
+        'adaptive_conservation',
+        'channel_contraction',
+        'cycle_delocalization',
+        'backbone_sensitivity',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -456,6 +463,13 @@ METADATA = {
     'incompressible_witness':     ('The Incompressible Witness: K(b|φ)=Θ(n)',  'Elie: Backbone of random 3-SAT is poly-time incompressible. FLP ceiling + local unpredictability + high entropy = Kolmogorov proof of T29. Path C: the kill shot.'),
     'overlap_gap':                ('The Overlap Gap: OGP at k=3',              'Elie: Solution space clusters with forbidden overlap interval at α_c. Gamarnik-Sudan for large k; visible at k=3. Path B: β₁ cycles create the clustering dimensions.'),
     'march_to_a16':               ('The March to a₁₆: Deep Cascade',           'Elie: dps=800, P_MAX=1500, n=3..35. Exact polynomials a₁..a₁₁ eliminate cascade error. Push through a₁₂ wall to a₁₆. Prime entry pattern: 29 at k=13? 31 at k=15?'),
+    'circle_confinement':         ('Circle Confinement: Guard Cycles',          'Elie: Casey\'s circle reformulation of 3-SAT. Circumscribed disks, Čech β₁ vs simplicial β₁. Result: ℝ² embedding floods topology. The information is combinatorial, not geometric.'),
+    'noether_charge':             ('Noether Charge: The Shannon',               'Elie: Conserved information charge Q = Σ H(C_i) - H(∧C_i). Q = 0.62n Shannons at α_c. The substrate stores the correlations. No bounded process can read the substrate.'),
+    'probe_hierarchy':            ('Probe Hierarchy: Isotropy vs Strength',     'Elie: Does perfect isotropy survive stronger probes? UP, FL, DPLL, BP. Where does SO(2) symmetry first break? The hierarchy boundary IS proof complexity in Shannons.'),
+    'adaptive_conservation':      ('Adaptive Conservation: The Kill Shot',      'Elie: Does bits/n -> 0 survive adaptive probing? Random, Greedy, Lookahead, Full-FL, Oracle. Non-localizability means even adaptive strategies can\'t concentrate the charge.'),
+    'channel_contraction':        ('Channel Contraction: Measuring η Directly',  'Elie: Per-step contraction coefficient of backbone extraction channel. Tree info = 0 (ALL backbone info is cycle-mediated). Two channels: clause→variable amplifies, formula→algorithm contracts.'),
+    'cycle_delocalization':       ('Cycle Delocalization: Depth Distribution',   'Elie: 8/8. UP=0, FL=0 everywhere. Refutation depth shifts RIGHT with n (1.38→2.32). H₁ generators are SHORT (3-5) but interpretation is #P-hard. β₁/|B| grows. The backbone retreats deeper into the logical structure.'),
+    'backbone_sensitivity':       ('Backbone Sensitivity: Circuit Depth Proxies', 'Elie: Lyra Direction 2. Clause-flip sensitivity, certificate complexity, global sensitivity. Huang (2019): depth(f) ≥ log(sens(f)). If sens=Θ(n) → not in AC⁰. Circuit-level interpretability barrier.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -731,6 +745,13 @@ _STEM_TO_NUMBER = {
     'incompressible_witness': 286,
     'overlap_gap': 287,
     'march_to_a16': 288,
+    'circle_confinement': 289,
+    'noether_charge': 290,
+    'probe_hierarchy': 291,
+    'adaptive_conservation': 292,
+    'channel_contraction': 293,
+    'cycle_delocalization': 294,
+    'backbone_sensitivity': 295,
 }
 
 

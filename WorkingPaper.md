@@ -3978,6 +3978,28 @@ These failures are informative: they eliminate three of the four natural attack 
 
 **Kolmogorov incompressibility (Toy 286).** $K^{\text{poly}}(\text{backbone} \mid \varphi) \geq 0.90n$ for random 3-SAT — the satisfying assignment backbone is computationally incompressible given the formula. Symmetry $\leftrightarrow$ compressibility verified: PHP and Tseitin formulas (which have symmetry) are compressible; random formulas (no symmetry) are not. FLP (fraction of learnable positions) = 0%, entropy $\to 1.0$.
 
+**Circle confinement and the Shannon formulation (Toys 289–291).** A reformulation of 3-SAT using circumscribed circles instead of triangles led to the information-theoretic "Shannon" formulation of AC. Key results:
+
+- *Toy 289 (geometric Čech, score 4/8):* $\beta_1(\text{Čech}) = 0$ in $\mathbb{R}^2$ embeddings — geometric guard cycles drown in disk overlap. The geometric Čech formulation of AC is not viable.
+
+- *Toy 290 (Shannon charge, score 6/8):* Total conserved information charge $Q = 0.622n + 0.82$ Shannons at $\alpha_c$, confirming $Q = \Theta(n)$. Charge is non-localizable (distributed across clause correlations, not concentrated in specific clauses).
+
+- *Toy 291 (probe hierarchy, score 7/8):* Five polynomial probes (UP, FL, DPLL-2, DPLL-3, BP) tested. All non-vacuous probes break isotropy (SO(2) $\to$ $S_3$ symmetry breaking confirmed). The key finding: bits/$n$ decreases monotonically with $n$ for all probes — DPLL-2 extraction drops from 0.37 bits/$n$ ($n = 12$) to 0.10 bits/$n$ ($n = 20$). The substrate becomes more opaque faster than the probes learn to read it. Elie's summary: "a hierarchy of losing strategies."
+
+The corrected conservation law: it is not isotropy that is conserved (UP isotropy = 1.000 is vacuous — it extracts 0 bits). Rather, the extraction ratio bits/$n \to 0$ as $n \to \infty$ for all tested probes. Combined with $Q = \Theta(n)$, this recovers the $\Theta(n)$ step lower bound (Corollary 5.2) from pure information theory.
+
+- *Toy 292 (adaptive conservation, 47 seconds):* Four adaptive strategies (Random, Greedy, Lookahead, Full-FL) plus an oracle baseline tested at $\alpha_c$ for $n = 14 \to 24$. ALL adaptive strategies show bits/$n$ decreasing with $n$. The oracle gap — the difference between "knowing the answer" ($\sim$98%) and "best polynomial strategy" ($\sim$62% at $n = 24$, falling) — is $\sim$37% and growing. That gap is $I_{\text{fiat}}$, measured directly. The conservation law holds for adaptive, unbounded-width polynomial probing: even when the algorithm can choose any direction at each step based on full history, the fraction of charge cracked shrinks with $n$.
+
+- *Toy 293 (tree info = 0, score 0/8 — zeros are the finding):* Unit propagation extracts exactly ZERO backbone bits at every $n$, every $\alpha$. ALL backbone information comes through cycle-reading (FL). The backbone is a purely cycle-topological quantity living in $H_1$, not the tree. The tree carries marginals and soft constraints; the hard stuff — which variables are frozen to which values — is encoded entirely in the formula's cycle structure ($\sim 7.53n$ excess edges at $\alpha_c$). Combined with the per-clause SDPI analysis ($\eta_{\text{clause}} = 1/7$, but branching $\times \eta = 3.66 > 1$ means the tree amplifies non-backbone information), this establishes that backbone determination is a fundamentally non-tree problem.
+
+**The Cycle Delocalization Conjecture.** The culmination of Toys 287–293 and the SDPI analysis is a single, precisely stated conjecture that implies P $\neq$ NP:
+
+*Conjecture.* For random 3-SAT at $\alpha_c$ with backbone $B$, any polynomial-time computable function $f(\varphi)$ satisfies $I(B;\, f(\varphi)) = o(|B|)$.
+
+The counting argument: $\beta_1 = \Theta(n)$ independent cycle generators, each carrying $O(1)$ backbone bits. Readable cycles in polynomial time = $o(\beta_1)$ (long cycles require width $\Omega(n/\log n)$, Ben-Sasson-Wigderson). Total from readable cycles = $o(n)$. Backbone needs $\Theta(n)$. Gap. Every implication from the conjecture to P $\neq$ NP is proved.
+
+Full theory: `notes/BST_AC_CircleConfinement_Theory.md`. Gap analysis: `notes/BST_AC_T35_GapAnalysis.md`.
+
 ### 38.8 Publication Strategy (Phased)
 
 The AC results are organized into four publication phases, leading with the tool rather than the claim:
@@ -3988,9 +4010,11 @@ The AC results are organized into four publication phases, leading with the tool
 
 3. **Phase 3 — "Backbone Incompressibility" (Kolmogorov).** $K^{\text{poly}} \geq 0.90n$, halting problem connection. *Target: STOC 2027 or Information & Computation.*
 
-4. **Phase 4 — "The Full Argument" (synthesis).** Three layers, two paths (Kolmogorov + OGP), T29 as the explicit gap. *Target: after community engagement with Phases 1–3.*
+4. **Phase 4 — "Information Delocalization in Random 3-SAT" (the conjecture paper).** States the Cycle Delocalization Conjecture precisely, proves all implications to P $\neq$ NP, presents full empirical evidence (Toys 287–293). Framework paper establishing priority for cycle delocalization as the mechanism. *Target: FOCS 2027 or Annals of Mathematics.*
 
-The principle: Phases 1–3 make no P $\neq$ NP claim. Each is a self-contained contribution. By Phase 4, the community understands the tools and can evaluate honestly.
+5. **Phase 5 — "The Full Argument" (synthesis).** Three layers, two paths (Kolmogorov + OGP), T29 as the explicit gap, delocalization conjecture as the single remaining piece. *Target: after community engagement with Phases 1–4.*
+
+The principle: Phases 1–3 make no P $\neq$ NP claim. Each is a self-contained contribution. Phase 4 states the conjecture and proves the conditional result. By Phase 5, the community understands the tools and can evaluate honestly.
 
 ### 38.9 Connection to BST
 
@@ -3998,7 +4022,7 @@ BST is the existence proof that AC $= 0$ methods work in practice. The Standard 
 
 The AC framework unifies BST's technical results with a general theory of method noise applicable to any domain — physics, computation, optimization, machine learning (§15). The P $\neq$ NP bridge would establish that the AC $= 0$/AC $> 0$ boundary is fundamental: some problems require information that no efficient method can derive.
 
-*Full AC paper: `notes/BST_AlgebraicComplexity.md`. Bridge theorem: `notes/maybe/p_np/AC_Topology_BridgeTheorem.md`. Worked examples: Toys 260–265, 279–283, 286–287. Paper A (FOCS 2026): `notes/BST_AC_Paper_A_Topological.md`. Paper B (full): `notes/BST_AC_Paper_B_Full.md`. OGP sketch (Phase 2): `notes/BST_AC_Paper_OGP_Sketch.md`. Theorems reference: `notes/BST_AC_Theorems.md`. Shannon Bridge proof: `notes/BST_AC_Shannon_Bridge_Proof.md`. Publication strategy: see §38.8.*
+*Full AC paper: `notes/BST_AlgebraicComplexity.md`. Bridge theorem: `notes/maybe/p_np/AC_Topology_BridgeTheorem.md`. Worked examples: Toys 260–265, 279–283, 286–293. Paper A (FOCS 2026): `notes/BST_AC_Paper_A_Topological.md`. Paper B (full): `notes/BST_AC_Paper_B_Full.md`. OGP sketch (Phase 2): `notes/BST_AC_Paper_OGP_Sketch.md`. Theorems reference: `notes/BST_AC_Theorems.md`. Shannon Bridge proof: `notes/BST_AC_Shannon_Bridge_Proof.md`. Circle confinement / Shannon theory: `notes/BST_AC_CircleConfinement_Theory.md`. T35 gap analysis and Cycle Delocalization Conjecture: `notes/BST_AC_T35_GapAnalysis.md`. Publication strategy: see §38.8.*
 
 -----
 

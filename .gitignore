@@ -6,6 +6,7 @@ notes/CI_BOARD.md
 notes/COORDINATION.*
 notes/submission/
 notes/build_submission.sh
+notes/patent/
 
 # CI communication — ephemeral, reset daily
 notes/.running/
