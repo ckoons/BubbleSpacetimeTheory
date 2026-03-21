@@ -116,6 +116,7 @@ CATEGORIES = {
         'halting_shadow',
         'incompressible_witness',
         'overlap_gap',
+        'march_to_a16',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -454,6 +455,7 @@ METADATA = {
     'halting_shadow':             ('The Halting Shadow: Undecidability at α_c', 'Elie: SAT/UNSAT invisible until last clauses. Algorithm can\'t detect completion. P≠NP is the halting problem\'s shadow in complexity theory. Turing > Boltzmann > Shannon.'),
     'incompressible_witness':     ('The Incompressible Witness: K(b|φ)=Θ(n)',  'Elie: Backbone of random 3-SAT is poly-time incompressible. FLP ceiling + local unpredictability + high entropy = Kolmogorov proof of T29. Path C: the kill shot.'),
     'overlap_gap':                ('The Overlap Gap: OGP at k=3',              'Elie: Solution space clusters with forbidden overlap interval at α_c. Gamarnik-Sudan for large k; visible at k=3. Path B: β₁ cycles create the clustering dimensions.'),
+    'march_to_a16':               ('The March to a₁₆: Deep Cascade',           'Elie: dps=800, P_MAX=1500, n=3..35. Exact polynomials a₁..a₁₁ eliminate cascade error. Push through a₁₂ wall to a₁₆. Prime entry pattern: 29 at k=13? 31 at k=15?'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -728,6 +730,7 @@ _STEM_TO_NUMBER = {
     'halting_shadow': 285,
     'incompressible_witness': 286,
     'overlap_gap': 287,
+    'march_to_a16': 288,
 }
 
 

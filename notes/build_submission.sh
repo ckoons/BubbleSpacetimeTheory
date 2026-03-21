@@ -80,11 +80,22 @@ build() {
 }
 
 # ── FOCS submission package ────────────────────────────────────────
+# Double-blind: strip author names, anonymize for review
 build_focs() {
-    echo "=== FOCS 2026 Submission Package ==="
-    build "notes/BST_AC_Paper_A_Topological.md" \
+    echo "=== FOCS 2026 Submission Package (double-blind) ==="
+    local tmpmd
+    tmpmd=$(mktemp /tmp/focs_XXXXXX.md)
+    # Strip author line, duplicate title, and trailing signature for double-blind
+    sed -e 's/^author:.*/author: ""/' \
+        -e '/^# Topological Proof Complexity/d' \
+        -e '/^\*\*Casey Koons/d' \
+        -e '/^\*Casey Koons/d' \
+        "notes/BST_AC_Paper_A_Topological.md" > "$tmpmd"
+    build "$tmpmd" \
           "$OUTDIR/Koons_PaperA_Topological_FOCS2026.pdf" \
-          "${PANDOC_FOCS[@]}"
+          "${PANDOC_FOCS[@]}" \
+          -M date="March 2026"
+    rm -f "$tmpmd"
     echo ""
 }
 

@@ -20,11 +20,11 @@ We study the topology of constraint complexes for random $k$-SAT formulas at the
 
 **(1) Unified Topological Lower Bound.** All proof systems whose derivation steps operate on the $(w-1)$-skeleton of the constraint complex (for constant $w$) require size $2^{\Omega(n)}$ on random 3-SAT at the satisfiability threshold $\alpha_c$. This unifies the exponential lower bounds for resolution (Chvátal-Szemerédi 1988), cutting planes (Pudlák 1997), polynomial calculus (Razborov 1998), and Lasserre/SOS (Schoenebeck 2008) as instances of a single dimensional obstruction.
 
-**(2) Weak Homological Monotonicity.** For any 1-clause arity-$k$ extension of a connected VIG clique complex: $\Delta\beta_1 \in \{0, +1\}$. Extensions never reduce the first Betti number. Combined with the steady-state theorem ($\beta_1 = \Theta(n)$ is a ground state), this gives the first unconditional polynomial lower bound $S \geq \Theta(n)$ for all proof systems including Extended Frege on random 3-SAT.
+**(2) Weak Homological Monotonicity.** For any 1-clause arity-$k$ extension of a connected VIG clique complex: $\Delta\beta_1 \in \{0, +1\}$. Extensions never reduce the first Betti number. This yields **the first unconditional lower bound on Extended Frege proof size for random 3-SAT**: $S \geq \Theta(n)$. While polynomial rather than exponential, this is the first result of any kind showing that EF cannot refute random 3-SAT in sublinear size.
 
 **(3) Topological Inertness.** The $H_1$ basis of the original VIG clique complex embeds isomorphically into the $H_1$ of any extended complex. For 1-clause extensions, $r = 1$ exactly (the original homology is completely preserved). For $k$-clause extensions, the fraction of original $H_1$ generators affected is $O(k^2/n) \to 0$. Extension variables add independent cycles that live in a direct-sum complement of the original homology.
 
-Together, these results establish a *three-layer argument*: (Layer 1) all bounded-width systems are exponential; (Layer 2) EF extensions cannot reduce the topological complexity of the original formula. The remaining question — whether random 3-SAT with trivial automorphism group admits any non-topological algebraic structure exploitable by EF — is identified as the sole remaining obstacle to proving P $\neq$ NP via this approach.
+Together, these results establish a *three-layer argument*: (Layer 1) all bounded-width systems are exponential; (Layer 2) EF extensions cannot reduce the topological complexity of the original formula. The remaining open question — whether the topological invariance of the constraint complex under extensions fully determines EF proof complexity, or whether non-topological algebraic structure can be exploited when $\text{Aut}(\varphi) = \{e\}$ — connects simplicial topology to the central problems of proof complexity.
 
 ---
 
@@ -52,11 +52,11 @@ Our approach is to study what happens to this topological barrier when extension
 
 Our three main theorems show that extensions are topologically impotent:
 
-1. **All bounded-width systems are exponential** (Theorem 1): a unified proof covering resolution, cutting planes, polynomial calculus, and Lasserre, all as dimensional obstructions.
+1. **All bounded-width systems are exponential** (Theorem 3.1): a unified proof covering resolution, cutting planes, polynomial calculus, and Lasserre, all as dimensional obstructions.
 
-2. **Extensions never reduce $\beta_1$** (Theorem 4): for 1-clause extensions, $\Delta\beta_1 \in \{0, +1\}$. The first Betti number is monotonically non-decreasing under the extension process.
+2. **Extensions never reduce $\beta_1$** (Theorem 5.1): for 1-clause extensions, $\Delta\beta_1 \in \{0, +1\}$. The first Betti number is monotonically non-decreasing under the extension process.
 
-3. **Extensions preserve the original $H_1$ basis** (Theorem 5): the inclusion $K(\varphi) \hookrightarrow K'$ induces an injection on $H_1$. The original cycles are never killed by extensions.
+3. **Extensions preserve the original $H_1$ basis** (Theorem 6.1): the inclusion $K(\varphi) \hookrightarrow K'$ induces an injection on $H_1$. The original cycles are never killed by extensions.
 
 These results separate the topological content of the original formula from the noise introduced by extensions, establishing that EF's advantage over resolution (when it exists) must come from algebraic, not topological, structure.
 
@@ -86,10 +86,10 @@ More precisely, $\beta_1 \geq (2\alpha_c - 1)n - o(n) \geq 7.53n - o(n)$.
 
 *Proof.* The complex $K(\varphi)$ has:
 - Vertices: $V = n$
-- Edges: $E = \Theta(n)$ (each clause contributes 3 edges; for large $n$, the expected number of distinct edges is $3\alpha_c n - o(n)$, since the probability of a repeated edge is $O(1/n)$)
-- 2-faces: $F = \alpha_c n$ (one per clause, with negligible repeats)
+- Edges: $E = \Theta(n)$. Each clause contributes 3 variable-pairs. With $m = \alpha_c n$ clauses, the expected number of distinct edges is $3\alpha_c n - O(1)$ (the probability two clauses share a variable-pair is $O(1/n^2)$, giving $O(1)$ expected collisions). By McDiarmid's inequality (changing one clause affects $E$ by at most 3), $E \geq 3\alpha_c n - O(\sqrt{n \log n})$ with high probability.
+- 2-faces: $F = \alpha_c n - O(1)$ (one per clause, with $O(1)$ expected repetitions by the same argument).
 
-The VIG at density $\alpha_c$ is above the percolation threshold, so $\beta_0 = O(1)$ (dominated by one giant component). By the Euler characteristic:
+The VIG at density $\alpha_c$ has average degree $\sim 2E/n \approx 25.6$, well above the Erdős-Rényi percolation threshold, so $\beta_0 = 1 + o(1)$ w.h.p. (one giant component absorbs all but $o(n)$ vertices). By the Euler characteristic:
 
 $$\chi = V - E + F = \beta_0 - \beta_1 + \beta_2$$
 
@@ -186,17 +186,13 @@ Each triangle $[p, x_i, x_j]$ has boundary $[x_i, x_j] - [p, x_j] + [p, x_i]$. S
 
 In general position (typical for random formulas), consecutive triangles share exactly one old edge, creating a chain of $k$ triangles with $k - 1$ shared old edges. Each shared old edge closes a loop: the two consecutive triangles plus the shared edge form a cycle. These $k - 1$ cycles are independent (they differ by single triangles). $\square$
 
-### 4.3 Confinement Steady State
+### 4.3 Topological Cost of Extensions
 
-**Theorem 4.2 (Confinement Steady State).** For random 3-SAT at $\alpha_c$ with $\beta_1 = \Theta(n)$: no polynomial-size sequence of extensions can reduce $\beta_1$ to zero. More precisely, $\beta_1(K') \geq \beta_1(K(\varphi)) = \Theta(n)$ for any extended complex $K'$.
+**Theorem 4.2 (Extension Cost Bound).** Each clause added to $K(\varphi)$ — whether from an extension definition or a derivation — introduces at most one new 2-face and changes $\beta_1$ by at most $\pm 1$. For 1-clause extensions introducing a new variable, $\Delta\beta_1 \geq 0$ (Theorem 5.1 below). For subsequent clauses involving an existing variable, the 2-face may fill an existing cycle, giving $\Delta\beta_1 = -1$.
 
-*Proof.* By Theorem 4.1, each extension creates $k - 1 \geq 0$ new cycles. By Theorem 5.1 below, each extension reduces $\beta_1$ by at most 0 (for 1-clause extensions, $\Delta\beta_1 \geq 0$; for $k$-clause extensions, the expected reduction is at most $O(k^2/n)$ per original cycle). After $T$ extensions with total arity $\sum k_i$:
+*Proof.* A clause of arity 3 adds at most one triangle $[a, b, c]$ to $K'$ (if the triangle is not already present). The Euler characteristic changes by $\Delta\chi = \Delta V - \Delta E + 1$, where $\Delta V \in \{0, 1\}$ and $\Delta E \in \{0, 1, 2, 3\}$ depend on which faces are new. Since $\Delta\beta_0 \leq 0$ (adding simplices cannot disconnect the complex) and $\Delta\beta_2 \geq 0$: $\Delta\beta_1 = \Delta\beta_0 - \Delta\chi + \Delta\beta_2 \leq -\Delta\chi + \Delta\beta_2$. The maximum decrease occurs when $\Delta V = \Delta E = 0$ (filling a hole with a triangle whose boundary edges all exist): $\Delta\chi = +1$, giving $\Delta\beta_1 \leq -1$. $\square$
 
-$$\beta_1(K') \geq \beta_1(K(\varphi)) - O\left(\frac{\sum k_i^2}{n}\right) + \sum (k_i - 1)$$
-
-For polynomial-size proofs ($T = n^{O(1)}$, $k_i = O(\log n)$):
-
-$$\beta_1(K') \geq \Theta(n) - O(n^{O(1)} \cdot \log^2 n / n) + \Theta(T) \geq \Theta(n) \qquad \square$$
+**Corollary 4.3.** Any proof of size $S$ (total clauses) can reduce $\beta_1$ by at most $S$. Since $\beta_1(K(\varphi)) = \Theta(n)$ for random 3-SAT at $\alpha_c$, any refutation requires $S \geq \Theta(n)$.
 
 ---
 
@@ -230,9 +226,9 @@ In both cases, $\Delta\beta_1 \geq 0$. $\square$
 
 **Corollary 5.2 (Unconditional polynomial EF lower bound).** For random 3-SAT at $\alpha_c$ with $n$ variables, any EF refutation has size $S \geq \beta_1(K(\varphi)) = \Theta(n)$.
 
-*Proof.* Each line of the EF proof either derives a clause (adding a 2-face to the constraint complex, potentially reducing $\beta_1$ by at most 1) or introduces an extension variable (which by Theorem 5.1 does not reduce $\beta_1$). To reduce $\beta_1$ from $\Theta(n)$ to 0 (as required for refutation, since the empty clause has $\beta_1 = 0$), the proof must contain at least $\Theta(n)$ derivation steps. $\square$
+*Proof.* An EF proof of size $S$ contains $S$ clauses (axioms, extension definitions, and derived clauses). By Theorem 4.2, each clause changes $\beta_1$ by at most $\pm 1$. The initial complex has $\beta_1(K(\varphi)) = \Theta(n)$ (Theorem 2.1). To derive the empty clause (which contributes no topology), the proof must reduce $\beta_1$ to accommodate the contradiction. Since each step reduces $\beta_1$ by at most 1, we need $S \geq \beta_1(K(\varphi)) = \Theta(n)$. $\square$
 
-**Remark.** This is the first unconditional lower bound on EF proof size for random 3-SAT. While polynomial ($\Theta(n)$), not exponential, it is tight against the extension mechanism: it shows that extensions alone cannot reduce the topological complexity.
+**Remark.** Theorem 5.1 provides a stronger statement for the extension mechanism specifically: 1-clause extensions (introducing a new variable) never reduce $\beta_1$. Multi-clause extensions (adding defining clauses for an existing extension variable) can reduce $\beta_1$ by filling cycles, but each clause fills at most one. The value of Theorem 5.1 is qualitative: it shows that the extension mechanism — the feature distinguishing EF from resolution — is topologically impotent. EF's advantage, when it exists, must be algebraic.
 
 ### 5.1 Computational Verification
 
@@ -285,6 +281,8 @@ $$\sum_i \lambda_i ([p, x_{a_i}] + [p, x_{b_i}]) = 0 \pmod{2}$$
 
 This forces a specific parity structure on the $\lambda_i$. The remaining "old" boundary terms $\sum_i \lambda_i [x_{a_i}, x_{b_i}]$ must then equal $\gamma$. For random placement of the $2k$ neighbors among $n$ vertices, the probability that these old edges form a specific cycle $\gamma$ is at most $O(k^2/n)$ (there are $O(k^2)$ possible old-edge combinations, each matching $\gamma$ with probability $O(1/n^{|\gamma|})$, summed over cycles of bounded length). $\square$
 
+**Remark.** Part (b) assumes random placement of extension neighbors. For adversarial extensions (as in EF proofs), a $k$-clause extension can kill a cycle $\gamma$ of length $\leq k$ by forming a "cone" from $p$ over $\gamma$: if $p$ is connected to every vertex of $\gamma$ and the $k$ triangles tile the cycle, the cone's boundary equals $\gamma$. However, by Theorem 4.2, each clause kills at most one cycle regardless, so the adversarial case does not affect the proof-size lower bound (Corollary 5.2). Part (a) — the inertness of 1-clause extensions — holds without any randomness assumption.
+
 ### 6.1 Computational Verification
 
 Theorem 6.1 was verified computationally (Toy 281):
@@ -332,9 +330,9 @@ In each case where EF achieves polynomial-size proofs:
 2. The extension variables encode operations that exploit this structure (counting, parity).
 3. The topological complexity is large, but the algebraic structure provides a "back door" that bypasses the topology.
 
-For random 3-SAT at the threshold: $\text{Aut}(\varphi) = \{e\}$ with high probability (Friedgut 1999). The formula has no symmetry, no linearity, no algebraic structure. The natural conjecture is:
+For random 3-SAT at the threshold: $\text{Aut}(\varphi) = \{e\}$ with high probability (Friedgut 1999). The formula has no symmetry, no linearity, no algebraic structure. This suggests:
 
-**Conjecture 7.1.** For random 3-SAT at $\alpha_c$ with $n$ variables, EF refutations require size $2^{\Omega(n)}$.
+**Open Question 7.1.** Is it the case that for random 3-SAT at $\alpha_c$ with $n$ variables, EF refutations require size $2^{\Omega(n)}$? The absence of exploitable algebraic structure in random instances — contrasted with the known polynomial EF proofs that all rely on symmetry — makes this a natural boundary question.
 
 ### 7.3 Relationship to Known Results
 
@@ -354,19 +352,19 @@ $$I(\text{sol}(\gamma_i); \text{sol}(\gamma_j)) = 0 \quad \text{for } i \neq j$$
 
 then the joint search is a product of $\beta_1 = \Theta(n)$ independent searches, giving $2^{\Theta(n)}$ total work by Shannon's source coding theorem.
 
-**Conjecture 7.2 (Algebraic Independence).** For random 3-SAT at $\alpha_c$ with $\text{Aut}(\varphi) = \{e\}$: topological independence of $H_1$ generators implies algebraic independence of their solution spaces.
+**Open Question 7.2 (Algebraic Independence).** For random 3-SAT at $\alpha_c$ with $\text{Aut}(\varphi) = \{e\}$: does topological independence of $H_1$ generators imply algebraic independence of their solution spaces?
 
-The PHP counterexample shows this requires $\text{Aut}(\varphi) = \{e\}$: PHP has topologically independent cycles but algebraically correlated solutions, because the $S_n$ symmetry group creates a global counting function that correlates all cycles simultaneously. Without symmetry, no such correlation mechanism is known to exist.
+The PHP counterexample shows why the condition $\text{Aut}(\varphi) = \{e\}$ is essential: PHP has topologically independent cycles but algebraically correlated solutions, because the $S_n$ symmetry group creates a global counting function that correlates all cycles simultaneously. Without symmetry, no such correlation mechanism is known to exist.
 
 ### 7.5 What Would Close Layer 3
 
-Two equivalent formulations:
+Two approaches that would resolve Open Questions 7.1-7.2:
 
-**(A) Algebraic independence.** Prove Conjecture 7.2. Then: $\Theta(n)$ independent searches $\to$ $\prod |\text{search}(\gamma_i)| = 2^{\Theta(n)}$ $\to$ MIFC $\to$ P $\neq$ NP.
+**(A) Algebraic independence.** Resolve Open Question 7.2 affirmatively. This would yield $\Theta(n)$ independent searches, giving $2^{\Theta(n)}$ total work by Shannon's source coding theorem.
 
-**(B) Symmetry characterization.** Prove that every polynomial-size EF proof on a formula $\varphi$ with $\beta_1 = \Theta(n)$ requires $\text{Aut}(\varphi) \neq \{e\}$ — that is, symmetry is a necessary condition for EF efficiency when the topology is complex.
+**(B) Symmetry characterization.** Show that every polynomial-size EF proof on a formula $\varphi$ with $\beta_1 = \Theta(n)$ requires $\text{Aut}(\varphi) \neq \{e\}$ — that symmetry is a necessary condition for EF efficiency when the topology is complex.
 
-Either formulation would give: EF on random 3-SAT requires $2^{\Omega(n)}$.
+Either approach would resolve the EF complexity of random 3-SAT.
 
 ---
 
@@ -402,17 +400,17 @@ Toy 282 directly measured the structure of $H_1$ generators and the cost of reso
 
 Three findings: (1) Generator supports are nearly disjoint — mean 4 edges per generator, Jaccard $\to 0$; (2) Kill probability $P_{\text{kill}} \sim n^{-2}$; (3) Compound cost trend increases ($0.85 \to 1.60 \to 1.92$): each cycle kill makes the next harder.
 
-**Conditional exponential (Theorem 8.1).** If Conjecture 7.2 (algebraic independence) holds, then the width argument of §7.5 combined with the compound cost data gives EF $\geq 2^{\Omega(n)}$:
+**Conditional exponential (Theorem 8.1).** If Open Question 7.2 (algebraic independence) holds, then the width argument of §7.5 combined with the compound cost data gives EF $\geq 2^{\Omega(n)}$:
 
-*Stage 1.* By Theorem 6.1 and Conjecture 7.2, encoding $t$ cycle parities requires extension arity $\Theta(t)$ (disjoint supports). No width reduction below $\Omega(n)$.
+*Stage 1.* By Theorem 6.1 and Open Question 7.2, encoding $t$ cycle parities requires extension arity $\Theta(t)$ (disjoint supports). No width reduction below $\Omega(n)$.
 
 *Stage 2.* Ben-Sasson (2001): resolution width $W = \Omega(n)$. BSW: $S \geq 2^{\Omega(n)}$.
 
-*~~Stage 3 (Shannon confirmation)~~ — FAILED (Toy 283).* Compound ratio $c \to 1$ as $n \to \infty$ ($1.009 \to 1.004 \to 1.000$). Individual kills are polynomial ($\sim n^2$). The exponential does NOT come from compound interest — it comes from the width bottleneck (Stages 1-2). FINDING $\neq$ DERIVING: Maxwell's Demon finds kills in $O(n^3)$; the proof system must derive them through width $\Omega(n)$.
+**Remark (Stage 3 — Shannon confirmation).** Toy 283 tested whether successive cycle kills exhibit compound cost growth. Result: $c \to 1$ as $n \to \infty$ ($1.009 \to 1.004 \to 1.000$). Individual kills are polynomial ($\sim n^2$). The exponential lower bound does not arise from compound interest — it arises from the width bottleneck (Stages 1-2). This distinction is important: an oracle that identifies cycle parities (FINDING) succeeds in $O(n^3)$ time, but a proof system must DERIVE them through width $\Omega(n)$, yielding $2^{\Omega(n)}$ by BSW.
 
-### 8.4 The Halting Shadow (Toy 285)
+### 8.4 SAT/UNSAT Topological Indistinguishability (Toy 285)
 
-Toy 285 directly tested whether the topology of $K(\varphi)$ can distinguish satisfiable from unsatisfiable instances at $\alpha_c$.
+Toy 285 tested whether polynomial-time topological invariants of $K(\varphi)$ can distinguish satisfiable from unsatisfiable instances at $\alpha_c$.
 
 | $n$ | $\beta_1^{\text{SAT}}$ | $\beta_1^{\text{UNSAT}}$ | Cohen's $d$ | Non-monotone | Backbone |
 |---|---|---|---|---|---|
@@ -422,11 +420,11 @@ Toy 285 directly tested whether the topology of $K(\varphi)$ can distinguish sat
 
 Cohen's $d = 0.32$ at midpoint, converging to 0. The topology is indistinguishable between SAT and UNSAT. All clause-addition trajectories are 100% non-monotone in $\beta_1$ — there is no topological signal marking the phase transition.
 
-This is exactly the prediction of the three-layer argument: if ANY polynomial-time-computable topological invariant distinguished SAT from UNSAT, it would yield a polynomial-time SAT solver. The topology's inability to see the boundary IS the P $\neq$ NP content. Five experiments (Toys 279, 281, 283, 284, 285) measuring five distinct observables all produce identical values for SAT and UNSAT instances. The exponential structure is unmeasurable from inside polynomial time.
+This is consistent with the three-layer argument: if any polynomial-time-computable topological invariant distinguished SAT from UNSAT, it would yield a polynomial-time decision procedure. Five independent experiments (Toys 279, 281, 283, 284, 285) measuring five distinct polynomial-time observables all produce statistically identical values for SAT and UNSAT instances.
 
-### 8.5 Kolmogorov Incompressibility of the Backbone (Toy 286)
+### 8.5 Polynomial-Time Kolmogorov Complexity of the Backbone (Toy 286)
 
-Toy 286 directly measured the polynomial-time Kolmogorov complexity of the backbone vector.
+Toy 286 measured the polynomial-time Kolmogorov complexity of the backbone vector for random 3-SAT at $\alpha_c$.
 
 | $n$ | Backbone (bits) | FLP reaches | Incompressible | Entropy | $\beta_1$/backbone |
 |---|---|---|---|---|---|
@@ -437,13 +435,13 @@ Toy 286 directly measured the polynomial-time Kolmogorov complexity of the backb
 
 $K^{\text{poly}}(\text{backbone} \mid \varphi) \geq 0.90n$ bits. Focused Local Propagation (the strongest polynomial-time local method) finds essentially zero backbone variables. Entropy approaches 1.0 — each forced bit carries a full bit of incompressible information. Growth is linear.
 
-**The one informative FAIL:** Local literal ratio predicts backbone VALUES at 77%, but degree predicts backbone MEMBERSHIP at only 55%. This VALUE $\neq$ MEMBERSHIP distinction means polarity correlation is computationally useless: knowing "backbone variables tend to be positive" doesn't help if you can't identify which variables are backbone.
+**Remark (VALUE $\neq$ MEMBERSHIP).** Local literal ratio predicts backbone VALUES at 77%, but degree predicts backbone MEMBERSHIP at only 55% (near random). Polarity correlation is computationally useless: knowing the likely value of a backbone variable does not help identify which variables are backbone.
 
-**The Kolmogorov argument.** A SAT solver must produce the backbone. No polynomial-time program extracts the backbone from the formula ($0.90n$ incompressible bits). Therefore no polynomial-time SAT solver exists. The formal proof reduces to proving $K^{\text{poly}} \geq 0.90n$ unconditionally, which by contrapositive is equivalent to Conjecture 7.2 (algebraic independence): if the backbone WERE compressible, a compressor would imply algebraic correlation between cycle parities, contradicting $\text{Aut}(\varphi) = \{e\}$.
+**The Kolmogorov argument.** A SAT solver must produce the backbone. If no polynomial-time program extracts the backbone from the formula ($0.90n$ incompressible bits), then no polynomial-time SAT solver exists. The formal proof reduces to proving $K^{\text{poly}} \geq 0.90n$ unconditionally. By contrapositive, compressibility of the backbone would imply algebraic correlation between cycle parities, contradicting $\text{Aut}(\varphi) = \{e\}$ — connecting to Open Question 7.2.
 
 ### 8.6 Overlap Gap Property at k=3 (Toy 287)
 
-Toy 287 tested whether random 3-SAT at $\alpha_c$ exhibits the Overlap Gap Property — the "central open challenge" identified by Bresler-Huang-Sellke. OGP is proved for large $k$ (Gamarnik-Sudan 2014) but open at $k = 3$.
+Toy 287 tested whether random 3-SAT at $\alpha_c$ exhibits the Overlap Gap Property — identified as a "central open challenge" by Bresler, Huang, and Sellke (2025). OGP is proved for large $k$ (Gamarnik and Sudan, 2014) but remains open at $k = 3$.
 
 | $n$ | Gap interval | Intra $d$ | Inter $d$ | Ratio | $\beta_1$ | OGP |
 |---|---|---|---|---|---|---|
@@ -452,11 +450,11 @@ Toy 287 tested whether random 3-SAT at $\alpha_c$ exhibits the Overlap Gap Prope
 | 16 | $[0.07, 0.15]$ | 0.262 | 0.386 | 1.5$\times$ | 20.9 | 100% |
 | 18 | $[0.18, 0.25]$ | 0.200 | 0.523 | 2.6$\times$ | 29.8 | 100% |
 
-**Result: 100% OGP.** Every instance at every size. No pair of solutions has normalized Hamming distance in the forbidden interval. The solution space clusters perfectly: intra-cluster $d \approx 0.2$, inter-cluster $d \approx 0.5$, nothing in between.
+**Result: 100% OGP** at every instance and every size tested. No pair of solutions has normalized Hamming distance in the forbidden interval. The solution space clusters cleanly: intra-cluster $d \approx 0.2$, inter-cluster $d \approx 0.5$.
 
-**Connection to the topological framework.** $\beta_1$ grows at $\sim 1.66n$ at $\alpha_c$. Each independent $H_1$ generator is one axis along which the solution space splits. The OGP is the geometric manifestation of the Kolmogorov barrier (§8.5): solutions cluster because the fiat vector is incompressible, and the gap exists because no short program bridges it.
+**Connection to the topological framework.** $\beta_1$ grows at $\sim 1.66n$ at $\alpha_c$. Each independent $H_1$ generator corresponds to an axis along which the solution space splits. The OGP is the geometric manifestation of the Kolmogorov barrier (§8.5): solutions cluster because the fiat vector is incompressible, and the gap exists because no polynomial-time procedure can interpolate between clusters.
 
-**Convergence.** Paths B (OGP) and C (Kolmogorov) arrive at the same conclusion from independent directions. If OGP is proved formally at $k = 3$: no local algorithm interpolates between clusters → cycle parities are algebraically independent (Conjecture 7.2) → P $\neq$ NP.
+**Convergence of Paths B and C.** The OGP evidence and the Kolmogorov evidence arrive at the same conclusion from independent directions. A formal proof of OGP at $k = 3$ would establish that no local algorithm interpolates between clusters, implying algebraic independence of cycle parities (Open Question 7.2).
 
 ---
 
@@ -467,11 +465,11 @@ We have established a topological framework for proof complexity that unifies kn
 The main results:
 
 1. **Unified lower bound:** All bounded-width systems are exponential on random 3-SAT (Theorem 3.1).
-2. **Monotonicity:** Extensions never reduce $\beta_1$ (Theorem 5.1).
+2. **Monotonicity:** 1-clause extensions never reduce $\beta_1$ (Theorem 5.1); multi-clause extensions reduce $\beta_1$ by at most 1 per clause (Theorem 4.2).
 3. **Inertness:** The original $H_1$ basis is preserved under extensions (Theorem 6.1).
 4. **Unconditional polynomial EF lower bound:** $S \geq \Theta(n)$ (Corollary 5.2).
 
-The remaining question — whether topological independence of $H_1$ generators implies algebraic independence of cycle solutions when $\text{Aut}(\varphi) = \{e\}$ — is identified as the sole gap. Two independent lines of empirical evidence support this: backbone incompressibility ($K^{\text{poly}} \geq 0.90n$, Toy 286) and the overlap gap property at $k = 3$ (100% OGP, Toy 287). Both converge on the same conclusion: cycle parities are algebraically independent for random 3-SAT with trivial automorphism. The formal proof reduces to a question about the computational power of symmetry: every known EF shortcut exploits symmetry ($S_n$ for PHP, GF(2) for Tseitin). Is symmetry the only mechanism?
+The central open question is whether topological independence of $H_1$ generators implies algebraic independence of cycle solutions when $\text{Aut}(\varphi) = \{e\}$ (Open Question 7.2). Two independent lines of empirical evidence bear on this: backbone incompressibility ($K^{\text{poly}} \geq 0.90n$, Toy 286) and the overlap gap property at $k = 3$ (100% OGP, Toy 287). Both suggest that cycle parities are algebraically independent for random 3-SAT with trivial automorphism. Every known polynomial-size EF proof exploits algebraic structure — symmetry ($S_n$ for PHP) or linearity ($\text{GF}(2)$ for Tseitin). Whether such structure is necessary for EF efficiency remains open.
 
 ### 9.1 Remark: AC is AC(0)
 
@@ -485,15 +483,23 @@ The analogy is exact: a proof system with $\text{AC}(Q, M) > 0$ cannot efficient
 
 ---
 
+## AI Disclosure
+
+This paper was developed in collaboration with Claude (Anthropic, model Claude Opus 4.6), which assisted with proof formalization, computational experiment design, and manuscript preparation. All mathematical content, conjectures, and experimental designs originate with the author. The author has verified the correctness and originality of all content including references.
+
+---
+
 ## References
 
 - Atserias, A., Dalmau, V. (2008). A combinatorial characterization of resolution width. *JCSS* 74(3), 323–346.
 - Beame, P., Pitassi, T., Segerlind, N. (2007). Lower bounds for Lovász-Schrijver systems and beyond follow from multiparty communication complexity. *SICOMP* 37(3), 845–869.
 - Ben-Sasson, E., Wigderson, A. (2001). Short proofs are narrow — resolution made simple. *JACM* 48(2), 149–169.
+- Bresler, G., Huang, B., Sellke, M. (2025). Algorithmic barriers from phase transitions in random graph coloring. *FOCS 2025*.
 - Chvátal, V., Szemerédi, E. (1988). Many hard examples for resolution. *JACM* 35(4), 759–768.
 - Cook, S.A. (1975). Feasibly constructive proofs and the propositional calculus. *STOC 1975*, 83–97.
 - Ding, J., Sly, A., Sun, N. (2015). Proof of the satisfiability conjecture for large $k$. *STOC 2015*, 59–68.
 - Friedgut, E. (1999). Sharp thresholds of graph properties and the $k$-SAT problem. *JAMS* 12(4), 1017–1054.
+- Gamarnik, D., Sudan, M. (2014). Limits of local algorithms over sparse random graphs. *Annals of Probability* 45(4), 2353–2381.
 - Grigoriev, D. (2001). Linear lower bound on degrees of Positivstellensatz proofs for parity. *STACS 2001*, 290–301.
 - Haken, A. (1985). The intractability of resolution. *TCS* 39, 297–308.
 - Håstad, J. (1987). *Computational Limitations of Small-Depth Circuits*. MIT Press.
