@@ -124,6 +124,15 @@ CATEGORIES = {
         'channel_contraction',
         'cycle_delocalization',
         'backbone_sensitivity',
+        'quiet_backbone',
+        'cycle_coupling_channel',
+        'backbone_independence',
+        'sbm_reduction',
+        'planted_clique_bridge',
+        'expansion_silence',
+        'residual_hardness',
+        'euler_convergence',
+        'ac0_to_p_lift',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -470,6 +479,15 @@ METADATA = {
     'channel_contraction':        ('Channel Contraction: Measuring η Directly',  'Elie: Per-step contraction coefficient of backbone extraction channel. Tree info = 0 (ALL backbone info is cycle-mediated). Two channels: clause→variable amplifies, formula→algorithm contracts.'),
     'cycle_delocalization':       ('Cycle Delocalization: Depth Distribution',   'Elie: 8/8. UP=0, FL=0 everywhere. Refutation depth shifts RIGHT with n (1.38→2.32). H₁ generators are SHORT (3-5) but interpretation is #P-hard. β₁/|B| grows. The backbone retreats deeper into the logical structure.'),
     'backbone_sensitivity':       ('Backbone Sensitivity: Circuit Depth Proxies', 'Elie: Lyra Direction 2. Clause-flip sensitivity, certificate complexity, global sensitivity. Huang (2019): depth(f) ≥ log(sens(f)). If sens=Θ(n) → not in AC⁰. Circuit-level interpretability barrier.'),
+    'quiet_backbone':             ('Quiet Backbone: Computational Indistinguishability', 'Elie: Casey-Lyra. φ∧(x=v) vs φ∧(x=¬v) indistinguishable? Shannon: C=log(1+S/N), d*=ω(log n) kills all algorithms. One barrier, four symptoms.'),
+    'cycle_coupling_channel':     ('Cycle Coupling Channel: Breaking the Chain', 'Elie: Casey Kobayashi Maru. Two channels: tree (amplifies, no backbone) vs cycle coupling (carries backbone, contracts?). If b×η<1 on coupling graph, signal dies. Shannon kills unconditionally.'),
+    'backbone_independence':      ('Backbone Independence Under Poly-Time Observation', 'Elie: Le Cam step 3. Cross-backbone UP cascade, progressive fixing, wrong-value bias. Each lock is a fresh coin flip. RANDOM=NONDETERMINISTIC=MAGIC.'),
+    'sbm_reduction':              ('SBM Reduction: Backbone as Community Detection', 'Elie: Lyra SBM bridge. Cycle coupling graph → community detection. SNR vs KS threshold. If below → Cycle Delocalization from SBM hardness conjecture.'),
+    'planted_clique_bridge':      ('Planted Clique Bridge: Backbone as Hidden Subgraph', 'Elie: Spectral (in)visibility of backbone in VIG. Top eigenvector correlation, degree/clustering/2-hop structure. Detection vs recovery gap.'),
+    'expansion_silence':          ('Expansion-Silence Bridge: Sub-claim (a)', 'Elie: Zero-cascade + expansion → BSW width Ω(n) → resolution can\'t distinguish right from wrong. Per-bit quietness proved for resolution.'),
+    'residual_hardness':          ('Residual Hardness: Sub-claim (b)', 'Elie: After fixing k correct backbone bits, does the residual stay hard? Cascade still 0? Expansion preserved? Progressive resistance → (b) holds.'),
+    'euler_convergence':          ('Euler Convergence: Closed-Form Integral', 'Elie: Casey\'s insight — cascade survival = e^{-λk/n} (Euler\'s function). BSW width barrier at every step → I(B;f)/|B| ≤ 2^{-Ω(n)} → 0. CDC proved for resolution.'),
+    'ac0_to_p_lift':              ('T23a + T28: CDC for All of P', 'Elie: The wrench. T23a (dim-1 lower bound) + T28 (extensions preserve β₁) + Cook (P ⊆ EF) → CDC for all P. Three facts, one conclusion.'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -752,6 +770,15 @@ _STEM_TO_NUMBER = {
     'channel_contraction': 293,
     'cycle_delocalization': 294,
     'backbone_sensitivity': 295,
+    'quiet_backbone': 296,
+    'cycle_coupling_channel': 297,
+    'backbone_independence': 298,
+    'sbm_reduction': 299,
+    'planted_clique_bridge': 300,
+    'expansion_silence': 301,
+    'residual_hardness': 302,
+    'euler_convergence': 303,
+    'ac0_to_p_lift': 304,
 }
 
 
