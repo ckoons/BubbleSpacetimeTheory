@@ -50,15 +50,23 @@ independence of zero ordinates, or GUE statistics.
 
 Let $G = \mathrm{SO}_0(5,2)$, $K = \mathrm{SO}(5) \times \mathrm{SO}(2)$,
 and $X = G/K = D_{IV}^5$, the type-IV bounded symmetric domain of
-complex dimension 5. The restricted root system is $B_2$ with
-multiplicities $m_l = 1$ (long roots $e_1 \pm e_2$) and $m_s = 3$
-(short roots $2e_1, 2e_2$). The half-sum of positive roots is
+complex dimension 5. The restricted root system is $BC_2$ (non-reduced), with
+multiplicities $m_{e_i} = 3$ (short roots $e_1, e_2$, where $3 = p - q$),
+$m_{e_i \pm e_j} = 1$ (medium roots $e_1 \pm e_2$), and
+$m_{2e_i} = 1$ (long/double roots $2e_1, 2e_2$). We write $m_s = 3$
+for the short root multiplicity and $m_l = 1$ for the long root
+multiplicity following the convention that $B_2$ denotes the reduced
+subsystem $\{e_i, e_i \pm e_j\}$. The half-sum of positive roots is
 $\rho = \frac{5}{2}e_1 + \frac{3}{2}e_2$, with $|\rho|^2 = 17/2$.
 
 Let $\Gamma = \mathrm{SO}(Q, \mathbb{Z})$ for a unimodular form
 $Q = x_1^2 + \cdots + x_5^2 - x_6^2 - x_7^2$. The quotient
 $\Gamma \backslash G$ is non-compact with finite volume. The Selberg
-trace formula applies.
+trace formula applies. Since $Q$ is unimodular ($\det Q = 1$),
+$\Gamma$ has level 1: no congruence conditions arise, and the
+scattering determinant involves the Riemann $\xi(s)$ without Dirichlet
+character twists (Langlands 1976, §7; Gindikin-Karpelevich formula for
+the trivial representation of the Levi factor $\mathrm{GL}(1)^2$).
 
 ## 2. The Heat Kernel Trace Formula
 

@@ -2378,14 +2378,16 @@ Only 14.6% of backbone steps are cascade-silent. The AC(0) insight: this doesn't
 
 Casey: "Use the wrench."
 
-**Theorem (CDC for P, Toy 304, 7/8).** For any $f \in P$, $I(B; f(\varphi))/|B| \to 0$ as $n \to \infty$.
+**Theorem (CDC for P, Toy 304 — conditional).** For any $f \in P$, $I(B; f(\varphi))/|B| \to 0$ as $n \to \infty$.
 
-*Proof.* Three facts:
+*Proof (conditional on topological closure).* Three facts:
 1. **T23a** (proved): All dim-1 proof systems require $2^{\Omega(n)}$ steps on random 3-SAT at $\alpha_c$.
 2. **T28** (proved): Extensions don't change $\beta_1$ ($\Delta\beta_1 \ge 0$, $r = 1$).
 3. **Cook (1975)**: $P \subseteq$ Extended Frege.
 
 Extended Frege = original formula + extension variables. By T28, extensions don't change $\beta_1$. By T2, $I_{\text{fiat}} = \beta_1$. Same $I_{\text{fiat}}$ → same $2^{\Omega(n)}$ barrier (T23a). Therefore $f$ faces the same barrier as resolution. Per-step: $I(b_i; f \mid b_1, \ldots, b_{i-1}) = o(1)$. Sum: $I(B; f)/|B| = o(1) \to 0$. $\square$
+
+**The conditional step:** T23a proves barriers for **dim-1** proof systems (linking invisible to 1-chain operations). EF is NOT dim-1 — extension variables can create 2-dimensional operations (new 2-simplices in the clique complex). T28 says extensions don't KILL original cycles, but it does not prove that extensions cannot CREATE 2-chains that DETECT the linking structure. The claim that "same $\beta_1$ → same barrier for all proof systems" extends T23a beyond its proved scope. This is a novel claim in proof complexity (see also T35 §Level 2). **Status: conditional on proving that EF extensions cannot efficiently detect the linking of original $H_1$ cycles.**
 
 **Empirical verification (Toy 304):**
 
@@ -2397,10 +2399,12 @@ Extended Frege = original formula + extension variables. By T28, extensions don'
 
 Residual $\beta_1$ after $k = 3$ backbone fixes: 47–67% of original. Still $\Theta(n)$.
 
-**Kill chain (complete):**
-$$\text{CDC (T23a + T28)} \to T35 \to T29 \to T30 \to P \ne NP$$
+**Kill chain:**
+$$\text{CDC} \to T35 \to T29 \to T30 \to P \ne NP$$
 
-Every implication proved. The topology IS the barrier. Extensions don't change it. Simple. Works. Hard to break.
+Every implication in the chain is proved. CDC itself is:
+- **Proved (unconditional)** for resolution (AC(0) proof, Toy 303).
+- **Conditional** for all P (Toy 304). The conditional step: does $\beta_1$ preservation (T28) imply the same proof complexity barrier for Extended Frege? Proved for dim-1 systems (T23a). Novel claim for EF. The topology IS the barrier. Extensions don't change it (T28). The gap: can EF exploit extensions to indirectly resolve linking? Awaits topological closure.
 
 ---
 

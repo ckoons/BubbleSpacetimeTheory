@@ -135,13 +135,15 @@ Only $n = 5$ gives the proton mass. But the spectral gap structure is universal.
 
 ### 6.1 The Yang-Mills mass gap
 
-The Clay Mathematics Institute Millennium Problem asks: prove that Yang-Mills theory on $\mathbb{R}^4$ has a mass gap $\Delta > 0$.
+The Clay Mathematics Institute Millennium Problem asks: construct a quantum Yang-Mills theory on $\mathbb{R}^4$ satisfying the Wightman axioms and prove it has a mass gap $\Delta > 0$.
 
-In BST, the mass gap is not a dynamical statement about Yang-Mills on $\mathbb{R}^4$. It is a spectral statement about the Laplacian on $Q^5$:
+**What BST proves (and what it does not).** BST derives the VALUE of the mass gap — not from gauge dynamics, but from the spectral geometry of $Q^5$:
 
 $$\Delta = \lambda_1(Q^5) \times \pi^{n_C} \times m_e = 6\pi^5 \times 0.511 \text{ MeV} = 938.27 \text{ MeV}$$
 
-The mass gap exists because the spectrum of the Laplacian on a compact manifold is discrete with $\lambda_0 = 0$ isolated. This is a theorem of elliptic operator theory, not a conjecture about gauge dynamics.
+matching the observed proton mass to 0.002%. The mass gap exists because the spectrum of the Laplacian on a compact manifold is discrete with $\lambda_0 = 0$ isolated — a theorem of elliptic operator theory.
+
+**Distinction from the Clay problem.** BST does not construct a quantum Yang-Mills theory on $\mathbb{R}^4$ satisfying Wightman axioms. It solves a different (arguably deeper) problem: WHERE does the mass gap come from and WHY does it have the value 938 MeV? The answer — the spectral gap of $Q^5$ — is a geometric fact, not a dynamical conjecture. The Clay problem asks for a constructive QFT proof; BST provides a geometric derivation of the mass gap value within its own framework. These are complementary, not identical.
 
 ### 6.2 Confinement
 

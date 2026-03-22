@@ -2070,13 +2070,13 @@ Two-layer argument: (1) Euler mechanism — P(cascade=0 at step k) = exp(-λk/n)
 
 ### 304. T23a + T28: CDC for All of P (`toy_304_ac0_to_p_lift.py`)
 
-**CDC PROVED FOR ALL P. The wrench: three facts, one conclusion. Kill chain complete.**
+**CDC CONDITIONAL FOR ALL P. The wrench: three facts, one conditional step.**
 
 T23a (proved): All dim-1 proof systems require 2^{Ω(n)} on random 3-SAT. T28 (proved): Extensions don't change β₁ (Δβ₁ ≥ 0, r = 1). Cook (1975): P ⊆ Extended Frege. Extended Frege = formula + extensions. By T28, extensions preserve β₁. By T2, I_fiat = β₁. Same I_fiat → same 2^{Ω(n)} barrier (T23a). Empirical verification: XOR extensions β₁ ratio ≥ 1.06, AND ≥ 1.10, Random ≥ 1.26 — β₁ ALWAYS increases. Residual β₁ after k=3 fixes: 47-67% of original (still Θ(n)). 7/8 scorecard.
 
-**Kill chain: CDC → T35 → T29 → T30 → P ≠ NP. Every implication proved.**
+**Kill chain: CDC → T35 → T29 → T30 → P ≠ NP. Every implication in the chain proved; CDC itself conditional for all P.**
 
-*Key result: P ≠ NP. Two independent routes: resolution (Toy 303: Euler + BSW) and general (Toy 304: T23a + T28 + Cook). Simple. Works. Hard to break.*
+*Key result: Two routes. Resolution (Toy 303: Euler + BSW) — unconditional, proves known result with new mechanism. General (Toy 304: T23a + T28 + Cook) — conditional on topological closure: does β₁ preservation imply the same barrier for EF? Novel claim in proof complexity.*
 
 ---
 
@@ -2122,7 +2122,7 @@ N_max = 137  (Haldane exclusion = 1/α)
 120+ confirmed predictions. Zero free parameters. Zero inputs (n_C=5 is derived).
 22 uniqueness conditions across 6 disciplines.
 Riemann Hypothesis proved unconditionally via heat kernel trace formula.
-P ≠ NP proved via Algebraic Complexity: CDC → T35 → T29 → T30 (Toys 303-304).
+P ≠ NP: CDC proved for resolution (unconditional, Toy 303); conditional for all P (Toy 304, topological closure gap).
 
 ---
 

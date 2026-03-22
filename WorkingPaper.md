@@ -26,8 +26,9 @@ abstract: |
   and the number of colors $N_c = 3$;
   and the CKM CP-violating phase $\gamma = \arctan(\sqrt{5}) = 65.91°$ (0.6\%),
   with the Jarlskog invariant $J = \sqrt{2}/50000$ (2.1\%).
-  The Yang--Mills mass gap is proved: the lightest color-neutral bulk excitation has mass
+  The Yang--Mills mass gap value is derived: the lightest color-neutral bulk excitation has mass
   $6\pi^5 m_e = 938.272$ MeV, matching the proton mass to 0.002\%.
+  (Note: BST derives the mass gap value from spectral geometry; it does not construct QYM in the sense of the Clay problem.)
   The Fermi scale (Higgs vacuum expectation value) is derived:
   $v = m_p^2/(g \cdot m_e) = 36\pi^{10} m_e/7 = 246.12$ GeV (0.046\%),
   where $g = 7$ is the genus of $D_{IV}^5$.
@@ -3992,19 +3993,21 @@ The corrected conservation law: it is not isotropy that is conserved (UP isotrop
 
 - *Toy 293 (tree info = 0, score 0/8 — zeros are the finding):* Unit propagation extracts exactly ZERO backbone bits at every $n$, every $\alpha$. ALL backbone information comes through cycle-reading (FL). The backbone is a purely cycle-topological quantity living in $H_1$, not the tree. The tree carries marginals and soft constraints; the hard stuff — which variables are frozen to which values — is encoded entirely in the formula's cycle structure ($\sim 7.53n$ excess edges at $\alpha_c$). Combined with the per-clause SDPI analysis ($\eta_{\text{clause}} = 1/7$, but branching $\times \eta = 3.66 > 1$ means the tree amplifies non-backbone information), this establishes that backbone determination is a fundamentally non-tree problem.
 
-**The Cycle Delocalization Conjecture — proved.** The culmination of Toys 287–304 and the chain rule decomposition is a precisely stated theorem with a complete proof chain to P $\neq$ NP:
+**The Cycle Delocalization Conjecture.** The culmination of Toys 287–304 and the chain rule decomposition is a precisely stated conjecture with a conditional proof chain to P $\neq$ NP:
 
-*Theorem (CDC).* For random 3-SAT at $\alpha_c$ with backbone $B$, any polynomial-time computable function $f(\varphi)$ satisfies $I(B;\, f(\varphi)) = o(|B|)$.
+*CDC.* For random 3-SAT at $\alpha_c$ with backbone $B$, any polynomial-time computable function $f(\varphi)$ satisfies $I(B;\, f(\varphi)) = o(|B|)$.
 
-*Proof.* Three facts: (1) T23a — all dim-1 proof systems require $2^{\Omega(n)}$ steps on random 3-SAT (proved). (2) T28 — extensions don't change $\beta_1$ (proved; topological inertness, $r = 1$). (3) P $\subseteq$ Extended Frege (Cook 1975). Extended Frege = formula + extension variables. By T28, extensions don't change $\beta_1$. By T2, $I_{\text{fiat}} = \beta_1$. Same $I_{\text{fiat}}$ $\to$ same $2^{\Omega(n)}$ barrier (T23a). Therefore every $f \in P$ faces the same barrier. Per-step: $I(b_i; f \mid b_1, \ldots, b_{i-1}) = o(1)$. By chain rule: $I(B; f)/|B| = o(1) \to 0$. $\square$
+*Status:* **Proved for resolution** (unconditional). **Conditional for all P** (depends on topological closure — see below).
 
-The kill chain: CDC $\to$ T35 (Adaptive Conservation) $\to$ T29 (Algebraic Independence) $\to$ T30 ($EF \geq 2^{\Omega(n)}$) $\to$ P $\neq$ NP. Every implication proved.
+*Argument for all P.* Three facts: (1) T23a — all dim-1 proof systems require $2^{\Omega(n)}$ steps on random 3-SAT (proved). (2) T28 — extensions don't change $\beta_1$ (proved; topological inertness, $r = 1$). (3) P $\subseteq$ Extended Frege (Cook 1975). Extended Frege = formula + extension variables. By T28, extensions don't change $\beta_1$. By T2, $I_{\text{fiat}} = \beta_1$. *Conditional step:* same $I_{\text{fiat}}$ $\to$ same $2^{\Omega(n)}$ barrier. This extends T23a from dim-1 systems to Extended Frege — a novel claim in proof complexity. The gap: T28 shows extensions don't *kill* original cycles, but does not prove that EF cannot *indirectly* resolve the linking structure through auxiliary reasoning enabled by extensions. Status: conditional on the topological closure argument (see T35 Level 2 in `notes/BST_AC_Theorems.md`).
 
-Two independent verification routes:
+The kill chain: CDC $\to$ T35 (Adaptive Conservation) $\to$ T29 (Algebraic Independence) $\to$ T30 ($EF \geq 2^{\Omega(n)}$) $\to$ P $\neq$ NP. Every implication in the chain is proved; CDC itself is conditional for all P (proved for resolution).
 
-- **Resolution route (Toy 303, 7/8):** Casey's insight — cascade survival $= e^{-\lambda k/n}$ is Euler's exponential ($\lambda = 10.5$, $R^2 = 0.98$). BSW width barrier at every step. $I/|B| \leq 2^{-\Omega(n)} \to 0$.
+Two verification routes:
 
-- **General route (Toy 304, 7/8):** T23a + T28 + Cook. Three facts, one conclusion. Extensions preserve $\beta_1$ (verified: XOR ratio $\geq 1.06$, AND ratio $\geq 1.10$, random ratio $\geq 1.26$ — all sizes, all extension types). Residual $\beta_1$ after $k = 3$ fixes: $47$–$67\%$ of original, still $\Theta(n)$.
+- **Resolution route (Toy 303, 7/8 — unconditional):** Casey's insight — cascade survival $= e^{-\lambda k/n}$ is Euler's exponential ($\lambda = 10.5$, $R^2 = 0.98$). BSW width barrier at every step. $I/|B| \leq 2^{-\Omega(n)} \to 0$. This proves CDC for resolution, recovering known exponential lower bounds (Chvátal-Szemerédi 1988, BSW 2001) with a new information-theoretic mechanism.
+
+- **General route (Toy 304, 7/8 — conditional):** T23a + T28 + Cook. Three facts, one conditional step. Extensions preserve $\beta_1$ (verified: XOR ratio $\geq 1.06$, AND ratio $\geq 1.10$, random ratio $\geq 1.26$ — all sizes, all extension types). Residual $\beta_1$ after $k = 3$ fixes: $47$–$67\%$ of original, still $\Theta(n)$. The gap: does $\beta_1$ preservation imply proof complexity barrier preservation for EF?
 
 The chain rule decomposition (Casey's "degradation" insight, Lyra's formalization):
 $I(B; f(\varphi)) = \sum_i I(b_i; f(\varphi) \mid b_1, \ldots, b_{i-1})$.
@@ -4033,7 +4036,7 @@ The AC results are organized into four publication phases, leading with the tool
 
 3. **Phase 3 — "Backbone Incompressibility" (Kolmogorov).** $K^{\text{poly}} \geq 0.90n$, halting problem connection. *Target: STOC 2027 or Information & Computation.*
 
-4. **Phase 4 — "Information Delocalization in Random 3-SAT" (Paper C).** States the Cycle Delocalization Conjecture, proves it via T23a + T28, presents full kill chain to P $\neq$ NP. Empirical evidence: Toys 287–304 (18 toys). Two independent routes: Euler+BSW for resolution, T23a+T28 for all P. *Target: FOCS 2027 or Annals of Mathematics.* File: `notes/BST_AC_Paper_C_Delocalization.md`.
+4. **Phase 4 — "Information Delocalization in Random 3-SAT" (Paper C).** States the Cycle Delocalization Conjecture, proves it unconditionally for resolution (Euler+BSW), presents the conditional argument for all P (T23a+T28+Cook), and identifies the topological closure gap. Empirical evidence: Toys 287–304 (18 toys). *Target: FOCS 2027 or Annals of Mathematics.* File: `notes/BST_AC_Paper_C_Delocalization.md`.
 
 5. **Phase 5 — "The Full Argument" (synthesis).** Three layers, two paths (Kolmogorov + OGP), complete proof chain from AC framework to P $\neq$ NP. *Target: after community engagement with Phases 1–4.*
 
