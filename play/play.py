@@ -133,6 +133,10 @@ CATEGORIES = {
         'residual_hardness',
         'euler_convergence',
         'ac0_to_p_lift',
+        'multi_parabolic_exponents',
+        'extension_parity_attack',
+        'volume_div5',
+        'a12_cascade_wall',
     ],
     'Geometry': [
         'bergman_kernel', 'embedding_tower', 'chern_oracle', 'chern_budget',
@@ -488,6 +492,10 @@ METADATA = {
     'residual_hardness':          ('Residual Hardness: Sub-claim (b)', 'Elie: After fixing k correct backbone bits, does the residual stay hard? Cascade still 0? Expansion preserved? Progressive resistance → (b) holds.'),
     'euler_convergence':          ('Euler Convergence: Closed-Form Integral', 'Elie: Casey\'s insight — cascade survival = e^{-λk/n} (Euler\'s function). BSW width barrier at every step → I(B;f)/|B| ≤ 2^{-Ω(n)} → 0. CDC proved for resolution.'),
     'ac0_to_p_lift':              ('T23a + T28: CDC for All of P', 'Elie: The wrench. T23a (dim-1 lower bound) + T28 (extensions preserve β₁) + Cook (P ⊆ EF) → CDC for all P. Three facts, one conclusion.'),
+    'multi_parabolic_exponents':  ('Multi-Parabolic Exponent Distinctness', 'Elie: B₂ root system for SO₀(5,2). 3 parabolics P₀,P₁,P₂. Cross-parabolic collision impossible: different coroot norms (4 vs 2) → auto-distinct; same norms → Mandelbrojt. 8/8.'),
+    'extension_parity_attack':    ('Extension-Parity Attack on TCC', 'Elie: Keeper\'s attack fails — 50 XOR extensions INCREASE graph β₁ (448→458, monotone). T28 verified. Clique β₁=0 is irrelevant to CDC. 8/8.'),
+    'volume_div5':                ('Volume of D_IV^5 and π⁵ Factor', 'Elie: Vol(D_IV^n) = π^n/(n!·2^{n-1}). MC confirms for n=1..7. K(0,0)=1920/π⁵. The π⁵ in m_p=6π⁵m_e is the volume scale of D_IV^5. 8/8.'),
+    'a12_cascade_wall':           ('a₁₂ Cascade Wall Breaker', 'Elie: P_MAX=2000, dps=600 (doubled from Toy 278). Target: a₁₂ clean 22+/25, degree-24 polynomial. Primes ≤ 23 (quiet level).'),
 }
 
 # ─── Build reverse lookup: stem -> category ──────────────────────────
@@ -779,6 +787,10 @@ _STEM_TO_NUMBER = {
     'residual_hardness': 302,
     'euler_convergence': 303,
     'ac0_to_p_lift': 304,
+    'multi_parabolic_exponents': 305,
+    'extension_parity_attack': 306,
+    'volume_div5': 307,
+    'a12_cascade_wall': 308,
 }
 
 
