@@ -642,7 +642,7 @@ $$c(\nu) = \prod_{\alpha \in \Sigma^+} \frac{\Gamma(\langle \nu, \alpha^\vee \ra
 
 where $m_\alpha$ is the root multiplicity ($m_s = 3$ for short roots, $m_l = 1$ for the long root). The Gamma function satisfies $\Gamma(\bar{z}) = \overline{\Gamma(z)}$.
 
-For $\nu = i\lambda$ (purely imaginary), $\lambda \in \mathfrak{a}^*_\mathbb{R}$: then $-\nu = -i\lambda = \overline{i\lambda} = \bar{\nu}$. Each factor satisfies:
+For $\nu = i\lambda$ (purely imaginary), $\lambda \in \mathfrak{a}^*_{\mathbb{R}}$: then $-\nu = -i\lambda = \overline{i\lambda} = \bar{\nu}$. Each factor satisfies:
 
 $$c_\alpha(-\nu) = c_\alpha(\bar{\nu}) = \overline{c_\alpha(\nu)}$$
 
