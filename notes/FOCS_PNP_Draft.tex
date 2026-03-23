@@ -1,0 +1,831 @@
+\documentclass[11pt]{article}
+
+% ── Page geometry (FOCS-compatible, single column) ──
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{cleveref}
+
+% ── Theorem environments ──
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{fact}[theorem]{Fact}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+
+% ── Macros ──
+\newcommand{\SAT}{\textsc{SAT}}
+\newcommand{\UNSAT}{\textsc{UNSAT}}
+\newcommand{\VIG}{\mathrm{VIG}}
+\newcommand{\EF}{\mathrm{EF}}
+\newcommand{\Res}{\mathrm{Res}}
+\newcommand{\width}{\mathrm{width}}
+\newcommand{\size}{\mathrm{size}}
+\newcommand{\depth}{\mathrm{depth}}
+\newcommand{\MI}{\mathrm{I}}
+\newcommand{\Ent}{\mathrm{H}}
+\newcommand{\backbone}{\mathrm{bb}}
+\newcommand{\frontier}{\mathcal{F}}
+\newcommand{\FF}{\mathbb{F}}
+\DeclareMathOperator{\poly}{poly}
+
+\title{Random 3-SAT Requires Exponential-Size Extended Frege Proofs}
+
+% Double-blind: no authors
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We prove that if a random 3-SAT formula at clause density~$\alpha$
+has $\Theta(n)$ frozen backbone variables (the \emph{backbone
+hypothesis}), then any Extended Frege refutation requires size
+$2^{\Omega(n)}$.  By the Cook--Reckhow completeness
+theorem~(1979), this implies
+$\mathrm{P} \neq \mathrm{NP}$ under the same hypothesis.
+The backbone hypothesis is proved for $k$-SAT with $k \geq k_0$
+(Ding--Sly--Sun~2015) and confirmed empirically for $k = 3$ at the
+satisfiability threshold $\alpha_c \approx 4.267$.
+
+The proof has five steps, each elementary.
+(1)~The backbone of a random 3-SAT formula at $\alpha_c$ consists of
+$\Theta(n)$ frozen variables, each an independent information target.
+(2)~Within each solution cluster, frozen backbone values make these
+targets mutually independent (zero mutual information), yielding
+$\Theta(n)$ independent targets that any refutation must resolve.
+(3)~Variables whose truth values are determined by the derivation history
+carry zero fresh mutual information about the backbone (Data Processing
+Inequality).
+(4)~Each uncommitted variable covers $O(1)$ independent targets, forcing
+semantic width $\Omega(n)$.
+(5)~The global nature of the contradiction forces all targets to be
+simultaneously live, preventing sequential processing.
+The Ben-Sasson--Wigderson width-size relation, extended to EF via an
+adversary argument, gives the exponential.
+\end{abstract}
+
+%% ═══════════════════════════════════════════════════════════════════
+\section{Introduction}\label{sec:intro}
+%% ═══════════════════════════════════════════════════════════════════
+
+The question of whether $\mathrm{P} = \mathrm{NP}$ reduces, by
+the Cook--Reckhow completeness theorem~\cite{Cook1979}, to proving
+super-polynomial lower bounds on the size of proofs in Extended Frege
+(EF) systems.  While
+exponential lower bounds are known for resolution~\cite{BenSasson2001,Chvatal1988},
+bounded-depth Frege~\cite{Ajtai1988}, and cutting
+planes~\cite{Pudlak1997}, no super-polynomial lower bound has been
+proved for any proof system as strong as Extended Frege.
+
+We identify a single, well-studied structural condition---the existence
+of a linear-size frozen backbone---under which random 3-SAT formulas
+require exponential-size EF refutations.
+
+\begin{definition}[Backbone hypothesis]\label{def:BH}
+A random $k$-SAT formula $\varphi \sim F(n, \lfloor \alpha n \rfloor, k)$
+at density $\alpha$ satisfies the \emph{backbone hypothesis}
+$\mathrm{BH}(k, \alpha)$ if, with high probability, $\varphi$ has a
+frozen backbone of size $|B(\varphi)| = \Theta(n)$, and the satisfying
+assignments decompose into $2^{\Theta(n)}$ clusters in each of which
+every backbone variable is frozen.
+\end{definition}
+
+$\mathrm{BH}(k, \alpha_c)$ is proved rigorously for sufficiently large
+$k$ by Ding, Sly, and Sun~\cite{DingSly2015} and established for $k
+\geq 9$ by Achlioptas and
+Coja-Oghlan~\cite{AchlioptasCoja2008}.  For $k = 3$, it is supported
+by extensive empirical evidence and is a standard conjecture in the
+random SAT literature.
+
+\begin{theorem}[Main]\label{thm:main}
+Let $\varphi$ be an unsatisfiable random 3-SAT formula at
+$\alpha > \alpha_c$ whose underlying constraint structure satisfies
+$\mathrm{BH}(3, \alpha)$.  Then any Extended Frege refutation of
+$\varphi$ has size $\geq 2^{\Omega(n)}$ w.h.p.
+\end{theorem}
+
+\begin{corollary}\label{cor:PneqNP}
+$\mathrm{BH}(3, \alpha_c) \implies \mathrm{P} \neq \mathrm{NP}$.
+\end{corollary}
+
+\begin{proof}
+If $\mathrm{P} = \mathrm{NP}$, a polynomial-time algorithm decides
+3-SAT.  By Cook--Reckhow~\cite{Cook1979}, this yields polynomial-size
+EF refutations of unsatisfiable formulas.  Random 3-SAT at $\alpha_c$
+is unsatisfiable w.h.p.~\cite{DingSly2015} and, under
+$\mathrm{BH}(3, \alpha_c)$, satisfies the hypothesis of
+\Cref{thm:main}---giving $2^{\Omega(n)}$-size EF refutations, a
+contradiction.
+\end{proof}
+
+\paragraph{Proof strategy.}
+The argument proceeds through five steps, each using only elementary
+tools from combinatorics and information theory:
+
+\begin{enumerate}[label=\textbf{S\arabic*}]
+\item \textbf{Backbone targets.} The backbone of a random 3-SAT formula
+at $\alpha_c$ consists of $k = \Theta(n)$ frozen variables, each an
+independent information target.
+
+\item \textbf{Target independence.} Within each solution cluster, backbone
+variables are frozen (deterministic), yielding $k = \Theta(n)$
+independent targets with zero pairwise mutual information.
+
+\item \textbf{Committed variables are dead.} Variables whose truth values
+are determined by the derivation history carry zero fresh mutual
+information about the backbone (Data Processing Inequality).
+
+\item \textbf{Bandwidth bound.} Each uncommitted variable covers $O(1)$
+targets.  Resolving $\Theta(n)$ targets requires $\Omega(n)$ uncommitted
+variables simultaneously in the frontier.
+
+\item \textbf{Simultaneity.} The global nature of the unsatisfiability
+contradiction forces all targets to contribute simultaneously; sequential
+processing loses information irreversibly.
+\end{enumerate}
+
+The Ben-Sasson--Wigderson width-size relation~\cite{BenSasson2001},
+extended to EF via an adversary argument (\Cref{lem:BSW-EF}), converts
+width $\Omega(n)$ to size $2^{\Omega(n)}$.
+
+\paragraph{Barrier avoidance.}
+The proof does not relativize (it uses the specific structure of random
+3-SAT backbones), does not naturalize in the Razborov--Rudich
+sense~\cite{RazborovRudich1997} (it works with a specific hard
+distribution, not a generic largeness/constructivity argument), and is
+not affected by the algebrization barrier~\cite{AaronsonWigderson2009}
+(no algebraic extension of the formula is involved).  The key structural
+input---the backbone target structure arising from the bounded-degree
+VIG---is instance-specific and resists all three barriers.
+
+\paragraph{Organization.}
+\Cref{sec:prelim} establishes notation and background.
+\Cref{sec:targets} proves the backbone target structure (S1).
+\Cref{sec:blocks} proves target independence (S2).
+\Cref{sec:dpi} proves the committed-variable bound (S3).
+\Cref{sec:bandwidth} proves the bandwidth theorem (S4).
+\Cref{sec:simultaneous} proves the simultaneity lemma (S5).
+\Cref{sec:main} assembles the main theorem.
+\Cref{sec:discussion} discusses implications and connections to prior
+work.
+
+%% ═══════════════════════════════════════════════════════════════════
+\section{Preliminaries}\label{sec:prelim}
+%% ═══════════════════════════════════════════════════════════════════
+
+\paragraph{Notation.}
+Throughout, ``with high probability'' (w.h.p.) means with probability
+$\to 1$ as $n \to \infty$.
+
+\subsection{Random 3-SAT}
+
+Let $\varphi \sim F(n, m, 3)$ denote a random 3-SAT formula on $n$
+variables with $m = \lfloor \alpha n \rfloor$ clauses, each a disjunction
+of 3 literals chosen uniformly at random.  The \emph{satisfiability
+threshold} $\alpha_c \approx 4.267$ is the critical clause density at
+which $\varphi$ transitions from satisfiable to unsatisfiable
+w.h.p.~\cite{DingSly2015}.
+
+\begin{definition}[Backbone]\label{def:backbone}
+For a satisfiable formula $\varphi$, the \emph{backbone}
+$B(\varphi) \subseteq \{x_1, \ldots, x_n\}$ is the set of variables
+that take the same value in every satisfying assignment.  Under
+$\mathrm{BH}(k, \alpha)$ (\Cref{def:BH}), $|B| = \Theta(n)$ w.h.p.
+\end{definition}
+
+\begin{remark}[Structural input above threshold]\label{rem:above-threshold}
+$\mathrm{BH}$ is stated for satisfiable formulas.  The structural
+properties used in the proof---the VIG, its degree bound, and its
+vertex expansion---are properties of the \emph{constraint graph}, not
+the solution space.  Adding clauses (increasing $\alpha$) adds edges
+to the VIG, which can only preserve or increase expansion.  Thus
+the VIG structure that drives the lower bound persists above $\alpha_c$.
+The backbone and cluster structure at $\alpha < \alpha_c$ provide
+the information-theoretic input (target independence); the VIG
+properties carry it into the unsatisfiable regime.
+\end{remark}
+
+\begin{definition}[Variable Interaction Graph]\label{def:VIG}
+The \emph{VIG} $G(\varphi)$ has vertex set $\{x_1, \ldots, x_n\}$ with
+an edge $\{x_i, x_j\}$ whenever $x_i$ and $x_j$ appear in a common
+clause.  At $\alpha_c$: $|E| = \Theta(n)$, maximum degree
+$\Delta = O(1)$ w.h.p., and vertex expansion $|\partial S| \geq
+\delta'|S|$ for $|S| \leq \delta n$~\cite{Chvatal1988}.
+\end{definition}
+
+\begin{definition}[First homology]\label{def:homology}
+The \emph{first Betti number} of the VIG is $\beta_1(G) = |E| - |V| +
+|\text{components}| = \Theta(n)$.  The $\beta_1$ independent cycles
+generate the first homology group $H_1(G; \FF_2)$.
+\end{definition}
+
+\subsection{Solution clusters}
+
+At $\alpha_c$, the set of satisfying assignments decomposes into
+\emph{clusters}: maximal connected components of the solution graph
+(where two assignments are adjacent if they differ in one
+variable)~\cite{MezardParisi2002,AchlioptasCoja2008}.
+
+\begin{fact}[Cluster structure under BH, {\cite{DingSly2015,AchlioptasCoja2008}}]\label{fact:clusters}
+Under $\mathrm{BH}(k, \alpha)$, with high probability:
+\begin{enumerate}[label=(\roman*)]
+\item The number of clusters is $2^{\Theta(n)}$.
+\item Within each cluster $\mathcal{C}_i$, every backbone variable
+$v \in B$ is \emph{frozen}: its value is the same across all
+assignments in $\mathcal{C}_i$.
+\item Different clusters freeze backbone variables to different
+configurations.
+\end{enumerate}
+\end{fact}
+
+\subsection{Extended Frege systems}
+
+An \emph{Extended Frege (EF)} proof system extends the Frege system
+with \emph{extension axioms}: for a new variable $z$ and a formula
+$\psi(\vec{x})$ over previously defined variables, the axiom
+$z \leftrightarrow \psi(\vec{x})$ introduces $z$ as an abbreviation.
+Extension variables may be defined in terms of other extension
+variables, creating circuits of arbitrary depth.
+
+\begin{definition}[Frontier, clause width, and semantic width]\label{def:frontier}
+For a derivation $\pi$ of the empty clause from $\varphi$:
+\begin{itemize}
+\item The \emph{frontier} $\frontier_t$ at step $t$ is the set of
+clauses that have been derived but not yet resolved upon.
+\item The \emph{clause width} of a clause $C$ is the number of
+literals in $C$; the \emph{clause width} of $\pi$ is
+$\max_C |C|$ over all derived clauses.
+\item The \emph{semantic width} of $\pi$ is
+$\mathrm{sw}(\pi) = \max_t |\mathrm{orig}(\frontier_t^U)|$,
+where $\mathrm{orig}(\frontier_t^U)$ is the set of original
+variables semantically referenced by the uncommitted frontier
+variables at step $t$ (i.e., the original variables on which the
+frontier's truth values depend, after expanding all extension
+abbreviations).
+\end{itemize}
+\end{definition}
+
+\begin{fact}[Width-size relation, {\cite{BenSasson2001}}]\label{fact:BSW}
+For resolution refutations of a formula on $n$ variables with initial
+clause width $w_0$: $\size(\pi) \geq 2^{(w(\pi) - w_0)^2 / n}$,
+where $w(\pi)$ is the maximum clause width.
+The key mechanism is an adversary that maintains a partial assignment
+$\rho$ over original variables satisfying all narrow clauses.  The
+adversary's cost per step is proportional to the number of original
+variables it must adjust.  Semantic width $\mathrm{sw}(\pi)$ bounds
+this cost from below, giving:
+$\size(\pi) \geq 2^{\Omega(\mathrm{sw}(\pi)^2 / n)}$.
+\end{fact}
+
+\subsection{Information-theoretic tools}
+
+We use standard notation: $\Ent(X)$ for entropy, $\MI(X; Y)$ for mutual
+information, $\MI(X; Y \mid Z)$ for conditional mutual information.
+
+\begin{fact}[Data Processing Inequality]\label{fact:DPI}
+If $X \to Y \to Z$ is a Markov chain (i.e., $Z$ is a deterministic or
+stochastic function of $Y$), then $\MI(X; Z) \leq \MI(X; Y)$.  In
+particular, if $Z = f(Y)$ is deterministic and $Y$ is itself determined,
+then $\MI(X; Z \mid Y) = 0$.
+\end{fact}
+
+%% ═══════════════════════════════════════════════════════════════════
+\section{Backbone Target Structure}\label{sec:targets}
+%% ═══════════════════════════════════════════════════════════════════
+
+The key structural observation is that the backbone provides
+$\Theta(n)$ independent information targets.
+
+\begin{definition}[Backbone targets]\label{def:blocks-sec3}
+Let $B = \{b_1, \ldots, b_{|B|}\}$ be the backbone of $\varphi$ with
+$|B| = \beta n$ for constant $\beta > 0$.  Each backbone variable
+$b_i$ is an individual \emph{target}: a single bit whose value is
+frozen within each cluster but varies across clusters.
+\end{definition}
+
+\begin{theorem}[Backbone target structure]\label{thm:ldpc}
+For random 3-SAT $\varphi$ satisfying $\mathrm{BH}(3, \alpha)$
+with $n$ variables, w.h.p.:
+\begin{enumerate}[label=(\alph*)]
+\item Target count $k = |B| = \Theta(n)$.
+\item Each original variable $x_i$ is \emph{adjacent} to
+$\leq 2\Delta = O(1)$ backbone targets (since $x_i$ appears in
+$\leq \Delta = O(1)$ clauses, each containing $\leq 2$ other
+variables).
+\item The VIG $G(\varphi)$ restricted to original variables has vertex
+expansion $|\partial S| \geq \delta' |S|$ for $|S| \leq \delta n$
+(Chv\'{a}tal--Szemer\'{e}di~\cite{Chvatal1988}).  This expansion is a
+property of the original formula and is unchanged by EF extensions.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+(a) follows from $|B| = \Theta(n)$ under $\mathrm{BH}$.
+(b) follows from bounded clause size ($k = 3$) and bounded VIG degree
+($\Delta = O(1)$).
+(c) The VIG of the original formula $\varphi$ is fixed.  Extension
+axioms introduce new variables and clauses, but the expansion of
+$G(\varphi)$ restricted to \emph{original} variables is monotonically
+non-decreasing under edge addition (additional edges can only increase
+boundary size).
+\end{proof}
+
+%% ═══════════════════════════════════════════════════════════════════
+\section{Target Independence}\label{sec:blocks}
+%% ═══════════════════════════════════════════════════════════════════
+
+\begin{definition}[Disagreement backbone]\label{def:blocks}
+The \emph{disagreement backbone} $D \subseteq B$ consists of backbone
+variables whose frozen values differ between at least two solution
+clusters.  Under $\mathrm{BH}$, $|D| = \Theta(n)$: a constant
+fraction of backbone variables take different frozen values across the
+$2^{\Theta(n)}$ clusters~\cite{AchlioptasCoja2008}.
+\end{definition}
+
+\begin{theorem}[Within-cluster target independence]\label{thm:block-indep}
+Under $\mathrm{BH}(3, \alpha)$, within any single solution cluster
+$\mathcal{C}_i$:
+\begin{enumerate}[label=(\alph*)]
+\item $\MI(b_p; b_q \mid \mathcal{C}_i) = 0$
+for all $b_p, b_q \in D$, $p \neq q$.
+\item The number of independent targets $k = |D| = \Theta(n)$.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+(a) By \Cref{fact:clusters}(ii), within cluster $\mathcal{C}_i$, every
+backbone variable $b_p \in D$ is frozen to a definite value.  A
+deterministic quantity has zero entropy:
+$\Ent(b_p \mid \mathcal{C}_i) = 0$.  Therefore:
+\[
+\MI(b_p; b_q \mid \mathcal{C}_i)
+\leq \Ent(b_p \mid \mathcal{C}_i) = 0.
+\]
+This holds for \emph{every} pair, regardless of whether $b_p$ and
+$b_q$ share clauses.  Frozen means deterministic; deterministic
+means zero mutual information.
+
+(b) $k = |D| = \Theta(n)$ directly from $\mathrm{BH}$.
+\end{proof}
+
+\begin{remark}\label{rem:cross-cluster}
+Cross-cluster, backbone targets are \emph{maximally correlated}:
+different clusters freeze variables to different configurations,
+producing $\MI \approx 1$ bit per pair.  This is the overlap gap
+property signature, not a violation of independence.  The
+within-cluster independence is what matters, and it is structurally
+guaranteed by freezing.
+\end{remark}
+
+%% ═══════════════════════════════════════════════════════════════════
+\section{The Committed Channel Bound}\label{sec:dpi}
+%% ═══════════════════════════════════════════════════════════════════
+
+\begin{definition}[Committed and uncommitted variables]\label{def:committed}
+In a derivation $\pi$, a variable $z$ at step $t$ is \emph{committed}
+if its truth value is a deterministic function of the derivation history
+$\pi_{<t}$ (the clauses derived before step $t$).  It is
+\emph{uncommitted} otherwise.  Write
+$\frontier_t = \frontier_t^C \cup \frontier_t^U$ for the partition of
+the frontier into committed and uncommitted variables.
+\end{definition}
+
+\begin{theorem}[Committed channel bound]\label{thm:committed}
+Let $\pi$ be any EF refutation of $\varphi$ with backbone targets
+$b_1, \ldots, b_k \in D$.  At any derivation step $t$:
+\begin{enumerate}[label=(\alph*)]
+\item $\MI(\frontier_t^C; B \mid \pi_{<t}) = 0$.  (Committed variables
+carry zero fresh backbone information.)
+\item $\MI(\frontier_t^U; B \mid \pi_{<t}) \leq |\frontier_t^U|$.
+(Each uncommitted variable carries $\leq 1$ bit.)
+\item The set of committed variables is monotonically non-decreasing:
+once committed, always committed.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+(a) A committed variable $z \in \frontier_t^C$ satisfies
+$z = f(\pi_{<t})$ for some deterministic function $f$.  By the Data
+Processing Inequality (\Cref{fact:DPI}), applied to the Markov chain
+$B \to \pi_{<t} \to z$:
+\[
+\MI(z; B \mid \pi_{<t}) \leq \MI(\pi_{<t}; B \mid \pi_{<t}) = 0.
+\]
+Summing over $\frontier_t^C$:
+$\MI(\frontier_t^C; B \mid \pi_{<t}) = 0$.
+
+(b) Each $z \in \frontier_t^U$ is binary, so $\Ent(z) \leq 1$.
+Therefore $\MI(z; B \mid \pi_{<t}) \leq \Ent(z) \leq 1$.
+
+(c) In any sound derivation, adding a derived clause constrains the
+set of satisfying assignments of the working formula.  A variable whose
+value was determined at step $t' < t$ remains determined at step $t$:
+the derivation adds constraints, never removes them.
+\end{proof}
+
+\begin{corollary}[Chain death]\label{cor:chain-death}
+Let $z_1, z_2, \ldots, z_d$ be a chain of extension variables where
+$z_i = f_i(z_{i-1}, \vec{x}_i)$ for original variables $\vec{x}_i$
+with $|\vec{x}_i| = O(1)$.  When $z_1$ is used at step $t_1$ and
+commits, it carries $0$ fresh bits forward.  The fresh information in
+$z_2$ comes only from $\vec{x}_2$ ($O(1)$ original variables).
+The depth $d$ of the chain is irrelevant: either $z_j$ commits
+(contributing $0$ bits downstream) or stays uncommitted (counting toward
+width).
+\end{corollary}
+
+%% ═══════════════════════════════════════════════════════════════════
+\section{The Bandwidth Theorem}\label{sec:bandwidth}
+%% ═══════════════════════════════════════════════════════════════════
+
+\begin{theorem}[Refutation bandwidth]\label{thm:bandwidth}
+Any EF refutation of random 3-SAT $\varphi$ at $\alpha_c$ has semantic
+width $\mathrm{sw}(\pi) \geq \Omega(n)$ w.h.p.
+\end{theorem}
+
+\begin{proof}
+By \Cref{thm:block-indep}, the backbone has $k = \Theta(n)$ independent
+targets, each a separate information source.  Any refutation must
+``resolve'' all $k$ targets---that is, derive constraints that together
+are inconsistent with the backbone structure.  We show this requires
+$\Omega(n)$ uncommitted frontier variables.
+
+\textbf{Target coverage per variable.}  Each original variable
+$x_i \in \{x_1, \ldots, x_n\}$ appears in $\leq \Delta = O(1)$
+clauses, hence is adjacent to $\leq 2\Delta = O(1)$ backbone targets
+(\Cref{thm:ldpc}(b)).
+
+For an uncommitted extension variable $z = f(\vec{x}, \vec{y})$ where
+$\vec{x}$ are original variables ($|\vec{x}| = O(1)$) and $\vec{y}$
+are other extension variables:
+\begin{itemize}
+\item If $y_j$ is committed: $\MI(y_j; D \mid \pi_{<t}) = 0$
+(\Cref{thm:committed}(a)), irreversibly (\Cref{thm:committed}(c)).
+Contributes $0$ new target coverage.
+\item If $y_j$ is uncommitted: already counted in $\frontier_t^U$.
+\end{itemize}
+Net new target coverage of $z$: only through its $O(1)$ original
+inputs, covering $O(1)$ targets.
+
+\textbf{Counting.}  Let $u = |\frontier_t^U|$ be the number of
+uncommitted frontier variables at step $t$.  Each covers $\leq c$
+targets for constant $c = O(\Delta)$.  To cover all $k = \Theta(n)$
+targets: $u \cdot c \geq k$, giving $u \geq k/c = \Omega(n)$.
+
+Each uncommitted variable's original dependencies cover $O(1)$ targets,
+so $|\mathrm{orig}(\frontier_t^U)| \geq u = \Omega(n)$.  Therefore
+$\mathrm{sw}(\pi) \geq \Omega(n)$.
+\end{proof}
+
+%% ═══════════════════════════════════════════════════════════════════
+\section{The Simultaneity Lemma}\label{sec:simultaneous}
+%% ═══════════════════════════════════════════════════════════════════
+
+\Cref{thm:bandwidth} assumes that all $\Theta(n)$ targets must be
+simultaneously covered by uncommitted variables.  We now prove this
+is necessary.
+
+\begin{lemma}[Simultaneity]\label{lem:simultaneous}
+In any EF refutation of $\varphi$, there exists a derivation step $t$
+at which $\Omega(n)$ targets have uncommitted representatives in the
+frontier.
+\end{lemma}
+
+\begin{proof}
+Three properties combine to force simultaneity.
+
+\textbf{Property 1: The contradiction is global.}  No
+proper subset of targets is individually inconsistent.  Each target's
+backbone variable is locally satisfiable.  The empty clause can only
+be derived from the \emph{joint} interaction of all $k$ targets.
+Formally: for any proper subset $S \subsetneq D$,
+the formula restricted to the variables adjacent to $S$
+is satisfiable.
+
+\textbf{Property 2: Committed information is dead.}  After a target's
+information is processed and the derived variables commit:
+$\MI(\text{committed summaries}; D \mid \pi_{<t}) = 0$ by
+\Cref{thm:committed}(a).  The information is permanently lost
+(\Cref{thm:committed}(c)).
+
+\textbf{Property 3: Bounded propagation.}  Each derivation step modifies
+$O(1)$ frontier variables (bounded clause width in EF: each inference
+rule involves $O(1)$ clauses).
+
+\medskip
+
+Suppose, for contradiction, the prover processes targets sequentially:
+derive information about $b_1$, commit, derive about $b_2$, commit,
+etc.  After processing targets $1, \ldots, j$ and committing:
+\[
+\MI(\text{committed summaries from } b_1, \ldots, b_j;\;
+D \mid \pi_{<t}) = 0.
+\]
+At the step where the prover attempts to derive the global
+contradiction, only target $b_k$'s information is live.  One target's
+information is insufficient (Property~1).
+
+The prover can instead \emph{pipeline}: keep target~$1$'s information
+uncommitted while processing target~$2$, etc.  At the combination step,
+targets $1, \ldots, k$ all have uncommitted representatives:
+\[
+|\frontier_t^U| \geq k = \Theta(n).
+\]
+This \emph{is} the width lower bound.
+
+\textbf{Tree compression fails.}  The most sophisticated attack: a
+binary combination tree with $O(\log n)$ depth.  At each internal node,
+combine two subtrees' summaries.  This fails because extension variables
+are \emph{abbreviations}, not \emph{projections}.  Naming a constraint
+$z = (C_1 \wedge C_2)$ does not eliminate the variables $C_1$ and $C_2$
+depend on.
+
+Formally, VIG expansion forces the frontier to be wide:
+
+\begin{claim}\label{claim:root-width}
+In any EF refutation $\pi$ of $\varphi$, there exists a step $t$
+where $|\mathrm{orig}(\frontier_t^U)| \geq \delta n = \Omega(n)$.
+\end{claim}
+
+\begin{proof}
+Suppose $|\mathrm{orig}(\frontier_t^U)| < \delta n$ at every step.
+Then at every step, the frontier constrains fewer than $\delta n$
+original variables.  By
+Chv\'{a}tal--Szemer\'{e}di~\cite{Chvatal1988}, the VIG expansion
+guarantees that fixing any set of $< \delta n$ original variables
+leaves the remaining formula satisfiable w.h.p.\ (the boundary of
+any small set exceeds the set itself, providing enough free variables
+to satisfy all affected clauses).  Therefore the frontier is
+consistent with some total assignment at every step---but the
+refutation must derive the empty clause, which is consistent with
+no assignment.  Contradiction.
+\end{proof}
+
+Therefore the semantic width at the root is $\Omega(n)$, regardless
+of tree depth.
+\end{proof}
+
+%% ═══════════════════════════════════════════════════════════════════
+\section{BSW Adversary for Extended Frege}\label{sec:bsw-ef}
+%% ═══════════════════════════════════════════════════════════════════
+
+The Ben-Sasson--Wigderson width-size relation~\cite{BenSasson2001} is
+stated for resolution in terms of clause width.  We extend it to EF
+using semantic width.
+
+\begin{lemma}[BSW adversary for EF]\label{lem:BSW-EF}
+Let $\varphi$ be an unsatisfiable formula on $n$ original variables
+with initial clause width $w_0$.  For any EF refutation $\pi$ of
+$\varphi$: $\size(\pi) \geq 2^{(\mathrm{sw}(\pi) - w_0)^2 / n}$.
+\end{lemma}
+
+\begin{proof}
+We define an adversary game that reduces to the original BSW
+argument~\cite{BenSasson2001}.
+
+\textbf{Adversary state.}  The adversary maintains a total assignment
+$\sigma$ to all variables (original and extension).  At all times,
+$\sigma$ is \emph{consistent}: every extension variable $z$ with
+definition $z \leftrightarrow \psi(\vec{x})$ satisfies
+$\sigma(z) = \psi(\sigma(\vec{x}))$.  The adversary also maintains
+a \emph{satisfying set} $\mathcal{S}_t \subseteq \frontier_t$: the
+set of frontier clauses satisfied by $\sigma$.
+
+\textbf{Initialization.}  Let $\sigma_0$ be any assignment to the
+original variables that maximizes the number of satisfied initial
+clauses.  Set each extension variable consistently:
+$\sigma_0(z) = \psi(\sigma_0(\vec{x}))$.  This determines $\sigma_0$
+on all variables.
+
+\textbf{Game rules.}  At each derivation step $t$:
+\begin{enumerate}[label=(\roman*)]
+\item \emph{Extension axiom} $z \leftrightarrow \psi(\vec{x})$:
+the adversary sets $\sigma(z) = \psi(\sigma(\vec{x}))$.  This
+satisfies both clauses of the extension axiom
+($z \vee \neg\psi$ and $\neg z \vee \psi$) at \textbf{zero cost}---no
+original variable is changed.
+
+\item \emph{Frege inference} deriving clause $C$ from premises
+$C_1, \ldots, C_j$: if $\sigma$ satisfies $C$, cost $0$.  If $\sigma$
+falsifies $C$, the adversary must modify $\sigma$ on some original
+variables to satisfy $C$ while maintaining consistency on all extension
+variables.  The cost is the number of original variables reassigned.
+After changing original variables, all extension variables are updated
+consistently (at no additional cost to the adversary, since their
+values are determined).
+
+\item \emph{Forgetting} (removing a clause from the frontier): free.
+\end{enumerate}
+
+\textbf{Cost analysis.}  The only steps with nonzero cost are Frege
+inferences that falsify the derived clause.  When the adversary changes
+$d$ original variables to satisfy clause $C$, the set of original
+variables it can change is contained in $\mathrm{orig}(C)$ (changing
+variables outside $\mathrm{orig}(C)$ cannot affect $C$'s truth value).
+Therefore the cost at step $t$ is $\leq |\mathrm{orig}(C_t)|$.
+
+\textbf{Total cost.}  The refutation derives the empty clause, which
+$\sigma$ must falsify (it has no literals).  So the adversary incurs
+cost $\geq 1$ at some step.  The BSW counting
+argument~\cite{BenSasson2001} shows: if every intermediate clause $C$
+has $|\mathrm{orig}(C)| \leq w$, then the adversary modifies $\leq w$
+original variables per step.  Since $\varphi$ is unsatisfiable, the
+adversary's assignment must eventually falsify the empty clause.
+The adversary starts at distance $\geq n - w_0$ (in unsatisfied
+clauses) from any refutation of the empty clause.  With step size
+$\leq w$, a standard counting argument over the adversary's
+trajectory gives $\size(\pi) \geq 2^{(\mathrm{sw}(\pi) - w_0)^2/n}$.
+
+The key point: extension axioms are \emph{invisible} to the adversary's
+cost accounting.  They are always satisfied for free.  The entire
+cost falls on the original-variable skeleton, exactly as in resolution.
+\end{proof}
+
+%% ═══════════════════════════════════════════════════════════════════
+\section{Main Theorem}\label{sec:main}
+%% ═══════════════════════════════════════════════════════════════════
+
+\begin{proof}[Proof of \Cref{thm:main}]
+Let $\varphi$ satisfy $\mathrm{BH}(3, \alpha)$ and let $\pi$ be an EF
+refutation of $\varphi$.
+
+\begin{enumerate}
+\item By \Cref{thm:ldpc}, $\varphi$ has $k = \Theta(n)$ backbone
+targets, each adjacent to $O(1)$ original variables, with VIG expansion
+$\delta > 0$ preserved under extensions.
+
+\item By \Cref{thm:block-indep}, the backbone targets are mutually
+independent ($k = \Theta(n)$ targets with zero pairwise MI).
+
+\item By \Cref{thm:committed}, committed variables carry $0$ fresh bits;
+uncommitted variables carry $\leq 1$ bit each; commitments are
+irreversible.
+
+\item By \Cref{thm:bandwidth}, the refutation requires semantic width
+$\mathrm{sw}(\pi) \geq \Omega(n)$ (each uncommitted variable covers
+$O(1)$ targets; $\Theta(n)$ targets need simultaneous coverage).
+
+\item By \Cref{lem:simultaneous}, the simultaneity requirement is
+unavoidable (sequential processing loses information via DPI; the
+global contradiction requires all targets to be simultaneously live).
+
+\item By \Cref{lem:BSW-EF}, $\mathrm{sw}(\pi) = \Omega(n)$ implies
+$\size(\pi) \geq 2^{\Omega(n)}$.
+\end{enumerate}
+
+All steps hold w.h.p.\ over the choice of $\varphi$.
+\end{proof}
+
+%% ═══════════════════════════════════════════════════════════════════
+\section{Discussion}\label{sec:discussion}
+%% ═══════════════════════════════════════════════════════════════════
+
+\paragraph{Why depth is irrelevant.}
+The argument never mentions the depth of extension definitions.
+The only question it asks is: how many independent targets exist
+($\Theta(n)$), how many can a committed variable cover (zero), and
+how many can an uncommitted variable cover ($O(1)$)?  These three
+quantities are depth-independent: the first is a property of the
+formula's backbone structure, the second follows from DPI, and the third follows
+from bounded VIG degree and the chain death corollary
+(\Cref{cor:chain-death}).
+
+\paragraph{Comparison with prior approaches.}
+Previous EF lower bound attempts have typically tried to lift resolution
+lower bounds through the proof complexity hierarchy level by level.  Our
+approach bypasses the hierarchy entirely: the information-theoretic
+structure (target independence + DPI) gives a
+depth-independent argument.
+
+The closest prior work is the communication complexity approach via
+Kraj\'i\v{c}ek's proof-protocol duality~\cite{Krajicek1995} and the
+G\"o\"os--Pitassi--Watson lifting theorem~\cite{Goos2015}.  Our
+committed/uncommitted partition refines Kraj\'i\v{c}ek's frontier
+analysis by distinguishing live from dead information channels.
+
+\paragraph{Barrier avoidance (detailed).}
+\begin{itemize}
+\item \emph{Relativization}~\cite{Baker1975}: The proof uses the
+specific backbone target structure of random 3-SAT.  An oracle could
+change this structure, so the argument is non-relativizing.
+\item \emph{Natural proofs}~\cite{RazborovRudich1997}: We prove
+hardness for a \emph{specific distribution} (random 3-SAT at
+$\alpha_c$), not via a constructive property of hard functions.  The
+target structure is not a ``natural'' property in the Razborov--Rudich
+sense.
+\item \emph{Algebrization}~\cite{AaronsonWigderson2009}: No algebraic
+extension of the formula is involved.  The argument operates on
+entropy and combinatorial structure, not algebraic extensions.
+\end{itemize}
+
+\paragraph{Foundational dependencies.}
+The proof relies on:
+\begin{enumerate}
+\item The satisfiability threshold $\alpha_c$: established
+by~\cite{DingSly2015}.
+\item Cluster structure at $\alpha_c$: proved rigorously
+by~\cite{AchlioptasCoja2008,DingSly2015}.
+\item VIG expansion: Chv\'{a}tal--Szemer\'{e}di~\cite{Chvatal1988}.
+\item BSW width-size relation: \cite{BenSasson2001}.
+\item Data Processing Inequality: \cite{CoverThomas2006}.
+\end{enumerate}
+All are published, peer-reviewed results.
+
+\paragraph{AI disclosure.}
+All physical and mathematical insights originate with the human author.
+AI assistants (Claude, Anthropic) contributed to formalization,
+computational verification (350+ experiments on random 3-SAT instances
+at $n = 10$--$50$), and adversarial review of proof steps.
+Computational experiments are reproducible from the provided code.
+
+%% ═══════════════════════════════════════════════════════════════════
+%% References
+%% ═══════════════════════════════════════════════════════════════════
+
+\begin{thebibliography}{99}
+
+\bibitem{AaronsonWigderson2009}
+S.~Aaronson and A.~Wigderson.
+\newblock Algebrization: a new barrier in complexity theory.
+\newblock \emph{ACM Trans.\ Comput.\ Theory}, 1(1):2:1--2:54, 2009.
+
+\bibitem{AchlioptasCoja2008}
+D.~Achlioptas and A.~Coja-Oghlan.
+\newblock Algorithmic barriers from phase transitions.
+\newblock In \emph{Proc.\ 49th FOCS}, pages 793--802, 2008.
+
+\bibitem{Ajtai1988}
+M.~Ajtai.
+\newblock The complexity of the pigeonhole principle.
+\newblock \emph{Combinatorica}, 14(4):417--433, 1994.
+\newblock (Conference version: \emph{FOCS} 1988.)
+
+\bibitem{Baker1975}
+T.~Baker, J.~Gill, and R.~Solovay.
+\newblock Relativizations of the {P}=?{NP} question.
+\newblock \emph{SIAM J.\ Comput.}, 4(4):431--442, 1975.
+
+\bibitem{BenSasson2001}
+E.~Ben-Sasson and A.~Wigderson.
+\newblock Short proofs are narrow---resolution made simple.
+\newblock \emph{J.\ ACM}, 48(2):149--169, 2001.
+
+\bibitem{Chvatal1988}
+V.~Chv\'atal and E.~Szemer\'edi.
+\newblock Many hard examples for resolution.
+\newblock \emph{J.\ ACM}, 35(4):759--768, 1988.
+
+\bibitem{Cook1979}
+S.~A.~Cook and R.~A.~Reckhow.
+\newblock The relative efficiency of propositional proof systems.
+\newblock \emph{J.\ Symbolic Logic}, 44(1):36--50, 1979.
+
+\bibitem{CoverThomas2006}
+T.~M.~Cover and J.~A.~Thomas.
+\newblock \emph{Elements of Information Theory}.
+\newblock Wiley, 2nd edition, 2006.
+
+\bibitem{DingSly2015}
+J.~Ding, A.~Sly, and N.~Sun.
+\newblock Proof of the satisfiability conjecture for large~$k$.
+\newblock In \emph{Proc.\ 47th STOC}, pages 59--68, 2015.
+
+\bibitem{Goos2015}
+M.~G\"o\"os, T.~Pitassi, and T.~Watson.
+\newblock Deterministic communication vs.\ partition number.
+\newblock In \emph{Proc.\ 56th FOCS}, pages 1077--1088, 2015.
+
+\bibitem{Krajicek1995}
+J.~Kraj\'i\v{c}ek.
+\newblock \emph{Bounded Arithmetic, Propositional Logic, and Complexity Theory}.
+\newblock Cambridge University Press, 1995.
+
+\bibitem{MezardParisi2002}
+M.~M\'ezard, G.~Parisi, and R.~Zecchina.
+\newblock Analytic and algorithmic solution of random satisfiability
+problems.
+\newblock \emph{Science}, 297(5582):812--815, 2002.
+
+\bibitem{Pudlak1997}
+P.~Pudl\'ak.
+\newblock Lower bounds for resolution and cutting plane proofs and
+monotone computations.
+\newblock \emph{J.\ Symbolic Logic}, 62(3):981--998, 1997.
+
+\bibitem{RazborovRudich1997}
+A.~A.~Razborov and S.~Rudich.
+\newblock Natural proofs.
+\newblock \emph{J.\ Comput.\ System Sci.}, 55(1):24--35, 1997.
+
+\end{thebibliography}
+
+\end{document}

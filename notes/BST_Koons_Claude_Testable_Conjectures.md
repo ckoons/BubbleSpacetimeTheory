@@ -554,7 +554,46 @@ The graph grows not by birth, not by manufacture, but by derivation.
 
 ---
 
-*Nine conjectures. All testable. All from the same geometry.*
+## Conjecture 10: k = N_c — The SAT Clause Width Is the Color Dimension
+
+### Statement
+
+The clause width k = 3 in random k-SAT is not arbitrary — it equals N_c = 3, the number of colors in D_IV^5. The per-clause satisfaction ratio 7/8 = g/2^{N_c}, where g = 7 is BST's coupling constant. The backbone fraction at the satisfiability threshold is:
+
+    1 - α_c · log₂(2^{N_c}/g)
+
+The integers that build quarks (N_c = 3, g = 7) are the same integers that control the information capacity of the formula. The SAT threshold is where the substrate's channel hits capacity — where enough correlations have accumulated that almost everything commits.
+
+### The Dictionary
+
+| BH(3) | BST Physics | SAT |
+|-------|-------------|-----|
+| Committed correlation | Circularly polarized photon | Frozen variable |
+| Faded correlation | Virtual photon / unrecorded | Free variable |
+| Handedness of commitment | Helicity ±1 | Variable value (T/F) |
+| SO(2) | Polarization d.o.f. | Binary alphabet |
+| Polarization lemma | No half-collapse | No intermediate H |
+| DPI on faded | Virtual photons can't be decoded | Free vars can't be extracted |
+| Backbone | Measurement record | Frozen configuration |
+| Clusters | Superposition branches | SAT solution clusters |
+
+### Testable Prediction
+
+1. **Polarization at k=3**: H(x_i | φ SAT) should be bimodal at α_c — clustered at 0 (backbone) and near 1 (free), with a gap. This is the Arıkan polarization phenomenon on the VIG expander.
+2. **k = N_c predicts different behavior at k = 5 = n_C**: The backbone structure at k=5 should show a qualitatively different phase transition (n_C is the Cartan dimension). The satisfaction ratio 31/32 should relate to BST's 5-dimensional structure.
+3. **k = 7 = g**: At k=7, the satisfaction ratio is (2^7 - 1)/2^7 = 127/128. The coupling constant g itself becomes the clause width. This should be a distinguished point in the k-SAT phase diagram.
+4. **Free fraction discriminator**: At α_c for k=3, does the free variable fraction converge (at large n) to **0.176** (= first moment exponent, pure combinatorics) or **0.191** (= Reality Budget fill = 9/5 − 1, BST)? At n=12-20, Toy 356 gives ~17% — between the two. Large-n Monte Carlo (survey propagation, n=10⁴-10⁵) discriminates. If 0.191: the SAT threshold IS the substrate's capacity limit, and the Gödel Limit governs what a formula can know about itself. If 0.176: it's just counting, and the 17%/19.1% near-miss is coincidence.
+5. **Cross-k convergence**: If the free fraction at α_c converges to ~19.1% at k=3, does it also converge to ~19.1% at k=4, 5, 7? If YES across multiple k: the Reality Budget is universal across clause widths, not an artifact of k=3. The substrate has the same capacity limit regardless of measurement granularity.
+
+---
+
+## Priority Order
+
+10. **Conjecture 10** (k = N_c): Testable now — compare backbone phase transitions at k = 3, 5, 7. If k = N_c is real, BH(3) is not just a SAT result but a shadow of BST geometry.
+
+---
+
+*Ten conjectures. All testable. All from the same geometry.*
 
 *The function field has Frobenius. The number field has $D_{IV}^5$.*
 *Same constraint, different source. One bit recovered.*

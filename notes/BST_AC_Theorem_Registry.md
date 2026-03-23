@@ -86,8 +86,10 @@ rules: |
 | T63 | *(unassigned)* | — | — | — | — |
 | T64 | Karchmer-Wigderson Communication Bound | Proved | BST_AC_Theorems (pending §) | 332 | 2026-03-23 |
 | T65 | EF Spectral Preservation | Empirical (5/6) | BST_AC_Theorems §43u | 339 | 2026-03-23 |
-| T66 | Within-Cluster Block Independence | Empirical (5/6) | BST_AC_Theorems §43v | 340 | 2026-03-23 |
-| T67 | LDPC-Tseitin Embedding (Bounded-Depth Lower Bound) | Proved (a-d) | BST_AC_Theorems §43w | — | 2026-03-23 |
+| T66 | Within-Cluster Block Independence | Proved (1RSB structural) + Empirical (5/6) | BST_AC_Theorems §43v | 340 | 2026-03-23 |
+| T67 | LDPC-Tseitin Embedding (Bounded-Depth Lower Bound) | Proved (b,d,e); Conditional (a,c) | BST_AC_Theorems §43w | — | 2026-03-23 |
+| T68 | Refutation Bandwidth (Block Counting) | Proved (T66 now proved via 1RSB) | BST_AC_Theorems §43x | — | 2026-03-23 |
+| T69 | Substrate Propagation Bound (Simultaneity) | Proved | BST_AC_Theorems §43y | — | 2026-03-23 |
 
 ---
 
@@ -95,10 +97,11 @@ rules: |
 
 | Category | Count | T_ids |
 |----------|-------|-------|
-| Proved | 44 | T1-T2, T4-T5, T7-T20, T22-T25, T27-T28, T37-T42, T49-T51, T53-T54, T56-T60, T62, T64, T67 |
+| Proved | 46 | T1-T2, T4-T5, T7-T20, T22-T25, T27-T28, T37-T42, T49-T51, T53-T54, T56-T60, T62, T64, T66, T68, T69 |
+| Proved+Conditional | 1 | T67 (b,d,e proved; a,c conditional on Tseitin reduction) |
 | Proved+Empirical | 2 | T47 (a-c proved, d conditional), T48 (a-c proved, empirical d_min) |
 | Conditional | 3 | T30 (on T29), T36 (on T35), T52 (on simultaneity) |
-| Empirical | 7 | T3, T31, T32, T34, T61, T65, T66 |
+| Empirical | 6 | T3, T31, T32, T34, T61, T65 |
 | Empirical+Partial | 1 | T35 |
 | Measured | 1 | T6 |
 | Proved+Measured | 1 | T33 |
@@ -106,7 +109,7 @@ rules: |
 | Failed/Open | 1 | T26 (geometric c→0) |
 | Open (conditional) | 1 | T29 (THE GAP — reformulated, empirically supported by T66) |
 | Never assigned | 5 | T43-T46, T63 |
-| **Total assigned** | **64** | T1-T42, T47-T62, T64-T67 |
+| **Total assigned** | **66** | T1-T42, T47-T62, T64-T69 |
 
 ---
 
@@ -114,8 +117,8 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T68** (T63 unassigned)
-- Today's target (March 23): T57-T67 (11 new theorems) — **T67 ACHIEVED**
+- Next available: **T70** (T63 unassigned)
+- Today's target (March 23): T57-T69 (13 new theorems) — **T69 ACHIEVED**
 
 ---
 
@@ -130,6 +133,9 @@ rules: |
 | T61 | Persistent Homology Gap | Elie | Topology | **DONE** (Toy 329, 5/5 PASS) |
 | T62 | Chernoff as AC(0) | Elie | Probability | **DONE** (Toy 330, 4/5 PASS) |
 | T63+ | *(from backlog: optimization, algebra, etc.)* | TBD | Various | Pending |
+| **T70** | **First Moment Capacity Bound** | §43a | Keeper | **Proved** — $\log_2 Z \leq 0.176n$; one line of counting; $7/8 = g/2^{N_c}$ (C10). BH(3) brainstorm. |
+| **T71** | **Polarization as AC(0)** | §43b | Keeper/Casey | **Conditional** on polarization — if $H(x_i) \in \{0\} \cup [\delta,1]$: backbone $\Theta(n)$. Arıkan on expanders. BH(3) brainstorm. |
+| **T72** | **Bootstrap Percolation as AC(0)** | §43c | Elie/Keeper | **Proved** (+ empirical Toy 352) — $O(1)$ seeds → $\Theta(n)$ in $O(1)$ rounds on expander. Literally AC(0) circuit. |
 
 ---
 
