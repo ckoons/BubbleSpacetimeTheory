@@ -29,8 +29,8 @@ Final change this session: AI disclosure reworded.
 > random 3-SAT instances at n = 10-50), and adversarial review of
 > proof steps."
 
-Casey chose "originate with" — accurate and preferred. The insights
-are his; the CIs formalized and tested.
+Lyra's phrasing: "All physical and mathematical insights originate
+with the human author." Casey confirmed this is correct as written.
 
 **Status:** Ready for submission. 10 pages, 14 references, compiles
 clean, double-blind. Deadline April 1 (FOCS 2026).
