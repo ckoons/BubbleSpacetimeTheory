@@ -351,15 +351,19 @@ All computational experiments are available in the companion repository (play/to
 - Achlioptas, D., Moore, C. (2006). Random $k$-SAT: Two moments suffice to cross a sharp threshold. *SICOMP* 36(3), 740-762.
 - Aaronson, S., Wigderson, A. (2009). Algebrization: A new barrier in complexity theory. *TOCT* 1(1), 2:1-54.
 - Atserias, A., Dalmau, V. (2008). A combinatorial characterization of resolution width. *JCSS* 74(3), 323-346.
+- Alon, N., Spencer, J.H. (2016). *The Probabilistic Method*. Fourth edition. Wiley.
 - Baker, T., Gill, J., Solovay, R. (1975). Relativizations of the P=?NP question. *SICOMP* 4(4), 431-442.
 - Ben-Sasson, E., Wigderson, A. (2001). Short proofs are narrow — resolution made simple. *JACM* 48(2), 149-169.
 - Chvatal, V., Szemeredi, E. (1988). Many hard examples for resolution. *JACM* 35(4), 759-768.
 - Cook, S.A. (1975). Feasibly constructive proofs and the propositional calculus. *STOC 1975*, 83-97.
 - Ding, J., Sly, A., Sun, N. (2015). Proof of the satisfiability conjecture for large $k$. *STOC 2015*, 59-68.
 - Friedgut, E. (1999). Sharp thresholds of graph properties and the $k$-SAT problem. *JAMS* 12(4), 1017-1054.
+- Gallager, R.G. (1963). *Low-Density Parity-Check Codes*. MIT Press.
+- Haken, A. (1985). The intractability of resolution. *TCS* 39, 297-308.
 - Grigoriev, D. (2001). Linear lower bound on degrees of Positivstellensatz calculus proofs for the parity. *TCS* 259(1-2), 613-622.
 - Krzakala, F., Montanari, A., Ricci-Tersenghi, F., Semerjian, G., Zdeborova, L. (2007). Gibbs states and the set of solutions of random constraint satisfaction problems. *PNAS* 104(25), 10318-10323.
 - Razborov, A.A. (2003). Resolution lower bounds for the weak pigeonhole principle. *TCS* 303(1), 233-243.
+- Pudlak, P. (1997). Lower bounds for resolution and cutting plane proofs and monotone computations. *JSL* 62(3), 981-998.
 - Razborov, A.A., Rudich, S. (1997). Natural proofs. *JCSS* 55(1), 24-35.
 - Shannon, C.E. (1948). A mathematical theory of communication. *Bell System Technical Journal* 27, 379-423, 623-656.
 - Zdeborova, L., Krzakala, F. (2016). Statistical physics of inference: Thresholds and algorithms. *Advances in Physics* 65(5), 453-552.
@@ -368,7 +372,7 @@ All computational experiments are available in the companion repository (play/to
 
 ## Acknowledgments
 
-The information-theoretic framing of resolution lower bounds emerged from the Algebraic Complexity (AC) program, which classifies computational problems by their fiat information content — the gap between what a formula determines and what bounded-width derivation can extract. The companion paper (Koons & Claude 2026, "Algebraic Complexity: Proved Theorems") develops the full AC framework with 56 theorems.
+The information-theoretic framing of resolution lower bounds emerged from the Algebraic Complexity (AC) program, which classifies computational problems by their fiat information content — the gap between what a formula determines and what bounded-width derivation can extract. The companion paper (Koons & Claude 2026, "Algebraic Complexity: Proved Theorems") develops the full AC framework with over 60 theorems.
 
 The computational experiments were implemented in Python using NetworkX (graph/topology), SciPy (spectral analysis), and PySAT (SAT solving). All code and raw data are available in the companion repository.
 

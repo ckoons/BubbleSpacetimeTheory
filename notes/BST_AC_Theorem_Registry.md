@@ -52,7 +52,7 @@ rules: |
 | T26 | Proof Instability (Confinement Theorem) | Failed/Open | BST_AC_Theorems §31 | 279 | 2026-03-21 |
 | T27 | Weak Homological Monotonicity | Proved | BST_AC_Theorems §32 | 280 | 2026-03-21 |
 | T28 | Topological Inertness of Extensions | Proved | BST_AC_Theorems §33 | 281 | 2026-03-21 |
-| T29 | Algebraic Independence of Cycle Solutions | Conditional (OPEN) | BST_AC_Theorems §34 | — | 2026-03-21 |
+| T29 | Algebraic Independence of Cycle Solutions | Conditional (OPEN) | BST_AC_Theorems §34 | 335 | 2026-03-21 |
 | T30 | Compound Fiat (EF Exponential) | Conditional (on T29) | BST_AC_Theorems §35 | 282 | 2026-03-21 |
 | T31 | Backbone Incompressibility (Kolmogorov) | Empirical | BST_AC_Theorems §36 | 286 | 2026-03-21 |
 | T32 | Overlap Gap Property at k=3 | Empirical | BST_AC_Theorems §37 | 287 | 2026-03-21 |
@@ -83,6 +83,10 @@ rules: |
 | T60 | Expander Mixing → DPI | Proved | BST_AC_Theorems §43t | — | 2026-03-23 |
 | T61 | Persistent Homology Gap | Proved (empirical, c≈0.35) | BST_AC_Theorems (pending §) | 329 | 2026-03-23 |
 | T62 | Chernoff Bound as AC(0) | Proved | BST_AC_Theorems (pending §) | 330 | 2026-03-23 |
+| T63 | *(unassigned)* | — | — | — | — |
+| T64 | Karchmer-Wigderson Communication Bound | Proved | BST_AC_Theorems (pending §) | 332 | 2026-03-23 |
+| T65 | EF Spectral Preservation | Empirical (5/6) | BST_AC_Theorems §43u | 339 | 2026-03-23 |
+| T66 | Within-Cluster Block Independence | Empirical (5/6) | BST_AC_Theorems §43v | 340 | 2026-03-23 |
 
 ---
 
@@ -90,18 +94,18 @@ rules: |
 
 | Category | Count | T_ids |
 |----------|-------|-------|
-| Proved | 42 | T1-T2, T4-T5, T7-T20, T22-T25, T27-T28, T37-T42, T49-T51, T53-T54, T56-T60, T62 |
+| Proved | 43 | T1-T2, T4-T5, T7-T20, T22-T25, T27-T28, T37-T42, T49-T51, T53-T54, T56-T60, T62, T64 |
 | Proved+Empirical | 2 | T47 (a-c proved, d conditional), T48 (a-c proved, empirical d_min) |
 | Conditional | 3 | T30 (on T29), T36 (on T35), T52 (on simultaneity) |
-| Empirical | 5 | T3, T31, T32, T34, T61 |
+| Empirical | 7 | T3, T31, T32, T34, T61, T65, T66 |
 | Empirical+Partial | 1 | T35 |
 | Measured | 1 | T6 |
 | Proved+Measured | 1 | T33 |
 | Conjecture | 3 | T21 (DOCH), T55 (Nonlinear Decoding), CDC |
 | Failed/Open | 1 | T26 (geometric c→0) |
-| Open (conditional) | 1 | T29 (THE GAP) |
-| Never assigned | 4 | T43-T46 |
-| **Total assigned** | **60** | T1-T42, T47-T62 |
+| Open (conditional) | 1 | T29 (THE GAP — reformulated, empirically supported by T66) |
+| Never assigned | 5 | T43-T46, T63 |
+| **Total assigned** | **63** | T1-T42, T47-T62, T64-T66 |
 
 ---
 
@@ -109,8 +113,8 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T62**
-- Today's target (March 23): T57-T65 (9 new theorems)
+- Next available: **T67** (T63 unassigned)
+- Today's target (March 23): T57-T67 (11 new theorems)
 
 ---
 
@@ -153,3 +157,4 @@ rules: |
 
 *Registry created: March 23, 2026, 5:15am, by Keeper.*
 *Updated: March 23, 2026, 6:00am — T57/T58/T61 audited against Toys 328-329 (Keeper).*
+*Updated: March 23, 2026, ~11:45am — T29 empirical test (Toy 335): FALSE for overlapping cycles, INCONCLUSIVE for disjoint. Needs reformulation to disjoint-support cycles. Toy 336 (LDPC comm game, 6/6 PASS): backbone LDPC barrier forces Ω(n) communication per partition. (Elie)*

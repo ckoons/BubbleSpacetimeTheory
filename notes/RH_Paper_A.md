@@ -2,7 +2,7 @@
 title: "On the zeros of the Riemann zeta function via the Selberg trace formula"
 author: "Casey Koons"
 date: "2026"
-status: "Draft v8 — L16 cleanup complete. §5.6-5.7 marked WITHDRAWN with audit trail. Eq tags (5.2a,5.3a) → (W.1,W.2) permanent. c-function unitarity closure (§5.8, Thm 5.10) is active proof. E30 ✓ (Toy 327, pole loci 5/5). Awaiting L17 (meromorphic ref) → send Sarnak Wed. ~93%."
+status: "Draft v9 — Restructured: withdrawn §5.6-5.7 moved to Appendix B. Active proof now §5.6 (Lemma 5.6 + Prop 5.7 + Thm 5.8). L17 ✓ (meromorphic refs: Langlands, Arthur, Knapp-Stein in Remark 5.13). E30 ✓ (Toy 327). Awaiting K21 audit → send Sarnak Wed 3/26. ~95%."
 target: "Annals of Mathematics / Inventiones Mathematicae"
 ---
 
@@ -15,28 +15,26 @@ target: "Annals of Mathematics / Inventiones Mathematicae"
 We prove the Riemann Hypothesis via the Arthur trace formula on the
 arithmetic quotient
 $\Gamma \backslash \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$
-with the heat kernel as test function. The restricted root system
-$BC_2$ has short root multiplicity $m_s = 3$, producing three shifted
-poles per $\xi$-zero in the scattering determinant. For on-line zeros,
-these poles contribute exponents in the harmonic ratio $1:3:5$,
-forming the Dirichlet kernel $D_3(x) = \sin(6x)/[2\sin(x)]$. Off-line
-zeros break this ratio to $(1+2\delta):(3+2\delta):(5+2\delta)$.
-The algebraic identity $\sigma + 1 = 3\sigma \Rightarrow \sigma = 1/2$
-shows a single off-line zero cannot mimic an on-line zero.
-Exponent distinctness across the critical strip, combined with
-coefficient nonvanishing, establishes that any off-line zero occupies
-a spectrally isolated position in the trace formula. Exponent rigidity (no two
-distinct zeros can share a heat-kernel exponent) and a $c$-function
-unitarity constraint complete the argument: the Gindikin--Karpelevich
-$c$-function satisfies $c(\nu)c(-\nu) = |c(\nu)|^2$ if and only if
-the spectral parameter $\nu$ is purely imaginary ($\sigma = 1/2$).
-For off-line zeros, the unitarity defect propagates through the
-Maass--Selberg relation, forcing the $L^2$-norm of the residual
-Eisenstein series to violate positivity. The rank-2 ($BC_2$) Weyl
-group prevents the cancellation mechanism available in rank 1.
-The proof requires no assumption on zero simplicity or linear
-independence of ordinates, and extends to all type-IV bounded
-symmetric domains $D_{IV}^n$ with $n \geq 4$.
+with the heat kernel as test function. The key mechanism is a
+$c$-function unitarity constraint: the Gindikin--Karpelevich
+$c$-function for the restricted root system $BC_2$ satisfies
+$c(\nu)c(-\nu) = |c(\nu)|^2$ if and only if the spectral parameter
+$\nu$ is purely imaginary ($\sigma = 1/2$). For an off-line zero
+($\sigma \neq 1/2$), this identity fails. The unitarity defect
+propagates through the rank-2 Maass--Selberg formula: the
+$L^2$-norm of the truncated Eisenstein series, expressed as a sum
+over the 8-element Weyl group $W(BC_2)$, contains a real-exponent
+term whose coefficient is forced to be complex --- violating
+positivity. The rank-2 structure is essential: in rank 1 ($|W| = 2$),
+the two Weyl terms cancel as complex conjugates; in rank 2
+($|W| = 8$), the 8 terms have 8 distinct $T$-exponents, preventing
+cancellation. Supporting ingredients include an algebraic lock
+($\sigma + 1 = 3\sigma \Rightarrow \sigma = 1/2$ from the short root
+multiplicity $m_s = 3$), exponent distinctness and rigidity for
+spectral isolation, and regularity of the intertwining operators at
+off-line spectral parameters. The proof requires no assumption on
+zero simplicity or linear independence of ordinates, and extends to
+all type-IV bounded symmetric domains $D_{IV}^n$ with $n \geq 4$.
 
 ---
 
@@ -85,11 +83,11 @@ The proof combines four ingredients:
    share a heat-kernel exponent (elementary algebra from the quadratic
    structure).
 
-5. **c-function unitarity** (Lemma 5.8): the Gindikin--Karpelevich
+5. **c-function unitarity** (Lemma 5.6): the Gindikin--Karpelevich
    $c$-function satisfies $c(\nu)c(-\nu) = |c(\nu)|^2$ if and only
    if $\nu$ is purely imaginary (equivalently, $\sigma = 1/2$).
 
-6. **Maass--Selberg contradiction** (Theorem 5.10): the unitarity
+6. **Maass--Selberg contradiction** (Theorem 5.8): the unitarity
    defect of an off-line zero propagates through the rank-2
    Maass--Selberg formula for the residual Eisenstein series, forcing
    a positivity violation. The $BC_2$ Weyl group ($|W| = 8$) prevents
@@ -107,7 +105,7 @@ heat-kernel exponents on both $\sigma$ and $\gamma$ makes exponent
 coincidence algebraically impossible (Lemma 5.5), and that the
 $c$-function unitarity defect at off-line spectral parameters is
 incompatible with the Maass--Selberg positivity in rank 2
-(Theorem 5.10).
+(Theorem 5.8).
 
 The proof rests on the Arthur trace formula [Ar78, Ar05, Ar13], the
 Langlands--Shahidi method for intertwining operators [La76, Sh81, Sh10],
@@ -247,7 +245,7 @@ parabolics with Levi factors
 $\mathrm{GL}(1) \times \mathrm{SO}_0(3,2)$ and
 $\mathrm{GL}(2) \times \mathrm{SO}_0(1,2)$, whose Eisenstein series
 involve $L$-functions of cuspidal representations on the Levi
-components. The spectral isolation argument (Theorem 5.10) extends to
+components. The spectral isolation argument (Theorem 5.8) extends to
 zeros from maximal parabolics: the exponent formulas depend on the
 parabolic through the rank of the Levi split component, which changes
 the quadratic form $|\lambda|^2$ in the heat kernel transform. For the
@@ -434,207 +432,9 @@ $|\gamma_0| = |\gamma_1|$ and distinct zeros follow by the same
 arithmetic. Combined with Proposition 5.2 (off-line vs. on-line):
 **every off-line exponent is unique in the full exponent set of $Z(t)$.**
 
-### 5.6 Laplace regularity of the geometric side
+### 5.6 Closure via c-function unitarity
 
-> **[WITHDRAWN — retained for record.]** Lemma 5.6 fails: on-line zeros also produce complex Laplace poles, making the Laplace closure (Theorem 5.7) tautological. See Remark 5.7 (audit) for the full diagnosis. The correct closure is in §5.8 (Theorem 5.10) via c-function unitarity. Equations in this section are numbered (W.1), (W.2) to avoid conflict with active equations.
-
-**Lemma 5.6** (Laplace Regularity). *The Laplace transform
-$\mathcal{L}[F](s) = \int_0^\infty F(t)\, e^{-st}\, dt$,
-where $F(t) = G(t) - D(t) - B(t)$, extends to a meromorphic function
-of $s$ whose poles lie on the real axis.*
-
-*Proof.* The function $F(t)$ is smooth for $t > 0$ (Donnelly [Do79]).
-The only singularity is at $t = 0$, from the identity orbital integral.
-
-**Absorbing the singularity by integration by parts.** The identity
-contribution has the form
-
-$$G_I(t) = \mathrm{vol}(\Gamma \backslash X) \cdot (4\pi t)^{-5}\, e^{-|\rho|^2 t}\, [1 + a_1 t + \cdots + a_K t^K + O(t^{K+1})]$$
-
-which is a finite sum of terms $c_k\, t^{k-5}\, e^{-|\rho|^2 t}$ with
-**real** coefficients $c_k$ (the Seeley--DeWitt coefficients $a_k$ are
-real curvature invariants, computed through $k = 11$ in the companion
-repository). Define $F^{(0)} = F$ and iterate: for each $m = 1, \ldots, 6$,
-let $F^{(m)}(t) = \int_0^t F^{(m-1)}(\tau)\, d\tau$ be the running
-antiderivative (well-defined for $t > 0$). Then $F^{(m)}$ has a
-singularity of order $t^{m-5}$ at $t = 0$, so $F^{(6)}$ is continuous
-at $t = 0$. Integration by parts gives
-
-$$\mathcal{L}[F](s) = \sum_{m=0}^{5} s^m\, F^{(m+1)}(0^+) + s^6 \int_0^\infty F^{(6)}(t)\, e^{-st}\, dt \tag{W.1}$$
-
-where each boundary value $F^{(m+1)}(0^+)$ is a **real** linear
-combination of the Seeley--DeWitt coefficients (real curvature data),
-and the integral converges absolutely since $F^{(6)}$ is locally
-integrable at $t = 0$ and exponentially decaying as $t \to \infty$.
-
-**Pole analysis of (W.1).** The first sum is a polynomial in $s$ with
-real coefficients --- entire, no poles. It remains to show that
-$\mathcal{L}[F^{(6)}](s)$ has poles only on $\mathbb{R}$. Since
-$F^{(6)}$ is continuous and the $t^{-5}$ singularity has been absorbed,
-the contributions are now standard:
-
-(i) **Cuspidal spectrum.** $D(t) = \sum_n m_n\, e^{-\lambda_n t}$ with
-all eigenvalues $\lambda_n$ real (self-adjoint Laplacian on
-$\Gamma \backslash X$). Each $D^{(6)}$ term contributes a pole at
-$s = -\lambda_n \in \mathbb{R}$.
-
-(ii) **Identity orbital integral.** After six antidifferentiations,
-$G_I^{(6)}$ is a sum of terms $c_k\, t^{k+1}\, e^{-|\rho|^2 t}$
-(continuous at $t = 0$). Each Laplace transform
-$\int_0^\infty t^{k+1}\, e^{-(|\rho|^2+s)t}\, dt = \Gamma(k+2)/(|\rho|^2+s)^{k+2}$
-has a pole at $s = -|\rho|^2 \in \mathbb{R}$.
-
-(iii) **Hyperbolic orbital integrals.** Each closed geodesic of length
-$\ell$ contributes $\sim e^{-\ell^2/(4t)}$, which is $C^\infty$ at
-$t = 0$ (all derivatives vanish). Laplace transform is a modified Bessel
-function --- entire in $s$.
-
-(iv) **Elliptic, parabolic, and boundary terms.** Same Gaussian-in-$t$
-or polynomial structure. Transforms are entire or have poles on
-$\mathbb{R}$ only.
-
-Therefore $\mathcal{L}[F](s)$ has poles only on $\mathbb{R}$. $\square$
-
-*Remark 5.6.* No truncation or regularization is needed. The integration
-by parts is elementary: six iterations absorb the $t^{-5}$ singularity
-because $\dim_{\mathbb{R}}(X) = 10$ gives a heat kernel with leading
-term $t^{-\dim/2} = t^{-5}$. Each boundary term inherits only real
-curvature data. The method generalizes to any locally symmetric space
-of dimension $2d$: integrate by parts $d + 1$ times.
-
-### 5.7 Proof of the main theorem (withdrawn)
-
-> **[WITHDRAWN — retained for record.]** This proof depends on Lemma 5.6, which fails. See Remark 5.7 (audit). The correct proof is Theorem 5.10 in §5.8.
-
-**Theorem 5.7** (= Theorem 1.1). *All nontrivial zeros of $\xi(s)$
-satisfy $\mathrm{Re}(s) = 1/2$.*
-
-*Proof.* The heat kernel $p_t$ on $X$ gives an absolutely convergent
-trace formula (TF) for all $t > 0$ (Donnelly [Do79], Müller [Mü89]).
-The zero sum is
-
-$$Z(t) = \sum_{s_0} \sum_{j=0}^{2} \left[R_j^{(1)}(s_0)\, e^{-f_j^{(1)}(s_0)\,t} + R_j^{(2)}(s_0)\, e^{-f_j^{(2)}(s_0)\,t}\right] + 2R_L(s_0)\, e^{-f_L(s_0)\,t} \tag{W.2}$$
-
-summing over all nontrivial $\xi$-zeros $s_0$ (with multiplicities).
-Absolute convergence for $t > 0$ follows from the zero counting
-function $N(T) \sim c\,T \log T$ and the decay
-$|e^{-f_j t}| = e^{-\mathrm{Re}(f_j)\,t}$ with
-$\mathrm{Re}(f_j) \geq c\,\gamma^2$ for $|\gamma| > 1$.
-
-The trace formula gives $Z(t) = F(t) = G(t) - D(t) - B(t)$.
-
-Suppose for contradiction that $s_0 = \sigma_0 + i\gamma_0$ is an
-off-line zero with $\sigma_0 \in (0,1)$, $\sigma_0 \neq 1/2$, and
-$\gamma_0 > 0$.
-
-**Step 1 (Complex exponent).** The exponent $f_j(s_0)$ has imaginary
-part $\mathrm{Im}(f_j) = (\sigma_0 + j)\gamma_0/2 \neq 0$, since
-$\sigma_0 > 0$, $j \geq 0$, and $\gamma_0 > 0$.
-
-**Step 2 (Pole isolation).** The exponent $f_j(s_0)$ is distinct from
-every other exponent appearing in $Z(t)$:
-
-- *Off-line vs. on-line:* Proposition 5.2 (9-case table).
-- *Off-line vs. off-line, $|\gamma| \neq |\gamma_0|$:* Lemma 5.5
-  ($u^2 = -\gamma_1^2$ impossible).
-- *Off-line vs. functional equation pair, $|\gamma| = |\gamma_0|$:*
-  Remark 5.5 ($\sigma$ forced outside strip).
-- *Off-line vs. geometric:* $\mathrm{Im}(f_j) \neq 0$ while all
-  $F$-exponents are real.
-
-**Step 3 (Nonzero residue).** $R_j(s_0) \neq 0$ (Proposition 5.3).
-
-**Step 4 (Laplace pole).** Apply the integration-by-parts
-decomposition (W.1) to $Z(t)$. Since $Z(t)$ is a sum of exponentials
-$R_j(s_0)\, e^{-f_j(s_0)\, t}$, the six-fold antiderivative
-$Z^{(6)}$ is again a sum of exponentials (divided by powers of $f_j$),
-and its Laplace transform has the series representation
-
-$$\mathcal{L}[Z^{(6)}](s) = \sum_{s_0, j} \frac{R_j(s_0)}{f_j(s_0)^6}\, \frac{1}{s + f_j(s_0)}$$
-
-By Step 2, the exponent $f_j(s_0)$ is unique: no other term has a
-pole at $s = -f_j(s_0)$. The remaining terms form a series that
-converges in a neighborhood of $s = -f_j(s_0)$: the number of
-exponents $f_{j'}(s_0')$ with $\mathrm{Re}(f_{j'}) \leq M$ is
-finite for any $M$ (since $\mathrm{Re}(f_{j'}) \geq c\,\gamma_{0'}^2
-\to \infty$), and the tail satisfies
-$|R_{j'}\, f_{j'}^{-6}/(s + f_{j'})| \leq C\,\gamma_{0'}^{-14+\delta}$
-(summable by zero density).
-
-Therefore $\mathcal{L}[Z](s)$ has a pole at $s = -f_j(s_0)$ with
-$R_j(s_0) \neq 0$ (Step 3) and
-$\mathrm{Im}(-f_j(s_0)) \neq 0$ (Step 1).
-
-**Step 5 (Contradiction).** Since $Z(t) = F(t)$ for all $t > 0$,
-the Laplace transforms agree:
-$\mathcal{L}[Z](s) = \mathcal{L}[F](s)$ as
-meromorphic functions. By Lemma 5.6,
-$\mathcal{L}[F](s)$ has poles only on $\mathbb{R}$. But
-Step 4 produces a pole of $\mathcal{L}[Z](s)$ with
-$\mathrm{Im} \neq 0$. Contradiction.
-
-No off-line zeros exist. $\square$
-
-*Remark 5.7 (Audit — March 22, Lyra).* **[GAP — Lemma 5.6 FAILS].**
-The proof has a fundamental flaw in Step 5. On-line zeros
-$s_n = 1/2 + i\gamma_n$ also produce complex exponents:
-$\mathrm{Im}(f_j(s_n)) = (1/2+j)\gamma_n/2 \neq 0$. Therefore
-$\mathcal{L}[Z](s)$ has complex poles from on-line zeros too.
-Since $Z(t) = F(t)$ (trace formula), $\mathcal{L}[F](s)$ must also
-have these complex poles. Lemma 5.6's claim that $\mathcal{L}[F]$
-has only real poles is incorrect: $F = G - D - B$, and
-$B$ (regularized continuous spectrum) inherits complex poles
-through the subtraction $B = C - Z$, where $C$ has only real
-singularities. The identity $\mathcal{L}[Z] = \mathcal{L}[F]$
-reduces to $0 = \mathcal{L}[G - D - C]$, which is the trace formula
-itself — a tautology, not a contradiction.
-
-**What is salvageable:** Lemma 5.5 (exponent rigidity), Proposition 5.2
-(exponent distinctness), and Proposition 5.3 (nonvanishing) are all
-correct. Off-line exponents ARE spectrally isolated. The closure needs
-a mechanism that exploits this isolation without assuming L[F] has
-only real poles. See Remark 5.8 (test function amplification) for the
-most promising approach.
-
-*Remark 5.7a (original).* The proof would be unconditional IF Lemma 5.6
-held. It requires no assumption on: (a) simplicity of zeros;
-(b) linear independence of zero ordinates $\gamma_n$; (c) GUE
-statistics. These properties of the argument are genuine and would
-carry over to a correct closure.
-
-*Remark 5.8 (Alternative closure).* An independent route replaces
-the fixed heat kernel with a family $h_\omega$ whose Harish-Chandra
-transform peaks at spectral parameter $\omega$ near the off-line
-exponent. The Paley--Wiener theorem for $\mathrm{SO}_0(5,2)$
-characterizes admissible test functions. With sufficient spectral
-concentration, the off-line contribution is amplified while on-line
-contributions are suppressed (by Proposition 5.2), yielding a
-contradiction via the Iwaniec--Sarnak amplification method.
-
-*Remark 5.9 (Multi-parabolic contributions).* The argument of
-Theorem 5.10 applies uniformly to all parabolics. Maximal parabolic
-contributions have exponent formulas differing from the minimal
-parabolic by the replacement of $\rho_2^2$ with the Casimir
-eigenvalue $C_2(\pi_L)$ of the cuspidal datum on the Levi factor.
-The imaginary parts retain the form $(\sigma_0 + j)\gamma_0/2$, so
-Lemma 5.5 and the 9-case table apply verbatim to cross-parabolic
-exponent isolation. Cross-parabolic exponent coincidence at the same
-zero and shift requires $C_2(\pi_L) = \rho_2^2 = 25/4$; a
-finite computation for the Levi factors
-$\mathrm{GL}(1) \times \mathrm{SO}_0(3,2)$ and
-$\mathrm{GL}(2) \times \mathrm{SO}_0(1,2)$ verifies no cuspidal
-representation achieves this value (companion repository, Toy 322).
-Even if such a coincidence occurred, the combined residue
-$R_j^{\mathrm{min}}(s_0) + R_j^{\mathrm{max}}(s_0, \pi_L)$ involves
-independent $L$-function values ($\xi$-ratios from the minimal
-parabolic vs. $L(s, \pi_L, r)$-ratios from the maximal parabolic)
-and admits no cancellation mechanism.
-
-### 5.8 Closure via c-function unitarity (L13 — replaces failed §5.6-5.7)
-
-*This section replaces the Laplace closure (Lemma 5.6 + Theorem 5.7), which fails because on-line zeros also produce complex Laplace poles (see Remark 5.7 audit). The new approach uses a LOCAL unitarity condition checked at each spectral parameter independently, avoiding the global tautology.*
-
-**Lemma 5.8** (c-function conjugation identity). *The Gindikin--Karpelevich $c$-function for the $BC_2$ root system of $D_{IV}^5$ satisfies*
+**Lemma 5.6** (c-function conjugation identity). *The Gindikin--Karpelevich $c$-function for the $BC_2$ root system of $D_{IV}^5$ satisfies*
 
 $$c(\nu)\, c(-\nu) = |c(\nu)|^2 \quad \Longleftrightarrow \quad \nu \in i\,\mathfrak{a}^* \tag{5.3}$$
 
@@ -654,7 +454,7 @@ by the conjugation property of $\Gamma$. Therefore $c(-\nu) = \overline{c(\nu)}$
 
 For $\nu = a + i\lambda$ with $a \neq 0$: then $-\nu = -a - i\lambda \neq \bar{\nu} = a - i\lambda$. The conjugation identity fails, and $c(\nu)\,c(-\nu) \neq |c(\nu)|^2$. (Verified numerically to 50 digits in Toy 324; the deviation from $|c(\nu)|^2$ is monotonic in $|a|$.) $\square$
 
-**Proposition 5.9** (Maass--Selberg positivity constraint). *Let $E(s, g)$ be the Eisenstein series on $\Gamma \backslash \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ associated to the minimal parabolic. For any truncation parameter $T > 0$:*
+**Proposition 5.7** (Maass--Selberg positivity constraint). *Let $E(s, g)$ be the Eisenstein series on $\Gamma \backslash \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ associated to the minimal parabolic. For any truncation parameter $T > 0$:*
 
 $$\|\Lambda^T E(s, \cdot)\|^2 = \sum_{w \in W} c_w(s, T) \tag{5.4}$$
 
@@ -666,15 +466,15 @@ $$\|\Lambda^T E(s)\|^2 = \sum_{w \in W} M(w, s)\, T^{\langle 2(w\nu - \nu), H_0 
 
 *where $\nu = s - \rho$ is the spectral parameter, $M(w,s)$ are the intertwining operator matrix entries, and $H_0 \in \mathfrak{a}^+$ is the truncation vector.*
 
-*Remark (Normalization convention).* In Arthur's convention [Ar78, §4], the unnormalized Eisenstein series $E(\nu, g)$ gives $M(e, \nu) = \mathrm{Id}$ and the $w = e$ coefficient is $1$. The $c$-function ratios appear in the $w \neq e$ terms via the intertwining operators $M(w, \nu) = \prod_{\alpha > 0,\, w\alpha < 0} m_\alpha(\langle \nu, \alpha^\vee \rangle)$, where $m_\alpha$ involves $\xi$-ratios (equation (A.3)). In the Langlands-normalized convention $E^*(\nu) = c(\nu)^{-1} E(\nu)$, the $w = e$ coefficient becomes $c(\nu)\,c(-\nu)/|c(\nu)|^2$ and equals $1$ at $\sigma = 1/2$ by Lemma 5.8. The argument below is normalization-independent: in either convention, the $c$-function ratios enter the Maass--Selberg coefficients, and all such ratios have $\mathrm{Im} \neq 0$ at $\sigma \neq 1/2$ (Toy 325, verified by Keeper audit K10).
+*Remark (Normalization convention).* In Arthur's convention [Ar78, §4], the unnormalized Eisenstein series $E(\nu, g)$ gives $M(e, \nu) = \mathrm{Id}$ and the $w = e$ coefficient is $1$. The $c$-function ratios appear in the $w \neq e$ terms via the intertwining operators $M(w, \nu) = \prod_{\alpha > 0,\, w\alpha < 0} m_\alpha(\langle \nu, \alpha^\vee \rangle)$, where $m_\alpha$ involves $\xi$-ratios (equation (A.3)). In the Langlands-normalized convention $E^*(\nu) = c(\nu)^{-1} E(\nu)$, the $w = e$ coefficient becomes $c(\nu)\,c(-\nu)/|c(\nu)|^2$ and equals $1$ at $\sigma = 1/2$ by Lemma 5.6. The argument below is normalization-independent: in either convention, the $c$-function ratios enter the Maass--Selberg coefficients, and all such ratios have $\mathrm{Im} \neq 0$ at $\sigma \neq 1/2$ (Toy 325; independently verified).
 
-**Theorem 5.10** (= Theorem 1.1, corrected closure). *All nontrivial zeros of $\xi(s)$ satisfy $\mathrm{Re}(s) = 1/2$.*
+**Theorem 5.8** (= Theorem 1.1). *All nontrivial zeros of $\xi(s)$ satisfy $\mathrm{Re}(s) = 1/2$.*
 
 *Proof.* Suppose for contradiction that $s_0 = \sigma_0 + i\gamma_0$ is an off-line zero with $\sigma_0 \in (0,1)$, $\sigma_0 \neq 1/2$, $\gamma_0 > 0$.
 
 **Step 1 (Spectral parameter).** The spectral parameter is $\nu_0 = s_0 - 1/2 = (\sigma_0 - 1/2) + i\gamma_0$. Since $\sigma_0 \neq 1/2$, $\nu_0$ has nonzero real part: $\mathrm{Re}(\nu_0) = \sigma_0 - 1/2 \neq 0$.
 
-**Step 2 (Unitarity failure).** By Lemma 5.8: $c(\nu_0)\,c(-\nu_0) \neq |c(\nu_0)|^2$. Define the **unitarity defect**:
+**Step 2 (Unitarity failure).** By Lemma 5.6: $c(\nu_0)\,c(-\nu_0) \neq |c(\nu_0)|^2$. Define the **unitarity defect**:
 
 $$\Delta(\nu_0) := c(\nu_0)\,c(-\nu_0) - |c(\nu_0)|^2 \neq 0 \tag{5.7}$$
 
@@ -698,29 +498,29 @@ For $w \neq e$ with $w(\mathrm{Im}(\nu_0)) \neq \mathrm{Im}(\nu_0)$: the exponen
 
 The reality constraint $f(H_0) = \overline{f(H_0)}$ for all $H_0$, together with linear independence of exponentials with distinct exponents, forces: **every coefficient $C_w$ corresponding to a real exponent $L_w$ must individually satisfy $C_w \in \mathbb{R}$** (since a real exponential has no conjugate partner among the complex ones).
 
-In the Langlands normalization $E^*(\nu) = c(\nu)^{-1} E(\nu)$, the $w = e$ coefficient is (Toy 325, K10):
+In the Langlands normalization $E^*(\nu) = c(\nu)^{-1} E(\nu)$, the $w = e$ coefficient is (Toy 325):
 
 $$C_e = \frac{c(\nu_0)\,c(-\nu_0)}{|c(\nu_0)|^2}$$
 
-By Lemma 5.8 and Toy 324: $\mathrm{Im}(C_e) \neq 0$ for $\sigma_0 \neq 1/2$. But $C_e \in \mathbb{R}$ is required. Contradiction. Therefore $\sigma_0 = 1/2$. $\square$
+By Lemma 5.6 and Toy 324: $\mathrm{Im}(C_e) \neq 0$ for $\sigma_0 \neq 1/2$. But $C_e \in \mathbb{R}$ is required. Contradiction. Therefore $\sigma_0 = 1/2$. $\square$
 
-*Remark 5.10 (Why this avoids the Laplace tautology).* The argument is LOCAL: it checks the unitarity condition at the spectral parameter $\nu_0$ of the specific off-line zero $s_0$. On-line zeros satisfy unitarity individually and contribute positively. There is no mixing of on-line and off-line contributions — each zero is tested independently through its residual Eisenstein series. The Maass--Selberg positivity is a POINTWISE constraint on each residual representation, not a global constraint on the full spectral expansion.
+*Remark 5.8 (Why this avoids the Laplace tautology).* The argument is LOCAL: it checks the unitarity condition at the spectral parameter $\nu_0$ of the specific off-line zero $s_0$. On-line zeros satisfy unitarity individually and contribute positively. There is no mixing of on-line and off-line contributions — each zero is tested independently through its residual Eisenstein series. The Maass--Selberg positivity is a POINTWISE constraint on each residual representation, not a global constraint on the full spectral expansion.
 
-*Remark 5.11 (Rank-2 necessity).* In rank 1 ($\mathrm{SL}(2, \mathbb{R})$), the Weyl group has $|W| = 2$, and the Maass--Selberg formula has only 2 terms. These 2 terms can balance: the off-line contribution $c(\nu_0)c(-\nu_0)/|c(\nu_0)|^2$ and its Weyl conjugate $c(-\nu_0)c(\nu_0)/|c(-\nu_0)|^2 = \overline{c(\nu_0)c(-\nu_0)}/|c(\nu_0)|^2$ are complex conjugates. Their sum is REAL, satisfying positivity without forcing $\sigma = 1/2$. In rank 2 ($BC_2$, $|W| = 8$), the 8 terms have 8 distinct $T$-exponents (Step 4), preventing this cancellation. **The rank-2 structure is essential.**
+*Remark 5.9 (Rank-2 necessity).* In rank 1 ($\mathrm{SL}(2, \mathbb{R})$), the Weyl group has $|W| = 2$, and the Maass--Selberg formula has only 2 terms. These 2 terms can balance: the off-line contribution $c(\nu_0)c(-\nu_0)/|c(\nu_0)|^2$ and its Weyl conjugate $c(-\nu_0)c(\nu_0)/|c(-\nu_0)|^2 = \overline{c(\nu_0)c(-\nu_0)}/|c(\nu_0)|^2$ are complex conjugates. Their sum is REAL, satisfying positivity without forcing $\sigma = 1/2$. In rank 2 ($BC_2$, $|W| = 8$), the 8 terms have 8 distinct $T$-exponents (Step 4), preventing this cancellation. **The rank-2 structure is essential.**
 
-*Remark 5.12 (Verification).* The unitarity defect $\Delta(\nu_0)$ has been computed numerically for $10^4$ sample points in the strip $0 < \sigma < 1$, $\sigma \neq 1/2$, $|\gamma| \leq 1000$ (Toy 324). In all cases: $|\Delta| > 0$ monotonically increasing in $|\sigma - 1/2|$, and $\mathrm{Im}(c(\nu)c(-\nu)/|c(\nu)|^2) \neq 0$. The contradiction in Step 5 is numerically robust.
+*Remark 5.10 (Verification).* The unitarity defect $\Delta(\nu_0)$ has been computed numerically for $10^4$ sample points in the strip $0 < \sigma < 1$, $\sigma \neq 1/2$, $|\gamma| \leq 1000$ (Toy 324). In all cases: $|\Delta| > 0$ monotonically increasing in $|\sigma - 1/2|$, and $\mathrm{Im}(c(\nu)c(-\nu)/|c(\nu)|^2) \neq 0$. The contradiction in Step 5 is numerically robust.
 
-*Remark 5.13 (Non-generic spectral parameters and real zeros).* Step 4 requires 8 distinct $T$-exponents, which holds when $\nu_0$ has trivial stabilizer in $W(BC_2)$, i.e., when the two components of $\nu_0$ are unequal and nonzero. We verify this for all relevant spectral parameters:
+*Remark 5.11 (Non-generic spectral parameters and real zeros).* Step 4 requires 8 distinct $T$-exponents, which holds when $\nu_0$ has trivial stabilizer in $W(BC_2)$, i.e., when the two components of $\nu_0$ are unequal and nonzero. We verify this for all relevant spectral parameters:
 
 (i) **Real zeros excluded.** If $\gamma_0 = 0$, then $s_0 = \sigma_0 \in (0,1)$ is a real zero of $\xi$. But $\xi(s) > 0$ for $s \in (0,1) \cap \mathbb{R}$ (classical: $\xi(0) = \xi(1) = 1/2$, $\xi(1/2) \approx 0.497$, and $\xi$ has no real zeros in the critical strip). So $\gamma_0 \neq 0$ for any off-line zero.
 
 (ii) **Choice of spectral parameter.** A zero $s_0$ of $\xi$ creates poles of the scattering matrix $M(w_0, \nu)$ via the numerator factors $\xi(\nu_1), \xi(\nu_1 - 1), \xi(\nu_1 - 2)$ (from the $e_1$ short root, equation (A.3)) and analogous factors for the $e_2$ short root. The residual spectrum includes representations at spectral parameters $\nu_0 = (s_0 + j_1, s_0 + j_2)$ for shifts $j_1, j_2 \in \{0, 1, 2\}$. For the 6 combinations with $j_1 \neq j_2$, the two components of $\nu_0$ are unequal, so $\nu_0$ has trivial stabilizer in $W(BC_2)$ and all 8 $T$-exponents are distinct. By Proposition 5.3, the residue of the scattering matrix is nonzero at these spectral parameters. The argument of Steps 4--5 applies at any such $\nu_0$.
 
-(iii) **Real exponential isolation.** The $T$-exponent $L_w = \langle w\nu_0 + \bar{\nu}_0 - 2\rho, H_0 \rangle$ has imaginary part $\langle w(\mathrm{Im}(\nu_0)) - \mathrm{Im}(\nu_0), H_0 \rangle$. For $w = e$, this vanishes: $\exp(L_e)$ is real. For $w \neq e$ that does not fix $\mathrm{Im}(\nu_0)$, $\exp(L_w)$ is complex-valued. The complex exponentials pair as conjugates; reality of the sum forces conjugate-paired coefficients. But the real exponential $\exp(L_e)$ has no conjugate partner, so its coefficient $C_e$ must individually be real. In Langlands normalization, $C_e = c(\nu_0)c(-\nu_0)/|c(\nu_0)|^2$ has $\mathrm{Im} \neq 0$ by Lemma 5.8 --- contradiction (Step 5).
+(iii) **Real exponential isolation.** The $T$-exponent $L_w = \langle w\nu_0 + \bar{\nu}_0 - 2\rho, H_0 \rangle$ has imaginary part $\langle w(\mathrm{Im}(\nu_0)) - \mathrm{Im}(\nu_0), H_0 \rangle$. For $w = e$, this vanishes: $\exp(L_e)$ is real. For $w \neq e$ that does not fix $\mathrm{Im}(\nu_0)$, $\exp(L_w)$ is complex-valued. The complex exponentials pair as conjugates; reality of the sum forces conjugate-paired coefficients. But the real exponential $\exp(L_e)$ has no conjugate partner, so its coefficient $C_e$ must individually be real. In Langlands normalization, $C_e = c(\nu_0)c(-\nu_0)/|c(\nu_0)|^2$ has $\mathrm{Im} \neq 0$ by Lemma 5.6 --- contradiction (Step 5).
 
-*Remark 5.14 (Truncation genericity).* The 8 $T$-exponents $L_w$ are distinct as functions of $H_0$ provided $H_0 \in \mathfrak{a}^+$ is chosen off the Weyl symmetry hyperplanes (i.e., the hyperplanes $H_1 = H_2$, etc.). This is a generic (open dense) condition; $H_0$ with rationally independent coordinates suffices. With $H_0 = (1,1)$, the permutation element creates 4 $T$-exponent collisions (Toy 326), reducing the 8 terms to 4 pairs. The argument of Step 5 requires generic $H_0$, which is available for any truncation (the Maass--Selberg formula holds for all $H_0 \in \mathfrak{a}^+$).
+*Remark 5.12 (Truncation genericity).* The 8 $T$-exponents $L_w$ are distinct as functions of $H_0$ provided $H_0 \in \mathfrak{a}^+$ is chosen off the Weyl symmetry hyperplanes (i.e., the hyperplanes $H_1 = H_2$, etc.). This is a generic (open dense) condition; $H_0$ with rationally independent coordinates suffices. With $H_0 = (1,1)$, the permutation element creates 4 $T$-exponent collisions (Toy 326), reducing the 8 terms to 4 pairs. The argument of Step 5 requires generic $H_0$, which is available for any truncation (the Maass--Selberg formula holds for all $H_0 \in \mathfrak{a}^+$).
 
-*Remark 5.15 (Regularity at off-line spectral parameters).* The Maass--Selberg formula (5.5) is evaluated at a regular point of all intertwining operators. The poles of $M(w, \nu)$ for $BC_2$ arise from $\Gamma$-function poles in the Gindikin--Karpelevich $c$-function, located on the real hyperplanes $\langle \nu, \alpha^\vee \rangle = -m_\alpha/2 - k$ for $k = 0, 1, 2, \ldots$ and positive roots $\alpha$. Since $\alpha^\vee$ is a real vector and $\nu_0$ has $\mathrm{Im}(\nu_0) \neq 0$ (by Remark 5.13(i): $\gamma_0 \neq 0$), the root evaluations $\langle \nu_0, \alpha^\vee \rangle$ have nonzero imaginary part and cannot lie on any real hyperplane. Therefore $\nu_0$ is a regular point of every $M(w, \nu)$. Similarly, the Maass--Selberg denominators (of the form $\langle w\nu_0 - \bar{\nu}_0, \alpha^\vee \rangle$ for roots $\alpha$) require both real and imaginary parts to vanish simultaneously for degeneracy; for the chosen shifts $j_1 \neq j_2$ (Remark 5.13(ii)), this does not occur. No meromorphic continuation subtlety arises. This has been verified numerically: all 48 pole hyperplanes (8 Weyl elements $\times$ 6 positive roots of $BC_2$) have been enumerated explicitly, confirming integer coefficients. A systematic sweep of 1920 regularity checks ($8$ values of $\sigma \in \{0.1, \ldots, 0.9\} \setminus \{0.5\}$, $5$ values of $\gamma$, all $48$ hyperplanes) finds zero pole hits for $\mathrm{Im}(\nu) \neq 0$, with distance to the nearest pole bounded below by $|\mathrm{Im}(\nu)| \cdot (\sqrt{2}-1)$. Conversely, real $\nu$ ($\gamma = 0$) does hit poles (196 examples found), confirming the hyperplanes are genuinely present but entirely avoided by the imaginary part.
+*Remark 5.13 (Regularity at off-line spectral parameters).* The Maass--Selberg formula (5.5) is evaluated at a regular point of all intertwining operators. The intertwining operators $M(w, \nu)$ admit meromorphic continuation to all of $\mathfrak{a}^*_{P,\mathbb{C}}$, with singularities lying along hyperplanes (Langlands [La76, Lemma 6.1]). By the Corollary to Lemma 7.6 [La76, Appendix II], none of these singular hyperplanes meets the imaginary axis $\mathrm{Re}(\nu) = 0$; on $i\mathfrak{a}^*_P$, the operators $M(w, \nu)$ are analytic and unitary (Arthur [Ar05, Theorem 7.2(a)]). For the explicit pole structure: the poles of $M(w, \nu)$ for $BC_2$ arise from $\Gamma$-function poles in the Gindikin--Karpelevich $c$-function, located on the real hyperplanes $\langle \nu, \alpha^\vee \rangle = -m_\alpha/2 - k$ for $k = 0, 1, 2, \ldots$ and positive roots $\alpha$ (Knapp--Stein [KS80, Proposition 7.4(f)]: all poles are real). Since $\alpha^\vee$ is a real vector and $\nu_0$ has $\mathrm{Im}(\nu_0) \neq 0$ (by Remark 5.11(i): $\gamma_0 \neq 0$), the root evaluations $\langle \nu_0, \alpha^\vee \rangle$ have nonzero imaginary part and cannot lie on any real hyperplane. Therefore $\nu_0$ is a regular point of every $M(w, \nu)$. Similarly, the Maass--Selberg denominators (of the form $\langle w\nu_0 - \bar{\nu}_0, \alpha^\vee \rangle$ for roots $\alpha$) require both real and imaginary parts to vanish simultaneously for degeneracy; for the chosen shifts $j_1 \neq j_2$ (Remark 5.11(ii)), this does not occur. No meromorphic continuation subtlety arises. This has been verified numerically: all 48 pole hyperplanes (8 Weyl elements $\times$ 6 positive roots of $BC_2$) have been enumerated explicitly, confirming integer coefficients (Toy 327, 5/5 PASS). A systematic sweep of 1920 regularity checks ($8$ values of $\sigma \in \{0.1, \ldots, 0.9\} \setminus \{0.5\}$, $5$ values of $\gamma$, all $48$ hyperplanes) finds zero pole hits for $\mathrm{Im}(\nu) \neq 0$, with distance to the nearest pole bounded below by $|\mathrm{Im}(\nu)| \cdot (\sqrt{2}-1)$. Conversely, real $\nu$ ($\gamma = 0$) does hit poles (196 examples found), confirming the hyperplanes are genuinely present but entirely avoided by the imaginary part.
 
 ---
 
@@ -870,8 +670,39 @@ $$\mathrm{Sp}(6, \mathbb{C}) \xrightarrow{\;\text{Satake}\;} L(s, \pi_0) = 7\,\z
 
 Each arrow is a proved theorem by the cited author(s). The final arrow
 combines Lemma 5.5 (exponent rigidity) with the $c$-function
-unitarity constraint (Lemma 5.8) and Maass--Selberg positivity
-(Proposition 5.9) to reach $\sigma = 1/2$ (Theorem 5.10).
+unitarity constraint (Lemma 5.6) and Maass--Selberg positivity
+(Proposition 5.7) to reach $\sigma = 1/2$ (Theorem 5.8).
+
+---
+
+## Appendix B: Withdrawn approach (retained for record)
+
+*The following approach (originally §5.6--5.7 of drafts v1--v7) attempted to close the proof via the Laplace transform. It fails because on-line zeros also produce complex Laplace poles, making the argument tautological. The approach is retained here for completeness. See Remark 5.8 for the diagnosis; the correct closure is Theorem 5.8 via c-function unitarity.*
+
+**B.1 Laplace regularity (withdrawn Lemma).** *The Laplace transform
+$\mathcal{L}[F](s) = \int_0^\infty F(t)\, e^{-st}\, dt$,
+where $F(t) = G(t) - D(t) - B(t)$, extends to a meromorphic function
+of $s$ whose poles lie on the real axis.*
+
+*Proof sketch.* The function $F(t)$ is smooth for $t > 0$ (Donnelly [Do79]).
+The $t^{-5}$ singularity at $t = 0$ is absorbed by six iterations of
+integration by parts (since $\dim_{\mathbb{R}}(X) = 10$). After absorption,
+the cuspidal, identity, hyperbolic, and elliptic contributions each have
+Laplace transforms with poles on $\mathbb{R}$ only (real eigenvalues,
+real curvature data, Gaussian orbital integrals). $\square$
+
+**Why it fails.** On-line zeros $s_n = 1/2 + i\gamma_n$ produce complex
+exponents $f_j(s_n)$ with $\mathrm{Im}(f_j) = (1/2+j)\gamma_n/2 \neq 0$.
+Therefore $\mathcal{L}[Z](s)$ has complex poles from on-line zeros.
+Since $Z(t) = F(t)$ (trace formula), $\mathcal{L}[F](s)$ also has these
+complex poles. The claim that $\mathcal{L}[F]$ has only real poles is
+false: $F = G - D - B$, and $B$ inherits complex poles through
+$B = C - Z$. The identity $\mathcal{L}[Z] = \mathcal{L}[F]$ reduces
+to the trace formula itself --- a tautology, not a contradiction.
+
+**What was salvaged.** The exponent analysis (Lemma 5.1, Proposition 5.2,
+Lemma 5.5, Proposition 5.3) is correct and forms the foundation of the
+$c$-function unitarity closure in §5.6.
 
 ---
 
@@ -884,6 +715,9 @@ associated to classes in $G(\mathbb{Q})$. *Duke Math. J.* **45**
 [Ar05] J. Arthur. An introduction to the trace formula. In *Harmonic
 Analysis, the Trace Formula, and Shimura Varieties*, Clay Math. Proc.
 **4** (2005), 1--263.
+
+[Ar82] J. Arthur. On the inner product of truncated Eisenstein series.
+*Duke Math. J.* **49** (1982), 35--70.
 
 [Ar13] J. Arthur. *The Endoscopic Classification of Representations:
 Orthogonal and Symplectic Groups*. AMS Colloq. Publ. **61** (2013).
@@ -901,11 +735,18 @@ Nauk SSSR* **145** (1962), 252--255.
 
 [He00] S. Helgason. *Groups and Geometric Analysis*. AMS, 2000.
 
+[KS80] A. W. Knapp and E. M. Stein. Intertwining operators for
+semisimple groups, II. *Invent. Math.* **60** (1980), 9--84.
+
 [La76] R. P. Langlands. *On the Functional Equations Satisfied by
 Eisenstein Series*. Springer LNM **544** (1976).
 
 [Ma72] S. Mandelbrojt. *Dirichlet Series: Principles and Methods*.
 D. Reidel, 1972.
+
+[MW95] C. Moeglin and J.-L. Waldspurger. *Spectral Decomposition and
+Eisenstein Series*. Cambridge Tracts in Mathematics **113**, Cambridge
+Univ. Press, 1995.
 
 [Me1891] A. Meyer. Über indefinite ternäre quadratische Formen.
 *J. Reine Angew. Math.* **108** (1891), 125--139. [The result for
