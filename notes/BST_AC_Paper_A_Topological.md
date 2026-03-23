@@ -304,7 +304,13 @@ The original topology sits invariant. No amount of extension-adding changes this
 
 ### 7.1 Structure
 
-Combining the results of Sections 3–6, we obtain a three-layer argument for proof complexity lower bounds on random 3-SAT:
+Combining the results of Sections 3–6, we obtain a multi-layer argument for proof complexity lower bounds on random 3-SAT.
+
+**Geometric intuition.** An extension variable is like a broom: its handle is one wire in the proof (contributing 1 to clause width), while its bristles are the backbone variables reachable through its defining circuit. The proof must simultaneously cover $\Theta(n)$ backbone positions that are spread across the Tanner graph of the constraint structure. The expansion property of this graph guarantees that bristles of distinct brooms cannot overlap efficiently — each broom covers its own territory.
+
+A refutation imposes three competing demands on the prover: **hold** enough broom handles to cover the $\Theta(n)$ distant positions (width), **move** by deriving new clauses (progress), and **stand still** by maintaining a consistent partial assignment on released positions (correctness). The adversary exploits the tension: every broom the prover drops to pick up a new one exposes a position that the adversary can reassign, using the unique-neighbor guarantee of the Tanner expansion. The prover cannot simultaneously hold, move, and maintain consistency without width $\Theta(n)$.
+
+**Formal structure:**
 
 **Layer 1: Surface** (Observation 3.1)**.** All proof systems with bounded operational dimension require $2^{\Omega(n)}$ on random 3-SAT at $\alpha_c$. The obstruction is dimensional: bounded-width derivations cannot navigate the $\Theta(n)$ independent 1-cycles. The $H_1$-filling number is linear.
 

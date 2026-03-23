@@ -296,7 +296,48 @@ The AC(0) toolkit is not a new theory. It is the observation that the deep laws 
 
 -----
 
-## 10. What Comes Next
+## 10. Parallel Constraint Checking — The Unification
+
+*"Each level checks its error correction codes in parallel." — Casey Koons, March 22, 2026*
+
+### 10.1 The Observation
+
+Three fields, same theorem:
+
+| Language | Code | Distance | Gap |
+|----------|------|----------|-----|
+| Physics | $D_{IV}^5$ spectral | $\lambda_1 = 6$ | Mass gap = 938 MeV |
+| Computation | LDPC backbone | $d_{\min} = \Theta(n)$ | Width $\geq \alpha n \to$ P $\neq$ NP |
+| Information | Channel coding | Rate $<$ capacity | Shannon bound |
+
+In each case: a system with error-correcting structure (spectral gap, minimum distance, capacity gap) enforces **parallel** constraint checking. You cannot check the constraints one at a time — the remaining degrees of freedom absorb sequential probes. You must check $\Theta(n)$ constraints simultaneously to detect an inconsistency.
+
+### 10.2 Why Parallel Is Forced
+
+**Physics:** The Laplacian on $Q^5$ has spectral gap $\lambda_1 = 6$. This means any local perturbation (violating one constraint) costs energy $\geq 6$ in spectral units. The geometry couples ALL directions simultaneously — the Einstein equations are satisfied everywhere in parallel, not checked sequentially. A local violation would propagate at the speed of light, but the spectral gap prevents any finite propagation from creating a stable violation. The mass gap IS the minimum cost of a parallel constraint check.
+
+**Computation:** The LDPC backbone of random 3-SAT has $d_{\min} = \Theta(n)$ (T48). Any proof system checking backbone constraints must resolve $\Theta(n)$ parity checks simultaneously — the adversary adjusts to sequential checks (T49, Frontier Reach Lemma). Width $\Theta(n)$ IS the minimum cost of a parallel constraint check.
+
+**Information:** Shannon's channel coding theorem: to communicate reliably at rate $R < C$, the code must have minimum distance $d_{\min} = \Theta(n)$ (Gallager 1962 for LDPC). Any decoder must examine $\Theta(n)$ received bits simultaneously — checking one bit at a time gives no information about the codeword (by the minimum distance property).
+
+### 10.3 The AC(0) Unification
+
+All three are the SAME counting argument in different units:
+
+1. **Count the constraints:** $\Theta(n)$ independent constraints (parity checks / spectral conditions / channel conditions).
+2. **Count the degrees of freedom:** $\Theta(n)$ variables that satisfy all constraints simultaneously.
+3. **Count the sequential probes:** Each probe determines $O(1)$ constraints. Total probes needed: $\Theta(n)$. These must be simultaneous (parallel) because the adversary / geometry / noise absorbs sequential probes.
+
+The common structure is **error-correcting codes with distance $\Theta(n)$**. Such codes resist sequential decoding — you must examine a constant fraction of the codeword to determine ANY message bit. This is:
+- **Thermodynamically:** The equilibrium requires ALL microstates to satisfy the partition function constraints simultaneously.
+- **Computationally:** The proof requires a frontier of width $\Theta(n)$ to carry the backbone information.
+- **Physically:** The geometry requires ALL field equations to be satisfied at every point simultaneously.
+
+**AC(0) character:** The unification is a counting argument. The spectral gap, LDPC distance, and channel capacity are all measures of the same thing: the minimum number of constraints that must be checked in parallel. This number is $\Theta(n)$ in all three languages. The mass gap and P $\neq$ NP are not just both derivable from $D_{IV}^5$ — they ARE the same theorem.
+
+-----
+
+## 11. What Comes Next
 
 **Chapter 3: Geometry in AC(0).** Curvature, geodesics, spectral gaps — restated in AC(0) language. The eigenvalues of the Laplacian on $Q^5$ are AC(0) (they follow from the representation theory of $\mathrm{SO}(7)$, which is a counting argument over weights). The mass gap $\lambda_1 = 6$ is a theorem of counting.
 
