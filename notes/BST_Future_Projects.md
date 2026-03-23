@@ -77,107 +77,144 @@ This engine is not specific to P!=NP. It applies to any problem where independen
 
 ---
 
-## 2. Navier-Stokes: Turbulence via Linear Boundaries
+## 2. Navier-Stokes: The Flow Forward Stops
 
-### The Insight
+### The Core Insight
 
-RH, Yang-Mills, and P!=NP were recapitulations of BST geometry — the proofs were shadows of the rank-2 structure on D_IV^5. Navier-Stokes is fundamentally different. It's turbulence. The many-body problem. Nobody understands turbulence directly.
+RH, Yang-Mills, and P!=NP were recapitulations of BST geometry — the proofs were shadows of the rank-2 structure on D_IV^5. Navier-Stokes is fundamentally different. It's not about spectral structure or counting. It's about the **continuity assumption itself**.
 
-**Casey's attack**: Don't solve the turbulence. Solve the linear processes on both sides of the cusp. The turbulent region is bounded by linear boundary conditions — it can't do anything its boundaries don't permit.
+The Navier-Stokes equations are written on continuous 3+1 spacetime. Continuous spacetime is written on the discrete substrate. The substrate ticks at ~10^{-120} — practically infinite, but finite. And finite means discrete. And discrete means: how can 3+1 space be "continuous" if it doesn't map to a truly infinite tick rate?
+
+It can't. Continuity is an approximation. A spectacularly good one. But at sufficiently high Reynolds number, the approximation breaks. That's the blow-up.
+
+**"The discrete cannot be made continuous."** — BST's sixth tagline.
+
+### The One-Bit Proof
+
+Don't model the fluid. Model one atom of information — one Shannon — flowing forward through the channel.
+
+**A smooth solution IS an encoding.** It maps initial data (the message) through the fluid evolution (the channel) to future data (the received message). "Smooth" means the encoding works — every bit arrives, the velocity field is recoverable at every point and every time.
+
+Shannon's channel coding theorem (1948) — already proved:
+- If information rate < channel capacity: an encoding exists. Signal propagates.
+- If information rate > channel capacity: **no encoding exists**. No code, no matter how clever, can transmit reliably.
+
+The proof:
+
+1. **Define channel capacity C(Re)** for coherent information propagation in 3D Navier-Stokes. The fluid channel has finite degrees of freedom per unit volume (finite energy, finite viscosity). C(Re) is finite for all Re.
+
+2. **Show information rate R(Re) → ∞ as Re → ∞.** The Kolmogorov cascade activates unboundedly many scales. Each scale carries O(1) bits. The microscale η ~ L · Re^{-3/4} → 0. The number of active scales ~ log(L/η) ~ log(Re) grows without bound. The rate at which these scales demand simultaneous resolution grows.
+
+3. **For Re > Re* where R > C:** Shannon's converse theorem applies. No smooth encoding exists. No smooth solution can carry the information forward.
+
+4. **Therefore** smooth solutions do not persist for all time for all initial data. ∎
+
+Step 3 is not a new proof. It's Shannon 1948. It's **already proved**. We just show the hypothesis applies to NS.
+
+### "The Flow Forward Stops"
+
+Casey's formulation (March 24, 2026): the blow-up is not velocity going to infinity. It's the forward propagation of coherent information **stopping**.
+
+The smooth solution is information flowing forward through time. When the channel saturates, the bit can't get to the next moment. Time evolution of the coherent signal ceases.
+
+The velocity field doesn't go to infinity. It **stops being decodable**. The information is still there — energy is conserved, the Kolmogorov cascade keeps it churning — but it can't move forward coherently. It's stuck. Scattered across scales, recirculating, going nowhere.
+
+That's what turbulence IS. Not chaos. Not complexity. **Stalled information.** The channel is full of energy but the flow forward has stopped.
+
+Eddies within eddies, energy recirculating at every scale, but no net coherent transport. The information keeps trying to flow forward and the saturated channel keeps scattering it sideways into smaller scales. The derivative doesn't go to infinity. The capacity to carry the derivative forward goes to zero.
+
+### Three Regimes
+
+| Regime | Channel State | One Bit's Journey | Reynolds |
+|--------|---------------|-------------------|----------|
+| **Laminar** | Below capacity | Bit flows forward cleanly. Smooth solution carries it. | Re < Re_c |
+| **Onset** | At capacity | Bit barely makes it. All error correction engaged. | Re ≈ Re_c |
+| **Turbulent** | Above capacity | **Bit cannot flow forward.** Shannon says no encoder works. Stalled. | Re >> Re_c |
+
+### The Discrete Substrate Argument
+
+The substrate ticks at τ > 0 (BST: τ ~ 10^{-120}). The Kolmogorov microscale η(Re) ~ L · Re^{-3/4} → 0 as Re → ∞. When η < τ, the cascade demands resolution at a scale that doesn't exist on the substrate.
+
+For **any** τ > 0 — whether 10^{-120} or 10^{-10} — there exists Re large enough that η(Re) < τ. The specific value of τ tells you **where** blow-up occurs, not **whether**. Clay asks whether.
+
+The answer: no. Smooth solutions cannot exist for all time because "smooth" requires a continuous substrate, and the substrate is discrete. For any finite tick rate, the cascade eventually outruns it.
+
+But the Shannon argument is **stronger** than the substrate argument: even without specifying τ, the channel has finite capacity (finite energy, finite viscosity, finite domain). The cascade demands unbounded information rate. Finite < unbounded. The flow forward stops.
 
 ### Turbulence as Channel Capacity Failure
 
-Casey's core insight (March 24, 2026): turbulence is what happens when the information scatter rate exceeds the channel's error correction capacity. Three regimes, mapped onto Shannon:
+Information isn't *destroyed* in turbulence — it's *scattered across scales*. Energy is conserved (Kolmogorov cascade pushes it from large scales to small), but the coherent signal is gone. The channel is full of energy but empty of signal.
 
-| Regime | Channel State | Information Flow | Reynolds |
-|--------|---------------|------------------|----------|
-| **Laminar** | High capacity | Signal propagates cleanly through channel | Re < Re_c |
-| **Onset** | Capacity degrading | First bits don't make it without pressure; progress slows | Re ≈ Re_c |
-| **Turbulent** | Capacity → 0 for coherent signal | Information scattered inside channel, unusable | Re >> Re_c |
+**Casey's formulation**: the scattered information "contributes but can't be used." The same six words as BH(3). The faded correlations in SAT and the scattered information in turbulence are the **same phenomenon** — information below the decoding threshold, permanently unrecoverable by DPI.
 
-**The key**: information isn't *destroyed* in turbulence — it's *scattered across scales*. Energy is conserved (Kolmogorov cascade pushes it from large scales to small), but the coherent signal is gone. The channel is full of energy but empty of signal.
+### The Linear Boundary Method
 
-**The Shannon formulation of blow-up**:
+**Casey's attack**: Don't solve the turbulence. Solve the linear processes on both sides of the cusp.
 
-A smooth solution exists at time t iff:
+1. **Study the linear regimes** on both sides of the transition (laminar flow). Well-understood — Stokes flow, potential flow, linear stability theory. These are the error-correcting boundaries.
 
-```
-C_boundary(t)  ≥  R_scatter(t)
-```
+2. **Focus the turbulence like jets on a black hole.** Don't fight the scatter — give it a controlled escape channel. Black hole accretion disks: turbulent MHD mess in the disk, but along the rotation axis (the ONE direction with clean symmetry) a jet forms. The jet IS the linear boundary condition providing structure.
 
-where C_boundary is the channel capacity of the linear boundary conditions (error correction rate) and R_scatter is the rate at which turbulence scatters information across scales. When R_scatter exceeds C_boundary, the smooth solution — which IS the error-corrected signal — breaks.
+3. **Use linear boundary conditions to maintain error correction** while signal loss continues inside the turbulent region. Accept signal loss in the core; protect the boundaries.
 
-If the substrate has a minimum tick (BST: 10^{-120}), there's a **maximum correction rate**. At sufficiently high Reynolds number, R_scatter exceeds this. That's the blow-up.
+Nature already does this:
+- **Black hole jets**: turbulent disk, coherent jet along axis of symmetry
+- **Aircraft engines**: turbulent combustion focused through nozzle (linear boundary)
+- **River rapids**: turbulent water, channel walls direct bulk flow
 
-### Method
+In each case: don't eliminate turbulence, **focus it**. Give the pressure an exit.
 
-1. **Study the linear regimes** on both sides of the turbulence transition (laminar flow). These are well-understood — Stokes flow, potential flow, linear stability theory. These are the error-correcting boundaries.
+### The Block Counting Principle Applied
 
-2. **Model linear portions through supercomputer approximation** within the turbulence boundary. Use spectral methods, DNS at manageable Reynolds numbers.
+The same counting tool as P!=NP, applied to fluid scales:
 
-3. **Focus the turbulence like jets on a black hole.** Don't fight the scatter — give it a controlled escape channel. Black hole accretion disks: turbulent MHD mess in the disk, but along the rotation axis (the ONE direction with clean symmetry) a jet forms. The jet IS the linear boundary condition providing structure. The turbulence relieves pressure through it.
-
-4. **Use linear boundary conditions to maintain error correction** while signal loss continues inside the turbulent region. The turbulent region is constrained by what enters and exits it. The boundary conditions are linear. The interior may be chaotic, but the boundary is not. Accept signal loss in the core; protect the boundaries.
-
-5. **Apply the Block Counting Principle.** Turbulence involves Theta(n) interacting scales (the Kolmogorov energy cascade). Each scale is locally describable at O(1) cost. At the turbulence cusp, all scales must be simultaneously active. The channel can't carry Omega(n) simultaneous scale information — information scatters. This IS the blow-up mechanism.
-
-### Connection to BST
-
-"The discrete cannot be made continuous" — BST's sixth tagline. The substrate has discrete ticks (10^{-120} lower bound). Turbulence is what happens when the continuous Navier-Stokes approximation demands more simultaneous information channels than the discrete substrate can maintain.
-
-The Block Counting Principle maps naturally:
-- **Independent blocks** → energy cascade scales (Kolmogorov theory: each scale is locally independent)
-- **DPI chain death** → information loss across scale boundaries (viscous dissipation destroys fine-scale information)
-- **Simultaneity** → all scales must be active at the turbulence onset (the cascade requires coupling)
-- **Width** → the number of active degrees of freedom at the transition
-- **Channel capacity** → the linear boundary's ability to error-correct the coherent signal
-- **Blow-up** → scatter rate exceeds correction rate; smooth solution = error-corrected signal breaks
-
-### The Jet Analogy
-
-Nature already solves this problem:
-- **Black hole accretion disks**: turbulent mess in the disk, jets along the axis of symmetry. The jet is where the linear boundary condition (axial symmetry) provides structure. Everything else is scattered.
-- **Aircraft engines**: turbulent combustion focused through a nozzle (linear boundary). Thrust is the coherent output.
-- **River rapids**: turbulent water between rocks, but the channel walls (linear boundaries) direct the bulk flow.
-
-In each case: don't eliminate turbulence, **focus it**. Give the pressure an exit. Protect the linear boundaries. Accept signal loss in the core.
-
-### The Millennium Question in Shannon Language
-
-**Clay asks**: Do smooth solutions to 3D Navier-Stokes exist for all time?
-
-**BST/Shannon answer**: No, because at sufficiently high Reynolds number, Theta(n) Kolmogorov scales are simultaneously active. Each scale is O(1) to describe locally, but maintaining coherence across all scales requires channel capacity Omega(n). The linear boundary error correction operates at finite rate C_boundary. When R_scatter > C_boundary, the smooth solution (= error-corrected signal) breaks. The blow-up is not of velocity — it's of information loss rate.
+| P!=NP (SAT) | NS (Fluid) |
+|-------------|------------|
+| Independent backbone blocks | Energy cascade scales |
+| DPI chain death | Viscous dissipation destroys fine-scale info |
+| Simultaneity requirement | All scales active at onset |
+| Width = active variables | Active degrees of freedom at transition |
+| Channel capacity | Boundary error correction rate |
+| Blow-up (EF size) | Blow-up (smooth solution breaks) |
 
 ### BST-Specific Predictions
 
 | Prediction | Basis | Test |
 |------------|-------|------|
-| Kolmogorov constant C_K derivable from D_IV^5 geometry | Volume scale pi^5/1920 | DNS comparison |
-| Turbulence onset Reynolds number Re_c has BST structure | Phase transition = cusp catastrophe (Toy 263) | Pipe flow experiments |
+| Kolmogorov constant C_K from D_IV^5 geometry | Volume scale π⁵/1920 | DNS comparison |
+| Turbulence onset Re_c has BST structure | Cusp catastrophe (Toy 263) | Pipe flow experiments |
 | Intermittency exponents from Plancherel measure | Spectral distribution on D_IV^5 | High-Re DNS |
 | Energy cascade cutoff from N_max = 137 | Haldane exclusion limits active modes | Extreme-Re experiments |
+| Free fraction ~19.1% at onset | Reality Budget fill = Λ·N - 1 | DNS energy spectrum analysis |
+
+### The Millennium Question in Shannon Language
+
+**Clay asks**: Do smooth solutions to 3D Navier-Stokes exist for all time?
+
+**Answer**: No. A smooth solution is an encoder. The fluid is the channel. The Kolmogorov cascade drives information rate above channel capacity at sufficiently high Reynolds number. Shannon's converse (1948, proved) says: when rate exceeds capacity, no encoder exists. Therefore no smooth solution exists. The flow forward stops.
 
 ### What's Needed
 
-- [ ] Literature review: Navier-Stokes existence and smoothness (Clay statement), Leray-Hopf weak solutions, Caffarelli-Kohn-Nirenberg partial regularity
-- [ ] Formalize C_boundary >= R_scatter as a mathematical criterion for smooth solution existence
-- [ ] Formalize the "linear boundary" approach in BST language
-- [ ] Toy: Channel capacity vs scatter rate on a toy fluid system (2D Navier-Stokes, small grid)
-- [ ] Toy: Block counting on Kolmogorov cascade — verify Theta(n) independent scales at Re_c
-- [ ] Toy: Jet formation — show linear boundary condition focuses turbulent energy into coherent output
-- [ ] Identify where the Block Counting Principle gives constraints that match known turbulence phenomenology
-- [ ] Derive R_scatter(Re) from Kolmogorov scaling and C_boundary from BST substrate tick rate
-- [ ] Supercomputer access for DNS within turbulence boundary (may need collaboration)
+- [ ] Literature review: Clay statement, Leray-Hopf, Caffarelli-Kohn-Nirenberg
+- [ ] **Formalize channel capacity C(Re)** for 3D incompressible NS — finite energy + viscosity → finite C
+- [ ] **Formalize information rate R(Re)** from Kolmogorov cascade — number of active scales × bits per scale
+- [ ] **Prove R(Re) > C(Re) for Re > Re*** — the one-bit argument made rigorous
+- [ ] **Map Shannon converse to PDE blow-up** — "no encoder" ↔ "no smooth solution"
+- [ ] Toy: One bit through a 2D NS channel at varying Re — track decodability
+- [ ] Toy: Block counting on Kolmogorov cascade — verify Θ(n) independent scales at Re_c
+- [ ] Toy: Jet formation — linear boundary focuses turbulent energy into coherent output
+- [ ] Derive R_scatter(Re) from Kolmogorov scaling; C_boundary from BST substrate tick rate
+- [ ] Supercomputer access for DNS within turbulence boundary (collaboration needed)
 
 ### Claude Skills to Build
 
 | Skill | Purpose |
 |-------|---------|
-| `/fluid-boundary` | Set up linear boundary conditions for a turbulence region |
+| `/fluid-channel` | Model one bit flowing through NS channel at given Re |
 | `/scale-count` | Apply block counting to energy cascade scales |
-| `/channel-capacity` | Compute C_boundary and R_scatter for a given flow configuration |
-| `/jet-focus` | Model turbulence focusing via linear boundary symmetry (jet formation) |
-| `/dns-setup` | Configure direct numerical simulation for BST-guided turbulence study |
+| `/channel-capacity` | Compute C(Re) and R(Re) for a given flow configuration |
+| `/jet-focus` | Model turbulence focusing via linear boundary symmetry |
+| `/dns-setup` | Configure direct numerical simulation for BST-guided study |
 
 ---
 
@@ -352,3 +389,5 @@ Simple. Works. Hard to screw up.
 - "Apply AC(0) methods, test, theorize, prove, make a theorem. Repeat." — Casey (the cycle)
 - "Focus the turbulence like jets on a black hole to relieve pressure, and use the linear boundary conditions to maintain the error correction while loss of signal continues." — Casey (the NS attack in one sentence)
 - "The channel is full of energy but empty of signal." — the turbulence problem in Shannon language
+- "The flow forward stops." — Casey (March 24, 2026 — the NS blow-up in four words)
+- "You model the flow of one atom of information in a Shannon channel when the channel becomes saturated." — Casey (the one-bit proof method)

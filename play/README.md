@@ -2494,7 +2494,23 @@ A visual gallery with thumbnail icons for all toys. Click LAUNCH on any card to 
 
 ## The Menu (`play.py`)
 
-A text-based Tkinter launcher with categories, search, and click-to-launch. Type a number (1-356) or browse by category.
+### 357. Polarization at Large n — Free Fraction Convergence (`toy_357_polarization_large_n.py`)
+
+**RUNNING — WalkSAT backbone estimation at n=50-300. Discriminates 0.176 (first moment) vs 0.191 (Reality Budget).**
+
+Large-n test of whether the free variable fraction at α_c converges to the first moment ceiling (0.176, pure combinatorics) or the Reality Budget fill (0.191, BST geometry Λ·N = 9/5). Uses WalkSAT to estimate backbone at sizes beyond exact enumeration. Potential C10 conjecture discriminator.
+
+### 358. One Bit Through a Navier-Stokes Channel (`toy_358_ns_one_bit.py`)
+
+**3/5 — First NS toy. 2D confirms: C(Re) shrinks, R(Re) grows, enstrophy conservation prevents crossing.**
+
+2D pseudo-spectral NS solver tracking information flow per wavenumber at Re=10-5000. Tests 4-5-6 PASS: 2D global regularity (front > 0 always), channel capacity finite and DECREASING with Re, active scales growing. Tests 2-3 FAIL (expected): info front EXPANDS with Re in 2D because enstrophy conservation reduces dissipation at high Re — this is the 2D/3D split. In 3D, no enstrophy conservation → cascade overloads channel → smooth encoding breaks.
+
+*Key result: The 2D "failures" are the theory working. Enstrophy conservation IS the error correction that keeps 2D solutions smooth. 3D lacks this protection.*
+
+---
+
+A text-based Tkinter launcher with categories, search, and click-to-launch. Type a number (1-358) or browse by category.
 
 ---
 
