@@ -335,13 +335,15 @@ All computational experiments are available in the companion repository (play/to
 
 ## 10. Open Problems
 
-1. **Prove TCC.** Extensions preserve $\beta_1$ (T28, proved). Do they also fail to detect cycle linking? This is the remaining step for P $\neq$ NP.
+1. **Prove TCC (reformulated).** The original Topological Closure Conjecture asked whether extensions fail to detect cycle linking. Computational evidence (Toy 340) suggests a sharper formulation: within any single OGP cluster, disjoint backbone blocks have zero mutual information. If proved, the product decomposition $2^{\Theta(n)}$ follows directly. The key question becomes: does the overlap gap property (OGP) at $k = 3$ (Gamarnik 2021, open for $k = 3$) imply within-cluster block independence?
 
-2. **Tighten the bound.** The current bound $I(B; f)/|B| \leq 2^{-\Omega(n)}$ is exponentially small. Is the true value zero for finite $n$, or merely exponentially small?
+2. **Prove OGP at $k = 3$.** The overlap gap property is empirically confirmed at all tested sizes (Toy 287: $n = 12$-$20$; Toy 333: $n = 24$-$50$, gap width increasing). Bresler-Huang-Sellke (2025) identify this as the "central open challenge." A proof would immediately strengthen the EF lower bound program.
 
-3. **Other hard distributions.** Does CDC hold for planted 3-SAT, random $k$-SAT ($k > 3$), or random CSPs at their thresholds?
+3. **Tighten the bound.** The current bound $I(B; f)/|B| \leq 2^{-\Omega(n)}$ is exponentially small. Is the true value zero for finite $n$, or merely exponentially small?
 
-4. **Algorithmic consequences.** If CDC holds for all of P, what is the optimal polynomial-time algorithm for random 3-SAT at $\alpha_c$? (It would achieve $I(B; f)/|B| = o(1)$ but not $\Theta(1)$.)
+4. **Other hard distributions.** Does CDC hold for planted 3-SAT, random $k$-SAT ($k > 3$), or random CSPs at their thresholds?
+
+5. **Algorithmic consequences.** If CDC holds for all of P, what is the optimal polynomial-time algorithm for random 3-SAT at $\alpha_c$? (It would achieve $I(B; f)/|B| = o(1)$ but not $\Theta(1)$.)
 
 -----
 

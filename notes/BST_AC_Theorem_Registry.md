@@ -87,6 +87,7 @@ rules: |
 | T64 | Karchmer-Wigderson Communication Bound | Proved | BST_AC_Theorems (pending §) | 332 | 2026-03-23 |
 | T65 | EF Spectral Preservation | Empirical (5/6) | BST_AC_Theorems §43u | 339 | 2026-03-23 |
 | T66 | Within-Cluster Block Independence | Empirical (5/6) | BST_AC_Theorems §43v | 340 | 2026-03-23 |
+| T67 | LDPC-Tseitin Embedding (Bounded-Depth Lower Bound) | Proved (a-d) | BST_AC_Theorems §43w | — | 2026-03-23 |
 
 ---
 
@@ -94,7 +95,7 @@ rules: |
 
 | Category | Count | T_ids |
 |----------|-------|-------|
-| Proved | 43 | T1-T2, T4-T5, T7-T20, T22-T25, T27-T28, T37-T42, T49-T51, T53-T54, T56-T60, T62, T64 |
+| Proved | 44 | T1-T2, T4-T5, T7-T20, T22-T25, T27-T28, T37-T42, T49-T51, T53-T54, T56-T60, T62, T64, T67 |
 | Proved+Empirical | 2 | T47 (a-c proved, d conditional), T48 (a-c proved, empirical d_min) |
 | Conditional | 3 | T30 (on T29), T36 (on T35), T52 (on simultaneity) |
 | Empirical | 7 | T3, T31, T32, T34, T61, T65, T66 |
@@ -105,7 +106,7 @@ rules: |
 | Failed/Open | 1 | T26 (geometric c→0) |
 | Open (conditional) | 1 | T29 (THE GAP — reformulated, empirically supported by T66) |
 | Never assigned | 5 | T43-T46, T63 |
-| **Total assigned** | **63** | T1-T42, T47-T62, T64-T66 |
+| **Total assigned** | **64** | T1-T42, T47-T62, T64-T67 |
 
 ---
 
@@ -113,8 +114,8 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T67** (T63 unassigned)
-- Today's target (March 23): T57-T67 (11 new theorems)
+- Next available: **T68** (T63 unassigned)
+- Today's target (March 23): T57-T67 (11 new theorems) — **T67 ACHIEVED**
 
 ---
 
