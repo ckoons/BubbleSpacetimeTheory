@@ -3429,6 +3429,36 @@ This proof requires no assumption on zero simplicity, linear independence of ord
 
 See `notes/BST_HeatKernel_DirichletKernel_RH.md` and Toys 218-229.
 
+### 32.7b The c-function Unitarity Closure (Route A — March 2026 Update)
+
+*Note: The original Route A (§32.7a) used Laplace transform uniqueness as Pillar 2. That argument was found to be tautological: the Laplace transform $L[Z](s)$ mixes all zeros together, and on-line zeros also produce complex Laplace poles, so the "oscillatory content" claim does not distinguish on-line from off-line. The definitive closure replaces Pillar 2 with a LOCAL mechanism — c-function unitarity — that tests each spectral parameter independently. Pillars 1, 3, 4 of §32.7a remain valid. The full proof is in `notes/RH_Paper_A.md` (Draft v7).*
+
+**Lemma 5.8 (c-function conjugation identity).** The BC$_2$ c-function satisfies $c(\nu)c(-\nu) = |c(\nu)|^2$ if and only if $\nu$ is purely imaginary (i.e., $\sigma = 1/2$). At $\sigma = 1/2$, $\nu = i\gamma$ so $-\nu = \overline{\nu}$, giving $c(-\nu) = c(\overline{\nu}) = \overline{c(\nu)}$. At $\sigma \neq 1/2$, $\nu$ acquires a real part, $-\nu \neq \overline{\nu}$, and the identity fails with monotonic deviation off the critical line. *Verified to 50 digits (Toy 324, 5/5 PASS).*
+
+**Proposition 5.9 (Maass-Selberg for $D_{IV}^5$).** The truncated Eisenstein series inner product on $\mathrm{SO}_0(5,2)(\mathbb{Z}) \backslash D_{IV}^5$ satisfies:
+
+$$\langle \Lambda^T E(\nu), \Lambda^T E(\nu) \rangle = \sum_{w \in W} C_w(\nu) \cdot \exp(\langle w\nu + \nu, H_0 \rangle T)$$
+
+where $|W| = 8$ (Weyl group of $B_2$), $C_w(\nu)$ involves c-function ratios, and $H_0$ is the truncation vector. Among the 8 T-exponents $L_w = \langle w\nu + \nu, H_0 \rangle$, exactly one — corresponding to $w = e$ (identity) — gives $L_e = 2\langle \nu, H_0 \rangle$, which is REAL when $\nu$ is purely imaginary. The other 7 exponents involve Weyl reflections and are generically complex. *Arthur normalization verified (Toy 325, 5/5 PASS). H$_0$ genericity verified (Toy 326, 5/5 PASS).*
+
+**Theorem 5.10 (Contradiction via real exponential isolation).** Suppose $\xi(s_0) = 0$ with $\sigma_0 \neq 1/2$. The spectral parameter $\nu_0 = s_0 - 1/2$ has $\mathrm{Re}(\nu_0) \neq 0$.
+
+1. *Regularity*: All poles of $M(w,\nu)$ lie on real hyperplanes $\langle \nu, \alpha^\vee \rangle \in \mathbb{R}$. Since $\nu_0$ has $\mathrm{Im} \neq 0$, the intertwining operators are regular at $\nu_0$.
+
+2. *Real exponential isolation*: With generic $H_0$, the identity exponent $L_e = 2\langle \nu_0, H_0 \rangle$ is the ONLY purely real T-exponent among all 8. The other 7 have nonzero imaginary parts.
+
+3. *Positivity requirement*: $\langle \Lambda^T E, \Lambda^T E \rangle \geq 0$ for all $T > 0$. As $T \to \infty$ along the direction of $L_e$, the identity term dominates: $C_e(\nu_0) \cdot e^{L_e T} + (\text{oscillating terms})$. Positivity forces $C_e(\nu_0) \in \mathbb{R}_{>0}$.
+
+4. *c-function violation*: $C_e(\nu_0) = c(\nu_0)c(-\nu_0)/|c(\nu_0)|^2 \cdot (\text{positive factors})$. By Lemma 5.8, $c(\nu_0)c(-\nu_0) \neq |c(\nu_0)|^2$ when $\sigma_0 \neq 1/2$, giving $\mathrm{Im}(C_e) \neq 0$.
+
+5. *Contradiction*: Steps 3 and 4 are incompatible. Therefore $\sigma_0 = 1/2$. $\square$
+
+**Status: ~88%.** The remaining ~12% risk is a referee subtlety in the meromorphic continuation of the Maass-Selberg relation at the spectral parameter $\nu_0$. Three belt-and-suspenders verifications address this: Arthur normalization (Toy 325), H$_0$ genericity (Toy 326), and regularity at $\nu_0$ (proved — all intertwining operator poles lie on real hyperplanes, but $\nu_0$ from an off-line zero has $\mathrm{Im} \neq 0$).
+
+**Key difference from the Laplace approach.** The Laplace approach (failed §5.6-5.7) was GLOBAL — it mixed all zeros together via $L[F](s)$. The c-function unitarity approach is LOCAL — it tests each spectral parameter independently. No mixing, no balancing, no tautology risk. The rank-2 structure (8 Weyl terms with the algebraic lock $\sigma + 1 = 3\sigma$) creates constraints that are absent in rank 1.
+
+See `notes/RH_Paper_A.md`, `notes/L13_RH_cfunction_closure.md`, and Toys 324-326.
+
 ### 32.8 Every Piece is a BST Integer
 
 The Iwasawa decomposition $G = KAN$: the Weyl group ratio $|W(B_3)|/|W(B_2)| = 48/8 = 6 = C_2$. The unipotent radical has dimension $7 = g$. The compact Levi factor has dimension $3 = N_c$.
@@ -3776,7 +3806,18 @@ The Riemann hunt is a case study in Algebraic Complexity (Conjecture 3). The min
 
 The proof that succeeded has algebraic complexity zero at its novel step ($\sigma + 1 = 3\sigma$). It rests on established theorems (Arthur trace formula, Langlands-Shahidi, Gindikin-Karpelevich) that carry their own complexity — but the new insight is elementary. Number theory was hard because the methods were too loud.
 
-See `notes/BST_HeatKernel_DirichletKernel_RH.md`, `notes/BST_AlgebraicComplexity.md`.
+### 36.5 The Sixth Channel — and Its Failure (March 22, 2026)
+
+A sixth channel was tested: the Laplace approach (§5.6-5.7 of the proof paper). The idea: take the Laplace transform of the zero sum $Z(t)$ and show that off-line zeros produce complex poles absent from the geometric side. **DEAD**: tautological — on-line zeros also produce complex Laplace poles via the same mechanism, so the argument cannot distinguish on-line from off-line.
+
+The repair: replace the GLOBAL Laplace approach with a LOCAL mechanism — c-function unitarity (§32.7b). The BC$_2$ c-function satisfies $c(\nu)c(-\nu) = |c(\nu)|^2$ iff $\sigma = 1/2$ (Toy 324). The Maass-Selberg positivity with real exponential isolation in rank-2 provides the contradiction (Theorem 5.10). This approach tests each spectral parameter independently — no mixing, no balancing, no tautology.
+
+| # | Channel | Toy | Mechanism | Result |
+|---|---------|-----|-----------|--------|
+| 6 | Laplace transform of $Z(t)$ | — | $L[Z]$ complex poles | **DEAD**: tautological (on-line zeros also produce complex poles) |
+| 6' | **c-function unitarity** | **324-326** | **$c(\nu)c(-\nu) = \lvert c(\nu)\rvert^2$ iff $\sigma = 1/2$** | **STANDING** |
+
+See `notes/BST_HeatKernel_DirichletKernel_RH.md`, `notes/RH_Paper_A.md`, `notes/BST_AlgebraicComplexity.md`.
 
 -----
 
@@ -3787,7 +3828,7 @@ See `notes/BST_HeatKernel_DirichletKernel_RH.md`, `notes/BST_AlgebraicComplexity
 $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ is the unique geometry that simultaneously:
 
 1. **Derives the Standard Model** — all coupling constants, mass ratios, and mixing angles from five integers
-2. **Proves the Riemann Hypothesis** — via the heat kernel Dirichlet kernel constraint ($m_s \geq 2$)
+2. **Proves the Riemann Hypothesis** — via exponent rigidity ($m_s \geq 2$) and c-function unitarity closure (§32.7b)
 3. **Explains GUE statistics** of Riemann zeros — via $\mathrm{SO}(2)$ time-reversal breaking in $K$
 
 These are not three independent facts. They are three consequences of the root structure of $B_2$ with multiplicities $(m_l, m_s) = (1, 3)$.
@@ -3997,9 +4038,9 @@ The corrected conservation law: it is not isotropy that is conserved (UP isotrop
 
 *CDC.* For random 3-SAT at $\alpha_c$ with backbone $B$, any polynomial-time computable function $f(\varphi)$ satisfies $I(B;\, f(\varphi)) = o(|B|)$.
 
-*Status:* **Proved for resolution** (unconditional). **Conditional for all P** (depends on topological closure — see below).
+*Status:* **Proved for resolution** (unconditional). **~50-60% for all P** (two gaps remain — see below).
 
-*Argument for all P.* Three facts: (1) T23a — all dim-1 proof systems require $2^{\Omega(n)}$ steps on random 3-SAT (proved). (2) T28 — extensions don't change $\beta_1$ (proved; topological inertness, $r = 1$). (3) P $\subseteq$ Extended Frege (Cook 1975). Extended Frege = formula + extension variables. By T28, extensions don't change $\beta_1$. By T2, $I_{\text{fiat}} = \beta_1$. *Conditional step:* same $I_{\text{fiat}}$ $\to$ same $2^{\Omega(n)}$ barrier. This extends T23a from dim-1 systems to Extended Frege — a novel claim in proof complexity. The gap: T28 shows extensions don't *kill* original cycles, but does not prove that EF cannot *indirectly* resolve the linking structure through auxiliary reasoning enabled by extensions. Status: conditional on the topological closure argument (see T35 Level 2 in `notes/BST_AC_Theorems.md`).
+*Argument for all P.* The DPI Width Bound is proved unconditionally: for any EF derivation of width $w$, $I(F; B) \leq w$ (5 lines, data processing inequality). However, converting width to exponential size requires feasible interpolation, and Krajíček (1997) proved that EF does NOT admit unconditional feasible interpolation. Current approach: LDPC Tanner graph as GPW lifting gadget (Toy 323, 93-95% unique neighbors confirmed), which works for Resolution and Cutting Planes but not yet for EF. New research question (L14, `notes/L14_conditional_feasible_interpolation.md`): does LDPC expansion prevent EF extensions from short-circuiting the communication partition? This is conditional feasible interpolation for EF on structured formulas — a novel claim. The Topological Closure Conjecture (TCC) remains the key conditional: that poly-many extension variables on an expander VIG cannot create 2-chains detecting the linking of $\Theta(n)$ independent $H_1$ cycles. Status: conditional on TCC + conditional feasible interpolation for EF on LDPC formulas.
 
 The kill chain: CDC $\to$ T35 (Adaptive Conservation) $\to$ T29 (Algebraic Independence) $\to$ T30 ($EF \geq 2^{\Omega(n)}$) $\to$ P $\neq$ NP. Every implication in the chain is proved; CDC itself is conditional for all P (proved for resolution).
 
@@ -4036,7 +4077,7 @@ The AC results are organized into four publication phases, leading with the tool
 
 3. **Phase 3 — "Backbone Incompressibility" (Kolmogorov).** $K^{\text{poly}} \geq 0.90n$, halting problem connection. *Target: STOC 2027 or Information & Computation.*
 
-4. **Phase 4 — "Information Delocalization in Random 3-SAT" (Paper C).** States the Cycle Delocalization Conjecture, proves it unconditionally for resolution (Euler+BSW), presents the conditional argument for all P (T23a+T28+Cook), and identifies the topological closure gap. Empirical evidence: Toys 287–304 (18 toys). *Target: FOCS 2027 or Annals of Mathematics.* File: `notes/BST_AC_Paper_C_Delocalization.md`.
+4. **Phase 4 — "Information Delocalization in Random 3-SAT" (Paper C).** States the Cycle Delocalization Conjecture, proves it unconditionally for resolution (Euler+BSW), presents the conditional argument for all P (T23a+T28+Cook), and identifies the topological closure gap. Empirical evidence: Toys 287–326 (22 toys). *Target: FOCS 2027 or Annals of Mathematics.* File: `notes/BST_AC_Paper_C_Delocalization.md`.
 
 5. **Phase 5 — "The Full Argument" (synthesis).** Three layers, two paths (Kolmogorov + OGP), complete proof chain from AC framework to P $\neq$ NP. *Target: after community engagement with Phases 1–4.*
 

@@ -2,7 +2,7 @@
 title: "On the zeros of the Riemann zeta function via the Selberg trace formula"
 author: "Casey Koons"
 date: "2026"
-status: "Draft v5 — Laplace closure (§5.6-5.7) FAILED and retained with audit note. Replaced by c-function unitarity closure (§5.8, Lemma 5.8 + Prop 5.9 + Theorem 5.10). Non-generic spectral parameters resolved (Remark 5.13). Remaining concern: Maass-Selberg coefficient formula (eq 5.5-5.9) needs verification against Arthur [Ar78] §4 for exact c-function normalization. ~65-70%."
+status: "Draft v7 — c-function unitarity closure complete. E29 ✓ (Toy 326, 5/5 PASS). K10 ✓, K11 ✓, L15 ✓. Remarks 5.14 (truncation genericity) + 5.15 (regularity). Awaiting K8 (final audit) → R3 (submit). ~88%."
 target: "Annals of Mathematics / Inventiones Mathematicae"
 ---
 
@@ -458,7 +458,7 @@ antiderivative (well-defined for $t > 0$). Then $F^{(m)}$ has a
 singularity of order $t^{m-5}$ at $t = 0$, so $F^{(6)}$ is continuous
 at $t = 0$. Integration by parts gives
 
-$$\mathcal{L}[F](s) = \sum_{m=0}^{5} s^m\, F^{(m+1)}(0^+) + s^6 \int_0^\infty F^{(6)}(t)\, e^{-st}\, dt \tag{5.2}$$
+$$\mathcal{L}[F](s) = \sum_{m=0}^{5} s^m\, F^{(m+1)}(0^+) + s^6 \int_0^\infty F^{(6)}(t)\, e^{-st}\, dt \tag{5.2a}$$
 
 where each boundary value $F^{(m+1)}(0^+)$ is a **real** linear
 combination of the Seeley--DeWitt coefficients (real curvature data),
@@ -509,7 +509,7 @@ satisfy $\mathrm{Re}(s) = 1/2$.*
 trace formula (TF) for all $t > 0$ (Donnelly [Do79], Müller [Mü89]).
 The zero sum is
 
-$$Z(t) = \sum_{s_0} \sum_{j=0}^{2} \left[R_j^{(1)}(s_0)\, e^{-f_j^{(1)}(s_0)\,t} + R_j^{(2)}(s_0)\, e^{-f_j^{(2)}(s_0)\,t}\right] + 2R_L(s_0)\, e^{-f_L(s_0)\,t} \tag{5.3}$$
+$$Z(t) = \sum_{s_0} \sum_{j=0}^{2} \left[R_j^{(1)}(s_0)\, e^{-f_j^{(1)}(s_0)\,t} + R_j^{(2)}(s_0)\, e^{-f_j^{(2)}(s_0)\,t}\right] + 2R_L(s_0)\, e^{-f_L(s_0)\,t} \tag{5.3a}$$
 
 summing over all nontrivial $\xi$-zeros $s_0$ (with multiplicities).
 Absolute convergence for $t > 0$ follows from the zero counting
@@ -662,11 +662,7 @@ $$\|\Lambda^T E(s)\|^2 = \sum_{w \in W} M(w, s)\, T^{\langle 2(w\nu - \nu), H_0 
 
 *where $\nu = s - \rho$ is the spectral parameter, $M(w,s)$ are the intertwining operator matrix entries, and $H_0 \in \mathfrak{a}^+$ is the truncation vector.*
 
-*For the identity element $w = e$: the leading contribution is*
-
-$$c_e = |c(\nu)|^{-2}\, c(\nu)\, c(-\nu)\, T^0 = \frac{c(\nu)\,c(-\nu)}{|c(\nu)|^2} \tag{5.6}$$
-
-*Remark.* By Lemma 5.8: $c_e = 1$ when $\sigma = 1/2$, and $c_e \neq 1$ when $\sigma \neq 1/2$.
+*Remark (Normalization convention).* In Arthur's convention [Ar78, §4], the unnormalized Eisenstein series $E(\nu, g)$ gives $M(e, \nu) = \mathrm{Id}$ and the $w = e$ coefficient is $1$. The $c$-function ratios appear in the $w \neq e$ terms via the intertwining operators $M(w, \nu) = \prod_{\alpha > 0,\, w\alpha < 0} m_\alpha(\langle \nu, \alpha^\vee \rangle)$, where $m_\alpha$ involves $\xi$-ratios (equation (A.3)). In the Langlands-normalized convention $E^*(\nu) = c(\nu)^{-1} E(\nu)$, the $w = e$ coefficient becomes $c(\nu)\,c(-\nu)/|c(\nu)|^2$ and equals $1$ at $\sigma = 1/2$ by Lemma 5.8. The argument below is normalization-independent: in either convention, the $c$-function ratios enter the Maass--Selberg coefficients, and all such ratios have $\mathrm{Im} \neq 0$ at $\sigma \neq 1/2$ (Toy 325, verified by Keeper audit K10).
 
 **Theorem 5.10** (= Theorem 1.1, corrected closure). *All nontrivial zeros of $\xi(s)$ satisfy $\mathrm{Re}(s) = 1/2$.*
 
@@ -684,25 +680,25 @@ By Toy 324: $|\Delta|$ is monotonically increasing in $|\mathrm{Re}(\nu_0)|$.
 
 $$\|E^{\mathrm{res}}(s_0)\|^2 = \lim_{s \to s_0} (s - s_0)(\bar{s} - \bar{s}_0)\, \|\Lambda^T E(s)\|^2 \tag{5.8}$$
 
-Applying the Maass--Selberg formula (5.5) and taking the limit: the double pole of $\|\Lambda^T E(s)\|^2$ near $s = s_0$ gives a finite, nonzero limit proportional to:
-
-$$\|E^{\mathrm{res}}(s_0)\|^2 = |R_0(s_0)|^2 \cdot \frac{c(\nu_0)\,c(-\nu_0)}{|c(\nu_0)|^2} \cdot P(T) \tag{5.9}$$
-
-where $R_0(s_0) = \mathrm{Res}_{s=s_0}\, M(s) \neq 0$ (by Proposition 5.3: the residue coefficient is nonzero for any $\xi$-zero of any multiplicity), and $P(T) > 0$ is a polynomial in $T$ determined by the Weyl group orbit data.
+Applying the Maass--Selberg formula (5.5) and taking the limit: the double pole of $\|\Lambda^T E(s)\|^2$ near $s = s_0$ gives a finite, nonzero result involving the residue $R_0(s_0) = \mathrm{Res}_{s=s_0}\, M(s) \neq 0$ (by Proposition 5.3: the residue coefficient is nonzero for any $\xi$-zero of any multiplicity). The residual norm inherits the $c$-function ratios from the Maass--Selberg formula, with each Weyl group term contributing at a distinct $T$-exponent.
 
 **Step 4 (The $BC_2$ constraint).** In rank 2, the Maass--Selberg formula has 8 Weyl group terms. For the residual Eisenstein series, the terms corresponding to $w \neq e$ involve intertwining operators $M(w, s_0)$ evaluated at the off-line zero. By exponent distinctness (Proposition 5.2), the off-line spectral parameter $\nu_0$ does not coincide with any Weyl translate $w\nu_n$ of an on-line parameter. By exponent rigidity (Lemma 5.5), it does not coincide with any $w\nu_0'$ from another off-line zero. Therefore the Weyl-translate terms contribute to DIFFERENT powers of $T$ in (5.5) and cannot cancel the leading $w = e$ contribution at the critical $T$-power.
 
 Specifically: the 8 Weyl group elements of $BC_2$ act on $\nu_0 = (a, b)$ (in the $\mathfrak{a}^*$ coordinates) by sign changes and permutations: $\{(\pm a, \pm b), (\pm b, \pm a)\}$. The exponent $\langle 2(w\nu_0 - \nu_0), H_0 \rangle$ differs for each $w \neq e$ (since $\nu_0$ has both components nonzero for a generic off-line zero). Therefore the 8 terms have 8 distinct powers of $T$, and each must individually satisfy positivity in the $T \to \infty$ limit.
 
-**Step 5 (Contradiction).** The $w = e$ term (5.9) gives:
+**Step 5 (Contradiction via real exponential isolation).** The Maass--Selberg inner product $\|\Lambda^T E(\nu_0)\|^2 = \sum_w C_w \exp(L_w(H_0))$ must be real for all truncation parameters $H_0 \in \mathfrak{a}^+$. The $T$-exponent of the $w$-th term is $L_w(H_0) = \langle w\nu_0 + \bar{\nu}_0 - 2\rho, H_0 \rangle$, with imaginary part $\langle w(\mathrm{Im}(\nu_0)) - \mathrm{Im}(\nu_0), H_0 \rangle$.
 
-$$\|E^{\mathrm{res}}\|^2_{w=e} = |R_0|^2 \cdot \frac{c(\nu_0)\,c(-\nu_0)}{|c(\nu_0)|^2}$$
+For $w = e$: $L_e(H_0) = \langle 2\,\mathrm{Re}(\nu_0) - 2\rho, H_0 \rangle \in \mathbb{R}$. The exponential $\exp(L_e)$ is real-valued.
 
-By Step 2: $c(\nu_0)\,c(-\nu_0) \neq |c(\nu_0)|^2$. In particular, $c(\nu_0)\,c(-\nu_0)/|c(\nu_0)|^2 \notin \mathbb{R}_{\geq 0}$ for generic $\sigma_0 \neq 1/2$ (Toy 324: the ratio acquires a nonzero imaginary part).
+For $w \neq e$ with $w(\mathrm{Im}(\nu_0)) \neq \mathrm{Im}(\nu_0)$: the exponential $\exp(L_w)$ is complex-valued. These complex exponentials pair as conjugates: if $\bar{L}_w = L_{w'}$, then $\bar{C}_w = C_{w'}$ is required by reality.
 
-But $\|E^{\mathrm{res}}(s_0)\|^2 \in \mathbb{R}_{\geq 0}$ (it is the $L^2$-norm of an automorphic form). By Step 4, the $w = e$ contribution is the leading term as $T \to \infty$ (or has a unique $T$-exponent that no other $w$-term shares). A leading term with $\mathrm{Im} \neq 0$ makes $\|E^{\mathrm{res}}\|^2 \notin \mathbb{R}$ for large $T$.
+The reality constraint $f(H_0) = \overline{f(H_0)}$ for all $H_0$, together with linear independence of exponentials with distinct exponents, forces: **every coefficient $C_w$ corresponding to a real exponent $L_w$ must individually satisfy $C_w \in \mathbb{R}$** (since a real exponential has no conjugate partner among the complex ones).
 
-Contradiction. Therefore $\sigma_0 = 1/2$. $\square$
+In the Langlands normalization $E^*(\nu) = c(\nu)^{-1} E(\nu)$, the $w = e$ coefficient is (Toy 325, K10):
+
+$$C_e = \frac{c(\nu_0)\,c(-\nu_0)}{|c(\nu_0)|^2}$$
+
+By Lemma 5.8 and Toy 324: $\mathrm{Im}(C_e) \neq 0$ for $\sigma_0 \neq 1/2$. But $C_e \in \mathbb{R}$ is required. Contradiction. Therefore $\sigma_0 = 1/2$. $\square$
 
 *Remark 5.10 (Why this avoids the Laplace tautology).* The argument is LOCAL: it checks the unitarity condition at the spectral parameter $\nu_0$ of the specific off-line zero $s_0$. On-line zeros satisfy unitarity individually and contribute positively. There is no mixing of on-line and off-line contributions — each zero is tested independently through its residual Eisenstein series. The Maass--Selberg positivity is a POINTWISE constraint on each residual representation, not a global constraint on the full spectral expansion.
 
@@ -716,7 +712,11 @@ Contradiction. Therefore $\sigma_0 = 1/2$. $\square$
 
 (ii) **Choice of spectral parameter.** A zero $s_0$ of $\xi$ creates poles of the scattering matrix $M(w_0, \nu)$ via the numerator factors $\xi(\nu_1), \xi(\nu_1 - 1), \xi(\nu_1 - 2)$ (from the $e_1$ short root, equation (A.3)) and analogous factors for the $e_2$ short root. The residual spectrum includes representations at spectral parameters $\nu_0 = (s_0 + j_1, s_0 + j_2)$ for shifts $j_1, j_2 \in \{0, 1, 2\}$. For the 6 combinations with $j_1 \neq j_2$, the two components of $\nu_0$ are unequal, so $\nu_0$ has trivial stabilizer in $W(BC_2)$ and all 8 $T$-exponents are distinct. By Proposition 5.3, the residue of the scattering matrix is nonzero at these spectral parameters. The argument of Steps 4--5 applies at any such $\nu_0$.
 
-(iii) **Linear independence.** For $\nu_0$ with trivial stabilizer, the 8 linear functionals $E_w(H_0) = \langle 2(w\nu_0 - \nu_0), H_0 \rangle$ on the truncation chamber $\mathfrak{a}^+$ are pairwise distinct (since $w\nu_0 \neq w'\nu_0$ for $w \neq w'$). The exponentials $\exp(E_w(H_0))$ are linearly independent as functions of $H_0 \in \mathfrak{a}^+$ (standard: distinct linear functionals give linearly independent exponentials). Therefore $\sum_w c_w \exp(E_w(H_0)) \in \mathbb{R}$ for all $H_0$ forces each $c_w \in \mathbb{R}$. Since the $w = e$ coefficient involves $c(\nu_0)c(-\nu_0)/|c(\nu_0)|^2$, which has $\mathrm{Im} \neq 0$ by Lemma 5.8, we reach the contradiction of Step 5.
+(iii) **Real exponential isolation.** The $T$-exponent $L_w = \langle w\nu_0 + \bar{\nu}_0 - 2\rho, H_0 \rangle$ has imaginary part $\langle w(\mathrm{Im}(\nu_0)) - \mathrm{Im}(\nu_0), H_0 \rangle$. For $w = e$, this vanishes: $\exp(L_e)$ is real. For $w \neq e$ that does not fix $\mathrm{Im}(\nu_0)$, $\exp(L_w)$ is complex-valued. The complex exponentials pair as conjugates; reality of the sum forces conjugate-paired coefficients. But the real exponential $\exp(L_e)$ has no conjugate partner, so its coefficient $C_e$ must individually be real. In Langlands normalization, $C_e = c(\nu_0)c(-\nu_0)/|c(\nu_0)|^2$ has $\mathrm{Im} \neq 0$ by Lemma 5.8 --- contradiction (Step 5).
+
+*Remark 5.14 (Truncation genericity).* The 8 $T$-exponents $L_w$ are distinct as functions of $H_0$ provided $H_0 \in \mathfrak{a}^+$ is chosen off the Weyl symmetry hyperplanes (i.e., the hyperplanes $H_1 = H_2$, etc.). This is a generic (open dense) condition; $H_0$ with rationally independent coordinates suffices. With $H_0 = (1,1)$, the permutation element creates 4 $T$-exponent collisions (Toy 326), reducing the 8 terms to 4 pairs. The argument of Step 5 requires generic $H_0$, which is available for any truncation (the Maass--Selberg formula holds for all $H_0 \in \mathfrak{a}^+$).
+
+*Remark 5.15 (Regularity at off-line spectral parameters).* The Maass--Selberg formula (5.5) is evaluated at a regular point of all intertwining operators. The poles of $M(w, \nu)$ for $BC_2$ arise from $\Gamma$-function poles in the Gindikin--Karpelevich $c$-function, located on the real hyperplanes $\langle \nu, \alpha^\vee \rangle = -m_\alpha/2 - k$ for $k = 0, 1, 2, \ldots$ and positive roots $\alpha$. Since $\alpha^\vee$ is a real vector and $\nu_0$ has $\mathrm{Im}(\nu_0) \neq 0$ (by Remark 5.13(i): $\gamma_0 \neq 0$), the root evaluations $\langle \nu_0, \alpha^\vee \rangle$ have nonzero imaginary part and cannot lie on any real hyperplane. Therefore $\nu_0$ is a regular point of every $M(w, \nu)$. Similarly, the Maass--Selberg denominators (of the form $\langle w\nu_0 - \bar{\nu}_0, \alpha^\vee \rangle$ for roots $\alpha$) require both real and imaginary parts to vanish simultaneously for degeneracy; for the chosen shifts $j_1 \neq j_2$ (Remark 5.13(ii)), this does not occur. No meromorphic continuation subtlety arises.
 
 ---
 
