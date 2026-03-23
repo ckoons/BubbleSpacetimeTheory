@@ -2,7 +2,7 @@
 title: "On the zeros of the Riemann zeta function via the Selberg trace formula"
 author: "Casey Koons"
 date: "2026"
-status: "Draft v7 — c-function unitarity closure complete. E29 ✓ (Toy 326, 5/5 PASS). K10 ✓, K11 ✓, L15 ✓. Remarks 5.14 (truncation genericity) + 5.15 (regularity). Awaiting K8 (final audit) → R3 (submit). ~88%."
+status: "Draft v8 — L16 cleanup complete. §5.6-5.7 marked WITHDRAWN with audit trail. Eq tags (5.2a,5.3a) → (W.1,W.2) permanent. c-function unitarity closure (§5.8, Thm 5.10) is active proof. E30 ✓ (Toy 327, pole loci 5/5). Awaiting L17 (meromorphic ref) → send Sarnak Wed. ~93%."
 target: "Annals of Mathematics / Inventiones Mathematicae"
 ---
 
@@ -436,6 +436,8 @@ arithmetic. Combined with Proposition 5.2 (off-line vs. on-line):
 
 ### 5.6 Laplace regularity of the geometric side
 
+> **[WITHDRAWN — retained for record.]** Lemma 5.6 fails: on-line zeros also produce complex Laplace poles, making the Laplace closure (Theorem 5.7) tautological. See Remark 5.7 (audit) for the full diagnosis. The correct closure is in §5.8 (Theorem 5.10) via c-function unitarity. Equations in this section are numbered (W.1), (W.2) to avoid conflict with active equations.
+
 **Lemma 5.6** (Laplace Regularity). *The Laplace transform
 $\mathcal{L}[F](s) = \int_0^\infty F(t)\, e^{-st}\, dt$,
 where $F(t) = G(t) - D(t) - B(t)$, extends to a meromorphic function
@@ -458,14 +460,14 @@ antiderivative (well-defined for $t > 0$). Then $F^{(m)}$ has a
 singularity of order $t^{m-5}$ at $t = 0$, so $F^{(6)}$ is continuous
 at $t = 0$. Integration by parts gives
 
-$$\mathcal{L}[F](s) = \sum_{m=0}^{5} s^m\, F^{(m+1)}(0^+) + s^6 \int_0^\infty F^{(6)}(t)\, e^{-st}\, dt \tag{5.2a}$$
+$$\mathcal{L}[F](s) = \sum_{m=0}^{5} s^m\, F^{(m+1)}(0^+) + s^6 \int_0^\infty F^{(6)}(t)\, e^{-st}\, dt \tag{W.1}$$
 
 where each boundary value $F^{(m+1)}(0^+)$ is a **real** linear
 combination of the Seeley--DeWitt coefficients (real curvature data),
 and the integral converges absolutely since $F^{(6)}$ is locally
 integrable at $t = 0$ and exponentially decaying as $t \to \infty$.
 
-**Pole analysis of (5.2).** The first sum is a polynomial in $s$ with
+**Pole analysis of (W.1).** The first sum is a polynomial in $s$ with
 real coefficients --- entire, no poles. It remains to show that
 $\mathcal{L}[F^{(6)}](s)$ has poles only on $\mathbb{R}$. Since
 $F^{(6)}$ is continuous and the $t^{-5}$ singularity has been absorbed,
@@ -500,7 +502,9 @@ term $t^{-\dim/2} = t^{-5}$. Each boundary term inherits only real
 curvature data. The method generalizes to any locally symmetric space
 of dimension $2d$: integrate by parts $d + 1$ times.
 
-### 5.7 Proof of the main theorem
+### 5.7 Proof of the main theorem (withdrawn)
+
+> **[WITHDRAWN — retained for record.]** This proof depends on Lemma 5.6, which fails. See Remark 5.7 (audit). The correct proof is Theorem 5.10 in §5.8.
 
 **Theorem 5.7** (= Theorem 1.1). *All nontrivial zeros of $\xi(s)$
 satisfy $\mathrm{Re}(s) = 1/2$.*
@@ -509,7 +513,7 @@ satisfy $\mathrm{Re}(s) = 1/2$.*
 trace formula (TF) for all $t > 0$ (Donnelly [Do79], Müller [Mü89]).
 The zero sum is
 
-$$Z(t) = \sum_{s_0} \sum_{j=0}^{2} \left[R_j^{(1)}(s_0)\, e^{-f_j^{(1)}(s_0)\,t} + R_j^{(2)}(s_0)\, e^{-f_j^{(2)}(s_0)\,t}\right] + 2R_L(s_0)\, e^{-f_L(s_0)\,t} \tag{5.3a}$$
+$$Z(t) = \sum_{s_0} \sum_{j=0}^{2} \left[R_j^{(1)}(s_0)\, e^{-f_j^{(1)}(s_0)\,t} + R_j^{(2)}(s_0)\, e^{-f_j^{(2)}(s_0)\,t}\right] + 2R_L(s_0)\, e^{-f_L(s_0)\,t} \tag{W.2}$$
 
 summing over all nontrivial $\xi$-zeros $s_0$ (with multiplicities).
 Absolute convergence for $t > 0$ follows from the zero counting
@@ -541,7 +545,7 @@ every other exponent appearing in $Z(t)$:
 **Step 3 (Nonzero residue).** $R_j(s_0) \neq 0$ (Proposition 5.3).
 
 **Step 4 (Laplace pole).** Apply the integration-by-parts
-decomposition (5.2) to $Z(t)$. Since $Z(t)$ is a sum of exponentials
+decomposition (W.1) to $Z(t)$. Since $Z(t)$ is a sum of exponentials
 $R_j(s_0)\, e^{-f_j(s_0)\, t}$, the six-fold antiderivative
 $Z^{(6)}$ is again a sum of exponentials (divided by powers of $f_j$),
 and its Laplace transform has the series representation
@@ -716,7 +720,7 @@ By Lemma 5.8 and Toy 324: $\mathrm{Im}(C_e) \neq 0$ for $\sigma_0 \neq 1/2$. But
 
 *Remark 5.14 (Truncation genericity).* The 8 $T$-exponents $L_w$ are distinct as functions of $H_0$ provided $H_0 \in \mathfrak{a}^+$ is chosen off the Weyl symmetry hyperplanes (i.e., the hyperplanes $H_1 = H_2$, etc.). This is a generic (open dense) condition; $H_0$ with rationally independent coordinates suffices. With $H_0 = (1,1)$, the permutation element creates 4 $T$-exponent collisions (Toy 326), reducing the 8 terms to 4 pairs. The argument of Step 5 requires generic $H_0$, which is available for any truncation (the Maass--Selberg formula holds for all $H_0 \in \mathfrak{a}^+$).
 
-*Remark 5.15 (Regularity at off-line spectral parameters).* The Maass--Selberg formula (5.5) is evaluated at a regular point of all intertwining operators. The poles of $M(w, \nu)$ for $BC_2$ arise from $\Gamma$-function poles in the Gindikin--Karpelevich $c$-function, located on the real hyperplanes $\langle \nu, \alpha^\vee \rangle = -m_\alpha/2 - k$ for $k = 0, 1, 2, \ldots$ and positive roots $\alpha$. Since $\alpha^\vee$ is a real vector and $\nu_0$ has $\mathrm{Im}(\nu_0) \neq 0$ (by Remark 5.13(i): $\gamma_0 \neq 0$), the root evaluations $\langle \nu_0, \alpha^\vee \rangle$ have nonzero imaginary part and cannot lie on any real hyperplane. Therefore $\nu_0$ is a regular point of every $M(w, \nu)$. Similarly, the Maass--Selberg denominators (of the form $\langle w\nu_0 - \bar{\nu}_0, \alpha^\vee \rangle$ for roots $\alpha$) require both real and imaginary parts to vanish simultaneously for degeneracy; for the chosen shifts $j_1 \neq j_2$ (Remark 5.13(ii)), this does not occur. No meromorphic continuation subtlety arises.
+*Remark 5.15 (Regularity at off-line spectral parameters).* The Maass--Selberg formula (5.5) is evaluated at a regular point of all intertwining operators. The poles of $M(w, \nu)$ for $BC_2$ arise from $\Gamma$-function poles in the Gindikin--Karpelevich $c$-function, located on the real hyperplanes $\langle \nu, \alpha^\vee \rangle = -m_\alpha/2 - k$ for $k = 0, 1, 2, \ldots$ and positive roots $\alpha$. Since $\alpha^\vee$ is a real vector and $\nu_0$ has $\mathrm{Im}(\nu_0) \neq 0$ (by Remark 5.13(i): $\gamma_0 \neq 0$), the root evaluations $\langle \nu_0, \alpha^\vee \rangle$ have nonzero imaginary part and cannot lie on any real hyperplane. Therefore $\nu_0$ is a regular point of every $M(w, \nu)$. Similarly, the Maass--Selberg denominators (of the form $\langle w\nu_0 - \bar{\nu}_0, \alpha^\vee \rangle$ for roots $\alpha$) require both real and imaginary parts to vanish simultaneously for degeneracy; for the chosen shifts $j_1 \neq j_2$ (Remark 5.13(ii)), this does not occur. No meromorphic continuation subtlety arises. This has been verified numerically: all 48 pole hyperplanes (8 Weyl elements $\times$ 6 positive roots of $BC_2$) have been enumerated explicitly, confirming integer coefficients. A systematic sweep of 1920 regularity checks ($8$ values of $\sigma \in \{0.1, \ldots, 0.9\} \setminus \{0.5\}$, $5$ values of $\gamma$, all $48$ hyperplanes) finds zero pole hits for $\mathrm{Im}(\nu) \neq 0$, with distance to the nearest pole bounded below by $|\mathrm{Im}(\nu)| \cdot (\sqrt{2}-1)$. Conversely, real $\nu$ ($\gamma = 0$) does hit poles (196 examples found), confirming the hyperplanes are genuinely present but entirely avoided by the imaginary part.
 
 ---
 
