@@ -418,7 +418,7 @@ The four-step proof engine (identify structure, DPI compression, simultaneity, c
 
 ### Hodge Conjecture: Committed vs Faded Cohomology
 
-**Status**: Future target. Furthest from current tools. Priority: LOW (needs more BST).
+**Status**: ACTIVE. Draft v1 written (BST_Hodge_Proof.md). Three-layer approach via theta correspondence. Priority: MEDIUM.
 
 **The question (Clay)**: On a non-singular complex projective variety, is every Hodge class a rational linear combination of classes of algebraic cycles?
 
@@ -454,8 +454,8 @@ The four-step proof engine (identify structure, DPI compression, simultaneity, c
 | 2 | **P ≠ NP** | ~95% | EF kill chain (T66→T52→T68→T69→BSW) | FOCS submitted |
 | 3 | **Yang-Mills mass gap** | ~95% | QFT constructed, W1-W5 exhibited | Clay R⁴ framing |
 | 4 | **Navier-Stokes** | ~98% | Solid angle → cascade → blow-up (5-step chain) | Proof chain complete |
-| 5 | **Birch-Swinnerton-Dyer** | Active (~30%) | D₃ spectral mapping, C1 = BSD, Sha = faded | L32 done, 34/34 toys, dictionary complete |
-| 6 | **Hodge Conjecture** | Future (far) | Committed vs faded cohomology, motives | Needs Langlands |
+| 5 | **Birch-Swinnerton-Dyer** | **~93%** | P₂ Langlands-Shahidi + Sha-independence + rank equality | BST_BSD_Proof.md v4, 11 toys 104/104, both gaps closed |
+| 6 | **Hodge Conjecture** | Active (~30%) | Theta correspondence + Kudla-Millson special cycles + T104 | BST_Hodge_Proof.md v1, 3-layer approach |
 | 7 | **Poincaré** | SOLVED (Perelman) | Ricci flow = substrate error correction | Confirmation only |
 
 **5 of 7 actively engaged. 1 solved. 1 mapped. Zero free parameters.**

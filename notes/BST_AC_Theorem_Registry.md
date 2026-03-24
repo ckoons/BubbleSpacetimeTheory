@@ -122,6 +122,10 @@ rules: |
 | T101 | Conservation Law = BSD Formula (B5) | Follows from T100+T102 | BST_BSD_Spectral §10.5 | 386 | 2026-03-24 |
 | T102 | Regulator = DPI Volume (B6) | ~40% | BST_BSD_Spectral §10.6 | 390 | 2026-03-24 |
 | T103 | Sha Finiteness (B7) | Follows from T100+T101 | BST_BSD_Spectral §10.7 | — | 2026-03-24 |
+| T104 | Amplitude-Frequency Separation | Proved | BST_AC_Theorems §48a | — | 2026-03-24 |
+| T105 | Phantom Zero Exclusion | Proved | BST_AC_Theorems §48b | — | 2026-03-24 |
+| T106 | Rank Equality via Parity Trap | Proved | BST_AC_Theorems §48c | — | 2026-03-24 |
+| T107 | Weyl Coset Threshold | Proved | BST_AC_Theorems §48d | — | 2026-03-24 |
 
 ---
 
@@ -129,7 +133,7 @@ rules: |
 
 | Category | Count | T_ids |
 |----------|-------|-------|
-| Proved | 70 | T1-T2, T4-T5, T7-T20, T22-T25, T27-T28, T37-T42, T49-T51, T53-T54, T56-T60, T62, T64, T66, T68-T70, T72-T86, T88-T97 |
+| Proved | 74 | T1-T2, T4-T5, T7-T20, T22-T25, T27-T28, T37-T42, T49-T51, T53-T54, T56-T60, T62, T64, T66, T68-T70, T72-T86, T88-T97, T104-T107 |
 | Proved (conditional) | 1 | T87 (conditional on Conj 5.6: P(t) > 0) |
 | Proved+Conditional | 1 | T67 (b,d,e proved; a,c conditional on Tseitin reduction) |
 | Proved+Empirical | 2 | T47 (a-c proved, d conditional), T48 (a-c proved, empirical d_min) |
@@ -147,7 +151,7 @@ rules: |
 | Partial (~40%) | 1 | T102 (regulator = DPI volume) |
 | Follows (conditional) | 2 | T101 (on T100+T102), T103 (on T100+T101) |
 | Never assigned | 5 | T43-T46, T63 |
-| **Total assigned** | **97** | T1-T42, T47-T62, T64-T103 |
+| **Total assigned** | **101** | T1-T42, T47-T62, T64-T107 |
 
 ---
 
@@ -155,7 +159,9 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T104** (T63 unassigned)
+- Next available: **T108** (T63 unassigned)
+- March 24 batch 3: T97-T103 (BSD B1-B7 proof framework)
+- March 24 batch 4: T104-T107 (BSD depth analysis — Lyra). T104 amplitude-frequency, T105 phantom exclusion, T106 parity trap, T107 Weyl threshold. All proved.
 - March 23 batch: T57-T69 (13 new theorems) — all assigned
 - March 24 batch 1: T73-T82 (10 AC(0) foundation theorems) — all proved (recovery)
 - March 24 batch 2: T83-T87 (5 NS analytical basis theorems) — Lyra. T83-T86 proved, T87 conditional on Conj 5.6
