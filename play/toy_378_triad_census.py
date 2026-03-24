@@ -322,7 +322,7 @@ def main():
     all_forward_dominant = all(d['n_forward'] >= d['n_backward'] for d in step_data)
     score("Forward ≥ backward at ALL cascade steps",
           all_forward_dominant,
-          f"ratios: {[f'{d[\"count_ratio\"]:.1f}' if d['count_ratio'] < 1e6 else '∞' for d in step_data]}")
+          "ratios: " + str([round(d['count_ratio'], 1) if d['count_ratio'] < 1e6 else 'inf' for d in step_data]))
 
     # Test 4: Ratio grows with step number (k³ scaling)
     if len(all_forward_ratios) >= 2:
@@ -340,7 +340,7 @@ def main():
     all_weighted_positive = all(d['w_fwd'] >= d['w_bwd'] for d in step_data)
     score("Weighted F/B ratio (coupling × count) > 1 at all steps",
           all_weighted_positive,
-          f"weighted ratios: {[f'{d[\"weighted_ratio\"]:.1f}' if d['weighted_ratio'] < 1e6 else '∞' for d in step_data]}")
+          "weighted ratios: " + str([round(d['weighted_ratio'], 1) if d['weighted_ratio'] < 1e6 else 'inf' for d in step_data]))
 
     # Test 6: Consistent with P > 0 from DNS (Toys 367-368)
     print(f"\n  Consistency check with DNS:")
