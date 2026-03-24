@@ -480,7 +480,7 @@ $$\Delta(\nu_0) := c(\nu_0)\,c(-\nu_0) - |c(\nu_0)|^2 \neq 0 \tag{5.7}$$
 
 By Toy 324: $|\Delta|$ is monotonically increasing in $|\mathrm{Re}(\nu_0)|$.
 
-**Step 3 (Residual contribution).** The zero $s_0$ of $\xi$ creates a pole in the scattering matrix $M(s)$ of the Eisenstein series. The residual Eisenstein series $E^{\mathrm{res}}(s_0, g) := \mathrm{Res}_{s = s_0}\, E(s, g)$ is a square-integrable automorphic form (residual representation). Its $L^2$-norm satisfies:
+**Step 3 (Residual contribution).** The zero $s_0$ of $\xi$ creates a pole in the scattering matrix $M(s)$ of the Eisenstein series. The residual Eisenstein series $E^{\mathrm{res}}(s_0, g) := \mathrm{Res}_{s = s_0}\, E(s, g)$ is a square-integrable automorphic form (residual representation). The pole lies in the positive Weyl chamber ($\sigma_0 \in (0,1)$, hence $\mathrm{Re}(\nu_0) \in (-1/2, 1/2)$), satisfying the Langlands criterion for square-integrability of the residue (Moeglin--Waldspurger [MW95, IV.1.11]). Its $L^2$-norm satisfies:
 
 $$\|E^{\mathrm{res}}(s_0)\|^2 = \lim_{s \to s_0} (s - s_0)(\bar{s} - \bar{s}_0)\, \|\Lambda^T E(s)\|^2 \tag{5.8}$$
 
@@ -496,7 +496,7 @@ For $w = e$: $L_e(H_0) = \langle 2\,\mathrm{Re}(\nu_0) - 2\rho, H_0 \rangle \in 
 
 For $w \neq e$ with $w(\mathrm{Im}(\nu_0)) \neq \mathrm{Im}(\nu_0)$: the exponential $\exp(L_w)$ is complex-valued. These complex exponentials pair as conjugates: if $\bar{L}_w = L_{w'}$, then $\bar{C}_w = C_{w'}$ is required by reality.
 
-The reality constraint $f(H_0) = \overline{f(H_0)}$ for all $H_0$, together with linear independence of exponentials with distinct exponents, forces: **every coefficient $C_w$ corresponding to a real exponent $L_w$ must individually satisfy $C_w \in \mathbb{R}$** (since a real exponential has no conjugate partner among the complex ones).
+The reality constraint $f(H_0) = \overline{f(H_0)}$ for all $H_0$, together with linear independence of the exponentials $\{e^{L_w(H_0)}\}_{w \in W}$ with distinct exponents as functions of $H_0 \in \mathfrak{a}^+$ (Mandelbrojt [Ma72]), forces: **every coefficient $C_w$ corresponding to a real exponent $L_w$ must individually satisfy $C_w \in \mathbb{R}$** (since a real exponential has no conjugate partner among the complex ones).
 
 In the Langlands normalization $E^*(\nu) = c(\nu)^{-1} E(\nu)$, the $w = e$ coefficient is (Toy 325):
 
@@ -572,7 +572,7 @@ trace formula. Even without the $K$-sphericity filter, their Casimir
 eigenvalues are $\xi$-independent, so they would contribute to $D(t)$
 (not $Z(t)$) and the proof is unaffected.
 
-**7.2 Multi-parabolic contributions.** The maximal parabolics of
+**7.2 Multi-parabolic contributions.** Theorem 1.1 concerns $\zeta(s)$ only; zeros entering through maximal parabolics are zeros of $L$-functions of cuspidal representations on the Levi factors, not of $\zeta$ itself. The maximal parabolics of
 $\mathrm{SO}_0(5,2)$ have Levi factors
 $\mathrm{GL}(1) \times \mathrm{SO}_0(3,2)$ and
 $\mathrm{GL}(2) \times \mathrm{SO}_0(1,2)$. Their Eisenstein series

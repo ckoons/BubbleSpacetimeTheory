@@ -582,8 +582,16 @@ The integers that build quarks (N_c = 3, g = 7) are the same integers that contr
 1. **Polarization at k=3**: H(x_i | φ SAT) should be bimodal at α_c — clustered at 0 (backbone) and near 1 (free), with a gap. This is the Arıkan polarization phenomenon on the VIG expander.
 2. **k = N_c predicts different behavior at k = 5 = n_C**: The backbone structure at k=5 should show a qualitatively different phase transition (n_C is the Cartan dimension). The satisfaction ratio 31/32 should relate to BST's 5-dimensional structure.
 3. **k = 7 = g**: At k=7, the satisfaction ratio is (2^7 - 1)/2^7 = 127/128. The coupling constant g itself becomes the clause width. This should be a distinguished point in the k-SAT phase diagram.
-4. **Free fraction discriminator**: At α_c for k=3, does the free variable fraction converge (at large n) to **0.176** (= first moment exponent, pure combinatorics) or **0.191** (= Reality Budget fill = 9/5 − 1, BST)? At n=12-20, Toy 356 gives ~17% — between the two. Large-n Monte Carlo (survey propagation, n=10⁴-10⁵) discriminates. If 0.191: the SAT threshold IS the substrate's capacity limit, and the Gödel Limit governs what a formula can know about itself. If 0.176: it's just counting, and the 17%/19.1% near-miss is coincidence.
-5. **Cross-k convergence**: If the free fraction at α_c converges to ~19.1% at k=3, does it also converge to ~19.1% at k=4, 5, 7? If YES across multiple k: the Reality Budget is universal across clause widths, not an artifact of k=3. The substrate has the same capacity limit regardless of measurement granularity.
+4. **Free fraction discriminator (UPDATED — Elie reconciliation, March 24)**: Both 0.176 and 0.191 may be real, measuring different things:
+   - **0.178n** = total entropy (bits of freedom). Stochastic, problem-specific. Measured by first moment (Markov). This is what survey propagation will see.
+   - **0.191n** = fraction of channels the substrate keeps open. Deterministic, universal. The Reality Budget.
+   - **0.178/0.191 ≈ 0.93** = per-channel efficiency (the OR-slack cost at k=3).
+   - The substrate allocates 19.1% of variables as open channels. Each channel carries ~0.93 bits (OR-slack). Total throughput: 0.178n bits. First moment holds AND Reality Budget holds.
+   - XOR-SAT: efficiency = 1.0, both numbers merge (no OR-slack). Regular SAT: efficiency < 1.0, numbers split.
+   - The 21% intermediate variables (Toy 356) ARE the noisy channels — open but not fully efficient.
+   - **Keeper's warning**: Survey propagation measures the stochastic answer (0.178). The substrate's deterministic capacity (0.191) is invisible to stochastic instruments. You'd need to measure the substrate directly — and you can't (Gödel Limit).
+   - **Test**: Measure non-frozen fraction (not entropy) at large n. If non-frozen/n → 0.191 while entropy/n → 0.178, both are real. If non-frozen/n → 0.178, the reconciliation fails and it's just counting.
+5. **Cross-k convergence**: Does the NON-FROZEN fraction (channel count, not entropy) converge to ~19.1% at k=3, 4, 5, 7 — all with different first-moment ceilings but the same channel allocation? If YES across multiple k with different per-channel efficiencies: the substrate sets the channel count, the combinatorics set the per-channel rate. That's the substrate speaking.
 
 ---
 

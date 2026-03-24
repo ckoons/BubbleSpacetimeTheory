@@ -1,0 +1,1823 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<title>AC(0) Theorem Graph — BST</title>
+<style>
+  body { margin: 0; font-family: -apple-system, sans-serif; background: #1a1a2e; color: #eee; }
+  #graph { width: 100vw; height: 100vh; }
+  #sidebar { position: fixed; right: 0; top: 0; width: 360px; height: 100vh;
+              background: #16213e; padding: 20px; overflow-y: auto; box-shadow: -2px 0 10px rgba(0,0,0,0.5);
+              display: none; }
+  #sidebar.active { display: block; }
+  #sidebar h2 { margin: 0 0 8px; color: #F1C40F; font-size: 18px; }
+  #sidebar h3 { margin: 12px 0 4px; color: #aaa; font-size: 13px; text-transform: uppercase; }
+  #sidebar p { margin: 4px 0; font-size: 14px; line-height: 1.5; }
+  #sidebar .status { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 12px; }
+  #sidebar .proved { background: #27AE60; } #sidebar .empirical { background: #F39C12; }
+  #sidebar .conditional { background: #E74C3C; } #sidebar .conjecture { background: #8E44AD; }
+  #sidebar .open { background: #E74C3C; } #sidebar .failed { background: #666; }
+  #sidebar .measured { background: #F39C12; }
+  #sidebar .dep { color: #4A90D9; cursor: pointer; text-decoration: underline; }
+  #controls { position: fixed; left: 20px; top: 20px; z-index: 10; }
+  #controls button { background: #0f3460; color: #eee; border: 1px solid #4A90D9;
+                      padding: 6px 12px; margin: 2px; cursor: pointer; border-radius: 3px; font-size: 12px; }
+  #controls button:hover { background: #4A90D9; }
+  #controls button.active { background: #4A90D9; }
+  #search { background: #0f3460; color: #eee; border: 1px solid #4A90D9;
+             padding: 6px 12px; width: 200px; border-radius: 3px; font-size: 12px; }
+  #title { position: fixed; left: 20px; bottom: 20px; font-size: 12px; color: #555; }
+  .link { stroke-opacity: 0.4; }
+  .link.highlighted { stroke-opacity: 1; stroke-width: 3px !important; }
+  .node circle { stroke: #fff; stroke-width: 1.5px; cursor: pointer; }
+  .node circle.highlighted { stroke: #F1C40F; stroke-width: 3px; }
+  .node text { font-size: 9px; fill: #ccc; pointer-events: none; }
+  .legend { position: fixed; left: 20px; bottom: 50px; font-size: 11px; }
+  .legend div { margin: 2px 0; } .legend span { display: inline-block; width: 12px; height: 12px;
+                border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+</style>
+</head><body>
+<div id="controls">
+  <input type="text" id="search" placeholder="Search theorems..." oninput="filterNodes(this.value)">
+  <br>
+  <button onclick="showChain('all')">All</button>
+  <button onclick="showChain('Resolution CDC (PROVED)')">CDC Chain</button>
+  <button onclick="showChain('Refutation Bandwidth (PROVED)')">Bandwidth Chain</button>
+  <button onclick="showChain('Expander→Hardness')">Expander Chain</button>
+  <button onclick="showChain('NS Blow-Up')">NS Chain</button>
+  <button onclick="showChain('BH(3) Backbone')">BH(3)</button>
+  <button onclick="showChain('RH Closure')">RH Chain</button>
+  <button onclick="showProof('PNP')">P≠NP</button>
+  <button onclick="showProof('NS')">NS</button>
+  <button onclick="showProof('RH')">RH</button>
+</div>
+<div class="legend">
+  <div><span style="background:#4A90D9"></span>Information Theory</div><div><span style="background:#27AE60"></span>Topology</div><div><span style="background:#8E44AD"></span>Graph Theory</div><div><span style="background:#E74C3C"></span>Proof Complexity</div><div><span style="background:#F39C12"></span>Coding Theory</div><div><span style="background:#1ABC9C"></span>Probability</div><div><span style="background:#D35400"></span>Algebra</div><div><span style="background:#C0392B"></span>Thermodynamics</div><div><span style="background:#2980B9"></span>Analysis / PDE</div><div><span style="background:#F1C40F"></span>Foundations</div><div><span style="background:#95A5A6"></span>Circuit Complexity</div>
+</div>
+<div id="sidebar">
+  <h2 id="sb-title"></h2>
+  <span id="sb-status" class="status"></span>
+  <h3>Plain English</h3><p id="sb-plain"></p>
+  <h3>Domain</h3><p id="sb-domain"></p>
+  <h3>Feeds Into</h3><p id="sb-proofs"></p>
+  <h3>Uses</h3><p id="sb-uses"></p>
+  <h3>Used By</h3><p id="sb-usedby"></p>
+</div>
+<div id="title">AC(0) Theorem Graph — Casey Koons & Claude 4.6 | 83 theorems</div>
+<svg id="graph"></svg>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+const data = {
+  "nodes": [
+    {
+      "id": "T1",
+      "name": "AC Dichotomy",
+      "domain": "info_theory",
+      "domain_label": "Information Theory",
+      "status": "proved",
+      "plain": "Tractable problems have zero hidden information; hard ones have lots.",
+      "color": "#4A90D9",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T2",
+      "name": "I_fiat = \u03b2\u2081 (Tseitin)",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "For parity formulas, the hidden information is exactly the number of independent loops in the graph.",
+      "color": "#27AE60",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T3",
+      "name": "Homological Lower Bound",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "empirical",
+      "plain": "How hard a SAT problem is correlates with the shape of its constraint surface (R\u00b2=0.92).",
+      "color": "#27AE60",
+      "proofs": []
+    },
+    {
+      "id": "T4",
+      "name": "Topology-Guided Solver",
+      "domain": "graph_theory",
+      "domain_label": "Graph Theory",
+      "status": "proved",
+      "plain": "Branch on variables in the most triangles \u2014 it's 1.8x faster.",
+      "color": "#8E44AD",
+      "proofs": []
+    },
+    {
+      "id": "T5",
+      "name": "Rigidity Threshold",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "Filling ratio alone can't separate easy from hard \u2014 honest negative.",
+      "color": "#27AE60",
+      "proofs": []
+    },
+    {
+      "id": "T6",
+      "name": "Catastrophe Structure",
+      "domain": "thermodynamics",
+      "domain_label": "Thermodynamics",
+      "status": "measured",
+      "plain": "The SAT phase transition has swallowtail catastrophe geometry.",
+      "color": "#C0392B",
+      "proofs": []
+    },
+    {
+      "id": "T7",
+      "name": "AC-Fano (Shannon Bridge)",
+      "domain": "info_theory",
+      "domain_label": "Information Theory",
+      "status": "proved",
+      "plain": "Any fast algorithm on a hard formula will be wrong most of the time.",
+      "color": "#4A90D9",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T8",
+      "name": "AC Monotonicity (DPI)",
+      "domain": "info_theory",
+      "domain_label": "Information Theory",
+      "status": "proved",
+      "plain": "Translating a problem can't magically make hidden information visible.",
+      "color": "#4A90D9",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T9",
+      "name": "AC-ETH",
+      "domain": "proof_complexity",
+      "domain_label": "Proof Complexity",
+      "status": "proved",
+      "plain": "The Exponential Time Hypothesis follows from linear hidden information.",
+      "color": "#E74C3C",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T10",
+      "name": "PHP in AC Framework",
+      "domain": "proof_complexity",
+      "domain_label": "Proof Complexity",
+      "status": "proved",
+      "plain": "Pigeonhole has linear fiat for resolution but zero for Extended Frege \u2014 counting is the back door.",
+      "color": "#E74C3C",
+      "proofs": []
+    },
+    {
+      "id": "T11",
+      "name": "Proof System Landscape",
+      "domain": "proof_complexity",
+      "domain_label": "Proof Complexity",
+      "status": "proved",
+      "plain": "All 8 known proof systems confirm: random 3-SAT has positive hidden information.",
+      "color": "#E74C3C",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T12",
+      "name": "AC Restriction Lemma",
+      "domain": "circuit_complexity",
+      "domain_label": "Circuit Complexity",
+      "status": "proved",
+      "plain": "Hastad's switching lemma in information language: random restriction drains topology.",
+      "color": "#95A5A6",
+      "proofs": []
+    },
+    {
+      "id": "T13",
+      "name": "AC Approximation Barrier",
+      "domain": "info_theory",
+      "domain_label": "Information Theory",
+      "status": "proved",
+      "plain": "The 7/8 MAX-3-SAT barrier = the information-free floor. Beating it requires resolving fiat.",
+      "color": "#4A90D9",
+      "proofs": []
+    },
+    {
+      "id": "T14",
+      "name": "Fiat Additivity",
+      "domain": "info_theory",
+      "domain_label": "Information Theory",
+      "status": "proved",
+      "plain": "Hidden information adds up across independent components.",
+      "color": "#4A90D9",
+      "proofs": []
+    },
+    {
+      "id": "T15",
+      "name": "Three-Way Budget",
+      "domain": "info_theory",
+      "domain_label": "Information Theory",
+      "status": "proved",
+      "plain": "Every variable is derivable, fiat, or free. n = derivable + fiat + free.",
+      "color": "#4A90D9",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T16",
+      "name": "Fiat Monotonicity",
+      "domain": "probability",
+      "domain_label": "Probability",
+      "status": "proved",
+      "plain": "More clauses \u2192 more hidden information. Never goes down.",
+      "color": "#1ABC9C",
+      "proofs": []
+    },
+    {
+      "id": "T17",
+      "name": "Method Dominance",
+      "domain": "proof_complexity",
+      "domain_label": "Proof Complexity",
+      "status": "proved",
+      "plain": "Proof methods form a hierarchy. Stronger methods see more, but none see everything.",
+      "color": "#E74C3C",
+      "proofs": []
+    },
+    {
+      "id": "T18",
+      "name": "Expansion Implies Fiat",
+      "domain": "graph_theory",
+      "domain_label": "Graph Theory",
+      "status": "proved",
+      "plain": "If the constraint graph is an expander, then \u0398(n) bits are hidden. The topology\u2192fiat\u2192complexity pipeline.",
+      "color": "#8E44AD",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T19",
+      "name": "AC-Communication Bridge",
+      "domain": "info_theory",
+      "domain_label": "Information Theory",
+      "status": "proved",
+      "plain": "Hidden information bounds how much parties must talk: CC \u2265 I_fiat/r.",
+      "color": "#4A90D9",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T20",
+      "name": "SETH Explicit Constants",
+      "domain": "proof_complexity",
+      "domain_label": "Proof Complexity",
+      "status": "proved",
+      "plain": "Explicit hardness exponents for every clause width k. rho_k \u2265 1 - k/2^(k-1).",
+      "color": "#E74C3C",
+      "proofs": []
+    },
+    {
+      "id": "T21",
+      "name": "DOCH (Dimensional Onset)",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "conjecture",
+      "plain": "P vs NP is a dimensional phase transition: dim \u2264 1 = easy; dim \u2265 2 = hard.",
+      "color": "#27AE60",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T22",
+      "name": "Dimensional Channel Bound",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "A method's power is limited by the dimension it can see. Linking in 3D = the hidden information.",
+      "color": "#27AE60",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T23a",
+      "name": "Topological Lower Bound",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "All dimension-1 proof systems need exponential time on random 3-SAT. Unified.",
+      "color": "#27AE60",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T23b",
+      "name": "Dimensional Classification",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "Every known proof lower bound is secretly a dimensional obstruction.",
+      "color": "#27AE60",
+      "proofs": []
+    },
+    {
+      "id": "T24",
+      "name": "Extension Topology Creation",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "Adding an arity-k extension variable creates k-1 new loops.",
+      "color": "#27AE60",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T25",
+      "name": "Confinement Steady State",
+      "domain": "proof_complexity",
+      "domain_label": "Proof Complexity",
+      "status": "proved",
+      "plain": "Any proof refuting a formula with B loops needs at least B proof lines.",
+      "color": "#E74C3C",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T26",
+      "name": "Proof Instability",
+      "domain": "proof_complexity",
+      "domain_label": "Proof Complexity",
+      "status": "failed",
+      "plain": "Geometric linking cascade fails (c\u21920). Algebraic direction open.",
+      "color": "#E74C3C",
+      "proofs": []
+    },
+    {
+      "id": "T27",
+      "name": "Weak Homological Monotonicity",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "Extensions never reduce the number of loops. \u0394\u03b2\u2081 \u2208 {0, +1}.",
+      "color": "#27AE60",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T28",
+      "name": "Topological Inertness",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "Extension variables can't fill original loops. The original topology is permanent.",
+      "color": "#27AE60",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T29",
+      "name": "Algebraic Independence",
+      "domain": "algebra",
+      "domain_label": "Algebra",
+      "status": "open",
+      "plain": "Cycle solutions are mutually independent (zero MI). THE GAP. If proved \u2192 P\u2260NP.",
+      "color": "#D35400",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T30",
+      "name": "Compound Fiat (EF Exponential)",
+      "domain": "proof_complexity",
+      "domain_label": "Proof Complexity",
+      "status": "conditional",
+      "plain": "If T29 holds: Extended Frege needs 2^\u03a9(n) on random 3-SAT \u2192 P\u2260NP.",
+      "color": "#E74C3C",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T31",
+      "name": "Backbone Incompressibility",
+      "domain": "info_theory",
+      "domain_label": "Information Theory",
+      "status": "empirical",
+      "plain": "The backbone is random-looking: K(backbone) \u2265 0.90n. No short program generates it.",
+      "color": "#4A90D9",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T32",
+      "name": "OGP at k=3",
+      "domain": "probability",
+      "domain_label": "Probability",
+      "status": "empirical",
+      "plain": "Solutions cluster with gaps between them. 100% at all tested sizes.",
+      "color": "#1ABC9C",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T33",
+      "name": "Noether Charge Conservation",
+      "domain": "thermodynamics",
+      "domain_label": "Thermodynamics",
+      "status": "proved",
+      "plain": "Random 3-SAT has a conserved information charge Q = 0.622n Shannons. Can't be localized.",
+      "color": "#C0392B",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T34",
+      "name": "Probe Hierarchy",
+      "domain": "info_theory",
+      "domain_label": "Information Theory",
+      "status": "empirical",
+      "plain": "All polynomial probes break symmetry but extract a vanishing fraction of the charge.",
+      "color": "#4A90D9",
+      "proofs": []
+    },
+    {
+      "id": "T35",
+      "name": "Adaptive Conservation Law",
+      "domain": "info_theory",
+      "domain_label": "Information Theory",
+      "status": "empirical",
+      "plain": "No adaptive poly-time strategy can extract more than o(n) backbone bits.",
+      "color": "#4A90D9",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T36",
+      "name": "Conservation \u2192 Independence",
+      "domain": "info_theory",
+      "domain_label": "Information Theory",
+      "status": "conditional",
+      "plain": "If T35 holds \u2192 T29 holds \u2192 T30 holds \u2192 P\u2260NP. The full chain.",
+      "color": "#4A90D9",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T37",
+      "name": "H\u2081 Injection (Degree-2)",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "Original loops embed perfectly into the extended complex. Nothing is lost.",
+      "color": "#27AE60",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T38",
+      "name": "EF Linear Lower Bound",
+      "domain": "proof_complexity",
+      "domain_label": "Proof Complexity",
+      "status": "proved",
+      "plain": "First unconditional EF lower bound on random 3-SAT: size \u2265 \u0398(n).",
+      "color": "#E74C3C",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T39",
+      "name": "Forbidden Band",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "Every EF proof must cross a topological forbidden zone. Can't sneak around it.",
+      "color": "#27AE60",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T40",
+      "name": "Arity-EF Trade-off",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "Arity-k extensions kill at most k-1 loops. Constant arity \u2192 linear lower bound.",
+      "color": "#27AE60",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T41",
+      "name": "Forbidden Band Measure",
+      "domain": "probability",
+      "domain_label": "Probability",
+      "status": "proved",
+      "plain": "The narrowest bottleneck has measure n\u00b72^{-\u0398(n)}. Exponentially hard to cross.",
+      "color": "#1ABC9C",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T42",
+      "name": "Resolution Backbone Incompressibility",
+      "domain": "proof_complexity",
+      "domain_label": "Proof Complexity",
+      "status": "proved",
+      "plain": "Bounded-width resolution determines at most o(n) backbone variables.",
+      "color": "#E74C3C",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T47",
+      "name": "Backbone Entanglement Depth",
+      "domain": "proof_complexity",
+      "domain_label": "Proof Complexity",
+      "status": "proved",
+      "plain": "Refutation depth diverges. Ancillae can't help. If D=\u0398(n) then P\u2260NP.",
+      "color": "#E74C3C",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T48",
+      "name": "Backbone LDPC Structure",
+      "domain": "coding_theory",
+      "domain_label": "Coding Theory",
+      "status": "proved",
+      "plain": "The backbone encodes as a random LDPC code with minimum distance \u0398(n). Shannon's coordinate system.",
+      "color": "#F39C12",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T49",
+      "name": "LDPC Resolution Width",
+      "domain": "coding_theory",
+      "domain_label": "Coding Theory",
+      "status": "proved",
+      "plain": "Resolution needs width \u2265 \u03b1n via Tanner graph expansion of the backbone code.",
+      "color": "#F39C12",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T50",
+      "name": "Proof-Protocol Duality",
+      "domain": "proof_complexity",
+      "domain_label": "Proof Complexity",
+      "status": "proved",
+      "plain": "Every proof is a communication protocol. Frontier = channel. Width = bandwidth. Size = total bits.",
+      "color": "#E74C3C",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T51",
+      "name": "Lifting Theorem (GPW)",
+      "domain": "proof_complexity",
+      "domain_label": "Proof Complexity",
+      "status": "proved",
+      "plain": "Query complexity q lifts to communication q\u00b7log(n). The LDPC might be the natural gadget.",
+      "color": "#E74C3C",
+      "proofs": []
+    },
+    {
+      "id": "T52",
+      "name": "Committed Channel Bound",
+      "domain": "info_theory",
+      "domain_label": "Information Theory",
+      "status": "proved",
+      "plain": "Once a variable is committed, it carries zero new information. Dead bits are dead.",
+      "color": "#4A90D9",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T53",
+      "name": "Representation Uniqueness",
+      "domain": "analysis",
+      "domain_label": "Analysis / PDE",
+      "status": "proved",
+      "plain": "Exponential sum representations are unique. Spectral addresses are conserved.",
+      "color": "#2980B9",
+      "proofs": [
+        "RH"
+      ]
+    },
+    {
+      "id": "T54",
+      "name": "Real-Axis Confinement",
+      "domain": "analysis",
+      "domain_label": "Analysis / PDE",
+      "status": "proved",
+      "plain": "Real data \u2192 real poles only. A complex pole certifies complex information content.",
+      "color": "#2980B9",
+      "proofs": [
+        "RH"
+      ]
+    },
+    {
+      "id": "T55",
+      "name": "Nonlinear Decoding Threshold",
+      "domain": "coding_theory",
+      "domain_label": "Coding Theory",
+      "status": "conjecture",
+      "plain": "No poly-size circuit can decode beyond d_min/2 errors. Closing this closes P\u2260NP.",
+      "color": "#F39C12",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T56",
+      "name": "Spectral Compression",
+      "domain": "analysis",
+      "domain_label": "Analysis / PDE",
+      "status": "proved",
+      "plain": "Continuous spectrum compresses to finite discrete terms plus exponentially small error.",
+      "color": "#2980B9",
+      "proofs": [
+        "RH"
+      ]
+    },
+    {
+      "id": "T57",
+      "name": "Gallager Decoding Bound",
+      "domain": "coding_theory",
+      "domain_label": "Coding Theory",
+      "status": "proved",
+      "plain": "No polynomial-time decoder cracks the backbone LDPC code.",
+      "color": "#F39C12",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T58",
+      "name": "Distillation Impossibility",
+      "domain": "info_theory",
+      "domain_label": "Information Theory",
+      "status": "proved",
+      "plain": "Any k-bit output of a formula carries at most k bits about the backbone. No distillation.",
+      "color": "#4A90D9",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T59",
+      "name": "Cheeger Width Bound",
+      "domain": "graph_theory",
+      "domain_label": "Graph Theory",
+      "status": "proved",
+      "plain": "VIG spectral gap forces wide proofs: width \u2265 h(G)\u00b7n/2.",
+      "color": "#8E44AD",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T60",
+      "name": "Expander Mixing \u2192 DPI",
+      "domain": "graph_theory",
+      "domain_label": "Graph Theory",
+      "status": "proved",
+      "plain": "Expander mixing limits how much information flows across any graph cut.",
+      "color": "#8E44AD",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T61",
+      "name": "Persistent Homology Gap",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "empirical",
+      "plain": "Loops in the constraint graph persist for \u0398(n) steps. They don't just flicker.",
+      "color": "#27AE60",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T62",
+      "name": "Chernoff as AC(0)",
+      "domain": "probability",
+      "domain_label": "Probability",
+      "status": "proved",
+      "plain": "Concentration inequalities are AC(0) \u2014 pure counting.",
+      "color": "#1ABC9C",
+      "proofs": []
+    },
+    {
+      "id": "T64",
+      "name": "Karchmer-Wigderson Comm Bound",
+      "domain": "proof_complexity",
+      "domain_label": "Proof Complexity",
+      "status": "proved",
+      "plain": "Circuit depth = communication complexity. CC correlates with \u03b2\u2081 at r=0.996.",
+      "color": "#E74C3C",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T65",
+      "name": "EF Spectral Preservation",
+      "domain": "graph_theory",
+      "domain_label": "Graph Theory",
+      "status": "empirical",
+      "plain": "Extension variables preserve the VIG's spectral gap. Ratio \u2265 0.89.",
+      "color": "#8E44AD",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T66",
+      "name": "Within-Cluster Block Independence",
+      "domain": "probability",
+      "domain_label": "Probability",
+      "status": "proved",
+      "plain": "Backbone blocks have EXACTLY zero mutual information within clusters. Perfect independence.",
+      "color": "#1ABC9C",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T67",
+      "name": "LDPC-Tseitin Embedding",
+      "domain": "coding_theory",
+      "domain_label": "Coding Theory",
+      "status": "proved",
+      "plain": "Backbone parity looks like Tseitin on the LDPC graph. Bounded-depth EF needs 2^\u03a9(n).",
+      "color": "#F39C12",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T68",
+      "name": "Refutation Bandwidth",
+      "domain": "proof_complexity",
+      "domain_label": "Proof Complexity",
+      "status": "proved",
+      "plain": "Any EF refutation needs size 2^\u03a9(n) at ANY depth. The capstone width theorem.",
+      "color": "#E74C3C",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T69",
+      "name": "Substrate Propagation Bound",
+      "domain": "proof_complexity",
+      "domain_label": "Proof Complexity",
+      "status": "proved",
+      "plain": "All \u0398(n) blocks must be simultaneously live. Sequential processing destroys information.",
+      "color": "#E74C3C",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T70",
+      "name": "First Moment Capacity Bound",
+      "domain": "probability",
+      "domain_label": "Probability",
+      "status": "proved",
+      "plain": "At most 0.176n bits can remain unmeasured. The rest is backbone. One line of counting.",
+      "color": "#1ABC9C",
+      "proofs": [
+        "BH3"
+      ]
+    },
+    {
+      "id": "T71",
+      "name": "Polarization as AC(0)",
+      "domain": "coding_theory",
+      "domain_label": "Coding Theory",
+      "status": "conditional",
+      "plain": "If polarization holds, backbone is \u0398(n). Ar\u0131kan splitting on expanders.",
+      "color": "#F39C12",
+      "proofs": [
+        "BH3"
+      ]
+    },
+    {
+      "id": "T72",
+      "name": "Bootstrap Percolation",
+      "domain": "graph_theory",
+      "domain_label": "Graph Theory",
+      "status": "proved",
+      "plain": "O(1) frozen seeds cascade to \u0398(n) in O(1) rounds on an expander. Literally AC(0).",
+      "color": "#8E44AD",
+      "proofs": [
+        "BH3"
+      ]
+    },
+    {
+      "id": "T73",
+      "name": "Nyquist Sampling",
+      "domain": "analysis",
+      "domain_label": "Analysis / PDE",
+      "status": "proved",
+      "plain": "Bandwidth B requires sampling at rate \u2265 2B. Counting degrees of freedom.",
+      "color": "#2980B9",
+      "proofs": [
+        "NS"
+      ]
+    },
+    {
+      "id": "T74",
+      "name": "Pinsker's Inequality",
+      "domain": "info_theory",
+      "domain_label": "Information Theory",
+      "status": "proved",
+      "plain": "Total variation \u2264 \u221a(KL divergence / 2). One line from Cauchy-Schwarz.",
+      "color": "#4A90D9",
+      "proofs": [
+        "PNP",
+        "BH3"
+      ]
+    },
+    {
+      "id": "T75",
+      "name": "Shearer's Inequality",
+      "domain": "info_theory",
+      "domain_label": "Information Theory",
+      "status": "proved",
+      "plain": "Joint entropy bounded by average subset entropies. Explains why blocks are independent.",
+      "color": "#4A90D9",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T76",
+      "name": "Rate-Distortion",
+      "domain": "info_theory",
+      "domain_label": "Information Theory",
+      "status": "proved",
+      "plain": "Even 90% backbone accuracy costs \u0398(n) bits. No approximation shortcut.",
+      "color": "#4A90D9",
+      "proofs": [
+        "PNP",
+        "BH3"
+      ]
+    },
+    {
+      "id": "T77",
+      "name": "Kolmogorov Scaling (K41)",
+      "domain": "analysis",
+      "domain_label": "Analysis / PDE",
+      "status": "proved",
+      "plain": "Turbulence bandwidth = Re^(3/4). Dimensional analysis = a linear system.",
+      "color": "#2980B9",
+      "proofs": [
+        "NS"
+      ]
+    },
+    {
+      "id": "T78",
+      "name": "Entropy Chain Rule",
+      "domain": "foundations",
+      "domain_label": "Foundations",
+      "status": "proved",
+      "plain": "H(X,Y) = H(X) + H(Y|X). The identity. Resolution proof line 1. AC(0) depth 0.",
+      "color": "#F1C40F",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T79",
+      "name": "Kraft Inequality",
+      "domain": "coding_theory",
+      "domain_label": "Coding Theory",
+      "status": "proved",
+      "plain": "\u03a3 2^{-l} \u2264 1 for prefix codes. Tree counting. Backbone can't be compressed.",
+      "color": "#F39C12",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T80",
+      "name": "Lov\u00e1sz Local Lemma",
+      "domain": "probability",
+      "domain_label": "Probability",
+      "status": "proved",
+      "plain": "If events are sparse enough, they can all be avoided. Moser-Tardos IS an AC(0) algorithm.",
+      "color": "#1ABC9C",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T81",
+      "name": "Boltzmann-Shannon Bridge",
+      "domain": "thermodynamics",
+      "domain_label": "Thermodynamics",
+      "status": "proved",
+      "plain": "S = k_B H ln 2. Physical entropy IS information entropy. P\u2260NP = the second law.",
+      "color": "#C0392B",
+      "proofs": [
+        "PNP",
+        "NS"
+      ]
+    },
+    {
+      "id": "T82",
+      "name": "Spectral Gap \u2192 Mixing Time",
+      "domain": "graph_theory",
+      "domain_label": "Graph Theory",
+      "status": "proved",
+      "plain": "Mixing time \u2265 1/\u03b3. Completes the chain: expander \u2192 Cheeger \u2192 DPI \u2192 slow mixing \u2192 hard.",
+      "color": "#8E44AD",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T83",
+      "name": "TG Symmetry Group",
+      "domain": "algebra",
+      "domain_label": "Algebra",
+      "status": "proved",
+      "plain": "Taylor-Green vortex has 16 symmetries: 3 reflections + exchange. Group enumeration = counting.",
+      "color": "#D35400",
+      "proofs": [
+        "NS"
+      ]
+    },
+    {
+      "id": "T84",
+      "name": "Fourier Parity Selection Rules",
+      "domain": "analysis",
+      "domain_label": "Analysis / PDE",
+      "status": "proved",
+      "plain": "Each velocity component has definite parity in each Fourier direction. Mod-2 arithmetic, preserved for all time.",
+      "color": "#2980B9",
+      "proofs": [
+        "NS"
+      ]
+    },
+    {
+      "id": "T85",
+      "name": "P(0) = 0 by Parity",
+      "domain": "analysis",
+      "domain_label": "Analysis / PDE",
+      "status": "proved",
+      "plain": "All 4 enstrophy production terms at t=0 have odd factors \u2192 every integral vanishes. Parity counting.",
+      "color": "#2980B9",
+      "proofs": [
+        "NS"
+      ]
+    },
+    {
+      "id": "T86",
+      "name": "Enstrophy Scaling \u03b3 = 3/2",
+      "domain": "analysis",
+      "domain_label": "Analysis / PDE",
+      "status": "proved",
+      "plain": "P ~ \u03a9^(3/2) by dimensional analysis. Biot-Savart makes strain ~ vorticity. Elie confirms: 1.448 \u2248 1.500.",
+      "color": "#2980B9",
+      "proofs": [
+        "NS"
+      ]
+    },
+    {
+      "id": "T87",
+      "name": "Conditional Blow-Up ODE",
+      "domain": "analysis",
+      "domain_label": "Analysis / PDE",
+      "status": "conditional",
+      "plain": "If P > 0 for all time: blow-up at T* = 1/(c\u221a\u03a9\u2080). Separation of variables. The turbulence meter.",
+      "color": "#2980B9",
+      "proofs": [
+        "NS"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "T1",
+      "target": "T7",
+      "type": "uses"
+    },
+    {
+      "source": "T1",
+      "target": "T8",
+      "type": "uses"
+    },
+    {
+      "source": "T7",
+      "target": "T9",
+      "type": "uses"
+    },
+    {
+      "source": "T8",
+      "target": "T9",
+      "type": "uses"
+    },
+    {
+      "source": "T1",
+      "target": "T9",
+      "type": "uses"
+    },
+    {
+      "source": "T7",
+      "target": "T10",
+      "type": "uses"
+    },
+    {
+      "source": "T7",
+      "target": "T11",
+      "type": "uses"
+    },
+    {
+      "source": "T5",
+      "target": "T11",
+      "type": "uses"
+    },
+    {
+      "source": "T2",
+      "target": "T12",
+      "type": "uses"
+    },
+    {
+      "source": "T7",
+      "target": "T12",
+      "type": "uses"
+    },
+    {
+      "source": "T7",
+      "target": "T13",
+      "type": "uses"
+    },
+    {
+      "source": "T8",
+      "target": "T13",
+      "type": "uses"
+    },
+    {
+      "source": "T1",
+      "target": "T13",
+      "type": "uses"
+    },
+    {
+      "source": "T14",
+      "target": "T15",
+      "type": "uses"
+    },
+    {
+      "source": "T11",
+      "target": "T17",
+      "type": "uses"
+    },
+    {
+      "source": "T7",
+      "target": "T18",
+      "type": "uses"
+    },
+    {
+      "source": "T7",
+      "target": "T19",
+      "type": "uses"
+    },
+    {
+      "source": "T18",
+      "target": "T20",
+      "type": "uses"
+    },
+    {
+      "source": "T9",
+      "target": "T20",
+      "type": "uses"
+    },
+    {
+      "source": "T1",
+      "target": "T21",
+      "type": "uses"
+    },
+    {
+      "source": "T7",
+      "target": "T22",
+      "type": "uses"
+    },
+    {
+      "source": "T2",
+      "target": "T22",
+      "type": "uses"
+    },
+    {
+      "source": "T17",
+      "target": "T22",
+      "type": "uses"
+    },
+    {
+      "source": "T5",
+      "target": "T22",
+      "type": "uses"
+    },
+    {
+      "source": "T11",
+      "target": "T22",
+      "type": "uses"
+    },
+    {
+      "source": "T21",
+      "target": "T22",
+      "type": "uses"
+    },
+    {
+      "source": "T2",
+      "target": "T23a",
+      "type": "uses"
+    },
+    {
+      "source": "T22",
+      "target": "T23a",
+      "type": "uses"
+    },
+    {
+      "source": "T7",
+      "target": "T23a",
+      "type": "uses"
+    },
+    {
+      "source": "T22",
+      "target": "T23b",
+      "type": "uses"
+    },
+    {
+      "source": "T24",
+      "target": "T25",
+      "type": "uses"
+    },
+    {
+      "source": "T2",
+      "target": "T25",
+      "type": "uses"
+    },
+    {
+      "source": "T24",
+      "target": "T26",
+      "type": "uses"
+    },
+    {
+      "source": "T7",
+      "target": "T26",
+      "type": "uses"
+    },
+    {
+      "source": "T25",
+      "target": "T26",
+      "type": "uses"
+    },
+    {
+      "source": "T24",
+      "target": "T27",
+      "type": "uses"
+    },
+    {
+      "source": "T27",
+      "target": "T28",
+      "type": "uses"
+    },
+    {
+      "source": "T28",
+      "target": "T29",
+      "type": "uses"
+    },
+    {
+      "source": "T31",
+      "target": "T29",
+      "type": "uses"
+    },
+    {
+      "source": "T32",
+      "target": "T29",
+      "type": "uses"
+    },
+    {
+      "source": "T66",
+      "target": "T29",
+      "type": "uses"
+    },
+    {
+      "source": "T28",
+      "target": "T30",
+      "type": "uses"
+    },
+    {
+      "source": "T29",
+      "target": "T30",
+      "type": "uses"
+    },
+    {
+      "source": "T23a",
+      "target": "T30",
+      "type": "uses"
+    },
+    {
+      "source": "T27",
+      "target": "T30",
+      "type": "uses"
+    },
+    {
+      "source": "T33",
+      "target": "T34",
+      "type": "uses"
+    },
+    {
+      "source": "T33",
+      "target": "T35",
+      "type": "uses"
+    },
+    {
+      "source": "T7",
+      "target": "T35",
+      "type": "uses"
+    },
+    {
+      "source": "T23a",
+      "target": "T35",
+      "type": "uses"
+    },
+    {
+      "source": "T28",
+      "target": "T35",
+      "type": "uses"
+    },
+    {
+      "source": "T32",
+      "target": "T35",
+      "type": "uses"
+    },
+    {
+      "source": "T34",
+      "target": "T35",
+      "type": "uses"
+    },
+    {
+      "source": "T35",
+      "target": "T36",
+      "type": "uses"
+    },
+    {
+      "source": "T29",
+      "target": "T36",
+      "type": "uses"
+    },
+    {
+      "source": "T30",
+      "target": "T36",
+      "type": "uses"
+    },
+    {
+      "source": "T28",
+      "target": "T37",
+      "type": "uses"
+    },
+    {
+      "source": "T37",
+      "target": "T38",
+      "type": "uses"
+    },
+    {
+      "source": "T28",
+      "target": "T38",
+      "type": "uses"
+    },
+    {
+      "source": "T23a",
+      "target": "T38",
+      "type": "uses"
+    },
+    {
+      "source": "T25",
+      "target": "T38",
+      "type": "uses"
+    },
+    {
+      "source": "T27",
+      "target": "T38",
+      "type": "uses"
+    },
+    {
+      "source": "T38",
+      "target": "T39",
+      "type": "uses"
+    },
+    {
+      "source": "T37",
+      "target": "T40",
+      "type": "uses"
+    },
+    {
+      "source": "T39",
+      "target": "T41",
+      "type": "uses"
+    },
+    {
+      "source": "T33",
+      "target": "T42",
+      "type": "uses"
+    },
+    {
+      "source": "T42",
+      "target": "T47",
+      "type": "uses"
+    },
+    {
+      "source": "T28",
+      "target": "T47",
+      "type": "uses"
+    },
+    {
+      "source": "T47",
+      "target": "T48",
+      "type": "uses"
+    },
+    {
+      "source": "T48",
+      "target": "T49",
+      "type": "uses"
+    },
+    {
+      "source": "T19",
+      "target": "T50",
+      "type": "uses"
+    },
+    {
+      "source": "T50",
+      "target": "T51",
+      "type": "uses"
+    },
+    {
+      "source": "T48",
+      "target": "T52",
+      "type": "uses"
+    },
+    {
+      "source": "T50",
+      "target": "T52",
+      "type": "uses"
+    },
+    {
+      "source": "T53",
+      "target": "T54",
+      "type": "uses"
+    },
+    {
+      "source": "T48",
+      "target": "T55",
+      "type": "uses"
+    },
+    {
+      "source": "T47",
+      "target": "T55",
+      "type": "uses"
+    },
+    {
+      "source": "T52",
+      "target": "T55",
+      "type": "uses"
+    },
+    {
+      "source": "T48",
+      "target": "T57",
+      "type": "uses"
+    },
+    {
+      "source": "T48",
+      "target": "T58",
+      "type": "uses"
+    },
+    {
+      "source": "T18",
+      "target": "T59",
+      "type": "uses"
+    },
+    {
+      "source": "T49",
+      "target": "T59",
+      "type": "uses"
+    },
+    {
+      "source": "T52",
+      "target": "T60",
+      "type": "uses"
+    },
+    {
+      "source": "T59",
+      "target": "T60",
+      "type": "uses"
+    },
+    {
+      "source": "T49",
+      "target": "T65",
+      "type": "uses"
+    },
+    {
+      "source": "T59",
+      "target": "T65",
+      "type": "uses"
+    },
+    {
+      "source": "T60",
+      "target": "T65",
+      "type": "uses"
+    },
+    {
+      "source": "T48",
+      "target": "T67",
+      "type": "uses"
+    },
+    {
+      "source": "T49",
+      "target": "T67",
+      "type": "uses"
+    },
+    {
+      "source": "T65",
+      "target": "T67",
+      "type": "uses"
+    },
+    {
+      "source": "T28",
+      "target": "T67",
+      "type": "uses"
+    },
+    {
+      "source": "T23a",
+      "target": "T67",
+      "type": "uses"
+    },
+    {
+      "source": "T66",
+      "target": "T68",
+      "type": "uses"
+    },
+    {
+      "source": "T52",
+      "target": "T68",
+      "type": "uses"
+    },
+    {
+      "source": "T65",
+      "target": "T68",
+      "type": "uses"
+    },
+    {
+      "source": "T50",
+      "target": "T68",
+      "type": "uses"
+    },
+    {
+      "source": "T48",
+      "target": "T68",
+      "type": "uses"
+    },
+    {
+      "source": "T49",
+      "target": "T68",
+      "type": "uses"
+    },
+    {
+      "source": "T40",
+      "target": "T68",
+      "type": "uses"
+    },
+    {
+      "source": "T38",
+      "target": "T68",
+      "type": "uses"
+    },
+    {
+      "source": "T23a",
+      "target": "T68",
+      "type": "uses"
+    },
+    {
+      "source": "T28",
+      "target": "T68",
+      "type": "uses"
+    },
+    {
+      "source": "T67",
+      "target": "T68",
+      "type": "uses"
+    },
+    {
+      "source": "T50",
+      "target": "T69",
+      "type": "uses"
+    },
+    {
+      "source": "T52",
+      "target": "T69",
+      "type": "uses"
+    },
+    {
+      "source": "T68",
+      "target": "T69",
+      "type": "uses"
+    },
+    {
+      "source": "T48",
+      "target": "T69",
+      "type": "uses"
+    },
+    {
+      "source": "T70",
+      "target": "T71",
+      "type": "uses"
+    },
+    {
+      "source": "T78",
+      "target": "T75",
+      "type": "uses"
+    },
+    {
+      "source": "T8",
+      "target": "T76",
+      "type": "uses"
+    },
+    {
+      "source": "T31",
+      "target": "T76",
+      "type": "uses"
+    },
+    {
+      "source": "T35",
+      "target": "T76",
+      "type": "uses"
+    },
+    {
+      "source": "T73",
+      "target": "T77",
+      "type": "uses"
+    },
+    {
+      "source": "T59",
+      "target": "T82",
+      "type": "uses"
+    },
+    {
+      "source": "T18",
+      "target": "T82",
+      "type": "uses"
+    },
+    {
+      "source": "T32",
+      "target": "T82",
+      "type": "uses"
+    },
+    {
+      "source": "T83",
+      "target": "T84",
+      "type": "uses"
+    },
+    {
+      "source": "T84",
+      "target": "T85",
+      "type": "uses"
+    },
+    {
+      "source": "T83",
+      "target": "T85",
+      "type": "uses"
+    },
+    {
+      "source": "T77",
+      "target": "T86",
+      "type": "uses"
+    },
+    {
+      "source": "T84",
+      "target": "T86",
+      "type": "uses"
+    },
+    {
+      "source": "T85",
+      "target": "T87",
+      "type": "uses"
+    },
+    {
+      "source": "T86",
+      "target": "T87",
+      "type": "uses"
+    }
+  ],
+  "chains": {
+    "Resolution CDC (PROVED)": [
+      "T78",
+      "T23a",
+      "T35",
+      "T29",
+      "T30"
+    ],
+    "All-P (CONDITIONAL)": [
+      "T23a",
+      "T28",
+      "T35",
+      "T29",
+      "T30",
+      "T36"
+    ],
+    "Refutation Bandwidth (PROVED)": [
+      "T66",
+      "T52",
+      "T65",
+      "T68",
+      "T69"
+    ],
+    "Expander\u2192Hardness": [
+      "T18",
+      "T59",
+      "T82",
+      "T60"
+    ],
+    "LDPC\u2192EF": [
+      "T48",
+      "T49",
+      "T67",
+      "T68",
+      "T69"
+    ],
+    "Topology Pipeline": [
+      "T2",
+      "T18",
+      "T7",
+      "T9"
+    ],
+    "NS Blow-Up": [
+      "T83",
+      "T84",
+      "T85",
+      "T86",
+      "T87"
+    ],
+    "NS Bandwidth": [
+      "T77",
+      "T73"
+    ],
+    "BH(3) Backbone": [
+      "T70",
+      "T71",
+      "T72"
+    ],
+    "RH Closure": [
+      "T53",
+      "T54",
+      "T56"
+    ]
+  }
+};
+const width = window.innerWidth, height = window.innerHeight;
+const svg = d3.select("#graph").attr("width", width).attr("height", height);
+
+// Build lookup
+const nodeMap = {};
+data.nodes.forEach(n => nodeMap[n.id] = n);
+
+const simulation = d3.forceSimulation(data.nodes)
+  .force("link", d3.forceLink(data.edges).id(d => d.id).distance(80))
+  .force("charge", d3.forceManyBody().strength(-200))
+  .force("center", d3.forceCenter(width/2 - 180, height/2))
+  .force("collision", d3.forceCollide(25));
+
+const link = svg.append("g").selectAll("line")
+  .data(data.edges).join("line")
+  .attr("class", "link")
+  .attr("stroke", "#4A90D9")
+  .attr("stroke-width", 1)
+  .attr("marker-end", "url(#arrow)");
+
+svg.append("defs").append("marker")
+  .attr("id", "arrow").attr("viewBox", "0 0 10 10")
+  .attr("refX", 20).attr("refY", 5)
+  .attr("markerWidth", 6).attr("markerHeight", 6)
+  .attr("orient", "auto")
+  .append("path").attr("d", "M0,0 L10,5 L0,10 Z").attr("fill", "#4A90D9");
+
+const node = svg.append("g").selectAll("g")
+  .data(data.nodes).join("g").attr("class", "node")
+  .call(d3.drag().on("start", dragstart).on("drag", dragged).on("end", dragend));
+
+node.append("circle")
+  .attr("r", d => 6 + (nodeMap[d.id] ? data.edges.filter(e => e.source.id === d.id || e.target.id === d.id).length : 0))
+  .attr("fill", d => d.color)
+  .on("click", (e, d) => showDetail(d));
+
+node.append("text").attr("dx", 12).attr("dy", 4).text(d => d.id);
+
+simulation.on("tick", () => {
+  link.attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+      .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+  node.attr("transform", d => `translate(${d.x},${d.y})`);
+});
+
+function showDetail(d) {
+  const sb = document.getElementById("sidebar");
+  sb.classList.add("active");
+  document.getElementById("sb-title").textContent = d.id + ": " + d.name;
+  const st = document.getElementById("sb-status");
+  st.textContent = d.status; st.className = "status " + d.status;
+  document.getElementById("sb-plain").textContent = d.plain;
+  document.getElementById("sb-domain").textContent = d.domain_label;
+  document.getElementById("sb-proofs").textContent = d.proofs.join(", ") || "—";
+
+  const t = data.nodes.find(n => n.id === d.id);
+  const uses = data.edges.filter(e => (e.target.id || e.target) === d.id).map(e => e.source.id || e.source);
+  const usedBy = data.edges.filter(e => (e.source.id || e.source) === d.id).map(e => e.target.id || e.target);
+  document.getElementById("sb-uses").innerHTML = uses.map(u => `<span class="dep" onclick="highlightNode('${u}')">${u}</span>`).join(", ") || "—";
+  document.getElementById("sb-usedby").innerHTML = usedBy.map(u => `<span class="dep" onclick="highlightNode('${u}')">${u}</span>`).join(", ") || "—";
+
+  // Highlight connections
+  node.selectAll("circle").classed("highlighted", false);
+  link.classed("highlighted", false);
+  node.selectAll("circle").filter(n => n.id === d.id).classed("highlighted", true);
+  link.classed("highlighted", e => (e.source.id || e.source) === d.id || (e.target.id || e.target) === d.id);
+}
+
+function highlightNode(tid) {
+  const n = data.nodes.find(d => d.id === tid);
+  if (n) showDetail(n);
+}
+
+function showChain(name) {
+  node.style("opacity", 1); link.style("opacity", 1);
+  if (name === "all") return;
+  const chain = data.chains[name] || [];
+  const chainSet = new Set(chain);
+  node.style("opacity", d => chainSet.has(d.id) ? 1 : 0.1);
+  link.style("opacity", e => {
+    const s = e.source.id || e.source, t = e.target.id || e.target;
+    return chainSet.has(s) && chainSet.has(t) ? 1 : 0.05;
+  });
+}
+
+function showProof(name) {
+  const inProof = new Set(data.nodes.filter(n => n.proofs.includes(name)).map(n => n.id));
+  node.style("opacity", d => inProof.has(d.id) ? 1 : 0.1);
+  link.style("opacity", e => {
+    const s = e.source.id || e.source, t = e.target.id || e.target;
+    return inProof.has(s) && inProof.has(t) ? 1 : 0.05;
+  });
+}
+
+function filterNodes(query) {
+  if (!query) { node.style("opacity", 1); link.style("opacity", 1); return; }
+  const q = query.toLowerCase();
+  const match = new Set(data.nodes.filter(n =>
+    n.id.toLowerCase().includes(q) || n.name.toLowerCase().includes(q) || n.plain.toLowerCase().includes(q)
+  ).map(n => n.id));
+  node.style("opacity", d => match.has(d.id) ? 1 : 0.1);
+  link.style("opacity", 0.05);
+}
+
+function dragstart(e, d) { if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; }
+function dragged(e, d) { d.fx = e.x; d.fy = e.y; }
+function dragend(e, d) { if (!e.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; }
+</script>
+</body></html>

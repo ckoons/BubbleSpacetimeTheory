@@ -213,13 +213,66 @@ The same counting tool as P!=NP, applied to fluid scales:
 
 **Answer**: No. A smooth solution is an encoder. The fluid is the channel. The Kolmogorov cascade drives information rate above channel capacity at sufficiently high Reynolds number. Shannon's converse (1948, proved) says: when rate exceeds capacity, no encoder exists. Therefore no smooth solution exists. The flow forward stops.
 
+### The Nyquist Path (Elie's Resolution, March 24)
+
+**The stochastic gap is dissolved.** NS is deterministic. Use the
+deterministic capacity theorem.
+
+Shannon's channel coding theorem (1948) is about stochastic channels —
+random noise, probabilistic errors. NS has no noise. Casey identified
+the gap: "the universe is a pure channel." Elie identified the fix:
+**Nyquist-Shannon sampling theorem (1949)**, not channel coding.
+
+The Nyquist theorem is deterministic: a signal of bandwidth B requires
+sampling rate ≥ 2B for exact reconstruction. No randomness anywhere.
+
+**The NS proof via Nyquist:**
+
+1. **Bandwidth demand.** The Kolmogorov cascade creates effective
+   bandwidth B(Re) — the highest spatial frequency carrying
+   significant energy. K41 scaling: η ~ Re^{-3/4}, so B ~ Re^{3/4}.
+   B grows polynomially with Re.
+
+2. **Resolution capacity.** Viscosity provides a dissipation rate —
+   a deterministic resolution limit. The fluid maintains smooth
+   gradients only up to the scale where viscous diffusion balances
+   nonlinear advection. This IS the Kolmogorov microscale η. Below
+   η, viscosity smooths everything. That's the channel's bandwidth.
+
+3. **2D: bounded.** Enstrophy conservation bounds the total bandwidth
+   demand. The cascade can't outrun viscosity. Capacity ≥ rate,
+   always. The representation holds. (Ladyzhenskaya 1969.)
+
+4. **3D: unbounded.** Vortex stretching amplifies vorticity without
+   bound. Bandwidth demand grows faster than viscosity can smooth.
+   At Re*, B(Re) exceeds the channel's resolution capacity. No smooth
+   representation exists — not because of noise, but because the
+   deterministic dynamics demand resolution the deterministic channel
+   can't provide. Beale-Kato-Majda maps directly.
+
+**No stochasticity anywhere.** No random errors. Just: cascade
+creates bandwidth, viscosity provides bandwidth, one grows faster
+than the other. Every arrow in the chain is deterministic.
+
+**The three-theorem landscape:**
+
+| Channel type | Capacity concept | Theorem | Application |
+|---|---|---|---|
+| Stochastic | Shannon capacity | Channel coding (1948) | Random SAT, 0.176 |
+| Deterministic | Nyquist bandwidth | Sampling theorem (1949) | NS, substrate, 0.191 |
+| Stochastic → deterministic | Both | Reconciliation | 0.191 × 0.93 ≈ 0.178 |
+
+(Elie, March 24, 2026. Gap identified by Casey: "the universe is a
+pure channel." Fix: Nyquist for deterministic, Shannon for stochastic.)
+
 ### What's Needed
 
 - [ ] Literature review: Clay statement, Leray-Hopf, Caffarelli-Kohn-Nirenberg
 - [ ] **Formalize channel capacity C(Re)** for 3D incompressible NS — finite energy + viscosity → finite C
 - [ ] **Formalize information rate R(Re)** from Kolmogorov cascade — number of active scales × bits per scale
 - [ ] **Prove R(Re) > C(Re) for Re > Re*** — the one-bit argument made rigorous
-- [ ] **Map Shannon converse to PDE blow-up** — "no encoder" ↔ "no smooth solution"
+- [ ] **Formalize Nyquist path** — B(Re) ~ Re^{3/4} exceeds viscous resolution η; deterministic, no stochastic bridge needed
+- [ ] **Map Beale-Kato-Majda to bandwidth saturation** — BKM says blow-up iff ∫‖ω‖_∞ dt = ∞; show this ↔ B exceeds resolution
 - [ ] Toy: One bit through a 2D NS channel at varying Re — track decodability
 - [ ] Toy: Block counting on Kolmogorov cascade — verify Θ(n) independent scales at Re_c
 - [ ] Toy: Jet formation — linear boundary focuses turbulent energy into coherent output

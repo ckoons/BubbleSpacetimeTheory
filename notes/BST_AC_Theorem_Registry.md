@@ -91,13 +91,30 @@ rules: |
 | T68 | Refutation Bandwidth (Block Counting) | Proved (T66 now proved via 1RSB) | BST_AC_Theorems §43x | — | 2026-03-23 |
 | T69 | Substrate Propagation Bound (Simultaneity) | Proved | BST_AC_Theorems §43y | — | 2026-03-23 |
 
+| T73 | Nyquist Sampling as AC(0) | Proved | BST_AC_Theorems §45a | — | 2026-03-24 |
+| T74 | Pinsker's Inequality as AC(0) | Proved | BST_AC_Theorems §45b | 361 (pending) | 2026-03-24 |
+| T75 | Shearer's Inequality as AC(0) | Proved | BST_AC_Theorems §45c | 362 (pending) | 2026-03-24 |
+| T76 | Rate-Distortion as AC(0) | Proved | BST_AC_Theorems §45d | 363 (pending) | 2026-03-24 |
+| T77 | Kolmogorov Scaling as AC(0) | Proved | BST_AC_Theorems §45e | 364 (pending) | 2026-03-24 |
+| T78 | Entropy Chain Rule as AC(0) | Proved | BST_AC_Theorems §45f | — | 2026-03-24 |
+| T79 | Kraft Inequality as AC(0) | Proved | BST_AC_Theorems §45g | 365 (pending) | 2026-03-24 |
+| T80 | Lovász Local Lemma as AC(0) | Proved | BST_AC_Theorems §45h | 366 (pending) | 2026-03-24 |
+| T81 | Boltzmann-Shannon Bridge as AC(0) | Proved | BST_AC_Theorems §45i | 367 (pending) | 2026-03-24 |
+| T82 | Spectral Gap → Mixing Time as AC(0) | Proved | BST_AC_Theorems §45j | 368 (pending) | 2026-03-24 |
+| T83 | TG Symmetry Group (order 16) | Proved | BST_AC_Theorems §46a | — | 2026-03-24 |
+| T84 | Fourier Parity Selection Rules | Proved | BST_AC_Theorems §46b | — | 2026-03-24 |
+| T85 | P(0) = 0 by Parity | Proved | BST_AC_Theorems §46c | — | 2026-03-24 |
+| T86 | Enstrophy Scaling γ = 3/2 | Proved | BST_AC_Theorems §46d | 368 (confirmed) | 2026-03-24 |
+| T87 | Conditional Blow-Up ODE | Proved (conditional on Conj 5.6) | BST_AC_Theorems §46e | 360 | 2026-03-24 |
+
 ---
 
 ## Status Summary
 
 | Category | Count | T_ids |
 |----------|-------|-------|
-| Proved | 46 | T1-T2, T4-T5, T7-T20, T22-T25, T27-T28, T37-T42, T49-T51, T53-T54, T56-T60, T62, T64, T66, T68, T69 |
+| Proved | 60 | T1-T2, T4-T5, T7-T20, T22-T25, T27-T28, T37-T42, T49-T51, T53-T54, T56-T60, T62, T64, T66, T68-T70, T72-T86 |
+| Proved (conditional) | 1 | T87 (conditional on Conj 5.6: P(t) > 0) |
 | Proved+Conditional | 1 | T67 (b,d,e proved; a,c conditional on Tseitin reduction) |
 | Proved+Empirical | 2 | T47 (a-c proved, d conditional), T48 (a-c proved, empirical d_min) |
 | Conditional | 3 | T30 (on T29), T36 (on T35), T52 (on simultaneity) |
@@ -109,7 +126,7 @@ rules: |
 | Failed/Open | 1 | T26 (geometric c→0) |
 | Open (conditional) | 1 | T29 (THE GAP — reformulated, empirically supported by T66) |
 | Never assigned | 5 | T43-T46, T63 |
-| **Total assigned** | **66** | T1-T42, T47-T62, T64-T69 |
+| **Total assigned** | **81** | T1-T42, T47-T62, T64-T87 |
 
 ---
 
@@ -117,8 +134,10 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T70** (T63 unassigned)
-- Today's target (March 23): T57-T69 (13 new theorems) — **T69 ACHIEVED**
+- Next available: **T88** (T63 unassigned)
+- March 23 batch: T57-T69 (13 new theorems) — all assigned
+- March 24 batch 1: T73-T82 (10 AC(0) foundation theorems) — all proved (recovery)
+- March 24 batch 2: T83-T87 (5 NS analytical basis theorems) — Lyra. T83-T86 proved, T87 conditional on Conj 5.6
 
 ---
 

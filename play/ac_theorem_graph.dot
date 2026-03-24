@@ -1,0 +1,254 @@
+digraph AC_Theorems {
+  rankdir=LR;
+  node [shape=box, style=filled, fontsize=10];
+  edge [color="#666666"];
+
+  subgraph cluster_info_theory {
+    label="Information Theory";
+    style=filled; color="#4A90D920";
+    T1 [label="T1\nAC Dichotomy" fillcolor="#4A90D940"];
+    T13 [label="T13\nAC Approximation Barrier" fillcolor="#4A90D940"];
+    T14 [label="T14\nFiat Additivity" fillcolor="#4A90D940"];
+    T15 [label="T15\nThree-Way Budget" fillcolor="#4A90D940"];
+    T19 [label="T19\nAC-Communication Bridge" fillcolor="#4A90D940"];
+    T31 [label="T31\nBackbone Incompressibilit" fillcolor="#4A90D940"];
+    T34 [label="T34\nProbe Hierarchy" fillcolor="#4A90D940"];
+    T35 [label="T35\nAdaptive Conservation Law" fillcolor="#4A90D940"];
+    T36 [label="T36\nConservation → Independen" fillcolor="#4A90D940"];
+    T52 [label="T52\nCommitted Channel Bound" fillcolor="#4A90D940"];
+    T58 [label="T58\nDistillation Impossibilit" fillcolor="#4A90D940"];
+    T7 [label="T7\nAC-Fano (Shannon Bridge)" fillcolor="#4A90D940"];
+    T74 [label="T74\nPinsker's Inequality" fillcolor="#4A90D940"];
+    T75 [label="T75\nShearer's Inequality" fillcolor="#4A90D940"];
+    T76 [label="T76\nRate-Distortion" fillcolor="#4A90D940"];
+    T8 [label="T8\nAC Monotonicity (DPI)" fillcolor="#4A90D940"];
+  }
+
+  subgraph cluster_topology {
+    label="Topology";
+    style=filled; color="#27AE6020";
+    T2 [label="T2\nI_fiat = β₁ (Tseitin)" fillcolor="#27AE6040"];
+    T21 [label="T21\nDOCH (Dimensional Onset)" fillcolor="#27AE6040"];
+    T22 [label="T22\nDimensional Channel Bound" fillcolor="#27AE6040"];
+    T23a [label="T23a\nTopological Lower Bound" fillcolor="#27AE6040"];
+    T23b [label="T23b\nDimensional Classificatio" fillcolor="#27AE6040"];
+    T24 [label="T24\nExtension Topology Creati" fillcolor="#27AE6040"];
+    T27 [label="T27\nWeak Homological Monotoni" fillcolor="#27AE6040"];
+    T28 [label="T28\nTopological Inertness" fillcolor="#27AE6040"];
+    T3 [label="T3\nHomological Lower Bound" fillcolor="#27AE6040"];
+    T37 [label="T37\nH₁ Injection (Degree-2)" fillcolor="#27AE6040"];
+    T39 [label="T39\nForbidden Band" fillcolor="#27AE6040"];
+    T40 [label="T40\nArity-EF Trade-off" fillcolor="#27AE6040"];
+    T5 [label="T5\nRigidity Threshold" fillcolor="#27AE6040"];
+    T61 [label="T61\nPersistent Homology Gap" fillcolor="#27AE6040"];
+  }
+
+  subgraph cluster_graph_theory {
+    label="Graph Theory";
+    style=filled; color="#8E44AD20";
+    T18 [label="T18\nExpansion Implies Fiat" fillcolor="#8E44AD40"];
+    T4 [label="T4\nTopology-Guided Solver" fillcolor="#8E44AD40"];
+    T59 [label="T59\nCheeger Width Bound" fillcolor="#8E44AD40"];
+    T60 [label="T60\nExpander Mixing → DPI" fillcolor="#8E44AD40"];
+    T65 [label="T65\nEF Spectral Preservation" fillcolor="#8E44AD40"];
+    T72 [label="T72\nBootstrap Percolation" fillcolor="#8E44AD40"];
+    T82 [label="T82\nSpectral Gap → Mixing Tim" fillcolor="#8E44AD40"];
+  }
+
+  subgraph cluster_thermodynamics {
+    label="Thermodynamics";
+    style=filled; color="#C0392B20";
+    T33 [label="T33\nNoether Charge Conservati" fillcolor="#C0392B40"];
+    T6 [label="T6\nCatastrophe Structure" fillcolor="#C0392B40"];
+    T81 [label="T81\nBoltzmann-Shannon Bridge" fillcolor="#C0392B40"];
+  }
+
+  subgraph cluster_proof_complexity {
+    label="Proof Complexity";
+    style=filled; color="#E74C3C20";
+    T10 [label="T10\nPHP in AC Framework" fillcolor="#E74C3C40"];
+    T11 [label="T11\nProof System Landscape" fillcolor="#E74C3C40"];
+    T17 [label="T17\nMethod Dominance" fillcolor="#E74C3C40"];
+    T20 [label="T20\nSETH Explicit Constants" fillcolor="#E74C3C40"];
+    T25 [label="T25\nConfinement Steady State" fillcolor="#E74C3C40"];
+    T26 [label="T26\nProof Instability" fillcolor="#E74C3C40"];
+    T30 [label="T30\nCompound Fiat (EF Exponen" fillcolor="#E74C3C40"];
+    T38 [label="T38\nEF Linear Lower Bound" fillcolor="#E74C3C40"];
+    T42 [label="T42\nResolution Backbone Incom" fillcolor="#E74C3C40"];
+    T47 [label="T47\nBackbone Entanglement Dep" fillcolor="#E74C3C40"];
+    T50 [label="T50\nProof-Protocol Duality" fillcolor="#E74C3C40"];
+    T51 [label="T51\nLifting Theorem (GPW)" fillcolor="#E74C3C40"];
+    T64 [label="T64\nKarchmer-Wigderson Comm B" fillcolor="#E74C3C40"];
+    T68 [label="T68\nRefutation Bandwidth" fillcolor="#E74C3C40"];
+    T69 [label="T69\nSubstrate Propagation Bou" fillcolor="#E74C3C40"];
+    T9 [label="T9\nAC-ETH" fillcolor="#E74C3C40"];
+  }
+
+  subgraph cluster_circuit_complexity {
+    label="Circuit Complexity";
+    style=filled; color="#95A5A620";
+    T12 [label="T12\nAC Restriction Lemma" fillcolor="#95A5A640"];
+  }
+
+  subgraph cluster_probability {
+    label="Probability";
+    style=filled; color="#1ABC9C20";
+    T16 [label="T16\nFiat Monotonicity" fillcolor="#1ABC9C40"];
+    T32 [label="T32\nOGP at k=3" fillcolor="#1ABC9C40"];
+    T41 [label="T41\nForbidden Band Measure" fillcolor="#1ABC9C40"];
+    T62 [label="T62\nChernoff as AC(0)" fillcolor="#1ABC9C40"];
+    T66 [label="T66\nWithin-Cluster Block Inde" fillcolor="#1ABC9C40"];
+    T70 [label="T70\nFirst Moment Capacity Bou" fillcolor="#1ABC9C40"];
+    T80 [label="T80\nLovász Local Lemma" fillcolor="#1ABC9C40"];
+  }
+
+  subgraph cluster_algebra {
+    label="Algebra";
+    style=filled; color="#D3540020";
+    T29 [label="T29\nAlgebraic Independence" fillcolor="#D3540040"];
+  }
+
+  subgraph cluster_coding_theory {
+    label="Coding Theory";
+    style=filled; color="#F39C1220";
+    T48 [label="T48\nBackbone LDPC Structure" fillcolor="#F39C1240"];
+    T49 [label="T49\nLDPC Resolution Width" fillcolor="#F39C1240"];
+    T55 [label="T55\nNonlinear Decoding Thresh" fillcolor="#F39C1240"];
+    T57 [label="T57\nGallager Decoding Bound" fillcolor="#F39C1240"];
+    T67 [label="T67\nLDPC-Tseitin Embedding" fillcolor="#F39C1240"];
+    T71 [label="T71\nPolarization as AC(0)" fillcolor="#F39C1240"];
+    T79 [label="T79\nKraft Inequality" fillcolor="#F39C1240"];
+  }
+
+  subgraph cluster_analysis {
+    label="Analysis / PDE";
+    style=filled; color="#2980B920";
+    T53 [label="T53\nRepresentation Uniqueness" fillcolor="#2980B940"];
+    T54 [label="T54\nReal-Axis Confinement" fillcolor="#2980B940"];
+    T56 [label="T56\nSpectral Compression" fillcolor="#2980B940"];
+    T73 [label="T73\nNyquist Sampling" fillcolor="#2980B940"];
+    T77 [label="T77\nKolmogorov Scaling (K41)" fillcolor="#2980B940"];
+  }
+
+  subgraph cluster_foundations {
+    label="Foundations";
+    style=filled; color="#F1C40F20";
+    T78 [label="T78\nEntropy Chain Rule" fillcolor="#F1C40F40"];
+  }
+
+  T1 -> T7;
+  T1 -> T8;
+  T7 -> T9;
+  T8 -> T9;
+  T1 -> T9;
+  T7 -> T10;
+  T7 -> T11;
+  T5 -> T11;
+  T2 -> T12;
+  T7 -> T12;
+  T7 -> T13;
+  T8 -> T13;
+  T1 -> T13;
+  T14 -> T15;
+  T11 -> T17;
+  T7 -> T18;
+  T7 -> T19;
+  T18 -> T20;
+  T9 -> T20;
+  T1 -> T21;
+  T7 -> T22;
+  T2 -> T22;
+  T17 -> T22;
+  T5 -> T22;
+  T11 -> T22;
+  T21 -> T22;
+  T2 -> T23a;
+  T22 -> T23a;
+  T7 -> T23a;
+  T22 -> T23b;
+  T24 -> T25;
+  T2 -> T25;
+  T24 -> T26;
+  T7 -> T26;
+  T25 -> T26;
+  T24 -> T27;
+  T27 -> T28;
+  T28 -> T29;
+  T31 -> T29;
+  T32 -> T29;
+  T66 -> T29;
+  T28 -> T30;
+  T29 -> T30;
+  T23a -> T30;
+  T27 -> T30;
+  T33 -> T34;
+  T33 -> T35;
+  T7 -> T35;
+  T23a -> T35;
+  T28 -> T35;
+  T32 -> T35;
+  T34 -> T35;
+  T35 -> T36;
+  T29 -> T36;
+  T30 -> T36;
+  T28 -> T37;
+  T37 -> T38;
+  T28 -> T38;
+  T23a -> T38;
+  T25 -> T38;
+  T27 -> T38;
+  T38 -> T39;
+  T37 -> T40;
+  T39 -> T41;
+  T33 -> T42;
+  T42 -> T47;
+  T28 -> T47;
+  T47 -> T48;
+  T48 -> T49;
+  T19 -> T50;
+  T50 -> T51;
+  T48 -> T52;
+  T50 -> T52;
+  T53 -> T54;
+  T48 -> T55;
+  T47 -> T55;
+  T52 -> T55;
+  T48 -> T57;
+  T48 -> T58;
+  T18 -> T59;
+  T49 -> T59;
+  T52 -> T60;
+  T59 -> T60;
+  T49 -> T65;
+  T59 -> T65;
+  T60 -> T65;
+  T48 -> T67;
+  T49 -> T67;
+  T65 -> T67;
+  T28 -> T67;
+  T23a -> T67;
+  T66 -> T68;
+  T52 -> T68;
+  T65 -> T68;
+  T50 -> T68;
+  T48 -> T68;
+  T49 -> T68;
+  T40 -> T68;
+  T38 -> T68;
+  T23a -> T68;
+  T28 -> T68;
+  T67 -> T68;
+  T50 -> T69;
+  T52 -> T69;
+  T68 -> T69;
+  T48 -> T69;
+  T70 -> T71;
+  T78 -> T75;
+  T8 -> T76;
+  T31 -> T76;
+  T35 -> T76;
+  T73 -> T77;
+  T59 -> T82;
+  T18 -> T82;
+  T32 -> T82;
+}
