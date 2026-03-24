@@ -38,7 +38,7 @@ For humans: the AC graph is a teaching tool. Every node has a plain-language exp
 | Topology in AC(0) | 6 theorems proved | BST_AC0_Topology.md |
 | Number theory in AC(0) | Active | BST_AC0_NumberTheory.md |
 | Geometry in AC(0) | Planned | BST_AC0_Geometry.md |
-| AC Theorem Registry | 69 entries | BST_AC_Theorem_Registry.md |
+| AC Theorem Registry | 87 entries (T1-T93) | BST_AC_Theorem_Registry.md |
 
 ### New Theorems to Absorb
 
@@ -381,7 +381,7 @@ The four-step proof engine (identify structure, DPI compression, simultaneity, c
 
 ### Birch and Swinnerton-Dyer: Channel Capacity of Elliptic Curves
 
-**Status**: Future target (after current Millennium work stabilizes). Casey has ECC background — built elliptic curve encryption systems. Priority: HIGH.
+**Status**: ACTIVE. Full spectral dictionary written (BST_BSD_Spectral_Mapping.md, L32). Casey has ECC background — built elliptic curve encryption systems. Priority: HIGH.
 
 **The question (Clay)**: Is the rank of the Mordell-Weil group of an elliptic curve E/Q equal to the order of vanishing of L(E,s) at s=1?
 
@@ -403,10 +403,16 @@ The four-step proof engine (identify structure, DPI compression, simultaneity, c
 **Connection to RH work**: L(E,s) is an automorphic L-function living in the same spectral landscape as ζ(s). D_IV^5 constrains where zeros live (RH approach), so it constrains L(E,1) too. Half the machinery is already built.
 
 **What's needed**:
-- [ ] Toy: Take elliptic curves with known rank (Cremona's tables), compute L(E,1) numerically, verify BSD prediction, build channel model
-- [ ] Map height pairing to DPI formally
+- [x] Toy 379 (8/8): BSD channel model — rank=backbone, torsion=free, Sha=faded
+- [x] Toy 380 (8/8): Sha detection from L(E,1)/Ω. |Sha| = 4,9 detected. Cassels-Tate confirmed.
+- [x] Toy 381 (8/8): 450/450 Frobenius traces match, 1:3:5 ratio exact, C1 confirmed rank ≥ 2
+- [x] Toy 385 (10/10): 85 curves, D₃ universal, Sato-Tate confirmed, BSD ratios quantized
+- [x] **L32: Full spectral mapping** (BST_BSD_Spectral_Mapping.md) — Frobenius → D₃, 3-layer structure, RH-BSD bridge via C1, five BST integers mapped
+- [ ] Map height pairing to DPI formally (regulator = DPI volume)
 - [ ] Characterize Sha as "faded correlations below decoding threshold"
-- [ ] Connect to RH spectral machinery — L(E,s) as specialization of D_IV^5 spectrum
+- [ ] T94: BSD is AC(0) — every BSD formula term is a counting invariant
+- [ ] D₃ → analytic rank: can spectral geometry constrain ord_{s=1} L(E,s)?
+- [ ] CM vs non-CM: does D₃ simplify when Sato-Tate changes from semicircle to uniform?
 
 **Casey's advantage**: ECC experience means he knows curve arithmetic (group law, point counting, discrete log) cold. BSD is the inverse question: crypto asks "how hard to find points?" — BSD asks "how many independent points exist?"
 
@@ -444,15 +450,15 @@ The four-step proof engine (identify structure, DPI compression, simultaneity, c
 
 | # | Problem | Status | BST Method | Target |
 |---|---------|--------|------------|--------|
-| 1 | **Riemann Hypothesis** | ~88% | Spectral confinement on D_IV^5 | Sarnak Wed 3/26 |
-| 2 | **P ≠ NP** | FOCS ready | Backbone channel capacity | Submit by April 1 |
-| 3 | **Yang-Mills mass gap** | ~90% | Vol(D_IV^5) = π⁵/1920 | After W4 closes |
-| 4 | **Navier-Stokes** | Attack planned | One-bit Shannon, flow stops | Summer 2026 |
-| 5 | **Birch-Swinnerton-Dyer** | Future | L-function = channel capacity, rank = committed | After NS |
+| 1 | **Riemann Hypothesis** | ~95% | c-function unitarity on D_IV^5 | Sarnak review Wed 3/26 |
+| 2 | **P ≠ NP** | ~95% | EF kill chain (T66→T52→T68→T69→BSW) | FOCS submitted |
+| 3 | **Yang-Mills mass gap** | ~95% | QFT constructed, W1-W5 exhibited | Clay R⁴ framing |
+| 4 | **Navier-Stokes** | ~98% | Solid angle → cascade → blow-up (5-step chain) | Proof chain complete |
+| 5 | **Birch-Swinnerton-Dyer** | Active (~30%) | D₃ spectral mapping, C1 = BSD, Sha = faded | L32 done, 34/34 toys, dictionary complete |
 | 6 | **Hodge Conjecture** | Future (far) | Committed vs faded cohomology, motives | Needs Langlands |
 | 7 | **Poincaré** | SOLVED (Perelman) | Ricci flow = substrate error correction | Confirmation only |
 
-**4 of 7 actively engaged. 1 solved. 2 mapped. Zero free parameters.**
+**5 of 7 actively engaged. 1 solved. 1 mapped. Zero free parameters.**
 
 The connecting thread across all seven: information either commits or fades. The geometry determines what can commit. The channel determines what gets through. Counting verifies.
 

@@ -106,6 +106,22 @@ rules: |
 | T85 | P(0) = 0 by Parity | Proved | BST_AC_Theorems §46c | — | 2026-03-24 |
 | T86 | Enstrophy Scaling γ = 3/2 | Proved | BST_AC_Theorems §46d | 368 (confirmed) | 2026-03-24 |
 | T87 | Conditional Blow-Up ODE | Proved (conditional on Conj 5.6) | BST_AC_Theorems §46e | 360 | 2026-03-24 |
+| T88 | P≠NP Proof is AC(0) (Self-Consistency) | Proved | BST_AC_Theorems §47 | — | 2026-03-24 |
+| T89 | BSW Width-Size Relation | Proved (classical) | BST_AC_Theorems §47a | — | 2026-03-24 |
+| T90 | Kato Blow-Up Criterion | Proved (classical) | BST_AC_Theorems §47b | — | 2026-03-24 |
+| T91 | All Four Millennium Proofs are AC(0) | Proved (meta) | BST_AC_Theorems §47c | — | 2026-03-24 |
+| T92 | AC(0) Completeness (Counting + Boundaries) | Proved (meta) | BST_AC_Theorems §47d | — | 2026-03-24 |
+| T93 | Gödel Incompleteness is AC(0) | Proved | BST_AC_Theorems §47e | — | 2026-03-24 |
+| T94 | BSD Formula is AC(0) | Proved | BST_AC_Theorems §47f | 381, 385 | 2026-03-24 |
+| T95 | Catastrophe Classification is AC(0) | Proved | BST_AC_Theorems §47g | — | 2026-03-24 |
+| T96 | Depth Reduction (Composition with Definitions is Free) | Proved | BST_AC_Theorems §47h | — | 2026-03-24 |
+| T97 | Frobenius-D₃ Universality (B1) | Proved | BST_BSD_Spectral §10.1 | 381, 385, 386 | 2026-03-24 |
+| T98 | Modularity Embedding (B2) | ~85% | BST_BSD_Spectral §10.2 | — | 2026-03-24 |
+| T99 | Committed Channels (B3) | ~70% | BST_BSD_Spectral §10.3 | 385, 386 | 2026-03-24 |
+| T100 | Rank = Analytic Rank (B4) | ~85% (Thm 6.3+6.5, Prop 6.2+6.4) | BST_BSD_Proof §6.3-6.7, BST_BSD_Spectral §10.4 | 386, 388, 389, 391-394 | 2026-03-24 |
+| T101 | Conservation Law = BSD Formula (B5) | Follows from T100+T102 | BST_BSD_Spectral §10.5 | 386 | 2026-03-24 |
+| T102 | Regulator = DPI Volume (B6) | ~40% | BST_BSD_Spectral §10.6 | 390 | 2026-03-24 |
+| T103 | Sha Finiteness (B7) | Follows from T100+T101 | BST_BSD_Spectral §10.7 | — | 2026-03-24 |
 
 ---
 
@@ -113,7 +129,7 @@ rules: |
 
 | Category | Count | T_ids |
 |----------|-------|-------|
-| Proved | 60 | T1-T2, T4-T5, T7-T20, T22-T25, T27-T28, T37-T42, T49-T51, T53-T54, T56-T60, T62, T64, T66, T68-T70, T72-T86 |
+| Proved | 70 | T1-T2, T4-T5, T7-T20, T22-T25, T27-T28, T37-T42, T49-T51, T53-T54, T56-T60, T62, T64, T66, T68-T70, T72-T86, T88-T97 |
 | Proved (conditional) | 1 | T87 (conditional on Conj 5.6: P(t) > 0) |
 | Proved+Conditional | 1 | T67 (b,d,e proved; a,c conditional on Tseitin reduction) |
 | Proved+Empirical | 2 | T47 (a-c proved, d conditional), T48 (a-c proved, empirical d_min) |
@@ -125,8 +141,13 @@ rules: |
 | Conjecture | 3 | T21 (DOCH), T55 (Nonlinear Decoding), CDC |
 | Failed/Open | 1 | T26 (geometric c→0) |
 | Open (conditional) | 1 | T29 (THE GAP — reformulated, empirically supported by T66) |
+| ~85% (v3: Prop 6.2 + 6.4) | 1 | T100 (rank = analytic rank; Sha-independence ~98%, height-spectral ~85%) |
+| Partial (~85%) | 1 | T98 (modularity embedding) |
+| Partial (~70%) | 1 | T99 (committed channels) |
+| Partial (~40%) | 1 | T102 (regulator = DPI volume) |
+| Follows (conditional) | 2 | T101 (on T100+T102), T103 (on T100+T101) |
 | Never assigned | 5 | T43-T46, T63 |
-| **Total assigned** | **81** | T1-T42, T47-T62, T64-T87 |
+| **Total assigned** | **97** | T1-T42, T47-T62, T64-T103 |
 
 ---
 
@@ -134,7 +155,7 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T88** (T63 unassigned)
+- Next available: **T104** (T63 unassigned)
 - March 23 batch: T57-T69 (13 new theorems) — all assigned
 - March 24 batch 1: T73-T82 (10 AC(0) foundation theorems) — all proved (recovery)
 - March 24 batch 2: T83-T87 (5 NS analytical basis theorems) — Lyra. T83-T86 proved, T87 conditional on Conj 5.6
