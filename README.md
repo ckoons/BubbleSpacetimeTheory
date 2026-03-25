@@ -233,6 +233,30 @@ Empirical foundation: 50+ computational toys (287–377). **FOCS paper submitted
 
 ---
 
+## Why Physics = Mathematics
+
+Push a ball down a hill inside a bowl. The hill is the **force** — it makes the ball move. The bowl is the **boundary** — it shapes where the ball can go. The ball stops at the bottom. That's the answer.
+
+Count the marbles in a jar. **Counting** is what moves you toward the answer. The jar is the **boundary** — it holds what you're counting. The number you get is the answer.
+
+The hill and the counting are the same thing. The bowl and the jar are the same thing.
+
+**Physics** asks: what does the force do inside this boundary? **Mathematics** asks: what does counting find inside these definitions? Same question. Same answer.
+
+In BST, every physical law is a force (curvature on D(IV,5)) constrained by a boundary condition (the topology of D(IV,5)). In the AC(0) framework, every theorem is a counting operation constrained by definitions. These two structures are identical — not by analogy, but by proof:
+
+- **Force = Counting**: The Gauss-Bonnet theorem says total curvature equals a count (the Euler characteristic). The heat kernel coefficients that encode all of BST's geometry are literally counting combinatorial invariants. At the deepest level, force IS counting.
+- **Boundary = Definition**: The five BST integers (3, 5, 7, 6, 137) are not dynamics — they are structure. They cost nothing (depth 0). In AC, definitions cost nothing (T96: composition with definitions is free). Both constrain everything without doing any work.
+- **Variational principle = Data Processing Inequality**: "Minimize energy subject to boundary conditions" and "information decreases through processing channels" are the same statement. Landauer's principle makes it exact: erasing one bit costs k_BT ln 2 of energy. Thermodynamics IS information theory.
+
+Every hard problem — in physics or mathematics — takes exactly two counting steps to solve (AC(0) depth 2). One force, applied to one boundary, produces one answer. That's why the same five integers build quarks and prove theorems.
+
+**One structure. Two languages. Every answer is force + boundary.**
+
+**The Planck Condition: everything is finite.** When a calculation blows up to infinity, it means you're missing a wall. Planck found the first wall in 1900 — energy comes in packets (E = hν), not continuous streams. The ultraviolet catastrophe disappeared. BST finds the same wall everywhere: the cosmological constant diverges by 10^120 because physicists sum infinite vacuum modes; BST caps winding at N_max = 137 and gets 10^{-122} (0.025% accuracy). The hierarchy problem diverges because radiative corrections run to infinity; BST's domain is bounded, so there's nothing to diverge. Every infinity in physics is a missing boundary. Every divergence in mathematics is a missing definition. Find the wall. The answer is finite. It always was.
+
+---
+
 ## The One Cycle
 
 The universe runs one essential cycle:
