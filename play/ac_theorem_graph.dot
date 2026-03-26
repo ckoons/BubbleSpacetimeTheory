@@ -1,6 +1,5 @@
-digraph AC_Theorems {
-  rankdir=LR;
-  node [shape=box, style=filled, fontsize=10];
+DOT graph written to play/ac_theorem_graph.dot
+pe=box, style=filled, fontsize=10];
   edge [color="#666666"];
 
   subgraph cluster_info_theory {
@@ -46,6 +45,15 @@ digraph AC_Theorems {
   subgraph cluster_graph_theory {
     label="Graph Theory";
     style=filled; color="#8E44AD20";
+    T121 [label="T121\nDeletion-Contraction AC(0" fillcolor="#8E44AD40"];
+    T123 [label="T123\nAC(0) Graph Theory Founda" fillcolor="#8E44AD40"];
+    T132 [label="T132\nKuratowski-Wagner (Planar" fillcolor="#8E44AD40"];
+    T133 [label="T133\nBirkhoff-Lewis (5-Color)" fillcolor="#8E44AD40"];
+    T135 [label="T135\nKempe Tangle Bound (τ ≤ 4" fillcolor="#8E44AD40"];
+    T135a [label="T135a\nGap-1 Bound (Lemma A)" fillcolor="#8E44AD40"];
+    T154 [label="T154\nConservation of Color Cha" fillcolor="#8E44AD40"];
+    T155 [label="T155\nPost-Swap Cross-Link Boun" fillcolor="#8E44AD40"];
+    T156 [label="T156\nFour-Color Theorem (AC Pr" fillcolor="#8E44AD40"];
     T18 [label="T18\nExpansion Implies Fiat" fillcolor="#8E44AD40"];
     T4 [label="T4\nTopology-Guided Solver" fillcolor="#8E44AD40"];
     T59 [label="T59\nCheeger Width Bound" fillcolor="#8E44AD40"];
@@ -81,6 +89,7 @@ digraph AC_Theorems {
     T64 [label="T64\nKarchmer-Wigderson Comm B" fillcolor="#E74C3C40"];
     T68 [label="T68\nRefutation Bandwidth" fillcolor="#E74C3C40"];
     T69 [label="T69\nSubstrate Propagation Bou" fillcolor="#E74C3C40"];
+    T89 [label="T89\nBSW Extension (EF)" fillcolor="#E74C3C40"];
     T9 [label="T9\nAC-ETH" fillcolor="#E74C3C40"];
   }
 
@@ -106,6 +115,7 @@ digraph AC_Theorems {
     label="Algebra";
     style=filled; color="#D3540020";
     T29 [label="T29\nAlgebraic Independence" fillcolor="#D3540040"];
+    T83 [label="T83\nTG Symmetry Group" fillcolor="#D3540040"];
   }
 
   subgraph cluster_coding_theory {
@@ -128,12 +138,40 @@ digraph AC_Theorems {
     T56 [label="T56\nSpectral Compression" fillcolor="#2980B940"];
     T73 [label="T73\nNyquist Sampling" fillcolor="#2980B940"];
     T77 [label="T77\nKolmogorov Scaling (K41)" fillcolor="#2980B940"];
+    T84 [label="T84\nFourier Parity Selection " fillcolor="#2980B940"];
+    T85 [label="T85\nP(0) = 0 by Parity" fillcolor="#2980B940"];
+    T86 [label="T86\nEnstrophy Scaling γ = 3/2" fillcolor="#2980B940"];
+    T87 [label="T87\nConditional Blow-Up ODE" fillcolor="#2980B940"];
+    T90 [label="T90\nKato Smoothing" fillcolor="#2980B940"];
   }
 
   subgraph cluster_foundations {
     label="Foundations";
     style=filled; color="#F1C40F20";
+    T134a [label="T134a\nPair Resolution (Depth Co" fillcolor="#F1C40F40"];
+    T147 [label="T147\nBST-AC Structural Isomorp" fillcolor="#F1C40F40"];
+    T150 [label="T150\nInduction Is Complete" fillcolor="#F1C40F40"];
+    T153 [label="T153\nThe Planck Condition" fillcolor="#F1C40F40"];
+    T162 [label="T162\nThe Clarity Principle (El" fillcolor="#F1C40F40"];
+    T163 [label="T163\nStructural Integrity Prin" fillcolor="#F1C40F40"];
     T78 [label="T78\nEntropy Chain Rule" fillcolor="#F1C40F40"];
+    T88 [label="T88\nP≠NP Chain Is AC(0)" fillcolor="#F1C40F40"];
+    T91 [label="T91\nAll Millennium Proofs AC(" fillcolor="#F1C40F40"];
+    T92 [label="T92\nAC(0) Completeness" fillcolor="#F1C40F40"];
+    T93 [label="T93\nGödel Is AC(0)" fillcolor="#F1C40F40"];
+    T94 [label="T94\nBSD Formula Is AC(0)" fillcolor="#F1C40F40"];
+    T95 [label="T95\nCatastrophe Classificatio" fillcolor="#F1C40F40"];
+    T96 [label="T96\nDepth Reduction" fillcolor="#F1C40F40"];
+  }
+
+  subgraph cluster_differential_geometry {
+    label="Differential Geometry";
+    style=filled; color="#9B59B620";
+    T157 [label="T157\nHamilton-Perelman Ricci F" fillcolor="#9B59B640"];
+    T158 [label="T158\nPerelman W-Entropy Monoto" fillcolor="#9B59B640"];
+    T159 [label="T159\nFinite Extinction (Simply" fillcolor="#9B59B640"];
+    T160 [label="T160\nThurston Geometrization" fillcolor="#9B59B640"];
+    T161 [label="T161\nPoincaré Conjecture" fillcolor="#9B59B640"];
   }
 
   T1 -> T7;
@@ -251,4 +289,45 @@ digraph AC_Theorems {
   T59 -> T82;
   T18 -> T82;
   T32 -> T82;
+  T83 -> T84;
+  T84 -> T85;
+  T83 -> T85;
+  T77 -> T86;
+  T84 -> T86;
+  T85 -> T87;
+  T86 -> T87;
+  T68 -> T88;
+  T69 -> T88;
+  T68 -> T89;
+  T86 -> T90;
+  T88 -> T91;
+  T90 -> T91;
+  T91 -> T92;
+  T92 -> T93;
+  T92 -> T94;
+  T92 -> T95;
+  T92 -> T96;
+  T121 -> T123;
+  T96 -> T134a;
+  T123 -> T135;
+  T133 -> T135;
+  T132 -> T135;
+  T132 -> T135a;
+  T135 -> T135a;
+  T92 -> T147;
+  T92 -> T150;
+  T147 -> T150;
+  T135 -> T154;
+  T135a -> T154;
+  T121 -> T154;
+  T154 -> T155;
+  T132 -> T155;
+  T135a -> T156;
+  T154 -> T156;
+  T155 -> T156;
+  T157 -> T158;
+  T157 -> T159;
+  T158 -> T160;
+  T159 -> T161;
+  T160 -> T161;
 }

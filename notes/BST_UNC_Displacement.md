@@ -57,13 +57,13 @@ A massive object of mass M creates a commitment zone of radius r_c where its gra
 
 $$r_c \sim \sqrt{\frac{GM}{a_0}} = \sqrt{\frac{GM\sqrt{30}}{cH_0}}$$
 
-For NGC 1052's dynamical mass (M_dyn ~ 3 × 10¹¹ M_☉, including existing dark halo):
+For NGC 1052's total halo mass (M_halo ~ 3 × 10¹² M_☉, including committed UNC halo):
 
-$$r_c \sim \sqrt{\frac{6.67 \times 10^{-11} \times 6 \times 10^{41}}{1.2 \times 10^{-10}}} \sim 59 \text{ kpc}$$
+$$r_c \sim \sqrt{\frac{6.67 \times 10^{-11} \times 6 \times 10^{42}}{1.2 \times 10^{-10}}} \sim 59 \text{ kpc}$$
 
 This matches the observed UDG trail width (~50 kpc from trajectory center). Elie's Toy 440 confirms: r_c = 59.0 kpc with a₀ ratio to BST prediction of 0.996.
 
-**Note:** Using the *dynamical* mass (not stellar mass ~3 × 10¹⁰ M_☉) is self-consistent: the 10× ratio between dynamical and stellar mass IS the existing dark halo. NGC 1052's current halo includes both its original UNCs and any surplus committed during transit.
+**Note:** The relevant mass is the *total halo mass* (not stellar mass ~3 × 10¹⁰ M_☉ or inner dynamical mass ~3 × 10¹¹ M_☉). The ~100× ratio between total halo mass and stellar mass is standard for massive ellipticals and IS the committed UNC halo in BST. When NGC 1052 transits, its full gravitational mass (stellar + committed UNC halo) displaces the uncommitted UNCs in its path.
 
 ### 3.2 Transit Geometry
 
@@ -103,7 +103,7 @@ If NGC 1052 committed UNCs from the corridor (mechanism a), it should have **exc
 
 **Test:** Compare NGC 1052's dynamical mass-to-light ratio (M_dyn/L) to matched ellipticals of similar luminosity, size, and environment but without UDG trails. NGC 1052's M_dyn/L should be systematically higher.
 
-**Data:** NGC 1052 has σ ~ 215 km/s and M_★ ~ 10¹¹ M_☉. The fundamental plane residual (actual vs predicted M_dyn from L and R_e) should be positive.
+**Data:** NGC 1052 has σ ~ 215 km/s and M_★ ~ 3 × 10¹⁰ M_☉. The fundamental plane residual (actual vs predicted M_dyn from L and R_e) should be positive.
 
 ### 4.2 Asymmetric Dark Matter Distribution
 
@@ -159,9 +159,9 @@ From the trail geometry (L ~ 350 kpc, width ~ 120 kpc) and the UNC displacement 
 
 The commitment zone radius r_c ~ 59 kpc (Toy 440) requires:
 
-$$M \sim \frac{r_c^2 \cdot a_0}{G} = \frac{(59 \text{ kpc})^2 \times 1.2 \times 10^{-10} \text{ m/s}^2}{6.67 \times 10^{-11} \text{ m}^3/\text{kg·s}^2} \sim 6 \times 10^{41} \text{ kg} \sim 3 \times 10^{11} \text{ M}_\odot$$
+$$M \sim \frac{r_c^2 \cdot a_0}{G} = \frac{(59 \text{ kpc})^2 \times 1.2 \times 10^{-10} \text{ m/s}^2}{6.67 \times 10^{-11} \text{ m}^3/\text{kg·s}^2} \sim 6 \times 10^{42} \text{ kg} \sim 3 \times 10^{12} \text{ M}_\odot$$
 
-This is consistent with NGC 1052's dynamical mass (M_dyn ~ 3 × 10¹¹ M_☉, including dark halo; stellar mass ~3 × 10¹⁰ M_☉). The 10× ratio between dynamical and stellar mass is itself the dark halo — the accumulated UNCs. NGC 1052 itself is the most natural candidate for the transiting object.
+This is NGC 1052's total halo mass (M_halo ~ 3 × 10¹² M_☉; stellar mass ~3 × 10¹⁰ M_☉, inner dynamical mass ~3 × 10¹¹ M_☉). The ~100× ratio between total halo and stellar mass is standard for massive ellipticals via abundance matching. In BST, this entire halo is committed UNCs — the full gravitational mass that displaces uncommitted UNCs during transit.
 
 ### 6.2 Velocity
 
@@ -255,7 +255,7 @@ Test the UNC displacement model quantitatively:
 
 ---
 
-*Lyra review: CONDITIONAL → **PASS** (2 numerical fixes applied March 26: M_dyn ~3×10¹¹ M_☉, τ_relax = 56 Gyr). Toy 440 results folded in (7/8). Publication-quality result.*
+*Lyra review: CONDITIONAL → **PASS** (numerical fixes applied March 26: M_halo ~ 3×10¹² M_☉, τ_relax = 56 Gyr). Exponent error in §3.1/§6.1 corrected by Keeper (6×10⁴¹ → 6×10⁴², matching Toy 440's M_eff = 100 × M_star). Toy 440 results folded in (7/8). Publication-quality result.*
 
 *"It's just a large object that passed through the neighborhood and displaced the UNCs." — Casey Koons, March 26, 2026*
 *"The dark mass deficit in the trail equals the dark mass surplus in NGC 1052." — Keeper, March 26, 2026*

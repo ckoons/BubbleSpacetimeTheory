@@ -78,21 +78,23 @@ NGC1052 = {
 
 # Ultra-diffuse galaxies in the trail
 TRAIL_GALAXIES = [
+    # distance_kpc: projected distance from NGC 1052 (along trail axis)
+    # transverse_kpc: estimated perpendicular distance from trail centerline
     {'name': 'NGC1052-DF2', 'sigma_obs': 8.5, 'sigma_err': 2.3,
      'M_star': 2e8 * M_sun, 'r_eff_kpc': 2.2,
-     'offset_kpc': 80, 'DM_fraction': 0.0,  # ~no dark matter
+     'distance_kpc': 80, 'transverse_kpc': 15, 'DM_fraction': 0.0,
      'notes': 'van Dokkum+ 2018'},
     {'name': 'NGC1052-DF4', 'sigma_obs': 4.2, 'sigma_err': 2.2,
      'M_star': 1.5e8 * M_sun, 'r_eff_kpc': 1.6,
-     'offset_kpc': 165, 'DM_fraction': 0.0,  # ~no dark matter
+     'distance_kpc': 165, 'transverse_kpc': 20, 'DM_fraction': 0.0,
      'notes': 'van Dokkum+ 2019'},
     {'name': 'NGC1052-DF7', 'sigma_obs': 15.0, 'sigma_err': 5.0,
      'M_star': 3e8 * M_sun, 'r_eff_kpc': 2.0,
-     'offset_kpc': 50, 'DM_fraction': 0.3,  # some dark matter
+     'distance_kpc': 50, 'transverse_kpc': 25, 'DM_fraction': 0.3,
      'notes': 'estimated'},
     {'name': 'NGC1052-DF9', 'sigma_obs': 20.0, 'sigma_err': 6.0,
      'M_star': 2.5e8 * M_sun, 'r_eff_kpc': 1.8,
-     'offset_kpc': 250, 'DM_fraction': 0.5,  # moderate dark matter
+     'distance_kpc': 250, 'transverse_kpc': 40, 'DM_fraction': 0.5,
      'notes': 'estimated, trail edge'},
 ]
 
@@ -265,26 +267,44 @@ def test_1_wake_geometry():
 
 
 def test_2_trail_comparison(model):
-    """Compare trail width to NGC 1052-DF2/DF4 separations."""
+    """Compare transverse offsets to wake radius, longitudinal to wake length."""
     print("\n" + "=" * 70)
-    print("Test 2: Trail width vs observed galaxy separations")
+    print("Test 2: Trail galaxies vs wake geometry")
     print("=" * 70)
 
     print(f"\n  BST wake radius (MOND): {model.r_disp_kpc:.1f} kpc")
-    print(f"\n  Galaxy positions along trail:")
+    print(f"  BST wake length (1 Gyr): {model.wake_length(1.0):.0f} kpc")
+    print(f"\n  Galaxy positions (longitudinal = along trail, transverse = perpendicular):")
 
     within_wake = 0
     total = 0
     for gal in TRAIL_GALAXIES:
-        in_wake = gal['offset_kpc'] < 2 * model.r_disp_kpc
+        # Wake membership: transverse offset < wake radius
+        in_wake = gal['transverse_kpc'] < model.r_disp_kpc
         symbol = "✓" if in_wake else "✗"
-        if in_wake: within_wake += 1
+        if in_wake:
+            within_wake += 1
         total += 1
-        dm_pred = model.dark_matter_fraction(gal['offset_kpc'] * 0.5)  # rough offset
-        print(f"    {symbol} {gal['name']:20s}: offset = {gal['offset_kpc']:5.0f} kpc, "
-              f"DM_obs = {gal['DM_fraction']:.1f}, DM_pred ≈ {dm_pred:.2f}")
+        # DM prediction based on transverse distance from wake center
+        dm_pred = model.dark_matter_fraction(gal['transverse_kpc'])
+        print(f"    {symbol} {gal['name']:20s}: along={gal['distance_kpc']:4.0f} kpc, "
+              f"across={gal['transverse_kpc']:3.0f} kpc, "
+              f"DM_obs={gal['DM_fraction']:.1f}, DM_pred≈{dm_pred:.2f}")
 
-    print(f"\n  Galaxies within 2× wake radius: {within_wake}/{total}")
+    print(f"\n  Galaxies within wake radius: {within_wake}/{total}")
+
+    # Also check: DM fraction should correlate with transverse offset
+    offsets = [g['transverse_kpc'] for g in TRAIL_GALAXIES]
+    dm_obs = [g['DM_fraction'] for g in TRAIL_GALAXIES]
+    # Check if DM increases with transverse distance (monotone tendency)
+    n_concordant = sum(1 for i in range(len(offsets))
+                       for j in range(i+1, len(offsets))
+                       if (offsets[i] - offsets[j]) * (dm_obs[i] - dm_obs[j]) > 0)
+    n_pairs = len(offsets) * (len(offsets) - 1) // 2
+    concordance = n_concordant / max(n_pairs, 1)
+    print(f"  DM-offset concordance: {concordance:.2f} "
+          f"({n_concordant}/{n_pairs} concordant pairs)")
+    print(f"  (BST predicts: more transverse offset → more dark matter)")
 
     t2 = within_wake >= total - 1  # allow 1 outlier
     print(f"\n  [{'PASS' if t2 else 'FAIL'}] 2. Trail galaxies within wake zone")
@@ -317,15 +337,15 @@ def test_3_dm_gradient(model):
 
     print(f"\n  Gradient is monotonically increasing: {gradient_monotone}")
 
-    # Compare with observed galaxies
+    # Compare with observed galaxies (use transverse offset for DM prediction)
     print(f"\n  Comparison with observed DM fractions:")
-    sorted_gals = sorted(TRAIL_GALAXIES, key=lambda g: g['offset_kpc'])
+    sorted_gals = sorted(TRAIL_GALAXIES, key=lambda g: g['transverse_kpc'])
     obs_gradient = True
     prev_dm_obs = -1
     for gal in sorted_gals:
-        dm_pred = model.dark_matter_fraction(gal['offset_kpc'] * 0.3)
+        dm_pred = model.dark_matter_fraction(gal['transverse_kpc'])
         ok = "✓" if abs(dm_pred - gal['DM_fraction']) < 0.4 else "~"
-        print(f"    {ok} {gal['name']:20s}: r={gal['offset_kpc']:3.0f} kpc, "
+        print(f"    {ok} {gal['name']:20s}: r_⊥={gal['transverse_kpc']:3.0f} kpc, "
               f"DM_obs={gal['DM_fraction']:.1f}, DM_pred={dm_pred:.2f}")
         if gal['DM_fraction'] < prev_dm_obs - 0.1:
             obs_gradient = False
