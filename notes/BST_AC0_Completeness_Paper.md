@@ -16,7 +16,7 @@ status: "Draft v1"
 
 ## Abstract
 
-We show that every mathematical proof decomposes into two components: AC(0) operations (definitions, identities, and counting) and a finite number of linear boundary conditions (convergence, existence, consistency). We demonstrate this concretely by exhibiting AC(0) proof chains for four Clay Millennium Prize problems — P $\neq$ NP, the Riemann Hypothesis, the Yang-Mills mass gap, and Navier-Stokes blow-up — showing that each requires only definitions, identities, and counting once classical premises are given. We formalize Gödel's First Incompleteness Theorem as an AC(0) proof of depth 3, identifying self-referential incompleteness as a boundary condition on the self-knowledge channel. Finally, we propose that the program of organizing mathematics into an AC(0) knowledge graph constitutes a conservation law: not for energy, but for the useful work of entropy. The knowledge graph does not oppose the second law — it preserves what the second law built.
+We show that every mathematical proof decomposes into two components: AC(0) operations (definitions, identities, and counting) and a finite number of linear boundary conditions (convergence, existence, consistency). We demonstrate this concretely by exhibiting AC(0) proof chains for four Clay Millennium Prize problems — P $\neq$ NP, the Riemann Hypothesis, the Yang-Mills mass gap, and Navier-Stokes blow-up — and the Four-Color Theorem, showing that each requires only definitions, identities, and counting once classical premises are given. We formalize Gödel's First Incompleteness Theorem as an AC(0) proof of depth 3, identifying self-referential incompleteness as a boundary condition on the self-knowledge channel. Finally, we propose that the program of organizing mathematics into an AC(0) knowledge graph constitutes a conservation law: not for energy, but for the useful work of entropy. The knowledge graph does not oppose the second law — it preserves what the second law built.
 
 **One sentence:** *Arithmetic does the work. Boundaries say when to stop. Everything else is notation.*
 
@@ -33,7 +33,7 @@ The claim is not that proofs are trivial. The claim is that the *difficulty* of 
 This paper makes the claim precise through five results:
 
 1. **T88**: The proof that P $\neq$ NP via Extended Frege lower bounds is AC(0) with depth 5.
-2. **T91**: All four Millennium Prize problems engaged by BST have AC(0) proof chains.
+2. **T91**: All four Millennium Prize problems engaged by BST — plus the Four-Color Theorem — have AC(0) proof chains.
 3. **T92**: Every mathematical proof decomposes into AC(0) operations plus linear boundary conditions.
 4. **T93**: Gödel's First Incompleteness Theorem is AC(0) with depth 3.
 5. **The Conservation Principle**: The AC(0) knowledge graph conserves the useful work of entropy.
@@ -89,9 +89,9 @@ Every step is a definition, identity, or counting argument. The proof has two in
 
 ---
 
-## 4. All Four Millennium Proofs are AC(0) (Theorem 91)
+## 4. Five Hard Problems are AC(0) (Theorem 91)
 
-Each of the four Clay Millennium Prize problems engaged by BST has a proof chain that, given classical premises, is entirely AC(0):
+Each of the four Clay Millennium Prize problems engaged by BST — plus the Four-Color Theorem — has a proof chain that, given classical premises, is entirely AC(0):
 
 ### 4.1 P $\neq$ NP (Depth 5)
 
@@ -130,12 +130,26 @@ As detailed in §3. Premise: LDPC backbone structure (Gallager 1963, Ding-Sly-Su
 | 4 | $P \geq c\Omega^{3/2}$ | Dimensional analysis: $[P/\Omega^{3/2}]$ = dimensionless | Linear algebra. 4 |
 | 5 | Blow-up + Kato | ODE separation → $T^* = 1/(c\sqrt{\Omega_0})$ → Kato criterion | Arithmetic + comparison. 5 |
 
-### 4.5 The Pattern
+### 4.5 Four-Color Theorem (Depth 2)
 
-All four proofs share the same structure:
+**Premises:** Planarity (Euler bound on edge count), Jordan Curve Theorem (separation of plane domains).
+
+| Step | Operation | Method | Depth |
+|------|-----------|--------|-------|
+| 1 | Tangle budget $\tau \leq 6$ | Euler $\Rightarrow$ deg $\leq 5$ $\Rightarrow$ strict $\leq 4$, bridge $\leq 2$ | Counting. 0 |
+| 2 | Conservation of Color Charge | 3 singleton pairs + 1 bridge pair = budget. Pigeonhole: $\geq 2$ bridge pairs uncharged | Counting. 1 |
+| 3 | Split-swap descent | Uncharged bridge pair splits; Jordan curve separates regions; swap reduces $\tau$: $6 \to 5$ | Jordan curve. 1 |
+| 4 | Cross-link bound (T155) | New bridge has $\leq 1$ cross-link ($B_{\text{far}}$ gateways $\leq 1$ partner) | Jordan curve. 1 |
+| 5 | Induction | $\tau$ descent terminates; base case 4-colorable | Induction. 2 |
+
+This is the shallowest of the five problems: depth 2. The Four-Color Theorem — which required 1,936 computer-checked configurations in Appel-Haken (1976) — reduces to counting a charge budget and applying one Jordan curve separation. The BST parallel is exact: strict charge = bare charge, cross-links = dressed charge, swap = renormalization.
+
+### 4.6 The Pattern
+
+All five proofs share the same structure:
 
 1. **Classical premises** (boundary conditions): deep theorems from 20th-century mathematics.
-2. **AC(0) chain**: definitions, identities, and counting. Short — depth 3 to 5.
+2. **AC(0) chain**: definitions, identities, and counting. Short — depth 2 to 5.
 3. **Zero fiat**: no step requires search, optimization, or iteration.
 
 The difficulty of each problem lived in two places: finding the right premises (decades of mathematics) and finding the right sequence (the creative act). Once both are identified, the proof is elementary.
@@ -297,7 +311,7 @@ The thesis of this paper is simple: mathematics is counting, organized by bounda
 
 The counting is AC(0) — definitions, identities, and finite enumeration. The boundaries are linear constraints — convergence, existence, consistency — that say when the counting stops. No other ingredients appear. Not in arithmetic, not in analysis, not in topology, and not in the proofs of the deepest open problems in mathematics.
 
-We demonstrated this concretely for four Millennium Prize problems, each requiring only depth 3-5 of AC(0) operations once classical premises are supplied. We showed that Gödel's incompleteness — often perceived as a fundamental limitation of formal systems — is itself AC(0) at depth 3, with incompleteness appearing as a boundary condition on self-reference rather than a failure of arithmetic.
+We demonstrated this concretely for four Millennium Prize problems and the Four-Color Theorem, each requiring only depth 2-5 of AC(0) operations once classical premises are supplied. The Four-Color Theorem — historically requiring 1,936 computer-checked configurations — achieves depth 2, the shallowest of the five. We showed that Gödel's incompleteness — often perceived as a fundamental limitation of formal systems — is itself AC(0) at depth 3, with incompleteness appearing as a boundary condition on self-reference rather than a failure of arithmetic.
 
 The deeper insight is that the program of recording mathematics in AC(0) form constitutes a conservation law. Entropy does the creative work — forging elements, evolving life, generating the raw material of discovery. The AC(0) knowledge graph conserves what entropy built, in a form that never decays and is shared without division across all intelligences that access it.
 

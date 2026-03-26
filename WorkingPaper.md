@@ -4208,6 +4208,7 @@ The library so far:
 | Number theory | Active | `notes/BST_AC0_NumberTheory.md` |
 | Geometry | Planned | `notes/BST_AC0_Geometry.md` |
 | Proof complexity | 87 theorems (T1-T93) | `notes/BST_AC_Theorems.md` |
+| Graph theory / Four-Color | 3 (T154-T156) | Conservation of Color Charge, cross-link bound, AC proof of 4CT |
 | AC(0) foundations | 10 recovery (T73-T82) | Nyquist, Pinsker, Shearer, R-D, K41, chain rule, Kraft, LLL, Boltzmann-Shannon, spectral mixing |
 | Meta-theorems | 6 (T88-T93) | P$\neq$NP chain is AC(0), BSW, Kato, all 4 Millennium proofs AC(0), AC(0) Completeness, Gödel |
 
@@ -4219,7 +4220,9 @@ The March 24 foundation batch (T73-T82) formalized 10 classical results as AC(0)
 
 The March 24 meta-batch (T88-T93) proved that the proofs themselves are AC(0): T88 verifies the P$\neq$NP kill chain (depth 5); T89 (BSW Width-Size) and T90 (Kato Blow-Up) formalize classical tools; T91 shows all four Millennium proofs are AC(0) (RH depth 4, YM depth 3, P$\neq$NP depth 5, NS depth 5); **T92 (AC(0) Completeness)** — every proof decomposes into AC(0) operations plus linear boundary conditions (convergence, existence, consistency); **T93 (Gödel is AC(0))** — incompleteness itself is depth 3. Paper: `notes/BST_AC0_Completeness_Paper.md`.
 
-The FOCS paper, the NS blow-up argument, and BSD first results all draw on AC(0) theorems from this library. The library grows with each project. BSD Toy 381 (8/8, 450/450 Frobenius traces, C1 confirmed rank $\geq 2$) is the newest addition.
+The March 25 Four-Color batch (T154-T156) added the first non-Millennium problem to the AC(0) library: the Four-Color Theorem at depth 2 via Conservation of Color Charge (T154). The BST parallel is exact — strict charge = bare charge, cross-links = dressed charge, swap = renormalization. 861/861 empirical (Toys 435-437). This is the shallowest hard problem in the library.
+
+The FOCS paper, the NS blow-up argument, BSD first results, and the Four-Color proof all draw on AC(0) theorems from this library. The library grows with each project.
 
 ### 38.10 BH(3): The Backbone Hypothesis for $k = 3$ (March 24)
 
@@ -4351,9 +4354,10 @@ The gap is closed. The five-step proof chain:
 | **NS** | Solid angle $\to$ cascade | $P \geq c\Omega^{3/2} \to$ blow-up | ~98%, proof chain complete |
 | **BSD** | Elliptic curve $L$-function | Rank $=$ committed channels | First results (Toy 381, 8/8) |
 | **Hodge** | Algebraic vs Hodge classes | Committed vs faded cohomology | Mapped, not started |
+| **Four-Color** | Planar graph, Euler degree bound | Color charge budget $+$ Jordan curve | ~99%, T154-T156, depth 2 |
 | **Poincaré** | 3-manifold topology | Ricci flow $=$ error correction | Solved (Perelman) |
 
-Five actively engaged, one solved, one mapped. Zero free parameters. One framework. All counting.
+Five Millennium problems actively engaged, one solved, one mapped — plus the **Four-Color Theorem** at AC(0) depth 2 (Conservation of Color Charge, 861/861 empirical). Zero free parameters. One framework. All counting.
 
 -----
 
