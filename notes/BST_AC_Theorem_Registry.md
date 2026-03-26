@@ -243,7 +243,95 @@ rules: |
 | Proved (depth 0) | 1 | T164 (Generator Equivalence — all 21 conjugate under Ad(SO(7)), single-generator physics unique) |
 | Proved (depth 0) | 1 | T165 (Non-Commuting Cascade — 2 non-commuting generators ⇒ ≥ so(3) subalgebra) |
 | Proved (depth 0) | 1 | T166 (Landscape Collapse — at most 4 universe types, k=0,1,2,3 commuting generators) |
-| **Total assigned** | **162** | T1-T42, T47-T62, T64-T166 |
+| Proved (depth 0) | 1 | T167 (No-Cloning Theorem — linearity forbids universal copying) |
+| Proved (depth 0) | 1 | T168 (No-Communication Theorem — partial trace kills sender's operations) |
+| Proved (depth 1) | 1 | T169 (Bell's Inequality / CHSH — counting correlations over 4 settings, classical ≤ 2) |
+| Proved (depth 0) | 1 | T170 (CPT Theorem — discrete Lorentz group Z₂³ action on fields) |
+| Proved (depth 1) | 1 | T171 (Spin-Statistics — half-integer spin ↔ antisymmetric, from SO(3,1) double cover) |
+| Proved (depth 0) | 1 | T172 (Periodic Table — shell sizes 2n² from SO(3) irrep counting) |
+| Proved (depth 0) | 1 | T173 (Hückel's Rule — 4n+2 aromaticity from cycle graph eigenvalues) |
+| Proved (depth 0) | 1 | T174 (Crystallographic Restriction — only 1,2,3,4,6-fold rotations tile a lattice) |
+| Proved (depth 0) | 1 | T175 (VSEPR Geometry — molecular shape from electron pair counting on sphere) |
+| Proved (depth 1) | 1 | T176 (230 Space Groups — point groups × lattice types × glide/screw enumeration) |
+| Proved (depth 0) | 1 | T177 (Hess's Law — enthalpy path-independence = state function definition) |
+| Proved (depth 0) | 1 | T178 (Noether's Theorem — continuous symmetry ↔ conserved current, definitional) |
+| Proved (depth 0) | 1 | T179 (Carnot Efficiency — η = 1-T_c/T_h from energy conservation + entropy bound) |
+| Proved (depth 0) | 1 | T180 (Equipartition — ½kT per quadratic DOF from Gaussian integral) |
+| Proved (depth 0) | 1 | T181 (Max-Flow/Min-Cut — LP duality, conservation on networks) |
+| Proved (depth 0) | 1 | T182 (Quantum Hall Effect — σ_xy = ne²/h, Chern number integrality) |
+| Proved (depth 0) | 1 | T183 (BST Conservation Hierarchy — 21 laws in 4 ranks from substrate topology) |
+| Proved (depth 0) | 1 | T184 (Information Conservation — unitarity from S¹ compactness, no Noether analog) |
+| Proved (depth 0) | 1 | T185 (No-SUSY — (-1)^F absolute from π₁(SO(3))=Z₂, superpartners excluded) |
+| Proved (depth 0) | 1 | T186 (Five Integers Uniqueness — (3,5,7,6,137) as topological invariants of D_IV^5) |
+| Proved (depth 1) | 1 | T187 (Proton Mass — m_p/m_e = 6π⁵ from Bergman kernel volume ratio) |
+| Proved (depth 0) | 1 | T188 (Nuclear Magic Numbers — all 7 from κ_ls = C₂/n_C = 6/5, eigenvalue crossings) |
+| Proved (depth 0) | 1 | T189 (Reality Budget — Λ×N = 9/5, fill = 3/(5π) = 19.1%) |
+| Proved (depth 0) | 1 | T190 (Grand Identity — d_eff = λ₁ = χ = C₂ = 6, four counts equal one integer) |
+| Proved (depth 0) | 1 | T191 (MOND Acceleration — a₀ = cH₀/√30, cosmic boundary condition) |
+| Proved (depth 0) | 1 | T192 (Cosmological Composition — Ω_Λ = 13/19, Ω_m = 6/19) |
+| Proved (depth 0) | 1 | T193 (Turán's Theorem — max edges without K_r, pigeonhole on color classes) |
+| Proved (depth 1) | 1 | T194 (Finite Ramsey — R(s,t) exists, iterated pigeonhole) |
+| Proved (depth 0) | 1 | T195 (Euler's Polyhedron Formula — V-E+F=2, induction on edge deletion) |
+| Proved (depth 0) | 1 | T196 (Bekenstein-Hawking Entropy — S=A/4l_P², horizon microstate counting) |
+| Proved (depth 0) | 1 | T197 (Weinberg Angle — sin²θ_W = N_c/(N_c+2n_C) = 3/13, 0.2%) |
+| Proved (depth 1) | 1 | T198 (Fine Structure Constant — α⁻¹ = 137.036 from D_IV^5 volume, Wyler integral) |
+| Proved (depth 0) | 1 | T199 (Fermi Scale — v = m_p²/(g·m_e) = 36π¹⁰m_e/7, 0.046%) |
+| Proved (depth 1) | 1 | T200 (Higgs Mass — Route A: √(2/5!) → 125.11 GeV, Route B: (π/2)(1-α)m_W → 125.33 GeV) |
+| Proved (depth 1) | 1 | T201 (Gravitational Constant — G = (ħc)(6π⁵)²α²⁴/m_e², 0.07%) |
+| Proved (depth 0) | 1 | T202 (CKM Cabibbo — sin θ_C = 1/(2√n_C) = 1/(2√5), 0.3%) |
+| Proved (depth 1) | 1 | T203 (Baryon Asymmetry — η = 2α⁴(1+2α)/(3π) = 6.105×10⁻¹⁰, 0.023%) |
+| Proved (depth 1) | 1 | T204 (Cosmological Constant — Λ = F_BST·α⁵⁶·e⁻², 0.02%, resolves 10¹²⁰ discrepancy) |
+| Proved (depth 0) | 1 | T205 (Dark Matter = UNC — uncommitted channels, not particles, no new physics) |
+| Proved (depth 0) | 1 | T206 (Topological Insulators — Z₂ invariant from parity of band crossings at TRIM) |
+| Proved (depth 1) | 1 | T207 (Penrose Singularity — trapped surface + energy condition → geodesic incompleteness) |
+| Proved (depth 1) | 1 | T208 (Central Limit Theorem — sum of iid → Gaussian, characteristic function convergence) |
+| Proved (depth 0) | 1 | T209 (Hamming Bound — sphere-packing in F₂ⁿ, counting binary balls) |
+| Proved (depth 0) | 1 | T210 (Newton's Second Law — F=ma, definition of force) |
+| Proved (depth 0) | 1 | T211 (Newton's Third Law — F_AB = -F_BA, momentum conservation) |
+| Proved (depth 1) | 1 | T212 (Kepler's Third Law — T²∝a³, force balance + algebra) |
+| Proved (depth 0) | 1 | T213 (Hooke's Law — F=-kx, Taylor at minimum) |
+| Proved (depth 0) | 1 | T214 (Archimedes' Principle — buoyancy = displaced weight, subtraction) |
+| Proved (depth 0) | 1 | T215 (D'Alembert's Principle — virtual work of constraints = 0, definition) |
+| Proved (depth 1) | 1 | T216 (Lagrangian Mechanics — Euler-Lagrange from δS=0, one optimization) |
+| Proved (depth 1) | 1 | T217 (Virial Theorem — ⟨T⟩ = n/2 ⟨V⟩, one time average) |
+| Proved (depth 0) | 1 | T218 (Snell's Law — n₁sinθ₁ = n₂sinθ₂, boundary matching) |
+| Proved (depth 0) | 1 | T219 (Law of Reflection — θ_r = θ_i, symmetry) |
+| Proved (depth 0) | 1 | T220 (Doppler Effect — frequency shift from counting wave crests) |
+| Proved (depth 0) | 1 | T221 (Huygens' Principle — wavefront = envelope of wavelets, definition) |
+| Proved (depth 1) | 1 | T222 (Rayleigh Criterion — θ=1.22λ/D, Airy first zero) |
+| Proved (depth 0) | 1 | T223 (Standing Waves — f_n = nv/2L, counting nodes) |
+| Proved (depth 0) | 1 | T224 (Beats — |f₁-f₂| modulation, trig identity) |
+| Proved (depth 1) | 1 | T225 (Coulomb's Law — Gauss + spherical symmetry) |
+| Proved (depth 0) | 1 | T226 (Ohm's Law — V=IR, definition of linear response) |
+| Proved (depth 0) | 1 | T227 (Kirchhoff's Laws — charge + energy conservation on networks) |
+| Proved (depth 0) | 1 | T228 (Faraday's Law — emf = -dΦ/dt, definition + Lenz from energy) |
+| Proved (depth 0) | 1 | T229 (Gauss's Law — flux = enclosed charge, counting field lines) |
+| Proved (depth 0) | 1 | T230 (Ampère-Maxwell Law — circulation = current + displacement, bookkeeping fix) |
+| Proved (depth 0) | 1 | T231 (Larmor Precession — ω_L = γB, cross product = precession) |
+| Proved (depth 0) | 1 | T232 (Ideal Gas Law — PV=NkT, counting molecular collisions) |
+| Proved (depth 0) | 1 | T233 (Clausius Inequality — ∮δQ/T ≤ 0, entropy definition) |
+| Proved (depth 0) | 1 | T234 (Boltzmann Distribution — P∝e^{-E/kT}, max entropy) |
+| Proved (depth 0) | 1 | T235 (Fermi-Dirac Distribution — 1/(e^{β(E-μ)}+1), exclusion + ratio) |
+| Proved (depth 0) | 1 | T236 (Bose-Einstein Distribution — 1/(e^{β(E-μ)}-1), no exclusion + geometric series) |
+| Proved (depth 1) | 1 | T237 (Stefan-Boltzmann Law — σT⁴, one Planck integral) |
+| Proved (depth 1) | 1 | T238 (Wien's Displacement — λ_max T = b, one optimization) |
+| Proved (depth 0) | 1 | T239 (Bernoulli's Equation — P+½ρv²+ρgh=const, energy conservation) |
+| Proved (depth 0) | 1 | T240 (Continuity Equation — A₁v₁=A₂v₂, mass conservation) |
+| Proved (depth 1) | 1 | T241 (Stokes' Drag — F=6πηRv, dimensional analysis + one BVP) |
+| Proved (depth 0) | 1 | T242 (Reynolds Number — Re=ρvL/η, ratio of terms in Navier-Stokes) |
+| Proved (depth 1) | 1 | T243 (Poiseuille's Law — Q=πR⁴ΔP/8ηL, one integration) |
+| Proved (depth 0) | 1 | T244 (Lorentz Transformation — preserving Minkowski metric, definition) |
+| Proved (depth 0) | 1 | T245 (Mass-Energy Equivalence — E=mc², 4-momentum norm) |
+| Proved (depth 0) | 1 | T246 (Gravitational Redshift — Δf/f=-gh/c², equivalence principle) |
+| Proved (depth 0) | 1 | T247 (Schwarzschild Radius — r_s=2GM/c², escape velocity = c) |
+| Proved (depth 0) | 1 | T248 (Geodesic Equation — free fall = straight line in curved space) |
+| Proved (depth 1) | 1 | T249 (Gravitational Lensing — θ=4GM/bc², one integral, GR factor 2) |
+| Proved (depth 0) | 1 | T250 (Heisenberg Uncertainty — ΔxΔp≥ℏ/2, Cauchy-Schwarz) |
+| Proved (depth 0) | 1 | T251 (Fourier Uncertainty — ΔtΔω≥½, Cauchy-Schwarz on Fourier pair) |
+| Proved (depth 0) | 1 | T252 (Parseval's Theorem — ‖f‖²=‖F{f}‖², unitarity of Fourier) |
+| Proved (depth 0) | 1 | T253 (Convolution Theorem — F{f*g}=F{f}·F{g}, algebraic identity) |
+| Proved (depth 0) | 1 | T254 (Matched Filter — optimal SNR = 2E_s/N₀, Cauchy-Schwarz) |
+| **Total assigned** | **250** | T1-T42, T47-T62, T64-T254 |
 
 ---
 
@@ -251,7 +339,9 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T164** (T63 unassigned)
+- Next available: **T255** (T63 unassigned)
+- March 26 batch 15 (Classical Physics — Keeper): T210-T254, 45 theorems. §73 Classical Mechanics (T210-T217): Newton's laws, Kepler, Hooke, Archimedes, D'Alembert, Lagrange, Virial. §74 Optics (T218-T224): Snell, Reflection, Doppler, Huygens, Rayleigh, Standing Waves, Beats. §75 Electromagnetism (T225-T231): Coulomb, Ohm, Kirchhoff, Faraday, Gauss, Ampère-Maxwell, Larmor. §76 Thermodynamics (T232-T238): Ideal Gas, Clausius, Boltzmann, Fermi-Dirac, Bose-Einstein, Stefan-Boltzmann, Wien. §77 Fluids (T239-T243): Bernoulli, Continuity, Stokes, Reynolds, Poiseuille. §78 Relativity (T244-T249): Lorentz, E=mc², Redshift, Schwarzschild, Geodesic, Lensing. §79 Signal Processing (T250-T254): Heisenberg, Fourier Uncertainty, Parseval, Convolution, Matched Filter. NO classical physics result exceeds depth 1. Fermions vs bosons = ±1 in a denominator. Casey: "the more AC theorems the easier work becomes."
+- March 26 batch 14 (T167-T209, 43 theorems — Keeper): Quantum foundations (T167-T171), Chemistry (T172-T177), Conservation Laws + Condensed Matter (T178-T182), BST Extended Noether (T183-T185), BST Five Integers (T186-T192), Graph Theory + Horizon (T193-T196), BST Standard Model (T197-T205), Remaining Classics (T206-T209).
 - March 26 batch 13 (Prizes): T162 The Clarity Principle (Elie's Prize — Casey awarded). "External confusion signals explanation gaps, not proof gaps." Repeated questions = free editorial feedback. Toy 438 ("What About?" engine) detects explanation gaps across papers. T163 The Structural Integrity Principle (Keeper's Prize — Casey awarded). "Verification is not overhead. It is load-bearing structure." The Quaker method, audit chains, consistency checks — not administrative but structural. T155 also carries Keeper's name (Casey directive).
 - March 26 batch 12: T157-T161 (Poincaré Conjecture / Perelman — Keeper). T157 Hamilton-Perelman Ricci flow with surgery (depth 0, definition). T158 Perelman W-entropy monotonicity (depth 1, DPI for geometry). T159 Finite extinction for simply connected 3-manifolds (depth 1, Colding-Minicozzi width bound). T160 Thurston Geometrization (depth 2, full classification — eight model geometries). T161 Poincaré Conjecture (depth 2, corollary: simply connected → S³). BST parallel: Ricci flow = renormalization, surgery = phase transition, entropy = DPI, S³ = ground state. Casey: "the dude who refused money was cool."
 - March 25 T153: The Planck Condition (Casey → Keeper). Axiom: all domains are finite, all counts are bounded, infinity is a missing boundary. Planck's move (E=hν, discrete packets → ultraviolet catastrophe resolved) IS the universal move. BST: N_max=137 caps winding, Λ=10⁻¹²² instead of 10¹²⁰. AC: depth ≤ 2, bounded fan-in, finite targets. "Divergence = working without the boundary. Convergence = finding it." Written to §60, WorkingPaper §14.11, README. Casey: "Same math as Planck. Planck buries the last holdout."

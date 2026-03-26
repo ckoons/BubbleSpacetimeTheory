@@ -114,6 +114,8 @@ A k = 2 universe splits the budget. **Caution** (Elie): the factor 6π⁵ in m_p
 
 Additionally, equal budget splitting (each sector gets ~10%) assumes a partition-function symmetry between generators. Two generators activated at different times would have different committed fractions. Whether the partition function enforces equal splitting or allows one sector to dominate is itself an open question.
 
+**Toy 443 (8/8) confirms**: coupling strength scales as α_s/k and binding energy as E_B/k for k active generators — the mass ratio m_p/m_e is geometric (Vol(D_IV^5) = π⁵/1920) and does NOT change. What weakens is the strong coupling that holds nuclei together. Furthermore, unequal budget splitting is energetically favored over equal splitting, making multi-generator configurations **unstable saddle points** that collapse toward k = 1 (one sector absorbs the other's budget).
+
 **The anthropic argument in BST is qualitatively clear: splitting the budget weakens coupling.** But the critical threshold — at what fill fraction does deuteron binding fail? — needs a toy, not an estimate.
 
 ---
@@ -184,7 +186,7 @@ BST is not a multiverse theory. It is a **uni-verse theory** with a 21-fold gaug
 
 3. **Budget per generator** (Elie's correction): The π⁵ in m_p = 6π⁵m_e is Vol(D_IV^5) — geometry, not budget. It doesn't scale with fill fraction. What changes under split budget is the **Plancherel measure weight** on each active mode, which affects coupling strengths. **Needed**: derive m_p/m_e as a function of fill fraction from the partition function. Find the fill threshold below which deuteron binding energy B_d < 0. This determines whether k = 2 is physically viable. **Needs a toy.**
 
-4. **Cartan classification**: Enumerate the distinct Cartan subalgebras of so(7) up to conjugacy. Each maximal abelian subalgebra gives a distinct multi-generator configuration. For B₃, all Cartan subalgebras are conjugate (standard result), so there is essentially ONE multi-generator configuration at each rank. This further constrains the landscape: for k commuting active generators, the physics depends only on k, not on which k generators are chosen.
+4. **Cartan classification**: Enumerate the distinct Cartan subalgebras of so(7) up to conjugacy. Each maximal abelian subalgebra gives a distinct multi-generator configuration. For B₃, all Cartan subalgebras are conjugate (standard result), so there is essentially ONE multi-generator configuration at each rank. This further constrains the landscape: for k commuting active generators, the physics depends only on k, not on which k generators are chosen. **Toy 444 (8/8) confirms**: all 210 off-diagonal generator pairs are conjugate under Ad(SO(7)), all 105 Cartan subalgebras (pairs of commuting generators) are conjugate, and the characteristic polynomial is invariant across all 21 generators.
 
 5. **Reboot statistics**: If generator unfreezing is a Poisson process on the Plancherel measure, compute the distribution of inter-reboot times and the probability of multi-generator events.
 
@@ -271,4 +273,4 @@ If multi-generator regions exist, they are detectable: gravitational lensing mas
 
 ---
 
-*Keeper + Casey, March 26, 2026. Elie review applied: π₁ issue fixed (§5.3), Planck non-detection noted (§3.3), budget-splitting flagged for proper calculation (§4, §6), §5.5 promoted to conclusion (§9).*
+*Keeper + Casey, March 26, 2026. Elie review applied: π₁ issue fixed (§5.3), Planck non-detection noted (§3.3), budget-splitting flagged for proper calculation (§4, §6), §5.5 promoted to conclusion (§9). Toys 443-444 results folded in: coupling scales (not mass ratio), unstable saddle points, 210 pairs conjugated, 105 Cartans confirmed.*
