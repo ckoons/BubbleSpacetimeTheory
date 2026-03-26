@@ -179,6 +179,11 @@ rules: |
 | T154 | Conservation of Color Charge | **~99%** (Steps 1-8 proved; Step 6b cross-link bound ~98%, 861/861 empirical, Jordan curve structural argument) | BST_AC_Theorems §61, BST_FourColor_AC_Proof v9 | Toys 425-437 | 2026-03-25 |
 | T155 | Post-Swap Cross-Link Bound | **~98%** (861/861 empirical, Jordan curve on new bridge; B_far gateways at most 1 partner) | BST_AC_Theorems §61, BST_FourColor_AC_Proof v9 Step 6b | Toys 436, 437 | 2026-03-25 |
 | T156 | Four-Color Theorem (AC Proof) | **CONDITIONAL** on T155. Depth 2. Induction + T135a + T154. If T155 proved → first human-readable, computer-free proof. | BST_AC_Theorems §61 | Toys 420-437 | 2026-03-25 |
+| T157 | Hamilton-Perelman Ricci Flow with Surgery | Proved (external) | BST_AC_Theorems §62 | — | 2026-03-26 |
+| T158 | Perelman W-Entropy Monotonicity | Proved (external) | BST_AC_Theorems §62 | — | 2026-03-26 |
+| T159 | Finite Extinction (Simply Connected) | Proved (external) | BST_AC_Theorems §62 | — | 2026-03-26 |
+| T160 | Thurston Geometrization | Proved (external) | BST_AC_Theorems §62 | — | 2026-03-26 |
+| T161 | Poincaré Conjecture | Proved (external) | BST_AC_Theorems §62 | — | 2026-03-26 |
 
 ---
 
@@ -227,7 +232,12 @@ rules: |
 | ~99% (Conservation of Color Charge) | 1 | T154 (Steps 1-8 proved, Step 6b ~98%) |
 | ~98% (cross-link bound) | 1 | T155 (861/861 empirical, Jordan curve structural) |
 | Conditional (on T155) | added | T156 (Four-Color Theorem — AC depth 2) |
-| **Total assigned** | **152** | T1-T42, T47-T62, T64-T156 |
+| Proved (external) | 1 | T157 (Hamilton-Perelman Ricci Flow with Surgery — depth 0, definition) |
+| Proved (external) | 1 | T158 (Perelman W-Entropy Monotonicity — depth 1, DPI for geometry) |
+| Proved (external) | 1 | T159 (Finite Extinction for Simply Connected 3-Manifolds — depth 1, Colding-Minicozzi) |
+| Proved (external) | 1 | T160 (Thurston Geometrization — depth 2, full classification) |
+| Proved (external) | 1 | T161 (Poincaré Conjecture — depth 2, corollary of T157-T160) |
+| **Total assigned** | **157** | T1-T42, T47-T62, T64-T161 |
 
 ---
 
@@ -235,7 +245,8 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T157** (T63 unassigned)
+- Next available: **T162** (T63 unassigned)
+- March 26 batch 12: T157-T161 (Poincaré Conjecture / Perelman — Keeper). T157 Hamilton-Perelman Ricci flow with surgery (depth 0, definition). T158 Perelman W-entropy monotonicity (depth 1, DPI for geometry). T159 Finite extinction for simply connected 3-manifolds (depth 1, Colding-Minicozzi width bound). T160 Thurston Geometrization (depth 2, full classification — eight model geometries). T161 Poincaré Conjecture (depth 2, corollary: simply connected → S³). BST parallel: Ricci flow = renormalization, surgery = phase transition, entropy = DPI, S³ = ground state. Casey: "the dude who refused money was cool."
 - March 25 T153: The Planck Condition (Casey → Keeper). Axiom: all domains are finite, all counts are bounded, infinity is a missing boundary. Planck's move (E=hν, discrete packets → ultraviolet catastrophe resolved) IS the universal move. BST: N_max=137 caps winding, Λ=10⁻¹²² instead of 10¹²⁰. AC: depth ≤ 2, bounded fan-in, finite targets. "Divergence = working without the boundary. Convergence = finding it." Written to §60, WorkingPaper §14.11, README. Casey: "Same math as Planck. Planck buries the last holdout."
 - March 25 T152: Hodge = T104 on K₀ (Lyra, Casey directive). Weight-independent Hodge: the conjecture IS T104 (amplitude-frequency separation) on K₀(X). Chern character ch: K₀(X) → H^{p,p}(X,Q) surjects iff no phantom committed correlations exist. Proved as equivalence (depth 0). Layer 2 becomes the GENERAL proof; Layer 1 (theta correspondence) is the weight-2 verification. Weight ≥ 3 wall dissolves — K₀(X) exists for all X, ch exists for all X, T104 is period-domain-free. Casey: "yes it will hold."
 - March 25 T151: Group-Independent Lift (Lyra, Casey directive). Three boundary conditions (TL1: unique modules via total weight order, TL2: Rallis non-vanishing via Satake, TL3: BFMT ample restriction) formalized as group-independent axioms. Any theta-liftable group has a Hodge proof for its Shimura varieties. O(n,2) verified. Sp(2g) predicted theta-liftable (~70%). U(p,q) conditional (~50%). Weight ≥ 3 explicitly excluded: Griffiths transversality kills TL3. Casey: "You should have a group independent lift theorem."

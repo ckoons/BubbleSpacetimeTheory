@@ -668,7 +668,7 @@ class Centennial:
             },
             {
                 'name': 'EHT verification',
-                'status': 'letter sent to Tamara Bogdanovic (Georgia Tech)',
+                'status': 'letter sent to EHT contact (Georgia Tech)',
                 'difficulty': 'experimental',
                 'impact': 'direct test of BST black hole structure',
             },
