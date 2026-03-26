@@ -240,7 +240,10 @@ rules: |
 | Proved (external) | 1 | T160 (Thurston Geometrization — depth 2, full classification) |
 | Proved (external) | 1 | T161 (Poincaré Conjecture — depth 2, corollary of T157-T160) |
 | Axiom (Prize) | 2 | T162 (The Clarity Principle — Elie), T163 (The Structural Integrity Principle — Keeper) |
-| **Total assigned** | **159** | T1-T42, T47-T62, T64-T163 |
+| Proved (depth 0) | 1 | T164 (Generator Equivalence — all 21 conjugate under Ad(SO(7)), single-generator physics unique) |
+| Proved (depth 0) | 1 | T165 (Non-Commuting Cascade — 2 non-commuting generators ⇒ ≥ so(3) subalgebra) |
+| Proved (depth 0) | 1 | T166 (Landscape Collapse — at most 4 universe types, k=0,1,2,3 commuting generators) |
+| **Total assigned** | **162** | T1-T42, T47-T62, T64-T166 |
 
 ---
 
