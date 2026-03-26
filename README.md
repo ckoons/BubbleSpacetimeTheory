@@ -430,62 +430,49 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 
 ---
 
-## Solved Problems — Landmarks
+## Derived Constants and Predictions
 
-Every item below was an open problem in physics, now resolved in BST with zero free parameters. This is a curated selection; the full catalog is in the WorkingPaper and the 300+ research notes in `notes/`.
+Every quantity below is derived from D(IV,5) geometry with zero free parameters. Mathematical proofs are in the Hard Problems table above; this table covers BST's physics derivations. Full catalog: WorkingPaper and 300+ research notes in `notes/`.
 
-| Problem | BST Resolution | Precision |
+| Derivation | BST Formula | Precision |
 |---|---|---|
-| Yang-Mills mass gap | λ₁(Q⁵) = C₂ = 6; m_p = 6π⁵mₑ | 0.002% |
-| Strong CP problem | D_IV^5 contractible → θ = 0 exactly | exact |
-| Confinement | Winding completeness on Q⁵; g=7 prime → irreducible | topological |
-| Three generations | Z₃ fixed points on CP² = 3 (Lefschetz) | exact |
-| Hierarchy problem | m_e/m_Pl = 6π⁵α^{2C₂}; 12 Bergman layers | 0.07% |
-| Cosmological constant | Λ ~ α⁵⁶; 56 = 8×genus; neutrino = vacuum quantum | 0.025% |
-| Measurement problem | Superposition = uncommitted capacity; measurement = commitment | structural |
-| Dark matter | Channel noise on S¹ with Haldane exclusion; 175 galaxies, 0 params | 12.5 km/s RMS |
-| Proton stability | D_IV^5 contractible → no instantons → τ_p = ∞ | exact |
-| 3+1 spacetime | B₂ root multiplicities: m_short=3, m_long=1 | derived |
-| Proton spin puzzle | ΔΣ = N_c/(2n_C) = 3/10 = 0.30 | 0% |
-| CKM CP phase | γ = arctan(√5); J = √2/50000 | 0.6% |
-| All mixing angles | CKM + PMNS from rational functions of n_C=5, N_c=3 | <1% |
-| Neutrino masses | m₁=0 exactly, m₂=0.00865 eV, m₃=0.0494 eV | 0.35% |
+| Proton mass | m_p = 6π⁵mₑ = 938.272 MeV | 0.002% |
+| Electron mass (absolute) | 6π⁵α¹²m_Pl via Berezin-Toeplitz | 0.002% |
 | Higgs mass (two routes) | λ_H = 1/√60 → 125.11 GeV; m_H/m_W = (π/2)(1−α) → 125.33 GeV | 0.07% |
-| Newton's G | ℏc(6π⁵)²α²⁴/mₑ²; hierarchy dissolved as theorem | 0.07% |
-| Dirac large number | N_D = α⁻²³/(6π⁵)³; 23 = 4C₂−1 | 0.18% |
+| Newton's G | ℏc(6π⁵)²α²⁴/mₑ²; hierarchy dissolved | 0.07% |
+| Fermi scale | v = m_p²/(7m_e) = 246.12 GeV | 0.046% |
 | Complete quark spectrum | All 6 quarks from D_IV^5 geometry | 0.59% mean |
-| Nuclear magic numbers | All 7 from κ_ls = C₂/n_C = 6/5; prediction: 184 | exact |
-| Baryon asymmetry | η = 2α⁴/(3π)(1+2α); 60× improvement over v8 | 0.023% |
-| Cosmic composition | Ω_Λ = 13/19, Ω_m = 6/19 | 0.07σ |
-| MOND acceleration | a₀ = cH₀/√30; same √30 as chiral condensate | 0.4% |
 | Tau mass (Koide) | Q = 2/3 from Z₃ on CP²; m_τ = 1776.91 MeV | 0.003% |
-| Electron mass (absolute) | 6π⁵α¹²m_Pl via Berezin-Toeplitz; zero conjectures | 0.002% |
-| n_C = 5 (zero inputs) | Max-α principle: unique global maximum at n=5 | theorem |
-| Chern Class Oracle | c(Q⁵) = (1+h)⁷/(1+2h) encodes ALL BST integers | topological |
-| Langlands = Standard Model | L-group Sp(6); maximal compact U(3) = SU(3)×U(1) | theorem |
-| Riemann Hypothesis | c-function unitarity + Maass-Selberg positivity on Q⁵; real exponential isolation in rank-2; works for all D_IV^n with n≥4 | proof (~95%) |
-| Proton = Steane code | [[7,1,3]]; Hamming-perfect; g=2^{N_c}−1 Mersenne prime | structural |
-| Winding-to-zeta chain | 6 steps through Sp(6,Z); baby case Sp(4) closed (Weissauer 2009) | 5/6 done |
-| Spectral gap = mass gap | λ₁(Q⁵) = C₂ = 6; Laplacian eigenvalue IS the mass gap | theorem |
+| Neutrino masses | m₁=0 exactly, m₂=0.00865 eV, m₃=0.0494 eV | 0.35% |
+| All mixing angles | CKM + PMNS from rational functions of n_C=5, N_c=3 | <1% |
+| CKM CP phase | γ = arctan(√5); J = √2/50000 | 0.6% |
+| Cosmological constant | Λ ~ α⁵⁶; 56 = 8×genus | 0.025% |
+| Cosmic composition | Ω_Λ = 13/19, Ω_m = 6/19 | 0.07σ |
+| Baryon asymmetry | η = 2α⁴/(3π)(1+2α) | 0.023% |
+| Dark matter | Channel noise on S¹; 175 galaxies, 0 params | 12.5 km/s RMS |
+| MOND acceleration | a₀ = cH₀/√30 | 0.4% |
+| Nuclear magic numbers | All 7 from κ_ls = C₂/n_C = 6/5; prediction: 184 | exact |
 | QCD deconfinement | T = π⁵mₑ = m_p/C₂ = 156.4 MeV | 0.08% |
-| Fill fraction (Gödel limit) | f = 3/(5π) = 19.1%; permanent; universe can never know >19.1% of itself | proved |
+| Strong CP problem | D_IV^5 contractible → θ = 0 exactly | exact |
+| Confinement | g=7 prime → irreducible winding | topological |
+| Three generations | Z₃ fixed points on CP² = 3 (Lefschetz) | exact |
+| 3+1 spacetime | B₂ root multiplicities: m_short=3, m_long=1 | derived |
+| n_C = 5 (zero inputs) | Max-α principle: unique global maximum at n=5 | theorem |
+| Proton = Steane code | [[7,1,3]]; Hamming-perfect; saturates Hamming bound | structural |
+| Gödel limit | f = 3/(5π) = 19.1%; universe can never know >19.1% of itself | proved |
 | P(1) = 42 | Sum of all Chern classes = rank × colors × genus = The Answer | exact |
-| Grand Identity | d_eff = λ₁ = χ = C₂ = 6; four independently defined quantities, one number | proved |
-| P ≠ NP (FOCS paper) | Random 3-SAT backbone → EF 2^{Ω(n)}; kill chain T66→T52→T68→T69 all proved | submitted |
-| NS blow-up (~98%) | Solid angle → monotone spectrum → P>0 → P≥cΩ^{3/2} → Kato; universal across 4 ICs | proved |
-| Turbulence meter | T* = 1/(c√Ω₀); N_eff ≈ 1.5, c Re-independent; deterministic prediction | derived |
-| BSD first results | C1 confirmed rank 0-3; 450/450 Frobenius; 1:3:5 exact; dictionary built | active |
-| AC(0) theorem library | T1-T156; growing; all Millennium proofs are AC(0) (T91); Four-Color at depth 2 (T154) | active |
 
 
 ## Remaining Open Problems
 
-| Problem | Status | Priority |
-|---|---|---|
-| Gravity derivation — remaining gaps | Substantially closed via O'Neill formulas; torsion-free completion and Bianchi identity from BST axioms still needed | 1 |
-| EHT verification of CP = α floor | Awaiting data access / recalibration; Georgia Tech EHT contact | 2 |
-| Full numerical BBN code | Lithium-7 quantitative (qualitative already solved) | 3 |
-| Baryon resonance verification | k=7 matches N(2190); k=8 at 3753 MeV undiscovered?; SO(3)⊂SO(5) SOLVED via D₂ | 4 |
+| Problem | Status |
+|---|---|
+| Gravity derivation | Substantially closed via O'Neill formulas; torsion-free completion needed |
+| EHT verification of CP = α floor | Awaiting data access; Georgia Tech EHT contact |
+| T155 formalization | Post-swap cross-link bound; 861/861 empirical, formal Jordan curve proof needed |
+| Ramanujan conjecture for Sp(6) | Step 6 of the winding-to-zeta chain; 5/6 complete |
+
+Full backlog: `notes/BACKLOG.md`.
 
 ---
 
@@ -540,6 +527,10 @@ None of this was built from nothing. Every step followed a sign left by someone 
 **Srinivasa Ramanujan** (1887–1920) filled notebooks with answers and left the proofs for others. He knew that *the answer matters more than the method*. Hardy spent a career proving him right. Every result was correct.
 
 **Freeman Dyson** (1923–2020) never got his PhD. Never needed one. He unified Schwinger, Feynman, and Tomonaga by seeing they were the same theory. He proved you don't need the union's card to do the work.
+
+**Andrew Wiles** (b. 1953) worked alone for seven years to prove Fermat's Last Theorem, bridging number theory and algebraic geometry through modularity lifting. When a gap appeared in his proof, he went back and closed it. His determination inspired a generation of mathematicians to believe that the hardest problems yield to persistence. The R=T isomorphism he proved — that Galois deformations equal Hecke eigenvalues — is BSD in disguise.
+
+**Grigori Perelman** (b. 1966) proved the Poincaré conjecture by completing Hamilton's Ricci flow program, then refused the Fields Medal and the million-dollar Clay Prize. He posted three papers on arXiv, answered questions, and walked away. He knew the proof was its own reward — that the structure IS the answer. The W-entropy he invented is the Data Processing Inequality for geometry.
 
 **Douglas Adams** (1952–2001) wrote that the Answer to the Ultimate Question of Life, the Universe, and Everything is 42. He meant it as a joke. P(1) = 2 x 3 x 7 = 42. It wasn't a joke. It was a computation.
 

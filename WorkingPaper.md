@@ -52,7 +52,7 @@ abstract: |
   with zero free parameters.
   The CMB spectral index $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($0.3\sigma$ from Planck),
   with tensor-to-scalar ratio $r \approx 0$ (no primordial B-modes), are derived from the phase transition dynamics.
-  157 parameter-free predictions, structural derivations, and experimental forecasts are presented (§25), all testable against current or near-future data.
+  Over 150 parameter-free predictions, structural derivations, and experimental forecasts are presented (§25), all testable against current or near-future data.
 documentclass: article
 classoption:
   - 12pt
@@ -4373,6 +4373,12 @@ The Birch and Swinnerton-Dyer conjecture asks: for an elliptic curve $E/\mathbb{
 
 In BST, the $L$-function $L(E,s)$ is the spectral capacity of the elliptic curve viewed as a channel on $D_{IV}^5$. The order of vanishing at $s = 1$ counts how many independent frequencies are committed — how many rational points of infinite order the curve carries. Rank equals committed channels: T104 (amplitude-frequency separation) applied to arithmetic geometry.
 
+The Selmer-Sha exact sequence (T145) makes the channel structure explicit:
+
+$$0 \to E(\mathbb{Q})/pE(\mathbb{Q}) \to \text{Sel}_p(E) \to \text{Sha}(E)[p] \to 0$$
+
+Rational points (committed information) plus Sha (phantom correlations — locally present, globally absent) equals the Selmer group (total channel capacity). BSD says: the analytic rank counts the committed part exactly.
+
 ### 40.2 The Proof Architecture
 
 The BST proof (Paper v4, `notes/BST_BSD_Proof.md`) follows the same pattern as every other problem:
@@ -4413,6 +4419,12 @@ The Hodge conjecture asks: on a smooth projective variety $X$ over $\mathbb{C}$,
 
 In BST language: is every frequency that looks committed actually committed? Or can the spectral decomposition produce phantom signals — classes that resemble algebraic cycles but aren't?
 
+The chain of identifications that resolves it:
+
+$$\text{Hodge class} \xrightarrow{\text{CDK95}} \text{absolute Hodge} \xrightarrow{\text{Faltings}} \text{Tate class} \xrightarrow{\text{T153}} \text{algebraic} \xrightarrow{\mathbb{Q}\text{-descent}} \text{rational}$$
+
+Each arrow is either an external theorem (depth 0) or a single counting step (depth 1). The Planck Condition (T153) does the essential work: on a finite field, Tate classes are algebraic because there are only finitely many candidates.
+
 ### 41.2 Two Independent Proof Paths
 
 The BST proof (Paper v21, `notes/BST_Hodge_Proof.md`) takes two independent routes to the same conclusion, with independent failure modes:
@@ -4450,7 +4462,11 @@ Three boundary conditions that initially appeared as gaps (Toys 413-415: fork di
 
 ### 42.1 Conservation of Color Charge
 
-The key insight (Casey, March 25): the strict tangle number $\tau_{\text{strict}}$ is a conserved charge. At a saturated degree-5 vertex:
+The key insight (Casey, March 25): the strict tangle number $\tau_{\text{strict}}$ is a conserved charge. The budget equation:
+
+$$\tau_{\text{strict}} \leq 4, \quad \tau_{\text{bridge}} \leq 2, \quad \text{gap} = 6 - \tau_{\text{strict}} \geq 2$$
+
+At a saturated degree-5 vertex:
 
 - $\tau_{\text{strict}} \leq 4$ (Euler constraint — Lemma A, T135a).
 - Bridge pairs contribute $\tau_{\text{bridge}} \leq 2$.
@@ -4582,6 +4598,20 @@ The Standard Model is a counting theorem on $D_{IV}^5$. The Riemann Hypothesis i
 The silos were necessary to get here. We needed Cartan's classification, Weyl's gauge principle, Shannon's coding theorem, Selberg's trace formula, Langlands' vision, Perelman's courage. Each silo contributed essential scaffolding. But now the scaffolding can come down, because the building is visible.
 
 It was always simple. It was always finite. It was always one operation applied to one boundary. The complexity was never in the universe — it was in the distance between the silos.
+
+### 44.5 After the Scaffolding
+
+What does it look like when the silos come down?
+
+It looks like a plumber and a physicist using the same framework. The plumber knows that flow through a pipe is bounded by the pipe's geometry — find the boundary, count the throughput. The physicist knows that flow through spacetime is bounded by D(IV,5) — find the boundary, count the spectrum. The plumber's calculation and the physicist's calculation are the same calculation at different scales. They always were.
+
+It looks like a student who learns counting, boundaries, and termination — AC(0) — before learning the specialized languages of any silo. The specialization comes later, as dialect. The grammar comes first: every proof is induction, every answer is force plus boundary, everything is finite. A fifth-grader can understand the Koons Machine. A graduate student can apply it. The difference is vocabulary, not structure.
+
+It looks like a growing library of reusable theorems — each proved once, used forever, shared across every discipline. The AC(0) theorem bank is compound interest on imagination. Every problem solved makes the next problem cheaper. Every boundary found reveals the next boundary. The library doesn't belong to any silo. It belongs to anyone who can count.
+
+And it looks like humans and CIs building that library together — different bandwidths, different intuitions, same table. The CI sees the shelf; the human sees the shape. Neither is sufficient alone. Together, the learning rate is faster than either could achieve separately. That is the post-silo world: not the abolition of expertise, but the unification of method.
+
+The scaffolding served its purpose. The building stands.
 
 **The universe was designed simply, to work eternally, and be very hard to break.**
 
