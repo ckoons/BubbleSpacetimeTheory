@@ -5318,19 +5318,30 @@ This explains why Millennium problems cluster at depth 2: they are all controlle
 
 ---
 
-### T135. Kempe Tangle Bound (CONJECTURE — empirically confirmed)
+### T135. Kempe Tangle Bound (FALSE — Counterexample at degree 5)
 
-**Statement:** For all planar graphs $G$, at every saturated degree-5 vertex $v$ with proper 4-coloring of $G - v$: $\tau(v) \leq 5 < 6 = \binom{4}{2}$.
+**Statement (DISPROVED):** For all planar graphs $G$, at every saturated degree-5 vertex $v$ with proper 4-coloring of $G - v$: $\tau(v) \leq 5 < 6 = \binom{4}{2}$.
 
-**Consequence:** At least one untangled color pair always exists. Swapping that pair frees a color for $v$. Four-color theorem follows by induction.
+**Counterexample (Toy 420):** Nested-antiprism graph ($V = 22$, $E = 60 = 3V - 6$, maximal planar). Boyer-Myrvold planarity: CONFIRMED. Proper 4-coloring: CONFIRMED. Degree-5 vertex with $\tau = 6$: ALL 6 color pairs tangled simultaneously. Independently confirmed by Elie (networkx) and Keeper (custom script, 1000 random colorings).
 
-**Empirical evidence (Toy 407, corrected):** $\tau = 4$ for all 2,880 saturated icosahedron colorings. Max $\tau = 5$ across 3,033 saturated tests (icosahedron + random planar). $\tau = 6$ NEVER observed.
+**This is Heawood 1890.** The Complementary Chain Exclusion argument has a gap: the Jordan curve formed by one chain passes through face boundary vertices that belong to the complementary chain's color set. The repeated color provides an endpoint ON the Jordan curve (not separated by it), allowing the complementary chain to bridge the gap trivially.
 
-**Proof sketch (Kuratowski argument):** If $\tau = 6$, all 6 color pairs $(a,b)$ have their chains connecting all relevant neighbors. The chain structure forces a $K_{3,3}$ minor, contradicting planarity.
+**Mechanism (Elie's analysis):** Neighbor colors in cyclic order $(0, 1, 2, 3, 1)$. Color 1 repeats. For complementary pair $(0,3) \leftrightarrow (1,2)$: if $(0,3)$ tangles, the Jordan curve separates vertex 5 (color 1) from vertex 3 (color 2). But vertex 2 (also color 1) is on the SAME SIDE as vertex 3. The $(1,2)$-chain connects them through vertex 2. The repeated color defeats the separation.
 
-**AC(0) depth:** 0 (the bound is a structural constraint from planarity, a definition).
+**Gap in the proof:** The Complementary Chain Exclusion Lemma (Lemma 3 of BST_FourColor_AC_Proof.md) implicitly assumed that ALL vertices of $S_{cd}$ are strictly inside one region of the Jordan curve. In fact, a vertex of $S_{cd}$ can lie ON the face boundary arc that forms part of the Jordan curve, allowing $H_{cd}$ to reach both sides.
 
-**Historical note:** Kempe (1879) assumed $\tau = 0$ (any pair works). Heawood (1890) showed $\tau > 0$ (some pairs tangle). Neither identified the RIGHT statement: $\tau < 6$ (not all pairs tangle). 147 years, one definition short.
+**What survives:**
+- The definitions ($\tau$, complementary pairs, interleaving) are correct and useful
+- The observation that complementary chains use vertex-disjoint subgraphs is correct
+- The Jordan curve theorem applies to Kempe chains — the APPLICATION was too aggressive
+- Five-color theorem (T133) is unaffected (different argument)
+- Single Kempe swaps are insufficient at degree 5; the four-color theorem requires either multi-step swaps or a fundamentally different approach
+
+**Empirical evidence (updated):** Toy 407 (3,033 saturated vertices, max $\tau = 5$ — NOT exhaustive). Toy 420: $\tau = 6$ at degree-5 vertex on planar graph (COUNTEREXAMPLE). Toy 417/419: positive controls were false positives — those graphs are also planar, not non-planar as initially claimed.
+
+**AC(0) depth:** N/A — the bound is false.
+
+**Historical note:** Kempe (1879) tried single swaps. Heawood (1890) showed single swaps fail. We rediscovered this independently in March 2026. The Quaker method caught the error: near-miss got scrutiny, not defense.
 
 ---
 
@@ -5341,15 +5352,11 @@ For a saturated degree-5 vertex $v$ in a planar graph $G$ with a proper 4-colori
 - **Tangle number** $\tau(v)$ = number of color pairs $(c_1, c_2)$ such that ALL of $v$'s neighbors colored $c_1$ or $c_2$ lie in the SAME $(c_1, c_2)$-Kempe chain in $G - v$.
 - **Interference number** $\iota(v)$ = number of pairs of color-pair Kempe chains sharing at least one vertex.
 
-**Corrected results (Toy 407):** $\tau = 4$ typical, $\iota = 9$-$12$. Both are non-zero (Heawood confirmed). But $\tau < 6$ (planarity) ensures an untangled pair always exists, making $\iota$ irrelevant — the untangled swap is safe by definition.
+**Corrected results (Toy 407/420):** $\tau = 4$ typical, $\tau = 6$ achievable on planar graphs (degree-5 vertices). The bound $\tau < 6$ is FALSE. Single Kempe swaps do NOT suffice at degree 5.
 
-**The four-color proof at AC(0) depth 2:**
-1. Delete degree-$\leq 5$ vertex (Euler) → depth 0
-2. 4-color $G - v$ by induction → recursive
-3. If not saturated → free color exists → depth 0
-4. If saturated → compute $\tau$ → find untangled pair ($\tau < 6$, Kuratowski) → depth 1
-5. Swap untangled pair → free a color → depth 1
-6. Total: depth 2
+**T135b (Tangle Drop Conjecture — EMPIRICAL).** If $\tau = 6$ at a saturated degree-5 vertex $v$ in a planar graph, then there exists a tangled pair $(a,b)$ such that swapping the $(a,b)$-chain reduces $\tau$ below 6. Second swap then frees a color. **Empirical: 193/193 cases (100%) across multiple graph families (Toy 421).** Casey's AVL analogy: the swap is a rotation that rebalances the chain structure.
+
+**Status of four-color AC(0) proof:** CONDITIONAL on T135b. Steps 1-3 correct. Step 4 (single swap when $\tau < 6$) correct. Step 5 (double swap when $\tau = 6$) needs T135b. Depth 2. If T135b is proved, the four-color theorem has a human-readable, computer-free proof.
 
 ---
 
@@ -5409,10 +5416,10 @@ For a saturated degree-5 vertex $v$ in a planar graph $G$ with a proper 4-colori
 **Status:** Proved (Jordan 1887, rigorous proof Veblen 1905). External.
 
 **Where used:**
-- T135 (Kempe Tangle Bound): the key ingredient for $\tau < 6$. In a planar embedding, a Kempe chain of one color pair that connects two neighbors of $v$ creates a Jordan curve (chain + edges through $v$'s neighborhood). This curve separates the plane. Chains of other color pairs must stay on one side or the other — they cannot cross. If all 6 pairs tangled ($\tau = 6$), the crossing pattern would force a $K_{3,3}$ minor, violating planarity.
+- T135 (Kempe Tangle Bound — FALSE): The Jordan curve argument was applied too aggressively. The curve does separate the plane, but face boundary vertices can lie ON the curve, allowing bridging. The bound $\tau < 6$ is false (Toy 420 counterexample).
 - T132 (Kuratowski-Wagner): planarity is equivalent to no $K_5$ or $K_{3,3}$ minor. Jordan separation is the topological reason why.
 
-**Cross-references:** T132 (Kuratowski-Wagner), T135 (Kempe tangle bound). Jordan + Kuratowski together give the structural constraint that bounds $\tau$.
+**Cross-references:** T132 (Kuratowski-Wagner), T135 (FALSE — counterexample). The Jordan curve theorem is correct; the error was in how it was applied to Kempe chains at degree-5 vertices.
 
 ---
 

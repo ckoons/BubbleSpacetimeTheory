@@ -2988,9 +2988,56 @@ proved theorems, ONE axiom (T153 = Tate conjecture). Weight-independent — bypa
 Referee survival ~80%. Full Hodge: ~95% (formal) / ~96% (combined with geometric Routes D/F/H).
 "If Tate is proved, Hodge is proved."
 
+### 417. Kempe Free Pair — The Method Was Always Right (`toy_417_kempe_free_pair.py`)
+
+**8/8 — Kempe's method vindicated.** At a degree-5 vertex with 4 colors: C(4,2)=6 pairs,
+at most 5 tangled (Jordan), at least 1 free. Margin = exactly 1. Heawood (1890) found ONE
+tangled pair and stopped; he never asked if another was free. Greedy coloring is so effective
+that saturated degree-5 vertices are rare. Icosahedron (hardest planar case): free pairs confirmed.
+"The prescription was wrong; the method was right."
+
+### 418. Jordan Tangle Bound — Why tau < 6 (`toy_418_jordan_tangle_bound.py`)
+
+**8/8 — The load-bearing step.** Two cases: adjacent repeat (n1=A,n2=A,...) and non-adjacent
+repeat (n1=A,...,n5=A). Both give tau ≤ 5 via Jordan curve + complementary pair disjointness.
+Key: with 4 colors, complementary pairs share NO colors → chains cannot cross Jordan curve.
+Cyclic embedding order forces at least one complementary pair to have endpoints on opposite
+sides of some tangled pair's Jordan curve. Complete human-checkable proof assembled: depth 2.
+Four-color AC(0): ~85%. Remaining gap: path extraction from Kempe chain tree.
+
+### 419. Planarity Separation — Positive Control + Stress Test (`toy_419_planarity_separation.py`)
+
+**8/8 — BUT CONCLUSIONS WRONG.** K_5/K_{3,3} detection algorithm has bug: doesn't check for
+internally vertex-disjoint paths. "Positive control" was a false positive — Toy 417 test-2
+graph IS planar (Boyer-Myrvold). Config 1 & 2 max tau=4 was on too-small graph. Icosahedron
+exhaustive: 240 colorings, zero saturated (still valid data). Separation Lemma formalized but
+subsequently refuted by Toy 420.
+
+### 420. The Tau-5 Hunt — T135 REFUTED (`toy_420_tau5_hunt.py`)
+
+**7/8 — T135 FALSE.** tau=6 at degree-5 vertex on a PLANAR graph (Boyer-Myrvold confirmed,
+proper 4-coloring verified). Mechanism: repeated color (1 at positions 2,5) gives two c1-endpoints;
+Jordan curve separates one from the c2-target but the other is on the same side and trivially
+connects. All three complementary pairs tangle simultaneously. This is Heawood 1890 —
+rediscovered independently by the Quaker method. Single Kempe swap insufficient at degree 5.
+The four-color theorem is TRUE (Appel-Haken/RSST) but not provable by this route.
+"The method needs more than one swap."
+
+### 421. The Swap Failure — Double-Swap Resolves tau=6 (`toy_421_swap_failure_analysis.py`)
+
+**8/8 — Double swap works 100%.** Casey's clue: "the symmetry of tau=6 with degree 5
+and tau=4 with degree 6 is the clue." Key findings: (1) tau=6 at saturated degree-5:
+CONFIRMED (77/321 = 24% on antiprism, 79/211 on random triangulations). (2) tau=6 at
+saturated degree-6: ALSO confirmed (160/393 = 40% on hexagonal wheel — "clean pair"
+argument was WRONG). (3) Double swap resolves ALL tau=6 cases: 316/316 = 100%. (4) Heawood
+mechanism confirmed: repeated color in every complementary pair grouping. (5) Casey's AVL
+analogy: double-swap = double-rotation, O(1) bounded rebalancing. T135b (tangle-drop
+conjecture): swapping a tangled pair at tau=6 always reduces tau. Empirical: 100%. Formal
+proof: OPEN. If proved, four-color = Euler + induction + 2 swaps, AC(0) depth 3.
+
 ---
 
-A text-based Tkinter launcher with categories, search, and click-to-launch. Type a number (1-416) or browse by category.
+A text-based Tkinter launcher with categories, search, and click-to-launch. Type a number (1-421) or browse by category.
 
 ---
 

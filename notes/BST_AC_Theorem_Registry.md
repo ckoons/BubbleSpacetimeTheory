@@ -155,7 +155,9 @@ rules: |
 | T134a | Pair Resolution (depth composition) | Proved (corollary of T96) | BST_AC_Theorems §55 | — | 2026-03-25 |
 | T134b | Structural Duality Creates Pairs | Proved (case by case) | BST_AC_Theorems §55 | — | 2026-03-25 |
 | T134c | Universal Pairing Conjecture | CONJECTURE | BST_AC_Theorems §55 | — | 2026-03-25 |
-| T135 | Kempe Tangle Bound (τ < 6) | CONJECTURE (empirical, Toy 407) | BST_AC_Theorems §55 | Toy 407 | 2026-03-25 |
+| T135 | Kempe Tangle Bound (τ ≤ 5) | **FALSE** (operational definition). **TRUE** (strict: τ_strict ≤ 4, Toy 423). Wrapping gap at bridge gap=2 defeats Jordan separation. Heawood 1890. | BST_FourColor_AC_Proof | Toys 407,417,420,423 | 2026-03-25 |
+| T135a | Gap-1 Bound (Lemma A) | **PROVED** (Jordan curve). Bridge gap=1 → τ ≤ 5. Gap=1 avoids wrapping. τ=6 requires gap=2 (405/405, zero exceptions). | BST_FourColor_AC_Proof v5 | Toy 424 | 2026-03-25 |
+| T135b | Transposition Inversion (Lemma B) | **EMPIRICAL** — 405/405 (100%). At τ=6 (gap=2), ∃ swap reducing alignment 3→≤2, hence τ→<6. Casey's "simple sorting theory": swap = transposition in cyclic order, always creates inversion. Cross-link mechanism (Toy 423). If proved → four-color at depth 2. | BST_FourColor_AC_Proof v5 | Toys 421,423,424 | 2026-03-25 |
 | T136 | Poincaré Duality | Proved (external) | BST_AC_Theorems §56 | — | 2026-03-25 |
 | T137 | Exceptional Isomorphisms (low-rank) | Proved (external) | BST_AC_Theorems §56 | — | 2026-03-25 |
 | T138 | Jordan Curve Separation | Proved (external) | BST_AC_Theorems §56 | — | 2026-03-25 |
