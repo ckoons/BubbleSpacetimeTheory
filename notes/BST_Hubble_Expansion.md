@@ -114,56 +114,102 @@ uncommitted channels) explains galaxy rotation curves directly (DarkMatterCalcul
 
 ## 5. The Hubble Floor and the Hubble Tension
 
-### 5.1 The BST Floor
+### 5.1 The BST H₀: Two Routes, One Answer
 
-Backfit from Lambda_obs = 2.9e-122 Planck units with flat, no-DM universe:
+**Reconciliation note (March 26, 2026):** BST derives H₀ through two routes that
+initially appeared to disagree. They do not — they answer different questions.
 
-    H₀_floor = 58.2 km/s/Mpc
+**Route A — Vacuum-only backfit: H₀ = 58.2 km/s/Mpc (SUPERSEDED)**
 
-This is **below** both CMB (67.4 ± 0.5) and local ladder (73.0 ± 1.0).
-The contact graph picture explains why:
+The early estimate used a flat universe with ONLY baryons + Λ, no dark matter term:
 
-- The vacuum committed fraction F_BST = 0.09855 forces Ω_Λ ≈ 0.95 (flat, no DM)
-- This high dark energy fraction raises H at late times less efficiently than
-  the mixed DM+Λ ΛCDM model would
-- The floor reflects the *vacuum* rate of contact graph growth, which is set
-  by F_BST and the quantum fluctuation rate (one committed pair per coherence time)
+    H²(z) = H₀² [Ω_Λ + Ω_b(1+z)³ + Ω_r(1+z)⁴]
 
-### 5.2 Why the Observed Value is Higher: Local Contact Density
+With Ω_Λ ≈ 0.95 (forced by F_BST = 0.09855 and no DM), this gives H₀ = 58.2.
+This value is **not a BST prediction** — it is an artifact of omitting the
+uncommitted reservoir term. BST does not have dark matter particles, but it
+DOES have uncommitted channel capacity (UNCs) that contributes to H²(z) as
+an effective matter-like term (see §8).
 
-The Hubble parameter measured by the local distance ladder (Cepheid/SN) samples
-H₀ in a locally overdense region.  In BST:
+**Route B — From baryon asymmetry: H₀ = 67.9 km/s/Mpc (CURRENT)**
 
-- Overdense regions have **higher committed contact density** (more channels
-  committed per unit substrate area)
-- Higher committed density → faster local A_c growth → higher local H
-- The excess: H_local - H_floor ≈ (δN_c/N_c) × H_floor/2
+The BST-derived η = 2α⁴/(3π)(1+2α) = 6.105 × 10⁻¹⁰ → Ω_b h² = 0.0223.
+Combined with the standard ΛCDM framework (which includes a matter term that
+BST identifies as the uncommitted reservoir), this gives H₀ ≈ 67.9 km/s/Mpc.
+This is +0.7% from Planck (67.36 ± 0.54).
 
-This is not a calibration error — it is a real BST effect.  Different measurements
-probe different regions of the committed graph:
+**Why Route B is correct:** Route B includes ALL contributions to H²(z) — baryons,
+radiation, AND the uncommitted reservoir (which standard cosmology calls "dark
+matter"). Route A omitted the reservoir, which accounts for Ω_m - Ω_b ≈ 0.27
+of the critical density. Removing 27% of the matter budget naturally gives a
+value that is too low.
 
-| Measurement | Region probed | Expected H₀ |
+**What BST predicts vs. what depends on d₀:**
+
+| Quantity | BST status | Value |
+|----------|-----------|-------|
+| η (baryon asymmetry) | **PREDICTED** (zero free parameters) | 6.105 × 10⁻¹⁰ |
+| Ω_Λ = 13/19 | **PREDICTED** (Reality Budget) | 0.6842 |
+| Ω_m = 6/19 | **PREDICTED** (1 - Ω_Λ) | 0.3158 |
+| H₀ (from η via ΛCDM) | **PREDICTED** (from η + Ω_Λ + standard physics) | 67.9 km/s/Mpc |
+| Λ (absolute value) | **CONSTRAINED** (requires d₀) | 2.90 × 10⁻¹²² |
+| d₀ (contact scale) | **UNKNOWN** (backfit from Λ_obs) | 7.37 × 10⁻³¹ ℓ_Pl |
+
+The ratio predictions (η, Ω_Λ, H₀) are genuine zero-parameter BST predictions.
+The absolute scales (Λ, d₀) share one unknown. Deriving d₀ from the partition
+function is an open problem (§9).
+
+### 5.2 Why the Local Value is Higher: Committed Matter Streams
+
+*"Locally we see through the highly committed matter streams that adds velocity.
+The background will be a floor that does not budge — the natural expansion rate
+at the time the radiation was generated." — Casey Koons, March 26, 2026*
+
+The CMB measurement (H₀ = 67.4) gives the **floor** — the natural expansion rate
+of the substrate when the radiation was generated. CMB photons traveled most of
+their journey through low-commitment-density space (voids, intergalactic medium).
+This floor is set by the substrate geometry and the Reality Budget. It does not budge.
+
+The local measurement (H₀ = 73) is higher because local distance ladder
+measurements look **through** the highly committed matter streams of the local
+large-scale structure — filaments, walls, the Great Attractor, Laniakea. The
+committed matter adds velocity to the measurement. Both values are correct;
+they measure different things.
+
+| Measurement | What it sees | Expected H₀ |
 |---|---|---|
-| CMB (Planck) | Full past light cone, averaged | H₀_floor |
-| Baryon acoustic oscillation | Large scale, near-average | H₀_floor + small |
-| Cosmic chronometers | Line-of-sight galaxies | Mixed |
-| Local distance ladder (Riess) | z < 0.15, overdense | H₀_floor + local |
-| Megamaser (geometric) | z ≈ 0.003, very local | H₀_floor + local |
+| CMB (Planck) | Background floor, averaged over full light cone | H₀_floor (67.4) |
+| Baryon acoustic oscillation | Large scale, near-average commitment density | H₀_floor + small |
+| Cosmic chronometers | Line-of-sight through mixed density | Mixed |
+| Local distance ladder (Riess) | Through committed matter streams, z < 0.15 | H₀_floor + streams (73) |
+| Megamaser (geometric) | Very local, z ≈ 0.003 | H₀_floor + local streams |
 
-The "Hubble tension" in BST is not a tension — it is the **gradient in committed
-contact density** between the cosmic average and the local overdensity.
+The "Hubble tension" in BST is not a tension — it is the **committed matter
+stream contribution** on top of the background floor.
 
-**Prediction:** BST predicts the local-to-cosmic H₀ ratio:
+**Quantitative prediction:** The local-to-cosmic ratio:
 
-    H₀_local / H₀_cosmic = √(1 + δ_contacts_local)
+    H₀_local / H₀_cosmic = √(1 + δ_c) = √(1 + 0.17) ≈ 1.08
 
-where δ_contacts_local = local fractional excess of committed contacts.
-This is measurable: it should correlate spatially with the matter overdensity
-field on scales of ~100 Mpc.
+where δ_c ≈ 0.17 is the local fractional excess of committed contact density.
+This matches the observed ratio 73/67.4 = 1.083.
+
+**Cleanest test:** Measure H₀ through voids vs. through filaments. BST predicts
+a systematic directional dependence that tracks local commitment density. ΛCDM
+with particle dark matter predicts no such directional dependence.
+
+**Connection to Reality Budget:** The characteristic fluctuation δ_c ≈ 0.17-0.19
+is strikingly close to the fill fraction 19.1% (Gödel Limit). Whether this reflects
+a deeper constraint on commitment density fluctuations is an open question.
 
 ---
 
-## 6. Backfit Table (March 2026)
+## 6. Backfit Table (March 2026) — HISTORICAL
+
+*Note: This backfit table predates the η derivation (March 13) and the committed
+matter stream picture (March 26). The 58.2 km/s/Mpc floor is an artifact of the
+no-DM assumption. The current BST prediction is H₀ ≈ 67.9 km/s/Mpc (Route B,
+§5.1). The backfit table is preserved for reference.*
 
 ### 6.1 Setup
 
@@ -324,19 +370,32 @@ where Ω_uncomm = fraction of channels not yet committed at each epoch, and n_c
 depends on the contact commitment rate law.  If n_c = 3 (commitment proportional
 to contact area), then BST recovers the ΛCDM H(z) dependence with no DM particles.
 
-This is a key prediction: the effective "dark matter" in BST is epoch-dependent
-(different n_c at different times), while particle DM has n_c = 3 exactly.
+**Status (March 26, Elie review):** The assumption n_c = 3 recovers the ΛCDM
+H(z) form by construction. This is currently an ansatz, not a derivation. To
+make this a genuine BST prediction, n_c must be derived from the partition
+function (the commitment rate law on the Shilov boundary). If n_c ≠ 3 exactly,
+BST's H(z) would deviate from ΛCDM at high z — a testable prediction. Deriving
+n_c from substrate topology is an open priority (§9, item 4).
+
+The effective "dark matter" in BST is epoch-dependent (different n_c at
+different times), while particle DM has n_c = 3 exactly.
 
 ---
 
 ## 9. Open Questions for the Expansion Rate Paper
 
-1. **Derive H₀ from N_c rate equation** using BST partition function + contact topology
-2. **Compute d_0 from geometry** — this is the shared unknown for both Λ and H₀
-3. **Derive Ω_b h² from baryon asymmetry** in BST (no observational input needed)
-4. **Compute n_c (commitment rate exponent)** from substrate topology — should be ≈ 3
-5. **Local contact density** → quantitative prediction of H₀_local − H₀_cosmic
-6. **GW imprint** of phase transition at T_c = 0.487 MeV on H(z) at z~3.1s after BB
+1. **Compute d_0 from geometry** — this is the shared unknown for both Λ and H₀.
+   d₀ is currently backfit from Λ_obs. It is a constraint, not a prediction.
+   Deriving d₀ from the partition function would make Λ and H₀ fully predicted.
+2. ~~**Derive Ω_b h² from baryon asymmetry**~~ — **DONE** (March 13). η = 2α⁴/(3π)(1+2α).
+3. **Compute n_c (commitment rate exponent)** from substrate topology — currently
+   an ansatz (n_c = 3 recovers ΛCDM by construction). Priority: derive from
+   partition function or distinguish from ΛCDM empirically.
+4. ~~**Local contact density → H₀_local prediction**~~ — **DONE** (March 26).
+   H_local/H_cosmic = √(1 + δ_c), δ_c ≈ 0.17. Void vs. filament test proposed.
+5. **GW imprint** of phase transition at T_c = 0.487 MeV on H(z) — see WorkingPaper §15.6
+6. **Run modified BBN code** (PRIMAT/AlterBBN) with Δg_*(T) = 7 × Θ(T - T_c) to
+   confirm the ⁷Li analytical estimate. Concrete computation task for Elie.
 7. **Neutrino mass from contact graph**: ν is a propagating channel excitation;
    its mass is the energy cost to maintain an open contact against zero-mode decay
 

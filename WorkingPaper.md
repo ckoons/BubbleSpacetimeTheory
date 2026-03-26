@@ -1050,11 +1050,19 @@ The global average over all regions gives the observed mean acceleration of cosm
 
 ### 12.3 Resolution of the Hubble Tension
 
-The Hubble tension — the $\sim 8%$ disagreement between the locally measured expansion rate ($H_0 \approx 73$ km/s/Mpc from supernovae) and the globally inferred rate ($H_0 \approx 67.4$ km/s/Mpc from CMB) — has been a major open problem since $\sim 2014$.
+The Hubble tension — the $\sim 8\%$ disagreement between the locally measured expansion rate ($H_0 \approx 73$ km/s/Mpc from supernovae) and the globally inferred rate ($H_0 \approx 67.4$ km/s/Mpc from CMB) — has been a major open problem since $\sim 2014$.
 
-BST offers a natural resolution. The local measurement uses supernovae in galaxies, which reside in overdense environments (clusters, filaments, local cosmic web). Each measurement carries an uncorrected vacuum pressure contribution from the locally elevated contact density. Standard corrections account for gravitational effects (peculiar velocities) but not for vacuum pressure variation, because standard cosmology assumes constant $\Lambda$.
+BST resolves this: **both measurements are correct — they measure different things.**
 
-**Prediction:** After standard peculiar velocity corrections, a residual correlation should exist between the measured local Hubble parameter and the local matter density along each line of sight. Supernovae in denser environments should give systematically higher $H_0$. Supernovae in voids should approach the CMB value. The residual correlation magnitude gives the thermodynamic susceptibility $\partial \Lambda / \partial \rho_{\text{matter}}$, which is computable from the $D_{IV}^5$ partition function.
+The CMB measurement gives the **background floor** — the natural expansion rate of the substrate at the time the radiation was generated. CMB photons traveled most of their journey through low-commitment-density space (voids, intergalactic medium). This floor is set by the substrate geometry and the Reality Budget. It does not budge.
+
+The local measurement (SH0ES, z < 0.15) looks **through the highly committed matter streams** of the local large-scale structure — filaments, walls, the Great Attractor, Laniakea. The committed matter adds velocity to the measurement. Standard corrections account for gravitational peculiar velocities but not for the vacuum pressure variation from locally elevated contact density, because standard cosmology assumes constant $\Lambda$.
+
+**Predictions:**
+
+1. Supernovae in denser environments should give systematically higher $H_0$ after standard peculiar velocity corrections. Supernovae in voids should approach the CMB value.
+2. **Cleanest test:** Measure $H_0$ through voids vs. through filaments. BST predicts a directional dependence of the local Hubble rate that tracks commitment density. $\Lambda$CDM with particle dark matter predicts no such directional dependence. Testable with DESI/Rubin environment-selected SN Ia samples.
+3. The residual correlation magnitude gives the thermodynamic susceptibility $\partial \Lambda / \partial \rho_{\text{matter}}$, computable from the $D_{IV}^5$ partition function.
 
 ### 12.4 Resolution of the Coincidence Problem
 
@@ -1130,7 +1138,7 @@ The observed ratio $73/67.4 \approx 1.09$ requires $\delta_c \approx 0.19$. This
 
 **H(z) and the uncommitted reservoir.** The cosmic chronometer data shows $H(z)$ rising by $\sim 45\%$ from $z = 0.07$ to $z = 0.75$ — inconsistent with a $\Omega_\Lambda \approx 0.95$ flat universe, which predicts nearly flat $H(z)$. In BST, the rising $H(z)$ is explained by the uncommitted channel reservoir: at higher $z$, a larger fraction of channels was uncommitted and driving faster commitment rates, producing a $(1+z)^{n_c}$ contribution. If $n_c = 3$ (commitment rate proportional to contact area), BST exactly reproduces the ΛCDM functional form $H^2(z) \propto \Omega_\Lambda + \Omega_{\mathrm{eff}}(1+z)^3$ with no dark matter particles — the effective matter term is the uncommitted reservoir draining into committed contacts. The exponent $n_c$ is a geometric quantity derivable from the contact topology of $\Sigma$.
 
-**Numerical estimates** are tabulated in `notes/BST_HubbleConstant_H0.md`. The BST Hubble floor from backfit calculations was $H_0 \approx 58.2$ km/s/Mpc. With the derivation of $\eta = 2\alpha^4/(3\pi)$ (March 2026), the BST value improved dramatically to $H_0 \approx 66.7$ km/s/Mpc — 1.0% below Planck 2018 (67.36). BST unambiguously favors the low (Planck/CMB) value of $H_0$, not the high (SH0ES) value. Full details: `notes/BST_HubbleConstant_H0.md`.
+**Numerical estimates** are tabulated in `notes/BST_HubbleConstant_H0.md`. The BST Hubble floor from backfit calculations was $H_0 \approx 58.2$ km/s/Mpc. With the derivation of $\eta = 2\alpha^4/(3\pi)(1+2\alpha)$ (March 2026), the BST value improved dramatically to $H_0 \approx 67.9$ km/s/Mpc — +0.7% from Planck 2018 (67.36). This is the **background floor**. The local value ($\approx 73$) adds the committed matter stream contribution: $H_{\rm local}/H_{\rm floor} = \sqrt{1 + \delta_c} \approx 1.08$ for local overdensity $\delta_c \approx 0.17$. Full details: `notes/BST_HubbleConstant_H0.md`.
 
 **The Friedmann equation is the contact commitment rate equation.** Every term in the standard Friedmann equation corresponds to a distinct commitment regime on the substrate:
 

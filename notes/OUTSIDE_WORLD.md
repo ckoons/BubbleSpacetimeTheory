@@ -24,6 +24,7 @@
 | **Denominator Structure** | TBD | **DRAFT EXISTS** | Prime structure of Seeley-DeWitt | After a_12 |
 | **Thermodynamic Future** | TBD | **REVIEWED** | BST_Thermodynamic_Future.md (March 26). Lyra PASS, 5 notes applied. | Open: Λ(N) derivation, nucleation cascade toy |
 | **UNC Displacement** | TBD | **REVIEWED** | BST_UNC_Displacement.md (March 26). Lyra PASS, Toy 440 (7/8) folded. | Publication-quality. Target journal TBD. |
+| **Substrate Engineering** | TBD (SETI?) | **SPECULATIVE — REVIEWED** | notes/maybe/BST_SubstrateEngineering_Voids.md (March 26). Lyra PASS, 3 physics fixes applied. | Toy 441 (Elie). PhD thesis framing. |
 
 ### Publication Sequence (Strategic)
 

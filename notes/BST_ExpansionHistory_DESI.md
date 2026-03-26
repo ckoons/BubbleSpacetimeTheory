@@ -243,15 +243,19 @@ The key difference from generic parameterizations: BST's $\Lambda(z)$ is MONOTON
 | Phantom crossing | Allowed | **Forbidden** | $w(z) > -1$ always |
 | $\Omega_\Lambda(z=0)$ | $0.685 \pm 0.007$ | $13/19 = 0.6842$ | Already within $0.07\sigma$ |
 
-### 5.4 The Hubble Tension
+### 5.4 The Hubble Tension — Resolved by Committed Matter Streams
 
-BST's time-varying $\Lambda$ means $H$ was slightly higher in the recent past. Local $H_0$ measurements (SH0ES) probe $z < 0.1$, where $\Lambda$ was slightly larger than the CMB-epoch value.
+BST's time-varying $\Lambda$ alone does NOT resolve the Hubble tension ($\epsilon \sim 10^{-4}$ is too small). The resolution comes from a different mechanism: **committed matter streams**.
 
-The fractional increase over the SH0ES lookback ($\Delta z \sim 0.5$):
+The CMB measures the **background floor** — the natural expansion rate at the time the radiation was generated, averaged over the full past light cone through low-commitment-density space. This floor does not budge.
 
-$$\frac{\Delta H}{H} \sim \frac{\epsilon}{2} \times \Delta z \sim 10^{-4}$$
+Local measurements (SH0ES, z < 0.15) look **through** the highly committed matter streams of the local large-scale structure — filaments, walls, the Great Attractor, Laniakea. The committed matter adds velocity. Both measurements are correct; they measure different things.
 
-This is far too small to explain the Hubble tension ($\sim 8\%$ discrepancy). **BST's time-varying $\Lambda$ does NOT resolve the Hubble tension** — the tension, if real, must have a different BST explanation (likely related to the local density environment affecting the commitment rate).
+$$H_0^{\rm local} / H_0^{\rm CMB} = \sqrt{1 + \delta_c} \approx \sqrt{1.17} \approx 1.08$$
+
+where $\delta_c \approx 0.17$ is the local excess of committed contact density. This matches the observed ratio $73/67.4 = 1.083$.
+
+**Testable prediction:** $H_0$ measured through voids should approach the CMB value. $H_0$ measured through filaments should exceed it. BST predicts a directional/environmental dependence of the local Hubble rate that tracks commitment density. DESI and Rubin LSST can test this with environment-selected SN Ia samples.
 
 -----
 

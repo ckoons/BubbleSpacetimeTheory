@@ -8,9 +8,19 @@ companion: "BST_BaryonAsymmetry_Eta.md (result summary), BST_Chronology_BigBang.
 
 # Partition Function Derivation of η = 2α⁴/(3π)
 
+*"It's preferential winding in the direction of commitment." — Casey Koons*
+
 *The baryon asymmetry of the universe — one baryon per 1.66 billion photons — follows
 from the BST partition function at the phase transition temperature. Every factor has
 a geometric origin in D_IV^5.*
+
+**The intuition in one sentence:** When the S¹ fiber activates (frozen → active), it
+picks a direction — the commitment direction, which becomes the arrow of time. Forward
+windings (matter) propagate into uncommitted substrate at lower impedance than backward
+windings (antimatter). The impedance mismatch is α⁴ per baryon-producing event, with
+a geometric prefactor of 2/(3π) from color projection and fiber normalization. The
+result: one excess baryon per 1.66 billion photons. Not a dynamical process — a
+topological bias built into the geometry of D_IV^5 at the moment of activation.
 
 -----
 
