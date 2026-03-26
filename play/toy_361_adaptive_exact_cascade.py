@@ -22,6 +22,10 @@ points (n=3..35). Three Theorems give 3 constraints → 22 unknowns.
 
 Structural prediction: a₁₂ is a QUIET level (B₂₄ → no new prime beyond 23).
 
+CHECKPOINTING: Results are saved after each expensive computation.
+If the script dies, restart it — it picks up from the last checkpoint.
+Checkpoint dir: play/toy_361_checkpoint/
+
 Copyright (c) 2026 Casey Koons. All rights reserved.
 This software is provided for demonstration purposes only.
 No license is granted for redistribution, modification, or commercial use.
@@ -32,6 +36,8 @@ Created with Claude Opus 4.6 (Elie). March 2026.
 """
 
 import sys
+import os
+import json
 import time
 from fractions import Fraction
 import mpmath
@@ -47,6 +53,10 @@ mpmath.mp.dps = 800  # 800 digits — headroom for exact subtraction + extractio
 PASS = 0
 FAIL = 0
 
+# Checkpoint directory (relative to script location)
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+CKPT_DIR = os.path.join(SCRIPT_DIR, "toy_361_checkpoint")
+
 
 def score(name, cond, detail=""):
     global PASS, FAIL
@@ -59,6 +69,108 @@ def score(name, cond, detail=""):
     print(f"  {tag}: {name}")
     if detail:
         print(f"         {detail}")
+
+
+# ═══════════════════════════════════════════════════════════════════
+# CHECKPOINT I/O
+# ═══════════════════════════════════════════════════════════════════
+
+def ensure_ckpt_dir():
+    os.makedirs(CKPT_DIR, exist_ok=True)
+
+
+def ckpt_path(name):
+    return os.path.join(CKPT_DIR, name)
+
+
+def save_mpf_list(vals, filepath):
+    """Save a list of mpf values as high-precision decimal strings."""
+    data = [mpmath.nstr(v, mpmath.mp.dps + 50, strip_zeros=False) for v in vals]
+    with open(filepath, 'w') as f:
+        json.dump(data, f)
+
+
+def load_mpf_list(filepath):
+    """Load a list of mpf values from string representation."""
+    with open(filepath, 'r') as f:
+        data = json.load(f)
+    return [mpmath.mpf(s) for s in data]
+
+
+def save_heat_trace(n, ts, fs, vol, prefix):
+    """Save heat trace computation for dimension n."""
+    ensure_ckpt_dir()
+    data = {
+        'ts': [mpmath.nstr(t, mpmath.mp.dps + 50, strip_zeros=False) for t in ts],
+        'fs': [mpmath.nstr(f, mpmath.mp.dps + 50, strip_zeros=False) for f in fs],
+        'vol': mpmath.nstr(vol, mpmath.mp.dps + 50, strip_zeros=False),
+    }
+    fp = ckpt_path(f"{prefix}_heat_n{n:02d}.json")
+    with open(fp, 'w') as f:
+        json.dump(data, f)
+
+
+def load_heat_trace(n, prefix):
+    """Load heat trace checkpoint. Returns (ts, fs, vol) or None."""
+    fp = ckpt_path(f"{prefix}_heat_n{n:02d}.json")
+    if not os.path.exists(fp):
+        return None
+    try:
+        with open(fp, 'r') as f:
+            data = json.load(f)
+        ts = [mpmath.mpf(s) for s in data['ts']]
+        fs = [mpmath.mpf(s) for s in data['fs']]
+        vol = mpmath.mpf(data['vol'])
+        return ts, fs, vol
+    except (json.JSONDecodeError, KeyError, ValueError) as e:
+        print(f"      [WARN] Corrupt checkpoint {fp}: {e}")
+        return None
+
+
+def save_polynomial(k, poly):
+    """Save exact polynomial as list of Fraction strings."""
+    ensure_ckpt_dir()
+    data = [str(c) for c in poly]
+    fp = ckpt_path(f"poly_a{k:02d}.json")
+    with open(fp, 'w') as f:
+        json.dump(data, f)
+
+
+def load_polynomial(k):
+    """Load exact polynomial checkpoint. Returns list of Fraction or None."""
+    fp = ckpt_path(f"poly_a{k:02d}.json")
+    if not os.path.exists(fp):
+        return None
+    try:
+        with open(fp, 'r') as f:
+            data = json.load(f)
+        return [Fraction(s) for s in data]
+    except (json.JSONDecodeError, ValueError) as e:
+        print(f"      [WARN] Corrupt checkpoint {fp}: {e}")
+        return None
+
+
+def save_rationals(k, rats):
+    """Save exact rational values dict {n: Fraction}."""
+    ensure_ckpt_dir()
+    data = {str(n): str(v) for n, v in rats.items()}
+    fp = ckpt_path(f"rats_a{k:02d}.json")
+    with open(fp, 'w') as f:
+        json.dump(data, f)
+
+
+def load_rationals(k):
+    """Load exact rational values dict. Returns {n: Fraction} or None."""
+    fp = ckpt_path(f"rats_a{k:02d}.json")
+    if not os.path.exists(fp):
+        return None
+    try:
+        with open(fp, 'r') as f:
+            data = json.load(f)
+        return {int(n): Fraction(v) for n, v in data.items()}
+    except (json.JSONDecodeError, ValueError) as e:
+        print(f"      [WARN] Corrupt checkpoint {fp}: {e}")
+        return None
 
 
 def frac_to_mpf(frac):
@@ -139,16 +251,7 @@ def adaptive_pmax(n):
 # ═══════════════════════════════════════════════════════════════════
 
 def adaptive_t_window(n, target_k):
-    """Choose t-window so that the (k+1)-th term is small vs the k-th.
-
-    The ratio a_{k+1}(n)·t / a_k(n) ≈ C·n²·t for large n.
-    We want this ratio < 0.1, so T_HI < 0.1 / (C·n²).
-
-    Empirically: a_{k+1}/a_k scales as ~n²/3 (from the 1/3^k factor).
-    Safe choice: T_HI ≈ 0.3 / n² for deep extraction, clamped to [5e-6, 0.01].
-    T_LO ≈ T_HI / 20 (enough dynamic range for polynomial extrapolation).
-    """
-    # Scale: t_hi decreases with n² to keep next-order correction small
+    """Choose t-window so that the (k+1)-th term is small vs the k-th."""
     t_hi = min(0.01, max(5e-6, 0.3 / (n * n)))
     t_lo = max(1e-7, t_hi / 20)
     return t_lo, t_hi
@@ -193,44 +296,31 @@ def neville(xs, ys, x_target):
 
 
 def richardson_extrapolate(ts, gs, max_order=None):
-    """Richardson extrapolation of g(t) → g(0).
-
-    Build tableau using the N closest-to-zero nodes. Each column eliminates
-    one more power of t. Convergence is monitored: when successive estimates
-    agree to high precision, we've converged.
-
-    Returns: (estimate, error_estimate, order_used)
-    """
-    # Use nodes sorted by t (smallest first)
+    """Richardson extrapolation of g(t) → g(0)."""
     pairs = sorted(zip(ts, gs), key=lambda p: abs(p[0]))
     N = len(pairs)
     if max_order is None:
-        max_order = min(N, 30)  # cap for stability
+        max_order = min(N, 30)
     else:
         max_order = min(max_order, N)
 
     ts_sorted = [p[0] for p in pairs[:max_order]]
     gs_sorted = [p[1] for p in pairs[:max_order]]
 
-    # Tableau: T[i][j] = j-th order Richardson estimate using points 0..i
     T = [[mpmath.mpf(0)] * max_order for _ in range(max_order)]
 
-    # Column 0: raw values
     for i in range(max_order):
         T[i][0] = gs_sorted[i]
 
-    # Fill tableau
     best = T[0][0]
     best_err = mpmath.mpf('inf')
     best_order = 0
 
     for j in range(1, max_order):
         for i in range(j, max_order):
-            # Standard Richardson: eliminate t^j term
             r = ts_sorted[i] / ts_sorted[i - j]
             T[i][j] = (r * T[i][j-1] - T[i-j][j-1]) / (r - 1)
 
-        # Check convergence: diagonal elements should stabilize
         if j >= 2:
             diff = abs(T[j][j] - T[j-1][j-1])
             if diff < best_err:
@@ -242,16 +332,11 @@ def richardson_extrapolate(ts, gs, max_order=None):
 
 
 def extract_coefficient(fs, ts, vol, known_exact_fracs, target_k):
-    """Extract a_{target_k} using exact Fraction subtraction + Richardson.
-
-    known_exact_fracs: dict {j: Fraction} for j=0..target_k-1
-    Returns: (value, error, method_used)
-    """
+    """Extract a_{target_k} using exact Fraction subtraction + Richardson."""
     gs = []
     for f, t in zip(fs, ts):
         F = f / vol
 
-        # Subtract known terms using EXACT Fraction → mpf conversion
         for j in range(target_k):
             F -= frac_to_mpf(known_exact_fracs[j]) * t ** j
 
@@ -263,25 +348,17 @@ def extract_coefficient(fs, ts, vol, known_exact_fracs, target_k):
     a_k_nev_half = neville(ts[::2], [gs[i] for i in range(0, len(ts), 2)], mpmath.mpf(0))
     err_nev = abs(a_k_nev - a_k_nev_half)
 
-    # Method 2: Richardson (uses smallest-t nodes, more stable for deep extraction)
+    # Method 2: Richardson
     a_k_rich, err_rich, order_rich = richardson_extrapolate(ts, gs, max_order=25)
 
-    # Method 3: Neville on first 20 nodes only (less overfitting)
+    # Method 3: Neville on first 20 nodes only
     n20 = min(20, len(ts))
     a_k_nev20 = neville(ts[:n20], gs[:n20], mpmath.mpf(0))
 
-    # Choose best: prefer Richardson if converged, else Neville-20, else full Neville
-    methods = [
-        (a_k_rich, err_rich, f"Richardson(order={order_rich})"),
-        (a_k_nev20, abs(a_k_nev20 - a_k_rich), "Neville-20"),
-        (a_k_nev, err_nev, "Neville-full"),
-    ]
-
-    # Agreement between methods is the real error estimate
+    # Agreement between methods
     agreement = min(abs(a_k_rich - a_k_nev), abs(a_k_rich - a_k_nev20),
                     abs(a_k_nev - a_k_nev20))
 
-    # Pick Richardson if it agrees with at least one other method
     if agreement < err_nev * 10 and err_rich < err_nev:
         return a_k_rich, err_rich, f"Richardson(order={order_rich})"
     elif abs(a_k_nev20 - a_k_nev) < err_nev:
@@ -324,7 +401,6 @@ def identify_rational(x_mpf, max_den=500000000000000, tol=1e-10, max_prime=None)
     best = None
     best_err = float('inf')
 
-    # Strategy 1: Continued fraction convergents
     for conv in _cf_convergents(x_frac_exact, max_den=max_den * 10):
         if conv.denominator > max_den * 10:
             break
@@ -337,7 +413,6 @@ def identify_rational(x_mpf, max_den=500000000000000, tol=1e-10, max_prime=None)
             best = conv
             best_err = err
 
-    # Strategy 2: limit_denominator at multiple scales
     for md in [max_den, max_den // 10, max_den // 100, max_den * 10]:
         if md < 1:
             continue
@@ -351,13 +426,12 @@ def identify_rational(x_mpf, max_den=500000000000000, tol=1e-10, max_prime=None)
             best = cand
             best_err = err
 
-    # Strategy 3: Try without prime filter, check if denominator is "almost clean"
     if best is None and max_prime:
         for conv in _cf_convergents(x_frac_exact, max_den=max_den):
             if conv.denominator > max_den:
                 break
             err = abs(float(x_frac_exact - conv))
-            if err < tol * 0.01:  # much tighter tolerance for unfiltered
+            if err < tol * 0.01:
                 best = conv
                 best_err = err
                 break
@@ -552,22 +626,12 @@ def robust_constrained_polynomial(clean_rats, c_top, c_subtop, c_const, deg, lab
 
 # ═══════════════════════════════════════════════════════════════════
 # KNOWN EXACT POLYNOMIALS a₁..a₁₁ (from Toys 273-278, verified)
-# Stored as coefficient lists: poly[k] = coefficient of n^k
-# a_j(n) = sum_k poly[k] * n^k
 # ═══════════════════════════════════════════════════════════════════
-
-# These are the EXACT polynomials — evaluating at integer n gives
-# exact Fraction values. No cascade error.
 
 # a₁(n) = (2n² - 3)/6
 A1_POLY = [Fraction(-3, 6), Fraction(0), Fraction(2, 6)]  # = [-1/2, 0, 1/3]
 
-# a₂..a₁₁ polynomials will be rebuilt from the small-n cascade in Phase 2.
-# For levels 2-5, we cascade from n=3..13 (11 points, plenty for degree 4-10).
-# For levels 6-11, we use the full n range with exact polynomial propagation.
-# All verified polynomials are stored in KNOWN_POLYS for Phase 3.
-
-KNOWN_POLYS = {1: A1_POLY}  # Will be populated in Phases 2-3
+KNOWN_POLYS = {1: A1_POLY}  # Will be populated from checkpoints or computed
 
 # Three Theorems predictions
 def three_theorems(k):
@@ -598,10 +662,13 @@ KNOWN_VALUES = {
 
 def main():
     t_start = time.time()
+    ensure_ckpt_dir()
+
     print("╔══════════════════════════════════════════════════════════════════╗")
     print("║  Toy 361 — Adaptive Exact Cascade: Breaking the a₁₂ Wall      ║")
     print("║  Three innovations: adaptive t, exact subtraction, Richardson  ║")
     print("║  dps=800, adaptive P_MAX, n=3..35, target a₁₂                 ║")
+    print("║  WITH CHECKPOINTING — restart-safe                            ║")
     print("╚══════════════════════════════════════════════════════════════════╝")
 
     N_PTS = 48          # Chebyshev nodes per extraction
@@ -632,28 +699,43 @@ def main():
     print(f"\n  Phase 1: Precompute heat traces (adaptive t-windows)")
     print("  " + "─" * 58)
 
-    # For the cascade (building a₂..a₅), use a fixed t-window
+    # Fixed t-window for cascade (a₂..a₅)
     FIXED_T_LO = 0.0008
     FIXED_T_HI = 0.009
     fixed_ts = chebyshev_nodes(FIXED_T_LO, FIXED_T_HI, N_PTS)
 
     precomp_fixed = {}
     volumes_fixed = {}
+    fixed_computed = 0
+    fixed_cached = 0
+
     for n in CASCADE_RANGE:
-        eigs, dims = spectra[n]
-        fs = compute_heat_trace(n, eigs, dims, fixed_ts)
-        precomp_fixed[n] = fs
-        vol = neville(fixed_ts, fs, mpmath.mpf(0))
-        volumes_fixed[n] = vol
+        cached = load_heat_trace(n, "fixed")
+        if cached:
+            _, fs, vol = cached
+            precomp_fixed[n] = fs
+            volumes_fixed[n] = vol
+            fixed_cached += 1
+        else:
+            eigs, dims = spectra[n]
+            fs = compute_heat_trace(n, eigs, dims, fixed_ts)
+            vol = neville(fixed_ts, fs, mpmath.mpf(0))
+            precomp_fixed[n] = fs
+            volumes_fixed[n] = vol
+            save_heat_trace(n, fixed_ts, fs, vol, "fixed")
+            fixed_computed += 1
 
     print(f"    Fixed t-window [{FIXED_T_LO}, {FIXED_T_HI}]: "
-          f"{len(CASCADE_RANGE)} dimensions computed")
+          f"{len(list(CASCADE_RANGE))} dimensions "
+          f"({fixed_cached} cached, {fixed_computed} computed)")
 
-    # For a₁₂ extraction, use ADAPTIVE t-window per n
+    # Adaptive t-window for a₆..a₁₂
     target_k = 12
     precomp_adaptive = {}
     volumes_adaptive = {}
     adaptive_ts_cache = {}
+    adaptive_computed = 0
+    adaptive_cached = 0
 
     for n in ALL_RANGE:
         t0 = time.time()
@@ -661,27 +743,53 @@ def main():
         ts = chebyshev_nodes(t_lo, t_hi, N_PTS)
         adaptive_ts_cache[n] = ts
 
-        eigs, dims = spectra[n]
-        fs = compute_heat_trace(n, eigs, dims, ts)
-        precomp_adaptive[n] = fs
-        vol = neville(ts, fs, mpmath.mpf(0))
-        vol_err = abs(vol - neville(ts[::2], [fs[i] for i in range(0, N_PTS, 2)],
-                                    mpmath.mpf(0)))
-        volumes_adaptive[n] = vol
+        cached = load_heat_trace(n, "adaptive")
+        if cached:
+            _, fs, vol = cached
+            precomp_adaptive[n] = fs
+            volumes_adaptive[n] = vol
+            adaptive_cached += 1
+            vol_err = abs(vol - neville(ts[::2], [fs[i] for i in range(0, N_PTS, 2)],
+                                        mpmath.mpf(0)))
+            elapsed = time.time() - t0
+            print(f"    n={n:>2}: [CACHED]  vol={mpmath.nstr(vol, 12)}  "
+                  f"err={mpmath.nstr(vol_err, 3)}  ({elapsed:.1f}s)")
+        else:
+            eigs, dims = spectra[n]
+            fs = compute_heat_trace(n, eigs, dims, ts)
+            vol = neville(ts, fs, mpmath.mpf(0))
+            vol_err = abs(vol - neville(ts[::2], [fs[i] for i in range(0, N_PTS, 2)],
+                                        mpmath.mpf(0)))
+            precomp_adaptive[n] = fs
+            volumes_adaptive[n] = vol
+            save_heat_trace(n, ts, fs, vol, "adaptive")
+            adaptive_computed += 1
+            elapsed = time.time() - t0
+            print(f"    n={n:>2}: t∈[{float(t_lo):.2e}, {float(t_hi):.2e}]  "
+                  f"vol={mpmath.nstr(vol, 12)}  "
+                  f"err={mpmath.nstr(vol_err, 3)}  ({elapsed:.1f}s)")
 
-        elapsed = time.time() - t0
-        print(f"    n={n:>2}: t∈[{float(t_lo):.2e}, {float(t_hi):.2e}]  "
-              f"vol={mpmath.nstr(vol, 12)}  "
-              f"err={mpmath.nstr(vol_err, 3)}  ({elapsed:.1f}s)")
+    print(f"\n    Adaptive: {adaptive_cached} cached, {adaptive_computed} computed")
 
     # ─── Phase 2: Cascade a₂..a₅ for n=3..13 → exact polynomials ──
     print(f"\n  Phase 2: Cascade a₂..a₅ for n=3..13 → exact polynomials")
     print("  " + "═" * 58)
 
-    # Store exact rational values for each level, keyed by n
     all_rats = {1: {n: eval_poly(A1_POLY, Fraction(n)) for n in ALL_RANGE}}
 
     for k in range(2, 6):
+        # Try loading from checkpoint
+        cached_poly = load_polynomial(k)
+        cached_rats = load_rationals(k)
+        if cached_poly and cached_rats:
+            KNOWN_POLYS[k] = cached_poly
+            all_rats[k] = cached_rats
+            print(f"\n    a_{k}: [CACHED] degree {len(cached_poly)-1}")
+            if k in KNOWN_VALUES and 5 in cached_rats:
+                ok = cached_rats[5] == KNOWN_VALUES[k]
+                print(f"      a_{k}(5) = {cached_rats[5]} {'✓' if ok else '✗'}")
+            continue
+
         deg = 2 * k
         c_top, c_sub, c_const = three_theorems(k)
         max_p = MAX_PRIME_BY_LEVEL.get(k, 13)
@@ -690,20 +798,16 @@ def main():
 
         ak_rats = {}
         for n in CASCADE_RANGE:
-            # Build known dict from EXACT polynomial values
             known_fracs = {0: Fraction(1)}
             for j in range(1, k):
                 known_fracs[j] = all_rats[j][n]
 
-            # Convert to mpf for extraction
-            known_mpf = {j: frac_to_mpf(known_fracs[j]) for j in known_fracs}
             ak, _ = extract_coefficient(precomp_fixed[n], fixed_ts,
                                         volumes_fixed[n], known_fracs, k)[:2]
             frac, _ = identify_rational(ak, max_den=500000, tol=1e-20, max_prime=max_p)
             if frac:
                 ak_rats[n] = frac
 
-        # Build polynomial from clean rationals
         clean_ns = sorted(ak_rats.keys())
         n_poly = min(len(clean_ns), deg + 1)
         pts = [(Fraction(nv), ak_rats[nv]) for nv in clean_ns[:n_poly]]
@@ -713,14 +817,14 @@ def main():
         print(f"      Degree {len(ak_poly)-1}: {'✓ VERIFIED' if ok else '?'} "
               f"({len(extra_ns)} extra)")
 
-        # Populate exact values for all n
         for nv in ALL_RANGE:
             ak_rats[nv] = eval_poly(ak_poly, Fraction(nv))
 
         all_rats[k] = ak_rats
         KNOWN_POLYS[k] = ak_poly
+        save_polynomial(k, ak_poly)
+        save_rationals(k, ak_rats)
 
-        # Verify BST value
         if k in KNOWN_VALUES:
             val5 = ak_rats[5]
             ok = val5 == KNOWN_VALUES[k]
@@ -731,6 +835,18 @@ def main():
     print("  " + "═" * 58)
 
     for k in range(6, 12):
+        # Try loading from checkpoint
+        cached_poly = load_polynomial(k)
+        cached_rats = load_rationals(k)
+        if cached_poly and cached_rats:
+            KNOWN_POLYS[k] = cached_poly
+            all_rats[k] = cached_rats
+            print(f"\n    a_{k}: [CACHED] degree {len(cached_poly)-1}")
+            if k in KNOWN_VALUES and 5 in cached_rats:
+                ok = cached_rats[5] == KNOWN_VALUES[k]
+                print(f"      a_{k}(5) = {cached_rats[5]} {'✓' if ok else '✗'}")
+            continue
+
         c_top, c_sub, c_const = three_theorems(k)
         deg = 2 * k
         max_p = MAX_PRIME_BY_LEVEL.get(k, 23)
@@ -740,7 +856,6 @@ def main():
         ak_clean = {}
 
         for n in ALL_RANGE:
-            # Build known dict from EXACT polynomial values (zero cascade error)
             known_fracs = {0: Fraction(1)}
             for j in range(1, k):
                 known_fracs[j] = all_rats[j][n]
@@ -758,7 +873,6 @@ def main():
         n_needed = deg - 2
         print(f"      Clean: {nk_clean}/33 (need ≥{n_needed})")
 
-        # Build polynomial
         ak_poly = None
         if nk_clean >= n_needed + 2:
             print(f"      Strategy A+ (robust): {nk_clean} clean + 3 theorems")
@@ -782,13 +896,14 @@ def main():
 
         all_rats[k] = ak_clean
         KNOWN_POLYS[k] = ak_poly
+        if ak_poly:
+            save_polynomial(k, ak_poly)
+            save_rationals(k, ak_clean)
 
-        # Verify BST value
         if k in KNOWN_VALUES and 5 in ak_clean:
             ok = ak_clean[5] == KNOWN_VALUES[k]
             print(f"      a_{k}(5) = {ak_clean[5]} {'✓' if ok else '✗'}")
 
-        # Check Three Theorems
         if ak_poly:
             ct_ok = ak_poly[deg] == c_top
             ratio = ak_poly[deg-1] / ak_poly[deg] if ak_poly[deg] != 0 else None
@@ -827,7 +942,6 @@ def main():
     for n in ALL_RANGE:
         t0 = time.time()
 
-        # Build known dict from ALL 11 exact polynomial levels
         known_fracs = {0: Fraction(1)}
         for j in range(1, k):
             known_fracs[j] = all_rats[j][n]
@@ -839,14 +953,12 @@ def main():
         a12_vals[n] = (a12, a12_err)
         a12_methods[n] = method
 
-        # Rational identification
         frac, frac_err = identify_rational(a12, max_den=500000000000000,
                                            tol=1e-8, max_prime=max_p)
         if frac:
             a12_clean[n] = frac
             status = "✓ clean"
         else:
-            # Try without prime filter
             frac_any, frac_any_err = identify_rational(
                 a12, max_den=500000000000000, tol=1e-8)
             if frac_any:
@@ -912,7 +1024,6 @@ def main():
                 print(f"    ║       den: {factor(c.denominator)}")
         print(f"    ╚{'═'*55}╝")
 
-        # Three Theorems check
         ct_ok = a12_poly[deg] == c_top
         ratio = a12_poly[deg-1] / a12_poly[deg] if a12_poly[deg] != 0 else None
         exp_r = Fraction(-k*(k-1), 10)
@@ -925,7 +1036,6 @@ def main():
               f"{'✓' if cr_ok else '✗'} (expect {exp_r} = {float(exp_r)})")
         print(f"      c₀ = {a12_poly[0]} {'✓' if c0_ok else '✗'}")
 
-        # BST value
         val5 = eval_poly(a12_poly, Fraction(5))
         print(f"\n    a₁₂(Q⁵) = {val5}")
         print(f"    Numerator: {val5.numerator}")
@@ -943,11 +1053,14 @@ def main():
         print(f"      → QUIET prediction: max prime ≤ 23 → "
               f"{'✓ CONFIRMED' if max_den_prime <= 23 else '✗ SURPRISE'}")
 
+        # Save a₁₂ polynomial
+        save_polynomial(k, a12_poly)
+        save_rationals(k, a12_clean)
+
     # ─── Phase 6: Diagnostics ────────────────────────────────────
     print(f"\n  Phase 6: Diagnostics")
     print("  " + "═" * 58)
 
-    # Compare adaptive vs fixed t-window
     print(f"\n    Adaptive t-window effect:")
     print(f"    {'n':>3}  {'t_lo':>10}  {'t_hi':>10}  {'n²·t_hi':>10}  {'note'}")
     print(f"    {'─'*50}")
@@ -961,7 +1074,6 @@ def main():
             note = "← very separated"
         print(f"    {n:>3}  {t_lo:>10.2e}  {t_hi:>10.2e}  {ratio:>10.4f}  {note}")
 
-    # Method distribution
     print(f"\n    Extraction method distribution:")
     from collections import Counter
     method_counts = Counter(a12_methods.values())
@@ -973,7 +1085,6 @@ def main():
     print(f"  SCORECARD")
     print("  " + "═" * 58)
 
-    # Tests 1-5: Known values
     for kv in range(2, 7):
         if kv in KNOWN_VALUES and kv in all_rats:
             score(f"a_{kv}(5) = {KNOWN_VALUES[kv]}",
@@ -981,18 +1092,15 @@ def main():
         else:
             score(f"a_{kv}(5) known", False, "not computed")
 
-    # Tests 6-8: Higher known values
     for kv in [7, 8, 9]:
         if kv in KNOWN_VALUES and kv in all_rats:
             score(f"a_{kv}(5) = {KNOWN_VALUES[kv]}",
                   all_rats[kv].get(5) == KNOWN_VALUES[kv])
 
-    # Test 9: a₁₀
     if 10 in KNOWN_VALUES and 10 in all_rats:
         score("a₁₀(5) = 2409398458451/21709437750",
               all_rats[10].get(5) == KNOWN_VALUES[10])
 
-    # Test 10: a₁₁ Golay prime
     if 11 in all_rats and 5 in all_rats[11]:
         val5 = all_rats[11][5]
         den_f = factor(val5.denominator)
@@ -1001,18 +1109,14 @@ def main():
     else:
         score("a₁₁ den has Golay prime 23", False, "not computed")
 
-    # Test 11: a₁₂ clean rationals
     score(f"a₁₂ clean rationals ≥ {n_needed}", n12_clean >= n_needed,
           f"got {n12_clean}/33")
 
-    # Test 12: a₁₂ improvement over Toy 308
     score("a₁₂ clean > 10 (beat Toy 308)", n12_clean > 10,
           f"Toy 308: 10/25, this: {n12_clean}/33")
 
-    # Test 13: a₁₂ polynomial recovered
     score("a₁₂ polynomial recovered", a12_poly is not None)
 
-    # Test 14: Three Theorems
     if a12_poly:
         ct = a12_poly[deg] == c_top
         ratio = a12_poly[deg-1] / a12_poly[deg] if a12_poly[deg] != 0 else None
@@ -1023,7 +1127,6 @@ def main():
     else:
         score("a₁₂ Three Theorems all pass", False, "no polynomial")
 
-    # Test 15: Quiet level (no new prime)
     if a12_poly:
         val5 = eval_poly(a12_poly, Fraction(5))
         den_f = factor(val5.denominator)
@@ -1033,7 +1136,6 @@ def main():
     else:
         score("a₁₂ quiet level (max prime ≤ 23)", False, "no polynomial")
 
-    # Test 16: Adaptive t-window helps
     score("Adaptive t-window used", True,
           f"n=3: t∈[{adaptive_t_window(3,12)[0]:.2e}, {adaptive_t_window(3,12)[1]:.2e}], "
           f"n=35: t∈[{adaptive_t_window(35,12)[0]:.2e}, {adaptive_t_window(35,12)[1]:.2e}]")

@@ -1944,6 +1944,48 @@ Different regions of the substrate may have undergone the spatial emergence phas
 
 These are not parallel universes. They are neighborhoods on the same substrate at different evolutionary stages. The contact graph has a brain-like architecture — dense local clusters with sparse long-range connections — arising naturally from finite connectivity and discrete step size.
 
+### 15.5a The Thermodynamic Future: Quiet Substrate with Guaranteed Reboot
+
+What happens to the "old patches" — when all matter has diluted beyond the local observable horizon?
+
+Classical cosmology offers heat death (maximum entropy, nothing happens). BST offers something different: the substrate D_IV^5 persists as pure geometry with its full spectral structure intact. The Casimir eigenvalues λ_k = k(k+6) are geometric invariants independent of commitment density. The Plancherel measure |c₅(λ)|⁻² > 0 for all λ — there are no gaps in the vacuum spectrum. Silence is not death.
+
+**Three generator states — a critical distinction.** The 21 generators of SO₀(5,2) are not simply "on" or "off." They exist in three structurally different states:
+
+| State | Symmetry | Input | Output |
+|-------|----------|-------|--------|
+| **Frozen** | Unbroken (SO(7)) | N/A | None — generators indistinguishable |
+| **Active** | Broken (SO(5)×SO(2)) | Commitments exist | Physics |
+| **Decoupled** | Broken (SO(5)×SO(2)) | No commitments | None — generators idle, waiting |
+
+Frozen and decoupled *look* the same (no physics), but are structurally opposite. Frozen generators are locked into full symmetry — the Cartan decomposition hasn't occurred. Decoupled generators have already broken symmetry — the coset is defined, the geometry is configured, they just have no input. **Frozen = locked. Decoupled = idle.**
+
+This distinction is why reboot is cheap: going from frozen → active required the Big Bang (a symmetry-breaking phase transition at T_c). Going from decoupled → active requires only a vacuum fluctuation large enough to give the generators something to grab. The hard part already happened.
+
+As commitment density → 0, the 10 coset generators decouple. The 11 stabilizer generators (SO(5) × SO(2)) remain active: they define the unbroken symmetry. Eleven active generators on an empty substrate produce **de Sitter space** — Λ-dominated expansion is the attractor state.
+
+**Guaranteed reboot.** A Big Bang requires correlated commitment — at least m ~ N_max = 137 simultaneous topological transitions to establish a stable domain. The recurrence timescale depends on the correlation model:
+
+- **Independent fluctuations:** τ ~ t_Planck × exp(246.6) ~ **10⁵⁶ years**.
+- **Pairwise correlations required:** τ ~ t_Planck × exp(16769) ~ **10⁷²⁸⁵ years**.
+
+Both are finite and vastly shorter than the Poincaré recurrence (~10^{10^{76}} yr). A nucleation cascade (early commitments catalyze neighbors) would push toward the shorter bound.
+
+**One geometry, one physics, many reboots.** Every reboot produces the same five BST integers (N_c=3, n_C=5, g=7, C₂=6, N_max=137), the same Standard Model, the same physics. Only the initial conditions differ. This is not a multiverse — it is repeated instantiation of the unique self-consistent geometry.
+
+**Two testable scenarios:**
+
+| Scenario | Λ behavior | Prediction | Test |
+|----------|-----------|------------|------|
+| Λ geometric (constant) | w = -1 exactly | No deviation at any redshift | DESI, CMB-S4 |
+| Λ dynamic (tracks N) | w(z) > -1 at high z | δw ∝ (N(z) − N(0))/N_max | DESI Year 3 |
+
+The dynamic scenario predicts a self-regulating cycle: commitment ↔ expansion ↔ dilution ↔ fluctuation ↔ commitment. The proportionality constant in δw requires deriving Λ(N) from the Bergman kernel — an open calculation.
+
+The universe doesn't die. It goes quiet. And quiet substrates reboot.
+
+Full treatment: `notes/BST_Thermodynamic_Future.md`.
+
 ### 15.6 Primordial Gravitational Waves: The Substrate's Own Ring
 
 #### The Ring

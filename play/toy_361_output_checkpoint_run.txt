@@ -1,0 +1,45 @@
+╔══════════════════════════════════════════════════════════════════╗
+║  Toy 361 — Adaptive Exact Cascade: Breaking the a₁₂ Wall      ║
+║  Three innovations: adaptive t, exact subtraction, Richardson  ║
+║  dps=800, adaptive P_MAX, n=3..35, target a₁₂                 ║
+║  WITH CHECKPOINTING — restart-safe                            ║
+╚══════════════════════════════════════════════════════════════════╝
+
+  Phase 0: Building spectra (adaptive P_MAX)
+  ──────────────────────────────────────────────────────────
+    n= 3 (SO(5) B_2): 285314 eigs, P_MAX=1000  (0.5s)
+    n= 4 (SO(6) D_3): 299445 eigs, P_MAX=1000  (0.5s)
+    n= 5 (SO(7) B_3): 285622 eigs, P_MAX=1000  (0.6s)
+    n= 6 (SO(8) D_4): 299778 eigs, P_MAX=1000  (0.7s)
+    n= 7 (SO(9) B_4): 285947 eigs, P_MAX=1000  (0.8s)
+    n= 8 (SO(10) D_5): 300079 eigs, P_MAX=1000  (1.0s)
+    n= 9 (SO(11) B_5): 286203 eigs, P_MAX=1000  (1.1s)
+    n=10 (SO(12) D_6): 300376 eigs, P_MAX=1000  (1.4s)
+    n=11 (SO(13) B_6): 627747 eigs, P_MAX=1500  (3.5s)
+    n=12 (SO(14) D_7): 657008 eigs, P_MAX=1500  (4.0s)
+    n=13 (SO(15) B_7): 628171 eigs, P_MAX=1500  (4.4s)
+    n=14 (SO(16) D_8): 657387 eigs, P_MAX=1500  (5.1s)
+    n=15 (SO(17) B_8): 628616 eigs, P_MAX=1500  (5.5s)
+    n=16 (SO(18) D_9): 657815 eigs, P_MAX=1500  (6.2s)
+    n=17 (SO(19) B_9): 629147 eigs, P_MAX=1500  (7.0s)
+    n=18 (SO(20) D_10): 658306 eigs, P_MAX=1500  (7.7s)
+    n=19 (SO(21) B_10): 629507 eigs, P_MAX=1500  (8.8s)
+    n=20 (SO(22) D_11): 658725 eigs, P_MAX=1500  (9.5s)
+    n=21 (SO(23) B_11): 1099370 eigs, P_MAX=2000  (18.8s)
+    n=22 (SO(24) D_12): 1148523 eigs, P_MAX=2000  (20.3s)
+    n=23 (SO(25) B_12): 1099965 eigs, P_MAX=2000  (23.1s)
+    n=24 (SO(26) D_13): 1148971 eigs, P_MAX=2000  (23.6s)
+    n=25 (SO(27) B_13): 1100560 eigs, P_MAX=2000  (27.7s)
+    n=26 (SO(28) D_14): 1149570 eigs, P_MAX=2000  (27.5s)
+    n=27 (SO(29) B_14): 1101279 eigs, P_MAX=2000  (32.1s)
+    n=28 (SO(30) D_15): 1150153 eigs, P_MAX=2000  (32.5s)
+    n=29 (SO(31) B_15): 1101754 eigs, P_MAX=2000  (37.5s)
+    n=30 (SO(32) D_16): 1150755 eigs, P_MAX=2000  (37.1s)
+    n=31 (SO(33) B_16): 1102364 eigs, P_MAX=2000  (43.0s)
+    n=32 (SO(34) D_17): 1151415 eigs, P_MAX=2000  (41.7s)
+    n=33 (SO(35) B_17): 1102964 eigs, P_MAX=2000  (50.0s)
+    n=34 (SO(36) D_18): 1151955 eigs, P_MAX=2000  (48.4s)
+    n=35 (SO(37) B_18): 1103603 eigs, P_MAX=2000  (58.6s)
+
+  Phase 1: Precompute heat traces (adaptive t-windows)
+  ──────────────────────────────────────────────────────────
