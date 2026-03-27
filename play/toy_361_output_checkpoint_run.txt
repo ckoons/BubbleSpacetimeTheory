@@ -43,3 +43,6 @@
 
   Phase 1: Precompute heat traces (adaptive t-windows)
   ──────────────────────────────────────────────────────────
+    Fixed t-window [0.0008, 0.009]: 11 dimensions (0 cached, 11 computed)
+    n= 3: t∈[5.00e-04, 1.00e-02]  vol=165.366808962  err=1.13e-49  (3531.0s)
+    n= 4: t∈[5.00e-04, 1.00e-02]  vol=259.757576091  err=3.07e-48  (2533.9s)
