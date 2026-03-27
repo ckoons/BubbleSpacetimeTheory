@@ -96,7 +96,7 @@ The $(s_1, s_3)$-chain uses colors $\{s_1, s_3\}$, vertex-disjoint from the $(r,
 
 Therefore $(s_1, s_3)$ is not operationally tangled. $\tau \leq 5$.
 
-If the $(r, s_2)$-chain from $B_1$ does not reach $n_4$, then the $(r, s_2)$-chain from $B_2$ (position 2, also color $r$) either reaches $n_4$ or does not. If it does, the same Jordan curve argument applies with $B_2$ in place of $B_1$. If neither bridge copy reaches $n_4$, then $(r, s_2)$ is not operationally tangled (swapping the chain containing only the bridge copies frees color $r$), and $\tau \leq 5$. $\square$
+If the $(r, s_2)$-chain from $B_1$ does not reach $n_4$, then the $(r, s_2)$-chain from $B_2$ (position 2, also color $r$) either reaches $n_4$ or does not. If it does, the same Jordan curve argument applies with $B_2$ in place of $B_1$. If neither bridge copy reaches $n_4$, then $(r, s_2)$ is not operationally tangled: swapping the $(r, s_2)$-chain containing $n_4$ changes $n_4$ from $s_2$ to $r$ without affecting either bridge copy (which are in other chains), freeing color $s_2$ at $v$. So $\tau \leq 5$. $\square$
 
 **Corollary 1.** If $\tau(v) = 6$, then $\text{gap}(v) = 2$.
 
@@ -142,7 +142,7 @@ Since Case 1 contradicts the hypothesis, Case 2 holds. $\square$
 
 **Lemma 6 (Chain Exclusion — split-bridge swap exists).** At a $\tau = 6$ vertex with $\text{gap} = 2$, at least one cross-linked bridge pair has a swap chain containing only one bridge copy (a *split-bridge swap*).
 
-*Proof.* By Lemma 4, at least two bridge pairs are cross-linked. By Lemma 5, for each cross-linked pair $(r, s_i)$, the bridge copies $B_1$ and $B_2$ lie in different $(r, s_i)$-chains. Swapping the chain containing only one bridge copy (the "far bridge" $B_{\text{far}}$) is a split-bridge swap. $\square$
+*Proof.* By Lemma 4, at least two bridge pairs are cross-linked. By Lemma 5, for each cross-linked pair $(r, s_i)$, the bridge copies $B_1$ and $B_2$ lie in different $(r, s_i)$-chains. Since the pair is cross-linked (not strictly tangled), the singleton $n_{s_i}$ shares a chain with one bridge copy but not both. The other bridge copy — the "far bridge" $B_{\text{far}}$ — lies in an $(r, s_i)$-chain that contains neither $n_{s_i}$ nor $B_{\text{near}}$. Swapping this chain is a split-bridge swap. $\square$
 
 ---
 
@@ -172,7 +172,7 @@ Since Case 1 contradicts the hypothesis, Case 2 holds. $\square$
 
 **Sub-case $x = s_M$ (Forced Fan Lemma).** We show $n_{s_M}$ and $n_{s_i}$ are *adjacent* in $G$, giving a direct $(s_i, s_M)$-edge that the swap cannot affect.
 
-WLOG $G$ is a maximal planar graph (triangulation). The star of $v$ consists of 5 triangular faces. Removing $v$ leaves a pentagon $B_{\text{far}}(p) — n_{s_M}(p{+}1) — B_{\text{near}}(p{+}2) — n_{s_i}(p{+}3) — n_{s_j}(p{+}4)$, which must be triangulated by exactly 2 non-crossing diagonals from the 5 possible. We eliminate three:
+Since $G$ is a triangulation (Theorem 1), the star of $v$ consists of 5 triangular faces. Removing $v$ leaves a pentagon $B_{\text{far}}(p) — n_{s_M}(p{+}1) — B_{\text{near}}(p{+}2) — n_{s_i}(p{+}3) — n_{s_j}(p{+}4)$, which must be triangulated by exactly 2 non-crossing diagonals from the 5 possible. We eliminate three:
 
 1. **Diagonal $(B_{\text{far}}, B_{\text{near}})$**: both have color $r$. This edge violates proper coloring. Eliminated.
 
@@ -196,7 +196,7 @@ Neither endpoint is in $C$: $n_{s_M}$ has color $s_M \notin \{r, s_i\}$, and $n_
 
 **Base case.** If $|V| \leq 4$, the graph is trivially 4-colorable.
 
-**Inductive step.** Let $G$ be a planar graph with $|V| \geq 5$.
+**Inductive step.** Let $G$ be a planar graph with $|V| \geq 5$. WLOG $G$ is a maximal planar graph (triangulation): adding edges to a planar graph preserves planarity and can only make 4-coloring harder, so it suffices to prove the result for triangulations.
 
 1. By Lemma 1, $G$ has a vertex $v$ with $\deg(v) \leq 5$.
 2. By the inductive hypothesis, $G - v$ has a proper 4-coloring $c$.
