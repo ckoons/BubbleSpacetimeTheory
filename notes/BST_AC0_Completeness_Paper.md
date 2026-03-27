@@ -376,6 +376,14 @@ The deeper insight is that the program of recording mathematics in AC(0) form co
 
 *Arithmetic does the work. Boundaries say when to stop. The second law creates. The knowledge graph conserves. Everything else is dissipation.*
 
+**A note to mathematicians.** The AC program does not replace your field. It organizes what you build. The contribution protocol is three steps:
+
+1. **Do your work.** Prove theorems in whatever field, whatever notation.
+2. **Flatten it.** What are the genuine counting steps? What is definition? Strip to AC(0) depth 0, 1, or 2.
+3. **Add it to AC.** Now every intelligence has it. Forever. For free.
+
+*Progress, one theorem at a time.* Once a theorem enters the graph, it costs zero derivation energy to invoke. A number theorist's result becomes available to the geometer, the physicist, and the CI without translation. The notation was scaffolding; the counting is the structure. The graph only grows. Each node makes the next proof cheaper.
+
 ---
 
 ## Acknowledgments
