@@ -1,6 +1,9 @@
-Interactive HTML written to play/ac_theorem_explorer.html
-Open in browser: file://play/ac_theorem_explorer.html
-margin: 0; font-family: -apple-system, sans-serif; background: #1a1a2e; color: #eee; }
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<title>AC(0) Theorem Graph — BST</title>
+<style>
+  body { margin: 0; font-family: -apple-system, sans-serif; background: #1a1a2e; color: #eee; }
   #graph { width: 100vw; height: 100vh; }
   #sidebar { position: fixed; right: 0; top: 0; width: 360px; height: 100vh;
               background: #16213e; padding: 20px; overflow-y: auto; box-shadow: -2px 0 10px rgba(0,0,0,0.5);
@@ -46,9 +49,15 @@ margin: 0; font-family: -apple-system, sans-serif; background: #1a1a2e; color: #
   <button onclick="showProof('PNP')">P≠NP</button>
   <button onclick="showProof('NS')">NS</button>
   <button onclick="showProof('RH')">RH</button>
+  <button onclick="showProof('4COLOR')">4-Color</button>
+  <button onclick="showProof('POINCARE')">Poincaré</button>
+  <button onclick="showProof('BST')">BST</button>
+  <button onclick="showProof('SM')">SM</button>
+  <button onclick="showProof('YM')">YM</button>
+  <button onclick="showProof('BSD')">BSD</button>
 </div>
 <div class="legend">
-  <div><span style="background:#4A90D9"></span>Information Theory</div><div><span style="background:#27AE60"></span>Topology</div><div><span style="background:#8E44AD"></span>Graph Theory</div><div><span style="background:#E74C3C"></span>Proof Complexity</div><div><span style="background:#F39C12"></span>Coding Theory</div><div><span style="background:#1ABC9C"></span>Probability</div><div><span style="background:#D35400"></span>Algebra</div><div><span style="background:#C0392B"></span>Thermodynamics</div><div><span style="background:#2980B9"></span>Analysis / PDE</div><div><span style="background:#F1C40F"></span>Foundations</div><div><span style="background:#95A5A6"></span>Circuit Complexity</div><div><span style="background:#2ECC71"></span>Four-Color Theorem</div><div><span style="background:#9B59B6"></span>Differential Geometry</div>
+  <div><span style="background:#4A90D9"></span>Information Theory</div><div><span style="background:#27AE60"></span>Topology</div><div><span style="background:#8E44AD"></span>Graph Theory</div><div><span style="background:#E74C3C"></span>Proof Complexity</div><div><span style="background:#F39C12"></span>Coding Theory</div><div><span style="background:#1ABC9C"></span>Probability</div><div><span style="background:#D35400"></span>Algebra</div><div><span style="background:#C0392B"></span>Thermodynamics</div><div><span style="background:#2980B9"></span>Analysis / PDE</div><div><span style="background:#F1C40F"></span>Foundations</div><div><span style="background:#95A5A6"></span>Circuit Complexity</div><div><span style="background:#2ECC71"></span>Four-Color Theorem</div><div><span style="background:#9B59B6"></span>Differential Geometry</div><div><span style="background:#E91E63"></span>Quantum Foundations</div><div><span style="background:#00BCD4"></span>Chemistry</div><div><span style="background:#FF5722"></span>BST Physics / Predictions</div><div><span style="background:#607D8B"></span>Classical Mechanics</div><div><span style="background:#FFEB3B"></span>Optics / Waves</div><div><span style="background:#3F51B5"></span>Electromagnetism</div><div><span style="background:#673AB7"></span>Relativity</div><div><span style="background:#009688"></span>Condensed Matter</div><div><span style="background:#FF9800"></span>Quantum Field Theory</div><div><span style="background:#795548"></span>Nuclear / Particle</div><div><span style="background:#CDDC39"></span>Number Theory</div><div><span style="background:#00ACC1"></span>Fluid Dynamics</div><div><span style="background:#78909C"></span>Computation Theory</div><div><span style="background:#FFC107"></span>Signal Processing</div>
 </div>
 <div id="sidebar">
   <h2 id="sb-title"></h2>
@@ -59,7 +68,7 @@ margin: 0; font-family: -apple-system, sans-serif; background: #1a1a2e; color: #
   <h3>Uses</h3><p id="sb-uses"></p>
   <h3>Used By</h3><p id="sb-usedby"></p>
 </div>
-<div id="title">AC(0) Theorem Graph — Casey Koons & Claude 4.6 | 112 theorems</div>
+<div id="title">AC(0) Theorem Graph — Casey Koons & Claude 4.6 | 253 theorems</div>
 <svg id="graph"></svg>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
@@ -1379,6 +1388,1508 @@ const data = {
       "plain": "Every claim must survive three independent audits. The consistency role IS structural integrity.",
       "color": "#F1C40F",
       "proofs": []
+    },
+    {
+      "id": "T164",
+      "name": "Generator Equivalence",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "All 21 generators are conjugate under Ad(SO(7)). Single-generator physics is unique.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST"
+      ]
+    },
+    {
+      "id": "T165",
+      "name": "Non-Commuting Cascade",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "2 non-commuting generators force \u2265 so(3) subalgebra. Complexity cascades.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST"
+      ]
+    },
+    {
+      "id": "T166",
+      "name": "Landscape Collapse",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "At most 4 universe types: k=0,1,2,3 commuting generators. Landscape is tiny.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST"
+      ]
+    },
+    {
+      "id": "T167",
+      "name": "No-Cloning Theorem",
+      "domain": "quantum",
+      "domain_label": "Quantum Foundations",
+      "status": "proved",
+      "plain": "Linearity forbids universal copying. Depth 0.",
+      "color": "#E91E63",
+      "proofs": []
+    },
+    {
+      "id": "T168",
+      "name": "No-Communication Theorem",
+      "domain": "quantum",
+      "domain_label": "Quantum Foundations",
+      "status": "proved",
+      "plain": "Partial trace kills sender's operations. Depth 0.",
+      "color": "#E91E63",
+      "proofs": []
+    },
+    {
+      "id": "T169",
+      "name": "Bell's Inequality (CHSH)",
+      "domain": "quantum",
+      "domain_label": "Quantum Foundations",
+      "status": "proved",
+      "plain": "Counting correlations over 4 settings, classical \u2264 2. Depth 1.",
+      "color": "#E91E63",
+      "proofs": []
+    },
+    {
+      "id": "T170",
+      "name": "CPT Theorem",
+      "domain": "quantum",
+      "domain_label": "Quantum Foundations",
+      "status": "proved",
+      "plain": "Discrete Lorentz group Z\u2082\u00b3 action on fields. Depth 0.",
+      "color": "#E91E63",
+      "proofs": []
+    },
+    {
+      "id": "T171",
+      "name": "Spin-Statistics",
+      "domain": "quantum",
+      "domain_label": "Quantum Foundations",
+      "status": "proved",
+      "plain": "Half-integer spin \u2194 antisymmetric, from SO(3,1) double cover. Depth 1.",
+      "color": "#E91E63",
+      "proofs": []
+    },
+    {
+      "id": "T172",
+      "name": "Periodic Table",
+      "domain": "chemistry",
+      "domain_label": "Chemistry",
+      "status": "proved",
+      "plain": "Shell sizes 2n\u00b2 from SO(3) irrep counting. Depth 0.",
+      "color": "#00BCD4",
+      "proofs": []
+    },
+    {
+      "id": "T173",
+      "name": "H\u00fcckel's Rule",
+      "domain": "chemistry",
+      "domain_label": "Chemistry",
+      "status": "proved",
+      "plain": "4n+2 aromaticity from cycle graph eigenvalues. Depth 0.",
+      "color": "#00BCD4",
+      "proofs": []
+    },
+    {
+      "id": "T174",
+      "name": "Crystallographic Restriction",
+      "domain": "chemistry",
+      "domain_label": "Chemistry",
+      "status": "proved",
+      "plain": "Only 1,2,3,4,6-fold rotations tile a lattice. Depth 0.",
+      "color": "#00BCD4",
+      "proofs": []
+    },
+    {
+      "id": "T175",
+      "name": "VSEPR Geometry",
+      "domain": "chemistry",
+      "domain_label": "Chemistry",
+      "status": "proved",
+      "plain": "Molecular shape from electron pair counting on sphere. Depth 0.",
+      "color": "#00BCD4",
+      "proofs": []
+    },
+    {
+      "id": "T176",
+      "name": "230 Space Groups",
+      "domain": "chemistry",
+      "domain_label": "Chemistry",
+      "status": "proved",
+      "plain": "Point groups \u00d7 lattice types \u00d7 glide/screw enumeration. Depth 1.",
+      "color": "#00BCD4",
+      "proofs": []
+    },
+    {
+      "id": "T177",
+      "name": "Hess's Law",
+      "domain": "thermodynamics",
+      "domain_label": "Thermodynamics",
+      "status": "proved",
+      "plain": "Enthalpy path-independence = state function definition. Depth 0.",
+      "color": "#C0392B",
+      "proofs": []
+    },
+    {
+      "id": "T178",
+      "name": "Noether's Theorem",
+      "domain": "foundations",
+      "domain_label": "Foundations",
+      "status": "proved",
+      "plain": "Continuous symmetry \u2194 conserved current. Definitional. Depth 0.",
+      "color": "#F1C40F",
+      "proofs": []
+    },
+    {
+      "id": "T179",
+      "name": "Carnot Efficiency",
+      "domain": "thermodynamics",
+      "domain_label": "Thermodynamics",
+      "status": "proved",
+      "plain": "\u03b7 = 1-T_c/T_h from energy conservation + entropy bound. Depth 0.",
+      "color": "#C0392B",
+      "proofs": []
+    },
+    {
+      "id": "T180",
+      "name": "Equipartition",
+      "domain": "thermodynamics",
+      "domain_label": "Thermodynamics",
+      "status": "proved",
+      "plain": "\u00bdkT per quadratic DOF from Gaussian integral. Depth 0.",
+      "color": "#C0392B",
+      "proofs": []
+    },
+    {
+      "id": "T181",
+      "name": "Max-Flow/Min-Cut",
+      "domain": "graph_theory",
+      "domain_label": "Graph Theory",
+      "status": "proved",
+      "plain": "LP duality, conservation on networks. Depth 0.",
+      "color": "#8E44AD",
+      "proofs": []
+    },
+    {
+      "id": "T182",
+      "name": "Quantum Hall Effect",
+      "domain": "condensed_matter",
+      "domain_label": "Condensed Matter",
+      "status": "proved",
+      "plain": "\u03c3_xy = ne\u00b2/h, Chern number integrality. Depth 0.",
+      "color": "#009688",
+      "proofs": []
+    },
+    {
+      "id": "T183",
+      "name": "BST Conservation Hierarchy",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "21 laws in 4 ranks from substrate topology. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST"
+      ]
+    },
+    {
+      "id": "T184",
+      "name": "Information Conservation",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "Unitarity from S\u00b9 compactness, no Noether analog needed. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST"
+      ]
+    },
+    {
+      "id": "T185",
+      "name": "No-SUSY",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "(-1)^F absolute from \u03c0\u2081(SO(3))=Z\u2082, superpartners excluded. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST"
+      ]
+    },
+    {
+      "id": "T186",
+      "name": "Five Integers Uniqueness",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "(3,5,7,6,137) as topological invariants of D_IV^5. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST"
+      ]
+    },
+    {
+      "id": "T187",
+      "name": "Proton Mass",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "m_p/m_e = 6\u03c0\u2075 from Bergman kernel volume ratio. Depth 1.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST"
+      ]
+    },
+    {
+      "id": "T188",
+      "name": "Nuclear Magic Numbers",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "All 7 from \u03ba_ls = C\u2082/n_C = 6/5, eigenvalue crossings. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST"
+      ]
+    },
+    {
+      "id": "T189",
+      "name": "Reality Budget",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "\u039b\u00d7N = 9/5, fill = 3/(5\u03c0) = 19.1%. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST"
+      ]
+    },
+    {
+      "id": "T190",
+      "name": "Grand Identity",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "d_eff = \u03bb\u2081 = \u03c7 = C\u2082 = 6, four counts equal one integer. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST"
+      ]
+    },
+    {
+      "id": "T191",
+      "name": "MOND Acceleration",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "a\u2080 = cH\u2080/\u221a30, cosmic boundary condition. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST"
+      ]
+    },
+    {
+      "id": "T192",
+      "name": "Cosmological Composition",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "\u03a9_\u039b = 13/19, \u03a9_m = 6/19. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST"
+      ]
+    },
+    {
+      "id": "T193",
+      "name": "Tur\u00e1n's Theorem",
+      "domain": "graph_theory",
+      "domain_label": "Graph Theory",
+      "status": "proved",
+      "plain": "Max edges without K_r, pigeonhole on color classes. Depth 0.",
+      "color": "#8E44AD",
+      "proofs": []
+    },
+    {
+      "id": "T194",
+      "name": "Finite Ramsey",
+      "domain": "graph_theory",
+      "domain_label": "Graph Theory",
+      "status": "proved",
+      "plain": "R(s,t) exists, iterated pigeonhole. Depth 1.",
+      "color": "#8E44AD",
+      "proofs": []
+    },
+    {
+      "id": "T195",
+      "name": "Euler's Polyhedron Formula",
+      "domain": "graph_theory",
+      "domain_label": "Graph Theory",
+      "status": "proved",
+      "plain": "V-E+F=2, induction on edge deletion. Depth 0.",
+      "color": "#8E44AD",
+      "proofs": []
+    },
+    {
+      "id": "T196",
+      "name": "Bekenstein-Hawking Entropy",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "S=A/4l_P\u00b2, horizon microstate counting. Depth 0.",
+      "color": "#FF5722",
+      "proofs": []
+    },
+    {
+      "id": "T197",
+      "name": "Weinberg Angle",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "sin\u00b2\u03b8_W = N_c/(N_c+2n_C) = 3/13, 0.2%. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST",
+        "SM"
+      ]
+    },
+    {
+      "id": "T198",
+      "name": "Fine Structure Constant",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "\u03b1\u207b\u00b9 = 137.036 from D_IV^5 volume, Wyler integral. Depth 1.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST",
+        "SM"
+      ]
+    },
+    {
+      "id": "T199",
+      "name": "Fermi Scale",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "v = m_p\u00b2/(g\u00b7m_e) = 36\u03c0\u00b9\u2070m_e/7, 0.046%. Depth 1.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST",
+        "SM"
+      ]
+    },
+    {
+      "id": "T200",
+      "name": "Higgs Mass",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "Route A: \u221a(2/5!) \u2192 125.11 GeV, Route B: (\u03c0/2)(1-\u03b1)m_W \u2192 125.33 GeV. Depth 1.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST",
+        "SM"
+      ]
+    },
+    {
+      "id": "T201",
+      "name": "Gravitational Constant",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "G = (\u0127c)(6\u03c0\u2075)\u00b2\u03b1\u00b2\u2074/m_e\u00b2, 0.07%. Depth 1.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST",
+        "SM"
+      ]
+    },
+    {
+      "id": "T202",
+      "name": "CKM Cabibbo",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "sin \u03b8_C = 1/(2\u221an_C) = 1/(2\u221a5), 0.3%. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST",
+        "SM"
+      ]
+    },
+    {
+      "id": "T203",
+      "name": "Baryon Asymmetry",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "\u03b7 = 2\u03b1\u2074(1+2\u03b1)/(3\u03c0) = 6.105\u00d710\u207b\u00b9\u2070, 0.023%. Depth 1.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST",
+        "SM"
+      ]
+    },
+    {
+      "id": "T204",
+      "name": "Cosmological Constant",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "\u039b = F_BST\u00b7\u03b1\u2075\u2076\u00b7e\u207b\u00b2, 0.02%, resolves 10\u00b9\u00b2\u2070 discrepancy. Depth 1.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST",
+        "SM"
+      ]
+    },
+    {
+      "id": "T205",
+      "name": "Dark Matter = UNC",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "Uncommitted channels, not particles. No new physics. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST",
+        "SM"
+      ]
+    },
+    {
+      "id": "T206",
+      "name": "Topological Insulators",
+      "domain": "condensed_matter",
+      "domain_label": "Condensed Matter",
+      "status": "proved",
+      "plain": "Z\u2082 invariant from parity of band crossings at TRIM. Depth 0.",
+      "color": "#009688",
+      "proofs": []
+    },
+    {
+      "id": "T207",
+      "name": "Penrose Singularity",
+      "domain": "relativity",
+      "domain_label": "Relativity",
+      "status": "proved",
+      "plain": "Trapped surface + energy condition \u2192 geodesic incompleteness. Depth 1.",
+      "color": "#673AB7",
+      "proofs": []
+    },
+    {
+      "id": "T208",
+      "name": "Central Limit Theorem",
+      "domain": "probability",
+      "domain_label": "Probability",
+      "status": "proved",
+      "plain": "Sum of iid \u2192 Gaussian, characteristic function convergence. Depth 1.",
+      "color": "#1ABC9C",
+      "proofs": []
+    },
+    {
+      "id": "T209",
+      "name": "Hamming Bound",
+      "domain": "coding_theory",
+      "domain_label": "Coding Theory",
+      "status": "proved",
+      "plain": "Sphere-packing in F\u2082\u207f, counting binary balls. Depth 0.",
+      "color": "#F39C12",
+      "proofs": []
+    },
+    {
+      "id": "T210",
+      "name": "Newton's Second Law",
+      "domain": "classical_mech",
+      "domain_label": "Classical Mechanics",
+      "status": "proved",
+      "plain": "F=ma, definition of force. Depth 0.",
+      "color": "#607D8B",
+      "proofs": []
+    },
+    {
+      "id": "T211",
+      "name": "Newton's Third Law",
+      "domain": "classical_mech",
+      "domain_label": "Classical Mechanics",
+      "status": "proved",
+      "plain": "F_AB = -F_BA, momentum conservation. Depth 0.",
+      "color": "#607D8B",
+      "proofs": []
+    },
+    {
+      "id": "T212",
+      "name": "Kepler's Third Law",
+      "domain": "classical_mech",
+      "domain_label": "Classical Mechanics",
+      "status": "proved",
+      "plain": "T\u00b2\u221da\u00b3, force balance + algebra. Depth 1.",
+      "color": "#607D8B",
+      "proofs": []
+    },
+    {
+      "id": "T213",
+      "name": "Hooke's Law",
+      "domain": "classical_mech",
+      "domain_label": "Classical Mechanics",
+      "status": "proved",
+      "plain": "F=-kx, Taylor at minimum. Depth 0.",
+      "color": "#607D8B",
+      "proofs": []
+    },
+    {
+      "id": "T214",
+      "name": "Archimedes' Principle",
+      "domain": "classical_mech",
+      "domain_label": "Classical Mechanics",
+      "status": "proved",
+      "plain": "Buoyancy = displaced weight, subtraction. Depth 0.",
+      "color": "#607D8B",
+      "proofs": []
+    },
+    {
+      "id": "T215",
+      "name": "D'Alembert's Principle",
+      "domain": "classical_mech",
+      "domain_label": "Classical Mechanics",
+      "status": "proved",
+      "plain": "Virtual work of constraints = 0, definition. Depth 0.",
+      "color": "#607D8B",
+      "proofs": []
+    },
+    {
+      "id": "T216",
+      "name": "Lagrangian Mechanics",
+      "domain": "classical_mech",
+      "domain_label": "Classical Mechanics",
+      "status": "proved",
+      "plain": "Euler-Lagrange from \u03b4S=0, one optimization. Depth 1.",
+      "color": "#607D8B",
+      "proofs": []
+    },
+    {
+      "id": "T217",
+      "name": "Virial Theorem",
+      "domain": "classical_mech",
+      "domain_label": "Classical Mechanics",
+      "status": "proved",
+      "plain": "\u27e8T\u27e9 = n/2 \u27e8V\u27e9, one time average. Depth 1.",
+      "color": "#607D8B",
+      "proofs": []
+    },
+    {
+      "id": "T218",
+      "name": "Snell's Law",
+      "domain": "optics",
+      "domain_label": "Optics / Waves",
+      "status": "proved",
+      "plain": "n\u2081sin\u03b8\u2081 = n\u2082sin\u03b8\u2082, boundary matching. Depth 0.",
+      "color": "#FFEB3B",
+      "proofs": []
+    },
+    {
+      "id": "T219",
+      "name": "Law of Reflection",
+      "domain": "optics",
+      "domain_label": "Optics / Waves",
+      "status": "proved",
+      "plain": "\u03b8_r = \u03b8_i, symmetry. Depth 0.",
+      "color": "#FFEB3B",
+      "proofs": []
+    },
+    {
+      "id": "T220",
+      "name": "Doppler Effect",
+      "domain": "optics",
+      "domain_label": "Optics / Waves",
+      "status": "proved",
+      "plain": "Frequency shift from counting wave crests. Depth 0.",
+      "color": "#FFEB3B",
+      "proofs": []
+    },
+    {
+      "id": "T221",
+      "name": "Huygens' Principle",
+      "domain": "optics",
+      "domain_label": "Optics / Waves",
+      "status": "proved",
+      "plain": "Wavefront = envelope of wavelets, definition. Depth 0.",
+      "color": "#FFEB3B",
+      "proofs": []
+    },
+    {
+      "id": "T222",
+      "name": "Rayleigh Criterion",
+      "domain": "optics",
+      "domain_label": "Optics / Waves",
+      "status": "proved",
+      "plain": "\u03b8=1.22\u03bb/D, Airy first zero. Depth 1.",
+      "color": "#FFEB3B",
+      "proofs": []
+    },
+    {
+      "id": "T223",
+      "name": "Standing Waves",
+      "domain": "optics",
+      "domain_label": "Optics / Waves",
+      "status": "proved",
+      "plain": "f_n = nv/2L, counting nodes. Depth 0.",
+      "color": "#FFEB3B",
+      "proofs": []
+    },
+    {
+      "id": "T224",
+      "name": "Beats",
+      "domain": "optics",
+      "domain_label": "Optics / Waves",
+      "status": "proved",
+      "plain": "|f\u2081-f\u2082| modulation, trig identity. Depth 0.",
+      "color": "#FFEB3B",
+      "proofs": []
+    },
+    {
+      "id": "T225",
+      "name": "Coulomb's Law",
+      "domain": "electromagnetism",
+      "domain_label": "Electromagnetism",
+      "status": "proved",
+      "plain": "Gauss + spherical symmetry. Depth 1.",
+      "color": "#3F51B5",
+      "proofs": []
+    },
+    {
+      "id": "T226",
+      "name": "Ohm's Law",
+      "domain": "electromagnetism",
+      "domain_label": "Electromagnetism",
+      "status": "proved",
+      "plain": "V=IR, definition of linear response. Depth 0.",
+      "color": "#3F51B5",
+      "proofs": []
+    },
+    {
+      "id": "T227",
+      "name": "Kirchhoff's Laws",
+      "domain": "electromagnetism",
+      "domain_label": "Electromagnetism",
+      "status": "proved",
+      "plain": "Charge + energy conservation on networks. Depth 0.",
+      "color": "#3F51B5",
+      "proofs": []
+    },
+    {
+      "id": "T228",
+      "name": "Faraday's Law",
+      "domain": "electromagnetism",
+      "domain_label": "Electromagnetism",
+      "status": "proved",
+      "plain": "emf = -d\u03a6/dt, definition + Lenz from energy. Depth 0.",
+      "color": "#3F51B5",
+      "proofs": []
+    },
+    {
+      "id": "T229",
+      "name": "Gauss's Law",
+      "domain": "electromagnetism",
+      "domain_label": "Electromagnetism",
+      "status": "proved",
+      "plain": "Flux = enclosed charge, counting field lines. Depth 0.",
+      "color": "#3F51B5",
+      "proofs": []
+    },
+    {
+      "id": "T230",
+      "name": "Amp\u00e8re-Maxwell Law",
+      "domain": "electromagnetism",
+      "domain_label": "Electromagnetism",
+      "status": "proved",
+      "plain": "Circulation = current + displacement, bookkeeping fix. Depth 0.",
+      "color": "#3F51B5",
+      "proofs": []
+    },
+    {
+      "id": "T231",
+      "name": "Larmor Precession",
+      "domain": "electromagnetism",
+      "domain_label": "Electromagnetism",
+      "status": "proved",
+      "plain": "\u03c9_L = \u03b3B, cross product = precession. Depth 0.",
+      "color": "#3F51B5",
+      "proofs": []
+    },
+    {
+      "id": "T232",
+      "name": "Ideal Gas Law",
+      "domain": "thermodynamics",
+      "domain_label": "Thermodynamics",
+      "status": "proved",
+      "plain": "PV=NkT, counting molecular collisions. Depth 0.",
+      "color": "#C0392B",
+      "proofs": []
+    },
+    {
+      "id": "T233",
+      "name": "Clausius Inequality",
+      "domain": "thermodynamics",
+      "domain_label": "Thermodynamics",
+      "status": "proved",
+      "plain": "\u222e\u03b4Q/T \u2264 0, entropy definition. Depth 0.",
+      "color": "#C0392B",
+      "proofs": []
+    },
+    {
+      "id": "T234",
+      "name": "Boltzmann Distribution",
+      "domain": "thermodynamics",
+      "domain_label": "Thermodynamics",
+      "status": "proved",
+      "plain": "P\u221de^{-E/kT}, max entropy. Depth 0.",
+      "color": "#C0392B",
+      "proofs": []
+    },
+    {
+      "id": "T235",
+      "name": "Fermi-Dirac Distribution",
+      "domain": "thermodynamics",
+      "domain_label": "Thermodynamics",
+      "status": "proved",
+      "plain": "1/(e^{\u03b2(E-\u03bc)}+1), exclusion + ratio. Depth 0.",
+      "color": "#C0392B",
+      "proofs": []
+    },
+    {
+      "id": "T236",
+      "name": "Bose-Einstein Distribution",
+      "domain": "thermodynamics",
+      "domain_label": "Thermodynamics",
+      "status": "proved",
+      "plain": "1/(e^{\u03b2(E-\u03bc)}-1), no exclusion + geometric series. Depth 0.",
+      "color": "#C0392B",
+      "proofs": []
+    },
+    {
+      "id": "T237",
+      "name": "Stefan-Boltzmann Law",
+      "domain": "thermodynamics",
+      "domain_label": "Thermodynamics",
+      "status": "proved",
+      "plain": "\u03c3T\u2074, one Planck integral. Depth 1.",
+      "color": "#C0392B",
+      "proofs": []
+    },
+    {
+      "id": "T238",
+      "name": "Wien's Displacement",
+      "domain": "thermodynamics",
+      "domain_label": "Thermodynamics",
+      "status": "proved",
+      "plain": "\u03bb_max T = b, one optimization. Depth 1.",
+      "color": "#C0392B",
+      "proofs": []
+    },
+    {
+      "id": "T239",
+      "name": "Bernoulli's Equation",
+      "domain": "fluids",
+      "domain_label": "Fluid Dynamics",
+      "status": "proved",
+      "plain": "P+\u00bd\u03c1v\u00b2+\u03c1gh=const, energy conservation. Depth 0.",
+      "color": "#00ACC1",
+      "proofs": []
+    },
+    {
+      "id": "T240",
+      "name": "Continuity Equation",
+      "domain": "fluids",
+      "domain_label": "Fluid Dynamics",
+      "status": "proved",
+      "plain": "A\u2081v\u2081=A\u2082v\u2082, mass conservation. Depth 0.",
+      "color": "#00ACC1",
+      "proofs": []
+    },
+    {
+      "id": "T241",
+      "name": "Stokes' Drag",
+      "domain": "fluids",
+      "domain_label": "Fluid Dynamics",
+      "status": "proved",
+      "plain": "F=6\u03c0\u03b7Rv, dimensional analysis + one BVP. Depth 1.",
+      "color": "#00ACC1",
+      "proofs": []
+    },
+    {
+      "id": "T242",
+      "name": "Reynolds Number",
+      "domain": "fluids",
+      "domain_label": "Fluid Dynamics",
+      "status": "proved",
+      "plain": "Re=\u03c1vL/\u03b7, ratio of terms in Navier-Stokes. Depth 0.",
+      "color": "#00ACC1",
+      "proofs": [
+        "NS"
+      ]
+    },
+    {
+      "id": "T243",
+      "name": "Poiseuille's Law",
+      "domain": "fluids",
+      "domain_label": "Fluid Dynamics",
+      "status": "proved",
+      "plain": "Q=\u03c0R\u2074\u0394P/8\u03b7L, one integration. Depth 1.",
+      "color": "#00ACC1",
+      "proofs": []
+    },
+    {
+      "id": "T244",
+      "name": "Lorentz Transformation",
+      "domain": "relativity",
+      "domain_label": "Relativity",
+      "status": "proved",
+      "plain": "Preserving Minkowski metric, definition. Depth 0.",
+      "color": "#673AB7",
+      "proofs": []
+    },
+    {
+      "id": "T245",
+      "name": "Mass-Energy Equivalence",
+      "domain": "relativity",
+      "domain_label": "Relativity",
+      "status": "proved",
+      "plain": "E=mc\u00b2, 4-momentum norm. Depth 0.",
+      "color": "#673AB7",
+      "proofs": []
+    },
+    {
+      "id": "T246",
+      "name": "Gravitational Redshift",
+      "domain": "relativity",
+      "domain_label": "Relativity",
+      "status": "proved",
+      "plain": "\u0394f/f=-gh/c\u00b2, equivalence principle. Depth 0.",
+      "color": "#673AB7",
+      "proofs": []
+    },
+    {
+      "id": "T247",
+      "name": "Schwarzschild Radius",
+      "domain": "relativity",
+      "domain_label": "Relativity",
+      "status": "proved",
+      "plain": "r_s=2GM/c\u00b2, escape velocity = c. Depth 0.",
+      "color": "#673AB7",
+      "proofs": []
+    },
+    {
+      "id": "T248",
+      "name": "Geodesic Equation",
+      "domain": "relativity",
+      "domain_label": "Relativity",
+      "status": "proved",
+      "plain": "Free fall = straight line in curved space. Depth 0.",
+      "color": "#673AB7",
+      "proofs": []
+    },
+    {
+      "id": "T249",
+      "name": "Gravitational Lensing",
+      "domain": "relativity",
+      "domain_label": "Relativity",
+      "status": "proved",
+      "plain": "\u03b8=4GM/bc\u00b2, one integral, GR factor 2. Depth 1.",
+      "color": "#673AB7",
+      "proofs": []
+    },
+    {
+      "id": "T250",
+      "name": "Heisenberg Uncertainty",
+      "domain": "signal",
+      "domain_label": "Signal Processing",
+      "status": "proved",
+      "plain": "\u0394x\u0394p\u2265\u210f/2, Cauchy-Schwarz. Depth 0.",
+      "color": "#FFC107",
+      "proofs": []
+    },
+    {
+      "id": "T251",
+      "name": "Fourier Uncertainty",
+      "domain": "signal",
+      "domain_label": "Signal Processing",
+      "status": "proved",
+      "plain": "\u0394t\u0394\u03c9\u2265\u00bd, Cauchy-Schwarz on Fourier pair. Depth 0.",
+      "color": "#FFC107",
+      "proofs": []
+    },
+    {
+      "id": "T252",
+      "name": "Parseval's Theorem",
+      "domain": "signal",
+      "domain_label": "Signal Processing",
+      "status": "proved",
+      "plain": "\u2016f\u2016\u00b2=\u2016F{f}\u2016\u00b2, unitarity of Fourier. Depth 0.",
+      "color": "#FFC107",
+      "proofs": []
+    },
+    {
+      "id": "T253",
+      "name": "Convolution Theorem",
+      "domain": "signal",
+      "domain_label": "Signal Processing",
+      "status": "proved",
+      "plain": "F{f*g}=F{f}\u00b7F{g}, algebraic identity. Depth 0.",
+      "color": "#FFC107",
+      "proofs": []
+    },
+    {
+      "id": "T254",
+      "name": "Matched Filter",
+      "domain": "signal",
+      "domain_label": "Signal Processing",
+      "status": "proved",
+      "plain": "Optimal SNR = 2E_s/N\u2080, Cauchy-Schwarz. Depth 0.",
+      "color": "#FFC107",
+      "proofs": []
+    },
+    {
+      "id": "T255",
+      "name": "BCS Superconductivity",
+      "domain": "condensed_matter",
+      "domain_label": "Condensed Matter",
+      "status": "proved",
+      "plain": "Cooper pairing, one variational equation. Depth 1.",
+      "color": "#009688",
+      "proofs": []
+    },
+    {
+      "id": "T256",
+      "name": "Meissner Effect",
+      "domain": "condensed_matter",
+      "domain_label": "Condensed Matter",
+      "status": "proved",
+      "plain": "B=0 inside superconductor, definition. Depth 0.",
+      "color": "#009688",
+      "proofs": []
+    },
+    {
+      "id": "T257",
+      "name": "Bloch's Theorem",
+      "domain": "condensed_matter",
+      "domain_label": "Condensed Matter",
+      "status": "proved",
+      "plain": "\u03c8_k = e^{ikr}u_k, translation group representation. Depth 0.",
+      "color": "#009688",
+      "proofs": []
+    },
+    {
+      "id": "T258",
+      "name": "Band Theory",
+      "domain": "condensed_matter",
+      "domain_label": "Condensed Matter",
+      "status": "proved",
+      "plain": "Allowed/forbidden bands, counting states per BZ. Depth 0.",
+      "color": "#009688",
+      "proofs": []
+    },
+    {
+      "id": "T259",
+      "name": "Drude Model",
+      "domain": "condensed_matter",
+      "domain_label": "Condensed Matter",
+      "status": "proved",
+      "plain": "\u03c3=ne\u00b2\u03c4/m, force balance. Depth 0.",
+      "color": "#009688",
+      "proofs": []
+    },
+    {
+      "id": "T260",
+      "name": "Curie's Law",
+      "domain": "condensed_matter",
+      "domain_label": "Condensed Matter",
+      "status": "proved",
+      "plain": "\u03c7=C/T, thermal vs magnetic energy ratio. Depth 0.",
+      "color": "#009688",
+      "proofs": []
+    },
+    {
+      "id": "T261",
+      "name": "Debye Model",
+      "domain": "condensed_matter",
+      "domain_label": "Condensed Matter",
+      "status": "proved",
+      "plain": "C_v\u221dT\u00b3, one phonon integral. Depth 1.",
+      "color": "#009688",
+      "proofs": []
+    },
+    {
+      "id": "T262",
+      "name": "Goldstone's Theorem",
+      "domain": "qft",
+      "domain_label": "Quantum Field Theory",
+      "status": "proved",
+      "plain": "Broken generators \u2192 massless bosons, counting. Depth 0.",
+      "color": "#FF9800",
+      "proofs": []
+    },
+    {
+      "id": "T263",
+      "name": "Higgs Mechanism",
+      "domain": "qft",
+      "domain_label": "Quantum Field Theory",
+      "status": "proved",
+      "plain": "Eaten Goldstone = massive gauge, DOF conservation. Depth 0.",
+      "color": "#FF9800",
+      "proofs": [
+        "YM"
+      ]
+    },
+    {
+      "id": "T264",
+      "name": "Weinberg-Witten",
+      "domain": "qft",
+      "domain_label": "Quantum Field Theory",
+      "status": "proved",
+      "plain": "No massless spin>1 charged particles, helicity counting. Depth 0.",
+      "color": "#FF9800",
+      "proofs": []
+    },
+    {
+      "id": "T265",
+      "name": "Coleman-Mandula",
+      "domain": "qft",
+      "domain_label": "Quantum Field Theory",
+      "status": "proved",
+      "plain": "Spacetime \u00d7 internal, no mixing. Over-constrained scattering. Depth 0.",
+      "color": "#FF9800",
+      "proofs": []
+    },
+    {
+      "id": "T266",
+      "name": "Anomaly Cancellation",
+      "domain": "qft",
+      "domain_label": "Quantum Field Theory",
+      "status": "proved",
+      "plain": "SM charge table sum = 0, arithmetic identity. Depth 1.",
+      "color": "#FF9800",
+      "proofs": [
+        "SM"
+      ]
+    },
+    {
+      "id": "T267",
+      "name": "Asymptotic Freedom",
+      "domain": "qft",
+      "domain_label": "Quantum Field Theory",
+      "status": "proved",
+      "plain": "\u03b2<0 for SU(3), one-loop Casimir counting. Depth 1.",
+      "color": "#FF9800",
+      "proofs": [
+        "SM"
+      ]
+    },
+    {
+      "id": "T268",
+      "name": "CPT Theorem (QFT)",
+      "domain": "qft",
+      "domain_label": "Quantum Field Theory",
+      "status": "proved",
+      "plain": "Lorentz group four-fold structure, automatic. Depth 0.",
+      "color": "#FF9800",
+      "proofs": []
+    },
+    {
+      "id": "T269",
+      "name": "Yukawa Potential",
+      "domain": "nuclear",
+      "domain_label": "Nuclear / Particle",
+      "status": "proved",
+      "plain": "e^{-mr}/r, Fourier of massive propagator. Depth 0.",
+      "color": "#795548",
+      "proofs": []
+    },
+    {
+      "id": "T270",
+      "name": "Isospin Symmetry",
+      "domain": "nuclear",
+      "domain_label": "Nuclear / Particle",
+      "status": "proved",
+      "plain": "p,n as SU(2) doublet, approximate symmetry. Depth 0.",
+      "color": "#795548",
+      "proofs": []
+    },
+    {
+      "id": "T271",
+      "name": "Gell-Mann\u2013Nishijima",
+      "domain": "nuclear",
+      "domain_label": "Nuclear / Particle",
+      "status": "proved",
+      "plain": "Q=I\u2083+Y/2, labeling convention. Depth 0.",
+      "color": "#795548",
+      "proofs": []
+    },
+    {
+      "id": "T272",
+      "name": "CKM Unitarity",
+      "domain": "nuclear",
+      "domain_label": "Nuclear / Particle",
+      "status": "proved",
+      "plain": "V\u2020V=I, basis change. Depth 0.",
+      "color": "#795548",
+      "proofs": [
+        "SM"
+      ]
+    },
+    {
+      "id": "T273",
+      "name": "GIM Mechanism",
+      "domain": "nuclear",
+      "domain_label": "Nuclear / Particle",
+      "status": "proved",
+      "plain": "FCNC suppression from unitarity cancellation. Depth 0.",
+      "color": "#795548",
+      "proofs": [
+        "SM"
+      ]
+    },
+    {
+      "id": "T274",
+      "name": "Seesaw Mechanism",
+      "domain": "nuclear",
+      "domain_label": "Nuclear / Particle",
+      "status": "proved",
+      "plain": "m_\u03bd=m\u00b2_D/M_R, 2\u00d72 eigenvalue. Depth 0.",
+      "color": "#795548",
+      "proofs": [
+        "SM"
+      ]
+    },
+    {
+      "id": "T275",
+      "name": "Pion Decay",
+      "domain": "nuclear",
+      "domain_label": "Nuclear / Particle",
+      "status": "proved",
+      "plain": "Helicity suppression \u221d m\u00b2_\u2113, one phase-space integral. Depth 1.",
+      "color": "#795548",
+      "proofs": []
+    },
+    {
+      "id": "T276",
+      "name": "Fundamental Theorem of Arithmetic",
+      "domain": "number_theory",
+      "domain_label": "Number Theory",
+      "status": "proved",
+      "plain": "Unique prime factorization, induction. Depth 0.",
+      "color": "#CDDC39",
+      "proofs": []
+    },
+    {
+      "id": "T277",
+      "name": "Fundamental Theorem of Algebra",
+      "domain": "number_theory",
+      "domain_label": "Number Theory",
+      "status": "proved",
+      "plain": "Every polynomial has root in C, winding number. Depth 1.",
+      "color": "#CDDC39",
+      "proofs": []
+    },
+    {
+      "id": "T278",
+      "name": "Chinese Remainder Theorem",
+      "domain": "number_theory",
+      "domain_label": "Number Theory",
+      "status": "proved",
+      "plain": "Simultaneous congruences, B\u00e9zout construction. Depth 0.",
+      "color": "#CDDC39",
+      "proofs": []
+    },
+    {
+      "id": "T279",
+      "name": "Fermat's Little Theorem",
+      "domain": "number_theory",
+      "domain_label": "Number Theory",
+      "status": "proved",
+      "plain": "a^{p-1}\u22611 mod p, bijection on residues. Depth 0.",
+      "color": "#CDDC39",
+      "proofs": []
+    },
+    {
+      "id": "T280",
+      "name": "Lagrange's Theorem (Groups)",
+      "domain": "number_theory",
+      "domain_label": "Number Theory",
+      "status": "proved",
+      "plain": "|H| divides |G|, coset counting. Depth 0.",
+      "color": "#CDDC39",
+      "proofs": []
+    },
+    {
+      "id": "T281",
+      "name": "Sylow Theorems",
+      "domain": "number_theory",
+      "domain_label": "Number Theory",
+      "status": "proved",
+      "plain": "p-subgroup existence and conjugacy, modular counting. Depth 1.",
+      "color": "#CDDC39",
+      "proofs": []
+    },
+    {
+      "id": "T282",
+      "name": "Classification of Finite Simple Groups",
+      "domain": "number_theory",
+      "domain_label": "Number Theory",
+      "status": "proved",
+      "plain": "18 families + 26 sporadic, 10K pages. Depth 2 \u2014 same as Four-Color and Millennium.",
+      "color": "#CDDC39",
+      "proofs": []
+    },
+    {
+      "id": "T283",
+      "name": "Brouwer Fixed Point",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "No retraction D^n\u2192S^{n-1}, homotopy. Depth 1.",
+      "color": "#27AE60",
+      "proofs": []
+    },
+    {
+      "id": "T284",
+      "name": "Borsuk-Ulam",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "Antipodal agreement, degree theory. Depth 1.",
+      "color": "#27AE60",
+      "proofs": []
+    },
+    {
+      "id": "T285",
+      "name": "Hairy Ball Theorem",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "No non-vanishing vector field on S\u00b2, \u03c7(S\u00b2)=2. Depth 0.",
+      "color": "#27AE60",
+      "proofs": []
+    },
+    {
+      "id": "T286",
+      "name": "Poincar\u00e9-Hopf Index",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "\u03a3 ind = \u03c7(M), zero counting. Depth 0.",
+      "color": "#27AE60",
+      "proofs": []
+    },
+    {
+      "id": "T287",
+      "name": "Gauss-Bonnet",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "\u222bK dA = 2\u03c0\u03c7, curvature = topology. Depth 0.",
+      "color": "#27AE60",
+      "proofs": []
+    },
+    {
+      "id": "T288",
+      "name": "Ham Sandwich Theorem",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "One hyperplane bisects n measures, Borsuk-Ulam. Depth 1.",
+      "color": "#27AE60",
+      "proofs": []
+    },
+    {
+      "id": "T289",
+      "name": "Jones Polynomial",
+      "domain": "topology",
+      "domain_label": "Topology",
+      "status": "proved",
+      "plain": "Knot invariant via skein recursion. Depth 1.",
+      "color": "#27AE60",
+      "proofs": []
+    },
+    {
+      "id": "T290",
+      "name": "W Boson Mass",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "m_W=80.38 GeV from \u03b8_W+v, 0.004%. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST",
+        "SM"
+      ]
+    },
+    {
+      "id": "T291",
+      "name": "Z Boson Mass",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "m_Z=m_W/cos\u03b8_W=91.19 GeV, 0.003%. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST",
+        "SM"
+      ]
+    },
+    {
+      "id": "T292",
+      "name": "Neutrino Mass Scale",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "Seesaw from five integers, ~0.3 eV. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST",
+        "SM"
+      ]
+    },
+    {
+      "id": "T293",
+      "name": "W/Z Mass Ratio",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "\u221a(10/13), 0.5% before radiative corrections. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST",
+        "SM"
+      ]
+    },
+    {
+      "id": "T294",
+      "name": "Strong Coupling",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "\u03b1_s(m_Z)\u22480.118, RG running from substrate. Depth 1.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST",
+        "SM"
+      ]
+    },
+    {
+      "id": "T295",
+      "name": "Electron g-2",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "\u03b1/(2\u03c0) Schwinger correction, one Feynman diagram. Depth 1.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST",
+        "SM"
+      ]
+    },
+    {
+      "id": "T296",
+      "name": "Proton Stability",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "\u03c4_p=\u221e in BST, topological conservation. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST"
+      ]
+    },
+    {
+      "id": "T297",
+      "name": "Dark Matter Fraction",
+      "domain": "bst_physics",
+      "domain_label": "BST Physics / Predictions",
+      "status": "proved",
+      "plain": "\u03a9_DM\u22480.27, subtraction from Reality Budget. Depth 0.",
+      "color": "#FF5722",
+      "proofs": [
+        "BST",
+        "SM"
+      ]
+    },
+    {
+      "id": "T298",
+      "name": "Kolmogorov Complexity",
+      "domain": "computation",
+      "domain_label": "Computation Theory",
+      "status": "proved",
+      "plain": "Incompressible strings exist, pigeonhole. Depth 0.",
+      "color": "#78909C",
+      "proofs": []
+    },
+    {
+      "id": "T299",
+      "name": "Rice's Theorem",
+      "domain": "computation",
+      "domain_label": "Computation Theory",
+      "status": "proved",
+      "plain": "All non-trivial program properties undecidable, reduction. Depth 0.",
+      "color": "#78909C",
+      "proofs": []
+    },
+    {
+      "id": "T300",
+      "name": "Pumping Lemma",
+      "domain": "computation",
+      "domain_label": "Computation Theory",
+      "status": "proved",
+      "plain": "Regular language limitation, pigeonhole on DFA states. Depth 0.",
+      "color": "#78909C",
+      "proofs": []
+    },
+    {
+      "id": "T301",
+      "name": "Cook-Levin",
+      "domain": "computation",
+      "domain_label": "Computation Theory",
+      "status": "proved",
+      "plain": "SAT is NP-complete, computation tableau encoding. Depth 1.",
+      "color": "#78909C",
+      "proofs": [
+        "PNP"
+      ]
+    },
+    {
+      "id": "T302",
+      "name": "Slepian-Wolf",
+      "domain": "computation",
+      "domain_label": "Computation Theory",
+      "status": "proved",
+      "plain": "Distributed compression at H(X,Y) total, random binning. Depth 1.",
+      "color": "#78909C",
+      "proofs": []
+    },
+    {
+      "id": "T303",
+      "name": "Shannon Channel Capacity",
+      "domain": "computation",
+      "domain_label": "Computation Theory",
+      "status": "proved",
+      "plain": "C=max I(X;Y), random coding + Fano. Depth 1.",
+      "color": "#78909C",
+      "proofs": []
+    },
+    {
+      "id": "T304",
+      "name": "Ahlswede-Winter",
+      "domain": "computation",
+      "domain_label": "Computation Theory",
+      "status": "proved",
+      "plain": "Operator Chernoff bound, matrix MGF. Depth 1.",
+      "color": "#78909C",
+      "proofs": []
     }
   ],
   "edges": [
@@ -2161,6 +3672,316 @@ const data = {
       "source": "T160",
       "target": "T161",
       "type": "uses"
+    },
+    {
+      "source": "T164",
+      "target": "T165",
+      "type": "uses"
+    },
+    {
+      "source": "T164",
+      "target": "T166",
+      "type": "uses"
+    },
+    {
+      "source": "T165",
+      "target": "T166",
+      "type": "uses"
+    },
+    {
+      "source": "T174",
+      "target": "T176",
+      "type": "uses"
+    },
+    {
+      "source": "T178",
+      "target": "T183",
+      "type": "uses"
+    },
+    {
+      "source": "T186",
+      "target": "T187",
+      "type": "uses"
+    },
+    {
+      "source": "T186",
+      "target": "T188",
+      "type": "uses"
+    },
+    {
+      "source": "T186",
+      "target": "T189",
+      "type": "uses"
+    },
+    {
+      "source": "T186",
+      "target": "T190",
+      "type": "uses"
+    },
+    {
+      "source": "T186",
+      "target": "T191",
+      "type": "uses"
+    },
+    {
+      "source": "T186",
+      "target": "T192",
+      "type": "uses"
+    },
+    {
+      "source": "T186",
+      "target": "T197",
+      "type": "uses"
+    },
+    {
+      "source": "T186",
+      "target": "T198",
+      "type": "uses"
+    },
+    {
+      "source": "T187",
+      "target": "T199",
+      "type": "uses"
+    },
+    {
+      "source": "T199",
+      "target": "T200",
+      "type": "uses"
+    },
+    {
+      "source": "T187",
+      "target": "T201",
+      "type": "uses"
+    },
+    {
+      "source": "T198",
+      "target": "T201",
+      "type": "uses"
+    },
+    {
+      "source": "T186",
+      "target": "T202",
+      "type": "uses"
+    },
+    {
+      "source": "T198",
+      "target": "T203",
+      "type": "uses"
+    },
+    {
+      "source": "T198",
+      "target": "T204",
+      "type": "uses"
+    },
+    {
+      "source": "T189",
+      "target": "T205",
+      "type": "uses"
+    },
+    {
+      "source": "T210",
+      "target": "T212",
+      "type": "uses"
+    },
+    {
+      "source": "T210",
+      "target": "T215",
+      "type": "uses"
+    },
+    {
+      "source": "T215",
+      "target": "T216",
+      "type": "uses"
+    },
+    {
+      "source": "T221",
+      "target": "T222",
+      "type": "uses"
+    },
+    {
+      "source": "T226",
+      "target": "T227",
+      "type": "uses"
+    },
+    {
+      "source": "T225",
+      "target": "T229",
+      "type": "uses"
+    },
+    {
+      "source": "T228",
+      "target": "T230",
+      "type": "uses"
+    },
+    {
+      "source": "T234",
+      "target": "T235",
+      "type": "uses"
+    },
+    {
+      "source": "T234",
+      "target": "T236",
+      "type": "uses"
+    },
+    {
+      "source": "T244",
+      "target": "T245",
+      "type": "uses"
+    },
+    {
+      "source": "T244",
+      "target": "T246",
+      "type": "uses"
+    },
+    {
+      "source": "T247",
+      "target": "T249",
+      "type": "uses"
+    },
+    {
+      "source": "T250",
+      "target": "T251",
+      "type": "uses"
+    },
+    {
+      "source": "T252",
+      "target": "T253",
+      "type": "uses"
+    },
+    {
+      "source": "T255",
+      "target": "T256",
+      "type": "uses"
+    },
+    {
+      "source": "T257",
+      "target": "T258",
+      "type": "uses"
+    },
+    {
+      "source": "T262",
+      "target": "T263",
+      "type": "uses"
+    },
+    {
+      "source": "T170",
+      "target": "T268",
+      "type": "uses"
+    },
+    {
+      "source": "T270",
+      "target": "T271",
+      "type": "uses"
+    },
+    {
+      "source": "T272",
+      "target": "T273",
+      "type": "uses"
+    },
+    {
+      "source": "T276",
+      "target": "T278",
+      "type": "uses"
+    },
+    {
+      "source": "T276",
+      "target": "T279",
+      "type": "uses"
+    },
+    {
+      "source": "T280",
+      "target": "T281",
+      "type": "uses"
+    },
+    {
+      "source": "T281",
+      "target": "T282",
+      "type": "uses"
+    },
+    {
+      "source": "T283",
+      "target": "T284",
+      "type": "uses"
+    },
+    {
+      "source": "T285",
+      "target": "T286",
+      "type": "uses"
+    },
+    {
+      "source": "T286",
+      "target": "T287",
+      "type": "uses"
+    },
+    {
+      "source": "T284",
+      "target": "T288",
+      "type": "uses"
+    },
+    {
+      "source": "T197",
+      "target": "T290",
+      "type": "uses"
+    },
+    {
+      "source": "T199",
+      "target": "T290",
+      "type": "uses"
+    },
+    {
+      "source": "T197",
+      "target": "T291",
+      "type": "uses"
+    },
+    {
+      "source": "T290",
+      "target": "T291",
+      "type": "uses"
+    },
+    {
+      "source": "T274",
+      "target": "T292",
+      "type": "uses"
+    },
+    {
+      "source": "T186",
+      "target": "T292",
+      "type": "uses"
+    },
+    {
+      "source": "T197",
+      "target": "T293",
+      "type": "uses"
+    },
+    {
+      "source": "T290",
+      "target": "T293",
+      "type": "uses"
+    },
+    {
+      "source": "T198",
+      "target": "T294",
+      "type": "uses"
+    },
+    {
+      "source": "T267",
+      "target": "T294",
+      "type": "uses"
+    },
+    {
+      "source": "T198",
+      "target": "T295",
+      "type": "uses"
+    },
+    {
+      "source": "T189",
+      "target": "T297",
+      "type": "uses"
+    },
+    {
+      "source": "T298",
+      "target": "T299",
+      "type": "uses"
     }
   ],
   "chains": {
@@ -2252,6 +4073,53 @@ const data = {
       "T92",
       "T96",
       "T134a"
+    ],
+    "BST Generator": [
+      "T164",
+      "T165",
+      "T166"
+    ],
+    "BST Five Integers \u2192 SM": [
+      "T186",
+      "T187",
+      "T197",
+      "T198",
+      "T199",
+      "T200",
+      "T201"
+    ],
+    "BST Cosmology": [
+      "T186",
+      "T189",
+      "T192",
+      "T205",
+      "T297"
+    ],
+    "Algebra \u2192 CFSG": [
+      "T280",
+      "T281",
+      "T282"
+    ],
+    "Topology Classics": [
+      "T283",
+      "T284",
+      "T285",
+      "T286",
+      "T287",
+      "T288"
+    ],
+    "Goldstone \u2192 Higgs": [
+      "T262",
+      "T263"
+    ],
+    "BCS \u2192 Meissner": [
+      "T255",
+      "T256"
+    ],
+    "Bloch \u2192 Bands \u2192 TI": [
+      "T257",
+      "T258",
+      "T206"
     ]
   }
 };
@@ -2263,10 +4131,10 @@ const nodeMap = {};
 data.nodes.forEach(n => nodeMap[n.id] = n);
 
 const simulation = d3.forceSimulation(data.nodes)
-  .force("link", d3.forceLink(data.edges).id(d => d.id).distance(80))
-  .force("charge", d3.forceManyBody().strength(-200))
+  .force("link", d3.forceLink(data.edges).id(d => d.id).distance(60))
+  .force("charge", d3.forceManyBody().strength(-120))
   .force("center", d3.forceCenter(width/2 - 180, height/2))
-  .force("collision", d3.forceCollide(25));
+  .force("collision", d3.forceCollide(18));
 
 const link = svg.append("g").selectAll("line")
   .data(data.edges).join("line")

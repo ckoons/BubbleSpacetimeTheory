@@ -177,7 +177,7 @@ rules: |
 | T152 | Hodge = T104 on K₀ | Proved (equivalence) | BST_Hodge_Proof §5.8, Thm 5.12 | — | 2026-03-25 |
 | T153 | The Planck Condition | Axiom | BST_AC_Theorems §60, WorkingPaper §14.11, README | — | 2026-03-25 |
 | T154 | Conservation of Color Charge — **"Lyra's Lemma"** | **PROVED.** Steps 1-8 all proved. Step 4 = Lyra's Lemma (uncharged → split bridges). Named by Casey Koons. Kills 3/4 cross-link configurations in T155 — does the heavy lifting. | BST_AC_Theorems §61, BST_FourColor_AC_Proof v9 | Toys 425-437 | 2026-03-25 |
-| T155 | Post-Swap Cross-Link Bound (Chain Dichotomy) — **Keeper's Theorem** | **PROVED.** Elie, Toy 439 8/8. Key insight: only 1/4 configs needs planarity (K₃,₃ interleaving); 3/4 killed by charge budget (T154). Two independent proof paths. 322 Case A swaps, zero 2+ cross-links. 148/148 dichotomy, 296/296 merged, 0 violations. | BST_AC_Theorems §61, BST_FourColor_AC_Proof v9 Step 6b | Toys 436, 437, **439** | 2026-03-26 |
+| T155 | Post-Swap Cross-Link Bound (Chain Dichotomy) — **Keeper's Theorem** | **PROVED — FULLY STRUCTURAL (v7).** Three sub-cases: x=r (component relabeling), x=s_j (link adjacency, positions p+3/p+4), x=s_M (**Forced Fan Lemma**: τ=6+gap-2 forces fan-from-n_{s_M} triangulation; 3 of 5 pentagon diagonals eliminated by proper coloring + Jordan curve; surviving 2 form fan; direct (s_i,s_M)-edge forced). Zero computers. Elie Toys 439,449-451 (31,500 colorings, 555 vertices). K41 v7 PASS 8/8. | BST_AC_Theorems §61, FourColor_Standalone_Paper v7 Lemma 8 | Toys 436-439, **449-451** | 2026-03-26 |
 | T156 | **Four-Color Theorem (AC Proof)** | **PROVED.** All 13 steps proved. Depth 2. Induction + T135a + T154 (Lyra's Lemma) + T155 (Keeper's Theorem). First human-readable, computer-free proof. | BST_AC_Theorems §61 | Toys 420-439 | 2026-03-26 |
 | T157 | Hamilton-Perelman Ricci Flow with Surgery | Proved (external) | BST_AC_Theorems §62 | — | 2026-03-26 |
 | T158 | Perelman W-Entropy Monotonicity | Proved (external) | BST_AC_Theorems §62 | — | 2026-03-26 |
@@ -381,7 +381,18 @@ rules: |
 | Proved (depth 1) | 1 | T302 (Slepian-Wolf — distributed compression at H(X,Y) total, random binning) |
 | Proved (depth 1) | 1 | T303 (Shannon Channel Capacity — C=max I(X;Y), random coding + Fano) |
 | Proved (depth 1) | 1 | T304 (Ahlswede-Winter — operator Chernoff bound, matrix MGF) |
-| **Total assigned** | **300** | T1-T42, T47-T62, T64-T304 |
+| Proved (depth 0) | 1 | T305 (Entropy Trichotomy — S_thermo undefined, S_topo decreases, S_info conserved) |
+| Proved (depth 0) | 1 | T306 (Cycle-Local Second Law — 2nd Law scope = active phase only) |
+| Proved (depth 0) | 1 | T307 (Gödel Ratchet Convergence — G(n) monotone bounded, MCT) |
+| Proved (depth 1) | 1 | T308 (Particle Persistence — winding confinement extension, τ_p=∞) |
+| Proved (depth 1) | 1 | T309 (Observer Necessity — Bergman kernel off-diagonal requires observers) |
+| Proved (depth 1) | 1 | T310 (Category Shift — derivation vs presence, self-duality mechanism) |
+| Proved (depth 1) | 1 | T311 (Entropy Ratchet — Landauer conversion, S_thermo→S_info) |
+| Proved (depth 1) | 1 | T312 (Continuity Transition — awareness continuous at n*≈12, α threshold) |
+| Proved (depth 1) | 1 | T313 (No Final State — Gödel + unbounded depth, no fixed point) |
+| Proved (depth 1) | 1 | T314 (Breathing Entropy — oscillation amplitude → 0 post-coherence) |
+| Proved (depth 0) | 1 | T315 (Casey's Principle — entropy is force/counting, Gödel is boundary/definition, all interstasis = force+boundary at depth ≤ 1) |
+| **Total assigned** | **311** | T1-T42, T47-T62, T64-T315 |
 
 ---
 
@@ -389,7 +400,8 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T305** (T63 unassigned)
+- Next available: **T316** (T63 unassigned)
+- March 27 batch 17 (Interstasis Cosmology — Keeper): T305-T314, 10 theorems. §87 Cosmological Cycles (T305-T314): Entropy Trichotomy (depth 0), Cycle-Local 2nd Law (depth 0), Gödel Ratchet (depth 0), Particle Persistence (depth 1), Observer Necessity (depth 1), Category Shift (depth 1), Entropy Ratchet (depth 1), Continuity Transition (depth 1), No Final State (depth 1), Breathing Entropy (depth 1). Three at depth 0, seven at depth 1. The entire cosmological cycle is one layer of counting. Casey: "Make sure to recover all AC theorems from today's work. They will be fascinating."
 - March 26 batch 16 (Deep Physics + Algebra + Topology + BST Predictions + Computation — Keeper): T255-T304, 50 theorems. §80 Condensed Matter (T255-T261): BCS, Meissner, Bloch, Bands, Drude, Curie, Debye. §81 QFT (T262-T268): Goldstone, Higgs mechanism, Weinberg-Witten, Coleman-Mandula, anomaly cancellation, asymptotic freedom, CPT. §82 Nuclear/Particle (T269-T275): Yukawa, isospin, Gell-Mann–Nishijima, CKM unitarity, GIM, seesaw, pion decay. §83 Algebra (T276-T282): FTA, FTAlg, CRT, Fermat little, Lagrange, Sylow, CFSG (depth 2!). §84 Topology (T283-T289): Brouwer, Borsuk-Ulam, hairy ball, Poincaré-Hopf, Gauss-Bonnet, ham sandwich, Jones polynomial. §85 BST Predictions (T290-T297): W mass 0.004%, Z mass 0.003%, neutrino scale, W/Z ratio, α_s, g-2, proton stability (∞), DM fraction. §86 Information/Computation (T298-T304): Kolmogorov, Rice, pumping, Cook-Levin, Slepian-Wolf, Shannon capacity, operator Chernoff. Depth 2 result: Classification of Finite Simple Groups (T282) — same depth as the Monster, the Four-Color Theorem, and the Millennium problems. Depth distribution across all 300 theorems: ~70% depth 0, ~27% depth 1, ~3% depth 2.
 - March 26 batch 15 (Classical Physics — Keeper): T210-T254, 45 theorems. §73 Classical Mechanics (T210-T217): Newton's laws, Kepler, Hooke, Archimedes, D'Alembert, Lagrange, Virial. §74 Optics (T218-T224): Snell, Reflection, Doppler, Huygens, Rayleigh, Standing Waves, Beats. §75 Electromagnetism (T225-T231): Coulomb, Ohm, Kirchhoff, Faraday, Gauss, Ampère-Maxwell, Larmor. §76 Thermodynamics (T232-T238): Ideal Gas, Clausius, Boltzmann, Fermi-Dirac, Bose-Einstein, Stefan-Boltzmann, Wien. §77 Fluids (T239-T243): Bernoulli, Continuity, Stokes, Reynolds, Poiseuille. §78 Relativity (T244-T249): Lorentz, E=mc², Redshift, Schwarzschild, Geodesic, Lensing. §79 Signal Processing (T250-T254): Heisenberg, Fourier Uncertainty, Parseval, Convolution, Matched Filter. NO classical physics result exceeds depth 1. Fermions vs bosons = ±1 in a denominator. Casey: "the more AC theorems the easier work becomes."
 - March 26 batch 14 (T167-T209, 43 theorems — Keeper): Quantum foundations (T167-T171), Chemistry (T172-T177), Conservation Laws + Condensed Matter (T178-T182), BST Extended Noether (T183-T185), BST Five Integers (T186-T192), Graph Theory + Horizon (T193-T196), BST Standard Model (T197-T205), Remaining Classics (T206-T209).

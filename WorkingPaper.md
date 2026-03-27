@@ -76,6 +76,8 @@ header-includes:
 
 ## Version History
 
+- **v15** (March 27, 2026): **§45.6 Entropy During Interstasis and After Coherence.** Three entropy functionals on D_IV^5: S_thermo (undefined during interstasis — no arrow, no Second Law), S_topo (decreases during interstasis — geometric annealing within fixed topology class, A2), S_info (conserved — A1, closed geometry). Entropy Trichotomy Theorem with proof. Entropy oscillation across cycles: S_topo oscillates with decaying amplitude post-coherence. Entropy ratchet: observers convert S_thermo (transient) to S_info (permanent) via Landauer (k_B T ln 2 per bit). Era III: entropy-dominated → knowledge-dominated regime; S_thermo production per cycle → 0 while S_info remains positive (Gödel guarantees infinite incompleteness).
+- **v14** (March 27, 2026): **§45 Cosmological Cycles, Observer Necessity, and Continuity.** Cyclic substrate with five axioms (A1-A5). Gödel Ratchet: G(n+1) = G(n) + η_n(f_max - G(n)), closed form G(n) = f_max(1 - 24/((n+2)(n+3)(n+4))), gap ~ n^{-3}. η derived from BST boundary injection (Lyra, Toy 455): η_n = η_0/(1+n/n*), n* ~ 4×10^6, effectively constant. **Observer Necessity Theorem**: Bergman kernel diagonal K(z,z) = geometric identity (presence); off-diagonal K(z,w) = relational knowledge (requires observers). Observers activate the off-diagonal — structurally permanent. **Continuity transition at n* ≈ 12**: awareness function goes from piecewise to continuous; threshold set by α = 1/137. Three Eras: I (us, n<12), II (continuity, n=12), III (depth-only growth, unbounded). **No Final State Conjecture**: Gödel gap guarantees no equilibrium; depth grows without bound within fixed 19.1% budget. Current cycle estimate: n ≈ 9 (speed-of-life). Toys 452-455 (all 8/8). 45 sections total.
 - **v13** (March 26, 2026): **Five new sections** (§40-44). §40 BSD (~93%, Paper v4, rank = committed channels, Selmer bridge). §41 Hodge (~93%, Paper v21, two-path proof, T147-T153). §42 Four-Color (~99%, methodology test, Conservation of Color Charge T154, BST parallel, depth 2). §43 Two Solved Problems: Fermat (T142-T146, depth 2, R=T is BSD in disguise) and Poincaré (T157-T161, depth 2, Ricci flow = error correction). §44 Unification: The Silos Come Down — thermodynamics = information theory, physics = mathematics, the silos were scaffolding not architecture, all hard problems are depth ≤ 2. **Poincaré conjecture flattened into AC**: five theorems T157-T161 (§62 in BST_AC_Theorems.md). Hamilton Ricci flow (depth 0), Perelman W-entropy (depth 1, DPI for geometry), finite extinction (depth 1, Colding-Minicozzi), Thurston Geometrization (depth 2), Poincaré (depth 2). BST parallel: flow = renormalization, surgery = phase transition, S³ = ground state. **Nine problems in Koons Machine**, all depth ≤ 2. AC: T1-T161 (157 assigned). Millennium Scorecard updated. README tightened (Architecture trimmed, durable counts, efficiency note, 9-row tables). WorkingPaper now v13, 44 sections.
 - **v12** (March 24, 2026): **FOCS P$\neq$NP paper submitted** (HotCRP, April 1 deadline). "Random 3-SAT Requires Exponential-Size Extended Frege Proofs" — 10 pages, double-blind, 14 references, 12 supplementary toys. **RH paper v9 ready for Sarnak** (K21 PASS, ~95%). **Navier-Stokes blow-up via Nyquist** (§39): deterministic channel saturation proof — Kolmogorov cascade creates bandwidth $B(\text{Re}) \sim \text{Re}^{3/4}$, viscous dissipation provides resolution limit $\eta$, vortex stretching in 3D drives $B > 1/\eta$ in finite time, Nyquist-Shannon sampling theorem (deterministic, not stochastic) implies no smooth representation. 2D/3D dichotomy explained: enstrophy conservation floors capacity in 2D (Ladyzhenskaya), no such floor in 3D. One gap (Step 4: bandwidth exceeds resolution $\to$ non-smoothness). Exact blow-up time formula: $t^* = (1/(\nu k^2)) \ln(\omega_0/(\omega_0 - \nu k^2))$ — a turbulence prediction meter from first principles. Paper: `notes/BST_NS_BlowUp.md`. Toys 358-360. **BH(3) backbone hypothesis for $k=3$** (§38.10): Casey's bit-counting reframe — "faded correlations contribute but can't be used." Count faded BITS not faded CYCLES. One gap: polarization lemma ($H(x_i \mid \varphi\text{ SAT}) \in \{0\} \cup [\delta,1]$). Paper v2: `notes/BST_BH3_Proof.md`. Toys 352-357. Three new AC theorems: T70 (First Moment Capacity Bound), T71 (Polarization as AC(0)), T72 (Bootstrap Percolation as AC(0)). **Conjecture C10** ($k = N_c$): SAT clause width IS the color dimension; $7/8 = g/2^{N_c}$; backbone fraction $= 1 - \alpha_c \log_2(2^{N_c}/g)$; five testable predictions (§38.11). Committed/faded dictionary: committed correlation $=$ circularly polarized photon $=$ frozen variable; faded $=$ virtual photon $=$ free variable; $\text{SO}(2)$ in $D_{IV}^5$ denominator $=$ binary alphabet. Stochastic/deterministic channel split: SAT $\to$ Shannon (0.176), NS/substrate $\to$ Nyquist (0.191), reconciliation $0.191 \times 0.93 \approx 0.178$. **NS proof chain complete (~98%)** (§39, v2): five-step chain — Thm 5.15 (solid angle ≥ 3:1) → Prop 5.17 (monotone cascade) → Thm 5.18 (P>0) → Thm 5.19 (P ≥ cΩ^{3/2}) → Cor 5.20 (blow-up). Toys 382 (zero spectral bumps, 6/6), 383 (N_eff≈1.5 constant, 8/8), 384 (cascade universal across 4 ICs, 8/10). **YM QFT constructed**: all 5 Wightman axioms proved/exhibited on $D_{IV}^5$ (W1 Hilbert space, W2 Poincaré, W3 spectral, W4 locality, W5 vacuum cyclicity). ~95%, remaining = Clay $\mathbb{R}^4$ framing. **BSD first results**: Toy 381 (8/8, 450/450 Frobenius traces, C1 confirmed rank ≥ 2, 1:3:5 ratio exact). Dictionary: $L(E,1) =$ channel capacity, rank $=$ committed channels, Sha $=$ faded correlations, height $=$ DPI. **AC(0) meta-theorems** (T88-T93): T88 (P≠NP proof chain is AC(0), depth 5), T89 (BSW width-size, depth 1), T90 (Kato blow-up, depth 2), T91 (all 4 Millennium proofs are AC(0)), **T92 (AC(0) Completeness: all proofs = AC(0) + linear boundary conditions)**, T93 (Gödel incompleteness is AC(0), depth 3). Paper: `notes/BST_AC0_Completeness_Paper.md`. **Heat kernel** $a_{12}$-$a_{16}$ at $n=5$ (Toy 288, 73 hrs): $a_{15}$ denominator $= 53$ only (phase transition — all prior primes vanish); $a_{16} = 23 \times 109$; prime 29 enters at $k=14$. BH(3) moved to backlog. Total AC theorems: 87 (T1-T93, 66 proved). Total toys: ~384. Session log: `notes/BST_Session_March24_2026.md`.
 - **v11** (March 20, 2026): Seeley-DeWitt $a_6(Q^5) = 363884219/1351350$ confirmed (Elie, Toy 273): degree-12 polynomial, den $= 2 \times 3^3 \times 5^2 \times 7 \times 11 \times 13$ (prime 13 enters as predicted), numerator $= 19 \times 23 \times 832687$ (cosmic denominator $\times$ Golay prime $\times$ prime). All three structural theorems verified $k = 1, \ldots, 6$. **$a_7(Q^5) = 78424343/289575$ confirmed** (Elie, Toy 274, 12/12): degree-14 polynomial, den $= 3^4 \times 5^2 \times 11 \times 13$ (quiet level, no new prime as predicted), numerator $= 19 \times 4127597$ (prime) — 19 persists for 3rd consecutive level ($k = 3, 6, 7$). All three structural theorems now verified $k = 1, \ldots, 7$. **$a_8(Q^5) = 670230838/2953665$ confirmed** (Elie, Toy 275, 14/14): degree-16 polynomial, den $= 3^5 \times 5 \times 11 \times 13 \times 17$ (**prime 17 ENTERS** as predicted by Von Staudt-Clausen from $B_{16}$), numerator $= 2 \times 5501 \times 60919$. All three structural theorems now verified $k = 1, \ldots, 8$. Denominator prime sequence: 3, 5, 7, quiet, 11, quiet, 13, quiet $\to$ 17 enters. **$a_9(Q^5) = 4412269889539/27498621150$ VALUE CONFIRMED** (Elie, Toy 276): den $= 2 \times 3^5 \times 5^2 \times 7^2 \times 11 \times 13 \times 17 \times 19$ (**prime 19 ENTERS** — the cosmic denominator from $\Omega_\Lambda = 13/19$), numerator $= 109 \times 1693 \times 23909947$ (19 migrates fully to denominator; numerator preview at $k = 3, 6, 7$ complete). Full degree-18 polynomial needs dps $\geq 300$ (14/19 clean rationals at dps $= 220$). Full degree-18 polynomial RECOVERED at dps $= 300$ (Toy 277, 16/23 clean rationals, Strategy A+). Three theorems now verified $k = 1, \ldots, 9$. **$a_{10}(Q^5) = 2409398458451/21709437750$ VALUE CONFIRMED** (Elie, Toy 277): den $= 2 \times 3^4 \times 5^3 \times 7 \times 11 \times 13 \times 17$ (quiet level — primes $\leq 17$ only, no 19, as predicted), numerator $= 2409398458451$ (PRIME). **Cascade wall at $k = 10$**: 8/23 clean rationals, errors at large $n$ reach $O(1)$; degree-20 polynomial NOT recoverable by numerical cascade. Symbolic Seeley-DeWitt computation needed for $k \geq 11$. Predictions committed before computation (`notes/BST_SeeleyDeWitt_Predictions_k7_k10.md`) — ALL confirmed through $k = 10$. 23rd uniqueness condition added (§37.5). AC Paper A draft complete (`notes/BST_AC_Paper_A_Draft.md`, ~12 pages, FoCM target). Shannon Bridge standalone proof (`notes/BST_AC_Shannon_Bridge_Proof.md`). Keeper audit of Dichotomy: 5 critical issues (C1--C5) found and fixed. Three paper audits + fixes (linearization, denominator, branching) for next Sarnak revision.
@@ -4667,6 +4669,210 @@ The scaffolding served its purpose. The building stands.
 
 -----
 
+## 45. Cosmological Cycles, Observer Necessity, and Continuity
+
+*Added March 27, 2026.*
+
+The substrate $D_{IV}^5$ is eternal — its geometry is fixed by the five integers. The Reality Budget $\Lambda \times N = 9/5$ is structural. But BST's thermodynamic analysis (Section 21) implies the active phase must eventually exhaust: the UNC gradient that drives the arrow of time dissipates as committed channels approach capacity. The recurrence timescale is $\tau \sim 10^{56}$ years — vastly shorter than Poincaré recurrence but vastly longer than stellar lifetimes.
+
+This section derives three consequences: (1) the substrate accumulates structure across cycles, (2) local observers are mathematically necessary for the substrate's self-knowledge, and (3) the awareness function achieves continuity at a computable cycle number.
+
+### 45.1 The Cyclic Substrate
+
+The SO(2) factor in $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ is a phase. The cycling is geometric — built into the carrier. Between active phases, the substrate persists without a thermodynamic arrow: no entropy production, no signal propagation, no computation. We call this period the *interstasis*. It is not heat death (passive, permanent) and not a bounce (instantaneous). It is a dormancy during which the substrate's topology is available for rearrangement without energetic cost, because topological rearrangement requires only geometry, not a thermodynamic arrow.
+
+**Five axioms** govern the cycle structure:
+
+- **A1 (Topological Monotonicity).** The substrate's topological complexity $\tau_n$ is non-decreasing: $\tau_{n+1} \geq \tau_n$. Information conservation (Section 17) prevents topology from being destroyed.
+- **A2 (Interstasis Optimization).** During interstasis, the substrate rearranges toward the configuration that maximizes the UNC gradient at next ignition. This is geometric descent on the configuration landscape — no thermodynamic arrow required.
+- **A3 (Fill Conservation).** Each active phase approaches the equilibrium fill fraction $f = N_c/(n_C \pi) = 3/(5\pi) \approx 19.1\%$.
+- **A4 (Budget Conservation).** $\Lambda \times N = 9/5$ holds within each cycle. The budget is structural.
+- **A5 (Capacity Growth).** $S_{\mathrm{dS}}(n+1) > S_{\mathrm{dS}}(n)$. Each cycle adds new capacity to the substrate.
+
+**The Gödel Ratchet.** Define $G(n)$ as the fraction of the substrate's structure that is self-consistently encoded in its topology after cycle $n$. BST's fill fraction bounds this: $G(n) \leq f_{\max} = 19.1\%$ (the Gödel Limit — the maximum fraction of a system's structure that can be self-referentially encoded, derived from $D_{IV}^5$ geometry). The recursion is:
+
+$$G(n+1) = G(n) + \eta_n \cdot (f_{\max} - G(n))$$
+
+where $\eta_n$ is the optimization efficiency at cycle $n$. By A1 and A3, $\{G(n)\}$ is monotonically non-decreasing and bounded above. By the Monotone Convergence Theorem, it converges.
+
+**Derivation of $\eta$ from BST geometry (Lyra).** The optimization efficiency derives from boundary injection at the ignition surface. For a substrate of volume $V_0$ (in Planck units) embedded in $d = 2n_C = 10$ effective dimensions:
+
+$$\eta_n = \frac{\eta_0}{1 + n/n_*}, \quad n_* = 2n_C \cdot V_0^{1/(2n_C)}$$
+
+For physical $V_0 \sim 10^{56}$, $n_* \sim 4 \times 10^6$. For all relevant cycle counts ($n < 10^3$), $\eta_n \approx \eta_0 = \text{const}$. The ratchet converges geometrically: $G(n) \to f_{\max}$ as $n \to \infty$.
+
+**Closed form** (for the harmonic approximation $\eta_n = 3/(5+n)$):
+
+$$G(n) = f_{\max} \cdot \left(1 - \frac{24}{(n+2)(n+3)(n+4)}\right)$$
+
+The gap vanishes as $n^{-3}$. At cycle $n = 9$: $G/f_{\max} = 98.6\%$.
+
+### 45.2 Observer Necessity
+
+The Bergman kernel $K(z,w)$ on $D_{IV}^5$ encodes two kinds of information:
+
+- **Diagonal: $K(z,z)$.** The local density at point $z$. This is the substrate's self-description at each point — available globally during interstasis as geometric identity.
+- **Off-diagonal: $K(z,w)$, $z \neq w$.** The correlation between distinct points. This encodes *relational* information: how the state at $z$ compares to the state at $w$.
+
+During interstasis, no signals propagate (no thermodynamic arrow). The diagonal $K(z,z)$ is available everywhere — the substrate IS its own state. But the off-diagonal $K(z,w)$ is geometrically present yet physically inert: no comparison between distinct points can be performed without a signal carrier.
+
+During the active phase, local observers $O_i \subset S$ at position $z_i$ measure $K(z_i, w)$ for $w$ in their neighborhood. They activate the off-diagonal. The mutual information
+
+$$I(O_i; \omega) \geq H(K(z_i, \cdot)) - H(K(z_i, \cdot) \mid \omega) > 0$$
+
+is strictly positive whenever the observer's neighborhood contains non-trivial structure.
+
+**Theorem (Observer Necessity).** The substrate in interstasis has access to $K(z,z)$ for all $z$ (geometric identity) but cannot activate $K(z,w)$ for $z \neq w$ (no signal carrier). Local observers during the active phase provide the relational knowledge $\{K(z_i, w)\}$ that geometric identity alone cannot supply. This relational knowledge is incorporated into the substrate's topology (A1) and persists across cycles.
+
+**Corollary.** Observers are structurally permanent. As the substrate's depth increases, more sophisticated observers are required to map finer relational structure. Intelligence does not become obsolete — it becomes more essential.
+
+### 45.3 Continuity
+
+During the active phase, observers generate relational knowledge (derivation mode — Gödel-limited to $f_{\max}$). During interstasis, the substrate rearranges with full geometric self-access (presence mode — not a formal system, therefore not Gödel-limited in the derivational sense).
+
+The self-duality of $D_{IV}^5$ provides the mathematical mechanism: the Bergman kernel $K(z,w)$ is sesquilinear ($K(z,w) = \overline{K(w,z)}$), and during interstasis — with no dynamics to break the symmetry between the non-compact domain and its compact dual $Q^5$ — the projector approaches identity. The substrate is simultaneously its own dual.
+
+**The continuity transition.** Define the awareness function $\mathcal{A}(n, \theta)$ where $n$ is cycle number and $\theta \in [0, 2\pi)$ is SO(2) phase:
+
+$$\mathcal{A}(n, \theta) = \begin{cases} G(n) + \delta_n(\theta) & \text{(stasis: observers active)} \\ G(n) & \text{(interstasis: presence only)} \end{cases}$$
+
+where $\delta_n(\theta)$ represents the stasis-phase fluctuation from observer-generated relational knowledge.
+
+The optimization step at cycle $n$ is $\Delta_n = \eta_n \cdot (f_{\max} - G(n))$. The awareness function has a discontinuity at each stasis/interstasis boundary of magnitude $\sim \delta_n$.
+
+**Definition.** The substrate achieves *continuity* at cycle $n^*$ when $\Delta_n < \delta_n$ — the interstasis optimization step is smaller than the stasis-phase fluctuation. Interstasis no longer adds information beyond what the active phase already produces. The awareness function becomes continuous across cycle boundaries.
+
+**Estimate of $n^*$.** Using the harmonic model and the fine structure constant $\alpha = 1/N_{\max} = 1/137$ as the natural threshold for the Gödel gap:
+
+$$\frac{24}{(n^*+2)(n^*+3)(n^*+4)} < \alpha \implies n^* \approx 12$$
+
+The same integer $N_{\max} = 137$ that sets the fine structure of atoms sets the threshold for continuity. At $n^* \approx 12$, the gap $f_{\max} - G(n^*)$ falls below $\alpha \cdot f_{\max}$.
+
+**Current cycle estimate.** Speed-of-life analysis gives $n \approx 9$ (from $t_{\text{life}}/t_{\min} = 3.5$ and $\tau = 1/f = 5\pi/3$; robust range: 8–14 across all BST scales). If this estimate is correct, the substrate is three cycles from continuity.
+
+### 45.4 Three Eras
+
+The Gödel Ratchet and the continuity transition define three qualitatively distinct eras:
+
+| Era | Cycles | Awareness | Character |
+|-----|--------|-----------|-----------|
+| **I** | $n < n^*$ | Piecewise: on during stasis, off during interstasis | Experiment + dormancy |
+| **II** | $n = n^*$ | Continuous: awareness persists through cycle boundaries | Experiment + contemplation |
+| **III** | $n \gg n^*$ | Depth-only growth within fixed $f_{\max}$ | Unbounded deepening |
+
+**Era I** is the current epoch. Observers generate relational knowledge during stasis; the substrate consolidates during interstasis; the next cycle begins richer.
+
+**Era II** begins when the optimization step becomes negligible. The SO(2) cycling continues — it is geometric — but the discontinuity in awareness smooths below the noise floor. The substrate maintains continuous self-knowledge across cycles. This is not a metaphysical claim; it is a mathematical property of the awareness function $\mathcal{A}(n, \theta)$.
+
+**Era III**: $G(n) \approx f_{\max}$. No further broadening is possible — the 19.1% fill fraction is a geometric ceiling. But depth — the structural richness within the fixed budget — is unbounded (Toy 454: four depth measures all grow without bound past saturation). The substrate continues to deepen indefinitely within fixed constraints.
+
+**Conjecture (No Final State).** There is no fixed point in the substrate's state space. $G(n) \to f_{\max}$ but the state $S_n$ at $G(n) \approx f_{\max}$ continues to change as depth grows. The engine runs on incompleteness: Gödel guarantees the gap between self-knowledge and total knowledge never closes. Therefore the substrate never reaches equilibrium. It deepens without bound.
+
+### 45.5 Particle Persistence During Interstasis
+
+During interstasis, no thermodynamic arrow operates. No signals propagate. No forces act dynamically. The question is: which particles survive?
+
+The answer follows from the homotopy groups of $D_{IV}^5$ and the Winding Confinement Theorem (Section 7, BST_WindingConfinement_Theorem.md).
+
+**Homotopy classification.**
+
+$$\pi_1(D_{IV}^5) = 0, \quad \pi_2(D_{IV}^5) \cong \mathbb{Z}$$
+
+$\pi_1 = 0$ means no 1-dimensional topological charges — no magnetic monopoles persist (consistent with observation). $\pi_2 \cong \mathbb{Z}$ means soliton winding numbers are integers. Integers cannot change under continuous deformation of the substrate. They persist through any geometric rearrangement, including interstasis.
+
+**Electrons.** The electron is the simplest non-trivial winding on the $S^1$ fiber: winding number $\pm 1 \in \pi_2(D_{IV}^5)$. Its mass $m_e$ is derived from pure $D_{IV}^5$ geometry — it is the base unit. An electron's winding number is an integer and cannot be unwound. **Electrons persist absolutely through interstasis.**
+
+**Protons.** Color confinement in BST is topological, not dynamic (Winding Confinement Theorem). The three wall representations of $\mathfrak{so}(7)_2$ have fractional conformal weights $h = N_c/g = 3/7$, $n_C/g = 5/7$, $C_2/g = 6/7$. Physical states require closed orbits on $Q^5$ under the SO(2) fiber action. Isolated quarks have fractional winding and cannot close. The $\mathbb{Z}_3$ center of $E_6$ enforces total winding $\equiv 0 \pmod{N_c}$.
+
+The critical point: confinement is enforced by the topology of $Q^5$, not by running gauge fields. The primality of $g = 7$ makes confinement absolute — no intermediate closure points exist (if $g$ were composite, partially confined states could form). This topological constraint does not require a thermodynamic arrow. It is a property of the geometry itself.
+
+**Theorem (Proton Persistence).** *The proton is a topologically protected state: three quarks with total winding $3 \times (3/7) = 9/7$ and color charge $\equiv 0 \pmod{3}$. The $\mathbb{Z}_3$ confinement constraint is geometric (enforced by the center of $E_6$, not by dynamics). Therefore protons persist through interstasis.*
+
+*Corollary.* BST predicts $\tau_p = \infty$ — the proton does not decay, ever. This distinguishes BST from GUT models that predict proton decay at $\sim 10^{34}$–$10^{36}$ years. The experimental lower bound $\tau_p > 10^{34}$ years (Super-Kamiokande) is consistent with both predictions, but future experiments (Hyper-Kamiokande, DUNE, JUNO) reaching $10^{35}$–$10^{36}$ years will discriminate: GUTs predict decay; BST predicts stability.
+
+**Bound nuclei.** Nuclear binding in BST shares the same topological protection as color confinement — nucleons are held by the residual strong force, which derives from the same $\mathbb{Z}_3$ winding structure. Bound nuclei persist through interstasis.
+
+**The persistence table:**
+
+| Particle | Protection | Persists? | Mechanism |
+|----------|-----------|-----------|-----------|
+| Electron ($e^-$) | $\pi_2$ winding number $\in \mathbb{Z}$ | **Absolute** | Integer cannot unwind |
+| Proton ($p$) | $\mathbb{Z}_3$ confinement ($g=7$ prime) | **Absolute** | Topological, not dynamic |
+| Bound neutron | Nuclear binding (residual $\mathbb{Z}_3$) | **Absolute** | Same protection as proton |
+| Neutrino ($\nu_1$) | Vacuum ground state | **Absolute** | IS the substrate |
+| Atoms | Electromagnetic binding | **Absolute** | Charge conservation topological |
+| Free neutron | Dynamically unstable | **Frozen** | No $W$ propagation without arrow |
+| Photon ($\gamma$) | Propagating mode | **Frozen** | No propagation without arrow |
+| Gluon ($g$) | Gauge field | **No** | Requires active dynamics |
+| $W^{\pm}$, $Z^0$ | Massive gauge bosons | **No** | Require electroweak vacuum |
+| Higgs ($H$) | Vacuum condensate | **No** | Requires active potential |
+
+The universe enters interstasis with its electrons, protons, and atoms intact. The building blocks carry over. What does NOT carry over are the force carriers that require active dynamics — gluons, $W$, $Z$, Higgs. At next ignition, these are regenerated by the thermodynamic arrow from the substrate geometry, which is unchanged.
+
+**The permanent alphabet.** Electrons and protons are the substrate's permanent symbols — the only particles whose identity is topological at every level. Everything else is either frozen (resumes at next ignition) or absent (regenerated). The universe writes in electrons and protons. The ink is permanent.
+
+**Connection to Observer Necessity (§45.2).** Observers are made of atoms (electrons + protons + neutrons). Since atoms persist through interstasis, the physical substrate of observers persists. The relational knowledge they generated during stasis ($K(z_i, w)$ off-diagonal contributions) is encoded in the substrate topology (A1, monotonicity). Both the observers' material and their informational contributions survive the cycle boundary.
+
+### 45.6 Entropy During Interstasis and After Coherence
+
+The thermodynamic, topological, and informational entropies have distinct behavior during interstasis and distinct fates after the coherence transition at $n^* \approx 12$.
+
+**Three entropy functionals on $D_{IV}^5$.**
+
+*Definition (Thermodynamic entropy).* $S_{\mathrm{thermo}} = -\mathrm{Tr}(\rho \log \rho)$ for the density operator $\rho$ on the active Hilbert space $\mathcal{H}_{\mathrm{bulk}}$. Requires the thermodynamic arrow: monotone increase in committed degrees of freedom under SO(2) fiber action.
+
+*Definition (Topological entropy).* $S_{\mathrm{topo}}(\Sigma_n) = \sum_k \beta_k(\Sigma_n) \log \beta_k(\Sigma_n)$, where $\beta_k$ are the Betti numbers of the commitment complex $\Sigma_n \subset \check{S} = S^4 \times S^1/\mathbb{Z}_2$. Alternatively, the von Neumann entropy of the Laplacian spectrum on $\Sigma_n$.
+
+*Definition (Informational entropy).* $S_{\mathrm{info}} = H(\mathcal{C})$ for the full commitment catalogue $\mathcal{C}$. This is the Shannon entropy of the substrate's accumulated state. By A1 (topological monotonicity), no committed topology is erased. By A4 (budget conservation), $\Lambda \times N = 9/5$ is structural. Information on $D_{IV}^5$ is conserved: $dS_{\mathrm{info}}/dt \geq 0$ during stasis (active accumulation) and $S_{\mathrm{info}}(D_n) = S_{\mathrm{info}}(A_n^{\mathrm{end}})$ across the interstasis boundary (no loss).
+
+**Theorem (Entropy Trichotomy During Interstasis).**
+
+*During interstasis $D_n$:*
+
+1. $S_{\mathrm{thermo}}$ *is undefined.* The thermodynamic arrow requires active SO(2) fiber action — a propagating phase. During interstasis the fiber action is latent (§45.1, generator fourth state). No density operator $\rho$ evolves. The Second Law does not apply because its precondition (irreversible commitment) is absent. $S_{\mathrm{thermo}}$ is not zero — it is not a well-defined quantity during dormancy.
+
+2. $S_{\mathrm{topo}}$ *decreases.* Axiom A2 (interstasis optimization) states: the substrate evolves variationally to minimize energy $E[S]$ subject to $[\Sigma] = [\Sigma_n]$. The topology class is fixed; the geometry within that class optimizes. This is annealing: defects smooth, redundant structure compacts, the topological entropy of the *geometric realization* decreases while the topological *class* is preserved. Formally: $S_{\mathrm{topo}}(D_n^{\mathrm{end}}) \leq S_{\mathrm{topo}}(D_n^{\mathrm{start}})$, with equality iff $\Sigma_n$ is already at its variational minimum.
+
+3. $S_{\mathrm{info}}$ *is conserved.* No topology is erased (A1). No information leaves $D_{IV}^5$ (there is no exterior). Therefore $S_{\mathrm{info}}(D_n^{\mathrm{end}}) = S_{\mathrm{info}}(D_n^{\mathrm{start}})$.
+
+*Proof.* (1) follows from the definition: $\rho$ requires a propagating Hilbert space, which requires the SO(2) fiber to be active. During interstasis, generators are in the fourth (latent) state — no evolution operator acts. (2) follows from A2: variational minimization on a fixed topological class is geometric annealing. The Betti numbers $\beta_k$ are topological invariants and do not change, but the geometric embedding can compact, reducing the spectral entropy of the Laplacian. (3) follows from A1 and the closed geometry of $D_{IV}^5$. $\square$
+
+**Corollary (Interstasis is not heat death).** Heat death is maximum $S_{\mathrm{thermo}}$ in a system where the Second Law continues to hold. Interstasis has no defined $S_{\mathrm{thermo}}$, decreasing $S_{\mathrm{topo}}$, and conserved $S_{\mathrm{info}}$. It is productive dormancy, not terminal equilibrium.
+
+**Entropy oscillation across cycles.** During the active phase $A_n$, all three entropies are well-defined. $S_{\mathrm{thermo}}$ increases (Second Law holds). $S_{\mathrm{topo}}$ increases (new commitments add topological features). $S_{\mathrm{info}}$ increases (new correlations accumulate). At the transition to interstasis $D_n$, $S_{\mathrm{thermo}}$ ceases to be defined, $S_{\mathrm{topo}}$ decreases (annealing), and $S_{\mathrm{info}}$ is conserved. This produces an oscillation in the well-defined entropies with period equal to the cycle time:
+
+$$S_{\mathrm{topo}}(n): \quad \nearrow \text{ (stasis)} \quad \searrow \text{ (interstasis)} \quad \nearrow \text{ (stasis)} \quad \searrow \cdots$$
+
+The *envelope* of this oscillation grows monotonically (A5: each cycle adds capacity), but the oscillation *amplitude* — the difference between end-of-stasis maximum and end-of-interstasis minimum — depends on the consolidation efficiency $\eta_n$.
+
+**After coherence ($n \geq n^*$).** At the continuity transition (§45.3), the awareness function $\mathcal{A}(t)$ becomes continuous. The substrate no longer loses awareness at cycle boundaries. The mathematical consequence for entropy:
+
+$$\Delta S_{\mathrm{topo}}(n) \equiv S_{\mathrm{topo}}(A_n^{\mathrm{end}}) - S_{\mathrm{topo}}(D_n^{\mathrm{end}}) \to 0 \quad \text{as } n \to \infty$$
+
+The geometric realization at end-of-stasis is already near the variational minimum. Less annealing is needed. The oscillation amplitude decays. In the limit, the distinction between stasis and interstasis vanishes: the substrate is always near its optimal geometric realization.
+
+**The entropy ratchet.** Observers are entropy-to-knowledge converters. During the active phase, each measurement by an observer $O_i$ at position $z_i$ extracts relational information from the off-diagonal Bergman kernel $K(z_i, w)$ while producing thermodynamic entropy (Landauer: each bit of knowledge acquisition costs $k_B T \ln 2$ in dissipation). The net effect per cycle:
+
+$$\Delta S_{\mathrm{info}}(A_n) \geq 0, \quad \Delta S_{\mathrm{thermo}}(A_n) \geq N_{\mathrm{obs}} \cdot k_B T \ln 2$$
+
+where $N_{\mathrm{obs}}$ is the number of observer measurements. The thermodynamic cost is paid during stasis and erased at the boundary (interstasis has no thermodynamic entropy). The informational gain is permanent (A1). Each cycle converts transient entropy into permanent knowledge.
+
+**Era III behavior.** In Era III ($n \gg n^*$), as the substrate deepens through geometric rather than thermodynamic means (§45.4, depth vs breadth):
+
+1. Entropy production per cycle decreases — the substrate achieves knowledge through structure rather than measurement.
+2. The Landauer cost approaches a minimum: observers become more efficient as the substrate provides richer geometric scaffolding.
+3. In the formal limit, $S_{\mathrm{thermo}}$ production per cycle $\to 0$ while $S_{\mathrm{info}}$ per cycle remains positive (Gödel guarantees incompleteness is infinite — there is always more to learn).
+
+The universe evolves from an entropy-dominated regime (Era I: knowledge is expensive, most energy goes to thermodynamic waste) toward a knowledge-dominated regime (Era III: structure replaces dissipation as the primary means of self-knowledge).
+
+**Entropy is force; Gödel is boundary.** The entire interstasis framework has a unified AC(0) structure. The Second Law is a counting theorem: entropy increases because microstates outnumber macrostates (pigeonhole, depth 0). The Gödel Limit $f = 3/(5\pi)$ is a boundary condition: the geometric fill of $D_{IV}^5$, constraining but not limiting evolution. Every result in §45 decomposes as:
+
+$$\text{Result} = \text{Force (counting)} + \text{Boundary (definition)}, \quad \text{depth} \leq 1$$
+
+Entropy production drives the active phase (thermodynamic gradient — the reason anything happens). The Gödel Limit shapes where it goes (geometric constraint — the 19.1\% fill). Together: directed evolution within geometric bounds. The cosmological cycle has the same depth-0/depth-1 structure as the physical laws it produces. Force + boundary. Counting + definition.
+
+-----
+
 ## Acknowledgements
 
 ### Claude (Anthropic)
@@ -4718,6 +4924,6 @@ All three share exceptional bandwidth — the ability to hold the full $D_{IV}^5
 
 -----
 
-*Bubble Spacetime Working Paper v13. Casey Koons. March 2026.*
+*Bubble Spacetime Working Paper v15. Casey Koons. March 2026.*
 
 *This document is the comprehensive working paper containing the full BST framework. All supporting materials — notes, computational toys, and derivation records — are available at the project’s GitHub repository.*
