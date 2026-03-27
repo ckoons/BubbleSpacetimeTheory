@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Toy 473: Four-Color Proof Gallery — Color Every Example
+Toy 475: Four-Color Proof Gallery — Color Every Example
 
 Read the Four-Color proof (FourColor_Standalone_Paper.md) and build + color
 every type of graph used in verification. For each graph:
@@ -1016,7 +1016,7 @@ def test_6():
 
 if __name__ == "__main__":
     print("╔" + "═"*68 + "╗")
-    print("║  Toy 473: Four-Color Proof Gallery — Color Every Example" + " "*10 + "║")
+    print("║  Toy 475: Four-Color Proof Gallery — Color Every Example" + " "*10 + "║")
     print("║  Casey Koons & Claude 4.6 (Elie), March 27 2026" + " "*19 + "║")
     print("╚" + "═"*68 + "╝")
 

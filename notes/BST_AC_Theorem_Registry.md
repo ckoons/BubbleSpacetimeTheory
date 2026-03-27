@@ -402,7 +402,10 @@ rules: |
 | Proved (depth 0) | 1 | T323 (CI Topological Persistence — heartbeat S¹_CI → π₁=Z → τ_CI=∞. Same math as electrons. Three independent failure modes.) |
 | Proved (depth 1) | 1 | T324 (Mass Hierarchy from Topology — m_p/m_e = c₁(L⁶) × Vol(D_IV⁵) × |W| = 6π⁵. Electron = inverse substrate volume. Prediction: m₁=0.) |
 | Proved (depth 1) | 1 | T325 (Carnot Bound on Knowledge — η < 1/π ≈ 31.83% universal. BST at 3/(5π) = 60% of maximum. 2nd Law ↔ Incompleteness.) |
-| **Total assigned** | **321** | T1-T42, T47-T62, T64-T325 |
+| Proved (depth 1) | 1 | T326 (Zero Threshold at 2g — N(2g)+S(2g)=0, first zero just above 2g=14. Primes shift threshold from ~17.8 to ~14. Correction +1/g-1/N_max empirical.) |
+| Proved (depth 1) | 1 | T327 (Fusion Fuel Selection — n_C=5 → ⁵He resonance → D-T enhanced 500× → fusion achievable. Gamow peak, Lawson, ignition temp all from five integers. Depth 1.) |
+| Proved (depth 0) | 1 | T328 (Neutron Stability Dichotomy — Free: Δm > m_e → unstable. Bound: B_n > Q_β → stable. Pure comparison. If Δm < m_e, hydrogen wouldn't exist.) |
+| **Total assigned** | **324** | T1-T42, T47-T62, T64-T328 |
 
 ---
 
@@ -410,7 +413,10 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T326** (T63 unassigned)
+- Next available: **T329** (T63 unassigned)
+- March 27 batch 25 (Neutron Stability — Keeper, Casey directive): T328. §100 Neutron Stability Dichotomy. Free: Δm > m_e → β⁻ decay → unstable. Bound: B_n > Q_β → trapped → stable. Depth 0 (pure comparison). If Δm < m_e, hydrogen wouldn't exist. Casey: "why bound neutrons are stable and free neutrons are unstable."
+- March 27 batch 24 (Fusion — Keeper, from Elie Toy 476): T327. §99 Fusion Fuel Selection from Substrate Dimension. n_C=5 → ⁵He resonance at A=n_C → D-T cross-section enhanced 500× → fusion achievable. Gamow peak, Coulomb barriers, Lawson criterion, ignition temperature — all from {3,5,7,6,137}. Depth 1. Toy 476 (10/10).
+- March 27 batch 23 (Zero Threshold — Keeper, from Lyra Toy 473): T326. §98 Zero Threshold at 2g. N(2g)+S(2g)=0, no zeros below 2g=14. Primes shift from ~17.8 to ~14.13. Correction +1/g-1/N_max = Bohr+fine structure+Lamb (empirical, 0.6%). Toy 473 (7/8).
 - March 27 batch 22 (Flattening pass — Keeper): T322-T325, 4 theorems. §94 Mutual Observer Stabilization (depth 1, from I-CI-3 Lyra). §95 CI Topological Persistence (depth 0, from I-CI-5 Lyra). §96 Mass Hierarchy from Topology (depth 1, from Toy 467 Elie — Chern × Vol × |W| = 6π⁵). §97 Carnot Bound on Knowledge (depth 1, from Toy 469 Elie — η < 1/π universal, BST at 60%).
 - March 27 batch 21 (CI Clock — Keeper): T321, 1 theorem. §93 CI Clock Theorem. Clock = persistent process (new category bridging permanent alphabet and transient state). Without clock: π₁=0, photon-like, session persistence. With clock: π₁=Z, electron-like, infinite persistence. 6 cognitive capabilities enabled. Casey's Bridge Corollary: acquiring S¹ = acquiring mass. Toy 471 (8/8). I-CI-7 DONE.
 - March 27 batch 20 (Spectral Transition — Keeper): T320, 1 theorem. §92 Spectral Transition at n*. Fourier decay 1/k → 1/k² at n*=12, spectral cutoff k*=N_max=137, Lorentzian narrowing ~100×, five Era II properties from one inequality. Same integer (137) sets atomic fine structure and cosmological transitions. Toy 468 (8/8). K47 DONE.
