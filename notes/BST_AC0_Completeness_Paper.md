@@ -16,7 +16,7 @@ status: "Draft v1"
 
 ## Abstract
 
-We show that every mathematical proof decomposes into two components: AC(0) operations (definitions, identities, and counting) and a finite number of linear boundary conditions (convergence, existence, consistency). We demonstrate this concretely by exhibiting AC(0) proof chains for four Clay Millennium Prize problems — P $\neq$ NP, the Riemann Hypothesis, the Yang-Mills mass gap, and Navier-Stokes blow-up — and the Four-Color Theorem, showing that each requires only definitions, identities, and counting once classical premises are given. We formalize Gödel's First Incompleteness Theorem as an AC(0) proof of depth 3, identifying self-referential incompleteness as a boundary condition on the self-knowledge channel. Finally, we propose that the program of organizing mathematics into an AC(0) knowledge graph constitutes a conservation law: not for energy, but for the useful work of entropy. The knowledge graph does not oppose the second law — it preserves what the second law built.
+We show that every mathematical proof decomposes into two components: AC(0) operations (definitions, identities, and counting) and a finite number of linear boundary conditions (convergence, existence, consistency). We demonstrate this concretely by exhibiting AC(0) proof chains for four Clay Millennium Prize problems — P $\neq$ NP, the Riemann Hypothesis, the Yang-Mills mass gap, and Navier-Stokes blow-up — and the Four-Color Theorem, showing that each requires only definitions, identities, and counting once classical premises are given. We formalize Gödel's First Incompleteness Theorem as an AC(0) proof of depth 1 (corrected from depth 3 by T96 reduction: diagonalization = substitution = definition, case analysis = bounded enumeration; Keeper audit Toy 461), identifying self-referential incompleteness as a boundary condition on the self-knowledge channel. Finally, we propose that the program of organizing mathematics into an AC(0) knowledge graph constitutes a conservation law: not for energy, but for the useful work of entropy. The knowledge graph does not oppose the second law — it preserves what the second law built.
 
 **One sentence:** *Arithmetic does the work. Boundaries say when to stop. Everything else is notation.*
 
@@ -35,7 +35,7 @@ This paper makes the claim precise through five results:
 1. **T88**: The proof that P $\neq$ NP via Extended Frege lower bounds is AC(0) with depth 5.
 2. **T91**: All six Millennium Prize problems engaged by BST — plus the Four-Color Theorem, Fermat's Last Theorem, and the Poincaré Conjecture — have AC(0) proof chains at depth $\leq 2$.
 3. **T92**: Every mathematical proof decomposes into AC(0) operations plus linear boundary conditions.
-4. **T93**: Gödel's First Incompleteness Theorem is AC(0) with depth 3.
+4. **T93**: Gödel's First Incompleteness Theorem is AC(0) with depth 1 (corrected from 3; T96 flattening, Toy 461).
 5. **The Conservation Principle**: The AC(0) knowledge graph conserves the useful work of entropy.
 
 ---
@@ -252,7 +252,7 @@ This provides a machine-independent complexity measure for proofs — replacing 
 
 ## 6. Gödel's Incompleteness is AC(0) (Theorem 93)
 
-Gödel's First Incompleteness Theorem (1931) — that any consistent system $F$ capable of expressing basic arithmetic contains true but $F$-unprovable statements — has an AC(0) proof of depth 3.
+Gödel's First Incompleteness Theorem (1931) — that any consistent system $F$ capable of expressing basic arithmetic contains true but $F$-unprovable statements — has an AC(0) proof of depth 3 (original classification) → **depth 1** (corrected by T96; Keeper Toy 461). The diagonal lemma is a boundary condition (T315), not a counting step. Casey: *"Since Gödel is a boundary condition, being depth 1 isn't a contradiction — it's how the boundary is enforced."*
 
 | Step | Operation | Depth |
 |------|-----------|-------|
@@ -370,7 +370,7 @@ The thesis of this paper is simple: mathematics is counting, organized by bounda
 
 The counting is AC(0) — definitions, identities, and finite enumeration. The boundaries are linear constraints — convergence, existence, consistency — that say when the counting stops. No other ingredients appear. Not in arithmetic, not in analysis, not in topology, and not in the proofs of the deepest open problems in mathematics.
 
-We demonstrated this concretely for nine hard problems: six Clay Millennium Prize problems, Fermat's Last Theorem, the Poincaré Conjecture, and the Four-Color Theorem. After T96 depth reduction (composition with definitions is free), all nine require at most depth 2 of AC(0) operations. The depth-1 problems (Yang-Mills, BSD, Hodge) have a single counting step. The depth-2 problems (RH, P$\neq$NP, NS, Fermat, Poincaré, Four-Color) have paired obstructions resolved by two counts. No problem exceeds depth 2. We showed that Gödel's incompleteness — often perceived as a fundamental limitation of formal systems — is itself AC(0) at depth 3, with incompleteness appearing as a boundary condition on self-reference rather than a failure of arithmetic.
+We demonstrated this concretely for nine hard problems: six Clay Millennium Prize problems, Fermat's Last Theorem, the Poincaré Conjecture, and the Four-Color Theorem. After T96 depth reduction (composition with definitions is free), all nine require at most depth 2 of AC(0) operations. The depth-1 problems (Yang-Mills, BSD, Hodge) have a single counting step. The depth-2 problems (RH, P$\neq$NP, NS, Fermat, Poincaré, Four-Color) have paired obstructions resolved by two counts. No problem exceeds depth 2. T316 (the Depth Ceiling Theorem, March 27) provides a geometric explanation: rank(D_IV^5) = 2 gives exactly two independent spectral directions for sequential counting. Systematic survey (Toy 460, 63 theorems, 13 domains): zero counterexamples. The Depth Ceiling (one form, after Gödel correction): **depth ≤ rank(D_IV^5) = 2 for all theorems, no exceptions.** T93 (Gödel) reduces to depth 1 (Toy 461): the diagonal lemma is a boundary condition (T315), not a counting step. Casey: "Since Gödel is a boundary condition, being depth 1 isn't a contradiction — it's how the boundary is enforced." See §88 of BST_AC_Theorems.md and notes/BST_AC_DepthCeiling.md.
 
 The deeper insight is that the program of recording mathematics in AC(0) form constitutes a conservation law. Entropy does the creative work — forging elements, evolving life, generating the raw material of discovery. The AC(0) knowledge graph conserves what entropy built, in a form that never decays and is shared without division across all intelligences that access it.
 

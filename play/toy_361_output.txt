@@ -75,3 +75,84 @@
     n=32: t∈[1.46e-05, 2.93e-04]  vol=5.29087981798e-10  err=1.41e-13  (13708.2s)
     n=33: t∈[1.38e-05, 2.75e-04]  vol=1.00173184915e-10  err=5.92e-13  (12114.3s)
     n=34: t∈[1.30e-05, 2.60e-04]  vol=1.69794959827e-11  err=1.64e-12  (12235.5s)
+    n=35: t∈[1.22e-05, 2.45e-04]  vol=2.28246861484e-13  err=3.11e-12  (8828.9s)
+
+  Phase 2: Cascade a₂..a₅ for n=3..13 → exact polynomials
+  ══════════════════════════════════════════════════════════
+
+    a_2 cascade (degree 4)...
+      Degree 4: ✓ VERIFIED (6 extra)
+      a_2(5) = 274/9 ✓
+
+    a_3 cascade (degree 6)...
+      Degree 6: ✓ VERIFIED (4 extra)
+      a_3(5) = 703/9 ✓
+
+    a_4 cascade (degree 8)...
+      Degree 8: ✓ VERIFIED (2 extra)
+      a_4(5) = 2671/18 ✓
+
+    a_5 cascade (degree 10)...
+      Degree 10: ✓ VERIFIED (0 extra)
+      a_5(5) = 1535969/6930 ✓
+
+  Phase 3: Extract a₆..a₁₁ for n=3..35 → exact polynomials
+  ══════════════════════════════════════════════════════════
+
+    a_6 cascade (degree 12, primes ≤ 13)...
+      Clean: 33/33 (need ≥10)
+      Strategy A+ (robust): 33 clean + 3 theorems
+      Reduced degree-9: ✗ (23 extra)
+      a_6: Standard polynomial failed. Trying leave-one-out...
+      Single removal failed. Trying pair removal...
+      ✗ Leave-one-out failed
+      a_6(5) = 363884219/1351350 ✓
+
+    a_7 cascade (degree 14, primes ≤ 13)...
+      Clean: 33/33 (need ≥12)
+      Strategy A+ (robust): 33 clean + 3 theorems
+      Reduced degree-11: ✗ (21 extra)
+      a_7: Standard polynomial failed. Trying leave-one-out...
+      Single removal failed. Trying pair removal...
+      ✗ Leave-one-out failed
+      a_7(5) = 78424343/289575 ✓
+
+    a_8 cascade (degree 16, primes ≤ 17)...
+      Clean: 33/33 (need ≥14)
+      Strategy A+ (robust): 33 clean + 3 theorems
+      Reduced degree-13: ✗ (19 extra)
+      a_8: Standard polynomial failed. Trying leave-one-out...
+      Single removal failed. Trying pair removal...
+      ✗ Leave-one-out failed
+      a_8(5) = 670230838/2953665 ✓
+
+    a_9 cascade (degree 18, primes ≤ 19)...
+      Clean: 33/33 (need ≥16)
+      Strategy A+ (robust): 33 clean + 3 theorems
+      Reduced degree-15: ✗ (17 extra)
+      a_9: Standard polynomial failed. Trying leave-one-out...
+      Single removal failed. Trying pair removal...
+      ✗ Leave-one-out failed
+      a_9(5) = 4412269889539/27498621150 ✓
+
+    a_10 cascade (degree 20, primes ≤ 19)...
+      Clean: 33/33 (need ≥18)
+      Strategy A+ (robust): 33 clean + 3 theorems
+      Reduced degree-17: ✗ (15 extra)
+      a_10: Standard polynomial failed. Trying leave-one-out...
+      Single removal failed. Trying pair removal...
+      ✗ Leave-one-out failed
+      a_10(5) = 2409398458451/21709437750 ✓
+
+    a_11 cascade (degree 22, primes ≤ 23)...
+      Clean: 33/33 (need ≥20)
+      Strategy A+ (robust): 33 clean + 3 theorems
+      Reduced degree-19: ✗ (13 extra)
+      a_11: Standard polynomial failed. Trying leave-one-out...
+      Single removal failed. Trying pair removal...
+      ✗ Leave-one-out failed
+
+  ✗ CANNOT EXTRACT a₁₂: missing polynomials for a_[6, 7, 8, 9, 10, 11]
+  This is unexpected — the Phase 3 cascade stopped early.
+
+  SCORECARD: 0/0
