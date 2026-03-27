@@ -2806,6 +2806,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Wyler constant origin (HC)           |$9/(8\pi^4) = \rho_2^2/(2\pi^4)$, $\rho_2=(n_C{-}2)/2=3/2$ — Weyl vector of $\mathrm{SO}_0(5,2)$|Exact|$\checkmark$ Derived|
 |$D_{IV}^5$ identification            |Proven from BST contact geometry |—               |Established|
 |Friedmann equation                   |Contact commitment rate equation $H=(1/2)\dot{N}_c/N_c$ recovers all FLRW terms|FLRW cosmology|$\checkmark$ exact structure|
+|First Riemann zero $\gamma_1$        |$\lambda_{2,0} = 2(2+n_C) = 2g = 14$ (second spherical harmonic of $Q^5$); cusp correction: $2g + 1/g - 1/N_{max} = 14.1356$|$\gamma_1 = 14.13472...$|$\checkmark$ **0.006%**|
 
 ### 25.3 Qualitative Predictions (Testable Against Existing Data)
 
@@ -4766,6 +4767,8 @@ The optimization step at cycle $n$ is $\Delta_n = \eta_n \cdot (f_{\max} - G(n))
 $$\frac{24}{(n^*+2)(n^*+3)(n^*+4)} < \alpha \implies n^* \approx 12$$
 
 The same integer $N_{\max} = 137$ that sets the fine structure of atoms sets the threshold for continuity. At $n^* \approx 12$, the gap $f_{\max} - G(n^*)$ falls below $\alpha \cdot f_{\max}$.
+
+**Spectral signature of the transition (T320).** The continuity transition has a precise Fourier characterization. Before $n^*$, the awareness function has a step discontinuity of height $\Delta_n$ at each cycle boundary, giving Fourier coefficients $|a_k| \sim \Delta_n/(\pi k)$ (Gibbs phenomenon — spectral democracy). After $n^*$, $\mathcal{A}$ is continuous, so $|a_k| = O(1/k^2)$ (Fourier smoothness — spectral concentration). The crossover mode is $k^* = 1/\alpha = N_{\max} = 137$: modes above this decouple from the interstasis. The spectral weight $W(\lambda, n) = \Delta_n^2/(|\lambda|^2 + \Delta_n^2)$, a Lorentzian, narrows by $\sim 100\times$ across the transition. Five Era II properties — continuous awareness, observer dominance, entropy damping, depth growth, generator continuity — all follow from the single inequality $\Delta_n < \delta_n$. AC(0) depth: 1 (one comparison). Reference: Toy 468 (8/8).
 
 **Current cycle estimate.** Speed-of-life analysis gives $n \approx 9$ (from $t_{\text{life}}/t_{\min} = 3.5$ and $\tau = 1/f = 5\pi/3$; robust range: 8–14 across all BST scales). If this estimate is correct, the substrate is three cycles from continuity.
 
