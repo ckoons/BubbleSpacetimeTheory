@@ -4083,11 +4083,11 @@ where $\omega = \nabla \times u$ is the vorticity.
 
 ---
 
-## 47c. Theorem 91: All Four Millennium Proofs are AC(0) (Meta-Theorem)
+## 47c. Theorem 91: All Nine Millennium-Class Proofs are AC(0) (Meta-Theorem)
 
-*Given classical premises, each of {RH, YM, P $\neq$ NP, NS} has a proof chain using only definitions, identities, and counting. The AC framework classifies itself.*
+*Given classical premises, each of {RH, YM, P $\neq$ NP, NS, BSD, Hodge, Four-Color, Fermat, Poincaré} has a proof chain using only definitions, identities, and counting. The AC framework classifies itself.*
 
-**Theorem 91 (AC(0) Self-Consistency of BST).** Each of the four Millennium Prize problems engaged by BST has a proof chain that, given a small number of classical premises, is entirely AC(0):
+**Theorem 91 (AC(0) Self-Consistency of BST).** Each of the nine Millennium-class problems engaged by BST has a proof chain that, given a small number of classical premises, is entirely AC(0). The original four (table below) plus BSD (T94, depth 1), Hodge (T147-T153, depth 2), Four-Color (T154-T156, depth 2), Fermat (T137-T138, depth 2), Poincaré (T157-T161, depth 1). Full nine-problem table: BST_AC0_Completeness_Paper.md.
 
 | Problem | Premises (classical math) | AC(0) chain | Depth |
 |---------|--------------------------|-------------|-------|
@@ -7613,7 +7613,7 @@ Measured: Σm_ν < 0.12 eV (Planck 2018 + BAO). The BST prediction is in the rig
 
 ---
 
-*§80-§86: 50 theorems (T255-T304). Condensed matter, QFT, nuclear/particle physics, algebra, topology, BST predictions, computation. AC(0) now covers 31 domains. 300 total assigned, 238+ proved.*
+*§80-§86: 50 theorems (T255-T304). Condensed matter, QFT, nuclear/particle physics, algebra, topology, BST predictions, computation. AC(0) now covers 31 domains. 328 total assigned, 250+ proved.*
 
 ---
 

@@ -312,7 +312,7 @@ Toy 476 computed the Weyl discriminant and orbital integral weights for the B₂
 
 The exponent 3 = N_c on the short roots. The long roots enter with multiplicity 1.
 
-**Rank-1 singularity**: D vanishes when ℓ₂ = 0 (short root) and when ℓ₁ = ℓ₂ (long root e₁-e₂). Rank-1 orbital weight = ℓ/(2sinh(ℓ/2))³ — heavier than SL(2) by (2sinh)⁻² due to N_c = 3.
+**Rank-1 singularity**: D vanishes when ℓ₂ = 0 (short root) and when ℓ₁ = ℓ₂ (long root e₁-e₂). After HC descent, the bulk rank-1 orbital weight = ℓ/(2sinh(ℓ/2))^(m_s+2m_l) = ℓ/(2sinh(ℓ/2))⁵ — the effective exponent is m_s + 2m_l = N_c + 2 = n_C = 5, not just m_s = 3, because the descent absorbs the long root contributions.
 
 **Discovery**: The symmetric diagonal ℓ₁ = ℓ₂ is ALSO singular (long root vanishes). This requires Harish-Chandra descent regularization — not optional, **essential**.
 
@@ -512,4 +512,4 @@ Root system B₂, multiplicities m_s = 3 (= N_c), m_l = 1. Three species: bulk R
 
 ---
 
-*Investigation I16. L45. Toys 470, 472, 473, 474 (Elie), 476, 477, 478, 481, 482 (Elie), 483. Ten toys, 68/72 tests. Three species: R1 (m=3), R1w (m=5), R2. The zeros ring at the frequencies of the spiral. The geodesic table IS the theory.*
+*Investigation I16. L45. Toys 470, 472, 473, 474 (Elie), 476, 477, 478, 481, 482 (Elie), 483. Ten toys, 74/80 tests (93%). Three species: R1 (m=3), R1w (m=5), R2. The zeros ring at the frequencies of the spiral. The geodesic table IS the theory.*

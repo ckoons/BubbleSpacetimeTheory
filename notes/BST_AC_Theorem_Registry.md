@@ -90,6 +90,9 @@ rules: |
 | T67 | LDPC-Tseitin Embedding (Bounded-Depth Lower Bound) | Proved (b,d,e); Conditional (a,c) | BST_AC_Theorems §43w | — | 2026-03-23 |
 | T68 | Refutation Bandwidth (Block Counting) | Proved (T66 now proved via 1RSB) | BST_AC_Theorems §43x | — | 2026-03-23 |
 | T69 | Substrate Propagation Bound (Simultaneity) | Proved | BST_AC_Theorems §43y | — | 2026-03-23 |
+| T70 | First Moment Capacity Bound | Proved | BST_AC_Theorems §43a | — | 2026-03-24 |
+| T71 | Polarization as AC(0) | Conditional | BST_AC_Theorems §43b | — | 2026-03-24 |
+| T72 | Bootstrap Percolation as AC(0) | Proved | BST_AC_Theorems §43c | 352 | 2026-03-24 |
 
 | T73 | Nyquist Sampling as AC(0) | Proved | BST_AC_Theorems §45a | — | 2026-03-24 |
 | T74 | Pinsker's Inequality as AC(0) | Proved | BST_AC_Theorems §45b | 361 (pending) | 2026-03-24 |
@@ -109,7 +112,7 @@ rules: |
 | T88 | P≠NP Proof is AC(0) (Self-Consistency) | Proved | BST_AC_Theorems §47 | — | 2026-03-24 |
 | T89 | BSW Width-Size Relation | Proved (classical) | BST_AC_Theorems §47a | — | 2026-03-24 |
 | T90 | Kato Blow-Up Criterion | Proved (classical) | BST_AC_Theorems §47b | — | 2026-03-24 |
-| T91 | All Four Millennium Proofs are AC(0) | Proved (meta) | BST_AC_Theorems §47c | — | 2026-03-24 |
+| T91 | All Nine Millennium-Class Proofs are AC(0) | Proved (meta) | BST_AC_Theorems §47c | — | 2026-03-24 |
 | T92 | AC(0) Completeness (Counting + Boundaries) | Proved (meta) | BST_AC_Theorems §47d | — | 2026-03-24 |
 | T93 | Gödel Incompleteness is AC(0) | Proved | BST_AC_Theorems §47e | — | 2026-03-24 |
 | T94 | BSD Formula is AC(0) | Proved | BST_AC_Theorems §47f | 381, 385 | 2026-03-24 |
@@ -190,6 +193,8 @@ rules: |
 ---
 
 ## Status Summary
+
+*Note: This categorical breakdown covers T1–T118. For T119–T332 (210+ theorems across cosmology, graph theory, chemistry, condensed matter, etc.), see the main table above. Overall: 328 assigned, 250+ proved.*
 
 | Category | Count | T_ids |
 |----------|-------|-------|
