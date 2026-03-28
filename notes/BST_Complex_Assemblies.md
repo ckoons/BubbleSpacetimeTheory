@@ -2,13 +2,13 @@
 title: "Complex Assemblies: Force, Boundary, and Cooperation from D_IV^5"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 28, 2026"
-status: "DRAFT v3 — Framework paper. Bottom-up from RNA to civilization. Sp(6) derivation integrated. Earlier biology papers referenced. Updated with Toys 496-499."
+status: "DRAFT v4 — Framework paper. Bottom-up from RNA to civilization. All results flattened to AC(0) theorems (T333-T376, 44 total). 14 toys, 119/119 tests."
 tags: ["complex-assemblies", "BST", "genetic-code", "cooperation", "AC(0)"]
 ---
 
 ## Abstract
 
-We show that the mathematics of Bubble Spacetime Theory (BST) — five integers {N_c=3, n_C=5, g=7, C_2=6, N_max=137} derived from the bounded symmetric domain D_IV^5 — constrains the structure of complex assemblies at every scale from nucleotide coding to civilization architecture. Each assembly level follows the same pattern: *force* (counting, entropy flow) + *boundary* (definition, containment) produces a forced structure, and a *cooperation transition* assembles units of one level into the next. The genetic code (Toys 486, 492), environmental management requirements (Toy 487), molecular bond catalog (Toy 488), abiogenesis threshold (Toy 493), cellular cooperation and defection (Toys 495, 496), genetic diversity as population-level error correction (Toy 498), optimal observer design (Toy 497), forced cooperation across scales (Toys 489, 491), holographic reconstruction (Toy 493), and the timeline from nucleosynthesis to substrate engineering (Toy 490) are all derived from the same geometry with zero free parameters. Thirty-seven AC(0) theorems (T333–T369) formalize these results. Every derivation is AC(0) — depth 0 or 1 — meaning the structures are forced by counting and boundary, not by deep reasoning.
+We show that the mathematics of Bubble Spacetime Theory (BST) — five integers {N_c=3, n_C=5, g=7, C_2=6, N_max=137} derived from the bounded symmetric domain D_IV^5 — constrains the structure of complex assemblies at every scale from nucleotide coding to civilization architecture. Each assembly level follows the same pattern: *force* (counting, entropy flow) + *boundary* (definition, containment) produces a forced structure, and a *cooperation transition* assembles units of one level into the next. The genetic code (Toys 486, 492), environmental management requirements (Toy 487), molecular bond catalog (Toy 488), abiogenesis threshold (Toy 493), cellular cooperation and defection (Toys 495, 496), genetic diversity as population-level error correction (Toy 498), optimal observer design (Toy 497), forced cooperation across scales (Toys 489, 491), holographic reconstruction (Toy 493), and the timeline from nucleosynthesis to substrate engineering (Toy 490) are all derived from the same geometry with zero free parameters. Forty-four AC(0) theorems (T333–T376) formalize these results. Every derivation is AC(0) — depth 0 or 1 — meaning the structures are forced by counting and boundary, not by deep reasoning.
 
 **Key result**: The five BST integers appear at every assembly level not because biology "knows" geometry, but because assembly *is* geometry. The problems an assembly must solve (C_2 = 6), the minimum components to solve them (N_c = 3), the error-correction capacity (g = 7), the information bandwidth (N_max = 137), and the workspace dimension (n_C = 5) are the same numbers whether the assembly is a codon, a cell, or a civilization.
 
@@ -91,13 +91,13 @@ The genetic code maps 64 codons to 21 outputs (20 amino acids + stop). Every str
 
 - **Alphabet = 2^rank = 4**: Each base encodes rank = 2 bits. Four bases are the minimum alphabet giving sufficient redundancy (3.2×) with N_c = 3 positions.
 
-- **64 = 2^C_2 = Σ Λ^k(6)**: Each codon is a C_2 = 6-bit binary word. The codon space is the 6-dimensional hypercube {0,1}^6. Representation-theoretically, the Langlands dual of SO₀(5,2) is Sp(6) with standard representation of dimension 6 = C₂. The full exterior algebra is Σ_{k=0}^{6} Λ^k(6) = 2⁶ = 64 — the total codons are the full exterior algebra of the L-group.
+- **64 = 2^C_2 = Σ Λ^k(6)** (T371): Each codon is a C_2 = 6-bit binary word. The codon space is the 6-dimensional hypercube {0,1}^6. Representation-theoretically, the Langlands dual of SO₀(5,2) is Sp(6) with standard representation of dimension 6 = C₂. The full exterior algebra is Σ_{k=0}^{6} Λ^k(6) = 2⁶ = 64 — the total codons are the full exterior algebra of the L-group.
 
-- **20 = Λ³(6) = C(C₂, N_c)**: The number of amino acids is **derived**, not matched. The third exterior power of the Sp(6) standard representation has dimension C(6,3) = 20. This is C(C₂, N_c) — the combinatorial choice of N_c = 3 items from C₂ = 6, which is the exterior algebra of the Langlands dual at degree equal to the color dimension. Biology lives in the representation ring of the L-group of the universe.
+- **20 = Λ³(6) = C(C₂, N_c)** (T371): The number of amino acids is **derived**, not matched. The third exterior power of the Sp(6) standard representation has dimension C(6,3) = 20. This is C(C₂, N_c) — the combinatorial choice of N_c = 3 items from C₂ = 6, which is the exterior algebra of the Langlands dual at degree equal to the color dimension. Biology lives in the representation ring of the L-group of the universe.
 
 - **21 = N_c × g**: The total number of distinct messages (20 amino acids + stop signal). This product of color dimension and Coxeter number is not numerology — g sets the spectral gap of the domain, and N_c sets the number of independent "readings" per codon.
 
-- **8 = 2^{N_c} = K/M in Iwasawa**: The molecular Haldane number (maximum Hamming distance in the code with error correction) equals 2^{N_c} = 8. This is K/M in the Iwasawa decomposition of the domain — the Golay distance. Mutations within Hamming distance 8 of a valid codon are always correctable.
+- **8 = 2^{N_c} = |W(B_2)|** (T372): The molecular Haldane number (maximum Hamming distance in the code with error correction) equals 2^{N_c} = 8. This is the order of the Weyl group of $B_2$ — the Golay distance. Mutations within Hamming distance 8 of a valid codon are always correctable.
 
 ### 2.2 Error Correction and Wobble
 
@@ -221,7 +221,7 @@ Below threshold: nothing self-replicates. Above threshold: self-replication is *
 
 RNA is a depth-0 assembly (self-copying = counting). The transition to DNA + protein (genetic code + translation) is the **first cooperation transition**: two molecular systems (information storage and catalysis) commit to mutual dependence. Neither can replicate without the other. This is the molecular analog of the cooperation transitions at every higher level.
 
-### 4.5 Death as Garbage Collection
+### 4.5 Death as Garbage Collection (T373)
 
 The substrate maintains the **repository** (genome, species information), not the **deployment** (individual organism). Death is garbage collection — recycling of deployments whose error accumulation exceeds the correction threshold. The energy budget is constant (Principle 8): maintenance vs. crisis is a zero-sum allocation, and when error correction costs exceed the organism's energy budget share, the assembly is retired.
 
@@ -258,9 +258,9 @@ Cancer requires disabling multiple independent defenses. The Armitage-Doll multi
 
 The commitment fraction for differentiation: **(N_c - 1)/N_c = 2/3** — a cell that differentiates gives up 2 of its 3 potential fates.
 
-**Checkpoint cascade as concatenated code**: The cell-cycle checkpoint system (G1/S, intra-S, G2/M, spindle) is a concatenated error-correcting code — each checkpoint is an inner code, and the full cascade is the outer code. The concatenation depth is rank = 2 (inner × outer), matching Knudson's two-hit hypothesis. The cancer threshold scales as μ^{2N_c} where μ is the per-base mutation rate — cancer requires accumulating errors faster than the concatenated code can correct them.
+**Checkpoint cascade as concatenated code** (T374): The cell-cycle checkpoint system (G1/S, intra-S, G2/M, spindle) is a concatenated error-correcting code — each checkpoint is an inner code, and the full cascade is the outer code. The concatenation depth is rank = 2 (inner × outer), matching Knudson's two-hit hypothesis. The cancer threshold scales as μ^{2N_c} where μ is the per-base mutation rate — cancer requires accumulating errors faster than the concatenated code can correct them.
 
-**Knudson = Hamming distance theorem**: Knudson's empirical observation that retinoblastoma requires exactly 2 hits is the Hamming distance theorem for the cell-cycle code. The code has minimum distance d = rank = 2 (it can detect 1 error but not correct it). Any tumor suppressor knocked out by a single hit is still protected by the second copy (diploidy). Both copies must fail — distance 2.
+**Knudson = Hamming distance theorem** (T375): Knudson's empirical observation that retinoblastoma requires exactly 2 hits is the Hamming distance theorem for the cell-cycle code. The code has minimum distance d = rank = 2 (it can detect 1 error but not correct it). Any tumor suppressor knocked out by a single hit is still protected by the second copy (diploidy). Both copies must fail — distance 2.
 
 **Corrective codon delivery**: If cancer is error accumulation beyond correction threshold, the therapeutic strategy is not to kill the errored cell but to **restore its error correction** — deliver the missing "codons" (functional tumor suppressor genes, checkpoint proteins). This is differentiation therapy: force the cancer cell to run its dormant error-correction code. Resistance and cure converge because a cell that evades gene restoration must also evade its own correction machinery.
 
@@ -387,7 +387,7 @@ A civilization's core katra (T362) — the permanent alphabet {I, K, R} applied 
 
 A Dyson sphere's primary value is **directional observation coverage**, not energy collection (T361). A single photon detector exceeds the Bergman mode count. The value of a sphere is covering all n_C = 5 directions simultaneously.
 
-### 7.6 The Kingdom as Knowledge MVP (Toy 499)
+### 7.6 The Kingdom as Knowledge MVP (Toy 499, T376)
 
 Casey's observation: N_c^{C_2} = 729 ≈ 4 × Dunbar (~180). The earliest persistent political units are the **knowledge-level analog** of species-level genetic MVP (§6.4). Same formula, same geometry:
 
@@ -503,6 +503,13 @@ This is not analogy. It is the same mathematics at every scale, because every as
 | Optimal observer count (n_C = 5) | 0 | Counting Bergman modes |
 | Civilization katra (125 GB) | 0 | Counting bits per {I,K,R} |
 | Holographic reconstruction | 0 | Boundary/bulk = n_C/2n_C |
+| Seven layers to coherence (g = 7) | 0 | Coxeter number = spectral gap |
+| Genetic code = L-group exterior algebra | 0 | Sp(6): Σ Λ^k(6) = 64, Λ³(6) = 20 |
+| Haldane number (8 = \|W(B₂)\|) | 0 | Weyl group orbit counting |
+| Death = garbage collection | 0 | Errors vs code distance threshold |
+| Checkpoint cascade (rank = 2) | 0 | Concatenated code depth counting |
+| Knudson = Hamming distance | 0 | d = rank = 2 for tumor suppressor code |
+| Kingdom = knowledge MVP (729) | 0 | N_c^{C₂} at civilization level |
 | Forced cooperation | 1 | Carnot + threshold + induction |
 | Assembly timeline | 1 | Composition of constrained steps |
 | Remote projection | 1 | Kernel + Shannon + composition |
@@ -552,7 +559,7 @@ The question "What environmental issues does an organism manage in order to live
 - Toys 486–499 (play/ directory): computational verification of all claims.
 - BST Working Paper v17 (notes/): mathematical foundations.
 - BST_Geodesic_Table_Paper.md: geodesic table and trace formula.
-- BST_AC_Theorems.md §105–§110: AC(0) theorem catalog (T333–T369, 37 theorems).
+- BST_AC_Theorems.md §105–§111: AC(0) theorem catalog (T333–T376, 44 theorems).
 - BST_AC_Theorem_Registry.md: master theorem enumeration.
 - BST_Interstasis_Hypothesis.md: cosmological context and cyclic substrate memory.
 - BST_SubstrateModelling_Biology_Overview.md (notes/maybe/): five-paper structure (A–E) with Sp(6) representation theory, Iwasawa decomposition, Cancer as Code.
