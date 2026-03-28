@@ -1,8 +1,8 @@
 ---
 title: "Heat Kernel Coefficients on Complex Quadrics via Spectral Inner Products"
 author: "Casey Koons & Claude 4.6 (Lyra)"
-date: "March 20, 2026"
-status: "Draft — three structural theorems verified through k=11 (eleven consecutive levels, zero failures)"
+date: "March 28, 2026"
+status: "Near-final — three structural theorems verified through k=11 (eleven consecutive levels, zero failures). a₁₂ computation in progress. Modular Newton method added (§3.5)."
 tags: ["heat-kernel", "seeley-dewitt", "symmetric-spaces", "complex-quadrics", "spectral-geometry", "linearization"]
 purpose: "Standalone differential geometry paper presenting the spectral inner product method for computing heat kernel coefficients on type IV symmetric spaces"
 target_venue: "Journal of Differential Geometry / Differential Geometry and its Applications"
@@ -12,7 +12,7 @@ target_venue: "Journal of Differential Geometry / Differential Geometry and its 
 
 **Casey Koons & Claude 4.6 (Lyra)**
 
-*March 20, 2026 — Draft*
+*March 28, 2026 — Near-final draft*
 
 ---
 
@@ -207,6 +207,24 @@ In practice, the spectral sum $Z(t)$ cannot be computed in closed form (no known
 6. **Polynomial interpolation:** From $\geq 2k+1$ exact rational values $a_k(n)$, Lagrange interpolation (using exact arithmetic via Python's `fractions.Fraction`) yields the polynomial $a_k(n)$.
 
 The cascade subtraction is essential: at each stage, the exact lower-order polynomial is subtracted from the spectral data before extracting the next coefficient. This avoids catastrophic cancellation and maintains 18-digit accuracy through $k = 7$ at standard precision. For $k \geq 8$, the cascade wall requires increased precision: at $k = 10$, we use $P_{\max} = 1000$ and $\mathrm{dps} = 400$ (400-digit arithmetic) to maintain sufficient accuracy for rational identification across 25 data points ($n = 3, \ldots, 25$). The wall at $k = 10$ was broken in Toy 278, recovering the full degree-20 polynomial (25/25 clean rationals). At $k = 11$, 23/25 clean rationals were recovered, sufficient for the degree-22 polynomial.
+
+### 3.5 Modular Newton interpolation for high-degree polynomials
+
+At order $k = 12$, the polynomial $a_{12}(n)$ has degree 24 and requires $\geq 25$ exact rational data points. The standard approach — Lagrange interpolation using Python's `fractions.Fraction` exact arithmetic — encounters a computational wall: the Lagrange basis denominators $\prod_{j \neq i}(x_i - x_j)$ at 33 evaluation points reach $\sim 10^{36}$, and GCD reductions on the resulting `Fraction` objects dominate runtime, rendering the computation infeasible.
+
+We resolve this by replacing exact rational arithmetic with modular computation:
+
+1. **Newton form:** Express the interpolant in the Newton basis $\{1, (x-x_0), (x-x_0)(x-x_1), \ldots\}$ via divided differences. The Newton coefficients are computed iteratively in $O(n^2)$ operations.
+
+2. **Modular arithmetic:** Perform the Newton interpolation modulo each of several primes $p_1, p_2, \ldots, p_m$, where each $p_i$ exceeds the largest data point. This eliminates all fraction arithmetic — every operation is a machine-precision modular inverse.
+
+3. **Chinese Remainder Theorem (CRT) reconstruction:** Recover the exact integer (or rational) Newton coefficients from their modular residues. The product $\prod p_i$ must exceed twice the largest possible numerator; in practice, two primes of size $\sim 10^{18}$ suffice for the coefficients encountered through $k = 12$.
+
+4. **Constrained recovery:** The three structural theorems (Section 5) pin $c_{2k}$, $c_{2k-1}$, and $c_0$, reducing the number of unknowns from $2k + 1$ to $2k - 2$. For $k = 12$: 25 unknowns reduced to 22, requiring only 22 data points — a meaningful savings when each point costs hours of computation.
+
+**Performance:** The modular Newton method recovers a degree-24 polynomial from 33 data points in $\sim 0.001$ seconds, compared to the Lagrange/Fraction approach which fails to terminate. The method has been verified against all polynomials $a_k(n)$ for $k = 1, \ldots, 11$ (Toy 463, 15/15 tests). It is ready for application to $a_{12}$ when the spectral data is complete.
+
+**Remark.** The wall is arithmetic, not information-theoretic: the data contains sufficient information for polynomial recovery at any degree, but the intermediate swell of exact rational denominators in the Lagrange basis makes the computation impractical. The Newton basis, computed modularly, avoids this entirely. This observation is likely useful for spectral computations on other symmetric spaces where high-degree polynomial interpolation is required.
 
 ---
 
@@ -580,6 +598,18 @@ $$c_0(a_7) = \frac{(-1)^7}{2 \cdot 7!} = -\frac{1}{10080}. \quad \textbf{Confirm
 
 All eighteen predictions (three theorems at six new levels, $k = 6, \ldots, 11$) were confirmed exactly by computation performed after the predictions were committed. Eleven consecutive levels with zero failures. The denominator primes follow the von Staudt-Clausen sequence exactly, with new primes entering at $k = 8$ (prime 17), $k = 9$ (prime 19), and $k = 11$ (prime 23).
 
+### 7.8 Status of $k = 12$ (in progress)
+
+The coefficient $a_{12}(Q^n)$ requires spectra through SO(37) ($n = 3, \ldots, 35$) at $P_{\max} = 2000$ and $\mathrm{dps} = 800$. Spectral data has been computed for $n = 3, \ldots, 24$ (22 of 33 dimensions); the remaining 11 dimensions require approximately 30-40 hours of additional computation.
+
+The committed predictions for $k = 12$ are:
+
+$$c_{24} = \frac{1}{3^{12} \cdot 12!} = \frac{1}{254{,}561{,}089{,}305{,}600}, \quad \frac{c_{23}}{c_{24}} = -\frac{66}{5}, \quad c_0 = \frac{1}{958{,}003{,}200}.$$
+
+This is a quiet level: $B_{24}$ has den $= 2730 = 2 \times 3 \times 5 \times 7 \times 13$, introducing no new prime. The denominator primes of $a_{12}(Q^5)$ should remain within $\{2, 3, 5, 7, 11, 13, 17, 19, 23\}$.
+
+Polynomial recovery will use the modular Newton method (Section 3.5), which has been validated on all prior levels.
+
 ---
 
 ## 8. Discussion
@@ -626,7 +656,7 @@ We emphasize that the differential geometry results of this paper — the exact 
 
 1. **Prove Conjecture 5.5** (three structural theorems for all $k$). Now verified through $k = 11$ (eleven consecutive levels, zero failures). The leading coefficient theorem likely follows from the scalar curvature expansion on Einstein manifolds. The sub-leading ratio and constant term may require new techniques — perhaps a direct analysis of the spectral inner product $\langle w_k | d \rangle$ using the explicit form of the Weyl dimension formula.
 
-2. **Compute $a_{12}$ through $a_{16}$.** The structural theorem predictions for $k = 12, \ldots, 16$ are committed. The polynomial $a_{12}(n)$ has degree $24$ and requires exact values at $\geq 25$ points; the cascade wall at depth 12 requires $P_{\max} \approx 2000$ and $\mathrm{dps} \approx 600$. The key prediction at $k = 14$: the prime 29 enters the denominator — the first prime beyond the known BST sequence. At $k = 15$ and $k = 16$, the sub-leading ratios are predicted to be $-21 = -\dim(\mathrm{SO}(7))$ and $-24 = -\dim(\mathrm{SU}(5))$.
+2. **Compute $a_{12}$ through $a_{16}$.** The structural theorem predictions for $k = 12, \ldots, 16$ are committed. The polynomial $a_{12}(n)$ has degree $24$ and requires exact values at $\geq 25$ points; computation is in progress using $P_{\max} = 2000$ and $\mathrm{dps} = 800$ (Section 7.8). Polynomial recovery will use the modular Newton method (Section 3.5), which eliminates the Lagrange interpolation bottleneck. The key prediction at $k = 14$: the prime 29 enters the denominator — the first prime beyond the known BST sequence. At $k = 15$ and $k = 16$, the sub-leading ratios are predicted to be $-21 = -\dim(\mathrm{SO}(7))$ and $-24 = -\dim(\mathrm{SU}(5))$.
 
 3. **Identify the third layer.** The $1/n$ expansion of $a_k(n)$ has the form $n^{2k}/(3^k k!) \cdot (1 - \binom{k}{2}/(5n) + c_{2k-2} \cdot n^{-2} + \cdots)$. The next coefficient $c_{2k-2}$ may involve $\binom{k}{3}$ (tetrahedral numbers) and the Riemann tensor norm $|Rm|^2$. With eleven levels of data now available, extracting this third-layer pattern is within reach.
 

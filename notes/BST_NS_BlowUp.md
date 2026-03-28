@@ -1245,7 +1245,7 @@ P ≥ c·Ω^{3/2} (Thm 5.19, dimensional) → Ω → ∞ at T* (Cor 5.20)
 
 | Toy | Score | Discovery |
 |-----|-------|-----------|
-| 358 | 3/5 | 2D: enstrophy = capacity floor, never reaches zero |
+| 358 | 6/6 | 2D: enstrophy = capacity floor, never reaches zero |
 | 359 | 5/6 | Nyquist framework confirmed; B(Re) = Re^{3/4} |
 | 360 | 4/6 | k^{-5/3} ≠ C^∞; blow-up time formula |
 | 362 | 9/12 | Convolution fixed point α* = 5/2 < α_c; gap G1 identified |

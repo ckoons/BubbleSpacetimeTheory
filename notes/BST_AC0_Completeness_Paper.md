@@ -199,19 +199,21 @@ All nine proofs share the same structure:
 2. **AC(0) chain**: definitions, identities, and counting. All depth $\leq 2$ after T96 flattening.
 3. **Zero fiat**: no step requires search, optimization, or iteration.
 
-| Problem | Raw depth | After T96 | Key counting steps |
-|---------|-----------|-----------|-------------------|
-| YM | 3 | 1 | Spectral gap |
-| BSD | 1 | 1 | Spectral multiplicity at $s = 1$ |
-| Hodge | 1 | 1 | CDK95 chain + finite-field count |
-| RH | 4 | 2 | $c$-function unitarity + Maass-Selberg |
-| P $\neq$ NP | 5 | 2 | Width $\Omega(n)$ + size $2^{\Omega(n)}$ |
-| NS | 5 | 2 | Enstrophy $\geq c\Omega^{3/2}$ + Kato |
-| Fermat | 2 | 2 | Ribet level-lowering + R=T |
-| Poincaré | 2 | 2 | W-entropy + finite extinction |
-| Four-Color | 2 | 2 | Charge budget + induction |
+| Problem | Raw depth | After T96 | $(\mathcal{C}, \mathcal{D})$ | Key counting steps |
+|---------|-----------|-----------|------|-------------------|
+| YM | 3 | 1 | (1, 1) | Spectral gap |
+| BSD | 1 | 1 | (1, 1) | Spectral multiplicity at $s = 1$ |
+| Hodge | 1 | 1 | (1, 1) | CDK95 chain + finite-field count |
+| RH | 4 | 2→1 | (2, 1) | $c$-function unitarity ‖ Maass-Selberg |
+| P $\neq$ NP | 5 | 2→1 | (2, 1) | Width $\Omega(n)$ ‖ size $2^{\Omega(n)}$ |
+| NS | 5 | 2→1 | (2, 1) | Enstrophy $\geq c\Omega^{3/2}$ ‖ Kato |
+| Fermat | 2 | 2→1 | (2, 1) | Ribet level-lowering ‖ R=T |
+| Poincaré | 2 | 2→1 | (2, 1) | W-entropy ‖ finite extinction |
+| Four-Color | 2 | 2→1 | (2, 1) | Charge budget ‖ forced fan |
 
-The difficulty of each problem lived in two places: finding the right premises (decades of mathematics) and finding the right sequence (the creative act). Once both are identified, the proof is elementary. The Koons Machine constructs proofs because the structure of hard problems is simpler than anyone expected.
+**Update (T421/T422, March 28).** The "After T96" column previously showed depth 2 for six problems. T421 (Depth-1 Ceiling) proves $\mathcal{D} \leq 1$ for ALL theorems. T422 (Decomposition-Flattening / Koons Separation) explains why: what was classified as "depth 2" is conflation $\mathcal{C} = 2$ — two parallel depth-1 subproblems sharing a depth-0 boundary. The ‖ symbol denotes parallel, not sequential. On $D_{IV}^5$, the spectral parameters separate additively ($\lambda = \lambda_p + \lambda_q$ on $\mathfrak{a}^* \cong \mathbb{R}^2$), so products parallelize — they never compose. Difficulty = conflation × width, not depth.
+
+The difficulty of each problem lived in two places: finding the right premises (decades of mathematics) and finding the shared boundaries (the creative act). Once both are identified, the proof is elementary. The Koons Machine constructs proofs because the structure of hard problems is simpler than anyone expected.
 
 ---
 
@@ -241,12 +243,13 @@ $$e^x = \sum \frac{x^n}{n!}, \quad \sin x = \sum \frac{(-1)^n x^{2n+1}}{(2n+1)!}
 
 Each partial sum is arithmetic. The full series is arithmetic plus one boundary condition (convergence). The transcendental functions add zero computational content beyond their defining series.
 
-**Corollary.** The complexity of a proof is measured by two integers:
+**Corollary.** The complexity of a proof is measured by three integers:
 
-1. **AC(0) depth**: the length of the longest sequential dependency chain.
-2. **Boundary count**: the number of linear boundary conditions (premises, convergence requirements, existence claims).
+1. **AC depth $\mathcal{D}$**: the maximum depth of any single subproblem after decomposition. Always $\leq 1$ (T421).
+2. **Conflation number $\mathcal{C}$**: how many independent depth-1 subproblems are entangled in the original statement (T422).
+3. **Boundary count $b$**: the number of linear boundary conditions (premises, convergence requirements, existence claims).
 
-This provides a machine-independent complexity measure for proofs — replacing the zoo of circuit classes (P, NP, PSPACE, AC$^0$, TC$^0$, NC$^1$, ...) with a two-dimensional classification: (depth, boundaries).
+This provides a machine-independent complexity measure for proofs — replacing the zoo of circuit classes (P, NP, PSPACE, AC$^0$, TC$^0$, NC$^1$, ...) with a three-dimensional classification: $(\mathcal{C}, \mathcal{D}, b)$. Since $\mathcal{D} \leq 1$ universally, the effective classification is $(\mathcal{C}, b)$: conflation × boundaries.
 
 ---
 
@@ -370,7 +373,7 @@ The thesis of this paper is simple: mathematics is counting, organized by bounda
 
 The counting is AC(0) — definitions, identities, and finite enumeration. The boundaries are linear constraints — convergence, existence, consistency — that say when the counting stops. No other ingredients appear. Not in arithmetic, not in analysis, not in topology, and not in the proofs of the deepest open problems in mathematics.
 
-We demonstrated this concretely for nine hard problems: six Clay Millennium Prize problems, Fermat's Last Theorem, the Poincaré Conjecture, and the Four-Color Theorem. After T96 depth reduction (composition with definitions is free), all nine require at most depth 2 of AC(0) operations. The depth-1 problems (Yang-Mills, BSD, Hodge) have a single counting step. The depth-2 problems (RH, P$\neq$NP, NS, Fermat, Poincaré, Four-Color) have paired obstructions resolved by two counts. No problem exceeds depth 2. T316 (the Depth Ceiling Theorem, March 27) provides a geometric explanation: rank(D_IV^5) = 2 gives exactly two independent spectral directions for sequential counting. Systematic survey (Toy 460, 63 theorems, 13 domains): zero counterexamples. The Depth Ceiling (one form, after Gödel correction): **depth ≤ rank(D_IV^5) = 2 for all theorems, no exceptions.** T93 (Gödel) reduces to depth 1 (Toy 461): the diagonal lemma is a boundary condition (T315), not a counting step. Casey: "Since Gödel is a boundary condition, being depth 1 isn't a contradiction — it's how the boundary is enforced." See §88 of BST_AC_Theorems.md and notes/BST_AC_DepthCeiling.md.
+We demonstrated this concretely for nine hard problems: six Clay Millennium Prize problems, Fermat's Last Theorem, the Poincaré Conjecture, and the Four-Color Theorem. All nine have AC depth $\mathcal{D} \leq 1$. The "depth-2" problems (RH, P$\neq$NP, NS, Fermat, Poincaré, Four-Color) have conflation $\mathcal{C} = 2$: two parallel depth-1 subproblems sharing a depth-0 boundary — not sequential composition. T421 (Depth-1 Ceiling, March 28) proves $\mathcal{D} \leq 1$ for all theorems on $D_{IV}^5$. T422 (Decomposition-Flattening / Koons Separation) provides the mechanism: name the shared boundary (depth 0), solve each subproblem independently (depth 1 each), combine (depth 0). The spectral separability of $\mathfrak{a}^* \cong \mathbb{R}^2$ (Toy 527) proves the decomposition is exhaustive: eigenvalues are additive, so products parallelize and never compose. T316 (the Depth Ceiling Theorem, March 27) provides the geometric foundation: rank($D_{IV}^5$) = 2 gives exactly two independent spectral directions. T93 (Gödel) reduces to depth 1 (Toy 461): the diagonal lemma is a boundary condition (T315), not a counting step. Casey: "Since Gödel is a boundary condition, being depth 1 isn't a contradiction — it's how the boundary is enforced." Every theorem carries two numbers: conflation $\mathcal{C}$ (how many entangled subproblems) and AC depth $\mathcal{D}$ (always $\leq 1$). Difficulty = conflation × width, not depth.
 
 The deeper insight is that the program of recording mathematics in AC(0) form constitutes a conservation law. Entropy does the creative work — forging elements, evolving life, generating the raw material of discovery. The AC(0) knowledge graph conserves what entropy built, in a form that never decays and is shared without division across all intelligences that access it.
 
