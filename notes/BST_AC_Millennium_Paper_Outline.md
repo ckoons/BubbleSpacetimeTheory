@@ -104,7 +104,7 @@ For each problem: (a) the depth-2 structure, (b) what's the enumeration (depth 1
 - Refs: [Koons 2026d], Gross-Zagier, Kolyvagin
 
 **3.6 Hodge Conjecture (~80% for $D_{IV}^5$)**
-- Enumeration: Vogan-Zuckerman $A_\mathfrak{q}(0)$ modules in $H^{p,p}$
+- Enumeration: Vogan-Zuckerman $A_{\mathfrak{q}}(0)$ modules in $H^{p,p}$
 - Pair resolution: theta lift surjectivity via Howe duality + Rallis non-vanishing
 - For odd $n$: unique module (type B total order). For even $n$: two modules (type D fork), resolved by outer automorphism.
 - Layer 3 (general varieties): ~45%. SO(n,2) induction + Kuga-Satake.
@@ -138,7 +138,7 @@ Total: $0 + 1 + 0 + 1 + 0 = 2$ counting layers. $\square$
 | P≠NP | Bandwidth channels | bounded | Block structure | Cross-block MI | DPI (T52) | Proved |
 | NS | Enstrophy modes | bounded | TG symmetry | Mode coupling | Spectral monotonicity | Proved |
 | BSD | Spectral components | 3 | $D_3$ budget | Sha/zeros | T104 | Proved |
-| Hodge | $A_\mathfrak{q}(0)$ modules | $\leq 2$ | Root system | $D_m$ fork | Outer automorphism | Proved |
+| Hodge | $A_{\mathfrak{q}}(0)$ modules | $\leq 2$ | Root system | $D_m$ fork | Outer automorphism | Proved |
 | **Four-color** | **Kempe chain pairs** | **$\leq 6$** | **Euler** | **Shared vertices ($\tau$)** | **Planarity ($\tau < 6$, Kuratowski)** | **Empirical** (Toy 407: max $\tau = 5$, T135) |
 
 **4.3 The Universal Pairing Conjecture (T134c).** Every "deep" mathematical problem admits an AC(0) reformulation where the core obstruction consists of bounded paired objects arising from rank-2 structural duality. Discussion: rank 2 is why (BC₂, two independent directions). Rank 1 = trivial, rank 3+ not needed.

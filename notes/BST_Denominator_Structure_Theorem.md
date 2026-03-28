@@ -307,7 +307,7 @@ The numerator $78424343 = 19 \times 4127597$. The prime $19$ appears for the thi
 
 | $k$ | $B_{2k}$ den | New prime(s) from vSC | Cumulative primes | BST meaning |
 |-----|-------------|----------------------|-------------------|-------------|
-| 8 | $B_{16}$: den = $3617 \cdot \ldots / 510$ | $17$ ($16 \mid 16$) | $\{2,3,5,7,11,13,17\}$ | $17 = \lvert\rho\rvert^2 = $ norm-squared of Weyl vector |
+| 8 | $B_{16}$: den = $3617 \cdot \ldots / 510$ | $17$ ($16 \mid 16$) | $\{2,3,5,7,11,13,17\}$ | $17 = \lvert\rho\rvert^2$ = norm-squared of Weyl vector |
 | 9 | $B_{18}$: den = $\ldots / 798$ | $19$ ($18 \mid 18$) | $\{2,3,5,7,11,13,17,19\}$ | $19 = $ cosmic denominator ($\Omega_\Lambda = 13/19$) |
 | 10 | $B_{20}$: den = $\ldots / 330$ | none (quiet) | $\{2,3,5,7,11,13,17,19\}$ | $-$ |
 | 11 | $B_{22}$: den = $\ldots / 138$ | $23$ ($22 \mid 22$) | $\{2,3,5,7,11,13,17,19,23\}$ | $23 = $ Golay prime ($[24,12,8]$) |
