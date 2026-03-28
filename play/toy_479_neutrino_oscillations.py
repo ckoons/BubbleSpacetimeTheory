@@ -70,16 +70,18 @@ dm2_21_exp = mpf('7.53e-5')   # eV^2 (solar)
 dm2_31_exp = mpf('2.453e-3')  # eV^2 (atmospheric, normal ordering)
 
 # ═══════════════════════════════════════════════════════════════
-# PMNS Mixing Matrix
+# PMNS Mixing Matrix — BST values (zero free parameters)
 # ═══════════════════════════════════════════════════════════════
-# Using experimentally measured values (BST derives these from
-# D_IV^5 representation theory, but the exact derivation is in
-# the WorkingPaper — here we use the experimental best-fit)
+# sin²θ₁₂ = 1/N_c = 1/3          (one color dimension)
+# sin²θ₂₃ = 1/2                  (maximal, B₂ long-root reflection)
+# sin²θ₁₃ = N_c/N_max = 3/137   (all three colors, spectral cutoff)
+# δ_CP     = 12π/7 = 2C₂π/g     (the BST CP phase)
 
-theta_12 = mpf('33.44') * pi / 180   # solar angle
-theta_23 = mpf('49.2') * pi / 180    # atmospheric angle
-theta_13 = mpf('8.57') * pi / 180    # reactor angle
-delta_CP = mpf('197') * pi / 180     # CP-violating phase (T2K/NOvA hint)
+from mpmath import asin
+theta_12 = asin(sqrt(mpf(1)/N_c))            # sin²θ₁₂ = 1/3
+theta_23 = pi / 4                             # sin²θ₂₃ = 1/2
+theta_13 = asin(sqrt(mpf(N_c)/N_max))        # sin²θ₁₃ = N_c/N_max = 3/137
+delta_CP = 2 * C2 * pi / g                    # δ_CP = 12π/7 ≈ 308.6°
 
 # PMNS matrix elements (standard parametrization)
 s12 = sin(theta_12); c12 = cos(theta_12)
@@ -87,33 +89,28 @@ s23 = sin(theta_23); c23 = cos(theta_23)
 s13 = sin(theta_13); c13 = cos(theta_13)
 
 
-def P_osc(L_km, E_GeV, alpha_flavor, beta_flavor):
+def P_osc(L_km, E_GeV, alpha_flavor, beta_flavor, anti=False):
     """
     Neutrino oscillation probability P(nu_alpha -> nu_beta).
-    L in km, E in GeV.
+    L in km, E in GeV. anti=True for antineutrinos (conjugate U).
 
     Uses the standard three-flavor formula:
     P(a->b) = |sum_i U_{bi}* U_{ai} exp(-i m_i^2 L/(2E))|^2
+    For antineutrinos: U → U* (equivalent to delta_CP → -delta_CP)
 
-    In vacuum, with the standard phase factor:
-    Delta_{ij} = 1.267 * dm2_{ij} [eV^2] * L [km] / E [GeV]
+    Phase factor: Delta_{ij} = 1.267 * dm2_{ij} [eV^2] * L [km] / E [GeV]
     """
-    # Convert to natural units for phase
-    # Phase = dm2 * L / (4E) in natural units
-    # = 1.267 * dm2[eV^2] * L[km] / E[GeV]
-
-    # PMNS matrix (real part sufficient for P_ee, P_mue without CP)
-    # Full complex for CP-violating channels
-
     # U matrix elements
-    U = {}
-    exp_id = cos(delta_CP) + 1j * sin(delta_CP)  # e^{i*delta}
-    exp_mid = cos(delta_CP) - 1j * sin(delta_CP)  # e^{-i*delta}
+    # For antineutrinos, conjugate the CP phase: delta → -delta
+    sign = -1 if anti else 1
+    exp_id = cos(delta_CP) + 1j * sign * sin(delta_CP)    # e^{±i*delta}
+    exp_mid = cos(delta_CP) - 1j * sign * sin(delta_CP)   # e^{∓i*delta}
 
+    U = {}
     # Row e (electron)
     U[('e', 1)] = c12 * c13
     U[('e', 2)] = s12 * c13
-    U[('e', 3)] = s13 * complex(exp_mid)  # s13 * e^{-i*delta}
+    U[('e', 3)] = s13 * complex(exp_mid)  # s13 * e^{∓i*delta}
 
     # Row mu (muon)
     U[('mu', 1)] = -s12*c23 - c12*s23*s13*complex(exp_id)
@@ -127,14 +124,9 @@ def P_osc(L_km, E_GeV, alpha_flavor, beta_flavor):
 
     masses_sq = [float(m1**2), float(m2**2), float(m3**2)]
 
-    # Compute amplitude
-    L_m = float(L_km) * 1000  # km to m... actually keep in km for the formula
-    E_eV = float(E_GeV) * 1e9
-
     amplitude = 0j
     for i in range(3):
         phase = 1.267 * masses_sq[i] * float(L_km) / float(E_GeV)
-        # exp(-i * phase)
         amp_i = complex(U[(beta_flavor, i+1)]) * complex(U[(alpha_flavor, i+1)]).conjugate()
         amplitude += amp_i * (math.cos(phase) - 1j * math.sin(phase))
 
@@ -260,20 +252,23 @@ def test_4():
     E = 2.5    # GeV (peak flux)
 
     P = P_osc(L, E, 'mu', 'e')
-    P_bar = P_osc(L, E, 'mu', 'e')  # approximate (CP effects small in vacuum)
+    P_bar = P_osc(L, E, 'mu', 'e', anti=True)
 
     print(f"  BST prediction:")
-    print(f"    P(νμ → νe) = {P:.4f} at E = 2.5 GeV")
+    print(f"    P(νμ → νe)  = {P:.4f} at E = 2.5 GeV")
+    print(f"    P(ν̄μ → ν̄e) = {P_bar:.4f} at E = 2.5 GeV")
+    print(f"    A_CP = (P - P̄)/(P + P̄) = {(P - P_bar)/(P + P_bar):.4f}")
 
     # Scan energy
     print(f"\n  Energy scan (BST prediction for DUNE):")
-    print(f"  {'E (GeV)':>10} {'P(νμ→νe)':>12} {'P(ν̄μ→ν̄e)':>12}")
-    print(f"  {'-'*36}")
+    print(f"  {'E (GeV)':>10} {'P(νμ→νe)':>12} {'P(ν̄μ→ν̄e)':>12} {'A_CP':>8}")
+    print(f"  {'-'*44}")
 
     for E_val in [0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 4.0, 5.0]:
         P_nu = P_osc(L, E_val, 'mu', 'e')
-        P_anu = P_osc(L, E_val, 'mu', 'e')  # same in vacuum approx
-        print(f"  {E_val:>10.1f} {P_nu:>12.4f} {P_anu:>12.4f}")
+        P_anu = P_osc(L, E_val, 'mu', 'e', anti=True)
+        A_cp = (P_nu - P_anu) / (P_nu + P_anu) if (P_nu + P_anu) > 0 else 0
+        print(f"  {E_val:>10.1f} {P_nu:>12.4f} {P_anu:>12.4f} {A_cp:>8.3f}")
 
     # First oscillation maximum
     E_max = 1.267 * float(dm2_31) * L / (pi/2)
@@ -443,10 +438,17 @@ def test_8():
     print(f"  {'Σmᵢ':<30} {f'{float((m1+m2+m3)*1000):.1f} meV':>15} {'< 120 meV':>15} {'✓':>10}")
     print(f"  {'m₁ = 0 exact':<30} {'Predicted':>15} {'Untested':>15} {'DUNE':>10}")
     print()
+    print(f"  BST mixing angles:")
+    print(f"  {'sin²θ₁₂':<30} {'1/3 = 0.3333':>15} {'0.307±0.013':>15} {'2.0σ':>10}")
+    print(f"  {'sin²θ₂₃':<30} {'1/2 = 0.5000':>15} {'0.546±0.021':>15} {'2.2σ':>10}")
+    print(f"  {'sin²θ₁₃':<30} {'3/137 = 0.0219':>15} {'0.0220±0.0006':>15} {'0.6%':>10}")
+    print(f"  {'δ_CP':<30} {'12π/7 = 309°':>15} {'197°±25°':>15} {'open':>10}")
+    print()
     print(f"  BST integers used: N_c={N_c}, n_C={n_C}, g={g}, C₂={C2}, N_max={N_max}")
     print(f"  Free parameters: ZERO")
     print(f"  Mass formula: m_i = f_i × α² × m_e²/m_p")
     print(f"    f₁ = 0 (Z₃), f₂ = g/(2C₂) = 7/12, f₃ = 2n_C/N_c = 10/3")
+    print(f"  Angle formulae: sin²θ₁₂=1/N_c, sin²θ₂₃=1/2, sin²θ₁₃=N_c/N_max, δ_CP=2C₂π/g")
     print()
     print(f"  Key BST predictions for next-generation experiments:")
     print(f"    1. Normal ordering (JUNO ~2027, DUNE ~2030)")

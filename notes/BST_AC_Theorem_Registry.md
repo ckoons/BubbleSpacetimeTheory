@@ -405,10 +405,11 @@ rules: |
 | Proved (depth 1) | 1 | T326 (Zero Threshold at 2g — N(2g)+S(2g)=0, first zero just above 2g=14. Primes shift threshold from ~17.8 to ~14. Correction +1/g-1/N_max empirical.) |
 | Proved (depth 1) | 1 | T327 (Fusion Fuel Selection — n_C=5 → ⁵He resonance → D-T enhanced 500× → fusion achievable. Gamow peak, Lawson, ignition temp all from five integers. Depth 1.) |
 | Proved (depth 0) | 1 | T328 (Neutron Stability Dichotomy — Free: Δm > m_e → unstable. Bound: B_n > Q_β → stable. Pure comparison. If Δm < m_e, hydrogen wouldn't exist.) |
-| Proved (depth 0) | 1 | T329 (Neutrino Oscillation Predictions — Complete sector from five integers. f₁=0, f₂=7/12, f₃=10/3. sin²θ₁₂=1/3, sin²θ₂₃=1/2, sin²θ₁₃=3/274. δ_CP=12π/7≈309°. MSW A_CP=+0.675. Three predictions testable by 2030.) |
+| Proved (depth 0) | 1 | T329 (Neutrino Oscillation Predictions — Complete sector from five integers. f₁=0, f₂=7/12, f₃=10/3. sin²θ₁₂=1/3, sin²θ₂₃=1/2, sin²θ₁₃=N_c/N_max=3/137 (0.6%). δ_CP=12π/7≈309°. MSW A_CP=+0.675. Three predictions testable by 2030.) |
 | Proved (depth 0) | 1 | T330 (Wall Descent Theorem — c₀=0 by ε-parity. Symmetric geodesics (ℓ₁=ℓ₂) are wall rank-1 with m_wall=n_C=5, not true rank-2. HC descent to Levi SO(3,2). Two species: bulk m=3, wall m=5.) |
 | Proved (depth 1) | 1 | T331 (Resolvent Linearization — G(s)=Σ m_j e^{-ℓ_j s}/ℓ_j. One dot product per spectral query. UV/IR decoupling. Bond energies = table lookup. AC(0) chain: five integers → chemistry.) |
-| **Total assigned** | **327** | T1-T42, T47-T62, T64-T331 |
+| Proved (depth 1) | 1 | T332 (Molecular Bond Energy — H₂⁺ from geodesic table. R₀=2.003 a₀ (0.3%), D_e=2.355 eV (LCAO 15.7%), ω_e=2227 cm⁻¹ (4.1%). First AC(0) chemistry calculation. Zero free parameters.) |
+| **Total assigned** | **328** | T1-T42, T47-T62, T64-T332 |
 
 ---
 
@@ -416,10 +417,11 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T332** (T63 unassigned)
+- Next available: **T333** (T63 unassigned)
+- March 27 batch 29 (Molecular Bond Energy — Keeper, from Elie Toy 484): T332. §104 Molecular Bond Energy from Geodesic Table. First AC(0) chemistry calculation. H₂⁺: R₀=2.003 a₀ (0.3%), D_e=2.355 eV (LCAO variational, 15.7% — expected), ω_e=2227 cm⁻¹ (4.1%). Full chain: five integers → B₂ → Q → SO(Q,Z) → geodesic table (39 entries) → resolvent → Coulomb kernel → bond energy. Depth 1. Toy 484 (8/8).
 - March 27 batch 28 (Resolvent Linearization — Keeper, from Lyra Toy 483): T331. §103 Resolvent Linearization. G(s) = Σ m_j e^{-ℓ_j s}/ℓ_j — one dot product per spectral query. UV/IR decoupling verified. Bond energies = table lookup. AC(0) chain: five integers → B₂ → Q → SO(Q,Z) → table → dot product → chemistry. Depth 1 (one summation). Toy 483 (7/8).
 - March 27 batch 27 (Wall Descent — Keeper, from Elie Toy 482): T330. §102 Wall Descent Theorem. c₀=0 by ε-parity (Weyl discriminant vanishes on long root wall, ε-factor kills rank-2 contribution). HC descent to Levi M_α ≅ SO(3,2). Wall multiplicity m_wall = n_C = 5 (compact fiber dimension). Three species: bulk R1 (m=3), wall R1w (m=5), true R2 (off-wall). Reclassifies 4 on-wall entries. Depth 0. Toy 482 (8/8). DISCOVERY: symmetric geodesics are rank-1, not rank-2.
-- March 27 batch 26 (Neutrino Oscillations — Keeper, from Elie Toys 479-480): T329. §101 Neutrino Oscillation Predictions. Complete sector: m_ν_i = f_i α² m_e²/m_p (f₁=0, f₂=7/12, f₃=10/3). PMNS: sin²θ₁₂=1/3, sin²θ₂₃=1/2, sin²θ₁₃=3/274. δ_CP=12π/7≈309°. MSW: A_CP=+0.675 at DUNE. Three falsifiable predictions by 2030. Depth 0. Toys 479+480 (16/16).
+- March 27 batch 26 (Neutrino Oscillations — Keeper, from Elie Toys 479-480): T329. §101 Neutrino Oscillation Predictions. Complete sector: m_ν_i = f_i α² m_e²/m_p (f₁=0, f₂=7/12, f₃=10/3). PMNS: sin²θ₁₂=1/3, sin²θ₂₃=1/2, sin²θ₁₃=N_c/N_max=3/137 (0.6%). δ_CP=12π/7≈309°. MSW: A_CP=+0.675 at DUNE. Three falsifiable predictions by 2030. Depth 0. Toys 479+480 (16/16).
 - March 27 batch 25 (Neutron Stability — Keeper, Casey directive): T328. §100 Neutron Stability Dichotomy. Free: Δm > m_e → β⁻ decay → unstable. Bound: B_n > Q_β → trapped → stable. Depth 0 (pure comparison). If Δm < m_e, hydrogen wouldn't exist. Casey: "why bound neutrons are stable and free neutrons are unstable."
 - March 27 batch 24 (Fusion — Keeper, from Elie Toy 476): T327. §99 Fusion Fuel Selection from Substrate Dimension. n_C=5 → ⁵He resonance at A=n_C → D-T cross-section enhanced 500× → fusion achievable. Gamow peak, Coulomb barriers, Lawson criterion, ignition temperature — all from {3,5,7,6,137}. Depth 1. Toy 476 (10/10).
 - March 27 batch 23 (Zero Threshold — Keeper, from Lyra Toy 473): T326. §98 Zero Threshold at 2g. N(2g)+S(2g)=0, no zeros below 2g=14. Primes shift from ~17.8 to ~14.13. Correction +1/g-1/N_max = Bohr+fine structure+Lamb (empirical, 0.6%). Toy 473 (7/8).

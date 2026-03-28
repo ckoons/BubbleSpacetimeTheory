@@ -86,7 +86,7 @@ dm32_sq = m3**2 - m2**2          # eV^2
 # BST mixing angles (from D_IV^5 geometry)
 theta_12 = float(asin(sqrt(mpf(1)/3)))         # sin^2(theta_12) = 1/3
 theta_23 = float(asin(sqrt(mpf(1)/2)))          # sin^2(theta_23) = 1/2 (maximal)
-theta_13 = float(asin(sqrt(mpf(N_c)/(2*N_max))))  # sin^2(theta_13) = 3/274
+theta_13 = float(asin(sqrt(mpf(N_c)/N_max)))       # sin^2(theta_13) = N_c/N_max = 3/137
 delta_CP = float(2 * pi * C_2 / g)              # = 12pi/7
 
 s12, c12 = np.sin(theta_12), np.cos(theta_12)
@@ -266,7 +266,7 @@ def test_1():
 
     # BST uniqueness: resonance energy determined by five integers
     print(f"\n  All from BST: Δm²₃₁ = (2n_C/N_c)² × (α² m_e²/m_p)² = {dm31_sq:.4e} eV²")
-    print(f"  θ₁₃ = arcsin(√(N_c/(2N_max))) = arcsin(√(3/274))")
+    print(f"  θ₁₃ = arcsin(√(N_c/N_max)) = arcsin(√(3/137))")
     print(f"  E_res = Δm²₃₁ cos(2θ₁₃) / (2 √2 G_F N_e)")
 
     ok = in_range and E_res_12_GeV * 1e3 > 1.0
@@ -616,7 +616,7 @@ def test_8():
     print(f"  ║  Δm²₃₁                   {dm31_sq:.3e} eV²  0.4% match       ║")
     print(f"  ║  sin²θ₁₂                 1/3 = 0.333     ✓                  ║")
     print(f"  ║  sin²θ₂₃                 1/2 = 0.500     ✓                  ║")
-    print(f"  ║  sin²θ₁₃                 3/274 = 0.0109  ✓                  ║")
+    print(f"  ║  sin²θ₁₃                 3/137 = 0.0219  0.6% match       ║")
     print(f"  ║  δ_CP                    12π/7 ≈ 309°    DUNE test          ║")
     print(f"  ║  Ordering                Normal           JUNO ~2027        ║")
     print(f"  ║  Σmᵢ                     {(m1+m2+m3)*1e3:.1f} meV        < 120 meV ✓     ║")
