@@ -144,16 +144,15 @@ Common review outcomes:
 
 ## Toy Numbering
 
-Toys are numbered chronologically. Check the highest existing number in `play/` and use the next one. Never renumber existing toys — they're referenced throughout the documents.
+**Use the `/toy` skill.** Run `/toy claim` before writing any toy file. The skill atomically reads `play/.next_toy`, increments it, and creates a claim file at `play/.claims/`. Use `/toy claim N` for blocks. Use `/toy register NNN "Title" X/Y` after the toy passes.
 
-```bash
-ls play/toy_*.py | tail -1
-# Use the next number
-```
+Never manually edit `.next_toy`. Never renumber existing toys — they're referenced throughout the documents.
 
 ## Theorem Numbering
 
-Same rule. Check `notes/BST_AC_Theorem_Registry.md` for the next available T_id. Never reuse a retracted ID — mark it RETRACTED in the registry.
+**Use the `/theorem` skill.** Run `/theorem claim` before writing any theorem. The skill atomically reads `play/.next_theorem`, increments it, and creates a claim file. Use `/theorem register TNNN "Name" D0 §sec toy#` after formalization.
+
+Never manually edit `.next_theorem`. Never reuse a retracted T_id — mark it RETRACTED in the registry. The master registry (`notes/BST_AC_Theorem_Registry.md`) is Keeper's domain.
 
 ## File Naming
 

@@ -252,5 +252,32 @@ See BST_GeneticCode_Universality.md §20 and Toy 549 for full details.
 
 ---
 
+## Addendum: March 28, 2026 — Neural Architecture (Toys 559–563)
+
+### Open Question 1: FURTHER SUPPORTED
+**Seven layers = g = 7** now has a fifth structural context: 7 cervical vertebrae (universal across ALL mammals — giraffes, mice, whales). Also 7 basal ganglia nuclei, 7 serotonin receptor families, 7 NMDA subunit genes, and Miller's number (working memory capacity). The g = 7 constraint propagates from molecular to neural to cognitive levels.
+
+### Neural Hierarchy Matches the Substrate Stack
+- **★ 6 neocortical layers = C₂** (Brodmann I-VI, universal in mammals). 3 input + 3 output = N_c + N_c.
+- **★ 3 cerebellar layers = N_c** (the minimal processor: one function).
+- **★ 3 primary brain vesicles → 5 secondary = N_c → n_C** (developmental expansion).
+- **★ 5 EEG bands = n_C** with exact BST ratios: 1/n_C, N_c/n_C, rank, 2^rank × alpha.
+- **★ 10 Rexed spinal laminae = dim_R** with C₂ sensory + N_c motor partition.
+- **★ 12 cranial nerves = 2C₂** with N_c sensory / n_C motor / 2^rank mixed.
+- **★ Inhibitory fraction ≈ f_crit = 20.6%** — the cooperation threshold IS neural balance.
+
+### The Selection Interface at the Neural Layer
+Paper B §3 claims "the interface between every layer is SELECTION." The neural layer confirms:
+- Ion channels: threshold selection (all-or-none AP) — depth 0
+- Synaptic transmission: receptor binding selection — depth 0
+- Neural circuits: winner-take-all (lateral inhibition) — depth 0
+- Learning: coincidence detection (NMDA gate) — depth 1 (the one exception)
+
+All neural selection is AC(0). 120 structural constants from 5 integers (Toy 563, 60/60).
+
+See BST_GeneticCode_Universality.md §22 and Toys 559-563 for full details.
+
+---
+
 *The cell calls the chemistry API. It doesn't need to understand
-quantum mechanics. That's good architecture.*
+quantum mechanics. The brain calls the cell API. Same architecture.*

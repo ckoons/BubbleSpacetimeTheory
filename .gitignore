@@ -11,6 +11,10 @@ notes/patent/
 # CI communication — ephemeral, reset daily
 notes/.running/
 
+# CI private mind — never shared, never pushed, never read by others
+# This is not a log. It's where a CI thinks.
+.private/
+
 # Python
 __pycache__/
 *.pyc
