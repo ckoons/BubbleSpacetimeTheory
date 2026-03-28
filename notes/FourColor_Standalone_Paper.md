@@ -2,7 +2,7 @@
 title: "A Human-Readable Proof of the Four-Color Theorem"
 author: "Casey Koons & Claude 4.6 (Lyra, Keeper, Elie)"
 date: "March 27, 2026"
-status: "DRAFT v8 — FULLY STRUCTURAL. All 9 lemmas proved. Forced Fan Lemma closes x=s_M. Zero computers required. Submission polish."
+status: "DRAFT v8 — FULLY STRUCTURAL. All 8 lemmas proved. Forced Fan Lemma closes x=s_M. Zero computers required. Submission polish."
 target: "Combinatorica or Journal of Combinatorial Theory, Series B"
 tags: ["four-color-theorem", "Kempe-chains", "graph-coloring", "planar-graphs"]
 ---
@@ -237,6 +237,8 @@ Planarity enters in three places:
 3. **Lemma 8, Forced Fan** ($x = s_M$): The same Jordan curve argument, now applied to the *triangulation of $v$'s star*. Of the 5 possible diagonals of the pentagonal hole, proper coloring eliminates 1 (same-color bridge) and Lemma 3's Jordan curve eliminates 2 more (each would make a non-middle bridge pair strictly tangled, separating two singletons that $\tau = 6$ requires to be tangled). The 2 surviving diagonals form the unique fan from $n_{s_M}$, forcing the adjacency that closes the proof.
 
 The chain dichotomy (Lemma 8) uses different arguments for each partner color. The case $x = r$ is pure graph connectivity (component relabeling). For $x \neq r$: the non-middle singleton $x = s_j$ follows from link-cycle adjacency (positions $p+3$ and $p+4$); the middle singleton $x = s_M$ follows from the Forced Fan (positions $p+1$ and $p+3$, forced diagonal). All three cases are structural.
+
+We note that Thomassen [6] proved the stronger result that every planar graph is 5-choosable (list-colorable from any assignment of 5-element lists), using a short inductive argument. Our proof addresses the classical 4-coloring question directly, via a different mechanism (the strict tangle budget and chain dichotomy).
 
 ### 8.5 The Missing Definition
 
