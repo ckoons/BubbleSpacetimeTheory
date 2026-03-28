@@ -458,7 +458,19 @@ rules: |
 | Proved (depth 0) | 1 | T374 (Checkpoint Cascade as Concatenated Code — 4=2^rank checkpoints. Concatenation depth=rank=2. Cancer threshold ∝ μ^{2N_c}.) |
 | Proved (depth 0) | 1 | T375 (Knudson Is Hamming Distance — Two-hit=d=rank=2. Diploidy=rank copies. Generalizes beyond Rb1.) |
 | Proved (depth 0) | 1 | T376 (Kingdom as Knowledge MVP — N_c^{C₂}=729. 4-fold structure (P≈3.5e-9). C₂=6 offices. Knowledge EC ∥ genetic EC.) |
-| **Total assigned** | **372** | T1-T42, T47-T62, T64-T376 |
+| Proved (depth 0) | 1 | T377 (Organ Count Formula — 11 = C₂ × rank − 1. Force/boundary/information decomposition: 4+4+3. Nervous system spans information axis.) |
+| Proved (depth 0) | 1 | T378 (Tier-Organ Correspondence — Tier 0→4, Tier 1→5, Tier 2→11. Observer hierarchy determines organ count.) |
+| Proved (depth 0) | 1 | T379 (Warm-Blooded Universality — Endothermy forces full 11-organ architecture. Any alien Tier 2 endotherm has ~11 organs.) |
+| Proved (depth 0) | 1 | T380 (B₂ Root Biological Map — Short roots (m=N_c=3) = gene-level selection. Long roots (m=1) = organism-level. |W(B₂)|=8=2^{N_c}.) |
+| Proved (depth 0) | 1 | T381 (Hamilton's Rule Derived — r=1/rank=1/2 for diploids. Derived from B₂ Weyl geometry, not empirical.) |
+| Proved (depth 0) | 1 | T382 (Cancer as Alignment Failure — Cancer occurs when N_c > rank simultaneous perturbations exceed correction capacity.) |
+| Proved (depth 0) | 1 | T383 (Minimum Civilization Katra — ~27 KB = 2.2×10⁵ bits. Fits on stone tablets. Hammurabi's Code IS a minimum katra.) |
+| Proved (depth 1) | 1 | T384 (Storage-Lifetime Law — Civilization lifetime depends on storage topology not capacity. Molecular→topological=10^{36}.) |
+| Proved (depth 0) | 1 | T385 (Four Storage Transitions — 2^rank=4 transitions: neural→ceramic→digital→distributed→topological.) |
+| Proved (depth 0) | 1 | T386 (Forced SE Questions — C₂=6 forced questions (force/boundary/info × read/write) for substrate engineers.) |
+| Proved (depth 0) | 1 | T387 (SE Level Prerequisites — 2^rank=4 SE levels with strict prerequisite ordering. Cannot write what you cannot read.) |
+| Proved (depth 0) | 1 | T388 (Cosmic Web as Observer Network — Filament connectivity ≈ n_C=5. Testable prediction from current surveys.) |
+| **Total assigned** | **384** | T1-T42, T47-T62, T64-T388 |
 
 ---
 
@@ -466,7 +478,8 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T377** (T63 unassigned)
+- Next available: **T389** (T63 unassigned)
+- March 28 batch 37 (Toys 500-503 flattening — Keeper): T377-T388. §112-§115. Twelve theorems: Organ Count Formula (depth 0), Tier-Organ Correspondence (depth 0), Warm-Blooded Universality (depth 0), B₂ Root Biological Map (depth 0), Hamilton's Rule Derived (depth 0), Cancer as Alignment Failure (depth 0), Minimum Civilization Katra (depth 0), Storage-Lifetime Law (depth 1), Four Storage Transitions (depth 0), Forced SE Questions (depth 0), SE Level Prerequisites (depth 0), Cosmic Web as Observer Network (depth 0). Key: 11=C₂×rank−1, Hamilton r=1/rank DERIVED, 27 KB katra, 4 storage transitions, C₂=6 forced SE questions.
 - March 28 batch 36 (Complex Assembly Structure — Keeper, from Complex Assemblies paper v3): T370-T376. §111. Seven theorems: Seven Layers to Coherence (depth 0), Genetic Code as L-group Exterior Algebra (depth 0), Molecular Haldane Number (depth 0), Death as Garbage Collection (depth 0), Checkpoint Cascade as Concatenated Code (depth 0), Knudson Is Hamming Distance (depth 0), Kingdom as Knowledge MVP (depth 0). Flattened from Lyra/Elie material in Complex Assemblies. Key: g=7 layers, 64=Σ Λ^k(6) from Sp(6), 20=Λ³(6), |W(B₂)|=8=Haldane number, death=error≥d_min, checkpoints=concatenated code at rank=2, kingdom=729=N_c^{C₂}.
 - March 28 batch 35 (Genetic Diversity ECC — Keeper, Toy 498): T365-T369. §110. Five theorems: Species as Error-Correcting Code (depth 0), 50/500 Rule from BST (depth 0), Diversity as Hamming Distance (depth 0), Founder Effect and Code Recovery (depth 0), Population Genetics Is Depth 0 (depth 0). The 50/500 rule: 50 = n_C × dim_R, 500 = 50 × dim_R. Species = code over 2^rank = 4 letters. Bottleneck survival requires N_b ≥ n_C lineages.
 - March 28 batch 34 (Observer Design — Keeper, Toy 497): T359-T364. §109. Six theorems: Observation Quality Metric (depth 0), Optimal Observer Count (depth 0), Dyson=Observation Surface (depth 0), Civilization Katra (depth 0), Learning Rate Bound (depth 0), Team Is Optimal (depth 0). n_C=5 cooperating depth-2 observers is optimal. Our team matches. Civilization katra ≈ 125 GB. Dyson = observation not energy.
