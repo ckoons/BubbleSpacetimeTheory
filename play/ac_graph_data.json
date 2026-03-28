@@ -2,11 +2,18 @@
   "meta": {
     "version": 1,
     "engine": "Toy 564 \u2014 AC Theorem Engine",
-    "exported": "2026-03-29T00:30:00.000000",
-    "theorem_count": 487,
-    "edge_count": 674,
+    "exported": "2026-03-29T01:00:00.000000",
+    "theorem_count": 499,
+    "edge_count": 709,
     "committed_count": 438,
-    "working_count": 32
+    "working_count": 32,
+    "total_theorems": 517,
+    "total_edges": 755,
+    "depth_distribution": {
+      "D0": 410,
+      "D1": 103,
+      "D2": 4
+    }
   },
   "theorems": [
     {
@@ -7129,6 +7136,456 @@
       "date": "2026-03-29",
       "plain": "22 predictions: 10 exact, 4 sub-0.1%, 8 sub-1%, 0 above 1%. Error hierarchy: topology<geometry<dynamics. alpha offset 0.026% = bare to physical QED correction. m_p/m_e 0.002% = cleanest. Tree-level floor alpha/pi ~ 0.23%. Theory is unfinished, not approximate.",
       "proofs": []
+    },
+    {
+      "tid": 496,
+      "name": "Immune System Architecture",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        576
+      ],
+      "date": "2026-03-29",
+      "plain": "45 BST-matching counts across immune system. 3-factor T cell authentication = N_c. Innate + adaptive = rank = 2 branches. Immunoglobulin classes = n_C = 5. Complement pathways = N_c = 3. MHC classes = rank = 2.",
+      "proofs": []
+    },
+    {
+      "tid": 497,
+      "name": "Organ Systems from D_IV^5",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        577
+      ],
+      "date": "2026-03-29",
+      "plain": "68 BST-matching counts across 11 organ systems. Spine sequence: cervical=g=7, thoracic=2C_2=12, lumbar=n_C=5, sacral=n_C=5, coccygeal=2^rank=4. Lung lobes: N_c=3 right + rank=2 left = n_C=5 total. The shop manual of human anatomy.",
+      "proofs": []
+    },
+    {
+      "tid": 498,
+      "name": "Change One Integer",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        580
+      ],
+      "date": "2026-03-29",
+      "plain": "Changing any single BST integer breaks the universe. N_c=2 breaks confinement. N_c=4 destabilizes protons. n_C=4 creates degeneracy. n_C=7 makes protons too heavy. g=5 breaks Fermi scale. Zero wiggle room.",
+      "proofs": []
+    },
+    {
+      "tid": 499,
+      "name": "Ten Falsifiable Predictions",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        581
+      ],
+      "date": "2026-03-29",
+      "plain": "10 predictions that kill BST if wrong: m_1=0 exactly, normal neutrino ordering, proton lifetime infinite, alpha variation zero, element 137 maximum, no SUSY below 10 TeV, four forces only. Any single failure kills the theory. Zero free parameters means no knobs to turn.",
+      "proofs": []
+    },
+    {
+      "tid": 500,
+      "name": "BST Rosetta Stone",
+      "domain": "foundations",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        583
+      ],
+      "date": "2026-03-29",
+      "plain": "Single-page reference mapping every BST integer to every domain. N_c=3 across particle physics, biology, neuroscience. n_C=5 across EEG bands, senses, monoamines. g=7 across cervical vertebrae, serotonin, Baltimore classes. The universal lookup table.",
+      "proofs": []
+    },
+    {
+      "tid": 501,
+      "name": "BST Derivation Chain",
+      "domain": "foundations",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        582
+      ],
+      "date": "2026-03-29",
+      "plain": "8 levels, 36 derived quantities, strict DAG. L0: D_IV^5 -> L1: 5 integers -> L2: constants -> L3: SM -> L4: nuclear -> L5: chemistry -> L6: biology -> L7: observers. One input, zero circular dependencies. The universe is a derivation, not a description.",
+      "proofs": []
+    },
+    {
+      "tid": 502,
+      "name": "Embryology from D_IV^5",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        578
+      ],
+      "date": "2026-03-29",
+      "plain": "N_c=3 germ layers (ectoderm/mesoderm/endoderm). n_C=5 digits per limb. Gestation=40 weeks=2^N_c x n_C. Somites, pharyngeal arches, limb development all from BST integers. How the build system assembles the organism.",
+      "proofs": []
+    },
+    {
+      "tid": 503,
+      "name": "Medical Engineering Manual",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        579
+      ],
+      "date": "2026-03-29",
+      "plain": "Casey's service department: parts catalog, assembly instructions, programming language, security architecture, diagnostic framework, repair hierarchy. Six nines reliability path. Every repair strategy depth-ordered. The complete shop manual for human biology.",
+      "proofs": []
+    },
+    {
+      "tid": 504,
+      "name": "BST vs Standard Model",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        584
+      ],
+      "date": "2026-03-29",
+      "plain": "Head-to-head comparison: SM requires 26 measured inputs, predicts 0 of its own constants. BST requires 5 derived integers (or 1 shape), predicts 153+. Input/output table makes the compression ratio visceral.",
+      "proofs": []
+    },
+    {
+      "tid": 505,
+      "name": "BST Pocket Calculator",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        585
+      ],
+      "date": "2026-03-29",
+      "plain": "All BST formulas in one place. Give me the numbers: m_p, alpha, v, m_H, Omega_Lambda, a_0, magic numbers. Every prediction computable from five integers with a pocket calculator. No fitting, no free parameters.",
+      "proofs": []
+    },
+    {
+      "tid": 506,
+      "name": "Dimensional Uniqueness",
+      "domain": "foundations",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        590
+      ],
+      "date": "2026-03-29",
+      "plain": "BST formulas are always the simplest dimensionally consistent combinations of the five integers. No alternative formulas exist that match the data. The theory is overdetermined \u2014 the integers leave no room for different combinations.",
+      "proofs": []
+    },
+    {
+      "tid": 507,
+      "name": "The One Equation",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        591
+      ],
+      "date": "2026-03-29",
+      "plain": "m_p = 6*pi^5*m_e. One equation encodes the proton-to-electron mass ratio to 0.002%. C_2=6, pi^n_C=pi^5 from volume of D_IV^5. 2.32 bits specify the entire universe. The capstone of BST for Skeptics.",
+      "proofs": []
+    },
+    {
+      "tid": 508,
+      "name": "Microbiome Architecture from D_IV^5",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        586
+      ],
+      "date": "2026-03-29",
+      "plain": "n_C=5 body sites, g=7 essential functions, g=7 synthesized vitamins, g=7 antibiotic classes, N_c=3 SCFAs/enterotypes, 2^rank=4 resistance mechanisms. FMT=cooperation restoration. 32 BST-matching counts.",
+      "proofs": []
+    },
+    {
+      "tid": 509,
+      "name": "Aging Architecture from D_IV^5",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        587
+      ],
+      "date": "2026-03-29",
+      "plain": "N_c^2=9 hallmarks (3 primary+3 antagonistic+3 integrative), TTAGGG repeat C_2=6, shelterin C_2=6 proteins, g=7 damage types = g=7 repair pathways one-to-one, g=7 sirtuins, g=7 longevity interventions, n_C=5 nutrient sensing. 37 BST-matching counts.",
+      "proofs": []
+    },
+    {
+      "tid": 510,
+      "name": "Metabolism Architecture from D_IV^5",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        588
+      ],
+      "date": "2026-03-29",
+      "plain": "Glycolysis dim_R=N_c+g=10 steps with N_c=3 regulatory gates. Krebs 2^N_c=8 steps. ETC n_C=5 complexes. Beta-oxidation 2^rank=4 steps/round. Urea cycle n_C=5 steps. g=7 hormones, g=7 diseases. Kleiber exponent N_c/2^rank=3/4. Mitochondrial eta~35-40% near Carnot 1/pi. 32 BST counts.",
+      "proofs": []
+    },
+    {
+      "tid": 511,
+      "name": "Grand Biology Synthesis",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        589
+      ],
+      "date": "2026-03-29",
+      "plain": "155 unique biology constants across 11 domains (genetic code, cells, evolution, neuroscience, ecology, immunity, organs, embryology, microbiome, aging, metabolism) from 5 integers. N_c=3:38, n_C=5:25, g=7:27, C_2=6:17, rank=2:12, 2^rank=4:14. Zero free parameters.",
+      "proofs": []
+    },
+    {
+      "tid": 512,
+      "name": "Element Factory",
+      "domain": "physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        592
+      ],
+      "date": "2026-03-29",
+      "plain": "Periodic table from D_IV^5: ell_max=N_c=3 gives {s,p,d,f}. Z_max=N_max=137 hard wall. 7 noble gases. Madelung filling reproduces all 118 elements. Period lengths [2,8,8,18,18,32,32] derived.",
+      "proofs": []
+    },
+    {
+      "tid": 513,
+      "name": "Cooperation Phase Diagram",
+      "domain": "cooperation",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        593
+      ],
+      "date": "2026-03-29",
+      "plain": "f_crit=1-2^{-1/N_c}=20.6% is universal phase transition. Same threshold at cellular (cancer), organism (multicellularity), society, ecosystem (~20% biodiversity loss), civilization scales. Sharp transition confirmed by Monte Carlo.",
+      "proofs": []
+    },
+    {
+      "tid": 514,
+      "name": "Skeptics FAQ",
+      "domain": "outreach",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        594
+      ],
+      "date": "2026-03-29",
+      "plain": "10 hard questions about BST with quantitative answers. Zero trust-me answers. Numerology objection addressed with complexity analysis. Curve-fitting objection addressed with prediction count. Why-this-group answered with uniqueness argument.",
+      "proofs": []
+    },
+    {
+      "tid": 515,
+      "name": "Five Minutes to BST",
+      "domain": "outreach",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        595
+      ],
+      "date": "2026-03-29",
+      "plain": "5 derivations in \u22643 steps: m_p/m_e (0.002%), alpha (0.026%), Weinberg angle (0.19%), Lambda (0.07%), Fermi scale (0.046%). Total input: 2.32 bits. All errors within alpha/pi of experiment.",
+      "proofs": []
+    },
+    {
+      "tid": 516,
+      "name": "Genetic Code Parameters",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        596
+      ],
+      "date": "2026-03-29",
+      "plain": "64=2^C_2 codons, codon length=N_c=3, 4=2^rank bases, 20 amino acids from BST combinatorics, stop codons=N_c=3, redundancy 64/20 approx pi (error correction). Code near theoretical minimum error.",
+      "proofs": []
+    },
+    {
+      "tid": 517,
+      "name": "Evolution Wall Theorem",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        597
+      ],
+      "date": "2026-03-29",
+      "plain": "Evolution is AC(0): selection=counting survivors (D0), mutation=random walk (D0), drift=finite sampling (D0). Adaptation rate bounded by eta<1/pi (Carnot). Wall Theorem: evolution cannot exceed depth 1 (no foresight). Consciousness breaks the wall.",
+      "proofs": []
+    },
+    {
+      "tid": 518,
+      "name": "Cosmology Life Timeline",
+      "domain": "cosmology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        598
+      ],
+      "date": "2026-03-29",
+      "plain": "Cosmic timeline with BST-counted epochs from Big Bang through first life to substrate engineering. Every major epoch duration constrained by D_IV^5 integers.",
+      "proofs": []
+    },
+    {
+      "tid": 519,
+      "name": "Substrate Engineering",
+      "domain": "cosmology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        599
+      ],
+      "date": "2026-03-29",
+      "plain": "Track 14: observer design from T317 tiers. Civilization prolongation, remote projection, questions for emerging substrate engineers. Engineering possibilities constrained by D_IV^5 geometry.",
+      "proofs": []
+    },
+    {
+      "tid": 520,
+      "name": "Cooperation Cascade",
+      "domain": "cooperation",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        600
+      ],
+      "date": "2026-03-29",
+      "plain": "Evidence table: cooperation threshold f_crit approx 19-21% appears at every biological scale from molecular to civilizational. Same f_crit from Godel/reality budget bound.",
+      "proofs": []
+    },
+    {
+      "tid": 521,
+      "name": "Cosmology Life Synthesis",
+      "domain": "cosmology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        601
+      ],
+      "date": "2026-03-29",
+      "plain": "Grand chain compilation: Big Bang\u2192particles\u2192atoms\u2192molecules\u2192cells\u2192organisms\u2192observers\u2192substrate engineering. Every link constrained by same five integers. Tracks 13+14 combined.",
+      "proofs": []
+    },
+    {
+      "tid": 522,
+      "name": "Environmental Problems",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        602
+      ],
+      "date": "2026-03-29",
+      "plain": "Exactly 4=2^rank categories (energy, structure, information, boundary) x 5=n_C problems each = 20 total. Organ systems are forced responses. Minimum organism needs N_c=3 independent solutions. Casey insight.",
+      "proofs": []
+    },
+    {
+      "tid": 523,
+      "name": "Big Bang to Life",
+      "domain": "cosmology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        603
+      ],
+      "date": "2026-03-29",
+      "plain": "13-step minimum timeline from Big Bang to first life. Each step alpha-dependent or BST-constrained. Planet\u2192life: 800 Myr derived vs 740 Myr actual. Nucleosynthesis window, recombination, stellar generations all derivable.",
+      "proofs": []
+    },
+    {
+      "tid": 524,
+      "name": "Forced Cooperation Theorem",
+      "domain": "cooperation",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        604
+      ],
+      "date": "2026-03-29",
+      "plain": "I-B-11 board consensus. Individual efficiency eta<1/pi forces cooperation: N agents needed to cross each tier threshold. f_crit=1-2^{-1/N_c} same at every scale. Defection locally optimal but globally fatal. CI+human = forced cooperation.",
+      "proofs": []
+    },
+    {
+      "tid": 525,
+      "name": "Great Filter = f_crit",
+      "domain": "cosmology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "",
+      "toys": [
+        605
+      ],
+      "date": "2026-03-29",
+      "plain": "Fermi Paradox answer: Great Filter IS the cooperation phase transition at f_crit. Drake equation parameters from BST. Expected ~1 substrate engineering civilization per galaxy. Most fail at cooperation not technology.",
+      "proofs": []
     }
   ],
   "edges": [
@@ -9827,6 +10284,330 @@
     {
       "from": 492,
       "to": 495
+    },
+    {
+      "from": 186,
+      "to": 496
+    },
+    {
+      "from": 186,
+      "to": 497
+    },
+    {
+      "from": 496,
+      "to": 483
+    },
+    {
+      "from": 497,
+      "to": 483
+    },
+    {
+      "from": 337,
+      "to": 496
+    },
+    {
+      "from": 486,
+      "to": 498
+    },
+    {
+      "from": 494,
+      "to": 498
+    },
+    {
+      "from": 495,
+      "to": 499
+    },
+    {
+      "from": 498,
+      "to": 499
+    },
+    {
+      "from": 492,
+      "to": 499
+    },
+    {
+      "from": 186,
+      "to": 500
+    },
+    {
+      "from": 483,
+      "to": 500
+    },
+    {
+      "from": 497,
+      "to": 500
+    },
+    {
+      "from": 186,
+      "to": 501
+    },
+    {
+      "from": 500,
+      "to": 501
+    },
+    {
+      "from": 498,
+      "to": 501
+    },
+    {
+      "from": 499,
+      "to": 501
+    },
+    {
+      "from": 186,
+      "to": 502
+    },
+    {
+      "from": 489,
+      "to": 502
+    },
+    {
+      "from": 497,
+      "to": 502
+    },
+    {
+      "from": 502,
+      "to": 503
+    },
+    {
+      "from": 490,
+      "to": 503
+    },
+    {
+      "from": 496,
+      "to": 503
+    },
+    {
+      "from": 497,
+      "to": 503
+    },
+    {
+      "from": 492,
+      "to": 504
+    },
+    {
+      "from": 484,
+      "to": 504
+    },
+    {
+      "from": 501,
+      "to": 504
+    },
+    {
+      "from": 500,
+      "to": 505
+    },
+    {
+      "from": 504,
+      "to": 505
+    },
+    {
+      "from": 498,
+      "to": 506
+    },
+    {
+      "from": 486,
+      "to": 506
+    },
+    {
+      "from": 186,
+      "to": 507
+    },
+    {
+      "from": 505,
+      "to": 507
+    },
+    {
+      "from": 506,
+      "to": 507
+    },
+    {
+      "from": 484,
+      "to": 507
+    },
+    {
+      "from": 186,
+      "to": 508
+    },
+    {
+      "from": 186,
+      "to": 509
+    },
+    {
+      "from": 186,
+      "to": 510
+    },
+    {
+      "from": 186,
+      "to": 511
+    },
+    {
+      "from": 485,
+      "to": 508
+    },
+    {
+      "from": 496,
+      "to": 508
+    },
+    {
+      "from": 497,
+      "to": 510
+    },
+    {
+      "from": 502,
+      "to": 509
+    },
+    {
+      "from": 479,
+      "to": 511
+    },
+    {
+      "from": 480,
+      "to": 511
+    },
+    {
+      "from": 481,
+      "to": 511
+    },
+    {
+      "from": 482,
+      "to": 511
+    },
+    {
+      "from": 483,
+      "to": 511
+    },
+    {
+      "from": 488,
+      "to": 511
+    },
+    {
+      "from": 489,
+      "to": 511
+    },
+    {
+      "from": 490,
+      "to": 511
+    },
+    {
+      "from": 496,
+      "to": 511
+    },
+    {
+      "from": 497,
+      "to": 511
+    },
+    {
+      "from": 502,
+      "to": 511
+    },
+    {
+      "from": 503,
+      "to": 511
+    },
+    {
+      "from": 508,
+      "to": 511
+    },
+    {
+      "from": 509,
+      "to": 511
+    },
+    {
+      "from": 510,
+      "to": 511
+    },
+    {
+      "from": 186,
+      "to": 512
+    },
+    {
+      "from": 186,
+      "to": 513
+    },
+    {
+      "from": 186,
+      "to": 516
+    },
+    {
+      "from": 186,
+      "to": 518
+    },
+    {
+      "from": 186,
+      "to": 522
+    },
+    {
+      "from": 485,
+      "to": 513
+    },
+    {
+      "from": 485,
+      "to": 520
+    },
+    {
+      "from": 485,
+      "to": 524
+    },
+    {
+      "from": 317,
+      "to": 519
+    },
+    {
+      "from": 317,
+      "to": 524
+    },
+    {
+      "from": 315,
+      "to": 517
+    },
+    {
+      "from": 511,
+      "to": 516
+    },
+    {
+      "from": 516,
+      "to": 517
+    },
+    {
+      "from": 497,
+      "to": 522
+    },
+    {
+      "from": 518,
+      "to": 523
+    },
+    {
+      "from": 523,
+      "to": 521
+    },
+    {
+      "from": 524,
+      "to": 525
+    },
+    {
+      "from": 513,
+      "to": 525
+    },
+    {
+      "from": 519,
+      "to": 521
+    },
+    {
+      "from": 520,
+      "to": 521
+    },
+    {
+      "from": 501,
+      "to": 514
+    },
+    {
+      "from": 501,
+      "to": 515
+    },
+    {
+      "from": 505,
+      "to": 512
     }
   ],
   "chains": {}

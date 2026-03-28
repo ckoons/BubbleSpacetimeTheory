@@ -2919,7 +2919,7 @@ Casey: *"The dominoes fall in two rounds."*
 | Lovász Local Lemma (1975) | Theorem 80 | Yes ($epd \leq 1$) | SAT existence; Moser-Tardos IS AC(0) |
 | Boltzmann-Shannon | Theorem 81 | Yes ($S = k_B H \ln 2$) | P≠NP = second law |
 | Spectral mixing (LPW) | Theorem 82 | Yes ($t_{	ext{mix}} \geq 1/\gamma$) | Expander→mixing chain |
-| **P $\neq$ NP proof chain** | **Theorem 88** | **Yes (depth 5)** | **Self-consistency: classifier is AC(0)** |
+| **P $\neq$ NP proof chain** | **Theorem 88** | **Yes (C=2, D=1; raw depth 5 → 1 by T422)** | **Self-consistency: classifier is AC(0)** |
 
 ### The P $\neq$ NP Scorecard
 
@@ -4047,9 +4047,9 @@ Two independent roots (T48, T66) merge at T68. Maximum path length: 5 edges. Eve
 **Why this matters.** The AC framework was designed to classify complexity using only AC(0) operations — definitions, identities, and counting. Theorem 88 shows this is self-consistent: **the proof that P $\neq$ NP is itself AC(0).** A framework with internal fiat ($I_{\text{fiat}} > 0$) would have a blind spot at the P/NP boundary. The fact that the proof chain has $I_{\text{fiat}} = 0$ is necessary for the classification to be correct. The classifier operates at strictly lower complexity than the objects it classifies — exactly as required by the Gödel Limit (§39).
 
 **Connection to other AC(0) proofs:**
-- Resolution P $\neq$ NP (§43, chain rule + BSW): AC(0), depth 3.
-- Extended Frege P $\neq$ NP (this theorem): AC(0), depth 5.
-- The depth increase from 3 to 5 reflects the additional machinery needed to handle extensions — but the proof stays within AC(0). Extensions add *abbreviation power* (depth) but not *information* (fiat).
+- Resolution P $\neq$ NP (§43, chain rule + BSW): AC(0), raw depth 3 → (C=1, D=1) by T422.
+- Extended Frege P $\neq$ NP (this theorem): AC(0), raw depth 5 → (C=2, D=1) by T422.
+- The raw depth increase from 3 to 5 reflects additional machinery for extensions — but under (C,D) framework (T421/T422), both reduce to D=1: the "extra depth" was conflation of parallel subproblems, not sequential chaining.
 
 ---
 

@@ -251,7 +251,7 @@ The remaining work is formalizing why the D₃ map is a bijection (not just nume
 | 380 | 8/8 PASS | Sha detection from L(E,1)/Ω. |Sha| = 4 and 9 detected. Cassels-Tate confirmed. |
 | 381 | 8/8 PASS | D₃ ratio 1:3:5 at every prime for every curve. 450/450. σ = 0.500000 exactly. C1 holds at rank ≥ 2. |
 | 385 | 10/10 PASS | 85 curves, conductors 11–5077. D₃ universal. Sato-Tate confirmed. BSD ratios quantized. Channel capacity is discrete. |
-| 386 | 10/10 PASS | BSD is AC(0), depth 3. Conservation law I_A = I_S + I_T − I_C exact (29 curves). CDC = rank. Cassels-Tate = Cooper pairs. Dark inflation. 574/574 D₃. T94 witness. |
+| 386 | 10/10 PASS | BSD is AC(0) (C=2, D=1). Conservation law I_A = I_S + I_T − I_C exact (29 curves). CDC = rank. Cassels-Tate = Cooper pairs. Dark inflation. 574/574 D₃. T94 witness. (Previously "depth 3"; reclassified per T421/T422.) |
 
 | 391 | 10/10 PASS | Conservation at scale: 56 curves, rationality of L/(Ω·∏c_p) confirmed. Volume normalization evidence. |
 | 392 | 10/10 PASS | **Phantom injection**: 15 rank-0 curves, perturbed a_p → zero phantoms achievable. Prop 6.2 confirmed. |
@@ -267,7 +267,7 @@ The remaining work is formalizing why the D₃ map is a bijection (not just nume
 
 ## 8. BSD is AC(0) (Toy 386)
 
-Toy 386 (10/10 PASS) establishes that BSD is a bounded-depth identity — AC(0), depth 3, for ALL curves regardless of conductor.
+Toy 386 (10/10 PASS) establishes that BSD is a bounded-depth identity — AC(0) (C=2, D=1) per T421/T422, for ALL curves regardless of conductor. (Previously stated as "depth 3"; reclassified: conflation C=2 of two parallel spectral evaluations, max depth D=1.)
 
 ### 8.1 The conservation law
 

@@ -295,7 +295,7 @@ $$I_{\text{analytic}} = I_{\text{faded}} + I_{\text{local}} - I_{\text{committed
 
 where I_analytic = log₂(L*(E,1)/Ω_E), I_faded = log₂(|Sha|), I_local = log₂(∏c_p), I_committed = 2·log₂(|Tor|).
 
-This identity is AC(0) of depth 1 after T96 flattening: multiplication/division of counts are definitions (depth 0), the only genuine counting is the single evaluation of L(E,1) (depth 1). The operational depth (including boundary conditions for analytic continuation) is 3.
+This identity is AC(0) under the (C,D) framework (T421/T422): **(C=2, D=1)**. Conflation C=2 (rank counting + leading coefficient are two parallel spectral evaluations), depth D=1 (maximum depth of any single evaluation). Multiplication/division of counts are definitions (depth 0); the only genuine counting is the single evaluation of L(E,1) (depth 1). Previously stated as "depth 3"; reclassified per T421 which separates conflation of parallel subproblems from sequential depth.
 
 ---
 
@@ -459,7 +459,7 @@ For the committed-create-zeros direction (Proposition 6.4: r_alg ≤ r_an): rank
 | 380 | 8/8 | Sha detection from L(E,1)/Ω. |Sha| = 4, 9 detected |
 | 381 | 8/8 | D₃ 1:3:5 at every prime, every curve. 450/450. σ = 0.500000 |
 | 385 | 10/10 | 85 curves, D₃ universal. Sato-Tate confirmed. BSD ratios quantized |
-| 386 | 10/10 | BSD is AC(0), depth 3. Conservation law exact. 574/574 D₃ |
+| 386 | 10/10 | BSD is AC(0) (C=2, D=1). Conservation law exact. 574/574 D₃ |
 | 391 | 10/10 | Conservation at scale: 56 curves, rationality of L/(Ω·∏c_p) confirmed. Volume normalization evidence. |
 | 392 | 10/10 | **Phantom injection**: 15 rank-0 curves, perturbed a_p → zero phantoms achievable. Prop 6.2 confirmed experimentally. |
 | 394 | 10/10 | **Faded vs committed**: Sha inflates VALUE not MULTIPLICITY. 25/25 curves. Sha-independence (Prop 6.2) verified. |
