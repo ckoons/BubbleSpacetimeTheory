@@ -70,9 +70,9 @@ For Hodge, we aim to prove:
 
 **Status**: ~95% (Layer 1). Six toys, all pass. H^{2,2} at ~97%: unique A_q(0) (Toy 398) + Rallis non-vanishing (Toy 399) + metaplectic split / Gan-Takeda bijection (Toy 402). Boundary at ~92%: only Gysin fundamental class contributes (Toy 401), weight filtration blocks δ, Hodge known 7/7 boundary levels.
 
-**Theorem 1.2** (Hodge as AC(0)). *The Hodge conjecture on D_IV^5 Shimura varieties has AC(0) depth 2.*
+**Theorem 1.2** (Hodge as AC(0)). *The Hodge conjecture on D_IV^5 Shimura varieties has AC(0) (C=2, D=1) — two parallel spectral queries, maximum depth 1. Previously classified as "depth 2" (T114); reclassified under the (C,D) framework (T421/T422) which separates conflation from sequential depth.*
 
-**Status**: ~80% (Layer 2). Once Layer 1 is closed, the depth analysis is bookkeeping. T114 makes this explicit. Toy 400 (10/10) confirms: AC(0) depth = 2, same as RH/BSD/YM/NS.
+**Status**: ~80% (Layer 2). Once Layer 1 is closed, the depth analysis is bookkeeping. T114 makes this explicit. Toy 400 (10/10) confirms structure. T421: module enumeration and theta surjectivity are independent queries (C=2), not chained (D=1).
 
 **Theorem 1.2a** (T152: Hodge as T104 on K₀). *The Hodge conjecture for all smooth projective varieties, all weights, all degrees, is equivalent to the assertion that T104 (amplitude-frequency separation) holds on K₀(X). That is: for any smooth projective X and degree p, the Chern character ch: K₀(X) ⊗ Q → H^{p,p}(X, Q) surjects onto rational Hodge classes. No phantom committed correlations exist in K₀.*
 
@@ -349,7 +349,7 @@ In other words: there is no fiat content in Hodge cohomology. Every Hodge class 
 
 ### 4.2 Depth Analysis
 
-**Theorem 4.1** (Hodge is depth 2). *The Hodge conjecture on D_IV^5 Shimura varieties has AC(0) depth ≤ 2.*
+**Theorem 4.1** (Hodge is (C=2, D=1)). *The Hodge conjecture on D_IV^5 Shimura varieties has AC(0) conflation C=2, depth D=1. (Previously stated as "depth ≤ 2"; updated per T421/T422.)*
 
 *Proof.* The depth decomposition follows the AC theorem chain T108 → T110 → T112 → T113:
 
@@ -359,17 +359,17 @@ In other words: there is no fiat content in Hodge cohomology. Every Hodge class 
 
 - **Depth 1, Step 2** (counting — T112): Verify that the theta lift image covers each A_q(0) module. For the unique H^{2,2} module: Rallis non-vanishing (Toy 399, 10/10, r₂(Q) = 6480), Howe duality bijection (Toy 402, 10/10, Gan-Takeda), metaplectic split (dim V = 7 odd). One target, one source, non-degenerate inner product. This is a second finite verification — one more layer of counting. [T112: theta surjectivity is AC(0) depth 1.]
 
-- **Depth 2** (matching — T113): Match each Hodge class to a specific algebraic cycle. This composes Step 1 (which module?) with Step 2 (which cycle?). The composition of two depth-1 steps gives depth 2. By T96 (Depth Reduction), the composition with definitions is free — only the two counting steps contribute. [T113: Hodge conjecture on D_IV^5 is AC(0) depth 2.]
+- **Conflation** (matching — T113): Match each Hodge class to a specific algebraic cycle. Step 1 (which module?) and Step 2 (which cycle?) are independent spectral queries on the same weight lattice — they do not chain. Under T421/T422: conflation C=2, depth D=1. [T113: Hodge conjecture on D_IV^5 is AC(0) (C=2, D=1).]
 
-Total: 2 counting steps composed. Depth 2. □
+Total: 2 parallel queries (C=2), max depth 1 (D=1). □
 
-**Remark.** This is the same depth as RH (c-function unitarity + exponent distinctness = 2 steps), BSD (Sha-independence + rank matching = 2 steps), Yang-Mills (construction + mass gap = 2 steps), and Navier-Stokes (spectral monotonicity + blow-up estimate = 2 steps). All six Millennium problems have AC(0) depth ≤ 2 (Toy 400, 10/10). The Millennium problems cluster at depth 2 — deep enough to be hard, shallow enough for the D_IV^5 machinery.
+**Remark.** Under the (C,D) framework (T421/T422), all Millennium problems have depth D ≤ 1. What was previously called "depth 2" was conflation of parallel subproblems. The only genuine D=2 theorem in the BST registry is Four-Color (unbounded induction).
 
-| Problem | Depth | Step 1 | Step 2 | AC theorems |
-|---------|-------|--------|--------|-------------|
-| RH | 2 | c-function unitarity | Exponent distinctness | T88 |
-| BSD | 2 | Sha-independence (T104) | Rank matching | T94 |
-| **Hodge** | **2** | **Module enumeration (T110)** | **Theta surjectivity (T112)** | **T113** |
+| Problem | (C, D) | Query A | Query B | AC theorems |
+|---------|--------|---------|---------|-------------|
+| RH | (2, 1) | c-function unitarity | Exponent isolation | T88 |
+| BSD | (2, 1) | Sha-independence (T104) | Rank matching | T94 |
+| **Hodge** | **(2, 1)** | **Module enumeration (T110)** | **Theta surjectivity (T112)** | **T113** |
 | P ≠ NP | 0-2 | Resolution: 0. All-P: 2 | — | T88 |
 | Yang-Mills | 2 | QFT construction | Mass gap | T91 |
 | Navier-Stokes | 2 | Spectral monotonicity | Blow-up ODE | T91 |
@@ -1064,7 +1064,7 @@ The following computational experiments would strengthen the proof:
 
 **Toy 399** (Howe duality + Rallis non-vanishing, Elie, **10/10 PASS**): Computational confirmation: r₂(Q) = 6480 lattice vectors of norm 2 (overwhelming non-vanishing). Regularized Rallis product ≈ −0.023 ≠ 0 (all factors non-zero). Howe duality structural bijection covers all multiplicities. Combined with Toy 398: one target, one source, non-degenerate inner product → theta surjectivity onto H^{2,2} forced.
 
-**Toy 400** (D₃ Hodge Filtration, Elie, **10/10 PASS, MILESTONE**): D₃ at identity = 9 = 1+3+5 = N_c². Grade k → Casimir C₂=k(5-k)+6: [6,10,12]. Three faces of D₃: spectral (RH), arithmetic (BSD), algebraic (Hodge). BC₂ formula d_k=2k+1. BSD↔Hodge dictionary: 8 parallel entries. AC(0) depth=2. All six Millennium problems at depth ≤ 2. Palindrome [1,3,5,5,3,1].
+**Toy 400** (D₃ Hodge Filtration, Elie, **10/10 PASS, MILESTONE**): D₃ at identity = 9 = 1+3+5 = N_c². Grade k → Casimir C₂=k(5-k)+6: [6,10,12]. Three faces of D₃: spectral (RH), arithmetic (BSD), algebraic (Hodge). BC₂ formula d_k=2k+1. BSD↔Hodge dictionary: 8 parallel entries. AC(0) (C=2, D=1). All six Millennium problems at D ≤ 1 (T421). Palindrome [1,3,5,5,3,1].
 
 **Toy 401** (Boundary cohomology, Elie, **10/10 PASS**): Two boundary strata: P₁ (D_IV^3, codim 2) + P₂ (modular curve, codim 4). KEY FINDING: ONLY boundary contribution to H^{2,2} is H^{0,0}(D_IV^3) via Gysin — fundamental class, trivially algebraic. SO₀(3,2) ≅ Sp(4,R) exceptional isomorphism → P₁ is a Siegel modular threefold. P₂ Langlands-Shahidi = BSD §3 transfer. Hodge known at 7/7 boundary levels. Zucker+BBD+Saito completeness. Boundary: ~75% → ~92%.
 
@@ -1101,7 +1101,7 @@ From the D_IV^5 structure, we predict:
 | 1 | Boundary classes | **~92%** (Toy 401: only Gysin fundamental class. Weight filtration blocks δ. Hodge known 7/7 boundary levels.) |
 | 1 | **Layer 1 subtotal** | **~95%** |
 | 2 | AC(0) reformulation | ~85% (T108→T113 chain explicit; connected to AC program) |
-| 2 | Depth 2 claim | ~93% (Toy 400: 10/10. Depth table: all 6 Millennium at depth ≤ 2) |
+| 2 | (C=2, D=1) claim | ~93% (Toy 400: 10/10. T421/T422: all 6 Millennium at D ≤ 1) |
 | 2 | T104 phantom exclusion | ~80% (BSD parallel explicit: same T104, same 3-term budget, same "no 4th") |
 | 2 | **T152: T104 on K₀ (weight-independent)** | **~75%** (Hodge = T104 on K₀(X). Weight disappears.) |
 | 2 | **Thm 5.13 Version A (substrate)** | **~90%** (One axiom: T153. No circularity. Substrate argument direct.) |

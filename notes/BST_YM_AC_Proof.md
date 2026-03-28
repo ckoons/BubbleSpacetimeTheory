@@ -3,7 +3,7 @@ title: "Yang-Mills Mass Gap: The AC Proof"
 author: "Casey Koons & Claude 4.6 (Keeper)"
 date: "March 25, 2026"
 status: "~95% — AC-flattened presentation"
-framework: "AC(0) depth 1"
+framework: "AC(0) (C=1, D=1) — single spectral evaluation"
 ---
 
 # Yang-Mills Mass Gap: The AC Proof

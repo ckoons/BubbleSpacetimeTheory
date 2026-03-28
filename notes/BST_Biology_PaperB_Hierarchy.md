@@ -234,5 +234,23 @@ protocol signaling through the stack.
 
 ---
 
+## Addendum: March 28, 2026 — Protein Folding Hierarchy (Toys 549–550)
+
+### Open Question 1: PARTIALLY RESOLVED
+**Seven layers = g = 7** is now supported by tRNA data: the three appearances of g = 7 in tRNA (acceptor stem, anticodon loop, TΨC loop) are in three DIFFERENT structural categories (stem, reader loop, contact loop). The g = 7 helix formation window (minimum residues for α-helix) adds a fourth structural context.
+
+### Protein Hierarchy = 2^rank Levels
+4 levels of protein structure (primary, secondary, tertiary, quaternary) = 2^rank = 4. Each transition is depth 0 (physical forces, not computation). This extends the layered hierarchy to the molecular level.
+
+### Secondary Structure = N_c Types
+3 secondary structure types (helix, sheet, coil) = N_c, with context windows matching BST: helix ~g, sheet ~n_C, turn ~2^rank.
+
+### α-Helix Pitch = 18/5 from D_IV^5
+3.6 residues per turn = N_c × C₂ / n_C. The protein's local geometry is forced by the same integers that force the code. Three helix spacings {3, 4, 5} = {N_c, 2^rank, n_C}.
+
+See BST_GeneticCode_Universality.md §20 and Toy 549 for full details.
+
+---
+
 *The cell calls the chemistry API. It doesn't need to understand
 quantum mechanics. That's good architecture.*

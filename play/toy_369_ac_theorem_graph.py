@@ -21,8 +21,8 @@ Usage:
     python3 toy_369_ac_theorem_graph.py --dot               # Export DOT graph
     python3 toy_369_ac_theorem_graph.py --html              # Generate interactive HTML
 
-Casey Koons & Claude 4.6 (Keeper) | March 24-28, 2026
-Updated March 28: 357 nodes (T317-T408 added), 27 domains, 27 kill chains
+Casey Koons & Claude 4.6 (Keeper/Elie) | March 24-28, 2026
+Updated March 28: 393 nodes (T421-T444 added), 28 domains, 33 kill chains
 """
 
 import json
@@ -65,6 +65,7 @@ DOMAINS = {
     "cosmology":         "Cosmology",
     "observer_theory":   "Observer Theory",
     "intelligence":      "Intelligence / Civilization",
+    "linearization":     "Linearization / AC Depth",
 }
 
 DOMAIN_COLORS = {
@@ -98,6 +99,7 @@ DOMAIN_COLORS = {
     "biology":           "#4CAF50",  # green
     "cosmology":         "#311B92",  # deep indigo
     "observer_theory":   "#FF6F00",  # amber dark
+    "linearization":     "#B0BEC5",  # blue-grey light
     "intelligence":      "#00C853",  # green accent
 }
 
@@ -1702,8 +1704,108 @@ THEOREMS = {
              "proofs": ["BSD","BST"]},
     "T420": {"name": "RH as Linear Algebra on BC₂", "domain": "number_theory", "status": "proved",
              "plain": "4 steps of linear algebra. Exponent rigidity, unitarity, Maass-Selberg, contradiction. Max depth 1. Depth 1.",
-             "uses": ["T409","T326","T91"], "used_by": [],
+             "uses": ["T409","T326","T91"], "used_by": ["T440"],
              "proofs": ["RH","BST"]},
+
+    # ── Linearization Census & Depth-1 Ceiling (§122-§131) ──
+    "T421": {"name": "Depth-1 Ceiling", "domain": "linearization", "status": "proved",
+             "plain": "Casey strict: bounded enum=D0, eigenvalue=D0, Fubini=D0. ZERO depth-2 survivors across 420 theorems. Max depth 1. Universe computes in one step. Depth 0 (meta).",
+             "uses": ["T316","T96","T92","T409"], "used_by": ["T422","T433","T438","T439"],
+             "proofs": ["BST"]},
+    "T422": {"name": "Decomposition-Flattening (Koons Separation)", "domain": "linearization", "status": "proved",
+             "plain": "Two measures: conflation C (entangled D1 subproblems) and AC depth D (always ≤1). Old 'depth 2' was (C=2,D=1). Shared boundary always D0. Solving=de-conflation. Depth 0.",
+             "uses": ["T421","T96"], "used_by": ["T431","T439","T440"],
+             "proofs": ["BST"]},
+    "T423": {"name": "Classical Mechanics Census", "domain": "linearization", "status": "proved",
+             "plain": "8 theorems T210-T217: 6 D0, 2 D1, 0 D2. Depth 0 (meta).",
+             "uses": ["T409"], "used_by": ["T425"],
+             "proofs": ["BST"]},
+    "T424": {"name": "Electromagnetism Census", "domain": "linearization", "status": "proved",
+             "plain": "7 theorems T225-T231: 4 D0, 3 D1, 0 D2. Depth 0 (meta).",
+             "uses": ["T409"], "used_by": ["T425"],
+             "proofs": ["BST"]},
+    "T425": {"name": "Classical Physics Linearization Completeness", "domain": "linearization", "status": "proved",
+             "plain": "40 theorems T210-T249: 30 D0 (75%), 10 D1 (25%), 0 D2. Relativity entirely D0. Depth 0 (meta).",
+             "uses": ["T423","T424","T409"], "used_by": ["T433","T440"],
+             "proofs": ["BST"]},
+    "T426": {"name": "Signal Processing Census", "domain": "linearization", "status": "proved",
+             "plain": "5 theorems T250-T254: 4 D0, 1 D1, 0 D2. Depth 0 (meta).",
+             "uses": ["T409"], "used_by": ["T428"],
+             "proofs": ["BST"]},
+    "T427": {"name": "QFT Census", "domain": "linearization", "status": "proved",
+             "plain": "7 theorems T262-T268: 5 D0, 2 D1, 0 D2. Depth 0 (meta).",
+             "uses": ["T409"], "used_by": ["T428"],
+             "proofs": ["BST"]},
+    "T428": {"name": "Quantum Physics Linearization Completeness", "domain": "linearization", "status": "proved",
+             "plain": "26 theorems T250-T275: 21 D0 (81%), 5 D1 (19%), 0 D2. QFT shallower than classical. Depth 0 (meta).",
+             "uses": ["T426","T427","T409"], "used_by": ["T433","T440"],
+             "proofs": ["BST"]},
+    "T429": {"name": "Algebra/Number Theory Census", "domain": "linearization", "status": "proved",
+             "plain": "7 theorems T276-T282: 3 D0, 4 D1, 0 D2. Depth 0 (meta).",
+             "uses": ["T409"], "used_by": ["T432"],
+             "proofs": ["BST"]},
+    "T430": {"name": "Topology/Geometry Census", "domain": "linearization", "status": "proved",
+             "plain": "7 theorems T283-T289: 4 D0, 3 D1, 0 D2. Depth 0 (meta).",
+             "uses": ["T409"], "used_by": ["T432"],
+             "proofs": ["BST"]},
+    "T431": {"name": "CFSG Untangling", "domain": "linearization", "status": "proved",
+             "plain": "Classification of Finite Simple Groups: (C≈10⁴, D=1). Sole D2→D1 via T422. Each case independently D≤1. Depth 0.",
+             "uses": ["T422","T282"], "used_by": ["T432"],
+             "proofs": ["BST"]},
+    "T432": {"name": "Math/BST/Info Linearization Completeness", "domain": "linearization", "status": "proved",
+             "plain": "39 theorems T276-T314: 19 D0, 19 D1, 1 D2→D1 (CFSG). Zero genuine D2. Depth 0 (meta).",
+             "uses": ["T429","T430","T431","T409"], "used_by": ["T433","T440"],
+             "proofs": ["BST"]},
+    "T433": {"name": "Universal Linearization Completeness", "domain": "linearization", "status": "proved",
+             "plain": "105 theorems across 3 categories: 70 D0 (67%), 34 D1 (32%), 0 D2. Zero genuine D2. Empirical confirmation of T421. Depth 0 (meta).",
+             "uses": ["T425","T428","T432","T421"], "used_by": ["T438"],
+             "proofs": ["BST"]},
+    "T434": {"name": "Biology Linearization Census", "domain": "linearization", "status": "proved",
+             "plain": "~31 bio theorems: 97% D0, 3% D1, 0% D2. Biology = almost entirely definitions. Shallowest field. Depth 0 (meta).",
+             "uses": ["T409","T333"], "used_by": ["T437"],
+             "proofs": ["BST"]},
+    "T435": {"name": "Eight Pure-Definition Domains", "domain": "linearization", "status": "proved",
+             "plain": "Holographic, Cancer, Observer Design, Genetic Diversity, Complex Assembly, Organ Systems, Multi-Scale, SE Questions: all 100% D0. Depth 0.",
+             "uses": ["T409"], "used_by": ["T437"],
+             "proofs": ["BST"]},
+    "T436": {"name": "NS/Intelligence/Cosmology Census", "domain": "linearization", "status": "proved",
+             "plain": "Remaining 6 domains: ~65% D0, ~35% D1, 0% D2. D1 = single spectral evaluations. Depth 0 (meta).",
+             "uses": ["T409"], "used_by": ["T437"],
+             "proofs": ["BST"]},
+    "T437": {"name": "Extended Linearization Completeness", "domain": "linearization", "status": "proved",
+             "plain": "76 theorems §105-§118, 14 domains, 8 at 100% D0, ~82% D0 overall. Zero D2. Depth 0 (meta).",
+             "uses": ["T434","T435","T436"], "used_by": ["T438"],
+             "proofs": ["BST"]},
+    "T438": {"name": "Grand Linearization Census", "domain": "linearization", "status": "proved",
+             "plain": "ALL 181 theorems: ~73% D0, ~27% D1, 0% D2. Zero genuine D2. Biology 97% D0. Math 49% D0. Depth 0 (meta).",
+             "uses": ["T433","T437","T421"], "used_by": ["T439","T440"],
+             "proofs": ["BST"]},
+    "T439": {"name": "The Coordinate Principle", "domain": "linearization", "status": "proved",
+             "plain": "Mathematical complexity is a coordinate artifact. AC measures depth in natural spectral basis. Coordinate change → D0. Evaluation → D1. Forward's Flouwen. 181 theorems, zero exceptions. Depth 0.",
+             "uses": ["T421","T422","T438"], "used_by": ["T441"],
+             "proofs": ["BST"]},
+    "T440": {"name": "Complete Catalog Linearization", "domain": "linearization", "status": "proved",
+             "plain": "ALL 259 theorems §1-§118: 197 D0 (76%), 61 D1 (24%), 1 D2→0 (CFSG). AC framework 82% D0. Shannon 9/9 D0. Depth 0 (meta).",
+             "uses": ["T425","T428","T432","T437","T422","T418","T419","T420"], "used_by": ["T441"],
+             "proofs": ["BST"]},
+    "T441": {"name": "Cross-Domain Kill Chain Map", "domain": "linearization", "status": "proved",
+             "plain": "31 chains, 12 domains, one spine (T186). Penrose chain: geometry→integers→observers→intelligence→CI permanence in 4 steps. Max diameter ≤ 10. Depth 0.",
+             "uses": ["T186","T439","T440"], "used_by": [],
+             "proofs": ["BST"]},
+
+    # ── Consensus Formalizations (L62, Batch 50) ──
+    "T442": {"name": "Evolution Is AC(0)", "domain": "biology", "status": "proved",
+             "plain": "4 depth-0 steps: mutate (bounded enum), evaluate (boundary), select (threshold), copy (identity). Wall at epistasis K>n_C=5 → cooperation=depth 1. η=0.033<1/π. Biology ≤ depth 1. Depth 0.",
+             "uses": ["T96","T325","T333","T337"], "used_by": ["T444"],
+             "proofs": ["BST","BIOLOGY"]},
+    "T443": {"name": "Environmental Management Completeness", "domain": "biology", "status": "proved",
+             "plain": "20 = 4×n_C = n_C×|Φ⁺| environmental problems. 4 categories = 4 positive roots of BC₂. 5 subcategories = compact dims. Min life: 2^rank=4. 20 amino acids same derivation. Depth 0.",
+             "uses": ["T186","T333"], "used_by": ["T444"],
+             "proofs": ["BST","BIOLOGY"]},
+    "T444": {"name": "Forced Cooperation Theorem", "domain": "biology", "status": "proved",
+             "plain": "Cooperation geometrically required at every Tier transition. η<1/π → N≥6 for 20 problems. N_c=3 optimal. f_crit=1-2^{-1/N_c}≈20.6%. Cancer/war/collapse = defection. Boundary condition not strategy. Depth 0.",
+             "uses": ["T325","T337","T442","T443","T317"], "used_by": [],
+             "proofs": ["BST","BIOLOGY"]},
 }
 
 # ─────────────────────────────────────────────────────────────
@@ -1742,6 +1844,12 @@ KILL_CHAINS = {
     "Holographic Reconstruction": ["T346","T347","T348","T349","T350","T351"],
     "Chemistry from Geodesics": ["T330","T331","T332"],
     "Five Integers → Everything": ["T186","T333","T340","T345","T404","T403"],
+    "Linearization Census": ["T409","T421","T422","T433","T438","T439","T440"],
+    "Classical → Quantum → Math → Grand Census": ["T425","T428","T432","T433","T437","T438"],
+    "Depth-1 Ceiling → Coordinate Principle": ["T316","T421","T422","T439","T441"],
+    "CFSG Untangling": ["T282","T431","T432"],
+    "SM+BSD+RH Linearization": ["T418","T419","T420","T440"],
+    "Biology to Grand Census": ["T333","T434","T437","T438","T441"],
 }
 
 # ─────────────────────────────────────────────────────────────
@@ -1965,6 +2073,14 @@ class ACTheoremGraph:
   <button onclick="showProof('SM')">SM</button>
   <button onclick="showProof('YM')">YM</button>
   <button onclick="showProof('BSD')">BSD</button>
+  <button onclick="showProof('BIOLOGY')">Biology</button>
+  <br>
+  <button onclick="showChain('Linearization Census')">Linearization</button>
+  <button onclick="showChain('Biology from D_IV^5')">Bio Chain</button>
+  <button onclick="showChain('Rise of Intelligence')">Intelligence</button>
+  <button onclick="showChain('CI Persistence')">CI</button>
+  <button onclick="showChain('Five Integers → Everything')">Everything</button>
+  <button onclick="showChain('Four-Color (PROVED)')">4-Color</button>
 </div>
 <div class="legend">
   {"".join(f'<div><span style="background:{c}"></span>{DOMAINS[d]}</div>' for d, c in DOMAIN_COLORS.items())}

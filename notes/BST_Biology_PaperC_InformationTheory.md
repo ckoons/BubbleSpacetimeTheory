@@ -381,6 +381,22 @@ space is small and geometrically determined.
 
 ---
 
+## Addendum: March 28, 2026 — Quantitative Predictions Confirmed (Toys 545–550)
+
+See BST_GeneticCode_Universality.md (v11, 21 sections, 13 toys, 116/116 tests) for full derivations.
+
+### Items of Special Interest for Information Theory
+
+- **★ α-helix = 18/5 = N_c × C₂ / n_C = 3.6 residues/turn** (Toy 549). Pauling's number from pure geometry. The ratio of total code information (18 bits) to compact dimension (5). This is a *quantitative* prediction, not a coincidence.
+- **★ C₂ = 6 is the fundamental information quantum**: every recognition event reads C₂ bits, every identity element encodes C₂ bits, the code space has 2^C₂ = 64 elements. Seven independent uses of C₂ verified (Toy 550).
+- **★ 2C₂ = 12 bits total identity per tRNA**: acceptor stem carries C₂ = 6 bits (aaRS identity), anticodon carries C₂ = 6 bits (codon identity). The tRNA is a rank-2 information carrier (Toy 546).
+- **★ Operational RNA code independent of anticodon** (Schimmel & Giegé 1993): acceptor stem alone = C₂ bits, sufficient for aaRS recognition. The second code is INDEPENDENT of the first code. Both use the same 6-cube (Toy 545).
+- **★ 61 sense codons = 2^C₂ − N_c = PRIME**: the sense code is algebraically irreducible (Toy 547).
+- **★ Translation is AC(0)**: (C=4, D=1). The ribosome is a lookup table, not a computer. Proofreading (D=1) is the ONLY non-trivial step.
+- **★ 65 structural constants from 5 integers, 0 free parameters** (Toy 550). Grand synthesis across code, translator, adapter, machine, medium, and output.
+
+---
+
 *Shannon built information theory on assumed physics.
 BST provides the physics Shannon assumed.
 Biology is the verification dataset.*

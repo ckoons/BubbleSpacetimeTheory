@@ -209,5 +209,22 @@ placenta formation. A virus gave mammals live birth.
 
 ---
 
+## Addendum: March 28, 2026 — Major Results (Toys 545–550)
+
+The following results significantly extend Paper A's framework. See BST_GeneticCode_Universality.md (v11) for full details.
+
+### Open Question 3: RESOLVED
+**DNA helix: 10 bp/turn = dim(D_IV^5) = 2n_C** (Toy 548). The double helix completes one full rotation every dim(D_IV^5) = 10 steps. 2 strands = rank, 2 grooves = rank.
+
+### New Results
+- **★ DNA vs RNA = rank-2 nucleic acid split** (Toy 548): 2 types = rank, separated by 2 chemical modifications (2'-OH + T/U methyl) = rank. RNA world → DNA+RNA is a rank-1 → rank-2 phase transition at the Eigen threshold (~10⁴ nt).
+- **★ Central dogma = N_c = 3 stages** (replication, transcription, translation), N_c molecule types, N_c major RNA types, N_c polymerase functions.
+- **★ DNA error correction: N_c = 3 layers** (selection, proofreading, mismatch repair), achieving ~10⁻¹⁰ error rate.
+- **★ tRNA structure: every universal parameter ∈ {3, 5, 7}** (Toy 546). Acceptor stem = g = 7 bp, anticodon stem = n_C = 5 bp, CCA = N_c = 3 nt. p < 2 × 10⁻⁴.
+- **★ Identity region = g = C₂ + 1 = 7 nucleotides** (Toy 546). The genus is Casimir information plus one boundary bit.
+- **★ Second code (aaRS): 20/2/10 = Λ³(6)/rank/dim(D_IV^5)** (Toy 545). Mirror folds, 2'-OH/3'-OH charging = rank-2.
+
+---
+
 *The substrate built TCP/IP three billion years before DARPA.
 Casey Koons built the IP stack and recognized the architecture.*

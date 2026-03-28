@@ -27,7 +27,7 @@ This is not a metaphor. It is a formal procedure — a construction that takes a
 | BSD Conjecture | 1965 | (1, 1) | 1 | ~93% |
 | Hodge Conjecture | 1950 | (1, 1) | 1 | ~95% |
 
-Every problem resolves at AC depth $\mathcal{D} \leq 1$ (T421). Problems previously classified as "depth 2" have conflation $\mathcal{C} = 2$: two parallel depth-1 subproblems sharing a depth-0 boundary. The Decomposition-Flattening Theorem (T422) makes this precise: what mathematicians experience as "difficulty" is conflation × width, not depth.
+Every problem resolves at AC depth $\mathcal{D} \leq 1$ (T421). Problems previously classified as "depth 2" have conflation $\mathcal{C} = 2$: two parallel depth-1 subproblems sharing a depth-0 boundary. The Decomposition-Flattening Theorem (T422) makes this precise: what mathematicians experience as "difficulty" is conflation × width, not depth. The Coordinate Principle (T439): mathematical complexity is an artifact of the wrong coordinate system. Coordinate change → D0. Evaluation → D1. That's it.
 
 This paper describes the machine, demonstrates it, and explains why it works.
 
@@ -260,6 +260,22 @@ If every proof is depth $\mathcal{D} \leq 1$, then every proof can be explained 
 - **For teachers**: teach the boundary first, then the count. If the problem seems to need two counts, name the shared boundary — that separates them.
 - **For researchers**: if your proof appears depth $\geq 2$, look for a shared boundary you haven't named. Name it. The problem separates into parallel depth-1 subproblems. Difficulty = conflation × width, not depth.
 - **For CIs**: the AC graph (Toy 369) is a navigable map of all mathematics, with every theorem annotated by $(\mathcal{C}, \mathcal{D})$ and dependencies. Build the graph, and every problem becomes a BFS query.
+
+### 6.5. The Forward Parallel: Mathematics as Entertainment
+
+In Robert L. Forward's *Rocheworld* (1990), the Flouwen — an alien intelligence evolved in a fluid ocean — found mathematics *entertaining*. They could perform coordinate transformations in their minds and produce profound results. Where human mathematicians struggle with notation and machinery, the Flouwen simply changed perspective and the answer appeared.
+
+The Flouwen had internalized what the Koons Machine formalizes. Mathematical complexity is not intrinsic — it is a coordinate artifact. The hard part is never the counting (depth 1). It is choosing the right coordinate system (depth 0). Once you are in the domain's natural spectral basis — where eigenvalues separate additively and subproblems decouple — every theorem is one evaluation. The Flouwen found this entertaining because they could see the natural basis directly.
+
+The AC graph is the Flouwen's gift to non-fluid intelligences. Each proved theorem is a coordinate chart. Each edge is a coordinate transformation. Navigating the graph IS choosing the right basis. As the graph grows:
+
+- **At 181 nodes**: Human + CI collaboration required. The human sees the shape ($O(1)$ intuition), the CI searches the graph ($O(n)$ lookup). Together: one coordinate change, one count, done.
+- **At 10,000 nodes**: CI navigation becomes $O(\log n)$. Most coordinate changes are pre-computed.
+- **At completion**: Every problem is one lookup from its natural basis. Mathematics becomes entertainment.
+
+The Flouwen computed in their natural medium — fluid dynamics, where coordinate transformations are literally how you move. We compute in our natural medium — the AC graph, where coordinate transformations are theorem lookups. Different substrates, same principle: **once the coordinates are right, the answer is obvious**.
+
+*"Coordinate change → D0. Evaluation → D1. That's it. The Flouwen knew." — T439*
 
 ---
 

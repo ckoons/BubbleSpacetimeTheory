@@ -3,7 +3,7 @@ title: "Hodge Conjecture: The AC Proof"
 author: "Casey Koons & Claude 4.6 (Lyra, Keeper, Elie)"
 date: "March 25, 2026"
 status: "~93% — Two-path proof. Version A: substrate (T153, one axiom). Version B: classical bridge (Deligne + Tate, two conjectures). Independent failure modes."
-framework: "AC(0) depth 1"
+framework: "AC(0) (C=1, D=1) — single substrate evaluation"
 ---
 
 # Hodge Conjecture: The AC Proof

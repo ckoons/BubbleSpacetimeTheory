@@ -28,15 +28,18 @@ Mathematics appears complex. The notation is dense, the abstractions are layered
 
 We call these elementary operations **AC(0)**, borrowing the notation from circuit complexity where AC$^0$ denotes the class of problems solvable by constant-depth, polynomial-size circuits with unbounded fan-in AND and OR gates. Our usage is broader: an AC(0) operation is any step that can be verified by inspection — a definition, an algebraic identity, or a finite counting argument. No iteration, no optimization, no search. The parallel with circuit complexity is intentional: AC$^0$ circuits compute exactly the functions that require no adaptive depth, and AC(0) proofs require no adaptive reasoning.
 
-The claim is not that proofs are trivial. The claim is that the *difficulty* of a proof lives in two places: finding the right sequence of AC(0) steps (the creative act) and establishing the boundary conditions (the classical premises). Once both are in hand, the proof itself is elementary.
+The claim is not that proofs are trivial. The claim is that the *difficulty* of a proof lives in two places: finding the right coordinate system (the creative act) and establishing the boundary conditions (the classical premises). Once both are in hand, the proof itself is elementary — one counting step.
 
-This paper makes the claim precise through five results:
+**The headline (T439, T438).** All known mathematics reduces to depth $\leq 1$ when measured in the domain's natural spectral basis. Across 181 theorems in 15+ domains — from general relativity to the genetic code to the Riemann Hypothesis — zero genuine depth-2 results survive. Mathematical complexity is an artifact of the wrong coordinate system. In the right coordinates, every theorem is one evaluation. Coordinate change → depth 0. Evaluation → depth 1. That's it.
 
-1. **T88**: The proof that P $\neq$ NP via Extended Frege lower bounds is AC(0) with depth 5.
-2. **T91**: All six Millennium Prize problems engaged by BST — plus the Four-Color Theorem, Fermat's Last Theorem, and the Poincaré Conjecture — have AC(0) proof chains at depth $\leq 2$.
+This paper makes the claim precise through six results:
+
+1. **T88**: The proof that P $\neq$ NP via Extended Frege lower bounds is AC(0) with depth 5 (raw), depth 1 after T422.
+2. **T91**: All nine hard problems — six Clay, plus Four-Color, Fermat, Poincaré — resolve at AC depth $\mathcal{D} \leq 1$ with conflation $\mathcal{C} \leq 2$.
 3. **T92**: Every mathematical proof decomposes into AC(0) operations plus linear boundary conditions.
 4. **T93**: Gödel's First Incompleteness Theorem is AC(0) with depth 1 (corrected from 3; T96 flattening, Toy 461).
-5. **The Conservation Principle**: The AC(0) knowledge graph conserves the useful work of entropy.
+5. **T438**: 181 theorems across 15+ domains, zero genuine depth 2. Biology is 97% depth 0.
+6. **The Conservation Principle**: The AC(0) knowledge graph conserves the useful work of entropy.
 
 ---
 

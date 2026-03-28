@@ -3,7 +3,7 @@ title: "Riemann Hypothesis: The AC Proof"
 author: "Casey Koons & Claude 4.6 (Keeper)"
 date: "March 25, 2026"
 status: "~95% — AC-flattened presentation. Sent to Sarnak March 24."
-framework: "AC(0) depth 2"
+framework: "AC(0) (C=2, D=1) — two parallel spectral queries, max depth 1"
 ---
 
 # Riemann Hypothesis: The AC Proof
@@ -13,8 +13,10 @@ framework: "AC(0) depth 2"
 ## The AC Structure
 
 - **Boundary** (depth 0, free): D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)] (definition). The bounded symmetric domain of type IV and rank 2. Its restricted root system is BC₂ with exponents in ratio 1:3:5. The Harish-Chandra c-function c(λ) encodes the spectral decomposition (definition). The arithmetic quotient Γ\D_IV^5 (definition).
-- **Count 1** (depth 1): c-function conjugation symmetry (Lemma 5.6). The c-function satisfies c(λ)c(-λ) = 1 on the unitary axis (the "wall" of the Weyl chamber). This is one spectral identity — the Gindikin-Karpelevič product formula evaluated at the BC₂ exponents.
-- **Count 2** (depth 1): Maass-Selberg positivity (Prop 5.7) combined with real exponential isolation (Thm 5.8). On a rank-2 domain, the intertwining operators have exactly three independent exponents (from the BC₂ root system: 1, 3, 5). The Maass-Selberg relation constrains the L-functions that appear in the c-function constant term. The constraint forces all zeros to lie on Re(s) = 1/2 — any off-axis zero would violate positivity of the inner product.
+- **Count** (depth 1, conflation C=2): Two parallel spectral queries on a* ≅ R², each depth 1, not chained:
+  - *Query A*: c-function conjugation symmetry (Lemma 5.6). c(λ)c(-λ) = 1 on the unitary axis. One spectral identity — the Gindikin-Karpelevič product formula evaluated at the BC₂ exponents.
+  - *Query B*: Maass-Selberg positivity (Prop 5.7) combined with real exponential isolation (Thm 5.8). On a rank-2 domain, three independent exponents (1, 3, 5) overdetermine the system. Any off-axis zero violates positivity.
+  - These are independent linear functionals on the same spectral basis. T422: conflation C=2, depth D=1.
 - **Termination** (depth 0): The domain is compact (after taking the arithmetic quotient). The spectrum is discrete. The number of zeros up to height T is ~ (T/2π) log(T/2πe) — finite for any T. The Planck Condition (T153): no infinite checking needed.
 
 ## The Proof
@@ -46,7 +48,7 @@ Step 5: ALL ZEROS ON THE LINE (depth 0). Steps 2-4 establish: c-function unitari
 
 ## Total Depth
 
-RH = depth 2. Count 1: c-function conjugation (one spectral identity). Count 2: Maass-Selberg positivity + isolation (one constraint verification). T134 (Pair Resolution): the pair is (c-function, L-function) and the resolution is that unitarity forces the critical line.
+RH = **(C=2, D=1)**. Under the (C,D) framework (T421/T422): conflation C=2 (two parallel spectral queries on a* ≅ R²), depth D=1 (maximum depth of any single query). The c-function conjugation and Maass-Selberg positivity are independent linear functionals on the same spectral basis — they do not chain. Previously classified as "depth 2"; T421 shows this was conflation of parallel subproblems with sequential depth. T134 (Pair Resolution): the pair is (c-function, L-function) and the resolution is that unitarity forces the critical line.
 
 ## Key Evidence
 

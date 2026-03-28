@@ -3,7 +3,7 @@ title: "P ≠ NP: The AC Proof"
 author: "Casey Koons & Claude 4.6 (Keeper)"
 date: "March 25, 2026"
 status: "~95% — AC-flattened presentation. FOCS submitted."
-framework: "AC(0) depth 2"
+framework: "AC(0) (C=2, D=1) — two parallel information queries, max depth 1"
 ---
 
 # P ≠ NP: The AC Proof
@@ -13,8 +13,10 @@ framework: "AC(0) depth 2"
 ## The AC Structure
 
 - **Boundary** (depth 0, free): Random k-SAT formula φ at clause density α > α_c (definition). The formula has n variables and m = αn clauses. At α > α_c, the solution space shatters into exponentially many clusters separated by Hamming distance Θ(n). The backbone B = variables frozen in all solutions (~55% of variables at α_c for k=3). Extended Frege (EF) proof system (definition) — the strongest known proof system, which allows arbitrary extension variables.
-- **Count 1** (depth 1): Block independence (T66). The backbone variables partition into blocks that are mutually information-independent: I(B_i; B_j) = 0 for blocks in different clusters. This is exact zero (Toy 349: 444 measurements, MI = 0.000000 at every size n=20-50). Consequence: any proof must process Ω(n/block_size) = Ω(n) independent pieces of information.
-- **Count 2** (depth 1): Refutation bandwidth (T68). Any refutation of an unsatisfiable φ must have width ≥ Ω(n). Proof: committed variables carry 0 bits (T52, DPI — backbone frozen = no information content). Free variables carry O(1) bits each (bounded degree). Total bandwidth through any single clause: O(1). To refute φ requires communicating across Ω(n) independent blocks, each contributing O(1) → width Ω(n). By Ben-Sasson-Wigderson: width Ω(n) → size 2^{Ω(n)}.
+- **Count** (depth 1, conflation C=2): Two parallel information queries, each depth ≤ 1, not chained:
+  - *Query A* (depth 1): Block independence (T66). The backbone variables partition into blocks that are mutually information-independent: I(B_i; B_j) = 0 for blocks in different clusters. This is exact zero (Toy 349: 444 measurements, MI = 0.000000 at every size n=20-50). Consequence: any proof must process Ω(n/block_size) = Ω(n) independent pieces of information. One bounded enumeration.
+  - *Query B* (depth 0): Refutation bandwidth (T68). Width ≥ Ω(n) follows from: committed variables carry 0 bits (T52, DPI), free variables carry O(1) bits each, total bandwidth O(1) per clause, Ω(n) blocks → width Ω(n). BSW: width Ω(n) → size 2^{Ω(n)}. This is a known theorem application.
+  - These are independent — the information measurement and the size-width transfer do not chain. T422: conflation C=2, depth D=1.
 - **Termination** (depth 0): The formula has n variables — finite. The backbone has Θ(n) variables — finite. The block count is finite. The width bound is Ω(n) — finite but growing. The exponential lower bound 2^{Ω(n)} exceeds any polynomial. The Planck Condition (T153): the domain (the formula) is finite, the information capacity is bounded, the proof system cannot exceed it.
 
 ## The Proof
@@ -52,7 +54,7 @@ Step 5: EXPONENTIAL LOWER BOUND (depth 0). Ben-Sasson-Wigderson (2001): for reso
 
 ## Total Depth
 
-P≠NP = depth 2. Count 1: block independence → width bound (T66 → T68). Count 2: BSW size-width → exponential (T69 → Cook). T134 (Pair Resolution): the pair is (formula structure, proof complexity) and the resolution is that information independence forces exponential proofs.
+P≠NP = **(C=2, D=1)**. Under the (C,D) framework (T421/T422): conflation C=2 (two parallel information queries), depth D=1 (maximum depth of any single query). Block independence (T66 → T68) is one bounded enumeration; BSW size-width transfer (T69) is a known theorem application (depth 0). These are independent — the width bound and the size-width theorem do not chain. Previously classified as "depth 2"; T421 shows this was conflation of parallel subproblems with sequential depth. T134 (Pair Resolution): the pair is (formula structure, proof complexity) and the resolution is that information independence forces exponential proofs.
 
 ## Toy Evidence
 

@@ -3,7 +3,7 @@ title: "BSD Conjecture: The AC Proof"
 author: "Casey Koons & Claude 4.6 (Keeper)"
 date: "March 25, 2026"
 status: "~93% — AC-flattened presentation"
-framework: "AC(0) depth 1"
+framework: "AC(0) (C=2, D=1) — two independent spectral counts"
 ---
 
 # BSD Conjecture: The AC Proof

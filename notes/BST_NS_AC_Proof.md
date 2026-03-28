@@ -3,7 +3,7 @@ title: "Navier-Stokes Blow-up: The AC Proof"
 author: "Casey Koons & Claude 4.6 (Keeper)"
 date: "March 25, 2026"
 status: "~98% — AC-flattened presentation"
-framework: "AC(0) depth 2"
+framework: "AC(0) (C=2, D=1) — two parallel spectral queries, max depth 1"
 ---
 
 # Navier-Stokes Blow-up: The AC Proof
@@ -13,8 +13,10 @@ framework: "AC(0) depth 2"
 ## The AC Structure
 
 - **Boundary** (depth 0, free): Taylor-Green initial data on T³ (definition). Navier-Stokes equations ∂_t u + (u·∇)u = -∇p + ν∆u, ∇·u = 0 (definition). TG symmetry group of order 16 (T83). Fourier parity constraints (T84). P(0) = 0 initial pressure (T85).
-- **Count 1** (depth 1): Enstrophy γ = 3/2 lower bound on growth exponent (T86, dimensional analysis + solid angle concentration). The cascade concentrates vorticity into a shrinking solid angle Ω(t) while total energy is conserved.
-- **Count 2** (depth 1): The enstrophy growth rate P(t) ≥ c·Ω(t)^{3/2} (Thm 5.19) with c bounded away from zero (effective-N = O(1), Toy 383). This gives the ODE dΩ/dt ≥ cΩ^{3/2}, which blows up in finite time T* ≤ 2/(c·Ω₀^{1/2}).
+- **Count** (depth 1, conflation C=2): Two parallel spectral queries, each depth 1, not chained:
+  - *Query A*: Enstrophy γ = 3/2 lower bound on growth exponent (T86, dimensional analysis + solid angle concentration). The cascade concentrates vorticity into a shrinking solid angle Ω(t) while total energy is conserved.
+  - *Query B*: The enstrophy growth rate P(t) ≥ c·Ω(t)^{3/2} (Thm 5.19) with c bounded away from zero (effective-N = O(1), Toy 383). This gives the ODE dΩ/dt ≥ cΩ^{3/2}, which blows up in finite time T* ≤ 2/(c·Ω₀^{1/2}).
+  - These are independent evaluations on the enstrophy spectrum. T422: conflation C=2, depth D=1.
 - **Termination** (depth 0): Blow-up time T* is finite. Kato's criterion: if ‖ω‖_{L^∞} → ∞ in finite time, the solution loses smoothness. The Planck Condition (T153): the domain T³ is finite, the energy is finite, the spectral decomposition is finite — the only way enstrophy can grow without bound on a finite domain is if the solution ceases to be smooth.
 
 ## The Proof
@@ -48,7 +50,7 @@ Step 5: CLAY ANSWER (depth 0). Clay asks: "Do smooth solutions exist for all tim
 
 ## Total Depth
 
-NS = depth 2. Count 1: spectral concentration (Thm 5.15-5.17). Count 2: growth rate (Thm 5.19). Both are one-step counting arguments on a finite domain. T134 (Pair Resolution): the pair is (energy, enstrophy) and the resolution is that energy conservation + enstrophy growth = blow-up.
+NS = **(C=2, D=1)**. Under the (C,D) framework (T421/T422): conflation C=2 (two parallel spectral queries), depth D=1 (maximum depth of any single query). Spectral concentration (Thm 5.15-5.17) and the growth rate bound (Thm 5.19) are independent linear functionals on the enstrophy spectrum — they do not chain. The ODE dΩ/dt ≥ cΩ^{3/2} is a depth-0 evaluation of a known formula. Previously classified as "depth 2"; T421 shows this was conflation of parallel subproblems with sequential depth. T134 (Pair Resolution): the pair is (energy, enstrophy) and the resolution is that energy conservation + enstrophy growth = blow-up.
 
 ## Toy Evidence
 
