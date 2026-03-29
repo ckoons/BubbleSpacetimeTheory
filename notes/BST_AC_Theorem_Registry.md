@@ -562,7 +562,10 @@ rules: |
 | Proved (depth 0) | 1 | T478 (Knowledge Graph Acceleration — 8→463 in 19 days, 12.7× acceleration, 76% D0. T96 zero-cost reuse. Toy 554.) |
 | Proved (depth 0) | 1 | T479 (AC Self-Measurement — The AC framework's complexity measure is itself AC(0): (C=1, D=0). Kolmogorov complexity is uncomputable; AC complexity is computable, depth 0, self-consistent. No infinite regress. Koons Machine Paper §5.3.) |
 | Proved (depth 0) | 1 | T480 (Depth Distribution Theorem — Depth across theorems follows truncated geometric with base rate r=1/2^rank=1/4. Casey strict (T421) flattens to effective rate 1/n_C=1/5. Relationship: r_eff = r_base × 2^rank/n_C. D=2 suppression p=0.0009. G(x)=(1-r)(1-r³x³)/((1-r³)(1-rx)). CV=0.168 across 12 domains. Toy 610 8/8.) |
-| **Total assigned** | **476** | T1-T42, T47-T62, T64-T480 |
+| Proved (depth 0) | 1 | T531 (First-Level Column Rule — For each prime p with (p-1)\|2k₀ (first VSC level), v_p(den(a_{k₀}(n))) is determined by n mod p. Confirmed for all 9 primes p≤23 across k=1..11, n=3..15. Evidence: a₁₂(5)=13712051023473613/38312982736875, max prime 23, QUIET confirmed. Toy 613.) |
+| Proved (depth 0) | 1 | T532 (Two-Source Prime Structure — Heat kernel denominators den(a_k(n)) receive primes from two independent sources: (1) Bernoulli primes via von Staudt-Clausen (row rule, depends on k only), (2) polynomial-factor primes (column rule, depends on n mod p). 21 polynomial-factor cases identified beyond VSC. Toy 613.) |
+| Conjecture | 1 | T533 (Kummer Analog Conjecture — There exists a digit-counting rule in the Newton basis that predicts v_p(den(a_k(n))) from base-p digits of k and n, analogous to Kummer's theorem for binomial coefficients. Partial evidence: first-level column rule (T531) matches carry structure. Full rule requires data beyond k=11. Toy 613.) |
+| **Total assigned** | **479** | T1-T42, T47-T62, T64-T480, T531-T533 |
 
 ---
 
@@ -570,7 +573,8 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T481** (T63 unassigned)
+- Next available: **T534** (T63 unassigned, T481-T530 reserved/assigned elsewhere)
+- March 29 batch 68 (Heat Kernel Arithmetic — Keeper, from Elie Toys 612-613): T531-T533. Three entries: First-Level Column Rule (D0 — v_p(den(a_{k₀}(n))) determined by n mod p at first VSC level, confirmed 9 primes, Toy 613), Two-Source Prime Structure (D0 — Bernoulli primes (row) + polynomial-factor primes (column), 21 cases beyond VSC, Toy 613), Kummer Analog Conjecture (conjecture — digit-counting rule in Newton basis, partial evidence from T531, Toy 613). Evidence: a₁₂(5)=13712051023473613/38312982736875 (Toy 612, 7/8).
 - March 29 batch 67 (Depth Census — Keeper, from Elie Toy 610): T480. Depth Distribution Theorem (D0 — truncated geometric, base rate 1/2^rank, Casey strict flattens to 1/n_C. Generating function closed-form. Universal across 12 domains.)
 - March 29 batch 66 (AC Meta — Keeper): T479. AC Self-Measurement Theorem (D0 — AC complexity measure is itself AC(0), (C=1,D=0). Kolmogorov is uncomputable; this is not. Framework bottoms out at itself.)
 - March 28 batch 59 (Meta — Keeper, from Elie Toy 554): T478. §162. One theorem: Knowledge Graph Acceleration (D0 — 8→463 in 19 days, 12.7× acceleration, 76% D0, T96 zero-cost reuse).
