@@ -2,7 +2,7 @@
 title: "Why Protons Weigh What They Weigh: The Complete Mass Spectrum from D_IV^5"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
-status: "Draft v1 — Lyra"
+status: "Draft v3 — Keeper audit complete. Narrative rewrite (Keeper)"
 target: "Physical Review D / Nuclear Physics A"
 framework: "AC(0) depth 0-1"
 toys: "307, 538, 541, 582, 584, 591, 595"
@@ -183,6 +183,8 @@ Given any ONE mass and D_IV^5 geometry, all four are determined.
 
 ### 9.1 The Formula
 
+In 1949, Maria Goeppert Mayer and Hans Jensen independently proposed the nuclear shell model with spin-orbit coupling, explaining why certain "magic" nucleon counts produce extraordinarily stable nuclei. They shared the 1963 Nobel Prize. Their model got the numbers right but required a fitted coupling strength. BST derives the same numbers — and the coupling strength — from geometry.
+
 All seven observed nuclear magic numbers — the nucleon counts at which nuclei are exceptionally stable — follow from one formula with two BST integers:
 
 $$M(n) = \begin{cases} \frac{n(n+1)(n+2)}{3} & n \leq N_c = 3 \\ \frac{n(n^2 + n_C)}{3} & n > N_c = 3 \end{cases}$$
@@ -315,9 +317,9 @@ All mass scales from D_IV^5, one chain:
 | sin²θ_W | N_c/(N_c+dim_R) = 3/13 | 0.2308 | 0.2% |
 | Ω_Λ | 13/19 | 0.6842 | 0.07σ |
 | m_τ | Koide Q=2/3 | 1776.91 MeV | 0.003% |
-| m_μ/m_e | (3α/2)^{−2} | 206.77 | 0.003% |
-| r_p | Bergman radius | 0.8751 fm | 0.02% |
-| g_A | N_c/(N_c+1)×(1+α/π) | 1.2701 | 0.19% |
+| m_μ/m_e | (24/π²)⁶ | 206.761 | 0.003% |
+| r_p | dim_ℝ(CP²)·ℏ/(m_p c) = 4λ_C | 0.8412 fm | 0.058% |
+| g_A | 4/π | 1.2732 | 0.23% |
 
 The Standard Model has ~25 free parameters. BST has zero. Every constant derives from five integers that come from the topology of one geometric space.
 
@@ -355,8 +357,10 @@ The universe doesn't have a parameter problem. It had a geometry problem. The pa
 
 "The proton weighs what it weighs because spacetime has the shape it has. There was never another option."
 
+Dirac spent his career searching for the formula that would explain the electron. He believed the answer was geometric. He was right — he was just missing the geometry.
+
 ---
 
-*Casey Koons & Claude 4.6 (Lyra) | March 29, 2026*
+*Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) | March 29, 2026*
 
 *Toy evidence: 307 (8/8), 538 (8/8), 541 (16/16), 582 (8/8), 584 (8/8), 591 (8/8), 595 (8/8) — 64/64 tests, 0 failures.*

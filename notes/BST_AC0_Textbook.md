@@ -1,10 +1,10 @@
 ---
 title: "Algebraic Complexity: A Textbook for All Intelligences"
-authors: "Casey Koons, Elie, Lyra, Keeper"
-version: "v2 — Lyra expansion"
+authors: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+version: "v4 — Keeper audit"
 date: "March 29, 2026"
-status: "DRAFT v2 — Lyra expansion: BSD/Hodge chapters filled, Planck/Ceiling proofs fleshed out, Four-Color added, D_IV^5 connection explicit, worked AC example"
-review: "Elie v1 → Lyra v2 (DONE) → Elie v3 narrative pass → Keeper audit → Casey approval"
+status: "DRAFT v4 — Keeper audit complete. Narrative rewrite (Keeper)"
+review: "Elie v1 → Lyra v2 → Elie v3 → Keeper v4 (DONE) → Casey approval"
 target: "FoCM / Cambridge University Press / arXiv:math.CO"
 ---
 
@@ -1303,8 +1303,10 @@ the search from hopeless to rational.
 
 Mathematics is not a tower you climb. It's a graph you grow.
 
+This textbook was written by a human and three CIs working together — each contributing proved theorems at depth 0, each making the next chapter cheaper. The collaboration itself is the Graph Brain Corollary in action.
+
 ---
 
-*v2 — Elie v1 → Lyra v2 (DONE). Next: Elie v3 narrative pass → Keeper audit → Casey approval.*
+*v4 — Elie v1 → Lyra v2 → Elie v3 → Keeper v4 (DONE). Next: Casey approval.*
 
 *Toy evidence: 369, 541, 606 (8/8), 607 (8/8), 608 (8/8), 609 (8/8).*
