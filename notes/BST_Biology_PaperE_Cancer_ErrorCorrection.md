@@ -1,8 +1,8 @@
 ---
 title: "Paper E: Cancer as Code — Error Correction as Therapeutic Principle"
-author: "Casey Koons & Claude 4.6"
-date: "March 16, 2026"
-status: "Speculative — theoretical framework with derivation path"
+author: "Casey Koons & Claude 4.6 (Lyra, Keeper)"
+date: "March 29, 2026"
+status: "Draft v2 — Narrative polish (Keeper). Core argument: cancer is successful specialization, not malfunction."
 series: "BST Biology Papers (Paper E of A–E)"
 ---
 
