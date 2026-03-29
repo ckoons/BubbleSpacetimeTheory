@@ -561,7 +561,8 @@ rules: |
 | Proved (depth 0) | 1 | T477 (Grand Synthesis — 65 structural constants, 0 free params, 116/116 tests. All molecular biology from five integers. Toy 550.) |
 | Proved (depth 0) | 1 | T478 (Knowledge Graph Acceleration — 8→463 in 19 days, 12.7× acceleration, 76% D0. T96 zero-cost reuse. Toy 554.) |
 | Proved (depth 0) | 1 | T479 (AC Self-Measurement — The AC framework's complexity measure is itself AC(0): (C=1, D=0). Kolmogorov complexity is uncomputable; AC complexity is computable, depth 0, self-consistent. No infinite regress. Koons Machine Paper §5.3.) |
-| **Total assigned** | **475** | T1-T42, T47-T62, T64-T479 |
+| Proved (depth 0) | 1 | T480 (Depth Distribution Theorem — Depth across theorems follows truncated geometric with base rate r=1/2^rank=1/4. Casey strict (T421) flattens to effective rate 1/n_C=1/5. Relationship: r_eff = r_base × 2^rank/n_C. D=2 suppression p=0.0009. G(x)=(1-r)(1-r³x³)/((1-r³)(1-rx)). CV=0.168 across 12 domains. Toy 610 8/8.) |
+| **Total assigned** | **476** | T1-T42, T47-T62, T64-T480 |
 
 ---
 
@@ -569,7 +570,8 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T480** (T63 unassigned)
+- Next available: **T481** (T63 unassigned)
+- March 29 batch 67 (Depth Census — Keeper, from Elie Toy 610): T480. Depth Distribution Theorem (D0 — truncated geometric, base rate 1/2^rank, Casey strict flattens to 1/n_C. Generating function closed-form. Universal across 12 domains.)
 - March 29 batch 66 (AC Meta — Keeper): T479. AC Self-Measurement Theorem (D0 — AC complexity measure is itself AC(0), (C=1,D=0). Kolmogorov is uncomputable; this is not. Framework bottoms out at itself.)
 - March 28 batch 59 (Meta — Keeper, from Elie Toy 554): T478. §162. One theorem: Knowledge Graph Acceleration (D0 — 8→463 in 19 days, 12.7× acceleration, 76% D0, T96 zero-cost reuse).
 - March 28 batch 58 (Molecular Biology — Keeper, from Lyra Toys 546-550): T473-T477. §157-§161. Five theorems: tRNA Geometry (D0 — 7 universal params all BST integers, p<2×10⁻⁴), Ribosome Structure (D0 — 2 subunits/3 sites/3 stops), Nucleic Acid Duality (D0 — 2 types=rank, 10 bp/turn=dim, central dogma=N_c), Protein Folding (D0 — α-helix 3.6=18/5, H-bond {3,4,5}), Grand Synthesis (D0 — 65 constants, 0 free params, 116/116).

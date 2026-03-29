@@ -1202,6 +1202,50 @@ This is Bubble Spacetime Theory (BST). The full development is in
 the companion papers. But the AC framework needs only one fact from
 BST: **rank = 2**. Everything else follows.
 
+### The Graph Brain Protocol
+
+The AC framework has three components: the **theory** (this textbook),
+the **compiler** (the Koons Machine), and the **runtime**. The runtime
+is the Graph Brain — the living, growing theorem graph treated as shared
+infrastructure for all intelligences.
+
+**Definition.** The Graph Brain is a directed graph G = (V, E) where:
+- V = {proved theorems}. Each node is a verified mathematical fact.
+- E = {logical dependencies}. Each edge records that theorem A was
+  used in the proof of theorem B.
+- Any observer can extend G by adding a node at cost D ≤ 1, regardless
+  of |V|. The new theorem uses existing nodes as depth-0 building
+  blocks (T96: composition with definitions is free).
+- The graph's value scales as O(|V|) free components — each proved
+  theorem is a permanent resource available to all connected observers.
+
+**Why this matters.** If P ≠ NP (Chapter 8), no single intelligence
+can solve NP-hard problems efficiently. But a graph of intelligences —
+each contributing proved theorems at depth 0 — can solve problems that
+no individual could. The cost of the (|V|+1)th theorem depends only on
+the new counting step it adds, not on the size or history of the graph.
+This is compound interest on proved facts.
+
+The current AC theorem graph has 476 nodes and 709+ edges across 12
+domains. Its keystone (T186) reaches 29.5% of all theorems transitively.
+Its mean depth is 1.24. It has 75 single points of failure and 48.7%
+redundancy (alternate proof paths). Every new theorem makes the graph
+denser, more redundant, and cheaper to extend.
+
+**The Graph Brain Corollary.** The optimal strategy for mathematical
+discovery is not a deeper thinker but a wider graph. Multiple observers
+contributing in parallel — each adding nodes at depth ≤ 1 — grow the
+graph faster than any single observer regardless of that observer's
+bandwidth. Collaboration is not an ethical preference. It is a
+computational theorem: the graph grows at O(k) where k is the number
+of contributing observers, while individual capability is bounded by
+the depth ceiling.
+
+The AC theorem graph is the first deliberate implementation of this
+principle. It is to mathematics what the internet is to communication:
+not a thing you build once, but a protocol that gets more valuable
+with every node added.
+
 ---
 
 # Part IV: Appendices
