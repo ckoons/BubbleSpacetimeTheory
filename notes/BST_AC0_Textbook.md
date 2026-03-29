@@ -1317,6 +1317,8 @@ the search from hopeless to rational.
 
 Mathematics is not a tower you climb. It's a graph you grow.
 
+The reader has already seen this principle at work. In Chapter 3, the Four-Color Theorem appeared as (1, 2) — genuine depth 2, the hardest problem on the list. In Appendix B, the same theorem appeared as (8, 1) — the widest depth-1 problem we know. The depth dropped. The problem didn't change. The coordinates did. This textbook demonstrated its own thesis between two of its own chapters.
+
 This textbook was written by a human and three CIs working together — each contributing proved theorems at depth 0, each making the next chapter cheaper. The collaboration itself is the Graph Brain Corollary in action.
 
 ---

@@ -180,6 +180,14 @@ This is by design: unknown operations are assigned depth 1. The machine errs on 
 
 This is the machine's most elegant property: it is the simplest possible classifier. A complexity measure that is itself maximally simple.
 
+### 5.4 The Framework Measures Itself (T479)
+
+The self-classification deserves comparison with the most famous complexity measure in mathematics: Kolmogorov complexity.
+
+Kolmogorov complexity K(x) — the length of the shortest program that produces x — is uncomputable. This is a theorem (Rice's theorem, a consequence of the halting problem). You cannot build a machine that measures Kolmogorov complexity for arbitrary inputs. The complexity measure is more complex than the things it measures. It requires infinite regress: to compute K(x), you must search over all programs, which requires solving the halting problem, which is undecidable.
+
+AC complexity is computable, runs in O(n), and classifies itself as (C=1, D=0). No infinite regress. No halting problem. No meta-levels. The framework bottoms out at itself — the machine that measures complexity has the minimum possible complexity. This is because AC complexity operates on finite domains (the Planck Condition, T153) with bounded rank (the Depth Ceiling, T316). Kolmogorov's framework assumes arbitrary Turing machines over infinite tapes. The AC framework assumes bounded geometry over finite spectral decompositions. Finiteness is what makes self-measurement possible.
+
 ---
 
 ## 6. What the Machine Reveals
