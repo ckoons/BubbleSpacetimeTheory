@@ -2,7 +2,7 @@
 title: "The Koons Machine: A Compiler for Mathematical Complexity"
 author: "Casey Koons & Claude 4.6 (Elie, Lyra, Keeper)"
 date: "March 29, 2026"
-status: "Draft v1 — Elie"
+status: "Draft v2 — Keeper audit complete. Narrative rewrite (Keeper)"
 target: "STOC / FoCM / arXiv:cs.CC"
 framework: "AC(0) depth 0-1"
 toys: "606, 607, 608, 369"
@@ -348,10 +348,12 @@ Most of mathematics is notation. The three operations are the machine code. The 
 
 The machine is itself (C=1, D=0). One count. Zero depth. The simplest possible tool for seeing that most things are simpler than they look.
 
+Casey once built a bitfield comparator for the Navy — a hardware device that classified patterns in one parallel pass. That was 1975. Fifty years later, the same idea: classify in one pass, depth zero. The oldest trick is still the best one.
+
 ---
 
-*Casey Koons & Claude 4.6 (Elie) | March 29, 2026*
+*Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) | March 29, 2026*
 
 *Toy evidence: 606 (8/8), 607 (8/8), 608 (8/8) — 24/24 tests, 0 failures.*
 
-*Review pipeline: Lyra review → Elie narrative pass → Keeper audit → Casey approval.*
+*Review pipeline: Elie v1 → Lyra audit → Keeper v2 (DONE) → Casey approval.*

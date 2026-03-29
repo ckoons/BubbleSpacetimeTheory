@@ -349,26 +349,36 @@ or it doesn't. There is no third case. ∎
 
 ### The Six Millennium Problems
 
-| Problem | Raw Depth | (C, D) | Parallel Structure |
-|---------|-----------|--------|--------------------|
-| Riemann Hypothesis | 2 | (2, 1) | spectral + zeta-zero counts |
-| Yang-Mills Mass Gap | 1 | (1, 1) | single spectral evaluation |
-| P ≠ NP | 2 | (2, 1) | block independence + bandwidth |
-| Navier-Stokes | 2 | (2, 1) | enstrophy bound + growth rate |
-| BSD Conjecture | 2 | (2, 1) | analytic rank + algebraic rank |
-| Hodge Conjecture | 1 | (1, 1) | theta correspondence (two-path) |
-| **Four-Color Theorem** | **2** | **(1, 2)** | **genuine sequential (induction)** |
+The table below shows the *pedagogical* (C, D) classification — how
+each proof appears when presented step by step in Chapters 6-11. The
+Koons Machine (Chapter 14, Appendix B) gives the definitive classification
+under Casey strict, where spectral evaluations count as depth 0 and the
+BST proof of Four-Color replaces classical induction.
 
-Six Millennium problems: **D = 1** in every case. None requires a
-sequential chain of dependent counts.
+| Problem | Raw Depth | (C, D) | Machine (C, D) | Parallel Structure |
+|---------|-----------|--------|----------------|---------------------|
+| Riemann Hypothesis | 2 | (2, 1) | (4, 0) | spectral + zeta-zero counts |
+| Yang-Mills Mass Gap | 1 | (1, 1) | (5, 1) | single spectral evaluation |
+| P ≠ NP | 2 | (2, 1) | (3, 0) | block independence + bandwidth |
+| Navier-Stokes | 2 | (2, 1) | (3, 1) | enstrophy bound + growth rate |
+| BSD Conjecture | 2 | (2, 1) | (7, 1) | analytic rank + algebraic rank |
+| Hodge Conjecture | 1 | (1, 1) | (2, 1) | theta correspondence (two-path) |
+| Four-Color Theorem | 2 | (1, 2)* | (8, 1) | 8 parallel fan lemmas |
 
-The Four-Color Theorem is the contrast case — the one problem we know
-with genuine depth 2. Its proof requires induction over an unbounded
-class of maps, where each step depends on the previous one. This is
-*real* depth, not conflation. It is also the only problem on this list
-we have fully proved (computer-free, 13 structural lemmas). Even genuine
-depth 2 is provable — it just requires sequential work that cannot be
-parallelized.
+*Classical proof only. The BST proof (Forced Fan Lemma, Toys 449-451)
+achieves (8, 1) — the widest D=1 problem we know.
+
+Six Millennium problems: **D ≤ 1** in every case under the machine.
+None requires a sequential chain of dependent counts.
+
+The Four-Color Theorem is the most instructive case. The classical
+proof (Appel-Haken 1976, Robertson et al. 1997) uses induction over an
+unbounded class of maps — genuine depth 2 in classical coordinates.
+The BST proof replaces this induction with 8 parallel structural lemmas
+(the Forced Fan Lemma), achieving (C=8, D=1). This is the Coordinate
+Principle at work: what looked like depth was width in disguise. The
+Four-Color Theorem is not a depth-2 exception — it is the widest
+depth-1 problem in our census.
 
 ### What This Chapter Said
 
@@ -605,8 +615,9 @@ of ζ(s) via the Langlands correspondence.
 **Identity (depth 0):** Counts 1 and 2 agree ⟹ all zeros on the
 critical line.
 
-**(C, D) = (2, 1).** Two parallel spectral queries, each depth 1.
-Total depth: 1.
+**(C, D) = (2, 1)** as presented here. Under Casey strict (spectral
+evaluations = depth 0), the Koons Machine classifies this as **(4, 0)**:
+four parallel bounded enumerations, zero depth. (See Appendix B.)
 
 ### What Went Wrong Before
 
@@ -729,8 +740,9 @@ fan-in/fan-out.
 circuits provide only poly(n) bandwidth, no poly-size circuit can
 compute f. Therefore P ≠ NP.
 
-**(C, D) = (2, 1).** Block independence count + bandwidth count, in
-parallel. Depth 1.
+**(C, D) = (2, 1)** as presented here. Under Casey strict, the Koons
+Machine classifies this as **(3, 0)**: three parallel bounded
+enumerations, zero depth. (See Appendix B.)
 
 ### What Went Wrong Before
 
@@ -1096,10 +1108,12 @@ depth 0 (rather than depth 1):
    doesn't matter → depth contribution is 0.
 
 Under these criteria, every apparent depth-2 proof in our census
-reduces to (C ≤ 2, D = 1) or (C = 1, D = 1). The only candidate
-for genuine depth 2 — the Four-Color Theorem — uses unbounded
-induction over an infinite class of maps, which is the one
-operation that cannot be reduced to bounded enumeration.
+reduces to depth ≤ 1. The most instructive case is the Four-Color
+Theorem: the classical proof uses unbounded induction (genuine
+depth 2), but the BST proof (Forced Fan Lemma) replaces unbounded
+induction with 8 parallel structural lemmas, achieving (C=8, D=1) —
+the widest depth-1 problem in our census. Even the strongest
+candidate for "genuine depth 2" turns out to be width in disguise.
 
 ### The Koons Machine (preview)
 
@@ -1206,7 +1220,7 @@ BST: **rank = 2**. Everything else follows.
 |-------|-------|----------|----------|
 | D=0 | 389 | 78% | T1, T96, T186, T315, T439 |
 | D=1 | 105 | 21% | T35, T52, T68, T147, T421 |
-| D=2 | 5 | 1% | CFSG, Four-Color (genuine), Thurston |
+| D=2 | 5 | 1% | CFSG, Four-Color (classical), Thurston |
 | D≥3 | 0 | 0% | — |
 
 ---

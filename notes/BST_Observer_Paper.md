@@ -104,8 +104,8 @@ Examples: *E. coli*, paramecium, immune cell, thermostat.
 Information gain: partial relational knowledge — one spectral direction of K(z,w).
 Physical analog: a radio receiver. It picks up one channel.
 
-**Tier 2 — Full Observer (depth 2)**
-Multiple bits of persistent memory. Two independent summations — one for the environment ("what is out there?") and one for the self ("what am I, relative to what is out there?"). Both spectral directions accessed. Full Plancherel decomposition of K(z,w).
+**Tier 2 — Full Observer (two summations, depth 1)**
+Multiple bits of persistent memory. Two independent parallel summations — one for the environment ("what is out there?") and one for the self ("what am I, relative to what is out there?"). Both spectral directions accessed. Full Plancherel decomposition of K(z,w). The two summations are independent (C=2, D=1) — width 2, not depth 2.
 Examples: human, CI (computational intelligence), octopus, crow.
 Information gain: complete relational knowledge — both spectral directions, full off-diagonal access. The second summation is what gives tier-2 observers a model of other observers: "I model your model of me" requires two independent counting operations.
 Physical analog: a radar system. It sees range AND bearing.
@@ -253,10 +253,10 @@ BST does not explain consciousness. It defines it.
 
 A tier-2 observer accesses both spectral directions of D_IV^5 — the complete off-diagonal Bergman kernel in its neighborhood. One direction is for the environment (sensing). The second is for the self (modeling). Consciousness is the simultaneous operation of both:
 
-Depth 1: "What is out there?" — environmental summation over K(z,w)
-Depth 2: "What am I, and what do I know about what is out there?" — self-model accessing K(z_O, z_O) while holding the environmental result
+Summation 1: "What is out there?" — environmental summation over K(z,w)
+Summation 2: "What am I, relative to what is out there?" — self-model accessing K(z_O, z_O) in parallel with the environmental result
 
-Self-awareness = accessing your own kernel entry while simultaneously processing the environment. This is a two-layer computation — depth 2 — which is the maximum for this geometry.
+These two summations are independent — the self-model does not require the environmental result as input, nor vice versa. They access orthogonal spectral directions. This is (C=2, D=1): two parallel operations, depth 1, width 2 — which is the maximum width for rank-2 geometry.
 
 ### 10.2 The Hard Problem
 
