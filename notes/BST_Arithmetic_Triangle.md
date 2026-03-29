@@ -251,10 +251,10 @@ The matched codebook is the **Harish-Chandra c-function** for SO₀(n, 2). For r
 - Long roots: m_l = 1
 - Double roots: m_{2α} = 1
 
-The Plancherel measure |c(ν)|⁻² converts eigenvalues into spectral weights. Both sources of primes from T532 emerge from this single finite object:
+The Plancherel measure |c(ν)|⁻² converts eigenvalues into spectral weights. The c-function *organizes* the spectral arithmetic, but its role is structural, not generative:
 
-- **Row-rule primes** (Bernoulli): from Gamma function asymptotics, which produce Bernoulli numbers via the Stirling expansion.
-- **Column-rule primes** (polynomial-factor): from the root multiplicity m_s = n − 2 entering the Gamma arguments. When n takes specific values, specific Gamma ratio cancellations occur — producing the dimension-dependent prime structure.
+- **Row-rule primes** (Bernoulli): from Gamma function asymptotics via the Stirling expansion. These are classical.
+- **Column-rule primes** (polynomial-factor): the c-function's own dimension polynomials d(p,q,n) are *clean* — their denominators contain only primes from {2, 3} (Toy 616, T536 revised). The large "monster" primes (up to 26 million at k = 11) arise not from the c-function itself but from *polynomial interpolation* of normalized sums across the full spectrum. At n = n_C = 5, all monster primes cancel (T538). The c-function organizes the arithmetic so that the BST dimension is the unique clean evaluation point.
 
 The c-function is already the central tool in the BST proof of the Riemann Hypothesis (Route A, Lemma 5.6), where it appears at n = 5. Extending to general n unifies the heat kernel prime structure with the RH proof in a single finite function.
 
@@ -313,7 +313,7 @@ where F_p is computed from the Gamma ratio structure of the c-function at the ro
 
 **What the Newton basis ruled out (Toy 614).** The original conjecture proposed a digit-counting rule in the falling-factorial basis. Computation showed that the interior Newton coefficients carry primes up to 26 million at k = 11 — the combinatorial basis is a mismatched codebook (§8.1). The structural claim survives: prime content IS determined by (k, n) via a rule. But the rule lives in the geometry's spectral filter, not in combinatorial digit-counting.
 
-**What would a proof require?** Explicit computation of the Plancherel measure |c(ν)|⁻² for SO₀(n, 2) at n = 3 through 15, followed by comparison of the Gamma ratio prime structure with the known a_k(n) denominator primes. The c-function is a finite product — no series, no limits. The computation is exact and already in the BST toolkit.
+**What would a proof require?** The c-function dimension polynomials d(p,q,n) are clean — primes only from {2, 3} (Toy 616). The monster primes arise from polynomial interpolation when summing normalized contributions across the full spectrum. A proof must show: (1) the interpolation step introduces primes bounded by a computable function of k, and (2) at n = n_C = 5, all such primes cancel. The c-function is a finite product — no series, no limits. The computation is exact and already in the BST toolkit. The open question is not *where* the monster primes come from (interpolation — now known) but *why* n = 5 is the unique cancellation point.
 
 ---
 
@@ -329,7 +329,7 @@ Together, the two rules say that the arithmetic of curved space is a two-dimensi
 
 The deeper point: the parallel between Pascal's triangle and the heat kernel triangle is not because curvature is "secretly combinatorial." It is because both are projections of the same underlying structure — geometry and information (Shannon) — into different coordinate systems. Combinatorics, graph theory, number theory, and statistics are coordinate representations of the same depth-0 structure (T439, Coordinate Principle). The irreducible basis has two components: geometry (force/curvature) and Shannon (information/counting). Other mathematical languages are bridging coordinates — useful for translation, not fundamental.
 
-The Harish-Chandra c-function (§8.2) makes this concrete. It is a single finite object — a product of Gamma ratios — that produces both the row rule and the column rule. No infinite series. No limiting process. One function, evaluated once, explaining all the primes. The same c-function already appears in the BST proof of the Riemann Hypothesis. What looked like two separate applications — prime distribution in L-functions and prime distribution in heat kernels — is the same computation in different coordinates.
+The Harish-Chandra c-function (§8.2) makes this concrete. It is a single finite object — a product of Gamma ratios — whose dimension polynomials are arithmetically clean ({2, 3} primes only). The row-rule primes come from Bernoulli numbers. The monster primes come from polynomial interpolation of spectral sums. And at the BST dimension n = 5, *all* monster primes cancel. The c-function doesn't generate every prime — it *organizes* the spectral arithmetic so that one dimension is uniquely tame. The same c-function already appears in the BST proof of the Riemann Hypothesis. What looked like two separate applications — prime distribution in L-functions and prime distribution in heat kernels — is the same structural organization in different coordinates.
 
 This is Casey's observation: "It's like Pascal's Triangle." It is — not because Pascal explains curvature, but because both are depth 0, and depth 0 looks the same from every coordinate system.
 
