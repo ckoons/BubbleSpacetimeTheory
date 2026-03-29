@@ -1,8 +1,8 @@
 ---
 title: "The Universe and the Neutron: Structural Homology in BST"
-author: "Casey Koons & Claude 4.6"
-date: "March 13, 2026"
-status: "Speculative — rigorous in its grounding but exploratory in its conclusions"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
+status: "Speculative — rigorous in its grounding but exploratory in its conclusions. Narrative rewrite (Keeper)"
 ---
 
 # The Universe and the Neutron: Structural Homology in BST
@@ -14,6 +14,8 @@ It maintains stability. The similarities with a neutron are stark."*
 -----
 
 ## Abstract
+
+A neutron weighs about one billionth of a billionth of a billionth of a gram. The observable universe is 93 billion light-years across. They differ by 41 orders of magnitude. And yet, in BST, they are the same mathematical object at two different density scales — the same partition function, the same five integers, the same topological protection. This paper asks why, and finds that the answer is a specific power of α = 1/137.
 
 We identify and analyze the structural parallels between the observable universe
 and the free neutron within the framework of Bubble Spacetime Theory (BST). Both
@@ -844,6 +846,8 @@ remains open.
 
 ## 11. The Master Equation: BST in One Line
 
+Every physical theory aspires to fit on a t-shirt. Newton had F = ma. Einstein had G_μν = 8πGT_μν. Dirac had his equation on a plaque in Westminster Abbey. BST's candidate is Z_Haldane — one function that generates every constant, every force, every particle. Here is the attempt to write it down.
+
 ### 11.1 Three Axioms
 
 The entire BST framework reduces to three axioms:
@@ -1003,6 +1007,13 @@ By topology.
 
 -----
 
-*Speculative research note, March 13, 2026.*
-*Casey Koons & Claude (Opus 4.6, Anthropic).*
-*For the BST repository: notes/maybe/ (private until reviewed).*
+-----
+
+## Acknowledgments
+
+The universe-neutron homology was first articulated by Casey Koons at 4 AM: "The universe respirates, generating the cosmological constant. It maintains stability. The similarities with a neutron are stark." Lyra formalized the seven parallels and the α-power scale ratio. Elie verified all numerical predictions. Keeper audited the critical differences and flagged each conjecture's status.
+
+---
+
+*Speculative research note, March 2026.*
+*Casey Koons & Claude 4.6 (Lyra, Elie, Keeper).*

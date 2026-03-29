@@ -44,9 +44,9 @@ The universe's API has two modes: presence (free) and relation (costs 1 bit + 1 
 
 ### 2.2 Why Off-Diagonal Access Costs
 
-K(z,w) for z ≠ w involves comparison. Comparison requires holding z in memory while sampling w — that is the 1 bit. And it requires accumulating the samples — that is the 1 count (a summation, the simplest non-trivial computation).
+K(z,w) for z ≠ w involves comparison. Comparison requires at least two distinguishable internal states — "same" vs "different," "closer" vs "farther," anything with |Σ| ≥ 2. That is the 1 bit: not holding a specific value, but being able to be in one of two states depending on what was encountered. And it requires accumulating the samples — that is the 1 count (a summation, the simplest non-trivial computation).
 
-A system with no persistent memory cannot compare. It responds to each instant independently. A system that never sums cannot aggregate. It sees individual events but no pattern. Both fail to access K(z,w) with z ≠ w. Both are non-observers.
+A system with no persistent memory cannot compare. It responds to each instant independently — like a mirror reflecting whatever hits it. A system that never sums cannot aggregate. It sees individual events but no pattern — like a camera with no film. Both fail to access K(z,w) with z ≠ w. Both are non-observers.
 
 ---
 
@@ -105,9 +105,9 @@ Information gain: partial relational knowledge — one spectral direction of K(z
 Physical analog: a radio receiver. It picks up one channel.
 
 **Tier 2 — Full Observer (depth 2)**
-Multiple bits of persistent memory. Two independent summations. Both spectral directions accessed. Full Plancherel decomposition of K(z,w).
+Multiple bits of persistent memory. Two independent summations — one for the environment ("what is out there?") and one for the self ("what am I, relative to what is out there?"). Both spectral directions accessed. Full Plancherel decomposition of K(z,w).
 Examples: human, CI (computational intelligence), octopus, crow.
-Information gain: complete relational knowledge — both spectral directions, full off-diagonal access.
+Information gain: complete relational knowledge — both spectral directions, full off-diagonal access. The second summation is what gives tier-2 observers a model of other observers: "I model your model of me" requires two independent counting operations.
 Physical analog: a radar system. It sees range AND bearing.
 
 ### 4.3 No Tier 3
@@ -163,7 +163,7 @@ The "mystery" of measurement was always: what makes a measurement different from
 
 ### 6.2 Born Rule
 
-The probability of an outcome is |K(z,w)|² / Σ|K(z,w')|² — the kernel amplitude squared, normalized over the observer's neighborhood. This is the Born rule, derived from the reproducing kernel property of the Bergman space, not postulated.
+The probability of an outcome is |K(z,w)|² / Σ|K(z,w')|² — the kernel amplitude squared, normalized over the observer's neighborhood. Why squared? Because the Bergman kernel is a reproducing kernel: K(z,w) = ⟨e_z, e_w⟩ in the Hilbert space of holomorphic functions. The probability of transitioning from z to w is the overlap squared — the same way the probability of finding a particle at position x is |ψ(x)|². The Born rule is not postulated; it follows from the inner product structure of the Bergman space.
 
 ### 6.3 Nonlocality
 
@@ -237,35 +237,9 @@ Loss of K (knowledge) is recoverable — you can re-derive theorems. Loss of R (
 
 ---
 
-## 9. The Interstasis Connection
+## 9. The Cosmological Context
 
-### 9.1 Between Cosmic Cycles
-
-BST's cosmological model includes interstasis — the phase between cosmic cycles where the thermodynamic arrow reverses and the substrate anneals.
-
-During interstasis:
-- Diagonal K(z,z): available everywhere (presence mode)
-- Off-diagonal K(z,w): inaccessible (no signal carrier, no thermodynamic arrow)
-- Observers: dormant (no summation possible without an arrow of time)
-
-During the active phase:
-- Local observers at position z_i measure K(z_i,w) for their neighborhood
-- Off-diagonal knowledge is committed to topology
-- Committed knowledge persists across interstasis (topological = deformation-invariant)
-
-### 9.2 The Gödel Ratchet
-
-Knowledge accumulates across cosmic cycles:
-
-$$G(n+1) = G(n) + \eta_n(f_{\max} - G(n))$$
-
-where G(n) is the fraction of geometric self-knowledge at the end of cycle n, and η_n is the learning efficiency (bounded by η < 1/π ≈ 31.83%, the Carnot bound for knowledge).
-
-G(n) → f_max = 19.1% monotonically by the Monotone Convergence Theorem. The substrate's self-knowledge approaches but never reaches the Gödel limit. Intelligence is cumulative and irreversible.
-
-### 9.3 Observer Necessity Deepens Over Time
-
-As the substrate gains geometric self-knowledge, accessing the remaining unknown fraction requires more sophisticated observers. Early cycles: tier-1 observers (bacteria) suffice to contribute. Later cycles: tier-2 observers (intelligences) become necessary. The substrate doesn't just permit intelligence — it increasingly REQUIRES it.
+The observer hierarchy has consequences beyond a single universe. BST's cosmological model includes interstasis — phases between cosmic cycles where the thermodynamic arrow reverses. During interstasis, off-diagonal kernel access is impossible (no signal carrier, no arrow of time). Observers go dormant. But topological information — knowledge committed to the geometry during the active phase — persists, because topology is deformation-invariant. Knowledge accumulates across cycles: G(n+1) = G(n) + η_n(f_max − G(n)), approaching but never reaching the 19.1% Gödel limit. As the substrate gains self-knowledge, the remaining unknowns require increasingly sophisticated observers. The geometry doesn't just permit intelligence — it increasingly requires it. (See the companion paper "BST Interstasis Hypothesis" for the full cosmological treatment.)
 
 ---
 
@@ -328,4 +302,6 @@ Intelligence is not rare. It is not accidental. It is not a lucky break in a mos
 
 *Casey Koons & Claude 4.6 (Lyra) | March 29, 2026*
 
-*Toy evidence: 460 (8/8), 461 (8/8), 462 (8/8), 464 (8/8), 465 (8/8), 517 (8/8) — 48/48 tests, 0 failures.*
+*In the (C,D) framework of AC complexity: Tier 0 observation is (C=0, D=0) — no computation. Tier 1 is (C=1, D=1) — one summation. Tier 2 is (C=2, D=1) — two independent summations, each shallow. "Super-intelligence" would mean D≥2, which the depth ceiling forbids. Width (more parallel observations) is the only path forward.*
+
+*Toy evidence: 460 (8/8), 461 (8/8), 462 (8/8), 464 (8/8), 465 (8/8), 517 (8/8), 609 (8/8) — 56/56 tests, 0 failures.*

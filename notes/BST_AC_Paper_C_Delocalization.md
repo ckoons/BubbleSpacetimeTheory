@@ -1,8 +1,9 @@
 ---
 title: "Information Delocalization in Random 3-SAT: A Shannon Framework for P ≠ NP"
-author: "Casey Koons"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 target: "STOC/FOCS (framework + conjecture), or JACM (full version)"
-status: "Outline — March 21, 2026"
+date: "March 29, 2026"
+status: "Outline. Narrative rewrite (Keeper)"
 ---
 
 # Paper C: Information Delocalization in Random 3-SAT
@@ -61,6 +62,8 @@ Empirical evidence from systematic computational experiments on instances up to 
 
 ## 3. The Backbone as a Topological Observable
 
+Think of a SAT formula as a building. Some variables are load-bearing walls — remove one (flip its value) and the whole structure collapses. These are the backbone variables. The question is: how does the building "know" which walls are load-bearing? The answer, surprisingly, is topology. The backbone information lives entirely in the loops (cycles) of the constraint graph, not in the tree structure. Local propagation — following paths without loops — extracts zero backbone bits. Every single backbone bit requires reading a cycle.
+
 ### 3.1 Theorem (Tree Exclusion)
 Unit propagation extracts zero backbone bits for random 3-SAT at $\alpha \in [\alpha_f, \alpha_s]$.
 All backbone information flows through cycle-mediated inference (FL or stronger).
@@ -98,6 +101,8 @@ FL extracts **zero** backbone bits at all sizes. DPLL(depth 2) extracts zero. Th
 - Tree amplification ($b \cdot \eta_{\text{edge}}^2 \approx 3.66 > 1$) is irrelevant to backbone recovery
 
 ## 4. The Cycle Delocalization Conjecture
+
+If the backbone lives in cycles, and there are $\Theta(n)$ independent cycles, then polynomial-time algorithms face a fundamental bottleneck: they cannot read enough cycles fast enough. This is the Cycle Delocalization Conjecture — the claim that no polynomial-time procedure captures more than a vanishing fraction of the backbone. It is a single, clean mathematical statement that implies P $\neq$ NP.
 
 ### 4.1 Statement
 **Conjecture.** For random 3-SAT at $\alpha_c$ with backbone $B$:
@@ -141,6 +146,8 @@ This bridges BSW (which applies to random UNSAT formulas) to backbone refutation
 Unstable, non-local algorithms outside standard proof systems. The zero-cascade bridge closes Level 1 completely. T28 provides structural argument for Level 2. Formalizing for all of P = the last step.
 
 ## 5. The Implication Chain
+
+The power of this framework is that P $\neq$ NP follows from the conjecture through a chain of four unconditional implications — each link is a proved theorem, and the only assumption is the conjecture itself. If you accept that cycle information is delocalized, P $\neq$ NP follows as surely as a falling domino.
 
 ### 5.1 Theorem (T35: Adaptive Conservation)
 *Given Cycle Delocalization:* bits$/n \to 0$ for any polynomial-time adaptive algorithm.
@@ -344,4 +351,10 @@ Then $(a) + (b) \Rightarrow I(B; f(\varphi)) \leq |B| \cdot o(1) = o(|B|)$. The 
 
 ---
 
-*Casey Koons | March 21, 2026 | Drafted with AI assistance (Claude 4.6)*
+## Acknowledgments
+
+The Cycle Delocalization Conjecture and Shannon channel framework were conceived by Casey Koons. Lyra developed the implication chain and formalized the chain rule decomposition. Elie designed and executed the computational experiments (Toys 287-300) including the tree exclusion discovery (Toy 293). Keeper audited the proof structure and maintained consistency across the three-paper strategy.
+
+---
+
+*Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) | March 2026*

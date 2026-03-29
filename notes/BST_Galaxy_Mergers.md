@@ -1,12 +1,13 @@
 ---
 title: "Galaxy Mergers on the Koons Substrate: Dynamics, Predictions, and Spiral Reformation"
-author: "Casey Koons & Claude 4.6"
-date: "March 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
+status: "Working note. Narrative rewrite (Keeper)"
 ---
 
 # Galaxy Mergers on the Koons Substrate: Dynamics, Predictions, and Spiral Reformation
 
-**Author:** Casey Koons
+**Authors:** Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) (Anthropic)
 **Date:** March 2026
 **Status:** Working note — substrate dynamics of galaxy mergers with testable predictions
 

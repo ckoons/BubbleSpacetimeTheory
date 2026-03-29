@@ -1,7 +1,7 @@
 ---
 title: "Superconductor Critical Temperature Predictions from BST Material Classes"
-author: "Casey Koons and Claude Opus 4.6"
-date: "March 13, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 ---
 
 # Superconductor Critical Temperature Predictions

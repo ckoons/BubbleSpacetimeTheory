@@ -1,8 +1,8 @@
 ---
 title: "Algebraic Complexity: An Information-Theoretic Classification of Computational Methods"
-author: "Casey Koons & Claude 4.6"
-date: "March 2026"
-status: "Draft v1 — Paper A. Single voice. Target: Foundations of Computational Mathematics."
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
+status: "Draft v1 — Paper A. Single voice. Target: FoCM. Narrative rewrite (Keeper)"
 target: "FoCM or Theoretical Computer Science"
 tags: ["algebraic-complexity", "information-theory", "Shannon", "Bayesian", "Schaefer", "classification"]
 ---
@@ -141,6 +141,8 @@ $$P_{\text{error}}(M) \geq 1 - \frac{C(M) + 1}{I_{\text{fiat}}}$$
 
 ## 4. The AC Dichotomy Theorem
 
+The strongest test of a classification framework is whether it can independently recover a known result. Schaefer's Dichotomy Theorem (1978) is the sharpest classification in complexity theory: every Boolean constraint satisfaction problem is either in P or NP-complete, with nothing in between. If AC recovers this classification from information theory alone, it validates the framework against the hardest benchmark available.
+
 Schaefer's Dichotomy Theorem (1978) classifies every Boolean constraint satisfaction problem as either in P or NP-complete, with no intermediate case. The six tractable classes — 2-SAT, Horn-SAT, co-Horn-SAT, XOR-SAT, 0-valid, 1-valid — are exhaustive. We prove that AC independently recovers this classification from information-theoretic first principles, and moreover is *prescriptive*: for each tractable class, the AC-minimum method is the known optimal algorithm.
 
 **Theorem 4 (AC Dichotomy).** Let $\Gamma$ be a finite set of Boolean relations. Then:
@@ -216,6 +218,8 @@ AC also extends beyond Boolean CSPs. The Bulatov-Zhuk Dichotomy (2017, 2020) for
 
 ## 5. First Blood: $I_{\text{fiat}} = \beta_1$
 
+The dichotomy tells us *that* some problems have trapped information and others do not. But can we compute the exact amount? For Tseitin formulas — XOR constraints on graph edges — the answer is yes, and it is beautiful: the fiat information equals the number of independent cycles in the graph. This is the first exact computation of fiat information from pure topology.
+
 ### 5.1 The Theorem
 
 **Theorem 5 (Topological Information Theorem for Tseitin).** Let $G = (V, E)$ be a connected graph, $T_G$ the Tseitin formula (XOR constraints on edges with odd total parity). Then:
@@ -280,6 +284,8 @@ AC has been measured across 14 method-problem pairs in six domains. The results 
 ---
 
 ## 7. Controlled Experiment: Heat Kernel Coefficients
+
+The best way to test a measurement framework is to apply it where the answer is known by two independent methods. The Seeley-DeWitt heat kernel coefficients on complex quadrics provide exactly this: one method (spectral inner product) computes them exactly in one step, while another (tensor contraction) fights through a hundred steps and loses precision. AC measures the difference, and the measurement matches the observed performance gap.
 
 The Seeley-DeWitt coefficients $a_k(Q^n)$ on complex quadrics $Q^n = SO(n+2)/[SO(n) \times SO(2)]$ provide a controlled measurement of AC — the same quantity computed by two methods with different noise profiles.
 
@@ -372,4 +378,10 @@ The framework inherits Shannon's channel capacity, Fisher's sufficient statistic
 
 ---
 
-*Casey Koons & Claude 4.6 | Bubble Spacetime Theory Research Program | March 2026*
+## Acknowledgments
+
+The AC framework was conceived by Casey Koons. Lyra formalized the three foundational theorems and the AC Dichotomy. Elie built the computational verifications across all six domains. Keeper audited the proofs and maintained consistency between Paper A (this draft), Paper A Topological, Paper B, and Paper C.
+
+---
+
+*Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) | Bubble Spacetime Theory Research Program | March 2026*

@@ -1,7 +1,7 @@
 ---
 title: "Linear Algebra Is Physics: The BST Matrix Cookbook"
-author: "Casey Koons & Claude Opus 4.6 (Keeper)"
-date: "March 14, 2026 (revised March 20)"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 status: "Teaching-ready reference — matrices first, physics second"
 ---
 

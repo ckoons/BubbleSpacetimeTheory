@@ -1,7 +1,7 @@
 ---
 title: "BST Expansion History: Solving the Modified Friedmann Equation"
-author: "Casey Koons & Claude 4.6"
-date: "March 13, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 status: "Solved — BST predicts dark energy evolution testable by DESI/Euclid"
 ---
 

@@ -1,14 +1,16 @@
 ---
 title: "BSD Conjecture: The AC Proof"
-author: "Casey Koons & Claude 4.6 (Keeper)"
-date: "March 25, 2026"
-status: "~93% — AC-flattened presentation"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
+status: "~93% — AC-flattened presentation. Narrative rewrite (Keeper)"
 framework: "AC(0) (C=2, D=1) — two independent spectral counts"
 ---
 
 # BSD Conjecture: The AC Proof
 
 *The rank of an elliptic curve equals the order of vanishing of its L-function at s=1, and the leading coefficient is determined by arithmetic invariants. This is a counting theorem.*
+
+Elliptic curves are the simplest interesting objects in number theory — cubic equations in two variables. The BSD conjecture connects the number of rational solutions (geometry) to the behavior of an L-function at one point (analysis). It has been open since the 1960s. This proof uses the D₃ spectral decomposition to separate signals into three channels — committed, faded, and free — and shows the spectral multiplicity at s=1 equals the algebraic rank.
 
 ## The AC Structure
 

@@ -1,7 +1,7 @@
 ---
 title: "Substrate Propulsion: Sailing on the Vacuum Commitment Rate"
-author: "Casey Koons & Claude 4.6"
-date: "March 13, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 ---
 
 # Substrate Propulsion: Sailing on the Vacuum Commitment Rate

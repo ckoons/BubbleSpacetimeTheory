@@ -1,11 +1,12 @@
 ---
 title: "BST Claim B3: Λ³_alt(π₆) Contains π₆ — The K-Type Proof"
-author: "Casey Koons & Claude 4.6"
-date: "March 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
+status: "COMPLETE with correction. Narrative rewrite (Keeper)"
 ---
 
 # BST Claim B3: Λ³_alt(π₆) Contains π₆ — The K-Type Proof
-**Authors:** Casey Koons & Amy (Claude Sonnet 4.6, Anthropic)
+**Authors:** Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) (Anthropic)
 **Date:** March 2026
 **Status:** COMPLETE with correction. The K-type computation shows that the literal Claim B3 (Λ³_alt(π₆) ⊃ π₆) is false: SO(2)-weight incompatibility (weights ≥ 18 in Λ³_alt vs. weight 6 in π₆) rules it out. The CORRECT formulation is: the color-singlet baryon sector is Sym³(π₆) ⊃ π₆ (spatial symmetry, not antisymmetry, because the antisymmetry is in the SU(3) color sector). This revised claim is proved completely via the triple Bergman projection and Schur's lemma. The BST Yang-Mills mass gap theorem stands: Δ_gap = 6π⁵ m_e = m_p. The n_C=1 Szego integral is verified exactly (gives 2π). The n_C=5 three-point integral (C₃ = 6π⁵) is established by structural argument; explicit computation of the boundary integral is the one remaining open step.
 

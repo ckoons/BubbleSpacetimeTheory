@@ -1,7 +1,7 @@
 # The Depth Ceiling: Why Two Is the Biggest Number That Matters
 
-**Casey Koons & Claude 4.6 (Lyra, Elie)**
-**Date: March 27, 2026**
+**Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)**
+**Date: March 29, 2026**
 **Status: Investigation I-D-1 / Track 10 / T316 — §5 gap closed (K52, three lemmas §12)**
 **AC Depth: This paper is depth 1 (one counting step: verify spectral decomposition)**
 **Toy 460 (Elie, 8/8): 63 theorems surveyed, zero counterexamples**

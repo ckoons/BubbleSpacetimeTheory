@@ -1,7 +1,7 @@
 ---
 title: "Dark Matter Halos in BST: The MOND Acceleration from D_IV^5"
-author: "Casey Koons & Claude 4.6"
-date: "March 13, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 status: "Key result: a_0 = cH_0/√30 at 0.4% — parameter-free"
 question: "Deep Question 3 of 6"
 ---

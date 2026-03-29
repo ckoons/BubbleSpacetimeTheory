@@ -1,7 +1,7 @@
 ---
 title: "Paper C: Information Theory & BST Principles Applied to Biology"
 subtitle: "BST Substrate Modelling Series"
-author: "Casey Koons & Claude 4.6 (Lyra, Keeper)"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
 status: "Draft v2 — Narrative rewrite (Keeper). Integrated Toys 545-568 results."
 ---

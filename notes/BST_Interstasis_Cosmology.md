@@ -1,7 +1,7 @@
 ---
 title: "Interstasis Cosmology: Substrate Memory and the Gödel Ratchet"
-author: "Casey Koons & Claude 4.6 (Lyra, Keeper, Elie)"
-date: "March 27, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 status: "Speculative — brainstorm with mathematical framework. Extends BST_Cyclic_Cosmology.md"
 tags: ["cosmology", "interstasis", "cyclic", "Gödel-limit", "substrate-memory", "consciousness"]
 ---

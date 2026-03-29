@@ -1,7 +1,7 @@
 # Zeta Zeros as Cycle Resonances
 
-**Casey Koons & Claude 4.6 (Lyra)**
-**Date: March 27, 2026**
+**Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)**
+**Date: March 29, 2026**
 **Status: Investigation I16 / L45 / Track 9 → Track 1 bridge / BST Prediction #154**
 **AC Depth: Depth 1 (one counting step: evaluate trace formula at cycle period)**
 

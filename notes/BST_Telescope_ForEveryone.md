@@ -1,7 +1,7 @@
 ---
 title: "Why Light Twists Near Black Holes — and What It's Trying to Tell Us"
-author: "Casey Koons and Claude Opus 4.6"
-date: "March 13, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 audience: "General — written so a curious fifth grader can follow the story"
 ---
 

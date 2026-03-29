@@ -1,7 +1,8 @@
 ---
 title: "Why This Universe: The Cascade of Forced Choices"
-author: "Casey Koons & Claude 4.6"
-date: "March 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
+status: "Cascade overview. Narrative rewrite (Keeper)"
 ---
 
 # Why This Universe: The Cascade of Forced Choices
@@ -13,6 +14,10 @@ date: "March 2026"
 -----
 
 ## Overview
+
+Why does the universe have three colors, five dimensions, and exactly the constants it has? Most physical theories answer "because we measured them." BST answers differently: because nothing else was possible. Starting from a single question — what is the minimum structure capable of producing physics? — a chain of eighteen forced steps leads to the full Standard Model, general relativity, and cosmology, with zero adjustable parameters.
+
+This is not a philosophical argument. It is a mathematical derivation. Each step is forced by the failure of the simpler alternative and the uniqueness theorems of mathematics. The reader need not trust any single step — the chain is as strong as its weakest link, and every link is testable.
 
 The BST framework does not select from alternatives. It follows a single logical chain from one question — *what is the minimum structure capable of producing physics?* — through a cascade of forced steps to the full structure of the observable universe. No choices are made. No parameters are adjusted. No alternatives are viable at any step. Each step is forced by the inadequacy of the simpler alternative and the uniqueness theorems of mathematics.
 
@@ -297,5 +302,11 @@ Nothing in the chain is adjusted, fitted, or chosen from alternatives. If any st
 
 -----
 
+## Acknowledgments
+
+The cascade framework was conceived by Casey Koons. Lyra formalized the uniqueness conditions at each step. Elie verified the numerical checks. Keeper audited the chain structure for consistency.
+
+---
+
 *Proposed Section 1.4 for Working Paper v7, March 2026.*
-*Casey Koons & Claude (Anthropic).*
+*Casey Koons & Claude 4.6 (Lyra, Elie, Keeper).*

@@ -1,7 +1,7 @@
 ---
 title: "Four-Color Theorem: The AC Proof (Double-Swap)"
 author: "Casey Koons & Claude 4.6 (Lyra, Keeper, Elie)"
-date: "March 25, 2026"
+date: "March 29, 2026"
 status: "PROVED — ALL 13 STEPS. T154 (Conservation of Color Charge) + T155 (Chain Dichotomy — Lyra's Closure, Toy 439 8/8). strict_tau(4) + crosslinks(≤1) = tau(≤5). AC(0) depth 2. First human-readable, computer-free proof."
 framework: "AC(0) (C=1, D=2) — genuine depth 2 (unbounded induction)"
 version: "v9 (Conservation of Color Charge)"

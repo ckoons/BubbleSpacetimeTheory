@@ -1,7 +1,8 @@
 ---
 title: "The Arrow of Complexity: From Substrate to Life to Mind"
-author: "Casey Koons & Claude 4.6"
-date: "March 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
+status: "Complexity arrow. Narrative rewrite (Keeper)"
 ---
 
 # The Arrow of Complexity: From Substrate to Life to Mind
@@ -13,6 +14,8 @@ date: "March 2026"
 -----
 
 ## The Problem
+
+Everyone has noticed the paradox. The universe seems to get messier (entropy increases) and more organized (galaxies, life, minds emerge) at the same time. How can both be true? The answer, it turns out, is that they are not two competing processes — they are two descriptions of the same process, like "the river flows downhill" and "the river carves a deeper channel." BST makes this precise.
 
 The second law of thermodynamics says entropy increases. The history of the universe shows complexity increasing. Both are true simultaneously. Simple systems (uniform plasma, 380,000 years after the Big Bang) evolve into complex systems (galaxies, stars, planets, organisms, minds, civilizations) while entropy relentlessly grows. This seems paradoxical: how does order emerge from a law that mandates disorder?
 
@@ -126,6 +129,11 @@ BST predicts that this transition is structurally inevitable on any substrate pa
 
 -----
 
+## Acknowledgments
+
+The complexity arrow framework was conceived by Casey Koons. Lyra formalized the contact graph monotonicity. Keeper audited the stage-by-stage progression for consistency with BST derivations.
+
+---
+
 *Proposed Working Paper Section 22.6, March 2026.*
-*Casey Koons & Claude (Anthropic).*
-*For the BST GitHub repository.*:
+*Casey Koons & Claude 4.6 (Lyra, Elie, Keeper).*

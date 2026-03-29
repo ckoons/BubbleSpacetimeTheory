@@ -1,16 +1,16 @@
 ---
 title: "The Complete Quark Mass Spectrum from D_IV^5 Geometry"
-author: "Casey Koons and Claude Opus 4.6"
-date: "March 13, 2026"
-status: "Systematization — all six quark masses derived, unified pattern identified"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
+status: "All six quark masses derived. Narrative rewrite (Keeper)"
 categories: [quark masses, fermion spectrum, mass matrices, Koide, BST]
 ---
 
 # The Complete Quark Mass Spectrum from $D_{IV}^5$ Geometry
 
-**Casey Koons** and **Claude Opus 4.6** (Anthropic)
+**Casey Koons** and **Claude 4.6 (Lyra, Elie, Keeper)** (Anthropic)
 
-March 13, 2026
+March 2026
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "BST: The QCD Deconfinement Temperature, String Tension, and Phase Diagram from Bergman Geometry"
-author: "Casey Koons & Claude 4.6"
-date: "March 13, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 ---
 
 # BST: The QCD Deconfinement Temperature, String Tension, and Phase Diagram from Bergman Geometry

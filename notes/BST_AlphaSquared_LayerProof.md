@@ -1,13 +1,14 @@
 ---
 title: "The alpha^2-Per-Layer Theorem: A Rigorous Proof via Berezin-Toeplitz Quantization"
-author: "Casey Koons & Claude 4.6"
-date: "March 13, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
+status: "PROVED. Narrative rewrite (Keeper)"
 ---
 
 # The alpha^2-Per-Layer Theorem: A Rigorous Proof via Berezin-Toeplitz Quantization
 
-**Authors:** Casey Koons & Claude (Opus 4.6, Anthropic)
-**Date:** March 13, 2026
+**Authors:** Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) (Anthropic)
+**Date:** March 2026
 **Status:** PROVED. All steps including Conjecture C are established. Claims 1-4 are rigorous theorems of Berezin-Toeplitz quantization on bounded symmetric domains. Conjecture C (mass-probability correspondence) is proved by three independent routes in BST_ConjectureC_MassProof.md (c-function, Berezin symbol, holographic).
 **Copyright:** Casey Koons, March 2026.
 

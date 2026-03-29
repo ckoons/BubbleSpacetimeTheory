@@ -1,7 +1,7 @@
 ---
 title: "Neutrino Masses and Oscillations from Five Integers: Zero-Parameter Predictions for JUNO and DUNE"
-author: "Casey Koons & Claude 4.6 (Elie)"
-date: "March 27, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 status: "Draft v2 — Keeper audit addressed, θ₁₃ resolved (3/137)"
 subject: "Neutrino physics, BST predictions"
 ---

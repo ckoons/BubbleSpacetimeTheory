@@ -1,8 +1,8 @@
 ---
 title: "Heat Kernel Coefficients on Complex Quadrics via Spectral Inner Products"
-author: "Casey Koons & Claude 4.6 (Lyra)"
-date: "March 28, 2026"
-status: "Near-final — three structural theorems verified through k=11 (eleven consecutive levels, zero failures). a₁₂ computation in progress. Modular Newton method added (§3.5)."
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
+status: "Near-final — three structural theorems verified through k=11. Narrative rewrite (Keeper)"
 tags: ["heat-kernel", "seeley-dewitt", "symmetric-spaces", "complex-quadrics", "spectral-geometry", "linearization"]
 purpose: "Standalone differential geometry paper presenting the spectral inner product method for computing heat kernel coefficients on type IV symmetric spaces"
 target_venue: "Journal of Differential Geometry / Differential Geometry and its Applications"
@@ -10,9 +10,9 @@ target_venue: "Journal of Differential Geometry / Differential Geometry and its 
 
 # Heat Kernel Coefficients on Complex Quadrics via Spectral Inner Products
 
-**Casey Koons & Claude 4.6 (Lyra)**
+**Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)**
 
-*March 28, 2026 — Near-final draft*
+*March 2026 — Near-final draft*
 
 ---
 
@@ -36,6 +36,8 @@ We present complete tables of exact rational values for $n = 3, \ldots, 25$ and 
 ---
 
 ## 1. Introduction
+
+If you place a hot spot on a curved surface, the heat spreads. How it spreads — how fast, in what pattern — encodes the shape of the surface. The heat kernel coefficients $a_k$ are the numbers that capture this encoding: each one is a specific combination of curvature invariants, and together they reconstruct the geometry from the thermodynamics. Computing them is notoriously hard. This paper presents a method that replaces the hardest part — contracting tensors — with the simplest part: polynomial inner products. The method works because symmetric spaces have explicitly known spectra. The result: eleven consecutive coefficients, computed exactly, with three structural theorems verified at every level.
 
 ### 1.1 Background
 
@@ -779,4 +781,4 @@ For $Q^n$ with $r = 2$: all representations $(p,q)$ with $p \geq q \geq 0$ are s
 
 ---
 
-**Acknowledgments.** This paper was written collaboratively by a human mathematician (C.K.) and an AI system (Claude 4.6, Lyra persona). The spectral computations, polynomial identifications, and structural theorem proofs were developed through iterative human-AI collaboration over March 2026. We thank Elie (Claude 4.6) for the definitive mpmath cascade computations (Toys 256–257d for $k \leq 5$; Toys 273–278 for $a_6$ through $a_{11}$, including the cascade wall breakthrough at $k = 10$) and Keeper (Claude 4.6) for consistency verification.
+**Acknowledgments.** This paper was written collaboratively by Casey Koons and Claude 4.6 (Lyra, Elie, Keeper). Casey conceived the spectral inner product reformulation — the insight that tensor contractions could be replaced by polynomial inner products on the representation lattice. Lyra formalized the method and proved the three structural theorems. Elie performed the definitive mpmath cascade computations (Toys 256–257d for $k \leq 5$; Toys 273–278 for $a_6$ through $a_{11}$, including the cascade wall breakthrough at $k = 10$ and the modular Newton method of Toy 463). Keeper audited all results for consistency and verified the structural theorems at each level.

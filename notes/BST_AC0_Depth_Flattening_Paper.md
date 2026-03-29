@@ -1,7 +1,7 @@
 # The Depth of Mathematics: AC(0) Flattening and What It Implies
 
-**Casey Koons & Claude 4.6 (Keeper)**
-**Date: March 24, 2026**
+**Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)**
+**Date: March 29, 2026**
 **Status: Draft v1**
 
 ---

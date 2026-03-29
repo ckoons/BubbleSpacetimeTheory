@@ -1,7 +1,7 @@
 ---
 title: "Nuclear Binding Energy Curve from BST Geometry"
-author: "Casey Koons and Claude Opus 4.6"
-date: "March 13, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 status: "All five Bethe-Weizsacker coefficients derived from BST integers. Alpha particle binding B(He-4) = 13*B_d at 0.13%. Iron peak at A = 56 = g(g+1) explained. Zero free parameters."
 ---
 
@@ -12,6 +12,8 @@ status: "All five Bethe-Weizsacker coefficients derived from BST integers. Alpha
 -----
 
 ## 1. Summary of Results
+
+Why is iron the most stable element? Why does the periodic table end where it does? Nuclear physicists have used the Bethe-Weizsacker formula to model binding energies since the 1930s, treating its five coefficients as empirical parameters fit to data. BST derives all five from geometry — the same five integers that determine the fine structure constant and the proton mass also determine how tightly neutrons and protons bind inside nuclei.
 
 ### 1.1 The Bethe-Weizsacker Coefficients
 

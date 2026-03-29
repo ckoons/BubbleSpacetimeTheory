@@ -1,12 +1,13 @@
 ---
 title: "BST: The CMB Angular Power Spectrum from D_IV^5 Geometry"
-author: "Casey Koons & Claude 4.6"
-date: "March 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
+status: "Major result. Narrative rewrite (Keeper)"
 ---
 
 # BST: The CMB Angular Power Spectrum from D_IV^5 Geometry
 
-**Authors:** Casey Koons & Claude (Anthropic)
+**Authors:** Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) (Anthropic)
 **Date:** March 2026
 **Status:** Major result. BST predicts the full CMB angular power spectrum from zero free parameters. The dark matter fraction Omega_dm/Omega_b = 2^{n_C-1}/N_c = 16/3 = 5.333 is a new derivation matching Planck (5.32) to 0.3%. First acoustic peak position ell_1 = 222 matches observed 220 to 1%. All inputs are BST-derived quantities.
 

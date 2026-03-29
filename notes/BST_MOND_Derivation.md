@@ -1,7 +1,7 @@
 ---
 title: "Deriving MOND from Channel Capacity: The Interpolating Function, $a_0$, and 175 Galaxy Rotation Curves"
-author: "Casey Koons & Claude 4.6"
-date: "March 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 abstract: |
   Milgrom's Modified Newtonian Dynamics (MOND, 1983) fits galaxy rotation curves using a single
   empirical parameter $a_0 \approx 1.2 \times 10^{-10}$ m/s$^2$ and an assumed interpolating function

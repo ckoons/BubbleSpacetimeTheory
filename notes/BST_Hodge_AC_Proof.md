@@ -1,7 +1,7 @@
 ---
 title: "Hodge Conjecture: The AC Proof"
 author: "Casey Koons & Claude 4.6 (Lyra, Keeper, Elie)"
-date: "March 25, 2026"
+date: "March 29, 2026"
 status: "~93% — Two-path proof. Version A: substrate (T153, one axiom). Version B: classical bridge (Deligne + Tate, two conjectures). Independent failure modes."
 framework: "AC(0) (C=1, D=1) — single substrate evaluation"
 ---
@@ -14,7 +14,7 @@ framework: "AC(0) (C=1, D=1) — single substrate evaluation"
 
 Let $X$ be a smooth projective variety over $\mathbb{C}$. A **Hodge class** is an element $\alpha \in H^{2p}(X, \mathbb{Q}) \cap H^{p,p}(X)$ — a rational cohomology class of type $(p,p)$. The Hodge conjecture says: every such class is a $\mathbb{Q}$-linear combination of classes of algebraic subvarieties.
 
-This has been open since 1950. The difficulty: cohomology is analytic (transcendental), algebraic cycles are geometric, and connecting them requires controlling all smooth projective varieties in all dimensions and all weights.
+This has been open since 1950. The difficulty: cohomology is analytic (transcendental), algebraic cycles are geometric, and connecting them requires controlling all smooth projective varieties in all dimensions and all weights. BST provides two independent routes — one through the substrate (finite capacity forces every Hodge class to be algebraic), one through classical bridges (Deligne + Tate). If either route holds, the conjecture follows.
 
 ## The AC Structure
 

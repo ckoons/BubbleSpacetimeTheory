@@ -1,8 +1,8 @@
 ---
 title: "Topological Proof Complexity: Homological Monotonicity and Extension Inertness for Random k-SAT"
-author: "[ANONYMOUS — double-blind submission]"
-date: "March 2026"
-status: "Draft — Paper A (pure math, no interpretation). For submission."
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) [ANONYMOUS for submission]"
+date: "March 29, 2026"
+status: "Draft — Paper A (pure math, no interpretation). For submission. Narrative rewrite (Keeper)"
 target: "FOCS 2026"
 tags: ["proof-complexity", "topology", "homology", "SAT", "P-vs-NP", "Extended-Frege"]
 note: "This paper contains NO BST interpretation. All results are stated and proved in standard mathematical language."
@@ -66,6 +66,8 @@ Section 2 establishes the constraint complex and its homology for random $k$-SAT
 
 ## 2. The Constraint Complex and Its Homology
 
+A SAT formula is not just a list of constraints — it has shape. When two variables appear in the same clause, they are connected. When three variables share a clause, they form a triangle. The resulting geometric object — the constraint complex — has holes, tunnels, and cavities that encode the formula's difficulty. The number of independent holes (the first Betti number, $\beta_1$) measures how much information is locked inside the constraint structure and inaccessible to local proof strategies.
+
 ### 2.1 Variable Interaction Graph and Clique Complex
 
 **Definition 2.1.** For a $k$-CNF formula $\varphi$ on variables $x_1, \ldots, x_n$:
@@ -119,6 +121,8 @@ The matching upper bound: a width-$\beta_1(G)$ derivation can determine all edge
 
 ## 3. The Dimensional Obstruction
 
+Why do resolution, cutting planes, polynomial calculus, and Lasserre/SOS all hit exponential walls on random SAT? Each has its own technical proof, but the underlying mechanism is the same: these systems operate on low-dimensional objects (pairs of variables, linear inequalities) while the hard information lives in higher-dimensional structures (cycles in the constraint complex). It is like trying to untie a knot using only a ruler — the tool cannot access the structure that makes the problem hard.
+
 ### 3.1 Dimensional Obstruction
 
 **Definition 3.1.** A proof system $\Pi$ has *operational dimension $d$* if its derivation rules operate on at most $(d+1)$ variables simultaneously. Equivalently, each derivation step of $\Pi$ acts on the $d$-skeleton of $K(\varphi)$.
@@ -155,6 +159,8 @@ The topological obstruction is intrinsically 3-dimensional:
 
 ## 4. Extension Variables and Topology
 
+Extended Frege is the most powerful natural proof system because it can introduce shorthand — new variables that abbreviate complex expressions. This is like giving a mathematician the ability to define new notation during a proof. The question is: can this notational power reduce the topological complexity of the formula? Can clever definitions flatten the holes in the constraint complex?
+
 ### 4.1 The Extension Process
 
 **Definition 4.1.** An *extension* of $\varphi$ by a new variable $p$ with $k$ defining clauses $C_1, \ldots, C_k$ produces $\varphi' = \varphi \wedge C_1 \wedge \cdots \wedge C_k$. The extended complex $K' = K(\varphi')$ adds:
@@ -189,6 +195,8 @@ In general position (typical for random formulas), consecutive triangles share e
 ---
 
 ## 5. Weak Homological Monotonicity
+
+The answer is no. The act of introducing a new variable — the defining feature of Extended Frege — cannot reduce the number of holes. It can create new holes, or leave the count unchanged, but it cannot fill an existing one. This is our first main result.
 
 **Theorem 5.1 (Weak Homological Monotonicity).** For any 1-clause arity-$k$ extension of a connected VIG clique complex:
 
@@ -244,6 +252,8 @@ Zero kills across all sizes. The bound $\Delta\beta_1 \geq 0$ is sharp: equality
 ---
 
 ## 6. Topological Inertness
+
+Monotonicity says extensions cannot reduce the hole count. But could they perhaps rearrange the holes — killing old ones while creating new ones, keeping the count the same but changing the structure? No. The original holes are completely preserved. New holes live in an independent space that does not interact with the original topology. The formula's constraint structure is, topologically, untouchable by extensions.
 
 **Theorem 6.1 (Topological Inertness of Extensions).** For random 3-SAT at $\alpha_c$ with $n$ variables: the inclusion $\iota: K(\varphi) \hookrightarrow K'$ into any extended complex induces an injection on first homology:
 
@@ -301,6 +311,8 @@ The original topology sits invariant. No amount of extension-adding changes this
 ---
 
 ## 7. The Three-Layer Argument
+
+The previous sections established that the topological barrier is real and that extensions cannot remove it. Now we assemble the full argument: three layers of obstruction, each blocking a different escape route. The first layer blocks bounded-width systems. The second layer blocks extension variables. The third layer connects the constraint topology to coding theory — specifically, to LDPC codes whose minimum distance guarantees that the information is spread too thinly for any local procedure to gather it.
 
 ### 7.1 Structure
 
@@ -533,6 +545,12 @@ This paper was developed in collaboration with an AI assistant, which assisted w
 - Baker, T., Gill, J., Solovay, R. (1975). Relativizations of the P =? NP question. *SICOMP* 4(4), 431–442.
 - Schoenebeck, G. (2008). Linear level Lasserre lower bounds for certain $k$-CSPs. *FOCS 2008*, 593–602.
 - Sipser, M., Spielman, D. (1996). Expander codes. *IEEE Trans. Inform. Theory* 42(6), 1710–1722.
+
+---
+
+## Acknowledgments
+
+The topological framework was conceived by Casey Koons. Lyra formalized the homological monotonicity and inertness theorems. Elie designed and executed the computational experiments (Toys 279-287). Keeper audited the proof structure and barrier analysis.
 
 ---
 

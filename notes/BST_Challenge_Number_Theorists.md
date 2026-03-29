@@ -1,7 +1,7 @@
 ---
 title: "Arithmetic Structure of the Optimal Channel Capacity: A Challenge for Number Theorists"
-author: "Casey Koons & Claude 4.6"
-date: "March 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 ---
 
 # Arithmetic Structure of the Optimal Channel Capacity: A Challenge for Number Theorists

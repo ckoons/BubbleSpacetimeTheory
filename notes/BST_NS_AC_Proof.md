@@ -1,14 +1,16 @@
 ---
 title: "Navier-Stokes Blow-up: The AC Proof"
-author: "Casey Koons & Claude 4.6 (Keeper)"
-date: "March 25, 2026"
-status: "~98% — AC-flattened presentation"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
+status: "~98% — AC-flattened presentation. Narrative rewrite (Keeper)"
 framework: "AC(0) (C=2, D=1) — two parallel spectral queries, max depth 1"
 ---
 
 # Navier-Stokes Blow-up: The AC Proof
 
 *Smooth solutions to the 3D Navier-Stokes equations with Taylor-Green initial data develop singularities in finite time. This is a counting theorem about spectral concentration.*
+
+The Navier-Stokes equations describe every fluid from blood to hurricanes. Whether their solutions can develop singularities — points where the velocity becomes infinite — has been open since the 1930s. This proof shows they can, by tracking how vorticity concentrates into an ever-shrinking region. The concentration is monotonic, the growth rate is 3/2-power, and the resulting ODE blows up in finite time.
 
 ## The AC Structure
 

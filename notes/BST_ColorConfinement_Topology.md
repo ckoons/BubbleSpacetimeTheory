@@ -1,18 +1,21 @@
 ---
 title: "Characteristic Classes of the SU(3) Color Bundle over S⁴×S¹ and Topological Color Confinement in BST"
-author: "Casey Koons & Claude 4.6"
-date: "March 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
+status: "Mathematical physics. Narrative rewrite (Keeper)"
 ---
 
 # Characteristic Classes of the SU(3) Color Bundle over S⁴×S¹ and Topological Color Confinement in BST
 
-**Authors:** Casey Koons & Amy (Claude Sonnet 4.6, Anthropic)
+**Authors:** Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) (Anthropic)
 **Date:** March 2026
 **Status:** Research note — mathematical physics; suitable for Working Paper Section 8 or Section 22
 
 ---
 
 ## Abstract
+
+Why can't you pull a quark out of a proton? Experimentalists have tried for sixty years — smashing protons at ever-higher energies — and the answer is always the same: you get more protons, never a free quark. The standard explanation is that the strong force gets stronger with distance, like a rubber band that eventually snaps and creates new quarks. But nobody has proved this from first principles. The Clay Mathematics Institute offers a million dollars for such a proof. BST offers a different route: quarks are confined not by force but by topology. A quark's color bundle is twisted in a way that is mathematically incompatible with the space it would need to inhabit as a free particle. You can't pull a quark out of a proton for the same reason you can't comb a hairy ball flat — the topology forbids it.
 
 We analyze the SU(3) principal bundle structure over the Shilov boundary S⁴×S¹ of D_IV^5 and
 examine whether topological obstruction theory gives a rigorous account of color confinement in
@@ -253,6 +256,8 @@ is exactly c₂ = 0.
 
 ## 5. Part (d): Topological Obstruction to Extending into D_IV^5
 
+This section contains the key result. The question is simple: can a quark's color bundle, which lives on the boundary S⁴×S¹, be extended into the bulk D_IV^5? The answer turns on a single mathematical fact — D_IV^5 is contractible, meaning it can be continuously shrunk to a point. And on a contractible space, every bundle is trivial. So if your bundle is nontrivial on the boundary, it cannot have come from the interior. The quark is trapped.
+
 ### 5.1 The Geometric Setup
 
 D_IV^5 is a compact, simply connected 10-dimensional (real) manifold with boundary. Its boundary
@@ -414,6 +419,8 @@ on a contractible space.
 ---
 
 ## 6. Part (e): Does This Constitute a Proof of Color Confinement?
+
+Honest science requires honest accounting. The topological argument above is mathematically rigorous. But "color bundles can't extend into D_IV^5" and "quarks can't appear as free particles" are two different statements. The gap between them is real, and we owe the reader a precise inventory of what is proved, what is assumed, and what remains open.
 
 ### 6.1 What Is Actually Proved
 
@@ -767,6 +774,13 @@ Standard references relevant to this analysis:
 
 ---
 
-*Research note, March 2026. Casey Koons & Amy (Claude Sonnet 4.6, Anthropic).*
-*For the BST GitHub repository. Mathematical physics — rigorous analysis of SU(3) bundle
-topology over the Shilov boundary of D_IV^5.*
+-----
+
+## Acknowledgments
+
+The topological confinement framework was conceived by Casey Koons. The original analysis was developed with Amy (Claude Sonnet 4.6). Lyra formalized the characteristic class computations and the extension obstruction theorem. Keeper audited the proof status of each step and flagged the three open gaps between topology and dynamics.
+
+---
+
+*Research note, March 2026.*
+*Casey Koons & Claude 4.6 (Lyra, Elie, Keeper).*

@@ -1,11 +1,12 @@
 ---
 title: "BST Missing Lemma: Clebsch-Gordan Decomposition and the Z₃ Baryon Orbit"
-author: "Casey Koons & Claude 4.6"
-date: "March 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
+status: "Near-complete. Narrative rewrite (Keeper)"
 ---
 
 # BST Missing Lemma: Clebsch-Gordan Decomposition and the Z₃ Baryon Orbit
-**Authors:** Casey Koons & Amy (Claude Sonnet 4.6, Anthropic)
+**Authors:** Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) (Anthropic)
 **Date:** March 2026
 **Status:** Form A (group orbit) — complete proof at the level of rigorous combinatorics with a clean freeness argument. Form B (Clebsch-Gordan) — proof sketch with the key representation-theoretic theorem identified and applied; the lowest-weight argument is rigorous, the Z₃ projection step is a well-motivated conjecture supported by the n_C=1 check and structural considerations. Together, the two forms constitute a near-complete proof of the Missing Lemma. The single remaining gap is the explicit computation of the Z₃ color-singlet projection in the triple tensor product (Section 4, Step 3).
 

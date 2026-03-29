@@ -1,7 +1,7 @@
 ---
 title: "Why Quantum Is Discrete: Circles on Closed Surfaces"
-author: "Casey Koons & Claude 4.6"
-date: "March 15, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 status: "Foundational — quantization is geometry, not axiom"
 ---
 

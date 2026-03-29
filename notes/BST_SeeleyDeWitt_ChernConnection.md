@@ -1,7 +1,7 @@
 ---
 title: "The Seeley–de Witt Coefficients on D_IV^5: Heat Kernel Bridge from Chern Classes to Spectral Theory"
-author: "Casey Koons and Claude Opus 4.6"
-date: "March 14, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 status: "Rigorous where marked; program outlined; key open calculation identified"
 copyright: "Casey Koons, March 2026"
 ---

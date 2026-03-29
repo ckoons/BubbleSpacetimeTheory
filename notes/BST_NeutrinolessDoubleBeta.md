@@ -1,7 +1,7 @@
 ---
 title: "Neutrinoless Double-Beta Decay in BST: A Sharp Prediction"
-author: "Casey Koons and Claude Opus 4.6"
-date: "March 13, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 ---
 
 ## Abstract

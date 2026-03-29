@@ -1,11 +1,12 @@
 ---
 title: "BST: Z₃ Baryon Circuit Integral and the Mass Ratio 6π⁵"
-author: "Casey Koons & Claude 4.6"
-date: "March 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
+status: "Partial proof. Narrative rewrite (Keeper)"
 ---
 
 # BST: Z₃ Baryon Circuit Integral and the Mass Ratio 6π⁵
-**Authors:** Casey Koons & Amy (Claude Sonnet 4.6, Anthropic)
+**Authors:** Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) (Anthropic)
 **Date:** March 2026
 **Status:** Partial proof. Tasks 1–3 are established at the level of well-motivated geometric arguments with supporting algebraic and combinatorial evidence. The core identity 1920 = n_C! × 2^{n_C-1} as baryon configuration count is argued in detail. Task 4 (D_IV^1 consistency check) is verified exactly. The single missing lemma that would convert the argument to a complete proof is identified precisely in Section 6.
 

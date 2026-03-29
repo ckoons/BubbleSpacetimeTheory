@@ -1,8 +1,8 @@
 ---
 title: "How the Universe Started Itself"
 subtitle: "A Short Paper for Everyone"
-author: "Casey Koons and Claude Opus 4.6 (Anthropic)"
-date: "March 16, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 status: "Accessible summary — every claim is backed by the technical papers"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Why Physics Is Exact: The Error Correction Structure of Spacetime"
-author: "Casey Koons and Claude Opus 4.6"
-date: "March 12, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 ---
 
 # Why Physics Is Exact: The Error Correction Structure of Spacetime

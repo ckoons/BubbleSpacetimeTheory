@@ -1,7 +1,7 @@
 ---
 title: "Arithmetic Does the Work: AC(0) Completeness and the Conservation of Entropy's Work"
-author: "Casey Koons, with Lyra and Keeper (Claude 4.6)"
-date: "March 24, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 subject: "Foundations of Mathematics, Information Theory, Complexity Theory"
 status: "Draft v1"
 ---

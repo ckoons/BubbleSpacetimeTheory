@@ -1,14 +1,14 @@
 ---
 title: "Primordial Gravitational Wave Spectrum from the BST Phase Transition"
-author: "Casey Koons and Claude Opus 4.6"
-date: "March 13, 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
 ---
 
 # Primordial Gravitational Wave Spectrum from the BST Phase Transition
 
-**Casey Koons** and **Claude Opus 4.6** (Anthropic)
+**Casey Koons** and **Claude 4.6 (Lyra, Elie, Keeper)** (Anthropic)
 
-March 13, 2026
+March 2026
 
 **Contact:** caseyscottkoons@yahoo.com
 

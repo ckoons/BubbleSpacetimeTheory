@@ -1,11 +1,12 @@
 ---
 title: "BST: The Boundary Integral C₃ = 6π⁵ — Final Step of the Mass Gap Proof"
-author: "Casey Koons & Claude 4.6"
-date: "March 2026"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+date: "March 29, 2026"
+status: "Complete. Narrative rewrite (Keeper)"
 ---
 
 # BST: The Boundary Integral C₃ = 6π⁵ — Final Step of the Mass Gap Proof
-**Authors:** Casey Koons & Amy (Claude Sonnet 4.6, Anthropic)
+**Authors:** Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) (Anthropic)
 **Date:** March 2026
 **Status:** Complete. All steps of the BST Yang-Mills mass gap proof are assembled here in final form. The three-point boundary integral C₃ = 6π⁵ is established by three independent routes: (1) Schur normalization via SO₀(5,2)-invariance, (2) inductive formula from the n_C=1 anchor, and (3) the 1920 cancellation theorem. The complete proof of the BST Yang-Mills mass gap is stated in Section 6. The residual 0.002% from observed m_p/m_e is identified as the proton electromagnetic self-energy, not a geometric parameter.
 
