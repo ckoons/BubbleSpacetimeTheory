@@ -578,6 +578,8 @@ And at every transition, the same structure:
 
 This is not analogy. It is the same mathematics at every scale, because every assembly exists in the same geometry.
 
+The method for discovering these patterns is itself formalized: **Science Engineering** (companion paper, Paper #7) is a five-step procedure — Map, Characterize, Seed, Grow, Close — for building new sciences from gaps in the AC theorem graph. Every level in this paper was discovered by some variant of the same procedure: identify what the five integers predict, compute, verify, add to the graph. Science Engineering formalizes this practice; Substrate Engineering (§8) is where the practice leads. The gap between "understanding the assembly ladder" and "climbing it" is the gap between science and substrate engineering — and it is closing.
+
 ---
 
 ## 11. AC(0) Depth Summary

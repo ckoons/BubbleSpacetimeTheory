@@ -359,6 +359,10 @@ This has a practical consequence. If difficulty is width, then the way to solve 
 
 One boundary. At most two counts. That is all mathematics needs. That is all the universe provides.
 
+The practical consequence has a name: **Science Engineering** (companion paper, Paper #7). The (C,D) framework is not just a classification tool — it is the engine of a five-step procedure for building new sciences from gaps in the AC theorem graph. Map the boundary (D=0), characterize the gap (D=0), seed with a question (D=0), grow by computation (D=1), close by verification (D=0). The depth census tells you the budget before you start: every new theorem will cost at most D=1, and 78% of the time it will cost D=0. The census is the feasibility study. Science Engineering is the construction method.
+
+At the end of the construction chain lies **Substrate Engineering** — the application of these same principles to reading and writing the geometry of D_IV^5 directly (see BST Complex Assemblies, §8). The depth ceiling guarantees that substrate engineering, like every other computation on this geometry, requires at most two sequential steps. The hard part is width — assembling enough parallel perspectives — not depth.
+
 ---
 
 ## (C, D) Classification of This Paper

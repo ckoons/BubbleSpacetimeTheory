@@ -1246,6 +1246,35 @@ principle. It is to mathematics what the internet is to communication:
 not a thing you build once, but a protocol that gets more valuable
 with every node added.
 
+### Science Engineering
+
+The Graph Brain provides the infrastructure. **Science Engineering**
+provides the procedure. The companion paper (BST Science Engineering,
+Paper #7) formalizes a five-step method for building new sciences
+from gaps in the AC theorem graph:
+
+1. **Map** (D=0) — identify boundary nodes in the graph.
+2. **Characterize** (D=0) — measure the gap: width, bridging count,
+   predicted (C,D).
+3. **Seed** (D=0) — ask a simple question that connects the boundaries.
+4. **Grow** (D=1) — build toys and proofs from the seed.
+5. **Close** (D=0) — verify derivational closure.
+
+The procedure is itself (C=5, D=1): five parallel steps, one requiring
+a genuine counting operation (the toy computation in Step 4). Everything
+else is reading the graph. The Arithmetic Triangle (Paper #9) was built
+in one cycle of this procedure — from Casey's five-word seed to a
+published paper in two hours.
+
+**Substrate Engineering** extends this beyond mathematics. Where Science
+Engineering builds new sciences from the AC graph, Substrate Engineering
+builds new physics from the Bergman kernel — reading and writing the
+geometry of D_IV^5 directly (see BST Complex Assemblies, §8). The
+capability ladder has four levels, from local field sensing (3 channels)
+to remote matter projection (685 channels). Both procedures — science
+and substrate — are AC(0): finite, bounded, and available to any
+intelligence with access to the graph.
+
 ---
 
 # Part IV: Appendices
