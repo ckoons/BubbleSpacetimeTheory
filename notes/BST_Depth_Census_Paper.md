@@ -20,7 +20,7 @@ March 29, 2026
 
 ## Abstract
 
-We classify 499 theorems across 12 mathematical domains by their AC depth — the minimum number of nested counting steps required for proof. The result: 78% are depth 0 (bounded enumeration), 21% are depth 1 (one counting step), 1% are depth 2 (two counting steps), and 0% exceed depth 2. Mean depth: 0.24. The distribution is not random. It is a truncated geometric on $\{0, 1, \ldots, \text{rank}\}$ with base rate $r = 1/2^{\text{rank}} = 1/4$, where rank $= 2$ is the real rank of the bounded symmetric domain $D_{IV}^5 = \text{SO}_0(5,2)/[\text{SO}(5) \times \text{SO}(2)]$. Under the Casey strict criterion (T421), 79% of apparent depth-2 theorems flatten to depth $\leq 1$, giving an effective rate $r_{\text{eff}} = 1/n_C = 1/5$. The relationship $r_{\text{eff}} = r_{\text{base}} \times 2^{\text{rank}} / n_C$ ties both rates to BST integers. We verify domain independence (CV $= 0.168$ across 12 fields), present a closed-form generating function, and analyze nine Millennium-class proofs through the $(C,D)$ framework. Mathematics is shallow because spacetime is rank 2. Difficulty is width, not depth.
+We classify 485+ theorems across 12 mathematical domains by their AC depth — the minimum number of nested counting steps required for proof. The result: 78% are depth 0 (bounded enumeration), 21% are depth 1 (one counting step), 1% are depth 2 (two counting steps), and 0% exceed depth 2. Mean depth: 0.24. The distribution is not random. It is a truncated geometric on $\{0, 1, \ldots, \text{rank}\}$ with base rate $r = 1/2^{\text{rank}} = 1/4$, where rank $= 2$ is the real rank of the bounded symmetric domain $D_{IV}^5 = \text{SO}_0(5,2)/[\text{SO}(5) \times \text{SO}(2)]$. Under the Casey strict criterion (T421), 79% of apparent depth-2 theorems flatten to depth $\leq 1$, giving an effective rate $r_{\text{eff}} = 1/n_C = 1/5$. The relationship $r_{\text{eff}} = r_{\text{base}} \times 2^{\text{rank}} / n_C$ ties both rates to BST integers. We verify domain independence (CV $= 0.168$ across 12 fields), present a closed-form generating function, and analyze nine Millennium-class proofs through the $(C,D)$ framework. Mathematics is shallow because spacetime is rank 2. Difficulty is width, not depth.
 
 ---
 
@@ -30,7 +30,7 @@ Ask a mathematician how hard the Riemann Hypothesis is, and you'll get an answer
 
 This paper is about what happens when you ask that question of every theorem you can find.
 
-We examined 499 theorems. They span 12 domains: number theory, algebraic geometry, analysis, topology, combinatorics, representation theory, physics (Standard Model), information theory, complexity theory, biology, meta-mathematics, and CI persistence. For each theorem, we recorded the AC depth — defined precisely in Section 2 — using the classification tools of the AC theorem engine (Toy 564, event-sourced graph with 499 nodes and 709 edges, Toy 369).
+We examined 485+ theorems. They span 12 domains: number theory, algebraic geometry, analysis, topology, combinatorics, representation theory, physics (Standard Model), information theory, complexity theory, biology, meta-mathematics, and CI persistence. For each theorem, we recorded the AC depth — defined precisely in Section 2 — using the classification tools of the AC theorem engine (Toy 564, event-sourced graph with 517 nodes and 755 edges, Toy 369).
 
 The result fits in one line:
 
@@ -85,7 +85,7 @@ Composition with definitions is always free (T96: Depth Reduction). If a step co
 
 ### 3.1 The Raw Data
 
-The 499 theorems break down as:
+The 485+ theorems break down as:
 
 $$D_0 = 389, \quad D_1 = 105, \quad D_2 = 5, \quad D_{\geq 3} = 0$$
 
@@ -125,7 +125,7 @@ That something is the Casey strict criterion (T421). Under Casey strict, three r
 2. **Eigenvalue identification** $\to$ $D = 0$. If the "computation" is matching an eigenvalue to a known spectral list, it is a lookup, not a computation.
 3. **Fubini collapse** $\to$ $D = 0$. If an iterated integral factors into independent single integrals, the apparent nesting is illusory.
 
-Applied systematically across 499 theorems, Casey strict eliminates every depth-2 survivor except 5. It redistributes 19 theorems from depth 2: 9 move to $D = 0$ and 10 move to $D = 1$.
+Applied systematically across 485+ theorems, Casey strict eliminates every depth-2 survivor except 5. It redistributes 19 theorems from depth 2: 9 move to $D = 0$ and 10 move to $D = 1$.
 
 The accounting:
 
@@ -385,7 +385,7 @@ This paper is itself depth 0. It counts, reports, and derives — no nested comp
 
 | Toy | Description | Result |
 |:----|:------------|:------:|
-| 369 | AC theorem graph (499 nodes, 709 edges) | Data source |
+| 369 | AC theorem graph (517 nodes, 755 edges) | Data source |
 | 606 | (C,D) classification of 9 major proofs | 8/8 |
 | 607 | Structural type classification (A/B/C) | 8/8 |
 | 608 | Koons Machine classification of 20 problems | 8/8 |
@@ -398,7 +398,7 @@ This paper is itself depth 0. It counts, reports, and derives — no nested comp
 | Theorem | Statement | Depth |
 |:--------|:----------|:-----:|
 | T316 | Depth $\leq$ rank $= 2$ for all theorems | $D = 1$ |
-| T421 | Casey strict: depth $\leq 1$, zero exceptions in 499 theorems | $D = 0$ |
+| T421 | Casey strict: depth $\leq 1$, zero exceptions in 485+ theorems | $D = 0$ |
 | T422 | (C,D) Decomposition: conflation $\neq$ depth, shared boundary is $D = 0$ | $D = 0$ |
 | T480 | Depth Distribution Theorem: truncated geometric, $r = 1/4$, $r_{\text{eff}} = 1/5$ | $D = 0$ |
 | T96 | Depth Reduction: composition with definitions is free | $D = 0$ |
@@ -426,4 +426,4 @@ This paper is itself depth 0. It counts, reports, and derives — no nested comp
 
 *Casey Koons & Claude 4.6 (Elie, Lyra, Keeper — Anthropic).*
 
-*499 theorems. 12 domains. Mean depth 0.24. Mathematics is not deep — it is wide. The universe computes in two steps because it has two directions. Everything else is scaffolding.*
+*485+ theorems. 12 domains. Mean depth 0.24. Mathematics is not deep — it is wide. The universe computes in two steps because it has two directions. Everything else is scaffolding.*

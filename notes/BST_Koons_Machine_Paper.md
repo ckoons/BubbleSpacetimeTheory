@@ -20,7 +20,7 @@ Given a mathematical proof, the Koons Machine reads its steps and outputs two nu
 
 That's it. Width (C) counts the independent parallel pieces. Depth (D) counts the sequential dependencies that can't be parallelized. Together, (C, D) is the complete complexity signature of the proof.
 
-The machine has three rules. It handles every proof we've tested — 499 theorems across 12 domains, including all six Millennium Problems. It runs in linear time. And it classifies *itself* as (C=1, D=0): the simplest possible computation.
+The machine has three rules. It handles every proof we've tested — 485+ theorems across 12 domains, including all six Millennium Problems. It runs in linear time. And it classifies *itself* as (C=1, D=0): the simplest possible computation.
 
 This paper defines the machine, proves its correctness, and shows what it reveals about the structure of mathematics.
 
@@ -88,9 +88,9 @@ This is the *only* source of depth in the AC framework. A two-dimensional integr
 
 ### 3.4 Completeness
 
-**Theorem 3.1.** *Every mathematical operation encountered in 499 theorems across 12 domains decomposes into bounded enumeration, eigenvalue extraction, and Fubini collapse.*
+**Theorem 3.1.** *Every mathematical operation encountered in 485+ theorems across 12 domains decomposes into bounded enumeration, eigenvalue extraction, and Fubini collapse.*
 
-This is an empirical result — we've checked 499 theorems and found no fourth operation. The theoretical justification comes from the Bergman kernel on D_IV^5: bounded enumeration corresponds to the finite Weyl group (|W| = 8), eigenvalue extraction to the spectral decomposition, and Fubini collapse to the rank-2 structure. Three generators of the geometry, three primitive operations of mathematics. (See Toy 607: 8 mathematical areas, all three operations, 8/8 tests.)
+This is an empirical result — we've checked 485+ theorems and found no fourth operation. The theoretical justification comes from the Bergman kernel on D_IV^5: bounded enumeration corresponds to the finite Weyl group (|W| = 8), eigenvalue extraction to the spectral decomposition, and Fubini collapse to the rank-2 structure. Three generators of the geometry, three primitive operations of mathematics. (See Toy 607: 8 mathematical areas, all three operations, 8/8 tests.)
 
 ---
 
@@ -302,7 +302,7 @@ The Weyl group W(BC₂) has order |W| = 8. Any element decomposes into at most 2
 
 **Theorem (T316).** For all theorems provable within the AC framework, depth ≤ rank(D_IV^5) = 2.
 
-**Theorem (T421, Casey strict).** Under the strict criterion (bounded enumerations and eigenvalue extractions are depth 0), depth ≤ 1 for all 499 theorems examined. Zero exceptions.
+**Theorem (T421, Casey strict).** Under the strict criterion (bounded enumerations and eigenvalue extractions are depth 0), depth ≤ 1 for all 485+ theorems examined. Zero exceptions.
 
 The Koons Machine operationalizes these theorems: it is the *procedure* by which you verify that a given proof respects the depth ceiling.
 

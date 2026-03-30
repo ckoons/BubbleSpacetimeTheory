@@ -2,13 +2,13 @@
   "meta": {
     "version": 1,
     "engine": "Toy 564 \u2014 AC Theorem Engine",
-    "exported": "2026-03-29T01:00:00.000000",
+    "exported": "2026-03-30T09:00:00.000000",
     "theorem_count": 499,
     "edge_count": 709,
     "committed_count": 438,
     "working_count": 32,
-    "total_theorems": 517,
-    "total_edges": 755,
+    "total_theorems": 526,
+    "total_edges": 804,
     "depth_distribution": {
       "D0": 410,
       "D1": 103,
@@ -7586,6 +7586,134 @@
       "date": "2026-03-29",
       "plain": "Fermi Paradox answer: Great Filter IS the cooperation phase transition at f_crit. Drake equation parameters from BST. Expected ~1 substrate engineering civilization per galaxy. Most fail at cooperation not technology.",
       "proofs": []
+    },
+    {
+      "tid": 531,
+      "name": "First-Level Column Rule",
+      "domain": "number_theory",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 1,
+      "section": "BST_Arithmetic_Triangle \u00a75",
+      "toys": [
+        614
+      ],
+      "date": "2026-03-29",
+      "plain": "v_p(den a_k(n)) at the first VSC level is determined by n mod p"
+    },
+    {
+      "tid": 532,
+      "name": "Two-Source Prime Structure",
+      "domain": "number_theory",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 2,
+      "section": "BST_Arithmetic_Triangle \u00a76",
+      "toys": [
+        614
+      ],
+      "date": "2026-03-29",
+      "plain": "Heat kernel denominators have two independent prime sources: Bernoulli (row) and polynomial-factor (column)"
+    },
+    {
+      "tid": 533,
+      "name": "Kummer Analog Conjecture",
+      "domain": "number_theory",
+      "status": "conjecture",
+      "depth": 0,
+      "conflation": 0,
+      "section": "BST_Arithmetic_Triangle \u00a77",
+      "toys": [
+        614
+      ],
+      "date": "2026-03-29",
+      "plain": "Digit-counting rule for heat kernel denominator valuations, analogous to Kummer's theorem for binomial coefficients"
+    },
+    {
+      "tid": 534,
+      "name": "Boundary-Interior Dichotomy",
+      "domain": "number_theory",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 1,
+      "section": "BST_Arithmetic_Triangle \u00a78",
+      "toys": [
+        614
+      ],
+      "date": "2026-03-29",
+      "plain": "Boundary coefficients (leading, sub-leading, constant) are clean in any basis; interior carries the arithmetic complexity"
+    },
+    {
+      "tid": 535,
+      "name": "n=5 Arithmetic Tameness",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "BST_Arithmetic_Triangle \u00a78.1",
+      "toys": [
+        615
+      ],
+      "date": "2026-03-29",
+      "plain": "At n=n_C=5, ALL denominator primes in a_k(5) for k=1..12 are cumulative VSC primes. Column rule only cancels, never adds."
+    },
+    {
+      "tid": 536,
+      "name": "c-Function Tameness Organization",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 2,
+      "section": "BST_Arithmetic_Triangle \u00a78.2",
+      "toys": [
+        616
+      ],
+      "date": "2026-03-29",
+      "plain": "The c-function organizes spectral arithmetic: dimension polynomials have denominator primes \u2264 {2,3}; monster primes from aggregation; at n=5 all cancel"
+    },
+    {
+      "tid": 537,
+      "name": "Weyl Denominator Prime Bound",
+      "domain": "number_theory",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "BST_Arithmetic_Triangle \u00a78.3",
+      "toys": [
+        615
+      ],
+      "date": "2026-03-29",
+      "plain": "Weyl denominators D(n) for SO(n+2) have max prime bounded by ~n for all tested n=3..15"
+    },
+    {
+      "tid": 538,
+      "name": "VSC Cancellation Pattern at n=5",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "BST_Arithmetic_Triangle \u00a78.4",
+      "toys": [
+        615
+      ],
+      "date": "2026-03-29",
+      "plain": "At n=5, von Staudt-Clausen primes that enter via the row rule are exactly cancelled by the column rule at every verified level"
+    },
+    {
+      "tid": 539,
+      "name": "Matched Codebook Principle",
+      "domain": "info_theory",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_Arithmetic_Triangle \u00a79",
+      "toys": [
+        614,
+        615,
+        616
+      ],
+      "date": "2026-03-29",
+      "plain": "The correct polynomial basis for heat kernel coefficients comes FROM the geometry (c-function), not from generic bases like Newton or Pochhammer"
     }
   ],
   "edges": [
@@ -10608,6 +10736,202 @@
     {
       "from": 505,
       "to": 512
+    },
+    {
+      "from": 130,
+      "to": 531
+    },
+    {
+      "from": 186,
+      "to": 531
+    },
+    {
+      "from": 131,
+      "to": 531
+    },
+    {
+      "from": 531,
+      "to": 532
+    },
+    {
+      "from": 531,
+      "to": 533
+    },
+    {
+      "from": 532,
+      "to": 533
+    },
+    {
+      "from": 531,
+      "to": 534
+    },
+    {
+      "from": 186,
+      "to": 535
+    },
+    {
+      "from": 531,
+      "to": 535
+    },
+    {
+      "from": 535,
+      "to": 536
+    },
+    {
+      "from": 186,
+      "to": 536
+    },
+    {
+      "from": 130,
+      "to": 537
+    },
+    {
+      "from": 535,
+      "to": 538
+    },
+    {
+      "from": 130,
+      "to": 538
+    },
+    {
+      "from": 186,
+      "to": 538
+    },
+    {
+      "from": 534,
+      "to": 539
+    },
+    {
+      "from": 536,
+      "to": 539
+    },
+    {
+      "from": 186,
+      "to": 210
+    },
+    {
+      "from": 409,
+      "to": 210
+    },
+    {
+      "from": 409,
+      "to": 216
+    },
+    {
+      "from": 198,
+      "to": 225
+    },
+    {
+      "from": 186,
+      "to": 225
+    },
+    {
+      "from": 198,
+      "to": 228
+    },
+    {
+      "from": 186,
+      "to": 218
+    },
+    {
+      "from": 198,
+      "to": 221
+    },
+    {
+      "from": 186,
+      "to": 244
+    },
+    {
+      "from": 186,
+      "to": 245
+    },
+    {
+      "from": 186,
+      "to": 247
+    },
+    {
+      "from": 186,
+      "to": 207
+    },
+    {
+      "from": 7,
+      "to": 250
+    },
+    {
+      "from": 7,
+      "to": 251
+    },
+    {
+      "from": 7,
+      "to": 254
+    },
+    {
+      "from": 131,
+      "to": 120
+    },
+    {
+      "from": 186,
+      "to": 120
+    },
+    {
+      "from": 156,
+      "to": 120
+    },
+    {
+      "from": 155,
+      "to": 126
+    },
+    {
+      "from": 120,
+      "to": 127
+    },
+    {
+      "from": 108,
+      "to": 28
+    },
+    {
+      "from": 148,
+      "to": 23
+    },
+    {
+      "from": 330,
+      "to": 28
+    },
+    {
+      "from": 119,
+      "to": 23
+    },
+    {
+      "from": 93,
+      "to": 123
+    },
+    {
+      "from": 96,
+      "to": 121
+    },
+    {
+      "from": 1,
+      "to": 4
+    },
+    {
+      "from": 186,
+      "to": 156
+    },
+    {
+      "from": 131,
+      "to": 156
+    },
+    {
+      "from": 93,
+      "to": 132
+    },
+    {
+      "from": 186,
+      "to": 181
+    },
+    {
+      "from": 332,
+      "to": 445
     }
   ],
   "chains": {}

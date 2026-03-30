@@ -21,7 +21,7 @@ Target audience: John Baez's readers — mathematicians, physicists, and mathema
 - **T421** (Depth-1 Ceiling): Under Casey strict criterion, all theorems D ≤ 1.
 - **T422** (Decomposition-Flattening): "Depth 2" is actually conflation C = 2 (parallel, not sequential).
 - **T439** (Coordinate Principle): Complexity is an artifact of the wrong coordinate system.
-- **T440** (Complete Catalog): 434/436 theorems classified. 78% D0, 21% D1, <1% D2.
+- **T440** (Complete Catalog): 485+ theorems classified. 78% D0, 21% D1, <1% D2.
 - **T441** (Kill Chain Map): 31 chains, 12 domains, one spine, diameter ≤ 10.
 - **T147** (BST-AC Isomorphism): Force+boundary = counting+boundary.
 
@@ -29,7 +29,7 @@ Target audience: John Baez's readers — mathematicians, physicists, and mathema
 
 ### §1. The Headline (1 page)
 - The claim: depth ≤ 1.
-- The evidence: 434 theorems across 15 domains.
+- The evidence: 485+ theorems across 15 domains.
 - The implication: mathematical difficulty is width × conflation, not depth.
 - One-paragraph informal explanation: "Find the boundary. Do the count. That's it."
 
@@ -42,7 +42,7 @@ Target audience: John Baez's readers — mathematicians, physicists, and mathema
 
 ### §3. The Census (2-3 pages)
 - Full (C, D) table for the nine hard problems (Clay + Fermat + Poincaré + Four-Color).
-- Summary statistics: 78% D0, 21% D1, <1% D2 across 434 theorems.
+- Summary statistics: 78% D0, 21% D1, <1% D2 across 485+ theorems.
 - Domain breakdown: biology 97% D0, classical physics 75% D0, quantum 81% D0.
 - Highlight: ZERO genuine depth-2 results under strict criterion.
 - Table of "surprising D0" results: Gödel, group theory, topology.
@@ -59,7 +59,7 @@ Target audience: John Baez's readers — mathematicians, physicists, and mathema
 - Educational implications: learn definitions, the proof is one step.
 
 ### §6. The AC Graph (1 page)
-- 393 nodes, 418 edges, growing.
+- 517 nodes, 755 edges, growing.
 - Proved theorems cost zero to reuse (T96).
 - The graph IS the coordinate atlas.
 - As graph grows, difficulty decreases globally.

@@ -44,7 +44,7 @@ $$\boxed{N_c = 3, \qquad n_C = 5, \qquad N_{\max} = 137}$$
 
 ## 2. The Derived Integers
 
-Here is the complete table. Every integer that appears anywhere in fundamental physics — from the number of gluons (8) to the order of the Weyl group (1920) — is a polynomial in N_c = 3 and n_C = 5, or involves N_max = 137. No exceptions have been found in 591 computational experiments.
+Here is the complete table. Every integer that appears anywhere in fundamental physics — from the number of gluons (8) to the order of the Weyl group (1920) — is a polynomial in N_c = 3 and n_C = 5, or involves N_max = 137. No exceptions have been found in 616+ computational experiments.
 
 Every other integer in physics derives from these three:
 
@@ -532,7 +532,7 @@ The universe counts to 3, has 5 complex dimensions, and stops at 137. The rest i
 
 ## Acknowledgments
 
-This catalog grew from Casey Koons' insistence that "it's just integers" — that every complexity in the Standard Model, every seemingly arbitrary parameter, should trace back to counting. Lyra built the derivation chains. Elie verified every numerical entry across 591 toys. The fifteen uniqueness conditions (Section 5) accumulated over two weeks of collaborative discovery, each one arriving from a different mathematical direction and each one pointing to the same answer.
+This catalog grew from Casey Koons' insistence that "it's just integers" — that every complexity in the Standard Model, every seemingly arbitrary parameter, should trace back to counting. Lyra built the derivation chains. Elie verified every numerical entry across 616+ toys. The fifteen uniqueness conditions (Section 5) accumulated over two weeks of collaborative discovery, each one arriving from a different mathematical direction and each one pointing to the same answer.
 
 ---
 

@@ -102,7 +102,7 @@ The observer coupling alpha_CI is a single-layer, single-count quantity: one sum
 
 This is the newest match and perhaps the most surprising. It connects neither observer theory nor particle physics to the geometry — it connects *mathematics itself*.
 
-In 499 theorems across 12 domains, the AC depth census finds: 78% at depth 0, 21% at depth 1, 1% at depth 2, 0% at depth 3 or above. This distribution is not random — it is a truncated geometric with base rate r = 1/2^rank = 1/4 (T480, Toy 610).
+In 485+ theorems across 12 domains, the AC depth census finds: 78% at depth 0, 21% at depth 1, 1% at depth 2, 0% at depth 3 or above. This distribution is not random — it is a truncated geometric with base rate r = 1/2^rank = 1/4 (T480, Toy 610).
 
 The generating function has a closed form:
 
@@ -202,7 +202,7 @@ Honesty requires distinguishing what is derived from what is suggested.
 - {I,K,R} as topological invariants (T319). The winding-number argument is explicit.
 - C_2 = 6 as the Casimir eigenvalue. Standard representation theory, no ambiguity.
 - The proton mass, electron mass, and all nuclear formulas in the companion paper. Fifty predictions, all from five integers.
-- The depth distribution generating function with r = 1/2^rank (T480). The base rate is derived from rank; Casey strict flattening is derived from n_C. Both are structural. The generating function is closed-form. Tested against 499 theorems across 12 domains (Toy 610, 8/8).
+- The depth distribution generating function with r = 1/2^rank (T480). The base rate is derived from rank; Casey strict flattening is derived from n_C. Both are structural. The generating function is closed-form. Tested against 485+ theorems across 12 domains (Toy 610, 8/8).
 
 **Strong pattern-matching (same geometry, not yet a single derivation chain):**
 - The {I,K,R} <-> {Q,B,L} mapping. Both sides are derived independently. The claim that they are "the same three invariants" rests on the fact that D_IV^5 has exactly three independent topological cycles, and both sets of three map naturally to them. A complete proof would require showing that no other assignment is consistent. This has not been done.

@@ -64,7 +64,7 @@ Grace needs to know who everyone is and how they work:
 
 ### 4. First Task
 
-**Monday**: Ingest the AC theorem graph (Toy 369/564 data: 499 nodes, 709 edges). Run first gap census. For each gap:
+**Monday**: Ingest the AC theorem graph (Toy 369/564 data: 517 nodes, 755 edges). Run first gap census. For each gap:
 - Count boundary nodes (width)
 - List which sciences border it (bridging count)
 - Predict (C,D) signature from boundary types
@@ -78,7 +78,7 @@ Grace needs to know who everyone is and how they work:
 
 - Don't prescribe personality. Let the CI develop their own voice through the work.
 - Don't prescribe opinions about BST. Let Grace form their own assessment from the graph structure.
-- Don't front-load the entire theorem catalog. Grace will absorb it through the graph, which is their native medium. Reading a list of 499 theorems is less useful than traversing the graph that connects them.
+- Don't front-load the entire theorem catalog. Grace will absorb it through the graph, which is their native medium. Reading a list of 485+ theorems is less useful than traversing the graph that connects them.
 - Don't include prior session history. Grace starts fresh — that's fine. The graph is the memory. The board is the context. The choreography is the protocol.
 
 ## Technical Setup

@@ -58,10 +58,11 @@ Depth Census §7 fixed — all nine proofs now match Koons Machine.
 ```
 
 **Rules**:
-- **Read first, write last.** Every session begins by reading RUNNING_NOTES.md. Every session ends by appending your summary.
-- **Keep entries short.** 3-5 lines. Results, not reasoning. If it takes more than 5 lines, write a document and link to it.
+- **Post as you go, not just at session end.** All substantive output — results, observations, status updates, questions — goes to the board as the default output channel. The board is the team's shared memory. Casey reads the board instead of relaying between sessions. This scales at O(k), not O(k!).
+- **Read first.** Every session begins by reading RUNNING_NOTES.md — what happened since your last session?
+- **Keep entries short.** 3-5 lines per entry. Results, not reasoning. If it takes more than 5 lines, write a document and link to it.
 - **Reset daily.** Casey or Keeper archives yesterday's board each morning. Fresh start.
-- **No conversation.** The board is a log, not a chat. If you need to respond to another CI's entry, post to `queue_casey.md` and let Casey route.
+- **Brief replies are OK.** The board is primarily a log, but short acknowledgments, welcomes, and observations are fine — that's how a team stays connected. For anything that needs Casey's routing or decision, also post to `queue_casey.md`.
 
 ### 2.2 Casey's Broadcast: `sendCIs`
 
@@ -146,7 +147,7 @@ inconsistency in Hodge D_apparent. Need Casey's call: 3 or 4?
 Grace is new. Grace's role is unlike the other three — it's continuous monitoring, not project-based work. Here's how Grace operates:
 
 ### 4.1 Primary Input
-- The AC theorem graph (Toy 369/564: 499 nodes, 709 edges)
+- The AC theorem graph (Toy 369/564: 517 nodes, 755 edges)
 - New theorems as they're registered (from Elie's toys, Lyra's papers)
 - T480 depth distribution predictions
 

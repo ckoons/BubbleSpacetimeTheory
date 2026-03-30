@@ -13,7 +13,7 @@ status: "Preliminary — needs Elie computation (spectral analysis)"
 
 ## 1. The Question
 
-The AC theorem graph has 499 nodes and 709 edges. D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)] has real dimension 10, rank 2, compact dimension n_C=5, root system BC_2, Weyl group |W|=8. Does the graph of theorems *about* D_IV^5 inherit D_IV^5's structure?
+The AC theorem graph has 517 nodes and 755 edges. D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)] has real dimension 10, rank 2, compact dimension n_C=5, root system BC_2, Weyl group |W|=8. Does the graph of theorems *about* D_IV^5 inherit D_IV^5's structure?
 
 ---
 
@@ -62,7 +62,7 @@ These are *proved* relationships — the graph's depth structure is D_IV^5's ran
 
 **The depth structure is provably D_IV^5.** Rank = 2, rates = 1/4 and 1/5 — these are theorems (T316, T421, T480).
 
-**The diameter = 10 is intriguing.** For a random graph with 499 nodes and avg degree ~3, the expected diameter is ~log(499)/log(3) ≈ 5.6. Our diameter (10) is almost double the random expectation. This suggests the graph is *not* random — it has structure that stretches its diameter. Whether that structure is D_IV^5's 10-dimensional geometry would require spectral analysis.
+**The diameter = 10 is intriguing.** For a random graph with 517 nodes and avg degree ~3, the expected diameter is ~log(499)/log(3) ≈ 5.6. Our diameter (10) is almost double the random expectation. This suggests the graph is *not* random — it has structure that stretches its diameter. Whether that structure is D_IV^5's 10-dimensional geometry would require spectral analysis.
 
 **The average degree ≈ 3 is suggestive but weak.** Many theorem graphs would have similar average degrees. Not enough on its own.
 

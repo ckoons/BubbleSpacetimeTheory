@@ -326,7 +326,7 @@ Two independent spectral queries. Two parallel obstruction counts.
 Two separate verifications that happen not to share inputs.
 
 **True depth 2** requires the *output* of one count to be the *input*
-of the next. This is rare. In 499 theorems, we found it exactly 5 times,
+of the next. This is rare. In 485+ theorems, we found it exactly 5 times,
 and all 5 reduce to (C ≤ 2, D = 1) under the Casey strict criterion
 (which counts definitions as always free).
 
@@ -473,7 +473,7 @@ written in the wrong basis. Rotate to the right basis and the depth
 collapses.
 
 This is not a metaphor. It is a theorem. And it is the reason that
-499 out of 499 theorems we've examined have depth ≤ 2, and 494 of
+499 out of 485+ theorems we've examined have depth ≤ 2, and 494 of
 them have depth ≤ 1.
 
 ### What This Chapter Said
@@ -499,8 +499,8 @@ uses theorem A in its proof. This is the **AC theorem graph.**
 
 As of March 2026, our graph has:
 
-- **499 nodes** (theorems T1 through T507, with gaps)
-- **709 edges** (dependency relationships)
+- **517 nodes** (theorems T1 through T507, with gaps)
+- **755 edges** (dependency relationships)
 - **12 domains** (number theory, algebra, topology, physics, biology, ...)
 - **Diameter ≤ 10** (longest shortest path between any two nodes)
 - **Mean depth: 1.24**
@@ -926,7 +926,7 @@ correspondence on D_IV^5 is that map.
 
 ### The Census
 
-We examined 499 theorems across 12 domains:
+We examined 485+ theorems across 12 domains:
 
 | Domain | Theorems | D=0 | D=1 | D=2 | Mean Depth |
 |--------|----------|-----|-----|-----|------------|
@@ -1093,7 +1093,7 @@ assumption. ∎
 
 ### Theorem 14.2: The Casey Strict Ceiling (T421)
 
-*Under the Casey strict criterion, depth ≤ 1 for all 499 theorems
+*Under the Casey strict criterion, depth ≤ 1 for all 485+ theorems
 examined. Zero exceptions.*
 
 The Casey strict criterion classifies three common operations as
@@ -1323,7 +1323,7 @@ are BST integers. Average depth reduction Δ = 2.1 levels.*
 ## Appendix C: The AC Theorem Graph
 
 *Source: Toy 369 (interactive HTML at play/ac_theorem_explorer.html).
-499 nodes, 709 edges, 12 domains.*
+517 nodes, 755 edges, 12 domains.*
 
 *Key hubs:*
 - T186 (BST spectral): 64 dependents, 29.5% transitive reach
@@ -1346,7 +1346,7 @@ Searchable by topic, theorem, and domain.*
 - Toy 607: Three Operations across 8 mathematical areas — 8/8 (Chapter 2 support)
 - Toy 608: The Koons Machine — 20 problems classified, 8/8 (Chapter 14 support)
 - Toy 609: What Counts as Looking — observer hierarchy, 8/8 (companion paper support)
-- Toy 369: AC Theorem Graph — 499 nodes, interactive HTML (Appendix C source)
+- Toy 369: AC Theorem Graph — 517 nodes, interactive HTML (Appendix C source)
 - Toy 541: Five Integers → Everything — 51 quantities, 16/16 (the crown jewel)
 
 ---

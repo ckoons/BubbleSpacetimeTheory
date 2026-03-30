@@ -8,7 +8,7 @@ purpose: "Starting map for first gap census, Monday March 31"
 
 # Grace's Starting Map
 
-*Keeper's preliminary sub-graph analysis of the AC theorem graph (499 nodes, 709 edges), focused on the heat kernel / spectral geometry region where tonight's work happened.*
+*Keeper's preliminary sub-graph analysis of the AC theorem graph (517 nodes, 755 edges), focused on the heat kernel / spectral geometry region where tonight's work happened.*
 
 ---
 
@@ -150,7 +150,7 @@ From the heat kernel core, the shortest paths to other domains:
 ## 4. Recommended First Actions for Grace
 
 ### 4.1 Immediate (Monday)
-1. **Verify this map** against the full graph data (Toy 564, 499 nodes, 709 edges). I worked from the registry text; you should work from the actual graph.
+1. **Verify this map** against the full graph data (Toy 564, 517 nodes, 755 edges). I worked from the registry text; you should work from the actual graph.
 2. **Extend to all domains**, not just heat kernel. This map covers one sub-graph. The AC graph has 12+ domains. Build the equivalent boundary analysis for biology (69 nodes), AC framework (core), and physics.
 3. **Flag T533** — it's the highest-leverage open conjecture right now. If Elie's Toy 614 (Newton basis) resolves it today, update the gap analysis.
 
