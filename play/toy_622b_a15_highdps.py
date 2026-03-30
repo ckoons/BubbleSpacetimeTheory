@@ -53,7 +53,7 @@ def print(*args, **kwargs):
     kwargs.setdefault('flush', True)
     _print(*args, **kwargs)
 
-mpmath.mp.dps = 800
+mpmath.mp.dps = 1600  # doubled from 800 to reduce cascade subtraction errors
 
 PASS = 0
 FAIL = 0

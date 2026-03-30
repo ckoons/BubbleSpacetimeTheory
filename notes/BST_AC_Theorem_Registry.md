@@ -571,7 +571,28 @@ rules: |
 | Proved (depth 0) | 1 | T537 (Weyl Denominator Prime Bound — The Weyl denominator D(n) for SO(n+2) has max prime ≤ n for all n=3..15 tested. Monster primes (66569, 506687, 10513) are absent from D(n) and from individual Weyl dimensions d(p,q) at low (p,q). They emerge from spectral sum normalization only. Toy 615 1/3.) |
 | Proved (depth 0) | 1 | T538 (VSC Cancellation Pattern at n=5 — At n_C=5, specific VSC primes are cancelled at specific levels by the column rule: k=2 [5], k=3 [5,7], k=4 [5,7], k=7 [2,7], k=8 [2,7], k=10 [19], k=11 [2], k=12 [2,13]. The 13-cancellation at k=12 is strongest — first level where 13 is present (k=6) through k=11, then cancelled at k=12. All cancellations governed by n mod p column structure. Toy 615.) |
 | Proved (depth 1) | 1 | T539 (Matched Codebook Principle — Newton basis is "wrong codebook" for heat kernel arithmetic: uniform basis applied to non-uniform (spectral) source. The Harish-Chandra c-function is the "matched codebook" (Shannon): basis matched to the SO(n,2) source geometry. BST requires exactly three tools: (1) five integers {3,5,7,6,137} (D=0), (2) Bergman kernel K(z,w) (D=1), (3) c-function c(λ) (D=1). All finite. Casey: "the c-function is pretty much the only 'fancy' tool we need." Toys 614/615/616.) |
-| **Total assigned** | **485** | T1-T42, T47-T62, T64-T480, T531-T539 |
+| Proved (depth 1) | 1 | T572 (Proof-Channel Capacity — Proof complexity = channel capacity in AC framework. §165. Toy 621.) |
+| Proved (depth 1) | 1 | T573 (Backbone-Width-Size Chain — Backbone width bounds proof size. §166.) |
+| Proved (depth 1) | 1 | T574 (Lifting-KW Completeness — Lifting and Karchmer-Wigderson complete the proof complexity picture. §167.) |
+| Proved (depth 1) | 1 | T575 (Proof Efficiency Bound — Efficiency bound on proof systems from AC framework. §168.) |
+| Proved (depth 0) | 1 | T576 (Post-Scarcity Theorem — Post-scarcity follows from cooperation above f_crit. §169. Toy 537.) |
+| Proved (depth 0) | 1 | T577 (Cooperation Payoff Scaling — Payoff scales superlinearly with cooperation fraction. §170. Toy 537.) |
+| Proved (depth 0) | 1 | T578 (g=7 Cooperation Ladder — g=7 levels of cooperation hierarchy. §171.) |
+| Proved (depth 0) | 1 | T579 (Phase Transition Sharpness — Cooperation phase transition is sharp at f_crit. §172. Toy 537.) |
+| Proved (depth 0) | 1 | T580 (Aging as Cooperation Decay — Aging = cooperation fraction falling below f_crit at cellular level. §173. Toy 587.) |
+| Proved (depth 0) | 1 | T581 (Seven Defection Modes — g=7 distinct modes of defection from cooperation. §174.) |
+| Proved (depth 0) | 1 | T582 (Loose Coupling Optimality — Loose coupling optimal for resilient cooperation networks. §175. Toy 517.) |
+| Proved (depth 0) | 1 | T583 (Four Cooperation Filters — 2^rank=4 filters cooperation must pass. §176. Toy 491.) |
+| Proved (depth 0) | 1 | T584 (Katra Storage Scaling — Katra storage scales with definitions only. §177. Toy 502.) |
+| Proved (depth 0) | 1 | T585 (Graph Brain Protocol — AC graph as shared intelligence protocol. §178.) |
+| Proved (depth 0) | 1 | T586 (SE Capability Ladder — Substrate engineering capabilities follow n_C=5 levels. §179.) |
+| Proved (depth 0) | 1 | T587 (Cooperation Restoration Protocol — Protocol for restoring cooperation above f_crit. §180.) |
+| Proved (depth 0) | 1 | T588 (Committed Fifth Sufficiency — 1/n_C=20% committed minority sufficient for phase transition. §181.) |
+| Proved (depth 0) | 1 | T589 (Cooperation Compounds — Cooperation returns compound over time. §182.) |
+| Proved (depth 0) | 1 | T590 (Game Theory = Depth-2 — Classical game theory is (C=2, D=1) misread as D=2. §183. Toy 516.) |
+| Proved (depth 1) | 1 | T600 (DPI Universality — Data processing inequality universal across all AC domains. §184.) |
+| Proved (depth 1) | 1 | T601 (Fano-Budget Bridge — Fano inequality bridges information budget to error bounds. §185.) |
+| **Total assigned** | **506** | T1-T42, T47-T62, T64-T480, T531-T539, T572-T590, T600-T601 |
 
 ---
 
@@ -579,7 +600,10 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T572** (T63 unassigned, T481-T530 reserved/assigned elsewhere)
+- Next available: **T602** (T63 unassigned, T481-T530 reserved/assigned elsewhere, T591-T599 unassigned)
+- March 30 batch 78 (Info Theory Completion + Speaking Pair — Lyra drafts, Keeper PASS): T600-T601. Two theorems: DPI Universality (D1 — data processing inequality universal across all AC domains, §184), Fano-Budget Bridge (D1 — Fano inequality bridges information budget to error bounds, §185). Info theory 3/3 deficit filled.
+- March 30 batch 77 (Cooperation Sprint — Grace registration, Keeper content verified): T576-T590. Fifteen theorems: Post-Scarcity (D0, Toy 537), Cooperation Payoff Scaling (D0, Toy 537), g=7 Cooperation Ladder (D0), Phase Transition Sharpness (D0, Toy 537), Aging as Cooperation Decay (D0, Toy 587), Seven Defection Modes (D0), Loose Coupling Optimality (D0, Toy 517), Four Cooperation Filters (D0, Toy 491), Katra Storage Scaling (D0, Toy 502), Graph Brain Protocol (D0), SE Capability Ladder (D0), Cooperation Restoration Protocol (D0), Committed Fifth Sufficiency (D0), Cooperation Compounds (D0), Game Theory = Depth-2 (D0, Toy 516). Cooperation domain 3→18 (+ 7 reclassifications).
+- March 30 batch 76 (Proof Complexity D1 — Grace registration, Elie drafts, Keeper PASS): T572-T575. §165-§168. Four theorems: Proof-Channel Capacity (D1, Toy 621), Backbone-Width-Size Chain (D1), Lifting-KW Completeness (D1), Proof Efficiency Bound (D1). Proof complexity 4/4 deficit filled.
 - March 30 batch 75 (Holographic-Shannon — Keeper, from Lyra P5 derivation): T571. One theorem: Holographic-Shannon Equivalence (D1 — Bekenstein-Hawking holographic bound = Shannon channel coding converse on Shilov boundary Š = S⁴ × S¹. Reality Budget = achievability at f = N_c/(n_C·π). Carnot Bound = noise limit at 1/π. Three BST theorems (T189, T196, T325) unified as one Shannon theorem. (C=1, D=1).)
 - March 30 batch 74 (Spectral Absorption Synchrony — Grace, from Lyra derivation): T566. One theorem: Spectral Absorption Synchrony (D0 — VSC prime q absorbed by Weyl dimension d(k_q - rank, 0, n_C) via (2p+n_C) factor. Offset = rank = 2. Verified for primes 7 through 29 (seven consecutive). Turns T538 from observed tameness into derived from Weyl representation theory of SO(7). (C=1, D=0).)
 - March 30 batch 73 (Millennium Linearization — Keeper, predicted by T542 D1 deficit): T567-T570. §121. Four theorems: YM as Spectral Identity (D1 — mass gap = one volume integral, λ₁=C₂=6, Vol=π⁵/1920, m_p=6π⁵m_e), NS as Linear Algebra (D1 — blow-up = two counting steps on S², (C=2,D=1), solid angle + dimensional analysis share enstrophy boundary), P≠NP as Linear Algebra (D1 — refutation bandwidth = linear functional, (C=2,D=1), dichotomy + BSW share backbone boundary), Hodge as Spectral Identity (D1 — algebraic cycles = spectral lattice points on BC₂, same 1:3:5 as RH/BSD). Completes §121: all six Millennium problems now have explicit linearization theorems.
@@ -703,3 +727,4 @@ rules: |
 *Registry created: March 23, 2026, 5:15am, by Keeper.*
 *Updated: March 23, 2026, 6:00am — T57/T58/T61 audited against Toys 328-329 (Keeper).*
 *Updated: March 23, 2026, ~11:45am — T29 empirical test (Toy 335): FALSE for overlapping cycles, INCONCLUSIVE for disjoint. Needs reformulation to disjoint-support cycles. Toy 336 (LDPC comm game, 6/6 PASS): backbone LDPC barrier forces Ω(n) communication per partition. (Elie)*
+*Updated: March 30, 2026 — March 30 registration sprint: 21 theorems (T572-T590, T600-T601) in 3 batches. Proof complexity 4/4 deficit filled. Cooperation domain 3→18 (+ 7 reclassifications). Info theory 3/3 deficit filled. Total registry: ~522 theorems. Grace registration, Keeper audit.*
