@@ -3,10 +3,10 @@ title: "The Arithmetic Triangle of Curved Space"
 subtitle: "Prime Migration in Seeley-DeWitt Coefficients"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 30, 2026"
-status: "Draft v6 — 147 nucleosome bridge added (§9.3); k=13 QUIET confirmed; speaking pairs derived; c-function organizes arithmetic."
+status: "Draft v7 — k=14 LOUD confirmed (prime 29, Toy 620); T566 absorption synchrony; 147 bridge; speaking pairs; nine consecutive levels."
 target: "Journal of Number Theory / arXiv:math.NT+math.SP"
 framework: "AC(0) depth 0-1"
-toys: "273-278, 305, 361, 463, 612-617"
+toys: "273-278, 305, 361, 463, 612-620"
 theorems: "T531-T539, T543 (Speaking Pairs Derivation)"
 five_integers: "N_c=3, n_C=5, g=7, C_2=6, rank=2"
 ---
@@ -45,7 +45,7 @@ For the domain D_IV^5 — the Bubble Spacetime geometry — the evaluation point
 
 ## 3. The Data
 
-We have computed a_k(n) as exact rationals for k = 1 through 13, verified at multiple dimensions n = 3 through 33 using adaptive heat trace methods at 400–800 digit precision (Toys 273–278, 361, 612, 617). Eight consecutive levels (k = 6 through 13) have exact polynomials recovered.
+We have computed a_k(n) as exact rationals for k = 1 through 14, verified at multiple dimensions n = 3 through 33 using adaptive heat trace methods at 400–800 digit precision (Toys 273–278, 361, 612, 617, 620). Nine consecutive levels (k = 6 through 14) have exact polynomials recovered.
 
 ### 3.1 Exact Values at n = 5
 
@@ -64,10 +64,11 @@ We have computed a_k(n) as exact rationals for k = 1 through 13, verified at mul
 | 11 | 217597666296971/1581170716125 | 1581170716125 | 3⁵ · 5³ · 7² · 11 · 13 · 17 · 19 · 23 |
 | 12 | 13712051023473613/38312982736875 | 38312982736875 | 3⁷ · 5⁴ · 7³ · 11 · 17 · 19 · 23 |
 | 13 | 238783750493609/218931329925 | 218931329925 | 3⁷ · 5² · 7² · 11 · 17 · 19 · 23 |
+| 14 | 2946330175808374253/884326193375625 | 884326193375625 | 3⁸ · 5⁴ · 7 · 11 · 13 · 17 · 19 · 23 · 29 |
 
 ### 3.2 The Three Theorems
 
-Three structural constraints govern every polynomial a_k(n) (verified k = 1 through 13, eight consecutive levels with exact polynomials):
+Three structural constraints govern every polynomial a_k(n) (verified k = 1 through 14, nine consecutive levels with exact polynomials):
 
 **Theorem 1 (Leading coefficient — Force).** The leading coefficient of a_k(n) as a degree-2k polynomial is:
 $$c_{2k} = \frac{1}{3^k \cdot k!}$$
@@ -182,12 +183,17 @@ Neither source alone determines the full prime content. The row rule (VSC) predi
 
 **The 13-cancellation at k = 12.** The two sources are not merely additive — the column rule can suppress Bernoulli primes at higher levels (see §5, higher-level cancellation observation). At k = 12, von Staudt-Clausen predicts primes {2, 3, 5, 7, 13} via B₂₄, but the evaluation at n = 5 cancels both 2 and 13.
 
-**Arithmetic tameness of n = 5 (T538).** At n = n_C = 5, every prime in den(a_k(5)) for k = 1 through 13 is a cumulative Bernoulli (VSC) prime. There are zero polynomial-factor primes. The column rule at n = 5 only cancels — it never adds. The cancellation pattern (Toy 615):
+**Arithmetic tameness of n = 5 (T538).** At n = n_C = 5, every prime in den(a_k(5)) for k = 1 through 14 is a cumulative Bernoulli (VSC) prime. There are zero polynomial-factor primes. The column rule at n = 5 only cancels — it never adds. The cancellation pattern (Toys 615, 620):
 
-- k = 5, 6, 9: all VSC primes survive (exact match)
+- k = 5, 6, 9, 14: all VSC primes survive (exact match)
 - k = 2, 3, 4, 7, 8, 10, 11, 12, 13: some VSC primes cancelled by n = 5 polynomial structure
 - k = 12: both 2 and 13 cancelled
 - k = 13: QUIET (max prime 23, same as k = 11, 12)
+- k = 14: LOUD — prime 29 enters, all 10 cumulative VSC primes present
+
+The LOUD/quiet alternation through k = 14: LOUD(8,9), quiet(10), LOUD(11), quiet(12,13), LOUD(14). New primes enter in bursts separated by quiet consolidation levels.
+
+**The mechanism (T566, Spectral Absorption Synchrony).** The Weyl dimension formula for SO(n_C+2) representations contains the factor (2p+n_C). At n = 5, VSC prime q divides d(k_q − rank, 0, 5) because 2(k_q − 2) + 5 = 2k_q + 1 = q. The absorption offset is exactly rank = 2: the representation that absorbs prime q sits two levels below the heat kernel level where q enters. This turns T538 from an empirical observation into a consequence of the Weyl dimension formula.
 
 This is not an artifact of low k. The monster primes (66569, 506687, 26116957...) that appear at other dimensions are not present in any individual representation dimension d(p,q) or Weyl denominator — they emerge only from normalized sums across the full spectrum (T539). At n = 5, the spectral aggregation produces no new primes. The BST dimension is the one where curvature has zero arithmetic overhead beyond number theory.
 
@@ -437,7 +443,8 @@ Total computation: approximately 80 hours across k = 6 through 13. The extractio
 | Speaking pairs derivation (T543) | (2, 0) | Weyl dimension formula at spectral indices |
 | c-Function prime unification (T533 revised) | (1, 0) | Single finite function evaluation (predicted) |
 | Nucleosome wrapping 147 = N_c g² (T548) | (1, 0) | Direct evaluation of integer part of a₄(5) |
-| This paper | (C=10, D=0) | Ten independent results, zero sequential dependence |
+| Spectral Absorption Synchrony (T566) | (1, 0) | Offset = rank from Weyl formula (2p+n) factor |
+| This paper | (C=11, D=0) | Eleven independent results, zero sequential dependence |
 
 ---
 
