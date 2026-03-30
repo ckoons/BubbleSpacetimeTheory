@@ -10231,7 +10231,7 @@ $$\text{Analytic: } L(E,s) = \langle a_p \,|\, p^{-s} \rangle \qquad \text{Arith
 
 | Step | Operation | Depth |
 |------|-----------|-------|
-| 1. Vogan-Zuckerman filter | $A_\mathfrak{q}(\lambda)$ modules classified by $BC_2$ root system | 0 (lookup, T109) |
+| 1. Vogan-Zuckerman filter | $A_{\mathfrak{q}}(\lambda)$ modules classified by $BC_2$ root system | 0 (lookup, T109) |
 | 2. BMM wall at $H^{1,1}$ | Codimension 1 proved (theta correspondence) | 0 (absorbed, T108) |
 | 3. $BC_2$ representation filter | Root multiplicities $(3,4,1)$ constrain $H^{2,2}$ | 1 (counting over root spaces, T110) |
 | 4. Phantom exclusion | DPI + parity eliminate non-algebraic classes | 0 (identity, free) |
