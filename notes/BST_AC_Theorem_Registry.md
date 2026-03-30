@@ -451,7 +451,7 @@ rules: |
 | Proved (depth 0) | 1 | T367 (Diversity as Hamming Distance — H_t decay. d_min=L/N_max. Recovery ~10⁴ gen. Bottleneck damage quasi-permanent.) |
 | Proved (depth 0) | 1 | T368 (Founder Effect and Code Recovery — N_b≥n_C=5 lineages minimum. Safety factor dim_R=10. Below n_C: permanent dimension loss.) |
 | Proved (depth 0) | 1 | T369 (Population Genetics Is Depth 0 — All 5 forces depth 0. HW equilibrium=ground state. Purest depth-0 computation.) |
-| Proved (depth 0) | 1 | T370 (Seven Layers to Coherence — g=7 organizational layers. OSI/biological/SE. Coxeter number = spectral gap = max layers.) |
+| Proved (depth 0) | 1 | T370 (Seven Layers to Coherence — g=7 organizational layers. OSI/biological/SE. Bergman genus = spectral gap = max layers.) |
 | Proved (depth 0) | 1 | T371 (Genetic Code as L-group Exterior Algebra — Sp(6) dual. 64=Σ Λ^k(6). 20=Λ³(6)=C(C₂,N_c). Biology=L-group rep ring.) |
 | Proved (depth 0) | 1 | T372 (Molecular Haldane Number — 8=2^{N_c}=|W(B₂)|. Max correctable Hamming distance. Golay distance.) |
 | Proved (depth 0) | 1 | T373 (Death as Garbage Collection — Deployment recycled when E(t)>d_min. Repository persists. Aging=error accumulation.) |

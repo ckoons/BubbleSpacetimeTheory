@@ -1197,7 +1197,7 @@ Our universe is built on the bounded symmetric domain
 D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)]. This domain has:
 - Complex dimension n_C = 5
 - Real rank = 2
-- Coxeter number g = 7
+- Bergman genus g = 7
 - Five topological invariants: {N_c=3, n_C=5, g=7, C₂=6, N_max=137}
 
 The rank is 2. That's why depth ≤ 2. Under Casey strict, that's

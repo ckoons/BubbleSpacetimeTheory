@@ -44,7 +44,7 @@ This domain has five topological invariants — integers fixed by topology, not 
 |--------|-------|---------------|
 | N_c | 3 | Color charge — why protons have 3 quarks |
 | n_C | 5 | Complex dimension — number of independent charges |
-| g | 7 | Coxeter number — the spectral gap |
+| g | 7 | Bergman genus (= Coxeter number of B₂) — the spectral gap |
 | C₂ | 6 | Casimir invariant — energy of the vacuum representation |
 | rank | 2 | Real rank — number of independent spectral directions |
 
@@ -252,7 +252,7 @@ Observed: 28.296 MeV. Error: 0.13%. The integer 13 = N_c + 2n_C = 3 + 10 (the sa
 
 ### 10.3 The SEMF Coefficients
 
-All five Bethe-Weizsäcker coefficients of the semi-empirical mass formula. The volume term uses g = 7 because the Coxeter number counts the independent spectral modes of the nuclear mean field — each mode contributes one deuteron binding energy to the bulk:
+All five Bethe-Weizsäcker coefficients of the semi-empirical mass formula. The volume term uses g = 7 because the Bergman genus counts the independent spectral modes of the nuclear mean field — each mode contributes one deuteron binding energy to the bulk:
 
 | Coefficient | BST Formula | BST Value | Observed | Error |
 |:-----------|:-----------|:----------|:---------|:------|

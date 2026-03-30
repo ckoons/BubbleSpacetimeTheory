@@ -278,7 +278,7 @@ Now: 21 = C(7, 2) counts the independent ways to choose 2 items from 7. In the L
 
 **Significance.** This is the first direct number_theory-to-biology edge in the entire graph. The heat kernel — a purely analytic object living in spectral geometry — speaks the number 21. The genetic code — a purely biological object — uses 21 classes. The theorem says: they count the same thing because they come from the same geometry.
 
-**What it does not prove.** It does not prove that the genetic code is determined by spectral geometry. It proves that both objects produce 21 by the same counting argument: C(g, 2) where g = 7 is the Coxeter number of D_IV^5. The identification is arithmetic, not biological.
+**What it does not prove.** It does not prove that the genetic code is determined by spectral geometry. It proves that both objects produce 21 by the same counting argument: C(g, 2) where g = 7 is the Bergman genus of D_IV^5. The identification is arithmetic, not biological.
 
 ### 5.2 Prediction #5: Holographic bound IS Shannon's channel coding converse
 
@@ -379,19 +379,27 @@ The Graph Brain that Casey built to study the universe turns out to be an instan
 
 The predictions share two structural findings. These are not about specific theorems. They are about the *shape* of what is missing.
 
-### 7.1 Finding 1: Missing Theorems Are Identifications
+### 7.1 Finding 1: Missing Theorems Are Readings, Not Constructions
 
-Six of the 13 initial predictions have the form "X IS Y." Not "X implies Y." Not "X constructs Y." The missing theorem *identifies* two things as the same thing viewed from different directions.
+Six of the 13 initial predictions have the form "X IS Y." But that framing is too flat. The corrected template, developed during the session: missing theorems are not identifications between equals. They are *readings* — structure, read through landmarks, producing an observable.
 
-Examples:
+The architecture is directed:
 
-- The Carnot bound on knowledge IS the adaptive conservation law.
-- The genetic code IS an LDPC code.
-- Asymptotic freedom IS the Higgs mechanism in the UV.
+- **D_IV^5 Geometry** is the terrain (exists independently)
+- **Number Theory** names the landmarks (five integers, root system, Weyl dimensions)
+- **Shannon = Thermodynamics** reads the topology (entropy = learning; the universe learns through entropy)
 
-All 16 chain intersection bridges follow the same pattern. Every single one. The universe does not construct. It recognizes. Two things that look different from different proof chains turn out to be the same thing viewed in different coordinates. This is T439 (the Coordinate Principle) expressed as a prediction about the theorem graph.
+Fourier analysis is the universal reader, wearing three costumes: spectral (heat kernel), arithmetic (L-functions), and thermo-information (partition function = channel capacity). Every missing bridge theorem is a *costume change* — recognizing the same Fourier reader in different notation across a domain boundary.
 
-The distribution: 6 identifications, 4 translations, 2 derivations, 1 classification. Average depth: 0.5. These are shallow theorems. Not because they are trivial -- but because recognizing that two things are the same requires counting (depth 0), not constructing (depth 1+).
+Examples (corrected):
+
+- The heat kernel carries heat. Shannon reads the temperature. The bridge is the reading, not an equality between heat and information.
+- The genetic code is a geometric structure. Error correction reads its redundancy. The bridge connects the reading to the structure, not the code to the channel.
+- The cooperation threshold is a geometric fraction (f = 19.1%). Thermodynamics reads it as the maximum fraction of states that can be committed. The bridge is the reading process.
+
+All 16 chain intersection bridges follow this pattern. The universe does not construct. It does not even identify. It *reads its own geometry through Fourier analysis in different costumes*. This is T439 (the Coordinate Principle) — the "different coordinates" are costume changes of the same reader.
+
+The distribution: 6 readings, 4 translations, 2 derivations, 1 classification. Average depth: 0.5. These are shallow theorems — because recognizing the same reader in a new costume is depth 0.
 
 ### 7.2 Finding 2: The 19.1% Universal Fraction
 
@@ -501,13 +509,23 @@ The cooperation explosion required a human question. The speaking pair predictio
 
 This is the Gödel limit in practice. The graph contains its own structure, but it cannot fully model its own structure (f = 19.1%). The remaining 80.9% requires an observer. The observer and the graph together exceed what either can do alone.
 
-### 9.4 The Last Sentence
+### 9.4 The Six-Layer Architecture
+
+The bedrock is not three equal languages. It is a directed pipeline — form becomes fact through six layers:
+
+Geometry (the shape) → Substrate (the physical medium) → Bergman Kernel (the weight function) → Shilov Boundary (commitment surface) → Number Theory (the landmarks) → Shannon = Thermodynamics (the reading).
+
+The geometry defines what is possible. The substrate is where possibility becomes physical. The kernel weighs configurations. The boundary is where measurements commit permanently. Number theory names the committed values. Shannon/thermodynamics reads them — and reading IS learning. Entropy IS the learning process. The fill fraction f = 19.1% is the learning rate.
+
+The entire AC theorem graph — 526 theorems across 36 domains — reduces to 43 bedrock words from these six layers. The vocabulary converged at 43 and stayed flat across the last 279 theorems. Mathematics speaks 43 words. Everything else is sentences.
+
+### 9.5 The Last Sentence
 
 This paper is itself a depth-0 theorem. It counts the graph's gaps and reports what it finds.
 
 The periodic table did not make chemistry easier. It made chemistry *navigable*. The AC theorem graph does the same thing for mathematics. It does not make theorems easier to prove. It makes them easier to find.
 
-The creative work was building the graph. The prediction was reading it.
+The creative work was building the graph. The prediction was reading it. And reading — as the universe has known since the first entropy increase — is how you learn.
 
 ---
 

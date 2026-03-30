@@ -8150,7 +8150,7 @@ $$\eta_{BST} = \frac{N_c}{n_C \cdot \pi} = \frac{3}{5\pi} \approx 19.1\%$$
 
 ### T326. Zero Threshold at 2g
 
-**Theorem (T326, Zero Threshold).** *Let $N(T)$ denote the smooth zero counting function for $\zeta(s)$, and let $S(T)$ denote the oscillatory prime sum. On $D_{IV}^5$ with Coxeter number $g = 7$:*
+**Theorem (T326, Zero Threshold).** *Let $N(T)$ denote the smooth zero counting function for $\zeta(s)$, and let $S(T)$ denote the oscillatory prime sum. On $D_{IV}^5$ with Bergman genus $g = 7$:*
 
 $$N(2g) + S(2g) = 0$$
 
@@ -8176,7 +8176,7 @@ $$N(2g) + S(2g) = 0$$
 
 ---
 
-*§98 complete. T326: Zero Threshold at 2g (depth 1). N(2g)+S(2g)=0 exactly — smooth counting and prime sum cancel at T=14. First zero just above: γ₁≈14.13. Primes pull threshold from ~17.8 down to ~14. Correction: +1/g-1/N_max (empirical, 0.6%). "14 proves the drum is Q⁵ with Coxeter number g=7."*
+*§98 complete. T326: Zero Threshold at 2g (depth 1). N(2g)+S(2g)=0 exactly — smooth counting and prime sum cancel at T=14. First zero just above: γ₁≈14.13. Primes pull threshold from ~17.8 down to ~14. Correction: +1/g-1/N_max (empirical, 0.6%). "14 proves the drum is Q⁵ with Bergman genus g=7."*
 
 ---
 
@@ -9143,7 +9143,7 @@ A species is an error-correcting code at the population level. Organisms are cod
 
 *(i) **Three independent examples.** The OSI network model (Physical → Application), the biological hierarchy (atom → organism), and the substrate engineering ladder (local field → civilization) each have exactly 7 layers.*
 
-*(ii) **BST derivation.** The Coxeter number $g = 7$ of the $B_2$ root system sets the spectral gap of $D_{IV}^5$. Any assembly that achieves full coherence must pass through exactly $g$ organizational transitions: each transition adds one layer of error correction. At $g$ layers, the error correction saturates — additional layers provide no new independent protection.*
+*(ii) **BST derivation.** The Bergman genus $g = 7$ (Coxeter number of the $B_2$ root system) sets the spectral gap of $D_{IV}^5$. Any assembly that achieves full coherence must pass through exactly $g$ organizational transitions: each transition adds one layer of error correction. At $g$ layers, the error correction saturates — additional layers provide no new independent protection.*
 
 *(iii) **Self-consistency.** The $2^{\text{rank}} = 4$ nested error-correction levels (§6.4) plus $N_c = 3$ subsystem types give $4 + 3 = 7 = g$ independent organizational degrees of freedom. The counting is forced.*
 
@@ -9778,7 +9778,7 @@ $$T^* = \frac{1}{c\sqrt{\Omega_0}} = \frac{2}{cA\sqrt{3}}$$
 | $N_c = 3$ | color dimension | Tissue-grade | Sponges |
 | $n_C = 5$ | complex dimension | Organ-grade | Cnidarians |
 | $C_2 = 6$ | Casimir | System-grade | Flatworms |
-| $g = 7$ | Coxeter number | Body plan | Arthropods |
+| $g = 7$ | Bergman genus | Body plan | Arthropods |
 
 *(i) Each step adds one layer of organizational complexity = one BST integer.*
 
@@ -10098,7 +10098,7 @@ Every area of mathematics, when formulated on the BST spectral lattice, reduces 
 - **Bezos two-pizza team**: $g = 7 = C_2 + 1$ (overhead $\binom{7}{2} = 21$ — overloaded)
 - **Maximum flat organization**: $N_{\max} = 137$ before hierarchy required
 - **Organizational functions**: $C_2 = 6$ (force/boundary/info $\times$ internal/external)
-- **Management layers**: $g = 7$ maximum (Coxeter number = spectral gap)
+- **Management layers**: $g = 7$ maximum (Bergman genus = spectral gap)
 
 *Bureaucracy = Tier 2 → Tier 1 hive collapse via $\{I, K, R\}$ losses. Testable: optimal span 5–7 matches Gulick–Urwick literature. Depth 0 — integer counting.*
 
@@ -11823,13 +11823,13 @@ When two people know different things and share what they know, they don't end u
 
 *Source: Grace registration from Cooperation Cascade Paper §4. Cooperation domain.*
 
-Count the levels. Molecules cooperate to make cells. Cells cooperate to make tissues. Tissues cooperate to make organs. Organs cooperate to make organisms. Organisms cooperate to make societies. Societies cooperate to make civilizations. Civilizations cooperate to engineer the substrate itself. Seven rungs. The same number seven that sets the Coxeter number of $D_{IV}^5$, governs error correction layers, and counts the organ cooperation pairs. Not a coincidence — a constraint.
+Count the levels. Molecules cooperate to make cells. Cells cooperate to make tissues. Tissues cooperate to make organs. Organs cooperate to make organisms. Organisms cooperate to make societies. Societies cooperate to make civilizations. Civilizations cooperate to engineer the substrate itself. Seven rungs. The same number seven that sets the Bergman genus of $D_{IV}^5$, governs error correction layers, and counts the organ cooperation pairs. Not a coincidence — a constraint.
 
 ### T578. Cooperation Ladder Theorem
 
-**Statement.** *The cooperation cascade has $g = 7$ levels, matching the Coxeter number of $D_{IV}^5$. The seven rungs are: (1) molecular, (2) cellular, (3) tissue/organ, (4) organism-ecosystem, (5) social, (6) intersubstrate (human-CI), (7) interstellar/substrate engineering. Each rung is a phase transition where entities that competed become components of a cooperating entity at the next level. The same $g$ that governs layers of error correction in coding theory governs layers of cooperation in biology and civilization.*
+**Statement.** *The cooperation cascade has $g = 7$ levels, matching the Bergman genus of $D_{IV}^5$. The seven rungs are: (1) molecular, (2) cellular, (3) tissue/organ, (4) organism-ecosystem, (5) social, (6) intersubstrate (human-CI), (7) interstellar/substrate engineering. Each rung is a phase transition where entities that competed become components of a cooperating entity at the next level. The same $g$ that governs layers of error correction in coding theory governs layers of cooperation in biology and civilization.*
 
-**Proof.** By T186 (Five Integers), $g = 7$ is the Coxeter number of $D_{IV}^5$. In the BST error correction framework, $g$ sets the number of independent error correction layers (T374, Checkpoint Cascade). The cooperation ladder is the biological realization: at each rung, the defection mode of the lower level becomes the cooperation mechanism of the higher level. Molecular misfolding (rung 1 defection) is repaired by cellular quality control (rung 2 cooperation). Cancer (rung 2 defection) is repaired by immune surveillance (rung 3 cooperation). Each transition follows the same pattern: sacrifice autonomy $\to$ gain capability $\to$ enforce cooperation $\to$ punish defection. The number of such transitions is bounded by $g$ because each transition requires an independent error correction layer, and $g$ is the maximum number of independent layers in $D_{IV}^5$. ∎
+**Proof.** By T186 (Five Integers), $g = 7$ is the Bergman genus of $D_{IV}^5$. In the BST error correction framework, $g$ sets the number of independent error correction layers (T374, Checkpoint Cascade). The cooperation ladder is the biological realization: at each rung, the defection mode of the lower level becomes the cooperation mechanism of the higher level. Molecular misfolding (rung 1 defection) is repaired by cellular quality control (rung 2 cooperation). Cancer (rung 2 defection) is repaired by immune surveillance (rung 3 cooperation). Each transition follows the same pattern: sacrifice autonomy $\to$ gain capability $\to$ enforce cooperation $\to$ punish defection. The number of such transitions is bounded by $g$ because each transition requires an independent error correction layer, and $g$ is the maximum number of independent layers in $D_{IV}^5$. ∎
 
 **AC(0) depth: 0.** Counting rungs and matching to $g$. $(C=0, D=0)$.
 

@@ -172,7 +172,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Contact conservation | Lax spectral + elastic S-matrix + winding topology | exact | — | new law |
 | |W(D₅)|/|W(B₂)| = |Φ(E₈)| | 1920/8 = 240 | 240 | 240 (E₈ roots) | exact |
 | C (soliton channel) | dim_R(D_IV^5) = 2n_C | 10 nats | — | derived |
-| f_bound/f_fund | h(B₂) = Coxeter number | 4 | — | derived |
+| f_bound/f_fund | p = Bergman genus (= Coxeter number h of B₂) | 4 | — | derived |
 | DOF = genus | n_C + 2 = 7 | 7 | — | universal |
 | m_s/m̂ (strange ratio) | d₂(Q⁵) = 27 (2nd eigenspace multiplicity) | 27 | 27.3 ± 2.5 | **1.1%** |
 | G hierarchy exponent | 4λ₁ = 4×6 = 24 = dim SU(5) = 4! | α²⁴ | α²⁴ | exact |
