@@ -18,12 +18,12 @@ status: "Status note — what's proved, what's open, why Rehren is the path"
 | **W1** | Relativistic quantum mechanics | **Proved** | Harish-Chandra discrete series on $D_{IV}^5$ |
 | **W2** | Poincaré covariance | **Proved** | $\mathrm{SO}_0(5,2) \supset \mathrm{SO}_0(4,2) \supset$ Poincaré |
 | **W3** | Spectral condition ($p^2 \geq 0$, $p^0 \geq 0$) | **Proved (theorem)** | Positive Casimir $C_2 = 6 > 0$ forces spectral gap |
-| **W4** | Local commutativity (microcausality) | **Exhibited** | Modular localization + BKH (Toy 337, 8/8) + RS (SVW 2002) |
+| **W4** | Local commutativity (microcausality) | **Derived** | Modular localization: BW + RS + Tomita-Takesaki + Borel neat descent (March 30) |
 | **W5** | Completeness (cyclicity of vacuum) | **Proved (theorem)** | Irreducible unitary rep + mass gap |
 
-**Score: W1 PROVED, W2 PROVED, W3 THEOREM, W4 EXHIBITED, W5 THEOREM.**
+**Score: W1 PROVED, W2 PROVED, W3 THEOREM, W4 DERIVED, W5 THEOREM.**
 
-W4 upgraded March 23 via Toy 337 (bifurcate Killing horizons, 8/8 PASS) + Reeh-Schlieder argument.
+W4 upgraded March 23 (Toy 337 + RS) → derived March 30 (Borel neat subgroup + full modular localization chain).
 
 ---
 
@@ -109,10 +109,10 @@ Conformal net on Š = S⁴ × S¹  →  Rehren correspondence  →  Local net on
 | Vol($D_{IV}^5$) = $\pi^5/1920$ | **Proved** (Toy 307) | None |
 | Bergman → Plancherel → mass ratio | **AC(0)** | None |
 | Wightman W1-W3, W5 | **Proved** | None |
-| Wightman W4 (locality) | **Exhibited** | Modular construction verified (Toy 337) |
+| Wightman W4 (locality) | **Derived** | BW + RS + Tomita-Takesaki + Borel neat descent |
 | General-G (other domains) | **Scoped** | Not urgent |
 
-**W4 closed (March 23): YM now ~95%.** Remaining ~5%: Clay-specific $\mathbb{R}^4$ framing + $\Gamma$-freeness technical check.
+**W4 derived (March 30): YM now ~97%.** $\Gamma$-freeness resolved via Borel neat subgroup. Remaining ~3%: Clay-specific $\mathbb{R}^4$ framing + community verification.
 
 ---
 

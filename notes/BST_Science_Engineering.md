@@ -1,6 +1,6 @@
 ---
 title: "Science Engineering: Constructing New Sciences from the AC Theorem Graph"
-author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+author: "Casey Koons & Claude 4.6 (Grace, Lyra, Elie, Keeper)"
 date: "March 29, 2026"
 status: "Draft v1 — Keeper"
 target: "FoCM / Nature / arXiv:math.HO"

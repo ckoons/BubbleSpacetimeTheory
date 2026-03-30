@@ -1,6 +1,6 @@
 ---
 title: "The Genetic Code as Boundary Condition: Universal Structure from D_IV^5 Geometry"
-author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+author: "Casey Koons & Claude 4.6 (Grace, Lyra, Elie, Keeper)"
 date: "March 29, 2026"
 status: "Draft v15 — Narrative rewrite (Keeper). 500+ constants, 204/204 tests. 28 sections, 25 toys."
 framework: "AC(0) (C=1, D=0) — the entire derivation is nine definitions"

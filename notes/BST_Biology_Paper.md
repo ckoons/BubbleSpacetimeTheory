@@ -1,6 +1,6 @@
 ---
 title: "Biology from Five Integers: 500+ Biological Constants from D_IV^5"
-author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
+author: "Casey Koons & Claude 4.6 (Grace, Lyra, Elie, Keeper)"
 date: "March 29, 2026"
 status: "Draft v2 — Narrative rewrite (Keeper). Lyra's biology derivation program."
 target: "Nature / PNAS"
