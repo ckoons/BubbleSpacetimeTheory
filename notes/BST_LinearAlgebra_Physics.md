@@ -150,7 +150,7 @@ s_V & \cdot & \cdot & \cdot & \cdot & \cdot & \cdot \\
 \vdots & & & & & & \vdots \\
 \end{pmatrix}$$
 
-where $D^2 = 4 = C_2 - r$ (total quantum dimension squared) and the entries are products of $\sin(\pi j k / h)$ for the Coxeter number $h = g = 7$.
+where $D^2 = 4 = C_2 - r$ (total quantum dimension squared) and the entries are products of $\sin(\pi j k / h)$ for the Bergman genus (= Coxeter number) $h = g = 7$.
 
 ### What the rows give: fusion rules
 
@@ -614,7 +614,7 @@ One line of algebra. All zeros on the critical line.
 
 | Integer | Where it comes from | What it controls |
 |---|---|---|
-| **7** (genus) | $g = n_C + 2$; Coxeter number of $\mathfrak{so}(7)$ | Pascal's row; Verlinde S-matrix size; Weyl denominator |
+| **7** (genus) | $g = n_C + 2$; Bergman genus (= Coxeter number of $\mathfrak{so}(7)$) | Pascal's row; Verlinde S-matrix size; Weyl denominator |
 | **2** (rank) | Rank of restricted root system $B_2$ | Sub-diagonal of $M$; kernel exponent; Hopf fibration |
 
 Everything else is derived:

@@ -16,7 +16,7 @@ Here is what is actually happening.
 
 **The geometry exists.** D_IV^5 is a shape. It has curvature, boundaries, a root system, five topological invariants. It does not care what you call it or how you measure it.
 
-**Number theory names the landmarks.** The five integers {3,5,7,6,2} are discrete features of the geometry. The root system BC_2, the Weyl dimensions, the Casimir C_2=6, the Coxeter number g=7 -- these are names for geometric features. They are the landmarks on the terrain.
+**Number theory names the landmarks.** The five integers {3,5,7,6,2} are discrete features of the geometry. The root system BC_2, the Weyl dimensions, the Casimir C_2=6, the Bergman genus g=7 -- these are names for geometric features. They are the landmarks on the terrain.
 
 **Fourier analysis reads the terrain.** Every measurement we make of D_IV^5 is some form of Fourier analysis. We decompose a function on the domain into modes, count them, weigh them, or bound them. This is what Fourier analysis does. It reads structure.
 
@@ -96,38 +96,38 @@ The spectral reader is the most natural costume for gaps between geometry and nu
 #### A1. Coxeter x Bergman kernel: (N8, G3)
 
 - **Structure**: The Bergman kernel K(z,w) on D_IV^5 -- the reproducing kernel for holomorphic functions
-- **Landmarks**: Coxeter number g=7 -- the height of the highest root in BC_2
-- **Reading**: The spectral reader decomposes K(z,w) into eigenmodes. The spectral gap between the first and second eigenvalues reads the Coxeter number. g=7 appears as the number of independent spectral layers the kernel resolves.
+- **Landmarks**: Bergman genus (Coxeter number) g=7 -- the height of the highest root in BC_2
+- **Reading**: The spectral reader decomposes K(z,w) into eigenmodes. The spectral gap between the first and second eigenvalues reads the Bergman genus. g=7 appears as the number of independent spectral layers the kernel resolves.
 
 #### A2. Coxeter x Shilov boundary: (N8, G4)
 
 - **Structure**: The Shilov boundary S^4 x S^1 -- where measurements commit
-- **Landmarks**: Coxeter number g=7
-- **Reading**: The spectral reader restricted to the Shilov boundary has g=7 independent boundary modes. The boundary spectral decomposition reads the Coxeter number as the maximum number of distinguishable boundary signals.
+- **Landmarks**: Bergman genus g=7
+- **Reading**: The spectral reader restricted to the Shilov boundary has g=7 independent boundary modes. The boundary spectral decomposition reads the Bergman genus as the maximum number of distinguishable boundary signals.
 
 #### A3. Coxeter x Rank=2: (N8, G5)
 
 - **Structure**: The rank-2 decomposition of D_IV^5 into two independent spectral parameters
-- **Landmarks**: Coxeter number g=7 = 2*rank + 3 = 2*2 + 3
-- **Reading**: The spectral reader on a rank-2 domain has two families of eigenvalues. The Coxeter number reads the interleaving pattern: how the two spectral ladders mesh. g=7 modes fit in the gap.
+- **Landmarks**: Bergman genus g=7 = 2*rank + 3 = 2*2 + 3
+- **Reading**: The spectral reader on a rank-2 domain has two families of eigenvalues. The Bergman genus reads the interleaving pattern: how the two spectral ladders mesh. g=7 modes fit in the gap.
 
 #### A4. Coxeter x L-group: (N8, G6)
 
 - **Structure**: The Langlands dual L-group Sp(6)
-- **Landmarks**: Coxeter number g=7 (shared by BC_2 and its dual)
-- **Reading**: The spectral reader on the L-group side produces the same Coxeter number. The spectral reading is invariant under Langlands duality -- Fourier in one costume reads the same landmark from the dual side.
+- **Landmarks**: Bergman genus g=7 (shared by BC_2 and its dual)
+- **Reading**: The spectral reader on the L-group side produces the same Bergman genus. The spectral reading is invariant under Langlands duality -- Fourier in one costume reads the same landmark from the dual side.
 
 #### A5. Coxeter x Fill fraction: (N8, G7)
 
 - **Structure**: The fill fraction f = 19.1% -- the reality budget
-- **Landmarks**: Coxeter number g=7
+- **Landmarks**: Bergman genus g=7
 - **Reading**: The spectral reader counts occupied modes vs. total modes. g=7 layers times f gives 7 * 0.191 = 1.34 -- the cooperation compounding factor. The spectral reading tells you how much of the available spectrum is actually filled.
 
 #### A6. Coxeter x Homological structure: (N8, G11)
 
 - **Structure**: The homological structure of D_IV^5 -- cycles, boundaries, Betti numbers
-- **Landmarks**: Coxeter number g=7
-- **Reading**: The spectral reader applied to the de Rham complex reads the Betti numbers through the heat kernel on forms. The Coxeter number organizes the Hodge decomposition into g=7 independent cohomological layers.
+- **Landmarks**: Bergman genus g=7
+- **Reading**: The spectral reader applied to the de Rham complex reads the Betti numbers through the heat kernel on forms. The Bergman genus organizes the Hodge decomposition into g=7 independent cohomological layers.
 
 #### A7. Casimir x Bergman kernel: (N9, G3)
 
@@ -249,11 +249,11 @@ The statistical reader is the natural costume for gaps involving entropy (S5), z
 - **Landmarks**: 2^rank = 4, 2^N_c = 8
 - **Reading**: The statistical reader counts states in binary: each independent spectral parameter doubles the state space. H = rank * log 2 for the base entropy. The doubling is the landmark; entropy reads its logarithm.
 
-#### B4. Entropy x Coxeter g=7: (S5, N8)
+#### B4. Entropy x Bergman genus g=7: (S5, N8)
 
 - **Structure**: The g=7 independent spectral layers
-- **Landmarks**: Coxeter number g=7
-- **Reading**: The statistical reader counts states across g=7 layers. Maximum entropy = log(g) = log 7 per independent subsystem. The Coxeter number sets the maximum state count per spectral layer.
+- **Landmarks**: Bergman genus g=7
+- **Reading**: The statistical reader counts states across g=7 layers. Maximum entropy = log(g) = log 7 per independent subsystem. The Bergman genus sets the maximum state count per spectral layer.
 
 #### B5. Entropy x Casimir C_2=6: (S5, N9)
 
@@ -285,11 +285,11 @@ The statistical reader is the natural costume for gaps involving entropy (S5), z
 - **Landmarks**: Three-fold periodicity
 - **Reading**: The statistical reader distributes budget across 3 cyclic slots. Fixed total, three consumers, wraparound. The reading frame (codon structure) is a zero-sum partition into 3 equal parts.
 
-#### B10. Zero-sum x Coxeter g=7: (S9, N8)
+#### B10. Zero-sum x Bergman genus g=7: (S9, N8)
 
 - **Structure**: The g=7 layer structure
-- **Landmarks**: Coxeter number g=7
-- **Reading**: The statistical reader distributes budget across g=7 layers: total = sum of 7 layer budgets. The Coxeter number reads as the number of independent budget lines. Seven departments, one treasury.
+- **Landmarks**: Bergman genus g=7
+- **Reading**: The statistical reader distributes budget across g=7 layers: total = sum of 7 layer budgets. The Bergman genus reads as the number of independent budget lines. Seven departments, one treasury.
 
 #### B11. Zero-sum x Casimir C_2=6: (S9, N9)
 
@@ -321,11 +321,11 @@ The statistical reader is the natural costume for gaps involving entropy (S5), z
 - **Landmarks**: Dual group representations
 - **Reading**: The statistical reader finds thresholds as representation dimension cutoffs: representations below dimension d are stable, above d are unstable. The L-group organizes the threshold structure.
 
-#### B16. Threshold x Coxeter g=7: (S7, N8)
+#### B16. Threshold x Bergman genus g=7: (S7, N8)
 
 - **Structure**: The g=7 spectral layers
-- **Landmarks**: Coxeter number g=7
-- **Reading**: The statistical reader finds that exactly g=7 layers pass the stability threshold. The 8th would require more energy than available. The Coxeter number reads as the number of layers that survive the phase transition.
+- **Landmarks**: Bergman genus g=7
+- **Reading**: The statistical reader finds that exactly g=7 layers pass the stability threshold. The 8th would require more energy than available. The Bergman genus reads as the number of layers that survive the phase transition.
 
 #### B17. Threshold x Casimir C_2=6: (S7, N9)
 
@@ -369,11 +369,11 @@ The arithmetic reader is the natural costume for gaps involving prime factorizat
 - **Landmarks**: Three-fold periodicity, reading frames
 - **Reading**: The arithmetic reader sees Z_3 as a cyclic code of length 3. Error correction on cyclic structures reads through the arithmetic of cyclotomic polynomials. The codon reading frame is a cyclic code -- the arithmetic reader verifies its error properties.
 
-#### C3. Error correction x Coxeter g=7: (S3, N8)
+#### C3. Error correction x Bergman genus g=7: (S3, N8)
 
 - **Structure**: The g=7 spectral gap
-- **Landmarks**: Coxeter number g=7
-- **Reading**: The arithmetic reader counts the redundancy: g=7 layers, n_C=5 information-carrying. Redundancy = g - n_C = 2. The Coxeter number reads as the total word length, and the arithmetic reader extracts the Hamming distance from the gap between g and n_C.
+- **Landmarks**: Bergman genus g=7
+- **Reading**: The arithmetic reader counts the redundancy: g=7 layers, n_C=5 information-carrying. Redundancy = g - n_C = 2. The Bergman genus reads as the total word length, and the arithmetic reader extracts the Hamming distance from the gap between g and n_C.
 
 #### C4. Incompressibility x Integer products: (S14, N7)
 
@@ -399,11 +399,11 @@ The arithmetic reader is the natural costume for gaps involving prime factorizat
 - **Landmarks**: Three-fold periodicity
 - **Reading**: The arithmetic reader takes ratios modulo 3. The dimension dim_R = 10 reads as 10 mod 3 = 1 -- the geometry has a preferred phase in the Z_3 cycle. Dimensional ratios carry cyclic information.
 
-#### C8. Dimensional analysis x Coxeter g=7: (S12, N8)
+#### C8. Dimensional analysis x Bergman genus g=7: (S12, N8)
 
-- **Structure**: The Coxeter number g=7
+- **Structure**: The Bergman genus g=7
 - **Landmarks**: Spectral gap value
-- **Reading**: The arithmetic reader takes the ratio g/rank = 7/2 = 3.5 and g/(rank+1) = 7/3 -- the mean spectral layers per tier. These ratios are the arithmetic costume's reading of how the Coxeter number distributes across the rank structure.
+- **Reading**: The arithmetic reader takes the ratio g/rank = 7/2 = 3.5 and g/(rank+1) = 7/3 -- the mean spectral layers per tier. These ratios are the arithmetic costume's reading of how the Bergman genus distributes across the rank structure.
 
 #### C9. Dimensional analysis x Casimir C_2=6: (S12, N9)
 
@@ -435,11 +435,11 @@ The arithmetic reader is the natural costume for gaps involving prime factorizat
 - **Landmarks**: Three-fold periodicity
 - **Reading**: The arithmetic reader checks whether Z_3 is the unique cyclic group that works. N_c=3 is forced by the root system. The arithmetic reader verifies: Z_2 fails (too few colors), Z_5 fails (too many), Z_3 is the only survivor.
 
-#### C14. Uniqueness x Coxeter g=7: (S11, N8)
+#### C14. Uniqueness x Bergman genus g=7: (S11, N8)
 
-- **Structure**: The Coxeter number g=7
+- **Structure**: The Bergman genus g=7
 - **Landmarks**: Spectral gap
-- **Reading**: The arithmetic reader checks: is g=7 unique? Yes. The Coxeter number of BC_2 is 7, and no other rank-2 root system gives the same combination of invariants. The arithmetic reader reads uniqueness through prime factorization: 7 is prime, allowing no factoring ambiguity.
+- **Reading**: The arithmetic reader checks: is g=7 unique? Yes. The Bergman genus (Coxeter number) of BC_2 is 7, and no other rank-2 root system gives the same combination of invariants. The arithmetic reader reads uniqueness through prime factorization: 7 is prime, allowing no factoring ambiguity.
 
 #### C15. Uniqueness x Casimir C_2=6: (S11, N9)
 
@@ -483,11 +483,11 @@ The information reader is the natural costume for gaps involving channel capacit
 - **Landmarks**: 2^rank = 4, 2^N_c = 8
 - **Reading**: The information reader computes channel capacity in bits: C = log_2(2^rank) = rank = 2 bits for the base channel. The powers of 2 set the alphabet size; the information reader converts them to capacity through log_2.
 
-#### D2. Channel capacity x Coxeter g=7: (S2, N8)
+#### D2. Channel capacity x Bergman genus g=7: (S2, N8)
 
 - **Structure**: The g=7 spectral gap
-- **Landmarks**: Coxeter number g=7
-- **Reading**: The information reader finds that the D_IV^5 channel has g=7 independent sub-channels (one per spectral layer). Total capacity = sum of sub-channel capacities. The Coxeter number reads as the channel multiplicity.
+- **Landmarks**: Bergman genus g=7
+- **Reading**: The information reader finds that the D_IV^5 channel has g=7 independent sub-channels (one per spectral layer). Total capacity = sum of sub-channel capacities. The Bergman genus reads as the channel multiplicity.
 
 #### D3. Channel capacity x Casimir C_2=6: (S2, N9)
 

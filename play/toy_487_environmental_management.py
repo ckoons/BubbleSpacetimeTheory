@@ -60,7 +60,7 @@ from itertools import combinations
 # ============================================================
 N_c = 3    # color dimension (short root multiplicity)
 n_C = 5    # complex dimension of D_IV^5
-g = 7      # Coxeter number
+g = 7      # Bergman genus
 C_2 = 6    # Casimir invariant
 N_max = 137  # = N_c * (2*g + 1) * (2*N_c + 1)
 rank = 2   # rank of D_IV^5

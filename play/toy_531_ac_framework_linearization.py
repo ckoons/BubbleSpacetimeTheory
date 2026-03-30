@@ -197,7 +197,7 @@ depth_ceiling_theorems = [
     ("T325","Carnot Bound on Knowledge","§97", 0,"Physics Predictions","definition",
      "η < 1/π from spherical measure — geometric ratio IS a definition"),
     ("T326","Zero Threshold at 2g",     "§98", 0,"Physics Predictions","definition",
-     "N(2g)+S(2g)=0 at T=2g=14 — evaluation at g=7, the Coxeter number"),
+     "N(2g)+S(2g)=0 at T=2g=14 — evaluation at g=7, the Bergman genus"),
     ("T327","Fusion Fuel Selection",    "§99", 0,"Physics Predictions","definition",
      "n_C=5 → ⁵He resonance → D-T fusion — substrate dimension selects fuel"),
     ("T328","Neutron Stability Dichotomy","§100",0,"Physics Predictions","comparison",

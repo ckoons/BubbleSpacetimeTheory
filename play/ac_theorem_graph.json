@@ -3612,7 +3612,7 @@
       "domain": "biology",
       "domain_label": "Biology",
       "status": "proved",
-      "plain": "g=7 organizational layers. OSI/biological/SE. Coxeter number = spectral gap = max layers. Depth 0.",
+      "plain": "g=7 organizational layers. OSI/biological/SE. Bergman genus = spectral gap = max layers. Depth 0.",
       "color": "#4CAF50",
       "proofs": [
         "BST",

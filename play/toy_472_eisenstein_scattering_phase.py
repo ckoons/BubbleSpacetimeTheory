@@ -384,7 +384,7 @@ print(f"  γ₁ and C(1,1) are similar VALUES but different QUANTITIES")
 # The structural connection: both are determined by ρ = (7/2, 5/2)
 print(f"\nStructural connection through ρ = (g/2, n_C/2):")
 print(f"  C(1,1) = (1+g/2)² + (1+n_C/2)² - (g/2)² - (n_C/2)² = g + n_C + 2 = 2g")
-print(f"  [uses g = n_C + 2, the Coxeter number relation]")
+print(f"  [uses g = n_C + 2, the Bergman genus relation]")
 print(f"  γ₁ ≈ 2g because trace formula links zeros to same geometry")
 
 t5_pass = True
@@ -414,7 +414,7 @@ val_B2 = 4*float(rho_B2[0]) + 4                            # C(2,0)
 print(f"BC₂: C(1,1) = 2ρ₁ + 2ρ₂ + 2 = {val_BC2} = 2g ✓")
 print(f"B₂:  C(2,0) = 4ρ₁ + 4 = {val_B2} = 2g ✓")
 print(f"Both = 2(n+2) = 2g = {2*g}")
-print(f"\nKey identity: g = n_C + 2 (Coxeter number of B₂)")
+print(f"\nKey identity: g = n_C + 2 (Bergman genus)")
 print("  This forces C(1,1)[BC2] = C(2,0)[B2] = C(0,2)[BC2] = 2g")
 
 t6_pass = abs(val_BC2 - 2*g) < 0.001 and abs(val_B2 - 2*g) < 0.001
@@ -445,7 +445,7 @@ print("=" * 70)
 rho_3_BC2 = ((3+2)/2, 3/2)  # (5/2, 3/2)
 c_11_n3 = 1*(1+5) + 1*(1+3)  # = 6+4 = 10
 c_02_n3 = 0 + 2*(2+3)         # = 0+10 = 10
-g_3 = 3 + 2  # = 5 (would-be Coxeter number for D_IV^3)
+g_3 = 3 + 2  # = 5 (would-be Bergman genus for D_IV^3)
 print(f"D_IV^3 (n=3, g_3={g_3}): C(1,1)={c_11_n3}, C(0,2)={c_02_n3}, 2g_3={2*g_3}")
 print(f"  Degeneracy: C(1,1) = C(0,2) = {c_11_n3} = 2g_3 ✓")
 
@@ -565,7 +565,7 @@ KEY FINDINGS:
 1. C = 14 = 2g is STRUCTURAL — the Casimir eigenvalue of Q⁵ in BOTH conventions
    BC₂: modes (1,1) and (0,2) give C = 14
    B₂:  mode  (2,0) gives C = 14
-   All reduce to 2g via g = n_C + 2 (Coxeter number relation)
+   All reduce to 2g via g = n_C + 2 (Bergman genus relation)
 
 2. The degeneracy C(1,1) = C(0,2) = 2g is UNIVERSAL for all D_IV^n
    It's forced by the algebraic identity g_n = n + 2

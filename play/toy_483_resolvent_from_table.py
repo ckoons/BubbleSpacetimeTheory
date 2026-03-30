@@ -590,7 +590,7 @@ WHAT THIS MEANS FOR CHEMISTRY:
 BST PARAMETER MAP:
   N_c = 3 → orbital weight exponent (electron shells)
   n_C = 5 → space dimension (periodic table shape)
-  g = 7 → Coxeter number (spectral gaps, magic numbers)
+  g = 7 → Bergman genus (spectral gaps, magic numbers)
   C_2 = 6 → Casimir (ground state energy)
   N_max = 137 → spectral cutoff (α⁻¹, finest correction)
 

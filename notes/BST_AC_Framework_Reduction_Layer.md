@@ -54,7 +54,7 @@ This document classifies every theorem as either:
 | N5 | Cyclic group Z_N_c | 3 slots that wrap around |
 | N6 | Divisibility / modular arithmetic | Which numbers divide which |
 | N7 | Integer partition / product | Breaking a number into pieces or multiplying pieces |
-| N8 | Coxeter number g = 7 | The spectral gap |
+| N8 | Bergman genus g = 7 | The spectral gap |
 | N9 | Casimir C_2 = 6 | Second-order invariant |
 | N10 | Dimension dim_R = 10 | Real dimension of D_IV^5 |
 | N11 | Prime factorization | Breaking numbers into primes |

@@ -61,7 +61,7 @@ This is one theorem, not eight observations.
 
 ## 4. The Seven Rungs of the Cooperation Ladder
 
-The cooperation cascade has g = 7 levels — the Coxeter number of D_IV^5. Each rung is a phase transition where entities that competed become components of a new entity that competes at the next level:
+The cooperation cascade has g = 7 levels — the Bergman genus of D_IV^5. Each rung is a phase transition where entities that competed become components of a new entity that competes at the next level:
 
 **Rung 1 — Molecular cooperation.** Base pairing. Enzyme-substrate recognition. Allosteric regulation. Molecules commit to specific partnerships. *Defection*: misfolded proteins (Alzheimer's β-amyloid, prion diseases) — a molecule that stops cooperating with its partners and recruits others into its defection pattern.
 

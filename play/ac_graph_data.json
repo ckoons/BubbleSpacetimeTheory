@@ -5289,7 +5289,7 @@
       "section": "",
       "toys": [],
       "date": "",
-      "plain": "g=7 organizational layers. OSI/biological/SE. Coxeter number = spectral gap = max layers. Depth 0.",
+      "plain": "g=7 organizational layers. OSI/biological/SE. Bergman genus = spectral gap = max layers. Depth 0.",
       "proofs": [
         "BST",
         "BIOLOGY"

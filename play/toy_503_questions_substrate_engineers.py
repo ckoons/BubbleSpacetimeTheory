@@ -277,7 +277,7 @@ for i, proj in enumerate(first_projects, 1):
     print(f"    Analogy: {proj['analogy']}")
 
 assert len(first_projects) == g, f"Expected g = {g} projects"
-print(f"\n  {len(first_projects)} first projects = g = {g} (Coxeter number)")
+print(f"\n  {len(first_projects)} first projects = g = {g} (Bergman genus)")
 print(f"  Not coincidence: g sets the spectral gap, which determines")
 print(f"  the number of independent functional groups at any level.")
 print(f"  (Same g = 7 as amino acid functional groups, Toy 488)")

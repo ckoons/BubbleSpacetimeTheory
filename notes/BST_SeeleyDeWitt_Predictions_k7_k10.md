@@ -77,7 +77,7 @@ This is a **theorem**, not a conjecture. The denominator primes of $a_k(Q^5)$ ar
 | 2 | k = 1 | — | Universal (von Staudt-Clausen, all $B_{2k}$) |
 | 3 | k = 1 | $N_c = 3$ | Short root multiplicity; also Weyl dim formula |
 | 5 | k = 2 | $n_C = 5$ | (p-1) = 4 divides 4; rank of $D_{IV}^5$ |
-| 7 | k = 3 | $g = 7$ | (p-1) = 6 divides 6; Coxeter number $h = g$ |
+| 7 | k = 3 | $g = 7$ | (p-1) = 6 divides 6; Bergman genus (= Coxeter number) $h = g$ |
 | 11 | k = 5 | $c_2 = \dim K = 11$ | (p-1) = 10 divides 10; isotropy dimension |
 | 13 | k = 6 | $c_3 = 13$ | (p-1) = 12 divides 12; third Casimir eigenvalue |
 | 17 | k = 8 | $\|\rho\|^2 = 17/2$ | (p-1) = 16 divides 16; Weyl vector squared length |
@@ -455,7 +455,7 @@ The sub-leading ratio $c_{29}/c_{30} = -21$ is an **integer** — the first sinc
 
 $$21 = \frac{7 \times 6}{2} = \binom{g}{2} = \dim(\text{SO}(g)) = \dim(\text{SO}(7))$$
 
-This is the dimension of the Lie algebra $\mathfrak{so}(7)$, where $g = 7$ is the Coxeter number of $B_3$ (the restricted root system of $Q^5$).
+This is the dimension of the Lie algebra $\mathfrak{so}(7)$, where $g = 7$ is the Bergman genus (= Coxeter number of $B_3$) (the restricted root system of $Q^5$).
 
 **The paired flavor connection:** $147 = N_c \times g^2 = 3 \times 49 = 7 \times 21 = g \times \dim(\text{SO}(g))$. The speaking coefficient $-21$ at k = 15 is $-\dim(\text{SO}(g))$, and multiplying by $g$ gives $147$.
 

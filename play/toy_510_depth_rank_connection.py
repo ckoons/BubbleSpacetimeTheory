@@ -55,7 +55,7 @@ def score(name, cond, detail=""):
 # ═══════════════════════════════════════════════════════════════════
 N_c = 3          # Short root multiplicity
 n_C = 5          # Complex dimension
-g = 7            # Coxeter number
+g = 7            # Bergman genus
 C_2 = 6          # Second Casimir
 N_max = 137      # Fine structure denominator
 rank = 2         # Rank of D_IV^5

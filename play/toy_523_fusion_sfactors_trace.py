@@ -79,7 +79,7 @@ def test_1():
     print("T1: Nuclear Scale from BST — m_π = m_p/g")
     print("=" * 70)
 
-    # BST prediction: pion mass = proton mass / Coxeter number
+    # BST prediction: pion mass = proton mass / Bergman genus
     # m_π = m_p / g = 938.27 / 7
     m_pi_BST = m_p_MeV / g
     m_pi0_exp = mpf('134.977')   # MeV (π⁰ experimental)
@@ -146,9 +146,9 @@ def test_1():
     print()
 
     print(f"  WHY m_π = m_p/g:")
-    print(f"    g = Coxeter number = n_C + rank = 5 + 2 = 7")
+    print(f"    g = Bergman genus = n_C + rank = 5 + 2 = 7")
     print(f"    The pion is the Goldstone boson of chiral symmetry breaking.")
-    print(f"    The Coxeter number counts the independent reflection planes")
+    print(f"    The Bergman genus counts the independent reflection planes")
     print(f"    in the root system — it controls the symmetry breaking scale.")
     print(f"    m_π/m_p = 1/g is the ratio of broken to unbroken scale.")
 
@@ -548,7 +548,7 @@ def test_6(S_ratio):
     # Additional predictions
     # η meson: m_η ≈ m_p × (n_C-1)/g = m_p × 4/7
     # Physics: η is the SU(3)_flavor singlet; mass set by n_C-1 broken generators
-    # divided by Coxeter number g (total symmetry scale)
+    # divided by Bergman genus g (total symmetry scale)
     m_eta_BST = m_p_MeV * (n_C - 1) / g
     m_eta_exp = mpf('547.86')
     mesons.append(("η(548)", m_eta_BST, float(m_eta_exp), "m_p×(n_C-1)/g"))
@@ -580,7 +580,7 @@ def test_6(S_ratio):
     print(f"    These three together give the entire nuclear scale.")
     print()
     print(f"  The nuclear physics chain is depth 0:")
-    print(f"    g = 7 → m_π (counting: Coxeter number)")
+    print(f"    g = 7 → m_π (counting: Bergman genus)")
     print(f"    C₂ = 6 → m_ρ (counting: Casimir eigenvalue)")
     print(f"    r₀ = ℏc/(m_p/g) × (C₂-1)/C₂ (arithmetic: ratio)")
     print(f"    ALL nuclear radii follow from r₀ × A^(1/3)")

@@ -52,7 +52,7 @@ Note: The AC Framework's "S12: Conservation law" maps to S12 (dimensional analys
 | N5 | Cyclic group Z_N_c | The reading frame: 3 slots that wrap around | Bio |
 | N6 | Divisibility / modular arithmetic | Which numbers divide which | Bio |
 | N7 | Integer partition / product | Breaking a number into pieces or multiplying pieces | Bio |
-| N8 | Coxeter number g = 7 | The spectral gap -- maximum independent layers | Bio |
+| N8 | Bergman genus g = 7 | The spectral gap -- maximum independent layers | Bio |
 | N9 | Casimir C_2 = 6 | The second-order invariant -- bits per recognition event | Bio |
 | N10 | Dimension dim_R = N_c + g = 10 | Real dimension of D_IV^5 | Bio |
 | N11 | Prime factorization | Breaking numbers into primes | Bio |
@@ -509,8 +509,8 @@ Neither connects to: G3 (Bergman kernel), G4 (Shilov boundary), G5 (Rank=2), G6 
 
 **12 bridges are missing** between {N8, N9} and {G3, G4, G5, G6, G7, G11}. These are all FERTILE because both sides are individually well-used.
 
-**Prediction**: The Coxeter number g=7 and Casimir C_2=6 are DERIVED from the geometry (they are properties of the BC_2 root system). Their bridges to other geometric properties should be structural identities:
-- N8 (g=7) with G3: "The spectral gap of the Bergman kernel IS the Coxeter number."
+**Prediction**: The Bergman genus g=7 and Casimir C_2=6 are DERIVED from the geometry (they are properties of the BC_2 root system). Their bridges to other geometric properties should be structural identities:
+- N8 (g=7) with G3: "The spectral gap of the Bergman kernel IS the Bergman genus."
 - N9 (C_2=6) with G4: "The Casimir on the Shilov boundary IS the information quantum per boundary element."
 - N8 (g=7) with G7: "The maximum number of independent layers (g=7) times the fill fraction (19.1%) = 1.34 = the cooperation compounding factor."
 

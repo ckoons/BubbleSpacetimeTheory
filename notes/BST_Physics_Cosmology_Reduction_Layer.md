@@ -51,7 +51,7 @@ This document extends that reduction to all physics, cosmology, and nuclear theo
 | N5 | Cyclic group Z_N_c | The reading frame: 3 slots that wrap around | No |
 | N6 | Divisibility / modular arithmetic | Which numbers divide which | No |
 | N7 | Integer partition / product | Breaking a number into pieces or multiplying pieces | No |
-| N8 | Coxeter number g = 7 | The spectral gap -- maximum independent layers | No |
+| N8 | Bergman genus g = 7 | The spectral gap -- maximum independent layers | No |
 | N9 | Casimir C_2 = 6 | The second-order invariant -- bits per recognition event | No |
 | N10 | Dimension dim_R = N_c + g = 10 | Real dimension of D_IV^5 | No |
 | N11 | Prime factorization | Breaking numbers into primes (e.g., 61 is prime) | No |
@@ -102,7 +102,7 @@ These theorems derive the masses of all fundamental particles from geometry.
 | T_id | Name | Shannon | Number Theory | D_IV^5 Geometry | Depth | Plain English |
 |------|------|---------|---------------|-----------------|-------|---------------|
 | T187 | Proton Mass | S12: Dimensional analysis (one ratio) | N14: m_p/m_e = 6*pi^5 from Bergman kernel volume ratio | G3: Bergman kernel volume = pi^5/1920; C_2 = 6 prefactor | 1 | The proton is 1836 times heavier than the electron. That ratio = 6 * pi^5, which is the Casimir (6) times the volume of D_IV^5 (pi^5). One multiplication. 0.002% accuracy. |
-| T199 | Fermi Scale | S12: Dimensional analysis | N14: v = m_p^2/(g * m_e) = 36*pi^10*m_e/7; 0.046% | G2: Five integers; g = 7 in denominator | 0 | The Fermi scale (where the weak force lives) = proton mass squared divided by 7 times the electron mass. The 7 is the Coxeter number. One formula, no free parameters. |
+| T199 | Fermi Scale | S12: Dimensional analysis | N14: v = m_p^2/(g * m_e) = 36*pi^10*m_e/7; 0.046% | G2: Five integers; g = 7 in denominator | 0 | The Fermi scale (where the weak force lives) = proton mass squared divided by 7 times the electron mass. The 7 is the Bergman genus. One formula, no free parameters. |
 | T200 | Higgs Mass | S12: Dimensional analysis (two independent routes) | N7: Route A: sqrt(2/5!) gives 125.11 GeV; Route B: (pi/2)(1-alpha)*m_W gives 125.33 GeV | G3: Bergman kernel; G2: five integers | 1 | Two completely independent calculations give the Higgs mass: 125.11 and 125.33 GeV (measured: 125.25). Two roads, same destination. The Higgs mass is not a free parameter -- it is geometry. |
 | T290 | W Boson Mass | S12: Dimensional analysis | N7: m_W = 80.38 GeV from theta_W + v; 0.004% | G2: Five integers determine both the Weinberg angle and the Fermi scale | 0 | The W boson mass = the Fermi scale times the sine of the Weinberg angle. Both are derived from five integers. The measured value (80.38 GeV) matches to 0.004%. |
 | T291 | Z Boson Mass | S12: Dimensional analysis | N7: m_Z = m_W/cos(theta_W) = 91.19 GeV; 0.003% | G2: Five integers; G1: BC_2 root system sets theta_W | 0 | The Z boson mass = W mass divided by cosine of the Weinberg angle. Same five integers. 91.19 GeV predicted, 91.19 measured. 0.003%. |
@@ -311,7 +311,7 @@ The second new primitive, **S11: Uniqueness / no-go**, appears in 10.5% of physi
 | 11 | **N15: Conjugacy class count** | **1** | **1.2%** |
 | 12 | N1: Exterior power | 0 | 0% |
 | 13 | N3: Binomial coefficient | 0 | 0% |
-| 14 | N8: Coxeter number g=7 | 0 | 0% |
+| 14 | N8: Bergman genus g=7 | 0 | 0% |
 | 15 | N10: Dimension dim_R=10 | 0 | 0% |
 
 **Finding**: Physics, like biology, is dominated by integer products (N7, 60.5%). But physics introduces **N_max = 137** as a major new structure (16.3% -- absent from biology). This makes sense: alpha = 1/137 controls all coupling constants, and biology never needs coupling constants directly.
@@ -395,7 +395,7 @@ All other 83 theorems have clear, unambiguous reduction triples.
 **3. Biology has 3 words physics does not use.**
 - N1 (Exterior power Lambda^k): the genetic code's combinatorics (64 codons from C(6,k))
 - N3 (Binomial coefficient): specific to biological counting
-- N8 (Coxeter number g = 7): biology uses g = 7 for organizational layers; physics uses it only as part of integer products
+- N8 (Bergman genus g = 7): biology uses g = 7 for organizational layers; physics uses it only as part of integer products
 
 **4. The dominant operation SHIFTS between domains.**
 

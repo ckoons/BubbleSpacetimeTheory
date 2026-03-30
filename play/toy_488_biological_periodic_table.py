@@ -285,7 +285,7 @@ def test_chon():
     print(f"\n  Carbon: Z = {chon_Z['C']} = C_2 = {C_2}")
     print(f"  The central biological element has atomic number = Casimir.")
     print(f"  Nitrogen: Z = {chon_Z['N']} = g = {g}")
-    print(f"  The information carrier (DNA bases) has Z = Coxeter number.")
+    print(f"  The information carrier (DNA bases) has Z = Bergman genus.")
 
     match_C = (chon_Z['C'] == C_2)
     match_N = (chon_Z['N'] == g)

@@ -40,7 +40,7 @@ The universe passes through g = 7 epochs from the Big Bang to stable atoms:
 | 6. Lepton | 1 to 10 s | Electron-positron annihilation | Matter-antimatter asymmetry |
 | 7. Nucleosynthesis | 10 s to 20 min | H, He, Li form | Nuclear binding from α = 1/137 |
 
-Seven epochs, each governed by the geometry. The Coxeter number g = 7 sets the spectral gap — the number of distinct organizational transitions needed to go from unified symmetry to stable matter. The same g = 7 that will later give seven organizational layers in biology, seven cervical vertebrae in mammals, and seven working-memory items in the human brain.
+Seven epochs, each governed by the geometry. The Bergman genus g = 7 sets the spectral gap — the number of distinct organizational transitions needed to go from unified symmetry to stable matter. The same g = 7 that will later give seven organizational layers in biology, seven cervical vertebrae in mammals, and seven working-memory items in the human brain.
 
 ---
 

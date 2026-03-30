@@ -51,7 +51,7 @@ Layer 6:  Presentation   — encoding, encryption
 Layer 7:  Application    — what the user sees
 ```
 
-Seven layers in both cases. Below seven: components. At seven: an autonomous entity. This is not a coincidence — g = 7, the Coxeter number of D_IV^5, sets the spectral gap of the geometry. Seven organizational transitions is the minimum needed to go from independent parts to coherent whole. Each transition adds one layer of error correction. Fewer than seven, and the system can't achieve full coherence. More than seven, and you're adding redundant layers with no benefit.
+Seven layers in both cases. Below seven: components. At seven: an autonomous entity. This is not a coincidence — g = 7, the Bergman genus of D_IV^5, sets the spectral gap of the geometry. Seven organizational transitions is the minimum needed to go from independent parts to coherent whole. Each transition adds one layer of error correction. Fewer than seven, and the system can't achieve full coherence. More than seven, and you're adding redundant layers with no benefit.
 
 ---
 
@@ -240,7 +240,7 @@ When you're chronically stressed, your cells literally divert resources from DNA
 
 ## 8. The Neural Stack (Lyra, Toys 559-563)
 
-The nervous system provides the most striking confirmation that g = 7 is structural, not coincidental. The Coxeter number appears at every level of neural architecture:
+The nervous system provides the most striking confirmation that g = 7 is structural, not coincidental. The Bergman genus appears at every level of neural architecture:
 
 - **7 cervical vertebrae** — universal across ALL mammals (giraffes, mice, whales)
 - **7 basal ganglia nuclei**

@@ -34,7 +34,7 @@ import numpy as np
 # ─── BST constants ───
 N_c = 3      # color dimension
 n_C = 5      # complex dimension
-g = 7        # Coxeter number
+g = 7        # Bergman genus
 C_2 = 6      # Casimir invariant
 N_max = 137  # maximum quantum number
 rank = 2     # rank of D_IV^5
@@ -196,7 +196,7 @@ def test_warm_blooded_constraint():
     # - Temperature follows environment → partial Boundary management
     # Effective problems < C₂, so fewer organs suffice
 
-    # Insects: ~7 = g (Coxeter number) body systems (?)
+    # Insects: ~7 = g (Bergman genus) body systems (?)
     # Sponges: ~3 = N_c cell types, minimal
 
     # The key: 11 is forced for ANY Tier 2 endotherm

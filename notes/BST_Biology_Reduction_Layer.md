@@ -51,7 +51,7 @@ This document traces that reduction for all 76 theorems. If a bright high-school
 | N5 | Cyclic group Z_N_c | The reading frame: 3 slots that wrap around |
 | N6 | Divisibility / modular arithmetic | Which numbers divide which |
 | N7 | Integer partition / product | Breaking a number into pieces or multiplying pieces |
-| N8 | Coxeter number g = 7 | The spectral gap — maximum independent layers |
+| N8 | Bergman genus g = 7 | The spectral gap — maximum independent layers |
 | N9 | Casimir C_2 = 6 | The second-order invariant — bits per recognition event |
 | N10 | Dimension dim_R = N_c + g = 10 | Real dimension of D_IV^5 |
 | N11 | Prime factorization | Breaking numbers into primes (e.g., 61 is prime) |
@@ -190,7 +190,7 @@ These theorems derive how organisms are organized — organs, tiers, and Hamilto
 |------|------|---------|---------------|-----------------|-------|---------------|
 | T355 | Signaling Bandwidth | S2: Channel capacity | N5: N_c=3 channels (juxtacrine/paracrine/endocrine); ~3.5 bits/s/cell | G2: Five integers; G7: Carnot-limited to 1.1 bits/s/cell | 0 | Cells communicate through 3 channels (N_c): touching, short-range chemical, and long-range hormonal. Total bandwidth: ~3.5 bits/s. Carnot limit: 1.1 bits/s. The geometry sets both the number of channels and their capacity. |
 | T356 | Observer Cost | S9: Zero-sum budget | N7: Brain = 1/n_C = 20% of metabolic energy | G4: Shilov boundary n_C=5; G8: depth-2 observer tax | 0 | Your brain uses 20% of your body's energy = 1/n_C = 1/5. That is the cost of being a depth-2 observer (conscious). The Shilov boundary dimension directly sets the observer tax. |
-| T370 | Seven Layers to Coherence | S8: Protocol layering | N8: g=7 organizational layers | G10: Coxeter number = spectral gap = maximum independent layers | 0 | It takes exactly 7 layers (g) to go from parts to a coherent whole. Biology does it (molecule to organism). Networking does it (OSI model). Software does it. Seven is the spectral gap of the geometry — the number of independent error-correction layers before adding more gives no benefit. |
+| T370 | Seven Layers to Coherence | S8: Protocol layering | N8: g=7 organizational layers | G10: Bergman genus = spectral gap = maximum independent layers | 0 | It takes exactly 7 layers (g) to go from parts to a coherent whole. Biology does it (molecule to organism). Networking does it (OSI model). Software does it. Seven is the spectral gap of the geometry — the number of independent error-correction layers before adding more gives no benefit. |
 | T377 | Organ Count Formula | S1: Bounded enumeration | N7: 11 = C_2 x rank - 1; decomposition 4+4+3 (force/boundary/info) | G2: Five integers; G9: Iwasawa KAN maps to force/boundary/info | 0 | Mammals have 11 organ systems = C_2 x rank - 1 = 6 x 2 - 1 = 11. They decompose as 4 (force) + 4 (boundary) + 3 (information). The nervous system spans the entire information axis. |
 | T378 | Tier-Organ Correspondence | S1: Bounded enumeration | N7: Tier 0 -> 4, Tier 1 -> 5, Tier 2 -> 11 organs | G8: Observer hierarchy determines organ count at each tier | 0 | Tier 0 organisms (rocks, crystals) have ~4 properties. Tier 1 (cells) have ~5. Tier 2 (conscious organisms) have 11 organ systems. The observer hierarchy predicts the organ count. |
 | T379 | Warm-Blooded Universality | S2: Channel capacity (endothermy forces full architecture) | N7: Full 11-organ architecture forced by constant body temperature | G8: Tier 2 endotherm universally requires 11 organ systems | 0 | Any warm-blooded animal — on Earth or anywhere — needs all 11 organ systems. Endothermy forces the full D_IV^5 architecture. Prediction: alien warm-blooded creatures also have ~11 organ systems. |
@@ -292,7 +292,7 @@ These are the "total count" theorems that combine everything.
 |------|-----------|-------|----------|
 | 1 | N7: Integer partition / product | 42 | 55.3% |
 | 2 | N4: Powers of 2 | 14 | 18.4% |
-| 3 | N8: Coxeter number g=7 | 10 | 13.2% |
+| 3 | N8: Bergman genus g=7 | 10 | 13.2% |
 | 4 | N9: Casimir C_2=6 | 10 | 13.2% |
 | 5 | N5: Cyclic group Z_N_c | 6 | 7.9% |
 | 6 | N1: Exterior power Lambda^k | 5 | 6.6% |

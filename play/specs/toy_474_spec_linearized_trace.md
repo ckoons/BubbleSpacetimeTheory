@@ -101,7 +101,7 @@ where:
   - Geodesic sum: over conjugacy classes of Γ = SO(Q,Z)
 - Show how the BST parameters {N_c=3, n_C=5, g=7, C₂=6, N_max=137} enter:
   - N_c: root multiplicity (controls orbital integral weights)
-  - g: Coxeter number (controls Casimir eigenvalues)
+  - g: Bergman genus (controls Casimir eigenvalues)
   - N_max: spectral cutoff (controls the finest corrections)
   - Vol = π⁵/1920: the "area" that determines the Weyl law
 

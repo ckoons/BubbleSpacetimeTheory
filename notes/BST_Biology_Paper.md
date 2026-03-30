@@ -34,7 +34,7 @@ Not approximately. Not with fitting. With **zero free parameters** — the five 
 |--------|-------|--------------------|-----------------------|
 | N_c | 3 | Color charge of D_IV^5 | Quark confinement — why protons have 3 quarks |
 | n_C | 5 | Complex dimension | Number of independent charges |
-| g | 7 | Coxeter number | Spectral gap — sets the mass scale |
+| g | 7 | Bergman genus | Spectral gap — sets the mass scale |
 | C_2 | 6 | Casimir invariant | Second-order invariant — energy of the vacuum |
 | rank | 2 | Real rank | Number of independent spectral parameters |
 

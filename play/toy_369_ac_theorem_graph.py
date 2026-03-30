@@ -1489,7 +1489,7 @@ THEOREMS = {
 
     # ── §111 Complex Assembly Structure (March 28) ──
     "T370": {"name": "Seven Layers to Coherence", "domain": "biology", "status": "proved",
-             "plain": "g=7 organizational layers. OSI/biological/SE. Coxeter number = spectral gap = max layers. Depth 0.",
+             "plain": "g=7 organizational layers. OSI/biological/SE. Bergman genus = spectral gap = max layers. Depth 0.",
              "uses": ["T186","T333"], "used_by": [],
              "proofs": ["BST","BIOLOGY"]},
     "T371": {"name": "Genetic Code as L-group Exterior Algebra", "domain": "biology", "status": "proved",

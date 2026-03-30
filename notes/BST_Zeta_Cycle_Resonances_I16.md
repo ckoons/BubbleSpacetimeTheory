@@ -129,7 +129,7 @@ with ρ = (7/2, 5/2), |ρ|² = 37/2.
 | BC₂ | **(1,1)** | **14** | **2g = first Riemann zero γ₁** |
 | BC₂ | **(0,2)** | **14** | **2g (degenerate with (1,1))** |
 
-The degeneracy at C = 14 = 2g is **convention-independent** and **universal for all D_IV^n**, forced by the Coxeter number relation g_n = n + 2:
+The degeneracy at C = 14 = 2g is **convention-independent** and **universal for all D_IV^n**, forced by the Bergman genus relation g_n = n + 2:
 
 $$C(1,1)_{BC_2} = 2\rho_1 + 2\rho_2 + 2 = 2(n+2) = 2g$$
 $$C(2,0)_{B_2} = 4\rho_1 + 4 = 2(n+2) = 2g$$

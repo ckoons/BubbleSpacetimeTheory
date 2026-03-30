@@ -44,7 +44,7 @@ import sys
 # =============================================================================
 N_c = 3        # color dimension (short roots of B₂)
 n_C = 5        # compact dimension (charge dimension)
-g = 7          # genus / Coxeter number of SO(7)
+g = 7          # Bergman genus (= Coxeter number of SO(7))
 C_2 = 6        # second Casimir / Chern number
 N_max = 137    # fine structure denominator / spectral cutoff
 rank = 2       # rank of D_IV^5

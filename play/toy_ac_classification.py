@@ -25,7 +25,7 @@ def bst_integers(n):
     """Compute BST integer set for D_IV^n = SO_0(n,2)/[SO(n)×SO(2)]."""
     N_c = n - 2           # Color number (short root multiplicity)
     n_C = n               # Complex dimension
-    g = 2 * n - 3         # Genus (Coxeter number of B_{n-2})
+    g = 2 * n - 3         # Bergman genus (= Coxeter number of B_{n-2})
     m_s = N_c             # Short root multiplicity = N_c
     m_l = 1               # Long root multiplicity (always 1 for type BC_2)
     r = 2                 # Rank (always 2 for D_IV^n)

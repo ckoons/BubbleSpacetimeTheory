@@ -649,7 +649,7 @@ BST PARAMETER MAP IN THE TABLE:
     → orbital weight: |2sinh(ℓ/2)|^{{−3}} (rank-1)
     → Weyl discriminant: (short roots)^3 × (long roots)^1
   n_C = 5: dimension of the compact factor → 7D quadratic form
-  g = 7: Coxeter number → spectral cutoff, Casimir eigenvalues
+  g = 7: Bergman genus → spectral cutoff, Casimir eigenvalues
   C_2 = 6: second Casimir → Laplacian shift ρ² = 17/2
   N_max = 137: finest spectral resolution
 

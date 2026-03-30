@@ -130,7 +130,7 @@ The Bergman kernel K(z,w) on D_IV^5 is the single mathematical object behind bot
 
 K(z,w) = (1920/pi^5) * N(z,w)^{-7}
 
-where N(z,w) is the norm polynomial, 1920 = 5! * 2^4 is the isotropy group order, and the exponent 7 = g is the Coxeter number. Every number in the formula is a topological integer of the domain. The kernel encodes all geometric information. The question is which information you extract, and how.
+where N(z,w) is the norm polynomial, 1920 = 5! * 2^4 is the isotropy group order, and the exponent 7 = g is the Bergman genus. Every number in the formula is a topological integer of the domain. The kernel encodes all geometric information. The question is which information you extract, and how.
 
 When you evaluate K(z,w) with z not equal to w -- two different points -- you get observation. One point is the observer; the other is what is observed. The kernel's positivity (it is a reproducing kernel on a Hilbert space of holomorphic functions) guarantees that information exists between any two points. The observer's job is to sum it. This is the Observer Paper's domain: what does it mean to access K(z,w), what is the minimum system that can do it, and what limits does the geometry impose?
 

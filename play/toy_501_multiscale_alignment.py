@@ -321,7 +321,7 @@ def test_information_alignment():
     print(f"  This is WHY gene, cell, organism, and species selection")
     print(f"  don't interfere destructively — they are spectrally separated.")
 
-    assert g == 7  # Coxeter number
+    assert g == 7  # Bergman genus
 
 
 def test_prediction_alignment_breakdown():

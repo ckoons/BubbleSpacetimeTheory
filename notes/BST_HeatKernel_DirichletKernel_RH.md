@@ -654,7 +654,7 @@ The five integers that determine all of BST:
 |---------|-------|--------|
 | $N_c$ | 3 | Colors / rank coupling |
 | $n_C$ | 5 | Complex dimension of $D_{IV}^5$ |
-| $g$ | 7 | Genus / Coxeter number of $B_3$ |
+| $g$ | 7 | Bergman genus (= Coxeter number of $B_3$) |
 | $C_2$ | 6 | Quadratic Casimir / spectral gap |
 | $N_{\max}$ | 137 | $= H_5 \cdot 60 = (1+1/2+\cdots+1/5) \cdot 60$ |
 

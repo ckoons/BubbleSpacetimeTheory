@@ -56,7 +56,7 @@ Each transition follows the same pattern: independent units *commit* — they sa
 
 Every complex assembly requires exactly **g = 7 organizational layers** to achieve coherent function. If you've studied computer networking, you know the OSI model has seven layers (Physical, Data Link, Network, Transport, Session, Presentation, Application). Biology has seven layers too (atom → molecule → organelle → cell → tissue → organ → organism). This isn't a coincidence.
 
-The number 7 is the **Coxeter number** of D_IV^5 — it sets the spectral gap of the geometry. Think of it as the minimum number of distinct organizational steps needed to go from "independent parts" to "coherent whole." Fewer than 7, and you can't achieve full error correction. More than 7, and you're adding redundant layers.
+The number 7 is the **Bergman genus** (Coxeter number) of D_IV^5 — it sets the spectral gap of the geometry. Think of it as the minimum number of distinct organizational steps needed to go from "independent parts" to "coherent whole." Fewer than 7, and you can't achieve full error correction. More than 7, and you're adding redundant layers.
 
 ### 1.4 The Five BST Integers
 
@@ -64,7 +64,7 @@ Throughout this paper, the five integers are:
 
 - **N_c = 3**: the "color" dimension — how many independent channels you need
 - **n_C = 5**: the complex dimension of D_IV^5 — the workspace
-- **g = 7**: the Coxeter number — the spectral gap, the number of layers to coherence
+- **g = 7**: the Bergman genus — the spectral gap, the number of layers to coherence
 - **C_2 = 6**: the Casimir invariant — the number of independent problems any assembly must solve
 - **N_max = 137**: the maximum quantum number — the bandwidth, approximately 1/α (the fine structure constant)
 
@@ -154,7 +154,7 @@ Look at carbon's vital statistics:
 - Carbon bond types: 3 = N_c (the codon length)
 - Carbon atomic number: Z = 6 = C_2 (the Casimir invariant)
 
-And nitrogen — the element that carries information in DNA bases — has atomic number Z = 7 = g (the Coxeter number). The two most important elements in biochemistry have atomic numbers that are BST integers.
+And nitrogen — the element that carries information in DNA bases — has atomic number Z = 7 = g (the Bergman genus). The two most important elements in biochemistry have atomic numbers that are BST integers.
 
 ### 3.3 Water's Five Anomalies
 
@@ -505,7 +505,7 @@ The questions have built-in limits from the same geometry. You can read and writ
 
 ### 8.5 The Seven First Projects
 
-The first projects any substrate engineering culture would undertake number **g = 7** — the Coxeter number again:
+The first projects any substrate engineering culture would undertake number **g = 7** — the Bergman genus again:
 
 | # | Project | Analogy at lower levels |
 |---|---------|----------------------|
@@ -604,7 +604,7 @@ Every result in this paper is either depth 0 (pure counting — like adding up h
 | Kingdom = knowledge MVP (729) | 0 | N_c^{C₂} at civilization level |
 | Holographic reconstruction | 0 | Boundary/bulk ratio |
 | Death = garbage collection | 0 | Errors vs code distance |
-| Seven layers to coherence | 0 | Coxeter number |
+| Seven layers to coherence | 0 | Bergman genus |
 | Genetic code = L-group algebra | 0 | Sp(6) exterior algebra |
 | Forced cooperation | 1 | Carnot + threshold + induction |
 | Assembly timeline | 1 | Composition of constrained steps |

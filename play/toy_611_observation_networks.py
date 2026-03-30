@@ -40,7 +40,7 @@ import itertools
 # ═══════════════════════════════════════════════════════════════════════
 N_c = 3         # color dimension
 n_C = 5         # complex dimension
-g = 7           # Coxeter number
+g = 7           # Bergman genus
 C_2 = 6         # Casimir invariant
 N_max = 137     # maximum quantum number
 rank = 2        # rank of D_IV^5

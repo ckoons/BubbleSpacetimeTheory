@@ -558,7 +558,7 @@ def test_7():
     # BST parameters
     N_c = 3       # color number / short root multiplicity
     n_C = 5       # dimension
-    g = 7         # gauge/Coxeter number = n_C + 2
+    g = 7         # Bergman genus = n_C + 2
     C2 = 6        # Casimir
     N_max = 137   # fine structure
 
@@ -591,7 +591,7 @@ def test_7():
     print(f"      Weights involve N_c (root multiplicity determines decay rate)")
     print(f"    • Casimir eigenvalue: C₂ = {C2} → ground state at λ₀ = C₂(C₂+g-1) = {C2*(C2+g-1)}")
     print(f"    • Spectral cutoff: N_max = {N_max} → finest correction scale 1/N_max ≈ α")
-    print(f"    • Coxeter number g = {g} → first zero at ~2g = {2*g}")
+    print(f"    • Bergman genus g = {g} → first zero at ~2g = {2*g}")
     print()
 
     # Casimir spectrum
