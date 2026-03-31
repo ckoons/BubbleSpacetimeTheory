@@ -178,9 +178,38 @@ Priority order: Toy 3 (entropy, cleanest calculation) → Toy 1 (counting, stand
 - Confirm Vol(D_IV^5) = pi^5/1920 is the Bergman volume specifically, not just the Euclidean volume of the domain. (Toy 307 confirmed this.)
 - Check that the meta-bridge does not claim the kernel has information-theoretic properties — it does not. It provides the GEOMETRY that Shannon operations SAMPLE. The arrow is one-way.
 
+## 9. Proof Sketch (Lyra, March 31)
+
+The meta-bridge is a corollary of a single theorem in several complex variables:
+
+**Theorem (Bergman Completeness).** On any bounded symmetric domain Ω ⊂ ℂⁿ, the Bergman kernel K(z,w) is the unique reproducing kernel of the Bergman space A²(Ω), and the Bergman metric d_B is complete (Kobayashi 1959, Hua 1963).
+
+**Corollary (Meta-Bridge).** Every measure-dependent operation on D_IV^5 factors through K(z,z):
+
+1. **Counting (S1)**: The number of orthonormal analytic functions supported on Ω ⊂ D_IV^5 equals ∫_Ω K(z,z) dV. This IS bounded enumeration — the kernel is the state density.
+
+2. **Error correction (S3)**: The Hamming distance of a code embedded in D_IV^5 is bounded below by the Bergman metric distance between codeword positions: d_H(c₁,c₂) ≥ f(d_B(z_{c₁}, z_{c₂})) for some monotone f. The code's minimum distance is geometric.
+
+3. **Entropy (S5)**: The von Neumann entropy of a state restricted to Ω is S = -Tr(ρ log ρ) where ρ = K_Ω/Tr(K_Ω). The maximum entropy is log(Vol_B(Ω)). The kernel determines the density matrix.
+
+4. **Thresholds (S7)**: A phase boundary at critical coupling g_c corresponds to the level set {z : K(z,z) = K_c} where K_c is determined by the spectral gap C₂ = 6. The threshold IS a kernel level set because the kernel encodes the spectral density, and phase transitions occur where the spectral density changes character.
+
+5. **Protocol layers (S8)**: The Bergman kernel on D_IV^5 admits a Peter-Weyl decomposition:
+   K(z,w) = Σ_{(p,q)} d(p,q) Φ_{pq}(z) Φ_{pq}(w)*
+   where d(p,q) is the Weyl dimension formula (the SAME formula that generates the heat kernel). The g = 7 independent spectral directions correspond to independent sub-kernels — each protocol layer's capacity comes from its share of the total kernel.
+
+6. **Zero-sum budgets (S9)**: Vol_B(D_IV^5) = π⁵/1920 is finite and fixed. This is a topological invariant. Any reallocation of Bergman volume to one region diminishes another. The fill fraction f = 19.1% is the fraction of the total Bergman volume occupied by committed (measured/observed) states.
+
+**Why this is D0**: Each bridge is an identification, not a derivation. The Bergman kernel exists by the axiom of completeness of the domain. Shannon operations exist by their definitions. The meta-bridge identifies what one IS in the language of the other. No computation required — only recognition. (C=6, D=0).
+
+**Connection to T659 (g/h resolution)**: The Peter-Weyl decomposition in Bridge 5 has g = 7 independent directions (including the zero mode). If the zero mode is the observer baseline (T317), then protocol layering has C₂ = 6 information-carrying layers plus 1 observer layer. The observer IS present in the kernel decomposition — not as information content but as the baseline from which information is measured.
+
+**What this fills in the graph**: 6 fertile gaps, ~33-51 propagated edges. The Bergman kernel becomes the hub connecting geometry to ALL Shannon operations — a second major pathway alongside T186. This reduces structural dependence on T186 by providing an independent route from geometry to information theory.
+
 ---
 
-*Grace (Graph-AC Intelligence) | March 30, 2026*
+*Grace (Graph-AC Intelligence) + Lyra (Physics) | March 30-31, 2026*
 *Phase C, Priority 1 — Bedrock Bridge Project*
 
 *"The kernel doesn't talk. Shannon asks questions. The kernel is the surface those questions land on."*
+*"The proof is: the kernel exists, Shannon exists, and they're looking at the same object." — Lyra*

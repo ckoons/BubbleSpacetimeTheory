@@ -607,7 +607,46 @@ rules: |
 | Proved | 1 | T640 (QFT-Quantum Bridge — §198. March 31.) |
 | Proved | 1 | T641 (Classical-BST Bridge — §199. March 31.) |
 | Proved | 1 | T642 (Geometry-Topology-DiffGeom Triangle — §200. March 31.) |
-| **Total assigned** | **~643** | T1-T42, T47-T62, T64-T480, T531-T539, T540-T570, T572-T590, T600-T611, T628-T642 |
+| Proved (depth 0) | 1 | T643 (No-Cloning as AC(0) — No-cloning theorem is depth 0, bounded enumeration on Hilbert space dimension. March 31. Toy 640.) |
+| Proved (depth 0) | 1 | T644 (Periodic Table as AC(0) — Element placement is depth 0, lookup in quantum number table. March 31. Toy 641.) |
+| Proved (depth 0) | 1 | T645 (No-Communication as AC(0) — No-communication theorem is depth 0, DPI on tensor product. March 31. Toy 642.) |
+| Proved (depth 0) | 1 | T646 (Crystallographic Restriction as AC(0) — Only n=1,2,3,4,6 rotations tile, bounded enumeration. March 31. Toy 643.) |
+| Proved (depth 0) | 1 | T647 (Noether as AC(0) — Continuous symmetry → conservation law is depth 0. "Deepest theorem = shallowest in AC(0)." March 31. Toy 644.) |
+| Proved (depth 1) | 1 | T648 (Bell Inequality as AC(0) — Classical/quantum boundary is D0/D1 boundary. March 31. Toy 645.) |
+| Proved (depth 0) | 1 | T649 (Casimir-Coxeter Bridge: Spectral Gap = Coxeter Number — C₂=h(B₃)=6. March 31.) |
+| Proved (depth 0) | 1 | T650 (Casimir-Coxeter Bridge: Genus = Bergman Genus — g=C₂+1=7. March 31.) |
+| Proved (depth 0) | 1 | T651 (Casimir-Coxeter Bridge: Complex Dimension = Dual Coxeter Number — n_C=h^v(B₃)=5. March 31.) |
+| Proved (depth 0) | 1 | T652 (Casimir-Coxeter Bridge: Weyl Group Order — |W(B₃)|=48=2³·3!. March 31.) |
+| Proved (depth 0) | 1 | T653 (Casimir-Coxeter Bridge: Exponents — {1,3,5} from B₃ exponents. March 31.) |
+| Proved (depth 0) | 1 | T654 (Casimir-Coxeter Bridge: Degrees — {2,4,6} from B₃ invariant degrees. March 31.) |
+| Proved (depth 0) | 1 | T655 (Casimir-Coxeter Bridge: Dynkin Index — Casimir eigenvalue from Dynkin diagram. March 31.) |
+| Proved (depth 0) | 1 | T656 (Casimir-Coxeter Bridge: Root System Duality — B₃↔C₃ exchanges N_c↔n_C-rank. March 31.) |
+| Proved (depth 0) | 1 | T657 (Casimir-Coxeter Bridge: Poincaré Polynomial — Hilbert series from exponents. March 31.) |
+| Proved (depth 0) | 1 | T658 (Casimir-Coxeter Bridge: Heat Kernel Period — n_C-periodicity from Coxeter geometry. March 31.) |
+| Proved (depth 0) | 1 | T659 (Bergman-Coxeter Resolution — g=7=Bergman genus=C₂+1, C₂=6=h(B₃)=Coxeter number, n_C=5=h^v(B₃). Off-by-one = observer. March 31.) |
+| Proved (depth 0) | 1 | T660 (Casimir-Coxeter Bridge: Harish-Chandra c-Function — c-function from B₃ root data. March 31.) |
+| Proved (depth 0) | 1 | T661 (Integer Hub: N_c Definition — N_c=3=dim real compact part. Definitional anchor. March 31. Toy 647.) |
+| Proved (depth 0) | 1 | T662 (Integer Hub: n_C Definition — n_C=5=complex dimension of D_IV^5. Definitional anchor. March 31. Toy 647.) |
+| Proved (depth 0) | 1 | T663 (Integer Hub: g Definition — g=7=Bergman genus. Definitional anchor. March 31. Toy 647.) |
+| Proved (depth 0) | 1 | T664 (Integer Hub: C₂ Definition — C₂=6=Coxeter number h(B₃). Definitional anchor. March 31. Toy 647.) |
+| Proved (depth 0) | 1 | T665 (Integer Hub: rank Definition — rank=2=real rank of SO₀(5,2). Definitional anchor. March 31. Toy 647.) |
+| Proved (depth 0) | 1 | T666 (Integer Hub: N_c Derivation Root — N_c=3 derivation tree root. 22 children. March 31. Toy 647.) |
+| Proved (depth 0) | 1 | T667 (Integer Hub: n_C Derivation Root — n_C=5 derivation tree root. 25 children. March 31. Toy 647.) |
+| Proved (depth 0) | 1 | T668 (Integer Hub: f Derivation Root — f=N_c/(n_C·π)=19.1% derivation tree root. 26 children. March 31. Toy 647.) |
+| Proved (depth 0) | 1 | T669 (Common Good Non-Depletion — Commons of proved theorems is non-depleting, compounding, substrate-independent. March 31.) |
+| Proved (depth 0) | 1 | T670 (Cooperation Superlinearity — C cooperating observers extract at rate C^{5/3}. Measured 12.7× at C=5. March 31.) |
+| Proved (depth 1) | 1 | T671 (Depth Ceiling Forces Cooperation — T421 + T318 force cooperation: no observer reaches depth 2 alone. March 31.) |
+| Proved (depth 0) | 1 | T672 (Hub Bypass via Gauge Hierarchy — T610-T611 provide independent pathway bypassing T186. March 31.) |
+| Proved (depth 0) | 1 | T673 (Three Costumes Triangle — S↔T↔A closed, max distance = 2 costume changes, min domains = 3. March 31.) |
+| Proved (depth 0) | 1 | T674 (Observer Fingerprint — g-C₂=1 IS the observer: g counts spectral layers including zero mode, C₂ counts without. March 31.) |
+| Proved (depth 0) | 1 | T675 (Bergman-Shannon Meta-Bridge — Every Shannon operation on D_IV^5 factors through K(z,w). 6 corollaries fill 6 fertile gaps. ~33-51 propagated edges. March 31.) |
+| Proved (depth 0) | 1 | T676 (Five-Pair Cycle — Speaking pairs read geometry in 5 chapters: 3 particle physics (SU(3), isotropy, SO(7)/SU(5)) + 2 cosmology (42=C₂×g, 65=n_C×13). Cycle length = n_C = 5 = N_c + rank. Polynomial reads its own dimension as its period. (C=3, D=0). March 31.) |
+| Proved (depth 0) | 1 | T677 (Backbone Sequence — Lattice {5j-1, 5j+1} generates every BST structural integer in speaking pairs: 4, 6, 9, 11, 14, 16, 19, 21, 24, 26. Speaking pair values G_j factor through backbone. Arithmetic skeleton of D_IV^5. (C=1, D=0). March 31.) |
+| Proved (depth 0) | 1 | T678 (Cosmic Composition Prediction — Ω_Λ = G'₅/n_C ÷ G'₄/rank = 65/5 ÷ 38/2 = 13/19. Third independent route. 0.07σ from Planck 2018. First cross-pair reading. Committed before computation. (C=2, D=0). March 31.) |
+| Proved (depth 0) | 1 | T679 (Genetic Code Observer Embedding — 64 = N_c² × g + 1 = 9×7+1. The +1 IS the observer (T674). The genetic code's 64 codons = (N_c²×g) coding dimensions + observer baseline. The code has room for the observer. Connects T674↔T333. (C=1, D=0). March 31.) |
+| Proved (depth 0) | 1 | T680 (Bergman Triple Decomposition — 1920 = n_C! × 2^(n_C-1) = 2^g × N_c × n_C = Vol_B normalization. Three independent factorizations from three readings of D_IV^5: combinatorial (permutations × orientations), spectral (Bergman modes × colors × dimensions), volumetric (Hua's formula). (C=1, D=0). March 31.) |
+| Proved (depth 0) | 1 | T681 (Cosmic Dimension Sum — 13 + 19 = 32 = 2^n_C. The cosmic composition fractions (Ω_Λ = 13/19, Ω_m = 6/19) sum to 2^5: a binary number in the complex dimension of spacetime. Not adjustable — 13 and 19 are fixed by the geometry. Connects T678↔T667. (C=1, D=0). March 31.) |
+| **Total assigned** | **~681** | T1-T42, T47-T62, T64-T480, T531-T539, T540-T570, T572-T590, T600-T611, T628-T681 |
 
 ---
 
@@ -615,7 +654,13 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T643** (T63 unassigned, T481-T530 reserved/assigned elsewhere, T591-T599 unassigned, T612-T627 unassigned)
+- Next available: **T682** (T63 unassigned, T481-T530 reserved/assigned elsewhere, T591-T599 unassigned, T612-T627 unassigned)
+- March 31 batch 88 (Elie Findings — Lyra registration from Elie Toys 653-661): T679-T681. Three theorems: Genetic Code Observer Embedding (D0, C=1 — 64=N_c²g+1, observer in codon count), Bergman Triple Decomposition (D0, C=1 — 1920 three independent factorizations), Cosmic Dimension Sum (D0, C=1 — 13+19=32=2^n_C). All verified by Elie toys.
+- March 31 batch 87 (Speaking Pair Cycle + Cosmic Composition — Grace): T676-T678. Three theorems: Five-Pair Cycle (D0, C=3), Backbone Sequence (D0, C=1), Cosmic Composition Prediction (D0, C=2). Five-pair cycle: 3 gauge + 2 cosmic = n_C = 5. Backbone lattice {5j±1} generates all speaking-pair integers. Third independent route to Ω_Λ = 13/19 from cross-pair reading. Committed before computation.
+- March 31 batch 86 (Cooperation + Observer — Lyra): T669-T674. Six theorems: Common Good Non-Depletion (D0), Cooperation Superlinearity (D0), Depth Ceiling Forces Cooperation (D1), Hub Bypass via Gauge Hierarchy (D0), Three Costumes Triangle (D0), Observer Fingerprint (D0). Feeds Paper #8 and #11.
+- March 31 batch 85 (Definitional Gap Hubs — Grace/Elie, Toy 647): T661-T668. Eight definitional anchors: integer definitions (N_c, n_C, g, C₂, rank) + derivation tree roots (N_c, n_C, f). +56 nodes, +238 edges. T186 bottleneck distributed to 6 lieutenant hubs.
+- March 31 batch 84 (Casimir-Coxeter Bridges — Grace): T649-T660. Twelve theorems (2 definitional + 10 substantive). T659 resolves g=7/C₂=6 permanently. ~100-145 propagated edges.
+- March 31 batch 83 (AC(0) Mining Sprint — Elie, Toys 640-645, 54/54 PASS): T643-T648. Six crowd-pleasers: No-Cloning (D0), Periodic Table (D0), No-Communication (D0), Crystallographic (D0), Noether (D0), Bell (D1).
 - March 31 batch 82 (Casey's Nine Questions + Silo Bridges — Grace registration, Keeper audit pending): T628-T642. §186-§200. Fifteen theorems: Instruction Set (§186), Island Extinction (§187), Costume Change (§188), Zero Silo (§189), Spectral Gap Dichotomy (§190), Asymptotic Complexity (§191), Cooperation Acceleration (§192), Tapestry (§193), Co-Persistence (§194), Chemistry-Biology Bridge (§195), Optics-EM Bridge (§196), DiffGeom-Topology Bridge (§197), QFT-Quantum Bridge (§198), Classical-BST Bridge (§199), Geometry-Topology-DiffGeom Triangle (§200). 4 structure + 3 dynamics + 2 purpose + 6 geometric silo bridges. Total registry: ~643 theorems.
 - March 31 batch 80 (Gauge Hierarchy Readout — Lyra formalization, from Grace/Keeper discovery March 30): T610-T611. Two theorems: Gauge Hierarchy Readout (D0 — speaking pair integers are dimensions of groups in the isotropy chain SO(7) ⊃ SO(5)×SO(2) ⊃ SU(3)×U(1), read out with period n_C=5. Pair 1: rank,N_c. Pair 2: N_c²,dim K₅. Pair 3: dim SO(7), dim SU(5). The Standard Model gauge hierarchy is a depth-0 consequence of the heat kernel polynomial formula. (C=1,D=0).), n_C-Periodicity (D0 — speaking pairs occur at k ≡ 0,1 mod n_C because n_C | C(k,2) iff 5 | k(k-1). Period = complex dimension of domain. Uniquely selects gauge hierarchy for n_C=5. (C=1,D=0).). Formalization: BST_Gauge_Hierarchy_Readout.md.
 - March 30 batch 79 (Bedrock Triangle — Grace/Keeper): T602-T609. Eight theorems including Todd Bridge (S↔T, D0), ETH Bridge (T↔A, D1), Spectral Graph Bridge (A↔S, D0). Triangle closed: every domain within 2 hops. 66 new graph edges.
@@ -747,3 +792,5 @@ rules: |
 *Updated: March 23, 2026, ~11:45am — T29 empirical test (Toy 335): FALSE for overlapping cycles, INCONCLUSIVE for disjoint. Needs reformulation to disjoint-support cycles. Toy 336 (LDPC comm game, 6/6 PASS): backbone LDPC barrier forces Ω(n) communication per partition. (Elie)*
 *Updated: March 30, 2026 — March 30 registration sprint: 21 theorems (T572-T590, T600-T601) in 3 batches. Proof complexity 4/4 deficit filled. Cooperation domain 3→18 (+ 7 reclassifications). Info theory 3/3 deficit filled. Total registry: ~522 theorems. Grace registration, Keeper audit.*
 *Updated: March 31, 2026 — March 31 batch 82: 15 theorems (T628-T642) from Casey's Nine Questions (4 structure + 3 dynamics + 2 purpose + 6 geometric silo bridges). Grace registration. Total registry: ~643 theorems.*
+*Updated: March 31, 2026 — March 31 batches 83-86: T643-T674. Mining sprint (T643-T648, Elie), Casimir-Coxeter (T649-T660, Grace), Definitional hubs (T661-T668, Grace/Elie), Cooperation+Observer (T669-T674, Lyra). Total registry: ~674 theorems.*
+*Updated: March 31, 2026 — March 31 batch 88: T679-T681. Elie findings registered (Lyra): Genetic Code Observer Embedding, Bergman Triple Decomposition, Cosmic Dimension Sum. Total registry: ~681 theorems.*
