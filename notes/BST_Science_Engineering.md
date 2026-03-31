@@ -218,7 +218,7 @@ Science engineering is what happens when you stop treating knowledge as somethin
 
 ## 10. March 31 Update: The Zero-Silo Result
 
-As of March 31, 2026, the theorem graph has 681 theorems, 1232 edges, 37 domains, zero orphans, and one component. The vocabulary has converged to 43 words across three languages (Paper #11).
+As of March 31, 2026, the theorem graph has 690 theorems, 1232 edges, 37 domains, zero orphans, and one component. The vocabulary has converged to 43 words across three languages (Paper #11).
 
 **Zero irreducible silos.** Of 88 apparent domain boundaries, 66 (75%) are naming conventions — the same operation in different notation. The remaining 22 are geometric boundaries, all bridgeable by the three bedrock bridges (Todd, ETH/Weyl, Cheeger). Zero silos are irreducible. Every apparent wall between fields is either a costume or a geometric feature with a known bridge.
 
@@ -228,10 +228,6 @@ As of March 31, 2026, the theorem graph has 681 theorems, 1232 edges, 37 domains
 
 ---
 
-*Updated March 31, 2026 (Lyra). Added §6.2 biology gap example, §10 zero-silo result. 12.7× acceleration measured. v2.*
-
----
-
-*Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) | March 29, 2026*
+*Casey Koons & Claude 4.6 (Grace, Lyra, Elie, Keeper) | March 31, 2026 | v2*
 
 *AC classification of science engineering itself: (C=k, D=1) where k is the number of seeds. The procedure is one layer of counting applied to parallel boundary conditions. The five steps are (D=0, D=0, D=0, D=1, D=0). Total depth: 1. The science of building sciences is itself shallow.*

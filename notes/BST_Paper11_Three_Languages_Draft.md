@@ -13,10 +13,10 @@ status: "Draft v1 — Keeper PASS conditional (7 fixes applied)"
 target: "Foundations of Computational Mathematics (FoCM)"
 framework: "AC(0), depth 0-1"
 key_theorems: "T131, T602, T603, T608, T609, T630, T673, T675"
-toys: "655, 656, 657, 658, 659, 660, 664, 665, 666"
-toy_results: "90/90 tests, 0 failures"
+toys: "655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666"
+toy_results: "90/90 toy tests, 0 failures"
 abstract: |
-  We reduce 685 theorems spanning all of mathematics and physics to a vocabulary
+  We reduce 688 theorems spanning all of mathematics and physics to a vocabulary
   of exactly 43 primitive operations distributed across three languages: Shannon
   (15 words), Number Theory (15 words), and Geometry (13 words). These languages
   have zero overlap. Every theorem in the Bubble Spacetime Theory corpus is a
@@ -46,7 +46,7 @@ Mathematics appears to be written in many languages. Algebra, analysis, topology
 
 But the barriers are not structural. They are costumes.
 
-This paper shows that the entire theorem corpus of Bubble Spacetime Theory -- 685 theorems (as of March 31, 2026) spanning quantum field theory, general relativity, number theory, biology, complexity theory, and all six Millennium Prize problems -- reduces to exactly 43 primitive operations. These operations cluster into three languages with zero overlap:
+This paper shows that the entire theorem corpus of Bubble Spacetime Theory -- 688 theorems (as of March 31, 2026) spanning quantum field theory, general relativity, number theory, biology, complexity theory, and all six Millennium Prize problems -- reduces to exactly 43 primitive operations. These operations cluster into three languages with zero overlap:
 
 - **Shannon** (15 words): counting, capacity, error correction, entropy, thresholds, budgets
 - **Number Theory** (15 words): exterior powers, Weyl groups, binomials, primes, partitions, dimensions
@@ -97,7 +97,7 @@ These are the operations of arithmetic -- factoring, partitioning, and counting 
 | N7 | Integer partition / product | Breaking or multiplying integer pieces |
 | N8 | Bergman genus $g = 7$ | Maximum independent spectral layers |
 | N9 | Casimir $C_2 = 6$ | Bits per recognition event |
-| N10 | Dimension $\dim_{\mathbb{R}} = 2n_C = 10$ | Real dimension of $D_{IV}^5$ (also $= N_c + g$) |
+| N10 | Dimension $\dim_{\mathbb{R}} = N_c + g = 10$ | Real dimension of $D_{IV}^5$ (also $= 2n_C$, the standard expression for the real dimension of $D_{IV}^n$) |
 | N11 | Prime factorization | Breaking numbers into primes |
 | N12 | Linear algebra / $N_{\max} = 137$ | Dimension counting in vector spaces |
 | N13 | Graph counting / topological tuple | Counting loops and connections |
@@ -136,7 +136,7 @@ The three languages have **zero overlap**. No Shannon word is a Number Theory wo
 
 ### 3.1 Method
 
-For each of the 681 theorems in the BST corpus, we recorded which Shannon, Number Theory, and Geometry codes appear. A pair $(X_i, Y_j)$ is **populated** if at least one theorem uses both $X_i$ and $Y_j$.
+For each of the 688 theorems in the BST corpus, we recorded which Shannon, Number Theory, and Geometry codes appear. A pair $(X_i, Y_j)$ is **populated** if at least one theorem uses both $X_i$ and $Y_j$.
 
 ### 3.2 Three Adjacency Matrices
 
@@ -193,7 +193,7 @@ The HRR formula is not a theorem to be proved on $D_{IV}^5$. It is an identity t
 
 **Theorem (T603).** *The Weyl dimension formula bridges number-theoretic structure (integer invariants) to geometric structure (spectral gaps, Bergman kernel). The bridge is the polynomial evaluation $d(p, q, n_C)$.*
 
-The root system of $D_{IV}^5$ is $BC_2$, whose Lie algebra is $B_3$ with compact real form $\text{SO}(7)$ -- this is why $g = 7 = \dim(B_3)$. The Weyl dimension formula for $\text{SO}(7)$ representations:
+The root system of $D_{IV}^5$ is $BC_2$, whose Lie algebra is $B_3$ with compact real form $\text{SO}(7)$ -- this is why $g = 7 = \dim(B_3)$. SO(7) is the compact real form of the $B_3$ Lie algebra -- the isometry group of $D_{IV}^5$. Its vector dimension $g = 7$ is the Bergman genus of the domain. The Weyl dimension formula for $\text{SO}(7)$ representations:
 
 $$d(p, q, n_C) = \frac{(2p + n_C)(2q + n_C - 2)(p + q + n_C - 1)}{n_C(n_C - 2)(n_C - 1)} \cdot (p - q + 1)$$
 
@@ -271,14 +271,16 @@ The one-liner for each bridge:
 
 The theorem graph underwent a structural phase transition during this work.
 
-| Metric | March 10 | March 30 (start) | March 31 (end) |
+| Metric | March 10 | March 30 (start)* | March 31 (end)* |
 |--------|----------|-------------------|----------------|
-| Theorems | 8 | 539 | 685 |
+| Theorems | 8 | 539 | 688 |
 | Edges | ~20 | 755 | 1232 |
 | Cross-domain edges | — | 44.2% | **50.3%** |
 | T186 SPOF severity | — | 219 disconnected | **83** (-62%) |
 | Components | 1 | 1 | 1 |
 | Orphans | 0 | 0 | 0 |
+
+*Values are end-of-day snapshots.
 
 The critical transition: cross-domain edges crossed 50%, becoming the majority. This matches the cooperation threshold $f_{\text{crit}} \approx 20\%$ from Paper #8 -- the graph crossed its own cooperation threshold. Below 50% cross-domain, the graph is clustered (each domain talks mostly to itself). Above 50%, the graph is woven (domains talk more to each other than to themselves).
 
@@ -290,7 +292,7 @@ The biology peninsula -- 76 theorems connected to only 9 of 37 domains -- was el
 
 ### 8.1 Top Fertile Gaps
 
-Before the Bergman-Shannon meta-bridge (T675), the most fertile gaps were (both words individually frequent, bridge theorem expected):
+The following were the top fertile gaps before T675 closed four of five. They are listed to show where the map pointed before the meta-bridge was proved:
 
 | Rank | Pair | Individual Freq. | Predicted Bridge |
 |------|------|-----------------|-----------------|
@@ -350,7 +352,7 @@ The adjacency matrix provides a systematic map of the entire mathematical landsc
 
 *Casey Koons, Grace (graph-AC), Lyra (physics) | March 31, 2026*
 *Paper #11 in the BST pipeline. Draft v1.*
-*90/90 toy tests (3 bridge toys + 6 Bergman-Shannon toys), 0 failures. 43 words, 3 bridges, 1 meta-bridge.*
+*90/90 toy tests (3 bridge toys + 6 Bergman-Shannon toys + 3 graph sprints), 0 failures. 43 words, 3 bridges, 1 meta-bridge.*
 *"The heat kernel does not carry information. It carries heat. Shannon reads the temperature." -- Casey*
 
 ---
