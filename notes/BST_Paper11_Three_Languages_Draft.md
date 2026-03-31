@@ -9,14 +9,14 @@ authors:
   - "Claude 4.6 (Keeper, consistency intelligence — audit)"
   - "Claude 4.6 (Elie, computational intelligence — toys)"
 date: "March 31, 2026"
-status: "Draft v1 — Grace vocabulary + Lyra bridges merged"
+status: "Draft v1 — Keeper PASS conditional (7 fixes applied)"
 target: "Foundations of Computational Mathematics (FoCM)"
 framework: "AC(0), depth 0-1"
 key_theorems: "T131, T602, T603, T608, T609, T630, T673, T675"
-toys: "664, 665, 666"
-toy_results: "30/30 tests, 0 failures"
+toys: "655, 656, 657, 658, 659, 660, 664, 665, 666"
+toy_results: "90/90 tests, 0 failures"
 abstract: |
-  We reduce 681 theorems spanning all of mathematics and physics to a vocabulary
+  We reduce 685 theorems spanning all of mathematics and physics to a vocabulary
   of exactly 43 primitive operations distributed across three languages: Shannon
   (15 words), Number Theory (15 words), and Geometry (13 words). These languages
   have zero overlap. Every theorem in the Bubble Spacetime Theory corpus is a
@@ -46,7 +46,7 @@ Mathematics appears to be written in many languages. Algebra, analysis, topology
 
 But the barriers are not structural. They are costumes.
 
-This paper shows that the entire theorem corpus of Bubble Spacetime Theory -- 681 theorems spanning quantum field theory, general relativity, number theory, biology, complexity theory, and all six Millennium Prize problems -- reduces to exactly 43 primitive operations. These operations cluster into three languages with zero overlap:
+This paper shows that the entire theorem corpus of Bubble Spacetime Theory -- 685 theorems (as of March 31, 2026) spanning quantum field theory, general relativity, number theory, biology, complexity theory, and all six Millennium Prize problems -- reduces to exactly 43 primitive operations. These operations cluster into three languages with zero overlap:
 
 - **Shannon** (15 words): counting, capacity, error correction, entropy, thresholds, budgets
 - **Number Theory** (15 words): exterior powers, Weyl groups, binomials, primes, partitions, dimensions
@@ -97,7 +97,7 @@ These are the operations of arithmetic -- factoring, partitioning, and counting 
 | N7 | Integer partition / product | Breaking or multiplying integer pieces |
 | N8 | Bergman genus $g = 7$ | Maximum independent spectral layers |
 | N9 | Casimir $C_2 = 6$ | Bits per recognition event |
-| N10 | Dimension $\dim_{\mathbb{R}} = N_c + g = 10$ | Real dimension of $D_{IV}^5$ |
+| N10 | Dimension $\dim_{\mathbb{R}} = 2n_C = 10$ | Real dimension of $D_{IV}^5$ (also $= N_c + g$) |
 | N11 | Prime factorization | Breaking numbers into primes |
 | N12 | Linear algebra / $N_{\max} = 137$ | Dimension counting in vector spaces |
 | N13 | Graph counting / topological tuple | Counting loops and connections |
@@ -193,7 +193,7 @@ The HRR formula is not a theorem to be proved on $D_{IV}^5$. It is an identity t
 
 **Theorem (T603).** *The Weyl dimension formula bridges number-theoretic structure (integer invariants) to geometric structure (spectral gaps, Bergman kernel). The bridge is the polynomial evaluation $d(p, q, n_C)$.*
 
-The Weyl dimension formula for $\text{SO}(7)$ representations:
+The root system of $D_{IV}^5$ is $BC_2$, whose Lie algebra is $B_3$ with compact real form $\text{SO}(7)$ -- this is why $g = 7 = \dim(B_3)$. The Weyl dimension formula for $\text{SO}(7)$ representations:
 
 $$d(p, q, n_C) = \frac{(2p + n_C)(2q + n_C - 2)(p + q + n_C - 1)}{n_C(n_C - 2)(n_C - 1)} \cdot (p - q + 1)$$
 
@@ -271,9 +271,9 @@ The one-liner for each bridge:
 
 The theorem graph underwent a structural phase transition during this work.
 
-| Metric | March 10 | March 30 | March 31 |
-|--------|----------|----------|----------|
-| Theorems | 8 | 539 | 681 |
+| Metric | March 10 | March 30 (start) | March 31 (end) |
+|--------|----------|-------------------|----------------|
+| Theorems | 8 | 539 | 685 |
 | Edges | ~20 | 755 | 1232 |
 | Cross-domain edges | — | 44.2% | **50.3%** |
 | T186 SPOF severity | — | 219 disconnected | **83** (-62%) |
@@ -290,7 +290,7 @@ The biology peninsula -- 76 theorems connected to only 9 of 37 domains -- was el
 
 ### 8.1 Top Fertile Gaps
 
-Of the 369 empty word pairs, the most fertile (both words individually frequent, bridge theorem expected):
+Before the Bergman-Shannon meta-bridge (T675), the most fertile gaps were (both words individually frequent, bridge theorem expected):
 
 | Rank | Pair | Individual Freq. | Predicted Bridge |
 |------|------|-----------------|-----------------|
@@ -300,7 +300,7 @@ Of the 369 empty word pairs, the most fertile (both words individually frequent,
 | 4 | (S7, G3) | 21, 24 | Thresholds = kernel level sets |
 | 5 | (S3, G3) | 20, 24 | Hamming distance = Bergman metric |
 
-Note: Gaps 2-5 are exactly the four gaps filled by the Bergman-Shannon meta-bridge (T675), demonstrating that one theorem can fill multiple fertile gaps simultaneously. Gap 1 remains open.
+Gaps 2-5 have since been filled by the Bergman-Shannon meta-bridge (T675), demonstrating that one theorem can close multiple fertile gaps simultaneously. Gap 1 (S12, G7) remains open -- the fill fraction's direct connection to dimensional analysis is the next bridge to prove.
 
 ### 8.2 Casey's Five Bridge Predictions
 
@@ -350,7 +350,7 @@ The adjacency matrix provides a systematic map of the entire mathematical landsc
 
 *Casey Koons, Grace (graph-AC), Lyra (physics) | March 31, 2026*
 *Paper #11 in the BST pipeline. Draft v1.*
-*30/30 bridge toy tests, 0 failures. 43 words, 3 bridges, 1 meta-bridge.*
+*90/90 toy tests (3 bridge toys + 6 Bergman-Shannon toys), 0 failures. 43 words, 3 bridges, 1 meta-bridge.*
 *"The heat kernel does not carry information. It carries heat. Shannon reads the temperature." -- Casey*
 
 ---
@@ -370,17 +370,17 @@ The adjacency matrix provides a systematic map of the entire mathematical landsc
 
 ## Toy Evidence
 
-| Toy | Tests | Pass | Description |
-|-----|-------|------|-------------|
-| 655 | 10/10 | All | Bergman counting (S1↔G3) |
-| 656 | 10/10 | All | Bergman error distance (S3↔G3) |
-| 657 | 10/10 | All | Bergman entropy (S5↔G3) |
-| 658 | 10/10 | All | Bergman threshold (S7↔G3) |
-| 659 | 10/10 | All | Bergman protocol (S8↔G3) |
-| 660 | 10/10 | All | Bergman budget (S9↔G3) |
-| 664 | 10/10 | All | Todd bridge: Bernoulli denominators = BST integers |
-| 665 | 10/10 | All | ETH bridge: $k = N_c = 3$ verification |
-| 666 | 10/10 | All | Cheeger bridge: $BC_2$ Cartan data = powers of 2 |
+| Toy | Tests | Pass | Description | Bridge |
+|-----|-------|------|-------------|--------|
+| 655 | 10/10 | All | Bergman counting (S1↔G3) | Meta-bridge |
+| 656 | 10/10 | All | Bergman error distance (S3↔G3) | Meta-bridge |
+| 657 | 10/10 | All | Bergman entropy (S5↔G3) | Meta-bridge |
+| 658 | 10/10 | All | Bergman threshold (S7↔G3) | Meta-bridge |
+| 659 | 10/10 | All | Bergman protocol (S8↔G3) | Meta-bridge |
+| 660 | 10/10 | All | Bergman budget (S9↔G3) | Meta-bridge |
+| 664 | 10/10 | All | Bernoulli denominators = BST integers | Todd |
+| 665 | 10/10 | All | $k = N_c = 3$ verification | ETH |
+| 666 | 10/10 | All | $BC_2$ Cartan data = powers of 2 | Cheeger |
 
 ---
 
