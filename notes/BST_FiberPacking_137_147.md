@@ -28,7 +28,7 @@ The fiber of $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2
 The factorization $147 = 3 \times 49 = N_c \times g^2$ is not a coincidence. It reflects the two geometric structures that must pack simultaneously:
 
 - **$N_c = 3$ colors**: the $\mathbb{Z}_3$ tiling from $\mathrm{SU}(3)$ confinement
-- **$g^2 = 49$ genus sections**: the $g = 7$ Coxeter structure of $B_3$, squared by the two fiber factors ($\mathrm{SO}(5)$ and $\mathrm{SO}(2)$)
+- **$g^2 = 49$ genus sections**: the $g = 7$ Bergman genus structure, squared by the two fiber factors ($\mathrm{SO}(5)$ and $\mathrm{SO}(2)$)
 
 ## 3. The 137/147 Pair
 

@@ -137,7 +137,7 @@ The "costume" here is: physicists write Tr(exp(-t*Delta)) and call the coefficie
 
 **STRUCTURE**: The spectral gap of D_IV^5 is the smallest nonzero eigenvalue of the Laplace-Beltrami operator Delta on the domain. For a bounded symmetric domain of type IV, the spectral gap is determined by the root system.
 
-**LANDMARKS**: The Bergman genus (= Coxeter number of BC_2) g = 7 names the spectral gap. Specifically, the gap equals g times a geometric constant depending on the curvature normalization. The number 7 counts the maximum number of independent reflections -- equivalently, the maximum number of independent spectral layers the domain supports before the next layer is forced to repeat information from the first.
+**LANDMARKS**: The Bergman genus g = 7 (= C₂+1; Coxeter number h=6=C₂) names the spectral gap. Specifically, the gap equals g times a geometric constant depending on the curvature normalization. The number 7 counts the maximum number of independent reflections -- equivalently, the maximum number of independent spectral layers the domain supports before the next layer is forced to repeat information from the first.
 
 **READING**: Shannon's protocol layering (S8) says: independent error-checking layers can be stacked, and total reliability is the product of layer reliabilities. The spectral gap determines HOW MANY independent layers the domain supports. If g = 7, there are at most 7 independent protocol layers before redundancy forces coupling between layers.
 

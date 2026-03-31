@@ -9143,7 +9143,7 @@ A species is an error-correcting code at the population level. Organisms are cod
 
 *(i) **Three independent examples.** The OSI network model (Physical → Application), the biological hierarchy (atom → organism), and the substrate engineering ladder (local field → civilization) each have exactly 7 layers.*
 
-*(ii) **BST derivation.** The Bergman genus $g = 7$ (Coxeter number of the $B_2$ root system) sets the spectral gap of $D_{IV}^5$. Any assembly that achieves full coherence must pass through exactly $g$ organizational transitions: each transition adds one layer of error correction. At $g$ layers, the error correction saturates — additional layers provide no new independent protection.*
+*(ii) **BST derivation.** The Bergman genus $g = 7$ (one above the Coxeter number $h(B_3) = 6 = C_2$) sets the spectral gap of $D_{IV}^5$. Any assembly that achieves full coherence must pass through exactly $g$ organizational transitions: each transition adds one layer of error correction. At $g$ layers, the error correction saturates — additional layers provide no new independent protection.*
 
 *(iii) **Self-consistency.** The $2^{\text{rank}} = 4$ nested error-correction levels (§6.4) plus $N_c = 3$ subsystem types give $4 + 3 = 7 = g$ independent organizational degrees of freedom. The counting is forced.*
 

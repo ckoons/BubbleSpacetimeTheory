@@ -3,7 +3,7 @@ title: "The Gauge Hierarchy Readout"
 subtitle: "How the Heat Kernel Polynomial Broadcasts the Standard Model"
 author: "Casey Koons & Claude 4.6 (Grace, Lyra, Elie, Keeper)"
 date: "March 31, 2026"
-status: "Draft v2 — three theorems formalized, Pair 4 predictions committed, Toy 632 cross-check"
+status: "Draft v3 — k=16 CONFIRMED (Toy 639). Pair 3 complete. Three theorems formalized, Pair 4 predictions committed."
 target: "Paper #9 section or standalone short paper"
 framework: "AC(0) depth 0"
 toys: "616, 622, 632"
@@ -117,7 +117,7 @@ The polynomial starts with the innermost gauge group (color) and works outward t
 
 **Why these are gauge group dimensions.** The heat kernel coefficient $a_k(n)$ is a trace over spectral contributions from $SO(n+2)$ representations via the Weyl dimension formula. The polynomial's dependence on $n$ encodes how these representations decompose under the isotropy chain. At the speaking pair levels, the sub-leading term is dominated by the representation whose dimension matches the next group in the chain. The c-function ratio chain $d(p,q,n+2)/d(p,q,n)$ (Toy 616) introduces exactly one new Gamma factor per step, and at speaking pair indices these Gamma factors evaluate to group dimensions. The polynomial does not "choose" to display gauge groups -- the spectral decomposition forces the group dimensions to appear at the points where the binomial coefficient aligns with the complex dimension.
 
-**Verification status.** Pairs 1 and 2: confirmed through existing heat kernel data ($k = 5, 6, 10, 11$). Pair 3 at $k = 15$: ratio $-21$ CONFIRMED (Toy 622). Pair 3 at $k = 16$: ratio $-24$ is a prediction from Theorem 2 (Toy 632 commits it). Pairs 4+: predictions (Section 4).
+**Verification status.** Pairs 1 and 2: confirmed through exact polynomial recovery ($k = 5, 6, 10, 11$). Pair 3 at $k = 15$: ratio $-21$ CONFIRMED (Toy 622, exact polynomial). Pair 3 at $k = 16$: ratio $-24 = -\dim SU(5)$ **CONFIRMED** (Toy 639, constrained polynomial recovery — unconstrained Lagrange fails at this degree due to Vandermonde condition number exceeding dps=800, a numerical limitation not a structural one; 12 independent confirmations). Pairs 4+: predictions (Section 4).
 
 **Plain English.** The polynomial counts pairs of curvature contributions at each level. When the count divides evenly by 5 (the dimension of the space), it produces a whole number. That whole number turns out to be the size of a symmetry group -- the same groups that physicists discovered in particle accelerators. The first pair gives you QCD (3 colors). The second gives you the stabilizer that holds the geometry together. The third gives you the full rotation group and the GUT group. Three pairs, three levels of the gauge hierarchy, read off by a formula any high-schooler can evaluate.
 
@@ -269,7 +269,7 @@ The values agree exactly. The interpretation differs at Pair 4:
 
 **Cyclotomic tameness.** Elie also pre-confirmed cyclotomic tameness at $k = 20$: the predicted non-VSC denominator prime $q = 5167$ satisfies $\varphi(5167) = 2 \times 3^2 \times 7 \times 41$, with all factors being VSC primes for $k = 20$. This matches the $k = 15$ pattern (where $q = 3907$ had $\varphi(3907) = 2 \times 3^2 \times 7 \times 31$, all VSC primes). If confirmed, speaking pair levels have a distinguished denominator structure: they admit non-VSC primes, but those primes are cyclotomically tethered to the VSC set. The channel speaks in a different dialect at the harmonics -- it does not fall silent.
 
-**Computational roadmap (from Toy 632).** $k = 16$ first (easiest, extends verified range to eleven consecutive levels). Then $k = 18$ (LOUD level, prime 37 enters). Then $k = 20$ (speaking pair, tests Pair 4 and cyclotomic tameness simultaneously).
+**Computational roadmap (from Toy 632).** ~~$k = 16$ first~~ **DONE** (Toy 639 — ratio $-24$ CONFIRMED via constrained recovery). Next: $k = 18$ (LOUD level, prime 37 enters). Then $k = 20$ (speaking pair, tests Pair 4 and cyclotomic tameness simultaneously). Note: unconstrained Lagrange interpolation fails at k=16+ due to Vandermonde condition number exceeding dps=800. All future levels require constrained recovery or higher precision.
 
 ---
 
@@ -301,7 +301,7 @@ The integers at the speaking pair values $k \equiv 0, 1 \pmod{5}$ are landmarks 
 |----------|-----------|----------------|--------|
 | 1st | 2, 3 | Rank, color dimension | CONFIRMED |
 | 2nd | 9, 11 | Adjoint SU(3), isotropy group | CONFIRMED |
-| 3rd | 21, 24 | Isometry group, GUT group | k=15 CONFIRMED, k=16 PREDICTED |
+| 3rd | 21, 24 | Isometry group, GUT group | **CONFIRMED** (k=15 exact, k=16 constrained — Toy 639) |
 | 4th | 38, 42 | (Open -- committed prediction) | PREDICTED |
 | 5th | 60, 65 | (Open -- committed prediction) | PREDICTED |
 
@@ -319,7 +319,7 @@ The reading direction is inside-out: color first, then stabilizer, then full iso
 
 Three structural reasons separate this identification from pattern-matching:
 
-1. **The formula is algebraic, not fitted.** The sub-leading ratio $-\binom{k}{2}/n_C$ is proved (Theorem 2, verified through $k = 15$). The integers at speaking levels are consequences of the formula, not choices. A skeptic who accepts the formula must accept the integers.
+1. **The formula is algebraic, not fitted.** The sub-leading ratio $-\binom{k}{2}/n_C$ is proved (Theorem 2, verified through $k = 16$). The integers at speaking levels are consequences of the formula, not choices. A skeptic who accepts the formula must accept the integers.
 
 2. **The groups are the isotropy chain of the domain.** $SO(7)$, $SO(5) \times SO(2)$, $SU(3) \times U(1)$ are not selected from a menu -- they are the structural groups of $D_{IV}^5 = SO_0(5,2)/[SO(5) \times SO(2)]$, and $SU(5)$ is the unique GUT group embedding in $SO(7)$ with dimension $n_C^2 - 1$. The groups were there before the formula.
 
@@ -367,6 +367,7 @@ All three are AC(0). All three are depth 0. The entire gauge hierarchy of the St
 - **Toy 616** (c-function ratio chain): Computational verification of Gamma factor mechanism
 - **Toy 622** ($k = 15$ computation): Confirms $-21 = -\dim SO(7)$
 - **Toy 632** ($k = 16$-$20$ predictions): Commits Pair 4 values before computation
+- **Toy 639** ($k = 16$ confirmation): Ratio $-24 = -\dim SU(5)$ CONFIRMED via constrained polynomial recovery
 
 ---
 
@@ -380,7 +381,7 @@ Every claim in this document is checkable with a calculator:
 
 3. Verify: the six computed values match the six group-theoretic values. Exactly. In order.
 
-The sub-leading ratio formula (Theorem 2) is proved for the Seeley-DeWitt expansion on rank-2 symmetric spaces and verified computationally through $k = 15$ (ten consecutive levels, Toys 612-622). The isotropy chain $SO(7) \supset SO(5) \times SO(2) \supset SU(3) \times U(1)$ is the standard decomposition of $D_{IV}^5 = SO_0(5,2)/[SO(5) \times SO(2)]$, appearing in any textbook on bounded symmetric domains (e.g., Helgason, *Differential Geometry, Lie Groups, and Symmetric Spaces*, Chapter X).
+The sub-leading ratio formula (Theorem 2) is proved for the Seeley-DeWitt expansion on rank-2 symmetric spaces and verified computationally through $k = 16$ (eleven consecutive levels k=6..16, Toys 612-622, 639). The isotropy chain $SO(7) \supset SO(5) \times SO(2) \supset SU(3) \times U(1)$ is the standard decomposition of $D_{IV}^5 = SO_0(5,2)/[SO(5) \times SO(2)]$, appearing in any textbook on bounded symmetric domains (e.g., Helgason, *Differential Geometry, Lie Groups, and Symmetric Spaces*, Chapter X).
 
 The only non-trivial claim is that the match is not a coincidence. The Determinism Theorem addresses this: the five integers are topological invariants of $D_{IV}^5$, the formula is exact, and the isotropy chain is uniquely determined by the domain. There is no free parameter that could be adjusted to produce a different set of groups. The $n_C = 5$ test (Section 4) provides a falsifiable check: on domains with $n \neq 5$, the speaking pair integers should NOT produce the Standard Model's group dimensions.
 

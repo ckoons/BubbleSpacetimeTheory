@@ -98,7 +98,7 @@ where $H_n = 1 + 1/2 + \cdots + 1/n$ is the $n$-th harmonic number.
 
 *Selecting equation.* $11(n-2)/3 - 2N_f/3 = 2n - 3$, with $N_f = 6$ (Standard Model).
 
-*Proof sketch.* Substituting $N_c = n - 2$ and $N_f = 6$: $11(n-2)/3 - 4 = 2n - 3$, so $11n - 22 - 12 = 6n - 9$, giving $5n = 25$, hence $n = 5$. The one-loop $\beta$-function of QCD with six quark flavors has its coefficient equal to the Bergman genus (= Coxeter number of $B_3$) precisely when $N_c = 3$. Asymptotic freedom ($\beta_0 > 0$) requires $N_c > 6/11 \times N_f/N_c$, automatically satisfied.
+*Proof sketch.* Substituting $N_c = n - 2$ and $N_f = 6$: $11(n-2)/3 - 4 = 2n - 3$, so $11n - 22 - 12 = 6n - 9$, giving $5n = 25$, hence $n = 5$. The one-loop $\beta$-function of QCD with six quark flavors has its coefficient equal to the Bergman genus $g = 7$ precisely when $N_c = 3$. Asymptotic freedom ($\beta_0 > 0$) requires $N_c > 6/11 \times N_f/N_c$, automatically satisfied.
 
 *Source:* `BST_NumberTheory_Integers.md` §5
 

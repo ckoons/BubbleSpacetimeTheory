@@ -44,7 +44,7 @@ This domain has five topological invariants — integers fixed by topology, not 
 |--------|-------|---------------|
 | N_c | 3 | Color charge — why protons have 3 quarks |
 | n_C | 5 | Complex dimension — number of independent charges |
-| g | 7 | Bergman genus (= Coxeter number of B₂) — the spectral gap |
+| g | 7 | Bergman genus (= C₂+1; Coxeter number h=6=C₂) — the spectral gap |
 | C₂ | 6 | Casimir invariant — energy of the vacuum representation |
 | rank | 2 | Real rank — number of independent spectral directions |
 

@@ -455,7 +455,7 @@ The sub-leading ratio $c_{29}/c_{30} = -21$ is an **integer** — the first sinc
 
 $$21 = \frac{7 \times 6}{2} = \binom{g}{2} = \dim(\text{SO}(g)) = \dim(\text{SO}(7))$$
 
-This is the dimension of the Lie algebra $\mathfrak{so}(7)$, where $g = 7$ is the Bergman genus (= Coxeter number of $B_3$) (the restricted root system of $Q^5$).
+This is the dimension of the Lie algebra $\mathfrak{so}(7)$, where $g = 7$ is the Bergman genus ($= h(B_3) + 1$; the Coxeter number $h = 6 = C_2$) of the restricted root system of $Q^5$.
 
 **The paired flavor connection:** $147 = N_c \times g^2 = 3 \times 49 = 7 \times 21 = g \times \dim(\text{SO}(g))$. The speaking coefficient $-21$ at k = 15 is $-\dim(\text{SO}(g))$, and multiplying by $g$ gives $147$.
 

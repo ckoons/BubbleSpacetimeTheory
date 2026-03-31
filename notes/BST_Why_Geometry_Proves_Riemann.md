@@ -385,7 +385,7 @@ $$147 = 3 \times 49 = N_c \times g^2$$
 
 reflects two geometric structures packing simultaneously:
 - $N_c = 3$: the $\mathbb{Z}_3$ tiling from $\mathrm{SU}(3)$ confinement (three colors cycle)
-- $g^2 = 49$: the $g = 7$ Coxeter structure of $B_3$, squared by the two fiber factors
+- $g^2 = 49$: the $g = 7$ Bergman genus structure, squared by the two fiber factors
 
 ### 6.2 The 137/147 Pair
 

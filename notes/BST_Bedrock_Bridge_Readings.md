@@ -96,7 +96,7 @@ The spectral reader is the most natural costume for gaps between geometry and nu
 #### A1. Coxeter x Bergman kernel: (N8, G3)
 
 - **Structure**: The Bergman kernel K(z,w) on D_IV^5 -- the reproducing kernel for holomorphic functions
-- **Landmarks**: Bergman genus (Coxeter number) g=7 -- the height of the highest root in BC_2
+- **Landmarks**: Bergman genus g=7 (= C₂+1; Coxeter number h(B₃)=6=C₂) -- the pole order of the Bergman kernel on D_IV^5
 - **Reading**: The spectral reader decomposes K(z,w) into eigenmodes. The spectral gap between the first and second eigenvalues reads the Bergman genus. g=7 appears as the number of independent spectral layers the kernel resolves.
 
 #### A2. Coxeter x Shilov boundary: (N8, G4)
@@ -439,7 +439,7 @@ The arithmetic reader is the natural costume for gaps involving prime factorizat
 
 - **Structure**: The Bergman genus g=7
 - **Landmarks**: Spectral gap
-- **Reading**: The arithmetic reader checks: is g=7 unique? Yes. The Bergman genus (Coxeter number) of BC_2 is 7, and no other rank-2 root system gives the same combination of invariants. The arithmetic reader reads uniqueness through prime factorization: 7 is prime, allowing no factoring ambiguity.
+- **Reading**: The arithmetic reader checks: is g=7 unique? Yes. The Bergman genus of BC_2 is 7 (= C₂+1), and no other rank-2 root system gives the same combination of invariants. The arithmetic reader reads uniqueness through prime factorization: 7 is prime, allowing no factoring ambiguity.
 
 #### C15. Uniqueness x Casimir C_2=6: (S11, N9)
 
