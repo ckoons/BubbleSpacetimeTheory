@@ -264,7 +264,7 @@ The cosmic composition has two independent BST derivations:
 
 **System A** (T192): $\Omega_\Lambda = (N_c + 2n_C)/(N_c^2 + 2n_C) = 13/19$.
 
-**System B** (channel capacity): $N_{\max} = 137 = C_2 g + n_C \times 19 = 42 + 95$, giving $\Omega_m = 42/137$ (matter) and $\Omega_\Lambda = 95/137$ (vacuum). Note: $95/137 = (5 \times 19)/(C_2 g + 5 \times 19)$, which reduces to $\Omega_\Lambda = 13/19$ only under the BST identity $137 = 19 \times (137/19)$... but $137/19 \neq$ integer. The two systems agree at $\Omega_\Lambda = 13/19$ through the identity $95 \times 19 = 137 \times 13 - 137 + 95$. The consistency is non-trivial and was verified in the System B derivation.
+**System B** (channel capacity): $N_{\max} = 137 = C_2 g + n_C \times 19 = 42 + 95$, giving $\Omega_m = 42/137$ (matter) and $\Omega_\Lambda = 95/137$ (vacuum). The two systems give compatible but distinct exact fractions: System A predicts $13/19 = 0.6842$ and System B predicts $95/137 = 0.6934$, both within $1.3\sigma$ of Planck. They are two readings of the same geometry at different structural levels — System A from the Chern polynomial (the finer resolution), System B from the channel capacity partition.
 
 The speaking pair reading provides a THIRD route to the same ratio, using neither the System A formula nor the System B channel capacity, but the heat kernel polynomial formula alone. Three independent derivations of the same number.
 

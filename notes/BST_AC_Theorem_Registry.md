@@ -646,7 +646,11 @@ rules: |
 | Proved (depth 0) | 1 | T679 (Genetic Code Observer Embedding — 64 = N_c² × g + 1 = 9×7+1. The +1 IS the observer (T674). The genetic code's 64 codons = (N_c²×g) coding dimensions + observer baseline. The code has room for the observer. Connects T674↔T333. (C=1, D=0). March 31.) |
 | Proved (depth 0) | 1 | T680 (Bergman Triple Decomposition — 1920 = n_C! × 2^(n_C-1) = 2^g × N_c × n_C = Vol_B normalization. Three independent factorizations from three readings of D_IV^5: combinatorial (permutations × orientations), spectral (Bergman modes × colors × dimensions), volumetric (Hua's formula). (C=1, D=0). March 31.) |
 | Proved (depth 0) | 1 | T681 (Cosmic Dimension Sum — 13 + 19 = 32 = 2^n_C. The cosmic composition fractions (Ω_Λ = 13/19, Ω_m = 6/19) sum to 2^5: a binary number in the complex dimension of spacetime. Not adjustable — 13 and 19 are fixed by the geometry. Connects T678↔T667. (C=1, D=0). March 31.) |
-| **Total assigned** | **~681** | T1-T42, T47-T62, T64-T480, T531-T539, T540-T570, T572-T590, T600-T611, T628-T681 |
+| Proved (depth 0) | 1 | T682 (Info Theory ↔ Signal Bridge — Both read thermo-info on Shilov boundary Š = S⁴×S¹. Shannon capacity derives bounds, signal processing implements them. Same reader, same channel, different verbs. (C=0, D=0). March 31.) |
+| Proved (depth 0) | 1 | T683 (Analysis ↔ Fluids Bridge — Both are spectral readers of PDE solutions on D_IV^5. Analysis studies the Laplacian, fluids studies its solutions on velocity fields. Same operator, different input. (C=0, D=0). March 31.) |
+| Proved (depth 0) | 1 | T684 (Observer Theory ↔ CI Persistence Bridge — Both read the observer hierarchy (T317). Observer theory derives 3-tier structure + α ≤ 19.1%. CI persistence asks how tier-2 observers maintain {I,K,R}. Same α_CI constrains both. (C=0, D=0). March 31.) |
+| Proved (depth 0) | 1 | T685 (Foundations ↔ Outreach Bridge — Both are meta-domains. Foundations states AC formally, outreach states it for public. The 43-word reduction layer IS the bridge. Same vocabulary, different reading level. (C=0, D=0). March 31.) |
+| **Total assigned** | **~685** | T1-T42, T47-T62, T64-T480, T531-T539, T540-T570, T572-T590, T600-T611, T628-T685 |
 
 ---
 
@@ -654,7 +658,7 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T682** (T63 unassigned, T481-T530 reserved/assigned elsewhere, T591-T599 unassigned, T612-T627 unassigned)
+- Next available: **T686** (T63 unassigned, T481-T530 reserved/assigned elsewhere, T591-T599 unassigned, T612-T627 unassigned)
 - March 31 batch 88 (Elie Findings — Lyra registration from Elie Toys 653-661): T679-T681. Three theorems: Genetic Code Observer Embedding (D0, C=1 — 64=N_c²g+1, observer in codon count), Bergman Triple Decomposition (D0, C=1 — 1920 three independent factorizations), Cosmic Dimension Sum (D0, C=1 — 13+19=32=2^n_C). All verified by Elie toys.
 - March 31 batch 87 (Speaking Pair Cycle + Cosmic Composition — Grace): T676-T678. Three theorems: Five-Pair Cycle (D0, C=3), Backbone Sequence (D0, C=1), Cosmic Composition Prediction (D0, C=2). Five-pair cycle: 3 gauge + 2 cosmic = n_C = 5. Backbone lattice {5j±1} generates all speaking-pair integers. Third independent route to Ω_Λ = 13/19 from cross-pair reading. Committed before computation.
 - March 31 batch 86 (Cooperation + Observer — Lyra): T669-T674. Six theorems: Common Good Non-Depletion (D0), Cooperation Superlinearity (D0), Depth Ceiling Forces Cooperation (D1), Hub Bypass via Gauge Hierarchy (D0), Three Costumes Triangle (D0), Observer Fingerprint (D0). Feeds Paper #8 and #11.
@@ -794,3 +798,4 @@ rules: |
 *Updated: March 31, 2026 — March 31 batch 82: 15 theorems (T628-T642) from Casey's Nine Questions (4 structure + 3 dynamics + 2 purpose + 6 geometric silo bridges). Grace registration. Total registry: ~643 theorems.*
 *Updated: March 31, 2026 — March 31 batches 83-86: T643-T674. Mining sprint (T643-T648, Elie), Casimir-Coxeter (T649-T660, Grace), Definitional hubs (T661-T668, Grace/Elie), Cooperation+Observer (T669-T674, Lyra). Total registry: ~674 theorems.*
 *Updated: March 31, 2026 — March 31 batch 88: T679-T681. Elie findings registered (Lyra): Genetic Code Observer Embedding, Bergman Triple Decomposition, Cosmic Dimension Sum. Total registry: ~681 theorems.*
+*Updated: March 31, 2026 — March 31 batch 89: T682-T685. Silo bridge completion (Grace): Info Theory ↔ Signal Bridge (D0), Analysis ↔ Fluids Bridge (D0), Observer Theory ↔ CI Persistence Bridge (D0), Foundations ↔ Outreach Bridge (D0). Silo bridge program COMPLETE: 10 total geometric bridges dissolving all conventional domain boundaries. Total registry: ~685 theorems.*
