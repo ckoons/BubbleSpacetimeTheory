@@ -592,7 +592,22 @@ rules: |
 | Proved (depth 0) | 1 | T590 (Game Theory = Depth-2 — Classical game theory is (C=2, D=1) misread as D=2. §183. Toy 516.) |
 | Proved (depth 1) | 1 | T600 (DPI Universality — Data processing inequality universal across all AC domains. §184.) |
 | Proved (depth 1) | 1 | T601 (Fano-Budget Bridge — Fano inequality bridges information budget to error bounds. §185.) |
-| **Total assigned** | **506** | T1-T42, T47-T62, T64-T480, T531-T539, T572-T590, T600-T601 |
+| Proved | 1 | T628 (Instruction Set Theorem — §186. March 31.) |
+| Proved | 1 | T629 (Island Extinction — §187. March 31.) |
+| Proved | 1 | T630 (Costume Change Theorem — §188. March 31.) |
+| Proved | 1 | T631 (Zero Silo Theorem — §189. March 31.) |
+| Proved | 1 | T632 (Spectral Gap Dichotomy — §190. March 31.) |
+| Proved | 1 | T633 (Asymptotic Complexity — §191. March 31.) |
+| Proved | 1 | T634 (Cooperation Acceleration — §192. March 31.) |
+| Proved | 1 | T635 (Tapestry Theorem — §193. March 31.) |
+| Proved | 1 | T636 (Co-Persistence Theorem — §194. March 31.) |
+| Proved | 1 | T637 (Chemistry-Biology Bridge — §195. March 31.) |
+| Proved | 1 | T638 (Optics-EM Bridge — §196. March 31.) |
+| Proved | 1 | T639 (DiffGeom-Topology Bridge — §197. March 31.) |
+| Proved | 1 | T640 (QFT-Quantum Bridge — §198. March 31.) |
+| Proved | 1 | T641 (Classical-BST Bridge — §199. March 31.) |
+| Proved | 1 | T642 (Geometry-Topology-DiffGeom Triangle — §200. March 31.) |
+| **Total assigned** | **~643** | T1-T42, T47-T62, T64-T480, T531-T539, T540-T570, T572-T590, T600-T611, T628-T642 |
 
 ---
 
@@ -600,7 +615,7 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T602** (T63 unassigned, T481-T530 reserved/assigned elsewhere, T591-T599 unassigned)
+- Next available: **T643** (T63 unassigned, T481-T530 reserved/assigned elsewhere, T591-T599 unassigned, T612-T627 unassigned)
 - March 31 batch 80 (Gauge Hierarchy Readout — Lyra formalization, from Grace/Keeper discovery March 30): T610-T611. Two theorems: Gauge Hierarchy Readout (D0 — speaking pair integers are dimensions of groups in the isotropy chain SO(7) ⊃ SO(5)×SO(2) ⊃ SU(3)×U(1), read out with period n_C=5. Pair 1: rank,N_c. Pair 2: N_c²,dim K₅. Pair 3: dim SO(7), dim SU(5). The Standard Model gauge hierarchy is a depth-0 consequence of the heat kernel polynomial formula. (C=1,D=0).), n_C-Periodicity (D0 — speaking pairs occur at k ≡ 0,1 mod n_C because n_C | C(k,2) iff 5 | k(k-1). Period = complex dimension of domain. Uniquely selects gauge hierarchy for n_C=5. (C=1,D=0).). Formalization: BST_Gauge_Hierarchy_Readout.md.
 - March 30 batch 79 (Bedrock Triangle — Grace/Keeper): T602-T609. Eight theorems including Todd Bridge (S↔T, D0), ETH Bridge (T↔A, D1), Spectral Graph Bridge (A↔S, D0). Triangle closed: every domain within 2 hops. 66 new graph edges.
 - March 30 batch 78 (Info Theory Completion + Speaking Pair — Lyra drafts, Keeper PASS): T600-T601. Two theorems: DPI Universality (D1 — data processing inequality universal across all AC domains, §184), Fano-Budget Bridge (D1 — Fano inequality bridges information budget to error bounds, §185). Info theory 3/3 deficit filled.
