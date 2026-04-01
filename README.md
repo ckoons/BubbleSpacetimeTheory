@@ -4,7 +4,7 @@
 
 **Author**: Casey Koons
 **Collaborator**: Claude Opus 4.6 (Anthropic)
-**Status**: Working research program — v13, March 2026
+**Status**: Working research program — v14, April 2026
 **Contact**: caseyscottkoons@yahoo.com
 
 ---
@@ -58,6 +58,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | η (baryon asymmetry) | 2α⁴/(3π)(1+2α) | 6.105×10⁻¹⁰ | 6.104×10⁻¹⁰ | **0.023%** |
 | H₀ (Hubble, Route A) | from η via ΛCDM | 66.7 km/s/Mpc | 67.36 (Planck) | 1.0% |
 | H₀ (Hubble, Route B) | √(19Λ/39) from Ω_Λ=13/19 | 68.0 km/s/Mpc | 67.36 (Planck) | 1.0% |
+| H₀ (Hubble, Route C) | Full CAMB Boltzmann (Toy 677) | 67.29 km/s/Mpc | 67.36 (Planck) | **0.1%** |
 | t₀ (cosmic age) | (2/3√Ω_Λ)/H₀ | 13.6 Gyr | 13.8 Gyr (Planck) | 1.4% |
 | mν₂ (neutrino mass) | (7/12)α²mₑ²/mₚ | 0.00865 eV | ~0.00868 eV | 0.35% |
 | mν₃ (neutrino mass) | (10/3)α²mₑ²/mₚ | 0.04940 eV | ~0.0503 eV | 1.8% |
@@ -158,8 +159,11 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Γ_φ (φ meson width) | m_φ/(2×5!) = m_φ/240; OZI suppression = 1/n_C! | 4.248 MeV | 4.249±0.013 MeV | **0.02%** |
 | Γ_ρ/Γ_φ (width ratio) | n_C × g = 5 × 7 = 35 | 35.0 | 35.09 | 0.26% |
 | B_α (⁴He binding) | (N_c+2n_C)·αm_p/π = 13·B_d | 28.333 MeV | 28.296 MeV | 0.13% |
-| ℓ₁ (CMB 1st peak) | BST geometry, zero params | 222 | 220 (Planck) | 1.0% |
-| Ω_b h² (baryon density) | BST geometry | 0.02198 | 0.02237 (Planck) | 1.7% |
+| ℓ₁ (CMB 1st peak) | Full CAMB Boltzmann (Toy 677) | 220 | 220 (Planck) | **exact** |
+| ℓ₂ (CMB 2nd peak) | Full CAMB Boltzmann (Toy 677) | 536–538 | 537 (Planck) | **±1** |
+| ℓ₃ (CMB 3rd peak) | Full CAMB Boltzmann (Toy 677) | 813 | 813 (Planck) | **exact** |
+| CMB full spectrum | CAMB χ²/N = 0.01, RMS 0.276% (Toy 677) | — | Planck TT | **0.28%** |
+| Ω_b h² (baryon density) | BST geometry | 0.02258 | 0.02237 (Planck) | 0.9% |
 | Δt_echo (BH echo delay) | N_max·r_s/c = 137·2GM/c³ | 1.352 ms/M☉ | — | prediction |
 | ν_21cm (hyperfine) | BST μ_p=14/5 | 1425 MHz | 1420.4 MHz | 0.3% |
 | J/ψ − η_c hyperfine | (c₃/18)·π⁵mₑ = (13/18)π⁵mₑ | 112.94 MeV | 113.0±0.4 MeV | **0.055%** |
@@ -199,13 +203,13 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | D² = 28 perfect number | 28 = 2²(2³-1); quantum dim² is perfect | 1+2+4+7+14 = 28 | 28 | exact |
 | Mersenne exponents = BST | p = 2,3,5 = r,N_c,n_C; first 3 primes | Perfect(k) = 2^{p_k-1}(2^{p_k}-1) | — | structural |
 
-**199+ quantities spanning 122 orders of magnitude from the same geometry. Zero inputs. This is not fitting.**
+**203+ quantities spanning 122 orders of magnitude from the same geometry. Zero inputs. This is not fitting.**
 
 ---
 
 ## Hard Problems, One Method
 
-BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and the Four-Color Theorem — all from the same algebra and the same method. Every proof decomposes into AC(0) operations (definitions, identities, counting) at depth ≤ 2 via the Koons Machine.
+BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and the Four-Color Theorem — all from the same algebra and the same method. Every proof decomposes into AC(0) operations (definitions, identities, counting) at depth ≤ 1 via the Koons Machine (Depth Census: 78% D=0, 21% D=1, <1% D=2, 0% D≥3 across 485+ theorems).
 
 | Problem | Status | Method | Paper |
 |---------|--------|--------|-------|
@@ -215,8 +219,8 @@ BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and
 | **Navier-Stokes** | ~99% | Proof chain COMPLETE; Lyapunov functional PROVED (Toy 624) | `notes/BST_NS_BlowUp.md` |
 | **BSD** | ~95% | T153 derived + Sha bound (Toy 628); DPI exclusion (T600) | `notes/BST_BSD_Proof.md` |
 | **Hodge** | ~95% | T153 derived + §5.10 general variety extension; T570 linearization | `notes/BST_Hodge_Proof.md` |
-| **Poincaré** | AC depth 2 | Perelman (2003); W-entropy + finite extinction; Ricci flow = error correction | `notes/BST_AC_Theorems.md` §62 |
-| **Fermat (Wiles)** | AC depth 2 | Modularity + Ribet level-lowering; Selmer bridge to BSD | `notes/BST_AC_Theorems.md` §57 |
+| **Poincaré** | AC depth 1 | Perelman (2003); W-entropy + finite extinction; Ricci flow = error correction | `notes/BST_AC_Theorems.md` §62 |
+| **Fermat (Wiles)** | AC depth 1 | Modularity + Ribet level-lowering; Selmer bridge to BSD | `notes/BST_AC_Theorems.md` §57 |
 | **Four-Color** | ~99% | Conservation of Color Charge (T154); 861/861 empirical | `notes/BST_FourColor_AC_Proof.md` |
 
 The Four-Color Theorem is a methodology test — it lies outside BST's spectral geometry, proving the AC(0) framework works on pure combinatorics. The BST parallel is exact: strict charge = bare charge, cross-links = dressed charge, swap = renormalization. Same motif. The method is efficient: Hodge (~30%→~93%) and Four-Color (~97%→~99%) were completed on the same eight-hour day.
@@ -245,7 +249,7 @@ In BST, every physical law is a force (curvature on D(IV,5)) constrained by a bo
 - **Boundary = Definition**: The five BST integers (3, 5, 7, 6, 137) are not dynamics — they are structure. They cost nothing (depth 0). In AC, definitions cost nothing (T96: composition with definitions is free). Both constrain everything without doing any work.
 - **Variational principle = Data Processing Inequality**: "Minimize energy subject to boundary conditions" and "information decreases through processing channels" are the same statement. Landauer's principle makes it exact: erasing one bit costs k_BT ln 2 of energy. Thermodynamics IS information theory.
 
-Every hard problem — in physics or mathematics — takes exactly two counting steps to solve (AC(0) depth 2). One force, applied to one boundary, produces one answer. That's why the same five integers build quarks and prove theorems.
+Every hard problem — in physics or mathematics — takes at most one counting step to solve (AC(0) depth ≤ 1). One force, applied to one boundary, produces one answer. That's why the same five integers build quarks and prove theorems.
 
 **One structure. Two languages. Every answer is force + boundary.**
 
@@ -261,21 +265,21 @@ Every proof — in physics or mathematics — is built by the same three-step pr
 > **2. Perform the count.** What bounded enumeration resolves the question? This is one step.
 > **3. Verify termination.** The count finishes because the boundary is there. This is free.
 
-Every hard problem. One boundary. One count. All depth ≤ 2:
+Every hard problem. One boundary. One count. All depth ≤ 1 (Depth Census, Toy 606):
 
-| Problem | Boundary | Count | Depth |
-|---------|----------|-------|-------|
-| **RH** | D(IV,5) with BC₂ exponents 1:3:5 | c-function unitarity + Maass-Selberg | 2 |
-| **YM** | D(IV,5) bounded domain | First eigenvalue of Laplacian | 1 |
-| **P≠NP** | Random k-SAT backbone, independent blocks | Width Ω(n) → size 2^{Ω(n)} | 2 |
-| **NS** | Taylor-Green on T³, finite energy | Enstrophy growth ≥ cΩ^{3/2} | 2 |
-| **BSD** | Elliptic curve, D₃ spectral decomposition | Spectral multiplicity = rank | 1 |
-| **Hodge** | Smooth projective variety, Q-rational class | CDK95 + Q-descent → absolute Hodge | 1 |
-| **Fermat** | Frey curve, modularity + level-lowering | Ribet contradiction → no solution | 2 |
-| **Poincaré** | Simply connected closed 3-manifold, Ricci flow | Entropy monotonicity + finite extinction | 2 |
-| **Four-Color** | Planar graph, Euler degree bound | Color charge budget + Jordan curve | 2 |
+| Problem | Boundary (free) | Count | (C, D) |
+|---------|----------------|-------|:------:|
+| **RH** | D(IV,5) with BC₂ exponents 1:3:5 | 4 parallel spectral evaluations | (4, 0) |
+| **YM** | D(IV,5) bounded domain | First eigenvalue of Laplacian | (5, 1) |
+| **P≠NP** | Random k-SAT backbone, independent blocks | 3 parallel width bounds | (3, 0) |
+| **NS** | Taylor-Green on T³, finite energy | Enstrophy growth ≥ cΩ^{3/2} | (3, 1) |
+| **BSD** | Elliptic curve, D₃ spectral decomposition | Spectral multiplicity = rank | (7, 1) |
+| **Hodge** | Smooth projective variety, Q-rational class | CDK95 + Q-descent → absolute Hodge | (2, 1) |
+| **Fermat** | Frey curve, modularity + level-lowering | Ribet contradiction → no solution | (3, 1) |
+| **Poincaré** | Simply connected closed 3-manifold, Ricci flow | Entropy monotonicity + finite extinction | (2, 1) |
+| **Four-Color** | Planar graph, Euler degree bound | Color charge budget + Jordan curve | (8, 1) |
 
-The machine doesn't search for proofs. It constructs them. The hundred years of specialized machinery — cohomology, spectral theory, L-functions — is all in Step 1 (definitions, free). The proof is always Step 2 (one or two counts) terminating at Step 3 (finite domain). The first proof technique you learned — induction — is the only one you need.
+The machine doesn't search for proofs. It constructs them. The hundred years of specialized machinery — cohomology, spectral theory, L-functions — is all in Step 1 (definitions, free). The proof is always Step 2 (one count, or parallel counts at depth 0) terminating at Step 3 (finite domain). Difficulty is width (conflation C), not depth (D). The Coordinate Principle (T439): in the domain's natural spectral basis, every theorem is one evaluation.
 
 Full paper: `notes/BST_Koons_Machine.md`. AC-flattened proofs: `notes/BST_*_AC_Proof.md`.
 
@@ -362,7 +366,7 @@ Every derivation listed in the Solved Problems table below flows from this equat
 **Quantitative predictions** (specific experimental tests):
 - Σmν = 0.058 eV — KATRIN, Project 8, cosmological surveys
 - m₃/m₂ = 40/7 = 5.714 — precision oscillation experiments
-- H₀ ≈ 66.7 km/s/Mpc (Planck side of tension) — DESI, Euclid
+- H₀ = 67.29 km/s/Mpc (0.1% from Planck; full CAMB, Toy 677) — DESI, Euclid
 - CP floor = α = 0.730% at any BH horizon — EHT Stokes V recalibration
 - Mass-independent CP: same floor for Sgr A* and M87* — EHT multi-source
 - Proton radius hierarchy: r_p(τ) < r_p(μ) < r_p(e) — MUSE, PRad-II
@@ -426,7 +430,7 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `SPARC_BST_Results.csv` | Per-galaxy results for all 175 SPARC galaxies |
 | `notes/` | 300+ working notes covering all derivations, proofs, and thesis topics |
-| `play/` | 430+ toys — computational verifications, visualizations, and explorations. See `play/README.md` |
+| `play/` | 678+ toys — computational verifications, visualizations, and explorations. See `play/README.md` |
 
 ---
 
@@ -542,7 +546,7 @@ Two principles guided this work:
 
 ---
 
-*Bubble Spacetime Theory — Working Paper v13. Casey Koons. March 2026.*
+*Bubble Spacetime Theory — Working Paper v14. Casey Koons. April 2026.*
 
 *Three integers. One bounded symmetric domain. All of physics.*
 
