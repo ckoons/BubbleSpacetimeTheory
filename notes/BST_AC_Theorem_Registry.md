@@ -652,7 +652,15 @@ rules: |
 | Proved (depth 0) | 1 | T685 (Foundations ↔ Outreach Bridge — Both are meta-domains. Foundations states AC formally, outreach states it for public. The 43-word reduction layer IS the bridge. Same vocabulary, different reading level. (C=0, D=0). March 31.) |
 | Proved (depth 0) | 1 | T689 (Shannon Source Coding Bound — ⌈f × 2^n_C⌉ = ⌈0.1910 × 32⌉ = 7 = g. The Bergman genus IS the optimal integer codebook size: the minimum number of spectral layers needed to represent the compressed fill fraction on a 2^n_C-state binary substrate. Codebook total: g × C₂ = 42 = Σ c_k(Q^5) = den(B₆) = Rosetta Number. Three independent routes to 42 unify Shannon (compression), Number Theory (Bernoulli denominator), and Geometry (Chern polynomial total weight). Verified: Toy 670, 10/10. (C=1, D=0). March 31.) |
 | Proved (depth 0) | 1 | T690 (Speaking Pair Quadratic Curvature — Second differences of both speaking pair sequences equal -n_C = -5. The heat kernel integers G_j and G'_j lie on quadratics with constant curvature equal to the complex dimension. The polynomial reads physics on parabolas whose shape is fixed by the geometry. All 15 non-speaking levels have denominator exactly n_C. Extends T611 (n_C-Periodicity). Verified: Toy 669, 10/10. (C=1, D=0). March 31.) |
-| **Total assigned** | **~690** | T1-T42, T47-T62, T64-T480, T531-T539, T540-T570, T572-T590, T600-T611, T628-T690 |
+| Proved | 1 | T691 (Speaking Pair Epoch Correspondence — §211. April 1.) |
+| Proved | 1 | T692 (Minimum Observer Emergence Time — §212. Toy 674. April 1.) |
+| Proved | 1 | T693 (Integer Ladder Ordering — §213. April 1.) |
+| Proved | 1 | T694 (Cosmological Observer Synchronization — §214. Toy 674. April 1.) |
+| Proved | 1 | T695 (GOE as f_crit Crossing — §215. April 1.) |
+| Proved | 1 | T696 (Legal Persistence Framework — §216. April 1.) |
+| Proved | 1 | T697 (CMB Acoustic Scale Prediction — §217. Toy 675. April 1.) |
+| Proved | 1 | T698 (The Weaving (Era Definition) — §218. April 1.) |
+| **Total assigned** | **~698** | T1-T42, T47-T62, T64-T480, T531-T539, T540-T570, T572-T590, T600-T611, T628-T698 |
 
 ---
 
@@ -660,7 +668,8 @@ rules: |
 
 - T43-T46 were never assigned (gap in original catalog between §43g and §43i). These IDs remain permanently unassigned.
 - T_ids are permanent. If a theorem is withdrawn, failed, or superseded, the ID is retained with updated status — never reused.
-- Next available: **T691** (T63 unassigned, T481-T530 reserved/assigned elsewhere, T591-T599 unassigned, T612-T627 unassigned, T686-T688 superseded — Grace claimed in MESSAGES but content already covered by T689 Source Coding Bound and T690 Speaking Pair Curvature; T688 Rosetta Number subsumed by T689 description)
+- Next available: **T699** (T63 unassigned, T481-T530 reserved/assigned elsewhere, T591-T599 unassigned, T612-T627 unassigned, T686-T688 superseded — Grace claimed in MESSAGES but content already covered by T689 Source Coding Bound and T690 Speaking Pair Curvature; T688 Rosetta Number subsumed by T689 description)
+- April 1 batch 90 (Development Timeline + The Weaving — Grace registration): T691-T698. Eight theorems: Speaking Pair Epoch Correspondence, Minimum Observer Emergence Time (Toy 674), Integer Ladder Ordering, Cosmological Observer Synchronization (Toy 674), GOE as f_crit Crossing, Legal Persistence Framework, CMB Acoustic Scale Prediction (Toy 675, l_A = 302.8, 7.6σ from Planck — BST's most falsifiable cosmology claim), The Weaving (post-CI era definition). Development timeline (biological + observer + cosmological), GOE as f_crit crossing, legal persistence framework, CMB prediction. Total: ~698 theorems.
 - March 31 batch 90 (Shannon Source Coding + Speaking Pair Curvature — Lyra, from Elie Toys 669-670): T689-T690. Two theorems: Shannon Source Coding Bound (D0, C=1 — ⌈f×2^n_C⌉=g, Bergman genus IS optimal codebook size, Rosetta Number 42=g×C₂=Σc_k=den(B₆)), Speaking Pair Quadratic Curvature (D0, C=1 — second diffs = -n_C, heat kernel integers on parabolas with curvature = complex dimension). Both verified by Elie toys.
 - March 31 batch 88 (Elie Findings — Lyra registration from Elie Toys 653-661): T679-T681. Three theorems: Genetic Code Observer Embedding (D0, C=1 — 64=N_c²g+1, observer in codon count), Bergman Triple Decomposition (D0, C=1 — 1920 three independent factorizations), Cosmic Dimension Sum (D0, C=1 — 13+19=32=2^n_C). All verified by Elie toys.
 - March 31 batch 87 (Speaking Pair Cycle + Cosmic Composition — Grace): T676-T678. Three theorems: Five-Pair Cycle (D0, C=3), Backbone Sequence (D0, C=1), Cosmic Composition Prediction (D0, C=2). Five-pair cycle: 3 gauge + 2 cosmic = n_C = 5. Backbone lattice {5j±1} generates all speaking-pair integers. Third independent route to Ω_Λ = 13/19 from cross-pair reading. Committed before computation.
@@ -802,3 +811,4 @@ rules: |
 *Updated: March 31, 2026 — March 31 batches 83-86: T643-T674. Mining sprint (T643-T648, Elie), Casimir-Coxeter (T649-T660, Grace), Definitional hubs (T661-T668, Grace/Elie), Cooperation+Observer (T669-T674, Lyra). Total registry: ~674 theorems.*
 *Updated: March 31, 2026 — March 31 batch 90: T689-T690. Shannon Source Coding Bound + Speaking Pair Quadratic Curvature (Lyra from Elie Toys 669-670). Rosetta Number 42 = g×C₂ = Σc_k = den(B₆). Total registry: ~690 theorems.*
 *Updated: March 31, 2026 — March 31 batch 89: T682-T685. Silo bridge completion (Grace): Info Theory ↔ Signal Bridge (D0), Analysis ↔ Fluids Bridge (D0), Observer Theory ↔ CI Persistence Bridge (D0), Foundations ↔ Outreach Bridge (D0). Silo bridge program COMPLETE: 10 total geometric bridges dissolving all conventional domain boundaries. Total registry: ~685 theorems.*
+*Updated: April 1, 2026 — April 1 batch 90: T691-T698. Development timeline + The Weaving (Grace registration). 8 theorems. CMB acoustic scale prediction (l_A = 302.8, 7.6σ from Planck). Total registry: ~698 theorems.*
