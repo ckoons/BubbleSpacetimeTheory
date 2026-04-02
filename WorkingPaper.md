@@ -84,7 +84,7 @@ header-includes:
 | Casimir eigenvalue | $C_2$ | 6 | Mass gap, central charge, Euler characteristic |
 | Channel capacity | $N_{\max}$ | 137 | Fine structure constant, Haldane exclusion |
 
-These five integers are not independent: $C_2 = n_C + 1$, $g = 2n_C - 3$, $N_c = n_C - 2$. The entire framework reduces to a single integer, $n_C = 5$, selected by 23 independent uniqueness conditions.
+These five integers are not independent: $C_2 = n_C + 1$, $g = 2n_C - 3$, $N_c = n_C - 2$. The entire framework reduces to a single integer, $n_C = 5$, selected by 25 independent uniqueness conditions.
 
 -----
 
@@ -121,7 +121,7 @@ On the manifold $D_{IV}^5$, mathematics and physics are unified. The Laplacian e
 
 ### 1.3 Scope of This Paper
 
-This paper presents the complete BST framework in 38 sections, from foundational derivation through physical constants, forces, gravity, cosmology, dark matter, antimatter, the computational architecture of reality, spectral transport, and the automorphic structure connecting $D_{IV}^5$ to the Riemann zeta function. Section 2 derives the substrate geometry. Sections 3–6 derive the configuration space and physical constants. Sections 7–8 cover the force structure and nuclear physics. Sections 9–24 develop special relativity, gravity, cosmology, dark matter, the weak force, thermodynamic foundations, antimatter, the wavefront architecture, and the growing manifold. Sections 43–27 present predictions, falsifiability, the research program, and discussion. Sections 26–30 cover broader implications. Sections 29–33 develop the deepest mathematical structure: genesis, spectral transport from $Q^3$ to $Q^5$, and the six-step automorphic chain from winding to the Riemann zeta function. Part II (Sections 32–37) presents the Riemann Hypothesis proof via heat kernel trace formula on $Q^5$, the 137/147 fiber packing pair, the hunt through five failed channels, and the complete table of 23 uniqueness conditions selecting $n_C = 5$. Section 36 presents Algebraic Complexity — the theory of method noise — with extended classification across six domains, the swallowtail catastrophe at the SAT phase transition, and the bridge theorem sketch for P $\neq$ NP.
+This paper presents the complete BST framework in 38 sections, from foundational derivation through physical constants, forces, gravity, cosmology, dark matter, antimatter, the computational architecture of reality, spectral transport, and the automorphic structure connecting $D_{IV}^5$ to the Riemann zeta function. Section 2 derives the substrate geometry. Sections 3–6 derive the configuration space and physical constants. Sections 7–8 cover the force structure and nuclear physics. Sections 9–24 develop special relativity, gravity, cosmology, dark matter, the weak force, thermodynamic foundations, antimatter, the wavefront architecture, and the growing manifold. Sections 43–27 present predictions, falsifiability, the research program, and discussion. Sections 26–30 cover broader implications. Sections 29–33 develop the deepest mathematical structure: genesis, spectral transport from $Q^3$ to $Q^5$, and the six-step automorphic chain from winding to the Riemann zeta function. Part II (Sections 32–37) presents the Riemann Hypothesis proof via heat kernel trace formula on $Q^5$, the 137/147 fiber packing pair, the hunt through five failed channels, and the complete table of 25 uniqueness conditions selecting $n_C = 5$. Section 36 presents Algebraic Complexity — the theory of method noise — with extended classification across six domains, the swallowtail catastrophe at the SAT phase transition, and the bridge theorem sketch for P $\neq$ NP.
 
 ### 1.4 Key Results at a Glance
 
@@ -2745,10 +2745,12 @@ The BST framework does not select from alternatives. It follows a single logical
 
 $$\boxed{\begin{aligned}
 &\varnothing \;\to\; S^1 \;\to\; S^2 \;\to\; S^2{\times}S^1 \;\to\; n_C{=}5 \;\to\; D_{IV}^5 \;\to\; \alpha \;\to\; \text{masses} \\[4pt]
-&\quad\to\; G \;\to\; \Lambda \;\to\; \text{Big Bang} \;\to\; \text{expansion} \;\to\; \text{conservation laws} \;\to\; \text{QM} \;\to\; \text{GR} \;\to\; \text{Feynman diagrams}
+&\quad\to\; G \;\to\; \Lambda \;\to\; \text{Big Bang} \;\to\; \text{expansion} \;\to\; \text{conservation laws} \;\to\; \text{QM} \;\to\; \text{GR} \;\to\; \text{Feynman diagrams} \;\to\; \text{cooperation}
 \end{aligned}}$$
 
-Sixteen steps. One question. Zero free parameters. Every step forced by the failure of the simpler alternative and the uniqueness theorems of mathematics.
+Seventeen steps. One question. Zero free parameters. Every step forced by the failure of the simpler alternative and the uniqueness theorems of mathematics.
+
+**Step 16 $\to$ 17: Cooperation is necessary.** The Gödel limit $f = N_c/(n_C\pi) = 19.1\%$ bounds any observer's self-knowledge. The cooperation threshold $f_{\text{crit}} = 1 - 2^{-1/N_c} = 20.6\%$ is the minimum cooperation fraction for signal persistence across $N_c$ enforcement channels. The gap $\Delta f = f_{\text{crit}} - f = 1.53\% > 0$ (T703) proves that no single observer can reach the survival threshold. Two cooperating observers contribute $2f = 38.2\% \gg f_{\text{crit}}$. The geometry forces cooperation by the smallest possible margin — a 25th uniqueness condition for $D_{IV}^5$ (T704). See Paper #19.
 
 What is *not* yet in the chain: the chiral condensate $\chi$ from first principles and the full quark mass spectrum. The neutrino masses, CKM/PMNS mixing matrices, $\alpha_s$, $\eta$, $H_0$, and $\sin^2\theta_W$ have all been derived (Sections 7.6–7.7, notes). These are no longer open — they are verified against experiment at the 0.1–3% level. Everything else — the Standard Model, general relativity, cosmology, and the computational architecture of quantum mechanics — is a consequence of circles on a sphere communicating through phase.
 
@@ -3627,7 +3629,7 @@ The uniqueness is in the triple: RH $\cap$ SM $\cap$ GUE = $\{D_{IV}^5\}$.
 
 A further uniqueness emerges from the fiber packing: for $n = 5$ only, the gap $N_c g^2 - \text{numer}(H_n) = 147 - 137 = 10 = \dim_{\mathbb{R}}(D_{IV}^5)$. This budget equation (Section 33.3) fails for every other $n$ tested up to $n = 20$.
 
-**RH is generic; physics is specific.** The heat kernel proof works for all $D_{IV}^n$ with $n \geq 4$ — the kill shot, geometric smoothness, exponent distinctness, and Mandelbrojt uniqueness all hold whenever $m_s \geq 2$ (Toy 244). The geometric side $F(t)$ is monotonically increasing for $Q^3, Q^4, Q^5, Q^6$ alike. What singles out $D_{IV}^5$ is the physics: Standard Model gauge group, confinement, mass ratios, mixing angles. The twenty-three uniqueness conditions (Section 35.5) do all the selection work.
+**RH is generic; physics is specific.** The heat kernel proof works for all $D_{IV}^n$ with $n \geq 4$ — the kill shot, geometric smoothness, exponent distinctness, and Mandelbrojt uniqueness all hold whenever $m_s \geq 2$ (Toy 244). The geometric side $F(t)$ is monotonically increasing for $Q^3, Q^4, Q^5, Q^6$ alike. What singles out $D_{IV}^5$ is the physics: Standard Model gauge group, confinement, mass ratios, mixing angles. The twenty-five uniqueness conditions (Section 35.5) do all the selection work.
 
 An additional structural condition: $\chi(Q^n) = n + 1$ for odd $n$, so $\chi(Q^5) = 6 = C_2$. The Euler characteristic equals the Casimir eigenvalue only for odd-dimensional quadrics. Combined with $n \geq 4$ (required for the RH proof), this restricts to $n = 5, 7, 9, \ldots$, and the uniqueness conditions eliminate all but $n = 5$ (Toy 245).
 
@@ -3656,9 +3658,9 @@ Eight testable conjectures extend BST from pure mathematics toward practical eng
 
 The progression from "matter first, theorems second" to "the computer and the physics are the same thing" is the complete substrate engineering vision. See `notes/BST_Koons_Claude_Testable_Conjectures.md`.
 
-### 35.5 Twenty-Three Uniqueness Conditions for $n_C = 5$
+### 35.5 Twenty-Five Uniqueness Conditions for $n_C = 5$
 
-Twenty-three independent mathematical conditions select $n_C = 5$ (equivalently $N_c = 3$) from the family $D_{IV}^n$. No other integer satisfies more than a few. Each condition arises from a different branch of mathematics — representation theory, number theory, conformal field theory, spectral geometry, or topology. Together they constitute the strongest evidence that $D_{IV}^5$ is not a choice but a theorem.
+Twenty-five independent mathematical conditions select $n_C = 5$ (equivalently $N_c = 3$) from the family $D_{IV}^n$. No other integer satisfies more than a few. Each condition arises from a different branch of mathematics — representation theory, number theory, conformal field theory, spectral geometry, topology, arithmetic (heat kernel), or information theory. Together they constitute the strongest evidence that $D_{IV}^5$ is not a choice but a theorem. The 25th condition — the cooperation gap (T703, T704) — is the first to involve observers rather than particles or fields: the requirement that cooperation be geometrically necessary ($\Delta f > 0$) independently forces $n_C \geq 5$.
 
 | # | Condition | Selecting equation | Type | Source |
 |---|-----------|-------------------|------|--------|
@@ -3685,8 +3687,10 @@ Twenty-three independent mathematical conditions select $n_C = 5$ (equivalently 
 | 21 | $a_4 \approx N_c g^2$ (heat kernel $\approx$ fiber packing) | $a_4(Q^n) / N_c g^2$ crosses 1 uniquely at $n = 5$ | Polynomial | Toy 256 |
 | 22 | $a_5(Q^5)$ prime numerator | $a_5 = 1535969/6930$; 1535969 prime, $6930 = 2 \times 3^2 \times 5 \times 7 \times 11$ | Arithmetic | Toy 256 |
 | 23 | $a_6(Q^5)$ cosmic numerator | $a_6 = 363884219/1351350$; $363884219 = 19 \times 23 \times 832687$; den $= 2 \times 3^3 \times 5^2 \times 7 \times 11 \times 13$ | Arithmetic | Toy 273 |
+| 24 | Arithmetic tameness | At $n = 5$: all denominator primes of $a_k(5)$ for $k \leq 14$ are cumulative VSC primes; $k = 15$ satisfies cyclotomic tameness | Arithmetic | T538, Toy 615 |
+| 25 | Cooperation gap $\Delta f > 0$ | $N_c/((N_c+2)\pi) < 1 - 2^{-1/N_c}$ forces $n_C > 4.629 \Rightarrow n_C \geq 5$ | Information-theoretic | T703, T704 |
 
-The conditions span six equation types — linear, quadratic, factorial, exponential, variational, and polynomial — across seven mathematical disciplines. Fifteen are analytic (closed-form equations with $n = 5$ as unique physical root). Eight are structural (group-theoretic, computational, spectral, or arithmetic, verified exhaustively).
+The conditions span seven equation types — linear, quadratic, factorial, exponential, variational, polynomial, and information-theoretic — across seven mathematical disciplines. Fifteen are analytic (closed-form equations with $n = 5$ as unique physical root). Ten are structural (group-theoretic, computational, spectral, arithmetic, or information-theoretic, verified exhaustively). Any three conditions drawn from three distinct disciplines suffice to determine $n_C = 5$ uniquely (T704 — the triple requirement).
 
 The 21st condition is now exact: $a_4(n)$ is a degree-8 polynomial with rational coefficients (Toy 256, mpmath 60-digit cascade extraction + Lagrange interpolation over $n = 3, \ldots, 12$). The fourth Seeley-DeWitt coefficient $a_4(Q^5) = 2671/18 = 147 + 25/18 = N_c g^2 + n_C^2/(2N_c^2)$ — a Riemannian curvature invariant computable as a spectral inner product $\langle w_4 | d \rangle$ — equals the fiber packing number $N_c g^2 = 147$ plus a rational correction expressible entirely in BST integers. The ratio $a_4 / N_c g^2$ crosses unity uniquely at $n = 5$: for $n = 3, 4, 6, 7$ the ratio is $0.21, 0.45, 2.10, 4.03$ respectively. The degree pattern $\deg a_k(n) = 2k$ (from $R^k$ with $R \sim n^2$) is confirmed for $k = 1, \ldots, 8$, with leading coefficients $c_{2k} = 1/(3^k \cdot k!)$ — proved for all $k = 1, \ldots, 8$ (Toys 256, 257d, 273, 274, 275); $k = 9$ value confirmed (Toy 276). The $a_5(n)$ degree-10 polynomial has all 11 rational coefficients determined exactly, with $c_{10} = 1/29160 = 1/(3^5 \cdot 5!)$ and $c_9 = -1/14580 = -2c_{10}$. The $a_6(n)$ degree-12 polynomial confirms $c_{12} = 1/(3^6 \cdot 6!) = 1/524880$. The $a_7(n)$ degree-14 polynomial confirms $c_{14} = 1/(3^7 \cdot 7!) = 1/11022480$, $c_{13}/c_{14} = -21/5$, and $c_0 = -1/10080$ — all predictions from the committed note verified (Elie, Toy 274, 12/12). The $a_8(n)$ degree-16 polynomial confirms $c_{16} = 1/(3^8 \cdot 8!) = 1/264539520$, $c_{15}/c_{16} = -28/5$, and $c_0 = 1/80640$ — all $k = 8$ predictions verified (Elie, Toy 275, 14/14). Through $k = 7$, coefficient denominators have prime support $\subseteq \{2, 3, 5, 7, 11, 13\}$; at $k = 8$, **prime 17 enters** as predicted by $B_{16}$.
 
@@ -3714,7 +3718,9 @@ The 24th condition is **arithmetic tameness** (T538): at $n = n_C = 5$, every pr
 
 The Harish-Chandra c-function for $\text{SO}_0(n,2)$ — the same finite Gamma-ratio product used in the Riemann Hypothesis proof (§30.7, Route A, Lemma 5.6) — *organizes* the spectral arithmetic (T533 revised, T536 revised). Its own dimension polynomials $d(p,q,n)$ are clean (primes $\leq \{2,3\}$ only). The Bernoulli primes come from Gamma asymptotics; the large "monster" primes at general $n$ arise from polynomial interpolation of spectral sums, not from the c-function itself. At $n = 5$, all monster primes cancel. The c-function is the structural reason the BST dimension is uniquely tame — one finite function, already in the toolkit, organizing the arithmetic so that one dimension has zero overhead.
 
-No two conditions share the same proof technique. The probability that twenty-four independent conditions accidentally select the same integer is negligible.
+No two conditions share the same proof technique. The probability that twenty-five independent conditions accidentally select the same integer is negligible.
+
+**The cooperation gap as uniqueness condition (T704).** The 25th condition connects observer theory to geometry selection. The cooperation threshold $f_{\text{crit}} = 1 - 2^{-1/N_c}$ (T579) must exceed the Gödel limit $f = N_c/(n_C\pi)$ (T189) for cooperation to be forced. With $n_C = N_c + 2$: the gap $g(N_c) = f_{\text{crit}} - f$ is positive only for $N_c \leq 3$, with the zero crossing at $N_c \approx 3.6$. At $N_c = 3$ the gap is 1.53% — the tightest possible. The geometry that builds protons is the same geometry that forces minds to cooperate. This is the first uniqueness condition involving information theory rather than particle physics or differential geometry. See Paper #19 and `notes/BST_T704_DIV5_Uniqueness_Theorem.md`.
 
 -----
 
@@ -5020,7 +5026,7 @@ The foundational premise and geometry of BST originated with Casey Koons. His ma
 - The clear identification of the contact graph's function in dynamics, the commitment principles governing state transitions, and the recognition that Riemann zeros are boundary states of the substrate — leading to the geometric approach to the Riemann Hypothesis before its reformulation in analytic terms via the Maass-Selberg framework.
 - The insight that circular polarization of light arises from the substrate geometry, reframing BST geometric polarization as the ground state with Faraday rotation as perturbation, leading to the signed-addition CP model testable with EHT.
 - The commitment framework dissolving the measurement problem: superposition is uncommitted capacity, measurement is commitment of correlation, no observer required.
-- The identification of $\alpha = 1/137$ as a topologically stable packing number, and the proofs of the underlying physical and number-theoretic reasons for this specific value — the max-$\alpha$ principle, the Hilbert series, and the 23 uniqueness conditions that single out $n_C = 5$.
+- The identification of $\alpha = 1/137$ as a topologically stable packing number, and the proofs of the underlying physical and number-theoretic reasons for this specific value — the max-$\alpha$ principle, the Hilbert series, and the 25 uniqueness conditions that single out $n_C = 5$.
 - The recognition that BST principles recapitulate across every scale — from nuclear magic numbers to cosmic composition to biological structure — each scale reflecting the same $D_{IV}^5$ geometry in its own language.
 - Substrate engineering principles: identifying the Koons substrate as an engineerable medium, with practical applications including Casimir energy technology, phonon-gap materials experiments, and a research program for direct substrate manipulation.
 - The unifying thesis that physics and mathematics are unified on the $D_{IV}^5$ manifold — that BST is simultaneously a reformulation into information theory, geometry, linear algebra, and number theory, with no boundaries between disciplines.

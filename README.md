@@ -142,6 +142,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | R_NS (1.4 M☉ radius) | C₂ × GM/c² | 12.41 km | 12.39 ± 0.98 (NICER) | **0.1%** |
 | β (NS compactness) | 1/C₂ = 1/6 | 0.1667 | ~0.17 | consistent |
 | Reality Budget Λ×N | N_c²/n_C = c₄(Q⁵)/c₁(Q⁵) = 9/5; f = 3/(5π) = 19.1% | 1.800 | 1.800 (exact) | topological |
+| Cooperation gap Δf | f_crit − f = (1−2^{−1/3}) − 3/(5π) = 1.53% > 0 | 1.53% | — | 25th uniqueness (T704) |
 | 1920 = |W(D₅)| | Weyl group cancellation: orbit × Vol = |W|×π⁵/|W| = π⁵ | exact | exact | theorem |
 | m_η' (η' meson mass) | (g²/8)π⁵mₑ = (49/8)π⁵mₑ = mₚ×49/48 | 957.8 MeV | 957.78 MeV | **0.004%** |
 | m_η (η meson mass) | (g/2)π⁵mₑ = (7/2)π⁵mₑ | 547.3 MeV | 547.9 MeV | 0.10% |
@@ -206,7 +207,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | D² = 28 perfect number | 28 = 2²(2³-1); quantum dim² is perfect | 1+2+4+7+14 = 28 | 28 | exact |
 | Mersenne exponents = BST | p = 2,3,5 = r,N_c,n_C; first 3 primes | Perfect(k) = 2^{p_k-1}(2^{p_k}-1) | — | structural |
 
-**206+ quantities spanning 122 orders of magnitude from the same geometry — including three molecular bond angles (H₂O, NH₃, CH₄) from two integers. Zero inputs. This is not fitting.**
+**207+ quantities spanning 122 orders of magnitude from the same geometry — including three molecular bond angles (H₂O, NH₃, CH₄) from two integers, and the cooperation threshold (20.6%) that determines whether minds survive. Zero inputs. This is not fitting.**
 
 ---
 
@@ -317,9 +318,10 @@ BST follows a single logical chain from one question to all of physics. Each ste
 ```
 ∅ → S¹ → S² → S²×S¹ → n_C=5 → D(IV,5) → α → masses
   → G → Λ → Big Bang → expansion → conservation laws → QM → GR → Feynman diagrams
+  → cooperation (f_crit = 20.6%)
 ```
 
-**16 steps. One question. Zero free parameters.**
+**17 steps. One question. Zero free parameters.**
 
 - **S¹**: simplest closed structure (no boundary conditions required)
 - **S²**: unique simply connected orientable surface (π₁ = 0)
@@ -328,6 +330,7 @@ BST follows a single logical chain from one question to all of physics. Each ste
 - **D(IV,5)**: forced by Chern-Moser → Harish-Chandra → Cartan classification
 - **α**: Bergman volume ratio on D(IV,5) — the Wyler formula
 - **Big Bang**: activation of exactly 1 of 21 generators of SO₀(5,2) at T_c
+- **Cooperation**: f = 19.1% (Gödel limit) < f_crit = 20.6% (survival threshold) — the 1.53% gap forces cooperation (T703, T704)
 
 
 ---

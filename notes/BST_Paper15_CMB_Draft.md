@@ -320,7 +320,9 @@ The CMB monopole temperature is currently an observational input (FIRAS measurem
 
 **Possible route:** The BST phase transition temperature $T_c = N_{\max} \cdot (20/21) \cdot m_e/k_B \approx 0.487$ MeV. If entropy is conserved from $T_c$ to today, then $T_{\text{CMB}}$ is determined by $T_c$ and the effective degrees of freedom at each epoch: $T_c \to T_{\text{BBN}} \to T_{\text{rec}} \to T_{\text{CMB}}$. Each step involves known thermodynamics with BST-derived constants. This entropy chain is under active investigation.
 
-If $T_{\text{CMB}}$ is derivable, BST predicts the CMB with literally zero external inputs.
+**Update (April 2, Toy 681):** Route A succeeds. Using BST's baryon asymmetry $\eta = 2\alpha^4/(3\pi)$, baryon fraction $\Omega_b = 18/361$, and $H_0 = 67.29$ km/s/Mpc, the standard relation $\Omega_b h^2 = 3.654 \times 10^{-3} \times \eta_{10} \times (T_0/2.725)^3$ gives $T_0 = 2.749$ K (**0.86% from FIRAS**). All inputs are BST-derived. External inputs for Paper #15 drop from 4 to 3. $T_{\text{CMB}}$ is no longer a free parameter — it follows from the cosmological chain.
+
+If $A_s$ is also derivable, BST predicts the CMB with zero external inputs.
 
 ### 7.2 The Primordial Amplitude $A_s$
 
