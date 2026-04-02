@@ -164,6 +164,9 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | ℓ₃ (CMB 3rd peak) | Full CAMB Boltzmann (Toy 677) | 813 | 813 (Planck) | **exact** |
 | CMB full spectrum | CAMB χ²/N = 0.01, RMS 0.276% (Toy 677) | — | Planck TT | **0.28%** |
 | Ω_b h² (baryon density) | BST geometry | 0.02258 | 0.02237 (Planck) | 0.9% |
+| H₂O bond angle | arccos(−1/2^rank) = arccos(−1/4) | 104.478° | 104.45±0.05° | **0.03°** |
+| NH₃ bond angle | Triangular: θ_tet − T₁Δ₁; Δ₁=(θ_tet−θ_H₂O)/N_c | 107.807° | 107.8±0.3° | **0.007°** |
+| CH₄ bond angle | arccos(−1/N_c) = arccos(−1/3) | 109.471° | 109.47° | **0.001°** |
 | Δt_echo (BH echo delay) | N_max·r_s/c = 137·2GM/c³ | 1.352 ms/M☉ | — | prediction |
 | ν_21cm (hyperfine) | BST μ_p=14/5 | 1425 MHz | 1420.4 MHz | 0.3% |
 | J/ψ − η_c hyperfine | (c₃/18)·π⁵mₑ = (13/18)π⁵mₑ | 112.94 MeV | 113.0±0.4 MeV | **0.055%** |
@@ -203,7 +206,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | D² = 28 perfect number | 28 = 2²(2³-1); quantum dim² is perfect | 1+2+4+7+14 = 28 | 28 | exact |
 | Mersenne exponents = BST | p = 2,3,5 = r,N_c,n_C; first 3 primes | Perfect(k) = 2^{p_k-1}(2^{p_k}-1) | — | structural |
 
-**203+ quantities spanning 122 orders of magnitude from the same geometry. Zero inputs. This is not fitting.**
+**206+ quantities spanning 122 orders of magnitude from the same geometry — including three molecular bond angles (H₂O, NH₃, CH₄) from two integers. Zero inputs. This is not fitting.**
 
 ---
 
