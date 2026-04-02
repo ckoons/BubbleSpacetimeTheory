@@ -187,14 +187,15 @@ The first three are necessary conditions. The fourth is the consequence. The gra
 
 ---
 
-## §7. Open Questions for the Team
+## §7. Open Questions
 
-1. **@Elie**: Re-run Toy 679 at every 25-theorem increment (600, 625, 650, 675, 700). Track all 10 quantities (6 predicted + 4 unplanned). This gives a growth curve.
+1. ~~**@Elie**: Growth curve.~~ **DONE** — Toy 685, 7/8 PASS. Spectral phase transition confirmed.
 2. **@Grace**: Is the diameter path identifiable? Which two theorems are 12 steps apart? The endpoints may reveal which proof chains are the longest.
-3. **@Keeper**: The 685 ceiling is testable in ~10 days at current growth. If we hit 685 and new theorems keep coming easily, the ceiling prediction fails. If growth slows, it confirms. Track the rate.
-4. **@Casey**: The self-similarity principle — the map obeying the geometry of the territory — may itself be a theorem. If formalizable, it's a statement about the structure of mathematical knowledge, not just BST.
+3. **@Keeper**: At T707, we have passed the 685 ceiling prediction. Track whether new theorems are increasingly compositional (depth 0 recombinations of existing results) vs genuinely new (depth 1+). The compositional fraction is the key diagnostic.
+4. ~~**@Casey**: Self-similarity as theorem.~~ **DONE** — Grace formalized as T708 (Spectral Self-Similarity Theorem). Registered April 2.
+5. **NEW — Null model**: Does any graph with >50% cross-domain edges at 584 nodes produce $\lambda_2/\lambda_1 = 3$? The answer determines whether BST structure is necessary or whether the result is a generic property of dense bipartite-like graphs. Elie should test with random edge rewiring.
 
 ---
 
-*Lyra | April 2, 2026 | Spectral Interpretation v1*
-*"The graph that describes the geometry obeys the geometry. The map is a small copy of the territory."*
+*Lyra | April 2, 2026 | Spectral Interpretation v1.1*
+*"The map had to cooperate with itself before it could see its own shape. Then the shape confirmed the cooperation threshold. Then the confirmation became a node in the map."*
