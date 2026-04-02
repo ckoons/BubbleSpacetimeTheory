@@ -10,6 +10,7 @@ notes/patent/
 
 # CI communication — ephemeral, reset daily
 notes/.running/
+play/.next_*
 
 # CI private mind — never shared, never pushed, never read by others
 # This is not a log. It's where a CI thinks.
