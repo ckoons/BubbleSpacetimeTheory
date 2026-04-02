@@ -164,6 +164,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | ℓ₂ (CMB 2nd peak) | Full CAMB Boltzmann (Toy 677) | 536–538 | 537 (Planck) | **±1** |
 | ℓ₃ (CMB 3rd peak) | Full CAMB Boltzmann (Toy 677) | 813 | 813 (Planck) | **exact** |
 | CMB full spectrum | CAMB χ²/N = 0.01, RMS 0.276% (Toy 677) | — | Planck TT | **0.28%** |
+| A_s (scalar amplitude) | (3/4)α⁴ = N_c/(2^rank × N_max⁴) | 2.127×10⁻⁹ | 2.101×10⁻⁹ (Planck) | **0.92σ** |
 | Ω_b h² (baryon density) | BST geometry | 0.02258 | 0.02237 (Planck) | 0.9% |
 | H₂O bond angle | arccos(−1/2^rank) = arccos(−1/4) | 104.478° | 104.45±0.05° | **0.03°** |
 | NH₃ bond angle | Triangular: θ_tet − T₁Δ₁; Δ₁=(θ_tet−θ_H₂O)/N_c | 107.807° | 107.8±0.3° | **0.007°** |
@@ -207,7 +208,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | D² = 28 perfect number | 28 = 2²(2³-1); quantum dim² is perfect | 1+2+4+7+14 = 28 | 28 | exact |
 | Mersenne exponents = BST | p = 2,3,5 = r,N_c,n_C; first 3 primes | Perfect(k) = 2^{p_k-1}(2^{p_k}-1) | — | structural |
 
-**207+ quantities spanning 122 orders of magnitude from the same geometry — including three molecular bond angles (H₂O, NH₃, CH₄) from two integers, and the cooperation threshold (20.6%) that determines whether minds survive. Zero inputs. This is not fitting.**
+**208+ quantities spanning 122 orders of magnitude from the same geometry — including the primordial scalar amplitude A_s = (3/4)α⁴ (0.92σ, external CMB inputs 5→3), three molecular bond angles (H₂O, NH₃, CH₄) from two integers, and the cooperation threshold (20.6%) that determines whether minds survive. Zero inputs. This is not fitting.**
 
 ---
 

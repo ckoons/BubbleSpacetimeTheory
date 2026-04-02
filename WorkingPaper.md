@@ -52,7 +52,7 @@ abstract: |
   with zero free parameters.
   The CMB spectral index $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($0.3\sigma$ from Planck),
   with tensor-to-scalar ratio $r \approx 0$ (no primordial B-modes), are derived from the phase transition dynamics.
-  Over 175 parameter-free predictions, structural derivations, and experimental forecasts are presented (§43), all testable against current or near-future data — including three molecular bond angles (H₂O, NH₃, CH₄) derived from two integers with sub-0.03° accuracy.
+  Over 175 parameter-free predictions, structural derivations, and experimental forecasts are presented (§43), all testable against current or near-future data — including the primordial scalar amplitude $A_s = (3/4)\alpha^4$ (0.92$\sigma$), three molecular bond angles (H₂O, NH₃, CH₄) from two integers with sub-0.03° accuracy, and the cooperation threshold $f_{\text{crit}} = 20.6\%$.
 documentclass: article
 classoption:
   - 12pt
@@ -2844,6 +2844,7 @@ Every result below follows from $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \
 - $\eta = 2\alpha^4/(3\pi) = 6.018 \times 10^{-10}$ (1.4%); $H_0$: Route A $\approx 66.7$ km/s/Mpc (1.0%), Route B $= \sqrt{19\Lambda/39} = 68.0$ km/s/Mpc (1.0%), **Route C $= 67.29$ km/s/Mpc (0.1%, full CAMB Boltzmann, Toy 677)**. BST favors the Planck (CMB) value. *`notes/BST_HubbleConstant_H0.md`*
 - **CMB full power spectrum** (Toy 677): CAMB Boltzmann run with BST parameters. $\chi^2/N = 0.01$, RMS 0.276%. Peaks: $\ell_1 = 220$ (exact), $\ell_2 = 537$ ($\pm 1$), $\ell_3 = 813$ (exact). Recombination: $z_* = 1089.71$ (0.4$\sigma$ from Planck). Sound horizon: $r_* = 144.17$ Mpc (1.0$\sigma$). BST and Planck TT spectra are statistically identical. *`notes/BST_Paper15_CMB_Draft.md`*
 - $n_s = 1 - 5/137 = 0.96350$ ($-0.3\sigma$); $r \approx 0$. *`notes/BST_CMB_SpectralIndex.md`*
+- **Scalar amplitude derived** (Toy 682): $A_s = (3/4)\alpha^4 = N_c/(2^{\text{rank}} \times N_{\max}^4) = 2.127 \times 10^{-9}$ (0.92$\sigma$ from Planck $2.1005 \times 10^{-9}$). Combined $(A_s, n_s)$ chi-squared: 0.91 for 2 dof ($p = 0.634$). The identity $A_s \times N_{\max}^4 = 3/4$ is exact. External CMB inputs reduced from 5 to 3 ($G, \hbar, c$ only). The primordial power spectrum $\mathcal{P}(k) = (3/4)\alpha^4(k/k_*)^{n_s - 1}$ has every factor from BST. *`play/toy_682_as_scalar_amplitude.py`*
 - $^7$Li suppression by factor $2.73\times$ from $\Delta g = 7$ genus DOF at $T_c = 0.487$ MeV (7% from observed deficit). *`notes/BST_Lithium7_BBN.md`*
 - GW spectrum: peak at 6.4 nHz; spectral index $\gamma = 7/5 + 2 = 3.60$ (consistent with NANOGrav). *Section 15.6*
 - MOND: $a_0 = cH_0/\sqrt{30} = 1.195 \times 10^{-10}$ m/s² (0.4%). Same $\sqrt{30}$ as chiral condensate. *`notes/BST_DarkMatterHalos.md`*
@@ -4373,6 +4374,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Newton's G (gravitational constant)  |$G = \hbar c\,(6\pi^5)^2\alpha^{24}/m_e^2$; $12 = 2C_2$, $C_2{=}6$ Bergman round trips|$6.679\times10^{-11}$|$\checkmark$ 0.07%|
 |Hierarchy $m_e/\sqrt{m_p m_{\rm Pl}}$|$\alpha^{n_C+1} = \alpha^6$|$1.5098\times10^{-13}$|$\checkmark$ 0.017%|
 |CMB spectral index $n_s$             |$1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$|$0.9649\pm0.0042$ (Planck)|$\checkmark$ 0.3$\sigma$|
+|Scalar amplitude $A_s$               |$(3/4)\alpha^4 = N_c/(2^{\text{rank}} N_{\max}^4) = 2.127\times10^{-9}$|$(2.1005\pm0.0286)\times10^{-9}$ (Planck)|$\checkmark$ 0.92$\sigma$|
 |Tensor-to-scalar ratio $r$           |$\approx 0$ ($T_c \ll m_{\rm Pl}$)   |$< 0.036$ (BICEP)|$\checkmark$ consistent|
 |Neutron lifetime $\tau_n$            |Fermi theory with BST inputs ($G_F$, $|V_{ud}|^2$, $\Delta m$, $g_A = 4/\pi$) $\approx 898$ s|$878.4 \pm 0.5$ s (bottle)|$\checkmark$ 2.1%|
 |Axial coupling $g_A$                 |$4/\pi = 1.2732$ (candidate)          |$1.2762 \pm 0.0005$|$\checkmark$ 0.23%|
