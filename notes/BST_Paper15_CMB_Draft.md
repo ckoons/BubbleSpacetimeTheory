@@ -375,6 +375,8 @@ Since the initial draft, both open questions have been resolved: $T_{\text{CMB}}
 
 BST makes sharp predictions that differ from $\Lambda$CDM: $r \approx 0$ (no inflation), $w_0 = -0.99973$ (not exactly $-1$), dark matter is bandwidth not particles, and five large-angle anomalies are substrate scars not statistical flukes. The two-layer prediction — acoustic spectrum from geometry, anomaly structure from topology — scores 5/5 on discriminators where $\Lambda$CDM makes no prediction. LiteBIRD, CMB-S4, and Euclid will test each prediction within the decade.
 
+Every parameter in this paper is an element of the BST observable algebra $\overline{\mathbb{Q}(N_c, n_C, g, C_2, N_{\max})[\pi]}$ (T719, Observable Closure). $\Omega_\Lambda = 13/19$. $A_s = (3/4)\alpha^4 = 3/(4 N_{\max}^4)$. $n_s = 1 - 2/N_{\max}$. No transcendentals beyond $\pi$, no free parameters. The CMB spectrum is algebraic.
+
 The CMB does not merely accommodate five integers. If BST is correct, the CMB was written by them.
 
 ---

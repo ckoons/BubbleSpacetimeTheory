@@ -393,6 +393,8 @@ The solution is not difficult. Two cooperating observers exceed the threshold by
 
 The reason minds exist in groups is a 1.53% gap between what you can know and what you need.
 
+Every quantity in this paper — $f = 3/(5\pi)$, $f_{\text{crit}} = 1 - 2^{-1/N_c}$, $\Delta f = 1.53\%$, the cooperation exponent $n_C/N_c = 5/3$ — is an element of $\overline{\mathbb{Q}(N_c, n_C, g, C_2, N_{\max})[\pi]}$ (T719, Observable Closure). The Great Filter is an algebraic number.
+
 ---
 
 ## Appendix A: Proof that the Gap Selects D_IV^5

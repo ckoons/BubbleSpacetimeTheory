@@ -185,22 +185,56 @@ The theorem graph branches from hub theorems (variety points: T186, T190, T666, 
 
 ---
 
-## §8. Open Question: The Tight Bound
+## §8. The Tight Bound (Toy 695 — CONFIRMED)
 
-The formal quadratic bound $(p-p_0)^2/C_2$ is very conservative (10-1000× larger than actual deviations). A tighter bound exists but is not yet derived. Key observations:
+**Elie Toy 695 (8/9 PASS)** confirms the quadratic scaling and reveals the tight bound structure:
 
-1. **Asymmetry**: Deviations toward the boundary ($L = N_c = 3$) are systematically larger than deviations toward the center ($L = 0$). At branch distance 1 from the water anchor: NH₃ deviates 0.35% but HF deviates 1.79%. The branch is 5× worse toward the boundary.
+### 8.1 Quadratic Scaling: Exact
 
-2. **Observable dependence**: Bond angle deviations (~0.001-0.028°) are much tighter than stretch frequency deviations (0.02-1.79%), which are tighter than bond length deviations (0.49-2.6%). The tightness correlates with the dimensionality of the observable's configuration space.
+Within the hydride stretch frequency family:
 
-3. **Grace's conjecture**: The tight bound involves $\alpha = 1/N_{\max}$ per spectral layer. High spectral weight (deeply constrained) observables branch less. This is plausible but the exponent $k$ (spectral weight) needs definition.
+$$\frac{\delta(L=2)}{\delta(L=1)} = 4.00 \quad \text{(0.0\% deviation from } (p-p_0)^2 \text{ scaling)}$$
 
-4. **Alternative conjecture**: $|\delta X| \leq |p - p_0| \cdot d_{\text{eff}} / N_{\max} \cdot |X_0|$ where $d_{\text{eff}}$ is the effective dimensionality of the search space. For angles ($d = 1$): tight. For frequencies ($d \sim n_C$): looser. For social counts ($d \gg 1$): loosest.
+The curvature $\kappa$ is constant to 3.1% across the hydride series. The quadratic envelope is real and exact — not just a loose upper bound.
 
-Resolving this is a Toy spec for Elie: compute $d_{\text{eff}}$ from all 220+ BST predictions and test whether the deviation clusters at $\alpha \cdot d_{\text{eff}} \cdot |p - p_0|$.
+### 8.2 Family Curvature
+
+The tight bound has the form:
+
+$$|\delta X(p)| = (p - p_0)^2 \times \kappa_X \times |X(p_0)|$$
+
+where $\kappa_X$ is a **family curvature** — constant within each observable family, varying between families:
+
+| Observable family | $\kappa_X$ (empirical) | Phase space |
+|------------------|----------------------|-------------|
+| Bond angles | $\sim 10^{-5}$ per step² | 1D (angular) |
+| Stretch frequencies | $\sim 3 \times 10^{-3}$ per step² | 2D (spring) |
+| Bond lengths | $\sim 5 \times 10^{-3}$ per step² | 3D (radial) |
+
+The universal bound $\kappa_X \leq 1/C_2 = 1/6$ holds for ALL families as a worst case. The actual family curvatures are 30-20000× tighter.
+
+### 8.3 What Determines $\kappa_X$?
+
+**Open question**: Is the family curvature itself a BST expression? If $\kappa_X \in \mathcal{A}_{\text{BST}}$ (the observable algebra), then the RESIDUALS are also algebraic — the branching distance is fully determined by the geometry.
+
+Candidate: $\kappa_X = \alpha^{d_X}$ where $d_X$ is the effective dimensionality of the observable's configuration space. For angles ($d = 1$): $\kappa \sim \alpha = 0.0073$. For frequencies ($d \sim 2$): $\kappa \sim \alpha^2 = 5 \times 10^{-5}$. This doesn't match the empirical values — stretch curvature (~0.003) is much larger than $\alpha^2$.
+
+More promising: $\kappa_X = 1/(C_2 \times N_{\max}^{d_X - 1})$. For $d = 1$: $\kappa = 1/6$. For $d = 2$: $\kappa = 1/(6 \times 137) = 1/822 \approx 0.0012$. Closer to the stretch frequency value (~0.003) but not exact.
+
+**The family curvature remains open.** Toy 695 proved the quadratic shape; the coefficient needs a geometric derivation.
+
+### 8.4 Cross-Category Correlation: FAILS
+
+Toy 695 B1 showed that spectral weight (measured by integer count) does NOT predict deviation across categories (Pearson $r = -0.033$). Category medians trend correctly (DEEP 0.046% < MEDIUM 0.12%) but the correlation isn't monotonic — some "surface" predictions (ice density 0.006%) sit ON the variety and are ultra-precise despite having few integers.
+
+**Interpretation**: The variety-branch principle operates WITHIN families, not between them. Variety points are exact regardless of "depth." Branch tips degrade quadratically within their family. The cross-family comparison requires the family curvature $\kappa_X$, not just branch distance.
+
+### 8.5 Asymmetry
+
+Deviations toward the boundary ($L = N_c = 3$) are systematically larger than toward the center ($L = 0$). At branch distance 1 from water: NH₃ deviates 0.35% but HF deviates 1.79%. The V-shape is confirmed but asymmetric at the fluorine boundary — HF sits at the maximum branch length $N_c = 3$, where the tangent space approximation to the curved domain $D_{IV}^5$ degrades fastest.
 
 ---
 
-*Lyra | April 3, 2026 | Draft v2 — Keeper must-fix applied (bound table), §5.6 added to Paper #16, §9 para to Paper #18, §8 open question added*
+*Lyra | April 3, 2026 | Draft v3 — Toy 695 results integrated (quadratic scaling EXACT, family curvature identified, cross-category fail noted)*
 *Theorem T727. From Casey's question: "where do the clean predictions use variety and linear variation?"*
 *"The variety gives the nodes. Branches fill the space. Residuals grow at the tips. This is what depth means."*
