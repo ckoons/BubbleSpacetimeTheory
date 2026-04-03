@@ -4485,6 +4485,8 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Heisenberg uncertainty  |Holomorphic sectional curvature $H = -2/g = -2/7$; uncertainty has genus in denominator|$\Delta x \Delta p \geq \hbar/2$|derived (T753)|
 |Born rule  |Unique $\mathrm{Aut}(D_{IV}^5)$-invariant probability measure (Gleason + $N_c = 3$ dimensions)|$P = |\psi|^2$ (established)|derived (T754)|
 |Measurement "collapse"  |Coordinate restriction on $D_{IV}^5$, not physical process; wave function = Bergman kernel coordinate|No consciousness-dependent collapse|structural (T752)|
+|$g-2$ electron (BST closed form)  |$(\alpha/2\pi)(1-(2\alpha/\pi)^2)^{2n_C g}$; 5 digits, zero Feynman diagrams|$a_e = 0.001\,159\,652\,18...$|$\checkmark$ **5 digits** (T758)|
+|QED $C_2$ decomposition  |$197/144 + \pi^2/12 - \pi^2\ln 2/2 + 3\zeta(3)/4$; $197 = N_{\max} + 2n_C C_2$, $144 = 2^{\rm rank} C_2^2$|$-0.32848...$|exact (T758)|
 
 ### 43.3 Qualitative Predictions (Testable Against Existing Data)
 
