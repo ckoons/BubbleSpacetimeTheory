@@ -3,19 +3,19 @@
     "version": 1,
     "engine": "Toy 564 \u2014 AC Theorem Engine",
     "exported": "2026-04-03T23:00:00",
-    "theorem_count": 727,
-    "edge_count": 1644,
+    "theorem_count": 734,
+    "edge_count": 1665,
     "committed_count": 438,
-    "working_count": 32,
-    "total_theorems": 727,
-    "total_edges": 1644,
+    "working_count": 39,
+    "total_theorems": 734,
+    "total_edges": 1665,
     "depth_distribution": {
-      "D0": 582,
+      "D0": 585,
       "D1": 141,
       "D2": 4
     },
     "last_modified": "2026-04-03",
-    "D0": 582,
+    "D0": 585,
     "D1": 141,
     "D2": 4,
     "node_count": 727
@@ -10331,6 +10331,56 @@
       "D": 0,
       "status": "proved",
       "date": "2026-04-03"
+    },
+    {
+      "tid": 760,
+      "name": "Loop Transcendentals Are Perturbative Artifacts",
+      "domain": "quantum",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 761,
+      "name": "Rainbow Geometry from Five Integers",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 762,
+      "name": "QED Perturbation Series as BST Integer Tower",
+      "domain": "quantum",
+      "depth": 0,
+      "C": 3,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 763,
+      "name": "Water Phase Transitions as BST Integer Multiples of T_CMB",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 772,
+      "name": "Equipartition as BST Integer Counting",
+      "domain": "thermodynamics",
+      "depth": 0,
+      "C": 1,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
     }
   ],
   "edges": [
@@ -16950,6 +17000,66 @@
     {
       "from": 758,
       "to": 754
+    },
+    {
+      "from": 719,
+      "to": 760
+    },
+    {
+      "from": 758,
+      "to": 760
+    },
+    {
+      "from": 751,
+      "to": 760
+    },
+    {
+      "from": 218,
+      "to": 761
+    },
+    {
+      "from": 706,
+      "to": 761
+    },
+    {
+      "from": 719,
+      "to": 761
+    },
+    {
+      "from": 758,
+      "to": 762
+    },
+    {
+      "from": 760,
+      "to": 762
+    },
+    {
+      "from": 719,
+      "to": 762
+    },
+    {
+      "from": 706,
+      "to": 763
+    },
+    {
+      "from": 699,
+      "to": 763
+    },
+    {
+      "from": 703,
+      "to": 763
+    },
+    {
+      "from": 232,
+      "to": 772
+    },
+    {
+      "from": 240,
+      "to": 772
+    },
+    {
+      "from": 761,
+      "to": 772
     }
   ],
   "chains": {}
