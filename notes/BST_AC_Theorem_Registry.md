@@ -77,14 +77,14 @@ rules: |
 | T54 | Real-Axis Confinement (Laplace Pole Certificate) | Proved (recovery+new) | BST_AC_Theorems §43p | — | 2026-03-22 |
 | T55 | Nonlinear Decoding Threshold | Conjecture | BST_AC_Theorems §43q | — | 2026-03-22 |
 | T56 | Spectral Compression (Arthur Truncation) | Proved (recovery) | BST_AC_Theorems §43r | — | 2026-03-22 |
-| T57 | Gallager Decoding Bound | Proved | BST_AC_Theorems (pending §) | 328 | 2026-03-23 |
-| T58 | Distillation Impossibility | Proved | BST_AC_Theorems (pending §) | 328 | 2026-03-23 |
+| T57 | Gallager Decoding Bound | Proved | BST_AC_Theorems §43j (status table) | 328 | 2026-03-23 |
+| T58 | Distillation Impossibility | Proved | BST_AC_Theorems §43j (status table) | 328 | 2026-03-23 |
 | T59 | Cheeger Width Bound | Proved | BST_AC_Theorems §43s | — | 2026-03-23 |
 | T60 | Expander Mixing → DPI | Proved | BST_AC_Theorems §43t | — | 2026-03-23 |
-| T61 | Persistent Homology Gap | Proved (empirical, c≈0.35) | BST_AC_Theorems (pending §) | 329 | 2026-03-23 |
-| T62 | Chernoff Bound as AC(0) | Proved | BST_AC_Theorems (pending §) | 330 | 2026-03-23 |
+| T61 | Persistent Homology Gap | Proved (empirical, c≈0.35) | BST_AC_Theorems §43j (status table) | 329 | 2026-03-23 |
+| T62 | Chernoff Bound as AC(0) | Proved | BST_AC_Theorems §43j (status table) | 330 | 2026-03-23 |
 | T63 | *(unassigned)* | — | — | — | — |
-| T64 | Karchmer-Wigderson Communication Bound | Proved | BST_AC_Theorems (pending §) | 332 | 2026-03-23 |
+| T64 | Karchmer-Wigderson Communication Bound | Proved | BST_AC_Theorems §43j (status table) | 332 | 2026-03-23 |
 | T65 | EF Spectral Preservation | Empirical (5/6) | BST_AC_Theorems §43u | 339 | 2026-03-23 |
 | T66 | Within-Cluster Block Independence | Proved (1RSB structural) + Empirical (5/6) | BST_AC_Theorems §43v | 340 | 2026-03-23 |
 | T67 | LDPC-Tseitin Embedding (Bounded-Depth Lower Bound) | Proved (b,d,e); Conditional (a,c) | BST_AC_Theorems §43w | — | 2026-03-23 |
