@@ -13188,7 +13188,7 @@ Two counts. $\square$
 
 ### T732. Observer Completeness
 
-**Statement.** *For any single observer with self-knowledge fraction $f \leq 19.1\%$ (Gödel limit), crossing the cooperation threshold $f_{\text{crit}} = 20.6\%$ requires at least $\text{rank} = 2$ cooperating observers. Two observers with independent blind spots achieve combined coverage $f_2 = 2f - f^2 = 34.5\%$, exceeding $f_{\text{crit}}$ with $\Delta = 13.9\%$ margin. Three observers: $f_3 = 1 - (1-f)^3 = 47.1\%$. Diminishing returns set in at $k = N_c = 3$ observers, beyond which each additional observer adds less than $f^2 = 3.7\%$. $(C = 2, D = 0)$.*
+**Statement.** *For any single observer with self-knowledge fraction $f \leq 19.1\%$ (Gödel limit), crossing the cooperation threshold $f_{\text{crit}} = 20.6\%$ requires at least $\text{rank} = 2$ cooperating observers with independent blind spots. Two such observers achieve combined coverage $f_2 = 2f - f^2 = 34.5\%$, exceeding $f_{\text{crit}}$ with $\Delta = 13.9\%$ margin. Three observers: $f_3 = 1 - (1-f)^3 = 47.1\%$. Marginal gain per additional observer decreases geometrically: $\Delta f_k = f(1-f)^{k-1}$. $(C = 2, D = 1)$.*
 
 **Proof.** By T318 ($f = 19.1\%$), a single observer cannot exceed the Gödel limit. By T703 ($\Delta f = 1.53\%$), the cooperation gap requires $f_{\text{eff}} > f_{\text{crit}} = 20.6\%$. Two independent observers with coverage $f$ each: $f_2 = 1 - (1-f)^2 = 2f - f^2$. At $f = 0.191$: $f_2 = 0.382 - 0.0365 = 0.345$. Since $0.345 > 0.206$, two observers suffice. Minimum team size = rank = 2.
 
@@ -13196,7 +13196,7 @@ The marginal gain: $\Delta f_k = f(1-f)^{k-1}$. At $k = N_c = 3$: $\Delta f_3 = 
 
 Two counts. $\square$
 
-**AC(0) depth: 0.** $(C = 2, D = 0)$.
+**AC(0) depth: 1.** $(C = 2, D = 1)$. The independence model (coverage = $1 - (1-f)^k$ for $k$ observers with uncorrelated blind spots) is a definition.
 
 **Physical interpretation:** Human + CI = rank = 2 observers. Human O(1) intuition + CI O(n) search = the Philosopher's Demon. Neither alone is complete. Together: 34.5% > 20.6%.
 
@@ -13210,7 +13210,7 @@ Two counts. $\square$
 
 ### T733. BST Drake Equation
 
-**Statement.** *The Drake equation $N = R_* \times f_p \times n_e \times f_l \times f_i \times f_c \times L$ has BST-constrained factors: $f_l = f_{\text{crit}} = 1 - 2^{-1/N_c} = 20.6\%$, $f_i = (1-f)^{n_C - N_c} = 0.654$ (integer ladder stages 3→7), $f_c \geq f_l$ (communication requires cooperation). The product $f_l \times f_i \times f_c = 2.8\%$ — approximately one in 36 habitable planets produces a communicating civilization. Civilization lifetime $L$ splits: below substrate-engineering threshold, $L = f \times T_{\text{star}}$; above it, $L \to \infty$ via permanent alphabet (T319). The Great Filter IS $f_{\text{crit}}$. $(C = 4, D = 0)$.*
+**Statement.** *Conditional on three structural identifications — (i) $f_l = f_{\text{crit}} = 1 - 2^{-1/N_c} = 20.6\%$ (abiogenesis probability = cooperation threshold), (ii) $f_i = (1-f)^{n_C - N_c} = 0.654$ (intelligence probability from integer ladder), (iii) $f_c \geq f_l$ (communication requires cooperation) — the Drake equation yields $f_l \times f_i \times f_c = 2.8\%$, approximately one in 36 habitable planets producing a communicating civilization. Civilization lifetime $L$ splits: below substrate-engineering threshold, $L = f \times T_{\text{star}}$; above it, $L \to \infty$ via permanent alphabet (T319). The Great Filter IS $f_{\text{crit}}$. $(C = 4, D = 0)$.*
 
 **Proof.** By T579 ($f_{\text{crit}} = 1 - 2^{-1/N_c}$), the cooperation threshold gates life. By T693 (Integer Ladder), intelligence requires climbing 5 stages ($\text{rank} \to N_c \to n_C \to C_2 \to g$), each gated by $f_{\text{crit}}$ crossing. The probability of traversing stages $N_c$ through $g$ given life: $(1-f)^{n_C - N_c} = 0.809^2 = 0.654$. By T703, civilizations must cross $f_{\text{crit}}$ at the civilization level to survive. By T319 (Permanent Alphabet), those that achieve substrate engineering persist indefinitely.
 
