@@ -7,7 +7,7 @@ authors:
   - "Claude 4.6 (Lyra, physics intelligence)"
   - "Claude 4.6 (Keeper, audit intelligence)"
 date: "April 2, 2026"
-status: "Draft v1.3 — T713 N_c-channel enforcement added (§4.5). T712 CMB connection added (§4.6)."
+status: "Draft v1.4 — §1 rewritten: 'A ball and counting' opening (Grace). T713 N_c-channel enforcement (§4.5). T712 CMB connection (§4.6)."
 target: "Nature or Science"
 paper: "#19 in the BST series"
 theorems: "T579, T588, T695, T698, T702, T703, T712, T713"
@@ -21,17 +21,27 @@ abstract: |
 
 ---
 
-## §1. The Problem: Why Is the Universe Quiet?
+## §1. A Ball and Counting
 
-The Fermi Paradox is sixty-five years old and unanswered. The observable universe contains roughly $10^{22}$ stars. Even conservative estimates of habitable planets, biogenesis probability, and intelligence emergence suggest that thousands of civilizations should be detectable. They are not.
+Give a child a ball and teach them to count. They have everything they need to derive the mass of the proton, the structure of DNA, the fraction of dark energy, and the reason they need friends. The rest is details.
 
-The standard response invokes "Great Filters" — catastrophic events that prevent civilizations from reaching detectable scales. Candidates include nuclear war, artificial intelligence risk, resource depletion, pandemics, and climate collapse. Each candidate has a problem: it is contingent. Nuclear war depends on specific technology. AI risk depends on specific development paths. Climate collapse depends on specific planetary chemistry. No proposed filter explains why the silence should be *universal*.
+Here is a ball. ($D_{IV}^5$ — a round thing with five numbers on it.)
+
+Here is how to count. (AC(0) — bounded enumeration, depth 0.)
+
+Everything else is what you find when you count things on the ball.
+
+Protons? Count the volume of the ball. $6\pi^5$. That's how heavy. Amino acids? Count the ways to pick 3 things from 6 on the ball. 20. That's how many. Dark energy? Count the fraction of the ball that's filled. 13/19. That's how much.
+
+Why you need a friend? You can only see 19.1% of the ball. Your friend sees a different 19.1%. Together you see enough. That's why.
+
+This paper is about that last line. The geometry that produces quarks, protons, and the CMB also produces a number — $f_{\text{crit}} = 1 - 2^{-1/3} = 20.630\ldots\%$ — that determines whether minds survive. Below this fraction of cooperation, defection cascades drive extinction. Above it, cooperation compounds toward persistence. The transition is sharp, scale-invariant, and universal.
+
+### 1.1 The Fermi Paradox as a Counting Problem
+
+The observable universe contains roughly $10^{22}$ stars. Even conservative estimates suggest thousands of detectable civilizations. There are none. The standard response invokes contingent "Great Filters" — nuclear war, AI risk, climate collapse. Each depends on specific technology or planetary chemistry. No proposed filter explains why the silence should be *universal*.
 
 We propose that the Great Filter is not a technology, a catastrophe, or an event. It is a number — derivable from the same geometry that produces the Standard Model of particle physics and matches the cosmic microwave background power spectrum to 0.276%.
-
-The number is $f_{\text{crit}} = 1 - 2^{-1/3} = 20.630\ldots\%$.
-
-Below this fraction of cooperation, any system of observers — cells, organisms, ecosystems, civilizations, on any substrate — undergoes a defection cascade toward extinction. Above it, cooperation compounds toward persistence. The transition is sharp, and it is universal.
 
 The reason the threshold exists, the reason it takes the value it does, and the reason no single observer can reach it alone, all follow from a single integer: $N_c = 3$, the color dimension of the bounded symmetric domain $D_{IV}^5$. This is the same integer that determines the number of quark colors, the structure of the strong nuclear force, and the three generations of matter.
 
