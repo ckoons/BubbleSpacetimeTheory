@@ -52,7 +52,7 @@ abstract: |
   with zero free parameters.
   The CMB spectral index $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($0.3\sigma$ from Planck),
   with tensor-to-scalar ratio $r \approx 0$ (no primordial B-modes), are derived from the phase transition dynamics.
-  Over 175 parameter-free predictions, structural derivations, and experimental forecasts are presented (§43), all testable against current or near-future data — including the primordial scalar amplitude $A_s = (3/4)\alpha^4$ (0.92$\sigma$), three molecular bond angles (H₂O, NH₃, CH₄) from two integers with sub-0.03° accuracy, and the cooperation threshold $f_{\text{crit}} = 20.6\%$.
+  Over 220 parameter-free predictions, structural derivations, and experimental forecasts are presented (§43), all testable against current or near-future data — including the primordial scalar amplitude $A_s = (3/4)\alpha^4$ (0.92$\sigma$), molecular geometry from bond angles to the genetic code (H₂O bond angle 0.028°, C-C bond length 0.03%, ice density 0.006%), and the cooperation threshold $f_{\text{crit}} = 20.6\%$.
 documentclass: article
 classoption:
   - 12pt
