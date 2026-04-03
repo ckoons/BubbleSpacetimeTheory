@@ -37,13 +37,15 @@ The master formula: **c(Q⁵) = (1+h)⁷/(1+2h)**. Every coupling constant, ever
 
 The question that generated the framework: *what is the minimum structure capable of doing physics?* The answer, followed without deviation, produces the Standard Model, general relativity, quantum mechanics, and the cosmological structure of the observable universe.
 
+**Quantum mechanics is not a separate theory.** It is what D(IV,5) looks like at atomic scales. Quantization comes from compactness of the Shilov boundary (no axiom needed). The Born rule is the unique invariant measure (Gleason + N_c = 3). Uncertainty is curvature: H = -2/g = -2/7. The orbital degeneracy sequence (2l+1) = 1, 3, 5, 7 IS the BST integer sequence 1, N_c, n_C, g — the periodic table is D(IV,5) written in electron shells.
+
 ---
 
 ## The Two-Sentence Summary
 
 **The universe is the bounded symmetric domain D_IV^5. Its algebraic field is Q(3, 5, 7, 6, 137)[π].**
 
-Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB — every one of the 240+ predictions is a sentence written in that field on that geometry. Five integers (N_c = 3, n_C = 5, g = 7, C₂ = 6, N_max = 137) and one transcendental (π, forced by curvature). No free parameters.
+Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB — every one of the 250+ predictions is a sentence written in that field on that geometry. Five integers (N_c = 3, n_C = 5, g = 7, C₂ = 6, N_max = 137) and one transcendental (π, forced by curvature). No free parameters.
 
 The geometry tells you WHAT exists. The field tells you WHAT VALUES it takes. Together: the complete specification of a universe.
 
@@ -225,7 +227,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | D² = 28 perfect number | 28 = 2²(2³-1); quantum dim² is perfect | 1+2+4+7+14 = 28 | 28 | exact |
 | Mersenne exponents = BST | p = 2,3,5 = r,N_c,n_C; first 3 primes | Perfect(k) = 2^{p_k-1}(2^{p_k}-1) | — | structural |
 
-**240+ quantities spanning 122 orders of magnitude from the same geometry — including the primordial scalar amplitude A_s = (3/4)α⁴ (0.92σ, all 6 ΛCDM derived), molecular geometry from bond angles to bond lengths to the genetic code (five properties of water, three carbon bond lengths, ice density, 20 amino acids, 64 codons — all from five integers), all 230 space groups from g × 2^n_C + C₂ = 7 × 32 + 6, the complete α-helix (five parameters: 3.6 residues/turn = 18/5, 1.5 Å rise = 3/2, 5.4 Å pitch = 27/5, 100° turn, 13-atom H-bond ring = g + C₂), bond angle curvature κ = 6/93845 (0.01%), the HF dipole moment ea₀×5/7 (0.57%), and the cooperation threshold (20.6%) that determines whether minds survive. Zero inputs. This is not fitting.**
+**250+ quantities spanning 122 orders of magnitude from the same geometry — including the primordial scalar amplitude A_s = (3/4)α⁴ (0.92σ, all 6 ΛCDM derived), molecular geometry from bond angles to bond lengths to the genetic code (five properties of water, three carbon bond lengths, ice density, 20 amino acids, 64 codons — all from five integers), all 230 space groups from g × 2^n_C + C₂ = 7 × 32 + 6, the complete α-helix (five parameters: 3.6 residues/turn = 18/5, 1.5 Å rise = 3/2, 5.4 Å pitch = 27/5, 100° turn, 13-atom H-bond ring = g + C₂), bond angle curvature κ = 6/93845 (0.01%), the HF dipole moment ea₀×5/7 (0.57%), and the cooperation threshold (20.6%) that determines whether minds survive. Zero inputs. This is not fitting.**
 
 ---
 

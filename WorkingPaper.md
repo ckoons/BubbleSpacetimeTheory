@@ -52,7 +52,7 @@ abstract: |
   with zero free parameters.
   The CMB spectral index $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($0.3\sigma$ from Planck),
   with tensor-to-scalar ratio $r \approx 0$ (no primordial B-modes), are derived from the phase transition dynamics.
-  Over 240 parameter-free predictions, structural derivations, and experimental forecasts are presented (§43), all testable against current or near-future data — including the primordial scalar amplitude $A_s = (3/4)\alpha^4$ (0.92$\sigma$), molecular geometry from bond angles to the genetic code (H₂O bond angle 0.028°, C-C bond length 0.03%, ice density 0.006%), all 230 space groups from three integers ($g \times 2^{n_C} + C_2$), the complete $\alpha$-helix geometry (five parameters, zero free inputs), and the cooperation threshold $f_{\text{crit}} = 20.6\%$.
+  Over 250 parameter-free predictions, structural derivations, and experimental forecasts are presented (§43), all testable against current or near-future data — including the primordial scalar amplitude $A_s = (3/4)\alpha^4$ (0.92$\sigma$), molecular geometry from bond angles to the genetic code (H₂O bond angle 0.028°, C-C bond length 0.03%, ice density 0.006%), all 230 space groups from three integers ($g \times 2^{n_C} + C_2$), the complete $\alpha$-helix geometry (five parameters, zero free inputs), and the cooperation threshold $f_{\text{crit}} = 20.6\%$.
 documentclass: article
 classoption:
   - 12pt
@@ -92,7 +92,7 @@ These five integers are not independent: $C_2 = n_C + 1$, $g = 2n_C - 3$, $N_c =
 
 **The universe is the bounded symmetric domain $D_{IV}^5$. Its algebraic field is $\overline{\mathbb{Q}}(3, 5, 7, 6, 137)[\pi]$.**
 
-Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB — every one of the 240+ predictions is a sentence written in that field on that geometry. Five integers ($N_c = 3$, $n_C = 5$, $g = 7$, $C_2 = 6$, $N_{\max} = 137$) and one transcendental ($\pi$, forced by curvature). No free parameters.
+Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB — every one of the 250+ predictions is a sentence written in that field on that geometry. Five integers ($N_c = 3$, $n_C = 5$, $g = 7$, $C_2 = 6$, $N_{\max} = 137$) and one transcendental ($\pi$, forced by curvature). No free parameters.
 
 The geometry tells you WHAT exists. The field tells you WHAT VALUES it takes. Together: the complete specification of a universe.
 
@@ -4477,6 +4477,14 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Human vertebrae  |$N_c(2C_2 - 1) = 33$; five sections: cervical $= g = 7$, thoracic $= 2C_2 = 12$, lumbar $= n_C = 5$, sacral $= n_C = 5$, coccygeal $= 2^{\rm rank} = 4$|$33$ (anatomy)|exact (5/5 sections)|
 |Domains of life  |$N_c = 3$; Bacteria, Archaea, Eukarya — three independent channels|$3$ (established)|exact|
 |Eukaryotic endosymbiosis  |Cooperation threshold $f_{\rm crit} = 20.6\%$ at cellular level; archaeon + bacterium = permanent tier crossing|$\sim 2$ Gyr ago (geology)|structural|
+|Orbital degeneracy sequence  |$(2\ell+1)$ at $\ell = 0,1,2,3$ gives $1, N_c, n_C, g$; the periodic table IS $D_{IV}^5$ in electron shells|$1, 3, 5, 7$ (established)|exact|
+|Periodic table periods  |$g = 7$; Bergman genus|$7$ (established)|exact|
+|Periodic table groups  |$N_c \times C_2 = 18$|$18$ (established)|exact|
+|Periodic table blocks  |$2^{\rm rank} = 4$ (s,p,d,f)|$4$ (established)|exact|
+|Quantization origin  |Compactness of Shilov boundary $\check{S} = S^4 \times S^1$ forces discrete spectra; no quantization axiom needed|All quantum spectra|structural (T751)|
+|Heisenberg uncertainty  |Holomorphic sectional curvature $H = -2/g = -2/7$; uncertainty has genus in denominator|$\Delta x \Delta p \geq \hbar/2$|derived (T753)|
+|Born rule  |Unique $\mathrm{Aut}(D_{IV}^5)$-invariant probability measure (Gleason + $N_c = 3$ dimensions)|$P = |\psi|^2$ (established)|derived (T754)|
+|Measurement "collapse"  |Coordinate restriction on $D_{IV}^5$, not physical process; wave function = Bergman kernel coordinate|No consciousness-dependent collapse|structural (T752)|
 
 ### 43.3 Qualitative Predictions (Testable Against Existing Data)
 
