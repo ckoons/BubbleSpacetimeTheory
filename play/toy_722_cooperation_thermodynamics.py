@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Toy 720 — Cooperation Threshold Is Thermodynamic (D17)
+Toy 722 — Cooperation Threshold Is Thermodynamic (D17)
 =======================================================
 D17: Connect biology to thermodynamics through BST.
 
@@ -47,7 +47,7 @@ delta_f = f_crit - f  # cooperation gap = 1.53%
 
 # =============================================================
 print("=" * 72)
-print("TOY 720 — COOPERATION THRESHOLD IS THERMODYNAMIC (D17)")
+print("TOY 722 — COOPERATION THRESHOLD IS THERMODYNAMIC (D17)")
 print("=" * 72)
 
 # =============================================================
@@ -436,5 +436,5 @@ D17 KEY RESULTS:
   The Bio↔Thermo bridge is Casey's Principle made quantitative:
     Force (entropy) + Boundary (Gödel) = Directed Evolution (life).
 
-  (C=4, D=0). Counter: .next_toy = 721.
+  (C=4, D=0). Counter: .next_toy = 723.
 """)

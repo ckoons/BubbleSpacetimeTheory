@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Toy 719 — The 24 Identity (D24)
+Toy 721 — The 24 Identity (D24)
 ================================
 D24: N_c × |W(B₂)| = C₂ × 2^rank = dim SU(5) = (n_C-1)! = 24.
 
@@ -37,7 +37,7 @@ W_B2 = 2**rank * math.factorial(rank)  # |W(B₂)| = 8
 
 # =============================================================
 print("=" * 72)
-print("TOY 719 — THE 24 IDENTITY (D24)")
+print("TOY 721 — THE 24 IDENTITY (D24)")
 print("=" * 72)
 
 # =============================================================
@@ -424,5 +424,5 @@ THE 24 IDENTITY:
   mathematical hierarchy are the SAME hierarchy.
   There is only one — and its fingerprint is 24.
 
-  (C=4, D=0). Counter: .next_toy = 720.
+  (C=4, D=0). Counter: .next_toy = 722.
 """)
