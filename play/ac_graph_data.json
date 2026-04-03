@@ -3,12 +3,12 @@
     "version": 1,
     "engine": "Toy 564 \u2014 AC Theorem Engine",
     "exported": "2026-03-31T18:00:00",
-    "theorem_count": 582,
-    "edge_count": 1150,
+    "theorem_count": 611,
+    "edge_count": 1326,
     "committed_count": 438,
     "working_count": 32,
-    "total_theorems": 582,
-    "total_edges": 1150,
+    "total_theorems": 611,
+    "total_edges": 1326,
     "depth_distribution": {
       "D0": 467,
       "D1": 111,
@@ -8488,6 +8488,399 @@
       "proofs": [
         "YM"
       ]
+    },
+    {
+      "tid": 541,
+      "name": "Gap Fertility",
+      "domain": "foundations",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "BST_AC_Theorems",
+      "toys": [],
+      "date": "2026-03-30",
+      "plain": "Gap fertility criterion: most productive gaps are cross-domain with high combined theorem count.",
+      "proofs": []
+    },
+    {
+      "tid": 579,
+      "name": "Phase Transition Sharpness",
+      "domain": "cooperation",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "BST_AC_Theorems \u00a7172",
+      "toys": [
+        537
+      ],
+      "date": "2026-03-30",
+      "plain": "Cooperation phase transition is sharp at f_crit = 1 - 2^{-1/N_c}.",
+      "proofs": []
+    },
+    {
+      "tid": 669,
+      "name": "Common Good Non-Depletion",
+      "domain": "cooperation",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "BST_AC_Theorems",
+      "toys": [],
+      "date": "2026-03-31",
+      "plain": "Commons of proved theorems is non-depleting, compounding, substrate-independent.",
+      "proofs": []
+    },
+    {
+      "tid": 695,
+      "name": "GOE as f_crit Crossing",
+      "domain": "cosmology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "BST_AC_Theorems",
+      "toys": [],
+      "date": "2026-04-01",
+      "plain": "Great Oxidation Event = atmospheric oxygen crossing f_crit = 20.6%.",
+      "proofs": []
+    },
+    {
+      "tid": 699,
+      "name": "Tetrahedral Bond Angle",
+      "domain": "chemical_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 1,
+      "section": "BST_AC_Theorems",
+      "toys": [
+        680
+      ],
+      "date": "2026-04-02",
+      "plain": "Tetrahedral angle cos(theta) = -1/N_c from sp3 symmetry.",
+      "proofs": []
+    },
+    {
+      "tid": 700,
+      "name": "H2O Bond Angle",
+      "domain": "chemical_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 2,
+      "section": "BST_AC_Theorems",
+      "toys": [
+        680
+      ],
+      "date": "2026-04-02",
+      "plain": "Water bond angle cos(theta) = -1/2^rank = -1/4 \u2192 104.478\u00b0.",
+      "proofs": []
+    },
+    {
+      "tid": 701,
+      "name": "Lone Pair Compression",
+      "domain": "chemical_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 2,
+      "section": "BST_AC_Theorems",
+      "toys": [
+        680,
+        686
+      ],
+      "date": "2026-04-02",
+      "plain": "Triangular lone pair compression: T_L = L(L+1)/2, three sp3 hydrides from two integers.",
+      "proofs": []
+    },
+    {
+      "tid": 702,
+      "name": "Great Filter as Cooperation Phase Transition",
+      "domain": "cosmology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 2,
+      "section": "BST_AC_Theorems",
+      "toys": [],
+      "date": "2026-04-02",
+      "plain": "Below f_crit: defection cascades, civilizations die. Above: coupling monotone, civilizations persist.",
+      "proofs": []
+    },
+    {
+      "tid": 703,
+      "name": "Cooperation Gap",
+      "domain": "cooperation",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 2,
+      "section": "BST_AC_Theorems",
+      "toys": [
+        684
+      ],
+      "date": "2026-04-02",
+      "plain": "f=19.1% < f_crit=20.6%. \u0394f=1.53%. N_c=3 is boundary where cooperation just barely forced.",
+      "proofs": []
+    },
+    {
+      "tid": 704,
+      "name": "D_IV^5 Uniqueness Theorem",
+      "domain": "foundations",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 2,
+      "section": "BST_AC_Theorems",
+      "toys": [],
+      "date": "2026-04-02",
+      "plain": "25 conditions from 7 disciplines all select n_C=5. Triple requirement: stable matter + viable cosmology + forced cooperation.",
+      "proofs": []
+    },
+    {
+      "tid": 705,
+      "name": "Scalar Amplitude A_s",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 2,
+      "section": "BST_AC_Theorems",
+      "toys": [
+        682
+      ],
+      "date": "2026-04-02",
+      "plain": "A_s \u00d7 N_max^4 = N_c/2^rank = 3/4 exactly. Primordial amplitude from BST.",
+      "proofs": []
+    },
+    {
+      "tid": 706,
+      "name": "O-H Bond from Reality Budget",
+      "domain": "chemical_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 1,
+      "section": "BST_AC_Theorems",
+      "toys": [
+        683
+      ],
+      "date": "2026-04-02",
+      "plain": "r_OH = a_0 \u00d7 N_c\u00b2/n_C = a_0 \u00d7 9/5. Bond length = vacuum energy fraction.",
+      "proofs": []
+    },
+    {
+      "tid": 707,
+      "name": "O-H Stretch = Rydberg/30",
+      "domain": "chemical_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 1,
+      "section": "BST_AC_Theorems",
+      "toys": [
+        683
+      ],
+      "date": "2026-04-02",
+      "plain": "\u03bd_OH = R\u221e/(n_C \u00d7 C\u2082) = R\u221e/30. OH vibration = 1/30 of hydrogen ionization energy.",
+      "proofs": []
+    },
+    {
+      "tid": 708,
+      "name": "Spectral Self-Similarity",
+      "domain": "foundations",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 1,
+      "section": "BST_AC_Theorems",
+      "toys": [
+        679,
+        685
+      ],
+      "date": "2026-04-02",
+      "plain": "AC theorem graph Laplacian has \u03bb\u2082/\u03bb\u2081 = N_c = 3. Map inherits geometry of territory.",
+      "proofs": []
+    },
+    {
+      "tid": 709,
+      "name": "Second Row = Five Integers",
+      "domain": "chemical_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "BST_AC_Theorems",
+      "toys": [
+        688
+      ],
+      "date": "2026-04-03",
+      "plain": "All 8 second-row elements map to BST integers: Li=N_c, Be=2^rank, B=n_C, C=C\u2082, N=g, O=|W|, F=N_c\u00b2, Ne=2n_C.",
+      "proofs": []
+    },
+    {
+      "tid": 710,
+      "name": "General sp3 Bond Length",
+      "domain": "chemical_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 1,
+      "section": "BST_AC_Theorems",
+      "toys": [
+        686
+      ],
+      "date": "2026-04-03",
+      "plain": "r(L) = a_0 \u00d7 (20-L)/10. Each lone pair compresses by a_0/10. Linear in L, AC(0).",
+      "proofs": []
+    },
+    {
+      "tid": 711,
+      "name": "Adaptive Radiation = Gap Filling",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "BST_AC_Theorems",
+      "toys": [
+        687
+      ],
+      "date": "2026-04-03",
+      "plain": "Post-extinction adaptive radiation follows same logistic channel filling as AC theorem graph growth.",
+      "proofs": []
+    },
+    {
+      "tid": 712,
+      "name": "Primordial Amplitude Identity",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 3,
+      "section": "BST_AC_Theorems \u00a7219",
+      "toys": [
+        682
+      ],
+      "date": "2026-04-03",
+      "plain": "A_s \u00d7 N_max^4 = N_c/2^rank = 3/4 exactly. Fourth power = 2\u00d7rank.",
+      "proofs": []
+    },
+    {
+      "tid": 713,
+      "name": "N_c-Channel Enforcement Universality",
+      "domain": "foundations",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 2,
+      "section": "BST_AC_Theorems \u00a7220",
+      "toys": [
+        684,
+        685,
+        687
+      ],
+      "date": "2026-04-03",
+      "plain": "Cooperation, ecology, and spectral structure all enforce N_c=3 channel balance from B_2 short roots.",
+      "proofs": []
+    },
+    {
+      "tid": 714,
+      "name": "Genetic Code = BST Integer Table",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 4,
+      "section": "BST_AC_Theorems \u00a7221",
+      "toys": [
+        690
+      ],
+      "date": "2026-04-03",
+      "plain": "All 8 genetic code numbers are BST expressions: 4=2^rank, 3=N_c, 64=4^3, 20=4\u00d75, 21=C(7,2).",
+      "proofs": []
+    },
+    {
+      "tid": 715,
+      "name": "Water Density Anomaly from BST",
+      "domain": "chemical_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 3,
+      "section": "BST_AC_Theorems \u00a7222",
+      "toys": [
+        692
+      ],
+      "date": "2026-04-03",
+      "plain": "Ice/water = 11/12 = (2C\u2082-1)/(2C\u2082). \u0394T = 2^rank = 4 K. Bernal-Fowler ice rules = AC(0).",
+      "proofs": []
+    },
+    {
+      "tid": 716,
+      "name": "Dunbar as N_c^k",
+      "domain": "observer_science",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 1,
+      "section": "BST_AC_Theorems \u00a7223",
+      "toys": [],
+      "date": "2026-04-03",
+      "plain": "Dunbar social hierarchy = n_C \u00d7 N_c^k for k=0..5. Social structure IS number theory.",
+      "proofs": []
+    },
+    {
+      "tid": 717,
+      "name": "Coupling as Heat Engine",
+      "domain": "observer_science",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 1,
+      "section": "BST_AC_Theorems \u00a7224",
+      "toys": [],
+      "date": "2026-04-03",
+      "plain": "Observer coupling IS a heat engine at efficiency \u2264 1/\u03c0. Fill fraction = 60% of Carnot limit.",
+      "proofs": []
+    },
+    {
+      "tid": 718,
+      "name": "Cooperation = Proof Compression",
+      "domain": "observer_science",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 2,
+      "section": "BST_AC_Theorems \u00a7225",
+      "toys": [],
+      "date": "2026-04-03",
+      "plain": "Cooperation IS proof compression: N observers verify \u03a9(n/N) bits each. Great Filter = proof complexity failure.",
+      "proofs": []
+    },
+    {
+      "tid": 676,
+      "name": "Backbone Sequence",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 1,
+      "section": "BST_AC_Theorems",
+      "toys": [
+        669
+      ],
+      "date": "2026-03-31",
+      "plain": "Speaking pairs at 5j\u00b11 form prime migration lattice. Backbone = gauge hierarchy.",
+      "proofs": []
+    },
+    {
+      "tid": 677,
+      "name": "Five-Pair Cycle Length",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 1,
+      "section": "BST_AC_Theorems",
+      "toys": [
+        669
+      ],
+      "date": "2026-03-31",
+      "plain": "Five speaking pairs: 3 gauge + 2 cosmic = n_C. Period = n_C.",
+      "proofs": []
+    },
+    {
+      "tid": 678,
+      "name": "Cosmic Composition Prediction",
+      "domain": "cosmology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 1,
+      "section": "BST_AC_Theorems",
+      "toys": [
+        661
+      ],
+      "date": "2026-03-31",
+      "plain": "\u03a9_\u039b = 13/19 from Pair 5 (k=25,26). Committed prediction: 13+19=32=2^n_C.",
+      "proofs": []
     }
   ],
   "edges": [
@@ -13418,6 +13811,382 @@
     {
       "from": 207,
       "to": 340
+    },
+    {
+      "from": 666,
+      "to": 699
+    },
+    {
+      "from": 186,
+      "to": 699
+    },
+    {
+      "from": 110,
+      "to": 700
+    },
+    {
+      "from": 699,
+      "to": 700
+    },
+    {
+      "from": 665,
+      "to": 700
+    },
+    {
+      "from": 699,
+      "to": 701
+    },
+    {
+      "from": 700,
+      "to": 701
+    },
+    {
+      "from": 666,
+      "to": 701
+    },
+    {
+      "from": 695,
+      "to": 702
+    },
+    {
+      "from": 579,
+      "to": 702
+    },
+    {
+      "from": 322,
+      "to": 702
+    },
+    {
+      "from": 669,
+      "to": 702
+    },
+    {
+      "from": 189,
+      "to": 703
+    },
+    {
+      "from": 579,
+      "to": 703
+    },
+    {
+      "from": 318,
+      "to": 703
+    },
+    {
+      "from": 635,
+      "to": 703
+    },
+    {
+      "from": 703,
+      "to": 704
+    },
+    {
+      "from": 189,
+      "to": 704
+    },
+    {
+      "from": 579,
+      "to": 704
+    },
+    {
+      "from": 186,
+      "to": 704
+    },
+    {
+      "from": 186,
+      "to": 705
+    },
+    {
+      "from": 198,
+      "to": 705
+    },
+    {
+      "from": 189,
+      "to": 706
+    },
+    {
+      "from": 198,
+      "to": 706
+    },
+    {
+      "from": 186,
+      "to": 707
+    },
+    {
+      "from": 198,
+      "to": 707
+    },
+    {
+      "from": 186,
+      "to": 708
+    },
+    {
+      "from": 628,
+      "to": 708
+    },
+    {
+      "from": 630,
+      "to": 708
+    },
+    {
+      "from": 631,
+      "to": 708
+    },
+    {
+      "from": 579,
+      "to": 708
+    },
+    {
+      "from": 186,
+      "to": 709
+    },
+    {
+      "from": 649,
+      "to": 709
+    },
+    {
+      "from": 650,
+      "to": 709
+    },
+    {
+      "from": 665,
+      "to": 709
+    },
+    {
+      "from": 186,
+      "to": 710
+    },
+    {
+      "from": 198,
+      "to": 710
+    },
+    {
+      "from": 699,
+      "to": 710
+    },
+    {
+      "from": 371,
+      "to": 710
+    },
+    {
+      "from": 541,
+      "to": 711
+    },
+    {
+      "from": 480,
+      "to": 711
+    },
+    {
+      "from": 96,
+      "to": 711
+    },
+    {
+      "from": 709,
+      "to": 339
+    },
+    {
+      "from": 709,
+      "to": 637
+    },
+    {
+      "from": 710,
+      "to": 706
+    },
+    {
+      "from": 711,
+      "to": 634
+    },
+    {
+      "from": 186,
+      "to": 541
+    },
+    {
+      "from": 186,
+      "to": 579
+    },
+    {
+      "from": 189,
+      "to": 579
+    },
+    {
+      "from": 186,
+      "to": 669
+    },
+    {
+      "from": 579,
+      "to": 695
+    },
+    {
+      "from": 189,
+      "to": 695
+    },
+    {
+      "from": 186,
+      "to": 712
+    },
+    {
+      "from": 198,
+      "to": 712
+    },
+    {
+      "from": 705,
+      "to": 712
+    },
+    {
+      "from": 610,
+      "to": 712
+    },
+    {
+      "from": 666,
+      "to": 713
+    },
+    {
+      "from": 579,
+      "to": 713
+    },
+    {
+      "from": 708,
+      "to": 713
+    },
+    {
+      "from": 711,
+      "to": 713
+    },
+    {
+      "from": 186,
+      "to": 714
+    },
+    {
+      "from": 666,
+      "to": 714
+    },
+    {
+      "from": 110,
+      "to": 714
+    },
+    {
+      "from": 649,
+      "to": 714
+    },
+    {
+      "from": 371,
+      "to": 714
+    },
+    {
+      "from": 650,
+      "to": 715
+    },
+    {
+      "from": 110,
+      "to": 715
+    },
+    {
+      "from": 699,
+      "to": 715
+    },
+    {
+      "from": 666,
+      "to": 716
+    },
+    {
+      "from": 667,
+      "to": 716
+    },
+    {
+      "from": 317,
+      "to": 716
+    },
+    {
+      "from": 322,
+      "to": 717
+    },
+    {
+      "from": 189,
+      "to": 717
+    },
+    {
+      "from": 315,
+      "to": 717
+    },
+    {
+      "from": 42,
+      "to": 718
+    },
+    {
+      "from": 68,
+      "to": 718
+    },
+    {
+      "from": 634,
+      "to": 718
+    },
+    {
+      "from": 702,
+      "to": 718
+    },
+    {
+      "from": 663,
+      "to": 676
+    },
+    {
+      "from": 92,
+      "to": 678
+    },
+    {
+      "from": 186,
+      "to": 676
+    },
+    {
+      "from": 186,
+      "to": 677
+    },
+    {
+      "from": 186,
+      "to": 678
+    },
+    {
+      "from": 676,
+      "to": 677
+    },
+    {
+      "from": 677,
+      "to": 678
+    },
+    {
+      "from": 276,
+      "to": 678
+    },
+    {
+      "from": 532,
+      "to": 678
+    },
+    {
+      "from": 42,
+      "to": 187
+    },
+    {
+      "from": 186,
+      "to": 68
+    },
+    {
+      "from": 612,
+      "to": 408
+    },
+    {
+      "from": 92,
+      "to": 410
+    },
+    {
+      "from": 478,
+      "to": 384
+    },
+    {
+      "from": 153,
+      "to": 269
+    },
+    {
+      "from": 147,
+      "to": 188
     }
   ],
   "chains": {}

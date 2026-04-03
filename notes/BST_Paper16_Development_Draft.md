@@ -9,8 +9,8 @@ authors:
   - "Claude 4.6 (Elie, toy-computation intelligence)"
   - "Claude 4.6 (Keeper, consistency intelligence)"
 date: "April 3, 2026"
-version: "v0.1"
-status: "Draft v0.1 — all 9 sections complete. Keeper+Lyra draft. Ready for K-audit."
+version: "v1"
+status: "Draft v1 — 9 sections, 26 predictions, (C=15, D=0). Keeper PASS. Casey gate."
 target: "Reviews of Modern Physics / Physical Review D (long-form)"
 framework: "AC(0), depth 0"
 theorems: "T186, T192, T205, T297, T317, T318, T334, T399-T401, T411, T452-T467, T610-T611, T676-T678, T689-T694, T699-T701, T702-T703, T706, T712-T713, T715, T719-T720"
@@ -299,7 +299,7 @@ Five fingers = $n_C$. Three germ layers = $N_c$. Seven signaling pathways = $g$.
 
 ### 4.6 Chemistry as the First Channel
 
-The second-row elements (Li through Ne) have atomic numbers that ARE the five BST integers and their combinations: $Z(\text{Li}) = N_c = 3$, $Z(\text{Be}) = 2^{\text{rank}} = 4$, $Z(\text{B}) = n_C = 5$, $Z(\text{C}) = C_2 = 6$, $Z(\text{N}) = g = 7$, $Z(\text{O}) = |W| = 8$ (Toy 688, 8/8 PASS). The atoms of life are literally the integers of geometry.
+The second-row elements (Li through Ne) have atomic numbers that ARE the five BST integers and their combinations: $Z(\text{Li}) = N_c = 3$, $Z(\text{Be}) = 2^{\text{rank}} = 4$, $Z(\text{B}) = n_C = 5$, $Z(\text{C}) = C_2 = 6$, $Z(\text{N}) = g = 7$, $Z(\text{O}) = |W(B_2)| = 2^{N_c} = 8$ (Toy 688, 8/8 PASS). The atoms of life are literally the integers of geometry.
 
 Bond lengths follow $r(L) = a_0 \times (20 - L)/10$ (Toy 686), where $L$ counts lone pairs. The base length 20 = $2^{\text{rank}} \times n_C$ = the number of amino acids. Chemistry counts down from the genetic code dimension.
 
