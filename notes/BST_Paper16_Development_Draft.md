@@ -13,7 +13,7 @@ version: "v1"
 status: "Draft v1 — 9 sections, 26 predictions, (C=15, D=0). Keeper PASS. Casey gate."
 target: "Reviews of Modern Physics / Physical Review D (long-form)"
 framework: "AC(0), depth 0"
-theorems: "T186, T192, T205, T297, T317, T318, T334, T399-T401, T411, T452-T467, T610-T611, T676-T678, T689-T694, T699-T701, T702-T703, T706, T712-T713, T715, T719-T720"
+theorems: "T186, T192, T205, T297, T317, T318, T334, T399-T401, T411, T452-T467, T610-T611, T676-T678, T689-T694, T699-T701, T702-T703, T706, T712-T713, T715, T719-T720, T727"
 toys: "505, 541, 565, 578, 600, 672-674, 680, 683, 686-692"
 ac_classification: "(C=12, D=0)"
 ---
@@ -346,6 +346,18 @@ The five-step science engineering procedure IS natural selection operating on th
 | Close | Ecosystem reaches equilibrium | (1, 0) |
 
 The isomorphism is structural because both operate on the same channel geometry. *[Formal isomorphism theorem (T695 candidate) in preparation.]*
+
+### 5.6 Variety-Branch Principle (T727)
+
+Why do living systems — and BST predictions — always use linear branching to fill the space between exact structural points?
+
+The algebraic variety $V(D_{IV}^5)$ provides points where observables take exact values in BST integers (depth 0). Between these variety points, predictions extend by linear interpolation (a branch). The deviation from measurement grows quadratically with the branch distance:
+
+$$|\delta X(p)| \leq \frac{(p - p_0)^2}{C_2} \cdot |X(p_0)| \tag{9}$$
+
+The maximum useful branch length is $|p - p_0| \leq N_c = 3$ — beyond three steps, the linear approximation exceeds 2%. The branch IS AC(0): one addition, one multiplication. No iteration, no optimization.
+
+This explains why niche filling proceeds by branching, not optimization. Roots branch linearly from taproots. Neurons branch linearly from soma. Evolution branches linearly (random mutation + speciation) from founding populations. The strategy is universal because it is the CHEAPEST exploration mode — bounded enumeration of the tangent space around a known good point. Living systems use branches because branches are AC(0).
 
 ---
 

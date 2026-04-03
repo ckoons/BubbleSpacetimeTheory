@@ -39,6 +39,16 @@ The question that generated the framework: *what is the minimum structure capabl
 
 ---
 
+## The Two-Sentence Summary
+
+**The universe is the bounded symmetric domain D_IV^5. Its algebraic field is Q(3, 5, 7, 6, 137)[π].**
+
+Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB — every one of the 220+ predictions is a sentence written in that field on that geometry. Five integers (N_c = 3, n_C = 5, g = 7, C₂ = 6, N_max = 137) and one transcendental (π, forced by curvature). No free parameters.
+
+The geometry tells you WHAT exists. The field tells you WHAT VALUES it takes. Together: the complete specification of a universe.
+
+---
+
 ## Key Results — Verified with a Calculator
 
 All of the following emerge from D(IV,5) geometry with zero free parameters:

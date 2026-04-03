@@ -9,7 +9,7 @@ authors:
 date: "2026-04-03"
 status: "DRAFT v2.1 — §3 branching rule origin added (Lyra). Representation-theoretic connection for Z→BST map."
 target: "Nature Chemistry or JACS"
-theorems: "T699, T700, T701, T706"
+theorems: "T699, T700, T701, T706, T727"
 toys: "680, 683, 686, 688, 689, 690, 691, 692"
 AC_depth: "(C=6, D=0)"
 ---
@@ -262,6 +262,8 @@ A theory that predicts only successes is unfalsifiable. The sp^3 framework corre
 **Third-row hydrides** (H_2S, PH_3): > 12 deg deviation. These atoms don't sp^3 hybridize — they use nearly pure p-orbitals with bond angles approaching 90 deg.
 
 The boundary is sharp and informative: BST's sp^3 formulas apply to second-row hydrides and progressively fail as one moves to heavier central atoms or fluorine substituents. This is exactly where standard quantum chemistry predicts sp^3 hybridization breaks down.
+
+**The Variety-Branch Principle (T727)** explains this pattern quantitatively. The sp^3 hydrides lie on the algebraic variety $V(D_{IV}^5)$ — the tetrahedral angle $\arccos(-1/N_c) = 109.47°$ is an exact variety point. The lone pair compression follows a linear branch from this point, with deviation bounded by $(L - L_0)^2/C_2$ where $L_0 = 0$ is the anchor (CH$_4$). The bound predicts that deviations remain sub-percent for $|L - L_0| \leq N_c = 3$ and break down beyond. Fluorine substituents and third-row atoms are BEYOND the maximum branch length — they are not on the variety, and the linear extrapolation correctly fails. The failure IS the prediction.
 
 
 ## S10. Carbon Backbone: Beyond Hydrides

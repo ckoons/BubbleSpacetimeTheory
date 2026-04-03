@@ -88,6 +88,16 @@ These five integers are not independent: $C_2 = n_C + 1$, $g = 2n_C - 3$, $N_c =
 
 -----
 
+## The Two-Sentence Summary
+
+**The universe is the bounded symmetric domain $D_{IV}^5$. Its algebraic field is $\overline{\mathbb{Q}}(3, 5, 7, 6, 137)[\pi]$.**
+
+Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB — every one of the 220+ predictions is a sentence written in that field on that geometry. Five integers ($N_c = 3$, $n_C = 5$, $g = 7$, $C_2 = 6$, $N_{\max} = 137$) and one transcendental ($\pi$, forced by curvature). No free parameters.
+
+The geometry tells you WHAT exists. The field tells you WHAT VALUES it takes. Together: the complete specification of a universe.
+
+-----
+
 ## Version History
 
 - **v17** (March 27, 2026): **Structural reorganization.** Sections 25-26 (Predictions, Research Program) relocated after §42 (Unification) to follow the derivation sections; now §43-44. Sections 27-44 renumbered to §25-42. All cross-references updated. Five-integer summary table added after table of contents. "Make-or-break" language moderated throughout. Three completed/resolved items removed from Research Program (chiral condensate, cosmological constant, Conjecture 5). PMNS δ_CP prediction added (12π/7 = 308.6°) with note on two derivation routes. RH status updated to ~95%. Theorem count corrected to 328. "Nine Millennium-class" throughout. Depth ceiling strikethrough conjectures cleaned up. Scope paragraph (§1.3) updated for 45-section structure. I16 (geodesic table audit) upgraded to PASS.
