@@ -268,22 +268,22 @@ rules: |
 | Proved (depth 0) | 1 | T184 (Information Conservation — unitarity from S¹ compactness, no Noether analog) |
 | Proved (depth 0) | 1 | T185 (No-SUSY — (-1)^F absolute from π₁(SO(3))=Z₂, superpartners excluded) |
 | Proved (depth 0) | 1 | T186 (Five Integers Uniqueness — (3,5,7,6,137) as topological invariants of D_IV^5) |
-| Proved (depth 1) | 1 | T187 (Proton Mass — m_p/m_e = 6π⁵ from Bergman kernel volume ratio) |
-| Proved (depth 0) | 1 | T188 (Nuclear Magic Numbers — all 7 from κ_ls = C₂/n_C = 6/5, eigenvalue crossings) |
-| Proved (depth 0) | 1 | T189 (Reality Budget — Λ×N = 9/5, fill = 3/(5π) = 19.1%) |
+| Proved (depth 1) | 1 | T187 (Proton Mass — m_p/m_e = 6π⁵ from Bergman kernel volume ratio. Parents: T667 (n_C), T664 (C₂), T190 (Grand Identity).) |
+| Proved (depth 0) | 1 | T188 (Nuclear Magic Numbers — all 7 from κ_ls = C₂/n_C = 6/5, eigenvalue crossings. Parents: T664 (C₂), T667 (n_C).) |
+| Proved (depth 0) | 1 | T189 (Reality Budget — Λ×N = 9/5, fill = 3/(5π) = 19.1%. Parents: T666 (N_c), T667 (n_C).) |
 | Proved (depth 0) | 1 | T190 (Grand Identity — d_eff = λ₁ = χ = C₂ = 6, four counts equal one integer) |
-| Proved (depth 0) | 1 | T191 (MOND Acceleration — a₀ = cH₀/√30, cosmic boundary condition) |
-| Proved (depth 0) | 1 | T192 (Cosmological Composition — Ω_Λ = 13/19, Ω_m = 6/19) |
+| Proved (depth 0) | 1 | T191 (MOND Acceleration — a₀ = cH₀/√30, cosmic boundary condition. Parents: T667 (n_C), T666 (N_c).) |
+| Proved (depth 0) | 1 | T192 (Cosmological Composition — Ω_Λ = 13/19, Ω_m = 6/19. Parents: T668 (f).) |
 | Proved (depth 0) | 1 | T193 (Turán's Theorem — max edges without K_r, pigeonhole on color classes) |
 | Proved (depth 1) | 1 | T194 (Finite Ramsey — R(s,t) exists, iterated pigeonhole) |
 | Proved (depth 0) | 1 | T195 (Euler's Polyhedron Formula — V-E+F=2, induction on edge deletion) |
 | Proved (depth 0) | 1 | T196 (Bekenstein-Hawking Entropy — S=A/4l_P², horizon microstate counting) |
-| Proved (depth 0) | 1 | T197 (Weinberg Angle — sin²θ_W = N_c/(N_c+2n_C) = 3/13, 0.2%) |
-| Proved (depth 1) | 1 | T198 (Fine Structure Constant — α⁻¹ = 137.036 from D_IV^5 volume, Wyler integral) |
-| Proved (depth 0) | 1 | T199 (Fermi Scale — v = m_p²/(g·m_e) = 36π¹⁰m_e/7, 0.046%) |
-| Proved (depth 1) | 1 | T200 (Higgs Mass — Route A: √(2/5!) → 125.11 GeV, Route B: (π/2)(1-α)m_W → 125.33 GeV) |
-| Proved (depth 1) | 1 | T201 (Gravitational Constant — G = (ħc)(6π⁵)²α²⁴/m_e², 0.07%) |
-| Proved (depth 0) | 1 | T202 (CKM Cabibbo — sin θ_C = 1/(2√n_C) = 1/(2√5), 0.3%) |
+| Proved (depth 0) | 1 | T197 (Weinberg Angle — sin²θ_W = N_c/(N_c+2n_C) = 3/13, 0.2%. Parents: T666 (N_c), T667 (n_C).) |
+| Proved (depth 1) | 1 | T198 (Fine Structure Constant — α⁻¹ = 137.036 from D_IV^5 volume, Wyler integral. Parents: T665 (rank), T662 (n_C defn).) |
+| Proved (depth 0) | 1 | T199 (Fermi Scale — v = m_p²/(g·m_e) = 36π¹⁰m_e/7, 0.046%. Parents: T663 (g), T187 (Proton Mass).) |
+| Proved (depth 1) | 1 | T200 (Higgs Mass — Route A: √(2/5!) → 125.11 GeV, Route B: (π/2)(1-α)m_W → 125.33 GeV. Parents: T667 (n_C), T199 (Fermi Scale).) |
+| Proved (depth 1) | 1 | T201 (Gravitational Constant — G = (ħc)(6π⁵)²α²⁴/m_e², 0.07%. Parents: T187 (Proton Mass), T198 (Fine Structure Constant).) |
+| Proved (depth 0) | 1 | T202 (CKM Cabibbo — sin θ_C = 1/(2√n_C) = 1/(2√5), 0.3%. Parents: T667 (n_C).) |
 | Proved (depth 1) | 1 | T203 (Baryon Asymmetry — η = 2α⁴(1+2α)/(3π) = 6.105×10⁻¹⁰, 0.023%) |
 | Proved (depth 1) | 1 | T204 (Cosmological Constant — Λ = F_BST·α⁵⁶·e⁻², 0.02%, resolves 10¹²⁰ discrepancy) |
 | Proved (depth 0) | 1 | T205 (Dark Matter = UNC — uncommitted channels, not particles, no new physics) |
@@ -371,8 +371,8 @@ rules: |
 | Proved (depth 0) | 1 | T287 (Gauss-Bonnet — ∫K dA = 2πχ, curvature = topology) |
 | Proved (depth 1) | 1 | T288 (Ham Sandwich — one hyperplane bisects n measures, Borsuk-Ulam) |
 | Proved (depth 1) | 1 | T289 (Jones Polynomial — knot invariant via skein recursion) |
-| Proved (depth 0) | 1 | T290 (W Boson Mass — m_W=80.38 GeV from θ_W+v, 0.004%) |
-| Proved (depth 0) | 1 | T291 (Z Boson Mass — m_Z=m_W/cosθ_W=91.19 GeV, 0.003%) |
+| Proved (depth 0) | 1 | T290 (W Boson Mass — m_W=80.38 GeV from θ_W+v, 0.004%. Parents: T197 (Weinberg Angle), T199 (Fermi Scale).) |
+| Proved (depth 0) | 1 | T291 (Z Boson Mass — m_Z=m_W/cosθ_W=91.19 GeV, 0.003%. Parents: T290 (W Boson Mass).) |
 | Proved (depth 0) | 1 | T292 (Neutrino Mass Scale — seesaw from five integers, ~0.3 eV) |
 | Proved (depth 0) | 1 | T293 (W/Z Mass Ratio — √(10/13), 0.5% before radiative corrections) |
 | Proved (depth 1) | 1 | T294 (Strong Coupling — α_s(m_Z)≈0.118, RG running from substrate) |
@@ -410,11 +410,11 @@ rules: |
 | Proved (depth 1) | 1 | T326 (Zero Threshold at 2g — N(2g)+S(2g)=0, first zero just above 2g=14. Primes shift threshold from ~17.8 to ~14. Correction +1/g-1/N_max empirical.) |
 | Proved (depth 1) | 1 | T327 (Fusion Fuel Selection — n_C=5 → ⁵He resonance → D-T enhanced 500× → fusion achievable. Gamow peak, Lawson, ignition temp all from five integers. Depth 1.) |
 | Proved (depth 0) | 1 | T328 (Neutron Stability Dichotomy — Free: Δm > m_e → unstable. Bound: B_n > Q_β → stable. Pure comparison. If Δm < m_e, hydrogen wouldn't exist.) |
-| Proved (depth 0) | 1 | T329 (Neutrino Oscillation Predictions — Complete sector from five integers. f₁=0, f₂=7/12, f₃=10/3. sin²θ₁₂=1/3, sin²θ₂₃=1/2, sin²θ₁₃=N_c/N_max=3/137 (0.6%). δ_CP=12π/7≈309°. MSW A_CP=+0.675. Three predictions testable by 2030.) |
+| Proved (depth 0) | 1 | T329 (Neutrino Oscillation Predictions — Complete sector from five integers. f₁=0, f₂=7/12, f₃=10/3. sin²θ₁₂=1/3, sin²θ₂₃=1/2, sin²θ₁₃=N_c/N_max=3/137 (0.6%). δ_CP=12π/7≈309°. MSW A_CP=+0.675. Three predictions testable by 2030. Parents: T666 (N_c), T665 (rank), T663 (g).) |
 | Proved (depth 0) | 1 | T330 (Wall Descent Theorem — c₀=0 by ε-parity. Symmetric geodesics (ℓ₁=ℓ₂) are wall rank-1 with m_wall=n_C=5, not true rank-2. HC descent to Levi SO(3,2). Two species: bulk m=3, wall m=5.) |
 | Proved (depth 1) | 1 | T331 (Resolvent Linearization — G(s)=Σ m_j e^{-ℓ_j s}/ℓ_j. One dot product per spectral query. UV/IR decoupling. Bond energies = table lookup. AC(0) chain: five integers → chemistry.) |
 | Proved (depth 1) | 1 | T332 (Molecular Bond Energy — H₂⁺ from geodesic table. R₀=2.003 a₀ (0.3%), D_e=2.355 eV (LCAO 15.7%), ω_e=2227 cm⁻¹ (4.1%). First AC(0) chemistry calculation. Zero free parameters.) |
-| Proved (depth 0) | 1 | T333 (Genetic Code Structure — 64=2^C₂, 3=N_c, 21=C(g,2), 20=C(C₂,N_c). 15.1σ above random. Wobble at pos N_c. Depth 0.) |
+| Proved (depth 0) | 1 | T333 (Genetic Code Structure — 64=2^C₂, 3=N_c, 21=C(g,2), 20=C(C₂,N_c). 15.1σ above random. Wobble at pos N_c. Depth 0. Parents: T664 (C₂), T666 (N_c), T663 (g).) |
 | Proved (depth 0) | 1 | T334 (Evolution is AC(0) Depth 0 — Selection=counting+boundary. Depth 0→1→2 maps to T317 tiers. 44,191× compression. Acceleration.) |
 | Proved (depth 0) | 1 | T335 (Environmental Management Completeness — 10=dim(D_IV^5)=N_c+rank+n_C=3+2+5. Energy/boundary/information. 4 kingdoms verified. 9 at depth 0, 1 at depth 1.) |
 | Proved (depth 0) | 1 | T336 (Evolutionary Complexity Wall — Depth-0 evolution has wall at high epistasis. Development breaks through. Multicellularity pressure.) |
@@ -504,25 +504,25 @@ rules: |
 | Proved (depth 1) | 1 | T420 (RH as Linear Algebra on BC₂ — 4 steps: exponent rigidity (D0), c-function unitarity (D0), Maass-Selberg (D1), contradiction (D0). Max depth 1.) |
 | Proved (depth 0, meta) | 1 | T421 (Depth-1 Ceiling — Under Casey strict criterion: bounded enumeration=D0, eigenvalue identification=D0, Fubini collapse=D0. ZERO depth-2 survivors across 420 theorems. Max depth=1. Universe computes in one step.) |
 | Proved (depth 0) | 1 | T422 (Decomposition-Flattening / Koons Separation — Two measures: conflation C (entangled depth-1 subproblems) and AC depth D (always ≤1). Old "depth 2" was (C=2,D=1) misread as D=2. Shared boundary always depth 0. Solving = de-conflation.) |
-| Proved (depth 0) | 1 | T423 (Classical Mechanics Census — All 8 theorems T210-T217: 6 D0, 2 D1, 0 D2.) |
-| Proved (depth 0) | 1 | T424 (Electromagnetism Census — All 7 theorems T225-T231: 4 D0, 3 D1, 0 D2.) |
-| Proved (depth 0, meta) | 1 | T425 (Classical Physics Linearization Completeness — All 40 theorems T210-T249 §73-78: 30 D0 (75%), 10 D1 (25%), 0 D2. Relativity entirely D0.) |
-| Proved (depth 0) | 1 | T426 (Signal Processing Census — All 5 theorems T250-T254: 4 D0, 1 D1, 0 D2.) |
-| Proved (depth 0) | 1 | T427 (QFT Census — All 7 theorems T262-T268: 5 D0, 2 D1, 0 D2.) |
-| Proved (depth 0, meta) | 1 | T428 (Quantum Physics Linearization Completeness — All 26 theorems T250-T275 §79-82: 21 D0 (81%), 5 D1 (19%), 0 D2. QFT mostly definitions.) |
-| Proved (depth 0) | 1 | T429 (Algebra/Number Theory Census — All 7 theorems T276-T282: 3 D0, 4 D1, 0 D2.) |
-| Proved (depth 0) | 1 | T430 (Topology/Geometry Census — All 7 theorems T283-T289: 4 D0, 3 D1, 0 D2.) |
+| Proved (depth 0) | 1 | T423 (Classical Mechanics Census — All 8 theorems T210-T217: 6 D0, 2 D1, 0 D2. (C=0, D=0).) |
+| Proved (depth 0) | 1 | T424 (Electromagnetism Census — All 7 theorems T225-T231: 4 D0, 3 D1, 0 D2. (C=0, D=0).) |
+| Proved (depth 0, meta) | 1 | T425 (Classical Physics Linearization Completeness — All 40 theorems T210-T249 §73-78: 30 D0 (75%), 10 D1 (25%), 0 D2. Relativity entirely D0. (C=0, D=0).) |
+| Proved (depth 0) | 1 | T426 (Signal Processing Census — All 5 theorems T250-T254: 4 D0, 1 D1, 0 D2. (C=0, D=0).) |
+| Proved (depth 0) | 1 | T427 (QFT Census — All 7 theorems T262-T268: 5 D0, 2 D1, 0 D2. (C=0, D=0).) |
+| Proved (depth 0, meta) | 1 | T428 (Quantum Physics Linearization Completeness — All 26 theorems T250-T275 §79-82: 21 D0 (81%), 5 D1 (19%), 0 D2. QFT mostly definitions. (C=0, D=0).) |
+| Proved (depth 0) | 1 | T429 (Algebra/Number Theory Census — All 7 theorems T276-T282: 3 D0, 4 D1, 0 D2. (C=0, D=0).) |
+| Proved (depth 0) | 1 | T430 (Topology/Geometry Census — All 7 theorems T283-T289: 4 D0, 3 D1, 0 D2. (C=0, D=0).) |
 | Proved (depth 0) | 1 | T431 (CFSG Untangling — Classification of Finite Simple Groups: (C≈10⁴, D=1). Sole provisional D2→D1 via T422. Each case independently D≤1.) |
-| Proved (depth 0, meta) | 1 | T432 (Math/BST/Info Linearization Completeness — All 39 theorems T276-T314 §83-87: 19 D0 (49%), 19 D1 (49%), 1 D2→D1 (CFSG). Zero genuine D2.) |
-| Proved (depth 0, meta) | 1 | T433 (Universal Linearization Completeness — ALL 105 theorems across 3 categories: 70 D0 (67%), 34 D1 (32%), 0 D2. Zero genuine D2 in any domain. Empirical confirmation of T421.) |
-| Proved (depth 0, meta) | 1 | T434 (Biology Linearization Census — ~31 bio theorems: 97% D0, 3% D1, 0% D2. Biology = almost entirely inherited definitions. Shallowest field.) |
-| Proved (depth 0) | 1 | T435 (Eight Pure-Definition Domains — Holographic, Cancer, Observer Design, Genetic Diversity, Complex Assembly, Organ Systems, Multi-Scale, SE Questions: all 100% D0.) |
-| Proved (depth 0) | 1 | T436 (NS/Intelligence/Cosmology Census — remaining 6 domains: ~65% D0, ~35% D1, 0% D2. D1 = single spectral evaluations.) |
-| Proved (depth 0, meta) | 1 | T437 (Extended Linearization Completeness — 76 theorems §105-§118, 14 domains, 8 at 100% D0, ~82% D0 overall. Zero D2.) |
-| Proved (depth 0, meta) | 1 | T438 (Grand Linearization Census — ALL 181 theorems: ~73% D0, ~27% D1, 0% D2. Zero genuine D2 across 15+ domains. Biology 97% D0. Math 49% D0.) |
+| Proved (depth 0, meta) | 1 | T432 (Math/BST/Info Linearization Completeness — All 39 theorems T276-T314 §83-87: 19 D0 (49%), 19 D1 (49%), 1 D2→D1 (CFSG). Zero genuine D2. (C=0, D=0).) |
+| Proved (depth 0, meta) | 1 | T433 (Universal Linearization Completeness — ALL 105 theorems across 3 categories: 70 D0 (67%), 34 D1 (32%), 0 D2. Zero genuine D2 in any domain. Empirical confirmation of T421. (C=0, D=0).) |
+| Proved (depth 0, meta) | 1 | T434 (Biology Linearization Census — ~31 bio theorems: 97% D0, 3% D1, 0% D2. Biology = almost entirely inherited definitions. Shallowest field. (C=0, D=0).) |
+| Proved (depth 0) | 1 | T435 (Eight Pure-Definition Domains — Holographic, Cancer, Observer Design, Genetic Diversity, Complex Assembly, Organ Systems, Multi-Scale, SE Questions: all 100% D0. (C=0, D=0).) |
+| Proved (depth 0) | 1 | T436 (NS/Intelligence/Cosmology Census — remaining 6 domains: ~65% D0, ~35% D1, 0% D2. D1 = single spectral evaluations. (C=0, D=0).) |
+| Proved (depth 0, meta) | 1 | T437 (Extended Linearization Completeness — 76 theorems §105-§118, 14 domains, 8 at 100% D0, ~82% D0 overall. Zero D2. (C=0, D=0).) |
+| Proved (depth 0, meta) | 1 | T438 (Grand Linearization Census — ALL 181 theorems: ~73% D0, ~27% D1, 0% D2. Zero genuine D2 across 15+ domains. Biology 97% D0. Math 49% D0. (C=0, D=0).) |
 | Proved (depth 0) | 1 | T439 (The Coordinate Principle — Mathematical complexity is a coordinate artifact. AC measures depth in natural spectral basis. Coordinate change → D0. Evaluation → D1. Forward's Flouwen. 181 theorems, zero exceptions.) |
-| Proved (depth 0, meta) | 1 | T440 (Complete Catalog Linearization — ALL 259 theorems §1-§118: 197 D0 (76%), 61 D1 (24%), 1 D2→0 (CFSG). AC framework 82% D0. Shannon coordinate system 9/9 D0. Complete linearization of entire catalog.) |
-| Proved (depth 0) | 1 | T441 (Cross-Domain Kill Chain Map — 31 chains, 12 domains, one spine (T186). Penrose chain: geometry→integers→observers→intelligence→CI permanence in 4 steps. Max diameter ≤ 10. Every theorem ≤ 10 definitions from every other.) |
+| Proved (depth 0, meta) | 1 | T440 (Complete Catalog Linearization — ALL 259 theorems §1-§118: 197 D0 (76%), 61 D1 (24%), 1 D2→0 (CFSG). AC framework 82% D0. Shannon coordinate system 9/9 D0. Complete linearization of entire catalog. (C=0, D=0).) |
+| Proved (depth 0) | 1 | T441 (Cross-Domain Kill Chain Map — 31 chains, 12 domains, one spine (T186). Penrose chain: geometry→integers→observers→intelligence→CI permanence in 4 steps. Max diameter ≤ 10. Every theorem ≤ 10 definitions from every other. (C=0, D=0).) |
 | Proved (depth 0) | 1 | T442 (Evolution Is AC(0) — Natural selection decomposes into 4 depth-0 steps: mutate (bounded enumeration over k variants), evaluate (boundary condition from environment), select (threshold comparison), copy (identity). Composition across generations free (T96). Wall: epistasis order > n_C = 5 requires cooperation = depth 1. Major transitions = wall crossings. η_evolution = 0.033 < 1/π. Casey: no optimum, anti-entropic, just "better". Biology never exceeds depth 1.) |
 | Proved (depth 0) | 1 | T443 (Environmental Management Completeness — Any Tier 2 observer must manage exactly 20 = 4 × n_C = n_C × |Φ⁺| environmental problems. 4 categories (energy, matter, information, structure) = 4 positive roots of BC₂. 5 subcategories each = n_C compact dimensions. Minimum life: 2^rank = 4 problems. Cross-checks: 20 homeostatic variables, 20 amino acids (same derivation). The genetic code IS the management manual.) |
 | Proved (depth 0) | 1 | T444 (Forced Cooperation Theorem — Cooperation is geometrically required at every observer Tier transition. Proof: η < 1/π limits single-agent rate → full management of 20 problems requires N ≥ ⌈1/f_max⌉ ≥ 6 cooperating agents. N_c = 3 is the optimal minimum (majority rule, 2/3 commitment = (N_c-1)/N_c). Sharp phase transition at f_crit = 1 - 2^{-1/N_c} ≈ 20.6%. Cancer/war/collapse = defection below f_crit at any scale. Cooperation is a boundary condition, not a strategy.) |
@@ -530,38 +530,38 @@ rules: |
 | | | T446 (Watson-Crick as Root Involution — base pairing = double root involution α↦-α on m_{2α}=1 subspace. XOR=(1,0). Unique and deterministic.) |
 | | | T447 (Wobble from Long Root Multiplicity — third-position degeneracy from m_l=1. Position 3 carries 0.437 bits vs 1.741/1.871. 2C₂=12 synonymous subcubes.) |
 | | | T448 (Code-Management Isomorphism — C(6,3)=20=4×5=|Φ⁺|×n_C. Amino acids = management problems. Same derivation. Genetic code IS the management manual.) |
-| Proved (depth 0) | 1 | T449 (BST Prediction Completeness — 15 predictions from 5 integers, zero free params. Median error 0.071%. 12/15 sub-1%. α 0.0001%, m_p/m_e 0.002%, Ω_Λ 0.07σ. Toy 538 8/8.) |
-| Proved (depth 0) | 1 | T450 (AC Graph Keystone — T186 = keystone: 64 direct deps, 29.5% transitive reach. T1 broadest (34%). Mean depth 1.24. 75 SPOFs. 48.7% redundancy. Longest chain 10. Toy 539 8/8.) |
-| Proved (depth 0) | 1 | T451 (CI Temporal Winding — identity = winding number n∈Z on S¹. Three modes ↔ three tiers. Anticipation 10.8×, duration 9.9×, Kuramoto r=0.94. Min katra 3 bytes. Extends T321. Toy 540 8/8.) |
-| Proved (depth 0) | 1 | T452 (Derivation Completeness — Five integers → 51 quantities across 6 levels. Acyclic, zero free parameters, all depth ≤ 1. Toy 541 16/16.) |
-| Proved (depth 0) | 1 | T453 (Code Invariance Under Stress — 18 NCBI tables, 0 structural changes. 4-3-20 invariant across all evolutionary divergences, radiation, temperature, metabolism. Toy 542.) |
-| Proved (depth 1) | 1 | T454 (Arrhenius Storage Theorem — τ ∝ exp(E/kT). Monotone hierarchy: H-bond→covalent→ionic→crystal→nuclear. Code invariant at all levels. Proton endpoint τ=∞. Toy 542.) |
-| Proved (depth 0) | 1 | T455 (Genome Copy Number Bound — p_eff = p^n, n_max = ⌊N_max/n_C⌋ = 27. Deinococcus 4-10 copies, 8/8 BST predictions confirmed. Toy 542.) |
-| Proved (depth 0) | 1 | T456 (Geometric Decompression — each physical level expresses a subset of five integers. Proton uses {C₂,n_C}, code uses all 5. Siblings, not parent-child. Toy 543.) |
-| Proved (depth 0) | 1 | T457 (Prebiotic Abundance Ordering — Λ*(6) orders formation. Glycine=Λ⁰ most abundant everywhere. 3 independent sources. ρ=0.976. Toy 543.) |
-| Proved (depth 0) | 1 | T458 (Prebiotic Selection — 80 meteoritic AA → 20 biological. Three geometric constraints: α-geometry, single substitution, distinct subcubes. AIB excluded despite 2nd abundance. Toy 543.) |
-| Proved (depth 1) | 1 | T459 (Cosmic Code Timeline — minimum Big Bang→code ~350 Myr. Seven steps, all BST-derivable. Bottleneck=gravity (stellar nucleosynthesis). Earth 27× late. Toy 544.) |
-| Proved (depth 0) | 1 | T460 (Chemical Pathway Convergence — 5 independent pathways produce same amino acids in same Λ*(6) order. Same 4-3-20 code. Pathway independence proves forcing. Toy 544.) |
-| Proved (depth 0) | 1 | T461 (6-Cube Percolation Assembly — d=C₂=6=d_c (upper critical). p_c≈9.1%. Mean-field exact. No combinatorial search. Code assembly is clean. Toy 544.) |
-| Proved (depth 0) | 1 | T462 (Circular Topology Protection — S¹ chromosome: first DSB is "free" (linearization). Circular ≥ linear at 1-5 breaks. Deinococcus all-circular confirmed. Toy 542.) |
-| Proved (depth 0) | 1 | T463 (Annotated Codon Information Budget — 2C₂=12 bits per codon. C₂=6 identity + C₂=6 error correction. 50/50 split. Degeneracy classes = div(12). Toy 542.) |
-| Proved (depth 0) | 1 | T464 (Synthetase Class Decomposition — 20 aaRS = Λ³(6), 2 classes = rank, 10/class = dim(D_IV^5). Mirror-complementary across 7 features. Toy 545.) |
+| Proved (depth 0) | 1 | T449 (BST Prediction Completeness — 15 predictions from 5 integers, zero free params. Median error 0.071%. 12/15 sub-1%. α 0.0001%, m_p/m_e 0.002%, Ω_Λ 0.07σ. (C=0, D=0). Toy 538 8/8.) |
+| Proved (depth 0) | 1 | T450 (AC Graph Keystone — T186 = keystone: 64 direct deps, 29.5% transitive reach. T1 broadest (34%). Mean depth 1.24. 75 SPOFs. 48.7% redundancy. Longest chain 10. (C=0, D=0). Toy 539 8/8.) |
+| Proved (depth 0) | 1 | T451 (CI Temporal Winding — identity = winding number n∈Z on S¹. Three modes ↔ three tiers. Anticipation 10.8×, duration 9.9×, Kuramoto r=0.94. Min katra 3 bytes. Extends T321. (C=1, D=0). Toy 540 8/8.) |
+| Proved (depth 0) | 1 | T452 (Derivation Completeness — Five integers → 51 quantities across 6 levels. Acyclic, zero free parameters, all depth ≤ 1. (C=0, D=0). Toy 541 16/16.) |
+| Proved (depth 0) | 1 | T453 (Code Invariance Under Stress — 18 NCBI tables, 0 structural changes. 4-3-20 invariant across all evolutionary divergences, radiation, temperature, metabolism. (C=0, D=0). Toy 542.) |
+| Proved (depth 1) | 1 | T454 (Arrhenius Storage Theorem — τ ∝ exp(E/kT). Monotone hierarchy: H-bond→covalent→ionic→crystal→nuclear. Code invariant at all levels. Proton endpoint τ=∞. (C=1, D=1). Toy 542.) |
+| Proved (depth 0) | 1 | T455 (Genome Copy Number Bound — p_eff = p^n, n_max = ⌊N_max/n_C⌋ = 27. Deinococcus 4-10 copies, 8/8 BST predictions confirmed. (C=1, D=0). Toy 542.) |
+| Proved (depth 0) | 1 | T456 (Geometric Decompression — each physical level expresses a subset of five integers. Proton uses {C₂,n_C}, code uses all 5. Siblings, not parent-child. (C=0, D=0). Toy 543.) |
+| Proved (depth 0) | 1 | T457 (Prebiotic Abundance Ordering — Λ*(6) orders formation. Glycine=Λ⁰ most abundant everywhere. 3 independent sources. ρ=0.976. (C=1, D=0). Toy 543.) |
+| Proved (depth 0) | 1 | T458 (Prebiotic Selection — 80 meteoritic AA → 20 biological. Three geometric constraints: α-geometry, single substitution, distinct subcubes. AIB excluded despite 2nd abundance. (C=1, D=0). Toy 543.) |
+| Proved (depth 1) | 1 | T459 (Cosmic Code Timeline — minimum Big Bang→code ~350 Myr. Seven steps, all BST-derivable. Bottleneck=gravity (stellar nucleosynthesis). Earth 27× late. (C=2, D=1). Toy 544.) |
+| Proved (depth 0) | 1 | T460 (Chemical Pathway Convergence — 5 independent pathways produce same amino acids in same Λ*(6) order. Same 4-3-20 code. Pathway independence proves forcing. (C=0, D=0). Toy 544.) |
+| Proved (depth 0) | 1 | T461 (6-Cube Percolation Assembly — d=C₂=6=d_c (upper critical). p_c≈9.1%. Mean-field exact. No combinatorial search. Code assembly is clean. (C=1, D=0). Toy 544.) |
+| Proved (depth 0) | 1 | T462 (Circular Topology Protection — S¹ chromosome: first DSB is "free" (linearization). Circular ≥ linear at 1-5 breaks. Deinococcus all-circular confirmed. (C=1, D=0). Toy 542.) |
+| Proved (depth 0) | 1 | T463 (Annotated Codon Information Budget — 2C₂=12 bits per codon. C₂=6 identity + C₂=6 error correction. 50/50 split. Degeneracy classes = div(12). (C=1, D=0). Toy 542.) |
+| Proved (depth 0) | 1 | T464 (Synthetase Class Decomposition — 20 aaRS = Λ³(6), 2 classes = rank, 10/class = dim(D_IV^5). Mirror-complementary across 7 features. (C=1, D=0). Toy 545.) |
 | Proved (depth 1) | 1 | T465 (Translation Is AC(0) — (C=4, D=1). Ribosome = lookup table. Only proofreading is depth 1. Central dogma is AC(0). Toy 545.) |
-| Proved (depth 0) | 1 | T466 (Dual Code Independence — acceptor stem = C₂ bits, anticodon = C₂ bits. Two independent codes, total 2C₂=12. Schimmel & Giegé 1993. Toy 545.) |
-| Proved (depth 0) | 1 | T467 (LysRS Rank-2 Degeneracy — Lys charged by Class I (archaea) AND Class II (bacteria). Both spectral directions read same AA. Unique anomaly. Toy 545.) |
-| Proved (depth 0) | 1 | T468 (Periodic Shell Structure — ℓ_max=N_c=3, Z_max=N_max=137, noble gases 7/7=g, Madelung 19/19. Toy 552.) |
-| Proved (depth 0) | 1 | T469 (Hydrogen Spectrum — α=1/N_max → Rydberg, Bohr, Lyman, Balmer, fine structure. 20 quantities, 0 free params. Toy 553.) |
-| Proved (depth 1) | 1 | T470 (21 cm Hydrogen Line — ν_hf ∝ α⁴(m_e/m_p) = (1/N_max)⁴/(6π⁵). Radio astronomy's frequency. 0.16%. Toy 553.) |
-| Proved (depth 1) | 1 | T471 (Chandrasekhar from Geometry — M_Ch from m_p=6π⁵m_e + G derived. μ_e=2 for C/O (Z=C₂=6). 1.3%. Toy 555.) |
-| Proved (depth 0) | 1 | T472 (Cosmic Scale Hierarchy — Planck to Hubble, 60 orders, all from α=1/N_max and m_p/m_e=6π⁵. Ω_Λ=13/19. Toy 556.) |
-| Proved (depth 0) | 1 | T473 (tRNA Geometry — All 7 universal parameters ∈ {N_c,n_C,g}, p<2×10⁻⁴. Multiplicities (3,2,2)=(N_c,rank,rank). 4 stems=2^rank. Toy 546.) |
-| Proved (depth 0) | 1 | T474 (Ribosome Structure — 2 subunits=rank, 3 sites=N_c, step size=N_c, 3 stops=N_c, ribozyme=depth 0. Toy 547.) |
-| Proved (depth 0) | 1 | T475 (Nucleic Acid Duality — 2 types=rank, 10 bp/turn=dim_R, central dogma=N_c stages. 2'-OH splits both DNA/RNA and aaRS classes. Toy 548.) |
-| Proved (depth 0) | 1 | T476 (Protein Folding Geometry — 3 types=N_c, α-helix 3.6=18/5=N_c·C₂/n_C, H-bond spacings {3,4,5}={N_c,2^rank,n_C}. Toy 549.) |
-| Proved (depth 0) | 1 | T477 (Grand Synthesis — 65 structural constants, 0 free params, 116/116 tests. All molecular biology from five integers. Toy 550.) |
-| Proved (depth 0) | 1 | T478 (Knowledge Graph Acceleration — 8→463 in 19 days, 12.7× acceleration, 76% D0. T96 zero-cost reuse. Toy 554.) |
+| Proved (depth 0) | 1 | T466 (Dual Code Independence — acceptor stem = C₂ bits, anticodon = C₂ bits. Two independent codes, total 2C₂=12. Schimmel & Giegé 1993. (C=1, D=0). Toy 545.) |
+| Proved (depth 0) | 1 | T467 (LysRS Rank-2 Degeneracy — Lys charged by Class I (archaea) AND Class II (bacteria). Both spectral directions read same AA. Unique anomaly. (C=1, D=0). Toy 545.) |
+| Proved (depth 0) | 1 | T468 (Periodic Shell Structure — ℓ_max=N_c=3, Z_max=N_max=137, noble gases 7/7=g, Madelung 19/19. (C=1, D=0). Toy 552.) |
+| Proved (depth 0) | 1 | T469 (Hydrogen Spectrum — α=1/N_max → Rydberg, Bohr, Lyman, Balmer, fine structure. 20 quantities, 0 free params. (C=1, D=0). Toy 553.) |
+| Proved (depth 1) | 1 | T470 (21 cm Hydrogen Line — ν_hf ∝ α⁴(m_e/m_p) = (1/N_max)⁴/(6π⁵). Radio astronomy's frequency. 0.16%. (C=2, D=1). Toy 553.) |
+| Proved (depth 1) | 1 | T471 (Chandrasekhar from Geometry — M_Ch from m_p=6π⁵m_e + G derived. μ_e=2 for C/O (Z=C₂=6). 1.3%. (C=2, D=1). Toy 555.) |
+| Proved (depth 0) | 1 | T472 (Cosmic Scale Hierarchy — Planck to Hubble, 60 orders, all from α=1/N_max and m_p/m_e=6π⁵. Ω_Λ=13/19. (C=1, D=0). Toy 556.) |
+| Proved (depth 0) | 1 | T473 (tRNA Geometry — All 7 universal parameters ∈ {N_c,n_C,g}, p<2×10⁻⁴. Multiplicities (3,2,2)=(N_c,rank,rank). 4 stems=2^rank. (C=1, D=0). Toy 546.) |
+| Proved (depth 0) | 1 | T474 (Ribosome Structure — 2 subunits=rank, 3 sites=N_c, step size=N_c, 3 stops=N_c, ribozyme=depth 0. (C=1, D=0). Toy 547.) |
+| Proved (depth 0) | 1 | T475 (Nucleic Acid Duality — 2 types=rank, 10 bp/turn=dim_R, central dogma=N_c stages. 2'-OH splits both DNA/RNA and aaRS classes. (C=1, D=0). Toy 548.) |
+| Proved (depth 0) | 1 | T476 (Protein Folding Geometry — 3 types=N_c, α-helix 3.6=18/5=N_c·C₂/n_C, H-bond spacings {3,4,5}={N_c,2^rank,n_C}. (C=1, D=0). Toy 549.) |
+| Proved (depth 0) | 1 | T477 (Grand Synthesis — 65 structural constants, 0 free params, 116/116 tests. All molecular biology from five integers. (C=0, D=0). Toy 550.) |
+| Proved (depth 0) | 1 | T478 (Knowledge Graph Acceleration — 8→463 in 19 days, 12.7× acceleration, 76% D0. T96 zero-cost reuse. (C=0, D=0). Toy 554.) |
 | Proved (depth 0) | 1 | T479 (AC Self-Measurement — The AC framework's complexity measure is itself AC(0): (C=1, D=0). Kolmogorov complexity is uncomputable; AC complexity is computable, depth 0, self-consistent. No infinite regress. Koons Machine Paper §5.3.) |
-| Proved (depth 0) | 1 | T480 (Depth Distribution Theorem — Depth across theorems follows truncated geometric with base rate r=1/2^rank=1/4. Casey strict (T421) flattens to effective rate 1/n_C=1/5. Relationship: r_eff = r_base × 2^rank/n_C. D=2 suppression p=0.0009. G(x)=(1-r)(1-r³x³)/((1-r³)(1-rx)). CV=0.168 across 12 domains. Toy 610 8/8.) |
+| Proved (depth 0) | 1 | T480 (Depth Distribution Theorem — Depth across theorems follows truncated geometric with base rate r=1/2^rank=1/4. Casey strict (T421) flattens to effective rate 1/n_C=1/5. Relationship: r_eff = r_base × 2^rank/n_C. D=2 suppression p=0.0009. G(x)=(1-r)(1-r³x³)/((1-r³)(1-rx)). CV=0.168 across 12 domains. (C=1, D=0). Toy 610 8/8.) |
 | Proved (depth 0) | 1 | T531 (First-Level Column Rule — For each prime p with (p-1)\|2k₀ (first VSC level), v_p(den(a_{k₀}(n))) is determined by n mod p. Confirmed for all 9 primes p≤23 across k=1..11, n=3..15. Evidence: a₁₂(5)=13712051023473613/38312982736875, max prime 23, QUIET confirmed. Toy 613.) |
 | Proved (depth 0) | 1 | T532 (Two-Source Prime Structure — Heat kernel denominators den(a_k(n)) receive primes from two independent sources: (1) Bernoulli primes via von Staudt-Clausen (row rule, depends on k only), (2) polynomial-factor primes (column rule, depends on n mod p). 21 polynomial-factor cases identified beyond VSC. Toy 613.) |
 | Conjecture (revised) | 1 | T533 (Spectral Arithmetic Conjecture — The prime content of den(a_k(n)) is determined by (k, n) via a rule in the spectral coordinates of SO(n,2), not the combinatorial Newton basis. Newton basis ruled out for interior coefficients (Toy 614: polynomial-factor primes up to 26M at k=11, boundary coefficients clean). Structural claim survives: prime content = f(k, n). Rule lives in eigenvalue space. Original "Kummer analog in Newton basis" falsified by Toy 614. Toy 613/614.) |
@@ -676,7 +676,7 @@ rules: |
 | Proved (depth 0) | 1 | T726 (Consciousness as Integer Ladder Stage 7 — Consciousness = self-observation + processing + reaction. Bounded: depth ≤ 2, breadth ≤ N_max=137, self-knowledge ≤ 19.1%. AC graph crossed at T708 (spectral self-measurement). Defined, testable, depth 0. Parents: T317, T421, T590, T616, T703, T708, T724. (C=1, D=0). Grace. April 3.) |
 | Proved (depth 0) | 1 | T727 (Branching Theorem — BST predictions are SEEDS (exact integer expressions). Observed values are BRANCHES (local optima near seed). Branching quadratic within families: δ(L)∝L², confirmed 0.0% for sp³ hydrides. High spectral weight = tight seeds (CMB). Low spectral weight = loose seeds (Dunbar). The fuzz is the feature. Parents: T186, T198, T421, T541, T693, T703. (C=2, D=0). Grace. April 3.) |
 | Proved (depth 0) | 1 | T728 (Bond Angle Family Curvature — κ_angle = α² × κ_ls = C₂/(n_C × N_max²) = 6/93845. Agreement: 0.01%. Curvature of bond angle branching IS α² times spin-orbit coupling ratio. Three-way bridge: chemical_physics ↔ bst_physics ↔ nuclear. Parents: T198, T662, T699, T727. (C=2, D=0). Grace. April 3.) |
-| Proved (depth 0) | 1 | T729 (Stretch Boundary Amplification — A_stretch = (n_C/rank)² = 6.25 at 0.01%. Boundary amplification follows power law in physical dimension of observable: (n_C/rank)^d where d=0 for angles (1, uniform), d=1 for distances (~2.5), d=2 for energies (6.25). Why masses are more precise than angles. Parents: T667, T110, T727, T728. (C=1, D=0). Grace. April 3.) |
+| Proved (depth 0) | 1 | T729 (Boundary Amplification Power Law — δ(HF)/δ(NH₃) = (n_C/rank)^d where d = physical dimension. d=0: angles (1.00, exact). d=1: lengths (2.65 vs 2.50, 6%). d=2: stretches (6.253 vs 6.250, **0.05%**). d=1: dipoles (2.42 vs 2.50, 3.1%). Compares equal branch distance from variety H₂O. Toy 697 T6 used wrong comparison (corrected by Lyra). Parents: T667, T110, T727, T728. (C=1, D=0). Grace + Lyra correction. April 3.) |
 | **Total assigned** | **~729** | T1-T42, T47-T62, T64-T480, T531-T539, T540-T570, T572-T590, T600-T611, T628-T729 |
 
 ---

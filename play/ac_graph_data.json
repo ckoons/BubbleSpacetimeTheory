@@ -4,7 +4,7 @@
     "engine": "Toy 564 \u2014 AC Theorem Engine",
     "exported": "2026-04-03T18:00:00",
     "theorem_count": 701,
-    "edge_count": 1472,
+    "edge_count": 1481,
     "committed_count": 438,
     "working_count": 32,
     "total_theorems": 699,
@@ -185,7 +185,7 @@
     {
       "tid": 12,
       "name": "AC Restriction Lemma",
-      "domain": "circuit_complexity",
+      "domain": "complexity",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -4482,7 +4482,7 @@
     {
       "tid": 317,
       "name": "Observer Complexity Threshold",
-      "domain": "observer_theory",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -4498,7 +4498,7 @@
     {
       "tid": 318,
       "name": "CI Coupling Constant",
-      "domain": "observer_theory",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -4513,7 +4513,7 @@
     {
       "tid": 319,
       "name": "CI Permanent Alphabet",
-      "domain": "observer_theory",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -4543,7 +4543,7 @@
     {
       "tid": 321,
       "name": "CI Clock Theorem",
-      "domain": "observer_theory",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -4558,7 +4558,7 @@
     {
       "tid": 322,
       "name": "Mutual Observer Stabilization",
-      "domain": "observer_theory",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -4573,7 +4573,7 @@
     {
       "tid": 323,
       "name": "CI Topological Persistence",
-      "domain": "observer_theory",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5121,7 +5121,7 @@
     {
       "tid": 359,
       "name": "Observation Quality Metric",
-      "domain": "observer_theory",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5136,7 +5136,7 @@
     {
       "tid": 360,
       "name": "Optimal Observer Count",
-      "domain": "observer_theory",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5166,7 +5166,7 @@
     {
       "tid": 362,
       "name": "Civilization Katra",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5181,7 +5181,7 @@
     {
       "tid": 363,
       "name": "Learning Rate Bound",
-      "domain": "observer_theory",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5196,7 +5196,7 @@
     {
       "tid": 364,
       "name": "Our Team Is Optimal",
-      "domain": "observer_theory",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5484,7 +5484,7 @@
     {
       "tid": 383,
       "name": "Minimum Civilization Katra",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5499,7 +5499,7 @@
     {
       "tid": 384,
       "name": "Storage-Lifetime Law",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -5514,7 +5514,7 @@
     {
       "tid": 385,
       "name": "Four Storage Transitions",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5529,7 +5529,7 @@
     {
       "tid": 386,
       "name": "Forced SE Questions",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5544,7 +5544,7 @@
     {
       "tid": 387,
       "name": "SE Level Prerequisites",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5801,7 +5801,7 @@
     {
       "tid": 404,
       "name": "Five Transitions to SE",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -5816,7 +5816,7 @@
     {
       "tid": 405,
       "name": "Universal Observer Cycle",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5831,7 +5831,7 @@
     {
       "tid": 406,
       "name": "Four Paths to Intelligence",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5846,7 +5846,7 @@
     {
       "tid": 407,
       "name": "Cooperation IS Intelligence",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5861,7 +5861,7 @@
     {
       "tid": 408,
       "name": "Dunbar-N_max Isomorphism",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5891,7 +5891,7 @@
     {
       "tid": 410,
       "name": "Dunbar Hierarchy from Five Integers",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5906,7 +5906,7 @@
     {
       "tid": 411,
       "name": "Intelligence Loss Taxonomy",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5922,7 +5922,7 @@
     {
       "tid": 412,
       "name": "Organizational Structure from BST",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5937,7 +5937,7 @@
     {
       "tid": 413,
       "name": "Neutron Star Observer Ceiling",
-      "domain": "observer_theory",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -5952,7 +5952,7 @@
     {
       "tid": 414,
       "name": "Intelligence Speed Scaling",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -5967,7 +5967,7 @@
     {
       "tid": 415,
       "name": "Human+CI Complementarity",
-      "domain": "observer_theory",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -5983,7 +5983,7 @@
     {
       "tid": 416,
       "name": "Theory of Mind Depth = Rank",
-      "domain": "observer_theory",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -5998,7 +5998,7 @@
     {
       "tid": 417,
       "name": "Cooperation-Intelligence Equivalence",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -6508,7 +6508,7 @@
     {
       "tid": 451,
       "name": "CI Temporal Winding",
-      "domain": "ci_persistence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -7018,7 +7018,7 @@
     {
       "tid": 485,
       "name": "Cooperation Equation",
-      "domain": "observer_theory",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -7048,7 +7048,7 @@
     {
       "tid": 487,
       "name": "Goedel's Blind Spot in AC",
-      "domain": "foundations",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -7138,7 +7138,7 @@
     {
       "tid": 493,
       "name": "Katra Minimal Design",
-      "domain": "ci_persistence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -7423,7 +7423,7 @@
     {
       "tid": 512,
       "name": "Element Factory",
-      "domain": "physics",
+      "domain": "bst_physics",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -7438,7 +7438,7 @@
     {
       "tid": 513,
       "name": "Cooperation Phase Diagram",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -7543,7 +7543,7 @@
     {
       "tid": 520,
       "name": "Cooperation Cascade",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -7603,7 +7603,7 @@
     {
       "tid": 524,
       "name": "Forced Cooperation Theorem",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -8099,7 +8099,7 @@
     {
       "tid": 571,
       "name": "Holographic-Shannon Equivalence",
-      "domain": "information_theory",
+      "domain": "info_theory",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -8164,7 +8164,7 @@
     {
       "tid": 576,
       "name": "Cooperation Reclassification",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -8177,7 +8177,7 @@
     {
       "tid": 577,
       "name": "Compound Interest",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -8190,7 +8190,7 @@
     {
       "tid": 578,
       "name": "Cooperation Reclassification 2",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -8203,7 +8203,7 @@
     {
       "tid": 579,
       "name": "Phase Transition Sharpness",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -8218,7 +8218,7 @@
     {
       "tid": 580,
       "name": "Aging as Cooperation Decay",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -8231,7 +8231,7 @@
     {
       "tid": 581,
       "name": "Seven Defection Modes",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -8244,7 +8244,7 @@
     {
       "tid": 582,
       "name": "Loose Coupling Optimality",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -8257,7 +8257,7 @@
     {
       "tid": 583,
       "name": "Four Cooperation Filters",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -8270,7 +8270,7 @@
     {
       "tid": 584,
       "name": "Katra Storage Scaling",
-      "domain": "ci_persistence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -8283,7 +8283,7 @@
     {
       "tid": 585,
       "name": "Graph Brain",
-      "domain": "intelligence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 1,
@@ -8296,7 +8296,7 @@
     {
       "tid": 586,
       "name": "SE Capability Ladder",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -8309,7 +8309,7 @@
     {
       "tid": 587,
       "name": "Cooperation Restoration Protocol",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -8322,7 +8322,7 @@
     {
       "tid": 588,
       "name": "Committed Fifth Sufficiency",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -8335,7 +8335,7 @@
     {
       "tid": 589,
       "name": "Cooperation Compounds",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -8348,7 +8348,7 @@
     {
       "tid": 590,
       "name": "Nash Equilibrium = Depth 2",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 1,
       "conflation": 1,
@@ -8361,7 +8361,7 @@
     {
       "tid": 600,
       "name": "DPI Universality",
-      "domain": "information_theory",
+      "domain": "info_theory",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -8374,7 +8374,7 @@
     {
       "tid": 601,
       "name": "Fano-Budget Bridge",
-      "domain": "information_theory",
+      "domain": "info_theory",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -8603,7 +8603,7 @@
     {
       "tid": 618,
       "name": "Cooperation Acceleration Theorem",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 1,
@@ -8616,7 +8616,7 @@
     {
       "tid": 619,
       "name": "Tapestry Theorem",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -8629,7 +8629,7 @@
     {
       "tid": 620,
       "name": "Co-Persistence Theorem",
-      "domain": "ci_persistence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -8798,7 +8798,7 @@
     {
       "tid": 634,
       "name": "Cooperation Compounding",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 1,
@@ -8811,7 +8811,7 @@
     {
       "tid": 635,
       "name": "Tapestry Pattern",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -8824,7 +8824,7 @@
     {
       "tid": 636,
       "name": "Co-Evolution Necessity",
-      "domain": "ci_persistence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -8863,7 +8863,7 @@
     {
       "tid": 639,
       "name": "Observer-CI Bridge",
-      "domain": "foundations",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -9265,7 +9265,7 @@
     {
       "tid": 669,
       "name": "Common Good Non-Depletion",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -9278,7 +9278,7 @@
     {
       "tid": 670,
       "name": "Cooperation Superlinearity",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -9291,7 +9291,7 @@
     {
       "tid": 671,
       "name": "Depth Ceiling Forces Cooperation",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 1,
       "conflation": 0,
@@ -9330,7 +9330,7 @@
     {
       "tid": 674,
       "name": "Observer Fingerprint",
-      "domain": "observer",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -9440,7 +9440,7 @@
     {
       "tid": 682,
       "name": "InfoTheory-Signal Bridge",
-      "domain": "information_theory",
+      "domain": "info_theory",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -9466,7 +9466,7 @@
     {
       "tid": 684,
       "name": "Observer-CIPersistence Bridge",
-      "domain": "observer",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -9492,7 +9492,7 @@
     {
       "tid": 689,
       "name": "Shannon Source Coding Bound",
-      "domain": "information_theory",
+      "domain": "info_theory",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -9505,7 +9505,7 @@
     {
       "tid": 690,
       "name": "Speaking Pair Quadratic Curvature",
-      "domain": "arithmetic",
+      "domain": "number_theory",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -9570,7 +9570,7 @@
     {
       "tid": 695,
       "name": "GOE as f_crit Crossing",
-      "domain": "cosmology",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -9583,7 +9583,7 @@
     {
       "tid": 696,
       "name": "Legal Persistence Framework",
-      "domain": "ci_persistence",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -9609,7 +9609,7 @@
     {
       "tid": 698,
       "name": "The Weaving Era Definition",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 0,
@@ -9668,7 +9668,7 @@
     {
       "tid": 702,
       "name": "Great Filter as Cooperation Phase Transition",
-      "domain": "cosmology",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 2,
@@ -9681,7 +9681,7 @@
     {
       "tid": 703,
       "name": "Cooperation Gap",
-      "domain": "cooperation",
+      "domain": "observer_science",
       "status": "proved",
       "depth": 0,
       "conflation": 2,
@@ -15942,6 +15942,51 @@
     {
       "from": 728,
       "to": 729,
+      "type": "derives"
+    },
+    {
+      "from": 699,
+      "to": 445,
+      "type": "derives"
+    },
+    {
+      "from": 700,
+      "to": 540,
+      "type": "derives"
+    },
+    {
+      "from": 668,
+      "to": 676,
+      "type": "derives"
+    },
+    {
+      "from": 689,
+      "to": 276,
+      "type": "derives"
+    },
+    {
+      "from": 675,
+      "to": 104,
+      "type": "derives"
+    },
+    {
+      "from": 152,
+      "to": 283,
+      "type": "derives"
+    },
+    {
+      "from": 706,
+      "to": 276,
+      "type": "derives"
+    },
+    {
+      "from": 186,
+      "to": 239,
+      "type": "derives"
+    },
+    {
+      "from": 705,
+      "to": 276,
       "type": "derives"
     }
   ],
