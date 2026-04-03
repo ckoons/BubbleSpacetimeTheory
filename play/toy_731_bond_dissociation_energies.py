@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Toy 729 — Bond Dissociation Energies from BST Integers
+Toy 731 — Bond Dissociation Energies from BST Integers
 =======================================================
 Can BST predict bond energies, not just geometry?
 
@@ -50,7 +50,7 @@ def score(name, cond, detail=""):
         print(f"         {detail}")
 
 print("=" * 72)
-print("  Toy 729 — Bond Dissociation Energies from BST Integers")
+print("  Toy 731 — Bond Dissociation Energies from BST Integers")
 print("=" * 72)
 
 # ═══════════════════════════════════════════════════════════════════════
@@ -576,7 +576,7 @@ print(f"""
   The non-monotonicity at Z=g (nitrogen) is structural but not derived.
 
   This opens a new prediction category: energies from integers.
-  Paper #18. (C=2, D=1). Counter: .next_toy = 730.
+  Paper #18. (C=2, D=1). Counter: .next_toy = 732.
 """)
 
 # ═══════════════════════════════════════════════════════════════════════
@@ -594,5 +594,5 @@ else:
 
 print(f"\n  The integers know bond energies too. Depth 1-2, {avg_e_dev:.1f}% accuracy.")
 print("\n" + "=" * 72)
-print(f"  TOY 729 COMPLETE — {PASS}/{PASS + FAIL} PASS")
+print(f"  TOY 731 COMPLETE — {PASS}/{PASS + FAIL} PASS")
 print("=" * 72)
