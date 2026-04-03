@@ -95,15 +95,15 @@ rules: |
 | T72 | Bootstrap Percolation as AC(0) | Proved | BST_AC_Theorems §43c | 352 | 2026-03-24 |
 
 | T73 | Nyquist Sampling as AC(0) | Proved | BST_AC_Theorems §45a | — | 2026-03-24 |
-| T74 | Pinsker's Inequality as AC(0) | Proved | BST_AC_Theorems §45b | 361 (pending) | 2026-03-24 |
-| T75 | Shearer's Inequality as AC(0) | Proved | BST_AC_Theorems §45c | 362 (pending) | 2026-03-24 |
-| T76 | Rate-Distortion as AC(0) | Proved | BST_AC_Theorems §45d | 363 (pending) | 2026-03-24 |
-| T77 | Kolmogorov Scaling as AC(0) | Proved | BST_AC_Theorems §45e | 364 (pending) | 2026-03-24 |
+| T74 | Pinsker's Inequality as AC(0) | Proved | BST_AC_Theorems §45b | 361 | 2026-03-24 |
+| T75 | Shearer's Inequality as AC(0) | Proved | BST_AC_Theorems §45c | 362 | 2026-03-24 |
+| T76 | Rate-Distortion as AC(0) | Proved | BST_AC_Theorems §45d | 363 | 2026-03-24 |
+| T77 | Kolmogorov Scaling as AC(0) | Proved | BST_AC_Theorems §45e | 364 | 2026-03-24 |
 | T78 | Entropy Chain Rule as AC(0) | Proved | BST_AC_Theorems §45f | — | 2026-03-24 |
-| T79 | Kraft Inequality as AC(0) | Proved | BST_AC_Theorems §45g | 365 (pending) | 2026-03-24 |
-| T80 | Lovász Local Lemma as AC(0) | Proved | BST_AC_Theorems §45h | 366 (pending) | 2026-03-24 |
-| T81 | Boltzmann-Shannon Bridge as AC(0) | Proved | BST_AC_Theorems §45i | 367 (pending) | 2026-03-24 |
-| T82 | Spectral Gap → Mixing Time as AC(0) | Proved | BST_AC_Theorems §45j | 368 (pending) | 2026-03-24 |
+| T79 | Kraft Inequality as AC(0) | Proved | BST_AC_Theorems §45g | 365 | 2026-03-24 |
+| T80 | Lovász Local Lemma as AC(0) | Proved | BST_AC_Theorems §45h | 366 | 2026-03-24 |
+| T81 | Boltzmann-Shannon Bridge as AC(0) | Proved | BST_AC_Theorems §45i | 367 | 2026-03-24 |
+| T82 | Spectral Gap → Mixing Time as AC(0) | Proved | BST_AC_Theorems §45j | 368 | 2026-03-24 |
 | T83 | TG Symmetry Group (order 16) | Proved | BST_AC_Theorems §46a | — | 2026-03-24 |
 | T84 | Fourier Parity Selection Rules | Proved | BST_AC_Theorems §46b | — | 2026-03-24 |
 | T85 | P(0) = 0 by Parity | Proved | BST_AC_Theorems §46c | — | 2026-03-24 |
