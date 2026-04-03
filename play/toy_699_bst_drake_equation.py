@@ -25,7 +25,7 @@ C_2 = 6
 N_max = 137
 rank = 2
 f = float(mpf(N_c) / (mpf(n_C) * pi))  # 19.1%
-f_crit = float(1 / (mpf(n_C) - 1) + mpf(1) / (2 * mpf(N_c)))  # ~20.6%
+f_crit = float(1 - mpf(2)**(-1/mpf(N_c)))  # 1 - 2^{-1/3} ≈ 20.6% (T579, T684)
 
 results = []
 
