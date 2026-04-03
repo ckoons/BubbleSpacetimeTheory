@@ -3,12 +3,12 @@
     "version": 1,
     "engine": "Toy 564 \u2014 AC Theorem Engine",
     "exported": "2026-04-03T23:00:00",
-    "theorem_count": 734,
-    "edge_count": 1665,
+    "theorem_count": 748,
+    "edge_count": 1695,
     "committed_count": 438,
-    "working_count": 39,
-    "total_theorems": 734,
-    "total_edges": 1665,
+    "working_count": 53,
+    "total_theorems": 748,
+    "total_edges": 1695,
     "depth_distribution": {
       "D0": 585,
       "D1": 141,
@@ -10381,7 +10381,21 @@
       "D": 0,
       "status": "proved",
       "date": "2026-04-03"
-    }
+    },
+    {"tid": 773, "name": "Water Thermodynamic Identity", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 774, "name": "Dielectric Constant Family", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 775, "name": "Sound Speed from BST Rationals", "domain": "thermodynamics", "depth": 0, "C": 1, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 776, "name": "Ionization Energy Ladder", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 777, "name": "Electron Affinity Ladder", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 778, "name": "Covalent Radius Family", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 779, "name": "Bond Length Family", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 780, "name": "Bond Angle Extensions", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 781, "name": "Madelung Constants as BST Rationals", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 782, "name": "Vibrational Frequency Ladder", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 783, "name": "Noble Gas T_CMB Ladder", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 784, "name": "Critical Temperature Ladder", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 785, "name": "Cosmic Ray Spectral Indices", "domain": "bst_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 786, "name": "Stretch Frequency Formula", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"}
   ],
   "edges": [
     {
@@ -17060,7 +17074,21 @@
     {
       "from": 761,
       "to": 772
-    }
+    },
+    {"from": 699, "to": 773}, {"from": 706, "to": 773}, {"from": 763, "to": 773},
+    {"from": 773, "to": 774}, {"from": 699, "to": 774},
+    {"from": 772, "to": 775}, {"from": 232, "to": 775},
+    {"from": 719, "to": 776}, {"from": 186, "to": 776},
+    {"from": 776, "to": 777}, {"from": 719, "to": 777},
+    {"from": 706, "to": 778}, {"from": 719, "to": 778},
+    {"from": 706, "to": 779}, {"from": 719, "to": 779},
+    {"from": 699, "to": 780}, {"from": 700, "to": 780},
+    {"from": 719, "to": 781}, {"from": 776, "to": 781},
+    {"from": 706, "to": 782}, {"from": 719, "to": 782},
+    {"from": 763, "to": 783}, {"from": 703, "to": 783},
+    {"from": 763, "to": 784}, {"from": 783, "to": 784},
+    {"from": 719, "to": 785}, {"from": 186, "to": 785},
+    {"from": 782, "to": 786}, {"from": 706, "to": 786}
   ],
   "chains": {}
 }

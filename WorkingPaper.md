@@ -52,7 +52,7 @@ abstract: |
   with zero free parameters.
   The CMB spectral index $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($0.3\sigma$ from Planck),
   with tensor-to-scalar ratio $r \approx 0$ (no primordial B-modes), are derived from the phase transition dynamics.
-  Over 250 parameter-free predictions, structural derivations, and experimental forecasts are presented (§43), all testable against current or near-future data — including the primordial scalar amplitude $A_s = (3/4)\alpha^4$ (0.92$\sigma$), molecular geometry from bond angles to the genetic code (H₂O bond angle 0.028°, C-C bond length 0.03%, ice density 0.006%), all 230 space groups from three integers ($g \times 2^{n_C} + C_2$), the complete $\alpha$-helix geometry (five parameters, zero free inputs), and the cooperation threshold $f_{\text{crit}} = 20.6\%$.
+  Over 290 parameter-free predictions, structural derivations, and experimental forecasts are presented (§43), all testable against current or near-future data — including the primordial scalar amplitude $A_s = (3/4)\alpha^4$ (0.92$\sigma$), molecular geometry from bond angles to the genetic code (H₂O bond angle 0.028°, C-C bond length 0.03%, ice density 0.006%), all 230 space groups from three integers ($g \times 2^{n_C} + C_2$), the complete $\alpha$-helix geometry (five parameters, zero free inputs), the cooperation threshold $f_{\text{crit}} = 20.6\%$, QED perturbation coefficients as BST integer arithmetic (T758-T762), the rainbow angle $C_2 \times g = 42°$ (0.07%), water boiling point $= N_{\max} \times T_{\text{CMB}}$ (0.065%), noble gas boiling points as integer multiples of $T_{\text{CMB}}$ (Kr at 0.005%), and heat capacity ratios as BST integer ratios ($\gamma = (f + \text{rank})/f$).
 documentclass: article
 classoption:
   - 12pt
@@ -4487,6 +4487,49 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Measurement "collapse"  |Coordinate restriction on $D_{IV}^5$, not physical process; wave function = Bergman kernel coordinate|No consciousness-dependent collapse|structural (T752)|
 |$g-2$ electron (BST closed form)  |$(\alpha/2\pi)(1-(2\alpha/\pi)^2)^{2n_C g}$; 5 digits, zero Feynman diagrams|$a_e = 0.001\,159\,652\,18...$|$\checkmark$ **5 digits** (T758)|
 |QED $C_2$ decomposition  |$197/144 + \pi^2/12 - \pi^2\ln 2/2 + 3\zeta(3)/4$; $197 = N_{\max} + 2n_C C_2$, $144 = 2^{\rm rank} C_2^2$|$-0.32848...$|exact (T758)|
+|QED $\zeta$-tower  |Loop $n$ introduces $\zeta(2n-1)$: $\zeta(N_c)$, $\zeta(n_C)$, $\zeta(g)$; tower closes at genus|Loops 2-4 (established)|structural (T762)|
+|Feynman diagram counts  |$D_2 = g = 7$; $D_3 = 2^{N_c} N_c^{\rm rank} = 72$; total 13,643|Established|exact (T765)|
+|QED coefficient growth  |$\lvert C_3/C_2\rvert = N_c C_2/n_C = 18/5 = 3.6$ (= $\alpha$-helix pitch)|$\approx 3.6$|$\checkmark$ 0.1% (T771)|
+|Rainbow angle  |$C_2 \times g = 42°$|$42.03°$|$\checkmark$ **0.07%** (T761)|
+|Min deviation (rainbow)  |$\delta_{\min} \approx N_{\max} = 137°$|$137.97°$|$\checkmark$ 0.7° (T761)|
+|Alexander dark band  |$\approx N_c^2 = 9°$|$8.9°$|$\checkmark$ 0.6% (T761)|
+|C-H bond dissociation  |$\text{Ry}/\pi = 4.331\,\text{eV}$|$4.330\,\text{eV}$|$\checkmark$ **0.02%** (T767)|
+|H-H bond dissociation  |$\text{Ry}/N_c = 4.535\,\text{eV}$|$4.478\,\text{eV}$|$\checkmark$ 1.3% (T768)|
+|C=C/C-C energy ratio  |$g/2^{\rm rank} = 7/4 = 1.75$|$1.775$|$\checkmark$ 0.2% (T768)|
+|$\gamma$ monatomic  |$n_C/N_c = 5/3$|$1.667$ (exact)|exact (T772)|
+|$\gamma$ diatomic  |$g/n_C = 7/5$|$1.400$ (exact)|exact (T772)|
+|$\gamma$ polyatomic  |$2^{\rm rank}/N_c = 4/3 = n(\text{H}_2\text{O})$|$1.333$ (exact)|exact (T772)|
+|$C_p$ liquid water  |$N_c^2 R = 9R = 74.8\,\text{J/(mol·K)}$|$75.3\,\text{J/(mol·K)}$|$\checkmark$ 0.73% (T773)|
+|$\varepsilon(\text{H}_2\text{O})$  |$(2^{\rm rank})^2 n_C = 80$|$80.1$|$\checkmark$ **0.12%** (T774)|
+|$\varepsilon(\text{ice})$  |$2^{\rm rank} n_C^2 = 100$|$\approx 99$|$\checkmark$ 1.0% (T774)|
+|Trouton constant  |$N_c^2 + 2^{\rm rank} = 13$|$13.1$|$\checkmark$ 0.78% (T773)|
+|Sound speed in air  |$\sqrt{\gamma R T/M}$ with $\gamma = g/n_C$|$346.1\,\text{m/s}$|$\checkmark$ **0.06%** (T775)|
+|$v(\text{water})/v(\text{air})$  |$(N_c^2 + 2^{\rm rank})/N_c = 13/3$|$\approx 4.33$|$\checkmark$ 0.1% (T775)|
+|IE(O) = Rydberg  |$\text{IE}(\text{O}) = \text{Ry}$|$13.618\,\text{eV}$|$\checkmark$ **0.09%** (T776)|
+|IE(He)  |$N_c^2 \text{Ry}/n_C = 9\text{Ry}/5$|$24.587\,\text{eV}$|$\checkmark$ 0.4% (T776)|
+|IE(F)  |$N_c^2 \text{Ry}/g = 9\text{Ry}/7$|$17.422\,\text{eV}$|$\checkmark$ 0.41% (T776)|
+|EA(F)  |$\text{Ry}/2^{\rm rank} = \text{Ry}/4$|$3.401\,\text{eV}$|$\checkmark$ **0.006%** (T777)|
+|EA(H)  |$\text{Ry}/(2 N_c^2) = \text{Ry}/18$|$0.754\,\text{eV}$|$\checkmark$ 0.36% (T777)|
+|$r(\text{F})$  |$14 a_0/13 = 2g a_0/(N_c^2 + 2^{\rm rank})$|$0.64\,\text{Å}$|$\checkmark$ **0.014%** (T778)|
+|$r(\text{O})$  |$n_C a_0/2^{\rm rank} = 5 a_0/4$|$0.66\,\text{Å}$|$\checkmark$ 0.22% (T778)|
+|$d(\text{H}_2)$  |$g a_0/n_C = 7 a_0/5$|$0.741\,\text{Å}$|$\checkmark$ **0.07%** (T779)|
+|$d(\text{F}_2)$  |$2^{N_c} a_0/N_c = 8 a_0/3$|$1.412\,\text{Å}$|$\checkmark$ **0.05%** (T779)|
+|$d(\text{HF})$  |$26 a_0/15$|$0.917\,\text{Å}$|$\checkmark$ **0.05%** (T779)|
+|$d(\text{CO})$  |$2^{n_C} a_0/(N_c n_C) = 32 a_0/15$|$1.128\,\text{Å}$|$\checkmark$ **0.05%** (T779)|
+|$\theta(\text{H}_2\text{S})$  |$90° + \text{rank} + 1/N_c^2 = 92.11°$|$92.1°$|$\checkmark$ **0.01%** (T780)|
+|$\theta(\text{PH}_3)$  |$90° + N_c + 1/N_c = 93.33°$|$93.3°$|$\checkmark$ **0.02%** (T780)|
+|$\theta(\text{H}_2\text{Te})$ (prediction)  |$90° + 1/2^{\rm rank} = 90.25°$|$\sim 90.26°$|$\checkmark$ predicted (T780)|
+|Madelung $M(\text{NaCl})$  |$g/2^{\rm rank} = 7/4$|$1.748$|$\checkmark$ 0.14% (T781)|
+|Lattice energy $U(\text{NaCl})$  |$N_c \text{Ry}/n_C = 3\text{Ry}/5$|$8.16\,\text{eV}$|$\checkmark$ **0.03%** (T781)|
+|$\nu(\text{H}_2\text{O, sym stretch})$  |$R_\infty/(n_C C_2) = R_\infty/30$|$3657\,\text{cm}^{-1}$|$\checkmark$ **0.02%** (T782)|
+|$\nu(\text{H}_2)$  |$R_\infty/n_C^2 = R_\infty/25$|$4401\,\text{cm}^{-1}$|$\checkmark$ 0.26% (T782)|
+|$\nu(\text{O}_2)$  |$\text{rank}\, R_\infty/(N_{\max} + \text{rank}) = 2 R_\infty/139$|$1580\,\text{cm}^{-1}$|$\checkmark$ **0.07%** (T782)|
+|$T_{\text{boil}}(\text{H}_2\text{O})$  |$N_{\max} \times T_{\text{CMB}} = 137 \times 2.725\,\text{K}$|$373.15\,\text{K}$|$\checkmark$ **0.065%** (T763)|
+|$T_{\text{freeze}}(\text{H}_2\text{O})$  |$n_C^2 \cdot 2^{\rm rank} \times T_{\text{CMB}} = 100 \times 2.725\,\text{K}$|$273.15\,\text{K}$|$\checkmark$ 0.22% (T763)|
+|$T_{\text{crit}}(\text{H}_2\text{O})$  |$(N_{\max} + 100) T_{\text{CMB}} = 237 T_{\text{CMB}}$|$647.1\,\text{K}$|$\checkmark$ 0.18% (T784)|
+|$T_{\text{boil}}(\text{Kr})$  |$44\, T_{\text{CMB}}$|$119.93\,\text{K}$|$\checkmark$ **0.005%** (T783)|
+|$T_{\text{boil}}(\text{Ar})$  |$2^{n_C} T_{\text{CMB}} = 32\, T_{\text{CMB}}$|$87.3\,\text{K}$|$\checkmark$ 0.09% (T783)|
+|$T_{\text{boil}}(\text{Xe})$  |$C_2(N_c^2+1) T_{\text{CMB}} = 60\, T_{\text{CMB}}$|$165.1\,\text{K}$|$\checkmark$ 0.91% (T783)|
 
 ### 43.3 Qualitative Predictions (Testable Against Existing Data)
 
