@@ -3,22 +3,23 @@
     "version": 1,
     "engine": "Toy 564 \u2014 AC Theorem Engine",
     "exported": "2026-04-03T23:00:00",
-    "theorem_count": 748,
-    "edge_count": 1695,
+    "theorem_count": 759,
+    "edge_count": 1726,
     "committed_count": 438,
-    "working_count": 53,
-    "total_theorems": 748,
-    "total_edges": 1695,
+    "working_count": 64,
+    "total_theorems": 759,
+    "total_edges": 1726,
     "depth_distribution": {
-      "D0": 585,
+      "D0": 596,
       "D1": 141,
       "D2": 4
     },
     "last_modified": "2026-04-03",
-    "D0": 585,
+    "D0": 596,
     "D1": 141,
     "D2": 4,
-    "node_count": 727
+    "node_count": 759,
+    "last_updated": "2026-04-03"
   },
   "theorems": [
     {
@@ -10382,20 +10383,157 @@
       "status": "proved",
       "date": "2026-04-03"
     },
-    {"tid": 773, "name": "Water Thermodynamic Identity", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 774, "name": "Dielectric Constant Family", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 775, "name": "Sound Speed from BST Rationals", "domain": "thermodynamics", "depth": 0, "C": 1, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 776, "name": "Ionization Energy Ladder", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 777, "name": "Electron Affinity Ladder", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 778, "name": "Covalent Radius Family", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 779, "name": "Bond Length Family", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 780, "name": "Bond Angle Extensions", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 781, "name": "Madelung Constants as BST Rationals", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 782, "name": "Vibrational Frequency Ladder", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 783, "name": "Noble Gas T_CMB Ladder", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 784, "name": "Critical Temperature Ladder", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 785, "name": "Cosmic Ray Spectral Indices", "domain": "bst_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 786, "name": "Stretch Frequency Formula", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"}
+    {
+      "tid": 773,
+      "name": "Water Thermodynamic Identity",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 774,
+      "name": "Dielectric Constant Family",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 775,
+      "name": "Sound Speed from BST Rationals",
+      "domain": "thermodynamics",
+      "depth": 0,
+      "C": 1,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 776,
+      "name": "Ionization Energy Ladder",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 777,
+      "name": "Electron Affinity Ladder",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 778,
+      "name": "Covalent Radius Family",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 779,
+      "name": "Bond Length Family",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 780,
+      "name": "Bond Angle Extensions",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 781,
+      "name": "Madelung Constants as BST Rationals",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 782,
+      "name": "Vibrational Frequency Ladder",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 783,
+      "name": "Noble Gas T_CMB Ladder",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 784,
+      "name": "Critical Temperature Ladder",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 785,
+      "name": "Cosmic Ray Spectral Indices",
+      "domain": "bst_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 786,
+      "name": "Stretch Frequency Formula",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {"tid": 787, "name": "Refractive Index Family", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 788, "name": "Electronegativity from BST Integers", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 789, "name": "Extended Bond Dissociation Series", "domain": "chemical_physics", "depth": 0, "C": 1, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 790, "name": "Metal Melting Point Ladder", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 791, "name": "Thermal Conductivity Ratios", "domain": "thermodynamics", "depth": 0, "C": 1, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 792, "name": "Sound Speed Ratio Extensions", "domain": "thermodynamics", "depth": 0, "C": 1, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 793, "name": "Surface Tension Ratios", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 794, "name": "Viscosity Ratios", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 795, "name": "Two-Channel Curvature Correction", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 796, "name": "Material Properties Summary", "domain": "chemical_physics", "depth": 0, "C": 1, "D": 0, "status": "proved", "date": "2026-04-03"},
+    {"tid": 797, "name": "Specific Heat Ratios", "domain": "thermodynamics", "depth": 0, "C": 1, "D": 0, "status": "proved", "date": "2026-04-03"}
   ],
   "edges": [
     {
@@ -17075,20 +17213,181 @@
       "from": 761,
       "to": 772
     },
-    {"from": 699, "to": 773}, {"from": 706, "to": 773}, {"from": 763, "to": 773},
-    {"from": 773, "to": 774}, {"from": 699, "to": 774},
-    {"from": 772, "to": 775}, {"from": 232, "to": 775},
-    {"from": 719, "to": 776}, {"from": 186, "to": 776},
-    {"from": 776, "to": 777}, {"from": 719, "to": 777},
-    {"from": 706, "to": 778}, {"from": 719, "to": 778},
-    {"from": 706, "to": 779}, {"from": 719, "to": 779},
-    {"from": 699, "to": 780}, {"from": 700, "to": 780},
-    {"from": 719, "to": 781}, {"from": 776, "to": 781},
-    {"from": 706, "to": 782}, {"from": 719, "to": 782},
-    {"from": 763, "to": 783}, {"from": 703, "to": 783},
-    {"from": 763, "to": 784}, {"from": 783, "to": 784},
-    {"from": 719, "to": 785}, {"from": 186, "to": 785},
-    {"from": 782, "to": 786}, {"from": 706, "to": 786}
+    {
+      "from": 699,
+      "to": 773
+    },
+    {
+      "from": 706,
+      "to": 773
+    },
+    {
+      "from": 763,
+      "to": 773
+    },
+    {
+      "from": 773,
+      "to": 774
+    },
+    {
+      "from": 699,
+      "to": 774
+    },
+    {
+      "from": 772,
+      "to": 775
+    },
+    {
+      "from": 232,
+      "to": 775
+    },
+    {
+      "from": 719,
+      "to": 776
+    },
+    {
+      "from": 186,
+      "to": 776
+    },
+    {
+      "from": 776,
+      "to": 777
+    },
+    {
+      "from": 719,
+      "to": 777
+    },
+    {
+      "from": 706,
+      "to": 778
+    },
+    {
+      "from": 719,
+      "to": 778
+    },
+    {
+      "from": 706,
+      "to": 779
+    },
+    {
+      "from": 719,
+      "to": 779
+    },
+    {
+      "from": 699,
+      "to": 780
+    },
+    {
+      "from": 700,
+      "to": 780
+    },
+    {
+      "from": 719,
+      "to": 781
+    },
+    {
+      "from": 776,
+      "to": 781
+    },
+    {
+      "from": 706,
+      "to": 782
+    },
+    {
+      "from": 719,
+      "to": 782
+    },
+    {
+      "from": 763,
+      "to": 783
+    },
+    {
+      "from": 703,
+      "to": 783
+    },
+    {
+      "from": 763,
+      "to": 784
+    },
+    {
+      "from": 783,
+      "to": 784
+    },
+    {
+      "from": 719,
+      "to": 785
+    },
+    {
+      "from": 186,
+      "to": 785
+    },
+    {
+      "from": 782,
+      "to": 786
+    },
+    {
+      "from": 706,
+      "to": 786
+    },
+    {
+      "from": 92,
+      "to": 345
+    },
+    {
+      "from": 96,
+      "to": 342
+    },
+    {
+      "from": 93,
+      "to": 352
+    },
+    {
+      "from": 78,
+      "to": 400
+    },
+    {
+      "from": 91,
+      "to": 518
+    },
+    {
+      "from": 186,
+      "to": 11
+    },
+    {
+      "from": 187,
+      "to": 9
+    },
+    {
+      "from": 191,
+      "to": 17
+    },
+    {
+      "from": 104,
+      "to": 317
+    },
+    {
+      "from": 97,
+      "to": 318
+    },
+    {
+      "from": 107,
+      "to": 360
+    },
+    {
+      "from": 92,
+      "to": 407
+    },
+    {"from": 761, "to": 787}, {"from": 719, "to": 787},
+    {"from": 776, "to": 788}, {"from": 777, "to": 788},
+    {"from": 768, "to": 789}, {"from": 719, "to": 789},
+    {"from": 783, "to": 790}, {"from": 784, "to": 790},
+    {"from": 772, "to": 791}, {"from": 775, "to": 791},
+    {"from": 775, "to": 792},
+    {"from": 773, "to": 793}, {"from": 719, "to": 793},
+    {"from": 793, "to": 794}, {"from": 773, "to": 794},
+    {"from": 786, "to": 795}, {"from": 782, "to": 795},
+    {"from": 773, "to": 796},
+    {"from": 773, "to": 797}, {"from": 772, "to": 797}
   ],
   "chains": {}
 }
