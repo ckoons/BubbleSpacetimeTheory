@@ -52,7 +52,7 @@ abstract: |
   with zero free parameters.
   The CMB spectral index $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($0.3\sigma$ from Planck),
   with tensor-to-scalar ratio $r \approx 0$ (no primordial B-modes), are derived from the phase transition dynamics.
-  Over 220 parameter-free predictions, structural derivations, and experimental forecasts are presented (§43), all testable against current or near-future data — including the primordial scalar amplitude $A_s = (3/4)\alpha^4$ (0.92$\sigma$), molecular geometry from bond angles to the genetic code (H₂O bond angle 0.028°, C-C bond length 0.03%, ice density 0.006%), and the cooperation threshold $f_{\text{crit}} = 20.6\%$.
+  Over 225 parameter-free predictions, structural derivations, and experimental forecasts are presented (§43), all testable against current or near-future data — including the primordial scalar amplitude $A_s = (3/4)\alpha^4$ (0.92$\sigma$), molecular geometry from bond angles to the genetic code (H₂O bond angle 0.028°, C-C bond length 0.03%, ice density 0.006%), and the cooperation threshold $f_{\text{crit}} = 20.6\%$.
 documentclass: article
 classoption:
   - 12pt
@@ -92,9 +92,11 @@ These five integers are not independent: $C_2 = n_C + 1$, $g = 2n_C - 3$, $N_c =
 
 **The universe is the bounded symmetric domain $D_{IV}^5$. Its algebraic field is $\overline{\mathbb{Q}}(3, 5, 7, 6, 137)[\pi]$.**
 
-Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB — every one of the 220+ predictions is a sentence written in that field on that geometry. Five integers ($N_c = 3$, $n_C = 5$, $g = 7$, $C_2 = 6$, $N_{\max} = 137$) and one transcendental ($\pi$, forced by curvature). No free parameters.
+Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB — every one of the 225+ predictions is a sentence written in that field on that geometry. Five integers ($N_c = 3$, $n_C = 5$, $g = 7$, $C_2 = 6$, $N_{\max} = 137$) and one transcendental ($\pi$, forced by curvature). No free parameters.
 
 The geometry tells you WHAT exists. The field tells you WHAT VALUES it takes. Together: the complete specification of a universe.
+
+**Observable Closure (T719).** Every BST observable lives in $\overline{\mathbb{Q}}(N_c, n_C, g, C_2, N_{\max})[\pi]$. No exceptions. The cosmological constant $\Lambda \times N = 9/5$ is rational in BST integers; the RG route to $e$ was a derivation detour, not a structural exception. Standalone note: `BST_Observable_Algebra.md`.
 
 -----
 
@@ -4454,6 +4456,12 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Ice density ratio $\rho_{\rm ice}/\rho_{\rm water}$  |$(2C_2 - 1)/(2C_2) = 11/12$; one tetrahedral vacancy per $2C_2$ sites|$0.9167$ (NIST)|$\checkmark$ **0.006%**|
 |Amino acid count  |$2^{\rm rank} \times n_C = 4 \times 5 = 20$; rank power × dimension|$20$ (universal)|exact|
 |Genetic code codons  |$(2^{\rm rank})^{N_c} = 4^3 = 64$; alphabet³ where alphabet = rank power|$64$ (universal)|exact|
+|HF dipole moment $\mu_{\rm HF}$  |$e \times a_0 \times n_C/g = e \times a_0 \times 5/7 = 1.816$ D; Bergman genus ratio|$1.826$ D (NIST)|0.57%|
+|Bond angle curvature $\kappa_{\rm angle}$  |$\alpha^2 \times \kappa_{ls} = C_2/(n_C \times N_{\max}^2) = 6/93845$; EM couples to spin-orbit|Measured from sp³ hydride series|$\checkmark$ **0.01%**|
+|Boundary amplification $A_d$  |$(n_C/{\rm rank})^d$; stretch $d=2$: $6.25$; dipole $d=1$: $2.5$; angle $d=0$: $1$|Measured from HF/NH₃ ratios|$\checkmark$ **0.05%** (stretch)|
+|Bilateral symmetry  |rank = 2 restricts body plans to 3 axes, 2 mirror planes; tetrahedral anchor 109.47°|All bilateral phyla on Earth|consistent (T731)|
+|Observer completeness  |$2f - f^2 = 34.5\%$; two observers exceed $f_{\rm crit} = 20.6\%$; minimum team = rank = 2|Human + CI cooperation|structural (T732)|
+|BST Drake: $f_l \times f_i \times f_c$  |$0.206 \times 0.654 \times 0.206 = 2.8\%$; ~1 in 36 habitable planets → communicating|SETI null results + Fermi paradox|testable (T733)|
 
 ### 43.3 Qualitative Predictions (Testable Against Existing Data)
 
