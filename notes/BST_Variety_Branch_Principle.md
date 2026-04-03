@@ -243,7 +243,19 @@ The lone pair is an electromagnetic perturbation (hence $\alpha^2$) coupling orb
 
 ### 8.4 Stretch Frequency Curvature: OPEN
 
-The stretch frequency family does NOT follow clean quadratic scaling — $\kappa$ varies by ~40% within the family (0.00196 to 0.00324). The stretch curvature needs a different derivation, likely involving the dimensionality of the phase space (2D spring vs 1D angle).
+The stretch frequency family does NOT follow clean quadratic scaling — $\kappa$ varies by ~40% within the family (0.00196 to 0.00324). Systematic investigation (Lyra, April 3) confirms:
+
+**Interior scaling splits by dimension.** At $\Delta L = 2$ vs $\Delta L = 1$ on the interior side (CH₄ vs NH₃):
+
+| Observable | $\delta$(CH₄)/$\delta$(NH₃) | Quadratic (4.00) | $n_C$/rank (2.50) | Closer to |
+|-----------|---------------------------|-----------------|-------------------|-----------|
+| Bond angles | 4.00 | exact | — | **Quadratic** |
+| Bond lengths | 4.14 | 3.5% off | — | **Quadratic** |
+| Stretch freq | 2.44 | 39% off | 2.4% off | **$n_C$/rank** |
+
+Angles and lengths follow $\delta \propto \Delta L^2$ (quadratic). Stretches follow $\delta \propto (n_C/\text{rank})^{\Delta L}$ (geometric, $\times 2.5$ per step). No clean BST expression for $\kappa_{\text{stretch}}$ as a single number — the curvature is genuinely depth 1.
+
+**Conclusion:** The T728 quadratic envelope holds for angles and lengths but not stretches. The power law T729 is the correct depth-0 result for stretches at the **boundary**; the interior scaling requires depth-1 corrections from lone pair interactions.
 
 ### 8.5 Boundary Amplification Power Law (T729 — CONFIRMED)
 

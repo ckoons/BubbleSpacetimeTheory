@@ -3,21 +3,22 @@
     "version": 1,
     "engine": "Toy 564 \u2014 AC Theorem Engine",
     "exported": "2026-04-03T18:00:00",
-    "theorem_count": 701,
-    "edge_count": 1481,
+    "theorem_count": 705,
+    "edge_count": 1496,
     "committed_count": 438,
     "working_count": 32,
-    "total_theorems": 699,
-    "total_edges": 1464,
+    "total_theorems": 705,
+    "total_edges": 1496,
     "depth_distribution": {
-      "D0": 562,
-      "D1": 133,
+      "D0": 564,
+      "D1": 137,
       "D2": 4
     },
     "last_modified": "2026-04-03",
     "D0": 564,
-    "D1": 133,
-    "D2": 4
+    "D1": 137,
+    "D2": 4,
+    "node_count": 705
   },
   "theorems": [
     {
@@ -10045,6 +10046,42 @@
       "status": "proved",
       "depth": 0,
       "date": "2026-04-03"
+    },
+    {
+      "tid": 730,
+      "name": "HF Dipole Prediction",
+      "domain": "chemical_physics",
+      "status": "proved",
+      "depth": 1,
+      "description": "\u03bc_HF = ea\u2080 \u00d7 n_C/g = 1.816 D (0.57%)",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 731,
+      "name": "Body Plan Geometry",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 1,
+      "description": "Bilateral from rank=2, N_c=3 segments, C(g,N_c)=35 phyla",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 732,
+      "name": "Observer Completeness",
+      "domain": "observer_science",
+      "status": "proved",
+      "depth": 1,
+      "description": "Two observers always exceed f_crit; rank=2 minimum team",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 733,
+      "name": "BST Drake Equation",
+      "domain": "observer_science",
+      "status": "proved",
+      "depth": 1,
+      "description": "N_civ = R* \u00d7 (1-f) \u00d7 (1/n_C) \u00d7 (1-\u0394f) \u00d7 (38/39)\u2074 \u00d7 (1/n_C) \u00d7 L",
+      "date": "2026-04-03"
     }
   ],
   "edges": [
@@ -15988,6 +16025,66 @@
       "from": 705,
       "to": 276,
       "type": "derives"
+    },
+    {
+      "from": 667,
+      "to": 730
+    },
+    {
+      "from": 649,
+      "to": 730
+    },
+    {
+      "from": 198,
+      "to": 730
+    },
+    {
+      "from": 727,
+      "to": 730
+    },
+    {
+      "from": 699,
+      "to": 731
+    },
+    {
+      "from": 110,
+      "to": 731
+    },
+    {
+      "from": 666,
+      "to": 731
+    },
+    {
+      "from": 636,
+      "to": 732
+    },
+    {
+      "from": 317,
+      "to": 732
+    },
+    {
+      "from": 703,
+      "to": 732
+    },
+    {
+      "from": 668,
+      "to": 732
+    },
+    {
+      "from": 579,
+      "to": 733
+    },
+    {
+      "from": 693,
+      "to": 733
+    },
+    {
+      "from": 703,
+      "to": 733
+    },
+    {
+      "from": 319,
+      "to": 733
     }
   ],
   "chains": {}

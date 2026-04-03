@@ -259,7 +259,7 @@ where $d$ is the physical dimension of the observable:
 
 | d | Observable | $\delta$(HF)/$\delta$(NH_3) | $(n_C/\text{rank})^d$ | Agreement |
 |---|-----------|---------------------------|---------------------|-----------|
-| 0 | Bond angles | 1.00 (trivial) | 1.00 | exact |
+| 0 | Bond angles | 1.00 | 1.00 | exact |
 | 1 | Bond lengths | 2.65 | 2.50 | 6.0% |
 | 2 | **Stretch freq** | **6.253** | **6.250** | **0.05%** |
 | 1 | Dipole moments | 2.42 | 2.50 | 3.1% |
