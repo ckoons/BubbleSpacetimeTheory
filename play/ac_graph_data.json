@@ -4,11 +4,11 @@
     "engine": "Toy 564 \u2014 AC Theorem Engine",
     "exported": "2026-04-03T20:00:00",
     "theorem_count": 705,
-    "edge_count": 1517,
+    "edge_count": 1553,
     "committed_count": 438,
     "working_count": 32,
     "total_theorems": 705,
-    "total_edges": 1517,
+    "total_edges": 1553,
     "depth_distribution": {
       "D0": 564,
       "D1": 137,
@@ -16289,6 +16289,102 @@
     {
       "from": 692,
       "to": 739
+    },
+    {
+      "from": 276,
+      "to": 319
+    },
+    {
+      "from": 280,
+      "to": 360
+    },
+    {
+      "from": 419,
+      "to": 359
+    },
+    {
+      "from": 716,
+      "to": 282
+    },
+    {
+      "from": 279,
+      "to": 318
+    },
+    {
+      "from": 136,
+      "to": 323
+    },
+    {
+      "from": 157,
+      "to": 405
+    },
+    {
+      "from": 108,
+      "to": 359
+    },
+    {
+      "from": 330,
+      "to": 317
+    },
+    {
+      "from": 123,
+      "to": 585
+    },
+    {
+      "from": 72,
+      "to": 513
+    },
+    {
+      "from": 193,
+      "to": 408
+    },
+    {
+      "from": 82,
+      "to": 414
+    },
+    {
+      "from": 81,
+      "to": 318
+    },
+    {
+      "from": 717,
+      "to": 179
+    },
+    {
+      "from": 305,
+      "to": 384
+    },
+    {
+      "from": 234,
+      "to": 363
+    },
+    {
+      "from": 389,
+      "to": 404
+    },
+    {
+      "from": 396,
+      "to": 318
+    },
+    {
+      "from": 240,
+      "to": 669
+    },
+    {
+      "from": 484,
+      "to": 403
+    },
+    {
+      "from": 739,
+      "to": 328
+    },
+    {
+      "from": 736,
+      "to": 644
+    },
+    {
+      "from": 172,
+      "to": 736
     }
   ],
   "chains": {}
