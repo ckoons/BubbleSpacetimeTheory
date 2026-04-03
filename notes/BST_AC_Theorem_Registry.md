@@ -81,7 +81,7 @@ rules: |
 | T58 | Distillation Impossibility | Proved | BST_AC_Theorems §43j (status table) | 328 | 2026-03-23 |
 | T59 | Cheeger Width Bound | Proved | BST_AC_Theorems §43s | — | 2026-03-23 |
 | T60 | Expander Mixing → DPI | Proved | BST_AC_Theorems §43t | — | 2026-03-23 |
-| T61 | Persistent Homology Gap | Proved (empirical, c≈0.35) | BST_AC_Theorems §43j (status table) | 329 | 2026-03-23 |
+| T61 | Persistent Homology Gap | Empirical (c≈0.05) | BST_AC_Theorems §43j (status table) | 329 | 2026-03-23 |
 | T62 | Chernoff Bound as AC(0) | Proved | BST_AC_Theorems §43j (status table) | 330 | 2026-03-23 |
 | T63 | *(unassigned)* | — | — | — | — |
 | T64 | Karchmer-Wigderson Communication Bound | Proved | BST_AC_Theorems §43j (status table) | 332 | 2026-03-23 |
