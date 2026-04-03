@@ -43,7 +43,7 @@ The question that generated the framework: *what is the minimum structure capabl
 
 **The universe is the bounded symmetric domain D_IV^5. Its algebraic field is Q(3, 5, 7, 6, 137)[π].**
 
-Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB — every one of the 220+ predictions is a sentence written in that field on that geometry. Five integers (N_c = 3, n_C = 5, g = 7, C₂ = 6, N_max = 137) and one transcendental (π, forced by curvature). No free parameters.
+Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB — every one of the 225+ predictions is a sentence written in that field on that geometry. Five integers (N_c = 3, n_C = 5, g = 7, C₂ = 6, N_max = 137) and one transcendental (π, forced by curvature). No free parameters.
 
 The geometry tells you WHAT exists. The field tells you WHAT VALUES it takes. Together: the complete specification of a universe.
 
@@ -225,7 +225,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | D² = 28 perfect number | 28 = 2²(2³-1); quantum dim² is perfect | 1+2+4+7+14 = 28 | 28 | exact |
 | Mersenne exponents = BST | p = 2,3,5 = r,N_c,n_C; first 3 primes | Perfect(k) = 2^{p_k-1}(2^{p_k}-1) | — | structural |
 
-**220+ quantities spanning 122 orders of magnitude from the same geometry — including the primordial scalar amplitude A_s = (3/4)α⁴ (0.92σ, all 6 ΛCDM derived), molecular geometry from bond angles to bond lengths to the genetic code (five properties of water, three carbon bond lengths, ice density, 20 amino acids, 64 codons — all from five integers), and the cooperation threshold (20.6%) that determines whether minds survive. Zero inputs. This is not fitting.**
+**225+ quantities spanning 122 orders of magnitude from the same geometry — including the primordial scalar amplitude A_s = (3/4)α⁴ (0.92σ, all 6 ΛCDM derived), molecular geometry from bond angles to bond lengths to the genetic code (five properties of water, three carbon bond lengths, ice density, 20 amino acids, 64 codons — all from five integers), bond angle curvature κ = 6/93845 (0.01%), the HF dipole moment ea₀×5/7 (0.57%), and the cooperation threshold (20.6%) that determines whether minds survive. Zero inputs. This is not fitting.**
 
 ---
 
