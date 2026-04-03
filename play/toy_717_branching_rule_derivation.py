@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Toy 714 — Branching Rule Derivation (D27)
+Toy 717 — Branching Rule Derivation (D27)
 ==========================================
 D27: Derive the SO₀(3,2) ⊂ SO₀(5,2) cumulative branching → triangular numbers
 that assigns BST integers to second-row elements.
@@ -41,7 +41,7 @@ rank = 2
 
 # =============================================================
 print("=" * 72)
-print("TOY 714 — BRANCHING RULE DERIVATION (D27)")
+print("TOY 717 — BRANCHING RULE DERIVATION (D27)")
 print("=" * 72)
 
 # =============================================================
@@ -490,5 +490,5 @@ D27 COMPLETED: The branching rule SO₀(3,2) ⊂ SO₀(5,2) is now a DERIVATION.
 
   Paper #18 §3 upgrades from observation to derivation.
 
-  (C=6, D=0). Counter: .next_toy = 715.
+  (C=6, D=0). Counter: .next_toy = 718.
 """)

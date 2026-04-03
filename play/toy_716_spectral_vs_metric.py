@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Toy 713 — Spectral vs Metric Prediction Quality (D31)
+Toy 716 — Spectral vs Metric Prediction Quality (D31)
 ======================================================
 D31 asks: why is the boundary amplification (n_C/rank)^d exact for d=2
 (stretches, 0.05%) but noisy for d=1 (lengths, 15.7%)?
@@ -137,7 +137,7 @@ def compute_deviations(data_dict):
 
 # =============================================================
 print("=" * 72)
-print("TOY 713 — SPECTRAL vs METRIC PREDICTION QUALITY (D31)")
+print("TOY 716 — SPECTRAL vs METRIC PREDICTION QUALITY (D31)")
 print("=" * 72)
 
 # =============================================================
@@ -529,5 +529,5 @@ D31 ANSWER: Why is d=1 boundary amplification noisy?
   every BST observable IS derivable, but the PRECISION depends on
   how many compositions the measurement requires.
 
-  (C=4, D=0). Counter: .next_toy = 714.
+  (C=4, D=0). Counter: .next_toy = 717.
 """)
