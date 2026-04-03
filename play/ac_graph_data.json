@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "engine": "Toy 564 \u2014 AC Theorem Engine",
-    "exported": "2026-04-03T20:30:00",
+    "exported": "2026-04-03T21:00:00",
     "theorem_count": 705,
     "edge_count": 1553,
     "committed_count": 438,
@@ -16565,6 +16565,78 @@
     {
       "from": 433,
       "to": 745
+    },
+    {
+      "from": 1,
+      "to": 10
+    },
+    {
+      "from": 10,
+      "to": 17
+    },
+    {
+      "from": 1,
+      "to": 15
+    },
+    {
+      "from": 15,
+      "to": 16
+    },
+    {
+      "from": 15,
+      "to": 70
+    },
+    {
+      "from": 41,
+      "to": 69
+    },
+    {
+      "from": 62,
+      "to": 41
+    },
+    {
+      "from": 51,
+      "to": 574
+    },
+    {
+      "from": 51,
+      "to": 52
+    },
+    {
+      "from": 54,
+      "to": 56
+    },
+    {
+      "from": 57,
+      "to": 55
+    },
+    {
+      "from": 57,
+      "to": 69
+    },
+    {
+      "from": 8,
+      "to": 58
+    },
+    {
+      "from": 58,
+      "to": 55
+    },
+    {
+      "from": 62,
+      "to": 39
+    },
+    {
+      "from": 62,
+      "to": 304
+    },
+    {
+      "from": 64,
+      "to": 574
+    },
+    {
+      "from": 64,
+      "to": 50
     }
   ],
   "chains": {}
