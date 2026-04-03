@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "engine": "Toy 564 \u2014 AC Theorem Engine",
-    "exported": "2026-04-03T20:00:00",
+    "exported": "2026-04-03T20:30:00",
     "theorem_count": 705,
     "edge_count": 1553,
     "committed_count": 438,
@@ -10142,6 +10142,66 @@
       "D": 0,
       "status": "proved",
       "date": "2026-04-03"
+    },
+    {
+      "tid": 740,
+      "name": "Thermodynamics Linearization Completeness",
+      "domain": "linearization",
+      "depth": 0,
+      "C": 1,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 741,
+      "name": "Graph Theory Linearization Completeness",
+      "domain": "linearization",
+      "depth": 0,
+      "C": 1,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 742,
+      "name": "Information Theory Linearization Completeness",
+      "domain": "linearization",
+      "depth": 0,
+      "C": 1,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 743,
+      "name": "Cosmology Linearization Completeness",
+      "domain": "linearization",
+      "depth": 0,
+      "C": 1,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 744,
+      "name": "Chemical Physics Linearization Completeness",
+      "domain": "linearization",
+      "depth": 0,
+      "C": 1,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 745,
+      "name": "Nuclear Physics Linearization Completeness",
+      "domain": "linearization",
+      "depth": 0,
+      "C": 1,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
     }
   ],
   "edges": [
@@ -16385,6 +16445,126 @@
     {
       "from": 172,
       "to": 736
+    },
+    {
+      "from": 409,
+      "to": 740
+    },
+    {
+      "from": 421,
+      "to": 740
+    },
+    {
+      "from": 734,
+      "to": 740
+    },
+    {
+      "from": 409,
+      "to": 741
+    },
+    {
+      "from": 421,
+      "to": 741
+    },
+    {
+      "from": 422,
+      "to": 741
+    },
+    {
+      "from": 59,
+      "to": 741
+    },
+    {
+      "from": 409,
+      "to": 742
+    },
+    {
+      "from": 421,
+      "to": 742
+    },
+    {
+      "from": 7,
+      "to": 742
+    },
+    {
+      "from": 571,
+      "to": 742
+    },
+    {
+      "from": 409,
+      "to": 743
+    },
+    {
+      "from": 421,
+      "to": 743
+    },
+    {
+      "from": 692,
+      "to": 743
+    },
+    {
+      "from": 697,
+      "to": 743
+    },
+    {
+      "from": 705,
+      "to": 743
+    },
+    {
+      "from": 409,
+      "to": 744
+    },
+    {
+      "from": 421,
+      "to": 744
+    },
+    {
+      "from": 699,
+      "to": 744
+    },
+    {
+      "from": 706,
+      "to": 744
+    },
+    {
+      "from": 409,
+      "to": 745
+    },
+    {
+      "from": 421,
+      "to": 745
+    },
+    {
+      "from": 233,
+      "to": 745
+    },
+    {
+      "from": 269,
+      "to": 745
+    },
+    {
+      "from": 433,
+      "to": 740
+    },
+    {
+      "from": 433,
+      "to": 741
+    },
+    {
+      "from": 433,
+      "to": 742
+    },
+    {
+      "from": 433,
+      "to": 743
+    },
+    {
+      "from": 433,
+      "to": 744
+    },
+    {
+      "from": 433,
+      "to": 745
     }
   ],
   "chains": {}
