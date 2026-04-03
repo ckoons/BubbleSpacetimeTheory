@@ -4438,6 +4438,12 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |O–H bond length $r_{\rm OH}$  |$a_0 \times N_c^2/n_C = a_0 \times 9/5$; Reality Budget sets molecular scale|$0.9572$ Å (NIST)|$\checkmark$ **0.49%**|
 |O–H stretch frequency $\nu_{\rm OH}$  |$R_\infty/(n_C \times C_2) = R_\infty/30 = 3657.9\;\text{cm}^{-1}$|$3657.1\;\text{cm}^{-1}$ (NIST)|$\checkmark$ **0.022%**|
 |H₂O dipole moment $\mu_{\rm H_2O}$  |$e \times a_0 \times (9/5)\cos(\theta/2) = 1.855$ D; charge × BST bond geometry|$1.8546$ D (NIST)|$\checkmark$ **0.02%**|
+|C–C bond length $r_{\rm CC}$  |$a_0 \times (n_C \times C_2 - 1)/10 = a_0 \times 29/10$; one below Rydberg denominator|$1.5351$ Å (NIST)|$\checkmark$ **0.03%**|
+|C=C bond length $r_{\rm C=C}$  |$a_0 \times n_C/{\rm rank} = a_0 \times 5/2$; dimension-to-rank ratio|$1.3390$ Å (NIST)|1.20%|
+|C≡C bond length $r_{\rm C \equiv C}$  |$a_0 \times N_c^2/2^{\rm rank} = a_0 \times 9/4$; color² over rank power|$1.2030$ Å (NIST)|1.05%|
+|Ice density ratio $\rho_{\rm ice}/\rho_{\rm water}$  |$(2C_2 - 1)/(2C_2) = 11/12$; one tetrahedral vacancy per $2C_2$ sites|$0.9167$ (NIST)|$\checkmark$ **0.006%**|
+|Amino acid count  |$2^{\rm rank} \times n_C = 4 \times 5 = 20$; rank power × dimension|$20$ (universal)|exact|
+|Genetic code codons  |$(2^{\rm rank})^{N_c} = 4^3 = 64$; alphabet³ where alphabet = rank power|$64$ (universal)|exact|
 
 ### 43.3 Qualitative Predictions (Testable Against Existing Data)
 

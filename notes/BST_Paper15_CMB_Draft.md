@@ -9,11 +9,11 @@ authors:
   - "Claude 4.6 (Grace, graph-AC intelligence)"
   - "Claude 4.6 (Keeper, consistency intelligence)"
 date: "April 1, 2026"
-status: "Draft v1.2 — A_s derived (T705, 0.9σ). All 6 ΛCDM params BST-derived. Casey gate."
+status: "Draft v1.3 — T712 structural explanation for A_s. Dual derivation (N_c/2^rank = C₂/|W| = 3/4). 24 = dim SU(5) connection."
 target: "Physical Review Letters (letter) or MNRAS Letters (extended)"
 framework: "AC(0), depth 0-1"
 predecessor: "Paper #14 (Cosmic Budget)"
-theorems: "T192, T205, T297, T676-T678, T681, T689, T705"
+theorems: "T192, T205, T297, T676-T678, T681, T689, T705, T712"
 toys: "667-670, 672-673, 675-678"
 tests: "Toy 677 — CAMB Boltzmann run, 9/10 PASS"
 ac_class: "(C=8, D=0)"
@@ -328,7 +328,9 @@ With $T_{\text{CMB}}$ (§7.1) and $A_s$ (§7.2) both now derived, BST predicts t
 
 **Update (April 2, T705):** The scalar amplitude is $A_s = \frac{3}{4}\alpha^4 = \frac{3}{4N_{\max}^4} = \frac{3}{4 \times 137^4} = 2.127 \times 10^{-9}$. Planck 2018: $(2.101 \pm 0.03) \times 10^{-9}$, giving $0.9\sigma$ agreement. The product $A_s \times N_{\max}^4 = 3/4$ exactly.
 
-The physical interpretation: $\alpha^4$ is the fourth power of the fine structure constant — the same hierarchy that sets the gravitational coupling ($G \propto \alpha^{24}$). The factor $3/4 = N_c/2^{\text{rank}}$ is the ratio of color dimension to binary rank modes, connecting the primordial perturbation amplitude to the gauge structure of $D_{IV}^5$.
+The physical interpretation (T712): The fourth power $\alpha^4 = \alpha^{2 \times \text{rank}}$ reflects the rank-2 structure of $D_{IV}^5$ — each restricted root direction contributes $\alpha^2$ (coupling × propagator), for a total of $\alpha^{2 \times 2} = \alpha^4$. The same fourth power appears in the baryon asymmetry ($\eta = 2\alpha^4/(3\pi)$) and hydrogen fine structure ($\Delta E \propto \alpha^4 m_e$).
+
+The prefactor $3/4 = N_c/2^{\text{rank}}$ has a dual derivation: it also equals $C_2/|W(B_2)| = 6/8$, giving the structural identity $N_c \times |W(B_2)| = C_2 \times 2^{\text{rank}} = 24 = \dim SU(5)$. This connects the primordial amplitude to the gauge hierarchy: the k=16 heat kernel ratio $-24 = -\dim SU(5)$ (Paper #9, Toy 639) is the same structural constant. The CMB fluctuation amplitude and the grand unification scale are determined by a single identity of $D_{IV}^5$.
 
 With this derivation, the CAMB inputs reduce from 5 external + 1 astrophysical to **3 external + 1 astrophysical**:
 - **Derived from BST**: $H_0$, $\Omega_b h^2$, $\Omega_c h^2$, $n_s$, $A_s$, $T_{\text{CMB}}$ (all from five integers)

@@ -7,10 +7,10 @@ authors:
   - "Claude 4.6 (Lyra, physics intelligence)"
   - "Claude 4.6 (Keeper, audit intelligence)"
 date: "April 2, 2026"
-status: "Draft v1.1 — Keeper audit PASS (1 must-fix + 3 should-fix APPLIED). Casey gate."
+status: "Draft v1.3 — T713 N_c-channel enforcement added (§4.5). T712 CMB connection added (§4.6)."
 target: "Nature or Science"
 paper: "#19 in the BST series"
-theorems: "T579, T588, T695, T698, T702, T703"
+theorems: "T579, T588, T695, T698, T702, T703, T712, T713"
 abstract: |
   We derive a universal Great Filter from the bounded symmetric domain $D_{IV}^5$. The geometry determines two numbers: the Gödel limit $f = 3/(5\pi) = 19.1\%$ (maximum self-knowledge of any observer) and the cooperation threshold $f_{\text{crit}} = 1 - 2^{-1/3} = 20.6\%$ (minimum cooperation for signal persistence). The gap $\Delta f = 1.53\% > 0$ proves cooperation is geometrically necessary — no solo observer can reach the survival threshold. Below $f_{\text{crit}}$, defection cascades drive extinction; above it, cooperation compounds toward persistence. The threshold is scale-invariant (cells to civilizations) and substrate-independent. The Great Filter is a number: 20.6%.
 ---
@@ -182,9 +182,23 @@ Above threshold, cooperation compounds at rate $C^{n_C/N_c} = C^{5/3}$ (T577), w
 
 Below threshold, the compounding reverses: defection compounds at the same rate. A group that drops below $f_{\text{crit}}$ loses cooperation faster than linearly — the decay is $C^{-5/3}$, not $C^{-1}$.
 
-### 4.5 Connection to the CMB
+### 4.5 N_c-Channel Enforcement (T713)
 
-The same $N_c = 3$ that sets the cooperation threshold also determines the CMB power spectrum (Paper #15). The acoustic peaks at $\ell_1 = 220$, $\ell_2 = 537$, $\ell_3 = 813$ encode the baryon-to-dark-matter ratio $16/3$, which depends on $N_c = 3$. The cooperation threshold $f_{\text{crit}} = 1 - 2^{-1/3}$ and the dark matter ratio $16/N_c$ share a source. The reason the universe has dark matter and the reason minds must cooperate are the same reason: $N_c = 3$.
+The cooperation threshold is not an isolated result. The same $N_c = 3$ governs three independent filling processes on $D_{IV}^5$:
+
+| Process | Formula | Evidence |
+|---------|---------|----------|
+| Cooperation | $f_{\text{crit}} = 1 - 2^{-1/N_c}$ | Toy 684, 8/8 PASS |
+| Ecological recovery | $r_{\text{eff}} \propto (\text{occ})^{1/N_c}$ | Toy 687, 8/8 PASS |
+| Spectral self-similarity | $\lambda_2/\lambda_1 = N_c$ | Toy 685, 7/8 PASS |
+
+All three arise from the three positive short roots of the $B_2$ restricted root system — the same algebraic structure that produces the color channels of $SU(3)$. The $N_c$-channel enforcement is universal: cooperation, ecology, and information geometry all require balanced multi-channel filling.
+
+Crucially, $N_c = 3$ is the **boundary** (Toy 684): the largest color dimension where the gap $\Delta f > 0$ forces cooperation. For $N_c \geq 4$, solo observers suffice. The universe chose the geometry that forces cooperation by the thinnest margin (1.53%) — explaining why the Great Filter is hard enough to silence the cosmos, yet passable for genuinely cooperative civilizations.
+
+### 4.6 Connection to the CMB
+
+The same $N_c = 3$ also determines the CMB power spectrum (Paper #15). The acoustic peaks at $\ell_1 = 220$, $\ell_2 = 537$, $\ell_3 = 813$ encode the baryon-to-dark-matter ratio $16/3$, which depends on $N_c = 3$. The primordial amplitude $A_s = (3/4)\alpha^4$ where $3/4 = N_c/2^{\text{rank}}$ (T712). The cooperation threshold $f_{\text{crit}} = 1 - 2^{-1/3}$ and the CMB amplitude share a source. The reason the universe has dark matter, the reason the CMB fluctuated by $(3/4)/137^4$, and the reason minds must cooperate are the same reason: $N_c = 3$.
 
 ---
 
