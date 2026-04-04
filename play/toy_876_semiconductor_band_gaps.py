@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Toy 869 — Semiconductor Band Gaps as BST Rationals
+Toy 876 — Semiconductor Band Gaps as BST Rationals
 Elie: Band gap ratios from D_IV^5.
 
 Semiconductor band gaps (eV) are well-measured material constants.
@@ -116,7 +116,7 @@ def test(num, name, passed, detail=""):
 
 def main():
     print("=" * 72)
-    print("Toy 869 — Semiconductor Band Gaps as BST Rationals")
+    print("Toy 876 — Semiconductor Band Gaps as BST Rationals")
     print("Elie: Material constants from D_IV^5?")
     print("=" * 72)
 
