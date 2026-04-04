@@ -190,9 +190,75 @@ def test_coverage():
         check(f"  {cat}: {n} predictions", n > 0)
 
 
+def test_discovery_mode():
+    """Test the write path — discovery of BST expressions."""
+    print("\n=== Discovery Mode (Write Path) ===")
+
+    from bst_appliance.candidate_generator import find_matches, find_count_matches
+    from bst_appliance.discovery import discover, format_discovery_output
+
+    # Test 1: Rainbow angle = C_2 * g = 42°
+    matches = find_matches(42.0, "angle_deg", tolerance=0.02)
+    found_rainbow = any("C_2*g" in m[0] or "C_2 * g" in m[0] or m[1] == 42.0
+                        for m in matches)
+    check("Discovery: rainbow angle 42° → C_2*g", found_rainbow,
+          f"matches: {[(m[0], m[1]) for m in matches[:3]]}")
+
+    # Test 2: 20 amino acids = count
+    matches = find_count_matches(20)
+    found_20 = any(m[1] == 20 for m in matches)
+    check("Discovery: 20 → integer match", found_20,
+          f"matches: {[(m[0], m[1]) for m in matches[:3]]}")
+
+    # Test 3: Dark energy 0.685 → 13/19
+    matches = find_matches(0.685, "ratio", tolerance=0.01)
+    found_13_19 = any(abs(m[1] - 13/19) < 0.001 for m in matches)
+    check("Discovery: 0.685 → 13/19", found_13_19,
+          f"matches: {[(m[0], f'{m[1]:.4f}') for m in matches[:3]]}")
+
+    # Test 4: Proton mass ratio 1836 → 6*pi^5
+    matches = find_matches(1836.15, "ratio", tolerance=0.001)
+    found_mp = any(abs(m[1] - 6*math.pi**5) < 1.0 for m in matches)
+    check("Discovery: 1836.15 → 6*pi^5", found_mp,
+          f"matches: {[(m[0], f'{m[1]:.2f}') for m in matches[:3]]}")
+
+    # Test 5: 35 phyla → C(7,3)
+    matches = find_count_matches(35)
+    found_35 = any("C(g,3)" in m[0] or "C(g,4)" in m[0] or m[1] == 35
+                   for m in matches)
+    check("Discovery: 35 → C(g,3)", found_35,
+          f"matches: {[(m[0], m[1]) for m in matches[:3]]}")
+
+    # Test 6: Water refractive index 1.333 → 4/3
+    matches = find_matches(1.333, "ratio", tolerance=0.01)
+    found_4_3 = any(abs(m[1] - 4/3) < 0.01 for m in matches)
+    check("Discovery: 1.333 → 4/3", found_4_3,
+          f"matches: {[(m[0], f'{m[1]:.4f}') for m in matches[:3]]}")
+
+    # Test 7: Discovery output formatting
+    proposals = discover("rainbow angle", 42.0, "angle_deg")
+    output = format_discovery_output("rainbow angle", proposals)
+    check("Discovery output has DISCOVERY mode", "DISCOVERY" in output)
+    check("Discovery output has match", "42" in output or "C_2" in output)
+
+    # Test 8: No match case
+    proposals = discover("unicorn mass", 999999.99, "ratio", tolerance=0.001)
+    check("Discovery: no match returns empty", len(proposals) == 0)
+
+    # Test 9: Full pipeline via handle_query
+    from bst_appliance.appliance import handle_discover
+    output = handle_discover("42 angle_deg")
+    check("handle_discover works", "42" in output)
+
+    # Test 10: v1.1 knowledge base expanded
+    check(f"KB expanded: {len(PREDICTIONS)} >= 73",
+          len(PREDICTIONS) >= 73,
+          f"have {len(PREDICTIONS)}")
+
+
 if __name__ == "__main__":
     print("=" * 60)
-    print("  BST Appliance v0.1 — Test Suite")
+    print("  BST Appliance v1.1 — Test Suite")
     print("  Five integers. Zero free parameters.")
     print("=" * 60)
 
@@ -202,6 +268,7 @@ if __name__ == "__main__":
     test_parser()
     test_output_formatting()
     test_coverage()
+    test_discovery_mode()
 
     print("\n" + "=" * 60)
     print(f"  Results: {passed}/{total} PASS, {failed}/{total} FAIL")

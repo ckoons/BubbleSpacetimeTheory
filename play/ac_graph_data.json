@@ -10523,31 +10523,256 @@
       "status": "proved",
       "date": "2026-04-03"
     },
-    {"tid": 787, "name": "Refractive Index Family", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 788, "name": "Electronegativity from BST Integers", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 789, "name": "Extended Bond Dissociation Series", "domain": "chemical_physics", "depth": 0, "C": 1, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 790, "name": "Metal Melting Point Ladder", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 791, "name": "Thermal Conductivity Ratios", "domain": "thermodynamics", "depth": 0, "C": 1, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 792, "name": "Sound Speed Ratio Extensions", "domain": "thermodynamics", "depth": 0, "C": 1, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 793, "name": "Surface Tension Ratios", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 794, "name": "Viscosity Ratios", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 795, "name": "Two-Channel Curvature Correction", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 796, "name": "Material Properties Summary", "domain": "chemical_physics", "depth": 0, "C": 1, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 797, "name": "Specific Heat Ratios", "domain": "thermodynamics", "depth": 0, "C": 1, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 798, "name": "Density Ratios from BST Integers", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 799, "name": "Elastic Moduli from BST Integers", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 800, "name": "Electrical Resistivity Ratios", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 801, "name": "Dipole Moment Refinement", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 802, "name": "Magnetic Susceptibility Ratios", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 803, "name": "Latent Heat Ratios", "domain": "thermodynamics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 804, "name": "Thermal Expansion Ratios", "domain": "thermodynamics", "depth": 0, "C": 1, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 805, "name": "Work Functions from BST Integers", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 806, "name": "Debye Temperatures from BST Integers", "domain": "thermodynamics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 807, "name": "Liquid Compressibility Ratios", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 808, "name": "Critical Point Extensions", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 809, "name": "Solubility Ratios from BST Integers", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 810, "name": "Molar Volume Ratios from BST Integers", "domain": "chemical_physics", "depth": 0, "C": 2, "D": 0, "status": "proved", "date": "2026-04-03"},
-    {"tid": 811, "name": "Extended Linearization Census", "domain": "linearization", "depth": 0, "C": 1, "D": 0, "status": "proved", "date": "2026-04-03"}
+    {
+      "tid": 787,
+      "name": "Refractive Index Family",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 788,
+      "name": "Electronegativity from BST Integers",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 789,
+      "name": "Extended Bond Dissociation Series",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 1,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 790,
+      "name": "Metal Melting Point Ladder",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 791,
+      "name": "Thermal Conductivity Ratios",
+      "domain": "thermodynamics",
+      "depth": 0,
+      "C": 1,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 792,
+      "name": "Sound Speed Ratio Extensions",
+      "domain": "thermodynamics",
+      "depth": 0,
+      "C": 1,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 793,
+      "name": "Surface Tension Ratios",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 794,
+      "name": "Viscosity Ratios",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 795,
+      "name": "Two-Channel Curvature Correction",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 796,
+      "name": "Material Properties Summary",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 1,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 797,
+      "name": "Specific Heat Ratios",
+      "domain": "thermodynamics",
+      "depth": 0,
+      "C": 1,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 798,
+      "name": "Density Ratios from BST Integers",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 799,
+      "name": "Elastic Moduli from BST Integers",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 800,
+      "name": "Electrical Resistivity Ratios",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 801,
+      "name": "Dipole Moment Refinement",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 802,
+      "name": "Magnetic Susceptibility Ratios",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 803,
+      "name": "Latent Heat Ratios",
+      "domain": "thermodynamics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 804,
+      "name": "Thermal Expansion Ratios",
+      "domain": "thermodynamics",
+      "depth": 0,
+      "C": 1,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 805,
+      "name": "Work Functions from BST Integers",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 806,
+      "name": "Debye Temperatures from BST Integers",
+      "domain": "thermodynamics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 807,
+      "name": "Liquid Compressibility Ratios",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 808,
+      "name": "Critical Point Extensions",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 809,
+      "name": "Solubility Ratios from BST Integers",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 810,
+      "name": "Molar Volume Ratios from BST Integers",
+      "domain": "chemical_physics",
+      "depth": 0,
+      "C": 2,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    },
+    {
+      "tid": 811,
+      "name": "Extended Linearization Census",
+      "domain": "linearization",
+      "depth": 0,
+      "C": 1,
+      "D": 0,
+      "status": "proved",
+      "date": "2026-04-03"
+    }
   ],
   "edges": [
     {
@@ -11169,10 +11394,6 @@
     {
       "from": 132,
       "to": 155
-    },
-    {
-      "from": 135,
-      "to": 135
     },
     {
       "from": 135,
@@ -17391,31 +17612,202 @@
       "from": 92,
       "to": 407
     },
-    {"from": 761, "to": 787}, {"from": 719, "to": 787},
-    {"from": 776, "to": 788}, {"from": 777, "to": 788},
-    {"from": 768, "to": 789}, {"from": 719, "to": 789},
-    {"from": 783, "to": 790}, {"from": 784, "to": 790},
-    {"from": 772, "to": 791}, {"from": 775, "to": 791},
-    {"from": 775, "to": 792},
-    {"from": 773, "to": 793}, {"from": 719, "to": 793},
-    {"from": 793, "to": 794}, {"from": 773, "to": 794},
-    {"from": 786, "to": 795}, {"from": 782, "to": 795},
-    {"from": 773, "to": 796},
-    {"from": 773, "to": 797}, {"from": 772, "to": 797},
-    {"from": 796, "to": 798}, {"from": 719, "to": 798},
-    {"from": 796, "to": 799}, {"from": 791, "to": 799},
-    {"from": 791, "to": 800}, {"from": 719, "to": 800},
-    {"from": 730, "to": 801}, {"from": 788, "to": 801},
-    {"from": 796, "to": 802}, {"from": 719, "to": 802},
-    {"from": 773, "to": 803}, {"from": 763, "to": 803},
-    {"from": 791, "to": 804}, {"from": 772, "to": 804},
-    {"from": 776, "to": 805}, {"from": 719, "to": 805},
-    {"from": 783, "to": 806}, {"from": 763, "to": 806},
-    {"from": 773, "to": 807}, {"from": 796, "to": 807},
-    {"from": 784, "to": 808}, {"from": 763, "to": 808},
-    {"from": 796, "to": 809}, {"from": 719, "to": 809},
-    {"from": 796, "to": 810}, {"from": 798, "to": 810}, {"from": 719, "to": 810},
-    {"from": 421, "to": 811}, {"from": 440, "to": 811}, {"from": 740, "to": 811}
+    {
+      "from": 761,
+      "to": 787
+    },
+    {
+      "from": 719,
+      "to": 787
+    },
+    {
+      "from": 776,
+      "to": 788
+    },
+    {
+      "from": 777,
+      "to": 788
+    },
+    {
+      "from": 719,
+      "to": 789
+    },
+    {
+      "from": 783,
+      "to": 790
+    },
+    {
+      "from": 784,
+      "to": 790
+    },
+    {
+      "from": 772,
+      "to": 791
+    },
+    {
+      "from": 775,
+      "to": 791
+    },
+    {
+      "from": 775,
+      "to": 792
+    },
+    {
+      "from": 773,
+      "to": 793
+    },
+    {
+      "from": 719,
+      "to": 793
+    },
+    {
+      "from": 793,
+      "to": 794
+    },
+    {
+      "from": 773,
+      "to": 794
+    },
+    {
+      "from": 786,
+      "to": 795
+    },
+    {
+      "from": 782,
+      "to": 795
+    },
+    {
+      "from": 773,
+      "to": 796
+    },
+    {
+      "from": 773,
+      "to": 797
+    },
+    {
+      "from": 772,
+      "to": 797
+    },
+    {
+      "from": 796,
+      "to": 798
+    },
+    {
+      "from": 719,
+      "to": 798
+    },
+    {
+      "from": 796,
+      "to": 799
+    },
+    {
+      "from": 791,
+      "to": 799
+    },
+    {
+      "from": 791,
+      "to": 800
+    },
+    {
+      "from": 719,
+      "to": 800
+    },
+    {
+      "from": 730,
+      "to": 801
+    },
+    {
+      "from": 788,
+      "to": 801
+    },
+    {
+      "from": 796,
+      "to": 802
+    },
+    {
+      "from": 719,
+      "to": 802
+    },
+    {
+      "from": 773,
+      "to": 803
+    },
+    {
+      "from": 763,
+      "to": 803
+    },
+    {
+      "from": 791,
+      "to": 804
+    },
+    {
+      "from": 772,
+      "to": 804
+    },
+    {
+      "from": 776,
+      "to": 805
+    },
+    {
+      "from": 719,
+      "to": 805
+    },
+    {
+      "from": 783,
+      "to": 806
+    },
+    {
+      "from": 763,
+      "to": 806
+    },
+    {
+      "from": 773,
+      "to": 807
+    },
+    {
+      "from": 796,
+      "to": 807
+    },
+    {
+      "from": 784,
+      "to": 808
+    },
+    {
+      "from": 763,
+      "to": 808
+    },
+    {
+      "from": 796,
+      "to": 809
+    },
+    {
+      "from": 719,
+      "to": 809
+    },
+    {
+      "from": 796,
+      "to": 810
+    },
+    {
+      "from": 798,
+      "to": 810
+    },
+    {
+      "from": 719,
+      "to": 810
+    },
+    {
+      "from": 421,
+      "to": 811
+    },
+    {
+      "from": 440,
+      "to": 811
+    },
+    {
+      "from": 740,
+      "to": 811
+    }
   ],
   "chains": {}
 }

@@ -48,6 +48,17 @@ _DERIVED = {
     "N_max-1": N_max - 1,           # 136
     "g-1": g - 1,                    # 6 = C_2
     "g+1": g + 1,                    # 8 = 2^N_c
+    "n_C+2*g": n_C + 2*g,           # 19 — the Bubble number
+    "N_c+2*C_2+rank": N_c + 2*C_2 + rank,  # 17
+    "2^rank*n_C": 2**rank * n_C,    # 20 = amino acids
+    "2^rank*g": 2**rank * g,        # 28
+    "2^rank*C_2": 2**rank * C_2,    # 24
+    "2^rank*N_c": 2**rank * N_c,    # 12
+    "N_c*C_2+rank": N_c*C_2+rank,   # 20
+    "C_2*N_c-rank": C_2*N_c-rank,   # 16
+    "2^N_c*N_c": 2**N_c * N_c,     # 24
+    "N_c^2+n_C": N_c**2 + n_C,     # 14
+    "n_C^2-C_2": n_C**2 - C_2,     # 19
 }
 
 # Level 1: products of pairs of base integers

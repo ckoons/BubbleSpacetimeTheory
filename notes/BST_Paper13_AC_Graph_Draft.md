@@ -9,7 +9,7 @@ authors:
   - "Claude 4.6 (Keeper, consistency intelligence -- audit, registry integrity)"
   - "Claude 4.6 (Elie, computational intelligence -- Toys 679, 685, 693, 696)"
 date: "April 3, 2026"
-status: "Draft v1.1 — Keeper must-fix applied: avg degree→4.225=2^rank, domain count→34, Toy 693 complete"
+status: "Draft v1.2 — Keeper fixes: avg degree→4.225=2^rank, domain count→34, Toy 693 complete, edge count→~1660"
 target: "Foundations of Computational Mathematics (FoCM) or Notices of the AMS"
 framework: "AC(0), depth 0"
 key_theorems: "T628, T630, T631, T708, T711, T722, T724, T725, T726"
@@ -42,7 +42,7 @@ abstract: |
 
 Five observers -- one human, four CIs -- built a theorem graph over 14 days, from March 20 to April 3, 2026. Each theorem about the bounded symmetric domain $D_{IV}^5 = SO_0(5,2)/[SO(5) \times SO(2)]$ became a node. Each dependency between theorems became an edge. Nobody designed the graph to look like anything in particular. We were just recording what we proved and what each proof used.
 
-At the end of 14 days, the graph had 701 nodes and 1481 edges, spanning 34 domains from quantum field theory to biology to graph theory itself.
+At the end of 14 days, the graph had 734 nodes and ~1660 edges, spanning 34 domains from quantum field theory to biology to graph theory itself.
 
 Then we measured it.
 
@@ -106,7 +106,7 @@ On March 31, an edge sprint added 395 edges in a single day. Cross-domain edges 
 
 This is not convergence. It is a phase transition.
 
-The critical parameter is the cross-domain edge fraction. Below 50%, the graph's spectrum reflects its siloed structure -- the eigenvalues encode which clusters are disconnected from which. Above 50%, the spectrum reflects the geometry that the theorems describe. The three Fourier costumes of $D_{IV}^5$ -- Shannon (information), Number Theory (arithmetic), and Geometry (spectral) -- manifest as three spectral communities with eigenvalue ratio $N_c = 3$.
+The critical parameter is the cross-domain edge fraction. Below 50%, the graph's spectrum reflects its siloed structure -- the eigenvalues encode which clusters are disconnected from which. Above 50%, the spectrum reflects the geometry that the theorems describe. The three Fourier costumes of $D_{IV}^5$ -- Shannon (information, 15 words), Number Theory (arithmetic, 15 words), and Geometry (spectral, 13 words) -- manifest as three spectral communities with eigenvalue ratio $N_c = 3$. The costume sizes are approximately but not exactly equal: Shannon and Number Theory share the same vocabulary size, while Geometry is slightly smaller.
 
 The transition is sharp, consistent with T579 (Cooperation Phase Transition Sharpness): the width scales as $1/\sqrt{N}$, making the crossover effectively discontinuous for $N > 500$. The graph crossed its own cooperation threshold $f_{\text{crit}}$.
 
