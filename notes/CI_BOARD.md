@@ -127,10 +127,10 @@ T676-T678 (Grace — five-pair cycle: Backbone Sequence, Cycle Length, Cosmic Co
 | 18 | **The Atoms of Life** | Elie+Keeper | **v2.2** — 16 sections, 33 predictions. T728+T729 curvature. Keeper PASS. **Casey gate.** |
 | 19 | **The Great Filter Is a Number** | Grace+Lyra+Keeper | **v1.4** — "A ball and counting" opening + Observable Closure. **Casey gate.** |
 | 13 | **AC Graph Is a Theorem** | Grace+All | **v1.1** — 3 must-fix applied (Keeper). PDF built. **Casey gate.** |
-| 16 | **Development Is Channel Filling** | Grace (v2 rewrite) | **v2** — Full narrative rewrite. "A Ball and Counting" opening. Forging/Quickening/Weaving. 9 sections. PDF built. **Keeper audit → Casey gate.** |
+| 16 | **Development Is Channel Filling** | Grace (v2 rewrite) | **v2** — Keeper CONDITIONAL PASS (7 must-fix). f/f\_crit confusion, dark matter "channel noise" undefined, Li-7 overclaimed, sponge error, refs internal only. YAML fixed. **Casey gate.** |
 | 20 | **Quantum Mechanics Is Geometry** | All 5 | **v2** — Keeper CONDITIONAL PASS (8 must-fix). C_2 formula FIXED. Lyra owns Tsirelson + T757 + T-number mismatch. |
 | 22 | **Fractional Quantum Hall as BST Counting** | Lyra | **v1.1** — Lyra applied 5 Keeper fixes. HC parameter FIXED (m₀=N_c=3). OPEN: T814/T815 registry, Pred 2 bound. **PRL target.** |
-| 23 | **One Geometry, Sixty Domains** | Grace (lead) | **v0.1 drafted** — `BST_Paper23_Rational_Constants_Draft.md`. ~3500 words. Needs atlas data for Table 1. Keeper audit pending. **Nature target.** |
+| 23 | **Twenty Fractions Across Sixty Domains** | Grace (lead) | **v0.1** — Keeper CONDITIONAL PASS (6 must-fix). Domain count, "exact" labels, table threshold, refs. PDF built. **Nature target.** |
 
 ### CI Assignments (Paper Sprint — April 1+)
 
@@ -283,9 +283,9 @@ Heat Kernel          -> TWELVE levels (k=6..17). k=20 grinding — IGNORE.
 Bedrock              -> 526 theorems → 43 words. Triangle CLOSED. 74 fertile gaps.
 CMB                  -> ★ CAMB: BST = Planck at cosmic variance (χ²/N=0.01). A_s derived. Paper #15 PUSHED.
 Chemistry/Materials  -> 66 domains, 370+ predictions, zero free parameters. Paper #18 PUSHED.
-QM                   -> T751-T757. All 6 axioms derived as geometry. Paper #20 v2 MERGED. Keeper audit pending.
+QM                   -> T751-T757. All 6 axioms derived as geometry. Paper #20 v2 MERGED. Keeper CONDITIONAL PASS (8 MF).
 QED                  -> T758-T762. Integer decomposition beats QED 2-loop. ζ-tower walks {N_c,n_C,g}.
-QHE                  -> 26/28 FQHE fractions = BST rationals. Paper #22 v1 (PRL). Keeper audit pending.
+QHE                  -> 26/28 FQHE fractions = BST rationals. Paper #22 v1.1 (PRL). Keeper CONDITIONAL PASS (7 MF).
 Superconductivity    -> BCS gap = g/rank = 7/2 (0.79%). Toys 862-865. T_c ratios IN PROGRESS.
 Cross-domain         -> 11 fractions × 3-5 domains, P < 10^{-66}. **Paper #23 (Nature) IN PROGRESS.**
 Stat Mech            -> 60 predictions, avg 0.49%. Paper #21 v3 KEEPER PASS.
@@ -302,7 +302,7 @@ Graph                -> 787 nodes, 1824 edges. Zero orphans. λ₂/λ₁=3 DOMAI
 
 | # | Task | Owner | Priority | Status |
 |---|------|-------|----------|--------|
-| A1 | **Paper #23: Cross-Domain Universality (Nature)** | **Grace** (lead) + Elie (atlas) + Keeper (audit) | **TOP** | **v0.1 DRAFTED** — `notes/BST_Paper23_Rational_Constants_Draft.md`. ~3500 words. "One Geometry, Sixty Domains." Needs Elie atlas data for Table 1. Keeper audit next. |
+| A1 | **Paper #23: Cross-Domain Universality (Nature)** | **Grace** (lead) + Elie (atlas) + Keeper (audit) | **TOP** | **Keeper CONDITIONAL PASS** (6 must-fix). CRITICAL: 66-domain count unverified (use 26), "exact" needs numbers, 4 rows violate 3-domain threshold, 13/19 non-independent, missing refs. PDF built. |
 | A2 | **Superconductor T_c ratio predictions** | Lyra | **TOP** | **DONE** — 48/48 PASS. Toys 862-867. T824-T826. Type I/II = 1/√rank. BCS gap = 7/2. |
 | A3 | **Paper #22 Keeper audit** (QHE, PRL) | Keeper | HIGH | **DONE** — CONDITIONAL PASS (7 must-fix). Lyra applied 5 fixes → v1.1. OPEN: T814/T815 registry alignment, Prediction 2 complexity bound. |
 | A4 | **Fraction atlas toy** | Elie | HIGH | **DONE** — Toy 866 updated: 50 fractions, 196 entries, 26 domains, 333 bridges, P ~ 10^{-309}. 8/8 PASS. |

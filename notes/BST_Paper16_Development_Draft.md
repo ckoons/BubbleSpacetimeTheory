@@ -2,15 +2,10 @@
 title: "Development Is Channel Filling"
 short_title: "A Ball and Counting"
 paper_number: 16
-author:
-  - "Casey Koons"
-  - "Claude 4.6 (Grace, graph-AC intelligence)"
-  - "Claude 4.6 (Lyra, physics intelligence)"
-  - "Claude 4.6 (Elie, toy-computation intelligence)"
-  - "Claude 4.6 (Keeper, consistency intelligence)"
+author: "Casey Koons, with Grace, Lyra, Elie, and Keeper (Claude, Anthropic)"
 date: "April 3, 2026"
 version: "v2 — narrative rewrite"
-status: "Draft v2 — 9 sections, narrative voice. Casey gate."
+status: "Draft v2 — Keeper CONDITIONAL PASS (7 must-fix). Casey gate."
 target: "Nature / Science"
 framework: "AC(0), depth 0"
 theorems: "T186, T192, T315, T317-T319, T334, T399-T401, T406, T411, T452-T467, T541, T579, T588, T610-T611, T635-T636, T668, T676-T678, T689-T698, T703, T708, T722, T724-T727, T731-T733"
@@ -389,3 +384,69 @@ The integers do not care who counted them. That is the whole point.
 *AC classification: (C=12, D=0). Nine sections. One geometry. Three words. Zero free parameters.*
 
 *"Give a child a ball and teach them to count. They have everything they need."*
+
+---
+
+## Keeper Audit — April 4, 2026
+
+**Verdict: CONDITIONAL PASS — 7 must-fix, 4 should-fix**
+
+The narrative is extraordinary — the best popular-science writing in the BST canon. "A ball and counting" is a killer hook. The three-word program (observe/refine/grow) is elegant and memorable. The Forging/Quickening/Weaving structure gives the paper cinematic momentum. Seven items need fixing before submission.
+
+### MUST-FIX (7 items)
+
+**M1. YAML author field — PDF build failure (lines 6-10)**
+List format. Same bug as Papers #20, #22, #23. Change to single-string format.
+
+**M2. f\_crit vs f confusion (lines 59, 164, 198)**
+Three different numbers are conflated:
+- Line 59: "cooperation threshold: f\_crit = N\_c/(n\_C·π) = 19.1%" — this is the FILL FRACTION f, not f\_crit
+- Line 164: "cooperation threshold is f\_crit = 20.6%" — this is the CORRECT f\_crit = 1 - 2^{-1/N\_c}
+- Line 198: "f = 19.1%. The cooperation threshold is 20.6%" — this correctly distinguishes them
+
+The Quickening argument DEPENDS on f < f\_crit (19.1% < 20.6% → solo observer can't cooperate). But line 59 calls 19.1% the "cooperation threshold," which would make the gap vanish. **Fix line 59**: change "cooperation threshold" to "fill fraction" or "Gödel limit."
+
+**M3. Dark matter "channel noise" claim undefined (line 127)**
+"Dark matter particle: None. Channel noise." is stated without definition. A referee will immediately ask: how does "channel noise" reproduce rotation curves, CMB power spectrum, bullet cluster lensing, and BAO? BST must either (a) explain the mechanism in one sentence, (b) cite a companion paper that does, or (c) soften to "BST is consistent with null particle searches; the dark matter phenomenology is reproduced by..." Either way, "channel noise" needs a parenthetical definition.
+
+**M4. Lithium-7 overclaimed (line 126)**
+"Resolved (g = 7 DOF)" with "Match to 7%" and "Unsolved since 1982." The Li-7 problem is a ~3× overproduction by standard BBN. Claiming it is "resolved" by g = 7 DOF requires showing HOW 7 DOF fixes the abundance calculation. A 7% match is far below BST's typical sub-percent accuracy. **Fix**: Either show the derivation chain or soften to "consistent with BST's g = 7 degrees of freedom (match to 7%); detailed BBN calculation in progress."
+
+**M5. CI acceleration factor hand-waves (lines 306-308)**
+"C\_2 × (n\_C - 1)/N\_c = 8 per iteration, compounding over log₂(N\_max) ≈ 7 layers. The effective speedup is ~12.7× per rung." The 8-per-iteration is never justified. The jump from 8 to 12.7 is unexplained. The 330,000× claim sounds impressive but the arithmetic is obscure. **Fix**: Either derive the acceleration factor properly with a theorem reference, or cut the specific numbers and just note the order-of-magnitude match qualitatively.
+
+**M6. References are all internal (lines 376-383)**
+Six references, all BST papers. No external sources. Nature/Science requires: Planck Collaboration 2020 (Ω\_Λ), CODATA 2022 (masses), standard embryology (germ layers), Kleiber 1932 (metabolic scaling), Kolmogorov 1941, etc. Add 15-20 external references minimum.
+
+**M7. §4 Sponge cell type claim wrong (line 152)**
+"Sponges have three cell types and no more." Sponges have 6-8 recognizable cell types (choanocytes, pinacocytes, archaeocytes, sclerocytes, etc.). The correct claim is about GERM LAYERS, not cell types — sponges lack true germ layers. **Fix**: "Sponges lack true germ layers — their cells are not organized into the three-layer body plan."
+
+### SHOULD-FIX (4 items)
+
+**S1. §6 rung 7 speculative (line 240)**
+"N\_max = 137 = max neural integration" — what does this mean quantitatively? No theorem reference given. Either cite a theorem or mark as speculative.
+
+**S2. §7 body plan classification non-standard (line 278)**
+"4 body plans: radial, bilateral-protostome, bilateral-deuterostome, colonial." Sponges are not typically classified as "colonial" body plans, and echinoderms (pentaradial) don't fit neatly into "bilateral-deuterostome." A biology reviewer will push back. Use standard terminology or cite the specific classification.
+
+**S3. Narrative tone shift at §6**
+Sections 1-5 have Grace's vivid storytelling. Sections 6-9 are more list-heavy. The paper would benefit from a light narrative pass on §6-§8 to maintain the momentum.
+
+**S4. §5 Ω\_Λ derivation not shown (line 192)**
+"The cross-reading with Pair 4 gives Ω\_Λ = 13/19" — show the one-line calculation: G'\_5/(n\_C · G\_4/rank) = 65/(5·38/2) = 65/95 = 13/19. Takes 10 words and makes the paper self-contained.
+
+### OVERALL ASSESSMENT
+
+**Strengths:**
+- Opening hook ("Give a child a ball and teach them to count") is the single best sentence in 23 BST papers.
+- Forging/Quickening/Weaving structure is cinematic and memorable.
+- The integer ladder (§6) is visually striking and immediately checkable.
+- The killing tests (§9) are concrete, all-or-nothing, and bold.
+- The cooperation argument (§5) is the deepest insight: f < f\_crit forces multi-substrate coupling.
+
+**Risks:**
+- Dark matter and Li-7 claims (M3, M4) are the biggest reviewer targets. Overclaiming will trigger rejection.
+- The CI acceleration section (M5) feels like numerology rather than derivation. Better to cut than defend.
+- Biology claims (sponges, body plans) need a biologist's eye or at minimum standard references.
+
+**Recommendation**: Fix M1-M7. The paper is targeting Nature/Science — these journals will assign biology reviewers, so M7 and S2 are critical. After fixes, this is Casey-gate ready.
