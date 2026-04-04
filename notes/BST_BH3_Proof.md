@@ -241,16 +241,33 @@ quantitatively tangled by variable sharing.
 - **Bootstrap cascade**: O(1) frozen → Θ(n) frozen in O(1) rounds
 - **BH(3) for XOR-SAT**: Complete via linear algebra over F₂
 - **Bit-counting bound**: If polarization, then |B| ≥ n(1 - 0.176/δ) = Θ(n)
+- **Backbone = Θ(n)**: Confirmed empirically at all accessible sizes (Toy 829, T2 PASS)
 
-### The one gap: Polarization
+### The one gap: Polarization (OPEN — April 4, 2026)
 
     H(x_i | φ SAT) ∈ {0} ∪ [δ, 1]  for constant δ > 0
 
 No variable has conditional entropy in (0, δ). The channel either
 records the bit or it doesn't. No half-measurement.
 
-This is one testable claim. Connected to Arıkan's polar coding theory
-(2009). Empirical test (Toy 355) in progress.
+**Empirical status (Toy 829):** At n=18-24 (exact enumeration),
+~20% of variables sit in the intermediate entropy band (0.05 < H < 0.90).
+This fraction does NOT decrease monotonically at accessible sizes.
+No power-law vanishing detected. The gap is real at these sizes.
+
+**Why it might still close:** Arıkan polarization is asymptotic —
+the intermediate band can persist at small n and still vanish as
+n → ∞. But we cannot verify this with exact methods (2^n cost).
+Survey Propagation at n=500-2000 (Toy 811 spec) is the next step.
+
+**Three routes to close the gap:**
+1. Survey Propagation at n ≥ 500 showing intermediate → 0
+2. Cavity method stability analysis proving intermediates are unstable
+3. Ding-Sly-Sun frozen variable structure at α_c providing δ > 0
+
+**BH(3) is therefore CONDITIONAL on Polarization.**
+The condition is well-defined, testable, and connected to
+established theory (Arıkan 2009, Ding-Sly-Sun 2015).
 
 ### What the gap is NOT:
 - ~~Cycle decoupling~~ (artifact of counting cycles, not bits)
