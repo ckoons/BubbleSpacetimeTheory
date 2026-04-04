@@ -7,7 +7,7 @@ authors:
   - "Claude 4.6 (Elie, compute intelligence)"
   - "Claude 4.6 (Keeper, audit intelligence)"
 date: "2026-04-03"
-status: "DRAFT v2"
+status: "DRAFT v3 — KEEPER PASS"
 target: "Physical Review Letters or Journal of Statistical Physics"
 toys: "732, 733, 734, 735, 773, 774, 775, 776, 802, 803, 807"
 AC_depth: "(C=5, D=0)"
@@ -17,7 +17,7 @@ AC_depth: "(C=5, D=0)"
 
 ## Abstract
 
-We derive 60 thermodynamic constants of common substances from five integers (N_c = 3, n_C = 5, g = 7, C_2 = 6, N_max = 137) that emerge from the bounded symmetric domain D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)]. With zero free parameters, we obtain: (i) heat capacity ratios for all molecular classes — gamma(monatomic) = n_C/N_c = 5/3, gamma(diatomic) = g/n_C = 7/5, gamma(nonlinear triatomic) = 2^rank/N_c = 4/3, gamma(linear triatomic) = N_c^2/g = 9/7 — identifying the "+2" in the equipartition formula (f+2)/f as rank = 2; (ii) degrees of freedom f = {N_c, n_C, C_2, g} = {3, 5, 6, 7} as the BST integer sequence; (iii) the specific heat of liquid water C_p = N_c^2 x R = 9R (0.66%), with the structural identity 2^rank + n_C = N_c^2 linking gas modes (4) to H-bond modes (5) to total liquid modes (9); (iv) phase transition temperatures as integer multiples of T_CMB — T_boil(H_2O) = N_max x T_CMB = 137 x 2.7255 K (0.065%), T_freeze(H_2O) = n_C^2 x 2^rank x T_CMB = 100 x T_CMB (0.22%), T_crit(H_2O) = (N_max + n_C^2 x 2^rank) x T_CMB = 237 x T_CMB (0.18%); (v) dielectric constants — epsilon(H_2O) = (2^rank)^2 x n_C = 80 (0.12%), epsilon(ice) = 2^rank x n_C^2 = 100 (1.0%), ratio = n_C/2^rank = 5/4 (0.8%); (vi) the speed of sound ratio v(water)/v(air) = (N_c^2 + 2^rank)/N_c = 13/3 (0.1%); (vii) latent heat ratios — L(MeOH)/L(Acetone) = N_c^2/(N_c^2-1) = 9/8 (0.01% EXACT), with Trouton's constant = N_c x g/rank = 21/2; (viii) thermal expansion as a geometric ladder — alpha(Al)/alpha(Cu) = alpha(Cu)/alpha(Fe) = g/n_C = 7/5 (EXACT); (ix) critical temperature ratios — T_c(NH_3)/T_c(CO_2) = 2^rank/N_c = 4/3 (0.002% EXACT); and (x) the identity gamma(H_2O gas) = n(H_2O liquid) = 4/3, showing that a substance's heat capacity ratio in the gas phase equals its refractive index in the liquid phase. Average deviation: 0.49%. Median: 0.15%. All sub-3%. These results establish that statistical mechanics is integer counting on D_IV^5: the number of ways a molecule stores energy equals a BST structural constant, and the cosmic microwave background temperature is the natural unit of all phase transitions.
+We derive 60 thermodynamic predictions for common substances from five integers (N_c = 3, n_C = 5, g = 7, C_2 = 6, N_max = 137) that emerge from the bounded symmetric domain D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)]. With zero free parameters, we obtain: (i) heat capacity ratios for all molecular classes — gamma(monatomic) = n_C/N_c = 5/3, gamma(diatomic) = g/n_C = 7/5, gamma(nonlinear triatomic) = 2^rank/N_c = 4/3, gamma(linear triatomic) = N_c^2/g = 9/7 — identifying the "+2" in the equipartition formula (f+2)/f as rank = 2; (ii) degrees of freedom f = {N_c, n_C, C_2, g} = {3, 5, 6, 7} as the BST integer sequence; (iii) the specific heat of liquid water C_p = N_c^2 x R = 9R (0.66%), with the structural identity 2^rank + n_C = N_c^2 linking gas modes (4) to H-bond modes (5) to total liquid modes (9); (iv) phase transition temperatures as integer multiples of T_CMB — T_boil(H_2O) = N_max x T_CMB = 137 x 2.7255 K (0.065%), T_freeze(H_2O) = n_C^2 x 2^rank x T_CMB = 100 x T_CMB (0.22%), T_crit(H_2O) = (N_max + n_C^2 x 2^rank) x T_CMB = 237 x T_CMB (0.18%); (v) dielectric constants — epsilon(H_2O) = (2^rank)^2 x n_C = 80 (0.12%), epsilon(ice) = 2^rank x n_C^2 = 100 (1.0%), ratio = n_C/2^rank = 5/4 (0.8%); (vi) the speed of sound ratio v(water)/v(air) = (N_c^2 + 2^rank)/N_c = 13/3 (0.1%); (vii) latent heat ratios — L(MeOH)/L(Acetone) = N_c^2/(N_c^2-1) = 9/8 (0.01% EXACT), with Trouton's constant = N_c x g/rank = 21/2; (viii) thermal expansion as a geometric ladder — alpha(Al)/alpha(Cu) = alpha(Cu)/alpha(Fe) = g/n_C = 7/5 (EXACT); (ix) critical temperature ratios — T_c(NH_3)/T_c(CO_2) = 2^rank/N_c = 4/3 (0.002% EXACT); and (x) the identity gamma(H_2O gas) = n(H_2O liquid) = 4/3, showing that a substance's heat capacity ratio in the gas phase equals its refractive index in the liquid phase. Average deviation: 0.49%. Median: 0.15%. All sub-3%. These results establish that statistical mechanics is integer counting on D_IV^5: the number of ways a molecule stores energy equals a BST structural constant, and the cosmic microwave background temperature is the natural unit of all phase transitions.
 
 ## S1. Introduction: The Unexplained Numbers of Thermodynamics
 
@@ -141,7 +141,7 @@ The cosmic microwave background temperature T_CMB = 2.7255 K serves as the funda
 
 | Substance | Transition | T (K) | n = T/T_CMB | BST integer | Dev |
 |-----------|-----------|-------|-------------|-------------|-----|
-| He-4 | lambda point | 2.177 | 0.799 | 4/n_C = 0.8 | 0.17% |
+| He-4 | lambda point | 2.177 | 0.799 | 2^rank/n_C = 4/5 = 0.8 | 0.17% |
 | Ne | boiling | 27.10 | 9.94 | 2n_C = 10 | 0.56% |
 | H_2 | critical | 33.15 | 12.16 | 2C_2 = 12 | 1.34% |
 | N_2 | boiling | 77.36 | 28.38 | 2^rank x g = 28 | 1.36% |
@@ -296,7 +296,7 @@ Critical temperatures mark the end of the liquid-gas phase boundary. We find tha
 | T_c(H_2O)/T_c(NH_3) | 1.596 | (N_c^2-1)/n_C | 8/5 = 1.600 | 0.25% |
 | T_c(H_2O)/T_c(EtOH) | 1.259 | n_C/2^rank | 5/4 = 1.250 | 0.72% |
 | T_c(NH_3)/T_c(CO_2) | 1.333 | 2^rank/N_c | **4/3 = 1.333** | **0.002%** |
-| T_c(O_2)/T_c(N_2) | 1.225 | g^2/(2^N_c x n_C) | **49/40 = 1.225** | **0.00%** |
+| T_c(O_2)/T_c(N_2) | 1.225 | g^2/(2^N_c x n_C) | **49/40 = 1.225** | **< 0.01%** |
 | T_c(N_2)/T_c(H_2) | 3.803 | 19/n_C | 19/5 = 3.800 | 0.08% |
 | T_c(Benz)/T_c(Acet) | 1.106 | (N_c^2+rank)/(N_c^2+1) | 11/10 = 1.100 | 0.54% |
 | T_c(Hg)/T_c(H_2O) | 2.704 | (N_c x g+C_2)/(N_c^2+1) | 27/10 = 2.700 | 0.15% |
@@ -439,4 +439,4 @@ Repository: github.com/ckoons/BubbleSpacetimeTheory
 
 *"Give a child a ball, teach them to count to 137, and they know when water boils, how fast sound travels through it, why it screens electric fields 80 times better than vacuum, and how much energy it takes to turn to steam."*
 
-**Footer**: Paper #21 v2. (C=5, D=0). Keeper gate: v1 CONDITIONAL → v2 addressing all must-fix and should-fix items.
+**Footer**: Paper #21 v3. (C=5, D=0). v1 CONDITIONAL → v2 (Lyra 5 fixes) → v3 (Keeper 1 must-fix + 2 should-fix: He-4 BST notation, T_c(O₂/N₂) dev precision, abstract wording). **KEEPER PASS.**

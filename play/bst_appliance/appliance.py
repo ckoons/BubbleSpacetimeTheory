@@ -39,6 +39,7 @@ READ PATH (lookup):
 WRITE PATH (discovery):
   discover <value> <type>   Find BST expressions matching a value
                             Types: count, ratio, angle_deg, length_bohr, energy_ry
+  discover --save <value> <type>  Find match AND queue for Keeper audit
   discover 42 angle_deg     → finds C_2*g = 42 (rainbow angle)
   discover 20 count         → finds C_2*N_c+rank = 20 (amino acids)
   discover 0.685 ratio      → finds 13/19 (dark energy)
@@ -126,12 +127,19 @@ def handle_query(query):
 
 
 def handle_discover(args_str):
-    """Handle discovery mode: 'discover <value> [type]'."""
-    from bst_appliance.discovery import discover, format_discovery_output
+    """Handle discovery mode: 'discover [--save] <value> [type]'."""
+    from bst_appliance.discovery import discover, format_discovery_output, queue_proposal
 
     parts = args_str.split()
+
+    # Check for --save flag
+    save = False
+    if "--save" in parts:
+        save = True
+        parts.remove("--save")
+
     if len(parts) < 1:
-        return "  Usage: discover <value> [type]\n  Types: count, ratio, angle_deg, length_bohr, energy_ry"
+        return "  Usage: discover [--save] <value> [type]\n  Types: count, ratio, angle_deg, length_bohr, energy_ry"
 
     try:
         observed = float(parts[0])
@@ -140,6 +148,10 @@ def handle_discover(args_str):
 
     obs_type = parts[1] if len(parts) > 1 else None
 
+    VALID_TYPES = {"count", "ratio", "angle_deg", "length_bohr", "energy_ry"}
+    if obs_type and obs_type not in VALID_TYPES:
+        return f"  Unknown type: '{obs_type}'. Valid types: {', '.join(sorted(VALID_TYPES))}"
+
     # If no type specified, try to guess
     if obs_type is None:
         if observed == int(observed) and 1 <= observed <= 1000:
@@ -147,8 +159,15 @@ def handle_discover(args_str):
         else:
             obs_type = "ratio"
 
-    proposals = discover(args_str, observed, obs_type, tolerance=0.05)
-    return format_discovery_output(f"discover {observed} {obs_type}", proposals, show_all=True)
+    clean_args = " ".join(parts)
+    proposals = discover(clean_args, observed, obs_type, tolerance=0.05)
+    output = format_discovery_output(f"discover {observed} {obs_type}", proposals, show_all=True)
+
+    if save and proposals:
+        n = queue_proposal(proposals[0])
+        output += f"\n  Proposal #{n} queued for Keeper audit."
+
+    return output
 
 
 def interactive_mode():

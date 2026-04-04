@@ -8,7 +8,30 @@ When a query has no match in the knowledge base, the discovery engine:
 
 SAFETY: Never auto-registers. All proposals go to audit queue.
 """
+import json
+import os
+from datetime import datetime
+
 from .candidate_generator import find_matches
+
+PROPOSAL_FILE = os.path.join(os.path.dirname(__file__), "proposals.json")
+
+
+def queue_proposal(proposal):
+    """Save a discovery proposal to the audit queue."""
+    proposals = []
+    if os.path.exists(PROPOSAL_FILE):
+        with open(PROPOSAL_FILE) as f:
+            proposals = json.load(f)
+
+    proposal["timestamp"] = datetime.now().isoformat()
+    proposal["status"] = "QUEUED_FOR_AUDIT"
+    proposals.append(proposal)
+
+    with open(PROPOSAL_FILE, "w") as f:
+        json.dump(proposals, f, indent=2)
+
+    return len(proposals)
 
 # Observable type detection heuristics
 TYPE_KEYWORDS = {
@@ -69,11 +92,7 @@ def discover(query, observed_value, obs_type=None, tolerance=0.02):
             integers_used.append("g")
 
         # Non-uniqueness warning
-        is_unique = True
-        if len(matches) > 1 and len(matches) >= 2:
-            # Check if top 2 matches are comparably good
-            if matches[1][2] < error * 2 + 0.001:
-                is_unique = False
+        is_unique = len(matches) < 2 or matches[1][2] > 3 * matches[0][2]
 
         proposal = {
             "query": query,
@@ -151,6 +170,8 @@ def format_discovery_output(query, proposals, show_all=False):
     lines.append(boxline(f""))
     lines.append(boxline(f"  Status: PROPOSED — needs Keeper audit"))
     lines.append(boxline(f"  {best['falsification']}"))
+    lines.append(boxline(f""))
+    lines.append(boxline(f"  Use --save to queue this proposal for Keeper audit."))
 
     if show_all and len(proposals) > 1:
         lines.append(hline("─"))

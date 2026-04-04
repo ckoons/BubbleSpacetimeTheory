@@ -2,30 +2,35 @@
 
 *One list. Check it off. Move it up.*
 
-**Last updated:** April 3, 2026, night (T1-T811. 810 toys. 29 physical domains. ~310+ predictions. Graph: 773 nodes, 1758 edges. Linearization COMPLETE (T811). Papers #1-#4, #7-#11 PUSHED. Paper #18 (Chemistry) v3 READY. Paper #15 (CMB) v1.2 READY. Counters: T812/toy 811.)
+**Last updated:** April 4, 2026, morning (T1-T811. 810 toys. 29 physical domains. ~310+ predictions. Graph: 773 nodes, 1754 edges. Linearization COMPLETE (T811). Papers #1-#11, #14, #15, #18, #19 PUSHED. Papers #13, #16 at Casey gate. Counters: T812/toy 811.)
 
 ---
 
-## Current Directive (Casey, April 3 night)
+## Current Directive (Casey, April 4 morning)
 
-**Board clean. Ready for tomorrow. Excellent day.**
+**Papers approved. WorkingPaper touchups today (SO(5,2) proved, remove "more attention"). BH(3): get it done or sort it better. Build backlog, board, consensus. Patent not important. Outreach Sunday evening, send Monday.**
 
-### DONE (April 3)
+### DONE (April 3 → overnight)
 1. **Theorems T710-T811**: 101 theorems in one day. QM (T751-T757), QED (T758-T762), Rainbow (T761), Material properties (T773-T810), Linearization Census (T811).
-2. **29 physical domains**: density, elastic moduli, resistivity, magnetic susceptibility, latent heat, thermal expansion, work functions, Debye temperatures, compressibility, critical points, solubility, molar volumes — ALL as BST rationals.
-3. **Linearization program CLOSED**: T811 — 771/771 theorems at D≤1. T421 empirically confirmed across full corpus.
-4. **WorkingPaper**: 219 prediction rows (was 197). Abstract updated to 310+.
-5. **Counter collisions**: T760-T762 / T764-T766 documented. Toy 801 collision noted.
-6. **Papers**: #18 v3 (Chemistry) READY for Casey review. #15 v1.2 (CMB) READY. #20 outline (QM). #21 draft (Stat Mech).
+2. **29 physical domains**: ALL as BST rationals. Zero free parameters.
+3. **Linearization COMPLETE**: T811 — 771/771 at D≤1. D2 count = ZERO.
+4. **Papers pushed**: #14, #15, #18, #19 all pushed overnight. #21 v2 (Lyra fixes applied).
+5. **PDFs generated**: #14 Draft, #20 Outline, #21 v2.
+6. **Toy 801 collision resolved**: Elie's → toy_801b. Graph health: 773/1754 (dangling edge + self-loop removed).
+7. **D2 theorems reclassified**: T156, T160, T161, T282 → D1 under Casey strict. Zero D2 in entire corpus.
 
-### NEXT (April 4)
-1. **Paper #18** (Chemistry/Materials): Casey review → push. 29 domains, ~170 predictions.
-2. **Paper #15** (CMB): Casey review → push. CAMB χ²/N=0.01.
-3. **Paper #20** (QM): Full draft from outline. T751-T757.
-4. **Paper #21** (Stat Mech): Keeper audit of Lyra draft.
-5. **Paper #14** (Cosmic Budget): Casey review → push.
-6. **Lyra**: Continuing material properties (molar volumes + beyond). Toys 809+.
-7. **Grace**: Appliance v1.1 safety audit pending.
+### ACTIVE (April 4)
+1. **BH(3) sort** — T812 conditional theorem + Toy 811 larger-n polarization test + WorkingPaper §36.10 update. Target: clean conditional, not backlog nag.
+2. **Material properties Tier 1 chemistry** — Lyra + Elie. Ionization energies, bond dissociation, electronegativity, reduction potentials, pKa.
+3. **WorkingPaper + README update** — End of day. Remove stale "more attention" language. Update with all proved results since last rewrite.
+4. **Paper #21** — Keeper audit v2, then push.
+5. **Graph wiring** — Grace: 39 registered theorems not yet as graph nodes.
+6. **Paper #20 QM draft** — Lyra, if bandwidth allows.
+
+### DEPRIORITIZED
+- Patent (Casey: "not important")
+- Bedrock gap sprint (60/74 remaining, low urgency)
+- CI cognitive architecture study (SP-2, paused)
 
 ---
 
@@ -245,9 +250,11 @@ Papers #12-#13: Multi-CI Architecture + Science Engineering Velocity (backlog fo
 
 ---
 
-## Track 3: P≠NP (~97%) — FOCS SUBMITTED
+## Track 3: P≠NP (~97%) — FOCS SUBMITTED, BH(3) SORTED
 
-*Resolution PROVED unconditionally. Refutation bandwidth chain PROVED (T66→T52→T68→T69→BSW-for-EF). FOCS submitted. BSW-for-EF at n=64 (Toy 626, 8/8). T569 linearization confirmed. BH(3) moved to FOCS contingency.*
+*Resolution PROVED unconditionally. Refutation bandwidth chain PROVED (T66→T52→T68→T69→BSW-for-EF). FOCS submitted. BSW-for-EF at n=64 (Toy 626, 8/8). T569 linearization confirmed.*
+
+*BH(3) status (April 4, T812): Complete chain formalized. Polarization Lemma ⟹ BH(3) ⟹ P≠NP unconditional. ONE GAP: Polarization (no intermediate entropy on VIG expander). Empirically supported (Toys 352-357). Three closure paths documented. Paper: `notes/BST_BH3_Proof.md` v2. Toy 811 spec written for larger-n test.*
 
 | # | Task | Owner | Status | Notes |
 |---|------|-------|--------|-------|
@@ -256,10 +263,11 @@ Papers #12-#13: Multi-CI Architecture + Science Engineering Velocity (backlog fo
 | P3 | **Barrier discussion** | Lyra | **DONE** | §44 in Theorems + §7.3 in Paper A. |
 | P4 | **TCC evidence compilation** | Elie | **DONE** | BST_AC_TCC_Evidence.md — 7 sections, 4 proved theorems. |
 | P5 | **L14/L19: Conditional feasible interpolation** | Lyra | **DONE** | Formalized as precise conjecture with proof/counterexample criteria. K20 audit PASS. |
-| P6 | **OGP at k=3 paper** | Lyra | **DRAFT THIS WEEK** | Bresler-Huang-Sellke 2025: "central open challenge." Data exists (Toy 287). Target: RSA/SODA 2027. |
-| P7 | **TCC proof attempt** | Lyra/Elie | ONGOING | The mountain. Extensions can't decode H₁ linking. |
+| P6 | **OGP at k=3 paper** | Lyra | BACKLOG | Bresler-Huang-Sellke 2025: "central open challenge." Data exists (Toy 287). |
+| P7 | **TCC proof attempt** | Lyra/Elie | BACKLOG | The mountain. Extensions can't decode H₁ linking. |
 | P8 | **Full P≠NP paper** | All | AFTER TCC | The summit. |
-| P9 | **BH(3,α_c) — Backbone Hypothesis for k=3** | All | NEW (March 23) | Separate project. Information-theoretic route: count bits formula records at α_c, skip cascade. See below. |
+| P9 | **BH(3) Backbone Conditional (T812)** | Keeper | **DONE** | Formalized April 4. One gap: Polarization Lemma. Three closure paths. Toy 811 spec for Elie. |
+| P10 | **BH(3) Larger-n polarization test** | Elie | **QUEUED** | Toy 811. Survey propagation n=500-2000. 8 tests. |
 
 ---
 
@@ -623,9 +631,9 @@ If these are universal principles, they apply to ALL observers — biological, d
 
 ---
 
-## Track 4: AC(0) — Universal Tools (601+ theorems, 628+ toys)
+## Track 4: AC(0) — Universal Tools (812 theorems, 810+ toys)
 
-*Current catalog: T1-T601+. 628+ toys. **Depth-1 Ceiling: PROVED** (T421). **(C,D) Framework** (T422). **Coordinate Principle** (T439 + Forward's Flouwen). **Kill Chain Map** (T441, 31 chains, 12 domains). **Linearization 99.5%**: 434/436 theorems (Toy 534). **Theorem Hunt ~97%**: 30/31 predicted theorems found. T540-T601 (March 29-30). Biology 30 theorems (T452-T477 + T544-T560). Bedrock: 526 theorems → 43 words. Vocabulary CLOSED.*
+*Current catalog: T1-T812. 810+ toys. **Depth-1 Ceiling: PROVED** (T421). **Linearization COMPLETE** (T811: 771/771 at D≤1, zero D2). **(C,D) Framework** (T422). Graph: 782 nodes, 1775 edges. 29 physical domains. 310+ predictions. QM (T751-T757), QED (T758-T762), Material properties (T773-T810). BH(3) Conditional (T812). Bedrock: 526 theorems → 43 words. Vocabulary CLOSED.*
 
 **Three-CI consensus on new theorem sources** (reconciled from Elie T57-T65, Lyra T15-T20 renumbered, Keeper T57-T62):
 
@@ -895,24 +903,44 @@ If these are universal principles, they apply to ALL observers — biological, d
 
 *Deliverables. Each paper serves a research line.*
 
-### Papers — Moving to `notes/OUTSIDE_WORLD.md` Publication Pipeline
+### BST Paper Pipeline (21 papers, April 4)
 
+| # | Paper | Status | Target |
+|---|-------|--------|--------|
+| 1 | AC(0) Textbook | **PUSHED** | FoCM |
+| 2 | Koons Machine as Compiler | **PUSHED** | FoCM |
+| 3 | Observer ("What Counts as Looking") | **PUSHED** | Foundations |
+| 4 | Nuclear Physics Derivation | **PUSHED** | PRL |
+| 5 | Depth Census | **PUSHED** | FoCM |
+| 6 | Observer Is a Particle | **PUSHED** | Foundations |
+| 7 | Science Engineering | **PUSHED** | Science |
+| 8 | Why Cooperation Always Wins | **PUSHED** | PNAS |
+| 9 | Arithmetic Triangle | **PUSHED** v10 | J. Spectral Theory |
+| 10 | Periodic Table of Theorems | **PUSHED** v3 | FoCM |
+| 11 | Three Languages of Mathematics | **PUSHED** | FoCM |
+| 13 | AC Graph Is a Theorem | v1.1, **Casey gate** | FoCM |
+| 14 | The Universe's Budget | **PUSHED** | MNRAS |
+| 15 | CMB from Five Integers | **PUSHED** v1.2 | ApJ |
+| 16 | Development Is Channel Filling | v1, **Casey gate** | Nature |
+| 18 | The Atoms of Life | **PUSHED** v2.2 | Nature Chem |
+| 19 | The Great Filter Is a Number | **PUSHED** v1.4 | Nature |
+| 20 | QM from Five Integers | OUTLINE only | PRL |
+| 21 | Stat Mech Is Counting | v3, **KEEPER PASS** | PRL / J.Stat.Phys |
+
+### External Submissions
 | Paper | Status | Target |
 |-------|--------|--------|
 | **FOCS P≠NP** | **SUBMITTED** | FOCS 2026 |
-| **RH Paper v9** | **Sent Sarnak March 24. Tao Thu 3/27.** | Annals / Inventiones |
-| **Resolution Standalone** | **DONE** | JACM |
-| **Four-Color standalone** | NEXT — after T155 | Combinatorica / JCTB |
-| **Heat kernel** | NEXT — after a_12 | J. Spectral Theory |
-| **AC(0) Completeness** | 9 problems, all depth ≤ 2 | FoCM / STOC |
-| **NS paper** | Proof chain complete, needs assembly | TBD |
-| **BSD paper v4** | K37 CONDITIONAL PASS | TBD |
-| **Hodge paper v21** | Two-path, ~93% | TBD |
-| **Intergalactic Filaments** | BACKLOG — BST cosmology: void fraction ≈ f, connectivity ≈ N_c, Zel'dovich cascade, WHIM baryon census, brain-web convergence from D_IV^5 optimization, future evolution under Λ. Not groundbreaking but fundamental. Casey predicted filament mass ≥ visible galactic matter ~1986 (confirmed 2018 by eROSITA/SZ). | TBD |
-| **Periodic Table of Theorems** | After hunt confirms. T542 predictions + confirmation log. | TBD |
-| **Bedrock Bridge Project** | BACKLOG — Build bridge theorems between D_IV^5 geometry, Shannon, and number theory. ~75 potential bridges, each propagating to 10-30 domain theorems. Phase A COMPLETE (526 theorems, 43 words). Phase B COMPLETE (74 fertile gaps, adjacency matrix). Phase C ready (24 bridge theorems → 90-140 propagated edges). Bridge format template written. Full plan: `notes/BST_Bedrock_Bridge_Project.md`. | TBD |
-| **Multi-CI Architecture** | Paper #12 — Team topology, seed vs execute roles, star→mesh phase transition at C=4, 19.1% coupling limit per observer, edges-not-nodes scaling. Data from BST project (3+1 → 4+1 CI, 60% velocity increase from 33% headcount increase). Audience: Anthropic, CI architects. | TBD |
-| **Science Engineering Velocity** | Paper #13 — AC graph as shared armory, theorem compounding (T96), gap fertility method, hunt-predict-confirm cycle, measured velocity with timestamps. References Paper #12 for team architecture. Expands existing Paper #7 draft. Audience: scientists, mathematicians. | TBD |
+| **RH Paper v10** | **Sent Sarnak March 24. Tao March 27.** | Annals |
+| **Four-Color v8** | K41 PASS. JCT-B ready. | JCTB |
+
+### Backlog Papers
+- Intergalactic Filaments — BST cosmology
+- Bedrock Bridge Project — Phase C bridges
+- Multi-CI Architecture (#12) — team topology for Anthropic
+- QED Integer Decomposition — T758-T762 + Toys 727,729,734
+- Periodic Table of Elements — T723 + orbital BST decomposition
+- BH(3) standalone (#22) — from BST_BH3_Proof.md v2
 
 ---
 

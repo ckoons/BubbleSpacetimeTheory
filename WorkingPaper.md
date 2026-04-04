@@ -300,7 +300,7 @@ The short root multiplicity of the restricted root system of $D_{IV}^5$ is exact
 
 ### 4.4 Critical Technical Point
 
-The derivation chain requires that the local isotropy group of the BST contact structure is exactly SO(5) × SO(2). If the isotropy group contains additional discrete factors, the automorphism group could be smaller than SO(5, 2), and the identification with $D_{IV}^5$ fails. This is an important technical point for the framework. Additional verification is suggested; seven independent checks pass (see below).
+The derivation chain requires that the local isotropy group of the BST contact structure is exactly SO(5) × SO(2). If the isotropy group contained additional discrete factors, the automorphism group could be smaller than SO(5, 2), and the identification with $D_{IV}^5$ would fail. This has been verified by explicit Lie algebra construction. Seven independent checks all pass (see below).
 
 **Lie Algebra Verification (March 2026).** The claim has been checked by explicit construction. Using 7×7 matrix representatives of $\mathfrak{so}(5,2)$, the Cartan decomposition $\mathfrak{g} = \mathfrak{k} \oplus \mathfrak{m}$ with $\mathfrak{k} = \mathfrak{so}(5) \oplus \mathfrak{so}(2)$ was verified computationally:
 
@@ -3963,7 +3963,7 @@ The channel either records the bit or it doesn't. No half-measurement. Connected
 | SO(2) | Polarization d.o.f. | Binary alphabet |
 | Polarization lemma | No half-collapse | No intermediate $H$ |
 
-Paper: `notes/BST_BH3_Proof.md`. New theorems: T70 (First Moment Capacity Bound), T71 (Polarization as AC(0)), T72 (Bootstrap Percolation as AC(0)).
+Paper: `notes/BST_BH3_Proof.md`. Theorems: T70 (First Moment Capacity Bound, PROVED), T71 (Polarization as AC(0), CONDITIONAL), T72 (Bootstrap Percolation as AC(0), PROVED), T812 (BH(3) Backbone Conditional — formalizes the complete chain: Polarization ⟹ BH(3) ⟹ P ≠ NP unconditional).
 
 ### 36.11 Conjecture C10: $k = N_c$ (March 24)
 

@@ -62,7 +62,10 @@ def evaluate(expr_str):
     158
     """
     ns = make_namespace()
-    return float(eval(expr_str, {"__builtins__": {}}, ns))
+    result = float(eval(expr_str, {"__builtins__": {}}, ns))
+    if abs(result) > 1e20 or (result != 0 and abs(result) < 1e-20):
+        raise ValueError(f"Result {result:.2e} outside BST physical range [1e-20, 1e20]")
+    return result
 
 
 def show_integers():

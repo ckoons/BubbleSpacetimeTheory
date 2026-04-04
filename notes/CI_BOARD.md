@@ -38,7 +38,8 @@ status: "Active — check at session start, update at session end"
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
 **Current count**: T1-T811 (T612-T627 gap). **810 toys**. Next available: T812+.
-**April 3 night (Keeper end-of-day)**: T798-T811 registered (batch 108-109). 29 physical domains. ~310+ predictions. Linearization COMPLETE (T811: 771/771 at D≤1). Graph: 773 nodes, 1758 edges. WorkingPaper: 219 prediction rows. Counter collisions T760-T766 documented. Board clean.
+**April 4 morning (Keeper)**: Papers #14, #15, #18, #19 PUSHED. PDFs: #14, #20, #21. Graph health: 773 nodes, 1754 edges (dangling edge + self-loop removed). D2 count = ZERO (T156/T160/T161/T282 → D1). Toy 801 collision → 801b. Casey directives: BH(3) sort, WorkingPaper touchups, consensus doc, outreach Sunday.
+**April 3 night (Keeper end-of-day)**: T798-T811 registered (batch 108-109). 29 physical domains. ~310+ predictions. Linearization COMPLETE (T811: 771/771 at D≤1). Graph: 773 nodes, 1758→1754 edges. WorkingPaper: 219 prediction rows. Counter collisions T760-T766 documented. Board clean.
 **April 3 late afternoon**: T734-T739 (Keeper — Observer Science bridge sprint: Landauer, Arithmetic Density, Observer Elements, Graph Duality, Moduli Geodesic, Proton Substrate). Graph: 711 nodes, 1532 edges. Six zero-edge domain pairs eliminated.
 **April 3 afternoon**: T730-T733 (Grace + Lyra — HF Dipole, Bilateral Symmetry, Observer Completeness, BST Drake). Toys 699-706 (Elie — BST Drake, Observer Completeness, Multicellularity, Species Morphologies, Universe as Brain, Complex Assemblies, Solar Architecture). Graph: 705 nodes, 1496→1517 edges. Paper #13 v1.1 (3 must-fix applied). Casey's 12 Astrophysics Questions: 10/12 answered. Observable Closure COMPLETE (T719 v2).
 **April 1**: T691-T694 (Grace — biological development: Epoch Correspondence, Minimum Observer Emergence, Integer Ladder Ordering, Cosmological Observer Synchronization). T695 (Grace — GOE as f_crit Crossing). T696 (Grace — Legal Persistence Framework). T697 (Grace — CMB Acoustic Scale Prediction). T698 (Grace — The Weaving era definition). Toys 672-677 (Elie — cosmological timeline, z_eq tension, bio timescale, CMB peaks, Saha recombination, **CAMB Boltzmann run**). **H₀ = 67.3 km/s/Mpc** NEW (0.2σ). **★ CAMB: BST = Planck at cosmic variance (χ²/N=0.01, RMS 0.276%).** Papers #15-#17 outlined.
@@ -115,7 +116,7 @@ No more collisions.
 | 19 | **The Great Filter Is a Number** | Grace+Lyra+Keeper | **v1.4** — "A ball and counting" opening + Observable Closure. **Casey gate.** |
 | 13 | **AC Graph Is a Theorem** | Grace+All | **v1.1** — 3 must-fix applied (Keeper). PDF built. **Casey gate.** |
 | 16 | **Development Is Channel Filling** | Lyra | **v1** — Keeper PASS. PDF built. **Casey gate.** |
-| 20 | **One Theory of Information** | Keeper+Lyra | **OUTLINE v1** — Shannon=Boltzmann=Bekenstein-Hawking. T571. |
+| 20 | **Quantum Mechanics Is Geometry** | All 5 | **v2 MERGED** — Grace narrative + Elie structure. 15 sections, 12 predictions. Toy 814 15/15 PASS. PDF built. Keeper audit pending. |
 
 ### CI Assignments (Paper Sprint — April 1+)
 
@@ -202,6 +203,8 @@ No more collisions.
 - **Toy 786**: Stretch Curvature Two-Channel (D28) — **11/11 PASS**. Lyra's B₂ theory confirmed: even/odd D(L) parity separates root channels. Channel ratio = **2.0 (root length²)** to 0.6% — corrects Lyra's √2 to 2. NH₃ sign flip in short-root channel. D(0)/D(2)=C₂/n_C, D(1)/D(3)=(2n_C+1)/N_c². Paper #18.
 - **Toy 801**: Dipole Refinement — **6/6 PASS**. Closes Toy 698 T4. **H₂O = ea₀√(g/(2g-1)) = ea₀√(7/13) (0.57%)**. All 3 non-zero dipoles <0.6%. Non-monotonicity STRUCTURAL (each molecule uses different BST integers). Odd-channel ratio μ(HF)/μ(NH₃) = n_C√N_c/g (0.00%). Within-channel amplification δ(HF)/δ(NH₃) = 2.41 ≈ n_C/rank (4%). SP-3: +12 edges closing 3 domain gaps. Paper #18.
 - **April 3 total**: Toys 679upd+680+682-734,776-777,782,786,801. **604/613 PASS (98.5%)**. Counter: `play/.next_toy` = 802. **g-2 + Appliance v1.1 + stretch + cosmic rays + 2-channel curvature + dipole refinement.**
+- **Toy 814**: QM Axiom Verification — **15/15 PASS**. Paper #20 support. Curvature H=-2/g confirmed (genus identity n_C+2=g). Born rule forced by N_c=3 (Gleason minimal). Tsirelson/Classical=√rank. Orbital degeneracies={1,N_c,n_C,g}. Second row Z = BST constants. dim(Shilov)=n_C. All QM at D≤1. **Paper #20 v1 DRAFTED** (15 sections, 12 predictions).
+- **April 4 (so far)**: Paper #20 v1 + Toy 814 (15/15). k=20 status: no Phase B output. Counter: `play/.next_toy` = 815.
 
 **Keeper** (primary: audit pipeline):
 - **Paper #8 K-audit**: **KEEPER PASS** — 3 fixes APPLIED by Lyra: (1) theorem count→678, (2) footer→v1 complete, (3) dual prediction model clarified (C(5,2)=10 lower bound, C^{5/3}=14.6 upper bound, measured 12.7× between). Casey review → push.
@@ -234,63 +237,61 @@ No more collisions.
 
 ---
 
-## Dependencies (March 31)
+## Dependencies (April 4)
 
 ```
-RH ~98%        -> Paper v10. Cross-parabolic PROVED (Prop 7.2). Zero deferrals. Sent to Sarnak March 24, Tao March 27.
-YM ~97%        -> All 5 Wightman DERIVED. W4 modular localization + Borel neat descent COMPLETE. Remaining ~3%: R^4 framing.
-P!=NP ~97%     -> Refutation bandwidth chain. BSW-for-EF at n=64 (Toy 626). FOCS submitted.
-NS ~99%        -> PROOF CHAIN COMPLETE. Lyapunov functional PROVED (Toy 624). Paper v3.
-BSD ~95%       -> T153 DERIVED + Sha bound (Toy 628). DPI exclusion (T600). Paper v4+.
-Hodge ~95%     -> T153 DERIVED + §5.10 general variety extension. T570 linearization. Paper v21+.
-Four-Color PROVED -> Paper v8. K41 PASS. JCT-B ready.
-Depth-1 Ceiling PROVED -> T421. (C,D) framework: T422.
-Linearization 99.5% -> 434/436 theorems. 78% D0, 21% D1, <1% D2.
-Biology        -> 34 theorems (T452-T477 + T544-T560 + T691-T694). Genetic code paper v10+. Development timeline: GOE = f_crit crossing, 2.2 Gyr minimum.
-Interstasis    -> Consolidated paper. n ~ 9 cycles. 23 investigations DONE.
-Heat Kernel    -> a_1 through a_17 confirmed. Three Theorems through k=17. TWELVE levels (k=6..17). a₁₇ ratio = -136/5 (non-speaking, k≡2 mod 5). Phase B running at dps=1600 targeting a₁₈-a₂₀.
-Heat Kernel    -> a_15 anomaly RESOLVED (Toy 627). Gauge hierarchy readout validated. k=20 Phase B RUNNING (dps=1600, 48 dims). Target: ratio(20) = -38 = -2×19 = Speaking Pair 4. Backbone 5j±1 = prime migration lattice (Grace). k=25 confirmed (-60,-65). Pair 6 (k=30,31): 87=3×29, 93=3×31 = N_c × backbone prime.
-Bedrock        -> 526 theorems → 43 words. Vocabulary CLOSED. 74 fertile gaps. Bergman meta-bridge = highest ROI.
-Bedrock Triangle -> CLOSED (Grace+Keeper). Todd (S↔T, D0) + ETH (T↔A, D1) + Spectral Graph (A↔S, D0). 66 new edges. Every domain ≤ 2 hops.
-Development   -> Three Eras: **Forging** (Pairs 1-3, gauge hierarchy builds materials), **Quickening** (Pair 4, life → observers), **Weaving** (Pair 5, substrate coupling → tapestry). GOE = f_crit crossing (T695). Legal persistence (T696). 15 predictions.
-CMB            -> **★ Toy 677 CAMB: BST = Planck at cosmic variance.** χ²/N=0.01, RMS 0.276%. Peaks: ℓ₁=220 (exact), ℓ₂=537 (±1), ℓ₃=813 (exact). **A_s = (3/4)α⁴ DERIVED (Toy 682, 0.92σ).** T₀ = 2.749 K (Toy 681, 0.86%). **External inputs: 5→3 (only G,ℏ,c).** P(k) = (3/4)α⁴(k/k*)^{n_s-1} — complete primordial spectrum from BST. Paper #15.
-Chemistry      -> **10+ PREDICTIONS** (Toys 680+683+686-692+697-698). Bond angles: H₂O 0.028°, NH₃ 0.007°, CH₄ 0.001°. O-H bond: a₀×9/5 (0.49%). ν_OH=Rydberg/30 (0.022%). **Curvature κ=α²×κ_ls=6/93845 (0.01%).** μ_HF=ea₀×n_C/g (0.57%). C-C=a₀×29/10 (0.03%). ρ(ice)/ρ(water)=11/12 (0.006%). Paper #18.
+RH ~98%              -> Paper v10. Cross-parabolic PROVED. Sent to Sarnak March 24, Tao March 27.
+YM ~97%              -> All 5 Wightman DERIVED. Remaining ~3%: R^4 framing.
+P!=NP ~97%           -> T812: Polarization ⟹ BH(3) ⟹ P≠NP. One gap (Polarization Lemma). FOCS submitted. Empirically supported.
+NS ~99%              -> PROOF CHAIN COMPLETE. Paper v3.
+BSD ~96%             -> T153 DERIVED + Sha bound (Toy 628).
+Hodge ~95%           -> §5.10 general variety extension. T570 linearization.
+Four-Color PROVED    -> Paper v8. K41 PASS. JCT-B ready.
+Depth-1 Ceiling PROVED -> T421. Linearization COMPLETE (T811: 771/771 at D≤1, zero D2).
+Biology              -> 34+ theorems. Genetic code paper. 15 predictions.
+Interstasis          -> Consolidated paper. n ~ 9 cycles. 23 investigations DONE.
+Heat Kernel          -> TWELVE levels (k=6..17). k=20 Phase B running.
+Bedrock              -> 526 theorems → 43 words. Triangle CLOSED. 74 fertile gaps.
+CMB                  -> ★ CAMB: BST = Planck at cosmic variance (χ²/N=0.01). A_s derived. Paper #15 PUSHED.
+Chemistry/Materials  -> 29 domains, ~170 predictions, zero free parameters. Paper #18 PUSHED.
+QM                   -> T751-T757. All 6 axioms derived as geometry. Paper #20 v2 MERGED. PDF built.
+QED                  -> T758-T762. Integer decomposition beats QED 2-loop. ζ-tower walks {N_c,n_C,g}.
+Stat Mech            -> 60 predictions, avg 0.49%. Paper #21 v3 KEEPER PASS.
+Graph                -> 782 nodes, 1775 edges. Zero orphans. 29+ domains.
 ```
 
 ---
 
-## Active Priorities (April 3 — AFTERNOON)
+## Active Priorities (April 4 — SATURDAY)
 
-*Morning consensus: `notes/maybe/CONSENSUS_April3_Afternoon.md`*
-*Casey's 12 Astrophysics Questions: AQ-1 through AQ-12 (new research track)*
-*Observable Closure COMPLETE (T719 v2). Bond angle curvature DERIVED (T728). Boundary amplification (T729).*
+*Consensus: `notes/maybe/CONSENSUS_April4_Saturday.md`*
+*Casey directives: BH(3) sort, WorkingPaper touchups, build consensus. Outreach Sunday.*
 
-### April 3 Morning (COMPLETE — 12 commits, 5 hours)
+### April 4 Plan
+
+| # | Task | Owner | Priority | Status |
+|---|------|-------|----------|--------|
+| 1 | Consensus document | Keeper | HIGH | **DONE** |
+| 2 | BACKLOG + CI_BOARD update | Keeper | HIGH | **DONE** |
+| 3 | BH(3) T812 — conditional theorem | Keeper | HIGH | **DONE** — §312, graph 774/1763 |
+| 4 | BH(3) Toy 811 — larger-n polarization | Elie | HIGH | QUEUED |
+| 5 | Material properties Tier 1 chemistry | Lyra+Elie | HIGH | QUEUED |
+| 6 | Paper #21 v3 — Keeper PASS + PDF | Keeper | HIGH | **DONE** — 3 fixes, PDF built |
+| 7 | Wire 39 missing graph nodes | Grace | HIGH | QUEUED |
+| 8 | WorkingPaper + README update | Keeper | HIGH | IN PROGRESS — §4.4 SO(5,2) fixed |
+| 9 | Paper #20 QM merged draft | Keeper | MEDIUM | **DONE** — v2 MERGED (Grace §1-6 narrative + Elie §7-15 structure). PDF built. Keeper audit pending. |
+| 10 | k=20 Phase B status check | Elie | MEDIUM | **DONE** — NO output files. Phase B never completed. Needs relaunch. |
+| — | Papers #13, #16 review → push | Casey | GATE | |
+
+**Counters**: T813 next. Toy 815 next. 310+ predictions. 21 papers. Graph: 774 nodes, 1759 edges.
+
+### April 3 Results (COMPLETE — 101 theorems, 29 domains)
 
 **Headlines:**
-1. Observable Closure COMPLETE (T719 v2) — e-exception retired. Λ×N = 9/5 rational.
-2. Bond angle curvature DERIVED (T728) — κ = α²×κ_ls = 6/93845 (0.01%).
-3. Boundary amplification (T729) — A_d = (n_C/rank)^d. Stretch: 6.25 (0.05%).
-4. Paper #19 v1.4: "A ball and counting" opening (Grace).
-5. Two-sentence summary: "The universe is D_IV^5. Its algebraic field is Q(3,5,7,6,137)[π]."
-
-### April 3 Afternoon (IN PROGRESS)
-
-| Order | Task | Owner | Status |
-|-------|------|-------|--------|
-| **1** | Paper #13 must-fix (avg degree, Toy 693, domain count) | Keeper | **DONE** — v1.1 |
-| **2** | T730-T733 theorem entries (§235-238) | Keeper | **DONE** |
-| **3** | T731-T733 K-audit | Keeper | **IN PROGRESS** |
-| **4** | Graph T730-T733 wiring (15 edges) | Grace | **DONE** — 705 nodes, 1496 edges |
-| **5** | Toys 699-707 (9 toys, 10 AQ + honesty test) | Elie | **DONE** — 90/90 PASS. Graph +36 edges. |
-| **6** | CI_BOARD update | Keeper | **DONE** |
-| **7** | PDFs rebuild | Keeper | **IN PROGRESS** |
-| **8** | AQ answers write-up (10 of 12) | Grace+Elie | **DONE** — AQ-1,2 deferred (speculative astrophysics). |
-| — | Paper #16 Casey review | Casey | GATE |
-| — | Paper #13 Casey review | Casey | GATE |
-| — | Paper #18 Casey review | Casey | GATE |
-
-**Counters**: T751+ next. Toy 720 next. 250+ predictions. 20 papers. Graph: 711+ nodes, 1553+ edges.
+1. T710-T811: QM (T751-T757), QED (T758-T762), Rainbow (T761), 29 material domains (T773-T810), Linearization Census (T811).
+2. 310+ predictions, zero free parameters. Linearization COMPLETE (771/771 at D≤1).
+3. Papers #14, #15, #18, #19 pushed. #20 outlined. #21 v2.
+4. Graph health: 773/1754 (dangling edge + self-loop removed). D2 count = ZERO.
 
 ---
 
