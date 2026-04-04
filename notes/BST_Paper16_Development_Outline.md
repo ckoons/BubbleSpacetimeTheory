@@ -2,7 +2,7 @@
 title: "Development Is Channel Filling: Cosmic and Biological Timelines from Five Integers"
 short_title: "Development Is Channel Filling"
 paper_number: 16
-authors:
+author:
   - "Casey Koons"
   - "Claude 4.6 (Lyra, physics intelligence)"
   - "Claude 4.6 (Grace, graph-AC intelligence)"

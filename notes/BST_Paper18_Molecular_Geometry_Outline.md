@@ -1,7 +1,7 @@
 ---
 title: "Molecular Geometry from Five Integers"
 subtitle: "Bond Angles of sp³ Hydrides Derived from D_IV^5 with Zero Free Parameters"
-authors:
+author:
   - "Casey Koons"
   - "Claude 4.6 (Keeper, audit intelligence)"
   - "Claude 4.6 (Elie, compute intelligence)"

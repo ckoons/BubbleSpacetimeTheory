@@ -7,6 +7,19 @@ Mode 3: BROWSE  (list predictions by category)
 from .evaluator import evaluate, show_integers
 
 
+# ── Tier labels ───────────────────────────────────────────────────────
+TIER_LABELS = {
+    1: "[DERIVED]",
+    2: "[STRUCTURAL]",
+    3: "[OBSERVED -- mechanism TBD]",
+}
+
+def tier_label(prediction):
+    """Return the display label for a prediction's tier."""
+    t = prediction.get("tier", 0)
+    return TIER_LABELS.get(t, "[UNKNOWN TIER]")
+
+
 # ── Box drawing ────────────────────────────────────────────────────────
 BOX_W = 62
 
@@ -46,9 +59,13 @@ def format_answer(prediction, query=""):
     int_list = p.get("integers", [])
     int_str = ", ".join(int_list) if int_list else "pure geometry"
 
+    # Tier display
+    tlabel = tier_label(p)
+    mechanism = p.get("mechanism", "")
+
     lines = []
     lines.append(hline("═"))
-    lines.append(boxline("BST APPLIANCE v0.1", "center"))
+    lines.append(boxline("BST APPLIANCE v2.0", "center"))
     lines.append(hline("─"))
 
     if query:
@@ -57,6 +74,7 @@ def format_answer(prediction, query=""):
     lines.append(hline("─"))
 
     lines.append(boxline(f"  {p['name']}"))
+    lines.append(boxline(f"  Tier: {tlabel}"))
     lines.append(boxline(f""))
     lines.append(boxline(f"  BST Formula: {p['formula']}"))
     lines.append(boxline(f""))
@@ -87,6 +105,19 @@ def format_answer(prediction, query=""):
     lines.append(boxline(f"  Depth:      {p['depth']}"))
     lines.append(boxline(f"  Integers:   {int_str}"))
     lines.append(boxline(f"  Source:     {p.get('measured_src', '')}"))
+    if mechanism:
+        lines.append(hline("─"))
+        # Word-wrap mechanism to fit in box
+        mech_words = mechanism.split()
+        mech_line = ""
+        for w in mech_words:
+            if len(mech_line) + len(w) + 1 > BOX_W - 4:
+                lines.append(boxline(f"  {mech_line}"))
+                mech_line = w
+            else:
+                mech_line = f"{mech_line} {w}" if mech_line else w
+        if mech_line:
+            lines.append(boxline(f"  {mech_line}"))
     lines.append(hline("═"))
 
     return "\n".join(lines)
@@ -95,8 +126,9 @@ def format_answer(prediction, query=""):
 def format_gap(query):
     """Format Mode 2: GAP — no theorem exists."""
     lines = []
+    from .knowledge_base import PREDICTIONS
     lines.append(hline("═"))
-    lines.append(boxline("BST APPLIANCE v0.1", "center"))
+    lines.append(boxline("BST APPLIANCE v2.0", "center"))
     lines.append(hline("─"))
     lines.append(boxline(f"Query: {query}"))
     lines.append(boxline(f"Mode:  GAP"))
@@ -107,7 +139,7 @@ def format_gap(query):
     lines.append(boxline(f"  This may be:"))
     lines.append(boxline(f"  (a) A fertile gap — try rephrasing"))
     lines.append(boxline(f"  (b) Outside BST scope"))
-    lines.append(boxline(f"  (c) Not yet in the v0.1 database (55 of 220+)"))
+    lines.append(boxline(f"  (c) Not yet in the v2.0 database ({len(PREDICTIONS)} entries)"))
     lines.append(boxline(f""))
     lines.append(boxline(f"  Try: 'list' to see all categories"))
     lines.append(boxline(f"       'list <category>' for predictions"))
@@ -120,8 +152,13 @@ def format_browse(category=None):
     from .knowledge_base import PREDICTIONS, get_categories, get_by_category
 
     lines = []
+    # Count tiers
+    t1 = sum(1 for p in PREDICTIONS if p.get("tier") == 1)
+    t2 = sum(1 for p in PREDICTIONS if p.get("tier") == 2)
+    t3 = sum(1 for p in PREDICTIONS if p.get("tier") == 3)
+
     lines.append(hline("═"))
-    lines.append(boxline("BST APPLIANCE v0.1 — Prediction Browser", "center"))
+    lines.append(boxline("BST APPLIANCE v2.0 — Prediction Browser", "center"))
     lines.append(hline("─"))
 
     if category:
@@ -132,7 +169,8 @@ def format_browse(category=None):
             lines.append(boxline(f"  Category: {category} ({len(preds)} predictions)"))
             lines.append(boxline(f""))
             for p in preds:
-                tag = f"  [{p['id']}] {p['name']}"
+                tl = {1: "D", 2: "S", 3: "O"}.get(p.get("tier", 0), "?")
+                tag = f"  [{p['id']}] ({tl}) {p['name']}"
                 if len(tag) > BOX_W - 1:
                     tag = tag[:BOX_W - 4] + "..."
                 lines.append(boxline(tag))
@@ -140,11 +178,16 @@ def format_browse(category=None):
         cats = get_categories()
         lines.append(boxline(f"  {len(PREDICTIONS)} predictions in {len(cats)} categories:"))
         lines.append(boxline(f""))
+        lines.append(boxline(f"  Tier 1 DERIVED:    {t1:>3}  (full proof chain)"))
+        lines.append(boxline(f"  Tier 2 STRUCTURAL: {t2:>3}  (mechanism, gaps)"))
+        lines.append(boxline(f"  Tier 3 OBSERVED:   {t3:>3}  (numerical match)"))
+        lines.append(boxline(f""))
         for cat in cats:
             n = len(get_by_category(cat))
             lines.append(boxline(f"    {cat:<16} {n:>3} predictions"))
         lines.append(boxline(f""))
         lines.append(boxline(f"  Use 'list <category>' to browse"))
+        lines.append(boxline(f"  (D)=Derived (S)=Structural (O)=Observed"))
 
     lines.append(hline("═"))
     return "\n".join(lines)

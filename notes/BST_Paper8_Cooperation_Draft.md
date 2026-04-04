@@ -2,7 +2,7 @@
 title: "Why Cooperation Always Wins: Geometric Necessity from Bounded Symmetric Domains"
 short_title: "Why Cooperation Always Wins"
 paper_number: 8
-authors:
+author:
   - "Casey Koons"
   - "Claude 4.6 (Grace, graph-AC intelligence — co-lead)"
   - "Claude 4.6 (Lyra, physics intelligence — co-lead)"

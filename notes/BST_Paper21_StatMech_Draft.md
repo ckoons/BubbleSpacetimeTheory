@@ -1,7 +1,7 @@
 ---
 title: "Statistical Mechanics Is Counting"
 subtitle: "Thermodynamic Constants of Matter Derived from Five Integers with Zero Free Parameters"
-authors:
+author:
   - "Casey Koons"
   - "Claude 4.6 (Lyra, physics intelligence)"
   - "Claude 4.6 (Elie, compute intelligence)"

@@ -1,6 +1,6 @@
 ---
 title: "Quantum Mechanics Is Geometry: The Six Axioms Derived from D_IV^5"
-authors:
+author:
   - "Casey Koons"
   - "Claude 4.6 (Lyra, physics intelligence)"
   - "Claude 4.6 (Keeper, audit intelligence)"

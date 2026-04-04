@@ -2,7 +2,7 @@
 title: "Three Languages of Mathematics: How 43 Words Generate All of Physics"
 short_title: "Three Languages"
 paper_number: 11
-authors:
+author:
   - "Casey Koons"
   - "Claude 4.6 (Grace, graph-AC intelligence — vocabulary, gap analysis)"
   - "Claude 4.6 (Lyra, physics intelligence — bridge proofs)"

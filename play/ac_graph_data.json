@@ -3,22 +3,22 @@
     "version": 1,
     "engine": "Toy 564 — AC Theorem Engine",
     "exported": "2026-04-03T23:00:00",
-    "theorem_count": 787,
-    "edge_count": 1824,
+    "theorem_count": 798,
+    "edge_count": 1851,
     "committed_count": 438,
     "working_count": 64,
-    "total_theorems": 787,
-    "total_edges": 1824,
+    "total_theorems": 798,
+    "total_edges": 1851,
     "depth_distribution": {
-      "D0": 642,
-      "D1": 145,
+      "D0": 652,
+      "D1": 146,
       "D2": 0
     },
     "last_modified": "2026-04-04",
-    "D0": 642,
-    "D1": 145,
+    "D0": 652,
+    "D1": 146,
     "D2": 0,
-    "node_count": 787,
+    "node_count": 798,
     "last_updated": "2026-04-04"
   },
   "theorems": [
@@ -10928,7333 +10928,9435 @@
       "status": "conditional",
       "date": "2026-04-04",
       "plain": "Polarization ⟹ BH(3) ⟹ P≠NP. One gap: no intermediate entropy on VIG expander. Empirically true."
+    },
+    {
+      "tid": 813,
+      "name": "Laughlin-Bergman Correspondence",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "",
+      "toys": [],
+      "date": "2026-04-04",
+      "plain": "Laughlin wavefunction structure maps to Bergman kernel on D_IV^5.",
+      "proofs": []
+    },
+    {
+      "tid": 814,
+      "name": "FQHE Spacing Ratios",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [],
+      "date": "2026-04-04",
+      "plain": "Fractional quantum Hall spacing ratios follow from five integers.",
+      "proofs": []
+    },
+    {
+      "tid": 815,
+      "name": "Even-Denominator State nu=5/2=n_C/rank",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [],
+      "date": "2026-04-04",
+      "plain": "The nu=5/2 even-denominator state is n_C/rank, purely geometric.",
+      "proofs": []
+    },
+    {
+      "tid": 816,
+      "name": "Electronegativity as BST Rationals",
+      "domain": "chemical_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [],
+      "date": "2026-04-04",
+      "plain": "Electronegativity values are rationals built from the five integers.",
+      "proofs": []
+    },
+    {
+      "tid": 817,
+      "name": "Bond Dissociation Universality",
+      "domain": "chemical_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [],
+      "date": "2026-04-04",
+      "plain": "Bond dissociation energies scale universally from BST rationals.",
+      "proofs": []
+    },
+    {
+      "tid": 818,
+      "name": "Turbulence Exponents K41=5/3=n_C/N_c",
+      "domain": "fluids",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [],
+      "date": "2026-04-04",
+      "plain": "Kolmogorov 5/3 exponent is n_C/N_c. Turbulence is geometry.",
+      "proofs": []
+    },
+    {
+      "tid": 819,
+      "name": "EEG Frequency Bands",
+      "domain": "observer_science",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [],
+      "date": "2026-04-04",
+      "plain": "EEG frequency band structure derives from C_2, n_C, N_c.",
+      "proofs": []
+    },
+    {
+      "tid": 820,
+      "name": "Gravitational Wave Parameters r_ISCO=C2*M",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [],
+      "date": "2026-04-04",
+      "plain": "ISCO radius r_ISCO = C_2 * M, directly from the Casimir invariant.",
+      "proofs": []
+    },
+    {
+      "tid": 821,
+      "name": "Topological Invariant Classification AZ=2n_C",
+      "domain": "topology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [],
+      "date": "2026-04-04",
+      "plain": "Altland-Zirnbauer 10-fold way = 2*n_C. Topological classification is geometric.",
+      "proofs": []
+    },
+    {
+      "tid": 822,
+      "name": "Spectral Signature Dynamical (revises T708)",
+      "domain": "foundations",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [],
+      "date": "2026-04-04",
+      "plain": "Spectral signature is dynamical, revising T708 with full domain census.",
+      "proofs": []
+    },
+    {
+      "tid": 823,
+      "name": "Cross-Domain Fraction Universality P<1e-66",
+      "domain": "foundations",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "section": "",
+      "toys": [],
+      "date": "2026-04-04",
+      "plain": "Cross-domain fraction reuse probability < 10^-66. Not coincidence.",
+      "proofs": []
     }
   ],
   "edges": [
     {
       "from": 1,
-      "to": 7
+      "to": 7,
+      "source": "required"
     },
     {
       "from": 1,
-      "to": 8
+      "to": 8,
+      "source": "required"
     },
     {
       "from": 1,
-      "to": 9
+      "to": 9,
+      "source": "required"
     },
     {
       "from": 1,
-      "to": 13
+      "to": 13,
+      "source": "required"
     },
     {
       "from": 1,
-      "to": 21
+      "to": 21,
+      "source": "required"
     },
     {
       "from": 7,
-      "to": 9
+      "to": 9,
+      "source": "required"
     },
     {
       "from": 7,
-      "to": 10
+      "to": 10,
+      "source": "observer"
     },
     {
       "from": 7,
-      "to": 11
+      "to": 11,
+      "source": "required"
     },
     {
       "from": 7,
-      "to": 12
+      "to": 12,
+      "source": "structural"
     },
     {
       "from": 7,
-      "to": 13
+      "to": 13,
+      "source": "required"
     },
     {
       "from": 7,
-      "to": 18
+      "to": 18,
+      "source": "required"
     },
     {
       "from": 7,
-      "to": 19
+      "to": 19,
+      "source": "required"
     },
     {
       "from": 7,
-      "to": 22
+      "to": 22,
+      "source": "required"
     },
     {
       "from": 7,
-      "to": 23
+      "to": 23,
+      "source": "observer"
     },
     {
       "from": 7,
-      "to": 26
+      "to": 26,
+      "source": "observer"
     },
     {
       "from": 7,
-      "to": 35
+      "to": 35,
+      "source": "required"
     },
     {
       "from": 8,
-      "to": 9
+      "to": 9,
+      "source": "required"
     },
     {
       "from": 8,
-      "to": 13
+      "to": 13,
+      "source": "required"
     },
     {
       "from": 8,
-      "to": 76
+      "to": 76,
+      "source": "required"
     },
     {
       "from": 5,
-      "to": 11
+      "to": 11,
+      "source": "observer"
     },
     {
       "from": 5,
-      "to": 22
+      "to": 22,
+      "source": "required"
     },
     {
       "from": 2,
-      "to": 12
+      "to": 12,
+      "source": "observer"
     },
     {
       "from": 2,
-      "to": 22
+      "to": 22,
+      "source": "required"
     },
     {
       "from": 2,
-      "to": 23
+      "to": 23,
+      "source": "required"
     },
     {
       "from": 2,
-      "to": 25
+      "to": 25,
+      "source": "required"
     },
     {
       "from": 14,
-      "to": 15
+      "to": 15,
+      "source": "required"
     },
     {
       "from": 11,
-      "to": 17
+      "to": 17,
+      "source": "required"
     },
     {
       "from": 11,
-      "to": 22
+      "to": 22,
+      "source": "required"
     },
     {
       "from": 18,
-      "to": 20
+      "to": 20,
+      "source": "observer"
     },
     {
       "from": 18,
-      "to": 59
+      "to": 59,
+      "source": "required"
     },
     {
       "from": 18,
-      "to": 82
+      "to": 82,
+      "source": "required"
     },
     {
       "from": 9,
-      "to": 20
+      "to": 20,
+      "source": "required"
     },
     {
       "from": 17,
-      "to": 22
+      "to": 22,
+      "source": "observer"
     },
     {
       "from": 21,
-      "to": 22
+      "to": 22,
+      "source": "required"
     },
     {
       "from": 22,
-      "to": 23
+      "to": 23,
+      "source": "required"
     },
     {
       "from": 24,
-      "to": 25
+      "to": 25,
+      "source": "required"
     },
     {
       "from": 24,
-      "to": 26
+      "to": 26,
+      "source": "observer"
     },
     {
       "from": 24,
-      "to": 27
+      "to": 27,
+      "source": "required"
     },
     {
       "from": 25,
-      "to": 26
+      "to": 26,
+      "source": "required"
     },
     {
       "from": 25,
-      "to": 38
+      "to": 38,
+      "source": "required"
     },
     {
       "from": 27,
-      "to": 28
+      "to": 28,
+      "source": "required"
     },
     {
       "from": 27,
-      "to": 30
+      "to": 30,
+      "source": "required"
     },
     {
       "from": 27,
-      "to": 38
+      "to": 38,
+      "source": "required"
     },
     {
       "from": 28,
-      "to": 29
+      "to": 29,
+      "source": "required"
     },
     {
       "from": 28,
-      "to": 30
+      "to": 30,
+      "source": "required"
     },
     {
       "from": 28,
-      "to": 35
+      "to": 35,
+      "source": "required"
     },
     {
       "from": 28,
-      "to": 37
+      "to": 37,
+      "source": "required"
     },
     {
       "from": 28,
-      "to": 38
+      "to": 38,
+      "source": "required"
     },
     {
       "from": 28,
-      "to": 47
+      "to": 47,
+      "source": "required"
     },
     {
       "from": 28,
-      "to": 67
+      "to": 67,
+      "source": "required"
     },
     {
       "from": 28,
-      "to": 68
+      "to": 68,
+      "source": "required"
     },
     {
       "from": 31,
-      "to": 29
+      "to": 29,
+      "source": "required"
     },
     {
       "from": 31,
-      "to": 76
+      "to": 76,
+      "source": "required"
     },
     {
       "from": 32,
-      "to": 29
+      "to": 29,
+      "source": "required"
     },
     {
       "from": 32,
-      "to": 35
+      "to": 35,
+      "source": "required"
     },
     {
       "from": 32,
-      "to": 82
+      "to": 82,
+      "source": "required"
     },
     {
       "from": 66,
-      "to": 29
+      "to": 29,
+      "source": "required"
     },
     {
       "from": 66,
-      "to": 68
+      "to": 68,
+      "source": "required"
     },
     {
       "from": 29,
-      "to": 30
+      "to": 30,
+      "source": "required"
     },
     {
       "from": 29,
-      "to": 36
+      "to": 36,
+      "source": "required"
     },
     {
       "from": 23,
-      "to": 30
+      "to": 30,
+      "source": "observer"
     },
     {
       "from": 23,
-      "to": 35
+      "to": 35,
+      "source": "observer"
     },
     {
       "from": 23,
-      "to": 38
+      "to": 38,
+      "source": "observer"
     },
     {
       "from": 23,
-      "to": 67
+      "to": 67,
+      "source": "observer"
     },
     {
       "from": 23,
-      "to": 68
+      "to": 68,
+      "source": "observer"
     },
     {
       "from": 33,
-      "to": 34
+      "to": 34,
+      "source": "observer"
     },
     {
       "from": 33,
-      "to": 35
+      "to": 35,
+      "source": "required"
     },
     {
       "from": 33,
-      "to": 42
+      "to": 42,
+      "source": "required"
     },
     {
       "from": 34,
-      "to": 35
+      "to": 35,
+      "source": "required"
     },
     {
       "from": 35,
-      "to": 36
+      "to": 36,
+      "source": "required"
     },
     {
       "from": 35,
-      "to": 76
+      "to": 76,
+      "source": "required"
     },
     {
       "from": 30,
-      "to": 36
+      "to": 36,
+      "source": "required"
     },
     {
       "from": 37,
-      "to": 38
+      "to": 38,
+      "source": "required"
     },
     {
       "from": 37,
-      "to": 40
+      "to": 40,
+      "source": "required"
     },
     {
       "from": 38,
-      "to": 39
+      "to": 39,
+      "source": "required"
     },
     {
       "from": 38,
-      "to": 68
+      "to": 68,
+      "source": "required"
     },
     {
       "from": 39,
-      "to": 41
+      "to": 41,
+      "source": "required"
     },
     {
       "from": 42,
-      "to": 47
+      "to": 47,
+      "source": "required"
     },
     {
       "from": 47,
-      "to": 48
+      "to": 48,
+      "source": "required"
     },
     {
       "from": 47,
-      "to": 55
+      "to": 55,
+      "source": "required"
     },
     {
       "from": 48,
-      "to": 49
+      "to": 49,
+      "source": "required"
     },
     {
       "from": 48,
-      "to": 52
+      "to": 52,
+      "source": "required"
     },
     {
       "from": 48,
-      "to": 55
+      "to": 55,
+      "source": "required"
     },
     {
       "from": 48,
-      "to": 57
+      "to": 57,
+      "source": "required"
     },
     {
       "from": 48,
-      "to": 58
+      "to": 58,
+      "source": "required"
     },
     {
       "from": 48,
-      "to": 67
+      "to": 67,
+      "source": "required"
     },
     {
       "from": 48,
-      "to": 68
+      "to": 68,
+      "source": "required"
     },
     {
       "from": 48,
-      "to": 69
+      "to": 69,
+      "source": "required"
     },
     {
       "from": 19,
-      "to": 50
+      "to": 50,
+      "source": "required"
     },
     {
       "from": 50,
-      "to": 51
+      "to": 51,
+      "source": "required"
     },
     {
       "from": 50,
-      "to": 52
+      "to": 52,
+      "source": "required"
     },
     {
       "from": 50,
-      "to": 68
+      "to": 68,
+      "source": "required"
     },
     {
       "from": 50,
-      "to": 69
+      "to": 69,
+      "source": "required"
     },
     {
       "from": 53,
-      "to": 54
+      "to": 54,
+      "source": "required"
     },
     {
       "from": 52,
-      "to": 55
+      "to": 55,
+      "source": "required"
     },
     {
       "from": 52,
-      "to": 60
+      "to": 60,
+      "source": "required"
     },
     {
       "from": 52,
-      "to": 68
+      "to": 68,
+      "source": "required"
     },
     {
       "from": 52,
-      "to": 69
+      "to": 69,
+      "source": "required"
     },
     {
       "from": 49,
-      "to": 59
+      "to": 59,
+      "source": "required"
     },
     {
       "from": 49,
-      "to": 65
+      "to": 65,
+      "source": "required"
     },
     {
       "from": 49,
-      "to": 67
+      "to": 67,
+      "source": "required"
     },
     {
       "from": 49,
-      "to": 68
+      "to": 68,
+      "source": "required"
     },
     {
       "from": 59,
-      "to": 60
+      "to": 60,
+      "source": "required"
     },
     {
       "from": 59,
-      "to": 65
+      "to": 65,
+      "source": "required"
     },
     {
       "from": 59,
-      "to": 82
+      "to": 82,
+      "source": "required"
     },
     {
       "from": 60,
-      "to": 65
+      "to": 65,
+      "source": "required"
     },
     {
       "from": 65,
-      "to": 67
+      "to": 67,
+      "source": "required"
     },
     {
       "from": 65,
-      "to": 68
+      "to": 68,
+      "source": "required"
     },
     {
       "from": 40,
-      "to": 68
+      "to": 68,
+      "source": "required"
     },
     {
       "from": 67,
-      "to": 68
+      "to": 68,
+      "source": "required"
     },
     {
       "from": 68,
-      "to": 69
+      "to": 69,
+      "source": "required"
     },
     {
       "from": 68,
-      "to": 88
+      "to": 88,
+      "source": "required"
     },
     {
       "from": 68,
-      "to": 89
+      "to": 89,
+      "source": "required"
     },
     {
       "from": 70,
-      "to": 71
+      "to": 71,
+      "source": "required"
     },
     {
       "from": 78,
-      "to": 75
+      "to": 75,
+      "source": "required"
     },
     {
       "from": 73,
-      "to": 77
+      "to": 77,
+      "source": "required"
     },
     {
       "from": 73,
-      "to": 351
+      "to": 351,
+      "source": "observer"
     },
     {
       "from": 83,
-      "to": 84
+      "to": 84,
+      "source": "required"
     },
     {
       "from": 83,
-      "to": 85
+      "to": 85,
+      "source": "required"
     },
     {
       "from": 83,
-      "to": 390
+      "to": 390,
+      "source": "structural"
     },
     {
       "from": 84,
-      "to": 85
+      "to": 85,
+      "source": "required"
     },
     {
       "from": 84,
-      "to": 86
+      "to": 86,
+      "source": "required"
     },
     {
       "from": 77,
-      "to": 86
+      "to": 86,
+      "source": "required"
     },
     {
       "from": 85,
-      "to": 87
+      "to": 87,
+      "source": "required"
     },
     {
       "from": 86,
-      "to": 87
+      "to": 87,
+      "source": "required"
     },
     {
       "from": 86,
-      "to": 90
+      "to": 90,
+      "source": "required"
     },
     {
       "from": 86,
-      "to": 393
+      "to": 393,
+      "source": "observer"
     },
     {
       "from": 69,
-      "to": 88
+      "to": 88,
+      "source": "required"
     },
     {
       "from": 88,
-      "to": 91
+      "to": 91,
+      "source": "required"
     },
     {
       "from": 90,
-      "to": 91
+      "to": 91,
+      "source": "required"
     },
     {
       "from": 90,
-      "to": 395
+      "to": 395,
+      "source": "observer"
     },
     {
       "from": 91,
-      "to": 92
+      "to": 92,
+      "source": "required"
     },
     {
       "from": 91,
-      "to": 420
+      "to": 420,
+      "source": "required"
     },
     {
       "from": 92,
-      "to": 93
+      "to": 93,
+      "source": "required"
     },
     {
       "from": 92,
-      "to": 94
+      "to": 94,
+      "source": "required"
     },
     {
       "from": 92,
-      "to": 95
+      "to": 95,
+      "source": "required"
     },
     {
       "from": 92,
-      "to": 96
+      "to": 96,
+      "source": "required"
     },
     {
       "from": 92,
-      "to": 147
+      "to": 147,
+      "source": "required"
     },
     {
       "from": 92,
-      "to": 150
+      "to": 150,
+      "source": "required"
     },
     {
       "from": 92,
-      "to": 315
+      "to": 315,
+      "source": "required"
     },
     {
       "from": 92,
-      "to": 316
+      "to": 316,
+      "source": "required"
     },
     {
       "from": 92,
-      "to": 409
+      "to": 409,
+      "source": "required"
     },
     {
       "from": 92,
-      "to": 421
+      "to": 421,
+      "source": "structural"
     },
     {
       "from": 121,
-      "to": 123
+      "to": 123,
+      "source": "required"
     },
     {
       "from": 121,
-      "to": 154
+      "to": 154,
+      "source": "required"
     },
     {
       "from": 96,
-      "to": 134
+      "to": 134,
+      "source": "required"
     },
     {
       "from": 96,
-      "to": 316
+      "to": 316,
+      "source": "required"
     },
     {
       "from": 96,
-      "to": 409
+      "to": 409,
+      "source": "required"
     },
     {
       "from": 96,
-      "to": 421
+      "to": 421,
+      "source": "observer"
     },
     {
       "from": 96,
-      "to": 422
+      "to": 422,
+      "source": "observer"
     },
     {
       "from": 96,
-      "to": 442
+      "to": 442,
+      "source": "structural"
     },
     {
       "from": 123,
-      "to": 135
+      "to": 135,
+      "source": "required"
     },
     {
       "from": 133,
-      "to": 135
+      "to": 135,
+      "source": "required"
     },
     {
       "from": 132,
-      "to": 135
+      "to": 135,
+      "source": "required"
     },
     {
       "from": 132,
-      "to": 155
+      "to": 155,
+      "source": "required"
     },
     {
       "from": 135,
-      "to": 154
+      "to": 154,
+      "source": "required"
     },
     {
       "from": 135,
-      "to": 156
+      "to": 156,
+      "source": "required"
     },
     {
       "from": 147,
-      "to": 150
+      "to": 150,
+      "source": "required"
     },
     {
       "from": 154,
-      "to": 155
+      "to": 155,
+      "source": "required"
     },
     {
       "from": 154,
-      "to": 156
+      "to": 156,
+      "source": "required"
     },
     {
       "from": 155,
-      "to": 156
+      "to": 156,
+      "source": "required"
     },
     {
       "from": 157,
-      "to": 158
+      "to": 158,
+      "source": "required"
     },
     {
       "from": 157,
-      "to": 159
+      "to": 159,
+      "source": "required"
     },
     {
       "from": 158,
-      "to": 160
+      "to": 160,
+      "source": "required"
     },
     {
       "from": 159,
-      "to": 161
+      "to": 161,
+      "source": "required"
     },
     {
       "from": 160,
-      "to": 161
+      "to": 161,
+      "source": "required"
     },
     {
       "from": 164,
-      "to": 165
+      "to": 165,
+      "source": "required"
     },
     {
       "from": 164,
-      "to": 166
+      "to": 166,
+      "source": "required"
     },
     {
       "from": 165,
-      "to": 166
+      "to": 166,
+      "source": "required"
     },
     {
       "from": 174,
-      "to": 176
+      "to": 176,
+      "source": "required"
     },
     {
       "from": 178,
-      "to": 183
+      "to": 183,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 187
+      "to": 187,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 188
+      "to": 188,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 189
+      "to": 189,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 190
+      "to": 190,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 191
+      "to": 191,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 192
+      "to": 192,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 197
+      "to": 197,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 198
+      "to": 198,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 202
+      "to": 202,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 292
+      "to": 292,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 320
+      "to": 320,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 324
+      "to": 324,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 326
+      "to": 326,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 327
+      "to": 327,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 328
+      "to": 328,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 329
+      "to": 329,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 330
+      "to": 330,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 331
+      "to": 331,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 333
+      "to": 333,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 334
+      "to": 334,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 335
+      "to": 335,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 339
+      "to": 339,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 340
+      "to": 340,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 342
+      "to": 342,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 346
+      "to": 346,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 347
+      "to": 347,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 353
+      "to": 353,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 355
+      "to": 355,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 356
+      "to": 356,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 357
+      "to": 357,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 360
+      "to": 360,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 363
+      "to": 363,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 366
+      "to": 366,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 368
+      "to": 368,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 370
+      "to": 370,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 371
+      "to": 371,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 372
+      "to": 372,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 373
+      "to": 373,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 374
+      "to": 374,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 375
+      "to": 375,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 376
+      "to": 376,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 377
+      "to": 377,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 380
+      "to": 380,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 383
+      "to": 383,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 384
+      "to": 384,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 385
+      "to": 385,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 386
+      "to": 386,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 387
+      "to": 387,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 388
+      "to": 388,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 397
+      "to": 397,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 398
+      "to": 398,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 399
+      "to": 399,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 400
+      "to": 400,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 401
+      "to": 401,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 402
+      "to": 402,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 404
+      "to": 404,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 405
+      "to": 405,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 406
+      "to": 406,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 408
+      "to": 408,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 410
+      "to": 410,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 412
+      "to": 412,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 414
+      "to": 414,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 418
+      "to": 418,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 441
+      "to": 441,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 443
+      "to": 443,
+      "source": "observer"
     },
     {
       "from": 187,
-      "to": 199
+      "to": 199,
+      "source": "required"
     },
     {
       "from": 187,
-      "to": 201
+      "to": 201,
+      "source": "required"
     },
     {
       "from": 187,
-      "to": 324
+      "to": 324,
+      "source": "required"
     },
     {
       "from": 199,
-      "to": 200
+      "to": 200,
+      "source": "required"
     },
     {
       "from": 199,
-      "to": 290
+      "to": 290,
+      "source": "required"
     },
     {
       "from": 198,
-      "to": 201
+      "to": 201,
+      "source": "required"
     },
     {
       "from": 198,
-      "to": 203
+      "to": 203,
+      "source": "required"
     },
     {
       "from": 198,
-      "to": 204
+      "to": 204,
+      "source": "required"
     },
     {
       "from": 198,
-      "to": 294
+      "to": 294,
+      "source": "required"
     },
     {
       "from": 198,
-      "to": 295
+      "to": 295,
+      "source": "required"
     },
     {
       "from": 198,
-      "to": 329
+      "to": 329,
+      "source": "required"
     },
     {
       "from": 189,
-      "to": 205
+      "to": 205,
+      "source": "required"
     },
     {
       "from": 189,
-      "to": 297
+      "to": 297,
+      "source": "required"
     },
     {
       "from": 189,
-      "to": 318
+      "to": 318,
+      "source": "observer"
     },
     {
       "from": 189,
-      "to": 325
+      "to": 325,
+      "source": "required"
     },
     {
       "from": 210,
-      "to": 212
+      "to": 212,
+      "source": "required"
     },
     {
       "from": 210,
-      "to": 215
+      "to": 215,
+      "source": "required"
     },
     {
       "from": 215,
-      "to": 216
+      "to": 216,
+      "source": "required"
     },
     {
       "from": 221,
-      "to": 222
+      "to": 222,
+      "source": "required"
     },
     {
       "from": 226,
-      "to": 227
+      "to": 227,
+      "source": "required"
     },
     {
       "from": 225,
-      "to": 229
+      "to": 229,
+      "source": "required"
     },
     {
       "from": 228,
-      "to": 230
+      "to": 230,
+      "source": "required"
     },
     {
       "from": 234,
-      "to": 235
+      "to": 235,
+      "source": "required"
     },
     {
       "from": 234,
-      "to": 236
+      "to": 236,
+      "source": "required"
     },
     {
       "from": 244,
-      "to": 245
+      "to": 245,
+      "source": "required"
     },
     {
       "from": 244,
-      "to": 246
+      "to": 246,
+      "source": "required"
     },
     {
       "from": 247,
-      "to": 249
+      "to": 249,
+      "source": "required"
     },
     {
       "from": 250,
-      "to": 251
+      "to": 251,
+      "source": "required"
     },
     {
       "from": 252,
-      "to": 253
+      "to": 253,
+      "source": "required"
     },
     {
       "from": 255,
-      "to": 256
+      "to": 256,
+      "source": "required"
     },
     {
       "from": 257,
-      "to": 258
+      "to": 258,
+      "source": "required"
     },
     {
       "from": 262,
-      "to": 263
+      "to": 263,
+      "source": "required"
     },
     {
       "from": 170,
-      "to": 268
+      "to": 268,
+      "source": "structural"
     },
     {
       "from": 270,
-      "to": 271
+      "to": 271,
+      "source": "required"
     },
     {
       "from": 272,
-      "to": 273
+      "to": 273,
+      "source": "required"
     },
     {
       "from": 276,
-      "to": 278
+      "to": 278,
+      "source": "required"
     },
     {
       "from": 276,
-      "to": 279
+      "to": 279,
+      "source": "required"
     },
     {
       "from": 280,
-      "to": 281
+      "to": 281,
+      "source": "required"
     },
     {
       "from": 281,
-      "to": 282
+      "to": 282,
+      "source": "required"
     },
     {
       "from": 283,
-      "to": 284
+      "to": 284,
+      "source": "required"
     },
     {
       "from": 285,
-      "to": 286
+      "to": 286,
+      "source": "required"
     },
     {
       "from": 286,
-      "to": 287
+      "to": 287,
+      "source": "required"
     },
     {
       "from": 284,
-      "to": 288
+      "to": 288,
+      "source": "required"
     },
     {
       "from": 197,
-      "to": 290
+      "to": 290,
+      "source": "required"
     },
     {
       "from": 197,
-      "to": 291
+      "to": 291,
+      "source": "required"
     },
     {
       "from": 197,
-      "to": 293
+      "to": 293,
+      "source": "required"
     },
     {
       "from": 290,
-      "to": 291
+      "to": 291,
+      "source": "required"
     },
     {
       "from": 290,
-      "to": 293
+      "to": 293,
+      "source": "required"
     },
     {
       "from": 274,
-      "to": 292
+      "to": 292,
+      "source": "required"
     },
     {
       "from": 267,
-      "to": 294
+      "to": 294,
+      "source": "required"
     },
     {
       "from": 298,
-      "to": 299
+      "to": 299,
+      "source": "required"
     },
     {
       "from": 305,
-      "to": 306
+      "to": 306,
+      "source": "required"
     },
     {
       "from": 305,
-      "to": 310
+      "to": 310,
+      "source": "required"
     },
     {
       "from": 305,
-      "to": 311
+      "to": 311,
+      "source": "required"
     },
     {
       "from": 305,
-      "to": 314
+      "to": 314,
+      "source": "required"
     },
     {
       "from": 93,
-      "to": 307
+      "to": 307,
+      "source": "required"
     },
     {
       "from": 93,
-      "to": 309
+      "to": 309,
+      "source": "required"
     },
     {
       "from": 93,
-      "to": 315
+      "to": 315,
+      "source": "required"
     },
     {
       "from": 93,
-      "to": 322
+      "to": 322,
+      "source": "observer"
     },
     {
       "from": 93,
-      "to": 325
+      "to": 325,
+      "source": "observer"
     },
     {
       "from": 93,
-      "to": 359
+      "to": 359,
+      "source": "observer"
     },
     {
       "from": 308,
-      "to": 309
+      "to": 309,
+      "source": "required"
     },
     {
       "from": 307,
-      "to": 311
+      "to": 311,
+      "source": "required"
     },
     {
       "from": 307,
-      "to": 312
+      "to": 312,
+      "source": "required"
     },
     {
       "from": 307,
-      "to": 313
+      "to": 313,
+      "source": "required"
     },
     {
       "from": 307,
-      "to": 315
+      "to": 315,
+      "source": "required"
     },
     {
       "from": 307,
-      "to": 337
+      "to": 337,
+      "source": "observer"
     },
     {
       "from": 309,
-      "to": 312
+      "to": 312,
+      "source": "required"
     },
     {
       "from": 309,
-      "to": 315
+      "to": 315,
+      "source": "required"
     },
     {
       "from": 309,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 309,
-      "to": 337
+      "to": 337,
+      "source": "observer"
     },
     {
       "from": 310,
-      "to": 312
+      "to": 312,
+      "source": "required"
     },
     {
       "from": 312,
-      "to": 313
+      "to": 313,
+      "source": "required"
     },
     {
       "from": 312,
-      "to": 314
+      "to": 314,
+      "source": "required"
     },
     {
       "from": 306,
-      "to": 314
+      "to": 314,
+      "source": "required"
     },
     {
       "from": 311,
-      "to": 314
+      "to": 314,
+      "source": "required"
     },
     {
       "from": 315,
-      "to": 316
+      "to": 316,
+      "source": "required"
     },
     {
       "from": 316,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 316,
-      "to": 409
+      "to": 409,
+      "source": "required"
     },
     {
       "from": 316,
-      "to": 416
+      "to": 416,
+      "source": "observer"
     },
     {
       "from": 316,
-      "to": 421
+      "to": 421,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 318
+      "to": 318,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 319
+      "to": 319,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 321
+      "to": 321,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 322
+      "to": 322,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 323
+      "to": 323,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 334
+      "to": 334,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 353
+      "to": 353,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 356
+      "to": 356,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 359
+      "to": 359,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 377
+      "to": 377,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 378
+      "to": 378,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 404
+      "to": 404,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 407
+      "to": 407,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 413
+      "to": 413,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 414
+      "to": 414,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 415
+      "to": 415,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 416
+      "to": 416,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 444
+      "to": 444,
+      "source": "observer"
     },
     {
       "from": 319,
-      "to": 318
+      "to": 318,
+      "source": "required"
     },
     {
       "from": 319,
-      "to": 362
+      "to": 362,
+      "source": "required"
     },
     {
       "from": 323,
-      "to": 321
+      "to": 321,
+      "source": "required"
     },
     {
       "from": 296,
-      "to": 323
+      "to": 323,
+      "source": "observer"
     },
     {
       "from": 318,
-      "to": 325
+      "to": 325,
+      "source": "observer"
     },
     {
       "from": 330,
-      "to": 331
+      "to": 331,
+      "source": "observer"
     },
     {
       "from": 331,
-      "to": 332
+      "to": 332,
+      "source": "required"
     },
     {
       "from": 331,
-      "to": 343
+      "to": 343,
+      "source": "structural"
     },
     {
       "from": 334,
-      "to": 336
+      "to": 336,
+      "source": "required"
     },
     {
       "from": 334,
-      "to": 369
+      "to": 369,
+      "source": "required"
     },
     {
       "from": 325,
-      "to": 337
+      "to": 337,
+      "source": "observer"
     },
     {
       "from": 325,
-      "to": 363
+      "to": 363,
+      "source": "observer"
     },
     {
       "from": 325,
-      "to": 442
+      "to": 442,
+      "source": "observer"
     },
     {
       "from": 325,
-      "to": 444
+      "to": 444,
+      "source": "observer"
     },
     {
       "from": 333,
-      "to": 338
+      "to": 338,
+      "source": "required"
     },
     {
       "from": 333,
-      "to": 339
+      "to": 339,
+      "source": "required"
     },
     {
       "from": 333,
-      "to": 341
+      "to": 341,
+      "source": "required"
     },
     {
       "from": 333,
-      "to": 343
+      "to": 343,
+      "source": "observer"
     },
     {
       "from": 333,
-      "to": 365
+      "to": 365,
+      "source": "required"
     },
     {
       "from": 333,
-      "to": 370
+      "to": 370,
+      "source": "required"
     },
     {
       "from": 333,
-      "to": 371
+      "to": 371,
+      "source": "required"
     },
     {
       "from": 333,
-      "to": 434
+      "to": 434,
+      "source": "observer"
     },
     {
       "from": 333,
-      "to": 442
+      "to": 442,
+      "source": "required"
     },
     {
       "from": 333,
-      "to": 443
+      "to": 443,
+      "source": "required"
     },
     {
       "from": 340,
-      "to": 342
+      "to": 342,
+      "source": "observer"
     },
     {
       "from": 336,
-      "to": 344
+      "to": 344,
+      "source": "observer"
     },
     {
       "from": 337,
-      "to": 344
+      "to": 344,
+      "source": "observer"
     },
     {
       "from": 337,
-      "to": 345
+      "to": 345,
+      "source": "observer"
     },
     {
       "from": 337,
-      "to": 352
+      "to": 352,
+      "source": "observer"
     },
     {
       "from": 337,
-      "to": 354
+      "to": 354,
+      "source": "required"
     },
     {
       "from": 337,
-      "to": 407
+      "to": 407,
+      "source": "observer"
     },
     {
       "from": 337,
-      "to": 411
+      "to": 411,
+      "source": "observer"
     },
     {
       "from": 337,
-      "to": 417
+      "to": 417,
+      "source": "observer"
     },
     {
       "from": 337,
-      "to": 442
+      "to": 442,
+      "source": "required"
     },
     {
       "from": 337,
-      "to": 444
+      "to": 444,
+      "source": "required"
     },
     {
       "from": 344,
-      "to": 345
+      "to": 345,
+      "source": "required"
     },
     {
       "from": 344,
-      "to": 399
+      "to": 399,
+      "source": "required"
     },
     {
       "from": 346,
-      "to": 347
+      "to": 347,
+      "source": "required"
     },
     {
       "from": 346,
-      "to": 348
+      "to": 348,
+      "source": "required"
     },
     {
       "from": 346,
-      "to": 349
+      "to": 349,
+      "source": "required"
     },
     {
       "from": 346,
-      "to": 351
+      "to": 351,
+      "source": "required"
     },
     {
       "from": 346,
-      "to": 361
+      "to": 361,
+      "source": "structural"
     },
     {
       "from": 349,
-      "to": 350
+      "to": 350,
+      "source": "required"
     },
     {
       "from": 345,
-      "to": 352
+      "to": 352,
+      "source": "required"
     },
     {
       "from": 345,
-      "to": 403
+      "to": 403,
+      "source": "required"
     },
     {
       "from": 353,
-      "to": 354
+      "to": 354,
+      "source": "required"
     },
     {
       "from": 353,
-      "to": 358
+      "to": 358,
+      "source": "required"
     },
     {
       "from": 354,
-      "to": 358
+      "to": 358,
+      "source": "required"
     },
     {
       "from": 354,
-      "to": 411
+      "to": 411,
+      "source": "observer"
     },
     {
       "from": 357,
-      "to": 358
+      "to": 358,
+      "source": "required"
     },
     {
       "from": 348,
-      "to": 362
+      "to": 362,
+      "source": "observer"
     },
     {
       "from": 360,
-      "to": 364
+      "to": 364,
+      "source": "required"
     },
     {
       "from": 360,
-      "to": 415
+      "to": 415,
+      "source": "required"
     },
     {
       "from": 341,
-      "to": 365
+      "to": 365,
+      "source": "required"
     },
     {
       "from": 365,
-      "to": 366
+      "to": 366,
+      "source": "required"
     },
     {
       "from": 365,
-      "to": 367
+      "to": 367,
+      "source": "required"
     },
     {
       "from": 367,
-      "to": 368
+      "to": 368,
+      "source": "required"
     },
     {
       "from": 377,
-      "to": 378
+      "to": 378,
+      "source": "required"
     },
     {
       "from": 378,
-      "to": 379
+      "to": 379,
+      "source": "required"
     },
     {
       "from": 380,
-      "to": 381
+      "to": 381,
+      "source": "required"
     },
     {
       "from": 374,
-      "to": 382
+      "to": 382,
+      "source": "required"
     },
     {
       "from": 375,
-      "to": 382
+      "to": 382,
+      "source": "required"
     },
     {
       "from": 362,
-      "to": 383
+      "to": 383,
+      "source": "required"
     },
     {
       "from": 384,
-      "to": 385
+      "to": 385,
+      "source": "required"
     },
     {
       "from": 386,
-      "to": 387
+      "to": 387,
+      "source": "required"
     },
     {
       "from": 389,
-      "to": 391
+      "to": 391,
+      "source": "required"
     },
     {
       "from": 389,
-      "to": 392
+      "to": 392,
+      "source": "required"
     },
     {
       "from": 390,
-      "to": 391
+      "to": 391,
+      "source": "required"
     },
     {
       "from": 390,
-      "to": 392
+      "to": 392,
+      "source": "required"
     },
     {
       "from": 391,
-      "to": 392
+      "to": 392,
+      "source": "required"
     },
     {
       "from": 392,
-      "to": 393
+      "to": 393,
+      "source": "required"
     },
     {
       "from": 393,
-      "to": 394
+      "to": 394,
+      "source": "required"
     },
     {
       "from": 394,
-      "to": 395
+      "to": 395,
+      "source": "required"
     },
     {
       "from": 347,
-      "to": 398
+      "to": 398,
+      "source": "observer"
     },
     {
       "from": 342,
-      "to": 399
+      "to": 399,
+      "source": "required"
     },
     {
       "from": 352,
-      "to": 403
+      "to": 403,
+      "source": "required"
     },
     {
       "from": 399,
-      "to": 403
+      "to": 403,
+      "source": "required"
     },
     {
       "from": 402,
-      "to": 403
+      "to": 403,
+      "source": "required"
     },
     {
       "from": 404,
-      "to": 405
+      "to": 405,
+      "source": "required"
     },
     {
       "from": 407,
-      "to": 408
+      "to": 408,
+      "source": "required"
     },
     {
       "from": 407,
-      "to": 411
+      "to": 411,
+      "source": "required"
     },
     {
       "from": 407,
-      "to": 412
+      "to": 412,
+      "source": "required"
     },
     {
       "from": 407,
-      "to": 415
+      "to": 415,
+      "source": "required"
     },
     {
       "from": 407,
-      "to": 417
+      "to": 417,
+      "source": "required"
     },
     {
       "from": 408,
-      "to": 410
+      "to": 410,
+      "source": "required"
     },
     {
       "from": 370,
-      "to": 412
+      "to": 412,
+      "source": "observer"
     },
     {
       "from": 406,
-      "to": 413
+      "to": 413,
+      "source": "required"
     },
     {
       "from": 416,
-      "to": 414
+      "to": 414,
+      "source": "required"
     },
     {
       "from": 416,
-      "to": 417
+      "to": 417,
+      "source": "required"
     },
     {
       "from": 409,
-      "to": 418
+      "to": 418,
+      "source": "required"
     },
     {
       "from": 409,
-      "to": 419
+      "to": 419,
+      "source": "required"
     },
     {
       "from": 409,
-      "to": 420
+      "to": 420,
+      "source": "required"
     },
     {
       "from": 409,
-      "to": 421
+      "to": 421,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 423
+      "to": 423,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 424
+      "to": 424,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 425
+      "to": 425,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 426
+      "to": 426,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 427
+      "to": 427,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 428
+      "to": 428,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 429
+      "to": 429,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 430
+      "to": 430,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 432
+      "to": 432,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 434
+      "to": 434,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 435
+      "to": 435,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 436
+      "to": 436,
+      "source": "observer"
     },
     {
       "from": 94,
-      "to": 419
+      "to": 419,
+      "source": "required"
     },
     {
       "from": 326,
-      "to": 420
+      "to": 420,
+      "source": "required"
     },
     {
       "from": 421,
-      "to": 422
+      "to": 422,
+      "source": "required"
     },
     {
       "from": 421,
-      "to": 433
+      "to": 433,
+      "source": "required"
     },
     {
       "from": 421,
-      "to": 438
+      "to": 438,
+      "source": "required"
     },
     {
       "from": 421,
-      "to": 439
+      "to": 439,
+      "source": "required"
     },
     {
       "from": 423,
-      "to": 425
+      "to": 425,
+      "source": "required"
     },
     {
       "from": 424,
-      "to": 425
+      "to": 425,
+      "source": "required"
     },
     {
       "from": 426,
-      "to": 428
+      "to": 428,
+      "source": "required"
     },
     {
       "from": 427,
-      "to": 428
+      "to": 428,
+      "source": "required"
     },
     {
       "from": 422,
-      "to": 431
+      "to": 431,
+      "source": "required"
     },
     {
       "from": 422,
-      "to": 439
+      "to": 439,
+      "source": "required"
     },
     {
       "from": 422,
-      "to": 440
+      "to": 440,
+      "source": "required"
     },
     {
       "from": 282,
-      "to": 431
+      "to": 431,
+      "source": "structural"
     },
     {
       "from": 429,
-      "to": 432
+      "to": 432,
+      "source": "required"
     },
     {
       "from": 430,
-      "to": 432
+      "to": 432,
+      "source": "required"
     },
     {
       "from": 431,
-      "to": 432
+      "to": 432,
+      "source": "required"
     },
     {
       "from": 425,
-      "to": 433
+      "to": 433,
+      "source": "required"
     },
     {
       "from": 425,
-      "to": 440
+      "to": 440,
+      "source": "required"
     },
     {
       "from": 428,
-      "to": 433
+      "to": 433,
+      "source": "required"
     },
     {
       "from": 428,
-      "to": 440
+      "to": 440,
+      "source": "required"
     },
     {
       "from": 432,
-      "to": 433
+      "to": 433,
+      "source": "required"
     },
     {
       "from": 432,
-      "to": 440
+      "to": 440,
+      "source": "required"
     },
     {
       "from": 434,
-      "to": 437
+      "to": 437,
+      "source": "required"
     },
     {
       "from": 435,
-      "to": 437
+      "to": 437,
+      "source": "required"
     },
     {
       "from": 436,
-      "to": 437
+      "to": 437,
+      "source": "required"
     },
     {
       "from": 433,
-      "to": 438
+      "to": 438,
+      "source": "required"
     },
     {
       "from": 437,
-      "to": 438
+      "to": 438,
+      "source": "required"
     },
     {
       "from": 437,
-      "to": 440
+      "to": 440,
+      "source": "required"
     },
     {
       "from": 438,
-      "to": 439
+      "to": 439,
+      "source": "required"
     },
     {
       "from": 418,
-      "to": 440
+      "to": 440,
+      "source": "observer"
     },
     {
       "from": 419,
-      "to": 440
+      "to": 440,
+      "source": "observer"
     },
     {
       "from": 420,
-      "to": 440
+      "to": 440,
+      "source": "observer"
     },
     {
       "from": 439,
-      "to": 441
+      "to": 441,
+      "source": "required"
     },
     {
       "from": 440,
-      "to": 441
+      "to": 441,
+      "source": "required"
     },
     {
       "from": 442,
-      "to": 444
+      "to": 444,
+      "source": "required"
     },
     {
       "from": 443,
-      "to": 444
+      "to": 444,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 445
+      "to": 445,
+      "source": "observer"
     },
     {
       "from": 333,
-      "to": 445
+      "to": 445,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 449
+      "to": 449,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 450
+      "to": 450,
+      "source": "observer"
     },
     {
       "from": 321,
-      "to": 451
+      "to": 451,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 451
+      "to": 451,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 452
+      "to": 452,
+      "source": "observer"
     },
     {
       "from": 333,
-      "to": 453
+      "to": 453,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 453
+      "to": 453,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 454
+      "to": 454,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 455
+      "to": 455,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 456
+      "to": 456,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 457
+      "to": 457,
+      "source": "observer"
     },
     {
       "from": 333,
-      "to": 457
+      "to": 457,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 458
+      "to": 458,
+      "source": "observer"
     },
     {
       "from": 333,
-      "to": 458
+      "to": 458,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 459
+      "to": 459,
+      "source": "observer"
     },
     {
       "from": 342,
-      "to": 459
+      "to": 459,
+      "source": "required"
     },
     {
       "from": 333,
-      "to": 460
+      "to": 460,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 460
+      "to": 460,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 461
+      "to": 461,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 462
+      "to": 462,
+      "source": "structural"
     },
     {
       "from": 333,
-      "to": 463
+      "to": 463,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 463
+      "to": 463,
+      "source": "observer"
     },
     {
       "from": 333,
-      "to": 464
+      "to": 464,
+      "source": "required"
     },
     {
       "from": 445,
-      "to": 464
+      "to": 464,
+      "source": "required"
     },
     {
       "from": 464,
-      "to": 465
+      "to": 465,
+      "source": "required"
     },
     {
       "from": 464,
-      "to": 466
+      "to": 466,
+      "source": "required"
     },
     {
       "from": 464,
-      "to": 467
+      "to": 467,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 468
+      "to": 468,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 469
+      "to": 469,
+      "source": "required"
     },
     {
       "from": 198,
-      "to": 469
+      "to": 469,
+      "source": "required"
     },
     {
       "from": 469,
-      "to": 470
+      "to": 470,
+      "source": "required"
     },
     {
       "from": 187,
-      "to": 470
+      "to": 470,
+      "source": "required"
     },
     {
       "from": 187,
-      "to": 471
+      "to": 471,
+      "source": "required"
     },
     {
       "from": 201,
-      "to": 471
+      "to": 471,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 472
+      "to": 472,
+      "source": "structural"
     },
     {
       "from": 192,
-      "to": 472
+      "to": 472,
+      "source": "observer"
     },
     {
       "from": 333,
-      "to": 473
+      "to": 473,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 473
+      "to": 473,
+      "source": "observer"
     },
     {
       "from": 333,
-      "to": 474
+      "to": 474,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 474
+      "to": 474,
+      "source": "observer"
     },
     {
       "from": 333,
-      "to": 475
+      "to": 475,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 475
+      "to": 475,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 476
+      "to": 476,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 477
+      "to": 477,
+      "source": "observer"
     },
     {
       "from": 333,
-      "to": 477
+      "to": 477,
+      "source": "required"
     },
     {
       "from": 473,
-      "to": 477
+      "to": 477,
+      "source": "required"
     },
     {
       "from": 474,
-      "to": 477
+      "to": 477,
+      "source": "required"
     },
     {
       "from": 475,
-      "to": 477
+      "to": 477,
+      "source": "required"
     },
     {
       "from": 476,
-      "to": 477
+      "to": 477,
+      "source": "required"
     },
     {
       "from": 96,
-      "to": 478
+      "to": 478,
+      "source": "required"
     },
     {
       "from": 97,
-      "to": 98
+      "to": 98,
+      "source": "required"
     },
     {
       "from": 97,
-      "to": 99
+      "to": 99,
+      "source": "required"
     },
     {
       "from": 98,
-      "to": 99
+      "to": 99,
+      "source": "required"
     },
     {
       "from": 97,
-      "to": 100
+      "to": 100,
+      "source": "required"
     },
     {
       "from": 99,
-      "to": 100
+      "to": 100,
+      "source": "required"
     },
     {
       "from": 100,
-      "to": 101
+      "to": 101,
+      "source": "required"
     },
     {
       "from": 102,
-      "to": 101
+      "to": 101,
+      "source": "required"
     },
     {
       "from": 97,
-      "to": 102
+      "to": 102,
+      "source": "required"
     },
     {
       "from": 100,
-      "to": 103
+      "to": 103,
+      "source": "required"
     },
     {
       "from": 101,
-      "to": 103
+      "to": 103,
+      "source": "required"
     },
     {
       "from": 109,
-      "to": 110
+      "to": 110,
+      "source": "required"
     },
     {
       "from": 111,
-      "to": 112
+      "to": 112,
+      "source": "required"
     },
     {
       "from": 110,
-      "to": 112
+      "to": 112,
+      "source": "required"
     },
     {
       "from": 112,
-      "to": 113
+      "to": 113,
+      "source": "required"
     },
     {
       "from": 112,
-      "to": 114
+      "to": 114,
+      "source": "required"
     },
     {
       "from": 113,
-      "to": 114
+      "to": 114,
+      "source": "required"
     },
     {
       "from": 116,
-      "to": 115
+      "to": 115,
+      "source": "required"
     },
     {
       "from": 117,
-      "to": 124
+      "to": 124,
+      "source": "structural"
     },
     {
       "from": 124,
-      "to": 125
+      "to": 125,
+      "source": "required"
     },
     {
       "from": 189,
-      "to": 166
+      "to": 166,
+      "source": "required"
     },
     {
       "from": 170,
-      "to": 171
+      "to": 171,
+      "source": "required"
     },
     {
       "from": 193,
-      "to": 194
+      "to": 194,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 196
+      "to": 196,
+      "source": "required"
     },
     {
       "from": 197,
-      "to": 200
+      "to": 200,
+      "source": "required"
     },
     {
       "from": 192,
-      "to": 204
+      "to": 204,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 205
+      "to": 205,
+      "source": "required"
     },
     {
       "from": 229,
-      "to": 225
+      "to": 225,
+      "source": "required"
     },
     {
       "from": 228,
-      "to": 231
+      "to": 231,
+      "source": "required"
     },
     {
       "from": 232,
-      "to": 234
+      "to": 234,
+      "source": "required"
     },
     {
       "from": 234,
-      "to": 237
+      "to": 237,
+      "source": "required"
     },
     {
       "from": 237,
-      "to": 238
+      "to": 238,
+      "source": "required"
     },
     {
       "from": 257,
-      "to": 255
+      "to": 255,
+      "source": "required"
     },
     {
       "from": 236,
-      "to": 261
+      "to": 261,
+      "source": "structural"
     },
     {
       "from": 178,
-      "to": 262
+      "to": 262,
+      "source": "structural"
     },
     {
       "from": 197,
-      "to": 266
+      "to": 266,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 267
+      "to": 267,
+      "source": "observer"
     },
     {
       "from": 195,
-      "to": 283
+      "to": 283,
+      "source": "structural"
     },
     {
       "from": 291,
-      "to": 293
+      "to": 293,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 296
+      "to": 296,
+      "source": "required"
     },
     {
       "from": 192,
-      "to": 297
+      "to": 297,
+      "source": "required"
     },
     {
       "from": 205,
-      "to": 297
+      "to": 297,
+      "source": "required"
     },
     {
       "from": 276,
-      "to": 298
+      "to": 298,
+      "source": "structural"
     },
     {
       "from": 298,
-      "to": 301
+      "to": 301,
+      "source": "required"
     },
     {
       "from": 93,
-      "to": 305
+      "to": 305,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 308
+      "to": 308,
+      "source": "observer"
     },
     {
       "from": 309,
-      "to": 310
+      "to": 310,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 312
+      "to": 312,
+      "source": "observer"
     },
     {
       "from": 93,
-      "to": 313
+      "to": 313,
+      "source": "required"
     },
     {
       "from": 93,
-      "to": 316
+      "to": 316,
+      "source": "required"
     },
     {
       "from": 309,
-      "to": 316
+      "to": 316,
+      "source": "required"
     },
     {
       "from": 93,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 93,
-      "to": 318
+      "to": 318,
+      "source": "observer"
     },
     {
       "from": 308,
-      "to": 318
+      "to": 318,
+      "source": "observer"
     },
     {
       "from": 309,
-      "to": 318
+      "to": 318,
+      "source": "observer"
     },
     {
       "from": 318,
-      "to": 319
+      "to": 319,
+      "source": "required"
     },
     {
       "from": 308,
-      "to": 319
+      "to": 319,
+      "source": "observer"
     },
     {
       "from": 307,
-      "to": 320
+      "to": 320,
+      "source": "required"
     },
     {
       "from": 316,
-      "to": 320
+      "to": 320,
+      "source": "required"
     },
     {
       "from": 318,
-      "to": 321
+      "to": 321,
+      "source": "required"
     },
     {
       "from": 319,
-      "to": 321
+      "to": 321,
+      "source": "required"
     },
     {
       "from": 309,
-      "to": 322
+      "to": 322,
+      "source": "observer"
     },
     {
       "from": 318,
-      "to": 322
+      "to": 322,
+      "source": "required"
     },
     {
       "from": 321,
-      "to": 323
+      "to": 323,
+      "source": "required"
     },
     {
       "from": 198,
-      "to": 326
+      "to": 326,
+      "source": "required"
     },
     {
       "from": 187,
-      "to": 328
+      "to": 328,
+      "source": "required"
     },
     {
       "from": 316,
-      "to": 334
+      "to": 334,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 335
+      "to": 335,
+      "source": "observer"
     },
     {
       "from": 333,
-      "to": 340
+      "to": 340,
+      "source": "required"
     },
     {
       "from": 338,
-      "to": 341
+      "to": 341,
+      "source": "required"
     },
     {
       "from": 342,
-      "to": 344
+      "to": 344,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 354
+      "to": 354,
+      "source": "observer"
     },
     {
       "from": 353,
-      "to": 357
+      "to": 357,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 359
+      "to": 359,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 362
+      "to": 362,
+      "source": "observer"
     },
     {
       "from": 338,
-      "to": 365
+      "to": 365,
+      "source": "required"
     },
     {
       "from": 366,
-      "to": 367
+      "to": 367,
+      "source": "required"
     },
     {
       "from": 366,
-      "to": 368
+      "to": 368,
+      "source": "required"
     },
     {
       "from": 371,
-      "to": 372
+      "to": 372,
+      "source": "required"
     },
     {
       "from": 365,
-      "to": 373
+      "to": 373,
+      "source": "required"
     },
     {
       "from": 365,
-      "to": 374
+      "to": 374,
+      "source": "required"
     },
     {
       "from": 366,
-      "to": 375
+      "to": 375,
+      "source": "required"
     },
     {
       "from": 377,
-      "to": 379
+      "to": 379,
+      "source": "required"
     },
     {
       "from": 353,
-      "to": 382
+      "to": 382,
+      "source": "required"
     },
     {
       "from": 383,
-      "to": 384
+      "to": 384,
+      "source": "required"
     },
     {
       "from": 389,
-      "to": 390
+      "to": 390,
+      "source": "required"
     },
     {
       "from": 85,
-      "to": 391
+      "to": 391,
+      "source": "observer"
     },
     {
       "from": 389,
-      "to": 393
+      "to": 393,
+      "source": "required"
     },
     {
       "from": 390,
-      "to": 393
+      "to": 393,
+      "source": "required"
     },
     {
       "from": 87,
-      "to": 394
+      "to": 394,
+      "source": "observer"
     },
     {
       "from": 392,
-      "to": 394
+      "to": 394,
+      "source": "required"
     },
     {
       "from": 337,
-      "to": 399
+      "to": 399,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 401
+      "to": 401,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 403
+      "to": 403,
+      "source": "observer"
     },
     {
       "from": 337,
-      "to": 403
+      "to": 403,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 405
+      "to": 405,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 406
+      "to": 406,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 415
+      "to": 415,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 431
+      "to": 431,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 433
+      "to": 433,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 437
+      "to": 437,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 438
+      "to": 438,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 439
+      "to": 439,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 440
+      "to": 440,
+      "source": "observer"
     },
     {
       "from": 421,
-      "to": 440
+      "to": 440,
+      "source": "required"
     },
     {
       "from": 334,
-      "to": 442
+      "to": 442,
+      "source": "required"
     },
     {
       "from": 316,
-      "to": 442
+      "to": 442,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 443
+      "to": 443,
+      "source": "observer"
     },
     {
       "from": 309,
-      "to": 444
+      "to": 444,
+      "source": "observer"
     },
     {
       "from": 479,
-      "to": 483
+      "to": 483,
+      "source": "required"
     },
     {
       "from": 480,
-      "to": 483
+      "to": 483,
+      "source": "required"
     },
     {
       "from": 481,
-      "to": 483
+      "to": 483,
+      "source": "required"
     },
     {
       "from": 482,
-      "to": 483
+      "to": 483,
+      "source": "required"
     },
     {
       "from": 486,
-      "to": 484
+      "to": 484,
+      "source": "structural"
     },
     {
       "from": 317,
-      "to": 485
+      "to": 485,
+      "source": "required"
     },
     {
       "from": 93,
-      "to": 485
+      "to": 485,
+      "source": "observer"
     },
     {
       "from": 319,
-      "to": 485
+      "to": 485,
+      "source": "required"
     },
     {
       "from": 486,
-      "to": 483
+      "to": 483,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 479
+      "to": 479,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 480
+      "to": 480,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 481
+      "to": 481,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 482
+      "to": 482,
+      "source": "observer"
     },
     {
       "from": 93,
-      "to": 487
+      "to": 487,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 487
+      "to": 487,
+      "source": "required"
     },
     {
       "from": 487,
-      "to": 485
+      "to": 485,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 488
+      "to": 488,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 489
+      "to": 489,
+      "source": "observer"
     },
     {
       "from": 488,
-      "to": 489
+      "to": 489,
+      "source": "required"
     },
     {
       "from": 489,
-      "to": 490
+      "to": 490,
+      "source": "required"
     },
     {
       "from": 337,
-      "to": 490
+      "to": 490,
+      "source": "required"
     },
     {
       "from": 488,
-      "to": 483
+      "to": 483,
+      "source": "required"
     },
     {
       "from": 489,
-      "to": 483
+      "to": 483,
+      "source": "required"
     },
     {
       "from": 479,
-      "to": 491
+      "to": 491,
+      "source": "required"
     },
     {
       "from": 480,
-      "to": 491
+      "to": 491,
+      "source": "required"
     },
     {
       "from": 482,
-      "to": 491
+      "to": 491,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 492
+      "to": 492,
+      "source": "required"
     },
     {
       "from": 483,
-      "to": 492
+      "to": 492,
+      "source": "observer"
     },
     {
       "from": 486,
-      "to": 492
+      "to": 492,
+      "source": "observer"
     },
     {
       "from": 319,
-      "to": 493
+      "to": 493,
+      "source": "required"
     },
     {
       "from": 318,
-      "to": 493
+      "to": 493,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 493
+      "to": 493,
+      "source": "required"
     },
     {
       "from": 486,
-      "to": 494
+      "to": 494,
+      "source": "observer"
     },
     {
       "from": 484,
-      "to": 494
+      "to": 494,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 495
+      "to": 495,
+      "source": "required"
     },
     {
       "from": 492,
-      "to": 495
+      "to": 495,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 496
+      "to": 496,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 497
+      "to": 497,
+      "source": "observer"
     },
     {
       "from": 496,
-      "to": 483
+      "to": 483,
+      "source": "required"
     },
     {
       "from": 497,
-      "to": 483
+      "to": 483,
+      "source": "required"
     },
     {
       "from": 337,
-      "to": 496
+      "to": 496,
+      "source": "required"
     },
     {
       "from": 486,
-      "to": 498
+      "to": 498,
+      "source": "observer"
     },
     {
       "from": 494,
-      "to": 498
+      "to": 498,
+      "source": "required"
     },
     {
       "from": 495,
-      "to": 499
+      "to": 499,
+      "source": "required"
     },
     {
       "from": 498,
-      "to": 499
+      "to": 499,
+      "source": "required"
     },
     {
       "from": 492,
-      "to": 499
+      "to": 499,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 500
+      "to": 500,
+      "source": "structural"
     },
     {
       "from": 483,
-      "to": 500
+      "to": 500,
+      "source": "observer"
     },
     {
       "from": 497,
-      "to": 500
+      "to": 500,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 501
+      "to": 501,
+      "source": "observer"
     },
     {
       "from": 500,
-      "to": 501
+      "to": 501,
+      "source": "required"
     },
     {
       "from": 498,
-      "to": 501
+      "to": 501,
+      "source": "observer"
     },
     {
       "from": 499,
-      "to": 501
+      "to": 501,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 502
+      "to": 502,
+      "source": "observer"
     },
     {
       "from": 489,
-      "to": 502
+      "to": 502,
+      "source": "required"
     },
     {
       "from": 497,
-      "to": 502
+      "to": 502,
+      "source": "required"
     },
     {
       "from": 502,
-      "to": 503
+      "to": 503,
+      "source": "required"
     },
     {
       "from": 490,
-      "to": 503
+      "to": 503,
+      "source": "required"
     },
     {
       "from": 496,
-      "to": 503
+      "to": 503,
+      "source": "required"
     },
     {
       "from": 497,
-      "to": 503
+      "to": 503,
+      "source": "required"
     },
     {
       "from": 492,
-      "to": 504
+      "to": 504,
+      "source": "required"
     },
     {
       "from": 484,
-      "to": 504
+      "to": 504,
+      "source": "observer"
     },
     {
       "from": 501,
-      "to": 504
+      "to": 504,
+      "source": "observer"
     },
     {
       "from": 500,
-      "to": 505
+      "to": 505,
+      "source": "observer"
     },
     {
       "from": 504,
-      "to": 505
+      "to": 505,
+      "source": "required"
     },
     {
       "from": 498,
-      "to": 506
+      "to": 506,
+      "source": "observer"
     },
     {
       "from": 486,
-      "to": 506
+      "to": 506,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 507
+      "to": 507,
+      "source": "required"
     },
     {
       "from": 505,
-      "to": 507
+      "to": 507,
+      "source": "required"
     },
     {
       "from": 506,
-      "to": 507
+      "to": 507,
+      "source": "observer"
     },
     {
       "from": 484,
-      "to": 507
+      "to": 507,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 508
+      "to": 508,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 509
+      "to": 509,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 510
+      "to": 510,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 511
+      "to": 511,
+      "source": "observer"
     },
     {
       "from": 485,
-      "to": 508
+      "to": 508,
+      "source": "observer"
     },
     {
       "from": 496,
-      "to": 508
+      "to": 508,
+      "source": "required"
     },
     {
       "from": 497,
-      "to": 510
+      "to": 510,
+      "source": "required"
     },
     {
       "from": 502,
-      "to": 509
+      "to": 509,
+      "source": "required"
     },
     {
       "from": 479,
-      "to": 511
+      "to": 511,
+      "source": "required"
     },
     {
       "from": 480,
-      "to": 511
+      "to": 511,
+      "source": "required"
     },
     {
       "from": 481,
-      "to": 511
+      "to": 511,
+      "source": "required"
     },
     {
       "from": 482,
-      "to": 511
+      "to": 511,
+      "source": "required"
     },
     {
       "from": 483,
-      "to": 511
+      "to": 511,
+      "source": "required"
     },
     {
       "from": 488,
-      "to": 511
+      "to": 511,
+      "source": "required"
     },
     {
       "from": 489,
-      "to": 511
+      "to": 511,
+      "source": "required"
     },
     {
       "from": 490,
-      "to": 511
+      "to": 511,
+      "source": "required"
     },
     {
       "from": 496,
-      "to": 511
+      "to": 511,
+      "source": "required"
     },
     {
       "from": 497,
-      "to": 511
+      "to": 511,
+      "source": "required"
     },
     {
       "from": 502,
-      "to": 511
+      "to": 511,
+      "source": "required"
     },
     {
       "from": 503,
-      "to": 511
+      "to": 511,
+      "source": "required"
     },
     {
       "from": 508,
-      "to": 511
+      "to": 511,
+      "source": "required"
     },
     {
       "from": 509,
-      "to": 511
+      "to": 511,
+      "source": "required"
     },
     {
       "from": 510,
-      "to": 511
+      "to": 511,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 512
+      "to": 512,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 513
+      "to": 513,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 516
+      "to": 516,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 518
+      "to": 518,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 522
+      "to": 522,
+      "source": "observer"
     },
     {
       "from": 485,
-      "to": 513
+      "to": 513,
+      "source": "required"
     },
     {
       "from": 485,
-      "to": 520
+      "to": 520,
+      "source": "required"
     },
     {
       "from": 485,
-      "to": 524
+      "to": 524,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 519
+      "to": 519,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 524
+      "to": 524,
+      "source": "required"
     },
     {
       "from": 315,
-      "to": 517
+      "to": 517,
+      "source": "observer"
     },
     {
       "from": 511,
-      "to": 516
+      "to": 516,
+      "source": "required"
     },
     {
       "from": 516,
-      "to": 517
+      "to": 517,
+      "source": "required"
     },
     {
       "from": 497,
-      "to": 522
+      "to": 522,
+      "source": "required"
     },
     {
       "from": 518,
-      "to": 523
+      "to": 523,
+      "source": "required"
     },
     {
       "from": 523,
-      "to": 521
+      "to": 521,
+      "source": "required"
     },
     {
       "from": 524,
-      "to": 525
+      "to": 525,
+      "source": "structural"
     },
     {
       "from": 513,
-      "to": 525
+      "to": 525,
+      "source": "observer"
     },
     {
       "from": 519,
-      "to": 521
+      "to": 521,
+      "source": "required"
     },
     {
       "from": 520,
-      "to": 521
+      "to": 521,
+      "source": "observer"
     },
     {
       "from": 501,
-      "to": 514
+      "to": 514,
+      "source": "structural"
     },
     {
       "from": 501,
-      "to": 515
+      "to": 515,
+      "source": "structural"
     },
     {
       "from": 505,
-      "to": 512
+      "to": 512,
+      "source": "required"
     },
     {
       "from": 130,
-      "to": 531
+      "to": 531,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 531
+      "to": 531,
+      "source": "structural"
     },
     {
       "from": 131,
-      "to": 531
+      "to": 531,
+      "source": "observer"
     },
     {
       "from": 531,
-      "to": 532
+      "to": 532,
+      "source": "required"
     },
     {
       "from": 531,
-      "to": 533
+      "to": 533,
+      "source": "required"
     },
     {
       "from": 532,
-      "to": 533
+      "to": 533,
+      "source": "required"
     },
     {
       "from": 531,
-      "to": 534
+      "to": 534,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 535
+      "to": 535,
+      "source": "required"
     },
     {
       "from": 531,
-      "to": 535
+      "to": 535,
+      "source": "observer"
     },
     {
       "from": 535,
-      "to": 536
+      "to": 536,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 536
+      "to": 536,
+      "source": "required"
     },
     {
       "from": 130,
-      "to": 537
+      "to": 537,
+      "source": "structural"
     },
     {
       "from": 535,
-      "to": 538
+      "to": 538,
+      "source": "required"
     },
     {
       "from": 130,
-      "to": 538
+      "to": 538,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 538
+      "to": 538,
+      "source": "required"
     },
     {
       "from": 534,
-      "to": 539
+      "to": 539,
+      "source": "structural"
     },
     {
       "from": 536,
-      "to": 539
+      "to": 539,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 210
+      "to": 210,
+      "source": "structural"
     },
     {
       "from": 409,
-      "to": 210
+      "to": 210,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 216
+      "to": 216,
+      "source": "observer"
     },
     {
       "from": 198,
-      "to": 225
+      "to": 225,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 225
+      "to": 225,
+      "source": "observer"
     },
     {
       "from": 198,
-      "to": 228
+      "to": 228,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 218
+      "to": 218,
+      "source": "structural"
     },
     {
       "from": 198,
-      "to": 221
+      "to": 221,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 244
+      "to": 244,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 245
+      "to": 245,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 247
+      "to": 247,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 207
+      "to": 207,
+      "source": "structural"
     },
     {
       "from": 7,
-      "to": 250
+      "to": 250,
+      "source": "structural"
     },
     {
       "from": 7,
-      "to": 251
+      "to": 251,
+      "source": "observer"
     },
     {
       "from": 7,
-      "to": 254
+      "to": 254,
+      "source": "structural"
     },
     {
       "from": 131,
-      "to": 120
+      "to": 120,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 120
+      "to": 120,
+      "source": "observer"
     },
     {
       "from": 156,
-      "to": 120
+      "to": 120,
+      "source": "structural"
     },
     {
       "from": 155,
-      "to": 126
+      "to": 126,
+      "source": "structural"
     },
     {
       "from": 120,
-      "to": 127
+      "to": 127,
+      "source": "required"
     },
     {
       "from": 108,
-      "to": 28
+      "to": 28,
+      "source": "structural"
     },
     {
       "from": 148,
-      "to": 23
+      "to": 23,
+      "source": "structural"
     },
     {
       "from": 330,
-      "to": 28
+      "to": 28,
+      "source": "observer"
     },
     {
       "from": 119,
-      "to": 23
+      "to": 23,
+      "source": "structural"
     },
     {
       "from": 93,
-      "to": 123
+      "to": 123,
+      "source": "observer"
     },
     {
       "from": 96,
-      "to": 121
+      "to": 121,
+      "source": "observer"
     },
     {
       "from": 1,
-      "to": 4
+      "to": 4,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 156
+      "to": 156,
+      "source": "observer"
     },
     {
       "from": 131,
-      "to": 156
+      "to": 156,
+      "source": "observer"
     },
     {
       "from": 93,
-      "to": 132
+      "to": 132,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 181
+      "to": 181,
+      "source": "structural"
     },
     {
       "from": 332,
-      "to": 445
+      "to": 445,
+      "source": "observer"
     },
     {
       "from": 3,
-      "to": 28
+      "to": 28,
+      "source": "required"
     },
     {
       "from": 61,
-      "to": 28
+      "to": 28,
+      "source": "required"
     },
     {
       "from": 61,
-      "to": 3
+      "to": 3,
+      "source": "required"
     },
     {
       "from": 289,
-      "to": 23
+      "to": 23,
+      "source": "required"
     },
     {
       "from": 6,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 81,
-      "to": 7
+      "to": 7,
+      "source": "required"
     },
     {
       "from": 177,
-      "to": 92
+      "to": 92,
+      "source": "observer"
     },
     {
       "from": 179,
-      "to": 177
+      "to": 177,
+      "source": "required"
     },
     {
       "from": 180,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 233,
-      "to": 81
+      "to": 81,
+      "source": "required"
     },
     {
       "from": 233,
-      "to": 179
+      "to": 179,
+      "source": "required"
     },
     {
       "from": 16,
-      "to": 92
+      "to": 92,
+      "source": "structural"
     },
     {
       "from": 62,
-      "to": 92
+      "to": 92,
+      "source": "observer"
     },
     {
       "from": 80,
-      "to": 72
+      "to": 72,
+      "source": "structural"
     },
     {
       "from": 72,
-      "to": 92
+      "to": 92,
+      "source": "structural"
     },
     {
       "from": 208,
-      "to": 7
+      "to": 7,
+      "source": "structural"
     },
     {
       "from": 74,
-      "to": 7
+      "to": 7,
+      "source": "required"
     },
     {
       "from": 79,
-      "to": 7
+      "to": 7,
+      "source": "required"
     },
     {
       "from": 209,
-      "to": 48
+      "to": 48,
+      "source": "required"
     },
     {
       "from": 64,
-      "to": 68
+      "to": 68,
+      "source": "required"
     },
     {
       "from": 56,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 104,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 106,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 144,
-      "to": 145
+      "to": 145,
+      "source": "required"
     },
     {
       "from": 145,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 277,
-      "to": 23
+      "to": 23,
+      "source": "structural"
     },
     {
       "from": 105,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 107,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 118,
-      "to": 92
+      "to": 92,
+      "source": "required"
     },
     {
       "from": 122,
-      "to": 92
+      "to": 92,
+      "source": "required"
     },
     {
       "from": 128,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 129,
-      "to": 96
+      "to": 96,
+      "source": "required"
     },
     {
       "from": 137,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 138,
-      "to": 122
+      "to": 122,
+      "source": "required"
     },
     {
       "from": 139,
-      "to": 122
+      "to": 122,
+      "source": "required"
     },
     {
       "from": 140,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 141,
-      "to": 140
+      "to": 140,
+      "source": "required"
     },
     {
       "from": 142,
-      "to": 143
+      "to": 143,
+      "source": "required"
     },
     {
       "from": 143,
-      "to": 144
+      "to": 144,
+      "source": "structural"
     },
     {
       "from": 146,
-      "to": 145
+      "to": 145,
+      "source": "structural"
     },
     {
       "from": 149,
-      "to": 140
+      "to": 140,
+      "source": "structural"
     },
     {
       "from": 151,
-      "to": 96
+      "to": 96,
+      "source": "required"
     },
     {
       "from": 152,
-      "to": 104
+      "to": 104,
+      "source": "structural"
     },
     {
       "from": 153,
-      "to": 186
+      "to": 186,
+      "source": "observer"
     },
     {
       "from": 153,
-      "to": 316
+      "to": 316,
+      "source": "required"
     },
     {
       "from": 162,
-      "to": 92
+      "to": 92,
+      "source": "required"
     },
     {
       "from": 163,
-      "to": 92
+      "to": 92,
+      "source": "required"
     },
     {
       "from": 167,
-      "to": 92
+      "to": 92,
+      "source": "structural"
     },
     {
       "from": 168,
-      "to": 167
+      "to": 167,
+      "source": "required"
     },
     {
       "from": 169,
-      "to": 92
+      "to": 92,
+      "source": "observer"
     },
     {
       "from": 169,
-      "to": 167
+      "to": 167,
+      "source": "required"
     },
     {
       "from": 172,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 173,
-      "to": 172
+      "to": 172,
+      "source": "required"
     },
     {
       "from": 175,
-      "to": 172
+      "to": 172,
+      "source": "required"
     },
     {
       "from": 182,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 206,
-      "to": 182
+      "to": 182,
+      "source": "required"
     },
     {
       "from": 259,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 260,
-      "to": 180
+      "to": 180,
+      "source": "structural"
     },
     {
       "from": 184,
-      "to": 186
+      "to": 186,
+      "source": "required"
     },
     {
       "from": 185,
-      "to": 186
+      "to": 186,
+      "source": "required"
     },
     {
       "from": 211,
-      "to": 92
+      "to": 92,
+      "source": "structural"
     },
     {
       "from": 213,
-      "to": 211
+      "to": 211,
+      "source": "required"
     },
     {
       "from": 214,
-      "to": 92
+      "to": 92,
+      "source": "structural"
     },
     {
       "from": 217,
-      "to": 180
+      "to": 180,
+      "source": "structural"
     },
     {
       "from": 219,
-      "to": 92
+      "to": 92,
+      "source": "structural"
     },
     {
       "from": 220,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 223,
-      "to": 219
+      "to": 219,
+      "source": "required"
     },
     {
       "from": 224,
-      "to": 220
+      "to": 220,
+      "source": "required"
     },
     {
       "from": 239,
-      "to": 92
+      "to": 92,
+      "source": "structural"
     },
     {
       "from": 240,
-      "to": 239
+      "to": 239,
+      "source": "required"
     },
     {
       "from": 241,
-      "to": 240
+      "to": 240,
+      "source": "required"
     },
     {
       "from": 242,
-      "to": 240
+      "to": 240,
+      "source": "required"
     },
     {
       "from": 243,
-      "to": 241
+      "to": 241,
+      "source": "required"
     },
     {
       "from": 396,
-      "to": 92
+      "to": 92,
+      "source": "structural"
     },
     {
       "from": 248,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 264,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 265,
-      "to": 186
+      "to": 186,
+      "source": "observer"
     },
     {
       "from": 265,
-      "to": 264
+      "to": 264,
+      "source": "required"
     },
     {
       "from": 269,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 275,
-      "to": 269
+      "to": 269,
+      "source": "required"
     },
     {
       "from": 300,
-      "to": 92
+      "to": 92,
+      "source": "structural"
     },
     {
       "from": 302,
-      "to": 7
+      "to": 7,
+      "source": "structural"
     },
     {
       "from": 303,
-      "to": 7
+      "to": 7,
+      "source": "structural"
     },
     {
       "from": 304,
-      "to": 7
+      "to": 7,
+      "source": "structural"
     },
     {
       "from": 257,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 234,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 178,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 136,
-      "to": 28
+      "to": 28,
+      "source": "structural"
     },
     {
       "from": 170,
-      "to": 186
+      "to": 186,
+      "source": "observer"
     },
     {
       "from": 14,
-      "to": 7
+      "to": 7,
+      "source": "required"
     },
     {
       "from": 270,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 272,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 276,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 298,
-      "to": 92
+      "to": 92,
+      "source": "observer"
     },
     {
       "from": 283,
-      "to": 28
+      "to": 28,
+      "source": "required"
     },
     {
       "from": 286,
-      "to": 28
+      "to": 28,
+      "source": "required"
     },
     {
       "from": 53,
-      "to": 186
+      "to": 186,
+      "source": "observer"
     },
     {
       "from": 71,
-      "to": 7
+      "to": 7,
+      "source": "structural"
     },
     {
       "from": 78,
-      "to": 7
+      "to": 7,
+      "source": "required"
     },
     {
       "from": 97,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 109,
-      "to": 186
+      "to": 186,
+      "source": "observer"
     },
     {
       "from": 115,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 117,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 161,
-      "to": 28
+      "to": 28,
+      "source": "structural"
     },
     {
       "from": 174,
-      "to": 172
+      "to": 172,
+      "source": "required"
     },
     {
       "from": 193,
-      "to": 92
+      "to": 92,
+      "source": "structural"
     },
     {
       "from": 226,
-      "to": 186
+      "to": 186,
+      "source": "structural"
     },
     {
       "from": 252,
-      "to": 7
+      "to": 7,
+      "source": "structural"
     },
     {
       "from": 666,
-      "to": 120
+      "to": 120,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 156
+      "to": 156,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 187
+      "to": 187,
+      "source": "required"
     },
     {
       "from": 666,
-      "to": 197
+      "to": 197,
+      "source": "required"
     },
     {
       "from": 666,
-      "to": 267
+      "to": 267,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 296
+      "to": 296,
+      "source": "required"
     },
     {
       "from": 666,
-      "to": 327
+      "to": 327,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 328
+      "to": 328,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 331
+      "to": 331,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 371
+      "to": 371,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 418
+      "to": 418,
+      "source": "required"
     },
     {
       "from": 666,
-      "to": 445
+      "to": 445,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 453
+      "to": 453,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 463
+      "to": 463,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 468
+      "to": 468,
+      "source": "required"
     },
     {
       "from": 666,
-      "to": 473
+      "to": 473,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 507
+      "to": 507,
+      "source": "required"
     },
     {
       "from": 666,
-      "to": 512
+      "to": 512,
+      "source": "required"
     },
     {
       "from": 666,
-      "to": 516
+      "to": 516,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 652
+      "to": 652,
+      "source": "required"
     },
     {
       "from": 667,
-      "to": 189
+      "to": 189,
+      "source": "required"
     },
     {
       "from": 667,
-      "to": 192
+      "to": 192,
+      "source": "required"
     },
     {
       "from": 667,
-      "to": 324
+      "to": 324,
+      "source": "required"
     },
     {
       "from": 667,
-      "to": 333
+      "to": 333,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 334
+      "to": 334,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 335
+      "to": 335,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 339
+      "to": 339,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 340
+      "to": 340,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 342
+      "to": 342,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 359
+      "to": 359,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 360
+      "to": 360,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 362
+      "to": 362,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 363
+      "to": 363,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 383
+      "to": 383,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 384
+      "to": 384,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 404
+      "to": 404,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 405
+      "to": 405,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 513
+      "to": 513,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 531
+      "to": 531,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 535
+      "to": 535,
+      "source": "required"
     },
     {
       "from": 667,
-      "to": 536
+      "to": 536,
+      "source": "required"
     },
     {
       "from": 667,
-      "to": 538
+      "to": 538,
+      "source": "required"
     },
     {
       "from": 667,
-      "to": 651
+      "to": 651,
+      "source": "required"
     },
     {
       "from": 649,
-      "to": 196
+      "to": 196,
+      "source": "required"
     },
     {
       "from": 649,
-      "to": 308
+      "to": 308,
+      "source": "observer"
     },
     {
       "from": 649,
-      "to": 320
+      "to": 320,
+      "source": "required"
     },
     {
       "from": 649,
-      "to": 326
+      "to": 326,
+      "source": "observer"
     },
     {
       "from": 649,
-      "to": 346
+      "to": 346,
+      "source": "required"
     },
     {
       "from": 649,
-      "to": 347
+      "to": 347,
+      "source": "required"
     },
     {
       "from": 649,
-      "to": 370
+      "to": 370,
+      "source": "observer"
     },
     {
       "from": 649,
-      "to": 377
+      "to": 377,
+      "source": "observer"
     },
     {
       "from": 649,
-      "to": 480
+      "to": 480,
+      "source": "observer"
     },
     {
       "from": 649,
-      "to": 497
+      "to": 497,
+      "source": "observer"
     },
     {
       "from": 649,
-      "to": 502
+      "to": 502,
+      "source": "observer"
     },
     {
       "from": 649,
-      "to": 509
+      "to": 509,
+      "source": "observer"
     },
     {
       "from": 649,
-      "to": 511
+      "to": 511,
+      "source": "observer"
     },
     {
       "from": 649,
-      "to": 651
+      "to": 651,
+      "source": "required"
     },
     {
       "from": 649,
-      "to": 653
+      "to": 653,
+      "source": "required"
     },
     {
       "from": 649,
-      "to": 656
+      "to": 656,
+      "source": "required"
     },
     {
       "from": 649,
-      "to": 659
+      "to": 659,
+      "source": "required"
     },
     {
       "from": 190,
-      "to": 188
+      "to": 188,
+      "source": "required"
     },
     {
       "from": 190,
-      "to": 198
+      "to": 198,
+      "source": "required"
     },
     {
       "from": 190,
-      "to": 202
+      "to": 202,
+      "source": "required"
     },
     {
       "from": 190,
-      "to": 205
+      "to": 205,
+      "source": "required"
     },
     {
       "from": 190,
-      "to": 225
+      "to": 225,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 267
+      "to": 267,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 292
+      "to": 292,
+      "source": "required"
     },
     {
       "from": 190,
-      "to": 329
+      "to": 329,
+      "source": "required"
     },
     {
       "from": 190,
-      "to": 330
+      "to": 330,
+      "source": "required"
     },
     {
       "from": 190,
-      "to": 353
+      "to": 353,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 355
+      "to": 355,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 356
+      "to": 356,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 357
+      "to": 357,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 366
+      "to": 366,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 368
+      "to": 368,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 371
+      "to": 371,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 372
+      "to": 372,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 374
+      "to": 374,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 375
+      "to": 375,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 380
+      "to": 380,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 441
+      "to": 441,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 461
+      "to": 461,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 474
+      "to": 474,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 475
+      "to": 475,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 476
+      "to": 476,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 479
+      "to": 479,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 481
+      "to": 481,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 482
+      "to": 482,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 488
+      "to": 488,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 489
+      "to": 489,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 496
+      "to": 496,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 508
+      "to": 508,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 510
+      "to": 510,
+      "source": "observer"
     },
     {
       "from": 190,
-      "to": 616
+      "to": 616,
+      "source": "structural"
     },
     {
       "from": 190,
-      "to": 650
+      "to": 650,
+      "source": "required"
     },
     {
       "from": 190,
-      "to": 652
+      "to": 652,
+      "source": "required"
     },
     {
       "from": 190,
-      "to": 655
+      "to": 655,
+      "source": "required"
     },
     {
       "from": 190,
-      "to": 657
+      "to": 657,
+      "source": "required"
     },
     {
       "from": 190,
-      "to": 662
+      "to": 662,
+      "source": "required"
     },
     {
       "from": 110,
-      "to": 207
+      "to": 207,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 210
+      "to": 210,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 218
+      "to": 218,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 244
+      "to": 244,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 245
+      "to": 245,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 247
+      "to": 247,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 308
+      "to": 308,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 320
+      "to": 320,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 324
+      "to": 324,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 330
+      "to": 330,
+      "source": "required"
     },
     {
       "from": 110,
-      "to": 346
+      "to": 346,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 347
+      "to": 347,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 388
+      "to": 388,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 397
+      "to": 397,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 398
+      "to": 398,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 399
+      "to": 399,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 472
+      "to": 472,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 651
+      "to": 651,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 652
+      "to": 652,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 658
+      "to": 658,
+      "source": "structural"
     },
     {
       "from": 110,
-      "to": 661
+      "to": 661,
+      "source": "observer"
     },
     {
       "from": 661,
-      "to": 156
+      "to": 156,
+      "source": "observer"
     },
     {
       "from": 661,
-      "to": 333
+      "to": 333,
+      "source": "observer"
     },
     {
       "from": 661,
-      "to": 385
+      "to": 385,
+      "source": "observer"
     },
     {
       "from": 661,
-      "to": 406
+      "to": 406,
+      "source": "observer"
     },
     {
       "from": 661,
-      "to": 445
+      "to": 445,
+      "source": "observer"
     },
     {
       "from": 661,
-      "to": 453
+      "to": 453,
+      "source": "observer"
     },
     {
       "from": 661,
-      "to": 461
+      "to": 461,
+      "source": "observer"
     },
     {
       "from": 661,
-      "to": 462
+      "to": 462,
+      "source": "observer"
     },
     {
       "from": 661,
-      "to": 475
+      "to": 475,
+      "source": "observer"
     },
     {
       "from": 661,
-      "to": 488
+      "to": 488,
+      "source": "observer"
     },
     {
       "from": 661,
-      "to": 508
+      "to": 508,
+      "source": "observer"
     },
     {
       "from": 661,
-      "to": 516
+      "to": 516,
+      "source": "observer"
     },
     {
       "from": 662,
-      "to": 188
+      "to": 188,
+      "source": "required"
     },
     {
       "from": 662,
-      "to": 327
+      "to": 327,
+      "source": "observer"
     },
     {
       "from": 662,
-      "to": 328
+      "to": 328,
+      "source": "observer"
     },
     {
       "from": 662,
-      "to": 329
+      "to": 329,
+      "source": "observer"
     },
     {
       "from": 662,
-      "to": 468
+      "to": 468,
+      "source": "required"
     },
     {
       "from": 662,
-      "to": 469
+      "to": 469,
+      "source": "required"
     },
     {
       "from": 662,
-      "to": 512
+      "to": 512,
+      "source": "required"
     },
     {
       "from": 668,
-      "to": 189
+      "to": 189,
+      "source": "required"
     },
     {
       "from": 668,
-      "to": 192
+      "to": 192,
+      "source": "required"
     },
     {
       "from": 668,
-      "to": 205
+      "to": 205,
+      "source": "required"
     },
     {
       "from": 668,
-      "to": 334
+      "to": 334,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 342
+      "to": 342,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 353
+      "to": 353,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 359
+      "to": 359,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 360
+      "to": 360,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 362
+      "to": 362,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 363
+      "to": 363,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 383
+      "to": 383,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 388
+      "to": 388,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 403
+      "to": 403,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 408
+      "to": 408,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 410
+      "to": 410,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 412
+      "to": 412,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 414
+      "to": 414,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 415
+      "to": 415,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 513
+      "to": 513,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 518
+      "to": 518,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 617
+      "to": 617,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 619
+      "to": 619,
+      "source": "structural"
     },
     {
       "from": 668,
-      "to": 620
+      "to": 620,
+      "source": "structural"
     },
     {
       "from": 668,
-      "to": 633
+      "to": 633,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 656
+      "to": 656,
+      "source": "required"
     },
     {
       "from": 668,
-      "to": 657
+      "to": 657,
+      "source": "required"
     },
     {
       "from": 663,
-      "to": 1
+      "to": 1,
+      "source": "observer"
     },
     {
       "from": 663,
-      "to": 52
+      "to": 52,
+      "source": "observer"
     },
     {
       "from": 663,
-      "to": 68
+      "to": 68,
+      "source": "observer"
     },
     {
       "from": 663,
-      "to": 69
+      "to": 69,
+      "source": "observer"
     },
     {
       "from": 663,
-      "to": 96
+      "to": 96,
+      "source": "required"
     },
     {
       "from": 663,
-      "to": 150
+      "to": 150,
+      "source": "required"
     },
     {
       "from": 663,
-      "to": 449
+      "to": 449,
+      "source": "required"
     },
     {
       "from": 663,
-      "to": 450
+      "to": 450,
+      "source": "required"
     },
     {
       "from": 663,
-      "to": 452
+      "to": 452,
+      "source": "required"
     },
     {
       "from": 664,
-      "to": 187
+      "to": 187,
+      "source": "required"
     },
     {
       "from": 664,
-      "to": 191
+      "to": 191,
+      "source": "required"
     },
     {
       "from": 664,
-      "to": 197
+      "to": 197,
+      "source": "required"
     },
     {
       "from": 664,
-      "to": 198
+      "to": 198,
+      "source": "required"
     },
     {
       "from": 664,
-      "to": 267
+      "to": 267,
+      "source": "observer"
     },
     {
       "from": 664,
-      "to": 324
+      "to": 324,
+      "source": "required"
     },
     {
       "from": 664,
-      "to": 469
+      "to": 469,
+      "source": "required"
     },
     {
       "from": 664,
-      "to": 507
+      "to": 507,
+      "source": "required"
     },
     {
       "from": 665,
-      "to": 120
+      "to": 120,
+      "source": "observer"
     },
     {
       "from": 665,
-      "to": 198
+      "to": 198,
+      "source": "required"
     },
     {
       "from": 665,
-      "to": 326
+      "to": 326,
+      "source": "observer"
     },
     {
       "from": 665,
-      "to": 347
+      "to": 347,
+      "source": "required"
     },
     {
       "from": 665,
-      "to": 418
+      "to": 418,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 666
+      "to": 666,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 667
+      "to": 667,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 649
+      "to": 649,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 661
+      "to": 661,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 662
+      "to": 662,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 668
+      "to": 668,
+      "source": "required"
     },
     {
       "from": 666,
-      "to": 662
+      "to": 662,
+      "source": "required"
     },
     {
       "from": 667,
-      "to": 662
+      "to": 662,
+      "source": "required"
     },
     {
       "from": 666,
-      "to": 668
+      "to": 668,
+      "source": "required"
     },
     {
       "from": 667,
-      "to": 668
+      "to": 668,
+      "source": "required"
     },
     {
       "from": 110,
-      "to": 662
+      "to": 662,
+      "source": "observer"
     },
     {
       "from": 649,
-      "to": 660
+      "to": 660,
+      "source": "required"
     },
     {
       "from": 650,
-      "to": 659
+      "to": 659,
+      "source": "required"
     },
     {
       "from": 649,
-      "to": 654
+      "to": 654,
+      "source": "required"
     },
     {
       "from": 650,
-      "to": 655
+      "to": 655,
+      "source": "required"
     },
     {
       "from": 614,
-      "to": 621
+      "to": 621,
+      "source": "required"
     },
     {
       "from": 614,
-      "to": 622
+      "to": 622,
+      "source": "required"
     },
     {
       "from": 614,
-      "to": 623
+      "to": 623,
+      "source": "required"
     },
     {
       "from": 614,
-      "to": 624
+      "to": 624,
+      "source": "required"
     },
     {
       "from": 614,
-      "to": 625
+      "to": 625,
+      "source": "required"
     },
     {
       "from": 615,
-      "to": 637
+      "to": 637,
+      "source": "structural"
     },
     {
       "from": 615,
-      "to": 638
+      "to": 638,
+      "source": "structural"
     },
     {
       "from": 615,
-      "to": 639
+      "to": 639,
+      "source": "structural"
     },
     {
       "from": 615,
-      "to": 640
+      "to": 640,
+      "source": "structural"
     },
     {
       "from": 647,
-      "to": 643
+      "to": 643,
+      "source": "structural"
     },
     {
       "from": 648,
-      "to": 645
+      "to": 645,
+      "source": "required"
     },
     {
       "from": 643,
-      "to": 645
+      "to": 645,
+      "source": "required"
     },
     {
       "from": 663,
-      "to": 612
+      "to": 612,
+      "source": "required"
     },
     {
       "from": 612,
-      "to": 642
+      "to": 642,
+      "source": "structural"
     },
     {
       "from": 612,
-      "to": 613
+      "to": 613,
+      "source": "required"
     },
     {
       "from": 612,
-      "to": 614
+      "to": 614,
+      "source": "required"
     },
     {
       "from": 614,
-      "to": 615
+      "to": 615,
+      "source": "required"
     },
     {
       "from": 337,
-      "to": 618
+      "to": 618,
+      "source": "structural"
     },
     {
       "from": 623,
-      "to": 626
+      "to": 626,
+      "source": "required"
     },
     {
       "from": 612,
-      "to": 628
+      "to": 628,
+      "source": "required"
     },
     {
       "from": 613,
-      "to": 629
+      "to": 629,
+      "source": "required"
     },
     {
       "from": 614,
-      "to": 630
+      "to": 630,
+      "source": "required"
     },
     {
       "from": 615,
-      "to": 631
+      "to": 631,
+      "source": "required"
     },
     {
       "from": 616,
-      "to": 632
+      "to": 632,
+      "source": "required"
     },
     {
       "from": 618,
-      "to": 634
+      "to": 634,
+      "source": "structural"
     },
     {
       "from": 619,
-      "to": 635
+      "to": 635,
+      "source": "structural"
     },
     {
       "from": 620,
-      "to": 636
+      "to": 636,
+      "source": "structural"
     },
     {
       "from": 615,
-      "to": 641
+      "to": 641,
+      "source": "structural"
     },
     {
       "from": 468,
-      "to": 644
+      "to": 644,
+      "source": "structural"
     },
     {
       "from": 644,
-      "to": 646
+      "to": 646,
+      "source": "structural"
     },
     {
       "from": 92,
-      "to": 643
+      "to": 643,
+      "source": "structural"
     },
     {
       "from": 92,
-      "to": 648
+      "to": 648,
+      "source": "observer"
     },
     {
       "from": 617,
-      "to": 633
+      "to": 633,
+      "source": "required"
     },
     {
       "from": 189,
-      "to": 617
+      "to": 617,
+      "source": "observer"
     },
     {
       "from": 415,
-      "to": 619
+      "to": 619,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 620
+      "to": 620,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 610
+      "to": 610,
+      "source": "required"
     },
     {
       "from": 649,
-      "to": 610
+      "to": 610,
+      "source": "required"
     },
     {
       "from": 667,
-      "to": 610
+      "to": 610,
+      "source": "required"
     },
     {
       "from": 610,
-      "to": 611
+      "to": 611,
+      "source": "required"
     },
     {
       "from": 190,
-      "to": 611
+      "to": 611,
+      "source": "required"
     },
     {
       "from": 610,
-      "to": 333
+      "to": 333,
+      "source": "observer"
     },
     {
       "from": 610,
-      "to": 339
+      "to": 339,
+      "source": "observer"
     },
     {
       "from": 610,
-      "to": 371
+      "to": 371,
+      "source": "observer"
     },
     {
       "from": 276,
-      "to": 333
+      "to": 333,
+      "source": "observer"
     },
     {
       "from": 276,
-      "to": 338
+      "to": 338,
+      "source": "observer"
     },
     {
       "from": 276,
-      "to": 516
+      "to": 516,
+      "source": "observer"
     },
     {
       "from": 278,
-      "to": 463
+      "to": 463,
+      "source": "observer"
     },
     {
       "from": 278,
-      "to": 464
+      "to": 464,
+      "source": "observer"
     },
     {
       "from": 278,
-      "to": 465
+      "to": 465,
+      "source": "observer"
     },
     {
       "from": 279,
-      "to": 370
+      "to": 370,
+      "source": "observer"
     },
     {
       "from": 280,
-      "to": 464
+      "to": 464,
+      "source": "observer"
     },
     {
       "from": 280,
-      "to": 466
+      "to": 466,
+      "source": "observer"
     },
     {
       "from": 340,
-      "to": 33
+      "to": 33,
+      "source": "observer"
     },
     {
       "from": 476,
-      "to": 33
+      "to": 33,
+      "source": "observer"
     },
     {
       "from": 509,
-      "to": 33
+      "to": 33,
+      "source": "observer"
     },
     {
       "from": 510,
-      "to": 6
+      "to": 6,
+      "source": "observer"
     },
     {
       "from": 510,
-      "to": 33
+      "to": 33,
+      "source": "observer"
     },
     {
       "from": 510,
-      "to": 81
+      "to": 81,
+      "source": "observer"
     },
     {
       "from": 341,
-      "to": 48
+      "to": 48,
+      "source": "observer"
     },
     {
       "from": 365,
-      "to": 48
+      "to": 48,
+      "source": "observer"
     },
     {
       "from": 374,
-      "to": 48
+      "to": 48,
+      "source": "observer"
     },
     {
       "from": 375,
-      "to": 48
+      "to": 48,
+      "source": "observer"
     },
     {
       "from": 453,
-      "to": 48
+      "to": 48,
+      "source": "observer"
     },
     {
       "from": 479,
-      "to": 4
+      "to": 4,
+      "source": "observer"
     },
     {
       "from": 489,
-      "to": 4
+      "to": 4,
+      "source": "observer"
     },
     {
       "from": 497,
-      "to": 4
+      "to": 4,
+      "source": "observer"
     },
     {
       "from": 508,
-      "to": 4
+      "to": 4,
+      "source": "observer"
     },
     {
       "from": 369,
-      "to": 16
+      "to": 16,
+      "source": "observer"
     },
     {
       "from": 366,
-      "to": 16
+      "to": 16,
+      "source": "observer"
     },
     {
       "from": 368,
-      "to": 16
+      "to": 16,
+      "source": "observer"
     },
     {
       "from": 457,
-      "to": 16
+      "to": 16,
+      "source": "observer"
     },
     {
       "from": 453,
-      "to": 643
+      "to": 643,
+      "source": "observer"
     },
     {
       "from": 475,
-      "to": 643
+      "to": 643,
+      "source": "observer"
     },
     {
       "from": 334,
-      "to": 451
+      "to": 451,
+      "source": "observer"
     },
     {
       "from": 373,
-      "to": 451
+      "to": 451,
+      "source": "observer"
     },
     {
       "from": 511,
-      "to": 451
+      "to": 451,
+      "source": "observer"
     },
     {
       "from": 270,
-      "to": 333
+      "to": 333,
+      "source": "observer"
     },
     {
       "from": 271,
-      "to": 516
+      "to": 516,
+      "source": "observer"
     },
     {
       "from": 327,
-      "to": 340
+      "to": 340,
+      "source": "observer"
     },
     {
       "from": 258,
-      "to": 480
+      "to": 480,
+      "source": "observer"
     },
     {
       "from": 255,
-      "to": 340
+      "to": 340,
+      "source": "observer"
     },
     {
       "from": 206,
-      "to": 462
+      "to": 462,
+      "source": "observer"
     },
     {
       "from": 283,
-      "to": 334
+      "to": 334,
+      "source": "observer"
     },
     {
       "from": 308,
-      "to": 373
+      "to": 373,
+      "source": "observer"
     },
     {
       "from": 289,
-      "to": 462
+      "to": 462,
+      "source": "observer"
     },
     {
       "from": 61,
-      "to": 365
+      "to": 365,
+      "source": "observer"
     },
     {
       "from": 157,
-      "to": 502
+      "to": 502,
+      "source": "observer"
     },
     {
       "from": 136,
-      "to": 477
+      "to": 477,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 339
+      "to": 339,
+      "source": "observer"
     },
     {
       "from": 240,
-      "to": 497
+      "to": 497,
+      "source": "observer"
     },
     {
       "from": 243,
-      "to": 497
+      "to": 497,
+      "source": "observer"
     },
     {
       "from": 242,
-      "to": 508
+      "to": 508,
+      "source": "observer"
     },
     {
       "from": 262,
-      "to": 340
+      "to": 340,
+      "source": "observer"
     },
     {
       "from": 267,
-      "to": 337
+      "to": 337,
+      "source": "observer"
     },
     {
       "from": 298,
-      "to": 336
+      "to": 336,
+      "source": "observer"
     },
     {
       "from": 301,
-      "to": 442
+      "to": 442,
+      "source": "observer"
     },
     {
       "from": 303,
-      "to": 355
+      "to": 355,
+      "source": "observer"
     },
     {
       "from": 73,
-      "to": 480
+      "to": 480,
+      "source": "observer"
     },
     {
       "from": 90,
-      "to": 476
+      "to": 476,
+      "source": "observer"
     },
     {
       "from": 228,
-      "to": 479
+      "to": 479,
+      "source": "observer"
     },
     {
       "from": 225,
-      "to": 445
+      "to": 445,
+      "source": "observer"
     },
     {
       "from": 50,
-      "to": 465
+      "to": 465,
+      "source": "observer"
     },
     {
       "from": 9,
-      "to": 442
+      "to": 442,
+      "source": "observer"
     },
     {
       "from": 167,
-      "to": 453
+      "to": 453,
+      "source": "observer"
     },
     {
       "from": 171,
-      "to": 475
+      "to": 475,
+      "source": "observer"
     },
     {
       "from": 254,
-      "to": 355
+      "to": 355,
+      "source": "observer"
     },
     {
       "from": 251,
-      "to": 480
+      "to": 480,
+      "source": "observer"
     },
     {
       "from": 222,
-      "to": 479
+      "to": 479,
+      "source": "observer"
     },
     {
       "from": 221,
-      "to": 496
+      "to": 496,
+      "source": "observer"
     },
     {
       "from": 216,
-      "to": 334
+      "to": 334,
+      "source": "observer"
     },
     {
       "from": 217,
-      "to": 377
+      "to": 377,
+      "source": "observer"
     },
     {
       "from": 29,
-      "to": 464
+      "to": 464,
+      "source": "observer"
     },
     {
       "from": 12,
-      "to": 479
+      "to": 479,
+      "source": "observer"
     },
     {
       "from": 120,
-      "to": 339
+      "to": 339,
+      "source": "observer"
     },
     {
       "from": 514,
-      "to": 511
+      "to": 511,
+      "source": "observer"
     },
     {
       "from": 512,
-      "to": 477
+      "to": 477,
+      "source": "observer"
     },
     {
       "from": 207,
-      "to": 340
+      "to": 340,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 699
+      "to": 699,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 699
+      "to": 699,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 700
+      "to": 700,
+      "source": "structural"
     },
     {
       "from": 699,
-      "to": 700
+      "to": 700,
+      "source": "observer"
     },
     {
       "from": 665,
-      "to": 700
+      "to": 700,
+      "source": "observer"
     },
     {
       "from": 699,
-      "to": 701
+      "to": 701,
+      "source": "structural"
     },
     {
       "from": 700,
-      "to": 701
+      "to": 701,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 701
+      "to": 701,
+      "source": "observer"
     },
     {
       "from": 695,
-      "to": 702
+      "to": 702,
+      "source": "structural"
     },
     {
       "from": 579,
-      "to": 702
+      "to": 702,
+      "source": "structural"
     },
     {
       "from": 322,
-      "to": 702
+      "to": 702,
+      "source": "structural"
     },
     {
       "from": 669,
-      "to": 702
+      "to": 702,
+      "source": "structural"
     },
     {
       "from": 189,
-      "to": 703
+      "to": 703,
+      "source": "structural"
     },
     {
       "from": 579,
-      "to": 703
+      "to": 703,
+      "source": "observer"
     },
     {
       "from": 318,
-      "to": 703
+      "to": 703,
+      "source": "observer"
     },
     {
       "from": 635,
-      "to": 703
+      "to": 703,
+      "source": "observer"
     },
     {
       "from": 703,
-      "to": 704
+      "to": 704,
+      "source": "structural"
     },
     {
       "from": 189,
-      "to": 704
+      "to": 704,
+      "source": "observer"
     },
     {
       "from": 579,
-      "to": 704
+      "to": 704,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 704
+      "to": 704,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 705
+      "to": 705,
+      "source": "required"
     },
     {
       "from": 198,
-      "to": 705
+      "to": 705,
+      "source": "required"
     },
     {
       "from": 189,
-      "to": 706
+      "to": 706,
+      "source": "structural"
     },
     {
       "from": 198,
-      "to": 706
+      "to": 706,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 707
+      "to": 707,
+      "source": "structural"
     },
     {
       "from": 198,
-      "to": 707
+      "to": 707,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 708
+      "to": 708,
+      "source": "observer"
     },
     {
       "from": 628,
-      "to": 708
+      "to": 708,
+      "source": "required"
     },
     {
       "from": 630,
-      "to": 708
+      "to": 708,
+      "source": "required"
     },
     {
       "from": 631,
-      "to": 708
+      "to": 708,
+      "source": "required"
     },
     {
       "from": 579,
-      "to": 708
+      "to": 708,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 709
+      "to": 709,
+      "source": "structural"
     },
     {
       "from": 649,
-      "to": 709
+      "to": 709,
+      "source": "observer"
     },
     {
       "from": 650,
-      "to": 709
+      "to": 709,
+      "source": "observer"
     },
     {
       "from": 665,
-      "to": 709
+      "to": 709,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 710
+      "to": 710,
+      "source": "structural"
     },
     {
       "from": 198,
-      "to": 710
+      "to": 710,
+      "source": "observer"
     },
     {
       "from": 699,
-      "to": 710
+      "to": 710,
+      "source": "observer"
     },
     {
       "from": 371,
-      "to": 710
+      "to": 710,
+      "source": "observer"
     },
     {
       "from": 541,
-      "to": 711
+      "to": 711,
+      "source": "structural"
     },
     {
       "from": 480,
-      "to": 711
+      "to": 711,
+      "source": "observer"
     },
     {
       "from": 96,
-      "to": 711
+      "to": 711,
+      "source": "observer"
     },
     {
       "from": 709,
-      "to": 339
+      "to": 339,
+      "source": "observer"
     },
     {
       "from": 709,
-      "to": 637
+      "to": 637,
+      "source": "observer"
     },
     {
       "from": 710,
-      "to": 706
+      "to": 706,
+      "source": "observer"
     },
     {
       "from": 711,
-      "to": 634
+      "to": 634,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 541
+      "to": 541,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 579
+      "to": 579,
+      "source": "observer"
     },
     {
       "from": 189,
-      "to": 579
+      "to": 579,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 669
+      "to": 669,
+      "source": "observer"
     },
     {
       "from": 579,
-      "to": 695
+      "to": 695,
+      "source": "observer"
     },
     {
       "from": 189,
-      "to": 695
+      "to": 695,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 712
+      "to": 712,
+      "source": "required"
     },
     {
       "from": 198,
-      "to": 712
+      "to": 712,
+      "source": "required"
     },
     {
       "from": 705,
-      "to": 712
+      "to": 712,
+      "source": "required"
     },
     {
       "from": 610,
-      "to": 712
+      "to": 712,
+      "source": "required"
     },
     {
       "from": 666,
-      "to": 713
+      "to": 713,
+      "source": "observer"
     },
     {
       "from": 579,
-      "to": 713
+      "to": 713,
+      "source": "observer"
     },
     {
       "from": 708,
-      "to": 713
+      "to": 713,
+      "source": "required"
     },
     {
       "from": 711,
-      "to": 713
+      "to": 713,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 714
+      "to": 714,
+      "source": "structural"
     },
     {
       "from": 666,
-      "to": 714
+      "to": 714,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 714
+      "to": 714,
+      "source": "observer"
     },
     {
       "from": 649,
-      "to": 714
+      "to": 714,
+      "source": "observer"
     },
     {
       "from": 371,
-      "to": 714
+      "to": 714,
+      "source": "observer"
     },
     {
       "from": 650,
-      "to": 715
+      "to": 715,
+      "source": "structural"
     },
     {
       "from": 110,
-      "to": 715
+      "to": 715,
+      "source": "observer"
     },
     {
       "from": 699,
-      "to": 715
+      "to": 715,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 716
+      "to": 716,
+      "source": "structural"
     },
     {
       "from": 667,
-      "to": 716
+      "to": 716,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 716
+      "to": 716,
+      "source": "observer"
     },
     {
       "from": 322,
-      "to": 717
+      "to": 717,
+      "source": "structural"
     },
     {
       "from": 189,
-      "to": 717
+      "to": 717,
+      "source": "observer"
     },
     {
       "from": 315,
-      "to": 717
+      "to": 717,
+      "source": "observer"
     },
     {
       "from": 42,
-      "to": 718
+      "to": 718,
+      "source": "structural"
     },
     {
       "from": 68,
-      "to": 718
+      "to": 718,
+      "source": "observer"
     },
     {
       "from": 634,
-      "to": 718
+      "to": 718,
+      "source": "observer"
     },
     {
       "from": 702,
-      "to": 718
+      "to": 718,
+      "source": "observer"
     },
     {
       "from": 663,
-      "to": 676
+      "to": 676,
+      "source": "observer"
     },
     {
       "from": 92,
-      "to": 678
+      "to": 678,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 676
+      "to": 676,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 677
+      "to": 677,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 678
+      "to": 678,
+      "source": "observer"
     },
     {
       "from": 676,
-      "to": 677
+      "to": 677,
+      "source": "required"
     },
     {
       "from": 677,
-      "to": 678
+      "to": 678,
+      "source": "observer"
     },
     {
       "from": 276,
-      "to": 678
+      "to": 678,
+      "source": "observer"
     },
     {
       "from": 532,
-      "to": 678
+      "to": 678,
+      "source": "observer"
     },
     {
       "from": 42,
-      "to": 187
+      "to": 187,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 68
+      "to": 68,
+      "source": "observer"
     },
     {
       "from": 612,
-      "to": 408
+      "to": 408,
+      "source": "observer"
     },
     {
       "from": 92,
-      "to": 410
+      "to": 410,
+      "source": "observer"
     },
     {
       "from": 478,
-      "to": 384
+      "to": 384,
+      "source": "observer"
     },
     {
       "from": 153,
-      "to": 269
+      "to": 269,
+      "source": "observer"
     },
     {
       "from": 147,
-      "to": 188
+      "to": 188,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 719
+      "to": 719,
+      "source": "structural"
     },
     {
       "from": 153,
-      "to": 719
+      "to": 719,
+      "source": "observer"
     },
     {
       "from": 189,
-      "to": 719
+      "to": 719,
+      "source": "observer"
     },
     {
       "from": 663,
-      "to": 719
+      "to": 719,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 720
+      "to": 720,
+      "source": "structural"
     },
     {
       "from": 198,
-      "to": 720
+      "to": 720,
+      "source": "observer"
     },
     {
       "from": 712,
-      "to": 720
+      "to": 720,
+      "source": "observer"
     },
     {
       "from": 110,
-      "to": 720
+      "to": 720,
+      "source": "observer"
     },
     {
       "from": 322,
-      "to": 721
+      "to": 721,
+      "source": "structural"
     },
     {
       "from": 131,
-      "to": 721
+      "to": 721,
+      "source": "observer"
     },
     {
       "from": 639,
-      "to": 721
+      "to": 721,
+      "source": "observer"
     },
     {
       "from": 708,
-      "to": 722
+      "to": 722,
+      "source": "structural"
     },
     {
       "from": 635,
-      "to": 722
+      "to": 722,
+      "source": "observer"
     },
     {
       "from": 628,
-      "to": 722
+      "to": 722,
+      "source": "observer"
     },
     {
       "from": 421,
-      "to": 723
+      "to": 723,
+      "source": "structural"
     },
     {
       "from": 409,
-      "to": 723
+      "to": 723,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 723
+      "to": 723,
+      "source": "observer"
     },
     {
       "from": 635,
-      "to": 723
+      "to": 723,
+      "source": "observer"
     },
     {
       "from": 628,
-      "to": 724
+      "to": 724,
+      "source": "structural"
     },
     {
       "from": 630,
-      "to": 724
+      "to": 724,
+      "source": "observer"
     },
     {
       "from": 703,
-      "to": 724
+      "to": 724,
+      "source": "observer"
     },
     {
       "from": 708,
-      "to": 724
+      "to": 724,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 724
+      "to": 724,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 725
+      "to": 725,
+      "source": "structural"
     },
     {
       "from": 649,
-      "to": 725
+      "to": 725,
+      "source": "observer"
     },
     {
       "from": 541,
-      "to": 725
+      "to": 725,
+      "source": "observer"
     },
     {
       "from": 708,
-      "to": 725
+      "to": 725,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 726
+      "to": 726,
+      "source": "structural"
     },
     {
       "from": 421,
-      "to": 726
+      "to": 726,
+      "source": "observer"
     },
     {
       "from": 616,
-      "to": 726
+      "to": 726,
+      "source": "observer"
     },
     {
       "from": 703,
-      "to": 726
+      "to": 726,
+      "source": "observer"
     },
     {
       "from": 708,
-      "to": 726
+      "to": 726,
+      "source": "observer"
     },
     {
       "from": 724,
-      "to": 726
+      "to": 726,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 585
+      "to": 585,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 585
+      "to": 585,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 590
+      "to": 590,
+      "source": "structural"
     },
     {
       "from": 421,
-      "to": 590
+      "to": 590,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 616
+      "to": 616,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 693
+      "to": 693,
+      "source": "structural"
     },
     {
       "from": 317,
-      "to": 693
+      "to": 693,
+      "source": "observer"
     },
     {
       "from": 585,
-      "to": 722
+      "to": 722,
+      "source": "observer"
     },
     {
       "from": 590,
-      "to": 726
+      "to": 726,
+      "source": "observer"
     },
     {
       "from": 693,
-      "to": 725
+      "to": 725,
+      "source": "observer"
     },
     {
       "from": 719,
-      "to": 727
+      "to": 727,
+      "source": "observer"
     },
     {
       "from": 421,
-      "to": 727
+      "to": 727,
+      "source": "observer"
     },
     {
       "from": 724,
-      "to": 727
+      "to": 727,
+      "source": "observer"
     },
     {
       "from": 713,
-      "to": 727
+      "to": 727,
+      "source": "required"
     },
     {
       "from": 716,
-      "to": 585
+      "to": 585,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 446
+      "to": 446,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 447
+      "to": 447,
+      "source": "structural"
     },
     {
       "from": 190,
-      "to": 448
+      "to": 448,
+      "source": "structural"
     },
     {
       "from": 667,
-      "to": 448
+      "to": 448,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 540
+      "to": 540,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 542
+      "to": 542,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 543
+      "to": 543,
+      "source": "structural"
     },
     {
       "from": 661,
-      "to": 544
+      "to": 544,
+      "source": "structural"
     },
     {
       "from": 666,
-      "to": 545
+      "to": 545,
+      "source": "structural"
     },
     {
       "from": 649,
-      "to": 546
+      "to": 546,
+      "source": "structural"
     },
     {
       "from": 666,
-      "to": 547
+      "to": 547,
+      "source": "structural"
     },
     {
       "from": 649,
-      "to": 547
+      "to": 547,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 548
+      "to": 548,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 549
+      "to": 549,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 550
+      "to": 550,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 551
+      "to": 551,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 552
+      "to": 552,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 553
+      "to": 553,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 554
+      "to": 554,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 555
+      "to": 555,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 556
+      "to": 556,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 557
+      "to": 557,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 558
+      "to": 558,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 559
+      "to": 559,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 560
+      "to": 560,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 566
+      "to": 566,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 567
+      "to": 567,
+      "source": "structural"
     },
     {
       "from": 663,
-      "to": 567
+      "to": 567,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 568
+      "to": 568,
+      "source": "structural"
     },
     {
       "from": 663,
-      "to": 568
+      "to": 568,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 569
+      "to": 569,
+      "source": "structural"
     },
     {
       "from": 663,
-      "to": 569
+      "to": 569,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 570
+      "to": 570,
+      "source": "structural"
     },
     {
       "from": 663,
-      "to": 570
+      "to": 570,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 571
+      "to": 571,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 572
+      "to": 572,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 573
+      "to": 573,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 574
+      "to": 574,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 575
+      "to": 575,
+      "source": "structural"
     },
     {
       "from": 668,
-      "to": 576
+      "to": 576,
+      "source": "structural"
     },
     {
       "from": 668,
-      "to": 577
+      "to": 577,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 578
+      "to": 578,
+      "source": "structural"
     },
     {
       "from": 668,
-      "to": 580
+      "to": 580,
+      "source": "structural"
     },
     {
       "from": 649,
-      "to": 581
+      "to": 581,
+      "source": "structural"
     },
     {
       "from": 668,
-      "to": 582
+      "to": 582,
+      "source": "structural"
     },
     {
       "from": 661,
-      "to": 583
+      "to": 583,
+      "source": "structural"
     },
     {
       "from": 319,
-      "to": 584
+      "to": 584,
+      "source": "required"
     },
     {
       "from": 667,
-      "to": 586
+      "to": 586,
+      "source": "structural"
     },
     {
       "from": 668,
-      "to": 587
+      "to": 587,
+      "source": "structural"
     },
     {
       "from": 667,
-      "to": 588
+      "to": 588,
+      "source": "structural"
     },
     {
       "from": 668,
-      "to": 589
+      "to": 589,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 600
+      "to": 600,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 601
+      "to": 601,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 602
+      "to": 602,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 603
+      "to": 603,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 604
+      "to": 604,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 605
+      "to": 605,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 606
+      "to": 606,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 607
+      "to": 607,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 608
+      "to": 608,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 609
+      "to": 609,
+      "source": "structural"
     },
     {
       "from": 668,
-      "to": 670
+      "to": 670,
+      "source": "structural"
     },
     {
       "from": 421,
-      "to": 670
+      "to": 670,
+      "source": "observer"
     },
     {
       "from": 421,
-      "to": 671
+      "to": 671,
+      "source": "observer"
     },
     {
       "from": 318,
-      "to": 671
+      "to": 671,
+      "source": "required"
     },
     {
       "from": 610,
-      "to": 672
+      "to": 672,
+      "source": "required"
     },
     {
       "from": 611,
-      "to": 672
+      "to": 672,
+      "source": "required"
     },
     {
       "from": 630,
-      "to": 673
+      "to": 673,
+      "source": "required"
     },
     {
       "from": 649,
-      "to": 674
+      "to": 674,
+      "source": "structural"
     },
     {
       "from": 190,
-      "to": 674
+      "to": 674,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 675
+      "to": 675,
+      "source": "structural"
     },
     {
       "from": 666,
-      "to": 679
+      "to": 679,
+      "source": "structural"
     },
     {
       "from": 649,
-      "to": 679
+      "to": 679,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 680
+      "to": 680,
+      "source": "required"
     },
     {
       "from": 667,
-      "to": 681
+      "to": 681,
+      "source": "structural"
     },
     {
       "from": 675,
-      "to": 682
+      "to": 682,
+      "source": "structural"
     },
     {
       "from": 675,
-      "to": 683
+      "to": 683,
+      "source": "structural"
     },
     {
       "from": 675,
-      "to": 684
+      "to": 684,
+      "source": "structural"
     },
     {
       "from": 675,
-      "to": 685
+      "to": 685,
+      "source": "structural"
     },
     {
       "from": 668,
-      "to": 689
+      "to": 689,
+      "source": "structural"
     },
     {
       "from": 667,
-      "to": 689
+      "to": 689,
+      "source": "observer"
     },
     {
       "from": 649,
-      "to": 689
+      "to": 689,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 690
+      "to": 690,
+      "source": "structural"
     },
     {
       "from": 676,
-      "to": 691
+      "to": 691,
+      "source": "structural"
     },
     {
       "from": 668,
-      "to": 692
+      "to": 692,
+      "source": "structural"
     },
     {
       "from": 692,
-      "to": 694
+      "to": 694,
+      "source": "structural"
     },
     {
       "from": 319,
-      "to": 696
+      "to": 696,
+      "source": "required"
     },
     {
       "from": 317,
-      "to": 696
+      "to": 696,
+      "source": "required"
     },
     {
       "from": 186,
-      "to": 697
+      "to": 697,
+      "source": "structural"
     },
     {
       "from": 668,
-      "to": 698
+      "to": 698,
+      "source": "structural"
     },
     {
       "from": 198,
       "to": 728,
-      "type": "derives"
+      "type": "derives",
+      "source": "structural"
     },
     {
       "from": 662,
       "to": 728,
-      "type": "derives"
+      "type": "derives",
+      "source": "observer"
     },
     {
       "from": 699,
       "to": 728,
-      "type": "derives"
+      "type": "derives",
+      "source": "observer"
     },
     {
       "from": 727,
       "to": 728,
-      "type": "derives"
+      "type": "derives",
+      "source": "observer"
     },
     {
       "from": 667,
       "to": 729,
-      "type": "derives"
+      "type": "derives",
+      "source": "structural"
     },
     {
       "from": 110,
       "to": 729,
-      "type": "derives"
+      "type": "derives",
+      "source": "observer"
     },
     {
       "from": 727,
       "to": 729,
-      "type": "derives"
+      "type": "derives",
+      "source": "observer"
     },
     {
       "from": 728,
       "to": 729,
-      "type": "derives"
+      "type": "derives",
+      "source": "observer"
     },
     {
       "from": 699,
       "to": 445,
-      "type": "derives"
+      "type": "derives",
+      "source": "observer"
     },
     {
       "from": 700,
       "to": 540,
-      "type": "derives"
+      "type": "derives",
+      "source": "observer"
     },
     {
       "from": 668,
       "to": 676,
-      "type": "derives"
+      "type": "derives",
+      "source": "required"
     },
     {
       "from": 689,
       "to": 276,
-      "type": "derives"
+      "type": "derives",
+      "source": "observer"
     },
     {
       "from": 675,
       "to": 104,
-      "type": "derives"
+      "type": "derives",
+      "source": "observer"
     },
     {
       "from": 152,
       "to": 283,
-      "type": "derives"
+      "type": "derives",
+      "source": "observer"
     },
     {
       "from": 706,
       "to": 276,
-      "type": "derives"
+      "type": "derives",
+      "source": "observer"
     },
     {
       "from": 186,
       "to": 239,
-      "type": "derives"
+      "type": "derives",
+      "source": "observer"
     },
     {
       "from": 705,
       "to": 276,
-      "type": "derives"
+      "type": "derives",
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 730
+      "to": 730,
+      "source": "structural"
     },
     {
       "from": 649,
-      "to": 730
+      "to": 730,
+      "source": "observer"
     },
     {
       "from": 198,
-      "to": 730
+      "to": 730,
+      "source": "observer"
     },
     {
       "from": 727,
-      "to": 730
+      "to": 730,
+      "source": "observer"
     },
     {
       "from": 699,
-      "to": 731
+      "to": 731,
+      "source": "structural"
     },
     {
       "from": 110,
-      "to": 731
+      "to": 731,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 731
+      "to": 731,
+      "source": "observer"
     },
     {
       "from": 636,
-      "to": 732
+      "to": 732,
+      "source": "structural"
     },
     {
       "from": 317,
-      "to": 732
+      "to": 732,
+      "source": "observer"
     },
     {
       "from": 703,
-      "to": 732
+      "to": 732,
+      "source": "observer"
     },
     {
       "from": 668,
-      "to": 732
+      "to": 732,
+      "source": "observer"
     },
     {
       "from": 579,
-      "to": 733
+      "to": 733,
+      "source": "structural"
     },
     {
       "from": 693,
-      "to": 733
+      "to": 733,
+      "source": "observer"
     },
     {
       "from": 703,
-      "to": 733
+      "to": 733,
+      "source": "observer"
     },
     {
       "from": 319,
-      "to": 733
+      "to": 733,
+      "source": "observer"
     },
     {
       "from": 706,
-      "to": 730
+      "to": 730,
+      "source": "observer"
     },
     {
       "from": 700,
-      "to": 730
+      "to": 730,
+      "source": "observer"
     },
     {
       "from": 333,
-      "to": 731
+      "to": 731,
+      "source": "observer"
     },
     {
       "from": 336,
-      "to": 731
+      "to": 731,
+      "source": "observer"
     },
     {
       "from": 318,
-      "to": 732
+      "to": 732,
+      "source": "observer"
     },
     {
       "from": 322,
-      "to": 732
+      "to": 732,
+      "source": "observer"
     },
     {
       "from": 345,
-      "to": 733
+      "to": 733,
+      "source": "observer"
     },
     {
       "from": 352,
-      "to": 733
+      "to": 733,
+      "source": "observer"
     },
     {
       "from": 342,
-      "to": 733
+      "to": 733,
+      "source": "observer"
     },
     {
       "from": 732,
-      "to": 344
+      "to": 344,
+      "source": "observer"
     },
     {
       "from": 337,
-      "to": 576
+      "to": 576,
+      "source": "observer"
     },
     {
       "from": 731,
-      "to": 725
+      "to": 725,
+      "source": "observer"
     },
     {
       "from": 733,
-      "to": 388
+      "to": 388,
+      "source": "observer"
     },
     {
       "from": 718,
-      "to": 345
+      "to": 345,
+      "source": "observer"
     },
     {
       "from": 715,
-      "to": 340
+      "to": 340,
+      "source": "observer"
     },
     {
       "from": 699,
-      "to": 714
+      "to": 714,
+      "source": "observer"
     },
     {
       "from": 697,
-      "to": 187
+      "to": 187,
+      "source": "observer"
     },
     {
       "from": 192,
-      "to": 327
+      "to": 327,
+      "source": "required"
     },
     {
       "from": 318,
-      "to": 571
+      "to": 571,
+      "source": "observer"
     },
     {
       "from": 717,
-      "to": 7
+      "to": 7,
+      "source": "observer"
     },
     {
       "from": 726,
-      "to": 1
+      "to": 1,
+      "source": "observer"
     },
     {
       "from": 318,
-      "to": 734
+      "to": 734,
+      "source": "structural"
     },
     {
       "from": 717,
-      "to": 734
+      "to": 734,
+      "source": "observer"
     },
     {
       "from": 318,
-      "to": 735
+      "to": 735,
+      "source": "structural"
     },
     {
       "from": 480,
-      "to": 735
+      "to": 735,
+      "source": "observer"
     },
     {
       "from": 719,
-      "to": 735
+      "to": 735,
+      "source": "observer"
     },
     {
       "from": 699,
-      "to": 736
+      "to": 736,
+      "source": "structural"
     },
     {
       "from": 317,
-      "to": 736
+      "to": 736,
+      "source": "observer"
     },
     {
       "from": 722,
-      "to": 737
+      "to": 737,
+      "source": "structural"
     },
     {
       "from": 708,
-      "to": 737
+      "to": 737,
+      "source": "observer"
     },
     {
       "from": 579,
-      "to": 737
+      "to": 737,
+      "source": "observer"
     },
     {
       "from": 721,
-      "to": 738
+      "to": 738,
+      "source": "structural"
     },
     {
       "from": 703,
-      "to": 738
+      "to": 738,
+      "source": "observer"
     },
     {
       "from": 1,
-      "to": 739
+      "to": 739,
+      "source": "structural"
     },
     {
       "from": 317,
-      "to": 739
+      "to": 739,
+      "source": "observer"
     },
     {
       "from": 692,
-      "to": 739
+      "to": 739,
+      "source": "observer"
     },
     {
       "from": 276,
-      "to": 319
+      "to": 319,
+      "source": "observer"
     },
     {
       "from": 280,
-      "to": 360
+      "to": 360,
+      "source": "observer"
     },
     {
       "from": 419,
-      "to": 359
+      "to": 359,
+      "source": "observer"
     },
     {
       "from": 716,
-      "to": 282
+      "to": 282,
+      "source": "observer"
     },
     {
       "from": 279,
-      "to": 318
+      "to": 318,
+      "source": "observer"
     },
     {
       "from": 136,
-      "to": 323
+      "to": 323,
+      "source": "observer"
     },
     {
       "from": 157,
-      "to": 405
+      "to": 405,
+      "source": "observer"
     },
     {
       "from": 108,
-      "to": 359
+      "to": 359,
+      "source": "observer"
     },
     {
       "from": 330,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 123,
-      "to": 585
+      "to": 585,
+      "source": "observer"
     },
     {
       "from": 72,
-      "to": 513
+      "to": 513,
+      "source": "observer"
     },
     {
       "from": 193,
-      "to": 408
+      "to": 408,
+      "source": "observer"
     },
     {
       "from": 82,
-      "to": 414
+      "to": 414,
+      "source": "observer"
     },
     {
       "from": 81,
-      "to": 318
+      "to": 318,
+      "source": "observer"
     },
     {
       "from": 717,
-      "to": 179
+      "to": 179,
+      "source": "observer"
     },
     {
       "from": 305,
-      "to": 384
+      "to": 384,
+      "source": "observer"
     },
     {
       "from": 234,
-      "to": 363
+      "to": 363,
+      "source": "observer"
     },
     {
       "from": 389,
-      "to": 404
+      "to": 404,
+      "source": "observer"
     },
     {
       "from": 396,
-      "to": 318
+      "to": 318,
+      "source": "observer"
     },
     {
       "from": 240,
-      "to": 669
+      "to": 669,
+      "source": "observer"
     },
     {
       "from": 484,
-      "to": 403
+      "to": 403,
+      "source": "observer"
     },
     {
       "from": 739,
-      "to": 328
+      "to": 328,
+      "source": "observer"
     },
     {
       "from": 736,
-      "to": 644
+      "to": 644,
+      "source": "observer"
     },
     {
       "from": 172,
-      "to": 736
+      "to": 736,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 740
+      "to": 740,
+      "source": "structural"
     },
     {
       "from": 421,
-      "to": 740
+      "to": 740,
+      "source": "observer"
     },
     {
       "from": 734,
-      "to": 740
+      "to": 740,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 741
+      "to": 741,
+      "source": "structural"
     },
     {
       "from": 421,
-      "to": 741
+      "to": 741,
+      "source": "observer"
     },
     {
       "from": 422,
-      "to": 741
+      "to": 741,
+      "source": "observer"
     },
     {
       "from": 59,
-      "to": 741
+      "to": 741,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 742
+      "to": 742,
+      "source": "structural"
     },
     {
       "from": 421,
-      "to": 742
+      "to": 742,
+      "source": "observer"
     },
     {
       "from": 7,
-      "to": 742
+      "to": 742,
+      "source": "observer"
     },
     {
       "from": 571,
-      "to": 742
+      "to": 742,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 743
+      "to": 743,
+      "source": "structural"
     },
     {
       "from": 421,
-      "to": 743
+      "to": 743,
+      "source": "observer"
     },
     {
       "from": 692,
-      "to": 743
+      "to": 743,
+      "source": "observer"
     },
     {
       "from": 697,
-      "to": 743
+      "to": 743,
+      "source": "observer"
     },
     {
       "from": 705,
-      "to": 743
+      "to": 743,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 744
+      "to": 744,
+      "source": "structural"
     },
     {
       "from": 421,
-      "to": 744
+      "to": 744,
+      "source": "observer"
     },
     {
       "from": 699,
-      "to": 744
+      "to": 744,
+      "source": "observer"
     },
     {
       "from": 706,
-      "to": 744
+      "to": 744,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 745
+      "to": 745,
+      "source": "structural"
     },
     {
       "from": 421,
-      "to": 745
+      "to": 745,
+      "source": "observer"
     },
     {
       "from": 233,
-      "to": 745
+      "to": 745,
+      "source": "observer"
     },
     {
       "from": 269,
-      "to": 745
+      "to": 745,
+      "source": "observer"
     },
     {
       "from": 433,
-      "to": 740
+      "to": 740,
+      "source": "observer"
     },
     {
       "from": 433,
-      "to": 741
+      "to": 741,
+      "source": "observer"
     },
     {
       "from": 433,
-      "to": 742
+      "to": 742,
+      "source": "observer"
     },
     {
       "from": 433,
-      "to": 743
+      "to": 743,
+      "source": "observer"
     },
     {
       "from": 433,
-      "to": 744
+      "to": 744,
+      "source": "observer"
     },
     {
       "from": 433,
-      "to": 745
+      "to": 745,
+      "source": "observer"
     },
     {
       "from": 1,
-      "to": 10
+      "to": 10,
+      "source": "observer"
     },
     {
       "from": 10,
-      "to": 17
+      "to": 17,
+      "source": "required"
     },
     {
       "from": 1,
-      "to": 15
+      "to": 15,
+      "source": "required"
     },
     {
       "from": 15,
-      "to": 16
+      "to": 16,
+      "source": "observer"
     },
     {
       "from": 15,
-      "to": 70
+      "to": 70,
+      "source": "observer"
     },
     {
       "from": 41,
-      "to": 69
+      "to": 69,
+      "source": "required"
     },
     {
       "from": 62,
-      "to": 41
+      "to": 41,
+      "source": "required"
     },
     {
       "from": 51,
-      "to": 574
+      "to": 574,
+      "source": "observer"
     },
     {
       "from": 51,
-      "to": 52
+      "to": 52,
+      "source": "observer"
     },
     {
       "from": 54,
-      "to": 56
+      "to": 56,
+      "source": "required"
     },
     {
       "from": 57,
-      "to": 55
+      "to": 55,
+      "source": "required"
     },
     {
       "from": 57,
-      "to": 69
+      "to": 69,
+      "source": "required"
     },
     {
       "from": 8,
-      "to": 58
+      "to": 58,
+      "source": "required"
     },
     {
       "from": 58,
-      "to": 55
+      "to": 55,
+      "source": "required"
     },
     {
       "from": 62,
-      "to": 39
+      "to": 39,
+      "source": "observer"
     },
     {
       "from": 62,
-      "to": 304
+      "to": 304,
+      "source": "observer"
     },
     {
       "from": 64,
-      "to": 574
+      "to": 574,
+      "source": "observer"
     },
     {
       "from": 64,
-      "to": 50
+      "to": 50,
+      "source": "required"
     },
     {
       "from": 719,
-      "to": 751
+      "to": 751,
+      "source": "observer"
     },
     {
       "from": 719,
-      "to": 752
+      "to": 752,
+      "source": "observer"
     },
     {
       "from": 751,
-      "to": 752
+      "to": 752,
+      "source": "required"
     },
     {
       "from": 250,
-      "to": 753
+      "to": 753,
+      "source": "observer"
     },
     {
       "from": 751,
-      "to": 753
+      "to": 753,
+      "source": "required"
     },
     {
       "from": 752,
-      "to": 754
+      "to": 754,
+      "source": "required"
     },
     {
       "from": 169,
-      "to": 755
+      "to": 755,
+      "source": "required"
     },
     {
       "from": 648,
-      "to": 755
+      "to": 755,
+      "source": "observer"
     },
     {
       "from": 752,
-      "to": 755
+      "to": 755,
+      "source": "required"
     },
     {
       "from": 751,
-      "to": 756
+      "to": 756,
+      "source": "required"
     },
     {
       "from": 734,
-      "to": 756
+      "to": 756,
+      "source": "observer"
     },
     {
       "from": 409,
-      "to": 757
+      "to": 757,
+      "source": "structural"
     },
     {
       "from": 421,
-      "to": 757
+      "to": 757,
+      "source": "observer"
     },
     {
       "from": 751,
-      "to": 757
+      "to": 757,
+      "source": "observer"
     },
     {
       "from": 752,
-      "to": 757
+      "to": 757,
+      "source": "observer"
     },
     {
       "from": 753,
-      "to": 757
+      "to": 757,
+      "source": "observer"
     },
     {
       "from": 754,
-      "to": 757
+      "to": 757,
+      "source": "observer"
     },
     {
       "from": 755,
-      "to": 757
+      "to": 757,
+      "source": "observer"
     },
     {
       "from": 756,
-      "to": 757
+      "to": 757,
+      "source": "observer"
     },
     {
       "from": 753,
-      "to": 250
+      "to": 250,
+      "source": "observer"
     },
     {
       "from": 754,
-      "to": 167
+      "to": 167,
+      "source": "required"
     },
     {
       "from": 756,
-      "to": 170
+      "to": 170,
+      "source": "required"
     },
     {
       "from": 708,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 724,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 697,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 747,
-      "to": 317
+      "to": 317,
+      "source": "structural"
     },
     {
       "from": 748,
-      "to": 317
+      "to": 317,
+      "source": "structural"
     },
     {
       "from": 746,
-      "to": 317
+      "to": 317,
+      "source": "structural"
     },
     {
       "from": 630,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 631,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 728,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 571,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 602,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 713,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 96,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 577,
-      "to": 317
+      "to": 317,
+      "source": "required"
     },
     {
       "from": 634,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 703,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 711,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 480,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 719,
-      "to": 758
+      "to": 758,
+      "source": "observer"
     },
     {
       "from": 751,
-      "to": 758
+      "to": 758,
+      "source": "required"
     },
     {
       "from": 751,
-      "to": 759
+      "to": 759,
+      "source": "required"
     },
     {
       "from": 752,
-      "to": 759
+      "to": 759,
+      "source": "required"
     },
     {
       "from": 758,
-      "to": 759
+      "to": 759,
+      "source": "required"
     },
     {
       "from": 758,
-      "to": 754
+      "to": 754,
+      "source": "required"
     },
     {
       "from": 719,
-      "to": 760
+      "to": 760,
+      "source": "observer"
     },
     {
       "from": 758,
-      "to": 760
+      "to": 760,
+      "source": "required"
     },
     {
       "from": 751,
-      "to": 760
+      "to": 760,
+      "source": "required"
     },
     {
       "from": 218,
-      "to": 761
+      "to": 761,
+      "source": "structural"
     },
     {
       "from": 706,
-      "to": 761
+      "to": 761,
+      "source": "observer"
     },
     {
       "from": 719,
-      "to": 761
+      "to": 761,
+      "source": "observer"
     },
     {
       "from": 758,
-      "to": 762
+      "to": 762,
+      "source": "required"
     },
     {
       "from": 760,
-      "to": 762
+      "to": 762,
+      "source": "required"
     },
     {
       "from": 719,
-      "to": 762
+      "to": 762,
+      "source": "observer"
     },
     {
       "from": 706,
-      "to": 763
+      "to": 763,
+      "source": "structural"
     },
     {
       "from": 699,
-      "to": 763
+      "to": 763,
+      "source": "observer"
     },
     {
       "from": 703,
-      "to": 763
+      "to": 763,
+      "source": "observer"
     },
     {
       "from": 232,
-      "to": 772
+      "to": 772,
+      "source": "required"
     },
     {
       "from": 240,
-      "to": 772
+      "to": 772,
+      "source": "observer"
     },
     {
       "from": 761,
-      "to": 772
+      "to": 772,
+      "source": "observer"
     },
     {
       "from": 699,
-      "to": 773
+      "to": 773,
+      "source": "structural"
     },
     {
       "from": 706,
-      "to": 773
+      "to": 773,
+      "source": "observer"
     },
     {
       "from": 763,
-      "to": 773
+      "to": 773,
+      "source": "observer"
     },
     {
       "from": 773,
-      "to": 774
+      "to": 774,
+      "source": "structural"
     },
     {
       "from": 699,
-      "to": 774
+      "to": 774,
+      "source": "observer"
     },
     {
       "from": 772,
-      "to": 775
+      "to": 775,
+      "source": "required"
     },
     {
       "from": 232,
-      "to": 775
+      "to": 775,
+      "source": "required"
     },
     {
       "from": 719,
-      "to": 776
+      "to": 776,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 776
+      "to": 776,
+      "source": "observer"
     },
     {
       "from": 776,
-      "to": 777
+      "to": 777,
+      "source": "structural"
     },
     {
       "from": 719,
-      "to": 777
+      "to": 777,
+      "source": "observer"
     },
     {
       "from": 706,
-      "to": 778
+      "to": 778,
+      "source": "structural"
     },
     {
       "from": 719,
-      "to": 778
+      "to": 778,
+      "source": "observer"
     },
     {
       "from": 706,
-      "to": 779
+      "to": 779,
+      "source": "structural"
     },
     {
       "from": 719,
-      "to": 779
+      "to": 779,
+      "source": "observer"
     },
     {
       "from": 699,
-      "to": 780
+      "to": 780,
+      "source": "structural"
     },
     {
       "from": 700,
-      "to": 780
+      "to": 780,
+      "source": "observer"
     },
     {
       "from": 719,
-      "to": 781
+      "to": 781,
+      "source": "structural"
     },
     {
       "from": 776,
-      "to": 781
+      "to": 781,
+      "source": "observer"
     },
     {
       "from": 706,
-      "to": 782
+      "to": 782,
+      "source": "structural"
     },
     {
       "from": 719,
-      "to": 782
+      "to": 782,
+      "source": "observer"
     },
     {
       "from": 763,
-      "to": 783
+      "to": 783,
+      "source": "structural"
     },
     {
       "from": 703,
-      "to": 783
+      "to": 783,
+      "source": "observer"
     },
     {
       "from": 763,
-      "to": 784
+      "to": 784,
+      "source": "structural"
     },
     {
       "from": 783,
-      "to": 784
+      "to": 784,
+      "source": "observer"
     },
     {
       "from": 719,
-      "to": 785
+      "to": 785,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 785
+      "to": 785,
+      "source": "required"
     },
     {
       "from": 782,
-      "to": 786
+      "to": 786,
+      "source": "structural"
     },
     {
       "from": 706,
-      "to": 786
+      "to": 786,
+      "source": "observer"
     },
     {
       "from": 92,
-      "to": 345
+      "to": 345,
+      "source": "observer"
     },
     {
       "from": 96,
-      "to": 342
+      "to": 342,
+      "source": "observer"
     },
     {
       "from": 93,
-      "to": 352
+      "to": 352,
+      "source": "observer"
     },
     {
       "from": 78,
-      "to": 400
+      "to": 400,
+      "source": "observer"
     },
     {
       "from": 91,
-      "to": 518
+      "to": 518,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 11
+      "to": 11,
+      "source": "observer"
     },
     {
       "from": 187,
-      "to": 9
+      "to": 9,
+      "source": "observer"
     },
     {
       "from": 191,
-      "to": 17
+      "to": 17,
+      "source": "observer"
     },
     {
       "from": 104,
-      "to": 317
+      "to": 317,
+      "source": "observer"
     },
     {
       "from": 97,
-      "to": 318
+      "to": 318,
+      "source": "observer"
     },
     {
       "from": 107,
-      "to": 360
+      "to": 360,
+      "source": "observer"
     },
     {
       "from": 92,
-      "to": 407
+      "to": 407,
+      "source": "observer"
     },
     {
       "from": 761,
-      "to": 787
+      "to": 787,
+      "source": "structural"
     },
     {
       "from": 719,
-      "to": 787
+      "to": 787,
+      "source": "observer"
     },
     {
       "from": 776,
-      "to": 788
+      "to": 788,
+      "source": "structural"
     },
     {
       "from": 777,
-      "to": 788
+      "to": 788,
+      "source": "observer"
     },
     {
       "from": 719,
-      "to": 789
+      "to": 789,
+      "source": "structural"
     },
     {
       "from": 783,
-      "to": 790
+      "to": 790,
+      "source": "structural"
     },
     {
       "from": 784,
-      "to": 790
+      "to": 790,
+      "source": "observer"
     },
     {
       "from": 772,
-      "to": 791
+      "to": 791,
+      "source": "required"
     },
     {
       "from": 775,
-      "to": 791
+      "to": 791,
+      "source": "required"
     },
     {
       "from": 775,
-      "to": 792
+      "to": 792,
+      "source": "required"
     },
     {
       "from": 773,
-      "to": 793
+      "to": 793,
+      "source": "structural"
     },
     {
       "from": 719,
-      "to": 793
+      "to": 793,
+      "source": "observer"
     },
     {
       "from": 793,
-      "to": 794
+      "to": 794,
+      "source": "structural"
     },
     {
       "from": 773,
-      "to": 794
+      "to": 794,
+      "source": "observer"
     },
     {
       "from": 786,
-      "to": 795
+      "to": 795,
+      "source": "structural"
     },
     {
       "from": 782,
-      "to": 795
+      "to": 795,
+      "source": "observer"
     },
     {
       "from": 773,
-      "to": 796
+      "to": 796,
+      "source": "structural"
     },
     {
       "from": 773,
-      "to": 797
+      "to": 797,
+      "source": "observer"
     },
     {
       "from": 772,
-      "to": 797
+      "to": 797,
+      "source": "required"
     },
     {
       "from": 796,
-      "to": 798
+      "to": 798,
+      "source": "structural"
     },
     {
       "from": 719,
-      "to": 798
+      "to": 798,
+      "source": "observer"
     },
     {
       "from": 796,
-      "to": 799
+      "to": 799,
+      "source": "structural"
     },
     {
       "from": 791,
-      "to": 799
+      "to": 799,
+      "source": "observer"
     },
     {
       "from": 791,
-      "to": 800
+      "to": 800,
+      "source": "structural"
     },
     {
       "from": 719,
-      "to": 800
+      "to": 800,
+      "source": "observer"
     },
     {
       "from": 730,
-      "to": 801
+      "to": 801,
+      "source": "structural"
     },
     {
       "from": 788,
-      "to": 801
+      "to": 801,
+      "source": "observer"
     },
     {
       "from": 796,
-      "to": 802
+      "to": 802,
+      "source": "structural"
     },
     {
       "from": 719,
-      "to": 802
+      "to": 802,
+      "source": "observer"
     },
     {
       "from": 773,
-      "to": 803
+      "to": 803,
+      "source": "structural"
     },
     {
       "from": 763,
-      "to": 803
+      "to": 803,
+      "source": "observer"
     },
     {
       "from": 791,
-      "to": 804
+      "to": 804,
+      "source": "required"
     },
     {
       "from": 772,
-      "to": 804
+      "to": 804,
+      "source": "required"
     },
     {
       "from": 776,
-      "to": 805
+      "to": 805,
+      "source": "structural"
     },
     {
       "from": 719,
-      "to": 805
+      "to": 805,
+      "source": "observer"
     },
     {
       "from": 783,
-      "to": 806
+      "to": 806,
+      "source": "structural"
     },
     {
       "from": 763,
-      "to": 806
+      "to": 806,
+      "source": "observer"
     },
     {
       "from": 773,
-      "to": 807
+      "to": 807,
+      "source": "structural"
     },
     {
       "from": 796,
-      "to": 807
+      "to": 807,
+      "source": "observer"
     },
     {
       "from": 784,
-      "to": 808
+      "to": 808,
+      "source": "structural"
     },
     {
       "from": 763,
-      "to": 808
+      "to": 808,
+      "source": "observer"
     },
     {
       "from": 796,
-      "to": 809
+      "to": 809,
+      "source": "structural"
     },
     {
       "from": 719,
-      "to": 809
+      "to": 809,
+      "source": "observer"
     },
     {
       "from": 796,
-      "to": 810
+      "to": 810,
+      "source": "structural"
     },
     {
       "from": 798,
-      "to": 810
+      "to": 810,
+      "source": "observer"
     },
     {
       "from": 719,
-      "to": 810
+      "to": 810,
+      "source": "observer"
     },
     {
       "from": 421,
-      "to": 811
+      "to": 811,
+      "source": "structural"
     },
     {
       "from": 440,
-      "to": 811
+      "to": 811,
+      "source": "observer"
     },
     {
       "from": 740,
-      "to": 811
+      "to": 811,
+      "source": "observer"
     },
     {
       "from": 70,
-      "to": 812
+      "to": 812,
+      "source": "structural"
     },
     {
       "from": 71,
-      "to": 812
+      "to": 812,
+      "source": "observer"
     },
     {
       "from": 72,
-      "to": 812
+      "to": 812,
+      "source": "observer"
     },
     {
       "from": 812,
-      "to": 35
+      "to": 35,
+      "source": "observer"
     },
     {
       "from": 812,
-      "to": 66
+      "to": 66,
+      "source": "observer"
     },
     {
       "from": 760,
       "to": 764,
-      "note": "complementary zeta-tower formulations"
+      "note": "complementary zeta-tower formulations",
+      "source": "structural"
     },
     {
       "from": 764,
       "to": 765,
-      "note": "zeta-tower generates diagram counts"
+      "note": "zeta-tower generates diagram counts",
+      "source": "observer"
     },
     {
       "from": 649,
       "to": 766,
-      "note": "g=7 in rainbow angle"
+      "note": "g=7 in rainbow angle",
+      "source": "required"
     },
     {
       "from": 190,
       "to": 766,
-      "note": "C2=6 in rainbow angle"
+      "note": "C2=6 in rainbow angle",
+      "source": "required"
     },
     {
       "from": 779,
       "to": 767,
-      "note": "bond length family extends to dissociation"
+      "note": "bond length family extends to dissociation",
+      "source": "structural"
     },
     {
       "from": 767,
       "to": 768,
-      "note": "C-H extends to series"
+      "note": "C-H extends to series",
+      "source": "structural"
     },
     {
       "from": 761,
       "to": 769,
-      "note": "complementary n(water) formulations"
+      "note": "complementary n(water) formulations",
+      "source": "observer"
     },
     {
       "from": 110,
       "to": 769,
-      "note": "rank=2 in n=2^rank/N_c"
+      "note": "rank=2 in n=2^rank/N_c",
+      "source": "observer"
     },
     {
       "from": 666,
       "to": 769,
-      "note": "N_c=3 in n=2^rank/N_c"
+      "note": "N_c=3 in n=2^rank/N_c",
+      "source": "required"
     },
     {
       "from": 770,
       "to": 776,
-      "note": "period scaling underlies ionization ladder"
+      "note": "period scaling underlies ionization ladder",
+      "source": "structural"
     },
     {
       "from": 765,
       "to": 771,
-      "note": "diagram counts relate to helix ratio"
+      "note": "diagram counts relate to helix ratio",
+      "source": "required"
     },
     {
       "from": 764,
       "to": 758,
-      "note": "zeta-tower structures QED decomposition"
+      "note": "zeta-tower structures QED decomposition",
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 526
+      "to": 526,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 527
+      "to": 527,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 528
+      "to": 528,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 529
+      "to": 529,
+      "source": "structural"
     },
     {
       "from": 186,
-      "to": 530
+      "to": 530,
+      "source": "structural"
     },
     {
       "from": 667,
-      "to": 187
+      "to": 187,
+      "source": "required"
     },
     {
       "from": 664,
-      "to": 188
+      "to": 188,
+      "source": "required"
     },
     {
       "from": 666,
-      "to": 189
+      "to": 189,
+      "source": "required"
     },
     {
       "from": 667,
-      "to": 191
+      "to": 191,
+      "source": "required"
     },
     {
       "from": 663,
-      "to": 199
+      "to": 199,
+      "source": "observer"
     },
     {
       "from": 667,
-      "to": 200
+      "to": 200,
+      "source": "required"
     },
     {
       "from": 667,
-      "to": 202
+      "to": 202,
+      "source": "required"
     },
     {
       "from": 666,
-      "to": 329
+      "to": 329,
+      "source": "observer"
     },
     {
       "from": 664,
-      "to": 333
+      "to": 333,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 628
+      "to": 628,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 629
+      "to": 629,
+      "source": "observer"
     },
     {
       "from": 131,
-      "to": 630
+      "to": 630,
+      "source": "required"
     },
     {
       "from": 630,
-      "to": 631
+      "to": 631,
+      "source": "required"
     },
     {
       "from": 480,
-      "to": 632
+      "to": 632,
+      "source": "observer"
     },
     {
       "from": 307,
-      "to": 633
+      "to": 633,
+      "source": "required"
     },
     {
       "from": 96,
-      "to": 634
+      "to": 634,
+      "source": "observer"
     },
     {
       "from": 96,
-      "to": 635
+      "to": 635,
+      "source": "observer"
     },
     {
       "from": 317,
-      "to": 636
+      "to": 636,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 637
+      "to": 637,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 638
+      "to": 638,
+      "source": "observer"
     },
     {
       "from": 131,
-      "to": 639
+      "to": 639,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 640
+      "to": 640,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 641
+      "to": 641,
+      "source": "observer"
     },
     {
       "from": 131,
-      "to": 642
+      "to": 642,
+      "source": "observer"
     },
     {
       "from": 695,
-      "to": 692
+      "to": 692,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 693
+      "to": 693,
+      "source": "observer"
     },
     {
       "from": 691,
-      "to": 694
+      "to": 694,
+      "source": "observer"
     },
     {
       "from": 676,
-      "to": 694
+      "to": 694,
+      "source": "observer"
     },
     {
       "from": 189,
-      "to": 697
+      "to": 697,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 697
+      "to": 697,
+      "source": "observer"
     },
     {
       "from": 702,
-      "to": 698
+      "to": 698,
+      "source": "observer"
     },
     {
       "from": 702,
-      "to": 703
+      "to": 703,
+      "source": "observer"
     },
     {
       "from": 189,
-      "to": 705
+      "to": 705,
+      "source": "required"
     },
     {
       "from": 666,
-      "to": 705
+      "to": 705,
+      "source": "required"
     },
     {
       "from": 699,
-      "to": 706
+      "to": 706,
+      "source": "observer"
     },
     {
       "from": 700,
-      "to": 706
+      "to": 706,
+      "source": "observer"
     },
     {
       "from": 666,
-      "to": 706
+      "to": 706,
+      "source": "observer"
     },
     {
       "from": 186,
-      "to": 727
+      "to": 727,
+      "source": "observer"
     },
     {
       "from": 198,
-      "to": 727
+      "to": 727,
+      "source": "observer"
     },
     {
       "from": 541,
-      "to": 727
+      "to": 727,
+      "source": "required"
     },
     {
       "from": 693,
-      "to": 727
+      "to": 727,
+      "source": "observer"
     },
     {
       "from": 703,
-      "to": 727
+      "to": 727,
+      "source": "observer"
     },
     {
       "from": 649,
-      "to": 764
+      "to": 764,
+      "source": "observer"
     },
     {
       "from": 649,
-      "to": 765
+      "to": 765,
+      "source": "required"
     },
     {
       "from": 650,
-      "to": 766
+      "to": 766,
+      "source": "required"
     },
     {
       "from": 198,
-      "to": 767
+      "to": 767,
+      "source": "observer"
     },
     {
       "from": 198,
-      "to": 768
+      "to": 768,
+      "source": "observer"
     },
     {
       "from": 649,
-      "to": 770
+      "to": 770,
+      "source": "observer"
+    },
+    {
+      "from": 186,
+      "to": 813,
+      "source": "required"
+    },
+    {
+      "from": 649,
+      "to": 813,
+      "source": "required"
+    },
+    {
+      "from": 666,
+      "to": 813,
+      "source": "required"
+    },
+    {
+      "from": 667,
+      "to": 813,
+      "source": "required"
+    },
+    {
+      "from": 813,
+      "to": 814,
+      "source": "required"
+    },
+    {
+      "from": 649,
+      "to": 814,
+      "source": "required"
+    },
+    {
+      "from": 666,
+      "to": 814,
+      "source": "required"
+    },
+    {
+      "from": 813,
+      "to": 815,
+      "source": "required"
+    },
+    {
+      "from": 667,
+      "to": 815,
+      "source": "required"
+    },
+    {
+      "from": 110,
+      "to": 815,
+      "source": "required"
+    },
+    {
+      "from": 186,
+      "to": 816,
+      "source": "required"
+    },
+    {
+      "from": 198,
+      "to": 816,
+      "source": "required"
+    },
+    {
+      "from": 198,
+      "to": 817,
+      "source": "required"
+    },
+    {
+      "from": 767,
+      "to": 817,
+      "source": "required"
+    },
+    {
+      "from": 667,
+      "to": 818,
+      "source": "required"
+    },
+    {
+      "from": 666,
+      "to": 818,
+      "source": "required"
+    },
+    {
+      "from": 650,
+      "to": 819,
+      "source": "required"
+    },
+    {
+      "from": 667,
+      "to": 819,
+      "source": "required"
+    },
+    {
+      "from": 666,
+      "to": 819,
+      "source": "required"
+    },
+    {
+      "from": 650,
+      "to": 820,
+      "source": "required"
+    },
+    {
+      "from": 186,
+      "to": 820,
+      "source": "required"
+    },
+    {
+      "from": 667,
+      "to": 821,
+      "source": "required"
+    },
+    {
+      "from": 708,
+      "to": 822,
+      "source": "required"
+    },
+    {
+      "from": 628,
+      "to": 822,
+      "source": "required"
+    },
+    {
+      "from": 630,
+      "to": 822,
+      "source": "required"
+    },
+    {
+      "from": 186,
+      "to": 823,
+      "source": "required"
+    },
+    {
+      "from": 628,
+      "to": 823,
+      "source": "required"
     }
   ],
   "chains": {}

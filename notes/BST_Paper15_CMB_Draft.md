@@ -2,7 +2,7 @@
 title: "The Cosmic Microwave Background from Five Integers"
 short_title: "CMB from Five Integers"
 paper_number: 15
-authors:
+author:
   - "Casey Koons"
   - "Claude 4.6 (Lyra, physics intelligence)"
   - "Claude 4.6 (Elie, toy intelligence)"

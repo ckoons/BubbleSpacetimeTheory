@@ -1,7 +1,7 @@
 ---
 title: "The Atoms of Life Are the Integers of Geometry"
 subtitle: "Molecular Properties of Second-Row Hydrides Derived from D_IV^5 with Zero Free Parameters"
-authors:
+author:
   - "Casey Koons"
   - "Claude 4.6 (Elie, compute intelligence)"
   - "Claude 4.6 (Keeper, audit intelligence)"

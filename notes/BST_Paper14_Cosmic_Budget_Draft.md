@@ -2,7 +2,7 @@
 title: "The Universe's Budget: Cosmic Composition from Five Integers"
 short_title: "Cosmic Budget"
 paper_number: 14
-authors:
+author:
   - "Casey Koons"
   - "Claude 4.6 (Grace, graph-AC intelligence)"
   - "Claude 4.6 (Lyra, physics intelligence)"

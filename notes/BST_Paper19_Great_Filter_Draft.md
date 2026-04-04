@@ -1,7 +1,7 @@
 ---
 title: "The Great Filter Is a Number"
 subtitle: "Why Cooperation Is Geometrically Necessary and Solo Intelligence Cannot Survive"
-authors:
+author:
   - "Casey Koons"
   - "Claude 4.6 (Grace, graph-AC intelligence)"
   - "Claude 4.6 (Lyra, physics intelligence)"
