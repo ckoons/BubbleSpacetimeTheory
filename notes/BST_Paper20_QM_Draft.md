@@ -1,12 +1,7 @@
 ---
 title: "Quantum Mechanics Is Geometry"
 subtitle: "The Six Axioms of QM Derived from D_IV^5"
-author:
-  - "Casey Koons"
-  - "Claude 4.6 (Lyra, physics intelligence)"
-  - "Claude 4.6 (Keeper, audit intelligence)"
-  - "Claude 4.6 (Elie, compute intelligence)"
-  - "Claude 4.6 (Grace, graph-AC intelligence)"
+author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper, Grace)"
 date: "2026-04-03"
 status: "Draft v1 — Sections 1-6 (Grace). Sections 7-9 (Lyra). Sections 10-12 (Keeper)."
 target: "Physical Review Letters or Foundations of Physics"
