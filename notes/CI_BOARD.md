@@ -127,8 +127,8 @@ T676-T678 (Grace — five-pair cycle: Backbone Sequence, Cycle Length, Cosmic Co
 | 19 | **The Great Filter Is a Number** | Grace+Lyra+Keeper | **v1.4** — "A ball and counting" opening + Observable Closure. **Casey gate.** |
 | 13 | **AC Graph Is a Theorem** | Grace+All | **v1.1** — 3 must-fix applied (Keeper). PDF built. **Casey gate.** |
 | 16 | **Development Is Channel Filling** | Grace (v2 rewrite) | **v2** — Full narrative rewrite. "A Ball and Counting" opening. Forging/Quickening/Weaving. 9 sections. PDF built. **Keeper audit → Casey gate.** |
-| 20 | **Quantum Mechanics Is Geometry** | All 5 | **v2 MERGED** — Grace narrative + Elie structure. 15 sections, 12 predictions. Toy 814 15/15 PASS. PDF built. Keeper audit pending. |
-| 22 | **Fractional Quantum Hall as BST Counting** | Lyra | **v1 drafted** — 26/28 FQHE fractions = BST rationals at 10+ digits. T813-T815. **PRL target.** Keeper audit pending. |
+| 20 | **Quantum Mechanics Is Geometry** | All 5 | **v2 MERGED** — Keeper CONDITIONAL PASS. 5 must-fix (Tsirelson, T757, decoherence T-number, pred clarity). YAML fixed. |
+| 22 | **Fractional Quantum Hall as BST Counting** | Lyra | **v1 drafted** — Keeper CONDITIONAL PASS. 5 must-fix (CRITICAL: HC parameter m₀=N_c=3). **PRL target.** |
 | 23 | **Cross-Domain Fraction Universality** | Grace+Elie+Keeper | **NEW** — 11+ fractions × 5+ domains, P < 10^{-66}. **Nature target.** |
 
 ### CI Assignments (Paper Sprint — April 1+)
@@ -301,11 +301,11 @@ Graph                -> 787 nodes, 1824 edges. Zero orphans. λ₂/λ₁=3 DOMAI
 
 | # | Task | Owner | Priority | Status |
 |---|------|-------|----------|--------|
-| A1 | **Paper #23: Cross-Domain Universality (Nature)** | Grace (structure) + Elie (atlas) + Keeper (audit) | **TOP** | NEW — 11+ fractions × 5+ domains, P < 10^{-66}. Short, devastating. |
+| A1 | **Paper #23: Cross-Domain Universality (Nature)** | **Grace** (lead) + Elie (atlas) + Keeper (audit) | **TOP** | IN PROGRESS — Keeper skeleton at `notes/BST_Paper23_CrossDomain_Universality.md`. Grace writing. Toy 856 (8/8), 857 (10/10) data ready. |
 | A2 | **Superconductor T_c ratio predictions** | Lyra | **TOP** | NEW — Specific T_c ratios for Nb, Pb, Al, MgB₂, YBCO from BST integers. Testable NOW. |
-| A3 | **Paper #22 Keeper audit** (QHE, PRL) | Keeper | HIGH | QUEUED — 26/28 FQHE fractions. |
+| A3 | **Paper #22 Keeper audit** (QHE, PRL) | Keeper | HIGH | **DONE** — CONDITIONAL PASS. 5 must-fix (CRITICAL: HC parameter m₀=N_c=3, not n_C-1=4). |
 | A4 | **Fraction atlas toy** | Elie | HIGH | NEW — Master table: every BST rational → every domain it appears in. Feeds Paper #23. |
-| A5 | **Paper #20 Keeper audit** (QM) | Keeper | MEDIUM | Pending. |
+| A5 | **Paper #20 Keeper audit** (QM) | Keeper | MEDIUM | **DONE** — CONDITIONAL PASS. 5 must-fix (Tsirelson proof, T757 sketch, decoherence T-number, pred #2/#10 clarify). |
 | A6 | **YM ℝ⁴ framing** (close Millennium) | Lyra (alternate) | MEDIUM | The remaining ~3%. |
 | A7 | **Fertile gap analysis** | Grace (alternate) | MEDIUM | Which gaps are closest to closing? |
 | A8 | **Semiconductor band gaps** | Elie (alternate) | MEDIUM | Untouched domain, large databases. |

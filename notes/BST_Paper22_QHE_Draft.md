@@ -177,3 +177,30 @@ The quantum Hall effect is counting. It always was. The integers it counts are $
 ---
 
 *Paper #22 v1. April 4, 2026. Three new theorems: T813 (Laughlin-Bergman), T814 (Jain from Rank), T815 (Termination at $n_C$). Data backbone: Toy 857 (10/10 PASS). Target: Physical Review Letters.*
+
+---
+
+## Keeper Audit (April 4, 2026)
+
+**Verdict: CONDITIONAL PASS — 5 must-fix items, 1 CRITICAL**
+
+### MUST-FIX
+
+1. **(CRITICAL) HC parameter contradiction (line 116)**: Paper states m₀ = n_C − 1 = 4, but m = 3 (ν = 1/3) is below threshold. For SO₀(5,2), discrete series threshold is λ ≥ p/2 = 5/2. Smallest odd integer ≥ 5/2 is N_c = 3. **Fix: m₀ = N_c = 3, not n_C − 1 = 4.** This is STRONGER: Laughlin ground state IS 1/N_c because N_c is the minimum discrete series weight.
+
+2. **References**: Add ~15-25 references. Required: Tsui-Störmer-Gossard 1982, Laughlin 1983, Jain 1989, Pan et al. 1999 (ν=5/2), Wyler 1969, BST repo.
+
+3. **Line 133**: Rewrite "each the dimension of an irreducible SO(2n+1) representation at rank n" → "each equaling 2n+1, the dimension of the defining representation of SO(2n+1)."
+
+4. **§3.1 proof tightening**: Show one explicit equation mapping Bergman kernel weight to Laughlin exponent. Currently asserted, not demonstrated.
+
+5. **Line 42**: "State" �� "Weight m" in Laughlin table header.
+
+### MINOR (not blocking)
+- §4 cross-domain table: shorten for PRL word limit
+- Line 120: "QED" → □
+- Even m gives bosonic Laughlin states — note for completeness
+
+**Data verified**: Toy 857 (10/10 PASS), 26/28 coverage confirmed. All spacing ratios EXACT. All BST integer identifications correct. Theorem numbers T813-T815 confirmed in registry.
+
+**Once MF-1 is resolved, this is PRL-ready.**
