@@ -14221,7 +14221,7 @@ The series closes at Bergman genus $g = 7$ because $D_{IV}^5$ has no independent
 
 **Statement.** *(i) $\mu(\text{H}_2\text{O}) = e a_0 \sqrt{g/13} = e a_0 \sqrt{7/13}$ ($0.56\%$). (ii) $\mu(\text{HF})/\mu(\text{HCl}) = g/N_c = 7/3$ ($0.3\%$). (iii) $\mu(\text{NH}_3)/\mu(\text{H}_2\text{O}) = g/n_C - \text{rank}/(g \cdot n_C)$ ($0.3\%$). The dipole hierarchy walks the same integer ladder as electronegativity differences. $(C = 2, D = 0)$.*
 
-**AC(0) depth: 0.** *Domain: chemical_physics. Deps: T730, T788. Toy 800 (reported, file pending).*
+**AC(0) depth: 0.** *Domain: chemical_physics. Deps: T730, T788. Toy 801b (Elie, 8/8).*
 
 ---
 
@@ -14231,7 +14231,7 @@ The series closes at Bergman genus $g = 7$ because $D_{IV}^5$ has no independent
 
 **Statement.** *(i) $\chi(\text{Au})/\chi(\text{Ag}) = (2N_c^2 - 1)/(2^{\text{rank}} N_c) = 17/12$ (EXACT). (ii) $\chi_{\text{para}}(\text{Al}) = C_2/(N_{\max} N_c) = 6/411$ ($0.02\%$). (iii) $\chi(\text{Bi})/\chi(\text{Cu}) = (N_c^2 + \text{rank})^2/g = 121/7$ ($0.27\%$). The 3/2 ratio appears in both density and susceptibility. $(C = 2, D = 0)$.*
 
-**AC(0) depth: 0.** *Domain: chemical_physics. Deps: T796, T719. Toy 801 (8/8).*
+**AC(0) depth: 0.** *Domain: chemical_physics. Deps: T796, T719. Toy 801 (Lyra, 8/8).*
 
 ---
 
