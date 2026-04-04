@@ -52,7 +52,7 @@ abstract: |
   with zero free parameters.
   The CMB spectral index $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($0.3\sigma$ from Planck),
   with tensor-to-scalar ratio $r \approx 0$ (no primordial B-modes), are derived from the phase transition dynamics.
-  Over 370 parameter-free predictions, structural derivations, and experimental forecasts are presented (§43), all testable against current or near-future data — including the fractional quantum Hall effect (26/28 observed FQHE fractions are BST rationals: $1/3, 2/5, 3/7 = 1/N_c, 2/n_C, 3/g$ at 10+ significant figures; T813-T815, Paper \#22), the BCS superconducting gap ratio $2\Delta/(k_B T_c) = g/\text{rank} = 7/2$ (0.79\%), the Kolmogorov turbulence spectrum $5/3 = n_C/N_c$ and all four She-Leveque intermittency parameters as BST rationals (T818), the Chandrasekhar mass $M_{\text{Ch}}/M_\odot = C_2^2/n_C^2 = 36/25 = 1.44$ EXACT (Toy 850), cross-domain fraction universality with 11 BST fractions each appearing in 3-5 independent domains at $P(\text{coincidence}) < 10^{-66}$ (T823), the primordial scalar amplitude $A_s = (3/4)\alpha^4$ (0.92$\sigma$), molecular geometry from bond angles to the genetic code (H₂O bond angle 0.028°, C-C bond length 0.03%, ice density 0.006%), all 230 space groups from three integers ($g \times 2^{n_C} + C_2$), the complete $\alpha$-helix geometry (five parameters, zero free inputs), the cooperation threshold $f_{\text{crit}} = 20.6\%$, QED perturbation coefficients as BST integer arithmetic (T758-T762), the rainbow angle $C_2 \times g = 42°$ (0.07%), water boiling point $= N_{\max} \times T_{\text{CMB}}$ (0.065%), noble gas boiling points as integer multiples of $T_{\text{CMB}}$ (Kr at 0.005%), heat capacity ratios as BST integer ratios ($\gamma = (f + \text{rank})/f$), and 66 material property domains including density, elasticity, resistivity, thermal expansion, work functions, Debye temperatures, compressibility, critical points, solubility, molar volumes, magnetic susceptibility, melting points, atomic radii, sound velocities, thermal conductivity, ionization energies, electronegativity, surface tension, viscosity, specific heat, dielectric constants, lattice parameters, cohesive energies, Fermi energies, band gaps, superconducting $T_c$ ratios, and London penetration depths — all as BST rationals with zero free parameters (T798-T865).
+  Over 380 parameter-free predictions, structural derivations, and experimental forecasts are presented (§43), all testable against current or near-future data — including the fractional quantum Hall effect (26/28 observed FQHE fractions are BST rationals: $1/3, 2/5, 3/7 = 1/N_c, 2/n_C, 3/g$ at 10+ significant figures; T813-T815, Paper \#22), the BCS superconducting gap ratio $2\Delta/(k_B T_c) = g/\text{rank} = 7/2$ (0.79\%), the Kolmogorov turbulence spectrum $5/3 = n_C/N_c$ and all four She-Leveque intermittency parameters as BST rationals (T818), the Chandrasekhar mass $M_{\text{Ch}}/M_\odot = C_2^2/n_C^2 = 36/25 = 1.44$ EXACT (Toy 850), cross-domain fraction universality with 11 BST fractions each appearing in 3-5 independent domains at $P(\text{coincidence}) < 10^{-66}$ (T823), the primordial scalar amplitude $A_s = (3/4)\alpha^4$ (0.92$\sigma$), molecular geometry from bond angles to the genetic code (H₂O bond angle 0.028°, C-C bond length 0.03%, ice density 0.006%), all 230 space groups from three integers ($g \times 2^{n_C} + C_2$), the complete $\alpha$-helix geometry (five parameters, zero free inputs), the cooperation threshold $f_{\text{crit}} = 20.6\%$, QED perturbation coefficients as BST integer arithmetic (T758-T762), the rainbow angle $C_2 \times g = 42°$ (0.07%), water boiling point $= N_{\max} \times T_{\text{CMB}}$ (0.065%), noble gas boiling points as integer multiples of $T_{\text{CMB}}$ (Kr at 0.005%), heat capacity ratios as BST integer ratios ($\gamma = (f + \text{rank})/f$), and 66 material property domains including density, elasticity, resistivity, thermal expansion, work functions, Debye temperatures, compressibility, critical points, solubility, molar volumes, magnetic susceptibility, melting points, atomic radii, sound velocities, thermal conductivity, ionization energies, electronegativity, surface tension, viscosity, specific heat, dielectric constants, lattice parameters, cohesive energies, Fermi energies, band gaps, superconducting $T_c$ ratios, and London penetration depths — all as BST rationals with zero free parameters (T798-T866).
 documentclass: article
 classoption:
   - 12pt
@@ -92,7 +92,7 @@ These five integers are not independent: $C_2 = n_C + 1$, $g = 2n_C - 3$, $N_c =
 
 **The universe is the bounded symmetric domain $D_{IV}^5$. Its algebraic field is $\overline{\mathbb{Q}}(3, 5, 7, 6, 137)[\pi]$.**
 
-Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB, fractional quantum Hall fractions, turbulence exponents, superconducting gap ratios — every one of the 370+ predictions is a sentence written in that field on that geometry. Five integers ($N_c = 3$, $n_C = 5$, $g = 7$, $C_2 = 6$, $N_{\max} = 137$) and one transcendental ($\pi$, forced by curvature). No free parameters.
+Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB, fractional quantum Hall fractions, turbulence exponents, superconducting gap ratios — every one of the 380+ predictions is a sentence written in that field on that geometry. Five integers ($N_c = 3$, $n_C = 5$, $g = 7$, $C_2 = 6$, $N_{\max} = 137$) and one transcendental ($\pi$, forced by curvature). No free parameters.
 
 The geometry tells you WHAT exists. The field tells you WHAT VALUES it takes. Together: the complete specification of a universe.
 
@@ -3915,7 +3915,7 @@ The library so far:
 | Topology | 6 proved | `notes/BST_AC0_Topology.md` |
 | Number theory | Active | `notes/BST_AC0_NumberTheory.md` |
 | Geometry | Planned | `notes/BST_AC0_Geometry.md` |
-| Proof complexity | 823 theorems (T1-T823) | `notes/BST_AC_Theorem_Registry.md` |
+| Proof complexity | 826 theorems (T1-T826) | `notes/BST_AC_Theorem_Registry.md` |
 | Graph theory / Four-Color | 3 (T154-T156) | Conservation of Color Charge, cross-link bound, AC proof of 4CT |
 | AC(0) foundations | 10 recovery (T73-T82) | Nyquist, Pinsker, Shearer, R-D, K41, chain rule, Kraft, LLL, Boltzmann-Shannon, spectral mixing |
 | Meta-theorems | 6 (T88-T93) | P$\neq$NP chain is AC(0), BSW, Kato, all 9 Millennium-class proofs AC(0), AC(0) Completeness, Gödel |
@@ -4559,10 +4559,22 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |**FQHE Jain+ sequence**  |$1/N_c, 2/n_C, 3/g, 4/N_c^2 = 1/3, 2/5, 3/7, 4/9$|26/28 observed = BST|$\checkmark$ **EXACT** (T814)|
 |**FQHE spacing ratios**  |$\Delta\nu_1/\Delta\nu_2 = g/N_c = 7/3$; $\Delta\nu_2/\Delta\nu_3 = N_c^2/n_C = 9/5$|Measured|$\checkmark$ **EXACT** (T814)|
 |**FQHE even-denominator**  |$\nu = n_C/\text{rank} = 5/2$; Moore-Read Pfaffian on $D_{IV}^5$|$5/2$ (observed)|$\checkmark$ **EXACT** (T815)|
-|**BCS gap ratio** $2\Delta/(k_B T_c)$  |$g/\text{rank} = 7/2 = 3.500$|$3.528$ (BCS theory)|$\checkmark$ 0.79% (Toy 862)|
-|**Superconductor** La/Hg  |$C_2^2/n_C^2 = 36/25$; = Chandrasekhar limit|$1.44$|$\checkmark$ EXACT (Toy 862)|
-|**Superconductor** YBCO/Nb  |$n_C \times \text{rank} = 10$|$\approx 10$|$\checkmark$ (Toy 863)|
-|Type I/II boundary $\kappa$  |$1/\sqrt{\text{rank}} = 1/\sqrt{2}$; rank of $D_{IV}^5$ determines topological class|$1/\sqrt{2}$ (Ginzburg-Landau)|$\checkmark$ **EXACT** (Toy 865)|
+|**BCS gap ratio** $2\Delta/(k_B T_c)$  |$g/\text{rank} = 7/2 = 3.500$|$3.528$ (BCS theory)|$\checkmark$ 0.79% (T824)|
+|**BCS specific heat jump** $\Delta C/(\gamma T_c)$  |$(N_c^2 + 2^{\rm rank})/N_c^2 = 13/9$|$1.43$ (BCS)|$\checkmark$ 1.01% (T824)|
+|**Superconductor** Nb/Pb  |$N_c^2/g = 9/7$|$1.286$|$\checkmark$ 0.06% (T824)|
+|**Superconductor** Pb/Sn  |$n_C g/(N_c C_2) = 35/18$|$1.933$|$\checkmark$ 0.60% (T824)|
+|**Superconductor** Nb/Al  |$(g^2 + C_2)/g = 55/7$|$7.839$|$\checkmark$ 0.23% (T824)|
+|**Superconductor** La/Hg  |$C_2^2/n_C^2 = 36/25$; = Chandrasekhar limit|$1.446$|$\checkmark$ 0.40% (T824)|
+|**Superconductor** V/Ta  |$N_c^2/2^{N_c} = 9/8$|$1.123$|$\checkmark$ 0.20% (T824)|
+|**High-$T_c$** YBCO/Nb  |$n_C \times \text{rank} = 10$|$10.054$|$\checkmark$ 0.54% (T825)|
+|**High-$T_c$** Hg-1223/YBCO  |$(N_c^2 + 2^{\rm rank})/N_c^2 = 13/9$|$1.430$|$\checkmark$ 1.00% (T825)|
+|**High-$T_c$** H₃S/Hg-1223  |$N_c/\text{rank} = 3/2$|$1.526$|$\checkmark$ 1.72% (T825)|
+|**High-$T_c$** LaH₁₀/YBCO  |$2^{N_c}/N_c = 8/3$|$2.688$|$\checkmark$ 0.80% (T825)|
+|**High-$T_c$** CuO₂ layer rule  |$g/C_2 = 7/6$ per added layer|$1.183$ (Bi-2223/YBCO)|$\checkmark$ 1.36% (T825)|
+|**High-$T_c$** $T_{c,\rm max}$ (ambient)  |$N_{\max} \times T_{\rm CMB} \approx 373$ K|Prediction (untested)|falsifiable (T825)|
+|Type I/II boundary $\kappa$  |$1/\sqrt{\text{rank}} = 1/\sqrt{2}$; rank of $D_{IV}^5$ determines topological class|$1/\sqrt{2}$ (Ginzburg-Landau)|$\checkmark$ **EXACT** (T826)|
+|Coherence $\xi_0(\text{Al})/\xi_0(\text{Nb})$  |$C_2 \times g = 42$|$42.1$|$\checkmark$ 0.25% (T826)|
+|Coherence $\xi_0(\text{Nb})/\xi_0(\text{YBCO})$  |$n_C^2 = 25$|$25.3$|$\checkmark$ 1.32% (T826)|
 |Chandrasekhar limit $M_{\rm Ch}/M_\odot$  |$C_2^2/n_C^2 = 36/25 = 1.44$|$1.44\;M_\odot$|$\checkmark$ **EXACT** (Toy 850)|
 |NS moment of inertia $I/(MR^2)$  |$g/(2^{\rm rank} n_C) = 7/20 = \alpha_s$|$\approx 0.35$|$\checkmark$ (Toy 852)|
 |K41 turbulence spectrum  |$n_C/N_c = 5/3$|$5/3$ (Kolmogorov)|$\checkmark$ **EXACT** (T818)|
@@ -5087,7 +5099,7 @@ Entropy production drives the active phase (thermodynamic gradient — the reaso
 
 ### §46. The Depth Ceiling: Rank Bounds Proof Complexity
 
-The AC(0) program (§31-§42) classifies mathematical theorems by their proof depth — the number of sequential genuine counting operations. After depth reduction (T96), all 823 theorems in the catalog fall at depth $\leq 2$, with zero exceptions. (T93/Gödel was originally classified at depth 3 but reduces to depth 1 under T96: diagonalization = substitution = definition; case analysis = bounded enumeration. Keeper audit, Toy 461.) This section proves the bound is structural, not accidental.
+The AC(0) program (§31-§42) classifies mathematical theorems by their proof depth — the number of sequential genuine counting operations. After depth reduction (T96), all 826 theorems in the catalog fall at depth $\leq 2$, with zero exceptions. (T93/Gödel was originally classified at depth 3 but reduces to depth 1 under T96: diagonalization = substitution = definition; case analysis = bounded enumeration. Keeper audit, Toy 461.) This section proves the bound is structural, not accidental.
 
 **§46.1 The Rank-Depth Theorem.** The maximum AC(0) depth of any computation on a bounded symmetric domain $D$ of rank $r$ is at most $r$.
 
