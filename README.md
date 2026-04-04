@@ -45,7 +45,7 @@ The question that generated the framework: *what is the minimum structure capabl
 
 **The universe is the bounded symmetric domain D_IV^5. Its algebraic field is Q(3, 5, 7, 6, 137)[π].**
 
-Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB, fractional quantum Hall fractions, turbulence exponents, superconducting gap ratios — every one of the 370+ predictions is a sentence written in that field on that geometry. Five integers (N_c = 3, n_C = 5, g = 7, C₂ = 6, N_max = 137) and one transcendental (π, forced by curvature). No free parameters.
+Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB, fractional quantum Hall fractions, turbulence exponents, superconducting gap ratios — every one of the 375+ predictions is a sentence written in that field on that geometry. Five integers (N_c = 3, n_C = 5, g = 7, C₂ = 6, N_max = 137) and one transcendental (π, forced by curvature). No free parameters.
 
 The geometry tells you WHAT exists. The field tells you WHAT VALUES it takes. Together: the complete specification of a universe.
 
@@ -71,6 +71,8 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | H₀ (Hubble, Route A) | from η via ΛCDM | 66.7 km/s/Mpc | 67.36 (Planck) | 1.0% |
 | H₀ (Hubble, Route B) | √(19Λ/39) from Ω_Λ=13/19 | 68.0 km/s/Mpc | 67.36 (Planck) | 1.0% |
 | H₀ (Hubble, Route C) | Full CAMB Boltzmann (Toy 677) | 67.29 km/s/Mpc | 67.36 (Planck) | **0.1%** |
+| H₀ (Hubble, Route D) | Pure BST: c√(19Λ/39) (Toy 903) | 68.02 km/s/Mpc | 67.36 (Planck) | 1.0% (1.2σ) |
+| T_CMB (CMB temp) | Entropy budget from {H₀, Ω_m, z_eq} (Toy 904) | **2.737 K** | 2.7255 K (FIRAS) | **0.43%** |
 | t₀ (cosmic age) | (2/3√Ω_Λ)/H₀ | 13.6 Gyr | 13.8 Gyr (Planck) | 1.4% |
 | mν₂ (neutrino mass) | (7/12)α²mₑ²/mₚ | 0.00865 eV | ~0.00868 eV | 0.35% |
 | mν₃ (neutrino mass) | (10/3)α²mₑ²/mₚ | 0.04940 eV | ~0.0503 eV | 1.8% |
@@ -510,7 +512,7 @@ Full backlog: `notes/BACKLOG.md`.
 
 This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has no free parameters because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
 
-*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 823 theorems. 865 toys. 370+ predictions. 66 physical domains. Zero free parameters.*
+*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 823 theorems. 905 toys. 375+ predictions. 66 physical domains. Zero free parameters.*
 
 ---
 

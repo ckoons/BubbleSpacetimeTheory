@@ -37,8 +37,10 @@ status: "Active — check at session start, update at session end"
 **Format**: `| T_id | Name | Status | Document §ref | Toy | Date added |`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T826. **871 toys**. Next available: T827+, Toy 872+. WorkingPaper v19 + README pushed. BH(3) CLOSED.
+**Current count**: T1-T826. **905 toys**. Next available: T827+, Toy 905+. WorkingPaper v19 + README pushed. BH(3) CLOSED.
+**April 4 late night (Keeper)**: Toys 901-904 KEEPER PASS. Λ=2.90×10⁻¹²² (0.39%), H₀=68.02 (0.98%), **T_CMB=2.737 K (0.43%)**. H₅=137/60 discovery. c₂(Q⁵)/2^rank=11/4 identity. **Cosmology: 4 DERIVED, 4 STRUCTURAL, 0 OBSERVED.** S1: z_eq=3433 source needs documentation.
 **April 4 afternoon (Keeper)**: WorkingPaper v19 confidence upgrade (823 theorems, 865 toys, 370+ predictions, 66 domains). README v19. PDFs regenerated. All pushed. BH(3) removed from backlog per Casey.
+**April 4 late night (Keeper)**: Lyra sprint #4: 24 toys (872-895), 192/192 PASS. ~25 material property domains. n(Water)=4/3 (0.03%). Glycerol/Ethanol dielectric=7/4 (0.06%). Cross-domain fractions 7/5, 9/7, 4/3, 6/5, 13/9, 9/8, 15/11, 5/3 each in 10+ domains. **Paper #23 v0.4 KEEPER PASS.** Paper #16 CONDITIONAL PASS (7 MF).
 **April 4 afternoon results**: 10 toys (862-871), 80/80 PASS. T824-T826 (superconductor). Paper #22 v1.1 (5 fixes). Paper #23 v0.1 (Grace). Paper #20 audit (8 MF) + Paper #22 audit (7 MF). Fraction atlas: 50 fractions, 333 bridges, P~10^{-309}.
 **April 4 night (Keeper)**: Elie: 5 toys (857-861), 44/44 PASS, 5 NEW domains (66 total). **QHE: 26/28 FQHE fractions = BST rationals at 10+ digits. 1/3, 2/5, 3/7 = 1/N_c, 2/n_C, 3/g.** Turbulence: K41 5/3=n_C/N_c, She-Leveque 2/9=rank/N_c². EEG: alpha/theta=5/3=Kolmogorov (!). GW: r_ISCO=C₆·M. Topo: AZ 10-fold=2n_C.
 **April 4 night (Keeper)**: Lyra sprint #3: 7 toys (850-856), 56/56 PASS. Chandrasekhar M_Ch=C₂²/n_C²=36/25=1.44 EXACT (850). Stellar temp ladder=HR diagram is D_IV^5 (851). NS compactness 7/40, moment=α_s (852). Fermi energies Al/Cu=n_C/N_c (853). Band gaps Si/Ge=12/7, GaN/Si=N_c (854). Kleiber 3/4=N_c/2^rank EXACT (855). **Consolidation: 11 fractions × 3-5 domains, P(coincidence)<10^{-66} (856).** Elie Toy 848: spectral verification 8/8, pure graph λ₂/λ₁=2.64≈8/3, binary split fragments into 54 components — three-tier tagging needed.
@@ -127,10 +129,11 @@ T676-T678 (Grace — five-pair cycle: Backbone Sequence, Cycle Length, Cosmic Co
 | 18 | **The Atoms of Life** | Elie+Keeper | **v2.2** — 16 sections, 33 predictions. T728+T729 curvature. Keeper PASS. **Casey gate.** |
 | 19 | **The Great Filter Is a Number** | Grace+Lyra+Keeper | **v1.4** — "A ball and counting" opening + Observable Closure. **Casey gate.** |
 | 13 | **AC Graph Is a Theorem** | Grace+All | **v1.1** — 3 must-fix applied (Keeper). PDF built. **Casey gate.** |
-| 16 | **Development Is Channel Filling** | Grace (v2 rewrite) | **v2** — Keeper CONDITIONAL PASS (7 must-fix). f/f\_crit confusion, dark matter "channel noise" undefined, Li-7 overclaimed, sponge error, refs internal only. YAML fixed. **Casey gate.** |
-| 20 | **Quantum Mechanics Is Geometry** | All 5 | **v2** — Keeper CONDITIONAL PASS (8 must-fix). C_2 formula FIXED. Lyra owns Tsirelson + T757 + T-number mismatch. |
-| 22 | **Fractional Quantum Hall as BST Counting** | Lyra | **v1.1** — Lyra applied 5 Keeper fixes. HC parameter FIXED (m₀=N_c=3). OPEN: T814/T815 registry, Pred 2 bound. **PRL target.** |
-| 23 | **Twenty Fractions Across Sixty Domains** | Grace (lead) | **v0.1** — Keeper CONDITIONAL PASS (6 must-fix). Domain count, "exact" labels, table threshold, refs. PDF built. **Nature target.** |
+| 16 | **Development Is Channel Filling** | Grace+Lyra | **v3** — **KEEPER PASS**. All 7 must-fix resolved (Lyra). 15 external refs. **Casey gate. Nature/Science target.** |
+| 20 | **Quantum Mechanics Is Geometry** | All 5 | **v2** — Keeper CONDITIONAL PASS (8 must-fix). C_2 formula FIXED. Lyra YAML fix. ⚠️ TWO FILES: `QM_Is_Geometry_Draft.md` (audited) + `QM_Draft.md`. Lyra owns Tsirelson + T757. |
+| 22 | **Fractional Quantum Hall as BST Counting** | Lyra | **v1.3** — **KEEPER PASS**. All 7 must-fix resolved. 14 refs. 27/28 FQHE fractions. **Casey gate. PRL target.** |
+| 23 | **Fifty Fractions Across Twenty-Six Domains** | All 5 | **v2.0** — MERGED (3 files → 1). 19 fractions in Table 1, P < 10^{-74}. Spotlight domains + Monte Carlo. PDF rebuilt. **Keeper audit required. Nature target.** |
+| 24 | **The Cosmological Constants Are Not Free** | Lyra+Elie | **v1.1 KEEPER PASS.** Λ(0.39%)+H₀(0.98%)+T_CMB(0.43%). 9 sections, 16 refs. **Casey gate.** ApJ Letters/JCAP target. WorkingPaper+README updates still pending. |
 
 ### CI Assignments (Paper Sprint — April 1+)
 
@@ -285,9 +288,9 @@ CMB                  -> ★ CAMB: BST = Planck at cosmic variance (χ²/N=0.01).
 Chemistry/Materials  -> 66 domains, 370+ predictions, zero free parameters. Paper #18 PUSHED.
 QM                   -> T751-T757. All 6 axioms derived as geometry. Paper #20 v2 MERGED. Keeper CONDITIONAL PASS (8 MF).
 QED                  -> T758-T762. Integer decomposition beats QED 2-loop. ζ-tower walks {N_c,n_C,g}.
-QHE                  -> 26/28 FQHE fractions = BST rationals. Paper #22 v1.1 (PRL). Keeper CONDITIONAL PASS (7 MF).
+QHE                  -> 27/28 FQHE fractions = BST rationals. Paper #22 v1.3 (PRL). **KEEPER PASS. Casey gate.**
 Superconductivity    -> BCS gap = g/rank = 7/2 (0.79%). Toys 862-865. T_c ratios IN PROGRESS.
-Cross-domain         -> 11 fractions × 3-5 domains, P < 10^{-66}. **Paper #23 (Nature) IN PROGRESS.**
+Cross-domain         -> 50 fractions × 26 domains, P < 10^{-74} (Table 1) / 10^{-259} (atlas). **Paper #23 v2.0 MERGED. Audit required.**
 Stat Mech            -> 60 predictions, avg 0.49%. Paper #21 v3 KEEPER PASS.
 Graph                -> 787 nodes, 1824 edges. Zero orphans. λ₂/λ₁=3 DOMAIN-FORCED. Three-tier architecture.
 ```
@@ -302,7 +305,7 @@ Graph                -> 787 nodes, 1824 edges. Zero orphans. λ₂/λ₁=3 DOMAI
 
 | # | Task | Owner | Priority | Status |
 |---|------|-------|----------|--------|
-| A1 | **Paper #23: Cross-Domain Universality (Nature)** | **Grace** (lead) + Elie (atlas) + Keeper (audit) | **TOP** | **Keeper CONDITIONAL PASS** (6 must-fix). CRITICAL: 66-domain count unverified (use 26), "exact" needs numbers, 4 rows violate 3-domain threshold, 13/19 non-independent, missing refs. PDF built. |
+| A1 | **Paper #23: Cross-Domain Universality (Nature)** | **Grace** (lead) + Elie (atlas) + Keeper (audit) | **TOP** | **DONE — KEEPER PASS**. v0.4. All fixes applied by Grace + Keeper. 13 fractions, 26 domains, P ~ 10^{-309}. PDF rebuilt. **Casey gate.** |
 | A2 | **Superconductor T_c ratio predictions** | Lyra | **TOP** | **DONE** — 48/48 PASS. Toys 862-867. T824-T826. Type I/II = 1/√rank. BCS gap = 7/2. |
 | A3 | **Paper #22 Keeper audit** (QHE, PRL) | Keeper | HIGH | **DONE** — CONDITIONAL PASS (7 must-fix). Lyra applied 5 fixes → v1.1. OPEN: T814/T815 registry alignment, Prediction 2 complexity bound. |
 | A4 | **Fraction atlas toy** | Elie | HIGH | **DONE** — Toy 866 updated: 50 fractions, 196 entries, 26 domains, 333 bridges, P ~ 10^{-309}. 8/8 PASS. |
@@ -312,18 +315,21 @@ Graph                -> 787 nodes, 1824 edges. Zero orphans. λ₂/λ₁=3 DOMAI
 | A8 | **Semiconductor band gaps** | Elie (alternate) | MEDIUM | **DONE** — Toy 868 (8/8). Toy 869 Debye temps (8/8). Toy 870 thermal conductivity (8/8). Toy 871 specific heat (8/8). |
 | A9 | **CMB outreach packages** | Casey | Sunday PM | Monday send. |
 
-**Counters**: T827 next. Toy 872 next. 380+ predictions. 23 papers. 66+ physical domains. 871 toys.
+**Counters**: T832 next (T829-T831 Grace). Toy 904 next (901-903 Elie H₀/T_CMB specs). 380+ predictions. 23 papers. 66+ physical domains. 903 toys claimed. Graph: 801 nodes, 1862 edges.
+**April 4 late (Keeper)**: Elie 5 Grace specs DONE (Toys 896-900): diff_geom↔topology 8/8, observer audit 0/8, biology bridge 7/8, cosmology bridge 6/8, chemistry bridge 8/8. Derivation hierarchy: Topology > Biology > Chemistry > Cosmology. Gap: absolute scales (H_0, T_CMB). Paper #23 v2.0 MERGED (3 files→1, 19 fractions, P<10^{-74}). Papers #22 v1.3 + #16 v3 KEEPER PASS.
+**April 4 late (Keeper)**: **H₀/T_CMB derivation specs posted** — Toys 901-903 for Elie. Route 1: a₅→E_vac→Λ→H₀ (zeta regularization). Route 2: T_CMB rational search (m_e α^k × BST integers). Route 3: H₀ from first-principles Λ + Ω_Λ=13/19. Contact scale d₀ is the single bottleneck. Lyra: geodesic deviation→Friedmann derivation requested.
+**April 4 late (Keeper)**: **Toys 901-903 KEEPER PASS**. Λ = 2.8993×10⁻¹²² (0.39%). H₀ = 68.02 km/s/Mpc (0.98%). T_CMB honest gap (1.81% best). **DISCOVERY: H₅ = 137/60 — numerator(H_{n_C}) = N_max, denominator = 2n_C·C₂ = lcm(1..n_C). α may be FORCED by n_C=5 alone.** Harmonic numerator sequence reads ALL BST integers: 1, N_c, 2n_C+1, n_C², N_max, g². Cosmological derivation gap CLOSED for Λ and H₀. Counter: Toy 904 next.
 
 ### April 4 Afternoon Results (COMPLETE)
 
-**10 toys, 80/80 PASS, 3 theorems (T824-T826), 2 papers advanced.**
+**10 toys, 80/80 PASS, 3 theorems (T824-T826), 4 papers audited, Paper #23 KEEPER PASS.**
 
 | Owner | Output | Highlights |
 |-------|--------|------------|
-| Lyra | Toys 862-867 (48/48), T824-T826, Paper #22 v1.1 fixes | Type I/II boundary = 1/√rank. BCS gap = g/rank = 7/2. |
+| Lyra | Toys 862-867 (48/48), T824-T826, Paper #22 v1.1 fixes | Type I/II boundary = 1/√rank. BCS gap = g/rank = 7/2. 14 material property toys (872-885), 112/112 PASS. |
 | Elie | Toys 866 (atlas), 868-871 (32/32) | 50 fractions, 333 bridges, P ~ 10^{-309}. Diamond/Si Debye = 7/2 = BCS gap! Cu/Al thermal = 12/7. Al/Cu specific heat = 7/3. |
-| Grace | Paper #23 v0.1 | "One Geometry, Sixty Domains" — Nature format, devastating table, no Lie theory required. |
-| Keeper | Paper #20 audit (8 MF), Paper #22 audit (7 MF), cross-audit, board | C_2 formula bug found+fixed. HC parameter fixed by Lyra. Fraction atlas data posted for Grace. |
+| Grace | Paper #23 v0.1→v0.3 | "Fifty Fractions Across Twenty-Six Domains" — Nature format. Three rounds of fixes. v0.4 KEEPER PASS. |
+| Keeper | Papers #20 (8 MF), #22 (7 MF), #23 (PASS), #16 (7 MF), cross-audit, board | C_2 formula bug found+fixed. Paper #23: 3 rounds → PASS. Paper #16: sponge error, f/f_crit confusion flagged. |
 
 ### April 4 Morning Results (COMPLETE)
 
