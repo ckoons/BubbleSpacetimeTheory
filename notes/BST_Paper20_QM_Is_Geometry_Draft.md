@@ -68,7 +68,7 @@ Those five numbers are not chosen. They are consequences of the ball's shape —
 | N_c | 3 | Independent color charges (why quarks come in threes) |
 | n_C | 5 | Complex dimensions of the space |
 | g | 7 | Genus of the Bergman kernel (= n_C + rank) |
-| C_2 | 6 | Casimir eigenvalue (= n_C(n_C - 1)/rank·rank!) |
+| C_2 | 6 | Casimir eigenvalue (first eigenvalue of Laplacian on Q^5) |
 | rank | 2 | Independent spectral directions |
 
 No physicist chose these values. They follow from topology the way "1 hole" follows from being a donut. Everything in this paper — quantization, the wave function, the Born rule, the uncertainty principle — comes from these five integers and nothing else.
@@ -582,9 +582,9 @@ Two generations of physicists built careers interpreting axioms that were theore
 
 **Verdict: CONDITIONAL PASS**
 
-Paper #20 is the strongest narrative in the BST canon. The six-axiom → six-theorem structure is clean and compelling. The periodic table section (§11) is a knockout for general readers. Five must-fix items before submission.
+Paper #20 is the strongest narrative in the BST canon. The six-axiom → six-theorem structure is clean and compelling. The periodic table section (§11) is a knockout for general readers. Eight must-fix items before submission (5 original + 3 from cross-audit).
 
-### MUST-FIX (5 items)
+### MUST-FIX (8 items)
 
 **M1. §9 Tsirelson bound claim — PROOF MISSING (lines 360-364)**
 The paper states "|S|\_max = 2√2 corresponds to maximum holonomy around a geodesic triangle on D\_IV^5." This is asserted without proof or toy reference. The Tsirelson bound is well-known, but deriving it FROM D\_IV^5 holonomy is a nontrivial claim. Either: (a) add a proof sketch showing the holonomy calculation, (b) reference a verification toy, or (c) soften to "consistent with" rather than "corresponds to." A reviewer will flag this immediately.
@@ -600,6 +600,15 @@ Every other section has a theorem number (T751-T757). The decoherence result ("e
 
 **M5. §13.2 Prediction #10 — UNDERSELLS (line 501)**
 "α = 1/N\_max ≈ 1/137" is the roughest possible statement. The actual BST prediction (Wyler formula) gives α⁻¹ = 137.0360... matching experiment to 6+ significant figures. Stating "≈ 1/137" invites the response "so does any theory that notices 1/137." Either cite the full derivation (Working Paper §X) or give the precise value. This is one of BST's crown jewels — don't bury it.
+
+**M6. §2.1 C_2 formula — WRONG (line 71) [FIXED IN THIS AUDIT]**
+The original formula `C_2 = n_C(n_C - 1)/rank·rank!` gives 5·4/(2·2) = 5, not 6. **Already corrected** in this file to "first eigenvalue of Laplacian on Q^5." Verify no other occurrence of the wrong formula.
+
+**M7. Theorem numbers T755/T756/T757 — REGISTRY MISMATCH (§§7-9)**
+The paper assigns T755 = Time Evolution, T756 = Composition, T757 = Entanglement. But the canonical registry has T755 = Entanglement as Geodesic Coupling, T756 = Decoherence as Ergodic Mixing, T757 = QM Linearization Completeness. Either: (a) register new T-numbers for Time Evolution and Composition, then relabel §9 entanglement back to T755, or (b) update the registry. Option (a) is safer — the registry is the source of truth.
+
+**M8. §9 Entanglement entropy normalization — DROPPED QUALIFIER (line 357)**
+The paper states S\_ent = d\_B(z\_A, z\_B) as exact equality. The canonical theorem (T755 in registry) says "up to normalization by ln 2." Add the qualifier.
 
 ### SHOULD-FIX (3 items)
 

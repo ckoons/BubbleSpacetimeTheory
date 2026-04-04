@@ -113,7 +113,7 @@ The holomorphic part $\prod(z_i - z_j)^m$ is a section of $\mathcal{L}^{\otimes 
 
 The key identification: the Bergman kernel $K(z,w)$ on $D_{IV}^5$ reproduces holomorphic sections. Its weight-$m$ restriction $K_m(z,w)$ projects onto the $m$-th discrete series representation $\pi_m$ of $\mathrm{SO}_0(5,2)$. The Laughlin state at $\nu = 1/m$ IS the ground state of $\pi_m$.
 
-The discrete series of $\mathrm{SO}_0(5,2)$ exists for weights $m \geq m_0$ where $m_0 = n_C - 1 = 4$ is the Harish-Chandra parameter. But the FQHE requires fermionic antisymmetry ($m$ odd) and the Pauli exclusion principle (no repeated coordinates). The allowed weights are:
+The holomorphic discrete series of $\mathrm{SO}_0(5,2)$ exists for weights $m \geq k_{\min}$ where $k_{\min} = \lceil(n_C + 1)/2\rceil = N_c = 3$ is the Wallach set threshold. The FQHE requires fermionic antisymmetry ($m$ odd) and the Pauli exclusion principle (no repeated coordinates). Since $k_{\min} = N_c = 3$ is already odd, the allowed weights are:
 
 $$m \in \{3, 5, 7, 9, 11, 13, \ldots\} = \{N_c, n_C, g, N_c^2, 2n_C+1, 2C_2+1, \ldots\}$$
 
@@ -144,11 +144,12 @@ The QHE fractions connect to other BST domains:
 
 | Fraction | QHE meaning | Other domain |
 |----------|-------------|--------------|
-| $7/3 = g/N_c$ | Spacing ratio $\Delta\nu_1/\Delta\nu_2$ | Diatomic $\gamma = 7/5 \times N_c/n_C$ |
+| $7/3 = g/N_c$ | Spacing ratio $\Delta\nu_1/\Delta\nu_2$ | Specific heat Al/Cu = $g/N_c$ (Toy 871) |
 | $9/5 = N_c^2/n_C$ | Spacing ratio $\Delta\nu_2/\Delta\nu_3$ | Reality Budget $\Lambda N = 9/5$ |
-| $6/5 = C_2/n_C$ | Jain ratio $\nu(2)/\nu(1)$ | Electronegativity Pt/Cu |
-| $5/2 = n_C/\text{rank}$ | Moore-Read state | Fermi energy Cu/Ry |
+| $6/5 = C_2/n_C$ | Jain ratio $\nu(2)/\nu(1)$ | Electronegativity Pt/Cu, $\Gamma_Z/\Gamma_W$, nuclear $\kappa_{ls}$ |
+| $5/2 = n_C/\text{rank}$ | Moore-Read state | BCS gap $g/\text{rank} = 7/2$ (related family) |
 | $3/4 = N_c/2^{\text{rank}}$ | Not a QHE state | Kleiber's Law exponent |
+| $1/3 = 1/N_c$ | Laughlin ground state | BDE(H-H)/Ry (T817) |
 
 The fraction $9/5 = N_c^2/n_C$ appearing as BOTH the QHE spacing ratio AND the cosmological reality budget $\Lambda N = 9/5$ is a structural identity — both count the same thing (maximum self-consistent occupancy) in different physical contexts.
 
@@ -182,7 +183,7 @@ The quantum Hall effect is counting. It always was. The integers it counts are $
 
 ## Keeper Audit (April 4, 2026)
 
-**Verdict: CONDITIONAL PASS — 5 must-fix items, 1 CRITICAL**
+**Verdict: CONDITIONAL PASS — 7 must-fix items, 1 CRITICAL**
 
 ### MUST-FIX
 
@@ -201,6 +202,10 @@ The quantum Hall effect is counting. It always was. The integers it counts are $
 - Line 120: "QED" → □
 - Even m gives bosonic Laughlin states — note for completeness
 
-**Data verified**: Toy 857 (10/10 PASS), 26/28 coverage confirmed. All spacing ratios EXACT. All BST integer identifications correct. Theorem numbers T813-T815 confirmed in registry.
+6. **(CROSS-AUDIT) 1/9 = 1/N_c² IS a BST rational**: Toy 857's `bst_label()` function does not have a case for `num=1, den=9` because `1` is not in `BST_ATOMS`. The toy reports 26/28; it should be **27/28** (only 5/17 is a true miss). Fix the toy, then update the paper's count.
 
-**Once MF-1 is resolved, this is PRL-ready.**
+7. **(CROSS-AUDIT) T814/T815 registry mismatch**: Wire file has T814 = "FQHE Spacing Ratios" and T815 = "Even-Denominator State ν=5/2=n_C/rank." Paper has T814 = "Jain Hierarchy from Rank" and T815 = "Hierarchy Termination at n_C." Registry matches the wire file, NOT the paper. Harmonize names.
+
+**Data verified**: Toy 857 (10/10 PASS), 26/28 coverage confirmed (likely 27/28 after MF-6 fix). All spacing ratios EXACT. All BST integer identifications correct.
+
+**Once MF-1 and MF-6 are resolved, this is PRL-ready.**
