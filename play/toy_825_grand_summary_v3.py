@@ -220,25 +220,25 @@ print("  Section 4: The BST Fraction Hierarchy")
 print("=" * 70)
 
 print(f"""
-  Tier 1 — Depth 0 (single integers):
+  Tier 1 -- Depth 0 (single integers):
     N_c=3, 2^rank=4, n_C=5, C_2=6, g=7, rank=2
     These appear directly: pKw=2g, magic numbers from C_2.
 
-  Tier 2 — Depth 0 (two-integer ratios):
+  Tier 2 -- Depth 0 (two-integer ratios):
     3/4, 4/3, 5/3, 6/5, 7/6, 9/7, 7/4, 8/5, 5/4, 3/2
     The MOST reused fractions. The BST "vocabulary."
 
-  Tier 3 — Depth 0 (compound):
-    19/n where 19=2N_c²+1: appears in 12+ domains
-    37/n where 37=n_C·g+rank: appears in 5+ domains
-    13/n where 13=N_c²+2^rank: appears in 4+ domains
+  Tier 3 -- Depth 0 (compound):
+    19/n where 19=2N_c^2+1: appears in 12+ domains
+    37/n where 37=n_C*g+rank: appears in 5+ domains
+    13/n where 13=N_c^2+2^rank: appears in 4+ domains
 
-  Tier 4 — Products/quotients of Tier 2:
+  Tier 4 -- Products/quotients of Tier 2:
     20/9 = (4/3)·(5/3), 12/7 = (4/3)·(9/7)...
     Internally consistent algebra.
 
   The total vocabulary: ~20 core fractions that tile 43 domains.
-  This is what it means for physics to have "five integers."\""")
+  This is what it means for physics to have 'five integers.'""")
 
 # ══════════════════════════════════════════════════════════════════════
 # Tests
@@ -329,7 +329,7 @@ print(f"""
     19 grew from 8 to 12+ domains
 
   The BST integers are not parameters -- they are the
-  geometry of D_IV^5 = SO_0(5,2)/[SO(5)×SO(2)].
+  geometry of D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)].
   From quarks to planets, one object, five integers.
 
   (C=5, D=0). Counter: .next_toy = 826.
