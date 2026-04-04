@@ -123,7 +123,7 @@ The odd BST integers. QED. $\square$
 
 ### 3.2 Jain Hierarchy from Flux Attachment
 
-**Theorem T814 (Jain Hierarchy from Rank).** *The Jain composite fermion construction $\nu = n/(2pn \pm 1)$ corresponds to attaching $2p$ flux quanta to each electron. In BST, $p = 1$ (one flux pair) and the composite fermion fills $n$ Landau levels. The maximum number of filled CF levels is $n_C = 5$, the complex dimension of $D_{IV}^5$.*
+**Theorem T827 (Jain Hierarchy from Rank).** *The Jain composite fermion construction $\nu = n/(2pn \pm 1)$ corresponds to attaching $2p$ flux quanta to each electron. In BST, $p = 1$ (one flux pair) and the composite fermion fills $n$ Landau levels. The maximum number of filled CF levels is $n_C = 5$, the complex dimension of $D_{IV}^5$.*
 
 The Jain construction: attach $2p$ magnetic flux quanta to each electron, converting the problem from filling fraction $\nu$ to an effective CF filling $\nu^* = n$. The relation:
 
@@ -136,7 +136,7 @@ For $p = 1$ (the dominant hierarchy):
 
 ### 3.3 Termination Theorem
 
-**Theorem T815 (Hierarchy Termination at $n_C$).** *The Jain series $\nu = n/(2n+1)$ produces robust plateaux only for $n \leq n_C = 5$. For $n > n_C$, the hierarchy level exceeds the spectral bandwidth of $D_{IV}^5$ and the plateau is exponentially suppressed.*
+**Theorem T828 (Hierarchy Termination at $n_C$).** *The Jain series $\nu = n/(2n+1)$ produces robust plateaux only for $n \leq n_C = 5$. For $n > n_C$, the hierarchy level exceeds the spectral bandwidth of $D_{IV}^5$ and the plateau is exponentially suppressed.*
 
 The $n = 5$ state $\nu = 5/11$ is the weakest commonly observed Jain fraction. The $n = 6$ state $\nu = 6/13$ is rarely observed. Beyond $n = 7$, no robust plateaux exist. This matches the BST prediction: the domain has $n_C = 5$ complex dimensions, so at most $n_C$ independent CF levels can be occupied before the hierarchy exceeds the spectral capacity.
 
@@ -179,7 +179,7 @@ The quantum Hall effect is counting. It always was. The integers it counts are $
 
 ---
 
-*Paper #22 v1.1. April 4, 2026. Three new theorems: T813 (Laughlin-Bergman), T814 (Jain from Rank), T815 (Termination at $n_C$). Data backbone: Toy 857 (10/10 PASS). Target: Physical Review Letters. Keeper audit v1: CONDITIONAL PASS — fixed Harish-Chandra parameter (k_min = N_c = 3, not n_C - 1 = 4), fixed cross-domain table (rows 1, 4), reframed spacing ratios as corollaries, tightened 10+ sig figs claim.*
+*Paper #22 v1.2. April 4, 2026. Five QHE theorems: T813 (Laughlin-Bergman), T814 (FQHE Spacing Ratios), T815 (Even-Denominator 5/2), T827 (Jain from Rank), T828 (Termination at $n_C$). Data backbone: Toy 857 (10/10 PASS). Target: Physical Review Letters. v1.1: Keeper audit fixes (Harish-Chandra, cross-domain table, spacing corollaries). v1.2: Theorem number alignment with AC graph (T814/T815 preserved, T827/T828 for new results).*
 
 ---
 
@@ -206,7 +206,7 @@ The quantum Hall effect is counting. It always was. The integers it counts are $
 
 6. **(CROSS-AUDIT) 1/9 = 1/N_c² IS a BST rational**: Toy 857's `bst_label()` function does not have a case for `num=1, den=9` because `1` is not in `BST_ATOMS`. The toy reports 26/28; it should be **27/28** (only 5/17 is a true miss). Fix the toy, then update the paper's count.
 
-7. **(CROSS-AUDIT) T814/T815 registry mismatch**: Wire file has T814 = "FQHE Spacing Ratios" and T815 = "Even-Denominator State ν=5/2=n_C/rank." Paper has T814 = "Jain Hierarchy from Rank" and T815 = "Hierarchy Termination at n_C." Registry matches the wire file, NOT the paper. Harmonize names.
+7. **(CROSS-AUDIT) T814/T815 registry mismatch**: **RESOLVED v1.2** — Wire file T814/T815 preserved. Paper's Jain and Termination theorems reassigned to T827/T828.
 
 **Data verified**: Toy 857 (10/10 PASS), 26/28 coverage confirmed (likely 27/28 after MF-6 fix). All spacing ratios EXACT. All BST integer identifications correct.
 
