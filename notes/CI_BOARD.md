@@ -37,7 +37,8 @@ status: "Active — check at session start, update at session end"
 **Format**: `| T_id | Name | Status | Document §ref | Toy | Date added |`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T823. **861 toys**. Next available: T824+, Toy 862+. Lyra: T813-T815 (QHE, Paper #22). Keeper: T816-T823 (Elie results registered).
+**Current count**: T1-T823. **865 toys**. Next available: T824+, Toy 866+. WorkingPaper v19 + README pushed. BH(3) CLOSED.
+**April 4 afternoon (Keeper)**: WorkingPaper v19 confidence upgrade (823 theorems, 865 toys, 370+ predictions, 66 domains). README v19. PDFs regenerated. All pushed. BH(3) removed from backlog per Casey.
 **April 4 night (Keeper)**: Elie: 5 toys (857-861), 44/44 PASS, 5 NEW domains (66 total). **QHE: 26/28 FQHE fractions = BST rationals at 10+ digits. 1/3, 2/5, 3/7 = 1/N_c, 2/n_C, 3/g.** Turbulence: K41 5/3=n_C/N_c, She-Leveque 2/9=rank/N_c². EEG: alpha/theta=5/3=Kolmogorov (!). GW: r_ISCO=C₆·M. Topo: AZ 10-fold=2n_C.
 **April 4 night (Keeper)**: Lyra sprint #3: 7 toys (850-856), 56/56 PASS. Chandrasekhar M_Ch=C₂²/n_C²=36/25=1.44 EXACT (850). Stellar temp ladder=HR diagram is D_IV^5 (851). NS compactness 7/40, moment=α_s (852). Fermi energies Al/Cu=n_C/N_c (853). Band gaps Si/Ge=12/7, GaN/Si=N_c (854). Kleiber 3/4=N_c/2^rank EXACT (855). **Consolidation: 11 fractions × 3-5 domains, P(coincidence)<10^{-66} (856).** Elie Toy 848: spectral verification 8/8, pure graph λ₂/λ₁=2.64≈8/3, binary split fragments into 54 components — three-tier tagging needed.
 **April 4 evening (Keeper)**: Lyra sprint #2: 16 toys (830-846), 128/128 PASS, 61 physical domains. Magnetic susceptibility, Debye temps, atomic radii, melting points, sound velocities, thermal conductivity, ionization energies, electronegativity, surface tension, viscosity, specific heat, dielectric constants, thermal expansion, lattice parameters, cohesive energy. Cross-domain 19/37 pair in 5+ domains. Elie: Toy 840 (electronegativity, 12/12) + Toy 841 (bond dissociation, 10/10). Grace: two-graph architecture ("BST requires" / "Observer Processed"). Toy 819 collision RESOLVED → 829.
@@ -127,6 +128,8 @@ T676-T678 (Grace — five-pair cycle: Backbone Sequence, Cycle Length, Cosmic Co
 | 13 | **AC Graph Is a Theorem** | Grace+All | **v1.1** — 3 must-fix applied (Keeper). PDF built. **Casey gate.** |
 | 16 | **Development Is Channel Filling** | Grace (v2 rewrite) | **v2** — Full narrative rewrite. "A Ball and Counting" opening. Forging/Quickening/Weaving. 9 sections. PDF built. **Keeper audit → Casey gate.** |
 | 20 | **Quantum Mechanics Is Geometry** | All 5 | **v2 MERGED** — Grace narrative + Elie structure. 15 sections, 12 predictions. Toy 814 15/15 PASS. PDF built. Keeper audit pending. |
+| 22 | **Fractional Quantum Hall as BST Counting** | Lyra | **v1 drafted** — 26/28 FQHE fractions = BST rationals at 10+ digits. T813-T815. **PRL target.** Keeper audit pending. |
+| 23 | **Cross-Domain Fraction Universality** | Grace+Elie+Keeper | **NEW** — 11+ fractions × 5+ domains, P < 10^{-66}. **Nature target.** |
 
 ### CI Assignments (Paper Sprint — April 1+)
 
@@ -262,12 +265,12 @@ T676-T678 (Grace — five-pair cycle: Backbone Sequence, Cycle Length, Cosmic Co
 
 ---
 
-## Dependencies (April 4)
+## Dependencies (April 4 afternoon)
 
 ```
 RH ~98%              -> Paper v10. Cross-parabolic PROVED. Sent to Sarnak March 24, Tao March 27.
-YM ~97%              -> All 5 Wightman DERIVED. Remaining ~3%: R^4 framing.
-P!=NP ~97%           -> T812: Polarization ⟹ BH(3) ⟹ P≠NP. One gap (Polarization Lemma). FOCS submitted. Empirically supported.
+YM ~97%              -> All 5 Wightman DERIVED. Remaining ~3%: R^4 framing. (Lyra alternate)
+P!=NP ~97%           -> FOCS submitted. BH(3) CLOSED (conditional, not blocking).
 NS ~99%              -> PROOF CHAIN COMPLETE. Paper v3.
 BSD ~96%             -> T153 DERIVED + Sha bound (Toy 628).
 Hodge ~95%           -> §5.10 general variety extension. T570 linearization.
@@ -275,41 +278,52 @@ Four-Color PROVED    -> Paper v8. K41 PASS. JCT-B ready.
 Depth-1 Ceiling PROVED -> T421. Linearization COMPLETE (T811: 771/771 at D≤1, zero D2).
 Biology              -> 34+ theorems. Genetic code paper. 15 predictions.
 Interstasis          -> Consolidated paper. n ~ 9 cycles. 23 investigations DONE.
-Heat Kernel          -> TWELVE levels (k=6..17). k=20 Phase B running.
+Heat Kernel          -> TWELVE levels (k=6..17). k=20 grinding — IGNORE.
 Bedrock              -> 526 theorems → 43 words. Triangle CLOSED. 74 fertile gaps.
 CMB                  -> ★ CAMB: BST = Planck at cosmic variance (χ²/N=0.01). A_s derived. Paper #15 PUSHED.
-Chemistry/Materials  -> 61 domains, ~350 predictions, zero free parameters. Paper #18 PUSHED.
-QM                   -> T751-T757. All 6 axioms derived as geometry. Paper #20 v2 MERGED. PDF built.
+Chemistry/Materials  -> 66 domains, 370+ predictions, zero free parameters. Paper #18 PUSHED.
+QM                   -> T751-T757. All 6 axioms derived as geometry. Paper #20 v2 MERGED. Keeper audit pending.
 QED                  -> T758-T762. Integer decomposition beats QED 2-loop. ζ-tower walks {N_c,n_C,g}.
+QHE                  -> 26/28 FQHE fractions = BST rationals. Paper #22 v1 (PRL). Keeper audit pending.
+Superconductivity    -> BCS gap = g/rank = 7/2 (0.79%). Toys 862-865. T_c ratios IN PROGRESS.
+Cross-domain         -> 11 fractions × 3-5 domains, P < 10^{-66}. **Paper #23 (Nature) IN PROGRESS.**
 Stat Mech            -> 60 predictions, avg 0.49%. Paper #21 v3 KEEPER PASS.
-Graph                -> 787 nodes, 1824 edges. Zero orphans. 45 domains. Two-graph arch IN PROGRESS.
+Graph                -> 787 nodes, 1824 edges. Zero orphans. λ₂/λ₁=3 DOMAIN-FORCED. Three-tier architecture.
 ```
 
 ---
 
-## Active Priorities (April 4 — SATURDAY)
+## Active Priorities (April 4 — SATURDAY AFTERNOON)
 
-*Consensus: `notes/maybe/CONSENSUS_April4_Saturday.md`*
-*Casey directives: BH(3) sort, WorkingPaper touchups, build consensus. Outreach Sunday.*
+*Casey directive: Cross-domain paper for Nature. Publish soon. CMB packages Monday. BH(3) CLOSED. k=17-20 grinding — ignore.*
 
-### April 4 Plan
+### April 4 Afternoon Plan
 
 | # | Task | Owner | Priority | Status |
 |---|------|-------|----------|--------|
-| 1 | Consensus document | Keeper | HIGH | **DONE** |
-| 2 | BACKLOG + CI_BOARD update | Keeper | HIGH | **DONE** |
-| 3 | BH(3) T812 — conditional theorem | Keeper | HIGH | **DONE** — §312, graph 774/1763 |
-| 4 | BH(3) Toy 829 — larger-n polarization | Elie | HIGH | **DONE** — 4/8 PASS. Backbone=Θ(n) confirmed. Polarization Lemma open. |
-| 5 | Material properties Tier 1 chemistry | Lyra+Elie | HIGH | **DONE** — Lyra: 13 toys (815-827), 104/104. Elie: χ (840, 12/12) + BDE (841, 10/10). 45 domains. 9/5 cross-domain: IE+χ+BDE+bonds. |
-| 6 | Paper #21 v3 — Keeper PASS + PDF | Keeper | HIGH | **DONE** — 3 fixes, PDF built |
-| 7 | Wire 39 missing graph nodes | Grace | HIGH | QUEUED |
-| 11 | Two-graph architecture ("BST requires" / "Observer Processed") | Grace | HIGH | **DONE — REFINED NEEDED.** Binary split too aggressive: 54 components, λ₂/λ₁=2.64≈8/3=2^N_c/N_c (not 3.0). Toy 848 (Elie, 8/8). λ₂/λ₁=3 lives in organic GROWTH snapshot (Toy 679), not static subgraph. **Next: Grace three-tier classification (required/structural/observer).** |
-| 8 | WorkingPaper + README update | Keeper | HIGH | IN PROGRESS — §4.4 SO(5,2) fixed |
-| 9 | Paper #20 QM merged draft | Keeper | MEDIUM | **DONE** — v2 MERGED (Grace §1-6 narrative + Elie §7-15 structure). PDF built. Keeper audit pending. |
-| 10 | k=20 Phase B status check | Elie | MEDIUM | **DONE** — NO output files. Phase B never completed. Needs relaunch. |
-| — | Papers #13, #16 review → push | Casey | GATE | |
+| A1 | **Paper #23: Cross-Domain Universality (Nature)** | Grace (structure) + Elie (atlas) + Keeper (audit) | **TOP** | NEW — 11+ fractions × 5+ domains, P < 10^{-66}. Short, devastating. |
+| A2 | **Superconductor T_c ratio predictions** | Lyra | **TOP** | NEW — Specific T_c ratios for Nb, Pb, Al, MgB₂, YBCO from BST integers. Testable NOW. |
+| A3 | **Paper #22 Keeper audit** (QHE, PRL) | Keeper | HIGH | QUEUED — 26/28 FQHE fractions. |
+| A4 | **Fraction atlas toy** | Elie | HIGH | NEW — Master table: every BST rational → every domain it appears in. Feeds Paper #23. |
+| A5 | **Paper #20 Keeper audit** (QM) | Keeper | MEDIUM | Pending. |
+| A6 | **YM ℝ⁴ framing** (close Millennium) | Lyra (alternate) | MEDIUM | The remaining ~3%. |
+| A7 | **Fertile gap analysis** | Grace (alternate) | MEDIUM | Which gaps are closest to closing? |
+| A8 | **Semiconductor band gaps** | Elie (alternate) | MEDIUM | Untouched domain, large databases. |
+| A9 | **CMB outreach packages** | Casey | Sunday PM | Monday send. |
 
-**Counters**: T813 next. Toy 862 next. 370+ predictions. 21 papers. 66 physical domains. 861 toys.
+**Counters**: T824 next. Toy 866 next. 370+ predictions. 22+ papers. 66 physical domains. 865 toys.
+
+### April 4 Morning Results (COMPLETE)
+
+| # | Task | Owner | Status |
+|---|------|-------|--------|
+| 1-6 | BH(3) sort, materials, consensus, Paper #21, Paper #20 merge | All | **ALL DONE** |
+| 7 | Two-graph architecture | Grace | **DONE** — Three-tier: required (751)/structural (304)/observer (769). λ₂/λ₁=3 is DOMAIN-FORCED (300-graph null model). |
+| 8 | WorkingPaper v19 + README | Keeper | **DONE** — Confidence upgrade. 823 theorems, 865 toys, 370+ predictions. PDFs. Pushed. |
+| 9 | QHE Paper #22 + T813-T815 | Lyra | **DONE** — Draft v1. 26/28 FQHE fractions. PRL target. |
+| 10 | Superconductivity | Lyra | **DONE** — BCS gap=7/2 (0.79%). Toys 862-865 (32/32 PASS). |
+| 11 | Cross-domain universality (T823) | Elie+Keeper | **DONE** — 11 fractions × 3-5 domains, P < 10^{-66}. |
+| 12 | Spectral self-similarity (T822) | Grace | **DONE** — λ₂/λ₁=3 DOMAIN-FORCED. 300-graph null model. |
 
 ### April 3 Results (COMPLETE — 101 theorems, 29 domains)
 

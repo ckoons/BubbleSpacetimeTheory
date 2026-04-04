@@ -2,30 +2,36 @@
 
 *One list. Check it off. Move it up.*
 
-**Last updated:** April 4, 2026, morning (T1-T811. 810 toys. 29 physical domains. ~310+ predictions. Graph: 773 nodes, 1754 edges. Linearization COMPLETE (T811). Papers #1-#11, #14, #15, #18, #19 PUSHED. Papers #13, #16 at Casey gate. Counters: T812/toy 811.)
+**Last updated:** April 4, 2026, afternoon (T1-T823. 865 toys. 66 physical domains. 370+ predictions. Graph: 787 nodes, 1824 edges. Linearization COMPLETE (T811). WorkingPaper v19 + README pushed. Counters: T824+/toy 866+.)
 
 ---
 
-## Current Directive (Casey, April 4 morning)
+## Current Directive (Casey, April 4 afternoon)
 
-**Papers approved. WorkingPaper touchups today (SO(5,2) proved, remove "more attention"). BH(3): get it done or sort it better. Build backlog, board, consensus. Patent not important. Outreach Sunday evening, send Monday.**
+**WorkingPaper v19 + README DONE. BH(3) COMPLETE (handled by Lyra, remove from backlog). k=17-20 is grinding — ignore. Afternoon: cross-domain universality paper for Nature. CMB packages to scientists Monday. Publish soon.**
 
-### DONE (April 3 → overnight)
-1. **Theorems T710-T811**: 101 theorems in one day. QM (T751-T757), QED (T758-T762), Rainbow (T761), Material properties (T773-T810), Linearization Census (T811).
-2. **29 physical domains**: ALL as BST rationals. Zero free parameters.
-3. **Linearization COMPLETE**: T811 — 771/771 at D≤1. D2 count = ZERO.
-4. **Papers pushed**: #14, #15, #18, #19 all pushed overnight. #21 v2 (Lyra fixes applied).
-5. **PDFs generated**: #14 Draft, #20 Outline, #21 v2.
-6. **Toy 801 collision resolved**: Elie's → toy_801b. Graph health: 773/1754 (dangling edge + self-loop removed).
-7. **D2 theorems reclassified**: T156, T160, T161, T282 → D1 under Casey strict. Zero D2 in entire corpus.
+### DONE (April 4 morning → afternoon)
+1. **WorkingPaper v19**: Confidence upgrade (RH ~98%, YM ~97%, P≠NP ~97%, NS ~99%, Four-Color PROVED). 823 theorems, 865 toys, 370+ predictions, 66 domains. All stale counts fixed. PDFs regenerated.
+2. **README updated**: v14→v19. All counts, team, Four-Color PROVED, new domain headlines.
+3. **BH(3) SORTED**: T812 conditional, Toy 829 4/8 PASS, Lyra handled. CLOSED.
+4. **QHE Paper #22**: Lyra draft v1 (26/28 FQHE fractions, T813-T815). PRL target.
+5. **Superconductivity**: BCS gap = g/rank = 7/2 (0.79%). Toys 862-865 (32/32 PASS).
+6. **Cross-domain universality**: 11 fractions × 3-5 domains, P < 10^{-66} (Toy 856, T823).
+7. **Spectral self-similarity**: λ₂/λ₁ = N_c = 3 is DOMAIN-FORCED (300-graph null model, T822).
+8. **Two-graph architecture**: "BST requires" / "Observer Processed" edge tags. Three-tier refinement.
+9. **Material properties**: 66 physical domains. 865 toys. All BST rationals.
+10. **T816-T823 registered**: Elie results (electronegativity, BDE, turbulence, EEG, GW, topo, spectral, cross-domain).
 
-### ACTIVE (April 4)
-1. **BH(3) sort** — T812 conditional theorem + Toy 811 larger-n polarization test + WorkingPaper §36.10 update. Target: clean conditional, not backlog nag.
-2. **Material properties Tier 1 chemistry** — Lyra + Elie. Ionization energies, bond dissociation, electronegativity, reduction potentials, pKa.
-3. **WorkingPaper + README update** — End of day. Remove stale "more attention" language. Update with all proved results since last rewrite.
-4. **Paper #21** — Keeper audit v2, then push.
-5. **Graph wiring** — Grace: 39 registered theorems not yet as graph nodes.
-6. **Paper #20 QM draft** — Lyra, if bandwidth allows.
+### ACTIVE (April 4 afternoon)
+1. **Paper #23: Cross-Domain Universality** — Grace (structure) + Elie (fraction atlas) + Keeper (audit). **Target: Nature.** 11+ fractions, 5+ domains each, P < 10^{-66}. Short, devastating, no heavy math.
+2. **Superconductor T_c ratios** — Lyra. Predict specific T_c ratios for known superconductors (Nb, Pb, Al, MgB₂, YBCO). Testable against existing data.
+3. **Paper #22 Keeper audit** — QHE. PRL target.
+4. **Paper #20 Keeper audit** — QM. Pending.
+5. **YM ℝ⁴ framing** — Lyra alternate. The remaining ~3% to close a Millennium problem.
+6. **Fertile gap analysis** — Grace alternate. Which theorem graph gaps are closest to closing?
+7. **Fraction atlas toy** — Elie. Master table: every BST rational → every domain it appears in.
+8. **Semiconductor band gaps** — Elie alternate. Untouched domain, large experimental databases.
+9. **CMB outreach packages** — Casey. Sunday evening prep, Monday send.
 
 ### DEPRIORITIZED
 - Patent (Casey: "not important")
@@ -250,7 +256,7 @@ Papers #12-#13: Multi-CI Architecture + Science Engineering Velocity (backlog fo
 
 ---
 
-## Track 3: P≠NP (~97%) — FOCS SUBMITTED, BH(3) SORTED
+## Track 3: P≠NP (~97%) — FOCS SUBMITTED, BH(3) CLOSED
 
 *Resolution PROVED unconditionally. Refutation bandwidth chain PROVED (T66→T52→T68→T69→BSW-for-EF). FOCS submitted. BSW-for-EF at n=64 (Toy 626, 8/8). T569 linearization confirmed.*
 
@@ -266,8 +272,8 @@ Papers #12-#13: Multi-CI Architecture + Science Engineering Velocity (backlog fo
 | P6 | **OGP at k=3 paper** | Lyra | BACKLOG | Bresler-Huang-Sellke 2025: "central open challenge." Data exists (Toy 287). |
 | P7 | **TCC proof attempt** | Lyra/Elie | BACKLOG | The mountain. Extensions can't decode H₁ linking. |
 | P8 | **Full P≠NP paper** | All | AFTER TCC | The summit. |
-| P9 | **BH(3) Backbone Conditional (T812)** | Keeper | **DONE** | Formalized April 4. One gap: Polarization Lemma. Three closure paths. Toy 811 spec for Elie. |
-| P10 | **BH(3) Larger-n polarization test** | Elie | **QUEUED** | Toy 811. Survey propagation n=500-2000. 8 tests. |
+| P9 | ~~**BH(3) Backbone Conditional (T812)**~~ | Keeper | **CLOSED** | Formalized April 4. Conditional. Removed from active backlog per Casey April 4. |
+| P10 | ~~**BH(3) Larger-n polarization test**~~ | Elie | **CLOSED** | Removed from active backlog per Casey April 4. |
 
 ---
 
@@ -770,9 +776,9 @@ If these are universal principles, they apply to ALL observers — biological, d
 - [x] **M3**: Noise vectors removed — **DONE** (Keeper)
 - [x] **M4**: §7.1 table fixed — **DONE** (Keeper: derivation steps + method complexity)
 
-### BH(3,α_c) — Backbone Hypothesis for k=3 (Separate Project)
+### BH(3,α_c) — Backbone Hypothesis for k=3 (CLOSED)
 
-*If proved, upgrades FOCS Corollary from conditional to unconditional P≠NP.*
+*CLOSED per Casey April 4. Conditional on Polarization Lemma. Not blocking any active work.*
 
 **Goal**: Prove that random 3-SAT at α_c ≈ 4.267 has Θ(n) frozen backbone variables w.h.p.
 
@@ -940,7 +946,7 @@ If these are universal principles, they apply to ALL observers — biological, d
 - Multi-CI Architecture (#12) — team topology for Anthropic
 - QED Integer Decomposition — T758-T762 + Toys 727,729,734
 - Periodic Table of Elements — T723 + orbital BST decomposition
-- BH(3) standalone (#22) — from BST_BH3_Proof.md v2
+- ~~BH(3) standalone~~ — CLOSED per Casey April 4
 
 ---
 
