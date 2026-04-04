@@ -16,8 +16,8 @@ abstract: |
   $\Delta\nu_2/\Delta\nu_3 = N_c^2/n_C = 9/5$ are exact. The first Jain ratio
   $\nu(2)/\nu(1) = C_2/n_C = 6/5$ is exact. Of 28 experimentally observed FQHE fractions,
   26 have both numerator and denominator expressible as BST integer combinations.
-  These results have 10+ significant figures of precision — set by the integer quantization
-  of Hall conductance, not by measurement uncertainty.
+  The integer quantization of Hall conductance, measured to 10+ significant figures, means
+  the BST identification is either exactly right or exactly wrong — there is no room for approximate agreement.
   The mechanism is representation-theoretic: Laughlin wave functions are holomorphic sections
   of line bundles $\mathcal{L}^{\otimes m}$ on the Shilov boundary $\check{S} = S^4 \times S^1$,
   with the weight $m$ forced by the discrete series of $\mathrm{SO}_0(5,2)$. The FQHE hierarchy
@@ -77,7 +77,9 @@ The hole conjugates $\nu = n/(2n-1)$:
 
 The even-denominator state: $\nu = 5/2 = n_C/\text{rank}$.
 
-### 2.4 Spacing Ratios (EXACT)
+### 2.4 Spacing Ratios (Corollaries of the Laughlin Identification)
+
+*Note: These ratios follow algebraically from the identification of Laughlin denominators as BST odd integers. They are consistency checks, not independent evidence.*
 
 Between consecutive Laughlin states:
 
@@ -177,7 +179,7 @@ The quantum Hall effect is counting. It always was. The integers it counts are $
 
 ---
 
-*Paper #22 v1. April 4, 2026. Three new theorems: T813 (Laughlin-Bergman), T814 (Jain from Rank), T815 (Termination at $n_C$). Data backbone: Toy 857 (10/10 PASS). Target: Physical Review Letters.*
+*Paper #22 v1.1. April 4, 2026. Three new theorems: T813 (Laughlin-Bergman), T814 (Jain from Rank), T815 (Termination at $n_C$). Data backbone: Toy 857 (10/10 PASS). Target: Physical Review Letters. Keeper audit v1: CONDITIONAL PASS — fixed Harish-Chandra parameter (k_min = N_c = 3, not n_C - 1 = 4), fixed cross-domain table (rows 1, 4), reframed spacing ratios as corollaries, tightened 10+ sig figs claim.*
 
 ---
 
