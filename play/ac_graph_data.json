@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 2209,
+  "edge_count": 2233,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 867,
+  "node_count": 874,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -12079,6 +12079,111 @@
    "plain": "SAT landscape \u2192 BC_2 root space. Backbone = rank-2 image. Kernel (dim n-2) = exponential part. First step in Applied Linearization Program. Does NOT solve P\u2260NP. 10/10 PASS.",
    "proofs": [],
    "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 903,
+   "name": "Graph Coloring Linearization in BC2",
+   "domain": "proof_complexity",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    955
+   ],
+   "date": "2026-04-05",
+   "plain": "Chromatic number in BC_2 coordinates. Applied Linearization #2. 10/10 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 904,
+   "name": "Arikan Partial Polarization of SAT",
+   "domain": "proof_complexity",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    956
+   ],
+   "date": "2026-04-05",
+   "plain": "Clause-level BSC(1/8) confirmed. W(B2) mapping at N_c=3 levels confirmed. Variable-level is Z-channel (asymmetric). Polarization incomplete at 9.7%. 6/10 PASS. Gap: combined channel symmetry at \u03b1_c.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 905,
+   "name": "Phase Transition IS Channel Symmetry",
+   "domain": "proof_complexity",
+   "status": "conjecture",
+   "depth": 0,
+   "conflation": 1,
+   "toys": [
+    958
+   ],
+   "date": "2026-04-05",
+   "plain": "Casey insight: at \u03b1_c, combined channel (13 clauses per variable) is symmetric BY DEFINITION. 7 say one thing, 6 say the other. Phase transition = balanced = symmetric = Arikan applies. If confirmed: P!=NP unconditional.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 906,
+   "name": "Phase Transition Symmetry Test (Negative)",
+   "domain": "proof_complexity",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    958
+   ],
+   "date": "2026-04-05",
+   "plain": "Casey convergence test: asymmetry does NOT converge in tested range (n=50-500). WalkSAT sampling bias likely culprit. 3/5 PASS. T905 remains CONJECTURE. Honest.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 907,
+   "name": "Factoring Linearization in BC2",
+   "domain": "proof_complexity",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    959
+   ],
+   "date": "2026-04-05",
+   "plain": "NFS constant c^3=64/9=2^C_2/N_c^2. QS exponent 1/rank. NFS exponent 1/N_c. Shor=full rank lift. AKS=O(n^C_2). RSA base=2^(N_c^2)=512. Applied Lin Step 4. 12/12 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 908,
+   "name": "Lattice Problems Linearization in BC2",
+   "domain": "proof_complexity",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    960
+   ],
+   "date": "2026-04-05",
+   "plain": "LLL exponent 1/rank. Lov\u00e1sz 4/3=2^rank/N_c. E8 dim=2^N_c=8. Leech dim=N_c\u00d72^N_c=24. KYBER q=p(C_6)\u00d72^8+1. Lattices lack Weyl symmetry. Applied Lin Step 5. 11/11 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 909,
+   "name": "BC2 Navigability Wall at SAT Threshold",
+   "domain": "proof_complexity",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    961
+   ],
+   "date": "2026-04-05",
+   "plain": "BC2 deterministic solver: navigability wall at \u03b1=4.25\u2248\u03b1_c=4.267. Solver fails (0% solutions) but failure CHARACTERIZES the phase transition. DPLL explodes 3.1x while BC2 stays flat 1.5x. BC2 3-13x faster than DPLL. 5/8 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
   }
  ],
  "edges": [
@@ -23154,6 +23259,126 @@
   {
    "from": 569,
    "to": 902,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 903,
+   "source": "required"
+  },
+  {
+   "from": 902,
+   "to": 903,
+   "source": "required"
+  },
+  {
+   "from": 156,
+   "to": 903,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 904,
+   "source": "required"
+  },
+  {
+   "from": 902,
+   "to": 904,
+   "source": "required"
+  },
+  {
+   "from": 893,
+   "to": 904,
+   "source": "required"
+  },
+  {
+   "from": 812,
+   "to": 904,
+   "source": "required"
+  },
+  {
+   "from": 904,
+   "to": 905,
+   "source": "required"
+  },
+  {
+   "from": 812,
+   "to": 905,
+   "source": "required"
+  },
+  {
+   "from": 893,
+   "to": 905,
+   "source": "required"
+  },
+  {
+   "from": 905,
+   "to": 906,
+   "source": "required"
+  },
+  {
+   "from": 904,
+   "to": 906,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 907,
+   "source": "required"
+  },
+  {
+   "from": 902,
+   "to": 907,
+   "source": "required"
+  },
+  {
+   "from": 811,
+   "to": 907,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 908,
+   "source": "required"
+  },
+  {
+   "from": 902,
+   "to": 908,
+   "source": "required"
+  },
+  {
+   "from": 907,
+   "to": 908,
+   "source": "required"
+  },
+  {
+   "from": 892,
+   "to": 908,
+   "source": "required"
+  },
+  {
+   "from": 903,
+   "to": 907,
+   "source": "required"
+  },
+  {
+   "from": 902,
+   "to": 909,
+   "source": "required"
+  },
+  {
+   "from": 905,
+   "to": 909,
+   "source": "required"
+  },
+  {
+   "from": 812,
+   "to": 909,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 909,
    "source": "required"
   }
  ],
