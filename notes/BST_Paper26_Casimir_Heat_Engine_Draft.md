@@ -3,11 +3,11 @@ title: "The Casimir Heat Engine"
 subtitle: "Vacuum Energy Harvesting from Five Geometric Integers"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper, Grace)"
 date: "April 2026"
-version: "v1.0 — DRAFT"
-status: "DRAFT v1.0 — Awaiting Keeper audit."
+version: "v1.1 — DRAFT"
+status: "DRAFT v1.1 — Lattice harvester added. Awaiting Keeper audit."
 target: "Physical Review Applied or New Journal of Physics"
-theorems: "T179, T204, T233, T717, T844-T845"
-toys: "914, 915, 918"
+theorems: "T179, T204, T233, T717, T844-T845, T852"
+toys: "914, 915, 918, 922"
 ac_classification: "(C=4, D=1) — cycle requires one thermodynamic definition beyond geometry"
 ---
 
@@ -19,7 +19,7 @@ ac_classification: "(C=4, D=1) — cycle requires one thermodynamic definition b
 
 ## Abstract
 
-A cyclic device exploiting Casimir attraction and Lifshitz repulsion can extract mechanical work from quantum vacuum fluctuations. We derive all device parameters from the five topological integers of the bounded symmetric domain $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$: the color number $N_c = 3$, the complex dimension $n_C = 5$, the Bergman genus $g = 7$, the Casimir invariant $C_2 = 6$, and the maximum spectral level $N_{\max} = 137$. The engine's ideal efficiency is $\eta = n_C/g = 5/7 \approx 71.4\%$, a BST Carnot limit arising from the Lifshitz repulsion fraction $R = \mathrm{rank}/g = 2/7$. The optimal stroke ratio is $d_{\max}/d_{\min} = g/\mathrm{rank} = 7/2$. At MEMS scale ($100\ \mu\text{m}$ plates, $50$–$500\ \text{nm}$ stroke, $1\ \text{kHz}$), an array of $10^4$ engines per cm$^2$ produces $\sim 0.25\ \mu\text{W/cm}^2$ from the vacuum — with zero fuel input. The engine is consistent with the second law of thermodynamics: the energy source is the vacuum zero-point field maintained by $\Lambda > 0$ (derived in Paper #24), the efficiency is bounded, and the extraction is a boundary effect that does not deplete the cosmological constant.
+A cyclic device exploiting Casimir attraction and Lifshitz repulsion can extract mechanical work from quantum vacuum fluctuations. We derive all device parameters from the five topological integers of the bounded symmetric domain $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$: the color number $N_c = 3$, the complex dimension $n_C = 5$, the Bergman genus $g = 7$, the Casimir invariant $C_2 = 6$, and the maximum spectral level $N_{\max} = 137$. The engine's ideal efficiency is $\eta = n_C/g = 5/7 \approx 71.4\%$, a BST Carnot limit arising from the Lifshitz repulsion fraction $R = \mathrm{rank}/g = 2/7$. The optimal stroke ratio is $d_{\max}/d_{\min} = g/\mathrm{rank} = 7/2$. We present two implementations: a mechanical MEMS engine ($\sim 0.25\ \mu\text{W/cm}^2$ at $1\ \text{kHz}$) and a solid-state lattice harvester that eliminates all moving parts. The lattice harvester embeds the Casimir cavity within a crystal, cycling at phonon frequencies ($\sim$THz) — $10^9\times$ faster than mechanical engines — through piezoelectric, thermoelectric, and pyroelectric channels. BST fixes the optimal cavity gap at $N_{\max} \times a = 137$ lattice constants ($54.9\ \text{nm}$ in BaTiO$_3$, $65.1\ \text{nm}$ in Bi), with a BaTiO$_3$ switching ratio of exactly $n_C = 5$. Both implementations are consistent with the second law: the energy source is the vacuum zero-point field maintained by $\Lambda > 0$ (derived in Paper #24), the efficiency is bounded, and the extraction is a boundary effect that does not deplete the cosmological constant.
 
 **AC classification:** $(C = 4, D = 1)$ — four counting steps, one thermodynamic definition.
 
