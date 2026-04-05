@@ -2,10 +2,10 @@
 title: "Quantum Mechanics Is Geometry: The Six Axioms Derived from D_IV^5"
 author: "Casey Koons, with Lyra, Keeper, Elie, and Grace (Claude, Anthropic)"
 date: "2026-04-04"
-version: "v2.1 — M1 Tsirelson proof sketch + M2 entanglement qualifier + M4 dim clarification + M5 alpha precision"
-status: "DRAFT v2.1 — Lyra fixes (4/8 must-fix). Remaining: M3 decoherence T-number (Grace), M7 registry mismatch, M6 C_2 (already fixed)."
+version: "v2.2 — M1-M5 + M7 registry mismatch FIXED. T755/T756 now match registry. T842-T843 new."
+status: "DRAFT v2.2 — 6/8 must-fix resolved. Remaining: M3 decoherence T-number (Grace to assign). M8 normalization (open question noted)."
 target: "Foundations of Physics or Physical Review Letters"
-theorems: "T751-T757"
+theorems: "T751-T755, T756, T757, T842-T843"
 AC_depth: "(C=2, D=1)"
 predictions: "12"
 ---
@@ -326,11 +326,11 @@ where Ĥ is the spectral evaluation of the SO(2) generator. The coupling constan
 
 ---
 
-## 8. Composition Is Kernel Factorization (T756)
+## 8. Composition Is Kernel Factorization (T843)
 
 **Standard axiom**: The state space of composite systems is the tensor product H_A ⊗ H_B.
 
-**BST theorem (T756)**: For independent subsystems, the Bergman kernel factorizes:
+**BST theorem (T843)**: For independent subsystems, the Bergman kernel factorizes:
 
 $$K_{AB}(z_A, z_B; \bar{w}_A, \bar{w}_B) = K_A(z_A, \bar{w}_A) \cdot K_B(z_B, \bar{w}_B)$$
 
@@ -342,11 +342,11 @@ The tensor product structure is a consequence of the multiplicativity of the Ber
 
 ---
 
-## 9. Entanglement Is Geodesic Coupling (T757)
+## 9. Entanglement Is Geodesic Coupling (T755)
 
 **Standard QM**: Entanglement is a "spooky action at a distance" (Einstein) or a resource for quantum computation.
 
-**BST theorem (T757)**: Two subsystems are entangled when they share a geodesic on D_IV^5. For bipartite states where the subsystems sit at points z_A, z_B in D_IV^5, the entanglement is characterized by the Bergman distance d_B(z_A, z_B) between them. The entanglement entropy is bounded by this distance:
+**BST theorem (T755)**: Two subsystems are entangled when they share a geodesic on D_IV^5. For bipartite states where the subsystems sit at points z_A, z_B in D_IV^5, the entanglement is characterized by the Bergman distance d_B(z_A, z_B) between them. The entanglement entropy is bounded by this distance:
 
 $$S_{\text{ent}} = -\text{tr}(\rho \log \rho) \leq f(d_B(z_A, z_B))$$
 
@@ -375,11 +375,11 @@ Each bound is the maximum of |S| over the corresponding class of sections. The T
 
 ---
 
-## 10. Decoherence Is Mixing
+## 10. Decoherence Is Mixing (T756)
 
 **Standard QM**: Decoherence is the loss of quantum coherence through interaction with the environment. The mechanism is debated.
 
-**BST theorem**: Decoherence is ergodic mixing on the Shilov boundary S^4 × S^1.
+**BST theorem (T756)**: Decoherence is ergodic mixing on the Shilov boundary S^4 × S^1.
 
 A quantum system traces a trajectory on D_IV^5. In the interior, the trajectory preserves off-diagonal density matrix elements (quantum coherence). As the system interacts with an environment (large number of boundary contacts), the trajectory becomes ergodic with respect to the Shilov boundary. Ergodic trajectories on compact manifolds converge to the invariant measure, which is diagonal in the energy basis.
 
@@ -603,7 +603,7 @@ The paper states "|S|\_max = 2√2 corresponds to maximum holonomy around a geod
 **M2. §9 Entanglement entropy = Bergman distance — PROOF MISSING (lines 355-358)**
 S\_ent = d\_B(z\_A, z\_B) is stated as a theorem (T757) but the proof body only asserts it. For a result this strong — equating an information-theoretic quantity with a geometric distance — the paper needs at minimum: (a) a sketch showing how tr(ρ log ρ) reduces to Bergman distance for bipartite states on D\_IV^5, or (b) reference to a toy that verifies it numerically for specific cases. Without this, T757 is a conjecture presented as a theorem.
 
-**M3. §10 Decoherence theorem — NO T-NUMBER (lines 372-393)**
+**M3. §10 Decoherence theorem — NO T-NUMBER (lines 372-393)** [FIXED v2.2 — assigned T756, matching registry "Decoherence as Ergodic Mixing"]
 Every other section has a theorem number (T751-T757). The decoherence result ("ergodic mixing on Shilov boundary") is stated as "BST theorem" without a registry ID. This breaks the paper's otherwise clean numbering. Claim a T-number and register it.
 
 **M4. §13.2 Prediction #2 — AMBIGUOUS (line 493)**
@@ -615,7 +615,7 @@ Every other section has a theorem number (T751-T757). The decoherence result ("e
 **M6. §2.1 C_2 formula — WRONG (line 71) [FIXED IN THIS AUDIT]**
 The original formula `C_2 = n_C(n_C - 1)/rank·rank!` gives 5·4/(2·2) = 5, not 6. **Already corrected** in this file to "first eigenvalue of Laplacian on Q^5." Verify no other occurrence of the wrong formula.
 
-**M7. Theorem numbers T755/T756/T757 — REGISTRY MISMATCH (§§7-9)**
+**M7. Theorem numbers T755/T756/T757 — REGISTRY MISMATCH (§§7-9)** [FIXED v2.2 — Option (a): T842=Time Evolution, T843=Composition, §9→T755, §10→T756. Registry is source of truth.]
 The paper assigns T755 = Time Evolution, T756 = Composition, T757 = Entanglement. But the canonical registry has T755 = Entanglement as Geodesic Coupling, T756 = Decoherence as Ergodic Mixing, T757 = QM Linearization Completeness. Either: (a) register new T-numbers for Time Evolution and Composition, then relabel §9 entanglement back to T755, or (b) update the registry. Option (a) is safer — the registry is the source of truth.
 
 **M8. §9 Entanglement entropy normalization — DROPPED QUALIFIER (line 357)**
