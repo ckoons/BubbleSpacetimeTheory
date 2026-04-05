@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 2040,
+  "edge_count": 2046,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 831,
+  "node_count": 832,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -11566,6 +11566,21 @@
    "date": "2026-04-05",
    "plain": "Substrate engineering device. 8/9 PASS.",
    "proofs": []
+  },
+  {
+   "tid": 864,
+   "name": "Phonon Resonance Amplification",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    934
+   ],
+   "date": "2026-04-05",
+   "plain": "Vacuum-phonon coupling peaks at BST-integer plane counts. Q(137)>Q(136,138). Linear array scaling: single cavity 4.2 mN \u2192 100 wafers 1.3 MN. Casey insight confirmed.",
+   "proofs": []
   }
  ],
  "edges": [
@@ -21795,6 +21810,36 @@
   },
   {
    "from": 858,
+   "to": 851,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 864,
+   "source": "required"
+  },
+  {
+   "from": 852,
+   "to": 864,
+   "source": "required"
+  },
+  {
+   "from": 858,
+   "to": 864,
+   "source": "required"
+  },
+  {
+   "from": 844,
+   "to": 864,
+   "source": "required"
+  },
+  {
+   "from": 850,
+   "to": 864,
+   "source": "required"
+  },
+  {
+   "from": 864,
    "to": 851,
    "source": "required"
   }
