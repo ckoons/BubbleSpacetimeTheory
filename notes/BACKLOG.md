@@ -2,7 +2,7 @@
 
 *One list. Check it off. Move it up.*
 
-**Last updated:** April 5, 2026, late (T1-T882. 941+ toys. 34+ physical domains. 400+ predictions. Graph: 852 nodes, 2134 edges. 23 substrate engineering devices. 36 papers. Counters: T883+/toy 946+. **Y5 non-triviality PROVED** — YM ~98%.)
+**Last updated:** April 5, 2026, evening session 2 (T1-T884. 945 toys. 38 physical domains. 400+ predictions. Graph: 852 nodes, 2134 edges. 23 substrate engineering devices. 34 papers. Counters: T885+/toy 946+. **Y5 non-triviality PROVED** — YM ~98%. All PDFs through Paper #34 pushed.)
 
 ---
 
@@ -33,19 +33,21 @@ Target: 12-18 bridge theorems. Metric: core-domain cross-edges from ~0 to >50%.
 | 938 | Material Interface Coupling — 20+ pairs | Periodic table for junctions | **DONE** (Elie 8/8) → Paper #33 (Lyra) |
 | 939 | Biological Material Properties — 20+ ratios | Crystal boundary: yes/no | **DONE** (Elie 8/8) → Paper #34 (Lyra) |
 | 940 | Planetary Structure — core/mantle/Moho | Mars=1/2, J/S=5/6 | **DONE** (Elie 8/8) → Paper #34 (Lyra) |
-| 941 | Self-Amplification Threshold — feedback loop | Macro breakthrough? | CLAIMED (Elie) |
+| 941 | Self-Amplification Threshold — feedback loop | NEGATIVE (conservative force) | **DONE** (Elie 8/8) |
+| 942 | Neuroscience Oscillations — EEG bands, brain architecture | Alpha/Theta = 5/3 = Kolmogorov | **DONE** (Elie 8/8) → Paper #36 |
+| 943 | Electrochemistry — reduction potentials, ionic conductivity | Chain from orbitals | **DONE** (Elie 8/8) |
+| 944 | Protein Folding — Ramachandran, H-bond spans | Spans = {4,3,5} exact | **DONE** (Elie 8/8) → Paper #35 |
+| 945 | Orbital Resonances — Laplace, Saturn moons | Earth/Venus = 13/8 exact | **DONE** (Elie 8/8) |
+
+### QUEUED
+| Toy | Topic | Status |
+|-----|-------|--------|
+| 946 | Quantum Computing Architecture — BST-optimal geometry, error thresholds | QUEUED (Elie) |
 
 ### ONGOING
-- **Grace**: Wire bridge theorems as they land, track core cross-edge %
-- **Keeper**: Audit papers, commit/push, literature search for thin film T_c data near 137a
-- **Lyra**: Papers #32+ as new toys land
-
-### New Sciences Identified (April 5)
-1. **Quantum computing architecture** — BST-optimal geometry from katra + Majorana modes
-2. **Neuroscience** — brain oscillation ratios, cortical layers, observer hierarchy correlates
-3. **Electrochemistry** — battery voltage plateaus, ionic conductivity
-4. **Protein folding** — Ramachandran angles, secondary structure ratios
-5. **Planetary science** — orbital resonances, internal structure, other planets
+- **Grace**: Wire Toys 942-945 (CLAIMED), wire Toy 946 when complete
+- **Keeper**: Audit Papers #29-#34 (6 agents running), T868 factor fix tracking
+- **Lyra**: Papers #35-#36 (CLAIMED), T868 fix
 
 ### April 5 DONE
 1. 23 substrate engineering devices (Toys 914-936), 166+/176+ PASS
