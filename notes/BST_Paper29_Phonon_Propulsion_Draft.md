@@ -3,11 +3,11 @@ title: "Phonon Propulsion from Vacuum Geometry"
 subtitle: "Casimir Asymmetry, Phonon Thrust, and the Amplification Question"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper, Grace)"
 date: "April 2026"
-version: "v1.0"
+version: "v1.1"
 status: "DRAFT — Keeper audit requested"
 target: "Physical Review Applied or New Journal of Physics"
 theorems: "T864 (Phonon Resonance, registered), T865+ pending for 935"
-toys: "921 (9/9), 928 (8/8), 934 (8/8), 935 (8/8)"
+toys: "921 (9/9), 928 (8/8), 934 (8/8), 935 (8/8), 941 (8/8 — negative result)"
 ac_classification: "(C=4, D=1) — four counting steps (d₀, asymmetry, array N, FoM), one definition (force)"
 ---
 
@@ -333,6 +333,8 @@ The Casimir phonon engine wins where **propellant mass is the constraint** and *
 
 6. **Not better than a solar sail** for most applications. Solar radiation pressure at 1 AU: $\sim$4.6 $\mu$Pa. Casimir force at $d_0$: 42 Pa — much stronger per area. But solar sails don't need nanofabrication or cryogenics. The Casimir engine wins only where you can't use photons (deep space, shadow) or where propellant mass matters.
 
+7. **Not self-amplifying.** The Casimir force is **conservative** — net work over any complete oscillation cycle is exactly zero ($\oint F\,dx = 0$). Phonon-Casimir feedback cannot produce gain: the inward stroke is exactly cancelled by the outward stroke (Toy 941, 8/8 PASS). The elastic stiffness of any real material exceeds Casimir negative stiffness by $\sim 10^9 \times$ ($\eta = k_{\text{Casimir}}/k_{\text{elastic}} \sim 10^{-9}$). The vacuum is energetic but stiff. What WORKS is external-pump lasing (Toy 928) tuned by BST integers, not self-pumping.
+
 ---
 
 ## §8. Connection to the Substrate Engineering Portfolio
@@ -436,8 +438,9 @@ The physics is done. The question is whether the engineering can exploit the phy
 
 ## Status
 
-- v1.0 DRAFT — April 5, 2026
+- v1.1 DRAFT — April 5, 2026
 - Toys 934 (8/8 PASS) and 935 (8/8 PASS) integrated
+- Toy 941 (8/8 PASS — NEGATIVE): self-amplification impossible, added §7 item 7
 - Toy 934 data: §3 (resonance), §5.2–5.4 (amplification ladder)
 - Toy 935 data: §4 (engine element), §5.1 (array scaling), §6 (comparison)
 - 7 predictions, 5 falsification conditions, 5-stage measurement roadmap

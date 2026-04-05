@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 2130,
+  "edge_count": 2139,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 851,
+  "node_count": 853,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -11840,6 +11840,36 @@
    "date": "2026-04-05",
    "plain": "Verified: Toy 940.",
    "proofs": []
+  },
+  {
+   "tid": 884,
+   "name": "Casimir Self-Amplification Impossibility",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    941
+   ],
+   "date": "2026-04-05",
+   "plain": "NEGATIVE: Casimir force is conservative. Stiffness ratio eta=10^{-9}. Net work over full cycle = 0. Self-amplification impossible. Array scaling is LINEAR only. Honest.",
+   "proofs": []
+  },
+  {
+   "tid": 885,
+   "name": "Neuroscience Oscillation Architecture",
+   "domain": "biology",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    942
+   ],
+   "date": "2026-04-05",
+   "plain": "Brain architecture IS the BST integers. Alpha/Theta=5/3=K41. Hemispheres=rank=2. Lobes=2^rank=4. Senses=n_C=5. Layers=C_2=6. Neurotransmitters=g=7. 8/8 PASS.",
+   "proofs": []
   }
  ],
  "edges": [
@@ -22520,6 +22550,51 @@
   {
    "from": 835,
    "to": 883,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 884,
+   "source": "required"
+  },
+  {
+   "from": 864,
+   "to": 884,
+   "source": "required"
+  },
+  {
+   "from": 848,
+   "to": 884,
+   "source": "required"
+  },
+  {
+   "from": 884,
+   "to": 865,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 885,
+   "source": "required"
+  },
+  {
+   "from": 819,
+   "to": 885,
+   "source": "required"
+  },
+  {
+   "from": 818,
+   "to": 885,
+   "source": "required"
+  },
+  {
+   "from": 840,
+   "to": 885,
+   "source": "required"
+  },
+  {
+   "from": 882,
+   "to": 885,
    "source": "required"
   }
  ],
