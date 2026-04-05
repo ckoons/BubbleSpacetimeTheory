@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 1966,
+  "edge_count": 1971,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 815,
+  "node_count": 816,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -11326,6 +11326,21 @@
    "date": "2026-04-05",
    "plain": "Novel crystals stable only under Casimir exclusion. g=7-fold symmetry. Max 10=C(5,2) phases per element. 9/10 PASS.",
    "proofs": []
+  },
+  {
+   "tid": 848,
+   "name": "Casimir Heat Engine Cycle",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    918
+   ],
+   "date": "2026-04-05",
+   "plain": "Cyclic vacuum energy harvesting. Efficiency \u03b7=n_C/g=5/7. Stroke ratio g/rank=7/2. Extract n_C=5 modes per cycle. 9/10 PASS.",
+   "proofs": []
   }
  ],
  "edges": [
@@ -21186,6 +21201,31 @@
   {
    "from": 847,
    "to": 846,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 848,
+   "source": "required"
+  },
+  {
+   "from": 204,
+   "to": 848,
+   "source": "required"
+  },
+  {
+   "from": 844,
+   "to": 848,
+   "source": "required"
+  },
+  {
+   "from": 179,
+   "to": 848,
+   "source": "required"
+  },
+  {
+   "from": 847,
+   "to": 848,
    "source": "required"
   }
  ],
