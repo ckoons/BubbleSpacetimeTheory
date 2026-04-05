@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 2199,
+  "edge_count": 2209,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 865,
+  "node_count": 867,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -12049,6 +12049,36 @@
    "plain": "Shannon capacity, entropy bounds, channel coding all BST. Gaussian 1/rank=GOE. D_max ternary=rank/N_c=K41. D_max quaternary=N_c/2^rank=Kleiber. 10/10 PASS.",
    "proofs": [],
    "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 901,
+   "name": "Renormalization Group as BST",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    953
+   ],
+   "date": "2026-04-05",
+   "plain": "RG \u03b2-functions, Wilson-Fisher, anomalous dims all BST. \u03b5=2^rank-N_c=1. Completes the sextet: Cellular\u2192Critical\u2192Turbulence\u2192RMT\u2192Info\u2192RG. 10/10 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 902,
+   "name": "SAT Linearization in BC2 Coordinates",
+   "domain": "proof_complexity",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    954
+   ],
+   "date": "2026-04-05",
+   "plain": "SAT landscape \u2192 BC_2 root space. Backbone = rank-2 image. Kernel (dim n-2) = exponential part. First step in Applied Linearization Program. Does NOT solve P\u2260NP. 10/10 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
   }
  ],
  "edges": [
@@ -23074,6 +23104,56 @@
   {
    "from": 742,
    "to": 900,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 901,
+   "source": "required"
+  },
+  {
+   "from": 897,
+   "to": 901,
+   "source": "required"
+  },
+  {
+   "from": 899,
+   "to": 901,
+   "source": "required"
+  },
+  {
+   "from": 900,
+   "to": 901,
+   "source": "required"
+  },
+  {
+   "from": 898,
+   "to": 901,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 902,
+   "source": "required"
+  },
+  {
+   "from": 893,
+   "to": 902,
+   "source": "required"
+  },
+  {
+   "from": 811,
+   "to": 902,
+   "source": "required"
+  },
+  {
+   "from": 421,
+   "to": 902,
+   "source": "required"
+  },
+  {
+   "from": 569,
+   "to": 902,
    "source": "required"
   }
  ],
