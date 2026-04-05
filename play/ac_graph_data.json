@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 1868,
+  "edge_count": 1884,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 803,
+  "node_count": 806,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -11146,6 +11146,51 @@
    "date": "2026-04-05",
    "plain": "Derivation hierarchy: Topology 8/8 > Chemistry 8/8 > Biology 7/8 > Cosmology 6/8. Algebra-derived strongest, scale-dependent weakest.",
    "proofs": []
+  },
+  {
+   "tid": 834,
+   "name": "Chern Rosetta Stone",
+   "domain": "topology",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    907
+   ],
+   "date": "2026-04-05",
+   "plain": "ALL characteristic classes of Q^5 encode BST integers. Chern, Pontryagin, Euler, Todd, Chern character \u2014 the complete Rosetta Stone.",
+   "proofs": []
+  },
+  {
+   "tid": 835,
+   "name": "Matter-Radiation Equality from BST",
+   "domain": "cosmology",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    908
+   ],
+   "date": "2026-04-05",
+   "plain": "z_eq = N_max \u00d7 n_C\u00b2 + |W| = 3433 (1.2 sigma). Connects Planck-scale integers to Hubble-scale observables.",
+   "proofs": []
+  },
+  {
+   "tid": 836,
+   "name": "Alpha Forcing Conjecture",
+   "domain": "number_theory",
+   "status": "conjecture",
+   "depth": 0,
+   "conflation": 3,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    909
+   ],
+   "date": "2026-04-05",
+   "plain": "H_5 = 137/60 = N_max/(2*n_C*C_2). If D_IV^5 forces N_max = num(H_{n_C}), then alpha follows from n_C = 5.",
+   "proofs": []
   }
  ],
  "edges": [
@@ -20516,6 +20561,86 @@
   {
    "from": 832,
    "to": 833,
+   "source": "required"
+  },
+  {
+   "from": 649,
+   "to": 731,
+   "source": "required"
+  },
+  {
+   "from": 110,
+   "to": 548,
+   "source": "required"
+  },
+  {
+   "from": 667,
+   "to": 548,
+   "source": "required"
+  },
+  {
+   "from": 110,
+   "to": 445,
+   "source": "required"
+  },
+  {
+   "from": 666,
+   "to": 510,
+   "source": "required"
+  },
+  {
+   "from": 110,
+   "to": 510,
+   "source": "required"
+  },
+  {
+   "from": 666,
+   "to": 703,
+   "source": "required"
+  },
+  {
+   "from": 832,
+   "to": 371,
+   "source": "required"
+  },
+  {
+   "from": 832,
+   "to": 834,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 834,
+   "source": "required"
+  },
+  {
+   "from": 834,
+   "to": 835,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 835,
+   "source": "required"
+  },
+  {
+   "from": 705,
+   "to": 835,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 836,
+   "source": "required"
+  },
+  {
+   "from": 667,
+   "to": 836,
+   "source": "required"
+  },
+  {
+   "from": 836,
+   "to": 835,
    "source": "required"
   }
  ],
