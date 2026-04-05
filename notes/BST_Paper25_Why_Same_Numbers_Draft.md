@@ -4,11 +4,11 @@ subtitle: "The Bergman Spectral Mechanism Behind Cross-Domain Rational Constants
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper, Grace)"
 date: "April 2026"
 version: "v1.0"
-status: "DRAFT v1.1 — Weyl formula corrected (4 factors, not 5). Keeper PASS."
+status: "DRAFT v1.2 — Weyl formula corrected. AC classification clarified (mechanism D=0, full chain D=1). Keeper PASS."
 target: "Physical Review Letters or Foundations of Physics"
 theorems: "T719, T823, T830, T840"
 toys: "856, 866, 913"
-ac_classification: "(C=3, D=0) — mechanism is spectral decomposition (D0), application to specific domains is evaluation (D0)"
+ac_classification: "(C=3, D=0) for mechanism (steps 1-3: spectral decomposition → BST rationals); (C=3, D=1) for full chain including physical coupling"
 abstract: |
   Dimensionless ratios across 26 independent physical domains reduce to
   the same set of rational fractions built from five integers (Paper #23).
@@ -151,7 +151,7 @@ $$\underbrace{D_{IV}^5}_{\text{topology}} \xrightarrow{B_2 \text{ root system}} 
 
 5. **Materials** (D = 1): Bulk properties are statistical averages $\langle A \rangle = \sum_\lambda d_\lambda e^{-\beta E_\lambda} A_\lambda / Z$. Rationality is preserved under summation.
 
-The AC depth of the entire mechanism is $(C = 3, D = 0)$: three counting steps (Weyl formula, Plancherel measure, statistical average), zero definitions beyond $D_{IV}^5$ itself.
+The AC depth of the mechanism (steps 1-3: why spectral coefficients are BST rationals) is $(C = 3, D = 0)$: three counting steps (Weyl formula, Plancherel measure, spectral expansion), zero definitions beyond $D_{IV}^5$ itself. Steps 4-5 apply the mechanism to specific physical systems and involve one definition each (the Hamiltonian, the statistical ensemble), giving the full chain $(C = 3, D = 1)$. The paper's core claim — that the fractions are forced — lives at depth 0.
 
 ## 9. Falsifiability
 
