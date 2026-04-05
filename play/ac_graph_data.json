@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 2046,
+  "edge_count": 2059,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 832,
+  "node_count": 834,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -11581,6 +11581,36 @@
    "date": "2026-04-05",
    "plain": "Vacuum-phonon coupling peaks at BST-integer plane counts. Q(137)>Q(136,138). Linear array scaling: single cavity 4.2 mN \u2192 100 wafers 1.3 MN. Casey insight confirmed.",
    "proofs": []
+  },
+  {
+   "tid": 865,
+   "name": "Phonon Propulsion Engine",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    935
+   ],
+   "date": "2026-04-05",
+   "plain": "Asymmetric Casimir cavity: 98.8% asymmetry from 1-1/N_c^4. 419 nN per element. Array 10^6 \u2192 0.4-57 N. I_sp ~ 5e11 s. Propellant-free micro-thrust. 8/8 PASS.",
+   "proofs": []
+  },
+  {
+   "tid": 866,
+   "name": "BiNb Superlattice Triple Convergence",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    936
+   ],
+   "date": "2026-04-05",
+   "plain": "Triple convergence in Nb: d_0=45.2nm (Casimir), lambda_L=39nm (London), xi_0=38nm (BCS). Bi/Nb mode coupling = N_c/g = 3/7 (0.18%). 7 Majorana qubits per g-bilayer. Converges 6 concepts at one fab target. 8/8 PASS.",
+   "proofs": []
   }
  ],
  "edges": [
@@ -21841,6 +21871,71 @@
   {
    "from": 864,
    "to": 851,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 865,
+   "source": "required"
+  },
+  {
+   "from": 864,
+   "to": 865,
+   "source": "required"
+  },
+  {
+   "from": 858,
+   "to": 865,
+   "source": "required"
+  },
+  {
+   "from": 844,
+   "to": 865,
+   "source": "required"
+  },
+  {
+   "from": 851,
+   "to": 865,
+   "source": "required"
+  },
+  {
+   "from": 850,
+   "to": 865,
+   "source": "required"
+  },
+  {
+   "from": 853,
+   "to": 866,
+   "source": "required"
+  },
+  {
+   "from": 860,
+   "to": 866,
+   "source": "required"
+  },
+  {
+   "from": 864,
+   "to": 866,
+   "source": "required"
+  },
+  {
+   "from": 858,
+   "to": 866,
+   "source": "required"
+  },
+  {
+   "from": 846,
+   "to": 866,
+   "source": "required"
+  },
+  {
+   "from": 854,
+   "to": 866,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 866,
    "source": "required"
   }
  ],
