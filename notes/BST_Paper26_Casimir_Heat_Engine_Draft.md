@@ -33,7 +33,7 @@ $$\rho_{\mathrm{vac}} = \frac{\Lambda c^4}{8\pi G} \approx 5.96 \times 10^{-27} 
 
 With $\Omega_\Lambda = 13/19 \approx 0.684$ (BST; Planck 2018: $0.685 \pm 0.007$, $0.07\sigma$), the vacuum contains the majority of the universe's energy. This energy density is maintained by the commitment rate of $D_{IV}^5$ — it is not a transient fluctuation but a permanent feature of the geometry. The question is not whether vacuum energy exists, but whether a thermodynamic cycle can extract work from it.
 
-**Thesis:** A cyclic device exploiting the Casimir effect and Lifshitz repulsion can extract mechanical work from vacuum fluctuations, with efficiency $\eta = n_C/g = 5/7$ bounded by BST integers.
+**Thesis:** A cyclic device exploiting the Casimir effect and Lifshitz repulsion can extract work from vacuum fluctuations, with efficiency $\eta = n_C/g = 5/7$ bounded by BST integers. Two implementations are analyzed: a mechanical MEMS engine (§4–§6) that demonstrates the thermodynamic principle, and a solid-state lattice harvester (§7) that eliminates moving parts by embedding the Casimir cavity within a crystal at the BST-optimal spacing of $N_{\max} = 137$ lattice constants.
 
 ### 2. The Casimir Force from $D_{IV}^5$
 
@@ -369,12 +369,24 @@ The Casimir heat engine connects three layers of BST:
 2. **Material physics** (Paper #25): Bergman spectral mechanism $\to$ dielectric properties are BST rationals $\to$ Lifshitz repulsion is BST-constrained.
 3. **Thermodynamics** (this paper): Cycle efficiency $\eta = n_C/g$ $\to$ net work extraction bounded and computable.
 
+The two implementations — mechanical and solid-state — represent the same BST thermodynamics at different scales:
+
+| | Mechanical (§4–§6) | Lattice (§7) |
+|---|---|---|
+| **Conceptual role** | Proves the principle | Proves the technology |
+| **BST integers used** | $N_c, n_C, g$, rank | + $N_{\max} = 137$ |
+| **Key experiment** | Switchable Casimir force (M1) | Peak at 137 planes (L1) |
+| **Engineering path** | MEMS + ferroelectrics | Thin-film deposition |
+| **Power scaling** | Area ($10^4$/cm$^2$) | Volume ($10^{21}$/cm$^3$) |
+
+The lattice harvester is the better technology story because it eliminates the MEMS engineering constraints (§6.3) that limit the mechanical engine, while adding $N_{\max}$ — the fine-structure integer — as a directly measurable fabrication target. A peak in piezoelectric output at exactly 137 lattice planes would be as striking as the switching ratio of exactly $n_C = 5$.
+
 The engine efficiency $\eta = n_C/g = 5/7$ is the most thermodynamically direct prediction of BST. It is:
 - **Derived from topology** (ratio of $D_{IV}^5$ dimensions, not fitted)
 - **Material-independent** (any system reaching the Lifshitz condition gives $R = 2/7$)
 - **Falsifiable** (measure $\eta$ vs. stroke ratio; if peak $\neq 5/7$, BST is wrong)
 
-If the engine works, it demonstrates that $\Lambda > 0$ is not just a cosmological curiosity but a source of usable energy — connecting the largest scale in physics (the cosmological constant) to the smallest practical scale (MEMS devices) through five integers.
+If the engine works, it demonstrates that $\Lambda > 0$ is not just a cosmological curiosity but a source of usable energy — connecting the largest scale in physics (the cosmological constant) to the smallest practical scale (crystal lattices) through five integers.
 
 If the engine does not work — specifically, if net positive work cannot be achieved even with optimized switching — then either:
 - The switching losses dominate at all accessible scales (an engineering problem, not a physics one), or
@@ -399,4 +411,4 @@ Either outcome is informative. That is what makes this science.
 
 ---
 
-*Paper #26 v1.0 DRAFT. April 5, 2026. Casimir heat engine: cyclic vacuum energy harvesting. Efficiency bounded by BST Carnot limit η = n_C/g = 5/7 ≈ 71.4%. Lifshitz repulsion fraction R = rank/g = 2/7 ≈ 0.286 (matches Munday et al. 0.3). Optimal stroke ratio g/rank = 7/2 = 3.5. Power: ~0.25 μW/cm² at MEMS scale. Five substrate engineering concepts verified (914-918). AC classification: (C=4, D=1). Target: Physical Review Applied.*
+*Paper #26 v1.1 DRAFT. April 5, 2026. Two implementations of vacuum energy harvesting: mechanical MEMS engine (Toy 918) and solid-state lattice harvester (Toy 922). Both share BST Carnot limit η = n_C/g = 5/7 ≈ 71.4%, Lifshitz repulsion R = rank/g = 2/7 ≈ 0.286. Lattice harvester: no moving parts, gap = N_max × a = 137 lattice constants (BaTiO₃: 54.9 nm), three channels (piezo+thermo+pyro), THz cycling (10⁹× faster). BaTiO₃ switching ratio = n_C = 5. Six substrate engineering concepts verified (914-922). 8 predictions, 3 falsification conditions. v1.1: Lyra added §7 (lattice harvester), expanded §10-§11, updated §12-§13. AC classification: (C=4, D=1). Target: Physical Review Applied.*
