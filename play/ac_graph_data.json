@@ -12542,7 +12542,7 @@
   {
    "from": 186,
    "to": 342,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 186,
@@ -12667,17 +12667,17 @@
   {
    "from": 186,
    "to": 388,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 186,
    "to": 397,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 186,
    "to": 398,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 186,
@@ -12687,12 +12687,12 @@
   {
    "from": 186,
    "to": 400,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 186,
    "to": 401,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 186,
@@ -13452,7 +13452,7 @@
   {
    "from": 346,
    "to": 361,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 349,
@@ -14137,7 +14137,7 @@
   {
    "from": 186,
    "to": 472,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 192,
@@ -15242,7 +15242,7 @@
   {
    "from": 186,
    "to": 518,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 186,
@@ -15607,7 +15607,7 @@
   {
    "from": 6,
    "to": 186,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 81,
@@ -15627,7 +15627,7 @@
   {
    "from": 180,
    "to": 186,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 233,
@@ -15712,7 +15712,7 @@
   {
    "from": 277,
    "to": 23,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 105,
@@ -15977,7 +15977,7 @@
   {
    "from": 269,
    "to": 186,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 275,
@@ -16012,7 +16012,7 @@
   {
    "from": 234,
    "to": 186,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 178,
@@ -16037,12 +16037,12 @@
   {
    "from": 270,
    "to": 186,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 272,
    "to": 186,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 276,
@@ -18807,7 +18807,7 @@
   {
    "from": 667,
    "to": 681,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 675,
@@ -18877,7 +18877,7 @@
   {
    "from": 186,
    "to": 697,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 668,
@@ -21161,12 +21161,12 @@
   {
    "from": 53,
    "to": 108,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 108,
    "to": 53,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 53,
@@ -21181,12 +21181,12 @@
   {
    "from": 836,
    "to": 834,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 834,
    "to": 836,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 836,
