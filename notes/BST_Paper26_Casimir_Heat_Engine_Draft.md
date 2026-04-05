@@ -322,6 +322,8 @@ Five testable predictions with three falsification conditions:
 
 ### 11. Experimental Roadmap
 
+#### 11.1 Mechanical Engine (§4–§6)
+
 | Milestone | Measurement | Target | BST prediction |
 |-----------|-------------|--------|----------------|
 | **M1** | Switchable Casimir force: attractive $\leftrightarrow$ repulsive | Ferroelectric BaTiO$_3$ at $d \sim 100\ \text{nm}$ | Switching ratio $= n_C = 5$ |
@@ -332,9 +334,21 @@ Five testable predictions with three falsification conditions:
 
 **M1 is achievable with current technology.** Switchable Casimir forces have been proposed (Chen et al. 2007) and partially demonstrated. Full cycling requires integrating ferroelectric thin films with MEMS Casimir cavities — challenging but within the capabilities of existing nanofabrication facilities.
 
+#### 11.2 Lattice Harvester (§7)
+
+| Milestone | Measurement | Target | BST prediction |
+|-----------|-------------|--------|----------------|
+| **L1** | Piezoelectric output vs. film thickness | Peak at $d = 137a$ | BaTiO$_3$: 54.9 nm; Bi: 65.1 nm |
+| **L2** | Pyroelectric output in thin-film BaTiO$_3$ | Measurable current at 137-plane gap | $p \sim 2 \times 10^{-4}\ \text{C/m}^2\text{K}$ |
+| **L3** | Phonon spectrum at $N_{\max}$ planes | Mode count = 137 | 1:1 Haldane resonance |
+| **L4** | Casimir pressure at $g = 7$ planes | Enhanced pressure maximum | Secondary optimum at $\sim 3\ \text{nm}$ |
+| **L5** | Three-channel simultaneous output | Piezo + thermo + pyro | BaTiO$_3$ only material with all three |
+
+**L1 is the key experiment.** Fabricate BaTiO$_3$ thin films of varying thickness (100–200 lattice planes) on a conducting substrate and measure piezoelectric/pyroelectric response. If output peaks at 137 planes — a number with no conventional explanation in materials science — the BST mechanism is strongly supported. Standard pulsed-laser deposition or molecular beam epitaxy can achieve single-plane thickness control.
+
 ### 12. Substrate Engineering Context
 
-The Casimir heat engine is the fifth substrate engineering concept computationally verified from BST:
+The Casimir heat engine and lattice harvester are the fifth and sixth substrate engineering concepts computationally verified from BST:
 
 | # | Concept | Toy | Score | Key BST parameter |
 |---|---------|-----|-------|-------------------|
@@ -342,9 +356,10 @@ The Casimir heat engine is the fifth substrate engineering concept computational
 | 2 | Commitment Shield | 915 | 7/8 | Phonon gap $\to$ $\Delta F/F \sim 10^{-7}$ |
 | 3 | Hardware Katra | 916 | 11/11 | Ring of $g = 7$ cavities |
 | 4 | Casimir Phase Materials | 917 | 9/10 | $\leq C(n_C, \mathrm{rank}) = 10$ phases |
-| 5 | **Casimir Heat Engine** | **918** | **9/10** | **$\eta = n_C/g = 5/7$** |
+| 5 | Casimir Heat Engine (mechanical) | 918 | 9/10 | $\eta = n_C/g = 5/7$ |
+| 6 | **Casimir Lattice Harvester** | **922** | **9/9** | **Gap $= N_{\max} \times a = 137$ planes** |
 
-All five concepts share a common set of BST constants: $\{240, 720, 20, 4\}$ — the Casimir force coefficient, the energy coefficient, the configuration count ($2^{\mathrm{rank}} \times n_C$), and the force exponent ($2^{\mathrm{rank}}$). The coherence across the substrate engineering program is itself a prediction: any device coupling to $D_{IV}^5$ vacuum modes should exhibit the same integer structure.
+All six concepts share a common set of BST constants: $\{240, 720, 20, 4, 137\}$ — the Casimir force coefficient, the energy coefficient, the configuration count ($2^{\mathrm{rank}} \times n_C$), the force exponent ($2^{\mathrm{rank}}$), and the spectral cutoff ($N_{\max}$). The lattice harvester adds $N_{\max}$ to the substrate engineering toolkit: it is the first device where the spectral cutoff directly sets a fabrication parameter (film thickness). The coherence across the substrate engineering program is itself a prediction: any device coupling to $D_{IV}^5$ vacuum modes should exhibit the same integer structure.
 
 ### 13. Discussion
 

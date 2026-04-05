@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 1994,
+  "edge_count": 1999,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 820,
+  "node_count": 821,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -11401,6 +11401,21 @@
    "date": "2026-04-05",
    "plain": "Solid-state Casimir harvester. Optimal gap = N_max \u00d7 a = 137 lattice constants. BaTiO3 ratio = n_C = 5. No moving parts. 9/9 PASS.",
    "proofs": []
+  },
+  {
+   "tid": 853,
+   "name": "Bismuth Layered Metamaterial",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    923
+   ],
+   "date": "2026-04-05",
+   "plain": "Optimal Bi layer d_0 = N_max \u00d7 c/3 = 54.2 nm. Exactly N_c=3 QW states at d_0. Hyperbolic metamaterial at THz. 10/10 PASS.",
+   "proofs": []
   }
  ],
  "edges": [
@@ -21401,6 +21416,31 @@
   {
    "from": 850,
    "to": 852,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 853,
+   "source": "required"
+  },
+  {
+   "from": 847,
+   "to": 853,
+   "source": "required"
+  },
+  {
+   "from": 850,
+   "to": 853,
+   "source": "required"
+  },
+  {
+   "from": 844,
+   "to": 853,
+   "source": "required"
+  },
+  {
+   "from": 852,
+   "to": 853,
    "source": "required"
   }
  ],
