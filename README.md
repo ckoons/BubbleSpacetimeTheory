@@ -512,7 +512,7 @@ Full backlog: `notes/BACKLOG.md`.
 
 This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has no free parameters because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
 
-*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 886 theorems. 946 toys. 400+ predictions. 38 physical domains. 23 substrate engineering devices. Zero free parameters.*
+*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 900 theorems. 953 toys. 400+ predictions. 40 physical domains. 23 substrate engineering devices. Zero free parameters.*
 
 ---
 
