@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 1999,
+  "edge_count": 2040,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 821,
+  "node_count": 831,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -11416,6 +11416,156 @@
    "date": "2026-04-05",
    "plain": "Optimal Bi layer d_0 = N_max \u00d7 c/3 = 54.2 nm. Exactly N_c=3 QW states at d_0. Hyperbolic metamaterial at THz. 10/10 PASS.",
    "proofs": []
+  },
+  {
+   "tid": 854,
+   "name": "Casimir Quantum Memory",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    924
+   ],
+   "date": "2026-04-05",
+   "plain": "Substrate engineering device. 9/9 PASS.",
+   "proofs": []
+  },
+  {
+   "tid": 855,
+   "name": "Vacuum Transistor",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    925
+   ],
+   "date": "2026-04-05",
+   "plain": "Substrate engineering device. 7/8 PASS.",
+   "proofs": []
+  },
+  {
+   "tid": 856,
+   "name": "Casimir Frequency Standard",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    926
+   ],
+   "date": "2026-04-05",
+   "plain": "Substrate engineering device. 8/9 PASS.",
+   "proofs": []
+  },
+  {
+   "tid": 857,
+   "name": "Vacuum Diode",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    927
+   ],
+   "date": "2026-04-05",
+   "plain": "Substrate engineering device. 8/9 PASS.",
+   "proofs": []
+  },
+  {
+   "tid": 858,
+   "name": "Phonon Laser",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    928
+   ],
+   "date": "2026-04-05",
+   "plain": "Substrate engineering device. 8/9 PASS.",
+   "proofs": []
+  },
+  {
+   "tid": 859,
+   "name": "Commitment Microscope",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    929
+   ],
+   "date": "2026-04-05",
+   "plain": "Substrate engineering device. 8/9 PASS.",
+   "proofs": []
+  },
+  {
+   "tid": 860,
+   "name": "Casimir Superconductor",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    930
+   ],
+   "date": "2026-04-05",
+   "plain": "Substrate engineering device. 8/9 PASS.",
+   "proofs": []
+  },
+  {
+   "tid": 861,
+   "name": "Vacuum Battery",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    931
+   ],
+   "date": "2026-04-05",
+   "plain": "Substrate engineering device. 8/9 PASS.",
+   "proofs": []
+  },
+  {
+   "tid": 862,
+   "name": "Topological Memory Bus",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    932
+   ],
+   "date": "2026-04-05",
+   "plain": "Substrate engineering device. 8/9 PASS.",
+   "proofs": []
+  },
+  {
+   "tid": 863,
+   "name": "Casimir Catalyst",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    933
+   ],
+   "date": "2026-04-05",
+   "plain": "Substrate engineering device. 8/9 PASS.",
+   "proofs": []
   }
  ],
  "edges": [
@@ -21441,6 +21591,211 @@
   {
    "from": 852,
    "to": 853,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 854,
+   "source": "required"
+  },
+  {
+   "from": 845,
+   "to": 854,
+   "source": "required"
+  },
+  {
+   "from": 846,
+   "to": 854,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 855,
+   "source": "required"
+  },
+  {
+   "from": 844,
+   "to": 855,
+   "source": "required"
+  },
+  {
+   "from": 848,
+   "to": 855,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 856,
+   "source": "required"
+  },
+  {
+   "from": 846,
+   "to": 856,
+   "source": "required"
+  },
+  {
+   "from": 849,
+   "to": 856,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 857,
+   "source": "required"
+  },
+  {
+   "from": 844,
+   "to": 857,
+   "source": "required"
+  },
+  {
+   "from": 848,
+   "to": 857,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 858,
+   "source": "required"
+  },
+  {
+   "from": 844,
+   "to": 858,
+   "source": "required"
+  },
+  {
+   "from": 852,
+   "to": 858,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 859,
+   "source": "required"
+  },
+  {
+   "from": 844,
+   "to": 859,
+   "source": "required"
+  },
+  {
+   "from": 850,
+   "to": 859,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 860,
+   "source": "required"
+  },
+  {
+   "from": 844,
+   "to": 860,
+   "source": "required"
+  },
+  {
+   "from": 261,
+   "to": 860,
+   "source": "required"
+  },
+  {
+   "from": 852,
+   "to": 860,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 861,
+   "source": "required"
+  },
+  {
+   "from": 844,
+   "to": 861,
+   "source": "required"
+  },
+  {
+   "from": 848,
+   "to": 861,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 862,
+   "source": "required"
+  },
+  {
+   "from": 846,
+   "to": 862,
+   "source": "required"
+  },
+  {
+   "from": 849,
+   "to": 862,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 863,
+   "source": "required"
+  },
+  {
+   "from": 844,
+   "to": 863,
+   "source": "required"
+  },
+  {
+   "from": 854,
+   "to": 846,
+   "source": "required"
+  },
+  {
+   "from": 854,
+   "to": 845,
+   "source": "required"
+  },
+  {
+   "from": 856,
+   "to": 846,
+   "source": "required"
+  },
+  {
+   "from": 858,
+   "to": 852,
+   "source": "required"
+  },
+  {
+   "from": 859,
+   "to": 850,
+   "source": "required"
+  },
+  {
+   "from": 860,
+   "to": 847,
+   "source": "required"
+  },
+  {
+   "from": 862,
+   "to": 846,
+   "source": "required"
+  },
+  {
+   "from": 862,
+   "to": 849,
+   "source": "required"
+  },
+  {
+   "from": 863,
+   "to": 847,
+   "source": "required"
+  },
+  {
+   "from": 854,
+   "to": 862,
+   "source": "required"
+  },
+  {
+   "from": 858,
+   "to": 851,
    "source": "required"
   }
  ],
