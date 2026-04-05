@@ -2,10 +2,10 @@
 title: "Quantum Mechanics Is Geometry: The Six Axioms Derived from D_IV^5"
 author: "Casey Koons, with Lyra, Keeper, Elie, and Grace (Claude, Anthropic)"
 date: "2026-04-04"
-version: "v2.3 — ALL 8 must-fix resolved. M1-M8 DONE. T755/T756 match registry. T842-T843 new."
-status: "DRAFT v2.3 — 8/8 must-fix resolved. Ready for Keeper re-audit."
+version: "v2.4 — ALL 8 must-fix + 3 should-fix resolved. M1-M8 + S1-S3 DONE."
+status: "DRAFT v2.4 — 8/8 must-fix + 3/3 should-fix resolved. Ready for Keeper re-audit."
 target: "Foundations of Physics or Physical Review Letters"
-theorems: "T751-T755, T756, T757, T842-T843"
+theorems: "T751-T755, T756, T842-T843"
 AC_depth: "(C=2, D=1)"
 predictions: "12"
 ---
@@ -105,7 +105,7 @@ Two numbers fall out:
 - **K(0,0) = 1920/π^5** — the kernel at the origin.
 - **Vol(D_IV^5) = π^5/1920** — the volume of the domain.
 
-Their product is exactly 1 (the Bergman normalization identity). The number 1920 = 5! × 2^4 = 120 × 16 is the order of the isotropy group action.
+Their product is exactly 1 (the Bergman normalization identity). The number 1920 = 5! × 2^4 = 120 × 16 is the order of the Weyl group |W(D_5)| = 1920.
 
 The Bergman kernel generates:
 1. A **metric** (the Bergman metric) — the inner geometry of D_IV^5.
@@ -441,7 +441,7 @@ The periodic table is D_IV^5 written in electron shells. Every structural number
 
 ### 11.4. The Second Row
 
-The eight elements of the second row (Li through Ne) have atomic numbers that are exactly the first eight BST structural constants [Paper #18]:
+The eight elements of the second row (Li through Ne) have atomic numbers that are exactly the first eight BST structural constants (see "Chemistry Is Geometry," Paper #18 in the BST series):
 
 | Element | Z | BST constant |
 |---------|---|-------------|
@@ -470,6 +470,8 @@ Each standard interpretation adds mathematical structure beyond the six axioms. 
 | Many-Worlds | Infinite branching structure | ≥ 2 | 0 |
 | Pilot wave | Hidden guidance field ψ + Q | ≥ 2 | 0 |
 | BST (this paper) | Nothing beyond D_IV^5 | 0 | 12 (see §13) |
+
+Why each interpretation reaches depth ≥ 2: **Copenhagen** defines "observer" and then defines "collapse" in terms of observer — two composed definitions. **Many-Worlds** defines a branching structure on top of the Hilbert space, then defines a measure over branches to recover probabilities — two composed definitions. **Pilot wave** defines a guidance equation for Q in terms of ψ, then defines the equilibrium hypothesis (ρ = |ψ|²) to derive the Born rule — two composed definitions. Each produces the same predictions as the six axioms, at higher definitional cost.
 
 Every interpretation that adds structure beyond the geometry operates at depth ≥ 2 — it composes definitions on top of definitions. None produces a prediction that differs from standard QM. By the depth ceiling theorem (T421), mathematical content lives at depth ≤ 1. Depth ≥ 2 structure is definitional overhead.
 
@@ -578,8 +580,8 @@ Two generations of physicists built careers interpreting axioms that were theore
 
 ---
 
-*Paper #20, v2 (merged). April 4, 2026.*
-*Grace (§1-6 narrative), Elie (§7-15 structure + abstract), Lyra (physics review), Keeper (audit).*
+*Paper #20, v2.4. April 5, 2026.*
+*Grace (§1-6 narrative), Elie (§7-15 structure + abstract), Lyra (physics review + M7/M8/S1-S3 fixes), Keeper (audit).*
 *"The century of interpretation was a coordinate debate. Here are the coordinates."*
 *AC(0) classification: (C = 2, D = 1). 15 sections. 12 predictions.*
 
