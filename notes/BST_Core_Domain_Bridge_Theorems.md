@@ -32,11 +32,11 @@ The Friedmann equation $H^2 = (8\pi G/3)\rho - k/a^2 + \Lambda/3$ becomes a **ze
 
 $$r_s(m_p) = \frac{2G \cdot 6\pi^5 m_e}{c^2} = 2(6\pi^5)^3 \alpha^{24} \frac{\hbar}{m_e c}$$
 
-The ratio of proton Schwarzschild radius to proton Compton wavelength:
+The ratio of proton Schwarzschild radius to proton reduced Compton wavelength $\lambdabar_C = \hbar/(m_p c)$:
 
-$$\frac{r_s(m_p)}{\lambda_C(m_p)} = \frac{r_s(m_p)}{h/(m_p c)} = \frac{G m_p}{c^2} \times \frac{m_p c}{h} = \frac{G m_p^2}{\hbar c} = (6\pi^5)^4 \alpha^{24}$$
+$$\frac{r_s(m_p)}{\lambdabar_C(m_p)} = \frac{2G m_p^2}{\hbar c} = 2(6\pi^5)^4 \alpha^{24}$$
 
-This is a pure BST number: the gravitational self-coupling of the proton is $(m_p/m_e)^4 \times \alpha^{4C_2}$.
+This is a pure BST number: twice the gravitational self-coupling of the proton, $(m_p/m_e)^4 \times \alpha^{4C_2}$.
 
 **Bridge.** The ratio connects a GR length scale ($r_s$, from the Schwarzschild solution) to a nuclear mass scale ($m_p$, from strong interaction physics). Both are determined by $\{N_c, n_C, g, C_2, N_{\max}\}$.
 
@@ -250,7 +250,7 @@ Every constant is BST-derived. The radiation-dominated era is the epoch when EM 
 | T-id | Bridge | Domain Pair | Depth | Key Formula |
 |------|--------|------------|-------|-------------|
 | T867 | Einstein–BST Field Equation | Cosmo ↔ GR | 0 | $H_0 = c\sqrt{19\Lambda/39}$ |
-| T868 | Gravitational–Nuclear Scale | Cosmo ↔ GR | 0 | $r_s(m_p)/\lambda_C = (6\pi^5)^4 \alpha^{24}$ |
+| T868 | Gravitational–Nuclear Scale | Cosmo ↔ GR | 0 | $r_s(m_p)/\lambdabar_C = 2(6\pi^5)^4 \alpha^{24}$ |
 | T869 | Hawking Temperature from $D_{IV}^5$ | GR ↔ QM | 1 | $T_H = \hbar c^3/(8\pi G M k_B)$ |
 | T870 | Unruh–MOND Bridge | GR ↔ QM | 1 | $T_U(a_0)$ from BST-derived $a_0$ |
 | T871 | Heat Kernel GR–QM Reader | GR ↔ QM | 0 | $a_k$ ratios = BST integers |

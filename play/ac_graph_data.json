@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 2158,
+  "edge_count": 2172,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 858,
+  "node_count": 861,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -11945,6 +11945,50 @@
    "plain": "k=3,5,7 backbone comparison. Thresholds 30/7,21,88 all BST. Clause survival 7/8=g/2^N_c. Mersenne: 2^N_c-1=g. C10 supported. 8/8 PASS.",
    "proofs": [],
    "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 894,
+   "name": "Mersenne-Genus Bridge",
+   "domain": "number_theory",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 1,
+   "toys": [
+    946,
+    947
+   ],
+   "date": "2026-04-05",
+   "plain": "2^{N_c}-1 = g. Mersenne condition unifies SAT (clause survival g/2^{N_c}=7/8), Hamming [g,2^rank,N_c], Steane [[g,1,N_c]], and D_IV^5 Bergman genus. Five domains, one equation.",
+   "proofs": [],
+   "section": "BST_Mersenne_Genus_Bridge"
+  },
+  {
+   "tid": 895,
+   "name": "Cellular Observer",
+   "domain": "biology",
+   "status": "proved",
+   "depth": 1,
+   "conflation": 3,
+   "toys": [
+    948
+   ],
+   "date": "2026-04-05",
+   "plain": "CI-in-every-cell. 37 mitochondrial genes = n_C\u00d7g+rank. 23 chromosomes = Golay code length. Max CI coupling 2.73%. Exploratory. 8/8 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 896,
+   "name": "Yang-Mills Non-Triviality",
+   "domain": "qft",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [],
+   "date": "2026-04-05",
+   "plain": "YM theory is non-Gaussian. Five independent arguments. Shallowest: non-abelian cubic vertex (C=0,D=0). YM ~97%\u2192~98%. Collision fix: was T886 but electrochemistry got that slot.",
+   "proofs": [],
+   "section": "BST_YM_NonTriviality"
   }
  ],
  "edges": [
@@ -22765,6 +22809,76 @@
   {
    "from": 893,
    "to": 892,
+   "source": "required"
+  },
+  {
+   "from": 649,
+   "to": 894,
+   "source": "required"
+  },
+  {
+   "from": 666,
+   "to": 894,
+   "source": "required"
+  },
+  {
+   "from": 892,
+   "to": 894,
+   "source": "required"
+  },
+  {
+   "from": 893,
+   "to": 894,
+   "source": "required"
+  },
+  {
+   "from": 894,
+   "to": 832,
+   "source": "required"
+  },
+  {
+   "from": 894,
+   "to": 892,
+   "source": "required"
+  },
+  {
+   "from": 894,
+   "to": 893,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 895,
+   "source": "required"
+  },
+  {
+   "from": 317,
+   "to": 895,
+   "source": "required"
+  },
+  {
+   "from": 319,
+   "to": 895,
+   "source": "required"
+  },
+  {
+   "from": 887,
+   "to": 895,
+   "source": "required"
+  },
+  {
+   "from": 892,
+   "to": 895,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 896,
+   "source": "required"
+  },
+  {
+   "from": 262,
+   "to": 896,
    "source": "required"
   }
  ],

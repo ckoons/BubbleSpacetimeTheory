@@ -49,7 +49,7 @@ The key observation is that BST's integers select *specific cavity gaps* where v
 
 ## §2. Two Force Sources from BST
 
-### §2.1 Source 1: Casimir Asymmetry (Toy 921, Toy 935)
+### §2.1 Source 1: Casimir Asymmetry (Toy 935)
 
 An asymmetric Casimir cavity — narrow gap in front, wide gap behind — creates a net force toward the narrower gap:
 
@@ -212,13 +212,23 @@ The acceleration is high (4,900 $g$) only because the element is 372 nm thin. A 
 
 The effective specific impulse ($I_{\text{sp,eff}} = F \times \tau_{\text{life}} / (m \times g_0)$, where $\tau_{\text{life}} \approx 3$ years for MEMS) exceeds $10^{11}$ s — five orders of magnitude beyond ion engines ($\sim$3,000 s) and eight beyond chemical rockets ($\sim$300 s). This is possible because there is no propellant mass flow.
 
-### §4.3 Force Mechanism
+### §4.3 Force Mechanism — Newton's 3rd Law and One-Shot vs. Continuous
 
-The Casimir force extracts momentum from the vacuum mode asymmetry. This is:
+**Critical clarification.** In a *rigid* device, all Casimir forces are internal and sum to zero by Newton's 3rd law. A rigid asymmetric body cannot accelerate itself. The mechanism therefore operates in one of two modes:
 
-- **Not reactionless.** The reaction is absorbed by the vacuum field structure. Total momentum of (device + vacuum modes) is conserved.
-- **Not perpetual motion.** Energy comes from assembling the cavity during fabrication. The engine converts stored vacuum mode energy to kinetic energy, like a permanent magnet lifting iron — no fuel consumed, but energy was stored during magnetization (here: fabrication).
+**Mode 1: One-shot collapse.** The front cavity is fabricated against the Casimir attraction (energy stored during assembly). When released, the front plates collapse (converting stored vacuum energy to kinetic energy). The rear cavity, being wider, collapses more slowly. The differential collapse rate produces net displacement — like a compressed spring releasing. Total extractable energy $\leq E_C \approx 66$ keV per element. This is a finite energy store, not continuous thrust.
+
+**Mode 2: External-anchor propulsion.** The device is tethered to (or pushes off from) an external structure. The Casimir force differential provides net force *against the anchor*. Thrust is continuous as long as the anchor exists. This is the micro-satellite station-keeping application: the spacecraft pushes against its own ejected structure or a deployed tether.
+
+**Mode 3: Cyclic reassembly.** An external energy source (piezoelectric, thermal) cyclically reassembles the front cavity against the Casimir attraction. Each cycle: collapse forward (energy → kinetic), reassemble (external energy → stored). Net thrust = Casimir force $\times$ duty cycle. This requires power input — it is a Casimir-mediated thruster, not a perpetual engine.
+
+The Casimir force is:
+
+- **Not reactionless.** Total momentum of (device + vacuum modes + anchor/field) is conserved.
+- **Not perpetual motion.** Energy comes from fabrication (Mode 1) or external power (Mode 3).
 - **Established physics.** The Casimir force between asymmetric geometries is measured and predicted by QED. The novelty is BST's selection of optimal cavity parameters.
+
+**Honest note:** The force values in §2, §4.2, and §5 assume continuous operation (Mode 2 or 3). Mode 1 gives a one-shot impulse of $I = E_C / v_{\text{exhaust}}$, not sustained thrust. The scaling tables (§5) apply only to Modes 2 and 3.
 
 ---
 
@@ -343,7 +353,7 @@ The phonon propulsion engine is the **unifying device** — it combines componen
 
 | Component | Source Toy | Role in Engine |
 |-----------|-----------|---------------|
-| Casimir asymmetry | 921 (Substrate Sail) | Front: net force from asymmetric cavity |
+| Casimir asymmetry | 935 (Phonon Propulsion Engine) | Front: net force from asymmetric cavity |
 | Phonon laser | 928 (Phonon Laser) | Phase-locking and diagnostics |
 | Phonon resonance | 934 (Resonance Amplification) | FoM kink, metamaterial band structure |
 | Lattice harvester | 922 (Casimir Lattice Harvester) | Self-powered operation |

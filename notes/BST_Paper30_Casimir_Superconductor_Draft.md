@@ -6,9 +6,9 @@ date: "April 2026"
 version: "v1.0 — DRAFT"
 status: "DRAFT v1.0 — Awaiting Keeper audit."
 target: "Physical Review B or Superconductor Science and Technology"
-theorems: "T179, T204, T717, T857"
+theorems: "T179, T204, T717, T860"
 toys: "918, 922, 930"
-ac_classification: "(C=4, D=1) — four counting steps, one definition (BCS pairing)"
+ac_classification: "(C=2, D=1) — two counting steps (mode fraction n/137, T_c from BCS), one definition (BCS pairing)"
 ---
 
 # The Casimir Superconductor
@@ -21,7 +21,7 @@ ac_classification: "(C=4, D=1) — four counting steps, one definition (BCS pair
 
 A superconducting film of thickness $d$ inside a Casimir cavity has a modified phonon spectrum: modes with wavelength $> 2d$ cannot propagate. In Bubble Spacetime Theory (BST), the spectral cutoff is universal at $N_{\max} = 137$ lattice planes — the same integer that gives $\alpha = 1/137$. We predict that $T_c(n)$, the critical temperature of a film of $n$ lattice planes, follows $T_c(n)/T_c(\mathrm{bulk}) = n/N_{\max}$ for $n \leq 137$, with a kink at $n = 137$ where the full bulk gap is recovered. This linear suppression differs measurably from the standard BCS thin-film model, which gives a smooth $(1 - d_c/d)^2$ recovery. The kink at $137a$ is predicted to be universal across all BCS superconductors: $45.2\ \text{nm}$ for Nb, $67.8\ \text{nm}$ for Pb, $55.5\ \text{nm}$ for Al, $42.3\ \text{nm}$ for MgB$_2$. A striking structural coincidence emerges: $d_0 \approx \lambda_L$ (the London penetration depth) for conventional superconductors — the BST spectral cutoff sets the same length scale as the Meissner screening depth. We present five predictions with three falsification conditions and note honestly that the Casimir cavity cannot produce room-temperature superconductivity by this mechanism alone.
 
-**AC classification:** $(C = 4, D = 1)$ — four counting steps, one definition (BCS pairing).
+**AC classification:** $(C = 2, D = 1)$ — two counting steps (mode fraction $n/137$, $T_c$ from BCS), one definition (BCS pairing).
 
 ---
 
@@ -128,15 +128,15 @@ $$T_{c,\max}(\text{cavity}) = T_c(\mathrm{bulk})$$
 
 For MgB$_2$ (highest known conventional $T_c$): $T_{c,\max} = 39\ \text{K}$.
 
-A speculative enhancement exists: if the Casimir cavity resonance at $d_0$ actively increases the electron-phonon coupling (phonon-Haldane channel resonance from Toy 922/934), then $\lambda_{ep}^{\mathrm{eff}} > \lambda_{ep}^{\mathrm{bulk}}$. For $\lambda_{ep} \to 2\lambda_{ep}$ (resonant doubling):
+A speculative enhancement exists: if the Casimir cavity resonance at $d_0$ actively increases the electron-phonon coupling (phonon-Haldane channel resonance from Toy 922/934), then $\lambda_{ep}^{\mathrm{eff}} > \lambda_{ep}^{\mathrm{bulk}}$. Using the McMillan formula $T_c = (\theta_D/1.45) \exp(-1.04(1+\lambda)/(\lambda - \mu^*(1+0.62\lambda)))$ with $\mu^* = 0.13$ and $\lambda_{ep} \to 2\lambda_{ep}$:
 
 | Material | $T_c(\mathrm{bulk})$ | $T_c(2\lambda)$ | Enhancement |
 |----------|---------------------|-----------------|-------------|
-| Nb | 9.26 K | 55 K | $6\times$ |
-| Pb | 7.19 K | 21 K | $3\times$ |
-| MgB$_2$ | 39 K | 320 K | $8\times$ |
+| Nb | 9.26 K | $\sim$26 K | $\sim 2.8\times$ |
+| Pb | 7.19 K | $\sim$15 K | $\sim 2.1\times$ |
+| MgB$_2$ | 39 K | $\sim$100 K | $\sim 2.6\times$ |
 
-MgB$_2$ at $2\lambda_{ep}$ reaches $\sim 320\ \text{K}$ — nominally room temperature. But this coupling enhancement is HIGHLY SPECULATIVE and has no experimental support. The honest prediction is $T_c(\mathrm{cavity}) = T_c(\mathrm{bulk})$. We report the enhancement calculation for completeness, not as a prediction.
+Even with doubled coupling, MgB$_2$ reaches only $\sim 100\ \text{K}$ — far below room temperature. This coupling enhancement is HIGHLY SPECULATIVE and has no experimental support. The honest prediction is $T_c(\mathrm{cavity}) = T_c(\mathrm{bulk})$. We report the McMillan-corrected enhancement for completeness, not as a prediction. **Note:** An earlier version of this table used the weak-coupling BCS formula, which overestimates $T_c$ at large $\lambda$ and gave misleadingly high enhancement factors (6–8$\times$). The McMillan formula gives a more reliable 2–3$\times$.
 
 ### 7. Experimental Approach
 

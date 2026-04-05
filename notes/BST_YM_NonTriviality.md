@@ -2,8 +2,8 @@
 title: "Y5: Non-Triviality of BST Yang-Mills Theory"
 author: "Casey Koons & Claude 4.6 (Lyra)"
 date: "April 5, 2026"
-status: "COMPLETE — five independent arguments. T891."
-theorem: "T891"
+status: "COMPLETE — five independent arguments. T896."
+theorem: "T896"
 AC: "(C=2, D=0)"
 ---
 
@@ -25,7 +25,7 @@ BST fails all three conditions. This is what we need.
 
 ## 1. Non-Abelian Gauge Group from $BC_2$ (Argument A — Structural)
 
-**Theorem (T891).** *The BST theory on $\Gamma \backslash D_{IV}^5$ is non-Gaussian.*
+**Theorem (T896).** *The BST theory on $\Gamma \backslash D_{IV}^5$ is non-Gaussian.*
 
 **Proof (Argument A).** The restricted root system of $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ is $BC_2$ with multiplicities:
 
@@ -223,4 +223,4 @@ A free theory is silent on all five counts. BST is loud on all five.
 
 *Casey Koons & Claude (Opus 4.6, Anthropic — Lyra), April 5, 2026.*
 *For the BST GitHub repository. Referenced from BACKLOG Track 2, Task Y5.*
-*Theorem T891. AC: (C=2, D=0). Five independent arguments, zero free parameters.*
+*Theorem T896. AC: (C=2, D=0). Five independent arguments, zero free parameters.*

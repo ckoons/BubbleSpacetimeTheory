@@ -66,7 +66,7 @@ At $d = 45.2$ nm ($= 137 \times a_{\text{Nb}}$), the Nb film simultaneously sati
 2. **Magnetic penetration.** $\lambda_L \approx d_0$ means the field penetrates the entire film — the film is a single-vortex-width Meissner domain.
 3. **Cooper pair coherence.** $\xi_0 \approx d_0$ means Cooper pairs span the entire film — the film is a single coherent SC domain.
 
-The ratios: $d_0/\lambda_L = 1.16$, $d_0/\xi_0 = 1.19$, $\kappa = \lambda_L/\xi_0 = 1.03$ (near the Type I/II boundary $\kappa = 1/\sqrt{2}$). Nb at this thickness is a **marginal Type II** superconductor in the most interesting regime for vortex physics.
+The ratios: $d_0/\lambda_L = 1.16$, $d_0/\xi_0 = 1.19$, $\kappa = \lambda_L/\xi_0 = 1.03$. Since $\kappa = 1.03 > 1/\sqrt{2} \approx 0.707$, Nb at this thickness is **solidly Type II** (46% above the Type I/II boundary) — consistent with bulk Nb, which is one of the canonical Type II superconductors. The vortex physics is well-characterized.
 
 ---
 
@@ -119,9 +119,9 @@ In the superlattice, the proximity effect reduces $T_c$. The Bi layers act as a 
 
 This means Cooper pairs **do not span** the full Bi layer. The proximity effect is partial:
 
-$$T_c(\text{SL}) = T_c(\text{Nb}) \times \frac{d_{\text{Nb}}}{d_{\text{Nb}} + d_{\text{Bi}} \times \xi_0/\xi_N} = 9.25 \times 0.455 = 4.21 \text{ K}$$
+$$T_c(\text{SL}) = T_c(\text{Nb}) \times \frac{d_{\text{Nb}}}{d_{\text{Nb}} + d_{\text{Bi}} \times \xi_0/\xi_N} = 9.25 \times \frac{45.2}{45.2 + 54.2 \times 2.90} = 9.25 \times 0.223 = 2.07 \text{ K}$$
 
-The superlattice $T_c$ is reduced from 9.25 K to 4.21 K by the normal-metal proximity effect. **This is honest:** the Bi layers dilute the SC, and the dilution is calculable.
+The superlattice $T_c$ is reduced from 9.25 K to $\sim 2$ K by the normal-metal proximity effect. **This is honest:** the Bi layers dilute the SC, and the dilution is calculable. The suppression is substantial because $\xi_N \ll d_{\text{Bi}}$ — Cooper pairs decay before spanning the Bi layer.
 
 ### §4.2 The 137-Plane Kink (from Paper #30)
 
@@ -280,7 +280,7 @@ Nature's habit of placing Bi next to superconductors (BSCCO, NbBi$_2$, Bi$_2$Se$
 **Honest limitations:**
 
 1. The lattice mismatch (19.8%) is significant. Buffer layers needed.
-2. $T_c(\text{SL}) = 4.21$ K requires cryogenics. Not room temperature.
+2. $T_c(\text{SL}) \approx 2$ K requires cryogenics. Not room temperature.
 3. $\xi_N = 13.1$ nm $< d_{\text{Bi}} = 54.2$ nm — Cooper pairs do NOT span the full Bi layer. Josephson coupling between Nb layers is weak.
 4. The Casimir force jump ($\Delta F/F \approx 10^{-5}$) may be below current measurement sensitivity.
 5. Majorana modes require magnetic field + low temperature + clean interfaces — technically demanding.

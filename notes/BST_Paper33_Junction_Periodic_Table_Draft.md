@@ -20,7 +20,7 @@ prior_papers: "Paper #25 (Bergman mechanism), Paper #31 (BiNb superlattice)"
 
 ## Abstract
 
-In the Bi/Nb superlattice (Paper #31), the phonon mode coupling ratio $R = v_{\text{Bi}} a_{\text{Nb}} / (v_{\text{Nb}} a_{\text{Bi}}) = 0.4294 \approx N_c/g = 3/7$ to 0.18%. We ask: is this unique to BiNb, or does a general pattern exist? A survey of 22 materials (231 unique pairs) shows that **26 interfaces** match core BST integer rationals ($3/5, 3/7, 5/7, 5/6, 6/7$) within 2%, with 46 matches below 0.5%. The tightest match is Bi/Ti at $R = 0.2190 \approx 30/137$ (0.013% — the fine structure constant). Statistical honesty demands noting that 52 BST rationals cover $\sim 70\%$ of the coupling range, so many matches are expected by chance. The strong claim is not "many pairs match" but "**the best interfaces match the core rationals**" — the irreducible prime ratios $N_c/n_C$, $N_c/g$, $n_C/g$ of the three prime BST integers. The physical mechanism is phonon mode commensurability: when $R = p/q$ is a simple rational, an infinite set of mode pairs $(m, n) = (kp, kq)$ are commensurate across the interface, enabling efficient phonon transfer. This is the Bergman spectral mechanism (Paper #25) operating at boundaries rather than in bulk. We predict that interfaces with BST rational coupling show lower Kapitza resistance, sharper superlattice phonon band gaps, and higher heterostructure mobility than interfaces with irrational coupling, independent of acoustic impedance mismatch. Five predictions, four falsification conditions. All from $\{3, 5, 7, 6, 137\}$.
+In the Bi/Nb superlattice (Paper #31), the phonon mode coupling ratio $R = v_{\text{Bi}} a_{\text{Nb}} / (v_{\text{Nb}} a_{\text{Bi}}) = 0.4293 \approx N_c/g = 3/7$ to 0.17%. We ask: is this unique to BiNb, or does a general pattern exist? A survey of 22 materials (231 unique pairs) shows that **26 interfaces** match core BST integer rationals ($3/5, 3/7, 5/7, 5/6, 6/7$) within 2%, with 46 matches below 0.5%. The tightest match is Bi/Ti at $R = 0.2190 \approx 30/137$ (0.013% — with $N_{\max} = 137$ in the denominator). Statistical honesty demands noting that 52 BST rationals cover $\sim 70\%$ of the coupling range, so many matches are expected by chance. The strong claim is not "many pairs match" but "**the best interfaces match the core rationals**" — the irreducible prime ratios $N_c/n_C$, $N_c/g$, $n_C/g$ of the three prime BST integers. The physical mechanism is phonon mode commensurability: when $R = p/q$ is a simple rational, an infinite set of mode pairs $(m, n) = (kp, kq)$ are commensurate across the interface, enabling efficient phonon transfer. This is the Bergman spectral mechanism (Paper #25) operating at boundaries rather than in bulk. We predict that interfaces with BST rational coupling show lower Kapitza resistance, sharper superlattice phonon band gaps, and higher heterostructure mobility than interfaces with irrational coupling, independent of acoustic impedance mismatch. Five predictions, four falsification conditions. All from $\{3, 5, 7, 6, 137\}$.
 
 ---
 
@@ -172,7 +172,7 @@ R & 3/7 & 3/5 & 5/7 & 5/6 & 6/7 \\
 \hline
 \text{Prototype} & \text{Bi/Nb} & & & & \\
 \text{Category} & \text{Topo/SC} & \text{Semi} & \text{Metal} & \text{Near-match} & \text{Near-match} \\
-\text{Mode pair} & (3k, 7k) & (3k, 5k) & (5k, 7k) & (5k, 6k) & (6k, 7k) \\
+\text{Mode pair} & (7k, 3k) & (5k, 3k) & (7k, 5k) & (6k, 5k) & (7k, 6k) \\
 \text{First match} & k=1 & k=1 & k=1 & k=1 & k=1 \\
 \end{array}$$
 

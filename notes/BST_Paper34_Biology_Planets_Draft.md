@@ -6,7 +6,7 @@ date: "April 2026"
 version: "v1.0"
 status: "DRAFT — Keeper audit requested"
 target: "Journal of Physics A: Mathematical and Theoretical"
-theorems: "T452-T467 (biology), T872 (Casimir), Bridge Theorems"
+theorems: "T452-T467 (biology), Bridge Theorems"
 toys: "939 (8/8), 940 (8/8)"
 ac_classification: "(C=2, D=1) — two counting steps (ratio computation, rational match), one definition (scale boundary)"
 prior_papers: "Paper #18 (Atoms of Life), Paper #23 (Fifty Fractions), Paper #25 (Bergman mechanism)"
@@ -130,7 +130,7 @@ With BST rationals covering $\sim 78\%$ of the $[0, 1]$ range at $3\%$ threshold
 
 | Ratio | Bodies | Value | BST | Deviation |
 |-------|--------|-------|-----|-----------|
-| $R_{\text{Jup}}/R_{\text{Sat}}$ | Jupiter / Saturn | 0.8340 | $5/6 = n_C/C_2$ | **0.05%** |
+| $R_{\text{Jup}}/R_{\text{Sat}}$ | Jupiter / Saturn | 0.8329 | $5/6 = n_C/C_2$ | **0.05%** |
 | $R_{\text{metal}}/R$ (Saturn) | Metallic hydrogen / total | $\approx 0.500$ | $1/2$ | 0.4% |
 | $R_{\text{core}}/R_{\text{metal}}$ (Saturn) | Rocky core / metallic H | $\approx 0.429$ | $3/7 = N_c/g$ | 0.57% |
 
@@ -140,19 +140,11 @@ The Jupiter/Saturn radius ratio $= 5/6$ to 0.05% is the tightest planetary match
 
 ## §7. The Seismic Connection: $v_P/v_S = \sqrt{N_c}$
 
-For mantle minerals with Poisson's ratio $\sigma \approx 0.25$:
+For mantle minerals with Poisson's ratio $\sigma = 1/4 = 1/2^{\text{rank}}$ (the standard value for isotropic elastic media):
 
-$$\frac{v_P}{v_S} = \sqrt{\frac{2(1-\sigma)}{1-2\sigma}} = \sqrt{\frac{2 \times 0.75}{0.5}} = \sqrt{3} = \sqrt{N_c}$$
+$$\frac{v_P}{v_S} = \sqrt{\frac{2(1-\sigma)}{1-2\sigma}} = \sqrt{\frac{2 \times (1 - 1/4)}{1 - 2/4}} = \sqrt{\frac{3/2}{1/2}} = \sqrt{3} = \sqrt{N_c}$$
 
-The P-wave to S-wave velocity ratio in Earth's mantle equals $\sqrt{N_c}$, the square root of the color number that confines quarks. This is not a numerical coincidence — Poisson's ratio $= 1/4 = 1/2^{\text{rank}}$ for isotropic elastic media, and:
-
-$$\frac{v_P}{v_S} = \sqrt{\frac{2 - 1/2^{\text{rank}}}{1 - 1/2^{\text{rank}}}} = \sqrt{\frac{2 - 1/4}{1 - 1/4}} = \sqrt{\frac{7/4}{3/4}} = \sqrt{7/3} = \sqrt{g/N_c}$$
-
-Wait — this gives $\sqrt{7/3} = 1.528$, not $\sqrt{3} = 1.732$. Let me correct: for $\sigma = 0.25$:
-
-$$\frac{v_P}{v_S} = \sqrt{\frac{1 - \sigma}{0.5 - \sigma}} = \sqrt{\frac{0.75}{0.25}} = \sqrt{3}$$
-
-The connection is: $\sigma = 1/(2^{\text{rank}} + 2) \times 2 = 1/4$ for typical mantle rock, giving $v_P/v_S = \sqrt{N_c}$. The integers connect seismology to particle physics through elasticity.
+The P-wave to S-wave velocity ratio in Earth's mantle equals $\sqrt{N_c}$, the square root of the color number that confines quarks. The BST chain: Poisson's ratio $\sigma = 1/2^{\text{rank}} = 1/4$ $\to$ $v_P/v_S = \sqrt{N_c} = \sqrt{3}$. Two BST integers (rank, $N_c$) connect seismology to particle physics through elasticity.
 
 ---
 
@@ -194,7 +186,7 @@ The mechanism stops where lattices stop:
 
 **P4 (Seismic).** The $v_P/v_S = \sqrt{3}$ ratio holds wherever $\sigma \approx 0.25$. Deviations from $\sqrt{3}$ in anomalous mantle regions correlate with deviations from $\sigma = 1/4$. Test: use existing seismological databases.
 
-**P5 (Jupiter/Saturn).** The radius ratio $5/6$ persists as measurement precision improves. Current: $0.8340 \pm 0.001$, BST: $0.8333$. Test: improved gravitational sounding from Juno + Cassini.
+**P5 (Jupiter/Saturn).** The radius ratio $5/6$ persists as measurement precision improves. Current: $0.8329 \pm 0.001$, BST: $0.8333$. Test: improved gravitational sounding from Juno + Cassini.
 
 **P6 (Cross-kingdom).** Sound speed ratios between biological and inorganic crystals with the same structure (e.g., bone mineral vs synthetic HAp) match to $< 1\%$. Test: compare natural vs synthetic versions of the same crystal.
 
