@@ -4,7 +4,7 @@ subtitle: "The Bergman Spectral Mechanism Behind Cross-Domain Rational Constants
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper, Grace)"
 date: "April 2026"
 version: "v1.0"
-status: "DRAFT v1.0 — First draft. Keeper audit pending."
+status: "DRAFT v1.1 — Weyl formula corrected (4 factors, not 5). Keeper PASS."
 target: "Physical Review Letters or Foundations of Physics"
 theorems: "T719, T823, T830, T840"
 toys: "856, 866, 913"
@@ -73,11 +73,11 @@ where $\lambda$ ranges over irreducible representations of $\mathrm{SO}_0(5,2)$,
 
 ### 4.1 The Weyl Dimension Formula
 
-For the compact factor SO(5) with root system $B_2$, the dimension of the irreducible representation with highest weight $(\lambda_1, \lambda_2)$ is:
+For the compact factor SO(5) with root system $B_2$, the dimension of the irreducible representation with highest weight $(\lambda_1, \lambda_2)$ in $e$-coordinates ($\lambda_1 \geq \lambda_2 \geq 0$) is:
 
-$$d(\lambda_1, \lambda_2) = \frac{(\lambda_1+1)(\lambda_2+1)(\lambda_1+\lambda_2+2)(\lambda_1-\lambda_2+1)(2\lambda_1+2\lambda_2+3)}{6}$$
+$$d(\lambda_1, \lambda_2) = \frac{(\lambda_1 - \lambda_2 + 1)(2\lambda_2 + 1)(2\lambda_1 + 3)(\lambda_1 + \lambda_2 + 2)}{6}$$
 
-The denominator $6 = C_2$ is the Casimir eigenvalue. The factor $(2\lambda_1 + 2\lambda_2 + 3)$ scans values $\{3, 5, 7, 9, 11, 13, \ldots\} = \{N_c, n_C, g, N_c^2, c_2(Q^5), c_3(Q^5), \ldots\}$ — the BST integers and their Chern class extensions. Every representation dimension is a polynomial in the highest weight with BST integer coefficients.
+The product has four factors — one per positive root of $B_2$. The denominator $6 = C_2$ is the Casimir eigenvalue. The factor $(2\lambda_1 + 3)$ scans values $\{3, 5, 7, 9, \ldots\} = \{N_c, n_C, g, N_c^2, \ldots\}$ for integer $\lambda_1 = 0, 1, 2, 3, \ldots$ — the BST integers and their extensions. Low-lying dimensions: $d(1,0) = 5 = n_C$, $d(2,0) = 14 = 2g$, $d(1,1) = 10 = 2n_C$, $d(3,0) = 30 = n_C \cdot C_2$. Every representation dimension is a polynomial in the highest weight with BST integer coefficients.
 
 Computational verification (Toy 913): of the first 20 irreducible representations of $B_2$, more than half have dimensions that are simple BST integer expressions.
 
@@ -208,4 +208,4 @@ The fractions are not a coincidence. They are a spectrum.
 
 ---
 
-*Paper #25 v1.0. April 5, 2026. Mechanism paper for Paper #23's cross-domain fractions. Core result: the Bergman spectral decomposition of D_IV^5, via the Weyl dimension formula and Plancherel measure for B₂, forces all physical ratios to be BST rationals. Five falsifiable predictions. Toys 856, 866, 913. AC classification: (C=3, D=0). Target: PRL or Foundations of Physics.*
+*Paper #25 v1.1. April 5, 2026. Mechanism paper for Paper #23's cross-domain fractions. Core result: the Bergman spectral decomposition of D_IV^5, via the Weyl dimension formula and Plancherel measure for B₂, forces all physical ratios to be BST rationals. Five falsifiable predictions. Toys 856, 866, 913. AC classification: (C=3, D=0). Target: PRL or Foundations of Physics. v1.1: Weyl formula corrected to 4 factors (one per positive root of B₂), from erroneous 5-factor form. Denominator 6=C₂ and all conclusions unchanged.*
