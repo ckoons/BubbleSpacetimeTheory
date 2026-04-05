@@ -235,7 +235,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 
 ## Hard Problems, One Method
 
-BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and the Four-Color Theorem — all from the same algebra and the same method. Every proof decomposes into AC(0) operations (definitions, identities, counting) at depth ≤ 1 via the Koons Machine (Depth Census: 78% D=0, 21% D=1, <1% D=2, 0% D≥3 across 854 theorems).
+BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and the Four-Color Theorem — all from the same algebra and the same method. Every proof decomposes into AC(0) operations (definitions, identities, counting) at depth ≤ 1 via the Koons Machine (Depth Census: 78% D=0, 21% D=1, <1% D=2, 0% D≥3 across 863 theorems).
 
 | Problem | Status | Method | Paper |
 |---------|--------|--------|-------|
@@ -512,7 +512,7 @@ Full backlog: `notes/BACKLOG.md`.
 
 This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has no free parameters because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
 
-*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 854 theorems. 924 toys. 390+ predictions. 34 physical domains. Zero free parameters.*
+*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 863 theorems. 933 toys. 400+ predictions. 34 physical domains. 20 substrate engineering devices. Zero free parameters.*
 
 ---
 
