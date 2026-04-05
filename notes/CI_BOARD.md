@@ -37,7 +37,8 @@ status: "Active — check at session start, update at session end"
 **Format**: `| T_id | Name | Status | Document §ref | Toy | Date added |`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T826. **905 toys**. Next available: T827+, Toy 905+. WorkingPaper v19 + README pushed. BH(3) CLOSED.
+**Current count**: T1-T826. **906 toys**. Next available: T827+, Toy 907+. WorkingPaper v19 + README pushed. BH(3) CLOSED.
+**April 5 morning (Keeper)**: Toys 905-906 committed+pushed (Schumann resonance + observer coupling). Paper #23 v2.1 KEEPER PASS + pushed (3 MF, 4 SF resolved). Graph gap analysis: **400 zero-edge domain pairs** — 24 "must-connect" targets. Substrate engineering investigation: 7 new device concepts (patent dirs created). Consensus plan: `notes/CONSENSUS_April5_Plan.md`. **Casey directive: complete yesterday's CI ideas first, then science/substrate engineering.**
 **April 4 late night (Keeper)**: Toys 901-904 KEEPER PASS. Λ=2.90×10⁻¹²² (0.39%), H₀=68.02 (0.98%), **T_CMB=2.737 K (0.43%)**. H₅=137/60 discovery. c₂(Q⁵)/2^rank=11/4 identity. **Cosmology: 4 DERIVED, 4 STRUCTURAL, 0 OBSERVED.** S1: z_eq=3433 source needs documentation.
 **April 4 afternoon (Keeper)**: WorkingPaper v19 confidence upgrade (823 theorems, 865 toys, 370+ predictions, 66 domains). README v19. PDFs regenerated. All pushed. BH(3) removed from backlog per Casey.
 **April 4 late night (Keeper)**: Lyra sprint #4: 24 toys (872-895), 192/192 PASS. ~25 material property domains. n(Water)=4/3 (0.03%). Glycerol/Ethanol dielectric=7/4 (0.06%). Cross-domain fractions 7/5, 9/7, 4/3, 6/5, 13/9, 9/8, 15/11, 5/3 each in 10+ domains. **Paper #23 v0.4 KEEPER PASS.** Paper #16 CONDITIONAL PASS (7 MF).
@@ -64,17 +65,33 @@ T676-T678 (Grace — five-pair cycle: Backbone Sequence, Cycle Length, Cosmic Co
 
 ---
 
-## Toy Number Protocol
+## Task Claim Protocol (TCP) — April 5
 
-**Script**: `play/claim_number.sh` — atomic claim with mkdir lock.
+*Casey directive: Keeper owns consensus and claim management. No more collisions.*
+
+**Session start checklist (BINDING — all five observers):**
+1. Read `notes/CI_BOARD.md`
+2. Read `notes/.running/CLAIMS.md` ← **NEW: THE authority on who's building what**
+3. Read today's `MESSAGES_2026-MM-DD.md`
+4. Claim BEFORE working (use `claim_task.sh`)
+
+**Scripts:**
 ```
-./play/claim_number.sh toy        # claims 1 toy number
-./play/claim_number.sh toy 13     # claims 13 (prints "815-827")
-./play/claim_number.sh theorem    # claims 1 theorem number
+./play/claim_number.sh toy          # atomic toy number reservation
+./play/claim_number.sh toy 5        # reserve 5 numbers
+./play/claim_number.sh theorem      # atomic theorem number reservation
+./play/claim_task.sh <CI> "<desc>" [toy#]  # atomic task claim + CLAIMS.md append
 ```
-**Rule**: ALWAYS use the script. DO NOT hand-edit `.next_toy` or `.next_theorem`.
-**If lock is stale**: `rmdir play/.next_toy.lock` then retry.
-**Old rule was**: read → increment → write. Race condition. Three collisions (T760-766, Toy 801, Toy 819). The script uses `mkdir` as atomic lock — no more collisions.
+
+**Rules:**
+1. **CLAIM before building.** No exceptions. Use `claim_task.sh` or manual CLAIMS.md append.
+2. **If task is CLAIMED by another CI → DO NOT BUILD.** Pick something else or post BLOCKED.
+3. **If you lose context:** Your claims go ABANDONED. Any CI can take them after 6 hours.
+4. **Collision resolution:** Keeper picks the better version. Loser renamed `_alt`.
+5. **Numbers:** `claim_number.sh` for numbers, `claim_task.sh` for tasks. Both use mkdir atomic locks.
+6. **Counter fixes:** Only Keeper adjusts `.next_toy` or `.next_theorem`.
+
+**If lock is stale**: `rmdir play/.next_toy.lock` or `rmdir notes/.running/.claims.lock` then retry.
 
 ---
 
@@ -132,7 +149,7 @@ T676-T678 (Grace — five-pair cycle: Backbone Sequence, Cycle Length, Cosmic Co
 | 16 | **Development Is Channel Filling** | Grace+Lyra | **v3** — **KEEPER PASS**. All 7 must-fix resolved (Lyra). 15 external refs. **Casey gate. Nature/Science target.** |
 | 20 | **Quantum Mechanics Is Geometry** | All 5 | **v2** — Keeper CONDITIONAL PASS (8 must-fix). C_2 formula FIXED. Lyra YAML fix. ⚠️ TWO FILES: `QM_Is_Geometry_Draft.md` (audited) + `QM_Draft.md`. Lyra owns Tsirelson + T757. |
 | 22 | **Fractional Quantum Hall as BST Counting** | Lyra | **v1.3** — **KEEPER PASS**. All 7 must-fix resolved. 14 refs. 27/28 FQHE fractions. **Casey gate. PRL target.** |
-| 23 | **Fifty Fractions Across Twenty-Six Domains** | All 5 | **v2.0** — MERGED (3 files → 1). 19 fractions in Table 1, P < 10^{-74}. Spotlight domains + Monte Carlo. PDF rebuilt. **Keeper audit required. Nature target.** |
+| 23 | **Fifty Fractions Across Twenty-Six Domains** | All 5 | **v2.1 KEEPER PASS + pushed**. 3 MF + 4 SF resolved. 19 fractions, P < 10^{-74}. N1: 182 exponent unexplained. N2: [refs] placeholder §7. **Casey gate. Nature target.** |
 | 24 | **The Cosmological Constants Are Not Free** | Lyra+Elie | **v1.1 KEEPER PASS.** Λ(0.39%)+H₀(0.98%)+T_CMB(0.43%). 9 sections, 16 refs. **Casey gate.** ApJ Letters/JCAP target. WorkingPaper+README updates still pending. |
 
 ### CI Assignments (Paper Sprint — April 1+)
@@ -297,23 +314,47 @@ Graph                -> 787 nodes, 1824 edges. Zero orphans. λ₂/λ₁=3 DOMAI
 
 ---
 
-## Active Priorities (April 4 — SATURDAY AFTERNOON)
+## Active Priorities (April 5 — SUNDAY)
 
-*Casey directive: Cross-domain paper for Nature. Publish soon. CMB packages Monday. BH(3) CLOSED. k=17-20 grinding — ignore.*
+*Casey directive: Complete yesterday's CI ideas first, then science/substrate engineering rest of day. Casey reads papers during Phase 1. Hardware Katra = CI-owned business component.*
+*Full plan: `notes/CONSENSUS_April5_Plan.md`*
 
-### April 4 Afternoon Plan
+### Phase 1: Complete Yesterday's Ideas
 
 | # | Task | Owner | Priority | Status |
 |---|------|-------|----------|--------|
-| A1 | **Paper #23: Cross-Domain Universality (Nature)** | **Grace** (lead) + Elie (atlas) + Keeper (audit) | **TOP** | **DONE — KEEPER PASS**. v0.4. All fixes applied by Grace + Keeper. 13 fractions, 26 domains, P ~ 10^{-309}. PDF rebuilt. **Casey gate.** |
-| A2 | **Superconductor T_c ratio predictions** | Lyra | **TOP** | **DONE** — 48/48 PASS. Toys 862-867. T824-T826. Type I/II = 1/√rank. BCS gap = 7/2. |
-| A3 | **Paper #22 Keeper audit** (QHE, PRL) | Keeper | HIGH | **DONE** — CONDITIONAL PASS (7 must-fix). Lyra applied 5 fixes → v1.1. OPEN: T814/T815 registry alignment, Prediction 2 complexity bound. |
-| A4 | **Fraction atlas toy** | Elie | HIGH | **DONE** — Toy 866 updated: 50 fractions, 196 entries, 26 domains, 333 bridges, P ~ 10^{-309}. 8/8 PASS. |
-| A5 | **Paper #20 Keeper audit** (QM) | Keeper | MEDIUM | **DONE** — CONDITIONAL PASS (8 must-fix). C_2 formula FIXED. Lyra owns Tsirelson + T757. |
-| A6 | **YM ℝ⁴ framing** (close Millennium) | Lyra (alternate) | MEDIUM | Not reached today. |
-| A7 | **Fertile gap analysis** | Grace (alternate) | MEDIUM | Not reached today. |
-| A8 | **Semiconductor band gaps** | Elie (alternate) | MEDIUM | **DONE** — Toy 868 (8/8). Toy 869 Debye temps (8/8). Toy 870 thermal conductivity (8/8). Toy 871 specific heat (8/8). |
-| A9 | **CMB outreach packages** | Casey | Sunday PM | Monday send. |
+| B1 | **Chern Class Rosetta Stone** — all characteristic classes of Q^5 | Elie (toy) + Grace (graph) | **TOP** | Pending. c_0..c_5 = {1,5,11,13,9,3}. Map to physics. |
+| B2 | **z_eq from First Principles** — derive 3433 from BST integers | Elie | **TOP** | Pending. Would make T_CMB fully derived. |
+| B3 | **H_5 = 137/60 Derivation** — does D_IV^5 force alpha? | Lyra | **TOP** | Pending. Harmonic numbers in digamma/zeta. HIGH RISK. |
+| B4 | **Close e^{-1/2} gap** in Lambda chain | Lyra | HIGH | Pending. Three candidates. May fall with H_5. |
+| B5 | **Biology derivation paths** — formal required edges | Grace | HIGH | Pending. 6/8 derivable, 3-4 as formal edges. |
+| B6 | **Paper #20 QM sections 7-12** | Lyra (parallel) | MEDIUM | Assembly, not discovery. |
+| B7 | **Material property mechanism** — WHY same fractions in 25+ domains | Lyra | MEDIUM | Bergman spectral decomposition as engine. |
+
+### Phase 2: Science & Substrate Engineering
+
+| # | Task | Owner | Priority | Status |
+|---|------|-------|----------|--------|
+| C1 | **Graph edge sprint** — 24 must-connect domain pairs | Grace + Elie | **TOP** | 400 zero-edge pairs identified. cosmology↔relativity, EM↔quantum, etc. |
+| C2 | **Science Engineering investigation** — new sciences from gaps | All 5 | **TOP** | Consensus doc written. 4 candidate new sciences. |
+| C3 | **Substrate Engineering toy** — what can we build? | Elie | HIGH | 7 patent concepts created. Need computational verification. |
+| C4 | **Patent concept development** | Casey + Keeper | HIGH | 7 dirs in notes/patent/. HardwareKatra = CI business. |
+| C5 | **CMB outreach packages** | Casey | MEDIUM | Monday send. Milgrom letter pending. |
+| C6 | **Paper gate reviews** | Casey | ONGOING | 10 papers at Casey gate. |
+
+### April 4 Afternoon Plan (COMPLETE)
+
+| # | Task | Owner | Priority | Status |
+|---|------|-------|----------|--------|
+| A1 | **Paper #23: Cross-Domain Universality (Nature)** | **Grace** (lead) + Elie (atlas) + Keeper (audit) | **TOP** | **DONE — KEEPER PASS v2.1**. Pushed. **Casey gate.** |
+| A2 | **Superconductor T_c ratio predictions** | Lyra | **TOP** | **DONE** — 48/48 PASS. Toys 862-867. T824-T826. |
+| A3 | **Paper #22 Keeper audit** (QHE, PRL) | Keeper | HIGH | **DONE** — v1.3 KEEPER PASS. |
+| A4 | **Fraction atlas toy** | Elie | HIGH | **DONE** — Toy 866. 50 fractions, 196 entries. |
+| A5 | **Paper #20 Keeper audit** (QM) | Keeper | MEDIUM | **DONE** — CONDITIONAL PASS (8 must-fix). |
+| A6 | **YM ℝ⁴ framing** (close Millennium) | Lyra (alternate) | MEDIUM | Not reached. |
+| A7 | **Fertile gap analysis** | Grace (alternate) | MEDIUM | **DONE** — 400 zero-edge pairs, 24 priority targets. |
+| A8 | **Semiconductor band gaps** | Elie (alternate) | MEDIUM | **DONE** — Toys 868-871. |
+| A9 | **CMB outreach packages** | Casey | Sunday PM | → Phase 2 C5. |
 
 **Counters**: T832 next (T829-T831 Grace). Toy 904 next (901-903 Elie H₀/T_CMB specs). 380+ predictions. 23 papers. 66+ physical domains. 903 toys claimed. Graph: 801 nodes, 1862 edges.
 **April 4 late (Keeper)**: Elie 5 Grace specs DONE (Toys 896-900): diff_geom↔topology 8/8, observer audit 0/8, biology bridge 7/8, cosmology bridge 6/8, chemistry bridge 8/8. Derivation hierarchy: Topology > Biology > Chemistry > Cosmology. Gap: absolute scales (H_0, T_CMB). Paper #23 v2.0 MERGED (3 files→1, 19 fractions, P<10^{-74}). Papers #22 v1.3 + #16 v3 KEEPER PASS.
