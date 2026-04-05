@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 2176,
+  "edge_count": 2189,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 862,
+  "node_count": 863,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -12004,6 +12004,21 @@
    "plain": "Ising \u03b2=1/N_c, \u03b3=g/C_2, \u03bd=g/(2C_2). Universality denominators: Ising 2N_c\u00b2=18, XY 2\u00d72n_C=20, Heisenberg 2(2n_C+1)=22. Mean-field exponents EXACT BST. 11/11 PASS.",
    "proofs": [],
    "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 898,
+   "name": "3D Turbulence Vortex Decomposition",
+   "domain": "fluids",
+   "status": "proved",
+   "depth": 1,
+   "conflation": 2,
+   "toys": [
+    950
+   ],
+   "date": "2026-04-05",
+   "plain": "Turbulence = stacked 2D cascades on rank=2 sheets. 15/15 exponents = BST rationals. K41=-5/3, SL=2/9, C_K=3/2. Nonlinearity = projection artifact. 10/10 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
   }
  ],
  "edges": [
@@ -22914,6 +22929,71 @@
   {
    "from": 649,
    "to": 897,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 898,
+   "source": "required"
+  },
+  {
+   "from": 818,
+   "to": 898,
+   "source": "required"
+  },
+  {
+   "from": 811,
+   "to": 898,
+   "source": "required"
+  },
+  {
+   "from": 897,
+   "to": 898,
+   "source": "required"
+  },
+  {
+   "from": 885,
+   "to": 898,
+   "source": "required"
+  },
+  {
+   "from": 120,
+   "to": 156,
+   "source": "required"
+  },
+  {
+   "from": 250,
+   "to": 7,
+   "source": "required"
+  },
+  {
+   "from": 298,
+   "to": 42,
+   "source": "required"
+  },
+  {
+   "from": 42,
+   "to": 298,
+   "source": "required"
+  },
+  {
+   "from": 643,
+   "to": 751,
+   "source": "required"
+  },
+  {
+   "from": 751,
+   "to": 643,
+   "source": "required"
+  },
+  {
+   "from": 12,
+   "to": 1,
+   "source": "required"
+  },
+  {
+   "from": 1,
+   "to": 12,
    "source": "required"
   }
  ],
