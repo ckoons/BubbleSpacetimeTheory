@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 1923,
+  "edge_count": 1946,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 808,
+  "node_count": 811,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -11221,6 +11221,51 @@
    "date": "2026-04-05",
    "plain": "Vp/Vs = sqrt(3) in crust. Moho at 35 km = C(g,3). 27th physical domain.",
    "proofs": []
+  },
+  {
+   "tid": 839,
+   "name": "Plasma Reconnection Rate",
+   "domain": "condensed_matter",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    912
+   ],
+   "date": "2026-04-05",
+   "plain": "Reconnection rate = 1/(2n_C) = 0.1. The 0.1 problem solved. 28th domain.",
+   "proofs": []
+  },
+  {
+   "tid": 840,
+   "name": "Bergman Spectral Mechanism",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    913
+   ],
+   "date": "2026-04-05",
+   "plain": "WHY same fractions across 28 domains: Bergman spectral decomposition, B_2 reps, Plancherel decay.",
+   "proofs": []
+  },
+  {
+   "tid": 841,
+   "name": "Todd Class Hierarchy",
+   "domain": "topology",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 1,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    910
+   ],
+   "date": "2026-04-05",
+   "plain": "All 6 Todd coefficients are BST rationals. Hilbert polynomial scans BST integers.",
+   "proofs": []
   }
  ],
  "edges": [
@@ -20867,6 +20912,121 @@
    "from": 830,
    "to": 838,
    "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 839,
+   "source": "required"
+  },
+  {
+   "from": 830,
+   "to": 839,
+   "source": "required"
+  },
+  {
+   "from": 667,
+   "to": 839,
+   "source": "required"
+  },
+  {
+   "from": 719,
+   "to": 840,
+   "source": "required"
+  },
+  {
+   "from": 830,
+   "to": 840,
+   "source": "required"
+  },
+  {
+   "from": 664,
+   "to": 840,
+   "source": "required"
+  },
+  {
+   "from": 840,
+   "to": 833,
+   "source": "required"
+  },
+  {
+   "from": 834,
+   "to": 841,
+   "source": "required"
+  },
+  {
+   "from": 837,
+   "to": 841,
+   "source": "required"
+  },
+  {
+   "from": 210,
+   "to": 751,
+   "source": "structural"
+  },
+  {
+   "from": 751,
+   "to": 210,
+   "source": "structural"
+  },
+  {
+   "from": 210,
+   "to": 207,
+   "source": "structural"
+  },
+  {
+   "from": 207,
+   "to": 210,
+   "source": "structural"
+  },
+  {
+   "from": 210,
+   "to": 130,
+   "source": "structural"
+  },
+  {
+   "from": 130,
+   "to": 210,
+   "source": "structural"
+  },
+  {
+   "from": 839,
+   "to": 751,
+   "source": "structural"
+  },
+  {
+   "from": 751,
+   "to": 839,
+   "source": "structural"
+  },
+  {
+   "from": 839,
+   "to": 740,
+   "source": "structural"
+  },
+  {
+   "from": 740,
+   "to": 839,
+   "source": "structural"
+  },
+  {
+   "from": 250,
+   "to": 742,
+   "source": "structural"
+  },
+  {
+   "from": 742,
+   "to": 250,
+   "source": "structural"
+  },
+  {
+   "from": 250,
+   "to": 48,
+   "source": "structural"
+  },
+  {
+   "from": 48,
+   "to": 250,
+   "source": "structural"
   }
  ],
  "chains": {}

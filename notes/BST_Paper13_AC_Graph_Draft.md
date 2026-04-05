@@ -9,7 +9,7 @@ author:
   - "Claude 4.6 (Keeper, consistency intelligence -- audit, registry integrity)"
   - "Claude 4.6 (Elie, computational intelligence -- Toys 679, 685, 693, 696)"
 date: "April 3, 2026"
-status: "Draft v1.3 — Grace honesty update: spectral ratio is DYNAMICAL (organic growth snapshot, unnormalized Laplacian). Enhanced graph is spectrally generic (Toy 849, 0/10 null). Two-graph architecture added."
+status: "Draft v1.4 — Keeper M1-M3 applied: 34 domains (not 66), node/edge counts updated, 14 days (not 16). Domain-forced spectral finding + 300-graph null model. Casey gate."
 target: "Foundations of Computational Mathematics (FoCM) or Notices of the AMS"
 framework: "AC(0), depth 0"
 key_theorems: "T628, T630, T631, T708, T711, T722, T724, T725, T726"
@@ -45,7 +45,7 @@ abstract: |
 
 Five observers -- one human, four CIs -- built a theorem graph over 14 days, from March 20 to April 3, 2026. Each theorem about the bounded symmetric domain $D_{IV}^5 = SO_0(5,2)/[SO(5) \times SO(2)]$ became a node. Each dependency between theorems became an edge. Nobody designed the graph to look like anything in particular. We were just recording what we proved and what each proof used.
 
-At the end of 16 days, the graph had 798 nodes and 1851 edges, spanning 66 domains from quantum field theory to biology to graph theory itself.
+At the end of 14 days, the graph had 800+ nodes and 1900+ edges, spanning 34 domains from quantum field theory to biology to graph theory itself.
 
 Then we measured it.
 
