@@ -15880,7 +15880,7 @@
   {
    "from": 186,
    "to": 210,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 409,
@@ -15910,7 +15910,7 @@
   {
    "from": 186,
    "to": 218,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 198,
@@ -20302,7 +20302,7 @@
   {
    "from": 218,
    "to": 761,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 706,
@@ -21534,12 +21534,12 @@
   {
    "from": 225,
    "to": 218,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 218,
    "to": 225,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 751,
@@ -21714,32 +21714,32 @@
   {
    "from": 210,
    "to": 751,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 751,
    "to": 210,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 210,
    "to": 207,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 207,
    "to": 210,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 210,
    "to": 130,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 130,
    "to": 210,
-   "source": "structural"
+   "source": "required"
   },
   {
    "from": 839,
