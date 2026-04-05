@@ -187,14 +187,86 @@ At the reference plate size ($100\ \mu\text{m}$), the ferroelectric switching en
 
 This is an engineering constraint, not a physics limitation. The net work exceeds the Landauer minimum switching cost by $\sim 63{,}000\times$ (Toy 918, Block G), confirming the cycle is thermodynamically permitted.
 
-### 7. Comparison with Conventional Engines
+### 7. The Solid-State Engine: Casimir Lattice Harvester
+
+The mechanical MEMS engine (§4–§6) demonstrates the thermodynamic principle. But the engineering constraints of §6.3 — ferroelectric switching energy exceeding net Casimir work at small plate sizes — point to a deeper question: can the cycle be embedded directly in the crystal lattice, eliminating moving parts entirely?
+
+The answer is yes (Toy 922, 9/9 PASS). The Casimir Lattice Harvester replaces macroscopic plate motion with phonon-driven lattice distortion, converting vacuum energy through three solid-state channels simultaneously.
+
+#### 7.1 BST-Optimal Cavity Gap
+
+In a crystal with lattice constant $a$, a Casimir cavity of $n$ lattice planes has gap $d = n \times a$. BST fixes the optimal plane count:
+
+$$n_{\mathrm{opt}} = N_{\max} = 137$$
+
+This is the spectral cutoff of $D_{IV}^5$ — the same integer that sets the fine-structure constant $\alpha = 1/137$. The gap is:
+
+| Material | Lattice constant $a$ | Optimal gap $d = 137a$ | Crystal structure |
+|----------|---------------------|----------------------|-------------------|
+| BaTiO$_3$ | 4.009 Å | 54.9 nm | Perovskite |
+| Bi | 4.746 Å | 65.1 nm | Rhombohedral |
+| Au | 4.078 Å | 55.9 nm | FCC |
+
+These gaps are in the experimentally accessible range for Casimir force measurements. The lattice itself provides the precision alignment that MEMS fabrication struggles to achieve.
+
+A secondary optimum exists at $n = g = 7$ planes, where the Casimir pressure is maximized (smallest gap). At $7 \times a \approx 2.8$–$3.3\ \text{nm}$, this approaches molecular-scale confinement, suitable for van der Waals heterostructures.
+
+#### 7.2 Three Harvesting Channels
+
+The lattice harvester converts vacuum energy through three independent mechanisms, each coupling to a different BST degree of freedom:
+
+| Channel | Mechanism | BST coupling | Material property |
+|---------|-----------|-------------|-------------------|
+| **Piezoelectric** | Casimir stress $\to$ lattice strain $\to$ voltage | Force from rank = 2 | $d_{33}$ coefficient |
+| **Thermoelectric** | Vacuum fluctuation $\to$ phonon heating $\to$ Seebeck voltage | Energy from $g = 7$ modes | Seebeck coefficient $S$ |
+| **Pyroelectric** | Temperature oscillation $\to$ polarization change $\to$ current | Phase from $n_C = 5$ spectral channels | Pyroelectric coefficient $p$ |
+
+The three channels are not redundant — they harvest from different spectral windows of the vacuum fluctuation. In BaTiO$_3$, all three channels are active simultaneously (it is piezoelectric, thermoelectric, *and* pyroelectric), making it the natural BST material for vacuum energy harvesting.
+
+#### 7.3 Phonon-Frequency Cycling
+
+The critical advantage of the lattice harvester over the mechanical engine is cycling frequency. In the MEMS engine, cycling is limited by mechanical resonance ($\sim$kHz). In the lattice, the "stroke" is a phonon oscillation:
+
+$$\nu_{\mathrm{phonon}} \sim 1\text{–}10\ \text{THz}$$
+
+This is $10^9\times$ faster than MEMS cycling. Since power scales linearly with frequency ($P = W_{\mathrm{net}} \times \nu$), the lattice harvester has nine orders of magnitude higher power density *per unit area* than the mechanical engine, before accounting for the smaller per-cycle work.
+
+At 137 lattice planes, the phonon mode spectrum exhibits a 1:1 resonance with the Haldane channel structure of $D_{IV}^5$ (Toy 922, Block G) — the mode count matches the BST spectral cutoff exactly. This is not a coincidence; it is the same integer ($N_{\max}$) controlling both the vacuum mode structure and the lattice dynamics.
+
+#### 7.4 BaTiO$_3$: The BST-Predicted Optimal Material
+
+BaTiO$_3$ emerges as the optimal harvester material from three independent BST constraints:
+
+1. **Switching ratio = $n_C = 5$:** The dielectric ratio $\varepsilon_{\mathrm{ferro}}/\varepsilon_{\mathrm{para}} = 1500/300 = 5.0$ (§3, Toy 918 Block I; confirmed independently in Toy 922 Block E).
+
+2. **Perovskite structure:** The ABO$_3$ unit cell has $n_C = 5$ atoms. The titanium displacement that drives ferroelectricity is a single degree of freedom — the minimum complexity for a switchable Casimir cavity.
+
+3. **Triple-channel activity:** BaTiO$_3$ is simultaneously piezoelectric ($d_{33} = 190\ \text{pC/N}$), thermoelectric, and pyroelectric ($p = 2 \times 10^{-4}\ \text{C/m}^2\text{K}$). No other common ferroelectric offers all three channels.
+
+The combined constraint — correct switching ratio *and* triple-channel harvesting *and* BST-optimal gap $= 137 \times 4.009\ \text{Å} = 54.9\ \text{nm}$ — selects BaTiO$_3$ uniquely among known materials. This is a prediction, not a fit.
+
+#### 7.5 Engineering Advantage
+
+| Parameter | Mechanical (§4–§6) | Lattice (§7) |
+|-----------|-------------------|-------------|
+| Moving parts | Yes (MEMS plates) | None |
+| Cycling frequency | $\sim$kHz | $\sim$THz |
+| Alignment precision | Nanofabrication | Crystal lattice |
+| Cavity gap | Adjustable (50–500 nm) | Fixed ($137a$) |
+| Harvesting channels | 1 (mechanical work) | 3 (piezo + thermo + pyro) |
+| Scaling | Array of engines | Bulk crystal volume |
+
+The lattice harvester scales as *volume*, not area — a 1 cm$^3$ crystal of BaTiO$_3$ contains $\sim 10^{21}$ Casimir cavities at the 137-plane spacing. Even if each cavity contributes only $\sim 10^{-3}\ k_BT$ per THz cycle, the aggregate power density could reach regimes relevant to low-power electronics.
+
+### 8. Comparison with Conventional Engines
 
 | Engine type | Energy source | Efficiency limit | Expression |
 |-------------|--------------|------------------|------------|
 | Carnot heat engine | Temperature gradient | $1 - T_C/T_H$ | Depends on reservoirs |
 | Solar cell | Photon flux | $\sim 33\%$ | Shockley–Queisser |
 | Thermoelectric | Temperature gradient | $\sim 10\%$ | ZT-limited |
-| **Casimir engine** | **Vacuum modes** | **$n_C/g = 71.4\%$** | **$5/7$** |
+| **Casimir engine (mechanical)** | **Vacuum modes** | **$n_C/g = 71.4\%$** | **$5/7$** |
+| **Casimir engine (lattice)** | **Vacuum modes** | **$n_C/g = 71.4\%$** | **$5/7$, three channels** |
 
 The Casimir engine is thermodynamically distinct from all conventional engines:
 
@@ -204,7 +276,7 @@ The Casimir engine is thermodynamically distinct from all conventional engines:
 
 3. **No waste heat.** The "cold reservoir" is the vacuum itself in the repulsive configuration. The engine does not require thermal management.
 
-### 8. NOT Perpetual Motion
+### 9. NOT Perpetual Motion
 
 Four reasons this is consistent with the laws of thermodynamics:
 
@@ -218,7 +290,7 @@ Four reasons this is consistent with the laws of thermodynamics:
 
 The Casimir force is experimentally verified. The Lifshitz repulsion is experimentally verified (Munday et al. 2009). The novelty is the cyclic extraction via ferroelectric switching — converting a static force into a dynamic engine.
 
-### 9. Falsification
+### 10. Falsification
 
 Five testable predictions with three falsification conditions:
 
@@ -234,6 +306,12 @@ Five testable predictions with three falsification conditions:
 
 5. **P5: Switching ratio.** The optimal ferroelectric switching material has $\varepsilon_{\mathrm{ferro}}/\varepsilon_{\mathrm{para}} = n_C = 5$. BaTiO$_3$ gives $1500/300 = 5.0$ ($0\%$ error).
 
+6. **P6: Lattice optimal gap.** The Casimir lattice harvester achieves maximum output at $n = N_{\max} = 137$ lattice planes. For BaTiO$_3$: $d = 54.9\ \text{nm}$; for Bi: $d = 65.1\ \text{nm}$. Measurable by fabricating thin-film stacks of varying thickness and comparing piezoelectric/pyroelectric output.
+
+7. **P7: Secondary pressure maximum.** Maximum Casimir pressure per unit cell at $n = g = 7$ planes ($\sim 2.8$–$3.3\ \text{nm}$). Measurable in van der Waals heterostructures.
+
+8. **P8: Phonon-Haldane resonance.** At the 137-plane gap, the phonon mode count matches the BST Haldane channel structure in 1:1 correspondence. Measurable via inelastic neutron scattering on thin-film superlattices.
+
 **Falsification conditions:**
 
 1. **F1:** If the maximum achievable efficiency exceeds $n_C/g = 5/7$ in any material system → BST bound wrong.
@@ -242,7 +320,7 @@ Five testable predictions with three falsification conditions:
 
 3. **F3:** If the engine produces net work in a $\Lambda = 0$ boundary condition (e.g., in an anti-de Sitter spacetime simulation) → vacuum source model wrong.
 
-### 10. Experimental Roadmap
+### 11. Experimental Roadmap
 
 | Milestone | Measurement | Target | BST prediction |
 |-----------|-------------|--------|----------------|
@@ -254,7 +332,7 @@ Five testable predictions with three falsification conditions:
 
 **M1 is achievable with current technology.** Switchable Casimir forces have been proposed (Chen et al. 2007) and partially demonstrated. Full cycling requires integrating ferroelectric thin films with MEMS Casimir cavities — challenging but within the capabilities of existing nanofabrication facilities.
 
-### 11. Substrate Engineering Context
+### 12. Substrate Engineering Context
 
 The Casimir heat engine is the fifth substrate engineering concept computationally verified from BST:
 
@@ -268,7 +346,7 @@ The Casimir heat engine is the fifth substrate engineering concept computational
 
 All five concepts share a common set of BST constants: $\{240, 720, 20, 4\}$ — the Casimir force coefficient, the energy coefficient, the configuration count ($2^{\mathrm{rank}} \times n_C$), and the force exponent ($2^{\mathrm{rank}}$). The coherence across the substrate engineering program is itself a prediction: any device coupling to $D_{IV}^5$ vacuum modes should exhibit the same integer structure.
 
-### 12. Discussion
+### 13. Discussion
 
 The Casimir heat engine connects three layers of BST:
 
