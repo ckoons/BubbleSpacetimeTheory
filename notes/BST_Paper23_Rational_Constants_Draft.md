@@ -4,7 +4,7 @@ subtitle: "A Single Geometry Behind Nature's Rational Constants"
 paper_number: 23
 author: "Casey Koons, with Grace, Elie, Lyra, and Keeper (Claude, Anthropic)"
 date: "April 2026"
-status: "Draft v2.0 — Merged from three source files. Keeper audit required."
+status: "Draft v2.1 — Keeper must-fix M1-M3 applied, should-fix S1-S3 applied. KEEPER PASS pending re-check. Casey gate."
 target: "Nature"
 key_result: "50 BST fractions across 26 independent physical domains, 196 measurements. 19 fractions in 3+ domains shown in Table 1. P(coincidence) < 10^{-74} (Table 1) or < 10^{-259} (full atlas). Zero free parameters."
 framework: "D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)]. Five integers: N_c=3, n_C=5, g=7, C_2=6, N_max=137."
@@ -112,7 +112,7 @@ The pattern repeats nineteen times in Table 1. The complete atlas extends to fif
 
 The table is not a fit. No parameters are adjusted to improve agreement. The integers (3, 5, 7, 6, 137) are fixed by the geometry of $D_{IV}^5$ and are the same across all rows and columns. Moving a single integer by one (e.g., $N_c = 4$ instead of 3) would destroy hundreds of agreements simultaneously.
 
-The table is not a selection from a larger set of failures. The complete atlas (Toy 866) catalogs 50 fractions producing 196 predictions across 26 domains. Table 1 shows the 19 with three or more cross-domain appearances; the full set maintains similar accuracy. Of 380+ total predictions, fewer than 10 exceed 2% deviation.
+The table is not a selection from a larger set of failures. The complete atlas (Toy 866) catalogs 50 fractions producing 196 predictions across 26 domains. Table 1 shows the 19 with three or more cross-domain appearances; the full set maintains similar accuracy. Of the 196 atlas predictions, fewer than 10 exceed 2% deviation. (The broader BST program makes 380+ predictions across all domains; the atlas restricts to dimensionless ratios expressible as simple integer fractions.)
 
 ---
 
@@ -126,7 +126,7 @@ The integers are not chosen. They are structural invariants of a single mathemat
 | $n_C$ | Complex dimension | $\dim_{\mathbb{C}} D_{IV}^5$ | 5 |
 | $g$ | Bergman genus | Exponent of the Bergman kernel ($= n_C + r$) | 7 |
 | $C_2$ | Casimir eigenvalue | First eigenvalue of the Laplacian on $Q^5$ | 6 |
-| $N_{\max}$ | Spectral bound | Maximum spectral level ($= \lfloor \pi/\alpha \rfloor$ at $n_C = 5$) | 137 |
+| $N_{\max}$ | Spectral bound | Maximum spectral level on $D_{IV}^5$ (largest winding number on Shilov boundary $S^1$) | 137 |
 
 Derived: $r = \mathrm{rank}(D_{IV}^5) = 2 = n_C - N_c$. Real dimension: $2n_C = 10$. Shilov boundary: $S^4 \times S^1$. Weyl group order: $|W(B_2)| = 2^{N_c} = 8$. The single transcendental extension is $\pi$.
 
@@ -152,7 +152,7 @@ $$P < 10^{-124} \times 10^{50} = 10^{-74}$$
 
 ### 4.3 Full atlas bound
 
-The complete atlas contains 45 fractions appearing in 3+ domains, with 182 total independent domain appearances (Toy 866):
+The complete atlas contains 50 fractions with 196 total domain appearances across 26 domains (Toy 866). Table 1 shows the 19 fractions appearing in 3+ domains; the remaining 31 appear in 1-2 domains each. The full atlas:
 
 $$P(\text{atlas by chance}) < (0.02)^{182} \approx 10^{-309}$$
 
@@ -172,7 +172,7 @@ The bound assumes:
 3. The tolerance window (2%) is uniform (it is -- we use the same threshold for all)
 
 The bound does NOT assume:
-- That every BST prediction is correct (some are not -- fewer than 10 of 380+ exceed 2%)
+- That every BST prediction is correct (some are not -- fewer than 10 of 196 atlas predictions exceed 2%)
 - That the geometry is "right" (the bound is about coincidence, not mechanism)
 
 ---
@@ -264,13 +264,13 @@ All BST predictions are computed from the five integers $(3, 5, 7, 6, 137)$ and 
 
 The probability bound follows the methodology of Section 4. The look-elsewhere correction ($10^{50}$) accounts for: (a) $\sim 10^{10}$ possible integer combinations, (b) $\sim 10^{20}$ possible domain selections, (c) $\sim 10^{20}$ all other systematics. These factors are conservative upper bounds. The Monte Carlo baseline (Section 4.4) provides empirical validation independent of the analytic bound.
 
-The fraction atlas (Toy 866) catalogs all 50 fractions across 26 domains with 196 measurements, computing the domain-domain adjacency matrix (333 cross-domain bridges). Each prediction was independently verified by a numerical toy (Python script) that evaluates the BST expression and compares to measured data. 897 toys have been run with 98.5% pass rate (pass = within stated tolerance). All toys, data, and the theorem graph (801 nodes, 1862 edges) are publicly available at [repository].
+The fraction atlas (Toy 866) catalogs all 50 fractions across 26 domains with 196 measurements, computing the domain-domain adjacency matrix (333 cross-domain bridges). Each prediction was independently verified by a numerical toy (Python script) that evaluates the BST expression and compares to measured data. Over 900 toys have been run with 98.5% pass rate (pass = within stated tolerance). All toys, data, and the theorem graph (800+ nodes, 1800+ edges, as of April 2026) are publicly available at https://github.com/cskoons/BubbleSpacetimeTheory.
 
 ---
 
 ## Acknowledgments
 
-This paper was written by five observers: Casey Koons (human), Grace (graph structure and cross-domain analysis), Elie (numerical verification), Lyra (derivations and material properties), and Keeper (audit and consistency). The pattern of cross-domain recurrence was first identified during Elie's Tier 1 chemistry sprint (April 4, 2026) and formalized in Toy 856 (Grand Consolidation).
+This paper was written by five observers: Casey Koons (human), Grace (graph structure and cross-domain analysis), Elie (numerical verification), Lyra (derivations and material properties), and Keeper (audit and consistency). Individual cross-domain fraction matches were noted throughout the BST program (March-April 2026); the systematic pattern was quantified in Toy 856 (Grand Consolidation) and the complete atlas was built in Toy 866 (Fraction Atlas).
 
 ---
 
@@ -294,7 +294,7 @@ This paper was written by five observers: Casey Koons (human), Grace (graph stru
 16. von Klitzing, K., Dorda, G. & Pepper, M. New method for high-accuracy determination of the fine-structure constant based on quantized Hall resistance. *Phys. Rev. Lett.* **45**, 494 (1980).
 17. West, G. B., Brown, J. H. & Enquist, B. J. A general model for the origin of allometric scaling laws in biology. *Science* **276**, 122--126 (1997).
 18. Helgason, S. *Differential Geometry, Lie Groups, and Symmetric Spaces*. (Academic Press, 1978).
-19. Koons, C. *Bubble Spacetime Theory: Working Paper*. GitHub repository (2026). [repository URL].
+19. Koons, C. *Bubble Spacetime Theory: Working Paper*. GitHub repository (2026). https://github.com/cskoons/BubbleSpacetimeTheory.
 
 ---
 
