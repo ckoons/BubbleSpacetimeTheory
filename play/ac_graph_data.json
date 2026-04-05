@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 1884,
+  "edge_count": 1923,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 806,
+  "node_count": 808,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -11191,6 +11191,36 @@
    "date": "2026-04-05",
    "plain": "H_5 = 137/60 = N_max/(2*n_C*C_2). If D_IV^5 forces N_max = num(H_{n_C}), then alpha follows from n_C = 5.",
    "proofs": []
+  },
+  {
+   "tid": 837,
+   "name": "Exponential Gap Closure",
+   "domain": "topology",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    910
+   ],
+   "date": "2026-04-05",
+   "plain": "e^{-1/2} = e^{-td_5(Q^5)}. The degree of Q^5 IS the 2 in the exponential. Lambda chain fully closed.",
+   "proofs": []
+  },
+  {
+   "tid": 838,
+   "name": "Seismology Domain",
+   "domain": "chemical_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    911
+   ],
+   "date": "2026-04-05",
+   "plain": "Vp/Vs = sqrt(3) in crust. Moho at 35 km = C(g,3). 27th physical domain.",
+   "proofs": []
   }
  ],
  "edges": [
@@ -20641,6 +20671,201 @@
   {
    "from": 836,
    "to": 835,
+   "source": "required"
+  },
+  {
+   "from": 835,
+   "to": 1,
+   "source": "structural"
+  },
+  {
+   "from": 1,
+   "to": 835,
+   "source": "structural"
+  },
+  {
+   "from": 835,
+   "to": 751,
+   "source": "structural"
+  },
+  {
+   "from": 751,
+   "to": 835,
+   "source": "structural"
+  },
+  {
+   "from": 835,
+   "to": 740,
+   "source": "structural"
+  },
+  {
+   "from": 740,
+   "to": 835,
+   "source": "structural"
+  },
+  {
+   "from": 835,
+   "to": 745,
+   "source": "structural"
+  },
+  {
+   "from": 745,
+   "to": 835,
+   "source": "structural"
+  },
+  {
+   "from": 225,
+   "to": 751,
+   "source": "structural"
+  },
+  {
+   "from": 751,
+   "to": 225,
+   "source": "structural"
+  },
+  {
+   "from": 225,
+   "to": 1,
+   "source": "structural"
+  },
+  {
+   "from": 1,
+   "to": 225,
+   "source": "structural"
+  },
+  {
+   "from": 225,
+   "to": 218,
+   "source": "structural"
+  },
+  {
+   "from": 218,
+   "to": 225,
+   "source": "structural"
+  },
+  {
+   "from": 751,
+   "to": 742,
+   "source": "structural"
+  },
+  {
+   "from": 742,
+   "to": 751,
+   "source": "structural"
+  },
+  {
+   "from": 751,
+   "to": 12,
+   "source": "structural"
+  },
+  {
+   "from": 12,
+   "to": 751,
+   "source": "structural"
+  },
+  {
+   "from": 751,
+   "to": 48,
+   "source": "structural"
+  },
+  {
+   "from": 48,
+   "to": 751,
+   "source": "structural"
+  },
+  {
+   "from": 262,
+   "to": 836,
+   "source": "structural"
+  },
+  {
+   "from": 836,
+   "to": 262,
+   "source": "structural"
+  },
+  {
+   "from": 262,
+   "to": 834,
+   "source": "structural"
+  },
+  {
+   "from": 834,
+   "to": 262,
+   "source": "structural"
+  },
+  {
+   "from": 744,
+   "to": 751,
+   "source": "structural"
+  },
+  {
+   "from": 751,
+   "to": 744,
+   "source": "structural"
+  },
+  {
+   "from": 744,
+   "to": 182,
+   "source": "structural"
+  },
+  {
+   "from": 182,
+   "to": 744,
+   "source": "structural"
+  },
+  {
+   "from": 53,
+   "to": 108,
+   "source": "structural"
+  },
+  {
+   "from": 108,
+   "to": 53,
+   "source": "structural"
+  },
+  {
+   "from": 53,
+   "to": 811,
+   "source": "structural"
+  },
+  {
+   "from": 811,
+   "to": 53,
+   "source": "structural"
+  },
+  {
+   "from": 836,
+   "to": 834,
+   "source": "structural"
+  },
+  {
+   "from": 834,
+   "to": 836,
+   "source": "structural"
+  },
+  {
+   "from": 836,
+   "to": 837,
+   "source": "required"
+  },
+  {
+   "from": 834,
+   "to": 837,
+   "source": "required"
+  },
+  {
+   "from": 832,
+   "to": 837,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 838,
+   "source": "required"
+  },
+  {
+   "from": 830,
+   "to": 838,
    "source": "required"
   }
  ],
