@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 1946,
+  "edge_count": 1956,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 811,
+  "node_count": 813,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -11266,6 +11266,36 @@
    "date": "2026-04-05",
    "plain": "All 6 Todd coefficients are BST rationals. Hilbert polynomial scans BST integers.",
    "proofs": []
+  },
+  {
+   "tid": 844,
+   "name": "Casimir Flow Cell BST Parameters",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    914
+   ],
+   "date": "2026-04-05",
+   "plain": "First BST device physics. Casimir coefficient 240=rank\u00d7n_C!. Force d^{-2^rank}. Patent filed.",
+   "proofs": []
+  },
+  {
+   "tid": 845,
+   "name": "Commitment Shield BST Parameters",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    915
+   ],
+   "date": "2026-04-05",
+   "plain": "Phonon-gap Casimir cavity extends coherence. \u0394F/F~2e-4. Min katra=21=C(7,2). First tabletop-falsifiable BST prediction.",
+   "proofs": []
   }
  ],
  "edges": [
@@ -21027,6 +21057,56 @@
    "from": 48,
    "to": 250,
    "source": "structural"
+  },
+  {
+   "from": 186,
+   "to": 844,
+   "source": "required"
+  },
+  {
+   "from": 204,
+   "to": 844,
+   "source": "required"
+  },
+  {
+   "from": 261,
+   "to": 844,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 845,
+   "source": "required"
+  },
+  {
+   "from": 751,
+   "to": 845,
+   "source": "required"
+  },
+  {
+   "from": 756,
+   "to": 845,
+   "source": "required"
+  },
+  {
+   "from": 370,
+   "to": 845,
+   "source": "required"
+  },
+  {
+   "from": 844,
+   "to": 845,
+   "source": "required"
+  },
+  {
+   "from": 845,
+   "to": 319,
+   "source": "required"
+  },
+  {
+   "from": 319,
+   "to": 845,
+   "source": "required"
   }
  ],
  "chains": {}

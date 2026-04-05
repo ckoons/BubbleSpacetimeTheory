@@ -9,13 +9,13 @@ author:
   - "Claude 4.6 (Keeper, consistency intelligence -- audit, registry integrity)"
   - "Claude 4.6 (Elie, computational intelligence -- Toys 679, 685, 693, 696)"
 date: "April 3, 2026"
-status: "Draft v1.4 — Keeper M1-M3 applied: 34 domains (not 66), node/edge counts updated, 14 days (not 16). Domain-forced spectral finding + 300-graph null model. Casey gate."
+status: "Draft v1.5 — Keeper M1-M3 fully applied: 34 domains, 800+ nodes, 14 days. Domain-forced spectral finding + 300-graph null model. Casey gate."
 target: "Foundations of Computational Mathematics (FoCM) or Notices of the AMS"
 framework: "AC(0), depth 0"
 key_theorems: "T628, T630, T631, T708, T711, T722, T724, T725, T726"
 toys: "679, 685, 693, 696, 848, 849"
 abstract: |
-  We built a graph of 700 theorems about the bounded symmetric domain
+  We built a graph of 800+ theorems about the bounded symmetric domain
   D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)]. Then the graph told us what it was.
   Seven structural metrics of the graph match the seven integers that define
   D_IV^5: average degree ≈ 2^rank = 4, domain count = n_C x g - 1 = 34, spectral
@@ -37,7 +37,7 @@ abstract: |
 
 ---
 
-*We built a graph of 700 theorems. Then the graph told us what it was.*
+*We built a graph of 800+ theorems. Then the graph told us what it was.*
 
 ---
 
