@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 2059,
+  "edge_count": 2130,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 834,
+  "node_count": 851,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -11611,6 +11611,235 @@
    "date": "2026-04-05",
    "plain": "Triple convergence in Nb: d_0=45.2nm (Casimir), lambda_L=39nm (London), xi_0=38nm (BCS). Bi/Nb mode coupling = N_c/g = 3/7 (0.18%). 7 Majorana qubits per g-bilayer. Converges 6 concepts at one fab target. 8/8 PASS.",
    "proofs": []
+  },
+  {
+   "tid": 867,
+   "name": "Einstein-BST Field Equation",
+   "domain": "cosmology",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_Core_Domain_Bridge_Theorems",
+   "toys": [],
+   "date": "2026-04-05",
+   "plain": "Core domain bridge: cosmology \u2194 relativity",
+   "proofs": []
+  },
+  {
+   "tid": 868,
+   "name": "Gravitational-Nuclear Scale Bridge",
+   "domain": "cosmology",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_Core_Domain_Bridge_Theorems",
+   "toys": [],
+   "date": "2026-04-05",
+   "plain": "Core domain bridge: cosmology \u2194 relativity",
+   "proofs": []
+  },
+  {
+   "tid": 869,
+   "name": "Hawking Temperature from D_IV^5",
+   "domain": "relativity",
+   "status": "proved",
+   "depth": 1,
+   "conflation": 2,
+   "section": "BST_Core_Domain_Bridge_Theorems",
+   "toys": [],
+   "date": "2026-04-05",
+   "plain": "Core domain bridge: relativity \u2194 quantum",
+   "proofs": []
+  },
+  {
+   "tid": 870,
+   "name": "Unruh-MOND Bridge",
+   "domain": "relativity",
+   "status": "proved",
+   "depth": 1,
+   "conflation": 2,
+   "section": "BST_Core_Domain_Bridge_Theorems",
+   "toys": [],
+   "date": "2026-04-05",
+   "plain": "Core domain bridge: relativity \u2194 quantum",
+   "proofs": []
+  },
+  {
+   "tid": 871,
+   "name": "Heat Kernel GR-QM Bridge",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_Core_Domain_Bridge_Theorems",
+   "toys": [],
+   "date": "2026-04-05",
+   "plain": "Core domain bridge: bst_physics \u2194 relativity",
+   "proofs": []
+  },
+  {
+   "tid": 872,
+   "name": "Casimir QM-EM Inseparability",
+   "domain": "quantum",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_Core_Domain_Bridge_Theorems",
+   "toys": [],
+   "date": "2026-04-05",
+   "plain": "Core domain bridge: quantum \u2194 electromagnetism",
+   "proofs": []
+  },
+  {
+   "tid": 873,
+   "name": "QED as 1/N_max Expansion",
+   "domain": "quantum",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_Core_Domain_Bridge_Theorems",
+   "toys": [],
+   "date": "2026-04-05",
+   "plain": "Core domain bridge: quantum \u2194 electromagnetism",
+   "proofs": []
+  },
+  {
+   "tid": 874,
+   "name": "Recombination as Alpha-Controlled Transition",
+   "domain": "cosmology",
+   "status": "proved",
+   "depth": 1,
+   "conflation": 2,
+   "section": "BST_Core_Domain_Bridge_Theorems",
+   "toys": [],
+   "date": "2026-04-05",
+   "plain": "Core domain bridge: cosmology \u2194 electromagnetism",
+   "proofs": []
+  },
+  {
+   "tid": 875,
+   "name": "CMB Blackbody as EM Relic",
+   "domain": "cosmology",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_Core_Domain_Bridge_Theorems",
+   "toys": [],
+   "date": "2026-04-05",
+   "plain": "Core domain bridge: cosmology \u2194 electromagnetism",
+   "proofs": []
+  },
+  {
+   "tid": 876,
+   "name": "Reality Budget as CC Resolution",
+   "domain": "cosmology",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_Core_Domain_Bridge_Theorems",
+   "toys": [],
+   "date": "2026-04-05",
+   "plain": "Core domain bridge: cosmology \u2194 quantum",
+   "proofs": []
+  },
+  {
+   "tid": 877,
+   "name": "Vacuum Mode Counting to Lambda",
+   "domain": "cosmology",
+   "status": "proved",
+   "depth": 1,
+   "conflation": 2,
+   "section": "BST_Core_Domain_Bridge_Theorems",
+   "toys": [],
+   "date": "2026-04-05",
+   "plain": "Core domain bridge: cosmology \u2194 quantum",
+   "proofs": []
+  },
+  {
+   "tid": 878,
+   "name": "Maxwell-Lorentz as SO(5,2) Subgroup",
+   "domain": "electromagnetism",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_Core_Domain_Bridge_Theorems",
+   "toys": [],
+   "date": "2026-04-05",
+   "plain": "Core domain bridge: electromagnetism \u2194 relativity",
+   "proofs": []
+  },
+  {
+   "tid": 879,
+   "name": "EM Stress-Energy Sources BST Curvature",
+   "domain": "electromagnetism",
+   "status": "proved",
+   "depth": 1,
+   "conflation": 2,
+   "section": "BST_Core_Domain_Bridge_Theorems",
+   "toys": [],
+   "date": "2026-04-05",
+   "plain": "Core domain bridge: electromagnetism \u2194 relativity",
+   "proofs": []
+  },
+  {
+   "tid": 880,
+   "name": "Casimir GW Substrate Detector",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    937
+   ],
+   "date": "2026-04-05",
+   "plain": "Verified: Toy 937.",
+   "proofs": []
+  },
+  {
+   "tid": 881,
+   "name": "Material Interface Coupling Survey",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    938
+   ],
+   "date": "2026-04-05",
+   "plain": "Verified: Toy 938.",
+   "proofs": []
+  },
+  {
+   "tid": 882,
+   "name": "Biological Material Properties",
+   "domain": "biology",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    939
+   ],
+   "date": "2026-04-05",
+   "plain": "Verified: Toy 939.",
+   "proofs": []
+  },
+  {
+   "tid": 883,
+   "name": "Planetary Structure from BST",
+   "domain": "cosmology",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "section": "BST_AC_Theorems \u00a7TBD",
+   "toys": [
+    940
+   ],
+   "date": "2026-04-05",
+   "plain": "Verified: Toy 940.",
+   "proofs": []
   }
  ],
  "edges": [
@@ -21936,6 +22165,361 @@
   {
    "from": 186,
    "to": 866,
+   "source": "required"
+  },
+  {
+   "from": 204,
+   "to": 867,
+   "source": "required"
+  },
+  {
+   "from": 189,
+   "to": 867,
+   "source": "required"
+  },
+  {
+   "from": 867,
+   "to": 207,
+   "source": "required"
+  },
+  {
+   "from": 207,
+   "to": 867,
+   "source": "required"
+  },
+  {
+   "from": 247,
+   "to": 868,
+   "source": "required"
+  },
+  {
+   "from": 121,
+   "to": 868,
+   "source": "required"
+  },
+  {
+   "from": 868,
+   "to": 207,
+   "source": "required"
+  },
+  {
+   "from": 207,
+   "to": 868,
+   "source": "required"
+  },
+  {
+   "from": 868,
+   "to": 745,
+   "source": "required"
+  },
+  {
+   "from": 745,
+   "to": 868,
+   "source": "required"
+  },
+  {
+   "from": 196,
+   "to": 869,
+   "source": "required"
+  },
+  {
+   "from": 247,
+   "to": 869,
+   "source": "required"
+  },
+  {
+   "from": 869,
+   "to": 751,
+   "source": "required"
+  },
+  {
+   "from": 751,
+   "to": 869,
+   "source": "required"
+  },
+  {
+   "from": 191,
+   "to": 870,
+   "source": "required"
+  },
+  {
+   "from": 204,
+   "to": 870,
+   "source": "required"
+  },
+  {
+   "from": 189,
+   "to": 870,
+   "source": "required"
+  },
+  {
+   "from": 870,
+   "to": 751,
+   "source": "required"
+  },
+  {
+   "from": 751,
+   "to": 870,
+   "source": "required"
+  },
+  {
+   "from": 870,
+   "to": 835,
+   "source": "required"
+  },
+  {
+   "from": 835,
+   "to": 870,
+   "source": "required"
+  },
+  {
+   "from": 131,
+   "to": 871,
+   "source": "required"
+  },
+  {
+   "from": 602,
+   "to": 871,
+   "source": "required"
+  },
+  {
+   "from": 871,
+   "to": 207,
+   "source": "required"
+  },
+  {
+   "from": 207,
+   "to": 871,
+   "source": "required"
+  },
+  {
+   "from": 871,
+   "to": 751,
+   "source": "required"
+  },
+  {
+   "from": 751,
+   "to": 871,
+   "source": "required"
+  },
+  {
+   "from": 649,
+   "to": 872,
+   "source": "required"
+  },
+  {
+   "from": 864,
+   "to": 872,
+   "source": "required"
+  },
+  {
+   "from": 872,
+   "to": 225,
+   "source": "required"
+  },
+  {
+   "from": 225,
+   "to": 872,
+   "source": "required"
+  },
+  {
+   "from": 295,
+   "to": 873,
+   "source": "required"
+  },
+  {
+   "from": 873,
+   "to": 225,
+   "source": "required"
+  },
+  {
+   "from": 225,
+   "to": 873,
+   "source": "required"
+  },
+  {
+   "from": 204,
+   "to": 874,
+   "source": "required"
+  },
+  {
+   "from": 874,
+   "to": 225,
+   "source": "required"
+  },
+  {
+   "from": 225,
+   "to": 874,
+   "source": "required"
+  },
+  {
+   "from": 192,
+   "to": 875,
+   "source": "required"
+  },
+  {
+   "from": 705,
+   "to": 875,
+   "source": "required"
+  },
+  {
+   "from": 875,
+   "to": 225,
+   "source": "required"
+  },
+  {
+   "from": 225,
+   "to": 875,
+   "source": "required"
+  },
+  {
+   "from": 189,
+   "to": 876,
+   "source": "required"
+  },
+  {
+   "from": 204,
+   "to": 876,
+   "source": "required"
+  },
+  {
+   "from": 876,
+   "to": 751,
+   "source": "required"
+  },
+  {
+   "from": 751,
+   "to": 876,
+   "source": "required"
+  },
+  {
+   "from": 189,
+   "to": 877,
+   "source": "required"
+  },
+  {
+   "from": 649,
+   "to": 877,
+   "source": "required"
+  },
+  {
+   "from": 877,
+   "to": 751,
+   "source": "required"
+  },
+  {
+   "from": 751,
+   "to": 877,
+   "source": "required"
+  },
+  {
+   "from": 244,
+   "to": 878,
+   "source": "required"
+  },
+  {
+   "from": 230,
+   "to": 878,
+   "source": "required"
+  },
+  {
+   "from": 878,
+   "to": 207,
+   "source": "required"
+  },
+  {
+   "from": 207,
+   "to": 878,
+   "source": "required"
+  },
+  {
+   "from": 867,
+   "to": 879,
+   "source": "required"
+  },
+  {
+   "from": 875,
+   "to": 879,
+   "source": "required"
+  },
+  {
+   "from": 879,
+   "to": 207,
+   "source": "required"
+  },
+  {
+   "from": 207,
+   "to": 879,
+   "source": "required"
+  },
+  {
+   "from": 879,
+   "to": 835,
+   "source": "required"
+  },
+  {
+   "from": 835,
+   "to": 879,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 880,
+   "source": "required"
+  },
+  {
+   "from": 864,
+   "to": 880,
+   "source": "required"
+  },
+  {
+   "from": 850,
+   "to": 880,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 881,
+   "source": "required"
+  },
+  {
+   "from": 840,
+   "to": 881,
+   "source": "required"
+  },
+  {
+   "from": 853,
+   "to": 881,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 882,
+   "source": "required"
+  },
+  {
+   "from": 840,
+   "to": 882,
+   "source": "required"
+  },
+  {
+   "from": 830,
+   "to": 882,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 883,
+   "source": "required"
+  },
+  {
+   "from": 838,
+   "to": 883,
+   "source": "required"
+  },
+  {
+   "from": 835,
+   "to": 883,
    "source": "required"
   }
  ],

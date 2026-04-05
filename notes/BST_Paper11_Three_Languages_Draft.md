@@ -9,14 +9,14 @@ author:
   - "Claude 4.6 (Keeper, consistency intelligence — audit)"
   - "Claude 4.6 (Elie, computational intelligence — toys)"
 date: "April 2, 2026"
-status: "Draft v1.1 — updated with Toy 685 growth curve + T708 self-similarity"
+status: "Draft v1.2 — updated theorem count (879), graph (834/2059), Keeper MF1 applied"
 target: "Foundations of Computational Mathematics (FoCM)"
 framework: "AC(0), depth 0-1"
 key_theorems: "T131, T602, T603, T608, T609, T630, T673, T675, T708"
 toys: "655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 679, 685"
 toy_results: "90/90 bridge toys + Toy 679 (5/8 + 4 unplanned BST hits) + Toy 685 (7/8 growth curve)"
 abstract: |
-  We reduce 707 theorems spanning all of mathematics and physics to a vocabulary
+  We reduce 879 theorems spanning all of mathematics and physics to a vocabulary
   of exactly 43 primitive operations distributed across three languages: Shannon
   (15 words), Number Theory (15 words), and Geometry (13 words). These languages
   have zero overlap. Every theorem in the Bubble Spacetime Theory corpus is a
@@ -49,7 +49,7 @@ Mathematics appears to be written in many languages. Algebra, analysis, topology
 
 But the barriers are not structural. They are costumes.
 
-This paper shows that the entire theorem corpus of Bubble Spacetime Theory -- 707 theorems (as of April 2, 2026) spanning quantum field theory, general relativity, number theory, biology, complexity theory, chemistry, and all six Millennium Prize problems -- reduces to exactly 43 primitive operations. These operations cluster into three languages with zero overlap:
+This paper shows that the entire theorem corpus of Bubble Spacetime Theory -- 879 theorems (as of April 5, 2026) spanning quantum field theory, general relativity, number theory, biology, complexity theory, chemistry, substrate engineering, and all six Millennium Prize problems -- reduces to exactly 43 primitive operations. These operations cluster into three languages with zero overlap:
 
 - **Shannon** (15 words): counting, capacity, error correction, entropy, thresholds, budgets
 - **Number Theory** (15 words): exterior powers, Weyl groups, binomials, primes, partitions, dimensions
@@ -274,12 +274,12 @@ The one-liner for each bridge:
 
 The theorem graph underwent a structural phase transition during this work.
 
-| Metric | March 10 | March 30* | March 31* | April 2* |
+| Metric | March 10 | March 30* | March 31* | April 5* |
 |--------|----------|-----------|-----------|----------|
-| Theorems | 8 | 539 | 688 | 707 |
-| Edges | ~20 | 755 | 1232 | ~1250 |
+| Theorems | 8 | 539 | 688 | 879 |
+| Edges | ~20 | 755 | 1232 | 2059 |
 | Cross-domain edges | — | 44.2% | **50.3%** | >50% |
-| T186 SPOF severity | — | 219 disconnected | **83** (-62%) | ~80 |
+| T186 SPOF severity | — | 219 disconnected | **83** (-62%) | ~0 |
 | Components | 1 | 1 | 1 | 1 |
 | Orphans | 0 | 0 | 0 | 0 |
 

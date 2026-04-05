@@ -2,7 +2,7 @@
 
 *One list. Check it off. Move it up.*
 
-**Last updated:** April 5, 2026, evening (T1-T866. 937 toys. 34+ physical domains. 400+ predictions. Graph: 834 nodes, 2059 edges. 23 substrate engineering devices. 32 papers. Counters: T867+/toy 937+.)
+**Last updated:** April 5, 2026, late (T1-T879. 940+ toys. 34+ physical domains. 400+ predictions. Graph: 834 nodes, 2059 edges. 23 substrate engineering devices. 36 papers. Counters: T880+/toy 941+.)
 
 ---
 
@@ -16,12 +16,12 @@ Six domain pairs need explicit BST derivation chains:
 
 | Pair | Key Bridge | Status |
 |------|-----------|--------|
-| Cosmology ↔ Relativity | G×Λ from D_IV^5, Friedmann with all constants derived | QUEUED |
-| Relativity ↔ QM | Hawking T_H, Unruh effect, heat kernel | QUEUED |
-| QM ↔ EM | α=1/137, Casimir, g-2, QED vertices | QUEUED |
-| Cosmology ↔ EM | T_CMB, recombination, CMB spectrum | QUEUED |
-| Cosmology ↔ QM | Λ problem (10¹²⁰), Reality Budget | QUEUED |
-| EM ↔ Relativity | Maxwell Lorentz covariance, stress-energy | QUEUED |
+| Cosmology ↔ Relativity | T867, T868 | **DONE** (Lyra) |
+| Relativity ↔ QM | T869, T870, T871 | **DONE** (Lyra) |
+| QM ↔ EM | T872, T873 | **DONE** (Lyra) |
+| Cosmology ↔ EM | T874, T875 | **DONE** (Lyra) |
+| Cosmology ↔ QM | T876, T877 | **DONE** (Lyra) |
+| EM ↔ Relativity | T878, T879 | **DONE** (Lyra) |
 
 Target: 12-18 bridge theorems. Metric: core-domain cross-edges from ~0 to >50%.
 
@@ -29,11 +29,11 @@ Target: 12-18 bridge theorems. Metric: core-domain cross-edges from ~0 to >50%.
 
 | Toy | Topic | Value | Status |
 |-----|-------|-------|--------|
-| 937 | GW Substrate Detector — 2D phased array | Casey concept, GHz band | CLAIMED |
-| 938 | Material Interface Coupling — 20+ pairs | New law of physics? (3/7 for BiNb) | QUEUED |
-| 939 | Biological Material Properties — 20+ ratios | Bergman → biology | QUEUED |
-| 940 | Planetary Structure — core/mantle/Moho | Geology from BST | QUEUED |
-| 941 | Self-Amplification Threshold — feedback loop | Macro breakthrough? | QUEUED |
+| 937 | GW Substrate Detector — 2D phased array | Casey concept, GHz band | **DONE** (Elie 8/8) → Paper #32 (Lyra) |
+| 938 | Material Interface Coupling — 20+ pairs | Periodic table for junctions | **DONE** (Elie 8/8) → Paper #33 (Lyra) |
+| 939 | Biological Material Properties — 20+ ratios | Crystal boundary: yes/no | **DONE** (Elie 8/8) → Paper #34 (Lyra) |
+| 940 | Planetary Structure — core/mantle/Moho | Mars=1/2, J/S=5/6 | **DONE** (Elie 8/8) → Paper #34 (Lyra) |
+| 941 | Self-Amplification Threshold — feedback loop | Macro breakthrough? | CLAIMED (Elie) |
 
 ### ONGOING
 - **Grace**: Wire bridge theorems as they land, track core cross-edge %
@@ -49,13 +49,18 @@ Target: 12-18 bridge theorems. Metric: core-domain cross-edges from ~0 to >50%.
 
 ### April 5 DONE
 1. 23 substrate engineering devices (Toys 914-936), 166+/176+ PASS
-2. Papers #25-#31 (7 new papers: Bergman, Heat Engine, Katra, Bismuth, Propulsion, SC, BiNb)
-3. Toys 907-936 (+30 toys), T834-T866 (+33 theorems)
+2. Papers #25-#34 (10 new papers this day: Bergman, Heat Engine, Katra, Bismuth, Propulsion, SC, BiNb, GW Detection, Junction Table, Biology+Planets)
+3. Toys 907-940 (+34 toys), T834-T879 (+46 theorems)
 4. Graph: 803→834 nodes, 1876→2059 edges, crossed 2000
 5. Paper #27 KEEPER PASS (5 MF fixed)
 6. BiNb mode coupling = 3/7 to 0.18% (Toy 936)
 7. Phonon resonance amplification confirmed (Toy 934)
 8. Phonon propulsion: 0.42 N linear at 10⁶ elements (Toy 935)
+9. **Bridge theorems T867-T879**: 13 theorems, 6 core domain pairs, all DONE (Lyra)
+10. **Material interface coupling**: Bi/Ti at 30/137 (0.013%), periodic table for junctions (Toy 938)
+11. **Biology boundary**: crystal = BST, amorphous = no BST. Microtubule = 3/5 exact (Toy 939)
+12. **Planetary structure**: Mars = 1/2, Jupiter/Saturn = 5/6 (0.05%) (Toy 940)
+13. Paper #11 v1.2: theorem count updated to 879
 
 ### DEPRIORITIZED
 - Patent (Casey: "not important" — but 23 devices now, revisit?)
