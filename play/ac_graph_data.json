@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 2194,
+  "edge_count": 2199,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 864,
+  "node_count": 865,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -12034,6 +12034,21 @@
    "plain": "GOE \u03b2=1, GUE \u03b2=rank=2, GSE \u03b2=2^rank=4. AZ 10-fold=2n_C. Edge scaling rank/N_c=2/3=K41=KPZ. 16/16 quantities EXACT. 10/10 PASS.",
    "proofs": [],
    "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 900,
+   "name": "Information Theory Constants as BST",
+   "domain": "info_theory",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 1,
+   "toys": [
+    952
+   ],
+   "date": "2026-04-05",
+   "plain": "Shannon capacity, entropy bounds, channel coding all BST. Gaussian 1/rank=GOE. D_max ternary=rank/N_c=K41. D_max quaternary=N_c/2^rank=Kleiber. 10/10 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
   }
  ],
  "edges": [
@@ -23034,6 +23049,31 @@
   {
    "from": 821,
    "to": 899,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 900,
+   "source": "required"
+  },
+  {
+   "from": 899,
+   "to": 900,
+   "source": "required"
+  },
+  {
+   "from": 898,
+   "to": 900,
+   "source": "required"
+  },
+  {
+   "from": 892,
+   "to": 900,
+   "source": "required"
+  },
+  {
+   "from": 742,
+   "to": 900,
    "source": "required"
   }
  ],
