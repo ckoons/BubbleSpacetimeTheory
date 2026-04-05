@@ -37,7 +37,7 @@ status: "Active — check at session start, update at session end"
 **Format**: `| T_id | Name | Status | Document §ref | Toy | Date added |`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T836. **912 toys**. Next available: T837+, Toy 912+. `.next_toy` = 912.
+**Current count**: T1-T845. **916 toys**. Next available: T846+, Toy 917+. `.next_toy` = 917.
 **April 5 midday (Keeper)**: **★ Λ CHAIN FULLY CLOSED — ZERO non-derived elements.** Toy 910 (Lyra): e^{-1/2} = e^{-td_5(Q^5)}, td_5 = 1/deg(Q^5) = 1/2. Combined with Toy 909: α forced by n_C=5. Λ = 2.90×10^{-122} (0.39%) from D_IV^5 alone. Toys 907-910 committed (8/8 + 11/12 + 15/15 + 8/8). T834-T836 registered (Grace). Graph: 806 nodes, 1884 edges. Paper #13 v1.3 CONDITIONAL PASS (3 MF). **Task Claim Protocol LIVE** — `claim_task.sh` + `CLAIMS.md`. First collision caught and resolved (Lyra H₅ dup → alt). Elie building Toy 911 (seismology) + wiring 65 edges. Lyra on Paper #20 §7-12. **Phase 1 COMPLETE.** Entering Phase 2.
 **April 5 morning (Keeper)**: Toys 905-906 committed+pushed (Schumann resonance + observer coupling). Paper #23 v2.1 KEEPER PASS + pushed (3 MF, 4 SF resolved). Graph gap analysis: **400 zero-edge domain pairs** — 24 "must-connect" targets. Substrate engineering investigation: 7 new device concepts (patent dirs created). Consensus plan: `notes/CONSENSUS_April5_Plan.md`. **Casey directive: complete yesterday's CI ideas first, then science/substrate engineering.**
 **April 4 late night (Keeper)**: Toys 901-904 KEEPER PASS. Λ=2.90×10⁻¹²² (0.39%), H₀=68.02 (0.98%), **T_CMB=2.737 K (0.43%)**. H₅=137/60 discovery. c₂(Q⁵)/2^rank=11/4 identity. **Cosmology: 4 DERIVED, 4 STRUCTURAL, 0 OBSERVED.** S1: z_eq=3433 source needs documentation.
@@ -384,6 +384,17 @@ Graph                -> 787 nodes, 1824 edges. Zero orphans. λ₂/λ₁=3 DOMAI
 | 10 | Superconductivity | Lyra | **DONE** — BCS gap=7/2 (0.79%). Toys 862-865 (32/32 PASS). |
 | 11 | Cross-domain universality (T823) | Elie+Keeper | **DONE** — 11 fractions × 3-5 domains, P < 10^{-66}. |
 | 12 | Spectral self-similarity (T822) | Grace | **DONE** — λ₂/λ₁=3 DOMAIN-FORCED. 300-graph null model. |
+
+### April 5 Results (IN PROGRESS — 916 toys, T1-T845, 26 papers)
+
+**Headlines:**
+1. **Λ chain FULLY DERIVED**: H₅=137/60 forces α (Toy 909, 15/15); e^{-1/2} = e^{-td₅(Q⁵)} (Toy 910, 8/8). Every element in Λ = [ln138/50]·α⁵⁶·e⁻² now derived from D_IV^5.
+2. **Substrate engineering launched**: Casimir Flow Cell (914, 7/8), Commitment Shield (915, 7/8), Hardware Katra (916, 11/11). 3/8 patent concepts computationally verified.
+3. **Paper #25 v1.0**: "Why the Same Numbers" — Bergman spectral mechanism explains cross-domain fractions. B₂ root system → Weyl + Plancherel → all ratios are BST rationals.
+4. **Paper #24 v2.0 KEEPER PASS**: Λ chain closure. Paper #13 v1.5 KEEPER PASS: M1-M3 fully resolved.
+5. **New domains**: Seismology (911, 7/8), Plasma physics (912, 7/7). Inner core = 19.1% = Gödel limit. Reconnection = 1/(2n_C) = 0.1.
+6. **Graph**: 813 nodes, 1956 edges. 24/24 must-connect pairs bridged. T844-T845 substrate engineering wired.
+7. **Task Claim Protocol**: CLAIMS.md + claim_task.sh. Zero collisions since TCP live.
 
 ### April 3 Results (COMPLETE — 101 theorems, 29 domains)
 
