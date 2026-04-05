@@ -275,7 +275,7 @@ Papers #12-#13: Multi-CI Architecture + Science Engineering Velocity (backlog fo
 
 ## Track 2: YM (~98%) — W4 DERIVED, All 5 Wightman DONE, NON-TRIVIALITY PROVED
 
-*BST derives Δ=6π⁵mₑ (0.002%). All 5 Wightman axioms DERIVED. W4 modular localization + Borel neat descent COMPLETE. Non-triviality proved (5 independent arguments, T882). Remaining ~2%: R⁴ framing.*
+*BST derives Δ=6π⁵mₑ (0.002%). All 5 Wightman axioms DERIVED. W4 modular localization + Borel neat descent COMPLETE. Non-triviality proved (5 independent arguments, T886). Remaining ~2%: R⁴ framing.*
 
 | # | Task | Owner | Status | Notes |
 |---|------|-------|--------|-------|
@@ -283,7 +283,7 @@ Papers #12-#13: Multi-CI Architecture + Science Engineering Velocity (backlog fo
 | Y2 | **Q⁵→R⁴ bridge: scoping** | Lyra | **DONE** | BST_YM_Q5_R4_Bridge_Scoping.md. Decompactification KILLED (λ₁→0). |
 | Y3 | ~~**W4 closure**~~ | Lyra | **DONE (March 30)** | **W4 DERIVED** via modular localization: BW + RS + Tomita-Takesaki + Borel neat descent. Γ-freeness resolved via Borel's neat subgroup Γ(N), N≥3. Rehren not needed. |
 | Y4 | **General-G extension** | Keeper | TODO | Spectral gap for Q^n on other Cartan domains; n=5 uniquely selected |
-| Y5 | **Non-triviality proof** | Lyra | **DONE (T882)** | 5 independent arguments: non-abelian gauge (A), non-quadratic spectrum (B), Bergman non-factorizability (C), Selberg scattering (D), connected 3-point (E). AC: (C=2, D=0). BST_YM_NonTriviality.md |
+| Y5 | **Non-triviality proof** | Lyra | **DONE (T886)** | 5 independent arguments: non-abelian gauge (A), non-quadratic spectrum (B), Bergman non-factorizability (C), Selberg scattering (D), connected 3-point (E). AC: (C=2, D=0). BST_YM_NonTriviality.md |
 | Y6 | **YM complete paper** | All | TODO | Mass gap value + Wightman + bridge + general-G. One package. |
 
 ---
