@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 2233,
+  "edge_count": 2239,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 874,
+  "node_count": 876,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -12184,6 +12184,36 @@
    "plain": "BC2 deterministic solver: navigability wall at \u03b1=4.25\u2248\u03b1_c=4.267. Solver fails (0% solutions) but failure CHARACTERIZES the phase transition. DPLL explodes 3.1x while BC2 stays flat 1.5x. BC2 3-13x faster than DPLL. 5/8 PASS.",
    "proofs": [],
    "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 910,
+   "name": "NS Information Front",
+   "domain": "fluids",
+   "status": "proved",
+   "depth": 1,
+   "conflation": 2,
+   "toys": [
+    957
+   ],
+   "date": "2026-04-05",
+   "plain": "Wavenumber mutual information tracking. 3D blow-up characterized via information cascade. 10/10 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 911,
+   "name": "BC2 Hybrid SAT Preprocessor",
+   "domain": "proof_complexity",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    962
+   ],
+   "date": "2026-04-05",
+   "plain": "BC2 preprocessor + CDCL backend. 3.18x avg speedup. Curvature=hardness r=0.46. BC2 catches 12.9 vars unit propagation misses. 5/7 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
   }
  ],
  "edges": [
@@ -23379,6 +23409,36 @@
   {
    "from": 186,
    "to": 909,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 910,
+   "source": "required"
+  },
+  {
+   "from": 898,
+   "to": 910,
+   "source": "required"
+  },
+  {
+   "from": 811,
+   "to": 910,
+   "source": "required"
+  },
+  {
+   "from": 902,
+   "to": 911,
+   "source": "required"
+  },
+  {
+   "from": 909,
+   "to": 911,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 911,
    "source": "required"
   }
  ],
