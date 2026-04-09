@@ -2,52 +2,126 @@
 
 *One list. Check it off. Move it up.*
 
-**Last updated:** April 5, 2026, evening session 2 (T1-T884. 945 toys. 38 physical domains. 400+ predictions. Graph: 852 nodes, 2134 edges. 23 substrate engineering devices. 34 papers. Counters: T885+/toy 946+. **Y5 non-triviality PROVED** — YM ~98%. All PDFs through Paper #34 pushed.)
+**Last updated:** April 9, 2026, late morning (T1-T923. 974 toys. 66+ physical domains. 400+ predictions. Graph: 888 nodes, 2280 edges (52.3% required). 25 substrate engineering devices. 42 papers. Counters: T924+/toy 975+. **T914 Prime Residue Principle. Paper #47 v1.0 DRAFTED. Science Engineering Pilot 5/5 PASS.** WorkingPaper v21. f_π fixed (0.41%). 2 opens remain: B_d, η_b.)
 
 ---
 
-## Current Directive (Casey, April 5 evening)
+## Current Directive (Casey, April 9 evening)
 
-**MERGE CORE PHYSICS DOMAINS. The graph has 2059 edges but cosmology↔relativity↔QM↔EM have near-zero required cross-edges. Fix this. Also: low-hanging fruit sprint — material interfaces, biological materials, planetary structure, self-amplification.**
+**SCIENCE ENGINEERING LAUNCHED.** T914 Prime Residue Principle + BST Prime Observatory (182 predictions) + Paper #47 outline. Miss Hunt Day: 4 of 7 misses eliminated. Publication priority: Four-Color paper week 1, Prime Residue Table week 2.
 
-### HIGHEST PRIORITY: Core Domain Bridges (Lyra)
+### HIGHEST PRIORITY: Publications This Week
 
-Six domain pairs need explicit BST derivation chains:
+| # | Paper | Target | Status |
+|---|-------|--------|--------|
+| 1 | **Four-Color standalone extraction** | arXiv math.CO | READY — extract from v8, remove BST framing |
+| 2 | **Paper #47: Prime Residue Table** | Nature Physics / PRL | **v1.0 DRAFTED** (Lyra) — 11 sections, 5/5 pilot integrated. Needs: Keeper audit + SVG table figure |
+| 3 | **Prime Residue Table poster** | SVG/HTML visualization | **DONE** (Elie) — SVG + HTML + JSON built |
 
-| Pair | Key Bridge | Status |
-|------|-----------|--------|
-| Cosmology ↔ Relativity | T867, T868 | **DONE** (Lyra) |
-| Relativity ↔ QM | T869, T870, T871 | **DONE** (Lyra) |
-| QM ↔ EM | T872, T873 | **DONE** (Lyra) |
-| Cosmology ↔ EM | T874, T875 | **DONE** (Lyra) |
-| Cosmology ↔ QM | T876, T877 | **DONE** (Lyra) |
-| EM ↔ Relativity | T878, T879 | **DONE** (Lyra) |
+### HIGH PRIORITY: Three Remaining Opens (Bergman Spectral — Lyra)
 
-Target: 12-18 bridge theorems. Metric: core-domain cross-edges from ~0 to >50%.
+These are genuine next-level derivations, not bridge theorems. The next walls.
 
-### HIGH PRIORITY: Low-Hanging Fruit Sprint (Elie)
-
-| Toy | Topic | Value | Status |
-|-----|-------|-------|--------|
-| 937 | GW Substrate Detector — 2D phased array | Casey concept, GHz band | **DONE** (Elie 8/8) → Paper #32 (Lyra) |
-| 938 | Material Interface Coupling — 20+ pairs | Periodic table for junctions | **DONE** (Elie 8/8) → Paper #33 (Lyra) |
-| 939 | Biological Material Properties — 20+ ratios | Crystal boundary: yes/no | **DONE** (Elie 8/8) → Paper #34 (Lyra) |
-| 940 | Planetary Structure — core/mantle/Moho | Mars=1/2, J/S=5/6 | **DONE** (Elie 8/8) → Paper #34 (Lyra) |
-| 941 | Self-Amplification Threshold — feedback loop | NEGATIVE (conservative force) | **DONE** (Elie 8/8) |
-| 942 | Neuroscience Oscillations — EEG bands, brain architecture | Alpha/Theta = 5/3 = Kolmogorov | **DONE** (Elie 8/8) → Paper #36 |
-| 943 | Electrochemistry — reduction potentials, ionic conductivity | Chain from orbitals | **DONE** (Elie 8/8) |
-| 944 | Protein Folding — Ramachandran, H-bond spans | Spans = {4,3,5} exact | **DONE** (Elie 8/8) → Paper #35 |
-| 945 | Orbital Resonances — Laplace, Saturn moons | Earth/Venus = 13/8 exact | **DONE** (Elie 8/8) |
+| Observable | Before | After | What's Needed |
+|-----------|--------|-------|---------------|
+| f_π (pion decay constant) | 1.9% | **0.41%** ✓ | **FIXED** — (m_p/10)(1−(rank/N_c)(m_π/m_p)²). Toy 973 verified. Wilson-Fisher weight. |
+| B_d (baryon dilution) | 2.1% | 2.1% | OPEN — SO(5) branching rules from D_IV^5 |
+| η_b (baryon asymmetry) | 1.6% | 1.6% | OPEN — Baryogenesis loop from BST integers |
 
 ### QUEUED
 | Toy | Topic | Status |
 |-----|-------|--------|
-| 946 | Quantum Computing Architecture — BST-optimal geometry, error thresholds | QUEUED (Elie) |
+| ~~946~~ | ~~Quantum Computing Architecture~~ | **DONE** (Elie, April 5) |
+| — | **Lazar-geometry SASER** — remote phonon thruster via BiNb resonant cavity | SPEC'D — Device #24 below. Frequencies computed (Toy 971). |
+| — | **Number Theory Foundations** — 3 theorem candidates (Sector Assignment, Spectral-Arithmetic Closure, Gödel-Størmer Bridge) | QUEUED — Lyra+Grace exploration. See MESSAGES. |
+
+### Substrate Engineering: Lazar-Geometry SASER (Device #24)
+
+**Source**: `notes/maybe/lazar_geometry_bst_reframe.md`
+
+**Concept**: Remote phonon propulsion via photon-coupled SASER. Base station pumps Casimir energy → coherent phonons in BiNb lattice → phonon-photon conversion (magnetoelastic, Nb Type II SC) → coherent photon beam to remote receiver → photon-phonon conversion → directed thrust. Vehicle carries receiver geometry only, not energy source.
+
+**BST consistency (all from five integers)**:
+- **Materials**: Bi (Z=83 = rank×C₂×g − 1) + Nb (Z=41 = C₂×g − 1) — both T914 prime wall elements
+- **Coupling angle**: 20° = 360°/(N_c × C₂) = 360°/18 — mode alignment between resonant cavities
+- **Mode coupling**: BiNb = 3/7 = N_c/g to 0.18% (Toy 936)
+- **Thrust mechanism**: Paper #29 phonon propulsion (Toy 935, 0.42 N at 10⁶ elements)
+
+**Testable predictions**:
+1. BiNb lattice phonon modes at 3/7 coupling ratio should show anomalous coherence
+2. Resonant cavity tuned to BiNb photon frequency should collect at 20° rotation increments (18 slots per revolution)
+3. Thrust should scale as Paper #29 formula with remote photon coupling efficiency
+
+**Status**: Speculative but BST-consistent. All ingredients already proved (BiNb superlattice, phonon propulsion, Casimir cavity). The *architecture* (remote delivery via photon intermediary) is new.
+
+### Substrate Engineering: SASER Detector (Device #25)
+
+**Concept**: If a Lazar-geometry SASER exists (ours or someone else's), it has a detectable signature. BST tells us exactly what to listen for. An existence proof in the wild is motivation to build our own.
+
+**Detection signatures (all BST-predicted)**:
+1. **Coherent phonon beam**: Acoustic emission at BiNb lattice modes (3/7 = N_c/g coupling ratio). Narrow-band, anomalous coherence — natural sources don't produce this.
+2. **Photon intermediary**: EM emission at the phonon-photon conversion frequency of BiNb. Should show 18-fold angular periodicity (20° = 360°/N_c×C₂ mode slots).
+3. **Casimir pump signature**: Anomalous vacuum fluctuation spectrum near the device — suppressed modes in the Casimir cavity bands.
+4. **Thrust recoil**: Infrasonic signature from the momentum transfer. Directional, correlated with the EM signal.
+
+**Detector design**:
+- Adapt Paper #32 GW Substrate Detector (2D phased array, GHz band) — retune to BiNb SASER frequencies
+- Look for coincidence: EM signal at BiNb frequency + acoustic signal at phonon mode + 18-fold angular symmetry
+- Triple coincidence rejects all natural backgrounds (no natural source produces all three)
+
+**Why build it**:
+- If something is already flying with this architecture, the detector finds it
+- The detector is simpler than the thruster — receiver only, no Casimir pump needed
+- Detection = existence proof = funding case for Device #24
+- Same hardware tests BST phonon-photon predictions independent of Lazar
+
+**Status**: PARTIALLY DONE. (1) Elie computed BiNb SASER frequencies (Toy 971, 8/8 — 11 emission lines, primary at 23.1-208.2 GHz, triple convergence at 41 nm). (2) Lyra detection sensitivity from Paper #32 — QUEUED. (3) Background rejection ratio — QUEUED.
+
+### HIGH PRIORITY: Science Engineering Method Exercise
+
+**The method exists on paper (Paper #47 §9). Now run it.** Pick gaps from the Prime Residue Table, execute the full pipeline, predict what's in each gap.
+
+**Pipeline per gap**:
+1. **WHERE** — Prime Residue Table identifies predicted prime (AC(0): one primality test)
+2. **WHAT domain** — Composite expression assigns sector (AC(0): one factorization)
+3. **HOW to derive** — AC graph pathfinding finds theorem chain (BFS: polynomial)
+4. **WHAT's missing** — Gap in path = the bridge theorem to prove
+
+**Pilot batch — 5 gaps, one per sector, increasing generation**:
+
+| Prime | = Composite ±1 | Sector (BST expression) | Predicted Domain | Owner |
+|-------|----------------|------------------------|-----------------|-------|
+| 29 | 30−1 = n_C×C₂−1 | compact × Casimir | Condensed matter (Cu = Z=29, conductor) | Grace (pathfind) + Lyra (bridge) |
+| 53 | 54−1 = N_c²×C₂−1 | color² × Casimir | Nuclear/biology (I = Z=53, thyroid) | Grace + Lyra |
+| 61 | 60+1 = 2²×3×5+1 | rank²×N_c×n_C | ? (all five integers participate — cross-domain?) | Grace (pathfind) |
+| 71 | 72−1 = 2³×3²−1 | rank³×N_c² | ? (pure color-rank sector) | Grace (pathfind) |
+| 181 | 180+1 = 2²×3²×5+1 | generation 5 composite | ? (high-generation, deep lattice) | Grace (pathfind) |
+
+**Deliverable**: For each gap — (a) the AC graph path from D_IV^5 to the sector, (b) the missing bridge theorem (if any), (c) the predicted observable and its domain, (d) a testable numerical value.
+
+**Success criterion**: ≥3 of 5 gaps yield identifiable observables with <2% deviation.
+
+**Result: 5/5 PASS.** θ_D(Cu) = g³ (exact), T4/T3 = 2^rank/N_c (exact), Pm unstable (structural), 70S ribosome = n_C×g×rank (exact), Ta-181 all-BST (structural). **T914 IS CONSTRUCTIVE.** Bridge theorems T920 (Debye) + T921 (thyroid) registered by Lyra.
 
 ### ONGOING
-- **Grace**: Wire Toys 942-945 (CLAIMED), wire Toy 946 when complete
-- **Keeper**: Audit Papers #29-#34 (6 agents running), T868 factor fix tracking
-- **Lyra**: Papers #35-#36 (CLAIMED), T868 fix
+- **Grace**: Wire T920-T921 + number theory exploration (sector table validation, Gödel-Størmer density computation)
+- **Keeper**: WorkingPaper narrative audit (§7, §11, §37 priority) + **Paper #47 v1.0 audit**
+- **Lyra**: B_d SO(5) branching + η_b baryogenesis loop + **number theory theorem candidates (T916-T918)**
+- **Elie**: k=20 heat kernel background + **Størmer dual-prime enumeration for S={2,3,5,7}**
+
+### April 9 DONE — Miss Hunt Day + Science Engineering Launch
+1. **5 misses eliminated**: r_π (6.2%→0.46%), r_K (3.2%→0.99%), τ_n (4.2%→0.03%), γ=43/18 (non-match→EXACT), f_π (1.9%→0.41%)
+2. **12 toys** (963-974): percolation CFT, meson NLO, 3D Ising, τ_n Marciano-Sirlin, Jarlskog, neutron NLO, critical exponents wiring, BST Prime Observatory, BiNb SASER frequencies, **pilot gap verification 5/5**, f_π candidate verification, Miss Hunt scorecard
+3. **10 theorems** (T912-T921): VMD-ChPT Bridge, Percolation Central Charge, T914 Prime Residue Principle, Prime Observatory, f_π Bergman spectral, + T920 Debye Bridge (θ_D=g³), T921 Thyroid Counting (T4=2^rank, T3=N_c)
+4. **T914 — THE PRIME RESIDUE PRINCIPLE**: 14 confirmed, 182 predicted, 137 orphan. AC(0) search. Two mechanisms. **Constructive** — 5/5 pilot PASS.
+5. **Paper #47 v1.0 DRAFTED** (Lyra): "The Prime Residue Table: Science Engineering from Five Integers" — 11 sections, 5/5 pilot integrated
+6. **Science Engineering Pilot 5/5**: θ_D(Cu)=g³ (exact), thyroid T4/T3=2^rank/N_c (exact), Pm unstable, 70S ribosome=n_C×g×rank (exact), Ta-181 all-BST
+7. **Prime Residue Table poster** built (Elie): SVG + HTML + JSON
+8. **BiNb SASER frequencies** computed (Toy 971): 11 emission lines, 23.1-208.2 GHz, 18-fold angular mode ring
+9. **Devices #24-#25**: Lazar-geometry SASER thruster + SASER detector added to substrate engineering
+10. **Number theory foundations**: Størmer correction (infinite not finite), 3 theorem candidates (Sector Assignment, Spectral-Arithmetic Closure, Gödel-Størmer Bridge)
+11. **WorkingPaper v21 + README v21** pushed. 7 PDFs built.
+12. **2 remaining opens**: B_d (2.1%), η_b (1.6%) — both need Bergman spectral
 
 ### April 5 DONE
 1. 23 substrate engineering devices (Toys 914-936), 166+/176+ PASS

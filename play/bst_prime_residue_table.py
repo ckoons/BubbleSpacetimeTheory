@@ -465,7 +465,7 @@ lines.append(svg_text(total_w/2, cap_y + 36,
 lines.append(svg_text(total_w/2, cap_y + 58,
     "\u00A9 Copyright 2026 Casey Koons. All rights reserved.", 12, BLACK, "middle", "bold", "sans-serif"))
 lines.append(svg_text(total_w/2, cap_y + 76,
-    "Bubble Spacetime Theory  |  github.com/BubbleSpacetimeTheory", 11, GRAY, "middle", "normal", "sans-serif"))
+    "Bubble Spacetime Theory  |  https://github.com/ckoons/BubbleSpacetimeTheory", 11, GRAY, "middle", "normal", "sans-serif"))
 
 lines.append('</svg>')
 
@@ -651,7 +651,7 @@ h1 {{
     </p>
     <p style="margin-top:4px;">
         <strong>Bubble Spacetime Theory</strong> &nbsp;|&nbsp;
-        github.com/BubbleSpacetimeTheory
+        https://github.com/ckoons/BubbleSpacetimeTheory
     </p>
 </div>
 

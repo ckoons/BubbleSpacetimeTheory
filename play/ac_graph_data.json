@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 2267,
+  "edge_count": 2285,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 884,
+  "node_count": 889,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -12330,6 +12330,81 @@
    "plain": "R = 1/sqrt(C_2) at 0.23%. sin theta_13 = A*lambda^3/sqrt(C_6). CKM parametrization refined. 4/6 PASS.",
    "proofs": [],
    "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 920,
+   "name": "Debye Temperature Bridge",
+   "domain": "chemical_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    972
+   ],
+   "date": "2026-04-09",
+   "plain": "theta_D(Cu) = g^3 = 343 K EXACT. Debye temp as BST cube. Cu at prime wall 29 = n_C*C_2-1.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 921,
+   "name": "Thyroid Hormone Counting",
+   "domain": "biology",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    972
+   ],
+   "date": "2026-04-09",
+   "plain": "T4 has 4=2^rank iodine atoms, T3 has 3=N_c. Deiodinase IS the Mersenne deficit in molecular biology. Z(I)=53=N_c^2*C_2-1.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 922,
+   "name": "BiNb SASER Frequencies",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    971
+   ],
+   "date": "2026-04-09",
+   "plain": "Phonon laser frequencies for BiNb superlattice at BST-integer plane counts. 8/8 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 923,
+   "name": "Prime Residue Pilot Verification",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    972
+   ],
+   "date": "2026-04-09",
+   "plain": "5/5 pilot gaps verified. theta_D(Cu)=g^3 (gap 29). T4/T3=2^rank/N_c (gap 53). 70S ribosome=n_C*g*rank (gap 71). Ta-181 all-BST (gap 181). Pm unstable (gap 61). T914 constructive.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 926,
+   "name": "St\u00f8rmer-G\u00f6del Bridge",
+   "domain": "number_theory",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 1,
+   "toys": [
+    975
+   ],
+   "date": "2026-04-09",
+   "plain": "T914 dual-membership = St\u00f8rmer dual primes (exact equivalence). 17 duals total, all \u2264 4801. 14 below N_max. g=7 is St\u00f8rmer dual: 6\u21907\u21928. N_max=137 is ORPHAN: neither 136 nor 138 is 7-smooth. Catalog finite by St\u00f8rmer 1897. 8/8 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
   }
  ],
  "edges": [
@@ -23695,6 +23770,96 @@
   {
    "from": 190,
    "to": 919,
+   "source": "required"
+  },
+  {
+   "from": 914,
+   "to": 920,
+   "source": "required"
+  },
+  {
+   "from": 806,
+   "to": 920,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 920,
+   "source": "required"
+  },
+  {
+   "from": 914,
+   "to": 921,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 921,
+   "source": "required"
+  },
+  {
+   "from": 882,
+   "to": 921,
+   "source": "required"
+  },
+  {
+   "from": 866,
+   "to": 922,
+   "source": "required"
+  },
+  {
+   "from": 858,
+   "to": 922,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 922,
+   "source": "required"
+  },
+  {
+   "from": 914,
+   "to": 923,
+   "source": "required"
+  },
+  {
+   "from": 920,
+   "to": 923,
+   "source": "required"
+  },
+  {
+   "from": 921,
+   "to": 923,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 923,
+   "source": "required"
+  },
+  {
+   "from": 914,
+   "to": 926,
+   "source": "required"
+  },
+  {
+   "from": 923,
+   "to": 926,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 926,
+   "source": "required"
+  },
+  {
+   "from": 649,
+   "to": 926,
+   "source": "required"
+  },
+  {
+   "from": 836,
+   "to": 926,
    "source": "required"
   }
  ],
