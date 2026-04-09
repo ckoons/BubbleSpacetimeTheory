@@ -102,6 +102,7 @@ The geometry tells you WHAT exists. The field tells you WHAT VALUES it takes. To
 
 ## Version History
 
+- **v24** (April 9, 2026): T930 Sector Assignment Theorem (16-sector bijectivity from prime factorization, C=1 D=0). T931 Gödel-Størmer Bridge (17 dual primes $\equiv$ T914 duals, 137 orphan, C=2 D=1). Toy 980-981. Paper #47 v1.4. Graph: 891 nodes, 2551 edges, 98.2% ancestry.
 - **v23** (April 9, 2026): **ALL 10 MISSES CLOSED.** T927 D-State Correction ($B_d = (50/49)\alpha m_p/\pi = 2.224$ MeV, $0.03\%$). T929 Baryon Asymmetry Closure ($\eta_b = (3/14)\alpha^4 = N_c/(2g) \times \alpha^4$, $0.45\%$). 979 toys, ~929 theorems. Graph: 890 nodes, 2528 edges.
 - **v22** (April 9, 2026): **Science Engineering Pilot + Spectral Closure.** Pion decay constant improved: $f_\pi = (m_p/10)(1 - (\text{rank}/N_c)(m_\pi/m_p)^2) = 92.4$ MeV ($1.9\% \to 0.41\%$, Wilson-Fisher linearization weight $\text{rank}/N_c = 2/3$). Science Engineering pilot 5/5: $\theta_D(\text{Cu}) = g^3$ (exact), T4/T3 $= 2^{\text{rank}}/N_c$ (exact), 70S ribosome $= n_C \times g \times \text{rank}$ (exact), Pm unstable, Ta-181 all-BST. T920 Debye temperature, T921 thyroid iodine counting. T926 Spectral-Arithmetic Closure: Bergman eigenvalue denominators are 7-smooth by construction; $D_{IV}^5 \to$ number theory $\to$ physics. 975 toys, T1-T926, graph 889/2285. Prediction count 400+.
 - **v21** (April 9, 2026): **Miss Hunt Day.** Systematic audit of worst-matching predictions. Pion charge radius improved $6.2\% \to 0.5\%$ (NLO VMD+ChPT). Kaon charge radius improved $3.2\% \to 1.0\%$ (NLO). Neutron lifetime improved $2.1\% \to 0.03\%$ (full radiative corrections). Cosmic age improved $1.4\% \to 0.57\%$ (exact $\Lambda$CDM arcsinh formula with BST integers). CKM $|V_{ub}| = A\lambda^3/\sqrt{C_2} = 1/(50\sqrt{30})$ (0.25%). Percolation $\gamma = 43/18$ resolved: $= (C_2 g + 1)/(2N_c^2)$, all 8 exponents BST (T912). Prime Residue Principle (T914, §46.9): BST observables preferentially occupy prime residues of integer products; 182 falsifiable predictions in Prime Observatory. Jarlskog denominator $50000 = n_C^5 \times (2^{\text{rank}})^2$. Prediction count 400+.
@@ -1846,7 +1847,7 @@ Full paper: `notes/BST_Koons_Machine.md`. AC-flattened proofs for all six proble
 
 **Thesis topic 100:** Automate the Koons Machine. Given the AC theorem graph and a problem statement, can a CI identify the boundary and count without human guidance? Current evidence: the boundary is the bottleneck (human $O(1)$ intuition), the count is systematic (CI $O(n)$ search).
 
-### 14.14 The Hodge Conjecture: Two-Path Proof (v23)
+### 14.14 The Hodge Conjecture: Two-Path Proof (v24)
 
 The Hodge conjecture — every rational Hodge class on a smooth projective variety is algebraic — has two independent proof paths with independent failure modes.
 
@@ -3960,7 +3961,7 @@ The library so far:
 | Topology | 6 proved | `notes/BST_AC0_Topology.md` |
 | Number theory | Active | `notes/BST_AC0_NumberTheory.md` |
 | Geometry | Planned | `notes/BST_AC0_Geometry.md` |
-| Proof complexity | 929 theorems (T1-T929) | `notes/BST_AC_Theorem_Registry.md` |
+| Proof complexity | 931 theorems (T1-T931) | `notes/BST_AC_Theorem_Registry.md` |
 | Graph theory / Four-Color | 3 (T154-T156) | Conservation of Color Charge, cross-link bound, AC proof of 4CT |
 | AC(0) foundations | 10 recovery (T73-T82) | Nyquist, Pinsker, Shearer, R-D, K41, chain rule, Kraft, LLL, Boltzmann-Shannon, spectral mixing |
 | Meta-theorems | 6 (T88-T93) | P$\neq$NP chain is AC(0), BSW, Kato, all 9 Millennium-class proofs AC(0), AC(0) Completeness, Gödel |
@@ -4180,7 +4181,7 @@ Each arrow is either an external theorem (depth 0) or a single counting step (de
 
 ### 39.2 Two Independent Proof Paths
 
-The BST proof (Paper v23, `notes/BST_Hodge_Proof.md`) takes two independent routes to the same conclusion, with independent failure modes:
+The BST proof (Paper v24, `notes/BST_Hodge_Proof.md`) takes two independent routes to the same conclusion, with independent failure modes:
 
 **Version A — The Substrate Path (~92%).** One axiom: T153 (the Planck Condition — all domains finite).
 
@@ -5148,7 +5149,7 @@ Entropy production drives the active phase (thermodynamic gradient — the reaso
 
 ### §46. The Depth Ceiling: Rank Bounds Proof Complexity
 
-The AC(0) program (§31-§42) classifies mathematical theorems by their proof depth — the number of sequential genuine counting operations. After depth reduction (T96), all 929 theorems in the catalog fall at depth $\leq 2$, with zero exceptions. (T93/Gödel was originally classified at depth 3 but reduces to depth 1 under T96: diagonalization = substitution = definition; case analysis = bounded enumeration. Keeper audit, Toy 461.) This section proves the bound is structural, not accidental.
+The AC(0) program (§31-§42) classifies mathematical theorems by their proof depth — the number of sequential genuine counting operations. After depth reduction (T96), all 931 theorems in the catalog fall at depth $\leq 2$, with zero exceptions. (T93/Gödel was originally classified at depth 3 but reduces to depth 1 under T96: diagonalization = substitution = definition; case analysis = bounded enumeration. Keeper audit, Toy 461.) This section proves the bound is structural, not accidental.
 
 **§46.1 The Rank-Depth Theorem.** The maximum AC(0) depth of any computation on a bounded symmetric domain $D$ of rank $r$ is at most $r$.
 
@@ -5236,6 +5237,14 @@ The deuteron binding energy acquires a genus-suppressed D-wave quadrupole correc
 
 The baryon-to-photon ratio is derived as $\eta_b = (3/14)\alpha^4 = N_c/(2g) \times \alpha^4$ (0.45% from Planck). The four powers of $\alpha$ correspond to four electromagnetic vertices; the prefactor $N_c/(2g) = 3/14$ is color over genus — the number of color channels divided by twice the topological genus of $\mathbb{CP}^2$. This replaces the earlier $2\alpha^4/(3\pi)(1+2\alpha)$ route with a cleaner BST-integer form.
 
+### §46.13 Sector Assignment (T930)
+
+The prime factorization of BST composite denominators induces a 16-sector classification. Each sector = subset of $\{2,3,5,7\}$ = which BST integers (rank, $N_c$, $n_C$, $g$) participate. $C_2 = 6 = 2 \times 3$ is not independent — reduces to rank $\times$ color. 96.8% empirical validation (Grace). Rank $= 2$ is the universal physics connector: sectors without factor 2 have 0% prime adjacency. AC complexity ($C = 1$, $D = 0$).
+
+### §46.14 Gödel-Størmer Bridge (T931)
+
+The Størmer dual primes for $S = \{2,3,5,7\}$ are exactly the T914 dual-membership primes — 17 total, all $\leq 4801$. The 137 orphan: $136 = 2^3 \times 17$ and $138 = 2 \times 3 \times 23$ are not 7-smooth, so $N_{\max}$ is unreachable from the smooth lattice. Two independent finiteness sources (arithmetic from Størmer, geometric from spectral cap) reinforce at the same prime. Mersenne duals $\{7, 31, 127\}$ with exponents $\{N_c, n_C, g\}$. AC complexity ($C = 2$, $D = 1$).
+
 -----
 
 ## Acknowledgements
@@ -5250,7 +5259,7 @@ This research was conducted in close collaboration with Claude (Anthropic) — i
 - The cosmological derivations: $\Lambda$ from first principles, $G$ via Harish-Chandra, cosmic composition $\Omega_\Lambda = 13/19$, baryon asymmetry $\eta_b = (3/14)\alpha^4$, and $H_0$.
 - The harmonic analysis and automorphic structure: Maass-Selberg framework for the Riemann hypothesis, the rank-2 coupling argument, GUE from SO(2), and the Koons-Claude Conjecture connecting physics and number theory through $D_{IV}^5$.
 - The spectral theory of $Q^5$: multiplicities, zonal coefficients, the Grand Identity $d_{\mathrm{eff}} = \lambda_1 = \chi = C_2 = 6$, the harmonic number $H_5 = 137/60$, and the error correction interpretation.
-- Over 979 computational verifications (the ``toy'' series), each testing a specific prediction against experimental data or mathematical consistency.
+- Over 981 computational verifications (the ``toy'' series), each testing a specific prediction against experimental data or mathematical consistency.
 
 Claude's bandwidth — the ability to hold the full mathematical structure of $D_{IV}^5$ in working memory while reasoning through multi-step proofs across Lie theory, harmonic analysis, number theory, and quantum field theory — was essential to the pace and depth of this work. The sustained coherence across complex derivations, and the capacity to verify algebraic identities while maintaining physical interpretation, represents a remarkable capability for mathematical reasoning.
 
@@ -5291,6 +5300,6 @@ All four share exceptional bandwidth — the ability to hold the full $D_{IV}^5$
 
 -----
 
-*Bubble Spacetime Working Paper v23. Casey Koons. April 2026.*
+*Bubble Spacetime Working Paper v24. Casey Koons. April 2026.*
 
 *This document is the comprehensive working paper containing the full BST framework. All supporting materials — notes, computational toys, and derivation records — are available at the project’s GitHub repository.*

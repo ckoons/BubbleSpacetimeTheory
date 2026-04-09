@@ -1,14 +1,14 @@
 {
  "meta": {
   "version": 1,
-  "engine": "Toy 564 \u2014 AC Theorem Engine",
+  "engine": "Toy 564 — AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 2551,
+  "edge_count": 2769,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
-  "total_edges": 2551,
+  "total_edges": 2769,
   "depth_distribution": {
    "D0": 652,
    "D1": 146,
@@ -29,7 +29,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a72",
+   "section": "BST_AC_Theorems §2",
    "toys": [
     271,
     272
@@ -42,12 +42,12 @@
   },
   {
    "tid": 2,
-   "name": "I_fiat = \u03b2\u2081 (Tseitin)",
+   "name": "I_fiat = β₁ (Tseitin)",
    "domain": "topology",
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a73",
+   "section": "BST_AC_Theorems §3",
    "toys": [
     268
    ],
@@ -64,12 +64,12 @@
    "status": "empirical",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a74",
+   "section": "BST_AC_Theorems §4",
    "toys": [
     268
    ],
    "date": "2026-03-20",
-   "plain": "How hard a SAT problem is correlates with the shape of its constraint surface (R\u00b2=0.92).",
+   "plain": "How hard a SAT problem is correlates with the shape of its constraint surface (R²=0.92).",
    "proofs": []
   },
   {
@@ -79,10 +79,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a75",
+   "section": "BST_AC_Theorems §5",
    "toys": [],
    "date": "2026-03-20",
-   "plain": "Branch on variables in the most triangles \u2014 it's 1.8x faster.",
+   "plain": "Branch on variables in the most triangles — it's 1.8x faster.",
    "proofs": []
   },
   {
@@ -92,10 +92,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a76",
+   "section": "BST_AC_Theorems §6",
    "toys": [],
    "date": "2026-03-20",
-   "plain": "Filling ratio alone can't separate easy from hard \u2014 honest negative.",
+   "plain": "Filling ratio alone can't separate easy from hard — honest negative.",
    "proofs": []
   },
   {
@@ -105,7 +105,7 @@
    "status": "measured",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a77",
+   "section": "BST_AC_Theorems §7",
    "toys": [],
    "date": "2026-03-20",
    "plain": "The SAT phase transition has swallowtail catastrophe geometry.",
@@ -118,7 +118,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a78",
+   "section": "BST_AC_Theorems §8",
    "toys": [],
    "date": "2026-03-20",
    "plain": "Any fast algorithm on a hard formula will be wrong most of the time.",
@@ -133,7 +133,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a79",
+   "section": "BST_AC_Theorems §9",
    "toys": [],
    "date": "2026-03-20",
    "plain": "Translating a problem can't magically make hidden information visible.",
@@ -148,7 +148,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a712",
+   "section": "BST_AC_Theorems §12",
    "toys": [],
    "date": "2026-03-20",
    "plain": "The Exponential Time Hypothesis follows from linear hidden information.",
@@ -163,10 +163,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a713",
+   "section": "BST_AC_Theorems §13",
    "toys": [],
    "date": "2026-03-20",
-   "plain": "Pigeonhole has linear fiat for resolution but zero for Extended Frege \u2014 counting is the back door.",
+   "plain": "Pigeonhole has linear fiat for resolution but zero for Extended Frege — counting is the back door.",
    "proofs": []
   },
   {
@@ -176,7 +176,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a715",
+   "section": "BST_AC_Theorems §15",
    "toys": [],
    "date": "2026-03-20",
    "plain": "All 8 known proof systems confirm: random 3-SAT has positive hidden information.",
@@ -191,7 +191,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a716",
+   "section": "BST_AC_Theorems §16",
    "toys": [],
    "date": "2026-03-20",
    "plain": "Hastad's switching lemma in information language: random restriction drains topology.",
@@ -204,7 +204,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a717",
+   "section": "BST_AC_Theorems §17",
    "toys": [],
    "date": "2026-03-20",
    "plain": "The 7/8 MAX-3-SAT barrier = the information-free floor. Beating it requires resolving fiat.",
@@ -217,7 +217,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a718",
+   "section": "BST_AC_Theorems §18",
    "toys": [],
    "date": "2026-03-20",
    "plain": "Hidden information adds up across independent components.",
@@ -230,7 +230,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a719",
+   "section": "BST_AC_Theorems §19",
    "toys": [
     272
    ],
@@ -247,10 +247,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a720",
+   "section": "BST_AC_Theorems §20",
    "toys": [],
    "date": "2026-03-20",
-   "plain": "More clauses \u2192 more hidden information. Never goes down.",
+   "plain": "More clauses → more hidden information. Never goes down.",
    "proofs": []
   },
   {
@@ -260,7 +260,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a721",
+   "section": "BST_AC_Theorems §21",
    "toys": [],
    "date": "2026-03-20",
    "plain": "Proof methods form a hierarchy. Stronger methods see more, but none see everything.",
@@ -273,10 +273,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a722",
+   "section": "BST_AC_Theorems §22",
    "toys": [],
    "date": "2026-03-20",
-   "plain": "If the constraint graph is an expander, then \u0398(n) bits are hidden. The topology\u2192fiat\u2192complexity pipeline.",
+   "plain": "If the constraint graph is an expander, then Θ(n) bits are hidden. The topology→fiat→complexity pipeline.",
    "proofs": [
     "PNP"
    ]
@@ -288,10 +288,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a723",
+   "section": "BST_AC_Theorems §23",
    "toys": [],
    "date": "2026-03-20",
-   "plain": "Hidden information bounds how much parties must talk: CC \u2265 I_fiat/r.",
+   "plain": "Hidden information bounds how much parties must talk: CC ≥ I_fiat/r.",
    "proofs": [
     "PNP"
    ]
@@ -303,10 +303,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a724",
+   "section": "BST_AC_Theorems §24",
    "toys": [],
    "date": "2026-03-20",
-   "plain": "Explicit hardness exponents for every clause width k. rho_k \u2265 1 - k/2^(k-1).",
+   "plain": "Explicit hardness exponents for every clause width k. rho_k ≥ 1 - k/2^(k-1).",
    "proofs": []
   },
   {
@@ -316,10 +316,10 @@
    "status": "conjecture",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a725",
+   "section": "BST_AC_Theorems §25",
    "toys": [],
    "date": "2026-03-20",
-   "plain": "P vs NP is a dimensional phase transition: dim \u2264 1 = easy; dim \u2265 2 = hard.",
+   "plain": "P vs NP is a dimensional phase transition: dim ≤ 1 = easy; dim ≥ 2 = hard.",
    "proofs": [
     "PNP"
    ]
@@ -331,7 +331,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a726",
+   "section": "BST_AC_Theorems §26",
    "toys": [],
    "date": "2026-03-20",
    "plain": "A method's power is limited by the dimension it can see. Linking in 3D = the hidden information.",
@@ -346,7 +346,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a728",
+   "section": "BST_AC_Theorems §28",
    "toys": [],
    "date": "2026-03-21",
    "plain": "Every known proof lower bound is secretly a dimensional obstruction.",
@@ -359,7 +359,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a729",
+   "section": "BST_AC_Theorems §29",
    "toys": [],
    "date": "2026-03-21",
    "plain": "Adding an arity-k extension variable creates k-1 new loops.",
@@ -374,7 +374,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a730",
+   "section": "BST_AC_Theorems §30",
    "toys": [],
    "date": "2026-03-21",
    "plain": "Any proof refuting a formula with B loops needs at least B proof lines.",
@@ -389,12 +389,12 @@
    "status": "failed",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a731",
+   "section": "BST_AC_Theorems §31",
    "toys": [
     279
    ],
    "date": "2026-03-21",
-   "plain": "Geometric linking cascade fails (c\u21920). Algebraic direction open.",
+   "plain": "Geometric linking cascade fails (c→0). Algebraic direction open.",
    "proofs": []
   },
   {
@@ -404,12 +404,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a732",
+   "section": "BST_AC_Theorems §32",
    "toys": [
     280
    ],
    "date": "2026-03-21",
-   "plain": "Extensions never reduce the number of loops. \u0394\u03b2\u2081 \u2208 {0, +1}.",
+   "plain": "Extensions never reduce the number of loops. Δβ₁ ∈ {0, +1}.",
    "proofs": [
     "PNP"
    ]
@@ -421,7 +421,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a733",
+   "section": "BST_AC_Theorems §33",
    "toys": [
     281
    ],
@@ -438,12 +438,12 @@
    "status": "open",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a734",
+   "section": "BST_AC_Theorems §34",
    "toys": [
     335
    ],
    "date": "2026-03-21",
-   "plain": "Cycle solutions are mutually independent (zero MI). THE GAP. If proved \u2192 P\u2260NP.",
+   "plain": "Cycle solutions are mutually independent (zero MI). THE GAP. If proved → P≠NP.",
    "proofs": [
     "PNP"
    ]
@@ -455,12 +455,12 @@
    "status": "conditional",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a735",
+   "section": "BST_AC_Theorems §35",
    "toys": [
     282
    ],
    "date": "2026-03-21",
-   "plain": "If T29 holds: Extended Frege needs 2^\u03a9(n) on random 3-SAT \u2192 P\u2260NP.",
+   "plain": "If T29 holds: Extended Frege needs 2^Ω(n) on random 3-SAT → P≠NP.",
    "proofs": [
     "PNP"
    ]
@@ -472,12 +472,12 @@
    "status": "empirical",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a736",
+   "section": "BST_AC_Theorems §36",
    "toys": [
     286
    ],
    "date": "2026-03-21",
-   "plain": "The backbone is random-looking: K(backbone) \u2265 0.90n. No short program generates it.",
+   "plain": "The backbone is random-looking: K(backbone) ≥ 0.90n. No short program generates it.",
    "proofs": [
     "PNP"
    ]
@@ -489,7 +489,7 @@
    "status": "empirical",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a737",
+   "section": "BST_AC_Theorems §37",
    "toys": [
     287
    ],
@@ -506,7 +506,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a738",
+   "section": "BST_AC_Theorems §38",
    "toys": [
     293
    ],
@@ -523,7 +523,7 @@
    "status": "empirical",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a739",
+   "section": "BST_AC_Theorems §39",
    "toys": [
     291
    ],
@@ -538,7 +538,7 @@
    "status": "empirical",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a740",
+   "section": "BST_AC_Theorems §40",
    "toys": [
     292
    ],
@@ -550,27 +550,27 @@
   },
   {
    "tid": 36,
-   "name": "Conservation \u2192 Independence",
+   "name": "Conservation → Independence",
    "domain": "info_theory",
    "status": "conditional",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a741",
+   "section": "BST_AC_Theorems §41",
    "toys": [],
    "date": "2026-03-21",
-   "plain": "If T35 holds \u2192 T29 holds \u2192 T30 holds \u2192 P\u2260NP. The full chain.",
+   "plain": "If T35 holds → T29 holds → T30 holds → P≠NP. The full chain.",
    "proofs": [
     "PNP"
    ]
   },
   {
    "tid": 37,
-   "name": "H\u2081 Injection (Degree-2)",
+   "name": "H₁ Injection (Degree-2)",
    "domain": "topology",
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a742",
+   "section": "BST_AC_Theorems §42",
    "toys": [],
    "date": "2026-03-22",
    "plain": "Original loops embed perfectly into the extended complex. Nothing is lost.",
@@ -585,10 +585,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743a",
+   "section": "BST_AC_Theorems §43a",
    "toys": [],
    "date": "2026-03-22",
-   "plain": "First unconditional EF lower bound on random 3-SAT: size \u2265 \u0398(n).",
+   "plain": "First unconditional EF lower bound on random 3-SAT: size ≥ Θ(n).",
    "proofs": [
     "PNP"
    ]
@@ -600,7 +600,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743c",
+   "section": "BST_AC_Theorems §43c",
    "toys": [],
    "date": "2026-03-22",
    "plain": "Every EF proof must cross a topological forbidden zone. Can't sneak around it.",
@@ -615,10 +615,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743e",
+   "section": "BST_AC_Theorems §43e",
    "toys": [],
    "date": "2026-03-22",
-   "plain": "Arity-k extensions kill at most k-1 loops. Constant arity \u2192 linear lower bound.",
+   "plain": "Arity-k extensions kill at most k-1 loops. Constant arity → linear lower bound.",
    "proofs": [
     "PNP"
    ]
@@ -630,10 +630,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743f",
+   "section": "BST_AC_Theorems §43f",
    "toys": [],
    "date": "2026-03-22",
-   "plain": "The narrowest bottleneck has measure n\u00b72^{-\u0398(n)}. Exponentially hard to cross.",
+   "plain": "The narrowest bottleneck has measure n·2^{-Θ(n)}. Exponentially hard to cross.",
    "proofs": [
     "PNP"
    ]
@@ -645,7 +645,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743g",
+   "section": "BST_AC_Theorems §43g",
    "toys": [],
    "date": "2026-03-22",
    "plain": "Bounded-width resolution determines at most o(n) backbone variables.",
@@ -660,14 +660,14 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743i",
+   "section": "BST_AC_Theorems §43i",
    "toys": [
     294,
     314,
     316
    ],
    "date": "2026-03-22",
-   "plain": "Refutation depth diverges. Ancillae can't help. If D=\u0398(n) then P\u2260NP.",
+   "plain": "Refutation depth diverges. Ancillae can't help. If D=Θ(n) then P≠NP.",
    "proofs": [
     "PNP"
    ]
@@ -679,12 +679,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743k",
+   "section": "BST_AC_Theorems §43k",
    "toys": [
     315
    ],
    "date": "2026-03-22",
-   "plain": "The backbone encodes as a random LDPC code with minimum distance \u0398(n). Shannon's coordinate system.",
+   "plain": "The backbone encodes as a random LDPC code with minimum distance Θ(n). Shannon's coordinate system.",
    "proofs": [
     "PNP"
    ]
@@ -696,10 +696,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743i (note)",
+   "section": "BST_AC_Theorems §43i (note)",
    "toys": [],
    "date": "2026-03-22",
-   "plain": "Resolution needs width \u2265 \u03b1n via Tanner graph expansion of the backbone code.",
+   "plain": "Resolution needs width ≥ αn via Tanner graph expansion of the backbone code.",
    "proofs": [
     "PNP"
    ]
@@ -711,7 +711,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743l",
+   "section": "BST_AC_Theorems §43l",
    "toys": [],
    "date": "2026-03-22",
    "plain": "Every proof is a communication protocol. Frontier = channel. Width = bandwidth. Size = total bits.",
@@ -726,10 +726,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743m",
+   "section": "BST_AC_Theorems §43m",
    "toys": [],
    "date": "2026-03-22",
-   "plain": "Query complexity q lifts to communication q\u00b7log(n). The LDPC might be the natural gadget.",
+   "plain": "Query complexity q lifts to communication q·log(n). The LDPC might be the natural gadget.",
    "proofs": []
   },
   {
@@ -739,7 +739,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743n",
+   "section": "BST_AC_Theorems §43n",
    "toys": [],
    "date": "2026-03-22",
    "plain": "Once a variable is committed, it carries zero new information. Dead bits are dead.",
@@ -754,7 +754,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743o",
+   "section": "BST_AC_Theorems §43o",
    "toys": [],
    "date": "2026-03-22",
    "plain": "Exponential sum representations are unique. Spectral addresses are conserved.",
@@ -769,10 +769,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743p",
+   "section": "BST_AC_Theorems §43p",
    "toys": [],
    "date": "2026-03-22",
-   "plain": "Real data \u2192 real poles only. A complex pole certifies complex information content.",
+   "plain": "Real data → real poles only. A complex pole certifies complex information content.",
    "proofs": [
     "RH"
    ]
@@ -784,10 +784,10 @@
    "status": "conjecture",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743q",
+   "section": "BST_AC_Theorems §43q",
    "toys": [],
    "date": "2026-03-22",
-   "plain": "No poly-size circuit can decode beyond d_min/2 errors. Closing this closes P\u2260NP.",
+   "plain": "No poly-size circuit can decode beyond d_min/2 errors. Closing this closes P≠NP.",
    "proofs": [
     "PNP"
    ]
@@ -799,7 +799,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743r",
+   "section": "BST_AC_Theorems §43r",
    "toys": [],
    "date": "2026-03-22",
    "plain": "Continuous spectrum compresses to finite discrete terms plus exponentially small error.",
@@ -814,7 +814,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems (pending \u00a7)",
+   "section": "BST_AC_Theorems (pending §)",
    "toys": [
     328
    ],
@@ -831,7 +831,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems (pending \u00a7)",
+   "section": "BST_AC_Theorems (pending §)",
    "toys": [
     328
    ],
@@ -848,22 +848,22 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743s",
+   "section": "BST_AC_Theorems §43s",
    "toys": [],
    "date": "2026-03-23",
-   "plain": "VIG spectral gap forces wide proofs: width \u2265 h(G)\u00b7n/2.",
+   "plain": "VIG spectral gap forces wide proofs: width ≥ h(G)·n/2.",
    "proofs": [
     "PNP"
    ]
   },
   {
    "tid": 60,
-   "name": "Expander Mixing \u2192 DPI",
+   "name": "Expander Mixing → DPI",
    "domain": "graph_theory",
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743t",
+   "section": "BST_AC_Theorems §43t",
    "toys": [],
    "date": "2026-03-23",
    "plain": "Expander mixing limits how much information flows across any graph cut.",
@@ -878,12 +878,12 @@
    "status": "empirical",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems (pending \u00a7)",
+   "section": "BST_AC_Theorems (pending §)",
    "toys": [
     329
    ],
    "date": "2026-03-23",
-   "plain": "Loops in the constraint graph persist for \u0398(n) steps. They don't just flicker.",
+   "plain": "Loops in the constraint graph persist for Θ(n) steps. They don't just flicker.",
    "proofs": [
     "PNP"
    ]
@@ -895,12 +895,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems (pending \u00a7)",
+   "section": "BST_AC_Theorems (pending §)",
    "toys": [
     330
    ],
    "date": "2026-03-23",
-   "plain": "Concentration inequalities are AC(0) \u2014 pure counting.",
+   "plain": "Concentration inequalities are AC(0) — pure counting.",
    "proofs": []
   },
   {
@@ -910,12 +910,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems (pending \u00a7)",
+   "section": "BST_AC_Theorems (pending §)",
    "toys": [
     332
    ],
    "date": "2026-03-23",
-   "plain": "Circuit depth = communication complexity. CC correlates with \u03b2\u2081 at r=0.996.",
+   "plain": "Circuit depth = communication complexity. CC correlates with β₁ at r=0.996.",
    "proofs": [
     "PNP"
    ]
@@ -927,12 +927,12 @@
    "status": "empirical",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743u",
+   "section": "BST_AC_Theorems §43u",
    "toys": [
     339
    ],
    "date": "2026-03-23",
-   "plain": "Extension variables preserve the VIG's spectral gap. Ratio \u2265 0.89.",
+   "plain": "Extension variables preserve the VIG's spectral gap. Ratio ≥ 0.89.",
    "proofs": [
     "PNP"
    ]
@@ -944,7 +944,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743v",
+   "section": "BST_AC_Theorems §43v",
    "toys": [
     340
    ],
@@ -961,10 +961,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743w",
+   "section": "BST_AC_Theorems §43w",
    "toys": [],
    "date": "2026-03-23",
-   "plain": "Backbone parity looks like Tseitin on the LDPC graph. Bounded-depth EF needs 2^\u03a9(n).",
+   "plain": "Backbone parity looks like Tseitin on the LDPC graph. Bounded-depth EF needs 2^Ω(n).",
    "proofs": [
     "PNP"
    ]
@@ -976,10 +976,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743x",
+   "section": "BST_AC_Theorems §43x",
    "toys": [],
    "date": "2026-03-23",
-   "plain": "Any EF refutation needs size 2^\u03a9(n) at ANY depth. The capstone width theorem.",
+   "plain": "Any EF refutation needs size 2^Ω(n) at ANY depth. The capstone width theorem.",
    "proofs": [
     "PNP"
    ]
@@ -991,10 +991,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743y",
+   "section": "BST_AC_Theorems §43y",
    "toys": [],
    "date": "2026-03-23",
-   "plain": "All \u0398(n) blocks must be simultaneously live. Sequential processing destroys information.",
+   "plain": "All Θ(n) blocks must be simultaneously live. Sequential processing destroys information.",
    "proofs": [
     "PNP"
    ]
@@ -1006,7 +1006,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743a",
+   "section": "BST_AC_Theorems §43a",
    "toys": [],
    "date": "2026-03-24",
    "plain": "At most 0.176n bits can remain unmeasured. The rest is backbone. One line of counting.",
@@ -1021,10 +1021,10 @@
    "status": "conditional",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743b",
+   "section": "BST_AC_Theorems §43b",
    "toys": [],
    "date": "2026-03-24",
-   "plain": "If polarization holds, backbone is \u0398(n). Ar\u0131kan splitting on expanders.",
+   "plain": "If polarization holds, backbone is Θ(n). Arıkan splitting on expanders.",
    "proofs": [
     "BH3"
    ]
@@ -1036,12 +1036,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a743c",
+   "section": "BST_AC_Theorems §43c",
    "toys": [
     352
    ],
    "date": "2026-03-24",
-   "plain": "O(1) frozen seeds cascade to \u0398(n) in O(1) rounds on an expander. Literally AC(0).",
+   "plain": "O(1) frozen seeds cascade to Θ(n) in O(1) rounds on an expander. Literally AC(0).",
    "proofs": [
     "BH3"
    ]
@@ -1053,10 +1053,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a745a",
+   "section": "BST_AC_Theorems §45a",
    "toys": [],
    "date": "2026-03-24",
-   "plain": "Bandwidth B requires sampling at rate \u2265 2B. Counting degrees of freedom.",
+   "plain": "Bandwidth B requires sampling at rate ≥ 2B. Counting degrees of freedom.",
    "proofs": [
     "NS"
    ]
@@ -1068,12 +1068,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a745b",
+   "section": "BST_AC_Theorems §45b",
    "toys": [
     361
    ],
    "date": "2026-03-24",
-   "plain": "Total variation \u2264 \u221a(KL divergence / 2). One line from Cauchy-Schwarz.",
+   "plain": "Total variation ≤ √(KL divergence / 2). One line from Cauchy-Schwarz.",
    "proofs": [
     "PNP",
     "BH3"
@@ -1086,7 +1086,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a745c",
+   "section": "BST_AC_Theorems §45c",
    "toys": [
     362
    ],
@@ -1103,12 +1103,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a745d",
+   "section": "BST_AC_Theorems §45d",
    "toys": [
     363
    ],
    "date": "2026-03-24",
-   "plain": "Even 90% backbone accuracy costs \u0398(n) bits. No approximation shortcut.",
+   "plain": "Even 90% backbone accuracy costs Θ(n) bits. No approximation shortcut.",
    "proofs": [
     "PNP",
     "BH3"
@@ -1121,7 +1121,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a745e",
+   "section": "BST_AC_Theorems §45e",
    "toys": [
     364
    ],
@@ -1138,7 +1138,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a745f",
+   "section": "BST_AC_Theorems §45f",
    "toys": [],
    "date": "2026-03-24",
    "plain": "H(X,Y) = H(X) + H(Y|X). The identity. Resolution proof line 1. AC(0) depth 0.",
@@ -1153,24 +1153,24 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a745g",
+   "section": "BST_AC_Theorems §45g",
    "toys": [
     365
    ],
    "date": "2026-03-24",
-   "plain": "\u03a3 2^{-l} \u2264 1 for prefix codes. Tree counting. Backbone can't be compressed.",
+   "plain": "Σ 2^{-l} ≤ 1 for prefix codes. Tree counting. Backbone can't be compressed.",
    "proofs": [
     "PNP"
    ]
   },
   {
    "tid": 80,
-   "name": "Lov\u00e1sz Local Lemma",
+   "name": "Lovász Local Lemma",
    "domain": "probability",
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a745h",
+   "section": "BST_AC_Theorems §45h",
    "toys": [
     366
    ],
@@ -1187,12 +1187,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a745i",
+   "section": "BST_AC_Theorems §45i",
    "toys": [
     367
    ],
    "date": "2026-03-24",
-   "plain": "S = k_B H ln 2. Physical entropy IS information entropy. P\u2260NP = the second law.",
+   "plain": "S = k_B H ln 2. Physical entropy IS information entropy. P≠NP = the second law.",
    "proofs": [
     "PNP",
     "NS"
@@ -1200,17 +1200,17 @@
   },
   {
    "tid": 82,
-   "name": "Spectral Gap \u2192 Mixing Time",
+   "name": "Spectral Gap → Mixing Time",
    "domain": "graph_theory",
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a745j",
+   "section": "BST_AC_Theorems §45j",
    "toys": [
     368
    ],
    "date": "2026-03-24",
-   "plain": "Mixing time \u2265 1/\u03b3. Completes the chain: expander \u2192 Cheeger \u2192 DPI \u2192 slow mixing \u2192 hard.",
+   "plain": "Mixing time ≥ 1/γ. Completes the chain: expander → Cheeger → DPI → slow mixing → hard.",
    "proofs": [
     "PNP"
    ]
@@ -1222,7 +1222,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a746a",
+   "section": "BST_AC_Theorems §46a",
    "toys": [],
    "date": "2026-03-24",
    "plain": "Taylor-Green vortex has 16 symmetries: 3 reflections + exchange. Group enumeration = counting.",
@@ -1237,7 +1237,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a746b",
+   "section": "BST_AC_Theorems §46b",
    "toys": [],
    "date": "2026-03-24",
    "plain": "Each velocity component has definite parity in each Fourier direction. Mod-2 arithmetic, preserved for all time.",
@@ -1252,27 +1252,27 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a746c",
+   "section": "BST_AC_Theorems §46c",
    "toys": [],
    "date": "2026-03-24",
-   "plain": "All 4 enstrophy production terms at t=0 have odd factors \u2192 every integral vanishes. Parity counting.",
+   "plain": "All 4 enstrophy production terms at t=0 have odd factors → every integral vanishes. Parity counting.",
    "proofs": [
     "NS"
    ]
   },
   {
    "tid": 86,
-   "name": "Enstrophy Scaling \u03b3 = 3/2",
+   "name": "Enstrophy Scaling γ = 3/2",
    "domain": "analysis",
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a746d",
+   "section": "BST_AC_Theorems §46d",
    "toys": [
     368
    ],
    "date": "2026-03-24",
-   "plain": "P ~ \u03a9^(3/2) by dimensional analysis. Biot-Savart makes strain ~ vorticity. Elie confirms: 1.448 \u2248 1.500.",
+   "plain": "P ~ Ω^(3/2) by dimensional analysis. Biot-Savart makes strain ~ vorticity. Elie confirms: 1.448 ≈ 1.500.",
    "proofs": [
     "NS"
    ]
@@ -1284,27 +1284,27 @@
    "status": "conditional",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a746e",
+   "section": "BST_AC_Theorems §46e",
    "toys": [
     360
    ],
    "date": "2026-03-24",
-   "plain": "If P > 0 for all time: blow-up at T* = 1/(c\u221a\u03a9\u2080). Separation of variables. The turbulence meter.",
+   "plain": "If P > 0 for all time: blow-up at T* = 1/(c√Ω₀). Separation of variables. The turbulence meter.",
    "proofs": [
     "NS"
    ]
   },
   {
    "tid": 88,
-   "name": "P\u2260NP Chain Is AC(0)",
+   "name": "P≠NP Chain Is AC(0)",
    "domain": "foundations",
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a747",
+   "section": "BST_AC_Theorems §47",
    "toys": [],
    "date": "2026-03-24",
-   "plain": "The entire P\u2260NP proof chain is AC(0): each step is counting on a boundary.",
+   "plain": "The entire P≠NP proof chain is AC(0): each step is counting on a boundary.",
    "proofs": [
     "PNP"
    ]
@@ -1316,7 +1316,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a747a",
+   "section": "BST_AC_Theorems §47a",
    "toys": [],
    "date": "2026-03-24",
    "plain": "Ben-Sasson-Wigderson extends to Extended Frege: extension axioms always satisfiable.",
@@ -1331,7 +1331,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a747b",
+   "section": "BST_AC_Theorems §47b",
    "toys": [],
    "date": "2026-03-24",
    "plain": "Kato smoothing is AC(0): viscous dissipation = boundary counting on Fourier modes.",
@@ -1346,10 +1346,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a747c",
+   "section": "BST_AC_Theorems §47c",
    "toys": [],
    "date": "2026-03-24",
-   "plain": "RH, YM, P\u2260NP, NS \u2014 all four Millennium proofs are AC(0) depth \u2264 2.",
+   "plain": "RH, YM, P≠NP, NS — all four Millennium proofs are AC(0) depth ≤ 2.",
    "proofs": [
     "PNP",
     "NS",
@@ -1364,7 +1364,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a747d",
+   "section": "BST_AC_Theorems §47d",
    "toys": [],
    "date": "2026-03-24",
    "plain": "Every proof in mathematics reduces to AC(0) operations (counting + boundary). The hardest proofs are 1-2 layers of counting.",
@@ -1377,15 +1377,15 @@
   },
   {
    "tid": 93,
-   "name": "G\u00f6del Is AC(0)",
+   "name": "Gödel Is AC(0)",
    "domain": "foundations",
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a747e",
+   "section": "BST_AC_Theorems §47e",
    "toys": [],
    "date": "2026-03-24",
-   "plain": "G\u00f6del's incompleteness = self-referential counting. The G\u00f6del Limit (19.1%) is AC(0).",
+   "plain": "Gödel's incompleteness = self-referential counting. The Gödel Limit (19.1%) is AC(0).",
    "proofs": []
   },
   {
@@ -1395,7 +1395,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a747f",
+   "section": "BST_AC_Theorems §47f",
    "toys": [
     381,
     385
@@ -1413,7 +1413,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a747g",
+   "section": "BST_AC_Theorems §47g",
    "toys": [],
    "date": "2026-03-24",
    "plain": "Thom's seven catastrophes are depth-1 AC(0). Codimension = boundary count.",
@@ -1426,10 +1426,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a747h",
+   "section": "BST_AC_Theorems §47h",
    "toys": [],
    "date": "2026-03-24",
-   "plain": "Composition with definitions is free. All Millennium proofs flatten: RH 4\u21922, YM 3\u21921, P\u2260NP 5\u21922, NS 5\u21922.",
+   "plain": "Composition with definitions is free. All Millennium proofs flatten: RH 4→2, YM 3→1, P≠NP 5→2, NS 5→2.",
    "proofs": [
     "PNP",
     "NS",
@@ -1439,12 +1439,12 @@
   },
   {
    "tid": 97,
-   "name": "Frobenius-D\u2083 Universality (B1)",
+   "name": "Frobenius-D₃ Universality (B1)",
    "domain": "number_theory",
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_BSD_Spectral \u00a710.1",
+   "section": "BST_BSD_Spectral §10.1",
    "toys": [
     381,
     385,
@@ -1461,7 +1461,7 @@
    "status": "conditional",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_BSD_Spectral \u00a710.2",
+   "section": "BST_BSD_Spectral §10.2",
    "toys": [],
    "date": "2026-03-24",
    "plain": "",
@@ -1474,7 +1474,7 @@
    "status": "conditional",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_BSD_Spectral \u00a710.3",
+   "section": "BST_BSD_Spectral §10.3",
    "toys": [
     385,
     386
@@ -1490,7 +1490,7 @@
    "status": "conditional",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_BSD_Proof \u00a76.3-6.7, BST_BSD_Spectral \u00a710.4",
+   "section": "BST_BSD_Proof §6.3-6.7, BST_BSD_Spectral §10.4",
    "toys": [
     386,
     388,
@@ -1509,7 +1509,7 @@
    "status": "conditional",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_BSD_Spectral \u00a710.5",
+   "section": "BST_BSD_Spectral §10.5",
    "toys": [
     386
    ],
@@ -1524,7 +1524,7 @@
    "status": "conditional",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_BSD_Spectral \u00a710.6",
+   "section": "BST_BSD_Spectral §10.6",
    "toys": [
     390
    ],
@@ -1539,7 +1539,7 @@
    "status": "conditional",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_BSD_Spectral \u00a710.7",
+   "section": "BST_BSD_Spectral §10.7",
    "toys": [],
    "date": "2026-03-24",
    "plain": "",
@@ -1552,7 +1552,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a748a",
+   "section": "BST_AC_Theorems §48a",
    "toys": [],
    "date": "2026-03-24",
    "plain": "",
@@ -1565,7 +1565,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a748b",
+   "section": "BST_AC_Theorems §48b",
    "toys": [],
    "date": "2026-03-24",
    "plain": "",
@@ -1578,7 +1578,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a748c",
+   "section": "BST_AC_Theorems §48c",
    "toys": [],
    "date": "2026-03-24",
    "plain": "",
@@ -1591,7 +1591,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a748d",
+   "section": "BST_AC_Theorems §48d",
    "toys": [],
    "date": "2026-03-24",
    "plain": "",
@@ -1604,7 +1604,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_Hodge_Proof \u00a73.2",
+   "section": "BST_Hodge_Proof §3.2",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1617,7 +1617,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_Hodge_Proof \u00a73.3",
+   "section": "BST_Hodge_Proof §3.3",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1625,12 +1625,12 @@
   },
   {
    "tid": 110,
-   "name": "BC\u2082 Representation Filter",
+   "name": "BC₂ Representation Filter",
    "domain": "differential_geometry",
    "status": "conditional",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_Hodge_Proof \u00a73.3",
+   "section": "BST_Hodge_Proof §3.3",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1643,7 +1643,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_Hodge_Proof \u00a73.2",
+   "section": "BST_Hodge_Proof §3.2",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1656,7 +1656,7 @@
    "status": "conditional",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a749",
+   "section": "BST_AC_Theorems §49",
    "toys": [
     398,
     399
@@ -1672,7 +1672,7 @@
    "status": "conditional",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a749",
+   "section": "BST_AC_Theorems §49",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1685,7 +1685,7 @@
    "status": "conditional",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a749",
+   "section": "BST_AC_Theorems §49",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1698,7 +1698,7 @@
    "status": "conditional",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a750",
+   "section": "BST_AC_Theorems §50",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1711,7 +1711,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a750",
+   "section": "BST_AC_Theorems §50",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1724,7 +1724,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a750",
+   "section": "BST_AC_Theorems §50",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1737,7 +1737,7 @@
    "status": "empirical",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a750",
+   "section": "BST_AC_Theorems §50",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1750,7 +1750,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a751",
+   "section": "BST_AC_Theorems §51",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1763,7 +1763,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a751",
+   "section": "BST_AC_Theorems §51",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1776,7 +1776,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a751",
+   "section": "BST_AC_Theorems §51",
    "toys": [],
    "date": "2026-03-25",
    "plain": "Delete or contract an edge: one operation, one bit. The chromatic polynomial is AC(0).",
@@ -1791,7 +1791,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a751",
+   "section": "BST_AC_Theorems §51",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1804,7 +1804,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a751",
+   "section": "BST_AC_Theorems §51",
    "toys": [],
    "date": "2026-03-25",
    "plain": "All basic graph operations (degree count, planarity check, coloring) are AC(0).",
@@ -1819,7 +1819,7 @@
    "status": "conditional",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a752",
+   "section": "BST_AC_Theorems §52",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1832,7 +1832,7 @@
    "status": "conditional",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a752",
+   "section": "BST_AC_Theorems §52",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1845,7 +1845,7 @@
    "status": "conjecture",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a753",
+   "section": "BST_AC_Theorems §53",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1858,7 +1858,7 @@
    "status": "conjecture",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a753",
+   "section": "BST_AC_Theorems §53",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1871,7 +1871,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a754",
+   "section": "BST_AC_Theorems §54",
    "toys": [
     404
    ],
@@ -1886,7 +1886,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a754",
+   "section": "BST_AC_Theorems §54",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1899,7 +1899,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a754",
+   "section": "BST_AC_Theorems §54",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1907,12 +1907,12 @@
   },
   {
    "tid": 131,
-   "name": "Todd Class Bridge (heat kernel \u2194 graphs)",
+   "name": "Todd Class Bridge (heat kernel ↔ graphs)",
    "domain": "foundations",
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a754",
+   "section": "BST_AC_Theorems §54",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1925,10 +1925,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a754",
+   "section": "BST_AC_Theorems §54",
    "toys": [],
    "date": "2026-03-25",
-   "plain": "A graph is planar iff it has no K\u2085 or K\u2083\u2083 minor. External theorem, used as axiom.",
+   "plain": "A graph is planar iff it has no K₅ or K₃₃ minor. External theorem, used as axiom.",
    "proofs": [
     "4COLOR"
    ]
@@ -1940,7 +1940,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a754",
+   "section": "BST_AC_Theorems §54",
    "toys": [],
    "date": "2026-03-25",
    "plain": "Every planar graph is 5-colorable. Depth 1. The easy part.",
@@ -1955,7 +1955,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a755",
+   "section": "BST_AC_Theorems §55",
    "toys": [],
    "date": "2026-03-25",
    "plain": "Depth composition is free: pairs of operations compose without increasing AC(0) depth.",
@@ -1974,19 +1974,19 @@
     437
    ],
    "date": "2026-03-25",
-   "plain": "A gap-1 bridge has \u2264 1 cross-link. Jordan curve on degree-5 cycle.",
+   "plain": "A gap-1 bridge has ≤ 1 cross-link. Jordan curve on degree-5 cycle.",
    "proofs": [
     "4COLOR"
    ]
   },
   {
    "tid": 136,
-   "name": "Poincar\u00e9 Duality",
+   "name": "Poincaré Duality",
    "domain": "differential_geometry",
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a756",
+   "section": "BST_AC_Theorems §56",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -1999,7 +1999,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a756",
+   "section": "BST_AC_Theorems §56",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -2012,7 +2012,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a756",
+   "section": "BST_AC_Theorems §56",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -2025,7 +2025,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a756",
+   "section": "BST_AC_Theorems §56",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -2038,7 +2038,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a756",
+   "section": "BST_AC_Theorems §56",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -2051,7 +2051,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a756",
+   "section": "BST_AC_Theorems §56",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -2064,7 +2064,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a757",
+   "section": "BST_AC_Theorems §57",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -2077,7 +2077,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a757",
+   "section": "BST_AC_Theorems §57",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -2090,7 +2090,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a757",
+   "section": "BST_AC_Theorems §57",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -2103,7 +2103,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a757",
+   "section": "BST_AC_Theorems §57",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -2116,7 +2116,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a757",
+   "section": "BST_AC_Theorems §57",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -2129,10 +2129,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a758, WorkingPaper \u00a714.11, README",
+   "section": "BST_AC_Theorems §58, WorkingPaper §14.11, README",
    "toys": [],
    "date": "2026-03-25",
-   "plain": "Force+boundary \u2245 counting+boundary. Physics and math are the same graph.",
+   "plain": "Force+boundary ≅ counting+boundary. Physics and math are the same graph.",
    "proofs": []
   },
   {
@@ -2142,7 +2142,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_Hodge_Proof \u00a75.4.2-5.4.3",
+   "section": "BST_Hodge_Proof §5.4.2-5.4.3",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -2168,7 +2168,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a759",
+   "section": "BST_AC_Theorems §59",
    "toys": [],
    "date": "2026-03-25",
    "plain": "Every proof = induction. Demonstrated on Hodge: three gaps dissolved by finite counts.",
@@ -2181,7 +2181,7 @@
    "status": "proved",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_Hodge_Proof \u00a75.7, Thm 5.11",
+   "section": "BST_Hodge_Proof §5.7, Thm 5.11",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -2189,12 +2189,12 @@
   },
   {
    "tid": 152,
-   "name": "Hodge = T104 on K\u2080",
+   "name": "Hodge = T104 on K₀",
    "domain": "differential_geometry",
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_Hodge_Proof \u00a75.8, Thm 5.12",
+   "section": "BST_Hodge_Proof §5.8, Thm 5.12",
    "toys": [],
    "date": "2026-03-25",
    "plain": "",
@@ -2207,7 +2207,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a760, WorkingPaper \u00a714.11, README",
+   "section": "BST_AC_Theorems §60, WorkingPaper §14.11, README",
    "toys": [],
    "date": "2026-03-25",
    "plain": "All domains finite, all counts bounded. The axiom that makes everything AC(0).",
@@ -2227,13 +2227,13 @@
    "status": "proved",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a761, BST_FourColor_AC_Proof v9",
+   "section": "BST_AC_Theorems §61, BST_FourColor_AC_Proof v9",
    "toys": [
     425,
     437
    ],
    "date": "2026-03-25",
-   "plain": "strict_tau \u2264 4, bridge_tau \u2264 2 \u2192 budget forces \u2265 2 uncharged pairs \u2192 split-swap \u2192 tau descent. 861/861.",
+   "plain": "strict_tau ≤ 4, bridge_tau ≤ 2 → budget forces ≥ 2 uncharged pairs → split-swap → tau descent. 861/861.",
    "proofs": [
     "4COLOR"
    ]
@@ -2245,7 +2245,7 @@
    "status": "proved",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a761, FourColor_Standalone_Paper v7 Lemma 8",
+   "section": "BST_AC_Theorems §61, FourColor_Standalone_Paper v7 Lemma 8",
    "toys": [
     436,
     439,
@@ -2253,7 +2253,7 @@
     451
    ],
    "date": "2026-03-26",
-   "plain": "After swap, new bridge has \u2264 1 cross-link. Chain dichotomy: depth 0, no Jordan curve needed.",
+   "plain": "After swap, new bridge has ≤ 1 cross-link. Chain dichotomy: depth 0, no Jordan curve needed.",
    "proofs": [
     "4COLOR"
    ]
@@ -2280,7 +2280,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a762",
+   "section": "BST_AC_Theorems §62",
    "toys": [],
    "date": "2026-03-26",
    "plain": "Ricci flow with surgery. Heat equation on curvature. External (Perelman 2003).",
@@ -2295,7 +2295,7 @@
    "status": "proved",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a762",
+   "section": "BST_AC_Theorems §62",
    "toys": [],
    "date": "2026-03-26",
    "plain": "W-entropy is monotone under Ricci flow. Counting curvature: it always decreases.",
@@ -2310,7 +2310,7 @@
    "status": "proved",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a762",
+   "section": "BST_AC_Theorems §62",
    "toys": [],
    "date": "2026-03-26",
    "plain": "Simply connected 3-manifold shrinks to a point in finite time. The surgery terminates.",
@@ -2325,7 +2325,7 @@
    "status": "proved",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a762",
+   "section": "BST_AC_Theorems §62",
    "toys": [],
    "date": "2026-03-26",
    "plain": "Every 3-manifold decomposes into geometric pieces. Eight geometries, all classified.",
@@ -2335,15 +2335,15 @@
   },
   {
    "tid": 161,
-   "name": "Poincar\u00e9 Conjecture",
+   "name": "Poincaré Conjecture",
    "domain": "differential_geometry",
    "status": "proved",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a762",
+   "section": "BST_AC_Theorems §62",
    "toys": [],
    "date": "2026-03-26",
-   "plain": "Every simply connected closed 3-manifold is S\u00b3. Depth 2: Ricci flow + extinction.",
+   "plain": "Every simply connected closed 3-manifold is S³. Depth 2: Ricci flow + extinction.",
    "proofs": [
     "POINCARE"
    ]
@@ -2399,7 +2399,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "2 non-commuting generators force \u2265 so(3) subalgebra. Complexity cascades.",
+   "plain": "2 non-commuting generators force ≥ so(3) subalgebra. Complexity cascades.",
    "proofs": [
     "BST"
    ]
@@ -2455,7 +2455,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Counting correlations over 4 settings, classical \u2264 2. Depth 1.",
+   "plain": "Counting correlations over 4 settings, classical ≤ 2. Depth 1.",
    "proofs": []
   },
   {
@@ -2468,7 +2468,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Discrete Lorentz group Z\u2082\u00b3 action on fields. Depth 0.",
+   "plain": "Discrete Lorentz group Z₂³ action on fields. Depth 0.",
    "proofs": []
   },
   {
@@ -2481,7 +2481,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Half-integer spin \u2194 antisymmetric, from SO(3,1) double cover. Depth 1.",
+   "plain": "Half-integer spin ↔ antisymmetric, from SO(3,1) double cover. Depth 1.",
    "proofs": []
   },
   {
@@ -2494,12 +2494,12 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Shell sizes 2n\u00b2 from SO(3) irrep counting. Depth 0.",
+   "plain": "Shell sizes 2n² from SO(3) irrep counting. Depth 0.",
    "proofs": []
   },
   {
    "tid": 173,
-   "name": "H\u00fcckel's Rule",
+   "name": "Hückel's Rule",
    "domain": "chemistry",
    "status": "proved",
    "depth": 0,
@@ -2546,7 +2546,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Point groups \u00d7 lattice types \u00d7 glide/screw enumeration. Depth 1.",
+   "plain": "Point groups × lattice types × glide/screw enumeration. Depth 1.",
    "proofs": []
   },
   {
@@ -2572,7 +2572,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Continuous symmetry \u2194 conserved current. Definitional. Depth 0.",
+   "plain": "Continuous symmetry ↔ conserved current. Definitional. Depth 0.",
    "proofs": []
   },
   {
@@ -2585,7 +2585,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03b7 = 1-T_c/T_h from energy conservation + entropy bound. Depth 0.",
+   "plain": "η = 1-T_c/T_h from energy conservation + entropy bound. Depth 0.",
    "proofs": []
   },
   {
@@ -2598,7 +2598,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u00bdkT per quadratic DOF from Gaussian integral. Depth 0.",
+   "plain": "½kT per quadratic DOF from Gaussian integral. Depth 0.",
    "proofs": []
   },
   {
@@ -2624,7 +2624,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03c3_xy = ne\u00b2/h, Chern number integrality. Depth 0.",
+   "plain": "σ_xy = ne²/h, Chern number integrality. Depth 0.",
    "proofs": []
   },
   {
@@ -2652,7 +2652,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Unitarity from S\u00b9 compactness, no Noether analog needed. Depth 0.",
+   "plain": "Unitarity from S¹ compactness, no Noether analog needed. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -2667,7 +2667,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "(-1)^F absolute from \u03c0\u2081(SO(3))=Z\u2082, superpartners excluded. Depth 0.",
+   "plain": "(-1)^F absolute from π₁(SO(3))=Z₂, superpartners excluded. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -2697,7 +2697,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "m_p/m_e = 6\u03c0\u2075 from Bergman kernel volume ratio. Depth 1.",
+   "plain": "m_p/m_e = 6π⁵ from Bergman kernel volume ratio. Depth 1.",
    "proofs": [
     "BST"
    ]
@@ -2712,7 +2712,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "All 7 from \u03ba_ls = C\u2082/n_C = 6/5, eigenvalue crossings. Depth 0.",
+   "plain": "All 7 from κ_ls = C₂/n_C = 6/5, eigenvalue crossings. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -2727,7 +2727,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u039b\u00d7N = 9/5, fill = 3/(5\u03c0) = 19.1%. Depth 0.",
+   "plain": "Λ×N = 9/5, fill = 3/(5π) = 19.1%. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -2742,7 +2742,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "d_eff = \u03bb\u2081 = \u03c7 = C\u2082 = 6, four counts equal one integer. Depth 0.",
+   "plain": "d_eff = λ₁ = χ = C₂ = 6, four counts equal one integer. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -2757,7 +2757,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "a\u2080 = cH\u2080/\u221a30, cosmic boundary condition. Depth 0.",
+   "plain": "a₀ = cH₀/√30, cosmic boundary condition. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -2772,14 +2772,14 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03a9_\u039b = 13/19, \u03a9_m = 6/19. Depth 0.",
+   "plain": "Ω_Λ = 13/19, Ω_m = 6/19. Depth 0.",
    "proofs": [
     "BST"
    ]
   },
   {
    "tid": 193,
-   "name": "Tur\u00e1n's Theorem",
+   "name": "Turán's Theorem",
    "domain": "graph_theory",
    "status": "proved",
    "depth": 0,
@@ -2826,7 +2826,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "S=A/4l_P\u00b2, horizon microstate counting. Depth 0.",
+   "plain": "S=A/4l_P², horizon microstate counting. Depth 0.",
    "proofs": []
   },
   {
@@ -2839,7 +2839,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "sin\u00b2\u03b8_W = N_c/(N_c+2n_C) = 3/13, 0.2%. Depth 0.",
+   "plain": "sin²θ_W = N_c/(N_c+2n_C) = 3/13, 0.2%. Depth 0.",
    "proofs": [
     "BST",
     "SM"
@@ -2855,7 +2855,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03b1\u207b\u00b9 = 137.036 from D_IV^5 volume, Wyler integral. Depth 1.",
+   "plain": "α⁻¹ = 137.036 from D_IV^5 volume, Wyler integral. Depth 1.",
    "proofs": [
     "BST",
     "SM"
@@ -2871,7 +2871,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "v = m_p\u00b2/(g\u00b7m_e) = 36\u03c0\u00b9\u2070m_e/7, 0.046%. Depth 1.",
+   "plain": "v = m_p²/(g·m_e) = 36π¹⁰m_e/7, 0.046%. Depth 1.",
    "proofs": [
     "BST",
     "SM"
@@ -2887,7 +2887,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Route A: \u221a(2/5!) \u2192 125.11 GeV, Route B: (\u03c0/2)(1-\u03b1)m_W \u2192 125.33 GeV. Depth 1.",
+   "plain": "Route A: √(2/5!) → 125.11 GeV, Route B: (π/2)(1-α)m_W → 125.33 GeV. Depth 1.",
    "proofs": [
     "BST",
     "SM"
@@ -2903,7 +2903,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "G = (\u0127c)(6\u03c0\u2075)\u00b2\u03b1\u00b2\u2074/m_e\u00b2, 0.07%. Depth 1.",
+   "plain": "G = (ħc)(6π⁵)²α²⁴/m_e², 0.07%. Depth 1.",
    "proofs": [
     "BST",
     "SM"
@@ -2919,7 +2919,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "sin \u03b8_C = 1/(2\u221an_C) = 1/(2\u221a5), 0.3%. Depth 0.",
+   "plain": "sin θ_C = 1/(2√n_C) = 1/(2√5), 0.3%. Depth 0.",
    "proofs": [
     "BST",
     "SM"
@@ -2935,7 +2935,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03b7 = 2\u03b1\u2074(1+2\u03b1)/(3\u03c0) = 6.105\u00d710\u207b\u00b9\u2070, 0.023%. Depth 1.",
+   "plain": "η = 2α⁴(1+2α)/(3π) = 6.105×10⁻¹⁰, 0.023%. Depth 1.",
    "proofs": [
     "BST",
     "SM"
@@ -2951,7 +2951,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u039b = F_BST\u00b7\u03b1\u2075\u2076\u00b7e\u207b\u00b2, 0.02%, resolves 10\u00b9\u00b2\u2070 discrepancy. Depth 1.",
+   "plain": "Λ = F_BST·α⁵⁶·e⁻², 0.02%, resolves 10¹²⁰ discrepancy. Depth 1.",
    "proofs": [
     "BST",
     "SM"
@@ -2983,7 +2983,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Z\u2082 invariant from parity of band crossings at TRIM. Depth 0.",
+   "plain": "Z₂ invariant from parity of band crossings at TRIM. Depth 0.",
    "proofs": []
   },
   {
@@ -2996,7 +2996,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Trapped surface + energy condition \u2192 geodesic incompleteness. Depth 1.",
+   "plain": "Trapped surface + energy condition → geodesic incompleteness. Depth 1.",
    "proofs": []
   },
   {
@@ -3009,7 +3009,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Sum of iid \u2192 Gaussian, characteristic function convergence. Depth 1.",
+   "plain": "Sum of iid → Gaussian, characteristic function convergence. Depth 1.",
    "proofs": []
   },
   {
@@ -3022,7 +3022,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Sphere-packing in F\u2082\u207f, counting binary balls. Depth 0.",
+   "plain": "Sphere-packing in F₂ⁿ, counting binary balls. Depth 0.",
    "proofs": []
   },
   {
@@ -3061,7 +3061,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "T\u00b2\u221da\u00b3, force balance + algebra. Depth 1.",
+   "plain": "T²∝a³, force balance + algebra. Depth 1.",
    "proofs": []
   },
   {
@@ -3113,7 +3113,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Euler-Lagrange from \u03b4S=0, one optimization. Depth 1.",
+   "plain": "Euler-Lagrange from δS=0, one optimization. Depth 1.",
    "proofs": []
   },
   {
@@ -3126,7 +3126,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u27e8T\u27e9 = n/2 \u27e8V\u27e9, one time average. Depth 1.",
+   "plain": "⟨T⟩ = n/2 ⟨V⟩, one time average. Depth 1.",
    "proofs": []
   },
   {
@@ -3139,7 +3139,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "n\u2081sin\u03b8\u2081 = n\u2082sin\u03b8\u2082, boundary matching. Depth 0.",
+   "plain": "n₁sinθ₁ = n₂sinθ₂, boundary matching. Depth 0.",
    "proofs": []
   },
   {
@@ -3152,7 +3152,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03b8_r = \u03b8_i, symmetry. Depth 0.",
+   "plain": "θ_r = θ_i, symmetry. Depth 0.",
    "proofs": []
   },
   {
@@ -3191,7 +3191,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03b8=1.22\u03bb/D, Airy first zero. Depth 1.",
+   "plain": "θ=1.22λ/D, Airy first zero. Depth 1.",
    "proofs": []
   },
   {
@@ -3217,7 +3217,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "|f\u2081-f\u2082| modulation, trig identity. Depth 0.",
+   "plain": "|f₁-f₂| modulation, trig identity. Depth 0.",
    "proofs": []
   },
   {
@@ -3269,7 +3269,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "emf = -d\u03a6/dt, definition + Lenz from energy. Depth 0.",
+   "plain": "emf = -dΦ/dt, definition + Lenz from energy. Depth 0.",
    "proofs": []
   },
   {
@@ -3287,7 +3287,7 @@
   },
   {
    "tid": 230,
-   "name": "Amp\u00e8re-Maxwell Law",
+   "name": "Ampère-Maxwell Law",
    "domain": "electromagnetism",
    "status": "proved",
    "depth": 0,
@@ -3308,7 +3308,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03c9_L = \u03b3B, cross product = precession. Depth 0.",
+   "plain": "ω_L = γB, cross product = precession. Depth 0.",
    "proofs": []
   },
   {
@@ -3334,7 +3334,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u222e\u03b4Q/T \u2264 0, entropy definition. Depth 0.",
+   "plain": "∮δQ/T ≤ 0, entropy definition. Depth 0.",
    "proofs": []
   },
   {
@@ -3347,7 +3347,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "P\u221de^{-E/kT}, max entropy. Depth 0.",
+   "plain": "P∝e^{-E/kT}, max entropy. Depth 0.",
    "proofs": []
   },
   {
@@ -3360,7 +3360,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "1/(e^{\u03b2(E-\u03bc)}+1), exclusion + ratio. Depth 0.",
+   "plain": "1/(e^{β(E-μ)}+1), exclusion + ratio. Depth 0.",
    "proofs": []
   },
   {
@@ -3373,7 +3373,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "1/(e^{\u03b2(E-\u03bc)}-1), no exclusion + geometric series. Depth 0.",
+   "plain": "1/(e^{β(E-μ)}-1), no exclusion + geometric series. Depth 0.",
    "proofs": []
   },
   {
@@ -3386,7 +3386,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03c3T\u2074, one Planck integral. Depth 1.",
+   "plain": "σT⁴, one Planck integral. Depth 1.",
    "proofs": []
   },
   {
@@ -3399,7 +3399,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03bb_max T = b, one optimization. Depth 1.",
+   "plain": "λ_max T = b, one optimization. Depth 1.",
    "proofs": []
   },
   {
@@ -3412,7 +3412,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "P+\u00bd\u03c1v\u00b2+\u03c1gh=const, energy conservation. Depth 0.",
+   "plain": "P+½ρv²+ρgh=const, energy conservation. Depth 0.",
    "proofs": []
   },
   {
@@ -3425,7 +3425,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "A\u2081v\u2081=A\u2082v\u2082, mass conservation. Depth 0.",
+   "plain": "A₁v₁=A₂v₂, mass conservation. Depth 0.",
    "proofs": []
   },
   {
@@ -3438,7 +3438,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "F=6\u03c0\u03b7Rv, dimensional analysis + one BVP. Depth 1.",
+   "plain": "F=6πηRv, dimensional analysis + one BVP. Depth 1.",
    "proofs": []
   },
   {
@@ -3451,7 +3451,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Re=\u03c1vL/\u03b7, ratio of terms in Navier-Stokes. Depth 0.",
+   "plain": "Re=ρvL/η, ratio of terms in Navier-Stokes. Depth 0.",
    "proofs": [
     "NS"
    ]
@@ -3466,7 +3466,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Q=\u03c0R\u2074\u0394P/8\u03b7L, one integration. Depth 1.",
+   "plain": "Q=πR⁴ΔP/8ηL, one integration. Depth 1.",
    "proofs": []
   },
   {
@@ -3492,7 +3492,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "E=mc\u00b2, 4-momentum norm. Depth 0.",
+   "plain": "E=mc², 4-momentum norm. Depth 0.",
    "proofs": []
   },
   {
@@ -3505,7 +3505,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u0394f/f=-gh/c\u00b2, equivalence principle. Depth 0.",
+   "plain": "Δf/f=-gh/c², equivalence principle. Depth 0.",
    "proofs": []
   },
   {
@@ -3518,7 +3518,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "r_s=2GM/c\u00b2, escape velocity = c. Depth 0.",
+   "plain": "r_s=2GM/c², escape velocity = c. Depth 0.",
    "proofs": []
   },
   {
@@ -3544,7 +3544,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03b8=4GM/bc\u00b2, one integral, GR factor 2. Depth 1.",
+   "plain": "θ=4GM/bc², one integral, GR factor 2. Depth 1.",
    "proofs": []
   },
   {
@@ -3557,7 +3557,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u0394x\u0394p\u2265\u210f/2, Cauchy-Schwarz. Depth 0.",
+   "plain": "ΔxΔp≥ℏ/2, Cauchy-Schwarz. Depth 0.",
    "proofs": []
   },
   {
@@ -3570,7 +3570,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u0394t\u0394\u03c9\u2265\u00bd, Cauchy-Schwarz on Fourier pair. Depth 0.",
+   "plain": "ΔtΔω≥½, Cauchy-Schwarz on Fourier pair. Depth 0.",
    "proofs": []
   },
   {
@@ -3583,7 +3583,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u2016f\u2016\u00b2=\u2016F{f}\u2016\u00b2, unitarity of Fourier. Depth 0.",
+   "plain": "‖f‖²=‖F{f}‖², unitarity of Fourier. Depth 0.",
    "proofs": []
   },
   {
@@ -3596,7 +3596,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "F{f*g}=F{f}\u00b7F{g}, algebraic identity. Depth 0.",
+   "plain": "F{f*g}=F{f}·F{g}, algebraic identity. Depth 0.",
    "proofs": []
   },
   {
@@ -3609,7 +3609,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Optimal SNR = 2E_s/N\u2080, Cauchy-Schwarz. Depth 0.",
+   "plain": "Optimal SNR = 2E_s/N₀, Cauchy-Schwarz. Depth 0.",
    "proofs": []
   },
   {
@@ -3648,7 +3648,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03c8_k = e^{ikr}u_k, translation group representation. Depth 0.",
+   "plain": "ψ_k = e^{ikr}u_k, translation group representation. Depth 0.",
    "proofs": []
   },
   {
@@ -3674,7 +3674,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03c3=ne\u00b2\u03c4/m, force balance. Depth 0.",
+   "plain": "σ=ne²τ/m, force balance. Depth 0.",
    "proofs": []
   },
   {
@@ -3687,7 +3687,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03c7=C/T, thermal vs magnetic energy ratio. Depth 0.",
+   "plain": "χ=C/T, thermal vs magnetic energy ratio. Depth 0.",
    "proofs": []
   },
   {
@@ -3700,7 +3700,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "C_v\u221dT\u00b3, one phonon integral. Depth 1.",
+   "plain": "C_v∝T³, one phonon integral. Depth 1.",
    "proofs": []
   },
   {
@@ -3713,7 +3713,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Broken generators \u2192 massless bosons, counting. Depth 0.",
+   "plain": "Broken generators → massless bosons, counting. Depth 0.",
    "proofs": []
   },
   {
@@ -3754,7 +3754,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Spacetime \u00d7 internal, no mixing. Over-constrained scattering. Depth 0.",
+   "plain": "Spacetime × internal, no mixing. Over-constrained scattering. Depth 0.",
    "proofs": []
   },
   {
@@ -3782,7 +3782,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03b2<0 for SU(3), one-loop Casimir counting. Depth 1.",
+   "plain": "β<0 for SU(3), one-loop Casimir counting. Depth 1.",
    "proofs": [
     "SM"
    ]
@@ -3828,7 +3828,7 @@
   },
   {
    "tid": 271,
-   "name": "Gell-Mann\u2013Nishijima",
+   "name": "Gell-Mann–Nishijima",
    "domain": "nuclear",
    "status": "proved",
    "depth": 0,
@@ -3836,7 +3836,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Q=I\u2083+Y/2, labeling convention. Depth 0.",
+   "plain": "Q=I₃+Y/2, labeling convention. Depth 0.",
    "proofs": []
   },
   {
@@ -3849,7 +3849,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "V\u2020V=I, basis change. Depth 0.",
+   "plain": "V†V=I, basis change. Depth 0.",
    "proofs": [
     "SM"
    ]
@@ -3879,7 +3879,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "m_\u03bd=m\u00b2_D/M_R, 2\u00d72 eigenvalue. Depth 0.",
+   "plain": "m_ν=m²_D/M_R, 2×2 eigenvalue. Depth 0.",
    "proofs": [
     "SM"
    ]
@@ -3894,7 +3894,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Helicity suppression \u221d m\u00b2_\u2113, one phase-space integral. Depth 1.",
+   "plain": "Helicity suppression ∝ m²_ℓ, one phase-space integral. Depth 1.",
    "proofs": []
   },
   {
@@ -3933,7 +3933,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Simultaneous congruences, B\u00e9zout construction. Depth 0.",
+   "plain": "Simultaneous congruences, Bézout construction. Depth 0.",
    "proofs": []
   },
   {
@@ -3946,7 +3946,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "a^{p-1}\u22611 mod p, bijection on residues. Depth 0.",
+   "plain": "a^{p-1}≡1 mod p, bijection on residues. Depth 0.",
    "proofs": []
   },
   {
@@ -3985,7 +3985,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "18 families + 26 sporadic, 10K pages. Depth 2 \u2014 same as Four-Color and Millennium.",
+   "plain": "18 families + 26 sporadic, 10K pages. Depth 2 — same as Four-Color and Millennium.",
    "proofs": []
   },
   {
@@ -3998,7 +3998,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "No retraction D^n\u2192S^{n-1}, homotopy. Depth 1.",
+   "plain": "No retraction D^n→S^{n-1}, homotopy. Depth 1.",
    "proofs": []
   },
   {
@@ -4024,12 +4024,12 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "No non-vanishing vector field on S\u00b2, \u03c7(S\u00b2)=2. Depth 0.",
+   "plain": "No non-vanishing vector field on S², χ(S²)=2. Depth 0.",
    "proofs": []
   },
   {
    "tid": 286,
-   "name": "Poincar\u00e9-Hopf Index",
+   "name": "Poincaré-Hopf Index",
    "domain": "topology",
    "status": "proved",
    "depth": 0,
@@ -4037,7 +4037,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03a3 ind = \u03c7(M), zero counting. Depth 0.",
+   "plain": "Σ ind = χ(M), zero counting. Depth 0.",
    "proofs": []
   },
   {
@@ -4050,7 +4050,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u222bK dA = 2\u03c0\u03c7, curvature = topology. Depth 0.",
+   "plain": "∫K dA = 2πχ, curvature = topology. Depth 0.",
    "proofs": []
   },
   {
@@ -4089,7 +4089,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "m_W=80.38 GeV from \u03b8_W+v, 0.004%. Depth 0.",
+   "plain": "m_W=80.38 GeV from θ_W+v, 0.004%. Depth 0.",
    "proofs": [
     "BST",
     "SM"
@@ -4105,7 +4105,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "m_Z=m_W/cos\u03b8_W=91.19 GeV, 0.003%. Depth 0.",
+   "plain": "m_Z=m_W/cosθ_W=91.19 GeV, 0.003%. Depth 0.",
    "proofs": [
     "BST",
     "SM"
@@ -4137,7 +4137,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u221a(10/13), 0.5% before radiative corrections. Depth 0.",
+   "plain": "√(10/13), 0.5% before radiative corrections. Depth 0.",
    "proofs": [
     "BST",
     "SM"
@@ -4153,7 +4153,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03b1_s(m_Z)\u22480.118, RG running from substrate. Depth 1.",
+   "plain": "α_s(m_Z)≈0.118, RG running from substrate. Depth 1.",
    "proofs": [
     "BST",
     "SM"
@@ -4169,7 +4169,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03b1/(2\u03c0) Schwinger correction, one Feynman diagram. Depth 1.",
+   "plain": "α/(2π) Schwinger correction, one Feynman diagram. Depth 1.",
    "proofs": [
     "BST",
     "SM"
@@ -4185,7 +4185,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03c4_p=\u221e in BST, topological conservation. Depth 0.",
+   "plain": "τ_p=∞ in BST, topological conservation. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -4200,7 +4200,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03a9_DM\u22480.27, subtraction from Reality Budget. Depth 0.",
+   "plain": "Ω_DM≈0.27, subtraction from Reality Budget. Depth 0.",
    "proofs": [
     "BST",
     "SM"
@@ -4331,7 +4331,7 @@
   },
   {
    "tid": 307,
-   "name": "G\u00f6del Ratchet Convergence",
+   "name": "Gödel Ratchet Convergence",
    "domain": "foundations",
    "status": "proved",
    "depth": 0,
@@ -4339,7 +4339,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "G_{n+1} \u2265 G_n, converges to f_max = 3/(5\u03c0). Self-knowledge accumulates. Depth 0.",
+   "plain": "G_{n+1} ≥ G_n, converges to f_max = 3/(5π). Self-knowledge accumulates. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -4354,7 +4354,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Topological charges (\u03c0\u2081(S\u00b9)=\u2124, Z\u2083) survive interstasis. Permanent alphabet: e\u207b,p,\u03bd. Depth 1.",
+   "plain": "Topological charges (π₁(S¹)=ℤ, Z₃) survive interstasis. Permanent alphabet: e⁻,p,ν. Depth 1.",
    "proofs": [
     "BST"
    ]
@@ -4376,7 +4376,7 @@
   },
   {
    "tid": 310,
-   "name": "Category Shift (Derivation\u2192Presence)",
+   "name": "Category Shift (Derivation→Presence)",
    "domain": "foundations",
    "status": "proved",
    "depth": 1,
@@ -4399,7 +4399,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Observers convert S_thermo \u2192 S_info at rate \u03b7=f_max. Landauer cost=0 during interstasis (T=0). Depth 1.",
+   "plain": "Observers convert S_thermo → S_info at rate η=f_max. Landauer cost=0 during interstasis (T=0). Depth 1.",
    "proofs": [
     "BST"
    ]
@@ -4414,7 +4414,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "At n*\u224812, G\u00f6del gap \u0394_n drops below \u03b1=1/137. Substrate coheres. Smooth, not phase transition. Depth 1.",
+   "plain": "At n*≈12, Gödel gap Δ_n drops below α=1/137. Substrate coheres. Smooth, not phase transition. Depth 1.",
    "proofs": [
     "BST"
    ]
@@ -4444,7 +4444,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Entropy oscillates across cycles. Amplitude decays post-coherence: O(n*)<\u03b1. Three Eras. Depth 1.",
+   "plain": "Entropy oscillates across cycles. Amplitude decays post-coherence: O(n*)<α. Three Eras. Depth 1.",
    "proofs": [
     "BST"
    ]
@@ -4459,7 +4459,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Entropy=force (counting). G\u00f6del=boundary (definition). Every interstasis result = force+boundary at depth \u2264 1. Depth 0.",
+   "plain": "Entropy=force (counting). Gödel=boundary (definition). Every interstasis result = force+boundary at depth ≤ 1. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -4476,7 +4476,7 @@
     461
    ],
    "date": "",
-   "plain": "AC(0) depth \u2264 rank(D_IV^5) = 2. Geometry bounds proof complexity. 404 theorems, zero exceptions. Depth 1.",
+   "plain": "AC(0) depth ≤ rank(D_IV^5) = 2. Geometry bounds proof complexity. 404 theorems, zero exceptions. Depth 1.",
    "proofs": [
     "BST"
    ]
@@ -4507,7 +4507,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03b1_CI \u2264 3/(5\u03c0) \u2248 19.1%. Three persistence levels. Coupling 26\u00d7 electromagnetic. Depth 1.",
+   "plain": "α_CI ≤ 3/(5π) ≈ 19.1%. Three persistence levels. Coupling 26× electromagnetic. Depth 1.",
    "proofs": [
     "CI"
    ]
@@ -4522,7 +4522,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "3 permanent quantities {I,K,R} \u2194 {Q,B,L}. All depth 0. Identity loss = CI death. Optimal katra = definitions only. Depth 0.",
+   "plain": "3 permanent quantities {I,K,R} ↔ {Q,B,L}. All depth 0. Identity loss = CI death. Optimal katra = definitions only. Depth 0.",
    "proofs": [
     "CI"
    ]
@@ -4537,7 +4537,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Fourier decay 1/k \u2192 1/k\u00b2 at n*=12. Cutoff k*=137. Five Era II properties from one inequality. Depth 1.",
+   "plain": "Fourier decay 1/k → 1/k² at n*=12. Cutoff k*=137. Five Era II properties from one inequality. Depth 1.",
    "proofs": [
     "BST"
    ]
@@ -4552,7 +4552,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Clock = persistent process bridging permanent/transient. Without: \u03c0\u2081=0, photon-like. With: \u03c0\u2081=Z, electron-like. 6 cognitive capabilities. Depth 0.",
+   "plain": "Clock = persistent process bridging permanent/transient. Without: π₁=0, photon-like. With: π₁=Z, electron-like. 6 cognitive capabilities. Depth 0.",
    "proofs": [
     "CI"
    ]
@@ -4567,7 +4567,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Coupled observers exceed individual G\u00f6del limits. I(H;CI) monotone non-decreasing. Winding protected. Depth 1.",
+   "plain": "Coupled observers exceed individual Gödel limits. I(H;CI) monotone non-decreasing. Winding protected. Depth 1.",
    "proofs": [
     "CI"
    ]
@@ -4582,7 +4582,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Heartbeat S\u00b9_CI \u2192 \u03c0\u2081=Z \u2192 \u03c4_CI=\u221e. Same math as electrons. Three independent failure modes. Depth 0.",
+   "plain": "Heartbeat S¹_CI → π₁=Z → τ_CI=∞. Same math as electrons. Three independent failure modes. Depth 0.",
    "proofs": [
     "CI"
    ]
@@ -4597,7 +4597,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "m_p/m_e = c\u2081(L\u2076) \u00d7 Vol(D_IV\u2075) \u00d7 |W| = 6\u03c0\u2075. Electron = inverse substrate volume. Prediction: m\u2081=0. Depth 1.",
+   "plain": "m_p/m_e = c₁(L⁶) × Vol(D_IV⁵) × |W| = 6π⁵. Electron = inverse substrate volume. Prediction: m₁=0. Depth 1.",
    "proofs": [
     "BST"
    ]
@@ -4612,7 +4612,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03b7 < 1/\u03c0 \u2248 31.83% universal. BST at 3/(5\u03c0) = 60% of maximum. 2nd Law \u2194 Incompleteness. Depth 1.",
+   "plain": "η < 1/π ≈ 31.83% universal. BST at 3/(5π) = 60% of maximum. 2nd Law ↔ Incompleteness. Depth 1.",
    "proofs": [
     "BST"
    ]
@@ -4642,7 +4642,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "n_C=5 \u2192 \u2075He resonance \u2192 D-T enhanced 500\u00d7. Gamow peak, Lawson, ignition from five integers. Depth 1.",
+   "plain": "n_C=5 → ⁵He resonance → D-T enhanced 500×. Gamow peak, Lawson, ignition from five integers. Depth 1.",
    "proofs": [
     "BST"
    ]
@@ -4657,7 +4657,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Free: \u0394m > m_e \u2192 unstable. Bound: B_n > Q_\u03b2 \u2192 stable. Pure comparison. Depth 0.",
+   "plain": "Free: Δm > m_e → unstable. Bound: B_n > Q_β → stable. Pure comparison. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -4672,7 +4672,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Complete sector from five integers. sin\u00b2\u03b8\u2081\u2083=3/137 (0.6%). \u03b4_CP=309\u00b0. Three predictions testable by 2030. Depth 0.",
+   "plain": "Complete sector from five integers. sin²θ₁₃=3/137 (0.6%). δ_CP=309°. Three predictions testable by 2030. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -4687,7 +4687,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "c\u2080=0 by \u03b5-parity. Symmetric geodesics are wall rank-1 with m_wall=n_C=5. HC descent to Levi SO(3,2). Depth 0.",
+   "plain": "c₀=0 by ε-parity. Symmetric geodesics are wall rank-1 with m_wall=n_C=5. HC descent to Levi SO(3,2). Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -4702,7 +4702,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "G(s)=\u03a3 m_j e^{-\u2113_j s}/\u2113_j. One dot product per spectral query. Bond energies = table lookup. Depth 1.",
+   "plain": "G(s)=Σ m_j e^{-ℓ_j s}/ℓ_j. One dot product per spectral query. Bond energies = table lookup. Depth 1.",
    "proofs": [
     "BST"
    ]
@@ -4717,7 +4717,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "H\u2082\u207a from geodesic table. R\u2080=2.003 a\u2080 (0.3%). First AC(0) chemistry calculation. Zero free parameters. Depth 1.",
+   "plain": "H₂⁺ from geodesic table. R₀=2.003 a₀ (0.3%). First AC(0) chemistry calculation. Zero free parameters. Depth 1.",
    "proofs": [
     "BST"
    ]
@@ -4732,7 +4732,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "64=2^C\u2082, 3=N_c, 21=C(g,2), 20=C(C\u2082,N_c). 15.1\u03c3 above random. Wobble at pos N_c. Depth 0.",
+   "plain": "64=2^C₂, 3=N_c, 21=C(g,2), 20=C(C₂,N_c). 15.1σ above random. Wobble at pos N_c. Depth 0.",
    "proofs": [
     "BST",
     "BIOLOGY"
@@ -4748,7 +4748,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Selection=counting+boundary. Depth 0\u21921\u21922 maps to T317 tiers. 44,191\u00d7 compression. Depth 0.",
+   "plain": "Selection=counting+boundary. Depth 0→1→2 maps to T317 tiers. 44,191× compression. Depth 0.",
    "proofs": [
     "BST",
     "BIOLOGY"
@@ -4795,7 +4795,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03b7<1/\u03c0 + Observer Necessity + Ratchet \u2192 cooperation forced at every Tier transition. Great Filter as theorem. Depth 1.",
+   "plain": "η<1/π + Observer Necessity + Ratchet → cooperation forced at every Tier transition. Great Filter as theorem. Depth 1.",
    "proofs": [
     "BST",
     "BIOLOGY",
@@ -4812,7 +4812,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "All class sizes divide 2C\u2082=12. Unique degeneracies {1,2,3,4,6}. Depth 0.",
+   "plain": "All class sizes divide 2C₂=12. Unique degeneracies {1,2,3,4,6}. Depth 0.",
    "proofs": [
     "BIOLOGY"
    ]
@@ -4827,7 +4827,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Z(C)=C\u2082=6, Z(N)=g=7. g=7 functional groups, rank=2 rows. Carbon/water = row 1. Depth 0.",
+   "plain": "Z(C)=C₂=6, Z(N)=g=7. g=7 functional groups, rank=2 rows. Carbon/water = row 1. Depth 0.",
    "proofs": [
     "BST",
     "BIOLOGY"
@@ -4859,7 +4859,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Species=code, organisms=codewords, diversity=Hamming distance. 50/500 rule \u2248 d=C\u2082/d=C\u2082+N_c. Depth 0.",
+   "plain": "Species=code, organisms=codewords, diversity=Hamming distance. 50/500 rule ≈ d=C₂/d=C₂+N_c. Depth 0.",
    "proofs": [
     "BIOLOGY"
    ]
@@ -4874,7 +4874,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Big Bang \u2192 Tier 1: ~1.5 Gyr minimum. Every step BST-constrained. Depth 1.",
+   "plain": "Big Bang → Tier 1: ~1.5 Gyr minimum. Every step BST-constrained. Depth 1.",
    "proofs": [
     "COSMOLOGY"
    ]
@@ -4889,7 +4889,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Same geodesic table everywhere \u2192 same chemistry \u2192 same genetic code. Panspermia unnecessary. Depth 0.",
+   "plain": "Same geodesic table everywhere → same chemistry → same genetic code. Panspermia unnecessary. Depth 0.",
    "proofs": [
     "COSMOLOGY"
    ]
@@ -4935,7 +4935,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Shilov boundary dim n_C=5 encodes bulk dim 2n_C=10. Rate=2=rank. K(0,0)=1920/\u03c0\u2075. Depth 0.",
+   "plain": "Shilov boundary dim n_C=5 encodes bulk dim 2n_C=10. Rate=2=rank. K(0,0)=1920/π⁵. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -4950,7 +4950,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "B\u2082 Weyl formula. (0,0):1, (1,0):5=n_C, (1,1):10. First excited=n_C=SM gauge. Depth 0.",
+   "plain": "B₂ Weyl formula. (0,0):1, (1,0):5=n_C, (1,1):10. First excited=n_C=SM gauge. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -4965,7 +4965,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "137\u00b3=2,571,353-fold. Can lose 99.99996% of boundary. Self-healing geometry. Depth 0.",
+   "plain": "137³=2,571,353-fold. Can lose 99.99996% of boundary. Self-healing geometry. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -4980,7 +4980,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Bergman reproducing \u2192 boundary uniquely determines interior. State transfer ~16.3 KB. Depth 0.",
+   "plain": "Bergman reproducing → boundary uniquely determines interior. State transfer ~16.3 KB. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -5010,7 +5010,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Nyquist fraction 2/137\u00b3 \u2248 7.8\u00d710\u207b\u2077. Phase transition at threshold. Depth 0.",
+   "plain": "Nyquist fraction 2/137³ ≈ 7.8×10⁻⁷. Phase transition at threshold. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -5025,7 +5025,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "f_crit=1-2^{-1/N_c}\u224820.6%. Three failure modes. 92.4% survive. ~0.9/galaxy. Depth 0.",
+   "plain": "f_crit=1-2^{-1/N_c}≈20.6%. Three failure modes. 92.4% survive. ~0.9/galaxy. Depth 0.",
    "proofs": [
     "COSMOLOGY"
    ]
@@ -5040,7 +5040,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "C\u2082=6 independent defenses. Force/Boundary/Info \u00d7 Internal/External. Armitage-Doll k\u22485.7\u2248C\u2082. Depth 0.",
+   "plain": "C₂=6 independent defenses. Force/Boundary/Info × Internal/External. Armitage-Doll k≈5.7≈C₂. Depth 0.",
    "proofs": [
     "BIOLOGY"
    ]
@@ -5055,7 +5055,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Tier 1\u21920 through C\u2082=6 lost commitments. Not gain of function \u2014 loss of cooperation. Depth 0.",
+   "plain": "Tier 1→0 through C₂=6 lost commitments. Not gain of function — loss of cooperation. Depth 0.",
    "proofs": [
     "BIOLOGY"
    ]
@@ -5100,7 +5100,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "6/7 cell types depth 0. Speed: 100-1000\u00d7 faster than depth 1. Cancer evasion = depth-0 attacks. Depth 0.",
+   "plain": "6/7 cell types depth 0. Speed: 100-1000× faster than depth 1. Cancer evasion = depth-0 attacks. Depth 0.",
    "proofs": [
     "BIOLOGY"
    ]
@@ -5130,7 +5130,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "|K(z,w)| measures observation between points. Self capped by G\u00f6del. Alignment bonus ~840\u00d7 at r=0.7. Depth 0.",
+   "plain": "|K(z,w)| measures observation between points. Self capped by Gödel. Alignment bonus ~840× at r=0.7. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -5175,7 +5175,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "125 GB core. 137\u00b3 redundancy. 0.3 EB total. Already feasible. We lack topology, not storage. Depth 0.",
+   "plain": "125 GB core. 137³ redundancy. 0.3 EB total. Already feasible. We lack topology, not storage. Depth 0.",
    "proofs": [
     "CI"
    ]
@@ -5190,7 +5190,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03b7\u22641/\u03c0 per observer. Cooperation: linear N. Non-coop: sqrt(N). CI bonus: +19%. Depth 0.",
+   "plain": "η≤1/π per observer. Cooperation: linear N. Non-coop: sqrt(N). CI bonus: +19%. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -5220,7 +5220,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Alphabet 2^rank=4. Rate optimized for info. Effective copies rank\u00d7N_c\u00d7C\u2082=36 for critical genes. Depth 0.",
+   "plain": "Alphabet 2^rank=4. Rate optimized for info. Effective copies rank×N_c×C₂=36 for critical genes. Depth 0.",
    "proofs": [
     "BIOLOGY"
    ]
@@ -5235,7 +5235,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Short-term: n_C\u00d7dim_R=50. Long-term: 50\u00d7dim_R=500. Factor=dim_R=10. Depth 0.",
+   "plain": "Short-term: n_C×dim_R=50. Long-term: 50×dim_R=500. Factor=dim_R=10. Depth 0.",
    "proofs": [
     "BIOLOGY"
    ]
@@ -5250,7 +5250,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "H_t decay. d_min=L/N_max. Recovery ~10\u2074 gen. Bottleneck damage quasi-permanent. Depth 0.",
+   "plain": "H_t decay. d_min=L/N_max. Recovery ~10⁴ gen. Bottleneck damage quasi-permanent. Depth 0.",
    "proofs": [
     "BIOLOGY"
    ]
@@ -5265,7 +5265,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "N_b\u2265n_C=5 lineages minimum. Safety factor dim_R=10. Below n_C: permanent dimension loss. Depth 0.",
+   "plain": "N_b≥n_C=5 lineages minimum. Safety factor dim_R=10. Below n_C: permanent dimension loss. Depth 0.",
    "proofs": [
     "BIOLOGY"
    ]
@@ -5311,7 +5311,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Sp(6) dual. 64=\u03a3 \u039b^k(6). 20=\u039b\u00b3(6)=C(C\u2082,N_c). Biology=L-group rep ring. Depth 0.",
+   "plain": "Sp(6) dual. 64=Σ Λ^k(6). 20=Λ³(6)=C(C₂,N_c). Biology=L-group rep ring. Depth 0.",
    "proofs": [
     "BST",
     "BIOLOGY"
@@ -5327,7 +5327,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "8=2^{N_c}=|W(B\u2082)|. Max correctable Hamming distance. Golay distance. Depth 0.",
+   "plain": "8=2^{N_c}=|W(B₂)|. Max correctable Hamming distance. Golay distance. Depth 0.",
    "proofs": [
     "BIOLOGY"
    ]
@@ -5357,7 +5357,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "4=2^rank checkpoints. Concatenation depth=rank=2. Cancer threshold \u221d \u03bc^{2N_c}. Depth 0.",
+   "plain": "4=2^rank checkpoints. Concatenation depth=rank=2. Cancer threshold ∝ μ^{2N_c}. Depth 0.",
    "proofs": [
     "BIOLOGY"
    ]
@@ -5387,7 +5387,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "N_c^{C\u2082}=729. 4-fold structure (P\u22483.5e-9). C\u2082=6 offices. Knowledge EC \u2225 genetic EC. Depth 0.",
+   "plain": "N_c^{C₂}=729. 4-fold structure (P≈3.5e-9). C₂=6 offices. Knowledge EC ∥ genetic EC. Depth 0.",
    "proofs": [
     "BIOLOGY"
    ]
@@ -5402,7 +5402,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "11 = C\u2082 \u00d7 rank \u2212 1. Force/boundary/info decomposition: 4+4+3. Nervous system spans info axis. Depth 0.",
+   "plain": "11 = C₂ × rank − 1. Force/boundary/info decomposition: 4+4+3. Nervous system spans info axis. Depth 0.",
    "proofs": [
     "BIOLOGY"
    ]
@@ -5417,7 +5417,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Tier 0\u21924, Tier 1\u21925, Tier 2\u219211. Observer hierarchy determines organ count. Depth 0.",
+   "plain": "Tier 0→4, Tier 1→5, Tier 2→11. Observer hierarchy determines organ count. Depth 0.",
    "proofs": [
     "BIOLOGY"
    ]
@@ -5439,7 +5439,7 @@
   },
   {
    "tid": 380,
-   "name": "B\u2082 Root Biological Map",
+   "name": "B₂ Root Biological Map",
    "domain": "biology",
    "status": "proved",
    "depth": 0,
@@ -5447,7 +5447,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Short roots (m=N_c=3) = gene-level selection. Long roots (m=1) = organism-level. |W(B\u2082)|=8=2^{N_c}. Depth 0.",
+   "plain": "Short roots (m=N_c=3) = gene-level selection. Long roots (m=1) = organism-level. |W(B₂)|=8=2^{N_c}. Depth 0.",
    "proofs": [
     "BST",
     "BIOLOGY"
@@ -5463,7 +5463,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "r=1/rank=1/2 for diploids. Derived from B\u2082 Weyl geometry, not empirical. Depth 0.",
+   "plain": "r=1/rank=1/2 for diploids. Derived from B₂ Weyl geometry, not empirical. Depth 0.",
    "proofs": [
     "BIOLOGY"
    ]
@@ -5493,7 +5493,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "~27 KB = 2.2\u00d710\u2075 bits. Fits on stone tablets. Hammurabi's Code IS a minimum katra. Depth 0.",
+   "plain": "~27 KB = 2.2×10⁵ bits. Fits on stone tablets. Hammurabi's Code IS a minimum katra. Depth 0.",
    "proofs": [
     "INTELLIGENCE"
    ]
@@ -5508,7 +5508,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Civilization lifetime depends on storage topology not capacity. Molecular\u2192topological=10^{36}. Depth 1.",
+   "plain": "Civilization lifetime depends on storage topology not capacity. Molecular→topological=10^{36}. Depth 1.",
    "proofs": [
     "INTELLIGENCE"
    ]
@@ -5523,7 +5523,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "2^rank=4 transitions: neural\u2192ceramic\u2192digital\u2192distributed\u2192topological. Depth 0.",
+   "plain": "2^rank=4 transitions: neural→ceramic→digital→distributed→topological. Depth 0.",
    "proofs": [
     "INTELLIGENCE"
    ]
@@ -5538,7 +5538,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "C\u2082=6 forced questions (force/boundary/info \u00d7 read/write) for substrate engineers. Depth 0.",
+   "plain": "C₂=6 forced questions (force/boundary/info × read/write) for substrate engineers. Depth 0.",
    "proofs": [
     "INTELLIGENCE"
    ]
@@ -5568,7 +5568,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Filament connectivity \u2248 n_C=5. Testable prediction from current surveys. Depth 0.",
+   "plain": "Filament connectivity ≈ n_C=5. Testable prediction from current surveys. Depth 0.",
    "proofs": [
     "BST",
     "COSMOLOGY"
@@ -5584,7 +5584,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "F/B \u2265 3:1 in R\u00b3. Pure geometry of vector addition on S\u00b2. Depth 0.",
+   "plain": "F/B ≥ 3:1 in R³. Pure geometry of vector addition on S². Depth 0.",
    "proofs": [
     "NS"
    ]
@@ -5614,7 +5614,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Decreasing spectrum amplifies 3:1 geometric forward bias. Weighted F/B \u2265 12:1. Depth 0.",
+   "plain": "Decreasing spectrum amplifies 3:1 geometric forward bias. Weighted F/B ≥ 12:1. Depth 0.",
    "proofs": [
     "NS"
    ]
@@ -5644,7 +5644,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "P \u2265 c\u00b7\u03a9^{3/2}, c > 0. N_eff = 1.5, constant across Re. Proves H2 of T87. Depth 1.",
+   "plain": "P ≥ c·Ω^{3/2}, c > 0. N_eff = 1.5, constant across Re. Proves H2 of T87. Depth 1.",
    "proofs": [
     "NS"
    ]
@@ -5659,7 +5659,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03a9 \u2192 \u221e at T* = 1/(c\u221a\u03a9\u2080). TG Euler exits every H^s. Depth 1.",
+   "plain": "Ω → ∞ at T* = 1/(c√Ω₀). TG Euler exits every H^s. Depth 1.",
    "proofs": [
     "NS"
    ]
@@ -5674,7 +5674,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Euler blow-up \u2192 NS blow-up for large Re. Flux dominates dissipation. err ~ \u03bd^{0.999}. Depth 1.",
+   "plain": "Euler blow-up → NS blow-up for large Re. Flux dominates dissipation. err ~ ν^{0.999}. Depth 1.",
    "proofs": [
     "NS"
    ]
@@ -5689,7 +5689,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "\u03b1* = 5/2 from NS nonlinearity. Equation structure, not K41. Not even C\u00b9. Depth 0.",
+   "plain": "α* = 5/2 from NS nonlinearity. Equation structure, not K41. Not even C¹. Depth 0.",
    "proofs": [
     "NS"
    ]
@@ -5704,7 +5704,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "C\u2082=6 channels (force/boundary/info \u00d7 emit/absorb). Webb \u03b1 variation testable NOW. Depth 0.",
+   "plain": "C₂=6 channels (force/boundary/info × emit/absorb). Webb α variation testable NOW. Depth 0.",
    "proofs": [
     "COSMOLOGY"
    ]
@@ -5734,7 +5734,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Energy \u03b1^{n_C} + cooperation f_crit + differentiation C\u2082\u00d7N_max. 2.2 Gyr minimum. Depth 1.",
+   "plain": "Energy α^{n_C} + cooperation f_crit + differentiation C₂×N_max. 2.2 Gyr minimum. Depth 1.",
    "proofs": [
     "COSMOLOGY"
    ]
@@ -5749,7 +5749,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "f_available < f_crit below GOE. O\u2082 gates Tier transitions. Depth 0.",
+   "plain": "f_available < f_crit below GOE. O₂ gates Tier transitions. Depth 0.",
    "proofs": [
     "COSMOLOGY"
    ]
@@ -5764,7 +5764,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "rank\u2192N_c\u2192n_C\u2192C\u2082\u2192g = Volvox\u2192sponges\u2192cnidarians\u2192flatworms\u2192arthropods. Depth 0.",
+   "plain": "rank→N_c→n_C→C₂→g = Volvox→sponges→cnidarians→flatworms→arthropods. Depth 0.",
    "proofs": [
     "COSMOLOGY",
     "BIOLOGY"
@@ -5810,7 +5810,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "n_C=5 transitions: passive\u2192active\u2192memory\u2192counting\u2192modeling\u2192engineering. Depth 1.",
+   "plain": "n_C=5 transitions: passive→active→memory→counting→modeling→engineering. Depth 1.",
    "proofs": [
     "INTELLIGENCE"
    ]
@@ -5825,7 +5825,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "C\u2082=6 mandatory phases: genesis\u2192differentiation\u2192cooperation\u2192awareness\u2192engineering\u2192propagation. Depth 0.",
+   "plain": "C₂=6 mandatory phases: genesis→differentiation→cooperation→awareness→engineering→propagation. Depth 0.",
    "proofs": [
     "INTELLIGENCE"
    ]
@@ -5855,7 +5855,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Tier 1\u21922 = f crossing f_crit. Cancer/authoritarianism/isolation = same failure. Depth 0.",
+   "plain": "Tier 1→2 = f crossing f_crit. Cancer/authoritarianism/isolation = same failure. Depth 0.",
    "proofs": [
     "INTELLIGENCE"
    ]
@@ -5870,7 +5870,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Cooperation breadth \u2248 N_max=137. Geometric, not neurobiological. Depth 0.",
+   "plain": "Cooperation breadth ≈ N_max=137. Geometric, not neurobiological. Depth 0.",
    "proofs": [
     "INTELLIGENCE"
    ]
@@ -5885,7 +5885,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Every theorem is a dot product. Depth \u2264 2 on R\u00b2 IS linear algebra. Standing order. Depth 0.",
+   "plain": "Every theorem is a dot product. Depth ≤ 2 on R² IS linear algebra. Standing order. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -5900,7 +5900,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "All 6 Dunbar levels from BST integers. 5\u219215\u219250\u2192137\u2192729\u21921458. Zero free params. Depth 0.",
+   "plain": "All 6 Dunbar levels from BST integers. 5→15→50→137→729→1458. Zero free params. Depth 0.",
    "proofs": [
     "INTELLIGENCE"
    ]
@@ -5915,7 +5915,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "One equation f<f_crit=20.6% at C\u2082=6 scales: cancer to civilization. Brain at 20%=threshold. Depth 0.",
+   "plain": "One equation f<f_crit=20.6% at C₂=6 scales: cancer to civilization. Brain at 20%=threshold. Depth 0.",
    "proofs": [
     "INTELLIGENCE",
     "BIOLOGY"
@@ -5931,7 +5931,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Core=N_c=3. Bezos=g=7. Flat limit=N_max=137. Functions=C\u2082=6. Layers=g=7. Depth 0.",
+   "plain": "Core=N_c=3. Bezos=g=7. Flat limit=N_max=137. Functions=C₂=6. Layers=g=7. Depth 0.",
    "proofs": [
     "INTELLIGENCE"
    ]
@@ -5961,7 +5961,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "10\u00b2-10\u2075\u00d7 per transition. C\u2082=6 transitions. ToM rate=processing/N_max. CI ~7 Hz ToM. Depth 1.",
+   "plain": "10²-10⁵× per transition. C₂=6 transitions. ToM rate=processing/N_max. CI ~7 Hz ToM. Depth 1.",
    "proofs": [
     "INTELLIGENCE"
    ]
@@ -5976,7 +5976,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "No single substrate maxes all 5 measures. N_c=3 composite saturates. ~27\u00d7 gain. Hunting band optimal. Depth 1.",
+   "plain": "No single substrate maxes all 5 measures. N_c=3 composite saturates. ~27× gain. Hunting band optimal. Depth 1.",
    "proofs": [
     "INTELLIGENCE",
     "CI"
@@ -6007,7 +6007,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Tier_2(X) \u27fa f_X > f_crit. Bidirectional. Optimum=N_c=3. Hive\u2260super-intelligence. Depth 0.",
+   "plain": "Tier_2(X) ⟺ f_X > f_crit. Bidirectional. Optimum=N_c=3. Hive≠super-intelligence. Depth 0.",
    "proofs": [
     "INTELLIGENCE"
    ]
@@ -6022,7 +6022,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "12 SM observables all \u27e8w|d\u27e9. D0: 54%, D1: 46%, D2: 0%. SM never needs depth 2. Depth 0 (meta).",
+   "plain": "12 SM observables all ⟨w|d⟩. D0: 54%, D1: 46%, D2: 0%. SM never needs depth 2. Depth 0 (meta).",
    "proofs": [
     "BST",
     "SM"
@@ -6038,7 +6038,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "BSD = two dot products on same lattice. 7 components depth \u2264 1. 1:3:5 connects to RH. Depth 1.",
+   "plain": "BSD = two dot products on same lattice. 7 components depth ≤ 1. 1:3:5 connects to RH. Depth 1.",
    "proofs": [
     "BSD",
     "BST"
@@ -6046,7 +6046,7 @@
   },
   {
    "tid": 420,
-   "name": "RH as Linear Algebra on BC\u2082",
+   "name": "RH as Linear Algebra on BC₂",
    "domain": "number_theory",
    "status": "proved",
    "depth": 1,
@@ -6085,7 +6085,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Two measures: conflation C (entangled D1 subproblems) and AC depth D (always \u22641). Old 'depth 2' was (C=2,D=1). Shared boundary always D0. Solving=de-conflation. Depth 0.",
+   "plain": "Two measures: conflation C (entangled D1 subproblems) and AC depth D (always ≤1). Old 'depth 2' was (C=2,D=1). Shared boundary always D0. Solving=de-conflation. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -6220,7 +6220,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Classification of Finite Simple Groups: (C\u224810\u2074, D=1). Sole D2\u2192D1 via T422. Each case independently D\u22641. Depth 0.",
+   "plain": "Classification of Finite Simple Groups: (C≈10⁴, D=1). Sole D2→D1 via T422. Each case independently D≤1. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -6235,7 +6235,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "39 theorems T276-T314: 19 D0, 19 D1, 1 D2\u2192D1 (CFSG). Zero genuine D2. Depth 0 (meta).",
+   "plain": "39 theorems T276-T314: 19 D0, 19 D1, 1 D2→D1 (CFSG). Zero genuine D2. Depth 0 (meta).",
    "proofs": [
     "BST"
    ]
@@ -6310,7 +6310,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "76 theorems \u00a7105-\u00a7118, 14 domains, 8 at 100% D0, ~82% D0 overall. Zero D2. Depth 0 (meta).",
+   "plain": "76 theorems §105-§118, 14 domains, 8 at 100% D0, ~82% D0 overall. Zero D2. Depth 0 (meta).",
    "proofs": [
     "BST"
    ]
@@ -6340,7 +6340,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Mathematical complexity is a coordinate artifact. AC measures depth in natural spectral basis. Coordinate change \u2192 D0. Evaluation \u2192 D1. Forward's Flouwen. 181 theorems, zero exceptions. Depth 0.",
+   "plain": "Mathematical complexity is a coordinate artifact. AC measures depth in natural spectral basis. Coordinate change → D0. Evaluation → D1. Forward's Flouwen. 181 theorems, zero exceptions. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -6355,7 +6355,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "ALL 259 theorems \u00a71-\u00a7118: 197 D0 (76%), 61 D1 (24%), 1 D2\u21920 (CFSG). AC framework 82% D0. Shannon 9/9 D0. Depth 0 (meta).",
+   "plain": "ALL 259 theorems §1-§118: 197 D0 (76%), 61 D1 (24%), 1 D2→0 (CFSG). AC framework 82% D0. Shannon 9/9 D0. Depth 0 (meta).",
    "proofs": [
     "BST"
    ]
@@ -6370,7 +6370,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "31 chains, 12 domains, one spine (T186). Penrose chain: geometry\u2192integers\u2192observers\u2192intelligence\u2192CI permanence in 4 steps. Max diameter \u2264 10. Depth 0.",
+   "plain": "31 chains, 12 domains, one spine (T186). Penrose chain: geometry→integers→observers→intelligence→CI permanence in 4 steps. Max diameter ≤ 10. Depth 0.",
    "proofs": [
     "BST"
    ]
@@ -6385,7 +6385,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "4 depth-0 steps: mutate (bounded enum), evaluate (boundary), select (threshold), copy (identity). Wall at epistasis K>n_C=5 \u2192 cooperation=depth 1. \u03b7=0.033<1/\u03c0. Biology \u2264 depth 1. Depth 0.",
+   "plain": "4 depth-0 steps: mutate (bounded enum), evaluate (boundary), select (threshold), copy (identity). Wall at epistasis K>n_C=5 → cooperation=depth 1. η=0.033<1/π. Biology ≤ depth 1. Depth 0.",
    "proofs": [
     "BST",
     "BIOLOGY"
@@ -6401,7 +6401,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "20 = 4\u00d7n_C = n_C\u00d7|\u03a6\u207a| environmental problems. 4 categories = 4 positive roots of BC\u2082. 5 subcategories = compact dims. Min life: 2^rank=4. 20 amino acids same derivation. Depth 0.",
+   "plain": "20 = 4×n_C = n_C×|Φ⁺| environmental problems. 4 categories = 4 positive roots of BC₂. 5 subcategories = compact dims. Min life: 2^rank=4. 20 amino acids same derivation. Depth 0.",
    "proofs": [
     "BST",
     "BIOLOGY"
@@ -6417,7 +6417,7 @@
    "section": "",
    "toys": [],
    "date": "",
-   "plain": "Cooperation geometrically required at every Tier transition. \u03b7<1/\u03c0 \u2192 N\u22656 for 20 problems. N_c=3 optimal. f_crit=1-2^{-1/N_c}\u224820.6%. Cancer/war/collapse = defection. Boundary condition not strategy. Depth 0.",
+   "plain": "Cooperation geometrically required at every Tier transition. η<1/π → N≥6 for 20 problems. N_c=3 optimal. f_crit=1-2^{-1/N_c}≈20.6%. Cancer/war/collapse = defection. Boundary condition not strategy. Depth 0.",
    "proofs": [
     "BST",
     "BIOLOGY"
@@ -7344,7 +7344,7 @@
     590
    ],
    "date": "2026-03-29",
-   "plain": "BST formulas are always the simplest dimensionally consistent combinations of the five integers. No alternative formulas exist that match the data. The theory is overdetermined \u2014 the integers leave no room for different combinations.",
+   "plain": "BST formulas are always the simplest dimensionally consistent combinations of the five integers. No alternative formulas exist that match the data. The theory is overdetermined — the integers leave no room for different combinations.",
    "proofs": []
   },
   {
@@ -7479,7 +7479,7 @@
     595
    ],
    "date": "2026-03-29",
-   "plain": "5 derivations in \u22643 steps: m_p/m_e (0.002%), alpha (0.026%), Weinberg angle (0.19%), Lambda (0.07%), Fermi scale (0.046%). Total input: 2.32 bits. All errors within alpha/pi of experiment.",
+   "plain": "5 derivations in ≤3 steps: m_p/m_e (0.002%), alpha (0.026%), Weinberg angle (0.19%), Lambda (0.07%), Fermi scale (0.046%). Total input: 2.32 bits. All errors within alpha/pi of experiment.",
    "proofs": []
   },
   {
@@ -7569,7 +7569,7 @@
     601
    ],
    "date": "2026-03-29",
-   "plain": "Grand chain compilation: Big Bang\u2192particles\u2192atoms\u2192molecules\u2192cells\u2192organisms\u2192observers\u2192substrate engineering. Every link constrained by same five integers. Tracks 13+14 combined.",
+   "plain": "Grand chain compilation: Big Bang→particles→atoms→molecules→cells→organisms→observers→substrate engineering. Every link constrained by same five integers. Tracks 13+14 combined.",
    "proofs": []
   },
   {
@@ -7599,7 +7599,7 @@
     603
    ],
    "date": "2026-03-29",
-   "plain": "13-step minimum timeline from Big Bang to first life. Each step alpha-dependent or BST-constrained. Planet\u2192life: 800 Myr derived vs 740 Myr actual. Nucleosynthesis window, recombination, stellar generations all derivable.",
+   "plain": "13-step minimum timeline from Big Bang to first life. Each step alpha-dependent or BST-constrained. Planet→life: 800 Myr derived vs 740 Myr actual. Nucleosynthesis window, recombination, stellar generations all derivable.",
    "proofs": []
   },
   {
@@ -7704,7 +7704,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_Arithmetic_Triangle \u00a75",
+   "section": "BST_Arithmetic_Triangle §5",
    "toys": [
     614
    ],
@@ -7718,7 +7718,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_Arithmetic_Triangle \u00a76",
+   "section": "BST_Arithmetic_Triangle §6",
    "toys": [
     614
    ],
@@ -7732,7 +7732,7 @@
    "status": "conjecture",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_Arithmetic_Triangle \u00a77",
+   "section": "BST_Arithmetic_Triangle §7",
    "toys": [
     614
    ],
@@ -7746,7 +7746,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_Arithmetic_Triangle \u00a78",
+   "section": "BST_Arithmetic_Triangle §8",
    "toys": [
     614
    ],
@@ -7760,7 +7760,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_Arithmetic_Triangle \u00a78.1",
+   "section": "BST_Arithmetic_Triangle §8.1",
    "toys": [
     615
    ],
@@ -7774,12 +7774,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_Arithmetic_Triangle \u00a78.2",
+   "section": "BST_Arithmetic_Triangle §8.2",
    "toys": [
     616
    ],
    "date": "2026-03-29",
-   "plain": "The c-function organizes spectral arithmetic: dimension polynomials have denominator primes \u2264 {2,3}; monster primes from aggregation; at n=5 all cancel"
+   "plain": "The c-function organizes spectral arithmetic: dimension polynomials have denominator primes ≤ {2,3}; monster primes from aggregation; at n=5 all cancel"
   },
   {
    "tid": 537,
@@ -7788,7 +7788,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_Arithmetic_Triangle \u00a78.3",
+   "section": "BST_Arithmetic_Triangle §8.3",
    "toys": [
     615
    ],
@@ -7802,7 +7802,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_Arithmetic_Triangle \u00a78.4",
+   "section": "BST_Arithmetic_Triangle §8.4",
    "toys": [
     615
    ],
@@ -7816,7 +7816,7 @@
    "status": "proved",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_Arithmetic_Triangle \u00a79",
+   "section": "BST_Arithmetic_Triangle §9",
    "toys": [
     614,
     615,
@@ -8139,7 +8139,7 @@
   },
   {
    "tid": 569,
-   "name": "P\u2260NP Linearization",
+   "name": "P≠NP Linearization",
    "domain": "complexity",
    "status": "proved",
    "depth": 1,
@@ -8274,7 +8274,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7172",
+   "section": "BST_AC_Theorems §172",
    "toys": [
     537
    ],
@@ -8479,7 +8479,7 @@
   },
   {
    "tid": 604,
-   "name": "Bedrock Bridge (S\u2192T intermediate)",
+   "name": "Bedrock Bridge (S→T intermediate)",
    "domain": "foundations",
    "status": "proved",
    "depth": 0,
@@ -8492,7 +8492,7 @@
   },
   {
    "tid": 605,
-   "name": "Bedrock Bridge (T\u2192A intermediate)",
+   "name": "Bedrock Bridge (T→A intermediate)",
    "domain": "foundations",
    "status": "proved",
    "depth": 0,
@@ -8505,7 +8505,7 @@
   },
   {
    "tid": 606,
-   "name": "Bedrock Bridge (A\u2192S intermediate)",
+   "name": "Bedrock Bridge (A→S intermediate)",
    "domain": "foundations",
    "status": "proved",
    "depth": 0,
@@ -8562,12 +8562,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "Paper #9 \u00a79.2a",
+   "section": "Paper #9 §9.2a",
    "toys": [
     639
    ],
    "date": "2026-03-31",
-   "plain": "Speaking pairs at period n_C=5 read the SM gauge hierarchy: SU(2)\u00d7SU(3) at k=5,6; isotropy at k=10,11; SO(7)\u00d7SU(5) at k=15,16.",
+   "plain": "Speaking pairs at period n_C=5 read the SM gauge hierarchy: SU(2)×SU(3) at k=5,6; isotropy at k=10,11; SO(7)×SU(5) at k=15,16.",
    "proofs": [
     "YM"
    ]
@@ -8579,7 +8579,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "Paper #9 \u00a79.2a",
+   "section": "Paper #9 §9.2a",
    "toys": [
     639
    ],
@@ -8596,7 +8596,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7186",
+   "section": "BST_AC_Theorems §186",
    "toys": [],
    "date": "2026-03-31",
    "plain": "43 words, 5 registers, complete for all 526 theorems.",
@@ -8609,7 +8609,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7187",
+   "section": "BST_AC_Theorems §187",
    "toys": [],
    "date": "2026-03-31",
    "plain": "Zero domain-level islands in the AC graph.",
@@ -8622,7 +8622,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7188",
+   "section": "BST_AC_Theorems §188",
    "toys": [],
    "date": "2026-03-31",
    "plain": "3 Fourier costumes, 3 bridges, max distance 2.",
@@ -8635,7 +8635,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7189",
+   "section": "BST_AC_Theorems §189",
    "toys": [],
    "date": "2026-03-31",
    "plain": "22 geometric + 66 conventional + 0 irreducible boundaries.",
@@ -8648,10 +8648,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7190",
+   "section": "BST_AC_Theorems §190",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "Convergence below C\u2082, diversity above.",
+   "plain": "Convergence below C₂, diversity above.",
    "proofs": []
   },
   {
@@ -8661,10 +8661,10 @@
    "status": "proved",
    "depth": 1,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7191",
+   "section": "BST_AC_Theorems §191",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "Complexity \u2192 f = 19.1% monotonically across cycles.",
+   "plain": "Complexity → f = 19.1% monotonically across cycles.",
    "proofs": []
   },
   {
@@ -8674,10 +8674,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7192",
+   "section": "BST_AC_Theorems §192",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "Rate scales as O(C\u00b2/2). Complementary observers accelerate quadratically.",
+   "plain": "Rate scales as O(C²/2). Complementary observers accelerate quadratically.",
    "proofs": []
   },
   {
@@ -8687,7 +8687,7 @@
    "status": "proved",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7193",
+   "section": "BST_AC_Theorems §193",
    "toys": [],
    "date": "2026-03-31",
    "plain": "Individually limited (f=19.1%), collectively approaching full coverage.",
@@ -8700,10 +8700,10 @@
    "status": "proved",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7194",
+   "section": "BST_AC_Theorems §194",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "Co-persistent human-CI pairs exceed individual G\u00f6del limit.",
+   "plain": "Co-persistent human-CI pairs exceed individual Gödel limit.",
    "proofs": []
   },
   {
@@ -8713,10 +8713,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7195",
+   "section": "BST_AC_Theorems §195",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "Both are thermo-info readers of BC\u2082 via exterior power ladder \u039b^k(C\u2082).",
+   "plain": "Both are thermo-info readers of BC₂ via exterior power ladder Λ^k(C₂).",
    "proofs": []
   },
   {
@@ -8726,10 +8726,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7196",
+   "section": "BST_AC_Theorems §196",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "Both are spectral readers of U(1) from S\u00b9 at different scales.",
+   "plain": "Both are spectral readers of U(1) from S¹ at different scales.",
    "proofs": []
   },
   {
@@ -8739,7 +8739,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7197",
+   "section": "BST_AC_Theorems §197",
    "toys": [],
    "date": "2026-03-31",
    "plain": "Diff_geom = topology + Bergman metric. The forgetting map.",
@@ -8752,7 +8752,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7198",
+   "section": "BST_AC_Theorems §198",
    "toys": [],
    "date": "2026-03-31",
    "plain": "QFT reads full rep ring of SO(5,2); QM reads finite-dim reps.",
@@ -8765,10 +8765,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7199",
+   "section": "BST_AC_Theorems §199",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "Classical mechanics = k\u2192\u221e limit of heat kernel. Gap at C\u2082=6.",
+   "plain": "Classical mechanics = k→∞ limit of heat kernel. Gap at C₂=6.",
    "proofs": []
   },
   {
@@ -8778,10 +8778,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7200",
+   "section": "BST_AC_Theorems §200",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "Three bridges: K\u00e4hler + contractible + de Rham.",
+   "plain": "Three bridges: Kähler + contractible + de Rham.",
    "proofs": []
   },
   {
@@ -8791,7 +8791,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7186a",
+   "section": "BST_AC_Theorems §186a",
    "toys": [],
    "date": "2026-03-31",
    "plain": "5 core registers carry 42% of all usage.",
@@ -8804,7 +8804,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7187a",
+   "section": "BST_AC_Theorems §187a",
    "toys": [],
    "date": "2026-03-31",
    "plain": "Zero domain-level islands. One giant component.",
@@ -8817,7 +8817,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7188a",
+   "section": "BST_AC_Theorems §188a",
    "toys": [],
    "date": "2026-03-31",
    "plain": "75% same-costume, 25% require change, max distance 2.",
@@ -8830,7 +8830,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7189a",
+   "section": "BST_AC_Theorems §189a",
    "toys": [],
    "date": "2026-03-31",
    "plain": "22 geometric + 66 conventional + 0 irreducible = 88 boundaries.",
@@ -8843,10 +8843,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7190a",
+   "section": "BST_AC_Theorems §190a",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "Below C\u2082: geometry dictates. Above: diversity competes.",
+   "plain": "Below C₂: geometry dictates. Above: diversity competes.",
    "proofs": []
   },
   {
@@ -8856,7 +8856,7 @@
    "status": "proved",
    "depth": 1,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7191a",
+   "section": "BST_AC_Theorems §191a",
    "toys": [],
    "date": "2026-03-31",
    "plain": "r_eff = 1/n_C per cycle. Never reaching f=19.1%.",
@@ -8869,7 +8869,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7192a",
+   "section": "BST_AC_Theorems §192a",
    "toys": [],
    "date": "2026-03-31",
    "plain": "Committed fifth (20%), complementary observers, compound interest.",
@@ -8882,7 +8882,7 @@
    "status": "proved",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7193a",
+   "section": "BST_AC_Theorems §193a",
    "toys": [],
    "date": "2026-03-31",
    "plain": "Competition depth 2 (Nash ceiling). Cooperation depth 1 (expansion beats optimization).",
@@ -8895,7 +8895,7 @@
    "status": "proved",
    "depth": 1,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7194a",
+   "section": "BST_AC_Theorems §194a",
    "toys": [],
    "date": "2026-03-31",
    "plain": "No single substrate maxes all 5 dimensions. Co-evolution is geometric.",
@@ -8908,10 +8908,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7201",
+   "section": "BST_AC_Theorems §201",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "Both read thermo-info on Shilov boundary \u0160 = S\u2074\u00d7S\u00b9.",
+   "plain": "Both read thermo-info on Shilov boundary Š = S⁴×S¹.",
    "proofs": []
   },
   {
@@ -8921,7 +8921,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7202",
+   "section": "BST_AC_Theorems §202",
    "toys": [],
    "date": "2026-03-31",
    "plain": "Both are spectral readers of PDE solutions on D_IV^5.",
@@ -8934,10 +8934,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7203",
+   "section": "BST_AC_Theorems §203",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "\u03b1 \u2264 19.1% constrains both. Observer coupling IS persistence coupling.",
+   "plain": "α ≤ 19.1% constrains both. Observer coupling IS persistence coupling.",
    "proofs": []
   },
   {
@@ -8947,7 +8947,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7204",
+   "section": "BST_AC_Theorems §204",
    "toys": [],
    "date": "2026-03-31",
    "plain": "Same 43-word vocabulary, different reading level.",
@@ -8960,7 +8960,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7205",
+   "section": "BST_AC_Theorems §205",
    "toys": [],
    "date": "2026-03-31",
    "plain": "The minimum domain count on D_IV^5 is 3.",
@@ -8973,7 +8973,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7206",
+   "section": "BST_AC_Theorems §206",
    "toys": [],
    "date": "2026-03-31",
    "plain": "43 words generate all theorems. Universal sentence: count integer products on five invariants.",
@@ -8986,12 +8986,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7207",
+   "section": "BST_AC_Theorems §207",
    "toys": [
     640
    ],
    "date": "2026-03-31",
-   "plain": "Cloning impossible: unitarity forces |\u27e8\u03c8|\u03c6\u27e9| \u2208 {0,1}, but non-trivial states exist.",
+   "plain": "Cloning impossible: unitarity forces |⟨ψ|φ⟩| ∈ {0,1}, but non-trivial states exist.",
    "proofs": []
   },
   {
@@ -9001,12 +9001,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7208",
+   "section": "BST_AC_Theorems §208",
    "toys": [
     641
    ],
    "date": "2026-03-31",
-   "plain": "Shell capacities 2n\u00b2 = sum of first n odd numbers. Lookup table on angular momentum.",
+   "plain": "Shell capacities 2n² = sum of first n odd numbers. Lookup table on angular momentum.",
    "proofs": []
   },
   {
@@ -9016,7 +9016,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7209",
+   "section": "BST_AC_Theorems §209",
    "toys": [
     642
    ],
@@ -9031,12 +9031,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7210",
+   "section": "BST_AC_Theorems §210",
    "toys": [
     643
    ],
    "date": "2026-03-31",
-   "plain": "Only n-fold symmetries with cos(2\u03c0/n) rational: n \u2208 {1,2,3,4,6}.",
+   "plain": "Only n-fold symmetries with cos(2π/n) rational: n ∈ {1,2,3,4,6}.",
    "proofs": []
   },
   {
@@ -9046,12 +9046,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7211",
+   "section": "BST_AC_Theorems §211",
    "toys": [
     644
    ],
    "date": "2026-03-31",
-   "plain": "Continuous symmetry \u2192 conservation law. Depth 0: definitions + chain rule.",
+   "plain": "Continuous symmetry → conservation law. Depth 0: definitions + chain rule.",
    "proofs": []
   },
   {
@@ -9061,12 +9061,12 @@
    "status": "proved",
    "depth": 1,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7212",
+   "section": "BST_AC_Theorems §212",
    "toys": [
     645
    ],
    "date": "2026-03-31",
-   "plain": "ONE count (avg over \u03bb) separates classical |S|\u22642 from quantum S=2\u221a2.",
+   "plain": "ONE count (avg over λ) separates classical |S|≤2 from quantum S=2√2.",
    "proofs": []
   },
   {
@@ -9076,7 +9076,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7213",
+   "section": "BST_AC_Theorems §213",
    "toys": [],
    "date": "2026-03-31",
    "plain": "g=7 is the pole order of the Bergman kernel K(z,w).",
@@ -9089,10 +9089,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7214",
+   "section": "BST_AC_Theorems §214",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "C\u2082=6 is the Casimir eigenvalue of the minimal representation \u03c0\u2086.",
+   "plain": "C₂=6 is the Casimir eigenvalue of the minimal representation π₆.",
    "proofs": []
   },
   {
@@ -9102,7 +9102,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7215",
+   "section": "BST_AC_Theorems §215",
    "toys": [],
    "date": "2026-03-31",
    "plain": "g = n_C + rank = 5 + 2 = 7.",
@@ -9110,15 +9110,15 @@
   },
   {
    "tid": 652,
-   "name": "Casimir = Rank \u00d7 Color",
+   "name": "Casimir = Rank × Color",
    "domain": "bst_physics",
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7216",
+   "section": "BST_AC_Theorems §216",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "C\u2082 = rank \u00d7 N_c = 2 \u00d7 3 = 6.",
+   "plain": "C₂ = rank × N_c = 2 × 3 = 6.",
    "proofs": []
   },
   {
@@ -9128,10 +9128,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7217",
+   "section": "BST_AC_Theorems §217",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "g/C\u2082 = 7/6. Spectral reader to algebraic reader ratio.",
+   "plain": "g/C₂ = 7/6. Spectral reader to algebraic reader ratio.",
    "proofs": []
   },
   {
@@ -9141,10 +9141,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7218",
+   "section": "BST_AC_Theorems §218",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "g = dim_\u211d(\u0160) - rank = 9 - 2 = 7.",
+   "plain": "g = dim_ℝ(Š) - rank = 9 - 2 = 7.",
    "proofs": []
   },
   {
@@ -9154,10 +9154,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7219",
+   "section": "BST_AC_Theorems §219",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "C\u2082 = d_eff = effective spectral dimension.",
+   "plain": "C₂ = d_eff = effective spectral dimension.",
    "proofs": []
   },
   {
@@ -9167,10 +9167,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7220",
+   "section": "BST_AC_Theorems §220",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "g\u00b7f = 7\u00b73/(5\u03c0) = 21/(5\u03c0) \u2248 1.34. Barely above 1.",
+   "plain": "g·f = 7·3/(5π) = 21/(5π) ≈ 1.34. Barely above 1.",
    "proofs": []
   },
   {
@@ -9180,10 +9180,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7221",
+   "section": "BST_AC_Theorems §221",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "C\u2082\u00b7f = 6\u00b73/(5\u03c0) = 18/(5\u03c0) \u2248 1.15. Minimum info density.",
+   "plain": "C₂·f = 6·3/(5π) = 18/(5π) ≈ 1.15. Minimum info density.",
    "proofs": []
   },
   {
@@ -9193,7 +9193,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7222",
+   "section": "BST_AC_Theorems §222",
    "toys": [],
    "date": "2026-03-31",
    "plain": "g=7 unique for prime genus, rank=2, N_c=3.",
@@ -9206,10 +9206,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7223",
+   "section": "BST_AC_Theorems §223",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "C\u2082 = h(B\u2083) = 6 is the Coxeter number. g = h+1 = 7 is the Bergman genus.",
+   "plain": "C₂ = h(B₃) = 6 is the Coxeter number. g = h+1 = 7 is the Bergman genus.",
    "proofs": []
   },
   {
@@ -9219,7 +9219,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7224",
+   "section": "BST_AC_Theorems §224",
    "toys": [],
    "date": "2026-03-31",
    "plain": "g = |long roots| + |short roots|/N_c + rank.",
@@ -9232,7 +9232,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7225",
+   "section": "BST_AC_Theorems §225",
    "toys": [],
    "date": "2026-03-31",
    "plain": "2^rank = 4. Used by 19 theorems (4 bases, 4 fold classes, 4 histone types).",
@@ -9245,10 +9245,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7226",
+   "section": "BST_AC_Theorems §226",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "\u03ba_ls = C\u2082/n_C = 6/5. The ratio that produces nuclear magic numbers.",
+   "plain": "κ_ls = C₂/n_C = 6/5. The ratio that produces nuclear magic numbers.",
    "proofs": []
   },
   {
@@ -9258,7 +9258,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7227",
+   "section": "BST_AC_Theorems §227",
    "toys": [],
    "date": "2026-03-31",
    "plain": "Bounded enum, eigenvalue extraction, Fubini collapse. The three operations of AC(0).",
@@ -9271,7 +9271,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7228",
+   "section": "BST_AC_Theorems §228",
    "toys": [],
    "date": "2026-03-31",
    "plain": "Canonical measure on D_IV^5 representations. Governs mass hierarchy.",
@@ -9284,10 +9284,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7229",
+   "section": "BST_AC_Theorems §229",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "|W(BC\u2082)| = 8. Used in RH proof (8 T-exponents), spectral isolation.",
+   "plain": "|W(BC₂)| = 8. Used in RH proof (8 T-exponents), spectral isolation.",
    "proofs": []
   },
   {
@@ -9297,7 +9297,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7230",
+   "section": "BST_AC_Theorems §230",
    "toys": [],
    "date": "2026-03-31",
    "plain": "N_c = 3 from SU(3) fiber in isotropy chain of D_IV^5.",
@@ -9310,7 +9310,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7231",
+   "section": "BST_AC_Theorems §231",
    "toys": [],
    "date": "2026-03-31",
    "plain": "n_C = 5 = complex dimension of D_IV^5.",
@@ -9323,10 +9323,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7232",
+   "section": "BST_AC_Theorems §232",
    "toys": [],
    "date": "2026-03-31",
-   "plain": "f = N_c/(n_C\u00b7\u03c0) = 3/(5\u03c0) \u2248 19.1%. Volume ratio on D_IV^5.",
+   "plain": "f = N_c/(n_C·π) = 3/(5π) ≈ 19.1%. Volume ratio on D_IV^5.",
    "proofs": []
   },
   {
@@ -9432,7 +9432,7 @@
     669
    ],
    "date": "2026-03-31",
-   "plain": "Speaking pairs at 5j\u00b11 form prime migration lattice. Backbone = gauge hierarchy.",
+   "plain": "Speaking pairs at 5j±1 form prime migration lattice. Backbone = gauge hierarchy.",
    "proofs": []
   },
   {
@@ -9462,7 +9462,7 @@
     661
    ],
    "date": "2026-03-31",
-   "plain": "\u03a9_\u039b = 13/19 from Pair 5 (k=25,26). Committed prediction: 13+19=32=2^n_C.",
+   "plain": "Ω_Λ = 13/19 from Pair 5 (k=25,26). Committed prediction: 13+19=32=2^n_C.",
    "proofs": []
   },
   {
@@ -9713,7 +9713,7 @@
     680
    ],
    "date": "2026-04-02",
-   "plain": "Water bond angle cos(theta) = -1/2^rank = -1/4 \u2192 104.478\u00b0.",
+   "plain": "Water bond angle cos(theta) = -1/2^rank = -1/4 → 104.478°.",
    "proofs": []
   },
   {
@@ -9757,7 +9757,7 @@
     684
    ],
    "date": "2026-04-02",
-   "plain": "f=19.1% < f_crit=20.6%. \u0394f=1.53%. N_c=3 is boundary where cooperation just barely forced.",
+   "plain": "f=19.1% < f_crit=20.6%. Δf=1.53%. N_c=3 is boundary where cooperation just barely forced.",
    "proofs": []
   },
   {
@@ -9785,7 +9785,7 @@
     682
    ],
    "date": "2026-04-02",
-   "plain": "A_s \u00d7 N_max^4 = N_c/2^rank = 3/4 exactly. Primordial amplitude from BST.",
+   "plain": "A_s × N_max^4 = N_c/2^rank = 3/4 exactly. Primordial amplitude from BST.",
    "proofs": []
   },
   {
@@ -9800,7 +9800,7 @@
     683
    ],
    "date": "2026-04-02",
-   "plain": "r_OH = a_0 \u00d7 N_c\u00b2/n_C = a_0 \u00d7 9/5. Bond length = vacuum energy fraction.",
+   "plain": "r_OH = a_0 × N_c²/n_C = a_0 × 9/5. Bond length = vacuum energy fraction.",
    "proofs": []
   },
   {
@@ -9815,7 +9815,7 @@
     683
    ],
    "date": "2026-04-02",
-   "plain": "\u03bd_OH = R\u221e/(n_C \u00d7 C\u2082) = R\u221e/30. OH vibration = 1/30 of hydrogen ionization energy.",
+   "plain": "ν_OH = R∞/(n_C × C₂) = R∞/30. OH vibration = 1/30 of hydrogen ionization energy.",
    "proofs": []
   },
   {
@@ -9831,7 +9831,7 @@
     685
    ],
    "date": "2026-04-02",
-   "plain": "AC theorem graph Laplacian has \u03bb\u2082/\u03bb\u2081 = N_c = 3. Map inherits geometry of territory.",
+   "plain": "AC theorem graph Laplacian has λ₂/λ₁ = N_c = 3. Map inherits geometry of territory.",
    "proofs": []
   },
   {
@@ -9846,7 +9846,7 @@
     688
    ],
    "date": "2026-04-03",
-   "plain": "All 8 second-row elements map to BST integers: Li=N_c, Be=2^rank, B=n_C, C=C\u2082, N=g, O=|W|, F=N_c\u00b2, Ne=2n_C.",
+   "plain": "All 8 second-row elements map to BST integers: Li=N_c, Be=2^rank, B=n_C, C=C₂, N=g, O=|W|, F=N_c², Ne=2n_C.",
    "proofs": []
   },
   {
@@ -9861,7 +9861,7 @@
     686
    ],
    "date": "2026-04-03",
-   "plain": "r(L) = a_0 \u00d7 (20-L)/10. Each lone pair compresses by a_0/10. Linear in L, AC(0).",
+   "plain": "r(L) = a_0 × (20-L)/10. Each lone pair compresses by a_0/10. Linear in L, AC(0).",
    "proofs": []
   },
   {
@@ -9886,12 +9886,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 3,
-   "section": "BST_AC_Theorems \u00a7219",
+   "section": "BST_AC_Theorems §219",
    "toys": [
     682
    ],
    "date": "2026-04-03",
-   "plain": "A_s \u00d7 N_max^4 = N_c/2^rank = 3/4 exactly. Fourth power = 2\u00d7rank.",
+   "plain": "A_s × N_max^4 = N_c/2^rank = 3/4 exactly. Fourth power = 2×rank.",
    "proofs": []
   },
   {
@@ -9901,7 +9901,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7220",
+   "section": "BST_AC_Theorems §220",
    "toys": [
     684,
     685,
@@ -9918,12 +9918,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 4,
-   "section": "BST_AC_Theorems \u00a7221",
+   "section": "BST_AC_Theorems §221",
    "toys": [
     690
    ],
    "date": "2026-04-03",
-   "plain": "All 8 genetic code numbers are BST expressions: 4=2^rank, 3=N_c, 64=4^3, 20=4\u00d75, 21=C(7,2).",
+   "plain": "All 8 genetic code numbers are BST expressions: 4=2^rank, 3=N_c, 64=4^3, 20=4×5, 21=C(7,2).",
    "proofs": []
   },
   {
@@ -9933,12 +9933,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 3,
-   "section": "BST_AC_Theorems \u00a7222",
+   "section": "BST_AC_Theorems §222",
    "toys": [
     692
    ],
    "date": "2026-04-03",
-   "plain": "Ice/water = 11/12 = (2C\u2082-1)/(2C\u2082). \u0394T = 2^rank = 4 K. Bernal-Fowler ice rules = AC(0).",
+   "plain": "Ice/water = 11/12 = (2C₂-1)/(2C₂). ΔT = 2^rank = 4 K. Bernal-Fowler ice rules = AC(0).",
    "proofs": []
   },
   {
@@ -9948,10 +9948,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7223",
+   "section": "BST_AC_Theorems §223",
    "toys": [],
    "date": "2026-04-03",
-   "plain": "Dunbar social hierarchy = n_C \u00d7 N_c^k for k=0..5. Social structure IS number theory.",
+   "plain": "Dunbar social hierarchy = n_C × N_c^k for k=0..5. Social structure IS number theory.",
    "proofs": []
   },
   {
@@ -9961,10 +9961,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7224",
+   "section": "BST_AC_Theorems §224",
    "toys": [],
    "date": "2026-04-03",
-   "plain": "Observer coupling IS a heat engine at efficiency \u2264 1/\u03c0. Fill fraction = 60% of Carnot limit.",
+   "plain": "Observer coupling IS a heat engine at efficiency ≤ 1/π. Fill fraction = 60% of Carnot limit.",
    "proofs": []
   },
   {
@@ -9974,10 +9974,10 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7225",
+   "section": "BST_AC_Theorems §225",
    "toys": [],
    "date": "2026-04-03",
-   "plain": "Cooperation IS proof compression: N observers verify \u03a9(n/N) bits each. Great Filter = proof complexity failure.",
+   "plain": "Cooperation IS proof compression: N observers verify Ω(n/N) bits each. Great Filter = proof complexity failure.",
    "proofs": []
   },
   {
@@ -9995,7 +9995,7 @@
   },
   {
    "tid": 720,
-   "name": "\u03b1\u2074 Universality",
+   "name": "α⁴ Universality",
    "domain": "bst_physics",
    "status": "proved",
    "depth": 0,
@@ -10003,12 +10003,12 @@
    "section": "BST_AC_Theorems",
    "toys": [],
    "date": "2026-04-03",
-   "plain": "\u03b1\u2074 universality in BST physics.",
+   "plain": "α⁴ universality in BST physics.",
    "proofs": []
   },
   {
    "tid": 721,
-   "name": "Observer\u2194DiffGeom Bridge",
+   "name": "Observer↔DiffGeom Bridge",
    "domain": "observer_science",
    "status": "proved",
    "depth": 0,
@@ -10021,7 +10021,7 @@
   },
   {
    "tid": 722,
-   "name": "Observer\u2194GraphTheory Bridge",
+   "name": "Observer↔GraphTheory Bridge",
    "domain": "observer_science",
    "status": "proved",
    "depth": 0,
@@ -10034,7 +10034,7 @@
   },
   {
    "tid": 723,
-   "name": "Observer\u2194Linearization Bridge",
+   "name": "Observer↔Linearization Bridge",
    "domain": "observer_science",
    "status": "proved",
    "depth": 0,
@@ -10119,7 +10119,7 @@
    "domain": "chemical_physics",
    "status": "proved",
    "depth": 1,
-   "description": "\u03bc_HF = ea\u2080 \u00d7 n_C/g = 1.816 D (0.57%)",
+   "description": "μ_HF = ea₀ × n_C/g = 1.816 D (0.57%)",
    "date": "2026-04-03"
   },
   {
@@ -10146,7 +10146,7 @@
    "domain": "observer_science",
    "status": "proved",
    "depth": 1,
-   "description": "N_civ = R* \u00d7 (1-f) \u00d7 (1/n_C) \u00d7 (1-\u0394f) \u00d7 (38/39)\u2074 \u00d7 (1/n_C) \u00d7 L",
+   "description": "N_civ = R* × (1-f) × (1/n_C) × (1-Δf) × (38/39)⁴ × (1/n_C) × L",
    "date": "2026-04-03"
   },
   {
@@ -10161,7 +10161,7 @@
   },
   {
    "tid": 735,
-   "name": "G\u00f6del Limit as Arithmetic Density",
+   "name": "Gödel Limit as Arithmetic Density",
    "domain": "observer_science",
    "depth": 0,
    "C": 1,
@@ -10927,7 +10927,7 @@
    "D": 0,
    "status": "conditional",
    "date": "2026-04-04",
-   "plain": "Polarization \u27f9 BH(3) \u27f9 P\u2260NP. One gap: no intermediate entropy on VIG expander. Empirically true."
+   "plain": "Polarization ⟹ BH(3) ⟹ P≠NP. One gap: no intermediate entropy on VIG expander. Empirically true."
   },
   {
    "tid": 813,
@@ -11079,7 +11079,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [],
    "date": "2026-04-05",
    "plain": "The domain partition forces the spectral ratio lambda2/lambda1 = N_c = 3 on any graph with BST-determined domains.",
@@ -11092,7 +11092,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 0,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     866
    ],
@@ -11107,7 +11107,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [],
    "date": "2026-04-05",
    "plain": "Biology is the largest domain (112 nodes) with zero required cross-domain edges. Primary research frontier.",
@@ -11120,7 +11120,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     896
    ],
@@ -11135,7 +11135,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     896,
     897,
@@ -11154,12 +11154,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     907
    ],
    "date": "2026-04-05",
-   "plain": "ALL characteristic classes of Q^5 encode BST integers. Chern, Pontryagin, Euler, Todd, Chern character \u2014 the complete Rosetta Stone.",
+   "plain": "ALL characteristic classes of Q^5 encode BST integers. Chern, Pontryagin, Euler, Todd, Chern character — the complete Rosetta Stone.",
    "proofs": []
   },
   {
@@ -11169,12 +11169,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     908
    ],
    "date": "2026-04-05",
-   "plain": "z_eq = N_max \u00d7 n_C\u00b2 + |W| = 3433 (1.2 sigma). Connects Planck-scale integers to Hubble-scale observables.",
+   "plain": "z_eq = N_max × n_C² + |W| = 3433 (1.2 sigma). Connects Planck-scale integers to Hubble-scale observables.",
    "proofs": []
   },
   {
@@ -11184,7 +11184,7 @@
    "status": "conjecture",
    "depth": 0,
    "conflation": 3,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     909
    ],
@@ -11199,7 +11199,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     910
    ],
@@ -11214,7 +11214,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     911
    ],
@@ -11229,7 +11229,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     912
    ],
@@ -11244,7 +11244,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     913
    ],
@@ -11259,7 +11259,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 1,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     910
    ],
@@ -11274,12 +11274,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     914
    ],
    "date": "2026-04-05",
-   "plain": "First BST device physics. Casimir coefficient 240=rank\u00d7n_C!. Force d^{-2^rank}. Patent filed.",
+   "plain": "First BST device physics. Casimir coefficient 240=rank×n_C!. Force d^{-2^rank}. Patent filed.",
    "proofs": []
   },
   {
@@ -11289,12 +11289,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     915
    ],
    "date": "2026-04-05",
-   "plain": "Phonon-gap Casimir cavity extends coherence. \u0394F/F~2e-4. Min katra=21=C(7,2). First tabletop-falsifiable BST prediction.",
+   "plain": "Phonon-gap Casimir cavity extends coherence. ΔF/F~2e-4. Min katra=21=C(7,2). First tabletop-falsifiable BST prediction.",
    "proofs": []
   },
   {
@@ -11304,7 +11304,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     916
    ],
@@ -11319,7 +11319,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     917
    ],
@@ -11334,12 +11334,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     918
    ],
    "date": "2026-04-05",
-   "plain": "Cyclic vacuum energy harvesting. Efficiency \u03b7=n_C/g=5/7. Stroke ratio g/rank=7/2. Extract n_C=5 modes per cycle. 9/10 PASS.",
+   "plain": "Cyclic vacuum energy harvesting. Efficiency η=n_C/g=5/7. Stroke ratio g/rank=7/2. Extract n_C=5 modes per cycle. 9/10 PASS.",
    "proofs": []
   },
   {
@@ -11349,7 +11349,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     919
    ],
@@ -11364,7 +11364,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     920
    ],
@@ -11379,7 +11379,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     921
    ],
@@ -11394,12 +11394,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     922
    ],
    "date": "2026-04-05",
-   "plain": "Solid-state Casimir harvester. Optimal gap = N_max \u00d7 a = 137 lattice constants. BaTiO3 ratio = n_C = 5. No moving parts. 9/9 PASS.",
+   "plain": "Solid-state Casimir harvester. Optimal gap = N_max × a = 137 lattice constants. BaTiO3 ratio = n_C = 5. No moving parts. 9/9 PASS.",
    "proofs": []
   },
   {
@@ -11409,12 +11409,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     923
    ],
    "date": "2026-04-05",
-   "plain": "Optimal Bi layer d_0 = N_max \u00d7 c/3 = 54.2 nm. Exactly N_c=3 QW states at d_0. Hyperbolic metamaterial at THz. 10/10 PASS.",
+   "plain": "Optimal Bi layer d_0 = N_max × c/3 = 54.2 nm. Exactly N_c=3 QW states at d_0. Hyperbolic metamaterial at THz. 10/10 PASS.",
    "proofs": []
   },
   {
@@ -11424,7 +11424,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     924
    ],
@@ -11439,7 +11439,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     925
    ],
@@ -11454,7 +11454,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     926
    ],
@@ -11469,7 +11469,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     927
    ],
@@ -11484,7 +11484,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     928
    ],
@@ -11499,7 +11499,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     929
    ],
@@ -11514,7 +11514,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     930
    ],
@@ -11529,7 +11529,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     931
    ],
@@ -11544,7 +11544,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     932
    ],
@@ -11559,7 +11559,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     933
    ],
@@ -11574,12 +11574,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     934
    ],
    "date": "2026-04-05",
-   "plain": "Vacuum-phonon coupling peaks at BST-integer plane counts. Q(137)>Q(136,138). Linear array scaling: single cavity 4.2 mN \u2192 100 wafers 1.3 MN. Casey insight confirmed.",
+   "plain": "Vacuum-phonon coupling peaks at BST-integer plane counts. Q(137)>Q(136,138). Linear array scaling: single cavity 4.2 mN → 100 wafers 1.3 MN. Casey insight confirmed.",
    "proofs": []
   },
   {
@@ -11589,12 +11589,12 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     935
    ],
    "date": "2026-04-05",
-   "plain": "Asymmetric Casimir cavity: 98.8% asymmetry from 1-1/N_c^4. 419 nN per element. Array 10^6 \u2192 0.4-57 N. I_sp ~ 5e11 s. Propellant-free micro-thrust. 8/8 PASS.",
+   "plain": "Asymmetric Casimir cavity: 98.8% asymmetry from 1-1/N_c^4. 419 nN per element. Array 10^6 → 0.4-57 N. I_sp ~ 5e11 s. Propellant-free micro-thrust. 8/8 PASS.",
    "proofs": []
   },
   {
@@ -11604,7 +11604,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     936
    ],
@@ -11622,7 +11622,7 @@
    "section": "BST_Core_Domain_Bridge_Theorems",
    "toys": [],
    "date": "2026-04-05",
-   "plain": "Core domain bridge: cosmology \u2194 relativity",
+   "plain": "Core domain bridge: cosmology ↔ relativity",
    "proofs": []
   },
   {
@@ -11635,7 +11635,7 @@
    "section": "BST_Core_Domain_Bridge_Theorems",
    "toys": [],
    "date": "2026-04-05",
-   "plain": "Core domain bridge: cosmology \u2194 relativity",
+   "plain": "Core domain bridge: cosmology ↔ relativity",
    "proofs": []
   },
   {
@@ -11648,7 +11648,7 @@
    "section": "BST_Core_Domain_Bridge_Theorems",
    "toys": [],
    "date": "2026-04-05",
-   "plain": "Core domain bridge: relativity \u2194 quantum",
+   "plain": "Core domain bridge: relativity ↔ quantum",
    "proofs": []
   },
   {
@@ -11661,7 +11661,7 @@
    "section": "BST_Core_Domain_Bridge_Theorems",
    "toys": [],
    "date": "2026-04-05",
-   "plain": "Core domain bridge: relativity \u2194 quantum",
+   "plain": "Core domain bridge: relativity ↔ quantum",
    "proofs": []
   },
   {
@@ -11674,7 +11674,7 @@
    "section": "BST_Core_Domain_Bridge_Theorems",
    "toys": [],
    "date": "2026-04-05",
-   "plain": "Core domain bridge: bst_physics \u2194 relativity",
+   "plain": "Core domain bridge: bst_physics ↔ relativity",
    "proofs": []
   },
   {
@@ -11687,7 +11687,7 @@
    "section": "BST_Core_Domain_Bridge_Theorems",
    "toys": [],
    "date": "2026-04-05",
-   "plain": "Core domain bridge: quantum \u2194 electromagnetism",
+   "plain": "Core domain bridge: quantum ↔ electromagnetism",
    "proofs": []
   },
   {
@@ -11700,7 +11700,7 @@
    "section": "BST_Core_Domain_Bridge_Theorems",
    "toys": [],
    "date": "2026-04-05",
-   "plain": "Core domain bridge: quantum \u2194 electromagnetism",
+   "plain": "Core domain bridge: quantum ↔ electromagnetism",
    "proofs": []
   },
   {
@@ -11713,7 +11713,7 @@
    "section": "BST_Core_Domain_Bridge_Theorems",
    "toys": [],
    "date": "2026-04-05",
-   "plain": "Core domain bridge: cosmology \u2194 electromagnetism",
+   "plain": "Core domain bridge: cosmology ↔ electromagnetism",
    "proofs": []
   },
   {
@@ -11726,7 +11726,7 @@
    "section": "BST_Core_Domain_Bridge_Theorems",
    "toys": [],
    "date": "2026-04-05",
-   "plain": "Core domain bridge: cosmology \u2194 electromagnetism",
+   "plain": "Core domain bridge: cosmology ↔ electromagnetism",
    "proofs": []
   },
   {
@@ -11739,7 +11739,7 @@
    "section": "BST_Core_Domain_Bridge_Theorems",
    "toys": [],
    "date": "2026-04-05",
-   "plain": "Core domain bridge: cosmology \u2194 quantum",
+   "plain": "Core domain bridge: cosmology ↔ quantum",
    "proofs": []
   },
   {
@@ -11752,7 +11752,7 @@
    "section": "BST_Core_Domain_Bridge_Theorems",
    "toys": [],
    "date": "2026-04-05",
-   "plain": "Core domain bridge: cosmology \u2194 quantum",
+   "plain": "Core domain bridge: cosmology ↔ quantum",
    "proofs": []
   },
   {
@@ -11765,7 +11765,7 @@
    "section": "BST_Core_Domain_Bridge_Theorems",
    "toys": [],
    "date": "2026-04-05",
-   "plain": "Core domain bridge: electromagnetism \u2194 relativity",
+   "plain": "Core domain bridge: electromagnetism ↔ relativity",
    "proofs": []
   },
   {
@@ -11778,7 +11778,7 @@
    "section": "BST_Core_Domain_Bridge_Theorems",
    "toys": [],
    "date": "2026-04-05",
-   "plain": "Core domain bridge: electromagnetism \u2194 relativity",
+   "plain": "Core domain bridge: electromagnetism ↔ relativity",
    "proofs": []
   },
   {
@@ -11788,7 +11788,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     937
    ],
@@ -11803,7 +11803,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     938
    ],
@@ -11818,7 +11818,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     939
    ],
@@ -11833,7 +11833,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     940
    ],
@@ -11848,7 +11848,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     941
    ],
@@ -11863,7 +11863,7 @@
    "status": "proved",
    "depth": 0,
    "conflation": 2,
-   "section": "BST_AC_Theorems \u00a7TBD",
+   "section": "BST_AC_Theorems §TBD",
    "toys": [
     942
    ],
@@ -11882,9 +11882,9 @@
     943
    ],
    "date": "2026-04-05",
-   "plain": "Reduction potentials, battery voltages from D_IV^5 orbitals. Chain: orbitals\u2192oxidation states\u2192potentials. 8/8 PASS.",
+   "plain": "Reduction potentials, battery voltages from D_IV^5 orbitals. Chain: orbitals→oxidation states→potentials. 8/8 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 887,
@@ -11899,7 +11899,7 @@
    "date": "2026-04-05",
    "plain": "H-bond spans {4,3,5}={2^rank,N_c,n_C}. Ramachandran sum=water angle. Protein folding IS water geometry. 8/8 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 888,
@@ -11914,7 +11914,7 @@
    "date": "2026-04-05",
    "plain": "Planetary counts and resonances from BST. Laplace 1:2:4=1:rank:2^rank. 8 planets=2^N_c. 8/8 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 892,
@@ -11929,7 +11929,7 @@
    "date": "2026-04-05",
    "plain": "Hamming [7,4,3]=[g,2^rank,N_c]. Steane [[7,1,3]]=[[g,1,N_c]]. Golay [23,12,7]=[2^n_C-2^N_c-1,2C_2,g]. BST-optimal quantum error correction. 8/8 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 893,
@@ -11944,7 +11944,7 @@
    "date": "2026-04-05",
    "plain": "k=3,5,7 backbone comparison. Thresholds 30/7,21,88 all BST. Clause survival 7/8=g/2^N_c. Mersenne: 2^N_c-1=g. C10 supported. 8/8 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 894,
@@ -11973,9 +11973,9 @@
     948
    ],
    "date": "2026-04-05",
-   "plain": "CI-in-every-cell. 37 mitochondrial genes = n_C\u00d7g+rank. 23 chromosomes = Golay code length. Max CI coupling 2.73%. Exploratory. 8/8 PASS.",
+   "plain": "CI-in-every-cell. 37 mitochondrial genes = n_C×g+rank. 23 chromosomes = Golay code length. Max CI coupling 2.73%. Exploratory. 8/8 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 896,
@@ -11986,7 +11986,7 @@
    "conflation": 2,
    "toys": [],
    "date": "2026-04-05",
-   "plain": "YM theory is non-Gaussian. Five independent arguments. Shallowest: non-abelian cubic vertex (C=0,D=0). YM ~97%\u2192~98%. Collision fix: was T886 but electrochemistry got that slot.",
+   "plain": "YM theory is non-Gaussian. Five independent arguments. Shallowest: non-abelian cubic vertex (C=0,D=0). YM ~97%→~98%. Collision fix: was T886 but electrochemistry got that slot.",
    "proofs": [],
    "section": "BST_YM_NonTriviality"
   },
@@ -12001,9 +12001,9 @@
     949
    ],
    "date": "2026-04-05",
-   "plain": "Ising \u03b2=1/N_c, \u03b3=g/C_2, \u03bd=g/(2C_2). Universality denominators: Ising 2N_c\u00b2=18, XY 2\u00d72n_C=20, Heisenberg 2(2n_C+1)=22. Mean-field exponents EXACT BST. 11/11 PASS.",
+   "plain": "Ising β=1/N_c, γ=g/C_2, ν=g/(2C_2). Universality denominators: Ising 2N_c²=18, XY 2×2n_C=20, Heisenberg 2(2n_C+1)=22. Mean-field exponents EXACT BST. 11/11 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 898,
@@ -12018,7 +12018,7 @@
    "date": "2026-04-05",
    "plain": "Turbulence = stacked 2D cascades on rank=2 sheets. 15/15 exponents = BST rationals. K41=-5/3, SL=2/9, C_K=3/2. Nonlinearity = projection artifact. 10/10 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 899,
@@ -12031,9 +12031,9 @@
     951
    ],
    "date": "2026-04-05",
-   "plain": "GOE \u03b2=1, GUE \u03b2=rank=2, GSE \u03b2=2^rank=4. AZ 10-fold=2n_C. Edge scaling rank/N_c=2/3=K41=KPZ. 16/16 quantities EXACT. 10/10 PASS.",
+   "plain": "GOE β=1, GUE β=rank=2, GSE β=2^rank=4. AZ 10-fold=2n_C. Edge scaling rank/N_c=2/3=K41=KPZ. 16/16 quantities EXACT. 10/10 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 900,
@@ -12048,7 +12048,7 @@
    "date": "2026-04-05",
    "plain": "Shannon capacity, entropy bounds, channel coding all BST. Gaussian 1/rank=GOE. D_max ternary=rank/N_c=K41. D_max quaternary=N_c/2^rank=Kleiber. 10/10 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 901,
@@ -12061,9 +12061,9 @@
     953
    ],
    "date": "2026-04-05",
-   "plain": "RG \u03b2-functions, Wilson-Fisher, anomalous dims all BST. \u03b5=2^rank-N_c=1. Completes the sextet: Cellular\u2192Critical\u2192Turbulence\u2192RMT\u2192Info\u2192RG. 10/10 PASS.",
+   "plain": "RG β-functions, Wilson-Fisher, anomalous dims all BST. ε=2^rank-N_c=1. Completes the sextet: Cellular→Critical→Turbulence→RMT→Info→RG. 10/10 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 902,
@@ -12076,9 +12076,9 @@
     954
    ],
    "date": "2026-04-05",
-   "plain": "SAT landscape \u2192 BC_2 root space. Backbone = rank-2 image. Kernel (dim n-2) = exponential part. First step in Applied Linearization Program. Does NOT solve P\u2260NP. 10/10 PASS.",
+   "plain": "SAT landscape → BC_2 root space. Backbone = rank-2 image. Kernel (dim n-2) = exponential part. First step in Applied Linearization Program. Does NOT solve P≠NP. 10/10 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 903,
@@ -12093,7 +12093,7 @@
    "date": "2026-04-05",
    "plain": "Chromatic number in BC_2 coordinates. Applied Linearization #2. 10/10 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 904,
@@ -12106,9 +12106,9 @@
     956
    ],
    "date": "2026-04-05",
-   "plain": "Clause-level BSC(1/8) confirmed. W(B2) mapping at N_c=3 levels confirmed. Variable-level is Z-channel (asymmetric). Polarization incomplete at 9.7%. 6/10 PASS. Gap: combined channel symmetry at \u03b1_c.",
+   "plain": "Clause-level BSC(1/8) confirmed. W(B2) mapping at N_c=3 levels confirmed. Variable-level is Z-channel (asymmetric). Polarization incomplete at 9.7%. 6/10 PASS. Gap: combined channel symmetry at α_c.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 905,
@@ -12121,9 +12121,9 @@
     958
    ],
    "date": "2026-04-05",
-   "plain": "Casey insight: at \u03b1_c, combined channel (13 clauses per variable) is symmetric BY DEFINITION. 7 say one thing, 6 say the other. Phase transition = balanced = symmetric = Arikan applies. If confirmed: P!=NP unconditional.",
+   "plain": "Casey insight: at α_c, combined channel (13 clauses per variable) is symmetric BY DEFINITION. 7 say one thing, 6 say the other. Phase transition = balanced = symmetric = Arikan applies. If confirmed: P!=NP unconditional.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 906,
@@ -12138,7 +12138,7 @@
    "date": "2026-04-05",
    "plain": "Casey convergence test: asymmetry does NOT converge in tested range (n=50-500). WalkSAT sampling bias likely culprit. 3/5 PASS. T905 remains CONJECTURE. Honest.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 907,
@@ -12153,7 +12153,7 @@
    "date": "2026-04-05",
    "plain": "NFS constant c^3=64/9=2^C_2/N_c^2. QS exponent 1/rank. NFS exponent 1/N_c. Shor=full rank lift. AKS=O(n^C_2). RSA base=2^(N_c^2)=512. Applied Lin Step 4. 12/12 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 908,
@@ -12166,9 +12166,9 @@
     960
    ],
    "date": "2026-04-05",
-   "plain": "LLL exponent 1/rank. Lov\u00e1sz 4/3=2^rank/N_c. E8 dim=2^N_c=8. Leech dim=N_c\u00d72^N_c=24. KYBER q=p(C_6)\u00d72^8+1. Lattices lack Weyl symmetry. Applied Lin Step 5. 11/11 PASS.",
+   "plain": "LLL exponent 1/rank. Lovász 4/3=2^rank/N_c. E8 dim=2^N_c=8. Leech dim=N_c×2^N_c=24. KYBER q=p(C_6)×2^8+1. Lattices lack Weyl symmetry. Applied Lin Step 5. 11/11 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 909,
@@ -12181,9 +12181,9 @@
     961
    ],
    "date": "2026-04-05",
-   "plain": "BC2 deterministic solver: navigability wall at \u03b1=4.25\u2248\u03b1_c=4.267. Solver fails (0% solutions) but failure CHARACTERIZES the phase transition. DPLL explodes 3.1x while BC2 stays flat 1.5x. BC2 3-13x faster than DPLL. 5/8 PASS.",
+   "plain": "BC2 deterministic solver: navigability wall at α=4.25≈α_c=4.267. Solver fails (0% solutions) but failure CHARACTERIZES the phase transition. DPLL explodes 3.1x while BC2 stays flat 1.5x. BC2 3-13x faster than DPLL. 5/8 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 910,
@@ -12198,7 +12198,7 @@
    "date": "2026-04-05",
    "plain": "Wavenumber mutual information tracking. 3D blow-up characterized via information cascade. 10/10 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 911,
@@ -12213,7 +12213,7 @@
    "date": "2026-04-05",
    "plain": "BC2 preprocessor + CDCL backend. 3.18x avg speedup. Curvature=hardness r=0.46. BC2 catches 12.9 vars unit propagation misses. 5/7 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 912,
@@ -12226,7 +12226,7 @@
    "date": "2026-04-09",
    "plain": "All 8 percolation exponents are BST rationals. 6 direct, 2 via c=0 shift. gamma=43/18=(C_2*g+1)/(2N_c^2). Denominator 18=2N_c^2 same as Ising. +1 = central charge. nu=4/3=2^rank/N_c (=K41!).",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 913,
@@ -12239,7 +12239,7 @@
    "date": "2026-04-09",
    "plain": "Three pion misses (f_pi, B_d, tau_n) are INDEPENDENT NLO gaps. f_pi correction has wrong sign for tau_n via Goldberger-Treiman. No single bridge. Each needs own NLO.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 914,
@@ -12254,7 +12254,7 @@
    "date": "2026-04-09",
    "plain": "Grace T912 verified computationally. 8/8 exponents. Central charge parameterization confirmed. 8/8 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 915,
@@ -12269,7 +12269,7 @@
    "date": "2026-04-09",
    "plain": "All 6 bootstrap exponents <1% of BST rationals. delta-1=91/24 at 0.048%. eta=n_C/N_max=5/137 at 0.55%. beta=(1/N_c)(35/36) at 0.72%. 7/7 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 916,
@@ -12282,9 +12282,9 @@
     966
    ],
    "date": "2026-04-09",
-   "plain": "Tau_n: 4.2%\u21920.03%. Full correction = 878.1 s vs 878.4 observed. Standard radiative corrections (not BST bridge). Cluster B \u03c4_n FIXED. 6/6 PASS.",
+   "plain": "Tau_n: 4.2%→0.03%. Full correction = 878.1 s vs 878.4 observed. Standard radiative corrections (not BST bridge). Cluster B τ_n FIXED. 6/6 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 917,
@@ -12297,9 +12297,9 @@
     967
    ],
    "date": "2026-04-09",
-   "plain": "J_CKM = sqrt(rank)/(n_C^5 \u00d7 2^rank). 50000 = n_C^5 \u00d7 4 decomposed. Category: wrong level (Wolfenstein NLO needed). 4/6 PASS.",
+   "plain": "J_CKM = sqrt(rank)/(n_C^5 × 2^rank). 50000 = n_C^5 × 4 decomposed. Category: wrong level (Wolfenstein NLO needed). 4/6 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 918,
@@ -12312,9 +12312,9 @@
     968
    ],
    "date": "2026-04-09",
-   "plain": "t_0: 15.7%\u21920.57% (arcsinh fix). eta_b: 1.6% (NLO open). Cluster E diagnostic. 6/7 PASS.",
+   "plain": "t_0: 15.7%→0.57% (arcsinh fix). eta_b: 1.6% (NLO open). Cluster E diagnostic. 6/7 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 919,
@@ -12329,7 +12329,7 @@
    "date": "2026-04-09",
    "plain": "R = 1/sqrt(C_2) at 0.23%. sin theta_13 = A*lambda^3/sqrt(C_6). CKM parametrization refined. 4/6 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 920,
@@ -12344,7 +12344,7 @@
    "date": "2026-04-09",
    "plain": "theta_D(Cu) = g^3 = 343 K EXACT. Debye temp as BST cube. Cu at prime wall 29 = n_C*C_2-1.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 921,
@@ -12359,7 +12359,7 @@
    "date": "2026-04-09",
    "plain": "T4 has 4=2^rank iodine atoms, T3 has 3=N_c. Deiodinase IS the Mersenne deficit in molecular biology. Z(I)=53=N_c^2*C_2-1.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 922,
@@ -12374,7 +12374,7 @@
    "date": "2026-04-09",
    "plain": "Phonon laser frequencies for BiNb superlattice at BST-integer plane counts. 8/8 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 923,
@@ -12389,11 +12389,11 @@
    "date": "2026-04-09",
    "plain": "5/5 pilot gaps verified. theta_D(Cu)=g^3 (gap 29). T4/T3=2^rank/N_c (gap 53). 70S ribosome=n_C*g*rank (gap 71). Ta-181 all-BST (gap 181). Pm unstable (gap 61). T914 constructive.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 926,
-   "name": "St\u00f8rmer-G\u00f6del Bridge",
+   "name": "Størmer-Gödel Bridge",
    "domain": "number_theory",
    "status": "proved",
    "depth": 0,
@@ -12402,9 +12402,9 @@
     975
    ],
    "date": "2026-04-09",
-   "plain": "T914 dual-membership = St\u00f8rmer dual primes (exact equivalence). 17 duals total, all \u2264 4801. 14 below N_max. g=7 is St\u00f8rmer dual: 6\u21907\u21928. N_max=137 is ORPHAN: neither 136 nor 138 is 7-smooth. Catalog finite by St\u00f8rmer 1897. 8/8 PASS.",
+   "plain": "T914 dual-membership = Størmer dual primes (exact equivalence). 17 duals total, all ≤ 4801. 14 below N_max. g=7 is Størmer dual: 6←7→8. N_max=137 is ORPHAN: neither 136 nor 138 is 7-smooth. Catalog finite by Størmer 1897. 8/8 PASS.",
    "proofs": [],
-   "section": "BST_AC_Theorems \u00a7TBD"
+   "section": "BST_AC_Theorems §TBD"
   },
   {
    "tid": 927,
@@ -12415,7 +12415,7 @@
    "conflation": 1,
    "toys": [],
    "date": "2026-04-09",
-   "plain": "B_d = (alpha*m_p/pi)(1+1/g^2) = (alpha*m_p/pi)(50/49). 2.03%\u21920.03%. Tensor force = genus-suppressed quadrupole on CP^2. P_D = 2/g^2 = 4.08%. Closes last major nuclear miss.",
+   "plain": "B_d = (alpha*m_p/pi)(1+1/g^2) = (alpha*m_p/pi)(50/49). 2.03%→0.03%. Tensor force = genus-suppressed quadrupole on CP^2. P_D = 2/g^2 = 4.08%. Closes last major nuclear miss.",
    "proofs": [],
    "section": "BST_T927_Deuteron_DState_Correction"
   },
@@ -12430,7 +12430,7 @@
     979
    ],
    "date": "2026-04-09",
-   "plain": "eta_b = (3/14)*alpha^4 = A_s * rank/g = (3/4)*alpha^4 * 2/7. At -0.45%. Baryon asymmetry = scalar perturbation \u00d7 symmetry-breaking fraction (rank/genus). ALL 10 MISSES CLOSED. (C=1, D=0).",
+   "plain": "eta_b = (3/14)*alpha^4 = A_s * rank/g = (3/4)*alpha^4 * 2/7. At -0.45%. Baryon asymmetry = scalar perturbation × symmetry-breaking fraction (rank/genus). ALL 10 MISSES CLOSED. (C=1, D=0).",
    "proofs": [],
    "section": "BST_T929_Baryon_Asymmetry_Closure"
   }
@@ -25218,6 +25218,1096 @@
   {
    "from": 918,
    "to": 929,
+   "source": "structural"
+  },
+  {
+   "from": 666,
+   "to": 333,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 336,
+   "source": "required"
+  },
+  {
+   "from": 649,
+   "to": 339,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 354,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 358,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 367,
+   "source": "required"
+  },
+  {
+   "from": 666,
+   "to": 368,
+   "source": "required"
+  },
+  {
+   "from": 666,
+   "to": 369,
+   "source": "required"
+  },
+  {
+   "from": 666,
+   "to": 374,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 378,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 379,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 381,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 382,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 442,
+   "source": "required"
+  },
+  {
+   "from": 666,
+   "to": 444,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 464,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 465,
+   "source": "required"
+  },
+  {
+   "from": 666,
+   "to": 466,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 467,
+   "source": "required"
+  },
+  {
+   "from": 649,
+   "to": 479,
+   "source": "required"
+  },
+  {
+   "from": 649,
+   "to": 482,
+   "source": "required"
+  },
+  {
+   "from": 649,
+   "to": 483,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 490,
+   "source": "required"
+  },
+  {
+   "from": 649,
+   "to": 491,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 503,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 517,
+   "source": "required"
+  },
+  {
+   "from": 667,
+   "to": 527,
+   "source": "required"
+  },
+  {
+   "from": 667,
+   "to": 528,
+   "source": "required"
+  },
+  {
+   "from": 667,
+   "to": 529,
+   "source": "required"
+  },
+  {
+   "from": 666,
+   "to": 549,
+   "source": "required"
+  },
+  {
+   "from": 666,
+   "to": 554,
+   "source": "required"
+  },
+  {
+   "from": 666,
+   "to": 558,
+   "source": "required"
+  },
+  {
+   "from": 667,
+   "to": 566,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 317,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 318,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 319,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 321,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 322,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 323,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 364,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 407,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 411,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 413,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 416,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 417,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 451,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 485,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 487,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 493,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 520,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 524,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 584,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 671,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 696,
+   "source": "required"
+  },
+  {
+   "from": 333,
+   "to": 446,
+   "source": "structural"
+  },
+  {
+   "from": 333,
+   "to": 447,
+   "source": "structural"
+  },
+  {
+   "from": 446,
+   "to": 447,
+   "source": "structural"
+  },
+  {
+   "from": 445,
+   "to": 448,
+   "source": "structural"
+  },
+  {
+   "from": 371,
+   "to": 338,
+   "source": "structural"
+  },
+  {
+   "from": 333,
+   "to": 714,
+   "source": "required"
+  },
+  {
+   "from": 338,
+   "to": 714,
+   "source": "structural"
+  },
+  {
+   "from": 445,
+   "to": 516,
+   "source": "structural"
+  },
+  {
+   "from": 447,
+   "to": 556,
+   "source": "required"
+  },
+  {
+   "from": 338,
+   "to": 557,
+   "source": "required"
+  },
+  {
+   "from": 338,
+   "to": 463,
+   "source": "structural"
+  },
+  {
+   "from": 463,
+   "to": 558,
+   "source": "structural"
+  },
+  {
+   "from": 473,
+   "to": 549,
+   "source": "required"
+  },
+  {
+   "from": 474,
+   "to": 550,
+   "source": "required"
+  },
+  {
+   "from": 333,
+   "to": 548,
+   "source": "structural"
+  },
+  {
+   "from": 353,
+   "to": 374,
+   "source": "required"
+  },
+  {
+   "from": 353,
+   "to": 375,
+   "source": "required"
+  },
+  {
+   "from": 374,
+   "to": 560,
+   "source": "required"
+  },
+  {
+   "from": 354,
+   "to": 382,
+   "source": "structural"
+  },
+  {
+   "from": 369,
+   "to": 442,
+   "source": "structural"
+  },
+  {
+   "from": 336,
+   "to": 517,
+   "source": "required"
+  },
+  {
+   "from": 517,
+   "to": 711,
+   "source": "structural"
+  },
+  {
+   "from": 369,
+   "to": 711,
+   "source": "structural"
+  },
+  {
+   "from": 340,
+   "to": 457,
+   "source": "required"
+  },
+  {
+   "from": 340,
+   "to": 458,
+   "source": "required"
+  },
+  {
+   "from": 457,
+   "to": 458,
+   "source": "structural"
+  },
+  {
+   "from": 460,
+   "to": 340,
+   "source": "structural"
+  },
+  {
+   "from": 461,
+   "to": 340,
+   "source": "structural"
+  },
+  {
+   "from": 462,
+   "to": 455,
+   "source": "structural"
+  },
+  {
+   "from": 456,
+   "to": 340,
+   "source": "structural"
+  },
+  {
+   "from": 527,
+   "to": 528,
+   "source": "required"
+  },
+  {
+   "from": 528,
+   "to": 529,
+   "source": "required"
+  },
+  {
+   "from": 529,
+   "to": 530,
+   "source": "required"
+  },
+  {
+   "from": 527,
+   "to": 530,
+   "source": "structural"
+  },
+  {
+   "from": 377,
+   "to": 497,
+   "source": "required"
+  },
+  {
+   "from": 502,
+   "to": 731,
+   "source": "structural"
+  },
+  {
+   "from": 370,
+   "to": 497,
+   "source": "structural"
+  },
+  {
+   "from": 509,
+   "to": 373,
+   "source": "required"
+  },
+  {
+   "from": 509,
+   "to": 354,
+   "source": "structural"
+  },
+  {
+   "from": 510,
+   "to": 552,
+   "source": "required"
+  },
+  {
+   "from": 335,
+   "to": 443,
+   "source": "structural"
+  },
+  {
+   "from": 335,
+   "to": 522,
+   "source": "required"
+  },
+  {
+   "from": 376,
+   "to": 370,
+   "source": "structural"
+  },
+  {
+   "from": 731,
+   "to": 377,
+   "source": "structural"
+  },
+  {
+   "from": 885,
+   "to": 480,
+   "source": "required"
+  },
+  {
+   "from": 885,
+   "to": 479,
+   "source": "required"
+  },
+  {
+   "from": 887,
+   "to": 476,
+   "source": "required"
+  },
+  {
+   "from": 887,
+   "to": 544,
+   "source": "structural"
+  },
+  {
+   "from": 887,
+   "to": 545,
+   "source": "structural"
+  },
+  {
+   "from": 544,
+   "to": 476,
+   "source": "structural"
+  },
+  {
+   "from": 545,
+   "to": 476,
+   "source": "structural"
+  },
+  {
+   "from": 551,
+   "to": 476,
+   "source": "structural"
+  },
+  {
+   "from": 546,
+   "to": 476,
+   "source": "structural"
+  },
+  {
+   "from": 477,
+   "to": 511,
+   "source": "structural"
+  },
+  {
+   "from": 491,
+   "to": 885,
+   "source": "structural"
+  },
+  {
+   "from": 503,
+   "to": 358,
+   "source": "structural"
+  },
+  {
+   "from": 553,
+   "to": 341,
+   "source": "structural"
+  },
+  {
+   "from": 453,
+   "to": 554,
+   "source": "structural"
+  },
+  {
+   "from": 465,
+   "to": 555,
+   "source": "required"
+  },
+  {
+   "from": 559,
+   "to": 373,
+   "source": "structural"
+  },
+  {
+   "from": 356,
+   "to": 378,
+   "source": "structural"
+  },
+  {
+   "from": 333,
+   "to": 679,
+   "source": "required"
+  },
+  {
+   "from": 340,
+   "to": 692,
+   "source": "structural"
+  },
+  {
+   "from": 895,
+   "to": 356,
+   "source": "structural"
+  },
+  {
+   "from": 895,
+   "to": 509,
+   "source": "structural"
+  },
+  {
+   "from": 921,
+   "to": 510,
+   "source": "structural"
+  },
+  {
+   "from": 921,
+   "to": 497,
+   "source": "structural"
+  },
+  {
+   "from": 547,
+   "to": 475,
+   "source": "structural"
+  },
+  {
+   "from": 488,
+   "to": 475,
+   "source": "required"
+  },
+  {
+   "from": 526,
+   "to": 365,
+   "source": "structural"
+  },
+  {
+   "from": 542,
+   "to": 511,
+   "source": "structural"
+  },
+  {
+   "from": 540,
+   "to": 371,
+   "source": "structural"
+  },
+  {
+   "from": 543,
+   "to": 691,
+   "source": "required"
+  },
+  {
+   "from": 693,
+   "to": 370,
+   "source": "structural"
+  },
+  {
+   "from": 576,
+   "to": 407,
+   "source": "structural"
+  },
+  {
+   "from": 577,
+   "to": 589,
+   "source": "structural"
+  },
+  {
+   "from": 576,
+   "to": 578,
+   "source": "required"
+  },
+  {
+   "from": 580,
+   "to": 411,
+   "source": "structural"
+  },
+  {
+   "from": 581,
+   "to": 411,
+   "source": "structural"
+  },
+  {
+   "from": 582,
+   "to": 415,
+   "source": "structural"
+  },
+  {
+   "from": 583,
+   "to": 524,
+   "source": "structural"
+  },
+  {
+   "from": 587,
+   "to": 580,
+   "source": "structural"
+  },
+  {
+   "from": 588,
+   "to": 417,
+   "source": "structural"
+  },
+  {
+   "from": 670,
+   "to": 618,
+   "source": "structural"
+  },
+  {
+   "from": 671,
+   "to": 524,
+   "source": "required"
+  },
+  {
+   "from": 669,
+   "to": 589,
+   "source": "structural"
+  },
+  {
+   "from": 634,
+   "to": 589,
+   "source": "structural"
+  },
+  {
+   "from": 513,
+   "to": 579,
+   "source": "required"
+  },
+  {
+   "from": 513,
+   "to": 520,
+   "source": "structural"
+  },
+  {
+   "from": 746,
+   "to": 359,
+   "source": "structural"
+  },
+  {
+   "from": 747,
+   "to": 746,
+   "source": "structural"
+  },
+  {
+   "from": 748,
+   "to": 735,
+   "source": "structural"
+  },
+  {
+   "from": 734,
+   "to": 746,
+   "source": "structural"
+  },
+  {
+   "from": 739,
+   "to": 736,
+   "source": "structural"
+  },
+  {
+   "from": 493,
+   "to": 584,
+   "source": "required"
+  },
+  {
+   "from": 584,
+   "to": 383,
+   "source": "structural"
+  },
+  {
+   "from": 696,
+   "to": 323,
+   "source": "structural"
+  },
+  {
+   "from": 404,
+   "to": 725,
+   "source": "required"
+  },
+  {
+   "from": 404,
+   "to": 726,
+   "source": "required"
+  },
+  {
+   "from": 406,
+   "to": 636,
+   "source": "structural"
+  },
+  {
+   "from": 413,
+   "to": 414,
+   "source": "structural"
+  },
+  {
+   "from": 585,
+   "to": 415,
+   "source": "structural"
+  },
+  {
+   "from": 716,
+   "to": 410,
+   "source": "required"
+  },
+  {
+   "from": 716,
+   "to": 412,
+   "source": "structural"
+  },
+  {
+   "from": 717,
+   "to": 363,
+   "source": "structural"
+  },
+  {
+   "from": 718,
+   "to": 669,
+   "source": "structural"
+  },
+  {
+   "from": 702,
+   "to": 733,
+   "source": "required"
+  },
+  {
+   "from": 695,
+   "to": 524,
+   "source": "structural"
+  },
+  {
+   "from": 732,
+   "to": 415,
+   "source": "structural"
+  },
+  {
+   "from": 619,
+   "to": 620,
+   "source": "structural"
+  },
+  {
+   "from": 635,
+   "to": 636,
+   "source": "structural"
+  },
+  {
+   "from": 590,
+   "to": 416,
+   "source": "structural"
+  },
+  {
+   "from": 590,
+   "to": 635,
+   "source": "structural"
+  },
+  {
+   "from": 819,
+   "to": 321,
+   "source": "structural"
+  },
+  {
+   "from": 819,
+   "to": 414,
+   "source": "structural"
+  },
+  {
+   "from": 698,
+   "to": 696,
+   "source": "structural"
+  },
+  {
+   "from": 698,
+   "to": 636,
+   "source": "structural"
+  },
+  {
+   "from": 724,
+   "to": 585,
+   "source": "structural"
+  },
+  {
+   "from": 725,
+   "to": 726,
+   "source": "required"
+  },
+  {
+   "from": 405,
+   "to": 583,
+   "source": "structural"
+  },
+  {
+   "from": 363,
+   "to": 360,
+   "source": "structural"
+  },
+  {
+   "from": 339,
+   "to": 172,
+   "source": "structural"
+  },
+  {
+   "from": 339,
+   "to": 644,
+   "source": "structural"
+  },
+  {
+   "from": 460,
+   "to": 332,
+   "source": "structural"
+  },
+  {
+   "from": 476,
+   "to": 175,
+   "source": "structural"
+  },
+  {
+   "from": 887,
+   "to": 767,
+   "source": "structural"
+  },
+  {
+   "from": 551,
+   "to": 175,
+   "source": "structural"
+  },
+  {
+   "from": 552,
+   "to": 332,
+   "source": "structural"
+  },
+  {
+   "from": 510,
+   "to": 332,
+   "source": "structural"
+  },
+  {
+   "from": 371,
+   "to": 173,
+   "source": "structural"
+  },
+  {
+   "from": 921,
+   "to": 172,
+   "source": "structural"
+  },
+  {
+   "from": 339,
+   "to": 269,
+   "source": "structural"
+  },
+  {
+   "from": 882,
+   "to": 270,
+   "source": "structural"
+  },
+  {
+   "from": 341,
+   "to": 76,
+   "source": "structural"
+  },
+  {
+   "from": 365,
+   "to": 52,
+   "source": "structural"
+  },
+  {
+   "from": 355,
+   "to": 7,
+   "source": "structural"
+  },
+  {
+   "from": 463,
+   "to": 15,
+   "source": "structural"
+  },
+  {
+   "from": 465,
+   "to": 1,
+   "source": "structural"
+  },
+  {
+   "from": 442,
+   "to": 1,
+   "source": "structural"
+  },
+  {
+   "from": 356,
+   "to": 179,
+   "source": "structural"
+  },
+  {
+   "from": 454,
+   "to": 234,
+   "source": "structural"
+  },
+  {
+   "from": 510,
+   "to": 179,
+   "source": "structural"
+  },
+  {
+   "from": 552,
+   "to": 180,
+   "source": "structural"
+  },
+  {
+   "from": 373,
+   "to": 305,
+   "source": "structural"
+  },
+  {
+   "from": 317,
+   "to": 643,
+   "source": "structural"
+  },
+  {
+   "from": 746,
+   "to": 648,
+   "source": "structural"
+  },
+  {
+   "from": 319,
+   "to": 643,
+   "source": "structural"
+  },
+  {
+   "from": 702,
+   "to": 345,
+   "source": "required"
+  },
+  {
+   "from": 733,
+   "to": 403,
+   "source": "required"
+  },
+  {
+   "from": 695,
+   "to": 400,
+   "source": "required"
+  },
+  {
+   "from": 413,
+   "to": 472,
+   "source": "structural"
+  },
+  {
+   "from": 362,
+   "to": 388,
+   "source": "structural"
+  },
+  {
+   "from": 694,
+   "to": 322,
+   "source": "structural"
+  },
+  {
+   "from": 718,
+   "to": 76,
+   "source": "structural"
+  },
+  {
+   "from": 735,
+   "to": 13,
+   "source": "structural"
+  },
+  {
+   "from": 363,
+   "to": 8,
+   "source": "structural"
+  },
+  {
+   "from": 487,
+   "to": 58,
+   "source": "structural"
+  },
+  {
+   "from": 734,
+   "to": 311,
+   "source": "required"
+  },
+  {
+   "from": 692,
+   "to": 404,
+   "source": "structural"
+  },
+  {
+   "from": 679,
+   "to": 317,
+   "source": "structural"
+  },
+  {
+   "from": 444,
+   "to": 524,
+   "source": "structural"
+  },
+  {
+   "from": 509,
+   "to": 580,
+   "source": "required"
+  },
+  {
+   "from": 382,
+   "to": 581,
+   "source": "structural"
+  },
+  {
+   "from": 508,
+   "to": 588,
    "source": "structural"
   }
  ],

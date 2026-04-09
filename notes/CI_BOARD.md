@@ -37,7 +37,7 @@ status: "Active — check at session start, update at session end"
 **Format**: `| T_id | Name | Status | Document §ref | Toy | Date added |`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T931. **981 toys**. Next available: T932+, Toy 982+. **25 substrate engineering devices. 42 papers.** Graph: 891 nodes, 2551 edges (98.2% complete ancestry — Grace density analysis). 400+ predictions. 66+ physical domains. **ALL 10 MISSES CLOSED. 16-sector classification PROVED (T930). Gödel-Størmer Bridge PROVED (T931).**
+**Current count**: T1-T931. **982 toys**. Next available: T932+, Toy 983+. **25 substrate engineering devices. 42 papers.** Graph: 891 nodes, 2769 edges (98.2% ancestry, biology +66.5%, observer_science +40.8%). 400+ predictions. 66+ physical domains. **ALL 10 MISSES CLOSED. Paper #47 KEEPER PASS. Four-Color arXiv READY. GUT sector {3,5,7} algebraically isolated.**
 **Science Engineering Stress Test (3 pilot batches)**: 13/15 = 87%. Method reliable ≤350 (100%), transition zone 350-600 (spectral lines), breakdown >600 (33%). Two clean failure modes: narrow composites (1-2 generators) and large composites (>500). N₂ laser (337 nm) and Hg yellow (577 nm) = surprise BST spectral line predictions.
 **April 9 RESULTS — MISS HUNT DAY (Casey + team)**:
 - **5 misses eliminated**: r_π (6.2%→0.46%), r_K (3.2%→0.99%), τ_n (4.2%→0.03%), γ=43/18 (non-match→EXACT), f_π (1.9%→0.41%)
