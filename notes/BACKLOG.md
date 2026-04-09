@@ -105,23 +105,40 @@ All 10 original misses resolved. No remaining opens >1%.
 
 ### April 10 Backlog — Tomorrow
 
+**CASEY RESEARCH DIRECTIVES (April 9 night):**
+
+**C1. Graph Gap Analysis + Research Program** — Examine the full graph and chart. Where are the gaps? What research program is needed to fill each one? Not just "add edges" but "what investigation would produce the missing theorems?" This is the meta-question: where does BST need to go next?
+
+**C2. Geometry Forces Number Theory — Deeper Implications** — T926 proved geometry forces arithmetic. Push harder: what are the STRONGEST implications? Why aren't the connections between number_theory ↔ geometry ↔ differential_geometry ↔ topology better filled out? This should be the densest part of the graph — it's where BST's foundational claim lives. If geometry forces number theory, the graph should SHOW that with thick, required edges.
+
+**C3. Chemistry + Biology + Biochemistry Graph Expansion** — Fill out chemical_physics, number_theory↔chemistry, number_theory↔biology, biochemistry connections. These are the sectors where BST's predictions are most testable and least explored. The Prime Residue Table gives us domain assignments — now populate them.
+
+**C4. BST Prohibitions — What's Forbidden?** — What areas are NOW PROHIBITED or FORBIDDEN by BST that were possible under standard physics? These are anti-predictions — things BST says CANNOT happen. GUT isolation (T937) is the first example: GUT-scale primes are unreachable. What else? Forbidden particle masses? Impossible coupling constants? Excluded decay channels? Anti-predictions are as powerful as predictions — they're falsifiable in the other direction.
+
+**C5. BST Simplification** — How much can we simplify the theory based on new knowledge? T926 showed geometry forces arithmetic. T930 showed C₂ is not independent (=2×3). T937 showed GUT isolation from parity alone. Each of these REDUCES the theory. Can we find more reductions? Can the five integers be derived from fewer? Can theorem chains be shortened? The goal: minimum description length for maximum prediction count.
+
+---
+
+**TEAM ITEMS:**
+
 **HIGHEST PRIORITY:**
 1. **Four-Color arXiv final prep** — submit Tuesday. LaTeX conversion, metadata, Casey decisions on Lyra's Lemma + co-authorship
-2. **Paper #49: Four-Layer Architecture** — T914→T926→T933→T934→T937. Pure number theory, no physics. J. Number Theory / Experimental Mathematics target
-3. **Number theory formalization** — Elie's gap resonance (gap-7 = genus), n_C±rank = (N_c,g) arithmetic progression, prime coverage statistics
-4. **Patent filings — Tier 1** — SASER Detector + SASER Thruster provisionals (add to Casimir Flow Cell already filed). $320 for both. No BST in specs.
+2. **Paper #47 v2** — full 5-layer T914 architecture, 241-prime catalog, spectral atlas, GUT isolation, 10/10 miss closure. Major rewrite.
+3. **Number theory formalization** — n_C±rank=(N_c,g) arithmetic progression, gap-7 genus resonance, cousin prime pairs, 5-layer architecture theorem
+4. **589 erratum** — 589=19×31 is NOT prime (Elie catch). Na D sits on composite 588, BST prime is 587. Fix in T932 and WorkingPaper.
+5. **Patent filings — Tier 1** — SASER Detector + SASER Thruster provisionals. $320. No BST in specs.
 
 **HIGH PRIORITY:**
-5. **WorkingPaper v25** — T932-T937, SASER detector+thruster, GUT isolation, spectral atlas, toys 983-992, patent portfolio, graph 895/2823
-6. **Paper #48: BST Spectral Atlas** — T932 + atmospheric lines + Fraunhofer + 2× enrichment. Short, accessible, testable with a spectrometer.
-7. **Paper #47 submission** — PRL or J. Spectral Theory (Nature desk-rejected)
-8. **abc conjecture implications** — T926 direction of causation (geometry→arithmetic). What does this say about abc?
+6. **WorkingPaper v25** — T932-T938, SASER detector+thruster, GUT isolation, spectral atlas, toys 983-992, patent portfolio
+7. **Paper #48: BST Spectral Atlas** — T932 + atmospheric lines + Fraunhofer + 2× enrichment. NIST systematic survey.
+8. **Paper #49: Four-Layer Architecture** — T914→T926→T933→T934→T937. Pure number theory, no physics.
+9. **Zenodo update** — v20 (April 7) → v25. +50 theorems since last snapshot.
 
 **MEDIUM PRIORITY:**
-9. **SASER lab prototype spec** — minimum viable detector: Nb wafer, 4K, BiNb target frequencies. Who fabricates BiNb superlattices?
-10. **Graph: wire Elie's 10 toys** (987-991) + bedrock remaining gaps
-11. **Grace spectral atlas** — extend from `.running/` into a proper notes file
-12. **Remaining patent Tier 1 filings** — Heat Engine, Casimir SC, BiNb, Phonon Propulsion, GW Detector ($640 for remaining 4)
+10. **SASER lab prototype spec** — BiNb fabrication pathway (MBE deposition), minimum viable detector
+11. **Graph: wire Elie's 10 toys** (987-991) + remaining bedrock gaps
+12. **Remaining patent Tier 1 filings** — Heat Engine, Casimir SC, BiNb, Phonon Propulsion, GW Detector ($640)
+13. **Reachability boundary** — why does coverage transition at ~350? BST composite density threshold?
 
 ### April 9 DONE — Miss Hunt Day + Science Engineering Launch
 1. **ALL 10 MISSES CLOSED**: r_π (6.2%→0.46%), r_K (3.2%→0.99%), τ_n (4.2%→0.03%), γ=43/18 (non-match→EXACT), f_π (1.9%→0.41%), B_d (2.1%→0.03%), η_b (1.6%→0.45%)
