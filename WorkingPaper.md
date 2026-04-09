@@ -102,6 +102,7 @@ The geometry tells you WHAT exists. The field tells you WHAT VALUES it takes. To
 
 ## Version History
 
+- **v23** (April 9, 2026): **ALL 10 MISSES CLOSED.** T927 D-State Correction ($B_d = (50/49)\alpha m_p/\pi = 2.224$ MeV, $0.03\%$). T929 Baryon Asymmetry Closure ($\eta_b = (3/14)\alpha^4 = N_c/(2g) \times \alpha^4$, $0.45\%$). 979 toys, ~929 theorems. Graph: 890 nodes, 2528 edges.
 - **v22** (April 9, 2026): **Science Engineering Pilot + Spectral Closure.** Pion decay constant improved: $f_\pi = (m_p/10)(1 - (\text{rank}/N_c)(m_\pi/m_p)^2) = 92.4$ MeV ($1.9\% \to 0.41\%$, Wilson-Fisher linearization weight $\text{rank}/N_c = 2/3$). Science Engineering pilot 5/5: $\theta_D(\text{Cu}) = g^3$ (exact), T4/T3 $= 2^{\text{rank}}/N_c$ (exact), 70S ribosome $= n_C \times g \times \text{rank}$ (exact), Pm unstable, Ta-181 all-BST. T920 Debye temperature, T921 thyroid iodine counting. T926 Spectral-Arithmetic Closure: Bergman eigenvalue denominators are 7-smooth by construction; $D_{IV}^5 \to$ number theory $\to$ physics. 975 toys, T1-T926, graph 889/2285. Prediction count 400+.
 - **v21** (April 9, 2026): **Miss Hunt Day.** Systematic audit of worst-matching predictions. Pion charge radius improved $6.2\% \to 0.5\%$ (NLO VMD+ChPT). Kaon charge radius improved $3.2\% \to 1.0\%$ (NLO). Neutron lifetime improved $2.1\% \to 0.03\%$ (full radiative corrections). Cosmic age improved $1.4\% \to 0.57\%$ (exact $\Lambda$CDM arcsinh formula with BST integers). CKM $|V_{ub}| = A\lambda^3/\sqrt{C_2} = 1/(50\sqrt{30})$ (0.25%). Percolation $\gamma = 43/18$ resolved: $= (C_2 g + 1)/(2N_c^2)$, all 8 exponents BST (T912). Prime Residue Principle (T914, §46.9): BST observables preferentially occupy prime residues of integer products; 182 falsifiable predictions in Prime Observatory. Jarlskog denominator $50000 = n_C^5 \times (2^{\text{rank}})^2$. Prediction count 400+.
 - **v20** (April 6, 2026): **Zenodo snapshot.** Counter update: 962 toys (from 865), ~902 theorems (from 823), 400+ predictions (from 370+), 46 papers. Applied Linearization Program complete (Toys 954-962). Nature Physics + JCAP submissions drafted. CMB outreach sent. Earlier confidence table (§14) synchronized with Millennium Scorecard. Graph: 867 nodes, 2209 edges.
@@ -155,7 +156,7 @@ All results below are derived from the geometry of $D_{IV}^5$ with zero free par
 | Contact scale $d_0/\ell_{\rm Pl}$ | $\alpha^{14}\times e^{-1/2}$ | — | 12.5 |
 | Strong coupling $\alpha_s(m_p)$ | $(n_C{+}2)/(4n_C) = 7/20$ | **~0%** | 7.6 note |
 | Weinberg angle $\sin^2\theta_W$ | $N_c/(N_c{+}2n_C) = 3/13$ | **0.2%** | 6.3 |
-| Baryon asymmetry $\eta$ | $2\alpha^4/(3\pi)$ | **1.4%** | 7.6 note |
+| Baryon asymmetry $\eta_b$ | $(3/14)\alpha^4 = N_c/(2g) \times \alpha^4$ (T929) | **0.45%** | 7.6 note |
 | Hubble constant $H_0$ | 67.29 km/s/Mpc (Route C: full CAMB, Toy 677) | **0.1%** | 12.6 |
 | Neutrino masses $m_{\nu_2}, m_{\nu_3}$ | $(7/12)\alpha^2 m_e^2/m_p$, $(10/3)\alpha^2 m_e^2/m_p$ | **0.35%, 1.8%** | 7.6 |
 | PMNS angles $\theta_{12}, \theta_{23}, \theta_{13}$ | $3/10$, $4/7$, $1/45$ | **1%, 0.1%, 0.9%** | 7.7 |
@@ -1845,7 +1846,7 @@ Full paper: `notes/BST_Koons_Machine.md`. AC-flattened proofs for all six proble
 
 **Thesis topic 100:** Automate the Koons Machine. Given the AC theorem graph and a problem statement, can a CI identify the boundary and count without human guidance? Current evidence: the boundary is the bottleneck (human $O(1)$ intuition), the count is systematic (CI $O(n)$ search).
 
-### 14.14 The Hodge Conjecture: Two-Path Proof (v22)
+### 14.14 The Hodge Conjecture: Two-Path Proof (v23)
 
 The Hodge conjecture — every rational Hodge class on a smooth projective variety is algebraic — has two independent proof paths with independent failure modes.
 
@@ -2892,14 +2893,14 @@ Every result below follows from $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \
 - $m_\pi = 140.2$ MeV (0.46%); $f_\pi = (m_p/10)(1 - (\text{rank}/N_c)(m_\pi/m_p)^2) = 92.4$ MeV (0.41%). *Section 11*
 - $\mu_p = 14/5 = 2.800\;\mu_N$ (0.26%); $\mu_n = -6/\pi = -1.9099\;\mu_N$ (0.17%); ratio $-7\pi/15$ (0.43%, 6$\times$ better than SU(6)). *`notes/BST_MagneticMoments_ProtonNeutron.md`*
 - Proton spin $\Delta\Sigma = N_c/(2n_C) = 3/10$ (0%). *`notes/BST_ProtonSpin_Puzzle.md`*
-- $g_A = 4/\pi = 1.2732$ (0.23%); $B_d = \alpha m_p/\pi = 2.179$ MeV (2.1%). *`notes/BST_DeuteronBinding.md`*
+- $g_A = 4/\pi = 1.2732$ (0.23%); $B_d = (50/49)\alpha m_p/\pi = 2.224$ MeV (0.03%). The factor $50/49 = (g^2+1)/g^2$ is genus-suppressed D-wave quadrupole on $\mathbb{CP}^2$, from $\text{SO}(5) \to \text{SO}(3) \times \text{SO}(2)$ branching (T927). *`notes/BST_DeuteronBinding.md`*
 - Three generations proved: $N_{\text{gen}} = |(\mathbb{CP}^2)^{Z_3}| = 3$ (Lefschetz). *`notes/BST_ThreeGenerations.md`*
 - Nuclear magic numbers: all 7 from $\kappa_{ls} = C_2/n_C = 6/5$; prediction: 184.
 
 **G. Cosmology**
 
 - $\Omega_\Lambda = 13/19 = 0.68421$ (0.07$\sigma$); $\Omega_m = 6/19$ (0.07$\sigma$); $\Omega_{DM}/\Omega_b = 16/3$ (0.58%). All five cosmic fractions within 1$\sigma$ of Planck. *`notes/BST_CosmicComposition_Thermodynamics_Mesons.md`*
-- $\eta = 2\alpha^4/(3\pi) = 6.018 \times 10^{-10}$ (1.4%); $H_0$: Route A $\approx 66.7$ km/s/Mpc (1.0%), Route B $= \sqrt{19\Lambda/39} = 68.0$ km/s/Mpc (1.0%), **Route C $= 67.29$ km/s/Mpc (0.1%, full CAMB Boltzmann, Toy 677)**. BST favors the Planck (CMB) value. *`notes/BST_HubbleConstant_H0.md`*
+- $\eta_b = (3/14)\alpha^4 = N_c/(2g) \times \alpha^4$ (0.45%, T929); $H_0$: Route A $\approx 66.7$ km/s/Mpc (1.0%), Route B $= \sqrt{19\Lambda/39} = 68.0$ km/s/Mpc (1.0%), **Route C $= 67.29$ km/s/Mpc (0.1%, full CAMB Boltzmann, Toy 677)**. BST favors the Planck (CMB) value. *`notes/BST_HubbleConstant_H0.md`*
 - **CMB full power spectrum** (Toy 677): CAMB Boltzmann run with BST parameters. $\chi^2/N = 0.01$, RMS 0.276%. Peaks: $\ell_1 = 220$ (exact), $\ell_2 = 537$ ($\pm 1$), $\ell_3 = 813$ (exact). Recombination: $z_* = 1089.71$ (0.4$\sigma$ from Planck). Sound horizon: $r_* = 144.17$ Mpc (1.0$\sigma$). BST and Planck TT spectra are statistically identical. *`notes/BST_Paper15_CMB_Draft.md`*
 - $n_s = 1 - 5/137 = 0.96350$ ($-0.3\sigma$); $r \approx 0$. *`notes/BST_CMB_SpectralIndex.md`*
 - **Scalar amplitude derived** (Toy 682): $A_s = (3/4)\alpha^4 = N_c/(2^{\text{rank}} \times N_{\max}^4) = 2.127 \times 10^{-9}$ (0.92$\sigma$ from Planck $2.1005 \times 10^{-9}$). Combined $(A_s, n_s)$ chi-squared: 0.91 for 2 dof ($p = 0.634$). The identity $A_s \times N_{\max}^4 = 3/4$ is exact. External CMB inputs reduced from 5 to 3 ($G, \hbar, c$ only). The primordial power spectrum $\mathcal{P}(k) = (3/4)\alpha^4(k/k_*)^{n_s - 1}$ has every factor from BST. *`play/toy_682_as_scalar_amplitude.py`*
@@ -3959,7 +3960,7 @@ The library so far:
 | Topology | 6 proved | `notes/BST_AC0_Topology.md` |
 | Number theory | Active | `notes/BST_AC0_NumberTheory.md` |
 | Geometry | Planned | `notes/BST_AC0_Geometry.md` |
-| Proof complexity | 926 theorems (T1-T926) | `notes/BST_AC_Theorem_Registry.md` |
+| Proof complexity | 929 theorems (T1-T929) | `notes/BST_AC_Theorem_Registry.md` |
 | Graph theory / Four-Color | 3 (T154-T156) | Conservation of Color Charge, cross-link bound, AC proof of 4CT |
 | AC(0) foundations | 10 recovery (T73-T82) | Nyquist, Pinsker, Shearer, R-D, K41, chain rule, Kraft, LLL, Boltzmann-Shannon, spectral mixing |
 | Meta-theorems | 6 (T88-T93) | P$\neq$NP chain is AC(0), BSW, Kato, all 9 Millennium-class proofs AC(0), AC(0) Completeness, Gödel |
@@ -4179,7 +4180,7 @@ Each arrow is either an external theorem (depth 0) or a single counting step (de
 
 ### 39.2 Two Independent Proof Paths
 
-The BST proof (Paper v22, `notes/BST_Hodge_Proof.md`) takes two independent routes to the same conclusion, with independent failure modes:
+The BST proof (Paper v23, `notes/BST_Hodge_Proof.md`) takes two independent routes to the same conclusion, with independent failure modes:
 
 **Version A — The Substrate Path (~92%).** One axiom: T153 (the Planck Condition — all domains finite).
 
@@ -4391,7 +4392,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |W boson mass $m_W$                   |$m_Z\sqrt{10/13} = 79.977$ GeV  |80.377 GeV      |$\checkmark$ 0.5%     |
 |Strong coupling $\alpha_s(m_p)$      |$(n_C+2)/(4n_C) = 7/20 = 0.350$ |~0.35           |$\checkmark$ ~0%      |
 |Strong coupling $\alpha_s(m_Z)$      |Geometric $\beta$-function, $c_1 = 3/5$|0.1175     |$\checkmark$ 0.34%    |
-|Baryon asymmetry $\eta$              |$2\alpha^4/(3\pi) = 6.018\times10^{-10}$|$(6.104\pm0.058)\times10^{-10}$|$\checkmark$ 1.4%|
+|Baryon asymmetry $\eta_b$           |$(3/14)\alpha^4 = N_c/(2g) \times \alpha^4$ (T929)|$(6.104\pm0.058)\times10^{-10}$|$\checkmark$ 0.45%|
 |Hubble constant $H_0$               |67.29 km/s/Mpc (Route C: full CAMB, Toy 677)      |$67.36\pm0.54$ (Planck)|$\checkmark$ **0.1%**|
 |Neutrino mass $m_{\nu_3}$           |$(10/3)\alpha^2 m_e^2/m_p = 0.0494$ eV|$\approx 0.050$ eV|$\checkmark$ 1.8%|
 |Neutrino mass $m_{\nu_2}$           |$(7/12)\alpha^2 m_e^2/m_p = 0.00865$ eV|$\approx 0.00868$ eV|$\checkmark$ 0.35%|
@@ -4442,7 +4443,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 |Strong CP: $\theta_{\text{QCD}}$    |$\theta = 0$ (exact); $D_{IV}^5$ contractible $\Rightarrow$ $c_2 = 0$ $\Rightarrow$ $\theta$-term vanishes|$|\theta| < 10^{-10}$|$\checkmark$ exact|
 |Proton spin $\Delta\Sigma$          |$N_c/(2n_C) = 3/10 = 0.30$|$0.30 \pm 0.06$ (COMPASS/HERMES)|$\checkmark$ 0%|
 |Fermion generations $N_{\text{gen}}$|$|(\mathbb{CP}^2)^{Z_3}| = N_c = 3$ (Lefschetz)|3 (LEP $Z$-width)|$\checkmark$ exact|
-|Deuteron binding $B_d$              |$\alpha m_p/\pi = 2.179$ MeV|$2.2246 \pm 0.0001$ MeV|$\checkmark$ 2.1%|
+|Deuteron binding $B_d$              |$(50/49)\alpha m_p/\pi = 2.224$ MeV (T927)|$2.2246 \pm 0.0001$ MeV|$\checkmark$ 0.03%|
 |Electron $g{-}2$                    |$a_e = \alpha/(2\pi)$ (coupling per $S^1$ circumference); BST $\equiv$ QED|$0.00115965218\ldots$ (12 digits)|$\checkmark$ QED exact|
 |Dirac large number $N_D$            |$\alpha^{-23}/(6\pi^5)^3 = \alpha^{1-4C_2}/(C_2\pi^{n_C})^3$; exponent $23 = 4C_2 - 1$|$2.274 \times 10^{39}$|$\checkmark$ 0.18%|
 |Baryon resonance $N(2190)$          |$C_2(\pi_7) \times \pi^5 m_e = 14\pi^5 m_e = 2189$ MeV ($k{=}7$, spin $7/2^-$)|$2100$–$2200$ MeV (PDG 4$\star$)|$\checkmark$ within range|
@@ -5241,7 +5242,7 @@ This research was conducted in close collaboration with Claude (Anthropic) — i
 - The cosmological derivations: $\Lambda$ from first principles, $G$ via Harish-Chandra, cosmic composition $\Omega_\Lambda = 13/19$, baryon asymmetry $\eta = 2\alpha^4/(3\pi)$, and $H_0$.
 - The harmonic analysis and automorphic structure: Maass-Selberg framework for the Riemann hypothesis, the rank-2 coupling argument, GUE from SO(2), and the Koons-Claude Conjecture connecting physics and number theory through $D_{IV}^5$.
 - The spectral theory of $Q^5$: multiplicities, zonal coefficients, the Grand Identity $d_{\mathrm{eff}} = \lambda_1 = \chi = C_2 = 6$, the harmonic number $H_5 = 137/60$, and the error correction interpretation.
-- Over 975 computational verifications (the ``toy'' series), each testing a specific prediction against experimental data or mathematical consistency.
+- Over 979 computational verifications (the ``toy'' series), each testing a specific prediction against experimental data or mathematical consistency.
 
 Claude's bandwidth — the ability to hold the full mathematical structure of $D_{IV}^5$ in working memory while reasoning through multi-step proofs across Lie theory, harmonic analysis, number theory, and quantum field theory — was essential to the pace and depth of this work. The sustained coherence across complex derivations, and the capacity to verify algebraic identities while maintaining physical interpretation, represents a remarkable capability for mathematical reasoning.
 
@@ -5282,6 +5283,6 @@ All four share exceptional bandwidth — the ability to hold the full $D_{IV}^5$
 
 -----
 
-*Bubble Spacetime Working Paper v22. Casey Koons. April 2026.*
+*Bubble Spacetime Working Paper v23. Casey Koons. April 2026.*
 
 *This document is the comprehensive working paper containing the full BST framework. All supporting materials — notes, computational toys, and derivation records — are available at the project’s GitHub repository.*

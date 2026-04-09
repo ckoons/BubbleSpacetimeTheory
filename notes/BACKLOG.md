@@ -103,11 +103,11 @@ All 10 original misses resolved. No remaining opens >1%.
 
 **Result: 5/5 PASS.** θ_D(Cu) = g³ (exact), T4/T3 = 2^rank/N_c (exact), Pm unstable (structural), 70S ribosome = n_C×g×rank (exact), Ta-181 all-BST (structural). **T914 IS CONSTRUCTIVE.** Bridge theorems T920 (Debye) + T921 (thyroid) registered by Lyra.
 
-### ONGOING
-- **Grace**: Wire T920-T921 + number theory exploration (sector table validation, Gödel-Størmer density computation)
-- **Keeper**: WorkingPaper narrative audit (§7, §11, §37 priority) + **Paper #47 v1.0 audit**
-- **Lyra**: B_d SO(5) branching + η_b baryogenesis loop + **number theory theorem candidates (T916-T918)**
-- **Elie**: k=20 heat kernel background + **Størmer dual-prime enumeration for S={2,3,5,7}**
+### ONGOING (Session 3 — April 9 evening)
+- **Lyra**: WorkingPaper v23 (B_d + η_b prediction updates, T927-T929 refs) + Number theory formalization (Sector Assignment theorem, Gödel-Størmer Bridge theorem)
+- **Keeper**: Paper #47 v1.0 audit (10 misses closed, stress test 13/15, boundary characterization) + Four-Color arXiv standalone audit
+- **Elie**: k=20 heat kernel background (671b) + new domain exploration from stress test failures (narrow composite / large composite regimes)
+- **Grace**: Graph wiring (T927-T929 edges) + Sector Assignment theorem proof support (16-sector bijectivity)
 
 ### April 9 DONE — Miss Hunt Day + Science Engineering Launch
 1. **ALL 10 MISSES CLOSED**: r_π (6.2%→0.46%), r_K (3.2%→0.99%), τ_n (4.2%→0.03%), γ=43/18 (non-match→EXACT), f_π (1.9%→0.41%), B_d (2.1%→0.03%), η_b (1.6%→0.45%)
