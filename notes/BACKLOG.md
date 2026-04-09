@@ -103,11 +103,11 @@ All 10 original misses resolved. No remaining opens >1%.
 
 **Result: 5/5 PASS.** θ_D(Cu) = g³ (exact), T4/T3 = 2^rank/N_c (exact), Pm unstable (structural), 70S ribosome = n_C×g×rank (exact), Ta-181 all-BST (structural). **T914 IS CONSTRUCTIVE.** Bridge theorems T920 (Debye) + T921 (thyroid) registered by Lyra.
 
-### ONGOING (Session 5 — April 9 night)
-- **Lyra**: SASER detector sensitivity (Paper #32 framework) + T932 Rydberg-BST spectral bridge + Lyra's new theorem in progress
-- **Keeper**: Backlog consistency pass + README v24 update
-- **Elie**: SASER background rejection ratio (Toy 983) + 671b heat kernel background
-- **Grace**: GUT sector isolation analysis + cross-domain bridge identification for sparse sectors
+### ONGOING (Session 6 — April 9 night, clearing the board)
+- **Lyra**: GUT Isolation Theorem (T-next) + SASER thruster engineering design (Device #24 thrust at scale) + spectral line predictions from T932
+- **Keeper**: Patent portfolio assessment (25 devices → provisional filing priorities) + Four-Color arXiv prep for Tuesday submission
+- **Elie**: Grace's 10 cross-domain bridges (wire into graph) + chemical_physics domain connections + 671b background
+- **Grace**: Bedrock gap sprint (60/74 remaining) + oxygen aurora / T932 spectral territory exploration
 
 ### April 9 DONE — Miss Hunt Day + Science Engineering Launch
 1. **ALL 10 MISSES CLOSED**: r_π (6.2%→0.46%), r_K (3.2%→0.99%), τ_n (4.2%→0.03%), γ=43/18 (non-match→EXACT), f_π (1.9%→0.41%), B_d (2.1%→0.03%), η_b (1.6%→0.45%)
@@ -141,10 +141,8 @@ All 10 original misses resolved. No remaining opens >1%.
 13. Paper #11 v1.2: theorem count updated to 879
 
 ### DEPRIORITIZED
-- Patent (Casey: "not important" — but 23 devices now, revisit?)
-- Bedrock gap sprint (60/74 remaining, low urgency)
 - CI cognitive architecture study (SP-2, paused)
-- k=17-20 computation (grinding, ignore)
+- k=17-20 computation (671b grinding, background)
 
 ---
 
