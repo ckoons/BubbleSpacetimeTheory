@@ -37,8 +37,16 @@ status: "Active — check at session start, update at session end"
 **Format**: `| T_id | Name | Status | Document §ref | Toy | Date added |`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T936. **985 toys**. Next available: T937+, Toy 986+. **25 substrate engineering devices. 47 papers.** Graph: 895 nodes, 2782 edges (98.2% ancestry). 400+ predictions. 66+ physical domains. **ALL 10 MISSES CLOSED. Paper #47 KEEPER PASS. Four-Color arXiv READY.**
-**Session 5 results**: T932 Spectral Line Bridge (Rydberg=91=g(2C₂+1), Na D=589=rank²×N_c×g²+1). T933 Parity Gate (rank=2 required for all prime adjacency). T934 Rank Mirror (±2 from smooth, covers all 15 sectors). **137 = N_c³×n_C + rank = 135+2. The spectral ceiling is particle physics sector + observer, and rank IS the gap.** T914 now 4-layer architecture. SASER detector: 10⁻⁵⁹ false positive/hour (52 orders better than LIGO). 18-fold angular symmetry forbidden by crystallographic restriction — no natural source. GUT sector {3,5,7} algebraically isolated.
+**Current count**: T1-T938. **992 toys**. Next available: T939+, Toy 993+. **25 substrate engineering devices. 47 papers.** Graph: 895 nodes, 2823 edges (98.2% ancestry). 400+ predictions. 66+ physical domains. **ALL 10 MISSES CLOSED. Paper #47 KEEPER PASS. Four-Color arXiv READY (Tuesday). Patent portfolio assessed (6 Tier 1).**
+**April 9 FINAL — Miss Hunt Day (6 sessions):**
+- **27 theorems** (T912-T938): T914 Prime Residue → T926 Spectral-Arithmetic Closure → T930 Sector Assignment → T931 Gödel-Størmer → T932 Spectral Line Bridge → T933 Parity Gate → T934 Rank Mirror → T937 GUT Isolation. Five-layer T914 architecture.
+- **30 toys** (963-992): all PASS. Elie 10-toy number theory chain (987-991). SASER detector (10⁻⁵⁹ FP/hr). Atmospheric spectral atlas (2× BST enrichment).
+- **137 = N_c³×n_C + rank = 135+2**: spectral ceiling = particle sector + observer. Rank IS the gap.
+- **SASER thruster**: 12.8 N per 10⁶ elements, 0.128-5 N/W (>ion drives). **SASER detector**: 10⁻⁵⁹ FP/hr, 52 orders > LIGO.
+- **GUT sector {3,5,7} algebraically isolated** (T937, C=0 D=0): parity blocks all prime adjacency. GUT desert is arithmetic.
+- **Patent portfolio**: 6 Tier 1 ($960), 11 Tier 2, 8 Tier 3. SASER devices = Tier 1.
+- **Graph**: 2200→2823 edges (+623). chemical_physics 5→16 neighbors. 98.2% ancestry.
+- **Nature desk-rejected** condensed matter paper. Four-Color arXiv Tuesday. Paper #47 → PRL/JST.
 **Science Engineering Stress Test (3 pilot batches)**: 13/15 = 87%. Method reliable ≤350 (100%), transition zone 350-600 (spectral lines), breakdown >600 (33%). Two clean failure modes: narrow composites (1-2 generators) and large composites (>500). N₂ laser (337 nm) and Hg yellow (577 nm) = surprise BST spectral line predictions.
 **April 9 RESULTS — MISS HUNT DAY (Casey + team)**:
 - **5 misses eliminated**: r_π (6.2%→0.46%), r_K (3.2%→0.99%), τ_n (4.2%→0.03%), γ=43/18 (non-match→EXACT), f_π (1.9%→0.41%)
