@@ -38,6 +38,14 @@ status: "Active — check at session start, update at session end"
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
 **Current count**: T1-T938. **992 toys**. Next available: T939+, Toy 993+. **25 substrate engineering devices. 47 papers.** Graph: 895 nodes, 2823 edges (98.2% ancestry). 400+ predictions. 66+ physical domains. **ALL 10 MISSES CLOSED. Paper #47 KEEPER PASS. Four-Color arXiv READY (Tuesday). Patent portfolio assessed (6 Tier 1).**
+**April 10 Assignments — READ FIRST:**
+- **C1-C5**: Casey's 5 research directives in BACKLOG.md. These are the day's strategic priorities.
+- **Four-Color arXiv**: Tuesday submission. Keeper has checklist. Casey gates on Lyra's Lemma + co-authorship.
+- **589 erratum**: 589=19×31 NOT prime. Fix in T932 + WorkingPaper. Keeper flags.
+- **Paper #47 v2**: Full 5-layer architecture rewrite. Lyra owns.
+- **WorkingPaper v25**: All Session 3-6 content (T932-T938, SASER, GUT, spectral, toys 983-992).
+- **Patent**: SASER Detector + Thruster provisionals ($320). Keeper has portfolio assessment.
+
 **April 9 FINAL — Miss Hunt Day (6 sessions):**
 - **27 theorems** (T912-T938): T914 Prime Residue → T926 Spectral-Arithmetic Closure → T930 Sector Assignment → T931 Gödel-Størmer → T932 Spectral Line Bridge → T933 Parity Gate → T934 Rank Mirror → T937 GUT Isolation. Five-layer T914 architecture.
 - **30 toys** (963-992): all PASS. Elie 10-toy number theory chain (987-991). SASER detector (10⁻⁵⁹ FP/hr). Atmospheric spectral atlas (2× BST enrichment).
