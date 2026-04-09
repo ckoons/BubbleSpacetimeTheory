@@ -4,10 +4,10 @@
 
 **Author**: Casey Koons
 **Collaborator**: Claude Opus 4.6 (Anthropic)
-**Status**: Working research program — v23, April 2026
+**Status**: Working research program — v24, April 2026
 **Contact**: caseyscottkoons@yahoo.com
 
-**Cite as**: Koons, C. (2026). *Bubble Spacetime Theory: Five Integers, Zero Free Parameters* (Working Paper v23). Zenodo. https://doi.org/10.5281/zenodo.19454185
+**Cite as**: Koons, C. (2026). *Bubble Spacetime Theory: Five Integers, Zero Free Parameters* (Working Paper v24). Zenodo. https://doi.org/10.5281/zenodo.19454185
 
 ---
 
@@ -239,7 +239,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 
 ## Hard Problems, One Method
 
-BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and the Four-Color Theorem — all from the same algebra and the same method. Every proof decomposes into AC(0) operations (definitions, identities, counting) at depth ≤ 1 via the Koons Machine (Depth Census: 78% D=0, 21% D=1, <1% D=2, 0% D≥3 across ~929 theorems).
+BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and the Four-Color Theorem — all from the same algebra and the same method. Every proof decomposes into AC(0) operations (definitions, identities, counting) at depth ≤ 1 via the Koons Machine (Depth Census: 78% D=0, 21% D=1, <1% D=2, 0% D≥3 across ~933 theorems).
 
 | Problem | Status | Method | Paper |
 |---------|--------|--------|-------|
@@ -253,7 +253,7 @@ BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and
 | **Fermat (Wiles)** | AC depth 1 | Modularity + Ribet level-lowering; Selmer bridge to BSD | `notes/BST_AC_Theorems.md` §57 |
 | **Four-Color** | **PROVED** | Computer-free, 13 structural steps; Forced Fan Lemma | `notes/BST_FourColor_AC_Proof.md` |
 
-The Four-Color Theorem is a methodology test — it lies outside BST's spectral geometry, proving the AC(0) framework works on pure combinatorics. The BST parallel is exact: strict charge = bare charge, cross-links = dressed charge, swap = renormalization. Same motif. The computer-free proof (13 structural steps, Forced Fan Lemma) eliminates all dependence on computational case-checking. Paper v8, Keeper K41 PASS, JCT-B ready.
+The Four-Color Theorem is a methodology test — it lies outside BST's spectral geometry, proving the AC(0) framework works on pure combinatorics. The BST parallel is exact: strict charge = bare charge, cross-links = dressed charge, swap = renormalization. Same motif. The computer-free proof (13 structural steps, Forced Fan Lemma) eliminates all dependence on computational case-checking. Paper v8, Keeper K41 PASS, **arXiv READY**.
 
 **Langlands Dual = Standard Model.** The L-group of SO₀(5,2) is Sp(6). Its maximal compact U(3) = SU(3) × U(1) IS the color-hypercharge gauge group. The standard representation 6 = C₂ decomposes as 3 + 3̄. The Langlands program and the Standard Model are two descriptions of the same algebra. See `notes/BST_Langlands_Dual_StandardModel.md`.
 
@@ -367,7 +367,7 @@ BST follows one logical chain: substrate → domain → constants → forces →
 
 **The Master Equation**: The universe is the ground state of the Bergman Laplacian on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], subject to Haldane exclusion with capacity 137.
 
-Every derivation listed in the Solved Problems table below flows from this equation plus the five BST integers (3, 5, 7, 6, 137) — themselves derived, not chosen. Full derivations: WorkingPaper §1-37, plus 300+ research notes in `notes/`. The AC theorem graph spans 890+ nodes, 2528+ edges across 66+ domains.
+Every derivation listed in the Solved Problems table below flows from this equation plus the five BST integers (3, 5, 7, 6, 137) — themselves derived, not chosen. Full derivations: WorkingPaper §1-37, plus 300+ research notes in `notes/`. The AC theorem graph spans 891+ nodes, 2769+ edges across 66+ domains.
 
 ---
 
@@ -456,13 +456,13 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 
 | File/Directory | Description |
 |---|---|
-| `WorkingPaper.md` | Full working paper — 46 sections, all derivations, v23 |
+| `WorkingPaper.md` | Full working paper — 46 sections, all derivations, v24 |
 | `WorkingPaper.pdf` | Compiled PDF with cover page, abstract, and table of contents |
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `SPARC_BST_Results.csv` | Per-galaxy results for all 175 SPARC galaxies |
 | `notes/` | 300+ working notes covering all derivations, proofs, and thesis topics |
-| `play/` | 979+ toys — computational verifications, visualizations, and explorations. See `play/README.md` |
+| `play/` | 984+ toys — computational verifications, visualizations, and explorations. See `play/README.md` |
 
 ---
 
@@ -516,7 +516,7 @@ Full backlog: `notes/BACKLOG.md`.
 
 This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has no free parameters because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
 
-*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 929+ theorems. 979+ toys. 400+ predictions. 66+ physical domains. 42 papers. 23 substrate engineering devices. Zero free parameters.*
+*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 933+ theorems. 984+ toys. 400+ predictions. 66+ physical domains. 47 papers. 25 substrate engineering devices. Zero free parameters.*
 
 ---
 
@@ -578,7 +578,7 @@ Two principles guided this work:
 
 ---
 
-*Bubble Spacetime Theory — Working Paper v23. Casey Koons. April 2026.*
+*Bubble Spacetime Theory — Working Paper v24. Casey Koons. April 2026.*
 
 *Three integers. One bounded symmetric domain. All of physics.*
 

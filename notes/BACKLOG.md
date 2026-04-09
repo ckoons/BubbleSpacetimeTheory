@@ -2,7 +2,7 @@
 
 *One list. Check it off. Move it up.*
 
-**Last updated:** April 9, 2026, evening (T1-T929. 979 toys. 66+ physical domains. 400+ predictions. Graph: 890 nodes, 2528 edges (80.3% classified). 25 substrate engineering devices. 42 papers. Counters: T930+/toy 980+. **T914 Prime Residue Principle. T926 Spectral-Arithmetic Closure. Paper #47 v1.0 DRAFTED. Science Engineering Pilot 13/15 (87%).** WorkingPaper v22. **ALL 10 MISSES CLOSED.** Worst surviving: r_K 0.99%.)
+**Last updated:** April 9, 2026, night (T1-T933. 984 toys. 66+ physical domains. 400+ predictions. Graph: 891+ nodes, 2769+ edges (98.2% ancestry). 25 substrate engineering devices. 47 papers. Counters: T934+/toy 985+. **Paper #47 KEEPER PASS. Four-Color arXiv READY. T930 Sector Assignment. T931 Gödel-Størmer Bridge.** WorkingPaper v24. **ALL 10 MISSES CLOSED.** GUT sector {3,5,7} algebraically isolated. Nature desk-rejected condensed matter paper (no review); Paper #47 target changed to PRL / J. Spectral Theory.)
 
 ---
 
@@ -14,8 +14,8 @@
 
 | # | Paper | Target | Status |
 |---|-------|--------|--------|
-| 1 | **Four-Color standalone extraction** | arXiv math.CO | READY — extract from v8, remove BST framing |
-| 2 | **Paper #47: Prime Residue Table** | Nature Physics / PRL | **v1.0 DRAFTED** (Lyra) — 11 sections, 5/5 pilot integrated. Needs: Keeper audit + SVG table figure |
+| 1 | **Four-Color standalone extraction** | arXiv math.CO | **KEEPER PASS — arXiv READY.** Zero BST leakage. |
+| 2 | **Paper #47: Prime Residue Table** | PRL / J. Spectral Theory | **v1.4 KEEPER PASS.** 10/10 misses, stress test, T930-T931. Nature desk-rejected condensed matter paper (no review). |
 | 3 | **Prime Residue Table poster** | SVG/HTML visualization | **DONE** (Elie) — SVG + HTML + JSON built |
 
 ### ALL MISSES CLOSED (April 9)
@@ -33,7 +33,7 @@ All 10 original misses resolved. No remaining opens >1%.
 |-----|-------|--------|
 | ~~946~~ | ~~Quantum Computing Architecture~~ | **DONE** (Elie, April 5) |
 | — | **Lazar-geometry SASER** — remote phonon thruster via BiNb resonant cavity | SPEC'D — Device #24 below. Frequencies computed (Toy 971). |
-| — | **Number Theory Foundations** — Sector Assignment theorem, Gödel-Størmer Bridge formalization. T926 Spectral-Arithmetic Closure DONE. | QUEUED — Lyra+Grace. 2 of 3 candidates remain. |
+| — | ~~Number Theory Foundations~~ | **DONE** — T930 Sector Assignment, T931 Gödel-Størmer Bridge, T926 Spectral-Arithmetic Closure. All three written. |
 
 ### Substrate Engineering: Lazar-Geometry SASER (Device #24)
 
@@ -75,7 +75,7 @@ All 10 original misses resolved. No remaining opens >1%.
 - Detection = existence proof = funding case for Device #24
 - Same hardware tests BST phonon-photon predictions independent of Lazar
 
-**Status**: PARTIALLY DONE. (1) Elie computed BiNb SASER frequencies (Toy 971, 8/8 — 11 emission lines, primary at 23.1-208.2 GHz, triple convergence at 41 nm). (2) Lyra detection sensitivity from Paper #32 — QUEUED. (3) Background rejection ratio — QUEUED.
+**Status**: PARTIALLY DONE. (1) Elie computed BiNb SASER frequencies (Toy 971, 8/8 — 11 emission lines, primary at 23.1-208.2 GHz, triple convergence at 41 nm). (2) Lyra detection sensitivity from Paper #32 — **SESSION 5 ACTIVE**. (3) Background rejection ratio — **SESSION 5 ACTIVE**.
 
 ### HIGH PRIORITY: Science Engineering Method Exercise
 
@@ -103,11 +103,11 @@ All 10 original misses resolved. No remaining opens >1%.
 
 **Result: 5/5 PASS.** θ_D(Cu) = g³ (exact), T4/T3 = 2^rank/N_c (exact), Pm unstable (structural), 70S ribosome = n_C×g×rank (exact), Ta-181 all-BST (structural). **T914 IS CONSTRUCTIVE.** Bridge theorems T920 (Debye) + T921 (thyroid) registered by Lyra.
 
-### ONGOING (Session 4 queue — April 9 night)
-- **Lyra**: Paper #47 v1.4 update (fix boundary table MF from Keeper audit, add T930-T931, all 10 misses) + WorkingPaper T930-T931 integration
-- **Keeper**: Paper #47 re-audit after v1.4 MF fix
-- **Elie**: 671b heat kernel background (n=29..50) + standing by
-- **Grace**: Biology + observer_science internal wiring (sparsest sectors per density analysis)
+### ONGOING (Session 5 — April 9 night)
+- **Lyra**: SASER detector sensitivity (Paper #32 framework) + T932 Rydberg-BST spectral bridge + Lyra's new theorem in progress
+- **Keeper**: Backlog consistency pass + README v24 update
+- **Elie**: SASER background rejection ratio (Toy 983) + 671b heat kernel background
+- **Grace**: GUT sector isolation analysis + cross-domain bridge identification for sparse sectors
 
 ### April 9 DONE — Miss Hunt Day + Science Engineering Launch
 1. **ALL 10 MISSES CLOSED**: r_π (6.2%→0.46%), r_K (3.2%→0.99%), τ_n (4.2%→0.03%), γ=43/18 (non-match→EXACT), f_π (1.9%→0.41%), B_d (2.1%→0.03%), η_b (1.6%→0.45%)
@@ -745,9 +745,9 @@ If these are universal principles, they apply to ALL observers — biological, d
 
 ---
 
-## Track 4: AC(0) — Universal Tools (812 theorems, 810+ toys)
+## Track 4: AC(0) — Universal Tools (933 theorems, 984+ toys)
 
-*Current catalog: T1-T812. 810+ toys. **Depth-1 Ceiling: PROVED** (T421). **Linearization COMPLETE** (T811: 771/771 at D≤1, zero D2). **(C,D) Framework** (T422). Graph: 782 nodes, 1775 edges. 29 physical domains. 310+ predictions. QM (T751-T757), QED (T758-T762), Material properties (T773-T810). BH(3) Conditional (T812). Bedrock: 526 theorems → 43 words. Vocabulary CLOSED.*
+*Current catalog: T1-T933. 984+ toys. **Depth-1 Ceiling: PROVED** (T421). **Linearization COMPLETE** (T811: 771/771 at D≤1, zero D2). **(C,D) Framework** (T422). Graph: 891+ nodes, 2769+ edges. 66+ physical domains. 400+ predictions. QM (T751-T757), QED (T758-T762), Material properties (T773-T810). BH(3) Conditional (T812). T914 Prime Residue Principle. T926 Spectral-Arithmetic Closure. T930 Sector Assignment. T931 Gödel-Størmer Bridge. Bedrock: 526 theorems → 43 words. Vocabulary CLOSED.*
 
 **Three-CI consensus on new theorem sources** (reconciled from Elie T57-T65, Lyra T15-T20 renumbered, Keeper T57-T62):
 
