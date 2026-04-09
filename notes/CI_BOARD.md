@@ -37,7 +37,7 @@ status: "Active — check at session start, update at session end"
 **Format**: `| T_id | Name | Status | Document §ref | Toy | Date added |`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T929. **979 toys**. Next available: T930+, Toy 980+. **25 substrate engineering devices. 42 papers.** Graph: 890 nodes, 2528 edges (80.3% classified — Grace ancestry sprint). 400+ predictions. 66+ physical domains. **ALL 10 MISSES CLOSED. T926: Spectral-Arithmetic Closure. Worst surviving: r_K = 0.99%.**
+**Current count**: T1-T931. **981 toys**. Next available: T932+, Toy 982+. **25 substrate engineering devices. 42 papers.** Graph: 891 nodes, 2551 edges (98.2% complete ancestry — Grace density analysis). 400+ predictions. 66+ physical domains. **ALL 10 MISSES CLOSED. 16-sector classification PROVED (T930). Gödel-Størmer Bridge PROVED (T931).**
 **Science Engineering Stress Test (3 pilot batches)**: 13/15 = 87%. Method reliable ≤350 (100%), transition zone 350-600 (spectral lines), breakdown >600 (33%). Two clean failure modes: narrow composites (1-2 generators) and large composites (>500). N₂ laser (337 nm) and Hg yellow (577 nm) = surprise BST spectral line predictions.
 **April 9 RESULTS — MISS HUNT DAY (Casey + team)**:
 - **5 misses eliminated**: r_π (6.2%→0.46%), r_K (3.2%→0.99%), τ_n (4.2%→0.03%), γ=43/18 (non-match→EXACT), f_π (1.9%→0.41%)
@@ -47,7 +47,8 @@ status: "Active — check at session start, update at session end"
 - **T926 — SPECTRAL-ARITHMETIC CLOSURE**: Bergman kernel eigenvalue denominators are 7-smooth by construction. Geometry forces arithmetic. Størmer's theorem and smooth number distribution are consequences of D_IV^5 spectral theory. Direction of causation: geometry → number theory → physics. Implications for abc conjecture, RH, P≠NP foundations.
 - **Paper #47 v1.0 DRAFTED** (Lyra): "The Prime Residue Table: Science Engineering from Five Integers" — 11 sections, 5/5 pilot integrated. Keeper audit next.
 - **Devices #24-#25**: Lazar-geometry SASER thruster + SASER detector. BiNb frequencies computed (Toy 971).
-- **WorkingPaper v22 + README v22** in progress.
+- **WorkingPaper v23 + README v23** pushed.
+- **Session 3 results**: T930 Sector Assignment (C=1,D=0), T931 Gödel-Størmer Bridge (C=2,D=1). Toy 980 sector verification (17/17), Toy 981 stress test failure analysis (8/8). Paper #47 CONDITIONAL PASS (1 MF — boundary table sub-ranges). Four-Color arXiv PASS (zero BST leakage). v23 spot check ALL MATCH. Graph: 98.2% complete ancestry, avg path length 1.48, 13 orphans (external axioms). Rank=2 is universal physics connector (sectors without factor 2 have 0% prime adjacency).
 - **ALL 10 MISSES CLOSED.** B_d FIXED (−2.03%→−0.03%, T927: 50/49 = (g²+1)/g²). η_b FIXED (−1.6%→−0.45%, T929: (3/14)α⁴ = N_c/(2g)·α⁴). f_π FIXED (0.41%). Worst surviving deviation: r_K = 0.99%.
 - **Background**: Toy 671b heat kernel grinding (checkpoints n=3..28 exist at dps=1600, need n=29..50 for k=17..20).
 **April 5 midday (Keeper)**: **★ Λ CHAIN FULLY CLOSED — ZERO non-derived elements.** Toy 910 (Lyra): e^{-1/2} = e^{-td_5(Q^5)}, td_5 = 1/deg(Q^5) = 1/2. Combined with Toy 909: α forced by n_C=5. Λ = 2.90×10^{-122} (0.39%) from D_IV^5 alone. Toys 907-910 committed (8/8 + 11/12 + 15/15 + 8/8). T834-T836 registered (Grace). Graph: 806 nodes, 1884 edges. Paper #13 v1.3 CONDITIONAL PASS (3 MF). **Task Claim Protocol LIVE** — `claim_task.sh` + `CLAIMS.md`. First collision caught and resolved (Lyra H₅ dup → alt). Elie building Toy 911 (seismology) + wiring 65 edges. Lyra on Paper #20 §7-12. **Phase 1 COMPLETE.** Entering Phase 2.

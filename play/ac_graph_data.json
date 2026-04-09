@@ -4,22 +4,22 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 2528,
+  "edge_count": 2551,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
-  "total_edges": 1851,
+  "total_edges": 2551,
   "depth_distribution": {
    "D0": 652,
    "D1": 146,
    "D2": 0
   },
-  "last_modified": "2026-04-04",
+  "last_modified": "2026-04-09",
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 890,
-  "last_updated": "2026-04-04"
+  "node_count": 891,
+  "last_updated": "2026-04-09"
  },
  "theorems": [
   {
@@ -12418,6 +12418,21 @@
    "plain": "B_d = (alpha*m_p/pi)(1+1/g^2) = (alpha*m_p/pi)(50/49). 2.03%\u21920.03%. Tensor force = genus-suppressed quadrupole on CP^2. P_D = 2/g^2 = 4.08%. Closes last major nuclear miss.",
    "proofs": [],
    "section": "BST_T927_Deuteron_DState_Correction"
+  },
+  {
+   "tid": 929,
+   "name": "Baryon Asymmetry Closure",
+   "domain": "cosmology",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 1,
+   "toys": [
+    979
+   ],
+   "date": "2026-04-09",
+   "plain": "eta_b = (3/14)*alpha^4 = A_s * rank/g = (3/4)*alpha^4 * 2/7. At -0.45%. Baryon asymmetry = scalar perturbation \u00d7 symmetry-breaking fraction (rank/genus). ALL 10 MISSES CLOSED. (C=1, D=0).",
+   "proofs": [],
+   "section": "BST_T929_Baryon_Asymmetry_Closure"
   }
  ],
  "edges": [
@@ -25089,6 +25104,121 @@
    "from": 914,
    "to": 927,
    "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 929,
+   "source": "required"
+  },
+  {
+   "from": 705,
+   "to": 929,
+   "source": "required"
+  },
+  {
+   "from": 649,
+   "to": 929,
+   "source": "required"
+  },
+  {
+   "from": 110,
+   "to": 929,
+   "source": "required"
+  },
+  {
+   "from": 927,
+   "to": 929,
+   "source": "required"
+  },
+  {
+   "from": 914,
+   "to": 929,
+   "source": "required"
+  },
+  {
+   "from": 198,
+   "to": 927,
+   "source": "required"
+  },
+  {
+   "from": 187,
+   "to": 927,
+   "source": "required"
+  },
+  {
+   "from": 269,
+   "to": 927,
+   "source": "structural"
+  },
+  {
+   "from": 270,
+   "to": 927,
+   "source": "structural"
+  },
+  {
+   "from": 188,
+   "to": 927,
+   "source": "structural"
+  },
+  {
+   "from": 610,
+   "to": 927,
+   "source": "structural"
+  },
+  {
+   "from": 651,
+   "to": 927,
+   "source": "required"
+  },
+  {
+   "from": 853,
+   "to": 927,
+   "source": "structural"
+  },
+  {
+   "from": 916,
+   "to": 927,
+   "source": "structural"
+  },
+  {
+   "from": 203,
+   "to": 929,
+   "source": "required"
+  },
+  {
+   "from": 198,
+   "to": 929,
+   "source": "required"
+  },
+  {
+   "from": 666,
+   "to": 929,
+   "source": "required"
+  },
+  {
+   "from": 204,
+   "to": 929,
+   "source": "structural"
+  },
+  {
+   "from": 170,
+   "to": 929,
+   "source": "structural"
+  },
+  {
+   "from": 712,
+   "to": 929,
+   "source": "structural"
+  },
+  {
+   "from": 835,
+   "to": 929,
+   "source": "structural"
+  },
+  {
+   "from": 918,
+   "to": 929,
+   "source": "structural"
   }
  ],
  "chains": {}
