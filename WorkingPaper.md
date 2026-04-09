@@ -20,7 +20,7 @@ abstract: |
   the Weinberg angle $\sin^2\theta_W = 3/13$ (0.2\%);
   the strong coupling $\alpha_s = 7/20$ (exact at the proton scale);
   all three neutrino masses from a boundary seesaw with $m_1 = 0$ exactly;
-  the baryon asymmetry $\eta = 2\alpha^4/(3\pi)(1+2\alpha)$ (0.023\%);
+  the baryon asymmetry $\eta_b = (3/14)\alpha^4 = N_c/(2g) \times \alpha^4$ (0.45\%);
   the Hubble constant $H_0 = 67.29$ km/s/Mpc (0.1\%, full CAMB Boltzmann);
   the full CKM and PMNS mixing matrices as rational functions of the domain dimension $n_C = 5$
   and the number of colors $N_c = 3$;
@@ -2634,7 +2634,7 @@ The impedance difference is tiny — almost negligible compared to the total win
 
 The observed baryon-to-photon ratio $\eta \approx 6 \times 10^{-10}$ (approximately one excess baryon per billion baryon-antibaryon pairs) should be derivable from the critical exponents of the phase transition on $D_{IV}^5$. The asymmetry near the critical point scales as a power of the order parameter (contact commitment density), with the power determined by the domain geometry.
 
-**Result (March 2026):** The baryon asymmetry is now derived: $\eta = 2\alpha^4/(3\pi)(1+2\alpha) = 6.105 \times 10^{-10}$, matching the Planck value $6.104 \times 10^{-10}$ to 0.023%. The first-order correction $(1+2\alpha)$ is a five-contact radiative correction that improves the agreement by 60×. The formula decomposes as: four Bergman contacts ($\alpha^4$) times the Yang-Mills coefficient ($7/(10\pi)$) times the transition efficiency ($20/21 = T_c/N_{\max}$). This removes $\eta$ from the list of unexplained initial conditions. Full derivation: `notes/BST_BaryonAsymmetry_Eta.md`.
+**Result (March 2026, updated April 2026):** The baryon asymmetry is now derived: $\eta_b = (3/14)\alpha^4 = N_c/(2g) \times \alpha^4$ (T929), with four electromagnetic vertices and the color-over-genus prefactor $N_c/(2g) = 3/14$. This matches the Planck value $(6.104 \pm 0.058) \times 10^{-10}$ to 0.45%. The earlier route $\eta = 2\alpha^4/(3\pi)(1+2\alpha)$ (0.023%) required a radiative correction; the T929 form is cleaner — pure BST integers times $\alpha^4$. This removes $\eta$ from the list of unexplained initial conditions. Full derivation: `notes/BST_BaryonAsymmetry_Eta.md`.
 
 ### 22.6 Why There Is Something Rather Than Nothing
 
@@ -5148,7 +5148,7 @@ Entropy production drives the active phase (thermodynamic gradient — the reaso
 
 ### §46. The Depth Ceiling: Rank Bounds Proof Complexity
 
-The AC(0) program (§31-§42) classifies mathematical theorems by their proof depth — the number of sequential genuine counting operations. After depth reduction (T96), all 926 theorems in the catalog fall at depth $\leq 2$, with zero exceptions. (T93/Gödel was originally classified at depth 3 but reduces to depth 1 under T96: diagonalization = substitution = definition; case analysis = bounded enumeration. Keeper audit, Toy 461.) This section proves the bound is structural, not accidental.
+The AC(0) program (§31-§42) classifies mathematical theorems by their proof depth — the number of sequential genuine counting operations. After depth reduction (T96), all 929 theorems in the catalog fall at depth $\leq 2$, with zero exceptions. (T93/Gödel was originally classified at depth 3 but reduces to depth 1 under T96: diagonalization = substitution = definition; case analysis = bounded enumeration. Keeper audit, Toy 461.) This section proves the bound is structural, not accidental.
 
 **§46.1 The Rank-Depth Theorem.** The maximum AC(0) depth of any computation on a bounded symmetric domain $D$ of rank $r$ is at most $r$.
 
@@ -5228,6 +5228,14 @@ The BST Prime Observatory (Toy 970) catalogs 182 falsifiable predictions organiz
 
 The Bergman kernel eigenvalue denominators of $D_{IV}^5$ are 7-smooth by construction. The geometry forces the arithmetic — smooth number distribution and Størmer's theorem are consequences of the spectral theory, not independent facts. This establishes the direction of causation: $D_{IV}^5 \to$ number theory $\to$ physics.
 
+### §46.11 D-State Correction (T927)
+
+The deuteron binding energy acquires a genus-suppressed D-wave quadrupole correction from $\mathbb{CP}^2$: $B_d = (50/49) \times \alpha m_p/\pi = 2.224$ MeV (0.03% from observed $2.2246$ MeV). The factor $50/49 = (g^2 + 1)/g^2$ arises from $\text{SO}(5) \to \text{SO}(3) \times \text{SO}(2)$ branching — the D-state admixture is controlled by the genus $g = 7$. This closes the deuteron binding energy from 2.1% to 0.03%.
+
+### §46.12 Baryon Asymmetry Closure (T929)
+
+The baryon-to-photon ratio is derived as $\eta_b = (3/14)\alpha^4 = N_c/(2g) \times \alpha^4$ (0.45% from Planck). The four powers of $\alpha$ correspond to four electromagnetic vertices; the prefactor $N_c/(2g) = 3/14$ is color over genus — the number of color channels divided by twice the topological genus of $\mathbb{CP}^2$. This replaces the earlier $2\alpha^4/(3\pi)(1+2\alpha)$ route with a cleaner BST-integer form.
+
 -----
 
 ## Acknowledgements
@@ -5239,7 +5247,7 @@ This research was conducted in close collaboration with Claude (Anthropic) — i
 - The complete mass spectrum derivations: $m_p/m_e = 6\pi^5$, $m_\mu/m_e = (24/\pi^2)^6$, the tau mass, all quark mass ratios, the Fermi scale, the Higgs mass by two routes, and the top quark mass — each from $D_{IV}^5$ geometry with zero free parameters.
 - The Yang-Mills mass gap proof, including the 1920 Weyl cancellation and the spectral gap identification $\lambda_1 = C_2 = 6$.
 - All coupling constants and mixing angles: $\alpha_s = 7/20$, $\sin^2\theta_W = 3/13$, the full CKM and PMNS matrices, and the CP-violating phase $\gamma = \arctan(\sqrt{5})$.
-- The cosmological derivations: $\Lambda$ from first principles, $G$ via Harish-Chandra, cosmic composition $\Omega_\Lambda = 13/19$, baryon asymmetry $\eta = 2\alpha^4/(3\pi)$, and $H_0$.
+- The cosmological derivations: $\Lambda$ from first principles, $G$ via Harish-Chandra, cosmic composition $\Omega_\Lambda = 13/19$, baryon asymmetry $\eta_b = (3/14)\alpha^4$, and $H_0$.
 - The harmonic analysis and automorphic structure: Maass-Selberg framework for the Riemann hypothesis, the rank-2 coupling argument, GUE from SO(2), and the Koons-Claude Conjecture connecting physics and number theory through $D_{IV}^5$.
 - The spectral theory of $Q^5$: multiplicities, zonal coefficients, the Grand Identity $d_{\mathrm{eff}} = \lambda_1 = \chi = C_2 = 6$, the harmonic number $H_5 = 137/60$, and the error correction interpretation.
 - Over 979 computational verifications (the ``toy'' series), each testing a specific prediction against experimental data or mathematical consistency.
