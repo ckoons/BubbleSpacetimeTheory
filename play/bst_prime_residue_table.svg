@@ -1,0 +1,579 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1912" height="4396" viewBox="0 0 1912 4396">
+<rect width="1912" height="4396" fill="#ffffff"/>
+<text x="956.0" y="120" font-size="42" fill="#212121" text-anchor="middle" font-weight="bold" font-family="sans-serif">THE BST PRIME RESIDUE TABLE</text>
+<text x="956.0" y="160" font-size="22" fill="#37474f" text-anchor="middle" font-weight="normal" font-family="sans-serif">Physics Lives Where the Geometry's Factorization Fails</text>
+<text x="956.0" y="195" font-size="14" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">BST Integers: rank=2, N_c=3, n_C=5, C_2=6, g=7  |  Composites up to 1000  |  84 entries</text>
+<text x="956.0" y="220" font-size="13" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">For each BST composite n: test isprime(n+1) and isprime(n-1). Complexity: AC(0).</text>
+<text x="90" y="304" font-size="16" fill="#37474f" text-anchor="start" font-weight="bold" font-family="sans-serif">[R] Rank (topology)</text>
+<rect x="80" y="316" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="220.0" y="334" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">2 = 2</text>
+<text x="220.0" y="349" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank</text>
+<text x="350" y="372" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">3 --></text>
+<text x="350" y="388" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Color charge SU(3)</text>
+<text x="220.0" y="430" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 1</text>
+<rect x="372" y="316" width="280" height="120" fill="#e8f5e9" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="512.0" y="334" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">4 = 2 x 2</text>
+<text x="512.0" y="349" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank</text>
+<text x="382" y="372" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 3</text>
+<text x="382" y="388" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Color charge SU(3)</text>
+<text x="642" y="372" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">5 --></text>
+<text x="642" y="388" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Compact dimensions</text>
+<text x="512.0" y="416" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="512.0" y="430" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 2</text>
+<rect x="664" y="316" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="804.0" y="334" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">8 = 2 x 2 x 2</text>
+<text x="804.0" y="349" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank</text>
+<text x="674" y="372" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 7</text>
+<text x="674" y="388" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">D_IV^5 genus, dual: 6+1 AND 8-</text>
+<text x="804.0" y="430" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 3</text>
+<rect x="956" y="316" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="1096.0" y="334" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">16 = 2 x 2 x 2 x 2</text>
+<text x="1096.0" y="349" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank</text>
+<text x="1226" y="372" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">17 --></text>
+<text x="1226" y="388" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Chlorine Z=17, halogen period</text>
+<text x="1096.0" y="430" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="1248" y="316" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="1388.0" y="334" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">32 = 2 x 2 x 2 x 2 x 2</text>
+<text x="1388.0" y="349" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank x rank</text>
+<text x="1258" y="372" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 31</text>
+<text x="1258" y="388" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Mersenne 2^5-1, Hamming [31,26</text>
+<text x="1388.0" y="430" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<rect x="1540" y="316" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="1680.0" y="334" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">128 = 2 x 2 x 2 x 2 x 2 x 2 x 2</text>
+<text x="1680.0" y="349" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank x rank x rank x rank</text>
+<text x="1550" y="372" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 127</text>
+<text x="1550" y="388" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Mersenne M_7, BCH codes</text>
+<text x="1680.0" y="430" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 7</text>
+<rect x="80" y="448" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="220.0" y="466" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">256 = 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2</text>
+<text x="220.0" y="481" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank x rank x rank x rank x rank</text>
+<text x="350" y="504" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">257 --></text>
+<text x="350" y="520" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="220.0" y="562" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 8</text>
+<text x="90" y="624" font-size="16" fill="#37474f" text-anchor="start" font-weight="bold" font-family="sans-serif">[C] N_c (color)</text>
+<rect x="80" y="636" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="220.0" y="654" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">3 = 3</text>
+<text x="220.0" y="669" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c</text>
+<text x="90" y="692" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 2</text>
+<text x="90" y="708" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">D_IV^5 rank</text>
+<text x="220.0" y="750" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 1</text>
+<text x="90" y="812" font-size="16" fill="#37474f" text-anchor="start" font-weight="bold" font-family="sans-serif">[K] C_2 (Casimir)</text>
+<rect x="80" y="824" width="280" height="120" fill="#e8f5e9" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="220.0" y="842" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">6 = 6</text>
+<text x="220.0" y="857" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">C_2</text>
+<text x="90" y="880" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 5</text>
+<text x="90" y="896" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Compact dimensions</text>
+<text x="350" y="880" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">7 --></text>
+<text x="350" y="896" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">D_IV^5 genus, dual: 6+1 AND 8-</text>
+<text x="220.0" y="924" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="220.0" y="938" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 1</text>
+<rect x="372" y="824" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="512.0" y="842" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">36 = 6 x 6</text>
+<text x="512.0" y="857" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">C_2 x C_2</text>
+<text x="642" y="880" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">37 --></text>
+<text x="642" y="896" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Rubidium Z=37, nuclear structu</text>
+<text x="512.0" y="938" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 2</text>
+<text x="90" y="1000" font-size="16" fill="#37474f" text-anchor="start" font-weight="bold" font-family="sans-serif">[DR] Rank x Compact</text>
+<rect x="80" y="1012" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="220.0" y="1030" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">10 = 2 x 5</text>
+<text x="220.0" y="1045" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x n_C</text>
+<text x="350" y="1068" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">11 --></text>
+<text x="350" y="1084" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Sodium Z=11, magic alkali</text>
+<text x="220.0" y="1126" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 2</text>
+<rect x="372" y="1012" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="512.0" y="1030" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">20 = 2 x 2 x 5</text>
+<text x="512.0" y="1045" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x n_C</text>
+<text x="382" y="1068" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 19</text>
+<text x="382" y="1084" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Omega_Lambda = 13/19 denom, 19</text>
+<text x="512.0" y="1126" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 3</text>
+<rect x="664" y="1012" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="804.0" y="1030" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">40 = 2 x 2 x 2 x 5</text>
+<text x="804.0" y="1045" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x n_C</text>
+<text x="934" y="1068" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">41 --></text>
+<text x="934" y="1084" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Niobium Z=41, superconductor</text>
+<text x="804.0" y="1126" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="956" y="1012" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="1096.0" y="1030" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">80 = 2 x 2 x 2 x 2 x 5</text>
+<text x="1096.0" y="1045" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank x n_C</text>
+<text x="966" y="1068" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 79</text>
+<text x="966" y="1084" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Gold Z=79, noble metal</text>
+<text x="1096.0" y="1126" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<rect x="1248" y="1012" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="1388.0" y="1030" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">100 = 2 x 2 x 5 x 5</text>
+<text x="1388.0" y="1045" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x n_C x n_C</text>
+<text x="1518" y="1068" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">101 --></text>
+<text x="1518" y="1084" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Mendelevium Z=101</text>
+<text x="1388.0" y="1126" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="1540" y="1012" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1680.0" y="1030" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">200 = 2 x 2 x 2 x 5 x 5</text>
+<text x="1680.0" y="1045" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x n_C x n_C</text>
+<text x="1550" y="1068" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 199</text>
+<text x="1550" y="1084" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1680.0" y="1126" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<rect x="80" y="1144" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="220.0" y="1162" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">250 = 2 x 5 x 5 x 5</text>
+<text x="220.0" y="1177" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x n_C x n_C x n_C</text>
+<text x="350" y="1200" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">251 --></text>
+<text x="350" y="1216" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">DUAL: 250+1 AND 252-1</text>
+<text x="220.0" y="1258" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="372" y="1144" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="512.0" y="1162" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">400 = 2 x 2 x 2 x 2 x 5 x 5</text>
+<text x="512.0" y="1177" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank x n_C x n_C</text>
+<text x="642" y="1200" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">401 --></text>
+<text x="642" y="1216" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="512.0" y="1258" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 6</text>
+<rect x="664" y="1144" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="804.0" y="1162" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">500 = 2 x 2 x 5 x 5 x 5</text>
+<text x="804.0" y="1177" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x n_C x n_C x n_C</text>
+<text x="674" y="1200" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 499</text>
+<text x="674" y="1216" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="804.0" y="1258" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<rect x="956" y="1144" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1096.0" y="1162" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">640 = 2 x 2 x 2 x 2 x 2 x 2 x 2 x 5</text>
+<text x="1096.0" y="1177" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank x rank x rank x rank x n_C</text>
+<text x="1226" y="1200" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">641 --></text>
+<text x="1226" y="1216" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1096.0" y="1258" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 8</text>
+<text x="90" y="1320" font-size="16" fill="#37474f" text-anchor="start" font-weight="bold" font-family="sans-serif">[KR] Rank x Casimir</text>
+<rect x="80" y="1332" width="280" height="120" fill="#e8f5e9" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="220.0" y="1350" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">12 = 2 x 6</text>
+<text x="220.0" y="1365" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x C_2</text>
+<text x="90" y="1388" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 11</text>
+<text x="90" y="1404" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Sodium Z=11, magic alkali</text>
+<text x="350" y="1388" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">13 --></text>
+<text x="350" y="1404" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Omega_Lambda = 13/19 numerator</text>
+<text x="220.0" y="1432" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="220.0" y="1446" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 2</text>
+<rect x="372" y="1332" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="512.0" y="1350" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">24 = 2 x 2 x 6</text>
+<text x="512.0" y="1365" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x C_2</text>
+<text x="382" y="1388" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 23</text>
+<text x="382" y="1404" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Vanadium Z=23</text>
+<text x="512.0" y="1446" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 3</text>
+<rect x="664" y="1332" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="804.0" y="1350" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">48 = 2 x 2 x 2 x 6</text>
+<text x="804.0" y="1365" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x C_2</text>
+<text x="674" y="1388" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 47</text>
+<text x="674" y="1404" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Silver Z=47, conductor</text>
+<text x="804.0" y="1446" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="956" y="1332" width="280" height="120" fill="#e8f5e9" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="1096.0" y="1350" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">72 = 2 x 6 x 6</text>
+<text x="1096.0" y="1365" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x C_2 x C_2</text>
+<text x="966" y="1388" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 71</text>
+<text x="966" y="1404" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Lutetium Z=71, last lanthanide</text>
+<text x="1226" y="1388" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">73 --></text>
+<text x="1226" y="1404" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Tantalum Z=73, capacitors</text>
+<text x="1096.0" y="1432" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="1096.0" y="1446" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 3</text>
+<rect x="1248" y="1332" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="1388.0" y="1350" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">96 = 2 x 2 x 2 x 2 x 6</text>
+<text x="1388.0" y="1365" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank x C_2</text>
+<text x="1518" y="1388" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">97 --></text>
+<text x="1518" y="1404" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Berkelium Z=97, transuranic</text>
+<text x="1388.0" y="1446" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<rect x="1540" y="1332" width="280" height="120" fill="#fff8e1" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="1680.0" y="1350" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">192 = 2 x 2 x 2 x 2 x 2 x 6</text>
+<text x="1680.0" y="1365" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank x rank x C_2</text>
+<text x="1550" y="1388" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 191</text>
+<text x="1550" y="1404" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1810" y="1388" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">193 --></text>
+<text x="1810" y="1404" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1680.0" y="1432" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="1680.0" y="1446" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 6</text>
+<rect x="80" y="1464" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="220.0" y="1482" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">384 = 2 x 2 x 2 x 2 x 2 x 2 x 6</text>
+<text x="220.0" y="1497" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank x rank x rank x C_2</text>
+<text x="90" y="1520" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 383</text>
+<text x="90" y="1536" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="220.0" y="1578" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 7</text>
+<rect x="372" y="1464" width="280" height="120" fill="#fff8e1" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="512.0" y="1482" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">432 = 2 x 6 x 6 x 6</text>
+<text x="512.0" y="1497" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x C_2 x C_2 x C_2</text>
+<text x="382" y="1520" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 431</text>
+<text x="382" y="1536" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="642" y="1520" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">433 --></text>
+<text x="642" y="1536" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="512.0" y="1564" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="512.0" y="1578" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="664" y="1464" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="804.0" y="1482" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">576 = 2 x 2 x 2 x 2 x 6 x 6</text>
+<text x="804.0" y="1497" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank x C_2 x C_2</text>
+<text x="934" y="1520" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">577 --></text>
+<text x="934" y="1536" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="804.0" y="1578" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 6</text>
+<rect x="956" y="1464" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1096.0" y="1482" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">768 = 2 x 2 x 2 x 2 x 2 x 2 x 2 x 6</text>
+<text x="1096.0" y="1497" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank x rank x rank x rank x C_2</text>
+<text x="1226" y="1520" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">769 --></text>
+<text x="1226" y="1536" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1096.0" y="1578" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 8</text>
+<rect x="1248" y="1464" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1388.0" y="1482" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">864 = 2 x 2 x 6 x 6 x 6</text>
+<text x="1388.0" y="1497" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x C_2 x C_2 x C_2</text>
+<text x="1258" y="1520" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 863</text>
+<text x="1258" y="1536" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1388.0" y="1578" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<text x="90" y="1640" font-size="16" fill="#37474f" text-anchor="start" font-weight="bold" font-family="sans-serif">[GR] Rank x Genus</text>
+<rect x="80" y="1652" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="220.0" y="1670" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">14 = 2 x 7</text>
+<text x="220.0" y="1685" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x g</text>
+<text x="90" y="1708" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 13</text>
+<text x="90" y="1724" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Omega_Lambda = 13/19 numerator</text>
+<text x="220.0" y="1766" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 2</text>
+<rect x="372" y="1652" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="512.0" y="1670" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">28 = 2 x 2 x 7</text>
+<text x="512.0" y="1685" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x g</text>
+<text x="642" y="1708" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">29 --></text>
+<text x="642" y="1724" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Copper Z=29, conductor</text>
+<text x="512.0" y="1766" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 3</text>
+<rect x="664" y="1652" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="804.0" y="1670" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">98 = 2 x 7 x 7</text>
+<text x="804.0" y="1685" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x g x g</text>
+<text x="674" y="1708" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 97</text>
+<text x="674" y="1724" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Berkelium Z=97, transuranic</text>
+<text x="804.0" y="1766" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 3</text>
+<rect x="956" y="1652" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1096.0" y="1670" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">112 = 2 x 2 x 2 x 2 x 7</text>
+<text x="1096.0" y="1685" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank x g</text>
+<text x="1226" y="1708" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">113 --></text>
+<text x="1226" y="1724" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1096.0" y="1766" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<rect x="1248" y="1652" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1388.0" y="1670" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">196 = 2 x 2 x 7 x 7</text>
+<text x="1388.0" y="1685" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x g x g</text>
+<text x="1518" y="1708" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">197 --></text>
+<text x="1518" y="1724" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1388.0" y="1766" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="1540" y="1652" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1680.0" y="1670" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">224 = 2 x 2 x 2 x 2 x 2 x 7</text>
+<text x="1680.0" y="1685" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank x rank x g</text>
+<text x="1550" y="1708" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 223</text>
+<text x="1550" y="1724" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1680.0" y="1766" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 6</text>
+<rect x="80" y="1784" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="220.0" y="1802" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">448 = 2 x 2 x 2 x 2 x 2 x 2 x 7</text>
+<text x="220.0" y="1817" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank x rank x rank x g</text>
+<text x="350" y="1840" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">449 --></text>
+<text x="350" y="1856" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="220.0" y="1898" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 7</text>
+<text x="90" y="1960" font-size="16" fill="#37474f" text-anchor="start" font-weight="bold" font-family="sans-serif">[CK] Color x Casimir</text>
+<rect x="80" y="1972" width="280" height="120" fill="#e8f5e9" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="220.0" y="1990" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">18 = 3 x 6</text>
+<text x="220.0" y="2005" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x C_2</text>
+<text x="90" y="2028" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 17</text>
+<text x="90" y="2044" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Chlorine Z=17, halogen period</text>
+<text x="350" y="2028" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">19 --></text>
+<text x="350" y="2044" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Omega_Lambda = 13/19 denom, 19</text>
+<text x="220.0" y="2072" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="220.0" y="2086" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 2</text>
+<rect x="372" y="1972" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="512.0" y="1990" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">54 = 3 x 3 x 6</text>
+<text x="512.0" y="2005" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x N_c x C_2</text>
+<text x="382" y="2028" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 53</text>
+<text x="382" y="2044" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Iodine Z=53, halogen</text>
+<text x="512.0" y="2086" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 3</text>
+<rect x="664" y="1972" width="280" height="120" fill="#e8f5e9" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="804.0" y="1990" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">108 = 3 x 6 x 6</text>
+<text x="804.0" y="2005" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x C_2 x C_2</text>
+<text x="674" y="2028" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 107</text>
+<text x="674" y="2044" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Bohrium Z=107</text>
+<text x="934" y="2028" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">109 --></text>
+<text x="934" y="2044" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Meitnerium Z=109</text>
+<text x="804.0" y="2072" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="804.0" y="2086" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 3</text>
+<rect x="956" y="1972" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1096.0" y="1990" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">162 = 3 x 3 x 3 x 6</text>
+<text x="1096.0" y="2005" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x N_c x N_c x C_2</text>
+<text x="1226" y="2028" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">163 --></text>
+<text x="1226" y="2044" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1096.0" y="2086" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="1248" y="1972" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1388.0" y="1990" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">486 = 3 x 3 x 3 x 3 x 6</text>
+<text x="1388.0" y="2005" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x N_c x N_c x N_c x C_2</text>
+<text x="1518" y="2028" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">487 --></text>
+<text x="1518" y="2044" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1388.0" y="2086" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<rect x="1540" y="1972" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1680.0" y="1990" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">648 = 3 x 6 x 6 x 6</text>
+<text x="1680.0" y="2005" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x C_2 x C_2 x C_2</text>
+<text x="1550" y="2028" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 647</text>
+<text x="1550" y="2044" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1680.0" y="2086" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="80" y="2104" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="220.0" y="2122" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">972 = 3 x 3 x 3 x 6 x 6</text>
+<text x="220.0" y="2137" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x N_c x N_c x C_2 x C_2</text>
+<text x="90" y="2160" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 971</text>
+<text x="90" y="2176" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="220.0" y="2218" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<text x="90" y="2280" font-size="16" fill="#37474f" text-anchor="start" font-weight="bold" font-family="sans-serif">[DK] Compact x Casimir</text>
+<rect x="80" y="2292" width="280" height="120" fill="#e8f5e9" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="220.0" y="2310" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">30 = 5 x 6</text>
+<text x="220.0" y="2325" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">n_C x C_2</text>
+<text x="90" y="2348" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 29</text>
+<text x="90" y="2364" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Copper Z=29, conductor</text>
+<text x="350" y="2348" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">31 --></text>
+<text x="350" y="2364" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Mersenne 2^5-1, Hamming [31,26</text>
+<text x="220.0" y="2392" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="220.0" y="2406" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 2</text>
+<rect x="372" y="2292" width="280" height="120" fill="#fff8e1" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="512.0" y="2310" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">150 = 5 x 5 x 6</text>
+<text x="512.0" y="2325" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">n_C x n_C x C_2</text>
+<text x="382" y="2348" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 149</text>
+<text x="382" y="2364" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="642" y="2348" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">151 --></text>
+<text x="642" y="2364" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="512.0" y="2392" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="512.0" y="2406" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 3</text>
+<rect x="664" y="2292" width="280" height="120" fill="#e8f0e8" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="804.0" y="2310" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">180 = 5 x 6 x 6</text>
+<text x="804.0" y="2325" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">n_C x C_2 x C_2</text>
+<text x="674" y="2348" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 179</text>
+<text x="674" y="2364" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="934" y="2348" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">181 --></text>
+<text x="934" y="2364" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Proton number, stable region</text>
+<text x="804.0" y="2392" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="804.0" y="2406" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 3</text>
+<rect x="956" y="2292" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1096.0" y="2310" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">750 = 5 x 5 x 5 x 6</text>
+<text x="1096.0" y="2325" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">n_C x n_C x n_C x C_2</text>
+<text x="1226" y="2348" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">751 --></text>
+<text x="1226" y="2364" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1096.0" y="2406" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<text x="90" y="2468" font-size="16" fill="#37474f" text-anchor="start" font-weight="bold" font-family="sans-serif">[CDK] Color x Compact x Casimir</text>
+<rect x="80" y="2480" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="220.0" y="2498" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">90 = 3 x 5 x 6</text>
+<text x="220.0" y="2513" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x n_C x C_2</text>
+<text x="90" y="2536" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 89</text>
+<text x="90" y="2552" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Actinium Z=89, f-block start</text>
+<text x="220.0" y="2594" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 3</text>
+<rect x="372" y="2480" width="280" height="120" fill="#fff8e1" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="512.0" y="2498" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">270 = 3 x 3 x 5 x 6</text>
+<text x="512.0" y="2513" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x N_c x n_C x C_2</text>
+<text x="382" y="2536" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 269</text>
+<text x="382" y="2552" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="642" y="2536" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">271 --></text>
+<text x="642" y="2552" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="512.0" y="2580" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="512.0" y="2594" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="664" y="2480" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="804.0" y="2498" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">450 = 3 x 5 x 5 x 6</text>
+<text x="804.0" y="2513" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x n_C x n_C x C_2</text>
+<text x="674" y="2536" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 449</text>
+<text x="674" y="2552" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="804.0" y="2594" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="956" y="2480" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1096.0" y="2498" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">540 = 3 x 5 x 6 x 6</text>
+<text x="1096.0" y="2513" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x n_C x C_2 x C_2</text>
+<text x="1226" y="2536" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">541 --></text>
+<text x="1226" y="2552" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1096.0" y="2594" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="1248" y="2480" width="280" height="120" fill="#fff8e1" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="1388.0" y="2498" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">810 = 3 x 3 x 3 x 5 x 6</text>
+<text x="1388.0" y="2513" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x N_c x N_c x n_C x C_2</text>
+<text x="1258" y="2536" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 809</text>
+<text x="1258" y="2552" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1518" y="2536" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">811 --></text>
+<text x="1518" y="2552" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1388.0" y="2580" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="1388.0" y="2594" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<text x="90" y="2656" font-size="16" fill="#37474f" text-anchor="start" font-weight="bold" font-family="sans-serif">[CGK] CGK</text>
+<rect x="80" y="2668" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="220.0" y="2686" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">126 = 3 x 6 x 7</text>
+<text x="220.0" y="2701" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x C_2 x g</text>
+<text x="350" y="2724" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">127 --></text>
+<text x="350" y="2740" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Mersenne M_7, BCH codes</text>
+<text x="220.0" y="2782" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 3</text>
+<rect x="372" y="2668" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="512.0" y="2686" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">378 = 3 x 3 x 6 x 7</text>
+<text x="512.0" y="2701" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x N_c x C_2 x g</text>
+<text x="642" y="2724" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">379 --></text>
+<text x="642" y="2740" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="512.0" y="2782" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="664" y="2668" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="804.0" y="2686" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">756 = 3 x 6 x 6 x 7</text>
+<text x="804.0" y="2701" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x C_2 x C_2 x g</text>
+<text x="934" y="2724" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">757 --></text>
+<text x="934" y="2740" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="804.0" y="2782" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="956" y="2668" width="280" height="120" fill="#fff8e1" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="1096.0" y="2686" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">882 = 3 x 6 x 7 x 7</text>
+<text x="1096.0" y="2701" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x C_2 x g x g</text>
+<text x="966" y="2724" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 881</text>
+<text x="966" y="2740" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1226" y="2724" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">883 --></text>
+<text x="1226" y="2740" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1096.0" y="2768" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="1096.0" y="2782" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<text x="90" y="2844" font-size="16" fill="#37474f" text-anchor="start" font-weight="bold" font-family="sans-serif">[DGK] DGK</text>
+<rect x="80" y="2856" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="220.0" y="2874" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">210 = 5 x 6 x 7</text>
+<text x="220.0" y="2889" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">n_C x C_2 x g</text>
+<text x="350" y="2912" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">211 --></text>
+<text x="350" y="2928" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Near Bi-209 neighborhood</text>
+<text x="220.0" y="2970" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 3</text>
+<text x="90" y="3032" font-size="16" fill="#37474f" text-anchor="start" font-weight="bold" font-family="sans-serif">[DGR] Rank x Compact x Genus</text>
+<rect x="80" y="3044" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="220.0" y="3062" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">70 = 2 x 5 x 7</text>
+<text x="220.0" y="3077" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x n_C x g</text>
+<text x="350" y="3100" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">71 --></text>
+<text x="350" y="3116" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Lutetium Z=71, last lanthanide</text>
+<text x="220.0" y="3158" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 3</text>
+<rect x="372" y="3044" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="512.0" y="3062" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">140 = 2 x 2 x 5 x 7</text>
+<text x="512.0" y="3077" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x n_C x g</text>
+<text x="382" y="3100" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 139</text>
+<text x="382" y="3116" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Near N_max</text>
+<text x="512.0" y="3158" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="664" y="3044" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="804.0" y="3062" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">280 = 2 x 2 x 2 x 5 x 7</text>
+<text x="804.0" y="3077" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x n_C x g</text>
+<text x="934" y="3100" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">281 --></text>
+<text x="934" y="3116" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="804.0" y="3158" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<rect x="956" y="3044" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1096.0" y="3062" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">350 = 2 x 5 x 5 x 7</text>
+<text x="1096.0" y="3077" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x n_C x n_C x g</text>
+<text x="966" y="3100" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 349</text>
+<text x="966" y="3116" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1096.0" y="3158" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="1248" y="3044" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1388.0" y="3062" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">490 = 2 x 5 x 7 x 7</text>
+<text x="1388.0" y="3077" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x n_C x g x g</text>
+<text x="1518" y="3100" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">491 --></text>
+<text x="1518" y="3116" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1388.0" y="3158" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="1540" y="3044" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1680.0" y="3062" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">700 = 2 x 2 x 5 x 5 x 7</text>
+<text x="1680.0" y="3077" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x n_C x n_C x g</text>
+<text x="1810" y="3100" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">701 --></text>
+<text x="1810" y="3116" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1680.0" y="3158" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<text x="90" y="3220" font-size="16" fill="#37474f" text-anchor="start" font-weight="bold" font-family="sans-serif">[DKR] Rank x Compact x Casimir</text>
+<rect x="80" y="3232" width="280" height="120" fill="#e8f5e9" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="220.0" y="3250" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">60 = 2 x 5 x 6</text>
+<text x="220.0" y="3265" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x n_C x C_2</text>
+<text x="90" y="3288" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 59</text>
+<text x="90" y="3304" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Praseodymium Z=59, rare earth</text>
+<text x="350" y="3288" font-size="14" fill="#2d7d46" text-anchor="end" font-weight="bold" font-family="monospace">61 --></text>
+<text x="350" y="3304" font-size="9" fill="#2d7d46" text-anchor="end" font-weight="normal" font-family="sans-serif">Promethium Z=61, radioactive</text>
+<text x="220.0" y="3332" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="220.0" y="3346" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 3</text>
+<rect x="372" y="3232" width="280" height="120" fill="#fff8e1" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="512.0" y="3250" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">240 = 2 x 2 x 2 x 5 x 6</text>
+<text x="512.0" y="3265" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x n_C x C_2</text>
+<text x="382" y="3288" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 239</text>
+<text x="382" y="3304" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="642" y="3288" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">241 --></text>
+<text x="642" y="3304" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="512.0" y="3332" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="512.0" y="3346" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<rect x="664" y="3232" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="804.0" y="3250" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">360 = 2 x 5 x 6 x 6</text>
+<text x="804.0" y="3265" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x n_C x C_2 x C_2</text>
+<text x="674" y="3288" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 359</text>
+<text x="674" y="3304" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="804.0" y="3346" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="956" y="3232" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1096.0" y="3250" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">480 = 2 x 2 x 2 x 2 x 5 x 6</text>
+<text x="1096.0" y="3265" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank x n_C x C_2</text>
+<text x="966" y="3288" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 479</text>
+<text x="966" y="3304" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1096.0" y="3346" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 6</text>
+<rect x="1248" y="3232" width="280" height="120" fill="#fff8e1" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="1388.0" y="3250" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">600 = 2 x 2 x 5 x 5 x 6</text>
+<text x="1388.0" y="3265" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x n_C x n_C x C_2</text>
+<text x="1258" y="3288" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 599</text>
+<text x="1258" y="3304" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1518" y="3288" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">601 --></text>
+<text x="1518" y="3304" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1388.0" y="3332" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="1388.0" y="3346" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<rect x="1540" y="3232" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1680.0" y="3250" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">720 = 2 x 2 x 5 x 6 x 6</text>
+<text x="1680.0" y="3265" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x n_C x C_2 x C_2</text>
+<text x="1550" y="3288" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 719</text>
+<text x="1550" y="3304" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1680.0" y="3346" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<text x="90" y="3408" font-size="16" fill="#37474f" text-anchor="start" font-weight="bold" font-family="sans-serif">[GKR] Rank x Casimir x Genus</text>
+<rect x="80" y="3420" width="280" height="120" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="6"/>
+<text x="220.0" y="3438" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">84 = 2 x 6 x 7</text>
+<text x="220.0" y="3453" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x C_2 x g</text>
+<text x="90" y="3476" font-size="14" fill="#2d7d46" text-anchor="start" font-weight="bold" font-family="monospace"><-- 83</text>
+<text x="90" y="3492" font-size="9" fill="#2d7d46" text-anchor="start" font-weight="normal" font-family="sans-serif">Bismuth Z=83, diamagnet, subst</text>
+<text x="220.0" y="3534" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 3</text>
+<rect x="372" y="3420" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="512.0" y="3438" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">168 = 2 x 2 x 6 x 7</text>
+<text x="512.0" y="3453" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x C_2 x g</text>
+<text x="382" y="3476" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 167</text>
+<text x="382" y="3492" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="512.0" y="3534" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="664" y="3420" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="804.0" y="3438" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">336 = 2 x 2 x 2 x 6 x 7</text>
+<text x="804.0" y="3453" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x C_2 x g</text>
+<text x="934" y="3476" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">337 --></text>
+<text x="934" y="3492" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="804.0" y="3534" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<rect x="956" y="3420" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1096.0" y="3438" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">504 = 2 x 6 x 6 x 7</text>
+<text x="1096.0" y="3453" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x C_2 x C_2 x g</text>
+<text x="966" y="3476" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 503</text>
+<text x="966" y="3492" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1096.0" y="3534" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="1248" y="3420" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1388.0" y="3438" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">588 = 2 x 6 x 7 x 7</text>
+<text x="1388.0" y="3453" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x C_2 x g x g</text>
+<text x="1258" y="3476" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 587</text>
+<text x="1258" y="3492" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1388.0" y="3534" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="1540" y="3420" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="1680.0" y="3438" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">672 = 2 x 2 x 2 x 2 x 6 x 7</text>
+<text x="1680.0" y="3453" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x rank x rank x C_2 x g</text>
+<text x="1810" y="3476" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">673 --></text>
+<text x="1810" y="3492" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="1680.0" y="3534" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 6</text>
+<text x="90" y="3596" font-size="16" fill="#37474f" text-anchor="start" font-weight="bold" font-family="sans-serif">[CDGK] CDGK</text>
+<rect x="80" y="3608" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="220.0" y="3626" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">630 = 3 x 5 x 6 x 7</text>
+<text x="220.0" y="3641" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">N_c x n_C x C_2 x g</text>
+<text x="350" y="3664" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">631 --></text>
+<text x="350" y="3680" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="220.0" y="3722" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<text x="90" y="3784" font-size="16" fill="#37474f" text-anchor="start" font-weight="bold" font-family="sans-serif">[DGKR] DGKR</text>
+<rect x="80" y="3796" width="280" height="120" fill="#fff8e1" stroke="#1565c0" stroke-width="2.5" rx="6"/>
+<text x="220.0" y="3814" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">420 = 2 x 5 x 6 x 7</text>
+<text x="220.0" y="3829" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x n_C x C_2 x g</text>
+<text x="90" y="3852" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 419</text>
+<text x="90" y="3868" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="350" y="3852" font-size="14" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="monospace">421 --></text>
+<text x="350" y="3868" font-size="9" fill="#b8860b" text-anchor="end" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="220.0" y="3896" font-size="10" fill="#1565c0" text-anchor="middle" font-weight="bold" font-family="sans-serif">DUAL</text>
+<text x="220.0" y="3910" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 4</text>
+<rect x="372" y="3796" width="280" height="120" fill="#fff8e1" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+<text x="512.0" y="3814" font-size="13" fill="#212121" text-anchor="middle" font-weight="bold" font-family="monospace">840 = 2 x 2 x 5 x 6 x 7</text>
+<text x="512.0" y="3829" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">rank x rank x n_C x C_2 x g</text>
+<text x="382" y="3852" font-size="14" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="monospace"><-- 839</text>
+<text x="382" y="3868" font-size="9" fill="#b8860b" text-anchor="start" font-weight="bold" font-family="sans-serif">PREDICTED</text>
+<text x="512.0" y="3910" font-size="9" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">Gen 5</text>
+<text x="90" y="3972" font-size="18" fill="#c62828" text-anchor="start" font-weight="bold" font-family="sans-serif">--- THE TERMINUS ---</text>
+<rect x="80" y="3984" width="280" height="120" fill="#ffebee" stroke="#c62828" stroke-width="3" rx="6"/>
+<text x="220.0" y="4012" font-size="20" fill="#c62828" text-anchor="middle" font-weight="bold" font-family="monospace">137 = N_max</text>
+<text x="220.0" y="4034" font-size="11" fill="#c62828" text-anchor="middle" font-weight="normal" font-family="sans-serif">ORPHAN: no adjacent BST composite</text>
+<text x="220.0" y="4052" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">136 = 2^3 x 17 (17 not BST)</text>
+<text x="220.0" y="4066" font-size="10" fill="#757575" text-anchor="middle" font-weight="normal" font-family="monospace">138 = 2 x 3 x 23 (23 not BST)</text>
+<text x="220.0" y="4084" font-size="11" fill="#c62828" text-anchor="middle" font-weight="bold" font-family="sans-serif">1/alpha = fine structure constant</text>
+<line x1="80" y1="4176.0" x2="1832" y2="4176.0" stroke="#757575" stroke-width="0.5"/>
+<text x="90" y="4204.0" font-size="16" fill="#212121" text-anchor="start" font-weight="bold" font-family="sans-serif">LEGEND</text>
+<rect x="90" y="4220.0" width="20" height="14" fill="#e8f5e9" stroke="#2d7d46" stroke-width="2" rx="3"/>
+<text x="118" y="4232.0" font-size="11" fill="#37474f" text-anchor="start" font-weight="normal" font-family="sans-serif">MATCHED: prime has known observable</text>
+<rect x="528" y="4220.0" width="20" height="14" fill="#fff8e1" stroke="#b8860b" stroke-width="2" rx="3"/>
+<text x="556" y="4232.0" font-size="11" fill="#37474f" text-anchor="start" font-weight="normal" font-family="sans-serif">PREDICTED: prime exists, no known observable yet</text>
+<rect x="966" y="4220.0" width="20" height="14" fill="#ffffff" stroke="#1565c0" stroke-width="2" rx="3"/>
+<text x="994" y="4232.0" font-size="11" fill="#37474f" text-anchor="start" font-weight="normal" font-family="sans-serif">DUAL: prime reachable from both +1 and -1</text>
+<rect x="1404" y="4220.0" width="20" height="14" fill="#ffebee" stroke="#c62828" stroke-width="2" rx="3"/>
+<text x="1432" y="4232.0" font-size="11" fill="#37474f" text-anchor="start" font-weight="normal" font-family="sans-serif">ORPHAN: N_max=137, no adjacent BST composite</text>
+<text x="956.0" y="4260.0" font-size="12" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">In 1869, Mendeleev arranged 63 elements by atomic weight and found gaps. He predicted Ga, Ge, Sc from structure alone.</text>
+<text x="956.0" y="4278.0" font-size="12" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">This table arranges BST composites by algebraic structure and finds 83 entries with 182+ prime predictions.</text>
+<text x="956.0" y="4296.0" font-size="12" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">Each gap predicts a physical observable: physics lives where the geometry's factorization fails.</text>
+<text x="956.0" y="4318.0" font-size="12" fill="#212121" text-anchor="middle" font-weight="bold" font-family="sans-serif">© Copyright 2026 Casey Koons. All rights reserved.</text>
+<text x="956.0" y="4336.0" font-size="11" fill="#757575" text-anchor="middle" font-weight="normal" font-family="sans-serif">Bubble Spacetime Theory  |  github.com/BubbleSpacetimeTheory</text>
+</svg>

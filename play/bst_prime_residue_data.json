@@ -1,0 +1,3373 @@
+{
+  "title": "The BST Prime Residue Table",
+  "subtitle": "Physics lives where the geometry's factorization fails",
+  "bst_integers": {
+    "rank": 2,
+    "N_c": 3,
+    "n_C": 5,
+    "C_2": 6,
+    "g": 7
+  },
+  "bound": 10000,
+  "total_composites": 337,
+  "total_primes": 174,
+  "matched": 46,
+  "predicted": 166,
+  "sectors": [
+    "R",
+    "C",
+    "K",
+    "DR",
+    "KR",
+    "GR",
+    "CK",
+    "DK",
+    "CDK",
+    "CGK",
+    "DGK",
+    "DGR",
+    "DKR",
+    "GKR",
+    "CDGK",
+    "DGKR",
+    "ORPHAN"
+  ],
+  "catalog": [
+    {
+      "composite": 2,
+      "factors": [
+        2
+      ],
+      "generation": 1,
+      "sector": "R",
+      "expression": "rank",
+      "expression_num": "2",
+      "plus_prime": 3,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "N_c",
+        "domain": "particle physics",
+        "obs": "Color charge SU(3)",
+        "dev": "exact"
+      },
+      "minus_prime": null
+    },
+    {
+      "composite": 3,
+      "factors": [
+        3
+      ],
+      "generation": 1,
+      "sector": "C",
+      "expression": "N_c",
+      "expression_num": "3",
+      "plus_prime": null,
+      "minus_prime": 2,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "rank",
+        "domain": "geometry",
+        "obs": "D_IV^5 rank",
+        "dev": "exact"
+      }
+    },
+    {
+      "composite": 4,
+      "factors": [
+        2,
+        2
+      ],
+      "generation": 2,
+      "sector": "R",
+      "expression": "rank x rank",
+      "expression_num": "2 x 2",
+      "plus_prime": 5,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "n_C",
+        "domain": "geometry",
+        "obs": "Compact dimensions",
+        "dev": "exact"
+      },
+      "minus_prime": 3,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "N_c",
+        "domain": "particle physics",
+        "obs": "Color charge SU(3)",
+        "dev": "exact"
+      }
+    },
+    {
+      "composite": 6,
+      "factors": [
+        6
+      ],
+      "generation": 1,
+      "sector": "K",
+      "expression": "C_2",
+      "expression_num": "6",
+      "plus_prime": 7,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "g = genus",
+        "domain": "geometry",
+        "obs": "D_IV^5 genus, dual: 6+1 AND 8-1",
+        "dev": "exact"
+      },
+      "minus_prime": 5,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "n_C",
+        "domain": "geometry",
+        "obs": "Compact dimensions",
+        "dev": "exact"
+      }
+    },
+    {
+      "composite": 8,
+      "factors": [
+        2,
+        2,
+        2
+      ],
+      "generation": 3,
+      "sector": "R",
+      "expression": "rank x rank x rank",
+      "expression_num": "2 x 2 x 2",
+      "plus_prime": null,
+      "minus_prime": 7,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "g = genus",
+        "domain": "geometry",
+        "obs": "D_IV^5 genus, dual: 6+1 AND 8-1",
+        "dev": "exact"
+      }
+    },
+    {
+      "composite": 10,
+      "factors": [
+        2,
+        5
+      ],
+      "generation": 2,
+      "sector": "DR",
+      "expression": "rank x n_C",
+      "expression_num": "2 x 5",
+      "plus_prime": 11,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "rank x n_C + 1",
+        "domain": "nuclear",
+        "obs": "Sodium Z=11, magic alkali",
+        "dev": ""
+      },
+      "minus_prime": null
+    },
+    {
+      "composite": 12,
+      "factors": [
+        2,
+        6
+      ],
+      "generation": 2,
+      "sector": "KR",
+      "expression": "rank x C_2",
+      "expression_num": "2 x 6",
+      "plus_prime": 13,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "2C_2+1",
+        "domain": "cosmology",
+        "obs": "Omega_Lambda = 13/19 numerator",
+        "dev": "0.07 sigma"
+      },
+      "minus_prime": 11,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "rank x n_C + 1",
+        "domain": "nuclear",
+        "obs": "Sodium Z=11, magic alkali",
+        "dev": ""
+      }
+    },
+    {
+      "composite": 14,
+      "factors": [
+        2,
+        7
+      ],
+      "generation": 2,
+      "sector": "GR",
+      "expression": "rank x g",
+      "expression_num": "2 x 7",
+      "plus_prime": null,
+      "minus_prime": 13,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "2C_2+1",
+        "domain": "cosmology",
+        "obs": "Omega_Lambda = 13/19 numerator",
+        "dev": "0.07 sigma"
+      }
+    },
+    {
+      "composite": 16,
+      "factors": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "generation": 4,
+      "sector": "R",
+      "expression": "rank x rank x rank x rank",
+      "expression_num": "2 x 2 x 2 x 2",
+      "plus_prime": 17,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "N_c x C_2 - 1",
+        "domain": "atomic",
+        "obs": "Chlorine Z=17, halogen period",
+        "dev": ""
+      },
+      "minus_prime": null
+    },
+    {
+      "composite": 18,
+      "factors": [
+        3,
+        6
+      ],
+      "generation": 2,
+      "sector": "CK",
+      "expression": "N_c x C_2",
+      "expression_num": "3 x 6",
+      "plus_prime": 19,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "2N_c^2+1",
+        "domain": "cosmology",
+        "obs": "Omega_Lambda = 13/19 denom, 19.1% Godel limit",
+        "dev": "0.07 sigma"
+      },
+      "minus_prime": 17,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "N_c x C_2 - 1",
+        "domain": "atomic",
+        "obs": "Chlorine Z=17, halogen period",
+        "dev": ""
+      }
+    },
+    {
+      "composite": 20,
+      "factors": [
+        2,
+        2,
+        5
+      ],
+      "generation": 3,
+      "sector": "DR",
+      "expression": "rank x rank x n_C",
+      "expression_num": "2 x 2 x 5",
+      "plus_prime": null,
+      "minus_prime": 19,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "2N_c^2+1",
+        "domain": "cosmology",
+        "obs": "Omega_Lambda = 13/19 denom, 19.1% Godel limit",
+        "dev": "0.07 sigma"
+      }
+    },
+    {
+      "composite": 24,
+      "factors": [
+        2,
+        2,
+        6
+      ],
+      "generation": 3,
+      "sector": "KR",
+      "expression": "rank x rank x C_2",
+      "expression_num": "2 x 2 x 6",
+      "plus_prime": null,
+      "minus_prime": 23,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "2^2 x C_2 - 1",
+        "domain": "atomic",
+        "obs": "Vanadium Z=23",
+        "dev": ""
+      }
+    },
+    {
+      "composite": 28,
+      "factors": [
+        2,
+        2,
+        7
+      ],
+      "generation": 3,
+      "sector": "GR",
+      "expression": "rank x rank x g",
+      "expression_num": "2 x 2 x 7",
+      "plus_prime": 29,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "n_C x C_2 - 1",
+        "domain": "condensed matter",
+        "obs": "Copper Z=29, conductor",
+        "dev": ""
+      },
+      "minus_prime": null
+    },
+    {
+      "composite": 30,
+      "factors": [
+        5,
+        6
+      ],
+      "generation": 2,
+      "sector": "DK",
+      "expression": "n_C x C_2",
+      "expression_num": "5 x 6",
+      "plus_prime": 31,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "n_C x C_2 + 1",
+        "domain": "coding theory",
+        "obs": "Mersenne 2^5-1, Hamming [31,26]",
+        "dev": "exact"
+      },
+      "minus_prime": 29,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "n_C x C_2 - 1",
+        "domain": "condensed matter",
+        "obs": "Copper Z=29, conductor",
+        "dev": ""
+      }
+    },
+    {
+      "composite": 32,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "generation": 5,
+      "sector": "R",
+      "expression": "rank x rank x rank x rank x rank",
+      "expression_num": "2 x 2 x 2 x 2 x 2",
+      "plus_prime": null,
+      "minus_prime": 31,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "n_C x C_2 + 1",
+        "domain": "coding theory",
+        "obs": "Mersenne 2^5-1, Hamming [31,26]",
+        "dev": "exact"
+      }
+    },
+    {
+      "composite": 36,
+      "factors": [
+        6,
+        6
+      ],
+      "generation": 2,
+      "sector": "K",
+      "expression": "C_2 x C_2",
+      "expression_num": "6 x 6",
+      "plus_prime": 37,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "C_2^2 + 1",
+        "domain": "nuclear",
+        "obs": "Rubidium Z=37, nuclear structure",
+        "dev": ""
+      },
+      "minus_prime": null
+    },
+    {
+      "composite": 40,
+      "factors": [
+        2,
+        2,
+        2,
+        5
+      ],
+      "generation": 4,
+      "sector": "DR",
+      "expression": "rank x rank x rank x n_C",
+      "expression_num": "2 x 2 x 2 x 5",
+      "plus_prime": 41,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "C_2 x g - 1",
+        "domain": "condensed matter",
+        "obs": "Niobium Z=41, superconductor",
+        "dev": ""
+      },
+      "minus_prime": null
+    },
+    {
+      "composite": 42,
+      "factors": [
+        6,
+        7
+      ],
+      "generation": 2,
+      "sector": "GK",
+      "expression": "C_2 x g",
+      "expression_num": "6 x 7",
+      "plus_prime": 43,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "C_2 x g + 1",
+        "domain": "stat mech",
+        "obs": "Percolation gamma=43/18, 3D Ising beta=14/43",
+        "dev": "exact"
+      },
+      "minus_prime": 41,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "C_2 x g - 1",
+        "domain": "condensed matter",
+        "obs": "Niobium Z=41, superconductor",
+        "dev": ""
+      }
+    },
+    {
+      "composite": 48,
+      "factors": [
+        2,
+        2,
+        2,
+        6
+      ],
+      "generation": 4,
+      "sector": "KR",
+      "expression": "rank x rank x rank x C_2",
+      "expression_num": "2 x 2 x 2 x 6",
+      "plus_prime": null,
+      "minus_prime": 47,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "2^3 x C_2 - 1",
+        "domain": "condensed matter",
+        "obs": "Silver Z=47, conductor",
+        "dev": ""
+      }
+    },
+    {
+      "composite": 54,
+      "factors": [
+        3,
+        3,
+        6
+      ],
+      "generation": 3,
+      "sector": "CK",
+      "expression": "N_c x N_c x C_2",
+      "expression_num": "3 x 3 x 6",
+      "plus_prime": null,
+      "minus_prime": 53,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "N_c^2 x C_2 - 1",
+        "domain": "atomic",
+        "obs": "Iodine Z=53, halogen",
+        "dev": ""
+      }
+    },
+    {
+      "composite": 60,
+      "factors": [
+        2,
+        5,
+        6
+      ],
+      "generation": 3,
+      "sector": "DKR",
+      "expression": "rank x n_C x C_2",
+      "expression_num": "2 x 5 x 6",
+      "plus_prime": 61,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "rank x n_C x C_2 + 1",
+        "domain": "atomic",
+        "obs": "Promethium Z=61, radioactive",
+        "dev": ""
+      },
+      "minus_prime": 59,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "rank x n_C x C_2 - 1",
+        "domain": "atomic",
+        "obs": "Praseodymium Z=59, rare earth",
+        "dev": ""
+      }
+    },
+    {
+      "composite": 70,
+      "factors": [
+        2,
+        5,
+        7
+      ],
+      "generation": 3,
+      "sector": "DGR",
+      "expression": "rank x n_C x g",
+      "expression_num": "2 x 5 x 7",
+      "plus_prime": 71,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "rank x n_C x g + 1",
+        "domain": "atomic",
+        "obs": "Lutetium Z=71, last lanthanide",
+        "dev": ""
+      },
+      "minus_prime": null
+    },
+    {
+      "composite": 72,
+      "factors": [
+        2,
+        6,
+        6
+      ],
+      "generation": 3,
+      "sector": "KR",
+      "expression": "rank x C_2 x C_2",
+      "expression_num": "2 x 6 x 6",
+      "plus_prime": 73,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "rank x C_2^2 + 1",
+        "domain": "condensed matter",
+        "obs": "Tantalum Z=73, capacitors",
+        "dev": ""
+      },
+      "minus_prime": 71,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "rank x n_C x g + 1",
+        "domain": "atomic",
+        "obs": "Lutetium Z=71, last lanthanide",
+        "dev": ""
+      }
+    },
+    {
+      "composite": 80,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "generation": 5,
+      "sector": "DR",
+      "expression": "rank x rank x rank x rank x n_C",
+      "expression_num": "2 x 2 x 2 x 2 x 5",
+      "plus_prime": null,
+      "minus_prime": 79,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "2^4 x n_C - 1",
+        "domain": "condensed matter",
+        "obs": "Gold Z=79, noble metal",
+        "dev": ""
+      }
+    },
+    {
+      "composite": 84,
+      "factors": [
+        2,
+        6,
+        7
+      ],
+      "generation": 3,
+      "sector": "GKR",
+      "expression": "rank x C_2 x g",
+      "expression_num": "2 x 6 x 7",
+      "plus_prime": null,
+      "minus_prime": 83,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "rank x C_2 x g - 1",
+        "domain": "condensed matter",
+        "obs": "Bismuth Z=83, diamagnet, substrate engineering",
+        "dev": ""
+      }
+    },
+    {
+      "composite": 90,
+      "factors": [
+        3,
+        5,
+        6
+      ],
+      "generation": 3,
+      "sector": "CDK",
+      "expression": "N_c x n_C x C_2",
+      "expression_num": "3 x 5 x 6",
+      "plus_prime": null,
+      "minus_prime": 89,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "N_c x n_C x C_2 - 1",
+        "domain": "nuclear",
+        "obs": "Actinium Z=89, f-block start",
+        "dev": ""
+      }
+    },
+    {
+      "composite": 96,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        6
+      ],
+      "generation": 5,
+      "sector": "KR",
+      "expression": "rank x rank x rank x rank x C_2",
+      "expression_num": "2 x 2 x 2 x 2 x 6",
+      "plus_prime": 97,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "rank x g^2 - 1",
+        "domain": "nuclear",
+        "obs": "Berkelium Z=97, transuranic",
+        "dev": ""
+      },
+      "minus_prime": null
+    },
+    {
+      "composite": 98,
+      "factors": [
+        2,
+        7,
+        7
+      ],
+      "generation": 3,
+      "sector": "GR",
+      "expression": "rank x g x g",
+      "expression_num": "2 x 7 x 7",
+      "plus_prime": null,
+      "minus_prime": 97,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "rank x g^2 - 1",
+        "domain": "nuclear",
+        "obs": "Berkelium Z=97, transuranic",
+        "dev": ""
+      }
+    },
+    {
+      "composite": 100,
+      "factors": [
+        2,
+        2,
+        5,
+        5
+      ],
+      "generation": 4,
+      "sector": "DR",
+      "expression": "rank x rank x n_C x n_C",
+      "expression_num": "2 x 2 x 5 x 5",
+      "plus_prime": 101,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "rank^2 x n_C^2 + 1",
+        "domain": "nuclear",
+        "obs": "Mendelevium Z=101",
+        "dev": ""
+      },
+      "minus_prime": null
+    },
+    {
+      "composite": 108,
+      "factors": [
+        3,
+        6,
+        6
+      ],
+      "generation": 3,
+      "sector": "CK",
+      "expression": "N_c x C_2 x C_2",
+      "expression_num": "3 x 6 x 6",
+      "plus_prime": 109,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "N_c x C_2^2 + 1",
+        "domain": "nuclear",
+        "obs": "Meitnerium Z=109",
+        "dev": ""
+      },
+      "minus_prime": 107,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "N_c x C_2^2 - 1",
+        "domain": "nuclear",
+        "obs": "Bohrium Z=107",
+        "dev": ""
+      }
+    },
+    {
+      "composite": 112,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        7
+      ],
+      "generation": 5,
+      "sector": "GR",
+      "expression": "rank x rank x rank x rank x g",
+      "expression_num": "2 x 2 x 2 x 2 x 7",
+      "plus_prime": 113,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 126,
+      "factors": [
+        3,
+        6,
+        7
+      ],
+      "generation": 3,
+      "sector": "CGK",
+      "expression": "N_c x C_2 x g",
+      "expression_num": "3 x 6 x 7",
+      "plus_prime": 127,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "2^g - 1",
+        "domain": "coding theory",
+        "obs": "Mersenne M_7, BCH codes",
+        "dev": "exact"
+      },
+      "minus_prime": null
+    },
+    {
+      "composite": 128,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "generation": 7,
+      "sector": "R",
+      "expression": "rank x rank x rank x rank x rank x rank x rank",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 2",
+      "plus_prime": null,
+      "minus_prime": 127,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "2^g - 1",
+        "domain": "coding theory",
+        "obs": "Mersenne M_7, BCH codes",
+        "dev": "exact"
+      }
+    },
+    {
+      "composite": 140,
+      "factors": [
+        2,
+        2,
+        5,
+        7
+      ],
+      "generation": 4,
+      "sector": "DGR",
+      "expression": "rank x rank x n_C x g",
+      "expression_num": "2 x 2 x 5 x 7",
+      "plus_prime": null,
+      "minus_prime": 139,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "rank^2 x n_C x g - 1",
+        "domain": "nuclear",
+        "obs": "Near N_max",
+        "dev": ""
+      }
+    },
+    {
+      "composite": 150,
+      "factors": [
+        5,
+        5,
+        6
+      ],
+      "generation": 3,
+      "sector": "DK",
+      "expression": "n_C x n_C x C_2",
+      "expression_num": "5 x 5 x 6",
+      "plus_prime": 151,
+      "plus_matched": false,
+      "minus_prime": 149,
+      "minus_matched": false
+    },
+    {
+      "composite": 162,
+      "factors": [
+        3,
+        3,
+        3,
+        6
+      ],
+      "generation": 4,
+      "sector": "CK",
+      "expression": "N_c x N_c x N_c x C_2",
+      "expression_num": "3 x 3 x 3 x 6",
+      "plus_prime": 163,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 168,
+      "factors": [
+        2,
+        2,
+        6,
+        7
+      ],
+      "generation": 4,
+      "sector": "GKR",
+      "expression": "rank x rank x C_2 x g",
+      "expression_num": "2 x 2 x 6 x 7",
+      "plus_prime": null,
+      "minus_prime": 167,
+      "minus_matched": false
+    },
+    {
+      "composite": 180,
+      "factors": [
+        5,
+        6,
+        6
+      ],
+      "generation": 3,
+      "sector": "DK",
+      "expression": "n_C x C_2 x C_2",
+      "expression_num": "5 x 6 x 6",
+      "plus_prime": 181,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "n_C x C_2^2 + 1",
+        "domain": "nuclear",
+        "obs": "Proton number, stable region",
+        "dev": ""
+      },
+      "minus_prime": 179,
+      "minus_matched": false
+    },
+    {
+      "composite": 192,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        6
+      ],
+      "generation": 6,
+      "sector": "KR",
+      "expression": "rank x rank x rank x rank x rank x C_2",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 6",
+      "plus_prime": 193,
+      "plus_matched": false,
+      "minus_prime": 191,
+      "minus_matched": false
+    },
+    {
+      "composite": 196,
+      "factors": [
+        2,
+        2,
+        7,
+        7
+      ],
+      "generation": 4,
+      "sector": "GR",
+      "expression": "rank x rank x g x g",
+      "expression_num": "2 x 2 x 7 x 7",
+      "plus_prime": 197,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 200,
+      "factors": [
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "generation": 5,
+      "sector": "DR",
+      "expression": "rank x rank x rank x n_C x n_C",
+      "expression_num": "2 x 2 x 2 x 5 x 5",
+      "plus_prime": null,
+      "minus_prime": 199,
+      "minus_matched": false
+    },
+    {
+      "composite": 210,
+      "factors": [
+        5,
+        6,
+        7
+      ],
+      "generation": 3,
+      "sector": "DGK",
+      "expression": "n_C x C_2 x g",
+      "expression_num": "5 x 6 x 7",
+      "plus_prime": 211,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "n_C x C_2 x g + 1",
+        "domain": "nuclear",
+        "obs": "Near Bi-209 neighborhood",
+        "dev": ""
+      },
+      "minus_prime": null
+    },
+    {
+      "composite": 224,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        7
+      ],
+      "generation": 6,
+      "sector": "GR",
+      "expression": "rank x rank x rank x rank x rank x g",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 7",
+      "plus_prime": null,
+      "minus_prime": 223,
+      "minus_matched": false
+    },
+    {
+      "composite": 240,
+      "factors": [
+        2,
+        2,
+        2,
+        5,
+        6
+      ],
+      "generation": 5,
+      "sector": "DKR",
+      "expression": "rank x rank x rank x n_C x C_2",
+      "expression_num": "2 x 2 x 2 x 5 x 6",
+      "plus_prime": 241,
+      "plus_matched": false,
+      "minus_prime": 239,
+      "minus_matched": false
+    },
+    {
+      "composite": 250,
+      "factors": [
+        2,
+        5,
+        5,
+        5
+      ],
+      "generation": 4,
+      "sector": "DR",
+      "expression": "rank x n_C x n_C x n_C",
+      "expression_num": "2 x 5 x 5 x 5",
+      "plus_prime": 251,
+      "plus_matched": true,
+      "plus_info": {
+        "name": "C_2^2 x g - 1",
+        "domain": "TBD",
+        "obs": "DUAL: 250+1 AND 252-1",
+        "dev": ""
+      },
+      "minus_prime": null
+    },
+    {
+      "composite": 252,
+      "factors": [
+        6,
+        6,
+        7
+      ],
+      "generation": 3,
+      "sector": "GK",
+      "expression": "C_2 x C_2 x g",
+      "expression_num": "6 x 6 x 7",
+      "plus_prime": null,
+      "minus_prime": 251,
+      "minus_matched": true,
+      "minus_info": {
+        "name": "C_2^2 x g - 1",
+        "domain": "TBD",
+        "obs": "DUAL: 250+1 AND 252-1",
+        "dev": ""
+      }
+    },
+    {
+      "composite": 256,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "generation": 8,
+      "sector": "R",
+      "expression": "rank x rank x rank x rank x rank x rank x rank x rank",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 2 x 2",
+      "plus_prime": 257,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 270,
+      "factors": [
+        3,
+        3,
+        5,
+        6
+      ],
+      "generation": 4,
+      "sector": "CDK",
+      "expression": "N_c x N_c x n_C x C_2",
+      "expression_num": "3 x 3 x 5 x 6",
+      "plus_prime": 271,
+      "plus_matched": false,
+      "minus_prime": 269,
+      "minus_matched": false
+    },
+    {
+      "composite": 280,
+      "factors": [
+        2,
+        2,
+        2,
+        5,
+        7
+      ],
+      "generation": 5,
+      "sector": "DGR",
+      "expression": "rank x rank x rank x n_C x g",
+      "expression_num": "2 x 2 x 2 x 5 x 7",
+      "plus_prime": 281,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 294,
+      "factors": [
+        6,
+        7,
+        7
+      ],
+      "generation": 3,
+      "sector": "GK",
+      "expression": "C_2 x g x g",
+      "expression_num": "6 x 7 x 7",
+      "plus_prime": null,
+      "minus_prime": 293,
+      "minus_matched": false
+    },
+    {
+      "composite": 336,
+      "factors": [
+        2,
+        2,
+        2,
+        6,
+        7
+      ],
+      "generation": 5,
+      "sector": "GKR",
+      "expression": "rank x rank x rank x C_2 x g",
+      "expression_num": "2 x 2 x 2 x 6 x 7",
+      "plus_prime": 337,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 350,
+      "factors": [
+        2,
+        5,
+        5,
+        7
+      ],
+      "generation": 4,
+      "sector": "DGR",
+      "expression": "rank x n_C x n_C x g",
+      "expression_num": "2 x 5 x 5 x 7",
+      "plus_prime": null,
+      "minus_prime": 349,
+      "minus_matched": false
+    },
+    {
+      "composite": 360,
+      "factors": [
+        2,
+        5,
+        6,
+        6
+      ],
+      "generation": 4,
+      "sector": "DKR",
+      "expression": "rank x n_C x C_2 x C_2",
+      "expression_num": "2 x 5 x 6 x 6",
+      "plus_prime": null,
+      "minus_prime": 359,
+      "minus_matched": false
+    },
+    {
+      "composite": 378,
+      "factors": [
+        3,
+        3,
+        6,
+        7
+      ],
+      "generation": 4,
+      "sector": "CGK",
+      "expression": "N_c x N_c x C_2 x g",
+      "expression_num": "3 x 3 x 6 x 7",
+      "plus_prime": 379,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 384,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        6
+      ],
+      "generation": 7,
+      "sector": "KR",
+      "expression": "rank x rank x rank x rank x rank x rank x C_2",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 6",
+      "plus_prime": null,
+      "minus_prime": 383,
+      "minus_matched": false
+    },
+    {
+      "composite": 400,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "generation": 6,
+      "sector": "DR",
+      "expression": "rank x rank x rank x rank x n_C x n_C",
+      "expression_num": "2 x 2 x 2 x 2 x 5 x 5",
+      "plus_prime": 401,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 420,
+      "factors": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "generation": 4,
+      "sector": "DGKR",
+      "expression": "rank x n_C x C_2 x g",
+      "expression_num": "2 x 5 x 6 x 7",
+      "plus_prime": 421,
+      "plus_matched": false,
+      "minus_prime": 419,
+      "minus_matched": false
+    },
+    {
+      "composite": 432,
+      "factors": [
+        2,
+        6,
+        6,
+        6
+      ],
+      "generation": 4,
+      "sector": "KR",
+      "expression": "rank x C_2 x C_2 x C_2",
+      "expression_num": "2 x 6 x 6 x 6",
+      "plus_prime": 433,
+      "plus_matched": false,
+      "minus_prime": 431,
+      "minus_matched": false
+    },
+    {
+      "composite": 448,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        7
+      ],
+      "generation": 7,
+      "sector": "GR",
+      "expression": "rank x rank x rank x rank x rank x rank x g",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 7",
+      "plus_prime": 449,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 450,
+      "factors": [
+        3,
+        5,
+        5,
+        6
+      ],
+      "generation": 4,
+      "sector": "CDK",
+      "expression": "N_c x n_C x n_C x C_2",
+      "expression_num": "3 x 5 x 5 x 6",
+      "plus_prime": null,
+      "minus_prime": 449,
+      "minus_matched": false
+    },
+    {
+      "composite": 480,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        5,
+        6
+      ],
+      "generation": 6,
+      "sector": "DKR",
+      "expression": "rank x rank x rank x rank x n_C x C_2",
+      "expression_num": "2 x 2 x 2 x 2 x 5 x 6",
+      "plus_prime": null,
+      "minus_prime": 479,
+      "minus_matched": false
+    },
+    {
+      "composite": 486,
+      "factors": [
+        3,
+        3,
+        3,
+        3,
+        6
+      ],
+      "generation": 5,
+      "sector": "CK",
+      "expression": "N_c x N_c x N_c x N_c x C_2",
+      "expression_num": "3 x 3 x 3 x 3 x 6",
+      "plus_prime": 487,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 490,
+      "factors": [
+        2,
+        5,
+        7,
+        7
+      ],
+      "generation": 4,
+      "sector": "DGR",
+      "expression": "rank x n_C x g x g",
+      "expression_num": "2 x 5 x 7 x 7",
+      "plus_prime": 491,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 500,
+      "factors": [
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "generation": 5,
+      "sector": "DR",
+      "expression": "rank x rank x n_C x n_C x n_C",
+      "expression_num": "2 x 2 x 5 x 5 x 5",
+      "plus_prime": null,
+      "minus_prime": 499,
+      "minus_matched": false
+    },
+    {
+      "composite": 504,
+      "factors": [
+        2,
+        6,
+        6,
+        7
+      ],
+      "generation": 4,
+      "sector": "GKR",
+      "expression": "rank x C_2 x C_2 x g",
+      "expression_num": "2 x 6 x 6 x 7",
+      "plus_prime": null,
+      "minus_prime": 503,
+      "minus_matched": false
+    },
+    {
+      "composite": 540,
+      "factors": [
+        3,
+        5,
+        6,
+        6
+      ],
+      "generation": 4,
+      "sector": "CDK",
+      "expression": "N_c x n_C x C_2 x C_2",
+      "expression_num": "3 x 5 x 6 x 6",
+      "plus_prime": 541,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 576,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        6,
+        6
+      ],
+      "generation": 6,
+      "sector": "KR",
+      "expression": "rank x rank x rank x rank x C_2 x C_2",
+      "expression_num": "2 x 2 x 2 x 2 x 6 x 6",
+      "plus_prime": 577,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 588,
+      "factors": [
+        2,
+        6,
+        7,
+        7
+      ],
+      "generation": 4,
+      "sector": "GKR",
+      "expression": "rank x C_2 x g x g",
+      "expression_num": "2 x 6 x 7 x 7",
+      "plus_prime": null,
+      "minus_prime": 587,
+      "minus_matched": false
+    },
+    {
+      "composite": 600,
+      "factors": [
+        2,
+        2,
+        5,
+        5,
+        6
+      ],
+      "generation": 5,
+      "sector": "DKR",
+      "expression": "rank x rank x n_C x n_C x C_2",
+      "expression_num": "2 x 2 x 5 x 5 x 6",
+      "plus_prime": 601,
+      "plus_matched": false,
+      "minus_prime": 599,
+      "minus_matched": false
+    },
+    {
+      "composite": 630,
+      "factors": [
+        3,
+        5,
+        6,
+        7
+      ],
+      "generation": 4,
+      "sector": "CDGK",
+      "expression": "N_c x n_C x C_2 x g",
+      "expression_num": "3 x 5 x 6 x 7",
+      "plus_prime": 631,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 640,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "generation": 8,
+      "sector": "DR",
+      "expression": "rank x rank x rank x rank x rank x rank x rank x n_C",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 2 x 5",
+      "plus_prime": 641,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 648,
+      "factors": [
+        3,
+        6,
+        6,
+        6
+      ],
+      "generation": 4,
+      "sector": "CK",
+      "expression": "N_c x C_2 x C_2 x C_2",
+      "expression_num": "3 x 6 x 6 x 6",
+      "plus_prime": null,
+      "minus_prime": 647,
+      "minus_matched": false
+    },
+    {
+      "composite": 672,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        6,
+        7
+      ],
+      "generation": 6,
+      "sector": "GKR",
+      "expression": "rank x rank x rank x rank x C_2 x g",
+      "expression_num": "2 x 2 x 2 x 2 x 6 x 7",
+      "plus_prime": 673,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 700,
+      "factors": [
+        2,
+        2,
+        5,
+        5,
+        7
+      ],
+      "generation": 5,
+      "sector": "DGR",
+      "expression": "rank x rank x n_C x n_C x g",
+      "expression_num": "2 x 2 x 5 x 5 x 7",
+      "plus_prime": 701,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 720,
+      "factors": [
+        2,
+        2,
+        5,
+        6,
+        6
+      ],
+      "generation": 5,
+      "sector": "DKR",
+      "expression": "rank x rank x n_C x C_2 x C_2",
+      "expression_num": "2 x 2 x 5 x 6 x 6",
+      "plus_prime": null,
+      "minus_prime": 719,
+      "minus_matched": false
+    },
+    {
+      "composite": 750,
+      "factors": [
+        5,
+        5,
+        5,
+        6
+      ],
+      "generation": 4,
+      "sector": "DK",
+      "expression": "n_C x n_C x n_C x C_2",
+      "expression_num": "5 x 5 x 5 x 6",
+      "plus_prime": 751,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 756,
+      "factors": [
+        3,
+        6,
+        6,
+        7
+      ],
+      "generation": 4,
+      "sector": "CGK",
+      "expression": "N_c x C_2 x C_2 x g",
+      "expression_num": "3 x 6 x 6 x 7",
+      "plus_prime": 757,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 768,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        6
+      ],
+      "generation": 8,
+      "sector": "KR",
+      "expression": "rank x rank x rank x rank x rank x rank x rank x C_2",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 2 x 6",
+      "plus_prime": 769,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 810,
+      "factors": [
+        3,
+        3,
+        3,
+        5,
+        6
+      ],
+      "generation": 5,
+      "sector": "CDK",
+      "expression": "N_c x N_c x N_c x n_C x C_2",
+      "expression_num": "3 x 3 x 3 x 5 x 6",
+      "plus_prime": 811,
+      "plus_matched": false,
+      "minus_prime": 809,
+      "minus_matched": false
+    },
+    {
+      "composite": 840,
+      "factors": [
+        2,
+        2,
+        5,
+        6,
+        7
+      ],
+      "generation": 5,
+      "sector": "DGKR",
+      "expression": "rank x rank x n_C x C_2 x g",
+      "expression_num": "2 x 2 x 5 x 6 x 7",
+      "plus_prime": null,
+      "minus_prime": 839,
+      "minus_matched": false
+    },
+    {
+      "composite": 864,
+      "factors": [
+        2,
+        2,
+        6,
+        6,
+        6
+      ],
+      "generation": 5,
+      "sector": "KR",
+      "expression": "rank x rank x C_2 x C_2 x C_2",
+      "expression_num": "2 x 2 x 6 x 6 x 6",
+      "plus_prime": null,
+      "minus_prime": 863,
+      "minus_matched": false
+    },
+    {
+      "composite": 882,
+      "factors": [
+        3,
+        6,
+        7,
+        7
+      ],
+      "generation": 4,
+      "sector": "CGK",
+      "expression": "N_c x C_2 x g x g",
+      "expression_num": "3 x 6 x 7 x 7",
+      "plus_prime": 883,
+      "plus_matched": false,
+      "minus_prime": 881,
+      "minus_matched": false
+    },
+    {
+      "composite": 972,
+      "factors": [
+        3,
+        3,
+        3,
+        6,
+        6
+      ],
+      "generation": 5,
+      "sector": "CK",
+      "expression": "N_c x N_c x N_c x C_2 x C_2",
+      "expression_num": "3 x 3 x 3 x 6 x 6",
+      "plus_prime": null,
+      "minus_prime": 971,
+      "minus_matched": false
+    },
+    {
+      "composite": 1008,
+      "factors": [
+        2,
+        2,
+        6,
+        6,
+        7
+      ],
+      "generation": 5,
+      "sector": "GKR",
+      "expression": "rank x rank x C_2 x C_2 x g",
+      "expression_num": "2 x 2 x 6 x 6 x 7",
+      "plus_prime": 1009,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 1050,
+      "factors": [
+        5,
+        5,
+        6,
+        7
+      ],
+      "generation": 4,
+      "sector": "DGK",
+      "expression": "n_C x n_C x C_2 x g",
+      "expression_num": "5 x 5 x 6 x 7",
+      "plus_prime": 1051,
+      "plus_matched": false,
+      "minus_prime": 1049,
+      "minus_matched": false
+    },
+    {
+      "composite": 1152,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        6,
+        6
+      ],
+      "generation": 7,
+      "sector": "KR",
+      "expression": "rank x rank x rank x rank x rank x C_2 x C_2",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 6 x 6",
+      "plus_prime": 1153,
+      "plus_matched": false,
+      "minus_prime": 1151,
+      "minus_matched": false
+    },
+    {
+      "composite": 1200,
+      "factors": [
+        2,
+        2,
+        2,
+        5,
+        5,
+        6
+      ],
+      "generation": 6,
+      "sector": "DKR",
+      "expression": "rank x rank x rank x n_C x n_C x C_2",
+      "expression_num": "2 x 2 x 2 x 5 x 5 x 6",
+      "plus_prime": 1201,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 1250,
+      "factors": [
+        2,
+        5,
+        5,
+        5,
+        5
+      ],
+      "generation": 5,
+      "sector": "DR",
+      "expression": "rank x n_C x n_C x n_C x n_C",
+      "expression_num": "2 x 5 x 5 x 5 x 5",
+      "plus_prime": null,
+      "minus_prime": 1249,
+      "minus_matched": false
+    },
+    {
+      "composite": 1260,
+      "factors": [
+        5,
+        6,
+        6,
+        7
+      ],
+      "generation": 4,
+      "sector": "DGK",
+      "expression": "n_C x C_2 x C_2 x g",
+      "expression_num": "5 x 6 x 6 x 7",
+      "plus_prime": null,
+      "minus_prime": 1259,
+      "minus_matched": false
+    },
+    {
+      "composite": 1280,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "generation": 9,
+      "sector": "DR",
+      "expression": "rank x rank x rank x rank x rank x rank x rank x rank x n_C",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 5",
+      "plus_prime": null,
+      "minus_prime": 1279,
+      "minus_matched": false
+    },
+    {
+      "composite": 1296,
+      "factors": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "generation": 4,
+      "sector": "K",
+      "expression": "C_2 x C_2 x C_2 x C_2",
+      "expression_num": "6 x 6 x 6 x 6",
+      "plus_prime": 1297,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 1372,
+      "factors": [
+        2,
+        2,
+        7,
+        7,
+        7
+      ],
+      "generation": 5,
+      "sector": "GR",
+      "expression": "rank x rank x g x g x g",
+      "expression_num": "2 x 2 x 7 x 7 x 7",
+      "plus_prime": 1373,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 1400,
+      "factors": [
+        2,
+        2,
+        2,
+        5,
+        5,
+        7
+      ],
+      "generation": 6,
+      "sector": "DGR",
+      "expression": "rank x rank x rank x n_C x n_C x g",
+      "expression_num": "2 x 2 x 2 x 5 x 5 x 7",
+      "plus_prime": null,
+      "minus_prime": 1399,
+      "minus_matched": false
+    },
+    {
+      "composite": 1440,
+      "factors": [
+        2,
+        2,
+        2,
+        5,
+        6,
+        6
+      ],
+      "generation": 6,
+      "sector": "DKR",
+      "expression": "rank x rank x rank x n_C x C_2 x C_2",
+      "expression_num": "2 x 2 x 2 x 5 x 6 x 6",
+      "plus_prime": null,
+      "minus_prime": 1439,
+      "minus_matched": false
+    },
+    {
+      "composite": 1458,
+      "factors": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        6
+      ],
+      "generation": 6,
+      "sector": "CK",
+      "expression": "N_c x N_c x N_c x N_c x N_c x C_2",
+      "expression_num": "3 x 3 x 3 x 3 x 3 x 6",
+      "plus_prime": 1459,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 1470,
+      "factors": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "generation": 4,
+      "sector": "DGK",
+      "expression": "n_C x C_2 x g x g",
+      "expression_num": "5 x 6 x 7 x 7",
+      "plus_prime": 1471,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 1500,
+      "factors": [
+        2,
+        5,
+        5,
+        5,
+        6
+      ],
+      "generation": 5,
+      "sector": "DKR",
+      "expression": "rank x n_C x n_C x n_C x C_2",
+      "expression_num": "2 x 5 x 5 x 5 x 6",
+      "plus_prime": null,
+      "minus_prime": 1499,
+      "minus_matched": false
+    },
+    {
+      "composite": 1512,
+      "factors": [
+        6,
+        6,
+        6,
+        7
+      ],
+      "generation": 4,
+      "sector": "GK",
+      "expression": "C_2 x C_2 x C_2 x g",
+      "expression_num": "6 x 6 x 6 x 7",
+      "plus_prime": null,
+      "minus_prime": 1511,
+      "minus_matched": false
+    },
+    {
+      "composite": 1568,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        7,
+        7
+      ],
+      "generation": 7,
+      "sector": "GR",
+      "expression": "rank x rank x rank x rank x rank x g x g",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 7 x 7",
+      "plus_prime": null,
+      "minus_prime": 1567,
+      "minus_matched": false
+    },
+    {
+      "composite": 1600,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5,
+        5
+      ],
+      "generation": 8,
+      "sector": "DR",
+      "expression": "rank x rank x rank x rank x rank x rank x n_C x n_C",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 5 x 5",
+      "plus_prime": 1601,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 1620,
+      "factors": [
+        3,
+        3,
+        5,
+        6,
+        6
+      ],
+      "generation": 5,
+      "sector": "CDK",
+      "expression": "N_c x N_c x n_C x C_2 x C_2",
+      "expression_num": "3 x 3 x 5 x 6 x 6",
+      "plus_prime": 1621,
+      "plus_matched": false,
+      "minus_prime": 1619,
+      "minus_matched": false
+    },
+    {
+      "composite": 1800,
+      "factors": [
+        2,
+        5,
+        5,
+        6,
+        6
+      ],
+      "generation": 5,
+      "sector": "DKR",
+      "expression": "rank x n_C x n_C x C_2 x C_2",
+      "expression_num": "2 x 5 x 5 x 6 x 6",
+      "plus_prime": 1801,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 1890,
+      "factors": [
+        3,
+        3,
+        5,
+        6,
+        7
+      ],
+      "generation": 5,
+      "sector": "CDGK",
+      "expression": "N_c x N_c x n_C x C_2 x g",
+      "expression_num": "3 x 3 x 5 x 6 x 7",
+      "plus_prime": null,
+      "minus_prime": 1889,
+      "minus_matched": false
+    },
+    {
+      "composite": 2000,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "generation": 7,
+      "sector": "DR",
+      "expression": "rank x rank x rank x rank x n_C x n_C x n_C",
+      "expression_num": "2 x 2 x 2 x 2 x 5 x 5 x 5",
+      "plus_prime": null,
+      "minus_prime": 1999,
+      "minus_matched": false
+    },
+    {
+      "composite": 2016,
+      "factors": [
+        2,
+        2,
+        2,
+        6,
+        6,
+        7
+      ],
+      "generation": 6,
+      "sector": "GKR",
+      "expression": "rank x rank x rank x C_2 x C_2 x g",
+      "expression_num": "2 x 2 x 2 x 6 x 6 x 7",
+      "plus_prime": 2017,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 2100,
+      "factors": [
+        2,
+        5,
+        5,
+        6,
+        7
+      ],
+      "generation": 5,
+      "sector": "DGKR",
+      "expression": "rank x n_C x n_C x C_2 x g",
+      "expression_num": "2 x 5 x 5 x 6 x 7",
+      "plus_prime": null,
+      "minus_prime": 2099,
+      "minus_matched": false
+    },
+    {
+      "composite": 2160,
+      "factors": [
+        2,
+        5,
+        6,
+        6,
+        6
+      ],
+      "generation": 5,
+      "sector": "DKR",
+      "expression": "rank x n_C x C_2 x C_2 x C_2",
+      "expression_num": "2 x 5 x 6 x 6 x 6",
+      "plus_prime": 2161,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 2240,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5,
+        7
+      ],
+      "generation": 8,
+      "sector": "DGR",
+      "expression": "rank x rank x rank x rank x rank x rank x n_C x g",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 5 x 7",
+      "plus_prime": null,
+      "minus_prime": 2239,
+      "minus_matched": false
+    },
+    {
+      "composite": 2250,
+      "factors": [
+        3,
+        5,
+        5,
+        5,
+        6
+      ],
+      "generation": 5,
+      "sector": "CDK",
+      "expression": "N_c x n_C x n_C x n_C x C_2",
+      "expression_num": "3 x 5 x 5 x 5 x 6",
+      "plus_prime": 2251,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 2268,
+      "factors": [
+        3,
+        3,
+        6,
+        6,
+        7
+      ],
+      "generation": 5,
+      "sector": "CGK",
+      "expression": "N_c x N_c x C_2 x C_2 x g",
+      "expression_num": "3 x 3 x 6 x 6 x 7",
+      "plus_prime": 2269,
+      "plus_matched": false,
+      "minus_prime": 2267,
+      "minus_matched": false
+    },
+    {
+      "composite": 2352,
+      "factors": [
+        2,
+        2,
+        2,
+        6,
+        7,
+        7
+      ],
+      "generation": 6,
+      "sector": "GKR",
+      "expression": "rank x rank x rank x C_2 x g x g",
+      "expression_num": "2 x 2 x 2 x 6 x 7 x 7",
+      "plus_prime": null,
+      "minus_prime": 2351,
+      "minus_matched": false
+    },
+    {
+      "composite": 2400,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        5,
+        5,
+        6
+      ],
+      "generation": 7,
+      "sector": "DKR",
+      "expression": "rank x rank x rank x rank x n_C x n_C x C_2",
+      "expression_num": "2 x 2 x 2 x 2 x 5 x 5 x 6",
+      "plus_prime": null,
+      "minus_prime": 2399,
+      "minus_matched": false
+    },
+    {
+      "composite": 2520,
+      "factors": [
+        2,
+        5,
+        6,
+        6,
+        7
+      ],
+      "generation": 5,
+      "sector": "DGKR",
+      "expression": "rank x n_C x C_2 x C_2 x g",
+      "expression_num": "2 x 5 x 6 x 6 x 7",
+      "plus_prime": 2521,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 2592,
+      "factors": [
+        2,
+        6,
+        6,
+        6,
+        6
+      ],
+      "generation": 5,
+      "sector": "KR",
+      "expression": "rank x C_2 x C_2 x C_2 x C_2",
+      "expression_num": "2 x 6 x 6 x 6 x 6",
+      "plus_prime": 2593,
+      "plus_matched": false,
+      "minus_prime": 2591,
+      "minus_matched": false
+    },
+    {
+      "composite": 2646,
+      "factors": [
+        3,
+        3,
+        6,
+        7,
+        7
+      ],
+      "generation": 5,
+      "sector": "CGK",
+      "expression": "N_c x N_c x C_2 x g x g",
+      "expression_num": "3 x 3 x 6 x 7 x 7",
+      "plus_prime": 2647,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 2688,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        6,
+        7
+      ],
+      "generation": 8,
+      "sector": "GKR",
+      "expression": "rank x rank x rank x rank x rank x rank x C_2 x g",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 6 x 7",
+      "plus_prime": 2689,
+      "plus_matched": false,
+      "minus_prime": 2687,
+      "minus_matched": false
+    },
+    {
+      "composite": 2700,
+      "factors": [
+        3,
+        5,
+        5,
+        6,
+        6
+      ],
+      "generation": 5,
+      "sector": "CDK",
+      "expression": "N_c x n_C x n_C x C_2 x C_2",
+      "expression_num": "3 x 5 x 5 x 6 x 6",
+      "plus_prime": null,
+      "minus_prime": 2699,
+      "minus_matched": false
+    },
+    {
+      "composite": 2800,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        5,
+        5,
+        7
+      ],
+      "generation": 7,
+      "sector": "DGR",
+      "expression": "rank x rank x rank x rank x n_C x n_C x g",
+      "expression_num": "2 x 2 x 2 x 2 x 5 x 5 x 7",
+      "plus_prime": 2801,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 2880,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        5,
+        6,
+        6
+      ],
+      "generation": 7,
+      "sector": "DKR",
+      "expression": "rank x rank x rank x rank x n_C x C_2 x C_2",
+      "expression_num": "2 x 2 x 2 x 2 x 5 x 6 x 6",
+      "plus_prime": null,
+      "minus_prime": 2879,
+      "minus_matched": false
+    },
+    {
+      "composite": 2916,
+      "factors": [
+        3,
+        3,
+        3,
+        3,
+        6,
+        6
+      ],
+      "generation": 6,
+      "sector": "CK",
+      "expression": "N_c x N_c x N_c x N_c x C_2 x C_2",
+      "expression_num": "3 x 3 x 3 x 3 x 6 x 6",
+      "plus_prime": 2917,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 2940,
+      "factors": [
+        2,
+        5,
+        6,
+        7,
+        7
+      ],
+      "generation": 5,
+      "sector": "DGKR",
+      "expression": "rank x n_C x C_2 x g x g",
+      "expression_num": "2 x 5 x 6 x 7 x 7",
+      "plus_prime": null,
+      "minus_prime": 2939,
+      "minus_matched": false
+    },
+    {
+      "composite": 3000,
+      "factors": [
+        2,
+        2,
+        5,
+        5,
+        5,
+        6
+      ],
+      "generation": 6,
+      "sector": "DKR",
+      "expression": "rank x rank x n_C x n_C x n_C x C_2",
+      "expression_num": "2 x 2 x 5 x 5 x 5 x 6",
+      "plus_prime": 3001,
+      "plus_matched": false,
+      "minus_prime": 2999,
+      "minus_matched": false
+    },
+    {
+      "composite": 3024,
+      "factors": [
+        2,
+        6,
+        6,
+        6,
+        7
+      ],
+      "generation": 5,
+      "sector": "GKR",
+      "expression": "rank x C_2 x C_2 x C_2 x g",
+      "expression_num": "2 x 6 x 6 x 6 x 7",
+      "plus_prime": null,
+      "minus_prime": 3023,
+      "minus_matched": false
+    },
+    {
+      "composite": 3136,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        7,
+        7
+      ],
+      "generation": 8,
+      "sector": "GR",
+      "expression": "rank x rank x rank x rank x rank x rank x g x g",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 7 x 7",
+      "plus_prime": 3137,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 3360,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        5,
+        6,
+        7
+      ],
+      "generation": 7,
+      "sector": "DGKR",
+      "expression": "rank x rank x rank x rank x n_C x C_2 x g",
+      "expression_num": "2 x 2 x 2 x 2 x 5 x 6 x 7",
+      "plus_prime": 3361,
+      "plus_matched": false,
+      "minus_prime": 3359,
+      "minus_matched": false
+    },
+    {
+      "composite": 3456,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        6,
+        6,
+        6
+      ],
+      "generation": 7,
+      "sector": "KR",
+      "expression": "rank x rank x rank x rank x C_2 x C_2 x C_2",
+      "expression_num": "2 x 2 x 2 x 2 x 6 x 6 x 6",
+      "plus_prime": 3457,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 3500,
+      "factors": [
+        2,
+        2,
+        5,
+        5,
+        5,
+        7
+      ],
+      "generation": 6,
+      "sector": "DGR",
+      "expression": "rank x rank x n_C x n_C x n_C x g",
+      "expression_num": "2 x 2 x 5 x 5 x 5 x 7",
+      "plus_prime": null,
+      "minus_prime": 3499,
+      "minus_matched": false
+    },
+    {
+      "composite": 3528,
+      "factors": [
+        2,
+        6,
+        6,
+        7,
+        7
+      ],
+      "generation": 5,
+      "sector": "GKR",
+      "expression": "rank x C_2 x C_2 x g x g",
+      "expression_num": "2 x 6 x 6 x 7 x 7",
+      "plus_prime": 3529,
+      "plus_matched": false,
+      "minus_prime": 3527,
+      "minus_matched": false
+    },
+    {
+      "composite": 3584,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        7
+      ],
+      "generation": 10,
+      "sector": "GR",
+      "expression": "rank x rank x rank x rank x rank x rank x rank x rank x rank x g",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 7",
+      "plus_prime": null,
+      "minus_prime": 3583,
+      "minus_matched": false
+    },
+    {
+      "composite": 3780,
+      "factors": [
+        3,
+        5,
+        6,
+        6,
+        7
+      ],
+      "generation": 5,
+      "sector": "CDGK",
+      "expression": "N_c x n_C x C_2 x C_2 x g",
+      "expression_num": "3 x 5 x 6 x 6 x 7",
+      "plus_prime": null,
+      "minus_prime": 3779,
+      "minus_matched": false
+    },
+    {
+      "composite": 3888,
+      "factors": [
+        3,
+        6,
+        6,
+        6,
+        6
+      ],
+      "generation": 5,
+      "sector": "CK",
+      "expression": "N_c x C_2 x C_2 x C_2 x C_2",
+      "expression_num": "3 x 6 x 6 x 6 x 6",
+      "plus_prime": 3889,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 3920,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        5,
+        7,
+        7
+      ],
+      "generation": 7,
+      "sector": "DGR",
+      "expression": "rank x rank x rank x rank x n_C x g x g",
+      "expression_num": "2 x 2 x 2 x 2 x 5 x 7 x 7",
+      "plus_prime": null,
+      "minus_prime": 3919,
+      "minus_matched": false
+    },
+    {
+      "composite": 4000,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "generation": 8,
+      "sector": "DR",
+      "expression": "rank x rank x rank x rank x rank x n_C x n_C x n_C",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 5 x 5 x 5",
+      "plus_prime": 4001,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 4050,
+      "factors": [
+        3,
+        3,
+        3,
+        5,
+        5,
+        6
+      ],
+      "generation": 6,
+      "sector": "CDK",
+      "expression": "N_c x N_c x N_c x n_C x n_C x C_2",
+      "expression_num": "3 x 3 x 3 x 5 x 5 x 6",
+      "plus_prime": 4051,
+      "plus_matched": false,
+      "minus_prime": 4049,
+      "minus_matched": false
+    },
+    {
+      "composite": 4200,
+      "factors": [
+        2,
+        2,
+        5,
+        5,
+        6,
+        7
+      ],
+      "generation": 6,
+      "sector": "DGKR",
+      "expression": "rank x rank x n_C x n_C x C_2 x g",
+      "expression_num": "2 x 2 x 5 x 5 x 6 x 7",
+      "plus_prime": 4201,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 4374,
+      "factors": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        6
+      ],
+      "generation": 7,
+      "sector": "CK",
+      "expression": "N_c x N_c x N_c x N_c x N_c x N_c x C_2",
+      "expression_num": "3 x 3 x 3 x 3 x 3 x 3 x 6",
+      "plus_prime": null,
+      "minus_prime": 4373,
+      "minus_matched": false
+    },
+    {
+      "composite": 4410,
+      "factors": [
+        3,
+        5,
+        6,
+        7,
+        7
+      ],
+      "generation": 5,
+      "sector": "CDGK",
+      "expression": "N_c x n_C x C_2 x g x g",
+      "expression_num": "3 x 5 x 6 x 7 x 7",
+      "plus_prime": null,
+      "minus_prime": 4409,
+      "minus_matched": false
+    },
+    {
+      "composite": 4480,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5,
+        7
+      ],
+      "generation": 9,
+      "sector": "DGR",
+      "expression": "rank x rank x rank x rank x rank x rank x rank x n_C x g",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 2 x 5 x 7",
+      "plus_prime": 4481,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 4704,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        6,
+        7,
+        7
+      ],
+      "generation": 7,
+      "sector": "GKR",
+      "expression": "rank x rank x rank x rank x C_2 x g x g",
+      "expression_num": "2 x 2 x 2 x 2 x 6 x 7 x 7",
+      "plus_prime": null,
+      "minus_prime": 4703,
+      "minus_matched": false
+    },
+    {
+      "composite": 4800,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        5,
+        5,
+        6
+      ],
+      "generation": 8,
+      "sector": "DKR",
+      "expression": "rank x rank x rank x rank x rank x n_C x n_C x C_2",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 5 x 5 x 6",
+      "plus_prime": 4801,
+      "plus_matched": false,
+      "minus_prime": 4799,
+      "minus_matched": false
+    },
+    {
+      "composite": 4802,
+      "factors": [
+        2,
+        7,
+        7,
+        7,
+        7
+      ],
+      "generation": 5,
+      "sector": "GR",
+      "expression": "rank x g x g x g x g",
+      "expression_num": "2 x 7 x 7 x 7 x 7",
+      "plus_prime": null,
+      "minus_prime": 4801,
+      "minus_matched": false
+    },
+    {
+      "composite": 4860,
+      "factors": [
+        3,
+        3,
+        3,
+        5,
+        6,
+        6
+      ],
+      "generation": 6,
+      "sector": "CDK",
+      "expression": "N_c x N_c x N_c x n_C x C_2 x C_2",
+      "expression_num": "3 x 3 x 3 x 5 x 6 x 6",
+      "plus_prime": 4861,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 5000,
+      "factors": [
+        2,
+        2,
+        2,
+        5,
+        5,
+        5,
+        5
+      ],
+      "generation": 7,
+      "sector": "DR",
+      "expression": "rank x rank x rank x n_C x n_C x n_C x n_C",
+      "expression_num": "2 x 2 x 2 x 5 x 5 x 5 x 5",
+      "plus_prime": null,
+      "minus_prime": 4999,
+      "minus_matched": false
+    },
+    {
+      "composite": 5040,
+      "factors": [
+        2,
+        2,
+        5,
+        6,
+        6,
+        7
+      ],
+      "generation": 6,
+      "sector": "DGKR",
+      "expression": "rank x rank x n_C x C_2 x C_2 x g",
+      "expression_num": "2 x 2 x 5 x 6 x 6 x 7",
+      "plus_prime": null,
+      "minus_prime": 5039,
+      "minus_matched": false
+    },
+    {
+      "composite": 5120,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ],
+      "generation": 11,
+      "sector": "DR",
+      "expression": "rank x rank x rank x rank x rank x rank x rank x rank x rank x rank x n_C",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 5",
+      "plus_prime": null,
+      "minus_prime": 5119,
+      "minus_matched": false
+    },
+    {
+      "composite": 5400,
+      "factors": [
+        5,
+        5,
+        6,
+        6,
+        6
+      ],
+      "generation": 5,
+      "sector": "DK",
+      "expression": "n_C x n_C x C_2 x C_2 x C_2",
+      "expression_num": "5 x 5 x 6 x 6 x 6",
+      "plus_prime": null,
+      "minus_prime": 5399,
+      "minus_matched": false
+    },
+    {
+      "composite": 5670,
+      "factors": [
+        3,
+        3,
+        3,
+        5,
+        6,
+        7
+      ],
+      "generation": 6,
+      "sector": "CDGK",
+      "expression": "N_c x N_c x N_c x n_C x C_2 x g",
+      "expression_num": "3 x 3 x 3 x 5 x 6 x 7",
+      "plus_prime": null,
+      "minus_prime": 5669,
+      "minus_matched": false
+    },
+    {
+      "composite": 5880,
+      "factors": [
+        2,
+        2,
+        5,
+        6,
+        7,
+        7
+      ],
+      "generation": 6,
+      "sector": "DGKR",
+      "expression": "rank x rank x n_C x C_2 x g x g",
+      "expression_num": "2 x 2 x 5 x 6 x 7 x 7",
+      "plus_prime": 5881,
+      "plus_matched": false,
+      "minus_prime": 5879,
+      "minus_matched": false
+    },
+    {
+      "composite": 6048,
+      "factors": [
+        2,
+        2,
+        6,
+        6,
+        6,
+        7
+      ],
+      "generation": 6,
+      "sector": "GKR",
+      "expression": "rank x rank x C_2 x C_2 x C_2 x g",
+      "expression_num": "2 x 2 x 6 x 6 x 6 x 7",
+      "plus_prime": null,
+      "minus_prime": 6047,
+      "minus_matched": false
+    },
+    {
+      "composite": 6144,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        6
+      ],
+      "generation": 11,
+      "sector": "KR",
+      "expression": "rank x rank x rank x rank x rank x rank x rank x rank x rank x rank x C_2",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 6",
+      "plus_prime": null,
+      "minus_prime": 6143,
+      "minus_matched": false
+    },
+    {
+      "composite": 6174,
+      "factors": [
+        3,
+        6,
+        7,
+        7,
+        7
+      ],
+      "generation": 5,
+      "sector": "CGK",
+      "expression": "N_c x C_2 x g x g x g",
+      "expression_num": "3 x 6 x 7 x 7 x 7",
+      "plus_prime": null,
+      "minus_prime": 6173,
+      "minus_matched": false
+    },
+    {
+      "composite": 6272,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        7,
+        7
+      ],
+      "generation": 9,
+      "sector": "GR",
+      "expression": "rank x rank x rank x rank x rank x rank x rank x g x g",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 2 x 7 x 7",
+      "plus_prime": null,
+      "minus_prime": 6271,
+      "minus_matched": false
+    },
+    {
+      "composite": 6300,
+      "factors": [
+        5,
+        5,
+        6,
+        6,
+        7
+      ],
+      "generation": 5,
+      "sector": "DGK",
+      "expression": "n_C x n_C x C_2 x C_2 x g",
+      "expression_num": "5 x 5 x 6 x 6 x 7",
+      "plus_prime": 6301,
+      "plus_matched": false,
+      "minus_prime": 6299,
+      "minus_matched": false
+    },
+    {
+      "composite": 6480,
+      "factors": [
+        5,
+        6,
+        6,
+        6,
+        6
+      ],
+      "generation": 5,
+      "sector": "DK",
+      "expression": "n_C x C_2 x C_2 x C_2 x C_2",
+      "expression_num": "5 x 6 x 6 x 6 x 6",
+      "plus_prime": 6481,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 6720,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        5,
+        6,
+        7
+      ],
+      "generation": 8,
+      "sector": "DGKR",
+      "expression": "rank x rank x rank x rank x rank x n_C x C_2 x g",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 5 x 6 x 7",
+      "plus_prime": null,
+      "minus_prime": 6719,
+      "minus_matched": false
+    },
+    {
+      "composite": 6804,
+      "factors": [
+        3,
+        3,
+        3,
+        6,
+        6,
+        7
+      ],
+      "generation": 6,
+      "sector": "CGK",
+      "expression": "N_c x N_c x N_c x C_2 x C_2 x g",
+      "expression_num": "3 x 3 x 3 x 6 x 6 x 7",
+      "plus_prime": null,
+      "minus_prime": 6803,
+      "minus_matched": false
+    },
+    {
+      "composite": 6912,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        6,
+        6,
+        6
+      ],
+      "generation": 8,
+      "sector": "KR",
+      "expression": "rank x rank x rank x rank x rank x C_2 x C_2 x C_2",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 6 x 6 x 6",
+      "plus_prime": null,
+      "minus_prime": 6911,
+      "minus_matched": false
+    },
+    {
+      "composite": 7000,
+      "factors": [
+        2,
+        2,
+        2,
+        5,
+        5,
+        5,
+        7
+      ],
+      "generation": 7,
+      "sector": "DGR",
+      "expression": "rank x rank x rank x n_C x n_C x n_C x g",
+      "expression_num": "2 x 2 x 2 x 5 x 5 x 5 x 7",
+      "plus_prime": 7001,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 7056,
+      "factors": [
+        2,
+        2,
+        6,
+        6,
+        7,
+        7
+      ],
+      "generation": 6,
+      "sector": "GKR",
+      "expression": "rank x rank x C_2 x C_2 x g x g",
+      "expression_num": "2 x 2 x 6 x 6 x 7 x 7",
+      "plus_prime": 7057,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 7350,
+      "factors": [
+        5,
+        5,
+        6,
+        7,
+        7
+      ],
+      "generation": 5,
+      "sector": "DGK",
+      "expression": "n_C x n_C x C_2 x g x g",
+      "expression_num": "5 x 5 x 6 x 7 x 7",
+      "plus_prime": 7351,
+      "plus_matched": false,
+      "minus_prime": 7349,
+      "minus_matched": false
+    },
+    {
+      "composite": 7500,
+      "factors": [
+        2,
+        5,
+        5,
+        5,
+        5,
+        6
+      ],
+      "generation": 6,
+      "sector": "DKR",
+      "expression": "rank x n_C x n_C x n_C x n_C x C_2",
+      "expression_num": "2 x 5 x 5 x 5 x 5 x 6",
+      "plus_prime": null,
+      "minus_prime": 7499,
+      "minus_matched": false
+    },
+    {
+      "composite": 7560,
+      "factors": [
+        5,
+        6,
+        6,
+        6,
+        7
+      ],
+      "generation": 5,
+      "sector": "DGK",
+      "expression": "n_C x C_2 x C_2 x C_2 x g",
+      "expression_num": "5 x 6 x 6 x 6 x 7",
+      "plus_prime": 7561,
+      "plus_matched": false,
+      "minus_prime": 7559,
+      "minus_matched": false
+    },
+    {
+      "composite": 7680,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5,
+        6
+      ],
+      "generation": 10,
+      "sector": "DKR",
+      "expression": "rank x rank x rank x rank x rank x rank x rank x rank x n_C x C_2",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 5 x 6",
+      "plus_prime": 7681,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 7840,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        5,
+        7,
+        7
+      ],
+      "generation": 8,
+      "sector": "DGR",
+      "expression": "rank x rank x rank x rank x rank x n_C x g x g",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 5 x 7 x 7",
+      "plus_prime": 7841,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 7938,
+      "factors": [
+        3,
+        3,
+        3,
+        6,
+        7,
+        7
+      ],
+      "generation": 6,
+      "sector": "CGK",
+      "expression": "N_c x N_c x N_c x C_2 x g x g",
+      "expression_num": "3 x 3 x 3 x 6 x 7 x 7",
+      "plus_prime": null,
+      "minus_prime": 7937,
+      "minus_matched": false
+    },
+    {
+      "composite": 8100,
+      "factors": [
+        3,
+        3,
+        5,
+        5,
+        6,
+        6
+      ],
+      "generation": 6,
+      "sector": "CDK",
+      "expression": "N_c x N_c x n_C x n_C x C_2 x C_2",
+      "expression_num": "3 x 3 x 5 x 5 x 6 x 6",
+      "plus_prime": 8101,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 8192,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "generation": 13,
+      "sector": "R",
+      "expression": "rank x rank x rank x rank x rank x rank x rank x rank x rank x rank x rank x rank x rank",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2",
+      "plus_prime": null,
+      "minus_prime": 8191,
+      "minus_matched": false
+    },
+    {
+      "composite": 8232,
+      "factors": [
+        2,
+        2,
+        6,
+        7,
+        7,
+        7
+      ],
+      "generation": 6,
+      "sector": "GKR",
+      "expression": "rank x rank x C_2 x g x g x g",
+      "expression_num": "2 x 2 x 6 x 7 x 7 x 7",
+      "plus_prime": 8233,
+      "plus_matched": false,
+      "minus_prime": 8231,
+      "minus_matched": false
+    },
+    {
+      "composite": 8640,
+      "factors": [
+        2,
+        2,
+        2,
+        5,
+        6,
+        6,
+        6
+      ],
+      "generation": 7,
+      "sector": "DKR",
+      "expression": "rank x rank x rank x n_C x C_2 x C_2 x C_2",
+      "expression_num": "2 x 2 x 2 x 5 x 6 x 6 x 6",
+      "plus_prime": 8641,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 8748,
+      "factors": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        6,
+        6
+      ],
+      "generation": 7,
+      "sector": "CK",
+      "expression": "N_c x N_c x N_c x N_c x N_c x C_2 x C_2",
+      "expression_num": "3 x 3 x 3 x 3 x 3 x 6 x 6",
+      "plus_prime": null,
+      "minus_prime": 8747,
+      "minus_matched": false
+    },
+    {
+      "composite": 8820,
+      "factors": [
+        5,
+        6,
+        6,
+        7,
+        7
+      ],
+      "generation": 5,
+      "sector": "DGK",
+      "expression": "n_C x C_2 x C_2 x g x g",
+      "expression_num": "5 x 6 x 6 x 7 x 7",
+      "plus_prime": 8821,
+      "plus_matched": false,
+      "minus_prime": 8819,
+      "minus_matched": false
+    },
+    {
+      "composite": 9000,
+      "factors": [
+        2,
+        5,
+        5,
+        5,
+        6,
+        6
+      ],
+      "generation": 6,
+      "sector": "DKR",
+      "expression": "rank x n_C x n_C x n_C x C_2 x C_2",
+      "expression_num": "2 x 5 x 5 x 5 x 6 x 6",
+      "plus_prime": 9001,
+      "plus_matched": false,
+      "minus_prime": 8999,
+      "minus_matched": false
+    },
+    {
+      "composite": 9600,
+      "factors": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5,
+        5,
+        6
+      ],
+      "generation": 9,
+      "sector": "DKR",
+      "expression": "rank x rank x rank x rank x rank x rank x n_C x n_C x C_2",
+      "expression_num": "2 x 2 x 2 x 2 x 2 x 2 x 5 x 5 x 6",
+      "plus_prime": 9601,
+      "plus_matched": false,
+      "minus_prime": null
+    },
+    {
+      "composite": 9720,
+      "factors": [
+        3,
+        3,
+        5,
+        6,
+        6,
+        6
+      ],
+      "generation": 6,
+      "sector": "CDK",
+      "expression": "N_c x N_c x n_C x C_2 x C_2 x C_2",
+      "expression_num": "3 x 3 x 5 x 6 x 6 x 6",
+      "plus_prime": 9721,
+      "plus_matched": false,
+      "minus_prime": 9719,
+      "minus_matched": false
+    },
+    {
+      "composite": null,
+      "factors": [],
+      "generation": 0,
+      "sector": "ORPHAN",
+      "expression": "N_max (terminus)",
+      "expression_num": "137",
+      "plus_prime": null,
+      "minus_prime": null,
+      "orphan": true,
+      "orphan_prime": 137,
+      "info": {
+        "name": "N_max",
+        "domain": "particle physics",
+        "obs": "1/alpha, fine structure constant. ORPHAN.",
+        "dev": "exact"
+      }
+    }
+  ]
+}

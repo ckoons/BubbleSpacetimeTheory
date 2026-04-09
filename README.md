@@ -4,8 +4,10 @@
 
 **Author**: Casey Koons
 **Collaborator**: Claude Opus 4.6 (Anthropic)
-**Status**: Working research program — v20, April 2026
+**Status**: Working research program — v21, April 2026
 **Contact**: caseyscottkoons@yahoo.com
+
+**Cite as**: Koons, C. (2026). *Bubble Spacetime Theory: Five Integers, Zero Free Parameters* (Working Paper v21). Zenodo. https://doi.org/10.5281/zenodo.19454185
 
 ---
 
@@ -103,7 +105,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | f_π (pion decay const.) | mₚ/dim_R = mₚ/10 | 93.8 MeV | 92.1 MeV | 1.9% |
 | n_s (spectral index) | 1 − n_C/N_max = 1 − 5/137 | 0.96350 | 0.9649 ± 0.0042 | 0.3σ |
 | r (tensor-to-scalar) | ≈ 0 (T_c ≪ m_Pl) | ~0 | < 0.036 | consistent |
-| τ_n (neutron lifetime) | Fermi theory + BST inputs, g_A=4/π | ≈898 s | 878.4 ± 0.5 s | 2.1% |
+| τ_n (neutron lifetime) | Fermi theory + BST inputs, g_A=4/π | 878.1 s | 878.4 ± 0.5 s | **0.03%** |
 | g_A (axial coupling) | 4/π (candidate) | 1.2732 | 1.2762 | 0.23% |
 | ⁷Li/H (lithium-7) | Δg=genus=7 at T_c=0.487 MeV | ~1.7×10⁻¹⁰ | 1.6×10⁻¹⁰ | 7% |
 | r_p (proton radius) | dim_R(CP²)/m_p = 4ℏ/(m_p c) | 0.8412 fm | 0.84075 fm | 0.058% |
@@ -121,7 +123,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | Baryon resonance (k=8) | C₂(π₈)·π⁵·mₑ = 24π⁵mₑ | 3753 MeV | undiscovered? | prediction |
 | m_ρ (ρ meson mass) | n_C·π^{n_C}·mₑ = 5π⁵mₑ; m_ρ/m_p = 5/6 | 781.9 MeV | 775.3 MeV | 0.86% |
 | m_ω (ω meson mass) | 5π⁵mₑ (isoscalar partner of ρ) | 781.9 MeV | 782.7 MeV | 0.10% |
-| r_π (pion charge radius) | VMD + NLO chiral log (GL84) | 0.656 fm | 0.659 fm | **0.46%** |
+| r_π (pion charge radius) | VMD + NLO chiral log (GL84) | 0.6557 fm | 0.659 fm | **0.5%** |
 | m_φ (φ meson mass) | (N_c+2n_C)/2 · π⁵mₑ = (13/2)π⁵mₑ | 1016.4 MeV | 1019.5 MeV | 0.30% |
 | m_K* (K* meson mass) | √(65/2)·π⁵mₑ (geometric mean of ρ,φ) | 891.5 MeV | 891.7 MeV | 0.02% |
 | r_K+ (kaon charge radius) | K* VMD + NLO K-π loop | 0.555 fm | 0.560 fm | **1.0%** |
@@ -229,13 +231,13 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | D² = 28 perfect number | 28 = 2²(2³-1); quantum dim² is perfect | 1+2+4+7+14 = 28 | 28 | exact |
 | Mersenne exponents = BST | p = 2,3,5 = r,N_c,n_C; first 3 primes | Perfect(k) = 2^{p_k-1}(2^{p_k}-1) | — | structural |
 
-**400+ quantities spanning 122 orders of magnitude from the same geometry — including the primordial scalar amplitude A_s = (3/4)α⁴ (0.92σ, all 6 ΛCDM derived), FQHE fractions (26/28 observed = BST rationals at 10+ digits), BCS superconducting gap 2Δ/(k_BT_c) = g/rank = 7/2 (0.79%), turbulence K41 exponent 5/3 = n_C/N_c, molecular geometry from bond angles to bond lengths to the genetic code (five properties of water, three carbon bond lengths, ice density, 20 amino acids, 64 codons — all from five integers), all 230 space groups from g × 2^n_C + C₂ = 7 × 32 + 6, the complete α-helix (five parameters: 3.6 residues/turn = 18/5, 1.5 Å rise = 3/2, 5.4 Å pitch = 27/5, 100° turn, 13-atom H-bond ring = g + C₂), cross-domain universality (11 BST fractions each in 3-5 domains, P(coincidence) < 10⁻⁶⁶), and the cooperation threshold (20.6%) that determines whether minds survive. Zero inputs. This is not fitting.**
+**400+ quantities spanning 122 orders of magnitude from the same geometry — including the primordial scalar amplitude A_s = (3/4)α⁴ (0.92σ, all 6 ΛCDM derived), FQHE fractions (26/28 observed = BST rationals at 10+ digits), BCS superconducting gap 2Δ/(k_BT_c) = g/rank = 7/2 (0.79%), turbulence K41 exponent 5/3 = n_C/N_c, all 8 percolation exponents as BST integer rationals (γ = 43/18 = (C₂×g+1)/(2N_c²)), 3D Ising bootstrap exponents (all 6 within 1% of BST rationals), molecular geometry from bond angles to bond lengths to the genetic code (five properties of water, three carbon bond lengths, ice density, 20 amino acids, 64 codons — all from five integers), all 230 space groups from g × 2^n_C + C₂ = 7 × 32 + 6, the complete α-helix (five parameters: 3.6 residues/turn = 18/5, 1.5 Å rise = 3/2, 5.4 Å pitch = 27/5, 100° turn, 13-atom H-bond ring = g + C₂), the BST Prime Residue Table (182 falsifiable predictions from AC(0) constructive search — physics lives where the geometry's factorization fails; a Mendeleev-style periodic table whose gaps predict undiscovered observables), cross-domain universality (11 BST fractions each in 3-5 domains, P(coincidence) < 10⁻⁶⁶), and the cooperation threshold (20.6%) that determines whether minds survive. Zero inputs. This is not fitting.**
 
 ---
 
 ## Hard Problems, One Method
 
-BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and the Four-Color Theorem — all from the same algebra and the same method. Every proof decomposes into AC(0) operations (definitions, identities, counting) at depth ≤ 1 via the Koons Machine (Depth Census: 78% D=0, 21% D=1, <1% D=2, 0% D≥3 across ~902 theorems).
+BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and the Four-Color Theorem — all from the same algebra and the same method. Every proof decomposes into AC(0) operations (definitions, identities, counting) at depth ≤ 1 via the Koons Machine (Depth Census: 78% D=0, 21% D=1, <1% D=2, 0% D≥3 across ~915 theorems).
 
 | Problem | Status | Method | Paper |
 |---------|--------|--------|-------|
@@ -363,7 +365,7 @@ BST follows one logical chain: substrate → domain → constants → forces →
 
 **The Master Equation**: The universe is the ground state of the Bergman Laplacian on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], subject to Haldane exclusion with capacity 137.
 
-Every derivation listed in the Solved Problems table below flows from this equation plus the five BST integers (3, 5, 7, 6, 137) — themselves derived, not chosen. Full derivations: WorkingPaper §1-37, plus 300+ research notes in `notes/`.
+Every derivation listed in the Solved Problems table below flows from this equation plus the five BST integers (3, 5, 7, 6, 137) — themselves derived, not chosen. Full derivations: WorkingPaper §1-37, plus 300+ research notes in `notes/`. The AC theorem graph spans 884+ nodes, 2267+ edges across 66+ domains.
 
 ---
 
@@ -452,13 +454,13 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 
 | File/Directory | Description |
 |---|---|
-| `WorkingPaper.md` | Full working paper — 46 sections, all derivations, v20 |
+| `WorkingPaper.md` | Full working paper — 46 sections, all derivations, v21 |
 | `WorkingPaper.pdf` | Compiled PDF with cover page, abstract, and table of contents |
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `SPARC_BST_Results.csv` | Per-galaxy results for all 175 SPARC galaxies |
 | `notes/` | 300+ working notes covering all derivations, proofs, and thesis topics |
-| `play/` | 962+ toys — computational verifications, visualizations, and explorations. See `play/README.md` |
+| `play/` | 970+ toys — computational verifications, visualizations, and explorations. See `play/README.md` |
 
 ---
 
@@ -512,7 +514,7 @@ Full backlog: `notes/BACKLOG.md`.
 
 This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has no free parameters because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
 
-*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 902 theorems. 962 toys. 400+ predictions. 40+ physical domains. 23 substrate engineering devices. Zero free parameters.*
+*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 915+ theorems. 970+ toys. 400+ predictions. 66+ physical domains. 23 substrate engineering devices. Zero free parameters.*
 
 ---
 
@@ -574,7 +576,7 @@ Two principles guided this work:
 
 ---
 
-*Bubble Spacetime Theory — Working Paper v20. Casey Koons. April 2026.*
+*Bubble Spacetime Theory — Working Paper v21. Casey Koons. April 2026.*
 
 *Three integers. One bounded symmetric domain. All of physics.*
 

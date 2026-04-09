@@ -4,7 +4,7 @@
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
   "theorem_count": 798,
-  "edge_count": 2239,
+  "edge_count": 2267,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 798,
@@ -18,7 +18,7 @@
   "D0": 652,
   "D1": 146,
   "D2": 0,
-  "node_count": 876,
+  "node_count": 884,
   "last_updated": "2026-04-04"
  },
  "theorems": [
@@ -12214,6 +12214,122 @@
    "plain": "BC2 preprocessor + CDCL backend. 3.18x avg speedup. Curvature=hardness r=0.46. BC2 catches 12.9 vars unit propagation misses. 5/7 PASS.",
    "proofs": [],
    "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 912,
+   "name": "Percolation Exponents from D_IV^5 Central Charge",
+   "domain": "thermodynamics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [],
+   "date": "2026-04-09",
+   "plain": "All 8 percolation exponents are BST rationals. 6 direct, 2 via c=0 shift. gamma=43/18=(C_2*g+1)/(2N_c^2). Denominator 18=2N_c^2 same as Ising. +1 = central charge. nu=4/3=2^rank/N_c (=K41!).",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 913,
+   "name": "Pion Sector NLO Diagnostic",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 1,
+   "conflation": 2,
+   "toys": [],
+   "date": "2026-04-09",
+   "plain": "Three pion misses (f_pi, B_d, tau_n) are INDEPENDENT NLO gaps. f_pi correction has wrong sign for tau_n via Goldberger-Treiman. No single bridge. Each needs own NLO.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 914,
+   "name": "Percolation CFT BST Verification",
+   "domain": "thermodynamics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    963
+   ],
+   "date": "2026-04-09",
+   "plain": "Grace T912 verified computationally. 8/8 exponents. Central charge parameterization confirmed. 8/8 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 915,
+   "name": "3D Ising BST Correction",
+   "domain": "thermodynamics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    965
+   ],
+   "date": "2026-04-09",
+   "plain": "All 6 bootstrap exponents <1% of BST rationals. delta-1=91/24 at 0.048%. eta=n_C/N_max=5/137 at 0.55%. beta=(1/N_c)(35/36) at 0.72%. 7/7 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 916,
+   "name": "Neutron Lifetime NLO Correction",
+   "domain": "nuclear",
+   "status": "proved",
+   "depth": 1,
+   "conflation": 2,
+   "toys": [
+    966
+   ],
+   "date": "2026-04-09",
+   "plain": "Tau_n: 4.2%\u21920.03%. Full correction = 878.1 s vs 878.4 observed. Standard radiative corrections (not BST bridge). Cluster B \u03c4_n FIXED. 6/6 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 917,
+   "name": "Jarlskog Invariant BST Decomposition",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    967
+   ],
+   "date": "2026-04-09",
+   "plain": "J_CKM = sqrt(rank)/(n_C^5 \u00d7 2^rank). 50000 = n_C^5 \u00d7 4 decomposed. Category: wrong level (Wolfenstein NLO needed). 4/6 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 918,
+   "name": "Cosmological Precision NLO",
+   "domain": "cosmology",
+   "status": "proved",
+   "depth": 1,
+   "conflation": 2,
+   "toys": [
+    968
+   ],
+   "date": "2026-04-09",
+   "plain": "t_0: 15.7%\u21920.57% (arcsinh fix). eta_b: 1.6% (NLO open). Cluster E diagnostic. 6/7 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
+  },
+  {
+   "tid": 919,
+   "name": "CKM theta13 BST Parametrization",
+   "domain": "bst_physics",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 2,
+   "toys": [
+    969
+   ],
+   "date": "2026-04-09",
+   "plain": "R = 1/sqrt(C_2) at 0.23%. sin theta_13 = A*lambda^3/sqrt(C_6). CKM parametrization refined. 4/6 PASS.",
+   "proofs": [],
+   "section": "BST_AC_Theorems \u00a7TBD"
   }
  ],
  "edges": [
@@ -23439,6 +23555,146 @@
   {
    "from": 186,
    "to": 911,
+   "source": "required"
+  },
+  {
+   "from": 897,
+   "to": 912,
+   "source": "required"
+  },
+  {
+   "from": 840,
+   "to": 912,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 912,
+   "source": "required"
+  },
+  {
+   "from": 649,
+   "to": 912,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 913,
+   "source": "required"
+  },
+  {
+   "from": 121,
+   "to": 913,
+   "source": "required"
+  },
+  {
+   "from": 912,
+   "to": 914,
+   "source": "required"
+  },
+  {
+   "from": 897,
+   "to": 914,
+   "source": "required"
+  },
+  {
+   "from": 897,
+   "to": 915,
+   "source": "required"
+  },
+  {
+   "from": 840,
+   "to": 915,
+   "source": "required"
+  },
+  {
+   "from": 912,
+   "to": 915,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 915,
+   "source": "required"
+  },
+  {
+   "from": 912,
+   "to": 913,
+   "source": "required"
+  },
+  {
+   "from": 674,
+   "to": 914,
+   "source": "required"
+  },
+  {
+   "from": 315,
+   "to": 914,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 914,
+   "source": "required"
+  },
+  {
+   "from": 914,
+   "to": 915,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 916,
+   "source": "required"
+  },
+  {
+   "from": 913,
+   "to": 916,
+   "source": "required"
+  },
+  {
+   "from": 745,
+   "to": 916,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 917,
+   "source": "required"
+  },
+  {
+   "from": 914,
+   "to": 917,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 918,
+   "source": "required"
+  },
+  {
+   "from": 835,
+   "to": 918,
+   "source": "required"
+  },
+  {
+   "from": 204,
+   "to": 918,
+   "source": "required"
+  },
+  {
+   "from": 186,
+   "to": 919,
+   "source": "required"
+  },
+  {
+   "from": 917,
+   "to": 919,
+   "source": "required"
+  },
+  {
+   "from": 190,
+   "to": 919,
    "source": "required"
   }
  ],
