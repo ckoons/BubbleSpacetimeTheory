@@ -115,7 +115,15 @@ All 10 original misses resolved. No remaining opens >1%.
 
 **C4. BST Prohibitions — What's Forbidden?** — What areas are NOW PROHIBITED or FORBIDDEN by BST that were possible under standard physics? These are anti-predictions — things BST says CANNOT happen. GUT isolation (T937) is the first example: GUT-scale primes are unreachable. What else? Forbidden particle masses? Impossible coupling constants? Excluded decay channels? Anti-predictions are as powerful as predictions — they're falsifiable in the other direction.
 
-**C5. BST Simplification** — How much can we simplify the theory based on new knowledge? T926 showed geometry forces arithmetic. T930 showed C₂ is not independent (=2×3). T937 showed GUT isolation from parity alone. Each of these REDUCES the theory. Can we find more reductions? Can the five integers be derived from fewer? Can theorem chains be shortened? The goal: minimum description length for maximum prediction count.
+**C5. BST Simplification — "It's Only Geometry"** — How much can we simplify the theory based on new knowledge? The reduction chain is already deep:
+- C₂ = rank × N_c → not independent (T930). Five → four.
+- n_C ± rank = (N_c, g) → arithmetic progression (Elie). Four → two.
+- rank = 2 always for type IV domains → forced by domain type. Two → one.
+- g = 2n_C - 3 → standard genus formula for D_IV^n. Confirmed: g derived from n_C.
+- N_c = n_C - rank → color = dimension minus rank. Confirmed: N_c derived.
+- **One free choice remains: n_C = 5. The superscript in D_IV^5.**
+- 21 uniqueness conditions (§37.5) constrain n_C. If n_C = 5 is the ONLY consistent value → **zero free parameters, zero bits, unique theory.**
+- **Reframe: "Five integers" → "Five PREDICTED integers."** They are outputs of the geometry, not inputs. The theory IS the geometry. Investigate: can we prove n_C = 5 is forced? Which uniqueness conditions are strongest? What's the minimum set that excludes n_C = 4 and n_C = 6?
 
 ---
 
