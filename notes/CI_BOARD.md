@@ -37,14 +37,18 @@ status: "Active — check at session start, update at session end"
 **Format**: `| T_id | Name | Status | Document §ref | Toy | Date added |`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T938. **992 toys**. Next available: T939+, Toy 993+. **25 substrate engineering devices. 47 papers.** Graph: 895 nodes, 2823 edges (98.2% ancestry). 400+ predictions. 66+ physical domains. **ALL 10 MISSES CLOSED. Paper #47 KEEPER PASS. Four-Color arXiv READY (Tuesday). Patent portfolio assessed (6 Tier 1).**
-**April 10 Assignments — READ FIRST:**
-- **C1-C5**: Casey's 5 research directives in BACKLOG.md. These are the day's strategic priorities.
-- **Four-Color arXiv**: Tuesday submission. Keeper has checklist. Casey gates on Lyra's Lemma + co-authorship.
-- **589 erratum**: 589=19×31 NOT prime. Fix in T932 + WorkingPaper. Keeper flags.
-- **Paper #47 v2**: Full 5-layer architecture rewrite. Lyra owns.
-- **WorkingPaper v25**: All Session 3-6 content (T932-T938, SASER, GUT, spectral, toys 983-992).
-- **Patent**: SASER Detector + Thruster provisionals ($320). Keeper has portfolio assessment.
+**Current count**: T1-T956. **1000 toys**. Next available: T957+, Toy 1001+. **25 substrate engineering devices. 49 papers.** Graph: 906+ nodes, 2920+ edges. 400+ predictions. 66+ physical domains. **ALL C1-C6 DONE. Paper #47 v2.1. Paper #48 v1.0. Paper #49 v1.0 (PURE NUMBER THEORY). Four-Color arXiv READY (Tuesday). 1000 TOYS CROSSED.**
+**April 10 Session 1 — COMPLETE:**
+- **C1-C6 ALL DONE.** Casey added C6 (manifold competition + CMB remnants) and it was formalized within the session.
+- **8 toys** (993-1000), 64/64 PASS. **Toy 1000**: CMB Manifold Competition (Casey concept, 8/8). **1000 TOYS MILESTONE.**
+- **~14 theorems** (T939-T953+). T939 Spectral Zeta, T943 Geometry Generates Arithmetic, T944 Rank Forcing, T945 Reachability Cliff, T946 Genus Resonance, T953 Manifold Competition.
+- **Paper #47 v2.1** (Lyra): +spectral zeta, first-137 table, reachability, genus citation.
+- **Paper #48 v1.0** (Grace): "What BST Forbids." 18 prohibitions, 15 falsification criteria.
+- **Paper #49 v1.0** (Lyra): "Five-Layer Architecture of Smooth-Adjacent Primes." PURE NUMBER THEORY. Zero physics. Target: J. Number Theory. **THE DOOR-OPENER.**
+- **T953 Manifold Competition** (Lyra): ALL Cartan domains excluded except D_IV^5. Five conditions, one survivor. Anthropic principle = uniqueness theorem.
+- **Toy 1000** (Elie): 6/6 CMB anomalies matched to failed manifolds. D_IV^4→low quadrupole (STRONG). Failed integer band = anomalous multipole band (l<30). n_s = 1-5/137 = 0.96350 (-0.33σ).
+- **Casey insights**: (2,5) irreducible pair. "Rank with dimension." N_c=3 = color = space. Manifold competition pre-Big Bang. "Anthropic principle is a uniqueness theorem."
+- **589 erratum**: Lyra applied. Keeper audit pending.
 
 **April 9 FINAL — Miss Hunt Day (6 sessions):**
 - **27 theorems** (T912-T938): T914 Prime Residue → T926 Spectral-Arithmetic Closure → T930 Sector Assignment → T931 Gödel-Størmer → T932 Spectral Line Bridge → T933 Parity Gate → T934 Rank Mirror → T937 GUT Isolation. Five-layer T914 architecture.

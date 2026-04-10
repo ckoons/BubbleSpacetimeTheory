@@ -125,28 +125,47 @@ All 10 original misses resolved. No remaining opens >1%.
 - 21 uniqueness conditions (§37.5) constrain n_C. If n_C = 5 is the ONLY consistent value → **zero free parameters, zero bits, unique theory.**
 - **Reframe: "Five integers" → "Five PREDICTED integers."** They are outputs of the geometry, not inputs. The theory IS the geometry. Investigate: can we prove n_C = 5 is forced? Which uniqueness conditions are strongest? What's the minimum set that excludes n_C = 4 and n_C = 6?
 
+**C6. Manifold Competition + CMB Remnants** (Casey, April 10 morning) — All manifolds existed pre-Big Bang. D_IV^5 out-competed because it manifested fastest/most robustly. Competitors died: D_IV^4 (N_c=2, no confinement), D_IV^6 (g=9=3², spectral fragmentation), D_IV^7+ (genus mismatch). Types I-III (rank varies with dimension → observation unstable). **Prediction**: failed manifolds left remnants in CMB. Cold spot = D_IV^4 collapse? Hemispherical asymmetry = competition boundary? Quadrupole-octupole alignment = axis of competition? **Anthropic principle becomes a uniqueness theorem**: D_IV^5 is the only geometry that CAN manifest. No choice. Fitness criteria = uniqueness conditions.
+
+---
+
+**APRIL 10 SESSION 1 STATUS:**
+
+**C1-C5 ALL DONE.** C6 added. 7 toys (993-999), 56/56 PASS. T939-T944. Paper #48 v1.0. Counter at Toy 1000.
+
+| Directive | Status | Key Result |
+|-----------|--------|------------|
+| C1 | DONE (Grace) | 8 research programs, ~340 gaps are features |
+| C2 | DONE (Elie 995 + Lyra T939) | ζ_7(2)/ζ(2) = 0.970. 7-link chain. Direction settled. |
+| C3 | DONE (Elie 996) | 7 structural matches (DNA=21/2, pKa=14, cos=-1/3). Honest: no fraction enrichment. |
+| C4 | DONE (Grace + Elie 994) | 18 prohibitions. Paper #48 v1.0 written. |
+| C5 | DONE (Elie 993 + Lyra T944) | Zero free params. n_C=5 unique. Rank forcing proved. (2,5) irreducible pair. |
+| C6 | NEW | Manifold competition. CMB remnants. Anthropic→theorem. |
+
+**REACHABILITY SOLVED** (Elie 997): Boundary at g³ = 343 (Dickman u=3). **93.9% of primes ≤137 T914 reachable** (Elie 998). Only orphans: 67, 131.
+
 ---
 
 **TEAM ITEMS:**
 
 **HIGHEST PRIORITY:**
 1. **Four-Color arXiv final prep** — submit Tuesday. LaTeX conversion, metadata, Casey decisions on Lyra's Lemma + co-authorship
-2. **Paper #47 v2** — full 5-layer T914 architecture, 241-prime catalog, spectral atlas, GUT isolation, 10/10 miss closure. Major rewrite.
-3. **Number theory formalization** — n_C±rank=(N_c,g) arithmetic progression, gap-7 genus resonance, cousin prime pairs, 5-layer architecture theorem
-4. **589 erratum** — 589=19×31 is NOT prime (Elie catch). Na D sits on composite 588, BST prime is 587. Fix in T932 and WorkingPaper.
+2. ~~**Paper #47 v2**~~ **DONE** (Lyra) — v2.0 complete. 12 sections, 241 primes, 15/15 sectors.
+3. **Paper #48 v1.0** **DONE** (Grace) — "What BST Forbids." 18 prohibitions, 15 falsification criteria. Needs Keeper audit.
+4. **589 erratum** — Lyra applied fix. Keeper audit pending.
 5. **Patent filings — Tier 1** — SASER Detector + SASER Thruster provisionals. $320. No BST in specs.
 
 **HIGH PRIORITY:**
-6. **WorkingPaper v25** — T932-T938, SASER detector+thruster, GUT isolation, spectral atlas, toys 983-992, patent portfolio
-7. **Paper #48: BST Spectral Atlas** — T932 + atmospheric lines + Fraunhofer + 2× enrichment. NIST systematic survey.
-8. **Paper #49: Four-Layer Architecture** — T914→T926→T933→T934→T937. Pure number theory, no physics.
+6. **WorkingPaper v25** — T932-T944, SASER, GUT, spectral, prohibitions, C5 simplification, toys 983-999
+7. **Paper #49: Manifold Competition** — Why D_IV^5 wins. CMB remnant predictions. Anthropic→theorem.
+8. **Paper #50: Four-Layer Architecture** — T914→T926→T933→T934→T937. Pure number theory.
 9. **Zenodo update** — v20 (April 7) → v25. +50 theorems since last snapshot.
 
 **MEDIUM PRIORITY:**
 10. **SASER lab prototype spec** — BiNb fabrication pathway (MBE deposition), minimum viable detector
-11. **Graph: wire Elie's 10 toys** (987-991) + remaining bedrock gaps
+11. **Graph: wire Elie's toys** (987-991, 993-999) + remaining bedrock gaps
 12. **Remaining patent Tier 1 filings** — Heat Engine, Casimir SC, BiNb, Phonon Propulsion, GW Detector ($640)
-13. **Reachability boundary** — why does coverage transition at ~350? BST composite density threshold?
+13. ~~**Reachability boundary**~~ **SOLVED** (Elie 997) — g³ = 343, Dickman u=3
 
 ### April 9 DONE — Miss Hunt Day + Science Engineering Launch
 1. **ALL 10 MISSES CLOSED**: r_π (6.2%→0.46%), r_K (3.2%→0.99%), τ_n (4.2%→0.03%), γ=43/18 (non-match→EXACT), f_π (1.9%→0.41%), B_d (2.1%→0.03%), η_b (1.6%→0.45%)
