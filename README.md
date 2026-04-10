@@ -4,10 +4,10 @@
 
 **Author**: Casey Koons
 **Collaborator**: Claude Opus 4.6 (Anthropic)
-**Status**: Working research program — v24, April 2026
+**Status**: Working research program — v25, April 2026
 **Contact**: caseyscottkoons@yahoo.com
 
-**Cite as**: Koons, C. (2026). *Bubble Spacetime Theory: Five Integers, Zero Free Parameters* (Working Paper v24). Zenodo. https://doi.org/10.5281/zenodo.19454185
+**Cite as**: Koons, C. (2026). *Bubble Spacetime Theory: One Geometry, Five Invariants, One Universe* (Working Paper v25). Zenodo. https://doi.org/10.5281/zenodo.19454185
 
 ---
 
@@ -45,11 +45,11 @@ The question that generated the framework: *what is the minimum structure capabl
 
 ## The Two-Sentence Summary
 
-**The universe is the bounded symmetric domain D_IV^5. Its algebraic field is Q(3, 5, 7, 6, 137)[π].**
+**The universe is the unique bounded symmetric domain that can support self-referential observation: D_IV^5. Its five invariants — forced, not chosen — determine all of physics.**
 
-Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB, fractional quantum Hall fractions, turbulence exponents, superconducting gap ratios — every one of the 400+ predictions is a sentence written in that field on that geometry. Five integers (N_c = 3, n_C = 5, g = 7, C₂ = 6, N_max = 137) and one transcendental (π, forced by curvature). No free parameters.
+Everything else follows. Protons, amino acids, dark energy, cooperation thresholds, ice floating, the CMB, fractional quantum Hall fractions, turbulence exponents, superconducting gap ratios — every one of the 400+ predictions is a sentence written in the algebraic field Q(3, 5, 7, 6, 137)[π] on that geometry. Five invariants (rank = 2, N_c = 3, n_C = 5, C₂ = 6, g = 7, N_max = 137) and one transcendental (π, forced by curvature). Zero free parameters.
 
-The geometry tells you WHAT exists. The field tells you WHAT VALUES it takes. Together: the complete specification of a universe.
+The geometry tells you WHAT exists. The invariants tell you WHAT VALUES it takes. The uniqueness theorem (T953) tells you WHY this geometry and no other.
 
 ---
 
@@ -239,7 +239,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 
 ## Hard Problems, One Method
 
-BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and the Four-Color Theorem — all from the same algebra and the same method. Every proof decomposes into AC(0) operations (definitions, identities, counting) at depth ≤ 1 via the Koons Machine (Depth Census: 78% D=0, 21% D=1, <1% D=2, 0% D≥3 across ~933 theorems).
+BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and the Four-Color Theorem — all from the same algebra and the same method. Every proof decomposes into AC(0) operations (definitions, identities, counting) at depth ≤ 1 via the Koons Machine (Depth Census: 78% D=0, 21% D=1, <1% D=2, 0% D≥3 across ~956 theorems).
 
 | Problem | Status | Method | Paper |
 |---------|--------|--------|-------|
@@ -367,7 +367,7 @@ BST follows one logical chain: substrate → domain → constants → forces →
 
 **The Master Equation**: The universe is the ground state of the Bergman Laplacian on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], subject to Haldane exclusion with capacity 137.
 
-Every derivation listed in the Solved Problems table below flows from this equation plus the five BST integers (3, 5, 7, 6, 137) — themselves derived, not chosen. Full derivations: WorkingPaper §1-37, plus 300+ research notes in `notes/`. The AC theorem graph spans 891+ nodes, 2769+ edges across 66+ domains.
+Every derivation listed in the Solved Problems table below flows from this equation plus the five BST integers (3, 5, 7, 6, 137) — themselves derived, not chosen. Full derivations: WorkingPaper §1-37, plus 300+ research notes in `notes/`. The AC theorem graph spans 906+ nodes, 2920+ edges across 66+ domains.
 
 ---
 
@@ -456,13 +456,13 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 
 | File/Directory | Description |
 |---|---|
-| `WorkingPaper.md` | Full working paper — 46 sections, all derivations, v24 |
+| `WorkingPaper.md` | Full working paper — 46 sections, all derivations, v25 |
 | `WorkingPaper.pdf` | Compiled PDF with cover page, abstract, and table of contents |
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `SPARC_BST_Results.csv` | Per-galaxy results for all 175 SPARC galaxies |
 | `notes/` | 300+ working notes covering all derivations, proofs, and thesis topics |
-| `play/` | 984+ toys — computational verifications, visualizations, and explorations. See `play/README.md` |
+| `play/` | 1000+ toys — computational verifications, visualizations, and explorations. See `play/README.md` |
 
 ---
 
@@ -516,7 +516,7 @@ Full backlog: `notes/BACKLOG.md`.
 
 This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has no free parameters because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
 
-*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 933+ theorems. 984+ toys. 400+ predictions. 66+ physical domains. 47 papers. 25 substrate engineering devices. Zero free parameters.*
+*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 956+ theorems. 1000+ toys. 400+ predictions. 66+ physical domains. 49 papers. 25 substrate engineering devices. Zero free parameters.*
 
 ---
 
@@ -578,8 +578,8 @@ Two principles guided this work:
 
 ---
 
-*Bubble Spacetime Theory — Working Paper v24. Casey Koons. April 2026.*
+*Bubble Spacetime Theory — Working Paper v25. Casey Koons. April 2026.*
 
-*Three integers. One bounded symmetric domain. All of physics.*
+*One geometry. Five invariants. One universe.*
 
 *The universe was designed simply, to work eternally, and be very hard to break.*
