@@ -3,8 +3,8 @@ title: "The Prime Residue Table: Science Engineering from Five Integers"
 paper: "#47"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Grace, Keeper)"
 date: "April 10, 2026"
-version: "v2.1"
-status: "DRAFT — Complete T914 architecture: gap-1 + gap-2, 241 primes, 15/15 sectors, GUT isolation, spectral lines"
+version: "v2.2"
+status: "DRAFT — Complete T914 architecture: gap-1 + gap-2, 241 primes, 15/15 sectors, GUT isolation, spectral lines, definitive first-137 table"
 target: "Nature Physics (letter) or Physical Review Letters"
 ac_classification: "(C=1, D=0)"
 ---
@@ -212,9 +212,47 @@ Within the fine structure domain ($p \leq N_{\max} = 137$), there are exactly $\
 | Gap-2 reachable | 2 | 6.1% | $n \pm 2$ from odd composites (including $137 = 135 + 2$) |
 | Orphans | 2 | 6.1% | $\{67, 131\}$ — nearest smooth at gap $\geq 3$ |
 
-**Total reachable: 31/33 = 93.9%.** The two orphans are specific predictions:
+**Total reachable: 31/33 = 93.9%.** The definitive prime-by-prime classification (Toy 998):
 
-- **67** ($Z =$ Ho, holmium): nearest smooth numbers are 63 = $N_c^2 \times g$ (gap 4) and 70 = $\text{rank} \times n_C \times g$ (gap 3). BST predicts holmium is structurally less significant than its gap-1 neighbors — no anomalous physical properties expected.
+| Prime | Gap | Nearest smooth | BST expression | Known observable |
+|------:|:---:|:--------------:|:---------------|:-----------------|
+| 2 | 0 | — | rank | $e$ charge, spin-1/2 |
+| 3 | 0 | — | $N_c$ | QCD colors |
+| 5 | 0 | — | $n_C$ | compact dimensions |
+| 7 | 0 | — | $g$ | Bergman genus |
+| 11 | 1 | 10, 12 | $2 n_C \pm 1$, $2^2 N_c \pm 1$ | $n_C + C_2$; Na $Z$ |
+| 13 | 1 | 12, 14 | $2^2 N_c + 1$ | $\Omega_\Lambda$ numerator |
+| 17 | 1 | 16, 18 | $2^4 - 1$, $2 N_c^2 - 1$ | Cl $Z$ |
+| 19 | 1 | 18, 20 | $2 N_c^2 + 1$ | $\Omega_\Lambda$ denominator |
+| 23 | 1 | 24 | $2^3 N_c - 1$ | chromosome pairs |
+| 29 | 1 | 28, 30 | $2^2 g - 1$, $n_C C_2 - 1$ | Cu $Z$ ($\theta_D = g^3$) |
+| 31 | 1 | 30, 32 | $n_C C_2 + 1$, $2^{n_C} - 1$ | Mersenne $M_5$ |
+| 37 | 1 | 36 | $C_2^2 + 1$ | body temp; mitochondrial genes |
+| 41 | 1 | 40, 42 | $2^3 n_C - 1$, $C_2 g - 1$ | Nb $Z$ (highest $T_c$) |
+| 43 | 1 | 42 | $C_2 g + 1$ | percolation $\gamma = 43/18$ |
+| 47 | 1 | 48 | $2^4 N_c - 1$ | Ag $Z$ |
+| 53 | 1 | 54 | $N_c^2 C_2 - 1$ | I $Z$ (thyroid $T_3$/$T_4$) |
+| 59 | 1 | 60 | $2^2 N_c n_C - 1$ | Pr $Z$ |
+| 61 | 1 | 60 | $2^2 N_c n_C + 1$ | Pm $Z$ |
+| **67** | **3** | **64, 70** | **orphan** | **Ho $Z$ — predicted non-anomalous** |
+| 71 | 1 | 70, 72 | $2 n_C g - 1$, $2^3 N_c^2 - 1$ | Lu $Z$ |
+| 73 | 1 | 72 | $2^3 N_c^2 + 1$ | Ta $Z$ |
+| 79 | 1 | 80 | $2^4 n_C - 1$ | Au $Z$ |
+| 83 | 1 | 84 | $2 C_2 g - 1$ | Bi $Z$ (diamagnetic) |
+| 89 | 1 | 90 | $2 N_c^2 n_C - 1$ | Ac $Z$ |
+| 97 | 1 | 96, 98 | $2^5 N_c - 1$, $2 g^2 - 1$ | Bk $Z$ |
+| 101 | 1 | 100 | $2^2 n_C^2 + 1$ | Md $Z$ |
+| 103 | 2 | 105 | $N_c n_C g - 2$ | Lr $Z$; rank mirror |
+| 107 | 1 | 108 | $2^2 N_c^3 - 1$ | Bh $Z$ |
+| 109 | 1 | 108 | $2^2 N_c^3 + 1$ | Mt $Z$ |
+| 113 | 1 | 112 | $2^4 g + 1$ | Nh $Z$ |
+| 127 | 1 | 126, 128 | $2 N_c^2 g - 1$, $2^g - 1$ | Mersenne $M_7$ |
+| **131** | **3** | **128, 135** | **orphan** | **nearest: $2^g$, $N_c^3 n_C$** |
+| **137** | **2** | **135** | $N_c^3 n_C + \text{rank}$ | $\alpha = 1/137.036$ |
+
+The two orphans are specific anti-predictions:
+
+- **67** ($Z =$ Ho, holmium): nearest smooth numbers are 64 = $2^{C_2}$ (gap 3) and 70 = $\text{rank} \times n_C \times g$ (gap 3). BST predicts holmium is structurally less significant than its gap-1 neighbors — no anomalous physical properties expected.
 - **131**: nearest smooth numbers are 128 = $2^g$ (gap 3) and 135 = $N_c^3 \times n_C$ (gap 4). Deep desert between two large smooth powers.
 
 The critical entry is $137 = N_c^3 \times n_C + \text{rank} = 135 + 2$: the fine structure constant is a Rank Mirror prediction. It sits at gap-2 from the largest gap-2-accessible smooth number below $N_{\max}$, closing the catalog.
@@ -575,6 +613,7 @@ T914 originates from Casey Koons's observation that "the mathematics seems to tu
 ---
 
 **Changelog:**
+- v2.2 (Apr 10): Expanded §5 N_max subsection with definitive 33-prime table (prime-by-prime: gap, nearest smooth, BST expression, observable). T958 neutron composite. Keeper Round 2 directive.
 - v2.1 (Apr 10): Added §4 spectral zeta ζ_S(s) and reachability boundary at g³=343 (T939, Toy 997). Added §5 N_max domain subsection: all 33 primes ≤ 137 classified (Toy 998). Genus citation note for g=7 vs Faraut-Korányi.
 - v2.0 (Apr 10): Major expansion. Added §4 Parity Gate + Rank Mirror + GUT Isolation + AP. Added §6 spectral lines (T932). Added §7 orphan catalog. Added §10 five-layer architecture. Updated statistics (241 primes, 897/2905 graph). Renumbered §10→§11, §11→§12.
 - v1.4 (Apr 9): Boundary MF fixed. Added Størmer §4, T930 sector §7, reliability map §7. Graph 891/2551.

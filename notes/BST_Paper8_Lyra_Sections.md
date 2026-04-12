@@ -154,7 +154,7 @@ The theory is falsified if:
 - **Nowak's five rules for cooperation** (Nature, 2006): BST derives all five from geometry. Direct reciprocity, indirect reciprocity, spatial selection, kin selection, group selection all follow from the phase transition at $f_{\text{crit}}$ on different sub-domains.
 - **Axelrod's evolution of cooperation** (1984): Tit-for-tat succeeds because repeated games above threshold converge to cooperation. BST shows this is the Nash equilibrium above $f_{\text{crit}}$, not a strategy discovery.
 - **Ostrom's commons management** (1990): Successful commons management requires committed minorities above threshold — Ostrom's empirical finding matches $f_{\text{crit}} \approx 20\%$.
-- **Hamilton's rule** ($r > c/b$): BST derives $r = 1/\text{rank} = 1/2$ (T382). Hamilton's rule is a depth-0 consequence of the domain's real rank.
+- **Hamilton's rule** ($r > c/b$): BST derives $r = 1/\text{rank} = 1/2$ (T381). Hamilton's rule is a depth-0 consequence of the domain's real rank.
 
 ### 5.4 The Cooperation Inequality
 

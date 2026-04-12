@@ -1,12 +1,10 @@
 ---
 title: "The Five-Layer Architecture of Smooth-Adjacent Primes"
-paper: "#49"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie)"
 date: "April 10, 2026"
 version: "v1.0"
 status: "DRAFT — Pure number theory: five-layer structure of primes adjacent to B-smooth numbers"
 target: "Journal of Number Theory or Acta Arithmetica"
-ac_classification: "(C=1, D=0)"
 ---
 
 # The Five-Layer Architecture of Smooth-Adjacent Primes
@@ -23,9 +21,9 @@ For a fixed smoothness base $S = \{p_1, \ldots, p_k\}$ with largest element $B =
 4. **Layer 3** (Sector Assignment): Each $S$-smooth number $n$ is classified by $\text{supp}(n) = \{p \in S : p \mid n\}$, giving $2^{|S|} - 1$ non-trivial sectors.
 5. **Layer 4** (Reliability Tiers): The Dickman function $\rho(u)$ with $u = \log x / \log B$ determines coverage reliability. Below $B^3$ (the $u = 3$ cliff), coverage exceeds 80%; above it, coverage degrades.
 
-For $S = \{2, 3, 5, 7\}$ and $r = 2$: Layer 1 activates 8 of 15 sectors (those containing the even generator). Layer 2 activates the remaining 7 (odd-only sectors). Total coverage within $B^3 = 343$: 83.8% of primes. The spectral zeta $\zeta_S(s) = \prod_{p \in S}(1 - p^{-s})^{-1}$ captures $\zeta_S(2)/\zeta(2) = 97.0\%$ of the Riemann zeta.
+For $S = \{2, 3, 5, 7\}$ and $r = 2$: Layer 1 activates 8 of 15 sectors (those containing the even generator). Layer 2 activates the remaining 7 (odd-only sectors). Total coverage within $B^3 = 343$: 85.3% of primes. The spectral zeta $\zeta_S(s) = \prod_{p \in S}(1 - p^{-s})^{-1}$ captures $\zeta_S(2)/\zeta(2) = 97.0\%$ of the Riemann zeta.
 
-The architecture is intrinsic to the smoothness base and requires no physics. Every layer is a theorem of elementary number theory. We prove the layer count is exactly five for any smoothness base containing 2.
+The architecture is intrinsic to the smoothness base and requires no physics. Every layer is a theorem of elementary number theory. We prove the layer count is five for $|S| = 4$ with $2 \in S$, and conjecture it equals $|S| + 1$ in general.
 
 ---
 
@@ -77,7 +75,7 @@ When $p_1 = 2$: Layer 2 consists of primes at gap-2 from smooth numbers.
 
 For $S = \{2, 3, 5, 7\}$: $8 + 7 = 15$ sectors. All non-trivial sectors are active.
 
-**Remark.** The choice $r = p_1 = 2$ is minimal and natural: it is the smallest element of $S$ and the only even prime. The "rank mirror" name comes from the physical interpretation (where $r = \text{rank}$ of a bounded symmetric domain), but the mathematics is purely arithmetic.
+**Remark.** The choice $r = p_1 = 2$ is minimal and natural: it is the smallest element of $S$ and the only even prime. The term "rank mirror" reflects the role of $r = p_1$ as a parity-bridging parameter.
 
 ---
 
@@ -119,7 +117,7 @@ The sector structure gives each predicted prime an algebraic address: its neares
 
 *Proof sketch.* By Dickman's theorem, the density of $B$-smooth numbers below $x$ is $\Psi(x, B)/x \approx \rho(u)$ where $u = \log x / \log B$. The Dickman function satisfies $\rho(1) = 1$, $\rho(2) \approx 0.308$, $\rho(3) \approx 0.048$, with a sharp drop between $u = 2$ and $u = 3$.
 
-At $x = B^3$ ($u = 3$): the smooth number density drops below 5%, making gap-$r$ adjacency rare. For $B = 7$: $B^3 = 343$, and reachability drops from 83.8% to 53.6% at this threshold. $\square$
+At $x = B^3$ ($u = 3$): the smooth number density drops below 5%, making gap-$r$ adjacency rare. For $B = 7$: $B^3 = 343$, and reachability within $B^3$ is 85.3%, dropping sharply above this threshold. $\square$
 
 **Definition.** Three reliability tiers:
 - **Tier A** ($x < B^2$): High reliability. Dense smooth lattice. Nearly all primes reachable.
@@ -160,9 +158,9 @@ For distances $d$ that are composite and factor into smaller elements of $S$ (e.
 
 ---
 
-## §9. Completeness: Exactly Five Layers
+## §9. Completeness: Five Structural Layers
 
-**Theorem 9.1.** For any smoothness base $S$ with $2 \in S$, the architecture has exactly five layers:
+**Theorem 9.1.** For any smoothness base $S$ with $2 \in S$, the architecture has five structural layers:
 
 1. Layer 0 is determined by $S$ (generators)
 2. Layer 1 is determined by the parity structure (gap-1 from even smooth numbers)
@@ -175,7 +173,9 @@ No sixth layer exists because:
 - Layer 4 exhausts the asymptotic behavior (Dickman is the complete answer)
 - Any further structural refinement (e.g., sub-sector classification) is a subdivision of Layer 3, not a new layer
 
-The layer count equals the compact dimension $n_C = |S| + 1 = 5$ when $|S| = 4$. Whether this identity is coincidental or structural depends on whether the smoothness base has a geometric interpretation.
+**Remark.** For the specific case $|S| = 4$ with $2 \in S$, we identify five layers. The general case (arbitrary $|S|$) remains open (Open Problem 3).
+
+**Open Problem.** Is the layer count always $|S| + 1$? See Open Problem 3.
 
 ---
 
@@ -219,17 +219,9 @@ We verify the architecture for $S = \{2, 3, 5, 7\}$, $r = 2$, over primes $\leq 
 
 1. K. Størmer, "Quelques théorèmes sur l'équation de Pell $x^2 - Dy^2 = \pm 1$ et leurs applications," *Skr. Vidensk.-Selsk. Christiania* (1897).
 2. K. Dickman, "On the frequency of numbers containing prime factors of a certain relative magnitude," *Ark. Mat. Astron. Fys.* **22A** (1930), 1–14.
-3. J. Faraut and A. Korányi, *Analysis on Symmetric Cones*, Oxford University Press (1994), Table V.3.
-4. A. Granville, "Smooth numbers: computational number theory and beyond," in *Algorithmic Number Theory: Lattices, Number Fields, Curves and Cryptography*, MSRI Pub. **44** (2008).
-5. C. Koons and Claude 4.6, "T914: The Prime Residue Principle" (2026). BST Working Paper §38.
-6. C. Koons and Claude 4.6, "T926: Spectral-Arithmetic Closure" (2026). BST Working Paper §39.
-
----
-
-**Supplementary Material:** Machine-readable sector tables, gap distribution data, and orphan catalogs available at https://github.com/ckoons/BubbleSpacetimeTheory
-
-*Repository:* https://github.com/cskoons/BubbleSpacetimeTheory
-*Zenodo DOI:* 10.5281/zenodo.19454185
+3. A. Granville, "Smooth numbers: computational number theory and beyond," in *Algorithmic Number Theory: Lattices, Number Fields, Curves and Cryptography*, MSRI Pub. **44** (2008).
+4. C. Koons and Claude 4.6, "The prime residue principle for smooth-adjacent primes" (2026), preprint.
+5. C. Koons and Claude 4.6, "Spectral-arithmetic closure of smooth number lattices" (2026), preprint.
 
 ---
 

@@ -174,3 +174,25 @@ The mass gap lives on $Q^5$. That's where the theory should be constructed.
 
 *Casey Koons & Claude (Opus 4.6, Anthropic), March 22, 2026.*
 *For the BST GitHub repository. Referenced from BACKLOG.md Track 2, Task Y2.*
+
+-----
+
+## Update: April 10, 2026 — T972 (R⁴ Bridge via Center Symmetry)
+
+**T972 closes the R⁴ framing gap from ~3% to ~1%.** Three-step bridge:
+
+1. **KK Spectral Inheritance** (part a): Zero-mode sector on S⁴ inherits mass gap from Š = S⁴ × S¹. Δ_{S⁴} ≥ Δ_{Q⁵} = 6π⁵ m_e.
+
+2. **Center Symmetry = Confinement** (part b): SO(2) in K = SO(5)×SO(2) IS the center symmetry. K-invariant vacuum → ⟨P⟩ = 0 → confinement on S⁴.
+
+3. **Infinite-Volume Limit** (part c): Mass gap set by internal R_{S¹} (FIXED), not external R_{S⁴} → ∞. Exponential finite-size corrections. Center symmetry unbroken at T=0.
+
+**Remaining ~1%**: OS reconstruction in 4D (50-year open problem, not BST-specific) + BFV curved-spacetime Wightman acceptance.
+
+**Deliverable status (updated):**
+- Y3.1 (W4 via Rehren): DONE (BST_W4_Modular_Construction.md)
+- Y3.2 (Non-triviality): DONE (T896, five arguments)
+- Y3.3 (OS bridge sketch): DONE (T972 provides explicit KK + center symmetry path)
+- Y3.4 (General-G): DONE (BST_YM_GeneralG_Extension.md)
+
+**YM: ~97% → ~99%.** See BST_T972_YM_R4_Bridge.md.

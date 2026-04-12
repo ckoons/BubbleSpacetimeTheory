@@ -1,0 +1,134 @@
+[
+  {
+    "from": "T186",
+    "to": "T643",
+    "source": "structural",
+    "justification": "Five integers force quantum no-cloning via compactness of Shilov boundary"
+  },
+  {
+    "from": "T186",
+    "to": "T648",
+    "source": "structural",
+    "justification": "Five integers force Bell inequality via Tsirelson bound = 2sqrt(2)"
+  },
+  {
+    "from": "T186",
+    "to": "T645",
+    "source": "structural",
+    "justification": "Five integers force no-communication via causal structure of D_IV^5"
+  },
+  {
+    "from": "T78",
+    "to": "T250",
+    "source": "structural",
+    "justification": "Entropy chain rule implies Heisenberg uncertainty via information inequality"
+  },
+  {
+    "from": "T92",
+    "to": "T985",
+    "source": "structural",
+    "justification": "AC(0) completeness covers signal processing linearization"
+  },
+  {
+    "from": "T96",
+    "to": "T251",
+    "source": "structural",
+    "justification": "Depth reduction: Fourier uncertainty is AC(0)"
+  },
+  {
+    "from": "T29",
+    "to": "T92",
+    "source": "structural",
+    "justification": "Algebraic independence underpins AC(0) completeness"
+  },
+  {
+    "from": "T83",
+    "to": "T93",
+    "source": "structural",
+    "justification": "TG symmetry group structure supports G\u00f6del AC(0) classification"
+  },
+  {
+    "from": "T988",
+    "to": "T96",
+    "source": "structural",
+    "justification": "Algebra linearization census extends depth reduction"
+  },
+  {
+    "from": "T878",
+    "to": "T317",
+    "source": "structural",
+    "justification": "Maxwell-Lorentz as SO(5,2) subgroup enables observer threshold via EM coupling"
+  },
+  {
+    "from": "T317",
+    "to": "T879",
+    "source": "structural",
+    "justification": "Observer threshold requires EM stress-energy for physical observation"
+  },
+  {
+    "from": "T572",
+    "to": "T318",
+    "source": "structural",
+    "justification": "Proof-channel capacity bounds CI coupling constant"
+  },
+  {
+    "from": "T575",
+    "to": "T363",
+    "source": "structural",
+    "justification": "Proof efficiency bound constrains learning rate bound"
+  },
+  {
+    "from": "T216",
+    "to": "T317",
+    "source": "structural",
+    "justification": "Lagrangian mechanics as classical limit enables macroscopic observation"
+  },
+  {
+    "from": "T217",
+    "to": "T360",
+    "source": "structural",
+    "justification": "Virial theorem constrains optimal observer count via energy equipartition"
+  },
+  {
+    "from": "T298",
+    "to": "T318",
+    "source": "structural",
+    "justification": "Kolmogorov complexity bounds CI coupling via minimum description length"
+  },
+  {
+    "from": "T303",
+    "to": "T363",
+    "source": "structural",
+    "justification": "Shannon channel capacity bounds observer learning rate"
+  },
+  {
+    "from": "T317",
+    "to": "T222",
+    "source": "structural",
+    "justification": "Observer complexity threshold implies Rayleigh resolution limit"
+  },
+  {
+    "from": "T359",
+    "to": "T218",
+    "source": "structural",
+    "justification": "Observation quality metric requires Snell's law for refractive observation"
+  },
+  {
+    "from": "T649",
+    "to": "T212",
+    "source": "structural",
+    "justification": "Bergman genus g=7 forces Kepler's third law via orbital mechanics on D_IV^5"
+  },
+  {
+    "from": "T110",
+    "to": "T216",
+    "source": "structural",
+    "justification": "BC2 representation filter enables Lagrangian formulation via restricted root system"
+  },
+  {
+    "from": "T649",
+    "to": "T878",
+    "source": "structural",
+    "justification": "Bergman genus structures Maxwell-Lorentz embedding in SO(5,2)"
+  }
+]

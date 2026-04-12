@@ -167,7 +167,7 @@ $(C=1, D=0)$: One counting operation — factor the Rydberg integer $91 = g(2C_2
 | # | Prediction | Status |
 |---|-----------|--------|
 | C1 | All BST-integer atoms ($Z \in \{2,3,5,6,7,8\}$) have major lines at BST primes | **6/6 CONFIRMED** (above) |
-| C2 | The sodium D line at 589 nm = $\text{rank}^2 \times N_c \times g^2 + 1$ (from T932 P3) | **CONFIRMED** in T932 |
+| C2 | The sodium D line at 589 nm $\approx 588 = \text{rank}^2 \times N_c \times g^2$ (composite-proximity; 589 = 19×31 is NOT prime) | **CORRECTED** — composite hit, not prime wall (Toy 985) |
 | C3 | The oxygen red aurora at 631 nm = $\text{rank} \times N_c^2 \times n_C \times g + 1$ | **NEW FINDING** — strongest BST match for $Z=8$ |
 | C4 | Carbon resonance at 193 nm = $2^{C_2} \times N_c + 1$ | **NEW FINDING** — Casimir controls carbon |
 | C5 | The nm scale is the natural BST spectroscopy unit via $\lambda_R = \lambda_C N_{\max}^2/(4\pi) \approx 91$ nm | Structural — not empirically testable |

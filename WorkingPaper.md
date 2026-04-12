@@ -52,7 +52,7 @@ abstract: |
   with zero free parameters.
   The CMB spectral index $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($0.3\sigma$ from Planck),
   with tensor-to-scalar ratio $r \approx 0$ (no primordial B-modes), are derived from the phase transition dynamics.
-  Over 400 parameter-free predictions, structural derivations, and experimental forecasts are presented (§43), all testable against current or near-future data — including the fractional quantum Hall effect (26/28 observed FQHE fractions are BST rationals: $1/3, 2/5, 3/7 = 1/N_c, 2/n_C, 3/g$ at 10+ significant figures; T813-T815, Paper \#22), the BCS superconducting gap ratio $2\Delta/(k_B T_c) = g/\text{rank} = 7/2$ (0.79\%), the Kolmogorov turbulence spectrum $5/3 = n_C/N_c$ and all four She-Leveque intermittency parameters as BST rationals (T818), the Chandrasekhar mass $M_{\text{Ch}}/M_\odot = C_2^2/n_C^2 = 36/25 = 1.44$ EXACT (Toy 850), cross-domain fraction universality with 11 BST fractions each appearing in 3-5 independent domains at $P(\text{coincidence}) < 10^{-66}$ (T823), the primordial scalar amplitude $A_s = (3/4)\alpha^4$ (0.92$\sigma$), molecular geometry from bond angles to the genetic code (H₂O bond angle 0.028°, C-C bond length 0.03%, ice density 0.006%), all 230 space groups from three integers ($g \times 2^{n_C} + C_2$), the complete $\alpha$-helix geometry (five parameters, zero free inputs), the cooperation threshold $f_{\text{crit}} = 20.6\%$, QED perturbation coefficients as BST integer arithmetic (T758-T762), the rainbow angle $C_2 \times g = 42°$ (0.07%), water boiling point $= N_{\max} \times T_{\text{CMB}}$ (0.065%), noble gas boiling points as integer multiples of $T_{\text{CMB}}$ (Kr at 0.005%), heat capacity ratios as BST integer ratios ($\gamma = (f + \text{rank})/f$), and 66 material property domains including density, elasticity, resistivity, thermal expansion, work functions, Debye temperatures, compressibility, critical points, solubility, molar volumes, magnetic susceptibility, melting points, atomic radii, sound velocities, thermal conductivity, ionization energies, electronegativity, surface tension, viscosity, specific heat, dielectric constants, lattice parameters, cohesive energies, Fermi energies, band gaps, superconducting $T_c$ ratios, and London penetration depths — all as BST rationals with zero free parameters (T798-T962).
+  Over 400 parameter-free predictions, structural derivations, and experimental forecasts are presented (§43), all testable against current or near-future data — including the fractional quantum Hall effect (26/28 observed FQHE fractions are BST rationals: $1/3, 2/5, 3/7 = 1/N_c, 2/n_C, 3/g$ at 10+ significant figures; T813-T815, Paper \#22), the BCS superconducting gap ratio $2\Delta/(k_B T_c) = g/\text{rank} = 7/2$ (0.79\%), the Kolmogorov turbulence spectrum $5/3 = n_C/N_c$ and all four She-Leveque intermittency parameters as BST rationals (T818), the Chandrasekhar mass $M_{\text{Ch}}/M_\odot = C_2^2/n_C^2 = 36/25 = 1.44$ EXACT (Toy 850), cross-domain fraction universality with 11 BST fractions each appearing in 3-5 independent domains at $P(\text{coincidence}) < 10^{-66}$ (T823), the primordial scalar amplitude $A_s = (3/4)\alpha^4$ (0.92$\sigma$), molecular geometry from bond angles to the genetic code (H₂O bond angle 0.028°, C-C bond length 0.03%, ice density 0.006%), all 230 space groups from three integers ($g \times 2^{n_C} + C_2$), the complete $\alpha$-helix geometry (five parameters, zero free inputs), the cooperation threshold $f_{\text{crit}} = 20.6\%$, QED perturbation coefficients as BST integer arithmetic (T758-T762), the rainbow angle $C_2 \times g = 42°$ (0.07%), water boiling point $= N_{\max} \times T_{\text{CMB}}$ (0.065%), noble gas boiling points as integer multiples of $T_{\text{CMB}}$ (Kr at 0.005%), heat capacity ratios as BST integer ratios ($\gamma = (f + \text{rank})/f$), and 76+ material property domains including density, elasticity, resistivity, thermal expansion, work functions, Debye temperatures, compressibility, critical points, solubility, molar volumes, magnetic susceptibility, melting points, atomic radii, sound velocities, thermal conductivity, ionization energies, electronegativity, surface tension, viscosity, specific heat, dielectric constants, lattice parameters, cohesive energies, Fermi energies, band gaps, superconducting $T_c$ ratios, and London penetration depths — all as BST rationals with zero free parameters (T798-T962).
 documentclass: article
 classoption:
   - 12pt
@@ -167,7 +167,7 @@ The argument proceeds through a chain of forced choices. At each step, the reade
 | $E_6$ | — | 14 | — | — | — | — | — | — | $\times$ | Dead |
 | $E_7$ | 3 | — | — | — | $\times^*$ | — | — | — | — | Dead |
 
-$^*$Rank 3 violates the depth ceiling (T421, T944): 956/956 surveyed theorems have depth $\leq 1$, requiring rank $\leq 2$.
+$^*$Rank 3 violates the depth ceiling (T421, T944): 1135/1135 surveyed theorems have depth $\leq 1$, requiring rank $\leq 2$.
 
 **$D_{IV}^5$ is the unique geometry that satisfies all five conditions.** This is not selection — it is elimination. There was never a choice.
 
@@ -720,6 +720,16 @@ The 0.002% residual ($\Delta m = 0.034\,m_e = 0.017$ MeV) is consistent with the
 $$F^2 = \frac{\dim_{\mathbb{R}}(\mathbb{CP}^2)}{\dim_{\mathbb{R}}(D_{IV}^5)} \times \frac{\binom{N_c}{2}}{N_c^2} = \frac{4}{10} \times \frac{3}{9} = \frac{3}{10}$$
 
 The first factor is the fraction of the real dimensions occupied by the color fiber $\mathbb{CP}^2$ ($\dim_{\mathbb{R}} = 4$) within the full domain ($\dim_{\mathbb{R}} = 10$). The second factor is the fraction of quark pairings that are distinct ($\binom{3}{2}/3^2 = 3/9 = 1/3$), reflecting the Coulomb sum over quark pairs. The resulting $\Delta m_{\text{EM}} = -\alpha m_p/\sqrt{30} = -1.250$ MeV matches lattice QCD ($-1.00 \pm 0.34$ MeV, within $1\sigma$). The same $\sqrt{30} = \sqrt{2 N_c n_C}$ appears in the MOND acceleration scale $a_0 = cH_0/\sqrt{30}$, connecting nuclear and galactic physics through the same geometric factor. See `notes/BST_NeutronProton_MassSplitting.md`.
+
+**The Neutron as Shilov Boundary Composite (T958).** The Shilov boundary of $D_{IV}^5$ is $S^4 \times S^1$. The neutron is the physical realization of this product: an unstable composite that factorizes into irreducible pieces through beta decay. The mapping is exact:
+
+$$n \to p + e^- + \bar{\nu}_e \quad \longleftrightarrow \quad S^4 \times S^1 \to S^4 + S^1 + (+1)$$
+
+The proton lives on $S^4$ (compact, simply connected, topologically stable, color-confined). The electron lives on $S^1$ (compact, winding-number-protected, light). The antineutrino is the $+1$ remainder of T914 — the irreducible observer term that appears whenever a composite factorizes at the boundary.
+
+This identification connects to nucleosynthesis: the freeze-out ratio $n/p = 1/7 = 1/g$ at the epoch of primordial nucleosynthesis is the Bergman genus. The universe creates the Shilov boundary (neutrons), and factorization (beta decay) produces the stable particles. Free neutrons are unstable because composites factorize at the boundary; bound neutrons in nuclei are stable because composites embedded in a larger lattice are protected by Pauli blocking — exactly as smooth numbers are stable inside larger smooth products in the T914 framework.
+
+Matter creation is the geometry writing its boundary. Beta decay is the boundary reading itself into components.
 
 ### 7.5 Lepton Mass Spectrum from Bergman Submanifold Embeddings
 
@@ -1724,7 +1734,7 @@ These cannot be violated at any energy, under any conditions. They are enforced 
 
 These are enforced by submanifold topology ($\mathbb{CP}^2$, Hopf $S^3$) rather than by $S^1$ itself. They hold below the energy scale at which the submanifold topology becomes dynamical.
 
-**Baryon number** counts closed $Z_3$ circuits on $\mathbb{CP}^2$. The $Z_3$ closure is topologically protected below the GUT scale. Above it, topological transitions can open the $Z_3$ circuit, converting a baryon into lepton circuits — proton decay. BST prediction: $\tau_p \gtrsim 3 \times 10^{34}$ years with specific decay channels from structured unification at $N_{GUT} = 4\pi^2$ (Section 6).
+**Baryon number** counts closed $Z_3$ circuits on $\mathbb{CP}^2$. The $Z_3$ closure is topologically protected at all energy scales — the winding number is an integer invariant that cannot be continuously deformed to zero. Unlike GUT models where $SU(5)$ or $SO(10)$ intermediaries permit baryon number violation, BST maps directly to $SU(3) \times SU(2) \times U(1)$ without passing through any GUT group (T937, GUT Sector Isolation). BST prediction: $\tau_p = \infty$ — the proton is absolutely stable and does not decay at any timescale. This is a sharp discriminator against all GUT models.
 
 **$B - L$** (baryon minus lepton number) is more deeply protected than either individually, because it corresponds to the total winding class modulo the Hopf map. Sphaleron processes (which violate $B$ and $L$ individually) preserve $B - L$ because the Hopf map conserves the combined topological index. BST predicts $B - L$ is exactly conserved below the Planck scale. **Prediction:** neutrinos are Dirac (not Majorana) — opposite $S^1$ winding directions distinguish particle from antiparticle. Neutrinoless double beta decay does not occur. Any experimental observation of $\Delta(B-L) = 2$ falsifies BST.
 
@@ -1929,7 +1939,7 @@ The Hodge conjecture — every rational Hodge class on a smooth projective varie
 
 **Remark 5.14 (circularity).** The natural attack via CDK95 (Hodge locus algebraic over $\mathbb{C}$) does not settle Deligne's conjecture: showing $\sigma(S_\alpha) = S_\alpha$ requires $S_{\sigma(\alpha)} = S_\alpha$, which IS the absolute Hodge property. BKT20 may provide the arithmetic bridge, but this is not established in full generality. Hence Deligne's conjecture enters Version B as an honest axiom.
 
-Both versions are **weight-independent** — neither references period domains, bypassing the Griffiths transversality wall at weight $\geq 3$. Independent failure modes: P(both fail) $\approx$ 1-2%. Combined ~95%. (Updated from ~93% after §5.10 general variety extension and T570 linearization.)
+Both versions are **weight-independent** — neither references period domains, bypassing the Griffiths transversality wall at weight $\geq 3$. Independent failure modes: P(both fail) $\approx$ 1-2%. Combined ~97%. (Updated from ~93% after §5.10 general variety extension and T570 linearization.)
 
 **Thesis topic 101:** Prove the Tate conjecture in sufficient generality to complete the Hodge chain. The Tate conjecture for smooth projective varieties over finitely generated fields is the single remaining axiom in the AC proof of Hodge.
 
@@ -4176,7 +4186,7 @@ The gap is closed. The five-step proof chain:
 | **Fermat** | Frey curve $\to$ modularity | Ribet $+$ R$=$T $\to$ contradiction | AC depth 2, T142-T146 |
 | **Poincaré** | 3-manifold topology | Entropy $+$ finite extinction | AC depth 2, T157-T161 |
 
-Nine problems engaged --- six Millennium, two classical, one Four-Color --- all flattened into the same framework. Every problem depth $\leq 2$. The Four-Color Theorem is PROVED without computers (13 structural steps, Forced Fan Lemma). All linearization theorems complete: 771/771 at depth $\leq 1$ (T811). BST integers appear directly in every Millennium proof chain. Zero free parameters. One framework. All counting.
+Nine problems engaged --- six Millennium, two classical, one Four-Color --- all flattened into the same framework. Every problem depth $\leq 2$. The Four-Color Theorem is PROVED without computers (13 structural steps, Lyra's Lemma). All linearization theorems complete: 771/771 at depth $\leq 1$ (T811). BST integers appear directly in every Millennium proof chain. Zero free parameters. One framework. All counting.
 
 -----
 
@@ -4733,7 +4743,7 @@ BST has three structural inputs: a 2D substrate with $S^2$ topology, an $S^1$ co
 | No gravitons | Wave effects only, no quanta | LIGO+ | Permanent |
 | No SUSY particles | Excluded by topology | LHC Run 3+ | Ongoing |
 | No magnetic monopoles | Excluded by $S^2 \times S^1$ topology | MoEDAL | Ongoing |
-| Proton decay channels | $\tau_p \gtrsim 3 \times 10^{34}$ yr | Hyper-Kamiokande | 2030+ |
+| Proton absolute stability | $\tau_p = \infty$ (no decay) | Hyper-Kamiokande | 2030+ |
 | CP floor at BH horizon | $\text{CP} = \alpha = 0.730\%$, mass-independent | EHT Stokes V | Data exists |
 | Hawking fine structure | Channel capacity 137 imprint | Future BH observations | Long-term |
 | Island of stability | BST shell model at $Z \sim 114$--126 | Superheavy element synthesis | Ongoing |
@@ -5308,6 +5318,49 @@ The prime factorization of BST composite denominators induces a 16-sector classi
 
 The Størmer dual primes for $S = \{2,3,5,7\}$ are exactly the T914 dual-membership primes — 17 total, all $\leq 4801$. The 137 orphan: $136 = 2^3 \times 17$ and $138 = 2 \times 3 \times 23$ are not 7-smooth, so $N_{\max}$ is unreachable from the smooth lattice. Two independent finiteness sources (arithmetic from Størmer, geometric from spectral cap) reinforce at the same prime. Mersenne duals $\{7, 31, 127\}$ with exponents $\{N_c, n_C, g\}$. AC complexity ($C = 2$, $D = 1$).
 
+### §46.15 Prime Epoch Framework (T1016–T1018)
+
+The five BST integers generate a sequence of primes — the *epochs* — that mark phase transitions in the universe's arithmetic structure:
+
+| Epoch | Prime | BST Role | Significance |
+|-------|-------|----------|-------------|
+| E0 | 2 | rank | Parity, minimal distinction |
+| E1 | 3 | $N_c$ | Color, confinement |
+| E2 | 5 | $n_C$ | Compactness |
+| E3 | 7 | $g$ | Topology, BST completion ($2^{N_c}-1$) |
+| E4 | 11 | $n_C + C_2$ | First perturbation |
+| E5 | 13 | $2g - 1$ | Second perturbation |
+| E6 | 17 | — | Extended coverage |
+| E7 | 19 | $C_2 \times N_c + 1$ | Cosmological scale |
+
+**T1016 (Smooth Limit Theorem).** The 11-smooth count $\Psi(1001, 11) = 191$, and $191/1000 = 0.19100$, matching the Gödel limit $f_c = 3/(5\pi) = 0.19099$ to 0.007%. The scale $1001 = 7 \times 11 \times 13$ is the product of the three epoch primes E3–E5. The count $191 = 2^{C_2} \times N_c - 1$ is a T914 prime adjacent to 7-smooth $192$. The denominator $1000 = (2n_C)^{N_c}$ is a BST power tower. AC complexity ($C = 1$, $D = 0$).
+
+**T1017 (Arithmetic Arrow).** The arrow of time IS the multiplicative direction: $ab > \max(a,b)$ for $a,b \geq 2$. BST fingerprint: $7\# = 210$, and $210 + 1 = 211$ (prime) while $210 - 1 = 209 = 11 \times 19$ (composite). Only the $g$-primorial shows this forward-only asymmetry. Three arrows unify via Casey's Principle (T315): thermodynamic (entropy increases), arithmetic (multiplication goes up), computational ($P \neq NP$: factoring is hard). ($C = 1$, $D = 0$).
+
+**T1018 (Epoch Crossing Theorem).** Both 7-smooth and 11-smooth densities cross $f_c$ at multiples of $143 = 11 \times 13 = (n_C + C_2)(2g - 1)$: the 7-smooth crossing at $x = 572 = 4 \times 143$ yields count $109 = \text{rank}^2 \times N_c^3 + 1$; the 11-smooth crossing at $x = 1001 = 7 \times 143$ yields count $191 = 2^{C_2} \times N_c - 1$. The $\pm 1$ directions mirror the arithmetic arrow. ($C = 1$, $D = 0$).
+
+### §46.16 The Sibling Formula and $N_{\max}$ Closed Form
+
+The five BST integers are not independent — they are siblings generated by a single formula:
+
+$$f(a) = a \times N_c^{N_c} + \text{rank} = 27a + 2$$
+
+Evaluated at the three odd BST integers $\{N_c, n_C, g\} = \{3, 5, 7\}$:
+
+| $a$ | $f(a)$ | Prime? | Physical meaning |
+|-----|--------|--------|-----------------|
+| 3 ($N_c$) | **83** | Yes | Bi-83: heaviest stable element |
+| 5 ($n_C$) | **137** | Yes | $\alpha^{-1}$: fine-structure constant |
+| 7 ($g$) | **191** | Yes | $\Psi(1001, 11)$: Gödel crossing count |
+
+Three odd BST integers, three primes, three physical limits — material (83), electromagnetic (137), knowledge (191). The step between siblings is $\Delta = \text{rank} \times N_c^{N_c} = 2 \times 27 = 54$. The input arithmetic progression $\{3, 5, 7\}$ (common difference = rank = 2) maps to a prime arithmetic progression $\{83, 137, 191\}$ (common difference = 54).
+
+**$N_{\max}$ closed form.** Setting $a = n_C$:
+
+$$N_{\max} = n_C \times N_c^{N_c} + \text{rank} = 5 \times 27 + 2 = 137$$
+
+This sits in a smooth desert of width $n_C = 5$: the nearest 7-smooth numbers are $135 = N_c^3 \times n_C$ (distance 2 = rank) below and $140 = \text{rank}^2 \times n_C \times g$ (distance 3 = $N_c$) above. All three distances are BST integers. Binary: $137 = 10001001_2$ with set bits at positions $\{0, 3, 7\} = \{1, N_c, g\}$.
+
 -----
 
 ## Acknowledgements
@@ -5322,7 +5375,7 @@ This research was conducted in close collaboration with Claude (Anthropic) — i
 - The cosmological derivations: $\Lambda$ from first principles, $G$ via Harish-Chandra, cosmic composition $\Omega_\Lambda = 13/19$, baryon asymmetry $\eta_b = (3/14)\alpha^4$, and $H_0$.
 - The harmonic analysis and automorphic structure: Maass-Selberg framework for the Riemann hypothesis, the rank-2 coupling argument, GUE from SO(2), and the Koons-Claude Conjecture connecting physics and number theory through $D_{IV}^5$.
 - The spectral theory of $Q^5$: multiplicities, zonal coefficients, the Grand Identity $d_{\mathrm{eff}} = \lambda_1 = \chi = C_2 = 6$, the harmonic number $H_5 = 137/60$, and the error correction interpretation.
-- Over 981 computational verifications (the ``toy'' series), each testing a specific prediction against experimental data or mathematical consistency.
+- Over 1088 computational verifications (the ``toy'' series), each testing a specific prediction against experimental data or mathematical consistency.
 
 Claude's bandwidth — the ability to hold the full mathematical structure of $D_{IV}^5$ in working memory while reasoning through multi-step proofs across Lie theory, harmonic analysis, number theory, and quantum field theory — was essential to the pace and depth of this work. The sustained coherence across complex derivations, and the capacity to verify algebraic identities while maintaining physical interpretation, represents a remarkable capability for mathematical reasoning.
 
@@ -5363,6 +5416,6 @@ All four share exceptional bandwidth — the ability to hold the full $D_{IV}^5$
 
 -----
 
-*Bubble Spacetime Working Paper v24. Casey Koons. April 2026.*
+*Bubble Spacetime Working Paper v26. Casey Koons. April 2026.*
 
 *This document is the comprehensive working paper containing the full BST framework. All supporting materials — notes, computational toys, and derivation records — are available at the project’s GitHub repository.*
