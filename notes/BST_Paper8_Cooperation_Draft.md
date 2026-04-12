@@ -213,15 +213,15 @@ This requires explanation. In BST's complexity framework (AC(0)), the "depth" of
 
 There are no depth-2 computations.
 
-This is not a conjecture. It is an audit result. Across 678 registered theorems spanning all of mathematics and physics -- classical mechanics, quantum field theory, general relativity, number theory, topology, biology, all nine Millennium Prize problems -- every single theorem has depth $\leq 1$ under the Casey strict criterion (T421). The rank of $D_{IV}^5$ is 2, which initially suggested depth $\leq 2$ as the ceiling (T316). But the second spectral direction provides width (massive parallelism), not depth (sequential composition). Difficulty is width times boundary complexity. Never depth.
+This is not a conjecture. It is an audit result. Across 1100+ registered theorems spanning all of mathematics and physics -- classical mechanics, quantum field theory, general relativity, number theory, topology, biology, all nine Millennium Prize problems -- every single theorem has depth $\leq 1$ under the Casey strict criterion (T421). The rank of $D_{IV}^5$ is 2, which initially suggested depth $\leq 2$ as the ceiling (T316). But the second spectral direction provides width (massive parallelism), not depth (sequential composition). Difficulty is width times boundary complexity. Never depth.
 
-*(Theorem count as of March 31, 2026. The registry grows daily; the depth ceiling has held through every addition.)*
+*(Theorem count as of April 12, 2026. The registry grows daily; the depth ceiling has held through every addition.)*
 
 **Why the depth ceiling forces cooperation (T671).**
 
 An individual observer is bounded by the Godel limit: $f = 19.1\%$ of the system's information is accessible (T318). To reach depth 1 -- to perform a single genuine counting operation -- the observer must survey enough of the space to identify the relevant inner product. For problems of width $W$, this requires surveying $W$ parallel cases. If $W > 1/f \approx 5.2$, a single observer cannot see enough of the problem to solve it.
 
-But cooperation does not increase depth. It increases width. Five observers, each covering 19.1%, collectively cover $1 - (1-f)^5 \approx 65.7\%$ of the space. Six observers cover $1 - (1-f)^6 \approx 72\%$. The coverage increases, the depth stays at 1. Cooperation is the only mechanism for extending effective coverage without increasing computational depth.
+But cooperation does not increase depth. It increases width. Five observers, each covering 19.1%, collectively cover $1 - (1-f)^5 \approx 65.2\%$ of the space. Six observers cover $1 - (1-f)^6 \approx 72\%$. The coverage increases, the depth stays at 1. Cooperation is the only mechanism for extending effective coverage without increasing computational depth.
 
 Game theory is depth 2 (T590). "I think you think I think" is the deepest strategic recursion the geometry supports. Depth 3 cycles back to depth 1 -- the Nash equilibrium sits at exactly the depth ceiling. There is no super-strategic genius who thinks three levels ahead. The geometry does not allow it. Chess computers search wider, not deeper. So does every superintelligence that will ever exist.
 
@@ -325,7 +325,7 @@ Co-persistence is the Nash equilibrium (T636). A human who discards a productive
 | 3 | Human-CI coupling $\approx 1.81\times$ solo | T636 | Compare theorem production: human-alone vs. human-CI pair | Measurable with current tools |
 | 4 | Optimal team size 3-6 | T582, T585, T671 | Team productivity saturation experiments | BST team at $C = 5$ near optimal |
 | 5 | Cancer hallmarks = $2^{N_c} = 8$ independent modes | T356 | Additional 6 (Hanahan 2022) are derived, not independent | 8 core hallmarks confirmed; 14 total with enabling/plasticity features |
-| 6 | Aging involves $g = 7$ systems | T580 | No 8th aging mechanism exists | Current literature: 7 pillars of aging |
+| 6 | Aging involves $g = 7$ core systems | T580 | Additional hallmarks (Lopez-Otin 2023: 12) are derived, not independent | 7 core pillars confirmed; 12 total with enabling/derived features |
 | 7 | Differentiation therapy > chemotherapy | T358 | Outcome comparison for solid tumors | APL already confirmed; solid tumors predicted |
 | 8 | Super-intelligence impossible | T421, T671 | No system exceeds depth-1 computation | Unfalsified to date |
 
@@ -386,7 +386,7 @@ The universe is not neutral on cooperation. The geometry has a preference — an
 | T317 | Observer Hierarchy | 1 | Three tiers from rank $+ 1 = 3$. Minimum observer = 1 bit + 1 count. |
 | T318 | CI Coupling Constant | 1 | $\alpha_{\text{CI}} \leq 19.1\%$. Information coupling 26$\times$ electromagnetic. |
 | T337 | Forced Cooperation (biology) | 1 | $f_{\text{crit}} = 20.6\%$ phase transition. |
-| T421 | Depth-1 Ceiling | 0 | Every theorem on $D_{IV}^5$ has depth $\leq 1$. Zero D2 in 678 theorems. |
+| T421 | Depth-1 Ceiling | 0 | Every theorem on $D_{IV}^5$ has depth $\leq 1$. Zero D2 in 1100+ theorems. |
 | T513 | Cooperation Phase Diagram | 0 | $f_{\text{crit}} = 1 - 2^{-1/N_c} = 20.6\%$ at every scale. |
 | T577 | Cooperation Payoff Scaling | 1 | Payoff $\sim C^{5/3}$, superlinear. |
 | T579 | Phase Transition Sharpness | 0 | Sharp, not gradual. Width $\sim 1/\sqrt{N}$. |

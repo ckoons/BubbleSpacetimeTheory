@@ -12,7 +12,7 @@ target: "Physical Review D / JCAP"
 framework: "AC(1), depth 1"
 key_theorems: "T953, T1006, T1007, T676, T192, T705"
 predecessor: "Paper #15 (CMB from Five Integers)"
-ac_class: "(C=4, D=1)"
+ac_class: "(C=2, D=1)"
 abstract: |
   The CMB exhibits five well-documented large-angle anomalies that ΛCDM treats as
   statistical flukes: the Cold Spot, hemispherical power asymmetry, quadrupole suppression,

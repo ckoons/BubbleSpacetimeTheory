@@ -8,7 +8,7 @@ status: "Draft — Keeper review needed"
 target_journal: "PRL / ApJL / Phys. Rev. C / J. Spectral Theory (one per letter)"
 ac_classification: "(C=2, D=1)"
 board_item: "P-9"
-key_theorems: "T920, T1099, T1164, T1067, T914, T865-T866, T1159"
+key_theorems: "T920, T1099, T1164, T1067, T914, T866, T1159"
 abstract: "Six PRL-style experimental prediction letters, one per step of the BST experiment ladder. Each presents a single zero-parameter prediction, its derivation from D_IV^5, the null hypothesis, the exact measurement protocol, and the kill criterion. Ordered by cost ($0 → $102k total) and timeline (weeks → 6 months). Step 0: Circular polarization CP = α = 0.730% at black hole horizons (EHT re-analysis, $0). Step 1: Nuclear magic numbers from κ_ls = C₂/n_C = 6/5 (computation, $0). Step 2: Debye temperatures θ_D(Cu) = g³ = 343 K, θ_D(Pb) = 105 K, θ_D(Ag) = 225 K (calorimetry, $5k). Step 3: Spectral line clustering at T914-adjacent primes (spectroscopy, $2k). Step 4: BiNb superlattice with N_c = 3 quantum well states at d₀ = 137a (MBE, $70k). Step 5: Casimir force anomaly at plate separation d = N_max × a (MEMS, $25k)."
 ---
 
@@ -37,7 +37,7 @@ $$\text{CP}_{\text{horizon}} = \alpha = \frac{1}{137.036} = 0.730\%$$
 - Frequency-independent. The geometric contribution is achromatic.
 - Radial profile: CP(R) ∝ 1/R from the photon ring outward.
 
-**Origin:** α is the coupling between the EM field and the S¹ fiber of D_IV^5. Circular polarization at a horizon is the photon state projected onto S¹ at maximum curvature (T1099).
+**Origin:** α is the coupling between the EM field and the S¹ fiber of D_IV^5. The horizon geometry (T1099: Einstein equations from Bergman curvature) plus S¹ fiber coupling produces a frequency-independent CP floor at α = 1/N_max (EHT Reanalysis Spec, Toy 253).
 
 ## The Experiment
 
@@ -233,7 +233,7 @@ A Bi/Nb superlattice with both layers at BST optimal thickness d₀ = N_max × a
 | λ_L (London) | 39.0 | SC magnetic penetration |
 | ξ₀ (BCS) | 38.0 | Cooper pair coherence |
 
-**Specific predictions (T865-T866):**
+**Specific predictions (T866):**
 1. **N_c = 3 quantum well states** in the Bi layer (from N_c = 3 subbands in the D_IV^5 spectral decomposition)
 2. **Phonon mode ratio m/n ≈ N_c/g = 3/7 to 0.2%** at the Bi/Nb interface
 3. **Topological surface state gap Δ_TSS = 0.78 meV** at the interface

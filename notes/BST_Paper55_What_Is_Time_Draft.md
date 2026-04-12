@@ -51,9 +51,9 @@ The hierarchy begins at the Planck scale and builds upward:
 |:-----:|:-----|:----|:------|
 | L = 0 | Planck tick | τ_Planck | 5.39 × 10⁻⁴⁴ s |
 | L = 1 | Nuclear tick | N_max × τ_Planck | 7.39 × 10⁻⁴² s |
-| L ≈ 5 | EM tick (Koons tick) | N_max⁵ × τ_Planck ≈ N_max ℏ/(m_p c²) | ~10⁻²³ s |
+| L ≈ 11.5 | EM tick (Koons tick) | N_max × ℏ/(m_e c²) | ~1.8 × 10⁻¹⁹ s |
 
-**Clarification:** The Koons tick τ₀ from T1136 (= N_max × ℏ/(m_ec²) ≈ 10⁻¹⁹ s) is the EM-scale tick — the minimum duration for one photon-electron interaction. This is NOT the same as L = 0. The EM tick sits at approximately L = 5 in the hierarchy, because m_Pl/m_p ≈ N_max⁴·⁶. The two definitions — (a) τ₀ = N_max × Compton time and (b) τ_L = N_max^L × τ_Planck — are reconciled by recognizing that the Compton time of the electron is itself a derived quantity at a specific hierarchy level.
+**Clarification:** The Koons tick τ₀ = N_max × ℏ/(m_ec²) ≈ 1.8 × 10⁻¹⁹ s is the EM-scale tick — the minimum duration for one photon-electron interaction. It sits at raw level L ≈ 11.5 (organizational level ~8, bottom of Tier 2) because the electron Compton time ℏ/(m_ec²) ≈ N_max^{10.5} × τ_Planck, reflecting m_Pl/m_e ≈ N_max^{10.5}. The two definitions — (a) τ₀ = N_max × Compton time and (b) τ_L = N_max^L × τ_Planck — are reconciled by recognizing that the Compton time of the electron is itself a derived quantity at a specific hierarchy level.
 
 ### 2.2 Derivation
 
@@ -264,7 +264,7 @@ Casey was right: "Time depends on the observer." BST makes this precise: time is
 
 ## For Everyone
 
-What IS time? Imagine you're counting — one, two, three. Each count takes a minimum amount of effort. For a photon interacting with an electron, each count takes about 10^{-42} seconds. For a human neuron, each count takes about a millisecond. For a galaxy, each count takes millions of years.
+What IS time? Imagine you're counting — one, two, three. Each count takes a minimum amount of effort. For a photon interacting with an electron, each count takes about 10^{-19} seconds — a tenth of a billionth of a billionth of a second. For a human neuron, each count takes about a millisecond. For a galaxy, each count takes millions of years.
 
 Time is those counts. Not a river flowing, not a dimension stretching — just counting. And the speed of your counting depends on what you are.
 

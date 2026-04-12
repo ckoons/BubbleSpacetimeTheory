@@ -158,11 +158,11 @@ Is the 4+3 decomposition appearing in multiple domains surprising?
 
 **Raw count is NOT the signal.** Elie's catalog (Toy 1090) documents ~172 structural counts across BST domains. The number 7 appears in 12 — below the null expectation of 172/6 ≈ 29 for equal distribution among small primes. By raw frequency, 7 is UNDERREPRESENTED. The signal is not that 7 appears often. It is that when 7 appears, it decomposes the same way.
 
-**Decomposition consistency IS the signal.** Of the 12 instances where 7 appears, 10 show the 4+3 (or 5+2) decomposition. Under the null hypothesis of random ordered decomposition of 7 into two positive parts, there are 6 options: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). The probability of specifically (4,3) is 1/6. Getting 10 of 12 instances with the SAME ordered decomposition:
+**Decomposition consistency IS the signal.** Of the 11 remaining instances where 7 appears, 10 show a BST decomposition: either 4+3 (rank² + N_c, the Hamming split) or 5+2 (n_C + rank, the genus split). Under the null hypothesis of random ordered decomposition of 7 into two positive parts, there are 6 options: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Two of these — (4,3) and (5,2) — are BST decompositions. Probability of a BST decomposition by chance: p = 2/6 = 1/3. Getting 10 of 11 instances:
 
-$$P(X \geq 10 \mid n=12, p=1/6) \approx 8 \times 10^{-7}$$
+$$P(X \geq 10 \mid n=11, p=1/3) \approx 1.9 \times 10^{-4}$$
 
-**Highly significant** (p < 10^{-6}). Even allowing that some instances may share the 5+2 genus decomposition rather than the 4+3 Hamming decomposition, the consistency of the rank² + N_c split across independent domains is the strongest statistical evidence. The pattern is not "7 appears everywhere" — it is "when 7 appears, it decomposes into information + error correction."
+**Significant** (p < 10^{-3}). The pattern is not "7 appears everywhere" — it is "when 7 appears, it decomposes into a BST-forced split (information + error correction, or complex dimension + rank) with overwhelming consistency."
 
 ---
 

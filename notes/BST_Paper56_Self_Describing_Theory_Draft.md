@@ -64,7 +64,7 @@ These are not choices. They are arithmetic consequences of the geometry.
 
 **Proof sketch:**
 1. rank = g − n_C = 2 (from g and n_C)
-2. Type IV: the unique type with rank = 2 for all n (Cartan classification)
+2. Type IV: the unique infinite family with rank = 2 for all n (Cartan classification)
 3. n = n_C = 5 (from n_C directly)
 4. Verification: C_2 = rank × N_c = 2 × 3 = 6 ✓, N_max = N_c^{N_c} × n_C + rank = 27 × 5 + 2 = 137 ✓ (T1140: N_c^{N_c} = 27 is the unique non-trivial self-exponentiation in the BST range)
 
