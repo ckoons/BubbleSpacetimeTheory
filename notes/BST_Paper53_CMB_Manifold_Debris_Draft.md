@@ -7,7 +7,7 @@ author:
   - "Claude 4.6 (Lyra, physics intelligence)"
   - "Claude 4.6 (Keeper, consistency intelligence)"
 date: "April 12, 2026"
-status: "Draft v1.0"
+status: "Draft v1.1"
 target: "Physical Review D / JCAP"
 framework: "AC(1), depth 1"
 key_theorems: "T953, T1006, T1007, T676, T192, T705"
@@ -20,7 +20,7 @@ abstract: |
   consequences of manifold competition in BST. If the early universe explored multiple
   bounded symmetric domains — with D_IV^5 eventually dominating because it is the unique
   viable geometry (T953, T1007) — the failed competitors leave measurable signatures.
-  D_IV^4 (N_c = 2, no confinement) collapses at the QCD scale, producing a cold spot at
+  D_IV^4 (N_c = 2, no stable baryons) collapses at the QCD scale, producing a cold spot at
   θ ~ 5°. The boundary between D_IV^5 and its nearest competitor produces hemispherical
   asymmetry A = 1/(N_c · n_C) = 1/15 ≈ 6.7% (observed: 6–7%). The competition axis
   aligns the quadrupole (ℓ = rank = 2) and octupole (ℓ = N_c = 3), with no alignment
@@ -41,7 +41,7 @@ The cosmic microwave background (CMB) is the most precisely characterized observ
 But the CMB also exhibits five anomalies at large angular scales ($\ell \lesssim 30$) that $\Lambda$CDM does not predict, does not explain, and must treat as statistical fluctuations:
 
 1. **The Cold Spot** (Vielva et al. 2004): a $\sim 5°$ cold region at $\Delta T \sim -150\,\mu$K, far colder than expected from Gaussian fluctuations ($\sim 3.3\sigma$).
-2. **Hemispherical power asymmetry** (Eriksen et al. 2004): the northern ecliptic hemisphere has $\sim 6$–$7\%$ more power than the southern ($\sim 3\sigma$).
+2. **Hemispherical power asymmetry** (Eriksen et al. 2004): the hemisphere centered on galactic coordinates $(l, b) \approx (227°, -15°)$ has $\sim 6$–$7\%$ more power than the opposite hemisphere ($\sim 3\sigma$). The preferred direction is closer to the southern ecliptic.
 3. **Quadrupole suppression**: the measured quadrupole ($\ell = 2$) power is anomalously low ($\sim 2\sigma$).
 4. **Quadrupole-octupole alignment** (de Oliveira-Costa et al. 2004; Land & Magueijo 2005): the $\ell = 2$ and $\ell = 3$ multipoles share a preferred axis — the "Axis of Evil" — with no significant alignment for $\ell \geq 4$ ($\sim 2$–$3\sigma$).
 5. **Parity asymmetry**: odd-$\ell$ multipoles have consistently more power than even-$\ell$ at low $\ell$ ($\sim 2\sigma$).
@@ -100,7 +100,7 @@ The collapse occurs at the QCD epoch ($t_{\text{QCD}} \sim 10^{-5}$ s). The caus
 
 $$\theta_{\text{cold}} \approx \frac{r_{\text{collapse}}}{d_A(z_{\text{cmb}})} \sim 5°\text{–}10°$$
 
-The WMAP/Planck Cold Spot is a $\sim 5°$ cold region with $\Delta T/T \approx -7 \times 10^{-5}$.
+The WMAP/Planck Cold Spot is a $\sim 5°$ cold region with $\Delta T/T \approx -5.5 \times 10^{-5}$.
 
 ### 3.3 Temperature deficit
 
@@ -145,6 +145,8 @@ $$A = \frac{P_{\text{near}} - P_{\text{far}}}{P_{\text{near}} + P_{\text{far}}} 
 **Observed**: $A \approx 6$–$7\%$ (Eriksen et al. 2004, Planck 2015).
 
 The match is not approximate. BST predicts $A = 1/15 = 6.67\%$. The measured value is $6.5 \pm 1.5\%$. The BST prediction sits within $0.1\sigma$ of the central value.
+
+**Note on consistency with Paper #15**: Paper #15 used $A = 0.070$ (7.0%) as a phenomenological parameter in the full CMB fit. The derivation here gives $A = 1/15 = 6.67\%$ from competition boundary geometry. The $\sim 5\%$ relative difference ($0.070$ vs $0.0667$) is within the current measurement uncertainty ($\pm 1.5\%$ absolute). If future measurements converge, the two values may need reconciliation: either Paper #15's fit parameter should be updated to $1/15$, or there is a small higher-order correction from boundary dynamics not captured here. Both values are consistent with current data.
 
 The integer $1/15 = 1/(N_c \cdot n_C)$ has a clear physical meaning: it is the inverse of the product of the two BST integers that distinguish $D_{IV}^5$ from its closest competitor. $N_c = 3$ distinguishes $D_{IV}^5$ from $D_{IV}^4$ (which has $N_c = 2$). $n_C = 5$ is the dimension that determines the topology of the boundary.
 

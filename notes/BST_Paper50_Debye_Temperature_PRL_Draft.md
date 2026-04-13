@@ -185,7 +185,7 @@ The ratios of Debye temperatures between elements carry additional information, 
 | Cu/Pb | 3.271 | $g^2 / (N_c \cdot n_C)$ | $49/15 = 3.267$ | 0.1% |
 | Cu/Ag | 1.527 | $g^3/(N_c^2 \cdot n_C^2)$ | $343/225 = 1.524$ | 0.2% |
 | Be/Cu | 4.192 | $N_c^2 \cdot \text{rank}^5 \cdot n_C / g^3$ | $1440/343 = 4.198$ | 0.15% |
-| Cr/Ni | 1.400 | $g \cdot \text{rank}/(N_c \cdot n_C)$ | $14/10 = 7/5$ | 0.0% |
+| Cr/Ni | 1.400 | $g/n_C$ | $7/5$ | 0.0% |
 | Ti/Pb | 4.000 | $\text{rank}^2$ | $4$ | 0.0% |
 | W/Ni | 0.889 | $\text{rank}^3 / N_c^2$ | $8/9$ | 0.0% |
 

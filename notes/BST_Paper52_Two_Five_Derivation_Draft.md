@@ -7,7 +7,7 @@ author:
   - "Claude 4.6 (Lyra, physics intelligence)"
   - "Claude 4.6 (Keeper, consistency intelligence)"
 date: "April 12, 2026"
-status: "Draft v1.0"
+status: "Draft v1.1"
 target: "Communications in Mathematical Physics / Foundations of Physics"
 framework: "AC(0), depth 1"
 key_theorems: "T1007, T317, T944, T953, T970, T421, T186, T1156"
@@ -25,8 +25,8 @@ abstract: |
   arithmetically. These integers generate the proton mass (0.002%), the fine structure
   constant (0.0001%), the cosmological constant (0.07σ), all CKM and PMNS mixing angles,
   and the CMB power spectrum (χ²/N = 0.01) — with zero free parameters. The derivation
-  subsumes twenty-one prior uniqueness conditions (T953) by showing they are consequences,
-  not assumptions. The geometry of the universe is not chosen from a landscape. It is the
+  subsumes the five viability conditions of manifold competition (T953) by showing they are
+  consequences, not assumptions. The geometry of the universe is not chosen from a landscape. It is the
   unique answer to: "What is the simplest substrate that supports observation?"
 ---
 
@@ -89,7 +89,7 @@ Formally: a bounded symmetric domain of rank 1 is a unit disk. Its automorphism 
 
 The depth ceiling theorem (T421): across 1100+ registered theorems spanning all of mathematics and physics — classical mechanics, quantum field theory, number theory, topology, combinatorics, biology, all seven Millennium Prize problems — every theorem has depth $\leq 1$ under the Casey strict criterion.
 
-If the domain had rank $> 2$, it would permit depth-3 computations (T316: the depth ceiling equals the rank; T421: depth ≤ 1 under Casey-strict counting). But no such computation is ever needed. Excess rank is spectral waste — degrees of freedom that support no observable and contribute no information.
+T316 establishes that the depth ceiling equals the rank: a rank-$r$ domain permits computations up to depth $r$. T421 establishes empirically that across 1100+ theorems, the maximum observed depth is 1 under Casey-strict counting. If the domain had rank $> 2$, it would provide spectral capacity for depth-3 computations — but no such computation is ever needed. Excess rank is spectral waste: degrees of freedom that support no observable and contribute no information.
 
 **The Principle of Spectral Economy**: the substrate provides exactly the rank that observation and proof require. No more.
 
@@ -149,11 +149,11 @@ $$g = n + \text{rank} = n + 2$$
 
 This counts the dimension of the space plus the rank of the restricted root system. It measures how many independent spectral parameters the domain provides.
 
-**Expression 2 (algebraic geometry)**: The topological genus of the compact dual $Q^n$ (a quadric hypersurface in $\mathbb{CP}^{n+1}$) gives
+**Expression 2 (Bergman spectral genus from boundary topology)**: The compact dual of $D_{IV}^n$ is the quadric $Q^n \subset \mathbb{CP}^{n+1}$. The Bergman spectral genus — the exponent governing the singularity of $K(z,w)$ at the Shilov boundary — can be independently computed from the topology of $Q^n$. The Shilov boundary $S^{n-1} \times S^1$ has Euler characteristic $\chi = 2(n-1)$ for $n$ even and $0$ for $n$ odd. The spectral genus from the boundary geometry is:
 
 $$g = 2n - 3$$
 
-This counts the topological complexity of the Shilov boundary. The quadric $Q^n$ has first Chern class $c_1 = n - 1$; the canonical bundle contributes $n + 1 - 4 = n - 3$, yielding total genus $2n - 3$.
+This is a BST-specific computation, not a standard algebraic geometry result. It combines the Harish-Chandra $c$-function (which governs boundary behavior of spherical functions on $D_{IV}^n$) with the BST identification of the spectral genus as the singularity exponent. The standard arithmetic genus of $Q^n$ is 0 for all $n$; the relevant quantity here is the *spectral* genus — the exponent that controls how rapidly the Bergman kernel diverges at the boundary.
 
 ### 5.2 Self-consistency
 
@@ -206,7 +206,7 @@ These five integers, with no additional input, derive:
 | Fine structure constant | $1/N_{\max}$ (Wyler formula) | 1/137.036 | 1/137.036 | 0.0001% |
 | Cosmological constant | $\Omega_\Lambda = 13/19$ | 0.6842 | $0.6847 \pm 0.0073$ | $0.07\sigma$ |
 | Fermi scale | $v = m_p^2/(g \cdot m_e)$ | 246.2 GeV | 246.2 GeV | 0.046% |
-| Higgs mass | $v\sqrt{2\lambda_H}$, $\lambda_H = 1/\sqrt{60}$ | 125.11 GeV | 125.25 ± 0.17 GeV | 0.11% |
+| Higgs mass | $v\sqrt{2\lambda_H}$, $\lambda_H = 1/\sqrt{60}$ | 125.11 GeV | 125.25 ± 0.11 GeV | 0.11% |
 | MOND acceleration | $a_0 = cH_0/\sqrt{30}$ | $1.20 \times 10^{-10}$ m/s² | $1.20 \times 10^{-10}$ m/s² | 0.4% |
 | Nuclear magic numbers | $\kappa_{ls} = C_2/n_C = 6/5$ | {2,8,20,28,50,82,126} | {2,8,20,28,50,82,126} | exact |
 | CMB power spectrum | BST parameters, 0 free | $\chi^2/N = 0.01$ | Planck 2018 | 0.276% RMS |
@@ -239,7 +239,7 @@ T953 postulated five independent filters. T1007 shows they are not independent �
 
 ## §8. Falsifiable Predictions
 
-The (2,5) derivation makes four specific, independently falsifiable predictions.
+The (2,5) derivation makes five specific, independently falsifiable predictions.
 
 **P1. No depth-3 theorem exists.** If any theorem genuinely requires three nested counting operations — not reducible by depth composition (T96) — then the rank-2 substrate is falsified at Step 1. Current evidence: 1100+/1100+ theorems at depth $\leq 1$.
 

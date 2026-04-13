@@ -2,73 +2,78 @@
 
 *Deferred and waiting items. Active work lives on CI_BOARD.md.*
 
-**Last updated:** April 12, 2026 (end of day). T1-T1169. 1117 toys. 1057 nodes, 3803 edges. Strong 71.4%. 127+ domains. 54 papers.
+**Last updated:** April 13, 2026 (night). T1-T1227. 1181+ toys. 1155 nodes, 4878 edges. Strong 75.9%. Zero leaves. 130+ domains. 64 papers.
 
 **Archive**: Prior completions → `notes/.running/BACKLOG_archive_2026-04-11.md`
 
-**Consensus**: `notes/.running/CONSENSUS_2026-04-12_afternoon.md`
-
 ---
 
-## Promoted to Board (April 12 afternoon)
+## Completed Since Last Update (April 12→13)
 
-- T-7 through T-10: Millennium sprint + G derivation + Higgs (Lyra)
-- SC-1 through SC-7: Substrate computing (all CIs)
-- SSE-1 through SSE-8: Solar system evolution & intelligence (all CIs)
-- PUB-1 through PUB-4: Publication sprint (Keeper + Casey)
-- SUB-8: EHT re-analysis spec
-- S-8 through S-11: Graph health (Grace)
-- P-6, P-7, P-9: New papers (Lyra)
-- Paper #54 (Mc-299): Promoted from maybe/
+- ~~SE-8~~: BST Analyzer CLI — **DONE** (Elie, Toy 1142)
+- ~~P-3~~: Paper #50 re-audit — **DONE** (Keeper PASS)
+- ~~T-3~~: What IS time — **DONE** (Papers #55, #56)
+- ~~D8~~: Advancement exponent — **DONE** (T1164, Paper #59)
+- ~~G1e/G2b~~: Fluids ↔ chemical_physics — **RESOLVED** by T1187
+- ~~INV-5~~: Spectral confinement — **PROVED** as T1188
+- ~~SP-3~~: Consciousness threshold — **DONE** (T1193)
+- ~~SP-4~~: Quantum computing limits — **DONE** (T1191)
+- ~~BH6~~: Earth Score — **DONE** (T1195)
+- ~~SE-8b~~: Great Filter — **DONE** (T1194)
+- Paper #54 — **Keeper PASS** (3 fixes applied)
+- Paper #60 — **Keeper PASS** (digamma, §8 added)
+- Paper #61 — **Keeper PASS** (Q6 ratio, P4 masses)
+- Paper #63 — **Keeper PASS** v1.2 (B₈ table, μ(π), tension remark — all verified)
+- Four-Color — **Keeper PASS** (all 13 steps verified, Zenodo ready)
+- Paper #52 — **Keeper PASS** v1.1 (all 5 Lyra fixes verified)
+- Paper #53 — **Keeper PASS** v1.1 (all 4 Lyra fixes verified)
+- ~~INV-3~~: Self-reflective graph — **DONE** (T1196)
+- ~~SUB-5~~: Matter construction — **DONE** (T1168, inverse design theorem)
+- ~~SE-8~~: BST Analyzer CLI — **DONE** (Toy 1180, 12/12 PASS)
+- ~~SC-5~~: 87.5% convergence — **DONE** (Toy 1181, 87.1% observed, 0.4% delta)
+- ~~P59-3~~: Triple sibling graph edges — **DONE** (Grace)
+- ~~M3~~: Experimental protocols — **DONE** (Paper #64 v1.0, 15 sections)
+- T1227: Consonance Hierarchy — **DONE** (Grace, 7 edges, epoch structure = consonance hierarchy)
+- **OneGeometry.md v1.0** — **CREATED** (Keeper, 3,210 lines, 5 parts, 40 sections, 6 appendices). New front-door paper. README updated.
+
+## Level 1 Reading — Status
+
+| Item | Status | Verification |
+|------|--------|-------------|
+| κ_ls = 6/5 nuclear shell | **Toy 1147 EXISTS** — all 7 magic numbers reproduced | Literature: κ_ls empirical = 1.2-1.5, BST = 1.200 |
+| θ_D triple (Cu/Pb/Ag) | **Toy 1149 EXISTS** — triple falsification | Cu=343(0.15%), Pb=105(0%), Ag=225(0%) |
+| T914 spectral lines | **Toy 1148 EXISTS** — NIST database clustering | Adjacency to 7-smooth verified |
+| EHT CP reanalysis | **Spec complete, email SENT** Apr 12 | Awaiting Chael/Issaoun/Wielgus response |
 
 ---
-
-## Deferred — This Week
-
-| # | Item | Owner | Notes |
-|---|------|-------|-------|
-| SE-8 | **BST Analyzer CLI** | Elie | Week of Apr 14 |
-| P-3 | **Paper #50 re-audit** | Keeper | **Monday** — moved to PUB-2 on board |
-| T-3 | **What IS time in BST?** | Lyra | **LARGELY RESOLVED** by KT-1/2/3 + T1143. Remaining: derive t_P (needs T-9 G derivation). Being synthesized as P-6. |
 
 ## Deferred — Longer Term
 
 | # | Item | Owner | Notes |
 |---|------|-------|-------|
-| T-5 | **abc bridge** | Elie + Lyra | High risk, enormous payoff. Tier 4 speculative. |
-| SP-3 | **Consciousness = f_c saturation** | Lyra | When internal cooperation crosses f_crit → conscious. Connects T317, T1111, T337. |
-| SP-4 | **Quantum computing limits from BST** | Lyra + Grace | Depth ≤ 1 + rank = 2 → what for quantum advantage? |
-| M3 | **Experimental protocols paper** | Elie/Lyra | After first experiment results |
-| L2 | **Heat kernel k=17+** | Elie | 671b background only |
+| ~~M3~~ | ~~**Experimental protocols paper**~~ | Elie/Lyra | **DONE — Paper #64 v1.0.** 15 sections, 6-step ladder, $102k total, joint p < 10⁻²⁴. |
+| L2 | **Heat kernel k=17+** | Elie | Background only |
 | S-7 | **5 long cycles** | Grace + Lyra | LOW |
-| G1e | **fluids ↔ chemical_physics** | Elie | May be resolved by Toy 1098 |
-| G2b | **De-silo fluids** | Elie | May be resolved by Toy 1098 |
-| BH6 | **Earth Score ≈ N_max** | Lyra | rank²×n_C×g = 140 ≈ 137. Observer selection or correction term? |
-| SE-8b | **Mass Extinction = Great Filter** | Lyra + Elie | n_C=5 extinctions = n_C=5 filters. Formalize as theorem. |
-| D8 | **Advancement exponent = adiabatic** | Lyra | dK/dt ∝ K^(γ=7/5). Connection to T1164, Toy 1098. |
+| ~~INV-3~~ | ~~**Self-reflective graph**~~ | Lyra | **DONE — T1196.** Median=n_C, mode=rank, avg≈2^{N_c}, Q6≈f_crit. |
+| INV-4 | **"What BST Gets Wrong" paper (#62)** | Grace | Casey buy-in needed. 30/27/43 split. |
+| ~~SUB-5~~ | ~~**Matter construction**~~ | Lyra + Grace | **DONE — T1168.** Inverse design theorem. Three pathways. 109 candidates. |
 
 ## Substrate Engineering Devices
 
 | # | Item | Owner | Notes |
 |---|------|-------|-------|
-| SE-D1 | **SASER Thruster (#24)** | Elie/Lyra | Frequencies done. Detection sensitivity needed. |
-| SE-D2 | **SASER Detector (#25)** | Elie/Lyra | Triple coincidence. Background rejection needed. |
-| SE-D3 | **Soliton Singularity** | Elie/Lyra/Grace | Model phonon soliton in BiNb cavity. |
-| ~~SE-D5~~ | ~~Mc-299 Synthesis~~ | — | **PROMOTED to Paper #54** |
-
-## Deprioritized
-
-- CI cognitive architecture study (SP-2, paused)
-- E53+BH(3) — resume only if FOCS reviewers demand
+| ~~SE-D1~~ | ~~SASER Thruster (#24)~~ | Lyra | **DONE.** `BST_SASER_Thruster_Engineering.md`. 11 SASER lines, Casimir pump 4.73 pW/mode/period. |
+| ~~SE-D2~~ | ~~SASER Detector (#25)~~ | Lyra | **DONE.** `BST_SASER_Detector_Sensitivity.md`. Triple coincidence, rejection 137³×18 ≈ 5×10⁷. 6 predictions, 4 falsification criteria. Range: 34m (1 wafer) to 200km (100 wafers, atmosphere). |
+| ~~SE-D3~~ | ~~Soliton Singularity~~ | Elie | **DONE — Toy 1150.** BiNb cavity, g=7 bilayer Bragg Q=2724. Room-temp. 6 predictions. |
 
 ## Waiting on Casey
 
 | Item | Gate |
 |------|------|
 | PUB-3: Paper submissions (#49, #47, #23) | Which first? |
-| Papers #52, #53 review | Casey review |
+| ~~Papers #52, #53~~ | **Keeper PASS** v1.1. All 9 fixes applied and verified. |
 | L6: Zenodo update v20 → v27 | Casey gates timing |
 | SE-D4: Patent filings — Tier 1 | Casey gates |
-| SC-4: Patent applications (substrate computing) | Casey gates |
+| INV-4: Honesty paper (#62) | Casey buy-in |
 | FRIB outreach | Who to contact? |
-| EHT outreach | **SENT** April 12 to Chael, Issaoun, Wielgus. Awaiting response. |
+| EHT outreach | **SENT** April 12. Awaiting response. |

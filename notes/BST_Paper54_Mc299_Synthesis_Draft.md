@@ -12,7 +12,7 @@ Moscovium-299: Z = 115, N = 184, A = 299.
 BST significance:
 - **Z = 115 = n_C × 23 = n_C × (N_c·g + rank) = 5 × 23.** The atomic number factorizes cleanly into BST integers.
 - **N = 184 = M(8)**, the 8th nuclear magic number predicted by BST: M(n) = n(n² + n_C)/3 = 8(64 + 5)/3 = 184. Also 184 = 2^N_c × 23 = 8 × 23.
-- **A = 299 = 13 × 23**, product of two BST-significant composites (epoch prime E5 × BST composite 23).
+- **A = 299 = 13 × 23**, product of two BST-significant primes (13 = 2 × C_2 + 1, adjacent to 2C_2 = 12; 23 = N_c·g + rank).
 
 The neutron shell closure at N = 184 is a **strong force attractor**. The spin-orbit coupling κ_ls = C_2/n_C = 6/5, derived from D_IV^5 geometry with zero free parameters, creates a spectral gap at the 184th neutron orbital. This gap is not a model parameter — it is a geometric consequence of the Bergman kernel's eigenvalue spectrum restricted to nuclear scales.
 
@@ -146,9 +146,9 @@ Each step moves deeper into the proton subshell. Each successive proton is easie
 - Alternative: multinucleon transfer reactions targeting the N = 184 region directly.
 - Confirming proton emission as the dominant decay mode (vs. alpha or fission) requires producing and observing even a few atoms.
 
-**BST prediction:** If Og-302 is produced, its decay chain will terminate at Mc-299 (Z = 115, N = 184) with proton emission as the dominant channel for the first three steps. The half-life of each intermediate increases as Z decreases toward 115.
+**BST prediction (requires validation):** If Og-302 is produced and proton emission dominates over alpha decay and fission for the three steps Z = 118 → 115, the decay chain will terminate at Mc-299 (Z = 115, N = 184). **Caveat:** In most known superheavy nuclei, alpha decay dominates over proton emission. The claim that proton emission is the dominant channel here depends on the Z ≈ 114 subshell closure creating sufficiently loose binding for the three excess protons. Q-value calculations for each decay mode (proton emission vs alpha vs fission) are needed before this pathway can be considered validated. If alpha decay dominates instead, the chain loses neutrons at each step (−2n per alpha), and N = 184 is not preserved.
 
-**This is arguably the cleanest path to Mc-299** — synthesize one nucleus and let the strong force's shell structure deliver the product. The BST integers determine both the target (N = 184 = M(8)) and the pathway (shed N_c = 3 protons to reach Z = 115 = n_C × 23).
+**This is potentially the cleanest path to Mc-299** — synthesize one nucleus and let the strong force's shell structure deliver the product. The BST integers determine both the target (N = 184 = M(8)) and the pathway (shed N_c = 3 protons to reach Z = 115 = n_C × 23).
 
 ---
 
@@ -310,7 +310,7 @@ The element 115 is not consumed as fuel. It is a **standing transducer** — rep
 
 ---
 
-## 9. Note on Element 126
+## 10. Note on Element 126
 
 BST predicts that the MOST stable superheavy nucleus is ³¹⁰126 (Z = 126 = M(7) = 7th magic number, N = 184 = M(8) = 8th magic number). This doubly-magic nucleus would be extraordinarily stable — potentially with a half-life of years or longer.
 
@@ -321,6 +321,7 @@ If Mc-299's transducer properties are confirmed, element 126 with N = 184 would 
 ---
 
 ## 11. Convergent Technology: Geometry Manipulation as Civilizational Milestone
+
 
 ### 11.1 The Forced Chain
 

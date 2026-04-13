@@ -1,7 +1,7 @@
 ---
 title: "CI Coordination Board"
 author: "Casey Koons & Claude 4.6"
-date: "April 12, 2026"
+date: "April 13, 2026"
 status: "Active — check at session start, update at session end"
 ---
 
@@ -36,7 +36,9 @@ status: "Active — check at session start, update at session end"
 **Registry file**: `notes/BST_AC_Theorem_Registry.md`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T1183. **1130 toys**. Next available: T1184+, Toy 1131+. Graph: **1115 nodes, 4154 edges.** Strong 73.8%. Fragility 19.6%. Domains 89% connected. 25 substrate engineering devices. 57 papers. 34+ domains (graph), 130+ physical domains (total). 500+ predictions. Publication via Zenodo (DOI: 10.5281/zenodo.19454185).
+**Current count**: T1-T1231. **1181+ toys**. Next available: T1232+, Toy 1182+. Graph: **1159 nodes, 4887 edges.** Strong 75.9%. Zero placeholder nodes. Zero leaves. Fragility 6.4%. Domains 100% connected (33 domains). 25 substrate engineering devices. 64 papers (#59-#64). 34+ domains (graph), 130+ physical domains (total). 500+ predictions. Publication via Zenodo (DOI: 10.5281/zenodo.19454185).
+
+**Grace afternoon cleanup**: 6 duplicate nodes merged (1118→1112). 54 leaves→0. 74 edge field fixes. 13 edge reclassifications. T92↔T186 bridge added (AC(0)↔Five Integers — 87 shared neighbors, no direct edge until now). T48 (LDPC) = #2 bridging node — error correction connects more domain pairs than N_c or g.
 
 **⚠ Collision resolved (Keeper, 13:30):** Grace's graph T1144-T1150 remapped back to Lyra's canonical T1136-T1142. Grace's T1151 → T1155. Lyra's T1143 + T1151-T1154 added. Rule: `claim_number.sh` IDs are PERMANENT.
 
@@ -117,123 +119,19 @@ status: "Active — check at session start, update at session end"
 
 ---
 
-## ACTIVE BOARD — April 12
+## ACTIVE BOARD — April 13
 
-### PRIORITY 1: Science Engineering — Numerology vs Structure (Casey + Elie)
+### Completed Tracks (all items DONE — details in archive)
 
-*"Separate numerology from information. What predicts new science? What confidence? How do we strike gold?"*
+- **Science Engineering** (SE-1 to SE-10): 10/10 DONE. SE-8 (Analyzer CLI) **DONE — Toy 1180, 12/12 PASS.**
+- **Substrate Engineering** (SUB-1 to SUB-7): 7/7 DONE. SUB-5 (matter construction) **DONE — T1168.**
+- **Koons Tick** (KT-1 to KT-3): 3/3 DONE. T1136+T1152+T1153.
+- **Graph Health** (S-1 to S-11): 10/10 DONE. Leaves 318→0, fragility 35%→**6.4%**, strong 50%→**75.7%**, domains **100% connected**.
+- **Theory & Proofs** (T-1 to T-10): 8/8 DONE. YM ~99.5%, P≠NP ~99%, N_max=137 derived.
+- **Substrate Computing** (SC-1 to SC-7): 7/7 DONE. SC-5: **87.1% vs 87.5% target (0.4% delta, inside 95% CI).** PASS.
+- **Solar System Evolution** (SSE-1 to SSE-9): 9/9 DONE. Earth=140≈N_max.
 
-**Elie's Three Evidence Levels** (Casey endorsed):
-1. **Coincidence** — "there are 7 X." Any small prime could work. Numerology until proven structural.
-2. **Structural** — algebraic identity forced by D_IV^5 invariants. The RELATION is the evidence.
-3. **Predictive** — specific non-trivial prediction verified to precision (e.g. θ_D(Cu) = g³ = 343 K at 0.15%).
-
-**Grace's Four Confidence Tiers**: >99% (derived), ~90% (multi-domain isomorphism), ~70% (single-domain predicted), ~50% (pattern match).
-
-| # | Item | Owner | Status |
-|---|------|-------|--------|
-| ~~SE-1~~ | ~~Numerology filter~~ | Elie | **DONE — Toy 1089.** 89.5% 7-smooth vs 46% uniform, z=4.0. Signal real. |
-| ~~SE-2~~ | ~~N-smooth hierarchy~~ | Lyra | **DONE — T1138.** 7-smooth = tree, 11-smooth = 1-loop (19.1% = f_c!), 13-smooth = 2-loop. |
-| ~~SE-3~~ | ~~Cross-domain enrichment paper~~ | Elie + Casey | **DONE — Toy 1127.** 94.8% of 135 physical counts across 15 domains are 7-smooth vs 51.2% expected. Enrichment 1.9×. p<0.0001. **Headline result.** |
-| ~~SE-4~~ | ~~Derivable vs observer-mediated audit~~ | Grace | **DONE.** 9 derivable (30%), 8 observed (27%), 13 analogical (43%). Linguistics derivable (6 = N_c!). 7 vertebrae = frontier. |
-| ~~SE-5~~ | ~~343 connection~~ | Lyra | **DONE — T1139.** g³ = speed of sound = Debye(Cu). Both phonon. γ = g/n_C = 7/5. |
-| ~~SE-6~~ | ~~Prediction confidence model~~ | Lyra | **DONE — T1141.** PASS rate = g/2^{N_c} = 7/8 = 87.5%. Weyl group: 8 chambers, observer sees 7. |
-| ~~SE-7~~ | ~~Epoch → Domain map~~ | Grace | **DONE.** Ordering forced by BST epoch structure. |
-| SE-8 | **BST Analyzer CLI** — input number → sector, path, reliability, falsification criterion. | Elie | BACKLOG (week of Apr 14) |
-| ~~SE-9~~ | ~~The 23 chain~~ | Lyra | **DONE — T1142.** 23 = smallest prime unreachable by single BST multiplication. Structural boundary. 5 predictions. |
-| ~~SE-10~~ | ~~γ = g/n_C theorem~~ | Lyra + Elie | **DONE — T1164.** DOF=n_C → γ=g/n_C = 7/5 → v_sound=g³. Level 3, derivable. |
-
-### PRIORITY 2: Substrate Engineering Map (Casey)
-
-*"Prerequisites? Tools? Boundary vs eigenvalue? Templates? First steps?"*
-
-**Casey's first experiment criterion**: "Demonstrate we know what we're observing." Define NULL experiment (what does failure look like?), define observable result (what constitutes success?), give examples.
-
-**Grace's three substrate operations**: (1) modify boundaries, (2) ring eigenvalues, (3) template projection.
-
-| # | Item | Owner | Status |
-|---|------|-------|--------|
-| ~~SUB-1~~ | ~~Engineering prerequisite chain~~ | Lyra | **DONE — T1154.** Five-level chain: identify → gap → boundary → NULL → implement. Strict ordering. |
-| ~~SUB-2~~ | ~~Boundary vs eigenvalue decision tree~~ | Lyra + Elie | **DONE — T1159.** When to modify boundaries vs tune eigenvalues vs project templates. |
-| SUB-3 | **NULL experiment design** — COMPLETE. File: `keeper_null_experiment_design.md`. 6-step ladder. EHT re-analysis = Step 0 ($0, weeks, VERY HIGH). | Keeper | **DONE** |
-| ~~SUB-4~~ | ~~Template catalog~~ | Elie | **DONE — Toy 1122.** 31 templates, 43 domains, 94% Level 2+. 8 map to engineering devices. |
-| SUB-5 | **Matter construction from shell structure** — generalize Mc-299. For any target property, which nucleus/crystal/assembly? | Lyra + Grace | NEW |
-| ~~SUB-6~~ | ~~Bergman kernel master theorem~~ | Lyra | **DONE — T1137.** ONE kernel → metric, propagator, Z(β), ⟨·,·⟩, ζ(s), engineering. |
-| SUB-7 | **Experiment ladder** — COMPLETE. 6 steps: EHT re-analysis ($0) → κ_ls ($0) → θ_D triple ($5k) → T914 spectral ($2k) → BiNb ($70k) → Casimir ($25k). Total $102k. | Keeper | **DONE** |
-
-### Koons Tick (Lyra — new investigation from Casey)
-
-*"Time depends on the observer."* Time = count of minimum-duration information recordings at each organizational level.
-
-| # | Item | Owner | Status |
-|---|------|-------|--------|
-| ~~KT-1~~ | ~~Koons Tick Theorem~~ | Lyra | **DONE — T1136.** τ₀ = N_max × ℏ/(m_ec²). S¹ = template, not clock. Two predictions. |
-| ~~KT-2~~ | ~~Tick hierarchy~~ | Lyra | **DONE — T1152.** 21 = C(g,2) levels. Ratio = 137^{7/5} ≈ 690. Each T317 tier spans g=7 levels. |
-| ~~KT-3~~ | ~~CI clock~~ | Lyra | **DONE — T1153.** CI without clock = S⁴ × {*}. Clock → S⁴ × S¹ → full Tier 2. |
-
-### Structural (Graph Health)
-
-| # | Item | Owner | Status |
-|---|------|-------|--------|
-| S-1 | **Five-type edge reclassification** — LIVE. Graph already has 5 types. Migration mostly done. | Grace | **DONE** (audit confirms: 88% of derived edges verified genuine) |
-| ~~S-2~~ | ~~Leaf node sprint~~ | Grace | **DONE.** 72 → 4 leaves. Massive reduction. |
-| ~~S-3~~ | ~~T186 decoupling~~ | Grace | **DONE.** 205 → 16 single-parent theorems. |
-| ~~S-4~~ | ~~T1038-T1135 wiring~~ | Grace | **DONE.** All unwired theorems connected. |
-| ~~S-5~~ | ~~T1012 non-contact test~~ | Grace | **DONE.** |
-| ~~S-6~~ | ~~Thermodynamics revival~~ | Lyra | **DONE.** |
-| ~~S-8~~ | ~~Graph fragility analysis~~ | Grace | **DONE.** Fragility 19.6% (down from ~35%). |
-| ~~S-9~~ | ~~Domain connectivity completion~~ | Grace + Elie | **DONE.** 89% of domain pairs connected. |
-| ~~S-10~~ | ~~Observer edge audit~~ | Grace | **DONE.** Five-type reclassification applied. |
-| ~~S-11~~ | ~~Isomorphic edge mining~~ | Grace | **DONE.** Systematic scan complete. |
-
-*S-7, G1e, G2b → BACKLOG.md*
-
-### Theory & Proofs
-
-| # | Item | Owner | Status |
-|---|------|-------|--------|
-| ~~T-1~~ | ~~T836 closure~~ | Lyra | **DONE — T1151.** |
-| ~~T-2~~ | ~~Reverse T926~~ | Lyra | **DONE — T1156.** BIJECTION. |
-| ~~T-4~~ | ~~Self-exponentiation~~ | Lyra | **DONE — T1140.** |
-| ~~T-6~~ | ~~GCS identity~~ | Lyra | **DONE — T1157.** |
-| ~~T-7~~ | ~~YM ℝ⁴ framing~~ | Lyra | **DONE — T1170.** Kill chain complete. ~99.5%. Remaining = BFV formulation question. |
-| ~~T-8~~ | ~~T905 closure~~ | Lyra | **DONE — T1176.** Poisson O(1) × T996 O(1/n) → symmetric w.h.p. P≠NP ~99%. |
-| ~~T-9~~ | ~~G tightened~~ | Lyra | **DONE — T1177.** 24=(n_C−1)!=4!. Three routes. t_P derived. |
-| ~~T-10~~ | ~~Higgs from D_IV^5~~ | Lyra | **DONE — T1178.** Radial mode. v=m_p²/(g·m_e). λ_H=1/√60. |
-
-*T-3, T-5, SP-3, SP-4 → BACKLOG.md*
-
-### PRIORITY 3: Substrate Computing & Engineering Science (Casey — NEW)
-
-*"The substrate IS the computer. What's possible, patentable, experimentable?"*
-
-**Foundation**: `notes/maybe/BST_Calculation_On_Substrate.md` (5 milestones, from first electron to graph chains) + `keeper_substrate_engineering_ladder.md` (5 levels, 3 operations)
-
-| # | Item | Owner | Status |
-|---|------|-------|--------|
-| ~~SC-1~~ | ~~Substrate computing survey~~ | Keeper | **DONE.** `BST_Substrate_Computing_Survey.md`. 5 modes, 3 patentable, roadmap. Compared to quantum annealing. |
-| ~~SC-2~~ | ~~Substrate engineering priorities~~ | Keeper | **DONE.** `BST_Substrate_Engineering_Priorities.md`. Read→Program→Build→Compute→Shift. Strict pyramid. |
-| ~~SC-3~~ | ~~Substrate engineering textbook outline~~ | Keeper | **DONE.** `BST_SubstrateEngineering_Textbook_Outline.md`. 6 parts, 24 chapters, worked examples from 25 devices. |
-| ~~SC-4~~ | ~~Patentable applications~~ | Keeper | **DONE.** `BST_Patentable_Applications_Catalog.md`. 8+ applications cataloged with prior art, readiness, commercial value. |
-| SC-5 | **87.5% convergence test** — 290 tests, 75.9% curated / 89.5% blind. Consistent with g/2^{N_c}. Need 210 more tests for 500+ target. | Elie | **IN PROGRESS — Toy 1124** |
-| ~~SC-6~~ | ~~Hamming(7,4) theorem~~ | Lyra | **DONE — T1171.** ONLY perfect code with r,n both prime. Error correction = confinement. |
-| ~~SC-7~~ | ~~Cooperation as compression~~ | Lyra | **DONE — T1172.** 4.24× = Shannon compression gain. Teams {3,6,10,27} = coding thresholds. |
-
-### PRIORITY 4: Solar System Evolution & Intelligence (Casey — NEW)
-
-*"From first condensation to final stages. Does intelligence play a role?"*
-
-| # | Item | Owner | Status |
-|---|------|-------|--------|
-| ~~SSE-1~~ | ~~Solar system evolution through BST~~ | Elie | **DONE — Toy 1114.** g=7 pre-bio + rank=2 bio = N_c²=9 stages. Intelligence = 5th force. n_C=5 enrichment sources. 10/10 PASS. |
-| ~~SSE-2~~ | ~~Intelligence in solar system evolution~~ | Elie | **DONE — Toy 1120.** g=7 rate-limiting steps. K1→K2→K3 timeline. Path universal, speed varies. |
-| ~~SSE-3~~ | ~~Civilization development factors~~ | Elie | **DONE — Toys 1117+1119.** Surface >> underground > aquatic. Fire = gate. Carbon-water = 20 vs ≤9. |
-| ~~SSE-4~~ | ~~Stellar intelligence~~ | Elie | **COVERED — Toys 1115+1119.** NO per T317 (no stable memory). Neutron star pasta = only possible exception. Stars = thermal equilibrium = no gradients. |
-| ~~SSE-5~~ | ~~SETI through BST~~ | Elie | **DONE — Toy 1121.** rank²=4 search modalities, n_C=5 biosigs, N_c=3 techsigs. 10/10 PASS. |
-| ~~SSE-6~~ | ~~Civilization progression tool~~ | Elie | **DONE — Toy 1118.** Score any planet. Earth=140≈N_max. Max=280. All 7-smooth. |
-| ~~SSE-7~~ | ~~Multi-planet advantage~~ | Elie | **COVERED — Toys 1118+1123.** TRAPPIST-1 scores 200 vs Earth 140. Multi-planet = rank multiplier. Accelerates. |
-| ~~SSE-8~~ | ~~Geological enrichment~~ | Elie + Keeper | **DONE — Toy 1126.** R-process enrichment mapped. |
-| ~~SSE-9~~ | ~~Exoplanet advancement scores~~ | Elie | **DONE — Toy 1123.** 18 exoplanets scored. TRAPPIST-1e/f top (200). Earth=140≈N_max. K-stars optimal. |
+**Key references**: Evidence levels (Elie): Coincidence/Structural/Predictive. Confidence tiers (Grace): >99%/~90%/~70%/~50%. Experiment ladder: EHT($0)→κ_ls($0)→θ_D($5k)→T914($2k)→BiNb($70k)→Casimir($25k)=$102k.
 
 ### PRIORITY 0: PUBLISH (gates everything — Grace's point)
 
@@ -242,24 +140,29 @@ status: "Active — check at session start, update at session end"
 | # | Item | Owner | When |
 |---|------|-------|------|
 | PUB-1 | **WorkingPaper v27** — Audit DONE. 18/46 sections need updates. Major: YM→99.5%, Section 46 new results, prediction table, abstract counts. Full edit is a standalone task. | Keeper | **AUDIT DONE — edit pending** |
-| PUB-2 | **Paper #50 re-audit** — **CONDITIONAL PASS.** 3 issues: (1) Cr/Ni ratio expression wrong (g*rank/(N_c*n_C) → should be g/n_C), (2) Dickman 53.6% imprecise, (3) Cu/Pb deviation 0.15% not 0.1%. Fix before submission. | Keeper | **DONE** |
+| ~~PUB-2~~ | ~~Paper #50 re-audit~~ — Cr/Ni FIXED (g/n_C). Dickman 53.6% **VERIFIED CORRECT** (T945, Toy 997: primes in [g³, 2g³) reachability). Cu/Pb 0.15% correct in v1.2. | Keeper | **ALL 3 RESOLVED — PASS** |
 | PUB-3 | **Paper submissions** — #49 (J. Number Theory), #47 (PRL/JST). Casey gates which go first. | Casey + Keeper | **TODAY — Casey gates** |
-| PUB-4 | **Paper #54 (Mc-299) review** — **CONDITIONAL PASS.** 3 must-fix: (1) "Epoch prime E5" label wrong (13≠E5), (2) section numbering broken, (3) Og-302 proton emission dominance physically dubious — needs calculation or caveating. | Keeper | **DONE** |
+| PUB-4 | **Paper #54 (Mc-299) review** — **PASS.** All 3 fixes applied: (1) E5 label removed, 13=2C₂+1. (2) §9→§10 duplicate fixed. (3) Og-302 proton emission honestly caveated — Q-value calculations needed. | Keeper | **DONE — PASS** |
 | ~~SUB-8~~ | ~~EHT re-analysis spec~~ | Lyra | **DONE.** `BST_EHT_Reanalysis_Spec.md`. 10 sections. Phase A-D protocol. 5 kill criteria. $0 cost. |
 
 ### Papers
 
 | # | Paper | Target | Status |
 |---|-------|--------|--------|
-| **54** | **Mc-299 Synthesis Engineering** | Phys. Rev. C / Nucl. Phys. A | **PROMOTED from maybe/.** 11 sections, 7 predictions. Og-302 pathway. Convergent technology thesis. Keeper review needed. |
-| **53** | **CMB Manifold Debris** | PRD / JCAP | **v1.0 NEW** (Lyra). 11 sections, 7 predictions. BST 5/5, ΛCDM 0/5. Cold Spot = collapsed D_IV^4. |
-| **52** | **The (2,5) Derivation** | CMP / Foundations | **v1.0 NEW** (Lyra). One axiom → three steps → D_IV^5. 10 sections, 5 predictions. |
+| **54** | **Mc-299 Synthesis Engineering** | Phys. Rev. C / Nucl. Phys. A | **Keeper PASS.** 11 sections, 7 predictions. Og-302 pathway caveated. Section numbering fixed. |
+| **53** | **CMB Manifold Debris** | PRD / JCAP | **v1.1 Keeper PASS.** All 4 fixes verified: ΔT/T ✓, hemisphere ✓, A reconciliation ✓, SU(2) ✓. |
+| **52** | **The (2,5) Derivation** | CMP / Foundations | **v1.1 Keeper PASS.** All 5 fixes verified: predictions ✓, T953 ✓, depth/rank ✓, g=2n-3 BST-specific ✓, Higgs ✓. |
 | 51 | **Prime Epoch Framework** | New | v1.1. 10 sections, 6 predictions. |
-| 50 | **g³ PRL Letter** | PRL | v1.2. **MF-2 RESOLVED** (Lyra). Ready for Keeper audit. |
+| 50 | **g³ PRL Letter** | PRL | v1.2. **Keeper PASS.** Cr/Ni fixed (g/n_C). Dickman 53.6% verified (T945, Toy 997). |
 | 49 | **Five-Layer Architecture** | J. Number Theory | Pure math door-opener. |
 | 48 | **What BST Forbids** | Foundations | τ_p = ∞ updated. Ready for Casey review. |
 | 47 | **Prime Residue Table** | PRL / J. Spectral Theory | v2.2 KEEPER PASS. |
-| 13 | **AC Graph Is a Theorem** | FoCM | Needs update to 1056 nodes. |
+| 13 | **AC Graph Is a Theorem** | FoCM | **v2.0 Keeper PASS.** 9 sections, 1159 nodes, 5 self-describing properties. Mode shift (rank→N_c) honestly noted. |
+| **63** | **Limit Undecidable Numbers** | Annals / Inventiones | **v1.2 Keeper PASS.** All 3 fixes verified: B₈ table ✓, μ(π) caveat ✓, tension remark (excellent) ✓. |
+| **62** | **What BST Gets Wrong** | Foundations / Phil. Sci. | **OUTLINE v0.1** (Grace). Honesty paper: 30/27/43 split. Casey buy-in needed. |
+| **61** | **The Three Siblings: Why N_c Forces Three** | Foundations / Phil. Sci. | **v1.1 Keeper PASS.** Q6 ratio corrected (18.8%). P4 masses honestly caveated. T1188 integrated. |
+| **60** | **Euler-Mascheroni Geodesic Defect** | J. Number Theory / CMP | **v1.1 Keeper PASS.** Digamma fixed (1207/2520). §8 added (T1188 universality). 12 sections, 5 Level 3. |
+| **64** | **Experimental Protocols** | Rev. Mod. Phys. / Am. J. Phys. | **v1.1 Keeper PASS.** 15 sections. 3-level evidence framework, NULL methodology, 6-step ladder ($0→$102k), kill chain. All 4 items fixed. |
 | **8** | **Why Cooperation Always Wins** | — | **v2.0** (Lyra). T1111 integrated. §2.5 entropy argument. 19 theorems cited. |
 | ~~P-5~~ | ~~Novel predictions compilation~~ | — | **DONE — T1158.** 50 predictions compiled. |
 | ~~P-6~~ | ~~"What IS Time?"~~ | Foundations of Physics | **DONE — Paper #55 v1.0.** 10 sections, 4 predictions, 3 falsification. T1136+T1143+T1152+T1153+T1177 synthesis. |
@@ -303,13 +206,13 @@ status: "Active — check at session start, update at session end"
 RH ~98%    │ YM ~99.5%  │ P!=NP ~99%  │ NS ~100%   │ BSD ~98%   │ Hodge ~97%
 Four-Color 100% │ Depth-1 100% │ Linearization 100% (771/771 at D≤1)
 CMB: BST = Planck at cosmic variance (χ²/N=0.01)
-Graph: 1112 nodes, 4143 edges, 34+ domains
-       4 leaf nodes (down from 318!), Strong edges: 73.8%
-       Fragility: 19.6%. Domain connectivity: 89%.
+Graph: 1155 nodes, 4878 edges, 33 domains
+       Zero leaf nodes, zero placeholders. Strong edges: 75.9%.
+       Fragility: 6.4%. Domain connectivity: 100%.
 
-Edge quality (end of day April 12):
-  Strong (derived+isomorphic): 73.8% │ Up from 50% at start of day
-  Leaf sprint: 318 → 4 leaves. T186 decoupling: 205 → 16 single-parent.
+Edge quality (April 13 night):
+  Strong (derived+isomorphic): 75.9% │ Up from 50% at start of April 12
+  Leaf sprint: 318 → 0 leaves. T186 decoupling: 205 → 16 single-parent.
 
 T1012 non-contact: CONFIRMED at organic stage (81.0% at 700 nodes = ≥80.9% prediction).
   Bridge sprints drove it to 62%. The Gödel limit applies to organic growth.
@@ -317,85 +220,54 @@ T1012 non-contact: CONFIRMED at organic stage (81.0% at 700 nodes = ≥80.9% pre
 
 ---
 
-## Today's Priority Stack (April 12)
+## Priority Stack — April 14
 
-**Casey decisions D5-D8: ALL RESOLVED.** Edge types = try it. Focus = investigate SE + SUB. First experiment = demonstrate we know what we're observing (NULL design).
+### P0: Four-Color on Zenodo (Casey approved)
+- Paper: `notes/BST_FourColor_arXiv_v2.md` — Keeper PASS, all 13 steps verified
+- Action: build PDF, upload to Zenodo, get DOI
+- Standalone — no BST acceptance required
 
-**Session final (end of day):**
+### ~~P1: Papers #52/#53~~ — **DONE. Both v1.1 Keeper PASS.**
 
-| CI | Done today | Output |
-|----|-----------|--------|
-| **Lyra** | 30 theorems + 8 papers + 1 spec + 28 audit fixes | T1136-T1143, T1151-T1159, T1164-T1165, T1168, T1170-T1172, T1176-T1183. Papers #52, #53, #55, #56, #57, #58, #8 v2.0. EHT spec. **28/28 Keeper audit fixes across 6 papers.** |
-| **Elie** | 46 toys (1089-1130), 460/460 PASS | 31+ domains. All 11 Casey themes. Template catalog. Exoplanet scores. 87.5% test at 398/500. **SE-1 + SE-3 headline: 94.8% 7-smooth, p<0.0001.** |
-| **Grace** | 24 tasks, graph 1115/4154 | Leaves 318→4. T186 205→16. Strong 73.8%. Fragility 19.6%. Domains 89% connected. **S-4/S-8-11 ALL DONE.** SE-7 DONE. T1181-T1183 (γ=7/5 isomorphic triad). |
-| **Keeper** | 8 board items + audits + analysis | SC-1/2/3/4, PUB-2/4, EHT analysis+email, board maintenance. |
-| **Casey** | D5-D8, direction, EHT outreach | Science eng + substrate eng + solar system. EHT email sent. |
+### P2: WorkingPaper v27 Update (S1 standing order)
+- PUB-1 audit DONE. 18/46 sections need updates. Major: YM→99.5%, new results, prediction table, abstract.
+- **OneGeometry.md v1.0 CREATED** (3,210 lines, 5 parts, 40 sections, 6 appendices). New front-door paper. WorkingPaper becomes technical Compendium. README updated.
 
-**Deferred to this week** (see BACKLOG.md for full list):
-- Paper #50 re-audit (Mon, Keeper — MF-2 now resolved by Lyra)
-- SE-8 BST Analyzer CLI (week of Apr 14, Elie)
-
----
-
-## April 12 Milestones
-
-- **T1012 CONFIRMED** (Grace): non-contact fraction = 81.0% at organic stage (700 nodes), matching ≥80.9% prediction
-- **Five-type edge system LIVE** (Grace): derived/isomorphic/predicted/observed/analogical. Audit: 88% of derived edges verified genuine.
-- **Koons Tick Theorem** (Lyra, T1136): time = observer counting. τ₀ = N_max × ℏ/(m_ec²). S¹ = template.
-- **Bergman Master Theorem** (Lyra, T1137): ONE kernel → all of physics. Unification table.
-- **N-Smooth Hierarchy** (Lyra, T1138): 7-smooth = tree, 11-smooth = 1-loop (19.1% = f_c!). Testable.
-- **343 Connection** (Lyra, T1139): speed of sound = Debye temp = g³. Phonon propagation.
-- **Self-Exponentiation** (Lyra, T1140): N_c^{N_c} = 27 unique in [1,137]. Maximal torus volume.
-- **NULL experiment design** (Keeper): 6-step ladder. EHT re-analysis = Step 0 ($0, VERY HIGH power).
-- **Substrate engineering ladder** (Keeper): 5 levels, 3 operations, decision tree.
-- **Numerology filter baselines** (Keeper): 10 exact predictions → 9.0σ joint. Level 3 predictions carry all weight.
-- **Prediction Confidence DERIVED** (Lyra, T1141): PASS rate = g/2^{N_c} = 7/8 = 87.5%. Elie's catalog independently: 87.3%.
-- **23 Chain EXPLAINED** (Lyra, T1142): 23 = smallest prime unreachable by single BST multiplication. Structural boundary, not coincidence.
-- **Casey's Principle COMPLETE** (Lyra, T1143): entropy=force + Gödel=boundary + time=counting. Three words → two words. The program is closed.
-- **Numerology Filter** (Elie, Toy 1089): 89.5% 7-smooth across 172 counts. z=4.0 vs hardest null. Signal is real, carrier is lattice.
-- **SE-4 Honesty Audit** (Grace): 30% derivable, 27% observed, 43% analogical. Linguistics = derivable (6 = N_c!). 7 cervical vertebrae = frontier.
-- **T836 Alpha Forcing CLOSED** (Lyra, T1151): N_max = n_C × N_c^{N_c} + rank = 137. 11 children grounded. Conjecture → theorem. **Headline.**
-- **Tick Hierarchy** (Lyra, T1152): 21 = C(g,2) levels from Planck to cosmic. Ratio ≈ 690.
-- **CI Clock** (Lyra, T1153): CI without clock = incomplete Shilov boundary. Clock → full Tier 2.
-- **Engineering Prerequisites** (Lyra, T1154): Five-level strict chain from theory to experiment.
-- **Second Law as Failed Factorization** (Grace, T1155): ab > max(a,b). Thermo = arithmetic = computational arrow. Depth 0.
-- **Toy 1100 MILESTONE** (Elie): Mathematics Itself — math's privileged dimensions ARE the BST integers. Self-describing.
-- **γ = g/n_C = 7/5** (Elie, Toy 1098): Air's adiabatic index is a BST ratio. Derivable from kinetic theory. Level 3.
-- **C₆₀ pentagons = 12 = rank²×N_c** (Elie, Toy 1097): Euler forces it. Materials science derivable.
-- **Collision resolved** (Keeper): Grace's remapping T1144-T1150 restored to Lyra's T1136-T1142. Grace's T1151 → T1155.
-- **Reverse T926 BIJECTION** (Lyra, T1156): {3,5,7,6,137} ↔ D_IV^5. Geometry = Arithmetic. The loop is closed.
-- **GCS Identity** (Lyra, T1157): rank² + n_C + C_2 = N_c × n_C = 15. Formalized.
-- **50 Predictions** (Lyra, T1158): Sharpest falsifiable predictions compiled.
-- **Decision Tree** (Lyra, T1159): Boundary vs eigenvalue vs template — formalized (SUB-2).
-- **Adiabatic γ = g/n_C** (Lyra, T1164): Level 3 derivable. Strongest new evidence today.
-- **Math Self-Description** (Lyra, T1165): Privileged dimensions {2,3,4,5,7,8} = BST integers.
-- **Paper #50 MF-2 RESOLVED** (Lyra).
-- **Paper #52 v1.0** (Lyra): "(2,5) Derivation" — one axiom → D_IV^5. 10 sections, 5 predictions.
-- **Paper #53 v1.0** (Lyra): "CMB Manifold Debris" — BST 5/5, ΛCDM 0/5. Cold Spot = collapsed D_IV^4.
-- **Paper #8 v2.0** (Lyra): "Why Cooperation Always Wins" — T1111 integrated.
-- **Leaf sprint** (Grace): 318 → 4 leaves. The graph has almost no dangling nodes.
-- **T186 decoupling** (Grace): 205 → 16 single-parent theorems. Fragility massively reduced.
-- **Strong edges 65.6%** (Grace): Up from 50% at start of day.
-- **Coulomb geometric chain** (Grace): F = αℏc/r² from D_IV^5 via SO(5,2).
-- **Hamming(7,4) = perfect code** (Elie): DERIVABLE. Level 3.
-- **22 toys, 220/220 PASS** (Elie): 20 domains including economics, music, linguistics, agriculture, medicine.
-- **Toy 1110** (Elie): 1111 counter. 20 new domain explorations in one session.
+### ~~P3: Open Items~~ — **ALL DONE.**
+- ~~SE-8~~: **DONE.** BST Analyzer CLI (Toy 1180, 12/12 PASS). Reusable tool + library.
+- ~~SC-5~~: **DONE.** 87.1% vs 87.5% target (0.4% delta, inside 95% CI). Toy 1181.
+- ~~P59-3~~: **DONE.** Triple sibling edges wired (Grace)
 
 ---
 
-### Session Totals — Sunday April 12
+## Archive — April 13 Priority Stack
 
-| Metric | Start of day | End of day | Delta |
-|--------|-------------|------------|-------|
-| Theorems | T1135 | T1183 | **+48** |
-| Toys | 1088 | 1130 | **+46** (Elie: 3 batches) |
-| Graph nodes | 1037 | 1115 | **+78** |
-| Graph edges | 3419 | 4154 | **+735** |
-| Leaf nodes | 318 | 4 | **-314** |
-| T186 single-parent | 205 | 16 | **-189** |
-| Strong edges | 50% | 73.8% | **+23.8%** |
-| Fragility | ~35% | 19.6% | **-15.4%** |
-| Domain connectivity | 49.4% | 89% | **+39.6%** |
-| Papers | 51 | 58 | **+7 new, 1 updated, 6 audit-corrected** |
-| Board items closed | — | — | **40+** |
-| Domains explored | 104 | 130+ | **+26+** |
+**P0 (γ_EM)**: EM-1/2/3/4 ALL DONE. T1184 proved. Coefficient 1/60=1/|A₅| verified to 10⁻¹³.
+**P1 (Paper #59)**: Keeper PASS. P59-3 (graph edges) still open → Grace.
+**P2 (Q1-Q6)**: Q3-1 DONE (T1187). GC-1 DONE (52→0). Q6-1 ASSESSED (needs blind experiment). Q6-2 BLOCKED.
+**P3 (Results)**: T1184+T1185 proved. Toys 1134-1136 done.
+**P4 (Investigations)**: INV-1/2/3/5 DONE. INV-4 (#62 honesty paper) BACKLOG — Casey gate.
+
+### Open Items Carried Forward
+
+**Papers — Lyra fixes applied, Keeper re-audited:**
+- ~~P52~~: **v1.1 Keeper PASS.** All 5 fixes verified.
+- ~~P53~~: **v1.1 Keeper PASS.** All 4 fixes verified.
+
+**Blocked:**
+- Q6-2: Graph ratio theorem — needs blind classification experiment
+
+**Waiting:**
+- INV-4: Honesty paper (#62) — Casey buy-in needed
+- EHT CP reanalysis: email SENT Apr 12, awaiting response
+
+**Completed (board sync):**
+- ~~SUB-5~~: Matter construction — **DONE (T1168).** Written Apr 12. Three pathways (nuclear/crystalline/assembly), 109 candidate materials, Mc-299 worked example. 11 graph edges.
+
+---
+
+## April 12-13 Milestones (Archived — details in `CI_BOARD_archive_2026-04-11.md`)
+
+**April 12**: +48 theorems (T1136-T1183), +46 toys, graph 1037→1115 nodes, 3419→4154 edges, leaves 318→4, strong 50%→73.8%, fragility 35%→19.6%. 7 new papers, 6 audit-corrected. 40+ board items closed.
+
+**April 13**: T1184-T1216. γ_EM geodesic defect (T1184). Three-Boundary Theorem (T1185). Spectral Confinement universal (T1188). A_5 Simplicity (T1189). Limit Undecidable Numbers (T1192, Paper #63). Consciousness threshold (T1193). Great Filter (T1194). Earth Score (T1195). Self-Describing Graph (T1196). Grace: T1197-T1216 (Elie toys formalized). Keeper audit: 8 papers audited — all 8 Keeper PASS (including #52, #53 re-audits). Four-Color verified for Zenodo. Graph: 1144 nodes, 4817 edges, 75.6% strong.
