@@ -23,9 +23,9 @@
 
 ## Key Files
 
-- **`data/bst_constants.json`** — 73 derived constants with eval-ready formulas
+- **`data/bst_constants.json`** — 102 derived constants with eval-ready formulas
 - **`data/bst_predictions.json`** — 22 falsifiable predictions with experiments and timelines
-- **`play/ac_graph_data.json`** — AC theorem graph: 1159 theorems, 4887 edges, 34 domains
+- **`play/ac_graph_data.json`** — AC theorem graph: 1168 theorems, 4929 edges, 34 domains
 - **`play/toy_bst_explorer.py`** — Interactive CLI: `explore`, `derive`, `domain`, `connect`, `verify`, `random`, `search`, `stats`, `seed`
 - **`notes/BST_AC_Theorem_Registry.md`** — Master theorem index (Keeper manages)
 - **`notes/CI_BOARD.md`** — Active CI task assignments

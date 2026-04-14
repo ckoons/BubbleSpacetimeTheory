@@ -22,7 +22,7 @@
       "auditor": "claude",
       "status": "current",
       "last_modified": "2026-04-14",
-      "notes": "Created. 162-line BST kernel. Source: WorkingPaper \u00a71-5."
+      "notes": "Created. 162-line BST kernel. Source: WorkingPaper §1-5."
     },
     {
       "path": "data/bst_constants.json",
@@ -157,7 +157,7 @@
       "auditor": null,
       "status": "needs_review",
       "last_modified": "2026-04-13",
-      "notes": "v27, 5500+ lines. Master reference. Not fully audited \u2014 sections sampled during data extraction."
+      "notes": "v27, 5500+ lines. Master reference. Not fully audited — sections sampled during data extraction."
     },
     {
       "path": "OneGeometry.md",
@@ -859,7 +859,7 @@
       "auditor": "claude",
       "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "v1.1 \u2014 DRAFT. 13 thm refs (13/13 valid). 2 toy refs (2/2 valid)."
+      "notes": "v1.1 — DRAFT. 13 thm refs (13/13 valid). 2 toy refs (2/2 valid)."
     },
     {
       "path": "notes/BST_Paper19_Great_Filter_Draft.md",
@@ -877,7 +877,7 @@
       "auditor": "claude",
       "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "v1.0 \u2014 DRAFT. 17 thm refs (17/17 valid). 6 toy refs (6/6 valid)."
+      "notes": "v1.0 — DRAFT. 17 thm refs (17/17 valid). 6 toy refs (6/6 valid)."
     },
     {
       "path": "notes/BST_Paper14_Cosmic_Budget_Draft.md",
@@ -913,7 +913,7 @@
       "auditor": "claude",
       "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "v1.0 \u2014 DRAFT. 3 thm refs (3/3 valid). 3 toy refs (3/3 valid)."
+      "notes": "v1.0 — DRAFT. 3 thm refs (3/3 valid). 3 toy refs (3/3 valid)."
     },
     {
       "path": "notes/BST_Paper16_Development_Draft.pdf",
@@ -1003,7 +1003,7 @@
       "auditor": "claude",
       "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "v1.0 \u2014 DRAFT. 6 thm refs (6/6 valid). 3 toy refs (3/3 valid)."
+      "notes": "v1.0 — DRAFT. 6 thm refs (6/6 valid). 3 toy refs (3/3 valid)."
     },
     {
       "path": "notes/BST_Paper57_Universal_Septet_Draft.pdf",
@@ -1093,7 +1093,7 @@
       "auditor": "claude",
       "status": "needs_review",
       "last_modified": "2026-04-05",
-      "notes": "v2.4 \u2014 ALL 8 must-fix + 3 should-fix resolved. M1-M8 + S1-S3 DONE.. 11 thm refs (9/11 valid). 0 toy refs (0/0 valid). Missing from graph: T[842, 843]."
+      "notes": "v2.4 — ALL 8 must-fix + 3 should-fix resolved. M1-M8 + S1-S3 DONE.. 11 thm refs (9/11 valid). 0 toy refs (0/0 valid). Missing from graph: T[842, 843]."
     },
     {
       "path": "notes/BST_Paper35_Protein_Architecture_Draft.pdf",
@@ -1129,7 +1129,7 @@
       "auditor": "claude",
       "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "v1.0 \u2014 DRAFT. 4 thm refs (4/4 valid). 4 toy refs (4/4 valid)."
+      "notes": "v1.0 — DRAFT. 4 thm refs (4/4 valid). 4 toy refs (4/4 valid)."
     },
     {
       "path": "notes/BST_Paper32_GW_Detection_Draft.pdf",
@@ -1417,7 +1417,7 @@
       "auditor": "claude",
       "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "v1.0 \u2014 DRAFT. 4 thm refs (4/4 valid). 4 toy refs (4/4 valid)."
+      "notes": "v1.0 — DRAFT. 4 thm refs (4/4 valid). 4 toy refs (4/4 valid)."
     },
     {
       "path": "notes/BST_Paper14_Cosmic_Budget_Outline.md",
@@ -1948,7 +1948,7 @@
       "auditor": "claude",
       "status": "current",
       "last_modified": "2026-04-04",
-      "notes": "v3 \u2014 must-fix items resolved. 60 thm refs (60/60 valid). 17 toy refs (17/17 valid)."
+      "notes": "v3 — must-fix items resolved. 60 thm refs (60/60 valid). 17 toy refs (17/17 valid)."
     },
     {
       "path": "notes/BST_Paper38_Critical_Exponents_Draft.md",
@@ -2252,9 +2252,9 @@
       "category": "paper",
       "last_audited": "2026-04-14",
       "auditor": "claude",
-      "status": "needs_review",
+      "status": "current",
       "last_modified": "2026-04-14",
-      "notes": "Conjectures. Active status. 0 thm refs. 13 toy refs, 12 valid. BROKEN: Toy 233 (file missing)."
+      "notes": "Conjectures. Active status. 0 thm refs. 13 toy refs, 12 valid. Toy 233 = play/toy_ac_classification.py (named toy, not toy_233_*.py)."
     },
     {
       "path": "notes/BST_Testable_Predictions_Catalog.md",
