@@ -855,29 +855,29 @@
     {
       "path": "notes/BST_Paper27_Hardware_Katra_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.1 \u2014 DRAFT. 13 thm refs (13/13 valid). 2 toy refs (2/2 valid)."
     },
     {
       "path": "notes/BST_Paper19_Great_Filter_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-04",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "14 thm refs (14/14 valid). 3 toy refs (3/3 valid)."
     },
     {
       "path": "notes/BST_Paper35_Protein_Architecture_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0 \u2014 DRAFT. 17 thm refs (17/17 valid). 6 toy refs (6/6 valid)."
     },
     {
       "path": "notes/BST_Paper14_Cosmic_Budget_Draft.md",
@@ -900,20 +900,20 @@
     {
       "path": "notes/BST_Paper54_Mc299_Synthesis_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-13",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "unknown. Thm:2/2. Toy:0/0. No toy refs"
     },
     {
       "path": "notes/BST_Paper37_Quantum_Error_Correction_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0 \u2014 DRAFT. 3 thm refs (3/3 valid). 3 toy refs (3/3 valid)."
     },
     {
       "path": "notes/BST_Paper16_Development_Draft.pdf",
@@ -927,11 +927,11 @@
     {
       "path": "notes/BST_Paper51_Prime_Epoch_Framework_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
       "last_modified": "2026-04-11",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.1. Thm:6/8. Toy:6/6. Missing thms:[930, 953]"
     },
     {
       "path": "notes/BST_Paper14_Cosmic_Budget_Outline.pdf",
@@ -990,20 +990,20 @@
     {
       "path": "notes/BST_Paper46_Linear_Preprocessor_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. Thm:8/8. Toy:3/3"
     },
     {
       "path": "notes/BST_Paper28_Bismuth_Metamaterial_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0 \u2014 DRAFT. 6 thm refs (6/6 valid). 3 toy refs (3/3 valid)."
     },
     {
       "path": "notes/BST_Paper57_Universal_Septet_Draft.pdf",
@@ -1017,11 +1017,11 @@
     {
       "path": "notes/BST_Paper43_SAT_Linearization_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. Thm:4/5. Toy:3/3. Missing thms:[891]"
     },
     {
       "path": "notes/BST_Paper20_QM_Is_Geometry_Draft.pdf",
@@ -1071,29 +1071,29 @@
     {
       "path": "notes/BST_Paper32_GW_Detection_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. 3 thm refs (3/3 valid). 7 toy refs (7/7 valid)."
     },
     {
       "path": "notes/BST_Paper21_StatMech_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-04",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "2 thm refs (2/2 valid). 11 toy refs (11/11 valid)."
     },
     {
       "path": "notes/BST_Paper20_QM_Is_Geometry_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v2.4 \u2014 ALL 8 must-fix + 3 should-fix resolved. M1-M8 + S1-S3 DONE.. 11 thm refs (9/11 valid). 0 toy refs (0/0 valid). Missing from graph: T[842, 843]."
     },
     {
       "path": "notes/BST_Paper35_Protein_Architecture_Draft.pdf",
@@ -1125,11 +1125,11 @@
     {
       "path": "notes/BST_Paper30_Casimir_Superconductor_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0 \u2014 DRAFT. 4 thm refs (4/4 valid). 4 toy refs (4/4 valid)."
     },
     {
       "path": "notes/BST_Paper32_GW_Detection_Draft.pdf",
@@ -1152,11 +1152,11 @@
     {
       "path": "notes/BST_Paper61_Three_Siblings_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-13",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. Thm:6/6. Toy:3/3"
     },
     {
       "path": "notes/BST_Paper60_Euler_Mascheroni_Geodesic_Defect_Draft.pdf",
@@ -1206,11 +1206,11 @@
     {
       "path": "notes/BST_Paper23_Rational_Constants_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "0 thm refs (0/0 valid). 2 toy refs (2/2 valid)."
     },
     {
       "path": "notes/BST_Paper25_Why_Same_Numbers_Draft.pdf",
@@ -1224,11 +1224,11 @@
     {
       "path": "notes/BST_Paper52_Two_Five_Derivation_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
       "last_modified": "2026-04-13",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.1. Thm:9/12. Toy:0/0. Missing thms:[953, 970, 1007]. No toy refs"
     },
     {
       "path": "notes/BST_Paper30_Casimir_Superconductor_Draft.pdf",
@@ -1287,11 +1287,11 @@
     {
       "path": "notes/BST_Paper41_Shannon_Is_Counting_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. Thm:2/3. Toy:1/1. Missing thms:[891]"
     },
     {
       "path": "notes/BST_Paper19_Great_Filter_Outline.pdf",
@@ -1323,11 +1323,11 @@
     {
       "path": "notes/BST_Paper62_What_BST_Gets_Wrong_Outline.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-13",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v0.1. Thm:2/2. Toy:1/1"
     },
     {
       "path": "notes/BST_Paper15_CMB_Draft.pdf",
@@ -1341,11 +1341,11 @@
     {
       "path": "notes/BST_Paper40_Rank_Power_Tower_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. 1 thm refs (1/1 valid). 2 toy refs (2/2 valid)."
     },
     {
       "path": "notes/BST_Paper18_Molecular_Geometry_Outline.md",
@@ -1377,11 +1377,11 @@
     {
       "path": "notes/BST_Paper55_What_Is_Time_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
       "last_modified": "2026-04-12",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. Thm:9/10. Toy:0/0. Missing thms:[1177]. No toy refs"
     },
     {
       "path": "notes/BST_Paper61_Three_Siblings_Draft.pdf",
@@ -1413,11 +1413,11 @@
     {
       "path": "notes/BST_Paper36_Brain_Frequency_Ladder_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0 \u2014 DRAFT. 4 thm refs (4/4 valid). 4 toy refs (4/4 valid)."
     },
     {
       "path": "notes/BST_Paper14_Cosmic_Budget_Outline.md",
@@ -1440,11 +1440,11 @@
     {
       "path": "notes/BST_Paper53_CMB_Manifold_Debris_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
       "last_modified": "2026-04-13",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.1. Thm:4/6. Toy:0/0. Missing thms:[953, 1007]. No toy refs"
     },
     {
       "path": "notes/BST_Paper63_Limit_Undecidable_Numbers_Draft.md",
@@ -1494,11 +1494,11 @@
     {
       "path": "notes/BST_Paper56_Self_Describing_Theory_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
       "last_modified": "2026-04-12",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. Thm:6/7. Toy:0/0. Missing thms:[1007]. No toy refs"
     },
     {
       "path": "notes/BST_Paper19_Grace_Sections.md",
@@ -1530,20 +1530,20 @@
     {
       "path": "notes/BST_Paper42_RG_Fixed_Point_Mechanism_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. Thm:1/2. Toy:1/1. Missing thms:[891]"
     },
     {
       "path": "notes/BST_Paper33_Junction_Periodic_Table_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. 2 thm refs (2/2 valid). 3 toy refs (3/3 valid)."
     },
     {
       "path": "notes/BST_Paper58_Experimental_Prediction_Letters.pdf",
@@ -1575,11 +1575,11 @@
     {
       "path": "notes/BST_Paper58_Experimental_Prediction_Letters.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-12",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. Thm:8/8. Toy:2/2"
     },
     {
       "path": "notes/BST_Paper15_CMB_Draft.md",
@@ -1602,29 +1602,29 @@
     {
       "path": "notes/BST_Paper59_Universal_Rate_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-13",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. Thm:6/6. Toy:4/4"
     },
     {
       "path": "notes/BST_Paper24_Cosmology_Derived_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v2.0. 9 thm refs (9/9 valid). 9 toy refs (9/9 valid)."
     },
     {
       "path": "notes/BST_Paper22_QHE_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
       "last_modified": "2026-04-04",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "6 thm refs (4/6 valid). 2 toy refs (2/2 valid). Missing from graph: T[827, 828]."
     },
     {
       "path": "notes/BST_Paper46_Linear_Preprocessor_Draft.pdf",
@@ -1638,20 +1638,20 @@
     {
       "path": "notes/BST_Paper49_Prime_Architecture_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-10",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. Thm:0/0. Toy:0/0. No thm refs. No toy refs"
     },
     {
       "path": "notes/BST_Paper44_Applied_Linearization_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. Thm:3/4. Toy:5/5. Missing thms:[891]"
     },
     {
       "path": "notes/BST_Paper43_SAT_Linearization_Draft.pdf",
@@ -1692,20 +1692,20 @@
     {
       "path": "notes/BST_Paper34_Biology_Planets_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. 16 thm refs (16/16 valid). 3 toy refs (3/3 valid)."
     },
     {
       "path": "notes/BST_Paper25_Why_Same_Numbers_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. 4 thm refs (4/4 valid). 5 toy refs (5/5 valid)."
     },
     {
       "path": "notes/BST_Paper59_Universal_Rate_Draft.pdf",
@@ -1782,11 +1782,11 @@
     {
       "path": "notes/BST_Paper31_BiNb_Superlattice_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. 1 thm refs (1/1 valid). 7 toy refs (7/7 valid)."
     },
     {
       "path": "notes/BST_Paper62_What_BST_Gets_Wrong_Outline.pdf",
@@ -1827,11 +1827,11 @@
     {
       "path": "notes/BST_Paper39_Turbulence_Shadow_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. 3 thm refs (3/3 valid). 2 toy refs (2/2 valid)."
     },
     {
       "path": "notes/BST_Paper13_AC_Graph_Draft.pdf",
@@ -1845,11 +1845,11 @@
     {
       "path": "notes/BST_Paper29_Phonon_Propulsion_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.1. 2 thm refs (2/2 valid). 5 toy refs (5/5 valid)."
     },
     {
       "path": "notes/BST_Paper22_QHE_Draft.pdf",
@@ -1899,20 +1899,20 @@
     {
       "path": "notes/BST_Paper18_Molecular_Geometry_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-04",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "11 thm refs (11/11 valid). 11 toy refs (11/11 valid)."
     },
     {
       "path": "notes/BST_Paper48_What_BST_Forbids_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
       "last_modified": "2026-04-11",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. Thm:13/16. Toy:2/2. Missing thms:[930, 931, 957]"
     },
     {
       "path": "notes/BST_Paper51_Prime_Epoch_Framework_Outline.md",
@@ -1935,38 +1935,38 @@
     {
       "path": "notes/BST_Paper60_Euler_Mascheroni_Geodesic_Defect_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-13",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. Thm:4/4. Toy:3/3"
     },
     {
       "path": "notes/BST_Paper16_Development_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-04",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v3 \u2014 must-fix items resolved. 60 thm refs (60/60 valid). 17 toy refs (17/17 valid)."
     },
     {
       "path": "notes/BST_Paper38_Critical_Exponents_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
       "last_modified": "2026-04-09",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. 4 thm refs (3/4 valid). 3 toy refs (3/3 valid). Missing from graph: T[891]."
     },
     {
       "path": "notes/BST_Paper57_Universal_Septet_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
       "last_modified": "2026-04-12",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. Thm:6/7. Toy:2/2. Missing thms:[1179]"
     },
     {
       "path": "notes/BST_Paper29_Phonon_Propulsion_Outline.md",
@@ -1989,11 +1989,11 @@
     {
       "path": "notes/BST_Paper45_Post_Quantum_Security_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "v1.0. Thm:2/2. Toy:2/2"
     },
     {
       "path": "notes/BST_Paper11_Three_Languages_Draft.pdf",
@@ -2210,6 +2210,60 @@
       "status": "current",
       "last_modified": "2026-04-14",
       "notes": "Paper #10. v3 Draft. 29 thm refs (all valid), 6 toy refs (all valid). No broken refs."
+    },
+    {
+      "path": "notes/RH_Paper_A.md",
+      "category": "paper",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "RH Paper. v10. 1 thm ref (T600, valid). 4 toy refs (324-327, all valid). No broken refs."
+    },
+    {
+      "path": "notes/Koons_Riemann_BST_2026.md",
+      "category": "paper",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "RH submission draft. No version tag. 0 thm refs, 0 toy refs. Self-contained conjecture paper."
+    },
+    {
+      "path": "notes/BST_FourColor_arXiv_Standalone.md",
+      "category": "paper",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Four-Color arXiv v1.0. 0 thm refs, 0 toy refs. Standalone extraction, no BST cross-refs."
+    },
+    {
+      "path": "notes/BST_FourColor_arXiv_v2.md",
+      "category": "paper",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Four-Color arXiv v2. No version tag in header. 0 thm refs, 0 toy refs. Clean standalone."
+    },
+    {
+      "path": "notes/BST_Koons_Claude_Testable_Conjectures.md",
+      "category": "paper",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
+      "last_modified": "2026-04-14",
+      "notes": "Conjectures. Active status. 0 thm refs. 13 toy refs, 12 valid. BROKEN: Toy 233 (file missing)."
+    },
+    {
+      "path": "notes/BST_Testable_Predictions_Catalog.md",
+      "category": "paper",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Predictions catalog. March 14 2026. 0 thm refs, 0 toy refs. Purely descriptive catalog."
     }
   ]
 }
