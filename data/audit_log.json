@@ -1467,11 +1467,11 @@
     {
       "path": "notes/BST_Paper64_Experimental_Protocols_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
       "last_modified": "2026-04-13",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "notes": "Paper #64. v1.1. 8 theorem refs (8/8 valid), 5 toy refs (5/5 valid). Zero broken refs."
     },
     {
       "path": "notes/BST_Paper24_Cosmology_Derived_Draft.pdf",
@@ -2120,6 +2120,42 @@
       "status": "new",
       "last_modified": "2026-03-28",
       "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_AC0_Textbook.md",
+      "category": "paper",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #1. v5. 17 theorem refs (17/17 valid), 13 toy refs (13/13 valid). Zero broken refs."
+    },
+    {
+      "path": "notes/BST_Koons_Machine_Paper.md",
+      "category": "paper",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #2. v3. 13 theorem refs (13/13 valid), 3 toy refs (3/3 valid). Zero broken refs."
+    },
+    {
+      "path": "notes/BST_Arithmetic_Triangle.md",
+      "category": "paper",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #9. v10. 15 theorem refs (15/15 valid), 15 toy refs (15/15 valid). Zero broken refs."
+    },
+    {
+      "path": "notes/FourColor_Standalone_Paper.md",
+      "category": "paper",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Four-Color. v8. No AC graph T-refs (uses internal numbering). 7 toy refs (7/7 valid). Standalone proof."
     }
   ]
 }
