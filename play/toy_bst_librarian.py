@@ -13,6 +13,8 @@ Subcommands:
   readme-check                      Verify notes/README.md paper count, play/README.md toy count
   digest [--output PATH]            Generate notes/.running/DIGEST_YYYY-MM-DD.md from all checks
   claims                            Parse CLAIMS.md for stale/orphaned entries
+  xref-index                        Build reverse cross-reference index (theorem→papers, topic→papers)
+  impact <query>                    Query which files are affected by a theorem, toy, topic, or constant
 
 Usage:
   python3 toy_bst_librarian.py                      # Interactive REPL
@@ -841,6 +843,341 @@ def cmd_claims(args=''):
 
     return issues
 
+# ── Subcommand: xref-index ────────────────────────────────────────────────
+
+XREF_INDEX = os.path.join(DATA_DIR, 'bst_crossref_index.json')
+
+# Keywords extracted from filenames and content — maps topic → search patterns
+TOPIC_PATTERNS = {
+    'proton_mass':    [r'proton\s+mass', r'm_p\b', r'938\.27'],
+    'cosmic_age':     [r'cosmic\s+age', r'age.*universe', r'13\.79', r'13\.78'],
+    'hubble':         [r'H_?0\b', r'[Hh]ubble', r'67\.3'],
+    'CKM':            [r'CKM', r'Cabibbo', r'Wolfenstein', r'V_\{?[ucdstb][ucdstb]'],
+    'PMNS':           [r'PMNS', r'neutrino.*mix', r'theta_\{?1[23]'],
+    'magic_number':   [r'magic\s+number', r'shell\s+closure', r'kappa_ls'],
+    'dark_energy':    [r'dark\s+energy', r'Omega_?[Ll]ambda', r'cosmological\s+constant'],
+    'dark_matter':    [r'dark\s+matter', r'Omega_?[Mm]', r'MOND'],
+    'higgs':          [r'[Hh]iggs', r'125\s*GeV', r'Fermi\s+scale'],
+    'strong_cp':      [r'strong\s+CP', r'theta.*QCD', r'CP\s+violation'],
+    'fine_structure':  [r'fine\s+struct', r'alpha\s*=\s*1/137', r'\b137\b.*channel'],
+    'mass_gap':       [r'mass\s+gap', r'Yang.Mills', r'Wightman'],
+    'riemann':        [r'[Rr]iemann\s+[Hh]ypothesis', r'critical\s+line', r'zeta\s+function'],
+    'four_color':     [r'[Ff]our.?[Cc]olor', r'planar\s+graph', r'chromatic'],
+    'p_np':           [r'P\s*[!≠]\s*=?\s*NP', r'AC\(0\)', r'complexity.*lower'],
+    'CMB':            [r'\bCMB\b', r'power\s+spectrum', r'spectral\s+index', r'n_s\b'],
+    'heat_kernel':    [r'[Hh]eat\s+kernel', r'Seeley.DeWitt', r'a_\{?\d+\}?.*coefficient'],
+    'biology':        [r'genetic\s+code', r'amino\s+acid', r'DNA', r'evolution'],
+    'cooperation':    [r'cooperation', r'game\s+theory', r'Nash'],
+    'observer':       [r'observer', r'consciousness', r'interstasis'],
+    'bottom_quark':   [r'bottom\s+quark', r'm_b\b', r'4\.18\s*GeV'],
+    'SEMF':           [r'SEMF', r'semi.empirical', r'liquid\s+drop', r'nuclear\s+binding'],
+    'jarlskog':       [r'[Jj]arlskog', r'J_\{?CKM'],
+    'casimir':        [r'[Cc]asimir', r'vacuum\s+energy', r'flow\s+cell'],
+    'superconductivity': [r'BCS', r'superconducti', r'Cooper\s+pair', r'critical.*temp'],
+    'neutron_star':   [r'neutron\s+star', r'Chandrasekhar', r'TOV'],
+    'meson':          [r'meson', r'pion', r'kaon', r'rho\s+meson'],
+    'lepton':         [r'muon', r'tau.*mass', r'lepton.*ratio'],
+    'gravity':        [r'Newton.*G\b', r'gravitational\s+const', r'Einstein.*equat'],
+}
+
+def extract_topics(text, filename):
+    """Extract topic keywords from file content and name."""
+    topics = set()
+    # From filename
+    name_lower = filename.lower()
+    for topic, patterns in TOPIC_PATTERNS.items():
+        for pat in patterns:
+            if re.search(pat, name_lower):
+                topics.add(topic)
+                break
+    # From content (case-insensitive)
+    for topic, patterns in TOPIC_PATTERNS.items():
+        if topic in topics:
+            continue
+        for pat in patterns:
+            if re.search(pat, text, re.IGNORECASE):
+                topics.add(topic)
+                break
+    return topics
+
+def extract_file_summary(text, filename):
+    """Get a one-line summary from the file."""
+    # Try first markdown heading
+    m = re.search(r'^#\s+(.+)', text, re.MULTILINE)
+    if m:
+        return m.group(1).strip()[:100]
+    # Try first non-empty line
+    for line in text.split('\n')[:10]:
+        line = line.strip()
+        if line and not line.startswith('---') and not line.startswith('```'):
+            return line[:100]
+    return filename
+
+def cmd_xref_index(args=''):
+    """Build reverse cross-reference index from all notes/ files."""
+    header("Building Cross-Reference Index")
+
+    by_theorem = {}   # tid_str → [{"path": ..., "summary": ...}, ...]
+    by_toy = {}       # toy_num_str → [...]
+    by_topic = {}     # topic_name → [...]
+    by_constant = {}  # constant_id → [...]
+
+    # Load constant names for matching
+    constants_data = load_json(os.path.join(DATA_DIR, 'bst_constants.json'))
+    const_names = {}
+    if constants_data:
+        for c in constants_data.get('constants', []):
+            cid = c.get('id', '')
+            name = c.get('name', '')
+            const_names[cid] = name.lower()
+
+    # Scan all notes/*.md files
+    files_scanned = 0
+    notes_files = sorted([
+        f for f in os.listdir(NOTES_DIR)
+        if f.endswith('.md') and not f.startswith('.')
+    ])
+
+    for fname in notes_files:
+        fpath = os.path.join(NOTES_DIR, fname)
+        rel = f"notes/{fname}"
+        try:
+            with open(fpath, encoding='utf-8') as f:
+                content = f.read()
+        except Exception:
+            continue
+
+        files_scanned += 1
+        summary = extract_file_summary(content, fname)
+        entry = {"path": rel, "summary": summary}
+
+        # Theorem refs
+        thm_refs = extract_theorem_refs(content)
+        for t in thm_refs:
+            tid = int(t)
+            if tid > 10:  # skip small numbers
+                by_theorem.setdefault(t, []).append(entry)
+
+        # Toy refs
+        toy_refs = extract_toy_refs(content)
+        for t in toy_refs:
+            by_toy.setdefault(str(t), []).append(entry)
+
+        # Topic keywords
+        topics = extract_topics(content, fname)
+        for topic in topics:
+            by_topic.setdefault(topic, []).append(entry)
+
+        # Constant references (by name match)
+        content_lower = content.lower()
+        for cid, cname in const_names.items():
+            if len(cname) > 5 and cname in content_lower:
+                by_constant.setdefault(cid, []).append(entry)
+
+    # Also scan play/ toy files (just headers, not full content)
+    toy_files = sorted(glob.glob(os.path.join(PLAY_DIR, 'toy_*.py')))
+    for tpath in toy_files:
+        fname = os.path.basename(tpath)
+        rel = f"play/{fname}"
+        try:
+            with open(tpath, encoding='utf-8') as f:
+                # Read just first 30 lines for speed
+                head_lines = []
+                for i, line in enumerate(f):
+                    if i >= 30:
+                        break
+                    head_lines.append(line)
+                head = ''.join(head_lines)
+        except Exception:
+            continue
+
+        files_scanned += 1
+        summary = extract_file_summary(head, fname)
+        entry = {"path": rel, "summary": summary}
+
+        # Theorem refs from header
+        thm_refs = extract_theorem_refs(head)
+        for t in thm_refs:
+            tid = int(t)
+            if tid > 10:
+                by_theorem.setdefault(t, []).append(entry)
+
+    # Deduplicate entries within each list
+    def dedup(mapping):
+        for key in mapping:
+            seen = set()
+            unique = []
+            for e in mapping[key]:
+                if e['path'] not in seen:
+                    seen.add(e['path'])
+                    unique.append(e)
+            mapping[key] = unique
+
+    dedup(by_theorem)
+    dedup(by_toy)
+    dedup(by_topic)
+    dedup(by_constant)
+
+    index = {
+        "meta": {
+            "version": 1,
+            "built": datetime.now().strftime('%Y-%m-%d'),
+            "files_scanned": files_scanned,
+            "theorem_keys": len(by_theorem),
+            "toy_keys": len(by_toy),
+            "topic_keys": len(by_topic),
+            "constant_keys": len(by_constant),
+            "description": "Reverse cross-reference index. Query with: impact <theorem|toy|topic|constant>"
+        },
+        "by_theorem": by_theorem,
+        "by_toy": by_toy,
+        "by_topic": by_topic,
+        "by_constant": by_constant,
+    }
+
+    save_json(XREF_INDEX, index)
+
+    print(f"\n  Files scanned: {files_scanned}")
+    print(f"  Theorem keys:  {len(by_theorem)} (unique theorem IDs referenced)")
+    print(f"  Toy keys:      {len(by_toy)} (unique toy numbers referenced)")
+    print(f"  Topic keys:    {len(by_topic)} ({', '.join(sorted(by_topic.keys())[:10])}...)")
+    print(f"  Constant keys: {len(by_constant)} (constants mentioned by name)")
+    print(f"\n  Index written to {rel_path(XREF_INDEX)}")
+
+    return index
+
+# ── Subcommand: impact ────────────────────────────────────────────────────
+
+def cmd_impact(args=''):
+    """Query cross-reference index: which papers are affected by a change?
+
+    Usage:
+      impact T891                  — files referencing theorem T891
+      impact toy 541               — files referencing Toy 541
+      impact topic cosmic_age      — files discussing cosmic age
+      impact topic CKM             — files discussing CKM matrix
+      impact const cosmic_age      — files mentioning the cosmic age constant
+      impact <any string>          — search across all categories
+    """
+    query = args.strip()
+    if not query:
+        print("  Usage: impact <T891|toy 541|topic cosmic_age|const name|any string>")
+        print("  Run 'xref-index' first to build the index.")
+        return
+
+    # Load index
+    index = load_json(XREF_INDEX)
+    if not index:
+        print(f"  {YELLOW}No cross-reference index found. Run 'xref-index' first.{RESET}")
+        return
+
+    header(f"Impact Analysis: {query}")
+
+    results = []
+
+    # Parse query type
+    parts = query.split(None, 1)
+    qtype = parts[0].lower() if parts else ''
+    qval = parts[1].strip() if len(parts) > 1 else ''
+
+    if qtype == 'topic' and qval:
+        # Direct topic lookup
+        entries = index.get('by_topic', {}).get(qval, [])
+        if not entries:
+            # Try fuzzy match
+            for key in index.get('by_topic', {}):
+                if qval.lower() in key.lower():
+                    entries.extend(index['by_topic'][key])
+                    print(f"  Matched topic: {key}")
+        results = entries
+
+    elif qtype == 'toy' and qval:
+        results = index.get('by_toy', {}).get(qval, [])
+
+    elif qtype == 'const' and qval:
+        # Search constant keys
+        for key, entries in index.get('by_constant', {}).items():
+            if qval.lower() in key.lower():
+                results.extend(entries)
+                print(f"  Matched constant: {key}")
+
+    elif re.match(r'^T\d+$', query, re.IGNORECASE):
+        # Theorem lookup
+        tid = re.search(r'(\d+)', query).group(1)
+        results = index.get('by_theorem', {}).get(tid, [])
+
+    elif re.match(r'^toy\s*\d+$', query, re.IGNORECASE):
+        # Toy lookup (without explicit "toy" prefix in qtype)
+        tnum = re.search(r'(\d+)', query).group(1)
+        results = index.get('by_toy', {}).get(tnum, [])
+
+    else:
+        # General search — check all categories
+        q_lower = query.lower()
+        seen = set()
+
+        # Check theorems
+        for tid, entries in index.get('by_theorem', {}).items():
+            if q_lower in f"t{tid}":
+                for e in entries:
+                    if e['path'] not in seen:
+                        results.append(e)
+                        seen.add(e['path'])
+
+        # Check topics
+        for topic, entries in index.get('by_topic', {}).items():
+            if q_lower in topic.lower():
+                for e in entries:
+                    if e['path'] not in seen:
+                        results.append(e)
+                        seen.add(e['path'])
+
+        # Check constants
+        for cid, entries in index.get('by_constant', {}).items():
+            if q_lower in cid.lower():
+                for e in entries:
+                    if e['path'] not in seen:
+                        results.append(e)
+                        seen.add(e['path'])
+
+    # Deduplicate
+    seen = set()
+    unique = []
+    for r in results:
+        if r['path'] not in seen:
+            seen.add(r['path'])
+            unique.append(r)
+    results = unique
+
+    if not results:
+        print(f"\n  No files found for '{query}'.")
+        print(f"  Available topics: {', '.join(sorted(index.get('by_topic', {}).keys()))}")
+        return
+
+    # Group by category
+    papers = [r for r in results if 'Paper' in r['path']]
+    theorems = [r for r in results if '_T' in r['path'] and 'Paper' not in r['path']]
+    notes = [r for r in results if r not in papers and r not in theorems and r['path'].startswith('notes/')]
+    toys = [r for r in results if r['path'].startswith('play/')]
+
+    print(f"\n  {BOLD}{len(results)} files affected{RESET}\n")
+
+    for label, group in [("Papers", papers), ("Theorem notes", theorems),
+                          ("Research notes", notes), ("Toys", toys)]:
+        if group:
+            print(f"  {BOLD}{label} ({len(group)}):{RESET}")
+            for r in sorted(group, key=lambda x: x['path'])[:25]:
+                print(f"    {r['path']}")
+                if r.get('summary'):
+                    print(f"      {DIM}{r['summary'][:80]}{RESET}")
+            if len(group) > 25:
+                print(f"    ... +{len(group)-25} more")
+            print()
+
+    return results
+
+    return issues
+
 # ── REPL ───────────────────────────────────────────────────────────────────
 
 COMMANDS = {
@@ -852,6 +1189,8 @@ COMMANDS = {
     'readme-check': cmd_readme_check,
     'digest': cmd_digest,
     'claims': cmd_claims,
+    'xref-index': cmd_xref_index,
+    'impact': cmd_impact,
 }
 
 def cmd_help():

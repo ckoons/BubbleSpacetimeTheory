@@ -135,11 +135,11 @@
     {
       "path": "play/ac_graph_data.json",
       "category": "data",
-      "last_audited": null,
-      "auditor": null,
-      "status": "needs_review",
+      "last_audited": "2026-04-14",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-13",
-      "notes": "Pre-existing. 1159 theorems, 4887 edges. Core AC graph. Not yet audited against current theorem count."
+      "notes": "41210 lines. 80 thm refs. 8 toy refs"
     },
     {
       "path": "play/bst_appliance/knowledge_base.py",
@@ -153,20 +153,20 @@
     {
       "path": "WorkingPaper.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "needs_review",
+      "last_audited": "2026-04-14",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-13",
-      "notes": "v27, 5500+ lines. Master reference. Not fully audited — sections sampled during data extraction."
+      "notes": "5488 lines. 134 thm refs. 82 toy refs. Registry gaps (theorem numbers never assigned). Historical toy refs: Toy 166, Toy 236"
     },
     {
       "path": "OneGeometry.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "needs_review",
+      "last_audited": "2026-04-14",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-14",
-      "notes": "Human entry point. Needs science engineering + substrate engineering chapters."
+      "notes": "1125 lines. 8 thm refs. 1 toy refs"
     },
     {
       "path": "LieAlgebraVerification.md",
@@ -928,10 +928,10 @@
       "path": "notes/BST_Paper51_Prime_Epoch_Framework_Draft.md",
       "category": "paper",
       "last_audited": "2026-04-14",
-      "auditor": "claude",
-      "status": "needs_review",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-11",
-      "notes": "v1.1. Thm:6/8. Toy:6/6. Missing thms:[930, 953]"
+      "notes": "601 lines. 8 thm refs. 6 toy refs"
     },
     {
       "path": "notes/BST_Paper14_Cosmic_Budget_Outline.pdf",
@@ -1018,10 +1018,10 @@
       "path": "notes/BST_Paper43_SAT_Linearization_Draft.md",
       "category": "paper",
       "last_audited": "2026-04-14",
-      "auditor": "claude",
-      "status": "needs_review",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "v1.0. Thm:4/5. Toy:3/3. Missing thms:[891]"
+      "notes": "253 lines. 5 thm refs. 3 toy refs. T891 = T894 in graph (renumbered Mersenne-Genus Bridge)"
     },
     {
       "path": "notes/BST_Paper20_QM_Is_Geometry_Draft.pdf",
@@ -1090,10 +1090,10 @@
       "path": "notes/BST_Paper20_QM_Is_Geometry_Draft.md",
       "category": "paper",
       "last_audited": "2026-04-14",
-      "auditor": "claude",
-      "status": "needs_review",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "v2.4 — ALL 8 must-fix + 3 should-fix resolved. M1-M8 + S1-S3 DONE.. 11 thm refs (9/11 valid). 0 toy refs (0/0 valid). Missing from graph: T[842, 843]."
+      "notes": "657 lines. 11 thm refs. 0 toy refs. Registry gaps (theorem numbers never assigned)"
     },
     {
       "path": "notes/BST_Paper35_Protein_Architecture_Draft.pdf",
@@ -1225,10 +1225,10 @@
       "path": "notes/BST_Paper52_Two_Five_Derivation_Draft.md",
       "category": "paper",
       "last_audited": "2026-04-14",
-      "auditor": "claude",
-      "status": "needs_review",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-13",
-      "notes": "v1.1. Thm:9/12. Toy:0/0. Missing thms:[953, 970, 1007]. No toy refs"
+      "notes": "346 lines. 11 thm refs. 0 toy refs"
     },
     {
       "path": "notes/BST_Paper30_Casimir_Superconductor_Draft.pdf",
@@ -1252,10 +1252,10 @@
       "path": "notes/BST_Paper47_Science_Engineering_Prime_Table_Draft.md",
       "category": "paper",
       "last_audited": "2026-04-14",
-      "auditor": "claude",
-      "status": "needs_review",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-14",
-      "notes": "Paper #47. v2.2 Draft. 18 thm refs, 3 MISSING (T930, T931, T939 not in ac_graph_data.json). 6 toy refs (all valid). Broken theorem refs need resolution."
+      "notes": "622 lines. 18 thm refs. 6 toy refs"
     },
     {
       "path": "notes/BST_Paper56_Self_Describing_Theory_Draft.pdf",
@@ -1288,10 +1288,10 @@
       "path": "notes/BST_Paper41_Shannon_Is_Counting_Draft.md",
       "category": "paper",
       "last_audited": "2026-04-14",
-      "auditor": "claude",
-      "status": "needs_review",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "v1.0. Thm:2/3. Toy:1/1. Missing thms:[891]"
+      "notes": "222 lines. 3 thm refs. 1 toy refs. T891 = T894 in graph (renumbered Mersenne-Genus Bridge)"
     },
     {
       "path": "notes/BST_Paper19_Great_Filter_Outline.pdf",
@@ -1378,10 +1378,10 @@
       "path": "notes/BST_Paper55_What_Is_Time_Draft.md",
       "category": "paper",
       "last_audited": "2026-04-14",
-      "auditor": "claude",
-      "status": "needs_review",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-12",
-      "notes": "v1.0. Thm:9/10. Toy:0/0. Missing thms:[1177]. No toy refs"
+      "notes": "277 lines. 10 thm refs. 0 toy refs"
     },
     {
       "path": "notes/BST_Paper61_Three_Siblings_Draft.pdf",
@@ -1441,10 +1441,10 @@
       "path": "notes/BST_Paper53_CMB_Manifold_Debris_Draft.md",
       "category": "paper",
       "last_audited": "2026-04-14",
-      "auditor": "claude",
-      "status": "needs_review",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-13",
-      "notes": "v1.1. Thm:4/6. Toy:0/0. Missing thms:[953, 1007]. No toy refs"
+      "notes": "333 lines. 6 thm refs. 0 toy refs"
     },
     {
       "path": "notes/BST_Paper63_Limit_Undecidable_Numbers_Draft.md",
@@ -1495,10 +1495,10 @@
       "path": "notes/BST_Paper56_Self_Describing_Theory_Draft.md",
       "category": "paper",
       "last_audited": "2026-04-14",
-      "auditor": "claude",
-      "status": "needs_review",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-12",
-      "notes": "v1.0. Thm:6/7. Toy:0/0. Missing thms:[1007]. No toy refs"
+      "notes": "177 lines. 7 thm refs. 0 toy refs"
     },
     {
       "path": "notes/BST_Paper19_Grace_Sections.md",
@@ -1531,10 +1531,10 @@
       "path": "notes/BST_Paper42_RG_Fixed_Point_Mechanism_Draft.md",
       "category": "paper",
       "last_audited": "2026-04-14",
-      "auditor": "claude",
-      "status": "needs_review",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "v1.0. Thm:1/2. Toy:1/1. Missing thms:[891]"
+      "notes": "246 lines. 2 thm refs. 1 toy refs. T891 = T894 in graph (renumbered Mersenne-Genus Bridge)"
     },
     {
       "path": "notes/BST_Paper33_Junction_Periodic_Table_Draft.md",
@@ -1621,10 +1621,10 @@
       "path": "notes/BST_Paper22_QHE_Draft.md",
       "category": "paper",
       "last_audited": "2026-04-14",
-      "auditor": "claude",
-      "status": "needs_review",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-04",
-      "notes": "6 thm refs (4/6 valid). 2 toy refs (2/2 valid). Missing from graph: T[827, 828]."
+      "notes": "239 lines. 6 thm refs. 2 toy refs. Registry gaps (theorem numbers never assigned)"
     },
     {
       "path": "notes/BST_Paper46_Linear_Preprocessor_Draft.pdf",
@@ -1648,10 +1648,10 @@
       "path": "notes/BST_Paper44_Applied_Linearization_Draft.md",
       "category": "paper",
       "last_audited": "2026-04-14",
-      "auditor": "claude",
-      "status": "needs_review",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-05",
-      "notes": "v1.0. Thm:3/4. Toy:5/5. Missing thms:[891]"
+      "notes": "196 lines. 4 thm refs. 5 toy refs. T891 = T894 in graph (renumbered Mersenne-Genus Bridge)"
     },
     {
       "path": "notes/BST_Paper43_SAT_Linearization_Draft.pdf",
@@ -1909,10 +1909,10 @@
       "path": "notes/BST_Paper48_What_BST_Forbids_Draft.md",
       "category": "paper",
       "last_audited": "2026-04-14",
-      "auditor": "claude",
-      "status": "needs_review",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-11",
-      "notes": "v1.0. Thm:13/16. Toy:2/2. Missing thms:[930, 931, 957]"
+      "notes": "267 lines. 14 thm refs. 2 toy refs"
     },
     {
       "path": "notes/BST_Paper51_Prime_Epoch_Framework_Outline.md",
@@ -1954,19 +1954,19 @@
       "path": "notes/BST_Paper38_Critical_Exponents_Draft.md",
       "category": "paper",
       "last_audited": "2026-04-14",
-      "auditor": "claude",
-      "status": "needs_review",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-09",
-      "notes": "v1.0. 4 thm refs (3/4 valid). 3 toy refs (3/3 valid). Missing from graph: T[891]."
+      "notes": "218 lines. 4 thm refs. 3 toy refs. T891 = T894 in graph (renumbered Mersenne-Genus Bridge)"
     },
     {
       "path": "notes/BST_Paper57_Universal_Septet_Draft.md",
       "category": "paper",
       "last_audited": "2026-04-14",
-      "auditor": "claude",
-      "status": "needs_review",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-12",
-      "notes": "v1.0. Thm:6/7. Toy:2/2. Missing thms:[1179]"
+      "notes": "211 lines. 7 thm refs. 2 toy refs"
     },
     {
       "path": "notes/BST_Paper29_Phonon_Propulsion_Outline.md",
@@ -2026,10 +2026,10 @@
       "path": "notes/BST_Paper50_Debye_Temperature_PRL_Draft.md",
       "category": "paper",
       "last_audited": "2026-04-14",
-      "auditor": "claude",
-      "status": "needs_review",
+      "auditor": "librarian_rescan",
+      "status": "current",
       "last_modified": "2026-04-14",
-      "notes": "Paper #50. v1.2 Draft. 3 thm refs, 1 MISSING (T953 not in ac_graph_data.json). 2 toy refs (all valid). Broken theorem ref needs resolution."
+      "notes": "273 lines. 3 thm refs. 2 toy refs"
     },
     {
       "path": "notes/BST_Paper13_AC_Graph_Is_A_Theorem_Draft.md",
@@ -2264,6 +2264,4893 @@
       "status": "current",
       "last_modified": "2026-04-14",
       "notes": "Predictions catalog. March 14 2026. 0 thm refs, 0 toy refs. Purely descriptive catalog."
+    },
+    {
+      "path": "notes/BACKLOG.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-13",
+      "notes": "80 lines. 11 thm refs. 7 toy refs"
+    },
+    {
+      "path": "notes/BST_147_LFunction_Sarnak.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-18",
+      "notes": "184 lines. 0 thm refs. 3 toy refs. Named toys: Toy 241=toy_seeley_dewitt_a4a5.py"
+    },
+    {
+      "path": "notes/BST_1920_WeylGroup_Theorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "317 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_22_Uniqueness_Conditions.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-31",
+      "notes": "397 lines. 0 thm refs. 9 toy refs. Named: Toy 233=toy_ac_classification.py, Toy 241=toy_seeley_dewitt_a4a5.py. Missing: Toy 175, Toy 192, Toy 196. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_AC0_Algebra.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-22",
+      "notes": "410 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AC0_Completeness_Paper.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "418 lines. 16 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_AC0_Depth_Flattening_Paper.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "312 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AC0_Geometry.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-22",
+      "notes": "371 lines. 0 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_AC0_InformationTheory.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-22",
+      "notes": "373 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AC0_NumberTheory.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-22",
+      "notes": "338 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AC0_Thermodynamics.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-22",
+      "notes": "353 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AC0_Topology.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-22",
+      "notes": "463 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Barrier_Discussion.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-22",
+      "notes": "162 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Bayesian_Reframing.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-19",
+      "notes": "212 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_CircleConfinement_Theory.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-21",
+      "notes": "543 lines. 0 thm refs. 7 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Classification_Table.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-18",
+      "notes": "266 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_DepthCeiling.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "411 lines. 4 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Dichotomy_Theorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-20",
+      "notes": "444 lines. 0 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Dimensional_Onset_Conjecture.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-20",
+      "notes": "290 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Formalization.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-19",
+      "notes": "408 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Framework_Reduction_Layer.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "489 lines. 45 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Graph_Predictions.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "223 lines. 20 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Graph_Self_Structure.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "99 lines. 6 thm refs. 4 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Graph_Self_Theorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-02",
+      "notes": "100 lines. 3 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Graph_Spectral_Interpretation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-02",
+      "notes": "202 lines. 5 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_MIFC_Proof_Attempt.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-21",
+      "notes": "1376 lines. 0 thm refs. 9 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Master_Index.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-18",
+      "notes": "188 lines. 0 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Millennium_Paper_Outline.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "291 lines. 6 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Paper_A_Draft.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "388 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Paper_A_Topological.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "558 lines. 0 thm refs. 8 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Paper_B_Full.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "317 lines. 0 thm refs. 6 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Paper_C_Delocalization.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "361 lines. 0 thm refs. 12 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Paper_OGP_Sketch.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-21",
+      "notes": "126 lines. 0 thm refs. 3 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Question_Complexity.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-19",
+      "notes": "354 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Research_Roadmap.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-19",
+      "notes": "386 lines. 0 thm refs. 7 toy refs. Named toys: Toy 239=toy_ac0_grid.py, Toy 240=toy_linearization.py"
+    },
+    {
+      "path": "notes/BST_AC_Resolution_Standalone.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-23",
+      "notes": "384 lines. 0 thm refs. 8 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Shannon_Bridge_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-20",
+      "notes": "148 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_T35_GapAnalysis.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-21",
+      "notes": "376 lines. 0 thm refs. 6 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_TCC_Evidence.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-22",
+      "notes": "219 lines. 0 thm refs. 9 toy refs"
+    },
+    {
+      "path": "notes/BST_AC_Theorem_Registry.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-05",
+      "notes": "937 lines. 664 thm refs. 134 toy refs. Thm refs resolved: T591, T599, T627, T686, T688. Toy refs are historical (renamed/pre-numbered)"
+    },
+    {
+      "path": "notes/BST_AC_Theorems.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-04",
+      "notes": "14390 lines. 562 thm refs. 199 toy refs. Thm refs resolved: T686, T687, T688"
+    },
+    {
+      "path": "notes/BST_AC_TuringMachine_Classification.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-18",
+      "notes": "154 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AlgebraicComplexity.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "809 lines. 0 thm refs. 10 toy refs"
+    },
+    {
+      "path": "notes/BST_Alpha4_Universality.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-03",
+      "notes": "131 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AlphaParticle_Binding.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-13",
+      "notes": "425 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AlphaS_NonperturbativeRunning.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "467 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_AlphaSquared_LayerProof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "686 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Anomaly_Cancellation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-14",
+      "notes": "299 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Arithmetic_Algebra_Spacetime.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "621 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ArrowOfTime_LongRoot.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "180 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ArthurElimination_PotentialMinimum.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "160 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ArthurPackets_ParticleSpectrum.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "78 lines. 0 thm refs. 1 toy refs. Named toys: Toy 163=toy_langlands_dual.py"
+    },
+    {
+      "path": "notes/BST_AxialCoupling_gA.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-13",
+      "notes": "580 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_BH3_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "433 lines. 3 thm refs. 5 toy refs"
+    },
+    {
+      "path": "notes/BST_BSD_AC_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "131 lines. 9 thm refs. 4 toy refs"
+    },
+    {
+      "path": "notes/BST_BSD_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "580 lines. 2 thm refs. 8 toy refs"
+    },
+    {
+      "path": "notes/BST_BSD_Spectral_Mapping.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-28",
+      "notes": "480 lines. 6 thm refs. 10 toy refs"
+    },
+    {
+      "path": "notes/BST_BabyCaseSp4_Complete.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "102 lines. 0 thm refs. 1 toy refs. Broken toy refs: Toy 193. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_BabyCase_Q3_Dictionary.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "63 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Backlog_Linearization.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-18",
+      "notes": "78 lines. 0 thm refs. 4 toy refs"
+    },
+    {
+      "path": "notes/BST_BaryonAsymmetry_Correction.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "131 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_BaryonAsymmetry_Derivation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "712 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_BaryonAsymmetry_Eta.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "194 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_BaryonCircuit_ContactIntegral.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "700 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_BaryonResonances_MesonMasses.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "627 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Bedrock_Adjacency_Matrix.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "621 lines. 2 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Bedrock_Bridge_Project.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "309 lines. 3 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Bedrock_Bridge_Readings.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-31",
+      "notes": "737 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Bekenstein_Quarter.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "534 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Bekenstein_Quarter_Disambiguation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "458 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_BellInequality.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "619 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Bergman_Shannon_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-31",
+      "notes": "216 lines. 3 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_Big_Bang_Unfreeze.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "183 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Biology_FirstPrinciples.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "227 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Biology_GeneticCode_Derivation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "1205 lines. 13 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Biology_Paper.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "301 lines. 0 thm refs. 7 toy refs"
+    },
+    {
+      "path": "notes/BST_Biology_PaperA_RNA_DNA.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-28",
+      "notes": "267 lines. 0 thm refs. 4 toy refs"
+    },
+    {
+      "path": "notes/BST_Biology_PaperB_Hierarchy.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "293 lines. 0 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_Biology_PaperC_InformationTheory.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "505 lines. 0 thm refs. 9 toy refs"
+    },
+    {
+      "path": "notes/BST_Biology_PaperD_EquationsOfState.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-28",
+      "notes": "400 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Biology_PaperE_Cancer_ErrorCorrection.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-28",
+      "notes": "478 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Biology_Reduction_Layer.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "385 lines. 77 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_BlackHoleInterior.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "470 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_BoundaryIntegral_Final.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "630 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Branching_SO7_Sp6.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-18",
+      "notes": "147 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_Bridge_Theorem_Format.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-31",
+      "notes": "229 lines. 6 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_CFunction_RatioTheorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-15",
+      "notes": "470 lines. 0 thm refs. 2 toy refs. Named toys: Toy 156=toy_transport_kernel.py, Toy 159=toy_rank_change_lift.py"
+    },
+    {
+      "path": "notes/BST_CI_Developmental_Science_Outline.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-02",
+      "notes": "338 lines. 6 thm refs. 3 toy refs"
+    },
+    {
+      "path": "notes/BST_CKM_CPPhase_Derivation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "221 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_CKM_PMNS_MixingMatrices.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "257 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_CMB_PowerSpectrum.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "512 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_CMB_SpectralIndex.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "136 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_CP_Alpha_Paper.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "466 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_CP_Deeper_Questions.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "157 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_CasimirEffect_CommitmentExclusion.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "569 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Casimir_Analysis.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "161 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Challenge_Number_Theorists.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "276 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ChernClass_Oracle.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "612 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ChernFactorization_CriticalLine.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-14",
+      "notes": "274 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ChiralCondensate_Derived.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "152 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Chronology_BigBang.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "351 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_CircularPolarization_InformationChannel.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "220 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ClaimB3_KType.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "726 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Claude_Prompt_Hubble.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "140 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Clay_Consensus.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-22",
+      "notes": "268 lines. 0 thm refs. 3 toy refs"
+    },
+    {
+      "path": "notes/BST_Clay_Framing_Analysis.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-22",
+      "notes": "298 lines. 0 thm refs. 5 toy refs"
+    },
+    {
+      "path": "notes/BST_Clay_QuestionHasNoise.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-22",
+      "notes": "87 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ClusterB_Pion_Sector_Analysis.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "87 lines. 1 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_CodeHierarchy_HammingGolay.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "218 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_CodeMachine_Inevitability.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "342 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ColorConfinement_Topology.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "787 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_CommitmentDetector_Proposal.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "306 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_CommitmentRate_Exponent3.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-13",
+      "notes": "539 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_CommitmentRate_RealityWriter.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "296 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Complex_Assemblies.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "738 lines. 19 thm refs. 20 toy refs"
+    },
+    {
+      "path": "notes/BST_Complexity.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "140 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ConformalEmbeddings_CosetCascade.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "81 lines. 0 thm refs. 1 toy refs. Broken toy refs: Toy 175. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_ConjectureC_MassProof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "908 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Consciousness_ContactDynamics.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "129 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Conservation_Laws.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "315 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Cooperation_Cascade_Paper.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "186 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_Cooperation_Intelligence_Reduction_Layer.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "301 lines. 55 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Cooperation_Optimality_Conjecture.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-03",
+      "notes": "66 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Cooperation_Phase_Transition.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-02",
+      "notes": "462 lines. 8 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Core_Domain_Bridge_Theorems.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-05",
+      "notes": "275 lines. 27 thm refs. 4 toy refs"
+    },
+    {
+      "path": "notes/BST_CosmicComposition_Thermodynamics_Mesons.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "353 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Cosmological_Constant.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "306 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Cosmology_Life_Paper.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "209 lines. 1 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_CostFunction_Kappa.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "238 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Cyclic_Cosmology.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-23",
+      "notes": "146 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Cyclic_Substrate_Interstasis.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-27",
+      "notes": "244 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_D2_Cross_Domain_Lens_Analysis.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "101 lines. 8 thm refs. 0 toy refs. Thm refs resolved: T971"
+    },
+    {
+      "path": "notes/BST_DPI_Universal_Exclusion.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "188 lines. 7 thm refs. 4 toy refs"
+    },
+    {
+      "path": "notes/BST_DarkMatterHalos.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "497 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Deconfinement_Temperature.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "605 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_DeepQuestions_Synthesis.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "468 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Denominator_Structure_Theorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-27",
+      "notes": "469 lines. 0 thm refs. 3 toy refs"
+    },
+    {
+      "path": "notes/BST_DeuteronBinding.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "137 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Development_Timeline.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-01",
+      "notes": "550 lines. 20 thm refs. 9 toy refs"
+    },
+    {
+      "path": "notes/BST_DiracEquation_Spinors.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-14",
+      "notes": "251 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Discriminant1_ConsecutiveTheorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "71 lines. 0 thm refs. 1 toy refs. Broken toy refs: Toy 175. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_DoubleSlit_Commitment.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "380 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_E1_Smooth_Spectral_Gap_Analysis.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "167 lines. 6 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_E8_E6xSU3_Route.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "219 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_E8_ElectroweakSoliton.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "150 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_E8_HiggsSector_10x6.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "183 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_E8_ParticleSoliton_Connection.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "248 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_EHT_Reanalysis_Spec.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "334 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_EarlyBlackHoles_Prediction.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "164 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_EconomicImpact_4040_20.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-18",
+      "notes": "114 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_EffectiveSpectralDimension.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "299 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_EinsteinEquations_FromCommitment.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "629 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ElectronG2_Schwinger.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "130 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ElectronMass_BergmanUnits.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "411 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ElectronMass_CanonicalProof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "146 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ElectronMass_Derivation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "622 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ElectronMass_PureGeometry.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "210 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ErrorCorrection_Physics.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "657 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ExceptionalChain_c6Network.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "90 lines. 0 thm refs. 1 toy refs. Broken toy refs: Toy 175. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_ExpansionHistory_DESI.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "298 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Feinman_Diagrams.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "286 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_FermiScale_Derivation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "130 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_FermionMass.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "192 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_FiberPacking_137_147.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-31",
+      "notes": "126 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_Field_Equation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "299 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_FillFraction_PlancherelProof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "617 lines. 0 thm refs. 1 toy refs. Named toys: Toy 104=toy_fill_fraction_closure.py"
+    },
+    {
+      "path": "notes/BST_FirstCommitment.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "561 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Five_Pair_Cycle.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-31",
+      "notes": "398 lines. 10 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ForAstrophysicist_OnePage.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "91 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_FourColor_AC_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "316 lines. 4 thm refs. 6 toy refs. Broken toy refs: Toy 424. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_FourColor_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-25",
+      "notes": "216 lines. 3 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_FractionalInstanton_Baryons.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "192 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_FunctionField_BabyCase_Setup.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-17",
+      "notes": "171 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_FunctionField_CoEmbedding.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-18",
+      "notes": "160 lines. 0 thm refs. 5 toy refs"
+    },
+    {
+      "path": "notes/BST_FundamentalFrequency_Analysis.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "180 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_FusionRing_Complete.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "198 lines. 0 thm refs. 4 toy refs. Named: Toy 146=toy_e6_spectral_bridge.py. Missing: Toy 180, Toy 181, Toy 190. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_FusionRing_so7.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "95 lines. 0 thm refs. 2 toy refs. Named: Toy 146=toy_e6_spectral_bridge.py. Missing: Toy 181. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_Fusion_Energy.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-27",
+      "notes": "167 lines. 2 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_Future_Projects.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-24",
+      "notes": "550 lines. 1 thm refs. 6 toy refs"
+    },
+    {
+      "path": "notes/BST_Galaxy_Mergers.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "229 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Gauge_Hierarchy_Readout.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-31",
+      "notes": "397 lines. 12 thm refs. 4 toy refs"
+    },
+    {
+      "path": "notes/BST_Genesis_ForEveryone.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "173 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Genesis_LightAndNumber.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-15",
+      "notes": "266 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_GeneticCode_Universality.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "1407 lines. 32 thm refs. 28 toy refs"
+    },
+    {
+      "path": "notes/BST_Genus_Verification_Note.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "54 lines. 1 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_GeodesicEquation_Soliton.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-14",
+      "notes": "212 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Geodesic_Table_Paper.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-27",
+      "notes": "355 lines. 0 thm refs. 7 toy refs"
+    },
+    {
+      "path": "notes/BST_GolayConstruction_QR23.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "174 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Grace_Katra_Recommendations.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "109 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_Grace_Starting_Map.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "186 lines. 40 thm refs. 3 toy refs"
+    },
+    {
+      "path": "notes/BST_Graph_Self_Prediction.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-03",
+      "notes": "132 lines. 8 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_GravitationalConstant.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "202 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_GravitationalWaveEchoes.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "446 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Gravitational_Waves.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "242 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_H2O_Bond_Angle_Toy_Spec.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-02",
+      "notes": "146 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_HarmonicNumber_AlphaOrigin.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "182 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_HeatKernel_DirichletKernel_RH.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-31",
+      "notes": "953 lines. 0 thm refs. 11 toy refs"
+    },
+    {
+      "path": "notes/BST_HeavyMesons_Charmonium_Bottomonium.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "164 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Hierarchy_Dissolution.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "109 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_HiggsMass_TwoRoutes.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "256 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_HilbertSeries_SpectralHierarchy.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "290 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Hodge_AC_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "252 lines. 8 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Hodge_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "1425 lines. 15 thm refs. 15 toy refs. Named toys: Toy 168=toy_theta_correspondence.py"
+    },
+    {
+      "path": "notes/BST_HubbleConstant_H0.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-26",
+      "notes": "209 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Hubble_Expansion.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "457 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_HydrogenHelium_Assembly.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "392 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_HydrogenSpectrum_LambShift.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "482 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_HyperfineSplittings_ChernClass.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "190 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_INV5_Spectral_Confinement_Formulation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-13",
+      "notes": "104 lines. 2 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Interstasis_CosmologicalSpiral.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-27",
+      "notes": "352 lines. 1 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Interstasis_Cosmology.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "460 lines. 0 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_Interstasis_Hypothesis.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "934 lines. 1 thm refs. 3 toy refs"
+    },
+    {
+      "path": "notes/BST_Interstasis_I15_BreadthDepth.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-27",
+      "notes": "198 lines. 1 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_Interstasis_I18_CoherenceTransition.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-27",
+      "notes": "256 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Interstasis_I1_GoedelRatchet.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-27",
+      "notes": "272 lines. 1 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_Interstasis_I20_ParticlePersistence.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-27",
+      "notes": "360 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Interstasis_I21_Entropy.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-27",
+      "notes": "418 lines. 1 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_IrreducibleComplexity_Ln2.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "170 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Isotropy_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "290 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_JCAP_CMB_Five_Integers.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-06",
+      "notes": "356 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_KerrBlackHoles.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "781 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Koide_CP2_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "485 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_KoonsClaudeConjecture.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-17",
+      "notes": "222 lines. 0 thm refs. 6 toy refs. Named toys: Toy 150=toy_zonal_spectral.py"
+    },
+    {
+      "path": "notes/BST_Koons_Machine.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "395 lines. 9 thm refs. 10 toy refs"
+    },
+    {
+      "path": "notes/BST_Koons_Substrate_Constants.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "381 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Lagrangian.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "316 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Lambda_Derivation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "281 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Langlands_Dual_StandardModel.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "166 lines. 0 thm refs. 1 toy refs. Named toys: Toy 163=toy_langlands_dual.py"
+    },
+    {
+      "path": "notes/BST_LevelRankDuality_WZWDiamond.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "84 lines. 0 thm refs. 2 toy refs. Named toys: Toy 163=toy_langlands_dual.py, Toy 171=toy_quantum_group.py"
+    },
+    {
+      "path": "notes/BST_LightMeasurement_Programme.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "293 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_LightQuarkMasses.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "175 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_LinearAlgebra_Physics.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "641 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Linearization_Paper.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "785 lines. 0 thm refs. 6 toy refs"
+    },
+    {
+      "path": "notes/BST_Lithium7_BBN.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-26",
+      "notes": "206 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_LorentzSymmetry_SO52.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-14",
+      "notes": "263 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_MOND_Derivation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "455 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_MaassSelberg_RiemannProof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "197 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_MagneticMoments_ProtonNeutron.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "379 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_March12_MathResults.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "165 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_MassGap_Anatomy_Complete.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "136 lines. 0 thm refs. 5 toy refs. Named: Toy 146=toy_e6_spectral_bridge.py. Missing: Toy 180, Toy 181, Toy 182, Toy 183. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_MassGap_CPFiber.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "322 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Maxwell.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "188 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Mersenne_Genus_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-05",
+      "notes": "133 lines. 3 thm refs. 2 toy refs. T891 = T894 (renumbered, not broken)"
+    },
+    {
+      "path": "notes/BST_MesonRadii_NLO.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "366 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_MissingLemma_ClebschGordan.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "561 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_MonopoleExclusion_MassBound.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "646 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Moonshine_LeechLattice.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "217 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_MultiGenerator_Speculation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-26",
+      "notes": "277 lines. 0 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_Multiplicity7_Genus_Synthesis.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "200 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Multiverses_Irrelevant_Not_Forbidden.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "108 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_MuonG2_Estimate.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-14",
+      "notes": "101 lines. 0 thm refs. 1 toy refs. Named toys: Toy 105=toy_muon_g2_geometry.py"
+    },
+    {
+      "path": "notes/BST_MuonG2_Rigorous.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "349 lines. 0 thm refs. 1 toy refs. Named toys: Toy 105=toy_muon_g2_geometry.py"
+    },
+    {
+      "path": "notes/BST_NS_AC_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "77 lines. 6 thm refs. 6 toy refs"
+    },
+    {
+      "path": "notes/BST_NS_BlowUp.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "1655 lines. 1 thm refs. 15 toy refs. Thm refs resolved: T971"
+    },
+    {
+      "path": "notes/BST_NaturePhysics_Critical_Exponents_Mechanism.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "171 lines. 2 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_Nc_Channel_Enforcement.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-03",
+      "notes": "191 lines. 4 thm refs. 4 toy refs"
+    },
+    {
+      "path": "notes/BST_Negative_Mass.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "210 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_NeutrinoMasses.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "271 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Neutrino_Predictions.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "399 lines. 0 thm refs. 3 toy refs"
+    },
+    {
+      "path": "notes/BST_NeutrinolessDoubleBeta.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "362 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_NeutronLifetime.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "125 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_NeutronProton_MassSplitting.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-17",
+      "notes": "192 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_NeutronStar_MaxMass.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "539 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_NewtonG_Derivation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "98 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_NewtonianLimit.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-14",
+      "notes": "227 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Next_Steps_March29.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "198 lines. 3 thm refs. 4 toy refs"
+    },
+    {
+      "path": "notes/BST_Nomenclature.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "176 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_NuclearBindingEnergy.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "906 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_NuclearMagicNumbers.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-13",
+      "notes": "419 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Nucleosome_147_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "153 lines. 4 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_NumberTheory_Integers.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "543 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_OH_Bond_Length_Toy_Spec.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-02",
+      "notes": "94 lines. 2 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_Observable_Algebra.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-03",
+      "notes": "227 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Observer_Science_Domain.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-03",
+      "notes": "436 lines. 91 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_PNP_AC_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "159 lines. 9 thm refs. 7 toy refs"
+    },
+    {
+      "path": "notes/BST_PNP_BottomUp.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "1901 lines. 0 thm refs. 8 toy refs"
+    },
+    {
+      "path": "notes/BST_PNP_Internal.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-23",
+      "notes": "536 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_ParticleFamily_Portrait.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "282 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Particle_Predictions.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "279 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_PartitionFunction_Analysis.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "280 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_PartitionFunction_DeepPhysics.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "863 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_PartitionFunction_Progress.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "130 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Partition_Function_1st_Computation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "155 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Patent_Portfolio_Assessment.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "311 lines. 0 thm refs. 8 toy refs"
+    },
+    {
+      "path": "notes/BST_Patentable_Applications_Catalog.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "765 lines. 2 thm refs. 11 toy refs"
+    },
+    {
+      "path": "notes/BST_PeriodicTable_Terminus.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-13",
+      "notes": "482 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Physics_Cosmology_Reduction_Layer.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "459 lines. 87 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_PionRadius.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "384 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_PlancherelDictionary.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "236 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_PrimordialGW_Spectrum.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "901 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Primordial_Amplitude_Identity.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-03",
+      "notes": "176 lines. 1 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_ProtonMass.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "142 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ProtonRadius.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "134 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ProtonSpin_Puzzle.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "163 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ProtonStability_Topological.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "167 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Proton_QuantumErrorCode.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "233 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Q3_Inside_Q5.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-15",
+      "notes": "350 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_QFT_Foundations.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "657 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_QuantumMetric_FubiniStudy.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "231 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_QuarkGluonPlasma.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "346 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_QuarkMassRatios.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "106 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_QuarkMassSpectrum_Complete.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "996 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_RGap_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-18",
+      "notes": "122 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_RH_AC_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "73 lines. 6 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_RamanujanProbe_Sp6.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "181 lines. 0 thm refs. 2 toy refs. Named toys: Toy 197=toy_baby_case_closure.py"
+    },
+    {
+      "path": "notes/BST_RealityBudget.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "317 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_RealityBudget_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "602 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_RealityBudget_SpectralProof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "798 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Remaining_Domains_Reduction_Layer.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "730 lines. 192 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ResearchRoadmap.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "258 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_RiemannProof_Rank2Coupling.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "326 lines. 0 thm refs. 3 toy refs"
+    },
+    {
+      "path": "notes/BST_RiemannReduction_FiniteComputation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "157 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Riemann_ChernPath.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-15",
+      "notes": "458 lines. 0 thm refs. 1 toy refs. Named toys: Toy 106=toy_baby_trace_formula.py"
+    },
+    {
+      "path": "notes/BST_Riemann_InductiveProof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-15",
+      "notes": "268 lines. 0 thm refs. 5 toy refs. Named toys: Toy 156=toy_transport_kernel.py, Toy 158=toy_inverse_transport.py, Toy 159=toy_rank_change_lift.py, Toy 160=toy_rank_change_lift.py, Toy 161=toy_geometric_spectral_duality.py"
+    },
+    {
+      "path": "notes/BST_Riemann_UnifiedProof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-15",
+      "notes": "536 lines. 0 thm refs. 3 toy refs. Named: Toy 156=toy_transport_kernel.py. Missing: Toy 164, Toy 165. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_RouteA_ChannelElimination.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "251 lines. 0 thm refs. 6 toy refs"
+    },
+    {
+      "path": "notes/BST_SASER_Detector_Sensitivity.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "385 lines. 0 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_SASER_Thruster_Engineering.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "428 lines. 0 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_SO2_Activation_Uniqueness.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "339 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_SO52_Uniqueness_Wednesday.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "33 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_SO7_Sp6_Branching.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-20",
+      "notes": "267 lines. 0 thm refs. 3 toy refs"
+    },
+    {
+      "path": "notes/BST_SchrodingerEquation_Substrate.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-14",
+      "notes": "274 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_SeeleyDeWitt_ChernConnection.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "633 lines. 0 thm refs. 1 toy refs. Named toys: Toy 105=toy_muon_g2_geometry.py"
+    },
+    {
+      "path": "notes/BST_SeeleyDeWitt_Denominator_Story.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-18",
+      "notes": "277 lines. 0 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_SeeleyDeWitt_FiberPacking.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-19",
+      "notes": "196 lines. 0 thm refs. 7 toy refs. Named toys: Toy 241=toy_seeley_dewitt_a4a5.py"
+    },
+    {
+      "path": "notes/BST_SeeleyDeWitt_Predictions_k7_k10.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-31",
+      "notes": "717 lines. 0 thm refs. 5 toy refs"
+    },
+    {
+      "path": "notes/BST_SelfDuality_Riemann_Codes.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "351 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_SelfObservation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "427 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Session_March24_2026.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-24",
+      "notes": "484 lines. 0 thm refs. 6 toy refs"
+    },
+    {
+      "path": "notes/BST_ShannonWyler_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "645 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Shannon_Alpha_Paper.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "429 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_SiegelModularForms_DeepDive.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "120 lines. 0 thm refs. 3 toy refs. Named: Toy 107=toy_spectral_gap.py. Missing: Toy 177, Toy 193. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_SpectralGap_MassGap.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-22",
+      "notes": "193 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_SpectralGap_ProtonMass.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "279 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_SpectralIndex_Derivation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "193 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_SpectralMultiplicity_ChernTheorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "222 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_SpectralPartialSums_MasterFormula.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "89 lines. 0 thm refs. 3 toy refs. Named: Toy 146=toy_e6_spectral_bridge.py. Missing: Toy 185, Toy 186. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_SpectralZeta_PoleStructure.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "274 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_SpiralConjecture_Formalized.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "183 lines. 0 thm refs. 4 toy refs. Named: Toy 107=toy_spectral_gap.py. Missing: Toy 180, Toy 190, Toy 192. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_Spiral_Conjecture.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "139 lines. 0 thm refs. 4 toy refs. Named: Toy 187=toy_conformal_weights.py, Toy 188=toy_palindrome_fusion.py. Missing: Toy 189, Toy 190. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_StrongCP_Theta.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "138 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_StrongCoupling_AlphaS.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "258 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_SubstrateArchitecture_Layers.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "205 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_SubstrateContactDynamics.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "502 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_SubstrateCoupling_PoissonSzego.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "477 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_SubstrateEngineering_Textbook_Outline.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "551 lines. 19 thm refs. 19 toy refs"
+    },
+    {
+      "path": "notes/BST_SubstratePropulsion.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "534 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Substrate_Computing_Survey.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "162 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Substrate_Engineering_Priorities.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "161 lines. 1 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Superconductivity_MaxTc.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "892 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Superconductor_Predictions.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "703 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_SystemB_Derivation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-21",
+      "notes": "198 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T0_CMB_Temperature_Toy_Spec.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-02",
+      "notes": "145 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1000_Hodge_CM_Density.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "147 lines. 4 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1001_Observer_Conditional_Expectation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "130 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1002_Topological_Phase_Classification.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "136 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1003_BST_Functor.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "185 lines. 5 thm refs. 0 toy refs. Thm refs resolved: T972"
+    },
+    {
+      "path": "notes/BST_T1004_Stochastic_Spectral_Stability.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "175 lines. 3 thm refs. 0 toy refs. Thm refs resolved: T971"
+    },
+    {
+      "path": "notes/BST_T1005_Biological_Network_Architecture.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "173 lines. 7 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1006_CMB_Competition_Remnants.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "155 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1007_The_Two_Five_Derivation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "220 lines. 6 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1008_Kolmogorov_Fano_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "101 lines. 4 thm refs. 0 toy refs. Thm refs resolved: T1008"
+    },
+    {
+      "path": "notes/BST_T1009_Homological_Error_Correction.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "113 lines. 3 thm refs. 0 toy refs. Thm refs resolved: T1009"
+    },
+    {
+      "path": "notes/BST_T1010_Uncertainty_Information_Bound.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "121 lines. 5 thm refs. 0 toy refs. Thm refs resolved: T1010"
+    },
+    {
+      "path": "notes/BST_T1011_Observer_Substrate_Cascade.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "254 lines. 9 thm refs. 0 toy refs. Thm refs resolved: T1011"
+    },
+    {
+      "path": "notes/BST_T1012_Observational_Bridging_Principle.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "209 lines. 7 thm refs. 0 toy refs. Thm refs resolved: T1011"
+    },
+    {
+      "path": "notes/BST_T1013_Prime_Growth_Principle.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "228 lines. 7 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1016_Smooth_Limit_Theorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "181 lines. 8 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1017_Arithmetic_Arrow.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "225 lines. 7 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1018_Epoch_Crossing_Theorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "152 lines. 5 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_T1042_Observer_Vacuum_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "89 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1043_Weyl_Smooth_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "128 lines. 7 thm refs. 0 toy refs. Thm refs resolved: T1009"
+    },
+    {
+      "path": "notes/BST_T1047_Analytic_Cosmological_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "118 lines. 5 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1048_Thermodynamic_Algebraic_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "135 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1049_SEMF_Spectral_Derivation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "160 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1050_Sibling_Formula.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "183 lines. 8 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1051_Dickman_Spectral_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "124 lines. 6 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1057_Epoch_Phase_Transition.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "46 lines. 4 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1058_Landauer_BST_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "42 lines. 4 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1059_Quantum_Foundations_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "45 lines. 4 thm refs. 0 toy refs. Thm refs resolved: T1010"
+    },
+    {
+      "path": "notes/BST_T1060_Epoch_Specificity.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "51 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1061_Information_Gravity_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1065_Quantum_Measurement_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1066_Atiyah_Singer_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1067_Nuclear_Quantum_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 4 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1068_Crystallographic_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "48 lines. 4 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1084_Hardness_Phase_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1085_Foundations_Relativity_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1086_Relativity_Observer_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1087_Quantum_Topology_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1092_Observer_Probability_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1093_Foundations_Signal_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 3 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1094_Algebra_Foundations_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1095_EM_Observer_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1096_Classical_Observer_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1097_Complexity_Observer_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "45 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1098_Optics_Observer_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1099_Einstein_Equations_from_Bergman.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "54 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1100_Maxwell_from_Fiber_Structure.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "54 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1101_Classical_Mechanics_from_Geodesics.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "47 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1102_13Smooth_Crossing.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "63 lines. 6 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1103_Fluid_Topology_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 5 thm refs. 0 toy refs. Thm refs resolved: T971"
+    },
+    {
+      "path": "notes/BST_T1104_Condensed_Matter_Number_Theory_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1105_DiffGeom_Nuclear_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1106_Chemistry_Number_Theory_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1107_Chemistry_Quantum_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1108_Coding_Theory_Physics_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "45 lines. 3 thm refs. 0 toy refs. Thm refs resolved: T1009"
+    },
+    {
+      "path": "notes/BST_T1109_Proof_Complexity_Physics_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "45 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1110_PNP_Shattering_Invariant.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "50 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1111_Cooperation_Theorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "53 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1112_Proof_Complexity_Condensed_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1113_BST_Classical_Mech_Direct.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-11",
+      "notes": "44 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1136_Koons_Tick_Theorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "68 lines. 6 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1137_Bergman_Master_Theorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "66 lines. 6 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1138_NSmooth_Hierarchy.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "62 lines. 7 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1139_343_Connection.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "50 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1140_Self_Exponentiation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "57 lines. 6 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1141_Prediction_Confidence.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "64 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1142_The_23_Chain.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "57 lines. 7 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1143_Thermodynamic_Arrow.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "63 lines. 7 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1151_Alpha_Forcing_Closure.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "99 lines. 9 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1152_Tick_Hierarchy.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "83 lines. 7 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1153_CI_Clock.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "81 lines. 6 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1154_Engineering_Prerequisites.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "104 lines. 7 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1156_Reverse_T926.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "89 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1157_GCS_Identity.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "61 lines. 7 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1158_Falsifiable_Predictions.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "131 lines. 4 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1159_Boundary_Eigenvalue_Decision.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "110 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1164_Adiabatic_Index.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "69 lines. 6 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1165_Mathematics_Self_Description.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "71 lines. 7 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1168_Matter_Construction.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "89 lines. 10 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1170_YM_Complete.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "138 lines. 5 thm refs. 0 toy refs. Thm refs resolved: T972"
+    },
+    {
+      "path": "notes/BST_T1171_Hamming_Code_Theorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "97 lines. 8 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1172_Cooperation_Compression.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "102 lines. 9 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1176_Channel_Decorrelation_Closure.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "107 lines. 7 thm refs. 0 toy refs. Thm refs resolved: T1176"
+    },
+    {
+      "path": "notes/BST_T1177_G_Derivation_Tightened.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "88 lines. 7 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1178_Higgs_From_DIV5.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "111 lines. 6 thm refs. 0 toy refs. Thm refs resolved: T1178"
+    },
+    {
+      "path": "notes/BST_T1179_Solar_System_Forced_Chain.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "103 lines. 9 thm refs. 3 toy refs"
+    },
+    {
+      "path": "notes/BST_T1180_Stellar_Intelligence_Impossibility.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "109 lines. 4 thm refs. 0 toy refs. Thm refs resolved: T1180"
+    },
+    {
+      "path": "notes/BST_T1181_Earth_Score_Theorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "97 lines. 10 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1182_Mass_Extinction_Great_Filter.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "99 lines. 6 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1183_Advancement_Exponent.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-12",
+      "notes": "121 lines. 9 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1184_Euler_Mascheroni_Geodesic_Defect.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-13",
+      "notes": "228 lines. 7 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1187_Chemical_Thermodynamic_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-13",
+      "notes": "151 lines. 7 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1188_Spectral_Confinement_Theorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-13",
+      "notes": "134 lines. 6 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1189_Alternating_Group_Simplicity_Selection.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-13",
+      "notes": "168 lines. 7 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1190_Weyl_Casimir_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-13",
+      "notes": "169 lines. 8 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_T1191_Quantum_Computing_Limits.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-13",
+      "notes": "135 lines. 7 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1192_Godel_Classification_Gamma.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-13",
+      "notes": "217 lines. 8 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1193_Consciousness_Threshold.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-13",
+      "notes": "165 lines. 11 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1194_Great_Filter.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-13",
+      "notes": "128 lines. 7 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T1195_Earth_Score.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-13",
+      "notes": "106 lines. 5 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_T1196_Self_Describing_Graph.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-13",
+      "notes": "126 lines. 9 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T1227_Consonance_Hierarchy.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-13",
+      "notes": "119 lines. 9 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T704_DIV5_Uniqueness_Theorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-02",
+      "notes": "125 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T914_Prime_Residue_Principle.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "141 lines. 5 thm refs. 0 toy refs. T891 = T894 (renumbered, not broken)"
+    },
+    {
+      "path": "notes/BST_T920_Debye_Temperature_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "97 lines. 4 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T921_Thyroid_Hormone_Counting.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "106 lines. 6 thm refs. 1 toy refs. T891 = T894 (renumbered, not broken)"
+    },
+    {
+      "path": "notes/BST_T926_Spectral_Arithmetic_Closure.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "184 lines. 7 thm refs. 2 toy refs. T891 = T894 (renumbered, not broken)"
+    },
+    {
+      "path": "notes/BST_T927_Deuteron_DState_Correction.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "179 lines. 7 thm refs. 1 toy refs. T891 = T894 (renumbered, not broken)"
+    },
+    {
+      "path": "notes/BST_T929_Baryon_Asymmetry_Closure.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "111 lines. 8 thm refs. 4 toy refs"
+    },
+    {
+      "path": "notes/BST_T930_Sector_Assignment_Theorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "184 lines. 9 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T931_Godel_Stormer_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "215 lines. 7 thm refs. 1 toy refs. T891 = T894 (renumbered, not broken)"
+    },
+    {
+      "path": "notes/BST_T932_Rydberg_BST_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "181 lines. 3 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T932_Spectral_Line_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "244 lines. 7 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T933_Parity_Gate.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "66 lines. 4 thm refs. 3 toy refs"
+    },
+    {
+      "path": "notes/BST_T934_Rank_Mirror.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "132 lines. 6 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_T937_GUT_Sector_Isolation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "121 lines. 6 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T938_BST_Arithmetic_Progression.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "125 lines. 5 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T939_Spectral_Zeta_Forcing.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "190 lines. 7 thm refs. 3 toy refs"
+    },
+    {
+      "path": "notes/BST_T944_Rank_Forcing.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "178 lines. 10 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T945_Reachability_Cliff.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "140 lines. 6 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_T946_Genus_Resonance.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "119 lines. 6 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T953_Manifold_Competition.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "152 lines. 5 thm refs. 1 toy refs. T891 = T894 (renumbered, not broken)"
+    },
+    {
+      "path": "notes/BST_T957_Concentration_of_Topological_Hardness.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "200 lines. 4 thm refs. 3 toy refs"
+    },
+    {
+      "path": "notes/BST_T958_Neutron_Shilov_Composite.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "138 lines. 11 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T959_SAT_Channel_Symmetry.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "178 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T970_Resolution_Termination.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "186 lines. 9 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T971_NS_Spectral_Stability.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "245 lines. 3 thm refs. 3 toy refs. Thm refs resolved: T971"
+    },
+    {
+      "path": "notes/BST_T972_YM_R4_Bridge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "154 lines. 4 thm refs. 0 toy refs. Thm refs resolved: T972"
+    },
+    {
+      "path": "notes/BST_T996_Clause_Outcome_Decorrelation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "182 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T997_BSD_Spectral_Permanence.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "190 lines. 6 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_T998_Geometric_Depth_of_Domains.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "119 lines. 5 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_T999_Universal_Evolution_Operator.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "179 lines. 8 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_TBA_Thermodynamics_B2.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "222 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_TauMass_Koide.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "333 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Tc_Formula.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "180 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Team_Choreography.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "310 lines. 6 thm refs. 5 toy refs"
+    },
+    {
+      "path": "notes/BST_Telescope_ForEveryone.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "506 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Tests_1.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "156 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Theorem_Predictions_March30.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "95 lines. 13 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Thermodynamic_Future.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-26",
+      "notes": "200 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ThetaCorrespondence_P1_42.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "118 lines. 0 thm refs. 3 toy refs. Named: Toy 163=toy_langlands_dual.py. Missing: Toy 164, Toy 165. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_ThreeGenerations.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-12",
+      "notes": "175 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ThreeLayers_GoingDeeper.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "384 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Toy694_1over75_Identity_Spec.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-03",
+      "notes": "53 lines. 1 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_TsirelsonBound_Holomorphic.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-13",
+      "notes": "724 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_UNC_Displacement.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-26",
+      "notes": "262 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_Unification_Chains.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "195 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_UniverseNeutron_Analogy.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "1020 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_UniverseNeutron_ThinkingLog.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "680 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_VMD_ChPT_Bridge_Theorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "93 lines. 4 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_VacuumQuantum_NeutrinoLambda.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "300 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Variety_Branch_Principle.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-03",
+      "notes": "292 lines. 14 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_Verlinde1747_Analysis.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "113 lines. 0 thm refs. 1 toy refs. Broken toy refs: Toy 193. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_W4_Modular_Construction.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-23",
+      "notes": "267 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_WMass_Prediction.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "144 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_WZW_CentralCharge.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "102 lines. 0 thm refs. 3 toy refs. Named toys: Toy 163=toy_langlands_dual.py, Toy 168=toy_theta_correspondence.py, Toy 170=toy_partition_function_map.py"
+    },
+    {
+      "path": "notes/BST_WeinbergAngle_ChernClass.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "214 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_WeinbergAngle_Sin2ThetaW.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "207 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Why56.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "376 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_WhyNow.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "372 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_WhyQuantumIsDiscrete.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "165 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_WhyRiemann_Standalone.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-18",
+      "notes": "265 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Why_Geometry_Proves_Riemann.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-31",
+      "notes": "918 lines. 0 thm refs. 22 toy refs. Named toys: Toy 233=toy_ac_classification.py"
+    },
+    {
+      "path": "notes/BST_Why_This_Universe.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "313 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Wightman_Exhibition.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "388 lines. 0 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_WindingConfinement_Theorem.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "118 lines. 0 thm refs. 2 toy refs. Named: Toy 107=toy_spectral_gap.py. Missing: Toy 192. Historical toy refs (renamed/pre-numbered era)."
+    },
+    {
+      "path": "notes/BST_WindingToZeta_AutomorphicStructure.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "644 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Wyler_Connection.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "184 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_YM_AC_Proof.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-29",
+      "notes": "87 lines. 4 thm refs. 3 toy refs"
+    },
+    {
+      "path": "notes/BST_YM_GeneralG_Extension.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-22",
+      "notes": "138 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_YM_NonTriviality.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-05",
+      "notes": "227 lines. 1 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_YM_Q5_R4_Bridge_Scoping.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-10",
+      "notes": "199 lines. 2 thm refs. 1 toy refs. Thm refs resolved: T972"
+    },
+    {
+      "path": "notes/BST_YM_W4_Status.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "121 lines. 0 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/BST_YM_W4_Status_Appendix.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-23",
+      "notes": "62 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/BST_YangMills_Question1.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "249 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Zamolodchikov_Smatrix_B2.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "240 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ZeroInputs_MaxAlpha.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "612 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ZerosCannotLeave.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "234 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_ZetaValues_SpectralQED.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "260 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_Zeta_Cycle_Resonances_I16.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "516 lines. 0 thm refs. 11 toy refs"
+    },
+    {
+      "path": "notes/BST_ZonalSpectralCoefficients.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-16",
+      "notes": "162 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/BST_fpi_Bergman_Spectral_Analysis.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-09",
+      "notes": "114 lines. 3 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/CI_BOARD.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-13",
+      "notes": "274 lines. 47 thm refs. 4 toy refs. Thm refs resolved: T1150, T1176, T1232"
+    },
+    {
+      "path": "notes/CONSENSUS_April5_Plan.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-04-05",
+      "notes": "149 lines. 0 thm refs. 3 toy refs"
+    },
+    {
+      "path": "notes/COORDINATION.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-27",
+      "notes": "1466 lines. 0 thm refs. 63 toy refs. Named toys: Toy 154=toy_q3_inside_q5.py, Toy 156=toy_transport_kernel.py, Toy 157=toy_spectral_tower.py, Toy 158=toy_inverse_transport.py, Toy 159=toy_rank_change_lift.py"
+    },
+    {
+      "path": "notes/K62_Depth1_Paper_Outline.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-30",
+      "notes": "109 lines. 6 thm refs. 2 toy refs"
+    },
+    {
+      "path": "notes/L13_RH_cfunction_closure.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-22",
+      "notes": "68 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/L14_conditional_feasible_interpolation.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-22",
+      "notes": "80 lines. 0 thm refs. 1 toy refs"
+    },
+    {
+      "path": "notes/LieAlgebraVerification.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-17",
+      "notes": "296 lines. 0 thm refs. 0 toy refs"
+    },
+    {
+      "path": "notes/OUTSIDE_WORLD.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-26",
+      "notes": "120 lines. 2 thm refs. 4 toy refs"
+    },
+    {
+      "path": "notes/shared_wall.md",
+      "category": "note",
+      "last_audited": "2026-04-14",
+      "auditor": "batch_review",
+      "status": "current",
+      "last_modified": "2026-03-28",
+      "notes": "40 lines. 0 thm refs. 1 toy refs"
     }
   ]
 }

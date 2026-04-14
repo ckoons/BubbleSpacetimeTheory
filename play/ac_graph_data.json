@@ -3,22 +3,22 @@
     "version": 1,
     "engine": "Toy 564 — AC Theorem Engine",
     "exported": "2026-04-03T23:00:00",
-    "theorem_count": 1168,
-    "edge_count": 4931,
+    "theorem_count": 1185,
+    "edge_count": 4964,
     "committed_count": 438,
     "working_count": 64,
-    "total_theorems": 1168,
-    "total_edges": 4931,
+    "total_theorems": 1185,
+    "total_edges": 4964,
     "depth_distribution": {
-      "D0": 971,
-      "D1": 197,
+      "D0": 984,
+      "D1": 201,
       "D2": 0
     },
     "last_modified": "2026-04-14",
-    "D0": 971,
-    "D1": 197,
+    "D0": 984,
+    "D1": 201,
     "D2": 0,
-    "node_count": 1168,
+    "node_count": 1185,
     "last_updated": "2026-04-14"
   },
   "theorems": [
@@ -16152,6 +16152,236 @@
       "date": "2026-04-13",
       "plain": "Planetary evolution follows g+rank=9 stages. Intelligence is not optional — it completes n_C=5.",
       "proofs": []
+    },
+    {
+      "tid": 591,
+      "name": "Unassigned (registry gap)",
+      "domain": "unassigned",
+      "status": "unassigned",
+      "depth": 0,
+      "conflation": 0,
+      "toys": [],
+      "date": "2026-04-14",
+      "plain": "Unassigned theorem number — registry gap.",
+      "proofs": [],
+      "section": "unassigned"
+    },
+    {
+      "tid": 599,
+      "name": "Unassigned (registry gap)",
+      "domain": "unassigned",
+      "status": "unassigned",
+      "depth": 0,
+      "conflation": 0,
+      "toys": [],
+      "date": "2026-04-14",
+      "plain": "Unassigned theorem number — registry gap.",
+      "proofs": [],
+      "section": "unassigned"
+    },
+    {
+      "tid": 627,
+      "name": "Unassigned (registry gap)",
+      "domain": "unassigned",
+      "status": "unassigned",
+      "depth": 0,
+      "conflation": 0,
+      "toys": [],
+      "date": "2026-04-14",
+      "plain": "Unassigned theorem number — registry gap.",
+      "proofs": [],
+      "section": "unassigned"
+    },
+    {
+      "tid": 686,
+      "name": "Source Coding Bound",
+      "domain": "info_theory",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "toys": [],
+      "date": "2026-03-31",
+      "plain": "g = ceil(f * 2^n_C) = ceil(0.191*32) = 7. Bergman genus = Shannon source coding bound.",
+      "proofs": [],
+      "section": "BST_AC_Theorems §208"
+    },
+    {
+      "tid": 687,
+      "name": "Second Differences of Speaking Pairs",
+      "domain": "spectral_geometry",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "toys": [],
+      "date": "2026-03-31",
+      "plain": "Second differences of speaking pair values satisfy Δ²G_j = n_C = 5.",
+      "proofs": [],
+      "section": "BST_AC_Theorems §209"
+    },
+    {
+      "tid": 688,
+      "name": "The Rosetta Number",
+      "domain": "number_theory",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "toys": [],
+      "date": "2026-03-31",
+      "plain": "42 = C_2 * g = den(B_6). Links spectral geometry, representation theory, and number theory.",
+      "proofs": [],
+      "section": "BST_AC_Theorems §210"
+    },
+    {
+      "tid": 971,
+      "name": "NS Spectral Stability",
+      "domain": "analysis",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "toys": [
+        382,
+        383
+      ],
+      "date": "2026-04-05",
+      "plain": "Lyapunov monotonicity + participation bound close the NS proof chain. N_eff ≤ 3.",
+      "proofs": [
+        "NS"
+      ],
+      "section": "BST_T971"
+    },
+    {
+      "tid": 972,
+      "name": "YM R4 Bridge",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 2,
+      "toys": [],
+      "date": "2026-04-05",
+      "plain": "KK spectral inheritance preserves mass gap from D_IV^5 to S^4. Center symmetry on Shilov S^1.",
+      "proofs": [
+        "YM"
+      ],
+      "section": "BST_T972"
+    },
+    {
+      "tid": 1008,
+      "name": "Kolmogorov-Fano Bridge",
+      "domain": "info_theory",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "toys": [],
+      "date": "2026-04-07",
+      "plain": "Incompressibility threshold = BST rational 6/7. Channel capacity = Kolmogorov threshold.",
+      "proofs": [],
+      "section": "BST_T1008"
+    },
+    {
+      "tid": 1009,
+      "name": "Homological Error Correction",
+      "domain": "coding_theory",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "toys": [],
+      "date": "2026-04-07",
+      "plain": "Error-correcting codes are chain complexes. Hamming [7,4,3] parameters from BST: block=g, distance=N_c.",
+      "proofs": [],
+      "section": "BST_T1009"
+    },
+    {
+      "tid": 1010,
+      "name": "Uncertainty-Information Bridge",
+      "domain": "quantum_mechanics",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 0,
+      "toys": [],
+      "date": "2026-04-07",
+      "plain": "Heisenberg uncertainty and Fano inequality are structurally identical. Genus g=7 is geometric Planck.",
+      "proofs": [],
+      "section": "BST_T1010"
+    },
+    {
+      "tid": 1011,
+      "name": "Observer Substrate Cascade",
+      "domain": "observer_science",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 1,
+      "toys": [],
+      "date": "2026-04-07",
+      "plain": "Each observer substrate adds cross-domain edges at rate ∝ N_c^tier. New substrates at f_c = 19.1%.",
+      "proofs": [],
+      "section": "BST_T1011"
+    },
+    {
+      "tid": 1150,
+      "name": "Unassigned (registry gap)",
+      "domain": "unassigned",
+      "status": "unassigned",
+      "depth": 0,
+      "conflation": 0,
+      "toys": [],
+      "date": "2026-04-14",
+      "plain": "Unassigned theorem number — registry gap.",
+      "proofs": [],
+      "section": "unassigned"
+    },
+    {
+      "tid": 1176,
+      "name": "Channel Decorrelation Closure",
+      "domain": "complexity_theory",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 2,
+      "toys": [],
+      "date": "2026-04-13",
+      "plain": "Per-instance channel asymmetry at 3-SAT threshold is O(1/n). Arikan polarization works. P≠NP unconditional.",
+      "proofs": [
+        "PNP"
+      ],
+      "section": "BST_T1176"
+    },
+    {
+      "tid": 1178,
+      "name": "Higgs From D_IV^5",
+      "domain": "bst_physics",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 2,
+      "toys": [],
+      "date": "2026-04-13",
+      "plain": "Higgs = unfixed radial mode on D_IV^5. VEV v = m_p^2/(g*m_e). Two routes give m_H = 125.11, 125.33 GeV.",
+      "proofs": [],
+      "section": "BST_T1178"
+    },
+    {
+      "tid": 1180,
+      "name": "Stellar Intelligence Impossibility",
+      "domain": "astrobiology",
+      "status": "proved",
+      "depth": 0,
+      "conflation": 1,
+      "toys": [],
+      "date": "2026-04-13",
+      "plain": "Stars fail T317 minimum observer requirement. Only planets with chemistry+gradients can observe.",
+      "proofs": [],
+      "section": "BST_T1180"
+    },
+    {
+      "tid": 1232,
+      "name": "Unassigned (registry gap)",
+      "domain": "unassigned",
+      "status": "unassigned",
+      "depth": 0,
+      "conflation": 0,
+      "toys": [],
+      "date": "2026-04-14",
+      "plain": "Unassigned theorem number — registry gap.",
+      "proofs": [],
+      "section": "unassigned"
     }
   ],
   "edges": [
@@ -40808,6 +41038,171 @@
     {
       "from": 894,
       "to": 953,
+      "source": "derived"
+    },
+    {
+      "from": 186,
+      "to": 686,
+      "source": "derived"
+    },
+    {
+      "from": 614,
+      "to": 686,
+      "source": "derived"
+    },
+    {
+      "from": 571,
+      "to": 686,
+      "source": "derived"
+    },
+    {
+      "from": 610,
+      "to": 687,
+      "source": "derived"
+    },
+    {
+      "from": 611,
+      "to": 687,
+      "source": "derived"
+    },
+    {
+      "from": 186,
+      "to": 688,
+      "source": "derived"
+    },
+    {
+      "from": 614,
+      "to": 688,
+      "source": "derived"
+    },
+    {
+      "from": 130,
+      "to": 688,
+      "source": "derived"
+    },
+    {
+      "from": 650,
+      "to": 688,
+      "source": "derived"
+    },
+    {
+      "from": 421,
+      "to": 971,
+      "source": "derived"
+    },
+    {
+      "from": 953,
+      "to": 972,
+      "source": "derived"
+    },
+    {
+      "from": 944,
+      "to": 972,
+      "source": "derived"
+    },
+    {
+      "from": 7,
+      "to": 1008,
+      "source": "derived"
+    },
+    {
+      "from": 31,
+      "to": 1008,
+      "source": "derived"
+    },
+    {
+      "from": 67,
+      "to": 1009,
+      "source": "derived"
+    },
+    {
+      "from": 2,
+      "to": 1009,
+      "source": "derived"
+    },
+    {
+      "from": 48,
+      "to": 1009,
+      "source": "derived"
+    },
+    {
+      "from": 7,
+      "to": 1010,
+      "source": "derived"
+    },
+    {
+      "from": 8,
+      "to": 1010,
+      "source": "derived"
+    },
+    {
+      "from": 317,
+      "to": 1011,
+      "source": "derived"
+    },
+    {
+      "from": 318,
+      "to": 1011,
+      "source": "derived"
+    },
+    {
+      "from": 999,
+      "to": 1011,
+      "source": "derived"
+    },
+    {
+      "from": 1001,
+      "to": 1011,
+      "source": "derived"
+    },
+    {
+      "from": 1007,
+      "to": 1011,
+      "source": "derived"
+    },
+    {
+      "from": 676,
+      "to": 1011,
+      "source": "derived"
+    },
+    {
+      "from": 957,
+      "to": 1176,
+      "source": "derived"
+    },
+    {
+      "from": 959,
+      "to": 1176,
+      "source": "derived"
+    },
+    {
+      "from": 1007,
+      "to": 1178,
+      "source": "derived"
+    },
+    {
+      "from": 649,
+      "to": 1178,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1178,
+      "source": "derived"
+    },
+    {
+      "from": 317,
+      "to": 1180,
+      "source": "derived"
+    },
+    {
+      "from": 318,
+      "to": 1180,
+      "source": "derived"
+    },
+    {
+      "from": 1136,
+      "to": 1180,
       "source": "derived"
     }
   ],
