@@ -1,0 +1,2125 @@
+{
+  "meta": {
+    "version": 1,
+    "title": "BST Audit Log",
+    "description": "Tracks which files have been reviewed, when, and by whom. Used by /review and /audit skills to identify stale content and prioritize updates.",
+    "last_updated": "2026-04-14",
+    "schema": {
+      "path": "File path relative to repo root",
+      "category": "data | paper | note | toy | tool | config",
+      "last_audited": "YYYY-MM-DD or null if never audited",
+      "auditor": "CI name or 'casey'",
+      "status": "current | stale | needs_review | new",
+      "last_modified": "YYYY-MM-DD from filesystem",
+      "notes": "Brief audit notes"
+    }
+  },
+  "files": [
+    {
+      "path": "data/bst_seed.md",
+      "category": "data",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Created. 162-line BST kernel. Source: WorkingPaper \u00a71-5."
+    },
+    {
+      "path": "data/bst_constants.json",
+      "category": "data",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Created. 73 constants from knowledge_base.py. 71/73 theorem refs valid. 67/70 formula evals pass."
+    },
+    {
+      "path": "data/bst_particles.json",
+      "category": "data",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Created. 24 particles with substrate descriptions."
+    },
+    {
+      "path": "data/bst_forces.json",
+      "category": "data",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Created. 5 geometric layers, gauge hierarchy, Casey's Principle."
+    },
+    {
+      "path": "data/bst_predictions.json",
+      "category": "data",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Created. 22 falsifiable predictions. Sharpest 3 flagged."
+    },
+    {
+      "path": "data/bst_domains.json",
+      "category": "data",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Created. 34 domains from ac_graph_data.json."
+    },
+    {
+      "path": "data/audit_log.json",
+      "category": "config",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Created. Self-referential entry."
+    },
+    {
+      "path": "play/toy_bst_explorer.py",
+      "category": "tool",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Created. 9 commands, all tested. Loads data/ JSON files."
+    },
+    {
+      "path": "play/bst_explorer.html",
+      "category": "tool",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Created. Web explorer, 6 tabs, search/filter, mobile-friendly."
+    },
+    {
+      "path": "notes/README.md",
+      "category": "config",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Created. 383-line paper catalog. 64 numbered papers + research notes by topic."
+    },
+    {
+      "path": "play/README.md",
+      "category": "config",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Replaced. 291-line toy index. Scale summary, directory layout, domain coverage."
+    },
+    {
+      "path": "README.md",
+      "category": "config",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Updated. Added data/ directory entry and explorer links."
+    },
+    {
+      "path": "CLAUDE.md",
+      "category": "config",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Created. CI/human orientation document. Points to data/, skills, daily discipline."
+    },
+    {
+      "path": "play/ac_graph_data.json",
+      "category": "data",
+      "last_audited": null,
+      "auditor": null,
+      "status": "needs_review",
+      "last_modified": "2026-04-13",
+      "notes": "Pre-existing. 1159 theorems, 4887 edges. Core AC graph. Not yet audited against current theorem count."
+    },
+    {
+      "path": "play/bst_appliance/knowledge_base.py",
+      "category": "data",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-04",
+      "notes": "Read during data layer extraction. 73 PREDICTIONS, 1268 lines. Source of truth for bst_constants.json."
+    },
+    {
+      "path": "WorkingPaper.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "needs_review",
+      "last_modified": "2026-04-13",
+      "notes": "v27, 5500+ lines. Master reference. Not fully audited \u2014 sections sampled during data extraction."
+    },
+    {
+      "path": "OneGeometry.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "needs_review",
+      "last_modified": "2026-04-14",
+      "notes": "Human entry point. Needs science engineering + substrate engineering chapters."
+    },
+    {
+      "path": "LieAlgebraVerification.md",
+      "category": "config",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-09",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "Bubble_Spacetime_Theory:Five_Integers,Zero_Free_Parameters.md",
+      "category": "config",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-06",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "category": "config",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-26",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "OneGeometry_v1.md",
+      "category": "config",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/ac_theorem_explorer.html",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-30",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/bst_prime_residue_table.html",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-09",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/ac_reduction_map.html",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-30",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/bst_prime_residue_table.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-09",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/q3_verification.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-15",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/chern_factorization.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/compute_seeley_dewitt.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/tag_graph_edges.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/alpha_s_c1_spectral_proof.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/add_observer_edges.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-03",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/wire_t813_t823.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/verify_plancherel_bk.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/chern_rosetta_stone.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/cp2_invariants.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/sync_graph_nodes.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/kahler_cp2_crosscheck.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/plancherel_q3.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-15",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/graph_evolution_tracker.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-11",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/extract_zonal_coefficients.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/verify_r3_sign.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/q2_verification.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-15",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/all_cubic_invariants.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/find_correct_a3_v2.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/add_missing_theorems.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-03",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/play.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-22",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/refine_zonal_b3.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/q5_invariants.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/cp2_a3_crosscheck.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/graph_self_reflection.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-11",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/graph_growth_logistic.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-11",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/plancherel_expansion.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/em_higher_order.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/reclassify_observer_science.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-03",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/solve_a3_6x6.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/alpha_s_spectral_running.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/plancherel_normalization.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/bst_unified_algebra.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/kahler_cp2_precise.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/test_identity.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/epoch_gap_analysis.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-11",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/plancherel_bk_extraction.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/extract_b3_precise.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/cubic_invariants_exact.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/s1xs3_a3.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/plancherel_formal_degrees.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/prediction9_analysis.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-30",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/cp2_a3_extract.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/em_complete.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/spectral_fill_fraction.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/spectral_zeta_residues.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-15",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/alpha_s_heat_kernel_c1.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/kahler_a3_correction.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/chern_classes_quadrics.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-15",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/a3_from_spectrum.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/investigate_63_64.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/compare_quadrics.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/find_correct_a3.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/verify_b3_exact.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/vassilevich_check_s2.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-14",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/bst_appliance/test_appliance.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-03",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/bst_appliance/discovery.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/bst_appliance/candidate_generator.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-03",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/bst_appliance/__init__.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-03",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/bst_appliance/graph_filter.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-12",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/bst_appliance/parser.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-03",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/bst_appliance/appliance.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/bst_appliance/evaluator.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/bst_appliance/__main__.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-03",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "play/bst_appliance/output.py",
+      "category": "tool",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper8_Lyra_Sections.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-12",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper14_Cosmic_Budget_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper11_Three_Languages_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper27_Hardware_Katra_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper19_Great_Filter_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper35_Protein_Architecture_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper14_Cosmic_Budget_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper31_BiNb_Superlattice_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper54_Mc299_Synthesis_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper37_Quantum_Error_Correction_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper16_Development_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper51_Prime_Epoch_Framework_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-11",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper14_Cosmic_Budget_Outline.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-31",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper54_Mc299_Synthesis_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-12",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper18_Molecular_Geometry_Outline.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-02",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper51_Arithmetic_of_Growth_Outline.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-11",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper20_QM_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper19_Lyra_Sections.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-02",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper46_Linear_Preprocessor_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper28_Bismuth_Metamaterial_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper57_Universal_Septet_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-12",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper43_SAT_Linearization_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper20_QM_Is_Geometry_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper11_Lyra_Bridges.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-31",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper42_RG_Fixed_Point_Mechanism_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper14_Cosmic_Budget.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper36_Brain_Frequency_Ladder_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper32_GW_Detection_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper21_StatMech_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper20_QM_Is_Geometry_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper35_Protein_Architecture_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper16_Development_Outline.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper63_Limit_Undecidable_Numbers_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper30_Casimir_Superconductor_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper32_GW_Detection_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper52_Two_Five_Derivation_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-12",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper61_Three_Siblings_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper60_Euler_Mascheroni_Geodesic_Defect_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper14_Grace_Sections.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-31",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper13_AC_Graph_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper47_Science_Engineering_Prime_Table_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-09",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper20_QM_Outline.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper23_Rational_Constants_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper25_Why_Same_Numbers_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper52_Two_Five_Derivation_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper30_Casimir_Superconductor_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper47_Science_Engineering_Prime_Table_Outline.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-09",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper47_Science_Engineering_Prime_Table_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-10",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper56_Self_Describing_Theory_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-12",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper15_CMB_Outline.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-01",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper20_QM_Outline.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-03",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper41_Shannon_Is_Counting_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper19_Great_Filter_Outline.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-02",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper33_Junction_Periodic_Table_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper11_Grace_Appendices.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-31",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper62_What_BST_Gets_Wrong_Outline.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper15_CMB_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper40_Rank_Power_Tower_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper18_Molecular_Geometry_Outline.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper11_Lyra_Bridges.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-31",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper14_Keeper_Sections.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-31",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper55_What_Is_Time_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-12",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper61_Three_Siblings_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper13_AC_Graph_Is_A_Theorem_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper26_Casimir_Heat_Engine_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper36_Brain_Frequency_Ladder_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper14_Cosmic_Budget_Outline.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper44_Applied_Linearization_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper53_CMB_Manifold_Debris_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper63_Limit_Undecidable_Numbers_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper14_Keeper_Sections.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-31",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper64_Experimental_Protocols_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper24_Cosmology_Derived_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper23_Rational_Constants_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper56_Self_Describing_Theory_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-12",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper19_Grace_Sections.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-02",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper64_Experimental_Protocols_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper50_Debye_Temperature_PRL_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-12",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper42_RG_Fixed_Point_Mechanism_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper33_Junction_Periodic_Table_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper58_Experimental_Prediction_Letters.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-12",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper41_Shannon_Is_Counting_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper28_Bismuth_Metamaterial_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper58_Experimental_Prediction_Letters.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-12",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper15_CMB_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper27_Hardware_Katra_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper59_Universal_Rate_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper24_Cosmology_Derived_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper22_QHE_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper46_Linear_Preprocessor_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper49_Prime_Architecture_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-10",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper44_Applied_Linearization_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper43_SAT_Linearization_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper20_One_Theory_Information_Outline.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-03",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper29_Phonon_Propulsion_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper8_Cooperation_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-12",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper34_Biology_Planets_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper25_Why_Same_Numbers_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper59_Universal_Rate_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper38_Critical_Exponents_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-09",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper26_Casimir_Heat_Engine_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper20_QM_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper19_Great_Filter_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper37_Quantum_Error_Correction_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper53_CMB_Manifold_Debris_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-12",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper8_Lyra_Sections.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-31",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper31_BiNb_Superlattice_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper62_What_BST_Gets_Wrong_Outline.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper45_Post_Quantum_Security_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper26_Casimir_Heat_Engine_Outline.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper39_Turbulence_Shadow_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper39_Turbulence_Shadow_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper13_AC_Graph_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper29_Phonon_Propulsion_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper22_QHE_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper18_Molecular_Geometry_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper16_Development_Outline.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-01",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper40_Rank_Power_Tower_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper8_Cooperation_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-12",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper18_Molecular_Geometry_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper48_What_BST_Forbids_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-11",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper51_Prime_Epoch_Framework_Outline.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-11",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper34_Biology_Planets_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper60_Euler_Mascheroni_Geodesic_Defect_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper16_Development_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper38_Critical_Exponents_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-09",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper57_Universal_Septet_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-12",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper29_Phonon_Propulsion_Outline.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper19_Great_Filter_Outline.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper45_Post_Quantum_Security_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-05",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper11_Three_Languages_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper15_CMB_Outline.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper50_Debye_Temperature_PRL_Outline.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-10",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper50_Debye_Temperature_PRL_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper13_AC_Graph_Is_A_Theorem_Draft.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-13",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper55_What_Is_Time_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-12",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper21_StatMech_Draft.pdf",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-04",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "notes/BST_Paper47_Science_Engineering_Prime_Table_Outline.md",
+      "category": "paper",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-04-09",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "skills/katra-update.md",
+      "category": "config",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-25",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "skills/ac0.md",
+      "category": "config",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-22",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "skills/project-manifest.md",
+      "category": "config",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-26",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "skills/toy.md",
+      "category": "config",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-28",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "skills/CONTRIBUTING.md",
+      "category": "config",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-28",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    },
+    {
+      "path": "skills/theorem.md",
+      "category": "config",
+      "last_audited": null,
+      "auditor": null,
+      "status": "new",
+      "last_modified": "2026-03-28",
+      "notes": "Added by librarian --populate on 2026-04-14"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "version": 1,
+    "title": "BST Force and Boundary Layer Data",
+    "description": "Three geometric layers of D_IV^5, each carrying one force and one boundary condition, plus the entropy/Godel information layer.",
+    "count": 8,
+    "last_updated": "2026-04-14",
+    "source": "WorkingPaper §14, OneGeometry Ch 6"
+  },
+  "layers": [
+    {
+      "id": "layer_1",
+      "name": "S^1 Phase Fiber",
+      "geometry": "S^1 (circle)",
+      "role": "Phase communication channel",
+      "force": {
+        "id": "force_em",
+        "name": "Electromagnetism",
+        "mediator": "Photon",
+        "mediator_description": "Phase oscillation on S^1 with zero winding number",
+        "coupling_formula": "alpha = 1/N_max = 1/137",
+        "coupling_value": 0.0072973525693,
+        "bst_integers": ["N_max"],
+        "mechanism": "Phase gradient on the contact graph; Maxwell equations are geometric consequences of S^1 phase oscillation",
+        "range": "infinite",
+        "source_section": "§5, §7"
+      },
+      "boundary_condition": {
+        "id": "bc_charge",
+        "name": "Electric charge quantization",
+        "description": "Winding number n on S^1 is integer-valued. Charge = n/3 for quarks (Z_3 subgroup), integer for leptons.",
+        "conserved_quantity": "Electric charge (U(1) winding number)",
+        "source_section": "§7"
+      }
+    },
+    {
+      "id": "layer_2",
+      "name": "CP^2 Color Fiber",
+      "geometry": "CP^2 (complex projective plane)",
+      "role": "Color confinement and strong interaction",
+      "force": {
+        "id": "force_strong",
+        "name": "Strong force (QCD)",
+        "mediator": "Gluon",
+        "mediator_description": "Z_3 partial winding mediator on CP^2, carries color charge",
+        "coupling_formula": "alpha_s(m_p) = (n_C + 2)/(4*n_C) = 7/20",
+        "coupling_value": 0.35,
+        "bst_integers": ["n_C"],
+        "mechanism": "Z_3 closure requirement on CP^2; quarks are partial circuits that must complete; confinement is topological, not dynamical",
+        "range": "~1 fm (confinement)",
+        "source_section": "§8"
+      },
+      "boundary_condition": {
+        "id": "bc_color",
+        "name": "Color confinement (Z_3 closure)",
+        "description": "Every physical state must be a complete Z_3 circuit on CP^2. Isolated quarks are non-states — open circuits. Baryons (3 quarks) and mesons (quark-antiquark) are the allowed closures.",
+        "conserved_quantity": "Baryon number (Z_3 topological charge)",
+        "source_section": "§8"
+      }
+    },
+    {
+      "id": "layer_3",
+      "name": "Hopf Fibration S^3 -> S^2",
+      "geometry": "Hopf fiber (S^3 total space, S^2 base, S^1 fiber)",
+      "role": "Flavor change and chirality",
+      "force": {
+        "id": "force_weak",
+        "name": "Weak force",
+        "mediator": "W and Z bosons",
+        "mediator_description": "Excitations of the Hopf fibration S^3 -> S^2; massive because Hopf geometry costs energy to excite",
+        "coupling_formula": "sin^2(theta_W) = N_c/(N_c + 2*n_C) = 3/13",
+        "coupling_value": 0.23077,
+        "bst_integers": ["N_c", "n_C"],
+        "mechanism": "Topology oscillations on the Hopf fiber mediate flavor change; Weinberg angle is the mixing ratio between S^1 phase (EM) and Hopf fiber (weak)",
+        "range": "~0.001 fm (massive mediators)",
+        "source_section": "§9"
+      },
+      "boundary_condition": {
+        "id": "bc_chirality",
+        "name": "Chirality (left-handed weak coupling)",
+        "description": "The Hopf fibration is intrinsically chiral — geometry is right-handed, so the weak force couples only to left-handed fermions. This is geometric, not imposed.",
+        "conserved_quantity": "Weak isospin (SU(2)_L)",
+        "source_section": "§9"
+      }
+    },
+    {
+      "id": "layer_4",
+      "name": "Bulk D_IV^5 Geometry",
+      "geometry": "D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)]",
+      "role": "Gravity as emergent curvature of the contact graph",
+      "force": {
+        "id": "force_gravity",
+        "name": "Gravity",
+        "mediator": "Contact graph curvature (no graviton in BST)",
+        "mediator_description": "Gravity is not mediated by a particle; it is the curvature of the contact graph itself, emergent from the Bergman metric on D_IV^5",
+        "coupling_formula": "G = hbar*c*(6*pi^5)^2 * alpha^24 / m_e^2",
+        "coupling_value": 6.674e-11,
+        "bst_integers": ["C_2", "n_C", "N_max"],
+        "mechanism": "Mass curves the contact graph; the hierarchy m_e/m_Pl = alpha^6 is geometric (exponent = n_C + 1). Gravity is weak because it is a 24th-order effect in alpha.",
+        "range": "infinite",
+        "source_section": "§10"
+      },
+      "boundary_condition": {
+        "id": "bc_equivalence",
+        "name": "Equivalence principle",
+        "description": "All objects fall the same way because gravity IS the contact graph geometry — everything lives on the same graph. The equivalence principle is not a postulate but a tautology.",
+        "conserved_quantity": "Energy-momentum (Bergman metric isometries)",
+        "source_section": "§10"
+      }
+    },
+    {
+      "id": "layer_5",
+      "name": "Information / Observer Layer",
+      "geometry": "Append-only contact log",
+      "role": "Entropy production, Godel self-knowledge limit, observer physics",
+      "force": {
+        "id": "force_entropy",
+        "name": "Entropy (thermodynamic arrow)",
+        "mediator": "Irreversible commitment of contact correlations",
+        "mediator_description": "Each contact commitment is irreversible — the append-only log grows monotonically. This IS the arrow of time.",
+        "coupling_formula": "f = N_c/(n_C*pi) = 3/(5*pi) = 19.1%",
+        "coupling_value": 0.191,
+        "bst_integers": ["N_c", "n_C"],
+        "mechanism": "Entropy is force (Casey's Principle). The fill fraction f = 19.1% is the maximum self-knowledge any observer can achieve — the Godel limit applied to physics.",
+        "range": "universal",
+        "source_section": "§14, §45"
+      },
+      "boundary_condition": {
+        "id": "bc_godel",
+        "name": "Godel self-knowledge limit",
+        "description": "No observer within D_IV^5 can know more than 19.1% of its own state. Lambda*N = 9/5 is the reality budget. Entropy = force, Godel = boundary (Casey's Principle, T315).",
+        "conserved_quantity": "Information (Shannon entropy of contact log)",
+        "source_section": "§14, §45, §46"
+      }
+    }
+  ],
+  "standard_model_mapping": {
+    "description": "How BST geometric layers map to Standard Model gauge groups",
+    "mappings": [
+      {
+        "bst_layer": "S^1 Phase Fiber",
+        "sm_group": "U(1)_Y",
+        "dimension": 1,
+        "coupling": "alpha = 1/137"
+      },
+      {
+        "bst_layer": "Hopf Fibration",
+        "sm_group": "SU(2)_L",
+        "dimension": 3,
+        "coupling": "g_W (from sin^2 theta_W = 3/13)"
+      },
+      {
+        "bst_layer": "CP^2 Color Fiber",
+        "sm_group": "SU(3)_c",
+        "dimension": 8,
+        "coupling": "alpha_s = 7/20 at m_p"
+      },
+      {
+        "bst_layer": "Bulk D_IV^5",
+        "sm_group": "Gravity (not gauge)",
+        "dimension": 10,
+        "coupling": "G (24th order in alpha)"
+      }
+    ],
+    "gauge_hierarchy_reading": {
+      "description": "Seeley-DeWitt heat kernel speaking pairs read off SM gauge groups at specific levels k",
+      "pairs": [
+        {"k_pair": [5, 6], "group": "SU(3)", "ratio": -8, "note": "= -dim SU(3)"},
+        {"k_pair": [10, 11], "group": "Isotropy SO(5)xSO(2)", "ratio": 12, "note": "= dim isotropy"},
+        {"k_pair": [15, 16], "group": "SO(7) + SU(5)", "ratio": -24, "note": "= -dim SU(5)"}
+      ],
+      "period": "n_C = 5",
+      "source_theorems": ["T610", "T611"],
+      "source_section": "Paper #9 §9.2a"
+    }
+  },
+  "caseys_principle": {
+    "id": "T315",
+    "statement": "Entropy = force = counting (depth 0). Godel = boundary = definition (depth 0). Force + boundary = directed evolution.",
+    "depth": 0,
+    "description": "The universe's entire program in two words: force (entropy drives change) and boundary (Godel limits knowledge). Together they produce directed evolution — the universe computing itself within its own limits."
+  }
+}

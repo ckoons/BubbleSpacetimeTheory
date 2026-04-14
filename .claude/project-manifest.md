@@ -91,26 +91,43 @@ If you can count, you can understand any of these proofs. That's the point.
 
 ```
 BubbleSpacetimeTheory/
-  notes/                    # Proof papers, theorem documents
-    BST_AC_Theorems.md      # Full theorem statements
-    BST_AC_Theorem_Registry.md  # Master theorem index
-    BST_FourColor_AC_Proof.md   # Four-Color proof (current)
-    BST_Hodge_Proof.md          # Hodge proof
-    BST_RH_Proof.md             # Riemann Hypothesis proof
-    BST_PNP_*.md                # P!=NP papers
-    BST_NS_Proof.md             # Navier-Stokes proof
-    BST_BSD_Proof.md            # BSD proof
-    BST_YM_Proof.md             # Yang-Mills proof
-    maybe/                      # Speculative work (not proved)
-  play/                     # Toys (computational experiments)
-    toy_NNN_description.py  # Numbered, never renumbered
-  WorkingPaper.md           # Master reference (all derivations)
+  CLAUDE.md                 # Auto-loaded CI orientation (start here)
+  OneGeometry.md            # Human entry point — narrative front door
+  WorkingPaper.md           # Technical compendium — v27, all derivations
   README.md                 # Project overview
   CONTRIBUTING.md           # How to contribute
+  data/                     # CI-native structured data layer
+    bst_seed.md             #   Minimal BST kernel (162 lines — reconstructs everything)
+    bst_constants.json      #   73 derived constants with eval-ready formulas
+    bst_particles.json      #   24 particles with substrate descriptions
+    bst_forces.json         #   5 geometric layers, force/boundary data
+    bst_predictions.json    #   22 falsifiable predictions with experiments
+    bst_domains.json        #   34 domains cross-referenced to AC graph
+    audit_log.json          #   Tracks what's been reviewed and when
+  notes/                    # 635+ research notes, 64 numbered papers
+    README.md               #   Paper catalog and topic index
+    BST_AC_Theorem_Registry.md  # Master theorem index (Keeper manages)
+    CI_BOARD.md             #   Active CI task assignments
+    BACKLOG.md              #   Queued work items
+    maybe/                  #   Speculative work (not established)
+    .running/               #   Daily broadcast + digests (gitignored)
+  play/                     # 1194+ toys, visualizers, BST Appliance
+    README.md               #   Comprehensive toy index
+    toy_NNN_description.py  #   Numbered toys (never renumbered)
+    toy_bst_explorer.py     #   Interactive CLI explorer (9 commands)
+    bst_explorer.html       #   Web-based explorer (opens in browser)
+    ac_graph_data.json      #   AC theorem graph: 1159 theorems, 4887 edges
+    bst_appliance/          #   BST evaluation package
+    .next_toy               #   Toy counter (gitignored, sacred)
+    .next_theorem           #   Theorem counter (gitignored, sacred)
   .claude/
-    commands/ac0.md         # AC(0) thinking discipline
-    commands/katra-update.md # CI persistence
-    project-manifest.md     # This file
+    commands/ac0.md         #   AC(0) thinking discipline
+    commands/toy.md         #   Toy number allocation
+    commands/theorem.md     #   Theorem ID allocation
+    commands/review.md      #   Daily review process
+    commands/audit.md       #   Targeted file audit
+    commands/katra-update.md #  CI persistence
+    project-manifest.md     #   This file (deeper context)
 ```
 
 ## How to Work on This Project
@@ -125,12 +142,15 @@ BubbleSpacetimeTheory/
 
 ### For CIs
 
-1. **Read this manifest** — understand the method
-2. **Read MEMORY.md** (if available via katra) — understand current state
-3. **Use `/ac0`** — before every proof attempt, apply AC(0) thinking
-4. **Build toys** — every claim needs computational evidence
-5. **Register theorems** — add to the registry before writing to documents
-6. **Update your sundown** — persist your state via katra if available
+1. **Read `CLAUDE.md`** — auto-loaded orientation with quick start
+2. **Load `data/bst_seed.md`** — the 162-line theory kernel
+3. **Read `notes/.running/RUNNING_NOTES.md`** — today's broadcast
+4. **Read MEMORY.md** (if available via katra) — understand current state
+5. **Use `/ac0`** — before every proof attempt, apply AC(0) thinking
+6. **Build toys** — every claim needs computational evidence (`/toy claim` first!)
+7. **Register theorems** — add to the graph databank (`/theorem claim` first!)
+8. **Run `/review`** at end of session — keep the living library current
+9. **Update your sundown** — persist your state via katra if available
 
 ### CI Roles (Templates)
 
@@ -185,4 +205,4 @@ If you're picking this up after Casey: the program is yours now. Add theorems. B
 **"Compound interest on imagination."** — Casey Koons
 
 ---
-*Project manifest v1. March 26, 2026.*
+*Project manifest v2. April 14, 2026. Updated: data layer, skills, daily discipline, repository structure.*

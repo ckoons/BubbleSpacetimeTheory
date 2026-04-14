@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BST Explorer — Bubble Spacetime Theory</title>
+<style>
+:root {
+  --bg: #0d1117; --card: #161b22; --border: #30363d;
+  --text: #c9d1d9; --dim: #8b949e; --accent: #58a6ff;
+  --green: #3fb950; --yellow: #d29922; --red: #f85149;
+  --purple: #bc8cff;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.6;
+  max-width: 1200px; margin: 0 auto; padding: 16px;
+}
+h1 { color: var(--accent); margin-bottom: 4px; font-size: 1.5em; }
+h2 { color: var(--accent); margin: 16px 0 8px; font-size: 1.2em; }
+.subtitle { color: var(--dim); font-size: 0.9em; margin-bottom: 16px; }
+.search-box {
+  width: 100%; padding: 12px 16px; font-size: 16px;
+  background: var(--card); color: var(--text); border: 1px solid var(--border);
+  border-radius: 8px; margin-bottom: 16px; outline: none;
+}
+.search-box:focus { border-color: var(--accent); }
+.tabs { display: flex; gap: 4px; margin-bottom: 16px; flex-wrap: wrap; }
+.tab {
+  padding: 6px 14px; border-radius: 6px; cursor: pointer;
+  background: var(--card); border: 1px solid var(--border);
+  color: var(--dim); font-size: 0.85em; transition: all 0.15s;
+}
+.tab:hover { color: var(--text); border-color: var(--accent); }
+.tab.active { background: var(--accent); color: var(--bg); border-color: var(--accent); font-weight: 600; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 12px; }
+.card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 8px; padding: 14px; transition: border-color 0.15s;
+}
+.card:hover { border-color: var(--accent); }
+.card-title { font-weight: 600; color: var(--text); margin-bottom: 4px; }
+.card-id { color: var(--dim); font-size: 0.8em; }
+.card-formula { font-family: 'Courier New', monospace; color: var(--purple); margin: 6px 0; font-size: 0.9em; }
+.card-value { display: flex; justify-content: space-between; font-size: 0.85em; }
+.card-precision { font-size: 0.85em; }
+.tier-1 { border-left: 3px solid var(--green); }
+.tier-2 { border-left: 3px solid var(--yellow); }
+.tier-3 { border-left: 3px solid var(--red); }
+.badge {
+  display: inline-block; padding: 1px 6px; border-radius: 4px;
+  font-size: 0.75em; font-weight: 600;
+}
+.badge-derived { background: #1b4332; color: var(--green); }
+.badge-structural { background: #3d2e00; color: var(--yellow); }
+.badge-observed { background: #3d1111; color: var(--red); }
+.badge-int { background: #1c2541; color: var(--accent); }
+.badge-status { background: #1c2541; color: var(--accent); }
+.integers { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 6px; }
+.chain { margin-top: 8px; font-size: 0.85em; color: var(--dim); }
+.chain-step { padding-left: 12px; border-left: 2px solid var(--border); margin: 2px 0; }
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; margin: 12px 0; }
+.stat-card { background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 10px; text-align: center; }
+.stat-number { font-size: 1.8em; font-weight: 700; color: var(--accent); }
+.stat-label { font-size: 0.8em; color: var(--dim); }
+.particle-card { display: flex; gap: 12px; align-items: flex-start; }
+.particle-symbol {
+  min-width: 48px; height: 48px; display: flex; align-items: center; justify-content: center;
+  background: var(--border); border-radius: 8px; font-weight: 700; font-size: 1.1em;
+}
+.detail-overlay {
+  display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.7); z-index: 100; padding: 32px;
+  overflow-y: auto;
+}
+.detail-overlay.show { display: flex; justify-content: center; }
+.detail-panel {
+  background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+  padding: 24px; max-width: 700px; width: 100%; max-height: 90vh; overflow-y: auto;
+}
+.detail-close { float: right; cursor: pointer; color: var(--dim); font-size: 1.5em; }
+.detail-close:hover { color: var(--text); }
+#count { color: var(--dim); font-size: 0.85em; margin-bottom: 8px; }
+.hidden { display: none !important; }
+</style>
+</head>
+<body>
+
+<h1>BST Explorer</h1>
+<div class="subtitle">Bubble Spacetime Theory — One geometry, five integers, zero free parameters, 500+ predictions</div>
+
+<input type="text" class="search-box" id="search" placeholder="Search constants, particles, predictions, domains..." autofocus>
+
+<div class="tabs" id="tabs">
+  <div class="tab active" data-tab="stats">Overview</div>
+  <div class="tab" data-tab="constants">Constants (73)</div>
+  <div class="tab" data-tab="particles">Particles (25)</div>
+  <div class="tab" data-tab="predictions">Predictions (22)</div>
+  <div class="tab" data-tab="forces">Forces</div>
+  <div class="tab" data-tab="domains">Domains (34)</div>
+</div>
+
+<div id="count"></div>
+
+<div id="content-stats" class="content">
+  <div class="stats-grid" id="stats-grid"></div>
+  <h2>Five Invariants of D<sub>IV</sub><sup>5</sup></h2>
+  <div class="grid" id="integers-grid"></div>
+  <h2>Top Results by Domain</h2>
+  <div class="grid" id="top-results"></div>
+</div>
+
+<div id="content-constants" class="content hidden">
+  <div class="tabs" id="tier-filter">
+    <div class="tab active" data-tier="all">All</div>
+    <div class="tab" data-tier="1">Tier 1: Derived</div>
+    <div class="tab" data-tier="2">Tier 2: Structural</div>
+    <div class="tab" data-tier="3">Tier 3: Observed</div>
+  </div>
+  <div class="grid" id="constants-grid"></div>
+</div>
+
+<div id="content-particles" class="content hidden">
+  <div class="grid" id="particles-grid"></div>
+</div>
+
+<div id="content-predictions" class="content hidden">
+  <div class="grid" id="predictions-grid"></div>
+</div>
+
+<div id="content-forces" class="content hidden">
+  <div id="forces-content"></div>
+</div>
+
+<div id="content-domains" class="content hidden">
+  <div class="grid" id="domains-grid"></div>
+</div>
+
+<div class="detail-overlay" id="detail-overlay">
+  <div class="detail-panel" id="detail-panel"></div>
+</div>
+
+<script>
+// Data will be loaded from JSON files
+let DATA = { constants: null, particles: null, predictions: null, forces: null, domains: null };
+let currentTab = 'stats';
+let currentTier = 'all';
+
+// BST evaluation namespace
+const BST = {
+  rank: 2, N_c: 3, n_C: 5, C_2: 6, g: 7, N_max: 137,
+  alpha: 1/137, pi: Math.PI,
+  m_e: 0.51099895, m_p: 6 * Math.PI**5 * 0.51099895,
+  hbar_c: 197.3269804
+};
+
+async function loadData() {
+  const base = '../data/';
+  const files = ['bst_constants.json', 'bst_particles.json', 'bst_predictions.json', 'bst_forces.json', 'bst_domains.json'];
+  const keys = ['constants', 'particles', 'predictions', 'forces', 'domains'];
+  await Promise.all(files.map(async (f, i) => {
+    try {
+      const resp = await fetch(base + f);
+      if (resp.ok) DATA[keys[i]] = await resp.json();
+    } catch(e) { console.warn(`Failed to load ${f}:`, e); }
+  }));
+  render();
+}
+
+function render() {
+  renderStats();
+  renderConstants();
+  renderParticles();
+  renderPredictions();
+  renderForces();
+  renderDomains();
+}
+
+function renderStats() {
+  const grid = document.getElementById('stats-grid');
+  const stats = [
+    { n: DATA.constants ? DATA.constants.constants.length : 0, l: 'Constants' },
+    { n: DATA.particles ? DATA.particles.particles.length : 0, l: 'Particles' },
+    { n: DATA.predictions ? DATA.predictions.predictions.length : 0, l: 'Predictions' },
+    { n: DATA.domains ? DATA.domains.domains.length : 0, l: 'Domains' },
+    { n: DATA.forces ? DATA.forces.layers.length : 0, l: 'Force Layers' },
+    { n: '0', l: 'Free Parameters' },
+  ];
+  grid.innerHTML = stats.map(s =>
+    `<div class="stat-card"><div class="stat-number">${s.n}</div><div class="stat-label">${s.l}</div></div>`
+  ).join('');
+
+  // Five integers
+  const ints = [
+    { sym: 'rank', val: 2, origin: 'Strongly orthogonal roots', role: 'Observation axes, depth ceiling' },
+    { sym: 'N_c', val: 3, origin: 'n_C - rank: codimension', role: 'Colors, spatial dimensions' },
+    { sym: 'n_C', val: 5, origin: 'Complex dimension of D_IV^5', role: 'Spectral structure, generations' },
+    { sym: 'C_2', val: 6, origin: 'rank × N_c', role: 'Mass gap, Casimir eigenvalue' },
+    { sym: 'g', val: 7, origin: 'n_C + rank: embedding dim', role: 'Bergman genus, coupling hierarchy' },
+    { sym: 'N_max', val: 137, origin: 'N_c³ × n_C + rank', role: 'Fine structure constant α⁻¹' },
+  ];
+  document.getElementById('integers-grid').innerHTML = ints.map(i =>
+    `<div class="card" onclick="filterByInteger('${i.sym}')">
+      <div class="card-title" style="font-size:1.3em;color:var(--accent)">${i.sym} = ${i.val}</div>
+      <div style="font-size:0.85em;color:var(--dim);margin:4px 0">${i.origin}</div>
+      <div style="font-size:0.85em">${i.role}</div>
+    </div>`
+  ).join('');
+
+  // Top results
+  if (DATA.domains) {
+    const top = DATA.domains.domains.sort((a,b) => b.theorem_count - a.theorem_count).slice(0, 6);
+    document.getElementById('top-results').innerHTML = top.map(d =>
+      `<div class="card">
+        <div class="card-title">${d.name}</div>
+        <div class="card-id">${d.theorem_count} theorems</div>
+        <div style="font-size:0.85em;margin-top:4px">${d.description.substring(0, 120)}...</div>
+      </div>`
+    ).join('');
+  }
+}
+
+function renderConstants() {
+  if (!DATA.constants) return;
+  const grid = document.getElementById('constants-grid');
+  const query = document.getElementById('search').value.toLowerCase();
+  let items = DATA.constants.constants;
+
+  if (currentTier !== 'all') items = items.filter(c => c.tier == currentTier);
+  if (query) items = items.filter(c =>
+    c.name.toLowerCase().includes(query) ||
+    (c.symbol || '').toLowerCase().includes(query) ||
+    (c.formula_display || '').toLowerCase().includes(query) ||
+    (c.mechanism || '').toLowerCase().includes(query) ||
+    (c.theorem_id || '').toLowerCase().includes(query) ||
+    (c.category || '').toLowerCase().includes(query)
+  );
+
+  document.getElementById('count').textContent = currentTab === 'constants' ? `${items.length} constants` : '';
+
+  grid.innerHTML = items.map(c => {
+    const tierClass = `tier-${c.tier}`;
+    const tierBadge = c.tier === 1 ? 'badge-derived' : c.tier === 2 ? 'badge-structural' : 'badge-observed';
+    const tierLabel = c.tier === 1 ? 'DERIVED' : c.tier === 2 ? 'STRUCTURAL' : 'OBSERVED';
+    return `<div class="card ${tierClass}" onclick="showConstantDetail('${c.id}')">
+      <div class="card-title">${c.name} <span class="card-id">${c.theorem_id}</span></div>
+      <div class="card-formula">${c.formula_display}</div>
+      <div class="card-value">
+        <span>BST: ${c.bst_value !== null ? c.bst_value : '—'}</span>
+        <span>Obs: ${c.observed_value !== null ? c.observed_value : '—'}</span>
+      </div>
+      <div class="card-precision">${c.precision} <span class="badge ${tierBadge}">${tierLabel}</span></div>
+      <div class="integers">${(c.bst_integers_used || []).map(i => `<span class="badge badge-int">${i}</span>`).join('')}</div>
+    </div>`;
+  }).join('');
+}
+
+function renderParticles() {
+  if (!DATA.particles) return;
+  const grid = document.getElementById('particles-grid');
+  const query = document.getElementById('search').value.toLowerCase();
+  let items = DATA.particles.particles;
+  if (query) items = items.filter(p =>
+    p.name.toLowerCase().includes(query) || p.symbol.toLowerCase().includes(query) ||
+    (p.substrate_description || '').toLowerCase().includes(query)
+  );
+
+  document.getElementById('count').textContent = currentTab === 'particles' ? `${items.length} particles` : '';
+
+  grid.innerHTML = items.map(p =>
+    `<div class="card" onclick="showParticleDetail('${p.id}')">
+      <div class="particle-card">
+        <div class="particle-symbol">${p.symbol}</div>
+        <div>
+          <div class="card-title">${p.name}</div>
+          <div style="font-size:0.85em;color:var(--dim)">${p.category} ${p.generation ? '· Gen ' + p.generation : ''}</div>
+          <div style="font-size:0.85em;margin-top:4px">${p.substrate_description.substring(0, 100)}...</div>
+        </div>
+      </div>
+    </div>`
+  ).join('');
+}
+
+function renderPredictions() {
+  if (!DATA.predictions) return;
+  const grid = document.getElementById('predictions-grid');
+  const query = document.getElementById('search').value.toLowerCase();
+  let items = DATA.predictions.predictions;
+  if (query) items = items.filter(p =>
+    p.name.toLowerCase().includes(query) || (p.prediction || '').toLowerCase().includes(query) ||
+    (p.experiment || '').toLowerCase().includes(query)
+  );
+
+  document.getElementById('count').textContent = currentTab === 'predictions' ? `${items.length} predictions` : '';
+
+  grid.innerHTML = items.map(p => {
+    const sharpest = p.sharpest_test ? '<span class="badge badge-derived" style="background:#1b3344">SHARPEST TEST</span> ' : '';
+    return `<div class="card" onclick="showPredictionDetail('${p.id}')">
+      <div class="card-title">${sharpest}${p.name}</div>
+      <div style="font-size:0.85em;margin:4px 0">${p.prediction}</div>
+      <div class="card-value">
+        <span>BST: ${p.bst_value}</span>
+        <span class="badge badge-status">${p.status}</span>
+      </div>
+      <div style="font-size:0.8em;color:var(--dim);margin-top:4px">${p.experiment || ''} · ${p.timeline || ''}</div>
+    </div>`;
+  }).join('');
+}
+
+function renderForces() {
+  if (!DATA.forces) return;
+  const content = document.getElementById('forces-content');
+  const layers = DATA.forces.layers;
+  content.innerHTML = '<div class="grid">' + layers.map(l =>
+    `<div class="card">
+      <div class="card-title" style="color:var(--accent)">${l.name}</div>
+      <div style="font-size:0.85em;color:var(--dim);margin:4px 0">${l.geometry}</div>
+      <div style="font-size:0.85em;margin:4px 0">${l.role}</div>
+      <h3 style="font-size:0.9em;margin-top:8px;color:var(--green)">Force: ${l.force.name}</h3>
+      <div style="font-size:0.85em">${l.force.mechanism.substring(0, 150)}...</div>
+      <div class="card-formula">${l.force.coupling_formula}</div>
+      <h3 style="font-size:0.9em;margin-top:8px;color:var(--yellow)">Boundary: ${l.boundary_condition.name}</h3>
+      <div style="font-size:0.85em">${l.boundary_condition.description.substring(0, 120)}...</div>
+    </div>`
+  ).join('') + '</div>';
+}
+
+function renderDomains() {
+  if (!DATA.domains) return;
+  const grid = document.getElementById('domains-grid');
+  const query = document.getElementById('search').value.toLowerCase();
+  let items = DATA.domains.domains.sort((a,b) => b.theorem_count - a.theorem_count);
+  if (query) items = items.filter(d =>
+    d.name.toLowerCase().includes(query) || d.description.toLowerCase().includes(query)
+  );
+
+  document.getElementById('count').textContent = currentTab === 'domains' ? `${items.length} domains` : '';
+
+  grid.innerHTML = items.map(d =>
+    `<div class="card">
+      <div class="card-title">${d.name} <span class="card-id">${d.theorem_count} theorems</span></div>
+      <div style="font-size:0.85em;margin:4px 0">${d.description}</div>
+      ${d.key_results ? '<div style="font-size:0.8em;color:var(--dim);margin-top:6px">' +
+        d.key_results.slice(0,3).map(r => `<div>• ${r}</div>`).join('') + '</div>' : ''}
+    </div>`
+  ).join('');
+}
+
+// Detail views
+function showConstantDetail(id) {
+  const c = DATA.constants.constants.find(x => x.id === id);
+  if (!c) return;
+  const panel = document.getElementById('detail-panel');
+  const tierLabel = c.tier === 1 ? 'DERIVED' : c.tier === 2 ? 'STRUCTURAL' : 'OBSERVED';
+  const tierBadge = c.tier === 1 ? 'badge-derived' : c.tier === 2 ? 'badge-structural' : 'badge-observed';
+  panel.innerHTML = `
+    <div class="detail-close" onclick="closeDetail()">&times;</div>
+    <h2>${c.name} <span class="badge ${tierBadge}">${tierLabel}</span></h2>
+    <div class="card-id">${c.theorem_id} · ${c.category} · AC depth ${c.ac_depth}</div>
+    <div class="card-formula" style="font-size:1.1em;margin:12px 0">${c.formula_display}</div>
+    <div class="card-value" style="font-size:1em;margin:8px 0">
+      <span>BST: <strong>${c.bst_value}</strong></span>
+      <span>Observed: <strong>${c.observed_value}</strong> (${c.observed_source})</span>
+    </div>
+    <div style="margin:8px 0">Precision: <strong>${c.precision}</strong> · Unit: ${c.unit || '(dimensionless)'}</div>
+    <div class="integers" style="margin:8px 0">${(c.bst_integers_used || []).map(i => `<span class="badge badge-int" style="font-size:0.9em">${i}</span>`).join('')}</div>
+    <h3 style="margin-top:16px;color:var(--accent)">Mechanism</h3>
+    <div style="margin:4px 0">${c.mechanism}</div>
+    <h3 style="margin-top:12px;color:var(--accent)">Derivation Chain</h3>
+    <div class="chain">${(c.derivation_chain || []).map(s => `<div class="chain-step">${s}</div>`).join('')}</div>
+    ${c.source_section ? `<div style="margin-top:12px;font-size:0.85em;color:var(--dim)">Source: WorkingPaper ${c.source_section}</div>` : ''}
+  `;
+  document.getElementById('detail-overlay').classList.add('show');
+}
+
+function showParticleDetail(id) {
+  const p = DATA.particles.particles.find(x => x.id === id);
+  if (!p) return;
+  const panel = document.getElementById('detail-panel');
+  panel.innerHTML = `
+    <div class="detail-close" onclick="closeDetail()">&times;</div>
+    <h2>${p.name} (${p.symbol})</h2>
+    <div class="card-id">${p.category} ${p.generation ? '· Generation ' + p.generation : ''}</div>
+    <div style="margin:12px 0;font-size:1em;line-height:1.7">${p.substrate_description}</div>
+    <div style="margin:8px 0"><strong>Geometric layer:</strong> ${p.geometric_layer}</div>
+    <div style="margin:4px 0"><strong>Mass:</strong> ${p.mass_value !== null ? p.mass_value + ' ' + p.mass_unit : 'N/A'}</div>
+    <div style="margin:4px 0"><strong>Charge:</strong> ${p.charge} · <strong>Spin:</strong> ${p.spin} · <strong>Winding:</strong> ${p.winding_number}</div>
+    <div style="margin:4px 0"><strong>Stable:</strong> ${p.stable}</div>
+    <div style="margin:4px 0"><strong>Cycle role:</strong> ${p.cycle_role}</div>
+    ${p.key_insight ? `<div style="margin:12px 0;padding:8px;background:var(--bg);border-radius:6px"><strong>Key insight:</strong> ${p.key_insight}</div>` : ''}
+    ${p.mass_formula ? `<div class="card-formula">${p.mass_formula}</div>` : ''}
+  `;
+  document.getElementById('detail-overlay').classList.add('show');
+}
+
+function showPredictionDetail(id) {
+  const p = DATA.predictions.predictions.find(x => x.id === id);
+  if (!p) return;
+  const panel = document.getElementById('detail-panel');
+  panel.innerHTML = `
+    <div class="detail-close" onclick="closeDetail()">&times;</div>
+    <h2>${p.name}</h2>
+    <div class="card-id">${p.id} · ${p.category} · ${p.status}</div>
+    <div style="margin:12px 0;font-size:1em">${p.prediction}</div>
+    <div style="margin:8px 0"><strong>BST value:</strong> ${p.bst_value}</div>
+    <div style="margin:4px 0"><strong>Current measurement:</strong> ${p.current_measurement}</div>
+    <div style="margin:4px 0"><strong>Experiment:</strong> ${p.experiment}</div>
+    <div style="margin:4px 0"><strong>Timeline:</strong> ${p.timeline}</div>
+    <div style="margin:12px 0;padding:8px;background:var(--bg);border-radius:6px">
+      <strong>Falsification criterion:</strong> ${p.falsification_criterion}
+    </div>
+    ${p.impact_if_falsified ? `<div style="margin:4px 0"><strong>Impact if falsified:</strong> ${p.impact_if_falsified}</div>` : ''}
+    ${p.sharpest_test ? `<div style="margin:8px 0;padding:8px;background:#1b3344;border-radius:6px;color:var(--accent)">
+      <strong>SHARPEST TEST:</strong> ${p.sharpest_test_reason}</div>` : ''}
+    ${p.competing_prediction ? `<div style="margin:4px 0;color:var(--dim)"><strong>Competing:</strong> ${p.competing_prediction}</div>` : ''}
+  `;
+  document.getElementById('detail-overlay').classList.add('show');
+}
+
+function closeDetail() {
+  document.getElementById('detail-overlay').classList.remove('show');
+}
+
+function filterByInteger(name) {
+  document.getElementById('search').value = name;
+  switchTab('constants');
+  renderConstants();
+}
+
+// Tab switching
+function switchTab(tab) {
+  currentTab = tab;
+  document.querySelectorAll('.tab[data-tab]').forEach(t => t.classList.toggle('active', t.dataset.tab === tab));
+  document.querySelectorAll('.content').forEach(c => c.classList.add('hidden'));
+  const el = document.getElementById('content-' + tab);
+  if (el) el.classList.remove('hidden');
+  // Re-render for search
+  if (tab === 'constants') renderConstants();
+  if (tab === 'particles') renderParticles();
+  if (tab === 'predictions') renderPredictions();
+  if (tab === 'domains') renderDomains();
+}
+
+// Event listeners
+document.getElementById('tabs').addEventListener('click', e => {
+  if (e.target.dataset.tab) switchTab(e.target.dataset.tab);
+});
+
+document.getElementById('tier-filter').addEventListener('click', e => {
+  if (e.target.dataset.tier) {
+    currentTier = e.target.dataset.tier;
+    document.querySelectorAll('#tier-filter .tab').forEach(t => t.classList.toggle('active', t.dataset.tier === currentTier));
+    renderConstants();
+  }
+});
+
+document.getElementById('search').addEventListener('input', () => {
+  renderConstants();
+  renderParticles();
+  renderPredictions();
+  renderDomains();
+});
+
+document.getElementById('detail-overlay').addEventListener('click', e => {
+  if (e.target === document.getElementById('detail-overlay')) closeDetail();
+});
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeDetail();
+});
+
+// Initialize
+loadData();
+</script>
+</body>
+</html>

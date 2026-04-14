@@ -462,6 +462,7 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `SPARC_BST_Results.csv` | Per-galaxy results for all 175 SPARC galaxies |
+| `data/` | **CI-native data layer** — structured JSON for all BST results: 73 constants, 24 particles, 5 force layers, 22 predictions, 34 domains, plus seed file for reconstruction |
 | `notes/` | 634+ working notes covering all derivations, proofs, and thesis topics |
 | `play/` | 1181+ toys — computational verifications, visualizations, and explorations. See `play/README.md` |
 
@@ -469,7 +470,7 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 
 ## Derived Constants and Predictions
 
-Every quantity below is derived from D(IV,5) geometry with zero free parameters. Mathematical proofs are in the Hard Problems table above; this table covers BST's physics derivations. Full catalog: WorkingPaper and 300+ research notes in `notes/`.
+Every quantity below is derived from D(IV,5) geometry with zero free parameters. Mathematical proofs are in the Hard Problems table above; this table covers BST's physics derivations. Full catalog: WorkingPaper and 300+ research notes in `notes/`. **Interactive exploration**: `python3 play/toy_bst_explorer.py` (CLI) or open `play/bst_explorer.html` (web). Structured data in `data/`.
 
 | Derivation | BST Formula | Precision |
 |---|---|---|
