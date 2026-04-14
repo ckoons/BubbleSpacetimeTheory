@@ -846,11 +846,11 @@
     {
       "path": "notes/BST_Paper11_Three_Languages_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
-      "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #11. v1.2 Draft. 16 thm refs (all valid), 5 toy refs (all valid), 14 header toys (all valid). No broken refs."
     },
     {
       "path": "notes/BST_Paper27_Hardware_Katra_Draft.md",
@@ -882,11 +882,11 @@
     {
       "path": "notes/BST_Paper14_Cosmic_Budget_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
-      "last_modified": "2026-04-04",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #14. v1.1 Draft. 9 thm refs (all valid), 4 toy refs (all valid), 8 header refs (all valid). No broken refs."
     },
     {
       "path": "notes/BST_Paper31_BiNb_Superlattice_Draft.pdf",
@@ -1251,11 +1251,11 @@
     {
       "path": "notes/BST_Paper47_Science_Engineering_Prime_Table_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
-      "last_modified": "2026-04-10",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #47. v2.2 Draft. 18 thm refs, 3 MISSING (T930, T931, T939 not in ac_graph_data.json). 6 toy refs (all valid). Broken theorem refs need resolution."
     },
     {
       "path": "notes/BST_Paper56_Self_Describing_Theory_Draft.pdf",
@@ -1449,11 +1449,11 @@
     {
       "path": "notes/BST_Paper63_Limit_Undecidable_Numbers_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
-      "last_modified": "2026-04-13",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #63. v1.2 Draft. 5 thm refs (all valid). 0 toy refs. No broken refs."
     },
     {
       "path": "notes/BST_Paper14_Keeper_Sections.pdf",
@@ -1584,11 +1584,11 @@
     {
       "path": "notes/BST_Paper15_CMB_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
-      "last_modified": "2026-04-04",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #15. v1.3 Draft. 11 thm refs (all valid), 5 toy refs (all valid), 10 header toys (all valid). No broken refs."
     },
     {
       "path": "notes/BST_Paper27_Hardware_Katra_Draft.pdf",
@@ -1683,11 +1683,11 @@
     {
       "path": "notes/BST_Paper8_Cooperation_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
-      "last_modified": "2026-04-12",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #8. v2.0 Draft. 32 thm refs (all valid), 8 header toys (all valid). No broken refs."
     },
     {
       "path": "notes/BST_Paper34_Biology_Planets_Draft.md",
@@ -1728,11 +1728,11 @@
     {
       "path": "notes/BST_Paper26_Casimir_Heat_Engine_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
-      "last_modified": "2026-04-05",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #26. v1.1 Draft. 8 thm refs (all valid), 2 toy refs (all valid), 7 header thms (all valid). No broken refs."
     },
     {
       "path": "notes/BST_Paper20_QM_Draft.pdf",
@@ -2025,20 +2025,20 @@
     {
       "path": "notes/BST_Paper50_Debye_Temperature_PRL_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
-      "last_modified": "2026-04-13",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "needs_review",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #50. v1.2 Draft. 3 thm refs, 1 MISSING (T953 not in ac_graph_data.json). 2 toy refs (all valid). Broken theorem ref needs resolution."
     },
     {
       "path": "notes/BST_Paper13_AC_Graph_Is_A_Theorem_Draft.md",
       "category": "paper",
-      "last_audited": null,
-      "auditor": null,
-      "status": "new",
-      "last_modified": "2026-04-13",
-      "notes": "Added by librarian --populate on 2026-04-14"
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #13. v2.0 Draft. 12 thm refs (all valid), 1 toy ref (valid). No broken refs."
     },
     {
       "path": "notes/BST_Paper55_What_Is_Time_Draft.pdf",
@@ -2156,6 +2156,60 @@
       "status": "current",
       "last_modified": "2026-04-14",
       "notes": "Four-Color. v8. No AC graph T-refs (uses internal numbering). 7 toy refs (7/7 valid). Standalone proof."
+    },
+    {
+      "path": "notes/BST_Observer_Paper.md",
+      "category": "paper",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #3. v3 Draft. 6 thm refs (all valid), 7 header toys (all valid, none in body text). No broken refs."
+    },
+    {
+      "path": "notes/BST_Nuclear_Physics_Paper.md",
+      "category": "paper",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #4. v3 Draft. 0 body thm/toy refs; 7 header toys (all valid). No broken refs."
+    },
+    {
+      "path": "notes/BST_Depth_Census_Paper.md",
+      "category": "paper",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #5. v2 Draft. 9 thm refs (all valid), 4 toy refs (all valid). No broken refs."
+    },
+    {
+      "path": "notes/BST_Observer_Particle_Synthesis.md",
+      "category": "paper",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #6. v4 Draft. 6 thm refs (all valid), 1 toy ref (valid). No broken refs."
+    },
+    {
+      "path": "notes/BST_Science_Engineering.md",
+      "category": "paper",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #7. v2 Draft. 11 thm refs (all valid), 0 toy refs. No broken refs."
+    },
+    {
+      "path": "notes/BST_Predictions_Paper.md",
+      "category": "paper",
+      "last_audited": "2026-04-14",
+      "auditor": "claude",
+      "status": "current",
+      "last_modified": "2026-04-14",
+      "notes": "Paper #10. v3 Draft. 29 thm refs (all valid), 6 toy refs (all valid). No broken refs."
     }
   ]
 }

@@ -49,6 +49,8 @@ m_p    = 6 * pi5 * m_e      # proton mass, MeV
 m_e_GeV = m_e / 1000.0
 m_p_GeV = m_p / 1000.0
 hbar_c = 197.3269804         # MeV*fm
+c_light = 2.99792458e8       # speed of light, m/s
+H_0 = 67.4 * 1e3 / 3.0857e22  # Hubble constant, 1/s (67.4 km/s/Mpc)
 
 # Aliases for formula_code evaluation
 ln = log
@@ -65,6 +67,7 @@ EVAL_NS = {
     'abs': abs, 'pow': pow, 'float': float, 'inf': inf,
     'm_e': m_e, 'm_e_GeV': m_e_GeV, 'm_p': m_p, 'm_p_GeV': m_p_GeV,
     'hbar_c': hbar_c,
+    'c_light': c_light, 'H_0': H_0,
 }
 
 # ── Data Loading ─────────────────────────────────────────────────────────
