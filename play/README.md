@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**1,194 computational toys, 4 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**1,221 computational toys, 4 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 1,194 |
-| Numbered toys (toy_NNN_*.py) | 986 |
+| Toy scripts (toy_*.py) | 1,221 |
+| Numbered toys (toy_NNN_*.py) | 1,013 |
 | Named toys (toy_name.py) | 208 |
 | Utility scripts (non-toy .py) | 56 |
 | HTML visualizers | 4 |
-| Theorems (T1-T1228+) | 1,228+ |
-| Next toy number | 1182 |
+| Theorems (T1-T1266+) | 1,266+ |
+| Next toy number | 1207 |
 | Predictions | 507+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -111,8 +111,8 @@ Two gitignored counter files prevent toy/theorem number collisions:
 
 | File | Current Value | Purpose |
 |------|---------------|---------|
-| `.next_toy` | 1182 | Next available toy number |
-| `.next_theorem` | 1228 | Next available theorem number |
+| `.next_toy` | 1207 | Next available toy number |
+| `.next_theorem` | 1267 | Next available theorem number |
 
 **Rules:**
 1. ALWAYS read the counter file before creating a new toy or theorem.

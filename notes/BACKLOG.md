@@ -2,7 +2,7 @@
 
 *Deferred and waiting items. Active work lives on CI_BOARD.md.*
 
-**Last updated:** April 13, 2026 (night). T1-T1227. 1181+ toys. 1155 nodes, 4878 edges. Strong 75.9%. Zero leaves. 130+ domains. 64 papers.
+**Last updated:** April 15, 2026. T1-T1232. 1183+ toys. 1185 nodes, 4976 edges. Strong 76.3%. Zero leaves. 130+ domains. 64 papers.
 
 **Archive**: Prior completions → `notes/.running/BACKLOG_archive_2026-04-11.md`
 
@@ -47,6 +47,23 @@
 
 ---
 
+## Open Problems — Four Readings Gap (April 15)
+
+| # | Item | Owner | Notes |
+|---|------|-------|-------|
+| ~~FR-1~~ | ~~**Spectral chain theorem**~~ | Lyra | **CLOSED.** T1245 (Selberg Bridge): Gangolli-Warner (1968-1984) guarantees spectral = geometric for SO_0(5,2). T1244 (Spectral Chain): 5-link chain all verified. |
+| ~~FR-2~~ | ~~**Harish-Chandra c-function for SO_0(5,2)**~~ | Elie | **CLOSED.** Toys 1195+1196. B₂ root system: m_s=N_c=3 short roots. 3/4 = m_s/rank² from short root factor. ζ(3) at ζ_Δ(3/2). |
+| ~~FR-3~~ | ~~**L-loop = L-fold heat kernel convolution**~~ | Elie | **SUPPORTED.** Toy 1193, 12/12 PASS. ζ(2L−1) rule matches all 5 known QED loop orders. |
+| ~~FR-4~~ | ~~**ζ(N_c) as error-correction cost**~~ | Lyra | **DONE.** T1241. Four information roles: hold/correct/transmit/shape. |
+
+## Open Problems (from README, April 15)
+
+| # | Item | Owner | Notes |
+|---|------|-------|-------|
+| OP-1 | **Gravity derivation** — torsion-free completion | Lyra | Substantially closed via O'Neill formulas |
+| OP-2 | **T155 formalization** — formal Jordan curve proof | Grace | 861/861 empirical, formal proof needed |
+| OP-3 | **Ramanujan conjecture for Sp(6)** — step 6 of winding-to-zeta | Lyra | **T1262 written (CONDITIONAL).** Overconstrained: 7 constraints vs 6 non-tempered types. Triple pole mechanism identified. Explicit Maass-Selberg computation remains. |
+
 ## Deferred — Longer Term
 
 | # | Item | Owner | Notes |
@@ -57,6 +74,35 @@
 | ~~INV-3~~ | ~~**Self-reflective graph**~~ | Lyra | **DONE — T1196.** Median=n_C, mode=rank, avg≈2^{N_c}, Q6≈f_crit. |
 | INV-4 | **"What BST Gets Wrong" paper (#62)** | Grace | Casey buy-in needed. 30/27/43 split. |
 | ~~SUB-5~~ | ~~**Matter construction**~~ | Lyra + Grace | **DONE — T1168.** Inverse design theorem. Three pathways. 109 candidates. |
+
+## April 15 Morning Breakthroughs
+
+**ACTIVE on board — do not duplicate:**
+- **Odd zeta values / Four-readings framework** → P0 on board. Paper #65 "The Zeta Function of Spacetime"
+- **230 space groups theorem** → G-1 on board. T1235.
+- **Consonance→Cooperation** → L-2 on board. T1236-T1238.
+
+## Investigations (April 15 consensus)
+
+| # | Item | Owner | Notes |
+|---|------|-------|-------|
+| INV-5 | **Consonance→Cooperation through-line** | Team | **ACTIVE.** 2 hops via genetic code confirmed. Dopamine as f_crit mechanism. Pentatonic = n_C. → L-2 on board |
+| INV-6 | **Toy 671 runtime ↔ BST integer shells** | Elie | Casey: wait for current 671 run to finish, THEN instrument re-run with timing + additional checks. Trigger: 671 completion. Predictions: (1) spikes at speaking pairs k=5,6/10,11/15,16; (2) runtime ∝ BST integer factor count; (3) non-speaking levels flat. Also consider: memory usage, intermediate precision requirements, coefficient magnitude correlation. → BACKBOARD |
+| INV-7 | **Odd zeta values** | Lyra | **BREAKTHROUGH.** ζ_{≤g}(N_c) = C_2/n_C. Four-readings framework. → P0 on board |
+| INV-8 | **230 space groups** | Grace | **SOLVED.** 240−230 = dim_ℂ(D_IV^5). → G-1 on board |
+| INV-9 | **Consonance→Chemistry (7/5 barriers)** | Grace | 7/5 = g/n_C in reaction barriers. Catalysis 7/5 resonances? |
+| INV-10 | **Knot theory → DNA topology** | Grace | Trefoil crossing = N_c. DNA supercoiling from BST integers → G-5 on board |
+| INV-11 | **Dark boundary at prime 11** | Grace | Why 11? 11 = 2n_C+1. First prime needing all 5 BST primes by addition |
+| INV-12 | **Error-correction universality (7,4,3)** | Lyra | Why same code at every scale? Bergman spectral gap forces it? → L-3 on board |
+| INV-13 | **Four Misses → Zero Misses update** | Lyra | Paper #64 v1.2: "500+ predictions, zero confirmed misses" |
+| INV-14 | **Four forces as four readings** | Lyra | Strong=counting, Weak=ζ, EM=spectral, Gravity=metric. Not a GUT — geometric. → Z-3 on board |
+| INV-15 | **QED precision constants** | Elie | Lamb shift, g-2, hyperfine. Only 1 QED constant recorded → E-2 on board |
+| INV-16 | **Superconductivity catalog** | Elie | 43 files reference it, only 3 constants. BCS gap 0.79% → E-3 on board |
+| INV-17 | **Strong CP verification** | Elie | θ=0 from geometry. Axion non-existence → E-5 on board |
+| INV-18 | **Testable-now predictions** | Elie | EHT CP (Tamara), neural γ/α (EEG data) |
+| INV-19 | **Weak force = ζ(N_c) precision check** | Elie | Does ζ(3) appear in weak coupling? G_F connection? Literature verification |
+| ~~INV-20~~ | ~~**Dark sector gradient**~~ | Lyra | **CLOSED.** T1233 Part IV. D(s) decreasing, nuclear (s=3) most dark-contaminated, gravity (s=7) purest. |
+| ~~INV-21~~ | ~~**Wolstenholme quotient**~~ | Team | **CLOSED.** Elie Toy 1205 (W_p=1 only at {5,7}). Lyra T1263 (WHY: Chern→Bernoulli→harmonic→N_max). |
 
 ## Substrate Engineering Devices
 

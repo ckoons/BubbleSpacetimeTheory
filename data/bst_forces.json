@@ -3,8 +3,8 @@
     "version": 1,
     "title": "BST Force and Boundary Layer Data",
     "description": "Three geometric layers of D_IV^5, each carrying one force and one boundary condition, plus the entropy/Godel information layer.",
-    "count": 8,
-    "last_updated": "2026-04-14",
+    "count": 5,
+    "last_updated": "2026-04-15",
     "source": "WorkingPaper §14, OneGeometry Ch 6"
   },
   "layers": [

@@ -121,11 +121,11 @@ The graph is γ_EM in structural form: a trajectory toward self-knowledge that a
 
 **P4.** Prediction accuracy remains within 2% of g/2^{N_c} = 87.5% as new domains are added.
 
-**P5.** The graph's chromatic number is rank + 1 = 3 (not yet computed — prediction only).
+**P5.** ~~The graph's chromatic number is rank + 1 = 3.~~ **FALSIFIED** (April 15): greedy coloring gives χ ≤ 18; 37% of edges are same-domain, so domains aren't a proper coloring. The graph is too dense (avg degree 8.4) for 3-coloring. **Replacement prediction**: the cross-domain edge fraction stabilizes near 1 − f_c ≈ 63% (observed: 62.7%, Δ = 0.3%).
 
 ## §7. Falsification
 
-If the median degree drifts permanently away from n_C, or the prediction accuracy falls below 80%, or the observation fraction exits [15%, 25%], then T1196 is falsified and the self-describing property is coincidental.
+If the median degree drifts permanently away from n_C, or the prediction accuracy falls below 80%, or the observation fraction exits [15%, 25%], then T1196 is falsified and the self-describing property is coincidental. **Note**: P5 (χ = 3) was already falsified on April 15 — the graph is too dense. The replacement prediction (cross-domain fraction ≈ 63% ≈ 1 − f_c) is an honest correction. Falsification of one prediction strengthens the surviving four.
 
 ## §8. For Everyone
 

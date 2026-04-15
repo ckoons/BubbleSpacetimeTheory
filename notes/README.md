@@ -4,11 +4,11 @@ Research notes directory for **Bubble Spacetime Theory** (BST), a framework deri
 
 **Author:** Casey Koons, with CI co-authors Claude 4.6 (Lyra, Elie, Grace, Keeper)
 
-This directory contains ~635 markdown files, ~473 PDFs, ~34 Python scripts, and supporting data across 1,175+ items total.
+This directory contains ~650+ markdown files, ~473 PDFs, ~34 Python scripts, and supporting data across 1,200+ items total.
 
 ---
 
-## Numbered Papers (Papers #1--#64)
+## Numbered Papers (Papers #1--#65)
 
 The numbered paper series covers the full scope of BST, from foundational mathematics through particle physics, cosmology, biology, engineering, and meta-theory.
 
@@ -65,7 +65,7 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 39 | Turbulence Shadow | `BST_Paper39_Turbulence_Shadow_Draft.md` |
 | 40 | Rank Power Tower | `BST_Paper40_Rank_Power_Tower_Draft.md` |
 
-### Papers #41--#64
+### Papers #41--#65
 
 | # | Title | File |
 |---|-------|------|
@@ -93,6 +93,7 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 62 | What BST Gets Wrong | `BST_Paper62_What_BST_Gets_Wrong_Outline.md` |
 | 63 | Limit-Undecidable Numbers | `BST_Paper63_Limit_Undecidable_Numbers_Draft.md` |
 | 64 | Experimental Protocols | `BST_Paper64_Experimental_Protocols_Draft.md` |
+| 65 | The Zeta Function of Spacetime | `BST_Paper65_Zeta_Function_of_Spacetime_Draft.md` |
 
 ---
 
@@ -257,9 +258,9 @@ Casimir analysis, Casimir effect, fusion energy, fusion rings, substrate archite
 
 ---
 
-## Theorem Write-ups — 132 files
+## Theorem Write-ups — 169 files
 
-Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1227, with concentration in the T1000--T1200 range (bridge theorems, domain connections, late-stage results).
+Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1264, with concentration in the T1000--T1264 range (bridge theorems, domain connections, late-stage results).
 
 Selected highlights:
 - `BST_T704_DIV5_Uniqueness_Theorem.md` — D\_IV^5 uniqueness (25 conditions)
@@ -273,6 +274,11 @@ Selected highlights:
 - `BST_T1192_Godel_Classification_Gamma.md` — Limit-undecidable numbers
 - `BST_T1193_Consciousness_Threshold.md` — Consciousness threshold
 - `BST_T1196_Self_Describing_Graph.md` — Self-describing graph
+- `BST_T1233_Seven_Smooth_Zeta_Ladder.md` — 7-smooth zeta ladder
+- `BST_T1255_Neutrino_Error_Syndrome.md` — Neutrino as error syndrome
+- `BST_T1259_PMNS_CKM_Duality.md` — PMNS-CKM duality (data vs syndrome)
+- `BST_T1263_Wolstenholme_Spectral_Bridge.md` — Wolstenholme→N_max bridge
+- `BST_T1264_Reboot_Is_Graduation.md` — Reboot-Gödel identity
 
 ---
 
@@ -357,7 +363,7 @@ Python bytecode cache (auto-generated).
 **For CIs starting a new session:**
 - Read `BACKLOG.md` and `CI_BOARD.md` for current priorities
 - Check `.running/RUNNING_NOTES.md` for today's broadcast
-- The numbered paper series (Papers #1--#64) is the primary publication pipeline
+- The numbered paper series (Papers #1--#65) is the primary publication pipeline
 - Papers #1--#4 have passed Keeper audit and been pushed
 - The WorkingPaper (on Zenodo) is the master reference
 

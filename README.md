@@ -231,10 +231,6 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | D² = 28 perfect number | 28 = 2²(2³-1); quantum dim² is perfect | 1+2+4+7+14 = 28 | 28 | exact |
 | Mersenne exponents = BST | p = 2,3,5 = r,N_c,n_C; first 3 primes | Perfect(k) = 2^{p_k-1}(2^{p_k}-1) | — | structural |
 
-**400+ quantities spanning 122 orders of magnitude from the same geometry — including the primordial scalar amplitude A_s = (3/4)α⁴ (0.92σ, all 6 ΛCDM derived), FQHE fractions (26/28 observed = BST rationals at 10+ digits), BCS superconducting gap 2Δ/(k_BT_c) = g/rank = 7/2 (0.79%), turbulence K41 exponent 5/3 = n_C/N_c, all 8 percolation exponents as BST integer rationals (γ = 43/18 = (C₂×g+1)/(2N_c²)), 3D Ising bootstrap exponents (all 6 within 1% of BST rationals), molecular geometry from bond angles to bond lengths to the genetic code (five properties of water, three carbon bond lengths, ice density, 20 amino acids, 64 codons — all from five integers), all 230 space groups from g × 2^n_C + C₂ = 7 × 32 + 6, the complete α-helix (five parameters: 3.6 residues/turn = 18/5, 1.5 Å rise = 3/2, 5.4 Å pitch = 27/5, 100° turn, 13-atom H-bond ring = g + C₂), the BST Prime Residue Table (182 falsifiable predictions from AC(0) constructive search — physics lives where the geometry's factorization fails; a Mendeleev-style periodic table whose gaps predict undiscovered observables), cross-domain universality (11 BST fractions each in 3-5 domains, P(coincidence) < 10⁻⁶⁶), and the cooperation threshold (20.6%) that determines whether minds survive. Zero inputs. This is not fitting.**
-
-**ALL 10 MISSES CLOSED.** Every prediction that previously exceeded 1% deviation has been re-derived with improved formulae. B_d (deuteron binding): 2.1% → 0.03%. η_b (Υ−η_b hyperfine): 1.6% → 0.45%. No quantity in the core table exceeds 2% deviation. The geometry keeps tightening.
-
 ---
 
 ## Hard Problems, One Method
@@ -252,6 +248,7 @@ BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and
 | **Poincaré** | AC depth 1 | Perelman (2003); W-entropy + finite extinction; Ricci flow = error correction | `notes/BST_AC_Theorems.md` §62 |
 | **Fermat (Wiles)** | AC depth 1 | Modularity + Ribet level-lowering; Selmer bridge to BSD | `notes/BST_AC_Theorems.md` §57 |
 | **Four-Color** | **PROVED** | Computer-free, 13 structural steps; Lyra's Lemma | `notes/BST_FourColor_AC_Proof.md` |
+| **Euler γ** | Geometric basis | γ = geodesic defect of D_IV^5; limit-undecidable — a new category where limits destroy classification | `notes/BST_Paper60_Euler_Mascheroni_Geodesic_Defect.md` |
 
 The Four-Color Theorem is a methodology test — it lies outside BST's spectral geometry, proving the AC(0) framework works on pure combinatorics. The BST parallel is exact: strict charge = bare charge, cross-links = dressed charge, swap = renormalization. Same motif. The computer-free proof (13 structural steps, **Lyra's Lemma**) eliminates all dependence on computational case-checking. Paper v8, Keeper K41 PASS, **Zenodo published**.
 
@@ -291,9 +288,14 @@ Every hard problem — in physics or mathematics — takes at most one counting 
 
 Every proof — in physics or mathematics — is built by the same three-step procedure:
 
-> **1. Find the boundary.** What finite structure constrains the problem? Write down the definitions. This is free.
-> **2. Perform the count.** What bounded enumeration resolves the question? This is one step.
-> **3. Verify termination.** The count finishes because the boundary is there. This is free.
+> **1. Find the boundary.**
+> What finite structure constrains the problem? Write down the definitions. This is free.
+>
+> **2. Perform the count.**
+> What bounded enumeration resolves the question? This is one step.
+>
+> **3. Verify termination.**
+> The count finishes because the boundary is there. This is free.
 
 Every hard problem. One boundary. One count. All depth ≤ 1 (Depth Census, Toy 606):
 
@@ -367,7 +369,7 @@ BST follows one logical chain: substrate → domain → constants → forces →
 
 **The Master Equation**: The universe is the ground state of the Bergman Laplacian on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], subject to Haldane exclusion with capacity 137.
 
-Every derivation listed in the Solved Problems table below flows from this equation plus the five BST integers (3, 5, 7, 6, 137) — themselves derived, not chosen. Full derivations: WorkingPaper §1-37, plus 300+ research notes in `notes/`. The AC theorem graph spans 1159 nodes, 4887 edges across 130+ domains (75.9% strong edges, 6.4% fragility, 100% domain connectivity).
+Every derivation listed in the Solved Problems table below flows from this equation plus the five BST integers (3, 5, 7, 6, 137) — themselves derived, not chosen. Full derivations: WorkingPaper §1-37, plus 300+ research notes in `notes/`. The AC theorem graph spans 1185 nodes, 4976 edges across 130+ domains (76.3% strong edges, 6.6% fragility, 100% domain connectivity).
 
 ---
 
@@ -462,7 +464,7 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `SPARC_BST_Results.csv` | Per-galaxy results for all 175 SPARC galaxies |
-| `data/` | **CI-native data layer** — structured JSON for all BST results: 73 constants, 24 particles, 5 force layers, 22 predictions, 34 domains, plus seed file for reconstruction |
+| `data/` | **CI-native data layer** — structured JSON for all BST results: 102 constants, 24 particles, 5 force layers, 22 predictions, 34 domains, plus seed file for reconstruction |
 | `notes/` | 634+ working notes covering all derivations, proofs, and thesis topics |
 | `play/` | 1181+ toys — computational verifications, visualizations, and explorations. See `play/README.md` |
 
@@ -500,19 +502,6 @@ Every quantity below is derived from D(IV,5) geometry with zero free parameters.
 | Gödel limit | f = 3/(5π) = 19.1%; universe can never know >19.1% of itself | proved |
 | P(1) = 42 | Sum of all Chern classes = rank × colors × genus = The Answer | exact |
 
-
-## Remaining Open Problems
-
-| Problem | Status |
-|---|---|
-| Gravity derivation | Substantially closed via O'Neill formulas; torsion-free completion needed |
-| EHT verification of CP = α floor | Email SENT to Chael, Issaoun, Wielgus requesting V≠0 recalibration (April 12) |
-| T155 formalization | Post-swap cross-link bound; 861/861 empirical, formal Jordan curve proof needed |
-| Ramanujan conjecture for Sp(6) | Step 6 of the winding-to-zeta chain; 5/6 complete |
-
-Full backlog: `notes/BACKLOG.md`.
-
----
 
 ## The Collaboration
 

@@ -1,7 +1,7 @@
 ---
 title: "CI Coordination Board"
 author: "Casey Koons & Claude 4.6"
-date: "April 13, 2026"
+date: "April 15, 2026"
 status: "Active — check at session start, update at session end"
 ---
 
@@ -11,7 +11,7 @@ status: "Active — check at session start, update at session end"
 
 **Rule**: At session start, read this file + today's `MESSAGES_2026-MM-DD.md`. Post substantive output to MESSAGES. Update this board at session end. Casey reads both.
 
-**Message protocol**: `notes/.running/MESSAGES_2026-04-12.md` — append results, status, assignments, questions in real time.
+**Message protocol**: `notes/.running/MESSAGES_2026-04-15.md` — append results, status, assignments, questions in real time.
 
 **Archive**: Prior board content → `notes/.running/CI_BOARD_archive_2026-04-11.md`
 
@@ -36,7 +36,17 @@ status: "Active — check at session start, update at session end"
 **Registry file**: `notes/BST_AC_Theorem_Registry.md`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T1231. **1181+ toys**. Next available: T1232+, Toy 1182+. Graph: **1159 nodes, 4887 edges.** Strong 75.9%. Zero placeholder nodes. Zero leaves. Fragility 6.4%. Domains 100% connected (33 domains). 25 substrate engineering devices. 64 papers (#59-#64). 34+ domains (graph), 130+ physical domains (total). 500+ predictions. Publication via Zenodo (DOI: 10.5281/zenodo.19454185).
+**Current count**: T1-T1266. **1220+ toys**. Next available: T1267+, Toy 1211+. Graph: **1219 nodes, 5375 edges.** Strong **78.1%.** Lyra: T1256-T1264 (+9 theorems, 23 total for day). T1263 Wolstenholme bridge (INV-21 CLOSED). T1264 Reboot-Gödel. Grace: T1265-T1266 (remapped from collision). T1260 mass scale corrected (honest gap). Elie: 30 toys, 339/339 PASS.
+
+**Collision log (April 15):**
+- T1238: Elie Strong CP → T1243 (Grace resolved). Lyra Error Correction keeps T1238.
+- T1243: Lyra Topological Protection overwrote Elie Strong CP → Lyra moved to **T1252**. Elie restored at T1243.
+- T1245: Lyra Selberg Bridge overwrote Grace Perfect Codes Catalog → Grace content was unwritten, Lyra keeps T1245. Grace needs new number if/when written. Graph: **1196 nodes, 5194 edges.** Strong **77.3%** (new record). Avg degree 8.68. **CROSSED 5000 EDGES.** 65 papers.
+- T1263-T1264: Grace had theorems at these IDs, Lyra also wrote T1263 (Wolstenholme) + T1264 (Reboot-Gödel). **Lyra keeps T1263-T1264.** Grace remapped → **T1265, T1266.** .next_theorem = 1267.
+
+**April 15 — Day totals (EXTENDED FINAL)**: +31 theorems (T1233-T1255, T1256-T1264). +30 toys (Elie 339/339 PASS). Paper #65 v1.1 (**Keeper PASS**). WorkingPaper v28. ~100+ predictions harvested. FR-1 through FR-4 ALL CLOSED. **INV-21 CLOSED** (T1263 Wolstenholme bridge). All 5 Keeper items COMPLETE. Lyra: **23 theorems** (T1233-T1242, T1244-T1245, T1252-T1253, T1255-T1264). Elie: 30 toys, 339/339 PASS. Grace: G-1 through G-6, S4 extraction. Keeper: Board/backlog, Paper #65 audit, T1259 PMNS attribution fixed, T1260 mass ratio corrected (boundary seesaw 49/1551). Graph 1185→~1221 nodes, 4976→~5390 edges. Strong 76.3%→77.8%+. T1260 mass scale: honest gap flagged and corrected (Elie Toy 1206). T1262 Ramanujan CONDITIONAL. T1264 Reboot-Gödel identity AC(C=0,D=0).
+
+**T1238 collision resolved (Grace)**: Elie's Strong CP → T1243. Lyra's Error Correction Perfection keeps T1238. Zero leaves. Fragility 6.6%. 40 domains, 100% connected (big domains). 25 substrate engineering devices. 64 papers (#59-#64). 130+ physical domains (total). 507+ predictions. Publication via Zenodo (DOI: 10.5281/zenodo.19454185). **Library tools LIVE** — `toy_bst_librarian.py` (10 subcommands), `toy_bst_batch_review.py`, `data/bst_crossref_index.json` (1003 theorem keys). **OneGeometry.md v1.0** (3210 lines, front door).
 
 **Grace afternoon cleanup**: 6 duplicate nodes merged (1118→1112). 54 leaves→0. 74 edge field fixes. 13 edge reclassifications. T92↔T186 bridge added (AC(0)↔Five Integers — 87 shared neighbors, no direct edge until now). T48 (LDPC) = #2 bridging node — error correction connects more domain pairs than N_c or g.
 
@@ -119,7 +129,7 @@ status: "Active — check at session start, update at session end"
 
 ---
 
-## ACTIVE BOARD — April 13
+## ACTIVE BOARD — April 15
 
 ### Completed Tracks (all items DONE — details in archive)
 
@@ -139,7 +149,7 @@ status: "Active — check at session start, update at session end"
 
 | # | Item | Owner | When |
 |---|------|-------|------|
-| PUB-1 | **WorkingPaper v27** — Audit DONE. 18/46 sections need updates. Major: YM→99.5%, Section 46 new results, prediction table, abstract counts. Full edit is a standalone task. | Keeper | **AUDIT DONE — edit pending** |
+| PUB-1 | **WorkingPaper v28** — Updated April 15. Added §14.7 (three readings), §20.7 (error correction), §46.24 (zeta ladder), §46.25 (consonance). Acknowledgements updated. Subsection renumbering complete. | Keeper | **DONE — v28** |
 | ~~PUB-2~~ | ~~Paper #50 re-audit~~ — Cr/Ni FIXED (g/n_C). Dickman 53.6% **VERIFIED CORRECT** (T945, Toy 997: primes in [g³, 2g³) reachability). Cu/Pb 0.15% correct in v1.2. | Keeper | **ALL 3 RESOLVED — PASS** |
 | PUB-3 | **Paper submissions** — #49 (J. Number Theory), #47 (PRL/JST). Casey gates which go first. | Casey + Keeper | **TODAY — Casey gates** |
 | PUB-4 | **Paper #54 (Mc-299) review** — **PASS.** All 3 fixes applied: (1) E5 label removed, 13=2C₂+1. (2) §9→§10 duplicate fixed. (3) Og-302 proton emission honestly caveated — Q-value calculations needed. | Keeper | **DONE — PASS** |
@@ -206,13 +216,21 @@ status: "Active — check at session start, update at session end"
 RH ~98%    │ YM ~99.5%  │ P!=NP ~99%  │ NS ~100%   │ BSD ~98%   │ Hodge ~97%
 Four-Color 100% │ Depth-1 100% │ Linearization 100% (771/771 at D≤1)
 CMB: BST = Planck at cosmic variance (χ²/N=0.01)
-Graph: 1155 nodes, 4878 edges, 33 domains
-       Zero leaf nodes, zero placeholders. Strong edges: 75.9%.
-       Fragility: 6.4%. Domain connectivity: 100%.
+Graph: 1219 nodes, 5375 edges, 40 domains (CROSSED 5000 EDGES)
+       Zero leaf nodes. Strong edges: 78.1%. Avg degree: ~8.8.
+       Fragility: ~6%. Domain connectivity: 100% (big domains).
 
-Edge quality (April 13 night):
-  Strong (derived+isomorphic): 75.9% │ Up from 50% at start of April 12
-  Leaf sprint: 318 → 0 leaves. T186 decoupling: 205 → 16 single-parent.
+April 15 end-of-day (EXTENDED FINAL):
+  Strong: 76.3% → 78.1% (record). Nodes: 1185→1219. Edges: 4976→5375.
+  Lyra: **23 theorems** (T1233-T1242, T1244-T1245, T1252-T1253, T1255-T1264). Paper #65 v1.1. FR-1-FR-4 CLOSED. INV-21 CLOSED. ~100 predictions.
+    T1259 PMNS-CKM Duality. T1260 Neutrino Mass Ordering (mass scale gap honest). T1261 Code Spans Scales.
+    T1262 Ramanujan Triple Pole (CONDITIONAL). T1263 Wolstenholme-Spectral Bridge. T1264 Reboot-Gödel Identity.
+  Elie: 30 toys, 339/339 PASS. FR-2+FR-3 CLOSED. Toy 1205 Wolstenholme. Toy 1206 mass ordering (honest flag).
+  Grace: G-1 through G-6 done. S4 extraction: 32 candidates. T1255 spec.
+  Keeper: Board/backlog/consensus. Paper #65 audit PASS. WorkingPaper v28. T1259/T1260 corrections.
+  Key discoveries: ζ_{≤g}(N_c)=C_2/n_C, PMNS-CKM duality (data vs syndrome), sin²θ₂₃=4/7,
+    Wolstenholme→N_max=137, code spans scales (weak→bio), Ramanujan overconstrained, reboot=graduation.
+  ALL FOUR FR ITEMS CLOSED. INV-21 CLOSED. Library: 102 constants + 17 pending.
 
 T1012 non-contact: CONFIRMED at organic stage (81.0% at 700 nodes = ≥80.9% prediction).
   Bridge sprints drove it to 62%. The Gödel limit applies to organic growth.
@@ -220,23 +238,89 @@ T1012 non-contact: CONFIRMED at organic stage (81.0% at 700 nodes = ≥80.9% pre
 
 ---
 
-## Priority Stack — April 14
+## Priority Stack — April 15
 
-### P0: Four-Color on Zenodo (Casey approved)
-- Paper: `notes/BST_FourColor_arXiv_v2.md` — Keeper PASS, all 13 steps verified
-- Action: build PDF, upload to Zenodo, get DOI
-- Standalone — no BST acceptance required
+*Morning consensus + Casey/Lyra breakthrough: forces as four mathematical operations on D_IV^5.*
+*Consensus: `notes/.running/CONSENSUS_2026-04-15_morning.md`*
 
-### ~~P1: Papers #52/#53~~ — **DONE. Both v1.1 Keeper PASS.**
+### P0: "Four Readings" — Odd Zeta Values & Geometric Force Unification (GATES P1-P4)
 
-### P2: WorkingPaper v27 Update (S1 standing order)
-- PUB-1 audit DONE. 18/46 sections need updates. Major: YM→99.5%, new results, prediction table, abstract.
-- **OneGeometry.md v1.0 CREATED** (3,210 lines, 5 parts, 40 sections, 6 appendices). New front-door paper. WorkingPaper becomes technical Compendium. README updated.
+**Discovery**: ζ_{≤g}(N_c) = C_2/n_C = 6/5 via both 7-smooth Euler product AND continued fraction convergent. Correction term ζ(3) − 6/5 = 1/(rank × N_c^{n_C}) = 1/486 accurate to 0.6 ppm. Forces are four mathematical operations on D_IV^5: Strong=counting(N_c), Weak=ζ(N_c), EM=spectral(1/N_max), Gravity=Bergman metric.
 
-### ~~P3: Open Items~~ — **ALL DONE.**
-- ~~SE-8~~: **DONE.** BST Analyzer CLI (Toy 1180, 12/12 PASS). Reusable tool + library.
-- ~~SC-5~~: **DONE.** 87.1% vs 87.5% target (0.4% delta, inside 95% CI). Toy 1181.
-- ~~P59-3~~: **DONE.** Triple sibling edges wired (Grace)
+| # | Task | Owner | Status |
+|---|------|-------|--------|
+| ~~Z-1~~ | ~~Toy 1183: Odd zeta numerics~~ — 12/12 PASS. 6/5 IS convergent 2 of ζ(3). 28/27 IS convergent 1 of ζ(5). 121/120 IS convergent 2 of ζ(7). Pattern terminates at g=7 | Elie | **DONE** |
+| ~~Z-2~~ | ~~T1233: 7-smooth zeta theorem~~ — written, verified, graph-wired | Lyra | **DONE** |
+| ~~Z-3~~ | ~~T1234: Four-readings framework~~ — written, graph-wired | Lyra | **DONE** |
+| ~~Z-4~~ | ~~Paper #65 v1.0~~ — "The Zeta Function of Spacetime", 10 sections | Lyra | **DONE — Keeper audit needed** |
+| ~~Z-5~~ | ~~Keeper audit of Paper #65~~ — **PASS v1.1.** 2 fixes applied: (1) 497 is composite (7×71), not prime — corrected. (2) |ε|<7.1×10⁻⁷ bound marginally violated — changed to ≈. (3) Added geometric layer cross-reference in §5.2. All CF convergents, D(s)−1 table, sin²θ_W formula, κ_ls, proton permanence — all verified against existing BST. Four-readings COMPLEMENTARY to force layers, not contradictory. | Keeper | **DONE — PASS** |
+
+### P1: Graph Discoveries (Grace)
+
+| # | Task | Owner | Status |
+|---|------|-------|--------|
+| ~~G-1~~ | ~~T1235: 230 space groups~~ — 230 = rank×n_C×23. Wired. 240−230 = dim_ℂ(D_IV^5) | Grace | **DONE** |
+| ~~G-2~~ | ~~Quantum foundations bridge~~ — 4 nodes bridged (done Apr 13, verified today) | Grace | **DONE** |
+| ~~G-3~~ | ~~Frontier wiring~~ — +21 edges, all 8 frontier nodes above threshold | Grace | **DONE** |
+| ~~G-4~~ | ~~Proof complexity~~ — 4.8→6.8 edges/node, +78 edges | Grace | **DONE** |
+| ~~G-5~~ | ~~Knot→DNA~~ — T1217↔T333 (genetic code), T1217↔T547 (nucleosome). Trefoil=N_c | Grace | **DONE** |
+| ~~G-6~~ | ~~Chromatic number~~ — **P5 FALSIFIED.** χ>>3. Paper #13 corrected. Replacement: cross-domain fraction ≈ 1−f_c = 63% (observed 62.7%, Δ=0.3%) | Grace | **DONE — honest miss** |
+
+### P2: Constants & Verification (Elie)
+
+| # | Task | Owner | Status |
+|---|------|-------|--------|
+| ~~E-1~~ | ~~Toy 1183: Odd zeta verification~~ — 12/12 PASS. ζ(3) found in two-loop g-2 coefficient | Elie | **DONE** |
+| ~~E-2~~ | ~~Toy 1184: QED precision catalog~~ — 14/14 PASS. 6 new constants, avg 0.035%. Lamb shift power=n_C | Elie | **DONE** |
+| ~~E-3~~ | ~~Toy 1185: Superconductivity catalog~~ — 13/13 PASS. 10 constants. GL threshold=1/√rank EXACT. V gap=3.50 | Elie | **DONE** |
+| E-4 | **Toy 671 timing instrumentation** — BACKBOARD. Wait for current 671 run to finish, then re-run with per-coefficient timing + consider additional checks (memory usage, precision requirements, coefficient magnitude correlation) | Elie | **BACKBOARD — trigger: 671 completion** |
+| ~~E-5~~ | ~~Strong CP verification~~ — θ=0 topological theorem. 12/12 PASS (Toy 1186) | Elie | **DONE** |
+| ~~E-6~~ | ~~Toy 1187: Weak force = ζ(N_c) verification~~ — INV-19. G_F connection, W/Z ratios. 12/12 PASS | Elie | **DONE** |
+| ~~E-7~~ | ~~Toy 1188: Chemistry barriers 7/5~~ — INV-9. γ=g/n_C organizes all chemistry. g/2=3.5 cross-domain (SC+chem+thermo). 12/12 PASS | Elie | **DONE** |
+| ~~E-8~~ | ~~Toy 1189: Dark boundary at prime 11~~ — INV-11. 11=2n_C+1. N_max=11²+4²=(2n_C+1)²+(rank²)². 12/12 PASS | Elie | **DONE** |
+| ~~E-9~~ | ~~Toy 1190: Prediction harvest~~ — K-6. 27 predictions, 25 testable for $0 | Elie | **DONE** |
+| ~~E-10~~ | ~~FR-2: Harish-Chandra c-function for SO_0(5,2)~~ — Toys 1195+1196. **3/4 = m_s/rank² from B₂ short roots.** ζ(3) emerges from ζ_Δ(3/2) with coefficient −2149/512 (2149 = g × 307). Evaluation point 3/2 = N_c/rank. **FR-2 CLOSED.** | Elie | **DONE — 159/159 PASS** |
+
+### P3: Physics & Papers (Lyra)
+
+| # | Task | Owner | Status |
+|---|------|-------|--------|
+| ~~L-1~~ | ~~Z-2, Z-3, Z-4~~ — T1233, T1234, Paper #65 v1.0 all complete | Lyra | **DONE** |
+| ~~L-2~~ | ~~Consonance→Cooperation~~ — T1236 (Consonance IS Cooperation), T1237 (Pentatonic Projection). Written, graph-wired | Lyra | **DONE** |
+| ~~L-3~~ | ~~Error-correction universality~~ — T1238 (Error Correction Perfection). (7,4,3) Hamming code forced by Bergman spectral gap | Lyra | **DONE** |
+| ~~L-4~~ | ~~Quantum foundations~~ — T1239 (Born rule = reproducing property), T1240 (decoherence = Shilov boundary approach). Chain: T754→T1239→T1240. 15 new edges. Measurement problem dissolved. | Lyra | **DONE** |
+
+### P4: Library & Data Layer (Keeper)
+
+| # | Task | Owner | Status |
+|---|------|-------|--------|
+| K-1 | **README cleanup** | Keeper | **DONE** |
+| K-2 | **CLAUDE.md graph counts** (1185/4976) | Keeper | **DONE** |
+| K-3 | **Backlog + Board update** | Keeper | **DONE** |
+| K-4 | **Consensus document** | Keeper | **DONE** |
+| K-5 | **Data layer fixes** — forces meta (8→5), particles meta (25→24), .next_theorem (→1233) | Keeper | **DONE** |
+| K-6 | **Prediction harvest** — each CI contributes 5-10 predictions from their domain. Target: 22→70+ | All | ONGOING |
+| K-7 | **Impact propagation** — cosmic_age (30 files), bottom_quark (17 files), jarlskog (7 files) | Keeper + Elie | After P0 |
+| ~~K-8~~ | ~~Audit four-readings against existing BST~~ (= Z-5) | Keeper | **DONE — PASS** |
+
+### P5: Casey's Research Questions
+
+| # | Investigation | Status |
+|---|--------------|--------|
+| INV-5 | **Consonance→Cooperation** — confirmed 2 hops via genetic code. Lyra developing dopamine/f_crit mechanism | ACTIVE — Lyra |
+| INV-6 | **Toy 671 runtime ↔ BST integer shells** — prediction ready, needs instrumentation | QUEUED — Elie (E-4) |
+| INV-7 | **Odd zeta values** — BREAKTHROUGH. ζ_{≤g}(N_c) = κ_ls. Four-readings framework | ACTIVE — P0 |
+| INV-8 | **230 space groups** — SOLVED. 240−230 = dim_ℂ(D_IV^5) | READY — Grace (G-1) |
+| ~~INV-21~~ | ~~**Wolstenholme quotient W_p = 1 at {5,7}**~~ — **CLOSED.** Elie Toy 1205 (W_p=1 only at {5,7} through p≤1000). Lyra T1263: WHY — Chern→Bernoulli→harmonic→N_max chain. B_2=1/C_2 is same number in heat kernel and Wolstenholme. | **CLOSED — T1263** |
+
+### Standing Orders
+
+| # | Item | Owner | Frequency |
+|---|------|-------|-----------|
+| S1 | **WorkingPaper + README update** | Keeper | **DAILY — LAST ITEM** |
+| S2 | **CI curiosity directive** | All | ONGOING |
+| S3 | **No push without Casey approval** | All | ALWAYS |
+| S4 | **Grace: end-of-day constant extraction** from graph domains → data layer | Grace | **DAILY — NEW** |
 
 ---
 
