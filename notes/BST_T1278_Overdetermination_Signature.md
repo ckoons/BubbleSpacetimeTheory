@@ -143,11 +143,11 @@ Documented in `notes/BST_Overdetermination_Census.md`. Counts any structurally d
 
 **Toy 1218** (N_max polynomial-identity, 14/14 PASS): evaluating three candidate polynomials for 137 at n_C ∈ {2..7} shows they agree ONLY at n_C = 5 (the T704-locked BST value). Class 1a confirmed: genuinely distinct polynomials, structurally locked.
 
-**Toy 1222** (matter-revealing prime = g = 7, 6/6 PASS): corrected Lyra's P-φρ-2′ — the matter threshold is g, not N_max. Gave g its sixth structural characterization.
+**Toy 1222** (matter-revealing prime = g = 7, 6/6 PASS): corrected Lyra's $P$-$\varphi\rho$-2' — the matter threshold is g, not N_max. Gave g its sixth structural characterization.
 
 **Toy 1223** (g=7 six-route census, 10/10 PASS): confirmed g=7 is the ONLY integer in [2,20] satisfying all six structural routes.
 
-**Toy 1224** (Bergman volume 1920, 10/10 PASS): P-φρ-3 confirmed — 1920 factors through ℤ[φ, ρ]. Bonus: 1920 mod 23 = 11 (Bergman volume mod matter discriminant = dark boundary prime).
+**Toy 1224** (Bergman volume 1920, 10/10 PASS): $P$-$\varphi\rho$-3 confirmed — 1920 factors through ℤ[φ, ρ]. Bonus: 1920 mod 23 = 11 (Bergman volume mod matter discriminant = dark boundary prime).
 
 ### Convergence
 
