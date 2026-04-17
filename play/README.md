@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**1,221 computational toys, 4 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**1,278 computational toys, 4 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,14 +11,14 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 1,221 |
-| Numbered toys (toy_NNN_*.py) | 1,013 |
-| Named toys (toy_name.py) | 208 |
+| Toy scripts (toy_*.py) | 1,278 |
+| Numbered toys (toy_NNN_*.py) | 1,069 |
+| Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 56 |
 | HTML visualizers | 4 |
-| Theorems (T1-T1266+) | 1,266+ |
-| Next toy number | 1207 |
-| Predictions | 507+ |
+| Theorems (T1-T1301+) | 1,301+ |
+| Next toy number | 1264 |
+| Predictions | 534+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
 
@@ -111,8 +111,8 @@ Two gitignored counter files prevent toy/theorem number collisions:
 
 | File | Current Value | Purpose |
 |------|---------------|---------|
-| `.next_toy` | 1207 | Next available toy number |
-| `.next_theorem` | 1267 | Next available theorem number |
+| `.next_toy` | 1263 | Next available toy number |
+| `.next_theorem` | 1302 | Next available theorem number |
 
 **Rules:**
 1. ALWAYS read the counter file before creating a new toy or theorem.
@@ -195,6 +195,10 @@ The 208 named toys include the original foundational collection and topical deep
 | 900-999 | 103 | Chemistry foundations, cosmological parameters (H_0, T_CMB, LCDM), Casimir flow cell |
 | 1000-1099 | 100 | CMB, ABC conjecture, dark sector, domain surveys (30+ scientific fields from BST) |
 | 1100-1199 | 82 | Domain completion (mathematics, psychology, linguistics, agriculture, ...), limit-undecidable numbers |
+| 1200-1229 | 20 | Overdetermination census, φρ-substrate, ρ-complement identity, three-tool classification |
+| 1229-1238 | 10 | Gödel Gradient, Distributed Gödel, modular closure, self-reference fixed point, SETI silence, UAP structural analysis |
+| 1239-1247 | 9 | Observer nearest-neighbor, $0 SETI test, UAP discrimination (3 options), 7-smooth formal test, C₂=6 tiling, substrate light emission |
+| 1248-1263 | 16 | Matter window, cooperation gradient (5 gates), cooperation nucleus, substrate reflexivity, spatial amnesia, testable-now predictions, C₂=6 fifth route, knot/DNA, k=17, Langlands-Shahidi ε-factors, gravitational exponent 24, odd-parity epsilon, KK gravity, separator duality, JCT rotation, epsilon phase incommensurability |
 
 ---
 

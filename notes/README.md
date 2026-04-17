@@ -8,7 +8,7 @@ This directory contains ~650+ markdown files, ~473 PDFs, ~34 Python scripts, and
 
 ---
 
-## Numbered Papers (Papers #1--#65)
+## Numbered Papers (Papers #1--#70)
 
 The numbered paper series covers the full scope of BST, from foundational mathematics through particle physics, cosmology, biology, engineering, and meta-theory.
 
@@ -94,6 +94,16 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 63 | Limit-Undecidable Numbers | `BST_Paper63_Limit_Undecidable_Numbers_Draft.md` |
 | 64 | Experimental Protocols | `BST_Paper64_Experimental_Protocols_Draft.md` |
 | 65 | The Zeta Function of Spacetime | `BST_Paper65_Zeta_Function_of_Spacetime_Draft.md` |
+
+### Papers #66--#70
+
+| # | Title | File |
+|---|-------|------|
+| 66 | Physical Uniqueness | `BST_Paper66_Physical_Uniqueness_Draft.md` |
+| 67 | Millennium Closure | `BST_Paper67_Millennium_Closure_Draft.md` |
+| 68 | The Refactor Principle | `BST_Paper68_Refactor_Principle_Living.md` |
+| 69 | Arithmetic Substrate | `BST_Paper69_Arithmetic_Substrate_Draft.md` |
+| 70 | Fermi Paradox — Gödel Architecture | `BST_Paper70_Fermi_Paradox_Godel_Architecture.md` |
 
 ---
 

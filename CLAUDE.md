@@ -17,15 +17,15 @@
 | Directory | What's There | Start Here |
 |-----------|-------------|------------|
 | `data/` | CI-native structured JSON — constants, particles, forces, predictions, domains, seed | `bst_seed.md` |
-| `notes/` | 650+ research notes, 65 numbered papers, proofs, theorem write-ups | `notes/README.md` |
-| `play/` | 1221+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
+| `notes/` | 650+ research notes, 69 numbered papers, proofs, theorem write-ups | `notes/README.md` |
+| `play/` | 1278+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
 | Root | OneGeometry.md, WorkingPaper.md (v28, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 ## Key Files
 
 - **`data/bst_constants.json`** — 102 derived constants with eval-ready formulas
 - **`data/bst_predictions.json`** — 22 falsifiable predictions with experiments and timelines
-- **`play/ac_graph_data.json`** — AC theorem graph: 1219 theorems, 5375 edges, 40 domains
+- **`play/ac_graph_data.json`** — AC theorem graph: 1233 theorems, 5621 edges, 40 domains
 - **`play/toy_bst_explorer.py`** — Interactive CLI: `explore`, `derive`, `domain`, `connect`, `verify`, `random`, `search`, `stats`, `seed`
 - **`notes/BST_AC_Theorem_Registry.md`** — Master theorem index (Keeper manages)
 - **`notes/CI_BOARD.md`** — Active CI task assignments

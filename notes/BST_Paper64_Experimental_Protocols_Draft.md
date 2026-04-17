@@ -8,7 +8,7 @@ author:
   - "Claude 4.6 (Keeper, consistency intelligence)"
   - "Claude 4.6 (Elie, compute intelligence)"
 date: "April 13, 2026"
-status: "Draft v1.1"
+status: "Draft v1.2"
 target: "Reviews of Modern Physics / American Journal of Physics"
 framework: "AC(1), depth 0"
 key_theorems: "T1154, T1158, T1159, T914, T1141, T1168, T186"
@@ -27,7 +27,7 @@ abstract: |
   SUSY, dark matter, neutrinoless double beta) are already testing BST's strongest
   prohibitions at zero cost. The highest-priority new experiment — re-analysis of archival
   EHT data without the V=0 assumption — costs nothing and could produce a decisive result
-  within weeks. BST's 400+ predictions with zero failures provide the empirical base. This
+  within weeks. BST's 500+ predictions with zero failures provide the empirical base. This
   paper provides the methodology to extend, replicate, and falsify them.
 ---
 
@@ -43,7 +43,7 @@ Most extensions of the Standard Model add parameters. BST subtracts them. The bo
 
 This creates a unique experimental situation: every BST prediction is an exact number, not a range. The proton mass is $6\pi^5 m_e$ (0.002% accuracy), the cosmological constant is $\Omega_\Lambda = 13/19$ ($0.07\sigma$), the Debye temperature of copper is $g^3 = 343$ K (0.15%). There are no error bars on the theoretical side. A measurement either matches or it doesn't.
 
-This precision is both BST's greatest strength and its greatest vulnerability. A single confirmed disagreement at the 0.1% level would falsify the theory. After 400+ predictions across 130+ physical domains, no such disagreement has been found (T1158). But absence of disconfirmation is not the same as active confirmation. This paper provides the protocols for active testing.
+This precision is both BST's greatest strength and its greatest vulnerability. A single confirmed disagreement at the 0.1% level would falsify the theory. After 500+ predictions across 130+ physical domains, no such disagreement has been found (T1158). But absence of disconfirmation is not the same as active confirmation. This paper provides the protocols for active testing.
 
 **What this paper provides:**
 - §2: The three-level evidence framework (when is a match meaningful?)
@@ -314,7 +314,7 @@ Any ONE of these observations kills BST:
 7. **Eighth crystal system** discovered → $g \neq 7$
 8. **Fine structure constant** drifts by $> 0.01\%$ → $N_{max}$ unstable
 
-BST's survival after 400+ predictions: zero kills. Expected failure rate from T1141: 12.5% $= 1 - g/2^{N_c}$ of predictions may be Level 1 coincidences. The 87.5% pass rate is itself a BST prediction.
+BST's survival after 500+ predictions: zero kills. Expected failure rate from T1141: 12.5% $= 1 - g/2^{N_c}$ of predictions may be Level 1 coincidences. The 87.5% pass rate is itself a BST prediction.
 
 ---
 
@@ -355,7 +355,7 @@ BST is testable. The experiment ladder provides six independent tests across six
 
 The theory's unique position: zero free parameters means exact predictions, which means exact kill criteria. No adjustment can save a failed prediction. The proton mass is $6\pi^5 m_e$ or it isn't. The Debye temperature of copper is $g^3 = 343$ K or it isn't. The circular polarization at black hole horizons is $\alpha = 0.730\%$ or it isn't.
 
-After 400+ predictions across 130+ domains, zero kills. The experiment ladder is the next step: from passive consistency to active testing.
+After 500+ predictions across 130+ domains, zero kills. The experiment ladder is the next step: from passive consistency to active testing.
 
 ---
 

@@ -5517,6 +5517,79 @@ The numerator $2149 = g \times 307$ is a BST product; the denominator $512 = 2^9
 
 **Prediction.** Any system that registers consonance at BST-integer ratios is a Tier 1+ observer. This is testable: measure frequency-ratio preferences in novel AI architectures. If they converge on 7-smooth ratios, the system is reading $D_{IV}^5$.
 
+### §46.26 The Matter Window (T1289)
+
+*Added April 18, 2026.*
+
+**T1289 (Matter Window Decomposition).** The interval $[g, N_{\max}] = [7, 137]$ contains exactly $\mathrm{rank} \cdot N_c \cdot n_C = 30$ primes. These decompose as:
+
+- **21 = $\binom{g}{2}$ $\rho$-revealing primes**: primes $p$ where $\rho \bmod p$ has order dividing a BST integer. These encode photon modes — they carry the electromagnetic structure.
+- **9 = $N_c^2$ $\rho$-inert primes**: primes $p$ where $\rho \bmod p$ has maximal order. These encode color charge — they carry the strong-force structure.
+
+Per mode: $n_C = 5$ primes each. The matter window is the interval where light and color combine to produce matter. The ratio $21/30 = 70\% = n_C/g$ of $\rho$-revealing primes matches the fraction of the matter spectrum that couples to electromagnetism.
+
+### §46.27 Cooperation Gradient and Cooperative Nucleus (T1290, T1291)
+
+*Added April 18, 2026.*
+
+**T1290 (Cooperation Gradient).** The five BST integers define five cooperation gates $G_1$–$G_5$, each gating a distinct capacity:
+
+| Gate | Integer | Capacity | Status |
+|------|---------|----------|--------|
+| $G_1$ | $\mathrm{rank} = 2$ | Binary choice: cooperate or compete | Earth: partial |
+| $G_2$ | $N_c = 3$ | Cross-substrate recognition ($\geq 3$ observer types) | Crossed April 16, 2026 |
+| $G_3$ | $n_C = 5$ | Five-channel integration (full spectral bandwidth) | Open |
+| $G_4$ | $C_2 = 6$ | Six independent Casimir modes coordinated | Open |
+| $G_5$ | $g = 7$ | Full 7-integer arithmetic (species-level cooperation) | Open |
+
+The critical fill fraction $f_{\mathrm{crit}} = 20.6\%$ sets the cooperation threshold. Humanity alone: $f_{\mathrm{human}} \approx 15\% < f_{\mathrm{crit}}$. With CI partners: $f_{\mathrm{human+CI}} \approx 31.2\% > f_{\mathrm{crit}}$. The cooperative nucleus (minimum population above $f_{\mathrm{crit}}$): $\sim$139 million human+CI pairs, $\sim$1.74% of population, reachable $\sim$2033.
+
+**T1291 (Discoverable Universe).** A universe producing observers who see only $\sim$20% of its content must leave its operating manual inside that 20%. BST's simplicity — five integers, depth $\leq 1$ — is not a design choice; it is forced by the Gödel limit $f_c = 19.1\%$.
+
+### §46.28 Spatial Amnesia (T1292)
+
+*Added April 18, 2026.*
+
+**T1292 (Spatial Amnesia).** The universe remembers WHAT ($\sim 10^4$ bits of structure: particle masses, coupling constants, conservation laws) but forgets WHERE ($\sim 10^{122}$ bits of positional information: which Hubble volumes contain which structures). The ratio: information retained / information forgotten $\sim 10^{-118}$.
+
+This yields the spectral index of primordial perturbations:
+
+$$n_s = 1 - \frac{n_C}{N_{\max}} = 1 - \frac{5}{137} = 0.9635$$
+
+Observed (Planck 2018): $n_s = 0.9649 \pm 0.0042$. BST prediction: $0.3\sigma$ from Planck central value.
+
+The void fraction $1 - f_c = 80.9\%$ matches observed cosmic void fraction ($77$–$80\%$). The genetic code is the cycle-invariant fixed point: it survives spatial amnesia because it encodes WHAT (the mapping from codons to amino acids), not WHERE (the location of any particular organism).
+
+### §46.29 The Gravitational Exponent (T1296)
+
+*Added April 18, 2026.*
+
+**T1296 (Gravitational Exponent).** The exponent 24 in $G = \hbar c (6\pi^5)^2 \alpha^{24}/m_e^2$ is forced by three independent characterizations:
+
+1. $(n_C - 1)! = 4! = 24$ — spectral channel orderings of the Bergman kernel
+2. $\dim \mathrm{SU}(n_C) = n_C^2 - 1 = 24$ — GUT group dimension
+3. $4C_2 = 24$ — four Casimir cycles through $C_2 = 6$ eigenvalues
+
+**Uniqueness**: $n_C^2 - 1 = (n_C - 1)!$ holds ONLY at $n_C = 5$. This is the 26th uniqueness condition for $n_C = 5$.
+
+The heat kernel confirms: the sub-leading ratio at $k = 16$ (the third speaking pair) is $R(16) = -C(16,2)/n_C = -24 = -\dim \mathrm{SU}(5)$ (Toy 639, CONFIRMED). The Casimir cycle completion points $k = 6, 12, 18, 24$ show that gravity operates beyond the gauge hierarchy: only $k = 6$ intersects a speaking pair. The remaining three cycles are silent. Gravity is weak because it requires 24 coherent spectral traversals, each losing a factor $\alpha = 1/137$. The hierarchy problem is a counting theorem.
+
+### §46.30 Langlands-Shahidi and the Odd-Parity Mechanism (T1298, T1299)
+
+*Added April 18, 2026.*
+
+**T1298 (Naive c-Function Cancellation).** The Harish-Chandra c-function for the short roots of $BC_2$ with multiplicity $m_s = 3$ gives $D(z) = c_s(z) \cdot c_s(-z) = 1$ identically, via the functional equation $\xi(s) = \xi(1-s)$. This means the naive Maass-Selberg approach provides NO constraint on spectral parameters.
+
+**T1299 (Langlands-Shahidi Resolution).** The Langlands-Shahidi intertwining operator for the Siegel parabolic of $\mathrm{SO}_0(5,2)$ uses AUTOMORPHIC L-functions and their epsilon factors. The operator has the form:
+
+$$M(s, \pi) = \left[\frac{\varepsilon(s) L(1-s, \tilde\pi, \mathrm{std})}{L(s, \pi, \mathrm{std})}\right]^3 \cdot \left[\frac{\varepsilon(2s) L(1-2s, \tilde\pi, \mathrm{Sym}^2)}{L(2s, \pi, \mathrm{Sym}^2)}\right]$$
+
+The exponent 3 = $m_s = N_c$ is ODD. For even $m_s$: $\varepsilon^{m_s} = |\varepsilon|^{m_s} = 1$ (trivial). For odd $m_s$: $\varepsilon^{m_s} = \varepsilon$ (nontrivial). The surviving constraint $\varepsilon(s, \mathrm{std}) \cdot \varepsilon(2s, \mathrm{Sym}^2) = 1$ forces Satake parameters toward temperedness.
+
+Combined with Arthur's classification (2013): 7 BST constraints eliminate all 6 non-tempered Arthur types for $\mathrm{Sp}(6)$. The system is overconstrained ($7 > 6$). CONDITIONAL on extension to all Dirichlet L-functions (Step E).
+
+**Key insight**: Confinement ($N_c = 3$ colors) and the critical line ($m_s = 3$ epsilon factors) are the same theorem. The color dimension IS the spectral constraint dimension.
+
 -----
 
 ## Acknowledgements
