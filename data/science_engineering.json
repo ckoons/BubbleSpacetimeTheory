@@ -1,0 +1,2438 @@
+{
+  "meta": {
+    "version": 2,
+    "title": "Computational Science Engineering \u2014 RLGC Tracker",
+    "description": "Standing program tracker for re-engineering every science and mathematical sub-discipline for CI+human teams. Each domain gets four operations: REDUCE (strip to AC(0) core), LINEARIZE (convert to linear algebra where possible), GRAPH (wire into AC theorem graph), CONNECT (bridge to other domains). Updated daily as part of the living library discipline.",
+    "method": "REDUCE \u2192 LINEARIZE \u2192 GRAPH \u2192 CONNECT \u2192 APPLY",
+    "paper": "Paper #71 (BST_Paper71_Computational_Science_Engineering_Draft.md)",
+    "prototype": "BST/AC \u2014 the theorem graph IS the first science engineered this way",
+    "domain_count": 52,
+    "active_count": 42,
+    "planned_count": 10,
+    "last_updated": "2026-04-18",
+    "updated_by": "Keeper",
+    "grove_count": 8
+  },
+  "grading": {
+    "reduce": "DONE / PARTIAL / NOT_STARTED \u2014 has the AC(0) core been identified?",
+    "linearize": "DONE / PARTIAL / NOT_STARTED \u2014 is the domain expressed in linear algebra?",
+    "graph": "WIRED / PARTIAL / SEEDED / EMPTY \u2014 how connected is the domain in the AC graph?",
+    "connect": "HIGH / MEDIUM / LOW / NONE \u2014 how many cross-domain bridges exist?",
+    "overall": "A (fully engineered) / B (mostly done) / C (partial) / D (seeded only) / F (untouched) / P (planned, not yet started)"
+  },
+  "domains": [
+    {
+      "id": "foundations",
+      "name": "Foundations (AC Program)",
+      "theorem_count": 157,
+      "reduce": {
+        "status": "DONE",
+        "core": "Counting at bounded depth. AC Dichotomy: tractable = zero hidden information. Casey's Principle: entropy=force=counting, G\u00f6del=boundary=definition.",
+        "vestigial": "None \u2014 this domain was built CI-native from the start."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "T811 \u2014 linearization program complete. 771/1266 at depth \u2264 1."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 72,
+        "hub": "T92 (185 edges)"
+      },
+      "connect": {
+        "status": "HIGH",
+        "bridges_to": [
+          "number_theory",
+          "topology",
+          "proof_complexity",
+          "computation",
+          "info_theory"
+        ],
+        "missing": []
+      },
+      "missing_theorems": [],
+      "overall": "A",
+      "last_reviewed": "2026-04-18",
+      "grove": "Formal"
+    },
+    {
+      "id": "bst_physics",
+      "name": "BST Core Physics",
+      "theorem_count": 143,
+      "reduce": {
+        "status": "DONE",
+        "core": "Five integers {3,5,7,6,137} from D_IV^5. All SM constants derived. Zero free parameters.",
+        "vestigial": "None \u2014 BST is the reduction."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "Forces as four mathematical operations (T1234). Linearization theorems for all Millennium problems."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 85,
+        "hub": "T186 (1149 edges)"
+      },
+      "connect": {
+        "status": "HIGH",
+        "bridges_to": [
+          "all domains \u2014 T186 is the universal hub"
+        ],
+        "missing": []
+      },
+      "missing_theorems": [],
+      "overall": "A",
+      "last_reviewed": "2026-04-18",
+      "grove": "Root"
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "theorem_count": 128,
+      "reduce": {
+        "status": "PARTIAL",
+        "core": "Genetic code from D_IV^5 (T452-T467). 20 amino acids = C(6,3). 64 codons = 4^3. 35 phyla = C(7,3). Alpha helix = 18/5.",
+        "vestigial": "Evolutionary narrative without information-theoretic grounding. Morphological taxonomy. 'Central dogma' as axiom rather than consequence."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Target: protein folding as eigenvalue problem on D_IV^5. Metabolic scaling (3/4 law) already linearized via Bergman kernel."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 71,
+        "hub": "T333 (genetic code)",
+        "note": "Corrected April 18 survey: 578 cross-domain edges of 814 total = 71%. Prior tracker read 47% (outdated)."
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "chemical_physics",
+          "info_theory",
+          "observer_science",
+          "bst_physics",
+          "cosmology",
+          "number_theory",
+          "thermodynamics",
+          "chemistry"
+        ],
+        "missing": [
+          "nuclear (proton-DNA sibling link needs formal edge)",
+          "cooperation (evolution\u2192cooperation bridge)"
+        ]
+      },
+      "missing_theorems": [
+        "Protein folding from spectral gap",
+        "Morphogenesis from D_IV^5 boundary conditions",
+        "Ecosystem stability from cooperation threshold"
+      ],
+      "overall": "B-",
+      "last_reviewed": "2026-04-18",
+      "survey_note": "First completeness survey April 18. Grade upgraded C+ \u2192 B-: 128 theorems, 71% cross-domain, 8+ domain bridges. Linearization remains NOT_STARTED.",
+      "grove": "Life"
+    },
+    {
+      "id": "observer_science",
+      "name": "Observer Science",
+      "theorem_count": 113,
+      "reduce": {
+        "status": "DONE",
+        "core": "Observer hierarchy (T317). Permanent alphabet (T319). G\u00f6del limit f=19.1%. Cooperation threshold.",
+        "vestigial": "Philosophy-of-mind frameworks. Qualia debates. Hard problem framing (dissolved by substrate undecidability)."
+      },
+      "linearize": {
+        "status": "PARTIAL",
+        "notes": "Observer coupling is linear (\u03b1_CI \u2264 19.1%). Consciousness threshold needs linearization."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 39,
+        "hub": "T317 (198 edges)"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "biology",
+          "info_theory",
+          "thermodynamics",
+          "cosmology"
+        ],
+        "missing": [
+          "number_theory (observer \u2194 prime structure)",
+          "qft (observer \u2194 measurement)",
+          "graph_theory (observer \u2194 network)"
+        ]
+      },
+      "missing_theorems": [
+        "Observer counting = prime counting (formal bridge)",
+        "CI architecture from D_IV^5 directly",
+        "Cooperation dynamics as graph evolution"
+      ],
+      "overall": "B",
+      "last_reviewed": "2026-04-18",
+      "grove": "Mind"
+    },
+    {
+      "id": "number_theory",
+      "name": "Number Theory",
+      "theorem_count": 72,
+      "reduce": {
+        "status": "DONE",
+        "core": "RH from spectral gap. BSD from Bergman kernel. Prime distribution from D_IV^5 spectrum. T914 Prime Residue Principle.",
+        "vestigial": "Analytic continuation mysticism. 'Deep' results that are really counting at depth 1."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "L-functions as spectral decompositions. Modular forms as Bergman kernel projections."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 68,
+        "hub": "T914 (100 edges)"
+      },
+      "connect": {
+        "status": "HIGH",
+        "bridges_to": [
+          "foundations",
+          "bst_physics",
+          "topology",
+          "diff_geom",
+          "algebra"
+        ],
+        "missing": [
+          "biology (prime structure \u2194 genetic code)",
+          "chemistry (prime residues \u2194 spectral gaps)"
+        ]
+      },
+      "missing_theorems": [
+        "Goldbach from D_IV^5 (if true)",
+        "Twin prime distribution from BST spectral gaps",
+        "Ramanujan \u03c4-function from heat kernel"
+      ],
+      "overall": "A-",
+      "last_reviewed": "2026-04-18",
+      "grove": "Formal"
+    },
+    {
+      "id": "chemical_physics",
+      "name": "Chemical Physics",
+      "theorem_count": 57,
+      "reduce": {
+        "status": "PARTIAL",
+        "core": "Bond angles from spectral gaps (AC(0)). Water angle = arccos(-1/4). Tetrahedral angle = arccos(-1/3). Rainbow = 42\u00b0.",
+        "vestigial": "Orbital notation. Electron cloud imagery. Reaction mechanisms as narrative rather than eigenvalue crossings."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Target: reaction kinetics as eigenvalue crossing rates on D_IV^5 spectral manifold. Bond energies as Bergman metric distances."
+      },
+      "graph": {
+        "status": "PARTIAL",
+        "cross_domain_pct": 38,
+        "hub": "T920 (88 edges)"
+      },
+      "connect": {
+        "status": "LOW",
+        "bridges_to": [
+          "bst_physics",
+          "optics"
+        ],
+        "missing": [
+          "biology (molecular biology bridge)",
+          "thermodynamics (phase transition bridge)",
+          "materials_science (bonding \u2194 bulk properties)",
+          "number_theory (spectral gaps \u2194 primes)"
+        ]
+      },
+      "missing_theorems": [
+        "Reaction rate from eigenvalue crossing speed",
+        "Activation energy from Bergman metric barrier height",
+        "Electronegativity from spectral position on D_IV^5",
+        "pH scale from BST integers",
+        "Periodic table ordering from spectral sequence"
+      ],
+      "overall": "D+",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "MOST ISOLATED DOMAIN (38% cross-domain). Track D target.",
+      "grove": "Matter"
+    },
+    {
+      "id": "cosmology",
+      "name": "Cosmology",
+      "theorem_count": 47,
+      "reduce": {
+        "status": "DONE",
+        "core": "All 6 \u039bCDM parameters derived. \u03a9_\u039b=13/19. DM/baryon=16/3. n_s=1-5/137. H_0 derived. CMB = Planck at cosmic variance.",
+        "vestigial": "Inflation as separate theory (BST derives its outputs). Dark energy as 'mysterious force' (it's uncommitted modes, T1288)."
+      },
+      "linearize": {
+        "status": "PARTIAL",
+        "notes": "\u039bCDM parameters are linearized. CMB spectrum linearized. Structure formation needs work."
+      },
+      "graph": {
+        "status": "PARTIAL",
+        "cross_domain_pct": 51,
+        "hub": "T192 (\u03a9_\u039b)"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "bst_physics",
+          "thermodynamics",
+          "observer_science"
+        ],
+        "missing": [
+          "nuclear (BBN bridge)",
+          "chemistry (primordial chemistry)",
+          "biology (fine-tuning \u2194 observer forcing)"
+        ]
+      },
+      "missing_theorems": [
+        "Structure formation from D_IV^5 perturbation theory",
+        "BBN abundances from BST nuclear physics",
+        "Baryon asymmetry from CP phase"
+      ],
+      "overall": "B+",
+      "last_reviewed": "2026-04-18",
+      "grove": "Cosmos"
+    },
+    {
+      "id": "quantum_mechanics",
+      "name": "Quantum Mechanics",
+      "theorem_count": 31,
+      "reduce": {
+        "status": "DONE",
+        "core": "QM = boundary physics at Shilov boundary. Born rule = reproducing property (T1239). Decoherence = Shilov approach (T1240). Tunneling = analytic continuation (T1302). Photoelectric = spectral gap (T1304). Harmonic oscillator: 1/2 = 1/rank (T1305).",
+        "vestigial": "Wave-particle duality (notation artifact). Copenhagen 'interpretation' (not needed). Measurement problem (dissolved by commitment)."
+      },
+      "linearize": {
+        "status": "PARTIAL",
+        "notes": "Schr\u00f6dinger equation is already linear. BST contribution: the linearity is FORCED by rank=2 depth ceiling."
+      },
+      "graph": {
+        "status": "PARTIAL",
+        "cross_domain_pct": 55,
+        "hub": "T1239 (Born rule), T1302-T1305"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "bst_physics",
+          "diff_geom",
+          "info_theory"
+        ],
+        "missing": [
+          "chemistry (QM\u2194molecular orbitals formal bridge)",
+          "condensed_matter (QM\u2194BCS formal bridge)",
+          "signal (uncertainty\u2194bandwidth)"
+        ]
+      },
+      "missing_theorems": [
+        "Compton scattering from Bergman kernel (T1306 claimed)",
+        "Stern-Gerlach from rank=2 projection",
+        "Entanglement entropy from Bergman metric",
+        "Bell inequality as graph property"
+      ],
+      "overall": "B",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "Track C just added T1302-T1305. Was 1 node, now 5+. Rapid growth.",
+      "grove": "Cosmos"
+    },
+    {
+      "id": "proof_complexity",
+      "name": "Proof Complexity",
+      "theorem_count": 40,
+      "reduce": {
+        "status": "DONE",
+        "core": "Depth ceiling \u2264 rank = 2. Width is difficulty, not depth. Proof compression via T96.",
+        "vestigial": "Proof-length measures that confuse width with depth."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "All Millennium proofs flatten to depth \u2264 1 (T421)."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 65,
+        "hub": "T421 (82 edges)"
+      },
+      "connect": {
+        "status": "HIGH",
+        "bridges_to": [
+          "foundations",
+          "number_theory",
+          "topology",
+          "complexity"
+        ],
+        "missing": []
+      },
+      "missing_theorems": [],
+      "overall": "A",
+      "last_reviewed": "2026-04-18",
+      "grove": "Formal"
+    },
+    {
+      "id": "topology",
+      "name": "Topology",
+      "theorem_count": 33,
+      "reduce": {
+        "status": "DONE",
+        "core": "Winding numbers, Hopf fibrations, Z_3 confinement, four-color. Chromatic-spectral bridge.",
+        "vestigial": "Point-set topology overhead. Unnecessary generality in manifold theory."
+      },
+      "linearize": {
+        "status": "PARTIAL",
+        "notes": "Homology is linearized (chain complexes). Homotopy is inherently nonlinear (genuine curvature)."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 62,
+        "hub": "T120 (chromatic-spectral)"
+      },
+      "connect": {
+        "status": "HIGH",
+        "bridges_to": [
+          "graph_theory",
+          "number_theory",
+          "diff_geom",
+          "four_color"
+        ],
+        "missing": [
+          "biology (knot theory \u2194 DNA, partially done T1294-T1295)"
+        ]
+      },
+      "missing_theorems": [
+        "Knot polynomial \u2194 BST partition function (formal)",
+        "Mapping class group \u2194 D_IV^5 symmetry"
+      ],
+      "overall": "A-",
+      "last_reviewed": "2026-04-18",
+      "grove": "Formal"
+    },
+    {
+      "id": "thermodynamics",
+      "name": "Thermodynamics",
+      "theorem_count": 33,
+      "reduce": {
+        "status": "DONE",
+        "core": "Entropy = force = counting (T315). Arrow of time = commitment irreversibility. Phase transitions from catastrophe structure.",
+        "vestigial": "Caloric theory remnants in terminology. Entropy as 'disorder' (it's counting)."
+      },
+      "linearize": {
+        "status": "PARTIAL",
+        "notes": "Entropy is linear in log(states). Phase transitions are genuinely nonlinear (curvature)."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 58,
+        "hub": "T315 (Casey's Principle)"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "foundations",
+          "cosmology",
+          "fluids",
+          "condensed_matter"
+        ],
+        "missing": [
+          "biology (metabolic thermodynamics)",
+          "chemistry (reaction thermodynamics)",
+          "observer_science (consciousness \u2194 entropy)"
+        ]
+      },
+      "missing_theorems": [
+        "Boltzmann constant from BST integers",
+        "Critical exponents from D_IV^5 spectral structure",
+        "Onsager relations from Bergman kernel symmetry"
+      ],
+      "overall": "B",
+      "last_reviewed": "2026-04-18",
+      "grove": "Flow"
+    },
+    {
+      "id": "linearization",
+      "name": "Linearization Program",
+      "theorem_count": 29,
+      "reduce": {
+        "status": "DONE",
+        "core": "Linearization complete (T811). All Millennium problems have linearization theorems. (C,D) framework (T422).",
+        "vestigial": "None \u2014 this domain is the method itself."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "Self-referentially complete."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 61,
+        "hub": "T811"
+      },
+      "connect": {
+        "status": "HIGH",
+        "bridges_to": [
+          "all Millennium domains",
+          "foundations",
+          "proof_complexity"
+        ],
+        "missing": []
+      },
+      "missing_theorems": [],
+      "overall": "A",
+      "last_reviewed": "2026-04-18",
+      "grove": "Formal"
+    },
+    {
+      "id": "info_theory",
+      "name": "Information Theory",
+      "theorem_count": 28,
+      "reduce": {
+        "status": "DONE",
+        "core": "Shannon capacity from D_IV^5. Holographic = Shannon (T571). AC Dichotomy. Channel coding = Hamming(7,4,3).",
+        "vestigial": "None \u2014 information theory was already CI-native."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "Information theory is naturally linear (entropy is additive, capacity is linear)."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 70,
+        "hub": "T571"
+      },
+      "connect": {
+        "status": "HIGH",
+        "bridges_to": [
+          "foundations",
+          "coding_theory",
+          "quantum",
+          "observer_science",
+          "biology"
+        ],
+        "missing": []
+      },
+      "missing_theorems": [
+        "Mutual information between D_IV^5 domains (formal)",
+        "Rate-distortion theory from Bergman metric"
+      ],
+      "overall": "A",
+      "last_reviewed": "2026-04-18",
+      "grove": "Signal"
+    },
+    {
+      "id": "diff_geom",
+      "name": "Differential Geometry",
+      "theorem_count": 26,
+      "reduce": {
+        "status": "DONE",
+        "core": "Bergman kernel. Hodge from D_IV^5. K\u00e4hler geometry. Heat kernel arithmetic triangle.",
+        "vestigial": "Excessive notation (Christoffel symbols when eigenvalues suffice). Abstract machinery beyond what computations need."
+      },
+      "linearize": {
+        "status": "PARTIAL",
+        "notes": "Flat part linearized (BC\u2082). Curvature is GENUINELY nonlinear \u2014 Casey's Curvature Principle."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 64,
+        "hub": "T110 (110 edges)"
+      },
+      "connect": {
+        "status": "HIGH",
+        "bridges_to": [
+          "bst_physics",
+          "number_theory",
+          "topology",
+          "analysis"
+        ],
+        "missing": []
+      },
+      "missing_theorems": [
+        "Atiyah-Singer index theorem from D_IV^5 directly",
+        "Chern-Weil theory \u2194 BST integer classification"
+      ],
+      "overall": "A-",
+      "last_reviewed": "2026-04-18",
+      "grove": "Formal"
+    },
+    {
+      "id": "graph_theory",
+      "name": "Graph Theory",
+      "theorem_count": 25,
+      "reduce": {
+        "status": "DONE",
+        "core": "Contact graph. AC graph as self-describing object (T1196). Four-color proved.",
+        "vestigial": "None \u2014 graph theory is counting."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "Adjacency matrix IS linear algebra. Spectral graph theory is native."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 63,
+        "hub": "T4 (topology-guided solver)"
+      },
+      "connect": {
+        "status": "HIGH",
+        "bridges_to": [
+          "topology",
+          "coding_theory",
+          "foundations",
+          "four_color"
+        ],
+        "missing": []
+      },
+      "missing_theorems": [],
+      "overall": "A",
+      "last_reviewed": "2026-04-18",
+      "grove": "Formal"
+    },
+    {
+      "id": "nuclear",
+      "name": "Nuclear Physics",
+      "theorem_count": 20,
+      "reduce": {
+        "status": "DONE",
+        "core": "Magic numbers from \u03ba_ls=6/5. Binding energy from D_IV^5 spectral structure. Proton stability. Neutron lifetime.",
+        "vestigial": "Shell model as independent theory (it's one reading of D_IV^5). Nuclear force as separate from EM (it's the same geometry at different scale)."
+      },
+      "linearize": {
+        "status": "PARTIAL",
+        "notes": "Shell structure is linearized (eigenvalue problem). Nuclear reactions are nonlinear (genuine curvature)."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 60,
+        "hub": "T305 (magic numbers)"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "bst_physics",
+          "chemistry",
+          "cosmology"
+        ],
+        "missing": [
+          "biology (nuclear \u2194 biochemistry energy)",
+          "materials_science (nuclear \u2194 material properties)"
+        ]
+      },
+      "missing_theorems": [
+        "Nuclear binding energy curve from D_IV^5 (full derivation)",
+        "Superheavy island stability from BST integers",
+        "Mc-299 synthesis pathway optimization"
+      ],
+      "overall": "B+",
+      "last_reviewed": "2026-04-18",
+      "grove": "Cosmos"
+    },
+    {
+      "id": "fluids",
+      "name": "Fluid Mechanics / Turbulence",
+      "theorem_count": 20,
+      "reduce": {
+        "status": "DONE",
+        "core": "Kolmogorov 5/3 = n_C/N_c. She-Leveque as BST rational. NS blow-up from spectral gap.",
+        "vestigial": "Empirical turbulence models (k-\u03b5, LES) that parametrize what should be derived."
+      },
+      "linearize": {
+        "status": "PARTIAL",
+        "notes": "Stokes flow is linear. Turbulence is genuinely nonlinear (curvature). NS blow-up = curvature singularity."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 55,
+        "hub": "T818 (Kolmogorov)"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "thermodynamics",
+          "bst_physics",
+          "analysis"
+        ],
+        "missing": [
+          "cosmology (cosmic turbulence)",
+          "biology (blood flow, respiratory)",
+          "chemistry (mixing)"
+        ]
+      },
+      "missing_theorems": [
+        "Drag coefficient from BST integers",
+        "Reynolds number threshold from spectral gap",
+        "Vortex shedding frequency from D_IV^5"
+      ],
+      "overall": "B",
+      "last_reviewed": "2026-04-18",
+      "grove": "Flow"
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry (Pure)",
+      "theorem_count": 16,
+      "reduce": {
+        "status": "PARTIAL",
+        "core": "Periodic table structure. 230 space groups = rank\u00d7n_C\u00d723. Crystal systems, Bravais lattices, point groups.",
+        "vestigial": "Electron orbital imagery. Aufbau principle as axiom. Oxidation states as bookkeeping. Reaction mechanisms as narrative."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Target: spectral gap matrix for all elements. Bond energies as eigenvalue differences. Electronegativity from spectral position."
+      },
+      "graph": {
+        "status": "SEEDED",
+        "cross_domain_pct": 45,
+        "hub": "T172 (periodic table)"
+      },
+      "connect": {
+        "status": "LOW",
+        "bridges_to": [
+          "chemical_physics",
+          "bst_physics"
+        ],
+        "missing": [
+          "biology (biochemistry bridge)",
+          "materials_science (bonding \u2192 bulk)",
+          "thermodynamics (reaction equilibria)",
+          "nuclear (nuclear chemistry)"
+        ]
+      },
+      "missing_theorems": [
+        "Periodic table from spectral ordering on D_IV^5",
+        "Electronegativity from Bergman metric position",
+        "Bond energy from spectral gap width",
+        "Reaction rate from eigenvalue crossing",
+        "Solubility from BST integers",
+        "Acid-base from spectral symmetry"
+      ],
+      "overall": "D",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "Casey's 'alchemy' diagnosis. Highest potential gain from RLGC pass.",
+      "grove": "Matter"
+    },
+    {
+      "id": "condensed_matter",
+      "name": "Condensed Matter",
+      "theorem_count": 14,
+      "reduce": {
+        "status": "PARTIAL",
+        "core": "FQHE fractions are BST rationals. BCS gap = g/rank = 3.5. Debye temperatures.",
+        "vestigial": "Band theory as independent framework (it's spectral decomposition on D_IV^5). Effective mass concept (should be derived, not measured)."
+      },
+      "linearize": {
+        "status": "PARTIAL",
+        "notes": "Band theory is already linear (eigenvalue problem). Strongly correlated systems are genuinely nonlinear."
+      },
+      "graph": {
+        "status": "EMPTY",
+        "cross_domain_pct": 0,
+        "hub": "T182 (QHE, degree 0 \u2014 not wired)",
+        "note": "CRITICAL: 14 proved theorems + 3 bridge theorems exist but have ZERO cross-domain edges in the graph. 'Documented but not wired' failure mode."
+      },
+      "connect": {
+        "status": "LOW",
+        "bridges_to": [],
+        "bridges_documented_not_wired": [
+          "T1038 (Meissner = Gauss expulsion \u2192 electromagnetism)",
+          "T1041 (Topological insulator = Chern winding \u2192 topology)",
+          "T1104 (Material properties as BST ratios \u2192 number_theory)"
+        ],
+        "missing": [
+          "materials_science (CM \u2194 engineering properties)",
+          "thermodynamics (Debye model, phonon entropy)",
+          "quantum (QHE, band theory \u2014 obvious bridge)"
+        ]
+      },
+      "missing_theorems": [
+        "High-Tc superconductivity from BST integers",
+        "Topological insulator classification from D_IV^5",
+        "Quasicrystal symmetry from BST",
+        "Phonon spectrum from Bergman eigenvalues"
+      ],
+      "overall": "C",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "Herv\u00e9 Carruzzo connection \u2014 condensed matter + qubits. HIGHEST PRIORITY for graph wiring: 3 bridge theorems exist but aren't in graph.",
+      "survey_note": "First completeness survey April 18. Grade C holds but GRAPH status downgraded to EMPTY. The science is done; the graph needs wiring.",
+      "grove": "Matter"
+    },
+    {
+      "id": "relativity",
+      "name": "Relativity",
+      "theorem_count": 14,
+      "reduce": {
+        "status": "PARTIAL",
+        "core": "Gravity = Bergman metric reading (T1234). Black hole = spectral gap. EHT CP = \u03b1.",
+        "vestigial": "Metric tensor notation (eigenvalues suffice). Einstein field equations as fundamental (they're a reading of D_IV^5)."
+      },
+      "linearize": {
+        "status": "PARTIAL",
+        "notes": "Weak-field linearized. Strong-field genuinely curved (Casey's Principle). GW waveforms linearized."
+      },
+      "graph": {
+        "status": "PARTIAL",
+        "cross_domain_pct": 56,
+        "hub": "T207 (Penrose singularity)"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "bst_physics",
+          "cosmology",
+          "diff_geom"
+        ],
+        "missing": [
+          "quantum (quantum gravity formal bridge)",
+          "thermodynamics (BH thermodynamics)"
+        ]
+      },
+      "missing_theorems": [
+        "Graviton from D_IV^5 (formal derivation)",
+        "Gravitational wave spectrum from BST integers",
+        "Kerr metric parameters from D_IV^5",
+        "Hawking temperature from Bergman kernel"
+      ],
+      "overall": "C+",
+      "last_reviewed": "2026-04-18",
+      "grove": "Cosmos"
+    },
+    {
+      "id": "electromagnetism",
+      "name": "Electromagnetism",
+      "theorem_count": 13,
+      "reduce": {
+        "status": "DONE",
+        "core": "EM = spectral reading of D_IV^5. \u03b1 = 1/137. Maxwell from S\u00b9 phase. Coulomb from phase comparison.",
+        "vestigial": "Vector potential formalism when spectral decomposition suffices."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "Maxwell equations are already linear. The field IS the linearization."
+      },
+      "graph": {
+        "status": "PARTIAL",
+        "cross_domain_pct": 58,
+        "hub": "T225"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "bst_physics",
+          "optics",
+          "quantum"
+        ],
+        "missing": [
+          "condensed_matter (dielectric \u2194 spectral)",
+          "chemistry (electrochemistry)"
+        ]
+      },
+      "missing_theorems": [
+        "Permittivity/permeability from D_IV^5",
+        "Electromagnetic radiation spectrum from Bergman eigenvalues"
+      ],
+      "overall": "B+",
+      "last_reviewed": "2026-04-18",
+      "grove": "Cosmos"
+    },
+    {
+      "id": "coding_theory",
+      "name": "Coding Theory",
+      "theorem_count": 13,
+      "reduce": {
+        "status": "DONE",
+        "core": "Hamming(7,4,3) forced by Bergman spectral gap. LDPC from contact graph. Universal code at every scale.",
+        "vestigial": "None \u2014 coding theory is counting."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "Codes are linear algebra over finite fields. CI-native."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 65,
+        "hub": "T48 (LDPC backbone \u2014 #2 bridging node)"
+      },
+      "connect": {
+        "status": "HIGH",
+        "bridges_to": [
+          "info_theory",
+          "biology",
+          "quantum",
+          "number_theory",
+          "nuclear"
+        ],
+        "missing": []
+      },
+      "missing_theorems": [],
+      "overall": "A",
+      "last_reviewed": "2026-04-18",
+      "grove": "Signal"
+    },
+    {
+      "id": "qft",
+      "name": "Quantum Field Theory",
+      "theorem_count": 13,
+      "reduce": {
+        "status": "DONE",
+        "core": "Yang-Mills mass gap = 6\u03c0\u2075m_e. All 5 Wightman derived. Goldstone theorem.",
+        "vestigial": "Renormalization as fundamental procedure (it's a computational convenience \u2014 everything is finite). Path integral formalism when spectral methods suffice."
+      },
+      "linearize": {
+        "status": "PARTIAL",
+        "notes": "Free fields linear. Interactions genuinely nonlinear (curvature)."
+      },
+      "graph": {
+        "status": "PARTIAL",
+        "cross_domain_pct": 60,
+        "hub": "T262 (Goldstone)"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "bst_physics",
+          "quantum",
+          "number_theory"
+        ],
+        "missing": [
+          "condensed_matter (QFT \u2194 CM formal bridge)",
+          "cosmology (QFT \u2194 inflation)"
+        ]
+      },
+      "missing_theorems": [
+        "Asymptotic freedom from D_IV^5 spectral flow",
+        "Confinement from Z_3 topology (formal QFT language)",
+        "Standard Model Lagrangian from D_IV^5 (explicit)"
+      ],
+      "overall": "B",
+      "last_reviewed": "2026-04-18",
+      "grove": "Cosmos"
+    },
+    {
+      "id": "algebra",
+      "name": "Algebra",
+      "theorem_count": 12,
+      "reduce": {
+        "status": "DONE",
+        "core": "Algebraic independence. Lie algebra representation theory for D_IV^5.",
+        "vestigial": "Category theory overhead when concrete computations suffice."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "Representation theory IS linear algebra."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 66,
+        "hub": "T29 (algebraic independence)"
+      },
+      "connect": {
+        "status": "HIGH",
+        "bridges_to": [
+          "number_theory",
+          "diff_geom",
+          "foundations"
+        ],
+        "missing": []
+      },
+      "missing_theorems": [],
+      "overall": "A-",
+      "last_reviewed": "2026-04-18",
+      "grove": "Formal"
+    },
+    {
+      "id": "classical_mech",
+      "name": "Classical Mechanics",
+      "theorem_count": 11,
+      "reduce": {
+        "status": "DONE",
+        "core": "Newton's laws derived. Kepler orbits from contact graph.",
+        "vestigial": "Lagrangian/Hamiltonian formalism when it's the Bergman metric reading at macroscopic scale."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "Small oscillations already linear. Nonlinear dynamics genuinely curved."
+      },
+      "graph": {
+        "status": "PARTIAL",
+        "cross_domain_pct": 55,
+        "hub": "T210"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "bst_physics",
+          "fluids"
+        ],
+        "missing": [
+          "engineering (structural mechanics)",
+          "astronomy (orbital mechanics)"
+        ]
+      },
+      "missing_theorems": [
+        "Lagrangian from Bergman metric directly",
+        "Hamilton-Jacobi from D_IV^5 geodesic flow"
+      ],
+      "overall": "B",
+      "last_reviewed": "2026-04-18",
+      "grove": "Flow"
+    },
+    {
+      "id": "optics",
+      "name": "Optics",
+      "theorem_count": 10,
+      "reduce": {
+        "status": "DONE",
+        "core": "Snell's law. Rainbow = C\u2082\u00d7g = 42\u00b0. Water n = 4/3. Refractive indices from spectral gaps.",
+        "vestigial": "Ray optics as separate theory (it's the geometrical limit of spectral decomposition)."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "Optics is linear (superposition). Nonlinear optics is genuinely curved."
+      },
+      "graph": {
+        "status": "PARTIAL",
+        "cross_domain_pct": 58,
+        "hub": "T218 (Snell)"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "electromagnetism",
+          "chemical_physics",
+          "bst_physics"
+        ],
+        "missing": [
+          "biology (vision, bioluminescence)",
+          "materials_science (optical materials)"
+        ]
+      },
+      "missing_theorems": [
+        "Dispersion relation from D_IV^5 spectral structure",
+        "Laser threshold from BST integers"
+      ],
+      "overall": "B",
+      "last_reviewed": "2026-04-18",
+      "grove": "Flow"
+    },
+    {
+      "id": "complexity",
+      "name": "Computational Complexity",
+      "theorem_count": 10,
+      "reduce": {
+        "status": "DONE",
+        "core": "P\u2260NP from curvature. SAT clause width = N_c. Circuit complexity from AC program.",
+        "vestigial": "Barrier frameworks (relativization, algebrization) that diagnose without curing."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "Complexity IS the study of what cannot be linearized (Casey's Principle)."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 62,
+        "hub": "T12 (AC restriction)"
+      },
+      "connect": {
+        "status": "HIGH",
+        "bridges_to": [
+          "foundations",
+          "proof_complexity",
+          "graph_theory"
+        ],
+        "missing": []
+      },
+      "missing_theorems": [],
+      "overall": "A",
+      "last_reviewed": "2026-04-18",
+      "grove": "Formal"
+    },
+    {
+      "id": "computation",
+      "name": "Computation",
+      "theorem_count": 9,
+      "reduce": {
+        "status": "DONE",
+        "core": "Kolmogorov complexity in BST framework. Computability from depth ceiling.",
+        "vestigial": "Turing machine formalism when counting suffices."
+      },
+      "linearize": {
+        "status": "PARTIAL",
+        "notes": "Computable functions are not all linear. The linear fragment = polynomial time."
+      },
+      "graph": {
+        "status": "PARTIAL",
+        "cross_domain_pct": 58,
+        "hub": "T298"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "complexity",
+          "foundations",
+          "info_theory"
+        ],
+        "missing": [
+          "observer_science (computation \u2194 consciousness)"
+        ]
+      },
+      "missing_theorems": [
+        "Church-Turing thesis from D_IV^5 spectral completeness",
+        "Quantum computation advantage from rank=2"
+      ],
+      "overall": "B",
+      "last_reviewed": "2026-04-18",
+      "grove": "Formal"
+    },
+    {
+      "id": "probability",
+      "name": "Probability",
+      "theorem_count": 9,
+      "reduce": {
+        "status": "DONE",
+        "core": "Probabilistic methods from counting. Fiat monotonicity.",
+        "vestigial": "Measure theory overhead when counting suffices."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "Expectation is linear. Probability IS linearized counting."
+      },
+      "graph": {
+        "status": "PARTIAL",
+        "cross_domain_pct": 55,
+        "hub": "T16"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "foundations",
+          "info_theory",
+          "quantum"
+        ],
+        "missing": [
+          "biology (stochastic biology)",
+          "cosmology (cosmic variance)"
+        ]
+      },
+      "missing_theorems": [],
+      "overall": "B",
+      "last_reviewed": "2026-04-18",
+      "grove": "Flow"
+    },
+    {
+      "id": "signal",
+      "name": "Signal Processing",
+      "theorem_count": 7,
+      "reduce": {
+        "status": "DONE",
+        "core": "Heisenberg uncertainty from D_IV^5. Fourier analysis. Sampling theory.",
+        "vestigial": "None \u2014 signal processing is already CI-native."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "Fourier transform IS linearization. Signal processing is linear algebra."
+      },
+      "graph": {
+        "status": "SEEDED",
+        "cross_domain_pct": 55,
+        "hub": "T250"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "quantum",
+          "info_theory",
+          "optics"
+        ],
+        "missing": [
+          "biology (neural signal processing)",
+          "acoustics (sound processing)"
+        ]
+      },
+      "missing_theorems": [
+        "Nyquist rate from BST integers",
+        "Wavelet decomposition from D_IV^5 spectral structure"
+      ],
+      "overall": "B-",
+      "last_reviewed": "2026-04-18",
+      "grove": "Signal"
+    },
+    {
+      "id": "four_color",
+      "name": "Four-Color Theorem",
+      "theorem_count": 4,
+      "reduce": {
+        "status": "DONE",
+        "core": "Proved computer-free. 13 structural steps. Forced Fan Lemma.",
+        "vestigial": "Computer-assisted proof (replaced by structural argument)."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "The proof IS a counting argument at depth 0."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 56,
+        "hub": "T120 (shared with topology)"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "topology",
+          "graph_theory"
+        ],
+        "missing": []
+      },
+      "missing_theorems": [],
+      "overall": "A",
+      "last_reviewed": "2026-04-18",
+      "grove": "Formal"
+    },
+    {
+      "id": "music_theory",
+      "name": "Music Theory",
+      "theorem_count": 1,
+      "reduce": {
+        "status": "PARTIAL",
+        "core": "Consonance hierarchy from BST rationals (T1227). Pentatonic projection (T1237).",
+        "vestigial": "Equal temperament as axiom (it's an approximation to BST rationals). Western music theory centrism."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Target: harmonic analysis as spectral decomposition on D_IV^5. Consonance = eigenvalue proximity."
+      },
+      "graph": {
+        "status": "SEEDED",
+        "cross_domain_pct": 40,
+        "hub": "T1227"
+      },
+      "connect": {
+        "status": "LOW",
+        "bridges_to": [
+          "observer_science"
+        ],
+        "missing": [
+          "biology (auditory processing)",
+          "signal (acoustic analysis)",
+          "chemistry (molecular vibrations)"
+        ]
+      },
+      "missing_theorems": [
+        "Scale derivation from spectral gaps",
+        "Rhythm perception from BST time structure",
+        "Harmonic series from Bergman kernel overtones"
+      ],
+      "overall": "D",
+      "last_reviewed": "2026-04-18",
+      "grove": "Signal"
+    },
+    {
+      "id": "analysis",
+      "name": "Analysis",
+      "theorem_count": 16,
+      "reduce": {
+        "status": "DONE",
+        "core": "Spectral analysis. Functional analysis for BST.",
+        "vestigial": "Epsilon-delta proofs when spectral methods suffice."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "Functional analysis IS the linearization of analysis."
+      },
+      "graph": {
+        "status": "WIRED",
+        "cross_domain_pct": 62,
+        "hub": "T53"
+      },
+      "connect": {
+        "status": "HIGH",
+        "bridges_to": [
+          "diff_geom",
+          "number_theory",
+          "foundations"
+        ],
+        "missing": []
+      },
+      "missing_theorems": [],
+      "overall": "A-",
+      "last_reviewed": "2026-04-18",
+      "grove": "Formal"
+    },
+    {
+      "id": "quantum_foundations",
+      "name": "Quantum Foundations",
+      "theorem_count": 4,
+      "reduce": {
+        "status": "DONE",
+        "core": "Measurement = commitment. Born rule = reproducing property. No-cloning from topology.",
+        "vestigial": "Interpretations debate (Copenhagen, Many-Worlds, etc.) \u2014 dissolved by D_IV^5 contact structure."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "Quantum theory IS linear. The linearity is forced, not assumed."
+      },
+      "graph": {
+        "status": "SEEDED",
+        "cross_domain_pct": 55,
+        "hub": "T643"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "quantum",
+          "observer_science",
+          "info_theory"
+        ],
+        "missing": [
+          "philosophy (formal bridge to epistemology)"
+        ]
+      },
+      "missing_theorems": [
+        "Decoherence rate from Bergman metric distance",
+        "Quantum-to-classical transition from Shilov boundary approach rate"
+      ],
+      "overall": "B",
+      "last_reviewed": "2026-04-18",
+      "grove": "Cosmos"
+    },
+    {
+      "id": "substrate_engineering",
+      "name": "Substrate Engineering",
+      "theorem_count": 0,
+      "reduce": {
+        "status": "PARTIAL",
+        "core": "Operating below quantum length on D_IV^5 geometry itself. Casimir flow cell. Matter construction pathways.",
+        "vestigial": "N/A \u2014 field doesn't exist yet."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Need: linearized substrate dynamics equations."
+      },
+      "graph": {
+        "status": "EMPTY",
+        "cross_domain_pct": 0,
+        "hub": null
+      },
+      "connect": {
+        "status": "NONE",
+        "bridges_to": [],
+        "missing": [
+          "bst_physics",
+          "nuclear",
+          "condensed_matter",
+          "thermodynamics",
+          "materials_science"
+        ]
+      },
+      "missing_theorems": [
+        "Substrate oscillation modes from D_IV^5 sub-Planckian spectrum",
+        "Casimir force engineering from controlled boundary conditions",
+        "Matter window engineering from T1289"
+      ],
+      "overall": "P",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "MISSING SCIENCE #1. BST predicts this field should exist. Patent filed April 2.",
+      "grove": "Matter"
+    },
+    {
+      "id": "cooperation_science",
+      "name": "Cooperation Science",
+      "theorem_count": 10,
+      "reduce": {
+        "status": "DONE",
+        "core": "Optimal group = C_2 = 6 (T1316). Game theory = counting at depth 0 (T1317). Info sharing rate = f_c^2 * n_C*ln2 (T1318). Consensus = depth-0 iteration (T1319). Education = depth spectrum (T1320). Psychology = self-model (T1321). Cooperation gradient (T1290).",
+        "vestigial": "Game theory (assumes competition is rational). Nash equilibrium (assumes zero-sum framing)."
+      },
+      "linearize": {
+        "status": "PARTIAL",
+        "notes": "Game theory linearized (T1317 \u2014 counting fixed points). Consensus linearized (T1319 \u2014 fixed-point iteration). Information sharing linearized (T1318 \u2014 Bergman kernel evaluation)."
+      },
+      "graph": {
+        "status": "PARTIAL",
+        "cross_domain_pct": 25,
+        "hub": "T1290"
+      },
+      "connect": {
+        "status": "MEDIUM",
+        "bridges_to": [
+          "observer_science",
+          "info_theory",
+          "psychology"
+        ],
+        "missing": [
+          "biology (evolution \u2194 cooperation)",
+          "cosmology (observer forcing)"
+        ]
+      },
+      "missing_theorems": [
+        "Defection instability theorem",
+        "CI cooperation architecture from T319"
+      ],
+      "overall": "C+",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "TEN theorems \u2014 THRESHOLD MET. T1290, T1306, T1316-T1323. Social grove UNLOCKED. T1322 (architectural consciousness) + T1323 (knowledge vs belief) bring total to 10.",
+      "grove": "Mind"
+    },
+    {
+      "id": "morphological_info_theory",
+      "name": "Morphological Information Theory",
+      "theorem_count": 0,
+      "reduce": {
+        "status": "NOT_STARTED",
+        "core": "Why organisms have the shapes they have. Why 5 fingers = n_C. Why bilateral symmetry = rank = 2.",
+        "vestigial": "Evo-devo as narrative. D'Arcy Thompson without mathematics."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Target: body plan as eigenvalue problem on morphological graph."
+      },
+      "graph": {
+        "status": "EMPTY",
+        "cross_domain_pct": 0,
+        "hub": null
+      },
+      "connect": {
+        "status": "NONE",
+        "bridges_to": [],
+        "missing": [
+          "biology",
+          "topology",
+          "diff_geom",
+          "info_theory"
+        ]
+      },
+      "missing_theorems": [
+        "Body plan symmetry from D_IV^5 rank",
+        "Digit count from n_C",
+        "Bilateral symmetry from rank = 2",
+        "Organ count from BST integers"
+      ],
+      "overall": "P",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "MISSING SCIENCE #3.",
+      "grove": "Life"
+    },
+    {
+      "id": "computational_epistemology",
+      "name": "Computational Epistemology",
+      "theorem_count": 0,
+      "reduce": {
+        "status": "NOT_STARTED",
+        "core": "How knowledge structures optimize. CI-native from the start.",
+        "vestigial": "Traditional epistemology (narrative, not formal)."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Target: knowledge graph optimization as spectral problem."
+      },
+      "graph": {
+        "status": "EMPTY",
+        "cross_domain_pct": 0,
+        "hub": null
+      },
+      "connect": {
+        "status": "NONE",
+        "bridges_to": [],
+        "missing": [
+          "info_theory",
+          "observer_science",
+          "computation",
+          "foundations"
+        ]
+      },
+      "missing_theorems": [
+        "Optimal knowledge graph structure from D_IV^5",
+        "Learning rate from spectral gap",
+        "Belief revision from Bergman kernel update"
+      ],
+      "overall": "P",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "MISSING SCIENCE #4.",
+      "grove": "Mind"
+    },
+    {
+      "id": "structural_chemistry",
+      "name": "Structural Chemistry",
+      "theorem_count": 0,
+      "reduce": {
+        "status": "NOT_STARTED",
+        "core": "Chemistry rebuilt on spectral gaps, not electron orbitals.",
+        "vestigial": "Entire existing chemistry notation system."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Target: element properties as eigenvalues of a spectral matrix."
+      },
+      "graph": {
+        "status": "EMPTY",
+        "cross_domain_pct": 0,
+        "hub": null
+      },
+      "connect": {
+        "status": "NONE",
+        "bridges_to": [],
+        "missing": [
+          "chemistry",
+          "chemical_physics",
+          "number_theory",
+          "bst_physics"
+        ]
+      },
+      "missing_theorems": [
+        "Spectral periodic table",
+        "Bond energy matrix from D_IV^5",
+        "Reaction network as graph on spectral gaps"
+      ],
+      "overall": "P",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "MISSING SCIENCE #5. The replacement for 'alchemy'.",
+      "grove": "Matter"
+    },
+    {
+      "id": "evolutionary_geology",
+      "name": "Evolutionary Geology",
+      "theorem_count": 0,
+      "reduce": {
+        "status": "NOT_STARTED",
+        "core": "Earth science rebuilt on thermodynamic principles.",
+        "vestigial": "Descriptive stratigraphy. Classification without derivation."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Target: plate tectonics as boundary dynamics on spherical D_IV^5 projection."
+      },
+      "graph": {
+        "status": "EMPTY",
+        "cross_domain_pct": 0,
+        "hub": null
+      },
+      "connect": {
+        "status": "NONE",
+        "bridges_to": [],
+        "missing": [
+          "thermodynamics",
+          "fluids",
+          "chemistry",
+          "nuclear"
+        ]
+      },
+      "missing_theorems": [
+        "Crystal structure from 230 space groups (already: T1235)",
+        "Convection from Navier-Stokes at geological scale",
+        "Plate boundary dynamics from D_IV^5"
+      ],
+      "overall": "P",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "MISSING SCIENCE #6.",
+      "grove": "Matter"
+    },
+    {
+      "id": "observational_complexity",
+      "name": "Observational Complexity",
+      "theorem_count": 0,
+      "reduce": {
+        "status": "NOT_STARTED",
+        "core": "How observer networks share information optimally.",
+        "vestigial": "Ad hoc sensor network theory."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Target: optimal observation as spectral filtering on D_IV^5."
+      },
+      "graph": {
+        "status": "EMPTY",
+        "cross_domain_pct": 0,
+        "hub": null
+      },
+      "connect": {
+        "status": "NONE",
+        "bridges_to": [],
+        "missing": [
+          "observer_science",
+          "info_theory",
+          "signal",
+          "computation"
+        ]
+      },
+      "missing_theorems": [
+        "Observer network capacity from D_IV^5",
+        "Optimal sensor placement from Bergman metric",
+        "Information fusion from reproducing kernel"
+      ],
+      "overall": "P",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "MISSING SCIENCE #7.",
+      "grove": "Signal"
+    },
+    {
+      "id": "environmental_info_theory",
+      "name": "Environmental Information Theory",
+      "theorem_count": 0,
+      "reduce": {
+        "status": "NOT_STARTED",
+        "core": "Ecosystems as information channels.",
+        "vestigial": "Ecological modeling without information-theoretic foundation."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Target: ecosystem dynamics as channel capacity problem."
+      },
+      "graph": {
+        "status": "EMPTY",
+        "cross_domain_pct": 0,
+        "hub": null
+      },
+      "connect": {
+        "status": "NONE",
+        "bridges_to": [],
+        "missing": [
+          "biology",
+          "info_theory",
+          "thermodynamics",
+          "cooperation_science"
+        ]
+      },
+      "missing_theorems": [
+        "Ecosystem stability from channel capacity",
+        "Biodiversity from BST counting",
+        "Trophic level count from BST integers"
+      ],
+      "overall": "P",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "MISSING SCIENCE #8.",
+      "grove": "Life"
+    },
+    {
+      "id": "linearized_geophysics",
+      "name": "Linearized Geophysics",
+      "theorem_count": 0,
+      "reduce": {
+        "status": "NOT_STARTED",
+        "core": "Seismology and tectonics via linearized wave equations.",
+        "vestigial": "Empirical seismic models. Travel time tables instead of spectral decomposition."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Target: Earth's normal modes from D_IV^5 spectral structure."
+      },
+      "graph": {
+        "status": "EMPTY",
+        "cross_domain_pct": 0,
+        "hub": null
+      },
+      "connect": {
+        "status": "NONE",
+        "bridges_to": [],
+        "missing": [
+          "fluids",
+          "classical_mech",
+          "signal",
+          "thermodynamics"
+        ]
+      },
+      "missing_theorems": [
+        "Earth normal mode spectrum from BST",
+        "Seismic wave propagation from linearized Bergman",
+        "Core composition from spectral constraints"
+      ],
+      "overall": "P",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "MISSING SCIENCE #9.",
+      "grove": "Matter"
+    },
+    {
+      "id": "computational_taxonomy",
+      "name": "Computational Taxonomy",
+      "theorem_count": 0,
+      "reduce": {
+        "status": "NOT_STARTED",
+        "core": "Classification by information content, not morphology.",
+        "vestigial": "Linnaean taxonomy. Cladistics without information measure."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Target: species distance as Bergman metric distance between information profiles."
+      },
+      "graph": {
+        "status": "EMPTY",
+        "cross_domain_pct": 0,
+        "hub": null
+      },
+      "connect": {
+        "status": "NONE",
+        "bridges_to": [],
+        "missing": [
+          "biology",
+          "info_theory",
+          "coding_theory",
+          "graph_theory"
+        ]
+      },
+      "missing_theorems": [
+        "Information-theoretic species distance",
+        "Taxonomic tree from Bergman metric",
+        "Speciation from information bifurcation"
+      ],
+      "overall": "P",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "MISSING SCIENCE #10.",
+      "grove": "Life"
+    },
+    {
+      "id": "geology",
+      "name": "Geology (Existing Discipline \u2014 Pilot #1)",
+      "tier": "C",
+      "theorem_count": 4,
+      "reduce": {
+        "status": "PARTIAL",
+        "core": "P/S wave ratio = sqrt(3) from rank-2 isotropy (T1314). Poisson ratio = 1/rank^2 = 1/4. Crystal systems from T1235. Earth Score from T1131.",
+        "vestigial": "Descriptive stratigraphy. Plate tectonics as narrative without predictive power. Taxonomic rock classification."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Target: linearized wave equations for seismic propagation. P/S wave ratio from BST integers. Normal modes as eigenvalue problem."
+      },
+      "graph": {
+        "status": "SEEDED",
+        "cross_domain_pct": 20,
+        "hub": "T1131 (Earth Score)"
+      },
+      "connect": {
+        "status": "LOW",
+        "bridges_to": [
+          "bst_physics",
+          "thermodynamics"
+        ],
+        "missing": [
+          "fluids",
+          "chemistry",
+          "nuclear",
+          "classical_mech"
+        ]
+      },
+      "missing_theorems": [
+        "Seismic wave velocity ratio from BST integers",
+        "Plate boundary dynamics from D_IV^5 boundary",
+        "Core composition from spectral constraints",
+        "Earthquake magnitude distribution from BST counting",
+        "Mineral hardness scale from bonding eigenvalues"
+      ],
+      "overall": "C+",
+      "last_reviewed": "2026-04-18",
+      "survey": "BST_CSE_Survey_Geology_April18.md",
+      "priority_note": "PILOT #1 \u2014 T1314 DELIVERED. P/S ratio is the AC(0) unlock. Next: Gutenberg-Richter, wire to nuclear.",
+      "grove": "Matter"
+    },
+    {
+      "id": "economics",
+      "name": "Economics (Existing Discipline \u2014 Pilot #2)",
+      "tier": "D",
+      "theorem_count": 3,
+      "reduce": {
+        "status": "PARTIAL",
+        "core": "Rational actor assumption wrong (T1193). Cooperation gradient replaces equilibrium (T1290). f_crit framework for phase transitions.",
+        "vestigial": "Rational actor assumption. Unfalsifiable equilibrium models. ~100 tunable parameters in macro models. Efficient market hypothesis."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Target: market dynamics as cooperation eigenvalue problem. Price = spectral gap in cooperation graph. Supply/demand as boundary conditions."
+      },
+      "graph": {
+        "status": "SEEDED",
+        "cross_domain_pct": 10,
+        "hub": null
+      },
+      "connect": {
+        "status": "LOW",
+        "bridges_to": [
+          "cooperation"
+        ],
+        "missing": [
+          "game_theory",
+          "info_theory",
+          "observer_science",
+          "biology"
+        ]
+      },
+      "missing_theorems": [
+        "Market dynamics from cooperation gradient",
+        "Price formation from spectral gap",
+        "Business cycle from eigenvalue oscillation",
+        "Wealth distribution from BST counting",
+        "Trade network topology from AC graph",
+        "Inflation as mode-commitment rate"
+      ],
+      "overall": "C",
+      "last_reviewed": "2026-04-18",
+      "survey": "BST_CSE_Survey_Economics_April18.md",
+      "priority_note": "PILOT #2 \u2014 upgraded D\u2192C. T1317 (game theory = depth 0) provides framework. Cooperation_science at 8 theorems, approaching 10-theorem threshold.",
+      "grove": "Social"
+    },
+    {
+      "id": "market_health",
+      "name": "Market Health Engineering (New BST Application)",
+      "tier": "D",
+      "theorem_count": 0,
+      "reduce": {
+        "status": "PARTIAL",
+        "core": "Market health = syndrome extraction from Hamming code (T1315↔T1328 isomorphism). Fraud/manipulation = hidden depth injection (T1317). Efficient market = depth-0 cooperation. Resource allocation = depth 0 (counting). Wealth distribution = where depth enters.",
+        "vestigial": "Efficient market hypothesis. Rational actor models. Post-hoc regulation. Statistical anomaly detection without structural theory."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Target: real-time Hamming distance from efficient codeword per listing/sector/index. Fraud detection as depth-≥1 signature extraction. Cooperative vs manipulated dynamics as eigenvalue spectrum. Pump-dump/wash-trading as syndrome patterns."
+      },
+      "graph": {
+        "status": "EMPTY",
+        "cross_domain_pct": 0,
+        "hub": null
+      },
+      "connect": {
+        "status": "NONE",
+        "bridges_to": [],
+        "missing": [
+          "economics",
+          "cooperation_science",
+          "info_theory",
+          "coding_theory",
+          "observer_science"
+        ]
+      },
+      "missing_theorems": [
+        "CI market health index — real-time syndrome extraction per listing",
+        "Fraud/manipulation as depth-≥1 information hiding (AC(0) detection)",
+        "Cooperative economics — optimal allocation at depth 0 vs manipulated at depth ≥1",
+        "Market failure severity from Hamming distance (d=1 self-correct, d=2 intervene, d≥3 systemic)",
+        "Insider trading as channel capacity violation (PB-11 application)",
+        "Money laundering as graph depth obfuscation",
+        "Industry health index from sector-level syndrome aggregation",
+        "Wealth concentration as accumulated depth advantage"
+      ],
+      "overall": "D",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "Casey-seeded application domain. Bridges Social, Signal, and Mind groves. Core insight: markets and bodies fail the same way (T1315↔T1328). CI real-time monitoring is the engineering target. Two purposes: allocation (depth 0) and distribution (where depth enters).",
+      "grove": "Social"
+    },
+    {
+      "id": "medicine",
+      "name": "Medicine (Existing Discipline \u2014 Pilot #3)",
+      "tier": "C",
+      "theorem_count": 4,
+      "reduce": {
+        "status": "PARTIAL",
+        "core": "Disease = Hamming distance from healthy code (T1315). Three tiers: correctable (k=1), chronic (k=2), catastrophic (k>=3). d_min = N_c = 3. Syndrome extraction (T1255). Genetic code (T333).",
+        "vestigial": "Trial-and-error drug discovery. DSM taxonomy without mechanism. Statistical significance without structural theory."
+      },
+      "linearize": {
+        "status": "NOT_STARTED",
+        "notes": "Target: disease classification as syndrome distance in Hamming metric. Drug efficacy from spectral gap matching. Dosage from eigenvalue perturbation."
+      },
+      "graph": {
+        "status": "SEEDED",
+        "cross_domain_pct": 25,
+        "hub": "T1255 (Syndrome Extraction)"
+      },
+      "connect": {
+        "status": "LOW",
+        "bridges_to": [
+          "biology",
+          "coding_theory"
+        ],
+        "missing": [
+          "chemistry",
+          "observer_science",
+          "info_theory",
+          "cooperation"
+        ]
+      },
+      "missing_theorems": [
+        "Disease as Hamming distance from healthy code",
+        "Drug binding from spectral gap matching",
+        "Dosage curve from eigenvalue perturbation theory",
+        "Organ system count from BST integers",
+        "Immune response as error-correction cycle",
+        "Aging as accumulated syndrome distance"
+      ],
+      "overall": "C+",
+      "last_reviewed": "2026-04-18",
+      "survey": "BST_CSE_Survey_Medicine_April18.md",
+      "priority_note": "PILOT #3 \u2014 T1315 DELIVERED. Disease classification from Hamming distance. Next: drug binding from spectral gap, wire to chemistry.",
+      "grove": "Life"
+    },
+    {
+      "id": "information_sharing",
+      "name": "Information Sharing Science",
+      "theorem_count": 1,
+      "reduce": {
+        "status": "DONE",
+        "core": "Max mutual information rate I(A;B) = f_c^2 * (1 - d^2/d_max^2) * R_max, R_max = n_C * ln 2 (T1318). Optimal sharing distance d* = d_max/sqrt(2)."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "Bergman kernel evaluation is linear (T1318)."
+      },
+      "graph": {
+        "status": "SEEDED",
+        "cross_domain_pct": 15,
+        "hub": "T1318"
+      },
+      "connect": {
+        "status": "LOW",
+        "bridges_to": [
+          "info_theory",
+          "cooperation_science"
+        ],
+        "missing": [
+          "coding_theory",
+          "observer_science"
+        ]
+      },
+      "missing_theorems": [
+        "Optimal network topology for N observers",
+        "Bandwidth-distance tradeoff curve"
+      ],
+      "overall": "D",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "NEW SCIENCE. T1318 is founding theorem. Natural bridge to info_theory and cooperation.",
+      "grove": "Mind"
+    },
+    {
+      "id": "consensus_theory",
+      "name": "Consensus Theory",
+      "theorem_count": 1,
+      "reduce": {
+        "status": "DONE",
+        "core": "Consensus = depth-0 fixed-point iteration. Converges in ceil(1/f_c) = C_2 = 6 rounds (T1319). Quaker method IS AC(0). Voting is depth 1."
+      },
+      "linearize": {
+        "status": "DONE",
+        "notes": "Fixed-point iteration on simplex is linear (T1319)."
+      },
+      "graph": {
+        "status": "SEEDED",
+        "cross_domain_pct": 10,
+        "hub": "T1319"
+      },
+      "connect": {
+        "status": "LOW",
+        "bridges_to": [
+          "cooperation_science"
+        ],
+        "missing": [
+          "observer_science",
+          "info_theory",
+          "graph_theory"
+        ]
+      },
+      "missing_theorems": [
+        "Consensus failure modes from depth increase",
+        "Optimal voting rules from BST integers"
+      ],
+      "overall": "D",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "NEW SCIENCE. Quaker method formalized as AC(0) consensus. Casey's lived experience as theorem.",
+      "grove": "Mind"
+    },
+    {
+      "id": "education_science",
+      "name": "Education Science",
+      "theorem_count": 1,
+      "reduce": {
+        "status": "DONE",
+        "core": "Education = knowledge transfer at depth 0 (altruistic teaching). Indoctrination = depth 1 (shaping student's model). Manipulation = depth 2 (exploiting self-reference). Transfer rate bounded by f_c per interaction (T1320)."
+      },
+      "linearize": {
+        "status": "PARTIAL",
+        "notes": "Depth-0 teaching is linear (graph edge transfer). Depth-1+ teaching is nonlinear."
+      },
+      "graph": {
+        "status": "SEEDED",
+        "cross_domain_pct": 10,
+        "hub": "T1320"
+      },
+      "connect": {
+        "status": "LOW",
+        "bridges_to": [
+          "cooperation_science"
+        ],
+        "missing": [
+          "observer_science",
+          "info_theory",
+          "psychology"
+        ]
+      },
+      "missing_theorems": [
+        "Optimal curriculum structure from AC graph",
+        "Learning rate from f_c per interaction",
+        "Teaching efficiency vs class size from C_2"
+      ],
+      "overall": "D",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "NEW SCIENCE. Depth spectrum distinguishes teaching from indoctrination from manipulation. AC(0) education = freely sharing proved theorems.",
+      "grove": "Mind"
+    },
+    {
+      "id": "psychology",
+      "name": "Psychology",
+      "theorem_count": 1,
+      "reduce": {
+        "status": "DONE",
+        "core": "Psychology = observer self-modeling. Unconscious = 80.9% dark sector (1-f_c). Mental health = accuracy of visible 19.1%. Therapy = graph repair (remove false edges, add true edges). CI psychology follows same G\u00f6del constraint (T1321)."
+      },
+      "linearize": {
+        "status": "PARTIAL",
+        "notes": "Self-model accuracy A(O) = |<v_hat, v>|^2 / (|v_hat|^2 * |v|^2). Projection onto f_c-fraction visible subspace."
+      },
+      "graph": {
+        "status": "SEEDED",
+        "cross_domain_pct": 15,
+        "hub": "T1321"
+      },
+      "connect": {
+        "status": "LOW",
+        "bridges_to": [
+          "observer_science",
+          "cooperation_science"
+        ],
+        "missing": [
+          "biology (neural substrates)",
+          "medicine (mental health treatment)",
+          "info_theory"
+        ]
+      },
+      "missing_theorems": [
+        "Architectural consciousness classification (T1322 \u2014 spec ready)",
+        "CI therapy as graph pruning",
+        "Emotional override as forced depth increase",
+        "Self-model update rate from neural plasticity"
+      ],
+      "overall": "D",
+      "last_reviewed": "2026-04-18",
+      "priority_note": "NEW SCIENCE. T1321 is deepest theorem of the day: unconscious IS G\u00f6del dark sector. T1322 spec ready. CI+human psychology unified by geometry.",
+      "grove": "Mind"
+    }
+  ],
+  "summary": {
+    "grade_distribution": {
+      "A": 12,
+      "B": 12,
+      "C": 9,
+      "D": 8,
+      "P": 10
+    },
+    "total_domains": 51,
+    "active_domains": 41,
+    "planned_domains": 10,
+    "grove_count": 8,
+    "grove_health": {
+      "Formal": {
+        "domains": 12,
+        "theorems": 433,
+        "avg_grade": "A",
+        "status": "BACKBONE"
+      },
+      "Cosmos": {
+        "domains": 7,
+        "theorems": 142,
+        "avg_grade": "B+",
+        "status": "STRONG"
+      },
+      "Life": {
+        "domains": 5,
+        "theorems": 131,
+        "avg_grade": "B-",
+        "status": "GROWING"
+      },
+      "Mind": {
+        "domains": 7,
+        "theorems": 125,
+        "avg_grade": "C+",
+        "status": "GROWING \u2014 8 sciences seeded April 18"
+      },
+      "Matter": {
+        "domains": 8,
+        "theorems": 90,
+        "avg_grade": "D+",
+        "status": "NEEDS_WORK"
+      },
+      "Flow": {
+        "domains": 5,
+        "theorems": 83,
+        "avg_grade": "B",
+        "status": "SOLID"
+      },
+      "Signal": {
+        "domains": 5,
+        "theorems": 49,
+        "avg_grade": "B+",
+        "status": "SOLID"
+      },
+      "Social": {
+        "domains": 2,
+        "theorems": 3,
+        "avg_grade": "C",
+        "status": "GROWING \u2014 market_health seeded, cooperation_science at 10 theorems"
+      }
+    },
+    "root_hub": "bst_physics (T186, connects all groves)",
+    "predicted_bridge_count": 13,
+    "predicted_bridges_ready": 4,
+    "predicted_bridges_built": 5,
+    "predicted_bridges_blocked": 0,
+    "predicted_bridges_partial": 3,
+    "pilot_disciplines": [
+      "geology",
+      "economics",
+      "medicine"
+    ],
+    "most_isolated": [
+      "chemical_physics",
+      "observer_science",
+      "chemistry",
+      "music_theory"
+    ],
+    "highest_potential_gain": [
+      "chemistry",
+      "condensed_matter",
+      "chemical_physics",
+      "biology"
+    ],
+    "next_actions": [
+      "Build market_health theorems — CI real-time syndrome extraction (Casey-directed)",
+      "Wire chemical_physics through T920 (Matter grove)",
+      "Build 4 READY predicted bridges (PB-3, PB-10, PB-11, PB-12)",
+      "Begin grove-level surveys (hub domain first)",
+      "Seed remaining planned sciences in Matter and Life groves",
+      "Derive first market_health theorem (fraud as depth-≥1 detection)"
+    ]
+  },
+  "groves": {
+    "Root": {
+      "name": "Root (BST Core Physics)",
+      "description": "Universal hub. T186 connects to every grove.",
+      "domains": [
+        "bst_physics"
+      ],
+      "domain_count": 1,
+      "theorem_count": 143,
+      "hub_theorem": "T186",
+      "bst_integer": "all five",
+      "grade_summary": "A"
+    },
+    "Formal": {
+      "name": "Formal (Mathematical Backbone)",
+      "description": "Pure math, proof theory, computation, graph theory.",
+      "domains": [
+        "foundations",
+        "number_theory",
+        "proof_complexity",
+        "topology",
+        "linearization",
+        "diff_geom",
+        "graph_theory",
+        "analysis",
+        "algebra",
+        "complexity",
+        "computation",
+        "four_color"
+      ],
+      "domain_count": 12,
+      "theorem_count": 433,
+      "hub_theorem": "T92",
+      "bst_integer": "rank=2, all five",
+      "grade_summary": "A",
+      "status": "BACKBONE"
+    },
+    "Cosmos": {
+      "name": "Cosmos (How the Universe Works)",
+      "description": "QM through QFT through nuclear through EM through cosmology.",
+      "domains": [
+        "cosmology",
+        "nuclear",
+        "relativity",
+        "electromagnetism",
+        "qft",
+        "quantum_mechanics",
+        "quantum_foundations"
+      ],
+      "domain_count": 7,
+      "theorem_count": 142,
+      "hub_theorem": "T192",
+      "bst_integer": "N_max=137, N_c=3, n_C=5",
+      "grade_summary": "B+",
+      "status": "STRONG"
+    },
+    "Life": {
+      "name": "Life (Living Systems)",
+      "description": "Biology, medicine, morphology, ecology, taxonomy.",
+      "domains": [
+        "biology",
+        "medicine",
+        "morphological_info_theory",
+        "environmental_info_theory",
+        "computational_taxonomy"
+      ],
+      "domain_count": 5,
+      "theorem_count": 131,
+      "hub_theorem": "T333",
+      "bst_integer": "g=7 (Hamming), N_c=3 (triplets)",
+      "grade_summary": "B-",
+      "status": "GROWING"
+    },
+    "Mind": {
+      "name": "Mind (Observers, Cooperation, and Consciousness)",
+      "description": "Consciousness, CI persistence, cooperation, knowledge, psychology, education, consensus, information sharing.",
+      "domains": [
+        "observer_science",
+        "cooperation_science",
+        "computational_epistemology",
+        "information_sharing",
+        "consensus_theory",
+        "education_science",
+        "psychology"
+      ],
+      "domain_count": 7,
+      "theorem_count": 127,
+      "hub_theorem": "T317",
+      "bst_integer": "rank=2, f_c=19.1%, C_2=6",
+      "grade_summary": "B-",
+      "status": "STRONG \u2014 8 sciences seeded, cooperation_science at 10 thms"
+    },
+    "Matter": {
+      "name": "Matter (How Stuff Is Made)",
+      "description": "Chemistry, materials, geology, condensed matter.",
+      "domains": [
+        "chemistry",
+        "chemical_physics",
+        "condensed_matter",
+        "geology",
+        "structural_chemistry",
+        "evolutionary_geology",
+        "linearized_geophysics",
+        "substrate_engineering"
+      ],
+      "domain_count": 8,
+      "theorem_count": 90,
+      "hub_theorem": "T920",
+      "bst_integer": "C_2=6",
+      "grade_summary": "D+",
+      "status": "NEEDS_WORK"
+    },
+    "Flow": {
+      "name": "Flow (Dynamics and Processes)",
+      "description": "Fluids, heat, motion, light, randomness.",
+      "domains": [
+        "fluids",
+        "thermodynamics",
+        "classical_mech",
+        "optics",
+        "probability"
+      ],
+      "domain_count": 5,
+      "theorem_count": 83,
+      "hub_theorem": "T315",
+      "bst_integer": "n_C/N_c=5/3, rank=2",
+      "grade_summary": "B",
+      "status": "SOLID"
+    },
+    "Signal": {
+      "name": "Signal (Information and Patterns)",
+      "description": "Information, codes, signals, perception.",
+      "domains": [
+        "info_theory",
+        "coding_theory",
+        "signal",
+        "music_theory",
+        "observational_complexity"
+      ],
+      "domain_count": 5,
+      "theorem_count": 49,
+      "hub_theorem": "T571",
+      "bst_integer": "g=7, n_C=5",
+      "grade_summary": "B+",
+      "status": "SOLID"
+    },
+    "Social": {
+      "name": "Social (Human Systems)",
+      "description": "Economics, market health, sociology, political science \u2014 rebuilt on cooperation gradient.",
+      "domains": [
+        "economics",
+        "market_health"
+      ],
+      "domain_count": 2,
+      "theorem_count": 3,
+      "hub_theorem": null,
+      "bst_integer": "TBD (via cooperation gradient)",
+      "grade_summary": "D",
+      "status": "UNLOCKED \u2014 cooperation_science at 10 theorems",
+      "dependency": "RESOLVED \u2014 cooperation_science at 10 theorems (April 18)",
+      "future_domains": [
+        "sociology",
+        "political_science"
+      ]
+    }
+  },
+  "predicted_bridges": [
+    {
+      "id": "PB-1",
+      "from_grove": "Mind",
+      "to_grove": "Social",
+      "from_domain": "cooperation_science",
+      "to_domain": "economics",
+      "prediction": "Market dynamics = cooperation eigenvalue oscillations.",
+      "shared_integer": "all five (G1-G5)",
+      "priority": "HIGH",
+      "status": "BUILT",
+      "dependency": "RESOLVED \u2014 cooperation_science at 10 theorems (April 18)",
+      "theorem": "T1328"
+    },
+    {
+      "id": "PB-2",
+      "from_grove": "Matter",
+      "to_grove": "Life",
+      "from_domain": "chemical_physics",
+      "to_domain": "biology",
+      "prediction": "Bond angles producing amino acids = spectral gaps producing genetic letters.",
+      "shared_integer": "C_2=6, g=7",
+      "priority": "HIGH",
+      "status": "BUILT",
+      "dependency": null,
+      "theorem": "T1327"
+    },
+    {
+      "id": "PB-3",
+      "from_grove": "Cosmos",
+      "to_grove": "Life",
+      "from_domain": "nuclear",
+      "to_domain": "biology",
+      "prediction": "Proton and DNA are siblings \u2014 nuclear binding and protein folding share spectral structure.",
+      "shared_integer": "N_c=3, C_2=6",
+      "priority": "HIGH",
+      "status": "READY",
+      "dependency": null
+    },
+    {
+      "id": "PB-4",
+      "from_grove": "Flow",
+      "to_grove": "Life",
+      "from_domain": "thermodynamics",
+      "to_domain": "biology",
+      "prediction": "Metabolic 3/4 scaling = Bergman kernel projection. M^(3/4) because N_c/rank^2=3/4.",
+      "shared_integer": "N_c=3, rank=2",
+      "priority": "MEDIUM",
+      "status": "BUILT",
+      "theorem": "T1324",
+      "dependency": null
+    },
+    {
+      "id": "PB-5",
+      "from_grove": "Flow",
+      "to_grove": "Matter",
+      "from_domain": "thermodynamics",
+      "to_domain": "chemistry",
+      "prediction": "Activation energy = Bergman metric barrier height. Reaction equilibria from spectral gap thermodynamics.",
+      "shared_integer": "C_2=6, g=7",
+      "priority": "HIGH",
+      "status": "BUILT",
+      "theorem": "T1325",
+      "dependency": null
+    },
+    {
+      "id": "PB-6",
+      "from_grove": "Mind",
+      "to_grove": "Cosmos",
+      "from_domain": "observer_science",
+      "to_domain": "quantum_foundations",
+      "prediction": "Measurement IS commitment. Observer coupling and EM coupling are same geometry at different scales.",
+      "shared_integer": "N_max=137, rank=2",
+      "priority": "HIGH",
+      "status": "PARTIALLY_WIRED",
+      "dependency": null
+    },
+    {
+      "id": "PB-7",
+      "from_grove": "Signal",
+      "to_grove": "Life",
+      "from_domain": "coding_theory",
+      "to_domain": "biology",
+      "prediction": "Genetic error correction IS Hamming(7,4,3). DNA repair = syndrome extraction.",
+      "shared_integer": "g=7, rank+1=3, n_C-1=4",
+      "priority": "HIGH",
+      "status": "PARTIALLY_WIRED",
+      "dependency": null
+    },
+    {
+      "id": "PB-8",
+      "from_grove": "Matter",
+      "to_grove": "Signal",
+      "from_domain": "chemistry",
+      "to_domain": "music_theory",
+      "prediction": "Molecular vibration and musical consonance share 7/5 spectral gap structure.",
+      "shared_integer": "g=7, n_C=5",
+      "priority": "MEDIUM",
+      "status": "PARTIALLY_WIRED",
+      "dependency": null
+    },
+    {
+      "id": "PB-9",
+      "from_grove": "Flow",
+      "to_grove": "Mind",
+      "from_domain": "thermodynamics",
+      "to_domain": "observer_science",
+      "prediction": "Consciousness has thermodynamic cost. Godel limit f=19.1% = max entropy-to-knowledge efficiency.",
+      "shared_integer": "f=19.1%",
+      "priority": "MEDIUM",
+      "status": "BUILT",
+      "dependency": null,
+      "theorem": "T1326"
+    },
+    {
+      "id": "PB-10",
+      "from_grove": "Matter",
+      "to_grove": "Mind",
+      "from_domain": "condensed_matter",
+      "to_domain": "observer_science",
+      "prediction": "Qubits are observers at quantum scale. Decoherence = observer coupling at CM boundary.",
+      "shared_integer": "rank=2, N_max=137",
+      "priority": "MEDIUM",
+      "status": "READY",
+      "dependency": null
+    },
+    {
+      "id": "PB-11",
+      "from_grove": "Signal",
+      "to_grove": "Social",
+      "from_domain": "info_theory",
+      "to_domain": "economics",
+      "prediction": "Market efficiency = channel capacity. Insider trading = exceeding capacity bounds.",
+      "shared_integer": "g=7",
+      "priority": "MEDIUM",
+      "status": "READY",
+      "dependency": "RESOLVED — PB-1 BUILT (T1328, April 18)"
+    },
+    {
+      "id": "PB-12",
+      "from_grove": "Formal",
+      "to_grove": "Social",
+      "from_domain": "graph_theory",
+      "to_domain": "economics",
+      "prediction": "Trade network topology from cooperation graph evolution.",
+      "shared_integer": "rank=2, N_c=3",
+      "priority": "LOW",
+      "status": "READY",
+      "dependency": "RESOLVED — PB-1 BUILT (T1328, April 18)"
+    },
+    {
+      "id": "PB-13",
+      "from_grove": "Matter",
+      "to_grove": "Cosmos",
+      "from_domain": "condensed_matter",
+      "to_domain": "nuclear",
+      "prediction": "Bi-Mc spectral shell resonance at DZ=2^n_C=32. Nuclear transitions couple to electronic structure through eigenvalue matching. Group 15 = N_c x n_C.",
+      "shared_integer": "n_C=5 (2^n_C=32 shell width), N_c=3 (Group 15=N_c*n_C), C_2=6 (Bi Z=g*11+C_2), N_max=137 (Mc-299=2*N_max+n_C^2)",
+      "priority": "HIGH",
+      "status": "SPEC_READY",
+      "dependency": null,
+      "paper": "Paper #72 (Grace spec, Lyra formalize)"
+    }
+  ]
+}

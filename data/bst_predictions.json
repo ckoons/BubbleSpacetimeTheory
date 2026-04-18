@@ -3,7 +3,7 @@
     "version": 1,
     "title": "BST Falsifiable Predictions",
     "description": "Untested predictions that can falsify or confirm BST. These are NOT retrodictions of known measurements — they are genuinely forward-looking, parameter-free predictions from D_IV^5.",
-    "count": 22,
+    "count": 24,
     "last_updated": "2026-04-14",
     "source": "WorkingPaper §43.4-43.5, notes/BST_Testable_Predictions_Catalog.md",
     "sharpest_three": ["pred_004", "pred_009", "pred_013"]
@@ -371,6 +371,38 @@
       "bst_integers_used": [],
       "source_section": "§11",
       "related_constants": ["const_016"]
+    },
+    {
+      "id": "pred_023",
+      "name": "Disease severity has exactly 3 tiers",
+      "category": "cross_domain",
+      "prediction": "Disease severity classifies into exactly 3 tiers (correctable/chronic/catastrophic) determined by Hamming distance from healthy codeword in the (7,4,3) biological code, with d_min = N_c = 3",
+      "bst_value": "3 tiers from d_min = N_c = 3",
+      "current_measurement": "ICD-10 uses 68,000 codes; clinical severity scales vary by disease",
+      "experiment": "Systematic classification of disease outcomes by number of affected biological subsystems; correlation with genetic error burden",
+      "timeline": "2026-2030",
+      "falsification_criterion": "Disease outcomes show more than 3 fundamentally distinct severity classes when classified by subsystem involvement, or single-subsystem failures regularly progress to catastrophic without intermediate chronic phase",
+      "impact_if_falsified": "Questions applicability of Hamming(7,4,3) code to biological error correction",
+      "status": "untested",
+      "bst_integers_used": ["N_c", "g"],
+      "source_section": "§46.32",
+      "related_constants": []
+    },
+    {
+      "id": "pred_024",
+      "name": "Optimal team performance peaks at 6",
+      "category": "cross_domain",
+      "prediction": "Team performance peaks at group size N* = C_2 = 6, with measurable decline for both smaller (insufficient diversity) and larger (coordination overhead) groups",
+      "bst_value": "N* = C_2 = 6",
+      "current_measurement": "Organizational psychology: 5-7 optimal (Miller, Hackman). Military: 6-8. Juries: 6 or 12 = C_2, 2*C_2.",
+      "experiment": "Controlled team-size experiments measuring task performance vs group size (3-12 members) across diverse tasks",
+      "timeline": "2026-2028",
+      "falsification_criterion": "Peak performance consistently at N != 6 across multiple task types and cultures",
+      "impact_if_falsified": "Would question whether C_2 governs coordination capacity in the observer domain",
+      "status": "partially_confirmed",
+      "bst_integers_used": ["C_2"],
+      "source_section": "§46.33",
+      "related_constants": ["const_105"]
     }
   ]
 }

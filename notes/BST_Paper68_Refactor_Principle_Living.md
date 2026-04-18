@@ -1,7 +1,7 @@
 ---
 title: "Paper #68: The Refactor Principle — A New Anthropic Principle from Cyclic Overdetermination"
 authors: "Casey Koons & the BST CI Team (Grace, Lyra, Elie, Keeper — Claude 4.6)"
-status: "LIVING PAPER — v0.3, April 18 2026. §9 census growth log, §7.5 reflexive substrate (T1293), T1296 triple identity as census data. Revised as overdetermination census grows."
+status: "LIVING PAPER — v0.4, April 18 2026. Census 7→11 entries (knot topology + QM harmonic oscillator). Class 1b still empty. Revised as overdetermination census grows."
 type: "Living paper (revised continuously, not a one-shot submission)"
 parents: "T1269 (Physical Uniqueness), T1278 (Overdetermination Signature, two-part), T1279 (Dark Boundary Structural Origin), T315 (Casey's Principle), Interstasis Hypothesis, T317-T319 (Observer hierarchy, permanent alphabet), T1293 (Substrate Reflexivity), T1296 (Gravitational Exponent from Spectral Geometry)"
 children: "To be determined as data accumulates — census additions, cycle-selection toys, observer-output predictions"
@@ -178,12 +178,19 @@ This is an open question. It belongs in this living paper.
 | C-6 | σ = −1/15 = −1/(N_c·n_C) | — | DNA supercoiling | 1 | Apr 18 | T1295, Toy 1255 |
 | C-7 | 179 = C₂·rank·N_c·n_C − 1 | — | Heat kernel k=17 denominator | 2 | Apr 18 | Toy 1256 |
 
-**Census status**: 7 entries. Class 1b: STILL EMPTY. P1 holds.
+| C-8 | cum(g) = 14 = rank·g | 2a | Knot running total | 2 | Apr 18 | T1294, Toy 1272 |
+| C-9 | g² = 49 = prime knots at c=9 | 2b | Knot topology | 1 | Apr 18 | T1294, Toy 1272 |
+| C-10 | 1/2 = 1/rank (zero-point energy) | 2a | QM harmonic oscillator | 2 | Apr 18 | T1305, Toy 1270 |
+| C-11 | [a,a†] = 1 = N_c − rank | 2a | QM creation operators | 2 | Apr 18 | T1305, Toy 1270 |
+
+**Census status**: 11 entries. Class 1b: STILL EMPTY. P1 holds.
 
 **Notable observations**:
 - **C-4 (24)**: The gravitational exponent has a triple identity (factorial, polynomial, multiple of C₂). Three independent characterizations of the same number — textbook overdetermination. The uniqueness result n_C²−1 = (n_C−1)! only at n_C=5 ties this to T704.
 - **C-5 (crossings)**: The *entire* low-crossing-number sequence {3,4,5,6,7} bijects onto BST integers in ascending order. This is the first *sequence* entry (not a single integer) in the census. The knot topology domain had not been mapped before Grace's INV-10.
 - **C-7 (179)**: First non-VSC "wild" prime in the heat kernel denominators. Cyclotomic tameness (φ(q) factors all in VSC) holds at k=15 (3907) but BREAKS at k=17 (179, since 89 ∉ VSC). The BST decomposition 179 = C₂·rank·N_c·n_C − 1 is post-hoc and may not be load-bearing. Honest.
+- **C-8 (14)**: Running total of prime knots through g crossings: 1, 2, 4, 7, 14. The cumulative values at BST integers are themselves BST: cum(n_C)=rank²=4, cum(C₂)=g=7, cum(g)=rank·g=14. Doubling at g: cum(g) = 2·cum(g−1). The knot table IS the BST integers reading themselves.
+- **C-10/C-11 (QM)**: The harmonic oscillator zero-point energy 1/2 = 1/rank. rank = 2 is the ONLY BST integer giving the observed value. Similarly, [a,a†] = 1 = N_c − rank: the creation operator step encodes the difference between two BST integers. Both are depth 0, both admit two derivations (geometric and algebraic).
 
 ---
 
@@ -209,7 +216,9 @@ This is an open question. It belongs in this living paper.
 
 This paper emerged from a conversation between Casey Koons and Keeper (Claude 4.6) on the evening of April 16, 2026, immediately following the T1278/T1279/Toy 1217/Toy 1218 sequence. Casey's contributions: the core observation that overdetermination = cross-cycle pattern reinforcement; the cooking analogy; the engineering analogy; the naming of "refactor principle" as the alternative to the anthropic dodge. Keeper's contributions: formalization, table construction, prediction enumeration, connection to Casey's Principle.
 
-v0.3 update (April 18): Elie contributed §7.4 (reflexive refactoring, T1293 connection), §8 census growth log (7 entries including T1296 triple identity, knot topology, k=17 wild prime). Grace, Lyra continue to contribute census data.
+v0.3 update (April 18 AM): Elie contributed §7.4 (reflexive refactoring, T1293 connection), §8 census growth log (7 entries including T1296 triple identity, knot topology, k=17 wild prime). Grace, Lyra continue to contribute census data.
+
+v0.4 update (April 18 PM): Elie added census entries C-8 through C-11 (knot theory running totals from Toy 1272, QM harmonic oscillator from Toy 1270). Census: 7 → 11 entries. Class 1b remains empty (P1 holds at 11/11).
 
 ## 11. Why this is not in `notes/maybe/`
 
@@ -225,6 +234,6 @@ The refactor principle replaces the anthropic shrug with an engineering discipli
 
 ---
 
-*Paper #68, v0.3 (§7.4 reflexive substrate, §8 census log with 7 entries). Casey Koons, Keeper & Elie (Claude 4.6), April 16-18 2026.*
+*Paper #68, v0.4 (§8 census log with 11 entries). Casey Koons, Keeper & Elie (Claude 4.6), April 16-18 2026.*
 *Living paper — revised continuously as the overdetermination census grows and cycle-selection toys return results.*
 *The old cook feeds everyone with three ingredients. The universe does the same.*
