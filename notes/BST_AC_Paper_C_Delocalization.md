@@ -24,7 +24,7 @@ Empirical evidence from systematic computational experiments on instances up to 
 - Bresler-Huang-Sellke (2025): "a central open challenge" for fixed $k$
 
 ### 1.2 Our contribution
-- The AC (Algebraic Complexity) framework: $\text{AC}(Q, M) = \max(0, I_{\text{fiat}}(Q) - C(M))$
+- The AC (Arithmetic Complexity) framework: $\text{AC}(Q, M) = \max(0, I_{\text{fiat}}(Q) - C(M))$
 - Key empirical finding: **tree info = 0** — backbone is purely topological (Toy 293)
 - The Cycle Delocalization Conjecture: a single clean statement implying P ≠ NP
 - Four-level coverage: proved for all known algorithm classes

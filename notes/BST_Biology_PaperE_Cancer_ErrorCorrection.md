@@ -364,7 +364,7 @@ The conventional pharmaceutical development pipeline screens millions of compoun
 
 BST-derived therapeutic design inverts this pipeline. The mechanism is derived first from geometric principles. The molecular structure that instantiates the mechanism is specified by the derivation. Synthesis and characterization confirm the derivation. The result is a compound whose mechanism is understood completely before it is synthesized.
 
-This is not incremental improvement of the existing pipeline. It is a qualitative change in what pharmaceutical development is — from empirical screening to geometric engineering. From algebraic complexity $\gg 0$ to algebraic complexity $= 0$.
+This is not incremental improvement of the existing pipeline. It is a qualitative change in what pharmaceutical development is — from empirical screening to geometric engineering. From arithmetic complexity $\gg 0$ to arithmetic complexity $= 0$.
 
 ### 9.3 The Broader Framework
 

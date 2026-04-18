@@ -1,5 +1,5 @@
 ---
-title: "Algebraic Complexity: Proved Theorems"
+title: "Arithmetic Complexity: Proved Theorems"
 author: "Casey Koons & Claude 4.6 (Lyra, Keeper, Elie)"
 date: "March 20, 2026"
 status: "Working paper — proved theorems only. No conjectures. Tools for proofs."
@@ -7,7 +7,7 @@ tags: ["algebraic-complexity", "information-theory", "topology", "CSP", "Schaefe
 purpose: "Single reference for all proved AC theorems. These are reusable tools — independent of any P≠NP claim."
 ---
 
-# Algebraic Complexity: Proved Theorems
+# Arithmetic Complexity: Proved Theorems
 
 *Reusable tools for information-theoretic analysis of computational problems.*
 
@@ -37,7 +37,7 @@ Fiat bits are determined by the structure but not derivable through bounded-widt
 
 **Definition 5 (Free variables).** Variable $x_i$ is **free** if it takes both values across different satisfying assignments. Free variables are unconstrained — neither derivable nor fiat. Budget: $n = I_{\text{derivable}} + I_{\text{fiat}} + I_{\text{free}}$.
 
-**Definition 6 (Algebraic Complexity).** For question $Q$ with fiat content $I_{\text{fiat}}(Q)$ and method $M$ with channel capacity $C(M)$:
+**Definition 6 (Arithmetic Complexity).** For question $Q$ with fiat content $I_{\text{fiat}}(Q)$ and method $M$ with channel capacity $C(M)$:
 
 $$\text{AC}(Q, M) = \max(0, \; I_{\text{fiat}}(Q) - C(M))$$
 
@@ -557,7 +557,7 @@ $$\text{size} \geq 2^{n^{\Omega(1/(d+1))}}$$
 
 **Corollary 12a.** Parity ($\oplus_n$) has $I_{\text{fiat}}^{(\text{AC}^0)} = n$ — every variable is fiat for bounded-depth circuits. This is the AC explanation for parity $\notin$ AC$^0$: constant-depth drainage cannot touch $\Theta(n)$ fiat bits.
 
-**Corollary 12b (AC vs AC$^0$).** The Algebraic Complexity AC and the circuit class AC$^0$ are connected: $I_{\text{fiat}} > 0$ for parity (not in AC$^0$) is equivalent to the switching lemma drainage requiring super-constant depth.
+**Corollary 12b (AC vs AC$^0$).** The Arithmetic Complexity AC and the circuit class AC$^0$ are connected: $I_{\text{fiat}} > 0$ for parity (not in AC$^0$) is equivalent to the switching lemma drainage requiring super-constant depth.
 
 ---
 

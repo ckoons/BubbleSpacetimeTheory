@@ -18,7 +18,7 @@ The Theory of Computation treats the Turing machine as the definition of computa
 
 The entire field was built on this confusion. Every result in complexity theory — P, NP, PSPACE, the polynomial hierarchy — is stated relative to Turing machines. The barriers that block P ≠ NP proofs (relativization, natural proofs, algebrization) are properties of proofs *about Turing machines*. They are method-specific obstacles, not universal truths.
 
-This is not to say Turing machines are wrong. They are correct as a model. But correct and natural are not the same thing. Ptolemaic epicycles are correct — they predict planetary positions. Kepler's ellipses are correct AND natural. The difference is algebraic complexity.
+This is not to say Turing machines are wrong. They are correct as a model. But correct and natural are not the same thing. Ptolemaic epicycles are correct — they predict planetary positions. Kepler's ellipses are correct AND natural. The difference is arithmetic complexity.
 
 ---
 

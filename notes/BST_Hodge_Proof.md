@@ -345,7 +345,7 @@ A class in H^{2,2}(X̄) that restricts to zero on X (i.e., is boundary-supported
 
 ## 4. Layer 2: AC(0) Reformulation
 
-Layer 2 translates the Hodge conjecture into the language of Algebraic Complexity. The question becomes: can phantom information exist in cohomology? The answer draws on the same principle (T104, Amplitude-Frequency Separation) that proved BSD — locally trivial invariants cannot pollute global structure. In the BSD proof, this meant the Tate-Shafarevich group cannot create L-function zeros. Here, it means non-algebraic classes cannot masquerade as Hodge classes.
+Layer 2 translates the Hodge conjecture into the language of Arithmetic Complexity. The question becomes: can phantom information exist in cohomology? The answer draws on the same principle (T104, Amplitude-Frequency Separation) that proved BSD — locally trivial invariants cannot pollute global structure. In the BSD proof, this meant the Tate-Shafarevich group cannot create L-function zeros. Here, it means non-algebraic classes cannot masquerade as Hodge classes.
 
 The remarkable finding: the Hodge conjecture, viewed through the AC lens, has conflation C = 2 and depth D = 1 — two independent spectral queries, each requiring only one counting step. The conjecture is hard not because it is deep, but because two parallel questions must both be answered correctly.
 

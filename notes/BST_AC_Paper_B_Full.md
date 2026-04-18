@@ -129,11 +129,11 @@ The heat kernel Seeley-DeWitt coefficients $a_k(Q^5)$ encode these numbers throu
 
 The speaking pair at $(15, 16)$ carries the factor 21 = $\dim(SO(g))$. And $147 = 7 \times 21 = g \times \dim(SO(g))$. Casey's dream: paired flavors attracted to each other — 137 and 147 separated by $2n_C = 10$, the electromagnetic and strong coupling constants encoded in the same geometric structure.
 
-### 6. The Algebraic Complexity Framework
+### 6. The Arithmetic Complexity Framework
 
 #### 6.1 AC as Information Gap
 
-Algebraic Complexity $\text{AC}(Q, M) = \max(0, I_{\text{fiat}}(Q) - C(M))$ measures the Shannon gap between problem and method. The three-way budget $n = I_{\text{derivable}} + I_{\text{fiat}} + I_{\text{free}}$ decomposes every problem instance into: what you can derive (polynomial time), what is determined but not derivable (the fiat gap), and what is genuinely free.
+Arithmetic Complexity $\text{AC}(Q, M) = \max(0, I_{\text{fiat}}(Q) - C(M))$ measures the Shannon gap between problem and method. The three-way budget $n = I_{\text{derivable}} + I_{\text{fiat}} + I_{\text{free}}$ decomposes every problem instance into: what you can derive (polynomial time), what is determined but not derivable (the fiat gap), and what is genuinely free.
 
 This is BST's information budget applied to computation. The universe has the same structure: derivable physics (Standard Model from geometry), fiat constants (none — BST has zero free inputs), and free degrees (none — 21 uniqueness conditions fix everything).
 
@@ -141,7 +141,7 @@ The universe has $I_{\text{fiat}} = 0$ because it IS the geometry. Computational
 
 #### 6.1a AC is AC(0): The Self-Consistency Theorem
 
-The Algebraic Complexity framework is itself an AC(0) theory. It classifies problems using Shannon theory, topology, and Euler characteristic — all derivable, zero free parameters. The recovery table reproduces 14 known results with the same constants, adding no information. AC is a coordinate transformation that makes complexity readable, not a computation with hidden inputs.
+The Arithmetic Complexity framework is itself an AC(0) theory. It classifies problems using Shannon theory, topology, and Euler characteristic — all derivable, zero free parameters. The recovery table reproduces 14 known results with the same constants, adding no information. AC is a coordinate transformation that makes complexity readable, not a computation with hidden inputs.
 
 This self-consistency is necessary, not accidental. A framework with $I_{\text{fiat}} > 0$ would have a blind spot — hidden assumptions that correlate with the hidden structure of the problems it classifies. Only an AC(0) framework can correctly see the P/NP boundary. Any internal fiat would create systematic bias at precisely the point where the classification matters most.
 
@@ -156,7 +156,7 @@ This is the computational analogue of Wigner's "unreasonable effectiveness": mat
 
 #### 6.2 The AC Program: 31 Results
 
-The full Algebraic Complexity program has produced 31 results:
+The full Arithmetic Complexity program has produced 31 results:
 - 24 proved theorems (11 recovering known results, 13 genuinely new)
 - 1 proved-conditional (T30, given T29)
 - 1 empirical, 1 measured, 1 proved+measured

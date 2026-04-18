@@ -8,7 +8,7 @@ purpose: "Restate Shannon's core theorems in AC(0) language. First tool in the A
 
 # Information Theory in AC(0)
 
-*Every theorem in this note has algebraic complexity zero. Each follows from identities and counting, with zero free parameters. Information theory IS the AC(0) toolkit.*
+*Every theorem in this note has arithmetic complexity zero. Each follows from identities and counting, with zero free parameters. Information theory IS the AC(0) toolkit.*
 
 *For mathematicians, physicists, engineers, and CIs: practical tools derived from deep theory.*
 
@@ -16,7 +16,7 @@ purpose: "Restate Shannon's core theorems in AC(0) language. First tool in the A
 
 ## 0. The AC(0) Principle
 
-A theorem has **algebraic complexity zero** (AC = 0) if its proof requires no fiat input — no hidden parameters, no unjustified assumptions, no choices that could have gone differently. The theorem follows entirely from identities, counting, and the structure of the problem.
+A theorem has **arithmetic complexity zero** (AC = 0) if its proof requires no fiat input — no hidden parameters, no unjustified assumptions, no choices that could have gone differently. The theorem follows entirely from identities, counting, and the structure of the problem.
 
 Every theorem below is AC(0). We mark each proof step with its character: **[identity]**, **[counting]**, or **[definition]**. If a step requires neither, it is fiat — and we flag it.
 

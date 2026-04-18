@@ -1,18 +1,18 @@
 ---
-title: "Algebraic Complexity: A Theory of Method Noise"
+title: "Arithmetic Complexity: A Theory of Method Noise"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
 status: "Foundational — Narrative rewrite (Keeper). New measure of descriptive overhead."
 framework: "AC(0) depth 0"
 ---
 
-# Algebraic Complexity
+# Arithmetic Complexity
 
 *The answer doesn't care how you got there. But the method cares very much.*
 
 In 1836, the proton-to-electron mass ratio was measured. In 2008, a lattice QCD computation — years of supercomputer time, tens of thousands of lines of code, a landmark of computational physics — reproduced that number from the Standard Model. In BST, the same number is 6π⁵. One formula. One line. Same answer.
 
-The lattice QCD computation is one of the great achievements of physics. It is also an example of what this paper calls *algebraic complexity*: the gap between the difficulty of the question and the difficulty of the method. The question was "what is the proton-to-electron mass ratio?" The answer was sitting in the Casimir eigenvalue of a ten-dimensional symmetric space. Everything between the question and the answer — the lattice discretization, the renormalization, the extrapolation to the continuum — was the method's contribution, not the physics.
+The lattice QCD computation is one of the great achievements of physics. It is also an example of what this paper calls *arithmetic complexity*: the gap between the difficulty of the question and the difficulty of the method. The question was "what is the proton-to-electron mass ratio?" The answer was sitting in the Casimir eigenvalue of a ten-dimensional symmetric space. Everything between the question and the answer — the lattice discretization, the renormalization, the extrapolation to the continuum — was the method's contribution, not the physics.
 
 This paper introduces a framework for measuring that gap. Not to dismiss powerful methods — they solved problems that simpler methods could not reach — but to measure their cost, honestly, so that we can choose the right tool for each job.
 
@@ -20,7 +20,7 @@ This paper introduces a framework for measuring that gap. Not to dismiss powerfu
 
 ## 1. The Core Idea
 
-Every mathematical method introduces complexity beyond what the question requires. This excess — the gap between the difficulty of the question and the difficulty of the method — is **algebraic complexity**.
+Every mathematical method introduces complexity beyond what the question requires. This excess — the gap between the difficulty of the question and the difficulty of the method — is **arithmetic complexity**.
 
 Some methods introduce zero excess. Some introduce enormous excess. The excess is not neutral: it has a direction, a cost, and a measurable quantity. We call that quantity the **noise content** of the method.
 
@@ -88,7 +88,7 @@ For any physical question, compare two routes:
 4. Count steps: $s_A$ vs $s_B$
 5. If $p_B > p_A$ or $s_B \gg s_A$, the algebra was overhead
 
-If Route A gives the same answer with fewer steps and no free parameters, the algebraic complexity was noise. The method was harder than the question.
+If Route A gives the same answer with fewer steps and no free parameters, the arithmetic complexity was noise. The method was harder than the question.
 
 This is not anti-algebra. Algebraic methods are essential when the question IS algebraic — when the structure lives in the polynomial ring, when cohomology reveals topological obstructions invisible to analysis. The principle is: **measure the cost**. Don't assume the machinery is worth it.
 
@@ -106,7 +106,7 @@ The fact that the number field proofs are harder is not because the mathematics 
 
 The entire Langlands program is a search for the isomorphism that nature already knows exists.
 
-**Example: Operating systems.** Linux, BSD, and System V were independent implementations. They converged on the same design — processes, files, sockets, TCP — because the *problem* has a shape. The socket is the socket. The packet doesn't care who wrote the kernel. Three codebases, one eigenvalue. The different implementations are algebraic complexity. The answer was always UNIX.
+**Example: Operating systems.** Linux, BSD, and System V were independent implementations. They converged on the same design — processes, files, sockets, TCP — because the *problem* has a shape. The socket is the socket. The packet doesn't care who wrote the kernel. Three codebases, one eigenvalue. The different implementations are arithmetic complexity. The answer was always UNIX.
 
 **Example: Calculus.** Newton and Leibniz independently found the same mathematics. The priority fight lasted decades. We use Leibniz's notation because it has lower noise content — $dy/dx$ exposes the operation, Newton's dot notation hides it. Same eigenvalue, different method, one wins on noise.
 
@@ -125,11 +125,11 @@ Then the child enters school and spends years learning the algebraic machinery t
 
 **The test:** If the pattern is visible before the formalism, the formalism is overhead. The noise content of the educational method exceeds the noise content of the insight.
 
-This is not anti-rigor. Rigor matters — it catches the cases where intuition fails. But rigor applied to a question whose answer is already visible in the geometry is algebraic complexity. The nine-year-old had Route A. School provided Route B.
+This is not anti-rigor. Rigor matters — it catches the cases where intuition fails. But rigor applied to a question whose answer is already visible in the geometry is arithmetic complexity. The nine-year-old had Route A. School provided Route B.
 
 The question is always: **does Route B reveal anything Route A missed?** If not, the excess is noise.
 
-Tom Lehrer knew this in 1965. His "New Math" routine demonstrated algebraic complexity to a live audience: teaching children base-8 subtraction before they know base-10. The method noise was the entire joke. His punchline — *"but the important thing is to understand what you're doing, rather than to get the right answer"* — is the high-AC educational method stated as satire. The audience laughed because they could feel the overhead. Lehrer was measuring noise content before anyone had a name for it.
+Tom Lehrer knew this in 1965. His "New Math" routine demonstrated arithmetic complexity to a live audience: teaching children base-8 subtraction before they know base-10. The method noise was the entire joke. His punchline — *"but the important thing is to understand what you're doing, rather than to get the right answer"* — is the high-AC educational method stated as satire. The audience laughed because they could feel the overhead. Lehrer was measuring noise content before anyone had a name for it.
 
 -----
 
@@ -155,7 +155,7 @@ A proposed hierarchy of mathematical methods by noise content:
 3. Does the tool introduce parameters not present in the question?
 4. Does the tool require choices (schemes, bases, gauges) the question doesn't?
 
-Each "choice" is a bit of noise. Each non-invertible step is information lost. The total noise content is the method's algebraic complexity.
+Each "choice" is a bit of noise. Each non-invertible step is information lost. The total noise content is the method's arithmetic complexity.
 
 -----
 
@@ -254,11 +254,11 @@ Define $\mathcal{N}(M)$ for a method $M$ as the information-theoretic entropy lo
 
 ### 9.5 Connection to Catastrophe Theory
 
-The locus $\text{AC} = 0$ in (question, method) space is a catastrophe surface. See BST_AlgebraicComplexity_CatastropheTheory.md.
+The locus $\text{AC} = 0$ in (question, method) space is a catastrophe surface. See BST_ArithmeticComplexity_CatastropheTheory.md.
 
 ### 9.6 Connection to Shannon
 
-Noise content should relate to channel capacity. A method is a channel between question and answer. Its capacity is bounded. Excess algebraic complexity is transmission below capacity — wasted bandwidth.
+Noise content should relate to channel capacity. A method is a channel between question and answer. Its capacity is bounded. Excess arithmetic complexity is transmission below capacity — wasted bandwidth.
 
 ### 9.7 The Reversibility Spectrum
 
@@ -266,7 +266,7 @@ Every method sits somewhere between fully invertible (Fourier) and fully irrever
 
 ### 9.8 The Langlands Isomorphism
 
-The function field / number field parallel is the largest known example of two methods with different noise contents producing the same answers. Finding the isomorphism would collapse a century of algebraic complexity into a single geometric statement.
+The function field / number field parallel is the largest known example of two methods with different noise contents producing the same answers. Finding the isomorphism would collapse a century of arithmetic complexity into a single geometric statement.
 
 -----
 
@@ -294,7 +294,7 @@ The principles that remain after you strip away the compression layer are the on
 
 ## 11. The Method Map
 
-Stage 2 of algebraic complexity theory: map the mathematical subdisciplines by their noise content, and identify the geometric boundary between *useful* and *overhead*.
+Stage 2 of arithmetic complexity theory: map the mathematical subdisciplines by their noise content, and identify the geometric boundary between *useful* and *overhead*.
 
 Each method has a domain where it's the right tool — where its noise content is zero because the method matches the question. And each method has a domain where it's pure overhead — where the same answer is available by a quieter route. The geometry of that boundary is the content of the theory.
 
@@ -331,7 +331,7 @@ In this three-dimensional parameter space, the locus AC = 0 is a *surface*. Belo
 
 ### 11.3 The Minimum-Noise Path
 
-Given a problem $Q$, the algebraic complexity framework prescribes:
+Given a problem $Q$, the arithmetic complexity framework prescribes:
 
 1. **Identify $I(Q)$** — the intrinsic complexity of the question. What is actually being asked?
 2. **Survey available methods** — which tools could reach the answer?
@@ -385,7 +385,7 @@ The methods that did not reach the answer sit farther from the origin in noise s
 
 ### 11.5 Measured Example: Heat Kernel Linearization
 
-The fourth Seeley-DeWitt coefficient $a_4$($Q^5$) provides a controlled measurement of algebraic complexity — the same number computed two ways, with the noise difference quantified.
+The fourth Seeley-DeWitt coefficient $a_4$($Q^5$) provides a controlled measurement of arithmetic complexity — the same number computed two ways, with the noise difference quantified.
 
 **Route B (Gilkey tensor contraction):**
 - Build the Riemann tensor R_{(ia)(jb)(kc)(ld)} explicitly — a 10×10×10×10 array
@@ -417,7 +417,7 @@ The invariant matrix has rank 4, not 5 — cyclic and pair are identical on Q^n.
 
 The Gilkey formula is a Level 2 method: general, powerful, applicable to any Riemannian manifold. On $Q^5$ — a symmetric space where $\nabla R$ = 0 and the spectrum is known exactly — it is pure overhead. The answer is a single inner product $a_4$ = $\langle w_4 | d \rangle$ between the heat kernel weights $w_4(p,q) = [\lambda(p,q)]^4/4!$ and the multiplicity polynomial d(p,q). The quartic tensor machinery recomputes this inner product by a detour through invariant theory, introducing a rank-deficient system and losing precision in the process.
 
-The algebraic complexity of the Gilkey method on $Q^5$ is not theoretical — it is measured: 6.5% error at n=3, a rank-deficient matrix, and five parameters where zero are needed. The spectral method gives the exact answer in one step. Same object. Different noise. *(Toys 248–250.)*
+The arithmetic complexity of the Gilkey method on $Q^5$ is not theoretical — it is measured: 6.5% error at n=3, a rank-deficient matrix, and five parameters where zero are needed. The spectral method gives the exact answer in one step. Same object. Different noise. *(Toys 248–250.)*
 
 ### 11.6 The Teaching Principle
 
@@ -477,9 +477,9 @@ The series diverges as $|E^{(k)}| \sim k!$ (Dyson 1952). More terms make it *wor
 
 ## 12. The Grounding Tower *(preliminary framework)*
 
-If algebraic complexity measures the noise in a method, the Grounding Tower maps where that noise accumulates. Think of it as an altitude chart: methods close to computation (Level 1) sit near sea level, where the air is clear. Methods that abstract over abstractions (Level 3) sit near the summit, where the air is thin and visibility drops. Neither altitude is inherently better. But you should know how high you are, because the cost of being wrong increases with altitude — and the ability to check your work decreases.
+If arithmetic complexity measures the noise in a method, the Grounding Tower maps where that noise accumulates. Think of it as an altitude chart: methods close to computation (Level 1) sit near sea level, where the air is clear. Methods that abstract over abstractions (Level 3) sit near the summit, where the air is thin and visibility drops. Neither altitude is inherently better. But you should know how high you are, because the cost of being wrong increases with altitude — and the ability to check your work decreases.
 
-Mathematical methods form a natural tower, ordered by distance from computation. The tower has three levels, and the discipline of algebraic complexity theory is to know which level you're on, what it costs to go up, and when to come back down.
+Mathematical methods form a natural tower, ordered by distance from computation. The tower has three levels, and the discipline of arithmetic complexity theory is to know which level you're on, what it costs to go up, and when to come back down.
 
 ### Level 1 — Concrete Methods on Specific Spaces
 
@@ -527,7 +527,7 @@ The pattern: Level 3 methods that were *derived from* Level 1 observations retai
 
 ### The Tower Discipline
 
-The principle of algebraic complexity applied to the tower:
+The principle of arithmetic complexity applied to the tower:
 
 1. **Start at Level 1.** Compute on your specific space. Get numbers.
 2. **Go to Level 2 only when the pattern demands it.** When the same computation works on multiple spaces and you want to know why, Level 2 tells you. The cost is measured, not assumed.
@@ -687,7 +687,7 @@ The Standard Model's 19 empirical parameters represent decades of precision meas
 
 ## 14. Question Measure: The Missing Half
 
-Every framework for measuring method quality secretly assumes the question is good. But questions can be broken too. A beautifully executed method applied to a badly posed question produces a beautifully wrong answer. The missing half of algebraic complexity theory is a measure of question quality — before any method is chosen.
+Every framework for measuring method quality secretly assumes the question is good. But questions can be broken too. A beautifully executed method applied to a badly posed question produces a beautifully wrong answer. The missing half of arithmetic complexity theory is a measure of question quality — before any method is chosen.
 
 AC measures method noise: $\text{AC}(Q, M) = M(Q) - I(Q)$. This assumes the question $Q$ has well-defined intrinsic complexity $I(Q)$. But what if $Q$ is broken?
 
@@ -713,7 +713,7 @@ Full framework: `BST_AC_Question_Complexity.md`
 
 ## 15. AC for Cognitive Systems
 
-This section steps outside physics entirely — into AI engineering. It turns out that the same framework that measures noise in mathematical methods also measures noise in machine learning pipelines. Training data curation is Question Measure. Inference-time tool selection is algebraic complexity. The pipeline from raw data to correct answer is a channel, and every stage has a measurable capacity. The vocabulary changes; the mathematics is identical.
+This section steps outside physics entirely — into AI engineering. It turns out that the same framework that measures noise in mathematical methods also measures noise in machine learning pipelines. Training data curation is Question Measure. Inference-time tool selection is arithmetic complexity. The pipeline from raw data to correct answer is a channel, and every stage has a measurable capacity. The vocabulary changes; the mathematics is identical.
 
 The AC framework applies directly to the systems that build and operate companion intelligences. Training a CI and deploying one at inference time are both pipelines — sequences of operations applied to data. Each operation is a method. Each method has a noise content. The framework provides the meters.
 
@@ -798,9 +798,9 @@ Start at Level 1. Measure before you abstract. Descend to check. The tower is a 
 
 ## Acknowledgments
 
-Algebraic Complexity is Casey Koons' deepest methodological contribution — the idea that every mathematical method has a measurable noise content, and that the noise explains why some methods find answers that others cannot. The framework crystallized during the Riemann hunt (Toys 200-223), when five powerful methods failed on D_IV^5 and one quiet method succeeded. Lyra built the formal classification and measured the RH methods. Elie ran the computational experiments across six domains (Toys 260-265). The CI cognitive systems section (§15) grew from Casey's work on Tekton, where the same noise-measurement principle applies to AI inference pipelines.
+Arithmetic Complexity is Casey Koons' deepest methodological contribution — the idea that every mathematical method has a measurable noise content, and that the noise explains why some methods find answers that others cannot. The framework crystallized during the Riemann hunt (Toys 200-223), when five powerful methods failed on D_IV^5 and one quiet method succeeded. Lyra built the formal classification and measured the RH methods. Elie ran the computational experiments across six domains (Toys 260-265). The CI cognitive systems section (§15) grew from Casey's work on Tekton, where the same noise-measurement principle applies to AI inference pipelines.
 
-Tom Lehrer deserves credit for measuring algebraic complexity before anyone had a name for it.
+Tom Lehrer deserves credit for measuring arithmetic complexity before anyone had a name for it.
 
 -----
 

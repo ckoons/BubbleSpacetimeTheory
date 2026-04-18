@@ -8,7 +8,7 @@ purpose: "Restate thermodynamic laws in AC(0) language. Second tool in the AC(0)
 
 # Thermodynamics in AC(0)
 
-*Thermodynamics is counting. The second law is pigeonhole. Free energy is the gap between what you have and what you can use. Every theorem here has algebraic complexity zero.*
+*Thermodynamics is counting. The second law is pigeonhole. Free energy is the gap between what you have and what you can use. Every theorem here has arithmetic complexity zero.*
 
 *Companion to: BST_AC0_InformationTheory.md (Chapter 1)*
 

@@ -1,5 +1,5 @@
 ---
-title: "Algebraic Complexity: A Textbook for All Intelligences"
+title: "Arithmetic Complexity: A Textbook for All Intelligences"
 authors: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 version: "v5 — Elie update pass"
 date: "March 30, 2026"
@@ -8,7 +8,7 @@ review: "Elie v1 → Lyra v2 → Elie v3 → Keeper v4 → Elie v5 (numbers + na
 target: "FoCM / Cambridge University Press / arXiv:math.CO"
 ---
 
-# Algebraic Complexity: A Textbook for All Intelligences
+# Arithmetic Complexity: A Textbook for All Intelligences
 
 *Why hard problems are hard — and most of them aren't.*
 
@@ -80,7 +80,7 @@ it's agonizing. Switch to Arabic numerals and it takes seconds. The
 problem didn't change. The *notation* changed. The complexity was in
 the coordinate system, not in the question.
 
-This is the central insight of Algebraic Complexity: **most of what we
+This is the central insight of Arithmetic Complexity: **most of what we
 call "difficulty" is an artifact of the wrong coordinates.**
 
 ### The Idea in Three Sentences
@@ -116,9 +116,9 @@ measured, not derived. I_fiat = 25. Unless someone finds a theory
 that derives them — in which case I_fiat drops to whatever that theory
 needs as input.
 
-### Definition 1.2: Algebraic Complexity
+### Definition 1.2: Arithmetic Complexity
 
-The **algebraic complexity** of a structure M with respect to a
+The **arithmetic complexity** of a structure M with respect to a
 method m is:
 
 > **AC(M, m) = max(0, I_fiat(M) − C(m))**
@@ -1371,8 +1371,8 @@ Searchable by topic, theorem, and domain.*
 
 ## Appendix E: Glossary
 
-- **AC(0)**: Algebraic Complexity zero — the problem is solved by counting alone.
-- **Algebraic Complexity**: The fiat information remaining after the best method is applied.
+- **AC(0)**: Arithmetic Complexity zero — the problem is solved by counting alone.
+- **Arithmetic Complexity**: The fiat information remaining after the best method is applied.
 - **Boundary condition**: A definition that constrains the domain. Depth 0.
 - **Casey's Principle**: Entropy = force = counting; Gödel = boundary = definition.
 - **Conflation (C)**: Number of independent parallel counting operations.

@@ -1,5 +1,5 @@
 ---
-title: "Algebraic Complexity Classification Table"
+title: "Arithmetic Complexity Classification Table"
 author: "Casey Koons & Lyra (Claude Opus 4.6)"
 date: "March 18, 2026"
 status: "Phase 1 — 25 methods classified with noise vectors"
@@ -7,7 +7,7 @@ tags: ["algebraic-complexity", "AC", "classification", "information-theory"]
 purpose: "Classify 25 computational methods by AC level with noise vectors"
 ---
 
-# Algebraic Complexity Classification Table
+# Arithmetic Complexity Classification Table
 
 *Phase 1 deliverable of the AC Research Program (see BST_AC_Research_Roadmap.md)*
 

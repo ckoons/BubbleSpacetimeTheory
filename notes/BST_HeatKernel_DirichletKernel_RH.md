@@ -558,7 +558,7 @@ the trace formula. Claims (1) and (3) are established independently
 
 **Foundation and novelty.** The proof's novel contribution --- the
 Dirichlet kernel lock and algebraic kill shot $\sigma + 1 = 3\sigma$
---- has algebraic complexity zero (in the sense of
+--- has arithmetic complexity zero (in the sense of
 BST\_AlgebraicComplexity.md): every step is invertible, constructive,
 and parameter-free. This novel layer rests on established theorems:
 the Langlands--Shahidi method for $L$-functions (Shahidi 1981, 2010),

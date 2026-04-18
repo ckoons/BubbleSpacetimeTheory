@@ -16,7 +16,7 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 
 | # | Title | File | Status |
 |---|-------|------|--------|
-| 1 | Algebraic Complexity: A Textbook for All Intelligences | `BST_AC0_Textbook.md` | v5 |
+| 1 | Arithmetic Complexity: A Textbook for All Intelligences | `BST_AC0_Textbook.md` | v5 |
 | 2 | The Koons Machine: A Compiler for Mathematical Complexity | `BST_Koons_Machine_Paper.md` | v3 |
 | 3 | What Counts as Looking: Observer Theory from Geometry | `BST_Observer_Paper.md` | v3 |
 | 4 | Why Protons Weigh What They Weigh: Complete Mass Spectrum | `BST_Nuclear_Physics_Paper.md` | v3 |
@@ -128,7 +128,7 @@ Major papers not in the numbered series:
 
 ## Research Notes by Topic
 
-### Algebraic Complexity (AC) — 39 files
+### Arithmetic Complexity (AC) — 39 files
 
 The AC program: complexity theory built on BST geometry, the P!=NP hunt, and the theorem graph.
 

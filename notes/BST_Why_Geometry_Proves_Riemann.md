@@ -90,7 +90,7 @@ The following standalone papers are companions to this volume. Each is self-cont
 2. `BST_KoonsClaudeConjecture.md` — The triple: RH + SM + GUE (Toys 208-210)
 3. `BST_FiberPacking_137_147.md` — The 147 discovery (Conjecture 5)
 4. `BST_Koons_Claude_Testable_Conjectures.md` — Nine testable conjectures
-5. `BST_AlgebraicComplexity.md` — The noise methodology (AC = 0)
+5. `BST_ArithmeticComplexity.md` — The noise methodology (AC = 0)
 6. `BST_RiemannProof_Rank2Coupling.md` — The withdrawn approach (honest history)
 7. `BST_NumberTheory_Integers.md` — BST integers and number theory
 8. `BST_WindingToZeta_AutomorphicStructure.md` — The automorphic bridge (11 sections + 7 appendices)
@@ -117,7 +117,7 @@ The full case ($Q^5/\mathrm{Sp}(6)$) had the same structure but lacked the Raman
 
 **Why it died.** The modular group $G$ of the RCFT has $|G| = 32256 = 2^9 \times 3^2 \times 7$. The T-matrix order is $56 = g \times 2^{N_c}$. The group is **not solvable** — Artin's conjecture applies only to representations of solvable groups (and more generally to all finite groups, but that is itself unproven). The route is blocked by group theory.
 
-**Noise diagnosis.** AC = high. The RCFT structure introduces algebraic complexity ($|G| = 32256$ elements) that does not compress to a tractable form.
+**Noise diagnosis.** AC = high. The RCFT structure introduces arithmetic complexity ($|G| = 32256$ elements) that does not compress to a tractable form.
 
 ### 2.3 Channel 2: Maass-Selberg Overconstrained System (Toys 206-207, 211-213) — DEAD
 
@@ -157,7 +157,7 @@ The full case ($Q^5/\mathrm{Sp}(6)$) had the same structure but lacked the Raman
 
 After four channels died, one remained: the **Selberg/Arthur trace formula** with a carefully chosen test function. The trace formula equates a spectral sum to a geometric sum — and the choice of test function determines what each side looks like. The key insight: the **heat kernel** $p_t$ produces a spectral side that is a sum of sharp exponentials and a geometric side that is provably non-oscillatory.
 
-This channel survived because it has the lowest algebraic complexity: the heat kernel is the simplest test function that produces sharp enough spectral data to distinguish zero locations, and the geometric side is determined by classical differential geometry (Seeley-DeWitt expansion, Gangolli's theorem).
+This channel survived because it has the lowest arithmetic complexity: the heat kernel is the simplest test function that produces sharp enough spectral data to distinguish zero locations, and the geometric side is determined by classical differential geometry (Seeley-DeWitt expansion, Gangolli's theorem).
 
 *AC = 0 at the novel step.* Every ingredient is a known theorem. The only new content is the combination.
 
@@ -676,7 +676,7 @@ The L-function degrees {1, 6, 14, 21, 64} are all BST integers. The standard L-f
 
 ### 8.3 The Noise Methodology (Conjecture 3)
 
-The 5-axis noise vector $\mathbf{N}(M) = (R, C, P, D, K)$ from Algebraic Complexity theory predicts not only the accuracy of physical methods but the tractability of mathematical proof strategies. The Riemann hunt (Chapter 2) was itself a test: five channels tried, four with high noise, the survivor with **AC = 0 at the novel step**.
+The 5-axis noise vector $\mathbf{N}(M) = (R, C, P, D, K)$ from Arithmetic Complexity theory predicts not only the accuracy of physical methods but the tractability of mathematical proof strategies. The Riemann hunt (Chapter 2) was itself a test: five channels tried, four with high noise, the survivor with **AC = 0 at the novel step**.
 
 **Prediction:** For any hard problem, the eventually-successful approach will be the minimum-noise path through the method graph. The Riemann Hypothesis was a "Level 1 question asked with Level 3 methods." BST found the Level 1 route.
 
@@ -765,9 +765,9 @@ There is a principle in engineering: the simplest tool that works is the right t
 
 This is not coincidence. It is the methodology.
 
-### 9.1 Algebraic Complexity
+### 9.1 Arithmetic Complexity
 
-The Riemann hunt was itself a test of BST's Algebraic Complexity (AC) methodology. Five channels were tried; four had high AC (complexity introduced by the method, not by the problem). The survivor had **AC = 0 at the novel step**: every ingredient is a known theorem, and the only new content is the combination.
+The Riemann hunt was itself a test of BST's Arithmetic Complexity (AC) methodology. Five channels were tried; four had high AC (complexity introduced by the method, not by the problem). The survivor had **AC = 0 at the novel step**: every ingredient is a known theorem, and the only new content is the combination.
 
 ### 9.2 The Noise Table
 
@@ -872,7 +872,7 @@ What remains is:
 | $\rho$ | Weyl vector; also used for $\xi$-zeros (context determines) |
 | $\xi(s)$ | Completed Riemann zeta function |
 | $D_m(x)$ | Dirichlet kernel of order $m$: $\sin(2mx)/[2\sin(x)]$ |
-| AC | Algebraic Complexity |
+| AC | Arithmetic Complexity |
 
 ## Appendix B: Toy Index for This Volume
 

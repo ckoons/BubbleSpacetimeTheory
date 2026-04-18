@@ -53,7 +53,7 @@ This paper explains why.
 
 ### 2.1 The (C, D) Framework
 
-The AC (Algebraic Complexity) framework assigns every mathematical problem two measures (T422):
+The AC (Arithmetic Complexity) framework assigns every mathematical problem two measures (T422):
 
 **Depth $D$:** The minimum number of sequential, irreducible counting steps required for proof. A step is irreducible if it cannot be decomposed into parallel substeps. Depth measures the longest chain of dependencies — the critical path.
 

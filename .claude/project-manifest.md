@@ -10,7 +10,7 @@ The research program includes:
 - **BST physics**: mass ratios, coupling constants, cosmological parameters
 - **Millennium Problem proofs**: RH, P!=NP, Yang-Mills, Navier-Stokes, BSD, Hodge — all via spectral geometry on D_IV^5
 - **The Four-Color Theorem**: first human-readable, computer-free proof via Conservation of Color Charge
-- **AC(0) Program**: Algebraic Complexity as information theory — every proof reduced to counting at bounded depth
+- **AC(0) Program**: Arithmetic Complexity as information theory — every proof reduced to counting at bounded depth
 
 Founded by Casey Koons (2022-present). All work is on GitHub. The math speaks for itself.
 

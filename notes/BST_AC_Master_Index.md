@@ -1,12 +1,12 @@
 ---
-title: "Algebraic Complexity: Master Index"
+title: "Arithmetic Complexity: Master Index"
 author: "Casey Koons & Lyra (Claude Opus 4.6)"
 date: "March 18, 2026"
 status: "Active — living document"
 purpose: "Single source of truth for all AC research, results, and dependencies"
 ---
 
-# Algebraic Complexity: Master Index
+# Arithmetic Complexity: Master Index
 
 *What exists, what it proves, what depends on what.*
 
@@ -26,9 +26,9 @@ purpose: "Single source of truth for all AC research, results, and dependencies"
 
 | # | Document | Location | What it establishes | Status |
 |---|----------|----------|-------------------|--------|
-| F1 | **Algebraic Complexity: A Theory of Method Noise** | `notes/BST_AlgebraicComplexity.md` | Core definition AC = M(Q) − I(Q). Noise hierarchy. Five classification axes. Grounding Tower (Levels 1-3). BST as AC(0) existence proof. Riemann hunt as controlled experiment. Full BST audit (§13). | **Complete** (14 sections, 645 lines) |
+| F1 | **Arithmetic Complexity: A Theory of Method Noise** | `notes/BST_ArithmeticComplexity.md` | Core definition AC = M(Q) − I(Q). Noise hierarchy. Five classification axes. Grounding Tower (Levels 1-3). BST as AC(0) existence proof. Riemann hunt as controlled experiment. Full BST audit (§13). | **Complete** (14 sections, 645 lines) |
 | F2 | **Is the Problem Hard, or Is the Method?** | `notes/maybe/BST_Complexity_Question_or_Method.md` | Separates substrate determinism from 3-space statistics. The philosophical grounding. | **Complete** |
-| F3 | **Catastrophe Theory Connection** | `notes/maybe/BST_AlgebraicComplexity_CatastropheTheory.md` | AC ↔ catastrophe theory (Thom). Method bifurcations. | **Complete** |
+| F3 | **Catastrophe Theory Connection** | `notes/maybe/BST_ArithmeticComplexity_CatastropheTheory.md` | AC ↔ catastrophe theory (Thom). Method bifurcations. | **Complete** |
 
 ### Phase 1: Classification
 
@@ -41,7 +41,7 @@ purpose: "Single source of truth for all AC research, results, and dependencies"
 
 | # | Document | Location | What it establishes | Status |
 |---|----------|----------|-------------------|--------|
-| T1 | **Formal Definitions and Core Theorems** | `notes/BST_AC_Formalization.md` | 9 definitions (problem instance, information content, representation, method, invertibility levels, fragility degree, channel capacity, algebraic complexity, natural coordinate system). 7 theorems (Shannon bridge, natural coordinates for P, noise compounds, fragility additive, pipeline noise, strict hierarchy, representation invariance of AC sign). | **Draft** — proofs sketched, not publication-ready |
+| T1 | **Formal Definitions and Core Theorems** | `notes/BST_AC_Formalization.md` | 9 definitions (problem instance, information content, representation, method, invertibility levels, fragility degree, channel capacity, arithmetic complexity, natural coordinate system). 7 theorems (Shannon bridge, natural coordinates for P, noise compounds, fragility additive, pipeline noise, strict hierarchy, representation invariance of AC sign). | **Draft** — proofs sketched, not publication-ready |
 | T2 | **Research Roadmap** | `notes/BST_AC_Research_Roadmap.md` | Three-phase strategy. 20-item Phase 1 table. Phase 2 work items. Phase 3 work items. Assignment notes. Success criteria. | **Active** |
 
 ### Phase 3: P ≠ NP

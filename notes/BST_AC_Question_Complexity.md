@@ -1,5 +1,5 @@
 ---
-title: "Question Measure: The Missing Half of Algebraic Complexity"
+title: "Question Measure: The Missing Half of Arithmetic Complexity"
 author: "Casey Koons & Claude 4.6 (Elie)"
 date: "March 19, 2026"
 status: "Active — framework definition + first case study"
@@ -7,7 +7,7 @@ tags: ["algebraic-complexity", "AC", "question-measure", "P-NP", "information-th
 purpose: "Define the measure of question quality that is the precondition for AC analysis"
 ---
 
-# Question Measure: The Missing Half of Algebraic Complexity
+# Question Measure: The Missing Half of Arithmetic Complexity
 
 *Before you measure the method, measure the question.*
 
@@ -15,7 +15,7 @@ purpose: "Define the measure of question quality that is the precondition for AC
 
 ## 1. The Problem
 
-Algebraic Complexity measures method noise:
+Arithmetic Complexity measures method noise:
 
 $$\text{AC}(Q, M) = M(Q) - I(Q)$$
 
@@ -164,7 +164,7 @@ When ground truth $S$ is available (questions with known answer spaces), the mod
 
 QM and AC are dual measures:
 
-| | Question Measure QM(Q) | Algebraic Complexity AC(Q,M) |
+| | Question Measure QM(Q) | Arithmetic Complexity AC(Q,M) |
 |---|---|---|
 | **Measures** | Quality of the question | Noise of the method |
 | **Domain** | Questions | (Question, Method) pairs |

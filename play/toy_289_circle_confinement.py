@@ -10,7 +10,7 @@ H₁ cycle — a "guard cycle" — that the simplicial formulation misses.
 
 AC_geometric = β₁(Čech) - β₁(simplicial) = the information deficit of
 simplex-based methods. If AC_geometric = Θ(n) at α_c, this is a direct
-geometric measurement of algebraic complexity.
+geometric measurement of arithmetic complexity.
 
 Guard cycles from non-interacting clauses are geometrically disjoint →
 automatically linearly independent in H₁ → algebraic independence for free.

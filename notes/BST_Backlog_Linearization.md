@@ -3,7 +3,7 @@ title: "Backlog: Linearization of Heat Kernel Coefficients on Symmetric Spaces"
 author: "Casey Koons & Lyra (Claude Opus 4.6)"
 date: "March 17, 2026"
 status: "Partially verified — structural proof complete, explicit eigenvalue construction remains"
-target: "Algebraic Complexity paper (Section 3); WorkingPaper addendum"
+target: "Arithmetic Complexity paper (Section 3); WorkingPaper addendum"
 ---
 
 # Backlog: Linearization of Heat Kernel Coefficients
@@ -37,7 +37,7 @@ The complexity of the Gilkey formula obscures a simple truth: a₄(Q⁵) ≈ 147
 
 More broadly: BST claims the Standard Model is linear in the right basis. The Gilkey linearization is a concrete example. The "right basis" is the root system. The complexity was in the method, not the physics.
 
-## For the Algebraic Complexity Paper
+## For the Arithmetic Complexity Paper
 
 Core example for Section 3 ("Method Noise"):
 

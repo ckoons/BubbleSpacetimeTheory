@@ -14,7 +14,7 @@
       "name": "Foundations (AC Program)",
       "ac_graph_name": "foundations",
       "theorem_count": 157,
-      "description": "The AC (Algebraic Complexity) program — BST's mathematical backbone. Complexity theory, proof complexity, P!=NP approach, depth ceilings, linearization.",
+      "description": "The AC (Arithmetic Complexity) program — BST's mathematical backbone. Complexity theory, proof complexity, P!=NP approach, depth ceilings, linearization.",
       "key_results": [
         "T1: AC Dichotomy — tractable = zero hidden information",
         "T35: AC(0) chain rule + BSW + expansion",

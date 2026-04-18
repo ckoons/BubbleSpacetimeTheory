@@ -32,7 +32,7 @@ This paper defines the machine, proves its correctness, and shows what it reveal
 
 Mathematics has thousands of proof techniques: induction, contradiction, diagonalization, compactness, fixed-point arguments, spectral methods, forcing, ultraproducts. Each looks different. Textbooks organize proofs by *technique*. But technique is surface — it's the coordinate system, not the territory.
 
-The AC framework (see companion textbook, "Algebraic Complexity: A Textbook for All Intelligences") reveals that underneath the surface variety, every proof reduces to combinations of just three primitive operations. The question is: can we *automate* this reduction?
+The AC framework (see companion textbook, "Arithmetic Complexity: A Textbook for All Intelligences") reveals that underneath the surface variety, every proof reduces to combinations of just three primitive operations. The question is: can we *automate* this reduction?
 
 ### 2.2 The Answer
 

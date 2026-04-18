@@ -8,7 +8,7 @@ purpose: "Restate topological theorems in AC(0) language. Fourth tool in the AC(
 
 # Topology in AC(0)
 
-*Topology is counting holes. The Euler characteristic is an alternating sum. Betti numbers count independent cycles. Every theorem here has algebraic complexity zero — and one of them is the engine behind P ≠ NP.*
+*Topology is counting holes. The Euler characteristic is an alternating sum. Betti numbers count independent cycles. Every theorem here has arithmetic complexity zero — and one of them is the engine behind P ≠ NP.*
 
 *Companion to: Ch 1 Information Theory, Ch 2 Thermodynamics, Ch 3 Geometry*
 

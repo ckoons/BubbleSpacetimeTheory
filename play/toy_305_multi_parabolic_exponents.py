@@ -515,7 +515,7 @@ def run_experiment():
     print(f"    Any short-vs-long cross is automatically distinct.")
     print(f"    The only non-trivial case is short-vs-short across parabolics,")
     print(f"    resolved by the Mandelbrojt aggregation argument.")
-    print(f"    Total algebraic complexity of the verification: AC(0).")
+    print(f"    Total arithmetic complexity of the verification: AC(0).")
 
     # ── Scorecard ────────────────────────────────────────────────────
     print(f"\n{'=' * 76}")

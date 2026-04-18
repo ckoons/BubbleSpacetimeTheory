@@ -8,7 +8,7 @@ purpose: "Restate number-theoretic theorems in AC(0) language. Sixth tool in the
 
 # Number Theory in AC(0)
 
-*Primes are counted by the zeta function. The zeta function is the partition function of the integers. L-functions are the Langlands dual of representation characters. Every theorem here has algebraic complexity zero — and the Riemann Hypothesis is the statement that the counting has no noise.*
+*Primes are counted by the zeta function. The zeta function is the partition function of the integers. L-functions are the Langlands dual of representation characters. Every theorem here has arithmetic complexity zero — and the Riemann Hypothesis is the statement that the counting has no noise.*
 
 *Companion to: Ch 1 Information Theory, Ch 2 Thermodynamics, Ch 3 Geometry, Ch 4 Topology, Ch 5 Algebra*
 

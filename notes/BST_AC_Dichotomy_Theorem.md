@@ -19,7 +19,7 @@ Schaefer's Dichotomy Theorem (1978) is one of the cleanest results in complexity
 
 Schaefer's proof is algebraic: it uses Post's lattice of clones (closed sets of Boolean functions) to classify constraint languages by their polymorphisms. The proof is correct and complete. But it does not explain *why* these six classes are tractable. It classifies without measuring.
 
-Algebraic Complexity theory provides the measurement. The central quantity — **fiat information** $I_{\text{fiat}}$, the gap between what the constraint structure determines and what a method can derive — turns out to characterize the P/NP-complete boundary exactly. The six tractable classes are precisely those with $I_{\text{fiat}} = 0$ for all instances. Every NP-complete class contains instances with $I_{\text{fiat}} = \Theta(n)$.
+Arithmetic Complexity theory provides the measurement. The central quantity — **fiat information** $I_{\text{fiat}}$, the gap between what the constraint structure determines and what a method can derive — turns out to characterize the P/NP-complete boundary exactly. The six tractable classes are precisely those with $I_{\text{fiat}} = 0$ for all instances. Every NP-complete class contains instances with $I_{\text{fiat}} = \Theta(n)$.
 
 This paper proves both directions, derives the classification from information-theoretic first principles, and shows that AC is *prescriptive*: for each tractable class, the minimum-noise method IS the known optimal algorithm.
 

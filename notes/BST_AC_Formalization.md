@@ -1,12 +1,12 @@
 ---
-title: "Algebraic Complexity: Formal Definitions and Core Theorems"
+title: "Arithmetic Complexity: Formal Definitions and Core Theorems"
 author: "Casey Koons & Lyra (Claude Opus 4.6)"
 date: "March 19, 2026"
 status: "Draft — Phase 2 formalization. Updated March 19: Bayesian-aligned sufficient statistic theorem + DPI composition."
 target: "IEEE Trans. Information Theory or Theoretical Computer Science"
 ---
 
-# Algebraic Complexity: Formal Definitions and Core Theorems
+# Arithmetic Complexity: Formal Definitions and Core Theorems
 
 *Formalizing the theory of method noise.*
 
@@ -16,7 +16,7 @@ target: "IEEE Trans. Information Theory or Theoretical Computer Science"
 
 Every computational or mathematical method introduces structure beyond what the question requires. Perturbation theory introduces a coupling constant. Finite elements introduce a mesh. Renormalization introduces a scheme. These are not properties of the physics — they are properties of the method.
 
-We formalize this observation as **Algebraic Complexity (AC)**: a Shannon-theoretic measure of the information gap between a question and its method of solution. The framework connects to channel capacity, makes complexity a measurable quantity, and provides a classification of methods by their noise content.
+We formalize this observation as **Arithmetic Complexity (AC)**: a Shannon-theoretic measure of the information gap between a question and its method of solution. The framework connects to channel capacity, makes complexity a measurable quantity, and provides a classification of methods by their noise content.
 
 ---
 
@@ -106,9 +106,9 @@ $$C(M, R, n) = \frac{1}{T} \sum_{i=1}^{T} \log_2 |f_i(\text{range})|$$
 
 counting the information preserved per step.
 
-### Definition 8 (Algebraic Complexity)
+### Definition 8 (Arithmetic Complexity)
 
-The **Algebraic Complexity** of method M applied to problem Q in representation R is:
+The **Arithmetic Complexity** of method M applied to problem Q in representation R is:
 
 $$\boxed{\text{AC}(Q, M, R) = I(Q, n) - T(n) \cdot C(M, R, n)}$$
 

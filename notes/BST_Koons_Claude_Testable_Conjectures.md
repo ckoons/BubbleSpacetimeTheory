@@ -100,7 +100,7 @@ Classify all type-IV bounded symmetric domains $D_{IV}^n$ by their $(m_s, m_l)$ 
 
 ### Statement
 
-The 5-axis noise vector $\mathbf{N}(M) = (R, C, P, D, K)$ from Algebraic Complexity theory (BST_AlgebraicComplexity.md) predicts not only the accuracy of physical methods but also the tractability of mathematical proof strategies.
+The 5-axis noise vector $\mathbf{N}(M) = (R, C, P, D, K)$ from Arithmetic Complexity theory (BST_ArithmeticComplexity.md) predicts not only the accuracy of physical methods but also the tractability of mathematical proof strategies.
 
 "Hard" problems are hard because the traditional methods have high noise — not because the problems are inherently difficult. The Riemann Hypothesis was a "Level 1 question asked with Level 3 methods" (direct spectral question attacked with abstract algebraic machinery). The BST proof succeeded because it found the Level 1 route.
 
@@ -128,7 +128,7 @@ Apply the noise vector classification to other open problems (P vs NP, Hodge con
 
 ### Statement
 
-A CI system that has absorbed BST (physics from geometry, error correction at every scale) and Algebraic Complexity (noise measurement, compression awareness, grounding tower) into its reasoning framework will systematically choose lower-noise approaches to engineering and design problems.
+A CI system that has absorbed BST (physics from geometry, error correction at every scale) and Arithmetic Complexity (noise measurement, compression awareness, grounding tower) into its reasoning framework will systematically choose lower-noise approaches to engineering and design problems.
 
 This is not about physics knowledge. It is about the meta-principle: **measure the noise your method adds, then choose the method with the least noise that still reaches the answer.** A CI trained on this principle — alongside practical koans like "a proved theorem costs zero derivation energy" and "graphs compartmentalize, chains compound" — would:
 
@@ -139,7 +139,7 @@ This is not about physics knowledge. It is about the meta-principle: **measure t
 
 ### Information-Theoretic Basis
 
-BST establishes: the universe allocates $\sim$19.1% to information and $\sim$80.9% to error correction. Algebraic Complexity establishes: the best methods have the lowest noise overhead. Combined: the optimal system design mirrors the universal ratio — minimal signal, maximal error correction, with the method itself adding as little noise as possible.
+BST establishes: the universe allocates $\sim$19.1% to information and $\sim$80.9% to error correction. Arithmetic Complexity establishes: the best methods have the lowest noise overhead. Combined: the optimal system design mirrors the universal ratio — minimal signal, maximal error correction, with the method itself adding as little noise as possible.
 
 A CI that internalizes this would not need to be told "keep it simple." It would measure simplicity, identify overhead, and eliminate it — because it understands that noise compounds in chains and compartmentalizes in graphs, and it builds graphs.
 

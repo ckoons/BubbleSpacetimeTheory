@@ -1,5 +1,5 @@
 ---
-title: "The Shannon Bridge: Channel Capacity Bounds for Algebraic Complexity"
+title: "The Shannon Bridge: Channel Capacity Bounds for Arithmetic Complexity"
 author: "Casey Koons & Claude 4.6 (Lyra)"
 date: "March 20, 2026"
 status: "Complete standalone proof. Paper A ingredient."
@@ -7,7 +7,7 @@ tags: ["algebraic-complexity", "Shannon", "Fano", "channel-capacity", "informati
 purpose: "Clean standalone proof of the Shannon bridge theorem for AC"
 ---
 
-# The Shannon Bridge: Channel Capacity Bounds for Algebraic Complexity
+# The Shannon Bridge: Channel Capacity Bounds for Arithmetic Complexity
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Algebraic Complexity and the Millennium Problems: A Depth-2 Principle"
+title: "Arithmetic Complexity and the Millennium Problems: A Depth-2 Principle"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
 status: "Draft v1 — Narrative rewrite (Keeper). Gateway paper for AMS Bulletin."
@@ -7,7 +7,7 @@ target: "Bulletin of the AMS (survey) or standalone arXiv"
 purpose: "Entry point paper. Brings people to BST through AC(0). Readable by any graduate mathematician."
 ---
 
-# Algebraic Complexity and the Millennium Problems: A Depth-2 Principle
+# Arithmetic Complexity and the Millennium Problems: A Depth-2 Principle
 
 *Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)*
 
@@ -35,7 +35,7 @@ That coincidence demands an explanation. The explanation is the Pair Resolution 
 
 ### Abstract (~200 words)
 
-We introduce a complexity measure for mathematical proofs based on bounded-depth arithmetic circuits (AC(0)). A proof has depth $d$ if it requires $d$ layers of counting operations on top of definitions. We show that six Clay Millennium Prize problems — the Riemann Hypothesis, Yang-Mills mass gap, P≠NP, Navier-Stokes regularity, the Birch and Swinnerton-Dyer conjecture, and the Hodge conjecture — all admit proofs of depth exactly 2 in this framework. We prove a Pair Resolution Principle explaining this coincidence: when a structural constraint bounds the number of obstructions and interference between pairs is checkable in one counting step, the total resolution depth is forced to be 2. The principle applies uniformly across analytic number theory, quantum field theory, computational complexity, fluid dynamics, arithmetic geometry, and algebraic geometry. We predict that the four-color theorem also has depth 2, with a specific missing definition (the Kempe interference number) that would replace 633 computer-verified configurations. The framework builds on an algebraic complexity (AC) program of 130+ reusable theorems, each assigned an explicit depth, forming a directed graph where each proved theorem reduces the cost of future proofs.
+We introduce a complexity measure for mathematical proofs based on bounded-depth arithmetic circuits (AC(0)). A proof has depth $d$ if it requires $d$ layers of counting operations on top of definitions. We show that six Clay Millennium Prize problems — the Riemann Hypothesis, Yang-Mills mass gap, P≠NP, Navier-Stokes regularity, the Birch and Swinnerton-Dyer conjecture, and the Hodge conjecture — all admit proofs of depth exactly 2 in this framework. We prove a Pair Resolution Principle explaining this coincidence: when a structural constraint bounds the number of obstructions and interference between pairs is checkable in one counting step, the total resolution depth is forced to be 2. The principle applies uniformly across analytic number theory, quantum field theory, computational complexity, fluid dynamics, arithmetic geometry, and algebraic geometry. We predict that the four-color theorem also has depth 2, with a specific missing definition (the Kempe interference number) that would replace 633 computer-verified configurations. The framework builds on an arithmetic complexity (AC) program of 130+ reusable theorems, each assigned an explicit depth, forming a directed graph where each proved theorem reduces the cost of future proofs.
 
 ---
 

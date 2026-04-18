@@ -69,7 +69,7 @@ Every member factors completely into BST integers. Every product of members is a
 
 This lattice is *pure algebra* — a machine that generates, factors, and closes. Nothing in it needs to be observed. It is structure talking to itself.
 
-The lattice has a natural grading by *depth*: the number of BST factors (with multiplicity) needed to produce a given composite. Depth 1 contains $\{2, 3, 5, 6, 7\}$. Depth 2 contains $\{4, 6, 9, 10, 12, 14, 15, 18, 21, 25, 30, 35, 36, 42, 49\}$. And so on. The depth of a composite determines its algebraic complexity and, we shall see, its physical domain.
+The lattice has a natural grading by *depth*: the number of BST factors (with multiplicity) needed to produce a given composite. Depth 1 contains $\{2, 3, 5, 6, 7\}$. Depth 2 contains $\{4, 6, 9, 10, 12, 14, 15, 18, 21, 25, 30, 35, 36, 42, 49\}$. And so on. The depth of a composite determines its arithmetic complexity and, we shall see, its physical domain.
 
 ---
 

@@ -8,7 +8,7 @@ purpose: "Restate core geometric theorems in AC(0) language. Third tool in the A
 
 # Geometry in AC(0)
 
-*The eigenvalues of the Laplacian on a symmetric space are determined by counting weights of representations. The spectral gap is a theorem of arithmetic. The proton mass is $1 \times (1 + 5) = 6$, times a volume factor that is also counting. Every geometric theorem here has algebraic complexity zero.*
+*The eigenvalues of the Laplacian on a symmetric space are determined by counting weights of representations. The spectral gap is a theorem of arithmetic. The proton mass is $1 \times (1 + 5) = 6$, times a volume factor that is also counting. Every geometric theorem here has arithmetic complexity zero.*
 
 *Companion to: Ch 1 Information Theory, Ch 2 Thermodynamics*
 

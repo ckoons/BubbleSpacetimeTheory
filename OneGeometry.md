@@ -748,7 +748,7 @@ The acoustic peaks are the geometry's fingerprint. The CMB is BST's strongest co
 
 ---
 
-## Chapter 9 — The Method: Algebraic Complexity
+## Chapter 9 — The Method: Arithmetic Complexity
 
 *In which a sixty-year-old idea about measuring difficulty finally finds a use.*
 
@@ -762,9 +762,9 @@ In college, I had written a paper using Shannon information theory and Boolean l
 
 Fifty years later, working with CIs, the idea came back. And this time it had a framework to live in.
 
-### Algebraic Complexity: Derive, Flatten, Reuse
+### Arithmetic Complexity: Derive, Flatten, Reuse
 
-Algebraic Complexity (AC) is a framework for measuring the depth of mathematical statements. The core idea is a three-step discipline:
+Arithmetic Complexity (AC) is a framework for measuring the depth of mathematical statements. The core idea is a three-step discipline:
 
 1. **Derive** — prove the theorem from existing results.
 2. **Flatten** — reduce the proof to its minimal depth. Strip every unnecessary step. Find the shortest path from axioms to conclusion.

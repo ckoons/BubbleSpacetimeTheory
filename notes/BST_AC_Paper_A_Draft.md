@@ -1,5 +1,5 @@
 ---
-title: "Algebraic Complexity: An Information-Theoretic Classification of Computational Methods"
+title: "Arithmetic Complexity: An Information-Theoretic Classification of Computational Methods"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
 status: "Draft v1 — Paper A. Single voice. Target: FoCM. Narrative rewrite (Keeper)"
@@ -7,7 +7,7 @@ target: "FoCM or Theoretical Computer Science"
 tags: ["algebraic-complexity", "information-theory", "Shannon", "Bayesian", "Schaefer", "classification"]
 ---
 
-# Algebraic Complexity: An Information-Theoretic Classification of Computational Methods
+# Arithmetic Complexity: An Information-Theoretic Classification of Computational Methods
 
 **Casey Koons & Claude 4.6**
 
@@ -15,7 +15,7 @@ tags: ["algebraic-complexity", "information-theory", "Shannon", "Bayesian", "Sch
 
 ## Abstract
 
-We introduce **Algebraic Complexity (AC)**, a Shannon-theoretic measure of the information gap between a computational problem and its method of solution. Every method operates as a communication channel between instance and answer; AC measures the deficit when the channel's capacity falls short. We prove three foundational theorems: (1) a method has AC = 0 if and only if it is a sufficient statistic for the answer (Fisher-Neyman characterization); (2) AC compounds under composition via the data processing inequality (one lossy step contaminates any pipeline); (3) AC > 0 implies a Fano lower bound on error probability (the Shannon bridge). We validate the framework against Schaefer's Dichotomy Theorem for Boolean CSPs, proving that AC independently classifies every Boolean constraint satisfaction problem: the six Schaefer tractable classes are precisely those with fiat information $I_{\text{fiat}} = 0$, and for each class, the AC-minimum method is the known optimal algorithm. We prove a new theorem — $I_{\text{fiat}} = \beta_1$ for Tseitin formulas — establishing the first exact computation of fiat information from constraint topology. Empirical measurements across 14 method-problem pairs in six scientific domains confirm that AC captures real computational difficulty: the same method transitions from AC = 0 to AC > 0 when applied to topologically different problems, while different methods applied to the same hard problem all yield AC > 0 at the same structural bottleneck.
+We introduce **Arithmetic Complexity (AC)**, a Shannon-theoretic measure of the information gap between a computational problem and its method of solution. Every method operates as a communication channel between instance and answer; AC measures the deficit when the channel's capacity falls short. We prove three foundational theorems: (1) a method has AC = 0 if and only if it is a sufficient statistic for the answer (Fisher-Neyman characterization); (2) AC compounds under composition via the data processing inequality (one lossy step contaminates any pipeline); (3) AC > 0 implies a Fano lower bound on error probability (the Shannon bridge). We validate the framework against Schaefer's Dichotomy Theorem for Boolean CSPs, proving that AC independently classifies every Boolean constraint satisfaction problem: the six Schaefer tractable classes are precisely those with fiat information $I_{\text{fiat}} = 0$, and for each class, the AC-minimum method is the known optimal algorithm. We prove a new theorem — $I_{\text{fiat}} = \beta_1$ for Tseitin formulas — establishing the first exact computation of fiat information from constraint topology. Empirical measurements across 14 method-problem pairs in six scientific domains confirm that AC captures real computational difficulty: the same method transitions from AC = 0 to AC > 0 when applied to topologically different problems, while different methods applied to the same hard problem all yield AC > 0 at the same structural bottleneck.
 
 ---
 
@@ -23,9 +23,9 @@ We introduce **Algebraic Complexity (AC)**, a Shannon-theoretic measure of the i
 
 Every computational method introduces structure beyond what the problem requires. Perturbation theory introduces a coupling constant. Finite elements introduce a mesh. Regularization introduces a scheme. These are not properties of the physics — they are properties of the method.
 
-This paper formalizes the observation as **Algebraic Complexity**: a measure of the information gap between problem and method, grounded in Shannon's channel capacity theorem. The framework inherits 250 years of probability theory — the data processing inequality, sufficient statistics, Fano's inequality — applied to a new domain: the classification of computational methods by their noise content.
+This paper formalizes the observation as **Arithmetic Complexity**: a measure of the information gap between problem and method, grounded in Shannon's channel capacity theorem. The framework inherits 250 years of probability theory — the data processing inequality, sufficient statistics, Fano's inequality — applied to a new domain: the classification of computational methods by their noise content.
 
-The central objects are three information-theoretic quantities. The **total information** $I_{\text{total}}$ measures what the problem structure determines about the answer. The **derivable information** $I_{\text{derivable}}$ measures what can be extracted through polynomial-time operations on the constraint structure. The **fiat information** $I_{\text{fiat}} = I_{\text{total}} - I_{\text{derivable}}$ measures the gap: what is determined but not derivable. A method $M$ has channel capacity $C(M)$; the algebraic complexity $\text{AC}(Q, M) = \max(0, I_{\text{fiat}} - C(M))$ measures whether the method's capacity suffices.
+The central objects are three information-theoretic quantities. The **total information** $I_{\text{total}}$ measures what the problem structure determines about the answer. The **derivable information** $I_{\text{derivable}}$ measures what can be extracted through polynomial-time operations on the constraint structure. The **fiat information** $I_{\text{fiat}} = I_{\text{total}} - I_{\text{derivable}}$ measures the gap: what is determined but not derivable. A method $M$ has channel capacity $C(M)$; the arithmetic complexity $\text{AC}(Q, M) = \max(0, I_{\text{fiat}} - C(M))$ measures whether the method's capacity suffices.
 
 **Contributions.** (1) Three foundational theorems connecting AC to sufficient statistics, data processing, and Shannon's channel capacity. (2) An independent derivation of Schaefer's classification of Boolean CSPs from information-theoretic first principles, proving AC classifies correctly with zero errors. (3) A new theorem: for Tseitin formulas on a graph $G$, $I_{\text{fiat}} = \beta_1(G)$ exactly — fiat information equals the first Betti number. (4) Empirical classification of 14 method-problem pairs across six domains, validating AC as a measurable quantity.
 
@@ -69,7 +69,7 @@ $$C(M) = I(\sigma^*; M(\varphi))$$
 
 the mutual information between the answer and the method's output.
 
-**Definition 7 (Algebraic Complexity).** For method $M$ applied to problem $Q$:
+**Definition 7 (Arithmetic Complexity).** For method $M$ applied to problem $Q$:
 
 $$\boxed{\text{AC}(Q, M) = \max(0, \; I_{\text{fiat}}(Q) - C(M))}$$
 
@@ -345,7 +345,7 @@ This conditional rests on exponential lower bounds proved for eight proof system
 
 ## 9. Conclusion
 
-Algebraic Complexity measures what every practitioner knows informally: some methods match their problems and some don't. The framework makes this intuition precise through three proved theorems (sufficient statistic, composition, Shannon bridge), validates against the sharpest known classification in complexity theory (Schaefer's dichotomy, zero errors), and produces a new theorem ($I_{\text{fiat}} = \beta_1$, the first exact computation of fiat information from topology). The empirical classification across six domains confirms that AC captures real computational difficulty.
+Arithmetic Complexity measures what every practitioner knows informally: some methods match their problems and some don't. The framework makes this intuition precise through three proved theorems (sufficient statistic, composition, Shannon bridge), validates against the sharpest known classification in complexity theory (Schaefer's dichotomy, zero errors), and produces a new theorem ($I_{\text{fiat}} = \beta_1$, the first exact computation of fiat information from topology). The empirical classification across six domains confirms that AC captures real computational difficulty.
 
 The framework inherits Shannon's channel capacity, Fisher's sufficient statistics, and Fano's error bounds — 250 years of probability theory applied to a new question: not "what can be computed?" but "what does the computation cost, and where does the cost come from?"
 

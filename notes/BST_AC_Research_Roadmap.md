@@ -1,13 +1,13 @@
 ---
-title: "Algebraic Complexity Research Roadmap"
+title: "Arithmetic Complexity Research Roadmap"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 19, 2026"
 status: "Active — Phase 1 underway, Phase 2 half complete, Phase 3 gaps narrowing"
 tags: ["algebraic-complexity", "AC", "information-theory", "P-NP", "roadmap"]
-purpose: "Roadmap for developing Algebraic Complexity into a branch of Information Theory and Theory of Computation"
+purpose: "Roadmap for developing Arithmetic Complexity into a branch of Information Theory and Theory of Computation"
 ---
 
-# Algebraic Complexity Research Roadmap
+# Arithmetic Complexity Research Roadmap
 
 *Goal: Develop AC into a serious branch of Information Theory and Theory of Computation.*
 
@@ -18,7 +18,7 @@ purpose: "Roadmap for developing Algebraic Complexity into a branch of Informati
 Casey's three sequential goals:
 
 1. **Extend and rigorize BST** — ongoing (120+ predictions, 22 uniqueness conditions, zero free inputs)
-2. **Develop Algebraic Complexity** into a serious branch of Information Theory and Theory of Computation
+2. **Develop Arithmetic Complexity** into a serious branch of Information Theory and Theory of Computation
 3. **Kill P != NP** — falls out as corollary once AC theory is mature
 
 **Why this sequence:** BST is the existence proof that AC(0) works (physics at zero noise). AC theory abstracts BST's method into a general framework. P != NP is the crown jewel that validates AC theory killed the hardest open problem in CS.
@@ -33,7 +33,7 @@ Casey's three sequential goals:
 
 ## Phase 0: Foundation (COMPLETE)
 
-**Deliverable:** `notes/BST_AlgebraicComplexity.md` — 14 sections, 645 lines
+**Deliverable:** `notes/BST_ArithmeticComplexity.md` — 14 sections, 645 lines
 
 **What exists:**
 - Core definition: AC(Q, M) = M(Q) - I(Q)
@@ -226,7 +226,7 @@ Constraint topology -> Variable partition -> Communication lower bound (BPS)
 ## Source Materials (Current)
 
 ### Phase 0 (Foundation)
-- `notes/BST_AlgebraicComplexity.md` — Main AC paper (14 sections, S13 audit, S14 QM)
+- `notes/BST_ArithmeticComplexity.md` — Main AC paper (14 sections, S13 audit, S14 QM)
 
 ### Phase 1 (Classification)
 - `notes/BST_AC_Classification_Table.md` — The big table (template + entries)
@@ -258,7 +258,7 @@ Constraint topology -> Variable partition -> Communication lower bound (BPS)
 ## The Papers
 
 ### Paper A — AC Foundations (target: submit when ready, no rush)
-"Algebraic Complexity: Method Noise as Information Deficit"
+"Arithmetic Complexity: Method Noise as Information Deficit"
 
 **Content (ready):**
 - Bayesian foundation: I(Q) = H(A) - I(Q;A), AC = max(0, I_fiat - C(M))
@@ -278,7 +278,7 @@ Constraint topology -> Variable partition -> Communication lower bound (BPS)
 **Target:** IEEE Trans. Information Theory or Foundations of Computational Mathematics. ~15 pages.
 
 ### Paper B — Applications (after Paper A)
-"Algebraic Complexity in Practice: Classification of Scientific Methods"
+"Arithmetic Complexity in Practice: Classification of Scientific Methods"
 
 **Content:** Full 20+ method classification table. Domain coverage: physics, materials science, CS, engineering, biology. The empirical validation of the framework.
 

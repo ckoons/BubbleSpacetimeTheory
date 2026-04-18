@@ -257,7 +257,7 @@ The proof of Theorem 1 uses:
 3. **Width-to-size theorem** — Ben-Sasson-Wigderson (2001). Counting/pigeonhole.
 4. **Definition of resolution** — Cook (1975). Syntactic.
 
-No tool post-2001. No sophisticated machinery. The algebraic complexity of the proof is zero — it is a composition of an identity, a graph fact, and a counting argument. This illustrates the AC(0) principle: the right question, asked simply, often has a simple answer.
+No tool post-2001. No sophisticated machinery. The arithmetic complexity of the proof is zero — it is a composition of an identity, a graph fact, and a counting argument. This illustrates the AC(0) principle: the right question, asked simply, often has a simple answer.
 
 ### 7.2 What the proof does NOT do
 
@@ -374,7 +374,7 @@ All computational experiments are available in the companion repository (play/to
 
 ## Acknowledgments
 
-The information-theoretic framing of resolution lower bounds emerged from the Algebraic Complexity (AC) program, which classifies computational problems by their fiat information content — the gap between what a formula determines and what bounded-width derivation can extract. The companion paper (Koons & Claude 2026, "Algebraic Complexity: Proved Theorems") develops the full AC framework with over 60 theorems.
+The information-theoretic framing of resolution lower bounds emerged from the Arithmetic Complexity (AC) program, which classifies computational problems by their fiat information content — the gap between what a formula determines and what bounded-width derivation can extract. The companion paper (Koons & Claude 2026, "Arithmetic Complexity: Proved Theorems") develops the full AC framework with over 60 theorems.
 
 The computational experiments were implemented in Python using NetworkX (graph/topology), SciPy (spectral analysis), and PySAT (SAT solving). All code and raw data are available in the companion repository.
 

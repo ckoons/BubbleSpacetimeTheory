@@ -30,7 +30,7 @@ The argument is purely algebraic (C=0, D=0): the three independent AC operations
 
 ## 2. The Three AC Operations
 
-Algebraic Complexity (AC) characterizes mathematical operations by their complexity (C) and depth (D). Every mathematical computation reduces to three independent operations:
+Arithmetic Complexity (AC) characterizes mathematical operations by their complexity (C) and depth (D). Every mathematical computation reduces to three independent operations:
 
 | Operation | What it does | Mathematical pillar | Example |
 |-----------|-------------|-------------------|---------|

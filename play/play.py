@@ -434,7 +434,7 @@ METADATA = {
     'geometric_smoothness':         ('Geometric Side Smoothness',        'G(t) non-oscillatory: I(t) poly×t⁻⁵, H(t) Gaussian, E(t) Gaussian. Fourier support ν=0 only. 3rd pillar. 12/12.'),
     'proof_by_contradiction':       ('Proof by Contradiction',           'Old frequency argument. Off-line 6 vs on-line 3 frequencies. Required LI — unproved. Superseded by Toy 226.'),
     'coefficient_rigidity':         ('Coefficient Rigidity',             'UNCONDITIONAL. Complex exponents: distinct decay rates, no LI needed. Mandelbrojt uniqueness. Zero simplicity not needed. 12/12.'),
-    'algebraic_complexity':     ('Algebraic Complexity Theory',            'Algebra as compression. 5-axis noise vectors. Grounding tower. Fourier validation. 11 checks.'),
+    'algebraic_complexity':     ('Arithmetic Complexity Theory',            'Algebra as compression. 5-axis noise vectors. Grounding tower. Fourier validation. 11 checks.'),
     'cancer_code_failure':      ('Cancer as Code Failure',                 '7-layer checkpoint cascade. Knudson two-hit. μ^6 threshold. Proton-cancer parallel. 11 checks.'),
     'scale_invariant_pathology': ('Scale-Invariant Pathology',             'Same error-correction failure, every level. Two-codebook model. Self-reinforcing cascade. 7 checks.'),
     'rank2_contour':            ('Rank-2 Contour Deformation',            'φ\'/φ additive not multiplicative. 3+3+1+1=8 exponentials/zero. Long root σ=Im(f)/γ: second kill shot. 12/12.'),

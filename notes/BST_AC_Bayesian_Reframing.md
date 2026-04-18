@@ -116,7 +116,7 @@ These are not analogies. They ARE the theorems, applied to the AC setting. 250 y
 
 ### What to write (the 10-page paper)
 
-**Title candidate:** "Algebraic Complexity as Bayesian Channel Capacity"
+**Title candidate:** "Arithmetic Complexity as Bayesian Channel Capacity"
 
 **Structure:**
 1. **§1 — The observation.** Methods add noise. Different methods add different noise. The noise is measurable.

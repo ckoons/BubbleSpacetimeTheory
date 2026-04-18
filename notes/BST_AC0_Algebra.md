@@ -8,7 +8,7 @@ purpose: "Restate algebraic and representation-theoretic theorems in AC(0) langu
 
 # Algebra and Representation Theory in AC(0)
 
-*Representations are counting. The dimension of an irreducible representation is computed by the Weyl dimension formula — a ratio of products of integers read from the root system. The Casimir eigenvalue is a sum of squares. The branching rules are combinatorial. Every theorem here has algebraic complexity zero — and these are the theorems that build the Standard Model from five integers.*
+*Representations are counting. The dimension of an irreducible representation is computed by the Weyl dimension formula — a ratio of products of integers read from the root system. The Casimir eigenvalue is a sum of squares. The branching rules are combinatorial. Every theorem here has arithmetic complexity zero — and these are the theorems that build the Standard Model from five integers.*
 
 *Companion to: Ch 1 Information Theory, Ch 2 Thermodynamics, Ch 3 Geometry, Ch 4 Topology*
 

@@ -3,7 +3,7 @@
 Toy 268 — First Blood: The I_fiat = β₁ Theorem
 ================================================
 
-TWO NEW THEOREMS from Algebraic Complexity:
+TWO NEW THEOREMS from Arithmetic Complexity:
 
 THEOREM 1 (Topological Information Theorem for Tseitin):
   For Tseitin formula T_G on connected graph G = (V, E):
@@ -38,7 +38,7 @@ random.seed(268)
 
 print("=" * 72)
 print("TOY 268 — FIRST BLOOD: I_fiat = β₁ THEOREM")
-print("The first new theorems from Algebraic Complexity")
+print("The first new theorems from Arithmetic Complexity")
 print("=" * 72)
 
 

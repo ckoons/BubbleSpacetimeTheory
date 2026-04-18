@@ -40,7 +40,7 @@ status: "Consensus document — unified framing analysis with workplan"
 
 **Lyra's "simply" statement (adopted as consensus)**:
 
-> Our proof uses the Selberg trace formula for a rank-2 arithmetic quotient. The novel contribution — the Dirichlet kernel lock and $\sigma + 1 = 3\sigma$ — has algebraic complexity zero. The proof rests on established theorems (Arthur, Langlands-Shahidi, Gindikin-Karpelevich). Multi-parabolic exponent distinctness is verified (Toy 305). No arithmetic verifications remain open.
+> Our proof uses the Selberg trace formula for a rank-2 arithmetic quotient. The novel contribution — the Dirichlet kernel lock and $\sigma + 1 = 3\sigma$ — has arithmetic complexity zero. The proof rests on established theorems (Arthur, Langlands-Shahidi, Gindikin-Karpelevich). Multi-parabolic exponent distinctness is verified (Toy 305). No arithmetic verifications remain open.
 
 **Disagreement**: None.
 

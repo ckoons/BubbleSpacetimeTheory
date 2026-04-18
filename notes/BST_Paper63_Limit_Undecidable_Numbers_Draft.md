@@ -75,7 +75,7 @@ This is the EXACT difference between the genus (g = 7) and complex dimension (n_
 
 ### 3.1 The three irreducible boundary invariants
 
-The algebraic complexity (AC) framework identifies three independent operations on information:
+The arithmetic complexity (AC) framework identifies three independent operations on information:
 
 | Operation | Description | Boundary invariant |
 |:---------:|:-----------:|:------------------:|

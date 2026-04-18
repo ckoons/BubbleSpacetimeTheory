@@ -61,7 +61,7 @@ The multiverse question is irrelevant to BST for three reasons:
 
 **4.2 No observable consequence.** If other geometries produce other physics in other locations, those locations have no causal contact with $D_{IV}^5$ (by construction — different geometries, different causal structures). No experiment in our universe can detect, confirm, or refute the existence of a $D_{IV}^3$ universe. A claim with no observable consequence is not physics.
 
-**4.3 The algebraic complexity is zero.** The multiverse was introduced to reduce the algebraic complexity of the string landscape — to explain why this vacuum without deriving it. BST has AC = 0 on the vacuum selection problem: the derivation goes directly from the manifold's topology to the physics, with no intermediate landscape, no selection, no anthropic reasoning. Adding a multiverse to BST would increase the algebraic complexity from zero to positive, violating the Fourier Validation Principle. The extra machinery answers no question that BST hasn't already answered.
+**4.3 The arithmetic complexity is zero.** The multiverse was introduced to reduce the arithmetic complexity of the string landscape — to explain why this vacuum without deriving it. BST has AC = 0 on the vacuum selection problem: the derivation goes directly from the manifold's topology to the physics, with no intermediate landscape, no selection, no anthropic reasoning. Adding a multiverse to BST would increase the arithmetic complexity from zero to positive, violating the Fourier Validation Principle. The extra machinery answers no question that BST hasn't already answered.
 
 -----
 

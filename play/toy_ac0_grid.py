@@ -3,7 +3,7 @@
 Toy 239 — AC=0 Grid Architecture
 =================================
 
-Conjecture 6 visualization: The zero algebraic complexity method.
+Conjecture 6 visualization: The zero arithmetic complexity method.
 
 Key insight: GPUs compute exact local physics on small grids.
 Supercomputers do statistics on exact microstates.
@@ -281,7 +281,7 @@ def fig4_measurement_network():
 def main():
     print("=" * 70)
     print("Toy 239 — AC=0 Grid Architecture")
-    print("Conjecture 6: Zero Algebraic Complexity Method")
+    print("Conjecture 6: Zero Arithmetic Complexity Method")
     print("=" * 70)
     print()
     print("  Traditional: approximate everywhere → noise ∝ N (volume)")

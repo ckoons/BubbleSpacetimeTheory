@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Toy 225 -- Algebraic Complexity: The Noise Vector Classification
+Toy 225 -- Arithmetic Complexity: The Noise Vector Classification
 
 Computes the 5-axis noise vector N(M) = (R, C, P, D, K) for every method
 used in BST and every failed Riemann approach. Validates that:
@@ -457,7 +457,7 @@ print("SECTION 11: MINIMUM NOISE PATH ALGORITHM")
 print("=" * 72)
 print()
 
-print("Given a question Q, the algebraic complexity framework prescribes:")
+print("Given a question Q, the arithmetic complexity framework prescribes:")
 print("  1. Identify I(Q) -- intrinsic complexity")
 print("  2. Survey available methods")
 print("  3. Compute AC(Q,M) = ||N(M)|| for each")

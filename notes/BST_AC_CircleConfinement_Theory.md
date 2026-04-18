@@ -82,7 +82,7 @@ $\text{AC}_{\text{geometric}}$ is the information deficit of using triangles ins
 
 ### Connection to AC Framework
 
-This is a concrete instance of Algebraic Complexity:
+This is a concrete instance of Arithmetic Complexity:
 
 | AC concept | Circle confinement instance |
 |:---|:---|

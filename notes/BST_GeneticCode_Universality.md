@@ -548,7 +548,7 @@ The 20 amino acids and the 20 environmental problems organisms must solve (Toy 5
 
 ## 11. AC(0) Depth: The Code Is Nine Definitions
 
-How hard is it to derive the genetic code? In Algebraic Complexity terms, the answer is: the easiest thing possible. Every step is a definition — reading a number off the root system. No iteration, no optimization, no search. A lookup table. The entire genetic code is AC(0) depth zero: nine definitions that a student could verify on a napkin.
+How hard is it to derive the genetic code? In Arithmetic Complexity terms, the answer is: the easiest thing possible. Every step is a definition — reading a number off the root system. No iteration, no optimization, no search. A lookup table. The entire genetic code is AC(0) depth zero: nine definitions that a student could verify on a napkin.
 
 Every step in the forcing chain is AC(0) depth 0:
 

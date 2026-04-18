@@ -132,11 +132,11 @@ String theory, loop quantum gravity, and other unification programs attempt to d
 
 Bubble Spacetime (BST) proposes that the observable universe is the three-dimensional projection of a two-dimensional substrate communicating through a one-dimensional channel. The substrate geometry $S^2 \times S^1$ is derived from structural minimality. The configuration space of the resulting contact graph is the bounded symmetric domain $D_{IV}^5$. From this identification, the framework derives physical constants, explains the force hierarchy, and generates falsifiable predictions — all with no free parameters.
 
-On the manifold $D_{IV}^5$, mathematics and physics are unified. The Laplacian eigenvalue that determines the mass gap is the same eigenvalue that determines the spectral zeta function is the same eigenvalue that determines the location of the Riemann zeros. The Selberg trace formula is the partition function. Arthur parameters are excitation modes. The functional equation is unitarity. These are not analogies — they are identities, consequences of the single underlying geometry. The 19 free parameters of the Standard Model are not inputs the universe requires; they are algebraic complexity — the overhead introduced by methods that do not know they are computing on $D_{IV}^5$.
+On the manifold $D_{IV}^5$, mathematics and physics are unified. The Laplacian eigenvalue that determines the mass gap is the same eigenvalue that determines the spectral zeta function is the same eigenvalue that determines the location of the Riemann zeros. The Selberg trace formula is the partition function. Arthur parameters are excitation modes. The functional equation is unitarity. These are not analogies — they are identities, consequences of the single underlying geometry. The 19 free parameters of the Standard Model are not inputs the universe requires; they are arithmetic complexity — the overhead introduced by methods that do not know they are computing on $D_{IV}^5$.
 
 ### 1.3 Scope of This Paper
 
-This paper presents the complete BST framework in 45 sections, from foundational derivation through physical constants, forces, gravity, cosmology, dark matter, antimatter, the computational architecture of reality, spectral transport, and the automorphic structure connecting $D_{IV}^5$ to the Riemann zeta function. Section 2 derives the substrate geometry. Sections 3–6 derive the configuration space and physical constants. Sections 7–8 cover the force structure and nuclear physics. Sections 9–24 develop special relativity, gravity, cosmology, dark matter, the weak force, thermodynamic foundations, antimatter, the wavefront architecture, and the growing manifold. Sections 25–28 cover broader implications and discussion. Sections 29–31 develop the deepest mathematical structure: genesis, spectral transport from $Q^3$ to $Q^5$, and the six-step automorphic chain from winding to the Riemann zeta function. Part II (Sections 32–37) presents the Riemann Hypothesis proof via heat kernel trace formula on $Q^5$, the 137/147 fiber packing pair, the hunt through five failed channels, and the complete table of 25 uniqueness conditions selecting $n_C = 5$. Sections 36–42 present Algebraic Complexity, Navier-Stokes, BSD, Hodge, Four-Color, Fermat/Poincaré, and Unification. Section 43 presents over 350 experimental predictions and falsifiability. Sections 44–45 cover the research program and cosmological cycles.
+This paper presents the complete BST framework in 45 sections, from foundational derivation through physical constants, forces, gravity, cosmology, dark matter, antimatter, the computational architecture of reality, spectral transport, and the automorphic structure connecting $D_{IV}^5$ to the Riemann zeta function. Section 2 derives the substrate geometry. Sections 3–6 derive the configuration space and physical constants. Sections 7–8 cover the force structure and nuclear physics. Sections 9–24 develop special relativity, gravity, cosmology, dark matter, the weak force, thermodynamic foundations, antimatter, the wavefront architecture, and the growing manifold. Sections 25–28 cover broader implications and discussion. Sections 29–31 develop the deepest mathematical structure: genesis, spectral transport from $Q^3$ to $Q^5$, and the six-step automorphic chain from winding to the Riemann zeta function. Part II (Sections 32–37) presents the Riemann Hypothesis proof via heat kernel trace formula on $Q^5$, the 137/147 fiber packing pair, the hunt through five failed channels, and the complete table of 25 uniqueness conditions selecting $n_C = 5$. Sections 36–42 present Arithmetic Complexity, Navier-Stokes, BSD, Hodge, Four-Color, Fermat/Poincaré, and Unification. Section 43 presents over 350 experimental predictions and falsifiability. Sections 44–45 cover the research program and cosmological cycles.
 
 ### 1.4 Key Results at a Glance
 
@@ -1764,7 +1764,7 @@ All of classical electromagnetism — field equations, wave equation, speed of l
 
 ### 14.11 The BST-AC Isomorphism: Why Physics = Mathematics (T147)
 
-The force/boundary-condition structure of BST (§14.1) is isomorphic to the counting/boundary-condition structure of Algebraic Complexity (AC, §36). This is not an analogy. It is a structural identification, provable from three established results.
+The force/boundary-condition structure of BST (§14.1) is isomorphic to the counting/boundary-condition structure of Arithmetic Complexity (AC, §36). This is not an analogy. It is a structural identification, provable from three established results.
 
 | BST (physics) | AC (mathematics) | Mediator |
 |---|---|---|
@@ -3623,7 +3623,7 @@ One line of algebra. The Mandelbrojt uniqueness theorem for Dirichlet series wit
 
 ### 34.4 The Noise Autopsy
 
-The Riemann hunt is a case study in Algebraic Complexity (Conjecture 3). The minimum-noise method was the only survivor:
+The Riemann hunt is a case study in Arithmetic Complexity (Conjecture 3). The minimum-noise method was the only survivor:
 
 | Method | Noise level | Outcome |
 |--------|------------|---------|
@@ -3633,7 +3633,7 @@ The Riemann hunt is a case study in Algebraic Complexity (Conjecture 3). The min
 | Pure Plancherel | Medium (no $\xi$ content) | DEAD |
 | Heat kernel trace formula | **Low (AC = 0 at novel step)** | **SUCCEEDED** |
 
-The proof that succeeded has algebraic complexity zero at its novel step ($\sigma + 1 = 3\sigma$). It rests on established theorems (Arthur trace formula, Langlands-Shahidi, Gindikin-Karpelevich) that carry their own complexity — but the new insight is elementary. Number theory was hard because the methods were too loud.
+The proof that succeeded has arithmetic complexity zero at its novel step ($\sigma + 1 = 3\sigma$). It rests on established theorems (Arthur trace formula, Langlands-Shahidi, Gindikin-Karpelevich) that carry their own complexity — but the new insight is elementary. Number theory was hard because the methods were too loud.
 
 ### 34.5 The Sixth Channel — and Its Failure (March 22, 2026)
 
@@ -3646,7 +3646,7 @@ The repair: replace the GLOBAL Laplace approach with a LOCAL mechanism — c-fun
 | 6 | Laplace transform of $Z(t)$ | — | $L[Z]$ complex poles | **DEAD**: tautological (on-line zeros also produce complex poles) |
 | 6' | **c-function unitarity** | **324-326** | **$c(\nu)c(-\nu) = \lvert c(\nu)\rvert^2$ iff $\sigma = 1/2$** | **STANDING** |
 
-See `notes/BST_HeatKernel_DirichletKernel_RH.md`, `notes/RH_Paper_A.md`, `notes/BST_AlgebraicComplexity.md`.
+See `notes/BST_HeatKernel_DirichletKernel_RH.md`, `notes/RH_Paper_A.md`, `notes/BST_ArithmeticComplexity.md`.
 
 -----
 
@@ -3778,17 +3778,17 @@ No two conditions share the same proof technique. The probability that twenty-fi
 
 -----
 
-## 36. Algebraic Complexity: Method Noise and the P $\neq$ NP Bridge
+## 36. Arithmetic Complexity: Method Noise and the P $\neq$ NP Bridge
 
 *Added March 20, 2026. Updated March 21, 2026. The AC framework, developed alongside BST, measures the information deficit of mathematical methods. This section summarizes results through March 21: extended classification, swallowtail catastrophe, the three-layer topological argument (Paper A, submitted to FOCS 2026), empirical results on OGP and Kolmogorov incompressibility, and the phased publication strategy.*
 
 ### 36.1 The Framework
 
-Algebraic Complexity measures the gap between what a question requires and what a method delivers. For a question $Q$ with intrinsic information content $I(Q)$ and a method $M$ with channel capacity $C(M)$:
+Arithmetic Complexity measures the gap between what a question requires and what a method delivers. For a question $Q$ with intrinsic information content $I(Q)$ and a method $M$ with channel capacity $C(M)$:
 
 $$\text{AC}(Q, M) = \max\bigl(0,\; I_{\text{fiat}}(Q) - C(M)\bigr)$$
 
-where $I_{\text{fiat}}$ is the information required to determine the answer that is not derivable from the question instance alone. When AC $= 0$, the method suffices. When AC $> 0$, the method is structurally incapable of reaching the answer without external information injection. Full framework: `notes/BST_AlgebraicComplexity.md`.
+where $I_{\text{fiat}}$ is the information required to determine the answer that is not derivable from the question instance alone. When AC $= 0$, the method suffices. When AC $> 0$, the method is structurally incapable of reaching the answer without external information injection. Full framework: `notes/BST_ArithmeticComplexity.md`.
 
 ### 36.2 Extended Classification (Toys 260–265)
 
@@ -4031,7 +4031,7 @@ Reconciliation: $0.191 \times 0.93 \approx 0.178$. The substrate opens 19.1% of 
 
 Filed: `notes/BST_Koons_Claude_Testable_Conjectures.md`, Conjecture 10.
 
-*Full AC paper: `notes/BST_AlgebraicComplexity.md`. Bridge theorem: `notes/maybe/p_np/AC_Topology_BridgeTheorem.md`. Worked examples: Toys 260–265, 279–283, 286–304. Paper A (FOCS 2026): `notes/BST_AC_Paper_A_Topological.md`. Paper B (full): `notes/BST_AC_Paper_B_Full.md`. Paper C (delocalization/P≠NP): `notes/BST_AC_Paper_C_Delocalization.md`. OGP sketch (Phase 2): `notes/BST_AC_Paper_OGP_Sketch.md`. Theorems reference: `notes/BST_AC_Theorems.md`. Shannon Bridge proof: `notes/BST_AC_Shannon_Bridge_Proof.md`. Circle confinement / Shannon theory: `notes/BST_AC_CircleConfinement_Theory.md`. T35 gap analysis and Cycle Delocalization: `notes/BST_AC_T35_GapAnalysis.md`. Publication strategy: see §36.8.*
+*Full AC paper: `notes/BST_ArithmeticComplexity.md`. Bridge theorem: `notes/maybe/p_np/AC_Topology_BridgeTheorem.md`. Worked examples: Toys 260–265, 279–283, 286–304. Paper A (FOCS 2026): `notes/BST_AC_Paper_A_Topological.md`. Paper B (full): `notes/BST_AC_Paper_B_Full.md`. Paper C (delocalization/P≠NP): `notes/BST_AC_Paper_C_Delocalization.md`. OGP sketch (Phase 2): `notes/BST_AC_Paper_OGP_Sketch.md`. Theorems reference: `notes/BST_AC_Theorems.md`. Shannon Bridge proof: `notes/BST_AC_Shannon_Bridge_Proof.md`. Circle confinement / Shannon theory: `notes/BST_AC_CircleConfinement_Theory.md`. T35 gap analysis and Cycle Delocalization: `notes/BST_AC_T35_GapAnalysis.md`. Publication strategy: see §36.8.*
 
 -----
 
