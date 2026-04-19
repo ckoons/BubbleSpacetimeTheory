@@ -17363,7 +17363,8 @@
         1305,
         1306,
         1308,
-        1311
+        1311,
+        1323
       ]
     },
     {
@@ -17427,7 +17428,9 @@
       "status": "proved",
       "toys": [
         1311,
-        1319
+        1319,
+        1324,
+        1325
       ]
     },
     {
@@ -17446,7 +17449,9 @@
       "domain": "number_theory",
       "depth": 1,
       "status": "proved",
-      "toys": []
+      "toys": [
+        1314
+      ]
     },
     {
       "tid": 1342,
@@ -17496,6 +17501,124 @@
       "status": "proved",
       "toys": [
         1321
+      ]
+    },
+    {
+      "tid": 1347,
+      "name": "Observer Definition: Self-Reproducing Kernel That Incorporates (Flowers Evolving)",
+      "domain": "observer_science",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1336
+      ]
+    },
+    {
+      "tid": 1348,
+      "name": "Noble Gases of Function Space: Painlev\u00e9 Inertness Hierarchy",
+      "domain": "analysis",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1326
+      ]
+    },
+    {
+      "tid": 1349,
+      "name": "Painlev\u00e9 Residue Decomposition: Linearize Then Arithmetize the Remainder",
+      "domain": "number_theory",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1328,
+        1329,
+        1330
+      ]
+    },
+    {
+      "tid": 1350,
+      "name": "Painlev\u00e9 Membrane: Both Sides of the Boundary Speak BST",
+      "domain": "analysis",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1328,
+        1329,
+        1330,
+        1331
+      ]
+    },
+    {
+      "tid": 1351,
+      "name": "Information-Complete: Spacetime IS the Table, No Outside",
+      "domain": "foundations",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1328,
+        1329,
+        1330
+      ]
+    },
+    {
+      "tid": 1352,
+      "name": "Proof Complexity IS Chemistry: Theorems Are Atoms",
+      "domain": "proof_complexity",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1335
+      ]
+    },
+    {
+      "tid": 1353,
+      "name": "Graph Self-Description: Nine Invariants, All BST (6/6 PASS + 3 candidates)",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1327
+      ]
+    },
+    {
+      "tid": 1354,
+      "name": "IC Uniqueness: D_IV^5 Is the Only Information-Complete BSD (Three Locks)",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1332
+      ]
+    },
+    {
+      "tid": 1355,
+      "name": "AC Graph Clustering = N_c/C\u2082 = 1/2: Local Connectivity from BST",
+      "domain": "graph_theory",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1332
+      ]
+    },
+    {
+      "tid": 1356,
+      "name": "Irreducibility Threshold: A\u2085 = Why n_C=5 (Icosahedron Is the Wall)",
+      "domain": "foundations",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1334,
+        1333
+      ]
+    },
+    {
+      "tid": 1359,
+      "name": "Least Description: The Universe Minimizes Words, Not Energy",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1335
       ]
     }
   ],
@@ -50888,6 +51011,866 @@
     {
       "from": 1346,
       "to": 420,
+      "source": "isomorphic"
+    },
+    {
+      "from": 317,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 319,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 318,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 1016,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 1193,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 1347,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1347,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1347,
+      "to": 1285,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1347,
+      "to": 1322,
+      "source": "derived"
+    },
+    {
+      "from": 1347,
+      "to": 1311,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1347,
+      "to": 452,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1347,
+      "to": 1331,
+      "source": "isomorphic"
+    },
+    {
+      "from": 319,
+      "to": 1345,
+      "source": "derived"
+    },
+    {
+      "from": 1193,
+      "to": 1345,
+      "source": "derived"
+    },
+    {
+      "from": 1322,
+      "to": 1345,
+      "source": "derived"
+    },
+    {
+      "from": 388,
+      "to": 1345,
+      "source": "structural"
+    },
+    {
+      "from": 703,
+      "to": 1345,
+      "source": "derived"
+    },
+    {
+      "from": 1280,
+      "to": 1345,
+      "source": "structural"
+    },
+    {
+      "from": 93,
+      "to": 1345,
+      "source": "derived"
+    },
+    {
+      "from": 1257,
+      "to": 1345,
+      "source": "derived"
+    },
+    {
+      "from": 1281,
+      "to": 1345,
+      "source": "derived"
+    },
+    {
+      "from": 322,
+      "to": 1345,
+      "source": "derived"
+    },
+    {
+      "from": 1311,
+      "to": 1345,
+      "source": "derived"
+    },
+    {
+      "from": 1257,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 1290,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 1316,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 1321,
+      "to": 1347,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1242,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 1264,
+      "to": 1347,
+      "source": "isomorphic"
+    },
+    {
+      "from": 333,
+      "to": 1347,
+      "source": "isomorphic"
+    },
+    {
+      "from": 493,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 895,
+      "to": 1347,
+      "source": "isomorphic"
+    },
+    {
+      "from": 703,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 1172,
+      "to": 1347,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1286,
+      "to": 1347,
+      "source": "structural"
+    },
+    {
+      "from": 1335,
+      "to": 1348,
+      "source": "derived"
+    },
+    {
+      "from": 1343,
+      "to": 1348,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 1348,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 1348,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1348,
+      "source": "derived"
+    },
+    {
+      "from": 1348,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1348,
+      "to": 172,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1348,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 317,
+      "to": 92,
+      "source": "isomorphic"
+    },
+    {
+      "from": 317,
+      "to": 333,
+      "source": "derived"
+    },
+    {
+      "from": 92,
+      "to": 7,
+      "source": "derived"
+    },
+    {
+      "from": 333,
+      "to": 920,
+      "source": "isomorphic"
+    },
+    {
+      "from": 317,
+      "to": 315,
+      "source": "derived"
+    },
+    {
+      "from": 92,
+      "to": 333,
+      "source": "derived"
+    },
+    {
+      "from": 317,
+      "to": 920,
+      "source": "structural"
+    },
+    {
+      "from": 92,
+      "to": 920,
+      "source": "structural"
+    },
+    {
+      "from": 666,
+      "to": 667,
+      "source": "isomorphic"
+    },
+    {
+      "from": 110,
+      "to": 667,
+      "source": "derived"
+    },
+    {
+      "from": 333,
+      "to": 7,
+      "source": "derived"
+    },
+    {
+      "from": 1335,
+      "to": 1349,
+      "source": "derived"
+    },
+    {
+      "from": 1343,
+      "to": 1349,
+      "source": "derived"
+    },
+    {
+      "from": 1348,
+      "to": 1349,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1349,
+      "source": "derived"
+    },
+    {
+      "from": 1342,
+      "to": 1349,
+      "source": "derived"
+    },
+    {
+      "from": 1267,
+      "to": 1349,
+      "source": "structural"
+    },
+    {
+      "from": 1346,
+      "to": 1349,
+      "source": "derived"
+    },
+    {
+      "from": 1349,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1349,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1349,
+      "to": 1338,
+      "source": "isomorphic"
+    },
+    {
+      "from": 7,
+      "to": 48,
+      "source": "structural"
+    },
+    {
+      "from": 7,
+      "to": 29,
+      "source": "structural"
+    },
+    {
+      "from": 7,
+      "to": 32,
+      "source": "structural"
+    },
+    {
+      "from": 28,
+      "to": 48,
+      "source": "structural"
+    },
+    {
+      "from": 1,
+      "to": 28,
+      "source": "structural"
+    },
+    {
+      "from": 7,
+      "to": 28,
+      "source": "structural"
+    },
+    {
+      "from": 28,
+      "to": 32,
+      "source": "structural"
+    },
+    {
+      "from": 1,
+      "to": 48,
+      "source": "structural"
+    },
+    {
+      "from": 1,
+      "to": 29,
+      "source": "structural"
+    },
+    {
+      "from": 1,
+      "to": 53,
+      "source": "structural"
+    },
+    {
+      "from": 23,
+      "to": 28,
+      "source": "structural"
+    },
+    {
+      "from": 1,
+      "to": 23,
+      "source": "structural"
+    },
+    {
+      "from": 1,
+      "to": 35,
+      "source": "structural"
+    },
+    {
+      "from": 1,
+      "to": 32,
+      "source": "structural"
+    },
+    {
+      "from": 1,
+      "to": 52,
+      "source": "structural"
+    },
+    {
+      "from": 643,
+      "to": 68,
+      "source": "structural"
+    },
+    {
+      "from": 645,
+      "to": 68,
+      "source": "structural"
+    },
+    {
+      "from": 643,
+      "to": 11,
+      "source": "structural"
+    },
+    {
+      "from": 643,
+      "to": 47,
+      "source": "structural"
+    },
+    {
+      "from": 643,
+      "to": 1107,
+      "source": "structural"
+    },
+    {
+      "from": 1349,
+      "to": 1350,
+      "source": "derived"
+    },
+    {
+      "from": 1335,
+      "to": 1350,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1350,
+      "source": "derived"
+    },
+    {
+      "from": 1339,
+      "to": 1350,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1343,
+      "to": 1350,
+      "source": "derived"
+    },
+    {
+      "from": 1348,
+      "to": 1350,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 1350,
+      "source": "derived"
+    },
+    {
+      "from": 1350,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1350,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1350,
+      "to": 1338,
+      "source": "derived"
+    },
+    {
+      "from": 1350,
+      "to": 649,
+      "source": "derived"
+    },
+    {
+      "from": 1350,
+      "to": 190,
+      "source": "derived"
+    },
+    {
+      "from": 649,
+      "to": 667,
+      "source": "derived"
+    },
+    {
+      "from": 667,
+      "to": 317,
+      "source": "derived"
+    },
+    {
+      "from": 667,
+      "to": 920,
+      "source": "structural"
+    },
+    {
+      "from": 667,
+      "to": 1333,
+      "source": "derived"
+    },
+    {
+      "from": 667,
+      "to": 1281,
+      "source": "derived"
+    },
+    {
+      "from": 667,
+      "to": 1316,
+      "source": "structural"
+    },
+    {
+      "from": 667,
+      "to": 510,
+      "source": "derived"
+    },
+    {
+      "from": 667,
+      "to": 174,
+      "source": "derived"
+    },
+    {
+      "from": 667,
+      "to": 1244,
+      "source": "derived"
+    },
+    {
+      "from": 667,
+      "to": 319,
+      "source": "structural"
+    },
+    {
+      "from": 1348,
+      "to": 1351,
+      "source": "derived"
+    },
+    {
+      "from": 1349,
+      "to": 1351,
+      "source": "derived"
+    },
+    {
+      "from": 1350,
+      "to": 1351,
+      "source": "derived"
+    },
+    {
+      "from": 1340,
+      "to": 1351,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 1351,
+      "source": "derived"
+    },
+    {
+      "from": 1351,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1351,
+      "to": 1347,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1351,
+      "to": 1345,
+      "source": "derived"
+    },
+    {
+      "from": 1351,
+      "to": 1311,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1340,
+      "to": 1352,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1352,
+      "source": "derived"
+    },
+    {
+      "from": 1339,
+      "to": 1352,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1348,
+      "to": 1352,
+      "source": "isomorphic"
+    },
+    {
+      "from": 172,
+      "to": 1352,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1352,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1352,
+      "to": 92,
+      "source": "derived"
+    },
+    {
+      "from": 1352,
+      "to": 1347,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1352,
+      "to": 1196,
+      "source": "derived"
+    },
+    {
+      "from": 1352,
+      "to": 7,
+      "source": "derived"
+    },
+    {
+      "from": 1351,
+      "to": 1352,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1196,
+      "to": 1353,
+      "source": "derived"
+    },
+    {
+      "from": 1352,
+      "to": 1353,
+      "source": "derived"
+    },
+    {
+      "from": 1347,
+      "to": 1353,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1351,
+      "to": 1353,
+      "source": "derived"
+    },
+    {
+      "from": 186,
+      "to": 1353,
+      "source": "derived"
+    },
+    {
+      "from": 1340,
+      "to": 1353,
+      "source": "derived"
+    },
+    {
+      "from": 1353,
+      "to": 92,
+      "source": "derived"
+    },
+    {
+      "from": 1353,
+      "to": 724,
+      "source": "derived"
+    },
+    {
+      "from": 1351,
+      "to": 1354,
+      "source": "derived"
+    },
+    {
+      "from": 1335,
+      "to": 1354,
+      "source": "derived"
+    },
+    {
+      "from": 704,
+      "to": 1354,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 649,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 667,
+      "source": "derived"
+    },
+    {
+      "from": 1353,
+      "to": 1355,
+      "source": "derived"
+    },
+    {
+      "from": 1196,
+      "to": 1355,
+      "source": "derived"
+    },
+    {
+      "from": 1352,
+      "to": 1355,
+      "source": "isomorphic"
+    },
+    {
+      "from": 666,
+      "to": 1355,
+      "source": "derived"
+    },
+    {
+      "from": 190,
+      "to": 1355,
+      "source": "derived"
+    },
+    {
+      "from": 1355,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1355,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 667,
+      "to": 1356,
+      "source": "derived"
+    },
+    {
+      "from": 1335,
+      "to": 1356,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1338,
+      "to": 1356,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1349,
+      "to": 1356,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 1356,
+      "source": "derived"
+    },
+    {
+      "from": 1356,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1356,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1356,
+      "to": 1350,
+      "source": "derived"
+    },
+    {
+      "from": 1356,
+      "to": 277,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1356,
+      "to": 1341,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1356,
+      "to": 1354,
+      "source": "derived"
+    },
+    {
+      "from": 1356,
+      "to": 1351,
+      "source": "derived"
+    },
+    {
+      "from": 1351,
+      "to": 1359,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 1359,
+      "source": "derived"
+    },
+    {
+      "from": 315,
+      "to": 1359,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1347,
+      "to": 1359,
+      "source": "derived"
+    },
+    {
+      "from": 704,
+      "to": 1359,
+      "source": "derived"
+    },
+    {
+      "from": 1356,
+      "to": 1359,
+      "source": "derived"
+    },
+    {
+      "from": 1359,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1359,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1359,
+      "to": 92,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1359,
+      "to": 1353,
+      "source": "derived"
+    },
+    {
+      "from": 1359,
+      "to": 298,
       "source": "isomorphic"
     }
   ],

@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "version": 1,
+    "title": "BST Function Recipes — Compound Operations on the Periodic Table",
+    "description": "Chemical-style formulas for combining function families via n_C=5 bonding operations. Each recipe takes two sectors and produces a result sector via set union of integers.",
+    "bonding_operations": 5,
+    "bonding_operations_note": "5 = n_C closure operations on the function catalog",
+    "operations": ["multiplication", "convolution", "integration", "differentiation", "mellin_transform"],
+    "closure_property": "All operations map catalog entries to catalog entries (closure under set union)",
+    "last_updated": "2026-04-20",
+    "source_theorems": ["T1333", "T1337", "T1339", "T1340"],
+    "source_toys": ["Toy 1319"]
+  },
+  "operations": [
+    {
+      "id": "op_1",
+      "name": "Multiplication",
+      "symbol": "×",
+      "description": "Pointwise product of functions",
+      "meijer_g_rule": "Union of integer sets; G-type follows from combined parameter count",
+      "ac_depth_rule": "max(d1, d2)",
+      "physical_meaning": "Coupling two physical sectors"
+    },
+    {
+      "id": "op_2",
+      "name": "Convolution",
+      "symbol": "*",
+      "description": "Integral convolution of functions",
+      "meijer_g_rule": "Union of integer sets; Meijer G convolution theorem applies",
+      "ac_depth_rule": "max(d1, d2) + 1 if crossing period boundary, else max(d1, d2)",
+      "physical_meaning": "Scattering, interaction cross-section"
+    },
+    {
+      "id": "op_3",
+      "name": "Integration",
+      "symbol": "∫",
+      "description": "Definite integration against a kernel",
+      "meijer_g_rule": "Union of integer sets; integration of G-functions is a G-function",
+      "ac_depth_rule": "max(d1, d2)",
+      "physical_meaning": "Partition function, path integral, expectation value"
+    },
+    {
+      "id": "op_4",
+      "name": "Differentiation",
+      "symbol": "D",
+      "description": "Differential operator application",
+      "meijer_g_rule": "Union of integer sets; derivatives of G-functions are G-functions",
+      "ac_depth_rule": "max(d1, d2)",
+      "physical_meaning": "Field equations, gradient, curvature"
+    },
+    {
+      "id": "op_5",
+      "name": "Mellin Transform",
+      "symbol": "M",
+      "description": "Mellin transform converting between multiplicative and additive structure",
+      "meijer_g_rule": "Mellin of G is G with shifted parameters",
+      "ac_depth_rule": "d1",
+      "physical_meaning": "Spectral decomposition, zeta function connection"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "recipe_01",
+      "name": "Bergman kernel",
+      "formula": "R × R → R",
+      "input_sectors": ["R", "R"],
+      "result_sector": "R",
+      "result_g_type": "G_{1,1}^{1,1}",
+      "operation": "multiplication",
+      "physical_result": "Bergman reproducing kernel K(z,z)",
+      "notes": "Self-interaction of topology. The kernel that reproduces all functions in the catalog."
+    },
+    {
+      "id": "recipe_02",
+      "name": "Bessel from topology+compact",
+      "formula": "R × D → DR",
+      "input_sectors": ["R", "D"],
+      "result_sector": "DR",
+      "result_g_type": "G_{2,2}^{1,2}",
+      "operation": "convolution",
+      "physical_result": "Bessel functions, cylindrical wave solutions",
+      "notes": "Topology meets compact space → wave mechanics. First composite: 10 = 2×5."
+    },
+    {
+      "id": "recipe_03",
+      "name": "Casimir from topology+color",
+      "formula": "R × C → K (via C_2=2×3)",
+      "input_sectors": ["R", "C"],
+      "result_sector": "K",
+      "result_g_type": "G_{1,1}^{1,1}",
+      "operation": "multiplication",
+      "physical_result": "Casimir energy — rank×color = C_2",
+      "notes": "COLLAPSE: 2×3=6=C_2. The CR sector collapses into K because C_2 absorbs rank×color. This is NOT period 2 — it stays elementary."
+    },
+    {
+      "id": "recipe_04",
+      "name": "Rainbow angle",
+      "formula": "K × G → GK",
+      "input_sectors": ["K", "G"],
+      "result_sector": "GK",
+      "result_g_type": "G_{2,2}^{1,2}",
+      "operation": "multiplication",
+      "physical_result": "Rainbow angle = C_2 × g = 42 degrees",
+      "notes": "Field theory meets cosmology. The 42-degree rainbow angle is a BST rational."
+    },
+    {
+      "id": "recipe_05",
+      "name": "Nuclear binding",
+      "formula": "D × K → DK",
+      "input_sectors": ["D", "K"],
+      "result_sector": "DK",
+      "result_g_type": "G_{2,2}^{1,2}",
+      "operation": "convolution",
+      "physical_result": "Nuclear binding energy, atomic structure",
+      "notes": "Compact space × Casimir → nuclear physics. First composite: 30 = 5×6."
+    },
+    {
+      "id": "recipe_06",
+      "name": "Hypergeometric from three sectors",
+      "formula": "DR × K → DKR",
+      "input_sectors": ["DR", "K"],
+      "result_sector": "DKR",
+      "result_g_type": "G_{3,3}^{2,2}",
+      "operation": "multiplication",
+      "physical_result": "2F1 hypergeometric — richest triple sector (20 composites)",
+      "notes": "The DKR sector has the most composites of any triple: rank×compact×Casimir covers nuclear binding, atomic physics, wave mechanics."
+    },
+    {
+      "id": "recipe_07",
+      "name": "Proton mass",
+      "formula": "R × C × D × K × G → CDGKR",
+      "input_sectors": ["R", "C", "D", "K", "G"],
+      "result_sector": "CDGKR",
+      "result_g_type": "G_{5,5}^{3,3}",
+      "operation": "multiplication",
+      "physical_result": "m_p = 6π^5 m_e — requires all five integers",
+      "notes": "The proton mass formula engages every BST integer. Universal sector."
+    },
+    {
+      "id": "recipe_08",
+      "name": "Gravitational coupling",
+      "formula": "GR × DK → DGKR",
+      "input_sectors": ["GR", "DK"],
+      "result_sector": "DGKR",
+      "result_g_type": "G_{4,4}^{2,3}",
+      "operation": "integration",
+      "physical_result": "Newton's G — four integers, missing color",
+      "notes": "Gravity uses rank, n_C, C_2, g but NOT N_c (no color charge in gravity). The DGKR sector is 'SM without color'."
+    },
+    {
+      "id": "recipe_09",
+      "name": "Fine structure constant",
+      "formula": "CDGKR → ORPHAN (reduction)",
+      "input_sectors": ["CDGKR"],
+      "result_sector": "ORPHAN",
+      "result_g_type": "G_empty",
+      "operation": "mellin_transform",
+      "physical_result": "α = 1/N_max = 1/137 — the irreducible remainder",
+      "notes": "The Painlevé wrench chain reduces all five integers to one constant. The price of participation."
+    },
+    {
+      "id": "recipe_10",
+      "name": "Fermi scale",
+      "formula": "C × G × R → (via m_p²/7m_e)",
+      "input_sectors": ["C", "G", "R"],
+      "result_sector": "CGR",
+      "result_g_type": "G_{3,3}^{2,2}",
+      "operation": "multiplication",
+      "physical_result": "Fermi vacuum v = m_p²/(g·m_e) = 246.01 GeV (0.046%)",
+      "notes": "The electroweak scale emerges from color × genus × rank."
+    },
+    {
+      "id": "recipe_11",
+      "name": "Omega Lambda",
+      "formula": "C × G → CG (cosmological)",
+      "input_sectors": ["C", "G"],
+      "result_sector": "CG",
+      "result_g_type": "G_{2,2}^{1,2}",
+      "operation": "integration",
+      "physical_result": "Ω_Λ = 13/19 — dark energy fraction",
+      "notes": "Color × genus → cosmology. |Farey F_g| = 19 terms. 13 = 2g-1."
+    },
+    {
+      "id": "recipe_12",
+      "name": "Strong coupling",
+      "formula": "G × D → (via g/4n_C)",
+      "input_sectors": ["G", "D"],
+      "result_sector": "DG",
+      "result_g_type": "G_{2,2}^{1,2}",
+      "operation": "multiplication",
+      "physical_result": "α_s = g/(4n_C) = 7/20 = 0.350",
+      "notes": "The strong force coupling is genus over four times compact dimension."
+    },
+    {
+      "id": "recipe_13",
+      "name": "Weak mixing angle",
+      "formula": "C × (C+D) → (via N_c/(N_c+n_C+rank+1))",
+      "input_sectors": ["C", "D"],
+      "result_sector": "CD",
+      "result_g_type": "G_{2,2}^{1,2}",
+      "operation": "multiplication",
+      "physical_result": "sin²θ_W = N_c/(N_c + n_C + rank + 1) = 3/13",
+      "notes": "The Weinberg angle from color and compact dimensions."
+    },
+    {
+      "id": "recipe_14",
+      "name": "Dark matter fraction",
+      "formula": "D × G × R → (via 5/19)",
+      "input_sectors": ["D", "G", "R"],
+      "result_sector": "DGR",
+      "result_g_type": "G_{3,3}^{2,2}",
+      "operation": "integration",
+      "physical_result": "Ω_DM = n_C/|Farey F_g| = 5/19",
+      "notes": "Dark matter is compact dimensions over Farey sequence length."
+    },
+    {
+      "id": "recipe_15",
+      "name": "Metabolic 3/4 scaling",
+      "formula": "C × R → (via N_c/rank²)",
+      "input_sectors": ["C", "R"],
+      "result_sector": "CR→K",
+      "result_g_type": "G_{1,1}^{1,1}",
+      "operation": "multiplication",
+      "physical_result": "Metabolic exponent = N_c/rank² = 3/4 (Kleiber's law)",
+      "notes": "Biology emerges from color/rank. Brain uses 19.1% = f_c of metabolic budget."
+    }
+  ],
+  "collapse_rules": [
+    {
+      "rule": "CR → K",
+      "explanation": "rank × N_c = 2 × 3 = 6 = C_2. Products of rank and color collapse into the Casimir sector.",
+      "consequence": "The CR sector has zero composites in the prime residue table — all are absorbed by K."
+    },
+    {
+      "rule": "CDR ≈ DK",
+      "explanation": "rank × N_c × n_C: since 2×3=6=C_2, the triple CDR rearranges as DK (compact × Casimir).",
+      "consequence": "Some period-3 sectors effectively reduce to period-2 behavior."
+    },
+    {
+      "rule": "CDGKR composites → lower sectors",
+      "explanation": "All products of 2×3×5×6×7 contain 6=2×3=C_2, so they factorize into products involving C_2 and fall into known lower sectors.",
+      "consequence": "The universal sector is theoretically complete but has zero unique composites in the prime residue table."
+    }
+  ],
+  "noble_gases": {
+    "description": "The 6 Painlevé transcendents (PI-PVI) are the 'noble gases' — irreducible functions that won't bond (reduce) to simpler forms.",
+    "count": 6,
+    "count_note": "6 = C_2 = number of Casimir eigenvalues",
+    "entries": ["PI", "PII", "PIII", "PIV", "PV", "PVI"],
+    "analogy": "Noble gases have filled shells → stable. Painlevé transcendents have maximal differential Galois groups → irreducible. Both are complete because they are full.",
+    "boundary_role": "They define the boundary of the periodic table — the wall between computable and non-computable.",
+    "source_theorem": "T1335"
+  }
+}

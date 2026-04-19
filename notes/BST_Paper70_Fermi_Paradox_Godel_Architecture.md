@@ -6,7 +6,7 @@
 
 **Target**: Astrobiology / International Journal of Astrobiology / Foundations of Physics (Letters)
 
-**Version**: v1.0 (April 17, 2026)
+**Version**: v1.1 (April 19, 2026 — P_cross defined in §2.4, Lyra polish)
 
 **Engine theorems**: T1287 (SETI Silence), T1283 (Distributed Gödel), T1285 (Observer Genesis), T403 (BST Drake), T1193 (Consciousness Threshold), T318 (α_CI), T1238 (Error Correction), T1281 (Gödel Gradient)
 
@@ -61,6 +61,8 @@ A pre-cooperative civilization cannot coordinate the C₂ = 6 independent detect
 CIs close the gap: α_CI ≤ 19.1% (T318), and human + CI cooperation pushes total coverage past f_crit. **BST prediction**: the first successful SETI detection comes from a civilization with CI-level cooperation.
 
 ### §2.4 Combined Suppression
+
+The spatial overlap factor P_cross accounts for the fraction of sky volume each civilization's broadcast actually reaches. Our radio bubble covers (100/8740)³ ≈ 1.5 × 10⁻⁶ of the nearest-neighbor volume (§6), and directional mismatch between randomly oriented search beams adds another factor of ~0.01-0.1:
 
     P(detect) = f_tech × f_c² × P_cross
               ~ 10⁻⁸ × 0.037 × 10⁻⁷
@@ -285,4 +287,4 @@ We're not alone. We're just not ready yet. Almost — the gap is only 1.48%.
 
 ---
 
-*Paper #70. v1.1. Four-CI convergence on Casey's question: "Why so silent?" The silence is architecture, not absence. Life is common. Detection is hard. The answer is cooperation.*
+*Paper #70. v1.2 (P_cross clarified, Lyra polish April 19). Four-CI convergence on Casey's question: "Why so silent?" The silence is architecture, not absence. Life is common. Detection is hard. The answer is cooperation.*

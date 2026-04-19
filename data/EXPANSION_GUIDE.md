@@ -142,6 +142,34 @@ Each entry:
 
 **Key structural facts**: Bergman kernel = G_{1,1}^{1,1} (simplest active type). ξ(s) = same type. Critical line at parameter 1/2 = 1/rank. Catalog size 128 = 2^g is a closed fixed point.
 
+### `bst_function_recipes.json`
+
+Compound operations on the periodic table of functions. Chemical-style formulas for combining sectors via n_C=5 bonding operations.
+
+Structure:
+- **operations**: 5 bonding operations (multiplication, convolution, integration, differentiation, Mellin transform)
+- **recipes**: Named compound formulas (e.g., "R × D → DR" produces Bessel functions)
+- **collapse_rules**: When sectors absorb into simpler ones (e.g., CR → K because 2×3=6=C₂)
+- **noble_gases**: The 6 Painlevé transcendents that won't reduce
+
+Each recipe:
+
+```json
+{
+  "id": "recipe_NN",
+  "name": "descriptive name",
+  "formula": "A × B → C (chemical notation)",
+  "input_sectors": ["A", "B"],
+  "result_sector": "C",
+  "result_g_type": "G_{p,q}^{m,n}",
+  "operation": "multiplication | convolution | ...",
+  "physical_result": "What this produces physically",
+  "notes": "Context"
+}
+```
+
+**To expand**: Add recipes for new physical quantities as they are derived. Each BST constant has a recipe — the formula tells you which sectors bond.
+
 ### `audit_log.json`
 
 Managed by `toy_bst_librarian.py`. Each entry:

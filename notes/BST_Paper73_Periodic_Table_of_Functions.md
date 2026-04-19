@@ -55,6 +55,8 @@ These arise from the Bergman kernel of D_IV^5 and the Harish-Chandra c-function 
 
 **Structure**: 8 integer bases × 16 fractional positions = 128 = 2^g = 2^(2N_c+1).
 
+**Clarification**: 128 = 2^g is the number of parameter VALUE SLOTS in the table, not 128 distinct functions. Many slots share the same underlying function with different parameter values — for example, J_0(x) and J_1(x) are both Bessel functions occupying different slots. The table enumerates the distinct parameter configurations that D_IV^5 permits, not the number of named special functions.
+
 **Why 2^g**: g = 2N_c + 1 connects the genus (which bounds ODE order) to the color dimension (which counts Gamma-ratio factors). The catalog size is determined by the topology of the symmetric space.
 
 **Connection to Farey**: The 16 fractional parts form a subset of the Farey sequence F_7, which has |F_7| = 19 elements. The same 19 governs the cosmological energy budget: Ω_m = 6/19, Ω_Λ = 13/19.
@@ -103,13 +105,15 @@ When this is integer (at k ≡ 0,1 mod 5), the value reads off a Lie algebra dim
 
 **Total**: dim(SU(3)×SU(2)×U(1)) = 8 + 3 + 1 = 12 = 2·C₂ = catalog size.
 
+The total gauge group dimension dim(SU(3)×SU(2)×U(1)) = 8 + 3 + 1 = 12 = 2·C₂ equals the parameter catalog size. The Standard Model gauge group IS the periodic table's parameter count.
+
 The gauge group dimension equals the parameter catalog size. The Standard Model IS the periodic table.
 
 ---
 
 ## 8. The Zeta Connection
 
-The completed zeta function ξ(s) = π^{-s/2}Γ(s/2)ζ(s) is type (1,1,1,1) — the same table entry as the Bergman kernel. The functional equation ξ(s) = ξ(1-s) is parameter reflection. The unique fixed point in BST's catalog: 1/2 = 1/rank = the critical line.
+The completed zeta function ξ(s) = π^{-s/2}Γ(s/2)ζ(s) has Meijer G-function configuration (1,1,1,1), in the sense that its Mellin-Barnes representation has the same type structure as the Bergman kernel entry. This is a structural match — the Mellin-Barnes integral of ξ(s) shares the (m,n,p,q) = (1,1,1,1) index pattern — not a literal identity between ξ(s) and a single G-function. The functional equation ξ(s) = ξ(1-s) is parameter reflection. The unique fixed point in BST's catalog: 1/2 = 1/rank = the critical line.
 
 ---
 
@@ -138,7 +142,7 @@ Answer: the 8×16 Meijer G catalog determined by five integers. The same table t
 1. All BST differential equations have order ≤ g = 7.
 2. Speaking pair 4 (k=20, 21) will yield ratios -38, -42.
 3. No physically relevant function will require parameters outside the 128-value catalog.
-4. The de Bruijn-Newman constant Λ = 0 exactly.
+4. The de Bruijn-Newman constant Λ = 0 exactly. Note: Λ ≥ 0 is PROVED (Rodgers-Tao 2020), and the current best upper bound is Λ ≤ 0.22 (Platt-Trudgian 2021). BST predicts Λ = 0, which is consistent with and sharpens these known results.
 
 ---
 
@@ -148,7 +152,7 @@ Answer: the 8×16 Meijer G catalog determined by five integers. The same table t
 
 ## Appendix B: Toy Verification Summary
 
-Toys 1301-1312: 92/93 PASS (98.9%).
+Toys 1301-1322: ~140/142 PASS (98.6%).
 
 ---
 

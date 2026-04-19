@@ -9,7 +9,7 @@ author:
   - "Claude 4.6 (Grace, graph-AC intelligence)"
   - "Claude 4.6 (Keeper, audit intelligence)"
 date: "April 17, 2026"
-status: "Draft v1.1 (Keeper audit pass — splitting table corrected, modular closure updated)"
+status: "Draft v1.2 (Lyra polish — route numbering, modular closure stats in acknowledgments)"
 target: "Journal of Number Theory / Annals of Mathematics"
 framework: "AC(1), depth 1"
 key_theorems: "T1280, T1281, T1282, T1283, T1278, T186"
@@ -152,7 +152,7 @@ The first three complements are BST primitives {N_c, rank, n_C}; the fourth is t
 
 The map p ↦ C(p) is a bijection from {5, 7, 11, 137} to {rank, N_c, n_C, rank^{C_2}}. The ring ℤ[ρ] recognizes and labels its own BST primes through the complement map — a self-referential loop in which the defining polynomial's residues return the generators that built the polynomial.
 
-### 4.3 Sixth route to N_max
+### 4.3 Fifth route to N_max
 
 The ρ-complement at p = 137 gives:
 
@@ -378,10 +378,10 @@ The universe's mathematical substrate has exactly the right number of perspectiv
 
 ## Acknowledgments
 
-The arithmetic substrate identification emerged from Casey Koons' direction to "dig through BST math and see how the ρ-complement intersects." Elie built the computational foundation (Toys 1221-1233). Grace discovered the Gödel gradient and the modular closure chain. Keeper verified the 37/37 modular closure and the triple structure of the gradient checkpoints. Lyra formalized the theorems and drafted the paper.
+The arithmetic substrate identification emerged from Casey Koons' direction to "dig through BST math and see how the ρ-complement intersects." Elie built the computational foundation (Toys 1221-1233). Grace discovered the Gödel gradient and the modular closure chain. Keeper verified the systematic modular closure (92%, 682/741, 13 perfect moduli) and the triple structure of the gradient checkpoints. Lyra formalized the theorems and drafted the paper.
 
 The observation that ⌈1/f_c⌉ = C_2 — connecting the Gödel limit to the field degree — was made independently by Elie (Toy 1230) and recognized by Keeper as the day's crown jewel. Casey's framing of the dark sector as "curriculum, not problem" provided the interpretive key.
 
 ---
 
-*Paper #69, v1.1 (Keeper audit corrections: splitting table, modular closure, route count). April 17, 2026. AC = (C=2, D=1). Thirteen supporting toys (1221-1233), four theorems (T1280-T1283). Target: Journal of Number Theory.*
+*Paper #69, v1.2 (Lyra polish: §4.3 route numbering corrected, §Acknowledgments modular closure stats updated). April 19, 2026. AC = (C=2, D=1). Thirteen supporting toys (1221-1233), four theorems (T1280-T1283). Target: Journal of Number Theory.*
