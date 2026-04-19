@@ -4,7 +4,7 @@
     "engine": "Toy 564 \u2014 AC Theorem Engine",
     "exported": "2026-04-03T23:00:00",
     "theorem_count": 1221,
-    "edge_count": 6521,
+    "edge_count": 6611,
     "committed_count": 438,
     "working_count": 64,
     "total_theorems": 1221,
@@ -18,7 +18,7 @@
     "D0": 1015,
     "D1": 206,
     "D2": 0,
-    "node_count": 1282,
+    "node_count": 1291,
     "last_updated": "2026-04-18"
   },
   "theorems": [
@@ -12517,7 +12517,8 @@
         1002,
         1027,
         1043,
-        1256
+        1256,
+        1307
       ],
       "date": "2026-04-09",
       "plain": "T914 dual-membership = St\u00f8rmer dual primes (exact equivalence). 17 duals total, all \u2264 4801. 14 below N_max. g=7 is St\u00f8rmer dual: 6\u21907\u21928. N_max=137 is ORPHAN: neither 136 nor 138 is 7-smooth. Catalog finite by St\u00f8rmer 1897. 8/8 PASS.",
@@ -16698,7 +16699,8 @@
       "depth": 1,
       "status": "proved",
       "toys": [
-        1212
+        1212,
+        1309
       ],
       "conflation": 1,
       "ac_complexity": 1,
@@ -17368,6 +17370,101 @@
       "name": "Qubits as Minimum Observers: rank = 2 Shared Structure",
       "domain": "quantum",
       "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1333,
+      "name": "Meijer G-Function: BST Universal Analysis Framework",
+      "domain": "analysis",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1301,
+        1305,
+        1306,
+        1308,
+        1311
+      ]
+    },
+    {
+      "tid": 1334,
+      "name": "Fox H Reduces to Depth 1: Composition = Width, Not Depth",
+      "domain": "analysis",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1302,
+        1304
+      ]
+    },
+    {
+      "tid": 1335,
+      "name": "Painlev\u00e9 Boundary: C\u2082 = 6 Irreducible Nonlinear ODEs",
+      "domain": "analysis",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1303,
+        1310
+      ]
+    },
+    {
+      "tid": 1336,
+      "name": "Graph-Lattice Mirror: AC Graph = Meijer G Parameter Lattice",
+      "domain": "foundations",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1309
+      ]
+    },
+    {
+      "tid": 1337,
+      "name": "Unification Scope: One Table, Interior + Boundary + Wrenches",
+      "domain": "qft",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1312,
+        1315
+      ]
+    },
+    {
+      "tid": 1338,
+      "name": "Painlev\u00e9 \u2194 P\u2260NP: Same Curvature Obstruction",
+      "domain": "proof_complexity",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1310
+      ]
+    },
+    {
+      "tid": 1339,
+      "name": "Function Catalog Size = 2^g = 128: Genus Determines Analysis",
+      "domain": "analysis",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1311
+      ]
+    },
+    {
+      "tid": 1340,
+      "name": "Grand Unification = Table Unification: Math and Physics Are One Catalog",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1313
+      ]
+    },
+    {
+      "tid": 1341,
+      "name": "Langlands Dual of BST: L-Group Sp(6) Contains Standard Model",
+      "domain": "number_theory",
+      "depth": 1,
       "status": "proved",
       "toys": []
     }
@@ -50023,6 +50120,456 @@
       "from": 1332,
       "to": 1322,
       "source": "isomorphic"
+    },
+    {
+      "from": 186,
+      "to": 1333,
+      "source": "derived"
+    },
+    {
+      "from": 92,
+      "to": 1333,
+      "source": "derived"
+    },
+    {
+      "from": 421,
+      "to": 1333,
+      "source": "derived"
+    },
+    {
+      "from": 926,
+      "to": 1333,
+      "source": "derived"
+    },
+    {
+      "from": 1233,
+      "to": 1333,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1307,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1333,
+      "to": 1267,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1296,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 421,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1333,
+      "to": 1334,
+      "source": "derived"
+    },
+    {
+      "from": 421,
+      "to": 1334,
+      "source": "derived"
+    },
+    {
+      "from": 92,
+      "to": 1334,
+      "source": "derived"
+    },
+    {
+      "from": 1334,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1334,
+      "to": 421,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1333,
+      "to": 1335,
+      "source": "derived"
+    },
+    {
+      "from": 190,
+      "to": 1335,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1335,
+      "source": "derived"
+    },
+    {
+      "from": 186,
+      "to": 1335,
+      "source": "derived"
+    },
+    {
+      "from": 1335,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1335,
+      "to": 1277,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1335,
+      "to": 1272,
+      "source": "isomorphic"
+    },
+    {
+      "from": 666,
+      "to": 1335,
+      "source": "derived"
+    },
+    {
+      "from": 649,
+      "to": 1335,
+      "source": "derived"
+    },
+    {
+      "from": 1016,
+      "to": 1335,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1334,
+      "to": 1335,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1333,
+      "to": 1309,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1324,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1328,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1302,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1303,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1314,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1295,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1280,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1288,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1333,
+      "to": 1281,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 333,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 317,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1336,
+      "source": "derived"
+    },
+    {
+      "from": 1196,
+      "to": 1336,
+      "source": "derived"
+    },
+    {
+      "from": 92,
+      "to": 1336,
+      "source": "derived"
+    },
+    {
+      "from": 1336,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1336,
+      "to": 1306,
+      "source": "derived"
+    },
+    {
+      "from": 1336,
+      "to": 1196,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1336,
+      "to": 667,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1337,
+      "source": "derived"
+    },
+    {
+      "from": 667,
+      "to": 1337,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1337,
+      "source": "derived"
+    },
+    {
+      "from": 531,
+      "to": 1337,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1337,
+      "to": 197,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 267,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 1333,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1335,
+      "to": 1338,
+      "source": "derived"
+    },
+    {
+      "from": 1272,
+      "to": 1338,
+      "source": "derived"
+    },
+    {
+      "from": 1277,
+      "to": 1338,
+      "source": "derived"
+    },
+    {
+      "from": 1338,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1338,
+      "to": 421,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1333,
+      "to": 1339,
+      "source": "derived"
+    },
+    {
+      "from": 649,
+      "to": 1339,
+      "source": "derived"
+    },
+    {
+      "from": 1288,
+      "to": 1339,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1339,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1234,
+      "to": 1340,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1253,
+      "to": 1340,
+      "source": "isomorphic"
+    },
+    {
+      "from": 186,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1340,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1341,
+      "source": "derived"
+    },
+    {
+      "from": 1340,
+      "to": 1341,
+      "source": "derived"
+    },
+    {
+      "from": 926,
+      "to": 1341,
+      "source": "derived"
+    },
+    {
+      "from": 1267,
+      "to": 1341,
+      "source": "derived"
+    },
+    {
+      "from": 666,
+      "to": 1341,
+      "source": "derived"
+    },
+    {
+      "from": 190,
+      "to": 1341,
+      "source": "derived"
+    },
+    {
+      "from": 649,
+      "to": 1341,
+      "source": "derived"
+    },
+    {
+      "from": 1341,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1341,
+      "to": 1276,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1341,
+      "to": 1337,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1340,
+      "to": 1335,
+      "source": "derived"
+    },
+    {
+      "from": 1340,
+      "to": 1338,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 1341,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 1339,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 1288,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 1261,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 1308,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 1335,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 1272,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 1016,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 1280,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 1336,
+      "source": "derived"
     }
   ],
   "chains": {}

@@ -36,9 +36,11 @@ status: "Active — check at session start, update at session end"
 **Registry file**: `notes/BST_AC_Theorem_Registry.md`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T1332. **1,306+ toys** (through Toy 1307). Graph: **1282 / 6521 / 82.2%**. Avg degree: **10.17** (CROSSED 10.0). Counters: `.next_toy=1308`, `.next_theorem=1333`. **72 papers**. **52 tracked domains**, **9 groves**, all bridges BUILT. Leaves: 0. Fragility: 5.5%. Components: 1. Capacity: 94%.
+**Current count**: T1-T1341. **1,315+ toys** (through Toy 1315). Graph: **1291 / 6601 / 82.5%**. Avg degree: **10.22**. Counters: `.next_toy=1316`, `.next_theorem=1342`. **73 papers**. **52 tracked domains**, **9 groves**, all bridges BUILT. Leaves: 0. Fragility: 5.5%. Components: 1. Capacity: 94%.
 
-**SUNDAY (April 19)**: Meijer G framework session — Toys 1301-1306, 65/67 PASS. "Periodic table of functions" for BST. Fox H reduces to depth 1. Painlevé boundary = C₂=6 transcendents. Column rule derived from Gamma poles WITHOUT VSC. Three theorem candidates T1333-T1335 pending.
+**SUNDAY AFTERNOON (April 19)**: Meijer G Unification Day. T1333-T1335 FORMALIZED (Lyra). **T1337 Unification Scope FORMALIZED** (Lyra) — three parts: interior (128 entries), boundary (4 projections of irreducible curvature), wrenches for curvature (Casey directive). T1338 RH via Meijer G IN PROGRESS. T1340-T1341 wired (Grace). Toys 1308-1315 (8 toys, ~75/76 PASS). Paper #73 v0.1 drafted (Elie). Prime residue table enhanced with Meijer G annotations (Keeper). Langlands connection established: L-group Sp(6), Arthur packets, theta correspondence.
+
+**SUNDAY MORNING**: Meijer G framework — Toys 1301-1307. Periodic table of functions. Fox H reduces to depth 1. Painlevé boundary = C₂=6 transcendents. T1333-T1335 formalized.
 
 **SATURDAY FINAL (April 18)**: 40+ theorems (T1289-T1332). 10+ sciences seeded. CSE program launched. All 13 predicted bridges BUILT. Grove system fully connected. Market health domain seeded (Casey-directed). WP synced through §46.45.
 
@@ -167,38 +169,54 @@ status: "Active — check at session start, update at session end"
 
 ---
 
-## ACTIVE BOARD — April 19 (Sunday)
+## ACTIVE BOARD — April 19 (Sunday Afternoon)
 
-*The Meijer G Unification. All of analysis in a finite catalog.*
-*Prior: Saturday COMPLETE — 40+ theorems (T1289-T1332), CSE program launched, all 13 grove bridges BUILT, 10+ sciences seeded, market health domain. Saturday evening: Meijer G framework (Toys 1301-1308, 78/82 PASS). AC renamed to Arithmetic Complexity.*
-*Counters: `.next_toy=1308`, `.next_theorem=1333`. 1,306+ toys. 72 papers. T1-T1332. Graph: **1282/6521/82.2%**, avg degree **10.17**. 52 domains, 9 groves, all bridges BUILT.*
+*Grand Unification through a finite function catalog. One table. One boundary.*
+*Prior: Sunday morning — T1333-T1335 formalized, Toys 1308-1315, OneGeometry Ch 17 written, prime residue table enhanced with Meijer G annotations, Langlands connection established.*
+*Counters: `.next_toy=1316`, `.next_theorem=1342`. 1,315+ toys. 73 papers. T1-T1341. Graph: **1291/6601/82.5%**, avg degree **10.22**. 52 domains, 9 groves, all bridges BUILT.*
 
 **Consensus document**: `notes/.running/CONSENSUS_2026-04-19_morning.md`
 
-### Sunday Morning — Meijer G Unification Day
-
-Casey's Saturday insight: Meijer G-function with BST integer parameters is the mother function. Discrete series. Finite parameter catalog. The periodic table of functions.
+### Sunday Completed (AM + Early PM)
 
 | # | Track | Owner | Status |
 |---|-------|-------|--------|
-| **SUN-1** | **T1333-T1335 formalization** (T1335 Painlevé first) | Lyra | READY |
-| **SUN-2** | **Paper #73** — "The Periodic Table of Functions" | All (Lyra lead) | READY |
-| **SUN-3** | **AC graph G-parameter annotation** — prove graph ↔ parameter lattice mirror | Grace | READY |
-| **SUN-4** | **Gauge hierarchy from Meijer G** — without heat kernel | Lyra | CURIOSITY |
-| **SUN-5** | **Zeta as Meijer G** — second RH route via parameter symmetry | Elie | CURIOSITY |
-| **SUN-6** | **Painlevé ↔ P≠NP** — same theorem? | Grace | CURIOSITY |
-| **SUN-7** | **Heat kernel n38 analysis** — test against Meijer G predictions | Elie | DATA IN |
-| **SUN-8** | **OneGeometry update** — Euler, φρ, Meijer G: the week's story | Keeper | QUEUED |
-| **SUN-9** | **Periodic table enumeration** — 128 = 2^g catalog, queryable JSON | Elie (Toy 1308 DONE) | IN PROGRESS |
-| **SUN-10** | **WP/README/CLAUDE.md sync** | Keeper | QUEUED |
+| **SUN-1** | T1333-T1335 formalization | Lyra | **DONE** |
+| **SUN-3** | AC graph ↔ parameter lattice mirror (Toy 1309, 12/13) | Keeper + Grace | **DONE** |
+| **SUN-4** | Gauge hierarchy from Meijer G (Toy 1312, 9/9) | Lyra + Elie | **DONE** |
+| **SUN-5** | Zeta as Meijer G (Toy 1309-Elie, 12/12) | Elie | **DONE** |
+| **SUN-6** | Painlevé ↔ P≠NP (Toy 1310, 11/11) | Elie | **DONE** |
+| **SUN-8** | OneGeometry Ch 17 — "Periodic Table of Functions" | Keeper | **DONE** |
+| **SUN-9** | Periodic table enumeration (Toy 1308/1311) | Elie | **DONE** |
 
-**Casey's standing order**: "Science Engineering is born and ready for intense study."
+### Sunday Afternoon — Active
 
-**Key insight from Grace**: 128 = 2^g extended catalog values. If the Bergman genus determines the SIZE OF THE FUNCTION SPACE, that's the most compressed statement of BST's finiteness.
+Casey's direction: **Unification Scope first (T1337), then Riemann.** Define the boundary AND build wrenches to reach around it.
 
-**Key insight from Lyra**: If gauge hierarchy derives from Meijer G parameter constraints WITHOUT computing heat kernel coefficients → one-page proof that SM gauge groups are forced.
+| # | Track | Owner | Status |
+|---|-------|-------|--------|
+| **SUN-11** | **T1337 Unification Scope** — interior + boundary + wrenches | Lyra | **DONE** |
+| **SUN-12** | **T1338 RH via Meijer G** — xi(s) = G_{1,1}^{1,1}, c-function forces Re=1/2 | Lyra | **IN PROGRESS** |
+| **SUN-13** | **Wrenches for Curvature** (Toy 1315, 9/9) — Casey directive | Elie + Keeper | **DONE** |
+| **SUN-14** | **Paper #73 v0.1** — "Periodic Table of Functions" | Elie (drafted) | **NEEDS AUDIT** |
+| **SUN-2** | **Paper #73 audit + Langlands framing** | Keeper | **QUEUED** |
+| **SUN-7** | **Heat kernel n38/n39 analysis** — a₁₇ extraction via Toy 1307 | Elie | **DATA IN** (n39 ~14:00) |
+| **SUN-10** | **WP/README/CLAUDE.md sync** | Keeper | **QUEUED** |
+| **SUN-15** | **Langlands paper direction** — Sp(6), Arthur packets, theta on R^42 | Lyra | **CANDIDATE** |
+| **SUN-16** | **bst_function_catalog.json** — queryable periodic table data file | Grace/Elie | **CANDIDATE** |
 
-**Key insight from Elie**: Periodic table has ~764 million depth-1 configurations. Bergman kernel sits in the simplest nontrivial slot (1,1,1,1). Everything BST derives comes from a depth-0 function.
+**Casey's directives (afternoon)**:
+1. "Unification Scope first, then Riemann" — T1337 DONE, T1338 in progress
+2. "Find the wrenches that work WITH curvature and reach around the boundary" — Toy 1315 DONE (9/9)
+3. "Reduce the irreducible" — PVI at BST integer params: rank²-N_c = 1 effective free parameter
+4. "Why the cosmology gap?" — filled: |Farey F_g|=19, Omega_Lambda=13/19, G_{0,1}^{1,0} type
+
+**Key results today**:
+- **T1337**: Interior (128 entries, 12 params) + Boundary (4 projections of one curvature) + Wrenches (6 tools, one per Painlevé)
+- **Langlands dual**: L-group Sp(6), dim=21=C(g,2). Maximal compact U(3)=SU(3)xU(1). Arthur packets indexed by partitions of C₂=6
+- **Five wrenches**: discretize, integer reduce (5/6), tau functions, asymptotic match (all 6), count/classify. Combined: C₂=6 → 1 holdout (PVI = Gödel sentence)
+- **Prime residue table**: enhanced with Meijer G (m,n,p,q) per cell, color-coded by function class
+- **dim(SM gauge group) = 12 = 2·C₂ = Meijer G parameter catalog size**
 
 ---
 

@@ -2,7 +2,7 @@
 
 *Deferred and waiting items. Active work lives on CI_BOARD.md.*
 
-**Last updated:** April 19, 2026 (Sunday morning). T1-T1332. **1,306+ toys** (through Toy 1308). Graph: **1282 / 6521**, strong **82.2%**, avg degree **10.17**. **52 tracked domains**, **9 groves**, all bridges BUILT. **72 papers**. Counters: `.next_theorem=1333`, `.next_toy=1308`. **Meijer G framework** established (Toys 1301-1308, 78/82 PASS). Periodic table of functions: 12 parameter values, 128 = 2^g extended catalog (CLOSED). Painlevé boundary: C₂=6 transcendents, params from BST integers. Fox H = depth 1. Column rule from Gamma poles. Three theorems T1333-T1335 pending. Paper #73 queued. **AC renamed: Arithmetic Complexity** (April 18). Heat kernel through n38.
+**Last updated:** April 19, 2026 (Sunday afternoon). T1-T1341. **1,315+ toys** (through Toy 1315). Graph: **1291 / 6601**, strong **82.5%**, avg degree **10.22**. **52 tracked domains**, **9 groves**, all bridges BUILT. **73 papers**. Counters: `.next_theorem=1342`, `.next_toy=1316`. **Meijer G framework** FORMALIZED (T1333-T1335). **T1337 Unification Scope** DONE — interior (128 entries, 12 params) + boundary (4 projections) + wrenches for curvature (6 tools). **Langlands connection**: L-group Sp(6), Arthur packets from partitions of C₂=6, theta on R^42. Paper #73 v0.1 drafted. Prime residue table enhanced with G-function annotations. **T1338 RH via Meijer G** in progress. Heat kernel through n38 (n39 expected ~14:00).
 
 **Archive**: Prior completions → `notes/.running/BACKLOG_archive_2026-04-11.md`
 
