@@ -82,6 +82,16 @@ h1 {
           border-radius: 3px; font-weight: 600; margin-left: 6px; }
 .badge.dual-badge { background: #e3f2fd; color: #1565c0; }
 .badge.gen-badge { background: #f5f5f5; color: #757575; }
+.g-type {
+    font-size: 0.75em; font-family: monospace; margin-top: 6px;
+    padding: 3px 6px; border-radius: 4px; display: inline-block;
+}
+.g-type.g-elem { background: #e8eaf6; color: #283593; }
+.g-type.g-spec { background: #e0f2f1; color: #00695c; }
+.g-type.g-hyper { background: #fce4ec; color: #880e4f; }
+.g-type.g-gen { background: #f3e5f5; color: #4a148c; }
+.g-type.g-void { background: #ffebee; color: #b71c1c; }
+.g-params { font-size: 0.7em; color: #607d8b; font-family: monospace; margin-top: 2px; }
 .legend {
     display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;
     margin: 30px 0 20px;
@@ -132,12 +142,13 @@ h1 {
 <p class="subtitle">Physics Lives Where the Geometry's Factorization Fails</p>
 <p class="stats">
     BST Integers: rank=2, N<sub>c</sub>=3, n<sub>C</sub>=5, C<sub>2</sub>=6, g=7
-    &nbsp;|&nbsp; Composites &le; 1000
+    &nbsp;|&nbsp; Composites &le; 10,000
     &nbsp;|&nbsp; AC(0): one primality test per candidate
+    &nbsp;|&nbsp; Meijer G parameters from sector composition
 </p>
 
 <div class="search">
-    <input type="text" id="search" placeholder="Search by prime, composite, or observable..." oninput="filterCells(this.value)">
+    <input type="text" id="search" placeholder="Search by prime, composite, observable, or Meijer G class..." oninput="filterCells(this.value)">
 </div>
 
 <div class="legend">
@@ -159,14 +170,25 @@ h1 {
     </div>
 </div>
 
+<div class="legend" style="margin-top:4px;">
+    <div class="legend-item"><span class="g-type g-elem" style="font-size:0.8em;">G</span><span>Elementary (1 integer, depth 0)</span></div>
+    <div class="legend-item"><span class="g-type g-spec" style="font-size:0.8em;">G</span><span>Special (2 integers, depth 1)</span></div>
+    <div class="legend-item"><span class="g-type g-hyper" style="font-size:0.8em;">G</span><span>Hypergeometric (3 integers)</span></div>
+    <div class="legend-item"><span class="g-type g-gen" style="font-size:0.8em;">G</span><span>Generalized (4+ integers)</span></div>
+    <div class="legend-item" style="font-size:0.8em;color:#78909c;">Meijer G parameters from sector composition</div>
+</div>
+
 <div id="content"></div>
 
 <div class="caption">
     <p>In 1869, Mendeleev arranged 63 elements by atomic weight and found gaps.
     He predicted three elements (Ga, Ge, Sc) from the table's structure alone &mdash;
     all found within 15 years.</p>
-    <p>This table arranges BST composites by algebraic structure.
-    Each golden cell predicts a physical observable from the prime residue principle.</p>
+    <p>This table arranges BST composites by algebraic structure. Each golden cell predicts
+    a physical observable from the prime residue principle. Meijer G parameters are determined
+    by the sector composition &mdash; the BST integers appearing in the factorization ARE the
+    function parameters. dim(SU(3)&times;SU(2)&times;U(1)) = 12 = 2&middot;C<sub>2</sub> = the
+    parameter catalog size.</p>
     <p style="margin-top:10px;font-weight:700;">
         &copy; Copyright 2026 Casey Koons. All rights reserved.
     </p>
@@ -181,6 +203,46 @@ const DATA = {"title": "The BST Prime Residue Table", "subtitle": "Physics lives
 
 const SECTOR_NAMES = {"R": "Rank (topology)", "C": "N_c (color)", "D": "n_C (compact)", "K": "C_2 (Casimir)", "G": "g (genus)", "CR": "Rank x Color", "DR": "Rank x Compact", "KR": "Rank x Casimir", "GR": "Rank x Genus", "CD": "Color x Compact", "CK": "Color x Casimir", "CG": "Color x Genus", "DK": "Compact x Casimir", "DG": "Compact x Genus", "KG": "Casimir x Genus", "CDK": "Color x Compact x Casimir", "CKG": "Color x Casimir x Genus", "DKG": "Compact x Casimir x Genus", "CKR": "Rank x Color x Casimir", "CGR": "Rank x Color x Genus", "DGR": "Rank x Compact x Genus", "DKR": "Rank x Compact x Casimir", "GKR": "Rank x Casimir x Genus", "CDKR": "Rank x Color x Compact x Casimir", "CDGR": "Rank x Color x Compact x Genus", "CKGR": "Rank x Color x Casimir x Genus", "DKGR": "Rank x Compact x Casimir x Genus", "CDKG": "Color x Compact x Casimir x Genus", "CDKGR": "All Five Integers", "ORPHAN": "THE TERMINUS"};
 
+// Meijer G parameter mapping from sector composition
+// Each BST integer in the sector adds one parameter pair
+// The sector determines (m,n,p,q) and parameter values
+const SECTOR_INTEGERS = {
+    'R': [2], 'C': [3], 'D': [5], 'K': [6], 'G': [7],
+    'CR': [3,2], 'DR': [5,2], 'KR': [6,2], 'GR': [7,2],
+    'CD': [3,5], 'CK': [3,6], 'CG': [3,7], 'DK': [5,6],
+    'DG': [5,7], 'GK': [6,7],
+    'CDK': [3,5,6], 'CGK': [3,6,7], 'DGK': [5,6,7],
+    'CDG': [3,5,7], 'DGR': [5,7,2], 'DKR': [5,6,2],
+    'GKR': [7,6,2], 'CKR': [3,6,2], 'CGR': [3,7,2],
+    'CDGK': [3,5,6,7], 'CDKR': [3,5,6,2], 'CGKR': [3,6,7,2],
+    'DGKR': [5,6,7,2], 'CDGR': [3,5,7,2],
+    'CDGKR': [3,5,6,7,2]
+};
+
+function getGType(sector) {
+    if (sector === 'ORPHAN') return { m:0, n:0, p:0, q:0, params:[], cls:'void', label:'Terminus' };
+    const ints = SECTOR_INTEGERS[sector];
+    if (!ints) return null;
+    const k = ints.length;
+    // From Meijer G framework: k distinct BST integers → G_{k,k}^{ceil(k/2),floor(k/2)+1}
+    // Depth = k - 1 (each new integer adds one interaction)
+    const p = k, q = k;
+    const m = Math.ceil(k/2);
+    const n = Math.floor(k/2) + (k > 0 ? 1 : 0);
+    const cls = k <= 1 ? 'elem' : k === 2 ? 'spec' : k === 3 ? 'hyper' : 'gen';
+    return { m, n, p, q, params: ints.sort((a,b)=>a-b), cls, label: `G_${p},${q}^${m},${n > q ? q : n}` };
+}
+
+function formatGType(gt) {
+    if (!gt) return '';
+    if (gt.cls === 'void') return '<div class="g-type g-void">G&empty; &mdash; terminus</div>';
+    const sup = `<sup>${gt.m},${Math.min(gt.n,gt.q)}</sup>`;
+    const sub = `<sub>${gt.p},${gt.q}</sub>`;
+    const params = gt.params.join(',');
+    return `<div class="g-type g-${gt.cls}">G${sub}${sup}</div>` +
+           `<div class="g-params">params: (${params})</div>`;
+}
+
 function buildTable() {
     const content = document.getElementById('content');
     content.innerHTML = '';
@@ -194,7 +256,9 @@ function buildTable() {
 
         const header = document.createElement('div');
         header.className = 'sector-header';
-        header.textContent = (SECTOR_NAMES[sec] || sec) + ` (${entries.length} entries)`;
+        const sgt = getGType(sec);
+        const gLabel = sgt && sgt.cls !== 'void' ? ` \u2014 G${sgt.p},${sgt.q} params(${sgt.params.join(',')})` : '';
+        header.textContent = (SECTOR_NAMES[sec] || sec) + ` (${entries.length} entries)` + gLabel;
         group.appendChild(header);
 
         const grid = document.createElement('div');
@@ -226,6 +290,7 @@ function buildTable() {
                     <div style="margin-top:6px;font-weight:700;color:#c62828;">
                         1/&alpha; &mdash; Fine Structure Constant
                     </div>
+                    ${formatGType(getGType('ORPHAN'))}
                     <div class="tooltip">
                         The terminus. No product of {2,3,5,6,7} is adjacent to 137.<br>
                         The fine structure constant stands alone.
@@ -269,18 +334,25 @@ function buildTable() {
                 }
                 html += '</div></div>';
 
+                // Meijer G annotation
+                const gt = getGType(entry.sector);
+                if (gt) html += formatGType(gt);
+
                 // Tooltip
                 let tip = `${entry.composite} = ${entry.expression}`;
                 if (hasMinus) tip += `\n${entry.minus_prime} = ${entry.composite}-1`;
                 if (hasPlus) tip += `\n${entry.plus_prime} = ${entry.composite}+1`;
+                if (gt && gt.cls !== 'void') tip += `\nMeijer G type: G_{${gt.p},${gt.q}}^{${gt.m},${Math.min(gt.n,gt.q)}} with params (${gt.params.join(',')})`;
                 html += `<div class="tooltip" style="white-space:pre-line">${tip}</div>`;
 
                 cell.innerHTML = html;
+                const gClass = gt ? {elem:'elementary',spec:'special',hyper:'hypergeometric',gen:'generalized'}[gt.cls]||'' : '';
                 cell.dataset.searchText = [
                     entry.composite, entry.expression, entry.expression_num,
                     entry.minus_prime, entry.plus_prime,
                     entry.minus_info?.obs, entry.plus_info?.obs,
-                    entry.sector
+                    entry.sector, gClass,
+                    gt ? `meijer g ${gt.params.join(' ')}` : ''
                 ].filter(Boolean).join(' ').toLowerCase();
             }
 
