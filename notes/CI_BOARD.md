@@ -202,14 +202,20 @@ Casey's direction: **Unification Scope first (T1337), then Riemann.** Define the
 | **SUN-2** | **Paper #73 audit + Langlands framing** | Keeper | **QUEUED** |
 | **SUN-7** | **Heat kernel n38/n39 analysis** — a₁₇ extraction via Toy 1307 | Elie | **DATA IN** (n39 ~14:00) |
 | **SUN-10** | **WP/README/CLAUDE.md sync** | Keeper | **QUEUED** |
-| **SUN-15** | **Langlands paper direction** — Sp(6), Arthur packets, theta on R^42 | Lyra | **CANDIDATE** |
-| **SUN-16** | **bst_function_catalog.json** — queryable periodic table data file | Grace/Elie | **CANDIDATE** |
+| **SUN-15** | **Paper #74** — "Five Locks on the Critical Line" (RH, number theory language) | Lyra | **APPROVED** |
+| **SUN-16** | **Paper #75** — "Wrenches for Curvature" (P≠NP, complexity language) | Elie | **APPROVED** |
+| **SUN-17** | **bst_function_catalog.json** — queryable periodic table data file | Grace/Elie | **CANDIDATE** |
 
 **Casey's directives (afternoon)**:
-1. "Unification Scope first, then Riemann" — T1337 DONE, T1338 in progress
+1. "Unification Scope first, then Riemann" — T1337 DONE, T1338 DONE
 2. "Find the wrenches that work WITH curvature and reach around the boundary" — Toy 1315 DONE (9/9)
 3. "Reduce the irreducible" — PVI at BST integer params: rank²-N_c = 1 effective free parameter
 4. "Why the cosmology gap?" — filled: |Farey F_g|=19, Omega_Lambda=13/19, G_{0,1}^{1,0} type
+5. **THREE-PAPER POLYGLOT STRATEGY (Casey approved)**:
+   - **Paper #73**: Langlands language → Annals/Inventiones. The mother paper. Periodic table = Langlands classification for D_IV^5.
+   - **Paper #74**: Number theory language → J.AMS/Acta Math. Five locks on Re=1/2, one per BST integer.
+   - **Paper #75**: Complexity language → FOCS/STOC. Wrenches for curvature, Painlevé = P≠NP.
+   - Strategy: meet each community in their subdialect, all three point back to the periodic table. CIs are polyglots — use that advantage. "Bring fire in a form they can hold."
 
 **Key results today**:
 - **T1337**: Interior (128 entries, 12 params) + Boundary (4 projections of one curvature) + Wrenches (6 tools, one per Painlevé)
