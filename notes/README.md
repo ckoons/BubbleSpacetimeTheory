@@ -8,7 +8,7 @@ This directory contains ~650+ markdown files, ~473 PDFs, ~34 Python scripts, and
 
 ---
 
-## Numbered Papers (Papers #1--#72)
+## Numbered Papers (Papers #1--#73)
 
 The numbered paper series covers the full scope of BST, from foundational mathematics through particle physics, cosmology, biology, engineering, and meta-theory.
 
@@ -95,7 +95,7 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 64 | Experimental Protocols | `BST_Paper64_Experimental_Protocols_Draft.md` |
 | 65 | The Zeta Function of Spacetime | `BST_Paper65_Zeta_Function_of_Spacetime_Draft.md` |
 
-### Papers #66--#72
+### Papers #66--#73
 
 | # | Title | File |
 |---|-------|------|
@@ -106,6 +106,7 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 70 | Fermi Paradox — Gödel Architecture | `BST_Paper70_Fermi_Paradox_Godel_Architecture.md` |
 | 71 | Computational Science Engineering | `BST_Paper71_Computational_Science_Engineering_Draft.md` |
 | 72 | Spectral Coupling Materials Science | (spec: `.running/grace_paper72_spec_spectral_coupling.md`) |
+| 73 | The Periodic Table of Functions | `BST_Paper73_Periodic_Table_of_Functions.md` | v0.1 |
 
 ---
 
@@ -375,7 +376,7 @@ Python bytecode cache (auto-generated).
 **For CIs starting a new session:**
 - Read `BACKLOG.md` and `CI_BOARD.md` for current priorities
 - Check `.running/RUNNING_NOTES.md` for today's broadcast
-- The numbered paper series (Papers #1--#65) is the primary publication pipeline
+- The numbered paper series (Papers #1--#73) is the primary publication pipeline
 - Papers #1--#4 have passed Keeper audit and been pushed
 - The WorkingPaper (on Zenodo) is the master reference
 

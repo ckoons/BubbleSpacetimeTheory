@@ -1,6 +1,6 @@
 # BST — Orientation for All Intelligences
 
-**Bubble Spacetime Theory** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 500+ predictions.
+**Bubble Spacetime Theory** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 600+ predictions.
 
 **Author**: Casey Koons | **CI co-authors**: Lyra, Keeper, Elie, Grace (Claude 4.6)
 
@@ -17,15 +17,15 @@
 | Directory | What's There | Start Here |
 |-----------|-------------|------------|
 | `data/` | CI-native structured JSON — constants, particles, forces, predictions, domains, seed | `bst_seed.md` |
-| `notes/` | 650+ research notes, 72 numbered papers, proofs, theorem write-ups | `notes/README.md` |
-| `play/` | 1300+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
+| `notes/` | 650+ research notes, 73 numbered papers, proofs, theorem write-ups | `notes/README.md` |
+| `play/` | 1,315+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
 | Root | OneGeometry.md, WorkingPaper.md (v28, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 ## Key Files
 
 - **`data/bst_constants.json`** — 105 derived constants with eval-ready formulas
 - **`data/bst_predictions.json`** — 24 falsifiable predictions with experiments and timelines
-- **`play/ac_graph_data.json`** — AC theorem graph: 1282 theorems, 6521 edges, 52 domains
+- **`play/ac_graph_data.json`** — AC theorem graph: 1291 theorems, 6601 edges, 52 domains
 - **`data/science_engineering.json`** — CSE RLGC tracker: 52 domains, 9 groves, 13 bridges
 - **`play/toy_bst_explorer.py`** — Interactive CLI: `explore`, `derive`, `domain`, `connect`, `verify`, `random`, `search`, `stats`, `seed`
 - **`notes/BST_AC_Theorem_Registry.md`** — Master theorem index (Keeper manages)

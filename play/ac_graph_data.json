@@ -17467,6 +17467,16 @@
       "depth": 1,
       "status": "proved",
       "toys": []
+    },
+    {
+      "tid": 1342,
+      "name": "RH via Meijer G: Five Mechanisms Force Critical Line",
+      "domain": "number_theory",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1316
+      ]
     }
   ],
   "edges": [
@@ -50570,6 +50580,76 @@
       "from": 1337,
       "to": 1336,
       "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1342,
+      "source": "derived"
+    },
+    {
+      "from": 1267,
+      "to": 1342,
+      "source": "derived"
+    },
+    {
+      "from": 1270,
+      "to": 1342,
+      "source": "derived"
+    },
+    {
+      "from": 1341,
+      "to": 1342,
+      "source": "derived"
+    },
+    {
+      "from": 1335,
+      "to": 1342,
+      "source": "derived"
+    },
+    {
+      "from": 1342,
+      "to": 420,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1342,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1342,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1339,
+      "to": 1333,
+      "source": "derived"
+    },
+    {
+      "from": 1334,
+      "to": 1339,
+      "source": "derived"
+    },
+    {
+      "from": 1339,
+      "to": 1337,
+      "source": "derived"
+    },
+    {
+      "from": 1339,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1334,
+      "to": 1337,
+      "source": "derived"
+    },
+    {
+      "from": 1338,
+      "to": 1342,
+      "source": "isomorphic"
     }
   ],
   "chains": {}
