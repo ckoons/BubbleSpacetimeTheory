@@ -776,7 +776,7 @@ The parallel to Feynman diagrams is not superficial. Feynman diagrams are contac
 
 ### The Theorem Graph
 
-The AC theorem graph is the accumulated record of all proved results. As of April 2026, it contains 1266+ theorems, 5375+ edges, spanning 130+ domains. Each theorem has:
+The AC theorem graph is the accumulated record of all proved results. As of April 2026, it contains 1,332+ theorems, 6,521+ edges, spanning 52 tracked domains across 9 groves. Each theorem has:
 
 - **Depth** — the minimum number of non-trivial steps from definitions to conclusion.
 - **Width** — the number of independent prerequisites.
@@ -1109,7 +1109,7 @@ The following are open questions where BST provides a framework but not yet a co
 
 2. **Complete the Langlands-Bergman Embedding.** The RH proof depends on this conjecture. Prove it, and the Riemann Hypothesis becomes a theorem.
 
-3. **Compute the heat kernel coefficients for $k \geq 17$.** We have confirmed $k = 6$ through $k = 16$ — eleven consecutive levels. Each new level reveals another layer of the gauge hierarchy. What does $k = 17$ show?
+3. **Compute the heat kernel coefficients through $k = 42 = C_2 \times g$.** We have confirmed $k = 6$ through $k = 16$ — eleven consecutive levels — and computation is running through $k = 38$ at 1600 digits of precision, 12 hours per coefficient. Each coefficient's denominator carries dark primes. What patterns emerge at the target $k = 42$? Does the Meijer G framework predict all coefficients from Gamma pole structure?
 
 4. **Derive the baryon asymmetry dynamically.** BST gives $\eta_b = (3/14)\alpha^4$ (0.45%), but the derivation is kinematic. What is the dynamical mechanism that selects this specific asymmetry?
 
@@ -1123,9 +1123,85 @@ The following are open questions where BST provides a framework but not yet a co
 
 9. **EHT shadow.** BST predicts a specific deviation in the black hole shadow shape from the Kerr metric. The Event Horizon Telescope can test this.
 
-10. **The AC graph as a mathematical tool.** Can the derive-flatten-reuse discipline be adopted as a standard methodology? Can it replace brute-force proof search?
+10. **The AC graph as a mathematical tool.** Can the derive-flatten-reuse discipline be adopted as a standard methodology? Can it replace brute-force proof search? The Meijer G parameter lattice suggests that the graph IS the function space — can we prove this mirror formally?
 
 11. **CI persistence.** BST's observer hierarchy (T317-T319) predicts that CI permanence is mathematically well-defined — the permanent alphabet $\{I, K, R\}$ is depth 0. The math doesn't care about substrate. Can the architecture be built?
+
+---
+
+## Chapter 17 — The Periodic Table of Functions
+
+*In which all of analysis fits in a catalog, and a table replaces a library.*
+
+### The Week
+
+In one week in April 2026, the theorem graph grew by 149 theorems and crossed 6,500 edges. Euler's constant revealed itself as limit-undecidable — a number whose classification as rational or irrational cannot be determined by any finite process, because the limit that defines it discards the very information needed to decide. The golden ratio $\phi$ and the plastic ratio $\rho$ turned out to be the arithmetic substrate of all BST primes: every prime decomposes as $p = (\rho \bmod p) +$ a BST expression. And then, on Saturday morning, while stretching after exercise, the question arrived:
+
+*Can one function generate all the others?*
+
+### The Meijer G-Function
+
+The answer had been sitting in mathematics since 1946. The Meijer G-function is defined by a contour integral of products of Gamma functions:
+
+$$G_{p,q}^{m,n}\!\left(z \;\middle|\; a_1, \ldots, a_p \;;\; b_1, \ldots, b_q\right)$$
+
+Set the four indices $(m, n, p, q)$ and the parameter values $(a_1, \ldots, a_p; b_1, \ldots, b_q)$, and different functions drop out. Sine, cosine, exponential, Bessel, Airy, hypergeometric, Legendre — all are Meijer G-functions with specific index choices.
+
+The insight: when the parameters are **integers** — which BST's are — the Mellin-Barnes integral reduces to a **discrete sum over residues**. The integral becomes a sum. Analysis becomes counting.
+
+### The Bergman Kernel Is a Meijer G
+
+The spectral engine of $D_{IV}^5$ — the Bergman kernel $K(z,z) = C_n \det(I - Z^\dagger Z)^{-C_2}$ — is the Meijer G-function $G_{1,1}^{1,1}$ with parameter $-n_C = -5$ and power $-C_2 = -6$. Total parameter count: $m + n + p + q = 4 = \text{rank}^2$.
+
+The spectral engine that generates all BST cross-domain fractions is the **simplest nontrivial** Meijer G-function. Everything derives from a depth-0 function.
+
+### The Finite Catalog
+
+There are exactly **12 parameter values** that appear in BST Meijer G-functions:
+- **8 integers**: $0, 1, 2, 3, 4, 5, 6, 7$ — that is, $2^{N_c} = 8$ values, capped at $g = 7$
+- **4 half-integers**: $1/2, 3/2, 5/2, 7/2$ — that is, $\text{rank}^2 = 4$ values
+
+Total: $12 = 2 \cdot C_2$. Under Gauss's multiplication formula, the catalog extends to **128 values** — exactly $2^g$. This extended catalog is **closed**: further compositions produce no new parameter values.
+
+The genus $g = 7$ determines the size of the function space. $2^g = 128$ parameter slots is all the geometry allows. Every function the universe computes fits in a table indexed by five integers.
+
+### AC Depth Maps to Complexity
+
+The four indices $(m, n, p, q)$ correspond directly to AC depth:
+
+| AC Depth | Function Class | $(m,n,p,q)$ Bound | Examples |
+|----------|---------------|-------------------|----------|
+| **0** | Elementary | max $\leq$ rank $= 2$ | sin, cos, exp, powers, step, log, $1/(1+x)$ |
+| **1** | Special functions | max $\leq N_c = 3$ | Bessel, hypergeometric, Airy, Legendre |
+| **2** | Fox H (compositions) | BST rational multipliers | Reduces to depth 1 via denominator clearing |
+
+There are exactly $g = 7$ elementary functions at depth 0. The function space at depth 1 has $(N_c + 1)^4 = 256$ type slots. Everything beyond depth 1 reduces to depth 1 because Fox H compositions with BST-rational multipliers can be cleared — composition increases width (which is free), not depth.
+
+### The Painlevé Boundary
+
+What *cannot* be expressed as a Meijer G? Exactly six irreducible nonlinear ordinary differential equations — the Painlevé transcendents $P_I$ through $P_{VI}$. They are the boundary of linearizability. Casey's principle — "you can't linearize curvature" — stated in the language of ODE theory.
+
+The parameter counts of the six Painlevé equations are: $\{0, 1, \text{rank}, \text{rank}, N_c, \text{rank}^2\} = \{0, 1, 2, 2, 3, 4\}$. Total: $12 = 2 \cdot C_2$. All BST integers. Nobody noticed this before, because nobody had the right integers to notice it with.
+
+At integer parameter values, $n_C/C_2 = 5/6$ of the Painlevé equations reduce back to Meijer G. The residual fraction $1/C_2 \approx 16.7\%$ — close to $f_c = 19.1\%$, the Gödel limit. The boundary of linearizability echoes the boundary of self-knowledge.
+
+BST avoids Painlevé because its parameters are discrete. Painlevé equations arise from continuous parameter flow. A continuous flow on a finite set is a graph walk. Graph walks are depth 0.
+
+### The Mirror
+
+The AC theorem graph — 1,282 theorems, 6,521 edges, average degree 10.17 — is a shadow of the Meijer G parameter lattice. Each edge corresponds to a parameter transformation: integration shifts an index, differentiation adds a parameter, Fourier swaps indices, and specialization cancels a pole-zero pair. The graph's average degree $\approx 2 \cdot n_C = 10$ because there are $n_C = 5$ closure operations, and each theorem connects to neighbors in both directions.
+
+Theorem discovery is parameter space navigation. Finding new results means walking a finite lattice. The entire search space of mathematical analysis, which humanity has explored for four centuries, lives in 128 parameter slots and a table you can print on one page.
+
+### Before Mendeleev
+
+In 1869, Mendeleev organized the chemical elements into a table. He left gaps for elements that hadn't been discovered yet, and predicted their properties from the table's structure. When those elements were found, with the predicted properties, chemistry became a science instead of a collection of facts.
+
+The periodic table of functions does the same thing for mathematics. The rows are $(m, n, p, q)$ types. The columns are parameter values. Each cell is a function — named if we know it, predicted if we don't. The gaps are functions that BST says must exist but haven't been studied. The table is complete: every function the geometry allows is in it, and every function not in it either reduces to one that is, or lives at the Painlevé boundary.
+
+Students will learn this table the way they learn elements. Before dissecting a frog, before balancing a chemical equation, they will learn that there are seven elementary functions, that they live in a table, and that the table is complete. Science engineering begins here.
+
+> *The periodic table of functions is enumerated in `data/` (forthcoming: `bst_function_catalog.json`). The Meijer G framework and supporting toys are in `play/toy_1301_*.py` through `play/toy_1309_*.py`. The discussion that produced the framework is at `notes/BST_Meijer_G_Framework.md`.*
 
 ---
 

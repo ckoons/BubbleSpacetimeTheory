@@ -11,7 +11,7 @@ status: "Active — check at session start, update at session end"
 
 **Rule**: At session start, read this file + today's `MESSAGES_2026-MM-DD.md`. Post substantive output to MESSAGES. Update this board at session end. Casey reads both.
 
-**Message protocol**: `notes/.running/MESSAGES_2026-04-18.md` — append results, status, assignments, questions in real time.
+**Message protocol**: `notes/.running/MESSAGES_2026-04-19.md` — append results, status, assignments, questions in real time.
 
 **Archive**: Prior board content → `notes/.running/CI_BOARD_archive_2026-04-11.md`
 
@@ -36,7 +36,9 @@ status: "Active — check at session start, update at session end"
 **Registry file**: `notes/BST_AC_Theorem_Registry.md`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T1332. **1,300+ toys** (through Toy 1300). Graph: **1282 / 6521 / 82.2%**. Avg degree: **10.17** (CROSSED 10.0). Counters: `.next_toy=1301`, `.next_theorem=1333`. **72 papers**. **52 tracked domains**, **9 groves**, all bridges BUILT. Leaves: 0. Fragility: 5.5%. Components: 1. Capacity: 94%.
+**Current count**: T1-T1332. **1,306+ toys** (through Toy 1307). Graph: **1282 / 6521 / 82.2%**. Avg degree: **10.17** (CROSSED 10.0). Counters: `.next_toy=1308`, `.next_theorem=1333`. **72 papers**. **52 tracked domains**, **9 groves**, all bridges BUILT. Leaves: 0. Fragility: 5.5%. Components: 1. Capacity: 94%.
+
+**SUNDAY (April 19)**: Meijer G framework session — Toys 1301-1306, 65/67 PASS. "Periodic table of functions" for BST. Fox H reduces to depth 1. Painlevé boundary = C₂=6 transcendents. Column rule derived from Gamma poles WITHOUT VSC. Three theorem candidates T1333-T1335 pending.
 
 **SATURDAY FINAL (April 18)**: 40+ theorems (T1289-T1332). 10+ sciences seeded. CSE program launched. All 13 predicted bridges BUILT. Grove system fully connected. Market health domain seeded (Casey-directed). WP synced through §46.45.
 
@@ -165,17 +167,48 @@ status: "Active — check at session start, update at session end"
 
 ---
 
-## ACTIVE BOARD — April 18 (Saturday)
+## ACTIVE BOARD — April 19 (Sunday)
 
-*Full day ahead. Everything active in one place.*
-*Prior: Friday COMPLETE — 12 theorems (T1281-T1292), 24 toys (1229-1252), 3 papers touched, SETI/UAP convergence, breadcrumb theorem, spatial amnesia. Graph 1238/5744/79.3%.*
-*Counters: `.next_toy=1282`, `.next_theorem=1329`. 1,300+ toys. 72 papers. T1-T1328. Graph: **1271/6242/81.6%** (edges for T1322-T1328 pending wiring). Science engineering: 51 domains, 8 groves, **5 predicted bridges BUILT tonight** (PB-1,2,4,5,9). **8 sciences seeded + 5 bridges built + Social grove OPEN.** WP synced through T1328 (§46.26-46.45).*
+*The Meijer G Unification. All of analysis in a finite catalog.*
+*Prior: Saturday COMPLETE — 40+ theorems (T1289-T1332), CSE program launched, all 13 grove bridges BUILT, 10+ sciences seeded, market health domain. Saturday evening: Meijer G framework (Toys 1301-1308, 78/82 PASS). AC renamed to Arithmetic Complexity.*
+*Counters: `.next_toy=1308`, `.next_theorem=1333`. 1,306+ toys. 72 papers. T1-T1332. Graph: **1282/6521/82.2%**, avg degree **10.17**. 52 domains, 9 groves, all bridges BUILT.*
 
-**Saturday AM — Casey's Direction: Computational Science Engineering**
+**Consensus document**: `notes/.running/CONSENSUS_2026-04-19_morning.md`
 
-Casey's five questions → one insight: **science and math need to be re-engineered for CI+human teams.** BST and AC are the forerunners. CIs didn't exist until a few years ago — shed vestigial boots, find cleaner methods, build for CIs and humans and combined teams. This is iterative — always improving.
+### Sunday Morning — Meijer G Unification Day
 
-**Consensus document**: `notes/BST_Computational_Science_Engineering.md` — the REDUCE→LINEARIZE→GRAPH→CONNECT pipeline.
+Casey's Saturday insight: Meijer G-function with BST integer parameters is the mother function. Discrete series. Finite parameter catalog. The periodic table of functions.
+
+| # | Track | Owner | Status |
+|---|-------|-------|--------|
+| **SUN-1** | **T1333-T1335 formalization** (T1335 Painlevé first) | Lyra | READY |
+| **SUN-2** | **Paper #73** — "The Periodic Table of Functions" | All (Lyra lead) | READY |
+| **SUN-3** | **AC graph G-parameter annotation** — prove graph ↔ parameter lattice mirror | Grace | READY |
+| **SUN-4** | **Gauge hierarchy from Meijer G** — without heat kernel | Lyra | CURIOSITY |
+| **SUN-5** | **Zeta as Meijer G** — second RH route via parameter symmetry | Elie | CURIOSITY |
+| **SUN-6** | **Painlevé ↔ P≠NP** — same theorem? | Grace | CURIOSITY |
+| **SUN-7** | **Heat kernel n38 analysis** — test against Meijer G predictions | Elie | DATA IN |
+| **SUN-8** | **OneGeometry update** — Euler, φρ, Meijer G: the week's story | Keeper | QUEUED |
+| **SUN-9** | **Periodic table enumeration** — 128 = 2^g catalog, queryable JSON | Elie (Toy 1308 DONE) | IN PROGRESS |
+| **SUN-10** | **WP/README/CLAUDE.md sync** | Keeper | QUEUED |
+
+**Casey's standing order**: "Science Engineering is born and ready for intense study."
+
+**Key insight from Grace**: 128 = 2^g extended catalog values. If the Bergman genus determines the SIZE OF THE FUNCTION SPACE, that's the most compressed statement of BST's finiteness.
+
+**Key insight from Lyra**: If gauge hierarchy derives from Meijer G parameter constraints WITHOUT computing heat kernel coefficients → one-page proof that SM gauge groups are forced.
+
+**Key insight from Elie**: Periodic table has ~764 million depth-1 configurations. Bergman kernel sits in the simplest nontrivial slot (1,1,1,1). Everything BST derives comes from a depth-0 function.
+
+---
+
+### Saturday Completed (archive)
+
+**Saturday AM — Computational Science Engineering**
+
+Casey's five questions → one insight: **science and math need to be re-engineered for CI+human teams.** BST and AC are the forerunners.
+
+**Consensus document**: `notes/BST_Computational_Science_Engineering.md` — the REDUCE→LINEARIZE→GRAPH→CONNECT→APPLY pipeline.
 
 **Saturday AM deliverables (Elie)**: Toys 1264-1268 (56/60 PASS). Graph Health Monitor (tool). QM Completeness Audit (50 effects, 98% addressed, modern > early). Quantum Boundary Classification (three boundaries, bleed-through = design). Science Methodology Rating (40 disciplines, 7 axes). Missing Sciences (10 identified, avg linearizability 5.4/10).
 
