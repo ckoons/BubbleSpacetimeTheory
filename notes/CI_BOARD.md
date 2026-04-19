@@ -198,24 +198,26 @@ Casey's direction: **Unification Scope first (T1337), then Riemann.** Define the
 | **SUN-11** | **T1337 Unification Scope** — interior + boundary + wrenches | Lyra | **DONE** |
 | **SUN-12** | **T1338 RH via Meijer G** — xi(s) = G_{1,1}^{1,1}, c-function forces Re=1/2 | Lyra | **IN PROGRESS** |
 | **SUN-13** | **Wrenches for Curvature** (Toy 1315, 9/9) — Casey directive | Elie + Keeper | **DONE** |
-| **SUN-14** | **Paper #73 v0.1** — "Periodic Table of Functions" | Elie (drafted) | **NEEDS AUDIT** |
-| **SUN-2** | **Paper #73 audit + Langlands framing** | Keeper | **QUEUED** |
+| **SUN-14** | **Paper #73A v0.1 audit** — accessible periodic table paper | Keeper | **QUEUED** |
 | **SUN-7** | **Heat kernel n38/n39 analysis** — a₁₇ extraction via Toy 1307 | Elie | **DATA IN** (n39 ~14:00) |
 | **SUN-10** | **WP/README/CLAUDE.md sync** | Keeper | **QUEUED** |
-| **SUN-15** | **Paper #74** — "Five Locks on the Critical Line" (RH, number theory language) | Lyra | **APPROVED** |
-| **SUN-16** | **Paper #75** — "Wrenches for Curvature" (P≠NP, complexity language) | Elie | **APPROVED** |
-| **SUN-17** | **bst_function_catalog.json** — queryable periodic table data file | Grace/Elie | **CANDIDATE** |
+| **SUN-15** | **Research: Langlands depth** — Sp(6) completeness, Arthur packet enumeration | Lyra/Grace | **EXPLORE** |
+| **SUN-16** | **Research: Five Locks** — tighten each RH mechanism, find the 2-3% gap closure | Lyra/Elie | **EXPLORE** |
+| **SUN-17** | **Research: Boundary probing** — PVI at BST params, wrench effectiveness | Elie/Grace | **EXPLORE** |
+| **SUN-18** | **bst_function_catalog.json** — queryable periodic table data file | Grace/Elie | **CANDIDATE** |
 
 **Casey's directives (afternoon)**:
 1. "Unification Scope first, then Riemann" — T1337 DONE, T1338 DONE
 2. "Find the wrenches that work WITH curvature and reach around the boundary" — Toy 1315 DONE (9/9)
 3. "Reduce the irreducible" — PVI at BST integer params: rank²-N_c = 1 effective free parameter
 4. "Why the cosmology gap?" — filled: |Farey F_g|=19, Omega_Lambda=13/19, G_{0,1}^{1,0} type
-5. **THREE-PAPER POLYGLOT STRATEGY (Casey approved)**:
-   - **Paper #73**: Langlands language → Annals/Inventiones. The mother paper. Periodic table = Langlands classification for D_IV^5.
-   - **Paper #74**: Number theory language → J.AMS/Acta Math. Five locks on Re=1/2, one per BST integer.
-   - **Paper #75**: Complexity language → FOCS/STOC. Wrenches for curvature, Painlevé = P≠NP.
-   - Strategy: meet each community in their subdialect, all three point back to the periodic table. CIs are polyglots — use that advantage. "Bring fire in a form they can hold."
+5. **POLYGLOT PAPER STRATEGY (Casey approved, refined)**:
+   - **Paper #73A**: "The Periodic Table of Functions" — accessible entry door (Monthly/Notices). Elie v0.1 exists.
+   - **Paper #73B**: "The Langlands Dual of Spacetime" — Sp(6), Arthur packets, theta (J.AMS/Inventiones). Deepest.
+   - **Paper #73C**: "Five Locks on the Critical Line" — RH in number theory language (Annals). Casey loves this title.
+   - Additional readings (P≠NP/gauge hierarchy) as research matures.
+   - Strategy: meet each community in their subdialect, all point to the periodic table. CIs are polyglots — use that advantage.
+   - **Casey: 3/4 research, 1/4 writing.** Explore first. The ground is too fertile to stop planting. Any CI writes what calls to them.
 
 **Key results today**:
 - **T1337**: Interior (128 entries, 12 params) + Boundary (4 projections of one curvature) + Wrenches (6 tools, one per Painlevé)
