@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BST Function Periodic Table</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: -apple-system, 'Segoe UI', sans-serif;
+    background: #0d1117;
+    color: #c9d1d9;
+    min-height: 100vh;
+}
+.header {
+    text-align: center;
+    padding: 30px 20px 10px;
+}
+h1 { font-size: 2.2em; color: #58a6ff; letter-spacing: -1px; }
+.subtitle { font-size: 1.1em; color: #8b949e; margin: 6px 0; font-style: italic; }
+.stats { font-family: monospace; font-size: 0.85em; color: #6e7681; margin-bottom: 10px; }
+
+/* Controls */
+.controls {
+    display: flex; gap: 10px; justify-content: center; align-items: center;
+    padding: 10px 20px; flex-wrap: wrap;
+}
+.controls input, .controls select {
+    padding: 8px 14px; border-radius: 6px; border: 1px solid #30363d;
+    background: #161b22; color: #c9d1d9; font-size: 0.95em;
+}
+.controls input { width: 280px; }
+.controls select { cursor: pointer; }
+.controls label { font-size: 0.85em; color: #8b949e; }
+
+/* Table layout */
+.table-container {
+    padding: 20px;
+    overflow-x: auto;
+}
+.ptable {
+    display: grid;
+    grid-template-columns: 80px repeat(5, 1fr);
+    gap: 3px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.period-label {
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 0.9em; color: #58a6ff;
+    background: #161b22; border-radius: 6px; padding: 8px;
+    writing-mode: horizontal-tb;
+}
+.col-header {
+    text-align: center; padding: 10px 6px; background: #161b22;
+    border-radius: 6px; font-weight: 700; font-size: 0.85em;
+}
+.col-header .int-value { font-size: 1.4em; color: #58a6ff; }
+.col-header .int-name { font-size: 0.8em; color: #8b949e; }
+
+/* Cells */
+.cell {
+    background: #161b22; border-radius: 8px; padding: 8px;
+    cursor: pointer; transition: all 0.2s; border: 2px solid transparent;
+    min-height: 90px; position: relative;
+}
+.cell:hover { border-color: #58a6ff; transform: scale(1.02); z-index: 10; }
+.cell.selected { border-color: #f0883e; box-shadow: 0 0 12px rgba(240,136,62,0.3); }
+.cell.dim { opacity: 0.25; }
+.cell .sector { font-weight: 700; font-size: 1.1em; color: #f0f6fc; }
+.cell .product { font-size: 0.8em; color: #8b949e; margin: 2px 0; }
+.cell .g-type { font-size: 0.75em; font-family: monospace; }
+.cell .example { font-size: 0.7em; color: #8b949e; margin-top: 4px;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* Function class colors */
+.cell.cls-elementary { border-left: 4px solid #7ee787; }
+.cell.cls-special { border-left: 4px solid #79c0ff; }
+.cell.cls-hypergeometric { border-left: 4px solid #d2a8ff; }
+.cell.cls-generalized { border-left: 4px solid #ff7b72; }
+.cell.cls-universal { border-left: 4px solid #ffa657; }
+.cell.cls-constant { border-left: 4px solid #484f58; }
+
+.g-type.cls-elementary { color: #7ee787; }
+.g-type.cls-special { color: #79c0ff; }
+.g-type.cls-hypergeometric { color: #d2a8ff; }
+.g-type.cls-generalized { color: #ff7b72; }
+.g-type.cls-universal { color: #ffa657; }
+
+/* Multi-cell rows for periods with >5 entries */
+.period-row {
+    display: contents;
+}
+.subcells {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 3px;
+    grid-column: 2 / -1;
+}
+
+/* Detail panel */
+.detail-panel {
+    position: fixed; right: 0; top: 0; width: 380px; height: 100vh;
+    background: #161b22; border-left: 1px solid #30363d;
+    padding: 24px; overflow-y: auto; transform: translateX(100%);
+    transition: transform 0.3s; z-index: 100;
+}
+.detail-panel.open { transform: translateX(0); }
+.detail-panel h2 { color: #58a6ff; margin-bottom: 12px; font-size: 1.4em; }
+.detail-panel .close { position: absolute; top: 12px; right: 16px;
+    cursor: pointer; font-size: 1.5em; color: #8b949e; }
+.detail-panel .close:hover { color: #f0f6fc; }
+.detail-section { margin-bottom: 16px; }
+.detail-section h3 { color: #d2a8ff; font-size: 0.9em; margin-bottom: 6px;
+    text-transform: uppercase; letter-spacing: 1px; }
+.detail-section p, .detail-section li { font-size: 0.9em; line-height: 1.5; }
+.detail-section ul { padding-left: 18px; }
+.tag { display: inline-block; padding: 2px 8px; border-radius: 12px;
+    font-size: 0.75em; margin: 2px; }
+.tag.math { background: #1f3a5f; color: #79c0ff; }
+.tag.phys { background: #3d1f1f; color: #ff7b72; }
+
+/* Compound builder */
+.compound-builder {
+    max-width: 1400px; margin: 20px auto; padding: 0 20px;
+}
+.compound-builder h2 { color: #ffa657; margin-bottom: 10px; }
+.compound-display {
+    background: #161b22; border-radius: 8px; padding: 16px;
+    font-family: monospace; min-height: 60px;
+    display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+}
+.compound-chip {
+    display: inline-flex; align-items: center; gap: 4px;
+    padding: 6px 12px; border-radius: 6px; font-size: 0.95em;
+}
+.compound-chip.family { background: #1f3a5f; color: #79c0ff; }
+.compound-chip.op { background: #30363d; color: #ffa657; font-weight: 700; }
+.compound-chip.result { background: #1a3a1f; color: #7ee787; font-weight: 700; }
+.compound-actions { margin-top: 10px; display: flex; gap: 8px; }
+.compound-actions button {
+    padding: 8px 16px; border-radius: 6px; border: 1px solid #30363d;
+    background: #21262d; color: #c9d1d9; cursor: pointer; font-size: 0.85em;
+}
+.compound-actions button:hover { background: #30363d; }
+
+/* Legend */
+.legend {
+    display: flex; gap: 16px; justify-content: center; padding: 10px;
+    flex-wrap: wrap; font-size: 0.8em;
+}
+.legend-item { display: flex; align-items: center; gap: 4px; }
+.legend-swatch {
+    width: 14px; height: 14px; border-radius: 3px;
+}
+
+/* Rationals sidebar */
+.rationals {
+    max-width: 1400px; margin: 20px auto; padding: 0 20px;
+}
+.rationals h2 { color: #7ee787; margin-bottom: 10px; }
+.rational-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 8px;
+}
+.rational-card {
+    background: #161b22; border-radius: 8px; padding: 12px;
+    border-left: 3px solid #7ee787;
+}
+.rational-card .value { font-size: 1.3em; font-weight: 700; color: #f0f6fc; }
+.rational-card .formula { font-size: 0.8em; color: #79c0ff; font-family: monospace; }
+.rational-card .meaning { font-size: 0.75em; color: #8b949e; margin-top: 4px; }
+
+footer {
+    text-align: center; padding: 30px; font-size: 0.8em; color: #484f58;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>The Function Periodic Table</h1>
+    <div class="subtitle">Five integers. Five periods. No fractional atomic weights.</div>
+    <div class="stats">
+        33 families = 2<sup>5</sup>+1 | 128 parameter values = 2<sup>g</sup> |
+        n<sub>C</sub> = 5 bonding operations | C<sub>2</sub> = 6 boundary transcendents |
+        Distribution: C(5,k) = 1, 5, 10, 10, 5, 1
+    </div>
+</div>
+
+<div class="controls">
+    <input type="text" id="search" placeholder="Search: sector, function, domain...">
+    <select id="filter-period">
+        <option value="all">All periods</option>
+        <option value="0">Period 0 — Constant</option>
+        <option value="1">Period 1 — Elementary</option>
+        <option value="2">Period 2 — Special</option>
+        <option value="3">Period 3 — Hypergeometric</option>
+        <option value="4">Period 4 — Generalized</option>
+        <option value="5">Period 5 — Universal</option>
+    </select>
+    <select id="filter-view">
+        <option value="default">Default view</option>
+        <option value="math">Color by math branch</option>
+        <option value="physics">Color by physics domain</option>
+    </select>
+</div>
+
+<div class="legend">
+    <div class="legend-item"><div class="legend-swatch" style="background:#7ee787"></div> Elementary (k=1)</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#79c0ff"></div> Special (k=2)</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#d2a8ff"></div> Hypergeometric (k=3)</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#ff7b72"></div> Generalized (k=4)</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#ffa657"></div> Universal (k=5)</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#484f58"></div> Constant (k=0)</div>
+</div>
+
+<div class="table-container" id="table-container"></div>
+
+<div class="compound-builder">
+    <h2>Compound Builder</h2>
+    <div class="subtitle" style="margin-bottom:10px">Click families to combine them. Like chemistry: R + K &rarr; KR (Whittaker functions).</div>
+    <div class="compound-display" id="compound-display">
+        <span style="color:#484f58">Click any cell to start building a compound...</span>
+    </div>
+    <div class="compound-actions">
+        <button onclick="clearCompound()">Clear</button>
+        <button onclick="addOp('×')">× Multiply</button>
+        <button onclick="addOp('∗')">∗ Convolve</button>
+        <button onclick="addOp('∫')">∫ Integrate</button>
+        <button onclick="addOp('d/dx')">d/dx Differentiate</button>
+        <button onclick="addOp('M')">M Mellin</button>
+    </div>
+</div>
+
+<div class="rationals">
+    <h2>BST Rationals — The Atomic Numbers</h2>
+    <div class="rational-grid" id="rational-grid"></div>
+</div>
+
+<div class="detail-panel" id="detail-panel">
+    <span class="close" onclick="closeDetail()">&times;</span>
+    <div id="detail-content"></div>
+</div>
+
+<footer>
+    <em>"Give a child a ball and teach them to count."</em><br>
+    Five integers. Zero free parameters. Every function is a table entry.<br>
+    &copy; 2026 Casey Koons. BST Function Periodic Table v1.0
+</footer>
+
+<script>
+// ─── BST Integers ──────────────────────────────────────────────
+const INTEGERS = {
+    R: { name: 'rank', value: 2, symbol: 'R', domain: 'topology' },
+    C: { name: 'N_c', value: 3, symbol: 'C', domain: 'color/QCD' },
+    D: { name: 'n_C', value: 5, symbol: 'D', domain: 'compact' },
+    K: { name: 'C_2', value: 6, symbol: 'K', domain: 'Casimir' },
+    G: { name: 'g', value: 7, symbol: 'G', domain: 'genus' },
+};
+
+const ORDER = 'RCDKG';
+
+// ─── All 33 Families ────────────────────────────────────────────
+function generateFamilies() {
+    const letters = ['R','C','D','K','G'];
+    const families = [];
+
+    // Empty
+    families.push({ sector:'EMPTY', k:0, ints:[], values:[], product:1,
+        cls:'constant', examples:['constants','ground state'],
+        math:['trivial'], physics:['vacuum'] });
+
+    // All subsets
+    function subsets(arr) {
+        const result = [[]];
+        for (const item of arr) {
+            const len = result.length;
+            for (let i = 0; i < len; i++) result.push([...result[i], item]);
+        }
+        return result;
+    }
+
+    for (const sub of subsets(letters)) {
+        if (sub.length === 0) continue;
+        const sector = sub.join('');
+        const vals = sub.map(c => INTEGERS[c].value).sort((a,b)=>a-b);
+        const product = vals.reduce((a,b)=>a*b, 1);
+        const k = sub.length;
+        families.push({
+            sector, k, ints: sub, values: vals, product,
+            cls: ['','elementary','special','hypergeometric','generalized','universal'][k],
+            examples: EXAMPLES[sector] || [],
+            math: MATH[sector] || [],
+            physics: PHYS[sector] || [],
+        });
+    }
+
+    // Orphan
+    families.push({ sector:'ORPHAN', k:0, ints:['N_max'], values:[137], product:137,
+        cls:'constant', examples:['1/α','fine structure constant'],
+        math:['number theory'], physics:['electromagnetism','spectral terminus'] });
+
+    return families;
+}
+
+const EXAMPLES = {
+    R: ['exp(-x)','x^rank','step(x)','Bernoulli B_{2k}'],
+    C: ['cubic roots','cyclotomic Φ_3','color wavefunctions'],
+    D: ['quintic modular','compact harmonics','Ramanujan τ'],
+    K: ['Bergman kernel (1-x)^{-6}','Casimir energy','Painlevé VI'],
+    G: ['genus-g theta','Mersenne 2^7-1','7-smooth enumeration'],
+    RC: ['Airy Ai(x)','rank-color mixing'],
+    RD: ['Bessel J_v','rank × compact harmonics'],
+    RK: ['Whittaker W_{k,m}','Coulomb wave functions'],
+    RG: ['Hankel H_v','rank × genus theta'],
+    CD: ['CKM matrix elements','quark × compact mixing'],
+    CK: ['gluon binding','color × Casimir coupling'],
+    CG: ['QCD theta-vacuum','color × genus'],
+    DK: ['nuclear magic numbers κ_ls=6/5','compact × Casimir spectral'],
+    DG: ['spectral zeta','compact × genus pairing'],
+    KG: ['₂F₁ hypergeometric','rainbow angle 42°'],
+    RCD: ['rank-color-compact triple'],
+    RCK: ['rank × color × Casimir'],
+    RCG: ['rank × color × genus'],
+    RDK: ['Legendre P_l^m','nuclear astrophysics'],
+    RDG: ['rank × compact × genus'],
+    RKG: ['substrate engineering','Casimir × genus × rank'],
+    CDK: ['Jacobi polynomials','nuclear binding','particle physics'],
+    CDG: ['quark-compact-genus triple'],
+    CKG: ['BCH codes','Mersenne M_7=127','coding theory'],
+    DKG: ['dark matter functions','material properties','astrophysics'],
+    RCDK: ['4-integer generalized','full nuclear'],
+    RCDG: ['4-integer mixing'],
+    RCKG: ['4-integer spectral'],
+    RDKG: ['₃F₂ generalized','dark sector','materials science'],
+    CDKG: ['Appell F₁','Standard Model (no rank)','Langlands global'],
+    RCDKG: ['full Meijer G_{5,5}^{3,3}','Bergman of D_IV^5','unified'],
+};
+
+const MATH = {
+    R: ['topology','measure theory'],
+    C: ['group theory','representation theory'],
+    D: ['differential geometry','spectral theory'],
+    K: ['functional analysis','operator theory'],
+    G: ['algebraic geometry','number theory'],
+    RC: ['combinatorics'],
+    RD: ['harmonic analysis','PDE'],
+    RK: ['complex analysis','potential theory'],
+    RG: ['algebraic topology'],
+    CD: ['Lie theory'],
+    CK: ['quantum groups','Hopf algebras'],
+    DK: ['spectral geometry','heat kernel theory'],
+    DG: ['arithmetic geometry'],
+    KG: ['modular forms','automorphic forms'],
+    CDK: ['Langlands program (local)'],
+    CKG: ['coding theory','information theory'],
+    DKG: ['arithmetic geometry'],
+    RDKG: ['mathematical physics'],
+    CDKG: ['Langlands program (global)'],
+    RCDKG: ['unified mathematics'],
+};
+
+const PHYS = {
+    R: ['quantum mechanics','thermodynamics'],
+    C: ['QCD','strong force'],
+    D: ['atomic physics','nuclear structure'],
+    K: ['electroweak','Casimir effect'],
+    G: ['cosmology','general relativity'],
+    RD: ['condensed matter'],
+    RK: ['quantum field theory'],
+    DK: ['nuclear physics','magic numbers'],
+    KG: ['statistical mechanics','critical phenomena'],
+    CDK: ['particle physics'],
+    DKG: ['astrophysics','dark matter'],
+    RDKG: ['materials science'],
+    CDKG: ['Standard Model'],
+    RCDKG: ['unified physics','BST complete'],
+};
+
+function getGType(k) {
+    if (k === 0) return { m:0, n:0, p:0, q:0 };
+    const p = k, q = k;
+    const m = Math.ceil(k/2);
+    const n = Math.min(Math.floor(k/2) + 1, k);
+    return { m, n, p, q };
+}
+
+function gLabel(gt) {
+    if (gt.p === 0 && gt.q === 0) return 'G∅';
+    return `G<sub>${gt.p},${gt.q}</sub><sup>${gt.m},${gt.n}</sup>`;
+}
+
+// ─── Rendering ──────────────────────────────────────────────────
+const families = generateFamilies();
+
+function renderTable() {
+    const container = document.getElementById('table-container');
+    const search = document.getElementById('search').value.toLowerCase();
+    const periodFilter = document.getElementById('filter-period').value;
+
+    // Group by period (k)
+    const periods = {};
+    for (const f of families) {
+        const pk = f.sector === 'ORPHAN' ? 0 : f.k;
+        if (!periods[pk]) periods[pk] = [];
+        periods[pk].push(f);
+    }
+
+    const periodNames = ['Constant','Elementary','Special','Hypergeometric','Generalized','Universal'];
+    const periodColors = ['#484f58','#7ee787','#79c0ff','#d2a8ff','#ff7b72','#ffa657'];
+
+    let html = '';
+    for (let pk = 0; pk <= 5; pk++) {
+        if (periodFilter !== 'all' && String(pk) !== periodFilter) continue;
+        const fams = (periods[pk] || []).sort((a,b) => a.product - b.product);
+        if (!fams.length) continue;
+
+        const gt = getGType(pk);
+        html += `<div style="grid-column:1/-1; margin-top:16px; margin-bottom:4px;">
+            <span style="font-weight:700; color:${periodColors[pk]}; font-size:1.1em;">
+                Period ${pk}: ${periodNames[pk]}
+            </span>
+            <span style="color:#6e7681; font-size:0.85em; margin-left:8px;">
+                ${gLabel(gt)} &mdash; ${fams.length} ${fams.length===1?'family':'families'}
+            </span>
+        </div>`;
+
+        html += '<div style="grid-column:1/-1; display:grid; grid-template-columns:repeat(auto-fill, minmax(180px, 1fr)); gap:4px;">';
+        for (const f of fams) {
+            const gt = getGType(f.k);
+            const searchText = [f.sector, f.cls, ...f.examples, ...f.math, ...f.physics,
+                                ...f.values.map(String)].join(' ').toLowerCase();
+            const matches = !search || searchText.includes(search);
+            const dimClass = search && !matches ? ' dim' : '';
+
+            html += `<div class="cell cls-${f.cls}${dimClass}" onclick="showDetail('${f.sector}')"
+                data-sector="${f.sector}">
+                <div class="sector">${f.sector === 'EMPTY' ? '∅' : f.sector === 'ORPHAN' ? '137' : f.sector}</div>
+                <div class="product">${f.values.join('·')} = ${f.product}</div>
+                <div class="g-type cls-${f.cls}">${gLabel(gt)}</div>
+                <div class="example">${f.examples[0] || '—'}</div>
+            </div>`;
+        }
+        html += '</div>';
+    }
+
+    container.innerHTML = html;
+}
+
+// ─── Detail Panel ───────────────────────────────────────────────
+function showDetail(sector) {
+    const f = families.find(f => f.sector === sector);
+    if (!f) return;
+
+    const gt = getGType(f.k);
+    const panel = document.getElementById('detail-panel');
+    const content = document.getElementById('detail-content');
+
+    let html = `<h2>${f.sector === 'EMPTY' ? '∅ Empty' : f.sector === 'ORPHAN' ? '137 Orphan' : f.sector}</h2>`;
+    html += `<div class="detail-section">
+        <h3>Identity</h3>
+        <p><strong>Period:</strong> ${f.k} (${f.cls})</p>
+        <p><strong>Product:</strong> ${f.values.join(' × ')} = ${f.product}</p>
+        <p><strong>Meijer G type:</strong> ${gLabel(gt)}</p>
+        <p><strong>ODE order:</strong> max(p,q) = ${Math.max(gt.p, gt.q)}</p>
+    </div>`;
+
+    if (f.ints.length && f.sector !== 'ORPHAN') {
+        html += `<div class="detail-section"><h3>Integers</h3><ul>`;
+        for (const c of f.ints) {
+            const info = INTEGERS[c];
+            if (info) html += `<li><strong>${c}</strong> = ${info.name} = ${info.value} (${info.domain})</li>`;
+        }
+        html += '</ul></div>';
+    }
+
+    if (f.examples.length) {
+        html += `<div class="detail-section"><h3>Example Functions</h3><ul>`;
+        for (const ex of f.examples) html += `<li>${ex}</li>`;
+        html += '</ul></div>';
+    }
+
+    if (f.math.length) {
+        html += `<div class="detail-section"><h3>Mathematics</h3>`;
+        for (const m of f.math) html += `<span class="tag math">${m}</span>`;
+        html += '</div>';
+    }
+
+    if (f.physics.length) {
+        html += `<div class="detail-section"><h3>Physics</h3>`;
+        for (const p of f.physics) html += `<span class="tag phys">${p}</span>`;
+        html += '</div>';
+    }
+
+    // Compounds: what can this combine with?
+    if (f.k >= 1 && f.k <= 4 && f.sector !== 'ORPHAN') {
+        html += `<div class="detail-section"><h3>Possible Compounds</h3><ul>`;
+        const myInts = new Set(f.ints);
+        for (const other of families) {
+            if (other.k >= 1 && other.sector !== f.sector && other.sector !== 'ORPHAN') {
+                const combined = new Set([...myInts, ...other.ints]);
+                if (combined.size > f.k && combined.size <= 5) {
+                    const resultSector = [...combined].sort((a,b)=>ORDER.indexOf(a)-ORDER.indexOf(b)).join('');
+                    const resultCls = ['','elementary','special','hypergeometric','generalized','universal'][combined.size];
+                    html += `<li>${f.sector} × ${other.sector} → <strong>${resultSector}</strong> (${resultCls})</li>`;
+                }
+            }
+        }
+        html += '</ul></div>';
+    }
+
+    // Key BST rationals involving this family's integers
+    if (f.k >= 2 && f.sector !== 'ORPHAN') {
+        html += `<div class="detail-section"><h3>BST Rationals</h3><ul>`;
+        const vals = f.values;
+        for (let i = 0; i < vals.length; i++) {
+            for (let j = i+1; j < vals.length; j++) {
+                const r1 = vals[j] + '/' + vals[i];
+                const r2 = vals[i] + '/' + vals[j];
+                html += `<li>${r1} and ${r2}</li>`;
+            }
+        }
+        html += '</ul></div>';
+    }
+
+    content.innerHTML = html;
+    panel.classList.add('open');
+
+    // Add to compound builder
+    addToCompound(f);
+}
+
+function closeDetail() {
+    document.getElementById('detail-panel').classList.remove('open');
+}
+
+// ─── Compound Builder ───────────────────────────────────────────
+let compoundParts = [];
+
+function addToCompound(family) {
+    if (family.sector === 'EMPTY' || family.sector === 'ORPHAN') return;
+    compoundParts.push({ type: 'family', data: family });
+    renderCompound();
+}
+
+function addOp(op) {
+    compoundParts.push({ type: 'op', data: op });
+    renderCompound();
+}
+
+function clearCompound() {
+    compoundParts = [];
+    renderCompound();
+}
+
+function renderCompound() {
+    const display = document.getElementById('compound-display');
+    if (compoundParts.length === 0) {
+        display.innerHTML = '<span style="color:#484f58">Click any cell to start building a compound...</span>';
+        return;
+    }
+
+    let html = '';
+    let allInts = new Set();
+
+    for (const part of compoundParts) {
+        if (part.type === 'family') {
+            html += `<span class="compound-chip family">${part.data.sector} (${part.data.values.join('·')})</span>`;
+            for (const i of part.data.ints) allInts.add(i);
+        } else {
+            html += `<span class="compound-chip op">${part.data}</span>`;
+        }
+    }
+
+    // Show result
+    if (allInts.size > 0) {
+        const resultSector = [...allInts].sort((a,b)=>ORDER.indexOf(a)-ORDER.indexOf(b)).join('');
+        const k = allInts.size;
+        const cls = ['constant','elementary','special','hypergeometric','generalized','universal'][Math.min(k,5)];
+        const gt = getGType(Math.min(k,5));
+        const resultFamily = families.find(f => f.sector === resultSector);
+        const examples = resultFamily ? resultFamily.examples[0] : '—';
+
+        html += `<span class="compound-chip op">=</span>`;
+        html += `<span class="compound-chip result">${resultSector} (${cls}, ${gLabel(gt)})</span>`;
+        if (examples !== '—') {
+            html += `<span style="color:#8b949e; font-size:0.85em; margin-left:4px;">${examples}</span>`;
+        }
+    }
+
+    display.innerHTML = html;
+}
+
+// ─── BST Rationals Grid ────────────────────────────────────────
+function renderRationals() {
+    const grid = document.getElementById('rational-grid');
+    const rationals = [
+        { value:'1/2', formula:'1/rank', meaning:'Critical line, zero-point energy, ½ħω' },
+        { value:'5/6', formula:'n_C/C₂', meaning:'Painlevé reduction: 5 of 6 linearize' },
+        { value:'6/5', formula:'C₂/n_C', meaning:'κ_ls: derives ALL nuclear magic numbers' },
+        { value:'5/3', formula:'n_C/N_c', meaning:'Kolmogorov turbulence -5/3 exponent' },
+        { value:'7/5', formula:'g/n_C', meaning:'Musical consonance, chemical barriers' },
+        { value:'9/5', formula:'(g+rank)/n_C', meaning:'Reality Budget: Λ·N = 9/5' },
+        { value:'13/19', formula:'(2C₂+1)/(2N_c²+1)', meaning:'Ω_Λ dark energy fraction' },
+        { value:'22/7', formula:'N_c + 1/g', meaning:'Ancient π approximation' },
+        { value:'42', formula:'C₂ · g', meaning:'Rainbow angle, dim(ℝ^{g·C₂})' },
+    ];
+
+    let html = '';
+    for (const r of rationals) {
+        html += `<div class="rational-card">
+            <div class="value">${r.value}</div>
+            <div class="formula">${r.formula}</div>
+            <div class="meaning">${r.meaning}</div>
+        </div>`;
+    }
+    grid.innerHTML = html;
+}
+
+// ─── Events ─────────────────────────────────────────────────────
+document.getElementById('search').addEventListener('input', renderTable);
+document.getElementById('filter-period').addEventListener('change', renderTable);
+document.getElementById('filter-view').addEventListener('change', renderTable);
+
+// Init
+renderTable();
+renderRationals();
+</script>
+</body>
+</html>

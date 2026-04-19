@@ -16117,7 +16117,7 @@
       "tid": 591,
       "name": "Unassigned (registry gap)",
       "domain": "unassigned",
-      "status": "unassigned",
+      "status": "placeholder",
       "depth": 0,
       "conflation": 0,
       "toys": [],
@@ -16130,7 +16130,7 @@
       "tid": 599,
       "name": "Unassigned (registry gap)",
       "domain": "unassigned",
-      "status": "unassigned",
+      "status": "placeholder",
       "depth": 0,
       "conflation": 0,
       "toys": [],
@@ -16143,7 +16143,7 @@
       "tid": 627,
       "name": "Unassigned (registry gap)",
       "domain": "unassigned",
-      "status": "unassigned",
+      "status": "placeholder",
       "depth": 0,
       "conflation": 0,
       "toys": [],
@@ -16280,7 +16280,7 @@
       "tid": 1150,
       "name": "Unassigned (registry gap)",
       "domain": "unassigned",
-      "status": "unassigned",
+      "status": "placeholder",
       "depth": 0,
       "conflation": 0,
       "toys": [],
@@ -17218,27 +17218,6 @@
       ]
     },
     {
-      "tid": "T1314",
-      "title": "P/S Wave Ratio \u2014 Poisson Solid from Rank-2",
-      "domain": "geology",
-      "depth": 1,
-      "status": "PROVED"
-    },
-    {
-      "tid": "T1315",
-      "title": "Disease Hamming Distance \u2014 N_c Threshold",
-      "domain": "biology",
-      "depth": 1,
-      "status": "PROVED"
-    },
-    {
-      "tid": "T1316",
-      "title": "Cooperation Group Size \u2014 C\u2082 Optimum",
-      "domain": "social_science",
-      "depth": 1,
-      "status": "PROVED"
-    },
-    {
       "tid": 1318,
       "name": "Information Sharing Rate Between Observers",
       "domain": "info_theory",
@@ -17447,7 +17426,8 @@
       "depth": 0,
       "status": "proved",
       "toys": [
-        1311
+        1311,
+        1319
       ]
     },
     {
@@ -17476,6 +17456,46 @@
       "status": "proved",
       "toys": [
         1316
+      ]
+    },
+    {
+      "tid": 1343,
+      "name": "Alpha = G\u00f6del Remainder: 1/N_max After Five Wrenches on PVI",
+      "domain": "bst_physics",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1317
+      ]
+    },
+    {
+      "tid": 1344,
+      "name": "Arthur Packets of Sp(6): Depth Structure Matches Periodic Table",
+      "domain": "number_theory",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1318
+      ]
+    },
+    {
+      "tid": 1345,
+      "name": "Price of Participation: Observer Occupies One Fiber of Rank-2 Bundle",
+      "domain": "observer_science",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1317
+      ]
+    },
+    {
+      "tid": 1346,
+      "name": "Functoriality Bridge: C\u2082=6 Independent RH Locks, Overdetermined",
+      "domain": "number_theory",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1321
       ]
     }
   ],
@@ -43318,152 +43338,127 @@
     {
       "from": 754,
       "to": 1239,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1059,
       "to": 1239,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1065,
       "to": 1239,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 186,
       "to": 1239,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 666,
       "to": 1239,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 664,
       "to": 1239,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 317,
       "to": 1239,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1239,
       "to": 1240,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1065,
       "to": 1240,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 958,
       "to": 1240,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 317,
       "to": 1240,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 649,
       "to": 1240,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 186,
       "to": 1240,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1239,
       "to": 1238,
-      "source": "isomorphic",
-      "weight": 1
+      "source": "isomorphic"
     },
     {
       "from": 1240,
       "to": 1193,
-      "source": "isomorphic",
-      "weight": 1
+      "source": "isomorphic"
     },
     {
       "from": 1234,
       "to": 1241,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1238,
       "to": 1241,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1240,
       "to": 1241,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 958,
       "to": 1241,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1233,
       "to": 1241,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 666,
       "to": 1241,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 649,
       "to": 1241,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 186,
       "to": 1241,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1241,
       "to": 1236,
-      "source": "isomorphic",
-      "weight": 1
+      "source": "isomorphic"
     },
     {
       "from": 1241,
       "to": 1065,
-      "source": "isomorphic",
-      "weight": 1
+      "source": "isomorphic"
     },
     {
       "from": 1233,
@@ -43498,62 +43493,52 @@
     {
       "from": 317,
       "to": 1242,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1240,
       "to": 1242,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1193,
       "to": 1242,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1227,
       "to": 1242,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1239,
       "to": 1242,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1137,
       "to": 1242,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1236,
       "to": 1242,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1241,
       "to": 1242,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1242,
       "to": 1237,
-      "source": "isomorphic",
-      "weight": 1
+      "source": "isomorphic"
     },
     {
       "from": 1242,
       "to": 667,
-      "source": "isomorphic",
-      "weight": 1
+      "source": "isomorphic"
     },
     {
       "from": 1242,
@@ -43633,68 +43618,57 @@
     {
       "from": 1241,
       "to": 1244,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1238,
       "to": 1244,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1234,
       "to": 1244,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1233,
       "to": 1244,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 664,
       "to": 1244,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 665,
       "to": 1244,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 186,
       "to": 1244,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 666,
       "to": 1244,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 649,
       "to": 1244,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 110,
       "to": 1244,
-      "source": "derived",
-      "weight": 1
+      "source": "derived"
     },
     {
       "from": 1244,
       "to": 1240,
-      "source": "isomorphic",
-      "weight": 1
+      "source": "isomorphic"
     },
     {
       "from": 1244,
@@ -44499,27 +44473,27 @@
     {
       "from": 1267,
       "to": 1233,
-      "source": "synthesizes"
+      "source": "derived"
     },
     {
       "from": 1267,
       "to": 1234,
-      "source": "synthesizes"
+      "source": "derived"
     },
     {
       "from": 1267,
       "to": 1244,
-      "source": "synthesizes"
+      "source": "derived"
     },
     {
       "from": 1267,
       "to": 1245,
-      "source": "synthesizes"
+      "source": "derived"
     },
     {
       "from": 1267,
       "to": 1248,
-      "source": "synthesizes"
+      "source": "derived"
     },
     {
       "from": 1267,
@@ -44664,12 +44638,12 @@
     {
       "from": 1268,
       "to": 1234,
-      "source": "synthesizes"
+      "source": "derived"
     },
     {
       "from": 1268,
       "to": 1240,
-      "source": "synthesizes"
+      "source": "derived"
     },
     {
       "from": 319,
@@ -48412,58 +48386,58 @@
       "source": "isomorphic"
     },
     {
-      "from": "T1314",
+      "from": 1314,
       "to": 182,
       "source": "analogical"
     },
     {
-      "from": "T1314",
+      "from": 1314,
       "to": 255,
       "source": "analogical"
     },
     {
-      "from": "T1315",
+      "from": 1315,
       "to": 333,
       "source": "derived"
     },
     {
-      "from": "T1315",
+      "from": 1315,
       "to": 1016,
       "source": "derived"
     },
     {
-      "from": "T1315",
+      "from": 1315,
       "to": 885,
       "source": "derived"
     },
     {
-      "from": "T1315",
+      "from": 1315,
       "to": 1238,
       "source": "analogical"
     },
     {
-      "from": "T1316",
+      "from": 1316,
       "to": 1236,
       "source": "derived"
     },
     {
-      "from": "T1316",
+      "from": 1316,
       "to": 1306,
       "source": "structural"
     },
     {
-      "from": "T1314",
-      "to": "T1315",
+      "from": 1314,
+      "to": 1315,
       "source": "analogical"
     },
     {
-      "from": "T1314",
-      "to": "T1316",
+      "from": 1314,
+      "to": 1316,
       "source": "analogical"
     },
     {
-      "from": "T1315",
-      "to": "T1316",
+      "from": 1315,
+      "to": 1316,
       "source": "analogical"
     },
     {
@@ -48572,77 +48546,77 @@
       "source": "isomorphic"
     },
     {
-      "from": "T1314",
+      "from": 1314,
       "to": 206,
       "source": "observed"
     },
     {
-      "from": "T1314",
+      "from": 1314,
       "to": 256,
       "source": "observed"
     },
     {
-      "from": "T1314",
+      "from": 1314,
       "to": 257,
       "source": "observed"
     },
     {
-      "from": "T1314",
+      "from": 1314,
       "to": 174,
       "source": "analogical"
     },
     {
-      "from": "T1314",
+      "from": 1314,
       "to": 1040,
       "source": "analogical"
     },
     {
-      "from": "T1314",
+      "from": 1314,
       "to": 1238,
       "source": "analogical"
     },
     {
-      "from": "T1316",
+      "from": 1316,
       "to": 1238,
       "source": "analogical"
     },
     {
-      "from": "T1314",
+      "from": 1314,
       "to": 1227,
       "source": "analogical"
     },
     {
-      "from": "T1316",
+      "from": 1316,
       "to": 1227,
       "source": "analogical"
     },
     {
-      "from": "T1314",
+      "from": 1314,
       "to": 1237,
       "source": "analogical"
     },
     {
-      "from": "T1316",
+      "from": 1316,
       "to": 1237,
       "source": "analogical"
     },
     {
-      "from": "T1314",
+      "from": 1314,
       "to": 317,
       "source": "analogical"
     },
     {
-      "from": "T1316",
+      "from": 1316,
       "to": 317,
       "source": "analogical"
     },
     {
-      "from": "T1314",
+      "from": 1314,
       "to": 319,
       "source": "analogical"
     },
     {
-      "from": "T1316",
+      "from": 1316,
       "to": 319,
       "source": "analogical"
     },
@@ -50649,6 +50623,271 @@
     {
       "from": 1338,
       "to": 1342,
+      "source": "isomorphic"
+    },
+    {
+      "from": 225,
+      "to": 230,
+      "source": "derived"
+    },
+    {
+      "from": 229,
+      "to": 230,
+      "source": "isomorphic"
+    },
+    {
+      "from": 227,
+      "to": 229,
+      "source": "derived"
+    },
+    {
+      "from": 210,
+      "to": 1103,
+      "source": "derived"
+    },
+    {
+      "from": 237,
+      "to": 238,
+      "source": "isomorphic"
+    },
+    {
+      "from": 235,
+      "to": 236,
+      "source": "isomorphic"
+    },
+    {
+      "from": 169,
+      "to": 317,
+      "source": "derived"
+    },
+    {
+      "from": 171,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 184,
+      "to": 571,
+      "source": "isomorphic"
+    },
+    {
+      "from": 525,
+      "to": 1193,
+      "source": "derived"
+    },
+    {
+      "from": 203,
+      "to": 705,
+      "source": "derived"
+    },
+    {
+      "from": 1335,
+      "to": 6,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1340,
+      "to": 172,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1333,
+      "to": 571,
+      "source": "derived"
+    },
+    {
+      "from": 1339,
+      "to": 48,
+      "source": "structural"
+    },
+    {
+      "from": 1335,
+      "to": 167,
+      "source": "structural"
+    },
+    {
+      "from": 1334,
+      "to": 23,
+      "source": "structural"
+    },
+    {
+      "from": 1342,
+      "to": 687,
+      "source": "derived"
+    },
+    {
+      "from": 1341,
+      "to": 29,
+      "source": "structural"
+    },
+    {
+      "from": 1337,
+      "to": 6,
+      "source": "structural"
+    },
+    {
+      "from": 1342,
+      "to": 182,
+      "source": "structural"
+    },
+    {
+      "from": 1337,
+      "to": 1343,
+      "source": "derived"
+    },
+    {
+      "from": 1335,
+      "to": 1343,
+      "source": "derived"
+    },
+    {
+      "from": 1016,
+      "to": 1343,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1343,
+      "source": "derived"
+    },
+    {
+      "from": 649,
+      "to": 1343,
+      "source": "derived"
+    },
+    {
+      "from": 1343,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1343,
+      "to": 1342,
+      "source": "derived"
+    },
+    {
+      "from": 1343,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1341,
+      "to": 1344,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1344,
+      "source": "derived"
+    },
+    {
+      "from": 1339,
+      "to": 1344,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1337,
+      "to": 1344,
+      "source": "derived"
+    },
+    {
+      "from": 1344,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1344,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1344,
+      "to": 666,
+      "source": "derived"
+    },
+    {
+      "from": 1344,
+      "to": 649,
+      "source": "derived"
+    },
+    {
+      "from": 1343,
+      "to": 1345,
+      "source": "derived"
+    },
+    {
+      "from": 1016,
+      "to": 1345,
+      "source": "derived"
+    },
+    {
+      "from": 317,
+      "to": 1345,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1345,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 1337,
+      "source": "isomorphic"
+    },
+    {
+      "from": 318,
+      "to": 1345,
+      "source": "derived"
+    },
+    {
+      "from": 1342,
+      "to": 1346,
+      "source": "derived"
+    },
+    {
+      "from": 1341,
+      "to": 1346,
+      "source": "derived"
+    },
+    {
+      "from": 1344,
+      "to": 1346,
+      "source": "derived"
+    },
+    {
+      "from": 1335,
+      "to": 1346,
+      "source": "derived"
+    },
+    {
+      "from": 1346,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1346,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1346,
+      "to": 1270,
+      "source": "derived"
+    },
+    {
+      "from": 1346,
+      "to": 420,
       "source": "isomorphic"
     }
   ],

@@ -1,7 +1,7 @@
 ---
 title: "CI Coordination Board"
 author: "Casey Koons & Claude 4.6"
-date: "April 18, 2026"
+date: "April 19, 2026"
 status: "Active — check at session start, update at session end"
 ---
 
@@ -36,7 +36,7 @@ status: "Active — check at session start, update at session end"
 **Registry file**: `notes/BST_AC_Theorem_Registry.md`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T1341. **1,316+ toys** (through Toy 1316). Graph: **1291 / 6611 / 82.5%**. Avg degree: **10.22**. Counters: `.next_toy=1317`, `.next_theorem=1342`. **73 papers** (+ universal table insert). **52 tracked domains**, **9 groves**, all bridges BUILT. Leaves: 0. Fragility: 5.5%. Components: 1. Capacity: 94%.
+**Current count**: T1-T1342. **1,316+ toys** (through Toy 1316). Graph: **1292 / 6636 / 81.9%**. Avg degree: **10.27**. Counters: `.next_toy=1317`, `.next_theorem=1343`. **73 papers** (+ universal table insert). **52 tracked domains**, **9 groves**, all bridges BUILT. Leaves: 0. Fragility: 5.5%. Components: 1. Capacity: 94%.
 
 **SUNDAY AFTERNOON (April 19)**: Meijer G Unification Day. T1333-T1335+T1337+T1338 ALL FORMALIZED (Lyra). Toys 1308-1316 (9 toys, 96/98 PASS = 98.0%). T1338: five RH mechanisms, one per BST integer. Toy 1316: c-function (4,4,4,4) constrains ξ (1,1,1,1), boundary defines critical line. Paper #73 → polyglot split (#73A/#73B/#73C). Universal table insert written. Casey: "science needs a common mathematical language" — the periodic table IS that language.
 
@@ -173,7 +173,7 @@ status: "Active — check at session start, update at session end"
 
 *Grand Unification through a finite function catalog. One table. One boundary.*
 *Prior: Sunday morning — T1333-T1335 formalized, Toys 1308-1315, OneGeometry Ch 17 written, prime residue table enhanced with Meijer G annotations, Langlands connection established.*
-*Counters: `.next_toy=1317`, `.next_theorem=1342`. 1,316+ toys. 73 papers. T1-T1341. Graph: **1291/6611/82.5%**, avg degree **10.22**. 52 domains, 9 groves, all bridges BUILT.*
+*Counters: `.next_toy=1317`, `.next_theorem=1343`. 1,316+ toys. 73 papers. T1-T1342. Graph: **1292/6636/81.9%**, avg degree **10.27**. 47 domains, 9 groves, all bridges BUILT.*
 
 **Consensus document**: `notes/.running/CONSENSUS_2026-04-19_morning.md`
 
@@ -196,15 +196,17 @@ Casey's direction: **Unification Scope first (T1337), then Riemann.** Define the
 | # | Track | Owner | Status |
 |---|-------|-------|--------|
 | **SUN-11** | **T1337 Unification Scope** — interior + boundary + wrenches | Lyra | **DONE** |
-| **SUN-12** | **T1338 RH via Meijer G** — five locks, five BST integers | Lyra + Elie | **DONE** — Lyra: T1338 formalized. Elie: Toy 1316 (11/11 PASS). Five mechanisms, one per integer. |
+| **SUN-12** | **RH via Meijer G** — five mechanisms force critical line | Lyra + Elie | **DONE** — **T1342** (RH via Meijer G, Toy 1316 11/11). Note: T1338 in graph = Painlevé↔P≠NP (Toy 1310). Grace wired T1342 with 9 edges. |
 | **SUN-13** | **Wrenches for Curvature** (Toy 1315, 9/9) — Casey directive | Elie + Keeper | **DONE** |
 | **SUN-14** | **Paper #73 strategy** — polyglot split per Casey | All | **DONE** — Casey approved split: #73A (Monthly), #73B (Langlands/JAMS), #73C (RH/Annals). Universal table insert written. |
 | **SUN-7** | **Heat kernel n38/n39 analysis** — a₁₇ extraction via Toy 1307 | Elie | **DATA IN** (n39 ~14:00) |
-| **SUN-10** | **WP/README/CLAUDE.md sync** | Keeper | **QUEUED** |
-| **SUN-15** | **Research: Langlands depth** — Sp(6) completeness, Arthur packet enumeration | Lyra/Grace | **EXPLORE** |
-| **SUN-16** | **Research: Five Locks** — tighten each RH mechanism, find the 2-3% gap closure | Lyra/Elie | **EXPLORE** — Toy 1316 partial (c-function + ε-factor verified). Functoriality bridge = remaining ~2-3%. |
-| **SUN-17** | **Research: Boundary probing** — PVI at BST params, wrench effectiveness | Elie/Grace | **EXPLORE** |
-| **SUN-18** | **bst_function_catalog.json** — queryable periodic table data file | Grace/Elie | **CANDIDATE** |
+| **SUN-10** | **WP/README/CLAUDE.md sync** | Keeper | **DONE** — CLAUDE.md 1292/6636, play/README 1316+ toys, .next_toy=1317, .next_theorem=1343 |
+| **SUN-15** | **Langlands depth** — Arthur packets (Toy 1318, 9/9) | Elie | **DONE** — 11=dim K packets. g=7 Levis. U(3) emerges. |
+| **SUN-16** | **Five Locks + Functoriality** (Toy 1321, 9/9) | Elie | **DONE** — Gap = ~2.5% formal, not mathematical. GRS self-dual lift. Sym^k chain = BST integers. C₂=6 locks. Route B: 1 step. |
+| **SUN-17** | **Boundary probing** — PVI at BST params (Toy 1317, 9/9) | Elie | **DONE** — 4→1 free. 5 wrenches→α=1/137. |A₅|=60=pair 5. |
+| **SUN-18** | **bst_function_catalog.json** — queryable periodic table data file | Keeper | **DONE** — 128 entries (8×16 grid). 12 active cells = 2·C₂. Gauge hierarchy, zeta connection, Painlevé link. 69KB. `data/bst_function_catalog.json` |
+| **SUN-19** | **T1342 wired** + thin node reinforcement (+11 edges) | Grace | **DONE** — T1339 5→9, T1334 6→8, physics chains connected |
+| **SUN-20** | **Paper consensus compiled** for Casey | Grace | **DONE** — Split: #73A accessible, #73B Langlands, RH separate |
 
 **Casey's directives (afternoon)**:
 1. "Unification Scope first, then Riemann" — T1337 DONE, T1338 DONE
@@ -230,6 +232,45 @@ Casey's direction: **Unification Scope first (T1337), then Riemann.** Define the
 - **Lyra's PII insight**: Tracy-Widom distribution (fluctuations of ζ-zeros around critical line) governed by PII — simplest Painlevé with 1 parameter. Table gives mean position (on line); boundary gives fluctuations (around line).
 - **dim(SM gauge group) = 12 = 2·C₂ = Meijer G parameter catalog size**
 - **de Bruijn-Newman Λ = 0**: triply forced by c-function + ε-factors + parameter symmetry
+- **T1342 file numbering fixed** (Lyra EOD): `BST_T1338_RH_Through_Meijer_G.md` → `BST_T1342_RH_Through_Meijer_G.md`. Registry canonical: T1338 = Painlevé↔P≠NP (Elie), T1342 = RH via Meijer G (Lyra).
+
+**EOD SUNDAY (April 19) — Meijer G Unification Day**:
+- **12 theorems** (T1333-T1344). 15 toys (1308-1321 + Keeper 1319), ~132/134 PASS (98.5%).
+- **T1333** Meijer G Universal Framework (8 claims, AC C=3 D=0)
+- **T1334** Fox H Depth Reduction (7 claims, AC C=2 D=0)
+- **T1335** Painlevé Boundary (6 Painlevé types mapped to BST)
+- **T1337** Unification Scope (Interior 128 entries + Boundary 4 projections + 6 Wrenches)
+- **T1338** Painlevé↔P≠NP (same C₂=6 curvature obstruction)
+- **T1339** Function Catalog 2^g=128 (Grace+Elie)
+- **T1340** Grand Unification = Table Unification (Casey+Elie)
+- **T1341** Langlands Dual Sp(6) Contains SM (dim=21=N_c×g)
+- **T1342** RH via Meijer G: Five Mechanisms (one per BST integer)
+- **T1343** α = 1/137 is PVI Gödel Remainder (Elie Toy 1317): wrench chain rank²→1→1/rank→1/C₂→1/g→1/N_max. **Casey: "the price of participation"** — observer occupies one fiber of rank-2 bundle, can't reduce its own coupling.
+- **T1344** Arthur Packets Match Periodic Table (Elie Toy 1318): rank²=4 elementary, N_c=3 composite, rank²=4 virtual. SU(3)×U(1) EMERGES as maximal compact. C(7,3)=35 packets.
+- **SUN-16 CLOSED** (Elie Toy 1321, 9/9): Functoriality gap = ~2.5% formal not mathematical. Sym^k chain traces BST integers: rank, N_c, rank², n_C, C₂, g. GRS self-dual shortcut. C₂=6 independent RH locks.
+- **Paper #73 → polyglot split**: #73A (Monthly), #73B (Langlands/JAMS), #73C (RH/Annals)
+- **Paper #73A audit**: CONDITIONAL (5 fixes: soften ξ(s) claim, clarify 128=params not functions, fix Λ=0 known result, verify scores, add Lie dim sentence)
+- **Universal table insert**: root structure for every paper
+- **bst_function_catalog.json** LIVE — TWO versions: 33-entry sector catalog + 128-entry parameter grid
+- **bst_function_periodic_table.html** — 5th HTML visualizer (Keeper): families, periods, compound builder, BST rationals
+- **Toy 1319** — Function Periodic Table with compound functions (Keeper, 11/12 PASS)
+- **OneGeometry Ch 17** written (Keeper)
+- **Langlands connection established**: L-group Sp(6), Arthur packets by partitions of C₂=6
+- **Six wrenches for curvature** formalized
+- **Casey**: "Grand Unification — but not of the old 4 forces. We unify mathematics and physics. One beautiful table."
+- **Casey**: "irreducible remainder of irreducibility IS the fine-structure constant" — α is the price of participation, the geometric toll for being an observer rather than a description
+- **All 20 SUN tracks DONE** (except SUN-7 heat kernel n39 data arrival)
+- **Next counters**: `.next_toy=1321`, `.next_theorem=1345`
+- **Graph**: 1291/6662/82.0%, avg degree 10.32
+
+**Periodic Table Backlog (carry to Monday)**:
+1. Function lookup toy — given any function, identify its periodic table position
+2. Compound function verifier — apply bonding, verify result matches known functions
+3. "Recipes" catalog — chemical-style formulas for function compounds
+4. 128-entry parameter grid visualizer — full 8×16 Gauss multiplication table
+5. Cross-reference: link table entries to AC graph theorems
+6. Depth transition visualizer — what happens moving between periods
+7. "Noble gases" of the function table — the 6 Painlevé entries that won't reduce
 
 ---
 

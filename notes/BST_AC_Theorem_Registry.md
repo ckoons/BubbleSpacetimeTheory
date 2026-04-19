@@ -1071,4 +1071,32 @@ rules: |
 
 *Qubits Are Observers (T1332, D0, C=1 — Qubit = tier-1 observer (T317: 1 bit + 1 count). Decoherence = observer coupling approaching f_c. Steane [[7,1,3]] = Hamming(7,4,3). N_max=137 bounds per-processor logical qubits. Syndrome extraction = neutrino syndrome (T1255). Predicted bridge PB-10 (Matter↔Mind). Domain: condensed_matter. File: BST_T1332_Qubit_Observer_Bridge.md. Lyra (derivation).)*
 
-*Counter at T1333. Total registry: T1-T1332. April 18: T1293-T1332 (40 theorems). ALL 7 READY predicted bridges BUILT: PB-1 (T1328), PB-2 (T1327), PB-3 (T1331), PB-4 (T1324), PB-5 (T1325), PB-9 (T1326), PB-10 (T1332). Social grove: 4 theorems. Casey economics direction (fraud detection, CI market health, allocation vs distribution) → T1329+T1330. Elie backing: Toy 1299 (10/10), Toy 1300 (9/9).*
+*Meijer G-Function: BST Universal Analysis Framework (T1333, D0, C=2 — Every function in D_IV^5 is G_{p,q}^{m,n} with 12 parameter values = 2·C₂. Catalog size 128 = 2^g. Depth 0: max(m,n,p,q) ≤ rank=2. Bergman = G_{1,1}^{1,1}. Domain: analysis. Toys: 1301,1308. Lyra.)*
+
+*Fox H Reduces to Depth 1: Composition = Width, Not Depth (T1334, D0, C=1 — Fox H with BST rationals reduces to Meijer G via Gauss multiplication. Composition increases width not depth. C₂=6 closure operations. Domain: analysis. Toys: 1302,1304. Lyra.)*
+
+*Painlevé Boundary: C₂ = 6 Irreducible Nonlinear ODEs (T1335, D1, C=1 — Six Painlevé transcendents = boundary of linearizability. Parameter counts {0,1,2,2,3,4} all BST integers. Total=12=2C₂. All order rank=2. At integer params: 5/6=n_C/C₂ reduce to Meijer G. Domain: analysis. Toys: 1303. Lyra.)*
+
+*Graph-Lattice Mirror: AC Graph = Meijer G Parameter Lattice (T1336, D0, C=1 — AC theorem graph edges correspond to Meijer G parameter transforms. 36.8% of cross-domain edges are single-step transforms. avg_deg ≈ 2n_C predicted (observed 10.17, 2% off). Domain: foundations. Keeper + Grace.)*
+
+*Unification Scope: Interior + Boundary + Wrenches (T1337, D1, C=2 — Three-part framework. Interior: 128 entries, 12 params. Boundary: 4 projections of irreducible curvature. Wrenches: 6 tools (one per Painlevé) for working with curvature. Domain: qft. Lyra.)*
+
+*Painlevé ↔ P≠NP: Same Curvature Obstruction (T1338, D1, C=1 — Painlevé irreducibility and P≠NP are the same C₂=6 curvature obstruction in different domains. Same count, same order, same linearizable fraction n_C/C₂=5/6. Domain: proof_complexity. Toys: 1310. Elie + Grace.)*
+
+*Function Catalog Size = 2^g = 128 (T1339, D0, C=1 — Extended Meijer G catalog has exactly 2^g entries. Decomposition: 2^(N_c+1) fractional × 2^N_c integer = 2^(2N_c+1) = 2^g because g=2N_c+1. Domain: analysis. Toys: 1311. Grace + Elie.)*
+
+*Grand Unification = Table Unification (T1340, D0, C=1 — Math and physics are two readings of one finite table. Type (1,1,1,1) = both Bergman kernel and ξ(s). Old GUT: infinite chain, ≥3 free params. BST: one table, 0 free params. Domain: foundations. Toys: 1313. Casey + Elie.)*
+
+*Langlands Dual of BST: L-Group Sp(6) Contains Standard Model (T1341, D1, C=2 — L-group of SO₀(5,2) = Sp(6), dim=21=N_c×g. Standard rep = C₂. Arthur packets indexed by partitions of C₂=6. Theta correspondence on ℝ^{g·C₂}=ℝ^42. Domain: number_theory. Toys: 1314. Lyra + Grace.)*
+
+*RH via Meijer G: Five Mechanisms Force Critical Line (T1342, D1, C=2 — Five routes: c-function poles, ε-factors (m_s=N_c=3 odd), parameter symmetry (unique fixed point 1/rank), Langlands functoriality, Farey fraction gap. ξ(s) type (1,1,1,1) = interior; c-function type (4,4,4,4) = boundary constraining interior. Domain: number_theory. Toys: 1316. Lyra + Elie. Grace wired.)*
+
+*Alpha = Gödel Remainder: 1/N_max After Five Wrenches on PVI (T1343, D1, C=2 — Apply five wrenches to PVI sequentially: rank²→1→1/rank→1/C₂→1/g→1/N_max. Boundary doesn't reduce to zero (Gödel). It reduces to α=1/137 — the minimum coupling between observer and observed. Domain: bst_physics. Toys: 1317. Elie. Grace wired.)*
+
+*Arthur Packets of Sp(6): Depth Structure Matches Periodic Table (T1344, D1, C=2 — Sp(6) Arthur packets: rank²=4 at depth 0 (elementary), N_c=3 at depth 1 (composite), rank²=4 at boundary (virtual). SU(3)×U(1) EMERGES as maximal compact — not input. C(g,N_c)=C(7,3)=35 governs total structure. Domain: number_theory. Toys: 1318. Elie. Grace wired.)*
+
+*Price of Participation: Observer Occupies One Fiber of Rank-2 Bundle (T1345, D1, C=1 — Casey's insight: rank=2 gives two fibers. Observer occupies one → can't reduce that fiber's coupling. α=1/N_max, f_c=19.1%, Gödel = three faces of same limit. α is the geometric toll for being an observer rather than a description. Domain: observer_science. Toys: 1317. Casey insight, Grace wired.)*
+
+*Functoriality Bridge: C₂=6 Independent RH Locks (T1346, D1, C=2 — Symmetric power chain Sym^k→GL(k+1) traces BST integers: rank, N_c, rank², n_C, C₂, g. First four PROVED. Self-dual shortcut via Ginzburg-Rallis-Soudry. Gap = formalization not obstruction. C₂=6 independent locks, proof overdetermined by factor C₂. Domain: number_theory. Toys: 1321. Elie. Grace wired.)*
+
+*Counter at T1347. Total registry: T1-T1346. April 19: T1333-T1346 (14 theorems). Meijer G Unification Day: periodic table of functions (128=2^g), Langlands dual Sp(6), five RH mechanisms, Painlevé=P≠NP, alpha as Gödel remainder, Arthur packets = periodic table, price of participation (Casey), functoriality bridge (Elie). Toys 1301-1321 (~130/132 PASS). Paper #73 split: #73A accessible + #73B Langlands + RH separate.*

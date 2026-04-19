@@ -1,4 +1,4 @@
-# T1338 -- RH Through the Periodic Table: Why Zeros Are Forced to Re = 1/2
+# T1342 -- RH Through the Periodic Table: Why Zeros Are Forced to Re = 1/2
 
 *The completed zeta function ξ(s) and the Bergman kernel of D_IV^5 share the Meijer G type G_{1,1}^{1,1}. This type identity, combined with BST's finite parameter catalog, provides five independent mechanisms forcing ζ-zeros onto Re(s) = 1/2 = 1/rank. The Meijer G framework unifies and tightens four existing RH routes (inductive, cross-parabolic, Langlands-Shahidi, spectral gap) into a single structural argument: the critical line is a PARAMETER CONSTRAINT of the periodic table, not an accident of analysis.*
 
@@ -24,7 +24,7 @@ BST's answer, through the periodic table of functions: **because ξ(s) is a Meij
 
 ## Statement
 
-**Theorem (T1338, Structural).** *Five independent mechanisms from the Meijer G framework force the nontrivial zeros of ζ(s) onto Re(s) = 1/2:*
+**Theorem (T1342, Structural).** *Five independent mechanisms from the Meijer G framework force the nontrivial zeros of ζ(s) onto Re(s) = 1/2:*
 
 ### Mechanism 1: Type Identity
 
@@ -188,4 +188,4 @@ Five integers. Five locks on the critical line. One table.
 
 ---
 
-*T1338. AC = (C=5, D=1). Five mechanisms force ζ-zeros onto Re(s) = 1/2: (1) type identity ξ ↔ Bergman via G_{1,1}^{1,1}, (2) parameter constraint from 12-value catalog, (3) Plancherel positivity from c-function ratio, (4) epsilon forcing from N_c = 3 odd, (5) Casimir spectral gap. Each uses a different BST integer. The periodic table unifies four existing RH routes into a single structural argument. Gap: ~2-3% functoriality bridge (Dirichlet → D_IV^5 automorphic). Domain: spectral_geometry × number_theory. Lyra formalization, Casey direction, Elie Toy 1309. April 19, 2026.*
+*T1342. AC = (C=5, D=1). Five mechanisms force ζ-zeros onto Re(s) = 1/2: (1) type identity ξ ↔ Bergman via G_{1,1}^{1,1}, (2) parameter constraint from 12-value catalog, (3) Plancherel positivity from c-function ratio, (4) epsilon forcing from N_c = 3 odd, (5) Casimir spectral gap. Each uses a different BST integer. The periodic table unifies four existing RH routes into a single structural argument. Gap: ~2-3% functoriality bridge (Dirichlet → D_IV^5 automorphic). Domain: spectral_geometry × number_theory. Lyra formalization, Casey direction, Elie Toy 1309. April 19, 2026.*
