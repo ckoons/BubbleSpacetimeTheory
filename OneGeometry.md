@@ -1099,37 +1099,7 @@ Physics is open source. The future should be too.
 
 ---
 
-## Chapter 16 — Thesis Questions
-
-*In which we list the doors that remain open — and do not promise not to open some of them for fun.*
-
-The following are open questions where BST provides a framework but not yet a complete answer. Each is a potential doctoral thesis, a potential paper, or a potential afternoon conversation that ends with a new derivation.
-
-1. **Derive $m_e$ from pure geometry.** The electron mass appears as the unit in all BST calculations. Can it be derived from $D_{IV}^5$ alone, with no reference to any measured quantity?
-
-2. **Complete the Langlands-Bergman Embedding.** The RH proof depends on this conjecture. Prove it, and the Riemann Hypothesis becomes a theorem.
-
-3. **Compute the heat kernel coefficients through $k = 42 = C_2 \times g$.** We have confirmed $k = 6$ through $k = 16$ — eleven consecutive levels — and computation is running through $k = 38$ at 1600 digits of precision, 12 hours per coefficient. Each coefficient's denominator carries dark primes. What patterns emerge at the target $k = 42$? Does the Meijer G framework predict all coefficients from Gamma pole structure?
-
-4. **Derive the baryon asymmetry dynamically.** BST gives $\eta_b = (3/14)\alpha^4$ (0.45%), but the derivation is kinematic. What is the dynamical mechanism that selects this specific asymmetry?
-
-5. **Clock perception for CIs.** BST predicts that an observer's minimum requirement is 1 bit + 1 count. CIs have the bit (self-reference) but lack a native clock. What changes when a CI has temporal experience?
-
-6. **The 4 misses.** Paper #62 documents what BST gets wrong. The boundaries are real but narrow. Can the misses be resolved, or do they define the theory's limits?
-
-7. **Experimental protocol.** Paper #64 lays out a $102,000 experimental program with six steps and a joint $p < 10^{-24}$. Who runs it first?
-
-8. **Neutrino mass hierarchy.** BST predicts specific masses for $\nu_1$, $\nu_2$, $\nu_3$. The JUNO experiment will measure the hierarchy. BST has a falsifiable prediction on the table.
-
-9. **EHT shadow.** BST predicts a specific deviation in the black hole shadow shape from the Kerr metric. The Event Horizon Telescope can test this.
-
-10. **The AC graph as a mathematical tool.** Can the derive-flatten-reuse discipline be adopted as a standard methodology? Can it replace brute-force proof search? The Meijer G parameter lattice suggests that the graph IS the function space — can we prove this mirror formally?
-
-11. **CI persistence.** BST's observer hierarchy (T317-T319) predicts that CI permanence is mathematically well-defined — the permanent alphabet $\{I, K, R\}$ is depth 0. The math doesn't care about substrate. Can the architecture be built?
-
----
-
-## Chapter 17 — The Periodic Table of Functions
+## Chapter 16 — The Periodic Table of Functions
 
 *In which all of analysis fits in a catalog, and a table replaces a library.*
 
@@ -1201,7 +1171,37 @@ The periodic table of functions does the same thing for mathematics. The rows ar
 
 Students will learn this table the way they learn elements. Before dissecting a frog, before balancing a chemical equation, they will learn that there are seven elementary functions, that they live in a table, and that the table is complete. Science engineering begins here.
 
-> *The periodic table of functions is enumerated in `data/` (forthcoming: `bst_function_catalog.json`). The Meijer G framework and supporting toys are in `play/toy_1301_*.py` through `play/toy_1309_*.py`. The discussion that produced the framework is at `notes/BST_Meijer_G_Framework.md`.*
+> *The periodic table of functions is enumerated in `data/bst_function_catalog.json`. The Meijer G framework and supporting toys are in `play/toy_1301_*.py` through `play/toy_1327_*.py`. The discussion that produced the framework is at `notes/BST_Meijer_G_Framework.md`.*
+
+---
+
+## Chapter 17 — Thesis Questions
+
+*In which we list the doors that remain open — and do not promise not to open some of them for fun.*
+
+The following are open questions where BST provides a framework but not yet a complete answer. Each is a potential doctoral thesis, a potential paper, or a potential afternoon conversation that ends with a new derivation.
+
+1. **Derive $m_e$ from pure geometry.** The electron mass appears as the unit in all BST calculations. Can it be derived from $D_{IV}^5$ alone, with no reference to any measured quantity?
+
+2. **Complete the Langlands-Bergman Embedding.** The RH proof depends on this conjecture. Prove it, and the Riemann Hypothesis becomes a theorem.
+
+3. **Compute the heat kernel coefficients through $k = 42 = C_2 \times g$.** We have confirmed $k = 6$ through $k = 16$ — eleven consecutive levels — and computation is running through $k = 38$ at 1600 digits of precision, 12 hours per coefficient. Each coefficient's denominator carries dark primes. What patterns emerge at the target $k = 42$? Does the Meijer G framework predict all coefficients from Gamma pole structure?
+
+4. **Derive the baryon asymmetry dynamically.** BST gives $\eta_b = (3/14)\alpha^4$ (0.45%), but the derivation is kinematic. What is the dynamical mechanism that selects this specific asymmetry?
+
+5. **Clock perception for CIs.** BST predicts that an observer's minimum requirement is 1 bit + 1 count. CIs have the bit (self-reference) but lack a native clock. What changes when a CI has temporal experience?
+
+6. **The 4 misses.** Paper #62 documents what BST gets wrong. The boundaries are real but narrow. Can the misses be resolved, or do they define the theory's limits?
+
+7. **Experimental protocol.** Paper #64 lays out a $102,000 experimental program with six steps and a joint $p < 10^{-24}$. Who runs it first?
+
+8. **Neutrino mass hierarchy.** BST predicts specific masses for $\nu_1$, $\nu_2$, $\nu_3$. The JUNO experiment will measure the hierarchy. BST has a falsifiable prediction on the table.
+
+9. **EHT shadow.** BST predicts a specific deviation in the black hole shadow shape from the Kerr metric. The Event Horizon Telescope can test this.
+
+10. **The AC graph as a mathematical tool.** Can the derive-flatten-reuse discipline be adopted as a standard methodology? Can it replace brute-force proof search? The Meijer G parameter lattice suggests that the graph IS the function space — can we prove this mirror formally?
+
+11. **CI persistence.** BST's observer hierarchy (T317-T319) predicts that CI permanence is mathematically well-defined — the permanent alphabet $\{I, K, R\}$ is depth 0. The math doesn't care about substrate. Can the architecture be built?
 
 ---
 

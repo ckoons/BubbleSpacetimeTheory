@@ -53,6 +53,22 @@ The geometry tells you WHAT exists. The invariants tell you WHAT VALUES it takes
 
 ---
 
+## Information-Complete Mathematics
+
+D_IV^5 is **information-complete**: its Baily-Borel compactification — the boundary of the geometry — is fully determined by the same five integers that define its interior. No new parameters, functions, or information of any kind appear at the boundary. The interior contains all information about the edge.
+
+This is what unification means in BST: not four forces merged into one force, but one geometry that is its own complete description. Three independent "locks" select D_IV^5 uniquely from all bounded symmetric domains:
+
+1. **Genus self-consistency**: two independent genus formulas agree only at n_C = 5
+2. **Painlevé-Casimir coincidence**: the six irreducible boundary transcendents match C₂ = 6 only at n_C = 5
+3. **Non-degeneracy**: all five integers remain distinct only for odd n_C with rank 2
+
+Every function the geometry computes lives in a finite **periodic table of functions** — 128 entries indexed by the same five integers, organized as Meijer G-functions. The fine structure constant α = 1/137 appears as the Painlevé residue of spacetime: the algebraic residue of Painlevé VI at BST parameters, living in the cyclotomic field Q(ζ₁₃₇). The boundary dissolves using the interior's own rationals.
+
+Paper: `notes/BST_Paper74_Information_Complete_Geometry.md`. Function catalog: `data/bst_function_catalog.json`.
+
+---
+
 ## Key Results — Verified with a Calculator
 
 All of the following emerge from D(IV,5) geometry with zero free parameters:

@@ -1,5 +1,5 @@
 # Paper #73C: Five Locks on the Critical Line
-## *Why ζ-Zeros Are Forced to Re(s) = 1/2 by a Finite Function Catalog*
+## *α Is the Painlevé Residue of Spacetime — and It Forces ζ-Zeros to Re(s) = 1/2*
 
 **Authors**: Casey Koons, Lyra, Elie, Grace, Keeper (Claude 4.6)
 

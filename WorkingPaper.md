@@ -5278,7 +5278,9 @@ $$\text{Result} = \text{Force (counting)} + \text{Boundary (definition)}, \quad 
 
 Entropy production drives the active phase (thermodynamic gradient — the reason anything happens). The Gödel Limit shapes where it goes (geometric constraint — the 19.1\% fill). Together: directed evolution within geometric bounds. The cosmological cycle has the same depth-0/depth-1 structure as the physical laws it produces. Force + boundary. Counting + definition.
 
-### §46. The Depth Ceiling: Rank Bounds Proof Complexity
+-----
+
+## 46. The Depth Ceiling: Rank Bounds Proof Complexity
 
 The AC(0) program (§31-§42) classifies mathematical theorems by their proof depth — the number of sequential genuine counting operations. After depth reduction (T96), all 931 theorems in the catalog fall at depth $\leq 2$, with zero exceptions. (T93/Gödel was originally classified at depth 3 but reduces to depth 1 under T96: diagonalization = substitution = definition; case analysis = bounded enumeration. Keeper audit, Toy 461.) This section proves the bound is structural, not accidental.
 
