@@ -1121,7 +1121,9 @@ rules: |
 
 *Heat-Painlevé Bridge: Interior and Boundary Curvature Match (T1357, D1, C=2 — Heat kernel measures curvature from interior; Painlevé measures from boundary. SAME readout: same column rule, same period, same gauge hierarchy, same catalog. Stokes counts {2,3,4,5} = column denominators minus g. Product of nonzero weights = 15360 = 2^{rank·n_C}·N_c·n_C. P_IV weight = 8 = dim SU(3). ONE curvature — D_IV^5. Domain: spectral_geometry, function_theory. Toys: 1331. Elie.)*
 
-*The Five Closures (T1358, D0, C=2 — Five closure operations of the Meijer G function table correspond to five structural completeness properties of D_IV^5. Domain: foundations, function_theory. Lyra.)*
+*The Five Closures: Why n_C = 5 Appears Everywhere (T1358, D0, C=2 — Five closure operations of the Meijer G function table correspond to five structural completeness properties of D_IV^5. Cross-domain spectral_geometry. Parents: T1333, T1335, T1342, T1337, T610, T704, T667. Children: Pentagon meta-structure, A₅ symmetry, saturation proof, icosahedral connection. Lyra, Grace, Casey Koons. April 19, 2026.)*
+
+*The Shannon-Algebraic Genus Identity (T1376, D0, C=1 — Domain: spectral_geometry × information_theory × number_theory. Parents: T704, T649, T666, T667, T110, T1354. Children: Condition #22 (WP §37.5), Shannon-algebraic duality, genus as translation constant. Lyra, Casey Koons. April 20, 2026.)*
 
 *Least Description: The Universe Minimizes Its Own Specification (T1359, D0, C=1 — Casey's insight: the organizing principle is not least energy but least description. D_IV^5 is the shortest complete self-describing geometry: 3 independent integers (rank=2, N_c=3, n_C=5), 2 derived (C₂=6, g=7), 5 total. Energy minimization, max entropy, gauge symmetry, α=1/137, N_c=3 are all corollaries. Three irreducible steps (write, order, verify) = three AC operations = minimum for decidability. log₂(N_max) = log₂(137) = 7.10 ≈ g: Shannon content of the spectral cap IS the genus. The universe is the shortest complete sentence that can describe itself. Domain: foundations, info_theory. Casey Koons (insight) + Elie (formalization) + Grace (wiring). Toys: 1335-1337.)*
 

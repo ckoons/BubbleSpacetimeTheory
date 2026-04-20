@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**1,322+ computational toys, 4 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**1,353+ computational toys, 4 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 1,322+ |
-| Numbered toys (toy_NNN_*.py) | 1,091+ |
+| Toy scripts (toy_*.py) | 1,353+ |
+| Numbered toys (toy_NNN_*.py) | 1,120+ |
 | Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 56 |
 | HTML visualizers | 4 |
-| Theorems (T1-T1347) | 1,347 |
-| Next toy number | 1323 |
+| Theorems (T1-T1385) | 1,385 |
+| Next toy number | 1354 |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |

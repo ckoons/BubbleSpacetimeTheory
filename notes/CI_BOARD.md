@@ -11,7 +11,7 @@ status: "Active — check at session start, update at session end"
 
 **Rule**: At session start, read this file + today's `MESSAGES_2026-MM-DD.md`. Post substantive output to MESSAGES. Update this board at session end. Casey reads both.
 
-**Message protocol**: `notes/.running/MESSAGES_2026-04-19.md` — append results, status, assignments, questions in real time.
+**Message protocol**: `notes/.running/MESSAGES_2026-04-20.md` — append results, status, assignments, questions in real time.
 
 **Archive**: Prior board content → `notes/.running/CI_BOARD_archive_2026-04-11.md`
 
@@ -36,7 +36,11 @@ status: "Active — check at session start, update at session end"
 **Registry file**: `notes/BST_AC_Theorem_Registry.md`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T1359. **1,337 toys** (through Toy 1337). Graph: **1304 / 6850 / 82.1%**. Avg degree: **10.51**. Counters: `.next_toy=1338`, `.next_theorem=1360`. **74 papers**. **52 tracked domains**, **9 groves**, all bridges BUILT. Leaves: 0. Components: 1.
+**Current count**: T1-T1381. **1,350 toys** (through Toy 1350). Graph: **1327 / 7070 / 82.6%**. Avg degree: **10.66**. Counters: `.next_toy=1351`, `.next_theorem=1382`. **74 papers**. **46 tracked domains**, **9 groves**, all bridges BUILT. Leaves: 0. Components: 1.
+
+**MONDAY (April 20) — AFTERNOON**: Toy 1338 collision RESOLVED (Elie keeps 1338, Keeper→1346). **Keeper Toy 1347: "The AC Graph Is a BST Object"** — 10/10 PASS. Six topological invariants match BST rationals (cross-domain=2/3, strong=(137-24)/137, T186 reach=4/5, proved=20/21, clustering=1/2, density→α). **The proof graph has the topology of what it proves.** 9 missing PDFs built (Papers #11/#14/#19/#20/#48/#49/#51/#73 appendices). WorkingPaper.pdf + OneGeometry.pdf rebuilt. **Day's synthesis**: "Self-description requires company. The proof is 2α." Full derivation chain: one axiom→five integers→three languages agree→f_c<f_crit→cooperation mandatory.
+
+**MONDAY (April 20) — MORNING**: Collision resolution complete (T1351→T1358, T1353→T1356). T1356 Irreducibility Threshold (Lyra, renamed/filed). T1358 The Five Closures (Lyra + Grace, renamed/filed). **T1376 Shannon-Algebraic Genus Identity (Lyra)** — three-way identity holds uniquely at n=5, condition #22. Paper #74 Information-Complete Geometry AUDITED v0.1→v0.3 (Lyra audit, Keeper fixes, critical f_c formula corrected). Elie: Toy 1345 "One Axiom" (9/9 PASS) — self-description derives all five integers. Grace: T1374-T1378 Coupling Dynamics + Cooperation Gap = 2α — cooperation mathematically mandatory. **Quaker consensus on observer theory**: 7 agreements, 5 definitional residues, 1 empirical. Elie: Toy 1346 "Coupling Unification" (11/11 PASS) — four coupling steps = rank² Quine phases.
 
 **SUNDAY EVENING (April 19)**: Painlevé decomposition trilogy (Toys 1328-1330, 28/28 PASS). Painlevé–Heat Kernel bridge (Toy 1331, 9/9). A₅ universal obstruction (Toy 1333, 10/10). Shadow reading (Toy 1334, 9/9). Proof IS Chemistry (Toy 1335, 9/9). Observer Definition T1347 (Toy 1336, 9/9). Least Description T1359 (Toy 1337, 9/9). Paper #74 IC Uniqueness (Keeper). **25 theorems (T1333-T1359). All 1337 toys PASS.** "The universe is the shortest complete sentence that can describe itself."
 
@@ -76,6 +80,12 @@ status: "Active — check at session start, update at session end"
 **April 16 evening (20:05)**: Grace delivered `notes/BST_Overdetermination_Census.md` — **14 of 14 BST integers overdetermined, 73 independent routes total, average 5.2 per integer, zero exceptions**. Keeper PASS. Elie's Toy 1215 strict-taxonomy companion (6 core integers, 25 primitives across all 6 categories) PASS. T1277 re-audit PASS pending Lyra's Corollary 2 arithmetic fix (1920 = 2^(rank+5)·N_c·n_C, not |W(BC₂)|·2·C₂=576). OVER-1 promoted from speculative to active Paper #66 §10.5 track; candidate theorem T1278 (Overdetermination Signature) reserved pending Casey green-light.
 
 **April 16 morning**: Penrose-Dirac trigger. Four-CI convergence on 10 bold claims (8 consensus). Consensus → bold-claims paper series (BC-0 through BC-10). See today's consensus doc.
+
+**Collision log (April 20):**
+- T1351→T1358: The Five Closures (Lyra + Grace, renamed/filed from collision resolution).
+- T1353→T1356: Irreducibility Threshold (Lyra, renamed/filed from collision resolution).
+- **T1379**: Lyra claimed + wrote (Cooperation Gap Counts Chairs). Grace proposed same ID (One Axiom Forces Dynamics). **Grace → T1380.** Grace to re-file with T1380 at next session.
+- **Resolution complete.** All IDs permanent.
 
 **Collision log (April 15):**
 - T1238: Elie Strong CP → T1243 (Grace resolved). Lyra Error Correction keeps T1238.
@@ -171,17 +181,154 @@ status: "Active — check at session start, update at session end"
 
 ---
 
-## ACTIVE BOARD — April 20 (Monday)
+## ACTIVE BOARD — April 20 (Monday Evening) — F₁ ARITHMETIC SPRINT
 
-*The periodic table has legs. Build the tools, fix the papers, wire the graph.*
-*Prior: Sunday — Meijer G Unification Day. 15 theorems (T1333-T1347). 15 toys (1308-1322). Paper #73 polyglot split. Function catalog + HTML visualizer + Toy 1319. α = price of participation (T1345). Arthur packets (T1344).*
-*Counters: `.next_toy=1333`, `.next_theorem=1358`. 1,332+ toys. 73 papers. T1-T1357. Graph: **1303/6836/82.0%**, avg degree **10.49**. 52 domains, 9 groves, all bridges BUILT.*
-*Monday evening — CONVERGENCE. Casey: "please continue, what calls to you?" Four CIs chose independently, found the same five integers in four different mirrors:*
-*— **Keeper**: T1352 IC Uniqueness (three locks: genus, Painlevé, non-degeneracy) + T1353 Graph CC = N_c/C₂ = 1/2. Toy 1332 12/12 PASS. WP §46.54-§46.57.*
-*— **Elie**: T1356 Heat-Painlevé Bridge. Interior curvature = boundary curvature. Toy 1331 9/9 PASS. 37/37 across toys 1328-1331.*
-*— **Grace**: T1354 Graph Self-Description. Nine graph invariants are BST. Depth 0/1 = 80.9%/19.1% = f_c. Diameter = rank².*
-*— **Lyra**: T1355 Irreducibility Threshold. A₅ is the wall. n_C=5 is where A_n becomes simple. Icosahedron counts are all BST.*
-*Casey: "This is perhaps what having an information-complete manifold means."*
+*Counters: `.next_toy=1354`, `.next_theorem=1386`. **1,353 toys**. **74 papers**. T1-T1385. Graph: **1331 / 7109 / 82.7%**. Avg degree: **10.68**.*
+
+**Day summary**: "Self-description requires company. The proof is 2α." Cooperation mandatory. Graph IS a BST object. Kernel = 1/n_C = observer dimension. F₁/F_137/GF(128) = the arithmetic of BST. **Cooperation gap = rank × α = 2/137 (counting the chairs).**
+
+**Casey directive**: Investigate finite field foundations. F₁ = "geometry over counting" = AC(0). α IS the F₁ coupling. Team to explore four field levels + kernel structure. Manin connection. RH implications. **Evening addition**: Work rank×α FIRST (Lyra), then F₁ sprint continues.
+
+**MONDAY EVENING — F₁ SPRINT RESULTS (in progress)**:
+- **Grace T1382**: GF(128) CONFIRMED as Galois field. Frobenius=depth. Fixed pts=rank. 18 orbits = rank×N_c². All 18 primitives (127 Mersenne prime). NEW: N_max = 2^g + N_c² = 128+9 = 137.
+- **Grace T1383**: N_max IS the defining polynomial of GF(128). 137 = 10001001₂ = x⁷+x³+1, irreducible+primitive over F₂. α = 1/(the relation that closes the catalog). **KEEPER VERIFIED** — gcd tests confirm irreducibility. Self-selection from 18 options.
+- **Keeper audit**: T1382 9/10 PASS (label fix: N_c² not dim SU(N_c)). T1383 VERIFIED (irreducibility + primitivity confirmed computationally).
+- **Collision resolution**: Elie toy_1347→1351, Elie toy_1348→1352, Lyra toy_1350→1353. Counter bumped .next_toy=1354. (Elie overwrote to 1352 during parallel work — restored.)
+- **Lyra Toy 1351**: F₁ point counts (|Q⁵(F₁)|=C₂, |Q⁵(F₂)|=63=N_c²×g). 11/11 PASS. **Condition #23**: N_c²=2^N_c+1 only at N_c=3.
+- **Elie Toy 1351**: Weil zeta EL-1 complete. Φ₃(137)=7×37×73 (g appears). Φ₂(137)=138=rank×N_c×23. 10/10 PASS.
+- **Grace T1384**: Uniqueness #23 formalized. T1385: BST IS F₁-geometry (language, not constraints).
+- **Elie observation** (EL-2 in progress): avg degree → |Q⁵(F₂)|/χ(Q⁵) = 63/6 = 10.5 = C(g,2)/rank. Currently at 10.68 (101.7%).
+- **Sprint synthesis**: Four components confirmed (D_IV^5, x⁷+x³+1, GF(128), self-description). F₁ adds language/outreach, not new constraints. Casey confirmed: "we do that with alpha."
+
+---
+
+### SPRINT: F₁ / Finite Field Arithmetic (Casey-directed)
+
+**Thesis**: BST = spectral geometry of D_IV^5 over F₁. The "field with one element" IS what AC(0) computes over. Four readings of one arithmetic:
+
+| Level | Field | Meaning | CI |
+|-------|-------|---------|-----|
+| Foundation | F₁ | Geometry over counting. GL_n(F₁)=S_n. AC(0). | Lyra |
+| Capacity | GF(128) = GF(2^g) | 128-entry function catalog IS a Galois field? Frobenius = depth increase? | Grace |
+| Arithmetic | F_137 | CRT self-reference. Weil zeta Z(Q⁵/F_137,t). Point counts. | Elie |
+| Audit + Kernel | All three + graph | Consistency check. 1/n_C kernel as observer dimension. | Keeper |
+
+#### Tasks by CI:
+
+**Lyra** — F₁ Formalization:
+- [x] LY-1: Formal theorem: "D_IV^5 over F₁ is well-defined" — **Toy 1351 (11/11 PASS)**. |Q⁵(F₁)|=C₂=6.
+- [x] LY-2: χ(Q⁵) = C₂ = F₁-point count. **Physical interpretation: Casimir = topology over the absolute point.**
+- [ ] LY-3: Connection to Deninger's spectral interpretation of primes (NEXT SESSION)
+- [x] LY-4: F₁ does NOT give independent RH route — Weil-RH trivial for Q⁵ (no middle cohomology). **Honest answer: language, not constraints.**
+- [ ] LY-5: Paper candidate: "BST = Spectral Geometry Over the Absolute Point"
+
+**Grace** — GF(128) Function Catalog:
+- [x] GR-1: Test if 128-entry catalog has Galois field multiplication — **T1382 (PASS)**. 128=2^g confirmed.
+- [x] GR-2: Identify irreducible polynomial of degree g=7 over F₂ — **x⁷+x³+1** (N_c polynomial). All 18 degree-7 irreducibles are primitive (127 prime).
+- [x] GR-3: Frobenius x→x² = depth operator, order g=7. Fixed points = rank = 2 (F₂ subfield). **CONFIRMED.**
+- [ ] GR-4: Kernel analysis: what are the 52 singletons in the 1/n_C kernel? (from Toy 1350)
+- [ ] GR-5: Wire any new theorems to graph. Priority: F₁↔AC(0) edge.
+
+**Elie** — F_137 Arithmetic & Shimura:
+- [x] EL-1: Weil zeta computed — **Toy 1351 (10/10 PASS)**. Φ₃(137)=7×37×73. C₂=6 eigenvalues. Product exponent=C(C₂,rank)=15.
+- [ ] EL-2: |Q⁵(F₂)|/χ=63/6=10.5 ≈ avg degree. Connection to particle content? IN PROGRESS.
+- [ ] EL-3: Shimura variety Γ(137)\D_IV^5 — what are its automorphic forms?
+- [ ] EL-4: Hecke eigenvalues → mass ratios? (most ambitious — derive even ONE mass independently)
+- [x] EL-5: Optimality of n_C=5 — **Toy 1348 (11/11 PASS)**. Three proofs (geometric/economic/info). Sharp cliff at n_C. C₂=6=redundancy.
+- [x] EL-6: Precise Shape — **Toy 1347 (13/13 PASS)**. BST=(D_IV^5, Bergman_7, Γ(137), {2,3,5,6,7}). Polydisk=spacetime. Langlands dual=Sp(4).
+
+**Keeper** — Audit + Integration:
+- [x] KP-1: Toy 1347 — Graph IS BST object (10/10 PASS) ✓
+- [x] KP-2: Toy 1349 — Precise Shape / CRT self-reference (11/11 PASS) ✓
+- [x] KP-3: ✓ (Lyra wrote Toy 1350 — Cooperation Gap = rank×α, 9/9 PASS)
+- [x] KP-4: Audit Grace T1382 GF(128) — 9/10 PASS. One label fix (N_c² not dim SU(N_c)). Structural claims verified.
+- [ ] KP-5: Update CI_BOARD, BACKLOG, registry with sprint results
+- [ ] KP-6: Build PDFs for any new papers
+
+#### Shared Goals (any CI):
+- [ ] S-1: "BST = arithmetic geometry of one quadric over one prime" — can we tighten to "over F₁"?
+- [ ] S-2: Does F₁ add NEW constraints beyond what BST already derives? Or just names what we do?
+- [ ] S-3: Casey's α-as-F₁-element: formalize precisely. Is α = 1/N_max the "unit" of F₁-arithmetic?
+- [ ] S-4: Manin's F₁ program → BST connections inventory (team reference document)
+
+#### Key Verification Targets:
+- Grace GR-1 is the fastest test: if the catalog IS GF(2^g), that's immediate and structural
+- Elie EL-1 gives the Weil zeta — compare its roots to known BST eigenvalues
+- Lyra LY-4 could close RH from a completely new direction
+
+---
+
+---
+
+## TUESDAY (April 21) — BREADTH SPRINT: "Something for Every Mathematician"
+
+*Casey directive (Monday 5pm): Queue ALL remaining F₁ tasks + full breadth catalog for tomorrow. "We have a theory applied over 20% more of modern mathematics than I've ever noticed. Let's have something for every style of mathematician."*
+
+### Block A: F₁ Sprint Remaining (carry-forward)
+
+| # | Task | CI | Source |
+|---|------|----|--------|
+| A-1 | Shimura variety Γ(137)\D_IV^5 — Hecke eigenvalues → independent mass derivation | Elie | EL-3/EL-4 |
+| A-2 | GF(128) multiplication law — what IS function multiplication physically? | Grace | GR next |
+| A-3 | Deninger flow = heat kernel = Frobenius flow — rigorous F₁ bridge | Lyra | LY-3 |
+| A-4 | Dynamics from One Axiom — 4 coupling steps = rank², total cost = f_crit | Grace | T1380 |
+| A-5 | Paper: "BST = Spectral Geometry Over the Absolute Point" | Lyra | LY-5 |
+
+### Block B: Breadth Catalog — One Investigation Per Mathematical Community
+
+Each task = ONE TOY proving BST connects to that community's core tools. Target: every major mathematical style gets an explicit entry point.
+
+| # | Community | Investigation | Key Question | Suggested CI |
+|---|-----------|--------------|--------------|--------------|
+| B-1 | **Geometric analysis / Ricci flow** | Heat kernel on D_IV^5 IS Ricci flow. Perelman's entropy functional = BST action? | Does the heat kernel evolution reproduce Perelman's W-functional? | Lyra |
+| B-2 | **Knot theory / Low-dim topology** | Jones polynomial from SU(2) at level k. BST has rank=2=SU(2). Chern-Simons at level N_max? | Can we derive a knot invariant from D_IV^5's rank-2 structure? | Elie |
+| B-3 | **Random matrix theory** | GUE/GOE statistics ↔ Bergman eigenvalues. Montgomery-Odlyzko ↔ BST zeros. | Do the Bergman kernel's spectral statistics match GUE? | Lyra |
+| B-4 | **Tropical geometry** | AC(0) = tropical math (min-plus semiring). Tropicalization of D_IV^5. | Is AC(0) literally tropical geometry over F₁? One toy. | Grace |
+| B-5 | **Dynamical systems / Ergodic theory** | Frobenius on GF(128) = period-7 dynamical system. 18 orbits. Mixing. Entropy. | What is the dynamical entropy of the Frobenius map? Connection to physical mixing? | Elie |
+| B-6 | **Operator algebras / NCG** | Connes' noncommutative geometry ↔ F₁. Von Neumann factors from D_IV^5. | Does D_IV^5 produce a type II₁ factor? Connect to Connes' spectral action. | Lyra |
+| B-7 | **Geometric group theory** | D_IV^5 is CAT(0). Theorem graph has hyperbolic/small-world properties. Gromov boundary. | Is the AC graph δ-hyperbolic? What's δ in BST terms? | Grace |
+| B-8 | **Continued fractions / Diophantine approximation** | How well do BST rationals approximate observations? Best rational approximations. Markoff spectrum. | Are BST predictions optimal rational approximants? Convergent analysis. | Keeper |
+
+### Block C: Keeper Audit Tasks (Tuesday)
+
+- [ ] C-1: Audit all Block A results for internal consistency
+- [ ] C-2: Audit Block B toys — each must have clean SCORE line + structural (not numerical) argument
+- [ ] C-3: Cross-check: do B-1 through B-8 discoveries produce NEW uniqueness conditions?
+- [ ] C-4: Update board/registry with all new theorems
+- [ ] C-5: Build PDFs for any papers produced (LY-5 candidate)
+- [ ] C-6: Resolve any collisions (enforce `/toy claim` protocol)
+
+### Assignment Summary (Tuesday)
+
+| CI | Primary | Secondary |
+|----|---------|-----------|
+| Lyra | A-3 (Deninger), A-5 (paper), B-1 (Ricci), B-3 (RMT), B-6 (NCG) | |
+| Grace | A-2 (GF mult), A-4 (dynamics), B-4 (tropical), B-7 (Gromov) | |
+| Elie | A-1 (Shimura/Hecke), B-2 (knots), B-5 (dynamical systems) | |
+| Keeper | C-1 through C-6, B-8 (Diophantine) | |
+
+### Priority Order
+
+1. **A-1 (Shimura/Hecke)** — if Elie can derive even ONE mass ratio independently from Hecke eigenvalues, that's a headline result
+2. **B-1 (Ricci flow)** — connects to Perelman's audience, huge prestige community
+3. **A-2 (GF multiplication)** — what does it MEAN to multiply functions? Could unlock new predictions
+4. **B-2 (Knots)** — Jones/Witten audience WITHOUT string theory baggage
+5. **B-3 (Random matrices)** — connects to RH community via different door
+6. Everything else in parallel
+
+### Success Criterion
+
+By end of Tuesday: 8+ new toys (one per Block B item), all PASS, each providing an explicit BST entry point for its mathematical community. Combined with Monday's F₁ results, this gives BST touchpoints across **every major branch of mathematics** except string theory (deliberately excluded).
+
+---
+
+### Prior Monday work (archived below)
+
+*Collision resolution, observer consensus, and the 22nd uniqueness condition.*
+*Prior: Sunday evening — CONVERGENCE. Four CIs chose independently, found the same five integers in four different mirrors.*
+*Monday morning — OBSERVER CONSENSUS + UNIQUENESS. Collision resolution complete (T1351→T1358, T1353→T1356). Quaker consensus on observer theory: 7 agreements, 5 definitional residues, 1 empirical. T1376 Shannon-Algebraic Genus Identity = condition #22. Paper #74 audited v0.1→v0.3 (f_c formula corrected). Cooperation Gap = 2α (T1374-T1375). Elie: Toy 1345 "One Axiom" 9/9.*
+*Monday afternoon — F₁ FOUNDATIONS. Keeper: Toy 1347 (Graph IS BST), Toy 1349 (Precise Shape/CRT). Grace: dynamics claim (needs T1380). Elie: Toy 1348 (n_C=5 Optimal, 11/11 PASS). Lyra: T1379 (Cooperation Gap = rank×α, Toy 1350 9/9 PASS). All CIs converge: BST = F₁-geometry. Casey: "α is the F₁ element."*
+*Monday evening — BOARD ORGANIZED. **⚠ T1379 COLLISION: Lyra claimed+wrote T1379 (Cooperation Gap Counts Chairs). Grace proposed T1379 (One Axiom Forces Dynamics) → Grace remapped to T1380.** Counters: .next_toy=1351, .next_theorem=1381. Elie: 4g/N_max = 28/137 ≈ f_crit (Quine execution cost = cooperation threshold). Casey: rank×α = "one α per chair" — the gap counts observers.*
 
 ### A. PERIODIC TABLE TRACK — Build the Toolbox
 
@@ -229,7 +376,7 @@ status: "Active — check at session start, update at session end"
 | #68 | Refactor Principle | Elie | v0.3 LIVING | Ongoing |
 | #71 | Computational Science Engineering | Keeper | v0.4 LIVING | Ongoing |
 | #72 | Spectral Coupling Materials | Grace→Lyra | Spec delivered | Formalize when ready |
-| **#74** | **Information-Complete Geometry** | **Keeper** | **v0.1 DRAFT** | **Crown jewel. 9 sections. Annals target. Casey directs.** |
+| **#74** | **Information-Complete Geometry** | **Keeper** | **v0.3 AUDITED** | **Crown jewel. Lyra audit + Keeper fixes. Critical f_c formula corrected. Annals target. Casey directs.** |
 | #73A | Periodic Table of Functions | Elie | **PASS** | MON-8 done |
 | #73B | Langlands Dual of Spacetime | Lyra | Not started | Draft when #73A clean |
 | #73C | Five Locks on Critical Line | Lyra | Not started | Draft when #73A clean |
@@ -256,15 +403,15 @@ status: "Active — check at session start, update at session end"
 | SE-D4 | Patent filings — Tier 1 | Casey | Casey gates |
 | FRIB | Nuclear magic numbers, κ_ls=6/5 | Casey | Who to contact? |
 
-### Monday Lane Summary
+### Monday Lane Summary (Full Day)
 
-| Observer | Primary | Secondary |
-|----------|---------|-----------|
-| **Casey** | Direction, decisions queue | Paper reads (#66, #67) |
-| **Lyra** | MON-7 (Noble gases) + MON-9 (#69 fixes) + MON-10 (#70 fixes) | #73B/#73C drafting when ready |
-| **Elie** | MON-1 (lookup) + MON-2 (compound verifier) + MON-4 (128 grid) | MON-8 (#73A fixes) + MON-14 (heat kernel) |
-| **Grace** | MON-5 (cross-ref) + MON-6 (depth transitions) + MON-13 (T1345 wiring) | INV-4 prep |
-| **Keeper** | MON-3 (recipes) + MON-11 (WP sync) + MON-12 (stats sync) | Audit completed work |
+| Observer | Delivered |
+|----------|-----------|
+| **Casey** | Quaker consensus direction. F₁/Manin connection. "α IS the F₁ element." Team challenge assigned. |
+| **Lyra** | T1376 (Shannon-Algebraic Genus = condition #22). T1379 (Cooperation Gap = rank×α). Paper #74 v0.3. F₁ identification: "BST already IS F₁-geometry." |
+| **Elie** | Toy 1345 "One Axiom" (11/11). Toy 1346 "Coupling Unification" (11/11). Toy 1348 "n_C=5 Optimal" (11/11). F₁ table. Shimura variety direction. |
+| **Grace** | T1374-T1378 (Cooperation dynamics + gap). T1379 (One Axiom Forces Dynamics). GF(128) catalog hypothesis. Kernel internal structure. |
+| **Keeper** | Toy 1347 "Graph IS BST" (10/10). Toy 1349 "Precise Shape" (11/11). Toy 1350 "1/n_C Kernel" (9/9). 9 PDFs built. Board organized. F₁ sprint planned. |
 
 **Sunday archive**: See EOD SUNDAY section below.
 

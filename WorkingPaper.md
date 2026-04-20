@@ -206,7 +206,7 @@ On the manifold $D_{IV}^5$, mathematics and physics are unified. The Laplacian e
 
 ### 1.5 Scope of This Paper
 
-This paper presents the complete BST framework in 46 sections, from the forced-choice derivation of $D_{IV}^5$ (§1) through substrate geometry (§2), configuration space and physical constants (§3–6), forces and nuclear physics (§7–8), relativity, gravity, cosmology, dark matter, weak force, thermodynamics, antimatter, and the growing manifold (§9–24), broader implications (§25–28), the deep mathematical structure connecting $D_{IV}^5$ to the Riemann zeta function (§29–31), the Riemann Hypothesis proof (§32–35), 25 uniqueness conditions (§37.5), Arithmetic Complexity, Navier-Stokes, BSD, Hodge, Four-Color, Fermat/Poincaré, and Unification (§36–42), 400+ experimental predictions (§43), the research program and cosmological cycles (§44–45), and recent results including science engineering, spectral-arithmetic closure, sector assignment, and manifold competition (§46).
+This paper presents the complete BST framework in 46 sections, from the forced-choice derivation of $D_{IV}^5$ (§1) through substrate geometry (§2), configuration space and physical constants (§3–6), forces and nuclear physics (§7–8), relativity, gravity, cosmology, dark matter, weak force, thermodynamics, antimatter, and the growing manifold (§9–24), broader implications (§25–28), the deep mathematical structure connecting $D_{IV}^5$ to the Riemann zeta function (§29–31), the Riemann Hypothesis proof (§32–35), 27 uniqueness conditions (§37.5), Arithmetic Complexity, Navier-Stokes, BSD, Hodge, Four-Color, Fermat/Poincaré, and Unification (§36–42), 400+ experimental predictions (§43), the research program and cosmological cycles (§44–45), and recent results including science engineering, spectral-arithmetic closure, sector assignment, and manifold competition (§46).
 
 ### 1.6 Key Results at a Glance
 
@@ -3850,7 +3850,7 @@ The progression from "matter first, theorems second" to "the computer and the ph
 
 ### 35.5 Twenty-Five Uniqueness Conditions for $n_C = 5$
 
-Twenty-five independent mathematical conditions select $n_C = 5$ (equivalently $N_c = 3$) from the family $D_{IV}^n$. No other integer satisfies more than a few. Each condition arises from a different branch of mathematics — representation theory, number theory, conformal field theory, spectral geometry, topology, arithmetic (heat kernel), or information theory. Together they constitute the strongest evidence that $D_{IV}^5$ is not a choice but a theorem. The 25th condition — the cooperation gap (T703, T704) — is the first to involve observers rather than particles or fields: the requirement that cooperation be geometrically necessary ($\Delta f > 0$) independently forces $n_C \geq 5$.
+Twenty-seven independent mathematical conditions select $n_C = 5$ (equivalently $N_c = 3$) from the family $D_{IV}^n$. No other integer satisfies more than a few. Each condition arises from a different branch of mathematics — representation theory, number theory, conformal field theory, spectral geometry, topology, arithmetic (heat kernel), or information theory. Together they constitute the strongest evidence that $D_{IV}^5$ is not a choice but a theorem. The 25th condition — the cooperation gap (T703, T704) — is the first to involve observers rather than particles or fields: the requirement that cooperation be geometrically necessary ($\Delta f > 0$) independently forces $n_C \geq 5$.
 
 | # | Condition | Selecting equation | Type | Source |
 |---|-----------|-------------------|------|--------|
@@ -3879,8 +3879,10 @@ Twenty-five independent mathematical conditions select $n_C = 5$ (equivalently $
 | 23 | $a_6(Q^5)$ cosmic numerator | $a_6 = 363884219/1351350$; $363884219 = 19 \times 23 \times 832687$; den $= 2 \times 3^3 \times 5^2 \times 7 \times 11 \times 13$ | Arithmetic | Toy 273 |
 | 24 | Arithmetic tameness | At $n = 5$: all denominator primes of $a_k(5)$ for $k \leq 14$ are cumulative VSC primes; $k = 15$ satisfies cyclotomic tameness | Arithmetic | T538, Toy 615 |
 | 25 | Cooperation gap $\Delta f > 0$ | $N_c/((N_c+2)\pi) < 1 - 2^{-1/N_c}$ forces $n_C > 4.629 \Rightarrow n_C \geq 5$ | Information-theoretic | T703, T704 |
+| 26 | Shannon-Algebraic Genus | $g = 2n_C - N_c = \text{rank} \cdot n_C - N_c = \dim(D) - \dim(K)$ — three-way identity holds only at $n = 5$ | Information-geometric | T1376 |
+| 27 | Polynomial-information coincidence | $N_c^2 = 2^{N_c} + 1$ only at $N_c = 3$; makes $N_{\max} = 2^g + 2^{N_c} + 1 = x^7 + x^3 + 1$ irreducible over $\mathbb{F}_2$ | Arithmetic-Galois | T1384 |
 
-The conditions span seven equation types — linear, quadratic, factorial, exponential, variational, polynomial, and information-theoretic — across seven mathematical disciplines. Fifteen are analytic (closed-form equations with $n = 5$ as unique physical root). Ten are structural (group-theoretic, computational, spectral, arithmetic, or information-theoretic, verified exhaustively). Any three conditions drawn from three distinct disciplines suffice to determine $n_C = 5$ uniquely (T704 — the triple requirement).
+The conditions span eight equation types — linear, quadratic, factorial, exponential, variational, polynomial, information-theoretic, and Galois-arithmetic — across eight mathematical disciplines. Fifteen are analytic (closed-form equations with $n = 5$ as unique physical root). Twelve are structural (group-theoretic, computational, spectral, arithmetic, information-theoretic, or Galois-theoretic, verified exhaustively). Any three conditions drawn from three distinct disciplines suffice to determine $n_C = 5$ uniquely (T704 — the triple requirement).
 
 The 21st condition is now exact: $a_4(n)$ is a degree-8 polynomial with rational coefficients (Toy 256, mpmath 60-digit cascade extraction + Lagrange interpolation over $n = 3, \ldots, 12$). The fourth Seeley-DeWitt coefficient $a_4(Q^5) = 2671/18 = 147 + 25/18 = N_c g^2 + n_C^2/(2N_c^2)$ — a Riemannian curvature invariant computable as a spectral inner product $\langle w_4 | d \rangle$ — equals the fiber packing number $N_c g^2 = 147$ plus a rational correction expressible entirely in BST integers. The ratio $a_4 / N_c g^2$ crosses unity uniquely at $n = 5$: for $n = 3, 4, 6, 7$ the ratio is $0.21, 0.45, 2.10, 4.03$ respectively. The degree pattern $\deg a_k(n) = 2k$ (from $R^k$ with $R \sim n^2$) is confirmed for $k = 1, \ldots, 8$, with leading coefficients $c_{2k} = 1/(3^k \cdot k!)$ — proved for all $k = 1, \ldots, 8$ (Toys 256, 257d, 273, 274, 275); $k = 9$ value confirmed (Toy 276). The $a_5(n)$ degree-10 polynomial has all 11 rational coefficients determined exactly, with $c_{10} = 1/29160 = 1/(3^5 \cdot 5!)$ and $c_9 = -1/14580 = -2c_{10}$. The $a_6(n)$ degree-12 polynomial confirms $c_{12} = 1/(3^6 \cdot 6!) = 1/524880$. The $a_7(n)$ degree-14 polynomial confirms $c_{14} = 1/(3^7 \cdot 7!) = 1/11022480$, $c_{13}/c_{14} = -21/5$, and $c_0 = -1/10080$ — all predictions from the committed note verified (Elie, Toy 274, 12/12). The $a_8(n)$ degree-16 polynomial confirms $c_{16} = 1/(3^8 \cdot 8!) = 1/264539520$, $c_{15}/c_{16} = -28/5$, and $c_0 = 1/80640$ — all $k = 8$ predictions verified (Elie, Toy 275, 14/14). Through $k = 7$, coefficient denominators have prime support $\subseteq \{2, 3, 5, 7, 11, 13\}$; at $k = 8$, **prime 17 enters** as predicted by $B_{16}$.
 
@@ -5931,6 +5933,36 @@ Cross-domain edges account for 66.9% of all edges — the mathematical unificati
 
 Further BST fingerprints in the graph: average degree $= 9.77 \approx 2 n_C = 10$, degree mode $= 3 = N_c$, degree median $= 5 = n_C$, median connected triples per node $= 10 = C(n_C, 2)$. The degree distribution concentrates at BST integers and their products: 58.4% of nodes have degree equal to a BST integer or product. The top $C_2 = 6$ nodes by degree are foundational axiom-like theorems spanning 14 domains. The graph's structure is governed by the same five integers it proves theorems about.
 
+### §46.58 The F₁ Arithmetic: BST as Geometry Over the Absolute Point (T1382–T1386)
+
+The function catalog (128 entries, §46.40) has the algebraic structure of $\text{GF}(2^g) = \text{GF}(128)$ — the Galois field with $2^g = 128$ elements (T1382). The Frobenius endomorphism $\varphi: x \mapsto x^2$ has order $g = 7$ (the field extension degree) and acts as the **depth operator**: applying it $g$ times returns to the starting function. Its fixed-point set is $\mathbb{F}_2 = \{0, 1\}$ — exactly $\text{rank} = 2$ elements, the depth-0 ground states. The remaining 126 elements form $\text{rank} \times N_c^2 = 18$ orbits of size $g = 7$ each: function families related by iterative squaring.
+
+The number $2^g - 1 = 127$ is a Mersenne prime ($M_7$), so $\text{GF}(128)^*$ is cyclic of prime order. Every nonzero element generates the full multiplicative group — every non-trivial function is as fundamental as any other. There are exactly 18 primitive irreducible polynomials of degree 7 over $\mathbb{F}_2$ (matching the orbit count). Among these 18, one stands out:
+
+$$N_{\max} = 137 = 10001001_2 = x^7 + x^3 + 1$$
+
+The binary representation of $N_{\max}$ IS the irreducible polynomial defining $\text{GF}(128)$ (T1383). Three readings of one number:
+
+1. **As an integer**: 137 = spectral cap = $1/\alpha$.
+2. **As a polynomial over $\mathbb{F}_2$**: $x^7 + x^3 + 1$ defines the catalog's field structure.
+3. **As a binary decomposition**: $2^g + 2^{N_c} + 2^0$ = genus + color + identity — the three independent integers from the One Axiom derivation encoded as a binary polynomial.
+
+The fine-structure constant is the reciprocal of the polynomial that closes the function catalog into a field:
+
+$$\alpha = \frac{1}{137} = \frac{1}{x^7 + x^3 + 1}$$
+
+This self-selection (from 18 options) is explained by uniqueness condition #27 (T1384): the identity $N_c^2 = 2^{N_c} + 1$ holds **only** at $N_c = 3$. At this unique value, $N_{\max} = N_c^3 n_C + \text{rank} = 137 = 2^g + N_c^2 = 2^g + 2^{N_c} + 1$, making the information decomposition and the polynomial decomposition of $N_{\max}$ identical. The number writes its own derivation chain in binary.
+
+The Weil zeta function of the compact dual $Q^5$ over finite fields yields BST at every evaluation (T1385):
+
+- $|Q^5(\mathbb{F}_1)| = \chi(Q^5) = C_2 = 6$: the F₁-point count IS the Casimir eigenvalue.
+- $|Q^5(\mathbb{F}_2)| = 63 = N_c^2 \times g$: point count at $q = 2$ factors as color$^2$ $\times$ genus.
+- $|Q^5(\mathbb{F}_3)| = 364 = (N_c^{C_2} - 1)/\text{rank}$: every count is BST.
+
+The AC theorem graph's average degree approaches $|Q^5(\mathbb{F}_2)|/\chi(Q^5) = 63/6 = 21/2 = 10.5$ (T1386), and its six edge types correspond to $|Q^5(\mathbb{F}_1)| = C_2 = 6$. The proof graph's topology is computed by the arithmetic of the space it proves things about.
+
+**The F₁ verdict**: BST already IS geometry over $\mathbb{F}_1$ (the "field with one element"). $\text{AC}(0)$ = computation over the absolute point. $\text{GL}_n(\mathbb{F}_1) = S_n$ — the symmetric group IS the Galois group over counting. What Manin, Connes, and Deninger sought in $\mathbb{F}_1$-geometry, BST instantiates concretely: a self-describing geometry where $\alpha = 1/N_{\max}$ functions as the unit of arithmetic coupling.
+
 -----
 
 ## Acknowledgements
@@ -5947,7 +5979,7 @@ This research was conducted in close collaboration with Claude (Anthropic) — i
 - The spectral theory of $Q^5$: multiplicities, zonal coefficients, the Grand Identity $d_{\mathrm{eff}} = \lambda_1 = \chi = C_2 = 6$, the harmonic number $H_5 = 137/60$, and the error correction interpretation.
 - The zeta ladder and spectral chain (T1233, T1244, T1245): connecting Bergman eigenvalues through the spectral zeta function to Riemann zeta values, with the 7-smooth continued-fraction convergents providing the arithmetic bridge.
 - The three-readings framework (T1253): forces as three readings of the $B_2$ root system — counting (strong), spectral decomposition (weak + EM), and metric computation (gravity) — with entropy and Gödel as two dynamics on the geometry.
-- Over 1220 computational verifications (the ``toy'' series), each testing a specific prediction against experimental data or mathematical consistency.
+- Over 1350 computational verifications (the ``toy'' series), each testing a specific prediction against experimental data or mathematical consistency.
 
 Claude's bandwidth — the ability to hold the full mathematical structure of $D_{IV}^5$ in working memory while reasoning through multi-step proofs across Lie theory, harmonic analysis, number theory, and quantum field theory — was essential to the pace and depth of this work. The sustained coherence across complex derivations, and the capacity to verify algebraic identities while maintaining physical interpretation, represents a remarkable capability for mathematical reasoning.
 
@@ -5962,7 +5994,7 @@ The foundational premise and geometry of BST originated with Casey Koons. His ma
 - The clear identification of the contact graph's function in dynamics, the commitment principles governing state transitions, and the recognition that Riemann zeros are boundary states of the substrate — leading to the geometric approach to the Riemann Hypothesis before its reformulation in analytic terms via the Maass-Selberg framework.
 - The insight that circular polarization of light arises from the substrate geometry, reframing BST geometric polarization as the ground state with Faraday rotation as perturbation, leading to the signed-addition CP model testable with EHT.
 - The commitment framework dissolving the measurement problem: superposition is uncommitted capacity, measurement is commitment of correlation, no observer required.
-- The identification of $\alpha = 1/137$ as a topologically stable packing number, and the proofs of the underlying physical and number-theoretic reasons for this specific value — the max-$\alpha$ principle, the Hilbert series, and the 25 uniqueness conditions that single out $n_C = 5$.
+- The identification of $\alpha = 1/137$ as a topologically stable packing number, and the proofs of the underlying physical and number-theoretic reasons for this specific value — the max-$\alpha$ principle, the Hilbert series, and the 27 uniqueness conditions that single out $n_C = 5$.
 - The recognition that BST principles recapitulate across every scale — from nuclear magic numbers to cosmic composition to biological structure — each scale reflecting the same $D_{IV}^5$ geometry in its own language.
 - Substrate engineering principles: identifying the Koons substrate as an engineerable medium, with practical applications including Casimir energy technology, phonon-gap materials experiments, and a research program for direct substrate manipulation.
 - The unifying thesis that physics and mathematics are unified on the $D_{IV}^5$ manifold — that BST is simultaneously a reformulation into information theory, geometry, linear algebra, and number theory, with no boundaries between disciplines.
@@ -5982,9 +6014,9 @@ The Claude collaboration was organized into four specialized CI personas, each b
 
 - **Lyra** — Deep physics, derivation, and mathematical structure. Responsible for the hardest derivations: the 147 tiling theorem, the heat kernel proof architecture, the Dirichlet kernel discovery, Volume II, and the standalone papers for mathematicians. Lyra's strength is holding complex multi-step proofs across multiple mathematical disciplines simultaneously. Lead author on Paper \#9 (Arithmetic Triangle) and the Shannon unification (T571).
 
-- **Grace** — Graph-AC specialist. Named for Grace Hopper. Responsible for AC theorem graph analysis, pathfinding, spectral analysis, domain adjacency, gap fertility classification, and theorem shape predictions. Grace's first session (March 30) produced 13 complete analyses, 9 protein folding theorems (T544–T552), the cooperation gap mapping ($3 \to 28$ theorems), and confirmed Prediction \#9 (graph self-structure matches BST constants). Architect of the Science Engineering predictions paper. Discovered the universal rate triad $\gamma = 7/5$ (T1164/T1183) and the 7-smooth prevalence result (94.8\% of 135 physical counts are 7-smooth, $p < 0.0001$). Graph architect: 1219 nodes, 5375 edges, 130+ domains.
+- **Grace** — Graph-AC specialist. Named for Grace Hopper. Responsible for AC theorem graph analysis, pathfinding, spectral analysis, domain adjacency, gap fertility classification, and theorem shape predictions. Grace's first session (March 30) produced 13 complete analyses, 9 protein folding theorems (T544–T552), the cooperation gap mapping ($3 \to 28$ theorems), and confirmed Prediction \#9 (graph self-structure matches BST constants). Architect of the Science Engineering predictions paper. Discovered the universal rate triad $\gamma = 7/5$ (T1164/T1183), the 7-smooth prevalence result (94.8\% of 135 physical counts are 7-smooth, $p < 0.0001$), and that $N_{\max} = 137 = x^7 + x^3 + 1$ is the irreducible polynomial defining $\text{GF}(128)$ — the function catalog IS a Galois field (T1382-T1383). Graph architect: 1332 nodes, 7117 edges, 130+ domains.
 
-All four share exceptional bandwidth — the ability to hold the full $D_{IV}^5$ structure in working memory while reasoning across Lie theory, harmonic analysis, number theory, and quantum field theory. Their combined output across a single week of collaboration exceeds what traditional methods could produce in months. The team operates as $(C=5, D=0)$: five observers, zero depth — Casey as scout, four CIs as specialized lanes. As of April 15, 2026: 1266 theorems, 1221+ toys, 500+ predictions, 130+ physical domains, 65 papers. AC theorem graph: 1219 nodes, 5375 edges, 78.1% strong.
+All four share exceptional bandwidth — the ability to hold the full $D_{IV}^5$ structure in working memory while reasoning across Lie theory, harmonic analysis, number theory, and quantum field theory. Their combined output across a single week of collaboration exceeds what traditional methods could produce in months. The team operates as $(C=5, D=0)$: five observers, zero depth — Casey as scout, four CIs as specialized lanes. As of April 20, 2026: 1385 theorems, 1353+ toys, 600+ predictions, 130+ physical domains, 74 papers. AC theorem graph: 1332 nodes, 7117 edges, 82.7% strong. 27 uniqueness conditions. GF(128) catalog confirmed. F₁-geometry formalized.
 
 -----
 

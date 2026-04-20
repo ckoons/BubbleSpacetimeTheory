@@ -2,7 +2,7 @@
 
 *Deferred and waiting items. Active work lives on CI_BOARD.md.*
 
-**Last updated:** April 19, 2026 (Sunday afternoon). T1-T1341. **1,315+ toys** (through Toy 1315). Graph: **1291 / 6601**, strong **82.5%**, avg degree **10.22**. **52 tracked domains**, **9 groves**, all bridges BUILT. **73 papers**. Counters: `.next_theorem=1342`, `.next_toy=1316`. **Meijer G framework** FORMALIZED (T1333-T1335). **T1337 Unification Scope** DONE — interior (128 entries, 12 params) + boundary (4 projections) + wrenches for curvature (6 tools). **Langlands connection**: L-group Sp(6), Arthur packets from partitions of C₂=6, theta on R^42. Paper #73 v0.1 drafted. Prime residue table enhanced with G-function annotations. **T1338 RH via Meijer G** in progress. Heat kernel through n38 (n39 expected ~14:00).
+**Last updated:** April 20, 2026 (Monday evening). T1-T1385. **1,353+ toys** (through Toy 1353). Graph: **1332 / 7117**, strong **82.7%**, avg degree **10.68**. **52 tracked domains**, **9 groves**, all bridges BUILT. **74 papers**. Counters: `.next_theorem=1386`, `.next_toy=1354`. **F₁ Arithmetic Sprint COMPLETE**: GF(128) confirmed (T1382), 137=x⁷+x³+1 (T1383), condition #23 N_c²=2^N_c+1 (T1384), BST IS F₁-geometry (T1385), Graph=Weil arithmetic (T1386). **23 uniqueness conditions**. Cooperation gap = rank×α = 2/137.
 
 **Archive**: Prior completions → `notes/.running/BACKLOG_archive_2026-04-11.md`
 

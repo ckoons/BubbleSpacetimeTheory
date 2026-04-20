@@ -18,14 +18,14 @@
 |-----------|-------------|------------|
 | `data/` | CI-native structured JSON — constants, particles, forces, predictions, domains, seed | `bst_seed.md` |
 | `notes/` | 650+ research notes, 74 numbered papers, proofs, theorem write-ups | `notes/README.md` |
-| `play/` | 1,337+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
+| `play/` | 1,353+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
 | Root | OneGeometry.md, WorkingPaper.md (v28, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 ## Key Files
 
 - **`data/bst_constants.json`** — 105 derived constants with eval-ready formulas
 - **`data/bst_predictions.json`** — 24 falsifiable predictions with experiments and timelines
-- **`play/ac_graph_data.json`** — AC theorem graph: 1303 nodes, 6836 edges, 52 domains
+- **`play/ac_graph_data.json`** — AC theorem graph: 1332 nodes, 7117 edges, 52 domains
 - **`data/bst_function_catalog.json`** — Periodic table of functions: 128 entries, 12 active parameters = 2·C₂
 - **`data/science_engineering.json`** — CSE RLGC tracker: 52 domains, 9 groves, 13 bridges
 - **`play/toy_bst_explorer.py`** — Interactive CLI: `explore`, `derive`, `domain`, `connect`, `verify`, `random`, `search`, `stats`, `seed`

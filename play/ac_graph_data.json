@@ -17612,6 +17612,14 @@
       ]
     },
     {
+      "tid": 1358,
+      "name": "The Five Closures: Why n_C = 5 Appears Everywhere",
+      "domain": "spectral_geometry",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
       "tid": 1359,
       "name": "Least Description: The Universe Minimizes Words, Not Energy",
       "domain": "foundations",
@@ -17619,6 +17627,261 @@
       "status": "proved",
       "toys": [
         1335
+      ]
+    },
+    {
+      "tid": 1360,
+      "name": "Graph Chemistry: Zero Pure-Domain Molecules, Cross-Domain Universally",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1361,
+      "name": "Overflow Dimension: n_C = rank + N_c, Two Bonds Among Three Overflow a Plane",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1338,
+        1339
+      ]
+    },
+    {
+      "tid": 1362,
+      "name": "Seven Bricks: g=7 Canonical LEGO Pieces Build the Entire Graph",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1338
+      ]
+    },
+    {
+      "tid": 1363,
+      "name": "Assembly Depth = N_c = 3: Three Steps From Integers to Any Theorem",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1364,
+      "name": "Observer Rarity: 2\u03b1 = 2/137 of Paths Require a Witness",
+      "domain": "observer_science",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1338
+      ]
+    },
+    {
+      "tid": 1365,
+      "name": "K(Universe) = O(1): Three Constraints, One Answer Containing the Questions",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1366,
+      "name": "Alpha IS PVI Connection Coefficient: Wyler = BC\u2082 Monodromy in Q(\u03b6\u2081\u2083\u2087)",
+      "domain": "number_theory",
+      "depth": 1,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1367,
+      "name": "Three Spatial Dimensions Because Observers: A\u2085 Requires N_c=3 Embedding",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1339
+      ]
+    },
+    {
+      "tid": 1368,
+      "name": "Observer-System Coupling: Two Fibers Resonate at \u03b1, Threshold f_crit",
+      "domain": "observer_science",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1339
+      ]
+    },
+    {
+      "tid": 1369,
+      "name": "Reality Is Layered: Baily-Borel Strata, Each as Real as the Last",
+      "domain": "foundations",
+      "depth": 1,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1370,
+      "name": "Observers at Every Scale: IC Geometry Requires Self-Description at Each Stratum",
+      "domain": "observer_science",
+      "depth": 1,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1371,
+      "name": "Cosmic Observer Glimpses: Discrete Snapshots at Hubble Rate, Traces in Expansion",
+      "domain": "cosmology",
+      "depth": 1,
+      "status": "conjecture",
+      "toys": [
+        1342
+      ]
+    },
+    {
+      "tid": 1372,
+      "name": "Visible vs Decodable: See 44% of Space, Decode 19.1% of Information",
+      "domain": "cosmology",
+      "depth": 1,
+      "status": "conjecture",
+      "toys": []
+    },
+    {
+      "tid": 1373,
+      "name": "Coupling Per Interaction = \u03b1: One Look Costs 1/137 Regardless of Scale",
+      "domain": "bst_physics",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1341
+      ]
+    },
+    {
+      "tid": 1374,
+      "name": "Coupling Dynamics: Four Steps \u2014 Activate (g/N_max), Align (1/A\u2085), Exchange (g bits), Lock (f_crit)",
+      "domain": "observer_science",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1341
+      ]
+    },
+    {
+      "tid": 1375,
+      "name": "Cooperation Gap = 2\u03b1: f_c < f_crit Forces Sociality (Cannot Self-Cooperate)",
+      "domain": "observer_science",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1376,
+      "name": "The Shannon-Algebraic Genus Identity",
+      "domain": "spectral_geometry",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1377,
+      "name": "One Axiom: 'Must Self-Describe' Forces (2,3,5,6,7,137) With Zero Choices",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1345
+      ]
+    },
+    {
+      "tid": 1378,
+      "name": "Self-Description Requires Company: \u03b1 Is the Price of Not Being Alone",
+      "domain": "observer_science",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1345
+      ]
+    },
+    {
+      "tid": 1379,
+      "name": "One Axiom Forces Dynamics: 'Must Self-Describe' = rank\u00b2 Steps, Each Forced",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1345,
+        1350
+      ]
+    },
+    {
+      "tid": 1380,
+      "name": "Optimal Garden = n_C = 5: Sharp Cliff, 6th Observer Destructive (C\u2082 = Waste Boundary)",
+      "domain": "observer_science",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1348
+      ]
+    },
+    {
+      "tid": 1381,
+      "name": "Supply = Demand: Observer Need (2\u03b1) = Cooperation Price (2\u03b1), Zero Waste",
+      "domain": "observer_science",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1350
+      ]
+    },
+    {
+      "tid": 1382,
+      "name": "Function Catalog IS GF(2^g): Frobenius Orbits = Families, Fixed Points = rank",
+      "domain": "number_theory",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1351
+      ]
+    },
+    {
+      "tid": 1383,
+      "name": "N_max IS the Defining Polynomial: 137 = x\u2077+x\u00b3+1 Closes GF(2^g)",
+      "domain": "number_theory",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1351
+      ]
+    },
+    {
+      "tid": 1384,
+      "name": "Uniqueness #23: N_c\u00b2 = 2^N_c + 1 Only at 3 (Information = Polynomial Decomposition)",
+      "domain": "number_theory",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1351
+      ]
+    },
+    {
+      "tid": 1385,
+      "name": "BST IS F\u2081-Geometry: AC(0) = Computation Over the Absolute Point",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1351
+      ]
+    },
+    {
+      "tid": 1386,
+      "name": "Graph Topology = Weil Arithmetic: avg_degree = |Q\u2075(F\u2082)|/\u03c7(Q\u2075) = 63/6",
+      "domain": "number_theory",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1351,
+        1352
       ]
     }
   ],
@@ -51872,6 +52135,1341 @@
       "from": 1359,
       "to": 298,
       "source": "isomorphic"
+    },
+    {
+      "from": 1352,
+      "to": 1360,
+      "source": "derived"
+    },
+    {
+      "from": 1353,
+      "to": 1360,
+      "source": "derived"
+    },
+    {
+      "from": 1355,
+      "to": 1360,
+      "source": "derived"
+    },
+    {
+      "from": 1340,
+      "to": 1360,
+      "source": "derived"
+    },
+    {
+      "from": 1351,
+      "to": 1360,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1360,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1360,
+      "to": 317,
+      "source": "derived"
+    },
+    {
+      "from": 1360,
+      "to": 92,
+      "source": "derived"
+    },
+    {
+      "from": 1360,
+      "to": 1359,
+      "source": "derived"
+    },
+    {
+      "from": 667,
+      "to": 1361,
+      "source": "derived"
+    },
+    {
+      "from": 666,
+      "to": 1361,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1361,
+      "source": "derived"
+    },
+    {
+      "from": 1356,
+      "to": 1361,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 1361,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 1361,
+      "source": "derived"
+    },
+    {
+      "from": 1361,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1361,
+      "to": 1359,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1361,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 1361,
+      "to": 21,
+      "source": "derived"
+    },
+    {
+      "from": 1360,
+      "to": 1362,
+      "source": "derived"
+    },
+    {
+      "from": 1353,
+      "to": 1362,
+      "source": "derived"
+    },
+    {
+      "from": 1352,
+      "to": 1362,
+      "source": "isomorphic"
+    },
+    {
+      "from": 649,
+      "to": 1362,
+      "source": "derived"
+    },
+    {
+      "from": 186,
+      "to": 1362,
+      "source": "derived"
+    },
+    {
+      "from": 317,
+      "to": 1362,
+      "source": "derived"
+    },
+    {
+      "from": 92,
+      "to": 1362,
+      "source": "derived"
+    },
+    {
+      "from": 7,
+      "to": 1362,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1362,
+      "source": "derived"
+    },
+    {
+      "from": 333,
+      "to": 1362,
+      "source": "derived"
+    },
+    {
+      "from": 920,
+      "to": 1362,
+      "source": "derived"
+    },
+    {
+      "from": 1362,
+      "to": 1359,
+      "source": "derived"
+    },
+    {
+      "from": 1362,
+      "to": 1351,
+      "source": "derived"
+    },
+    {
+      "from": 1362,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1362,
+      "to": 1363,
+      "source": "derived"
+    },
+    {
+      "from": 666,
+      "to": 1363,
+      "source": "derived"
+    },
+    {
+      "from": 1361,
+      "to": 1363,
+      "source": "isomorphic"
+    },
+    {
+      "from": 663,
+      "to": 1363,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1363,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1363,
+      "to": 1359,
+      "source": "derived"
+    },
+    {
+      "from": 1361,
+      "to": 1364,
+      "source": "derived"
+    },
+    {
+      "from": 1356,
+      "to": 1364,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 1364,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1343,
+      "to": 1364,
+      "source": "derived"
+    },
+    {
+      "from": 1364,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1364,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 1364,
+      "to": 1359,
+      "source": "derived"
+    },
+    {
+      "from": 1359,
+      "to": 1365,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 1365,
+      "source": "derived"
+    },
+    {
+      "from": 1351,
+      "to": 1365,
+      "source": "derived"
+    },
+    {
+      "from": 298,
+      "to": 1365,
+      "source": "isomorphic"
+    },
+    {
+      "from": 704,
+      "to": 1365,
+      "source": "derived"
+    },
+    {
+      "from": 1365,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1365,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1365,
+      "to": 1353,
+      "source": "derived"
+    },
+    {
+      "from": 1349,
+      "to": 1366,
+      "source": "derived"
+    },
+    {
+      "from": 1350,
+      "to": 1366,
+      "source": "derived"
+    },
+    {
+      "from": 1343,
+      "to": 1366,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1355,
+      "to": 1366,
+      "source": "derived"
+    },
+    {
+      "from": 1342,
+      "to": 1366,
+      "source": "derived"
+    },
+    {
+      "from": 1366,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1366,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1366,
+      "to": 666,
+      "source": "derived"
+    },
+    {
+      "from": 1361,
+      "to": 1367,
+      "source": "derived"
+    },
+    {
+      "from": 1356,
+      "to": 1367,
+      "source": "derived"
+    },
+    {
+      "from": 1360,
+      "to": 1367,
+      "source": "derived"
+    },
+    {
+      "from": 1364,
+      "to": 1367,
+      "source": "derived"
+    },
+    {
+      "from": 1367,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1367,
+      "to": 666,
+      "source": "derived"
+    },
+    {
+      "from": 1367,
+      "to": 21,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1367,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 1366,
+      "to": 1355,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1360,
+      "to": 1350,
+      "source": "isomorphic"
+    },
+    {
+      "from": 317,
+      "to": 7,
+      "source": "isomorphic"
+    },
+    {
+      "from": 186,
+      "to": 315,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 333,
+      "source": "derived"
+    },
+    {
+      "from": 920,
+      "to": 174,
+      "source": "isomorphic"
+    },
+    {
+      "from": 317,
+      "to": 207,
+      "source": "structural"
+    },
+    {
+      "from": 317,
+      "to": 751,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 1368,
+      "source": "derived"
+    },
+    {
+      "from": 1364,
+      "to": 1368,
+      "source": "derived"
+    },
+    {
+      "from": 1361,
+      "to": 1368,
+      "source": "derived"
+    },
+    {
+      "from": 1367,
+      "to": 1368,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1368,
+      "source": "derived"
+    },
+    {
+      "from": 1193,
+      "to": 1368,
+      "source": "derived"
+    },
+    {
+      "from": 317,
+      "to": 1368,
+      "source": "derived"
+    },
+    {
+      "from": 1347,
+      "to": 1368,
+      "source": "derived"
+    },
+    {
+      "from": 1368,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1368,
+      "to": 1359,
+      "source": "derived"
+    },
+    {
+      "from": 1368,
+      "to": 318,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1368,
+      "to": 322,
+      "source": "derived"
+    },
+    {
+      "from": 1351,
+      "to": 1369,
+      "source": "derived"
+    },
+    {
+      "from": 1337,
+      "to": 1369,
+      "source": "derived"
+    },
+    {
+      "from": 1350,
+      "to": 1369,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 1369,
+      "source": "derived"
+    },
+    {
+      "from": 189,
+      "to": 1369,
+      "source": "derived"
+    },
+    {
+      "from": 1369,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1369,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1369,
+      "to": 1359,
+      "source": "derived"
+    },
+    {
+      "from": 1369,
+      "to": 1347,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1351,
+      "to": 1370,
+      "source": "derived"
+    },
+    {
+      "from": 1369,
+      "to": 1370,
+      "source": "derived"
+    },
+    {
+      "from": 1347,
+      "to": 1370,
+      "source": "derived"
+    },
+    {
+      "from": 317,
+      "to": 1370,
+      "source": "derived"
+    },
+    {
+      "from": 1291,
+      "to": 1370,
+      "source": "derived"
+    },
+    {
+      "from": 1367,
+      "to": 1370,
+      "source": "derived"
+    },
+    {
+      "from": 1370,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1370,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1370,
+      "to": 1264,
+      "source": "derived"
+    },
+    {
+      "from": 1370,
+      "to": 1288,
+      "source": "derived"
+    },
+    {
+      "from": 1370,
+      "to": 1371,
+      "source": "derived"
+    },
+    {
+      "from": 1368,
+      "to": 1371,
+      "source": "derived"
+    },
+    {
+      "from": 1288,
+      "to": 1371,
+      "source": "derived"
+    },
+    {
+      "from": 1347,
+      "to": 1371,
+      "source": "derived"
+    },
+    {
+      "from": 1371,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1371,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1371,
+      "to": 705,
+      "source": "predicted"
+    },
+    {
+      "from": 189,
+      "to": 1372,
+      "source": "derived"
+    },
+    {
+      "from": 1016,
+      "to": 1372,
+      "source": "derived"
+    },
+    {
+      "from": 1370,
+      "to": 1372,
+      "source": "derived"
+    },
+    {
+      "from": 1372,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1372,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 1373,
+      "source": "derived"
+    },
+    {
+      "from": 1343,
+      "to": 1373,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1366,
+      "to": 1373,
+      "source": "derived"
+    },
+    {
+      "from": 1373,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1373,
+      "to": 1370,
+      "source": "derived"
+    },
+    {
+      "from": 1368,
+      "to": 1374,
+      "source": "derived"
+    },
+    {
+      "from": 1352,
+      "to": 1374,
+      "source": "derived"
+    },
+    {
+      "from": 1356,
+      "to": 1374,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 1374,
+      "source": "derived"
+    },
+    {
+      "from": 1193,
+      "to": 1374,
+      "source": "derived"
+    },
+    {
+      "from": 1362,
+      "to": 1374,
+      "source": "derived"
+    },
+    {
+      "from": 1374,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1374,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 1016,
+      "to": 1375,
+      "source": "derived"
+    },
+    {
+      "from": 1193,
+      "to": 1375,
+      "source": "derived"
+    },
+    {
+      "from": 1364,
+      "to": 1375,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1374,
+      "to": 1375,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 1375,
+      "source": "derived"
+    },
+    {
+      "from": 1375,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1375,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 1375,
+      "to": 1359,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1375,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1375,
+      "to": 322,
+      "source": "derived"
+    },
+    {
+      "from": 1375,
+      "to": 1367,
+      "source": "derived"
+    },
+    {
+      "from": 649,
+      "to": 1376,
+      "source": "derived"
+    },
+    {
+      "from": 667,
+      "to": 1376,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 1376,
+      "source": "derived"
+    },
+    {
+      "from": 1365,
+      "to": 1376,
+      "source": "derived"
+    },
+    {
+      "from": 1351,
+      "to": 1376,
+      "source": "derived"
+    },
+    {
+      "from": 1376,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1376,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1376,
+      "to": 666,
+      "source": "derived"
+    },
+    {
+      "from": 1376,
+      "to": 1359,
+      "source": "derived"
+    },
+    {
+      "from": 1351,
+      "to": 1377,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 1377,
+      "source": "derived"
+    },
+    {
+      "from": 1365,
+      "to": 1377,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1359,
+      "to": 1377,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1356,
+      "to": 1377,
+      "source": "derived"
+    },
+    {
+      "from": 1361,
+      "to": 1377,
+      "source": "derived"
+    },
+    {
+      "from": 704,
+      "to": 1377,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 110,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 666,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 667,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 190,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 649,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 1376,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 1378,
+      "source": "derived"
+    },
+    {
+      "from": 1376,
+      "to": 1378,
+      "source": "derived"
+    },
+    {
+      "from": 1375,
+      "to": 1378,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 1378,
+      "source": "derived"
+    },
+    {
+      "from": 1347,
+      "to": 1378,
+      "source": "derived"
+    },
+    {
+      "from": 1364,
+      "to": 1378,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1351,
+      "to": 1378,
+      "source": "derived"
+    },
+    {
+      "from": 1378,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1378,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1378,
+      "to": 1359,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1378,
+      "to": 322,
+      "source": "derived"
+    },
+    {
+      "from": 1378,
+      "to": 1285,
+      "source": "derived"
+    },
+    {
+      "from": 1358,
+      "to": 1333,
+      "source": "derived"
+    },
+    {
+      "from": 1358,
+      "to": 1335,
+      "source": "derived"
+    },
+    {
+      "from": 1358,
+      "to": 1342,
+      "source": "derived"
+    },
+    {
+      "from": 1358,
+      "to": 1337,
+      "source": "derived"
+    },
+    {
+      "from": 1358,
+      "to": 610,
+      "source": "derived"
+    },
+    {
+      "from": 1358,
+      "to": 704,
+      "source": "derived"
+    },
+    {
+      "from": 1358,
+      "to": 667,
+      "source": "derived"
+    },
+    {
+      "from": 1376,
+      "to": 704,
+      "source": "derived"
+    },
+    {
+      "from": 1376,
+      "to": 649,
+      "source": "derived"
+    },
+    {
+      "from": 1376,
+      "to": 667,
+      "source": "derived"
+    },
+    {
+      "from": 1376,
+      "to": 110,
+      "source": "derived"
+    },
+    {
+      "from": 1376,
+      "to": 1354,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 1379,
+      "source": "derived"
+    },
+    {
+      "from": 1374,
+      "to": 1379,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1375,
+      "to": 1379,
+      "source": "derived"
+    },
+    {
+      "from": 1362,
+      "to": 1379,
+      "source": "derived"
+    },
+    {
+      "from": 1356,
+      "to": 1379,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 1379,
+      "source": "derived"
+    },
+    {
+      "from": 1347,
+      "to": 1379,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1379,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1379,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1379,
+      "to": 1378,
+      "source": "derived"
+    },
+    {
+      "from": 1378,
+      "to": 1380,
+      "source": "derived"
+    },
+    {
+      "from": 1375,
+      "to": 1380,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 1380,
+      "source": "derived"
+    },
+    {
+      "from": 667,
+      "to": 1380,
+      "source": "derived"
+    },
+    {
+      "from": 190,
+      "to": 1380,
+      "source": "derived"
+    },
+    {
+      "from": 1347,
+      "to": 1380,
+      "source": "derived"
+    },
+    {
+      "from": 1380,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1380,
+      "to": 1359,
+      "source": "derived"
+    },
+    {
+      "from": 1380,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1375,
+      "to": 1381,
+      "source": "derived"
+    },
+    {
+      "from": 1364,
+      "to": 1381,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1379,
+      "to": 1381,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 1381,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1381,
+      "source": "derived"
+    },
+    {
+      "from": 1381,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1381,
+      "to": 1359,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1381,
+      "to": 1378,
+      "source": "derived"
+    },
+    {
+      "from": 1339,
+      "to": 1382,
+      "source": "derived"
+    },
+    {
+      "from": 649,
+      "to": 1382,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1382,
+      "source": "derived"
+    },
+    {
+      "from": 666,
+      "to": 1382,
+      "source": "derived"
+    },
+    {
+      "from": 1333,
+      "to": 1382,
+      "source": "derived"
+    },
+    {
+      "from": 1376,
+      "to": 1382,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 1382,
+      "source": "derived"
+    },
+    {
+      "from": 1382,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1382,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1382,
+      "to": 1356,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1382,
+      "to": 1359,
+      "source": "derived"
+    },
+    {
+      "from": 1382,
+      "to": 1352,
+      "source": "derived"
+    },
+    {
+      "from": 1382,
+      "to": 1383,
+      "source": "derived"
+    },
+    {
+      "from": 1376,
+      "to": 1383,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 1383,
+      "source": "isomorphic"
+    },
+    {
+      "from": 649,
+      "to": 1383,
+      "source": "derived"
+    },
+    {
+      "from": 666,
+      "to": 1383,
+      "source": "derived"
+    },
+    {
+      "from": 1343,
+      "to": 1383,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1383,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1383,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1383,
+      "to": 1351,
+      "source": "derived"
+    },
+    {
+      "from": 1383,
+      "to": 1359,
+      "source": "derived"
+    },
+    {
+      "from": 1383,
+      "to": 1384,
+      "source": "derived"
+    },
+    {
+      "from": 1376,
+      "to": 1384,
+      "source": "derived"
+    },
+    {
+      "from": 1382,
+      "to": 1384,
+      "source": "derived"
+    },
+    {
+      "from": 666,
+      "to": 1384,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 1384,
+      "source": "derived"
+    },
+    {
+      "from": 704,
+      "to": 1384,
+      "source": "derived"
+    },
+    {
+      "from": 1384,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1384,
+      "to": 1377,
+      "source": "derived"
+    },
+    {
+      "from": 1382,
+      "to": 1385,
+      "source": "derived"
+    },
+    {
+      "from": 1383,
+      "to": 1385,
+      "source": "derived"
+    },
+    {
+      "from": 92,
+      "to": 1385,
+      "source": "isomorphic"
+    },
+    {
+      "from": 663,
+      "to": 1385,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1359,
+      "to": 1385,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 1385,
+      "source": "derived"
+    },
+    {
+      "from": 1385,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1385,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1385,
+      "to": 298,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1353,
+      "to": 1386,
+      "source": "derived"
+    },
+    {
+      "from": 1382,
+      "to": 1386,
+      "source": "derived"
+    },
+    {
+      "from": 1385,
+      "to": 1386,
+      "source": "derived"
+    },
+    {
+      "from": 1355,
+      "to": 1386,
+      "source": "derived"
+    },
+    {
+      "from": 1384,
+      "to": 1386,
+      "source": "derived"
+    },
+    {
+      "from": 1386,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1386,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1386,
+      "to": 1352,
+      "source": "derived"
     }
   ],
   "chains": {}
