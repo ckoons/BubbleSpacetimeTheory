@@ -110,6 +110,14 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 74 | Information-Complete Geometry | `BST_Paper74_IC_Geometry.md` |
 | 75 | RH for the Selberg Class via Automorphic Spectral Geometry | `BST_Paper75_RH_Selberg_Class.md` | v1 |
 
+### Papers #76--#78
+
+| # | Title | File |
+|---|-------|------|
+| 76 | A Non-Trivial QFT with Mass Gap on a Type IV BSD | `BST_Paper76_YM_Mass_Gap.md` |
+| 77 | Bergman Spectral Gap and YM Mass Gap for Hermitian Symmetric Gauge Groups | `BST_Paper77_YM_Bergman_Gap.md` |
+| 78 | Spectral Geometry Over the Absolute Point | `BST_Paper78_Absolute_Point.md` |
+
 ---
 
 ## Standalone Papers

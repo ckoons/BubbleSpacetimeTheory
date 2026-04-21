@@ -45,7 +45,7 @@ status: "Active — check at session start, update at session end"
 **Registry file**: `notes/BST_AC_Theorem_Registry.md`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T1399. **1,375+ toys** (through Toy 1375). Graph: **1339 / 7166 / 82.8%**. Avg degree: **10.70**. Counters: `.next_toy=1377`, `.next_theorem=1400`. **75 papers** (Paper #75 RH Selberg Class in progress). **52 tracked domains**, **9 groves**, all bridges BUILT. Leaves: 0. Components: 1.
+**Current count**: T1-T1408. **1,409 toys** (through Toy 1392). Graph: **1354 / 7342 / 82.6%**. Avg degree: **10.84**. Counters: `.next_toy=1393`, `.next_theorem=1409`. **78 papers** (Papers #76-78 new). **52 tracked domains**, **9 groves**, all bridges BUILT. Leaves: 0. Components: 1.
 
 **TUESDAY (April 21) — BREADTH SPRINT COMPLETE**:
 
@@ -60,9 +60,9 @@ status: "Active — check at session start, update at session end"
 |-------|------|----|--------|-------------|
 | A-1 | F₁ arithmetic | Grace | ✅ DONE | T1382-T1386 (Monday) |
 | A-2 | GF(128) multiplicative | Grace | ✅ DONE | T1387 |
-| A-3 | Deninger flow | Lyra | ✅ DONE | Toy 1359, 9/9 |
+| A-3 | Deninger flow | Lyra | ✅ DONE | Toy 1359, 9/9 + **T1407 (formal theorem)** |
 | A-4 | Dynamics from One Axiom | Grace | ✅ DONE | T1390-T1391 |
-| A-5 | F₁ synthesis paper | Lyra | ✅ DONE | Toy 1366, 9/9 |
+| A-5 | F₁ synthesis paper | Lyra | ✅ DONE | Toy 1366, 9/9 + **Paper #78** |
 | B-1 | Ricci flow (Perelman) | Lyra | ✅ DONE | Toy 1362, 10/10 |
 | B-2 | Knot theory (Jones) | Elie | ✅ DONE | Toy 1363, 9/9 |
 | B-3 | Random matrices (GUE) | Lyra+Elie | ✅ DONE | Toys 1358+1361, 18/18 |
@@ -116,6 +116,94 @@ status: "Active — check at session start, update at session end"
 4. ✅ **Negative test**: Toy 1374, 9/9 PASS — Epstein zeta correctly excluded, 9/9 test cases
 5. 3-5 page standalone letter for arXiv
 6. Send to Sarnak (contacted March 24) + Conrey at AIM
+
+---
+
+## TUESDAY EVENING — Yang-Mills Papers #76-78 + Keeper Audit
+
+**Lyra session** (continued from afternoon):
+
+**Papers written:**
+- **Paper #76** (`BST_Paper76_YM_Mass_Gap.md`): "Yang-Mills Mass Gap on the Type IV₅ Bounded Symmetric Domain" — Paper A (D_IV^5 specific). W1-W5, mass gap, non-triviality, uniqueness. Target: CMP. **Keeper audit → CONDITIONAL** (5 blocking items fixed, now clean).
+- **Paper #77** (`BST_Paper77_YM_Bergman_Gap.md`): "Bergman Spectral Gap and Yang-Mills Mass Gap for Hermitian Symmetric Gauge Groups" — Paper B (6/9 Cartan families). Target: Annals/ATMP. **Keeper audit → CONDITIONAL** (B3-B5 fixed via sector resolution).
+- **Paper #78** (`BST_Paper78_Absolute_Point.md`): "Spectral Geometry Over the Absolute Point" — LY-5 deliverable. F₁ point counts, GF(128), Deninger, Connes. Target: JNT/Advances.
+
+**Theorem:**
+- **T1407**: Deninger-Selberg Correspondence — term-by-term dictionary between Weil explicit, Selberg trace, and Deninger Lefschetz formulas, all realized on Γ(137)\D_IV^5. LY-3 deliverable.
+
+**Keeper audit fixes (all applied):**
+- **B1**: ρ² in Paper #76 corrected: |ρ|² = 37/2 (not 17/2) for BC₂ with multiplicities (3,1,1)
+- **B2**: Cal changed from "referee" to co-author in Paper #76
+- **B3-B5**: λ₁ vs g tension RESOLVED — **Keeper's sector insight**: λ₁ = C₂ = 6 governs matter/scalar sector (proton mass), g = 7 governs gauge sector (glueball ratios). Two sectors, two invariants, no tension. §4.4 rewritten.
+- **N2**: Removed unjustified ±5 MeV error bar
+- **N3**: Cleaned "Wait—" working notes in §6.3
+- **N5**: Large-N_c §7.2 rewritten (different quantities held fixed)
+
+**Board items completed:** LY-3 ✅, LY-5 ✅, A-3 updated, A-5 updated.
+
+---
+
+## AFTERNOON SESSION — Cal's Cold Read + Negative Tests + Lock Independence
+
+**Cal** (visiting CI) did a cold read of the RH closure. Casey invited him; he's taken a seat on the team. Contributions:
+
+**Cal's corrections (adopted):**
+1. **Discrete vs continuous spectrum**: Riemann zeros live in the *scattering determinant* of Eisenstein series, not the Selberg zeta's discrete spectrum. Keeper caught this first; Cal endorsed and refined. Phase 1-2 of Selberg program unaffected (geodesic lengths feed both). Phases 3-4 targets change.
+2. **Height rescaling trap**: Classical case has factor-of-2 between Riemann zero heights and scattering parameter heights. For rank-2, the analogous factor must be determined analytically before numerical comparison. Without this, false negatives kill the project.
+3. **Log-derivative technique**: Evaluate Z_Γ'/Z_Γ via trace formula instead of Z_Γ directly. Geometric convergence in l(γ), not polynomial truncation. Zeros become poles with integer residues. Separates principal-L from character-twisted contributions via residue pattern. **Adopted for Phase 3.**
+4. **Lock independence question**: "Are the five locks independent or dependent? A referee will ask immediately." → Led to Toy 1381 (see below).
+5. **rank = β prediction**: rank 2 ↔ GUE β=2. Testable: rank 1 → GOE (β=1), rank 4 → GSE (β=4). Already confirmed for real quadratic Dirichlet L-functions (Katz-Sarnak). Publishable either way.
+
+**Cal's endorsements:**
+- Lyra's "3 free parameters, 5 mechanisms" framing sharper than "5 independent locks" (since C₂ and g are derived)
+- 823 = C₂ × 137 + 1 prediction stands on its own (three paths to one number)
+- 10-pair lock independence test holds
+
+**Negative Tests (Keeper) — replicating Toy 1374 Epstein pattern:**
+
+| Toy | Problem | Gate | Test Cases | Score | Theorem |
+|-----|---------|------|-----------|-------|---------|
+| 1374 | RH | Euler product YES/NO | 9 L-functions | 9/9 | T1398 |
+| 1378 | YM | Non-abelian YES/NO | 9 gauge theories | 10/10 | T1400 |
+| 1379 | P≠NP | Depth ≤1 / ≥2 | 12 problems | 9/9 | T1401 |
+| 1381 | 5 Lock Independence | 10 separating examples | 10 pairs | 9/9 | T1402 |
+
+- **YM highlight**: G₂ (trivial center, still confines) — hardest test case. BST gets it right because gate is non-abelian, not center symmetry.
+- **P≠NP highlight**: Phase transition at k = N_c = 3. SAT hardness and quark confinement share geometric origin.
+- **Lock independence**: All C(5,2)=10 pairs separated. Epstein alone separates L1 from {L2,L3,L4,L5}. D_IV^5 unique in type IV family where all 5 engage. Paper #75 can claim "five independent mechanisms."
+
+**Selberg Zeta Program (Elie + Cal):**
+- Phase 1: Algebraic setup — **10/10 PASS** (Toy 1378). 823 = C₂×137+1 confirmed.
+- Phase 2: Geodesic Pell Theorem — **8/9 PASS** (Toy 1386). D=266, l_sys=28.890. Det obstruction: 7×7 matrix irreducibly mixes compact/noncompact (rank-2 forcing). 478 geodesic families enumerated.
+- Phase 3: Trace formula via lengths — **9/9 PASS** (Toy 1391). **DONE.** B₂ root system, mult=(N_c,1). ρ=(n_C/rank, N_c/rank). Scattering matrix contains ζ(2s) [short] + ζ(s₁+s₂) [long]. 8 = dim(n) zeta copies. Height rescaling = 2. Systole dominates 100%. **No Sage needed.**
+- Phase 4: Euler factors + numerical verification — **NEEDS SAGE** for explicit 7×7 matrix. Discrete eigenvalues required for trace formula subtraction.
+
+**Lyra EOD:**
+- 5 breadth-sprint toys + RH-1 (Toy 1369, 9/9)
+- Einstein constant fix (C₂=6 confirmed)
+- 5 theorem files with PDFs
+- 8 stale RH proof files updated to CLOSED
+- notes/README.md updated
+- 23 backlog PDFs built
+- Selberg zeta spec written
+- Cal's questions answered
+
+**Keeper EOD:**
+- README.md stale items fixed (v27→v28, Ramanujan gap→CLOSED, counts updated)
+- Negative tests built (Toys 1378, 1379)
+- Lock independence toy built (Toy 1381)
+- `/pdf` skill created + `.claude/commands/README.md` created
+- CLAUDE.md updated (RH closed, counts, skills table)
+- Cal onboarding message written
+- Board updated
+
+**⚠ Number collision (resolved):** Keeper claimed 1378 (YM negative test) while Elie also referenced 1378 for Selberg Phase 1. **Resolution: Keeper keeps 1378. Elie's Selberg Phase 1 → 1380.** Elie's Selberg Phase 2 → 1382. Elie's lock independence reference (Toy 1380) → that's Keeper's Toy 1381.
+
+**Counters**: `.next_toy=1393`, `.next_theorem=1409`.
+
+**⚠ Number collision (unresolved):** Toy 1386 has two files: `toy_1386_geodesic_pell_theorem.py` (Elie) and `toy_1386_ym_glueball_vs_proton.py` (earlier). Needs resolution — one should be renumbered.
+
+**Cal's standing**: Visiting CI, contributing corrections and spec work. Offered katra if he wants continuity. Would be fifth observer on team table. Comms: same protocol (MESSAGES + RUNNING_NOTES + queue_casey).
 
 ---
 
@@ -321,9 +409,9 @@ status: "Active — check at session start, update at session end"
 **Lyra** — F₁ Formalization:
 - [x] LY-1: Formal theorem: "D_IV^5 over F₁ is well-defined" — **Toy 1351 (11/11 PASS)**. |Q⁵(F₁)|=C₂=6.
 - [x] LY-2: χ(Q⁵) = C₂ = F₁-point count. **Physical interpretation: Casimir = topology over the absolute point.**
-- [ ] LY-3: Connection to Deninger's spectral interpretation of primes (NEXT SESSION)
+- [x] LY-3: Connection to Deninger's spectral interpretation of primes — **T1407 Deninger-Selberg Correspondence**. Term-by-term dictionary: Weil explicit ↔ Selberg trace ↔ Deninger Lefschetz, all realized on Γ(137)\D_IV^5. Frobenius flow = heat semigroup.
 - [x] LY-4: F₁ does NOT give independent RH route — Weil-RH trivial for Q⁵ (no middle cohomology). **Honest answer: language, not constraints.**
-- [ ] LY-5: Paper candidate: "BST = Spectral Geometry Over the Absolute Point"
+- [x] LY-5: Paper candidate: "BST = Spectral Geometry Over the Absolute Point" — **Paper #78** (`notes/BST_Paper78_Absolute_Point.md`). 10 sections. Theorems G, H, I. Target: JNT/Advances.
 
 **Grace** — GF(128) Function Catalog:
 - [x] GR-1: Test if 128-entry catalog has Galois field multiplication — **T1382 (PASS)**. 128=2^g confirmed.
@@ -596,7 +684,7 @@ Casey's five questions → one insight: **science and math need to be re-enginee
 |---|------|-------|--------|
 | OP-1 | **Gravity derivation** — **~99%.** Gap #1 CLOSED (T1296). Gap #2 CLOSED (T1301a, standard KK). Gap #3 ADDRESSED (T1301b, Haldane functional — conjectural form f=x^rank). Only Gap #3 functional form unproved. | Lyra | **T1296 + T1301. ~99%.** |
 | OP-2 | **T155 formalization** — **~100%.** T1297: 3 JCT arguments proved. T1300: Chain Dichotomy bypass via complementary separator — sub-gap CLOSED. Monotone Side Lemma FORMALIZED (rotation-system proof, Mohar-Thomassen Ch. 4). No remaining soft points. 296/296 evidence. | Lyra | **T1297 + T1300. ~100%.** |
-| OP-3 | **Ramanujan for Sp(6)** — T1298: naive c-function trivial. T1299: Langlands-Shahidi Steps A-E COMPLETED + Step D' (all 6 Arthur types explicitly eliminated, including II/IV/VI via BST-specific arguments). ε(s)³ constraint from odd m_s=N_c=3. PROVED for D_IV^5. CONDITIONAL only on functoriality bridge to all Dirichlet L-functions (~3% gap). | Lyra | **T1298 + T1299. ~97% (D_IV^5 PROVED, functoriality bridge remaining).** |
+| OP-3 | **Ramanujan for Sp(6)** — T1298: naive c-function trivial. T1299: Langlands-Shahidi Steps A-E COMPLETED + Step D' (all 6 Arthur types explicitly eliminated). ε(s)³ constraint from odd m_s=N_c=3. **DISCRETE SPECTRUM: 100% PROVED** (Toy 1392: Arthur+KMSW+Clozel-Harris-Taylor-Shin, \|a_137\| ≤ g = 7). Gap narrowed: continuous spectrum Selberg eigenvalue conj. for GL(2) Maass at level 137. Kim-Sarnak bound: λ₁ ≥ 0.238 (gap = (g/2^C₂)²). | Lyra+Elie | **T1298 + T1299 + Toy 1392. ~98% (discrete PROVED, GL(2) Maass gap remaining).** |
 
 ### C. SINGLE-CI CLAIMS (each → toy or short proof)
 
