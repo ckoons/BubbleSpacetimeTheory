@@ -25,7 +25,7 @@
       "fluid_mechanics": 1,
       "astrophysics": 1
     },
-    "last_updated": "2026-04-18",
+    "last_updated": "2026-04-21",
     "source": "play/bst_appliance/knowledge_base.py + WorkingPaper.md \u00a743",
     "eval_namespace": {
       "integers": {
@@ -63,7 +63,8 @@
         "abs",
         "pow"
       ]
-    }
+    },
+    "total": 111
   },
   "constants": [
     {
@@ -3607,6 +3608,67 @@
       ],
       "source_toys": [],
       "status": "structural"
+    },
+    {
+      "name": "GF(128) defining polynomial",
+      "symbol": "p_GF",
+      "value": 137,
+      "formula": "x^7 + x^3 + 1",
+      "formula_code": "2**7 + 2**3 + 1",
+      "observed_value": 137,
+      "precision": "exact",
+      "source": "T1383",
+      "description": "N_max = 137 in binary IS the irreducible polynomial defining GF(128) over F\u2082"
+    },
+    {
+      "name": "Frobenius orbit count",
+      "symbol": "n_orbits",
+      "value": 18,
+      "formula": "rank \u00d7 N_c\u00b2",
+      "formula_code": "rank * N_c**2",
+      "observed_value": 18,
+      "precision": "exact",
+      "source": "T1382"
+    },
+    {
+      "name": "Glueball 0-+/0++ mass ratio",
+      "symbol": "r_glueball_01",
+      "value": 1.5,
+      "formula": "N_c/rank",
+      "formula_code": "N_c/rank",
+      "observed_value": 1.497,
+      "precision": "0.2%",
+      "source": "T1403"
+    },
+    {
+      "name": "SU(4)/SU(3) mass gap ratio",
+      "symbol": "r_SU4_SU3",
+      "value": 1.069,
+      "formula": "sqrt(8/7)",
+      "formula_code": "(8/7)**0.5",
+      "observed_value": 1.067,
+      "precision": "0.2%",
+      "source": "T1402"
+    },
+    {
+      "name": "Quine execution cost",
+      "symbol": "f_quine",
+      "value": 0.2044,
+      "formula": "4g/N_max = 28/137",
+      "formula_code": "4*g/N_max",
+      "observed_value": null,
+      "precision": "structural",
+      "source": "T1390"
+    },
+    {
+      "name": "Transcendence gap",
+      "symbol": "delta_trans",
+      "value": 0.01339,
+      "formula": "28/137 - 3/(5\u03c0)",
+      "formula_code": "28/137 - 3/(5*pi)",
+      "observed_value": null,
+      "precision": "exact",
+      "source": "T1391"
     }
   ]
 }

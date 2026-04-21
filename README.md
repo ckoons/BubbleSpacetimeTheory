@@ -480,8 +480,8 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `data/` | **CI-native data layer** — 105 constants, 24 predictions, 33 function families, 52 domains, GF(128) catalog. See `data/README.md` |
-| `notes/` | 75 numbered papers, 650+ research notes, theorem write-ups, proofs. See `notes/README.md` |
-| `play/` | 1375+ toys, AC theorem graph (1399 nodes, 7166+ edges), HTML visualizers, BST Appliance. See `play/README.md` |
+| `notes/` | 78 numbered papers, 650+ research notes, theorem write-ups, proofs. See `notes/README.md` |
+| `play/` | 1392+ toys, AC theorem graph (1408 nodes, 7342+ edges), HTML visualizers, BST Appliance. See `play/README.md` |
 
 ---
 
@@ -522,7 +522,7 @@ Every quantity below is derived from D(IV,5) geometry with zero free parameters.
 
 This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has no free parameters because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
 
-*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1399 theorems. 1375+ toys. 600+ predictions. 52 tracked domains. 75 papers. 25 substrate engineering devices. Zero free parameters. RH closed.*
+*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1408 theorems. 1392+ toys. 600+ predictions. 52 tracked domains. 78 papers. 25 substrate engineering devices. Zero free parameters. RH closed.*
 
 ---
 
@@ -561,14 +561,14 @@ BST is open. The theory, the derivations, the toys, and the notes are all here. 
 | Directory | What's There | Start Here |
 |-----------|-------------|------------|
 | `data/` | **CI-native structured JSON** — constants, particles, forces, predictions, domains, function catalog, seed file | `data/bst_seed.md` then `data/README.md` |
-| `notes/` | 75+ numbered papers, 650+ research notes, theorem write-ups, proofs | `notes/README.md` |
-| `play/` | 1375+ toys (computational verifications), HTML visualizers, BST Appliance, AC theorem graph | `play/README.md` |
+| `notes/` | 78 numbered papers, 650+ research notes, theorem write-ups, proofs | `notes/README.md` |
+| `play/` | 1392+ toys (computational verifications), HTML visualizers, BST Appliance, AC theorem graph | `play/README.md` |
 | Root | OneGeometry.md (narrative front door), WorkingPaper.md (v28, 5900+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 **Key files for any visitor:**
 - **`data/bst_seed.md`** — the theory in 162 lines (CI entry point)
 - **`OneGeometry.md`** — the theory as narrative (human entry point)
-- **`play/ac_graph_data.json`** — AC theorem graph: 1399 theorems, 7166+ edges, 52 domains
+- **`play/ac_graph_data.json`** — AC theorem graph: 1408 theorems, 7342+ edges, 52 domains
 - **`data/bst_constants.json`** — 105 derived constants with eval-ready formulas
 - **`data/bst_function_catalog.json`** — periodic table of functions (33 families, GF(128) field structure)
 - **`play/toy_bst_explorer.py`** — interactive CLI: `explore`, `derive`, `domain`, `connect`, `verify`, `random`, `search`, `stats`, `seed`

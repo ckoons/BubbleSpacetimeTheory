@@ -17019,7 +17019,9 @@
       "domain": "number_theory",
       "depth": 1,
       "status": "proved",
-      "toys": []
+      "toys": [
+        1367
+      ]
     },
     {
       "tid": 1299,
@@ -17453,7 +17455,8 @@
       "status": "proved",
       "toys": [
         1314,
-        1356
+        1356,
+        1367
       ]
     },
     {
@@ -17843,7 +17846,8 @@
       "depth": 0,
       "status": "proved",
       "toys": [
-        1351
+        1351,
+        1374
       ]
     },
     {
@@ -17853,7 +17857,8 @@
       "depth": 0,
       "status": "proved",
       "toys": [
-        1351
+        1351,
+        1375
       ]
     },
     {
@@ -17863,7 +17868,8 @@
       "depth": 0,
       "status": "proved",
       "toys": [
-        1351
+        1351,
+        1373
       ]
     },
     {
@@ -17873,7 +17879,8 @@
       "depth": 0,
       "status": "proved",
       "toys": [
-        1351
+        1351,
+        1372
       ]
     },
     {
@@ -17950,7 +17957,8 @@
       "depth": 1,
       "status": "proved",
       "toys": [
-        1363
+        1363,
+        1376
       ]
     },
     {
@@ -17968,7 +17976,8 @@
       "depth": 1,
       "status": "proved",
       "toys": [
-        1368
+        1368,
+        1384
       ]
     },
     {
@@ -17979,6 +17988,122 @@
       "status": "proved",
       "toys": [
         1369
+      ]
+    },
+    {
+      "tid": 1398,
+      "name": "Selberg Zeta Phase 1: 823 = C\u2082\u00b7N_max+1, Casimir Sets Shortest Geodesic",
+      "domain": "number_theory",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1378,
+        1371
+      ]
+    },
+    {
+      "tid": 1399,
+      "name": "Glueball \u2260 Proton: 938 MeV Is Full Theory Mass Gap, Pure Gauge Needs Adjoint Sector",
+      "domain": "qft",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1386,
+        1379
+      ]
+    },
+    {
+      "tid": 1400,
+      "name": "Bergman Mass Gap: Exists for All Hermitian-Symmetric Gauge Groups (6 of 9 families)",
+      "domain": "qft",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1387,
+        1377,
+        1380
+      ]
+    },
+    {
+      "tid": 1401,
+      "name": "Physical Scale Problem: m_e Is D_IV^5-Specific, Each Domain Needs Own \u039b_N",
+      "domain": "qft",
+      "depth": 1,
+      "status": "resolved",
+      "toys": []
+    },
+    {
+      "tid": 1402,
+      "name": "Bergman Gap Ratios Match Lattice: \u221a(g_N/g_{N-1}) = SU(N)/SU(N-1) Mass Ratio",
+      "domain": "qft",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1388,
+        1382
+      ]
+    },
+    {
+      "tid": 1403,
+      "name": "Glueball Spectrum: C\u2082=6 Confining Directions, 4/5 States Match Lattice \u22643.1%",
+      "domain": "qft",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1389,
+        1383
+      ]
+    },
+    {
+      "tid": 1404,
+      "name": "BST Integer Cascade: Genus(D_IV^N) = Casimir(D_IV^{N+1}) Across Cartan Family",
+      "domain": "number_theory",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1388,
+        1381
+      ]
+    },
+    {
+      "tid": 1405,
+      "name": "Five Integers = Minimal Closure Set: g=n_C+rank, N_c=n_C-rank, C\u2082=2N_c, All Distinct at n_C=5",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1390
+      ]
+    },
+    {
+      "tid": 1406,
+      "name": "One-Line Uniqueness: Domain Casimir = Gauge Casimir Only at n=5 (n+1=2(n-2))",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": [
+        1390,
+        1385
+      ]
+    },
+    {
+      "tid": 1407,
+      "name": "Selberg Phase 3: B\u2082 Scattering Matrix, 8 Zeta Copies, One Geodesic Dominates",
+      "domain": "number_theory",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1391
+      ]
+    },
+    {
+      "tid": 1408,
+      "name": "Ramanujan at p=137: |\u03b1_i| = 1 (Tempered), |a_137| \u2264 g = 7, Discrete PROVED",
+      "domain": "number_theory",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1392
       ]
     }
   ],
@@ -53986,6 +54111,711 @@
     {
       "from": 111,
       "to": 1342,
+      "source": "derived"
+    },
+    {
+      "from": 1341,
+      "to": 1398,
+      "source": "derived"
+    },
+    {
+      "from": 1396,
+      "to": 1398,
+      "source": "derived"
+    },
+    {
+      "from": 1397,
+      "to": 1398,
+      "source": "derived"
+    },
+    {
+      "from": 190,
+      "to": 1398,
+      "source": "derived"
+    },
+    {
+      "from": 111,
+      "to": 1398,
+      "source": "derived"
+    },
+    {
+      "from": 1398,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1398,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1170,
+      "to": 1271,
+      "source": "derived"
+    },
+    {
+      "from": 972,
+      "to": 1170,
+      "source": "derived"
+    },
+    {
+      "from": 1146,
+      "to": 1170,
+      "source": "derived"
+    },
+    {
+      "from": 896,
+      "to": 1271,
+      "source": "derived"
+    },
+    {
+      "from": 896,
+      "to": 1146,
+      "source": "derived"
+    },
+    {
+      "from": 567,
+      "to": 1170,
+      "source": "derived"
+    },
+    {
+      "from": 267,
+      "to": 896,
+      "source": "derived"
+    },
+    {
+      "from": 1188,
+      "to": 1170,
+      "source": "derived"
+    },
+    {
+      "from": 25,
+      "to": 896,
+      "source": "derived"
+    },
+    {
+      "from": 1271,
+      "to": 1351,
+      "source": "derived"
+    },
+    {
+      "from": 1170,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1271,
+      "to": 1354,
+      "source": "derived"
+    },
+    {
+      "from": 1170,
+      "to": 1399,
+      "source": "derived"
+    },
+    {
+      "from": 896,
+      "to": 1399,
+      "source": "derived"
+    },
+    {
+      "from": 186,
+      "to": 1399,
+      "source": "derived"
+    },
+    {
+      "from": 1399,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1170,
+      "to": 1400,
+      "source": "derived"
+    },
+    {
+      "from": 1271,
+      "to": 1400,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 1400,
+      "source": "derived"
+    },
+    {
+      "from": 186,
+      "to": 1400,
+      "source": "derived"
+    },
+    {
+      "from": 1400,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1400,
+      "to": 1399,
+      "source": "derived"
+    },
+    {
+      "from": 1400,
+      "to": 1401,
+      "source": "derived"
+    },
+    {
+      "from": 1399,
+      "to": 1401,
+      "source": "derived"
+    },
+    {
+      "from": 1170,
+      "to": 1401,
+      "source": "derived"
+    },
+    {
+      "from": 186,
+      "to": 1401,
+      "source": "derived"
+    },
+    {
+      "from": 1401,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1400,
+      "to": 1402,
+      "source": "derived"
+    },
+    {
+      "from": 1401,
+      "to": 1402,
+      "source": "derived"
+    },
+    {
+      "from": 649,
+      "to": 1402,
+      "source": "derived"
+    },
+    {
+      "from": 190,
+      "to": 1402,
+      "source": "derived"
+    },
+    {
+      "from": 1170,
+      "to": 1402,
+      "source": "derived"
+    },
+    {
+      "from": 1402,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1402,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1402,
+      "to": 1399,
+      "source": "derived"
+    },
+    {
+      "from": 1399,
+      "to": 1403,
+      "source": "derived"
+    },
+    {
+      "from": 1402,
+      "to": 1403,
+      "source": "derived"
+    },
+    {
+      "from": 1170,
+      "to": 1403,
+      "source": "derived"
+    },
+    {
+      "from": 190,
+      "to": 1403,
+      "source": "derived"
+    },
+    {
+      "from": 666,
+      "to": 1403,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1403,
+      "source": "derived"
+    },
+    {
+      "from": 1403,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1403,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1403,
+      "to": 1400,
+      "source": "derived"
+    },
+    {
+      "from": 1402,
+      "to": 1404,
+      "source": "derived"
+    },
+    {
+      "from": 1400,
+      "to": 1404,
+      "source": "derived"
+    },
+    {
+      "from": 649,
+      "to": 1404,
+      "source": "derived"
+    },
+    {
+      "from": 190,
+      "to": 1404,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 1404,
+      "source": "derived"
+    },
+    {
+      "from": 1404,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1404,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1404,
+      "to": 1405,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 1405,
+      "source": "isomorphic"
+    },
+    {
+      "from": 667,
+      "to": 1405,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1405,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 1405,
+      "source": "derived"
+    },
+    {
+      "from": 1405,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1405,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1405,
+      "to": 1359,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1404,
+      "to": 1406,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 1406,
+      "source": "isomorphic"
+    },
+    {
+      "from": 190,
+      "to": 1406,
+      "source": "derived"
+    },
+    {
+      "from": 1400,
+      "to": 1406,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 1406,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1406,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1406,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1024,
+      "to": 110,
+      "source": "structural"
+    },
+    {
+      "from": 523,
+      "to": 567,
+      "source": "structural"
+    },
+    {
+      "from": 554,
+      "to": 558,
+      "source": "structural"
+    },
+    {
+      "from": 558,
+      "to": 554,
+      "source": "structural"
+    },
+    {
+      "from": 568,
+      "to": 523,
+      "source": "structural"
+    },
+    {
+      "from": 569,
+      "to": 419,
+      "source": "structural"
+    },
+    {
+      "from": 570,
+      "to": 523,
+      "source": "structural"
+    },
+    {
+      "from": 573,
+      "to": 110,
+      "source": "structural"
+    },
+    {
+      "from": 575,
+      "to": 572,
+      "source": "structural"
+    },
+    {
+      "from": 600,
+      "to": 1328,
+      "source": "structural"
+    },
+    {
+      "from": 601,
+      "to": 1328,
+      "source": "structural"
+    },
+    {
+      "from": 603,
+      "to": 1328,
+      "source": "structural"
+    },
+    {
+      "from": 1141,
+      "to": 1196,
+      "source": "structural"
+    },
+    {
+      "from": 1143,
+      "to": 317,
+      "source": "structural"
+    },
+    {
+      "from": 1156,
+      "to": 1184,
+      "source": "structural"
+    },
+    {
+      "from": 1158,
+      "to": 1141,
+      "source": "structural"
+    },
+    {
+      "from": 151,
+      "to": 1306,
+      "source": "structural"
+    },
+    {
+      "from": 1176,
+      "to": 572,
+      "source": "structural"
+    },
+    {
+      "from": 171,
+      "to": 756,
+      "source": "structural"
+    },
+    {
+      "from": 176,
+      "to": 110,
+      "source": "structural"
+    },
+    {
+      "from": 200,
+      "to": 187,
+      "source": "structural"
+    },
+    {
+      "from": 208,
+      "to": 207,
+      "source": "structural"
+    },
+    {
+      "from": 212,
+      "to": 110,
+      "source": "structural"
+    },
+    {
+      "from": 217,
+      "to": 317,
+      "source": "structural"
+    },
+    {
+      "from": 261,
+      "to": 110,
+      "source": "structural"
+    },
+    {
+      "from": 266,
+      "to": 1042,
+      "source": "structural"
+    },
+    {
+      "from": 275,
+      "to": 110,
+      "source": "structural"
+    },
+    {
+      "from": 289,
+      "to": 523,
+      "source": "structural"
+    },
+    {
+      "from": 301,
+      "to": 317,
+      "source": "structural"
+    },
+    {
+      "from": 302,
+      "to": 207,
+      "source": "structural"
+    },
+    {
+      "from": 303,
+      "to": 1328,
+      "source": "structural"
+    },
+    {
+      "from": 304,
+      "to": 207,
+      "source": "structural"
+    },
+    {
+      "from": 813,
+      "to": 110,
+      "source": "structural"
+    },
+    {
+      "from": 1334,
+      "to": 1350,
+      "source": "structural"
+    },
+    {
+      "from": 327,
+      "to": 110,
+      "source": "structural"
+    },
+    {
+      "from": 869,
+      "to": 110,
+      "source": "structural"
+    },
+    {
+      "from": 877,
+      "to": 110,
+      "source": "structural"
+    },
+    {
+      "from": 384,
+      "to": 110,
+      "source": "structural"
+    },
+    {
+      "from": 419,
+      "to": 420,
+      "source": "structural"
+    },
+    {
+      "from": 931,
+      "to": 1141,
+      "source": "structural"
+    },
+    {
+      "from": 454,
+      "to": 1328,
+      "source": "structural"
+    },
+    {
+      "from": 997,
+      "to": 1000,
+      "source": "structural"
+    },
+    {
+      "from": 1000,
+      "to": 997,
+      "source": "structural"
+    },
+    {
+      "from": 1003,
+      "to": 1328,
+      "source": "structural"
+    },
+    {
+      "from": 1006,
+      "to": 110,
+      "source": "structural"
+    },
+    {
+      "from": 1013,
+      "to": 317,
+      "source": "structural"
+    },
+    {
+      "from": 1022,
+      "to": 187,
+      "source": "structural"
+    },
+    {
+      "from": 1298,
+      "to": 1396,
+      "source": "derived"
+    },
+    {
+      "from": 1298,
+      "to": 1402,
+      "source": "derived"
+    },
+    {
+      "from": 1398,
+      "to": 1407,
+      "source": "derived"
+    },
+    {
+      "from": 1342,
+      "to": 1407,
+      "source": "derived"
+    },
+    {
+      "from": 1341,
+      "to": 1407,
+      "source": "derived"
+    },
+    {
+      "from": 1396,
+      "to": 1407,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1407,
+      "source": "derived"
+    },
+    {
+      "from": 666,
+      "to": 1407,
+      "source": "derived"
+    },
+    {
+      "from": 1407,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1407,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1407,
+      "to": 1270,
+      "source": "derived"
+    },
+    {
+      "from": 1298,
+      "to": 1408,
+      "source": "derived"
+    },
+    {
+      "from": 1396,
+      "to": 1408,
+      "source": "derived"
+    },
+    {
+      "from": 1407,
+      "to": 1408,
+      "source": "derived"
+    },
+    {
+      "from": 1299,
+      "to": 1408,
+      "source": "derived"
+    },
+    {
+      "from": 649,
+      "to": 1408,
+      "source": "derived"
+    },
+    {
+      "from": 190,
+      "to": 1408,
+      "source": "derived"
+    },
+    {
+      "from": 666,
+      "to": 1408,
+      "source": "derived"
+    },
+    {
+      "from": 1408,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1408,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1408,
+      "to": 1270,
       "source": "derived"
     }
   ],

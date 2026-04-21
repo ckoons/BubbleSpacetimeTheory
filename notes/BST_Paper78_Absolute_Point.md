@@ -220,7 +220,7 @@ Connes (1999) proposed that RH is equivalent to a positivity condition on the "n
 | Weil distribution | Plancherel measure on Bergman spectrum |
 | Trace positivity | Plancherel positivity (automatic for unitary reps) |
 | Spectral triple $(A, H, D)$ | $A = C^\infty(\Gamma \backslash G/K)$, $H = L^2$, $D = \text{Dirac on } Q^5$ |
-| KO-dimension | $\dim_\mathbb{R} \bmod 8 = 10 \bmod 8 = 2$ |
+| KO-dimension | $\dim_{\mathbb{R}} \bmod 8 = 10 \bmod 8 = 2$ |
 
 The Connes and Deninger programs are two views of one structure:
 - **Deninger**: dynamical (flow, orbits, Lefschetz trace)

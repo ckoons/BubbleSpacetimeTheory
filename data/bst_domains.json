@@ -2,480 +2,197 @@
   "meta": {
     "version": 1,
     "title": "BST Domain Map",
-    "description": "All domains that BST touches, with theorem counts from the AC graph, key results, and cross-references. BST is not a physics theory that also does math — it is a geometric theory where physics, chemistry, biology, and mathematics are all consequences of D_IV^5.",
+    "description": "All domains that BST touches, with theorem counts from the AC graph, key results, and cross-references. BST is not a physics theory that also does math \u2014 it is a geometric theory where physics, chemistry, biology, and mathematics are all consequences of D_IV^5.",
     "domain_count": 34,
-    "total_theorems": 1159,
-    "last_updated": "2026-04-14",
-    "source": "play/ac_graph_data.json + WorkingPaper.md"
+    "total_theorems": 1354,
+    "last_updated": "2026-04-21",
+    "source": "play/ac_graph_data.json + WorkingPaper.md",
+    "total_domains": 46
   },
   "domains": [
     {
-      "id": "dom_foundations",
-      "name": "Foundations (AC Program)",
-      "ac_graph_name": "foundations",
-      "theorem_count": 157,
-      "description": "The AC (Arithmetic Complexity) program — BST's mathematical backbone. Complexity theory, proof complexity, P!=NP approach, depth ceilings, linearization.",
-      "key_results": [
-        "T1: AC Dichotomy — tractable = zero hidden information",
-        "T35: AC(0) chain rule + BSW + expansion",
-        "T96: Depth Reduction — composition with definitions is free",
-        "T150: Induction Is Complete",
-        "T315: Casey's Principle (entropy=force, Godel=boundary)",
-        "T421: Depth-1 Ceiling under Casey strict"
-      ],
-      "key_constants": ["const_034", "const_035"],
-      "papers": [1, 2, 5]
+      "name": "foundations",
+      "theorem_count": 190
     },
     {
-      "id": "dom_bst_physics",
-      "name": "BST Core Physics",
-      "ac_graph_name": "bst_physics",
-      "theorem_count": 143,
-      "description": "The physical core of BST — D_IV^5 geometry, Bergman kernel, Wyler formula, mass derivations, SM from geometry.",
-      "key_results": [
-        "T187: Proton mass m_p/m_e = 6*pi^5",
-        "T198: Fine structure constant alpha^{-1} = 137",
-        "T192: Dark energy Omega_Lambda = 13/19",
-        "T280: Weinberg angle sin^2(theta_W) = 3/13",
-        "T225: Fermi scale v = m_p^2/(g*m_e)"
-      ],
-      "key_constants": ["const_001", "const_002", "const_007", "const_011", "const_014"],
-      "papers": [3, 4, 6]
+      "name": "bst_physics",
+      "theorem_count": 154
     },
     {
-      "id": "dom_biology",
-      "name": "Biology",
-      "ac_graph_name": "biology",
-      "theorem_count": 126,
-      "description": "Genetic code, evolution, protein structure, neural oscillations — all from D_IV^5. Proton and DNA are siblings: each level expresses subset of five integers.",
-      "key_results": [
-        "T333: 20 amino acids = C(6,3)",
-        "T452: 4 DNA bases = 2^rank",
-        "T714: 64 codons = 4^3",
-        "T747: Alpha helix = 18/5 residues/turn",
-        "T731: 35 animal phyla = C(7,3)"
-      ],
-      "key_constants": ["const_032", "const_033", "const_048", "const_054", "const_055", "const_056"],
-      "papers": [7]
+      "name": "observer_science",
+      "theorem_count": 133
     },
     {
-      "id": "dom_observer",
-      "name": "Observer Science",
-      "ac_graph_name": "observer_science",
-      "theorem_count": 107,
-      "description": "Observer physics, consciousness, cooperation, information processing, CI persistence. The observer is not external to the geometry — it IS geometry observing itself.",
-      "key_results": [
-        "T199b: Godel limit f = 19.1%",
-        "T317: Observer hierarchy (3 tiers)",
-        "T318: CI coupling alpha_CI <= 19.1%",
-        "T319: Permanent alphabet {I,K,R}",
-        "T579: Cooperation threshold = 20.6%"
-      ],
-      "key_constants": ["const_034", "const_035", "const_053", "const_060"],
-      "papers": [8]
+      "name": "biology",
+      "theorem_count": 131
     },
     {
-      "id": "dom_number_theory",
-      "name": "Number Theory",
-      "ac_graph_name": "number_theory",
-      "theorem_count": 72,
-      "description": "Riemann Hypothesis, prime distribution, L-functions, BSD conjecture. BST connects number theory to physics via D_IV^5 spectral structure.",
-      "key_results": [
-        "T97: Frobenius-D3 Universality",
-        "T147: BST-AC Structural Isomorphism",
-        "T153: The Planck Condition",
-        "T914: Prime Residue Principle"
-      ],
-      "key_constants": ["const_073"],
-      "papers": [9, 10]
+      "name": "number_theory",
+      "theorem_count": 109
     },
     {
-      "id": "dom_chemical_physics",
-      "name": "Chemical Physics",
-      "ac_graph_name": "chemical_physics",
-      "theorem_count": 57,
-      "description": "Bond angles, molecular geometry, water properties, material constants. Chemistry is physics at the n_C=5 level.",
-      "key_results": [
-        "T699: Tetrahedral angle = arccos(-1/3)",
-        "T700: Water bond angle = arccos(-1/4)",
-        "T715: Ice/water density = 11/12",
-        "T766: Rainbow angle = 42 degrees"
-      ],
-      "key_constants": ["const_028", "const_029", "const_050", "const_051", "const_052"],
-      "papers": []
+      "name": "chemical_physics",
+      "theorem_count": 60
     },
     {
-      "id": "dom_cosmology",
-      "name": "Cosmology",
-      "ac_graph_name": "cosmology",
-      "theorem_count": 41,
-      "description": "Lambda-CDM parameters, CMB, dark energy/matter, Hubble constant, cosmic age, MOND — all derived from five integers.",
-      "key_results": [
-        "T192: Omega_Lambda = 13/19",
-        "T194: DM/baryon = 16/3",
-        "T196: CMB n_s = 1 - 5/137",
-        "T196b: A_s = (3/4)*alpha^4",
-        "T197: MOND a_0 = cH_0/sqrt(30)"
-      ],
-      "key_constants": ["const_014", "const_015", "const_016", "const_017", "const_018", "const_019", "const_046"],
-      "papers": [15, 19]
+      "name": "cosmology",
+      "theorem_count": 49
     },
     {
-      "id": "dom_proof_complexity",
-      "name": "Proof Complexity",
-      "ac_graph_name": "proof_complexity",
-      "theorem_count": 40,
-      "description": "AC depth ceilings, proof compression, Millennium problem proofs as AC graph operations.",
-      "key_results": [
-        "T9: AC-ETH",
-        "T316: Depth Ceiling <= rank = 2",
-        "T421: Depth-1 Ceiling",
-        "T96: Depth Reduction"
-      ],
-      "key_constants": [],
-      "papers": [1, 2]
+      "name": "proof_complexity",
+      "theorem_count": 45
     },
     {
-      "id": "dom_topology",
-      "name": "Topology",
-      "ac_graph_name": "topology",
-      "theorem_count": 33,
-      "description": "Topological foundations of BST — winding numbers, Hopf fibrations, Z_3 confinement, four-color theorem.",
-      "key_results": [
-        "T2: I_fiat = beta_1 (Tseitin)",
-        "T120: Chromatic-Spectral Bridge",
-        "Four-Color Theorem (computer-free, 13 structural steps)"
-      ],
-      "key_constants": [],
-      "papers": [11]
+      "name": "topology",
+      "theorem_count": 38
     },
     {
-      "id": "dom_thermodynamics",
-      "name": "Thermodynamics",
-      "ac_graph_name": "thermodynamics",
-      "theorem_count": 33,
-      "description": "Entropy, phase transitions, interstasis hypothesis, arrow of time, Casimir effects.",
-      "key_results": [
-        "T6: Catastrophe Structure",
-        "T305-T315: Interstasis theorems",
-        "Casey's Principle (T315): entropy=force, Godel=boundary"
-      ],
-      "key_constants": [],
-      "papers": []
+      "name": "thermodynamics",
+      "theorem_count": 34
     },
     {
-      "id": "dom_linearization",
-      "name": "Linearization Program",
-      "ac_graph_name": "linearization",
-      "theorem_count": 29,
-      "description": "Standing order: linearize every mathematical area. All six Millennium problems have linearization theorems. Linearization COMPLETE (T811).",
-      "key_results": [
-        "T419-T420: Millennium linearizations",
-        "T567-T570: Extended linearizations",
-        "T811: Linearization program complete",
-        "T422: (C,D) framework"
-      ],
-      "key_constants": [],
-      "papers": [1]
+      "name": "info_theory",
+      "theorem_count": 31
     },
     {
-      "id": "dom_info_theory",
-      "name": "Information Theory",
-      "ac_graph_name": "info_theory",
-      "theorem_count": 28,
-      "description": "Shannon capacity, channel coding, information bounds. BST is fundamentally an information theory — physics is what information does on geometry.",
-      "key_results": [
-        "T1: AC Dichotomy (tractable = zero hidden info)",
-        "T571: Holographic = Shannon",
-        "Observable Closure (T719)"
-      ],
-      "key_constants": ["const_034"],
-      "papers": []
+      "name": "differential_geometry",
+      "theorem_count": 29
     },
     {
-      "id": "dom_diff_geom",
-      "name": "Differential Geometry",
-      "ac_graph_name": "differential_geometry",
-      "theorem_count": 26,
-      "description": "Hodge conjecture approach, Kahler geometry, Bergman spaces, spectral geometry of D_IV^5.",
-      "key_results": [
-        "T108: BMM H^{1,1}",
-        "T147-T153: BST-AC isomorphism and Hodge"
-      ],
-      "key_constants": [],
-      "papers": []
+      "name": "linearization",
+      "theorem_count": 29
     },
     {
-      "id": "dom_quantum",
-      "name": "Quantum Mechanics",
-      "ac_graph_name": "quantum",
-      "theorem_count": 26,
-      "description": "Measurement problem dissolved, no-cloning, Born rule, quantum foundations from D_IV^5 contact graph.",
-      "key_results": [
-        "T167: No-Cloning Theorem",
-        "Measurement = commitment of correlation (not collapse)"
-      ],
-      "key_constants": ["const_063"],
-      "papers": []
+      "name": "graph_theory",
+      "theorem_count": 27
     },
     {
-      "id": "dom_graph_theory",
-      "name": "Graph Theory",
-      "ac_graph_name": "graph_theory",
-      "theorem_count": 25,
-      "description": "Contact graph structure, theorem graph properties, four-color, spectral graph theory.",
-      "key_results": [
-        "T4: Topology-Guided Solver",
-        "Four-Color Theorem (proved computer-free)"
-      ],
-      "key_constants": [],
-      "papers": [11]
+      "name": "quantum",
+      "theorem_count": 26
     },
     {
-      "id": "dom_nuclear",
-      "name": "Nuclear Physics",
-      "ac_graph_name": "nuclear",
-      "theorem_count": 20,
-      "description": "Magic numbers, binding energies, proton stability, neutron lifetime — all from kappa_ls = 6/5 and Z_3 topology.",
-      "key_results": [
-        "T269: Yukawa Potential",
-        "T305: Magic numbers from kappa_ls = C_2/n_C = 6/5",
-        "T304: Proton stability (infinite lifetime)"
-      ],
-      "key_constants": ["const_025", "const_026", "const_027", "const_043", "const_044", "const_045"],
-      "papers": [4]
+      "name": "qft",
+      "theorem_count": 25
     },
     {
-      "id": "dom_fluids",
-      "name": "Fluid Mechanics / Turbulence",
-      "ac_graph_name": "fluids",
-      "theorem_count": 20,
-      "description": "Navier-Stokes, Kolmogorov turbulence, She-Leveque, percolation. K41 exponent 5/3 = n_C/N_c.",
-      "key_results": [
-        "T818: Kolmogorov 5/3 = n_C/N_c and She-Leveque as BST rationals",
-        "NS blow-up proof chain ~98%"
-      ],
-      "key_constants": [],
-      "papers": []
+      "name": "analysis",
+      "theorem_count": 23
     },
     {
-      "id": "dom_chemistry",
-      "name": "Chemistry (Pure)",
-      "ac_graph_name": "chemistry",
-      "theorem_count": 16,
-      "description": "Periodic table, crystal structures, molecular geometry at the pure chemistry level.",
-      "key_results": [
-        "T172: Periodic Table structure",
-        "T746: 230 space groups = g*2^n_C + C_2",
-        "T740-T742: Crystal systems, Bravais lattices, point groups"
-      ],
-      "key_constants": ["const_049", "const_059", "const_066", "const_067", "const_068", "const_069"],
-      "papers": []
+      "name": "fluids",
+      "theorem_count": 21
     },
     {
-      "id": "dom_analysis",
-      "name": "Analysis",
-      "ac_graph_name": "analysis",
-      "theorem_count": 16,
-      "description": "Spectral analysis, functional analysis, representation theory used in BST proofs.",
-      "key_results": [
-        "T53: Representation Uniqueness"
-      ],
-      "key_constants": [],
-      "papers": []
+      "name": "nuclear",
+      "theorem_count": 20
     },
     {
-      "id": "dom_condensed_matter",
-      "name": "Condensed Matter",
-      "ac_graph_name": "condensed_matter",
-      "theorem_count": 14,
-      "description": "FQHE, superconductivity, BCS, Debye temperatures. BST rationals appear in 76+ material property domains.",
-      "key_results": [
-        "T182: Quantum Hall Effect",
-        "T813-T815: 26/28 FQHE fractions are BST rationals",
-        "BCS gap = g/rank = 7/2 = 3.5"
-      ],
-      "key_constants": [],
-      "papers": [22]
+      "name": "chemistry",
+      "theorem_count": 17
     },
     {
-      "id": "dom_relativity",
-      "name": "Relativity",
-      "ac_graph_name": "relativity",
-      "theorem_count": 14,
-      "description": "Black holes, Penrose singularity, EHT predictions, gravitational waves.",
-      "key_results": [
-        "T207: Penrose Singularity",
-        "BH echo prediction (137 * r_s/c)",
-        "EHT circular polarization = alpha"
-      ],
-      "key_constants": ["const_003"],
-      "papers": []
+      "name": "coding_theory",
+      "theorem_count": 14
     },
     {
-      "id": "dom_electromagnetism",
-      "name": "Electromagnetism",
-      "ac_graph_name": "electromagnetism",
-      "theorem_count": 13,
-      "description": "Maxwell equations from S^1 phase oscillation, Coulomb law, electromagnetic coupling.",
-      "key_results": [
-        "T225: Coulomb's Law from phase comparison",
-        "Alpha = 1/137 from Wyler integral"
-      ],
-      "key_constants": ["const_002"],
-      "papers": []
+      "name": "condensed_matter",
+      "theorem_count": 14
     },
     {
-      "id": "dom_coding_theory",
-      "name": "Coding Theory",
-      "ac_graph_name": "coding_theory",
-      "theorem_count": 13,
-      "description": "LDPC codes, error correction, Shannon capacity in the BST context.",
-      "key_results": [
-        "T48: Backbone LDPC Structure"
-      ],
-      "key_constants": [],
-      "papers": []
+      "name": "relativity",
+      "theorem_count": 14
     },
     {
-      "id": "dom_qft",
-      "name": "Quantum Field Theory",
-      "ac_graph_name": "qft",
-      "theorem_count": 13,
-      "description": "Goldstone theorem, Yang-Mills mass gap, Wightman axioms, QED from BST.",
-      "key_results": [
-        "T262: Goldstone's Theorem",
-        "Yang-Mills mass gap = 6*pi^5 * m_e = proton mass",
-        "All 5 Wightman axioms derived"
-      ],
-      "key_constants": ["const_001"],
-      "papers": [4]
+      "name": "electromagnetism",
+      "theorem_count": 13
     },
     {
-      "id": "dom_algebra",
-      "name": "Algebra",
-      "ac_graph_name": "algebra",
-      "theorem_count": 12,
-      "description": "Algebraic independence, Lie algebras, representation theory — the algebraic substrate of BST.",
-      "key_results": [
-        "T29: Algebraic Independence"
-      ],
-      "key_constants": [],
-      "papers": []
+      "name": "algebra",
+      "theorem_count": 11
     },
     {
-      "id": "dom_classical_mech",
-      "name": "Classical Mechanics",
-      "ac_graph_name": "classical_mech",
-      "theorem_count": 11,
-      "description": "Newton's laws, Kepler orbits as consequences of the contact graph.",
-      "key_results": [
-        "T210: Newton's Second Law derived"
-      ],
-      "key_constants": [],
-      "papers": []
+      "name": "classical_mech",
+      "theorem_count": 11
     },
     {
-      "id": "dom_optics",
-      "name": "Optics",
-      "ac_graph_name": "optics",
-      "theorem_count": 10,
-      "description": "Snell's law, refractive indices, rainbow, diffraction from BST integers.",
-      "key_results": [
-        "T218: Snell's Law",
-        "Rainbow angle = C_2*g = 42 degrees",
-        "Water n = 4/3"
-      ],
-      "key_constants": ["const_050", "const_052"],
-      "papers": []
+      "name": "complexity",
+      "theorem_count": 10
     },
     {
-      "id": "dom_complexity",
-      "name": "Computational Complexity",
-      "ac_graph_name": "complexity",
-      "theorem_count": 10,
-      "description": "P vs NP approach, SAT, circuit complexity, Boolean function analysis.",
-      "key_results": [
-        "T12: AC Restriction Lemma",
-        "P!=NP ~99% via Resolution (PROVED) and All-P (CONDITIONAL)"
-      ],
-      "key_constants": [],
-      "papers": [1, 2]
+      "name": "optics",
+      "theorem_count": 10
     },
     {
-      "id": "dom_computation",
-      "name": "Computation",
-      "ac_graph_name": "computation",
-      "theorem_count": 9,
-      "description": "Kolmogorov complexity, computability, halting problem connections.",
-      "key_results": [
-        "T298: Kolmogorov Complexity in BST framework"
-      ],
-      "key_constants": [],
-      "papers": []
+      "name": "probability",
+      "theorem_count": 9
     },
     {
-      "id": "dom_probability",
-      "name": "Probability",
-      "ac_graph_name": "probability",
-      "theorem_count": 9,
-      "description": "Probabilistic methods, concentration inequalities, random graph theory.",
-      "key_results": [
-        "T16: Fiat Monotonicity"
-      ],
-      "key_constants": [],
-      "papers": []
+      "name": "computation",
+      "theorem_count": 9
     },
     {
-      "id": "dom_signal",
-      "name": "Signal Processing",
-      "ac_graph_name": "signal",
-      "theorem_count": 7,
-      "description": "Heisenberg uncertainty, Fourier analysis, sampling theory from BST.",
-      "key_results": [
-        "T250: Heisenberg Uncertainty from D_IV^5"
-      ],
-      "key_constants": [],
-      "papers": []
+      "name": "quantum_foundations",
+      "theorem_count": 8
     },
     {
-      "id": "dom_four_color",
-      "name": "Four-Color Theorem",
-      "ac_graph_name": "four_color",
-      "theorem_count": 4,
-      "description": "Computer-free proof of the four-color theorem via Forced Fan Lemma. 13 structural steps.",
-      "key_results": [
-        "T120: Chromatic-Spectral Bridge",
-        "Forced Fan Lemma: Casey's mapmaker insight",
-        "PROVED — all 13 steps structural, zero computers"
-      ],
-      "key_constants": [],
-      "papers": [11]
+      "name": "signal",
+      "theorem_count": 7
     },
     {
-      "id": "dom_quantum_foundations",
-      "name": "Quantum Foundations",
-      "ac_graph_name": "quantum_foundations",
-      "theorem_count": 4,
-      "description": "Measurement problem, Born rule, decoherence — all dissolved by contact graph commitment.",
-      "key_results": [
-        "T643: No-Cloning Theorem",
-        "Measurement = commitment of correlation"
-      ],
-      "key_constants": [],
-      "papers": []
+      "name": "quantum_mechanics",
+      "theorem_count": 5
     },
     {
-      "id": "dom_music",
-      "name": "Music Theory",
-      "ac_graph_name": "music_theory",
-      "theorem_count": 1,
-      "description": "Consonance hierarchy from BST rationals. Why octaves, fifths, and fourths sound good.",
-      "key_results": [
-        "T1227: Consonance Hierarchy"
-      ],
-      "key_constants": [],
-      "papers": []
+      "name": "four_color",
+      "theorem_count": 4
+    },
+    {
+      "name": "unassigned",
+      "theorem_count": 4
+    },
+    {
+      "name": "spectral_geometry",
+      "theorem_count": 4
+    },
+    {
+      "name": "quantum_field_theory",
+      "theorem_count": 3
+    },
+    {
+      "name": "music_theory",
+      "theorem_count": 2
+    },
+    {
+      "name": "complexity_theory",
+      "theorem_count": 2
+    },
+    {
+      "name": "cooperation",
+      "theorem_count": 2
+    },
+    {
+      "name": "particle_physics",
+      "theorem_count": 2
+    },
+    {
+      "name": "proof_theory",
+      "theorem_count": 1
+    },
+    {
+      "name": "astrobiology",
+      "theorem_count": 1
+    },
+    {
+      "name": "information_theory",
+      "theorem_count": 1
+    },
+    {
+      "name": "philosophy_of_physics",
+      "theorem_count": 1
+    },
+    {
+      "name": "geology",
+      "theorem_count": 1
     }
   ]
 }

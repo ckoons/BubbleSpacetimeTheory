@@ -58,8 +58,8 @@
         ]
       }
     },
-    "theorems_count": 1343,
-    "graph_edges": 7201,
+    "theorems_count": 1354,
+    "graph_edges": 7342,
     "gf128_structure": {
       "defining_polynomial": "x^7 + x^3 + 1 = 137 (binary)",
       "field_size": 128,

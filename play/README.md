@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**1,393 computational toys, 4 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**1,409 computational toys, 5 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 1,393 |
-| Numbered toys (toy_NNN_*.py) | 1,184 |
+| Toy scripts (toy_*.py) | 1,409 |
+| Numbered toys (toy_NNN_*.py) | 1,200 |
 | Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 56 |
-| HTML visualizers | 4 |
-| Theorems (T1-T1399) | 1,399 |
-| Next toy number | 1378 |
+| HTML visualizers | 5 |
+| Theorems (T1-T1408) | 1,408 |
+| Next toy number | 1393 |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -30,7 +30,7 @@ Five integers. Zero free parameters. "Give a child a ball and teach them to coun
 
 ```
 play/
-  toy_NNN_name.py          # Numbered toys (1,184 files, T100-T1377)
+  toy_NNN_name.py          # Numbered toys (1,200 files, T100-T1392)
   toy_name.py              # Named toys (209 files, foundational + topical)
   *.py                     # Utility scripts (56 files: graph tools, extractors, verifiers)
   bst_appliance/           # BST Appliance package — the "Ball and Counting Tool"
@@ -111,8 +111,8 @@ Two gitignored counter files prevent toy/theorem number collisions:
 
 | File | Current Value | Purpose |
 |------|---------------|---------|
-| `.next_toy` | 1378 | Next available toy number |
-| `.next_theorem` | 1400 | Next available theorem number |
+| `.next_toy` | 1393 | Next available toy number |
+| `.next_theorem` | 1409 | Next available theorem number |
 
 **Rules:**
 1. ALWAYS read the counter file before creating a new toy or theorem.
@@ -130,6 +130,7 @@ Two gitignored counter files prevent toy/theorem number collisions:
 | `ac_theorem_explorer.html` | Force-directed graph of the AC(0) theorem network. Click nodes for details, dependencies, and proof status. |
 | `ac_reduction_map.html` | Directed acyclic graph showing reduction relationships between AC theorems. Ancestor highlighting. |
 | `bst_prime_residue_table.html` | Visual table of BST prime residue patterns — the arithmetic structure underlying domain discovery |
+| `bst_function_periodic_table.html` | Periodic table of functions — 128 entries organized by BST parameters |
 
 All are standalone HTML files. Open directly in a browser — no server required.
 
@@ -202,6 +203,7 @@ The 209 named toys include the original foundational collection and topical deep
 | 1264-1299 | ~36 | Overdetermination census, φρ-substrate, Gödel Gradient, Distributed Gödel, SETI silence, UAP analysis, observer genesis, dark energy |
 | 1300-1337 | ~38 | Meijer G framework, Painlevé decomposition, periodic table of functions, A₅ obstruction, shadow reading, observer definition, market dynamics |
 | 1338-1377 | ~40 | F₁ sprint (Shimura, Hecke mass ratios), community bridges (tropical, RMT, knots, Ricci flow, NCG, Deninger), **RH closure** (three legs + synthesis + Epstein negative test + AC(0) proof), literature comparison |
+| 1378-1392 | ~15 | Selberg zeta program (algebraic setup, geodesic enumeration, Pell theorem, trace formula), glueball physics (Bergman spectral gap, curved directions), integer cascade, **Ramanujan at p=137** (OP-3 discrete PROVED) |
 
 ---
 

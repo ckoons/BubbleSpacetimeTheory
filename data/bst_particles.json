@@ -2,10 +2,10 @@
   "meta": {
     "version": 1,
     "title": "BST Particle Family",
-    "description": "Every Standard Model particle described as what it IS on the substrate S^2 x S^1 with configuration space D_IV^5. Not what it does — what it IS.",
+    "description": "Every Standard Model particle described as what it IS on the substrate S^2 x S^1 with configuration space D_IV^5. Not what it does \u2014 what it IS.",
     "count": 24,
-    "last_updated": "2026-04-15",
-    "source": "WorkingPaper §7-8, notes/BST_ParticleFamily_Portrait.md"
+    "last_updated": "2026-04-21",
+    "source": "WorkingPaper \u00a77-8, notes/BST_ParticleFamily_Portrait.md"
   },
   "the_one_cycle": "Light is emitted -> touches the universe -> brings back information -> information is stored -> the substrate emits light -> the cycle continues.",
   "particles": [
@@ -26,11 +26,15 @@
       "geometric_layer": "S^1 Phase Fiber",
       "winding_number": 0,
       "spectral_level": null,
-      "cycle_role": "Messenger — carries phase information between committed contacts at speed c",
-      "conservation_laws": ["Gauge invariance (S^1 reparameterization)"],
+      "cycle_role": "Messenger \u2014 carries phase information between committed contacts at speed c",
+      "conservation_laws": [
+        "Gauge invariance (S^1 reparameterization)"
+      ],
       "key_insight": "Speed c is a tautology: one contact per causal step. Zero mass because zero topological cost.",
-      "source_theorems": ["T198"],
-      "source_section": "§7"
+      "source_theorems": [
+        "T198"
+      ],
+      "source_section": "\u00a77"
     },
     {
       "id": "particle_electron",
@@ -49,11 +53,17 @@
       "geometric_layer": "Shilov boundary (S^4 x S^1)",
       "winding_number": -1,
       "spectral_level": "k=1 (below Wallach set k_min=3)",
-      "cycle_role": "Simplest persistent circuit — the universe's first committed act beyond communication",
-      "conservation_laws": ["Electric charge (winding number)", "Lepton number"],
+      "cycle_role": "Simplest persistent circuit \u2014 the universe's first committed act beyond communication",
+      "conservation_laws": [
+        "Electric charge (winding number)",
+        "Lepton number"
+      ],
       "key_insight": "Light because it lives on the boundary, not in the bulk. The note played on the edge of the drum.",
-      "source_theorems": ["T187", "T397"],
-      "source_section": "§7"
+      "source_theorems": [
+        "T187",
+        "T397"
+      ],
+      "source_section": "\u00a77"
     },
     {
       "id": "particle_positron",
@@ -72,11 +82,14 @@
       "geometric_layer": "Shilov boundary (S^4 x S^1)",
       "winding_number": 1,
       "spectral_level": "k=1",
-      "cycle_role": "Anti-circuit — annihilation partner",
-      "conservation_laws": ["Electric charge", "Lepton number (negative)"],
+      "cycle_role": "Anti-circuit \u2014 annihilation partner",
+      "conservation_laws": [
+        "Electric charge",
+        "Lepton number (negative)"
+      ],
       "key_insight": "Annihilation is topological: opposite windings cancel to zero.",
       "source_theorems": [],
-      "source_section": "§7"
+      "source_section": "\u00a77"
     },
     {
       "id": "particle_muon",
@@ -91,15 +104,20 @@
       "spin": 0.5,
       "color": false,
       "stable": false,
-      "substrate_description": "Electron circuit threaded through three complex dimensions (D_IV^3 embedding). Not a fat electron — a deeper threading. Mass ratio is the Bergman Jacobian of the embedding.",
+      "substrate_description": "Electron circuit threaded through three complex dimensions (D_IV^3 embedding). Not a fat electron \u2014 a deeper threading. Mass ratio is the Bergman Jacobian of the embedding.",
       "geometric_layer": "D_IV^3 embedding",
       "winding_number": -1,
       "spectral_level": "k=1 in D_IV^3",
       "cycle_role": "Second-generation persistent circuit",
-      "conservation_laws": ["Electric charge", "Lepton number"],
+      "conservation_laws": [
+        "Electric charge",
+        "Lepton number"
+      ],
       "key_insight": "Each generation threads through progressively more dimensions. More dimensions = more Bergman weight = heavier.",
-      "source_theorems": ["T190"],
-      "source_section": "§7"
+      "source_theorems": [
+        "T190"
+      ],
+      "source_section": "\u00a77"
     },
     {
       "id": "particle_tau",
@@ -119,10 +137,15 @@
       "winding_number": -1,
       "spectral_level": "k=1 in D_IV^5",
       "cycle_role": "Third-generation persistent circuit",
-      "conservation_laws": ["Electric charge", "Lepton number"],
+      "conservation_laws": [
+        "Electric charge",
+        "Lepton number"
+      ],
       "key_insight": "Mass extends muon formula by (g/N_c)^{10/3} = (7/3)^{10/3} correction.",
-      "source_theorems": ["T210"],
-      "source_section": "§7"
+      "source_theorems": [
+        "T210"
+      ],
+      "source_section": "\u00a77"
     },
     {
       "id": "particle_nu_e",
@@ -137,15 +160,19 @@
       "spin": 0.5,
       "color": false,
       "stable": true,
-      "substrate_description": "The Z_3 Goldstone mode — the vacuum ground state in propagating form. Not a circuit, not a winding. The vacuum expressing its geometry. What a channel looks like in its ground state while maintaining topological connectivity.",
+      "substrate_description": "The Z_3 Goldstone mode \u2014 the vacuum ground state in propagating form. Not a circuit, not a winding. The vacuum expressing its geometry. What a channel looks like in its ground state while maintaining topological connectivity.",
       "geometric_layer": "D_IV^5 vacuum",
       "winding_number": 0,
       "spectral_level": "vacuum mode",
-      "cycle_role": "The vacuum checking on itself — substrate confirming its own coherence",
-      "conservation_laws": ["Lepton number"],
-      "key_insight": "Massless neutrino IS the vacuum. Dirac, not Majorana — no neutrinoless double-beta decay.",
-      "source_theorems": ["T340"],
-      "source_section": "§7"
+      "cycle_role": "The vacuum checking on itself \u2014 substrate confirming its own coherence",
+      "conservation_laws": [
+        "Lepton number"
+      ],
+      "key_insight": "Massless neutrino IS the vacuum. Dirac, not Majorana \u2014 no neutrinoless double-beta decay.",
+      "source_theorems": [
+        "T340"
+      ],
+      "source_section": "\u00a77"
     },
     {
       "id": "particle_nu_mu",
@@ -165,10 +192,14 @@
       "winding_number": 0,
       "spectral_level": "vacuum mode 2",
       "cycle_role": "First excited vacuum propagation mode",
-      "conservation_laws": ["Lepton number"],
+      "conservation_laws": [
+        "Lepton number"
+      ],
       "key_insight": "Boundary seesaw: m_e (boundary) plays Dirac role, m_p (bulk) plays Majorana role, two factors of alpha from electroweak vertices.",
-      "source_theorems": ["T341"],
-      "source_section": "§7"
+      "source_theorems": [
+        "T341"
+      ],
+      "source_section": "\u00a77"
     },
     {
       "id": "particle_nu_tau",
@@ -188,10 +219,14 @@
       "winding_number": 0,
       "spectral_level": "vacuum mode 3",
       "cycle_role": "Second excited vacuum propagation mode",
-      "conservation_laws": ["Lepton number"],
+      "conservation_laws": [
+        "Lepton number"
+      ],
       "key_insight": "Mass ratio m_nu3/m_nu2 = 40/7 = 5.714, observed ~5.79 (1.4%).",
-      "source_theorems": ["T340"],
-      "source_section": "§7"
+      "source_theorems": [
+        "T340"
+      ],
+      "source_section": "\u00a77"
     },
     {
       "id": "particle_up",
@@ -210,11 +245,15 @@
       "geometric_layer": "CP^2 color fiber + S^1 phase",
       "winding_number": 0.6667,
       "spectral_level": "below confinement scale",
-      "cycle_role": "Partial color circuit — component of baryons and mesons",
-      "conservation_laws": ["Color charge (Z_3)", "Baryon number (1/3)", "Electric charge"],
+      "cycle_role": "Partial color circuit \u2014 component of baryons and mesons",
+      "conservation_laws": [
+        "Color charge (Z_3)",
+        "Baryon number (1/3)",
+        "Electric charge"
+      ],
       "key_insight": "Fractional charge 2/3 follows from Z_3 closure requirement: three quarks must sum to integer S^1 winding.",
       "source_theorems": [],
-      "source_section": "§8"
+      "source_section": "\u00a78"
     },
     {
       "id": "particle_down",
@@ -233,11 +272,15 @@
       "geometric_layer": "CP^2 color fiber + S^1 phase",
       "winding_number": -0.3333,
       "spectral_level": "below confinement scale",
-      "cycle_role": "Partial color circuit — heavier first-gen partner",
-      "conservation_laws": ["Color charge (Z_3)", "Baryon number (1/3)", "Electric charge"],
+      "cycle_role": "Partial color circuit \u2014 heavier first-gen partner",
+      "conservation_laws": [
+        "Color charge (Z_3)",
+        "Baryon number (1/3)",
+        "Electric charge"
+      ],
       "key_insight": "Down heavier than up -> neutron heavier than proton -> free neutron decays -> hydrogen universe.",
       "source_theorems": [],
-      "source_section": "§8"
+      "source_section": "\u00a78"
     },
     {
       "id": "particle_charm",
@@ -257,10 +300,14 @@
       "winding_number": 0.6667,
       "spectral_level": "D_IV^3 Bergman level",
       "cycle_role": "Second-generation partial color circuit (charge +2/3)",
-      "conservation_laws": ["Color charge (Z_3)", "Baryon number (1/3)", "Electric charge"],
-      "key_insight": "Generation structure for quarks parallels leptons — deeper embedding = heavier.",
+      "conservation_laws": [
+        "Color charge (Z_3)",
+        "Baryon number (1/3)",
+        "Electric charge"
+      ],
+      "key_insight": "Generation structure for quarks parallels leptons \u2014 deeper embedding = heavier.",
       "source_theorems": [],
-      "source_section": "§8"
+      "source_section": "\u00a78"
     },
     {
       "id": "particle_strange",
@@ -280,10 +327,14 @@
       "winding_number": -0.3333,
       "spectral_level": "D_IV^3 Bergman level",
       "cycle_role": "Second-generation partial color circuit (charge -1/3)",
-      "conservation_laws": ["Color charge (Z_3)", "Baryon number (1/3)", "Electric charge"],
+      "conservation_laws": [
+        "Color charge (Z_3)",
+        "Baryon number (1/3)",
+        "Electric charge"
+      ],
       "key_insight": "Strange quark mass sets the kaon and hyperon spectrum.",
       "source_theorems": [],
-      "source_section": "§8"
+      "source_section": "\u00a78"
     },
     {
       "id": "particle_top",
@@ -298,15 +349,21 @@
       "spin": 0.5,
       "color": true,
       "stable": false,
-      "substrate_description": "Up quark at full D_IV^5 embedding depth. Near-maximal Yukawa coupling — the heaviest fermion. Its mass is almost exactly v/sqrt(2), corrected by (1-alpha).",
+      "substrate_description": "Up quark at full D_IV^5 embedding depth. Near-maximal Yukawa coupling \u2014 the heaviest fermion. Its mass is almost exactly v/sqrt(2), corrected by (1-alpha).",
       "geometric_layer": "Full D_IV^5 on CP^2",
       "winding_number": 0.6667,
       "spectral_level": "D_IV^5 Bergman level",
-      "cycle_role": "Third-generation partial color circuit — heaviest fermion",
-      "conservation_laws": ["Color charge (Z_3)", "Baryon number (1/3)", "Electric charge"],
-      "key_insight": "Decays before hadronizing — the only quark we see 'naked'. Mass = (1-alpha)*v/sqrt(2) to 0.037%.",
-      "source_theorems": ["T220"],
-      "source_section": "§8"
+      "cycle_role": "Third-generation partial color circuit \u2014 heaviest fermion",
+      "conservation_laws": [
+        "Color charge (Z_3)",
+        "Baryon number (1/3)",
+        "Electric charge"
+      ],
+      "key_insight": "Decays before hadronizing \u2014 the only quark we see 'naked'. Mass = (1-alpha)*v/sqrt(2) to 0.037%.",
+      "source_theorems": [
+        "T220"
+      ],
+      "source_section": "\u00a78"
     },
     {
       "id": "particle_bottom",
@@ -326,10 +383,16 @@
       "winding_number": -0.3333,
       "spectral_level": "D_IV^5 Bergman level",
       "cycle_role": "Third-generation partial color circuit (charge -1/3)",
-      "conservation_laws": ["Color charge (Z_3)", "Baryon number (1/3)", "Electric charge"],
-      "key_insight": "B meson oscillations are the sharpest test of CKM CP violation — BST predicts gamma = arctan(sqrt(5)).",
-      "source_theorems": ["T321"],
-      "source_section": "§8"
+      "conservation_laws": [
+        "Color charge (Z_3)",
+        "Baryon number (1/3)",
+        "Electric charge"
+      ],
+      "key_insight": "B meson oscillations are the sharpest test of CKM CP violation \u2014 BST predicts gamma = arctan(sqrt(5)).",
+      "source_theorems": [
+        "T321"
+      ],
+      "source_section": "\u00a78"
     },
     {
       "id": "particle_proton",
@@ -344,15 +407,21 @@
       "spin": 0.5,
       "color": false,
       "stable": true,
-      "substrate_description": "Three quarks completing a Z_3 closure on CP^2. The lightest color-neutral state in the bulk of D_IV^5. The first bulk resonance — the lowest note of the drum itself. The 1920 = |S_5 x (Z_2)^4| cancellation gives mass = C_2 * pi^5 * m_e.",
+      "substrate_description": "Three quarks completing a Z_3 closure on CP^2. The lightest color-neutral state in the bulk of D_IV^5. The first bulk resonance \u2014 the lowest note of the drum itself. The 1920 = |S_5 x (Z_2)^4| cancellation gives mass = C_2 * pi^5 * m_e.",
       "geometric_layer": "Bulk D_IV^5 (Bergman representation pi_6, k=6)",
       "winding_number": 1,
       "spectral_level": "k=6 (first positive Casimir: C_2 = k(k-5) = 6)",
-      "cycle_role": "First bulk resonance — the drum's fundamental frequency. Yang-Mills mass gap.",
-      "conservation_laws": ["Baryon number (Z_3 topological charge)", "Electric charge"],
-      "key_insight": "Proton mass IS the Yang-Mills mass gap. Stable forever — Z_3 winding cannot unwind. m_p/m_e = 6*pi^5 measures how much more Bergman weight a Z_3 baryon carries vs a simple S^1 winding.",
-      "source_theorems": ["T187", "T304"],
-      "source_section": "§7, §8"
+      "cycle_role": "First bulk resonance \u2014 the drum's fundamental frequency. Yang-Mills mass gap.",
+      "conservation_laws": [
+        "Baryon number (Z_3 topological charge)",
+        "Electric charge"
+      ],
+      "key_insight": "Proton mass IS the Yang-Mills mass gap. Stable forever \u2014 Z_3 winding cannot unwind. m_p/m_e = 6*pi^5 measures how much more Bergman weight a Z_3 baryon carries vs a simple S^1 winding.",
+      "source_theorems": [
+        "T187",
+        "T304"
+      ],
+      "source_section": "\u00a77, \u00a78"
     },
     {
       "id": "particle_neutron",
@@ -367,15 +436,19 @@
       "spin": 0.5,
       "color": false,
       "stable": false,
-      "substrate_description": "The proton's Hopf sibling — same Z_3 color structure but different flavor content (udd vs uud). Flavor change happens through the Hopf fibration S^3 -> S^2.",
+      "substrate_description": "The proton's Hopf sibling \u2014 same Z_3 color structure but different flavor content (udd vs uud). Flavor change happens through the Hopf fibration S^3 -> S^2.",
       "geometric_layer": "Bulk D_IV^5 (Hopf-rotated proton)",
       "winding_number": 0,
       "spectral_level": "k=6 (proton level + Hopf correction)",
-      "cycle_role": "Hopf sibling of proton — decays via weak Hopf threading",
-      "conservation_laws": ["Baryon number (Z_3)"],
+      "cycle_role": "Hopf sibling of proton \u2014 decays via weak Hopf threading",
+      "conservation_laws": [
+        "Baryon number (Z_3)"
+      ],
       "key_insight": "Free neutron lifetime = 878.1 s (0.03% precision). Stable in nuclei where binding > n-p mass difference.",
-      "source_theorems": ["T245"],
-      "source_section": "§8"
+      "source_theorems": [
+        "T245"
+      ],
+      "source_section": "\u00a78"
     },
     {
       "id": "particle_w_plus",
@@ -394,11 +467,15 @@
       "geometric_layer": "Hopf fibration S^3 -> S^2",
       "winding_number": 1,
       "spectral_level": "Hopf excitation",
-      "cycle_role": "Hopf messenger — mediates quark and lepton flavor change",
-      "conservation_laws": ["Weak isospin"],
+      "cycle_role": "Hopf messenger \u2014 mediates quark and lepton flavor change",
+      "conservation_laws": [
+        "Weak isospin"
+      ],
       "key_insight": "Mass = n_C * m_p/(8*alpha). The factor n_C/8 is from the Hopf fiber geometry.",
-      "source_theorems": ["T281"],
-      "source_section": "§9"
+      "source_theorems": [
+        "T281"
+      ],
+      "source_section": "\u00a79"
     },
     {
       "id": "particle_w_minus",
@@ -413,15 +490,19 @@
       "spin": 1,
       "color": false,
       "stable": false,
-      "substrate_description": "Anti-Hopf excitation. W- is to W+ as positron is to electron — the charge-conjugate Hopf mode.",
+      "substrate_description": "Anti-Hopf excitation. W- is to W+ as positron is to electron \u2014 the charge-conjugate Hopf mode.",
       "geometric_layer": "Hopf fibration S^3 -> S^2",
       "winding_number": -1,
       "spectral_level": "Hopf excitation",
       "cycle_role": "Anti-Hopf messenger",
-      "conservation_laws": ["Weak isospin"],
+      "conservation_laws": [
+        "Weak isospin"
+      ],
       "key_insight": "Neutron beta decay: n -> p + e- + nu_bar is W- emission from Hopf threading.",
-      "source_theorems": ["T281"],
-      "source_section": "§9"
+      "source_theorems": [
+        "T281"
+      ],
+      "source_section": "\u00a79"
     },
     {
       "id": "particle_z",
@@ -436,15 +517,20 @@
       "spin": 1,
       "color": false,
       "stable": false,
-      "substrate_description": "Neutral Hopf excitation — the massive orthogonal combination of S^1 phase and Hopf fiber. The Weinberg angle sin^2(theta_W) = 3/13 determines the mixing.",
+      "substrate_description": "Neutral Hopf excitation \u2014 the massive orthogonal combination of S^1 phase and Hopf fiber. The Weinberg angle sin^2(theta_W) = 3/13 determines the mixing.",
       "geometric_layer": "S^1 + Hopf mixed mode",
       "winding_number": 0,
       "spectral_level": "Hopf-EM mixed excitation",
-      "cycle_role": "Neutral current mediator — Hopf/EM hybrid",
-      "conservation_laws": ["Weak isospin"],
-      "key_insight": "Z width measured 3 light neutrino species — BST predicts exactly N_c = 3 generations.",
-      "source_theorems": ["T283", "T200"],
-      "source_section": "§9"
+      "cycle_role": "Neutral current mediator \u2014 Hopf/EM hybrid",
+      "conservation_laws": [
+        "Weak isospin"
+      ],
+      "key_insight": "Z width measured 3 light neutrino species \u2014 BST predicts exactly N_c = 3 generations.",
+      "source_theorems": [
+        "T283",
+        "T200"
+      ],
+      "source_section": "\u00a79"
     },
     {
       "id": "particle_gluon",
@@ -459,15 +545,17 @@
       "spin": 1,
       "color": true,
       "stable": true,
-      "substrate_description": "Z_3 partial winding mediator on CP^2. Carries color charge — the strong force in transit. 8 gluons = dim(SU(3)) = N_c^2 - 1.",
+      "substrate_description": "Z_3 partial winding mediator on CP^2. Carries color charge \u2014 the strong force in transit. 8 gluons = dim(SU(3)) = N_c^2 - 1.",
       "geometric_layer": "CP^2 color fiber",
       "winding_number": 0,
       "spectral_level": "color adjoint representation",
-      "cycle_role": "Color mediator — carries color between quarks within Z_3 circuits",
-      "conservation_laws": ["Color charge"],
+      "cycle_role": "Color mediator \u2014 carries color between quarks within Z_3 circuits",
+      "conservation_laws": [
+        "Color charge"
+      ],
       "key_insight": "Self-interaction (gluons carry color) -> confinement + asymptotic freedom. 8 types because SU(3) adjoint has dim = N_c^2 - 1 = 8.",
       "source_theorems": [],
-      "source_section": "§8"
+      "source_section": "\u00a78"
     },
     {
       "id": "particle_higgs",
@@ -486,11 +574,15 @@
       "geometric_layer": "Bulk D_IV^5 (Kahler potential radial mode)",
       "winding_number": 0,
       "spectral_level": "Kahler radial excitation",
-      "cycle_role": "Mass generator — the vacuum's radial stiffness gives fermions their mass",
+      "cycle_role": "Mass generator \u2014 the vacuum's radial stiffness gives fermions their mass",
       "conservation_laws": [],
       "key_insight": "Two independent routes agree to 0.18 GeV. The hierarchy problem is dissolved: weak scale = m_p^2/(g*m_e), not fine-tuned.",
-      "source_theorems": ["T225", "T230", "T231"],
-      "source_section": "§9"
+      "source_theorems": [
+        "T225",
+        "T230",
+        "T231"
+      ],
+      "source_section": "\u00a79"
     },
     {
       "id": "particle_pion_charged",
@@ -505,15 +597,20 @@
       "spin": 0,
       "color": false,
       "stable": false,
-      "substrate_description": "Pseudo-Goldstone boson of chiral symmetry breaking. The lightest meson — a quark-antiquark pair with the chiral condensate chi = sqrt(30) setting its mass.",
+      "substrate_description": "Pseudo-Goldstone boson of chiral symmetry breaking. The lightest meson \u2014 a quark-antiquark pair with the chiral condensate chi = sqrt(30) setting its mass.",
       "geometric_layer": "CP^2 (quark-antiquark Z_3 closure)",
       "winding_number": 1,
       "spectral_level": "Goldstone mode",
-      "cycle_role": "Nuclear force mediator — lightest color-neutral exchange particle between nucleons",
-      "conservation_laws": ["Electric charge", "Isospin"],
+      "cycle_role": "Nuclear force mediator \u2014 lightest color-neutral exchange particle between nucleons",
+      "conservation_laws": [
+        "Electric charge",
+        "Isospin"
+      ],
       "key_insight": "chi = sqrt(n_C*(n_C+1)) = sqrt(30) is derived from superradiant vacuum coherence.",
-      "source_theorems": ["T250"],
-      "source_section": "§8"
+      "source_theorems": [
+        "T250"
+      ],
+      "source_section": "\u00a78"
     },
     {
       "id": "particle_dark_matter",
@@ -532,11 +629,14 @@
       "geometric_layer": "Contact graph topology",
       "winding_number": 0,
       "spectral_level": "non-local (topological)",
-      "cycle_role": "Channel noise — the substrate's geometric influence on large-scale dynamics",
+      "cycle_role": "Channel noise \u2014 the substrate's geometric influence on large-scale dynamics",
       "conservation_laws": [],
       "key_insight": "BST predicts NO dark matter particles. The DM/baryon ratio 16/3 is set by channel capacity. Rotation curves from geometry, not particles.",
-      "source_theorems": ["T194", "T197"],
-      "source_section": "§10, §11"
+      "source_theorems": [
+        "T194",
+        "T197"
+      ],
+      "source_section": "\u00a710, \u00a711"
     },
     {
       "id": "particle_graviton",
@@ -551,15 +651,42 @@
       "spin": null,
       "color": false,
       "stable": null,
-      "substrate_description": "BST does NOT have gravitons. Gravity is the curvature of the contact graph itself — emergent from the Bergman metric, not mediated by a particle. Gravitational waves are ripples in the graph geometry.",
-      "geometric_layer": "Contact graph curvature (not a layer — the graph itself)",
+      "substrate_description": "BST does NOT have gravitons. Gravity is the curvature of the contact graph itself \u2014 emergent from the Bergman metric, not mediated by a particle. Gravitational waves are ripples in the graph geometry.",
+      "geometric_layer": "Contact graph curvature (not a layer \u2014 the graph itself)",
       "winding_number": null,
       "spectral_level": null,
-      "cycle_role": "N/A — gravity is geometry, not force exchange",
+      "cycle_role": "N/A \u2014 gravity is geometry, not force exchange",
       "conservation_laws": [],
       "key_insight": "The absence of a graviton is a BST prediction. Gravity is 24th order in alpha because it requires the full Bergman hierarchy.",
-      "source_theorems": ["T188"],
-      "source_section": "§10"
+      "source_theorems": [
+        "T188"
+      ],
+      "source_section": "\u00a710"
+    },
+    {
+      "name": "Glueball 0++",
+      "type": "glueball",
+      "mass_formula": "Bergman spectral gap restricted to C\u2082=6 curved directions",
+      "mass_predicted": "~1.5-1.7 GeV",
+      "mass_observed": "1.710 \u00b1 0.050 GeV (lattice)",
+      "source": "T1403",
+      "note": "Pure-gauge mass gap. Distinct from proton (full-theory gap)."
+    },
+    {
+      "name": "Glueball 0-+",
+      "type": "glueball",
+      "mass_formula": "(N_c/rank) \u00d7 m(0++)",
+      "mass_predicted": "~2.56 GeV",
+      "mass_observed": "~2.56 GeV (lattice)",
+      "source": "T1403"
+    },
+    {
+      "name": "Glueball 2++",
+      "type": "glueball",
+      "mass_formula": "\u221arank \u00d7 m(0++)",
+      "mass_predicted": "~2.42 GeV",
+      "mass_observed": "~2.39 GeV (lattice)",
+      "source": "T1403"
     }
   ]
 }

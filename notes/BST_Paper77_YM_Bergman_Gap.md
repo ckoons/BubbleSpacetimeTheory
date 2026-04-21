@@ -43,7 +43,7 @@ Three groups — $G_2$, $F_4$, $E_8$ — do not admit Hermitian symmetric spaces
 
 An irreducible bounded symmetric domain is a connected complex manifold $\Omega = G/K$ where $G$ is a non-compact semisimple Lie group and $K$ is a maximal compact subgroup, with a $G$-invariant Bergman metric of negative curvature. Cartan classified all such domains into four infinite families and two exceptional cases:
 
-| Type | Domain $\Omega$ | Compact dual $\check{\Omega}$ | $\dim_\mathbb{C}$ | Root system | $\lambda_1$ |
+| Type | Domain $\Omega$ | Compact dual $\check{\Omega}$ | $\dim_{\mathbb{C}}$ | Root system | $\lambda_1$ |
 |------|----------------|-------------------------------|---------------------|-------------|-------------|
 | I$_{p,q}$ | $\mathrm{SU}(p,q)/\mathrm{S}[\mathrm{U}(p) \times \mathrm{U}(q)]$ | Grassmannian $G(p,q)$ | $pq$ | $BC_{\min(p,q)}$ or $C$ | $p+q$ |
 | II$_n$ | $\mathrm{SO}^*(2n)/\mathrm{U}(n)$ | $\mathrm{SO}(2n)/\mathrm{U}(n)$ | $\binom{n}{2}$ | $C_{\lfloor n/2\rfloor}$ or $BC$ | $2(n-1)$ |
@@ -89,7 +89,7 @@ $$\text{SU}(N_c) \longleftrightarrow D_{IV}^{N_c + 2}$$
 
 The short root multiplicity $m_s$ in $BC_2$ counts the number of independent directions in the restricted root space $\mathfrak{g}_{\alpha}$ for short roots $\alpha$. For $D_{IV}^n$:
 
-$$m_s = \dim_\mathbb{R} \mathfrak{g}_\alpha = n - 2$$
+$$m_s = \dim_{\mathbb{R}} \mathfrak{g}_\alpha = n - 2$$
 
 This multiplicity appears as:
 1. The number of color charges in SU($m_s$)

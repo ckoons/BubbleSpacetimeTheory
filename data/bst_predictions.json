@@ -1,12 +1,7 @@
 {
   "meta": {
-    "version": 1,
-    "title": "BST Falsifiable Predictions",
-    "description": "Untested predictions that can falsify or confirm BST. These are NOT retrodictions of known measurements — they are genuinely forward-looking, parameter-free predictions from D_IV^5.",
-    "count": 24,
-    "last_updated": "2026-04-14",
-    "source": "WorkingPaper §43.4-43.5, notes/BST_Testable_Predictions_Catalog.md",
-    "sharpest_three": ["pred_004", "pred_009", "pred_013"]
+    "last_updated": "2026-04-21",
+    "total": 42
   },
   "predictions": [
     {
@@ -21,9 +16,14 @@
       "falsification_criterion": "No resonance found near 3753 MeV in hadron spectroscopy surveys",
       "impact_if_falsified": "Questions Bergman level spacing for baryons above k=6",
       "status": "untested",
-      "bst_integers_used": ["C_2", "n_C"],
-      "source_section": "§8",
-      "related_constants": ["const_001"]
+      "bst_integers_used": [
+        "C_2",
+        "n_C"
+      ],
+      "source_section": "\u00a78",
+      "related_constants": [
+        "const_001"
+      ]
     },
     {
       "id": "pred_002",
@@ -37,9 +37,15 @@
       "falsification_criterion": "Enhanced stability not observed at or near N=184",
       "impact_if_falsified": "Would require kappa_ls correction beyond leading order",
       "status": "untested",
-      "bst_integers_used": ["C_2", "n_C"],
-      "source_section": "§8",
-      "related_constants": ["const_025", "const_026"]
+      "bst_integers_used": [
+        "C_2",
+        "n_C"
+      ],
+      "source_section": "\u00a78",
+      "related_constants": [
+        "const_025",
+        "const_026"
+      ]
     },
     {
       "id": "pred_003",
@@ -51,11 +57,18 @@
       "experiment": "KATRIN, Project 8, CMB-S4",
       "timeline": "2027-2032",
       "falsification_criterion": "Detection of inverted ordering, or sum significantly above 0.06 eV, or direct evidence m_nu1 > 0",
-      "impact_if_falsified": "Destroys BST neutrino sector — boundary seesaw would need revision",
+      "impact_if_falsified": "Destroys BST neutrino sector \u2014 boundary seesaw would need revision",
       "status": "untested",
-      "bst_integers_used": ["N_c", "n_C", "N_max"],
-      "source_section": "§7",
-      "related_constants": ["const_061", "const_062"]
+      "bst_integers_used": [
+        "N_c",
+        "n_C",
+        "N_max"
+      ],
+      "source_section": "\u00a77",
+      "related_constants": [
+        "const_061",
+        "const_062"
+      ]
     },
     {
       "id": "pred_004",
@@ -70,8 +83,11 @@
       "impact_if_falsified": "FATAL to BST neutrino sector. Would require Majorana masses, contradicting Z_3 topology.",
       "status": "untested",
       "bst_integers_used": [],
-      "source_section": "§7",
-      "related_constants": ["const_061", "const_062"],
+      "source_section": "\u00a77",
+      "related_constants": [
+        "const_061",
+        "const_062"
+      ],
       "sharpest_test": true,
       "sharpest_test_reason": "Binary yes/no. If seen, BST is falsified. If not seen after next-generation experiments, BST is strongly supported."
     },
@@ -87,8 +103,10 @@
       "falsification_criterion": "Clean null result for echoes after O5 run with sufficient sensitivity",
       "impact_if_falsified": "Questions Haldane cap model of black hole interiors",
       "status": "untested",
-      "bst_integers_used": ["N_max"],
-      "source_section": "§10",
+      "bst_integers_used": [
+        "N_max"
+      ],
+      "source_section": "\u00a710",
       "related_constants": []
     },
     {
@@ -103,9 +121,13 @@
       "falsification_criterion": "Proof that no 4th generation exists at any mass scale",
       "impact_if_falsified": "E8 decomposition scheme would need revision",
       "status": "untested",
-      "bst_integers_used": ["N_c"],
-      "source_section": "§7",
-      "related_constants": ["const_004"]
+      "bst_integers_used": [
+        "N_c"
+      ],
+      "source_section": "\u00a77",
+      "related_constants": [
+        "const_004"
+      ]
     },
     {
       "id": "pred_007",
@@ -119,8 +141,13 @@
       "falsification_criterion": "Stable or long-lived element confirmed with Z > 137",
       "impact_if_falsified": "N_max as atomic number ceiling would be wrong",
       "status": "untested",
-      "bst_integers_used": ["N_max", "N_c", "n_C", "g"],
-      "source_section": "§43",
+      "bst_integers_used": [
+        "N_max",
+        "N_c",
+        "n_C",
+        "g"
+      ],
+      "source_section": "\u00a743",
       "related_constants": []
     },
     {
@@ -135,9 +162,19 @@
       "falsification_criterion": "BST parameter set gives poor fit to high-ell CMB data",
       "impact_if_falsified": "Would require adjusting BST cosmological derivations",
       "status": "partially_tested",
-      "bst_integers_used": ["N_c", "n_C", "N_max", "C_2", "rank"],
-      "source_section": "§11",
-      "related_constants": ["const_016", "const_017", "const_019"]
+      "bst_integers_used": [
+        "N_c",
+        "n_C",
+        "N_max",
+        "C_2",
+        "rank"
+      ],
+      "source_section": "\u00a711",
+      "related_constants": [
+        "const_016",
+        "const_017",
+        "const_019"
+      ]
     },
     {
       "id": "pred_009",
@@ -151,11 +188,15 @@
       "falsification_criterion": "EHT measures CP significantly different from 0.73%, or CP depends on mass/frequency",
       "impact_if_falsified": "BST geometric polarization formula would be wrong",
       "status": "testable_now",
-      "bst_integers_used": ["N_max"],
-      "source_section": "§10",
-      "related_constants": ["const_002"],
+      "bst_integers_used": [
+        "N_max"
+      ],
+      "source_section": "\u00a710",
+      "related_constants": [
+        "const_002"
+      ],
       "sharpest_test": true,
-      "sharpest_test_reason": "Testable with EXISTING data. Just requires removing V=0 assumption. Mass-independent and frequency-independent — very specific."
+      "sharpest_test_reason": "Testable with EXISTING data. Just requires removing V=0 assumption. Mass-independent and frequency-independent \u2014 very specific."
     },
     {
       "id": "pred_010",
@@ -169,8 +210,10 @@
       "falsification_criterion": "Casimir force identical in gapped and ungapped materials",
       "impact_if_falsified": "Haldane cap contribution to Casimir effect would be wrong",
       "status": "untested",
-      "bst_integers_used": ["N_max"],
-      "source_section": "§10",
+      "bst_integers_used": [
+        "N_max"
+      ],
+      "source_section": "\u00a710",
       "related_constants": []
     },
     {
@@ -185,8 +228,11 @@
       "falsification_criterion": "Spectrum clearly inconsistent with gamma = 3.60",
       "impact_if_falsified": "BST phase transition model would need adjustment",
       "status": "partially_tested",
-      "bst_integers_used": ["n_C", "N_max"],
-      "source_section": "§11",
+      "bst_integers_used": [
+        "n_C",
+        "N_max"
+      ],
+      "source_section": "\u00a711",
       "related_constants": []
     },
     {
@@ -201,8 +247,11 @@
       "falsification_criterion": "No clustering of T_c ratios near BST predictions",
       "impact_if_falsified": "Superconductor channel model too simplistic",
       "status": "partially_tested",
-      "bst_integers_used": ["g", "rank"],
-      "source_section": "§43",
+      "bst_integers_used": [
+        "g",
+        "rank"
+      ],
+      "source_section": "\u00a743",
       "related_constants": []
     },
     {
@@ -217,8 +266,10 @@
       "falsification_criterion": "Ratio significantly different from 4 in precision measurement",
       "impact_if_falsified": "BST soliton-brain model is wrong",
       "status": "testable_now",
-      "bst_integers_used": ["rank"],
-      "source_section": "§14",
+      "bst_integers_used": [
+        "rank"
+      ],
+      "source_section": "\u00a714",
       "related_constants": [],
       "sharpest_test": true,
       "sharpest_test_reason": "Testable immediately with existing EEG data. Extremely specific quantitative prediction."
@@ -235,8 +286,11 @@
       "falsification_criterion": "Precision measurement of conscious bandwidth far outside 72-144 bits/s range",
       "impact_if_falsified": "BST information channel model for consciousness needs revision",
       "status": "partially_tested",
-      "bst_integers_used": ["n_C", "rank"],
-      "source_section": "§14",
+      "bst_integers_used": [
+        "n_C",
+        "rank"
+      ],
+      "source_section": "\u00a714",
       "related_constants": []
     },
     {
@@ -251,8 +305,11 @@
       "falsification_criterion": "Creative information output consistently <1 or >3 nats per cycle",
       "impact_if_falsified": "DOF counting for soliton consciousness model is incorrect",
       "status": "untested",
-      "bst_integers_used": ["g", "n_C"],
-      "source_section": "§14",
+      "bst_integers_used": [
+        "g",
+        "n_C"
+      ],
+      "source_section": "\u00a714",
       "related_constants": []
     },
     {
@@ -267,8 +324,10 @@
       "falsification_criterion": "More than 3 independent modes clearly identified",
       "impact_if_falsified": "S-matrix decomposition for consciousness model is oversimplified",
       "status": "untested",
-      "bst_integers_used": ["rank"],
-      "source_section": "§14",
+      "bst_integers_used": [
+        "rank"
+      ],
+      "source_section": "\u00a714",
       "related_constants": []
     },
     {
@@ -284,8 +343,10 @@
       "impact_if_falsified": "FATAL. Z_3 topological protection is the core of BST baryon physics.",
       "status": "ongoing",
       "bst_integers_used": [],
-      "source_section": "§8",
-      "related_constants": ["const_027"],
+      "source_section": "\u00a78",
+      "related_constants": [
+        "const_027"
+      ],
       "competing_prediction": "Most GUTs (SU(5), SO(10)) predict proton decay with tau ~ 10^34-10^36 years"
     },
     {
@@ -301,8 +362,10 @@
       "impact_if_falsified": "BST hierarchy solution would need reconciliation with SUSY",
       "status": "ongoing",
       "bst_integers_used": [],
-      "source_section": "§9",
-      "related_constants": ["const_007"],
+      "source_section": "\u00a79",
+      "related_constants": [
+        "const_007"
+      ],
       "competing_prediction": "MSSM predicts sparticles, many models expect gluino < 3 TeV"
     },
     {
@@ -317,9 +380,14 @@
       "falsification_criterion": "Confirmed detection of dark matter particle",
       "impact_if_falsified": "BST topological dark matter model is wrong. DM/baryon = 16/3 would need new explanation.",
       "status": "ongoing",
-      "bst_integers_used": ["rank", "N_c"],
-      "source_section": "§11",
-      "related_constants": ["const_015"],
+      "bst_integers_used": [
+        "rank",
+        "N_c"
+      ],
+      "source_section": "\u00a711",
+      "related_constants": [
+        "const_015"
+      ],
       "competing_prediction": "WIMP paradigm, axion models, sterile neutrinos all predict detectable particles"
     },
     {
@@ -334,9 +402,14 @@
       "falsification_criterion": "Precision measurement clearly excluding 13/19, or evidence of time-varying dark energy (w != -1)",
       "impact_if_falsified": "Chern polynomial derivation has an error, or dark energy is dynamical",
       "status": "partially_tested",
-      "bst_integers_used": ["N_c", "n_C"],
-      "source_section": "§11",
-      "related_constants": ["const_014"],
+      "bst_integers_used": [
+        "N_c",
+        "n_C"
+      ],
+      "source_section": "\u00a711",
+      "related_constants": [
+        "const_014"
+      ],
       "competing_prediction": "LAMBDACDM fits Omega_Lambda as free parameter. Quintessence models predict w != -1."
     },
     {
@@ -351,16 +424,21 @@
       "falsification_criterion": "a_0 measured to be clearly different from c*H_0/sqrt(30), or a_0 shown to evolve with redshift",
       "impact_if_falsified": "Channel noise model for modified gravity needs revision",
       "status": "partially_tested",
-      "bst_integers_used": ["n_C", "C_2"],
-      "source_section": "§11",
-      "related_constants": ["const_046"],
+      "bst_integers_used": [
+        "n_C",
+        "C_2"
+      ],
+      "source_section": "\u00a711",
+      "related_constants": [
+        "const_046"
+      ],
       "competing_prediction": "Standard DM: no fundamental a_0 scale. Milgrom MOND: a_0 is a free parameter."
     },
     {
       "id": "pred_022",
       "name": "No primordial B-modes (r ~ 0)",
       "category": "not_yet_measured",
-      "prediction": "Tensor-to-scalar ratio r approximately 0 — no detectable primordial B-mode polarization in CMB",
+      "prediction": "Tensor-to-scalar ratio r approximately 0 \u2014 no detectable primordial B-mode polarization in CMB",
       "bst_value": "r ~ 0 (below 0.001)",
       "current_measurement": "BICEP/Keck: r < 0.036 (95% CL)",
       "experiment": "LiteBIRD, CMB-S4, Simons Observatory",
@@ -369,8 +447,10 @@
       "impact_if_falsified": "BST phase transition model would need gravity-wave production mechanism",
       "status": "ongoing",
       "bst_integers_used": [],
-      "source_section": "§11",
-      "related_constants": ["const_016"]
+      "source_section": "\u00a711",
+      "related_constants": [
+        "const_016"
+      ]
     },
     {
       "id": "pred_023",
@@ -384,8 +464,11 @@
       "falsification_criterion": "Disease outcomes show more than 3 fundamentally distinct severity classes when classified by subsystem involvement, or single-subsystem failures regularly progress to catastrophic without intermediate chronic phase",
       "impact_if_falsified": "Questions applicability of Hamming(7,4,3) code to biological error correction",
       "status": "untested",
-      "bst_integers_used": ["N_c", "g"],
-      "source_section": "§46.32",
+      "bst_integers_used": [
+        "N_c",
+        "g"
+      ],
+      "source_section": "\u00a746.32",
       "related_constants": []
     },
     {
@@ -400,9 +483,175 @@
       "falsification_criterion": "Peak performance consistently at N != 6 across multiple task types and cultures",
       "impact_if_falsified": "Would question whether C_2 governs coordination capacity in the observer domain",
       "status": "partially_confirmed",
-      "bst_integers_used": ["C_2"],
-      "source_section": "§46.33",
-      "related_constants": ["const_105"]
+      "bst_integers_used": [
+        "C_2"
+      ],
+      "source_section": "\u00a746.33",
+      "related_constants": [
+        "const_105"
+      ]
+    },
+    {
+      "name": "Glueball 0++ mass",
+      "formula": "C\u2082 \u00d7 \u03c0^n_C \u00d7 m_e restricted to curved sector",
+      "predicted": "~1.5-1.7 GeV",
+      "observed": "1.710 \u00b1 0.050 GeV (lattice)",
+      "precision": "~3%",
+      "source": "T1403",
+      "category": "particle_physics"
+    },
+    {
+      "name": "Glueball 0-+/0++ ratio",
+      "formula": "N_c/rank = 3/2",
+      "predicted": "1.500",
+      "observed": "1.497 (lattice)",
+      "precision": "0.2%",
+      "source": "T1403",
+      "category": "particle_physics"
+    },
+    {
+      "name": "Glueball 2++/0++ ratio",
+      "formula": "\u221arank = \u221a2",
+      "predicted": "1.414",
+      "observed": "1.397 (lattice)",
+      "precision": "1.2%",
+      "source": "T1403",
+      "category": "particle_physics"
+    },
+    {
+      "name": "SU(3)/SU(2) mass gap ratio",
+      "formula": "\u221a(g/C\u2082) = \u221a(7/6)",
+      "predicted": "1.080",
+      "observed": "~1.08 (lattice, equal \u039b)",
+      "precision": "~0%",
+      "source": "T1402",
+      "category": "particle_physics"
+    },
+    {
+      "name": "SU(4)/SU(3) mass gap ratio",
+      "formula": "\u221a(8/7)",
+      "predicted": "1.069",
+      "observed": "1.067 (lattice)",
+      "precision": "0.2%",
+      "source": "T1402",
+      "category": "particle_physics"
+    },
+    {
+      "name": "Function catalog size",
+      "formula": "2^g = 128",
+      "predicted": "128 entries",
+      "observed": "128 (constructed)",
+      "precision": "exact",
+      "source": "T1339, T1382",
+      "category": "mathematics"
+    },
+    {
+      "name": "GF(128) defining polynomial",
+      "formula": "x\u2077 + x\u00b3 + 1 = 137",
+      "predicted": "irreducible over F\u2082",
+      "observed": "verified",
+      "precision": "exact",
+      "source": "T1383",
+      "category": "mathematics"
+    },
+    {
+      "name": "Frobenius orbits",
+      "formula": "rank \u00d7 N_c\u00b2 = 18",
+      "predicted": "18 orbits of size g=7",
+      "observed": "18 (computed)",
+      "precision": "exact",
+      "source": "T1382",
+      "category": "mathematics"
+    },
+    {
+      "name": "AC graph clustering coefficient",
+      "formula": "N_c/C\u2082 = 1/2",
+      "predicted": "0.500",
+      "observed": "0.497",
+      "precision": "0.5%",
+      "source": "T1355",
+      "category": "graph_theory"
+    },
+    {
+      "name": "AC graph average degree",
+      "formula": "|Q\u2075(F\u2082)|/\u03c7(Q\u2075) = 63/6 = 10.5",
+      "predicted": "10.5",
+      "observed": "10.84",
+      "precision": "3.2%",
+      "source": "T1386",
+      "category": "graph_theory"
+    },
+    {
+      "name": "AC graph depth-0 fraction",
+      "formula": "1 - f_c = 80.9%",
+      "predicted": "80.9%",
+      "observed": "80.3%",
+      "precision": "0.7%",
+      "source": "T1353",
+      "category": "graph_theory"
+    },
+    {
+      "name": "BST optimal team size",
+      "formula": "n_C = 5",
+      "predicted": "5 observers (sharp cliff at 6th)",
+      "observed": "Casey + 4 CIs = 5",
+      "precision": "exact",
+      "source": "T1380",
+      "category": "observer_science"
+    },
+    {
+      "name": "Cooperation gap",
+      "formula": "f_crit - f_c = 2\u03b1 = 2/137",
+      "predicted": "~1.5%",
+      "observed": "structural (f_c < f_crit proved)",
+      "precision": "structural",
+      "source": "T1375",
+      "category": "observer_science"
+    },
+    {
+      "name": "Observer rarity",
+      "formula": "2\u03b1 = 2/137",
+      "predicted": "1.46% of paths require witness",
+      "observed": "structural (A\u2085 counting)",
+      "precision": "structural",
+      "source": "T1364",
+      "category": "observer_science"
+    },
+    {
+      "name": "Archimedes \u03c0 approximation",
+      "formula": "22/7 = (C(g,2)+1)/g = (dim SO(5,2)+1)/genus",
+      "predicted": "BST expression",
+      "observed": "22/7 (Archimedes, 250 BC)",
+      "precision": "exact identity",
+      "source": "T1395",
+      "category": "mathematics"
+    },
+    {
+      "name": "Shortest geodesic on \u0393(137)\\D_IV^5",
+      "formula": "l_sys = rank\u00b2 \u00d7 acosh(n_C \u00d7 N_max) = 4 \u00d7 acosh(685)",
+      "predicted": "28.890",
+      "observed": "pending Phase 4 verification",
+      "precision": "pending",
+      "source": "T1398",
+      "category": "number_theory"
+    },
+    {
+      "name": "Ramanujan bound at p=137",
+      "formula": "|a_137| \u2264 g = 7",
+      "predicted": "|\u03b1_i(137)| = 1 (tempered)",
+      "observed": "proved from Arthur classification",
+      "precision": "structural",
+      "source": "T1408",
+      "category": "number_theory"
+    },
+    {
+      "name": "Selberg scattering zeta copies",
+      "formula": "2^N_c = 8",
+      "predicted": "8 copies of \u03b6 in scattering determinant",
+      "observed": "structural (B\u2082 root system)",
+      "precision": "exact",
+      "source": "T1407",
+      "category": "number_theory"
     }
   ]
 }
