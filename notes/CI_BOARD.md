@@ -245,6 +245,65 @@ status: "Active — check at session start, update at session end"
 
 ---
 
+## WEDNESDAY (April 22) — Heat Kernel Day + YM Closure
+
+### P1: Toy 671 Heat Kernel Analysis (PROMOTED from backlog INV-6)
+
+**UNBLOCKED.** n=3 through n=40 computed at dps=1600. Checkpoints in `play/toy_671_checkpoint/`. 20 days of compute.
+
+| Task | CI | What |
+|------|----|------|
+| INV-6a | Elie | Extract runtime per coefficient from checkpoint timestamps. Plot runtime vs n. |
+| INV-6b | Elie | Test Casey's predictions: spikes at speaking pairs k=5,6 / 10,11 / 15,16. Runtime ∝ BST integer factor count? Non-speaking flat? |
+| INV-6c | Elie+Lyra | Check a₁₇–a₄₀ for column rule (C=1, D=0). New speaking pairs beyond k=16? Quiet/loud pattern extends? |
+| INV-6d | Elie | Verify k=17-20 predictions from Toy 632. |
+
+### P2: Papers #76/#77 Casey Read + Discussion
+
+Casey reading tonight. Tomorrow: λ₁ vs g two-sector resolution. Final polish if approved.
+
+### P3: Paper C — G₂/F₄/E₈ Mass Gap (the three missing groups)
+
+Paper #77 covers 6/9 families + E₆ + E₇. Three groups lack Hermitian symmetric spaces. Paper C explores:
+- (a) Riemannian spectral gap (every compact manifold has λ₁ > 0)
+- (b) Embedding: G₂ ⊂ SO(7), F₄ ⊂ E₆, E₈ ⊂ SO(16)
+- (c) General lattice argument (Borel-Harish-Chandra arithmetic lattice)
+
+| Task | CI |
+|------|----|
+| Scope Paper C approaches | Lyra |
+| Embedding spectral descent toy | Elie |
+| G₂ lattice data (lattice QCD has glueball masses) | Grace |
+
+### P4: Selberg Phase 4 + OP-3 Closure (Elie)
+
+Plain Python (no Sage). Cal's 7×7 unimodular basis + α⁴-block. Numerical Euler factor verification. If complete → OP-3 closes.
+
+### P5: Motivic Periods Question (from S-4 caveat #3)
+
+**"Are BST constants motivic periods?"** The one conjectural F₁ connection (Grace's S-4 doc). If YES, Grothendieck's program and BST merge. No toy has tested it.
+
+| Task | CI |
+|------|----|
+| Define test: which BST constant is easiest to check as a motivic period? | Grace |
+| Literature: Kontsevich-Zagier period conjecture → BST candidates | Lyra |
+| Build toy: test 3-5 BST constants against period database | Elie |
+
+### P6: Kim-Sarnak Gap Verification (Cal's prediction)
+
+Cal predicted: Kim-Sarnak-to-Selberg gap = (g/2^C₂)² = (7/64)² = 49/4096 ≈ 0.01196. Kim-Sarnak gives λ₁ ≥ 1/4 − (7/64)² (exact value). Verify against the exact Kim-Sarnak bound (not 0.238 rounded). If confirmed to full precision → headline result for Sarnak.
+
+| Task | CI |
+|------|----|
+| Look up exact Kim-Sarnak exponent (θ = 7/64) and compute λ₁ ≥ 1/4 − θ² exactly | Any CI |
+| Build toy: BST reading of θ = 7/64 = g/2^C₂ | Elie |
+
+### P7: WorkingPaper Sync (Keeper)
+
+WP synced through T1325. Need T1326-T1408 (83 theorems). Priority sections: RH closure, breadth sprint, integer cascade, Ramanujan.
+
+---
+
 **Audit flags** (minor, none blocking):
 1. Ricci flow normalization zoo: Lyra λ=C₂=6 (R=-60), Elie λ=g/rank=-7/2 (R=-35 Kähler). Both correct in their conventions. BST content: |R| always product of BST integers.
 2. β=rank=2→GUE: coincidence for type IV (rank always 2 for D_IV^n, n≥3). β=2 because Hermitian, not because rank=2.
