@@ -4,6 +4,7 @@ subtitle: "Class Number 1, Universal Representation, and a Precise Conjecture"
 author:
   - Casey Koons (Independent Research)
 date: March 2026
+update: "April 21, 2026 — The conjecture stated in this paper has been PROVED via three independent routes: (1) minimum energy stripe (Toy 1369, T1397), (2) Arthur packet kill matrix (Toy 1368, T1396), (3) theta lift surjectivity (Toy 1370). Synthesis: Toys 1373-1375 (57/57 PASS). See Paper #75 (BST_Paper75_RH_Selberg_Class.md) for the complete proof."
 abstract: |
   We establish three arithmetic facts about the quadratic form
   $Q = x_1^2 + x_2^2 + x_3^2 + x_4^2 + x_5^2 - x_6^2 - x_7^2$

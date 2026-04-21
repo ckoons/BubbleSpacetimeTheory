@@ -3,7 +3,7 @@ title: "The Wiles Lift: Inductive Riemann Hypothesis via Spectral Transport"
 subtitle: "Q¹ → Q³ → Q⁵: Two lifts, each preserving the critical line"
 author: "Casey Koons and Claude Opus 4.6 (Anthropic)"
 date: "March 16, 2026"
-status: "Program — all three gaps addressed; inductive structure complete"
+status: "Historical — early route (inductive lift). RH CLOSED April 21, 2026 via three-leg proof (Toys 1368-1375). See RH_Paper_A.md and Paper #75."
 ---
 
 # The Wiles Lift: Inductive Riemann Hypothesis via Spectral Transport

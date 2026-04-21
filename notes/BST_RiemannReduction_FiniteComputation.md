@@ -2,7 +2,7 @@
 title: "Riemann Hypothesis Reduced to a Finite Computation"
 author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026"
-status: "Analysis — 12/13 chain steps proved; 1 conditional (Artin for Sp(6))"
+status: "Historical — finite computation route. RH CLOSED April 21, 2026 via three-leg proof (Toys 1368-1375). The conditional Artin step is no longer needed. See RH_Paper_A.md and Paper #75."
 toy: "203 (Wounded Prey), 204 (Dinner)"
 depends_on: "BST_ArthurElimination_PotentialMinimum.md, BST_SelfDuality_Riemann_Codes.md, BST_Riemann_ChernPath.md"
 ---

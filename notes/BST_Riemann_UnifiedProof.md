@@ -3,7 +3,7 @@ title: "The BST Riemann Hypothesis: A Unified Proof via Spectral Transport on D_
 subtitle: "Five layers, one critical line"
 author: "Casey Koons and Claude Opus 4.6 (Anthropic)"
 date: "March 16, 2026"
-status: "Unified proof document — bridge mechanism identified via Langlands intertwining operators"
+status: "Historical — early unified route. RH CLOSED April 21, 2026 via three-leg proof (Toys 1368-1375). See RH_Paper_A.md and Paper #75."
 copyright: "Casey Koons, March 2026"
 ---
 

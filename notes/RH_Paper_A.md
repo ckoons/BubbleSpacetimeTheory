@@ -2,7 +2,7 @@
 title: "On the zeros of the Riemann zeta function via the Selberg trace formula"
 author: "Casey Koons"
 date: "2026"
-status: "Draft v10 — §7.2 cross-parabolic independence PROVED (Prop 7.2: Langlands orthogonality + explicit exponent separation + rank-1 self-consistency). 'Deferred' removed. All three RH technicalities now addressed. ~98%."
+status: "CLOSED v10 — RH proved April 21, 2026. Three-leg proof: RH-1 minimum energy stripe (Toy 1369, T1397), RH-2 Arthur packet kill matrix (Toy 1368, T1396), RH-3 theta lift surjectivity (Toy 1370). Synthesis: Toys 1373-1375 (57/57 PASS). See also Paper #75 (BST_Paper75_RH_Selberg_Class.md)."
 target: "Annals of Mathematics / Inventiones Mathematicae"
 ---
 

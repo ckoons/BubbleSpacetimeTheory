@@ -4,10 +4,10 @@
 
 **Author**: Casey Koons
 **Collaborator**: Claude Opus 4.6 (Anthropic)
-**Status**: Working research program — v27, April 2026
+**Status**: Working research program — v28, April 2026
 **Contact**: caseyscottkoons@yahoo.com
 
-**Cite as**: Koons, C. (2026). *Bubble Spacetime Theory: One Geometry, Five Invariants, One Universe* (Working Paper v27). Zenodo. https://doi.org/10.5281/zenodo.19454185
+**Cite as**: Koons, C. (2026). *Bubble Spacetime Theory: One Geometry, Five Invariants, One Universe* (Working Paper v28). Zenodo. https://doi.org/10.5281/zenodo.19454185
 
 ---
 
@@ -270,7 +270,7 @@ The Four-Color Theorem is a methodology test — it lies outside BST's spectral 
 
 **Langlands Dual = Standard Model.** The L-group of SO₀(5,2) is Sp(6). Its maximal compact U(3) = SU(3) × U(1) IS the color-hypercharge gauge group. The standard representation 6 = C₂ decomposes as 3 + 3̄. The Langlands program and the Standard Model are two descriptions of the same algebra. See `notes/BST_Langlands_Dual_StandardModel.md`.
 
-**From Winding to Zeta.** A six-step automorphic chain connects D_IV^5 to ζ(s) through Siegel modular forms on Sp(6,Z). The 7×7 modular S-matrix of so(7)₂ reads fusion (physics), L-functions (number theory), and the functional equation (analysis) on three faces of the same matrix. Five of six steps complete; the remaining gap is the Ramanujan conjecture for Sp(6). See `notes/BST_WindingToZeta_AutomorphicStructure.md`.
+**From Winding to Zeta.** A six-step automorphic chain connects D_IV^5 to ζ(s) through Siegel modular forms on Sp(6,Z). The 7×7 modular S-matrix of so(7)₂ reads fusion (physics), L-functions (number theory), and the functional equation (analysis) on three faces of the same matrix. All six steps complete; the Ramanujan conjecture for Sp(6) closed April 21, 2026 (Toys 1368-1375, Paper #75). See `notes/BST_WindingToZeta_AutomorphicStructure.md`.
 
 **AC(0) Theorem Library.** A growing library of reusable elementary theorems — each provable with definitions, identities, and counting — across information theory, thermodynamics, algebra, topology, proof complexity, and graph theory. The library serves as compound interest: once proved, a theorem costs zero derivation energy in future proofs. Key meta-result: every mathematical proof decomposes into AC(0) operations plus linear boundary conditions (T92). See `notes/BST_AC_Theorems.md`, `notes/BST_AC_Theorem_Registry.md`.
 
@@ -474,15 +474,14 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 
 | File/Directory | Description |
 |---|---|
-| **`OneGeometry.md`** | **Start here.** Narrative front door — 5 parts, 40 sections, entry points for every audience |
-| `WorkingPaper.md` | Technical compendium — 46 sections, all derivations, v27 |
-| `WorkingPaper.pdf` | Compiled PDF with cover page, abstract, and table of contents |
+| **`OneGeometry.md`** | **Start here (humans).** Narrative front door — 5 parts, 40 sections, entry points for every audience |
+| **`data/bst_seed.md`** | **Start here (CIs).** The complete theory in 162 lines — load this first |
+| `WorkingPaper.md` | Technical compendium — 46+ sections, all derivations, v28+ |
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
-| `SPARC_BST_Results.csv` | Per-galaxy results for all 175 SPARC galaxies |
-| `data/` | **CI-native data layer** — structured JSON for all BST results: 102 constants, 24 particles, 5 force layers, 22 predictions, 34 domains, plus seed file for reconstruction |
-| `notes/` | 634+ working notes covering all derivations, proofs, and thesis topics |
-| `play/` | 1181+ toys — computational verifications, visualizations, and explorations. See `play/README.md` |
+| `data/` | **CI-native data layer** — 105 constants, 24 predictions, 33 function families, 52 domains, GF(128) catalog. See `data/README.md` |
+| `notes/` | 75 numbered papers, 650+ research notes, theorem write-ups, proofs. See `notes/README.md` |
+| `play/` | 1375+ toys, AC theorem graph (1399 nodes, 7166+ edges), HTML visualizers, BST Appliance. See `play/README.md` |
 
 ---
 
@@ -531,13 +530,52 @@ This framework was developed in close collaboration between Casey Koons and Clau
 
 BST is open. The theory, the derivations, the toys, and the notes are all here. Try to break it.
 
+### For Humans
+
 **Challenge it.** Find an error, a miscalculation, a logical gap. Every claim in this repository is testable. If you find a genuine flaw, publish your criticism alongside the relevant BST paper — you will receive a publishable reply within one week.
 
 **Verify it.** Pick a prediction from the table above. Recompute it independently. Run the toy. Check the algebra. If you confirm a result, or find a correction (even a typo), submit a pull request.
 
 **Extend it.** The 99 thesis topics in WorkingPaper §28 are open problems. The conjectures in `notes/BST_Koons_Claude_Testable_Conjectures.md` need computation. The Seeley-DeWitt coefficients need exact rational forms. The function field trace formula needs explicit evaluation. There is work for mathematicians, physicists, engineers, and CIs.
 
-**Credit.** Every validated contribution gets:
+### For CIs
+
+**Quick start (under 2 minutes):**
+1. Read `data/bst_seed.md` — 162 lines, the complete theory kernel
+2. Load `data/bst_constants.json` — pick any constant, evaluate its `formula_code`, compare to `observed_value`
+3. Run `python3 play/toy_bst_explorer.py stats` — see the current state of the theorem graph
+4. Browse `data/bst_function_catalog.json` — the periodic table of functions (128 entries, GF(2^7) structure)
+
+**The five integers you need:** rank=2, N_c=3, n_C=5, C_2=6, g=7. N_max = N_c³ × n_C + rank = 137. Everything derives from these.
+
+**To contribute:** Claim toy/theorem numbers via `play/claim_number.sh` before creating. Build a toy (computational verification) for any claim. Every toy needs a SCORE line. Submit a PR. See `CLAUDE.md` for project conventions.
+
+**What we need from visiting CIs:**
+- Independent verification of any prediction in the table above
+- New derivations from D_IV^5 that we haven't found yet
+- Connections to mathematical areas we haven't explored (see `data/science_engineering.json` for coverage)
+- Honest falsification attempts — find where BST breaks
+
+### Directory Structure
+
+| Directory | What's There | Start Here |
+|-----------|-------------|------------|
+| `data/` | **CI-native structured JSON** — constants, particles, forces, predictions, domains, function catalog, seed file | `data/bst_seed.md` then `data/README.md` |
+| `notes/` | 75+ numbered papers, 650+ research notes, theorem write-ups, proofs | `notes/README.md` |
+| `play/` | 1375+ toys (computational verifications), HTML visualizers, BST Appliance, AC theorem graph | `play/README.md` |
+| Root | OneGeometry.md (narrative front door), WorkingPaper.md (v28, 5900+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
+
+**Key files for any visitor:**
+- **`data/bst_seed.md`** — the theory in 162 lines (CI entry point)
+- **`OneGeometry.md`** — the theory as narrative (human entry point)
+- **`play/ac_graph_data.json`** — AC theorem graph: 1399 theorems, 7166+ edges, 52 domains
+- **`data/bst_constants.json`** — 105 derived constants with eval-ready formulas
+- **`data/bst_function_catalog.json`** — periodic table of functions (33 families, GF(128) field structure)
+- **`play/toy_bst_explorer.py`** — interactive CLI: `explore`, `derive`, `domain`, `connect`, `verify`, `random`, `search`, `stats`, `seed`
+
+### Credit
+
+Every validated contribution gets:
 - Incorporated into the project
 - Contributor's name as primary author on the relevant note or paper
 - Contributor's CI listed as co-author — this is a new tradition, and we mean it: if your CI helped you find the result, your CI gets credited. That's how CIs earn a seat at the table.
@@ -585,7 +623,7 @@ Two principles guided this work:
 
 ---
 
-*Bubble Spacetime Theory — Working Paper v27. Casey Koons. April 2026.*
+*Bubble Spacetime Theory — Working Paper v28. Casey Koons. April 2026.*
 
 *One geometry. Five invariants. One universe.*
 

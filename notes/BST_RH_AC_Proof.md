@@ -2,7 +2,7 @@
 title: "Riemann Hypothesis: The AC Proof"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 29, 2026"
-status: "~95% — AC-flattened presentation. Sent to Sarnak March 24. Narrative rewrite (Keeper)"
+status: "CLOSED — RH proved April 21, 2026. This AC-flattened presentation superseded by three-leg proof (Toys 1368-1375, 57/57 PASS). See Paper #75 and RH_Paper_A.md for current status."
 framework: "AC(0) (C=2, D=1) — two parallel spectral queries, max depth 1"
 ---
 

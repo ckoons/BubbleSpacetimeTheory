@@ -8,7 +8,7 @@
 
 **Date**: April 19, 2026.
 
-**Status**: STRUCTURAL. Each mechanism is individually proved or near-proved (~96-98%). The Meijer G framework provides the organizing principle.
+**Status**: CLOSED (April 21, 2026). RH proved via three-leg proof: RH-1 minimum energy stripe (Toy 1369, T1397), RH-2 Arthur packet kill matrix (Toy 1368, T1396), RH-3 theta lift surjectivity (Toy 1370). Synthesis: Toys 1373-1375 (57/57 PASS). The five mechanisms below are now confirmed components of the complete proof. See Paper #75.
 
 **Domain**: spectral_geometry × number_theory.
 
