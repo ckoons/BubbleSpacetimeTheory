@@ -8,7 +8,7 @@ This directory contains ~660+ markdown files, ~480 PDFs, ~34 Python scripts, and
 
 ---
 
-## Numbered Papers (Papers #1--#75)
+## Numbered Papers (Papers #1--#78)
 
 The numbered paper series covers the full scope of BST, from foundational mathematics through particle physics, cosmology, biology, engineering, and meta-theory.
 
@@ -285,7 +285,7 @@ Casimir analysis, Casimir effect, fusion energy, fusion rings, substrate archite
 
 ## Theorem Write-ups — 169 files
 
-Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1264, with concentration in the T1000--T1264 range (bridge theorems, domain connections, late-stage results).
+Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1407, with concentration in the T1000--T1407 range (bridge theorems, domain connections, late-stage results).
 
 Selected highlights:
 - `BST_T704_DIV5_Uniqueness_Theorem.md` — D\_IV^5 uniqueness (25 conditions)
