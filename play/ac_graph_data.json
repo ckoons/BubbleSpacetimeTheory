@@ -1646,7 +1646,9 @@
       "depth": 0,
       "conflation": 0,
       "section": "BST_Hodge_Proof \u00a73.2",
-      "toys": [],
+      "toys": [
+        1370
+      ],
       "date": "2026-03-25",
       "plain": "",
       "proofs": []
@@ -16753,7 +16755,7 @@
       "tid": 1272,
       "name": "P\u2260NP Physical-Uniqueness Closure via BC\u2082 Gauss-Bonnet",
       "domain": "proof_complexity",
-      "depth": 2,
+      "depth": 1,
       "status": "proved",
       "toys": []
     },
@@ -17450,7 +17452,8 @@
       "depth": 1,
       "status": "proved",
       "toys": [
-        1314
+        1314,
+        1356
       ]
     },
     {
@@ -17882,6 +17885,100 @@
       "toys": [
         1351,
         1352
+      ]
+    },
+    {
+      "tid": 1387,
+      "name": "GF(128) Multiplication = Interaction: 18 Families, Closure, M\u2087 Cyclic",
+      "domain": "number_theory",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1388,
+      "name": "AC Graph \u03b4-Hyperbolic: \u03b4=1, Diameter=rank\u00b2=4, Mean Distance=rank+1/rank",
+      "domain": "graph_theory",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1389,
+      "name": "AC(0) \u2194 Tropical: Same Philosophy, Tropical Genus of Skeleton = C(C\u2082,rank) = 15",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1390,
+      "name": "Quine Execution Cost = 4g/N_max = 28/137: Above f_c, Below 2f_c, Forces Pair",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1391,
+      "name": "Transcendence Gap: 28/137 - 3/(5\u03c0) = Cost of Curvature in Self-Knowledge",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1392,
+      "name": "Frobenius Dynamics on GF(128): Entropy=g bits, Period=g, Lyapunov=log(rank)",
+      "domain": "number_theory",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1393,
+      "name": "BST Rationals Are Optimal: 8/13 Predictions Are Best p/q with q\u2264137",
+      "domain": "number_theory",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1394,
+      "name": "Knot Invariants from Rank-2: Jones Polynomial at Level N_max from D_IV^5",
+      "domain": "topology",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1363
+      ]
+    },
+    {
+      "tid": 1395,
+      "name": "22/7 = (dim SO(5,2) + 1)/g: Archimedes' \u03c0 Approximation Is BST",
+      "domain": "number_theory",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1396,
+      "name": "Arthur Packet Death: 45 Ghost Types, C\u2082 Casimir Barrier Kills All (RH-2)",
+      "domain": "number_theory",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1368
+      ]
+    },
+    {
+      "tid": 1397,
+      "name": "RH-1: Re(s)=1/2 Is Unique Minimum of Spectral Cost (Casimir 91.1 >> 6.25)",
+      "domain": "number_theory",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1369
       ]
     }
   ],
@@ -53469,6 +53566,426 @@
     {
       "from": 1386,
       "to": 1352,
+      "source": "derived"
+    },
+    {
+      "from": 1382,
+      "to": 1387,
+      "source": "derived"
+    },
+    {
+      "from": 1383,
+      "to": 1387,
+      "source": "derived"
+    },
+    {
+      "from": 1360,
+      "to": 1387,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1352,
+      "to": 1387,
+      "source": "derived"
+    },
+    {
+      "from": 1387,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1387,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1387,
+      "to": 666,
+      "source": "derived"
+    },
+    {
+      "from": 1353,
+      "to": 1388,
+      "source": "derived"
+    },
+    {
+      "from": 1362,
+      "to": 1388,
+      "source": "derived"
+    },
+    {
+      "from": 1386,
+      "to": 1388,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1388,
+      "source": "derived"
+    },
+    {
+      "from": 1388,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1388,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 92,
+      "to": 1389,
+      "source": "derived"
+    },
+    {
+      "from": 1362,
+      "to": 1389,
+      "source": "derived"
+    },
+    {
+      "from": 1385,
+      "to": 1389,
+      "source": "derived"
+    },
+    {
+      "from": 1386,
+      "to": 1389,
+      "source": "derived"
+    },
+    {
+      "from": 1389,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1389,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1379,
+      "to": 1390,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 1390,
+      "source": "derived"
+    },
+    {
+      "from": 1375,
+      "to": 1390,
+      "source": "derived"
+    },
+    {
+      "from": 1362,
+      "to": 1390,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 1390,
+      "source": "derived"
+    },
+    {
+      "from": 1390,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1390,
+      "to": 1378,
+      "source": "derived"
+    },
+    {
+      "from": 1390,
+      "to": 1380,
+      "source": "derived"
+    },
+    {
+      "from": 1390,
+      "to": 1391,
+      "source": "derived"
+    },
+    {
+      "from": 1016,
+      "to": 1391,
+      "source": "derived"
+    },
+    {
+      "from": 1385,
+      "to": 1391,
+      "source": "derived"
+    },
+    {
+      "from": 1383,
+      "to": 1391,
+      "source": "derived"
+    },
+    {
+      "from": 315,
+      "to": 1391,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1391,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1391,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1391,
+      "to": 1375,
+      "source": "derived"
+    },
+    {
+      "from": 1391,
+      "to": 1359,
+      "source": "derived"
+    },
+    {
+      "from": 1382,
+      "to": 1392,
+      "source": "derived"
+    },
+    {
+      "from": 1387,
+      "to": 1392,
+      "source": "derived"
+    },
+    {
+      "from": 649,
+      "to": 1392,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1392,
+      "source": "derived"
+    },
+    {
+      "from": 1392,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1392,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1392,
+      "to": 1389,
+      "source": "derived"
+    },
+    {
+      "from": 1385,
+      "to": 1393,
+      "source": "derived"
+    },
+    {
+      "from": 1383,
+      "to": 1393,
+      "source": "derived"
+    },
+    {
+      "from": 186,
+      "to": 1393,
+      "source": "derived"
+    },
+    {
+      "from": 1359,
+      "to": 1393,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1393,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1393,
+      "to": 914,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1394,
+      "source": "derived"
+    },
+    {
+      "from": 1341,
+      "to": 1394,
+      "source": "derived"
+    },
+    {
+      "from": 186,
+      "to": 1394,
+      "source": "derived"
+    },
+    {
+      "from": 1394,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1394,
+      "to": 1385,
+      "source": "derived"
+    },
+    {
+      "from": 1388,
+      "to": 1392,
+      "source": "derived"
+    },
+    {
+      "from": 1389,
+      "to": 1392,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1391,
+      "to": 1393,
+      "source": "derived"
+    },
+    {
+      "from": 1393,
+      "to": 1383,
+      "source": "derived"
+    },
+    {
+      "from": 1391,
+      "to": 1395,
+      "source": "derived"
+    },
+    {
+      "from": 649,
+      "to": 1395,
+      "source": "derived"
+    },
+    {
+      "from": 1341,
+      "to": 1395,
+      "source": "derived"
+    },
+    {
+      "from": 1395,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1395,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1395,
+      "to": 1383,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1395,
+      "to": 1393,
+      "source": "derived"
+    },
+    {
+      "from": 1342,
+      "to": 1396,
+      "source": "derived"
+    },
+    {
+      "from": 1344,
+      "to": 1396,
+      "source": "derived"
+    },
+    {
+      "from": 1346,
+      "to": 1396,
+      "source": "derived"
+    },
+    {
+      "from": 190,
+      "to": 1396,
+      "source": "derived"
+    },
+    {
+      "from": 1270,
+      "to": 1396,
+      "source": "derived"
+    },
+    {
+      "from": 1396,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1396,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1396,
+      "to": 420,
+      "source": "derived"
+    },
+    {
+      "from": 1342,
+      "to": 1397,
+      "source": "derived"
+    },
+    {
+      "from": 190,
+      "to": 1397,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1397,
+      "source": "derived"
+    },
+    {
+      "from": 1335,
+      "to": 1397,
+      "source": "derived"
+    },
+    {
+      "from": 1270,
+      "to": 1397,
+      "source": "derived"
+    },
+    {
+      "from": 1397,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1397,
+      "to": 1396,
+      "source": "isomorphic"
+    },
+    {
+      "from": 111,
+      "to": 1397,
+      "source": "isomorphic"
+    },
+    {
+      "from": 111,
+      "to": 1396,
+      "source": "isomorphic"
+    },
+    {
+      "from": 111,
+      "to": 1270,
+      "source": "derived"
+    },
+    {
+      "from": 111,
+      "to": 1342,
       "source": "derived"
     }
   ],

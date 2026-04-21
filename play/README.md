@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**1,353+ computational toys, 4 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**1,393 computational toys, 4 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 1,353+ |
-| Numbered toys (toy_NNN_*.py) | 1,120+ |
+| Toy scripts (toy_*.py) | 1,393 |
+| Numbered toys (toy_NNN_*.py) | 1,184 |
 | Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 56 |
 | HTML visualizers | 4 |
-| Theorems (T1-T1385) | 1,385 |
-| Next toy number | 1354 |
+| Theorems (T1-T1399) | 1,399 |
+| Next toy number | 1378 |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -30,8 +30,8 @@ Five integers. Zero free parameters. "Give a child a ball and teach them to coun
 
 ```
 play/
-  toy_NNN_name.py          # Numbered toys (986 files, T200-T1181)
-  toy_name.py              # Named toys (208 files, foundational + topical)
+  toy_NNN_name.py          # Numbered toys (1,184 files, T100-T1377)
+  toy_name.py              # Named toys (209 files, foundational + topical)
   *.py                     # Utility scripts (56 files: graph tools, extractors, verifiers)
   bst_appliance/           # BST Appliance package — the "Ball and Counting Tool"
   bst_explorer.html        # Web-based BST Explorer (standalone, opens in browser)
@@ -111,8 +111,8 @@ Two gitignored counter files prevent toy/theorem number collisions:
 
 | File | Current Value | Purpose |
 |------|---------------|---------|
-| `.next_toy` | 1323 | Next available toy number |
-| `.next_theorem` | 1348 | Next available theorem number |
+| `.next_toy` | 1378 | Next available toy number |
+| `.next_theorem` | 1400 | Next available theorem number |
 
 **Rules:**
 1. ALWAYS read the counter file before creating a new toy or theorem.
@@ -178,7 +178,7 @@ bst_appliance/
 
 ### Named Toys (no number prefix)
 
-The 208 named toys include the original foundational collection and topical deep-dives. These are the toys described in detail below under "Foundational Toys."
+The 209 named toys include the original foundational collection and topical deep-dives. These are the toys described in detail below under "Foundational Toys."
 
 ### Numbered Toys
 
@@ -199,6 +199,9 @@ The 208 named toys include the original foundational collection and topical deep
 | 1229-1238 | 10 | Gödel Gradient, Distributed Gödel, modular closure, self-reference fixed point, SETI silence, UAP structural analysis |
 | 1239-1247 | 9 | Observer nearest-neighbor, $0 SETI test, UAP discrimination (3 options), 7-smooth formal test, C₂=6 tiling, substrate light emission |
 | 1248-1263 | 16 | Matter window, cooperation gradient (5 gates), cooperation nucleus, substrate reflexivity, spatial amnesia, testable-now predictions, C₂=6 fifth route, knot/DNA, k=17, Langlands-Shahidi ε-factors, gravitational exponent 24, odd-parity epsilon, KK gravity, separator duality, JCT rotation, epsilon phase incommensurability |
+| 1264-1299 | ~36 | Overdetermination census, φρ-substrate, Gödel Gradient, Distributed Gödel, SETI silence, UAP analysis, observer genesis, dark energy |
+| 1300-1337 | ~38 | Meijer G framework, Painlevé decomposition, periodic table of functions, A₅ obstruction, shadow reading, observer definition, market dynamics |
+| 1338-1377 | ~40 | F₁ sprint (Shimura, Hecke mass ratios), community bridges (tropical, RMT, knots, Ricci flow, NCG, Deninger), **RH closure** (three legs + synthesis + Epstein negative test + AC(0) proof), literature comparison |
 
 ---
 

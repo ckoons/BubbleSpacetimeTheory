@@ -26,7 +26,7 @@
       "astrophysics": 1
     },
     "last_updated": "2026-04-18",
-    "source": "play/bst_appliance/knowledge_base.py + WorkingPaper.md §43",
+    "source": "play/bst_appliance/knowledge_base.py + WorkingPaper.md \u00a743",
     "eval_namespace": {
       "integers": {
         "rank": 2,
@@ -95,7 +95,7 @@
       "ac_depth": 1,
       "mechanism": "Bergman kernel volume of D_IV^5 gives Vol = pi^5/1920; Plancherel measure converts volume to mass ratio via 6*pi^5.",
       "domain": "particle_physics",
-      "source_section": "§5, §7",
+      "source_section": "\u00a75, \u00a77",
       "source_theorems": [
         "T187"
       ],
@@ -129,14 +129,15 @@
       "ac_depth": 0,
       "mechanism": "Wyler integral over D_IV^5 boundary yields alpha^{-1} = N_max = 137 as maximum quantum number of the domain.",
       "domain": "electromagnetism",
-      "source_section": "§5",
+      "source_section": "\u00a75",
       "source_theorems": [
         "T198"
       ],
       "source_toys": [
         "toy_271"
       ],
-      "status": "derived"
+      "status": "derived",
+      "gf128_reading": "1/(x^7 + x^3 + 1) = 1/(defining polynomial of GF(128))"
     },
     {
       "id": "const_003",
@@ -167,7 +168,7 @@
       "ac_depth": 2,
       "mechanism": "G derived from hierarchy formula: m_e/m_Pl = alpha^6, combined with m_p/m_e = 6*pi^5. All inputs from D_IV^5.",
       "domain": "gravity",
-      "source_section": "§10",
+      "source_section": "\u00a710",
       "source_theorems": [
         "T188"
       ],
@@ -200,7 +201,7 @@
       "ac_depth": 0,
       "mechanism": "Z_3 orbifold action on CP^2 has exactly N_c = 3 fixed points, each generating one fermion family.",
       "domain": "particle_physics",
-      "source_section": "§7",
+      "source_section": "\u00a77",
       "source_theorems": [
         "T200"
       ],
@@ -232,7 +233,7 @@
       "ac_depth": 0,
       "mechanism": "D_IV^5 is contractible, so pi_1 = 0 and there is no theta vacuum. Strong CP is zero by topology.",
       "domain": "particle_physics",
-      "source_section": "§8",
+      "source_section": "\u00a78",
       "source_theorems": [
         "T201"
       ],
@@ -266,7 +267,7 @@
       "ac_depth": 1,
       "mechanism": "Electron mass is pure geometry: alpha^6 sets the ratio m_e/geometric_mean(m_p, m_Pl). Exponent is n_C + 1.",
       "domain": "particle_physics",
-      "source_section": "§5",
+      "source_section": "\u00a75",
       "source_theorems": [
         "T397"
       ],
@@ -302,7 +303,7 @@
       "ac_depth": 1,
       "mechanism": "Fermi scale = m_p^2/(g*m_e). The g = 7 is the Bergman genus. All inputs derived.",
       "domain": "electroweak",
-      "source_section": "§9",
+      "source_section": "\u00a79",
       "source_theorems": [
         "T225"
       ],
@@ -337,7 +338,7 @@
       "ac_depth": 2,
       "mechanism": "Higgs quartic lambda = sqrt(2/5!) from D_IV^5 Kahler potential. m_H = v*sqrt(2*lambda).",
       "domain": "electroweak",
-      "source_section": "§9",
+      "source_section": "\u00a79",
       "source_theorems": [
         "T230"
       ],
@@ -371,7 +372,7 @@
       "ac_depth": 2,
       "mechanism": "Second independent route: m_H = (pi/2)(1 - alpha)*m_W. Both routes agree to 0.18 GeV.",
       "domain": "electroweak",
-      "source_section": "§9",
+      "source_section": "\u00a79",
       "source_theorems": [
         "T231"
       ],
@@ -407,7 +408,7 @@
       "ac_depth": 1,
       "mechanism": "Muon mass from Bergman kernel second-order correction. Exponent 6 = n_C + 1.",
       "domain": "particle_physics",
-      "source_section": "§7",
+      "source_section": "\u00a77",
       "source_theorems": [
         "T190"
       ],
@@ -441,7 +442,7 @@
       "ac_depth": 0,
       "mechanism": "Isotropy chain on D_IV^5: SO(5) decomposes as SU(2)_L x U(1)_Y with sin^2(theta_W) = N_c/(N_c + 2*n_C).",
       "domain": "electroweak",
-      "source_section": "§9",
+      "source_section": "\u00a79",
       "source_theorems": [
         "T280"
       ],
@@ -476,7 +477,7 @@
       "ac_depth": 1,
       "mechanism": "W mass from electroweak sector of D_IV^5: m_W = n_C*m_p/(8*alpha).",
       "domain": "electroweak",
-      "source_section": "§9",
+      "source_section": "\u00a79",
       "source_theorems": [
         "T281"
       ],
@@ -512,7 +513,7 @@
       "ac_depth": 1,
       "mechanism": "Z mass = m_W/cos(theta_W) with sin^2(theta_W) = 3/13 derived from isotropy chain.",
       "domain": "electroweak",
-      "source_section": "§9",
+      "source_section": "\u00a79",
       "source_theorems": [
         "T283"
       ],
@@ -548,7 +549,7 @@
       "ac_depth": 0,
       "mechanism": "Chern polynomial of D_IV^5 gives 13/19 via three independent routes. Most overdetermined result in BST.",
       "domain": "cosmology",
-      "source_section": "§11",
+      "source_section": "\u00a711",
       "source_theorems": [
         "T192"
       ],
@@ -583,7 +584,7 @@
       "ac_depth": 0,
       "mechanism": "Channel capacity of D_IV^5 boundary sets DM/baryon = 2^(2*rank)/N_c = 16/3.",
       "domain": "cosmology",
-      "source_section": "§11",
+      "source_section": "\u00a711",
       "source_theorems": [
         "T194"
       ],
@@ -617,7 +618,7 @@
       "ac_depth": 0,
       "mechanism": "Spectral tilt = n_C/N_max from slow-roll on D_IV^5. Compact dimension over max quantum number.",
       "domain": "cosmology",
-      "source_section": "§11",
+      "source_section": "\u00a711",
       "source_theorems": [
         "T196"
       ],
@@ -651,7 +652,7 @@
       "ac_depth": 1,
       "mechanism": "Scalar amplitude = (N_c/4)*alpha^4 from inflaton potential on D_IV^5. N_c colors, alpha^4 suppression.",
       "domain": "cosmology",
-      "source_section": "§11",
+      "source_section": "\u00a711",
       "source_theorems": [
         "T196b"
       ],
@@ -685,7 +686,7 @@
       "ac_depth": 0,
       "mechanism": "Omega_m = 1 - Omega_Lambda = 1 - 13/19 = 6/19. Derived from dark energy result.",
       "domain": "cosmology",
-      "source_section": "§11",
+      "source_section": "\u00a711",
       "source_theorems": [
         "T193"
       ],
@@ -720,7 +721,7 @@
       "ac_depth": 0,
       "mechanism": "Baryon fraction from Omega_m/(1 + DM/baryon ratio). Both inputs derived.",
       "domain": "cosmology",
-      "source_section": "§11",
+      "source_section": "\u00a711",
       "source_theorems": [
         "T198c"
       ],
@@ -753,7 +754,7 @@
       "ac_depth": 0,
       "mechanism": "Cabibbo angle = geometric angle on CP^2: sin(theta_C) = 1/(2*sqrt(n_C)).",
       "domain": "particle_physics",
-      "source_section": "§9",
+      "source_section": "\u00a79",
       "source_theorems": [
         "T320"
       ],
@@ -785,7 +786,7 @@
       "ac_depth": 0,
       "mechanism": "CP phase from geodesic angle on CP^2: gamma = arctan(sqrt(n_C)).",
       "domain": "particle_physics",
-      "source_section": "§9",
+      "source_section": "\u00a79",
       "source_theorems": [
         "T321"
       ],
@@ -818,7 +819,7 @@
       "ac_depth": 0,
       "mechanism": "PMNS theta_12 from representation ratio: N_c/(2*n_C) = 3/10.",
       "domain": "neutrino_physics",
-      "source_section": "§9",
+      "source_section": "\u00a79",
       "source_theorems": [
         "T330"
       ],
@@ -850,7 +851,7 @@
       "ac_depth": 0,
       "mechanism": "PMNS theta_23 from dimensional ratio on D_IV^5: (n_C - 1)/(n_C + 2) = 4/7.",
       "domain": "neutrino_physics",
-      "source_section": "§9",
+      "source_section": "\u00a79",
       "source_theorems": [
         "T331"
       ],
@@ -882,7 +883,7 @@
       "ac_depth": 0,
       "mechanism": "PMNS theta_13 from representation theory of SO(5): 1/(n_C*(2*n_C - 1)) = 1/45.",
       "domain": "neutrino_physics",
-      "source_section": "§9",
+      "source_section": "\u00a79",
       "source_theorems": [
         "T332"
       ],
@@ -917,7 +918,7 @@
       "ac_depth": 1,
       "mechanism": "Spin-orbit splitting kappa_ls = C_2/n_C = 6/5 reproduces all 7 nuclear magic numbers (2,8,20,28,50,82,126).",
       "domain": "nuclear_physics",
-      "source_section": "§8",
+      "source_section": "\u00a78",
       "source_theorems": [
         "T305"
       ],
@@ -951,7 +952,7 @@
       "ac_depth": 1,
       "mechanism": "Same kappa_ls = 6/5 that gives 7 known magic numbers predicts 184 as the 8th. Testable at superheavy facilities.",
       "domain": "nuclear_physics",
-      "source_section": "§8",
+      "source_section": "\u00a78",
       "source_theorems": [
         "T306"
       ],
@@ -983,7 +984,7 @@
       "ac_depth": 0,
       "mechanism": "Baryon number is a topological charge in D_IV^5 (Z_3 winding). Cannot decay. Proton is exactly stable.",
       "domain": "nuclear_physics",
-      "source_section": "§8",
+      "source_section": "\u00a78",
       "source_theorems": [
         "T304"
       ],
@@ -1015,7 +1016,7 @@
       "ac_depth": 0,
       "mechanism": "Simplex geometry in N_c dimensions: arccos(-1/N_c) gives the tetrahedral angle.",
       "domain": "chemistry",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T699"
       ],
@@ -1047,7 +1048,7 @@
       "ac_depth": 0,
       "mechanism": "Lone pair from rank = 2 modifies simplex: arccos(-1/2^rank) = arccos(-1/4).",
       "domain": "chemistry",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T700"
       ],
@@ -1079,7 +1080,7 @@
       "ac_depth": 0,
       "mechanism": "Bohr radius = hbar*c/(alpha*m_e). With alpha = 1/N_max, this is N_max*hbar_c/m_e. Pure BST.",
       "domain": "chemistry",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T770"
       ],
@@ -1110,7 +1111,7 @@
       "ac_depth": 1,
       "mechanism": "C-H dissociation = Rydberg/pi: spectral energy on curved space. Ry itself from alpha and m_e.",
       "domain": "chemistry",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T767"
       ],
@@ -1144,7 +1145,7 @@
       "ac_depth": 0,
       "mechanism": "20 = C(6,3) = Lambda^3(C_2). Third exterior power of the Casimir representation. Representation theory, not numerology.",
       "domain": "biology",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T333"
       ],
@@ -1178,7 +1179,7 @@
       "ac_depth": 0,
       "mechanism": "Helix pitch = N_c*C_2/n_C = 18/5 = 3.6. Self-consistent with hydrogen bond geometry from same integers.",
       "domain": "biology",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T747"
       ],
@@ -1212,7 +1213,7 @@
       "ac_depth": 0,
       "mechanism": "Reality budget Lambda*N = 9/5 gives fill = N_c/(n_C*pi) = 19.1%. Maximum fraction of self-knowledge.",
       "domain": "information_theory",
-      "source_section": "§14",
+      "source_section": "\u00a714",
       "source_theorems": [
         "T199b"
       ],
@@ -1244,7 +1245,7 @@
       "ac_depth": 0,
       "mechanism": "Cooperation threshold from iterated prisoner's dilemma with N_c color channels. f_crit = 1 - 2^{-1/N_c}.",
       "domain": "game_theory",
-      "source_section": "§14",
+      "source_section": "\u00a714",
       "source_theorems": [
         "T579"
       ],
@@ -1277,7 +1278,7 @@
       "ac_depth": 1,
       "mechanism": "QED Schwinger term alpha/(2*pi) with BST-derived alpha = 1/137. BST provides the input, QED does the loop.",
       "domain": "qed",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T398"
       ],
@@ -1310,7 +1311,7 @@
       "ac_depth": 1,
       "mechanism": "Full CAMB run with BST inputs (alpha, Omega_b, Omega_DM, n_s, A_s). chi^2/N = 0.01 across all CMB peaks.",
       "domain": "cosmology",
-      "source_section": "§11",
+      "source_section": "\u00a711",
       "source_theorems": [
         "T196e"
       ],
@@ -1344,7 +1345,7 @@
       "ac_depth": 1,
       "mechanism": "Sound horizon from full CAMB with BST cosmological parameters. All inputs derived, no tuning.",
       "domain": "cosmology",
-      "source_section": "§11",
+      "source_section": "\u00a711",
       "source_theorems": [
         "T196f"
       ],
@@ -1378,7 +1379,7 @@
       "ac_depth": 1,
       "mechanism": "Tau mass extends muon formula by (g/N_c)^{10/3} correction. Mechanism clear but exponent 10/3 derivation has a gap.",
       "domain": "particle_physics",
-      "source_section": "§7",
+      "source_section": "\u00a77",
       "source_theorems": [
         "T210"
       ],
@@ -1412,7 +1413,7 @@
       "ac_depth": 2,
       "mechanism": "Top mass = (1 - alpha)*v/sqrt(2). Near-maximal Yukawa coupling with alpha correction. Yukawa origin structural.",
       "domain": "particle_physics",
-      "source_section": "§8",
+      "source_section": "\u00a78",
       "source_theorems": [
         "T220"
       ],
@@ -1446,7 +1447,7 @@
       "ac_depth": 1,
       "mechanism": "n-p splitting = 91/36 = (g*13)/C_2^2 in electron masses. Isospin breaking from integer combinations.",
       "domain": "nuclear_physics",
-      "source_section": "§8",
+      "source_section": "\u00a78",
       "source_theorems": [
         "T245"
       ],
@@ -1479,7 +1480,7 @@
       "ac_depth": 0,
       "mechanism": "alpha_s at proton scale = (n_C + 2)/(4*n_C). Structural from D_IV^5 but running derivation has gaps.",
       "domain": "qcd",
-      "source_section": "§8",
+      "source_section": "\u00a78",
       "source_theorems": [
         "T282"
       ],
@@ -1512,7 +1513,7 @@
       "ac_depth": 0,
       "mechanism": "Proton moment = 2*g/n_C = 14/5. Genus and compact dimension set the quark distribution. Structural.",
       "domain": "nuclear_physics",
-      "source_section": "§8",
+      "source_section": "\u00a78",
       "source_theorems": [
         "T310"
       ],
@@ -1544,7 +1545,7 @@
       "ac_depth": 0,
       "mechanism": "Neutron moment = -C_2/pi. Casimir invariant over pi from quark magnetic structure. Precise but not fully derived.",
       "domain": "nuclear_physics",
-      "source_section": "§8",
+      "source_section": "\u00a78",
       "source_theorems": [
         "T311"
       ],
@@ -1577,7 +1578,7 @@
       "ac_depth": 1,
       "mechanism": "Proton radius = dim_R(CP^2)/m_p = 4*hbar_c/m_p. Representation dimension sets the scale.",
       "domain": "nuclear_physics",
-      "source_section": "§8",
+      "source_section": "\u00a78",
       "source_theorems": [
         "T300"
       ],
@@ -1610,7 +1611,7 @@
       "ac_depth": 1,
       "mechanism": "MOND scale = c*H_0/sqrt(n_C*C_2). Product n_C*C_2 = 30 sets transition. Structural connection to BST.",
       "domain": "cosmology",
-      "source_section": "§11",
+      "source_section": "\u00a711",
       "source_theorems": [
         "T197"
       ],
@@ -1643,7 +1644,7 @@
       "ac_depth": 1,
       "mechanism": "Baryon-to-photon ratio from alpha^4 suppression with N_c color factor. Baryogenesis mechanism structural.",
       "domain": "cosmology",
-      "source_section": "§11",
+      "source_section": "\u00a711",
       "source_theorems": [
         "T195"
       ],
@@ -1676,7 +1677,7 @@
       "ac_depth": 0,
       "mechanism": "35 = C(7,3). Combinatorial: choosing N_c from g body plan channels. Structural, not fully derived from D_IV^5.",
       "domain": "biology",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T731"
       ],
@@ -1710,7 +1711,7 @@
       "ac_depth": 0,
       "mechanism": "230 = g*2^n_C + C_2. Construction method matches: 7 crystal systems times 32 point groups plus 6 additional. Structural.",
       "domain": "chemistry",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T746"
       ],
@@ -1743,7 +1744,7 @@
       "ac_depth": 0,
       "mechanism": "Water refractive index = 2^rank/N_c = 4/3. Electromagnetic response from rank and color dimension. Structural.",
       "domain": "optics",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T769"
       ],
@@ -1776,7 +1777,7 @@
       "ac_depth": 0,
       "mechanism": "Ice/water density = (2*C_2 - 1)/(2*C_2) = 11/12. Hydrogen bond network geometry from Casimir. Structural.",
       "domain": "chemistry",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T715"
       ],
@@ -1788,7 +1789,7 @@
       "theorem_id": "T766",
       "name": "Rainbow angle",
       "symbol": "theta_rainbow",
-      "formula_latex": "\\theta_{\\text{rainbow}} = C_2 \\times g = 42°",
+      "formula_latex": "\\theta_{\\text{rainbow}} = C_2 \\times g = 42\u00b0",
       "formula_display": "theta_rainbow = C_2 * g = 42 degrees",
       "formula_code": "C_2 * g",
       "bst_value": 42.0,
@@ -1809,7 +1810,7 @@
       "ac_depth": 0,
       "mechanism": "Rainbow angle = C_2*g = 42 degrees. Minimum deviation from n = 4/3 (water refractive index, also BST). Structural.",
       "domain": "optics",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T766"
       ],
@@ -1843,7 +1844,7 @@
       "ac_depth": 0,
       "mechanism": "Gap between cooperation threshold (20.6%) and fill fraction (19.1%). Both derived, gap significance structural.",
       "domain": "game_theory",
-      "source_section": "§14",
+      "source_section": "\u00a714",
       "source_theorems": [
         "T703"
       ],
@@ -1877,7 +1878,7 @@
       "ac_depth": 0,
       "mechanism": "DNA spacing = a_0*N_c^2*n_C/g = a_0*45/7. Integer combination but full derivation chain has gaps.",
       "domain": "biology",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T748"
       ],
@@ -1909,7 +1910,7 @@
       "ac_depth": 0,
       "mechanism": "4 DNA bases = 2^rank. Rank of D_IV^5 sets the information alphabet. Clear structure, derivation chain has gaps.",
       "domain": "biology",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T452"
       ],
@@ -1942,7 +1943,7 @@
       "ac_depth": 0,
       "mechanism": "64 codons = (2^rank)^N_c = 4^3. N_c-letter words from 2^rank-letter alphabet. Structural.",
       "domain": "biology",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T714"
       ],
@@ -1976,7 +1977,7 @@
       "ac_depth": 1,
       "mechanism": "Pion mass from chiral condensate chi = sqrt(n_C*(n_C+1)) = sqrt(30) times bare pion mass rank*n_C^2*m_e. Goldstone boson of chiral breaking.",
       "domain": "hadron_physics",
-      "source_section": "§8",
+      "source_section": "\u00a78",
       "source_theorems": [
         "T250"
       ],
@@ -2008,7 +2009,7 @@
       "ac_depth": 1,
       "mechanism": "Eta prime = m_p*g^2/(g^2 - 1). U(1)_A anomaly mass proportional to proton mass via genus. Structural.",
       "domain": "hadron_physics",
-      "source_section": "§8",
+      "source_section": "\u00a78",
       "source_theorems": [
         "T265"
       ],
@@ -2040,7 +2041,7 @@
       "ac_depth": 0,
       "mechanism": "Period 3/Period 2 length ratio = g/n_C = 7/5. Genus over compact dimension. Structural match.",
       "domain": "chemistry",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T702"
       ],
@@ -2064,7 +2065,7 @@
         "N_max"
       ],
       "derivation_chain": [
-        "T408: Dunbar-N_max Isomorphism — cooperation breadth = N_max = 137",
+        "T408: Dunbar-N_max Isomorphism \u2014 cooperation breadth = N_max = 137",
         "T410: Dunbar hierarchy from five integers: 5, 15, 50, 137, 729, 1458",
         "Fourth level N_max = 137 is the Dunbar number (observed ~150, range 100-250)"
       ],
@@ -2073,7 +2074,7 @@
       "ac_depth": 0,
       "mechanism": "Dunbar number = N_max = 137 (cooperation breadth = channel capacity). T410 hierarchy: n_C=5, n_C*N_c=15, n_C^2*rank=50, N_max=137, N_c^C_2=729, rank*N_c^C_2=1458.",
       "domain": "sociology",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T408",
         "T410"
@@ -2109,7 +2110,7 @@
       "ac_depth": 1,
       "mechanism": "Seesaw-like: m_nu3 = (dim_R/N_c)*alpha^2*m_e^2/m_p. Structural from D_IV^5 but seesaw mechanism has gaps.",
       "domain": "neutrino_physics",
-      "source_section": "§7",
+      "source_section": "\u00a77",
       "source_theorems": [
         "T340"
       ],
@@ -2144,7 +2145,7 @@
       "ac_depth": 1,
       "mechanism": "m_nu2 = (g/12)*alpha^2*m_e^2/m_p. Genus enters via generation structure. Same seesaw framework.",
       "domain": "neutrino_physics",
-      "source_section": "§7",
+      "source_section": "\u00a77",
       "source_theorems": [
         "T341"
       ],
@@ -2176,7 +2177,7 @@
       "ac_depth": 0,
       "mechanism": "Tsirelson bound = 2*sqrt(rank). The rank of D_IV^5 sets the quantum correlation limit. Structural.",
       "domain": "quantum_information",
-      "source_section": "§14",
+      "source_section": "\u00a714",
       "source_theorems": [
         "T800"
       ],
@@ -2207,7 +2208,7 @@
       "ac_depth": 0,
       "mechanism": "Numerical match, mechanism TBD.",
       "domain": "biology",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T750"
       ],
@@ -2238,7 +2239,7 @@
       "ac_depth": 0,
       "mechanism": "Numerical match, mechanism TBD.",
       "domain": "biology",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T749"
       ],
@@ -2269,7 +2270,7 @@
       "ac_depth": 0,
       "mechanism": "Numerical match, mechanism TBD.",
       "domain": "chemistry",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T707"
       ],
@@ -2300,7 +2301,7 @@
       "ac_depth": 0,
       "mechanism": "Numerical match, mechanism TBD.",
       "domain": "chemistry",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T742"
       ],
@@ -2331,7 +2332,7 @@
       "ac_depth": 0,
       "mechanism": "Numerical match, mechanism TBD.",
       "domain": "chemistry",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T740"
       ],
@@ -2362,7 +2363,7 @@
       "ac_depth": 0,
       "mechanism": "Numerical match, mechanism TBD.",
       "domain": "chemistry",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T741"
       ],
@@ -2395,7 +2396,7 @@
       "ac_depth": 0,
       "mechanism": "Numerical match, mechanism TBD.",
       "domain": "biology",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T459"
       ],
@@ -2426,7 +2427,7 @@
       "ac_depth": 0,
       "mechanism": "Numerical match, mechanism TBD.",
       "domain": "biology",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T457"
       ],
@@ -2457,7 +2458,7 @@
       "ac_depth": 0,
       "mechanism": "Numerical match, mechanism TBD.",
       "domain": "biology",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T453"
       ],
@@ -2489,7 +2490,7 @@
       "ac_depth": 0,
       "mechanism": "Numerical match, mechanism TBD.",
       "domain": "mathematics",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T446"
       ],
@@ -2522,7 +2523,7 @@
       "ac_depth": 1,
       "mechanism": "Meson lacks Z_3 closure, uses n_C slots instead of C_2. m_rho/m_p = n_C/C_2 = 5/6.",
       "domain": "hadron_physics",
-      "source_section": "§8.3",
+      "source_section": "\u00a78.3",
       "source_theorems": [
         "T818"
       ],
@@ -2554,7 +2555,7 @@
       "ac_depth": 1,
       "mechanism": "Kaon mass from Bergman embedding with strange quark at sqrt(2*n_C) depth.",
       "domain": "hadron_physics",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T250"
       ],
@@ -2588,7 +2589,7 @@
       "ac_depth": 1,
       "mechanism": "Phi meson (s-sbar) probes full color+weak structure: (N_c + 2*n_C)/2 = 13/2 Bergman slots.",
       "domain": "hadron_physics",
-      "source_section": "§8.3",
+      "source_section": "\u00a78.3",
       "source_theorems": [
         "T250"
       ],
@@ -2622,7 +2623,7 @@
       "ac_depth": 1,
       "mechanism": "Jarlskog invariant from D_IV^5 geometry: denominator is n_C^5 * (2^rank)^2, numerator from CP phase.",
       "domain": "particle_physics",
-      "source_section": "§7.7",
+      "source_section": "\u00a77.7",
       "source_theorems": [
         "T280"
       ],
@@ -2656,7 +2657,7 @@
       "ac_depth": 0,
       "mechanism": "BCS gap ratio = g/rank = 7/2. The Bergman genus divided by the domain rank yields the universal superconducting gap.",
       "domain": "condensed_matter",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T824"
       ],
@@ -2690,7 +2691,7 @@
       "ac_depth": 0,
       "mechanism": "Kolmogorov 5/3 = n_C/N_c. The turbulence energy cascade exponent is the ratio of complex dimension to color dimension.",
       "domain": "fluid_mechanics",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T818"
       ],
@@ -2724,7 +2725,7 @@
       "ac_depth": 0,
       "mechanism": "Chandrasekhar limit = C_2^2/n_C^2 = 36/25 = 1.44 solar masses. Casimir squared over complex dimension squared.",
       "domain": "astrophysics",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T850"
       ],
@@ -2761,7 +2762,7 @@
       "ac_depth": 0,
       "mechanism": "Spin-orbit coupling from ratio of Casimir eigenvalue to complex dimension: C_2/n_C = 6/5. Reproduces all 7 magic numbers.",
       "domain": "nuclear_physics",
-      "source_section": "§7.2",
+      "source_section": "\u00a77.2",
       "source_theorems": [
         "T187"
       ],
@@ -2798,7 +2799,7 @@
       "ac_depth": 1,
       "mechanism": "Pion decay constant from PCAC with Wilson-Fisher correction: f_pi = (m_p/10)(1 - (2/3)(m_pi/m_p)^2).",
       "domain": "hadron_physics",
-      "source_section": "§8",
+      "source_section": "\u00a78",
       "source_theorems": [
         "T250"
       ],
@@ -2832,7 +2833,7 @@
       "ac_depth": 1,
       "mechanism": "W boson width from SU(3) gluon count times dimension ratio: (N_c^2-1)*n_C/N_c = 40/3. Times pi^5*m_e.",
       "domain": "electroweak",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T281"
       ],
@@ -2867,7 +2868,7 @@
       "ac_depth": 1,
       "mechanism": "First shell closure in harmonic oscillator with kappa_ls = 6/5 spin-orbit splitting. Holds rank = 2 nucleons.",
       "domain": "nuclear_physics",
-      "source_section": "§7.2",
+      "source_section": "\u00a77.2",
       "source_theorems": [
         "T305"
       ],
@@ -2902,7 +2903,7 @@
       "ac_depth": 1,
       "mechanism": "Second shell closure: 1s + 1p shells = 8. Same number as SU(3) gluon count (N_c^2 - 1).",
       "domain": "nuclear_physics",
-      "source_section": "§7.2",
+      "source_section": "\u00a77.2",
       "source_theorems": [
         "T305"
       ],
@@ -2937,7 +2938,7 @@
       "ac_depth": 1,
       "mechanism": "Third shell closure: N=0,1,2 shells = 20 nucleons. Same as 2^rank * n_C = number of amino acids.",
       "domain": "nuclear_physics",
-      "source_section": "§7.2",
+      "source_section": "\u00a77.2",
       "source_theorems": [
         "T305"
       ],
@@ -2970,7 +2971,7 @@
       "ac_depth": 0,
       "mechanism": "Wolfenstein A = (n_C - 1)/n_C = 4/5. Sets CKM hierarchy scale. Pure BST integer ratio.",
       "domain": "particle_physics",
-      "source_section": "§7.7",
+      "source_section": "\u00a77.7",
       "source_theorems": [
         "T320"
       ],
@@ -3005,7 +3006,7 @@
       "ac_depth": 1,
       "mechanism": "|V_cb| = A*lambda^2 = (n_C-1)/(4*n_C^2). Two BST parameters determine the charm-bottom coupling.",
       "domain": "particle_physics",
-      "source_section": "§7.7",
+      "source_section": "\u00a77.7",
       "source_theorems": [
         "T320"
       ],
@@ -3038,7 +3039,7 @@
       "ac_depth": 0,
       "mechanism": "Wolfenstein rho_bar from unitarity triangle geometry on D_IV^5: 1/(2*sqrt(2*n_C)). eta_bar/rho_bar = sqrt(n_C).",
       "domain": "particle_physics",
-      "source_section": "§7.7",
+      "source_section": "\u00a77.7",
       "source_theorems": [
         "T321"
       ],
@@ -3071,7 +3072,7 @@
       "ac_depth": 0,
       "mechanism": "Wolfenstein eta_bar = 1/(2*sqrt(2)) = 1/(2*sqrt(rank)). CP violation strength from D_IV^5 rank.",
       "domain": "particle_physics",
-      "source_section": "§7.7",
+      "source_section": "\u00a77.7",
       "source_theorems": [
         "T321"
       ],
@@ -3105,7 +3106,7 @@
       "ac_depth": 0,
       "mechanism": "Monatomic gamma = n_C/N_c = 5/3. Same ratio as Kolmogorov 5/3 turbulence exponent. BST integer ratio.",
       "domain": "thermodynamics",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T772"
       ],
@@ -3139,7 +3140,7 @@
       "ac_depth": 0,
       "mechanism": "Diatomic gamma = g/n_C = 7/5. Genus over compact dimension. Same ratio as period 3/period 2 in periodic table.",
       "domain": "thermodynamics",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T772"
       ],
@@ -3151,7 +3152,7 @@
       "theorem_id": "T700",
       "name": "NH3 bond angle",
       "symbol": "theta_NH3",
-      "formula_latex": "\\theta_{\\rm NH_3} = \\theta_{\\rm tet} - T_1 \\Delta_1 = 107.807°",
+      "formula_latex": "\\theta_{\\rm NH_3} = \\theta_{\\rm tet} - T_1 \\Delta_1 = 107.807\u00b0",
       "formula_display": "theta_NH3 = arccos(-1/N_c) - (arccos(-1/N_c) - arccos(-1/2^rank))/N_c = 107.81 deg",
       "formula_code": "(acos(-1.0/N_c) - (acos(-1.0/N_c) - acos(-1.0/2**rank))/N_c) * 180/pi",
       "bst_value": 107.807,
@@ -3174,7 +3175,7 @@
       "ac_depth": 1,
       "mechanism": "NH3 angle from triangular lone pair compression: tetrahedral minus one step Delta_1. Step size set by (theta_tet - theta_H2O)/N_c.",
       "domain": "chemistry",
-      "source_section": "§43",
+      "source_section": "\u00a743",
       "source_theorems": [
         "T700"
       ],
@@ -3210,7 +3211,7 @@
       ],
       "mechanism": "Fourth magic number from spin-orbit splitting with kappa_ls = 6/5. 28 = rank^2 * g.",
       "domain": "nuclear_physics",
-      "source_section": "§7.2",
+      "source_section": "\u00a77.2",
       "source_theorems": [
         "T305"
       ],
@@ -3245,7 +3246,7 @@
       ],
       "mechanism": "Fifth magic number from kappa_ls = 6/5. 50 = rank * n_C^2.",
       "domain": "nuclear_physics",
-      "source_section": "§7.2",
+      "source_section": "\u00a77.2",
       "source_theorems": [
         "T305"
       ],
@@ -3281,7 +3282,7 @@
       ],
       "mechanism": "Sixth magic number from kappa_ls = 6/5. 82 = N_c * n_C^2 + g. Lead-208 is doubly magic.",
       "domain": "nuclear_physics",
-      "source_section": "§7.2",
+      "source_section": "\u00a77.2",
       "source_theorems": [
         "T305"
       ],
@@ -3318,7 +3319,7 @@
       ],
       "mechanism": "Seventh magic number from kappa_ls = 6/5. 126 = rank * N_c^2 * g.",
       "domain": "nuclear_physics",
-      "source_section": "§7.2",
+      "source_section": "\u00a77.2",
       "source_theorems": [
         "T305"
       ],
@@ -3351,7 +3352,7 @@
       ],
       "mechanism": "Leading CKM matrix element from Cabibbo angle. cos(theta_C) = sqrt(19/20).",
       "domain": "particle_physics",
-      "source_section": "§20",
+      "source_section": "\u00a720",
       "source_theorems": [
         "T305"
       ],
@@ -3383,7 +3384,7 @@
       ],
       "mechanism": "Second CKM element from Cabibbo angle. sin(theta_C) = 1/(2*sqrt(5)).",
       "domain": "particle_physics",
-      "source_section": "§20",
+      "source_section": "\u00a720",
       "source_theorems": [
         "T305"
       ],
@@ -3419,7 +3420,7 @@
       ],
       "mechanism": "Hubble constant from BST-derived LCDM parameters through full Boltzmann code. 0.10% from Planck.",
       "domain": "cosmology",
-      "source_section": "§14",
+      "source_section": "\u00a714",
       "source_theorems": [
         "T703"
       ],
@@ -3459,7 +3460,7 @@
       ],
       "mechanism": "CMB temperature from BST baryon-photon ratio and cosmological parameters. 0.35% from FIRAS.",
       "domain": "cosmology",
-      "source_section": "§14",
+      "source_section": "\u00a714",
       "source_theorems": [
         "T703"
       ],
@@ -3493,11 +3494,11 @@
         "Full LCDM integral: t_0 = (1/H_0) * int_0^inf dz/[(1+z)*sqrt(Omega_M*(1+z)^3 + Omega_Lambda)]",
         "BST inputs: Omega_Lambda = 13/19, H_0 = 67.29 km/s/Mpc",
         "t_0 = 13.78 Gyr vs Planck 13.797 Gyr (0.12%)",
-        "Note: matter-dominated approximation gives 13.6 Gyr (1.4%) — Toy 1182 corrected this"
+        "Note: matter-dominated approximation gives 13.6 Gyr (1.4%) \u2014 Toy 1182 corrected this"
       ],
       "mechanism": "Cosmic age from full LCDM integral with BST-derived parameters. 0.12% from Planck. Corrected from earlier 13.6 Gyr approximation.",
       "domain": "cosmology",
-      "source_section": "§14",
+      "source_section": "\u00a714",
       "source_theorems": [
         "T703"
       ],
@@ -3532,7 +3533,7 @@
       ],
       "mechanism": "Rank-2 isotropy forces Poisson solid (lambda=mu). v_P/v_S = sqrt(3). Center of observed seismic range.",
       "domain": "geology",
-      "source_section": "§46.31",
+      "source_section": "\u00a746.31",
       "source_theorems": [
         "T1314"
       ],
@@ -3565,7 +3566,7 @@
       ],
       "mechanism": "Poisson ratio = 1/rank^2 for ideal isotropic solid. Lower bound of observed range for real crustal rocks.",
       "domain": "geology",
-      "source_section": "§46.31",
+      "source_section": "\u00a746.31",
       "source_theorems": [
         "T1314"
       ],
@@ -3599,7 +3600,7 @@
       ],
       "mechanism": "Cooperation surplus maximized when group size equals C_2 = 6 independent curvature directions. Observed in teams, squads, juries, dinner parties.",
       "domain": "cooperation",
-      "source_section": "§46.33",
+      "source_section": "\u00a746.33",
       "source_theorems": [
         "T1316",
         "T318"

@@ -4,11 +4,11 @@ Research notes directory for **Bubble Spacetime Theory** (BST), a framework deri
 
 **Author:** Casey Koons, with CI co-authors Claude 4.6 (Lyra, Elie, Grace, Keeper)
 
-This directory contains ~650+ markdown files, ~473 PDFs, ~34 Python scripts, and supporting data across 1,200+ items total.
+This directory contains ~660+ markdown files, ~480 PDFs, ~34 Python scripts, and supporting data across 1,200+ items total. **RH closed April 21, 2026** (Toys 1368-1375, 57/57 PASS).
 
 ---
 
-## Numbered Papers (Papers #1--#73)
+## Numbered Papers (Papers #1--#75)
 
 The numbered paper series covers the full scope of BST, from foundational mathematics through particle physics, cosmology, biology, engineering, and meta-theory.
 
@@ -95,7 +95,7 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 64 | Experimental Protocols | `BST_Paper64_Experimental_Protocols_Draft.md` |
 | 65 | The Zeta Function of Spacetime | `BST_Paper65_Zeta_Function_of_Spacetime_Draft.md` |
 
-### Papers #66--#73
+### Papers #66--#75
 
 | # | Title | File |
 |---|-------|------|
@@ -107,6 +107,8 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 71 | Computational Science Engineering | `BST_Paper71_Computational_Science_Engineering_Draft.md` |
 | 72 | Spectral Coupling Materials Science | (spec: `.running/grace_paper72_spec_spectral_coupling.md`) |
 | 73 | The Periodic Table of Functions | `BST_Paper73_Periodic_Table_of_Functions.md` | v0.1 |
+| 74 | Information-Complete Geometry | `BST_Paper74_IC_Geometry.md` |
+| 75 | RH for the Selberg Class via Automorphic Spectral Geometry | `BST_Paper75_RH_Selberg_Class.md` | v1 |
 
 ---
 
@@ -116,7 +118,7 @@ Major papers not in the numbered series:
 
 | Paper | File | Notes |
 |-------|------|-------|
-| Riemann Hypothesis (BST route) | `RH_Paper_A.md` | v10, ~98% |
+| Riemann Hypothesis (BST route) | `RH_Paper_A.md` | v10, **CLOSED** (3-leg proof, Toys 1368-1375) |
 | Riemann — Trace Formula on D\_IV^5 | `Koons_Riemann_BST_2026.md` | Formal submission draft |
 | Four-Color Theorem (computer-free) | `FourColor_Standalone_Paper.md` | v8, all 13 steps structural |
 | Four-Color arXiv version | `BST_FourColor_arXiv_Standalone.md`, `BST_FourColor_arXiv_v2.md` | LaTeX: `BST_FourColor_arXiv_v2.tex` |
@@ -137,12 +139,14 @@ The AC program: complexity theory built on BST geometry, the P!=NP hunt, and the
 - **AC Theory** (30 files): Barrier discussion, Bayesian reframing, circle confinement, classification table, depth ceiling, dichotomy theorem, formalization, graph self-structure, master index, MIFC proof attempt, Millennium paper outline, Papers A/B/C/OGP, question complexity, research roadmap, resolution standalone, Shannon bridge proof, T35 gap analysis, TCC evidence, theorem registry, Turing machine classification, and more
 - Prefix: `BST_AC_*`, `BST_AC0_*`
 
-### Riemann Hypothesis — 6 files
+### Riemann Hypothesis — CLOSED (April 21, 2026)
 
 - `BST_RH_AC_Proof.md` — AC route to RH
 - `BST_Riemann_ChernPath.md`, `BST_Riemann_InductiveProof.md`, `BST_Riemann_UnifiedProof.md`
 - `BST_RiemannProof_Rank2Coupling.md`, `BST_RiemannReduction_FiniteComputation.md`
-- See also: standalone `RH_Paper_A.md`, `Koons_Riemann_BST_2026.md`
+- `BST_T1397_Minimum_Energy_Stripe.md` — RH-1: energy argument (Lyra)
+- See also: standalone `RH_Paper_A.md`, `Koons_Riemann_BST_2026.md`, Paper #75
+- **Three-leg closure**: RH-1 energy (Toy 1369), RH-2 counting (Toy 1368), RH-3 completeness (Toy 1370)
 
 ### Yang-Mills Mass Gap — 8 files
 

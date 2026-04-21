@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 1,
-    "title": "BST Function Catalog — The Periodic Table of Functions",
+    "title": "BST Function Catalog \u2014 The Periodic Table of Functions",
     "description": "All Meijer G-function types arising from subsets of the five BST integers. Each subset defines a sector in the prime residue table and a corresponding function class.",
     "count": 33,
     "bst_integers": {
@@ -11,13 +11,13 @@
       "C_2": 6,
       "g": 7
     },
-    "framework": "Meijer G_{p,q}^{m,n} — universal parametric function family",
+    "framework": "Meijer G_{p,q}^{m,n} \u2014 universal parametric function family",
     "base_parameters": 12,
     "base_parameters_note": "12 = 2*C_2 = dim(SU(3)xSU(2)xU(1))",
     "extended_catalog": 128,
-    "extended_catalog_note": "128 = 2^g — closed fixed point of the catalog",
+    "extended_catalog_note": "128 = 2^g \u2014 closed fixed point of the catalog",
     "bergman_kernel_type": "G_{1,1}^{1,1}",
-    "last_updated": "2026-04-19",
+    "last_updated": "2026-04-21",
     "source_theorems": [
       "T1333",
       "T1335",
@@ -30,7 +30,7 @@
     ],
     "ac_graph_crossref": {
       "annotated_families": 33,
-      "method": "MON-5 Grace: sector integers → source theorems + domain matching",
+      "method": "MON-5 Grace: sector integers \u2192 source theorems + domain matching",
       "date": "2026-04-19",
       "integer_theorem_map": {
         "R": [
@@ -57,6 +57,26 @@
           1333
         ]
       }
+    },
+    "theorems_count": 1343,
+    "graph_edges": 7201,
+    "gf128_structure": {
+      "defining_polynomial": "x^7 + x^3 + 1 = 137 (binary)",
+      "field_size": 128,
+      "multiplicative_order": 127,
+      "mersenne_prime": "M_7 = 127",
+      "frobenius_period": 7,
+      "frobenius_fixed_points": 2,
+      "frobenius_orbits": 18,
+      "orbit_group": "Z/127Z with Frobenius orbits = cosets of <2>",
+      "source_theorems": [
+        1382,
+        1383,
+        1387,
+        1392
+      ],
+      "discovery_date": "2026-04-20",
+      "significance": "137 in binary = the polynomial defining the catalog field. alpha = 1/(the field law)."
     }
   },
   "catalog": [
@@ -87,7 +107,7 @@
       "in_prime_residue_table": false,
       "composite_count": 0,
       "first_composite": null,
-      "notes": "No BST integers engaged — trivial constant functions",
+      "notes": "No BST integers engaged \u2014 trivial constant functions",
       "ac_graph_theorems": [
         1333,
         1340
@@ -132,7 +152,7 @@
       "in_prime_residue_table": true,
       "composite_count": 8,
       "first_composite": 2,
-      "notes": "Pure rank sector — powers of 2. The Bergman kernel K(z,z) = G_{1,1}^{1,1} lives here.",
+      "notes": "Pure rank sector \u2014 powers of 2. The Bergman kernel K(z,z) = G_{1,1}^{1,1} lives here.",
       "ac_graph_theorems": [
         110,
         421,
@@ -181,7 +201,7 @@
       "in_prime_residue_table": true,
       "composite_count": 1,
       "first_composite": 3,
-      "notes": "Pure color sector — powers of 3. Only N_c=3 itself appears in the bound-10000 table.",
+      "notes": "Pure color sector \u2014 powers of 3. Only N_c=3 itself appears in the bound-10000 table.",
       "ac_graph_theorems": [
         666,
         1333,
@@ -229,7 +249,7 @@
       "in_prime_residue_table": false,
       "composite_count": 0,
       "first_composite": null,
-      "notes": "Pure n_C sector — powers of 5. No pure n_C composites appear in the bound-10000 table.",
+      "notes": "Pure n_C sector \u2014 powers of 5. No pure n_C composites appear in the bound-10000 table.",
       "ac_graph_theorems": [
         667,
         1333,
@@ -276,7 +296,7 @@
       "in_prime_residue_table": true,
       "composite_count": 3,
       "first_composite": 6,
-      "notes": "Pure Casimir sector — powers of 6. Note C_2=6=2x3, so K absorbs the rank-color product.",
+      "notes": "Pure Casimir sector \u2014 powers of 6. Note C_2=6=2x3, so K absorbs the rank-color product.",
       "ac_graph_theorems": [
         190,
         1333,
@@ -326,7 +346,7 @@
       "in_prime_residue_table": false,
       "composite_count": 0,
       "first_composite": null,
-      "notes": "Pure genus sector — powers of 7. No pure g composites in the bound-10000 table.",
+      "notes": "Pure genus sector \u2014 powers of 7. No pure g composites in the bound-10000 table.",
       "ac_graph_theorems": [
         649,
         1333,
@@ -428,7 +448,7 @@
       "in_prime_residue_table": true,
       "composite_count": 17,
       "first_composite": 10,
-      "notes": "Rank x n_C products — topology meets compact space. First composite: 10 = 2x5.",
+      "notes": "Rank x n_C products \u2014 topology meets compact space. First composite: 10 = 2x5.",
       "ac_graph_theorems": [
         110,
         421,
@@ -534,7 +554,7 @@
       "in_prime_residue_table": true,
       "composite_count": 13,
       "first_composite": 14,
-      "notes": "Rank x genus products — topology meets cosmology. First composite: 14 = 2x7.",
+      "notes": "Rank x genus products \u2014 topology meets cosmology. First composite: 14 = 2x7.",
       "ac_graph_theorems": [
         110,
         421,
@@ -1842,7 +1862,7 @@
       "in_prime_residue_table": true,
       "composite_count": 1,
       "first_composite": 137,
-      "notes": "N_max = N_c^3 * n_C + rank = 137. The lone orphan prime — not a product of any BST integers. The terminus of the prime residue table. alpha^{-1} = 137.",
+      "notes": "N_max = N_c^3 * n_C + rank = 137. The lone orphan prime \u2014 not a product of any BST integers. The terminus of the prime residue table. alpha^{-1} = 137.",
       "ac_graph_theorems": [
         110,
         421,
