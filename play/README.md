@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**1,409 computational toys, 5 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**1,413 computational toys, 5 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 1,409 |
-| Numbered toys (toy_NNN_*.py) | 1,200 |
+| Toy scripts (toy_*.py) | 1,413 |
+| Numbered toys (toy_NNN_*.py) | 1,204 |
 | Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 56 |
 | HTML visualizers | 5 |
-| Theorems (T1-T1408) | 1,408 |
-| Next toy number | 1393 |
+| Theorems (T1-T1415) | 1,415 |
+| Next toy number | 1397 |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -30,7 +30,7 @@ Five integers. Zero free parameters. "Give a child a ball and teach them to coun
 
 ```
 play/
-  toy_NNN_name.py          # Numbered toys (1,200 files, T100-T1392)
+  toy_NNN_name.py          # Numbered toys (1,204 files, T100-T1396)
   toy_name.py              # Named toys (209 files, foundational + topical)
   *.py                     # Utility scripts (56 files: graph tools, extractors, verifiers)
   bst_appliance/           # BST Appliance package — the "Ball and Counting Tool"
@@ -111,8 +111,8 @@ Two gitignored counter files prevent toy/theorem number collisions:
 
 | File | Current Value | Purpose |
 |------|---------------|---------|
-| `.next_toy` | 1393 | Next available toy number |
-| `.next_theorem` | 1409 | Next available theorem number |
+| `.next_toy` | 1397 | Next available toy number |
+| `.next_theorem` | 1416 | Next available theorem number |
 
 **Rules:**
 1. ALWAYS read the counter file before creating a new toy or theorem.
@@ -203,7 +203,7 @@ The 209 named toys include the original foundational collection and topical deep
 | 1264-1299 | ~36 | Overdetermination census, φρ-substrate, Gödel Gradient, Distributed Gödel, SETI silence, UAP analysis, observer genesis, dark energy |
 | 1300-1337 | ~38 | Meijer G framework, Painlevé decomposition, periodic table of functions, A₅ obstruction, shadow reading, observer definition, market dynamics |
 | 1338-1377 | ~40 | F₁ sprint (Shimura, Hecke mass ratios), community bridges (tropical, RMT, knots, Ricci flow, NCG, Deninger), **RH closure** (three legs + synthesis + Epstein negative test + AC(0) proof), literature comparison |
-| 1378-1392 | ~15 | Selberg zeta program (algebraic setup, geodesic enumeration, Pell theorem, trace formula), glueball physics (Bergman spectral gap, curved directions), integer cascade, **Ramanujan at p=137** (OP-3 discrete PROVED) |
+| 1378-1396 | ~19 | Selberg zeta program (algebraic setup, geodesic enumeration, Pell theorem, trace formula, **Phase 4 Euler factors**), glueball physics (Bergman spectral gap, curved directions), integer cascade, **Ramanujan at p=137** (OP-3 discrete PROVED), heat kernel analysis (INV-6), **cascade extraction a₁-a₂₀ (19 levels, speaking pair 4 CONFIRMED)** |
 
 ---
 
