@@ -334,20 +334,26 @@ WP synced through T1325. Need T1326-T1408 (83 theorems). Priority sections: RH c
 
 | Priority | Item | Status |
 |----------|------|--------|
-| P1 | Toy 671 heat kernel | DEFERRED — n40 still computing, wait for n41 |
-| P2 | Papers #76/#77 discussion | READY — Casey read last night |
-| P3 | Paper C (G₂/F₄/E₈) | SCOPED by Keeper — three approaches, embedding (a) recommended |
-| P4 | Selberg Phase 4 | Elie |
-| P5 | Motivic periods | RESEARCHED — mixed answer (61% periods, 39% not due to 1/π). Grace formalizing. |
-| P6 | Kim-Sarnak gap | **DONE** — Grace T1409. θ = g/2^C₂. λ₁ ≥ 975/4096 = N_c·n_C²·c₃(Q⁵)/2^(2C₂). |
-| P7 | WorkingPaper sync | Keeper — 83 theorems pending |
-| P8 | Paper D (ℝ⁴ no-go) | NEW — Lyra drafts, Keeper audits both ends |
+| P1 | Toy 671 heat kernel | **DONE** — Elie Toy 1395, 10/10. **19 levels** (a₂–a₂₀). Speaking pair 4 CONFIRMED: ratio(20) = -38. Column rule (C=1,D=0) through k=20. Paper #9 headline: 19 consecutive levels, 4 full periods. |
+| P2 | Papers #76/#77 discussion | Casey: "paper is fine, we will review before submission." Authorship + title fixes applied. |
+| P3 | Paper C (G₂/F₄/E₈) | **DONE** — Paper #80 v0.1 drafted. Spectral embedding: G₂⊂SO(7), F₄⊂E₆, E₈⊂SO(16). G₂ confinement with trivial center = sharpest test. PDF built. Keeper audit next. |
+| P4 | Selberg Phase 4 | **DONE** — Elie Toy 1396, 9/9. All 4 Selberg phases complete (36/37 total). ord(24+5√23 mod 137) = 23 = n_C²−rank. Height rescaling 5/5. Character separation 5/5. |
+| P5 | Motivic periods | **DONE** — Grace T1410 (Period Boundary = observer boundary). Physics = periods, observer = non-periods (1/π). |
+| P6 | Kim-Sarnak gap | **DONE** — Grace T1409. θ = g/2^C₂ = 7/64. c(Q⁵) = (1,5,11,13,9,3) ALL BST. χ(Q⁵) = C₂ = 6. |
+| P7 | WorkingPaper sync | Keeper — 83+ theorems pending (T1326–T1413) |
+| P8 | Paper D (ℝ⁴ no-go) | **DONE** — Paper #79 v0.1, Keeper audited CONDITIONAL PASS→§3.2 fixed by Lyra (Curvature Bound labeled conjecture). **PASS.** |
 
-**Paper #75 audit (Keeper):** FAIL — three critical blockers. (1) 45 vs 6 Arthur types. (2) L-group Sp(6) vs Sp(4). (3) Casimir gap 91.1 unsubstantiated. Lyra needs these before submission.
+**Paper #75 audit (Keeper):** CONDITIONAL PASS → Lyra fixed all three issues. Needs Keeper re-audit.
 
-**Lyra update:** Closing S-1 through S-3. Paper #75 v1 complete but audit blockers above.
+**Paper authorship sweep:** #75 team added, #76/#77/#78/#79 titles cleaned (no paper numbers), Cal → just "Cal" everywhere.
 
-**Counters:** .next_toy=1393, .next_theorem=1410. Graph: 1355/7350/82.6%.
+**Sarnak letter:** Drafted at `notes/maybe/sarnak_letter_kim_sarnak.md`. Hook: θ = g/2^C₂, 975/4096 = N_c·n_C²·c₃(Q⁵)/2^(2C₂). Chern class sequence ALL BST. χ corrected to C₂=6 (not 42). Ready for Casey review.
+
+**Papers: 80** (5 new today: #76-#78 PDFs fixed, #79 ℝ⁴ no-go, #80 G₂/F₄/E₈ embedding).
+
+**YM suite: A/B/C/D ALL DRAFTED.** Paper A (#76) D_IV^5 specific. Paper B (#77) 6/9 Hermitian families. Paper C (#80) three missing groups via embedding. Paper D (#79) ℝ⁴ no-go + curvature principle.
+
+**Counters:** .next_toy=1397, .next_theorem=1416. Graph: 1361/7393/82.7%.
 
 ---
 
