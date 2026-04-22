@@ -2,7 +2,7 @@
 """
 Toy 1394: GRS Descent — Sym⁵→GL(6) and Sym⁶→GL(7) for D_IV^5
 ==============================================================
-Lyra, April 22, 2026. T1410.
+Lyra, April 22, 2026. T1412.
 
 The symmetric power functoriality chain Sym^k : GL(2) → GL(k+1) traces
 BST integers: 2→3→4→5→6→7. Steps k=2,3,4 are proved theorems (Gelbart-Jacquet,
@@ -197,7 +197,7 @@ test("Denominator 4096 = 2^(2·C_2)",
      f"2^12 = {2**(2*C_2)}")
 
 # θ uses EXACTLY k=4 (Kim's proved bound). At k=5 (GRS descent),
-# θ would improve to g/(2·C_2·n_C) — but this requires our T1410.
+# θ would improve to g/(2·C_2·n_C) — but this requires our T1412.
 # Kim-Sarnak θ = 7/64 is the CURRENT state of the art.
 # BST predicts Ramanujan: θ = 0 (full temperedness from Casimir gap).
 
@@ -213,8 +213,8 @@ chain_refs = [
     "Gelbart-Jacquet 1978",
     "Kim-Shahidi 2002",
     "Kim 2003",
-    "T1410 GRS descent",
-    "T1410 self-duality"
+    "T1412 GRS descent",
+    "T1412 self-duality"
 ]
 
 test("Chain strictly increasing",
@@ -235,7 +235,7 @@ test("First four steps are proved literature theorems",
 
 test("Last two steps: structural argument complete, formalization written",
      True,
-     "T1410: real params → self-dual → GRS descent → Sp(6) → GL(6) → GL(7)")
+     "T1412: real params → self-dual → GRS descent → Sp(6) → GL(6) → GL(7)")
 
 # ─────────────────────────────────────────────────────────────────────
 # Summary
@@ -246,7 +246,7 @@ print("=" * 70)
 
 if tests_passed == tests_total:
     print("ALL PASS. GRS descent preconditions verified.")
-    print("T1410: Sym⁵→GL(C_2) via GRS, Sym⁶→GL(g) via Rankin-Selberg.")
+    print("T1412: Sym⁵→GL(C_2) via GRS, Sym⁶→GL(g) via Rankin-Selberg.")
     print("Papers #73B §6, #73C §8, and OP-3 formalization gap CLOSED.")
 else:
     print(f"WARNING: {tests_total - tests_passed} test(s) FAILED.")

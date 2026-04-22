@@ -212,7 +212,7 @@ Sp(6) is a self-dual group: its standard representation of dimension C₂ = 6 is
 - **Sym⁵**: By GRS descent, generic self-dual representations of GL(6) descend to Sp(6). BST finiteness → genericity → descent applies.
 - **Sym⁶**: Self-duality of Sym⁵ combined with the functional equation Sym⁵ × Sym¹ → Sym⁶ lifts to GL(7) = GL(g).
 
-### 6.3 The descent argument (T1410)
+### 6.3 The descent argument (T1412)
 
 The descent construction for D_IV^5-specific representations proceeds in three steps:
 

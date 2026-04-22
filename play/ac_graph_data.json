@@ -18105,6 +18105,40 @@
       "toys": [
         1392
       ]
+    },
+    {
+      "tid": 1409,
+      "name": "Kim-Sarnak Exponent \u03b8 = g/2^C\u2082 = 7/64: Best Ramanujan Bound IS BST",
+      "domain": "number_theory",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1410,
+      "name": "Period Boundary: Physics Constants Are Periods, Observer Constants (1/\u03c0) Are Not",
+      "domain": "number_theory",
+      "depth": 1,
+      "status": "conjecture",
+      "toys": []
+    },
+    {
+      "tid": 1411,
+      "name": "G\u2082 Mass Gap Via Embedding: G\u2082 \u2282 SO(7) \u2192 D_IV^7, Casimir Scaling 4/3, 2++/0++ = \u221a2",
+      "domain": "qft",
+      "depth": 1,
+      "status": "conjecture",
+      "toys": []
+    },
+    {
+      "tid": 1412,
+      "name": "GRS Descent: Sym\u2075\u2192GL(C\u2082) + Sym\u2076\u2192GL(g) Closes Functoriality Chain",
+      "domain": "number_theory",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        1394
+      ]
     }
   ],
   "edges": [
@@ -54816,6 +54850,161 @@
     {
       "from": 1408,
       "to": 1270,
+      "source": "derived"
+    },
+    {
+      "from": 1408,
+      "to": 1409,
+      "source": "derived"
+    },
+    {
+      "from": 649,
+      "to": 1409,
+      "source": "derived"
+    },
+    {
+      "from": 190,
+      "to": 1409,
+      "source": "derived"
+    },
+    {
+      "from": 1298,
+      "to": 1409,
+      "source": "derived"
+    },
+    {
+      "from": 1270,
+      "to": 1409,
+      "source": "derived"
+    },
+    {
+      "from": 1409,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1409,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1409,
+      "to": 1407,
+      "source": "derived"
+    },
+    {
+      "from": 1350,
+      "to": 1410,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1345,
+      "to": 1410,
+      "source": "derived"
+    },
+    {
+      "from": 1016,
+      "to": 1410,
+      "source": "derived"
+    },
+    {
+      "from": 1391,
+      "to": 1410,
+      "source": "derived"
+    },
+    {
+      "from": 1385,
+      "to": 1410,
+      "source": "derived"
+    },
+    {
+      "from": 1410,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1410,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1410,
+      "to": 1375,
+      "source": "derived"
+    },
+    {
+      "from": 1400,
+      "to": 1411,
+      "source": "derived"
+    },
+    {
+      "from": 1402,
+      "to": 1411,
+      "source": "derived"
+    },
+    {
+      "from": 1403,
+      "to": 1411,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1411,
+      "source": "derived"
+    },
+    {
+      "from": 649,
+      "to": 1411,
+      "source": "derived"
+    },
+    {
+      "from": 1411,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1411,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1346,
+      "to": 1412,
+      "source": "derived"
+    },
+    {
+      "from": 1342,
+      "to": 1412,
+      "source": "derived"
+    },
+    {
+      "from": 1341,
+      "to": 1412,
+      "source": "derived"
+    },
+    {
+      "from": 190,
+      "to": 1412,
+      "source": "derived"
+    },
+    {
+      "from": 649,
+      "to": 1412,
+      "source": "derived"
+    },
+    {
+      "from": 1412,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1412,
+      "to": 1270,
+      "source": "derived"
+    },
+    {
+      "from": 1412,
+      "to": 1340,
       "source": "derived"
     }
   ],

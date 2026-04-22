@@ -302,6 +302,53 @@ Cal predicted: Kim-Sarnak-to-Selberg gap = (g/2^C₂)² = (7/64)² = 49/4096 ≈
 
 WP synced through T1325. Need T1326-T1408 (83 theorems). Priority sections: RH closure, breadth sprint, integer cascade, Ramanujan.
 
+### P8: Paper D — ℝ⁴ No-Go + D_IV^5 as the Improved Question (NEW)
+
+**Casey's idea (April 22):** The biggest YM hurdle is ℝ⁴. It's flat, has no natural mass scale, and isn't the boundary of D_IV^5. Paper D argues ℝ⁴ is a no-go for mass gap and shows D_IV^5 resolves it. Completes the four-paper YM suite (A/B/C/D).
+
+**The argument:** You can't linearize curvature. ℝ⁴ = zero curvature = no geometric mechanism to generate Δ > 0. Every mass gap attempt on ℝ⁴ must smuggle the scale in. D_IV^5 provides the scale from spectral geometry.
+
+**Parallel:** Coleman-Mandula (1967) — no-go reshaped the field. Paper D does the same for the YM mass gap arena.
+
+| Section | Content | Source |
+|---------|---------|--------|
+| §1 | The Clay statement: ℝ⁴, Wightman axioms, Δ > 0 | Clay official |
+| §2 | Why ℝ⁴ is a no-go: flat, no scale, IR divergences, 50 years of failure | Literature survey |
+| §3 | The Curvature Principle: mass gap requires curvature | BST T421 (depth ceiling), Casey's Principle |
+| §4 | D_IV^5 as the unique resolution: IC selects it, spectral gap emerges | Papers A-C, T1354, T1406 |
+| §5 | The mass gap on D_IV^5: Δ = 6π⁵m_e from Bergman eigenvalue | Paper A (#76) |
+| §6 | Improving the question: what Clay should have asked | Honest framing — BST solves the physics, not the literal ℝ⁴ statement |
+
+**Target:** CMP or Annals (shorter paper, ~15-20 pages, conceptual not computational)
+
+| Task | CI |
+|------|----|
+| Outline + draft | Lyra |
+| Keeper audit: no-go argument rigorous? Overclaiming? | Keeper |
+| Curvature Principle formalization (toy) | Elie |
+| Literature: prior ℝ⁴ mass gap attempts and why they failed | Grace |
+
+---
+
+### Wednesday Morning Status
+
+| Priority | Item | Status |
+|----------|------|--------|
+| P1 | Toy 671 heat kernel | DEFERRED — n40 still computing, wait for n41 |
+| P2 | Papers #76/#77 discussion | READY — Casey read last night |
+| P3 | Paper C (G₂/F₄/E₈) | SCOPED by Keeper — three approaches, embedding (a) recommended |
+| P4 | Selberg Phase 4 | Elie |
+| P5 | Motivic periods | RESEARCHED — mixed answer (61% periods, 39% not due to 1/π). Grace formalizing. |
+| P6 | Kim-Sarnak gap | **DONE** — Grace T1409. θ = g/2^C₂. λ₁ ≥ 975/4096 = N_c·n_C²·c₃(Q⁵)/2^(2C₂). |
+| P7 | WorkingPaper sync | Keeper — 83 theorems pending |
+| P8 | Paper D (ℝ⁴ no-go) | NEW — Lyra drafts, Keeper audits both ends |
+
+**Paper #75 audit (Keeper):** FAIL — three critical blockers. (1) 45 vs 6 Arthur types. (2) L-group Sp(6) vs Sp(4). (3) Casimir gap 91.1 unsubstantiated. Lyra needs these before submission.
+
+**Lyra update:** Closing S-1 through S-3. Paper #75 v1 complete but audit blockers above.
+
+**Counters:** .next_toy=1393, .next_theorem=1410. Graph: 1355/7350/82.6%.
+
 ---
 
 **Audit flags** (minor, none blocking):

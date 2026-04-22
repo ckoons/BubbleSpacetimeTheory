@@ -207,9 +207,9 @@ The Riemann Hypothesis is not an analytic accident — it is a structural conseq
 
 ---
 
-## §11. Closure of the Functorial Gap (T1410)
+## §11. Closure of the Functorial Gap (T1412)
 
-**Status**: The formalization gap identified in v0.1 is now **CLOSED** (T1410, Toy 1394, 30/30 PASS).
+**Status**: The formalization gap identified in v0.1 is now **CLOSED** (T1412, Toy 1394, 30/30 PASS).
 
 1. **Sym⁵ → GL(6)**: BST finiteness forces 𝒫 ⊂ ℝ ⟹ self-dual representations ⟹ GRS descent (Ginzburg-Rallis-Soudry 2011) applies ⟹ descent to Sp(6) = ^L(SO₀(5,2)). The exterior square L-function L(s, Sym⁵, ∧²) pole at s=1 detects symplectic type.
 

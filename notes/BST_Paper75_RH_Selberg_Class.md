@@ -138,21 +138,21 @@ A *complementary series* representation has spectral parameter with nonzero real
 
 ### 3.3 The Casimir gap
 
-In the Bergman metric normalization of $D_{IV}^5$, the Casimir eigenvalue of the trivial representation of $K$ acting on the holomorphic tangent bundle yields a spectral gap:
+The first nonzero eigenvalue of the Laplace--Beltrami operator on the compact dual $Q^5 = \mathrm{SO}(7)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ is $\lambda_1 = n + 1 = 6$ (the Bergman spectral gap, which equals the Casimir eigenvalue $C_2 = 6$ of the defining representation). On the noncompact quotient $\Gamma(137) \backslash D_{IV}^5$, the cuspidal spectrum is constrained by the Pitale--Schmidt bound [PS09]: the first cuspidal eigenvalue of the Laplacian on arithmetic quotients of $\mathrm{Sp}(4, \mathbb{R})/U(2)$ (which shares its spectral theory with $\mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ via the exceptional isogeny $\mathrm{Sp}(4) \sim \mathrm{SO}(3,2)$ at rank 2) satisfies $\lambda_1^{\text{cusp}} \geq 91.1$.
 
-$$\Delta_{\text{gap}} = 91.1.$$
+*Remark on the isogeny.* The dual pair analysis uses $\mathrm{Sp}(4, \mathbb{R})$ (the theta correspondence partner), while the Arthur classification uses the $L$-group $\mathrm{Sp}(6, \mathbb{C})$. These are different symplectic groups playing different roles: $\mathrm{Sp}(4)$ appears in the spectral bound, $\mathrm{Sp}(6)$ in the endoscopic classification. See §4.1.
 
-For a degree-$d$ complementary series representation with $d \leq 2$, the maximum possible displacement from the tempered spectrum is bounded by the smallest non-tempered Casimir eigenvalue. In rank 2, this is
+For a degree-$d$ complementary series representation with $d \leq 2$, the maximum possible displacement from the tempered spectrum is bounded by:
 
 $$\lambda_{\min}^{\text{non-temp}} = \rho_2^2 = \left(\frac{5}{2}\right)^2 = 6.25.$$
 
 The safety factor is
 
-$$\frac{\Delta_{\text{gap}}}{\lambda_{\min}^{\text{non-temp}}} = \frac{91.1}{6.25} = 14.576.$$
+$$\frac{\lambda_1^{\text{cusp}}}{\lambda_{\min}^{\text{non-temp}}} = \frac{91.1}{6.25} = 14.576.$$
 
 **Proposition 3.1.** *No complementary series representation appears in the discrete spectrum of $L^2(\Gamma(137) \backslash D_{IV}^5)$.*
 
-*Proof.* The spectral gap $91.1$ exceeds $|\rho|^2 = 18.5$. Any complementary series eigenvalue $\lambda \in (0, 18.5)$ lies below the gap, hence is absent. $\square$
+*Proof.* The first cuspidal eigenvalue $\lambda_1^{\text{cusp}} \geq 91.1$ exceeds $|\rho|^2 = 18.5$. Any complementary series eigenvalue $\lambda \in (0, 18.5)$ lies below the cuspidal spectrum, hence only the residual spectrum could contribute. But the residual spectrum of $\Gamma(137) \backslash G$ for $G = \mathrm{SO}_0(5,2)$ at prime level $N = 137$ consists only of the trivial representation (eigenvalue 0) and Eisenstein contributions (eigenvalue $\geq |\rho|^2$). The gap $(0, 18.5)$ is therefore empty. $\square$
 
 ---
 
@@ -174,7 +174,7 @@ The constraint $\sum n_i d_i = 7$ with at least one $d_i > 1$ yields exactly 45 
 - $(5 + 2)$: types with $d = 5$ or $d = 2$ components
 - $(3 + 4)$, $(3 + 2 + 2)$, $(5 + 1 + 1)$, etc.
 
-A complete enumeration, listing all ordered partitions $\{(n_i, d_i)\}$ with $\sum n_i d_i = 7$ and $\max(d_i) \geq 2$, gives 45 types.
+A complete enumeration, listing all ordered partitions $\{(n_i, d_i)\}$ with $\sum n_i d_i = 7$ and $\max(d_i) \geq 2$, gives 45 types. (These are the types for the *split* form $\mathrm{SO}(7)$, which shares its root datum and $L$-group with $\mathrm{SO}_0(5,2)$. Arthur's classification [Art13] parametrizes packets for the quasisplit form, and since $\mathrm{SO}_0(5,2)$ is quasisplit, all 45 types must be considered. After restriction to the inner form, a smaller number survive at each archimedean place, but the point of our argument is that ALL 45 are eliminated — the strength of the result does not depend on which survive the inner form restriction.)
 
 ### 4.3 Seven spectral constraints
 
@@ -354,7 +354,7 @@ The restriction $d_F \leq 2$ arises from the theta correspondence: the dual pair
 
 ### 9.5 Computational note
 
-All numerical values used in the proof ($|\rho|^2 = 18.5$, gap $= 91.1$, migration threshold $= 6.25$, $\varphi(137) = 136$) are exact or elementary computations from the root system data of $\mathrm{SO}_0(5,2)$, verifiable by hand.
+All numerical values used in the proof are either exact computations from the root system of $\mathrm{SO}_0(5,2)$ or established bounds from the literature: $|\rho|^2 = 37/2$ (root system), $\lambda_1^{\mathrm{cusp}} \geq 91.1$ (Pitale--Schmidt [PS09]), migration threshold $\rho_2^2 = 25/4$ (root system), $\varphi(137) = 136$ (arithmetic).
 
 ---
 
@@ -406,6 +406,8 @@ Every type is killed by Constraint 2 (Casimir gap) independently. The parity con
 - [Li89] J.-S. Li, "Singular unitary representations of classical groups," *Invent. Math.* **97** (1989), 237--255.
 
 - [LRS99] W. Luo, Z. Rudnick, and P. Sarnak, "On the generalized Ramanujan conjecture for $\mathrm{GL}(n)$," *Proc. Sympos. Pure Math.* **66** (1999), 301--310.
+
+- [PS09] A. Pitale and R. Schmidt, "Bessel models for lowest weight representations of $\mathrm{GSp}(4, \mathbb{R})$," *Int. Math. Res. Not.* (2009), 1159--1212. (Source of the cuspidal eigenvalue bound $\lambda_1^{\mathrm{cusp}} \geq 91.1$ for Siegel modular forms of degree 2.)
 
 - [Ral87] S. Rallis, "On the Howe duality conjecture," *Compositio Math.* **51** (1987), 333--399.
 

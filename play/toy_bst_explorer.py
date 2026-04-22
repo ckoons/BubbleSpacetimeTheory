@@ -365,7 +365,7 @@ def cmd_search(data, query):
 
     if data['particles']:
         for p in data['particles']['particles']:
-            searchable = f"{p['name']} {p['symbol']} {p.get('substrate_description', '')} {p.get('key_insight', '')}"
+            searchable = f"{p.get('name', '')} {p.get('symbol', '')} {p.get('substrate_description', '')} {p.get('key_insight', '')}"
             if query in searchable.lower():
                 results.append(('particle', p['id'], p['name'], ''))
 
@@ -392,13 +392,17 @@ def cmd_stats(data):
         consts = data['constants']['constants']
         print(f"\n  Constants: {len(consts)}")
         for tier in [1, 2, 3]:
-            count = sum(1 for c in consts if c['tier'] == tier)
+            count = sum(1 for c in consts if c.get('tier') == tier)
             print(f"    Tier {tier} ({TIER_LABELS[tier]}): {count}")
+        untiered = sum(1 for c in consts if c.get('tier') is None)
+        if untiered:
+            print(f"    Untiered: {untiered}")
         cats = {}
         for c in consts:
-            cats[c['category']] = cats.get(c['category'], 0) + 1
+            cat = c.get('category', 'uncategorized')
+            cats[cat] = cats.get(cat, 0) + 1
         print(f"  Categories: {len(cats)}")
-        for cat in sorted(cats, key=cats.get, reverse=True):
+        for cat in sorted(cats, key=lambda c: cats.get(c, 0), reverse=True):
             print(f"    {cat}: {cats[cat]}")
 
     if data['particles']:
