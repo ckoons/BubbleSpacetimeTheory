@@ -29,7 +29,11 @@ In the companion paper (Paper A, #76), we constructed a non-trivial QFT with mas
 
 Three groups — $G_2$, $F_4$, $E_8$ — do not admit Hermitian symmetric spaces. Their mass gap requires different methods.
 
-### 1.1 Main Results
+### 1.1 Terminology
+
+The term "mass gap" carries four distinct meanings across the YM paper suite. In this paper (Paper B), Δ denotes the **spectral gap** — the first Laplacian eigenvalue λ₁ of the compact dual, equal to the Casimir eigenvalue C₂ of the defining representation. See Paper A (#76, §1.1) for the full cross-paper terminology table.
+
+### 1.2 Main Results
 
 **Theorem D (Generality).** *For each irreducible bounded symmetric domain $\Omega$ of Hermitian type, the locally symmetric space $\Gamma \backslash \Omega$ carries a non-trivial QFT with mass gap $\Delta = \lambda_1(\check{\Omega}) > 0$, where $\lambda_1$ is the first Laplacian eigenvalue of the compact dual and $\Gamma$ is an arithmetic lattice.*
 

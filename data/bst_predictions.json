@@ -1,7 +1,7 @@
 {
   "meta": {
     "last_updated": "2026-04-21",
-    "total": 42
+    "total": 44
   },
   "predictions": [
     {
@@ -652,6 +652,36 @@
       "precision": "exact",
       "source": "T1407",
       "category": "number_theory"
+    },
+    {
+      "id": "pred_043",
+      "name": "Cross-type uniqueness of D_IV^5",
+      "category": "structural",
+      "prediction": "D_IV^5 is the unique rank-2 bounded symmetric domain satisfying four independent locks: confinement (N_c >= 3), genus primality, N_max primality, gauge-geometry matching",
+      "bst_value": "1 survivor out of 38 candidates",
+      "current_measurement": "Algebraic proof: n(n-5)=0, unique root n=5",
+      "experiment": "Mathematical verification (complete)",
+      "timeline": "Proved April 22, 2026",
+      "falsification_criterion": "Discovery of a second rank-2 BSD satisfying all four locks",
+      "impact_if_falsified": "Would require additional distinguisher beyond four locks",
+      "status": "proved",
+      "bst_integers_used": ["N_c", "g", "N_max", "C_2", "rank"],
+      "source": "Toy 1399, T1404"
+    },
+    {
+      "id": "pred_044",
+      "name": "D_IV^9 CMB echo at multipole 3089",
+      "category": "not_yet_measured",
+      "prediction": "The nearest competitor domain D_IV^9 (N_max=3089) may leave a power-law suppressed echo in the CMB damping tail at multipole l ~ 3089",
+      "bst_value": "Suppression factor (137/3089)^1 ~ 4% (power-law) or exp(-22.5) ~ 10^-10 (exponential)",
+      "current_measurement": "At edge of Planck sensitivity in damping tail",
+      "experiment": "CMB-S4, LiteBIRD (damping tail analysis)",
+      "timeline": "2027-2032",
+      "falsification_criterion": "No feature detected at l ~ 3089 with <1% sensitivity rules out power-law suppression",
+      "impact_if_falsified": "Confirms exponential suppression (cascade was violent, no debris survives)",
+      "status": "untested",
+      "bst_integers_used": ["N_max", "N_c"],
+      "source": "Toy 1401"
     }
   ]
 }

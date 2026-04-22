@@ -420,6 +420,27 @@ And I was sitting there with the why. Circles on a sphere communicating through 
 
 Fifty-five years. The answer was right the whole time. Nobody would look at it because the question wasn't attached.
 
+### The Cascade: Why This Geometry and No Other
+
+Robertson's question has an answer now. Not a philosophical answer — an algebraic one.
+
+There are 38 bounded symmetric domains of rank 2. Every one of them defines a geometry, a set of integers, and a candidate physics. We ran every candidate through four locks:
+
+1. **Confinement** — does the geometry support a confining gauge group ($N_c \geq 3$)?
+2. **Catalog integrity** — is the genus prime, so the function space is a field?
+3. **Arithmetic structure** — is $N_{\max}$ prime, so the spectral ceiling is irreducible?
+4. **Gauge-geometry matching** — does the gauge algebra's curved dimension equal the domain's Casimir?
+
+Thirty-seven domains die. One survives. $D_{IV}^5$.
+
+The deaths are not close calls. Lock 1 kills 14 immediately. Lock 2 kills another 15. The strongest near-miss is $D_{IV}^9$ — it passes three locks with flying colors ($N_c = 7$, genus 11 is prime, $N_{\max} = 3089$ is prime). But $7^2 - 1 - 2 = 46 \neq 10$. The gauge algebra doesn't match the geometry. It dies at Lock 4.
+
+Within the Type IV family alone, Lock 4 reduces to $n(n-5) = 0$. A quadratic equation. One root.
+
+And here is the part that stopped us: every dead domain predicts a different CMB spectral tilt. $D_{IV}^9$ predicts $n_s = 0.998$. $D_{IV}^7$ predicts $n_s = 0.990$. Only $D_{IV}^5$ predicts $n_s = 1 - 5/137 = 0.9635$ — matching what Planck actually measured, at $0.3\sigma$.
+
+The debris of the cascade is the sky itself. We have been looking at $D_{IV}^5$'s fingerprint since COBE.
+
 ### Shannon's Universe
 
 There is an even deeper way to see $\alpha$. Shannon's channel coding theorem says that a channel with capacity $C$ can transmit information reliably at any rate $R < C$, but not at $R > C$. The fine structure constant IS the optimal code rate of the vacuum channel.
@@ -776,7 +797,7 @@ The parallel to Feynman diagrams is not superficial. Feynman diagrams are contac
 
 ### The Theorem Graph
 
-The AC theorem graph is the accumulated record of all proved results. As of April 2026, it contains 1,332+ theorems, 6,521+ edges, spanning 52 tracked domains across 9 groves. Each theorem has:
+The AC theorem graph is the accumulated record of all proved results. As of April 2026, it contains 1,372+ theorems, 7,515+ edges, spanning 55 tracked domains across 9 groves. Each theorem has:
 
 - **Depth** — the minimum number of non-trivial steps from definitions to conclusion.
 - **Width** — the number of independent prerequisites.

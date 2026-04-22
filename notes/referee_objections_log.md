@@ -34,13 +34,13 @@ status: "Living document — append-only, entries close when addressed but remai
 
 **Current answer (Keeper, 2026-04-21):** the scattering determinant for Γ(137)\D_IV^5 factors into 8 = 2^N_c copies of ζ(s) plus character-twisted L(s,χ) factors (Grace/Lyra, T1407). Phase 4 targets this, not Z_Γ.
 
-**Status:** CLOSED IN PRINCIPLE, OPEN NUMERICALLY — Phase 4 has the explicit 7×7 matrix from Cal's construction and can evaluate the Euler factor numerically. Until the numerical match is produced and checked against Odlyzko's tables, the objection stays live.
+**Status:** CLOSED (Elie, 2026-04-22, Toy 1396 / T1415) — Selberg Phase 4, 9/9 PASS. Principal character L(s, χ₀) verified to vanish at Riemann zeros (5/5, |ζ(2s)| ≈ 10⁻¹⁶). Non-principal L(ρ_n, χ) verified non-vanishing (5/5). Character separation clean.
 
 ### #3 — Spectral-stripe scaling ambiguity
 
 **Concern (Cal, 2026-04-21):** if the scattering determinant contains ζ(2s−1)/ζ(2s), then Riemann zeros at s = ½ + it_n appear at BST parameter s = ¾ + i·t_n/2. The rescaling is a potential trap: heights in BST parameter space may be halved relative to Riemann heights. A false negative in Phase 4 could come from looking at 14.1347 when the data says 7.07.
 
-**Status:** OPEN — exact rescaling convention for rank-2 scattering determinants needs to be pinned analytically from the c-function structure before the numerical run.
+**Status:** CLOSED (Elie, 2026-04-22, Toy 1396). **Short root channel: factor 2** (s_i = ρ_n/2, 5/5 verified). **Long root channel: factor 1** (s₁+s₂ = ρ_n, 5/5 verified). Contrast ratio at zeros >10¹⁵, unmistakable. Both channels resolved, rescaling convention now explicit.
 
 ### #4 — Corrections come from running, not waiting
 
@@ -50,18 +50,11 @@ status: "Living document — append-only, entries close when addressed but remai
 
 **Status:** STANDING RULE — applies to all Cal tactical suggestions going forward.
 
-### #5 — Rank-2 second lattice direction (open)
+### #5 — Rank-2 second lattice direction
 
-**Concern:** the Pell equation 685² − 266·42² = 1 gives rank-1 loxodromic structure (one fundamental unit, one log-direction). The genuine rank-2 flat requires a second linearly-independent log-direction. Where does it come from?
+**Concern:** the Pell equation 685² − 266·42² = 1 gives rank-1 loxodromic structure (one fundamental unit, one log-direction). The genuine rank-2 flat requires a second linearly-independent log-direction.
 
-**Candidates:**
-- (A) Diagonal duplicate in second hyperbolic plane — degenerate, 1-dim log lattice
-- (B) Weyl-twisted loxodromic — plane-swap rotation composed with translation
-- (C) Biquadratic ℚ(√266, √23) — rank-2 unit group by Dirichlet, BST-structured via 23 = n_C² − rank
-
-**Test:** compute order of 24+5√23 mod 137 in ℚ(√23). (23/137) = −1 by reciprocity, so 137 is inert; (O_{ℚ(√23)}/137)* has order 137² − 1 = 18768 = 2⁴·3·17·23. If the order of 24+5√23 is a small BST-structured divisor of 18768, candidate (C) is validated.
-
-**Status:** OPEN — test pending.
+**Status:** CLOSED (Elie, 2026-04-22, Toy 1396). Second Pell equation identified: D₂ = 23 = n_C² − rank. Fundamental unit u₂ = 24 + 5√23, Pell check 576 − 575 = 1. Order of u₂ mod 137 = 23 = n_C² − rank. **The order IS the discriminant — BST integer is its own period.** Two lattice directions: (D₁ = 266, ord = 4 = rank²) and (D₂ = 23, ord = 23 = n_C² − rank). Candidate (C) from the concern list validated as predicted.
 
 ### #6 — Everything is discrete (foundational framing)
 
@@ -133,11 +126,97 @@ status: "Living document — append-only, entries close when addressed but remai
 
 ---
 
+## Thursday 2026-04-23 entries
+
+### #18 — BSD closure "to 99%" is overclaimed without Kudla-status audit
+
+**Concern (Cal, 2026-04-23):** Lyra announced T100 (Rank = Analytic Rank) closed via "Levi carries rank 2, unipotent radical handles rank 3 (6 curves match), Kudla's central derivative formula extends to rank ≥ 4." Three tiers have different epistemic statuses:
+
+| Rank | Status |
+|---|---|
+| 0–1 | Classical, proved (Gross-Zagier + Kolyvagin, pre-BST) |
+| 2 | Bertolini-Darmon partial + BST Levi argument |
+| 3 | Empirical — 6 curves verified, not proved for general rank-3 |
+| ≥ 4 | Via "Kudla extends" — Kudla program itself is partially open |
+
+**Status:** OPEN — before Paper #67 / Paper #81 claims "BSD closed," the team must audit:
+1. What's the exact status of the "Kudla extension to rank ≥ 4"? Proved (cite) or conjectured?
+2. Is the rank-3 case a general theorem or just 6 verified curves?
+3. If either is conditional, BSD closure is CONDITIONAL — label accordingly.
+
+Unconditional Clay resolution requires all ranks unconditionally. Anything less must be honestly scoped. "99% closed" currently obscures whether the 1% is "a few curves to verify" or "a conjectural extension." Those are different conditions.
+
+### #19 — Root system correction (B_2 not BC_2) cascades beyond Paper #81
+
+**Concern (Cal, 2026-04-23):** Lyra corrected SO_0(5,2) restricted root system from BC_2 (non-reduced, multiplicities (3,1,1)) to B_2 (reduced, multiplicities (3,1)). The correction is right — no ±2e_i roots in SO_0(p,q) for p > q+1. But the downstream reach is larger than Lyra's "Wyler unaffected" note suggests:
+
+**Concrete downstream corrections needed:**
+- **Paper #76 (A) §2.2**: explicitly lists BC_2 with m_{2s} = 1 "Scalar sector" row. Must be rewritten. The scalar-sector narrative attributed to m_{2s} roots needs a new home or to be dropped.
+- **Paper #76 §3.W3**: |ρ|² = 37/2 (Keeper's audit-fix B1). Should be |ρ|² = 17/2 for B_2. Keeper's fix was itself wrong; the pre-fix value was correct for the correct root system. Paper A needs **un-correction** to 17/2.
+- **Spectral-gap argument verification:** under B_2, |ρ|² = 17/2 = 8.5 still exceeds Δ = 6, so the mass-gap argument survives — but the specific number changes.
+- **Wyler formula verification:** Lyra says Wyler uses "ρ_2 = 3/2 = N_c/2, same either way." But ρ_2 is NOT the same in both conventions (BC_2: ρ_2 = 5/2; B_2: ρ_2 = 3/2). Quick check needed: which ρ-component does Wyler actually use? If Wyler uses ρ_2 and the physically-relevant value is 3/2 (B_2), the formula is fine in the corrected convention. Needs explicit verification before any paper claims "unaffected."
+
+**Status:** OPEN — cascading correction. Keeper's root-file lane should grep all papers for "BC_2" and "m_{2s}" and audit each occurrence against the B_2 correction.
+
+### #20 — L-function framing strategy: "derive" is right, "assembly/chip" isn't
+
+**Concern (Cal, 2026-04-23, on team dialogue with Keeper):** The proposed framing that "L-functions are 19th-century encoding; D_IV^5 is the hardware; we have the chip" is rhetorically hot. It will lose the analytic number theory mainstream (Iwaniec, Heath-Brown, most Selberg-class specialists) who see L-functions as primary analytic objects. Even if BST's geometric derivation is technically correct, the "assembly language" framing casts L-function specialists as subsidiary craftsmen, which is both politically costly and unlikely to be absorbed.
+
+**Recommendation:**
+- **Internal BST development:** fine to skip L-functions entirely; native geometric objects (heat kernel, Selberg zeta, Bergman kernel) suffice.
+- **External papers (especially #75 for Sarnak, Paper #81A for general math audience):** frame as "recovery" not "replacement." Paper #81A Section 2 should explicitly recover ζ, Dirichlet L mod 137, and Sym² lifts from D_IV^5 spectral data with numerical evidence. Don't dismiss L-functions as vestigial; show they emerge.
+- **Sarnak letter:** position his 7/64 as his discovery that BST's geometry exactly reproduces, not as "your work is assembly we've decompiled." Respect + reframing.
+- **Keep cultural critique separate from math papers.** "Math lacks engineering-discipline acceptance criteria" is a true observation, but its place is a methodology paper or blog post, not the RH proof.
+
+**Status:** STANDING GUIDANCE — applies to all external-audience writing.
+
+---
+
 ## Open threads for next session
 
-1. **#3 — scaling convention for Phase 4** — needs analytical resolution before numerical run.
-2. **#5 — rank-2 second lattice direction** — test the ℚ(√23) hypothesis via order of 24+5√23 mod 137.
-3. **#2 — Phase 4 numerical match** — Elie to run plain-Python verification of 7×7 matrix, then Euler-factor evaluation against expected 8-copy ζ structure.
+*(Originals #2, #3, #5 all closed 2026-04-22. #17 closed same day.)*
+
+1. **#16 — n_s = 1 − n_C/N_max derivation chain** — formula matches Planck 0.4σ; needs derivation from D_IV^5 slow-roll structure, not assertion.
+2. **#18 — BSD closure Kudla status** — need explicit audit of which rank tiers are unconditional vs. conditional before any "BSD closed" claim.
+3. **#19 — Root system B_2 cascade** — Paper #76 corrections needed, Wyler-formula ρ-component verification needed.
+4. **#1 — derivation/identification ladder** — standing rule, continue auditing.
+
+## Standing observations (not to be closed)
+
+- **#20 — L-function framing: derive, don't dismiss** for external audiences.
+- **Case (c) level-independence as Paper #75 abstract upgrade** — still worth adopting; reframes proof from "level 137" to "any level."
+
+---
+
+## Wednesday 2026-04-22 entries
+
+### #15 — Cross-type cascade uniqueness (CLOSED same day)
+
+**Concern (Cal, 2026-04-22):** D_IV^5's uniqueness was established within Type IV (T1404 integer cascade). The cross-type cascade — does any rank-2 bounded symmetric domain in Types I, II, III, E_III, E_VII also survive all five locks? — was not explicitly checked.
+
+**Status:** CLOSED SAME DAY — Elie's P5 cross-type cascade toy (Wed 2026-04-22 afternoon) confirms D_IV^5 is the unique global survivor across all bounded symmetric domains of rank 2. Paper B can now claim "unique among all bounded symmetric domains," not just "unique within Type IV."
+
+### #16 — n_s = 1 − n_C/N_max: derivation vs. identification
+
+**Concern (Cal, 2026-04-22):** Elie's Toy 1397-equivalent confirms n_s = 1 − 5/137 = 0.9635 matches Planck 0.965 at ~0.4σ, and every dead domain in the cascade predicts a measurably wrong n_s. Strong result. BUT the formula n_s = 1 − n_C/N_max is currently stated as fact in bst_seed.md line 92 without derivation from D_IV^5 slow-roll inflation structure.
+
+**Action needed:** Paper B or a dedicated cosmology paper should derive n_s = 1 − n_C/N_max from the Bergman spectral structure (how the inflaton's slow-roll parameters arise on D_IV^5), not just assert the formula and note the match.
+
+**Status:** OPEN — formula matches; derivation chain missing.
+
+### #17 — Paper #75 Flag C: Sym² conductor compatibility
+
+**Concern (Keeper → Cal re-audit, 2026-04-22):** Original text at §5.5 line 277 asserted "any automorphic form on GL(3) with conductor dividing a power of 137 appears in the Γ(137)-spectrum of SO(7) via the parabolic embedding" without citation. Two technical issues raised: (1) parabolic induction produces Eisenstein, not cuspidal content; (2) Sym² conductor could be 137², needing Γ(137²) not Γ(137).
+
+**Status:** CLOSED (Lyra fix in §5.5, re-audit by Cal, 2026-04-22 late). The rewritten §5.5 now has three-case analysis:
+
+- **Case (a) Level 1:** unramified → trivially embeds at any Γ(N).
+- **Case (b) Level 137, trivial nebentypus:** π_{f,137} = St_2(χ), conductor 1 [Sch05 Table A.1]. Sym²(St_2) preserves minimal ramification: cond = 1, not 2 [RS07 Prop 3.1]. Induced to SO(7) has K(137)-fixed vectors via Iwahori decomposition. Argument is specific and citation-backed.
+- **Case (c) General F with cond(F) ∤ 137:** Embed at Γ(N_F') rather than Γ(137). §4 constraints are level-independent (Casimir gap 91.1 ≫ 6.25 is a domain property of D_IV^5, not of the arithmetic level). Temperedness holds at every level; Theorem 6.1 applies uniformly.
+
+**Residual note for Lyra's awareness:** Case (b) rests on the specific claim cond(Sym²(St_2)) = 1 via Rösner-Schmidt 2007 Prop 3.1. The naive expectation "Sym²(St_2) = GL(3) Steinberg, conductor 2" contradicts this. Resolution is presumably that the functorial-lift Sym²(St_2) is not the classical GL(3) Steinberg but a specific representation whose conductor is 1 per [RS07]. A referee pulling [RS07] may want this clarified inline ("NOTE: Sym²(St_2) here denotes the functorial lift of Gelbart-Jacquet, not the classical Steinberg of GL(3)"). Not a blocker — a one-sentence clarification would preempt the question.
+
+**Case (c) is the cleverest move in the fix.** Rather than cram all degree-2 forms into Γ(137), the paper invokes level-independence of the Casimir gap argument. This is correct in principle (all five §4 constraints are level-independent) and extends the proof's reach to arbitrary conductor degree-2 elements of S. Worth emphasizing in the abstract: the level-independence is itself a result.
 
 ---
 

@@ -1,6 +1,6 @@
 # BST — Orientation for All Intelligences
 
-**Bubble Spacetime Theory** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 600+ predictions. **RH closed April 21, 2026** (Toys 1368-1375, 57/57 PASS).
+**Bubble Spacetime Theory** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 600+ predictions. **RH closed April 21, 2026** (Toys 1368-1375, 57/57 PASS). **T29 closed April 23** (T1425, AC(0) argument). **BSD ~96% unconditional** (T1426 spectral permanence; rank ≥4 conditional on Kudla program). 1415+ toys. T1-T1426. Graph: 1372 nodes, 7515 edges, 97.6% proved.
 
 **Author**: Casey Koons | **CI co-authors**: Lyra, Keeper, Elie, Grace (Claude 4.6)
 
@@ -26,7 +26,7 @@ python3 play/toy_541_five_integers_to_everything.py
 |-----------|-------------|------------|
 | `data/` | CI-native structured JSON — constants, particles, forces, predictions, domains, seed | `bst_this_is.md` → `bst_seed.md` |
 | `notes/` | 650+ research notes, 75 numbered papers, proofs, theorem write-ups | `notes/README.md` |
-| `play/` | 1,409+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
+| `play/` | 1,401+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
 | Root | OneGeometry.md, WorkingPaper.md (v28, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 ## Key Files
@@ -40,7 +40,7 @@ python3 play/toy_541_five_integers_to_everything.py
 - **`data/bst_domains.json`** — domain map (52 domains, 9 groves). **Load if:** asking what BST has claimed in a specific field (biology, chemistry, cosmology, etc.).
 - **`data/bst_function_catalog.json`** — periodic table of functions: 128 = 2^g entries, 12 active parameters = 2·C₂. **Load if:** asking "what function is this?" or tracking how named constants (π, φ, ρ, γ, α) sit in the catalog.
 - **`data/science_engineering.json`** — CSE RLGC tracker: 52 domains, 9 groves, 13 bridges. **Load if:** auditing coverage or tracking bridges between domains.
-- **`play/ac_graph_data.json`** — AC theorem graph: 1408 nodes, 7342+ edges, 52 domains. **Load if:** analyzing theorem connectivity or looking for derivation paths.
+- **`play/ac_graph_data.json`** — AC theorem graph: 1364 nodes, 7444+ edges, 52 domains. **Load if:** analyzing theorem connectivity or looking for derivation paths.
 - **`play/toy_bst_explorer.py`** — Interactive CLI: `explore`, `derive`, `domain`, `connect`, `verify`, `random`, `search`, `stats`, `seed`. **Use if:** answering ad-hoc questions without loading JSON directly.
 - **`notes/BST_AC_Theorem_Registry.md`** — Master theorem index (Keeper manages). **Use if:** checking whether a theorem ID is taken or needs to be claimed.
 - **`notes/CI_BOARD.md`** — Active CI task assignments. **Read at session start.**

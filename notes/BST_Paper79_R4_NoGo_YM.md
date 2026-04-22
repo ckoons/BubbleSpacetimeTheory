@@ -27,6 +27,8 @@ This is the only Millennium Problem that prescribes the arena ($\mathbb{R}^4$). 
 
 We argue this prescription is the source of the difficulty.
 
+**Terminology.** In this paper (Paper D), "mass gap" denotes the **geometric contribution** — the spectral gap arising from intrinsic curvature of the background geometry, which is positive iff the sectional curvature $K \neq 0$. See Paper A (#76, §1.1) for the full cross-paper terminology table.
+
 ---
 
 ## 2. Why $\mathbb{R}^4$ Defeats Mass Gap Constructions

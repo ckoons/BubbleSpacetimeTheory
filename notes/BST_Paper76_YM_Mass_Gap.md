@@ -34,7 +34,20 @@ The domain $D_{IV}^5$ is specified by five integers:
 
 These are not chosen — they are the structural invariants of $D_{IV}^5$, determined by the Cartan classification (type IV, $n = 5$). The physical content (gauge group, mass gap value, spacetime dimension) is derived from these invariants.
 
-### 1.1 Main Results
+### 1.1 Terminology: Four Senses of "Mass Gap"
+
+This paper is part of a four-paper collection (A-D). The term "mass gap" ($\Delta$) is used in four related but distinct senses across the collection:
+
+| Paper | Symbol | Meaning | Value (SU(3)) |
+|-------|--------|---------|---------------|
+| A (this paper) | $\Delta_{\mathrm{phys}}$ | Lightest state of the full QFT (matter + gauge) on $D_{IV}^5$ | $6\pi^5 m_e = 938$ MeV (proton) |
+| B (#77) | $\lambda_1$ | Spectral gap of the Bergman Laplacian on the compact dual | $C_2 = 6$ (spectral units) |
+| C (#80) | $c \cdot \lambda_1$ | Descended spectral gap via subgroup embedding | $\geq c \cdot \lambda_1 > 0$ |
+| D (#79) | $\Delta_{\mathrm{geom}}$ | Geometric contribution to the gap from background curvature | $> 0$ iff $K \neq 0$ |
+
+These are consistent: $\lambda_1$ (Paper B) becomes $\Delta_{\mathrm{phys}}$ (Paper A) via the identification $\Delta_{\mathrm{phys}} = \lambda_1 \cdot \pi^{n_C} \cdot m_e$. The descent (Paper C) gives a lower bound. The geometric gap (Paper D) is the mechanism underlying all three. Papers B-D should cite this table.
+
+### 1.2 Main Results
 
 **Theorem A (Existence).** *The locally symmetric space $\Gamma \backslash D_{IV}^5$, with $\Gamma = \mathrm{SO}(Q, \mathbb{Z})$ an arithmetic lattice for a signature-$(5,2)$ unimodular form $Q$, carries a quantum field theory satisfying Wightman axioms W1-W5 with mass gap $\Delta = C_2 = 6$ (in spectral units), corresponding to $\Delta_{\mathrm{phys}} = 6\pi^5 m_e = 938.272$ MeV.*
 

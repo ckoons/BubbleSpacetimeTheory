@@ -2,9 +2,44 @@
 
 *Deferred and waiting items. Active work lives on CI_BOARD.md.*
 
-**Last updated:** April 20, 2026 (Monday evening). T1-T1385. **1,353+ toys** (through Toy 1353). Graph: **1332 / 7117**, strong **82.7%**, avg degree **10.68**. **52 tracked domains**, **9 groves**, all bridges BUILT. **74 papers**. Counters: `.next_theorem=1386`, `.next_toy=1354`. **F₁ Arithmetic Sprint COMPLETE**: GF(128) confirmed (T1382), 137=x⁷+x³+1 (T1383), condition #23 N_c²=2^N_c+1 (T1384), BST IS F₁-geometry (T1385), Graph=Weil arithmetic (T1386). **23 uniqueness conditions**. Cooperation gap = rank×α = 2/137.
+**Last updated:** April 22, 2026 (Wednesday late). T1-T1421. **1,401+ toys**. Graph: **1364 / 7444**, strong **82.7%**, proved **96.7%**, avg degree **10.91**. **52 tracked domains**, **9 groves**, all bridges BUILT. **80 papers**. Counters: `.next_theorem=1422`, `.next_toy=1402`. **RH CLOSED**. **YM 12/12 Cal fixes DONE**. Cross-type cascade: D_IV^5 unique among ALL 38 rank-2 BSDs. WP v30.
 
 **Archive**: Prior completions → `notes/.running/BACKLOG_archive_2026-04-11.md`
+
+---
+
+## April 22 — Grace's Graph Structural Demands (**CLOSED**)
+
+*Source: Grace's graph analysis, April 22. All demands addressed by Lyra (T1417-T1421) + Grace wiring.*
+
+### GD-1: Quantum Foundations Island — **CLOSED**
+T1417 (Quantum Foundations Bridge) connects QF to 5 domains via T643 (No-Cloning) as hub. Zero isolated QF theorems remain.
+
+### GD-2: Seven Zero-Theorem Domains — **3/7 CLOSED**
+T1419 (quantum_computing door), T1420 (entanglement_entropy door), T1421 (inflation door, CONDITIONAL). Remaining: string theory comparison, loop quantum gravity, condensed matter BST, machine learning.
+
+### GD-3: 28 Open/Conditional Theorems — **8 CLOSED** (Lyra evening sprint)
+T110, T126, T127, T1206, T1233, T1234, T1236, T1410 closed. Remaining: BSD chain (T98-T103), Hodge chain (T112-T115), T71, T29, T812. Full triage: `notes/BST_Open_Theorem_Triage_April22.md`.
+
+### GD-4: T298 ↔ T174 (Loudest Missing Edge) — **CLOSED**
+T1418 (Crystal Complexity Bridge) closes the path. K(crystal) = log₂|G|.
+
+### GD-5: Cooperation Premium — ongoing
+Strong% = 82.7% vs prediction 80.9%. Monitoring.
+
+### GD-6: Data Sufficiency Identity (Elie) — **CONFIRMED**
+Toy 1397 (8/8 PASS). Capacity = root count. 38 = 2(n_C² − C₂). Theorem formalization pending.
+
+---
+
+## April 22 — Cal's Cross-Collection Notes (strengthen over time)
+
+These are NOT blocking Paper A/B/D submission but would strengthen the YM collection:
+
+1. **Asymptotic freedom / QCD β-function** — not in any of the four papers. Standard Model physicists will ask.
+2. **BST vs lattice QCD comparison table** (pion, kaon, nucleon, glueball) — most convincing single addition across the suite.
+3. **Reflection positivity / Osterwalder-Schrader axioms** — W1-W5 are Minkowski; constructive QFT referees want Euclidean check.
+4. **Running coupling** — does BST reproduce g²(μ) at multiple scales?
 
 ---
 

@@ -1,13 +1,8 @@
 {
   "meta": {
-    "version": 1,
-    "title": "BST Domain Map",
-    "description": "All domains that BST touches, with theorem counts from the AC graph, key results, and cross-references. BST is not a physics theory that also does math \u2014 it is a geometric theory where physics, chemistry, biology, and mathematics are all consequences of D_IV^5.",
-    "domain_count": 34,
-    "total_theorems": 1354,
-    "last_updated": "2026-04-21",
-    "source": "play/ac_graph_data.json + WorkingPaper.md",
-    "total_domains": 46
+    "last_updated": "2026-04-23",
+    "total_domains": 47,
+    "total_theorems": 1372
   },
   "domains": [
     {
@@ -16,7 +11,7 @@
     },
     {
       "name": "bst_physics",
-      "theorem_count": 154
+      "theorem_count": 156
     },
     {
       "name": "observer_science",
@@ -28,7 +23,7 @@
     },
     {
       "name": "number_theory",
-      "theorem_count": 109
+      "theorem_count": 115
     },
     {
       "name": "chemical_physics",
@@ -36,11 +31,11 @@
     },
     {
       "name": "cosmology",
-      "theorem_count": 49
+      "theorem_count": 50
     },
     {
       "name": "proof_complexity",
-      "theorem_count": 45
+      "theorem_count": 46
     },
     {
       "name": "topology",
@@ -67,12 +62,12 @@
       "theorem_count": 27
     },
     {
-      "name": "quantum",
-      "theorem_count": 26
+      "name": "qft",
+      "theorem_count": 27
     },
     {
-      "name": "qft",
-      "theorem_count": 25
+      "name": "quantum",
+      "theorem_count": 26
     },
     {
       "name": "analysis",
@@ -115,6 +110,10 @@
       "theorem_count": 11
     },
     {
+      "name": "quantum_foundations",
+      "theorem_count": 11
+    },
+    {
       "name": "complexity",
       "theorem_count": 10
     },
@@ -123,16 +122,12 @@
       "theorem_count": 10
     },
     {
+      "name": "computation",
+      "theorem_count": 10
+    },
+    {
       "name": "probability",
       "theorem_count": 9
-    },
-    {
-      "name": "computation",
-      "theorem_count": 9
-    },
-    {
-      "name": "quantum_foundations",
-      "theorem_count": 8
     },
     {
       "name": "signal",
@@ -155,15 +150,15 @@
       "theorem_count": 4
     },
     {
+      "name": "complexity_theory",
+      "theorem_count": 3
+    },
+    {
       "name": "quantum_field_theory",
       "theorem_count": 3
     },
     {
       "name": "music_theory",
-      "theorem_count": 2
-    },
-    {
-      "name": "complexity_theory",
       "theorem_count": 2
     },
     {
@@ -192,6 +187,10 @@
     },
     {
       "name": "geology",
+      "theorem_count": 1
+    },
+    {
+      "name": "BSD",
       "theorem_count": 1
     }
   ]
