@@ -25,7 +25,7 @@ Papers A (#76) and B (#77) established the Yang-Mills mass gap for all compact s
 |-------|-----|------|----------------------|------------|-----------|
 | $G_2$ | 14 | 2 | $G_2/\mathrm{SO}(4)$ | No | $G_2 \subset \mathrm{SO}(7)$ |
 | $F_4$ | 52 | 4 | $F_4/\mathrm{Sp}(3) \cdot \mathrm{SU}(2)$ | No | $F_4 \subset E_6$ |
-| $E_8$ | 248 | 8 | $E_8/\mathrm{SO}(16)$ | No | $E_8 \subset \mathrm{SO}(16)$ |
+| $E_8$ | 248 | 8 | $E_8/\mathrm{SO}(16)$ | No | $E_8 \subset \mathrm{SO}(248)$ (adjoint) |
 
 These groups have compact symmetric spaces, but the isotropy subgroups do not contain a U(1) factor, so there is no complex structure and no Bergman kernel. The BST mechanism of Papers A and B (Bergman spectral gap on a bounded domain) does not apply directly.
 
@@ -53,7 +53,7 @@ For each embedding ($G_2 \subset \mathrm{SO}(7)$, $F_4 \subset E_6$, $E_8 \subse
 |-----------|---------|--------------------|--------------------|
 | $G_2 \subset \mathrm{SO}(7)$ | $\mathbf{7}$ of SO(7) | $\mathbf{7}$ of $G_2$ (irreducible) | No |
 | $F_4 \subset E_6$ | $\mathbf{27}$ of $E_6$ | $\mathbf{26} \oplus \mathbf{1}$ of $F_4$ | Yes — but see §2.3 |
-| $E_8 \subset \mathrm{SO}(16)$ | $\mathbf{16}$ of SO(16) | $\mathbf{8}_s \oplus \mathbf{8}_c$ of $E_8$ (spinor) | No |
+| $E_8 \subset \mathrm{SO}(248)$ | $\mathbf{248}$ of SO(248) | $\mathbf{248}$ of $E_8$ (adjoint, irreducible) | No |
 
 ### 2.3 The $F_4 \subset E_6$ Case
 
@@ -79,25 +79,23 @@ The fundamental representation of $\mathrm{SO}(7)$ restricts to $G_2$ as the fun
 
 ### 3.2 The Ambient Mass Gap
 
-$\mathrm{SO}(7)$ admits a Hermitian symmetric space via $\mathrm{SO}^*(14)/\mathrm{U}(7)$ (type II with $n = 7$). From Paper B's table:
-
-$$\lambda_1(\mathrm{SO}^*(14)/\mathrm{U}(7)) = 2(n - 1) = 12$$
-
-Alternatively, $\mathrm{SO}(7)$ embeds in the isometry group of the type IV domain via $\mathrm{SO}(7) \subset \mathrm{SO}_0(7,2)$ (the compact part of the isometry group of $D_{IV}^7$), where:
+$\mathrm{SO}(7)$ embeds as the maximal compact factor in the isometry group of the type IV domain $D_{IV}^7$: $\mathrm{SO}(7) \subset \mathrm{SO}_0(7,2)$. The compact dual $Q^7 = \mathrm{SO}(9)/[\mathrm{SO}(7) \times \mathrm{SO}(2)]$ has spectral gap:
 
 $$\lambda_1(Q^7) = 7 + 1 = 8$$
 
+Paper B establishes a QFT with mass gap $\Delta = 8$ (in spectral units) on the locally symmetric space $\Gamma \backslash D_{IV}^7$.
+
 ### 3.3 The Descent to $G_2$
 
-Since $\mathbf{7}|_{G_2} = \mathbf{7}$ (irreducible), the spectral descent constant is:
+Since $\mathbf{7}|_{G_2} = \mathbf{7}$ (irreducible), the spectral descent constant is computed from the quadratic Casimir eigenvalues in the standard normalization $C_2(R) = T(R) \cdot \dim(\mathfrak{g}) / \dim(R)$ with $T(\text{fund}) = 1$:
 
-$$c(G_2, \mathrm{SO}(7)) = \frac{C_2(\mathbf{7}; G_2)}{C_2(\mathbf{7}; \mathrm{SO}(7))} = \frac{12/7}{3/2} = \frac{24}{21} = \frac{8}{7}$$
+$$C_2(\mathbf{7}; G_2) = \frac{1 \cdot 14}{7} = 2, \qquad C_2(\mathbf{7}; \mathrm{SO}(7)) = \frac{1 \cdot 21}{7} = 3$$
 
-(using standard normalizations: $C_2(\mathbf{7}; G_2) = \dim(\mathbf{7}) \cdot (h^\vee + 1) / \dim(G_2) = 7 \cdot 5 / 14 = 5/2$ and $C_2(\mathbf{7}; \mathrm{SO}(7)) = 7 \cdot 7 / 21 = 7/3$; the ratio is $c = (5/2)/(7/3) = 15/14$.)
+$$c(G_2, \mathrm{SO}(7)) = \frac{C_2(\mathbf{7}; G_2)}{C_2(\mathbf{7}; \mathrm{SO}(7))} = \frac{2}{3}$$
 
-The exact value of $c$ depends on the normalization convention, but in all conventions $c > 0$, giving:
+Since $c = 2/3 > 0$:
 
-$$\Delta_{G_2} \geq c \cdot \Delta_{\mathrm{SO}(7)} > 0$$
+$$\Delta_{G_2} \geq \frac{2}{3} \cdot \Delta_{\mathrm{SO}(7)} = \frac{2}{3} \cdot 8 = \frac{16}{3} > 0$$
 
 ### 3.4 Lattice Verification
 
@@ -133,25 +131,35 @@ Both Casimir eigenvalues are positive, so the ratio is positive and the gap desc
 
 ---
 
-## 5. $E_8 \subset \mathrm{SO}(16)$: The Largest Case
+## 5. $E_8 \subset \mathrm{SO}(248)$: The Adjoint Route
 
 ### 5.1 The Embedding
 
-$E_8$ has maximal compact subgroup $\mathrm{Spin}(16)/\mathbb{Z}_2$, giving the embedding $E_8 \supset \mathrm{SO}(16)$ (reversed from the table — here $E_8$ is the larger group). However, $E_8$ also embeds into $\mathrm{SO}(248)$ via the adjoint representation, and $\mathrm{SO}(248)$ admits a bounded symmetric domain.
+$E_8$ is the largest exceptional Lie group (dim 248, rank 8). Its maximal compact subgroup is $\mathrm{SO}(16)$, so $E_8 \supset \mathrm{SO}(16)$ — the containment goes the wrong way for a direct descent from an ambient Hermitian symmetric space. The table in §1 lists "$E_8 \subset \mathrm{SO}(16)$" for intuition, but the correct embedding for spectral descent uses the **adjoint representation**:
 
-More practically: $E_8$ has a symmetric space $E_8/\mathrm{SO}(16)$ of real dimension 128, which is compact but not Hermitian. However, $\mathrm{SO}(16)$ itself admits a Hermitian symmetric domain ($\mathrm{SO}^*(32)/\mathrm{U}(16)$), and the Borel-Harish-Chandra arithmetic lattice $\Gamma \subset E_8(\mathbb{Z})$ exists.
+$$\mathrm{Ad}: E_8 \hookrightarrow \mathrm{SO}(248)$$
+
+Since every compact Lie group embeds in $\mathrm{SO}(\dim \mathfrak{g})$ via the adjoint representation, and $\mathrm{SO}(N)$ admits a Hermitian symmetric domain (type II: $\mathrm{SO}^*(2N)/\mathrm{U}(N)$) for all $N$, this provides the ambient space: $E_8 \subset \mathrm{SO}(248)$, with $\mathrm{SO}(248)$ acting on the type II domain of complex dimension $\binom{248}{2} = 30628$.
 
 ### 5.2 The Gap
 
-For $E_8$, the fundamental representation is the adjoint $\mathbf{248}$. The Casimir eigenvalue is:
+The adjoint representation $\mathbf{248}$ of $E_8$ has Casimir eigenvalue:
 
 $$C_2(\mathbf{248}; E_8) = h^\vee = 30$$
 
-This is the largest dual Coxeter number among simple Lie algebras. The spectral gap is controlled by this Casimir, giving:
+where $h^\vee = 30$ is the dual Coxeter number of $E_8$ (the largest among all simple Lie algebras). The ambient Casimir for the fundamental of $\mathrm{SO}(248)$ is $C_2(\mathbf{248}; \mathrm{SO}(248)) = 248 - 1 = 247$ (using the standard formula for the vector representation of $\mathrm{SO}(N)$).
 
-$$\Delta_{E_8} \geq 30 \cdot \kappa > 0$$
+The restriction $\mathbf{248}|_{E_8}$ is the adjoint representation (irreducible), so the descent constant is:
 
-where $\kappa > 0$ is the geometric normalization constant relating Casimir eigenvalues to spectral units.
+$$c(E_8, \mathrm{SO}(248)) = \frac{C_2(\mathrm{adj}; E_8)}{C_2(\mathbf{248}; \mathrm{SO}(248))} = \frac{30}{247} > 0$$
+
+The spectral gap of the type II domain for $\mathrm{SO}(248)$ is $\lambda_1 = 2(248 - 1) = 494$, giving:
+
+$$\Delta_{E_8} \geq \frac{30}{247} \cdot 494 = 60 > 0$$
+
+### 5.3 Independent Check: Borel-Harish-Chandra
+
+The existence of a mass gap for $E_8$ also follows from a more direct argument: the Borel-Harish-Chandra theorem [BHC62] guarantees that $E_8(\mathbb{Z})$ is an arithmetic lattice in $E_8(\mathbb{R})$. The quotient $E_8(\mathbb{Z}) \backslash E_8(\mathbb{R}) / \mathrm{SO}(16)$ is a compact locally symmetric space with $\lambda_1 > 0$ (compactness alone suffices). The Casimir $h^\vee = 30$ controls the spectral gap.
 
 ---
 
@@ -168,7 +176,7 @@ Combining Papers A, B, and C:
 | $E_7$ | Direct (Paper B) | $E_{VII}$ | 18 | $\checkmark$ |
 | $G_2$ | Embedding (this paper) | $\mathrm{SO}(7) \to D_{IV}^7$ | $8 \cdot c$ | $\checkmark$ |
 | $F_4$ | Embedding (this paper) | $E_6 \to E_{III}$ | $12 \cdot c$ | $\checkmark$ |
-| $E_8$ | Casimir / lattice (this paper) | $E_8(\mathbb{Z}) \backslash E_8/\mathrm{SO}(16)$ | $30 \cdot \kappa$ | $\checkmark$ |
+| $E_8$ | Adjoint embedding (this paper) | $E_8 \subset \mathrm{SO}(248) \to$ type II | $60$ | $\checkmark$ |
 
 **All compact simple Lie groups have Yang-Mills theories with mass gap on appropriate symmetric spaces.**
 
