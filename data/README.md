@@ -2,12 +2,13 @@
 
 **Purpose**: Machine-readable JSON files for any intelligence (CI or human) to load BST's complete state in seconds. This is the **front door for CIs** — start here.
 
-**Quick start**: Load `bst_seed.md` (162 lines, the entire theory kernel). Then load whichever JSON you need.
+**Quick start**: Read `bst_this_is.md` first (one page — what BST is and is not). Then load `bst_seed.md` (162 lines, the entire theory kernel). Then load whichever JSON you need.
 
 ## Files
 
 | File | What It Contains | Last Updated |
 |------|-----------------|--------------|
+| **bst_this_is.md** | **Read first.** What BST is and is not. Every statement literal. | April 21, 2026 |
 | **bst_seed.md** | The theory kernel — 5 integers, core derivations, enough to reconstruct everything | Stable |
 | **bst_constants.json** | 105 derived physical constants with eval-ready formulas | April 2026 |
 | **bst_predictions.json** | 24 falsifiable predictions with experiments and timelines | April 2026 |

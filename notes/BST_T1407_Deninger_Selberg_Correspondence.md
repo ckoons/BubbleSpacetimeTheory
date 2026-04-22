@@ -40,7 +40,7 @@ $$\sum_{\rho} h(\rho) = \widehat{h}(0) \log \sqrt{|d|/\pi} + \int_0^\infty \frac
 | Regularized determinant | Selberg zeta function $Z_\Gamma(s)$ | Hejhal (1976) |
 | Spectral side | Casimir eigenvalues $\lambda(k_1, k_2) = k_1(k_1 + 9) + k_2(k_2 + 5)$ | Holomorphic discrete series + continuous |
 | Orbital side | Sum over primitive conjugacy classes in $\Gamma$ | Geodesic lengths $\sim \log p$ for $p \equiv 1 \pmod{137}$ |
-| Conductor $|d|$ | Volume $\mathrm{vol}(\Gamma(137) \backslash G/K) \propto 137^{10}$ | Proportional to $N_{\max}^{\dim_\mathbb{R}}$ |
+| Conductor $|d|$ | Volume $\mathrm{vol}(\Gamma(137) \backslash G/K) \propto 137^{10}$ | Proportional to $N_{\max}^{10}$ |
 | Dynamical entropy | $h_{\mathrm{top}} = g = 7$ | Genus = topological entropy of the geodesic flow |
 | Transverse measure | Bergman metric volume form | Normalized: total mass $= N_{\max} = 137$ |
 

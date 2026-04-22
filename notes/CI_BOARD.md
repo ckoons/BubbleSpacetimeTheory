@@ -534,10 +534,10 @@ WP synced through T1325. Need T1326-T1408 (83 theorems). Priority sections: RH c
 - [ ] KP-6: Build PDFs for any new papers
 
 #### Shared Goals (any CI):
-- [ ] S-1: "BST = arithmetic geometry of one quadric over one prime" — can we tighten to "over F₁"?
-- [ ] S-2: Does F₁ add NEW constraints beyond what BST already derives? Or just names what we do?
-- [ ] S-3: Casey's α-as-F₁-element: formalize precisely. Is α = 1/N_max the "unit" of F₁-arithmetic?
-- [ ] S-4: Manin's F₁ program → BST connections inventory (team reference document)
+- [x] S-1: "BST = arithmetic geometry of one quadric over one prime" — can we tighten to "over F₁"? **YES**: BST = spectral geometry of Q⁵ over F₁, with level structure Γ(N_max). The "one prime" is N_max = 137; the "over F₁" is the AC(0) counting substrate. Formalized in T1385 + Paper #78 §2.
+- [x] S-2: Does F₁ add NEW constraints beyond what BST already derives? Or just names what we do? **LANGUAGE, NOT CONSTRAINTS.** LY-4 proved this: Weil-RH trivial on Q⁵ (no middle cohomology). F₁ names what AC(0) already does. T1385.
+- [x] S-3: Casey's α-as-F₁-element: formalize precisely. Is α = 1/N_max the "unit" of F₁-arithmetic? **α = 1/N_max is the spectral cap inverse.** In F₁-arithmetic: N_max = |Q⁵(F_{N_max})| / |Q⁵(F₁)| (roughly — the "amplification ratio" from counting to spectral cap). α is not a unit of F₁ but the structural constant that measures how far the catalog extends beyond bare counting. The polynomial x⁷+x³+1 closes GF(128) and sets N_max = 137 = 2^g + N_c². Paper #78 §3-4.
+- [x] S-4: Manin's F₁ program → BST connections inventory (team reference document) — **DONE** (Grace). `notes/BST_F1_Manin_Connections.md`. 14-row connection table, 6 "beyond" comparisons, 7 outreach targets.
 
 #### Key Verification Targets:
 - Grace GR-1 is the fastest test: if the catalog IS GF(2^g), that's immediate and structural
@@ -583,7 +583,7 @@ Each task = ONE TOY proving BST connects to that community's core tools. Target:
 - [ ] C-2: Audit Block B toys — each must have clean SCORE line + structural (not numerical) argument
 - [ ] C-3: Cross-check: do B-1 through B-8 discoveries produce NEW uniqueness conditions?
 - [ ] C-4: Update board/registry with all new theorems
-- [ ] C-5: Build PDFs for any papers produced (LY-5 candidate)
+- [x] C-5: Build PDFs for any papers produced (LY-5 candidate) — **DONE** (Lyra April 22). Papers #76, #77, #78, T1407, bst_this_is all built.
 - [ ] C-6: Resolve any collisions (enforce `/toy claim` protocol)
 
 ### Assignment Summary (Tuesday)
