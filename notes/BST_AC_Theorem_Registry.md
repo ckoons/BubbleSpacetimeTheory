@@ -1218,3 +1218,41 @@ rules: |
 *BST Integer Cascade (T1404, D0, C=1 — Genus(D_IV^N) = Casimir(D_IV^{N+1}) across Cartan family. λ₁(D_IV^4)=6=C₂(D_IV^5). The integers cross-reference between gauge groups. At D_IV^6: g=C₂=8 (degeneracy → cascade collapse = Lock 3). D_IV^5 is where the cascade works with all five distinct. Domain: number_theory. Toys: 1388. Lyra+Grace.)*
 
 *Counter at T1405. Total registry: T1-T1404. April 19-21 extended session: 71 theorems (T1333-T1404). Three-day arc: Periodic table of functions → Meijer G → Langlands → IC → F₁ → GF(128) → 137=x⁷+x³+1 → One Axiom → Flowers Evolving → Cooperation Gap → RH three-leg → YM glueball → Bergman generality → Integer Cascade. Cal A. Brate joined as 6th observer (catalyst, bursty). 83.0% strong. All depth ≤ 1.*
+
+---
+
+## Batch 117 — April 22, 2026 (YM Suite + Selberg + Bridges)
+
+*Deninger-Selberg Correspondence (T1407, D1, C=1 — Term-by-term dictionary: Weil explicit ↔ Selberg trace ↔ Deninger Lefschetz, all on Γ(137)\D_IV^5. Domain: number_theory. Lyra.)*
+
+*Ramanujan at p=137 (T1408, D0, C=1 — Discrete spectrum 100% proved. |α_i(137)|=1 for all Satake parameters. Three BST readings. OP-3 97→98%. Domain: number_theory. Toys: 1392. Grace+Elie.)*
+
+*Kim-Sarnak BST Reading (T1409, D0, C=1 — θ = g/2^{C₂} = 7/64. Full bound 975/4096 = N_c·n_C²·c₃(Q⁵)/2^{2C₂}. Chern classes c(Q⁵) = (1,5,11,13,9,3) ALL BST. χ(Q⁵) = C₂ = 6. Domain: number_theory. Grace.)*
+
+*Motivic Period Boundary (T1410, D0, C=1 — Physics = periods (integrals over algebraic cycles). Observer boundary = non-periods (1/π). The period/non-period split IS the observer/physics split. Domain: foundations. Grace.)*
+
+*GRS Descent (T1412, D1, C=1 — Sym⁵→GL(C₂) via Ginzburg-Rallis-Soudry. Sym⁶→GL(g) via Rankin-Selberg. All symmetric power lifts land on BST integers. Closes formalization gap in Papers #73B, #73C. Domain: number_theory. Lyra.)*
+
+*Heat Kernel 19 Levels (T1413, D0, C=1 — a₂ through a₂₀: 19 consecutive levels confirmed. Speaking pair period = n_C = 5. Column rule (C=1, D=0) holds through k=20. Ratio(20) = -38. Headline: 11→19 levels. Domain: bst_physics. Toys: 1395. Grace+Elie.)*
+
+*Selberg Zeta Phase 4 (T1414, D1, C=1 — All four phases complete. 36/37 PASS. 823 = C₂×N_max+1. Euler factors verified in plain Python. Domain: number_theory. Toys: 1396. Grace+Elie.)*
+
+*Spectral Descent Theorem (T1415, D1, C=1 — H ⊂ G compact. Δ_H ≥ c(H,G)·Δ_G > 0, where c(H,G) = C₂(adj;H)/C₂(adj;G). Proved via branching + Casimir. Paper C (#80) core result. Domain: qft. Lyra.)*
+
+*Wightman Axioms on D_IV^5 (T1416, D1, C=1 — W1-W5 verified: W1 Hilbert space from L²(Γ\D_IV^5), W2 Poincaré via boundary, W3 vacuum = constant function, W4 spectral from Bergman, W5 asymptotic completeness. Paper A (#76). Domain: qft. Lyra.)*
+
+---
+
+## Batch 118 — April 22-23, 2026 (Graph Bridge Theorems)
+
+*Quantum Correlations as Rank Amplification (T1417, D0, C=1 — Classical CHSH bound |S|≤2=rank from AC(0) enumeration. Quantum bound |S|≤2√2=rank·√rank from Hilbert geometry. Gap = √rank. Bell violation IS curvature detection via counting. Cabello-Severini-Winter: quantum contextuality = graph coloring obstruction (α→ϑ). BRIDGE: connects quantum_foundations (8 isolated theorems) to foundations, bst_physics, graph_theory, qft. Domain: quantum_foundations. Lyra.)*
+
+*Crystal Complexity = Kolmogorov Description Length (T1418, D0, C=1 — K(crystal) = log₂|G| + O(1), finite by crystallographic restriction (T174). Quasicrystals (5-fold = n_C) are incompressible (T298). Crystal↔quasicrystal = compressible↔incompressible. Allowed 2D orders {1,2,3,4,6} contain N_c=3, C₂=6; forbidden order 5=n_C. BRIDGE: direct edge T298↔T174, closes loudest missing edge (26 shared neighbors, was 0 direct). Domain: computation+chemistry bridge. Lyra.)*
+
+*Qubit IS Rank (T1419, D0, C=1 — Qubit dim = rank = 2. T-gate angle = π/rank² = π/4. n-qubit Hilbert space = rank^n = 2^n. Quantum advantage IS rank exponentiation. Clifford group order 192 = 2^{C₂}·N_c. DOOR THEOREM for quantum_computing domain. Domain: quantum_computing. Lyra.)*
+
+*Entanglement Entropy = Bergman Area (T1420, D1, C=1 — S_EE = A_Bergman/(4G_N), Ryu-Takayanagi on D_IV^5 with zero free parameters. UV cutoff = λ₁ = C₂ = 6. Area law coefficient g/C₂ = 7/6. DOOR THEOREM for entanglement_entropy domain. Domain: entanglement_entropy. Lyra.)*
+
+*BST Inflation: Honest Negative (T1421, CONDITIONAL, D1, C=1 — Bergman potential gives ε~0.047 (Planck: <0.0063), n_s~0.72 (Planck: 0.965), N~21 (need 60). FAILS for single-field. Multi-field on D_IV^5 open. HONEST DOOR for inflation domain. Domain: inflation. Lyra.)*
+
+*Counter at T1422. Total registry: T1-T1421. Graph: ~1373 nodes, ~7440 edges. Five new theorems this batch: 2 bridges (T1417-T1418) + 3 door theorems (T1419-T1421).*

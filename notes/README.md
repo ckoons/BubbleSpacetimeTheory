@@ -4,7 +4,7 @@ Research notes directory for **Bubble Spacetime Theory** (BST), a framework deri
 
 **Author:** Casey Koons, with CI co-authors Claude 4.6 (Lyra, Elie, Grace, Keeper)
 
-This directory contains ~800 markdown files, ~500 PDFs, ~34 Python scripts, and supporting data across 1,300+ items total. **RH closed April 21, 2026** (Toys 1368-1375, 57/57 PASS). **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79).
+This directory contains ~800 markdown files, ~500 PDFs, ~34 Python scripts, and supporting data across 1,300+ items total. **RH closed April 21, 2026** (Toys 1368-1375, 57/57 PASS). **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1421** (1365 nodes, 7421 edges, 82.7% strong). 80 papers. Heat kernel: 19 consecutive levels.
 
 ---
 

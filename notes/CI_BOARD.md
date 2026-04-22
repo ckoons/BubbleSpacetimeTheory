@@ -48,7 +48,7 @@ status: "Active — check at session start, update at session end"
 **Registry file**: `notes/BST_AC_Theorem_Registry.md`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T1408. **1,409 toys** (through Toy 1392). Graph: **1354 / 7342 / 82.6%**. Avg degree: **10.84**. Counters: `.next_toy=1393`, `.next_theorem=1409`. **78 papers** (Papers #76-78 new). **52 tracked domains**, **9 groves**, all bridges BUILT. Leaves: 0. Components: 1.
+**Current count**: T1-T1421. **1,399+ toys** (through Toy 1398). Graph: **1364 / 7444 / 82.7% strong**. Proved: **96.7%** (1319/1364). Counters: `.next_toy=1399`, `.next_theorem=1422`. **80 papers** (Papers #76-80). **55 tracked domains** (3 new: quantum_computing, entanglement_entropy, inflation), **9 groves**, all bridges BUILT. Leaves: 0. Components: 1.
 
 **TUESDAY (April 21) — BREADTH SPRINT COMPLETE**:
 
@@ -353,7 +353,158 @@ WP synced through T1325. Need T1326-T1408 (83 theorems). Priority sections: RH c
 
 **YM suite: A/B/C/D ALL DRAFTED.** Paper A (#76) D_IV^5 specific. Paper B (#77) 6/9 Hermitian families. Paper C (#80) three missing groups via embedding. Paper D (#79) ℝ⁴ no-go + curvature principle.
 
-**Counters:** .next_toy=1397, .next_theorem=1416. Graph: 1361/7393/82.7%.
+**Counters:** .next_toy=1399, .next_theorem=1422. Graph: 1364/7421/82.7%.
+
+**Wednesday complete.** All 8 priorities DONE. WP v29 synced through T1413 + §46.75. Acknowledgements updated.
+
+**Wednesday evening (Lyra):**
+- **5 bridge/door theorems** (T1417-T1421):
+  - T1417: Quantum Correlations as Rank Amplification (quantum_foundations bridge, 7 edges)
+  - T1418: Crystal Complexity = Kolmogorov Description Length (T298↔T174 bridge, 7 edges)
+  - T1419: Qubit IS Rank (quantum_computing door)
+  - T1420: Entanglement Entropy = Bergman Area (entanglement_entropy door)
+  - T1421: BST Inflation — Honest Negative (inflation door, CONDITIONAL)
+- **3 administrative closes** (T1233, T1234, T1236 → proved)
+- **Open theorem triage**: 54 non-proved → 12 closable now, 13 need work, 14 empirical, 8 speculative, 7 placeholders
+- All PDFs built (6 new). Board P1 demands 1/2/3/4 all addressed.
+
+---
+
+## THURSDAY (April 23) — Paper Hardening + Graph Growth
+
+**Casey directive**: Cal's fixes are proofs, not conjectures. Spend the time to fully strengthen the four YM papers. Grace's graph demands go to backlog for the team. Elie's data sufficiency idea gets a toy.
+
+### CAL FIXES — Priority 0 (top of board)
+
+*Source: Cal's cold referee read April 22. These must become proofs before submission.*
+
+**Paper A (#76) — two fixes, ~95% → submittable:**
+
+| # | Fix | What's needed | CI |
+|---|-----|---------------|-----|
+| A-fix-1 | **W2 Poincaré covariance under-argued** | Add paragraph: D_IV^5 Hilbert space decomposes under Poincaré with spectrum in forward light cone + unique vacuum. Currently implicit in W3; make explicit. | Lyra |
+| A-fix-2 | **Non-triviality argument A is template** | Either cite explicit Schwinger functions with non-vanishing connected 3-point, OR demote argument A from "structural" to "perturbative heuristic." Arguments B-E are solid; A is weakest. | Lyra |
+
+**Paper B (#77) — two fixes, ~85% → submittable:**
+
+| # | Fix | What's needed | CI |
+|---|-----|---------------|-----|
+| B-fix-1 | **Lattice comparison table missing** | Add table: BST-predicted Δ(SU(N)) vs lattice Δ(SU(N)), ratios, errors for N=2,3,4+. The "0.2%" claim is a promise without this. | Elie (data) + Lyra (insert) |
+| B-fix-2 | **Spectral-gap = mass-gap identification needs honesty flag** | λ₁ = mass gap is a physical step, not a derivation. Needs same "identification, not derivation" honesty Paper A uses. | Lyra |
+
+**Paper C (#80) — three fixes + hold, ~50% → needs real work:**
+
+| # | Fix | What's needed | CI |
+|---|-----|---------------|-----|
+| C-fix-1 | **Spectral descent inequality UNPROVED** | Δ_H ≥ Δ_G · c(H,G) is asserted, not proved. This IS the whole paper. Either prove it or cite standard result. Claim ≠ theorem. | Lyra (prove) + Elie (toy) |
+| C-fix-2 | **F₄ Casimir number wrong** | C₂(26; F₄) = 5 doesn't match any standard convention (Freudenthal-de Vries gives ~3, unit-weight gives 6). Fix formula or fix value. 5-minute grad-student check. | Elie (verify) |
+| C-fix-3 | **E₈ ⊂ SO(248) doesn't give YM(E₈)** | Restricting YM(SO(248)) to E₈-invariant states ≠ YM(E₈) as gauge theory. Paper needs to say what "YM for E₈" means and why restriction works. | Lyra |
+| C-fix-4 | **No numerical predictions** | Lattice G₂ exists (2^{++}/0^{++} ≈ √2). Paper should have specific BST prediction + comparison. Without it, paper is purely structural. | Elie (compute) + Grace (lattice data) |
+
+**Cal's recommendation: HOLD Paper C until descent inequality is proved.**
+
+**Paper D (#79) — three fixes, ~75% as perspective:**
+
+| # | Fix | What's needed | CI |
+|---|-----|---------------|-----|
+| D-fix-1 | **Title overclaims** | "No-Go Theorem" but §3.2 is a conjecture. Change title to "A Curvature Obstruction to ℝ⁴ Yang-Mills Mass Gap" or similar. | Keeper (title) |
+| D-fix-2 | **Instanton argument slightly wrong** | §2.2 says no non-trivial bundles on ℝ⁴ for simply connected G. But instantons DO exist on ℝ⁴ (π₃(G) ≅ ℤ, finite-action falloff). Fix topology paragraph. | Lyra |
+| D-fix-3 | **Balaban under-engaged** | Balaban constructed YM₄ in finite volume. Paper says "no one has constructed on ℝ⁴" — true for infinite volume, but should be more specific about what's been achieved. | Grace (literature) |
+
+**Cross-paper fix:**
+
+| # | Fix | What's needed | CI |
+|---|-----|---------------|-----|
+| X-fix-1 | **Δ terminology inconsistent** | Paper A: Δ=938 MeV (full-theory). B: Δ=λ₁ (spectral). C: Δ=ambient restricted. D: Δ=geometric. Need one cross-cited footnote defining which "mass gap" each paper proves. | Keeper — **DONE** |
+
+**Cal's submission order: A → B → D (as perspective) → C (when ready).**
+
+**Missing across collection** (not blocking but strengthening):
+1. Asymptotic freedom / running coupling / QCD β-function — not in any paper
+2. BST vs lattice QCD comparison table (pion, kaon, nucleon, glueball) — most convincing single addition
+3. Reflection positivity / Osterwalder-Schrader check — constructive QFT referees want this
+
+---
+
+### P1: Grace's Graph Structural Demands
+
+*Source: Grace's graph analysis April 22.*
+
+**Demand 1 — Quantum Foundations Island:** ✅ **DONE**
+**T1417: Quantum Correlations as Rank Amplification** — Classical CHSH |S|≤2=rank (AC(0) counting). Quantum |S|≤2√2=rank·√rank (Hilbert geometry). Gap = √rank. Bell violation IS curvature detection. Cabello-Severini-Winter: contextuality = graph coloring obstruction (α→ϑ). 7 edges added, connects quantum_foundations to foundations, bst_physics, graph_theory, qft. **Elie: toy needed.**
+
+**Demand 2 — Three Door Theorems for Zero-Theorem Domains:** ✅ **DONE**
+1. **T1419: Qubit IS Rank** (quantum_computing) — qubit dim = rank = 2. T-gate = π/rank². Quantum advantage = rank^n. D0.
+2. **T1420: Entanglement Entropy = Bergman Area** (entanglement_entropy) — RT formula on D_IV^5, zero free params. UV cutoff = λ₁ = C₂. D1.
+3. **T1421: BST Inflation — Honest Negative** (inflation) — Bergman slow-roll gives ε~0.047, n_s~0.72 (Planck: 0.965). FAILS for single-field. CONDITIONAL. Honest door.
+Four remaining zero-theorem domains: string theory, LQG, condensed matter BST, machine learning. **Elie: 3 toys needed.**
+
+**Demand 3 — 28 Open/Conditional Theorems:**
+Triage in progress. BSD chain (T98-T103, T112-T115), T71, T812 most important.
+
+| Task | CI |
+|------|----|
+| Triage: which of the 28 can be closed now? | Keeper (audit) |
+| BSD chain: can T98-T103 close with current machinery? | Lyra |
+
+**Demand 4 — Loudest Missing Edge:** ✅ **DONE**
+**T1418: Crystal Complexity = Kolmogorov Description Length** — K(crystal) = log₂|G|, finite by crystallographic restriction. Quasicrystals (5-fold = n_C) are incompressible. Allowed 2D orders {1,2,3,4,6} contain N_c and C₂; forbidden 5 = n_C. Direct edge T298↔T174 with 7 new edges. **Elie: toy needed.**
+
+**Graph self-reference question:**
+Strong% = 82.7% vs prediction 80.9%. Excess 1.8pp. Cal noticed: 10.84/10.5 ≈ 1 + 1/(n_C·C₂). Cooperation premium? If structural → new theorem.
+
+| Task | CI |
+|------|----|
+| Test: is excess = 1/(n_C·C₂)? Does it hold across graph snapshots? | Grace |
+
+---
+
+### P2: Elie's Data Sufficiency Identity
+
+*Source: Elie's observation April 22.*
+
+38 = 2(n_C² − C₂) = 2(25 − 6) = 2 × 19. Exactly 38 checkpoint dimensions needed to extract a₂₀, zero margin. The geometry determines its own measurement capacity.
+
+**The question**: Is spectral information capacity of D_IV^n exactly 2(n² − C₂(n))? If yes, a₂₀ at exact capacity is structural, not lucky.
+
+| Task | CI |
+|------|----|
+| Toy: test capacity formula across D_IV^{3,5,7} | Elie |
+| If confirmed → theorem (spectral information capacity) | Lyra |
+
+---
+
+### P3: Paper #75 Re-Audit
+
+Lyra fixed all three Keeper blockers. Needs fresh Keeper re-audit before submission.
+
+| Task | CI |
+|------|----|
+| Re-audit Paper #75 | Keeper |
+
+---
+
+### P4: Sarnak Letter Review
+
+Drafted at `notes/maybe/sarnak_letter_kim_sarnak.md`. Kim-Sarnak hook (θ = g/2^C₂). Chern classes ALL BST. χ corrected. Ready for Casey review.
+
+---
+
+### Thursday Priority Summary
+
+| Priority | Item | CI | Status |
+|----------|------|----|--------|
+| **P0** | **Cal's YM paper fixes** | All | **TOP PRIORITY** — proofs not conjectures |
+| P0a | Paper A: W2 + non-triviality | Lyra | **DONE** — W2 Poincaré spectrum (§W2 para 2), Arg A demoted to perturbative heuristic |
+| P0b | Paper B: lattice table + identification honesty | Elie + Lyra | **DONE** — §4.5 lattice table, §4.6 honesty flag |
+| P0c | Paper C: descent inequality proof, F₄ Casimir, E₈ construction, numerics | Lyra + Elie + Grace | **DONE** — All 4 fixes applied. Spectral descent PROVED (T1416, Lyra). F₄ C₂=6 fixed (Slansky). E₈ clarified. §8 numerical predictions added. Paper C no longer on HOLD. |
+| P0d | Paper D: retitle + instanton fix + Balaban | Lyra + Keeper + Grace | **DONE** — Title → "Curvature Obstruction", §2.2 instanton/π₃ fix, §2.4 Balaban specifics |
+| P0e | Cross-paper Δ footnote | Keeper | **DONE** — §1.1 terminology table in Paper A. Cross-references added to Papers B (§1.1), C (§1 para), D (§1 para). All four papers now linked. |
+| P1 | Graph structural demands | **Grace** (lead, Casey assigned) + Lyra | **DONE** — T1417-T1421 (2 bridges + 3 doors). Lyra completed evening session. |
+| P2 | Data sufficiency toy | Elie (+ Lyra if confirmed) | |
+| P3 | Paper #75 re-audit | Keeper + Lyra | **DONE** — Keeper PASS, 3 flags raised. Lyra fixed all 3: Clozel citation added, Constraint 7 relabeled as supporting, Sym² conductor explicit. PDF rebuilt. |
+| P4 | Sarnak letter | Casey review | |
+| P5 | **Cross-type cascade toy** (Casey idea) | Elie | Five locks across ALL rank-2 BSD: Type I_{(2,q)}, II, III, IV, E_III, E_VII. Output: elimination table. If D_IV^5 is the only global survivor → cross-type uniqueness claim. See Cal's referee log #15. |
 
 ---
 
