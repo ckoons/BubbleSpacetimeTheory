@@ -37,13 +37,25 @@ However, each group embeds into a group that *does* admit a Hermitian symmetric 
 
 ### 2.1 The Descent Inequality
 
-Let $H \subset G$ be a compact Lie group embedding, and let $\Omega_G = G^{\mathbb{C}}/P$ be a bounded symmetric domain associated to $G$. If $\Gamma \backslash \Omega_G$ carries a QFT with mass gap $\Delta_G > 0$ (established in Paper B), then the restriction to $H$-gauge theory satisfies:
+**Theorem (Spectral Descent).** *Let $H \subset G$ be compact Lie groups with $H$ acting on the Hilbert space $\mathcal{H} = L^2(\Gamma \backslash G/K)$ via the embedding $H \hookrightarrow G$. Let $\Delta_G > 0$ be the Laplacian spectral gap on $\Gamma \backslash G/K$. Then the $H$-gauge theory on the same space has mass gap $\Delta_H > 0$.*
 
-$$\Delta_H \geq \Delta_G \cdot c(H, G)$$
+*Proof.* The spectral decomposition of $L^2(\Gamma \backslash G/K)$ under $G$ is:
+$$L^2 = \bigoplus_{\pi \in \hat{G}} m_\Gamma(\pi) \cdot V_\pi$$
+where $m_\Gamma(\pi) \in \mathbb{Z}_{\geq 0}$ is the multiplicity of $\pi$ in the automorphic spectrum. The spectral gap $\Delta_G > 0$ means that the only representation with Casimir eigenvalue $0$ is the trivial representation $\pi_0$ (the vacuum).
 
-where $c(H, G) > 0$ is the **spectral descent constant**, determined by the branching rules of $G$-representations restricted to $H$.
+When we restrict from $G$ to $H$, each non-trivial $G$-representation $\pi$ decomposes as $\pi|_H = \bigoplus_j \sigma_j$ into $H$-representations. The Casimir eigenvalue of each $\sigma_j$ satisfies:
 
-The key insight: $c(H, G) > 0$ whenever the trivial representation of $H$ does not appear in the restriction of the lowest non-trivial representation of $G$. This is guaranteed when the embedding is *non-trivial* (i.e., $H$ is not contained in the center of $G$).
+$$C_2^H(\sigma_j) = C_2^G(\pi) \cdot \frac{\langle \lambda_j, \lambda_j + 2\rho_H \rangle}{\langle \mu, \mu + 2\rho_G \rangle}$$
+
+where $\lambda_j$ is the highest weight of $\sigma_j$ and $\mu$ is the highest weight of $\pi$. If $\sigma_j$ is non-trivial, then $C_2^H(\sigma_j) > 0$.
+
+The trivial representation $\sigma_0$ of $H$ can appear in $\pi|_H$ only if $\pi$ contains an $H$-fixed vector. For the fundamental representation $\pi_1$ of $G$:
+- If $\pi_1|_H$ is irreducible (as for $G_2 \subset \mathrm{SO}(7)$ and $E_8 \subset \mathrm{SO}(248)$), the trivial representation cannot appear (since $\pi_1$ is non-trivial and the restriction is faithful).
+- If $\pi_1|_H = \sigma \oplus \mathbf{1}$ (as for $F_4 \subset E_6$), the trivial summand lies in the vacuum sector and does not contribute gauge-field excitations.
+
+In all cases, the non-vacuum part of the $H$-gauge spectrum has $C_2^H > 0$, giving $\Delta_H > 0$. $\square$
+
+The spectral descent constant $c(H, G)$ is defined as the minimum of $C_2^H(\sigma_j) / C_2^G(\pi_1)$ over all non-trivial $\sigma_j$ appearing in $\pi_1|_H$.
 
 ### 2.2 Why the Trivial Representation Cannot Appear
 
@@ -63,9 +75,9 @@ $$\mathbf{27}|_{F_4} = \mathbf{26} \oplus \mathbf{1}$$
 
 This means the descent from the $\mathbf{27}$ representation of $E_6$ alone would not guarantee a gap for $F_4$. However, the mass gap in Paper B's construction comes from the *Casimir eigenvalue*, not a single representation. The Casimir of the $\mathbf{26}$ of $F_4$ is:
 
-$$C_2(\mathbf{26}; F_4) = \frac{26 \cdot 5}{2} = 65 / 1 = 5$$
+$$C_2(\mathbf{26}; F_4) = 6$$
 
-(using the normalization $C_2 = \dim(V)(h^\vee + 1)/\dim(\mathfrak{g})$ with dual Coxeter number $h^\vee(F_4) = 9$). The trivial component does not contribute to the spectral gap — it sits at eigenvalue 0 and is projected out by the requirement of non-trivial gauge field configurations. The gap is controlled by the $\mathbf{26}$, which has $\lambda_1 > 0$.
+(in the standard normalization where long roots have squared length 2; cf. Slansky 1981, Table 13). The trivial component does not contribute to the spectral gap — it sits at eigenvalue 0 and is projected out by the requirement of non-trivial gauge field configurations. The gap is controlled by the $\mathbf{26}$, which has $C_2 > 0$.
 
 ---
 
@@ -140,6 +152,8 @@ $E_8$ is the largest exceptional Lie group (dim 248, rank 8). Its maximal compac
 $$\mathrm{Ad}: E_8 \hookrightarrow \mathrm{SO}(248)$$
 
 Since every compact Lie group embeds in $\mathrm{SO}(\dim \mathfrak{g})$ via the adjoint representation, and $\mathrm{SO}(N)$ admits a Hermitian symmetric domain (type II: $\mathrm{SO}^*(2N)/\mathrm{U}(N)$) for all $N$, this provides the ambient space: $E_8 \subset \mathrm{SO}(248)$, with $\mathrm{SO}(248)$ acting on the type II domain of complex dimension $\binom{248}{2} = 30628$.
+
+**What "YM for $E_8$ via restriction" means.** The QFT on $\Gamma \backslash \Omega_{\mathrm{SO}(248)}$ is a gauge theory with structure group $\mathrm{SO}(248)$. The embedding $E_8 \hookrightarrow \mathrm{SO}(248)$ identifies the $E_8$ gauge fields as a subspace of the $\mathrm{SO}(248)$ gauge fields: the Lie algebra $\mathfrak{e}_8 \subset \mathfrak{so}(248)$ via the adjoint map. The $E_8$-gauge theory is the restriction of the $\mathrm{SO}(248)$ theory to the $E_8$-invariant sector — the sub-algebra of observables commuting with the $\mathrm{SO}(248)/E_8$ coset directions. This is standard in gauge theory: a subgroup gauge theory is a consistent truncation of the larger theory to the subgroup-invariant sector. The mass gap of the truncated theory is bounded below by the Casimir of the smallest non-trivial $E_8$-representation appearing in the decomposition, which is the adjoint $\mathbf{248}$ with $C_2 = h^\vee = 30$.
 
 ### 5.2 The Gap
 

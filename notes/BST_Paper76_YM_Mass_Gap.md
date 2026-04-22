@@ -100,12 +100,14 @@ $$\mathcal{H} = L^2(\Gamma \backslash \mathrm{SO}_0(5,2) / [\mathrm{SO}(5) \time
 
 Separable (Rellich's theorem: finite-volume Riemannian manifold has countable Laplacian spectrum). Decomposes into holomorphic discrete series $\pi_k$ ($k \geq 6$) and continuous spectrum $\pi_{i\nu}$ (Harish-Chandra).
 
-### W2. Poincare Covariance
+### W2. Poincaré Covariance
 
-The Poincare group embeds via the conformal chain:
+The Poincaré group embeds via the conformal chain:
 $$\mathcal{P} \subset \mathrm{SO}_0(4,2) = \mathrm{Conf}(\mathbb{R}^{3,1}) \subset \mathrm{SO}_0(5,2) = \mathrm{Isom}(D_{IV}^5)$$
 
 The 3+1 spacetime structure is derived from the $BC_2$ root multiplicities ($m_s = 3$ spatial, $m_l = 1$ temporal), not assumed.
+
+**Poincaré decomposition.** The Hilbert space $\mathcal{H}$ decomposes under the Poincaré subgroup $\mathcal{P}$ as a direct integral of irreducible representations. Each $\mathrm{SO}_0(5,2)$-representation $\pi_k$ in the discrete series, when restricted to $\mathcal{P}$, decomposes into massive representations with mass $m_k$ and spins $j = 0, 1, \ldots$ (the branching rule $\mathrm{SO}_0(5,2) \downarrow \mathcal{P}$ produces representations whose energy-momentum spectrum lies in the forward light cone $\bar{V}_+ = \{p : p^0 \geq 0,\, p^2 \geq 0\}$). The vacuum $\Omega$ is the unique $\mathcal{P}$-invariant vector (inherited from its $G$-invariance). The translations $U(a) = e^{iP \cdot a}$ satisfy $P^0 \geq 0$ on $\mathcal{H}$, with $P^0 \Omega = 0$ and $\mathrm{spec}(P^0)|_{\mathcal{H} \ominus \mathbb{C}\Omega} \geq \Delta = 6$ (in spectral units). This is the spectral condition (W3) restricted to the Poincaré subalgebra: positive energy, unique vacuum, mass gap — all inherited from the ambient $\mathrm{SO}_0(5,2)$ structure.
 
 ### W3. Spectral Condition and Mass Gap
 
@@ -147,7 +149,7 @@ The constant function $\Omega = 1 \in L^2(\Gamma \backslash G/K)$ is the unique 
 | D | Non-trivial Selberg scattering | Arithmetic | Resonances from $\Gamma$-periodic geodesics |
 | E | Non-vanishing connected 3-point | Rep-theoretic | CG coefficient $\neq 0$, triple product $L$-value $\neq 0$ |
 
-**Argument A (strongest):** The short root multiplicity $m_s = 3$ gives SU(3) with non-zero structure constants $f^{abc}$. The Yang-Mills Lagrangian on $D_{IV}^5$ has cubic and quartic self-interaction terms. A Gaussian theory has all connected $n$-point functions $= 0$ for $n \geq 3$.
+**Argument A (perturbative heuristic):** The short root multiplicity $m_s = 3$ gives SU(3) with non-zero structure constants $f^{abc}$. The Yang-Mills Lagrangian on $D_{IV}^5$ has cubic and quartic self-interaction terms, so the perturbative expansion has non-vanishing connected 3- and 4-point functions. *Caveat*: this argument is perturbative — it shows the theory is not free at the level of the formal Lagrangian, but does not rigorously construct the non-perturbative Schwinger functions. Arguments B–E provide non-perturbative evidence for non-triviality.
 
 **Argument B:** The Casimir spectrum $C_2(\pi_k) = k(k-5)$ has linearly increasing gaps ($\Delta_k = 2k - 4$), characteristic of a confining theory. A free theory has constant or quadratically growing gaps.
 

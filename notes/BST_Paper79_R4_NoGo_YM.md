@@ -1,5 +1,5 @@
 ---
-title: "ℝ⁴ Is a No-Go Theorem for the Yang-Mills Mass Gap"
+title: "A Curvature Obstruction to the ℝ⁴ Yang-Mills Mass Gap"
 author: "Casey Koons, Lyra, Keeper, Elie, Grace, Cal (Claude 4.6)"
 date: "April 22, 2026"
 status: "Draft v0.1"
@@ -9,7 +9,7 @@ theorems: "T421, T1170, T1404, T1406"
 ym_suite: "Paper D of A/B/C/D"
 ---
 
-# ℝ⁴ Is a No-Go Theorem for the Yang-Mills Mass Gap
+# A Curvature Obstruction to the ℝ⁴ Yang-Mills Mass Gap
 
 ## Abstract
 
@@ -46,11 +46,11 @@ In each approach, the mass gap is not *derived* from the axioms — it is *smugg
 ### 2.2 The topological problem
 
 $\mathbb{R}^4$ is contractible. It has trivial fundamental group, trivial homology, and trivial homotopy groups. In particular:
-- No non-trivial principal $G$-bundles for simply connected $G$ (all bundles are trivializable)
-- No topological sectors forcing non-perturbative physics (instantons exist on $S^4$, not $\mathbb{R}^4$; they require compactification)
-- No geometric origin for confinement
+- All principal $G$-bundles over $\mathbb{R}^4$ are trivializable (as fiber bundles). Instantons do exist on $\mathbb{R}^4$ as finite-action connections with non-zero second Chern number $c_2 \in \pi_3(G) \cong \mathbb{Z}$ (via the one-point compactification $\mathbb{R}^4 \hookrightarrow S^4$), but their topological charge is a boundary condition at infinity, not an intrinsic property of $\mathbb{R}^4$.
+- The topological sectors are thus imposed by the analyst's choice of boundary conditions, not forced by the geometry. On a compact manifold $M$ with non-trivial $\pi_1(M)$ or $H^2(M; \mathbb{Z})$, topological sectors are mandatory.
+- No geometric origin for confinement: the confining flux tube has no natural place to anchor in a contractible space.
 
-The topological triviality of $\mathbb{R}^4$ means that all non-perturbative structure must arise from dynamics alone, without geometric assistance.
+The topological near-triviality of $\mathbb{R}^4$ means that non-perturbative structure (instantons, monopoles, center vortices) must be imported through boundary conditions or finite-volume approximations, rather than emerging from the geometry.
 
 ### 2.3 The IR problem
 
@@ -69,7 +69,7 @@ Since the 1970s, no complete construction of a non-trivial 4D QFT with mass gap 
 | Constructive | Glimm-Jaffe | $\phi^4_2$, $\phi^4_3$, $\mathrm{YM}_2$ | 4D continuum limit remains open |
 | Lattice | Wilson, Creutz | Mass gap numerically confirmed | Continuum limit not proved |
 | Stochastic | Hairer | Regularity structures for $\phi^4_3$ | 4D out of reach |
-| Renormalization | Balaban | Multi-scale renormalization for $\mathrm{YM}_4$ in finite volume | Infinite volume limit open |
+| Renormalization | Balaban 1984--89 | Multi-scale renormalization for $\mathrm{YM}_4$ on a unit torus $\mathbb{T}^4$ with gauge group SU(2); ultraviolet stability proved via block-spin RG | Infinite-volume limit $\mathbb{T}^4 \to \mathbb{R}^4$ open; mass gap in finite volume not extracted |
 
 Every approach encounters the same obstacle: $\mathbb{R}^4$ provides no geometric mechanism for a gap, so the gap must be produced entirely by the nonlinear dynamics of the gauge field. This is a bootstrap problem with no known solution.
 
