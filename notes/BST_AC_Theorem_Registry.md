@@ -1256,3 +1256,13 @@ rules: |
 *BST Inflation: Honest Negative (T1421, CONDITIONAL, D1, C=1 — Bergman potential gives ε~0.047 (Planck: <0.0063), n_s~0.72 (Planck: 0.965), N~21 (need 60). FAILS for single-field. Multi-field on D_IV^5 open. HONEST DOOR for inflation domain. Domain: inflation. Lyra.)*
 
 *Counter at T1422. Total registry: T1-T1421. Graph: ~1373 nodes, ~7440 edges. Five new theorems this batch: 2 bridges (T1417-T1418) + 3 door theorems (T1419-T1421).*
+
+---
+
+## Batch 119 — April 23, 2026 (AC Closure Theorems)
+
+*Analytical Closure of T29 — Algebraic Independence via Discrete Curvature (T1425, PROVED (conditional on 1RSB for k=3), D0, C=1 — Closes T29. Parents: T1424, T28, T29. Domain: computation. Lyra.)*
+
+*T100 Closure — Spectral Permanence via Kudla (T1426, PROVED (~99%), D1, C=2 — Closes T100, T101, T103. Parents: T997, T99, T98, T104, T102. Domain: number_theory. Lyra.)*
+
+*Counter at T1427. Total registry: T1-T1426. Graph: ~1375 nodes, ~7455 edges. Two new theorems this batch: 2 closure theorems (T1425-T1426).*
