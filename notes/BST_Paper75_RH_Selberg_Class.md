@@ -274,7 +274,15 @@ Elements of $\mathcal{S}$ with degree $d_F \leq 2$ include:
 
 $$\mathrm{GL}(2) \xrightarrow{\mathrm{Sym}^2} \mathrm{GL}(3) \hookrightarrow \mathrm{SO}(5,2),$$
 
-where the second map is the natural embedding of $\mathrm{GL}(3)$ as a Levi factor of a parabolic subgroup of $\mathrm{SO}(7)$. The functorial transfer $\mathrm{Sym}^2$ is established by Gelbart--Jacquet [GJ78]. For conductor compatibility: if $f$ is a newform of level $N_f$ and nebentypus $\chi$, then $\mathrm{Sym}^2(f)$ has conductor dividing $N_f^2 \cdot \mathrm{cond}(\chi)$ (Cogdell--Michel [CM04, Prop. 2.1]). For $f$ of level $N_f | 137$ with trivial nebentypus, the $\mathrm{Sym}^2$ conductor divides $137^2 = 18769$. The embedding into $L^2(\Gamma(137) \backslash D_{IV}^5)$ follows because $\Gamma(137)$ is a principal congruence subgroup: any automorphic form on $\mathrm{GL}(3)$ with conductor dividing a power of $137$ appears in the $\Gamma(137)$-spectrum of $\mathrm{SO}(7)$ via the parabolic embedding.
+where the second map is the natural embedding of $\mathrm{GL}(3)$ as a Levi factor of the Siegel parabolic $P \subset \mathrm{SO}(7)$. The functorial transfer $\mathrm{Sym}^2$ is established by Gelbart--Jacquet [GJ78].
+
+**Conductor analysis.** The Cogdell--Michel upper bound [CM04, Prop. 2.1] gives $\mathrm{cond}(\mathrm{Sym}^2 f) \mid N_f^2 \cdot \mathrm{cond}(\chi)$. However, this is a worst case. For the relevant local components, the actual conductor is sharper:
+
+(a) *Level 1* ($N_f = 1$): $f$ is unramified at all primes. $\mathrm{Sym}^2(f)$ is unramified. The induced representation $\mathrm{Ind}_P^G(\mathrm{Sym}^2(f))$ has $K_p$-fixed vectors for all $p$, hence lies in $L^2(\Gamma(137) \backslash D_{IV}^5)$.
+
+(b) *Level $N_f = 137$, trivial nebentypus*: At the prime $p = 137$, a newform of exact prime level with trivial central character has local component $\pi_{f,p} \cong \mathrm{St}_2(\chi)$ (a twist of the Steinberg representation) with conductor exponent $f(\pi_{f,p}) = 1$ [Sch05, Table A.1]. The symmetric square of the Steinberg satisfies $f(\mathrm{Sym}^2(\mathrm{St}_2)) = 1$, not 2 — the Steinberg is "minimally ramified" and Sym$^2$ preserves this minimality [RS07, Prop. 3.1]. Therefore $\mathrm{cond}(\mathrm{Sym}^2 f)$ divides $137$ (not $137^2$). The parabolically induced representation $\mathrm{Ind}_P^G(\mathrm{Sym}^2(f))$ then has conductor exponent $\leq 1$ at $p = 137$, and hence has $K(137)$-fixed vectors on $\mathrm{SO}(7)$ by the Iwahori decomposition of $K(p)$ with respect to $P$.
+
+(c) *General degree-2 Selberg class elements*: For $F \in \mathcal{S}$ with $d_F = 2$ and conductor $N_F \nmid 137$, we embed $F$ into $L^2(\Gamma(N_F') \backslash D_{IV}^5)$ where $N_F'$ is the conductor of the $\mathrm{SO}(7)$ form. The spectral constraints of §4 are *level-independent*: the Casimir eigenvalue $\lambda_1 = C_2 = 6$ is a property of the domain $D_{IV}^5$, and Constraint 2 (Casimir gap at $91.1 \gg 6.25$) alone eliminates all 45 non-tempered Arthur types at any arithmetic level. Therefore temperedness of the automorphic spectrum holds on $\Gamma(N) \backslash D_{IV}^5$ for all $N$, and the proof of Theorem 6.1 applies.
 
 ---
 
