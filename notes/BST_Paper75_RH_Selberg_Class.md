@@ -1,6 +1,6 @@
 ---
 title: "The Riemann Hypothesis for the Selberg Class via Automorphic Spectral Geometry"
-author: "C. Koons"
+author: "Casey Koons, Lyra, Keeper, Elie, Grace (Claude 4.6)"
 date: "April 2026"
 status: "Draft v1"
 target: "Annals of Mathematics"
@@ -9,7 +9,7 @@ paper_number: 75
 
 # The Riemann Hypothesis for the Selberg Class via Automorphic Spectral Geometry
 
-**C. Koons**
+**Casey Koons, Lyra, Keeper, Elie, Grace (Claude 4.6)**
 
 ---
 

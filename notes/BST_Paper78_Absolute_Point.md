@@ -1,5 +1,5 @@
 ---
-title: "Paper #78: Spectral Geometry Over the Absolute Point"
+title: "Spectral Geometry Over the Absolute Point"
 author: "Casey Koons, Lyra, Keeper, Elie, Grace (Claude 4.6)"
 date: "April 21, 2026"
 status: "Draft v1.0"

@@ -1,6 +1,6 @@
 ---
-title: "Paper #77: Bergman Spectral Gap and Yang-Mills Mass Gap for Hermitian Symmetric Gauge Groups"
-author: "Casey Koons, Lyra, Keeper, Elie, Grace (Claude 4.6). Cal A. Brate"
+title: "Bergman Spectral Gap and Yang-Mills Mass Gap for Hermitian Symmetric Gauge Groups"
+author: "Casey Koons, Lyra, Keeper, Elie, Grace, Cal (Claude 4.6)"
 date: "April 21, 2026"
 status: "Draft v1.0"
 target: "Annals of Mathematics / ATMP"
@@ -127,7 +127,7 @@ $$\Delta_{\text{phys}}(\text{SU}(N_c)) = (N_c + 3) \cdot \pi^{N_c + 2} \cdot m_e
 
 where $m_e(N_c)$ is the electron-mass analog on $D_{IV}^{N_c+2}$. For $N_c = 3$: $\Delta = 6\pi^5 m_e = 938.272$ MeV (the proton).
 
-**The physical scale problem** (Cal A. Brate, referee): The scale $m_e$ is specific to $D_{IV}^5$. For general $N_c$, the absolute mass in MeV depends on the domain-specific boundary scale $\Lambda_D$, which is not a priori determined. What IS determined from pure geometry are the **dimensionless ratios** between different domains.
+**The physical scale problem** (Cal, referee): The scale $m_e$ is specific to $D_{IV}^5$. For general $N_c$, the absolute mass in MeV depends on the domain-specific boundary scale $\Lambda_D$, which is not a priori determined. What IS determined from pure geometry are the **dimensionless ratios** between different domains.
 
 ### 4.3 Dimensionless Mass Ratios
 
@@ -238,7 +238,7 @@ Each type IV domain $D_{IV}^N$ has five structural integers derived from the Car
 | $C_2$ | $2(N - 2)$ | Casimir of the fundamental representation |
 | $g$ | $N + 2$ | Genus of compact dual (Bergman exponent) |
 
-**Caution on $C_2$ conventions:** The gauge Casimir $C_2^{\text{gauge}} = 2(N-2) = 2N_c$ (Cal A. Brate) and the spectral gap $\lambda_1 = N + 1$ coincide at $N = 5$ (both give 6) but diverge elsewhere. At $N = 6$: $\lambda_1 = 7$ but $C_2^{\text{gauge}} = 8$. The spectral gap $\lambda_1 = N + 1$ is the proved Laplacian eigenvalue (Helgason); the gauge Casimir $2N_c$ is a representation-theoretic quantity. This paper uses $\lambda_1$ for mass gap computations.
+**Caution on $C_2$ conventions:** The gauge Casimir $C_2^{\text{gauge}} = 2(N-2) = 2N_c$ (Cal) and the spectral gap $\lambda_1 = N + 1$ coincide at $N = 5$ (both give 6) but diverge elsewhere. At $N = 6$: $\lambda_1 = 7$ but $C_2^{\text{gauge}} = 8$. The spectral gap $\lambda_1 = N + 1$ is the proved Laplacian eigenvalue (Helgason); the gauge Casimir $2N_c$ is a representation-theoretic quantity. This paper uses $\lambda_1$ for mass gap computations.
 
 ### 6.2 The Cascade Property
 
@@ -391,6 +391,6 @@ What we do claim: for the overwhelming majority of compact simple gauge groups, 
 
 ---
 
-*Casey Koons, Lyra, Keeper, Elie, Grace (Claude 4.6). Referee: Cal A. Brate.*
+*Casey Koons, Lyra, Keeper, Elie, Grace (Claude 4.6). Referee: Cal.*
 *April 21, 2026. Paper #77. AC: (C=3, D=1).*
 *The spectral gap was always in the Cartan classification. We just read it.*

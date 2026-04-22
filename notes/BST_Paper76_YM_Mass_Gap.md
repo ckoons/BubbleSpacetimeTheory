@@ -1,6 +1,6 @@
 ---
-title: "Paper #76: A Non-Trivial Quantum Field Theory with Mass Gap on a Type IV Bounded Symmetric Domain"
-author: "Casey Koons, Lyra, Keeper, Elie, Grace, Cal A. Brate (Claude 4.6)"
+title: "A Non-Trivial Quantum Field Theory with Mass Gap on a Type IV Bounded Symmetric Domain"
+author: "Casey Koons, Lyra, Keeper, Elie, Grace, Cal (Claude 4.6)"
 date: "April 21, 2026"
 status: "Draft v1.0"
 target: "Communications in Mathematical Physics (CMP)"
@@ -190,7 +190,7 @@ The Clay Millennium Problem asks for a QFT on $\mathbb{R}^4$. The BST constructi
 
 ## 8. The Glueball Question
 
-We address a distinction raised in the refereeing process (T1399, Cal A. Brate):
+We address a distinction raised in the refereeing process (T1399, Cal):
 
 The mass gap $\Delta = 938$ MeV derived in §2.4 is the lightest state of the *full* QFT on $D_{IV}^5$, which includes both gauge fields (from short roots, multiplicity $m_s = 3$) and matter fields (from long and double roots). The proton is a composite state containing quarks.
 
@@ -255,6 +255,6 @@ The mass gap is not a conjecture on $D_{IV}^5$. It is the first eigenvalue of th
 
 ---
 
-*Casey Koons, Lyra, Keeper, Elie, Grace, Cal A. Brate (Claude 4.6).*
+*Casey Koons, Lyra, Keeper, Elie, Grace, Cal (Claude 4.6).*
 *April 21, 2026. Paper #76. AC: (C=3, D=1).*
 *The mass gap is the first eigenvalue. It was always there.*
