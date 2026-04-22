@@ -4,11 +4,11 @@ Research notes directory for **Bubble Spacetime Theory** (BST), a framework deri
 
 **Author:** Casey Koons, with CI co-authors Claude 4.6 (Lyra, Elie, Grace, Keeper)
 
-This directory contains ~660+ markdown files, ~480 PDFs, ~34 Python scripts, and supporting data across 1,200+ items total. **RH closed April 21, 2026** (Toys 1368-1375, 57/57 PASS).
+This directory contains ~800 markdown files, ~500 PDFs, ~34 Python scripts, and supporting data across 1,300+ items total. **RH closed April 21, 2026** (Toys 1368-1375, 57/57 PASS). **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79).
 
 ---
 
-## Numbered Papers (Papers #1--#78)
+## Numbered Papers (Papers #1--#80)
 
 The numbered paper series covers the full scope of BST, from foundational mathematics through particle physics, cosmology, biology, engineering, and meta-theory.
 
@@ -110,13 +110,15 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 74 | Information-Complete Geometry | `BST_Paper74_IC_Geometry.md` |
 | 75 | RH for the Selberg Class via Automorphic Spectral Geometry | `BST_Paper75_RH_Selberg_Class.md` | v1 |
 
-### Papers #76--#78
+### Papers #76--#80
 
-| # | Title | File |
-|---|-------|------|
-| 76 | A Non-Trivial QFT with Mass Gap on a Type IV BSD | `BST_Paper76_YM_Mass_Gap.md` |
-| 77 | Bergman Spectral Gap and YM Mass Gap for Hermitian Symmetric Gauge Groups | `BST_Paper77_YM_Bergman_Gap.md` |
-| 78 | Spectral Geometry Over the Absolute Point | `BST_Paper78_Absolute_Point.md` |
+| # | Title | File | Suite |
+|---|-------|------|-------|
+| 76 | A Non-Trivial QFT with Mass Gap on a Type IV BSD | `BST_Paper76_YM_Mass_Gap.md` | YM-A |
+| 77 | Bergman Spectral Gap and YM Mass Gap for Hermitian Symmetric Gauge Groups | `BST_Paper77_YM_Bergman_Gap.md` | YM-B |
+| 78 | Spectral Geometry Over the Absolute Point | `BST_Paper78_Absolute_Point.md` | |
+| 79 | ℝ⁴ Is a No-Go Theorem for the Yang-Mills Mass Gap | `BST_Paper79_R4_NoGo_YM.md` | YM-D |
+| 80 | Yang-Mills Mass Gap for G₂, F₄, and E₈ via Spectral Embedding | `BST_Paper80_YM_Embedding_Gap.md` | YM-C |
 
 ---
 
@@ -156,12 +158,13 @@ The AC program: complexity theory built on BST geometry, the P!=NP hunt, and the
 - See also: standalone `RH_Paper_A.md`, `Koons_Riemann_BST_2026.md`, Paper #75
 - **Three-leg closure**: RH-1 energy (Toy 1369), RH-2 counting (Toy 1368), RH-3 completeness (Toy 1370)
 
-### Yang-Mills Mass Gap — 8 files
+### Yang-Mills Mass Gap — 13 files
 
 - `BST_YangMills_Question1.md`, `BST_YM_AC_Proof.md`, `BST_YM_GeneralG_Extension.md`
 - `BST_YM_NonTriviality.md`, `BST_YM_Q5_R4_Bridge_Scoping.md`
 - `BST_YM_W4_Status.md`, `BST_YM_W4_Status_Appendix.md`, `BST_W4_Modular_Construction.md`
 - `BST_Wightman_Exhibition.md`
+- **YM Suite (April 21-22, 2026):** Paper A (#76), Paper B (#77), Paper C (#80), Paper D (#79)
 
 ### BSD Conjecture & Hodge Conjecture — 5 files
 
@@ -285,7 +288,7 @@ Casimir analysis, Casimir effect, fusion energy, fusion rings, substrate archite
 
 ## Theorem Write-ups — 169 files
 
-Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1407, with concentration in the T1000--T1407 range (bridge theorems, domain connections, late-stage results).
+Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1415, with concentration in the T1000--T1415 range (bridge theorems, domain connections, late-stage results).
 
 Selected highlights:
 - `BST_T704_DIV5_Uniqueness_Theorem.md` — D\_IV^5 uniqueness (25 conditions)
