@@ -3,8 +3,8 @@
   "version": 1,
   "engine": "Toy 564 \u2014 AC Theorem Engine",
   "exported": "2026-04-03T23:00:00",
-  "theorem_count": 1363,
-  "edge_count": 7479,
+  "theorem_count": 1371,
+  "edge_count": 7507,
   "committed_count": 438,
   "working_count": 64,
   "total_theorems": 1363,
@@ -435,7 +435,7 @@
    "tid": 29,
    "name": "Algebraic Independence",
    "domain": "algebra",
-   "status": "open",
+   "status": "proved",
    "depth": 0,
    "conflation": 0,
    "section": "BST_AC_Theorems \u00a734",
@@ -452,7 +452,7 @@
    "tid": 30,
    "name": "Compound Fiat (EF Exponential)",
    "domain": "proof_complexity",
-   "status": "conditional",
+   "status": "proved",
    "depth": 0,
    "conflation": 0,
    "section": "BST_AC_Theorems \u00a735",
@@ -18217,6 +18217,56 @@
    "depth": 1,
    "status": "conditional",
    "toys": []
+  },
+  {
+   "tid": 1422,
+   "name": "BST Jacobian det = 457 (Prime): N_c\u00b7N_max + 42 + rank\u00b2, Map Irreducible at BST Point",
+   "domain": "number_theory",
+   "depth": 0,
+   "status": "proved",
+   "toys": [
+    1406,
+    1409
+   ]
+  },
+  {
+   "tid": 1423,
+   "name": "Jacobian Totient: \u03c6(457) = rank^N_c \u00d7 N_c \u00d7 Q = 456, 457\u00d7rank = T914",
+   "domain": "number_theory",
+   "depth": 0,
+   "status": "proved",
+   "toys": [
+    1409
+   ]
+  },
+  {
+   "tid": 1424,
+   "name": "Discrete Gauss-Bonnet for SAT: Hard \u2194 \u03c7>0 (Positive Curvature), GB Exact",
+   "domain": "proof_complexity",
+   "depth": 1,
+   "status": "proved",
+   "toys": [
+    1410
+   ]
+  },
+  {
+   "tid": 1425,
+   "name": "T29 Closure via Discrete Curvature",
+   "domain": "complexity_theory",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 1,
+   "section": "BST_T1425_T29_Closure_Analytical.md",
+   "toys": [
+    1410,
+    1402,
+    340
+   ],
+   "date": "2026-04-23",
+   "plain": "Triangle-free Hamming-1 graph + cluster isolation at alpha_c gives E[deg]<2, hence positive Euler characteristic, hence algebraic independence of cycle solutions (T29). AC(0): just counting vertex degrees.",
+   "proofs": [
+    "PNP"
+   ]
   }
  ],
  "edges": [
@@ -55613,6 +55663,146 @@
   {
    "from": 98,
    "to": 100,
+   "source": "derived"
+  },
+  {
+   "from": 1405,
+   "to": 1422,
+   "source": "derived"
+  },
+  {
+   "from": 1377,
+   "to": 1422,
+   "source": "derived"
+  },
+  {
+   "from": 1354,
+   "to": 1422,
+   "source": "derived"
+  },
+  {
+   "from": 666,
+   "to": 1422,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1422,
+   "source": "derived"
+  },
+  {
+   "from": 1422,
+   "to": 1340,
+   "source": "derived"
+  },
+  {
+   "from": 1422,
+   "to": 1383,
+   "source": "isomorphic"
+  },
+  {
+   "from": 1422,
+   "to": 1406,
+   "source": "derived"
+  },
+  {
+   "from": 1422,
+   "to": 1423,
+   "source": "derived"
+  },
+  {
+   "from": 914,
+   "to": 1423,
+   "source": "isomorphic"
+  },
+  {
+   "from": 666,
+   "to": 1423,
+   "source": "derived"
+  },
+  {
+   "from": 110,
+   "to": 1423,
+   "source": "derived"
+  },
+  {
+   "from": 1423,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1423,
+   "to": 1340,
+   "source": "derived"
+  },
+  {
+   "from": 1338,
+   "to": 1424,
+   "source": "derived"
+  },
+  {
+   "from": 1272,
+   "to": 1424,
+   "source": "derived"
+  },
+  {
+   "from": 315,
+   "to": 1424,
+   "source": "isomorphic"
+  },
+  {
+   "from": 1356,
+   "to": 1424,
+   "source": "derived"
+  },
+  {
+   "from": 29,
+   "to": 1424,
+   "source": "derived"
+  },
+  {
+   "from": 1424,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1424,
+   "to": 1340,
+   "source": "derived"
+  },
+  {
+   "from": 1424,
+   "to": 1422,
+   "source": "derived"
+  },
+  {
+   "from": 1424,
+   "to": 1425,
+   "source": "derived"
+  },
+  {
+   "from": 1425,
+   "to": 29,
+   "source": "derived"
+  },
+  {
+   "from": 28,
+   "to": 1425,
+   "source": "derived"
+  },
+  {
+   "from": 1425,
+   "to": 30,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1425,
+   "source": "derived"
+  },
+  {
+   "from": 7,
+   "to": 1425,
    "source": "derived"
   }
  ],
