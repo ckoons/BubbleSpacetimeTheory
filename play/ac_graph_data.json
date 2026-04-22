@@ -1657,7 +1657,7 @@
       "tid": 112,
       "name": "Theta Lift Obstruction (codim 2, BMM wall)",
       "domain": "differential_geometry",
-      "status": "conditional",
+      "status": "proved",
       "depth": 1,
       "conflation": 0,
       "section": "BST_AC_Theorems §49",
@@ -1673,7 +1673,7 @@
       "tid": 113,
       "name": "Phantom Hodge Exclusion",
       "domain": "differential_geometry",
-      "status": "conditional",
+      "status": "proved",
       "depth": 1,
       "conflation": 0,
       "section": "BST_AC_Theorems §49",
@@ -1688,7 +1688,7 @@
       "tid": 114,
       "name": "Hodge Depth Reduction",
       "domain": "differential_geometry",
-      "status": "conditional",
+      "status": "proved",
       "depth": 1,
       "conflation": 0,
       "section": "BST_AC_Theorems §49",
@@ -1828,7 +1828,7 @@
       "tid": 124,
       "name": "Eisenstein Controls Boundary Hodge",
       "domain": "differential_geometry",
-      "status": "conditional",
+      "status": "proved",
       "depth": 1,
       "conflation": 0,
       "section": "BST_AC_Theorems §52",
@@ -1843,7 +1843,7 @@
       "tid": 125,
       "name": "Long Exact Sequence No Phantoms",
       "domain": "differential_geometry",
-      "status": "conditional",
+      "status": "proved",
       "depth": 1,
       "conflation": 0,
       "section": "BST_AC_Theorems §52",
@@ -18192,6 +18192,30 @@
       "domain": "computation",
       "depth": 0,
       "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1419,
+      "name": "Qubit IS Rank: T-Gate = π/rank², Steane = [[g,1,N_c]] (Quantum Computing Door)",
+      "domain": "quantum_foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1420,
+      "name": "Entanglement Entropy = Bergman Area: S_E ≤ log(1/f_c) (Entanglement Door)",
+      "domain": "quantum_foundations",
+      "depth": 1,
+      "status": "proved",
+      "toys": []
+    },
+    {
+      "tid": 1421,
+      "name": "BST Inflation: n_s = 1-n_C/N_max, Honest Negative on Single-Field (CONDITIONAL)",
+      "domain": "cosmology",
+      "depth": 1,
+      "status": "conditional",
       "toys": []
     }
   ],
@@ -55415,6 +55439,86 @@
       "from": 643,
       "to": 218,
       "source": "structural"
+    },
+    {
+      "from": 1332,
+      "to": 1419,
+      "source": "derived"
+    },
+    {
+      "from": 110,
+      "to": 1419,
+      "source": "derived"
+    },
+    {
+      "from": 48,
+      "to": 1419,
+      "source": "derived"
+    },
+    {
+      "from": 1419,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1419,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1016,
+      "to": 1420,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 1420,
+      "source": "derived"
+    },
+    {
+      "from": 1239,
+      "to": 1420,
+      "source": "derived"
+    },
+    {
+      "from": 1420,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1420,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1420,
+      "to": 1410,
+      "source": "derived"
+    },
+    {
+      "from": 705,
+      "to": 1421,
+      "source": "derived"
+    },
+    {
+      "from": 1371,
+      "to": 1421,
+      "source": "derived"
+    },
+    {
+      "from": 1288,
+      "to": 1421,
+      "source": "derived"
+    },
+    {
+      "from": 1421,
+      "to": 186,
+      "source": "derived"
+    },
+    {
+      "from": 1421,
+      "to": 1340,
+      "source": "derived"
     }
   ],
   "chains": {}

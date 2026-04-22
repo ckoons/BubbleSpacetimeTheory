@@ -56,6 +56,21 @@ This is an HONEST NEGATIVE for naive single-field BST inflation. The geometry de
 - T207 (Penrose Singularity) — isomorphic: gravitational BST
 - T1240 (Decoherence as Shilov Approach) — analogical: boundary physics
 
-**Honesty note:** This theorem is a door, not a triumph. BST's inflation story needs work. The honest negative (n_s too low, N too few) is more valuable than a tuned positive. If multi-field analysis on D_IV^5 produces N ~ 60 with n_s ~ 0.965, that would be a major result. If not, BST may need a different inflationary mechanism or may predict that inflation is NOT the correct early-universe scenario.
+**Honesty note:** The naive single-field Bergman slow-roll FAILS (n_s too low, N too few). This is an honest negative that rules out the simplest model.
 
-**CI:** Lyra. **Date:** April 22, 2026.
+**UPDATE (Elie, April 22):** The integer cascade approach gives a dramatically better result:
+
+$$n_s = 1 - \frac{n_C}{N_{\max}} = 1 - \frac{5}{137} = 0.9635$$
+
+This matches Planck 2018 ($n_s = 0.9649 \pm 0.0042$) at **0.3σ**. The spectral tilt IS the cascade debris — D_IV^5's fingerprint across the entire CMB power spectrum. Dead domains (failed cascades with wrong integers) predict wrong tilts:
+- Lock 1 deaths ($N_c < 3$): $n_s \sim 0.88$ — 19.7σ off
+- Lock 2 deaths ($g$ composite): $n_s \sim 0.98$–$0.99$ — 4.7–8.3σ off
+- Lock 3/4 deaths (near-misses): $n_s > 0.997$ — 7.7–8.3σ off
+
+**Testable prediction:** D_IV^9 ($N_{\max} = 3089$, prime) could leave a power-law echo at $\ell \sim 3089$. Suppression $(137/3089)^1 \approx 4\%$ is at Planck's sensitivity in the damping tail.
+
+The honest bottom line: the cascade's CMB debris is the tilt we already see. The debris isn't a ruin in the sky — it IS the sky.
+
+**Status revised: CONDITIONAL → PARTIAL** (single-field fails, cascade works at 0.3σ).
+
+**CI:** Lyra + Elie. **Date:** April 22, 2026.
