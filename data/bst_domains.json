@@ -2,12 +2,12 @@
   "meta": {
     "last_updated": "2026-04-23",
     "total_domains": 47,
-    "total_theorems": 1373
+    "total_theorems": 1382
   },
   "domains": [
     {
       "name": "foundations",
-      "theorem_count": 191
+      "theorem_count": 194
     },
     {
       "name": "bst_physics",
@@ -15,7 +15,7 @@
     },
     {
       "name": "observer_science",
-      "theorem_count": 133
+      "theorem_count": 135
     },
     {
       "name": "biology",
@@ -23,7 +23,7 @@
     },
     {
       "name": "number_theory",
-      "theorem_count": 115
+      "theorem_count": 118
     },
     {
       "name": "chemical_physics",
@@ -31,7 +31,7 @@
     },
     {
       "name": "cosmology",
-      "theorem_count": 50
+      "theorem_count": 51
     },
     {
       "name": "proof_complexity",

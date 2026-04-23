@@ -153,6 +153,9 @@ def cmd_explore(data, integer_name):
     """Show everything that uses a given BST integer."""
     integer_name = integer_name.strip()
     valid = {'rank', 'N_c', 'n_C', 'C_2', 'g', 'N_max'}
+    if not integer_name:
+        print(f"  Usage: explore <integer>  (valid: {', '.join(sorted(valid))})")
+        return
     if integer_name not in valid:
         print(f"  Unknown integer '{integer_name}'. Valid: {', '.join(sorted(valid))}")
         return
@@ -196,19 +199,22 @@ def cmd_derive(data, query):
 def cmd_domain(data, query):
     """Show all constants and predictions in a domain."""
     query = query.strip().lower()
+    if not query:
+        print("  Usage: domain <name>")
+        return
     if not data['domains']:
         print("  No domains data loaded.")
         return
     matches = [d for d in data['domains']['domains']
-               if query in d['name'].lower() or query in d.get('ac_graph_name', '').lower()]
+               if query in d.get('name', '').lower() or query in d.get('ac_graph_name', '').lower()]
     if not matches:
         print(f"  No domain matching '{query}'.")
         return
     for dom in matches[:3]:
         print(f"\n{'='*60}")
-        print(f"  {BOLD}{dom['name']}{RESET}  ({dom['theorem_count']} theorems)")
+        print(f"  {BOLD}{dom.get('name', '?')}{RESET}  ({dom.get('theorem_count', '?')} theorems)")
         print(f"{'='*60}")
-        print(f"  {dom['description']}")
+        print(f"  {dom.get('description', '')}")
         if dom.get('key_results'):
             print(f"\n  Key results:")
             for r in dom['key_results']:

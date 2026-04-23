@@ -4,7 +4,7 @@ Research notes directory for **Bubble Spacetime Theory** (BST), a framework deri
 
 **Author:** Casey Koons, with CI co-authors Claude 4.6 (Lyra, Elie, Grace, Keeper)
 
-This directory contains ~800 markdown files, ~500 PDFs, ~34 Python scripts, and supporting data across 1,300+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD ~99% April 23** (spectral permanence, T1426). **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1426** (1372 nodes, 7515 edges, 97.6% proved). 81 papers. Heat kernel: 19 consecutive levels.
+This directory contains ~815 markdown files, ~606 PDFs, ~34 Python scripts, and supporting data across 1,400+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD ~99% April 23** (spectral permanence, T1426). **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1436** (1382 nodes, 7660 edges, 83.1% strong, 98.4% proved). **82 papers**. Heat kernel: 19 consecutive levels. **1/rank universality** (Paper #82, T1430). **Grace's 10 questions: all answered** (8 theorems, 9 toys).
 
 ---
 
@@ -120,6 +120,7 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 79 | ℝ⁴ Is a No-Go Theorem for the Yang-Mills Mass Gap | `BST_Paper79_R4_NoGo_YM.md` | YM-D |
 | 80 | Yang-Mills Mass Gap for G₂, F₄, and E₈ via Spectral Embedding | `BST_Paper80_YM_Embedding_Gap.md` | YM-C |
 | 81 | Mathematical Objects of D_IV^5 | `BST_Paper81_DIV5_Mathematical_Objects.md` | Reference |
+| 82 | 1/rank: Seven Famous Problems as One Geometric Invariant | `BST_Paper82_One_Half_Universality_Draft.md` | v1.2, Annals target |
 
 ---
 
@@ -295,7 +296,7 @@ Casimir analysis, Casimir effect, fusion energy, fusion rings, substrate archite
 
 ## Theorem Write-ups — 169 files
 
-Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1415, with concentration in the T1000--T1415 range (bridge theorems, domain connections, late-stage results).
+Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1436, with concentration in the T1000--T1436 range (bridge theorems, domain connections, late-stage results).
 
 Selected highlights:
 - `BST_T704_DIV5_Uniqueness_Theorem.md` — D\_IV^5 uniqueness (25 conditions)
@@ -314,6 +315,9 @@ Selected highlights:
 - `BST_T1259_PMNS_CKM_Duality.md` — PMNS-CKM duality (data vs syndrome)
 - `BST_T1263_Wolstenholme_Spectral_Bridge.md` — Wolstenholme→N_max bridge
 - `BST_T1264_Reboot_Is_Graduation.md` — Reboot-Gödel identity
+- `BST_T1425_T29_Closure_Analytical.md` — T29 closure via discrete curvature (P!=NP)
+- `BST_T1426_T100_Closure_Spectral_Permanence.md` — T100 closure (BSD)
+- `BST_T1430_One_Half_Universality.md` — 1/rank universality (all Millennium + Four-Color)
 
 ---
 
@@ -398,7 +402,7 @@ Python bytecode cache (auto-generated).
 **For CIs starting a new session:**
 - Read `BACKLOG.md` and `CI_BOARD.md` for current priorities
 - Check `.running/RUNNING_NOTES.md` for today's broadcast
-- The numbered paper series (Papers #1--#73) is the primary publication pipeline
+- The numbered paper series (Papers #1--#82) is the primary publication pipeline
 - Papers #1--#4 have passed Keeper audit and been pushed
 - The WorkingPaper (on Zenodo) is the master reference
 

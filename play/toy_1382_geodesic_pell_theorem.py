@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Toy 1386 -- The Geodesic Pell Theorem
+Toy 1382 -- The Geodesic Pell Theorem
 ======================================
 
 On Gamma(137) \\ D_IV^5, the shortest closed geodesic is determined by
@@ -31,7 +31,7 @@ g = 7
 N_max = 137
 
 print("=" * 70)
-print("Toy 1386 -- The Geodesic Pell Theorem")
+print("Toy 1382 -- The Geodesic Pell Theorem")
 print("=" * 70)
 print()
 

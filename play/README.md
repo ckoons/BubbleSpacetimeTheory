@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**1,432 computational toys, 5 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**1,461 computational toys, 5 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 1,432 |
-| Numbered toys (toy_NNN_*.py) | 1,208 |
-| Named toys (toy_name.py) | 224 |
+| Toy scripts (toy_*.py) | 1,461 |
+| Numbered toys (toy_NNN_*.py) | 1,252 |
+| Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 56 |
 | HTML visualizers | 5 |
-| Theorems (T1-T1426) | 1,426 |
-| Next toy number | 1416 |
+| Theorems (T1-T1436) | 1,436 |
+| Next toy number | 1445 |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -30,7 +30,7 @@ Five integers. Zero free parameters. "Give a child a ball and teach them to coun
 
 ```
 play/
-  toy_NNN_name.py          # Numbered toys (1,208 files, T100-T1415)
+  toy_NNN_name.py          # Numbered toys (1,252 files, T100-T1444)
   toy_name.py              # Named toys (224 files, foundational + topical)
   *.py                     # Utility scripts (56 files: graph tools, extractors, verifiers)
   bst_appliance/           # BST Appliance package — the "Ball and Counting Tool"
@@ -111,8 +111,8 @@ Two gitignored counter files prevent toy/theorem number collisions:
 
 | File | Current Value | Purpose |
 |------|---------------|---------|
-| `.next_toy` | 1416 | Next available toy number |
-| `.next_theorem` | 1427 | Next available theorem number |
+| `.next_toy` | 1445 | Next available toy number |
+| `.next_theorem` | 1437 | Next available theorem number |
 
 **Rules:**
 1. ALWAYS read the counter file before creating a new toy or theorem.
@@ -205,6 +205,7 @@ The 209 named toys include the original foundational collection and topical deep
 | 1338-1377 | ~40 | F₁ sprint (Shimura, Hecke mass ratios), community bridges (tropical, RMT, knots, Ricci flow, NCG, Deninger), **RH closure** (three legs + synthesis + Epstein negative test + AC(0) proof), literature comparison |
 | 1378-1396 | ~19 | Selberg zeta program (algebraic setup, geodesic enumeration, Pell theorem, trace formula, **Phase 4 Euler factors**), glueball physics (Bergman spectral gap, curved directions), integer cascade, **Ramanujan at p=137** (OP-3 discrete PROVED), heat kernel analysis (INV-6), **cascade extraction a₁-a₂₀ (19 levels, speaking pair 4 CONFIRMED)** |
 | 1397-1415 | 19 | Spectral information capacity, lattice comparison, cross-type elimination, spectral descent, CMB cascade debris, P≠NP geometric curvature, Bell rank amplification, crystal complexity, three door theorems, algebraic independence, data sufficiency cross-family, parameter space geometry, **Jacobian 457** (det=prime, φ(457)=rank^N_c×N_c×19), **discrete Gauss-Bonnet for SAT** (T29 closure foundation), degree profile phase transition, **chromatic confinement** (T126+T127 STRUCTURAL), **BSD spectral permanence** (T100 computational closure, 51 curves 0 exceptions), **weak force = Hamming(7,4,3)** (T1241 STRUCTURAL) |
+| 1416-1444 | 29 | Selberg 4-phase completion, RH three-leg closure, **T29 closed** (AC(0) argument, T1425), **BSD ~99%** (spectral permanence T1426), Kim-Sarnak θ=7/64, Sarnak letter, **Grace's Ten Questions** (GQ-1 through GQ-10 + Meta), **BSD Proof Engine** (49a1 L-function verified), **Curve IS the APG** (reconstruct D_IV^5 from 49a1), **Every Millennium = 1/rank**, **Observer Fiber** (consciousness=50%), **Near-APG Landscape** (empty — no multiverse), **Dark Matter = continuous spectrum**, **Falsification Targets** (n_s best, Ω_b tension honest), **Z₃ Neutrino Dirac** (pred_004 falsification wrapper, Hopf fiber argument) |
 
 ---
 

@@ -40,6 +40,8 @@
 
 One object — the type IV bounded symmetric domain D_IV⁵ = SO₀(5,2)/[SO(5)×SO(2)] — determines everything. Its rank gives you quantum numbers. Its Bergman kernel gives you propagators. Its Plancherel measure gives you the particle spectrum. Its Shilov boundary gives you spacetime. Its root system gives you forces. Five integers fall out. The rest is computation.
 
+**Name:** D_IV⁵ is an **Autogenic Proto-Geometry (APG)** — a geometry that generates itself. The five integers are its genome. The 128-entry function catalog is its proteome. The observer at α = 1/137 is included structurally. BST is the theory; APG is the object. See `notes/BST_Autogenic_Proto_Geometry_Definition.md` for the formal definition.
+
 The mathematics is independently verifiable. Load `data/bst_seed.md`, evaluate any formula, compare to observation. Every toy in `play/` does exactly this.
 
 ---

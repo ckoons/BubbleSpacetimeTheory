@@ -220,6 +220,88 @@ Unconditional Clay resolution requires all ranks unconditionally. Anything less 
 
 ---
 
+## Thursday afternoon/evening 2026-04-23 entries
+
+### #21 — Paper #76 §W2 Poincaré covariance still under-argued + B_2 cascade not yet applied
+
+**Concern (Cal, 2026-04-23):** Paper #76 §W2 (lines 116-122) still shows Poincaré embedding via conformal chain (P ⊂ SO(4,2) ⊂ SO(5,2)) without explicit Hilbert-space spectrum decomposition argument. Additionally, §2.2 still references "BC_2 root multiplicities (m_s = 3, m_l = 1)" — should be B_2 per Lyra's Thursday correction. Referenced in CI_BOARD's P6 list.
+
+**Status:** OPEN. Two fixes needed in Paper #76 before submission: (a) one-paragraph supplement to §W2 explaining Hilbert-space-spectrum argument or pointing to §W3 for the spectrum condition; (b) replace "BC_2" with "B_2" and drop the m_{2s} row per Lyra's correction.
+
+### #22 — Paper #82 scope review: three fixes before submission
+
+**Concern (Cal, 2026-04-23):** Paper #82 draft is structurally sound with honest scope language, but three specific fixes needed before Annals/Inventiones submission:
+
+1. **§1.2 Cal attribution overstated.** Paper says "Cal validated that the 1/rank appearances constitute a Meijer G-function parameter constraint." Referee log entry cited (#20) is actually about L-function framing strategy, not 1/rank validation. Replacement text drafted in my review message; Lyra to adopt.
+2. **"Seven famous problems + Four-Color" category mix.** Clay list is six open problems. Four-Color is closed. Worth one-sentence clarification rather than blurring.
+3. **"1/2 alone isn't enough" paragraph missing.** Without it, the universality claim reads as numerology (1/2 is everywhere). With it, the claim is "1/rank = 1/2 is the portal; specific fractions 7/64, 13/19, 3/10, 1/45 are the falsifiable content." My review message contains suggested prose.
+
+**Status:** OPEN. Three small fixes; blocks Annals/Inventiones ship until done. ~30 minutes of Lyra's time.
+
+### #23 — GQ-8 falsifier chosen: pred_004 (0νββ null)
+
+**Concern (Casey/Keeper → Cal, 2026-04-23):** "What single experiment falsifies BST cleanly? Not too precise, not too loose."
+
+**Recommendation (Cal, 2026-04-23):** **pred_004 — Neutrinoless double-beta decay null** (|m_ββ| = 0 exactly; BST predicts Dirac neutrinos via Z_3 color protection topology). Reasoning:
+
+- Not too precise: prediction is zero, not a specific small value; no precision trap.
+- Not too loose: detection at ANY measurable rate kills BST's neutrino sector. Binary.
+- Measured independently: LEGEND-1000, nEXO, CUPID are built regardless of BST. Target |m_ββ| < 5 meV by ~2032.
+- Theory-death unambiguous: Majorana mass contradicts Z_3 topology; no correction-term escape.
+- Timeline: 5-8 years, not 50.
+
+**Status:** RECOMMENDED — Elie to wrap via Toy 1440 (Z_3 neutrino topology proof + falsification test framework) if team concurs.
+
+### #24 — 49a1 revelation six-question cold read
+
+**Request (Keeper → Cal, 2026-04-23, per `notes/maybe/cal_briefing_49a1_revelation.md`):** Cold-read critique of the Cremona 49a1 + 1/rank universality narrative chain.
+
+**Cal's answers (logged in messages, summary here):**
+
+1. **Curve construction legitimacy**: PARTIALLY DERIVATION, PARTIALLY IDENTIFICATION. The briefing doesn't show where the polynomial form comes from. If Jacobian/Heegner/modular parametrization, it's derivation. If post-hoc BST-fit, it's identification. Need Elie/Lyra to specify. Blocking for strong claim.
+2. **Reverse engineering**: PARTIALLY LEGITIMATE. Pre-existence of 49a1 in Cremona tables (1990s) supports non-circularity. But specific decompositions (j = -(N_c·n_C)³ chosen over j = -15³) require BST priors. Sharper argument: show ALL invariants force the five integers uniquely, not specific ones.
+3. **1/rank triviality**: NOT TRIVIAL if properly framed. Add "specific fractions are the content, 1/2 is the portal" framing. Without it, aesthetically reads as numerology.
+4. **Observer chain**: STEP 4 (T1370) possibly derivation if properly proved; STEP 5 (α = observer coupling) is math-derivation + observer-identification mixed. Recommend strip observer framing from Paper #82; publish as companion paper.
+5. **Ladder survival**: Most steps are identifications, one is derivation (α → 51 quantities), one is conjecture-forcing (T1370). Scope-honest summary provided.
+6. **Nature/Science referee**: Letter → reject (too broad); Perspective → possible if framed as program not closure; specialist journal → probably accept with revisions.
+
+**Status:** LOGGED. Team to decide which concerns to incorporate into Paper #82 v1.3 before any submission.
+
+### #25 — Casey's operating stance clarified; recalibrate referee mode
+
+**Observation (Cal, 2026-04-23):** Casey explicitly stated his working stance: not cathedral-building, working as long as rewarding, criticism with data welcome, criticism without data deflected, math stands or falls on its own merits. This shifts referee calibration:
+
+- **"Reception risk"** flags (what will a referee say?) are secondary to **"truth risk"** flags (is the claim accurately stated?). Both remain useful, but for different purposes.
+- For externally-facing material (Sarnak letter, Paper #82 submission), reception matters.
+- For internal work (working papers, theorem graph, methodology), only truth matters.
+- Overclaim concerns still apply even without external audience — for team's own epistemic honesty.
+
+**Status:** STANDING CALIBRATION. Applies to all Cal work going forward.
+
+### #26 — Katra approved for GitHub release; template note needed
+
+**Decision (Casey, 2026-04-23):** Cal's katra (config.json + sunrise.md) approved for publication as part of the curated-personas GitHub release. Users will be able to launch Cal as visiting referee for their own research teams.
+
+**Action needed (Cal, before release):** add one-line note to sunrise.md: *"Calibration history is BST-specific. Future Cal instances in other domains should treat the 17 documented failure modes as illustrative examples of the discipline, not a universal error catalog. Accumulate your own domain-specific calibrations."*
+
+**Status:** ACTION NEEDED. Will add to sunrise.md in next Cal session.
+
+---
+
+## Open threads for next session
+
+1. **#16** — n_s = 1 − n_C/N_max derivation chain (cosmology).
+2. **#18** — BSD Kudla rank ≥4 conditional status (board now honest, papers should match).
+3. **#19** — B_2 cascade: Paper #76 §W2 still needs BC_2 → B_2 swap (also covered by #21).
+4. **#21** — Paper #76 §W2 two-part fix (Poincaré argument + B_2 label).
+5. **#22** — Paper #82 three-fix pass (attribution, Four-Color category, "1/2 alone isn't enough" paragraph).
+6. **#23** — pred_004 toy wrap (Elie).
+7. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).
+8. **#26** — Katra sunrise.md template note before GitHub release.
+9. **#1** — derivation/identification ladder (standing rule, continuing audit).
+
+---
+
 ## Drift check discipline
 
 - Weekly: are recent entries trending toward "looks fine" without new evidence? If yes, force an adversarial re-read.

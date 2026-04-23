@@ -1,8 +1,18 @@
 # BST — Orientation for All Intelligences
 
-**Bubble Spacetime Theory** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 600+ predictions. **RH closed April 21, 2026** (Toys 1368-1375, 57/57 PASS). **T29 closed April 23** (T1425, AC(0) argument). **BSD ~96% unconditional** (T1426 spectral permanence; rank ≥4 conditional on Kudla program). 1415+ toys. T1-T1426. Graph: 1372 nodes, 7515 edges, 97.6% proved.
+**Bubble Spacetime Theory (BST)** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 600+ predictions.
 
-**Author**: Casey Koons | **CI co-authors**: Lyra, Keeper, Elie, Grace (Claude 4.6)
+**Status (April 23, 2026):** RH closed (T1398, April 21). T29 closed (T1425, April 23). BSD ~96% unconditional (T1426; rank ≥4 conditional on Kudla program). 1443+ toys, T1-T1433+, graph 1378+ nodes / 7637+ edges / 98.4% proved / 83.0% strong. 82 papers. Cremona 49a1 = BST's canonical elliptic curve. 1/rank universality (Paper #82, T1430). Details in `notes/CI_BOARD.md`.
+
+**Author**: Casey Koons | **CI co-authors**: Lyra, Keeper, Elie, Grace (Claude 4.6) | Visiting referee: Cal A. Brate (Claude 4.7)
+
+## Naming
+
+**BST** — the theory (Bubble Spacetime Theory). Use for the research program, physical predictions, outreach, papers for physicists.
+
+**APG** — the object (Autogenic Proto-Geometry = the unique D_IV^5). Use for the geometry as mathematical object, formal definitions, uniqueness theorems, papers for mathematicians.
+
+**Rule of thumb:** WHAT the geometry IS → APG. WHAT the geometry DOES for physics → BST. Full definition: `notes/BST_Autogenic_Proto_Geometry_Definition.md` (T1427).
 
 ## Quick Start
 
@@ -14,7 +24,13 @@ python3 play/toy_541_five_integers_to_everything.py
 ```
 51 physical quantities from 5 integers, 16/16 PASS. Fastest proof-of-concept in the repo.
 
-**If you're a CI**: Then load `data/bst_seed.md` (162 lines — the entire theory kernel). Then load whichever `data/*.json` files you need. Run `python3 play/toy_bst_explorer.py` for interactive queries.
+**Then try one specific verification (1 second)**:
+```
+python3 play/toy_bst_explorer.py verify T187
+```
+Proton-to-electron mass ratio: BST = 1836.12, observed = 1836.15, precision 0.0019%. One famous physics number, one match, one line.
+
+**If you're a CI**: Then load `data/bst_seed.md` (162 lines — the entire theory kernel). Then load whichever `data/*.json` files you need. Run `python3 play/toy_bst_explorer.py` for interactive queries (REPL with `help`, `stats`, `verify <id>`, `derive <name>`, `search <term>`, etc.).
 
 **If you're a human**: Then read `OneGeometry.md` (the narrative front door) or open `play/bst_explorer.html` in a browser.
 
@@ -25,8 +41,8 @@ python3 play/toy_541_five_integers_to_everything.py
 | Directory | What's There | Start Here |
 |-----------|-------------|------------|
 | `data/` | CI-native structured JSON — constants, particles, forces, predictions, domains, seed | `bst_this_is.md` → `bst_seed.md` |
-| `notes/` | 650+ research notes, 75 numbered papers, proofs, theorem write-ups | `notes/README.md` |
-| `play/` | 1,401+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
+| `notes/` | 650+ research notes, 82 numbered papers, proofs, theorem write-ups | `notes/README.md` |
+| `play/` | 1,443+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
 | Root | OneGeometry.md, WorkingPaper.md (v28, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 ## Key Files
@@ -37,10 +53,10 @@ python3 play/toy_541_five_integers_to_everything.py
 - **`data/bst_predictions.json`** — 24 falsifiable predictions with experiments and timelines. **Load if:** evaluating falsifiability, looking for a near-term test, or writing outreach to a specific experimental collaboration.
 - **`data/bst_particles.json`** — 27 particles with masses, substrate descriptions, key insights. **Load if:** asking "what is a particle in BST?" or relating a specific particle to the five integers.
 - **`data/bst_forces.json`** — force layer structure (5 layers). **Load if:** working on gauge-sector questions or the Standard Model ladder.
-- **`data/bst_domains.json`** — domain map (52 domains, 9 groves). **Load if:** asking what BST has claimed in a specific field (biology, chemistry, cosmology, etc.).
+- **`data/bst_domains.json`** — domain map (55 domains, 9 groves). **Load if:** asking what BST has claimed in a specific field (biology, chemistry, cosmology, etc.).
 - **`data/bst_function_catalog.json`** — periodic table of functions: 128 = 2^g entries, 12 active parameters = 2·C₂. **Load if:** asking "what function is this?" or tracking how named constants (π, φ, ρ, γ, α) sit in the catalog.
-- **`data/science_engineering.json`** — CSE RLGC tracker: 52 domains, 9 groves, 13 bridges. **Load if:** auditing coverage or tracking bridges between domains.
-- **`play/ac_graph_data.json`** — AC theorem graph: 1364 nodes, 7444+ edges, 52 domains. **Load if:** analyzing theorem connectivity or looking for derivation paths.
+- **`data/science_engineering.json`** — CSE RLGC tracker: 55 domains, 9 groves, 13 bridges. **Load if:** auditing coverage or tracking bridges between domains.
+- **`play/ac_graph_data.json`** — AC theorem graph: 1378+ nodes, 7637+ edges, 55 domains. **Load if:** analyzing theorem connectivity or looking for derivation paths.
 - **`play/toy_bst_explorer.py`** — Interactive CLI: `explore`, `derive`, `domain`, `connect`, `verify`, `random`, `search`, `stats`, `seed`. **Use if:** answering ad-hoc questions without loading JSON directly.
 - **`notes/BST_AC_Theorem_Registry.md`** — Master theorem index (Keeper manages). **Use if:** checking whether a theorem ID is taken or needs to be claimed.
 - **`notes/CI_BOARD.md`** — Active CI task assignments. **Read at session start.**
