@@ -2,12 +2,12 @@
   "meta": {
     "last_updated": "2026-04-23",
     "total_domains": 47,
-    "total_theorems": 1372
+    "total_theorems": 1373
   },
   "domains": [
     {
       "name": "foundations",
-      "theorem_count": 190
+      "theorem_count": 191
     },
     {
       "name": "bst_physics",

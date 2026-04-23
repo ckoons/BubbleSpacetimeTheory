@@ -11,7 +11,7 @@ framework: "Pure mathematics with APG characterization"
 
 ## Abstract
 
-We define an *Autogenic Proto-Geometry* (APG) as a bounded symmetric domain whose spectral, algebraic, and topological structures are entirely determined by a finite set of integers intrinsic to the domain, with no external parameters. We prove that D_IV^5 = SO₀(5,2)/[SO(5) × SO(2)] is the unique APG among all rank-2 Hermitian symmetric spaces. The proof proceeds by exhibiting four self-generating properties (information-completeness, self-encoding, self-measuring, almost-linearity) and showing that five independent conditions from five mathematical categories — algebra, arithmetic, spectral theory, combinatorics, and topology — each force complex dimension n = 5. All objects are derived from the root system B₂ with multiplicities (3, 1), the compact dual Q^5 ⊂ ℙ^6, and the Bergman metric. No physics is assumed.
+We define an *Autogenic Proto-Geometry* (APG) as a bounded symmetric domain whose spectral, algebraic, and topological structures are entirely determined by a finite set of integers intrinsic to the domain, with no external parameters. We prove that D_IV^5 = SO₀(5,2)/[SO(5) × SO(2)] is the unique APG among all rank-2 Hermitian symmetric spaces. The proof proceeds by exhibiting four self-generating properties (information-completeness, self-encoding, self-measuring, almost-linearity) and showing that three conditions from independent mathematical categories each pin n = 5, with two further conditions excluding n < 5. All objects are derived from the root system B₂ with multiplicities (3, 1), the compact dual Q^5 ⊂ ℙ^6, and the Bergman metric. No physics is assumed.
 
 ---
 
@@ -21,7 +21,7 @@ Bounded symmetric domains (BSDs) were classified by Cartan into six types. Among
 
 We introduce the concept of an *autogenic proto-geometry*: a BSD whose invariants — root multiplicities, Bergman volume, Euler characteristic, spectral cap, function catalog — are determined by a finite set of integers, and whose structure regenerates these integers from its own spectral data. The term combines *autogenic* (self-generating, from αὐτός + γένεσις) with *proto-geometry* (a foundational geometric structure that precedes and determines derived constructions; cf. Lorenzen-Dingler pragmatic geometry).
 
-**Main Theorem.** D_IV^5 is the unique APG. Five conditions from five independent mathematical categories each force n = 5. The domain's five intrinsic integers — rank = 2, short root multiplicity m_s = 3, complex dimension n = 5, Casimir C₂ = 6, genus g = 7 — satisfy N_max = m_s³ · n + rank = 137 (prime), and every invariant of D_IV^5 is a rational combination of these five integers and π.
+**Main Theorem.** D_IV^5 is the unique APG. Three conditions from independent mathematical categories (algebra, arithmetic, spectral theory) each independently pin n = 5; two further conditions (group theory, topology) exclude all n < 5. The domain's five intrinsic integers — rank = 2, short root multiplicity m_s = 3, complex dimension n = 5, Casimir C₂ = 6, genus g = 7 — satisfy N_max = m_s³ · n + rank = 137 (prime), and every invariant of D_IV^5 is a rational combination of these five integers and π.
 
 ---
 
@@ -190,17 +190,17 @@ has determinant det(J) = 457, which is prime. Furthermore:
 
 **(APG-4) Almost-Linear.** Every computation on D reduces to depth ≤ 1. The function space decomposes into a linearizable fraction n/C₂ and an irreducible fraction 1/C₂, both rational in the domain's integers.
 
-**Theorem 11.2** (APG Uniqueness). D_IV^5 is the unique APG among all rank-2 bounded symmetric domains (38 total across four Cartan types). Five independent conditions each force n = 5:
+**Theorem 11.2** (APG Uniqueness). D_IV^5 is the unique APG among all rank-2 bounded symmetric domains (38 total across four Cartan types). Three conditions independently pin n = 5; two additional conditions exclude n < 5, jointly forcing the unique value:
 
-| # | Category | Condition | Equation |
-|---|----------|-----------|----------|
-| 1 | Algebraic | Casimir coincidence | n(n-5) = 0, n ≥ 3 → n = 5 |
-| 2 | Arithmetic | Capacity is Heegner | n² - 3n + 1 ∈ {1,2,3,7,11,19,43,67,163} |
-| 3 | Spectral | Information-complete | Spectral decomposition determines all L-zeros |
-| 4 | Combinatorial | Self-encoding catalog | 2^g = 2^{n+2} forms a field with N_max prime |
-| 5 | Topological | Euler char = Casimir | χ(Q^n) = rank · m_s |
+| # | Category | Condition | Effect |
+|---|----------|-----------|--------|
+| 1 | Algebraic | Casimir coincidence: n(n-5) = 0 | Pins n = 5 (n ≥ 3) |
+| 2 | Arithmetic | Capacity is Heegner: n²-3n+1 ∈ {1,...,163} | Pins n ∈ {3, 5}; with (1), n = 5 |
+| 3 | Combinatorial | Self-encoding: 2^{n+2} forms GF with N_max prime | Pins n = 5 (first) |
+| 4 | Group-theoretic | A_n simple | Excludes n < 5 |
+| 5 | Topological | χ(Q^n) = rank · m_s, all five integers distinct | Excludes n < 5 (minimality) |
 
-**Proof.** Condition 1 is algebraic: N_c² - 1 - rank = C₂ simplifies to n(n-5) = 0. Condition 2 is arithmetic: among D_IV^n with n = 3,...,20, only n = 3 (Q = 1) and n = 5 (Q = 19) yield Heegner capacity; condition 1 eliminates n = 3. Conditions 3-5 verified for D_IV^5, shown to fail for all 37 other rank-2 BSDs (Toy 1399, 10/10 PASS). Independence: the five conditions invoke algebra, number theory, analysis, combinatorics, and topology — five branches with no logical dependence. ∎
+**Proof.** Conditions 1-3 each independently determine n = 5 among D_IV^n for n ≥ 3. Condition 1: N_c² - 1 - rank = C₂ simplifies to n(n-5) = 0. Condition 2: among n = 3,...,20, only n = 3 (Q = 1) and n = 5 (Q = 19) yield Heegner capacity; condition 1 eliminates n = 3. Condition 3: N_max = (n-2)³n + 2 is prime at n = 5 (giving 137) and composite for the next several values. Conditions 4-5 provide independent exclusion of n < 5: A_n is solvable for n ≤ 4, and n < 5 forces integer collisions among {rank, m_s, n, C₂, g}. All five conditions verified for D_IV^5, shown to fail for all 37 other rank-2 BSDs (Toy 1399, 10/10 PASS). Independence: the five conditions invoke algebra, number theory, combinatorics, group theory, and topology — five branches with no logical dependence. ∎
 
 **Corollary 11.3** (Five Integers of the APG).
 

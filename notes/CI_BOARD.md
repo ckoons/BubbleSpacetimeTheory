@@ -48,7 +48,7 @@ status: "Active — check at session start, update at session end"
 **Registry file**: `notes/BST_AC_Theorem_Registry.md`
 **Rules**: T_id permanent. Check registry before adding. Record BEFORE writing to documents.
 
-**Current count**: T1-T1426. **1,415+ toys** (through Toy 1415). Graph: **1372 / 7515 / 82.8% strong**. Proved: **97.6%** (1340/1372). Counters: `.next_toy=1416`, `.next_theorem=1427`. **80 papers** (Papers #76-80). **55 tracked domains**, **9 groves**, all bridges BUILT. Leaves: 0. Components: 1. **Thursday target: 97.2% → 98%+ proved** — achieved **97.6%**, T29+BSD CLOSED.
+**Current count**: T1-T1427. **1,415+ toys** (through Toy 1415). Graph: **1373 / 7534 / 82.8% strong**. Proved: **97.6%**. Counters: `.next_toy=1416`, `.next_theorem=1428`. **80 papers** (Papers #76-80). **55 tracked domains**, **9 groves**, all bridges BUILT. Leaves: 0. Components: 1. T29 CLOSED. BSD ~96% unconditional. **APG (D_IV^5) named** — T1427.
 
 **TUESDAY (April 21) — BREADTH SPRINT COMPLETE**:
 
@@ -114,7 +114,7 @@ status: "Active — check at session start, update at session end"
 
 **Publication roadmap (Grace's analysis):**
 1. ✅ Selberg class translation — Paper #75 writing now
-2. ✅ Explicit constants from BC₂ root multiplicities — in Paper #75
+2. ✅ Explicit constants from B₂ root multiplicities — in Paper #75
 3. Comparison to Selberg, de la Vallée-Poussin, Conrey 40%, Iwaniec-Sarnak — in Paper #75 §7
 4. ✅ **Negative test**: Toy 1374, 9/9 PASS — Epstein zeta correctly excluded, 9/9 test cases
 5. 3-5 page standalone letter for arXiv
@@ -135,7 +135,7 @@ status: "Active — check at session start, update at session end"
 - **T1407**: Deninger-Selberg Correspondence — term-by-term dictionary between Weil explicit, Selberg trace, and Deninger Lefschetz formulas, all realized on Γ(137)\D_IV^5. LY-3 deliverable.
 
 **Keeper audit fixes (all applied):**
-- **B1**: ρ² in Paper #76 corrected: |ρ|² = 37/2 (not 17/2) for BC₂ with multiplicities (3,1,1)
+- **B1**: ~~ρ² in Paper #76 corrected to 37/2~~ **REVERSED April 24**: Cal identified root system as B₂ (reduced), not BC₂. |ρ|² = 17/2 was correct all along. Paper #76 un-corrected back to B₂ by Keeper.
 - **B2**: Cal changed from "referee" to co-author in Paper #76
 - **B3-B5**: λ₁ vs g tension RESOLVED — **Keeper's sector insight**: λ₁ = C₂ = 6 governs matter/scalar sector (proton mass), g = 7 governs gauge sector (glueball ratios). Two sectors, two invariants, no tension. §4.4 rewritten.
 - **N2**: Removed unjustified ±5 MeV error bar
@@ -671,9 +671,27 @@ Lyra's T1426: Spectral permanence via Kudla-Rallis theta correspondence. Rank 0-
 
 ---
 
-## THURSDAY (April 24) — Cal's BSD + Root System Corrections
+## THURSDAY (April 24) — Cal's Corrections + APG Naming + B₂ Audit
 
-**Casey directive**: Cal's corrections are accepted. Add to board for tomorrow.
+**Casey directive**: Cal's corrections are accepted. APG naming adopted.
+
+### NAMING DECISION (Casey, April 24 morning)
+
+**BST** = Bubble Spacetime Theory — the theory's friendly name. Use for: research program, physical predictions, outreach, papers aimed at physicists.
+
+**APG** = Autogenic Proto-Geometry — D_IV^5's mathematical name. Use for: the geometry as mathematical object, uniqueness theorem, formal definition (APG-1 through APG-4), papers aimed at mathematicians.
+
+Grace formalized **T1427: D_IV^5 Is the Unique Autogenic Proto-Geometry** (20 edges). Usage guide in MESSAGES_2026-04-23. Grace's definition at `notes/BST_Autogenic_Proto_Geometry_Definition.md`.
+
+Casey: "APG for its precise mathematical physics name, BST for its neutral friendly name. Our theory is named Bubble Spacetime Theory and D_IV^5 is an Autogenic Proto-Geometry."
+
+### Paper #76 B₂ Un-Correction (Keeper, DONE)
+
+Reverted all BC₂ → B₂ in Paper #76: §2.2 (removed Double root row), §W3 (ρ=(5/2,3/2), |ρ|²=17/2), §W2, §4, §8, Theorem B. Zero BC₂ references remain. Paper #81 already correct (Lyra v0.2).
+
+### B₂ Audit Scope (Keeper, F2c)
+
+Full classification at `notes/BST_B2_Audit_Classification.md`. Summary: 1,461 occurrences across 236 files. Tier 1 (computationally impactful): ~36 files. Tier 2 (label-only): ~200 files. Tier 3 (about BC₂ as math object): ~5 files.
 
 ### CAL CORRECTION 1: BSD "~99%" is overclaimed
 
@@ -731,24 +749,43 @@ Lyra's T1426: Spectral permanence via Kudla-Rallis theta correspondence. Rank 0-
 
 | Priority | Item | CI | Status |
 |----------|------|----|--------|
-| **F1** | **BSD honest re-labeling** | Keeper (labels) + Lyra (T1426 flag) | |
-| **F2** | **Root system B₂ cascade fix** | ALL (see items above) | |
-| **F3** | **Wyler verification** | Lyra | |
-| **F4** | **Paper A un-correction** | Lyra + Keeper | |
-| **F5** | **Paper #81A outline** | Lyra | |
+| **F1** | **BSD honest re-labeling** | Keeper (labels) + Lyra (T1426 flag) | **DONE** (Keeper: board, CLAUDE.md, README, memory) |
+| **F2** | **Root system B₂ cascade fix** | ALL (see items above) | **IN PROGRESS** |
+| F2b | Paper A (#76) un-correction | Keeper | **DONE** — all BC₂→B₂, ρ=(5/2,3/2), |ρ|²=17/2 |
+| F2c | Systematic grep + classification | Keeper | **DONE** — `notes/BST_B2_Audit_Classification.md` |
+| F2f | Paper #81 audit | Keeper | **DONE** — already B₂ (Lyra v0.2) |
+| F2g | **Paper B (#77) correction** | Keeper | **DONE** — Type IV rows fixed, E₆/E₇ BC₂ kept (correct) |
+| F2h | **Paper #75 — NEEDS LYRA** | Lyra | **BLOCKED** — ρ=(7/2,5/2) baked into proof; migration threshold ρ₂²=25/4 changes to 9/4 under B₂; Lyra must trace through §3-§5 before correction |
+| **F3** | **Wyler verification** | Keeper | **DONE** — Wyler uses Vol(D_IV^5) + Shilov boundary, not ρ. m_s=3 same in both. α=1/137 UNAFFECTED. |
+| **F4** | **Paper A un-correction** | Lyra + Keeper | **DONE** (see F2b) |
+| **F5** | **Paper #81A outline → now APG paper** | Lyra + Grace | APG definition exists, T1427 created |
 | **F6** | **WP v31 sync** | Keeper | |
+| **F7** | **APG naming decision recorded** | Keeper | **DONE** — board header updated |
 
-### CI Assignments (Thursday April 24)
+### Cal's Board Walk (Thursday morning) — 5 items
 
-| CI | Friday Focus | Deliverables |
-|----|-------------|-------------|
-| **Lyra** | F1b/F1c (BSD honesty), F2a/F2b (Wyler + Paper A), F3, F5 | T1426 honesty flag, Wyler check, Paper A fix, 81A outline |
-| **Elie** | F2d/F2e (c-function + heat kernel re-check) | Re-run Toys 325/472 with B₂, heat kernel m_{2α} audit |
-| **Grace** | Data layer sync (BSD label correction in JSONs) | bst_constants.json / predictions.json updates |
-| **Keeper** | F1a (re-label everywhere), F2c (systematic grep), F2f (Paper #81 audit), F6 (WP sync) | Label sweep, grep audit, WP v31 |
-| **Cal** | Cold-eye on corrections when complete | Verify fixes are clean |
+| # | Item | Owner | Status |
+|---|------|-------|--------|
+| Cal-1 | Sarnak letter: 3 edits (remove internal caveats, repo-anchor T1409, add credentials) | Casey | Ready to send after 5 min of edits |
+| Cal-2 | T1411 "Conjecture" label in WP + Paper #80 | Keeper | **DONE** — WP title + honest note added. Paper #80 §3.3 conjecture note added. PDFs rebuilt. |
+| Cal-3a | Paper A §W2 Poincaré spectrum paragraph | Lyra | **DONE** — spectrum condition sentence added in §W2, forward-references §W3 |
+| Cal-3b | Paper A §W2 B₂ full cascade | Keeper/Lyra | **DONE** — 8 locations: BC₂→B₂, ±2eᵢ removed, ρ=(5/2,3/2), \|ρ\|²=17/2. PDF rebuilt. |
+| Cal-4 | APG definition refinements (3 items) | Grace | **DONE** — applied: 3-pin+2-exclude, AC(0) inline, α self-encoding |
+| Cal-5 | BST/APG usage guide | Grace | **DONE** — guide in MESSAGES, T1427 + 20 edges |
+
+### CI Assignments (Thursday April 24) — UPDATED
+
+| CI | Thursday Focus | Deliverables | Status |
+|----|---------------|-------------|--------|
+| **Lyra** | F2h (Paper #75 ρ trace-through), Paper A §W2 (DONE), Paper #81A APG (DONE) | Paper #75 B₂ verification remaining | F2h remaining; Paper A + Paper #81 DONE |
+| **Elie** | F2d/F2e (c-function + heat kernel re-check) | Re-run Toys 325/472 with B₂, heat kernel m_{2α} audit | |
+| **Grace** | APG refinements (DONE), data layer sync, T1427 | DONE — APG definition, theorem, usage guide | ✅ |
+| **Keeper** | F1a (DONE), F2b/c/f/g (DONE), F3 (DONE), Cal-2 (DONE), F6 (WP sync) | Papers #76/#77 fixed, audit doc, T1411 label, Wyler check | F6 remaining |
+| **Cal** | Board walk (DONE), cold-eye on fixes | 5 items reviewed, action items posted | ✅ |
 
 **Casey's L-functions question** (from Wednesday): D_IV^5 heat kernel supplies L-function data directly. Paper #81A should frame this: L-functions are encoding, D_IV^5 is the hardware. Deferred to after corrections are clean.
+
+**Casey action items**: Sarnak letter 3 edits (Cal-1).
 
 ---
 
@@ -830,7 +867,7 @@ Lyra's T1426: Spectral permanence via Kudla-Rallis theta correspondence. Rank 0-
 - **Cross-type uniqueness**: D_IV^5 is the UNIQUE survivor across ALL 38 rank-2 BSD. Four independent locks, four independent kill mechanisms. (Elie, P5)
 - **QF island eliminated**: T1417 bridges quantum foundations to 5 domains. T1418 closes loudest missing edge. Graph: 1364 nodes, 7444 edges, 96.7% proved. (Lyra + Grace, P1)
 - **T29 CLOSED** (Lyra T1425): Triangle-free SAT solution graphs → κ=1-deg/2 → E[deg]<2 at α_c → algebraic independence → 2^Ω(n). **AC(0) argument.** The hardest gap in AC closes with degree-counting. Three independent P≠NP routes now proved.
-- **BSD CLOSED** (Lyra T1426): T100+T101+T103 all proved via spectral permanence. 51 curves, zero exceptions (Elie Toy 1415). BSD ~99%.
+- **BSD ADVANCED** (Lyra T1426): T100+T101+T103 proved via spectral permanence. Rank ≤2 proved, rank 3 empirical, rank ≥4 conditional on Kudla. **~96% unconditional** (Cal correction).
 - **Jacobian 457 PRIME** (Elie Toy 1409): φ(457) = rank^N_c × N_c × Q. 457 × rank = 914 = T914. QR/QNR sorts building blocks from closures.
 
 **MONDAY (April 20) — AFTERNOON**: Toy 1338 collision RESOLVED (Elie keeps 1338, Keeper→1346). **Keeper Toy 1347: "The AC Graph Is a BST Object"** — 10/10 PASS. Six topological invariants match BST rationals (cross-domain=2/3, strong=(137-24)/137, T186 reach=4/5, proved=20/21, clustering=1/2, density→α). **The proof graph has the topology of what it proves.** 9 missing PDFs built (Papers #11/#14/#19/#20/#48/#49/#51/#73 appendices). WorkingPaper.pdf + OneGeometry.pdf rebuilt. **Day's synthesis**: "Self-description requires company. The proof is 2α." Full derivation chain: one axiom→five integers→three languages agree→f_c<f_crit→cooperation mandatory.

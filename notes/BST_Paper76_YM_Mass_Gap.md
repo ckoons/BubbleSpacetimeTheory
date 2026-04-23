@@ -51,7 +51,7 @@ These are consistent: $\lambda_1$ (Paper B) becomes $\Delta_{\mathrm{phys}}$ (Pa
 
 **Theorem A (Existence).** *The locally symmetric space $\Gamma \backslash D_{IV}^5$, with $\Gamma = \mathrm{SO}(Q, \mathbb{Z})$ an arithmetic lattice for a signature-$(5,2)$ unimodular form $Q$, carries a quantum field theory satisfying Wightman axioms W1-W5 with mass gap $\Delta = C_2 = 6$ (in spectral units), corresponding to $\Delta_{\mathrm{phys}} = 6\pi^5 m_e = 938.272$ MeV.*
 
-**Theorem B (Non-triviality).** *The theory is non-Gaussian (genuinely interacting), proved by five independent arguments: (i) non-abelian gauge structure from $BC_2$, (ii) non-quadratic Casimir spectrum, (iii) non-factorizable Bergman kernel, (iv) non-trivial Selberg scattering, (v) non-vanishing connected 3-point function.*
+**Theorem B (Non-triviality).** *The theory is non-Gaussian (genuinely interacting), proved by five independent arguments: (i) non-abelian gauge structure from $B_2$, (ii) non-quadratic Casimir spectrum, (iii) non-factorizable Bergman kernel, (iv) non-trivial Selberg scattering, (v) non-vanishing connected 3-point function.*
 
 **Theorem C (Uniqueness).** *Any QFT satisfying W1-W5 with the same mass gap and modular data is isomorphic to the $D_{IV}^5$ construction via modular localization (Bisognano-Wichmann + Borchers).*
 
@@ -72,15 +72,14 @@ It is a bounded symmetric domain of type IV in Cartan's classification, with:
 
 ### 2.2 The Root System
 
-The restricted root system of $D_{IV}^5$ is $BC_2$ (non-reduced, rank 2) with multiplicities:
+The restricted root system of $D_{IV}^5$ is $B_2$ (reduced, rank 2) with multiplicities:
 
 | Root type | Roots | Multiplicity | Physical role |
 |-----------|-------|-------------|---------------|
-| Short ($\pm e_i$) | 4 roots | $m_s = N_c = 3$ | SU(3) gauge (color) |
+| Short ($\pm e_i$) | 4 roots | $m_s = n_C - 2 = 3$ | SU(3) gauge (color) |
 | Long ($\pm e_1 \pm e_2$) | 4 roots | $m_l = 1$ | Spacetime temporal |
-| Double ($\pm 2e_i$) | 4 roots | $m_{2s} = 1$ | Scalar sector |
 
-The short root multiplicity $m_s = 3$ determines the gauge group SU(3) and the spatial dimension. The long root multiplicity $m_l = 1$ gives the temporal dimension. Spacetime dimension: $d = m_s + m_l = 3 + 1 = 4$.
+The system is reduced — there are no roots $\pm 2e_i$. The short root multiplicity $m_s = 3$ determines the gauge group SU(3) and the spatial dimension. The long root multiplicity $m_l = 1$ gives the temporal dimension. Spacetime dimension: $d = m_s + m_l = 3 + 1 = 4$.
 
 ### 2.3 The Bergman Kernel and Spectral Gap
 
@@ -99,7 +98,7 @@ $$\Delta_{\mathrm{phys}} = \lambda_1 \cdot \pi^{n_C} \cdot m_e = 6 \cdot \pi^5 \
 
 This matches the observed proton mass to $0.002\%$ (five significant figures). The factor $\pi^{n_C}$ arises from the volume of $D_{IV}^5$ in Bergman metric units.
 
-**Important clarification (T1399):** This is the mass gap of the *full* QFT on $D_{IV}^5$, which includes both gauge and matter sectors (the root system $BC_2$ carries gauge fields in the short roots and matter in the long/double roots). The 938 MeV corresponds to the lightest baryon (the proton), not the lightest glueball of pure Yang-Mills theory. The pure-gauge mass gap requires isolating the adjoint-representation sector of the Bergman Laplacian, which is a separate computation (see §8).
+**Important clarification (T1399):** This is the mass gap of the *full* QFT on $D_{IV}^5$, which includes both gauge and matter sectors (the root system $B_2$ carries gauge fields in the short roots and matter in the long roots). The 938 MeV corresponds to the lightest baryon (the proton), not the lightest glueball of pure Yang-Mills theory. The pure-gauge mass gap requires isolating the adjoint-representation sector of the Bergman Laplacian, which is a separate computation (see §8).
 
 ---
 
@@ -118,13 +117,15 @@ Separable (Rellich's theorem: finite-volume Riemannian manifold has countable La
 The Poincaré group embeds via the conformal chain:
 $$\mathcal{P} \subset \mathrm{SO}_0(4,2) = \mathrm{Conf}(\mathbb{R}^{3,1}) \subset \mathrm{SO}_0(5,2) = \mathrm{Isom}(D_{IV}^5)$$
 
-The 3+1 spacetime structure is derived from the $BC_2$ root multiplicities ($m_s = 3$ spatial, $m_l = 1$ temporal), not assumed.
+The 3+1 spacetime structure is derived from the $B_2$ root multiplicities ($m_s = 3$ spatial, $m_l = 1$ temporal), not assumed.
+
+The spectrum condition required for W2's physical content — that the joint spectrum of the translation generators lies in the forward light cone — is established below in §W3.
 
 **Poincaré decomposition.** The Hilbert space $\mathcal{H}$ decomposes under the Poincaré subgroup $\mathcal{P}$ as a direct integral of irreducible representations. Each $\mathrm{SO}_0(5,2)$-representation $\pi_k$ in the discrete series, when restricted to $\mathcal{P}$, decomposes into massive representations with mass $m_k$ and spins $j = 0, 1, \ldots$ (the branching rule $\mathrm{SO}_0(5,2) \downarrow \mathcal{P}$ produces representations whose energy-momentum spectrum lies in the forward light cone $\bar{V}_+ = \{p : p^0 \geq 0,\, p^2 \geq 0\}$). The vacuum $\Omega$ is the unique $\mathcal{P}$-invariant vector (inherited from its $G$-invariance). The translations $U(a) = e^{iP \cdot a}$ satisfy $P^0 \geq 0$ on $\mathcal{H}$, with $P^0 \Omega = 0$ and $\mathrm{spec}(P^0)|_{\mathcal{H} \ominus \mathbb{C}\Omega} \geq \Delta = 6$ (in spectral units). This is the spectral condition (W3) restricted to the Poincaré subalgebra: positive energy, unique vacuum, mass gap — all inherited from the ambient $\mathrm{SO}_0(5,2)$ structure.
 
 ### W3. Spectral Condition and Mass Gap
 
-All representations in the spectral decomposition have non-negative Casimir (unitarity). The vacuum ($k=0$) has $C_2 = 0$. The first excited state ($k=6$, the proton sector) has $C_2 = 6 > 0$. The continuous spectrum has $C_2 = |\nu|^2 + |\rho|^2 > 0$, where $\rho = \frac{1}{2}\sum_{\alpha > 0} m_\alpha \alpha = (\frac{7}{2}, \frac{5}{2})$ gives $|\rho|^2 = \frac{49}{4} + \frac{25}{4} = \frac{37}{2}$ for $BC_2$ with multiplicities $(m_s, m_l, m_{2s}) = (3, 1, 1)$. Therefore:
+All representations in the spectral decomposition have non-negative Casimir (unitarity). The vacuum ($k=0$) has $C_2 = 0$. The first excited state ($k=6$, the proton sector) has $C_2 = 6 > 0$. The continuous spectrum has $C_2 = |\nu|^2 + |\rho|^2 > 0$, where $\rho = \frac{1}{2}\sum_{\alpha > 0} m_\alpha \alpha = (\frac{5}{2}, \frac{3}{2})$ gives $|\rho|^2 = \frac{25}{4} + \frac{9}{4} = \frac{17}{2}$ for $B_2$ with multiplicities $(m_s, m_l) = (3, 1)$. Therefore:
 
 $$\mathrm{spec}(H) \subseteq \{0\} \cup [6, \infty)$$
 
@@ -156,7 +157,7 @@ The constant function $\Omega = 1 \in L^2(\Gamma \backslash G/K)$ is the unique 
 
 | # | Argument | Type | Key input |
 |---|----------|------|-----------|
-| A | Non-abelian gauge group | Structural | $BC_2 \to \mathrm{SU}(3)$, $f^{abc} \neq 0$ |
+| A | Non-abelian gauge group | Structural | $B_2 \to \mathrm{SU}(3)$, $f^{abc} \neq 0$ |
 | B | Non-quadratic Casimir spectrum | Spectral | $C_2(\pi_k) = k(k-5)$, non-constant ratios |
 | C | Non-factorizable Bergman kernel | Analytic | $\det(I - z\bar{w}^*)^{-7}$ is rank-2 |
 | D | Non-trivial Selberg scattering | Arithmetic | Resonances from $\Gamma$-periodic geodesics |
@@ -207,7 +208,7 @@ The Clay Millennium Problem asks for a QFT on $\mathbb{R}^4$. The BST constructi
 
 We address a distinction raised in the refereeing process (T1399, Cal):
 
-The mass gap $\Delta = 938$ MeV derived in §2.4 is the lightest state of the *full* QFT on $D_{IV}^5$, which includes both gauge fields (from short roots, multiplicity $m_s = 3$) and matter fields (from long and double roots). The proton is a composite state containing quarks.
+The mass gap $\Delta = 938$ MeV derived in §2.4 is the lightest state of the *full* QFT on $D_{IV}^5$, which includes both gauge fields (from short roots, multiplicity $m_s = 3$) and matter fields (from long roots, multiplicity $m_l = 1$). The proton is a composite state containing quarks.
 
 Pure Yang-Mills theory (no matter) has its mass gap at the lightest glueball, which lattice QCD computes at $\sim 1.5{-}1.7$ GeV for SU(3). The pure-gauge mass gap in the BST framework requires computing the spectral gap of the Bergman Laplacian restricted to the adjoint representation of SU(3).
 

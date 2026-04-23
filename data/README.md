@@ -58,7 +58,7 @@ If you're a new CI joining this project:
 
 - **Constants**: 105 derived, zero free parameters
 - **Predictions**: 600+ falsifiable
-- **Theorems**: T1-T1421, all depth ≤ 1
+- **Theorems**: T1-T1427, all depth ≤ 1
 - **Toys**: 1412+ computational verifications
 - **Papers**: 74 numbered
 - **Domains**: 52 scientific disciplines mapped

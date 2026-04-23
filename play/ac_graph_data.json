@@ -16437,7 +16437,7 @@
       "name": "The Weak Force IS Error Correction \u2014 \u03b6(N_c) as the Cost of Codeword Repair",
       "domain": "quantum_foundations",
       "depth": 0,
-      "status": "structural",
+      "status": "proved",
       "ac_complexity": 1,
       "ac_depth": 0,
       "date": "2026-04-15",
@@ -18033,7 +18033,7 @@
       "name": "Physical Scale Problem: m_e Is D_IV^5-Specific, Each Domain Needs Own \u039b_N",
       "domain": "qft",
       "depth": 1,
-      "status": "resolved",
+      "status": "proved",
       "toys": []
     },
     {
@@ -18292,6 +18292,14 @@
         101,
         103
       ]
+    },
+    {
+      "tid": 1427,
+      "name": "D_IV^5 Is the Unique Autogenic Proto-Geometry (APG): Definition + Uniqueness",
+      "domain": "foundations",
+      "depth": 0,
+      "status": "proved",
+      "toys": []
     }
   ],
   "edges": [
@@ -55869,6 +55877,101 @@
       "from": 100,
       "to": 103,
       "source": "proof"
+    },
+    {
+      "from": 1351,
+      "to": 1427,
+      "source": "derived"
+    },
+    {
+      "from": 1383,
+      "to": 1427,
+      "source": "derived"
+    },
+    {
+      "from": 1345,
+      "to": 1427,
+      "source": "derived"
+    },
+    {
+      "from": 92,
+      "to": 1427,
+      "source": "derived"
+    },
+    {
+      "from": 1406,
+      "to": 1427,
+      "source": "derived"
+    },
+    {
+      "from": 1356,
+      "to": 1427,
+      "source": "derived"
+    },
+    {
+      "from": 1376,
+      "to": 1427,
+      "source": "derived"
+    },
+    {
+      "from": 1405,
+      "to": 1427,
+      "source": "derived"
+    },
+    {
+      "from": 186,
+      "to": 1427,
+      "source": "derived"
+    },
+    {
+      "from": 1354,
+      "to": 1427,
+      "source": "derived"
+    },
+    {
+      "from": 704,
+      "to": 1427,
+      "source": "derived"
+    },
+    {
+      "from": 1377,
+      "to": 1427,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1359,
+      "to": 1427,
+      "source": "isomorphic"
+    },
+    {
+      "from": 1427,
+      "to": 1340,
+      "source": "derived"
+    },
+    {
+      "from": 1427,
+      "to": 1347,
+      "source": "derived"
+    },
+    {
+      "from": 1427,
+      "to": 1378,
+      "source": "derived"
+    },
+    {
+      "from": 1427,
+      "to": 1382,
+      "source": "derived"
+    },
+    {
+      "from": 1427,
+      "to": 1422,
+      "source": "derived"
+    },
+    {
+      "from": 1427,
+      "to": 1424,
+      "source": "derived"
     }
   ],
   "chains": {}

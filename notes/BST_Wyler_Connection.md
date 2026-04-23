@@ -99,7 +99,7 @@ Wyler had no answer. BST's answer:
 
 **n_C = 5 because the CR dimension of the BST contact structure is N_c + N_w = 3 + 2 = 5.**
 
-- N_c = 3: color group Z₃, from Z₃ closure on S² (BC₂ short root multiplicity b = n_C−2 = 3)
+- N_c = 3: color group Z₃, from Z₃ closure on S² (B₂ short root multiplicity m_s = n_C−2 = 3)
 - N_w = 2: Hopf fiber S¹ → S³ → S², two real parameters per circuit (χ(S²) = 2 → two
   independent cohomology classes → N_w = 2)
 

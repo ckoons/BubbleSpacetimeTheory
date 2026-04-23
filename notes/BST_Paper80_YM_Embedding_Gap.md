@@ -5,7 +5,7 @@ date: "April 22, 2026"
 status: "Draft v0.1"
 target: "Advances in Mathematics / ATMP"
 ac_classification: "(C=3, D=1)"
-theorems: "T1400, T1411, T1404"
+theorems: "T1400, T1411 (Conjecture), T1404"
 ym_suite: "Paper C of A/B/C/D"
 ---
 
@@ -110,6 +110,8 @@ $$c(G_2, \mathrm{SO}(7)) = \frac{C_2(\mathbf{7}; G_2)}{C_2(\mathbf{7}; \mathrm{S
 Since $c = 2/3 > 0$:
 
 $$\Delta_{G_2} \geq \frac{2}{3} \cdot \Delta_{\mathrm{SO}(7)} = \frac{2}{3} \cdot 8 = \frac{16}{3} > 0$$
+
+**Note.** The $G_2$ mass gap result (T1411) is a **conjecture**: the spectral descent inequality (§2.1) on which it rests has not been proved in general. This paper establishes the descent for specific embeddings, but the general inequality remains open.
 
 ### 3.4 Lattice Verification
 

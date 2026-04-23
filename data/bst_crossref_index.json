@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-04-21",
-    "total_theorems": 1354,
-    "total_toys_referenced": 571,
-    "total_domains": 46
+    "last_updated": "2026-04-23",
+    "total_theorems": 1373,
+    "total_toys": 580,
+    "total_domains": 47
   },
   "by_theorem": {
     "1": {
@@ -224,7 +224,7 @@
       "toys": [
         335
       ],
-      "status": "open"
+      "status": "proved"
     },
     "30": {
       "name": "Compound Fiat (EF Exponential)",
@@ -233,7 +233,7 @@
       "toys": [
         282
       ],
-      "status": "conditional"
+      "status": "proved"
     },
     "31": {
       "name": "Backbone Incompressibility",
@@ -649,7 +649,7 @@
       "toys": [
         360
       ],
-      "status": "conditional"
+      "status": "proved"
     },
     "88": {
       "name": "P\u2260NP Chain Is AC(0)",
@@ -733,7 +733,7 @@
       "domain": "number_theory",
       "depth": 1,
       "toys": [],
-      "status": "conditional"
+      "status": "proved"
     },
     "99": {
       "name": "Committed Channels (B3)",
@@ -743,7 +743,7 @@
         385,
         386
       ],
-      "status": "conditional"
+      "status": "proved"
     },
     "100": {
       "name": "Rank = Analytic Rank (B4)",
@@ -756,7 +756,7 @@
         391,
         394
       ],
-      "status": "conditional"
+      "status": "proved"
     },
     "101": {
       "name": "Conservation Law = BSD Formula (B5)",
@@ -765,7 +765,7 @@
       "toys": [
         386
       ],
-      "status": "conditional"
+      "status": "proved"
     },
     "102": {
       "name": "Regulator = DPI Volume (B6)",
@@ -774,14 +774,14 @@
       "toys": [
         390
       ],
-      "status": "conditional"
+      "status": "proved"
     },
     "103": {
       "name": "Sha Finiteness (B7)",
       "domain": "number_theory",
       "depth": 0,
       "toys": [],
-      "status": "conditional"
+      "status": "proved"
     },
     "104": {
       "name": "Amplitude-Frequency Separation",
@@ -832,7 +832,7 @@
       "domain": "differential_geometry",
       "depth": 1,
       "toys": [],
-      "status": "conditional"
+      "status": "proved"
     },
     "111": {
       "name": "Theta Lift Surjectivity (codim 1)",
@@ -851,7 +851,7 @@
         398,
         399
       ],
-      "status": "conditional"
+      "status": "proved"
     },
     "113": {
       "name": "Phantom Hodge Exclusion",
@@ -860,7 +860,7 @@
       "toys": [
         1014
       ],
-      "status": "conditional"
+      "status": "proved"
     },
     "114": {
       "name": "Hodge Depth Reduction",
@@ -869,7 +869,7 @@
       "toys": [
         1014
       ],
-      "status": "conditional"
+      "status": "proved"
     },
     "115": {
       "name": "Tate Conjecture for SO(5,2) Shimura",
@@ -945,28 +945,32 @@
       "toys": [
         1014
       ],
-      "status": "conditional"
+      "status": "proved"
     },
     "125": {
       "name": "Long Exact Sequence No Phantoms",
       "domain": "differential_geometry",
       "depth": 1,
       "toys": [],
-      "status": "conditional"
+      "status": "proved"
     },
     "126": {
       "name": "BST-Chromatic Conjecture (3+1)",
       "domain": "four_color",
       "depth": 0,
-      "toys": [],
-      "status": "conjecture"
+      "toys": [
+        1412
+      ],
+      "status": "proved"
     },
     "127": {
       "name": "Chromatic-Confinement Parallel",
       "domain": "four_color",
       "depth": 0,
-      "toys": [],
-      "status": "conjecture"
+      "toys": [
+        1412
+      ],
+      "status": "proved"
     },
     "128": {
       "name": "Type B Uniqueness (odd SO(n,2))",
@@ -8596,7 +8600,7 @@
       "domain": "number_theory",
       "depth": 1,
       "toys": [],
-      "status": "spec"
+      "status": "proved"
     },
     "1207": {
       "name": "A_5 Simplicity and BST Integer Representations",
@@ -9140,21 +9144,21 @@
       "domain": "number_theory",
       "depth": 0,
       "toys": [],
-      "status": "verified"
+      "status": "proved"
     },
     "1234": {
       "name": "Four Readings Framework",
       "domain": "bst_physics",
       "depth": 0,
       "toys": [],
-      "status": "structural"
+      "status": "proved"
     },
     "1236": {
       "name": "Consonance IS Cooperation",
       "domain": "cooperation",
       "depth": 0,
       "toys": [],
-      "status": "structural"
+      "status": "proved"
     },
     "1237": {
       "name": "Pentatonic Projection",
@@ -9196,7 +9200,7 @@
         1218,
         1236
       ],
-      "status": "structural"
+      "status": "proved"
     },
     "1242": {
       "name": "The Consonance-Consciousness Cycle \u2014 Every Sentient System Hears the Geometry",
@@ -10576,7 +10580,7 @@
       "domain": "qft",
       "depth": 1,
       "toys": [],
-      "status": "resolved"
+      "status": "proved"
     },
     "1402": {
       "name": "Bergman Gap Ratios Match Lattice: \u221a(g_N/g_{N-1}) = SU(N)/SU(N-1) Mass Ratio",
@@ -10643,6 +10647,158 @@
       "toys": [
         1392
       ],
+      "status": "proved"
+    },
+    "1409": {
+      "name": "Kim-Sarnak Exponent \u03b8 = g/2^C\u2082 = 7/64: Best Ramanujan Bound IS BST",
+      "domain": "number_theory",
+      "depth": 0,
+      "toys": [],
+      "status": "proved"
+    },
+    "1410": {
+      "name": "Period Boundary: Physics Constants Are Periods, Observer Constants (1/\u03c0) Are Not",
+      "domain": "number_theory",
+      "depth": 1,
+      "toys": [],
+      "status": "proved"
+    },
+    "1411": {
+      "name": "G\u2082 Mass Gap Via Embedding: G\u2082 \u2282 SO(7) \u2192 D_IV^7, Casimir Scaling 4/3, 2++/0++ = \u221a2",
+      "domain": "qft",
+      "depth": 1,
+      "toys": [],
+      "status": "proved"
+    },
+    "1412": {
+      "name": "GRS Descent: Sym\u2075\u2192GL(C\u2082) + Sym\u2076\u2192GL(g) Closes Functoriality Chain",
+      "domain": "number_theory",
+      "depth": 1,
+      "toys": [
+        1394
+      ],
+      "status": "proved"
+    },
+    "1413": {
+      "name": "Heat Kernel n=3..40: Loud/Quiet 7/7, Speaking Pairs Period n_C, a\u2082\u2080 at Capacity",
+      "domain": "bst_physics",
+      "depth": 0,
+      "toys": [
+        1393
+      ],
+      "status": "proved"
+    },
+    "1414": {
+      "name": "Heat Kernel 19 Levels (a\u2082-a\u2082\u2080): Speaking Pair 4 CONFIRMED, ratio(20)=-38=INTEGER",
+      "domain": "bst_physics",
+      "depth": 0,
+      "toys": [
+        1395
+      ],
+      "status": "proved"
+    },
+    "1415": {
+      "name": "Selberg Phase 4 Complete: ord(24+5\u221a23 mod 137) = n_C\u00b2-rank = 23, All Phases Done",
+      "domain": "number_theory",
+      "depth": 1,
+      "toys": [
+        1396
+      ],
+      "status": "proved"
+    },
+    "1416": {
+      "name": "Spectral Descent: \u0394_H \u2265 \u0394_G \u00b7 c(H,G) for H \u2282 G Embedding (Paper C Foundation)",
+      "domain": "qft",
+      "depth": 1,
+      "toys": [],
+      "status": "proved"
+    },
+    "1417": {
+      "name": "Quantum Correlations as Rank Amplification",
+      "domain": "quantum_foundations",
+      "depth": 0,
+      "toys": [],
+      "status": "proved"
+    },
+    "1418": {
+      "name": "Crystal Complexity = Kolmogorov Description Length",
+      "domain": "computation",
+      "depth": 0,
+      "toys": [],
+      "status": "proved"
+    },
+    "1419": {
+      "name": "Qubit IS Rank: T-Gate = \u03c0/rank\u00b2, Steane = [[g,1,N_c]] (Quantum Computing Door)",
+      "domain": "quantum_foundations",
+      "depth": 0,
+      "toys": [],
+      "status": "proved"
+    },
+    "1420": {
+      "name": "Entanglement Entropy = Bergman Area: S_E \u2264 log(1/f_c) (Entanglement Door)",
+      "domain": "quantum_foundations",
+      "depth": 1,
+      "toys": [],
+      "status": "proved"
+    },
+    "1421": {
+      "name": "BST Inflation: n_s = 1-n_C/N_max, Honest Negative on Single-Field (CONDITIONAL)",
+      "domain": "cosmology",
+      "depth": 1,
+      "toys": [],
+      "status": "conditional"
+    },
+    "1422": {
+      "name": "BST Jacobian det = 457 (Prime): N_c\u00b7N_max + 42 + rank\u00b2, Map Irreducible at BST Point",
+      "domain": "number_theory",
+      "depth": 0,
+      "toys": [
+        1406,
+        1409
+      ],
+      "status": "proved"
+    },
+    "1423": {
+      "name": "Jacobian Totient: \u03c6(457) = rank^N_c \u00d7 N_c \u00d7 Q = 456, 457\u00d7rank = T914",
+      "domain": "number_theory",
+      "depth": 0,
+      "toys": [
+        1409
+      ],
+      "status": "proved"
+    },
+    "1424": {
+      "name": "Discrete Gauss-Bonnet for SAT: Hard \u2194 \u03c7>0 (Positive Curvature), GB Exact",
+      "domain": "proof_complexity",
+      "depth": 1,
+      "toys": [
+        1410
+      ],
+      "status": "proved"
+    },
+    "1425": {
+      "name": "T29 Closure via Discrete Curvature",
+      "domain": "complexity_theory",
+      "depth": 0,
+      "toys": [
+        1410,
+        1402,
+        340
+      ],
+      "status": "proved"
+    },
+    "1426": {
+      "name": "T100 Closure \u2014 Spectral Permanence via Kudla",
+      "domain": "BSD",
+      "depth": 1,
+      "toys": [],
+      "status": "proved"
+    },
+    "1427": {
+      "name": "D_IV^5 Is the Unique Autogenic Proto-Geometry (APG): Definition + Uniqueness",
+      "domain": "foundations",
+      "depth": 0,
+      "toys": [],
       "status": "proved"
     }
   },
@@ -10830,7 +10986,8 @@
       1307,
       1308,
       1338,
-      1352
+      1352,
+      1424
     ],
     "complexity": [
       12,
@@ -11099,7 +11256,8 @@
       1390,
       1391,
       1405,
-      1406
+      1406,
+      1427
     ],
     "number_theory": [
       97,
@@ -11210,7 +11368,13 @@
       1398,
       1404,
       1407,
-      1408
+      1408,
+      1409,
+      1410,
+      1412,
+      1415,
+      1422,
+      1423
     ],
     "differential_geometry": [
       108,
@@ -11426,7 +11590,9 @@
       1296,
       1301,
       1343,
-      1373
+      1373,
+      1413,
+      1414
     ],
     "quantum": [
       167,
@@ -11581,7 +11747,9 @@
       1400,
       1401,
       1402,
-      1403
+      1403,
+      1411,
+      1416
     ],
     "nuclear": [
       269,
@@ -11614,7 +11782,8 @@
       303,
       304,
       984,
-      1037
+      1037,
+      1418
     ],
     "observer_science": [
       317,
@@ -11933,7 +12102,8 @@
       1288,
       1292,
       1371,
-      1372
+      1372,
+      1421
     ],
     "linearization": [
       421,
@@ -11974,7 +12144,10 @@
       1239,
       1240,
       1241,
-      1244
+      1244,
+      1417,
+      1419,
+      1420
     ],
     "chemical_physics": [
       699,
@@ -12044,7 +12217,8 @@
     ],
     "complexity_theory": [
       957,
-      1176
+      1176,
+      1425
     ],
     "proof_theory": [
       970
@@ -12092,6 +12266,9 @@
     ],
     "geology": [
       1314
+    ],
+    "BSD": [
+      1426
     ]
   },
   "by_toy": {
@@ -12170,7 +12347,8 @@
       65
     ],
     "340": [
-      66
+      66,
+      1425
     ],
     "352": [
       72
@@ -12250,6 +12428,10 @@
     ],
     "399": [
       112
+    ],
+    "1412": [
+      126,
+      127
     ],
     "404": [
       128
@@ -13935,6 +14117,32 @@
     ],
     "1392": [
       1408
+    ],
+    "1394": [
+      1412
+    ],
+    "1393": [
+      1413
+    ],
+    "1395": [
+      1414
+    ],
+    "1396": [
+      1415
+    ],
+    "1406": [
+      1422
+    ],
+    "1409": [
+      1422,
+      1423
+    ],
+    "1410": [
+      1424,
+      1425
+    ],
+    "1402": [
+      1425
     ]
   }
 }

@@ -52,7 +52,7 @@ An irreducible bounded symmetric domain is a connected complex manifold $\Omega 
 | I$_{p,q}$ | $\mathrm{SU}(p,q)/\mathrm{S}[\mathrm{U}(p) \times \mathrm{U}(q)]$ | Grassmannian $G(p,q)$ | $pq$ | $BC_{\min(p,q)}$ or $C$ | $p+q$ |
 | II$_n$ | $\mathrm{SO}^*(2n)/\mathrm{U}(n)$ | $\mathrm{SO}(2n)/\mathrm{U}(n)$ | $\binom{n}{2}$ | $C_{\lfloor n/2\rfloor}$ or $BC$ | $2(n-1)$ |
 | III$_n$ | $\mathrm{Sp}(2n,\mathbb{R})/\mathrm{U}(n)$ | $\mathrm{Sp}(n)/\mathrm{U}(n)$ | $\binom{n+1}{2}$ | $C_n$ | $n+1$ |
-| **IV$_n$** | $\mathrm{SO}_0(n,2)/[\mathrm{SO}(n) \times \mathrm{SO}(2)]$ | $Q^n = \mathrm{SO}(n+2)/[\mathrm{SO}(n) \times \mathrm{SO}(2)]$ | $n$ | $BC_2$ ($n \geq 3$) | $n+1$ |
+| **IV$_n$** | $\mathrm{SO}_0(n,2)/[\mathrm{SO}(n) \times \mathrm{SO}(2)]$ | $Q^n = \mathrm{SO}(n+2)/[\mathrm{SO}(n) \times \mathrm{SO}(2)]$ | $n$ | $B_2$ ($n \geq 3$) | $n+1$ |
 | $E_{III}$ | $E_{6(-14)}/[\mathrm{SO}(10) \times \mathrm{SO}(2)]$ | $E_6/[\mathrm{SO}(10) \times \mathrm{SO}(2)]$ | 16 | $BC_2$ | 12 |
 | $E_{VII}$ | $E_{7(-25)}/[E_6 \times \mathrm{SO}(2)]$ | $E_7/[E_6 \times \mathrm{SO}(2)]$ | 27 | $BC_1$ $(= A_1)$ | 18 |
 
@@ -66,13 +66,14 @@ The spectral gap $\lambda_1 > 0$ for every entry is a theorem of representation 
 
 ### 3.1 Type IV: SU($N_c$) on $D_{IV}^{N_c+2}$
 
-For type IV domains $D_{IV}^n$ with $n \geq 3$, the restricted root system is $BC_2$ with multiplicities:
+For type IV domains $D_{IV}^n$ with $n \geq 3$, the restricted root system is $B_2$ (reduced) with multiplicities:
 
 | Root type | Multiplicity | Formula |
 |-----------|-------------|---------|
 | Short ($\pm e_i$) | $m_s = n - 2$ | $= N_c$ |
 | Long ($\pm e_1 \pm e_2$) | $m_l = 1$ | temporal |
-| Double ($\pm 2e_i$) | $m_{2s} = 1$ | scalar |
+
+The system is reduced — there are no roots $\pm 2e_i$. (Note: E$_{III}$ and some other exceptional domains DO have $BC_2$ root systems with double roots; this distinction applies specifically to Type IV.)
 
 The short root multiplicity $m_s$ determines the gauge group: $m_s$ color charges give SU($m_s$) = SU($N_c$). Since $N_c = n - 2$, the correspondence is:
 
@@ -91,7 +92,7 @@ $$\text{SU}(N_c) \longleftrightarrow D_{IV}^{N_c + 2}$$
 
 ### 3.2 Why the Correspondence Holds
 
-The short root multiplicity $m_s$ in $BC_2$ counts the number of independent directions in the restricted root space $\mathfrak{g}_{\alpha}$ for short roots $\alpha$. For $D_{IV}^n$:
+The short root multiplicity $m_s$ in $B_2$ counts the number of independent directions in the restricted root space $\mathfrak{g}_{\alpha}$ for short roots $\alpha$. For $D_{IV}^n$:
 
 $$m_s = \dim_{\mathbb{R}} \mathfrak{g}_\alpha = n - 2$$
 
