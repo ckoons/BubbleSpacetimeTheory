@@ -54,7 +54,7 @@ This is arithmetic. The structural content is that the Gödel cap f_c and the Ca
 
 **Route 2 (Coverage)**: The directed coverage threshold for the Gödel limit is ceil(1/f_c) = 6. This is a coupon-collector computation: if each patch independently observes fraction f_c of information space, and patches are directed (non-overlapping), then ceil(1/f_c) patches suffice for full coverage.
 
-**Route 3 (Topology)**: The Euler characteristic of the compact dual G^c/K = SO(7)/[SO(5) x SO(2)] is chi = |W(G)|/|W(K)| restricted to the BC_2 root system = 48/8 = 6 (T1277, Route A).
+**Route 3 (Topology)**: The Euler characteristic of the compact dual G^c/K = SO(7)/[SO(5) x SO(2)] is chi = |W(G)|/|W(K)| restricted to the B_2 root system = 48/8 = 6 (T1277, Route A).
 
 These three constructions live in different mathematical categories (algebra, information theory, geometry) and share no intermediate steps. Their agreement at C_2 = 6 is overdetermination (T1278 class 2a).
 

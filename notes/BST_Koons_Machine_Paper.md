@@ -288,7 +288,7 @@ This is like a compiler optimization flag: "this loop can be parallelized." You 
 
 ### 8.1 Why Three Operations?
 
-The three operations are not arbitrary. They correspond to the three generators of the restricted root system BC₂ of D_IV^5:
+The three operations are not arbitrary. They correspond to the three generators of the restricted root system B₂ of D_IV^5:
 
 | Generator | Root | Operation | Depth |
 |-----------|------|-----------|-------|
@@ -296,7 +296,7 @@ The three operations are not arbitrary. They correspond to the three generators 
 | Simple reflection s₂ | long root α₂ | Eigenvalue extraction | 0 |
 | Composition s₁s₂ | 2α₁+α₂ | Fubini collapse | 1 |
 
-The Weyl group W(BC₂) has order |W| = 8. Any element decomposes into at most 2 simple reflections (= rank). This is why depth ≤ 2 structurally and depth ≤ 1 under the Casey strict criterion.
+The Weyl group W(B₂) has order |W| = 8. Any element decomposes into at most 2 simple reflections (= rank). This is why depth ≤ 2 structurally and depth ≤ 1 under the Casey strict criterion.
 
 ### 8.2 The Depth Ceiling
 

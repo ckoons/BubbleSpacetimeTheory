@@ -20,7 +20,7 @@ prior_papers: "Paper #44 (Applied Linearization), Paper #43 (SAT Linearization)"
 
 ## Abstract
 
-Lattice-based cryptography is the NIST post-quantum standard. The standard explanation for its quantum resistance is the absence of known quantum algorithms for lattice problems. We provide a structural explanation from BST: **lattice problems resist quantum attack because additive lattices lack the Weyl symmetry that Shor's algorithm exploits in multiplicative groups.** The $BC_2$ root system of $D_{IV}^5$ has Weyl group $W(BC_2)$ of order $W = 2^{N_c} = 8$. Factoring operates in the multiplicative group $(Z/NZ)^*$, which has this Weyl symmetry — Shor's QFT exploits it for period finding. Lattice problems operate in the additive group $\mathbb{Z}^n$, which has no hidden period and no Weyl structure to exploit. The LLL algorithm has approximation exponent $1/\text{rank} = 1/2$, the Lovász condition base is $4/3 = 2^{\text{rank}}/N_c$, the E₈ lattice has dimension $W = 2^{N_c} = 8$ and Hermite constant $\gamma_8 = \text{rank} = 2$, the Leech lattice has dimension $N_c \times W = 24$ and $\gamma_{24} = 2\text{rank} = 4$, and the KYBER modulus is $q = 3329 = p(C_2) \times 2^W + 1$ where $p(C_2) = 13$ is the $C_2$-th prime. The NFS constant $c^3 = 2^{C_2}/N_c^2 = 64/9$ connects factoring to lattice problems through the same five integers. Post-quantum security is not an accident of algorithmic ignorance — it is a structural property of $D_{IV}^5$: the Weyl group discriminates between quantum-breakable and quantum-resistant cryptography. AC: $(C=2, D=0)$.
+Lattice-based cryptography is the NIST post-quantum standard. The standard explanation for its quantum resistance is the absence of known quantum algorithms for lattice problems. We provide a structural explanation from BST: **lattice problems resist quantum attack because additive lattices lack the Weyl symmetry that Shor's algorithm exploits in multiplicative groups.** The $B_2$ root system of $D_{IV}^5$ has Weyl group $W(B_2)$ of order $W = 2^{N_c} = 8$. Factoring operates in the multiplicative group $(Z/NZ)^*$, which has this Weyl symmetry — Shor's QFT exploits it for period finding. Lattice problems operate in the additive group $\mathbb{Z}^n$, which has no hidden period and no Weyl structure to exploit. The LLL algorithm has approximation exponent $1/\text{rank} = 1/2$, the Lovász condition base is $4/3 = 2^{\text{rank}}/N_c$, the E₈ lattice has dimension $W = 2^{N_c} = 8$ and Hermite constant $\gamma_8 = \text{rank} = 2$, the Leech lattice has dimension $N_c \times W = 24$ and $\gamma_{24} = 2\text{rank} = 4$, and the KYBER modulus is $q = 3329 = p(C_2) \times 2^W + 1$ where $p(C_2) = 13$ is the $C_2$-th prime. The NFS constant $c^3 = 2^{C_2}/N_c^2 = 64/9$ connects factoring to lattice problems through the same five integers. Post-quantum security is not an accident of algorithmic ignorance — it is a structural property of $D_{IV}^5$: the Weyl group discriminates between quantum-breakable and quantum-resistant cryptography. AC: $(C=2, D=0)$.
 
 ---
 
@@ -28,7 +28,7 @@ Lattice-based cryptography is the NIST post-quantum standard. The standard expla
 
 RSA falls to Shor's algorithm. Elliptic curve cryptography falls to Shor's algorithm. But lattice-based cryptography — KYBER, Dilithium, the NIST post-quantum standards — appears immune. The standard explanation: no efficient quantum algorithm for lattice problems is known.
 
-BST provides a deeper explanation: the quantum vulnerability of RSA and the quantum resistance of lattices have the **same structural cause**, viewed from opposite sides. Both are hard classically because of the rank-2 $\to$ $N_c$ projection in $BC_2$ coordinates. But only factoring has the Weyl symmetry ($W = 2^{N_c} = 8$) that the quantum Fourier transform can exploit. Lattice problems lack this symmetry, so no quantum lift exists.
+BST provides a deeper explanation: the quantum vulnerability of RSA and the quantum resistance of lattices have the **same structural cause**, viewed from opposite sides. Both are hard classically because of the rank-2 $\to$ $N_c$ projection in $B_2$ coordinates. But only factoring has the Weyl symmetry ($W = 2^{N_c} = 8$) that the quantum Fourier transform can exploit. Lattice problems lack this symmetry, so no quantum lift exists.
 
 ---
 
@@ -58,7 +58,7 @@ Shor's algorithm factors $N = pq$ by:
 
 The QFT works because the multiplicative group $(Z/NZ)^*$ has **abelian symmetry**: the map $x \mapsto a^x \bmod N$ is periodic with period $r$, and the QFT detects periodicity.
 
-In BST terms: the CRT decomposition $\mathbb{Z}/N\mathbb{Z} \cong \mathbb{Z}/p\mathbb{Z} \times \mathbb{Z}/q\mathbb{Z}$ is a **rank-2 structure** (two prime factors). Shor's QFT inverts the $BC_2$ projection by exploiting the $W = 2^{N_c} = 8$ Weyl reflections of this rank-2 system. Each Weyl element corresponds to a sign combination in the CRT decomposition.
+In BST terms: the CRT decomposition $\mathbb{Z}/N\mathbb{Z} \cong \mathbb{Z}/p\mathbb{Z} \times \mathbb{Z}/q\mathbb{Z}$ is a **rank-2 structure** (two prime factors). Shor's QFT inverts the $B_2$ projection by exploiting the $W = 2^{N_c} = 8$ Weyl reflections of this rank-2 system. Each Weyl element corresponds to a sign combination in the CRT decomposition.
 
 ---
 
@@ -169,7 +169,7 @@ The factoring-lattice bridge: both problems live in the same BST integer hierarc
 
 ### 11. Discussion
 
-The quantum revolution in cryptography is not random: it breaks exactly the systems whose algebraic structure has Weyl symmetry, and leaves alone exactly those that lack it. BST explains why: the $BC_2$ root system provides a rank-2 projection mechanism that creates computational hardness in all five canonical problems (Paper #44). Quantum computing provides a lift out of this projection — but only when the Weyl group $W(BC_2)$ of order $W = 2^{N_c} = 8$ is present in the algebraic structure.
+The quantum revolution in cryptography is not random: it breaks exactly the systems whose algebraic structure has Weyl symmetry, and leaves alone exactly those that lack it. BST explains why: the $B_2$ root system provides a rank-2 projection mechanism that creates computational hardness in all five canonical problems (Paper #44). Quantum computing provides a lift out of this projection — but only when the Weyl group $W(B_2)$ of order $W = 2^{N_c} = 8$ is present in the algebraic structure.
 
 Factoring has it (the multiplicative group of integers mod $N$ is abelian, with CRT decomposition giving rank-2 structure and $W$ sign combinations). Lattice problems don't (the additive group of $\mathbb{Z}^n$ has no multiplicative symmetry). The discriminator is not the problem's difficulty — it is the problem's **symmetry**.
 

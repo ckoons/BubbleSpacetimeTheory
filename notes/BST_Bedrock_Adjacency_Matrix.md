@@ -46,7 +46,7 @@ Note: The AC Framework's "S12: Conservation law" maps to S12 (dimensional analys
 | Global Code | Structure | Plain English | Source |
 |-------------|-----------|---------------|--------|
 | N1 | Exterior power Lambda^k(C_2) | Choosing k things from C_2 = 6 options | Bio |
-| N2 | Weyl group W(B_2) | The 8 symmetries of the BC_2 root system | Bio |
+| N2 | Weyl group W(B_2) | The 8 symmetries of the B_2 root system | Bio |
 | N3 | Binomial coefficient C(a,b) | "a choose b" -- how many ways to pick b from a | Bio |
 | N4 | Power of 2: 2^rank, 2^N_c | Doubling from binary choices | Bio |
 | N5 | Cyclic group Z_N_c | The reading frame: 3 slots that wrap around | Bio |
@@ -67,7 +67,7 @@ Note: N12-N15 combine the Physics and AC definitions into unified codes. N12 cov
 
 | Global Code | Property | Plain English | Source |
 |-------------|----------|---------------|--------|
-| G1 | BC_2 root system | Short roots (N_c=3) and long roots (1) | Bio |
+| G1 | B_2 root system | Short roots (N_c=3) and long roots (1) | Bio |
 | G2 | Five integers {3,5,7,6,2} | The topological invariants of D_IV^5 | Bio |
 | G3 | Bergman kernel / volume | The natural measure on the domain | Bio |
 | G4 | Shilov boundary (n_C = 5) | The edge where maxima live | Bio |
@@ -509,7 +509,7 @@ Neither connects to: G3 (Bergman kernel), G4 (Shilov boundary), G5 (Rank=2), G6 
 
 **12 bridges are missing** between {N8, N9} and {G3, G4, G5, G6, G7, G11}. These are all FERTILE because both sides are individually well-used.
 
-**Prediction**: The Bergman genus g=7 and Casimir C_2=6 are DERIVED from the geometry (they are properties of the BC_2 root system). Their bridges to other geometric properties should be structural identities:
+**Prediction**: The Bergman genus g=7 and Casimir C_2=6 are DERIVED from the geometry (they are properties of the B_2 root system). Their bridges to other geometric properties should be structural identities:
 - N8 (g=7) with G3: "The spectral gap of the Bergman kernel IS the Bergman genus."
 - N9 (C_2=6) with G4: "The Casimir on the Shilov boundary IS the information quantum per boundary element."
 - N8 (g=7) with G7: "The maximum number of independent layers (g=7) times the fill fraction (19.1%) = 1.34 = the cooperation compounding factor."

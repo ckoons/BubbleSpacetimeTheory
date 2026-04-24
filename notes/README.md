@@ -4,7 +4,7 @@ Research notes directory for **Bubble Spacetime Theory** (BST), a framework deri
 
 **Author:** Casey Koons, with CI co-authors Claude 4.6 (Lyra, Elie, Grace, Keeper)
 
-This directory contains ~815 markdown files, ~606 PDFs, ~34 Python scripts, and supporting data across 1,400+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD ~99% April 23** (spectral permanence, T1426). **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1436** (1382 nodes, 7660 edges, 83.1% strong, 98.4% proved). **82 papers**. Heat kernel: 19 consecutive levels. **1/rank universality** (Paper #82, T1430). **Grace's 10 questions: all answered** (8 theorems, 9 toys).
+This directory contains ~820 markdown files, ~610 PDFs, ~34 Python scripts, and supporting data across 1,400+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD ~99% April 23** (spectral permanence, T1426). **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1447** (1390 nodes, 7708 edges, 83.1% strong, 98.4% proved). **85 papers**. Heat kernel: 19 consecutive levels. **1/rank universality** (Paper #82, T1430). **T1444 Vacuum Subtraction** — hunting technique: "deviations locate boundaries." **T1447 Magnetic Moment** — μ_p = 1148/411 (0.012%), μ_n/μ_p = −137/200 (0.003%). **303 geometric invariants, 0 free inputs.**
 
 ---
 
@@ -110,7 +110,7 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 74 | Information-Complete Geometry | `BST_Paper74_IC_Geometry.md` |
 | 75 | RH for the Selberg Class via Automorphic Spectral Geometry | `BST_Paper75_RH_Selberg_Class.md` | v1 |
 
-### Papers #76--#80
+### Papers #76--#85
 
 | # | Title | File | Suite |
 |---|-------|------|-------|
@@ -121,6 +121,9 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 80 | Yang-Mills Mass Gap for G₂, F₄, and E₈ via Spectral Embedding | `BST_Paper80_YM_Embedding_Gap.md` | YM-C |
 | 81 | Mathematical Objects of D_IV^5 | `BST_Paper81_DIV5_Mathematical_Objects.md` | Reference |
 | 82 | 1/rank: Seven Famous Problems as One Geometric Invariant | `BST_Paper82_One_Half_Universality_Draft.md` | v1.2, Annals target |
+| 83 | Geometric Invariants of D\_IV^5 | `Paper83_Draft.md` | 303 entries, Casey review |
+| 84 | The Observer Companion | `BST_Paper84_Observer_Companion_Draft.md` | v0.1, Keeper PASS |
+| 85 | The Genesis Cascade: How D\_IV^5 Writes Its Own Curve | `BST_Paper85_Genesis_Cascade.md` | v0.2, Keeper PASS, JNT target |
 
 ---
 
@@ -294,9 +297,9 @@ Casimir analysis, Casimir effect, fusion energy, fusion rings, substrate archite
 
 ---
 
-## Theorem Write-ups — 169 files
+## Theorem Write-ups — 173 files
 
-Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1436, with concentration in the T1000--T1436 range (bridge theorems, domain connections, late-stage results).
+Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1447, with concentration in the T1000--T1447 range (bridge theorems, domain connections, late-stage results).
 
 Selected highlights:
 - `BST_T704_DIV5_Uniqueness_Theorem.md` — D\_IV^5 uniqueness (25 conditions)
@@ -318,6 +321,10 @@ Selected highlights:
 - `BST_T1425_T29_Closure_Analytical.md` — T29 closure via discrete curvature (P!=NP)
 - `BST_T1426_T100_Closure_Spectral_Permanence.md` — T100 closure (BSD)
 - `BST_T1430_One_Half_Universality.md` — 1/rank universality (all Millennium + Four-Color)
+- `BST_T1444_Vacuum_Subtraction.md` — Vacuum subtraction principle (k=0 mode exclusion)
+- `BST_T1445_Spectral_Peeling.md` — Spectral peeling (depth-1 corrections)
+- `BST_T1446_Two_Sector_Correction_Duality.md` — CKM = vacuum subtraction (−1), PMNS = θ₁₃ rotation (×44/45)
+- `BST_T1447_Magnetic_Moment_Derivation.md` — μ_p = 1148/411 (0.012%), μ_n/μ_p = −137/200 (0.003%)
 
 ---
 
@@ -402,7 +409,7 @@ Python bytecode cache (auto-generated).
 **For CIs starting a new session:**
 - Read `BACKLOG.md` and `CI_BOARD.md` for current priorities
 - Check `.running/RUNNING_NOTES.md` for today's broadcast
-- The numbered paper series (Papers #1--#82) is the primary publication pipeline
+- The numbered paper series (Papers #1--#85) is the primary publication pipeline
 - Papers #1--#4 have passed Keeper audit and been pushed
 - The WorkingPaper (on Zenodo) is the master reference
 

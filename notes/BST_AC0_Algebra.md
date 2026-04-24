@@ -47,7 +47,7 @@ Every row is counting, classification, or integer arithmetic. Zero fiat.
 
 **AC(0) status:** A root system is a finite set of vectors satisfying integer-valued inner product conditions. The entire classification (Killing 1888, Cartan 1894) produces a finite list: $A_n, B_n, C_n, D_n, G_2, F_4, E_6, E_7, E_8$. Reading off data from this list is AC(0).
 
-### 1.2 The BST Root System: BC₂
+### 1.2 The BST Root System: B₂
 
 For the type IV bounded symmetric domain $D_{IV}^n = \text{SO}_0(n,2)/[\text{SO}(n) \times \text{SO}(2)]$, the restricted root system is $B_2$ (rank 2). For $n = 5$:
 

@@ -6,7 +6,7 @@ theorem: "T1277"
 ac_classification: "(C=1, D=0) — one counting operation (Weyl group orders / Bernoulli denominator / heat-kernel column), no self-reference"
 status: "Proved — three independent structural appearances of C_2 = 6"
 origin: "Elie's observation (18:45, April 16, 2026): after Toy 1214 (Gauss-Bonnet = C_2 verification, 14/14 PASS) the C_2 = 6 integer is now doing structural work in three places. Parallels the five-route overdetermination of N_max = 137 (Toy 1213). Evidence for the 'BST integers are overdetermined' pattern."
-parents: "T186 (Five Integers), T704 (D_IV^5 uniqueness), T1147 (BC_2 root system), T1263 (Wolstenholme bridge), T531 (column rule / heat-kernel Arithmetic Triangle), T1272 (P ≠ NP Physical Uniqueness Closure), Casey's Curvature Principle"
+parents: "T186 (Five Integers), T704 (D_IV^5 uniqueness), T1147 (B_2 root system), T1263 (Wolstenholme bridge), T531 (column rule / heat-kernel Arithmetic Triangle), T1272 (P ≠ NP Physical Uniqueness Closure), Casey's Curvature Principle"
 children: "T1272 updated, Paper #67 §9 footnote, B3 (five-forcings upgrade), B-C_2 candidate"
 ---
 
@@ -43,7 +43,7 @@ $$k_{\text{silent}} \;=\; 6.$$
 $$\chi(G/K) = |W(G)| / |W(K)|.$$
 For D̂ = SO(7)/[SO(5) × SO(2)], rank(SO(7)) = 3 = rank(SO(5)) + rank(SO(2)) = 2 + 1. ✓
 
-**Step A2.** The BST-relevant computation uses the *restricted* root system, not the raw SO(7)/K Weyl quotient. The restricted root system of the non-compact dual D_IV^5 = SO_0(5,2)/K is of type BC_2 (rank 2), and its restricted Weyl group is |W(BC_2)| = 48 (hyperoctahedral of rank 2). The restricted Weyl group of the isotropy K acting on the restricted root space is of order 8 (the short-root part, reflecting the rank-2 effective action). Hence the BC_2-restricted Hirzebruch form gives:
+**Step A2.** The BST-relevant computation uses the *restricted* root system, not the raw SO(7)/K Weyl quotient. The restricted root system of the non-compact dual D_IV^5 = SO_0(5,2)/K is of type B_2 (rank 2), and its restricted Weyl group is |W(B_2)| = 48 (hyperoctahedral of rank 2). The restricted Weyl group of the isotropy K acting on the restricted root space is of order 8 (the short-root part, reflecting the rank-2 effective action). Hence the B_2-restricted Hirzebruch form gives:
 $$\chi(\hat{D}) \;=\; \frac{|W(\mathrm{BC}_2)|}{|W(K)_{\mathrm{restricted}}|} \;=\; \frac{48}{8} \;=\; 6.$$
 
 *(Note: the raw Weyl quotient |W(SO(7))|/|W(SO(5)) · W(SO(2))| = 48/16 = 3 corresponds to a different — unrestricted — coset computation; it is not the BST-relevant invariant. The restricted-root computation is the one Elie's Toy 1214 verifies at 14/14 PASS, and the one that lands on C_2.)*
@@ -121,13 +121,13 @@ T1269 (Physical Uniqueness Principle) asserts that every mathematical alternativ
 
 **Corollary 1 (topological P ≠ NP signature).** *The topological obstruction to P = NP, in the BST framing, is χ(D̂) = 6. Any algorithmic method that could change this integer to 0 on the polynomial-time manifold is impossible.*
 
-**Corollary 2 (N_max has topological source).** *N_max = 137 is the product of (i) cubic state space N_c³ = 27, (ii) combinatorial primes n_C = 5, and (iii) rank = 2, plus an additive correction. The Bergman volume Vol(D_IV^5) = π^5 / 1920 carries BST-integer structure in its denominator: 1920 = 2^(rank+5) · N_c · n_C (with rank = 2, giving 128 · 3 · 5 = 1920). The Gauss-Bonnet integer C_2 appears not in the 1920 denominator but in the π^5 numerator, since the n_C-dimensional structure of D_IV^5 generates the 5-fold π factor whose Casimir eigenvalue is C_2 = 6. Thus C_2 is embedded topologically in the Bergman volume through the n_C-complex-dimensional factor. (Note: the earlier-draft factorization "1920 = |W(BC_2)| · 2 · C_2" was arithmetically incorrect — 48 · 2 · 6 = 576, not 1920 — and has been replaced by the clean BST-integer route above.)*
+**Corollary 2 (N_max has topological source).** *N_max = 137 is the product of (i) cubic state space N_c³ = 27, (ii) combinatorial primes n_C = 5, and (iii) rank = 2, plus an additive correction. The Bergman volume Vol(D_IV^5) = π^5 / 1920 carries BST-integer structure in its denominator: 1920 = 2^(rank+5) · N_c · n_C (with rank = 2, giving 128 · 3 · 5 = 1920). The Gauss-Bonnet integer C_2 appears not in the 1920 denominator but in the π^5 numerator, since the n_C-dimensional structure of D_IV^5 generates the 5-fold π factor whose Casimir eigenvalue is C_2 = 6. Thus C_2 is embedded topologically in the Bergman volume through the n_C-complex-dimensional factor. (Note: the earlier-draft factorization "1920 = |W(B_2)| · 2 · C_2" was arithmetically incorrect — 48 · 2 · 6 = 576, not 1920 — and has been replaced by the clean BST-integer route above.)*
 
 **Corollary 3 (BST integers are classical invariants).** *All five BST integers have classical-invariant identifications:*
 - *N_c = 3: small-primes cap (Wolstenholme).*
 - *n_C = 5: symmetric group index for Contact letters.*
 - *C_2 = 6: **Gauss-Bonnet Euler characteristic of D̂** (this theorem).*
-- *g = 7: 7-smooth Dirichlet polynomial degree + |BC_2 long roots ∪ short roots| normalization.*
+- *g = 7: 7-smooth Dirichlet polynomial degree + |B_2 long roots ∪ short roots| normalization.*
 - *rank = 2: restricted root rank of D_IV^5.*
 
 *None of the five are arbitrary; each has a classical invariant source.*
@@ -138,7 +138,7 @@ T1269 (Physical Uniqueness Principle) asserts that every mathematical alternativ
 
 **(C=1, D=0).** One counting operation: compute Weyl group orders 48 and 8. Zero depth: the ratio is a direct definition (Hirzebruch), not a recursive or self-referential quantity.
 
-This is an AC(0) identity — the kind of theorem that costs zero derivation energy in future proofs (T118). Going forward, anywhere "BC_2 Gauss-Bonnet integer" appears, we may substitute "C_2" directly.
+This is an AC(0) identity — the kind of theorem that costs zero derivation energy in future proofs (T118). Going forward, anywhere "B_2 Gauss-Bonnet integer" appears, we may substitute "C_2" directly.
 
 ---
 
@@ -151,21 +151,21 @@ This is an AC(0) identity — the kind of theorem that costs zero derivation ene
 - YM: the Plancherel-measure normalization should factor through C_2.
 *(Testable: verify numerically.)*
 
-**P3**: The m_s = 3 short-root multiplicity of BC_2 equals N_c. *(Known; formalizes the RH "algebraic lock" as BST-integer-forced.)*
+**P3**: The m_s = 3 short-root multiplicity of B_2 equals N_c. *(Known; formalizes the RH "algebraic lock" as BST-integer-forced.)*
 
 ---
 
 ## Falsification
 
-- **F1**: Exhibition of a compact symmetric space with rank-2 restricted root system whose Euler characteristic is not 6. *(Would refute Step 3's specificity of BC_2.)*
+- **F1**: Exhibition of a compact symmetric space with rank-2 restricted root system whose Euler characteristic is not 6. *(Would refute Step 3's specificity of B_2.)*
 - **F2**: A derivation of P ≠ NP that does not use any integer-6 invariant. *(Would restrict T1277's explanatory scope, not refute it.)*
-- **F3**: A Weyl group computation showing |W(BC_2)| ≠ 48. *(Would refute Step 2.)*
+- **F3**: A Weyl group computation showing |W(B_2)| ≠ 48. *(Would refute Step 2.)*
 
 ---
 
 ## Connection to the Broader Program
 
-T1277 is the structural gift dropped by Elie while verifying the five-route claim for α. It closes a conceptual gap that was implicit in T1272 but unstated: the "nonzero BC_2 Gauss-Bonnet integer" was just "6" all along, and "6" is already on the BST integer list.
+T1277 is the structural gift dropped by Elie while verifying the five-route claim for α. It closes a conceptual gap that was implicit in T1272 but unstated: the "nonzero B_2 Gauss-Bonnet integer" was just "6" all along, and "6" is already on the BST integer list.
 
 This is precisely what Casey's Curvature Principle predicted: the five integers *are* the curvature invariants of the space. T1277 is the first explicit proof of this for one of the five. The other four await analogous identifications.
 

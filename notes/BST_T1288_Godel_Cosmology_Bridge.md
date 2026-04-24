@@ -56,7 +56,7 @@ The 19 modes decompose as:
 
 **N_c² = 9 modes** (color sector): The SU(N_c) color algebra has N_c² - 1 = 8 generators plus 1 Cartan (or equivalently, N_c² = 9 = 3 × 3 color × anti-color entries). These are the "strong" modes.
 
-**2n_C = 10 modes** (matter sector): Two copies of the n_C = 5 matter dimension, one for each rank direction of the BC₂ root system. These are the "electroweak + gravitational" modes.
+**2n_C = 10 modes** (matter sector): Two copies of the n_C = 5 matter dimension, one for each rank direction of the B₂ root system. These are the "electroweak + gravitational" modes.
 
 Total: 9 + 10 = 19.
 

@@ -60,11 +60,11 @@ From W1-W3 and W5, we have:
 1. **Hilbert space**: $\mathcal{H} = L^2(\Gamma \backslash G/K)$, separable (Rellich)
 2. **Vacuum**: $\Omega = 1 \in \mathcal{H}$, the constant function (unique by W5)
 3. **Group action**: Continuous unitary representation $U : \mathrm{SO}_0(5,2) \to \mathcal{U}(\mathcal{H})$
-4. **Positive energy**: The generator $H$ of the "temporal" one-parameter subgroup (boost in the $e_1 + e_2$ direction of $BC_2$) has $H \geq 0$ (W3)
+4. **Positive energy**: The generator $H$ of the "temporal" one-parameter subgroup (boost in the $e_1 + e_2$ direction of $B_2$) has $H \geq 0$ (W3)
 
 ### 2.2 The boost and the modular operator
 
-Let $K \in \mathfrak{so}(5,2)$ be the generator of the Lorentz boost in the temporal direction. In the $BC_2$ root system, the temporal direction corresponds to the long root $e_1 + e_2$ (multiplicity 1, identifying time). The boost generator $K$ lives in the $\mathfrak{g}_{e_1+e_2}$ root space.
+Let $K \in \mathfrak{so}(5,2)$ be the generator of the Lorentz boost in the temporal direction. In the $B_2$ root system, the temporal direction corresponds to the long root $e_1 + e_2$ (multiplicity 1, identifying time). The boost generator $K$ lives in the $\mathfrak{g}_{e_1+e_2}$ root space.
 
 Define:
 

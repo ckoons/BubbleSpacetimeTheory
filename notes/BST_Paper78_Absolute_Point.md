@@ -90,12 +90,12 @@ $$G(\mathbb{F}_1) = W(G)$$
 
 For BST:
 
-$$W(\mathrm{SO}_0(5,2)) = W(BC_2) = (\mathbb{Z}/2)^2 \rtimes S_2$$
+$$W(\mathrm{SO}_0(5,2)) = W(B_2) = (\mathbb{Z}/2)^2 \rtimes S_2$$
 
 This has order $2^{\text{rank}} \times \text{rank}! = 2^2 \times 2 = 8 = 2^{N_c}$. The Weyl group acts on the rank-2 maximal torus by signed permutations. Its structure encodes:
 
 - $|W| = 8 = 2^{N_c}$: the number of octants in color space
-- The sign changes permute the $BC_2$ roots
+- The sign changes permute the $B_2$ roots
 - $W/\text{reflections} = S_2$: the rank-2 symmetry that gives the polydisk foliation
 
 ---

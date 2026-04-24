@@ -10,7 +10,7 @@ depends: "Toy 324 (c-function unitarity, 5/5 PASS), Lemma 5.5 (exponent rigidity
 
 ## The mechanism (Toy 324)
 
-The BC₂ c-function satisfies:
+The B₂ c-function satisfies:
 - c(ν)·c(-ν) = |c(ν)|² **exactly** at σ = 1/2 (verified to 50 digits)
 - Monotonic deviation off the critical line
 
@@ -63,5 +63,5 @@ In rank 1 (SL(2,ℝ)): the Maass-Selberg relation is scalar, and the constraint 
 Write a complete Proposition 5.X replacing Lemma 5.6 + Theorem 5.7 that:
 1. States the Maass-Selberg positivity for D_IV^5 explicitly
 2. Shows the residual contribution from an off-line zero violates positivity
-3. Uses the rank-2 (BC₂) structure and algebraic lock
+3. Uses the rank-2 (B₂) structure and algebraic lock
 4. Does NOT assume anything about L[F]'s pole structure (avoids the Laplace trap)

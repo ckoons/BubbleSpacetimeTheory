@@ -49,13 +49,13 @@ The divergence of $K(z,z)$ as one approaches this boundary is the analytic manif
 
 ### Part (b)
 
-The Harish-Chandra c-function for $G = SO_0(5,2)$ with restricted root system $BC_2$ is:
+The Harish-Chandra c-function for $G = SO_0(5,2)$ with restricted root system $B_2$ is:
 
 $$c(\lambda) = \prod_{\alpha \in \Sigma^+} \frac{\Gamma(\langle \lambda, \alpha^\vee \rangle)}{\Gamma(\langle \lambda, \alpha^\vee \rangle + m_\alpha / 2)}$$
 
-where $m_\alpha$ are the root multiplicities. For $BC_2$ with the standard parametrization, the half-sum of positive roots $\rho$ has coordinates determined by the root structure.
+where $m_\alpha$ are the root multiplicities. For $B_2$ with the standard parametrization, the half-sum of positive roots $\rho$ has coordinates determined by the root structure.
 
-The key structural fact: the positive roots of $BC_2$ decompose into short, medium, and long roots, with multiplicities determined by $n = 5$. The c-function at $\rho$ encodes how rapidly harmonic functions on $D_{IV}^5$ decay toward the boundary — the "forward" asymptotic rate. The complement $c(-\rho)$ encodes the "backward" rate.
+The key structural fact: the positive roots of $B_2$ decompose into short, medium, and long roots, with multiplicities determined by $n = 5$. The c-function at $\rho$ encodes how rapidly harmonic functions on $D_{IV}^5$ decay toward the boundary — the "forward" asymptotic rate. The complement $c(-\rho)$ encodes the "backward" rate.
 
 The dark energy fraction $\Omega_\Lambda = 13/19$ (to 0.07$\sigma$, Planck 2018) arises as:
 - Numerator 13 = $2g - 1$ = number of forward root contributions

@@ -18,7 +18,7 @@ children: "Paper #67 (Physical Uniqueness Closes the Millennium Problems)"
 ## Statement
 
 **Theorem (T1270).**
-*Let P_RH := {location of nontrivial zeros of ζ(s), the Maass-Selberg unitarity defect on D_IV^5, exponent distinctness of c-function exponents}. Let X = (ζ, Selberg class, BC_2 root system). Then:*
+*Let P_RH := {location of nontrivial zeros of ζ(s), the Maass-Selberg unitarity defect on D_IV^5, exponent distinctness of c-function exponents}. Let X = (ζ, Selberg class, B_2 root system). Then:*
 
 1. **(S) Sufficiency.** *X reads every observable in P_RH via the Arthur trace formula on Γ\D_IV^5 (RH Paper A, Thm 1.1).*
 2. **(I) Isomorphism closure.** *Any L-function L' satisfying Selberg axioms R1-R6 and reproducing P_RH is isomorphic to ζ in the category of Dirichlet series (Hamburger 1921 + twist classification).*

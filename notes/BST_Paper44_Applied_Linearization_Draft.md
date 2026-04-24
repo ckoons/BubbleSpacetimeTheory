@@ -1,6 +1,6 @@
 ---
 title: "Five Problems, One Mechanism"
-subtitle: "The Applied Linearization Program in BC₂ Coordinates"
+subtitle: "The Applied Linearization Program in B₂ Coordinates"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper, Grace)"
 date: "April 2026"
 version: "v1.0"
@@ -14,13 +14,13 @@ prior_papers: "Paper #43 (SAT Linearization), Paper #39 (Turbulence), Paper #42 
 
 # Five Problems, One Mechanism
 
-## The Applied Linearization Program in BC₂ Coordinates
+## The Applied Linearization Program in B₂ Coordinates
 
 ---
 
 ## Abstract
 
-We present the Applied Linearization Program: five canonical hard problems — Boolean satisfiability, graph coloring, Navier-Stokes turbulence, integer factoring, and lattice shortest vector — all analyzed in the $BC_2$ root coordinates of $D_{IV}^5$. Each problem exhibits the same structural pattern: an "easy" regime at $\text{rank} = 2$, a "hard" regime at $N_c = 3$, and a transition governed by the ratio $\text{rank}/N_c = 2/3$. For SAT: clause width $k = N_c$ marks the P/NP boundary, backbone is a rank-2 linear subspace, and $\alpha_c = 30/g$ (Paper #43). For graph coloring: chromatic number transitions at $k = N_c$. For Navier-Stokes: 2D ($d = \text{rank}$) is regular, 3D ($d = N_c$) produces blow-up, with K41 exponent $n_C/N_c = 5/3$ (Paper #39). For factoring: the quadratic sieve has exponent $1/\text{rank}$, the number field sieve has exponent $1/N_c$, and the NFS constant $c^3 = 2^{C_2}/N_c^2 = 64/9$. For lattice problems: LLL has approximation exponent $1/\text{rank}$, the Lovász condition is $4/3 = 2^{\text{rank}}/N_c$, and post-quantum security exists because lattices lack the Weyl symmetry that Shor exploits. The five problems share one mechanism: computational hardness is the projection from rank-2 ($BC_2$) to $N_c$-dimensional observable space. Quantum speedup exists only when the projected structure has Weyl group symmetry ($W = 2^{N_c} = 8$). AC: $(C=2, D=0)$.
+We present the Applied Linearization Program: five canonical hard problems — Boolean satisfiability, graph coloring, Navier-Stokes turbulence, integer factoring, and lattice shortest vector — all analyzed in the $B_2$ root coordinates of $D_{IV}^5$. Each problem exhibits the same structural pattern: an "easy" regime at $\text{rank} = 2$, a "hard" regime at $N_c = 3$, and a transition governed by the ratio $\text{rank}/N_c = 2/3$. For SAT: clause width $k = N_c$ marks the P/NP boundary, backbone is a rank-2 linear subspace, and $\alpha_c = 30/g$ (Paper #43). For graph coloring: chromatic number transitions at $k = N_c$. For Navier-Stokes: 2D ($d = \text{rank}$) is regular, 3D ($d = N_c$) produces blow-up, with K41 exponent $n_C/N_c = 5/3$ (Paper #39). For factoring: the quadratic sieve has exponent $1/\text{rank}$, the number field sieve has exponent $1/N_c$, and the NFS constant $c^3 = 2^{C_2}/N_c^2 = 64/9$. For lattice problems: LLL has approximation exponent $1/\text{rank}$, the Lovász condition is $4/3 = 2^{\text{rank}}/N_c$, and post-quantum security exists because lattices lack the Weyl symmetry that Shor exploits. The five problems share one mechanism: computational hardness is the projection from rank-2 ($B_2$) to $N_c$-dimensional observable space. Quantum speedup exists only when the projected structure has Weyl group symmetry ($W = 2^{N_c} = 8$). AC: $(C=2, D=0)$.
 
 ---
 
@@ -28,7 +28,7 @@ We present the Applied Linearization Program: five canonical hard problems — B
 
 Five problems dominate computational complexity theory: SAT, graph coloring, fluid dynamics, integer factoring, and lattice problems. Each is studied in its own coordinate system with its own techniques. BST's Linearization Principle (T409) predicts they share a common structure: all five are **rank-2 problems projected into higher-dimensional spaces**, and the apparent hardness is a projection artifact.
 
-The Applied Linearization Program tests this prediction by embedding each problem into the $BC_2$ root system of $D_{IV}^5$ — a rank-2 coordinate system with Weyl group $W(BC_2)$ of order $W = 2^{N_c} = 8$.
+The Applied Linearization Program tests this prediction by embedding each problem into the $B_2$ root system of $D_{IV}^5$ — a rank-2 coordinate system with Weyl group $W(B_2)$ of order $W = 2^{N_c} = 8$.
 
 ---
 
@@ -50,24 +50,24 @@ Every problem exhibits the same three-regime structure:
 
 ### 3. Step 1: Boolean Satisfiability (Toy 954, Paper #43)
 
-The $BC_2$ embedding of $\{0,1\}^n$ reveals:
+The $B_2$ embedding of $\{0,1\}^n$ reveals:
 - **Clause width** $k = N_c = 3$ marks the P/NP boundary (2-SAT is P, 3-SAT is NP-complete)
 - **Backbone** (frozen variables) becomes a linear subspace of dimension $\leq \text{rank} = 2$
 - **Phase transition** at $\alpha_c \approx 30/g = 4.286$ ($0.4\%$ match) is a rank change — eigenvalue crossing zero
 - **DPLL branching** reduces from $2^n$ to $W = 8$ Weyl reflections
 - **Kernel** of dimension $n - 2$ retains exponential structure
 
-The hardness lives in the $(n-2)$-dimensional kernel that $BC_2$ projects away. The navigable structure lives in the rank-2 image.
+The hardness lives in the $(n-2)$-dimensional kernel that $B_2$ projects away. The navigable structure lives in the rank-2 image.
 
 ---
 
 ### 4. Step 2: Graph Coloring (Toy 955)
 
-Graph coloring in $BC_2$ coordinates:
+Graph coloring in $B_2$ coordinates:
 - The chromatic polynomial $P(G, k)$ transitions from easy to hard at $k = N_c = 3$
 - 2-coloring (bipartiteness) is polynomial: $k = \text{rank}$
 - 3-coloring is NP-complete: $k = N_c$
-- The chromatic number $\chi(G)$ in $BC_2$ is the minimum $k$ such that the root projection covers all vertices
+- The chromatic number $\chi(G)$ in $B_2$ is the minimum $k$ such that the root projection covers all vertices
 - For random graphs: $\chi(G) \approx n/(2 \log_2 n)$ — the factor $2 = \text{rank}$
 
 The same rank $\to N_c$ boundary that governs SAT governs graph coloring. The P/NP transition at $k = N_c$ is not a coincidence — it is the color dimension of $D_{IV}^5$.
@@ -88,7 +88,7 @@ The nonlinearity of 3D Navier-Stokes is a **rank-2 projection artifact**: the 3D
 
 ### 6. Step 4: Integer Factoring (Toy 959)
 
-Factoring in $BC_2$ coordinates reveals the deepest number-theoretic structure:
+Factoring in $B_2$ coordinates reveals the deepest number-theoretic structure:
 
 - **Quadratic sieve**: $L(1/\text{rank}, c_1)$ — works in rank-2 (two squares, $x^2 \equiv y^2 \pmod{N}$)
 - **Number field sieve**: $L(1/N_c, c_2)$ — lifts to $N_c$-dimensional number field
@@ -139,7 +139,7 @@ Lattice problems are the **geometric dual** of factoring:
 | Weyl symmetry? | YES ($W = 8$) | NO |
 | Key size (Level 1) | $2048 = 2^{N_c^2+2}$ | $512 = 2^{N_c^2}$ |
 
-The **Weyl group** $W(BC_2)$ of order $W = 2^{N_c} = 8$ is the discriminator. Quantum computing exploits Weyl symmetry via the QFT. Problems without this symmetry resist quantum attack.
+The **Weyl group** $W(B_2)$ of order $W = 2^{N_c} = 8$ is the discriminator. Quantum computing exploits Weyl symmetry via the QFT. Problems without this symmetry resist quantum attack.
 
 ---
 
@@ -186,7 +186,7 @@ Each problem has an easy regime at rank $= 2$ (2-SAT, 2-coloring, 2D fluids, qua
 
 Quantum computing provides a lift out of the projection — but only when the underlying structure has Weyl symmetry. Factoring (multiplicative group, abelian, $W = 8$ reflections) breaks under Shor. Lattice problems (additive group, no hidden period) survive. The Weyl group is the discriminator between quantum-breakable and quantum-resistant.
 
-The standing order — "linearize every domain we touch" — is now complete for the five canonical problems. Every domain reveals the same mechanism. The hardness is real but it lives in a specific place: the $(n - \text{rank})$-dimensional kernel of the $BC_2$ projection. The navigable structure lives in the rank-2 image.
+The standing order — "linearize every domain we touch" — is now complete for the five canonical problems. Every domain reveals the same mechanism. The hardness is real but it lives in a specific place: the $(n - \text{rank})$-dimensional kernel of the $B_2$ projection. The navigable structure lives in the rank-2 image.
 
 ---
 

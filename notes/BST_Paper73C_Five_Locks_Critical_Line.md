@@ -93,7 +93,7 @@ This lock alone does not prove RH — it establishes the symmetry axis but does 
 
 $$|c_5(\lambda)/c_3(\lambda)|^{-2} = (4\lambda_1^2 + 1/4)(4\lambda_2^2 + 1/4) > 0 \quad \forall \lambda \in \mathbb{R}^2$$
 
-**Argument.** The c-function for SO₀(n,2) with root system BC₂ has root multiplicities (m_s, m_l) = (n-2, 1). The ratio c₅/c₃ (from n=5 to n=3, i.e., n_C to N_c) involves only the short-root contribution:
+**Argument.** The c-function for SO₀(n,2) with root system B₂ has root multiplicities (m_s, m_l) = (n-2, 1). The ratio c₅/c₃ (from n=5 to n=3, i.e., n_C to N_c) involves only the short-root contribution:
 
 $$c_5(\lambda)/c_3(\lambda) = \prod_{j=1}^{2} \frac{1}{2i\lambda_j + 1/2}$$
 
@@ -113,7 +113,7 @@ $$\varepsilon(s, \pi, \mathrm{std})^3 \cdot \varepsilon(2s, \pi, \mathrm{Sym}^2)
 
 The epsilon factor ε(s, π, std) has |ε| = 1 and phase that depends on the representation π. When raised to an EVEN power, the phase cancels: ε^{2k} = |ε|^{2k} = 1. The constraint becomes trivial. But N_c = 3 is ODD, so ε³ retains nontrivial phase information.
 
-Combined with six BST-specific constraints on the Satake parameters (finiteness of 𝒫, integrality of residues, positivity of Plancherel density, Weyl group |W(BC₂)| = 8 invariance, short-root multiplicity matching, and c-function pole location), this eliminates all six non-tempered Arthur parameter types for Sp(6):
+Combined with six BST-specific constraints on the Satake parameters (finiteness of 𝒫, integrality of residues, positivity of Plancherel density, Weyl group |W(B₂)| = 8 invariance, short-root multiplicity matching, and c-function pole location), this eliminates all six non-tempered Arthur parameter types for Sp(6):
 
 | Arthur type | Partition | Why eliminated |
 |:-----------|:----------|:---------------|

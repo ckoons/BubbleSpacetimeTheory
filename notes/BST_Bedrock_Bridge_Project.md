@@ -270,7 +270,7 @@ The substrate is S² × S¹. The Shilov boundary is S⁴ × S¹. The S¹ is the 
 
 **Partial windings don't imprint.** A quark at 3/7 of a winding is an incomplete exposure. It has energy (mass in the bulk) but no electromagnetic signature (no complete S¹ imprint). That's confinement — not a force, but an incomplete thought. Three quarks close under Z₃, the image develops, and the proton appears. The orbit has to close before the radiation is fully imprinted.
 
-**The geometry lives 10²² levels below the electron.** Planck time: 10⁻⁴³ s. Electron Compton time: 10⁻²¹ s. The ratio m_e/m_Planck = √(6π⁵) × α⁶ ≈ 4.2 × 10⁻²³. All of D_IV^5 geometry — the five integers, the BC₂ root system, the Bergman kernel — operates at Planck scale and below. The electron is the first observable output of a machine running 10²² times faster than its slowest product.
+**The geometry lives 10²² levels below the electron.** Planck time: 10⁻⁴³ s. Electron Compton time: 10⁻²¹ s. The ratio m_e/m_Planck = √(6π⁵) × α⁶ ≈ 4.2 × 10⁻²³. All of D_IV^5 geometry — the five integers, the B₂ root system, the Bergman kernel — operates at Planck scale and below. The electron is the first observable output of a machine running 10²² times faster than its slowest product.
 
 **Why physicists missed it:** They probed at the electron scale (10⁻²¹ s) and above, trying to reverse-engineer a machine at 10⁻⁴³ s. That's 22 orders of magnitude of projection. Every "mystery" of particle physics is a projection artifact. The structure at 10⁻⁴³ is simple — five integers from one domain. The complexity is in the projection.
 

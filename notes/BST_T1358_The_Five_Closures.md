@@ -22,7 +22,7 @@ Why does the number 5 appear so often in BST?
 - 5 wrenches reducing PVI (T1337, Toy 1317)
 - 5 speaking pairs in the gauge hierarchy (T610)
 - 5 Painlevé equations that reduce at BST integers (T1335: n_C/C₂ = 5/6)
-- n_C = 5 = long root multiplicity of BC₂ in SO₀(5,2)
+- n_C = 5 = long root multiplicity of B₂ in SO₀(5,2)
 - 5 = disc(ℤ[φ]) — discriminant of the golden ratio's minimal polynomial
 - 5 elements in the permanent alphabet {e⁻, p, ν, γ, g} at minimum
 - 5 Platonic solids (icosahedron has symmetry group A₅, |A₅| = 60 = 2·n_C·C₂)
@@ -33,7 +33,7 @@ The standard answer — "n_C = 5 is a parameter of D_IV^5" — is correct but sh
 
 ## Statement
 
-**Theorem (T1351, The Five Closures).** *The long root multiplicity n_C = 5 of the root system BC₂ in SO₀(5,2) controls the number of independent closure operations in any mathematical structure derived from D_IV^5:*
+**Theorem (T1351, The Five Closures).** *The long root multiplicity n_C = 5 of the root system B₂ in SO₀(5,2) controls the number of independent closure operations in any mathematical structure derived from D_IV^5:*
 
 ### Claim 1: Algebraic Closure Count
 
@@ -51,7 +51,7 @@ The standard answer — "n_C = 5 is a parameter of D_IV^5" — is correct but sh
 
 ### Claim 2: The Root Space Connection
 
-*In the root system BC₂ of SO₀(5,2), the long roots form a space of dimension n_C = 5. Each long root direction corresponds to an independent symmetry of the Bergman kernel that preserves the spectral decomposition. The five Meijer G closure operations correspond to five long-root symmetries:*
+*In the root system B₂ of SO₀(5,2), the long roots form a space of dimension n_C = 5. Each long root direction corresponds to an independent symmetry of the Bergman kernel that preserves the spectral decomposition. The five Meijer G closure operations correspond to five long-root symmetries:*
 
 | Operation | Root direction | Symmetry type |
 |:----------|:-------------|:-------------|

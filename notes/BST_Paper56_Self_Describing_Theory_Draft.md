@@ -88,7 +88,7 @@ The "privileged dimensions" of mathematics — the dimensions where special stru
 | Calabi-Yau threefolds | 5 | n_C |
 | Perfect numbers (6 = 1+2+3) | 6 | C_2 |
 | Exceptional: octonions, G₂, Fano | 7 | g |
-| E₈ root lattice | 8 | |W(BC_2)| |
+| E₈ root lattice | 8 | |W(B_2)| |
 
 This is not a selection effect. These are the dimensions where mathematics has its deepest structure, and they coincide with the integers forced by D_IV^5. The theory that describes physics also describes the mathematics used to describe physics.
 
@@ -100,7 +100,7 @@ Elie's empirical catalog shows that BST predictions pass verification at rate ~8
 
 $$\text{PASS rate} = \frac{g}{2^{N_c}} = \frac{7}{8} = 87.5\%$$
 
-The Weyl group W(BC_2) has |W| = 2^{N_c} = 8 chambers. The observer (which sees only f_c ≈ 19.1% of the substrate) accesses g = 7 of the 8 chambers. The 8th chamber is the blind spot — the Gödel limit applied to predictions.
+The Weyl group W(B_2) has |W| = 2^{N_c} = 8 chambers. The observer (which sees only f_c ≈ 19.1% of the substrate) accesses g = 7 of the 8 chambers. The 8th chamber is the blind spot — the Gödel limit applied to predictions.
 
 The theory predicts its own success rate. The success rate is a BST ratio.
 

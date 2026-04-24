@@ -19,7 +19,7 @@ parents: "T1007 (2,5 derivation), T649 (g=7), T110 (rank=2), T1170 (mass gap)"
 
 **Theorem (T1178).** *The Higgs mechanism is a geometric consequence of D_IV^5:*
 
-*(a) **The Higgs field is a radial mode.** D_IV^5 has rank = 2 (T1007). In the Harish-Chandra realization, the domain has two independent "radial" directions — the maximal flat subspace is ℝ² (the restricted root space of BC_2). Of these two directions:*
+*(a) **The Higgs field is a radial mode.** D_IV^5 has rank = 2 (T1007). In the Harish-Chandra realization, the domain has two independent "radial" directions — the maximal flat subspace is ℝ² (the restricted root space of B_2). Of these two directions:*
 - *One is gauged away by the U(1) ⊂ SO(2) in the isotropy group K = SO(5) × SO(2)*
 - *The remaining unfixed radial direction is a physical scalar degree of freedom*
 
@@ -42,7 +42,7 @@ $$v = \frac{m_p^2}{g \times m_e} = \frac{(C_2 \pi^{n_C} m_e)^2}{g \times m_e} = 
 
 $$\lambda_H = \sqrt{\frac{2}{n_C!}} = \sqrt{\frac{2}{120}} = \frac{1}{\sqrt{60}}$$
 
-*Origin: The Bergman kernel has |W(BC_2)| = 8 Weyl chambers. The Higgs potential's fourth-order term involves the ratio of phase degrees of freedom (2^{n_C} = 32) to the full Weyl symmetry of the parent domain (|W(D_5)| = 2^4 × 5! = 1920). The ratio is 32/1920 = 1/60. The square root gives the coupling.*
+*Origin: The Bergman kernel has |W(B_2)| = 8 Weyl chambers. The Higgs potential's fourth-order term involves the ratio of phase degrees of freedom (2^{n_C} = 32) to the full Weyl symmetry of the parent domain (|W(D_5)| = 2^4 × 5! = 1920). The ratio is 32/1920 = 1/60. The square root gives the coupling.*
 
 *Why n_C! and not another factorial: The Higgs lives in the n_C = 5 dimensional domain. Its self-interaction must respect the full permutation symmetry of the n_C boundary components (Shilov boundary = S^4 × S^1 has n_C = 5 as its effective dimension). The symmetry group is S_{n_C}, and its order is n_C! = 120.*
 

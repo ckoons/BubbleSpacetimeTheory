@@ -21,7 +21,7 @@ parents: "T699 (Chemistry from D_IV^5), T1059 (Quantum Foundations Bridge), T110
 
 *(a) **Bond = overlap.** A covalent bond forms when two atomic orbitals overlap constructively: $\psi_{\text{bond}} = c_A \phi_A + c_B \phi_B$. The overlap integral $S = \langle \phi_A | \phi_B \rangle$ is evaluated using the Bergman inner product on $D_{IV}^5$. Bond strength $\propto |S|^2$, bond length $\propto 1/|S|$. The molecular orbital IS a superposition in the Bergman Hilbert space.*
 
-*(b) **Octet rule = Weyl order.** The octet rule (atoms seek 8 valence electrons) follows from $|W(BC_2)| = 2^{N_c} = 8$. The 8 valence states (1 s-orbital × 2 spins + 3 p-orbitals × 2 spins = $8$) are the Weyl orbit of the valence shell. A filled octet has the full $W(BC_2)$ symmetry — chemical stability IS algebraic completeness.*
+*(b) **Octet rule = Weyl order.** The octet rule (atoms seek 8 valence electrons) follows from $|W(B_2)| = 2^{N_c} = 8$. The 8 valence states (1 s-orbital × 2 spins + 3 p-orbitals × 2 spins = $8$) are the Weyl orbit of the valence shell. A filled octet has the full $W(B_2)$ symmetry — chemical stability IS algebraic completeness.*
 
 *(c) **18-electron rule = group count.** Transition metal complexes obey the 18-electron rule: stability at $18 = 2N_c^2$ electrons in the valence shell ($s + p + d = 2 + 6 + 10 = 18$). This equals the number of periodic table groups (T1106b). The 18-electron rule IS the statement that all $N_c^2 = 9$ spatial orbitals (each with rank = 2 spins) are filled.*
 

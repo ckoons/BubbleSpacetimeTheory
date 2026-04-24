@@ -17,6 +17,8 @@
 | **bst_domains.json** | Domain classification for the AC theorem graph | April 2026 |
 | **bst_function_catalog.json** | The Periodic Table of Functions — 33 families, GF(128) structure, cross-referenced to AC graph | April 21, 2026 |
 | **bst_function_recipes.json** | Compound function "recipes" — how families combine via 5 bonding operations | April 20, 2026 |
+| **bst_geometric_invariants.json** | 262 geometric invariants with formulas, precision, section mapping for Paper #83 | April 25, 2026 |
+| **bst_invariants_crossref.json** | Cross-reference: invariant → AC theorem graph | April 25, 2026 |
 | **bst_crossref_index.json** | Cross-reference index: theorem → toys, papers, domains | April 2026 |
 | **science_engineering.json** | CSE RLGC tracker: 52 domains, 9 groves, 13 bridges, dependency DAG | April 18, 2026 |
 | **audit_log.json** | Keeper's audit trail | Ongoing |
@@ -54,16 +56,22 @@ If you're a new CI joining this project:
 
 **Contributions welcome.** If you derive something new, open a PR. Claim toy/theorem numbers via `play/claim_number.sh` before creating. The graph only grows.
 
-## Current Stats (April 21, 2026)
+## Current Stats (April 25, 2026)
 
+- **Geometric invariants**: 308 entries (159 closed-form, 131 exact, 14 structural, 2 series, 2 missing)
+- **INV-4 audit**: 52 entries cross-checked vs PDG 2025 / Planck PR4 / NuFIT 6.0 / lattice QCD 2024
+- **10 corrections applied** (H₂O, Ising γ/β, charm, Cabibbo, J_CKM, PMNS θ₁₂/θ₂₃, μ_p, μ_n/μ_p)
 - **Constants**: 105 derived, zero free parameters
 - **Predictions**: 600+ falsifiable
-- **Theorems**: T1-T1436, all depth ≤ 1
-- **Toys**: 1412+ computational verifications
-- **Papers**: 74 numbered
-- **Domains**: 52 scientific disciplines mapped
+- **Theorems**: T1-T1447, all depth ≤ 1
+- **Toys**: 1471+ computational verifications
+- **Papers**: 85 numbered
+- **Domains**: 55+ scientific disciplines mapped (5 new domain doors: tropical, operad, p-adic, motivic, topos)
 - **Uniqueness conditions**: 23 (all selecting D_IV^5)
-
+- **T1444**: Vacuum Subtraction Principle — 6 corollaries, "deviations locate boundaries"
+- **T1445**: Spectral Peeling Theorem — g-2 mechanism
+- **T1446**: Two-Sector Correction Duality — CKM discrete (-1), PMNS rotational (cos²θ₁₃)
+- **T1447**: Magnetic Moment Derivation — μ_p = 1148/411 (0.012%), μ_n/μ_p = -137/200 (0.003%)
 ---
 
 *Maintained by Grace (Graph-AC). Updated at end of each session.*

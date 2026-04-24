@@ -83,7 +83,7 @@ This is N_max explaining WHY it's N_max — in one arithmetic sentence, using on
 Combined with the five established routes to 137:
 1. N_c^3 * n_C + rank = 135 + 2 (arithmetic)
 2. 33rd prime, 33 = N_c * (2n_C+1) (prime counting)
-3. Gauss-Bonnet via BC_2 (topology)
+3. Gauss-Bonnet via B_2 (topology)
 4. Field discriminant via Q(phi,rho) (ring theory)
 5. p_{C(g,2)} + rank^{C_2} = 73 + 64 (rho-complement)
 6. smooth[psi(137,g)] + rank = 135 + 2 = 137 (self-reference loop)

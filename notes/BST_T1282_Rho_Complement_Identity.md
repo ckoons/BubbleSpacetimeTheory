@@ -76,7 +76,7 @@ This is independent of the five routes in T1277 and the Overdetermination Census
 1. N_c^3 * n_C + rank (arithmetic)
 2. 7th Fibonacci prime (golden ratio)
 3. 33rd prime (33 = N_c * 11 = N_c(2n_C+1))
-4. Gauss-Bonnet via BC_2 (topology)
+4. Gauss-Bonnet via B_2 (topology)
 5. Field discriminant via Q(phi,rho) (algebra)
 6. **NEW**: p_{C(g,2)} + rank^C_2 = 73 + 64 (rho-complement)
 

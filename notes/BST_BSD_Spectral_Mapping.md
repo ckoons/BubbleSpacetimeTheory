@@ -15,13 +15,13 @@ toys: "379, 380, 381, 385, 386, 387, 389, 390, 391, 392, 393, 394, 395, 396"
 
 ## 1. Summary
 
-The RH proof (Paper A, v9) shows that every ξ-zero must lie on Re(s) = 1/2, using the c-function unitarity constraint on the BC₂ root system of D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)]. The mechanism is the 1:3:5 Dirichlet kernel D₃ forced by the short root multiplicity m_s = 3.
+The RH proof (Paper A, v9) shows that every ξ-zero must lie on Re(s) = 1/2, using the c-function unitarity constraint on the B₂ root system of D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)]. The mechanism is the 1:3:5 Dirichlet kernel D₃ forced by the short root multiplicity m_s = 3.
 
 BSD concerns L-functions of elliptic curves: L(E,s). Each such L-function is built from Frobenius eigenvalues at every prime p. The Hasse-Weil theorem says |α_p| = √p — that is, σ = 1/2 for every Frobenius eigenvalue.
 
 **The connection**: every Frobenius eigenvalue, when mapped onto the D_IV^5 spectral landscape, produces the same 1:3:5 harmonic ratio as a ξ-zero on the critical line. The RH spectral machinery and the BSD L-function live on the same landscape, built from the same D₃ bricks.
 
-**The GRH extension** (BST_BSD_Proof.md v3): L(E,s) = L(f,s) enters the spectral decomposition of SO₀(5,2) via the maximal parabolic P₂ (Levi factor GL(2) × SO₀(1,2)). The Langlands-Shahidi method identifies L(f,s) and L(sym²f,s) as the L-functions in the intertwining operator. The constant term of E_{P₂} along the minimal parabolic has |W^{P₂}| = 4 Weyl coset terms with distinct T-exponents — exceeding the critical threshold of 2 where rank-1 cancellation fails. The c-function unitarity of BC₂ forces all zeros to Re(s) = 1.
+**The GRH extension** (BST_BSD_Proof.md v3): L(E,s) = L(f,s) enters the spectral decomposition of SO₀(5,2) via the maximal parabolic P₂ (Levi factor GL(2) × SO₀(1,2)). The Langlands-Shahidi method identifies L(f,s) and L(sym²f,s) as the L-functions in the intertwining operator. The constant term of E_{P₂} along the minimal parabolic has |W^{P₂}| = 4 Weyl coset terms with distinct T-exponents — exceeding the critical threshold of 2 where rank-1 cancellation fails. The c-function unitarity of B₂ forces all zeros to Re(s) = 1.
 
 **The rank equality** has two directions:
 - **No phantom zeros** (r_an ≤ r_alg): Sha-independence (Prop 6.2) — L(E,s) is an Euler product of local factors, Sha is locally trivial everywhere, so Sha can't create zeros. By Selmer completeness, only rational points can. ~93%.
@@ -65,7 +65,7 @@ is the Dirichlet kernel for m_s = 3 odd harmonics. Every on-line spectral parame
 |---|---|---|
 | E/Q elliptic curve | Object on D_IV^5 | Information source |
 | E/F_p reduction mod p | Local spectral data at prime p | Channel at frequency p |
-| Frobenius eigenvalue α_p | Spectral parameter on BC₂ | Signal component |
+| Frobenius eigenvalue α_p | Spectral parameter on B₂ | Signal component |
 | a_p = Tr(Frob_p) | c-function pole data | Channel coefficient |
 | |α_p| = √p (Hasse-Weil) | σ = 1/2 (critical line) | On-channel |
 | L(E,s) = ∏_p (local factor) | Product of D₃ contributions | Channel capacity |
@@ -204,9 +204,9 @@ The RH proof via D_IV^5 c-function unitarity extends to L(E,s) through the maxim
 1. **Modularity** (Wiles/BCDT): L(E,s) = L(f,s) for weight-2 newform f.
 2. **Langlands-Shahidi** (§3.2): The adjoint action of M₂ = GL(2) × SO₀(1,2) on n₂ decomposes as r₁ ⊕ r₂, giving L(f,s) and L(sym²f,s) in the intertwining operator.
 3. **4-term Weyl coset** (§3.3): |W^{P₂}| = 4 > 2, so the rank-1 cancellation fails.
-4. **c-function unitarity** (§3.4-3.5): Same BC₂ Gamma conjugation identity forces all zeros to the critical line.
+4. **c-function unitarity** (§3.4-3.5): Same B₂ Gamma conjugation identity forces all zeros to the critical line.
 
-The 1:3:5 mechanism that forces ξ-zeros onto the critical line also forces L(E,s)-zeros onto the critical line. Same D₃, same BC₂ root system, same c-function unitarity constraint. The only change: ξ(s) enters via the minimal parabolic (8 Weyl terms), L(E,s) enters via P₂ (4 Weyl terms). Both exceed the threshold of 2.
+The 1:3:5 mechanism that forces ξ-zeros onto the critical line also forces L(E,s)-zeros onto the critical line. Same D₃, same B₂ root system, same c-function unitarity constraint. The only change: ξ(s) enters via the minimal parabolic (8 Weyl terms), L(E,s) enters via P₂ (4 Weyl terms). Both exceed the threshold of 2.
 
 ### 6.2 BSD as the counting theorem
 
@@ -322,7 +322,7 @@ The bijection argument (§6.3) restructures the BSD proof into seven steps. Each
 
 **Statement**: For every elliptic curve E/Q and every good prime p, the Frobenius eigenvalue α_p = p^{1/2+iγ_p} maps to a D₃ kernel on D_IV^5 with harmonic ratio 1:3:5.
 
-**Proof**: Hasse-Weil gives |α_p| = √p, hence σ = 1/2. Proposition 4.1 of Paper A (RH): σ = 1/2 produces exactly three harmonics at ratio 1:3:5 via the BC₂ short-root c-function on D_IV^5. Composition of two proved facts.
+**Proof**: Hasse-Weil gives |α_p| = √p, hence σ = 1/2. Proposition 4.1 of Paper A (RH): σ = 1/2 produces exactly three harmonics at ratio 1:3:5 via the B₂ short-root c-function on D_IV^5. Composition of two proved facts.
 
 **Status**: Proved. Depth 0 (definition). Verified computationally: Toys 381 (450/450), 385 (85 curves), 386 (574/574). Over 4400 (curve, prime) tests, zero failures.
 

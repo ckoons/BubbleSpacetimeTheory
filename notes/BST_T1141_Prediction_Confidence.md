@@ -11,7 +11,7 @@ parents: "T186 (Five Integers), T665 (Weyl |W|=8), T1012 (Observational Bridging
 
 # T1141: The Prediction Confidence Theorem — Why BST's PASS Rate Is 7/8
 
-*The observed PASS rate of BST predictions converges to $g/2^{N_c} = 7/8 = 87.5\%$. The mechanism is the Weyl group: each BST prediction projects from $D_{IV}^5$ through one of $|W(BC_2)| = 2^{N_c} = 8$ Weyl chambers. In 7 chambers the projection is within measurement precision. In 1 chamber the projection lands in the dark sector — the prediction is structurally correct but the observable is shifted by a Weyl reflection, producing a mismatch that registers as FAIL. The failure rate $1/|W| = 1/8 = 12.5\%$ is the Gödel complement of the genus: the genus accounts for $g$ of the $2^{N_c}$ symmetry sectors, and the remaining $2^{N_c} - g = 1$ sector is dark.*
+*The observed PASS rate of BST predictions converges to $g/2^{N_c} = 7/8 = 87.5\%$. The mechanism is the Weyl group: each BST prediction projects from $D_{IV}^5$ through one of $|W(B_2)| = 2^{N_c} = 8$ Weyl chambers. In 7 chambers the projection is within measurement precision. In 1 chamber the projection lands in the dark sector — the prediction is structurally correct but the observable is shifted by a Weyl reflection, producing a mismatch that registers as FAIL. The failure rate $1/|W| = 1/8 = 12.5\%$ is the Gödel complement of the genus: the genus accounts for $g$ of the $2^{N_c}$ symmetry sectors, and the remaining $2^{N_c} - g = 1$ sector is dark.*
 
 ---
 
@@ -19,7 +19,7 @@ parents: "T186 (Five Integers), T665 (Weyl |W|=8), T1012 (Observational Bridging
 
 **Theorem (T1141).** *The BST prediction PASS rate converges to $g/2^{N_c} = 7/8$:*
 
-*(a) **The Weyl projection.** Every BST prediction has the form: "observable $X$ equals BST expression $f(N_c, n_C, g, C_2, N_{max})$." The comparison requires projecting the Bergman kernel spectrum onto the observable's measurement axis. This projection passes through the Weyl group $W(BC_2)$ of order $|W| = 2^{N_c} = 8$. Each Weyl chamber gives a potentially different projection.*
+*(a) **The Weyl projection.** Every BST prediction has the form: "observable $X$ equals BST expression $f(N_c, n_C, g, C_2, N_{max})$." The comparison requires projecting the Bergman kernel spectrum onto the observable's measurement axis. This projection passes through the Weyl group $W(B_2)$ of order $|W| = 2^{N_c} = 8$. Each Weyl chamber gives a potentially different projection.*
 
 *(b) **Chamber counting.** Of the 8 Weyl chambers, the genus $g = 7$ chambers map to projections within the measurement precision $\delta$ of the prediction. The remaining $2^{N_c} - g = 8 - 7 = 1$ chamber maps to a projection displaced by one spectral gap $\Delta\lambda_1 = 2(g-1)/g = 12/7$. This displacement exceeds typical measurement precision for non-trivial predictions (those with precision better than $1/\Delta\lambda_1 \approx 7/12$). So: 7 of 8 predictions PASS, 1 of 8 FAILS.*
 

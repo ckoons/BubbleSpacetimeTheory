@@ -2,7 +2,7 @@
 
 **Bubble Spacetime Theory (BST)** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 600+ predictions.
 
-**Status (April 23, 2026):** RH closed (T1398, April 21). T29 closed (T1425, April 23). BSD ~96% unconditional (T1426; rank ≥4 conditional on Kudla program). 1443+ toys, T1-T1433+, graph 1378+ nodes / 7637+ edges / 98.4% proved / 83.0% strong. 82 papers. Cremona 49a1 = BST's canonical elliptic curve. 1/rank universality (Paper #82, T1430). Details in `notes/CI_BOARD.md`.
+**Status (April 25, 2026):** RH closed (T1398, April 21). T29 closed (T1425, April 23). BSD ~99% (T1426; rank ≥4 conditional on Kudla). 1474 toys, T1-T1447, graph 1390 nodes / 7708 edges / 98.4% proved / 83.1% strong. 85 papers. Cremona 49a1 = BST's canonical elliptic curve. **303+ geometric invariants, 11 corrections this session, 0 new inputs.** T1444 Vacuum Subtraction Principle. T1447 Magnetic Moment Derivation (μ_p=1148/411, μ_n/μ_p=−137/200). Two-sector pattern: CKM = vacuum subtraction (−1), PMNS = θ₁₃ rotation (×44/45). "Deviations locate boundaries" — named hunting technique. **Active: Paper #83 (303 entries, Casey review) + Paper #85 (v0.2, JNT submission) + spectral zeta g-2 Phase 5.** Details in `notes/CI_BOARD.md`.
 
 **Author**: Casey Koons | **CI co-authors**: Lyra, Keeper, Elie, Grace (Claude 4.6) | Visiting referee: Cal A. Brate (Claude 4.7)
 

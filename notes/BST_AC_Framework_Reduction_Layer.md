@@ -48,7 +48,7 @@ This document classifies every theorem as either:
 | Code | Structure | Plain English |
 |------|-----------|---------------|
 | N1 | Exterior power Lambda^k(C_2) | Choosing k things from C_2 = 6 options |
-| N2 | Weyl group W(B_2) | The 8 symmetries of BC_2 |
+| N2 | Weyl group W(B_2) | The 8 symmetries of B_2 |
 | N3 | Binomial coefficient C(a,b) | "a choose b" |
 | N4 | Power of 2: 2^rank, 2^N_c | Doubling from binary choices |
 | N5 | Cyclic group Z_N_c | 3 slots that wrap around |
@@ -67,7 +67,7 @@ This document classifies every theorem as either:
 
 | Code | Property | Plain English |
 |------|----------|---------------|
-| G1 | BC_2 root system | Short roots (N_c=3) and long roots (1) |
+| G1 | B_2 root system | Short roots (N_c=3) and long roots (1) |
 | G2 | Five integers {3,5,7,6,2} | The topological invariants |
 | G3 | Bergman kernel / volume | The natural measure on the domain |
 | G4 | Shilov boundary (n_C = 5) | The edge where maxima live |
@@ -222,7 +222,7 @@ The foundations domain contains the metatheorems -- statements about the AC fram
 | T95 | Catastrophe Classification AC(0) | S7: Threshold (codimension = boundary count) | N7: Thom's 7 catastrophes | G10: Coxeter g=7 matches catastrophe count | 0 | T153, T150 | Thom's 7 catastrophes are depth-1 AC(0). Codimension = boundary count. Planck (T153) + induction (T150). |
 | T96 | Depth Reduction | S4: DPI (composition with definitions is free) | N12: Depth flattening: RH 4->2, YM 3->1, P!=NP 5->2, NS 5->2 | G13: Depth ceiling from rank=2 | 0 | T134, T153 | Composition with definitions is free. All Millennium proofs flatten. Pair resolution (T134) + Planck (T153). |
 | T105 | Phantom Zero Exclusion | S7: Threshold (exclude non-physical zeros) | N12: Rank condition eliminates phantoms | G12+G13: Domain structure forbids phantoms | 0 | T153, T150 | Non-physical zeros cannot appear. The domain structure excludes them. Planck + induction. |
-| T107 | Weyl Coset Threshold | S7: Threshold selection on Weyl cosets | N2: Weyl group W(B_2) coset structure | G1: BC_2 root system | 0 | T153, T178 | Weyl cosets have a selection threshold. Root system symmetry determines the cut. Planck + Noether. |
+| T107 | Weyl Coset Threshold | S7: Threshold selection on Weyl cosets | N2: Weyl group W(B_2) coset structure | G1: B_2 root system | 0 | T153, T178 | Weyl cosets have a selection threshold. Root system symmetry determines the cut. Planck + Noether. |
 | T118 | AC Theorem Graph Growth | S5: Counting (empirical growth rate) | N13: Graph growth: 393 nodes, 418 edges | G13: Depth ceiling bounds width not node count | 0 | T153, T150 | The AC theorem graph grows by compounding. Each proved theorem enables more. Empirical. |
 | T122 | Planar Graph Spectral Constraint | S1: Counting (spectral constraint on planar graphs) | N13: Chromatic polynomial constraint | G11: Planarity bounds spectrum | 0 | T138, T139 | Planar graphs have spectral constraints. Jordan (T138) + Heawood (T139) combine. |
 | T128 | Type B Uniqueness (odd SO(n,2)) | S1: Counting (unique solution at odd n_C) | N6: Odd n_C gives distinct integers | G12: Type IV at odd ranks | 0 | T486, T153 | Odd SO(n,2) is unique: only odd n_C produces five distinct integers. Degeneracy (T486) + Planck. |
@@ -402,7 +402,7 @@ T325 Carnot Bound on Knowledge
 | 7 | G6: L-group Sp(6) | 4 | 4.7% | BSD, FLT theorems |
 | 8 | G8: Observer hierarchy | 3 | 3.5% | Meta-theorems about observers |
 | 9 | G5: Rank=2 decomposition | 3 | 3.5% | Linearization |
-| 10 | G1: BC_2 root system | 2 | 2.4% | Noether, Weyl coset |
+| 10 | G1: B_2 root system | 2 | 2.4% | Noether, Weyl coset |
 
 **Key difference from biology**: Biology uses G2 (five integers) in 84% of theorems. The AC framework uses G11 (homological structure) in 37% -- because proof complexity is about loops in constraint graphs, not about counting with specific integers. G13 (depth ceiling) at 22% is entirely new -- it is the geometric bound that makes everything AC(0).
 

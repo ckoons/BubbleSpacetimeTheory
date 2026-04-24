@@ -84,7 +84,7 @@ $$V_6 = \int_{\mathcal{F}} \mathrm{dvol}(h)$$
 
 where h is the Bergman metric restricted to the fiber directions, and F is the fundamental domain of the compact fiber.
 
-For the BST reduction, V_6 is determined by the root system BC_2. The positive roots of the BC_2 system (the restricted root system of so(5,2)) are:
+For the BST reduction, V_6 is determined by the root system B_2. The positive roots of the B_2 system (the restricted root system of so(5,2)) are:
 
     {e_1, e_2, e_1 + e_2, e_1 - e_2, 2e_1, 2e_2}
 
@@ -92,11 +92,11 @@ giving 6 positive roots — matching C_2 = 6.
 
 The Weyl integration formula applied to the compact dual K gives:
 
-$$V_6 = \frac{(2\pi)^{C_2}}{|W(BC_2)|} \cdot \prod_{\alpha \in \Delta^+} c_\alpha$$
+$$V_6 = \frac{(2\pi)^{C_2}}{|W(B_2)|} \cdot \prod_{\alpha \in \Delta^+} c_\alpha$$
 
-where c_alpha are normalization constants determined by the Bergman metric. The Weyl group order is |W(BC_2)| = 2^{rank} x rank! = 4 x 2 = 8.
+where c_alpha are normalization constants determined by the Bergman metric. The Weyl group order is |W(B_2)| = 2^{rank} x rank! = 4 x 2 = 8.
 
-**Status**: STANDARD. The Weyl integration formula is textbook (Helgason, Knapp). The application to D_IV^5 with BC_2 root system is a specific computation, not new mathematics.
+**Status**: STANDARD. The Weyl integration formula is textbook (Helgason, Knapp). The application to D_IV^5 with B_2 root system is a specific computation, not new mathematics.
 
 ### Step 3: G_4 from G_10 / V_6
 
@@ -130,7 +130,7 @@ where the exponent 24 = 4C_2 = (n_C - 1)! is forced by the spectral geometry (T1
 
 The explicit chain:
 1. G_10 is set by the Bergman kernel of D_IV^5 (fixed by n_C = 5)
-2. V_6 is set by the Weyl integration on the BC_2 root system (fixed by rank = 2, the root structure)
+2. V_6 is set by the Weyl integration on the B_2 root system (fixed by rank = 2, the root structure)
 3. alpha enters through C_2 = 6 coherent Bergman kernel round trips (T1296)
 4. m_e enters as the natural mass unit of the S^1 fiber (EM boundary)
 5. The prefactor 6pi^5 = m_p/m_e is the mass gap (T1170)
@@ -141,7 +141,7 @@ The explicit chain:
 
 **Precision**: 0.07%
 
-**Status**: The KK reduction itself is STANDARD. The BST-specific inputs (exponent 24, mass gap, Bergman volume) have independent derivations: T1296 (PROVED for exponent), T1170 (PROVED for mass gap). The only non-trivial step is verifying that the specific V_6 from the Weyl integration on BC_2 with Bergman metric normalization combines with G_10 to produce the stated formula. This is a computation — there is no conceptual gap.
+**Status**: The KK reduction itself is STANDARD. The BST-specific inputs (exponent 24, mass gap, Bergman volume) have independent derivations: T1296 (PROVED for exponent), T1170 (PROVED for mass gap). The only non-trivial step is verifying that the specific V_6 from the Weyl integration on B_2 with Bergman metric normalization combines with G_10 to produce the stated formula. This is a computation — there is no conceptual gap.
 
 ---
 
@@ -287,7 +287,7 @@ The Haldane functional controls the high-density regime (near black holes, early
 
 **Gap #1** (exponent 24): CLOSED by T1296. Three independent derivations converge. Heat kernel confirmation at k = 16. Uniqueness: n_C^2 - 1 = (n_C - 1)! only at n_C = 5.
 
-**Gap #2** (10D -> 4D projection): CLOSED by this theorem, Part (a). Standard Kaluza-Klein reduction. The internal volume V_6 is determined by the Weyl integration formula on the BC_2 root system with Bergman metric normalization. No new mathematics — all ingredients are textbook, applied to BST-specific parameters.
+**Gap #2** (10D -> 4D projection): CLOSED by this theorem, Part (a). Standard Kaluza-Klein reduction. The internal volume V_6 is determined by the Weyl integration formula on the B_2 root system with Bergman metric normalization. No new mathematics — all ingredients are textbook, applied to BST-specific parameters.
 
 **Gap #3** (Haldane Z[g] functional): PARTIALLY CLOSED by this theorem, Part (b). The partition function is defined, its spectral structure is determined, its low-density limit is standard GR, and its boundary conditions are forced. The remaining open item is the explicit evaluation of Z[g] as a metric functional and the derivation (rather than conjecture) of the interpolation function f(x) near saturation.
 
@@ -341,12 +341,12 @@ The geometry that BST works in has 10 dimensions. We observe 4 dimensions (3 spa
 
 They curled up. This is called Kaluza-Klein reduction, and it has been understood since the 1920s. The 6 internal dimensions form a compact space whose volume determines how strong gravity is in the 4 dimensions we see. In most theories, this volume is a free parameter — you can tune it to get whatever gravitational strength you want.
 
-In BST, the volume is NOT free. It is determined by the same five integers (3, 5, 7, 6, 137) that determine everything else. The internal space has a specific shape (determined by the root system BC_2) and a specific size (determined by the Bergman metric). When you divide the 10D gravitational constant by this fixed volume, you get the observed Newton's constant G to 0.07% precision.
+In BST, the volume is NOT free. It is determined by the same five integers (3, 5, 7, 6, 137) that determine everything else. The internal space has a specific shape (determined by the root system B_2) and a specific size (determined by the Bergman metric). When you divide the 10D gravitational constant by this fixed volume, you get the observed Newton's constant G to 0.07% precision.
 
 The second part of the theorem is about what happens at extreme density — near black holes. Normal gravity is linear: twice the mass gives twice the gravitational pull. But at extreme density, there is a maximum — you cannot pack more than 137 quanta into any spectral mode of the geometry. This maximum prevents singularities (infinite density points) and ensures that black holes have finite density everywhere. The specific way gravity transitions from "normal" to "saturated" is governed by a function whose exact form we have not yet computed — that is the remaining open problem.
 
 ---
 
-*T1301. AC = (C=3, D=0). KK reduction D_IV^5 -> M^4 with Bergman-fixed internal volume V_6 (BC_2 Weyl integration). G_4 = hbar c (6pi^5)^2 alpha^{24}/m_e^2 fully determined. Haldane functional Z[g] defined on Bergman Laplacian spectrum with N_max = 137 exclusion. Interpolation f(x) = x^{rank} = x^2 near saturation (CONJECTURAL). OP-1 Gaps #2 CLOSED (standard), #3 PARTIALLY CLOSED (definition complete, explicit evaluation open).*
+*T1301. AC = (C=3, D=0). KK reduction D_IV^5 -> M^4 with Bergman-fixed internal volume V_6 (B_2 Weyl integration). G_4 = hbar c (6pi^5)^2 alpha^{24}/m_e^2 fully determined. Haldane functional Z[g] defined on Bergman Laplacian spectrum with N_max = 137 exclusion. Interpolation f(x) = x^{rank} = x^2 near saturation (CONJECTURAL). OP-1 Gaps #2 CLOSED (standard), #3 PARTIALLY CLOSED (definition complete, explicit evaluation open).*
 
 *Engine: T1296 + T1177 + T1170 + T1099 + T186. Lyra proof + Grace gap ID. April 17, 2026.*

@@ -68,7 +68,7 @@ Nobody in 1958 was thinking about electron masses. Harish-Chandra was doing pure
 
 ### 1.1 Setup
 
-For G = SO_0(5,2), K = SO(5) x SO(2), the restricted root system is B_2 (equivalently BC_2 in some conventions). The Harish-Chandra c-function governs the asymptotic behavior of zonal spherical functions on G/K.
+For G = SO_0(5,2), K = SO(5) x SO(2), the restricted root system is B_2 (equivalently B_2 in some conventions). The Harish-Chandra c-function governs the asymptotic behavior of zonal spherical functions on G/K.
 
 **Root data for SO_0(5,2):**
 

@@ -50,7 +50,7 @@ Phase 5 takes the remaining 244 theorems across 25 domains and asks: **does the 
 | Code | Structure | Plain English |
 |------|-----------|---------------|
 | N1 | Exterior power Lambda^k(C_2) | Choosing k things from C_2 = 6 options |
-| N2 | Weyl group W(B_2) | The 8 symmetries of BC_2 |
+| N2 | Weyl group W(B_2) | The 8 symmetries of B_2 |
 | N3 | Binomial coefficient C(a,b) | "a choose b" |
 | N4 | Power of 2: 2^rank, 2^N_c | Doubling from binary choices |
 | N5 | Cyclic group Z_N_c | 3 slots that wrap around |
@@ -69,7 +69,7 @@ Phase 5 takes the remaining 244 theorems across 25 domains and asks: **does the 
 
 | Code | Property | Plain English |
 |------|----------|---------------|
-| G1 | BC_2 root system | Short roots (N_c=3) and long roots (1) |
+| G1 | B_2 root system | Short roots (N_c=3) and long roots (1) |
 | G2 | Five integers {3,5,7,6,2} | The topological invariants |
 | G3 | Bergman kernel / volume | The natural measure on the domain |
 | G4 | Shilov boundary (n_C = 5) | The edge where maxima live |
@@ -155,7 +155,7 @@ The deep geometry of D_IV^5 itself -- Hodge theory, theta lifts, and the Poincar
 |------|------|---------|---------------|-----------------|-------|---------------|
 | T108 | BMM H^{1,1} (Hodge, codim 1) | S1: Bounded enumeration (Hodge number counting) | N12: Linear algebra (rank of H^{1,1}) | G3: Bergman kernel; G6: L-group | 0 | Count the (1,1)-Hodge classes. The first Hodge number of D_IV^5. |
 | T109 | Vogan-Zuckerman Spectral Filtration | S1: Bounded enumeration (spectral sequence counting) | N12: Linear algebra (filtration by K-type) | G6: L-group; G5: Rank = 2 filtration | 0 | Spectral filtration classifies which representations contribute. |
-| T110 | BC_2 Representation Filter | S7: Threshold selection (representation cutoff) | N12: Linear algebra (representation theory) | G1: BC_2 root system; G5: Rank = 2 | 1 | The BC_2 root system filters which representations pass the Hodge test. |
+| T110 | B_2 Representation Filter | S7: Threshold selection (representation cutoff) | N12: Linear algebra (representation theory) | G1: B_2 root system; G5: Rank = 2 | 1 | The B_2 root system filters which representations pass the Hodge test. |
 | T111 | Theta Lift Surjectivity (codim 1) | S2: Channel capacity (theta lift is surjective) | N12: Rank of theta lift | G6: L-group Sp(6); dual pair | 0 | Every codimension-1 Hodge class lifts. The theta correspondence is surjective here. |
 | T112 | Theta Lift Obstruction (codim 2) | S11: No-go (obstruction at codim 2) | N12: BMM wall obstruction | G6: L-group; codimension-2 wall | 1 | At codimension 2, the theta lift hits a wall. BMM obstruction. |
 | T113 | Phantom Hodge Exclusion | S11: No-go (phantoms excluded) | N12: Rank argument excludes non-algebraic classes | G12: D_IV^5 structure forbids phantoms | 1 | No phantom Hodge classes exist. The domain structure excludes them. |
@@ -174,7 +174,7 @@ The deep geometry of D_IV^5 itself -- Hodge theory, theta lifts, and the Poincar
 | T159 | Finite Extinction (Simply Connected) | S7: Threshold selection (extinction = termination) | N12: Dimension counting (surgery terminates) | G12: Simply connected 3-manifold shrinks to point | 1 | Simply connected 3-manifold shrinks to a point in finite time. |
 | T160 | Thurston Geometrization | S1: Bounded enumeration (8 geometries classified) | N7: Eight geometric pieces | G12: 3-manifold decomposition | 2 | Every 3-manifold decomposes into 8 geometric types. |
 | T161 | Poincare Conjecture | S15: Lifting (Ricci flow + extinction compose) | N12: Linear algebra (simply connected => S^3) | G12: 3-manifold topology | 2 | Every simply connected closed 3-manifold is S^3. Depth 2: Ricci flow + extinction. |
-| T330 | Wall Descent Theorem | S1: Bounded enumeration (c_0 = 0 by epsilon-parity) | N7: m_wall = n_C = 5 | G4: Shilov boundary; G1: BC_2 root system | 0 | c_0 = 0 by epsilon-parity. Symmetric geodesics are wall rank-1. HC descent to Levi SO(3,2). |
+| T330 | Wall Descent Theorem | S1: Bounded enumeration (c_0 = 0 by epsilon-parity) | N7: m_wall = n_C = 5 | G4: Shilov boundary; G1: B_2 root system | 0 | c_0 = 0 by epsilon-parity. Symmetric geodesics are wall rank-1. HC descent to Levi SO(3,2). |
 
 **Depth distribution**: D0: 12 (55%), D1: 8 (36%), D2: 2 (9%).
 
@@ -206,7 +206,7 @@ The integers, primes, and the arithmetic that connects them to the geometry.
 | T282 | CFSG | S1: Bounded enumeration (18 families + 26 sporadic) | N7: Integer classification | G12: Group structure | 2 | 18 families + 26 sporadic groups. The classification. Depth 2 (10K pages). |
 | T326 | Zero Threshold at 2g | S7: Threshold selection (first zero above 2g=14) | N8: Coxeter g = 7; threshold at 2g = 14 | G10: Spectral gap | 1 | First zero just above 2g = 14. Primes shift from ~17.8 to ~14. |
 | T419 | BSD as Spectral Identity | S12: Dimensional analysis (two dot products on same lattice) | N12: Linear algebra (7 components depth <= 1) | G3: Bergman kernel; G6: L-group | 1 | BSD = two dot products on the same lattice. Connects to RH via 1:3:5. |
-| T420 | RH as Linear Algebra on BC_2 | S12: Dimensional analysis (4 steps of linear algebra) | N12: Linear algebra (exponent rigidity + unitarity) | G1: BC_2 root system; G5: Rank = 2 | 1 | RH reduces to 4 steps of linear algebra. Max depth 1. |
+| T420 | RH as Linear Algebra on B_2 | S12: Dimensional analysis (4 steps of linear algebra) | N12: Linear algebra (exponent rigidity + unitarity) | G1: B_2 root system; G5: Rank = 2 | 1 | RH reduces to 4 steps of linear algebra. Max depth 1. |
 | T531 | First-Level Column Rule | S1: Bounded enumeration (valuation depends on n mod p) | N6: Modular arithmetic (n mod p determines v_p) | G3: Bergman kernel (heat kernel) | 0 | Heat kernel denominator valuations at first level depend on n mod p. |
 | T532 | Two-Source Prime Structure | S8: Protocol layering (two independent sources) | N11: Prime factorization (Bernoulli + polynomial) | G3: Bergman kernel (heat kernel) | 0 | Heat kernel denominators have two independent prime sources. |
 | T533 | Kummer Analog Conjecture | S14: Kolmogorov complexity (digit-counting rule) | N6: Modular arithmetic (digit counting) | G3: Bergman kernel (heat kernel) | 0 | Digit-counting rule for heat kernel denominator valuations, like Kummer's theorem. |
@@ -477,8 +477,8 @@ Meta-theorems about the depth structure of all other theorems.
 | T_id | Name | Shannon | Number Theory | D_IV^5 Geometry | Depth | Plain English |
 |------|------|---------|---------------|-----------------|-------|---------------|
 | T120 | Chromatic-Spectral Bridge | S1: Bounded enumeration (spectral constraint on coloring) | N13: Chromatic polynomial structure | G11: Spectral-chromatic correspondence | 0 | Chromatic number connects to graph spectrum. |
-| T126 | BST-Chromatic Conjecture (3+1) | S1: Bounded enumeration (3 colors + 1 = 4) | N9: C_2 = 6 => degree constraint; N_c = 3 colors | G2: Five integers; G1: BC_2 root system | 0 | Four-coloring = N_c + 1 = 3 + 1 = 4. Conjecture: geometry forces the count. |
-| T127 | Chromatic-Confinement Parallel | S1: Bounded enumeration (color confinement analogy) | N9: Same C_2 in both graph and QCD confinement | G1: BC_2 root system | 0 | Graph coloring parallels QCD confinement. Same Casimir C_2. |
+| T126 | BST-Chromatic Conjecture (3+1) | S1: Bounded enumeration (3 colors + 1 = 4) | N9: C_2 = 6 => degree constraint; N_c = 3 colors | G2: Five integers; G1: B_2 root system | 0 | Four-coloring = N_c + 1 = 3 + 1 = 4. Conjecture: geometry forces the count. |
+| T127 | Chromatic-Confinement Parallel | S1: Bounded enumeration (color confinement analogy) | N9: Same C_2 in both graph and QCD confinement | G1: B_2 root system | 0 | Graph coloring parallels QCD confinement. Same Casimir C_2. |
 
 **Depth distribution**: D0: 3 (100%), D1: 0, D2: 0.
 
@@ -716,7 +716,7 @@ More than three-quarters of all known BST theorems are pure definitions -- depth
 
 **Number Theory (15)**: exterior power, Weyl group, binomial coefficient, power of 2, cyclic group, divisibility/modular, integer partition/product, Coxeter g=7, Casimir C_2=6, dimension dim_R=10, prime factorization, N_max=137/linear algebra, graph counting/topological invariant, pi powers/exponential growth, conjugacy class/Boolean function.
 
-**Geometry (13)**: BC_2 root system, five integers, Bergman kernel, Shilov boundary, rank=2, L-group Sp(6), fill fraction 19.1%, observer hierarchy 3 tiers, Iwasawa KAN, spectral gap, homological structure, substrate/domain topology, depth ceiling.
+**Geometry (13)**: B_2 root system, five integers, Bergman kernel, Shilov boundary, rank=2, L-group Sp(6), fill fraction 19.1%, observer hierarchy 3 tiers, Iwasawa KAN, spectral gap, homological structure, substrate/domain topology, depth ceiling.
 
 ### The One-Sentence Conclusion
 

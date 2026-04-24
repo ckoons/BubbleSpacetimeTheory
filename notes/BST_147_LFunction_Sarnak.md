@@ -137,7 +137,7 @@ The discrepancy $147 - 90 = 57$ reflects the difference between SO(7) and Sp(6) 
 >
 > For $\Gamma \backslash D_{IV}^5$, the spectral decomposition involves $N_c g^2 = 147$ exponents. The heat kernel coefficient $a_4(Q^5) = 2671/18 = 147 + 25/18$, where $25/18 = n_C^2/(2N_c^2)$ is the curvature self-interaction correction. The ratio $a_4/(N_c g^2)$ crosses unity uniquely at $n = 5$.
 >
-> The number-theoretic content: each $\xi$-zero contributes $N_c = 3$ poles to the c-function, organized by the root multiplicity $m_s = 3$ of the BC₂ restricted root system. The kill shot $(\sigma+1)/\sigma = 3 \Rightarrow \sigma = 1/2$ uses only 2 of these 3 shifts (the $D_2$ kernel from $Q^4 \subset Q^5$). The RH proof is generic for all $D_{IV}^n$ with $n \geq 4$; what is unique to $n = 5$ is the physics.
+> The number-theoretic content: each $\xi$-zero contributes $N_c = 3$ poles to the c-function, organized by the root multiplicity $m_s = 3$ of the B₂ restricted root system. The kill shot $(\sigma+1)/\sigma = 3 \Rightarrow \sigma = 1/2$ uses only 2 of these 3 shifts (the $D_2$ kernel from $Q^4 \subset Q^5$). The RH proof is generic for all $D_{IV}^n$ with $n \geq 4$; what is unique to $n = 5$ is the physics.
 
 ### Version D (strongest, uses branching — NEW):
 

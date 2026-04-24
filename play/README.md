@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**1,461 computational toys, 5 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**1,491 computational toys, 5 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 1,461 |
-| Numbered toys (toy_NNN_*.py) | 1,252 |
+| Toy scripts (toy_*.py) | 1,491 |
+| Numbered toys (toy_NNN_*.py) | 1,282 |
 | Named toys (toy_name.py) | 209 |
-| Utility scripts (non-toy .py) | 56 |
+| Utility scripts (non-toy .py) | 57 |
 | HTML visualizers | 5 |
-| Theorems (T1-T1436) | 1,436 |
-| Next toy number | 1445 |
+| Theorems (T1-T1447) | 1,447 |
+| Next toy number | 1475 |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -30,9 +30,9 @@ Five integers. Zero free parameters. "Give a child a ball and teach them to coun
 
 ```
 play/
-  toy_NNN_name.py          # Numbered toys (1,252 files, T100-T1444)
-  toy_name.py              # Named toys (224 files, foundational + topical)
-  *.py                     # Utility scripts (56 files: graph tools, extractors, verifiers)
+  toy_NNN_name.py          # Numbered toys (1,282 files, T100-T1474)
+  toy_name.py              # Named toys (209 files, foundational + topical)
+  *.py                     # Utility scripts (57 files: graph tools, extractors, verifiers)
   bst_appliance/           # BST Appliance package — the "Ball and Counting Tool"
   bst_explorer.html        # Web-based BST Explorer (standalone, opens in browser)
   ac_theorem_explorer.html # Interactive AC(0) theorem graph visualizer
@@ -59,7 +59,7 @@ Structured JSON data files live in `../data/` (the repository's `data/` director
 | `bst_constants.json` | All BST-derived constants with formulas, values, and derivation chains |
 | `bst_particles.json` | Particle catalog — every particle derived from D_IV^5 |
 | `bst_forces.json` | Force descriptions and BST derivations |
-| `bst_predictions.json` | 507+ testable predictions with status and precision |
+| `bst_predictions.json` | 600+ testable predictions with status and precision |
 | `bst_domains.json` | 130+ scientific domains BST touches |
 | `bst_seed.md` | Narrative seed document for the data layer |
 
@@ -111,8 +111,8 @@ Two gitignored counter files prevent toy/theorem number collisions:
 
 | File | Current Value | Purpose |
 |------|---------------|---------|
-| `.next_toy` | 1445 | Next available toy number |
-| `.next_theorem` | 1437 | Next available theorem number |
+| `.next_toy` | 1475 | Next available toy number |
+| `.next_theorem` | 1448 | Next available theorem number |
 
 **Rules:**
 1. ALWAYS read the counter file before creating a new toy or theorem.
@@ -206,6 +206,12 @@ The 209 named toys include the original foundational collection and topical deep
 | 1378-1396 | ~19 | Selberg zeta program (algebraic setup, geodesic enumeration, Pell theorem, trace formula, **Phase 4 Euler factors**), glueball physics (Bergman spectral gap, curved directions), integer cascade, **Ramanujan at p=137** (OP-3 discrete PROVED), heat kernel analysis (INV-6), **cascade extraction a₁-a₂₀ (19 levels, speaking pair 4 CONFIRMED)** |
 | 1397-1415 | 19 | Spectral information capacity, lattice comparison, cross-type elimination, spectral descent, CMB cascade debris, P≠NP geometric curvature, Bell rank amplification, crystal complexity, three door theorems, algebraic independence, data sufficiency cross-family, parameter space geometry, **Jacobian 457** (det=prime, φ(457)=rank^N_c×N_c×19), **discrete Gauss-Bonnet for SAT** (T29 closure foundation), degree profile phase transition, **chromatic confinement** (T126+T127 STRUCTURAL), **BSD spectral permanence** (T100 computational closure, 51 curves 0 exceptions), **weak force = Hamming(7,4,3)** (T1241 STRUCTURAL) |
 | 1416-1444 | 29 | Selberg 4-phase completion, RH three-leg closure, **T29 closed** (AC(0) argument, T1425), **BSD ~99%** (spectral permanence T1426), Kim-Sarnak θ=7/64, Sarnak letter, **Grace's Ten Questions** (GQ-1 through GQ-10 + Meta), **BSD Proof Engine** (49a1 L-function verified), **Curve IS the APG** (reconstruct D_IV^5 from 49a1), **Every Millennium = 1/rank**, **Observer Fiber** (consciousness=50%), **Near-APG Landscape** (empty — no multiverse), **Dark Matter = continuous spectrum**, **Falsification Targets** (n_s best, Ω_b tension honest), **Z₃ Neutrino Dirac** (pred_004 falsification wrapper, Hopf fiber argument) |
+| 1446-1448 | 3 | **Spectral zeta g-2** (d₁=g, d₂=N_c³, EM=B₂ reps, 7/8), **49a1 derivation verify** (13 invariants, Heegner uniqueness, 8/8), **Genesis cascade** (c₄=g!!, k=5 unique, 8/8) |
+| 1449-1452 | 4 | **2-loop alpha_s** (beta₁=2^C₂, geometric beats perturbative, 8/8), **Omega_b resolution** (1/29 wrong→18/361 correct, 6/6), **Quark mass chain** (all 6 quarks from m_e, 8/8), **Supersingular fraction** (QNR={N_c,n_C,C_2}, 8/8) |
+| 1453-1455 | 3 | **Planck extraction analysis** (Omega_b gap is 0.65sigma, 8/8), **Heat cascade runtime** (W-46: flat ~34s/level, extraction 100%, 7/8), **YM Bergman discretization** (W-48: mass gap=C_2, 1-form=scalar, cubic protected, 8/8) |
+| 1456-1462 | 7 | **Zeta weight correspondence** (ζ(N_c)→ζ(n_C)→ζ(g), denominator 12^L), **Three routes to 137**, **Frobenius table 49a1** (20/22 BST-smooth, T1437 density fix), **INV-4 tension audit + collapse** (4 genuine→all fixed), **Vacuum subtraction principle** (T1444: N_max−1=136, k=0 constant mode), **NS nonlinear coupling** (delta_k=2k+6, cascade 47× damped) |
+| 1463-1467 | 5 | **CKM sector audit** (sinθ_C=2/√79, 0.004%), **Cabibbo correction** (80→79 vacuum sub), **Wolfenstein A hunt** (A=9/11, dressed Casimir 11), **Separation principle audit**, **PMNS θ₁₃ rotation** (cos²θ₁₃=44/45, Grace wins, 10/10) |
+| 1468-1474 | 7 | **Particle properties hunt** (μ_p=1148/411, α(m_Z)=1/129, BR(H→bb̄)=4/7, 9/10), **Genesis cascade k=1..9** (k=5 sole survivor, Paper #85 c₆ fix, 10/10), **Fundamental constants** (H₅=137/60 QED↔thermo bridge, 744=8·3·31, 9/10), **Dressed Casimir 11** (4 sectors, SU(3) uniqueness, 10/10), **T1447 magnetic moment verification** (μ_p derivation chain, 10/10), **Glueball correction hunt** (31/20=M₅/(rank²·n_C), 0.045%, 9/10), **Z width + Higgs branching** (R_Z=3·823/338, BR(WW*)=3/14, 10/10) |
 
 ---
 

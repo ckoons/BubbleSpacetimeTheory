@@ -1,6 +1,6 @@
-# T1298 — Maass-Selberg Computation for BC₂: The Correct c-Function
+# T1298 — Maass-Selberg Computation for B₂: The Correct c-Function
 
-*The naive ξ-ratio formula for the short-root c-function gives D(z) = c_s(z)·c_s(−z) = 1 identically. The correct formula must incorporate the double-root contribution m_{2α} = 1 from BC₂'s non-reduced structure. This is the remaining computation for OP-3.*
+*The naive ξ-ratio formula for the short-root c-function gives D(z) = c_s(z)·c_s(−z) = 1 identically. The correct formula must incorporate the double-root contribution m_{2α} = 1 from B₂'s non-reduced structure. This is the remaining computation for OP-3.*
 
 **AC**: (C=2, D=1). Two computations (c-function derivation + Maass-Selberg reduction). One depth level: the ξ-zeros whose location is being constrained appear in the c-function itself.
 
@@ -12,11 +12,11 @@
 
 ## Statement
 
-**Theorem (T1298, conditional).** The Maass-Selberg identity for the intertwining operator of SO₀(5,2) constrains the Riemann ξ-zeros through the short-root defect function D(z), provided the correct BC₂ c-function is used.
+**Theorem (T1298, conditional).** The Maass-Selberg identity for the intertwining operator of SO₀(5,2) constrains the Riemann ξ-zeros through the short-root defect function D(z), provided the correct B₂ c-function is used.
 
 **(a) The naive formula fails.** If c_s(z) = ξ(z)ξ(z−1)ξ(z−2)/[ξ(z+1)ξ(z+2)ξ(z+3)], then D(z) = c_s(z)·c_s(−z) = 1 identically. This gives NO constraint on the spectral parameters.
 
-**(b) The correct formula involves the double root.** The restricted root system of SO₀(5,2) is BC₂ (non-reduced), with:
+**(b) The correct formula involves the double root.** The restricted root system of SO₀(5,2) is B₂ (non-reduced), with:
 
 | Root | Type | Multiplicity |
 |:-----|:----:|:------------:|
@@ -60,15 +60,15 @@ Product: c_s^{naive}(z)·c_s^{naive}(−z) = 1. ∎
 
 **Consequence:** The naive formula, applied to the Maass-Selberg identity, gives D(2s₁)·D(2s₂) = 1·1 = 1, which is trivially satisfied for ALL (s₁, s₂). No constraint on spectral parameters. No proof of RH.
 
-### Why BC₂ is different from B₂
+### Why B₂ is different from B₂
 
 In the reduced root system B₂ (applicable for SO₀(4,2)), the roots are ±e₁, ±e₂, ±e₁±e₂ and there is NO double root. The c-function is:
 
     c_{B_2}(λ) = c_l(⟨λ, (e₁+e₂)∨⟩) · c_l(⟨λ, (e₁−e₂)∨⟩) · c_s(⟨λ, e₁∨⟩) · c_s(⟨λ, e₂∨⟩)
 
-In the NON-REDUCED root system BC₂ (applicable for SO₀(n,2) with n ≥ 5), the roots additionally include ±2e₁, ±2e₂ with multiplicity m_{2α} = 1. The c-function acquires extra factors:
+In the NON-REDUCED root system B₂ (applicable for SO₀(n,2) with n ≥ 5), the roots additionally include ±2e₁, ±2e₂ with multiplicity m_{2α} = 1. The c-function acquires extra factors:
 
-    c_{BC_2}(λ) = c_{B_2}(λ) · c_{2α}(⟨λ, (2e₁)∨⟩) · c_{2α}(⟨λ, (2e₂)∨⟩)
+    c_{B_2}(λ) = c_{B_2}(λ) · c_{2α}(⟨λ, (2e₁)∨⟩) · c_{2α}(⟨λ, (2e₂)∨⟩)
 
 where c_{2α}(z) = ξ(z)/ξ(z+1) (a single ξ-ratio, since m_{2α} = 1).
 
@@ -113,7 +113,7 @@ The explicit computation needs:
 
 **Step A.** Identify the Levi decomposition P = MN for the Siegel parabolic of SO₀(5,2).
 
-**Step B.** Compute the representations r₁, r₂, ... of M̂ determined by the adjoint action on n = Lie(N). For BC₂ with the specified multiplicities, these representations involve:
+**Step B.** Compute the representations r₁, r₂, ... of M̂ determined by the adjoint action on n = Lie(N). For B₂ with the specified multiplicities, these representations involve:
 - Standard representation of GL(2): dim = 2
 - Symmetric square Sym²: dim = 3
 - Exterior square ∧²: dim = 1
@@ -167,6 +167,6 @@ The proof structure is right. The detailed calculation just needs to use the rig
 
 ---
 
-*T1298. AC = (C=2, D=1). Maass-Selberg analysis for BC₂. Naive c_s(z) gives D(z) = 1 (trivial). Correct computation requires Langlands-Shahidi intertwining operator with epsilon factors from automorphic L-functions. Double root m_{2α} = 1 in BC₂ modifies the c-function structure. Architecture preserved: m_s = N_c = 3 provides overconstrained elimination. Steps A-E identified for completion.*
+*T1298. AC = (C=2, D=1). Maass-Selberg analysis for B₂. Naive c_s(z) gives D(z) = 1 (trivial). Correct computation requires Langlands-Shahidi intertwining operator with epsilon factors from automorphic L-functions. Double root m_{2α} = 1 in B₂ modifies the c-function structure. Architecture preserved: m_s = N_c = 3 provides overconstrained elimination. Steps A-E identified for completion.*
 
 *Engine: T1262, T1233, T1244, T186. Lyra analysis. April 18, 2026.*

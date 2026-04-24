@@ -66,7 +66,7 @@ All computations trivially verified. $\square$
 
 **191 = Knowledge limit.** The smooth count $\Psi(1001, 11) = 191$ (T1016) and $191/1000 = f_c = N_c/(n_C\pi) = 19.1\%$ to 0.007%. The genus $g = 7$ determines the smooth lattice: $g$-smooth numbers are the BST vocabulary. The Gödel self-knowledge limit being $f(g)$ means the topology of the space sets the ceiling on self-knowledge.
 
-**56 = Stability peak.** Fe-56 has the highest nuclear binding energy per nucleon. $56 = 2^{N_c} \times g = |W(BC_2)| \times g$ — the Weyl group order times the genus. The composite branch of the sibling formula gives the most stable configuration, not a boundary.
+**56 = Stability peak.** Fe-56 has the highest nuclear binding energy per nucleon. $56 = 2^{N_c} \times g = |W(B_2)| \times g$ — the Weyl group order times the genus. The composite branch of the sibling formula gives the most stable configuration, not a boundary.
 
 ### Part (a): Observer = constant
 

@@ -120,7 +120,7 @@ All three are the same counting in different coordinate systems:
 - Route 2 counts Casimir eigenvalue cycles
 - Route 3 counts internal-space integration variables
 
-The heat kernel confirmation (Part 1) shows that the spectral decomposition at k = 16 "knows" about all three: the ratio −24 is simultaneously dim SU(5), the factorial (n_C−1)!, and the Casimir product 4C₂. The three routes converge because the Lie algebra dimension, the permutation count, and the Casimir product are all determined by the same root system (BC₂).
+The heat kernel confirmation (Part 1) shows that the spectral decomposition at k = 16 "knows" about all three: the ratio −24 is simultaneously dim SU(5), the factorial (n_C−1)!, and the Casimir product 4C₂. The three routes converge because the Lie algebra dimension, the permutation count, and the Casimir product are all determined by the same root system (B₂).
 
 ### Part 4: Closing Gap #1
 

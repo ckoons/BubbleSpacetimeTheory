@@ -110,9 +110,9 @@ $$\lambda_{k_1,k_2}^{B_2} = k_1(k_1 + n_C) + k_2(k_2 + N_c) = k_1(k_1 + 5) + k_2
 
 with ρ = (5/2, 3/2), |ρ|² = 17/2.
 
-**BC₂ convention** (full non-reduced root system, Laplacian eigenvalue convention):
+**B₂ convention** (full non-reduced root system, Laplacian eigenvalue convention):
 
-$$\lambda_{k_1,k_2}^{BC_2} = k_1(k_1 + n_C + 2) + k_2(k_2 + n_C) = k_1(k_1 + 7) + k_2(k_2 + 5)$$
+$$\lambda_{k_1,k_2}^{B_2} = k_1(k_1 + n_C + 2) + k_2(k_2 + n_C) = k_1(k_1 + 7) + k_2(k_2 + 5)$$
 
 with ρ = (7/2, 5/2), |ρ|² = 37/2.
 
@@ -122,18 +122,18 @@ with ρ = (7/2, 5/2), |ρ|² = 37/2.
 |------------|-------|---|-------------------|
 | B₂ | (0,1) | 4 | N_c + 1 |
 | B₂ | (1,0) | 6 | C₂ — Casimir invariant |
-| BC₂ | (0,1) | 6 | C₂ — Casimir invariant |
-| BC₂ | (1,0) | 8 | dim_ℝ − 2 |
+| B₂ | (0,1) | 6 | C₂ — Casimir invariant |
+| B₂ | (1,0) | 8 | dim_ℝ − 2 |
 | B₂ | (1,1) | 10 | dim_ℝ D_IV^5 |
 | B₂ | **(2,0)** | **14** | **2g = first Riemann zero γ₁** |
-| BC₂ | **(1,1)** | **14** | **2g = first Riemann zero γ₁** |
-| BC₂ | **(0,2)** | **14** | **2g (degenerate with (1,1))** |
+| B₂ | **(1,1)** | **14** | **2g = first Riemann zero γ₁** |
+| B₂ | **(0,2)** | **14** | **2g (degenerate with (1,1))** |
 
 The degeneracy at C = 14 = 2g is **convention-independent** and **universal for all D_IV^n**, forced by the Bergman genus relation g_n = n + 2:
 
-$$C(1,1)_{BC_2} = 2\rho_1 + 2\rho_2 + 2 = 2(n+2) = 2g$$
+$$C(1,1)_{B_2} = 2\rho_1 + 2\rho_2 + 2 = 2(n+2) = 2g$$
 $$C(2,0)_{B_2} = 4\rho_1 + 4 = 2(n+2) = 2g$$
-$$C(0,2)_{BC_2} = 2(2+n) = 2g$$
+$$C(0,2)_{B_2} = 2(2+n) = 2g$$
 
 All three reduce to 2g through the same algebraic identity. Verified for D_IV^3 (C=10=2×5), D_IV^5 (C=14=2×7), and D_IV^7 (C=18=2×9).
 
@@ -284,7 +284,7 @@ Toy 472 computed the Gindikin-Karpelevič c-function and scattering phase for SO
 
 **Honest conclusion**: The scattering phase gives corrections of the **right order** O(1/g) but deriving the **exact** correction 1/g - 1/N_max requires the full Selberg trace formula for the specific arithmetic lattice Γ = SO(Q,ℤ), including the quantization condition that selects the zeros. This is a substantial calculation beyond the scope of a single toy.
 
-**Convention independence verified**: C = 14 = 2g in both B₂ and BC₂ conventions (three different modes). Degeneracy universal for all D_IV^n.
+**Convention independence verified**: C = 14 = 2g in both B₂ and B₂ conventions (three different modes). Degeneracy universal for all D_IV^n.
 
 ### 5.6 Selberg Trace Formula and Prime Shift (Toy 473, 7/8)
 

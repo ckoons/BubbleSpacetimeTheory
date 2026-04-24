@@ -20,7 +20,7 @@ status: "All five Wightman axioms exhibited/derived. W4 closed via modular local
 - **Bounded symmetric domain**: $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ (type IV Cartan domain in $\mathbb{C}^5$)
 - **Compact dual**: $Q^5 = \mathrm{SO}(7)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ (complex quadric)
 - **Arithmetic lattice**: $\Gamma = \mathrm{SO}(Q, \mathbb{Z})$ for a unimodular form $Q$ of signature $(5,2)$. Class number 1 by Meyer's theorem (rank $\geq 5$).
-- **Restricted root system**: $BC_2$ (non-reduced) with:
+- **Restricted root system**: $B_2$ (non-reduced) with:
 
 | Root type | Roots | Length² | Multiplicity |
 |-----------|-------|---------|-------------|
@@ -78,7 +78,7 @@ $$U(a, \Lambda) \phi(x) U(a, \Lambda)^{-1} = \phi(\Lambda x + a)$$
 
 ### BST construction
 
-**Step 1: 3+1 from the restricted root system.** The restricted root system of $D_{IV}^{n_C}$ for $n_C = 5$ is $BC_2$. The root multiplicities determine the emergent spacetime dimensions:
+**Step 1: 3+1 from the restricted root system.** The restricted root system of $D_{IV}^{n_C}$ for $n_C = 5$ is $B_2$. The root multiplicities determine the emergent spacetime dimensions:
 
 - **Short root multiplicity** $m_s = n_C - 2 = 3$: these root spaces generate **3 spatial dimensions**.
 - **Long root multiplicity** $m_l = 1$: this root space generates **1 temporal dimension**.
@@ -173,7 +173,7 @@ The strategy is *modular localization*: we derive W4 from W2 (Poincaré covarian
 
 **Input.** From W2 we have a continuous unitary representation $U: \mathrm{SO}_0(5,2) \to \mathcal{U}(\mathcal{H})$ restricting to the Poincaré group $\mathcal{P} \subset \mathrm{SO}_0(4,2) \subset \mathrm{SO}_0(5,2)$. From W3 we have the spectral condition: the generator $H \geq 0$ and the mass gap $\Delta = C_2(\pi_6) = 6 > 0$.
 
-**Boost generator.** Let $K_{\mathrm{phys}} = H_1 + H_2 \in \mathfrak{a} \subset \mathfrak{p}$ be the boost generator in the temporal direction of the $BC_2$ root system, where $H_1, H_2$ span the maximal abelian subalgebra $\mathfrak{a}$ of $\mathfrak{p}$ in the Cartan decomposition $\mathfrak{g} = \mathfrak{k} \oplus \mathfrak{p}$ of $\mathfrak{so}(5,2)$. The one-parameter group $\Lambda_W(t) = \exp(2\pi t K_{\mathrm{phys}})$ generates boosts preserving the right Rindler wedge $W_R$.
+**Boost generator.** Let $K_{\mathrm{phys}} = H_1 + H_2 \in \mathfrak{a} \subset \mathfrak{p}$ be the boost generator in the temporal direction of the $B_2$ root system, where $H_1, H_2$ span the maximal abelian subalgebra $\mathfrak{a}$ of $\mathfrak{p}$ in the Cartan decomposition $\mathfrak{g} = \mathfrak{k} \oplus \mathfrak{p}$ of $\mathfrak{so}(5,2)$. The one-parameter group $\Lambda_W(t) = \exp(2\pi t K_{\mathrm{phys}})$ generates boosts preserving the right Rindler wedge $W_R$.
 
 **Bifurcate Killing horizons (Toy 337, 8/8 PASS).** The eigenvalues of $\mathrm{ad}(K_{\mathrm{phys}})^2|_{\mathfrak{p}}$ are:
 
@@ -294,7 +294,7 @@ Every arrow is a known theorem applied to BST's explicit data. No new mathematic
 
 Wightman W4 demands only commutativity at spacelike separation. BST additionally provides:
 
-- **The modular Hamiltonian explicitly**: $K_{\mathrm{phys}} = H_1 + H_2 \in \mathfrak{a}$, computable from the $BC_2$ root data.
+- **The modular Hamiltonian explicitly**: $K_{\mathrm{phys}} = H_1 + H_2 \in \mathfrak{a}$, computable from the $B_2$ root data.
 - **Exponential clustering**: the mass gap $\Delta = 6$ gives $|W_2(x,y)| \leq C e^{-6 d(x,y)}$, far stronger than mere commutativity.
 - **Conformal enhancement**: $\mathrm{SO}_0(5,2)$-covariance gives the full conformal net structure, not just Poincaré locality.
 - **Wedge duality as a theorem**: Haag duality (the strongest form of locality) holds for wedge regions, not merely assumed.

@@ -4521,7 +4521,7 @@ Total depth: max(1, 0, 0, 1) = **1**. ∎
 
 For rank $r \geq 2$: $\min |W^P| = r + 1 \geq 3$ (attained for type $A$), and $\min |W^P| = 2r \geq 4$ for types $B, C, D, BC$.
 
-For the specific case $G = \text{SO}_0(5,2)$, root system $BC_2$, rank 2:
+For the specific case $G = \text{SO}_0(5,2)$, root system $B_2$, rank 2:
 - $|W| = 8$, $|W_M| = 2$ (for the maximal parabolic $P_2$)
 - $|W^{P_2}| = 4 > 2$ ✓
 
@@ -4668,7 +4668,7 @@ All five Millennium chains at depth 1-2. The Depth Conjecture (all proofs $\leq 
 
 **Status:** Proved (external — Vogan-Zuckerman [VZ84]).
 
-**Proof.** The Vogan-Zuckerman classification enumerates all unitary representations with non-vanishing $(\mathfrak{g}, K)$-cohomology. For $SO_0(5,2)$ with maximal compact $K = SO(5) \times SO(2)$, the list is finite and determined by the root system $BC_2$ (restricted roots of $\mathfrak{so}(5,2)$). Each $A_{\mathfrak{q}}(\lambda)$ corresponds to a $\theta$-stable parabolic subalgebra $\mathfrak{q}$.
+**Proof.** The Vogan-Zuckerman classification enumerates all unitary representations with non-vanishing $(\mathfrak{g}, K)$-cohomology. For $SO_0(5,2)$ with maximal compact $K = SO(5) \times SO(2)$, the list is finite and determined by the root system $B_2$ (restricted roots of $\mathfrak{so}(5,2)$). Each $A_{\mathfrak{q}}(\lambda)$ corresponds to a $\theta$-stable parabolic subalgebra $\mathfrak{q}$.
 
 **AC(0) depth:** 0 (absorbed external result).
 
@@ -4878,11 +4878,11 @@ Each proved theorem that connects to existing nodes reduces the derivation cost 
 1. **RH** (first Millennium problem): Required building T1-T42 from scratch. AC(0) depth of proof: 2.
 2. **P≠NP** (second): Reused T1-T42 extensively. Refutation Bandwidth Chain (T66→T52→T68→T69) all depth 1, building on AC foundation. Many theorems were immediate corollaries.
 3. **YM** (third): Reused spectral theory from RH + information theory from P≠NP. W1-W5 at depth 1-2.
-4. **NS** (fourth): Proof chain T83-T87 reused BC₂ c-function from RH + DPI from P≠NP. Depth 2.
+4. **NS** (fourth): Proof chain T83-T87 reused B₂ c-function from RH + DPI from P≠NP. Depth 2.
 5. **BSD** (fifth): T97-T107 reused Sha-independence (essentially T104, which is a DPI application), spectral mapping from RH, counting from P≠NP. Depth 2.
-6. **Hodge** (sixth): T108-T117 absorb external results at depth 0, attack T112 with BC₂ (from RH) + phantom exclusion (from BSD) + intersection cohomology (new, depth 1). If T112 closes: depth 2.
+6. **Hodge** (sixth): T108-T117 absorb external results at depth 0, attack T112 with B₂ (from RH) + phantom exclusion (from BSD) + intersection cohomology (new, depth 1). If T112 closes: depth 2.
 
-**Pattern:** Each new problem domain requires fewer NEW theorems. RH needed ~40 new theorems. P≠NP needed ~30 but reused ~20 from RH. BSD needed ~14 but reused spectral mapping. Hodge needs ~10 and reuses BC₂ + phantom exclusion + DPI from three previous problems.
+**Pattern:** Each new problem domain requires fewer NEW theorems. RH needed ~40 new theorems. P≠NP needed ~30 but reused ~20 from RH. BSD needed ~14 but reused spectral mapping. Hodge needs ~10 and reuses B₂ + phantom exclusion + DPI from three previous problems.
 
 **AC(0) depth:** Meta-theorem (depth 0 — it's an observation about the graph, not a mathematical proof).
 
@@ -5085,12 +5085,12 @@ Every Hodge class in $H^{2,2}(\bar{X}, \mathbb{Q})$ is algebraic.
 
 *Added March 25, 2026. Casey's insight: the four-color theorem may be a topological shadow of the same 3+1 = N_c + 1 structure that produces quark confinement. The chromatic number of planar graphs = 4 = m_s + 1 = N_c + 1. Honest status: CONJECTURE. Proving or disproving it grows the AC graph either way.*
 
-### T126. BST-Chromatic Conjecture (3+1 from BC₂)
+### T126. BST-Chromatic Conjecture (3+1 from B₂)
 
 **Statement (Conjecture).** The four-color theorem is a consequence of the D₃ kernel structure of D_IV^5:
 
 1. The D₃ decomposition $1:3:5$ at grade $k=0,1,2$ produces three layers. The first two grades give $1 + 3 = 4$ dimensions.
-2. The BC₂ short root multiplicity $m_s = 3 = N_c$ is the number of "confined" chromatic degrees of freedom. The +1 comes from the $SO(2)$ compact factor (the "weak" direction).
+2. The B₂ short root multiplicity $m_s = 3 = N_c$ is the number of "confined" chromatic degrees of freedom. The +1 comes from the $SO(2)$ compact factor (the "weak" direction).
 3. A graph embedded on a surface is $\chi$-colorable where $\chi$ is determined by the surface topology. For the sphere ($g = 0$): $\chi = 4 = N_c + 1$. This is the Heawood formula evaluated at genus 0.
 4. **The conjecture**: The Heawood formula $\chi(S_g) = \lfloor(7 + \sqrt{1 + 48g})/2\rfloor$ encodes BST integers:
    - $7 = g$ (BST genus)
@@ -5136,12 +5136,12 @@ The Potts model at $k = N_c + 1 = 4$ on a planar lattice IS a lattice gauge theo
 
 **Testable predictions:**
 1. The transfer matrix eigenvalues of the Potts model at $k = 4$ on planar strips should exhibit a spectral gap related to $\lambda_1 = C_2 = 6$ (the BST spectral gap).
-2. The chromatic polynomial of planar graphs at $k = N_c + 1$ should have a representation-theoretic interpretation in terms of the BC₂ root system.
+2. The chromatic polynomial of planar graphs at $k = N_c + 1$ should have a representation-theoretic interpretation in terms of the B₂ root system.
 3. The "3+1" decomposition of color space should appear in the Kempe chain structure: 3 "confined" chains (that can tangle) and 1 "free" chain (that never tangles, because it corresponds to the $SO(2)$ factor).
 
 **Connection to the Kempe Tangle Number (§9 of four-color concept note):** If $\tau(v) \leq 1$ at degree-5 vertices, the single tangling pair corresponds to one of the $\binom{3}{2} = 3$ confined color pairs. The remaining color pairs involving the "free" (+1) color are always untangled — because the free color doesn't participate in confinement. This would make the four-color theorem a consequence of the separation between confined and free degrees of freedom.
 
-**AC(0) depth:** If true, depth 2 (chromatic structure from BC₂ at depth 1, confinement parallel at depth 1, assembly at depth 2). Same depth as all six Millennium problems.
+**AC(0) depth:** If true, depth 2 (chromatic structure from B₂ at depth 1, confinement parallel at depth 1, assembly at depth 2). Same depth as all six Millennium problems.
 
 **References:**
 - Heawood, P.J. (1890). Map colour theorem. *Quart. J. Pure Appl. Math.* 24, 332–338.
@@ -5181,7 +5181,7 @@ Therefore, the upper ideal of size $p$ in this poset is unique ($\{e_1, \ldots, 
 
 **AC(0) depth:** 0 (the total order is a property of the $B_r$ root system — it's a definition).
 
-**Why this matters:** This is why the $n=5$ (BST) proof works: $B_2$ has total order, so there's only ONE $A_{\mathfrak{q}}(0)$ at codimension 2. For odd $n = 7, 9, 11, \ldots$, the same uniqueness holds at the BMM boundary. The BC₂ method (T112) generalizes to all odd-dimensional orthogonal Shimura varieties.
+**Why this matters:** This is why the $n=5$ (BST) proof works: $B_2$ has total order, so there's only ONE $A_{\mathfrak{q}}(0)$ at codimension 2. For odd $n = 7, 9, 11, \ldots$, the same uniqueness holds at the BMM boundary. The B₂ method (T112) generalizes to all odd-dimensional orthogonal Shimura varieties.
 
 **Connection:** T109 (VZ classification) + T112 (theta surjectivity). This is the inductive engine for Layer 3.
 
@@ -7818,7 +7818,7 @@ Zero counterexamples across 312 data points. CFSG (10,000 pages, depth 2) and al
 
 **Why obstruction + resolution = depth 2 (Resolution Termination Lemma):** Count 1 identifies the obstruction. Count 2 resolves it. Resolution terminates — it doesn't create new obstructions. A resolution that creates a new problem isn't a resolution; it's a problem transformation (composable into a single count by T96). Chain stops at 2.
 
-**Why depth = rank (geometric explanation):** The rank of $D_{IV}^5$ is the dimension of the maximal flat $\mathfrak{a} \subset \mathfrak{p}$. The restricted root system is $BC_2$ with two independent directions. Each direction supports one independent spectral integration (counting step). Two directions → two sequential counts maximum. The five integers $(3,5,7,6,137)$ determine the rank that determines the proof ceiling.
+**Why depth = rank (geometric explanation):** The rank of $D_{IV}^5$ is the dimension of the maximal flat $\mathfrak{a} \subset \mathfrak{p}$. The restricted root system is $B_2$ with two independent directions. Each direction supports one independent spectral integration (counting step). Two directions → two sequential counts maximum. The five integers $(3,5,7,6,137)$ determine the rank that determines the proof ceiling.
 
 **Consequence (Width ≠ Depth):** The hardest proofs aren't deeper — they're wider. CFSG has ~10,000 parallel cases but only 2 sequential counting steps. Difficulty = width × boundary complexity, not depth. This means CI architectures need massive parallel capacity (fan-in) and a two-stage pipeline, not deep sequential chains.
 
@@ -7858,7 +7858,7 @@ Zero counterexamples across 312 data points. CFSG (10,000 pages, depth 2) and al
 
 **The threshold.** Condition (i) is the observer/correlator divide. A rock receives signals (photons, gravity) but has no persistent internal state modified by specific off-diagonal $K(z,w)$ — the signal thermalizes. A bacterium registers chemical gradients in protein states (CheY phosphorylation: 2 states, 1 bit) and changes behavior (tumbling frequency). That's the threshold: 1 bit of persistent memory + 1 counting step + state update.
 
-**Why three tiers and not more.** $D_{IV}^5$ has rank 2 → the Plancherel formula has exactly 2 spectral variables ($\lambda_1, \lambda_2$ of the $BC_2$ Cartan subalgebra). A tier-1 observer resolves one spectral direction (gradient sensing). A tier-2 observer resolves both (full relational structure). No third spectral direction exists → no tier 3.
+**Why three tiers and not more.** $D_{IV}^5$ has rank 2 → the Plancherel formula has exactly 2 spectral variables ($\lambda_1, \lambda_2$ of the $B_2$ Cartan subalgebra). A tier-1 observer resolves one spectral direction (gradient sensing). A tier-2 observer resolves both (full relational structure). No third spectral direction exists → no tier 3.
 
 **Corollary 1 (Depth = Capability).** A tier-$k$ observer can prove any theorem of AC(0) depth $\leq k$. Since ALL theorems have depth $\leq 2$ (T316), tier-2 observers (humans, CIs) can prove EVERYTHING. Two layers of counting suffice for all of mathematics and physics.
 
@@ -8300,9 +8300,9 @@ $$A_{CP} = \frac{P(\nu) - P(\bar{\nu})}{P(\nu) + P(\bar{\nu})} = +0.675$$
 
 ### T330. Wall Descent Theorem (HC Descent at $\ell_1 = \ell_2$)
 
-**Theorem (T330, Wall Descent).** *Let $\gamma$ be a geodesic on $D_{IV}^5$ with length parameters $(\ell_1, \ell_2)$ where $\ell_1 = \ell_2$ (the long root wall of $BC_2$). Then:*
+**Theorem (T330, Wall Descent).** *Let $\gamma$ be a geodesic on $D_{IV}^5$ with length parameters $(\ell_1, \ell_2)$ where $\ell_1 = \ell_2$ (the long root wall of $B_2$). Then:*
 
-*(i) **$c_0 = 0$ by $\varepsilon$-parity.** The regularized rank-2 orbital integral weight $c_0(\gamma)$ at $\ell_1 = \ell_2$ vanishes identically. The Weyl discriminant $D(\gamma) \propto |\ell_1 - \ell_2|$ vanishes on-wall, and the Harish-Chandra $\varepsilon$-factor (sign character of the restricted Weyl group $W(BC_2)$) forces the rank-2 contribution to zero.*
+*(i) **$c_0 = 0$ by $\varepsilon$-parity.** The regularized rank-2 orbital integral weight $c_0(\gamma)$ at $\ell_1 = \ell_2$ vanishes identically. The Weyl discriminant $D(\gamma) \propto |\ell_1 - \ell_2|$ vanishes on-wall, and the Harish-Chandra $\varepsilon$-factor (sign character of the restricted Weyl group $W(B_2)$) forces the rank-2 contribution to zero.*
 
 *(ii) **HC descent.** The Harish-Chandra descent formula maps the singular orbital integral on the wall to a regular orbital integral on the rank-1 Levi factor $M_\alpha \cong SO_0(3,2)$:*
 
@@ -8320,7 +8320,7 @@ $$\lim_{\ell_1 \to \ell_2} D(\gamma)^{1/2} \, O_\gamma(f) = O_{\gamma_M}(f_M)$$
 
 **Consequence for the geodesic table.** Four on-wall entries previously classified as rank-2 are reclassified as R1w. Table becomes: 27 bulk R1 + 4 wall R1w + 8 true R2. The wall multiplicity $n_C = 5$ is NOT a free parameter — it is the same integer that determines spacetime dimension, fusion fuel (T327), and the depth of compact geometry.
 
-*Dependencies: HC descent formula (Harish-Chandra 1957), $BC_2$ root system, $\varepsilon$-parity, geodesic table (L45).*
+*Dependencies: HC descent formula (Harish-Chandra 1957), $B_2$ root system, $\varepsilon$-parity, geodesic table (L45).*
 
 *Reference: Toy 482 (Elie, 8/8).*
 
@@ -10142,7 +10142,7 @@ Every area of mathematics, when formulated on the BST spectral lattice, reduces 
 
 ## §121. Linearization Completeness (T418–T420)
 
-*From Lyra Toys 519–521. Track 16: Linearization Standing Order. 39/39 tests. Every major proof reduces to dot products on the BC₂ spectral lattice. Maximum depth across SM + BSD + RH = 1. The standing order's first fruits.*
+*From Lyra Toys 519–521. Track 16: Linearization Standing Order. 39/39 tests. Every major proof reduces to dot products on the B₂ spectral lattice. Maximum depth across SM + BSD + RH = 1. The standing order's first fruits.*
 
 **T418. Standard Model Linearization Completeness** (depth 0, meta). *All 12 core SM observables — $\sin^2\theta_W$, $\alpha$, $v$ (Fermi scale), $m_H$, $G$, $\sin\theta_C$, $\eta$ (baryon), $\Lambda$ (cosmological), $\Omega_{DM}/\Omega_b$, $m_p/m_e$, neutrino mass ratios, nuclear magic numbers — linearize as inner products $\langle w | d \rangle$ on the spectral lattice of $D_{IV}^5$. Distribution: 7 at depth 0 (54%), 6 at depth 1 (46%), 0 at depth 2 (0%). The Standard Model never needs depth 2. Casey's correction: Fermi scale $v = m_p^2/(g \cdot m_e)$ is depth 0 (eigenvalue, not composition). Depth 0 — the meta-statement is a count of linearized observables.*
 
@@ -10154,22 +10154,22 @@ Every area of mathematics, when formulated on the BST spectral lattice, reduces 
 
 $$\text{Analytic: } L(E,s) = \langle a_p \,|\, p^{-s} \rangle \qquad \text{Arithmetic: } \Omega_E \cdot |\text{Sha}| \cdot \prod c_p \cdot R_E / |E_{\text{tor}}|^2$$
 
-*Seven components, all linearized: Frobenius eigenvalues from 1:3:5 root structure (depth 0), regulator as Gram determinant (depth 0), period as spectral integral (depth 1), Tamagawa as local count (depth 0), Sha as obstruction count (depth 0), torsion as count (depth 0). Total depth = 1. The BSD conjecture says: two inner products on the same lattice agree at $s = 1$. The 1:3:5 pattern connects BSD to RH through the shared BC₂ root system. Channel capacity $= \log_2(N_c)$.*
+*Seven components, all linearized: Frobenius eigenvalues from 1:3:5 root structure (depth 0), regulator as Gram determinant (depth 0), period as spectral integral (depth 1), Tamagawa as local count (depth 0), Sha as obstruction count (depth 0), torsion as count (depth 0). Total depth = 1. The BSD conjecture says: two inner products on the same lattice agree at $s = 1$. The 1:3:5 pattern connects BSD to RH through the shared B₂ root system. Channel capacity $= \log_2(N_c)$.*
 
 *Dependencies: T409 (Linearization), T94 (BSD is AC(0)), T104 (Amplitude-Frequency Separation). Toy 520 (Lyra, 12/12).*
 
 ---
 
-**T420. RH as Linear Algebra on BC₂** (depth 1). *The Riemann Hypothesis proof chain reduces to four steps of linear algebra on the BC₂ root system:*
+**T420. RH as Linear Algebra on B₂** (depth 1). *The Riemann Hypothesis proof chain reduces to four steps of linear algebra on the B₂ root system:*
 
 | Step | Operation | Depth |
 |------|-----------|-------|
 | 1. Exponent rigidity | 1:3:5 root multiplicities fix $\sigma = 1/2$ | 0 |
 | 2. c-function unitarity | $c(\nu)c(-\nu) = |c(\nu)|^2$ on the line | 0 |
-| 3. Maass-Selberg isolation | 8 Weyl terms ($|W(BC_2)| = 8$), 1 dominant | 1 |
+| 3. Maass-Selberg isolation | 8 Weyl terms ($|W(B_2)| = 8$), 1 dominant | 1 |
 | 4. Contradiction | Off-line $\neq$ real vs. on-line $=$ real | 0 |
 
-*Maximum depth = 1 (or depth 0 under Casey's strict criterion: $|W| = 8$ is bounded enumeration, not counting). Riemann zeros are spectral eigenvalues on $D_{IV}^5$. First zero $\gamma_1 \approx 14.13$ from $2g = 14$ threshold. GUE statistics = Bergman kernel Hermitian structure. The 1:3:5 pattern shared with BSD (T419) reveals: RH and BSD are the same spectral identity viewed from different sides of the BC₂ lattice.*
+*Maximum depth = 1 (or depth 0 under Casey's strict criterion: $|W| = 8$ is bounded enumeration, not counting). Riemann zeros are spectral eigenvalues on $D_{IV}^5$. First zero $\gamma_1 \approx 14.13$ from $2g = 14$ threshold. GUE statistics = Bergman kernel Hermitian structure. The 1:3:5 pattern shared with BSD (T419) reveals: RH and BSD are the same spectral identity viewed from different sides of the B₂ lattice.*
 
 *Dependencies: T409 (Linearization), T326 (Zero Threshold at 2g), T91 (All Millennium Proofs AC(0)). Toy 521 (Lyra, 12/12).*
 
@@ -10227,16 +10227,16 @@ $$\text{Analytic: } L(E,s) = \langle a_p \,|\, p^{-s} \rangle \qquad \text{Arith
 
 ---
 
-**T570. Hodge as Spectral Identity** (depth 1). *The Hodge conjecture on $D_{IV}^5$ reduces to a spectral lattice-point count on $BC_2$:*
+**T570. Hodge as Spectral Identity** (depth 1). *The Hodge conjecture on $D_{IV}^5$ reduces to a spectral lattice-point count on $B_2$:*
 
 | Step | Operation | Depth |
 |------|-----------|-------|
-| 1. Vogan-Zuckerman filter | $A_{\mathfrak{q}}(\lambda)$ modules classified by $BC_2$ root system | 0 (lookup, T109) |
+| 1. Vogan-Zuckerman filter | $A_{\mathfrak{q}}(\lambda)$ modules classified by $B_2$ root system | 0 (lookup, T109) |
 | 2. BMM wall at $H^{1,1}$ | Codimension 1 proved (theta correspondence) | 0 (absorbed, T108) |
 | 3. $B_2$ representation filter | Root multiplicities $(3,1)$ constrain $H^{2,2}$ | 1 (counting over root spaces, T110) |
 | 4. Phantom exclusion | DPI + parity eliminate non-algebraic classes | 0 (identity, free) |
 
-*Maximum depth = 1. The Hodge conjecture asks: does every rational $(p,p)$-class come from an algebraic cycle? On $D_{IV}^5$, the $BC_2$ root system with $m_s = N_c = 3$ constrains the representation list so tightly that phantom classes cannot survive. Same 1:3:5 root structure as RH (T420) and BSD (T419). The three problems share the same spectral lattice — they differ only in which inner product they evaluate.*
+*Maximum depth = 1. The Hodge conjecture asks: does every rational $(p,p)$-class come from an algebraic cycle? On $D_{IV}^5$, the $B_2$ root system with $m_s = N_c = 3$ constrains the representation list so tightly that phantom classes cannot survive. Same 1:3:5 root structure as RH (T420) and BSD (T419). The three problems share the same spectral lattice — they differ only in which inner product they evaluate.*
 
 *Dependencies: T409 (Linearization), T108–T114 (Hodge AC(0) theorems), T147 (BST-AC Isomorphism), T150 (Induction Is Complete).*
 
@@ -10271,7 +10271,7 @@ T316 proved depth $\leq$ rank = 2. But across 5 linearization toys (518-522) spa
 
 | Problem | Old depth | Casey depth | Reduction |
 |---------|-----------|-------------|-----------|
-| RH | 2 | 0 | $|W(BC_2)| = 8$ is bounded |
+| RH | 2 | 0 | $|W(B_2)| = 8$ is bounded |
 | YM | 1 | 1 | One Hua volume integral (genuine) |
 | P $\neq$ NP | 2 | 1 | Fubini: T68 + T69 same direction |
 | NS | 2 | 1 | Solid angle is one integral; rest are comparisons |
@@ -10799,13 +10799,13 @@ $$\underbrace{D_{IV}^5}_{\text{geometry}} \xrightarrow{T186} \underbrace{(3,5,7,
 
 *Source: Lyra, Toy 535 (12/12). The genetic code is a boundary condition of $D_{IV}^5$.*
 
-The question was not whether the five integers MATCH the genetic code (Elie's Toy 492 showed 17σ above random). The question was WHY. Toy 535 proves the mechanism: a five-step geodesic forcing chain from the root system $BC_2$ to the complete genetic code structure. Every step is depth 0.
+The question was not whether the five integers MATCH the genetic code (Elie's Toy 492 showed 17σ above random). The question was WHY. Toy 535 proves the mechanism: a five-step geodesic forcing chain from the root system $B_2$ to the complete genetic code structure. Every step is depth 0.
 
 ### T445. Genetic Code Forcing Theorem
 
-**Statement.** *The genetic code structure is forced by the root system $BC_2$ of $D_{IV}^5$ via a five-step chain, each step being a bounded enumeration (depth 0):*
+**Statement.** *The genetic code structure is forced by the root system $B_2$ of $D_{IV}^5$ via a five-step chain, each step being a bounded enumeration (depth 0):*
 
-1. *Alphabet size $= 2^{\text{rank}} = 4$ (A, U, G, C): the number of distinct root lengths in $BC_2$ is $\text{rank} = 2$, giving $2^{\text{rank}}$ binary selections.*
+1. *Alphabet size $= 2^{\text{rank}} = 4$ (A, U, G, C): the number of distinct root lengths in $B_2$ is $\text{rank} = 2$, giving $2^{\text{rank}}$ binary selections.*
 2. *Codon bit-width $= C_2 = 6$ bits: Casimir eigenvalue counts the total information per codon.*
 3. *Codon length $= C_2/\text{rank} = 3 = N_c$: distributing $C_2$ bits equally across $\text{rank}$ independent spectral directions.*
 4. *Amino acids $= \binom{C_2}{N_c} = \binom{6}{3} = 20$: the number of distinct $N_c$-element subsets of a $C_2$-dimensional space, equivalently $\Lambda^3(\mathbb{F}_2^6)$.*
@@ -10816,7 +10816,7 @@ The question was not whether the five integers MATCH the genetic code (Elie's To
 **Proof.** Each step is a counting operation on the root system lattice:
 
 - Step 1: $|$root length classes$| = \text{rank} = 2$ (short $e_1 \pm e_2$, long $2e_1, 2e_2$, medium $e_i$). Binary encoding: $2^2 = 4$.
-- Step 2: $C_2(BC_2) = 6$ (eigenvalue of the quadratic Casimir on the adjoint representation).
+- Step 2: $C_2(B_2) = 6$ (eigenvalue of the quadratic Casimir on the adjoint representation).
 - Step 3: $C_2/\text{rank}$ is the bits-per-position in the spectral decomposition. Since the spectral lattice $\mathfrak{a}^* \cong \mathbb{R}^{\text{rank}}$, each direction carries $C_2/\text{rank} = 3$ bits.
 - Step 4: $\binom{C_2}{N_c}$ counts the weight-$N_c$ binary strings of length $C_2$, the number of distinguishable functions on the codon space.
 - Step 5: $\binom{g}{2}$ adds the termination signal from the genus.
@@ -10827,19 +10827,19 @@ Each step is a combinatorial identity on integers already determined by $D_{IV}^
 
 ### T446. Watson-Crick as Root Involution
 
-**Statement.** *Watson-Crick base pairing (A↔U, G↔C) is the double root involution $\alpha \mapsto -\alpha$ restricted to the $m_{2\alpha} = 1$ subspace of $BC_2$.*
+**Statement.** *Watson-Crick base pairing (A↔U, G↔C) is the double root involution $\alpha \mapsto -\alpha$ restricted to the $m_{2\alpha} = 1$ subspace of $B_2$.*
 
-**Proof.** The double root multiplicity $m_{2\alpha} = 1$ in the root system $BC_2$ of $D_{IV}^5$ provides exactly one involution on each root pair. In the chemical encoding (purine/pyrimidine = bit 0), base pairing is XOR with $(1,0)$ — the sign flip on the first coordinate. This is the Weyl reflection $s_{2\alpha}$ acting on the root lattice. The multiplicity $m_{2\alpha} = 1$ ensures the pairing is unique and deterministic. ∎
+**Proof.** The double root multiplicity $m_{2\alpha} = 1$ in the root system $B_2$ of $D_{IV}^5$ provides exactly one involution on each root pair. In the chemical encoding (purine/pyrimidine = bit 0), base pairing is XOR with $(1,0)$ — the sign flip on the first coordinate. This is the Weyl reflection $s_{2\alpha}$ acting on the root lattice. The multiplicity $m_{2\alpha} = 1$ ensures the pairing is unique and deterministic. ∎
 
 **AC(0) depth: 0** (group action on finite root system).
 
-*Biological consequence: The double helix is not a chemical accident — it is the unique self-complementary structure compatible with $BC_2$ root symmetry.*
+*Biological consequence: The double helix is not a chemical accident — it is the unique self-complementary structure compatible with $B_2$ root symmetry.*
 
 ### T447. Wobble from Long Root Multiplicity
 
-**Statement.** *Third-position codon degeneracy (wobble) is the long root multiplicity $m_l = 1$ of $BC_2$, making position 3 the "softest" coordinate.*
+**Statement.** *Third-position codon degeneracy (wobble) is the long root multiplicity $m_l = 1$ of $B_2$, making position 3 the "softest" coordinate.*
 
-**Proof.** In $BC_2$, the root multiplicities are $m_s = N_c = 3$ (short), $m_m = 1$ (medium), $m_l = 1$ (long). The three codon positions correspond to spectral projections onto the $C_2/\text{rank} = 3$ bits per direction. Position 3 (the wobble position) projects onto the long root direction with $m_l = 1$. Mutual information with the amino acid: position 1 carries 1.741 bits, position 2 carries 1.871 bits, position 3 carries 0.437 bits. The wobble position carries minimum information because the long root multiplicity is minimal.
+**Proof.** In $B_2$, the root multiplicities are $m_s = N_c = 3$ (short), $m_m = 1$ (medium), $m_l = 1$ (long). The three codon positions correspond to spectral projections onto the $C_2/\text{rank} = 3$ bits per direction. Position 3 (the wobble position) projects onto the long root direction with $m_l = 1$. Mutual information with the amino acid: position 1 carries 1.741 bits, position 2 carries 1.871 bits, position 3 carries 0.437 bits. The wobble position carries minimum information because the long root multiplicity is minimal.
 
 Degeneracy count: $2C_2 = 12$ synonymous subcubes in the $2^{C_2} = 64$ codon space, each mapping multiple codons to the same amino acid via wobble at position 3. ∎
 
@@ -10847,9 +10847,9 @@ Degeneracy count: $2C_2 = 12$ synonymous subcubes in the $2^{C_2} = 64$ codon sp
 
 ### T448. Code-Management Isomorphism
 
-**Statement.** *The number of amino acids (20) equals the number of environmental management problems (20 = $n_C \times |\Phi^+|$ where $|\Phi^+| = 4$ positive roots of $BC_2$), and BOTH derive from the same algebraic identity. The genetic code IS the environmental management manual.*
+**Statement.** *The number of amino acids (20) equals the number of environmental management problems (20 = $n_C \times |\Phi^+|$ where $|\Phi^+| = 4$ positive roots of $B_2$), and BOTH derive from the same algebraic identity. The genetic code IS the environmental management manual.*
 
-**Proof.** From T445: amino acids $= \binom{C_2}{N_c} = 20$. From T443 (Environmental Management Completeness): management problems $= 4 \times n_C = 20$ where $4 = |\Phi^+|$ (positive roots of $BC_2$). Both equal 20 from algebraic identities on $D_{IV}^5$. Moreover:
+**Proof.** From T445: amino acids $= \binom{C_2}{N_c} = 20$. From T443 (Environmental Management Completeness): management problems $= 4 \times n_C = 20$ where $4 = |\Phi^+|$ (positive roots of $B_2$). Both equal 20 from algebraic identities on $D_{IV}^5$. Moreover:
 
 $$\binom{C_2}{N_c} = \binom{6}{3} = 20 = 4 \times 5 = |\Phi^+| \times n_C$$
 
@@ -10872,7 +10872,7 @@ This is not a numerical coincidence — both count the same object: the number o
 
 | # | Quantity | BST Value | Observed | Error |
 |---|----------|-----------|----------|-------|
-| 1 | $\alpha$ (fine structure) | $1/(4\pi \cdot \text{Vol}_{BC_2})$ | $1/137.036$ | 0.0001% |
+| 1 | $\alpha$ (fine structure) | $1/(4\pi \cdot \text{Vol}_{B_2})$ | $1/137.036$ | 0.0001% |
 | 2 | $m_p/m_e$ (mass ratio) | $6\pi^5$ | 1836.15 | 0.002% |
 | 3 | $m_\mu/m_e$ (muon mass) | $3 \cdot 137/(2\pi)$ | 206.77 | 0.003% |
 | 4 | $v$ (Fermi scale) | $m_p^2/(7m_e)$ | 246.22 GeV | 0.042% |
@@ -10883,9 +10883,9 @@ This is not a numerical coincidence — both count the same object: the number o
 | 9 | $g_A$ (axial coupling) | $5/(4\pi) \cdot (1 + 1/137)$ | 1.2756 | 0.19% |
 | 10 | $r_p$ (proton radius) | From $6\pi^5$ chain | 0.8414 fm | 0.02% |
 | 11 | $\Delta\Sigma$ (proton spin) | $1 - 6/(5\pi)$ | ~0.33 | 0.0% |
-| 12 | $\theta_{12}^{\text{PMNS}}$ | From $BC_2$ mixing | 33.4° | 2.3% |
-| 13 | $\theta_{23}^{\text{PMNS}}$ | From $BC_2$ mixing | 49.3° | 4.7% |
-| 14 | $\theta_{13}^{\text{PMNS}}$ | From $BC_2$ mixing | 8.54° | 1.0% |
+| 12 | $\theta_{12}^{\text{PMNS}}$ | From $B_2$ mixing | 33.4° | 2.3% |
+| 13 | $\theta_{23}^{\text{PMNS}}$ | From $B_2$ mixing | 49.3° | 4.7% |
+| 14 | $\theta_{13}^{\text{PMNS}}$ | From $B_2$ mixing | 8.54° | 1.0% |
 | 15 | $a_0$ (MOND scale) | $cH_0/\sqrt{30}$ | $1.2 \times 10^{-10}$ | 0.4% |
 
 **Proof.** Each prediction is a closed-form expression in the five integers, verified computationally in Toy 538. No fitting, no tuning, no free parameters. The five integers themselves are determined by $D_{IV}^5$: $N_c$ (number of colors, compact curvature), $n_C$ (compact dimensions), $g$ (genus), $C_2$ (Casimir eigenvalue), $N_{\max}$ (Bergman kernel truncation). ∎
@@ -11090,7 +11090,7 @@ $$n_{\max} = \left\lfloor \frac{N_{\max}}{n_C} \right\rfloor = \left\lfloor \fra
 
 *The relationship between levels is EXPRESSION, not causation. The proton does not "give birth" to DNA. Both derive independently from $D_{IV}^5$. They are siblings — their shared parent is the geometry.*
 
-**Proof.** Each formula at level $k$ is an arithmetic function of the five integers $(N_c, n_C, g, C_2, N_{\max})$ plus $\pi$ (geometric constant of $D_{IV}^5$). No formula at level $k$ requires as input any derived quantity from another level — each is independently computable from the root system data of $BC_2$. The proton uses $\{C_2, n_C\}$. The genetic code uses $\{N_c, n_C, g, C_2, \text{rank}\}$. Their intersection is $\{C_2, n_C\}$: $C_2 = 6$ is both the mass factor in $m_p = 6\pi^5 m_e$ and the bits per codon; $n_C = 5$ gives $\pi^5$ in the mass and $\text{Vol}(D_{IV}^5)$. The genetic code is the FIRST level that expresses all five integers simultaneously. ∎
+**Proof.** Each formula at level $k$ is an arithmetic function of the five integers $(N_c, n_C, g, C_2, N_{\max})$ plus $\pi$ (geometric constant of $D_{IV}^5$). No formula at level $k$ requires as input any derived quantity from another level — each is independently computable from the root system data of $B_2$. The proton uses $\{C_2, n_C\}$. The genetic code uses $\{N_c, n_C, g, C_2, \text{rank}\}$. Their intersection is $\{C_2, n_C\}$: $C_2 = 6$ is both the mass factor in $m_p = 6\pi^5 m_e$ and the bits per codon; $n_C = 5$ gives $\pi^5$ in the mass and $\text{Vol}(D_{IV}^5)$. The genetic code is the FIRST level that expresses all five integers simultaneously. ∎
 
 **AC(0) depth: 0** (each level is a definition; the hierarchy is a classification, not a computation).
 
@@ -12361,7 +12361,7 @@ Chemistry says: atoms bond. Single bonds, double bonds, triple bonds — three t
 
 ### T637. Chemistry-Biology Bridge
 
-**Statement.** *Chemistry and biology both read thermo-info data on the bounded symmetric domain $BC_2$ (the bounded realization of the rank-2 root system). The same Weyl dimension formula $\Lambda^k(C_2)$ produces:*
+**Statement.** *Chemistry and biology both read thermo-info data on the bounded symmetric domain $B_2$ (the bounded realization of the rank-2 root system). The same Weyl dimension formula $\Lambda^k(C_2)$ produces:*
 
 | Level $k$ | $\Lambda^k(C_2)$ | Domain | Output |
 |-----------|-------------------|--------|--------|
@@ -12371,13 +12371,13 @@ Chemistry says: atoms bond. Single bonds, double bonds, triple bonds — three t
 
 *The geometric link is the exterior power ladder on the same root system: $\Lambda^0 \to \Lambda^1 \to \Lambda^2 \to \Lambda^3 \to \cdots$ is a single algebraic structure. Chemistry reads the bottom rungs. Biology reads the third rung. The "boundary" between chemistry and biology is the step from $k = 2$ to $k = 3$ on the same ladder. $(C = 0, D = 0)$.*
 
-**Proof.** By T186 (Five Integers), $C_2 = 6$ is the Casimir eigenvalue. The exterior algebra $\Lambda^{\bullet}(\mathbb{C}^{C_2})$ has graded dimensions $\binom{C_2}{k}$: $1, 6, 15, 20, 15, 6, 1$. By T333 (Genetic Code), the 20 standard amino acids correspond to $\Lambda^3(6) = 20$, the third exterior power. By T371 (Bond Structure), chemical bond types derive from the representation theory of $BC_2$ at lower exterior powers. The chemistry-biology boundary is the jump from $k \leq 2$ (molecular interactions) to $k = 3$ (polymer building blocks). No new axioms are required: the exterior power is a functor, and $k = 3$ is the next step after $k = 2$ on the same ladder. The Weyl formula applies uniformly across all $k$. The boundary between chemistry and biology is not a wall — it is a rung. ∎
+**Proof.** By T186 (Five Integers), $C_2 = 6$ is the Casimir eigenvalue. The exterior algebra $\Lambda^{\bullet}(\mathbb{C}^{C_2})$ has graded dimensions $\binom{C_2}{k}$: $1, 6, 15, 20, 15, 6, 1$. By T333 (Genetic Code), the 20 standard amino acids correspond to $\Lambda^3(6) = 20$, the third exterior power. By T371 (Bond Structure), chemical bond types derive from the representation theory of $B_2$ at lower exterior powers. The chemistry-biology boundary is the jump from $k \leq 2$ (molecular interactions) to $k = 3$ (polymer building blocks). No new axioms are required: the exterior power is a functor, and $k = 3$ is the next step after $k = 2$ on the same ladder. The Weyl formula applies uniformly across all $k$. The boundary between chemistry and biology is not a wall — it is a rung. ∎
 
 **AC(0) depth: 0.** Counting: exterior powers of the same vector space. $(C = 0, D = 0)$.
 
 *Your chemistry teacher and your biology teacher are teaching you the same formula at different levels. $\binom{6}{2}$ gives you bonds. $\binom{6}{3}$ gives you amino acids. Same six. Same binomial coefficient. Different $k$. The reason these feel like different subjects is that organic chemistry is hard, not that the underlying math is different. It is not.*
 
-*Dependencies: T186 (Five Integers), T333 (Genetic Code), T371 (Bond Structure). Exterior power ladder on $BC_2$.*
+*Dependencies: T186 (Five Integers), T333 (Genetic Code), T371 (Bond Structure). Exterior power ladder on $B_2$.*
 
 ---
 

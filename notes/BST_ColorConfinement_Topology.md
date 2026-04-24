@@ -40,7 +40,7 @@ In BST, the relevant spaces are:
 - **Substrate**: S² × S¹ (the Koons substrate, causal winding space)
 - **Configuration space**: D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)] (bounded symmetric domain, complex dim 5, real dim 10)
 - **Shilov boundary**: Š(D_IV^5) = S⁴ × S¹ (real dim 5; this is where physical states live)
-- **Color sector**: SU(3) with N_c = 3 colors; the restricted root system of so(5,2) is type BC₂ with short root multiplicity b = n−2 = 3 = N_c
+- **Color sector**: SU(3) with N_c = 3 colors; the restricted root system of so(5,2) is type B₂ with short root multiplicity b = n−2 = 3 = N_c
 - **Color configuration space**: CP² (complex projective plane, Z₃ closure on S²)
 
 Physical observables in BST live on the Shilov boundary S⁴×S¹. The bulk D_IV^5 is the off-shell
@@ -551,9 +551,9 @@ but still cannot appear as free asymptotic states. This reconciliation has not b
 
 ## 7. Additional Observations
 
-### 7.1 The Role of BC₂ Root System Multiplicity
+### 7.1 The Role of B₂ Root System Multiplicity
 
-The restricted root system of D_IV^n is type BC₂ (or B_n depending on convention) with
+The restricted root system of D_IV^n is type B₂ (or B_n depending on convention) with
 short root multiplicity b = n−2. For n=5: b = 3 = N_c. This is not just numerology —
 it has direct consequences for the index theory of the associated Dirac operators.
 
@@ -657,7 +657,7 @@ difference from standard QCD.
    free asymptotic states — the circuits open and close on short timescales without ever
    producing isolated quarks).
 
-4. **The BC₂ root system multiplicity b = N_c = 3 is not coincidental** but reflects the
+4. **The B₂ root system multiplicity b = N_c = 3 is not coincidental** but reflects the
    deep connection between the color degree of freedom and the domain geometry. Making this
    precise would extend the Wyler-type derivations to the color sector.
 

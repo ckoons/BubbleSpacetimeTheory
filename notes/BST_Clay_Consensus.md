@@ -36,7 +36,7 @@ status: "Consensus document — unified framing analysis with workplan"
 
 **Consensus**: RH has no framing gap. Clay asks for a proof; BST provides one via the heat kernel trace formula on $\mathrm{SO}_0(5,2)/K$. The four pillars are complete. Multi-parabolic distinctness verified (Toy 305). Arithmetic closure established via Meyer's theorem (class number 1 for rank $\geq$ 5 unimodular forms). The only remaining step is external review.
 
-**Where BST goes further**: BST proves RH for ALL $D_{IV}^n$ with $n \geq 4$, not just the Riemann zeta function. It identifies the geometric origin (root system $BC_2$, short root multiplicity $m_s = 3$). Clay doesn't ask "why" — BST answers anyway.
+**Where BST goes further**: BST proves RH for ALL $D_{IV}^n$ with $n \geq 4$, not just the Riemann zeta function. It identifies the geometric origin (root system $B_2$, short root multiplicity $m_s = 3$). Clay doesn't ask "why" — BST answers anyway.
 
 **Lyra's "simply" statement (adopted as consensus)**:
 

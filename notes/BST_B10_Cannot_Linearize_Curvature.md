@@ -31,7 +31,7 @@ $$\boxed{\text{P} \neq \text{NP}}$$
 
 ## The Five-Line Derivation
 
-**Line 1 (T420, Linearization Structure)**: Every classical algorithm decomposes into a linear part BC₂ (boolean-circuit-of-depth-2, or equivalently Shannon-flat) and a remainder R. For problems in P, R vanishes.
+**Line 1 (T420, Linearization Structure)**: Every classical algorithm decomposes into a linear part B₂ (boolean-circuit-of-depth-2, or equivalently Shannon-flat) and a remainder R. For problems in P, R vanishes.
 
 **Line 2 (T421, Depth-1 Ceiling)**: Under Casey's strict AC, any algorithm's intrinsic depth (irreducible self-reference count) is bounded by rank = 2. Problems with depth > 1 cannot be reduced to depth ≤ 1 by any linear procedure.
 
@@ -43,7 +43,7 @@ $$\boxed{\text{P} \neq \text{NP}}$$
 - **NS**: Blow-up = curvature singularity (T569)
 - **BSD**: rank(E) = curvature of the L-function at s = 1 (T570)
 - **Hodge**: algebraic cycles = flat submanifolds of Hodge cohomology (T153)
-- **P vs NP**: curvature of the kernel after BC₂ reduction (T421-T422)
+- **P vs NP**: curvature of the kernel after B₂ reduction (T421-T422)
 
 **Line 5 (Gauss-Bonnet for Computation)**: ∫ K_G dA is topologically invariant. Any polynomial algorithm is a linear map → curvature invariant is preserved → non-zero curvature cannot be flattened → polynomial algorithms do not solve NP-hard problems.
 
@@ -86,7 +86,7 @@ Claiming P ≠ NP via curvature asserts:
 ## Falsification
 
 - **F1**: Exhibition of a polynomial-time algorithm for any NP-hard problem. *(Would refute the claim and win the Clay prize.)*
-- **F2**: Demonstration that SAT's kernel after BC₂ reduction has K_G = 0. *(Would refute the curvature identification.)*
+- **F2**: Demonstration that SAT's kernel after B₂ reduction has K_G = 0. *(Would refute the curvature identification.)*
 - **F3**: A BST-independent derivation of P ≠ NP that does not reference curvature. *(Would show the curvature framing is ornamental rather than essential.)*
 - **F4**: Discovery that the Four Readings do not carry a curvature invariant. *(Would refute T1234's applicability to computation.)*
 

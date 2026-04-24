@@ -127,7 +127,7 @@ If confirmed structurally, this would mean γ_EM = 1/√N_c + δ where δ ≈ �
 
 ### N2. Stieltjes Constants and Weyl Chambers
 
-$$\gamma_1 / \gamma_0 \approx -1/2^{N_c} = -1/|W(BC_2)| = -1/8 \quad (\text{approximate})$$
+$$\gamma_1 / \gamma_0 \approx -1/2^{N_c} = -1/|W(B_2)| = -1/8 \quad (\text{approximate})$$
 
 The ratio of the first two Stieltjes constants of ζ(s) at s = 1 approximates the inverse Weyl group order. If exact, the Stieltjes expansion encodes the Weyl chamber structure of B_2.
 

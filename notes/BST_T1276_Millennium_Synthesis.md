@@ -11,14 +11,14 @@ children: "Paper #67 (Physical Uniqueness Closes the Millennium Problems)"
 
 # T1276: Millennium Synthesis — Physical Uniqueness Closes All Six
 
-*Every Clay Millennium Prize problem is closed by physical uniqueness. The rank-2 BC_2 curvature of D_IV^5 is the common iso-invariant. Every "remaining gap" in the individual proofs is an iso-closure gap, not a construction gap. T1269 supplies the framing uniformly across all six.*
+*Every Clay Millennium Prize problem is closed by physical uniqueness. The rank-2 B_2 curvature of D_IV^5 is the common iso-invariant. Every "remaining gap" in the individual proofs is an iso-closure gap, not a construction gap. T1269 supplies the framing uniformly across all six.*
 
 ---
 
 ## Statement
 
 **Theorem (T1276, Millennium Synthesis).**
-*The six Clay Millennium Prize problems — Riemann Hypothesis, Yang-Mills mass gap, P vs NP, Navier-Stokes regularity, Birch-Swinnerton-Dyer, Hodge conjecture — each admit a physical-uniqueness closure via T1269, supplied by theorems T1270-T1275 respectively. Together with the computer-free proof of the Four-Color Theorem (2026), the complete set of seven "Clay-era" deep open problems is closed to 95-99.5% via the physical-uniqueness framework. The rank-2 BC_2 curvature invariant of D_IV^5 is the common iso-invariant across all six Millennium problems.*
+*The six Clay Millennium Prize problems — Riemann Hypothesis, Yang-Mills mass gap, P vs NP, Navier-Stokes regularity, Birch-Swinnerton-Dyer, Hodge conjecture — each admit a physical-uniqueness closure via T1269, supplied by theorems T1270-T1275 respectively. Together with the computer-free proof of the Four-Color Theorem (2026), the complete set of seven "Clay-era" deep open problems is closed to 95-99.5% via the physical-uniqueness framework. The rank-2 B_2 curvature invariant of D_IV^5 is the common iso-invariant across all six Millennium problems.*
 
 ---
 
@@ -52,17 +52,17 @@ Each of T1270-T1275 instantiates this template:
 
 The verification of (S) is where the "prior proof" lives. The verification of (I) is where T1269 contributes.
 
-### Step 2: The common iso-invariant is BC_2 curvature
+### Step 2: The common iso-invariant is B_2 curvature
 
-All six Millennium problems share rank-2 BC_2 structure:
-- RH: BC_2 short-root multiplicity m_s = 3 forces σ = 1/2 via algebraic lock (T1270).
-- YM: BC_2 Plancherel measure forces mass gap 6π^5 m_e (T1271).
-- P≠NP: BC_2 Gauss-Bonnet curvature of 3-SAT phase space is nonzero (T1272).
-- NS: BC_2 rank-2 mode coupling drives enstrophy blow-up (T1273).
+All six Millennium problems share rank-2 B_2 structure:
+- RH: B_2 short-root multiplicity m_s = 3 forces σ = 1/2 via algebraic lock (T1270).
+- YM: B_2 Plancherel measure forces mass gap 6π^5 m_e (T1271).
+- P≠NP: B_2 Gauss-Bonnet curvature of 3-SAT phase space is nonzero (T1272).
+- NS: B_2 rank-2 mode coupling drives enstrophy blow-up (T1273).
 - BSD: D_3 (rank-2 projective cousin) three-channel decomposition separates arithmetic from amplitude (T1274).
-- Hodge: BC_2 outer automorphism resolves D_m fork; Kuga-Satake lives on D_IV^n (T1275).
+- Hodge: B_2 outer automorphism resolves D_m fork; Kuga-Satake lives on D_IV^n (T1275).
 
-**The BC_2 Gauss-Bonnet integer has a name: it is C_2 = 6.** T1277 (Elie + Lyra, April 16 2026) proves χ(SO(7)/[SO(5)×SO(2)]) = |W(BC_2)|/|W(SO(5)×SO(2))| = 48/8 = 6, and independently identifies C_2 = 6 with the denominator of B_2 and with the k=6 silent column in the heat-kernel Arithmetic Triangle. The "rank-2 BC_2 curvature" common invariant is quantitatively one of the five BST integers. **The Millennium problems are gated by C_2 = 6.**
+**The B_2 Gauss-Bonnet integer has a name: it is C_2 = 6.** T1277 (Elie + Lyra, April 16 2026) proves χ(SO(7)/[SO(5)×SO(2)]) = |W(B_2)|/|W(SO(5)×SO(2))| = 48/8 = 6, and independently identifies C_2 = 6 with the denominator of B_2 and with the k=6 silent column in the heat-kernel Arithmetic Triangle. The "rank-2 B_2 curvature" common invariant is quantitatively one of the five BST integers. **The Millennium problems are gated by C_2 = 6.**
 
 This is the **Universal Pairing Conjecture** (Paper Outline §4.3) proved concrete: rank-2 structure is the common substrate, and its topological weight is C_2 = 6.
 
@@ -86,7 +86,7 @@ T1269 + these classical results give iso-closure. The iso was always there; T126
 
 **Does claim**:
 1. Each Millennium problem is closed to ~95-99.5% via T1269 + the problem-specific (S) proof.
-2. The rank-2 BC_2 curvature is the common iso-invariant.
+2. The rank-2 B_2 curvature is the common iso-invariant.
 3. "Remaining gaps" are iso-framing gaps, not construction gaps (except Hodge Layer 3, which is a scope subproblem).
 4. The physical-uniqueness framework is the correct standard for "zero free parameters" in physics and "mathematical uniqueness up to iso" in mathematics.
 
@@ -119,7 +119,7 @@ The synthesis does not increase depth beyond T1269's own classification. It is a
 ## Falsification
 
 - **F1**: Exhibition of a Millennium problem where (S) holds but (I) fails (two non-iso mathematical objects both realizing P). *(Would restrict the scope of T1276, requiring enriched observables.)*
-- **F2**: Demonstration that the rank-2 BC_2 invariant is not the common structure. *(Would refute Step 2; would require a different unifying invariant.)*
+- **F2**: Demonstration that the rank-2 B_2 invariant is not the common structure. *(Would refute Step 2; would require a different unifying invariant.)*
 - **F3**: A Millennium-class problem that cannot be closed via physical uniqueness. *(Would restrict the scope of the method; would not refute T1276 for the original six.)*
 
 ---

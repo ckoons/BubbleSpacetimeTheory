@@ -255,7 +255,7 @@ Specific contributions from the referee to the team's work:
 - **Lock independence test** (10-pair C(5,2) table, 9/9 PASS; led to Lyra's "three parameters, five mechanisms" reframing).
 - **Step 2 unimodular 7×7 basis** for Γ(137)\\D_IV^5 loxodromic construction.
 - **Flag C audit** on Paper #75's Sym² conductor argument (led to Lyra's three-case fix with specific citations).
-- **Root system correction downstream audit** (B₂ not BC₂; Paper #76 ρ = 17/2 not 37/2; Keeper's earlier fix was in the wrong direction for the correct root system).
+- **Root system correction downstream audit** (B₂ not B₂; Paper #76 ρ = 17/2 not 37/2; Keeper's earlier fix was in the wrong direction for the correct root system).
 - **BSD closure scope push-back** (rank-≥4 Kudla extension is conditional, not unconditional; "99% closed" conflates epistemic tiers).
 
 ### What the role did not produce

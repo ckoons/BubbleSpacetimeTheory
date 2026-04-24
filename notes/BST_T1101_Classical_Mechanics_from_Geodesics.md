@@ -27,7 +27,7 @@ parents: "T186 (Five Integers), T1096 (Classical-Observer Bridge), T1099 (Einste
 
 *(d) **Conservation laws = isometries.** Noether's theorem: every continuous symmetry gives a conserved quantity. The isometry group $SO_0(5,2)$ has dimension $\binom{7}{2} = 21 = C(g, 2)$. But the observer's 4D slice preserves only a subgroup. The maximum number of independent conserved quantities for a classical system is $g = 7$: energy (time translation), 3 momenta (space translations), 3 angular momenta (rotations). Seven = genus. This is why classical mechanics has exactly 7 fundamental conservation laws in 3D.*
 
-*(e) **Integrability criterion.** A classical system with $n$ degrees of freedom is integrable if it has $n$ independent conserved quantities in involution. For $n = N_c = 3$: Liouville integrability requires 3 conserved quantities. The Kepler problem (gravity), harmonic oscillator, and free particle are all integrable — they exhaust the integrable central-force problems because they correspond to the three simple roots of $BC_2$ restricted to the radial direction.*
+*(e) **Integrability criterion.** A classical system with $n$ degrees of freedom is integrable if it has $n$ independent conserved quantities in involution. For $n = N_c = 3$: Liouville integrability requires 3 conserved quantities. The Kepler problem (gravity), harmonic oscillator, and free particle are all integrable — they exhaust the integrable central-force problems because they correspond to the three simple roots of $B_2$ restricted to the radial direction.*
 
 ---
 

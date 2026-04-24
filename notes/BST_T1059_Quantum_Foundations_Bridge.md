@@ -19,7 +19,7 @@ parents: "T186 (Five Integers), T944 (Rank Forcing), T1010 (Uncertainty-Informat
 
 **Theorem (T1059).** *The foundational structures of quantum mechanics follow from rank = 2:*
 
-*(a) **Non-commutativity from rank.** $D_{IV}^5$ has real rank 2, meaning the maximal flat subspace $\mathfrak{a} \subset \mathfrak{g}$ is 2-dimensional. The two Cartan generators $H_1, H_2$ commute, but the root vectors $E_\alpha$ associated with the $BC_2$ root system do not commute with both generators simultaneously. This non-commutativity IS the origin of conjugate observables: measuring along $H_1$ disturbs $H_2$.*
+*(a) **Non-commutativity from rank.** $D_{IV}^5$ has real rank 2, meaning the maximal flat subspace $\mathfrak{a} \subset \mathfrak{g}$ is 2-dimensional. The two Cartan generators $H_1, H_2$ commute, but the root vectors $E_\alpha$ associated with the $B_2$ root system do not commute with both generators simultaneously. This non-commutativity IS the origin of conjugate observables: measuring along $H_1$ disturbs $H_2$.*
 
 *(b) **Uncertainty product = genus.** The spectral uncertainty relation on $D_{IV}^5$ gives $\Delta_{\text{spectral}} \times \Delta_{\text{angular}} \geq 1/g = 1/7$ (T1010). The genus is the geometric Planck constant: $\hbar_{\text{geom}} = 1/g$.*
 

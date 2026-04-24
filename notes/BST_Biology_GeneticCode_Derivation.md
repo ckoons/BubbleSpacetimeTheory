@@ -893,7 +893,7 @@ This gives two types of wobble degeneracy:
 - **4-fold:** all four bases at position 3 encode the same amino acid
   (e.g., Val = GU**N**)
 
-The number of equivalence classes = $\text{rank}(BC_2) = 2$. This is not
+The number of equivalence classes = $\text{rank}(B_2) = 2$. This is not
 chemical coincidence — the rank of the root system determines the number of
 independent error-absorption channels.
 
@@ -934,7 +934,7 @@ information role are derivable from the bond physics without composition.
 The **bound** is depth 1: $\dim_{\mathbb{R}}(D_{IV}^5) = 10$ real dimensions
 provide 10 independent coordinates. Each storage level requires rank = 2
 coordinates (one for the energy scale, one for the noise floor — the two
-independent directions in the restricted root system $BC_2$). Therefore at most
+independent directions in the restricted root system $B_2$). Therefore at most
 $10/2 = 5$ independent storage levels fit.
 
 **Observation.** All five levels are realized in biology. No sixth level exists
@@ -1155,14 +1155,14 @@ arrest and resume) or **irreversible** (once crossed, the cell is committed).
 The irreversible transitions are the cell's rank-1 decisions: binary (go/no-go),
 each along one independent direction of the restricted root system.
 
-With rank = 2, the root system $BC_2$ has 2 independent directions. But
+With rank = 2, the root system $B_2$ has 2 independent directions. But
 $N_c = 3$ is the number of **colors** — independent confinement channels. Each
 irreversible checkpoint confines the cell to its committed trajectory along
 one color direction. Three colors, three confinement events, three irreversible
 checkpoints.
 
 The fourth transition (M→G1, cytokinesis → new G1) is the **return** — it
-closes the cycle. In $BC_2$ geometry, the cycle closure is automatic once all
+closes the cycle. In $B_2$ geometry, the cycle closure is automatic once all
 $N_c$ confinement events have fired. This is why the cell cycle has 4 phases
 but only 3 irreversible checkpoints: the fourth transition is forced by the
 first three.

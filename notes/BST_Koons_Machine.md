@@ -79,11 +79,11 @@ Total depth: always 1. Conflation $\mathcal{C}$ measures how many parallel count
 
 ### 3.1. Riemann Hypothesis (depth 2)
 
-- **Boundary.** $D_{IV}^5 = SO_0(5,2)/[SO(5) \times SO(2)]$, a bounded symmetric domain of rank 2 with restricted root system $BC_2$ and exponents 1:3:5. The Harish-Chandra c-function $c(\lambda)$ encodes the spectral decomposition. The arithmetic quotient $\Gamma \backslash D_{IV}^5$ is compact.
+- **Boundary.** $D_{IV}^5 = SO_0(5,2)/[SO(5) \times SO(2)]$, a bounded symmetric domain of rank 2 with restricted root system $B_2$ and exponents 1:3:5. The Harish-Chandra c-function $c(\lambda)$ encodes the spectral decomposition. The arithmetic quotient $\Gamma \backslash D_{IV}^5$ is compact.
 
-- **Count 1.** c-function conjugation: $c(\lambda)c(-\lambda) = 1$ on the unitary axis (Lemma 5.6). One spectral identity from the Gindikin-Karpelevič formula evaluated at $BC_2$ exponents.
+- **Count 1.** c-function conjugation: $c(\lambda)c(-\lambda) = 1$ on the unitary axis (Lemma 5.6). One spectral identity from the Gindikin-Karpelevič formula evaluated at $B_2$ exponents.
 
-- **Count 2.** Maass-Selberg positivity (Prop 5.7) combined with real exponential isolation (Thm 5.8). On a rank-2 domain, three independent $BC_2$ exponents overdetermine the system. An off-axis zero would violate positivity of the inner product.
+- **Count 2.** Maass-Selberg positivity (Prop 5.7) combined with real exponential isolation (Thm 5.8). On a rank-2 domain, three independent $B_2$ exponents overdetermine the system. An off-axis zero would violate positivity of the inner product.
 
 - **Termination.** Compact quotient → discrete spectrum → finitely many zeros up to any height $T$. No infinite conspiracy possible.
 
@@ -204,7 +204,7 @@ T134 (Pair Resolution): every hard problem encodes exactly one structural pair. 
 
 | Problem | The Pair | Shared Boundary | $(\mathcal{C}, \mathcal{D})$ |
 |---------|---------|-----------------|------|
-| RH | (c-function, L-function) | $BC_2$ root system | (2, 1) |
+| RH | (c-function, L-function) | $B_2$ root system | (2, 1) |
 | YM | (Hilbert space, spectrum) | Bounded domain | (1, 1) |
 | P ≠ NP | (formula structure, proof complexity) | LDPC backbone | (2, 1) |
 | NS | (energy, enstrophy) | TG symmetry | (2, 1) |

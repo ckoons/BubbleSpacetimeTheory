@@ -14,7 +14,7 @@
 
 ## Statement
 
-**Theorem (T1299, conditional).** *Let G = SO_0(5,2) with restricted root system BC_2. Let P = MN be the Siegel parabolic subgroup with Levi factor M and unipotent radical N. Let pi be a cuspidal automorphic representation of M appearing in the spectral decomposition of L^2(Gamma\D_IV^5). Then:*
+**Theorem (T1299, conditional).** *Let G = SO_0(5,2) with restricted root system B_2. Let P = MN be the Siegel parabolic subgroup with Levi factor M and unipotent radical N. Let pi be a cuspidal automorphic representation of M appearing in the spectral decomposition of L^2(Gamma\D_IV^5). Then:*
 
 *(a) The adjoint action of the dual Levi M-hat on Lie(N) decomposes into representations r_1 = std^{+3} and r_2 = Sym^2, where std is the standard 2-dimensional representation of GL(2) and the exponent 3 = m_s = N_c is the short root multiplicity.*
 
@@ -45,7 +45,7 @@ SO_0(5,2) has real rank 2. The two simple restricted roots are:
 - alpha_1 = e_1 - e_2 (long root)
 - alpha_2 = e_2 (short root)
 
-The positive restricted roots of BC_2 are:
+The positive restricted roots of B_2 are:
 
 | Root | Type | Multiplicity |
 |:-----|:----:|:------------:|
@@ -79,7 +79,7 @@ The dimension of n: dim(n) = m_s + m_l + m_{2alpha} = 3 + 1 + 1 = 5.
 
 ### Step B. Representations r_1, r_2 of M-hat on Lie(N)
 
-Under the adjoint action of M on n = Lie(N), the root spaces decompose into irreducible representations of M-hat (the Langlands dual of M). For the Siegel parabolic of a group with BC_2 root system:
+Under the adjoint action of M on n = Lie(N), the root spaces decompose into irreducible representations of M-hat (the Langlands dual of M). For the Siegel parabolic of a group with B_2 root system:
 
 **Short root contribution (e_2)**:
 - The root space for e_2 has multiplicity m_s = 3.
@@ -289,7 +289,7 @@ An Arthur parameter of Type IV has ψ = (π₁, ν^{t₁}) ⊞ (χ, ν^{t₂}) w
 
    where c is the Harish-Chandra c-function evaluated at the spectral parameter λ. For Type IV parameters with t₂ > 0, the spectral parameter falls OUTSIDE the tempered spectrum (the unitary dual of M). The Plancherel density extends by analytic continuation, but positivity (required for the L² decomposition to be a positive measure) is violated at non-tempered parameters of this type.
 
-   Specifically: the c-function for BC₂ with m_s = 3 has poles at spectral parameters corresponding to non-tempered GL(1) twists. The residues at these poles would contribute to the discrete spectrum ONLY if the Arthur multiplicity formula assigns nonzero multiplicity. But the epsilon constraint from (0) sets the multiplicity to zero.
+   Specifically: the c-function for B₂ with m_s = 3 has poles at spectral parameters corresponding to non-tempered GL(1) twists. The residues at these poles would contribute to the discrete spectrum ONLY if the Arthur multiplicity formula assigns nonzero multiplicity. But the epsilon constraint from (0) sets the multiplicity to zero.
 
    **Result**: Type IV is eliminated by the combined (0) + (F) argument. ∎
 
@@ -426,7 +426,7 @@ This is not a metaphor. It is a computation in the representation theory of SO_0
 
 ## Parents
 
-- T1298 (Maass-Selberg analysis for BC_2 -- identifies the cancellation problem and the Langlands-Shahidi resolution)
+- T1298 (Maass-Selberg analysis for B_2 -- identifies the cancellation problem and the Langlands-Shahidi resolution)
 - T1262 (Ramanujan Triple Pole Forcing -- the 7 constraints and 6 Arthur types)
 - T1244 (Spectral Chain -- spectral zeta to Riemann zeta)
 - T1245 (Selberg Bridge -- trace formula connection)

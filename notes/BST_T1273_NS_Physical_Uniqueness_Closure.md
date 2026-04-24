@@ -98,14 +98,14 @@ Matches Paper Outline §3.4: enumerate modes (depth 1) + spectral monotonicity p
 ## Falsification
 
 - **F1**: Exhibition of a smooth NS flow realizing P_NS that remains bounded for all time. *(Would refute sufficiency or iso-closure.)*
-- **F2**: Demonstration that an alternative spectral operator realizes P_NS without BC_2 rank-2 structure. *(Would refute (I).)*
+- **F2**: Demonstration that an alternative spectral operator realizes P_NS without B_2 rank-2 structure. *(Would refute (I).)*
 - **F3**: A fluid flow with Kato blow-up but different enstrophy ODE (Prop 5.18). *(Would refute the mode-coupling iso.)*
 
 ---
 
 ## Connection to Four Readings
 
-The enstrophy blow-up is a gravity-reading consequence: enstrophy = ∫ |ω|² = ∫ (curvature-of-flow)². By T1234, gravity reads metric curvature; NS reads kinematic curvature. Both follow from the same rank-2 BC_2 structure of D_IV^5.
+The enstrophy blow-up is a gravity-reading consequence: enstrophy = ∫ |ω|² = ∫ (curvature-of-flow)². By T1234, gravity reads metric curvature; NS reads kinematic curvature. Both follow from the same rank-2 B_2 structure of D_IV^5.
 
 This explains why NS is "surprisingly clean" (BST_NS_AC_Proof noted ~99% despite 80 years of PDE analysis): the right category is not PDEs but rank-2 spectral operators. The PDE is a reading; the spectral structure is the object.
 

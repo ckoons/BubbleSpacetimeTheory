@@ -128,7 +128,7 @@ How many rational points does an elliptic curve have? The BSD conjecture connect
 
 **3.6 Hodge Conjecture (~80% for $D_{IV}^5$)**
 
-When is a pattern real? More precisely: when is a Hodge class (an analytic object defined by differential forms) actually algebraic (cut out by polynomial equations)? The Hodge conjecture says "always, for rational classes." The difficulty is weight $\geq 3$, where the geometric techniques of Lefschetz (weight 1) and Kodaira (weight 2) break down. The AC approach uses theta correspondence (Howe duality) to lift algebraic cycles from a smaller space, with the $BC_2$ root system providing the structural constraint.
+When is a pattern real? More precisely: when is a Hodge class (an analytic object defined by differential forms) actually algebraic (cut out by polynomial equations)? The Hodge conjecture says "always, for rational classes." The difficulty is weight $\geq 3$, where the geometric techniques of Lefschetz (weight 1) and Kodaira (weight 2) break down. The AC approach uses theta correspondence (Howe duality) to lift algebraic cycles from a smaller space, with the $B_2$ root system providing the structural constraint.
 - Enumeration: Vogan-Zuckerman $A_{\mathfrak{q}}(0)$ modules in $H^{p,p}$
 - Pair resolution: theta lift surjectivity via Howe duality + Rallis non-vanishing
 - For odd $n$: unique module (type B total order). For even $n$: two modules (type D fork), resolved by outer automorphism.
@@ -168,7 +168,7 @@ Total: $0 + 1 + 0 + 1 + 0 = 2$ counting layers. $\square$
 | Hodge | $A_{\mathfrak{q}}(0)$ modules | $\leq 2$ | Root system | $D_m$ fork | Outer automorphism | Proved |
 | **Four-color** | **Kempe chain pairs** | **$\leq 6$** | **Euler** | **Shared vertices ($\tau$)** | **Planarity ($\tau < 6$, Kuratowski)** | **Empirical** (Toy 407: max $\tau = 5$, T135) |
 
-**4.3 The Universal Pairing Conjecture (T134c).** Every "deep" mathematical problem admits an AC(0) reformulation where the core obstruction consists of bounded paired objects arising from rank-2 structural duality. Discussion: rank 2 is why (BC₂, two independent directions). Rank 1 = trivial, rank 3+ not needed.
+**4.3 The Universal Pairing Conjecture (T134c).** Every "deep" mathematical problem admits an AC(0) reformulation where the core obstruction consists of bounded paired objects arising from rank-2 structural duality. Discussion: rank 2 is why (B₂, two independent directions). Rank 1 = trivial, rank 3+ not needed.
 
 ---
 

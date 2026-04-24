@@ -23,7 +23,7 @@ parents: "T186 (Five Integers), T926 (Spectral-Arithmetic Closure), T927 (Deuter
 
 *(b) **Surface/Volume ratio.** $a_S/a_V = (g+1)/g = 8/7$ to 0.1%. Surface nucleons lose one spectral mode (the outward direction), reducing from $g$ bulk modes to $g$ total minus 1 absent, giving an effective $g+1$ surface weight per mode lost. The correction factor $1/g$ is the Bergman genus — one mode out of $g$ is missing.*
 
-*(c) **Iron peak.** The most stable nucleus has $A = 56 = 2^{N_c} \times g = 8 \times 7$. The Weyl group order $|W(BC_2)| = 2^{N_c}$ counts the number of nucleons per spectral shell; $g$ counts the shells. Maximum stability occurs when all shells are exactly filled: $A_{peak} = (\text{shell capacity}) \times (\text{number of shells})$.*
+*(c) **Iron peak.** The most stable nucleus has $A = 56 = 2^{N_c} \times g = 8 \times 7$. The Weyl group order $|W(B_2)| = 2^{N_c}$ counts the number of nucleons per spectral shell; $g$ counts the shells. Maximum stability occurs when all shells are exactly filled: $A_{peak} = (\text{shell capacity}) \times (\text{number of shells})$.*
 
 *(d) **Nuclear radius.** $r_0 = \frac{N_c \pi^2}{n_C} \cdot \frac{\hbar c}{m_p c^2} = 1.245$ fm (observed: 1.25 fm, 0.4%). The nuclear size is set by the ratio of color to compact dimensions scaled by the nucleon Compton wavelength.*
 

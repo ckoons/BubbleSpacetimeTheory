@@ -21,7 +21,7 @@ This paper proves the conjecture for a specific and structurally central class o
 
 We develop an approach to the Hodge conjecture through spectral geometry on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)]. The proof strategy has three layers.
 
-**Layer 1** (Shimura varieties): On arithmetic quotients Γ\D_IV^5, we show that every Hodge class in H^{p,p}(Γ\D_IV^5, Q) lies in the span of Kudla-Millson special cycles — theta lifts via codimension-specific Howe dual pairs (O(5,2), Sp(2r,R)) for codimension-r cycles. The full embedding is (O(5,2), Sp(6,R)) ↪ Sp(42,R), but the generating series for codimension-r special cycles is a Siegel modular form for Sp(2r). In particular: H^{1,1} uses (O(5,2), SL(2,R)) (r=1), H^{2,2} uses (O(5,2), Sp(4,R)) (r=2), and H^{3,3} uses (O(5,2), Sp(6,R)) (r=3). The BC₂ root system constrains the spectral decomposition, and the Amplitude-Frequency Separation principle (T104) prevents phantom Hodge classes by the same mechanism that prevents phantom zeros in BSD.
+**Layer 1** (Shimura varieties): On arithmetic quotients Γ\D_IV^5, we show that every Hodge class in H^{p,p}(Γ\D_IV^5, Q) lies in the span of Kudla-Millson special cycles — theta lifts via codimension-specific Howe dual pairs (O(5,2), Sp(2r,R)) for codimension-r cycles. The full embedding is (O(5,2), Sp(6,R)) ↪ Sp(42,R), but the generating series for codimension-r special cycles is a Siegel modular form for Sp(2r). In particular: H^{1,1} uses (O(5,2), SL(2,R)) (r=1), H^{2,2} uses (O(5,2), Sp(4,R)) (r=2), and H^{3,3} uses (O(5,2), Sp(6,R)) (r=3). The B₂ root system constrains the spectral decomposition, and the Amplitude-Frequency Separation principle (T104) prevents phantom Hodge classes by the same mechanism that prevents phantom zeros in BSD.
 
 **Layer 2** (AC(0) reformulation): The Hodge conjecture is reformulated as an information-theoretic statement: algebraic cycles are committed information in cohomology; non-algebraic Hodge classes would be faded correlations that survive in the wrong channel. The AC(0) depth is predicted to be 2, same as RH and BSD.
 
@@ -105,7 +105,7 @@ The proof of Theorem 1.1 has four steps:
 
 1. **Shimura structure**: Γ\D_IV^5 is an orthogonal Shimura variety of type SO(5,2). Its Hodge structure is controlled by the representation theory of SO(5,2) and its compact dual SO(7)/[SO(5)×SO(2)].
 2. **Kudla-Millson special cycles**: For each positive-definite lattice vector, the theta correspondence constructs a special algebraic cycle on Γ\D_IV^5. These cycles generate specific cohomology classes via the theta lift Θ: S(V^n) → H^{p,p}(Γ\D_IV^5).
-3. **Surjectivity of the theta lift**: The BC₂ spectral constraint — the same 1:3:5 D₃ structure that proves RH — restricts which automorphic representations contribute to cohomology. The Kudla-Millson generating series is a Siegel modular form whose Fourier coefficients span all Hodge classes in the image of the spectral decomposition.
+3. **Surjectivity of the theta lift**: The B₂ spectral constraint — the same 1:3:5 D₃ structure that proves RH — restricts which automorphic representations contribute to cohomology. The Kudla-Millson generating series is a Siegel modular form whose Fourier coefficients span all Hodge classes in the image of the spectral decomposition.
 4. **Phantom exclusion via T104**: By the Amplitude-Frequency Separation principle, locally-trivial cohomological invariants cannot create new Hodge classes. Any would-be phantom Hodge class must appear in the spectral decomposition, where the theta lift already accounts for it.
 
 ---
@@ -133,7 +133,7 @@ A **Shimura variety** is a quotient Γ\G/K where G is a reductive algebraic grou
 For D_IV^5:
 - G = SO₀(5,2), K = SO(5) × SO(2)
 - Complex dimension 5, real dimension 10
-- Restricted root system: BC₂
+- Restricted root system: B₂
 - Root multiplicities: m_s = 3 (short), m_l = 1 (medium), m_{2α} = 1 (long)
 - Half-sum: ρ = (7/2)e₁ + (5/2)e₂
 
@@ -225,7 +225,7 @@ By the Vogan-Zuckerman classification [VZ84], the cohomological representations 
 - H^{2,2}: The critical middle-dimensional case
 - Higher degrees by Poincaré duality
 
-**The Hodge numbers are constrained by BC₂.** The spectral gap λ₁ = C₂ = 6 eliminates low-lying representations from contributing to cohomology. Only representations whose Casimir eigenvalue matches the Hodge type can contribute.
+**The Hodge numbers are constrained by B₂.** The spectral gap λ₁ = C₂ = 6 eliminates low-lying representations from contributing to cohomology. Only representations whose Casimir eigenvalue matches the Hodge type can contribute.
 
 ### 3.2 Special Cycles Span the Hodge Classes
 
@@ -237,7 +237,7 @@ By the Vogan-Zuckerman classification [VZ84], the cohomological representations 
 
 **Step 2** (Spectral completeness). The theta lift Θ: automorphic forms on Sp(4) → cohomology of Γ\D_IV^5 hits every automorphic representation that contributes to H^{p,p}. This follows from:
 - The Rallis inner product formula: non-vanishing of L(1/2, π, std) for non-trivial π (expected by GRH for L-functions on SO(5,2), proved in [Koons 2026a] for this specific group).
-- The BC₂ constraint: the D₃ structure forces all spectral parameters to the critical line, ensuring the theta lift produces genuine algebraic cycles (not merely analytic ones).
+- The B₂ constraint: the D₃ structure forces all spectral parameters to the critical line, ensuring the theta lift produces genuine algebraic cycles (not merely analytic ones).
 
 **Step 3** (Phantom exclusion). Any Hodge class not in the span of special cycles would be a phantom — a rational class in H^{p,p} with no algebraic source. By T104 (Amplitude-Frequency Separation), such a phantom would need to be locally trivial at every place yet globally non-trivial in cohomology. But on a Shimura variety, global cohomology is controlled by automorphic representations, and every automorphic contribution to H^{p,p} is accounted for by the theta lift (Step 2). No room for phantoms. □
 
@@ -246,9 +246,9 @@ By the Vogan-Zuckerman classification [VZ84], the cohomological representations 
 - BSD Sha-independence (T104) ↔ No phantom Hodge classes (T104 again)
 - BSD r_an = r_alg ↔ Hodge: every Hodge class is algebraic
 
-### 3.3 The BC₂ Constraint on Cohomology
+### 3.3 The B₂ Constraint on Cohomology
 
-The restricted root system BC₂ constrains which representations of SO(5,2) can contribute to cohomology:
+The restricted root system B₂ constrains which representations of SO(5,2) can contribute to cohomology:
 
 **Lemma 3.3** (Spectral filtration). *A cohomological representation π of SO(5,2) contributing to H^{p,p}(Γ\D_IV^5) must satisfy:*
 
@@ -260,7 +260,7 @@ The restricted root system BC₂ constrains which representations of SO(5,2) can
 
 *Proof.* (a) is the Vogan-Zuckerman formula for type-IV domains. (b) is Theorem 5.8 of [Koons 2026a]. (c) follows from m_s = 3 and Proposition 4.1 of [Koons 2026a]. □
 
-**Consequence**: The BC₂ constraint acts as a filter — only representations with the right harmonic content can contribute to H^{p,p}. And all such representations are in the image of the theta lift, because the theta correspondence for (O(5,2), Sp(2r)) at each codimension r is exhaustive on the unitary spectrum. For H^{2,2} specifically: the unique A_q(0) module (Toy 398) is the sole target, and the Howe duality bijection with Sp(4,R) covers it (Toy 399).
+**Consequence**: The B₂ constraint acts as a filter — only representations with the right harmonic content can contribute to H^{p,p}. And all such representations are in the image of the theta lift, because the theta correspondence for (O(5,2), Sp(2r)) at each codimension r is exhaustive on the unitary spectrum. For H^{2,2} specifically: the unique A_q(0) module (Toy 398) is the sole target, and the Howe duality bijection with Sp(4,R) covers it (Toy 399).
 
 ### 3.4 The Role of the Baily-Borel Compactification
 
@@ -446,7 +446,7 @@ The theta correspondence tower (O(5,2), Sp(2r,R)) for r=1,2,3 is special because
 - It connects **orthogonal** (spacetime) and **symplectic** (gauge) groups at each codimension
 - The full Weil representation (r=3) lives in dimension 42 = P(1) = g × C₂, a BST structural integer
 - The dual group Sp(6,C) is the Langlands L-group of SO(7) and is connected to GL(6) via the standard embedding
-- The BC₂ root system provides the spectral constraints that prevent phantoms
+- The B₂ root system provides the spectral constraints that prevent phantoms
 
 **Conjecture 5.1** (D_IV^5 universality). *The theta correspondence for (O(5,2), Sp(6,R)) captures sufficient structure to control Hodge classes on all smooth projective varieties whose cohomology is generated by algebraic correspondences with abelian varieties.*
 
@@ -465,15 +465,15 @@ The Hodge conjecture is known for:
 
 **The critical case H^{2,2} is exactly at the BMM boundary** (n=2 is not strictly less than 2). BMM conjecture their bound is sharp (Conjecture 1.16): their method — Arthur's endoscopic classification controlling which representations enter the theta lift — cannot reach H^{2,2}.
 
-**This means Layer 1 requires genuinely new input for H^{2,2}.** The BC₂ spectral constraints specific to SO(5,2) — the D₃ structure, the spectral gap λ₁ = C₂ = 6, the 1:3:5 harmonic pattern — are not available to BMM because they work for general SO(n,2). These constraints may eliminate the cohomological representations that escape Arthur's classification at n=2, pushing past the BMM bound for this specific group.
+**This means Layer 1 requires genuinely new input for H^{2,2}.** The B₂ spectral constraints specific to SO(5,2) — the D₃ structure, the spectral gap λ₁ = C₂ = 6, the 1:3:5 harmonic pattern — are not available to BMM because they work for general SO(n,2). These constraints may eliminate the cohomological representations that escape Arthur's classification at n=2, pushing past the BMM bound for this specific group.
 
-**The BST contribution to Hodge is therefore not assembly of known results, but a new theorem**: using BC₂-specific spectral constraints to prove theta lift surjectivity onto H^{2,2} where BMM's general methods cannot reach.
+**The BST contribution to Hodge is therefore not assembly of known results, but a new theorem**: using B₂-specific spectral constraints to prove theta lift surjectivity onto H^{2,2} where BMM's general methods cannot reach.
 
 ### 5.4 Route D: SO(n,2) Induction
 
 **This is the strongest route to extending beyond D_IV^5.**
 
-For SO(n,2), the restricted root system is BC₂ for all n ≥ 3, with multiplicities m_s = n−3, m_l = 1, m_{2α} = 1. The BMM bound covers degree p < (n+1)/3. Our BC₂ method handles the boundary case. The question: does this extend to all n?
+For SO(n,2), the restricted root system is B₂ for all n ≥ 3, with multiplicities m_s = n−3, m_l = 1, m_{2α} = 1. The BMM bound covers degree p < (n+1)/3. Our B₂ method handles the boundary case. The question: does this extend to all n?
 
 **The induction structure:**
 
@@ -1073,7 +1073,7 @@ $$I(\alpha; CH^p(X)) \leq I(\alpha; H^{p,p} \cap H^{2p}(\mathbb{Q}))$$
 
 The right-hand side is the mutual information between the phantom and the spectral filter — the Hodge filtration. The key structural fact: **the Hodge filtration is a lossy channel**. It discards geometric information (the specific embedding of a cycle) and retains only cohomological information (the fundamental class). A phantom would need to carry committed information — rationality (a discrete constraint) and Hodge position (a discrete constraint) — without having passed through the geometric channel that creates such information.
 
-On a finite substrate (T153), the number of independent committed channels is finite. The Hodge filtration on $D_{IV}^5$ has exactly the committed channels accounted for by the theta lift (Layer 1). The spectral filter through $BC_2$ is **complete**: the root system $BC_2$ with multiplicities $(m_s, m_l, m_{2\alpha}) = (n-3, 1, 1)$ determines all spectral parameters contributing to $H^{p,p}$, and the theta correspondence exhausts them. No information can bypass this filter to create a phantom, because any such bypass would require $I(\alpha; \text{output}) > I(\alpha; \text{filter})$ — a DPI violation.
+On a finite substrate (T153), the number of independent committed channels is finite. The Hodge filtration on $D_{IV}^5$ has exactly the committed channels accounted for by the theta lift (Layer 1). The spectral filter through $B_2$ is **complete**: the root system $B_2$ with multiplicities $(m_s, m_l, m_{2\alpha}) = (n-3, 1, 1)$ determines all spectral parameters contributing to $H^{p,p}$, and the theta correspondence exhausts them. No information can bypass this filter to create a phantom, because any such bypass would require $I(\alpha; \text{output}) > I(\alpha; \text{filter})$ — a DPI violation.
 
 The universality of this exclusion follows from T600 (§3 of [BST_DPI_Universal_Exclusion.md]): the structure of the Markov chain $X \to Y \to Z$ is the same regardless of which smooth projective variety $X$ we start with. The algebraic cycles are the source. The Hodge filtration is the channel. The Hodge classes are the output. DPI forbids phantoms universally, not just on Shimura varieties.
 
@@ -1254,7 +1254,7 @@ The following computational experiments would strengthen the proof:
 
 **Toy 399** (Howe duality + Rallis non-vanishing, Elie, **10/10 PASS**): Computational confirmation: r₂(Q) = 6480 lattice vectors of norm 2 (overwhelming non-vanishing). Regularized Rallis product ≈ −0.023 ≠ 0 (all factors non-zero). Howe duality structural bijection covers all multiplicities. Combined with Toy 398: one target, one source, non-degenerate inner product → theta surjectivity onto H^{2,2} forced.
 
-**Toy 400** (D₃ Hodge Filtration, Elie, **10/10 PASS, MILESTONE**): D₃ at identity = 9 = 1+3+5 = N_c². Grade k → Casimir C₂=k(5-k)+6: [6,10,12]. Three faces of D₃: spectral (RH), arithmetic (BSD), algebraic (Hodge). BC₂ formula d_k=2k+1. BSD↔Hodge dictionary: 8 parallel entries. AC(0) (C=2, D=1). All six Millennium problems at D ≤ 1 (T421). Palindrome [1,3,5,5,3,1].
+**Toy 400** (D₃ Hodge Filtration, Elie, **10/10 PASS, MILESTONE**): D₃ at identity = 9 = 1+3+5 = N_c². Grade k → Casimir C₂=k(5-k)+6: [6,10,12]. Three faces of D₃: spectral (RH), arithmetic (BSD), algebraic (Hodge). B₂ formula d_k=2k+1. BSD↔Hodge dictionary: 8 parallel entries. AC(0) (C=2, D=1). All six Millennium problems at D ≤ 1 (T421). Palindrome [1,3,5,5,3,1].
 
 **Toy 401** (Boundary cohomology, Elie, **10/10 PASS**): Two boundary strata: P₁ (D_IV^3, codim 2) + P₂ (modular curve, codim 4). KEY FINDING: ONLY boundary contribution to H^{2,2} is H^{0,0}(D_IV^3) via Gysin — fundamental class, trivially algebraic. SO₀(3,2) ≅ Sp(4,R) exceptional isomorphism → P₁ is a Siegel modular threefold. P₂ Langlands-Shahidi = BSD §3 transfer. Hodge known at 7/7 boundary levels. Zucker+BBD+Saito completeness. Boundary: ~75% → ~92%.
 
@@ -1276,7 +1276,7 @@ The following computational experiments would strengthen the proof:
 
 From the D_IV^5 structure, we predict:
 1. **h^{1,1}**: Controlled by the first Chern class and special divisors. Expected: all algebraic (Lefschetz).
-2. **h^{2,2}**: The critical case. The number of independent Hodge classes in H^{2,2} should equal the number of independent Kudla-Millson special cycles of codimension 2. The BC₂ constraint predicts this number is determined by the rank of the lattice and the level of Γ.
+2. **h^{2,2}**: The critical case. The number of independent Hodge classes in H^{2,2} should equal the number of independent Kudla-Millson special cycles of codimension 2. The B₂ constraint predicts this number is determined by the rank of the lattice and the level of Γ.
 3. **D₃ signature**: The 1:3:5 harmonic structure should appear in the spectral decomposition of the Hodge Laplacian on X = Γ\D_IV^5. This is verifiable numerically.
 
 ---

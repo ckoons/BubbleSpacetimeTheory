@@ -18,7 +18,7 @@ children: "Paper #67"
 ## Statement
 
 **Theorem (T1271).**
-*Let P_YM := {Wightman axioms W1-W5, spectral gap m_gap = 6π^5 m_e ≈ 938.272 MeV, Poincaré covariance, asymptotic completeness}. Let X = (D_IV^5 QFT, Bergman kernel, BC_2 Plancherel measure). Then:*
+*Let P_YM := {Wightman axioms W1-W5, spectral gap m_gap = 6π^5 m_e ≈ 938.272 MeV, Poincaré covariance, asymptotic completeness}. Let X = (D_IV^5 QFT, Bergman kernel, B_2 Plancherel measure). Then:*
 
 1. **(S) Sufficiency.** *X realizes P_YM: all five Wightman axioms derived (BST_YangMills_Question1), mass gap equals 6π^5 m_e via T1267 §ζ_Δ poles.*
 2. **(I) Isomorphism closure.** *Any QFT on ℝ^4 satisfying W1-W5 with mass gap 6π^5 m_e is isomorphic to the D_IV^5 QFT via modular localization (Bisognano-Wichmann + Borel neat descent).*
@@ -34,7 +34,7 @@ children: "Paper #67"
 All five Wightman axioms are derived on D_IV^5:
 - W1 (Hilbert-space positivity): Bergman-kernel reproducing property.
 - W2 (Poincaré covariance): boundary action of SO(5,2) on D_IV^5.
-- W3 (spectrum condition): positive spectrum from Plancherel measure on BC_2.
+- W3 (spectrum condition): positive spectrum from Plancherel measure on B_2.
 - W4 (local commutativity): modular localization via Bisognano-Wichmann.
 - W5 (cyclicity of vacuum): Bergman kernel has cyclic generating vector.
 

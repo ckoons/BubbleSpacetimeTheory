@@ -20,13 +20,13 @@ $$R_{\text{spec}}(Q^n) = 2n^2 - 3.$$
 
 ### Step 1: Root system data
 
-The restricted root system of $Q^n = G/K$ with $G = SO(n+2)$, $K = SO(n) \times SO(2)$ is of type $B_2$ (for odd $n$) or $BC_2$ (for even $n$), with rank $r = 2$. Let $e_1, e_2$ be the standard basis of the Cartan subalgebra $\mathfrak{a} \cong \mathbb{R}^2$. The positive restricted roots and their multiplicities are:
+The restricted root system of $Q^n = G/K$ with $G = SO(n+2)$, $K = SO(n) \times SO(2)$ is of type $B_2$ (for odd $n$) or $B_2$ (for even $n$), with rank $r = 2$. Let $e_1, e_2$ be the standard basis of the Cartan subalgebra $\mathfrak{a} \cong \mathbb{R}^2$. The positive restricted roots and their multiplicities are:
 
 | Root | Type | Multiplicity |
 |------|------|-------------|
 | $e_1 - e_2$ | short | $m_s = n - 2$ |
 | $e_1 + e_2$ | short | $m_s = n - 2$ |
-| $e_2$ | short (or middle for $BC_2$) | $m_s = n - 2$ (odd $n$) or split for even $n$ |
+| $e_2$ | short (or middle for $B_2$) | $m_s = n - 2$ (odd $n$) or split for even $n$ |
 | $e_1$ | long | $m_l = 1$ |
 | $2e_1$, $2e_2$ | long (even $n$ only) | $m_{2s} = 1$ (even $n$) |
 

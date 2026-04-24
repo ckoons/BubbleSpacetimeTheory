@@ -93,7 +93,7 @@ The bounded symmetric domain D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)] has:
 The rank is the dimension of the **maximal flat subspace** 𝔞 ⊂ 𝔭 (the maximal abelian subspace of the tangent space at the origin). Equivalently:
 
 - The **Cartan subalgebra** has dimension 2
-- The **restricted root system** is BC₂ (non-reduced, rank 2)
+- The **restricted root system** is B₂ (non-reduced, rank 2)
 - The **Weyl group** W(B₂) has 2 generators (reflections s₁, s₂)
 - The **Plancherel measure** is parameterized by 𝔞* ≅ ℝ²
 

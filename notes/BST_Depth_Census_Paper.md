@@ -103,7 +103,7 @@ The natural candidate for $r$ is:
 
 $$r_{\text{base}} = \frac{1}{2^{\text{rank}}} = \frac{1}{4}$$
 
-This is the reciprocal of the Weyl group order $|W| = 2^{\text{rank}} = 4$ for the rank-2 root system $BC_2$ underlying $D_{IV}^5$. (The full Weyl group of $BC_2$ has order 8 when signed permutations are included; the factor $2^{\text{rank}} = 4$ counts the unsigned part.)
+This is the reciprocal of the Weyl group order $|W| = 2^{\text{rank}} = 4$ for the rank-2 root system $B_2$ underlying $D_{IV}^5$. (The full Weyl group of $B_2$ has order 8 when signed permutations are included; the factor $2^{\text{rank}} = 4$ counts the unsigned part.)
 
 With $r = 1/4$ and $k = 2$, the truncated geometric predicts:
 
@@ -275,7 +275,7 @@ The conflation values are not arbitrary. Observe: $C \in \{2, 3, 3, 3, 4, 5, 7, 
 - $C = 8 = 2^{N_c}$, the number of independent fan orientations (Four-Color)
 - $C = 18 = N_c \times C_2 = 3 \times 6$, color count times Casimir eigenvalue (CFSG)
 
-This is not a coincidence. The conflation of a problem is the number of independent subproblems at its deepest level — and that count is constrained by the same geometry that constrains everything else. The reason P $\neq$ NP has conflation 3 is the same reason quarks come in three colors: both are counting the winding number on $S^1$. The reason the Four-Color Theorem has conflation 8 is the same reason the Weyl group of $BC_2$ has order 8: both are counting the symmetries of a rank-2 root system.
+This is not a coincidence. The conflation of a problem is the number of independent subproblems at its deepest level — and that count is constrained by the same geometry that constrains everything else. The reason P $\neq$ NP has conflation 3 is the same reason quarks come in three colors: both are counting the winding number on $S^1$. The reason the Four-Color Theorem has conflation 8 is the same reason the Weyl group of $B_2$ has order 8: both are counting the symmetries of a rank-2 root system.
 
 ### 7.3 Three Structural Types
 
@@ -283,7 +283,7 @@ The nine proofs partition into three types:
 
 **Type A: Bounded enumeration.** The core operation is counting a finite set. RH ($C=4, D=0$): four parallel spectral evaluations — zeta-zero counts that terminate by exhaustion. P $\neq$ NP ($C=3, D=0$): three-way block independence plus bandwidth bound. Four-Color ($C=8, D=1$): eight parallel fan lemmas, each checking a local charge budget. CFSG ($C=18, D=1$): eighteen parallel enumerations of simple group families — the widest problem in the census, but still only one layer deep. The Four-Color Theorem is the most instructive case: what classical methods saw as depth 2 (unbounded induction over all maps) becomes width 8 at depth 1 in the BST proof (Forced Fan Lemma, Toys 449-451). The depth dropped. The problem didn't change. The coordinates did.
 
-**Type B: Spectral inner product ($D = 1$).** The essential step is a single dot product on a spectral decomposition. Yang-Mills: first eigenvalue of the Laplacian on $D_{IV}^5$. BSD: spectral multiplicity equals algebraic rank via the 1:3:5 root structure of $BC_2$. Fermat: $R = T$ modularity (the Wiles lift). The spectral basis does the work; the inner product reads off the answer.
+**Type B: Spectral inner product ($D = 1$).** The essential step is a single dot product on a spectral decomposition. Yang-Mills: first eigenvalue of the Laplacian on $D_{IV}^5$. BSD: spectral multiplicity equals algebraic rank via the 1:3:5 root structure of $B_2$. Fermat: $R = T$ modularity (the Wiles lift). The spectral basis does the work; the inner product reads off the answer.
 
 **Type C: Geometric projection ($D = 1$).** The essential step is a single integration over a geometric structure. Navier-Stokes: enstrophy production rate bounded on $D_{IV}^5$. Hodge: project onto the algebraic cycle class via the theta correspondence. The integral is bounded (Planck Condition, T153), so it terminates.
 
@@ -343,7 +343,7 @@ These predictions are specific, quantitative, and checkable by any mathematician
 
 Mathematics is shallow because spacetime is rank 2.
 
-The rank of $D_{IV}^5$ is 2. This means the real structure of the underlying geometry has exactly two independent directions (the restricted root system $BC_2$). Every mathematical proof, when decomposed into its irreducible counting steps, requires at most rank-many nested steps. Two directions. Two steps. That is the budget.
+The rank of $D_{IV}^5$ is 2. This means the real structure of the underlying geometry has exactly two independent directions (the restricted root system $B_2$). Every mathematical proof, when decomposed into its irreducible counting steps, requires at most rank-many nested steps. Two directions. Two steps. That is the budget.
 
 Difficulty, in the sense that humans experience it — the decades spent on the Riemann Hypothesis, the century spent on Fermat — is not depth. It is width. It is the number of parallel pieces that must be assembled, the conflation that must be disentangled, the silo walls that must be seen through. The sequential complexity is always small. The parallel complexity can be enormous. But parallel complexity is, in principle, free. It does not compound. It does not nest.
 
@@ -418,7 +418,7 @@ This paper is itself depth 0. It counts, reports, and derives — no nested comp
 | $C_2$ | 6 | Casimir eigenvalue ($n_C + 1$) |
 | $N_{\max}$ | 137 | Channel capacity ($\alpha^{-1}$) |
 | rank | 2 | Real rank of $\text{SO}_0(5,2)$ |
-| $|W|$ | 8 | Weyl group order ($BC_2$) |
+| $|W|$ | 8 | Weyl group order ($B_2$) |
 | $\dim_{\mathbb{R}}$ | 10 | Real dimension of $D_{IV}^5$ |
 | $f$ | $3/(5\pi) \approx 0.191$ | Reality budget / Godel limit |
 

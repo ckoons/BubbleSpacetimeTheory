@@ -65,7 +65,7 @@ We carry out this program for the family of complex quadrics
 
 $$Q^n = SO(n+2)/[SO(n) \times SO(2)], \qquad n \geq 3.$$
 
-These are the compact duals of the type IV bounded symmetric domains $D_{IV}^n$ in Cartan's classification. They have real dimension $2n$, rank $2$, and restricted root system of type $B_2$ (odd $n$) or $BC_2$ (even $n$). The spectrum is parameterized by pairs $(p,q)$ of non-negative integers with $p \geq q$, and both eigenvalues and multiplicities are polynomials in $(p, q, n)$.
+These are the compact duals of the type IV bounded symmetric domains $D_{IV}^n$ in Cartan's classification. They have real dimension $2n$, rank $2$, and restricted root system of type $B_2$ (odd $n$) or $B_2$ (even $n$). The spectrum is parameterized by pairs $(p,q)$ of non-negative integers with $p \geq q$, and both eigenvalues and multiplicities are polynomials in $(p, q, n)$.
 
 We compute $a_k(Q^n)$ as exact rationals for $k = 0, \ldots, 11$ and $n = 3, \ldots, 25$, then identify $a_k(n)$ as a polynomial of degree $2k$ in $n$ via Lagrange interpolation over exact data. The method is:
 
@@ -101,7 +101,7 @@ Let $\mathfrak{a} \cong \mathbb{R}^2$ be a maximal abelian subspace of $\mathfra
 | $e_1$ | long | $1$ |
 | $e_2$ | long | $1$ |
 
-For even $n$, the system is $BC_2$ with an additional pair of roots $2e_1, 2e_2$ of multiplicity $1$. The Weyl group $W = W(B_2)$ has order $|W| = 8$.
+For even $n$, the system is $B_2$ with an additional pair of roots $2e_1, 2e_2$ of multiplicity $1$. The Weyl group $W = W(B_2)$ has order $|W| = 8$.
 
 The half-sum of positive roots (with multiplicity) is
 

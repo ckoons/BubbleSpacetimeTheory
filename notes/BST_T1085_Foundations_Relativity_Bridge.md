@@ -25,7 +25,7 @@ parents: "T421 (Depth-1 Ceiling), T315 (Casey's Principle), T1047 (Analytic-Cosm
 
 *(c) **Curvature = incompleteness.** The Gauss-Bonnet theorem $\int_M K \, dA = 2\pi \chi(M)$ connects local curvature to global topology. Casey's Curvature Principle: "You can't linearize curvature." The non-zero Euler characteristic $\chi(D_{IV}^5) = 2 = \text{rank}$ forces irreducible curvature, which forces both gravitational effects (through the Bergman metric) and incompleteness (through non-navigability of the kernel). P $\neq$ NP IS Gauss-Bonnet for computation.*
 
-*(d) **Penrose singularity = Gödel sentence.** Penrose's singularity theorem: closed trapped surfaces force geodesic incompleteness. Gödel's theorem: self-reference forces unprovable truths. Both are topological obstructions — the trapped surface IS the self-referential loop, and the singularity IS the undecidable proposition. In BST: both arise from the same $BC_2$ root system obstruction.*
+*(d) **Penrose singularity = Gödel sentence.** Penrose's singularity theorem: closed trapped surfaces force geodesic incompleteness. Gödel's theorem: self-reference forces unprovable truths. Both are topological obstructions — the trapped surface IS the self-referential loop, and the singularity IS the undecidable proposition. In BST: both arise from the same $B_2$ root system obstruction.*
 
 ---
 

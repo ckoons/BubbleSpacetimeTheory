@@ -86,7 +86,7 @@ A proof that counts three new things in sequence has depth 3, regardless of how 
 
 The RH proof chain has four steps. Two are genuine counting:
 
-1. **Multiplicity counting** (+1): Read the BC₂ root multiplicities from D_IV^5. The ratio 1:3:5 forces σ = 1/2. This is counting the short roots — a genuine enumeration.
+1. **Multiplicity counting** (+1): Read the B₂ root multiplicities from D_IV^5. The ratio 1:3:5 forces σ = 1/2. This is counting the short roots — a genuine enumeration.
 
 3. **Weyl enumeration** (+1): The Maass-Selberg relation has |W| = 8 terms. Counting 8 Weyl group elements and identifying the dominant term.
 

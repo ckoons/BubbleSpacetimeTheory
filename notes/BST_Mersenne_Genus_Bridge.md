@@ -31,7 +31,7 @@ AC: "(C=1, D=0)"
 
 ### Step 0: The BST integers
 
-From the restricted root system $BC_2$ of $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$:
+From the restricted root system $B_2$ of $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$:
 
 $$N_c = 3 \quad (\text{short root multiplicity}), \qquad n_C = 5 \quad (\text{complex dimension})$$
 $$g = 2n_C - N_c = 2(5) - 3 = 7 \quad (\text{Bergman genus})$$

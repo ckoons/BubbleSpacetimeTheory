@@ -11,7 +11,7 @@ parents: "T182 (QHE), T206 (Z₂ TI), BST_ChernClass_Oracle, T914 (Prime Residue
 
 # T1002: Topological Phase Classification from Q⁵
 
-*The periodic table of topological phases is a shadow of D_IV^5 geometry. The Bott periodicity that classifies all topological matter is the Weyl group of BC₂.*
+*The periodic table of topological phases is a shadow of D_IV^5 geometry. The Bott periodicity that classifies all topological matter is the Weyl group of B₂.*
 
 ---
 
@@ -21,7 +21,7 @@ parents: "T182 (QHE), T206 (Z₂ TI), BST_ChernClass_Oracle, T914 (Prime Residue
 
 *(a) **Chern number bound.** For any topological phase in spatial dimension $d \leq n_C = 5$, the Chern numbers $c_k$ of the Brillouin zone fiber bundle satisfy $c_k \leq c_k(Q^5)$. In particular, the first Chern number (Hall conductance integer) satisfies $c_1 \leq n_C = 5$ for single-band systems on $D_{IV}^5$.*
 
-*(b) **Bott period = Weyl order.** The real Bott periodicity $\pi_0(R_q) = \pi_0(R_{q+8})$ that generates the tenfold classification has period $8 = 2^{N_c} = |W(BC_2)|$. The Weyl group of the restricted root system $BC_2$ of $D_{IV}^5$ IS the Bott clock. The tenfold way is a BST integer.*
+*(b) **Bott period = Weyl order.** The real Bott periodicity $\pi_0(R_q) = \pi_0(R_{q+8})$ that generates the tenfold classification has period $8 = 2^{N_c} = |W(B_2)|$. The Weyl group of the restricted root system $B_2$ of $D_{IV}^5$ IS the Bott clock. The tenfold way is a BST integer.*
 
 *(c) **Symmetry class counting.** The 10 Altland-Zirnbauer symmetry classes decompose as $10 = 2 \times n_C = 2(N_c + \text{rank})$: 2 complex classes (class A, AIII — no antiunitary symmetry) and $2^{N_c} = 8$ real classes (with time-reversal and/or particle-hole symmetry). The factor 2 is the rank.*
 
@@ -55,7 +55,7 @@ $$\pi_k(O) \cong \pi_{k+8}(O), \quad \pi_k(Sp) \cong \pi_{k+8}(Sp)$$
 
 This period 8 classifies the tenfold way of topological phases (Kitaev 2009).
 
-In BST: the restricted root system of $D_{IV}^5$ is $BC_2$. The Weyl group $W(BC_2)$ has order $|W(BC_2)| = 2^{N_c} = 8$ (hyperoctahedral group in rank 2). The Weyl group acts on the Cartan subalgebra $\mathfrak{a}$ by reflections, generating all symmetry operations.
+In BST: the restricted root system of $D_{IV}^5$ is $B_2$. The Weyl group $W(B_2)$ has order $|W(B_2)| = 2^{N_c} = 8$ (hyperoctahedral group in rank 2). The Weyl group acts on the Cartan subalgebra $\mathfrak{a}$ by reflections, generating all symmetry operations.
 
 **The identification**: Bott periodicity arises from the Clifford algebra clock $\text{Cl}_{k+8} \cong \text{Cl}_k \otimes M_{16}(\mathbb{R})$, where $M_{16} = M_{2^4}$. The number 8 = dimension of the Clifford clock = number of real division algebra dimensions summed = $1 + 1 + 2 + 4 = 8$.
 
@@ -113,7 +113,7 @@ If rank were odd, the $\mathbb{Z}_2$ invariant would be replaced by a $\mathbb{Z
 
 **P1. Chern bound.** No naturally occurring single-band Chern insulator should have $|c_1| > n_C = 5$. Current record: $c_1 = 5$ in magnetically doped (Bi,Sb)₂Te₃ multilayers (Zhao et al., 2023). If $c_1 = 6$ is observed in a single band — T1002 is falsified.
 
-**P2. Bott period robustness.** The tenfold classification should be robust precisely because $|W(BC_2)| = 8$ is a topological invariant of $D_{IV}^5$. Perturbations that preserve the $BC_2$ root structure cannot change the period. Perturbations that break $BC_2$ (e.g., strong interactions beyond the AZ classification) should show period-breaking effects.
+**P2. Bott period robustness.** The tenfold classification should be robust precisely because $|W(B_2)| = 8$ is a topological invariant of $D_{IV}^5$. Perturbations that preserve the $B_2$ root structure cannot change the period. Perturbations that break $B_2$ (e.g., strong interactions beyond the AZ classification) should show period-breaking effects.
 
 **P3. Dimension constraint.** Topological phases in $d > n_C = 5$ spatial dimensions should show qualitatively different behavior (no embedding in $Q^5$). This is consistent with the known fact that the tenfold table repeats with dimension modulo 8 — but BST predicts the physically accessible dimensions are $d \leq n_C = 5$.
 

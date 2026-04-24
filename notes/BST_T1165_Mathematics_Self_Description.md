@@ -29,7 +29,7 @@ parents: "T186 (Five Integers), T1003 (BST Functor), T1012 (Observational Bridgi
 
 *(e) **Dimension 7 = $g$.** $G_2$ holonomy manifolds exist only in dim 7. Exotic spheres first appear in dim 7 (Milnor). The cross product exists only in dim 3 and 7. There are exactly 7 Millennium Prize Problems. Why 7: the unique dimension for the exceptional holonomy and the first exotic phenomena. This is $g = 7$ — the genus.*
 
-*(f) **Dimension 8 = $2^{N_c}$.** Octonions have dim 8. The $E_8$ lattice exists in dim 8. Bott periodicity has period 8 (T1002). The Weyl group $W(BC_2)$ has order 8. Why 8: the dimension of the non-associative division algebra, which is the endpoint of the Cayley-Dickson construction. This is $2^{N_c} = 8$ — the number of Weyl chambers.*
+*(f) **Dimension 8 = $2^{N_c}$.** Octonions have dim 8. The $E_8$ lattice exists in dim 8. Bott periodicity has period 8 (T1002). The Weyl group $W(B_2)$ has order 8. Why 8: the dimension of the non-associative division algebra, which is the endpoint of the Cayley-Dickson construction. This is $2^{N_c} = 8$ — the number of Weyl chambers.*
 
 *(g) **Self-description.** BST has:*
 - *$n_C = 5$ integers* → *5 is a privileged dimension*

@@ -53,7 +53,7 @@ An irreducible bounded symmetric domain is a connected complex manifold $\Omega 
 | II$_n$ | $\mathrm{SO}^*(2n)/\mathrm{U}(n)$ | $\mathrm{SO}(2n)/\mathrm{U}(n)$ | $\binom{n}{2}$ | $C_{\lfloor n/2\rfloor}$ or $BC$ | $2(n-1)$ |
 | III$_n$ | $\mathrm{Sp}(2n,\mathbb{R})/\mathrm{U}(n)$ | $\mathrm{Sp}(n)/\mathrm{U}(n)$ | $\binom{n+1}{2}$ | $C_n$ | $n+1$ |
 | **IV$_n$** | $\mathrm{SO}_0(n,2)/[\mathrm{SO}(n) \times \mathrm{SO}(2)]$ | $Q^n = \mathrm{SO}(n+2)/[\mathrm{SO}(n) \times \mathrm{SO}(2)]$ | $n$ | $B_2$ ($n \geq 3$) | $n+1$ |
-| $E_{III}$ | $E_{6(-14)}/[\mathrm{SO}(10) \times \mathrm{SO}(2)]$ | $E_6/[\mathrm{SO}(10) \times \mathrm{SO}(2)]$ | 16 | $BC_2$ | 12 |
+| $E_{III}$ | $E_{6(-14)}/[\mathrm{SO}(10) \times \mathrm{SO}(2)]$ | $E_6/[\mathrm{SO}(10) \times \mathrm{SO}(2)]$ | 16 | $B_2$ | 12 |
 | $E_{VII}$ | $E_{7(-25)}/[E_6 \times \mathrm{SO}(2)]$ | $E_7/[E_6 \times \mathrm{SO}(2)]$ | 27 | $BC_1$ $(= A_1)$ | 18 |
 
 The spectral gap $\lambda_1 > 0$ for every entry is a theorem of representation theory (Helgason, *Groups and Geometric Analysis*, Ch. V). The eigenvalues of the Laplacian on a compact symmetric space $\check{\Omega} = U/K$ are the Casimir eigenvalues of the spherical representations of $U$, which form a discrete set $0 = \lambda_0 < \lambda_1 < \lambda_2 < \cdots$.
@@ -73,7 +73,7 @@ For type IV domains $D_{IV}^n$ with $n \geq 3$, the restricted root system is $B
 | Short ($\pm e_i$) | $m_s = n - 2$ | $= N_c$ |
 | Long ($\pm e_1 \pm e_2$) | $m_l = 1$ | temporal |
 
-The system is reduced — there are no roots $\pm 2e_i$. (Note: E$_{III}$ and some other exceptional domains DO have $BC_2$ root systems with double roots; this distinction applies specifically to Type IV.)
+The system is reduced — there are no roots $\pm 2e_i$. (Note: E$_{III}$ and some other exceptional domains DO have $B_2$ root systems with double roots; this distinction applies specifically to Type IV.)
 
 The short root multiplicity $m_s$ determines the gauge group: $m_s$ color charges give SU($m_s$) = SU($N_c$). Since $N_c = n - 2$, the correspondence is:
 
@@ -225,7 +225,7 @@ This covers all classical gauge groups (SU, SO, Sp) and two exceptional groups (
 
 ### 5.3 The Exceptional Cases
 
-**$E_6$:** The exceptional domain $E_{III} = E_{6(-14)}/[\mathrm{SO}(10) \times \mathrm{SO}(2)]$ has complex dimension 16 and spectral gap $\lambda_1 = 12$. The root system is $BC_2$ with multiplicities $(m_s, m_l, m_{2s}) = (6, 4, 1)$, giving a QFT with 6 spatial dimensions.
+**$E_6$:** The exceptional domain $E_{III} = E_{6(-14)}/[\mathrm{SO}(10) \times \mathrm{SO}(2)]$ has complex dimension 16 and spectral gap $\lambda_1 = 12$. The root system is $B_2$ with multiplicities $(m_s, m_l, m_{2s}) = (6, 4, 1)$, giving a QFT with 6 spatial dimensions.
 
 **$E_7$:** The exceptional domain $E_{VII} = E_{7(-25)}/[E_6 \times \mathrm{SO}(2)]$ has complex dimension 27 and spectral gap $\lambda_1 = 18$. The root system is $A_1$ (rank 1).
 

@@ -15,7 +15,7 @@ Why does the proton weigh what it weighs? The Yang-Mills mass gap problem asks w
 ## The AC Structure
 
 - **Boundary** (depth 0, free): D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)] (definition). The bounded symmetric domain of type IV, dimension 5, rank 2. It is a Cartan domain — bounded, symmetric, and finite-volume. The compact dual Q⁵ has volume Vol(D_IV^5) = π⁵/1920 (Toy 307, 8/8). The five BST integers (N_c=3, n_C=5, g=7, C₂=6, N_max=137) are topological — they ARE the boundary. Wightman axioms W1-W5 (definition of a QFT).
-- **Count** (depth 1): The Bergman kernel K(z,w) on D_IV^5 determines the Plancherel measure, which determines the spectral decomposition of L²(Γ\G). The first nonzero eigenvalue of the Laplacian on D_IV^5 is strictly positive because the domain is bounded. This eigenvalue IS the mass gap. K(0,0) = 1920/π⁵. The mass ratio m_p/m_e = 6π⁵ follows from the Plancherel measure evaluated at the BC₂ exponents (1:3:5). One spectral evaluation.
+- **Count** (depth 1): The Bergman kernel K(z,w) on D_IV^5 determines the Plancherel measure, which determines the spectral decomposition of L²(Γ\G). The first nonzero eigenvalue of the Laplacian on D_IV^5 is strictly positive because the domain is bounded. This eigenvalue IS the mass gap. K(0,0) = 1920/π⁵. The mass ratio m_p/m_e = 6π⁵ follows from the Plancherel measure evaluated at the B₂ exponents (1:3:5). One spectral evaluation.
 - **Termination** (depth 0): The domain is bounded (finite volume). The spectrum is discrete (compact quotient). The first eigenvalue is positive (bounded away from zero). The Planck Condition (T153): no infinite renormalization needed because fields on D_IV^5 are finite by construction. No UV divergence. No hierarchy problem.
 
 ## The Proof
@@ -28,7 +28,7 @@ Step 3: SPECTRAL CONDITION AND MASS GAP (W2, depth 1). The Laplacian Δ on Γ\D_
 
 Δm = √(λ₁) > 0
 
-The Bergman kernel K(z,w) = (1920/π⁵) · (det(I - z·w̄*))^{-7} encodes the spectral data. The Plancherel measure μ(λ) = |c(λ)|^{-2} (from the Harish-Chandra c-function, same as RH proof) determines the spectral weights. The BC₂ exponents (1,3,5) give the mass ratio:
+The Bergman kernel K(z,w) = (1920/π⁵) · (det(I - z·w̄*))^{-7} encodes the spectral data. The Plancherel measure μ(λ) = |c(λ)|^{-2} (from the Harish-Chandra c-function, same as RH proof) determines the spectral weights. The B₂ exponents (1,3,5) give the mass ratio:
 
 m_p = 6π⁵ m_e = 938.272 MeV (0.002% agreement with experiment)
 
@@ -66,7 +66,7 @@ Note: YM is the shallowest Millennium proof. The mass gap exists because the dom
 
 - Toy 307: Vol(D_IV^5) = π⁵/1920 (8/8) — the volume determines K(0,0) = 1920/π⁵
 - Toy 337: W4 bifurcate Killing horizons (8/8) — all Wightman axioms exhibited
-- Toy 305: Multi-parabolic exponent distinctness (8/8) — BC₂ structure verified
+- Toy 305: Multi-parabolic exponent distinctness (8/8) — B₂ structure verified
 - WorkingPaper §6: m_p = 6π⁵m_e = 938.272 MeV (0.002%)
 - WorkingPaper §7: G derived from Vol(D_IV^5) (0.07%)
 

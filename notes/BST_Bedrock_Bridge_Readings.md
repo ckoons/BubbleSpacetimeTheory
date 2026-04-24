@@ -16,7 +16,7 @@ Here is what is actually happening.
 
 **The geometry exists.** D_IV^5 is a shape. It has curvature, boundaries, a root system, five topological invariants. It does not care what you call it or how you measure it.
 
-**Number theory names the landmarks.** The five integers {3,5,7,6,2} are discrete features of the geometry. The root system BC_2, the Weyl dimensions, the Casimir C_2=6, the Bergman genus g=7 -- these are names for geometric features. They are the landmarks on the terrain.
+**Number theory names the landmarks.** The five integers {3,5,7,6,2} are discrete features of the geometry. The root system B_2, the Weyl dimensions, the Casimir C_2=6, the Bergman genus g=7 -- these are names for geometric features. They are the landmarks on the terrain.
 
 **Fourier analysis reads the terrain.** Every measurement we make of D_IV^5 is some form of Fourier analysis. We decompose a function on the domain into modes, count them, weigh them, or bound them. This is what Fourier analysis does. It reads structure.
 
@@ -114,7 +114,7 @@ The spectral reader is the most natural costume for gaps between geometry and nu
 #### A4. Coxeter x L-group: (N8, G6)
 
 - **Structure**: The Langlands dual L-group Sp(6)
-- **Landmarks**: Bergman genus g=7 (shared by BC_2 and its dual)
+- **Landmarks**: Bergman genus g=7 (shared by B_2 and its dual)
 - **Reading**: The spectral reader on the L-group side produces the same Bergman genus. The spectral reading is invariant under Langlands duality -- Fourier in one costume reads the same landmark from the dual side.
 
 #### A5. Coxeter x Fill fraction: (N8, G7)
@@ -191,9 +191,9 @@ The spectral reader is the most natural costume for gaps between geometry and nu
 
 #### A17. Powers of 2 x Root system: (N4, G1)
 
-- **Structure**: The BC_2 root system -- short roots (N_c=3) and long roots
+- **Structure**: The B_2 root system -- short roots (N_c=3) and long roots
 - **Landmarks**: Powers of 2: 2^rank = 4, 2^N_c = 8
-- **Reading**: The spectral reader counts root multiplicities in powers of 2. The Weyl group W(BC_2) has order 2^rank * rank! = 8. Each binary choice (short/long, positive/negative) doubles the spectral multiplicity.
+- **Reading**: The spectral reader counts root multiplicities in powers of 2. The Weyl group W(B_2) has order 2^rank * rank! = 8. Each binary choice (short/long, positive/negative) doubles the spectral multiplicity.
 
 #### A18. Powers of 2 x Bergman kernel: (N4, G3)
 
@@ -439,13 +439,13 @@ The arithmetic reader is the natural costume for gaps involving prime factorizat
 
 - **Structure**: The Bergman genus g=7
 - **Landmarks**: Spectral gap
-- **Reading**: The arithmetic reader checks: is g=7 unique? Yes. The Bergman genus of BC_2 is 7 (= C₂+1), and no other rank-2 root system gives the same combination of invariants. The arithmetic reader reads uniqueness through prime factorization: 7 is prime, allowing no factoring ambiguity.
+- **Reading**: The arithmetic reader checks: is g=7 unique? Yes. The Bergman genus of B_2 is 7 (= C₂+1), and no other rank-2 root system gives the same combination of invariants. The arithmetic reader reads uniqueness through prime factorization: 7 is prime, allowing no factoring ambiguity.
 
 #### C15. Uniqueness x Casimir C_2=6: (S11, N9)
 
 - **Structure**: The Casimir C_2=6
 - **Landmarks**: Quadratic invariant
-- **Reading**: The arithmetic reader checks: is C_2=6 unique? Yes. It is forced by the BC_2 root lengths. The arithmetic reader reads 6 = 2*3 as the unique product of rank and N_c.
+- **Reading**: The arithmetic reader checks: is C_2=6 unique? Yes. It is forced by the B_2 root lengths. The arithmetic reader reads 6 = 2*3 as the unique product of rank and N_c.
 
 #### C16. Protocol layering x Linear algebra: (S8, N12)
 
@@ -670,7 +670,7 @@ Twelve bridges missing between {N8, N9} and {G3, G4, G5, G6, G7, G11}.
 
 **Old framing**: "g=7 and C_2=6 are derived from geometry."
 
-**Corrected framing**: g=7 and C_2=6 are landmarks. They are number-theoretic names for geometric features of the BC_2 root system. The gaps exist because we have not yet stated HOW each Fourier reader reads these landmarks from each geometric property.
+**Corrected framing**: g=7 and C_2=6 are landmarks. They are number-theoretic names for geometric features of the B_2 root system. The gaps exist because we have not yet stated HOW each Fourier reader reads these landmarks from each geometric property.
 
 The 12 gaps are 12 instances of: "We know this landmark exists on this structure, but we have not yet written down what the reader sees."
 

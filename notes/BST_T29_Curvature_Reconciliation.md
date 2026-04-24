@@ -31,7 +31,7 @@ Casey's insight (April 22): there is a **fourth route through geometry**.
 Every computation on D_IV^5 decomposes:
 
 ```
-Computation = BC₂(linear) + α · Curvature(irreducible)
+Computation = B₂(linear) + α · Curvature(irreducible)
 ```
 
 where α = 1/N_max = 1/137.
@@ -60,7 +60,7 @@ This decomposition is verified **eleven times** in the heat kernel (k=6..16, Toy
 
 **Argument**:
 - **Gauss-Bonnet**: ∫ K_G dA = 2πχ(M). The integral of curvature over the manifold equals a topological invariant. Curvature cannot be removed by coordinate change — it is **topologically protected**.
-- A polynomial algorithm is a coordinate change in the computation graph. It can rearrange the linear (flat) part BC₂ but cannot touch the curvature residue.
+- A polynomial algorithm is a coordinate change in the computation graph. It can rearrange the linear (flat) part B₂ but cannot touch the curvature residue.
 - If a polynomial function P(sol(B_i)) predicted sol(B_j), it would provide a flat coordinate connecting blocks B_i and B_j. This would reduce K_G in that direction. But K_G is irreducible (Gauss-Bonnet). Contradiction.
 
 **Evidence** (Toy 1402, Phase 2):

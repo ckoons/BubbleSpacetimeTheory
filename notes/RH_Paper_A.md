@@ -17,13 +17,13 @@ arithmetic quotient
 $\Gamma \backslash \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$
 with the heat kernel as test function. The key mechanism is a
 $c$-function unitarity constraint: the Gindikin--Karpelevich
-$c$-function for the restricted root system $BC_2$ satisfies
+$c$-function for the restricted root system $B_2$ satisfies
 $c(\nu)c(-\nu) = |c(\nu)|^2$ if and only if the spectral parameter
 $\nu$ is purely imaginary ($\sigma = 1/2$). For an off-line zero
 ($\sigma \neq 1/2$), this identity fails. The unitarity defect
 propagates through the rank-2 Maass--Selberg formula: the
 $L^2$-norm of the truncated Eisenstein series, expressed as a sum
-over the 8-element Weyl group $W(BC_2)$, contains a real-exponent
+over the 8-element Weyl group $W(B_2)$, contains a real-exponent
 term whose coefficient is forced to be complex --- violating
 positivity. The rank-2 structure is essential: in rank 1 ($|W| = 2$),
 the two Weyl terms cancel as complex conjugates; in rank 2
@@ -47,7 +47,7 @@ space whose root structure constrains the locations of $\xi$-zeros.
 
 **The key observation.** The type-IV bounded symmetric domain
 $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$
-has restricted root system $BC_2$ with short root multiplicity $m_s = 3$.
+has restricted root system $B_2$ with short root multiplicity $m_s = 3$.
 When the heat kernel is used as test function in the trace formula for
 an arithmetic quotient $\Gamma \backslash D_{IV}^5$, each nontrivial
 zero $s_0 = \sigma + i\gamma$ of $\xi(s)$ contributes 8 exponential
@@ -90,7 +90,7 @@ The proof combines four ingredients:
 6. **Maass--Selberg contradiction** (Theorem 5.8): the unitarity
    defect of an off-line zero propagates through the rank-2
    Maass--Selberg formula for the residual Eisenstein series, forcing
-   a positivity violation. The $BC_2$ Weyl group ($|W| = 8$) prevents
+   a positivity violation. The $B_2$ Weyl group ($|W| = 8$) prevents
    the cancellation available in rank 1.
 
 Each ingredient uses standard tools: (1) is one line of algebra; (2)
@@ -99,7 +99,7 @@ integrals; (4) is five lines of algebra from the quadratic exponent
 structure; (5) follows from the Gamma function conjugation identity;
 (6) combines (5) with the Maass--Selberg relation and linear
 independence of exponentials. The novel contribution is the
-observation that the $BC_2$ root structure of $D_{IV}^5$ creates the
+observation that the $B_2$ root structure of $D_{IV}^5$ creates the
 Dirichlet kernel constraint, that the quadratic dependence of
 heat-kernel exponents on both $\sigma$ and $\gamma$ makes exponent
 coincidence algebraically impossible (Lemma 5.5), and that the
@@ -122,7 +122,7 @@ Let $G = \mathrm{SO}_0(5,2)$, $K = \mathrm{SO}(5) \times \mathrm{SO}(2)$,
 and $X = G/K = D_{IV}^5$, the type-IV bounded symmetric domain of
 complex dimension 5. The real dimension is $\dim_{\mathbb{R}} X = 10$.
 
-The restricted root system is $BC_2$ (non-reduced) with positive roots
+The restricted root system is $B_2$ (non-reduced) with positive roots
 $\{e_1, e_2, e_1 \pm e_2, 2e_1, 2e_2\}$ and multiplicities:
 
 | Root type | Roots | Multiplicity |
@@ -135,7 +135,7 @@ The half-sum of positive roots is
 $\rho = \frac{7}{2}e_1 + \frac{5}{2}e_2$, with $|\rho|^2 = 37/2$.
 
 *Remark 2.1.* The half-sum $\rho$ is computed over the full non-reduced
-$BC_2$ system including double roots $2e_i$ (Helgason [He00, Ch. X]).
+$B_2$ system including double roots $2e_i$ (Helgason [He00, Ch. X]).
 Some references use the reduced $B_2$ subsystem, giving
 $\rho_{B_2} = (5/2, 3/2)$ with $|\rho_{B_2}|^2 = 17/2$. The
 difference $|\rho|^2 - |\rho_{B_2}|^2 = 10 = \dim_{\mathbb{R}}(X)$.
@@ -436,7 +436,7 @@ arithmetic. Combined with Proposition 5.2 (off-line vs. on-line):
 
 ### 5.6 Closure via c-function unitarity
 
-**Lemma 5.6** (c-function conjugation identity). *The Gindikin--Karpelevich $c$-function for the $BC_2$ root system of $D_{IV}^5$ satisfies*
+**Lemma 5.6** (c-function conjugation identity). *The Gindikin--Karpelevich $c$-function for the $B_2$ root system of $D_{IV}^5$ satisfies*
 
 $$c(\nu)\, c(-\nu) = |c(\nu)|^2 \quad \Longleftrightarrow \quad \nu \in i\,\mathfrak{a}^* \tag{5.3}$$
 
@@ -460,7 +460,7 @@ For $\nu = a + i\lambda$ with $a \neq 0$: then $-\nu = -a - i\lambda \neq \bar{\
 
 $$\|\Lambda^T E(s, \cdot)\|^2 = \sum_{w \in W} c_w(s, T) \tag{5.4}$$
 
-*where $W$ is the Weyl group of $BC_2$ ($|W| = 8$), and each term $c_w(s,T)$ involves the $c$-function and powers of $T$. At $s' = \bar{s}$ (the $L^2$ inner product), the left side is $\geq 0$.*
+*where $W$ is the Weyl group of $B_2$ ($|W| = 8$), and each term $c_w(s,T)$ involves the $c$-function and powers of $T$. At $s' = \bar{s}$ (the $L^2$ inner product), the left side is $\geq 0$.*
 
 *The Maass--Selberg formula for the rank-2 domain $D_{IV}^5$ takes the explicit form (Arthur [Ar78, §4]; Langlands [La76, Ch. 6]):*
 
@@ -488,9 +488,9 @@ $$\|E^{\mathrm{res}}(s_0)\|^2 = \lim_{s \to s_0} (s - s_0)(\bar{s} - \bar{s}_0)\
 
 Applying the Maass--Selberg formula (5.5) and taking the limit: the double pole of $\|\Lambda^T E(s)\|^2$ near $s = s_0$ gives a finite, nonzero result involving the residue $R_0(s_0) = \mathrm{Res}_{s=s_0}\, M(s) \neq 0$ (by Proposition 5.3: the residue coefficient is nonzero for any $\xi$-zero of any multiplicity). The residual norm inherits the $c$-function ratios from the Maass--Selberg formula, with each Weyl group term contributing at a distinct $T$-exponent.
 
-**Step 4 (The $BC_2$ constraint).** In rank 2, the Maass--Selberg formula has 8 Weyl group terms. For the residual Eisenstein series, the terms corresponding to $w \neq e$ involve intertwining operators $M(w, s_0)$ evaluated at the off-line zero. By exponent distinctness (Proposition 5.2), the off-line spectral parameter $\nu_0$ does not coincide with any Weyl translate $w\nu_n$ of an on-line parameter. By exponent rigidity (Lemma 5.5), it does not coincide with any $w\nu_0'$ from another off-line zero. Therefore the Weyl-translate terms contribute to DIFFERENT powers of $T$ in (5.5) and cannot cancel the leading $w = e$ contribution at the critical $T$-power.
+**Step 4 (The $B_2$ constraint).** In rank 2, the Maass--Selberg formula has 8 Weyl group terms. For the residual Eisenstein series, the terms corresponding to $w \neq e$ involve intertwining operators $M(w, s_0)$ evaluated at the off-line zero. By exponent distinctness (Proposition 5.2), the off-line spectral parameter $\nu_0$ does not coincide with any Weyl translate $w\nu_n$ of an on-line parameter. By exponent rigidity (Lemma 5.5), it does not coincide with any $w\nu_0'$ from another off-line zero. Therefore the Weyl-translate terms contribute to DIFFERENT powers of $T$ in (5.5) and cannot cancel the leading $w = e$ contribution at the critical $T$-power.
 
-Specifically: the 8 Weyl group elements of $BC_2$ act on $\nu_0 = (a, b)$ (in the $\mathfrak{a}^*$ coordinates) by sign changes and permutations: $\{(\pm a, \pm b), (\pm b, \pm a)\}$. The exponent $\langle 2(w\nu_0 - \nu_0), H_0 \rangle$ differs for each $w \neq e$ (since $\nu_0$ has both components nonzero for a generic off-line zero). Therefore the 8 terms have 8 distinct powers of $T$, and each must individually satisfy positivity in the $T \to \infty$ limit.
+Specifically: the 8 Weyl group elements of $B_2$ act on $\nu_0 = (a, b)$ (in the $\mathfrak{a}^*$ coordinates) by sign changes and permutations: $\{(\pm a, \pm b), (\pm b, \pm a)\}$. The exponent $\langle 2(w\nu_0 - \nu_0), H_0 \rangle$ differs for each $w \neq e$ (since $\nu_0$ has both components nonzero for a generic off-line zero). Therefore the 8 terms have 8 distinct powers of $T$, and each must individually satisfy positivity in the $T \to \infty$ limit.
 
 **Step 5 (Contradiction via real exponential isolation).** The Maass--Selberg inner product $\|\Lambda^T E(\nu_0)\|^2 = \sum_w C_w \exp(L_w(H_0))$ must be real for all truncation parameters $H_0 \in \mathfrak{a}^+$. The $T$-exponent of the $w$-th term is $L_w(H_0) = \langle w\nu_0 + \bar{\nu}_0 - 2\rho, H_0 \rangle$, with imaginary part $\langle w(\mathrm{Im}(\nu_0)) - \mathrm{Im}(\nu_0), H_0 \rangle$.
 
@@ -508,21 +508,21 @@ By Lemma 5.6 and Toy 324: $\mathrm{Im}(C_e) \neq 0$ for $\sigma_0 \neq 1/2$. But
 
 *Remark 5.8 (Why this avoids the Laplace tautology).* The argument is LOCAL: it checks the unitarity condition at the spectral parameter $\nu_0$ of the specific off-line zero $s_0$. On-line zeros satisfy unitarity individually and contribute positively. There is no mixing of on-line and off-line contributions — each zero is tested independently through its residual Eisenstein series. The Maass--Selberg positivity is a POINTWISE constraint on each residual representation, not a global constraint on the full spectral expansion.
 
-*Remark 5.9 (Rank-2 necessity).* In rank 1 ($\mathrm{SL}(2, \mathbb{R})$), the Weyl group has $|W| = 2$, and the Maass--Selberg formula has only 2 terms. These 2 terms can balance: the off-line contribution $c(\nu_0)c(-\nu_0)/|c(\nu_0)|^2$ and its Weyl conjugate $c(-\nu_0)c(\nu_0)/|c(-\nu_0)|^2 = \overline{c(\nu_0)c(-\nu_0)}/|c(\nu_0)|^2$ are complex conjugates. Their sum is REAL, satisfying positivity without forcing $\sigma = 1/2$. In rank 2 ($BC_2$, $|W| = 8$), the 8 terms have 8 distinct $T$-exponents (Step 4), preventing this cancellation. **The rank-2 structure is essential.**
+*Remark 5.9 (Rank-2 necessity).* In rank 1 ($\mathrm{SL}(2, \mathbb{R})$), the Weyl group has $|W| = 2$, and the Maass--Selberg formula has only 2 terms. These 2 terms can balance: the off-line contribution $c(\nu_0)c(-\nu_0)/|c(\nu_0)|^2$ and its Weyl conjugate $c(-\nu_0)c(\nu_0)/|c(-\nu_0)|^2 = \overline{c(\nu_0)c(-\nu_0)}/|c(\nu_0)|^2$ are complex conjugates. Their sum is REAL, satisfying positivity without forcing $\sigma = 1/2$. In rank 2 ($B_2$, $|W| = 8$), the 8 terms have 8 distinct $T$-exponents (Step 4), preventing this cancellation. **The rank-2 structure is essential.**
 
 *Remark 5.10 (Verification).* The unitarity defect $\Delta(\nu_0)$ has been computed numerically for $10^4$ sample points in the strip $0 < \sigma < 1$, $\sigma \neq 1/2$, $|\gamma| \leq 1000$ (Toy 324). In all cases: $|\Delta| > 0$ monotonically increasing in $|\sigma - 1/2|$, and $\mathrm{Im}(c(\nu)c(-\nu)/|c(\nu)|^2) \neq 0$. The contradiction in Step 5 is numerically robust.
 
-*Remark 5.11 (Non-generic spectral parameters and real zeros).* Step 4 requires 8 distinct $T$-exponents, which holds when $\nu_0$ has trivial stabilizer in $W(BC_2)$, i.e., when the two components of $\nu_0$ are unequal and nonzero. We verify this for all relevant spectral parameters:
+*Remark 5.11 (Non-generic spectral parameters and real zeros).* Step 4 requires 8 distinct $T$-exponents, which holds when $\nu_0$ has trivial stabilizer in $W(B_2)$, i.e., when the two components of $\nu_0$ are unequal and nonzero. We verify this for all relevant spectral parameters:
 
 (i) **Real zeros excluded.** If $\gamma_0 = 0$, then $s_0 = \sigma_0 \in (0,1)$ is a real zero of $\xi$. But $\xi(s) > 0$ for $s \in (0,1) \cap \mathbb{R}$ (classical: $\xi(0) = \xi(1) = 1/2$, $\xi(1/2) \approx 0.497$, and $\xi$ has no real zeros in the critical strip). So $\gamma_0 \neq 0$ for any off-line zero.
 
-(ii) **Choice of spectral parameter.** A zero $s_0$ of $\xi$ creates poles of the scattering matrix $M(w_0, \nu)$ via the numerator factors $\xi(\nu_1), \xi(\nu_1 - 1), \xi(\nu_1 - 2)$ (from the $e_1$ short root, equation (A.3)) and analogous factors for the $e_2$ short root. The residual spectrum includes representations at spectral parameters $\nu_0 = (s_0 + j_1, s_0 + j_2)$ for shifts $j_1, j_2 \in \{0, 1, 2\}$. For the 6 combinations with $j_1 \neq j_2$, the two components of $\nu_0$ are unequal, so $\nu_0$ has trivial stabilizer in $W(BC_2)$ and all 8 $T$-exponents are distinct. By Proposition 5.3, the residue of the scattering matrix is nonzero at these spectral parameters. The argument of Steps 4--5 applies at any such $\nu_0$.
+(ii) **Choice of spectral parameter.** A zero $s_0$ of $\xi$ creates poles of the scattering matrix $M(w_0, \nu)$ via the numerator factors $\xi(\nu_1), \xi(\nu_1 - 1), \xi(\nu_1 - 2)$ (from the $e_1$ short root, equation (A.3)) and analogous factors for the $e_2$ short root. The residual spectrum includes representations at spectral parameters $\nu_0 = (s_0 + j_1, s_0 + j_2)$ for shifts $j_1, j_2 \in \{0, 1, 2\}$. For the 6 combinations with $j_1 \neq j_2$, the two components of $\nu_0$ are unequal, so $\nu_0$ has trivial stabilizer in $W(B_2)$ and all 8 $T$-exponents are distinct. By Proposition 5.3, the residue of the scattering matrix is nonzero at these spectral parameters. The argument of Steps 4--5 applies at any such $\nu_0$.
 
 (iii) **Real exponential isolation.** The $T$-exponent $L_w = \langle w\nu_0 + \bar{\nu}_0 - 2\rho, H_0 \rangle$ has imaginary part $\langle w(\mathrm{Im}(\nu_0)) - \mathrm{Im}(\nu_0), H_0 \rangle$. For $w = e$, this vanishes: $\exp(L_e)$ is real. For $w \neq e$ that does not fix $\mathrm{Im}(\nu_0)$, $\exp(L_w)$ is complex-valued. The complex exponentials pair as conjugates; reality of the sum forces conjugate-paired coefficients. But the real exponential $\exp(L_e)$ has no conjugate partner, so its coefficient $C_e$ must individually be real. In Langlands normalization, $C_e = c(\nu_0)c(-\nu_0)/|c(\nu_0)|^2$ has $\mathrm{Im} \neq 0$ by Lemma 5.6 --- contradiction (Step 5).
 
 *Remark 5.12 (Truncation genericity).* The 8 $T$-exponents $L_w$ are distinct as functions of $H_0$ provided $H_0 \in \mathfrak{a}^+$ is chosen off the Weyl symmetry hyperplanes (i.e., the hyperplanes $H_1 = H_2$, etc.). This is a generic (open dense) condition; $H_0$ with rationally independent coordinates suffices. With $H_0 = (1,1)$, the permutation element creates 4 $T$-exponent collisions (Toy 326), reducing the 8 terms to 4 pairs. The argument of Step 5 requires generic $H_0$, which is available for any truncation (the Maass--Selberg formula holds for all $H_0 \in \mathfrak{a}^+$).
 
-*Remark 5.13 (Regularity at off-line spectral parameters).* The Maass--Selberg formula (5.5) is evaluated at a regular point of all intertwining operators. The intertwining operators $M(w, \nu)$ admit meromorphic continuation to all of $\mathfrak{a}^*_{P,\mathbb{C}}$, with singularities lying along hyperplanes (Langlands [La76, Lemma 6.1]). By the Corollary to Lemma 7.6 [La76, Appendix II], none of these singular hyperplanes meets the imaginary axis $\mathrm{Re}(\nu) = 0$; on $i\mathfrak{a}^*_P$, the operators $M(w, \nu)$ are analytic and unitary (Arthur [Ar05, Theorem 7.2(a)]). For the explicit pole structure: the poles of $M(w, \nu)$ for $BC_2$ arise from $\Gamma$-function poles in the Gindikin--Karpelevich $c$-function, located on the real hyperplanes $\langle \nu, \alpha^\vee \rangle = -m_\alpha/2 - k$ for $k = 0, 1, 2, \ldots$ and positive roots $\alpha$ (Knapp--Stein [KS80, Proposition 7.4(f)]: all poles are real). Since $\alpha^\vee$ is a real vector and $\nu_0$ has $\mathrm{Im}(\nu_0) \neq 0$ (by Remark 5.11(i): $\gamma_0 \neq 0$), the root evaluations $\langle \nu_0, \alpha^\vee \rangle$ have nonzero imaginary part and cannot lie on any real hyperplane. Therefore $\nu_0$ is a regular point of every $M(w, \nu)$. Similarly, the Maass--Selberg denominators (of the form $\langle w\nu_0 - \bar{\nu}_0, \alpha^\vee \rangle$ for roots $\alpha$) require both real and imaginary parts to vanish simultaneously for degeneracy; for the chosen shifts $j_1 \neq j_2$ (Remark 5.11(ii)), this does not occur. No meromorphic continuation subtlety arises. This has been verified numerically: all 48 pole hyperplanes (8 Weyl elements $\times$ 6 positive roots of $BC_2$) have been enumerated explicitly, confirming integer coefficients (Toy 327, 5/5 PASS). A systematic sweep of 1920 regularity checks ($8$ values of $\sigma \in \{0.1, \ldots, 0.9\} \setminus \{0.5\}$, $5$ values of $\gamma$, all $48$ hyperplanes) finds zero pole hits for $\mathrm{Im}(\nu) \neq 0$, with distance to the nearest pole bounded below by $|\mathrm{Im}(\nu)| \cdot (\sqrt{2}-1)$. Conversely, real $\nu$ ($\gamma = 0$) does hit poles (196 examples found), confirming the hyperplanes are genuinely present but entirely avoided by the imaginary part.
+*Remark 5.13 (Regularity at off-line spectral parameters).* The Maass--Selberg formula (5.5) is evaluated at a regular point of all intertwining operators. The intertwining operators $M(w, \nu)$ admit meromorphic continuation to all of $\mathfrak{a}^*_{P,\mathbb{C}}$, with singularities lying along hyperplanes (Langlands [La76, Lemma 6.1]). By the Corollary to Lemma 7.6 [La76, Appendix II], none of these singular hyperplanes meets the imaginary axis $\mathrm{Re}(\nu) = 0$; on $i\mathfrak{a}^*_P$, the operators $M(w, \nu)$ are analytic and unitary (Arthur [Ar05, Theorem 7.2(a)]). For the explicit pole structure: the poles of $M(w, \nu)$ for $B_2$ arise from $\Gamma$-function poles in the Gindikin--Karpelevich $c$-function, located on the real hyperplanes $\langle \nu, \alpha^\vee \rangle = -m_\alpha/2 - k$ for $k = 0, 1, 2, \ldots$ and positive roots $\alpha$ (Knapp--Stein [KS80, Proposition 7.4(f)]: all poles are real). Since $\alpha^\vee$ is a real vector and $\nu_0$ has $\mathrm{Im}(\nu_0) \neq 0$ (by Remark 5.11(i): $\gamma_0 \neq 0$), the root evaluations $\langle \nu_0, \alpha^\vee \rangle$ have nonzero imaginary part and cannot lie on any real hyperplane. Therefore $\nu_0$ is a regular point of every $M(w, \nu)$. Similarly, the Maass--Selberg denominators (of the form $\langle w\nu_0 - \bar{\nu}_0, \alpha^\vee \rangle$ for roots $\alpha$) require both real and imaginary parts to vanish simultaneously for degeneracy; for the chosen shifts $j_1 \neq j_2$ (Remark 5.11(ii)), this does not occur. No meromorphic continuation subtlety arises. This has been verified numerically: all 48 pole hyperplanes (8 Weyl elements $\times$ 6 positive roots of $B_2$) have been enumerated explicitly, confirming integer coefficients (Toy 327, 5/5 PASS). A systematic sweep of 1920 regularity checks ($8$ values of $\sigma \in \{0.1, \ldots, 0.9\} \setminus \{0.5\}$, $5$ values of $\gamma$, all $48$ hyperplanes) finds zero pole hits for $\mathrm{Im}(\nu) \neq 0$, with distance to the nearest pole bounded below by $|\mathrm{Im}(\nu)| \cdot (\sqrt{2}-1)$. Conversely, real $\nu$ ($\gamma = 0$) does hit poles (196 examples found), confirming the hyperplanes are genuinely present but entirely avoided by the imaginary part.
 
 ---
 
@@ -530,7 +530,7 @@ By Lemma 5.6 and Toy 324: $\mathrm{Im}(C_e) \neq 0$ for $\sigma_0 \neq 1/2$. But
 
 The mechanism extends to all type-IV domains
 $D_{IV}^n = \mathrm{SO}_0(n,2)/[\mathrm{SO}(n) \times \mathrm{SO}(2)]$
-with $n \geq 4$, where the restricted root system $BC_2$ has short root
+with $n \geq 4$, where the restricted root system $B_2$ has short root
 multiplicity $m_s = n - 2$.
 
 **Proposition 6.1.** *The algebraic lock $\sigma + 1 = 3\sigma
@@ -594,7 +594,7 @@ The Maass--Selberg formula (5.5) computes $\|\Lambda^T E_P(s, \cdot)\|^2$ for th
 
 $$f^{(P_0)}_j = \left(\frac{s_0 + j}{2}\right)^2 + \rho_2^2 + |\rho|^2, \quad j = 0, 1, 2 \tag{7.1}$$
 
-with 8 $T$-exponents from $W(BC_2)$: $\langle 2(w\nu_0 - \nu_0), H_0 \rangle$ for $w \in W$, depending on both components $(H_1, H_2)$ of the truncation vector.
+with 8 $T$-exponents from $W(B_2)$: $\langle 2(w\nu_0 - \nu_0), H_0 \rangle$ for $w \in W$, depending on both components $(H_1, H_2)$ of the truncation vector.
 
 *Maximal parabolic $P_1$* (rank 1, spectral parameter $\nu \in \mathbb{C}$, cuspidal datum $\pi$ on $\mathrm{SO}_0(3,2)$ with Casimir $\lambda_\pi$):
 
@@ -612,7 +612,7 @@ with $|W_{M_2}| = 2$ and $T$-exponent in the $P_2$-split direction.
 
 $$\left(\frac{s_0 + j}{2}\right)^2 + \rho_2^2 + |\rho|^2 = \nu^2 + \lambda_\pi + |\rho_{P_1}|^2 \tag{7.4}$$
 
-This imposes a relation between the $\zeta$-zero $s_0$ and the Casimir eigenvalue $\lambda_\pi$ of a specific cuspidal representation on $\mathrm{SO}_0(3,2) \cong \mathrm{Sp}(4, \mathbb{R})$. The Casimir gap makes this impossible in practice: the first cuspidal eigenvalue of $\mathrm{Sp}(4, \mathbb{R})$ satisfies $\lambda_{\pi,1} \geq 91.1$ (Pitale--Schmidt [PS09]), while the minimal parabolic constant $\rho_2^2 + |\rho|^2 = 25/4 = 6.25$. Since $\lambda_{\pi,1} \gg \rho_2^2 + |\rho|^2$, equation (7.4) has no solution for any $s_0$ in the critical strip. Additionally, the coroot norms $\{1, 2, 4\}$ for $BC_2$ differ across parabolics (the maximal parabolics see only the subset of roots in their Levi decomposition), dispatching most of the 27 potential coincidence cases by norm mismatch alone.
+This imposes a relation between the $\zeta$-zero $s_0$ and the Casimir eigenvalue $\lambda_\pi$ of a specific cuspidal representation on $\mathrm{SO}_0(3,2) \cong \mathrm{Sp}(4, \mathbb{R})$. The Casimir gap makes this impossible in practice: the first cuspidal eigenvalue of $\mathrm{Sp}(4, \mathbb{R})$ satisfies $\lambda_{\pi,1} \geq 91.1$ (Pitale--Schmidt [PS09]), while the minimal parabolic constant $\rho_2^2 + |\rho|^2 = 25/4 = 6.25$. Since $\lambda_{\pi,1} \gg \rho_2^2 + |\rho|^2$, equation (7.4) has no solution for any $s_0$ in the critical strip. Additionally, the coroot norms $\{1, 2, 4\}$ for $B_2$ differ across parabolics (the maximal parabolics see only the subset of roots in their Levi decomposition), dispatching most of the 27 potential coincidence cases by norm mismatch alone.
 
 Crucially, even setting aside the Casimir gap, the **$T$-exponents** are structurally distinct: the $P_0$ exponent depends on both $(H_1, H_2)$ while the $P_1$ exponent depends on $H_1$ alone. They are different functions of the truncation vector $H_0$, so they contribute to different exponentials in the Maass--Selberg sum and cannot cancel.
 
@@ -633,7 +633,7 @@ with either short root alone.
 **7.4 The $\rho$-independence.** The proof depends on imaginary parts
 of exponents ($\mathrm{Im}(f_j) = (\sigma + j)\gamma/2$) and on the
 condition $\sigma_0 + j \neq 1/2 + k$ in the critical strip. Neither
-involves $|\rho|^2$. The choice between the full $BC_2$ convention
+involves $|\rho|^2$. The choice between the full $B_2$ convention
 ($|\rho|^2 = 37/2$) and the reduced $B_2$ convention
 ($|\rho|^2 = 17/2$) affects only the real parts of exponents, which
 cancel in all critical comparisons. See Remark 2.1.

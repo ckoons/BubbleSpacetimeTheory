@@ -1,0 +1,2325 @@
+{
+  "meta": {
+    "description": "Paper #83 cross-reference: invariant → AC theorem graph",
+    "total": 257,
+    "matched": 31,
+    "unmatched": 0,
+    "no_theorem": 226,
+    "generated": "2026-04-25"
+  },
+  "crossrefs": [
+    {
+      "symbol": "N_c",
+      "theorem": "T666",
+      "tid": 666,
+      "graph_name": "N_c Source (N_c = 3)",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 2
+    },
+    {
+      "symbol": "n_C",
+      "theorem": "T667",
+      "tid": 667,
+      "graph_name": "n_C Source (n_C = 5)",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 2
+    },
+    {
+      "symbol": "g",
+      "theorem": "T649",
+      "tid": 649,
+      "graph_name": "Bergman Genus Definition",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 2
+    },
+    {
+      "symbol": "C₂",
+      "theorem": "T190",
+      "tid": 190,
+      "graph_name": "Grand Identity",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 2
+    },
+    {
+      "symbol": "N_max",
+      "theorem": "T186",
+      "tid": 186,
+      "graph_name": "Five Integers Uniqueness",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 2
+    },
+    {
+      "symbol": "rank",
+      "theorem": "T110",
+      "tid": 110,
+      "graph_name": "B₂ Representation Filter",
+      "domain": "differential_geometry",
+      "proved": false,
+      "section": 2
+    },
+    {
+      "symbol": "N_gen",
+      "theorem": "T666",
+      "tid": 666,
+      "graph_name": "N_c Source (N_c = 3)",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 10
+    },
+    {
+      "symbol": "N_magic",
+      "theorem": "T662",
+      "tid": 662,
+      "graph_name": "Spin-Orbit Ratio",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 9
+    },
+    {
+      "symbol": "θ_QCD",
+      "theorem": "T1243",
+      "tid": 1243,
+      "graph_name": "Strong CP from Contractibility",
+      "domain": "quantum_field_theory",
+      "proved": false,
+      "section": 7
+    },
+    {
+      "symbol": "α⁻¹",
+      "theorem": "T186",
+      "tid": 186,
+      "graph_name": "Five Integers Uniqueness",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 3
+    },
+    {
+      "symbol": "m_p/m_e",
+      "theorem": "T186",
+      "tid": 186,
+      "graph_name": "Five Integers Uniqueness",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 4
+    },
+    {
+      "symbol": "sin²θ_W",
+      "theorem": "T186",
+      "tid": 186,
+      "graph_name": "Five Integers Uniqueness",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 3
+    },
+    {
+      "symbol": "Ω_Λ",
+      "theorem": "T1288",
+      "tid": 1288,
+      "graph_name": "Gödel-Cosmology Bridge: Dark Energy = Uncommitted ",
+      "domain": "cosmology",
+      "proved": false,
+      "section": 11
+    },
+    {
+      "symbol": "Ω_m",
+      "theorem": "T1288",
+      "tid": 1288,
+      "graph_name": "Gödel-Cosmology Bridge: Dark Energy = Uncommitted ",
+      "domain": "cosmology",
+      "proved": false,
+      "section": 11
+    },
+    {
+      "symbol": "v",
+      "theorem": "T186",
+      "tid": 186,
+      "graph_name": "Five Integers Uniqueness",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 3
+    },
+    {
+      "symbol": "m_H",
+      "theorem": "T186",
+      "tid": 186,
+      "graph_name": "Five Integers Uniqueness",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 6
+    },
+    {
+      "symbol": "n_s",
+      "theorem": "T122",
+      "tid": 122,
+      "graph_name": "Planar Graph Spectral Constraint",
+      "domain": "foundations",
+      "proved": false,
+      "section": 11
+    },
+    {
+      "symbol": "sinθ_C",
+      "theorem": "T186",
+      "tid": 186,
+      "graph_name": "Five Integers Uniqueness",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 7
+    },
+    {
+      "symbol": "sin²θ₁₂",
+      "theorem": "T186",
+      "tid": 186,
+      "graph_name": "Five Integers Uniqueness",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 7
+    },
+    {
+      "symbol": "sin²θ₂₃",
+      "theorem": "T186",
+      "tid": 186,
+      "graph_name": "Five Integers Uniqueness",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 7
+    },
+    {
+      "symbol": "a₀",
+      "theorem": "T186",
+      "tid": 186,
+      "graph_name": "Five Integers Uniqueness",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 11
+    },
+    {
+      "symbol": "κ_ls",
+      "theorem": "T662",
+      "tid": 662,
+      "graph_name": "Spin-Orbit Ratio",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 3
+    },
+    {
+      "symbol": "γ_CKM",
+      "theorem": "T186",
+      "tid": 186,
+      "graph_name": "Five Integers Uniqueness",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 7
+    },
+    {
+      "symbol": "T_deconf",
+      "theorem": "T186",
+      "tid": 186,
+      "graph_name": "Five Integers Uniqueness",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 8
+    },
+    {
+      "symbol": "f_c",
+      "theorem": "T1016",
+      "tid": 1016,
+      "graph_name": "Molecular Biology Bridge",
+      "domain": "biology",
+      "proved": false,
+      "section": 16
+    },
+    {
+      "symbol": "τ_n",
+      "theorem": "T966",
+      "tid": 966,
+      "graph_name": "Quantum Linearization Census",
+      "domain": "quantum",
+      "proved": false,
+      "section": 9
+    },
+    {
+      "symbol": "a_e",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 12
+    },
+    {
+      "symbol": "α_s(m_Z)",
+      "theorem": "T186",
+      "tid": 186,
+      "graph_name": "Five Integers Uniqueness",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 12
+    },
+    {
+      "symbol": "Λ",
+      "theorem": "T186",
+      "tid": 186,
+      "graph_name": "Five Integers Uniqueness",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 11
+    },
+    {
+      "symbol": "G",
+      "theorem": "T186",
+      "tid": 186,
+      "graph_name": "Five Integers Uniqueness",
+      "domain": "bst_physics",
+      "proved": false,
+      "section": 11
+    },
+    {
+      "symbol": "m_μ/m_e",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 4
+    },
+    {
+      "symbol": "m_t",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 5
+    },
+    {
+      "symbol": "m_t/m_c",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 5
+    },
+    {
+      "symbol": "m_s/m_d",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 5
+    },
+    {
+      "symbol": "m_b/m_τ",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 5
+    },
+    {
+      "symbol": "m_u",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 5
+    },
+    {
+      "symbol": "m_n-m_p",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 4
+    },
+    {
+      "symbol": "m_W (B)",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 6
+    },
+    {
+      "symbol": "B_d",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 9
+    },
+    {
+      "symbol": "T_deconf/f_π",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "r_p",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 9
+    },
+    {
+      "symbol": "η_b",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "A_s",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "θ_D(Cu)",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "Tsirelson",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 13
+    },
+    {
+      "symbol": "0⁻⁺/0⁺⁺",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "2⁺⁺/0⁺⁺",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "j(49a1)",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "L/Ω",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "θ_KS",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "m_π",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "f_π",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "m_ρ",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "m_ν₂",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 10
+    },
+    {
+      "symbol": "m_ν₃",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 10
+    },
+    {
+      "symbol": "H₀ (C)",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "w₀",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "r",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "a_V",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "√σ",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "M_max",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 9
+    },
+    {
+      "symbol": "R_NS",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 9
+    },
+    {
+      "symbol": "J_CKM",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 7
+    },
+    {
+      "symbol": "λ_H",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 6
+    },
+    {
+      "symbol": "g_A",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 3
+    },
+    {
+      "symbol": "ΔΣ",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 9
+    },
+    {
+      "symbol": "N(49a1)",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "Δ(49a1)",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "a₁₃₇",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "DM ratio",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "Omega_b",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "a_mu",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 12
+    },
+    {
+      "symbol": "Delta_E_Lamb",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 12
+    },
+    {
+      "symbol": "Delta_nu_HFS",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 12
+    },
+    {
+      "symbol": "m_d",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 5
+    },
+    {
+      "symbol": "m_s",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 5
+    },
+    {
+      "symbol": "m_c",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 5
+    },
+    {
+      "symbol": "m_b",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 5
+    },
+    {
+      "symbol": "T_CMB",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "nu_Dirac",
+      "theorem": "T1436",
+      "tid": 1436,
+      "graph_name": "Consciousness = 50% of Structure: One Fiber of ran",
+      "domain": "observer_science",
+      "proved": false,
+      "section": 10
+    },
+    {
+      "symbol": "ratio_k",
+      "theorem": "T531",
+      "tid": 531,
+      "graph_name": "First-Level Column Rule",
+      "domain": "number_theory",
+      "proved": false,
+      "section": 16
+    },
+    {
+      "symbol": "N_codons",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "N_aa",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "19",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 2
+    },
+    {
+      "symbol": "1920",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 2
+    },
+    {
+      "symbol": "c₄(49a1)",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "c₆(49a1)",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "1728",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 2
+    },
+    {
+      "symbol": "m_ω",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "m_φ",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "m_K*",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "m_η'",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "m_J/ψ",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "m_B/m_D",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "a_S",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "a_A",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "δ_SEMF",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "r₀",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 9
+    },
+    {
+      "symbol": "CP_floor",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "N_D",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "Q",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 2
+    },
+    {
+      "symbol": "Ω_DM",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "m_τ",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 4
+    },
+    {
+      "symbol": "m_Z",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 6
+    },
+    {
+      "symbol": "ρ̄",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 7
+    },
+    {
+      "symbol": "η̄",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 7
+    },
+    {
+      "symbol": "m_e_abs",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 4
+    },
+    {
+      "symbol": "z_eq",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "γ_mono",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "γ_di",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "γ_GW",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "|m_ββ|",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 10
+    },
+    {
+      "symbol": "Wallach",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "m_Υ",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "m_D",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "m_B±",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "m_Bc",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "m_J/ψ/m_ρ",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "r_K+/r_π",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "r_π",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "r_K+",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "N(2190)",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "β_Ising_2D",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 13
+    },
+    {
+      "symbol": "β_Ising_3D",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 13
+    },
+    {
+      "symbol": "γ_Ising_3D",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 13
+    },
+    {
+      "symbol": "K41",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 13
+    },
+    {
+      "symbol": "KPZ",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 13
+    },
+    {
+      "symbol": "N_amino",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "metabolic_3/4",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "brain_19%",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "f_crit",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "coop_gap",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "opt_group",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "avg_deg",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 13
+    },
+    {
+      "symbol": "CC_graph",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 13
+    },
+    {
+      "symbol": "δ_graph",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 13
+    },
+    {
+      "symbol": "diam_graph",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 13
+    },
+    {
+      "symbol": "det_Jac",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 2
+    },
+    {
+      "symbol": "phi_457",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 2
+    },
+    {
+      "symbol": "P(1)",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 2
+    },
+    {
+      "symbol": "l_sys",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "823",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "D_Pell",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "T_boil/T_CMB",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "Shannon_cap",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "supersingular_frac",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "Frob_period",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "Frob_orbits",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "22/7",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "lambda_1_KS",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "N_unique",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "APG_conditions",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "trans_gap",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "alpha_obs",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 3
+    },
+    {
+      "symbol": "2alpha",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "1/rank",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 2
+    },
+    {
+      "symbol": "Steane",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "a_C",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "β_NS",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 9
+    },
+    {
+      "symbol": "m_φ/m_ρ",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "σ_8",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "t_0",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "Σ_0",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "n_s_running",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "χ",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "α_s_mp",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 3
+    },
+    {
+      "symbol": "|W(B₂)|",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "|W(D₅)|",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "m_l",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "genus_X0_137",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "σ_G2/σ_SU3",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "SU4/SU3",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "SU3/SU2",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "χ_planar",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 13
+    },
+    {
+      "symbol": "Heawood",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 13
+    },
+    {
+      "symbol": "d_spacetime",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "d_gauge",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "d_total_real",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "dim_SO52",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "Cat_N_c",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "M_g",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "|F_g|",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "B_g",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "Pascal_n_C",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "|A₅|",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "ico_vertices",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "ico_faces",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "ico_edges",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "A_short",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "B_short",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "a_GW",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "Li7/H",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "m_c/m_s",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 5
+    },
+    {
+      "symbol": "m_b/m_c",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 5
+    },
+    {
+      "symbol": "m_d/m_u",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 5
+    },
+    {
+      "symbol": "phi_g",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "h_minus7",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "tau_p",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "L_BSD",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "ur_axiom",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 2
+    },
+    {
+      "symbol": "m_Σ",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "Δm²_21",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 10
+    },
+    {
+      "symbol": "Δm²_31",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 10
+    },
+    {
+      "symbol": "G_F",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 3
+    },
+    {
+      "symbol": "m_W/m_Z",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 6
+    },
+    {
+      "symbol": "magic_184",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 9
+    },
+    {
+      "symbol": "a_C_SEMF",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "CHSH",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 13
+    },
+    {
+      "symbol": "γ_poly",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "equipartition_+2",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "α_c_SAT",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 3
+    },
+    {
+      "symbol": "K41_correction",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 13
+    },
+    {
+      "symbol": "capacity_38",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "speaking_period",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "ratio_k20",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "vol_Shilov",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "Bergman_origin",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "ρ_HC",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "v_P/v_S",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "σ_Poisson",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "H_bond_angle",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "DNA_bases",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "codon_length",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "consciousness_50%",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "self_knowledge",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "dark_fraction",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "axiom_steps",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 2
+    },
+    {
+      "symbol": "T4_iodines",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "T3_iodines",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "orbital_deg",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "α_inv_CF",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "φ_approx",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "deception_rate",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "sharing_rate",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "consensus_rounds",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "Hamming_disease",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "market_syndrome",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "self_update",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "self_modules",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "α_EM",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 3
+    },
+    {
+      "symbol": "α_weak",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 3
+    },
+    {
+      "symbol": "c_v_mono",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "c_v_di",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "p_c_2D",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 13
+    },
+    {
+      "symbol": "Ramachandran",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 15
+    },
+    {
+      "symbol": "σ_DC_Cu",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "R_NS_formula",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 9
+    },
+    {
+      "symbol": "column_rule",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "loud_quiet",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "Euler_Q5",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 16
+    },
+    {
+      "symbol": "b_0_QCD",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 8
+    },
+    {
+      "symbol": "137_binary",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "137_prime_test",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    },
+    {
+      "symbol": "dark_energy_EOS_w",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "Silk_damping",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "z_reion",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 11
+    },
+    {
+      "symbol": "R_GF128",
+      "theorem": "—",
+      "tid": null,
+      "graph_name": "—",
+      "domain": "—",
+      "proved": null,
+      "section": 14
+    }
+  ]
+}

@@ -14,9 +14,9 @@ The Riemann Hypothesis has been open since 1859. Hundreds of approaches have bee
 
 ## The AC Structure
 
-- **Boundary** (depth 0, free): D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)] (definition). The bounded symmetric domain of type IV and rank 2. Its restricted root system is BC₂ with exponents in ratio 1:3:5. The Harish-Chandra c-function c(λ) encodes the spectral decomposition (definition). The arithmetic quotient Γ\D_IV^5 (definition).
+- **Boundary** (depth 0, free): D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)] (definition). The bounded symmetric domain of type IV and rank 2. Its restricted root system is B₂ with exponents in ratio 1:3:5. The Harish-Chandra c-function c(λ) encodes the spectral decomposition (definition). The arithmetic quotient Γ\D_IV^5 (definition).
 - **Count** (depth 1, conflation C=2): Two parallel spectral queries on a* ≅ R², each depth 1, not chained:
-  - *Query A*: c-function conjugation symmetry (Lemma 5.6). c(λ)c(-λ) = 1 on the unitary axis. One spectral identity — the Gindikin-Karpelevič product formula evaluated at the BC₂ exponents.
+  - *Query A*: c-function conjugation symmetry (Lemma 5.6). c(λ)c(-λ) = 1 on the unitary axis. One spectral identity — the Gindikin-Karpelevič product formula evaluated at the B₂ exponents.
   - *Query B*: Maass-Selberg positivity (Prop 5.7) combined with real exponential isolation (Thm 5.8). On a rank-2 domain, three independent exponents (1, 3, 5) overdetermine the system. Any off-axis zero violates positivity.
   - These are independent linear functionals on the same spectral basis. T422: conflation C=2, depth D=1.
 - **Termination** (depth 0): The domain is compact (after taking the arithmetic quotient). The spectrum is discrete. The number of zeros up to height T is ~ (T/2π) log(T/2πe) — finite for any T. The Planck Condition (T153): no infinite checking needed.
@@ -27,13 +27,13 @@ Step 1: DEFINITIONS (depth 0). The Riemann zeta function ζ(s) = ∏_p (1-p^{-s}
 
 Step 2: C-FUNCTION CONJUGATION (depth 1, Lemma 5.6). The Gindikin-Karpelevič formula gives c(λ) as a product over positive roots α:
 c(λ) = ∏_{α>0} c_α(⟨λ, α⟩)
-where each factor c_α involves Gamma functions. On the BC₂ root system with multiplicities from SO(5,2), there are three root lengths contributing factors with arguments proportional to 1, 3, 5 (the D₃ exponents). The conjugation identity c(λ)c(-λ) = 1 follows from Γ(s)Γ(1-s) = π/sin(πs). One evaluation of a known formula.
+where each factor c_α involves Gamma functions. On the B₂ root system with multiplicities from SO(5,2), there are three root lengths contributing factors with arguments proportional to 1, 3, 5 (the D₃ exponents). The conjugation identity c(λ)c(-λ) = 1 follows from Γ(s)Γ(1-s) = π/sin(πs). One evaluation of a known formula.
 
 Step 3: MAASS-SELBERG POSITIVITY (depth 1, Prop 5.7). The Maass-Selberg relation says: for the truncated Eisenstein series E^T(s) on Γ\D_IV^5, the inner product ⟨E^T(s), E^T(s)⟩ is a sum of terms involving c(λ) evaluated at the spectral parameter. Positivity of the inner product (⟨f, f⟩ ≥ 0 for any f — this is a definition, depth 0) constrains the possible locations of zeros. Specifically: the intertwining operator M(s) = c(s)/c(-s) must be unitary on the critical line.
 
 Step 4: REAL EXPONENTIAL ISOLATION (depth 0, Thm 5.8). On a rank-2 domain, the constant term of the Eisenstein series has the form:
 φ(s) = c₁(s)·ζ(s) + c₂(s)·ζ(s-1) + ...
-The key: on a rank-2 domain (unlike rank 1), the three independent BC₂ exponents create enough constraints to isolate the zeros. In rank 1, there's one exponent and one functional equation — insufficient to prove RH. In rank 2, the three exponents (1:3:5) overdetermine the system. An off-axis zero would require all three exponent constraints to be simultaneously violated — but the Maass-Selberg positivity prevents this. The real exponential isolation argument is: separate the real and imaginary parts of the spectral parameter, show the real part is forced to be 1/2 by the three-constraint system.
+The key: on a rank-2 domain (unlike rank 1), the three independent B₂ exponents create enough constraints to isolate the zeros. In rank 1, there's one exponent and one functional equation — insufficient to prove RH. In rank 2, the three exponents (1:3:5) overdetermine the system. An off-axis zero would require all three exponent constraints to be simultaneously violated — but the Maass-Selberg positivity prevents this. The real exponential isolation argument is: separate the real and imaginary parts of the spectral parameter, show the real part is forced to be 1/2 by the three-constraint system.
 
 Meromorphic continuation: Langlands [La76] Lemma 6.1 + App II, Arthur [Ar05] Thm 7.2(a), Knapp-Stein [KS80] Prop 7.4(f) — the intertwining operators extend meromorphically to all of a*_C (L17 reference).
 
@@ -57,11 +57,11 @@ RH = **(C=2, D=1)**. Under the (C,D) framework (T421/T422): conflation C=2 (two 
 - Toy 307: Vol(D_IV^5) = π⁵/1920 (8/8) — the volume IS the mass ratio
 - Toy 327: Pole loci (5/5) — 48 hyperplanes, distance √2-1
 - RH paper v9: K21 PASS (full Keeper audit). Sent to Sarnak March 24.
-- The 1:3:5 exponent ratio appears everywhere: D₃ decomposition, BSD spectral signatures, heat kernel contributions. This is not a coincidence — it's the BC₂ root system of D_IV^5.
+- The 1:3:5 exponent ratio appears everywhere: D₃ decomposition, BSD spectral signatures, heat kernel contributions. This is not a coincidence — it's the B₂ root system of D_IV^5.
 
 ## For Everyone
 
-Three rulers of different lengths. If you measure a wall with one ruler, many measurements fit. With two rulers, fewer. With three rulers that don't share common factors (1, 3, 5), the only measurement that works for all three is the true length. The Riemann zeros must be at exactly Re(s) = 1/2 because three independent measurements (the three BC₂ exponents) all have to agree. One ruler (rank 1) isn't enough. Three (rank 2 with BC₂) is.
+Three rulers of different lengths. If you measure a wall with one ruler, many measurements fit. With two rulers, fewer. With three rulers that don't share common factors (1, 3, 5), the only measurement that works for all three is the true length. The Riemann zeros must be at exactly Re(s) = 1/2 because three independent measurements (the three B₂ exponents) all have to agree. One ruler (rank 1) isn't enough. Three (rank 2 with B₂) is.
 
 ## What Remains (~5%)
 

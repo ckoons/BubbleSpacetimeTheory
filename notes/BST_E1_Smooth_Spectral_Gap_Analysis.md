@@ -101,7 +101,7 @@ Wait: $48/231 = 16/77 \approx 0.2078$. This is the density of integers NOT divis
 
 **Specific sub-gaps**:
 
-1. Express $\zeta_{11}(s)$ in terms of the Selberg zeta of $D_{IV}^5$. The BST spectral data (Weyl group $W(BC_2)$, Bergman kernel poles) should constrain the restricted Euler product.
+1. Express $\zeta_{11}(s)$ in terms of the Selberg zeta of $D_{IV}^5$. The BST spectral data (Weyl group $W(B_2)$, Bergman kernel poles) should constrain the restricted Euler product.
 
 2. Show that the saddle point of the Perron integral at $x = g \cdot 11 \cdot 13$ coincides with a spectral value of $D_{IV}^5$.
 
@@ -125,7 +125,7 @@ This seems deep. The count is just a number — it's not obvious why it should b
 
 ### Route A: Spectral restriction
 
-The Selberg trace formula on $D_{IV}^5$ relates the spectrum of the Laplacian to the geometry (closed geodesics). The eigenvalues are controlled by the $BC_2$ root system. If the restricted Euler product $\zeta_{11}(s)$ can be expressed as a partial trace over eigenvalues corresponding to the 11-smooth part of the spectrum, then the crossing scale would be determined by spectral data.
+The Selberg trace formula on $D_{IV}^5$ relates the spectrum of the Laplacian to the geometry (closed geodesics). The eigenvalues are controlled by the $B_2$ root system. If the restricted Euler product $\zeta_{11}(s)$ can be expressed as a partial trace over eigenvalues corresponding to the 11-smooth part of the spectrum, then the crossing scale would be determined by spectral data.
 
 **Difficulty**: HIGH. Connecting the algebraic Euler product to the analytic spectral expansion requires bridging two frameworks that don't naturally communicate.
 

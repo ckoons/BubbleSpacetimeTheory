@@ -7,7 +7,7 @@ status: "Primary RH proof paper — CLOSED April 21, 2026. Three-leg proof: Toys
 
 # The Heat Kernel Trace Formula and the Dirichlet Kernel Constraint on Riemann Zeros
 
-**Status:** Proof complete. Four pillars established: algebraic lock, Laplace uniqueness, geometric smoothness, Mandelbrojt closure. Multi-parabolic exponent distinctness verified (Toy 305, 8/8). Class number 1 via Meyer's theorem. All three backlog items resolved: §14b circularity closed (Toys 309-310), Shahidi $m_{2\alpha}$ resolved (Toy 311), $\rho$ convention corrected to full $BC_2$ (Toy 317). Arthur packet analysis complete: complementary series gap $(0, 37/2)$ contains no $K$-spherical dangerous packets. Confidence: 97% (remaining 3% = community verification).
+**Status:** Proof complete. Four pillars established: algebraic lock, Laplace uniqueness, geometric smoothness, Mandelbrojt closure. Multi-parabolic exponent distinctness verified (Toy 305, 8/8). Class number 1 via Meyer's theorem. All three backlog items resolved: §14b circularity closed (Toys 309-310), Shahidi $m_{2\alpha}$ resolved (Toy 311), $\rho$ convention corrected to full $B_2$ (Toy 317). Arthur packet analysis complete: complementary series gap $(0, 37/2)$ contains no $K$-spherical dangerous packets. Confidence: 97% (remaining 3% = community verification).
 
 ---
 
@@ -17,7 +17,7 @@ We show that the Selberg trace formula for the arithmetic quotient
 $\Gamma \backslash \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$,
 applied with the heat kernel as test function, produces a zero sum with
 rigid harmonic structure. Each nontrivial zero of $\xi(s)$ contributes
-eight exponentials --- three per short root of $BC_2$ in the locked ratio
+eight exponentials --- three per short root of $B_2$ in the locked ratio
 $1:3:5$, plus two from the long roots at the even harmonic $2$ --- The resulting Dirichlet kernel
 $D_3(x) = \sin(6x)/[2\sin(x)]$ is forced by the short root multiplicity
 $m_s = 3$ of the BST symmetric space $D_{IV}^5$. Off-line zeros
@@ -53,7 +53,7 @@ The stage for this proof is a single geometric space — the same space that der
 
 Let $G = \mathrm{SO}_0(5,2)$, $K = \mathrm{SO}(5) \times \mathrm{SO}(2)$,
 and $X = G/K = D_{IV}^5$, the type-IV bounded symmetric domain of
-complex dimension 5. The restricted root system is $BC_2$ (non-reduced), with
+complex dimension 5. The restricted root system is $B_2$ (non-reduced), with
 multiplicities $m_{e_i} = 3$ (short roots $e_1, e_2$, where $3 = p - q$),
 $m_{e_i \pm e_j} = 1$ (medium roots $e_1 \pm e_2$), and
 $m_{2e_i} = 1$ (long/double roots $2e_1, 2e_2$). We write $m_s = 3$
@@ -63,7 +63,7 @@ subsystem $\{e_i, e_i \pm e_j\}$. The half-sum of positive roots is
 $\rho = \frac{7}{2}e_1 + \frac{5}{2}e_2$, with $|\rho|^2 = 37/2$.
 
 **Convention note.** The half-sum $\rho$ is computed over the full
-non-reduced $BC_2$ root system, including the double roots $2e_i$
+non-reduced $B_2$ root system, including the double roots $2e_i$
 (Helgason 2000, Ch. X, §1). Some references use the reduced $B_2$
 subsystem, giving $\rho_{B_2} = (5/2)e_1 + (3/2)e_2$ with
 $|\rho_{B_2}|^2 = 17/2$. The difference
@@ -348,7 +348,7 @@ The left side $Z(t)$ is a generalized Dirichlet series
 
 $$Z(t) = \sum_k a_k e^{-t z_k}$$
 
-with complex exponents $z_k = f_j(\rho)$ constrained by the $BC_2$ root
+with complex exponents $z_k = f_j(\rho)$ constrained by the $B_2$ root
 structure. By **uniqueness of the Laplace transform**, the multiset
 $\{(a_k, z_k)\}$ is uniquely determined by $F(t)$.
 
@@ -604,7 +604,7 @@ All numerical verifications from Toys 218--223, 226, 228--229 (total 108/108 pas
 - Off-line amplitudes nonzero for all $t > 0$
 - Fourier transform of Gaussian smooth and decaying
 - $\gamma_n$ ratios irrational (no simple fractions)
-- $|\rho|^2 = 37/2$ verified (full $BC_2$ convention; see §1 convention note)
+- $|\rho|^2 = 37/2$ verified (full $B_2$ convention; see §1 convention note)
 
 **Toy 226 --- Coefficient Rigidity (12/12):**
 - $\xi(s)$ nonzero for $\mathrm{Re}(s) > 1$ (Euler product) and $\mathrm{Re}(s) < 0$ (functional equation)
@@ -676,7 +676,7 @@ where each factor is
 
 $$c_\alpha(z) = \frac{2^{-z} \Gamma(z)}{\Gamma\!\left(\frac{z + m_\alpha}{2}\right) \Gamma\!\left(\frac{z + m_\alpha + m_{2\alpha}}{2}\right)}$$
 
-For the $BC_2$ root system of $D_{IV}^5$, the multiplicities are:
+For the $B_2$ root system of $D_{IV}^5$, the multiplicities are:
 
 | Root type | Roots | $m_\alpha$ | $m_{2\alpha}$ |
 |-----------|-------|------------|----------------|
@@ -684,12 +684,12 @@ For the $BC_2$ root system of $D_{IV}^5$, the multiplicities are:
 | Medium ($e_i \pm e_j$) | $e_1 \pm e_2$ | $m_l = 1$ | $0$ |
 
 Note: $m_{2\alpha} = 1$ for short roots because $2e_i$ is a root in
-$BC_2$ with multiplicity 1. This modifies the $c$-function formula
+$B_2$ with multiplicity 1. This modifies the $c$-function formula
 below (see Step 1). The medium roots are "long" in the reduced
 $B_2$ convention of Section 1.
 
 **Step 1: Short root factor.** For a short root $e_1$ with $m_{e_1} = 3$,
-$m_{2e_1} = 1$ (since $2e_1$ is a root in $BC_2$):
+$m_{2e_1} = 1$ (since $2e_1$ is a root in $B_2$):
 
 $$c_s(z) = \frac{2^{-z} \Gamma(z)}{\Gamma\!\left(\frac{z+3}{2}\right) \Gamma\!\left(\frac{z+4}{2}\right)}$$
 
@@ -714,7 +714,7 @@ multiples of $\gamma/4$ — orthogonal to the D$_3$ harmonics (odd
 multiples). The $\sigma + 1 = 3\sigma$ identity depends only on the
 D$_3$ structure and is unaffected. The additional exponent strengthens
 the Mandelbrojt uniqueness argument. Verified against Shahidi (2010,
-Ch. 4): the Langlands--Shahidi decomposition for $BC_2$ with
+Ch. 4): the Langlands--Shahidi decomposition for $B_2$ with
 $m_{2\alpha} = 1$ yields exactly this factor (Toy 311).
 
 **Step 2: Scattering matrix poles.** The scattering determinant

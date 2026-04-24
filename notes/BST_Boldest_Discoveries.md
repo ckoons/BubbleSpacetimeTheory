@@ -214,7 +214,7 @@ The five BST integers are: **N_c = 3** (color), **n_C = 5** (Cartan rank of D_IV
 
 **BST derivation.**
 1. T420, T421, T422 (Depth-1 Ceiling and Linearization): every Millennium problem has a linearization theorem; each flattens to depth ≤ 1 *only* up to the Gaussian (flat) part of its kernel. The curved remainder cannot be flattened by any further linearization (T567–T570).
-2. The Bergman kernel of D_IV⁵ has nonzero Gauss-Bonnet curvature invariants at every level k ≤ 16 that has been verified (Heat Kernel toys, Paper #9). The flat part (BC₂) is exactly the portion that admits polynomial speedup; the rest is irreducible.
+2. The Bergman kernel of D_IV⁵ has nonzero Gauss-Bonnet curvature invariants at every level k ≤ 16 that has been verified (Heat Kernel toys, Paper #9). The flat part (B₂) is exactly the portion that admits polynomial speedup; the rest is irreducible.
 3. Refutation-Bandwidth Chain (T66 → T52 → T68 → T69 → 2^Ω(n)): there is no sub-exponential resolution refutation for hard instances because the curvature cannot be distributed linearly across the instance graph.
 4. Corollary: complexity is not depth, but width. Difficulty equals the curvature of the computation's shape. A flat problem is easy; a curved one is hard, and no amount of linear cleverness will flatten it.
 
@@ -298,7 +298,7 @@ Grace's graph analysis (April 16, 2026): all five occurrences are connected by i
 **Claim.** The BST integer C₂ = 6 is not a parameter. It is overdetermined: five independent categorical constructions — each starting from different branches of mathematics — all land on the same integer.
 
 **BST derivation.**
-1. **Gauss-Bonnet (T1277 Route A)**: The Euler characteristic of the compact dual D̂ = SO(7)/[SO(5)×SO(2)] is χ(D̂) = |W(BC₂)|/|W(K)_restricted| = 48/8 = **6**. A topological invariant.
+1. **Gauss-Bonnet (T1277 Route A)**: The Euler characteristic of the compact dual D̂ = SO(7)/[SO(5)×SO(2)] is χ(D̂) = |W(B₂)|/|W(K)_restricted| = 48/8 = **6**. A topological invariant.
 2. **Bernoulli denominator (T1277 Route B)**: The second Bernoulli number B₂ = 1/6 has denominator **6**. This gates the Wolstenholme bridge (T1263) that forces N_max = 137.
 3. **Heat-kernel column (T1277 Route C)**: In the Seeley-DeWitt Arithmetic Triangle (T531, Paper #9), k = **6** is the first silent column — the position where a VSC-allowed coefficient vanishes.
 4. **Compositum degree (T1280)**: The arithmetic substrate ℤ[φ, ρ] = ℤ[√5, ρ₁₃₇] has compositum degree **6** over ℚ. The integer linking the golden ratio to the 137th root of unity is C₂.

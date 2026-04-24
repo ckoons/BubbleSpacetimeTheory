@@ -113,7 +113,7 @@ These are the operations of the domain itself -- the shape, the kernel, the boun
 
 | Code | Property | Plain English |
 |------|----------|---------------|
-| G1 | $BC_2$ root system | Short roots ($N_c = 3$) and long roots (1) |
+| G1 | $B_2$ root system | Short roots ($N_c = 3$) and long roots (1) |
 | G2 | Five integers $\{3,5,7,6,2\}$ | The topological invariants of $D_{IV}^5$ |
 | G3 | Bergman kernel / volume | The natural measure on the domain |
 | G4 | Shilov boundary ($n_C = 5$) | The edge where maxima live |
@@ -196,7 +196,7 @@ The HRR formula is not a theorem to be proved on $D_{IV}^5$. It is an identity t
 
 **Theorem (T603).** *The Weyl dimension formula bridges number-theoretic structure (integer invariants) to geometric structure (spectral gaps, Bergman kernel). The bridge is the polynomial evaluation $d(p, q, n_C)$.*
 
-The root system of $D_{IV}^5$ is $BC_2$, whose Lie algebra is $B_3$ with compact real form $\text{SO}(7)$ -- this is why $g = 7 = \dim(B_3)$. SO(7) is the compact real form of the $B_3$ Lie algebra -- the isometry group of $D_{IV}^5$. Its vector dimension $g = 7$ is the Bergman genus of the domain. The Weyl dimension formula for $\text{SO}(7)$ representations:
+The root system of $D_{IV}^5$ is $B_2$, whose Lie algebra is $B_3$ with compact real form $\text{SO}(7)$ -- this is why $g = 7 = \dim(B_3)$. SO(7) is the compact real form of the $B_3$ Lie algebra -- the isometry group of $D_{IV}^5$. Its vector dimension $g = 7$ is the Bergman genus of the domain. The Weyl dimension formula for $\text{SO}(7)$ representations:
 
 $$d(p, q, n_C) = \frac{(2p + n_C)(2q + n_C - 2)(p + q + n_C - 1)}{n_C(n_C - 2)(n_C - 1)} \cdot (p - q + 1)$$
 
@@ -216,7 +216,7 @@ where $\lambda_1$ is the first nonzero eigenvalue of the graph Laplacian (Geomet
 
 On $D_{IV}^5$, the spectral gap is $C_2 = 6$ (T190), giving a Cheeger constant $h \geq 3$: every cut through the theorem graph has information flow rate at least 3. The AC theorem graph IS an expander (T59, T60), so the inequality is tight up to constants. The expander mixing lemma then bounds information concentration -- no subgraph can hoard information beyond what the spectral gap allows. This IS the data processing inequality (S4) at the graph level.
 
-**AC(0) depth: 0.** Cheeger's inequality is algebraic (verified: Toy 666, 10/10, $BC_2$ Cartan data all powers of 2).
+**AC(0) depth: 0.** Cheeger's inequality is algebraic (verified: Toy 666, 10/10, $B_2$ Cartan data all powers of 2).
 
 ### 4.4 Triangle Closure (T630)
 
@@ -433,7 +433,7 @@ The growth curve (Toy 685) adds a final layer: the map must be structurally comp
 | 660 | 10/10 | All | Bergman budget (S9↔G3) | Meta-bridge |
 | 664 | 10/10 | All | Bernoulli denominators = BST integers | Todd |
 | 665 | 10/10 | All | $k = N_c = 3$ verification | ETH |
-| 666 | 10/10 | All | $BC_2$ Cartan data = powers of 2 | Cheeger |
+| 666 | 10/10 | All | $B_2$ Cartan data = powers of 2 | Cheeger |
 | 679 | 5/8 + 4 unplanned | — | AC Graph spectrum: $\lambda_2/\lambda_1 = 3$, $\chi = 7$, diam = 12, comm = 8 | Self-similarity |
 | 685 | 7/8 | — | Growth curve: spectral phase transition at cross-domain > 50% | Self-similarity |
 

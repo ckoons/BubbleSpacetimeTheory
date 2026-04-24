@@ -36,7 +36,7 @@ Three integers generate all others:
 
 $$\boxed{N_c = 3, \qquad n_C = 5, \qquad N_{\max} = 137}$$
 
-- $N_c = 3$: the number of colors. Determined by the short root multiplicity of the restricted root system of $\mathrm{so}(5,2)$, which has type $BC_2$ with multiplicities $(m_s, m_m, m_l) = (n_C - 2, 1, 1)$. For $n_C = 5$: $m_s = 3 = N_c$.
+- $N_c = 3$: the number of colors. Determined by the short root multiplicity of the restricted root system of $\mathrm{so}(5,2)$, which has type $B_2$ with multiplicities $(m_s, m_m, m_l) = (n_C - 2, 1, 1)$. For $n_C = 5$: $m_s = 3 = N_c$.
 
 - $n_C = 5$: the complex dimension of $D_{IV}^5$. Determined by the uniqueness conditions of Section 5 below.
 

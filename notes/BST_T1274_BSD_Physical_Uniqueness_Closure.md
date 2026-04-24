@@ -110,7 +110,7 @@ BSD is the gravity-reading cousin of RH:
 
 Both are instances of T1234's reading structure: the number-field / function-field isomorphism makes arithmetic observables into spectral observables. T1274 completes the BSD side of this correspondence.
 
-The "1:3:5 harmonic pattern" (Paper Outline §3.5) is the D_3 short-root spectrum, directly analogous to BC_2's 1:3:5 for RH. Both are iso-invariants of the rank-2 structure.
+The "1:3:5 harmonic pattern" (Paper Outline §3.5) is the D_3 short-root spectrum, directly analogous to B_2's 1:3:5 for RH. Both are iso-invariants of the rank-2 structure.
 
 ---
 

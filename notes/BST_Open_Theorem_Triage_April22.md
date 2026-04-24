@@ -8,7 +8,7 @@
 |------|------|--------|------------|
 | T29 | Algebraic Independence | open | Five integers proved unique (T186), cascade (T1404) confirms. Need: formal algebraic independence proof over ℚ. **Lyra can close.** |
 | T71 | Polarization as AC(0) | conditional | Polar codes = Reed-Muller subcodes. AC(0) capacity already proved for symmetric channels. Need: explicit polarization ↔ AC(0) depth reduction. **Lyra can close.** |
-| T110 | BC₂ Representation Filter | conditional | Extensive BC₂ work done (heat kernel, Bergman, root system). Representation theory fully developed. **Close with existing heat kernel results.** |
+| T110 | B₂ Representation Filter | conditional | Extensive B₂ work done (heat kernel, Bergman, root system). Representation theory fully developed. **Close with existing heat kernel results.** |
 | T126 | BST-Chromatic Conjecture (3+1) | conjecture | Four-Color PROVED (computer-free). 3+1 = N_c+1 reading is structural. **Convert conjecture → theorem using Forced Fan Lemma.** |
 | T127 | Chromatic-Confinement Parallel | conjecture | With T126 closed and YM suite done, the parallel N_c = 3 colors ↔ 3 quarks is provable. **Analogical → derived.** |
 | T533 | Kummer Analog Conjecture | conjecture | Heat kernel now has 19 levels (was 11 when conjecture was written). Column rule (C=1, D=0) confirmed through k=20. Spectral basis prediction testable. **Elie can verify with Toy 671 data.** |

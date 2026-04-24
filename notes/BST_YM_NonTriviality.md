@@ -23,11 +23,11 @@ BST fails all three conditions. This is what we need.
 
 -----
 
-## 1. Non-Abelian Gauge Group from $BC_2$ (Argument A — Structural)
+## 1. Non-Abelian Gauge Group from $B_2$ (Argument A — Structural)
 
 **Theorem (T896).** *The BST theory on $\Gamma \backslash D_{IV}^5$ is non-Gaussian.*
 
-**Proof (Argument A).** The restricted root system of $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ is $BC_2$ with multiplicities:
+**Proof (Argument A).** The restricted root system of $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ is $B_2$ with multiplicities:
 
 | Root type | Multiplicity |
 |-----------|-------------|
@@ -143,7 +143,7 @@ where $f_k$ is an automorphic form in the $\pi_k$ sector. This integral is the c
 
 1. **Representation theory allows it**: The Clebsch-Gordan coefficient $\langle \pi_{12} | \pi_6 \otimes \pi_6 \rangle \neq 0$.
 
-2. **The gauge structure requires it**: The non-abelian gauge group SU(3) from $BC_2$ contributes a cubic vertex with coupling $g_s f^{abc} \neq 0$. The vertex cannot be set to zero without breaking the gauge symmetry, because $f^{abc}$ are the structure constants of $\mathrm{SU}(3)$ — they define the Lie algebra.
+2. **The gauge structure requires it**: The non-abelian gauge group SU(3) from $B_2$ contributes a cubic vertex with coupling $g_s f^{abc} \neq 0$. The vertex cannot be set to zero without breaking the gauge symmetry, because $f^{abc}$ are the structure constants of $\mathrm{SU}(3)$ — they define the Lie algebra.
 
 3. **The Rankin-Selberg method gives it explicitly**: The unfolding technique (Rankin 1939, Selberg 1940, generalized to higher rank by Jacquet-Shalika 1981) evaluates the triple product integral in terms of $L$-functions. For $\mathrm{SO}_0(5,2)$ with $\Gamma$ arithmetic, the result is:
 
@@ -163,7 +163,7 @@ $\square$
 
 | # | Argument | Type | Key Input | AC |
 |---|----------|------|-----------|-----|
-| A | Non-abelian gauge group | Structural | $BC_2 \to \mathrm{SU}(3)$, $f^{abc} \neq 0$ | (C=0, D=0) |
+| A | Non-abelian gauge group | Structural | $B_2 \to \mathrm{SU}(3)$, $f^{abc} \neq 0$ | (C=0, D=0) |
 | B | Non-quadratic Casimir spectrum | Spectral | $C_2 = k(k-5)$, non-constant ratios | (C=1, D=0) |
 | C | Non-factorizable Bergman kernel | Analytic | $\det(I - z\bar{w}^*)^{-7}$ rank-2 | (C=1, D=0) |
 | D | Non-trivial Selberg scattering | Arithmetic | Scattering resonances from $\Gamma$ | (C=2, D=0) |

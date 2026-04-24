@@ -474,7 +474,7 @@ The GW source is the stress-energy of the commitment wavefront, which
 inherits the spectral structure of the $D_{IV}^5$ phase transition.
 The order parameter fluctuation spectrum on the 10-real-dimensional
 domain projects onto the 3-dimensional spatial slice through the
-restricted root system of $\text{SO}_0(5,2)$, which has type $BC_2$
+restricted root system of $\text{SO}_0(5,2)$, which has type $B_2$
 with multiplicities $(a, b) = (4, 3)$.
 
 The spectral index of the projected GW power spectrum is:
@@ -492,7 +492,7 @@ structure modifying the source correlation function:
 
 $$n_{\text{GW}} = 3 - \frac{2n_C}{n_C + 2} = 3 - \frac{10}{7} = \frac{11}{7} \approx 1.57$$
 
-The exact value depends on which projection of the $BC_2$ root system
+The exact value depends on which projection of the $B_2$ root system
 dominates the low-frequency tail. We adopt the geometric mean as the
 BST prediction:
 

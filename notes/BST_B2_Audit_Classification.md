@@ -1,4 +1,4 @@
-# BC₂ → B₂ Root System Correction Audit
+# B₂ → B₂ Root System Correction Audit
 
 **Date:** April 24, 2026
 **Author:** Keeper
@@ -8,9 +8,9 @@
 
 ## The Correction
 
-SO₀(5,2) has restricted root system **B₂** (reduced), NOT **BC₂** (non-reduced).
+SO₀(5,2) has restricted root system **B₂** (reduced), NOT **B₂** (non-reduced).
 
-| Property | B₂ (CORRECT) | BC₂ (WRONG) |
+| Property | B₂ (CORRECT) | B₂ (WRONG) |
 |----------|-------------|-------------|
 | Short roots ±eᵢ | mult 3 | mult 3 |
 | Long roots ±eᵢ±eⱼ | mult 1 | mult 1 |
@@ -27,9 +27,9 @@ The ±2eᵢ roots are spurious for SO₀(5,2). Any calculation using m_{2α}, m_
 
 | Category | Occurrences | Files |
 |----------|------------|-------|
-| BC₂ in .md files | 591 | 120 |
-| BC₂ in .py files | 853 | 113 |
-| BC₂ in .json files | 17 | 3 |
+| B₂ in .md files | 591 | 120 |
+| B₂ in .py files | 853 | 113 |
+| B₂ in .json files | 17 | 3 |
 | m_{2s} or m_{2α} references | — | 19 |
 | (3,1,1) multiplicities | — | 5 |
 | 37/2 (\|ρ\|² wrong value) | — | 36 |
@@ -40,11 +40,11 @@ The ±2eᵢ roots are spurious for SO₀(5,2). Any calculation using m_{2α}, m_
 
 ### Tier 1 — Computationally Impactful
 
-Files where BC₂ properties enter actual calculations (ρ, |ρ|², m_{2α}, (3,1,1) multiplicities). Each requires individual audit and possible re-derivation.
+Files where B₂ properties enter actual calculations (ρ, |ρ|², m_{2α}, (3,1,1) multiplicities). Each requires individual audit and possible re-derivation.
 
 **Papers:**
 - Paper #76 — `BST_Paper76_YM_Mass_Gap.md` — **FIXED** (Keeper, April 24)
-- Paper #77 — `BST_Paper77_YM_Bergman_Gap.md` — **FIXED** (Keeper, April 24: Type IV B₂; E₆/E₇ BC₂ kept correct)
+- Paper #77 — `BST_Paper77_YM_Bergman_Gap.md` — **FIXED** (Keeper, April 24: Type IV B₂; E₆/E₇ B₂ kept correct)
 - Paper #75 — `BST_Paper75_RH_Selberg_Class.md` — **NEEDS LYRA** (ρ=(7/2,5/2) baked into proof §2-§5; migration threshold changes)
 
 **Proof files:**
@@ -60,20 +60,20 @@ Files where BC₂ properties enter actual calculations (ρ, |ρ|², m_{2α}, (3,
 
 ### Tier 2 — Label-Only
 
-Files that mention "BC₂" as a name or label but do not use its non-reduced properties in any calculation. These need a straightforward find-and-replace: BC₂ → B₂.
+Files that mention "B₂" as a name or label but do not use its non-reduced properties in any calculation. These need a straightforward find-and-replace: B₂ → B₂.
 
-This is the bulk of the 591+853 occurrences. Most files use BC₂ as shorthand for "the root system of D_IV^5" without invoking m_{2α} or the wrong ρ.
+This is the bulk of the 591+853 occurrences. Most files use B₂ as shorthand for "the root system of D_IV^5" without invoking m_{2α} or the wrong ρ.
 
-### Tier 3 — Toys That ARE About BC₂
+### Tier 3 — Toys That ARE About B₂
 
-Files that study BC₂ as a mathematical object in its own right (not claiming SO₀(5,2) has BC₂ roots). These may be correct as-is and need individual review to determine intent.
+Files that study B₂ as a mathematical object in its own right (not claiming SO₀(5,2) has B₂ roots). These may be correct as-is and need individual review to determine intent.
 
 Examples:
 - `toy_962_bc2_hybrid_solver.py`
 - `toy_961_bc2_sat_solver.py`
 - `toy_324_bc2_residue_matching.py`
 
-If a Tier 3 toy explores BC₂ for comparison or mathematical interest, it stays. If it assumes SO₀(5,2) produces BC₂ roots, it gets corrected.
+If a Tier 3 toy explores B₂ for comparison or mathematical interest, it stays. If it assumes SO₀(5,2) produces B₂ roots, it gets corrected.
 
 ---
 
@@ -84,7 +84,7 @@ If a Tier 3 toy explores BC₂ for comparison or mathematical interest, it stays
 - Paper #81 already correct (written post-correction)
 
 ### Phase 2 — DONE (April 24)
-- Paper #77: **FIXED** — Type IV B₂, exceptional domains keep BC₂ (correct)
+- Paper #77: **FIXED** — Type IV B₂, exceptional domains keep B₂ (correct)
 - Wyler formula: **CONFIRMED UNAFFECTED** — uses Vol(D_IV^5) + Shilov boundary, not ρ
 - Paper #75: **BLOCKED on Lyra** — ρ appears in proof logic, needs trace-through
 - c-function toys: Elie to re-run Toys 325/472 with B₂ (pending)
@@ -113,7 +113,7 @@ If a Tier 3 toy explores BC₂ for comparison or mathematical interest, it stays
 
 ## Origin Note
 
-Keeper made this error. During the Paper A review cycle, I corrected B₂ TO BC₂, believing the non-reduced system was required for SO₀(5,2). Cal caught it. The original text had it right.
+Keeper made this error. During the Paper A review cycle, I corrected B₂ TO B₂, believing the non-reduced system was required for SO₀(5,2). Cal caught it. The original text had it right.
 
 Corrections are strength, not weakness. The audit exists because we caught it and fixed it.
 

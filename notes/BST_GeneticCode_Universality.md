@@ -10,7 +10,7 @@ framework: "AC(0) (C=1, D=0) — the entire derivation is nine definitions"
 
 Open any molecular biology textbook and you will find the genetic code presented as a table — 64 codons mapping to 20 amino acids and a stop signal. The textbook will tell you this code is ancient, conserved, and probably a "frozen accident" (Crick's phrase from 1968): life stumbled onto this particular mapping early on, and changing it would be so catastrophic that every organism since has been stuck with it. A historical lock-in. A cosmic coin flip that happened to land this way.
 
-But look at the numbers. Four bases. Three-letter codons. Twenty amino acids. Sixty-four total codons. Twenty-one classes including stops. These are not arbitrary. They are $2^2$, $6/2$, $\binom{6}{3}$, $2^6$, and $\binom{7}{2}$ — every one of them an identity of the root system $BC_2$, the restricted root system of the bounded symmetric domain $D_{IV}^5$.
+But look at the numbers. Four bases. Three-letter codons. Twenty amino acids. Sixty-four total codons. Twenty-one classes including stops. These are not arbitrary. They are $2^2$, $6/2$, $\binom{6}{3}$, $2^6$, and $\binom{7}{2}$ — every one of them an identity of the root system $B_2$, the restricted root system of the bounded symmetric domain $D_{IV}^5$.
 
 This paper proves that the genetic code is not an accident at all. It is a boundary condition of spacetime geometry — as inevitable as the fine structure constant, as forced as the proton mass. The five integers of $D_{IV}^5$ — $\{N_c = 3, n_C = 5, g = 7, C_2 = 6, N_{\max} = 137\}$ — determine every structural parameter of the code, from the alphabet size to the wobble position to the error resilience. Five hundred biological constants across eleven domains, from the genetic code to the brain to the immune system to metabolism, all from five integers and zero free parameters.
 
@@ -81,7 +81,7 @@ The genetic code is derived from $D_{IV}^5$ in five steps, each a definition (AC
 
 ### Step 1: rank = 2 → alphabet q = 4
 
-The restricted root system of $D_{IV}^5$ is $BC_2$ with rank 2. An information system on this geometry requires $q = 2^{\text{rank}} = 4$ symbols — two binary features per symbol, encoding a $\mathbb{Z}_2 \times \mathbb{Z}_2$ structure.
+The restricted root system of $D_{IV}^5$ is $B_2$ with rank 2. An information system on this geometry requires $q = 2^{\text{rank}} = 4$ symbols — two binary features per symbol, encoding a $\mathbb{Z}_2 \times \mathbb{Z}_2$ structure.
 
 In biology: the two binary features are (purine/pyrimidine) × (strong/weak H-bonding). The four elements:
 
@@ -100,7 +100,7 @@ In biology: the two binary features are (purine/pyrimidine) × (strong/weak H-bo
 
 The Casimir eigenvalue $C_2 = 6$ of $D_{IV}^5$ is the information capacity per codeword. Each codeword is a vertex of the 6-cube $\{0,1\}^6$ — a 6-bit address in the spectral space.
 
-This is not a parameter choice. $C_2 = |\Phi^+| = 6$, the number of positive restricted roots of $BC_2$, each counted once regardless of root space multiplicity:
+This is not a parameter choice. $C_2 = |\Phi^+| = 6$, the number of positive restricted roots of $B_2$, each counted once regardless of root space multiplicity:
 
 $$\Phi^+ = \{e_1, e_2, e_1 + e_2, e_1 - e_2, 2e_1, 2e_2\}$$
 
@@ -114,7 +114,7 @@ $$L = \frac{C_2}{\text{rank}} = \frac{6}{2} = 3 = N_c$$
 
 This is simultaneously:
 - **The information-theoretic minimum**: $\lceil \log_4 21 \rceil = 3$
-- **A geometric identity of $BC_2$**: $C_2 = N_c \times \text{rank}$
+- **A geometric identity of $B_2$**: $C_2 = N_c \times \text{rank}$
 
 The codon length is NOT chosen by evolution to be "just enough." It is an identity of the root system. The same identity that gives 3 colors in QCD gives 3 letters per codon. This is the same $N_c$ — not an analogy, a theorem.
 
@@ -146,9 +146,9 @@ Every arrow is a definition. Zero computation. The genetic code is read off the 
 
 Every child who has seen a picture of DNA knows the double helix — the two strands winding around each other, A always paired with T, G always paired with C. Watson and Crick's great discovery in 1953. But why *these* pairings? Why exactly one partner per base? Why not two possible partners, or three?
 
-The answer is a single number: $m_{2\alpha} = 1$. The double root multiplicity of $BC_2$ is one — meaning there is exactly one involution per spectral direction, exactly one way to "flip" each base to its complement. Watson-Crick pairing is not a chemical preference. It is a root system identity.
+The answer is a single number: $m_{2\alpha} = 1$. The double root multiplicity of $B_2$ is one — meaning there is exactly one involution per spectral direction, exactly one way to "flip" each base to its complement. Watson-Crick pairing is not a chemical preference. It is a root system identity.
 
-The Watson-Crick base pairing (A↔U, G↔C) is the $m_{2\alpha} = 1$ involution of $BC_2$.
+The Watson-Crick base pairing (A↔U, G↔C) is the $m_{2\alpha} = 1$ involution of $B_2$.
 
 In the binary encoding:
 - A (0,1) ↔ U (1,1): XOR = (1,0)
@@ -156,7 +156,7 @@ In the binary encoding:
 
 Both complementary pairs have the same XOR signature: (1,0) — flip the purine/pyrimidine bit, preserve the H-bond bit. This is the involution $\sigma: (a,b) \mapsto (1-a, b)$.
 
-In $BC_2$, the double root $2e_i$ has multiplicity $m_{2\alpha} = 1$. This means: **exactly one involution per spectral direction.** Exactly one complementary partner per base. Watson-Crick IS the double root involution.
+In $B_2$, the double root $2e_i$ has multiplicity $m_{2\alpha} = 1$. This means: **exactly one involution per spectral direction.** Exactly one complementary partner per base. Watson-Crick IS the double root involution.
 
 **Why not two partners?** If $m_{2\alpha} > 1$, each base would have multiple complements. Error detection fails — a mismatch could be a valid alternative pairing. The geometry forbids this: $m_{2\alpha} = 1$ is fixed by the structure of $SO_0(5,2)$.
 
@@ -262,7 +262,7 @@ Recombination breaks the ratchet: two partially-damaged copies recombine to prod
 
 | Layer | Mechanism | Depth | Source | Cost |
 |-------|-----------|-------|--------|------|
-| 0 | Code structure | 0 | Geometry ($BC_2$) | Free |
+| 0 | Code structure | 0 | Geometry ($B_2$) | Free |
 | 0 | Chemical similarity | 0 | Cube metric | Free |
 | 1 | 2-strand redundancy | 0 | Involution ($m_{2\alpha}=1$) | 2× storage |
 | 1 | Diploidy | 0 | rank = 2 copies | 2× genome |
@@ -282,7 +282,7 @@ Nature cannot build a Layer 5. The depth ceiling (T421) says D ≤ 1 for all ope
 
 Any student of genetics learns early that the third position of a codon is "wobbly" — mutations there are usually silent, while mutations at positions one or two usually change the amino acid. This wobble tolerance is conventionally explained as an evolved optimization. But the root system already contains the answer: short roots have high multiplicity ($m_s = 3$), meaning high constraint and high specificity. Long roots have low multiplicity ($m_l = 1$), meaning low constraint — wobble. Position three is the long root. Wobble is not an optimization. It is a root hierarchy.
 
-The $BC_2$ root system has two root lengths:
+The $B_2$ root system has two root lengths:
 - **Short roots** ($e_1, e_2$): multiplicity $m_s = N_c = 3$
 - **Long roots** ($e_1 \pm e_2$): multiplicity $m_l = 1$
 
@@ -300,7 +300,7 @@ Observed silent mutation rates:
 
 The multiplicity ratio $m_s/m_l = 3/1$ predicts position 3 is $3\times$ more tolerant. The observed ratio (66.7% / average(4.2%, 1.0%) ≈ 25×) exceeds this because wobble acts multiplicatively through the degeneracy structure, not additively.
 
-**The wobble position is the long root.** This is not an evolutionary optimization — it is a consequence of the root hierarchy of $BC_2$.
+**The wobble position is the long root.** This is not an evolutionary optimization — it is a consequence of the root hierarchy of $B_2$.
 
 ---
 

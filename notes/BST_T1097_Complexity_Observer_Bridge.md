@@ -19,7 +19,7 @@ parents: "T317 (Observer Hierarchy), T421 (Depth-1 Ceiling), T996 (Clause Decorr
 
 **Theorem (T1097).** *The complexity ↔ observer interface is determined by rank and $f_c$:*
 
-*(a) **P $\neq$ NP = observer asymmetry.** An NP problem asks: "does a solution exist?" The solver must search; the verifier need only check. In BST: the solver explores the full $D_{IV}^5$ (dimension $n_C = 5$ over $\mathbb{C}$, real dimension 10); the verifier projects onto the rank-2 flat $\mathfrak{a}$. The dimensional gap $10 - 2 = 8 = 2^{N_c} = |W(BC_2)|$ IS the complexity gap. P $\neq$ NP because the observer's flat has strictly lower dimension than the ambient geometry.*
+*(a) **P $\neq$ NP = observer asymmetry.** An NP problem asks: "does a solution exist?" The solver must search; the verifier need only check. In BST: the solver explores the full $D_{IV}^5$ (dimension $n_C = 5$ over $\mathbb{C}$, real dimension 10); the verifier projects onto the rank-2 flat $\mathfrak{a}$. The dimensional gap $10 - 2 = 8 = 2^{N_c} = |W(B_2)|$ IS the complexity gap. P $\neq$ NP because the observer's flat has strictly lower dimension than the ambient geometry.*
 
 *(b) **Circuit depth = observation depth.** A Boolean circuit of depth $d$ performs $d$ sequential observations. The AC depth ceiling (T421: $D \leq 1$) says BST theorems need at most 1 sequential step. For computation: this means any BST-structured computation can be parallelized to depth 1 — but GENERAL computation cannot (that's P $\neq$ NC unless every problem admits BST structure, which it doesn't).*
 

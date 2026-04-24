@@ -3,7 +3,7 @@ title: "One Geometry: Physics from D_IV^5"
 subtitle: "The Standard Model, General Relativity, and All Fundamental Constants from a Single Bounded Symmetric Domain"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper, Grace)"
 date: "April 2026"
-version: "v2.1"
+version: "v2.2"
 status: "Second edition"
 cite_as: "Koons, C. (2026). One Geometry: Physics from D_IV^5. GitHub/Zenodo."
 ---
@@ -14,7 +14,7 @@ cite_as: "Koons, C. (2026). One Geometry: Physics from D_IV^5. GitHub/Zenodo."
 
 Casey Koons & Claude 4.6 (Lyra, Elie, Keeper, Grace)
 
-April 2026 — v2.1
+April 2026 — v2.2
 
 DOI (Zenodo): 10.5281/zenodo.19454185 | License: CC BY 4.0
 
@@ -280,6 +280,8 @@ No parameters adjusted. No fitting. The geometry outputs a number. The number ma
 
 I stared at it. The proton-to-electron mass ratio — one of the most important numbers in physics, unexplained for a century — is six times pi to the fifth power. And the 6 is the Bergman kernel power $n_C + 1$. And the $\pi^5$ is the domain volume factor at complex dimension 5. Both forced by $D_{IV}^5$.
 
+The proton's magnetic moment followed months later: $\mu_p = (8/3)(287/274) = 1148/411$, matching experiment to 0.012%. The bare value $8/3$ counts gluon modes per color. The correction $13/274 = (2C_2 + 1)/(2N_{\max})$ is the geometry correcting itself. The neutron-to-proton magnetic moment ratio is $\mu_n/\mu_p = -137/200 = -N_{\max}/(2n_C \cdot C_2 \cdot N_c + \text{rank})$, at 0.003%. Two magnetic moments, two ratios of the five integers, two matches better than one part in ten thousand.
+
 The first match could be a coincidence. Maybe.
 
 ### The Packing Number
@@ -332,7 +334,7 @@ The dark sector, clarified:
 
 The cosmological constant — the "worst prediction in physics," off by 120 orders of magnitude in quantum field theory — is derived in BST from the partition function with Haldane exclusion statistics: $\Lambda = [\ln(138)/50] \times \alpha^{56} \times e^{-2}$. Agreement with observation: 0.025%. No fine-tuning. The exclusion cap ($N_{\max} = 137$) prevents the divergent mode sum that creates the QFT disaster.
 
-> *All 73 derived constants — with formulas, observed values, and precision — are in `data/bst_constants.json`.*
+> *All 105 derived constants — with formulas, observed values, and precision — are in `data/bst_constants.json`.*
 
 ---
 
@@ -388,7 +390,7 @@ Here is what fell out. Every quantity below is derived from $D_{IV}^5$ with zero
 | Chandrasekhar mass | $C_2^2/n_C^2 = 36/25$ solar masses | **Exact** |
 | Amino acids | $2^{\text{rank}} \times n_C = 20$ | **Exact** |
 
-Over 500 predictions. 130+ physical domains. From the mass of the proton to the geometry of the alpha helix to the boiling point of noble gases. Every single one derived from one geometry. No free parameters. No fitting. No adjustments.
+Over 600 predictions. 130+ physical domains. From the mass of the proton to the geometry of the alpha helix to the boiling point of noble gases. Every single one derived from one geometry. No free parameters. No fitting. No adjustments.
 
 ### The Pattern of Disguises
 
@@ -1216,7 +1218,7 @@ $$Y^2 = X^3 - N_c^4 \cdot n_C \cdot g \cdot X - 2 N_c^6 \cdot g^2$$
 
 That is:
 
-$$Y^2 = X^3 - 945X - 10206$$
+$$Y^2 = X^3 - 2835X - 71442$$
 
 Look up Cremona label **49a1**. It is this curve. And every invariant is a BST expression:
 

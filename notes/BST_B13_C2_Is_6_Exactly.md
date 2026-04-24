@@ -31,7 +31,7 @@ Five roads. One integer. **C₂ = 6 is not adjustable.**
 
 ## The Five-Route Derivation
 
-**Route 1 — Gauss-Bonnet (T1277 Route A).** The compact dual of D_IV^5 is D̂ = SO(7)/[SO(5) × SO(2)]. Its restricted Weyl group is |W(BC₂)| = 48. The restricted isotropy action has order 8. Hirzebruch: χ(D̂) = 48/8 = **6**. (Toy 1214, 14/14 PASS.)
+**Route 1 — Gauss-Bonnet (T1277 Route A).** The compact dual of D_IV^5 is D̂ = SO(7)/[SO(5) × SO(2)]. Its restricted Weyl group is |W(B₂)| = 48. The restricted isotropy action has order 8. Hirzebruch: χ(D̂) = 48/8 = **6**. (Toy 1214, 14/14 PASS.)
 
 **Route 2 — Bernoulli (T1277 Route B, T1263).** B₂ = 1/6 (von Staudt-Clausen). denom(B₂) = **6**. This integer gates the Wolstenholme congruence that forces N_max = 137 via the BST primes {5, 7}: W_p = 1 only at p ∈ {n_C, g}, congruences mod denom(B₂) = 6.
 
@@ -59,7 +59,7 @@ No route derives the integer from any other route. Each starts from independent 
 
 ## What the Field Believes
 
-The Casimir invariant C₂ = 6 of BC₂ is a classification datum — a number that labels the Lie algebra. It is not considered to have multiple independent derivations, nor to play structural roles beyond representation theory.
+The Casimir invariant C₂ = 6 of B₂ is a classification datum — a number that labels the Lie algebra. It is not considered to have multiple independent derivations, nor to play structural roles beyond representation theory.
 
 ---
 

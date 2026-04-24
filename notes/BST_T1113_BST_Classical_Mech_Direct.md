@@ -6,7 +6,7 @@ theorem: "T1113"
 ac_classification: "(C=1, D=0)"
 status: "Proved — structural identification"
 origin: "Bottleneck: bst_physics↔classical_mech through T186 only (4 edges). Alternative route needed."
-parents: "T186 (Five Integers), T1101 (Classical Mechanics from Geodesics), T110 (BC_2 Filter)"
+parents: "T186 (Five Integers), T1101 (Classical Mechanics from Geodesics), T110 (B_2 Filter)"
 ---
 
 # T1113: BST-Classical Mechanics Direct Bridge — Five Integers in Hamilton's Equations

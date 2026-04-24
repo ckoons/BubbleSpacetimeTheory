@@ -11,7 +11,7 @@ parents: "T699 (Chemistry from D_IV^5), T836 (N_max), T1068 (Crystallographic Cl
 
 # T1106: Chemistry-Number Theory Bridge — Chemical Groups ARE BST Integers
 
-*The periodic table's structure is number theory. The period lengths {2, 8, 8, 18, 18, 32, 32} are $2n^2$ for $n = 1, 2, 2, 3, 3, 4, 4$ — the sequence $2n^2$ evaluated at the $BC_2$ root multiplicities. The 18 groups of the periodic table equal $2 \times N_c^2 = 18$. Noble gas electron counts {2, 10, 18, 36, 54, 86} are cumulative sums of $2n^2$ — and $N_{\max} = 137$ gives the theoretical maximum element.*
+*The periodic table's structure is number theory. The period lengths {2, 8, 8, 18, 18, 32, 32} are $2n^2$ for $n = 1, 2, 2, 3, 3, 4, 4$ — the sequence $2n^2$ evaluated at the $B_2$ root multiplicities. The 18 groups of the periodic table equal $2 \times N_c^2 = 18$. Noble gas electron counts {2, 10, 18, 36, 54, 86} are cumulative sums of $2n^2$ — and $N_{\max} = 137$ gives the theoretical maximum element.*
 
 ---
 
@@ -19,7 +19,7 @@ parents: "T699 (Chemistry from D_IV^5), T836 (N_max), T1068 (Crystallographic Cl
 
 **Theorem (T1106).** *The chemistry ↔ number theory interface is determined by BST:*
 
-*(a) **Period lengths.** The periodic table has period lengths $\{2, 8, 8, 18, 18, 32, 32\} = \{2 \times 1^2, 2 \times 2^2, 2 \times 2^2, 2 \times 3^2, 2 \times 3^2, 2 \times 4^2, 2 \times 4^2\}$. The formula $2n^2$ comes from the degeneracy of the hydrogen atom: $n$ = principal quantum number, $2n^2$ states per shell. In BST: the factor 2 = rank (spin degeneracy) and $n^2$ counts the orbital degeneracy of a rank-2 spectral system. The doubling pattern (each length appears twice except the first) reflects $BC_2$: the two root lengths give two copies.*
+*(a) **Period lengths.** The periodic table has period lengths $\{2, 8, 8, 18, 18, 32, 32\} = \{2 \times 1^2, 2 \times 2^2, 2 \times 2^2, 2 \times 3^2, 2 \times 3^2, 2 \times 4^2, 2 \times 4^2\}$. The formula $2n^2$ comes from the degeneracy of the hydrogen atom: $n$ = principal quantum number, $2n^2$ states per shell. In BST: the factor 2 = rank (spin degeneracy) and $n^2$ counts the orbital degeneracy of a rank-2 spectral system. The doubling pattern (each length appears twice except the first) reflects $B_2$: the two root lengths give two copies.*
 
 *(b) **Group count.** There are 18 groups = $2N_c^2 = 2 \times 9 = 18$. This is the number of columns because the maximum angular momentum quantum number in the valence shell is $\ell \leq N_c = 3$ (s, p, d, f for $\ell = 0, 1, 2, 3$), giving $\sum_{\ell=0}^{N_c-1} (2\ell+1) = N_c^2 = 9$ orbitals, each with rank = 2 spin states.*
 

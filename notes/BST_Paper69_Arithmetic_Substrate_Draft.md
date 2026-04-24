@@ -318,7 +318,7 @@ The ρ-complement identity (§4.3) adds a new derivation route:
 |:------|:------------|:---------|
 | 1 | N_c³ · n_C + rank = 135 + 2 | Arithmetic |
 | 2 | 33rd prime, 33 = N_c · (2n_C+1) | Prime counting |
-| 3 | Gauss-Bonnet via BC_2 | Topology |
+| 3 | Gauss-Bonnet via B_2 | Topology |
 | 4 | Field discriminant via ℚ(φ,ρ) | Ring theory |
 | 5 | p_{C(g,2)} + rank^{C_2} = 73 + 64 | ρ-complement |
 

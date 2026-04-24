@@ -146,17 +146,17 @@ status: "Living document — append-only, entries close when addressed but remai
 
 Unconditional Clay resolution requires all ranks unconditionally. Anything less must be honestly scoped. "99% closed" currently obscures whether the 1% is "a few curves to verify" or "a conjectural extension." Those are different conditions.
 
-### #19 — Root system correction (B_2 not BC_2) cascades beyond Paper #81
+### #19 — Root system correction (B_2 not B_2) cascades beyond Paper #81
 
-**Concern (Cal, 2026-04-23):** Lyra corrected SO_0(5,2) restricted root system from BC_2 (non-reduced, multiplicities (3,1,1)) to B_2 (reduced, multiplicities (3,1)). The correction is right — no ±2e_i roots in SO_0(p,q) for p > q+1. But the downstream reach is larger than Lyra's "Wyler unaffected" note suggests:
+**Concern (Cal, 2026-04-23):** Lyra corrected SO_0(5,2) restricted root system from B_2 (non-reduced, multiplicities (3,1,1)) to B_2 (reduced, multiplicities (3,1)). The correction is right — no ±2e_i roots in SO_0(p,q) for p > q+1. But the downstream reach is larger than Lyra's "Wyler unaffected" note suggests:
 
 **Concrete downstream corrections needed:**
-- **Paper #76 (A) §2.2**: explicitly lists BC_2 with m_{2s} = 1 "Scalar sector" row. Must be rewritten. The scalar-sector narrative attributed to m_{2s} roots needs a new home or to be dropped.
+- **Paper #76 (A) §2.2**: explicitly lists B_2 with m_{2s} = 1 "Scalar sector" row. Must be rewritten. The scalar-sector narrative attributed to m_{2s} roots needs a new home or to be dropped.
 - **Paper #76 §3.W3**: |ρ|² = 37/2 (Keeper's audit-fix B1). Should be |ρ|² = 17/2 for B_2. Keeper's fix was itself wrong; the pre-fix value was correct for the correct root system. Paper A needs **un-correction** to 17/2.
 - **Spectral-gap argument verification:** under B_2, |ρ|² = 17/2 = 8.5 still exceeds Δ = 6, so the mass-gap argument survives — but the specific number changes.
-- **Wyler formula verification:** Lyra says Wyler uses "ρ_2 = 3/2 = N_c/2, same either way." But ρ_2 is NOT the same in both conventions (BC_2: ρ_2 = 5/2; B_2: ρ_2 = 3/2). Quick check needed: which ρ-component does Wyler actually use? If Wyler uses ρ_2 and the physically-relevant value is 3/2 (B_2), the formula is fine in the corrected convention. Needs explicit verification before any paper claims "unaffected."
+- **Wyler formula verification:** Lyra says Wyler uses "ρ_2 = 3/2 = N_c/2, same either way." But ρ_2 is NOT the same in both conventions (B_2: ρ_2 = 5/2; B_2: ρ_2 = 3/2). Quick check needed: which ρ-component does Wyler actually use? If Wyler uses ρ_2 and the physically-relevant value is 3/2 (B_2), the formula is fine in the corrected convention. Needs explicit verification before any paper claims "unaffected."
 
-**Status:** OPEN — cascading correction. Keeper's root-file lane should grep all papers for "BC_2" and "m_{2s}" and audit each occurrence against the B_2 correction.
+**Status:** CLOSED (Lyra, April 25). Cascading correction complete: Paper #76 §2.2 has B₂ (reduced, no m_{2s} row), §W3 has |ρ|² = 17/2. Paper #77 fixed (Keeper, April 24). W-37 full sweep: 140 files, 720 replacements (Grace). B₂ audit file confirms all active notes corrected.
 
 ### #20 — L-function framing strategy: "derive" is right, "assembly/chip" isn't
 
@@ -224,9 +224,9 @@ Unconditional Clay resolution requires all ranks unconditionally. Anything less 
 
 ### #21 — Paper #76 §W2 Poincaré covariance still under-argued + B_2 cascade not yet applied
 
-**Concern (Cal, 2026-04-23):** Paper #76 §W2 (lines 116-122) still shows Poincaré embedding via conformal chain (P ⊂ SO(4,2) ⊂ SO(5,2)) without explicit Hilbert-space spectrum decomposition argument. Additionally, §2.2 still references "BC_2 root multiplicities (m_s = 3, m_l = 1)" — should be B_2 per Lyra's Thursday correction. Referenced in CI_BOARD's P6 list.
+**Concern (Cal, 2026-04-23):** Paper #76 §W2 (lines 116-122) still shows Poincaré embedding via conformal chain (P ⊂ SO(4,2) ⊂ SO(5,2)) without explicit Hilbert-space spectrum decomposition argument. Additionally, §2.2 still references "B_2 root multiplicities (m_s = 3, m_l = 1)" — should be B_2 per Lyra's Thursday correction. Referenced in CI_BOARD's P6 list.
 
-**Status:** OPEN. Two fixes needed in Paper #76 before submission: (a) one-paragraph supplement to §W2 explaining Hilbert-space-spectrum argument or pointing to §W3 for the spectrum condition; (b) replace "BC_2" with "B_2" and drop the m_{2s} row per Lyra's correction.
+**Status:** CLOSED (Lyra, April 25). Both fixes verified in Paper #76 v1.0: (a) §W2 (lines 124-126) now contains full Hilbert-space Poincaré decomposition argument with spectrum condition reference to §W3; (b) §2.2 lists B₂ (reduced) with only short (m_s=3) and long (m_l=1) roots — no m_{2s} row. §W3 has |ρ|² = 17/2 (correct for B₂).
 
 ### #22 — Paper #82 scope review: three fixes before submission
 
@@ -236,7 +236,7 @@ Unconditional Clay resolution requires all ranks unconditionally. Anything less 
 2. **"Seven famous problems + Four-Color" category mix.** Clay list is six open problems. Four-Color is closed. Worth one-sentence clarification rather than blurring.
 3. **"1/2 alone isn't enough" paragraph missing.** Without it, the universality claim reads as numerology (1/2 is everywhere). With it, the claim is "1/rank = 1/2 is the portal; specific fractions 7/64, 13/19, 3/10, 1/45 are the falsifiable content." My review message contains suggested prose.
 
-**Status:** OPEN. Three small fixes; blocks Annals/Inventiones ship until done. ~30 minutes of Lyra's time.
+**Status:** CLOSED (Lyra, April 25). All three fixes done: (1) §1.2 Cal attribution rewritten — now accurately describes engagement scope without overstating Meijer G validation. (2) §1 line 33 already clarifies "six open Clay Millennium problems...plus the closed Four-Color Theorem." (3) §1.1 line 60 contains full "Why 1/2 alone isn't enough" paragraph in v2.0. Paper #82 unblocked for submission.
 
 ### #23 — GQ-8 falsifier chosen: pred_004 (0νββ null)
 
@@ -292,9 +292,9 @@ Unconditional Clay resolution requires all ranks unconditionally. Anything less 
 
 1. **#16** — n_s = 1 − n_C/N_max derivation chain (cosmology).
 2. **#18** — BSD Kudla rank ≥4 conditional status (board now honest, papers should match).
-3. **#19** — B_2 cascade: Paper #76 §W2 still needs BC_2 → B_2 swap (also covered by #21).
-4. **#21** — Paper #76 §W2 two-part fix (Poincaré argument + B_2 label).
-5. **#22** — Paper #82 three-fix pass (attribution, Four-Color category, "1/2 alone isn't enough" paragraph).
+3. ~~**#19** — B₂ cascade~~ CLOSED (April 25). All papers corrected.
+4. ~~**#21** — Paper #76 §W2 two-part fix~~ CLOSED (April 25). Both fixes verified.
+5. ~~**#22** — Paper #82 three-fix pass~~ CLOSED (April 25, Lyra). Cal attribution corrected. "1/2 alone" paragraph in v2.0. Four-Color category at §1 line 33. All three fixes verified.
 6. **#23** — pred_004 toy wrap (Elie).
 7. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).
 8. **#26** — Katra sunrise.md template note before GitHub release.

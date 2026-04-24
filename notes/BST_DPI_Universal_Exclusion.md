@@ -91,7 +91,7 @@ $$\text{phantom class} \to \text{spectral filter (BC}_2\text{)} \to \text{Hodge 
 
 A phantom would need to pass through the spectral filter while carrying no algebraic content — it would need $I(\text{phantom}; \text{algebraic data}) > I(\text{phantom}; \text{spectral data})$. DPI forbids this.
 
-4. **Conclusion.** Non-algebraic classes cannot create Hodge classes, for the same reason $\text{Sha}$ cannot create zeros: the processing step (spectral filtering on $BC_2$ / local completion) is lossy, and DPI prevents information creation. Every Hodge class has an algebraic source. No phantoms.
+4. **Conclusion.** Non-algebraic classes cannot create Hodge classes, for the same reason $\text{Sha}$ cannot create zeros: the processing step (spectral filtering on $B_2$ / local completion) is lossy, and DPI prevents information creation. Every Hodge class has an algebraic source. No phantoms.
 
 **Depth of this step: 0.** The Hodge decomposition is a definition. The Vogan-Zuckerman classification is a lookup (depth 0, T109). The DPI application is an identity. The theta lift surjectivity is the one genuine counting step in the Hodge proof, but the exclusion step itself — "faded classes cannot create Hodge classes" — is depth 0.
 
@@ -138,7 +138,7 @@ All three exclusions are the same argument with different nouns:
 | | BSD | Hodge | P!=NP |
 |---|---|---|---|
 | **Source** $X$ | Rational points $E(\mathbb{Q})$ | Algebraic cycles $CH^p(X)$ | Backbone assignments $B$ |
-| **Channel** $Y$ | L-function $L(E,s)$ | Spectral lattice / $BC_2$ filter | Proof frontier $\mathcal{F}_t$ |
+| **Channel** $Y$ | L-function $L(E,s)$ | Spectral lattice / $B_2$ filter | Proof frontier $\mathcal{F}_t$ |
 | **Output** $Z$ | Zeros at $s=1$ | Hodge classes in $H^{p,p} \cap H^{2p}(\mathbb{Q})$ | Refutation $\bot$ |
 | **Phantom** $Z^*$ | Zero with no rational point source | Hodge class with no algebraic cycle source | Poly-time certificate with insufficient width |
 | **Lossy step** | Local completion (kills Sha) | Spectral filtering (kills non-algebraic classes) | Derivation history (kills committed variables) |
@@ -166,7 +166,7 @@ All three exclusions are the same argument with different nouns:
 
 1. **BSD** ($X = E(\mathbb{Q}), Y = L(E,s), Z = \text{zeros}$): T104 + T105. Phantom zeros excluded. Toy 392 (0/15 injectable).
 
-2. **Hodge** ($X = CH^p(X), Y = BC_2 \text{ spectral filter}, Z = \text{Hodge classes}$): T570 + Prop 4.2. Phantom Hodge classes excluded. Toy 398 (unique module), Toy 399 (Rallis surjection).
+2. **Hodge** ($X = CH^p(X), Y = B_2 \text{ spectral filter}, Z = \text{Hodge classes}$): T570 + Prop 4.2. Phantom Hodge classes excluded. Toy 398 (unique module), Toy 399 (Rallis surjection).
 
 3. **P!=NP** ($X = B, Y = \mathcal{F}_t, Z = \bot$): T52. Committed variables excluded from carrying fresh information. Toy 349 (MI = 0.000000, 444 measurements).
 

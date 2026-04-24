@@ -194,8 +194,8 @@ The census is documented in full in the companion note *The Overdetermination Ce
 
 | BST integer | Value | Independent routes | Representative sources | Coincidence bound |
 |:-----------:|:-----:|:------------------:|:-----------------------|:-----------------:|
-| rank | 2 | 5 | (i) restricted root rank of D_IV^5, (ii) BC_2 definition, (iii) qubit basis (T1239), (iv) Pauli spin, (v) rank of compact part | p ≤ 10⁻⁴ |
-| N_c | 3 | 7 | (i) quark colors, (ii) three readings (T1253), (iii) three boundaries (T1185), (iv) three siblings (T1047), (v) Hamming distance (T1171), (vi) PMNS flavors (T1255), (vii) m_s(BC_2) = N_c = 3 (short-root multiplicity) | p ≤ 10⁻⁶ |
+| rank | 2 | 5 | (i) restricted root rank of D_IV^5, (ii) B_2 definition, (iii) qubit basis (T1239), (iv) Pauli spin, (v) rank of compact part | p ≤ 10⁻⁴ |
+| N_c | 3 | 7 | (i) quark colors, (ii) three readings (T1253), (iii) three boundaries (T1185), (iv) three siblings (T1047), (v) Hamming distance (T1171), (vi) PMNS flavors (T1255), (vii) m_s(B_2) = N_c = 3 (short-root multiplicity) | p ≤ 10⁻⁶ |
 | n_C | 5 | 7 | (i) D_IV^5 complex dimension, (ii) pentatonic (T1237), (iii) n_C! = 120 in 137 decomp, (iv) visible spectrum bands, (v) median graph degree (T1196), (vi) 5 mass extinctions (T1182), (vii) 5 nucleobases | p ≤ 10⁻⁶ |
 | **C_2** | **6** | 4 | (i) Gauss-Bonnet χ(SO(7)/[SO(5)×SO(2)]) = 48/8 (T1277 Route A), (ii) Casimir definition, (iii) denom(B_2) gatekeeping Wolstenholme (T1263; T1277 Route B), (iv) k = 6 silent column in heat-kernel Arithmetic Triangle (T531; T1277 Route C) | p ≤ 10⁻⁵ |
 | g | 7 | 7 | (i) Bergman genus of D_IV^5, (ii) Hamming code length (T1171), (iii) rank² + N_c (Mersenne), (iv) diatonic count (T1227), (v) crystal systems, (vi) Debye temperature of copper (T1139), (vii) PMNS sin²θ₂₃ = 4/g (T1254) | p ≤ 10⁻⁶ |

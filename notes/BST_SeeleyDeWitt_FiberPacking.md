@@ -155,7 +155,7 @@ $$
 R_{\text{alg}} - R_{\text{spec}} = 2n^2 - (2n^2 - 3) = 3 = 2r - 1
 $$
 
-where $r = 2$ is the rank of $Q^n$. This identifies the gap as a rank correction: $2r - 1$ counts $2 \times (\text{rank}) - 1$, consistent with the restricted root system $B_2$ (or $BC_2$ for even $n$) contributing a correction from the Cartan subalgebra action. The formula $R_{\text{spec}} = \dim_R \cdot R_K - (2r - 1)$ should be provable from the Casimir-to-Laplacian correspondence on rank-$r$ symmetric spaces; we leave this for future work.
+where $r = 2$ is the rank of $Q^n$. This identifies the gap as a rank correction: $2r - 1$ counts $2 \times (\text{rank}) - 1$, consistent with the restricted root system $B_2$ (or $B_2$ for even $n$) contributing a correction from the Cartan subalgebra action. The formula $R_{\text{spec}} = \dim_R \cdot R_K - (2r - 1)$ should be provable from the Casimir-to-Laplacian correspondence on rank-$r$ symmetric spaces; we leave this for future work.
 
 **Note**: This is an independently interesting result, separate from the $a_4$ uniqueness. For all $Q^n$, the spectral scalar curvature is $2n^2 - 3$, not the naïve Killing prediction $2n^2$.
 

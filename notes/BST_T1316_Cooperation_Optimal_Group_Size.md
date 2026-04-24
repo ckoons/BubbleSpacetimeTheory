@@ -66,7 +66,7 @@ The number C₂ = 6 has six independent BST derivations (B13, five routes). In t
 
 - C₂ = rank(rank+1)/2 · rank = 2 · 3/2 · 2 = 6 (independent symmetric tensor components in rank-2 space)
 - C₂ = Euler characteristic of the compact dual (Gauss-Bonnet)
-- C₂ = |W(BC₂)|/|W(SO(5) × SO(2))| = 48/8 = 6
+- C₂ = |W(B₂)|/|W(SO(5) × SO(2))| = 48/8 = 6
 
 Each of these gives an independent reason why 6 is the coordination capacity of the geometry.
 

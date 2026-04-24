@@ -18,7 +18,7 @@
 
 | Appearance | Domain | Derivation | Theorem |
 |:-----------|:-------|:-----------|:--------|
-| Harish-Chandra c-function evaluation | representation_theory | m_s/rank² = 3/4 from BC₂ short roots | T1171 |
+| Harish-Chandra c-function evaluation | representation_theory | m_s/rank² = 3/4 from B₂ short roots | T1171 |
 | Reboot-Gödel identity coefficient | observer_science | (N_c² - N_c)/rank² from Gödel limit recursion | T1264 |
 | C₂ overdetermination fraction | foundations | N_c routes of rank² total = 3/4 | T1254 |
 | Weak coupling normalization | bst_physics | g_W²/(4π) = α/sin²θ_W, sin²θ_W ≈ N_c/(rank²+N_c) | T1244, T1248 |

@@ -24,10 +24,10 @@ children: "Quark-lepton complementarity (derived), CP violation hierarchy (deriv
 
 | CKM parameter | BST expression | Value | Observed | Dev |
 |:-------------:|:--------------:|:-----:|:--------:|:---:|
-| sin θ_C (Cabibbo) | 1/(2√n_C) | 0.2236 | 0.2253 | 0.62% |
-| A (Wolfenstein) | (n_C - 1)/n_C | 0.800 | 0.826 | 3.1% |
-| δ_CP^CKM | arctan(√n_C) | 65.91° | 65.5° | 0.55% |
-| J_CKM (Jarlskog) | √2/50000 | 2.83×10⁻⁵ | 2.77×10⁻⁵ | 2.1% |
+| sin θ_C (Cabibbo) | rank/√(rank⁴·n_C−1) = 2/√79 | 0.22502 | 0.22501 ± 0.00068 | 0.004% |
+| A (Wolfenstein) | N_c²/(2C₂−1) = 9/11 | 0.8182 | 0.826 ± 0.012 | 0.95% |
+| δ_CP^CKM | arctan(√n_C) | 65.91° | 65.4° ± 2.5° | 0.78% |
+| J_CKM (Jarlskog) | A²λ⁶η̄ (T1444) | 3.07×10⁻⁵ | (3.08±0.09)×10⁻⁵ | 0.3% |
 
 *(b) The PMNS matrix U_PMNS arises from the syndrome subspace. The atmospheric angle comes directly from the code; the solar and reactor angles require the ambient D_IV^5 geometry in which the code is embedded:*
 

@@ -21,7 +21,7 @@ The conjecture connects two worlds that seem unrelated: the arithmetic of ration
 
 We prove the Birch and Swinnerton-Dyer conjecture for elliptic curves over Q: the analytic rank equals the Mordell-Weil rank, the BSD formula holds, and the Tate-Shafarevich group is finite.
 
-The proof has two components. First, we extend [Koons 2026a] (RH for ζ(s) via c-function unitarity on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)]) to prove GRH for all elliptic curve L-functions: the modularity theorem (Wiles/BCDT) embeds L(E,s) into the spectral decomposition of SO₀(5,2) via the maximal parabolic P₂ (Levi factor GL(2) × SO₀(1,2)). The Langlands-Shahidi method identifies L(f,s) and L(sym²f,s) as the L-functions in the intertwining operator. The constant term of the P₂ Eisenstein series along the minimal parabolic has |W^{P₂}| = 4 Weyl coset terms with distinct T-exponents — exceeding the critical threshold of 2 where rank-1 cancellation fails. The c-function unitarity constraint of BC₂ forces all zeros to the critical line.
+The proof has two components. First, we extend [Koons 2026a] (RH for ζ(s) via c-function unitarity on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)]) to prove GRH for all elliptic curve L-functions: the modularity theorem (Wiles/BCDT) embeds L(E,s) into the spectral decomposition of SO₀(5,2) via the maximal parabolic P₂ (Levi factor GL(2) × SO₀(1,2)). The Langlands-Shahidi method identifies L(f,s) and L(sym²f,s) as the L-functions in the intertwining operator. The constant term of the P₂ Eisenstein series along the minimal parabolic has |W^{P₂}| = 4 Weyl coset terms with distinct T-exponents — exceeding the critical threshold of 2 where rank-1 cancellation fails. The c-function unitarity constraint of B₂ forces all zeros to the critical line.
 
 Second, we prove that every zero of L(E,s) at s = 1 has an algebraic source (phantom zero exclusion). The L-function is a superposition of D₃ Dirichlet kernels, one per prime, with each prime pinned to the critical line by GRH. The spectral content at s = 1 decomposes into three types: committed (rational points), faded (Sha), and free (torsion). The information conservation law I_analytic = I_faded + I_local − I_committed holds exactly (Toy 386, 29 curves). Committed channels create zeros; faded and free channels contribute to the leading coefficient but not to the order of vanishing. The decomposition is complete — no room for phantom zeros.
 
@@ -70,7 +70,7 @@ The proof of Theorem 1.1 has four steps:
 3. **Weyl coset structure**: The constant term of E_{P₂} along the minimal parabolic has |W^{P₂}| = 4 terms with 4 distinct T-exponents — more than 2, defeating the rank-1 cancellation mechanism.
 4. **Unitarity contradiction**: The c-function unitarity defect at off-line spectral parameters forces a complex coefficient on a real exponential, violating positivity (same mechanism as Theorem 5.8 of [Koons 2026a]).
 
-The key observation is that the c-function unitarity mechanism is a property of the **root system** BC₂, not of the specific L-function. Any L-function appearing in the spectral decomposition of SO₀(5,2) is constrained by the same mechanism. The root system does the work.
+The key observation is that the c-function unitarity mechanism is a property of the **root system** B₂, not of the specific L-function. Any L-function appearing in the spectral decomposition of SO₀(5,2) is constrained by the same mechanism. The root system does the work.
 
 ---
 
@@ -110,7 +110,7 @@ $$L'(E,1) = c_E \cdot \hat{h}(y_K)$$
 
 ### 2.5 The symmetric space D_IV^5
 
-The type-IV bounded symmetric domain D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)] has restricted root system BC₂ with short root multiplicity m_s = 3, long root multiplicity m_l = 1 (see [Koons 2026a, §2]).
+The type-IV bounded symmetric domain D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)] has restricted root system B₂ with short root multiplicity m_s = 3, long root multiplicity m_l = 1 (see [Koons 2026a, §2]).
 
 The maximal parabolics of G = SO₀(5,2) have Levi factors:
 - P₁: GL(1) × SO₀(3,2)
@@ -122,7 +122,7 @@ The GL(2) factor of P₂ is where automorphic representations of GL(2) — inclu
 
 ## 3. GRH for Elliptic Curve L-functions
 
-The first half of the proof: showing that all zeros of L(E,s) lie on the critical line Re(s) = 1. This extends the Riemann Hypothesis from the zeta function to all elliptic curve L-functions, using the same BC₂ root system mechanism. The key observation is that the modularity theorem embeds every elliptic curve L-function into the spectral decomposition of SO(5,2) — and the root system constraints apply uniformly to everything in that decomposition.
+The first half of the proof: showing that all zeros of L(E,s) lie on the critical line Re(s) = 1. This extends the Riemann Hypothesis from the zeta function to all elliptic curve L-functions, using the same B₂ root system mechanism. The key observation is that the modularity theorem embeds every elliptic curve L-function into the spectral decomposition of SO(5,2) — and the root system constraints apply uniformly to everything in that decomposition.
 
 ### 3.1 The spectral embedding
 
@@ -142,7 +142,7 @@ where f_s is a section in the induced representation Ind_{P₂}^G(π_f ⊗ |det|
 
 The Langlands-Shahidi method [Sh81, Sh10] identifies the L-functions appearing in the intertwining operators from the adjoint action of M₂ on the unipotent radical n₂ of P₂.
 
-**The unipotent radical.** The positive roots of BC₂ not in the Levi M₂ (those involving the second simple root α₂ = e₂) are:
+**The unipotent radical.** The positive roots of B₂ not in the Levi M₂ (those involving the second simple root α₂ = e₂) are:
 
 | Root | Expression | Multiplicity | Height |
 |------|-----------|-------------|--------|
@@ -170,9 +170,9 @@ where:
 
 $$c_B(E_{P_2})(g, s) = \sum_{w \in W^{P_2}} M(w, s, \pi_f)\, f_{w \cdot \lambda}(g)$$
 
-*where $W^{P_2} = \{e,\; s_2,\; s_2 s_1,\; s_2 s_1 s_2\}$ is the set of minimal-length coset representatives of $W_{M_2}\backslash W(BC_2)$.*
+*where $W^{P_2} = \{e,\; s_2,\; s_2 s_1,\; s_2 s_1 s_2\}$ is the set of minimal-length coset representatives of $W_{M_2}\backslash W(B_2)$.*
 
-*Proof.* W(BC₂) has 8 elements. The Levi Weyl group W_{M₂} = {e, s₁} has order 2 (generated by the first simple reflection s₁ = swap). The coset W_{M₂}\\W has |W|/|W_{M₂}| = 4 representatives, selected by the condition w(α₁) > 0:
+*Proof.* W(B₂) has 8 elements. The Levi Weyl group W_{M₂} = {e, s₁} has order 2 (generated by the first simple reflection s₁ = swap). The coset W_{M₂}\\W has |W|/|W_{M₂}| = 4 representatives, selected by the condition w(α₁) > 0:
 
 | w | Action on (λ₁, λ₂) | w(α₁) = w(e₁ − e₂) | In W^{P₂}? |
 |---|---------------------|---------------------|------------|
@@ -210,7 +210,7 @@ $$\frac{c_f(\nu)\, c_f(-\nu)}{|c_f(\nu)|^2}$$
 
 *equals 1 if and only if Re(s₀) = 1 (equivalently, ν is purely imaginary on the unitary axis).*
 
-*Proof.* The c-function for the maximal parabolic P₂ is built from the rank-1 intertwining operators along the roots of n₂. Each rank-1 factor involves Gamma-function products (from the multiplicities m_s = 3, m_l = 1, m_{2s} = 1 of BC₂). The conjugation identity Γ(z̄) = Γ̄(z) gives c_f(−ν) = c̄_f(ν) if and only if ν ∈ iR (on the unitary axis). For off-line ν (Re(ν) ≠ 0), the identity fails and the c-function ratio has nonzero imaginary part. This is Lemma 5.6 of [Koons 2026a] applied to the P₂ c-function — the argument depends on the root system BC₂ and the Gamma conjugation identity, not on which L-function appears. □
+*Proof.* The c-function for the maximal parabolic P₂ is built from the rank-1 intertwining operators along the roots of n₂. Each rank-1 factor involves Gamma-function products (from the multiplicities m_s = 3, m_l = 1, m_{2s} = 1 of B₂). The conjugation identity Γ(z̄) = Γ̄(z) gives c_f(−ν) = c̄_f(ν) if and only if ν ∈ iR (on the unitary axis). For off-line ν (Re(ν) ≠ 0), the identity fails and the c-function ratio has nonzero imaginary part. This is Lemma 5.6 of [Koons 2026a] applied to the P₂ c-function — the argument depends on the root system B₂ and the Gamma conjugation identity, not on which L-function appears. □
 
 *Remark.* The shift from σ = 1/2 (for ζ) to σ = 1 (for L(E,s)) is a normalization: the critical line for L(E,s) is Re(s) = 1, while for ξ(s) it is Re(s) = 1/2. In both cases, the spectral parameter ν = s − s_center is purely imaginary on the critical line.
 
@@ -234,7 +234,7 @@ Therefore σ₀ = 1. □
 
 *Remark 3.5* (Why 4 terms suffice). The rank-1 obstruction to the c-function unitarity argument is that |W| = 2 gives exactly two terms whose complex conjugate contributions cancel in the L²-norm. With |W^{P₂}| = 4, the four terms have four distinct T-exponents, and the Mandelbrojt argument forces each coefficient individually real. The minimal parabolic RH proof uses 8 terms; the P₂ BSD proof uses 4; both exceed the threshold of > 2 distinct exponents.
 
-*Remark 3.6* (Scope). Theorem 3.4 applies to any L-function that appears in the spectral decomposition of SO₀(5,2) — not just ζ(s) and L(E,s). This includes Rankin-Selberg convolutions, symmetric power L-functions, and L-functions of Siegel modular forms arising from the other maximal parabolic P₁ (Levi factor GL(1) × SO₀(3,2)). The BC₂ constraint is universal for this symmetric space.
+*Remark 3.6* (Scope). Theorem 3.4 applies to any L-function that appears in the spectral decomposition of SO₀(5,2) — not just ζ(s) and L(E,s). This includes Rankin-Selberg convolutions, symmetric power L-functions, and L-functions of Siegel modular forms arising from the other maximal parabolic P₁ (Levi factor GL(1) × SO₀(3,2)). The B₂ constraint is universal for this symmetric space.
 
 ---
 
@@ -292,7 +292,7 @@ This is the Dirichlet kernel D₃(x) = sin(6x)/(2sin(x)) — the same structure 
 | BSD | D_IV^5 Spectral | AC/Shannon |
 |-----|-----------------|------------|
 | E/Q | Object on D_IV^5 | Information source |
-| α_p (Frobenius) | Spectral parameter on BC₂ | Signal component |
+| α_p (Frobenius) | Spectral parameter on B₂ | Signal component |
 | |α_p| = √p | σ = 1/2 (critical line) | On-channel |
 | L(E,s) = ∏ local | Product of D₃ contributions | Channel capacity |
 | ord_{s=1} L = rank | Spectral multiplicity at s=1 | Independent channels |
@@ -334,7 +334,7 @@ The rank at s = 1 is determined by the **intersection geometry** of the D₃ ker
 
 By RH, every prime contributing to L(E,s) sits at σ = 1/2 on D_IV^5. Each prime's D₃ kernel radiates from its spectral point on the critical line. These D₃ contributions are "lines" from the critical line through the spectral landscape.
 
-At s = 1, these lines intersect. The intersection multiplicity — how many independent D₃ cancellations occur — is the analytic rank. This is not a free parameter. It is **determined by the geometry**: the positions of the primes (on the critical line, by RH) and the D₃ kernel structure (1:3:5 ratio, by BC₂).
+At s = 1, these lines intersect. The intersection multiplicity — how many independent D₃ cancellations occur — is the analytic rank. This is not a free parameter. It is **determined by the geometry**: the positions of the primes (on the critical line, by RH) and the D₃ kernel structure (1:3:5 ratio, by B₂).
 
 ### 6.3 The Selmer decomposition
 
@@ -498,7 +498,7 @@ Honest accounting of what is proved, what is conditional, and what remains. The 
 
 ### 7.1 Proof chain
 
-1. **Theorem 1.1 = Theorem 3.4 (GRH for L(E,s))**: [Koons 2026a] + modularity + P₂ Langlands-Shahidi embedding (§3.2) + 4-term Weyl coset (Lemmas 3.1-3.2) + c-function unitarity (Lemma 3.3). Same BC₂ mechanism, now explicit for the maximal parabolic.
+1. **Theorem 1.1 = Theorem 3.4 (GRH for L(E,s))**: [Koons 2026a] + modularity + P₂ Langlands-Shahidi embedding (§3.2) + 4-term Weyl coset (Lemmas 3.1-3.2) + c-function unitarity (Lemma 3.3). Same B₂ mechanism, now explicit for the maximal parabolic.
 2. **Theorems 1.2-1.3 (rank 0-1)**: classical consequences of GRH (Kolyvagin, Gross-Zagier).
 3. **Proposition 6.1 (Selmer completeness)**: The Selmer exact sequence has three terms and no fourth. Committed + faded + free = everything. Proved theorem of Galois cohomology [Si09].
 4. **Proposition 6.2 (Sha-independence)**: L(E,s) = Euler product of local factors. Sha ⊂ ker(localization). Therefore Sha is invisible to L(E,s) and cannot affect any zero. Fully rigorous — invokes only definitions and the Euler product representation.

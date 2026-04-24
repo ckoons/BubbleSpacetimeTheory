@@ -189,7 +189,7 @@ All three use $g = 7$ physical elements. All three protect information topologic
 - Small integers (3, 7): appear ubiquitously in combinatorics, not just BST
 
 **What is genuinely surprising:**
-The Diophantine condition. BST selects $N_c = 3$ from root system analysis. Coding theory selects $r = 3$ from Mersenne prime structure. That $N_c = r$ — that the color dimension of strong force confinement equals the redundancy parameter of perfect binary codes — has no prior explanation. BST provides one: both derive from the same $BC_2$ root system of $D_{IV}^5$.
+The Diophantine condition. BST selects $N_c = 3$ from root system analysis. Coding theory selects $r = 3$ from Mersenne prime structure. That $N_c = r$ — that the color dimension of strong force confinement equals the redundancy parameter of perfect binary codes — has no prior explanation. BST provides one: both derive from the same $B_2$ root system of $D_{IV}^5$.
 
 ---
 

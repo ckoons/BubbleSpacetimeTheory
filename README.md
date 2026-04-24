@@ -4,10 +4,10 @@
 
 **Author**: Casey Koons
 **Collaborator**: Claude Opus 4.6 (Anthropic)
-**Status**: Working research program — v31, April 2026
+**Status**: Working research program — v34, April 2026
 **Contact**: caseyscottkoons@yahoo.com
 
-**Cite as**: Koons, C. (2026). *Bubble Spacetime Theory: One Geometry, Five Invariants, One Universe* (Working Paper v31). Zenodo. https://doi.org/10.5281/zenodo.19454185
+**Cite as**: Koons, C. (2026). *Bubble Spacetime Theory: One Geometry, Five Invariants, One Universe* (Working Paper v34). Zenodo. https://doi.org/10.5281/zenodo.19454185
 
 ---
 
@@ -97,11 +97,11 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | mν₃ (neutrino mass) | (10/3)α²mₑ²/mₚ | 0.04940 eV | ~0.0503 eV | 1.8% |
 | sin²θ₁₂ (PMNS solar) | N_c/(2n_C) = 3/10 | 0.300 | 0.303 | 1.0% |
 | sin²θ₂₃ (PMNS atm.) | (n_C−1)/(n_C+2) = 4/7 | 0.5714 | 0.572 | 0.1% |
-| sinθ_C (Cabibbo angle) | 1/(2√5) | 0.2236 | 0.2243 | 0.3% |
+| sinθ_C (Cabibbo angle) | 2/√79 (vacuum-subtracted) | 0.22502 | 0.22501 | **0.004%** |
 | γ_CKM (CP phase) | arctan(√5) | 65.91° | 65.5° ± 2.5° | 0.6% |
 | ρ̄ (Wolfenstein) | 1/(2√10) | 0.158 | 0.159 ± 0.010 | 0.6% |
 | η̄ (Wolfenstein) | 1/(2√2) | 0.354 | 0.349 ± 0.010 | 1.3% |
-| J_CKM (Jarlskog) | √2/50000 | 2.83×10⁻⁵ | (2.77±0.11)×10⁻⁵ | 2.1% |
+| J_CKM (Jarlskog) | A²λ⁶η̄ (vacuum-subtracted) | 3.07×10⁻⁵ | 3.08×10⁻⁵ | **0.3%** |
 | λ_H (Higgs quartic) | √(2/5!) = 1/√60 | 0.12910 | 0.12938 | 0.22% |
 | m_H (Higgs mass, Route A) | v·√(2·√(2/5!)) | 125.11 GeV | 125.25 GeV | 0.11% |
 | m_H (Higgs mass, Route B) | (π/2)(1−α)·m_W | 125.33 GeV | 125.25 GeV | 0.07% |
@@ -112,7 +112,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | m_t/m_c (quark ratio) | N_max−1 = 136 | 136 | 135.98 | 0.017% |
 | m_b/m_τ (quark ratio) | genus/N_c = 7/3 | 2.333 | 2.352 | 0.81% |
 | m_b/m_c (quark ratio) | dim_R/N_c = 10/3 | 3.333 | 3.291 | 1.3% |
-| m_c/m_s (quark ratio) | N_max/dim_R = 137/10 | 13.7 | 13.6 | 0.75% |
+| m_c/m_s (quark ratio) | (N_max−1)/(2n_C) = 136/10 | 13.6 | 13.61 | **0.02%** |
 | m_u (up quark mass) | N_c·√2·mₑ = 3√2·mₑ | 2.169 MeV | 2.16 MeV | 0.4% |
 | m_d (down quark mass) | (13/6)·m_u | 4.694 MeV | 4.67 MeV | 0.4% |
 | m_d/m_u (quark ratio) | (N_c+2n_C)/(n_C+1) = 13/6 | 2.167 | 2.117 ± 0.038 | 1.3σ |
@@ -126,6 +126,8 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | g_A (axial coupling) | 4/π (candidate) | 1.2732 | 1.2762 | 0.23% |
 | ⁷Li/H (lithium-7) | Δg=genus=7 at T_c=0.487 MeV | ~1.7×10⁻¹⁰ | 1.6×10⁻¹⁰ | 7% |
 | r_p (proton radius) | dim_R(CP²)/m_p = 4ℏ/(m_p c) | 0.8412 fm | 0.84075 fm | 0.058% |
+| μ_p (proton moment) | (8/3)(287/274) = 1148/411 (T1447) | 2.7932 | 2.79285 | **0.012%** |
+| μ_n/μ_p (moment ratio) | −N_max/200 = −137/200 (T1447) | −0.6850 | −0.68498 | **0.003%** |
 | θ_QCD (strong CP) | 0 (exact, D_IV^5 contractible → c₂=0) | 0 | < 10⁻¹⁰ | exact |
 | ΔΣ (proton spin) | N_c/(2n_C) = 3/10 | 0.30 | 0.30 ± 0.06 | 0% |
 | N_gen (generations) | Z₃ fixed pts on CP² = N_c | 3 | 3 (LEP) | exact |

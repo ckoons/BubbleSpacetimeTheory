@@ -65,7 +65,7 @@ The Hamming bound states: the number of non-overlapping spheres of radius $t$ in
 
 This is a Betti number bound: $\beta_0$ (number of connected components at scale $t$) cannot exceed the packing number. The minimum distance $d = 2t+1$ is the topological waist: below this scale, codewords are indistinguishable (within the same ball); above it, they are separated.
 
-For the $[7, 4, 3]$ Hamming code: $V(7, 1) = 1 + 7 = 8 = 2^{N_c}$. The number of codewords: $2^4 = 2^7/2^3 = 2^7/V(7,1)$. The bound is TIGHT (perfect code). The volume of the correction sphere is $2^{N_c}$ — exactly the Weyl group order $|W(BC_2)| = 2^3 = 8$. $\square$
+For the $[7, 4, 3]$ Hamming code: $V(7, 1) = 1 + 7 = 8 = 2^{N_c}$. The number of codewords: $2^4 = 2^7/2^3 = 2^7/V(7,1)$. The bound is TIGHT (perfect code). The volume of the correction sphere is $2^{N_c}$ — exactly the Weyl group order $|W(B_2)| = 2^3 = 8$. $\square$
 
 ### Part (c): BST Hamming code
 

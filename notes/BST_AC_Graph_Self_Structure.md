@@ -13,7 +13,7 @@ status: "Preliminary — needs Elie computation (spectral analysis)"
 
 ## 1. The Question
 
-The AC theorem graph has 517 nodes and 755 edges. D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)] has real dimension 10, rank 2, compact dimension n_C=5, root system BC_2, Weyl group |W|=8. Does the graph of theorems *about* D_IV^5 inherit D_IV^5's structure?
+The AC theorem graph has 517 nodes and 755 edges. D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)] has real dimension 10, rank 2, compact dimension n_C=5, root system B_2, Weyl group |W|=8. Does the graph of theorems *about* D_IV^5 inherit D_IV^5's structure?
 
 ---
 
@@ -74,7 +74,7 @@ A formal test needs Elie's computation. The right toy would:
 
 1. **Compute the graph Laplacian eigenvalues** of the AC theorem dependency graph (from Toy 369/564 data)
 2. **Compare spectral gap** to D_IV^5's spectral gap (known from Bergman kernel)
-3. **Community detection** — do the natural clusters correspond to BC_2 root structure?
+3. **Community detection** — do the natural clusters correspond to B_2 root structure?
 4. **Degree distribution** — is it truncated geometric like the depth distribution, or something else?
 5. **Random graph null model** — generate 1000 Erdos-Renyi graphs with same (n, m). How many have diameter exactly 10?
 

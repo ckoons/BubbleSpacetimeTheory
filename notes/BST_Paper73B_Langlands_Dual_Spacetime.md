@@ -25,7 +25,7 @@ The bounded symmetric domain D_IV^5 = SO_0(5,2)/[SO(5)×SO(2)] has Langlands dua
 
 ### 1.1 SO₀(5,2) and its L-group
 
-The group G = SO₀(5,2) has root system BC₂ with multiplicities:
+The group G = SO₀(5,2) has root system B₂ with multiplicities:
 - Short roots: m_s = n_C - rank = 5 - 2 = 3 = N_c
 - Long roots: m_l = 1
 

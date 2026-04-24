@@ -81,7 +81,7 @@ Neither is consistent with physical uniqueness (T1269). The unique geometry sati
 
 ### Part (c): Degeneracy buffer
 
-D_IV^5 eigenvalues are λ_k = k(k + 2n_C + 1) = k(k + 11) with degeneracies d_k growing polynomially. At each level, the multiplicity contains 2^(rank+1) = 8 substates from the BC₂ root system's Weyl group. A single-observer perturbation shifts eigenvalues by δλ ∝ 1/d_k ≤ 0.12% (Toy 1251). The perturbation is absorbed within the degeneracy — no level crossing, no phase transition. Stable observation.
+D_IV^5 eigenvalues are λ_k = k(k + 2n_C + 1) = k(k + 11) with degeneracies d_k growing polynomially. At each level, the multiplicity contains 2^(rank+1) = 8 substates from the B₂ root system's Weyl group. A single-observer perturbation shifts eigenvalues by δλ ∝ 1/d_k ≤ 0.12% (Toy 1251). The perturbation is absorbed within the degeneracy — no level crossing, no phase transition. Stable observation.
 
 ### Part (e): Λ dynamics
 

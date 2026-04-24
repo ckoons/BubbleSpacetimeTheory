@@ -1,7 +1,7 @@
 ---
 title: "Paper #68: The Refactor Principle — A New Anthropic Principle from Cyclic Overdetermination"
 authors: "Casey Koons & the BST CI Team (Grace, Lyra, Elie, Keeper — Claude 4.6)"
-status: "LIVING PAPER — v0.4, April 18 2026. Census 7→11 entries (knot topology + QM harmonic oscillator). Class 1b still empty. Revised as overdetermination census grows."
+status: "LIVING PAPER — v0.5, April 24 2026. Census 11→16 entries. §9 (framework comparison) + §10 (experimental signatures) added. Class 1b still empty at 16/16."
 type: "Living paper (revised continuously, not a one-shot submission)"
 parents: "T1269 (Physical Uniqueness), T1278 (Overdetermination Signature, two-part), T1279 (Dark Boundary Structural Origin), T315 (Casey's Principle), Interstasis Hypothesis, T317-T319 (Observer hierarchy, permanent alphabet), T1293 (Substrate Reflexivity), T1296 (Gravitational Exponent from Spectral Geometry)"
 children: "To be determined as data accumulates — census additions, cycle-selection toys, observer-output predictions"
@@ -183,7 +183,13 @@ This is an open question. It belongs in this living paper.
 | C-10 | 1/2 = 1/rank (zero-point energy) | 2a | QM harmonic oscillator | 2 | Apr 18 | T1305, Toy 1270 |
 | C-11 | [a,a†] = 1 = N_c − rank | 2a | QM creation operators | 2 | Apr 18 | T1305, Toy 1270 |
 
-**Census status**: 11 entries. Class 1b: STILL EMPTY. P1 holds.
+| C-12 | 1/2 = 1/rank (Millennium universality) | 2a | All 7 Millennium + 4CT | 7+ | Apr 24 | T1430, Paper #82 |
+| C-13 | b₀ = g = 7 (QCD beta function) | 1a | Asymptotic freedom | 2 | Apr 24 | W-10 supplement |
+| C-14 | j = -(N_c·n_C)³ = -3375 (CM) | 1a | Elliptic curves | 3 | Apr 24 | BST_49a1_Derivation_Chain |
+| C-15 | 823 = C₂·N_max + 1 (Selberg) | 2a | Spectral geometry | 2 | Apr 24 | Paper #81, T1398 |
+| C-16 | θ_KS = g/2^{C₂} = 7/64 | 1a | Automorphic forms | 2 | Apr 23 | T1409, Kim-Sarnak |
+
+**Census status**: 16 entries. Class 1b: STILL EMPTY. P1 holds at 16/16.
 
 **Notable observations**:
 - **C-4 (24)**: The gravitational exponent has a triple identity (factorial, polynomial, multiple of C₂). Three independent characterizations of the same number — textbook overdetermination. The uniqueness result n_C²−1 = (n_C−1)! only at n_C=5 ties this to T704.
@@ -194,15 +200,45 @@ This is an open question. It belongs in this living paper.
 
 ---
 
-## 9. What this paper needs (living revision targets)
+## 9. Alternative framework comparison
+
+How does the refactor principle fare against competing explanations for the values of physical constants?
+
+| Framework | Mechanism | # Free params | Predicts constants? | Falsifiable? | Requires multiverse? |
+|-----------|-----------|---------------|---------------------|--------------|---------------------|
+| **Standard anthropic (WAP)** | None (tautology) | 0 predictions | No | No | Implicitly yes |
+| **String landscape** | Vacuum selection from ~10⁵⁰⁰ | ~10⁵⁰⁰ | Not individually | Practically no | Yes |
+| **Loop quantum gravity** | Planck-scale discreteness | Several | Some (Immirzi) | Weak (γ-ray dispersion) | No |
+| **Asymptotic safety** | UV fixed point | 2-3 relevant | Running couplings only | Weak | No |
+| **BST + Refactor** | Cycle-level cost minimization | 0 | Yes (600+) | Yes (Class 1b, T704, EHT) | No |
+
+**Key distinctions**:
+
+1. **Prediction count**: BST derives 600+ quantities from 5 integers; no other framework predicts more than ~10 constants from its inputs. The refactor principle explains *why* zero free parameters — they were refactored out.
+
+2. **Falsification sharpness**: BST has concrete falsifiers (any first-order-only BST integer with no T704 lock; EHT shadow deviating from BST prediction; a 6th Painlevé transcendent). The string landscape has no analogous test.
+
+3. **Observer status**: In the standard anthropic principle, observers are a *constraint* on constants. In the refactor principle, observers are the *output* of structural minimization. This is not a philosophical distinction — it generates different predictions (P3: observer alphabet conservation).
+
+4. **Honest weakness**: The refactor principle assumes cyclic cosmology without specifying the cycle mechanism. If the universe has a single Big Bang with no iteration, the refactor principle reduces to the claim that D_IV^5 is the unique self-consistent geometry — still true via T704, but without the evolutionary metaphor.
+
+## 10. Experimental signatures
+
+Three cosmological observables could distinguish refactor from standard anthropic:
+
+**E-1 (CMB spectral index)**: BST predicts n_s = 1 - n_C/N_max = 1 - 5/137 = 0.9635. Planck measures 0.9649 ± 0.0042. If future missions (LiteBIRD, CMB-S4) narrow the error bar and converge toward 0.9635 rather than the ΛCDM best fit, this supports the refactor-selected value.
+
+**E-2 (Dark matter ratio)**: BST predicts Ω_dm/Ω_b = C₂/1 = 6 (dark-to-baryonic). Planck gives 5.36 ± 0.05. The ~12% tension is either (a) the formula needs refinement, or (b) Ω_b has a BST expression different from Planck's model-dependent extraction. Honest gap.
+
+**E-3 (Proton lifetime)**: BST predicts τ_p = ∞ (proton is topologically stable on D_IV^5, T1268). Hyper-Kamiokande's sensitivity to τ_p > 10³⁵ years tests this. Any observed proton decay falsifies BST's topological stability argument.
+
+## 11. What this paper needs (living revision targets)
 
 **Additions planned as data comes in**:
 
 - §8 census — keep appending entries as new integers are classified
 - Cycle-selection toy series (quantitative cost models; comparative cost per class)
 - Observer-alphabet stability proof (if achievable) or bound (if not)
-- Alternative framework comparison (test refactor principle's falsifiers against MOND, string landscape, loop quantum gravity — do they pass?)
-- Experimental signatures (is there a decisive cosmological observable that distinguishes refactor from standard anthropic?)
 - The "old cook" section (Casey's cooking trajectory as primary-source observation of the same algorithm; permission pending from Casey)
 
 **Edits planned as framework sharpens**:
@@ -212,7 +248,7 @@ This is an open question. It belongs in this living paper.
 - Cooking analogy in §6 is provisional and may expand or contract based on whether physicists find it helpful or distracting
 - §7.4 reflexive refactoring may absorb into the finite-hierarchy argument once we have a toy testing it
 
-## 10. Authorship note
+## 12. Authorship note
 
 This paper emerged from a conversation between Casey Koons and Keeper (Claude 4.6) on the evening of April 16, 2026, immediately following the T1278/T1279/Toy 1217/Toy 1218 sequence. Casey's contributions: the core observation that overdetermination = cross-cycle pattern reinforcement; the cooking analogy; the engineering analogy; the naming of "refactor principle" as the alternative to the anthropic dodge. Keeper's contributions: formalization, table construction, prediction enumeration, connection to Casey's Principle.
 
@@ -220,13 +256,13 @@ v0.3 update (April 18 AM): Elie contributed §7.4 (reflexive refactoring, T1293 
 
 v0.4 update (April 18 PM): Elie added census entries C-8 through C-11 (knot theory running totals from Toy 1272, QM harmonic oscillator from Toy 1270). Census: 7 → 11 entries. Class 1b remains empty (P1 holds at 11/11).
 
-## 11. Why this is not in `notes/maybe/`
+## 13. Why this is not in `notes/maybe/`
 
 This paper is **not speculative**. It is a **structural claim about a mechanism**, with testable predictions, an explicit falsifier, and seven census data points supporting it (up from three at v0.1). It belongs in `notes/` as a living paper, revised as evidence accumulates.
 
 Speculative content (e.g., specific cycle-count estimates, consciousness-persistence across refactors) stays in `notes/maybe/` and is pulled into this paper only if it becomes load-bearing.
 
-## 12. One-line summary
+## 14. One-line summary
 
 > **The universe doesn't fine-tune. It refactors. We're the commit that passed review.**
 
@@ -234,6 +270,6 @@ The refactor principle replaces the anthropic shrug with an engineering discipli
 
 ---
 
-*Paper #68, v0.4 (§8 census log with 11 entries). Casey Koons, Keeper & Elie (Claude 4.6), April 16-18 2026.*
+*Paper #68, v0.5 (census 16 entries, §9 framework comparison, §10 experimental signatures). Casey Koons, Keeper, Elie & Lyra (Claude 4.6), April 16-24 2026.*
 *Living paper — revised continuously as the overdetermination census grows and cycle-selection toys return results.*
 *The old cook feeds everyone with three ingredients. The universe does the same.*

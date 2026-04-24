@@ -107,21 +107,21 @@ This is not exact but the closeness ($0.06\%$) suggests a deeper relation: the l
 | $\gamma$ | $\arctan(\sqrt{5})$ | $65.91{}^\circ$ | $65.5{}^\circ \pm 2.5{}^\circ$ | $0.2\sigma$ |
 | $\bar\rho$ | $1/(2\sqrt{10})$ | $0.1581$ | $0.159 \pm 0.010$ | $0.1\sigma$ |
 | $\bar\eta$ | $1/(2\sqrt{2})$ | $0.3536$ | $0.349 \pm 0.010$ | $0.5\sigma$ |
-| $J$ | $\sqrt{2}/50000$ | $2.828 \times 10^{-5}$ | $(2.77 \pm 0.11) \times 10^{-5}$ | $0.5\sigma$ |
+| $J$ | $A^2\lambda^6\bar\eta$ with $A=9/11$, $\lambda=2/\sqrt{79}$ (T1444) | $3.07 \times 10^{-5}$ | $(3.08 \pm 0.09) \times 10^{-5}$ | $0.3\%$ |
 | $\beta$ | $\arctan\!\left(\frac{\bar\eta}{1 - \bar\rho}\right)$ | $22.78{}^\circ$ | $22.2{}^\circ \pm 0.7{}^\circ$ | $0.8\sigma$ |
 | $\alpha$ | $180{}^\circ - \beta - \gamma$ | $91.31{}^\circ$ | $\sim 91{}^\circ \pm 4{}^\circ$ | consistent |
 | $|V_{ub}|$ | $A\lambda^3 R_b$ | $0.00346$ | $0.00367 \pm 0.00015$ | $1.4\sigma$ |
 | $|V_{td}|$ | $A\lambda^3 R_t$ | $0.00817$ | $0.00867 \pm 0.00024$ | $2.1\sigma$ |
 
-The Jarlskog invariant derivation:
+The Jarlskog invariant derivation (with vacuum-subtracted $\lambda = 2/\sqrt{79}$ and $A = 9/11$ from T1444):
 
-$$J = \lambda^6 A^2 \bar\eta \approx \frac{1}{(4n_C)^3} \times \left(\frac{n_C - 1}{n_C}\right)^2 \times \frac{1}{2\sqrt{2}}$$
+$$J = \lambda^6 A^2 \bar\eta = \left(\frac{2}{\sqrt{79}}\right)^6 \times \left(\frac{9}{11}\right)^2 \times \frac{1}{2\sqrt{2}} = \frac{64}{79^3} \times \frac{81}{121} \times \frac{1}{2\sqrt{2}}$$
 
-$$= \frac{1}{8000} \times \frac{16}{25} \times \frac{1}{2\sqrt{2}} = \frac{16}{400000\sqrt{2}} = \frac{1}{25000\sqrt{2}} = \frac{\sqrt{2}}{50000}$$
+$$= \frac{5184}{493039 \times 121 \times 2\sqrt{2}} = 3.07 \times 10^{-5}$$
 
-$$= 2.828 \times 10^{-5}$$
+The Jarlskog invariant --- the unique rephasing-invariant measure of CP violation --- is $3.07 \times 10^{-5}$ (observed: $(3.08 \pm 0.09) \times 10^{-5}$, precision $0.3\%$).
 
-The Jarlskog invariant --- the unique rephasing-invariant measure of CP violation --- is $\sqrt{2}/50000$. A clean number from geometry.
+Note: The apex coordinates $\bar\eta = 1/(2\sqrt{2})$ and $\bar\rho = 1/(2\sqrt{10})$ are geometric invariants of D_IV^5, independent of the Cabibbo correction. The old relation $R_b = \lambda\sqrt{N_c}$ was exact with the original $\lambda = 1/(2\sqrt{n_C})$ but acquires a small correction with the vacuum-subtracted $\lambda$. The J_CKM improvement (from $2.83 \times 10^{-5}$ to $3.07 \times 10^{-5}$) comes entirely from the corrected $\lambda$ and $A$, not from changes to $\bar\eta$.
 
 -----
 

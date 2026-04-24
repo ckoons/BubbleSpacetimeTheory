@@ -18,7 +18,7 @@ children: "Paper #67"
 ## Statement
 
 **Theorem (T1275).**
-*Let P_Hodge := {rational (p,p)-classes on a smooth projective variety V, their algebraicity, compatibility with the theta correspondence from V to a Kuga-Satake shadow on D_IV^n}. Let X = (Vogan-Zuckerman A_q(0) modules in H^{p,p}(D_IV^5), theta lift, BC_2 outer automorphism). Then:*
+*Let P_Hodge := {rational (p,p)-classes on a smooth projective variety V, their algebraicity, compatibility with the theta correspondence from V to a Kuga-Satake shadow on D_IV^n}. Let X = (Vogan-Zuckerman A_q(0) modules in H^{p,p}(D_IV^5), theta lift, B_2 outer automorphism). Then:*
 
 1. **(S) Sufficiency.** *X reads every observable in P_Hodge on D_IV^5 varieties: each (p,p)-class is realized by an A_q(0) module, algebraicity is established via theta lift + Howe duality (T1000).*
 2. **(I) Isomorphism closure.** *Any (p,p)-class realization on a general variety V satisfying P_Hodge is isomorphic to X via Kuga-Satake + SO(n,2) induction (Bergeron-Millson-Moeglin, Kudla-Millson).*
@@ -34,7 +34,7 @@ children: "Paper #67"
 BST_Hodge_AC_Proof establishes on D_IV^5:
 - **Enumeration**: Vogan-Zuckerman A_q(0) modules exhaust H^{p,p} of the relevant locally symmetric spaces.
 - **Unique module (odd n)**: type B_m total order forces one A_q(0) module per (p,p) class.
-- **Fork resolution (even n)**: type D_m fork has two modules, resolved by the BC_2 outer automorphism.
+- **Fork resolution (even n)**: type D_m fork has two modules, resolved by the B_2 outer automorphism.
 - **Theta surjectivity**: Howe duality + Rallis non-vanishing lift each module to an algebraic cycle on the Kuga-Satake shadow.
 - **T1000 (Hodge CM Density)**: CM points are dense in the moduli, forcing algebraicity of limits.
 

@@ -70,7 +70,7 @@ The prediction from Phase 3: **G7 (fill fraction f = 19.1%) and G8 (observer hie
 
 | Code | Property | Plain English |
 |------|----------|---------------|
-| G1 | BC_2 root system | Short roots (N_c=3) and long roots (1) |
+| G1 | B_2 root system | Short roots (N_c=3) and long roots (1) |
 | G2 | Five integers {3,5,7,6,2} | The topological invariants of D_IV^5 |
 | G3 | Bergman kernel / volume | The natural measure on the domain |
 | G4 | Shilov boundary (n_C = 5) | The edge where maxima live |

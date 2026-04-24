@@ -462,7 +462,7 @@ Step by step:
 - **Can the exponent 3 be derived purely from the rank and root
   structure of $\text{SO}_0(5,2)$ without reference to the embedding
   $S^4 \supset S^2$?** If so, the derivation would be more fundamental.
-  The rank is 2, the restricted root system is $BC_2$, and the
+  The rank is 2, the restricted root system is $B_2$, and the
   multiplicities are $(a, b) = (4, 3)$ where $a = 2(n_C - 2) = 4$
   and $b = n_C - 2 = 3 = N_c$. The exponent 3 equals the short root
   multiplicity $b = N_c$. Whether this is coincidence or a deeper

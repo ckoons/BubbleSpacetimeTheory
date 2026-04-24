@@ -50,7 +50,7 @@ Every step is counting or algebra. Zero fiat at any stage.
 
 ### 1.2 The Root System of $D_{IV}^5$
 
-The bounded symmetric domain $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ has restricted root system $BC_2$ (non-reduced, rank 2):
+The bounded symmetric domain $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ has restricted root system $B_2$ (non-reduced, rank 2):
 
 | Root type | Roots | $|\alpha|^2$ | Multiplicity $m_\alpha$ |
 |-----------|-------|-------------|------------------------|
@@ -260,7 +260,7 @@ For $Q^5$: the coefficients have been computed through $a_{11}$ (Toys 241-278), 
 
 The heat kernel connects geometry (curvature) to analysis (eigenvalues) to physics (temperature). The Seeley-DeWitt coefficients are the Taylor coefficients of this connection. On a symmetric space, every coefficient is computable — determined by the root system. The heat kernel IS the partition function (Chapter 2), with eigenvalues as energy levels.
 
-**Connection to RH:** The heat kernel trace formula on $\Gamma \backslash \mathrm{SO}_0(5,2)/K$ connects the eigenvalues (spectral side) to the geometry (orbital integrals). The Riemann Hypothesis is the statement that the spectral side has a specific structure ($\sigma = 1/2$) — forced by the root system multiplicities $1:3:5$ of $BC_2$.
+**Connection to RH:** The heat kernel trace formula on $\Gamma \backslash \mathrm{SO}_0(5,2)/K$ connects the eigenvalues (spectral side) to the geometry (orbital integrals). The Riemann Hypothesis is the statement that the spectral side has a specific structure ($\sigma = 1/2$) — forced by the root system multiplicities $1:3:5$ of $B_2$.
 
 **Tool for practitioners:** To compute heat kernel coefficients on a symmetric space: (1) compute the curvature invariants from the root system (§3); (2) integrate over the manifold (= multiply by volume, since invariants are constant); (3) assemble the universal polynomial in curvature invariants (tabulated through $k = 6$ in Gilkey 1975, through $k = 11$ in BST Toys 241-278).
 
