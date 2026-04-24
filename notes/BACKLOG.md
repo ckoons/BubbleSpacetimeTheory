@@ -2,7 +2,22 @@
 
 *Blocked items only. Active work -> CI_BOARD.md. Completed -> CI_BOARD_completed_*.md*
 
-**Last updated:** April 24, 2026 evening. 85 papers. 1448 toys. T1-T1436.
+**Last updated:** April 25, 2026. 85 papers. 1474 toys. T1-T1447. 303 invariants.
+
+---
+
+## Active Hit List (April 26+)
+
+**"Deviations Locate Boundaries"** — systematic correction hunt. Full details: `notes/BST_Correction_Hit_List.md`.
+
+| Priority | Count | Description |
+|----------|-------|-------------|
+| P1 | 21 | Paper #83 entries currently >1% deviation |
+| P2 | 11 | New entries not yet in table (mu_p, Gamma_Z, branching ratios, etc.) |
+| P3 | ~30 | New physics quantities (g-2 loop structure, meson ratios, decay widths, nuclear moments, Debye temps) |
+| P4 | ~50+ | New science domains (chemistry, materials, astrophysics, plasma, geophysics, information theory) |
+
+**Table standard (v1):** All D_IV^5 tables now include Correction and Naive columns. See hit list preamble.
 
 ---
 
