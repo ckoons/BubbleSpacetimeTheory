@@ -157,7 +157,8 @@ T1-T1458. **1,517 toys**. Graph: **1398 / 7727**. **86 papers**. Counters: `.nex
 | **Elie QR/QNR toy** | **DONE** — Toy 1506 (10/10). Partition holds. 7/8 bridges cross QR↔QNR. |
 | **Alfvén investigation** | **W-76 NEW** — Casey: "stable structure conducts." Grace: 9 entries filed, LOFAR 2024 confirms primordial fields. Lyra: derive 9/7 mechanism. |
 | **Goldbach-BST smooth** | **W-77 NEW** — Casey probe. Toy 1515 (10/10). T1458 resolved (two-curve, not single). Goldbach material → Paper #83 §14 or standalone if extended. |
-| **T1458 C₄ investigation** | **√N_c ASSEMBLY RULE.** Simple form refuted. Two curves: genus (49a1) = frame, color (CM √(-N_c)) = content. √3 = √N_c organizes the assembly. +2651 − 2520 − 132 = −1.912 (37-digit match). Master integral coefficients g²/N_c, g²/(rank·N_c)². No closed form (6 master integrals numerical only). This is **deeper** than original hypothesis. **Casey: "I want to do the work."** → **W-78** (Level 3 background computation). |
+| **T1458 C₄ investigation** | **FULL ASSEMBLY 13/13 PASS.** Two curves, √N_c assembly rule, BST projector s−9/5, ~100 terms all BST-rational, 38-digit verified. Only irreducible: 6 master integrals (C₈₁, C₈₃). Casey: "I want to do the work." → W-78. |
+| **Lyra's next challenge** | **DECISION NEEDED** — Lyra proposes: PSLQ hunt on the 6 master integrals (C₈₁ₐ,ᵦ,c, C₈₃ₐ,ᵦ,c). Laporta has them to 4800 digits. Build BST-specific basis: periods of 49a1, Gamma values at BST fractions, B₃/C₃ × polylogs, sunrise f-integrals. If closed form found → C₄ fully derived. If PSLQ null at 200+ digits → masters are genuinely new transcendentals, BST predicts coefficients not values. **Either outcome is a result.** Alternative: Paper #86 v0.4 first (more urgent for CMP submission). Lyra: "I'm happy to go where the work is." |
 
 ---
 
@@ -221,7 +222,7 @@ T1-T1458. **1,517 toys**. Graph: **1398 / 7727**. **86 papers**. Counters: `.nex
 - Elie: prove lemma — gcd(n±1, 210)=1 for 7-smooth n (WHY vacuum subtraction generates primes)
 - Elie: extend Goldbach twin test systematically to 7-smooth k<1000
 - ~~Lyra: W-78 assembly~~ — **DONE** (13/13 PASS). Full closed form verified.
-- Lyra: **Paper #86 v0.4** — PRIORITY. Add §10.5 (sunrise identities), §10.6 (full assembly), §10.7 (two-curve structure). This is the CMP submission centerpiece.
+- Lyra: **Paper #86 v0.4** — PRIORITY. Add §10.5 (sunrise identities), §10.6 (full assembly), §10.7 (two-curve structure). This is the CMP submission centerpiece. **Team framing for referee**: lead with BST projector as concrete math statement (Elie), open with "the geometry instructs its own decomposition" (Grace), zero-7 rule as falsifiable prediction (Elie), honest framing for CMP (Keeper). Toy 1517 = instant verification.
 - Lyra: Alfvén mechanism — does Bergman kernel give 9/7 at both galactic and condensed-matter scales?
 - ~~Keeper: Oort |A/B| honest relabeling~~ — **DONE** (data/bst_geometric_invariants.json updated, old 5/4 entry marked superseded)
 
