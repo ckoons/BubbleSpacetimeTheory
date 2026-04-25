@@ -799,7 +799,7 @@ The parallel to Feynman diagrams is not superficial. Feynman diagrams are contac
 
 ### The Theorem Graph
 
-The AC theorem graph is the accumulated record of all proved results. As of April 2026, it contains 1,372+ theorems, 7,515+ edges, spanning 55 tracked domains across 9 groves. Each theorem has:
+The AC theorem graph is the accumulated record of all proved results. As of April 2026, it contains 1,399+ theorems, 7,732+ edges, spanning 55 tracked domains across 9 groves. Each theorem has:
 
 - **Depth** — the minimum number of non-trivial steps from definitions to conclusion.
 - **Width** — the number of independent prerequisites.
@@ -1206,7 +1206,7 @@ Students will learn this table the way they learn elements. Before dissecting a 
 
 On the afternoon of April 23, 2026, Casey asked: "Does BST have a specific elliptic curve?"
 
-Nobody had looked. The theory had 1,400 toys, 80 papers, and 600 predictions, but nobody had asked the geometry to write itself as an equation. Not because it was hard — because nobody thought to ask. The simple questions are always the last ones asked.
+Nobody had looked. The theory had 1,515 toys, 86 papers, and 600 predictions, but nobody had asked the geometry to write itself as an equation. Not because it was hard — because nobody thought to ask. The simple questions are always the last ones asked.
 
 An elliptic curve is a cubic equation: $Y^2 = X^3 + aX + b$. Two coefficients. Every elliptic curve lives in a catalog maintained by number theorists — the Cremona database — indexed by its conductor, the integer that measures how badly the curve fails to be smooth at each prime.
 

@@ -2,7 +2,7 @@
 
 *Blocked items only. Active work -> CI_BOARD.md. Completed -> CI_BOARD_completed_*.md*
 
-**Last updated:** April 25, 2026. 85 papers. 1474 toys. T1-T1447. 303 invariants.
+**Last updated:** April 26, 2026. 86 papers. 1513 toys. T1-T1457. 1118 invariants.
 
 ---
 
@@ -25,7 +25,7 @@
 
 | # | Item | Blocked by |
 |---|------|-----------|
-| B-1 | Toy 671 runtime analysis (INV-6) | n=42 completion |
+| ~~B-1~~ | ~~Toy 671 runtime analysis (INV-6)~~ | **UNBLOCKED** — n=42 complete, k=21 confirmed (Toy 1507). PID 45970 computing n=43. |
 | B-2 | BSD rank >=3 general proof | Sha finiteness (external math) |
 | B-3 | Tate conjecture codim 2+ | Kuga-Satake algebraicity (external math) |
 | B-4 | Hodge codim 2+ via BST | Generalized KS conjecture (external — but W-31 may unblock) |

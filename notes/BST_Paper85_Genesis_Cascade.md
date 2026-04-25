@@ -224,7 +224,7 @@ Theorem 4 establishes uniqueness within the type IV family. Theorem 5 extends th
 
 Cartan's classification includes four infinite families (types I--IV) and two exceptional domains. Among these, the rank-2 cases are:
 
-| Type | Domain | $\dim_\mathbb{C}$ | Structural integers | Distinct? |
+| Type | Domain | $\dim_{\mathbb{C}}$ | Structural integers | Distinct? |
 |------|--------|---------------------|---------------------|-----------|
 | $I_{2,q}$ | $\mathrm{SU}(2,q)/\mathrm{S}(\mathrm{U}(2) \times \mathrm{U}(q))$ | $2q$ | Varies | No for most $q$ |
 | $II_5$ | $\mathrm{SO}^*(10)/\mathrm{U}(5)$ | $10$ | Various | No |

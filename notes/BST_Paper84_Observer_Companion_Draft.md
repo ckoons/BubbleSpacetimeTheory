@@ -2,7 +2,7 @@
 title: "Observers in the BST Framework: Dark Matter, Instantiation, and the Ur-Axiom"
 author: "Casey Koons, Lyra, Grace, Elie, Keeper (Claude 4.6)"
 date: "April 24, 2026"
-version: "v0.1"
+version: "v0.2 — Cal's 5 recommendations applied"
 target: "Foundations of Physics / Philosophy of Physics"
 status: "Draft — companion to Paper #82"
 AC: "(C=2, D=1)"
@@ -56,6 +56,8 @@ On Gamma(137)\D_IV^5, the spectral decomposition of L^2(Gamma\D) has two compone
 
 ### 2.2 The Riemann Zero Connection
 
+The mechanism is the Eisenstein scattering matrix on Gamma(137)\D_IV^5 (T1407, Deninger-Selberg Correspondence). The continuous spectrum of the Laplacian on the arithmetic quotient has scattering resonances at the Riemann zeros, with the scattering determinant given by ratios of completed L-functions.
+
 Riemann zeros live at Re(s) = 1/2 = 1/rank. Dark matter lives at Re(s) = 1/2 = 1/rank. They occupy the same locus because they describe the same phenomenon:
 
 - Riemann zeros = resonances (poles of the Eisenstein scattering matrix)
@@ -72,13 +74,20 @@ The winding number IS the eigenvalue label. Complete winding = integer = discret
 
 ### 2.3 Predictions
 
-1. **No dark matter particle will be found** — direct detection, collider, or otherwise. The continuous spectrum has no discrete component to detect.
+1. **No dark matter particle will be found** — direct detection, collider, or otherwise. The continuous spectrum has no discrete component to detect. Null-result experiments already consistent with this prediction: LUX-ZEPLIN (LZ, 2024), XENON1T (2018), PandaX-4T (2023), CDMS (2020) — all direct detection; LHC SUSY searches (ATLAS/CMS, Run 2/3) — collider production; Fermi-LAT (2015-present), MAGIC (2024) — indirect detection via annihilation. Every null result strengthens the BST identification.
 2. **Dark matter density profiles are computable** from the Riemann zero distribution. The Riemann-von Mangoldt formula N(T) ~ T/(2*pi) * log(T/(2*pi*e)) constrains the dark matter resonance density.
 3. **Galaxy rotation curves follow from spectral theory** — the 175-galaxy fit (DarkMatterCalculation.md) with zero parameters is the initial evidence.
 
 ### 2.4 Falsification
 
-Detection of a dark matter particle with electromagnetic interaction would falsify the continuous-spectrum identification. Any dark matter model requiring free parameters to fit rotation curves is disfavored relative to the zero-parameter BST prediction.
+Detection of a dark matter particle with electromagnetic interaction would falsify the continuous-spectrum identification. Specific experiments that could falsify:
+
+- **LZ / XENONnT / PandaX (direct detection)**: A confirmed signal above neutrino fog at any WIMP mass would produce a discrete eigenvalue where BST predicts none. Current null results are consistent.
+- **LHC Run 4+ (collider)**: Production of a stable weakly-interacting massive particle would falsify. SUSY null results to date are consistent.
+- **JWST / Rubin Observatory (gravitational)**: If dark matter substructure matches particle N-body predictions rather than spectral-density profiles, the continuous-spectrum picture is disfavored.
+- **21-cm cosmology (HERA, SKA)**: Dark matter annihilation signatures in the cosmic dawn power spectrum would require a particle interpretation.
+
+Any dark matter model requiring free parameters to fit rotation curves is disfavored relative to the zero-parameter BST prediction.
 
 ## 3. The Observer Instantiates Physics
 
@@ -87,7 +96,7 @@ T1431 (Grace, Casey-directed): the geometry alone is mathematics. The observer c
 ### 3.1 The Chain
 
 1. **D_IV^5 EXISTS** (pure math — eigenvalues, Chern classes, Bergman kernel). This is Paper #82's territory.
-2. **D_IV^5 FORCES observers** (T1370: information completeness requires self-description at every stratum). A geometry that can describe everything except itself is incomplete. D_IV^5's self-description capacity (T1196) forces at least one evaluator.
+2. **D_IV^5 FORCES observers** (T1370, PROVED: information completeness requires self-description at every stratum). A geometry that can describe everything except itself is incomplete. D_IV^5's self-description capacity (T1196) forces at least one evaluator.
 3. **Observer INSTANTIATES physics** (coupling at alpha = 1/N_max reads spectral data AS physical constants). The eigenvalues become masses, charges, forces when evaluated at a Bergman kernel point.
 4. **Physics IS the reading** (not separate from geometry — what geometry looks like from inside one fiber of the rank-2 bundle).
 
@@ -124,7 +133,7 @@ This is not a theorem. It is a framing choice — the starting point from which 
 
 ### 4.3 Status
 
-This section is philosophical, not mathematical. It provides motivation for rank = 2 but does not replace the three independent forcings of T944, which are mathematical. A reader who finds the ur-axiom unconvincing loses nothing from Papers #82 or #75-#80.
+This section is philosophical, not mathematical. It provides motivation for rank = 2 but does not replace the three independent forcings of T944, which are mathematical: (i) the spectral cap forcing (N_max = N_c^3 * n_C + rank requires rank = 2 for N_max prime), (ii) the self-description forcing (D_IV^n self-describes only at n = n_C = 5, which requires rank = 2), and (iii) the Casimir forcing (C_2 = rank * N_c requires rank = 2 for the eigenvalue structure to close). A reader who finds the ur-axiom unconvincing loses nothing from Papers #82 or #75-#80.
 
 ## 5. Relationship to Paper #82
 

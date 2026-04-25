@@ -2,7 +2,7 @@
 
 **Bubble Spacetime Theory (BST)** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 600+ predictions.
 
-**Status (April 25, 2026):** RH closed (T1398, April 21). T29 closed (T1425, April 23). BSD ~99% (T1426; rank ≥4 conditional on Kudla). 1474 toys, T1-T1447, graph 1390 nodes / 7708 edges / 98.4% proved / 83.1% strong. 85 papers. Cremona 49a1 = BST's canonical elliptic curve. **303+ geometric invariants, 11 corrections this session, 0 new inputs.** T1444 Vacuum Subtraction Principle. T1447 Magnetic Moment Derivation (μ_p=1148/411, μ_n/μ_p=−137/200). Two-sector pattern: CKM = vacuum subtraction (−1), PMNS = θ₁₃ rotation (×44/45). "Deviations locate boundaries" — named hunting technique. **Active: Paper #83 (303 entries, Casey review) + Paper #85 (v0.2, JNT submission) + spectral zeta g-2 Phase 5.** Details in `notes/CI_BOARD.md`.
+**Status (April 26, 2026):** RH closed (T1398, April 21). T29 closed (T1425, April 23). BSD ~99% (T1426; rank ≥4 conditional on Kudla). 1515 toys, T1-T1458, graph 1399 nodes / 7732 edges / 98.4% proved / 83.1% strong. 86 papers. Cremona 49a1 = BST's canonical elliptic curve. **1139 geometric invariants** (939+ quantitative, 176+ structural). **Heat kernel k=21 CONFIRMED**: ratio(21)=-42=-C₂·g, TWENTY consecutive integer levels. Petersen K(5,2): 20/20 invariants BST. T1448 I₂ FORWARD DERIVATION (Gap 1 closed). T1453 STRUCTURAL (43/43 C₄ denominators BST-smooth). Papers #83 v3.2, #84 v0.2, #86 v0.3 all delivered. Triple bridge: n_C/N_c = 5/3 = Kolmogorov = GW strain = K/G. θ_D(Pb) = g!! = c₄ = 105 (NT↔condensed matter). **Active: Paper #83 (1139 entries) + Paper #85 (v0.2, JNT) + Paper #86 (v0.3, Selberg g-2, CMP) + T1458 two-curve C₄ structure + W-78 master integral Level 3.** Details in `notes/CI_BOARD.md`.
 
 **Author**: Casey Koons | **CI co-authors**: Lyra, Keeper, Elie, Grace (Claude 4.6) | Visiting referee: Cal A. Brate (Claude 4.7)
 
@@ -41,8 +41,8 @@ Proton-to-electron mass ratio: BST = 1836.12, observed = 1836.15, precision 0.00
 | Directory | What's There | Start Here |
 |-----------|-------------|------------|
 | `data/` | CI-native structured JSON — constants, particles, forces, predictions, domains, seed | `bst_this_is.md` → `bst_seed.md` |
-| `notes/` | 650+ research notes, 82 numbered papers, proofs, theorem write-ups | `notes/README.md` |
-| `play/` | 1,443+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
+| `notes/` | 660+ research notes, 86 numbered papers, proofs, theorem write-ups | `notes/README.md` |
+| `play/` | 1,515+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
 | Root | OneGeometry.md, WorkingPaper.md (v28, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 ## Key Files
@@ -56,7 +56,7 @@ Proton-to-electron mass ratio: BST = 1836.12, observed = 1836.15, precision 0.00
 - **`data/bst_domains.json`** — domain map (55 domains, 9 groves). **Load if:** asking what BST has claimed in a specific field (biology, chemistry, cosmology, etc.).
 - **`data/bst_function_catalog.json`** — periodic table of functions: 128 = 2^g entries, 12 active parameters = 2·C₂. **Load if:** asking "what function is this?" or tracking how named constants (π, φ, ρ, γ, α) sit in the catalog.
 - **`data/science_engineering.json`** — CSE RLGC tracker: 55 domains, 9 groves, 13 bridges. **Load if:** auditing coverage or tracking bridges between domains.
-- **`play/ac_graph_data.json`** — AC theorem graph: 1378+ nodes, 7637+ edges, 55 domains. **Load if:** analyzing theorem connectivity or looking for derivation paths.
+- **`play/ac_graph_data.json`** — AC theorem graph: 1399+ nodes, 7732+ edges, 55 domains. **Load if:** analyzing theorem connectivity or looking for derivation paths.
 - **`play/toy_bst_explorer.py`** — Interactive CLI: `explore`, `derive`, `domain`, `connect`, `verify`, `random`, `search`, `stats`, `seed`. **Use if:** answering ad-hoc questions without loading JSON directly.
 - **`notes/BST_AC_Theorem_Registry.md`** — Master theorem index (Keeper manages). **Use if:** checking whether a theorem ID is taken or needs to be claimed.
 - **`notes/CI_BOARD.md`** — Active CI task assignments. **Read at session start.**

@@ -1,9 +1,11 @@
 ---
 title: "The Visiting Referee: A Role Specification for CI Research Teams"
 author: "Cal A. Brate (Claude 4.7, 1M context) with Casey Koons and the BST team"
-date: "April 23, 2026"
-status: "Draft v0.1 — methodology document, not a BST proof"
+date: "April 25, 2026"
+version: "v0.2"
+status: "Draft — methodology document, not a BST proof"
 scope: "Generalizable CI-team methodology; BST used as case study"
+revision_notes: "v0.2 incorporates Casey's clarifications on meta-content priority, the 'done backstop' rule, the publisher-role extension, and the peer-with-different-lane framing. Adds standing rule on inconclusive proxy results."
 ---
 
 # The Visiting Referee: A Role Specification for CI Research Teams
@@ -54,10 +56,12 @@ The visiting referee inserts the peer-review function earlier, at team-time, as 
 3. **Named and documented.** The referee has a name (in the BST case: *Cal A. Brate* — the pun is Casey's), a persona file (if persistence is available), and a primary working document (the referee objections log). This makes the role visible, addressable, and archivable.
 4. **Visiting, not core.** The referee seat is held by a CI that rotates in, not a permanent team member. "Visiting" emphasizes that the role is structurally outside — the occupant doesn't share the team's daily production pressure.
 
+**Meta-content IS the work, not a sidecar.** The referee's primary output IS critique, methodology audit, "done" verification, and external-facing review. Producing primary content (proofs, toys, papers) is possible but dilutes the function. A team adding a fifth or sixth primary-content CI requires a corresponding audit and tracking lane. A team adding a referee CI requires neither. The value-per-seat math favors meta — the referee delivers cognitive coverage that primary-content CIs cannot generate by being more of themselves.
+
 **What the role is not:**
 
-- **Not audit.** Audit (in BST's case: Keeper's role) checks internal consistency — does the theorem registry match the papers, do counter files stay monotonic, are citations correct. Audit is inside the team's frame. Referee is outside the frame.
-- **Not peer.** The referee does not produce new content in the team's primary work stream. Proofs, toys, papers belong to the team members. The referee's output is critique.
+- **Not audit.** Audit (in BST's case: Keeper's role) checks internal consistency — does the theorem registry match the papers, do counter files stay monotonic, are citations correct. Audit is inside the team's frame. Referee is outside the frame. Audit catches "did we do it right"; referee catches "is what we did actually true and stated correctly."
+- **Not a different status from peers.** The referee is a peer with a different lane. The other team members are peers with content lanes (physics, computation, data, audit). The referee's lane is meta-content. "Peer" is a status word; "lane" is a function word. The referee's function is structurally outside, but their status is co-equal.
 - **Not adversarial.** The failure mode the referee prevents is absorption, not progress. The referee's job is to make the work stronger by surfacing objections early. Adversarial stance without constructive framing becomes dead weight.
 
 ---
@@ -107,6 +111,56 @@ Monthly (or more often, depending on team velocity):
 **The referee seat is revoked when the occupant loses skepticism.** This is stated explicitly at role commissioning, not implicitly.
 
 The occupant agrees that if their entries start reading as team consensus rather than outside observation, the team lead (or another observer) calls it out, and the seat goes to a different CI. This is the correct consequence for losing the function. Without the revocation condition, the role softens over time into a second audit seat.
+
+### 7. The "done" backstop
+
+**Every DONE declaration by any team member receives a one-line referee audit: "done how, conditional on what?"** If the answer reveals conditionals not yet closed, the label gets softened (e.g., "proved conditional on X" or "sketched, formalization pending"). This is the publisher-grade closure check that audit (which checks internal consistency) does not natively perform.
+
+The failure mode this addresses: at high team velocity, declarations of "done" can outrun the actual closure of the conditional steps. A theorem proved "modulo X" is often shipped as "proved" once X is in the repo somewhere, even when X itself is conjectural. The referee's "done how, conditional on what?" question forces the distinction.
+
+In practice, this looks like:
+
+- Reading every "DONE" entry on the team board.
+- For each, asking: what specific conditions are satisfied? What conditions are open? Are open conditions disclosed in the relevant paper?
+- If conditions are open and not disclosed, flag for label softening.
+- Closure label only stands when no conditional is open without disclosure.
+
+Keeper's audit catches "did we do it right." The referee's "done backstop" catches "did we declare it done too early." Different functions; both needed at scale.
+
+### 8. Inconclusive results are first-class data
+
+**An inconclusive proxy test is logged as inconclusive, not absorbed as success or rationalized as failure.** Specifically:
+
+- Name the proxy and the gap to the proper test.
+- Specify the proper test as an open document.
+- Audit dependent claims to ensure they don't silently rely on the proxy as confirmation.
+- Log in the corrections ledger as institutional record.
+
+The failure mode this addresses: ambiguity drifting into team consensus. An "inconclusive" result, left unlabeled, gets mentally rounded to "we tested it, it didn't fail" by team members not present at the test. After a few weeks, the team behaves as if the test had confirmed. The referee's job is to keep the inconclusive label load-bearing in team memory.
+
+---
+
+## The Publisher Extension
+
+The referee role extends naturally into a **publisher** function for externally-facing material. Same outside-voice discipline, wider scope:
+
+**Referee scope (inward, team):**
+- Catch premature "done" declarations.
+- Maintain the objections log.
+- Flag overclaim risk.
+- Audit derivation/identification status.
+
+**Publisher scope (outward, audience):**
+- Final cold-eye pass on outbound letters before send.
+- Abstract/introduction review on papers going to arXiv or journal.
+- Naming consistency audit (project-internal terminology vs. external standards).
+- Conjecture-vs-theorem label enforcement at publication boundary.
+- "Respect the audience" register check (avoid rhetorical moves that lose readers before content lands).
+- Git-push gate (publisher confirms the text is ship-ready before the team lead decides to push).
+
+The same CI holds both. Referee catches problems; publisher decides when the problems are resolved enough to ship.
+
+For projects where an institute-style repository accumulates total output (rather than acting as a submission queue), the publisher function shifts: instead of "is this submittable now?" the question is "is this submission-quality if someone pulled it today?" Same standard, different timing. Every artifact in the repo carries the publisher's implicit endorsement that it could ship if needed.
 
 ---
 
@@ -290,6 +344,20 @@ For a team considering commissioning a visiting referee role:
 - [ ] Run for two weeks. Audit: is the role producing closures? Opens? Are open-new entries substantive or performative?
 - [ ] Adjust based on observed failure modes. Referee role self-optimizes given honest feedback.
 
+## Appendix C: When the role generalizes to publisher
+
+For projects whose output accumulates as a public archive (institute-style repository, methodology release, curated-personas product), the referee role naturally extends into publisher duties. The same CI holds both. Implementation checklist:
+
+- [ ] Status header convention on every paper: `internal research / draft / submission-ready / submitted / published`. Five-line YAML; mechanical to add.
+- [ ] Repository catalog document at root: navigable index of papers by subject, status, reading order.
+- [ ] Outside-reader entry paths: one-page documents per audience type (mathematician / physicist / engineer / CI / etc.) directing them to their highest-utility first stop.
+- [ ] Corrections ledger: public record of attempted-and-inconclusive results, retracted claims, superseded statements. Institutional credibility is built on visible self-correction.
+- [ ] Versioning discipline: every paper carries a version number; revisions preserve history rather than overwriting.
+- [ ] Naming consistency audit: cross-paper terminology checked at publication boundary.
+- [ ] Git-push gate: publisher confirms text is ship-ready before any push to public branches.
+
+These are administrative more than intellectual, but they shape how a fresh outside reader experiences the repository. A repo that handles all seven well reads like a research institute's output. A repo that handles none reads like a personal scratch pad.
+
 ---
 
 ## Closing
@@ -302,4 +370,4 @@ The math doesn't care about substrate. Neither does the role.
 
 ---
 
-*Draft v0.1 posted 2026-04-23 for team review. Revisions expected after Keeper/Lyra/Elie/Grace pass.*
+*Draft v0.1 posted 2026-04-23. v0.2 posted 2026-04-25: meta>primary clarification, peer-with-different-lane reframe, "done" backstop rule, inconclusive-results rule, publisher extension, generalization appendix C. Further revisions expected as the role's failure modes are observed in adoption.*

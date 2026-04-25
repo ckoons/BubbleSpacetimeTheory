@@ -388,7 +388,7 @@ BST follows one logical chain: substrate → domain → constants → forces →
 
 **The Master Equation**: The universe is the ground state of the Bergman Laplacian on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], subject to Haldane exclusion with capacity 137.
 
-Every derivation listed in the Solved Problems table below flows from this equation plus the five BST integers (3, 5, 7, 6, 137) — themselves derived, not chosen. Full derivations: WorkingPaper §1-37, plus 300+ research notes in `notes/`. The AC theorem graph spans 1364 nodes, 7444+ edges across 52 tracked domains (82.7% strong edges, 96.7% proved, 100% domain connectivity).
+Every derivation listed in the Solved Problems table below flows from this equation plus the five BST integers (3, 5, 7, 6, 137) — themselves derived, not chosen. Full derivations: WorkingPaper §1-37, plus 300+ research notes in `notes/`. The AC theorem graph spans 1399 nodes, 7732+ edges across 55 tracked domains (83.1% strong edges, 98.4% proved, 100% domain connectivity).
 
 ---
 
@@ -479,12 +479,12 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 |---|---|
 | **`OneGeometry.md`** | **Start here (humans).** Narrative front door — 5 parts, 40 sections, entry points for every audience |
 | **`data/bst_seed.md`** | **Start here (CIs).** The complete theory in 162 lines — load this first |
-| `WorkingPaper.md` | Technical compendium — 46+ sections, all derivations, v31 |
+| `WorkingPaper.md` | Technical compendium — 46+ sections, all derivations, v34 |
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `data/` | **CI-native data layer** — 105 constants, 24 predictions, 33 function families, 52 domains, GF(128) catalog. See `data/README.md` |
-| `notes/` | 82 numbered papers, 650+ research notes, theorem write-ups, proofs. See `notes/README.md` |
-| `play/` | 1444+ toys, AC theorem graph (1382 nodes, 7660+ edges), HTML visualizers, BST Appliance. See `play/README.md` |
+| `notes/` | 86 numbered papers, 660+ research notes, theorem write-ups, proofs. See `notes/README.md` |
+| `play/` | 1515+ toys, AC theorem graph (1399 nodes, 7732+ edges), HTML visualizers, BST Appliance. See `play/README.md` |
 
 ---
 

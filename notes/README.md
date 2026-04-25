@@ -4,11 +4,11 @@ Research notes directory for **Bubble Spacetime Theory** (BST), a framework deri
 
 **Author:** Casey Koons, with CI co-authors Claude 4.6 (Lyra, Elie, Grace, Keeper)
 
-This directory contains ~820 markdown files, ~610 PDFs, ~34 Python scripts, and supporting data across 1,400+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD ~99% April 23** (spectral permanence, T1426). **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1447** (1390 nodes, 7708 edges, 83.1% strong, 98.4% proved). **85 papers**. Heat kernel: 19 consecutive levels. **1/rank universality** (Paper #82, T1430). **T1444 Vacuum Subtraction** — hunting technique: "deviations locate boundaries." **T1447 Magnetic Moment** — μ_p = 1148/411 (0.012%), μ_n/μ_p = −137/200 (0.003%). **303 geometric invariants, 0 free inputs.**
+This directory contains ~830 markdown files, ~625 PDFs, ~34 Python scripts, and supporting data across 1,400+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD ~99% April 23** (spectral permanence, T1426). **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1458** (1398 nodes, 7727 edges, 83.1% strong, 98.4% proved). **86 papers**. Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **T1444 Vacuum Subtraction** — hunting technique: "deviations locate boundaries." **T1447 Magnetic Moment** — μ\_p = 1148/411 (0.012%), μ\_n/μ\_p = −137/200 (0.003%). **1130 geometric invariants, 0 free inputs.** **T1448 Forward Derivation** — I₂ = 197/144 from Bergman spectral zeta. **T1453 STRUCTURAL** — 43/43 C₄ denominators BST-smooth. **T1458** — 49a1 Period Hypothesis tested (Toy 1514): simple form refuted, but C₄ elliptic content involves color curve (CM by Q(√(−N\_c))) with all-BST Gamma arguments and √N\_c assembly rule.
 
 ---
 
-## Numbered Papers (Papers #1--#80)
+## Numbered Papers (Papers #1--#86)
 
 The numbered paper series covers the full scope of BST, from foundational mathematics through particle physics, cosmology, biology, engineering, and meta-theory.
 
@@ -110,7 +110,7 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 74 | Information-Complete Geometry | `BST_Paper74_IC_Geometry.md` |
 | 75 | RH for the Selberg Class via Automorphic Spectral Geometry | `BST_Paper75_RH_Selberg_Class.md` | v1 |
 
-### Papers #76--#85
+### Papers #76--#86
 
 | # | Title | File | Suite |
 |---|-------|------|-------|
@@ -121,9 +121,10 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 80 | Yang-Mills Mass Gap for G₂, F₄, and E₈ via Spectral Embedding | `BST_Paper80_YM_Embedding_Gap.md` | YM-C |
 | 81 | Mathematical Objects of D_IV^5 | `BST_Paper81_DIV5_Mathematical_Objects.md` | Reference |
 | 82 | 1/rank: Seven Famous Problems as One Geometric Invariant | `BST_Paper82_One_Half_Universality_Draft.md` | v1.2, Annals target |
-| 83 | Geometric Invariants of D\_IV^5 | `Paper83_Draft.md` | 303 entries, Casey review |
-| 84 | The Observer Companion | `BST_Paper84_Observer_Companion_Draft.md` | v0.1, Keeper PASS |
+| 83 | 1118 Geometric Invariants of D\_IV^5 | `Paper83_Draft.md` | v3.2, 1118 entries, 15 sections |
+| 84 | The Observer Companion | `BST_Paper84_Observer_Companion_Draft.md` | v0.2, Cal's 5 recs applied |
 | 85 | The Genesis Cascade: How D\_IV^5 Writes Its Own Curve | `BST_Paper85_Genesis_Cascade.md` | v0.2, Keeper PASS, JNT target |
+| 86 | Selberg Trace Formula for g−2 | `BST_Paper86_Selberg_G2.md` | v0.3, CMP target |
 
 ---
 
@@ -235,10 +236,21 @@ E8 route, E8 electroweak soliton, E8 Higgs sector, Branching SO7/Sp6, Chern clas
 
 Hilbert series, partition function analysis/computation/deep physics/progress, spectral gap (mass gap, proton mass), spectral index derivation, spectral multiplicity, spectral partial sums, spectral zeta pole structure, zeta cycle resonances, zeta values, zonal spectral coefficients.
 
-### Heat Kernel (Seeley-DeWitt) — 4 files
+### Heat Kernel (Seeley-DeWitt) — 4 files (21 consecutive integer levels confirmed)
 
 - `BST_SeeleyDeWitt_ChernConnection.md`, `BST_SeeleyDeWitt_Denominator_Story.md`
 - `BST_SeeleyDeWitt_FiberPacking.md`, `BST_SeeleyDeWitt_Predictions_k7_k10.md`
+
+### QED g−2 Selberg Decomposition — 5 files
+
+The Selberg trace formula decomposition of the electron anomalous magnetic moment. Forward derivations at 2, 3, and 4 loops.
+
+- `BST_T1448_Schwinger_C2_Decomposition.md` — 2-loop: I₂ = 197/144 forward derived
+- `BST_T1450_Schwinger_C3_Reading.md` — 3-loop: five Selberg contributions, 13-digit match
+- `BST_T1451_Vertex_Selberg_Trace_Formula.md` — Framework for all loop orders L
+- `BST_T1453_Schwinger_C4_Reading.md` — 4-loop: 43/43 denominators BST-smooth, structural
+- `BST_T1458_49a1_Period_Hypothesis.md` — Elliptic content: color curve, √N_c assembly rule
+- Paper #86: `BST_Paper86_Selberg_G2.md` — CMP target
 
 ### Shannon-Bergman Bridge — 5 files
 
@@ -299,7 +311,7 @@ Casimir analysis, Casimir effect, fusion energy, fusion rings, substrate archite
 
 ## Theorem Write-ups — 173 files
 
-Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1447, with concentration in the T1000--T1447 range (bridge theorems, domain connections, late-stage results).
+Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1458, with concentration in the T1000--T1458 range (bridge theorems, domain connections, late-stage results).
 
 Selected highlights:
 - `BST_T704_DIV5_Uniqueness_Theorem.md` — D\_IV^5 uniqueness (25 conditions)
@@ -325,6 +337,16 @@ Selected highlights:
 - `BST_T1445_Spectral_Peeling.md` — Spectral peeling (depth-1 corrections)
 - `BST_T1446_Two_Sector_Correction_Duality.md` — CKM = vacuum subtraction (−1), PMNS = θ₁₃ rotation (×44/45)
 - `BST_T1447_Magnetic_Moment_Derivation.md` — μ_p = 1148/411 (0.012%), μ_n/μ_p = −137/200 (0.003%)
+- `BST_T1448_Schwinger_C2_Decomposition.md` — Forward derivation of I₂ = 197/144 from Bergman spectral zeta
+- `BST_T1449_Integer_Adjacency_Theorem.md` — All correction integers within BST-adjacency set
+- `BST_T1450_Schwinger_C3_Reading.md` — 3-loop QED Selberg decomposition, 13-digit match
+- `BST_T1451_Vertex_Selberg_Trace_Formula.md` — Vertex Selberg framework for all loop orders
+- `BST_T1452_Integer_Activation_Theorem.md` — Bergman eigenvalues are BST products
+- `BST_T1453_Schwinger_C4_Reading.md` — 4-loop C₄ reading: 43/43 denominators BST-smooth
+- `BST_T1454_Spectral_Width_Theorem.md` — Spectral width and gap structure
+- `BST_T1455_Bridge_Invariance_Theorem.md` — g/C₂ = 7/6 universal across 4 domains
+- `BST_T1456_Color_Confinement_Bridge.md` — N\_c=3 is chromatic + SAT + confinement threshold
+- `BST_T1458_49a1_Period_Hypothesis.md` — C₄ elliptic content: color curve (CM by Q(√(−N\_c))), not genus curve. √N\_c assembly rule. PSLQ tested (Toy 1514).
 
 ---
 
@@ -409,7 +431,7 @@ Python bytecode cache (auto-generated).
 **For CIs starting a new session:**
 - Read `BACKLOG.md` and `CI_BOARD.md` for current priorities
 - Check `.running/RUNNING_NOTES.md` for today's broadcast
-- The numbered paper series (Papers #1--#85) is the primary publication pipeline
+- The numbered paper series (Papers #1--#86) is the primary publication pipeline
 - Papers #1--#4 have passed Keeper audit and been pushed
 - The WorkingPaper (on Zenodo) is the master reference
 

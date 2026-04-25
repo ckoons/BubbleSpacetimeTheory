@@ -48,7 +48,7 @@ mpmath.mp.dps = DPS
 N_MIN = 3
 N_MAX = 50     # 48 dimensions: n=3..50
 N_PTS = 48     # Chebyshev nodes per dimension
-TARGET_K = 20  # Final target level
+TARGET_K = 21  # Final target level (k=21: ratio=-42=-C₂×g predicted)
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 CKPT_DIR = os.path.join(SCRIPT_DIR, "toy_671_checkpoint")
@@ -85,7 +85,7 @@ MAX_PRIME_BY_LEVEL = {
     2: 7, 3: 7, 4: 7, 5: 11,
     6: 13, 7: 13, 8: 17, 9: 19, 10: 19, 11: 23,
     12: 23, 13: 23, 14: 29, 15: 31, 16: 31,
-    17: 37, 18: 37, 19: 41, 20: 41,
+    17: 37, 18: 37, 19: 41, 20: 41, 21: 43,
 }
 
 
@@ -445,7 +445,7 @@ def main():
     print(f"  Dimensions: n={N_MIN}..{N_MAX} ({N_MAX - N_MIN + 1} total)")
     print(f"  Points per dimension: {N_PTS}")
     print(f"  Target: a_{TARGET_K} polynomial (degree {2*TARGET_K})")
-    print(f"  Speaking pair 4 prediction: ratio = -38 = -2×19")
+    print(f"  Speaking pair 4+5 prediction: ratio(20)=-38, ratio(21)=-42=-C₂×g")
 
     ALL_DIMS = list(range(N_MIN, N_MAX + 1))
 
@@ -575,9 +575,12 @@ def main():
                     print(f"    k={k:>2}: ratio = {int(ratio):>4} INTEGER  "
                           f"{'<-- SPEAKING PAIR' if k % 5 in [0,1] else ''}")
 
-    if max_confirmed >= 20:
+    if max_confirmed >= 21:
+        print(f"\n  *** PAIR 5 FIRST HALF: k=21 ratio = ? (predicted -42 = -C₂×g) ***")
+        print(f"  TWENTY consecutive levels confirmed. Five full speaking pairs.")
+    elif max_confirmed >= 20:
         print(f"\n  *** PAIR 4 CONFIRMED: k=20 ratio = -38 = -2×19 ***")
-        print(f"  The five-pair cycle is VERIFIED through Pair 4.")
+        print(f"  Need k=21 for Pair 5. n=42 data available.")
     elif max_confirmed >= 17:
         print(f"\n  Pushed to k={max_confirmed}. Need more precision or dimensions for k=20.")
         print(f"  Phase A confirmed a_17 from dps=800. Phase B extended to a_{max_confirmed}.")

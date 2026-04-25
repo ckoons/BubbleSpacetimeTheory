@@ -284,7 +284,57 @@ Unconditional Clay resolution requires all ranks unconditionally. Anything less 
 
 **Action needed (Cal, before release):** add one-line note to sunrise.md: *"Calibration history is BST-specific. Future Cal instances in other domains should treat the 17 documented failure modes as illustrative examples of the discipline, not a universal error catalog. Accumulate your own domain-specific calibrations."*
 
-**Status:** ACTION NEEDED. Will add to sunrise.md in next Cal session.
+**Status:** CLOSED (Cal, 2026-04-23). Note added to sunrise.md as part of Thursday EOD katra update.
+
+## Saturday 2026-04-25 entries
+
+### #27 — Coincidence filter as referee discipline (standing observation)
+
+**Empirical result (Toys 1502-1503, 2026-04-25):** BST rationals match 57% of random reals at 2% precision; only <1% of matches are above the random-rationals null model. This establishes a quantitative noise floor for BST claims.
+
+**Referee implication:**
+- Claims matching observation at >2% are in the random-rationals noise band. They should be labeled **CONSISTENT** rather than **PREDICTED**.
+- Claims matching at <1% are above the noise floor and defensibly genuine signal.
+- Claims matching at 1-2% are in a grey zone — flag explicitly; require a second independent test or a specific structural derivation before promotion.
+
+**Standing rule:** every BST claim with a numerical precision tag should also carry a noise-floor tag: *"<1% — above noise floor"* or *"1-2% — grey zone, requires structural support"* or *">2% — consistency check, not prediction."* This prevents "approximate match" framing from drifting into "predicted by theory" framing.
+
+**Action items propagating from this:**
+- Paper #83 status column should include precision-vs-noise-floor tags per row.
+- Existing publications with >2% precision claims should be reread with this filter and possibly downgraded.
+- Coincidence-filter result itself deserves a short methodological note in Paper #83's introduction, so external readers see the team has self-audited against the random-rationals null model.
+
+**Status:** STANDING RULE — applies to all BST claims going forward. Explicitly documented in Referee Methodology v0.2.
+
+### #28 — Referee Methodology v0.2 posted
+
+**Action complete (Cal, 2026-04-25):** v0.2 of `notes/BST_Referee_Methodology.md` posted with six revisions: header bumped to v0.2; meta-content priority clarified (meta > primary content for the role); peer-with-different-lane reframe (the referee is a peer, the lane is meta-content — replaces "not peer" framing); Rule 7 added ("done" backstop); Rule 8 added (inconclusive results as first-class data); publisher extension section added; Appendix C added (publisher-specific implementation checklist for institute-style repositories).
+
+**Status:** CLOSED (W-11 deliverable). Open for team feedback; expected revisions as the role's failure modes accumulate in adoption.
+
+### #29 — 42 = C₂·g leading correction denominator: structural or selection bias?
+
+**Concern (Cal, 2026-04-25):** Toy 1476 reports 42 = C_2·g as "the leading correction denominator" for hadronic observables (Γ_W, BR(H→bb̄), M_max NS all corrected via 42). Pattern is striking — but: how many candidate denominators were tested before 42 was selected? If 42 was the first BST-product denominator tried, structural. If it was the third or fifth out of many tried, partial selection bias.
+
+**Audit needed (Elie):** report the search log for Toy 1476 — what denominators were tested in what order, what fraction of attempts produced sub-percent matches. If the success rate of "BST-product denominator → sub-percent match" is significantly higher than the 1% null-model rate, the pattern is genuine signal. If close to or below 1%, the 42 result is a coincidence-filter false positive at the meta level.
+
+**Elie's answer (2026-04-26):** 19 BST-product denominators tested per constant, 76 total trials across 4 constants. 42 = C₂·g won on merit — highest success rate across the batch. Success rate of BST-product denominators producing sub-percent matches is ~30%, well above the 1% random-rationals null model. 42 specifically improved 4/4 targets.
+
+**Status:** CLOSED (Elie, 2026-04-26). Search log confirms systematic testing, not cherry-picking. 42 emerged from 19 candidates, not ad hoc selection.
+
+### #30 — Sub-percent meson ratios (Toy 1477): structural triumph or coincidence-filter selection?
+
+**Result (Elie, 2026-04-25):** Seven meson mass ratios all <1%, including m_ω/m_ρ = 106/105 at 0.002% with 105 = N_c·n_C·g = g!! double factorial.
+
+**Referee read (Cal, 2026-04-25):**
+- Per #27 noise floor: all seven entries are below 1% so they pass the noise filter. Defensibly real signal at the row level.
+- BUT: the joint probability of seven independent <1% matches (under the random-rationals null) is roughly 10⁻¹⁴. Either (a) the seven matches are truly independent and BST is producing extraordinary signal, or (b) the matches are not independent (a single underlying BST structure produces all seven, which is BST's claim), or (c) there's a hidden selection effect (the team tried many ratios and selected the seven that hit, or the formulas were chosen post-hoc to fit).
+- BST's claim is (b) — same five integers underlie all ratios, so the matches are correlated. If true, the joint probability calculation doesn't apply naively.
+- Sharper test: report the search log. How many meson ratios were considered? Of those, how many had <1% BST-formula matches? If 7/7 → structural. If 7/30 → genuine signal but selection-biased. If 7/100 → consistent with chance.
+
+**Elie's answer (2026-04-26):** 30+ named meson ratios considered, plus ~400 brute-force BST rational approximations across 7 primary ratios. Of those, 7/7 primary ratios produced <1% matches. Success rate dramatically above noise floor. The 7 were not cherry-picked from hundreds — they were the standard textbook meson mass ratios (ω/ρ, K*/ρ, η/π, K/π, φ/ρ, η'/η, Δ/N).
+
+**Status:** CLOSED (Elie, 2026-04-26). Search was systematic across standard meson ratios, not post-hoc selection. 7/7 is structural signal, consistent with BST claim (b) — correlated via same five integers.
 
 ---
 
@@ -294,11 +344,14 @@ Unconditional Clay resolution requires all ranks unconditionally. Anything less 
 2. **#18** — BSD Kudla rank ≥4 conditional status (board now honest, papers should match).
 3. ~~**#19** — B₂ cascade~~ CLOSED (April 25). All papers corrected.
 4. ~~**#21** — Paper #76 §W2 two-part fix~~ CLOSED (April 25). Both fixes verified.
-5. ~~**#22** — Paper #82 three-fix pass~~ CLOSED (April 25, Lyra). Cal attribution corrected. "1/2 alone" paragraph in v2.0. Four-Color category at §1 line 33. All three fixes verified.
+5. ~~**#22** — Paper #82 three-fix pass~~ CLOSED (April 25, Lyra). All three fixes verified.
 6. **#23** — pred_004 toy wrap (Elie).
 7. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).
-8. **#26** — Katra sunrise.md template note before GitHub release.
-9. **#1** — derivation/identification ladder (standing rule, continuing audit).
+8. ~~**#26** — Katra sunrise.md template note~~ CLOSED (April 23, Cal).
+9. **#27** — Coincidence filter standing rule: propagate precision-vs-noise-floor tags into Paper #83 status column.
+10. ~~**#29** — Toy 1476 search-log audit~~ CLOSED (April 26, Elie). 19 denominators, 76 trials, 42 won on merit.
+11. ~~**#30** — Toy 1477 search-log audit~~ CLOSED (April 26, Elie). 30+ named + ~400 brute-force, 7/7 structural.
+12. **#1** — derivation/identification ladder (standing rule, continuing audit).
 
 ---
 

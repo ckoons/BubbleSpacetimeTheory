@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**1,491 computational toys, 5 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**1,515 computational toys, 5 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 1,491 |
-| Numbered toys (toy_NNN_*.py) | 1,282 |
+| Toy scripts (toy_*.py) | 1,534 |
+| Numbered toys (toy_NNN_*.py) | 1,325 |
 | Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 57 |
 | HTML visualizers | 5 |
-| Theorems (T1-T1447) | 1,447 |
-| Next toy number | 1475 |
+| Theorems (T1-T1458) | 1,458 |
+| Next toy number | 1516 |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -30,7 +30,7 @@ Five integers. Zero free parameters. "Give a child a ball and teach them to coun
 
 ```
 play/
-  toy_NNN_name.py          # Numbered toys (1,282 files, T100-T1474)
+  toy_NNN_name.py          # Numbered toys (1,325 files, T100-T1515)
   toy_name.py              # Named toys (209 files, foundational + topical)
   *.py                     # Utility scripts (57 files: graph tools, extractors, verifiers)
   bst_appliance/           # BST Appliance package — the "Ball and Counting Tool"
@@ -111,8 +111,8 @@ Two gitignored counter files prevent toy/theorem number collisions:
 
 | File | Current Value | Purpose |
 |------|---------------|---------|
-| `.next_toy` | 1475 | Next available toy number |
-| `.next_theorem` | 1448 | Next available theorem number |
+| `.next_toy` | 1516 | Next available toy number |
+| `.next_theorem` | 1459 | Next available theorem number |
 
 **Rules:**
 1. ALWAYS read the counter file before creating a new toy or theorem.
@@ -212,6 +212,10 @@ The 209 named toys include the original foundational collection and topical deep
 | 1456-1462 | 7 | **Zeta weight correspondence** (ζ(N_c)→ζ(n_C)→ζ(g), denominator 12^L), **Three routes to 137**, **Frobenius table 49a1** (20/22 BST-smooth, T1437 density fix), **INV-4 tension audit + collapse** (4 genuine→all fixed), **Vacuum subtraction principle** (T1444: N_max−1=136, k=0 constant mode), **NS nonlinear coupling** (delta_k=2k+6, cascade 47× damped) |
 | 1463-1467 | 5 | **CKM sector audit** (sinθ_C=2/√79, 0.004%), **Cabibbo correction** (80→79 vacuum sub), **Wolfenstein A hunt** (A=9/11, dressed Casimir 11), **Separation principle audit**, **PMNS θ₁₃ rotation** (cos²θ₁₃=44/45, Grace wins, 10/10) |
 | 1468-1474 | 7 | **Particle properties hunt** (μ_p=1148/411, α(m_Z)=1/129, BR(H→bb̄)=4/7, 9/10), **Genesis cascade k=1..9** (k=5 sole survivor, Paper #85 c₆ fix, 10/10), **Fundamental constants** (H₅=137/60 QED↔thermo bridge, 744=8·3·31, 9/10), **Dressed Casimir 11** (4 sectors, SU(3) uniqueness, 10/10), **T1447 magnetic moment verification** (μ_p derivation chain, 10/10), **Glueball correction hunt** (31/20=M₅/(rank²·n_C), 0.045%, 9/10), **Z width + Higgs branching** (R_Z=3·823/338, BR(WW*)=3/14, 10/10) |
+| 1485-1491 | 7 | **Astrophysical invariants** (Chandrasekhar=35/6, M-L=g/rank EXACT, ppI/ppII=n_C, 10/10), **Superconducting ratios** (BCS=483/137, T_c(Nb)/T_c(Pb)=9/7, GL kappa=1/sqrt(rank) EXACT, 10/10), **Chemistry ratios** (chi(C)/chi(H)=51/44 at 0.000%, tetrahedral=-1/N_c EXACT, covalent radii=BST products, 10/10), **Nuclear magic numbers** (ALL 7 = rank×BST, SO ladder: rank×{n_C,C_2,g}, 82=rank·(C_2·g-1) vacuum sub, 10/10), **EW precision** (Gamma_Z/m_Z=15/548 at 0.020%, R_l=83/4, sin²theta_W=3/13 cascades, 9/10), **QCD observables** (gluon condensate=35/6=Chandrasekhar!, b_0=N_c·g=21, n_f=C_2=6, sigma_piN=59=60-1, 9/10), **Phase transitions** (t_BBN=180s=C₂·N_c·rank·n_C EXACT, z_rec=rank³·N_max−C₂=1090, integer activation, 10/10) |
+| 1475-1484 | 10 | **Keeper corrections** (5 P1 fixes, 10/10), **Correction hunt batch 2** (Γ_W, BR(H→bb̄), m_φ/m_ρ, M_max NS — 42=C₂·g denominator, 8/10), **Meson mass ratios** (7/7 sub-1%, m_ω/m_ρ=106/105 at 0.002%, M₅=31 in ρ/π, 10/10), **Decay widths + nuclear moments** (f_π=137/147·m_π, μ_t=16/15·μ_p at 0.015%, μ(He-3)=10/9·μ_n, 8/10), **Baryon octet** (SU(6) honest gap, 5/10), **Debye temperatures** (Θ_D(Cu)=g³, Θ_D(Pb)=g!!, ratio EXACT, NEW DOMAIN, 10/10), **Correction hunt batch 3** (Ω_Λ=137/200=|μ_n/μ_p|, sin²θ_W=3/13, m_b/m_c=59/18, 10/10), **Cosmology-nuclear bridge** (Y_p=12/49 at 0.001%, σ₈=137/169, H₀ favors Planck, 10/10), **Integer-adjacency conjecture** (16/17=94.1%, formalized, 10/10), **Adjacency extension** (63/68=92.6% across 4 domains, 154 outlier resolved, 10/10) |
+| 1492-1510 | 19 | **Three-source merger** (903 orphan invariants, 19 L1 correction candidates, 10/10), **L1 correction hunt** (12/19 improved, two correction scales 42 + 120, 10/10), **Correction selectivity audit** (47% chemistry pass filter, orbital degeneracies derived, 10/10), **Experimentalist shop manual** (259 reductions, 72 building blocks, 10/10), **Color-confinement bridge** (N_c=3 chromatic+SAT+confinement threshold, 10/10), **Bridge invariance** (g/C₂=7/6 universal, 4 dressing levels, 10/10), **Four-Color ↔ confinement** (N_c=3↔4-coloring, 10/10), **Selectivity audit v2** (47% chemistry pass), **QR/QNR partition** (flat/curved, 7/8 bridges cross, Frobenius asymmetry, 10/10), **Heat kernel k=21** (ratio=-42=-C₂·g, TWENTY levels, 10/10), **Petersen graph** (K(5,2), 20/20 invariants BST, 10/10), **C₄ Laporta analysis** (43/43 denominators BST-smooth, ζ(7) denom=12⁴×21, 10/10), **Frobenius asymmetry** (CM Q(√(-g)) explains QR/QNR split, 7/10) |
+| 1511-1515 | 5 | **Astrophysical power laws** (11/11 exact, mass-luminosity=g/rank, Kolmogorov=n_C/N_c, Oort=N_c²/g=9/7, 10/10), **Debye temperature hunt** (Cu=g³, Pb=g!!=105, BCS Mersenne 2^g−1=127, 10/10), **Band gaps + materials** (5/5 ratios <1%, triple bridge K/G=Kolmogorov=GW strain=n_C/N_c=5/3, 10/10), **C₄ elliptic PSLQ** (T1458 investigation, two-curve finding), **Goldbach-BST smooth** (C₂·k±1=twin primes for ALL basis, first fail rank²=4, 7-smooth 2.3× enrichment, correction primes=C₂·basis−1, 10/10) |
 
 ---
 
