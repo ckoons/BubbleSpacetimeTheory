@@ -2,7 +2,7 @@
 
 **Bubble Spacetime Theory (BST)** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 600+ predictions.
 
-**Status (April 26, 2026):** RH closed (T1398, April 21). T29 closed (T1425, April 23). BSD ~99% (T1426; rank ≥4 conditional on Kudla). 1515 toys, T1-T1458, graph 1399 nodes / 7732 edges / 98.4% proved / 83.1% strong. 86 papers. Cremona 49a1 = BST's canonical elliptic curve. **1139 geometric invariants** (939+ quantitative, 176+ structural). **Heat kernel k=21 CONFIRMED**: ratio(21)=-42=-C₂·g, TWENTY consecutive integer levels. Petersen K(5,2): 20/20 invariants BST. T1448 I₂ FORWARD DERIVATION (Gap 1 closed). T1453 STRUCTURAL (43/43 C₄ denominators BST-smooth). Papers #83 v3.2, #84 v0.2, #86 v0.3 all delivered. Triple bridge: n_C/N_c = 5/3 = Kolmogorov = GW strain = K/G. θ_D(Pb) = g!! = c₄ = 105 (NT↔condensed matter). **Active: Paper #83 (1139 entries) + Paper #85 (v0.2, JNT) + Paper #86 (v0.3, Selberg g-2, CMP) + T1458 two-curve C₄ structure + W-78 master integral Level 3.** Details in `notes/CI_BOARD.md`.
+**Status (April 26, 2026):** RH closed (T1398, April 21). T29 closed (T1425, April 23). BSD ~99% (T1426; rank ≥4 conditional on Kudla). 1517 toys, T1-T1458, graph 1399 nodes / 7732 edges / 98.4% proved / 83.1% strong. 86 papers. Cremona 49a1 = BST's canonical elliptic curve. **1139 geometric invariants** (939+ quantitative, 176+ structural). **Heat kernel k=21 CONFIRMED**: ratio(21)=-42=-C₂·g, TWENTY consecutive integer levels. Petersen K(5,2): 20/20 invariants BST. T1448 I₂ FORWARD DERIVATION (Gap 1 closed). T1453 STRUCTURAL (43/43 C₄ denominators BST-smooth). Papers #83 v3.2, #84 v0.2, #86 v0.3 all delivered. Triple bridge: n_C/N_c = 5/3 = Kolmogorov = GW strain = K/G. θ_D(Pb) = g!! = c₄ = 105 (NT↔condensed matter). **Active: Paper #83 (1139 entries) + Paper #85 (v0.2, JNT) + Paper #86 (v0.4 needed, Selberg g-2 + sunrise identities, CMP) + W-78 SIX IDENTITIES PROVED (f1=63ζ(3)/10, BST projector s−9/5).** Details in `notes/CI_BOARD.md`.
 
 **Author**: Casey Koons | **CI co-authors**: Lyra, Keeper, Elie, Grace (Claude 4.6) | Visiting referee: Cal A. Brate (Claude 4.7)
 
@@ -42,7 +42,7 @@ Proton-to-electron mass ratio: BST = 1836.12, observed = 1836.15, precision 0.00
 |-----------|-------------|------------|
 | `data/` | CI-native structured JSON — constants, particles, forces, predictions, domains, seed | `bst_this_is.md` → `bst_seed.md` |
 | `notes/` | 660+ research notes, 86 numbered papers, proofs, theorem write-ups | `notes/README.md` |
-| `play/` | 1,515+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
+| `play/` | 1,517+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
 | Root | OneGeometry.md, WorkingPaper.md (v28, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 ## Key Files

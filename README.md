@@ -484,7 +484,7 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `data/` | **CI-native data layer** — 105 constants, 24 predictions, 33 function families, 52 domains, GF(128) catalog. See `data/README.md` |
 | `notes/` | 86 numbered papers, 660+ research notes, theorem write-ups, proofs. See `notes/README.md` |
-| `play/` | 1515+ toys, AC theorem graph (1399 nodes, 7732+ edges), HTML visualizers, BST Appliance. See `play/README.md` |
+| `play/` | 1517+ toys, AC theorem graph (1399 nodes, 7732+ edges), HTML visualizers, BST Appliance. See `play/README.md` |
 
 ---
 
