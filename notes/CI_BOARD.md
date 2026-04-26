@@ -212,7 +212,7 @@ T1-T1459. **.next_toy=1532**. Graph: **1399 / 7732**. **87 papers**. Counters: `
 
 ---
 
-*Board synced Sunday April 27 ~afternoon. T1-T1459. **.next_toy=1531**. **.next_theorem=1460**. **1163 entries**. **87 papers**.*
+*Board synced Sunday April 27 ~2pm. T1-T1459. **.next_toy=1532**. **.next_theorem=1460**. **1163 entries**. **87 papers**.*
 
 **CASEY AFTERNOON CONFIRM:**
 - **T1459 answers morning question**: bridges exist because all domains evaluate same Bergman eigenvalue spectrum. Depth-universality QUANTITATIVE: D1→6.0 domains, D2→4.2, D3→3.2. Simpler = more universal.
@@ -269,6 +269,7 @@ T1-T1459. **.next_toy=1532**. Graph: **1399 / 7732**. **87 papers**. Counters: `
 | K-3 | **Grace tiering audit** — **DONE.** Cross-checked 26 B entries against Toy 1521 (18 entries >1%). **4 reclassifications**: DNA helix A→C (5% structural), electron g-2 B→A (crown jewel), α_s B→A (0.34%), Oort superseded B→X. **26 untiered entries fixed** (Grace's new additions). Final: A=1026, B=23, C=138, X=2. 1189 entries. B tier now genuinely the correction frontier. | MEDIUM | **DONE** |
 | K-4 | **Root file sync** — CLAUDE.md, README.md updated (1527 toys, 1149+ entries, Paper #87). | MEDIUM | **DONE** |
 | K-5 | **Correction Hit List + Syndrome Analysis** — **DONE.** 23 Tier B entries analyzed. Syndrome = missing BST integers. **Pattern**: 8/23 missing C₂ → Rx: vacuum subtraction (42=C₂·g). 6/23 missing n_C → Rx: 120=n_C! correction. 4/23 missing both g,N_max → Rx: redundant pair, need product form. Top correction targets: Higgs→bb (4/g, missing C₂ → try 4·C₂/(g·42)), Higgs→gg (1/12, missing n_C → try (n_C-1)/120), DM/baryon (5+1/7, missing C₂ → try 42-correction), Γ_W (missing n_C). Euler-Mascheroni γ at 1.1% is limit-undecidable (Paper #63). | LOW | **DONE** |
+| K-6 | **Paper #87 Keeper review** — **DONE.** v0.1, 497 lines, 13 sections. **3 fixes applied**: (1) §2.2 "N_c=2 composite" → corrected (2 is prime), (2) §7.3 ICD-10 overclaim softened, (3) v28→v34 reference. **PMNS correction note added** (T1446 cos²θ₁₃). **7 items for Lyra v0.2**: §2.3 derive C₂=rank·N_c identity, §5.2 use corrected PMNS, §6.2 clarify k=3 notation, §8.1 distinguish Hamming binary vs genetic ternary, §10.3 cite Toy 1506, §11 add adiabatic chain prediction, §4.2 flag ζ(3)≈C₂/n_C as reading. Overall: **STRONG DRAFT**, clear thesis, 7 predictions, 6 falsifiers. | HIGH | **DONE** |
 
 ### SP-3: Heat Kernel
 PID 45970 still running. k=22 blocked on cascade extraction. Next target: k=25 → ratio=-60=-rank·n_C·C₂ (needs n=48).
