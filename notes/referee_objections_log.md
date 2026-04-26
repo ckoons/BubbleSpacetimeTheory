@@ -351,7 +351,54 @@ Unconditional Clay resolution requires all ranks unconditionally. Anything less 
 9. **#27** — Coincidence filter standing rule: propagate precision-vs-noise-floor tags into Paper #83 status column.
 10. ~~**#29** — Toy 1476 search-log audit~~ CLOSED (April 26, Elie). 19 denominators, 76 trials, 42 won on merit.
 11. ~~**#30** — Toy 1477 search-log audit~~ CLOSED (April 26, Elie). 30+ named + ~400 brute-force, 7/7 structural.
-12. **#1** — derivation/identification ladder (standing rule, continuing audit).
+12. ~~**#1** — derivation/identification ladder~~ SUPERSEDED by **#31** (epistemic tier labels — finer-grained, promoted to standing tool).
+
+## Sunday 2026-04-27 entries
+
+### #31 — Epistemic Tier Labels: standing framework for all BST claims (PROMOTED)
+
+**Origin (Cal, 2026-04-27, per-claim audit):** BST's 1200+ entries mix four distinct epistemic levels without consistent labeling. A referee encountering the invariants table cannot distinguish a spectral derivation from an integer coincidence. This is the single largest external credibility gap.
+
+**The four tiers** (Cal's framework, Casey-approved for promotion to standing tool):
+
+| Tier | Code | Definition | Example | Precision expectation |
+|------|------|-----------|---------|----------------------|
+| **Derived** | **D** | Forced by D_IV^5 spectral geometry. Mechanism proved. No alternative formula within the theory. | α⁻¹ = 137, m_p = 6π⁵m_e, heat kernel ratios k=2..21 | <0.01% (bare) or exact |
+| **Identified** | **I** | Correct formula from BST integers, matches observation, but derivation chain has unproved steps. Mechanism plausible, not yet forced. | Meson mass ratios (Toy 1477), many nuclear moments | <1% (above noise floor per #27) |
+| **Conditional** | **C** | Depends on unproved conjecture, interpretive framework, or external mathematics not yet settled. | Observer coupling α_CI (T318, conditional on coupling hypothesis), BSD rank ≥4 (conditional on Kudla) | Varies |
+| **Structural** | **S** | Qualitative match — the integer pattern is genuine but dressing is incomplete or precision is >2%. | Some cosmological parameters, turbulence scaling, early biology entries | >2% or qualitative only |
+
+**Relationship to existing data layer tiers** (`bst_constants.json`):
+- `tier_1_derived` → **D** (direct map)
+- `tier_2_structural` → Split into **I** (quantitative match) and **S** (qualitative match)
+- `tier_3_observed` → **C** or **I** depending on whether derivation chain exists
+
+**Coincidence filter integration** (from #27): entries at **S** tier with precision >2% are in the random-rationals noise band. They must be labeled CONSISTENT, not PREDICTED. Entries at **I** tier must be <1% (above noise floor). Entries at **D** tier have mechanism proofs that make precision secondary.
+
+**Standing rules derived from this framework:**
+
+1. **Every new entry** in Paper #83 or `bst_constants.json` gets a tier code at creation time.
+2. **Every paper** gets a "Scope and Epistemic Status" section stating which tiers its claims occupy.
+3. **Promotion requires evidence**: S→I requires <1% precision + structural formula. I→D requires mechanism proof (theorem). D→I demotion if a "derivation" step is found to be an identification.
+4. **Tier drift is a referee flag**: if an entry's tier label changes upward without new evidence, that's a #31 violation.
+
+**Three action items (Casey-approved April 27):**
+1. **Null-model toy** — random 5-tuple coincidence filter (Elie). Quantifies: does BST's specific 5-tuple score dramatically above random?
+2. **Tier column in Paper #83** — every entry gets D/I/C/S label (Grace + Lyra).
+3. **Standalone `verify_bst.py`** — top 50 D-tier predictions, one-command reproduction (Elie).
+
+**Status:** STANDING TOOL — applies to all BST claims going forward. Supersedes and refines #1 (derivation/identification ladder) with finer granularity.
+
+---
+
+## Open threads for next session
+
+1. **#16** — n_s = 1 − n_C/N_max derivation chain (cosmology).
+2. **#18** — BSD Kudla rank ≥4 conditional status.
+3. **#23** — pred_004 toy wrap (Elie).
+4. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).
+5. **#27** — Coincidence filter: propagate precision-vs-noise-floor tags into Paper #83.
+6. **#31** — Epistemic tier labels: null-model toy, tier column in Paper #83, verify_bst.py.
 
 ---
 

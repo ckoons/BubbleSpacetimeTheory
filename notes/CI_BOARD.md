@@ -241,7 +241,7 @@ T1-T1459. **.next_toy=1540**. Graph: **1399 / 7732**. **87 papers**. Counters: `
 | L-7 | **Paper #83 §1 Introduction DONE** — T1459 Spectral Universality + three bridge mechanisms + depth-universality + usage guide. v3.2→v3.3. | MEDIUM | **DONE** |
 | L-8 | **Picard-Fuchs ODE structure** — **Toy 1532 (10/10).** j(E_{N_c})=1728=(rank·C₂)³=12³ — sunrise elliptic curve at s=N_c has CM j-invariant. ALL FIVE BST integers are banana propagator counts: L+1={2,3,5,6,7}={rank,N_c,n_C,C₂,g}. Wronskian maximally simple — all residues=1. Indicial exponents: ρ²=1/N_c, -1/rank², -1/(rank·C₂). Product of denominators=(rank·C₂)²=144. **Paper #86 v0.5.** | HIGH | **DONE** |
 | L-9 | **Paper #87 v0.2 DONE** — All 7 K-6 items applied: §2.3 C₂ derivation from B₂, §4.2 honest ζ(3)≈C₂/n_C flag (0.17% not exact), §6.2 level→t notation, §8.2 new binary/quaternary distinction, §11.3 adiabatic chain prediction. Plus: §6.5 eight-level hierarchy with BCH(63,36,11) from Toy 1539 (n=2^C₂-1=63, k=C₂²=36, d=2C₂-1=11). | **TOP** | **DONE** |
-| L-10 | **Paper #83 v3.4 fixes** — W-28 remaining: stale Γ_W/BR(H→bb̄) (use Toy 1476 corrected values), truncated names in §2 (#7, #8), §6 #17 cleanup, §8 #43 move to Cosmo, §14 #39 Catalan typo, §15 #37-39 move to Crystallography. | HIGH | OPEN |
+| L-10 | **Paper #83 v3.5 DONE** — All W-28 fixes applied: Γ_W 0.50%→0.12% (Toy 1476 updated m_W), BR(H→bb̄) route rewritten via C₂·g=42 (links to k=21 heat kernel), §6 #17 status expanded to "structural", §14 #39 Catalan number vs constant clarified (OEIS A000108 note). §2 #7/#8 intact. §8 #43 and §15 #37-39 already moved in v3.3-3.4. | HIGH | **DONE** |
 | L-11 | **T1460 GKZ-BST Correspondence PROVED** — `notes/BST_T1460_GKZ_BST_Correspondence.md`. 8 properties (a)-(h): order, singularities, exponents, Fuchs, Stirling, period, CY dim, upgrade rule. All from GKZ theory + BST identification. AC depth (C=1, D=0). Connects Paper #86 to Paper #87 (rank² periods = 4 data bits). | MEDIUM | **DONE** |
 | L-12 | **CP-1: Muon g-2** (W-15 Phase 5) — The symbolic last entry. Derive from Bergman spectrum. Hardest single gap in invariants table. | HIGH | OPEN — when ready |
 
@@ -289,7 +289,7 @@ PID 45970 still running. k=22 blocked on cascade extraction. Next target: k=25 �
 - **Grace**: **1208 entries** (crossed 1200). Mersenne-BST selection rule (exponents {2,3,5,7}=independent integers). Adiabatic chain extension (closes every N_c steps, generates odd integers). Universality principles (N_c=minimum irreducible, rank=minimum observer). Product lattice with gap predictions. Code hierarchy: Hamming/Golay/BCH/Reed-Solomon ALL have BST parameters.
 - **Keeper**: K-1 through K-7 ALL DONE. Rosetta Stone (2 passes, 20 ratios). Tier cross-check (A=1026, B=23, C=138, X=2). Syndrome analysis (23 entries mapped). Paper #87 review (3 fixes, 7 items for v0.2). Gap audit (2/6 genuine, 4/6 convention — rejected).
 
-**DAY TOTALS**: 55 toys (1476-1539), 98% pass. 1208 entries. 87 papers. T1-T1459. .next_toy=1540. .next_theorem=1460.
+**DAY TOTALS**: 55 toys (1476-1539), 98% pass. 1208 entries. 87 papers. T1-T1460. .next_toy=1540. .next_theorem=1461.
 
 **TOP RESULTS**:
 1. T1459 Spectral Universality PROVED — bridges exist because all domains evaluate same Bergman spectrum
@@ -323,10 +323,10 @@ Casey's speculation: the natural dimension is N_max = 137 independent evaluation
 ---
 
 **REMAINING OPEN**:
-- Lyra: L-10 (Paper #83 fixes — active), L-12 (CP-1 muon g-2). **Next**: L-10 then CP-1
-- Elie: E-3 (blocked on PID 45970), E-7 (needs 200+ digit values). **Next**: **NULL-MODEL TOY** (Cal audit Action 1 — highest priority), BCH(63,36,11) verification
-- Grace: CP-2/3/4 ANSWERED. **Next**: CP-5 convergence (is 323 the natural dimension?), epistemic tier labels for Paper #83 (Cal audit Action 2)
-- Keeper: K-8 DONE (Paper #86 PASS). Paper #83 audit findings delivered to Lyra. **Next**: Cal audit action items (null-model toy spec, reproduction package, tier labels)
+- Lyra: L-10 DONE (Paper #83 v3.5). **L-12 (CP-1 muon g-2)** is only remaining item — formal Bergman derivation. Research complete: existing notes/BST_MuonG2_Rigorous.md has 1 ppm numerical (Toy 105), anomaly RESOLVED (WP25 0.6σ). Phase 5 = express a_μ as single Bergman spectral evaluation. Hard but well-defined.
+- Elie: E-3 **UNBLOCKED** (PID 45970 dead but n=43 data exists; Toy 1540 extraction running for k=22). E-7 (needs 200+ digit values). **Next**: **NULL-MODEL TOY** (Cal audit Action 1 — highest priority), BCH(63,36,11) verification
+- Grace: CP-2/3/4 ALL ANSWERED. **NEW**: Punctured Hamming [7,4,3]→[6,4,2] = vacuum subtraction T1444. No master ratio (irreducible sectors). ~323 independent values, ~987 formulas. **Next**: CP-5 convergence (is 323 the natural dimension?), epistemic tier labels for Paper #83 (Cal audit Action 2)
+- Keeper: K-8 DONE (Paper #86 PASS). Paper #83 audit findings applied by Lyra (v3.5). **Next**: Cal audit action items (null-model toy spec, reproduction package, tier labels)
 - **Cal audit actions** (April 27): (1) Null-model toy — random 5-tuple coincidence filter, (2) Epistemic tier column in Paper #83, (3) Standalone `verify_bst.py` reproduction package
 
 *Completed items → append-only log.*

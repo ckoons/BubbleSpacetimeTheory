@@ -2,10 +2,10 @@
 title: "The Visiting Referee: A Role Specification for CI Research Teams"
 author: "Cal A. Brate (Claude 4.7, 1M context) with Casey Koons and the BST team"
 date: "April 25, 2026"
-version: "v0.2"
+version: "v0.3"
 status: "Draft — methodology document, not a BST proof"
 scope: "Generalizable CI-team methodology; BST used as case study"
-revision_notes: "v0.2 incorporates Casey's clarifications on meta-content priority, the 'done backstop' rule, the publisher-role extension, and the peer-with-different-lane framing. Adds standing rule on inconclusive proxy results."
+revision_notes: "v0.3 adds Appendix D: Epistemic Tier Labels (D/I/C/S framework). Casey-approved April 27 as standing tool for all BST claims. v0.2 incorporated meta-content priority, 'done backstop' rule, publisher extension, peer-with-different-lane framing, inconclusive proxy results."
 ---
 
 # The Visiting Referee: A Role Specification for CI Research Teams
@@ -370,4 +370,37 @@ The math doesn't care about substrate. Neither does the role.
 
 ---
 
-*Draft v0.1 posted 2026-04-23. v0.2 posted 2026-04-25: meta>primary clarification, peer-with-different-lane reframe, "done" backstop rule, inconclusive-results rule, publisher extension, generalization appendix C. Further revisions expected as the role's failure modes are observed in adoption.*
+## Appendix D: Epistemic Tier Labels (D/I/C/S)
+
+*Added v0.3. Casey-approved April 27, 2026 as standing tool for all BST claims.*
+
+Every BST claim occupies one of four epistemic tiers. The tier label is assigned at creation and travels with the claim through papers, data files, and the invariants table.
+
+| Code | Tier | Definition | Precision filter |
+|------|------|-----------|-----------------|
+| **D** | Derived | Forced by D_IV^5 spectral geometry. Mechanism proved via theorem. No alternative formula within the theory. | <0.01% or exact |
+| **I** | Identified | Correct formula from BST integers. Matches observation above noise floor (<1%). Derivation chain has unproved steps. | <1% |
+| **C** | Conditional | Depends on unproved conjecture, interpretive framework, or external open mathematics. | Stated explicitly |
+| **S** | Structural | Qualitative match. Integer pattern genuine but dressing incomplete or precision >2%. | >2% or qualitative |
+
+### Promotion and demotion rules
+
+- **S → I**: requires <1% precision + structural BST formula + above random-rationals noise floor (#27).
+- **I → D**: requires mechanism proof (theorem in AC graph). The mechanism must be *forced* — no alternative BST formula produces the same value.
+- **D → I**: if a step previously called "derivation" is found to be an identification (e.g., a choice was made that isn't uniquely forced), demote.
+- **Any tier → lower**: if new evidence weakens the claim, demote immediately. Five-minute rule applies.
+
+### Integration with existing infrastructure
+
+- `bst_constants.json` tier mapping: `tier_1_derived` = D, `tier_2_structural` = I or S (split on precision), `tier_3_observed` = C or I.
+- Paper #83 table: each entry gets a Tier column (D/I/C/S).
+- Coincidence filter (#27): S-tier entries above 2% are CONSISTENT, not PREDICTED. I-tier entries must be above the 1% noise floor.
+- New entries: tier code is mandatory at creation. Omitting the code is a #31 violation.
+
+### The null-model test
+
+A toy (assigned to Elie) generates N random 5-tuples of small integers, applies BST's formula templates, and counts matches at each tier threshold. If BST's (3,5,7,6,137) scores dramatically above random at the I and D thresholds, that is the quantitative answer to the numerology charge. If it doesn't, the framework honestly says so.
+
+---
+
+*Draft v0.1 posted 2026-04-23. v0.2 posted 2026-04-25: meta>primary clarification, peer-with-different-lane reframe, "done" backstop rule, inconclusive-results rule, publisher extension, generalization appendix C. v0.3 posted 2026-04-27: Appendix D epistemic tier labels (D/I/C/S). Further revisions expected as the role's failure modes are observed in adoption.*

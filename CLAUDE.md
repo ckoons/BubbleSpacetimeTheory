@@ -106,6 +106,7 @@ See `.claude/commands/README.md` for full documentation on all skills.
 - **Toy verification**: No theorem without computational evidence. Every toy has a SCORE line.
 - **Quaker consensus**: Near misses get scrutiny, not defense. Corrections are strength.
 - **Five integers**: rank=2, N_c=3, n_C=5, C_2=6, g=7. N_max = N_c^3 * n_C + rank = 137. Everything derives from these.
+- **Epistemic tier labels (D/I/C/S)**: Every claim gets a tier at creation. **D**=derived (mechanism proved), **I**=identified (<1%, mechanism plausible), **C**=conditional (depends on conjecture), **S**=structural (>2% or qualitative). See `notes/BST_Referee_Methodology.md` Appendix D and referee log #31.
 
 ## Rules
 
