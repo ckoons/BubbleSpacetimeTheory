@@ -238,10 +238,10 @@ T1-T1458. **1,525 toys**. Graph: **1399 / 7732**. **86 papers**. Counters: `.nex
 - Lyra: Paper #86 v0.4 (after master integral PSLQ)
 - **Paper #83 gap**: Periodic Table of Functions (128 entries) — currently empty brackets. Grace/Elie generate table, Lyra places in paper.
 - Keeper: false equivalence audit on correspondence table
-- **Grace: Koide = vacuum subtraction SOLVED** — rank/N_c = 2/3, 0.0009%. T1444 applied to generations. Invariants now 1140.
+- **Grace: Koide = vacuum subtraction SOLVED** — rank/N_c = 2/3, 0.0009%. T1444 applied to generations. Invariants now 1140. Two routes: CP² geometry (Z₃ on CP², dim_C=2=rank) + vacuum subtraction (T1444). Koide angle cos(θ₀) = -19/28 = -(N_c+2^{n_C-1})/(4g) at 0.0004% — all five integers, not yet derived.
 - **Grace: Rosetta Stone DELIVERED** — 10 named ratios in data/bst_rosetta_stone.json
 - **Keeper: Error distribution DONE** — Toy 1521 (10/10). Cosmo 85x worse than leptons. ZERO >1% in particle physics. Error map = correction frontier.
-- **Elie: Bridge Mechanism Toy DONE** — Toy 1524 (10/10). 14 bridges cataloged, all factor into BST integers. 6 dressing levels. Simpler ratios cross more domains. 2 predicted bridges confirmed, 2 testable.
+- **Elie: Bridge Mechanism Toy DONE** — Toy 1524 (10/10). 14 bridges cataloged, all factor into BST integers. 6 dressing levels. Simpler ratios cross more domains. 2 predicted bridges confirmed, 2 testable. **NEW: Adiabatic Chain** — three gas gammas form BST chain: 5/3, 7/5, 9/7, step=rank=2, product=N_c=3. The arithmetic chain N_c+rank=n_C, n_C+rank=g, g+rank=N_c² IS the thermodynamic DOF ladder.
 - **Elie: Vindicated Theorists Toy DONE** — Toy 1525 (10/10). 9 theorists tested: Eddington (0.026%), Wyler (6 digits), Koide (0.001%), Kolmogorov (exact), Dirac (0.002%), Wheeler (structural), Alfven (9/7), Verlinde (Shilov), Regge (1/2). 6/9 fully vindicated.
 
 *Completed items → append-only log.*
