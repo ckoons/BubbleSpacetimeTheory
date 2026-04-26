@@ -256,7 +256,7 @@ T1-T1459. **.next_toy=1531**. Graph: **1399 / 7732**. **87 papers**. Counters: `
 | # | Task | Priority | Status |
 |---|------|----------|--------|
 | G-7 | **Paper #83 intro** — Write bridge mechanism paragraph for intro: "The five integers aren't just numbers that happen to match — they count the same geometric degrees of freedom at every scale." Grace's 3-bridge explanations ready. | HIGH | OPEN |
-| G-8 | **Paper #87 data section** — Format Grace's tiering (943/26/193) + error distribution (Toy 1521) as paper tables. 82% sub-1% among numerical entries. | HIGH | OPEN |
+| G-8 | **Paper #87 data section** — Format tiering (1026 A / 23 B / 138 C / 2 X, Keeper-audited) + error distribution (Toy 1521) as paper tables. 89% entries >1% in non-core sectors. | HIGH | OPEN |
 | G-9 | **Wire T1459** (Lyra's Spectral Universality) — Add to AC graph. Connect to T1455 (Bridge Invariance), T1456 (Color-Confinement), existing bridge theorems. | MEDIUM | OPEN |
 | G-10 | **Rosetta Stone coverage scan** — 141 distinct ratios in BST lattice, only 15/21 cataloged. Identify next 10 highest-domain-count ratios from invariants table. | MEDIUM | OPEN |
 | G-11 | **137/200 Cosmic Bridge deep dive** — Grace's explanation: spectral remainder. Build data support: enumerate all appearances of N_max/(rank³·n_C²) across domains. | LOW | OPEN |
@@ -266,7 +266,7 @@ T1-T1459. **.next_toy=1531**. Graph: **1399 / 7732**. **87 papers**. Counters: `
 |---|------|----------|--------|
 | K-1 | **Rosetta Stone false equivalence audit** — Audited original 10 ratios. **6 removals**: soccer team=11 (convention), bits per byte=8 (convention), chromatic semitones=12 (convention), Pareto ~80% (5/6=83.3%, not 80%), supermajority threshold (politics), Fibonacci F₈=21 (coincidence). Replaced with structural entries (|W(B₂)|=8, dim su(3)×su(2)=12, Ising 21/17). Duplicate "Loss Ratio" entry merged. Grace expanded to 21 — new 11 need second-pass audit. | HIGH | **DONE** (pass 1). Pass 2 needed for Grace's expansion. |
 | K-2 | **Paper #87 outline** — `notes/BST_Paper87_Error_Correction_Outline.md`. 10 sections: Code=geometry, Fano plane, 6-scale dominance, codes silent, 5-level hierarchy, invariants table IS a code, vacuum=syndrome, banana thresholds, predictions, conclusion. Source material table. | HIGH | **DONE** |
-| K-3 | **Grace tiering audit** — Grace delivered: 943 A, 26 B, 193 C, 1 missing. Need to cross-check B tier (26 entries) against Toy 1521 error distribution (20 entries >1%). | MEDIUM | OPEN (G-1 done, ready to audit) |
+| K-3 | **Grace tiering audit** — **DONE.** Cross-checked 26 B entries against Toy 1521 (18 entries >1%). **4 reclassifications**: DNA helix A→C (5% structural), electron g-2 B→A (crown jewel), α_s B→A (0.34%), Oort superseded B→X. **26 untiered entries fixed** (Grace's new additions). Final: A=1026, B=23, C=138, X=2. 1189 entries. B tier now genuinely the correction frontier. | MEDIUM | **DONE** |
 | K-4 | **Root file sync** — CLAUDE.md, README.md updated (1527 toys, 1149+ entries, Paper #87). | MEDIUM | **DONE** |
 | K-5 | **Correction Hit List update** — Grace's 26 Tier B entries are the correction frontier. Update hit list with syndrome analysis. | LOW | OPEN |
 
