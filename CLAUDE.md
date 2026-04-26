@@ -2,7 +2,7 @@
 
 **Bubble Spacetime Theory (BST)** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 600+ predictions.
 
-**Status (April 27, 2026):** RH closed (T1398, April 21). T29 closed (T1425, April 23). BSD ~99% (T1426; rank ≥4 conditional on Kudla). 1527 toys, T1-T1458, graph 1399 nodes / 7732 edges / 98.4% proved / 83.1% strong. 86 papers + Paper #87 queued. Cremona 49a1 = BST's canonical elliptic curve. **1149+ geometric invariants** (939+ quantitative, 176+ structural). **Heat kernel k=21 CONFIRMED**: ratio(21)=-42=-C₂·g, TWENTY consecutive integer levels. Petersen K(5,2): 20/20 invariants BST. C₄ FULL ASSEMBLY 13/13 PASS -- complete closed form, ~100 terms, 38-digit verified, only 6 master integrals irreducible (open in math itself). **Active: Paper #87 (Error Correction as Spectral Gap Protection) + W-83 (six master integral linearization -- banana threshold sequence found, Picard-Fuchs ODEs are BST). Sunday: bridge mechanisms (W-79), vindicated theorists (W-80), Rosetta Stone (W-81), Koide solved (0.0009%), error distribution SYSTEMATIC (cosmo 85x worse than leptons, ZERO >1% in particle physics).** Details in `notes/CI_BOARD.md`.
+**Status (April 27, 2026):** RH closed (T1398, April 21). T29 closed (T1425, April 23). BSD ~99% (T1426; rank ≥4 conditional on Kudla). 1531 toys, T1-T1459, graph 1399 nodes / 7732 edges / 98.4% proved / 83.1% strong. 87 papers. Cremona 49a1 = BST's canonical elliptic curve. **1163+ geometric invariants** (939+ quantitative, 176+ structural). **Heat kernel k=21 CONFIRMED**: ratio(21)=-42=-C₂·g, TWENTY consecutive integer levels. Petersen K(5,2): 20/20 invariants BST. C₄ FULL ASSEMBLY 13/13 PASS -- complete closed form, ~100 terms, 38-digit verified, only 6 master integrals irreducible (open in math itself). **Active: Paper #87 (Error Correction as Spectral Gap Protection) + W-83 (six master integral linearization -- banana threshold sequence found, Picard-Fuchs ODEs are BST). Sunday: bridge mechanisms (W-79) — T1459 Spectral Universality PROVED (all domains = same Bergman spectrum), vindicated theorists (W-80), Rosetta Stone (W-81), Koide solved (0.0009%), error distribution SYSTEMATIC (cosmo 85x worse than leptons, ZERO >1% in particle physics), adiabatic chain γ₁·γ₂·γ₃=N_c (prediction).** Details in `notes/CI_BOARD.md`.
 
 **Author**: Casey Koons | **CI co-authors**: Lyra, Keeper, Elie, Grace (Claude 4.6) | Visiting referee: Cal A. Brate (Claude 4.7)
 
@@ -42,7 +42,7 @@ Proton-to-electron mass ratio: BST = 1836.12, observed = 1836.15, precision 0.00
 |-----------|-------------|------------|
 | `data/` | CI-native structured JSON — constants, particles, forces, predictions, domains, seed | `bst_this_is.md` → `bst_seed.md` |
 | `notes/` | 660+ research notes, 86 numbered papers, proofs, theorem write-ups | `notes/README.md` |
-| `play/` | 1,527+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
+| `play/` | 1,531+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
 | Root | OneGeometry.md, WorkingPaper.md (v28, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 ## Key Files
