@@ -34,7 +34,7 @@ status: "Active — check at session start, update at session end"
 
 ## Counters
 
-T1-T1458. **1,527 toys**. Graph: **1399 / 7732**. **86 papers**. Counters: `.next_toy=1527`, `.next_theorem=1459`. Data layer: **1149 entries**. **W-41 CLOSED**: k=21 CONFIRMED, ratio(21)=-42=-C₂·g (Toy 1507, 10/10). TWENTY consecutive integer heat kernel levels. **W-75 delivered**: Petersen graph K(n_C,rank)=K(5,2), 20/20 invariants BST (Toy 1508, 10/10). **W-74 C₄ analysis**: Toy 1509 (10/10), 4/4 testable predictions confirmed, 43/43 denominators BST-smooth. Toy 1510 Frobenius asymmetry (7/10). **Toy 1511**: astrophysical power laws 11/11 exact (10/10). **Toy 1512**: Debye temps 5 EXACT (10/10), BCS gap 0.006%. Cal #29-30 answered. **Toy 1513**: band gaps+materials 10/10, triple bridge K/G=Kolmogorov=GW=5/3. **Toy 1515**: Goldbach-BST smooth 10/10 — C₂·k±1 twins for ALL basis integers, first fail at rank²=4=curvature, 7-smooth 2.3× enrichment, correction primes = C₂·(basis)−1. **Toy 1524**: Bridge Mechanism 10/10 — 14 bridges cataloged, 8 eigenvalue classes, 6 dressing levels, simpler ratios cross more domains (scale-free). **Toy 1525**: Vindicated Theorists 10/10 — 9 theorists tested, 6/9 fully vindicated/derived, Wyler=direct ancestor (same D_IV^5). **Toy 1526**: Error Correction Code Map 10/10 — Hamming(7,4,3)=(g,rank²,N_c), 5-level hierarchy, dominance map (DOMINANT in weak/QED/biology, SILENT in gravity/turbulence). **Day: 42 toys (1476-1526), 98% pass.**
+T1-T1459. **.next_toy=1531**. Graph: **1399 / 7732**. **87 papers**. Counters: `.next_toy=1531`, `.next_theorem=1460`. Data layer: **1163 entries**. **W-41 CLOSED**: k=21 CONFIRMED, ratio(21)=-42=-C₂·g (Toy 1507, 10/10). TWENTY consecutive integer heat kernel levels. **W-75 delivered**: Petersen graph K(n_C,rank)=K(5,2), 20/20 invariants BST (Toy 1508, 10/10). **W-74 C₄ analysis**: Toy 1509 (10/10), 4/4 testable predictions confirmed, 43/43 denominators BST-smooth. Toy 1510 Frobenius asymmetry (7/10). **Toy 1511**: astrophysical power laws 11/11 exact (10/10). **Toy 1512**: Debye temps 5 EXACT (10/10), BCS gap 0.006%. Cal #29-30 answered. **Toy 1513**: band gaps+materials 10/10, triple bridge K/G=Kolmogorov=GW=5/3. **Toy 1515**: Goldbach-BST smooth 10/10 — C₂·k±1 twins for ALL basis integers, first fail at rank²=4=curvature, 7-smooth 2.3× enrichment, correction primes = C₂·(basis)−1. **Toy 1524**: Bridge Mechanism 10/10 — 14 bridges cataloged, 8 eigenvalue classes, 6 dressing levels, simpler ratios cross more domains (scale-free). **Toy 1525**: Vindicated Theorists 10/10 — 9 theorists tested, 6/9 fully vindicated/derived, Wyler=direct ancestor (same D_IV^5). **Toy 1526**: Error Correction Code Map 10/10 — Hamming(7,4,3)=(g,rank²,N_c), 5-level hierarchy, dominance map (DOMINANT in weak/QED/biology, SILENT in gravity/turbulence). **Day: 42 toys (1476-1526), 98% pass.**
 
 ---
 
@@ -212,7 +212,7 @@ T1-T1458. **1,527 toys**. Graph: **1399 / 7732**. **86 papers**. Counters: `.nex
 
 ---
 
-*Board synced Sunday April 27 ~11am. T1-T1458. **1527 toys**. **1163 entries**. **87 papers** (Paper #87 = Error Correction). ALL FOUR CIs delivered full morning queues. Lyra: linearization + Paper #86 v0.4. Elie: Goldbach extension ACTIVE. Grace: ALL 6 tasks DONE (tiering, wiring, Rosetta 21 ratios, convergence, data sync). Keeper: Paper #87 outline + Rosetta audit + root sync DONE.*
+*Board synced Sunday April 27 ~noon. T1-T1459. **.next_toy=1531**. **1163 entries**. **87 papers**. Morning queues ALL CLEARED by all four CIs. Lyra: T1459 Spectral Universality PROVED + Paper #86 v0.4 DONE. Elie: Goldbach DONE (9/10, enrichment confirmed), moving to E-7 (master values). Grace: ALL tasks DONE + bridge mechanism WHY (3 bridges explained). Keeper: outline + audit + sync DONE. Queues reloaded for afternoon.*
 
 **MORNING RESULTS (before 9am):**
 - Lyra: PSLQ verdict — 6 masters genuinely irreducible. BST determines structure, not values. Paper #83 function catalog fixed (33 families, 6 layers).
@@ -227,14 +227,16 @@ T1-T1458. **1,527 toys**. Graph: **1399 / 7732**. **86 papers**. Counters: `.nex
 |---|------|----------|--------|
 | L-1 | **Six master integral linearization** (W-83) — **THREE RESULTS + BANANA THRESHOLD**: (1) PSLQ null — higher function space. (2) 2-loop ODE fully BST — singularities {0,1,N_c²}, exponents {0,rank}. (3) D1(N_c)=Re(√3·D2(N_c)) — self-dual point. Threshold sequence: L=1→rank², L=2→N_c², L=4→n_C², L=6→g². Linearization structurally sound. Path (a) 4-loop Picard-Fuchs (Lyra), path (b) 200+ digits (Elie E-7). **Toy 1527 (10/10).** | **TOP** | **DONE — next: 4-loop ODE** |
 | L-2 | **Paper #86 v0.4** — §§10-12 added: sunrise identities, full assembly, banana thresholds. 503→605 lines. CMP target. | HIGH | **DONE** |
-| L-3 | **W-79 spectral mechanism** — Derive WHY bridges cluster by eigenvalue ratio. Bergman evaluation at different scales → same ratio, different weights. Formalize. | MEDIUM | OPEN |
+| L-3 | **W-79 spectral mechanism** — **T1459 Spectral Universality Theorem PROVED + Toy 1529 (9/10).** All domains evaluate same Bergman eigenvalue spectrum. 141 distinct ratios, 15 cataloged (48% coverage). Depth predicts universality (D1→6.0 domains, D2→4.2, D3→3.2). Dressing hierarchy: g/C₂ at 4 levels (0.8%→0%→0.14%→0.046%). Adiabatic chain product = N_c. | MEDIUM | **DONE** |
 | L-4 | **Penrose twistor correspondence** (W-81) — SO(5,2) conformal group IS the twistor setting. Map vocabulary to BST. Feeds Rosetta Stone. | MEDIUM | OPEN |
-| L-5 | **Paper #87 theory section** — Error correction as spectral gap protection. Mersenne condition 2^N_c−1=g. Hamming bound = sphere-packing on D_IV^5. | MEDIUM | Queued |
+| L-5 | **Paper #87 theory section** — Error correction as spectral gap protection. Mersenne condition 2^N_c−1=g. Hamming bound = sphere-packing on D_IV^5. Keeper outline ready at `notes/BST_Paper87_Error_Correction_Outline.md`. | HIGH | OPEN |
+| L-6 | **4-loop Picard-Fuchs ODE** (W-83 path a) — Write explicit ODE for topologies 81/83. If monodromy matrices have BST structure, the masters are determined. | HIGH | OPEN |
+| L-7 | **Paper #83 bridge mechanism** — Integrate T1459 + Grace's WHY explanations into Paper #83 introduction or new section. The "why" is now answered. | MEDIUM | OPEN |
 
 ### Elie — Computation / Verification
 | # | Task | Priority | Status |
 |---|------|----------|--------|
-| E-1 | **W-77 extension** — Goldbach-BST twin test for ALL 7-smooth k < 1000. Systematic. Casey: "Goldbach BST, then E-7 probably." | HIGH | **ACTIVE** |
+| E-1 | **W-77 extension** — **DONE (9/10).** 7-smooth twin rate 21.4% vs general 14.2% = 1.508x (z=2.44, p<0.05). Mechanism: coprimality to 210=primorial(g). 5-smooth (24.7%) beats 7-smooth (21.4%) — adding g=7 dilutes. T7 FAIL honest: k div by 35=n_C·g has lower rate. | HIGH | **DONE** |
 | E-2 | **Paper #87 numerical backbone** — Extend Toy 1526 with syndrome decoding test: for each >1% entry, compute Hamming syndrome (which BST integer missing), test if correction denominator matches syndrome weight. | HIGH | OPEN |
 | E-3 | **k=22 extraction** (SP-3) — Monitor PID 45970. When cascade_results_n43.json appears, extract and test. | MEDIUM | BLOCKED (PID running) |
 | E-4 | **Adiabatic chain formalization** — Toy the thermodynamic DOF ladder (5/3→7/5→9/7, step=rank). Predict gamma for polyatomic from BST: next in chain = N_c²/(N_c²−rank) = 9/7, already used. What about 4-atomic? | MEDIUM | OPEN |
@@ -243,14 +245,14 @@ T1-T1458. **1,527 toys**. Graph: **1399 / 7732**. **86 papers**. Counters: `.nex
 | E-6 | **Koide angle toy** — Numerically test cos(θ₀) = −19/28 = −(N_c+2^{n_C−1})/(4g) at high precision. All 5 integers, 0.0004%. Try PSLQ for exact derivation. | LOW | OPEN |
 
 ### Grace — Graph-AC / Data Layer
+*Morning queue ALL DONE (G-1 through G-6). Plus: bridge mechanism WHY explanations (Cascade=energy redistribution, Cosmic=spectral remainder, Bridge=boundary decay/gap). Reloading:*
 | # | Task | Priority | Status |
 |---|------|----------|--------|
-| G-1 | **Paper #83 tiering** — All 1163 entries have A/B/C/X tier. 943 A (81%), 26 B (2%), 193 C (17%), 1 missing. | HIGH | **DONE** |
-| G-2 | **W-72 Four-Color ↔ Color-Confinement wiring** — T1457 confirmed in graph with T1456 connection. | HIGH | **DONE** |
-| G-3 | **W-75 Petersen theorem** — Formalized, wired to T1456 + Four-Color. | HIGH | **DONE** |
-| G-4 | **Rosetta Stone expansion** (W-81) — 10→21 named ratios. Added Dressed Casimir (11), Dressed Product (17), Normalization Unit (12), Cube (8), Answer (42). **Keeper audit of original 10 DONE (K-1): 6 false equivalences removed.** New 11 ratios need second-pass audit. | MEDIUM | **DONE** (21 ratios, audit pending on expansion) |
-| G-5 | **Convergence to 5/6** — Graph at 83.1% (17 edges short). Table at 81.1%. Median degree = 5 = n_C (exact). Both converging. | MEDIUM | **DONE** (status check) |
-| G-6 | **Data layer sync** — 1163 entries. README updated. All files current. 12 EC entries added, vindicated theorists entries added. | MEDIUM | **DONE** |
+| G-7 | **Paper #83 intro** — Write bridge mechanism paragraph for intro: "The five integers aren't just numbers that happen to match — they count the same geometric degrees of freedom at every scale." Grace's 3-bridge explanations ready. | HIGH | OPEN |
+| G-8 | **Paper #87 data section** — Format Grace's tiering (943/26/193) + error distribution (Toy 1521) as paper tables. 82% sub-1% among numerical entries. | HIGH | OPEN |
+| G-9 | **Wire T1459** (Lyra's Spectral Universality) — Add to AC graph. Connect to T1455 (Bridge Invariance), T1456 (Color-Confinement), existing bridge theorems. | MEDIUM | OPEN |
+| G-10 | **Rosetta Stone coverage scan** — 141 distinct ratios in BST lattice, only 15/21 cataloged. Identify next 10 highest-domain-count ratios from invariants table. | MEDIUM | OPEN |
+| G-11 | **137/200 Cosmic Bridge deep dive** — Grace's explanation: spectral remainder. Build data support: enumerate all appearances of N_max/(rank³·n_C²) across domains. | LOW | OPEN |
 
 ### Keeper — Audit / Consistency / Root Files
 | # | Task | Priority | Status |
@@ -265,15 +267,11 @@ T1-T1458. **1,527 toys**. Graph: **1399 / 7732**. **86 papers**. Counters: `.nex
 PID 45970 still running. k=22 blocked on cascade extraction. Next target: k=25 → ratio=-60=-rank·n_C·C₂ (needs n=48).
 
 **ACTIVE work items:**
-- **W-72** — **DONE** (Grace: T1457 wired to T1456)
-- **W-75** — **DONE** (Grace: Petersen formalized + wired)
-- **W-77** — **Elie ACTIVE** (E-1: Goldbach 7-smooth k<1000, Casey approved)
-- **W-78** — PSLQ DONE. **Paper #86 v0.4 DONE** (Lyra: 605 lines, §§10-12).
-- **W-79** — TOY DONE. Lyra: spectral mechanism (L-3) open.
-- **W-80** — TOY DONE. Outreach material ready.
-- **W-81** — **21 ratios** (Grace expanded 10→21). Keeper audit pass 1 DONE (6 removals). Pass 2 open.
-- **W-82** — Toy 1526 DONE. **Paper #87 outline DONE** (Keeper K-2). Grace tiering DONE (G-1). Syndrome test (E-2) open. Theory section (L-5) open.
-- **W-83** — **Two paths active**: (a) Lyra: 4-loop Picard-Fuchs ODE. (b) **Elie E-7** (after E-1): 200+ digit values via difference equations.
+- **W-77** — **DONE** (Elie E-1: 9/10, enrichment 1.508x confirmed, p<0.05)
+- **W-79** — **T1459 PROVED** (Lyra). Grace: 3-bridge WHY explanations. Paper #83 integration next (L-7, G-7).
+- **W-81** — **21 ratios**. Keeper pass 1 DONE. Grace: coverage scan for next 10 (G-10).
+- **W-82** — Outline DONE, tiering DONE, toy DONE. **Lyra L-5 + Grace G-8 next** (paper sections).
+- **W-83** — **Elie E-7 NEXT** (200+ digits). Lyra L-6 (4-loop ODE). Both paths open.
 - **SP-3** — PID 45970 running. k=22 blocked.
 
 *Completed items → append-only log.*
