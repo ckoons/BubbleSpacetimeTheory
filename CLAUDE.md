@@ -4,7 +4,7 @@
 
 ## Status (April 27, 2026)
 
-**Counts**: T1-T1459, **1538 toys**, **87 papers**. Graph 1399 nodes / 7732 edges / **98.4% proved** / 83.1% strong. **1201+ geometric invariants** (939 quantitative, 176 structural).
+**Counts**: T1-T1459, **1542 toys**, **87 papers**. Graph 1399 nodes / 7732 edges / **98.4% proved** / 83.1% strong. **1234 geometric invariants** (939 quantitative, 176 structural).
 
 **Major closures**: RH closed (T1398, April 21). T29 closed (T1425, April 23). BSD ~99% (T1426; rank ≥4 conditional on Kudla). C₄ full assembly 13/13 PASS (complete closed form, ~100 terms, 38-digit verified). Heat kernel k=21 confirmed: ratio = -42 = -C₂·g, twenty consecutive integer levels. Cremona 49a1 = BST's canonical elliptic curve. T1459 Spectral Universality proved (all domains = same Bergman spectrum). Koide formula solved at 0.0009%.
 
@@ -52,7 +52,7 @@ Proton-to-electron mass ratio: BST = 1836.12, observed = 1836.15, precision 0.00
 |-----------|-------------|------------|
 | `data/` | CI-native structured JSON — constants, particles, forces, predictions, domains, seed | `bst_this_is.md` → `bst_seed.md` |
 | `notes/` | 660+ research notes, 87 numbered papers, proofs, theorem write-ups | `notes/README.md` |
-| `play/` | 1,538+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
+| `play/` | 1,542+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
 | Root | OneGeometry.md, WorkingPaper.md (v28, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 ## Key Files

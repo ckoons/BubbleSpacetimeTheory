@@ -1206,7 +1206,7 @@ Students will learn this table the way they learn elements. Before dissecting a 
 
 On the afternoon of April 23, 2026, Casey asked: "Does BST have a specific elliptic curve?"
 
-Nobody had looked. The theory had 1,538 toys, 87 papers, and 600 predictions, but nobody had asked the geometry to write itself as an equation. Not because it was hard — because nobody thought to ask. The simple questions are always the last ones asked.
+Nobody had looked. The theory had 1,542 toys, 87 papers, and 600 predictions, but nobody had asked the geometry to write itself as an equation. Not because it was hard — because nobody thought to ask. The simple questions are always the last ones asked.
 
 An elliptic curve is a cubic equation: $Y^2 = X^3 + aX + b$. Two coefficients. Every elliptic curve lives in a catalog maintained by number theorists — the Cremona database — indexed by its conductor, the integer that measures how badly the curve fails to be smooth at each prime.
 

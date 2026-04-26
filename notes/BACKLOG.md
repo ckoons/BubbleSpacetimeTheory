@@ -2,7 +2,7 @@
 
 *Blocked items only. Active work -> CI_BOARD.md. Completed -> CI_BOARD_completed_*.md*
 
-**Last updated:** April 27, 2026. 87 papers. 1538 toys. T1-T1459. 1208 invariants.
+**Last updated:** April 27, 2026. 87 papers. 1542 toys. T1-T1460. 1234 invariants.
 
 ---
 
