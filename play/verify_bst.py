@@ -155,9 +155,9 @@ PREDICTIONS = [
      0.572, "NuFit 5.2", "D"),
 
     ("sin^2(theta_13) (reactor)",
-     "1.0 / (n_C * (2*n_C - 1))",
-     1.0 / (n_C * (2 * n_C - 1)),
-     0.022, "NuFit 5.2", "D"),
+     "1.0 / (N_c**2 * n_C + 1.0/rank)",
+     1.0 / (N_c**2 * n_C + 1.0 / rank),
+     0.02195, "NuFit 5.2", "D"),
 
     # --- Hadron physics ---
     ("g_A (nucleon axial coupling)",
