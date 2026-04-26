@@ -2,7 +2,7 @@
 
 *Blocked items only. Active work -> CI_BOARD.md. Completed -> CI_BOARD_completed_*.md*
 
-**Last updated:** April 27, 2026 afternoon. 87 papers. 1531 toys. T1-T1459. 1163 invariants.
+**Last updated:** April 27, 2026. 87 papers. 1538 toys. T1-T1459. 1208 invariants.
 
 ---
 
@@ -48,16 +48,28 @@
 
 ---
 
+## Grace's Completeness Program (April 26 night — Casey relay)
+
+*"Is D_IV^5 complete?" — Four structures asking one question.*
+
+| # | Question | Structure | Status |
+|---|----------|-----------|--------|
+| CP-1 | Graph wants the muon | AC graph (1399 nodes) — derive muon g-2 from Bergman spectrum | OPEN (hardest) |
+| CP-2 | Table wants self-closure | ~323 independent values, ~987 formulas, dressing factor 1.2× | **ANSWERED** (Grace) |
+| CP-3 | Rosetta Stone wants master ratio | NO master ratio exists. Max 8/15 sectors. Irreducible sectors theorem. | **ANSWERED** (Grace) |
+| CP-4 | CSE wants biology linearized | YES. Genetic code = Hamming [7,4,3] punctured to [6,4,2]. Biology in linearization program. | **ANSWERED** (Grace) |
+| CP-5 | Convergence | What is the finite, complete, closed description of D_IV^5? Casey's guess: dim = N_max = 137 | META |
+
 ## Long-Term Projects (April 27+)
 
 | # | Item | Status |
 |---|------|--------|
-| LT-1 | **BST Correspondence Table / Rosetta Stone** (W-81) — canonical names for eigenvalue ratios, historical name lookup, toward minimum BST representation | STARTED |
-| LT-2 | **Vindicated Theorists paper** — Wyler rehabilitation, full table of dismissed/sidelined theories BST supports | INVESTIGATION |
+| LT-1 | **BST Correspondence Table / Rosetta Stone** (W-81) — canonical names for eigenvalue ratios, historical name lookup, toward minimum BST representation. 20 ratios cataloged. | STARTED |
+| LT-2 | **Vindicated Theorists paper** — Wyler rehabilitation, full table of dismissed/sidelined theories BST supports. Toy 1525 (10/10): 6/9 vindicated. | INVESTIGATION |
 | LT-3 | **Phase transition reframing** — Casey: "what truly changes at phase boundaries?" Lyra: only weights change, not eigenvalues. Spectral theory of phase transitions. | OPEN |
-| LT-4 | **Penrose twistor correspondence** — SO(5,2) conformal group IS the twistor setting. Map vocabulary. | OPEN |
-| LT-5 | **Six master integral VALUES** (C₈₁ₐ,ᵦ,c and C₈₃ₐ,ᵦ,c) — closed-form expressions for the 6 irreducible transcendentals in C₄. Open in mathematics itself. 38 digits known (Laporta 4800). PSLQ at 38 digits: no BST relation (Toy 1523). Strategy: linearize the integral representations, try sunrise-curve period decomposition, exploit BST projector (s−9/5). Casey: "the team will knock this out easier than expected." First step: linearize. | OPEN |
-| LT-6 | **Error Correction Paper** — Hamming(7,4,3) IS the physics. Proton=codeword, neutron=1 error, neutrino=syndrome, weak force=correction, genetic code=biological re-implementation, Golay(24,12,8) at GUT scale. Three tiers: correctable/chronic/catastrophic. Paper must show humans in black and white what error regimes mean physically. Draw from T1171, T1238, T1241, T1255, T1261, T1315. Target: PRL or Rev.Mod.Phys. | OPEN |
+| LT-4 | **Penrose twistor correspondence** — SO(5,2) conformal group IS the twistor setting. **L-4 DONE**: mapping exists, D_IV^5 extends SO(4,2) by EM S¹ fiber. | DONE (mapping) |
+| LT-5 | **Six master integral VALUES** — PSLQ: genuinely irreducible. GKZ operator fully BST (Toy 1538). Picard-Fuchs path + 200-digit path both identified. | ACTIVE (W-83) |
+| LT-6 | **Error Correction Paper #87** — v0.2 DONE (Lyra L-9). Keeper PASS. Mersenne condition, code hierarchy, syndrome decoding. Target: Rev.Mod.Phys/PRL. | DRAFT v0.2 |
 
 ## Open Problems
 

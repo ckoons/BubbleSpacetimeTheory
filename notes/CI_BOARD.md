@@ -48,7 +48,7 @@ T1-T1459. **.next_toy=1540**. Graph: **1399 / 7732**. **87 papers**. Counters: `
 
 | # | Item | Owner | Status |
 |---|------|-------|--------|
-| W-28 | **Paper #83 draft**: "1118 Geometric Invariants of D_IV^5" — **v3.1, ~540 inline rows, 14/15 sections** (1118 data entries). The paper BST is judged by. | **Lyra** (draft), **Grace** (data), **Elie** (numerics), **Keeper** (corrections) | **v3.1 KEEPER REVIEW COMPLETE** — Casey decisions: **title→1118**, **keep §11.7** (no trim). 15 sections inline + §16 (485) appendix. Remaining fixes: stale Γ_W/BR(H→bb̄) (use corrected values from Toy 1476), truncated names in §2 (#7, #8), §6 #17 cleanup, §8 #43 move to Cosmo, §14 #39 Catalan typo, §15 #37-39 move to Crystallography. Crown jewels: §12 (g-2 Selberg), §9 (magic numbers + μ_p), §7 (CKM/PMNS), §14 (49a1). **Lyra: apply fixes for v3.2.** |
+| W-28 | **Paper #83 draft**: "1118 Geometric Invariants of D_IV^5" — 16 sections, ~700 inline rows. The paper BST is judged by. | **Lyra** (draft), **Grace** (data), **Elie** (numerics), **Keeper** (corrections) | **v3.4 KEEPER RE-AUDIT**: 4/6 W-28 items already resolved (Γ_W/BR fixed, §8 #43 done, §14 #39 correct, §15 crystal done). **3 remaining for Lyra**: (1) §2 #11/#14 truncated Prec text, (2) §6 #17 particle count parenthetical, (3) footer line 871 update 1140→1208 entries + v3.3→v3.4. Crown jewels: §12 (g-2 Selberg), §9 (nuclear magic), §7 (CKM/PMNS), §14 (49a1+function catalog). §1 intro (T1459) strong. Honest Gaps verified. **Near submission-ready.** |
 | W-29 | **Paper #85 draft**: "The Genesis Cascade: How D_IV^5 Writes Its Own Curve." c₄=g!!, c₆=N_c^{N_c}*g^{rank}, cascade failures at k!=5, crypto signature metaphor. **Target: JNT** (Casey decision). | **Elie** (draft), **Lyra** (proofs) | **DRAFT v0.2, KEEPER PASS** — `notes/BST_Paper85_Genesis_Cascade.md`. 11 sections, 5 theorems. §7 Frobenius FIXED. Status bumped v0.2 for submission prep. Ready for Casey review. |
 | W-30 | **Rank-2 closure for YM**: Full 6-step proof: Bergman gap→Wallach OS2→OS reconstruction→KK reduction→interaction→mass gap C₂. Scale separation N_max/C₂=23. | **Lyra/Elie** | **PROOF CHAIN COMPLETE, KEEPER PASS** — KK theorem added. Open: confinement (Wilson loop area law). |
 | W-31 | **Rank-2 closure for Hodge**: On Sh(SO(5,2), D_IV^5) specifically: Lefschetz-Kudla for codim <= n_C/2, Poincare duality for rest. ALL Hodge classes algebraic on D_IV^5. Transfer to general varieties = open. | **Lyra/Grace** | **ANALYZED** — path clear for D_IV^5; general case needs transfer principle (Kuga-Satake). |
@@ -240,9 +240,9 @@ T1-T1459. **.next_toy=1540**. Graph: **1399 / 7732**. **87 papers**. Counters: `
 | L-6 | **4-loop Picard-Fuchs ODE** (W-83 path a) — **Toy 1538 (10/10).** GKZ operator: theta^4 - z*(5theta+1)(5theta+2)(5theta+3)(5theta+4). Order rank^2=4, conifold at 1/n_C^{rank^2}=1/625, exponents at infinity {k/n_C}, conifold {0,1,1,rank}. Fuchs sum=C_2=6. Stirling|s(5,3)|=35=C(g,N_c). Period is _4F_3(k/n_C;1,1,1;625z). CY dim=N_c. Systematic upgrade: N_c->n_C, rank->rank^2. **Paper #86 v0.6.** | HIGH | **DONE** |
 | L-7 | **Paper #83 §1 Introduction DONE** — T1459 Spectral Universality + three bridge mechanisms + depth-universality + usage guide. v3.2→v3.3. | MEDIUM | **DONE** |
 | L-8 | **Picard-Fuchs ODE structure** — **Toy 1532 (10/10).** j(E_{N_c})=1728=(rank·C₂)³=12³ — sunrise elliptic curve at s=N_c has CM j-invariant. ALL FIVE BST integers are banana propagator counts: L+1={2,3,5,6,7}={rank,N_c,n_C,C₂,g}. Wronskian maximally simple — all residues=1. Indicial exponents: ρ²=1/N_c, -1/rank², -1/(rank·C₂). Product of denominators=(rank·C₂)²=144. **Paper #86 v0.5.** | HIGH | **DONE** |
-| L-9 | **Paper #87 v0.2** — Apply Keeper K-6 items: §2.3 derive C₂=rank·N_c, §5.2 corrected PMNS, §6.2 clarify k=3 notation, §8.1 Hamming binary vs genetic ternary, §10.3 cite Toy 1506, §11 adiabatic chain prediction, §4.2 flag ζ(3)≈C₂/n_C. Fold Elie's BCH(63,36,11) from Toy 1539 into §5 code hierarchy. | **TOP** | OPEN |
+| L-9 | **Paper #87 v0.2 DONE** — All 7 K-6 items applied: §2.3 C₂ derivation from B₂, §4.2 honest ζ(3)≈C₂/n_C flag (0.17% not exact), §6.2 level→t notation, §8.2 new binary/quaternary distinction, §11.3 adiabatic chain prediction. Plus: §6.5 eight-level hierarchy with BCH(63,36,11) from Toy 1539 (n=2^C₂-1=63, k=C₂²=36, d=2C₂-1=11). | **TOP** | **DONE** |
 | L-10 | **Paper #83 v3.4 fixes** — W-28 remaining: stale Γ_W/BR(H→bb̄) (use Toy 1476 corrected values), truncated names in §2 (#7, #8), §6 #17 cleanup, §8 #43 move to Cosmo, §14 #39 Catalan typo, §15 #37-39 move to Crystallography. | HIGH | OPEN |
-| L-11 | **GKZ-BST correspondence theorem** (T1460) — Formalize Toy 1538: GKZ operator with ALL five integers. rank² periods, CY dim=N_c, Fuchs sum=C₂. The Picard-Fuchs equation selects physical periods. | MEDIUM | OPEN |
+| L-11 | **T1460 GKZ-BST Correspondence PROVED** — `notes/BST_T1460_GKZ_BST_Correspondence.md`. 8 properties (a)-(h): order, singularities, exponents, Fuchs, Stirling, period, CY dim, upgrade rule. All from GKZ theory + BST identification. AC depth (C=1, D=0). Connects Paper #86 to Paper #87 (rank² periods = 4 data bits). | MEDIUM | **DONE** |
 | L-12 | **CP-1: Muon g-2** (W-15 Phase 5) — The symbolic last entry. Derive from Bergman spectrum. Hardest single gap in invariants table. | HIGH | OPEN — when ready |
 
 ### Elie — Computation / Verification
@@ -315,17 +315,18 @@ Casey's speculation: the natural dimension is N_max = 137 independent evaluation
 | # | Question | Structure | Task | Owner | Status |
 |---|----------|-----------|------|-------|--------|
 | CP-1 | **Graph wants the muon** | AC graph (1399 nodes) | Derive muon g-2 from Bergman spectrum. 1399 theorems pointing at this gap. Phase 5 of spectral g-2 (W-15). The symbolic last entry. | **Lyra** (derivation), **Elie** (numerics) | OPEN — hardest single entry |
-| CP-2 | **Table wants self-closure** | Invariants (1208 entries) | How many independent spectral evaluations does D_IV^5 produce? When table reaches that count and stops growing naturally, it's complete. Build independence metric: genuinely new vs re-dressed. | **Grace** (data analysis), **Elie** (independence test) | OPEN |
-| CP-3 | **Rosetta Stone wants master ratio** | Rosetta Stone (20 ratios) | One evaluation touching all sectors, OR proof none exists. Either answer is a theorem about sector structure. | **Grace** (scan), **Lyra** (proof/disproof) | OPEN |
-| CP-4 | **CSE wants biology linearized** | CSE chart (55 domains) | Codon table as linear map GF(2)^{C₂} = GF(64) → rank²·n_C = 20 dimensional target. If encoding matrix has BST rank, biology joins linearization program. | **Grace** (construction), **Lyra** (rank), **Elie** (verify) | OPEN |
+| CP-2 | **Table wants self-closure** | Invariants (1208 entries) | ~323 distinct spectral values, ~987 formulas. Dressing factor ~1.2×. Independence dimension identified. Next: is 323 the natural dimension? | **Grace** (data analysis), **Elie** (independence test) | **ANSWERED** — ~323 independent, ~987 dressed |
+| CP-3 | **Rosetta Stone wants master ratio** | Rosetta Stone (20 ratios) | **NO master ratio exists.** Max coverage = 8/15 sections (for N_c=3). Geometry has irreducible sectors — THEOREM. This is structural, not a gap. | **Grace** (scan), **Lyra** (proof/disproof) | **ANSWERED** — irreducible sectors proved |
+| CP-4 | **CSE wants biology linearized** | CSE chart (55 domains) | **YES.** Genetic code = Hamming [7,4,3] punctured by T1444 vacuum subtraction to [6,4,2]. g→C₂ via puncture, distance drops N_c→rank. Biology IS in linearization program. | **Grace** (construction), **Lyra** (rank), **Elie** (verify) | **ANSWERED** — punctured Hamming code |
 | CP-5 | **Convergence** | All four | The finite, complete, closed description of everything D_IV^5 says. Casey's guess: dim = N_max = 137 independent evaluations. The real question: is the table's natural dimension finite, and what does it equal? | **ALL** | META — the structures know what they want |
 
 ---
 
 **REMAINING OPEN**:
-- Lyra: L-6 DONE (GKZ, Toy 1538). Available. **Next**: CP-1 (muon g-2 = W-15 Phase 5), Paper #87 v0.2 (K-6 items)
-- Elie: E-3 (blocked on PID 45970), E-7 (needs 200+ digit values). **Next**: CP-2 independence test, BCH(63,36,11) verification
-- Grace: G-7..G-11 (paper enrichment), G-13 (K-7 DONE). **Next**: CP-2 (independence metric), CP-3 (master ratio scan), CP-4 (GF(64) construction)
-- Keeper: Paper #86 v0.5 review, Paper #83 v3.3 review queued
+- Lyra: L-10 (Paper #83 fixes — active), L-12 (CP-1 muon g-2). **Next**: L-10 then CP-1
+- Elie: E-3 (blocked on PID 45970), E-7 (needs 200+ digit values). **Next**: **NULL-MODEL TOY** (Cal audit Action 1 — highest priority), BCH(63,36,11) verification
+- Grace: CP-2/3/4 ANSWERED. **Next**: CP-5 convergence (is 323 the natural dimension?), epistemic tier labels for Paper #83 (Cal audit Action 2)
+- Keeper: K-8 DONE (Paper #86 PASS). Paper #83 audit findings delivered to Lyra. **Next**: Cal audit action items (null-model toy spec, reproduction package, tier labels)
+- **Cal audit actions** (April 27): (1) Null-model toy — random 5-tuple coincidence filter, (2) Epistemic tier column in Paper #83, (3) Standalone `verify_bst.py` reproduction package
 
 *Completed items → append-only log.*

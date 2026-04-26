@@ -358,7 +358,7 @@ The remaining structural integers rank = 2 (the only even prime, appearing at L 
 
 ### 7.4 Exhaustion at L = 4
 
-At L = 5, the zeta argument would be 2 x 5 - 1 = 9 = N_c^2 = 3^2. This is composite, and zeta(9) decomposes into products of lower zeta values in the algebraic relations among multiple zeta values (MZVs). No genuinely new transcendental appears.
+At L = 5, the zeta argument would be 2 x 5 - 1 = 9 = N_c^2 = 3^2. This is composite. While zeta(9) itself is an independent real number (no algebraic relation to lower zeta values is known), the point is that no new TRANSCENDENTAL TYPE appears at L = 5: the transcendental content is spanned by products and combinations of {zeta(3), zeta(5), zeta(7)} and polylogarithms already present at lower loops. Zeta(9) may appear numerically, but it is not forced as a new independent ingredient by the Selberg trace formula, because the argument 9 = N_c^2 lies in the "derived" (composite) sector.
 
 This is a structural prediction: at five loops (12,672 Feynman diagrams), the transcendental content of C_5 is spanned by {pi, ln(2), zeta(3), zeta(5), zeta(7)} and their products. No zeta(9) as a new fundamental ingredient.
 
@@ -589,7 +589,7 @@ where theta = z d/dz. Every structural feature is BST-determined:
 
 **Indicial exponents.** At z = 0: {0,0,0,0} (maximally unipotent monodromy, log-tower height N_c). At z = infinity: {k/n_C : k = 1,...,rank^2} = {1/5, 2/5, 3/5, 4/5}. At the conifold: {0, 1, 1, rank} = {0, 1, 1, 2} — the standard CY3 conifold structure, where the double root arises from A_3/A_4 = rank = 2.
 
-**Fuchs sum.** The total of all exponents across all singular points is rank^2(rank^2 - 1)/2 = C_2 = 6.
+**Fuchs sum.** The total of all exponents across all singular points is rank^2(rank^2 - 1)/2 = C_2 = 6. This is the standard Fuchs relation for an order-m ODE with 3 regular singular points: sum = m(m-1)/2. The BST content is that m = rank^2 forces this sum to equal the Casimir invariant C_2.
 
 **Operator coefficients.** The product (5theta + 1)(5theta + 2)(5theta + 3)(5theta + 4) has coefficients that are unsigned Stirling numbers |s(n_C, k)|:
 
