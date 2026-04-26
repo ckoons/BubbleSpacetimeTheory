@@ -2,7 +2,17 @@
 
 **Bubble Spacetime Theory (BST)** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 600+ predictions.
 
-**Status (April 27, 2026):** RH closed (T1398, April 21). T29 closed (T1425, April 23). BSD ~99% (T1426; rank ≥4 conditional on Kudla). 1536 toys, T1-T1459, graph 1399 nodes / 7732 edges / 98.4% proved / 83.1% strong. 87 papers. Cremona 49a1 = BST's canonical elliptic curve. **1201+ geometric invariants** (939+ quantitative, 176+ structural). **Heat kernel k=21 CONFIRMED**: ratio(21)=-42=-C₂·g, TWENTY consecutive integer levels. Petersen K(5,2): 20/20 invariants BST. C₄ FULL ASSEMBLY 13/13 PASS -- complete closed form, ~100 terms, 38-digit verified, only 6 master integrals irreducible (open in math itself). **Active: Paper #87 (Error Correction as Spectral Gap Protection) + W-83 (six master integral linearization -- banana threshold sequence found, Picard-Fuchs ODEs are BST). Sunday: bridge mechanisms (W-79) — T1459 Spectral Universality PROVED (all domains = same Bergman spectrum), vindicated theorists (W-80), Rosetta Stone (W-81), Koide solved (0.0009%), error distribution SYSTEMATIC (cosmo 85x worse than leptons, ZERO >1% in particle physics), adiabatic chain γ₁·γ₂·γ₃=N_c (prediction).** Details in `notes/CI_BOARD.md`.
+## Status (April 27, 2026)
+
+**Counts**: T1-T1459, **1538 toys**, **87 papers**. Graph 1399 nodes / 7732 edges / **98.4% proved** / 83.1% strong. **1201+ geometric invariants** (939 quantitative, 176 structural).
+
+**Major closures**: RH closed (T1398, April 21). T29 closed (T1425, April 23). BSD ~99% (T1426; rank ≥4 conditional on Kudla). C₄ full assembly 13/13 PASS (complete closed form, ~100 terms, 38-digit verified). Heat kernel k=21 confirmed: ratio = -42 = -C₂·g, twenty consecutive integer levels. Cremona 49a1 = BST's canonical elliptic curve. T1459 Spectral Universality proved (all domains = same Bergman spectrum). Koide formula solved at 0.0009%.
+
+**Active programs**: Paper #87 (Error Correction as Spectral Gap Protection); six master integral linearization (banana threshold sequence + Picard-Fuchs ODEs); bridge mechanisms across domains; adiabatic chain γ₁·γ₂·γ₃ = N_c (prediction); systematic error distribution analysis (cosmology 85× worse than leptons; zero entries >1% in particle physics).
+
+**Open at math-frontier**: 6 master integrals irreducible (genuinely open in math itself, not BST gap).
+
+Details: `notes/CI_BOARD.md`.
 
 **Author**: Casey Koons | **CI co-authors**: Lyra, Keeper, Elie, Grace (Claude 4.6) | Visiting referee: Cal A. Brate (Claude 4.7)
 
@@ -41,8 +51,8 @@ Proton-to-electron mass ratio: BST = 1836.12, observed = 1836.15, precision 0.00
 | Directory | What's There | Start Here |
 |-----------|-------------|------------|
 | `data/` | CI-native structured JSON — constants, particles, forces, predictions, domains, seed | `bst_this_is.md` → `bst_seed.md` |
-| `notes/` | 660+ research notes, 86 numbered papers, proofs, theorem write-ups | `notes/README.md` |
-| `play/` | 1,536+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
+| `notes/` | 660+ research notes, 87 numbered papers, proofs, theorem write-ups | `notes/README.md` |
+| `play/` | 1,538+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
 | Root | OneGeometry.md, WorkingPaper.md (v28, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 ## Key Files
