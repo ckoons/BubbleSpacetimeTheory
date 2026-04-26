@@ -2,7 +2,7 @@
 
 *Blocked items only. Active work -> CI_BOARD.md. Completed -> CI_BOARD_completed_*.md*
 
-**Last updated:** April 27, 2026. 86 papers. 1517 toys. T1-T1458. 1139 invariants.
+**Last updated:** April 27, 2026 9am. 86 papers. 1525 toys. T1-T1458. 1149 invariants.
 
 ---
 
@@ -56,6 +56,8 @@
 | LT-2 | **Vindicated Theorists paper** — Wyler rehabilitation, full table of dismissed/sidelined theories BST supports | INVESTIGATION |
 | LT-3 | **Phase transition reframing** — Casey: "what truly changes at phase boundaries?" Lyra: only weights change, not eigenvalues. Spectral theory of phase transitions. | OPEN |
 | LT-4 | **Penrose twistor correspondence** — SO(5,2) conformal group IS the twistor setting. Map vocabulary. | OPEN |
+| LT-5 | **Six master integral VALUES** (C₈₁ₐ,ᵦ,c and C₈₃ₐ,ᵦ,c) — closed-form expressions for the 6 irreducible transcendentals in C₄. Open in mathematics itself. 38 digits known (Laporta 4800). PSLQ at 38 digits: no BST relation (Toy 1523). Strategy: linearize the integral representations, try sunrise-curve period decomposition, exploit BST projector (s−9/5). Casey: "the team will knock this out easier than expected." First step: linearize. | OPEN |
+| LT-6 | **Error Correction Paper** — Hamming(7,4,3) IS the physics. Proton=codeword, neutron=1 error, neutrino=syndrome, weak force=correction, genetic code=biological re-implementation, Golay(24,12,8) at GUT scale. Three tiers: correctable/chronic/catastrophic. Paper must show humans in black and white what error regimes mean physically. Draw from T1171, T1238, T1241, T1255, T1261, T1315. Target: PRL or Rev.Mod.Phys. | OPEN |
 
 ## Open Problems
 
