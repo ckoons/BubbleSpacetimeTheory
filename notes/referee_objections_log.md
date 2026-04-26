@@ -383,9 +383,9 @@ Unconditional Clay resolution requires all ranks unconditionally. Anything less 
 4. **Tier drift is a referee flag**: if an entry's tier label changes upward without new evidence, that's a #31 violation.
 
 **Three action items (Casey-approved April 27):**
-1. **Null-model toy** — random 5-tuple coincidence filter (Elie). Quantifies: does BST's specific 5-tuple score dramatically above random?
-2. **Tier column in Paper #83** — every entry gets D/I/C/S label (Grace + Lyra).
-3. **Standalone `verify_bst.py`** — top 50 D-tier predictions, one-command reproduction (Elie).
+1. ~~**Null-model toy**~~ — **DONE** (Elie, April 27). BST matches 27/51 constants at <1%. Random 5-tuples average 14.7. Z=2.9, p<0.0005. Against random prime tuples: Z=4.63. 13 exact matches. 88% of single-integer swaps make BST worse. (2,3,5,7,139) ties at 28 (139≈137, expected). Replacing N_max=137 with 17 gives 30 formula hits but NOT the specific physics matches (α, m_p/m_e). **Verdict: BST is quantitatively distinguishable from numerology.**
+2. **Tier column in Paper #83** — every entry gets D/I/C/S label (Grace + Lyra). OPEN.
+3. **Standalone `verify_bst.py`** — top 50 D-tier predictions, one-command reproduction (Elie). OPEN.
 
 **Status:** STANDING TOOL — applies to all BST claims going forward. Supersedes and refines #1 (derivation/identification ladder) with finer granularity.
 
@@ -398,7 +398,7 @@ Unconditional Clay resolution requires all ranks unconditionally. Anything less 
 3. **#23** — pred_004 toy wrap (Elie).
 4. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).
 5. **#27** — Coincidence filter: propagate precision-vs-noise-floor tags into Paper #83.
-6. **#31** — Epistemic tier labels: null-model toy, tier column in Paper #83, verify_bst.py.
+6. **#31** — Epistemic tier labels: ~~null-model toy~~ DONE (Z=2.9, p<0.0005), tier column in Paper #83 OPEN, verify_bst.py OPEN.
 
 ---
 
