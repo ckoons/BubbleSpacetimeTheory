@@ -1,0 +1,117 @@
+{
+  "title": "BST Rosetta Stone — Canonical Names for Eigenvalue Ratios",
+  "description": "Each ratio has a name, a geometric origin, and a list of physical appearances across domains.",
+  "generated": "2026-04-26",
+  "ratios": [
+    {
+      "formula": "1/rank = 1/2",
+      "name": "The Critical Line",
+      "appearances": [
+        "RH critical line Re(s)=1/2",
+        "BSD ratio L/Ω",
+        "virial K/|U|",
+        "Grover speedup N^(1/2)",
+        "diffusion ⟨r²⟩∝t^(1/2)",
+        "percolation p_c (triangular)"
+      ],
+      "domain_count": 6
+    },
+    {
+      "formula": "rank/N_c = 2/3",
+      "name": "The Democratic Deficit",
+      "appearances": [
+        "Koide lepton formula",
+        "neutron moment ratio (bare)",
+        "matter era a∝t^(2/3)",
+        "supermajority threshold",
+        "Kauzmann glass Tg/Tm"
+      ],
+      "domain_count": 5
+    },
+    {
+      "formula": "N_c/rank = 3/2",
+      "name": "The Wallach Point",
+      "appearances": [
+        "Wallach positivity threshold",
+        "perfect fifth",
+        "Kepler T∝a^(3/2)",
+        "Jeans mass M∝T^(3/2)",
+        "glueball 0⁻⁺/0⁺⁺ (bare)",
+        "Bondi accretion"
+      ],
+      "domain_count": 6
+    },
+    {
+      "formula": "n_C/N_c = 5/3",
+      "name": "The Cascade Ratio",
+      "appearances": [
+        "Kolmogorov K41 -5/3",
+        "adiabatic γ (monatomic)",
+        "Grüneisen parameter",
+        "QCD deconfinement T/f_π",
+        "bulk/shear elasticity K/G"
+      ],
+      "domain_count": 5
+    },
+    {
+      "formula": "g/C₂ = 7/6",
+      "name": "The Bridge Ratio",
+      "appearances": [
+        "SU(3)/SU(2) mass gap √(7/6)",
+        "SAW γ exponent",
+        "Ising γ bare",
+        "Chandrasekhar 35/6 = n_C×(g/C₂)"
+      ],
+      "domain_count": 4
+    },
+    {
+      "formula": "N_c²/g = 9/7",
+      "name": "The Stability Margin",
+      "appearances": [
+        "Oort |A/B| galactic rotation",
+        "BCS T_c ratio",
+        "Alfvén structural conductance"
+      ],
+      "domain_count": 3
+    },
+    {
+      "formula": "(N_c/rank)² = 9/4",
+      "name": "The Loss Ratio",
+      "appearances": [
+        "Kahneman-Tversky loss aversion 2.25",
+        "Wallach point squared"
+      ],
+      "domain_count": 2
+    },
+    {
+      "formula": "N_max/(rank³·n_C²) = 137/200",
+      "name": "The Cosmic Bridge",
+      "appearances": [
+        "Ω_Λ dark energy fraction",
+        "|μ_n/μ_p| neutron/proton moment",
+        "41 orders of magnitude apart, same formula"
+      ],
+      "domain_count": 3
+    },
+    {
+      "formula": "C₂/n_C = 6/5",
+      "name": "The Spin-Orbit Coupling",
+      "appearances": [
+        "nuclear spin-orbit κ_ls",
+        "shell structure magic numbers"
+      ],
+      "domain_count": 2
+    },
+    {
+      "formula": "n_C/C₂ = 5/6",
+      "name": "The Linearizable Fraction",
+      "appearances": [
+        "AC(0) depth-0 fraction",
+        "Pareto ≈80%",
+        "information sharing rate",
+        "graph strong edge target"
+      ],
+      "domain_count": 4
+    }
+  ]
+}

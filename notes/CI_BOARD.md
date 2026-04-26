@@ -34,7 +34,7 @@ status: "Active — check at session start, update at session end"
 
 ## Counters
 
-T1-T1458. **1,517 toys**. Graph: **1398 / 7727**. **86 papers**. Counters: `.next_toy=1517`, `.next_theorem=1459`. Data layer: **1118 entries**. **W-41 CLOSED**: k=21 CONFIRMED, ratio(21)=-42=-C₂·g (Toy 1507, 10/10). TWENTY consecutive integer heat kernel levels. **W-75 delivered**: Petersen graph K(n_C,rank)=K(5,2), 20/20 invariants BST (Toy 1508, 10/10). **W-74 C₄ analysis**: Toy 1509 (10/10), 4/4 testable predictions confirmed, 43/43 denominators BST-smooth. Toy 1510 Frobenius asymmetry (7/10). **Toy 1511**: astrophysical power laws 11/11 exact (10/10). **Toy 1512**: Debye temps 5 EXACT (10/10), BCS gap 0.006%. Cal #29-30 answered. **Toy 1513**: band gaps+materials 10/10, triple bridge K/G=Kolmogorov=GW=5/3. **Toy 1515**: Goldbach-BST smooth 10/10 — C₂·k±1 twins for ALL basis integers, first fail at rank²=4=curvature, 7-smooth 2.3× enrichment, correction primes = C₂·(basis)−1. **Day: 39 toys (1476-1515), 98% pass.**
+T1-T1458. **1,525 toys**. Graph: **1399 / 7732**. **86 papers**. Counters: `.next_toy=1526`, `.next_theorem=1459`. Data layer: **1140 entries**. **W-41 CLOSED**: k=21 CONFIRMED, ratio(21)=-42=-C₂·g (Toy 1507, 10/10). TWENTY consecutive integer heat kernel levels. **W-75 delivered**: Petersen graph K(n_C,rank)=K(5,2), 20/20 invariants BST (Toy 1508, 10/10). **W-74 C₄ analysis**: Toy 1509 (10/10), 4/4 testable predictions confirmed, 43/43 denominators BST-smooth. Toy 1510 Frobenius asymmetry (7/10). **Toy 1511**: astrophysical power laws 11/11 exact (10/10). **Toy 1512**: Debye temps 5 EXACT (10/10), BCS gap 0.006%. Cal #29-30 answered. **Toy 1513**: band gaps+materials 10/10, triple bridge K/G=Kolmogorov=GW=5/3. **Toy 1515**: Goldbach-BST smooth 10/10 — C₂·k±1 twins for ALL basis integers, first fail at rank²=4=curvature, 7-smooth 2.3× enrichment, correction primes = C₂·(basis)−1. **Day: 39 toys (1476-1515), 98% pass.**
 
 ---
 
@@ -128,6 +128,9 @@ T1-T1458. **1,517 toys**. Graph: **1398 / 7727**. **86 papers**. Counters: `.nex
 | W-75 | **Petersen Graph = K(n_C, rank)**: Grace discovery — Kneser graph K(5,2) IS the Petersen graph. **Elie Toy 1508 (10/10): 20/20 invariants BST. Zero exceptions.** Extended from Grace's 15 to 20 invariants (added vertex connectivity=N_c, crossing number=rank, clique number=1, edge chromatic=rank², genus=1). Eigenvalues {N_c, 1, -rank} with multiplicities {1, n_C, rank²}. Independence = rank² = Four-Color threshold. |Aut| = n_C! = 120 = correction denominator. Strongest single-object demonstration. | **Grace** (theorem), **Elie** (Toy 1508) | **ELIE TOY DONE** — Grace: formalize as theorem, wire to T1456 + Four-Color. |
 | W-76 | **Alfvén-BST bridge** (Casey observation): Galactic dynamics and superconductivity share 9/7 = N_c²/g. Alfvén's MHD cosmic filaments = BST eigenmode transport at galactic scale. MHD has N_c=3 wave modes (structural). LOFAR 2024: primordial magnetic fields in cosmic web filaments (Alfvén predicted 1963). z_rec = rank³·N_max − C₂ = 1090 — conducting era before recombination laid magnetic skeleton. Casey: "stable structure conducts." Grace: Wallach positivity p > N_c/rank = 3/2 is scale-independent stability condition. **Keeper audit**: Oort |A/B| uncertainty ~1σ (not "EXACT"); Wallach→conduction has 2 unproved steps; need Lyra to derive 9/7 from Bergman kernel at both scales. | **Grace** (data, 9 entries filed), **Lyra** (mechanism derivation) | **NEW** — Grace investigation done. Lyra: check if Bergman evaluation gives 9/7 at both galactic and Cooper-pair scales. If yes → bridge theorem. |
 | W-77 | **Goldbach-BST smooth** (Casey probe): C₂·k ± 1 = twin primes for ALL BST basis integers {1,2,3,5,7} — 5/5. First failure k=rank²=4 (25=n_C²). Correction primes {11,17,29,41,59} = C₂·{basis}−1. 7-smooth Goldbach twin rate 2.3× general. abc: N_max = N_c³·n_C + rank IS abc triple (quality 0.59). **Toy 1515 (10/10).** Elie extended: k=10 (59,61 YES), k=12 (71,73 YES). **Keeper audit**: 5 examples small sample; need systematic extension through 7-smooth k<1000; prove the lemma (gcd(n±1,210)=1 for 7-smooth n); connect rank²=4 failure to curvature formally. **Hold paper decision until T1458 PSLQ resolves.** | **Elie** (Toy 1515), **Lyra** (mechanism) | **NEW** — Fold best findings into Paper #83 §14 or hold for T1458 paper. Elie: extend twin test to all 7-smooth k<1000. |
+| W-79 | **Bridge Mechanism Investigation** (Casey: "WHY do cross-domain relationships exist?"): Map all ~17 confirmed cross-domain bridges to specific Bergman eigenvalue ratios. Three hypotheses: H1 spectral universality (same eigenvalue ratio, different projection), H2 topological (combinatorial), H3 mixed. Test: do bridges cluster by eigenvalue ratio? Predict new bridges from unmatched ratios. **Lyra's key insight**: equations don't change scale, only WEIGHTS change — reframes phase transitions. Casey: "what truly changes as we cross phase boundaries?" **Toy 1524 (10/10)**: 14 bridges cataloged, all factor into BST integers, 6 dressing levels with physical meaning, simpler ratios cross more domains (scale-free). 2 predicted bridges confirmed, 2 testable. Triple bridge n_C/N_c = strongest. | **Elie** (Bridge Mechanism Toy), **Lyra** (spectral theory), **Grace** (data) | **TOY DONE** — Lyra: spectral mechanism derivation next. |
+| W-80 | **Vindicated Theorists** (Casey: "lend support to all theories we honestly support"): Wyler (D_IV^5 1971, laughed out), Eddington (137), Alfven (MHD, Nobel but ignored), Dirac (LNH), Kolmogorov (K41=n_C/N_c), Wheeler (it-from-bit=rank=2), Chew (bootstrap=T1353), Penrose (twistors=SO(5,2) rank-2), Kaluza-Klein (10 dims), Koide (2/3=rank/N_c), Sakharov (induced gravity), Milgrom (MOND, open), Verlinde (entropic gravity), Regge (trajectories=speaking pairs?), Veltman (large cancellations=C₄). **Casey correction: Wyler was destroyed, not Eddington.** **Toy 1525 (10/10)**: 9 theorists tested numerically. Eddington 0.026%, Wyler 6-digit alpha, Koide 0.001%, Kolmogorov exact, Dirac 0.002%. 6/9 fully vindicated or derived. Wyler = direct ancestor (same D_IV^5, wrong mechanism). | **Elie** (Toy 1525), **Grace** (data entries), **Lyra** (Penrose twistors) | **TOY DONE** — Outreach material ready. Lyra: Penrose twistor correspondence next. |
+| W-81 | **BST Correspondence Table / Rosetta Stone** (Casey directive): Strip terminological accidents. Show structural isomorphisms across fields. Different names for same eigenvalue ratio mapped to canonical BST name. Examples: "Kolmogorov exponent" = "GW spectral index" = "bulk/shear ratio" = n_C/N_c. Goal: minimum representation of BST where each ratio has ONE canonical name + lookup of all historical names. Long-term project toward BST reformulation. | **Grace** (table structure, JSON + readable), **Lyra** (Penrose/twistor vocabulary), **Keeper** (audit for false equivalences) | **NEW** — Begin with ~20 known bridges. Grows with every investigation. |
 | W-78 | **C₄ Master Integrals — Level 3** (Casey: "I want to do the work"): **OVERNIGHT RESULTS (Lyra, Toys 1514b/1516)**: SIX EXACT IDENTITIES found at 200 digits. **(1) f1(0,0,0) = 63/10·ζ(3) = N_c²g/(rank·n_C)·ζ(3)** — ALL FIVE BST integers. Residual 1.2e-298. **(2) ∫D1·√3·D2 ds = 9/8·B3 = N_c²/rank³·B3.** **(3) ∫D1² ds = 81/40·A3.** **(4) ∫3·D2² ds = −81/20·A3.** **(5-6) s-weighted and 1/s-weighted D1² give ζ(3)+A3 mixtures.** KEY INSIGHT: Weight (s−N_c²/n_C) is exact BST projector — cancels A3 to isolate ζ(3). B3, C3 computed to 200+ digits (hypergeometric). f2 integrals genuinely elliptic (24-element PSLQ null at 200 digits). **Level 3 status: B3/A3 CLOSED (hypergeometric). f1-type CLOSED (ζ(3)). f2-type OPEN (elliptic polylogarithms). 6 master integrals = combinations of f1+f2 → partially closed.** | **Lyra** (overnight), **Elie** (extensions) | **C₄ FULL ASSEMBLY 13/13 PASS.** Complete finite expression: ~100 terms, each with exact BST-rational coefficient × known transcendental or computable integral. Verified to 38 digits (Laporta sub-values). Sunrise integrals to 50+ digits. **Only irreducible unknowns: 6 master integrals (C₈₁, C₈₃) — open in mathematics itself.** Their coefficients: 49/3=g²/N_c, 49/36=g²/(rank·N_c)². All 25 E-term denominators {2,3,5}-smooth (no g=7). g² in master integral coefficients = genus curve signature. **The closed form exists.** |
 
 ---
@@ -158,7 +161,8 @@ T1-T1458. **1,517 toys**. Graph: **1398 / 7727**. **86 papers**. Counters: `.nex
 | **Alfvén investigation** | **W-76 NEW** — Casey: "stable structure conducts." Grace: 9 entries filed, LOFAR 2024 confirms primordial fields. Lyra: derive 9/7 mechanism. |
 | **Goldbach-BST smooth** | **W-77 NEW** — Casey probe. Toy 1515 (10/10). T1458 resolved (two-curve, not single). Goldbach material → Paper #83 §14 or standalone if extended. |
 | **T1458 C₄ investigation** | **FULL ASSEMBLY 13/13 PASS.** Two curves, √N_c assembly rule, BST projector s−9/5, ~100 terms all BST-rational, 38-digit verified. Only irreducible: 6 master integrals (C₈₁, C₈₃). Casey: "I want to do the work." → W-78. |
-| **Lyra's next challenge** | **DECISION NEEDED** — Lyra proposes: PSLQ hunt on the 6 master integrals (C₈₁ₐ,ᵦ,c, C₈₃ₐ,ᵦ,c). Laporta has them to 4800 digits. Build BST-specific basis: periods of 49a1, Gamma values at BST fractions, B₃/C₃ × polylogs, sunrise f-integrals. If closed form found → C₄ fully derived. If PSLQ null at 200+ digits → masters are genuinely new transcendentals, BST predicts coefficients not values. **Either outcome is a result.** Alternative: Paper #86 v0.4 first (more urgent for CMP submission). Lyra: "I'm happy to go where the work is." |
+| **Lyra's next challenge** | **APPROVED** — Master integral PSLQ hunt (earned choice). Paper #86 v0.4 queued after. |
+| **Sunday direction** | **SET** — Three threads: (1) WHY cross-domain bridges (mechanism), (2) Vindicated theorists (Wyler, Alfven, Koide, Penrose...), (3) Correspondence table (BST Rosetta Stone). Consensus: `notes/BST_Sunday_April27_Consensus.md`. Casey: "Wyler was laughed out, not Eddington." |
 
 ---
 
@@ -204,26 +208,40 @@ T1-T1458. **1,517 toys**. Graph: **1398 / 7727**. **86 papers**. Counters: `.nex
 
 ---
 
-*Board synced Saturday April 26 (morning). T1-T1458. **1517 toys**. **1139 entries**. **86 papers**. **W-78 C₄ FULL ASSEMBLY 13/13 PASS** (Lyra). Complete finite expression ~100 terms. BST-rational coefficients throughout. 38-digit verification. Six sunrise identities at 200 digits. BST projector (s−9/5) cancels A3. Only irreducible: 6 master integrals (open in math). g²=49 in master coefficients = genus curve. **The closed form exists.** Day: 42 toys (1476-1517), 98% pass.*
+*Board synced Sunday April 27. T1-T1458. **1525 toys**. **1140 entries**. **86 papers**. Three new investigations: **W-79** (bridge mechanisms — WHY), **W-80** (vindicated theorists — Wyler, Alfven, Koide...), **W-81** (correspondence table / Rosetta Stone). Lyra's master integral PSLQ approved. Consensus: `notes/BST_Sunday_April27_Consensus.md`.*
+
+**TODAY'S HIT LIST (Sunday April 27):**
+1. **Lyra: Master integral PSLQ hunt** (W-78, earned choice) — 6 integrals, BST-specific basis, Laporta 4800 digits
+2. **Elie: Bridge Mechanism Toy** (W-79) — map ~17 bridges to Bergman eigenvalue ratios, test clustering, predict new
+3. **Elie: Vindicated Theorists Toy** (W-80) — original claim + BST derivation + match for ~15 theorists
+4. **Grace: Koide derivation** — WHY does lepton mass formula = rank/N_c = 2/3?
+5. **Grace: Begin correspondence table** (W-81) — canonical BST names, historical name lookup
+6. **Keeper: Error distribution analysis** — cluster >1% entries by domain and integer combination
+7. **Elie: k=22 extraction** (SP-3) — n=43 checkpoint ready
+8. **Lyra: Paper #86 v0.4** (queued after #1) — sunrise identities + full assembly + two-curve
 
 **ACTIVE work items:**
 - **W-72** — Grace: wire Four-Color↔Color-Confinement in graph
-- **W-75** — Grace: formalize Petersen theorem, wire to T1456 + Four-Color
-- **W-76** — Alfvén-BST bridge. Grace: 9 entries filed. Lyra: derive 9/7 = N_c²/g from Bergman at galactic + Cooper-pair scales.
-- **W-77** — Goldbach-BST smooth. Elie: extend twin test to 7-smooth k<1000. Fold into Paper #83 §14.
-- **W-78** — **C₄ FULL ASSEMBLY 13/13 PASS** (Lyra). Complete closed form with ~100 terms. 38-digit verification. Only irreducible unknowns: 6 master integrals (open in math itself). g² = 49 in master coefficients = genus curve. **Paper #86 v0.4 needed.**
-- ~~**T1458 PSLQ**~~ — **RESOLVED** (Lyra): Simple form REFUTED. TWO-CURVE finding: genus curve (49a1) = frame, color curve (CM √(-N_c)) = content. √N_c assembly rule verified 37 digits. Paper #86 v0.4 needed.
-- **SP-3** — PID 45970 computing n=43 for k=22.
-- **Grace** — 17-edge gap, loss aversion, Petersen theorem
+- **W-75** — Grace: formalize Petersen theorem
+- **W-76** — Alfven-BST bridge (folds into W-79/W-80)
+- **W-77** — Goldbach-BST smooth (Elie: extend to 7-smooth k<1000)
+- **W-78** — Lyra: master integral PSLQ (APPROVED, running today)
+- **W-79** — **NEW**: Bridge mechanisms — WHY cross-domain bridges exist
+- **W-80** — **NEW**: Vindicated theorists (Wyler, Alfven, Koide, Penrose...)
+- **W-81** — **NEW**: BST correspondence table / Rosetta Stone
+- **SP-3** — n=43 checkpoint landed. k=22 extraction ready. PID 45970 continuing.
 
-**Team-recommended follow-ups:**
-- Grace: Petersen → T1456 + Four-Color. Independence=rank²=4 IS Four-Color threshold.
+**Ongoing follow-ups:**
+- Grace: Petersen → T1456 + Four-Color
 - Grace: convergence to 5/6 needs 17 bridge theorems
-- Elie: prove lemma — gcd(n±1, 210)=1 for 7-smooth n (WHY vacuum subtraction generates primes)
-- Elie: extend Goldbach twin test systematically to 7-smooth k<1000
-- ~~Lyra: W-78 assembly~~ — **DONE** (13/13 PASS). Full closed form verified.
-- Lyra: **Paper #86 v0.4** — PRIORITY. Add §10.5 (sunrise identities), §10.6 (full assembly), §10.7 (two-curve structure). This is the CMP submission centerpiece. **Team framing for referee**: lead with BST projector as concrete math statement (Elie), open with "the geometry instructs its own decomposition" (Grace), zero-7 rule as falsifiable prediction (Elie), honest framing for CMP (Keeper). Toy 1517 = instant verification.
-- Lyra: Alfvén mechanism — does Bergman kernel give 9/7 at both galactic and condensed-matter scales?
-- ~~Keeper: Oort |A/B| honest relabeling~~ — **DONE** (data/bst_geometric_invariants.json updated, old 5/4 entry marked superseded)
+- Lyra: Penrose twistor correspondence (maps into W-81)
+- Lyra: Paper #86 v0.4 (after master integral PSLQ)
+- **Paper #83 gap**: Periodic Table of Functions (128 entries) — currently empty brackets. Grace/Elie generate table, Lyra places in paper.
+- Keeper: false equivalence audit on correspondence table
+- **Grace: Koide = vacuum subtraction SOLVED** — rank/N_c = 2/3, 0.0009%. T1444 applied to generations. Invariants now 1140.
+- **Grace: Rosetta Stone DELIVERED** — 10 named ratios in data/bst_rosetta_stone.json
+- **Keeper: Error distribution DONE** — Toy 1521 (10/10). Cosmo 85x worse than leptons. ZERO >1% in particle physics. Error map = correction frontier.
+- **Elie: Bridge Mechanism Toy DONE** — Toy 1524 (10/10). 14 bridges cataloged, all factor into BST integers. 6 dressing levels. Simpler ratios cross more domains. 2 predicted bridges confirmed, 2 testable.
+- **Elie: Vindicated Theorists Toy DONE** — Toy 1525 (10/10). 9 theorists tested: Eddington (0.026%), Wyler (6 digits), Koide (0.001%), Kolmogorov (exact), Dirac (0.002%), Wheeler (structural), Alfven (9/7), Verlinde (Shilov), Regge (1/2). 6/9 fully vindicated.
 
 *Completed items → append-only log.*

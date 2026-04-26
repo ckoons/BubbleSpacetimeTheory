@@ -1,0 +1,838 @@
+{
+  "title": "BST Experimentalist Shop Manual",
+  "description": "Reverse index: given a BST subexpression, what physical quantities use it?",
+  "generated": "2026-04-25",
+  "total_entries": 1001,
+  "building_blocks": {
+    "g/rank": {
+      "description": "g/rank = 7/2",
+      "count": 2,
+      "entries": [
+        "mass_lum_exp",
+        "stellar_life_exp"
+      ],
+      "sections": [
+        11
+      ]
+    },
+    "N_c/n_C": {
+      "description": "N_c/n_C = 3/5",
+      "count": 2,
+      "entries": [
+        "chirp_exp",
+        "Flory_exp"
+      ],
+      "sections": [
+        16,
+        11
+      ]
+    },
+    "g/C₂": {
+      "description": "g/C₂ = 7/6",
+      "count": 3,
+      "entries": [
+        "γ_Ising_3D",
+        "SU3/SU2",
+        "SAW_gamma"
+      ],
+      "sections": [
+        8,
+        13
+      ]
+    },
+    "n_C·g": {
+      "description": "n_C·g = 35",
+      "count": 4,
+      "entries": [
+        "A_short",
+        "Mathieu_M24",
+        "m_omega_rho",
+        "nC_g"
+      ],
+      "sections": [
+        16,
+        14
+      ]
+    },
+    "n_C/C₂": {
+      "description": "n_C/C₂ = 5/6",
+      "count": 4,
+      "entries": [
+        "Lawvere_FP",
+        "Pareto_frac",
+        "graph_strong_pct",
+        "linearizable_frac"
+      ],
+      "sections": [
+        16
+      ]
+    },
+    "N_max-1": {
+      "description": "N_max-1 = 136",
+      "count": 4,
+      "entries": [
+        "m_c",
+        "η̄",
+        "m_c/m_s",
+        "proton_drip"
+      ],
+      "sections": [
+        9,
+        5,
+        7
+      ]
+    },
+    "C₂·g": {
+      "description": "C₂·g = 42",
+      "count": 5,
+      "entries": [
+        "C2_g",
+        "all_five",
+        "Hurwitz_bound",
+        "Euler_phi_49",
+        "product_210"
+      ],
+      "sections": [
+        16,
+        14
+      ]
+    },
+    "n_C/N_c": {
+      "description": "n_C/N_c = 5/3",
+      "count": 5,
+      "entries": [
+        "T_deconf/f_π",
+        "γ_mono",
+        "K41",
+        "Gruneisen",
+        "energy_cascade"
+      ],
+      "sections": [
+        8,
+        16,
+        13
+      ]
+    },
+    "C₂/n_C": {
+      "description": "C₂/n_C = 6/5",
+      "count": 5,
+      "entries": [
+        "N_magic",
+        "κ_ls",
+        "magic_184",
+        "spin_orbit_ratio",
+        "spin_orbit_origin"
+      ],
+      "sections": [
+        16,
+        9,
+        3
+      ]
+    },
+    "2C₂-1": {
+      "description": "2C₂-1 = 11",
+      "count": 5,
+      "entries": [
+        "0⁻⁺/0⁺⁺",
+        "J_CKM",
+        "A",
+        "μ_n/μ_p",
+        "137_digits_sum"
+      ],
+      "sections": [
+        8,
+        9,
+        16,
+        7
+      ]
+    },
+    "N_c·C₂-1": {
+      "description": "N_c·C₂-1 = 17",
+      "count": 6,
+      "entries": [
+        "0⁻⁺/0⁺⁺",
+        "a_S",
+        "γ_Ising_3D",
+        "m_c/m_s",
+        "constructible_N",
+        "137_as_sum"
+      ],
+      "sections": [
+        5,
+        8,
+        13,
+        14,
+        16
+      ]
+    },
+    "g²": {
+      "description": "g² = 49",
+      "count": 7,
+      "entries": [
+        "N(49a1)",
+        "m_η'",
+        "B_short",
+        "BAO_Mpc",
+        "Yp_helium",
+        "Debye_ratio_exact",
+        "fpi_improved"
+      ],
+      "sections": [
+        8,
+        11,
+        13,
+        14,
+        16
+      ]
+    },
+    "rank·N_c": {
+      "description": "rank·N_c = C₂ = 6",
+      "count": 7,
+      "entries": [
+        "ico_edges",
+        "B_short",
+        "all_five",
+        "divisor_137",
+        "a_109",
+        "integers_five",
+        "group_18"
+      ],
+      "sections": [
+        16,
+        2,
+        13,
+        14
+      ]
+    },
+    "N_c·g": {
+      "description": "N_c·g = 21",
+      "count": 8,
+      "entries": [
+        "γ_Ising_3D",
+        "K5_vertices",
+        "Γ_Z",
+        "N_Z_channels",
+        "BAO_Mpc",
+        "fpi_improved",
+        "product_630",
+        "Fibonacci_closure"
+      ],
+      "sections": [
+        6,
+        11,
+        13,
+        14,
+        16
+      ]
+    },
+    "rank·g": {
+      "description": "rank·g = 14",
+      "count": 10,
+      "entries": [
+        "K5_vertices",
+        "Bravais_14",
+        "Cat_4",
+        "Hubble_time",
+        "lanthanide_count",
+        "actinide_count",
+        "f_orbital",
+        "Bergman_k2",
+        "a_61",
+        "a_97"
+      ],
+      "sections": [
+        16,
+        11,
+        13,
+        14
+      ]
+    },
+    "rank⁴": {
+      "description": "rank⁴ = 16",
+      "count": 11,
+      "entries": [
+        "sinθ_C",
+        "2⁺⁺/0⁺⁺",
+        "J_CKM",
+        "137_Frobenius",
+        "BR_H_ττ",
+        "hex_16",
+        "loop_4pi",
+        "mu_triton",
+        "SM_particles_total",
+        "a_71",
+        "a_127"
+      ],
+      "sections": [
+        6,
+        7,
+        8,
+        14,
+        16
+      ]
+    },
+    "n_C²": {
+      "description": "n_C² = 25",
+      "count": 12,
+      "entries": [
+        "Q",
+        "lambda_1_KS",
+        "m_φ/m_ρ",
+        "capacity_38",
+        "137_Frobenius",
+        "μ_n/μ_p",
+        "magic_50",
+        "normal_68",
+        "Omega_Lambda_frac",
+        "bridge_OmegaL_mun",
+        "go_19x19",
+        "Dunbar_50"
+      ],
+      "sections": [
+        2,
+        8,
+        9,
+        11,
+        14,
+        15,
+        16
+      ]
+    },
+    "rank²·n_C": {
+      "description": "rank²·n_C = 20",
+      "count": 12,
+      "entries": [
+        "N_amino",
+        "ico_faces",
+        "Plucker_10",
+        "dim_so5",
+        "magic_20",
+        "CMB_peaks",
+        "protein_20",
+        "dodecahedron_V",
+        "dB_decade",
+        "mRNA_codons_per_aa",
+        "GF128_orbits_total",
+        "a_107"
+      ],
+      "sections": [
+        16,
+        9,
+        14,
+        15
+      ]
+    },
+    "N_c/rank": {
+      "description": "N_c/rank = 3/2",
+      "count": 13,
+      "entries": [
+        "Wallach",
+        "metabolic_3/4",
+        "c_v_mono",
+        "Jeans_T_exp",
+        "Kepler_exp",
+        "Kolmogorov_eta",
+        "Brewster_tan",
+        "fifth_ratio",
+        "BCC_packing",
+        "photon_sphere",
+        "rho_HC_val",
+        "Wallach_p1",
+        "Wallach_cont"
+      ],
+      "sections": [
+        16,
+        11,
+        13,
+        15
+      ]
+    },
+    "N_c²": {
+      "description": "N_c² = 9",
+      "count": 16,
+      "entries": [
+        "sinθ_C",
+        "η_b",
+        "Q",
+        "A",
+        "Frob_orbits",
+        "R_GF128",
+        "C5_pred",
+        "μ_p/μ_N",
+        "Gell_Mann",
+        "gluon_count",
+        "CF_fund",
+        "sigma_term",
+        "baseball_9",
+        "a_109",
+        "group_18",
+        "pi_digits_137"
+      ],
+      "sections": [
+        2,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        16
+      ]
+    },
+    "N_c·n_C": {
+      "description": "N_c·n_C = 15",
+      "count": 16,
+      "entries": [
+        "j(49a1)",
+        "a_V",
+        "c₄(49a1)",
+        "lambda_1_KS",
+        "|W(D₅)|",
+        "ico_edges",
+        "Mathieu_M24",
+        "m_omega_rho",
+        "Debye_ratio_exact",
+        "mu_triton",
+        "all_five",
+        "binom_6_2",
+        "prime_count_N_max",
+        "partitions_g",
+        "Dunbar_15",
+        "pi_continued_frac"
+      ],
+      "sections": [
+        8,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "rank·n_C": {
+      "description": "rank·n_C = 10",
+      "count": 21,
+      "entries": [
+        "a₁₃₇_reading",
+        "CM_norm_548",
+        "BAO_Mpc",
+        "magic_50",
+        "magic_82",
+        "double_helix",
+        "transition_metals",
+        "ocean_frac",
+        "concentration_c",
+        "d_orbital",
+        "heart_rate",
+        "concert_A",
+        "space_groups_230",
+        "m_f0_500",
+        "a_41",
+        "a_53",
+        "a_89",
+        "a_137",
+        "t_BBN_product",
+        "Dunbar_50"
+      ],
+      "sections": [
+        9,
+        11,
+        14,
+        15,
+        16
+      ]
+    },
+    "rank·C₂": {
+      "description": "rank·C₂ = 12",
+      "count": 29,
+      "entries": [
+        "1728",
+        "denom_L",
+        "V_trop",
+        "dim_B2",
+        "BR_H_gg",
+        "CMB_peaks",
+        "SM_gauge_12",
+        "SM_fermions_12",
+        "dodecahedron_F",
+        "chromatic_12",
+        "cube_E",
+        "octa_E",
+        "Golay_23",
+        "Dunbar_150",
+        "DNA_groove",
+        "body_temp_C",
+        "Cu_FCC",
+        "concert_A",
+        "Beaufort_12",
+        "equal_temp_ratio"
+      ],
+      "sections": [
+        2,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "1/rank": {
+      "description": "1/rank = 1/2",
+      "count": 31,
+      "entries": [
+        "L/Ω",
+        "a_V",
+        "supersingular_frac",
+        "L_BSD",
+        "σ_Poisson",
+        "consciousness_50%",
+        "BR_H_ττ",
+        "Jeans_T_exp",
+        "virial_ratio",
+        "e_approx",
+        "spin_half",
+        "diff_exp",
+        "efficient_mkt",
+        "species_area",
+        "Mach_cone",
+        "pipe_f_turb",
+        "TF_fund",
+        "perc_2D_tri",
+        "polymer_theta",
+        "Balmer_series"
+      ],
+      "sections": [
+        6,
+        8,
+        11,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "rank³": {
+      "description": "rank³ = 8",
+      "count": 40,
+      "entries": [
+        "sinθ_C",
+        "μ_n/μ_p",
+        "α_mZ",
+        "sigma_Thomson",
+        "magic_8",
+        "Gell_Mann",
+        "octet_rule",
+        "period_2_elements",
+        "period_3_elements",
+        "matter_rad_eq",
+        "gluon_count",
+        "cube_V",
+        "octa_F",
+        "normal_68",
+        "BCC_packing",
+        "byte_bits",
+        "BE_peak_A",
+        "BE_peak_val",
+        "SU3_dim",
+        "E8_rank"
+      ],
+      "sections": [
+        3,
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        16
+      ]
+    },
+    "N_max": {
+      "description": "N_max = 137",
+      "count": 77,
+      "entries": [
+        "n_s",
+        "m_t/m_c",
+        "2⁺⁺/0⁺⁺",
+        "w₀",
+        "m_c",
+        "η̄",
+        "β_Ising_3D",
+        "f_crit",
+        "det_Jac",
+        "l_sys",
+        "823",
+        "T_boil/T_CMB",
+        "Shannon_cap",
+        "alpha_obs",
+        "2alpha",
+        "m_c/m_s",
+        "m_b/m_c",
+        "α_inv_CF",
+        "α_EM",
+        "137_Frobenius"
+      ],
+      "sections": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "rank²": {
+      "description": "rank² = 4",
+      "count": 130,
+      "entries": [
+        "r_p",
+        "Q",
+        "m_J/ψ/m_ρ",
+        "N_amino",
+        "metabolic_3/4",
+        "diam_graph",
+        "det_Jac",
+        "l_sys",
+        "APG_conditions",
+        "χ_planar",
+        "d_spacetime",
+        "d_total_real",
+        "ico_faces",
+        "A_short",
+        "γ_poly",
+        "σ_Poisson",
+        "DNA_bases",
+        "T4_iodines",
+        "137_residues",
+        "CM_norm_548"
+      ],
+      "sections": [
+        2,
+        6,
+        8,
+        9,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "C₂": {
+      "description": "C₂ = 6",
+      "count": 157,
+      "entries": [
+        "N_magic",
+        "Ω_m",
+        "a₀",
+        "κ_ls",
+        "T_deconf",
+        "α_s(m_Z)",
+        "G",
+        "m_n-m_p",
+        "0⁻⁺/0⁺⁺",
+        "2⁺⁺/0⁺⁺",
+        "θ_KS",
+        "R_NS",
+        "J_CKM",
+        "λ_H",
+        "1728",
+        "a_S",
+        "N_D",
+        "Q",
+        "A",
+        "m_Υ"
+      ],
+      "sections": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "N_c": {
+      "description": "N_c = 3",
+      "count": 241,
+      "entries": [
+        "C₂",
+        "N_max",
+        "N_gen",
+        "sinθ_C",
+        "sin²θ₁₂",
+        "f_c",
+        "m_b/m_τ",
+        "m_u",
+        "T_deconf/f_π",
+        "η_b",
+        "0⁻⁺/0⁺⁺",
+        "j(49a1)",
+        "a_V",
+        "√σ",
+        "ΔΣ",
+        "Omega_b",
+        "m_d",
+        "m_b",
+        "T_CMB",
+        "nu_Dirac"
+      ],
+      "sections": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "n_C": {
+      "description": "n_C = 5",
+      "count": 241,
+      "entries": [
+        "g",
+        "N_max",
+        "N_magic",
+        "n_s",
+        "sinθ_C",
+        "a₀",
+        "κ_ls",
+        "γ_CKM",
+        "f_c",
+        "α_s(m_Z)",
+        "m_s/m_d",
+        "m_W (B)",
+        "T_deconf/f_π",
+        "j(49a1)",
+        "m_π",
+        "m_ρ",
+        "w₀",
+        "a_V",
+        "J_CKM",
+        "λ_H"
+      ],
+      "sections": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "rank": {
+      "description": "rank = 2",
+      "count": 448,
+      "entries": [
+        "g",
+        "C₂",
+        "N_max",
+        "sinθ_C",
+        "m_u",
+        "r_p",
+        "η_b",
+        "Tsirelson",
+        "2⁺⁺/0⁺⁺",
+        "L/Ω",
+        "a_V",
+        "√σ",
+        "J_CKM",
+        "c₄(49a1)",
+        "c₆(49a1)",
+        "1728",
+        "m_B/m_D",
+        "Q",
+        "Wallach",
+        "m_J/ψ/m_ρ"
+      ],
+      "sections": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "g": {
+      "description": "g = 7",
+      "count": 519,
+      "entries": [
+        "N_max",
+        "m_p/m_e",
+        "Ω_m",
+        "v",
+        "sin²θ₁₂",
+        "sin²θ₂₃",
+        "γ_CKM",
+        "τ_n",
+        "a_e",
+        "α_s(m_Z)",
+        "Λ",
+        "G",
+        "m_μ/m_e",
+        "m_t",
+        "m_b/m_τ",
+        "m_W (B)",
+        "B_d",
+        "r_p",
+        "η_b",
+        "θ_D(Cu)"
+      ],
+      "sections": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  }
+}

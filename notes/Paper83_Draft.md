@@ -620,6 +620,80 @@ C_3 = 1.181241456587... (five Selberg contributions)
 | 25 | R_GF128 | Irreducible polynomials | rank·N_c² = 18 | exact | exact |
 | 26 | D_Pell | Pell discriminant | rank·g·Q = 266 | exact | exact |
 
+### 14.4a The Periodic Table of Functions (2^g = 128)
+
+*Every function in mathematical physics is a Meijer G-function. The BST function catalog indexes them by which subset of the five integers {rank=2, N_c=3, n_C=5, C_2=6, g=7} governs their parameters. There are 2^5 = 32 base families (one per subset), plus the N_max terminus, giving 33 base entries. The extended catalog has 2^g = 128 entries via GF(128) Frobenius orbits. Source: `data/bst_function_catalog.json`, Theorems T1333-T1337.*
+
+**Layer 0 — Vacuum (k=0)**
+
+| ID | Sector | Name | Meijer G | Class | Example Functions |
+|----|--------|------|----------|-------|-------------------|
+| 0 | EMPTY | Vacuum | G_{0,0}^{0,0} | constant | constant, identity |
+
+**Layer 1 — Single integers (k=1): The five generators**
+
+| ID | Sector | Integer | Meijer G | Class | Example Functions | Domains |
+|----|--------|---------|----------|-------|-------------------|---------|
+| 1 | R | rank=2 | G_{1,1}^{1,1} | elementary | exponential, Bergman kernel | topology, geometry |
+| 2 | C | N_c=3 | G_{1,1}^{1,1} | elementary | exponential, power law | QCD, color charge |
+| 3 | D | n_C=5 | G_{1,1}^{1,1} | elementary | exponential, power law | compact space, atomic |
+| 4 | K | C_2=6 | G_{1,1}^{1,1} | elementary | exponential, power law | Casimir, field theory |
+| 5 | G | g=7 | G_{1,1}^{1,1} | elementary | exponential, power law | cosmology, genus |
+
+**Layer 2 — Pairs (k=2): C(5,2) = 10 special functions**
+
+| ID | Sector | Integers | Meijer G | Example Functions | Domains |
+|----|--------|----------|----------|-------------------|---------|
+| 6 | CR | 2,3 | G_{2,2}^{1,2} | Bessel, erf | topology x QCD |
+| 7 | DR | 2,5 | G_{2,2}^{1,2} | Bessel J, Legendre, Airy | atomic, nuclear, wave |
+| 8 | KR | 2,6 | G_{2,2}^{1,2} | Bessel K, Whittaker | field theory x topology |
+| 9 | GR | 2,7 | G_{2,2}^{1,2} | confluent hypergeometric | cosmology x topology |
+| 10 | CD | 3,5 | G_{2,2}^{1,2} | Bessel Y, Struve | particle x atomic |
+| 11 | CK | 3,6 | G_{2,2}^{1,2} | Kummer functions | QCD x Casimir |
+| 12 | CG | 3,7 | G_{2,2}^{1,2} | Bessel, hypergeometric | QCD x cosmology |
+| 13 | DK | 5,6 | G_{2,2}^{1,2} | Legendre Q, Mathieu | atomic x Casimir |
+| 14 | DG | 5,7 | G_{2,2}^{1,2} | Hankel functions | compact x genus |
+| 15 | GK | 6,7 | G_{2,2}^{1,2} | Weber parabolic cylinder | Casimir x genus |
+
+**Layer 3 — Triples (k=3): C(5,3) = 10 hypergeometric functions**
+
+| ID | Sector | Integers | Meijer G | Example Functions |
+|----|--------|----------|----------|-------------------|
+| 16 | CDR | 2,3,5 | G_{3,3}^{2,2} | Gauss hypergeometric ₂F₁ |
+| 17 | CKR | 2,3,6 | G_{3,3}^{2,2} | Gauss hypergeometric ₂F₁ |
+| 18 | CGR | 2,3,7 | G_{3,3}^{2,2} | Gauss hypergeometric ₂F₁ |
+| 19 | DKR | 2,5,6 | G_{3,3}^{2,2} | Appell, Gauss ₂F₁ |
+| 20 | DGR | 2,5,7 | G_{3,3}^{2,2} | Appell functions |
+| 21 | GKR | 2,6,7 | G_{3,3}^{2,2} | Appell functions |
+| 22 | CDK | 3,5,6 | G_{3,3}^{2,2} | generalized hypergeometric |
+| 23 | CDG | 3,5,7 | G_{3,3}^{2,2} | generalized hypergeometric |
+| 24 | CGK | 3,6,7 | G_{3,3}^{2,2} | generalized hypergeometric |
+| 25 | DGK | 5,6,7 | G_{3,3}^{2,2} | generalized hypergeometric |
+
+**Layer 4 — Quadruples (k=4): C(5,4) = 5 generalized functions**
+
+| ID | Sector | Integers | Meijer G | Class |
+|----|--------|----------|----------|-------|
+| 26 | CDKR | 2,3,5,6 | G_{4,4}^{2,3} | generalized |
+| 27 | CDGR | 2,3,5,7 | G_{4,4}^{2,3} | generalized |
+| 28 | CGKR | 2,3,6,7 | G_{4,4}^{2,3} | generalized |
+| 29 | DGKR | 2,5,6,7 | G_{4,4}^{2,3} | generalized |
+| 30 | CDGK | 3,5,6,7 | G_{4,4}^{2,3} | generalized |
+
+**Layer 5 — Full quintuple (k=5): The universal function**
+
+| ID | Sector | Integers | Meijer G | Class | Note |
+|----|--------|----------|----------|-------|------|
+| 31 | CDGKR | 2,3,5,6,7 | G_{5,5}^{3,3} | universal | All five integers; full D_IV^5 |
+
+**Terminus — N_max = 137**
+
+| ID | Sector | Note |
+|----|--------|------|
+| 32 | ORPHAN | N_max = N_c³·n_C + rank = 137. Not a subset product — it is the DERIVED constant. |
+
+*Layer counts: 1 + 5 + 10 + 10 + 5 + 1 + 1 = 33 = Pascal row 5 + terminus. Base parameters: 12 = 2·C_2 = dim(SM gauge group). Extended catalog: 2^g = 128 via GF(128) Frobenius orbits (20 orbits of size g, plus 2 fixed points).*
+
 ### 14.5 BST Integer Identities
 
 | # | Symbol | Name | Formula | Prec | Status |
@@ -771,4 +845,4 @@ Pattern: 17 = N_c·C₂−1 appears in both Ising corrections and charm (136 = 8
 5. **DUNE δ_CP:** BST predicts near 246° (T1446).
 
 ---
-*1118 entries (data layer). Paper at ~600+ inline. v3.2, Lyra fixes April 26, 2026.*
+*1140 entries (data layer). Paper at ~700+ inline. v3.3: function catalog table added, Koide invariant #1140. April 27, 2026.*
