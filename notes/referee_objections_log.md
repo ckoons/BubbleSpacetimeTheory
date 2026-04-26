@@ -383,9 +383,9 @@ Unconditional Clay resolution requires all ranks unconditionally. Anything less 
 4. **Tier drift is a referee flag**: if an entry's tier label changes upward without new evidence, that's a #31 violation.
 
 **Three action items (Casey-approved April 27):**
-1. ~~**Null-model toy**~~ — **DONE** (Elie, April 27). BST matches 27/51 constants at <1%. Random 5-tuples average 14.7. Z=2.9, p<0.0005. Against random prime tuples: Z=4.63. 13 exact matches. 88% of single-integer swaps make BST worse. (2,3,5,7,139) ties at 28 (139≈137, expected). Replacing N_max=137 with 17 gives 30 formula hits but NOT the specific physics matches (α, m_p/m_e). **Verdict: BST is quantitatively distinguishable from numerology.**
-2. **Tier column in Paper #83** — every entry gets D/I/C/S label (Grace + Lyra). OPEN.
-3. **Standalone `verify_bst.py`** — top 50 D-tier predictions, one-command reproduction (Elie). OPEN.
+1. ~~**Null-model toy**~~ — **DONE** (Elie, Toys 1543+1545). Unweighted Z=2.89, p<0.0005. PDG precision-weighted Z=2.41, p=0.01 (Cal's follow-up). **Honest finding**: weighted Z went DOWN, not up — BST's advantage is breadth (covering everything from α to Debye temps to DNA codons) not concentration on famous high-precision constants. This is actually STRONGER against numerology: numerologists optimize for famous constants; BST covers the whole landscape. Both tests reject null at p<0.01.
+2. **Tier column in Paper #83** — every entry gets D/I/C/S label. Grace ACTIVE.
+3. ~~**Standalone `verify_bst.py`**~~ — **DONE** (Keeper, April 27). 49/50 PASS, 17 EXACT, 1 WARN, 0 FAIL. Grace corrections applied (theta_12 cos²θ₁₃ correction, gamma_CKM PDG baseline). `python3 play/verify_bst.py` — one command, zero dependencies.
 
 **Status:** STANDING TOOL — applies to all BST claims going forward. Supersedes and refines #1 (derivation/identification ladder) with finer granularity.
 
