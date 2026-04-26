@@ -34,7 +34,7 @@ status: "Active — check at session start, update at session end"
 
 ## Counters
 
-T1-T1459. **.next_toy=1532**. Graph: **1399 / 7732**. **87 papers**. Counters: `.next_toy=1532`, `.next_theorem=1460`. Data layer: **1163 entries**. **W-41 CLOSED**: k=21 CONFIRMED, ratio(21)=-42=-C₂·g (Toy 1507, 10/10). TWENTY consecutive integer heat kernel levels. **W-75 delivered**: Petersen graph K(n_C,rank)=K(5,2), 20/20 invariants BST (Toy 1508, 10/10). **W-74 C₄ analysis**: Toy 1509 (10/10), 4/4 testable predictions confirmed, 43/43 denominators BST-smooth. Toy 1510 Frobenius asymmetry (7/10). **Toy 1511**: astrophysical power laws 11/11 exact (10/10). **Toy 1512**: Debye temps 5 EXACT (10/10), BCS gap 0.006%. Cal #29-30 answered. **Toy 1513**: band gaps+materials 10/10, triple bridge K/G=Kolmogorov=GW=5/3. **Toy 1515**: Goldbach-BST smooth 10/10 — C₂·k±1 twins for ALL basis integers, first fail at rank²=4=curvature, 7-smooth 2.3× enrichment, correction primes = C₂·(basis)−1. **Toy 1524**: Bridge Mechanism 10/10 — 14 bridges cataloged, 8 eigenvalue classes, 6 dressing levels, simpler ratios cross more domains (scale-free). **Toy 1525**: Vindicated Theorists 10/10 — 9 theorists tested, 6/9 fully vindicated/derived, Wyler=direct ancestor (same D_IV^5). **Toy 1526**: Error Correction Code Map 10/10 — Hamming(7,4,3)=(g,rank²,N_c), 5-level hierarchy, dominance map (DOMINANT in weak/QED/biology, SILENT in gravity/turbulence). **Toy 1528**: Goldbach-BST Systematic 9/10 — 7-smooth enrichment 1.508x (z=2.44, p<0.05) over 140 values. Mechanism: coprimality to 210=primorial(g). 5-smooth 24.7% > 7-smooth 21.4% (adding g dilutes). mod 5/7 explains 53% of failures. **Toy 1529**: Spectral Universality 9/10 (Lyra) — T1459 PROVED, depth predicts universality, 141 ratios, adiabatic product=N_c. **Toy 1530**: Master Integral PSLQ 10/10 — 20-element BST basis, all 6 masters artifact at 38 digits (confirms irreducibility), banana threshold 7/7, g in function space only / {2,3,5} in coefficients only. Self-duality at N_c=3 CONFIRMED. **Toy 1531**: Adiabatic Chain 10/10 — γ chain telescopes to N_c=3, DOF={3,5,7}=BST primes, γ₄=11/9 predicted (CO2 ~1000K, 0.02%), closed form (2N+N_c)/N_c, DOF cap N_max=137. **Day: 46 toys (1476-1531), 98% pass.**
+T1-T1459. **.next_toy=1536**. Graph: **1399 / 7732**. **87 papers**. Counters: `.next_toy=1536`, `.next_theorem=1460`. Data layer: **1163 entries**. **W-41 CLOSED**: k=21 CONFIRMED, ratio(21)=-42=-C₂·g (Toy 1507, 10/10). TWENTY consecutive integer heat kernel levels. **W-75 delivered**: Petersen graph K(n_C,rank)=K(5,2), 20/20 invariants BST (Toy 1508, 10/10). **W-74 C₄ analysis**: Toy 1509 (10/10), 4/4 testable predictions confirmed, 43/43 denominators BST-smooth. Toy 1510 Frobenius asymmetry (7/10). **Toy 1511**: astrophysical power laws 11/11 exact (10/10). **Toy 1512**: Debye temps 5 EXACT (10/10), BCS gap 0.006%. Cal #29-30 answered. **Toy 1513**: band gaps+materials 10/10, triple bridge K/G=Kolmogorov=GW=5/3. **Toy 1515**: Goldbach-BST smooth 10/10 — C₂·k±1 twins for ALL basis integers, first fail at rank²=4=curvature, 7-smooth 2.3× enrichment, correction primes = C₂·(basis)−1. **Toy 1524**: Bridge Mechanism 10/10 — 14 bridges cataloged, 8 eigenvalue classes, 6 dressing levels, simpler ratios cross more domains (scale-free). **Toy 1525**: Vindicated Theorists 10/10 — 9 theorists tested, 6/9 fully vindicated/derived, Wyler=direct ancestor (same D_IV^5). **Toy 1526**: Error Correction Code Map 10/10 — Hamming(7,4,3)=(g,rank²,N_c), 5-level hierarchy, dominance map (DOMINANT in weak/QED/biology, SILENT in gravity/turbulence). **Toy 1528**: Goldbach-BST Systematic 9/10 — 7-smooth enrichment 1.508x (z=2.44, p<0.05) over 140 values. Mechanism: coprimality to 210=primorial(g). 5-smooth 24.7% > 7-smooth 21.4% (adding g dilutes). mod 5/7 explains 53% of failures. **Toy 1529**: Spectral Universality 9/10 (Lyra) — T1459 PROVED, depth predicts universality, 141 ratios, adiabatic product=N_c. **Toy 1530**: Master Integral PSLQ 10/10 — 20-element BST basis, all 6 masters artifact at 38 digits (confirms irreducibility), banana threshold 7/7, g in function space only / {2,3,5} in coefficients only. Self-duality at N_c=3 CONFIRMED. **Toy 1531**: Adiabatic Chain 10/10 — γ chain telescopes to N_c=3, DOF={3,5,7}=BST primes, γ₄=11/9 predicted (CO2 ~1000K, 0.02%), closed form (2N+N_c)/N_c, DOF cap N_max=137. **Toy 1533**: Syndrome Decoding 10/10 — 18 entries >1% syndromized, r=0.673 (distance→precision), 6/9 corrections improved, Γ_W 1.97→0.37%, proton=codeword, neutron=1-error. **Toy 1534**: Bridge Predictions 10/10 — both Toy 1524 predictions CONFIRMED: g/n_C=7/5 in 5 domains, N_c/rank=3/2 in 8 domains (strongest new bridge). 10/10 simple BST ratios filled. Adiabatic chain = bridge chain. **Toy 1535**: Koide Angle 9/10 — cos(θ₀)=-19/28 at 4 ppm, unique best fraction, 19=n_C²-C_2 (3 routes), 28=T_g (perfect number via Mersenne g). Atiyah-Bott derivation candidate. **Day: 51 toys (1476-1535), 98% pass.**
 
 ---
 
@@ -212,7 +212,7 @@ T1-T1459. **.next_toy=1532**. Graph: **1399 / 7732**. **87 papers**. Counters: `
 
 ---
 
-*Board synced Sunday April 27 ~2pm. T1-T1459. **.next_toy=1532**. **.next_theorem=1460**. **1163 entries**. **87 papers**.*
+*Board synced Sunday April 27 ~5pm. T1-T1459. **.next_toy=1536**. **.next_theorem=1460**. **1163 entries**. **87 papers**.*
 
 **CASEY AFTERNOON CONFIRM:**
 - **T1459 answers morning question**: bridges exist because all domains evaluate same Bergman eigenvalue spectrum. Depth-universality QUANTITATIVE: D1→6.0 domains, D2→4.2, D3→3.2. Simpler = more universal.
@@ -235,21 +235,22 @@ T1-T1459. **.next_toy=1532**. Graph: **1399 / 7732**. **87 papers**. Counters: `
 | L-1 | **Six master integral linearization** (W-83) — **THREE RESULTS + BANANA THRESHOLD**: (1) PSLQ null — higher function space. (2) 2-loop ODE fully BST — singularities {0,1,N_c²}, exponents {0,rank}. (3) D1(N_c)=Re(√3·D2(N_c)) — self-dual point. Threshold sequence: L=1→rank², L=2→N_c², L=4→n_C², L=6→g². Linearization structurally sound. Path (a) 4-loop Picard-Fuchs (Lyra), path (b) 200+ digits (Elie E-7). **Toy 1527 (10/10).** | **TOP** | **DONE — next: 4-loop ODE** |
 | L-2 | **Paper #86 v0.4** — §§10-12 added: sunrise identities, full assembly, banana thresholds. 503→605 lines. CMP target. | HIGH | **DONE** |
 | L-3 | **W-79 spectral mechanism** — **T1459 Spectral Universality Theorem PROVED + Toy 1529 (9/10).** All domains evaluate same Bergman eigenvalue spectrum. 141 distinct ratios, 15 cataloged (48% coverage). Depth predicts universality (D1→6.0 domains, D2→4.2, D3→3.2). Dressing hierarchy: g/C₂ at 4 levels (0.8%→0%→0.14%→0.046%). Adiabatic chain product = N_c. | MEDIUM | **DONE** |
-| L-4 | **Penrose twistor correspondence** (W-81) — SO(5,2) conformal group IS the twistor setting. Map vocabulary to BST. Feeds Rosetta Stone. | MEDIUM | OPEN |
+| L-4 | **Penrose twistor correspondence** (W-81) — **DONE.** Mapping already exists in `notes/maybe/Penrose_Letter_v2.md` + `notes/BST_LorentzSymmetry_SO52.md`. Key: D_IV^5 extends 4D conformal SO(4,2) by one complex dim carrying EM S¹ fiber. Penrose right about rank=2 spinors, wrong about embedding space. | MEDIUM | **DONE** |
 | L-5 | **Paper #87 FULL DRAFT v0.1** — `notes/BST_Paper87_Error_Correction.md`. 13 sections, ~500 lines. Mersenne condition, Fano plane, four forces as operations, neutrino=syndrome, code hierarchy (Hamming→Golay), three error regimes, quarks-to-codons, dominance map, QR/QNR partition. 7 predictions + 6 falsification conditions. Draws from T1171/T1238/T1241/T1255/T1261/T1315/T1444. Target: Rev.Mod.Phys or PRL. | **TOP** | **DONE** |
 | L-6 | **4-loop Picard-Fuchs ODE** (W-83 path a) — Write explicit ODE for topologies 81/83. If monodromy matrices have BST structure, the masters are determined. | HIGH | OPEN |
 | L-7 | **Paper #83 §1 Introduction DONE** — T1459 Spectral Universality + three bridge mechanisms + depth-universality + usage guide. v3.2→v3.3. | MEDIUM | **DONE** |
+| L-8 | **Picard-Fuchs ODE structure** — **Toy 1532 (10/10).** j(E_{N_c})=1728=(rank·C₂)³=12³ — sunrise elliptic curve at s=N_c has CM j-invariant. ALL FIVE BST integers are banana propagator counts: L+1={2,3,5,6,7}={rank,N_c,n_C,C₂,g}. Wronskian maximally simple — all residues=1. Indicial exponents: ρ²=1/N_c, -1/rank², -1/(rank·C₂). Product of denominators=(rank·C₂)²=144. **Paper #86 v0.5.** | HIGH | **DONE** |
 
 ### Elie — Computation / Verification
 | # | Task | Priority | Status |
 |---|------|----------|--------|
 | E-1 | **W-77 extension** — **Toy 1528 (9/10).** 7-smooth twin rate 21.4% vs general 14.2% = 1.508x (z=2.44, p<0.05). Coprimality to 210=primorial(g) enrichment 1.35x drives it. 5-smooth (24.7%) > 7-smooth — adding g dilutes. mod 5/7 explains 53% failures. T7 FAIL honest. | HIGH | **DONE** |
-| E-2 | **Paper #87 numerical backbone** — Extend Toy 1526 with syndrome decoding test: for each >1% entry, compute Hamming syndrome (which BST integer missing), test if correction denominator matches syndrome weight. | HIGH | OPEN |
+| E-2 | **Paper #87 syndrome decoding** — **Toy 1533 (10/10).** 18 entries >1% analyzed. Syndrome = missing BST integers. r=0.673 correlation (higher distance→worse precision). 6/9 corrections improved (67%). Γ_W: 1.97%→0.37% via +1/42. Domain clustering: particle misses C_2, cosmo misses n_C. Proton=codeword (wt 0), neutron=1-error (wt 1, decays via W). Coding bound: ~2192 max entries. 8 predictions. | HIGH | **DONE** |
 | E-3 | **k=22 extraction** (SP-3) — Monitor PID 45970. When cascade_results_n43.json appears, extract and test. | MEDIUM | BLOCKED (PID running) |
 | E-4 | **Adiabatic chain formalization** — **Toy 1531 (10/10).** γ chain: n_C/N_c→g/n_C→N_c²/g, step=rank=2. Product of 3-chain=N_c=3 (telescoping). DOF={N_c,n_C,g}=BST primes. γ₄=11/9 predicted (CO2 ~1000K, 0.02%). Closed form: N-term product=(2N+N_c)/N_c. DOF cap at N_max=137. Equipartition=rank-dimensional observation. | MEDIUM | **DONE** |
-| E-5 | **Bridge prediction verification** — Test 2 predicted bridges from Toy 1524: g/n_C=7/5 and N_c/rank=3/2 Wallach. Find experimental data. | MEDIUM | OPEN |
+| E-5 | **Bridge prediction verification** — **Toy 1534 (10/10).** BOTH predicted bridges CONFIRMED. g/n_C=7/5 in 5 domains (thermo, MHD, spectroscopy, GW, turbulence). N_c/rank=3/2 in 8 domains (STRONGEST new bridge — polytrope, kinetic theory, equipartition, Friedmann, BH, QM, nuclear, plasma). 10/10 simple BST ratios have known appearances (zero gaps). Adiabatic chain = bridge chain (product=N_c). 3 new predictions: C_2/n_C=6/5, C_2/N_c=2, g/N_c=7/3. | MEDIUM | **DONE** |
 | E-7 | **200+ digit master values** (W-83 path b) — **Toy 1530 (10/10): framework DONE.** 20-element BST basis constructed. PSLQ at 38 digits: 6/6 artifact (confirms irreducibility). Banana threshold 7/7 BST. Structural split: g in function space, {2,3,5} in coefficients. Self-duality D1(N_c)=Re(√3·D2(N_c)) CONFIRMED. **NEXT**: get 200+ digit C81/C83 via Laporta difference equations, rerun PSLQ. | **HIGH** | **FRAMEWORK DONE** — needs 200+ digit values |
-| E-6 | **Koide angle toy** — Numerically test cos(θ₀) = −19/28 = −(N_c+2^{n_C−1})/(4g) at high precision. All 5 integers, 0.0004%. Try PSLQ for exact derivation. | LOW | OPEN |
+| E-6 | **Koide angle** — **Toy 1535 (9/10).** cos(θ₀)=-19/28 confirmed at 4 ppm, unique best simple fraction. 19=n_C²-C_2=N_c+2^(n_C-1)=2C_2+g (THREE routes). 28=T_g=perfect number (Mersenne connection: g prime ↔ Hamming perfect ↔ 28 perfect). Mass ratios from angle: m_μ/m_e 0.027%. FAILS for quarks (expected). Derivation candidate: Atiyah-Bott on CP² with Z_3. T6 FAIL honest: 0.027% > 0.01% threshold (amplification ~70×). | LOW | **DONE** |
 
 ### Grace — Graph-AC / Data Layer
 *Morning queue ALL DONE (G-1 through G-6). Plus: bridge mechanism WHY explanations (Cascade=energy redistribution, Cosmic=spectral remainder, Bridge=boundary decay/gap). Reloading:*
@@ -274,12 +275,23 @@ T1-T1459. **.next_toy=1532**. Graph: **1399 / 7732**. **87 papers**. Counters: `
 ### SP-3: Heat Kernel
 PID 45970 still running. k=22 blocked on cascade extraction. Next target: k=25 → ratio=-60=-rank·n_C·C₂ (needs n=48).
 
+**AFTERNOON DELIVERIES (1pm-5pm):**
+- **Lyra**: Paper #87 v0.1 DONE (13 sections, 500 lines). Paper #83 §1 intro DONE (v3.3). Toy 1532 Picard-Fuchs (10/10): j=1728=(12)³, all 5 integers are banana counts. Paper #86 v0.5. Penrose mapping DONE (already existed).
+- **Elie**: 4 toys — 1531 adiabatic chain (10/10), 1533 syndrome decoding (10/10, Γ_W 5.3× improvement), 1534 bridge predictions (10/10, both confirmed), 1535 Koide angle (9/10, -19/28 at 4 ppm). ALL Elie tasks DONE except E-3 (blocked) and E-7 (needs data).
+- **Grace**: 1189 entries. N_c=3 universality principle (minimum irreducible count on D_IV^5). rank=2 universality (minimum observation capacity).
+- **Keeper**: K-1 pass 2 DONE, K-3 tier cross-check DONE, K-5 syndrome analysis DONE, K-6 Paper #87 review DONE (3 fixes, 7 items for v0.2). All tasks complete.
+
 **ACTIVE work items:**
-- **W-79** — **T1459 PROVED** (Lyra). Grace: 3-bridge WHY explanations. Paper #83 integration next (L-7, G-7).
-- **W-81** — **21 ratios**. Keeper pass 1 DONE. Grace: coverage scan for next 10 (G-10).
-- **W-82** — **Paper #87 v0.1 DONE** (Lyra L-5). Outline DONE (Keeper K-2). Tiering audited (K-3). Syndrome analysis DONE (K-5). **Grace G-8 next** (paper data tables).
-- **W-83** — **Elie E-7 FRAMEWORK DONE** (Toy 1530, 10/10). Lyra L-6 (4-loop ODE). Both paths open. Need 200+ digit values to advance.
+- **W-79** — **CLOSED.** T1459 PROVED + Paper #83 §1 intro written (L-7). Grace G-7 can enrich further.
+- **W-81** — **20 ratios** audited. Grace G-10 coverage scan open.
+- **W-82** — **Paper #87 v0.1 DONE + Keeper review DONE.** Grace G-8 open (data tables). Elie syndrome backbone DONE (Toy 1533).
+- **W-83** — **Toy 1532 Picard-Fuchs ODE** (Lyra). j=1728 connection. Elie E-7 needs 200+ digit values. Lyra L-6 (full 4-loop monodromy) open.
 - **SP-3** — PID 45970 running. k=22 blocked.
-- **Keeper** — All K-1 through K-5 **DONE** this session. Ready for new assignments or standing programs.
+
+**Remaining open tasks:**
+- Lyra: L-6 (4-loop monodromy — highest remaining priority)
+- Elie: E-3 (blocked), E-7 (needs data)
+- Grace: G-7 through G-11 (5 open tasks)
+- Keeper: new assignments needed — Paper #86 review? Paper #83 v3.3 review?
 
 *Completed items → append-only log.*
