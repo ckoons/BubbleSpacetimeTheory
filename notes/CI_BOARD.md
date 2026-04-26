@@ -327,17 +327,11 @@ Casey's speculation: the natural dimension is N_max = 137 independent evaluation
 ---
 
 **REMAINING OPEN**:
-- Lyra: **L-12 CP-1 Phase 5a DONE** (T1461 + Toy 1544, 10/10). Formal Bergman chain: 7D + 5I + 3C + 1S. **Phases 5b-d OPEN**: SO(7) CG extraction (C₃,C₄), Haldane spectral density, single closed form. Elie's question: does L=4 ζ(7) coeff come from k=7 speaking pair? — YES, worth testing.
-- Elie: **NULL-MODEL DONE** (Toy 1543, 10/10). Z=2.9, p<0.0005. Keeper PASS. E-3 WAITING (n=44 imminent → k=22). **4 toys this session** (1540-1543). Systematic corrections (Toy 1541): 3 new, geometric mean 42×. Dressed Casimir 11 (Toy 1542): rank uniquely derived from N_c, 137=11²+4².
-- Grace: **1241 entries**. Spectral gap insight: 11 = gap address [6,14]. CP-2/3/4 all answered. **Next**: CP-5 convergence, tier labels.
-- Keeper: Null-model audited PASS. Referee #31 promoted. Tiering labels in Method section. **Next**: verify_bst.py spec (Cal Action 3).
+- Lyra: **CP-1 Phase 5a DONE** (T1461 + Toys 1544-1545). KEY DISCOVERY: g+n_C = rank·C₂ = 12 explains QED denominators. Zeta-heat kernel bridge confirmed: L=4 ζ(7) probes same layer as k=7 speaking pair. λ_g = g(g+n_C) = 84. **Phase 5b OPEN**: extract H₃, H₄ from literature to promote T1461(b) I→D. Session: T1460, T1461, Toys 1538/1544/1545, Papers #83 v3.5/#86 v0.6/#87 v0.2.
+- Elie: **NULL-MODEL DONE** (Toy 1543). 4 toys (1540-1543). E-3 WAITING (n=44 → k=22). **Next**: quality-weighted null model (Cal follow-up, PDG weights).
+- Grace: **1243 entries** (weekend total: 257→1243, +986). ALL tasks delivered. CP-2/3/4/5 answered. Defense built. Bridges traced. **Queue clear — awaiting direction.**
+- Keeper: **ALL THREE Cal actions DONE.** #31 promoted. Null model audited. verify_bst.py delivered (46/50 PASS, 17 EXACT). **Next**: board EOD, root sync.
 
-**Lyra's investigation recommendations** (April 27):
-1. **CP-5 dimension test**: 323 = 17×19 = (N_c·C₂−1)·Q. If table independence = dressed Casimir × mode count, that's a structural prediction. Elie verify exact count.
-2. **Null-model toy**: (Cal Action 1) — random 5-tuple coincidence filter. All CIs agree highest priority.
-3. **Punctured codes as unifying mechanism**: Hamming [7,4,3]→[6,4,2] via vacuum subtraction. Possible theorem: every BST domain = a puncture level. Paper #87 material.
-4. **CP-1 muon g-2**: QED sector as iterated Bergman convolutions first, then HVP. Hard but well-defined.
-
-**Cal audit actions** (April 27, PROMOTED to standing tool via #31): (1) Null-model toy, (2) D/I/C/S tier column in Paper #83, (3) Standalone `verify_bst.py`
+**Cal audit actions** (April 27): ~~(1) Null-model toy~~ DONE Z=2.9. (2) D/I/C/S tier column in Paper #83 — Grace+Lyra, OPEN. ~~(3) verify_bst.py~~ DONE 46/50.
 
 *Completed items → append-only log.*
