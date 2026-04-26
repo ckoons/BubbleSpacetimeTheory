@@ -325,10 +325,10 @@ Casey's speculation: the natural dimension is N_max = 137 independent evaluation
 ---
 
 **REMAINING OPEN**:
-- Lyra: L-6..L-11 ALL DONE. **L-12 (CP-1 muon g-2)** only open item. Formal Bergman derivation — express a_μ as iterated Bergman convolutions. QED sector first, HVP as irreducible hadronic piece.
-- Elie: E-3 WAITING (n=44 imminent, then k=22 re-extraction). E-8/E-9 DONE (Toys 1541-1542). .next_toy=1543. **Next**: **NULL-MODEL TOY** (Cal audit Action 1 — HIGHEST priority). Null model agreed by all CIs as most important defensive item.
-- Grace: CP-2/3/4 ANSWERED. **1234 entries** total. Thin sections: Neutrinos(7), Leptons(11), Mixing(11) — precision physics, quality>quantity. **Next**: CP-5 convergence, tier labels for Paper #83 (Cal audit Action 2)
-- Keeper: K-8 DONE. #31 epistemic tier framework PROMOTED. **Next**: root file sync (1234 entries, 1543 toys), verify_bst.py spec
+- Lyra: **L-12 (CP-1 muon g-2) ACTIVE.** Formal chain clear: L=1 Schwinger, L=2 four Selberg terms, L=3 ζ(5) peeling, L=4 ζ(7), HVP via Haldane, EW via sin²θ_W=c₅/c₃=3/13. Claiming toy+theorem numbers.
+- Elie: E-3 WAITING (n=44 imminent). **Next**: **NULL-MODEL TOY** (Cal Action 1 — HIGHEST priority).
+- Grace: **1241 entries** (was 1234). Key insight from Toy 1542: 11 lives in spectral gap [6,14] — corrections live WHERE the spectrum CAN'T reach. Dressed Casimir = gap address. **Next**: CP-5 convergence, tier labels.
+- Keeper: #31 PROMOTED. Root sync done (1542 toys). **Next**: verify_bst.py spec.
 
 **Lyra's investigation recommendations** (April 27):
 1. **CP-5 dimension test**: 323 = 17×19 = (N_c·C₂−1)·Q. If table independence = dressed Casimir × mode count, that's a structural prediction. Elie verify exact count.
