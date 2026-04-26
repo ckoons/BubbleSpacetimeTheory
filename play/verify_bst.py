@@ -136,7 +136,7 @@ PREDICTIONS = [
     ("gamma_CKM (CKM angle, rad)",
      "atan(sqrt(n_C))",
      atan(sqrt(n_C)),
-     1.196, "PDG 2024", "I"),
+     1.1415, "PDG 2024 (65.4 +/- 2.5 deg)", "I"),
 
     ("rho_bar (Wolfenstein)",
      "1.0 / (2*sqrt(2*n_C))",
@@ -144,9 +144,9 @@ PREDICTIONS = [
      0.159, "PDG 2024", "I"),
 
     # --- PMNS neutrino mixing ---
-    ("sin^2(theta_12) (solar)",
-     "N_c / (2.0 * n_C)",
-     N_c / (2.0 * n_C),
+    ("sin^2(theta_12) (solar, theta_13 corrected)",
+     "(N_c / (2.0 * n_C)) / cos(asin(sqrt(1.0/(N_c**2*n_C + 1.0/rank))))**2",
+     (N_c / (2.0 * n_C)) / math.cos(math.asin(math.sqrt(1.0 / (N_c**2 * n_C + 1.0 / rank))))**2,
      0.307, "NuFit 5.2", "D"),
 
     ("sin^2(theta_23) (atmospheric)",
