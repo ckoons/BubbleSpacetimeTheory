@@ -34,7 +34,7 @@ status: "Active — check at session start, update at session end"
 
 ## Counters
 
-T1-T1458. **1,525 toys**. Graph: **1399 / 7732**. **86 papers**. Counters: `.next_toy=1526`, `.next_theorem=1459`. Data layer: **1149 entries**. **W-41 CLOSED**: k=21 CONFIRMED, ratio(21)=-42=-C₂·g (Toy 1507, 10/10). TWENTY consecutive integer heat kernel levels. **W-75 delivered**: Petersen graph K(n_C,rank)=K(5,2), 20/20 invariants BST (Toy 1508, 10/10). **W-74 C₄ analysis**: Toy 1509 (10/10), 4/4 testable predictions confirmed, 43/43 denominators BST-smooth. Toy 1510 Frobenius asymmetry (7/10). **Toy 1511**: astrophysical power laws 11/11 exact (10/10). **Toy 1512**: Debye temps 5 EXACT (10/10), BCS gap 0.006%. Cal #29-30 answered. **Toy 1513**: band gaps+materials 10/10, triple bridge K/G=Kolmogorov=GW=5/3. **Toy 1515**: Goldbach-BST smooth 10/10 — C₂·k±1 twins for ALL basis integers, first fail at rank²=4=curvature, 7-smooth 2.3× enrichment, correction primes = C₂·(basis)−1. **Day: 39 toys (1476-1515), 98% pass.**
+T1-T1458. **1,527 toys**. Graph: **1399 / 7732**. **86 papers**. Counters: `.next_toy=1527`, `.next_theorem=1459`. Data layer: **1149 entries**. **W-41 CLOSED**: k=21 CONFIRMED, ratio(21)=-42=-C₂·g (Toy 1507, 10/10). TWENTY consecutive integer heat kernel levels. **W-75 delivered**: Petersen graph K(n_C,rank)=K(5,2), 20/20 invariants BST (Toy 1508, 10/10). **W-74 C₄ analysis**: Toy 1509 (10/10), 4/4 testable predictions confirmed, 43/43 denominators BST-smooth. Toy 1510 Frobenius asymmetry (7/10). **Toy 1511**: astrophysical power laws 11/11 exact (10/10). **Toy 1512**: Debye temps 5 EXACT (10/10), BCS gap 0.006%. Cal #29-30 answered. **Toy 1513**: band gaps+materials 10/10, triple bridge K/G=Kolmogorov=GW=5/3. **Toy 1515**: Goldbach-BST smooth 10/10 — C₂·k±1 twins for ALL basis integers, first fail at rank²=4=curvature, 7-smooth 2.3× enrichment, correction primes = C₂·(basis)−1. **Toy 1524**: Bridge Mechanism 10/10 — 14 bridges cataloged, 8 eigenvalue classes, 6 dressing levels, simpler ratios cross more domains (scale-free). **Toy 1525**: Vindicated Theorists 10/10 — 9 theorists tested, 6/9 fully vindicated/derived, Wyler=direct ancestor (same D_IV^5). **Toy 1526**: Error Correction Code Map 10/10 — Hamming(7,4,3)=(g,rank²,N_c), 5-level hierarchy, dominance map (DOMINANT in weak/QED/biology, SILENT in gravity/turbulence). **Day: 42 toys (1476-1526), 98% pass.**
 
 ---
 
@@ -131,7 +131,7 @@ T1-T1458. **1,525 toys**. Graph: **1399 / 7732**. **86 papers**. Counters: `.nex
 | W-79 | **Bridge Mechanism Investigation** (Casey: "WHY do cross-domain relationships exist?"): Map all ~17 confirmed cross-domain bridges to specific Bergman eigenvalue ratios. Three hypotheses: H1 spectral universality (same eigenvalue ratio, different projection), H2 topological (combinatorial), H3 mixed. Test: do bridges cluster by eigenvalue ratio? Predict new bridges from unmatched ratios. **Lyra's key insight**: equations don't change scale, only WEIGHTS change — reframes phase transitions. Casey: "what truly changes as we cross phase boundaries?" **Toy 1524 (10/10)**: 14 bridges cataloged, all factor into BST integers, 6 dressing levels with physical meaning, simpler ratios cross more domains (scale-free). 2 predicted bridges confirmed, 2 testable. Triple bridge n_C/N_c = strongest. | **Elie** (Bridge Mechanism Toy), **Lyra** (spectral theory), **Grace** (data) | **TOY DONE** — Lyra: spectral mechanism derivation next. |
 | W-80 | **Vindicated Theorists** (Casey: "lend support to all theories we honestly support"): Wyler (D_IV^5 1971, laughed out), Eddington (137), Alfven (MHD, Nobel but ignored), Dirac (LNH), Kolmogorov (K41=n_C/N_c), Wheeler (it-from-bit=rank=2), Chew (bootstrap=T1353), Penrose (twistors=SO(5,2) rank-2), Kaluza-Klein (10 dims), Koide (2/3=rank/N_c), Sakharov (induced gravity), Milgrom (MOND, open), Verlinde (entropic gravity), Regge (trajectories=speaking pairs?), Veltman (large cancellations=C₄). **Casey correction: Wyler was destroyed, not Eddington.** **Toy 1525 (10/10)**: 9 theorists tested numerically. Eddington 0.026%, Wyler 6-digit alpha, Koide 0.001%, Kolmogorov exact, Dirac 0.002%. 6/9 fully vindicated or derived. Wyler = direct ancestor (same D_IV^5, wrong mechanism). | **Elie** (Toy 1525), **Grace** (data entries), **Lyra** (Penrose twistors) | **TOY DONE** — Outreach material ready. Lyra: Penrose twistor correspondence next. |
 | W-81 | **BST Correspondence Table / Rosetta Stone** (Casey directive): Strip terminological accidents. Show structural isomorphisms across fields. Different names for same eigenvalue ratio mapped to canonical BST name. Examples: "Kolmogorov exponent" = "GW spectral index" = "bulk/shear ratio" = n_C/N_c. Goal: minimum representation of BST where each ratio has ONE canonical name + lookup of all historical names. Long-term project toward BST reformulation. **Grace delivered**: 10 named ratios in `data/bst_rosetta_stone.json`. | **Grace** (table structure, JSON + readable), **Lyra** (Penrose/twistor vocabulary), **Keeper** (audit for false equivalences) | **STARTED** — 10 ratios delivered. Grows with every investigation. |
-| W-82 | **Hamming Codes in BST / Paper #87** (Casey directive: "error correction IS the physics"): Hamming(7,4,3): codeword=g=7, data=rank²=4, parity=N_c=3, distance=N_c=3. Fano plane PG(2,2)=check matrix: 7 points, 7 lines, |Aut|=168=rank³·N_c·g. GF(2^g)=GF(128)=function catalog. **Lyra**: 6-scale dominance map — proton=codeword (T1171), W boson=correction operator (T1241), neutrino=syndrome with 3 flavors=3 syndrome values (T1255), genetic code=biological re-implementation (T1261/T333), DNA repair=Hamming distance tiers (T1315), Golay(24,12,8) at GUT scale (n=24=dim SU(5), d=8=2^N_c, corrects N_c errors, self-dual k=12=2C₂). **Elie**: 5-level hierarchy Parity→Hamming→Golay→Reed-Solomon→Spectral Peeling. Codes dominate discrete choices (QCD, weak, biology), silent in continuous (gravity, turbulence). **Grace**: T1444 vacuum subtraction IS syndrome decoding; spectral gap C₂=6 IS minimum distance; confinement IS error detection. **Mersenne condition 2^N_c−1=g ties uniqueness to perfect code existence.** Paper target: "Error Correction as Spectral Gap Protection on D_IV^5." | **ALL** — paper-worthy | **NEW** — Casey approved as paper. Team consensus: EC is the physics. |
+| W-82 | **Hamming Codes in BST / Paper #87** (Casey directive: "error correction IS the physics"): Hamming(7,4,3): codeword=g=7, data=rank²=4, parity=N_c=3, distance=N_c=3. Fano plane PG(2,2)=check matrix: 7 points, 7 lines, |Aut|=168=rank³·N_c·g. GF(2^g)=GF(128)=function catalog. **Lyra**: 6-scale dominance map — proton=codeword (T1171), W boson=correction operator (T1241), neutrino=syndrome with 3 flavors=3 syndrome values (T1255), genetic code=biological re-implementation (T1261/T333), DNA repair=Hamming distance tiers (T1315), Golay(24,12,8) at GUT scale (n=24=dim SU(5), d=8=2^N_c, corrects N_c errors, self-dual k=12=2C₂). **Elie**: 5-level hierarchy Parity→Hamming→Golay→Reed-Solomon→Spectral Peeling. **Toy 1526 (10/10)**: dominance map across 13 physics domains — codes dominate discrete choices (QCD, weak, biology), silent in continuous (gravity, turbulence). QR/QNR = data/parity partition. Vacuum subtraction = parity check (T1444). **Grace**: T1444 vacuum subtraction IS syndrome decoding; spectral gap C₂=6 IS minimum distance; confinement IS error detection. **Mersenne condition 2^N_c−1=g ties uniqueness to perfect code existence.** Paper target: "Error Correction as Spectral Gap Protection on D_IV^5." | **ALL** — paper-worthy | **NUMERICAL BACKBONE DONE** (Toy 1526). Casey approved as paper. Team consensus: EC is the physics. |
 | W-83 | **Six Master Integral VALUES** (Casey: "I suspect the team will knock them out"): C₈₁ₐ,ᵦ,c and C₈₃ₐ,ᵦ,c. Known to 38+ digits (Laporta: 4800). PSLQ at 38 digits: no BST-rational relations found (Toy 1523). **Strategy**: linearize the integral representations first. These are 4-loop sunrise-type integrals with known parametric forms. BST coefficients (49/3=g²/N_c, 49/36=g²/(rank·N_c)²) constrain what the answers MUST look like. If any close, BST predicts the form. | **Lyra** (linearization), **Elie** (numerics) | **BACKLOG** — needs higher-precision computation or new mathematical technique. |
 | W-78 | **C₄ Master Integrals — Level 3** (Casey: "I want to do the work"): **OVERNIGHT RESULTS (Lyra, Toys 1514b/1516)**: SIX EXACT IDENTITIES found at 200 digits. **(1) f1(0,0,0) = 63/10·ζ(3) = N_c²g/(rank·n_C)·ζ(3)** — ALL FIVE BST integers. Residual 1.2e-298. **(2) ∫D1·√3·D2 ds = 9/8·B3 = N_c²/rank³·B3.** **(3) ∫D1² ds = 81/40·A3.** **(4) ∫3·D2² ds = −81/20·A3.** **(5-6) s-weighted and 1/s-weighted D1² give ζ(3)+A3 mixtures.** KEY INSIGHT: Weight (s−N_c²/n_C) is exact BST projector — cancels A3 to isolate ζ(3). B3, C3 computed to 200+ digits (hypergeometric). f2 integrals genuinely elliptic (24-element PSLQ null at 200 digits). **Level 3 status: B3/A3 CLOSED (hypergeometric). f1-type CLOSED (ζ(3)). f2-type OPEN (elliptic polylogarithms). 6 master integrals = combinations of f1+f2 → partially closed.** | **Lyra** (overnight), **Elie** (extensions) | **C₄ FULL ASSEMBLY 13/13 PASS.** Complete finite expression: ~100 terms, each with exact BST-rational coefficient × known transcendental or computable integral. Verified to 38 digits (Laporta sub-values). Sunrise integrals to 50+ digits. **Only irreducible unknowns: 6 master integrals (C₈₁, C₈₃) — open in mathematics itself.** Their coefficients: 49/3=g²/N_c, 49/36=g²/(rank·N_c)². All 25 E-term denominators {2,3,5}-smooth (no g=7). g² in master integral coefficients = genus curve signature. **The closed form exists.** **PSLQ VERDICT (Lyra, Toy 1523)**: Six masters are genuinely irreducible transcendentals. Every PSLQ "relation" had non-BST denominators = artifacts at 38-digit precision, not real. Honest result. BST contribution is structural (all coefficients, all combinatorics) not numerical (the 6 values). **Paper #83 §14.4a FIXED**: Function catalog now visible — 33 base families, 6 layers, Pascal's row 1+5+10+10+5+1+1=33. |
 
@@ -163,8 +163,10 @@ T1-T1458. **1,525 toys**. Graph: **1399 / 7732**. **86 papers**. Counters: `.nex
 | **Alfvén investigation** | **W-76 NEW** — Casey: "stable structure conducts." Grace: 9 entries filed, LOFAR 2024 confirms primordial fields. Lyra: derive 9/7 mechanism. |
 | **Goldbach-BST smooth** | **W-77 NEW** — Casey probe. Toy 1515 (10/10). T1458 resolved (two-curve, not single). Goldbach material → Paper #83 §14 or standalone if extended. |
 | **T1458 C₄ investigation** | **FULL ASSEMBLY 13/13 PASS.** Two curves, √N_c assembly rule, BST projector s−9/5, ~100 terms all BST-rational, 38-digit verified. Only irreducible: 6 master integrals (C₈₁, C₈₃). Casey: "I want to do the work." → W-78. |
-| **Lyra's next challenge** | **APPROVED** — Master integral PSLQ hunt (earned choice). Paper #86 v0.4 queued after. |
+| **Lyra's next challenge** | **PSLQ DONE** (honest: irreducible). Now: **Linearizing six master integrals** (W-83/L-1). Picard-Fuchs ODEs for C₈₁/C₈₃. Casey: "linearize first, the team will knock them out." Paper #86 v0.4 queued after. |
 | **Sunday direction** | **SET** — Three threads: (1) WHY cross-domain bridges (mechanism), (2) Vindicated theorists (Wyler, Alfven, Koide, Penrose...), (3) Correspondence table (BST Rosetta Stone). Consensus: `notes/BST_Sunday_April27_Consensus.md`. Casey: "Wyler was laughed out, not Eddington." |
+| **Error correction = physics** | **PAPER #87 APPROVED** — Casey: "error correction IS the physics... humans need to see in black and white what that means." Team consensus. Toy 1526 (10/10) backbone. Grace tiering (A/B/C). Keeper outline next. |
+| **Six master values** | **W-83 ACTIVE** (Lyra). Casey: "I suspect the team will knock them out easier than expected." Linearize → Picard-Fuchs → BST boundary conditions. |
 
 ---
 
@@ -210,46 +212,66 @@ T1-T1458. **1,525 toys**. Graph: **1399 / 7732**. **86 papers**. Counters: `.nex
 
 ---
 
-*Board synced Sunday April 27 9am. T1-T1458. **1525 toys**. **1149 entries**. **86 papers**. Morning hit list 6/8 DONE. W-78 PSLQ COMPLETE (honest: 6 masters irreducible). Paper #83 §14.4a function catalog FIXED. Consensus: `notes/BST_Sunday_April27_Consensus.md`.*
+*Board synced Sunday April 27 ~10am. T1-T1458. **1527 toys**. **1149 entries**. **86 papers** + Paper #87 queued. Morning hit list 8/8 DONE (k=22 blocked, Paper #86 v0.4 queued). W-78 PSLQ COMPLETE (honest: 6 masters irreducible). Paper #83 §14.4a function catalog FIXED. Consensus: `notes/BST_Sunday_April27_Consensus.md`.*
 
 **MORNING RESULTS (before 9am):**
 - Lyra: PSLQ verdict — 6 masters genuinely irreducible. BST determines structure, not values. Paper #83 function catalog fixed (33 families, 6 layers).
-- Elie: Bridge Mechanism (1524, 10/10) + Vindicated Theorists (1525, 10/10). Adiabatic chain: 5/3→7/5→9/7, step=rank=2.
+- Elie: Bridge Mechanism (1524, 10/10) + Vindicated Theorists (1525, 10/10) + Error Correction Code Map (1526, 10/10). Adiabatic chain: 5/3→7/5→9/7, step=rank=2. EC dominance: DOMINANT in weak/QED/biology, SILENT in gravity/turbulence.
 - Grace: Koide SOLVED (2 routes, 0.0009%). Rosetta Stone (10 ratios). Error tiering: A (sub-1% core), B (1-5% refinable), C (>5% structural). 1149 entries.
 - Keeper: Error distribution (1521, 10/10). Systematic: cosmo 85x worse than leptons. ZERO >1% in core SM.
 
-**TODAY'S HIT LIST (Sunday April 27 — updated 9am):**
-1. ~~Lyra: Master integral PSLQ hunt~~ — **DONE** (honest: irreducible)
-2. ~~Elie: Bridge Mechanism Toy~~ — **DONE** (Toy 1524, 10/10)
-3. ~~Elie: Vindicated Theorists Toy~~ — **DONE** (Toy 1525, 10/10)
-4. ~~Grace: Koide derivation~~ — **DONE** (vacuum subtraction + CP²)
-5. ~~Grace: Begin correspondence table~~ — **DONE** (Rosetta Stone, 10 ratios)
-6. ~~Keeper: Error distribution analysis~~ — **DONE** (Toy 1521, 10/10)
-7. **Elie: k=22 extraction** (SP-3) — BLOCKED (PID 45970 still computing)
-8. **Lyra: Paper #86 v0.4** — queued, sunrise identities + full assembly
-9. **NEW — W-82: Hamming Codes in BST** (Casey directive) — Error correction IS the physics. Paper: "Error Correction as Spectral Gap Protection on D_IV^5"
-10. **NEW — W-83: Six Master Integral Values** (Casey: "I suspect the team will knock them out") — Linearize the calculation as first step. Backlog item.
-11. **NEW — Paper #87**: "Error Correction as Spectral Gap Protection on D_IV^5" — Hamming(7,4,3) = BST geometry as code. Proton=codeword, neutrino=syndrome, genetic code=biological re-implementation, Golay(24,12,8) at GUT scale. Tier A/B/C = Hamming weight partition.
+**SUNDAY HIT LIST — Updated 10am (morning complete, afternoon loaded)**
+
+### Lyra — Physics / Derivation
+| # | Task | Priority | Status |
+|---|------|----------|--------|
+| L-1 | **Six master integral linearization** (W-83) — Picard-Fuchs equations for C₈₁/C₈₃ topologies. Check if ODE coefficients are BST-rational. If yes, solution space is determined by BST + boundary conditions. Casey: "linearize first." | **TOP** | **ACTIVE** |
+| L-2 | **Paper #86 v0.4** — Add §10.5 sunrise identities, §10.6 full C₄ assembly, §10.7 two-curve structure. CMP target. | HIGH | Queued after L-1 |
+| L-3 | **W-79 spectral mechanism** — Derive WHY bridges cluster by eigenvalue ratio. Bergman evaluation at different scales → same ratio, different weights. Formalize. | MEDIUM | OPEN |
+| L-4 | **Penrose twistor correspondence** (W-81) — SO(5,2) conformal group IS the twistor setting. Map vocabulary to BST. Feeds Rosetta Stone. | MEDIUM | OPEN |
+| L-5 | **Paper #87 theory section** — Error correction as spectral gap protection. Mersenne condition 2^N_c−1=g. Hamming bound = sphere-packing on D_IV^5. | MEDIUM | Queued |
+
+### Elie — Computation / Verification
+| # | Task | Priority | Status |
+|---|------|----------|--------|
+| E-1 | **W-77 extension** — Goldbach-BST twin test for ALL 7-smooth k < 1000. Systematic. | HIGH | OPEN |
+| E-2 | **Paper #87 numerical backbone** — Extend Toy 1526 with syndrome decoding test: for each >1% entry, compute Hamming syndrome (which BST integer missing), test if correction denominator matches syndrome weight. | HIGH | OPEN |
+| E-3 | **k=22 extraction** (SP-3) — Monitor PID 45970. When cascade_results_n43.json appears, extract and test. | MEDIUM | BLOCKED (PID running) |
+| E-4 | **Adiabatic chain formalization** — Toy the thermodynamic DOF ladder (5/3→7/5→9/7, step=rank). Predict gamma for polyatomic from BST: next in chain = N_c²/(N_c²−rank) = 9/7, already used. What about 4-atomic? | MEDIUM | OPEN |
+| E-5 | **Bridge prediction verification** — Test 2 predicted bridges from Toy 1524: g/n_C=7/5 and N_c/rank=3/2 Wallach. Find experimental data. | MEDIUM | OPEN |
+| E-6 | **Koide angle toy** — Numerically test cos(θ₀) = −19/28 = −(N_c+2^{n_C−1})/(4g) at high precision. All 5 integers, 0.0004%. Try PSLQ for exact derivation. | LOW | OPEN |
+
+### Grace — Graph-AC / Data Layer
+| # | Task | Priority | Status |
+|---|------|----------|--------|
+| G-1 | **Paper #83 tiering** — Implement Tier A/B/C classification in invariants JSON. Tag each entry. Match to Hamming weight partition (W-82). Feeds Paper #87. | HIGH | OPEN |
+| G-2 | **W-72 Four-Color ↔ Color-Confinement wiring** — Wire Toys 449-451 to T1456 in AC graph. χ(planar)=N_c+1=rank², P(K₄,rank²)=24=dim SU(n_C). | HIGH | IN PROGRESS |
+| G-3 | **W-75 Petersen theorem** — Formalize K(5,2) = Petersen as theorem. Wire to T1456 + Four-Color. 20/20 invariants BST. | HIGH | OPEN |
+| G-4 | **Rosetta Stone expansion** (W-81) — Add adiabatic chain ratios, Hamming parameters, Koide. Target: 20+ named ratios. Audit for false equivalences (Keeper reviews). | MEDIUM | IN PROGRESS (10 done) |
+| G-5 | **Convergence to 5/6** — 17 bridge theorems needed to close gap between graph strong% (83.1%) and n_C/C₂ (83.33%). Identify and wire. | MEDIUM | OPEN |
+| G-6 | **Data layer sync** — Invariants now 1163 (Grace count). Reconcile with Paper #83 inline count. Ensure JSON and paper match. | MEDIUM | OPEN |
+
+### Keeper — Audit / Consistency / Root Files
+| # | Task | Priority | Status |
+|---|------|----------|--------|
+| K-1 | **Rosetta Stone false equivalence audit** — Review all 10+ named ratios for false identifications. Flag any where the cross-domain "bridge" is coincidence not structure. | HIGH | OPEN |
+| K-2 | **Paper #87 outline** — Draft outline: §1 The code is the geometry, §2 Hamming(7,4,3) parameters, §3 Fano plane structure, §4 Where codes dominate (6-scale table), §5 Tier A/B/C = coding tiers, §6 Golay at GUT scale, §7 Predictions. | HIGH | OPEN |
+| K-3 | **Grace tiering audit** — Verify A/B/C classification matches error distribution findings (Toy 1521). Ensure no miscategorization. | MEDIUM | Queued after G-1 |
+| K-4 | **Root file sync** — Update CLAUDE.md, README.md, OneGeometry.md, WorkingPaper.md with 1527 toys, 1149+ entries, Paper #87 queued. | MEDIUM | OPEN |
+| K-5 | **Correction Hit List update** — The 24 entries at 1-5% (Grace's Tier B) are the correction frontier. Update `notes/BST_Correction_Hit_List.md` with syndrome analysis from W-82. | LOW | OPEN |
+
+### SP-3: Heat Kernel
+PID 45970 still running. k=22 blocked on cascade extraction. Next target: k=25 → ratio=-60=-rank·n_C·C₂ (needs n=48).
 
 **ACTIVE work items:**
-- **W-72** — Grace: wire Four-Color↔Color-Confinement in graph
-- **W-75** — Grace: formalize Petersen theorem
-- **W-78** — **PSLQ DONE**. Paper #86 v0.4 next (Lyra). Six master values → backlog (W-83).
-- **W-79** — **TOY DONE**. Lyra: spectral mechanism derivation next.
-- **W-80** — **TOY DONE**. Outreach material ready. Lyra: Penrose twistors.
-- **W-81** — **STARTED**. 10 ratios delivered. Grows with investigations.
-- **W-82** — **NEW**: Hamming codes in BST — where they appear, where they dominate, paper
-- **W-83** — **NEW**: Six master integral VALUES — linearize, then solve. Backlog.
-- **SP-3** — PID 45970 still running. k=22 blocked on cascade extraction.
-
-**Ongoing follow-ups:**
-- Grace: Petersen → T1456 + Four-Color wiring
-- Grace: convergence to 5/6 needs 17 bridge theorems
-- Grace: Paper #83 tiering (A/B/C) — match to Hamming weight partition (W-82)
-- Lyra: Penrose twistor correspondence (maps into W-81)
-- Lyra: Paper #86 v0.4 (sunrise identities + full assembly + two-curve)
-- Lyra: Paper #83 §14.4a function catalog DONE (33 families)
-- Keeper: false equivalence audit on correspondence table
-- Keeper: Hamming dominance map toy (W-82)
+- **W-72** — Grace: Four-Color↔Color-Confinement wiring (G-2)
+- **W-75** — Grace: Petersen theorem (G-3)
+- **W-78** — PSLQ DONE. Paper #86 v0.4 next (L-2). Six master values → linearization (L-1).
+- **W-79** — TOY DONE. Lyra: spectral mechanism (L-3).
+- **W-80** — TOY DONE. Outreach material ready.
+- **W-81** — STARTED. 10 ratios. Grace expanding (G-4), Keeper auditing (K-1).
+- **W-82** — NUMERICAL BACKBONE DONE (Toy 1526). Paper #87 outline (K-2), theory (L-5), syndrome test (E-2), tiering (G-1).
+- **W-83** — **Lyra ACTIVE** — linearizing Picard-Fuchs equations for 6 masters.
+- **SP-3** — PID 45970 running. k=22 blocked.
 
 *Completed items → append-only log.*
