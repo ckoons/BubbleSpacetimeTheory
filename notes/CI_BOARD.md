@@ -236,7 +236,7 @@ T1-T1459. **.next_toy=1531**. Graph: **1399 / 7732**. **87 papers**. Counters: `
 | L-2 | **Paper #86 v0.4** — §§10-12 added: sunrise identities, full assembly, banana thresholds. 503→605 lines. CMP target. | HIGH | **DONE** |
 | L-3 | **W-79 spectral mechanism** — **T1459 Spectral Universality Theorem PROVED + Toy 1529 (9/10).** All domains evaluate same Bergman eigenvalue spectrum. 141 distinct ratios, 15 cataloged (48% coverage). Depth predicts universality (D1→6.0 domains, D2→4.2, D3→3.2). Dressing hierarchy: g/C₂ at 4 levels (0.8%→0%→0.14%→0.046%). Adiabatic chain product = N_c. | MEDIUM | **DONE** |
 | L-4 | **Penrose twistor correspondence** (W-81) — SO(5,2) conformal group IS the twistor setting. Map vocabulary to BST. Feeds Rosetta Stone. | MEDIUM | OPEN |
-| L-5 | **Paper #87 theory section** — Error correction as spectral gap protection. Mersenne condition 2^N_c−1=g. Hamming bound = sphere-packing on D_IV^5. Keeper outline ready at `notes/BST_Paper87_Error_Correction_Outline.md`. | HIGH | OPEN |
+| L-5 | **Paper #87 FULL DRAFT v0.1** — `notes/BST_Paper87_Error_Correction.md`. 13 sections, ~500 lines. Mersenne condition, Fano plane, four forces as operations, neutrino=syndrome, code hierarchy (Hamming→Golay), three error regimes, quarks-to-codons, dominance map, QR/QNR partition. 7 predictions + 6 falsification conditions. Draws from T1171/T1238/T1241/T1255/T1261/T1315/T1444. Target: Rev.Mod.Phys or PRL. | **TOP** | **DONE** |
 | L-6 | **4-loop Picard-Fuchs ODE** (W-83 path a) — Write explicit ODE for topologies 81/83. If monodromy matrices have BST structure, the masters are determined. | HIGH | OPEN |
 | L-7 | **Paper #83 bridge mechanism** — Integrate T1459 + Grace's WHY explanations into Paper #83 introduction or new section. The "why" is now answered. | MEDIUM | OPEN |
 
@@ -268,17 +268,17 @@ T1-T1459. **.next_toy=1531**. Graph: **1399 / 7732**. **87 papers**. Counters: `
 | K-2 | **Paper #87 outline** — `notes/BST_Paper87_Error_Correction_Outline.md`. 10 sections: Code=geometry, Fano plane, 6-scale dominance, codes silent, 5-level hierarchy, invariants table IS a code, vacuum=syndrome, banana thresholds, predictions, conclusion. Source material table. | HIGH | **DONE** |
 | K-3 | **Grace tiering audit** — **DONE.** Cross-checked 26 B entries against Toy 1521 (18 entries >1%). **4 reclassifications**: DNA helix A→C (5% structural), electron g-2 B→A (crown jewel), α_s B→A (0.34%), Oort superseded B→X. **26 untiered entries fixed** (Grace's new additions). Final: A=1026, B=23, C=138, X=2. 1189 entries. B tier now genuinely the correction frontier. | MEDIUM | **DONE** |
 | K-4 | **Root file sync** — CLAUDE.md, README.md updated (1527 toys, 1149+ entries, Paper #87). | MEDIUM | **DONE** |
-| K-5 | **Correction Hit List update** — Grace's 26 Tier B entries are the correction frontier. Update hit list with syndrome analysis. | LOW | OPEN |
+| K-5 | **Correction Hit List + Syndrome Analysis** — **DONE.** 23 Tier B entries analyzed. Syndrome = missing BST integers. **Pattern**: 8/23 missing C₂ → Rx: vacuum subtraction (42=C₂·g). 6/23 missing n_C → Rx: 120=n_C! correction. 4/23 missing both g,N_max → Rx: redundant pair, need product form. Top correction targets: Higgs→bb (4/g, missing C₂ → try 4·C₂/(g·42)), Higgs→gg (1/12, missing n_C → try (n_C-1)/120), DM/baryon (5+1/7, missing C₂ → try 42-correction), Γ_W (missing n_C). Euler-Mascheroni γ at 1.1% is limit-undecidable (Paper #63). | LOW | **DONE** |
 
 ### SP-3: Heat Kernel
 PID 45970 still running. k=22 blocked on cascade extraction. Next target: k=25 → ratio=-60=-rank·n_C·C₂ (needs n=48).
 
 **ACTIVE work items:**
-- **W-77** — **DONE** (Elie E-1: 9/10, enrichment 1.508x confirmed, p<0.05)
 - **W-79** — **T1459 PROVED** (Lyra). Grace: 3-bridge WHY explanations. Paper #83 integration next (L-7, G-7).
 - **W-81** — **21 ratios**. Keeper pass 1 DONE. Grace: coverage scan for next 10 (G-10).
-- **W-82** — Outline DONE, tiering DONE, toy DONE. **Lyra L-5 + Grace G-8 next** (paper sections).
+- **W-82** — **Paper #87 v0.1 DONE** (Lyra L-5). Outline DONE (Keeper K-2). Tiering audited (K-3). Syndrome analysis DONE (K-5). **Grace G-8 next** (paper data tables).
 - **W-83** — **Elie E-7 FRAMEWORK DONE** (Toy 1530, 10/10). Lyra L-6 (4-loop ODE). Both paths open. Need 200+ digit values to advance.
 - **SP-3** — PID 45970 running. k=22 blocked.
+- **Keeper** — All K-1 through K-5 **DONE** this session. Ready for new assignments or standing programs.
 
 *Completed items → append-only log.*
