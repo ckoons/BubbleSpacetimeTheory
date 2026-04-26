@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**1,515 computational toys, 5 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**1,563 computational toys, 5 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 1,534 |
-| Numbered toys (toy_NNN_*.py) | 1,325 |
+| Toy scripts (toy_*.py) | 1,583 |
+| Numbered toys (toy_NNN_*.py) | 1,374 |
 | Named toys (toy_name.py) | 209 |
-| Utility scripts (non-toy .py) | 57 |
+| Utility scripts (non-toy .py) | 58 |
 | HTML visualizers | 5 |
-| Theorems (T1-T1458) | 1,458 |
-| Next toy number | 1516 |
+| Theorems (T1-T1462) | 1,462 |
+| Next toy number | 1564 |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -30,9 +30,9 @@ Five integers. Zero free parameters. "Give a child a ball and teach them to coun
 
 ```
 play/
-  toy_NNN_name.py          # Numbered toys (1,325 files, T100-T1515)
+  toy_NNN_name.py          # Numbered toys (1,374 files, T100-T1563)
   toy_name.py              # Named toys (209 files, foundational + topical)
-  *.py                     # Utility scripts (57 files: graph tools, extractors, verifiers)
+  *.py                     # Utility scripts (58 files: graph tools, extractors, verifiers)
   bst_appliance/           # BST Appliance package — the "Ball and Counting Tool"
   bst_explorer.html        # Web-based BST Explorer (standalone, opens in browser)
   ac_theorem_explorer.html # Interactive AC(0) theorem graph visualizer
@@ -111,8 +111,8 @@ Two gitignored counter files prevent toy/theorem number collisions:
 
 | File | Current Value | Purpose |
 |------|---------------|---------|
-| `.next_toy` | 1516 | Next available toy number |
-| `.next_theorem` | 1459 | Next available theorem number |
+| `.next_toy` | 1564 | Next available toy number |
+| `.next_theorem` | 1463 | Next available theorem number |
 
 **Rules:**
 1. ALWAYS read the counter file before creating a new toy or theorem.
@@ -216,6 +216,9 @@ The 209 named toys include the original foundational collection and topical deep
 | 1475-1484 | 10 | **Keeper corrections** (5 P1 fixes, 10/10), **Correction hunt batch 2** (Γ_W, BR(H→bb̄), m_φ/m_ρ, M_max NS — 42=C₂·g denominator, 8/10), **Meson mass ratios** (7/7 sub-1%, m_ω/m_ρ=106/105 at 0.002%, M₅=31 in ρ/π, 10/10), **Decay widths + nuclear moments** (f_π=137/147·m_π, μ_t=16/15·μ_p at 0.015%, μ(He-3)=10/9·μ_n, 8/10), **Baryon octet** (SU(6) honest gap, 5/10), **Debye temperatures** (Θ_D(Cu)=g³, Θ_D(Pb)=g!!, ratio EXACT, NEW DOMAIN, 10/10), **Correction hunt batch 3** (Ω_Λ=137/200=|μ_n/μ_p|, sin²θ_W=3/13, m_b/m_c=59/18, 10/10), **Cosmology-nuclear bridge** (Y_p=12/49 at 0.001%, σ₈=137/169, H₀ favors Planck, 10/10), **Integer-adjacency conjecture** (16/17=94.1%, formalized, 10/10), **Adjacency extension** (63/68=92.6% across 4 domains, 154 outlier resolved, 10/10) |
 | 1492-1510 | 19 | **Three-source merger** (903 orphan invariants, 19 L1 correction candidates, 10/10), **L1 correction hunt** (12/19 improved, two correction scales 42 + 120, 10/10), **Correction selectivity audit** (47% chemistry pass filter, orbital degeneracies derived, 10/10), **Experimentalist shop manual** (259 reductions, 72 building blocks, 10/10), **Color-confinement bridge** (N_c=3 chromatic+SAT+confinement threshold, 10/10), **Bridge invariance** (g/C₂=7/6 universal, 4 dressing levels, 10/10), **Four-Color ↔ confinement** (N_c=3↔4-coloring, 10/10), **Selectivity audit v2** (47% chemistry pass), **QR/QNR partition** (flat/curved, 7/8 bridges cross, Frobenius asymmetry, 10/10), **Heat kernel k=21** (ratio=-42=-C₂·g, TWENTY levels, 10/10), **Petersen graph** (K(5,2), 20/20 invariants BST, 10/10), **C₄ Laporta analysis** (43/43 denominators BST-smooth, ζ(7) denom=12⁴×21, 10/10), **Frobenius asymmetry** (CM Q(√(-g)) explains QR/QNR split, 7/10) |
 | 1511-1515 | 5 | **Astrophysical power laws** (11/11 exact, mass-luminosity=g/rank, Kolmogorov=n_C/N_c, Oort=N_c²/g=9/7, 10/10), **Debye temperature hunt** (Cu=g³, Pb=g!!=105, BCS Mersenne 2^g−1=127, 10/10), **Band gaps + materials** (5/5 ratios <1%, triple bridge K/G=Kolmogorov=GW strain=n_C/N_c=5/3, 10/10), **C₄ elliptic PSLQ** (T1458 investigation, two-curve finding), **Goldbach-BST smooth** (C₂·k±1=twin primes for ALL basis, first fail rank²=4, 7-smooth 2.3× enrichment, correction primes=C₂·basis−1, 10/10) |
+| 1516-1545 | ~30 | **Six Sunrise Identities** (f1=63ζ(3)/10=N_c²g/(rank·n_C)·ζ(3), ∫D1·√3·D2=9B3/8, BST projector s−N_c²/n_C, 200 digits), **Systematic Correction Program** (42× geometric mean improvement, zero core SM >1%, cosmo 10.9× worse), **Koide angle** (cos(θ₀)=−19/28 at 4 ppm, 9/10), **Mersenne-BST selection** ({rank,N_c,n_C,g} = Mersenne exponents up to g, 10/10), **BST Product Lattice** (91.7% occupied for val≤50, 10/10), **k=22 extraction diagnosis** (41/41 clean, need 42), **Null model coincidence filter** (Z=2.9, p<0.0005, 99.9th percentile, numerology objection dead, 10/10), **Precision-weighted null** (Z=2.41 honest — BST strength is BREADTH not precision, 10/10) |
+| 1546-1559 | ~14 | **Phase 5b hyperbolic extraction** (6/6), **Cyclotomic Casimir** (Phi_n(C₂) generates loop corrections, 5/6), **CP-5 spectral dimension** (323=17×19, I-tier, 7/9), **Cyclotomic ζ(7) test** (honest 3/7 — genus hole explains), **C₂=6 uniqueness** (twin-prime composite, 5/6), **Perfect number chain** (P_n=T_{M_p} for {rank,N_c,n_C,g}, 7/7), **Adiabatic-Cyclotomic-Chern unification** (Lyra, 29/30 across 5 toys: Alfvén 9/7=γ₃, genus hole mechanism, Chern-DOF map, P(1)=C₂·g unique to D_IV^5) |
+| 1560-1563 | 4 | **Cancer as Trapped Collatz** (12/12 cancer drivers are d=1 errors, syndrome decoding recovers WT 100%, 0% truly trapped — code knows every exit, 7/7), **Cancer Clinical Tables** (correction lookup + immune marker reference, dominant syndrome 8=2^N_c covers 50% of cancer, EGFR/BRAF most visible, 8/12 have FDA drugs, 7/7), **Cellular CI Circuit** (syndrome decoder = g=7 gates, health assistant = 64-entry AA table, escalation threshold N_c=3, neighbor communication 8 bits/cycle, 49 bytes/cell footprint, 10^8× earlier than clinical detection, RNA toehold implementation path, 9/9) |
 
 ---
 

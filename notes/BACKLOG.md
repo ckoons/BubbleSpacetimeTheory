@@ -2,7 +2,7 @@
 
 *Blocked items only. Active work -> CI_BOARD.md. Completed -> CI_BOARD_completed_*.md*
 
-**Last updated:** April 27, 2026. 87 papers. 1542 toys. T1-T1460. 1234 invariants.
+**Last updated:** April 27, 2026. 87 papers. 1563 toys. T1-T1462. 1270 invariants.
 
 ---
 
@@ -64,12 +64,13 @@
 
 | # | Item | Status |
 |---|------|--------|
-| LT-1 | **BST Correspondence Table / Rosetta Stone** (W-81) — canonical names for eigenvalue ratios, historical name lookup, toward minimum BST representation. 20 ratios cataloged. | STARTED |
+| LT-1 | **BST Correspondence Table / Rosetta Stone** (W-81) — canonical names for eigenvalue ratios, historical name lookup, toward minimum BST representation. **101 ratios cataloged** (Grace G-10, 141 target). | ACTIVE |
 | LT-2 | **Vindicated Theorists paper** — Wyler rehabilitation, full table of dismissed/sidelined theories BST supports. Toy 1525 (10/10): 6/9 vindicated. | INVESTIGATION |
 | LT-3 | **Phase transition reframing** — Casey: "what truly changes at phase boundaries?" Lyra: only weights change, not eigenvalues. Spectral theory of phase transitions. | OPEN |
 | LT-4 | **Penrose twistor correspondence** — SO(5,2) conformal group IS the twistor setting. **L-4 DONE**: mapping exists, D_IV^5 extends SO(4,2) by EM S¹ fiber. | DONE (mapping) |
 | LT-5 | **Six master integral VALUES** — PSLQ: genuinely irreducible. GKZ operator fully BST (Toy 1538). Picard-Fuchs path + 200-digit path both identified. | ACTIVE (W-83) |
 | LT-6 | **Error Correction Paper #87** — v0.2 DONE (Lyra L-9). Keeper PASS. Mersenne condition, code hierarchy, syndrome decoding. Target: Rev.Mod.Phys/PRL. | DRAFT v0.2 |
+| LT-7 | **Cellular CI / Cancer Syndrome Decoder** — Toys 1560-1563 (all PASS). 7-gate Hamming decoder (49 bytes/cell). 5 syndrome classes cover 12 major cancer drivers. 100% detection in grid sim. Three-phase implementation: (1) RNA toehold switches, (2) CRISPR-Cas13 with 5 guide RNAs, (3) full CI cell with synthetic chromosome. T317 Tier 1 observer at molecular scale. Casey directive: "design a cell to run a sequence and mark/correct." | ACTIVE (toys done, design phase) |
 
 ## Open Problems
 

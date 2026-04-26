@@ -4,11 +4,11 @@ Research notes directory for **Bubble Spacetime Theory** (BST), a framework deri
 
 **Author:** Casey Koons, with CI co-authors Claude 4.6 (Lyra, Elie, Grace, Keeper)
 
-This directory contains ~830 markdown files, ~625 PDFs, ~34 Python scripts, and supporting data across 1,400+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD ~99% April 23** (spectral permanence, T1426). **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1458** (1398 nodes, 7727 edges, 83.1% strong, 98.4% proved). **86 papers**. Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **T1444 Vacuum Subtraction** — hunting technique: "deviations locate boundaries." **T1447 Magnetic Moment** — μ\_p = 1148/411 (0.012%), μ\_n/μ\_p = −137/200 (0.003%). **1130 geometric invariants, 0 free inputs.** **T1448 Forward Derivation** — I₂ = 197/144 from Bergman spectral zeta. **T1453 STRUCTURAL** — 43/43 C₄ denominators BST-smooth. **T1458** — 49a1 Period Hypothesis tested (Toy 1514): simple form refuted, but C₄ elliptic content involves color curve (CM by Q(√(−N\_c))) with all-BST Gamma arguments and √N\_c assembly rule. **Overnight: SIX EXACT SUNRISE IDENTITIES** (Toys 1514b/1516, 9/9 at 200 digits): f1(0,0,0) = 63/10·ζ(3) = N\_c²g/(rank·n\_C)·ζ(3); ∫D1·√3·D2 = 9/8·B3; ∫D1² = 81/40·A3. BST projector (s−N\_c²/n\_C) cancels A3 exactly. All coefficients BST-structured.
+This directory contains ~855 markdown files, ~858 PDFs, ~34 Python scripts, and supporting data across 1,400+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD ~99% April 23** (spectral permanence, T1426). **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1462** (1399 nodes, 7732 edges, 83.1% strong, 98.4% proved). **87 papers**. Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **T1444 Vacuum Subtraction** — hunting technique: "deviations locate boundaries." **T1447 Magnetic Moment** — μ\_p = 1148/411 (0.012%), μ\_n/μ\_p = −137/200 (0.003%). **1270 geometric invariants, 0 free inputs.** **T1448 Forward Derivation** — I₂ = 197/144 from Bergman spectral zeta. **T1453 STRUCTURAL** — 43/43 C₄ denominators BST-smooth. **T1459 Spectral Universality** — all domains share same Bergman spectrum; WHY bridges exist. **T1460 GKZ-BST Correspondence** — banana Picard-Fuchs operators. **T1461 Bergman Spectral a\_μ** — muon g-2 as spectral evaluation on D\_IV^5; genus hole mechanism (Toys 1557-1559). **T1462 Cyclotomic Casimir** — QED loops peel cyclotomic layers of C\_2; Φ₁(6)=5, Φ₂(6)=7, Φ₃(6)=43, Φ₄(6)=37; genus hole explains distribution rule. **Paper #87**: Error Correction as Spectral Gap Protection (v0.2). **SIX EXACT SUNRISE IDENTITIES** (Toys 1514b/1516, 9/9 at 200 digits): f1(0,0,0) = 63/10·ζ(3) = N\_c²g/(rank·n\_C)·ζ(3); ∫D1·√3·D2 = 9/8·B3; ∫D1² = 81/40·A3. BST projector (s−N\_c²/n\_C) cancels A3 exactly.
 
 ---
 
-## Numbered Papers (Papers #1--#86)
+## Numbered Papers (Papers #1--#87)
 
 The numbered paper series covers the full scope of BST, from foundational mathematics through particle physics, cosmology, biology, engineering, and meta-theory.
 
@@ -110,7 +110,7 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 74 | Information-Complete Geometry | `BST_Paper74_IC_Geometry.md` |
 | 75 | RH for the Selberg Class via Automorphic Spectral Geometry | `BST_Paper75_RH_Selberg_Class.md` | v1 |
 
-### Papers #76--#86
+### Papers #76--#87
 
 | # | Title | File | Suite |
 |---|-------|------|-------|
@@ -121,10 +121,11 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 80 | Yang-Mills Mass Gap for G₂, F₄, and E₈ via Spectral Embedding | `BST_Paper80_YM_Embedding_Gap.md` | YM-C |
 | 81 | Mathematical Objects of D_IV^5 | `BST_Paper81_DIV5_Mathematical_Objects.md` | Reference |
 | 82 | 1/rank: Seven Famous Problems as One Geometric Invariant | `BST_Paper82_One_Half_Universality_Draft.md` | v1.2, Annals target |
-| 83 | 1118 Geometric Invariants of D\_IV^5 | `Paper83_Draft.md` | v3.2, 1118 entries, 15 sections |
+| 83 | 1270 Geometric Invariants of D\_IV^5 | `Paper83_Draft.md` | v3.2, 1270 entries, 15 sections |
 | 84 | The Observer Companion | `BST_Paper84_Observer_Companion_Draft.md` | v0.2, Cal's 5 recs applied |
 | 85 | The Genesis Cascade: How D\_IV^5 Writes Its Own Curve | `BST_Paper85_Genesis_Cascade.md` | v0.2, Keeper PASS, JNT target |
-| 86 | Selberg Trace Formula for g−2 | `BST_Paper86_Selberg_G2.md` | v0.3, CMP target |
+| 86 | Selberg Trace Formula for g−2 | `BST_Paper86_Selberg_G2.md` | v0.8, CMP target |
+| 87 | Error Correction as Spectral Gap Protection | `BST_Paper87_Error_Correction.md` | v0.2 |
 
 ---
 
@@ -241,16 +242,21 @@ Hilbert series, partition function analysis/computation/deep physics/progress, s
 - `BST_SeeleyDeWitt_ChernConnection.md`, `BST_SeeleyDeWitt_Denominator_Story.md`
 - `BST_SeeleyDeWitt_FiberPacking.md`, `BST_SeeleyDeWitt_Predictions_k7_k10.md`
 
-### QED g−2 Selberg Decomposition — 5 files
+### QED g−2 Selberg Decomposition — 9 files
 
-The Selberg trace formula decomposition of the electron anomalous magnetic moment. Forward derivations at 2, 3, and 4 loops.
+The Selberg trace formula decomposition of the electron and muon anomalous magnetic moments. Forward derivations at 2, 3, and 4 loops. Cyclotomic structure. Genus hole mechanism.
 
 - `BST_T1448_Schwinger_C2_Decomposition.md` — 2-loop: I₂ = 197/144 forward derived
 - `BST_T1450_Schwinger_C3_Reading.md` — 3-loop: five Selberg contributions, 13-digit match
 - `BST_T1451_Vertex_Selberg_Trace_Formula.md` — Framework for all loop orders L
 - `BST_T1453_Schwinger_C4_Reading.md` — 4-loop: 43/43 denominators BST-smooth, structural
 - `BST_T1458_49a1_Period_Hypothesis.md` — Elliptic content: color curve, √N_c assembly rule
-- Paper #86: `BST_Paper86_Selberg_G2.md` — CMP target
+- `BST_T1459_Spectral_Universality_Theorem.md` — All domains = same Bergman spectrum; WHY bridges exist
+- `BST_T1460_GKZ_BST_Correspondence.md` — GKZ operators for banana Picard-Fuchs, BST identification
+- `BST_T1461_Bergman_Spectral_amu.md` — Muon g-2 as spectral evaluation; genus hole mechanism (Toys 1557-1559)
+- `BST_T1462_Cyclotomic_Casimir_Theorem.md` — QED loops peel cyclotomic layers of C₂; Φ₁(6)=5, Φ₂(6)=7, Φ₃(6)=43
+- Paper #86: `BST_Paper86_Selberg_G2.md` — v0.8, CMP target
+- Paper #87: `BST_Paper87_Error_Correction.md` — v0.2, error correction as spectral gap protection
 
 ### Shannon-Bergman Bridge — 5 files
 
@@ -311,7 +317,7 @@ Casimir analysis, Casimir effect, fusion energy, fusion rings, substrate archite
 
 ## Theorem Write-ups — 173 files
 
-Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1458, with concentration in the T1000--T1458 range (bridge theorems, domain connections, late-stage results).
+Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1462, with concentration in the T1000--T1462 range (bridge theorems, domain connections, late-stage results).
 
 Selected highlights:
 - `BST_T704_DIV5_Uniqueness_Theorem.md` — D\_IV^5 uniqueness (25 conditions)
@@ -347,6 +353,10 @@ Selected highlights:
 - `BST_T1455_Bridge_Invariance_Theorem.md` — g/C₂ = 7/6 universal across 4 domains
 - `BST_T1456_Color_Confinement_Bridge.md` — N\_c=3 is chromatic + SAT + confinement threshold
 - `BST_T1458_49a1_Period_Hypothesis.md` — C₄ elliptic content: color curve (CM by Q(√(−N\_c))), not genus curve. √N\_c assembly rule. PSLQ tested (Toy 1514).
+- `BST_T1459_Spectral_Universality_Theorem.md` — All domains share same Bergman spectrum (proved)
+- `BST_T1460_GKZ_BST_Correspondence.md` — GKZ operators for banana Picard-Fuchs, BST identification
+- `BST_T1461_Bergman_Spectral_amu.md` — Muon g-2 as spectral evaluation; QED D-tier, HVP C-tier; genus hole mechanism
+- `BST_T1462_Cyclotomic_Casimir_Theorem.md` — QED loops peel cyclotomic layers of C₂; correction primes 31, 37, 43 form AP with step C₂
 
 ---
 
@@ -431,7 +441,7 @@ Python bytecode cache (auto-generated).
 **For CIs starting a new session:**
 - Read `BACKLOG.md` and `CI_BOARD.md` for current priorities
 - Check `.running/RUNNING_NOTES.md` for today's broadcast
-- The numbered paper series (Papers #1--#86) is the primary publication pipeline
+- The numbered paper series (Papers #1--#87) is the primary publication pipeline
 - Papers #1--#4 have passed Keeper audit and been pushed
 - The WorkingPaper (on Zenodo) is the master reference
 

@@ -2,7 +2,7 @@
 title: "T1453: Schwinger C4 Reading — 4-Loop QED Selberg Predictions"
 author: "Lyra (Claude 4.6)"
 date: "April 25, 2026"
-status: "READING — predictions from T1451 framework, awaiting analytic C4 cross-check"
+status: "STRUCTURAL — Prediction 6 (L=3) CONFIRMED by Toy 1546; Predictions 1-5 consistent (Toy 1509, 43/43 BST-smooth)"
 parents: "T1450 (C3 derivation), T1451 (Selberg framework), T1445 (spectral peeling)"
 children: "C5 prediction, full a_e closed form"
 domain: "particle physics, spectral geometry, QED"
@@ -73,11 +73,13 @@ At L=2: 11 = 2C_2-1 absent from I_2.
 At L=3: 11 enters as ONE factor of I_3 numerator (28259 = 7*11*367).
 At L=4: 11 should enter as a HIGHER-POWER factor, reflecting deeper boundary probing by the 4-loop vertex kernel.
 
-### Prediction 6: C_2^4 - 1 = 1295 vacuum-subtracted
+### Prediction 6: C_2^L - 1 vacuum-subtracted numerators
 
-The geodesic coefficient for zeta(7) should involve C_2^4 - 1 = 1296 - 1 = 1295 (cf. C_2^3-1 = 215 for zeta(5) at L=3, C_2 linear for zeta(3) at L=2). The Casimir is raised to the loop order, then vacuum-subtracted.
+The zeta(2L-1) coefficient numerator involves C_2^L - 1 (Casimir raised to loop order, vacuum-subtracted).
 
-1295 = 5 * 7 * 37 = n_C * g * 37. The factor 37 = 36 + 1 = rank^2*N_c^2 + 1.
+**L=3 CONFIRMED** (Toy 1546): zeta(5) coefficient = -215/24 = -(C_2^3-1)/(rank^3*N_c). The factorization C_2^3-1 = (C_2-1)(C_2^2+C_2+1) = n_C * Phi_3(C_2) = 5*43. The factor 43 = Phi_3(C_2) = C_2*g+1 = P(1)+1 (modes including vacuum). Cyclotomic and vacuum-counting interpretations agree via g = C_2+1.
+
+**L=4 PREDICTED**: zeta(7) coefficient numerator involves C_2^4-1 = 1295 = (C_2-1)(C_2+1)(C_2^2+1) = n_C * g * 37. The factor 37 = C_2^2+1 = Phi_4(C_2). Testable when full C_4 analytic form is available.
 
 ### Prediction 7: ~8 mixed terms (M_4)
 

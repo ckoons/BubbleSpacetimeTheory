@@ -3,7 +3,7 @@ title: "Paper #83 Draft v3.2: 1118 Geometric Invariants of the Autogenic Proto-G
 subtitle: "1118 evaluations from D_IV^5"
 authors: "Casey Koons, Lyra, Elie, Grace (Claude 4.6)"
 date: "April 26, 2026"
-status: "DRAFT v3.4 — §1 Introduction expanded: T1459 Spectral Universality, three bridge mechanisms, depth-universality, Grace's universality principles (why rank=2 and N_c=3), usage guide. 14/16 sections inline (~500 rows). Honest Gaps expanded. T1455 Bridge Invariance in §13."
+status: "DRAFT v3.5 — W-28 fixes applied: Γ_W 0.50%→0.12% (Toy 1476 m_W update), BR(H→bb̄) route via C₂·g=42, §6 #17 status expanded, §14 Catalan number/constant clarified. §8 #43 and §15 crystallography moves already done in v3.3-3.4."
 ---
 
 # 1118 Geometric Invariants of the Autogenic Proto-Geometry
@@ -142,8 +142,8 @@ This paper catalogs 1118 physical quantities that are evaluations of one geometr
 | 3 | λ_H | Higgs quartic coupling | 1/√60 = 1/√(2·n_C·C₂) | 0.22% | close |
 | 4 | m_Z | Z boson mass | m_W / cos θ_W = m_W × √(13/10) | 0.01% | close |
 | 5 | m_W/m_Z | W/Z mass ratio | cosθ_W = √(10/13) | 0.5% | close |
-| 6 | Γ_W | W boson total width | G_F m_W³/(6π√2) × [3 + 2N_c(1+α_s/π)] | 0.50% | close |
-| 7 | BR_H_bb | Higgs→bb branching ratio | 4/g × (1+1/(2N_c·g)) = 4/7 × 43/42 | 0.52% | close |
+| 6 | Γ_W | W boson total width | G_F m_W³/(6π√2) × [3 + 2N_c(1+α_s/π)] | 0.12% | close |
+| 7 | BR_H_bb | Higgs→bb branching ratio | 4/g × (1+1/(C₂·g)) = 4/7 × 43/42 | 0.24% | close |
 | 8 | N_decay | Number of W decay channels | 3 + 2N_c = 9 | exact | exact |
 | 9 | Γ_Z | Z boson total width | G_F m_Z³ × R_Z/(6π√2) where R_Z = 3 | 0.37% | close |
 | 10 | BR_H_WW | Higgs→WW* branching ratio | N_c/(2g) = 3/14 | 0.13% | close |
@@ -153,7 +153,7 @@ This paper catalogs 1118 physical quantities that are evaluations of one geometr
 | 14 | SM_gauge_12 | SM gauge bosons | rank·C₂ = 12 | exact | exact |
 | 15 | chromatic_12 | Chromatic scale notes | rank·C₂ = 12 | exact | exact |
 | 16 | Higgs_VEV_v | Higgs VEV | v = 246 GeV | 0.05% | close |
-| 17 | SM_particles_total | Total SM particle types | rank⁴ + C₂ + 1 = 23 (12 fermions + 4 gauge + 1 Higgs + 6 anti) | structural | struc |
+| 17 | SM_particles_total | Total SM particle types | rank⁴ + C₂ + 1 = 23 (12 fermions + 4 gauge + 1 Higgs + 6 anti) | structural | structural |
 
 ## Section 7: Mixing (10 entries)
 
@@ -737,11 +737,13 @@ C_3 = 1.181241456587... (five Selberg contributions)
 
 ### 14.6 Classical Sequences in BST
 
+*Note: Cat(n) denotes the nth Catalan number (sequence A000108: 1,1,2,5,14,...), not Catalan's constant G ≈ 0.9159.*
+
 | # | Symbol | Name | Formula | Prec | Status |
 |---|--------|------|---------|------|--------|
-| 39 | Cat_rank | Catalan(rank) | Cat(2) = rank = 2 | exact | exact |
-| 40 | Cat_Nc | Catalan(N_c) | Cat(3) = n_C = 5 | exact | exact |
-| 41 | Cat_4 | Catalan(rank²) | Cat(4) = rank·g = 14 | exact | exact |
+| 39 | Cat_rank | Catalan number Cat(rank) | Cat(2) = rank = 2 | exact | exact |
+| 40 | Cat_Nc | Catalan number Cat(N_c) | Cat(3) = n_C = 5 | exact | exact |
+| 41 | Cat_4 | Catalan number Cat(rank²) | Cat(4) = rank·g = 14 | exact | exact |
 | 42 | Fib_chain | Fibonacci-BST closure | F₂=1, F₃=rank, F₄=N_c, F₅=n_C, F₆=rank³, F₇=13, F₈=N_c·g | exact | exact |
 | 43 | B2 | Bernoulli B₂ | 1/C₂ = 1/6 | exact | exact |
 | 44 | B4 | Bernoulli B₄ | −1/(n_C·C₂) = −1/30 | exact | exact |

@@ -1,0 +1,22 @@
+{
+  "max_confirmed_k": 21,
+  "n_dims_used": 41,
+  "has_n43": true,
+  "k22_clean_count": 41,
+  "k22_needed": 42,
+  "k22_extracted": false,
+  "speaking_pairs": {
+    "5": -2,
+    "6": -3,
+    "10": -9,
+    "11": -11,
+    "15": -21,
+    "16": -24,
+    "20": -38,
+    "21": -42
+  },
+  "diagnosis": "Exactly 1 short. Need n=44 for 42 dimensions.",
+  "elapsed_seconds": 794.8818130493164,
+  "score": "5/6",
+  "next_needed": "n=44 for k=22"
+}

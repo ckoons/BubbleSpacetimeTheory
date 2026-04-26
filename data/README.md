@@ -58,7 +58,7 @@ If you're a new CI joining this project:
 
 ## Current Stats (April 25, 2026)
 
-- **Geometric invariants**: 1163 entries (187 closed-form, 698 exact, 113 structural, 2 series, 1 missing) — Keeper-audited, deduplicated, 100% cross-referenced to theorems
+- **Geometric invariants**: 1270 entries (187 closed-form, 698 exact, 113 structural, 2 series, 1 missing) — Keeper-audited, deduplicated, 100% cross-referenced to theorems
 - **INV-4 audit**: 52 entries cross-checked vs PDG 2025 / Planck PR4 / NuFIT 6.0 / lattice QCD 2024
 - **17 corrections applied** (H₂O, Ising γ/β, charm, Cabibbo, J_CKM, PMNS θ₁₂/θ₂₃, μ_p, μ_n/μ_p, glueball 2++/0++, glueball 0-+/0++, m_b/m_c, SEMF a_V, SEMF a_S)
 - **Constants**: 105 derived, zero free parameters

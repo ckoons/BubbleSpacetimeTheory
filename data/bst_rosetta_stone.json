@@ -1,230 +1,1489 @@
 {
-  "title": "BST Rosetta Stone — Canonical Names for Eigenvalue Ratios",
-  "description": "Each ratio has a name, a geometric origin, and a list of physical appearances across domains.",
+  "title": "BST Rosetta Stone — Complete Catalog",
+  "description": "101 distinct BST ratios/values with domain coverage",
   "generated": "2026-04-26",
+  "total_ratios": 101,
   "ratios": [
     {
-      "formula": "1/rank = 1/2",
-      "name": "The Critical Line",
-      "appearances": [
-        "RH critical line Re(s)=1/2",
-        "BSD ratio L/Ω",
-        "virial K/|U|",
-        "Grover speedup N^(1/2)",
-        "diffusion ⟨r²⟩∝t^(1/2)",
-        "percolation p_c (triangular)"
+      "value": 2,
+      "bst_reading": "rank",
+      "entries": 84,
+      "sections": 8,
+      "section_names": [
+        "Seeds",
+        "Lept",
+        "Nucl",
+        "Cosmo",
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
       ],
-      "domain_count": 6
+      "samples": [
+        "rank",
+        "equipartition_+2",
+        "Lie_N_c"
+      ]
     },
     {
-      "formula": "N_c/rank = 3/2",
-      "name": "The Wallach Point",
-      "appearances": [
-        "Wallach positivity threshold",
-        "perfect fifth",
-        "Kepler T∝a^(3/2)",
-        "Jeans mass M∝T^(3/2)",
-        "glueball 0⁻⁺/0⁺⁺ (bare)",
-        "Bondi accretion"
+      "value": 3,
+      "bst_reading": "N_c",
+      "entries": 79,
+      "sections": 8,
+      "section_names": [
+        "Seeds",
+        "Hadr",
+        "Neut",
+        "Cosmo",
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
       ],
-      "domain_count": 6
+      "samples": [
+        "N_c",
+        "N_gen",
+        "codon_length"
+      ]
     },
     {
-      "formula": "rank/N_c = 2/3",
-      "name": "The Democratic Deficit",
-      "appearances": [
-        "Koide lepton formula Q=2/3 (0.0009%)",
-        "neutron moment ratio μ_n/μ_p (bare)",
-        "matter era scale factor a∝t^(2/3)",
-        "Kauzmann glass Tg/Tm ≈ 2/3"
+      "value": 6,
+      "bst_reading": "C₂",
+      "entries": 32,
+      "sections": 7,
+      "section_names": [
+        "Seeds",
+        "Lept",
+        "Cosmo",
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
       ],
-      "keeper_note": "Removed 'supermajority threshold' (political convention). Kauzmann 2/3 is empirical but widely observed across glass-formers — structural reading, not derivation.",
-      "domain_count": 5
+      "samples": [
+        "C₂",
+        "d_gauge",
+        "phi_g"
+      ]
     },
     {
-      "formula": "n_C/N_c = 5/3",
-      "name": "The Cascade Ratio",
-      "appearances": [
-        "Kolmogorov K41 -5/3",
-        "adiabatic γ (monatomic)",
-        "Grüneisen parameter",
-        "QCD deconfinement T/f_π",
-        "bulk/shear elasticity K/G"
+      "value": 1,
+      "bst_reading": "1",
+      "entries": 38,
+      "sections": 6,
+      "section_names": [
+        "Seeds",
+        "Cosmo",
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
       ],
-      "domain_count": 5
+      "samples": [
+        "δ_graph",
+        "m_l",
+        "h_minus7"
+      ]
     },
     {
-      "formula": "rank·C₂ = 12",
-      "name": "The Normalization Unit",
-      "appearances": [
-        "SM gauge bosons (γ, W±, Z, 8g)",
-        "SM fermion flavors (6q + 6l)",
-        "QED denominator base 12^L (T1445)",
-        "FCC coordination number",
-        "dim su(rank+1) × dim su(rank) = 3×4"
+      "value": 5,
+      "bst_reading": "n_C",
+      "entries": 32,
+      "sections": 6,
+      "section_names": [
+        "Seeds",
+        "Cosmo",
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
       ],
-      "keeper_note": "Removed 'chromatic semitones' (tuning convention). 12=rank·C₂ is structural. Music: just intonation ratios (3/2, 4/3) are BST, 12-TET is cultural.",
-      "domain_count": 5
+      "samples": [
+        "n_C",
+        "opt_group",
+        "Cat_N_c"
+      ]
     },
     {
-      "formula": "rank³ = 8",
-      "name": "The Cube",
-      "appearances": [
-        "gluon count N_c²-1",
-        "octet rule (chemistry)",
-        "Weyl group |W(B₂)| = 2^N_c",
-        "rank³ = spacetime cube",
-        "FCC coordination/BCC coord"
+      "value": 7,
+      "bst_reading": "g",
+      "entries": 26,
+      "sections": 6,
+      "section_names": [
+        "Seeds",
+        "Cosmo",
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
       ],
-      "keeper_note": "Removed 'bits per byte' (engineering convention). Replaced with |W(B₂)|=8 (structural).",
-      "domain_count": 5
+      "samples": [
+        "g",
+        "Frob_period",
+        "Heawood"
+      ]
     },
     {
-      "formula": "2C₂-1 = 11",
-      "name": "The Dressed Casimir (spectral gap)",
-      "appearances": [
-        "N_max-λ₉ spectral desert",
-        "Wolfenstein A=9/11",
-        "PMNS 44=4×11",
-        "neutron moment 411-400=11"
+      "value": 4.0,
+      "bst_reading": "rank²",
+      "entries": 60,
+      "sections": 5,
+      "section_names": [
+        "Hadr",
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
       ],
-      "keeper_note": "Removed 'soccer team=11' (human convention, not physics). 11=2C₂-1 is structural.",
-      "domain_count": 4
+      "samples": [
+        "m_J/ψ/m_ρ",
+        "diam_graph",
+        "APG_conditions"
+      ]
     },
     {
-      "formula": "g/C₂ = 7/6",
-      "name": "The Bridge Ratio",
-      "appearances": [
-        "SU(3)/SU(2) mass gap √(7/6)",
-        "SAW γ exponent",
-        "Ising γ bare",
-        "Chandrasekhar 35/6 = n_C×(g/C₂)"
+      "value": 8,
+      "bst_reading": "rank³",
+      "entries": 23,
+      "sections": 5,
+      "section_names": [
+        "Hadr",
+        "Nucl",
+        "Cosmo",
+        "NT",
+        "Struct"
       ],
-      "domain_count": 4
+      "samples": [
+        "|W(B₂)|",
+        "dim_B2",
+        "magic_8"
+      ]
     },
     {
-      "formula": "n_C/C₂ = 5/6",
-      "name": "The Linearizable Fraction",
-      "appearances": [
-        "AC(0) depth-0 fraction",
-        "graph strong edge convergence target",
-        "table quantitative fraction convergence"
+      "value": 0.5,
+      "bst_reading": "1/rank",
+      "entries": 21,
+      "sections": 5,
+      "section_names": [
+        "Seeds",
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
       ],
-      "keeper_note": "Removed 'Pareto ~80%' (5/6=83.3%, not 80%; Pareto is empirical heuristic, not derived) and 'information sharing rate' (vague). Core appearances are AC(0) and graph self-description.",
-      "domain_count": 3
+      "samples": [
+        "L/Ω",
+        "CC_graph",
+        "supersingular_frac"
+      ]
     },
     {
-      "formula": "N_c·g = 21",
-      "name": "The Dimension",
-      "appearances": [
-        "dim so(g) = dim SO(7) adjoint",
-        "Z boson decay channels",
-        "C(g,rank) = C(7,2)",
-        "Ising 21/17 numerator = N_c·g"
+      "value": 20,
+      "bst_reading": "rank²·n_C",
+      "entries": 10,
+      "sections": 5,
+      "section_names": [
+        "Quark",
+        "Nucl",
+        "NT",
+        "Bio",
+        "Struct"
       ],
-      "keeper_note": "Removed 'Fibonacci F₈' (21=F₈ is true but the Fibonacci connection is not BST-derived; N_c·g=21 has its own structural origin). Added Ising connection.",
-      "domain_count": 4
+      "samples": [
+        "m_s/m_d",
+        "N_aa",
+        "N_amino"
+      ]
     },
     {
-      "formula": "C₂·g = 42",
-      "name": "The Answer (total Chern class)",
-      "appearances": [
-        "P(1) = 42",
-        "Catalan(n_C)",
-        "φ(g²)",
-        "hadronic correction denominator"
+      "value": 12,
+      "bst_reading": "rank·C₂",
+      "entries": 14,
+      "sections": 4,
+      "section_names": [
+        "Gauge",
+        "Cross",
+        "NT",
+        "Struct"
       ],
-      "domain_count": 4
+      "samples": [
+        "ico_vertices",
+        "V_trop",
+        "SM_gauge_12"
+      ]
     },
     {
-      "formula": "N_c·C₂-1 = 17",
-      "name": "The Dressed Product (vacuum correction)",
-      "appearances": [
-        "Ising γ denominator 21/17",
-        "charm 136=8×17",
-        "3rd Fermat prime",
-        "glueball 0⁻⁺/0⁺⁺ numerator"
+      "value": 14,
+      "bst_reading": "rank·g",
+      "entries": 14,
+      "sections": 4,
+      "section_names": [
+        "Cosmo",
+        "Cross",
+        "NT",
+        "Struct"
       ],
-      "domain_count": 4
+      "samples": [
+        "K5_vertices",
+        "Bravais_14",
+        "Cat_4"
+      ]
     },
     {
-      "formula": "N_max-1 = 136",
-      "name": "The Excited Count",
-      "appearances": [
-        "m_t/m_c ratio",
-        "T1444: non-trivial modes",
-        "8×17 = rank³×dressed",
-        "Euler φ(137)"
+      "value": 15,
+      "bst_reading": "N_c·n_C",
+      "entries": 6,
+      "sections": 4,
+      "section_names": [
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
       ],
-      "domain_count": 4
+      "samples": [
+        "Stirling_5_2",
+        "binom_6_2",
+        "partitions_g"
+      ]
     },
     {
-      "formula": "N_c²/g = 9/7",
-      "name": "The Stability Margin",
-      "appearances": [
-        "Oort |A/B| galactic rotation",
-        "BCS T_c ratio",
-        "Alfvén structural conductance"
+      "value": 10,
+      "bst_reading": "rank·n_C",
+      "entries": 17,
+      "sections": 3,
+      "section_names": [
+        "Cross",
+        "NT",
+        "Struct"
       ],
-      "domain_count": 3
+      "samples": [
+        "d_total_real",
+        "Plucker_10",
+        "weight_max"
+      ]
     },
     {
-      "formula": "N_max/(rank³·n_C²) = 137/200",
-      "name": "The Cosmic Bridge",
-      "appearances": [
-        "Ω_Λ dark energy fraction",
-        "|μ_n/μ_p| neutron/proton moment",
-        "cross-domain bridge at 41 orders of magnitude separation"
+      "value": -2,
+      "bst_reading": "",
+      "entries": 9,
+      "sections": 3,
+      "section_names": [
+        "Cross",
+        "NT",
+        "Struct"
       ],
-      "domain_count": 3
+      "samples": [
+        "Coulomb_r_exp",
+        "Press_Schechter",
+        "exp_gravity"
+      ]
     },
     {
-      "formula": "N_c²/rank² = 9/4 = 2.25",
-      "name": "The Loss Ratio",
-      "appearances": [
-        "Kahneman-Tversky loss aversion 2.25 (empirical, cross-cultural)",
-        "QCD adjoint/fundamental Casimir ratio C_A/C_F",
-        "Wallach point squared (N_c/rank)²"
+      "value": 21,
+      "bst_reading": "N_c·g",
+      "entries": 8,
+      "sections": 3,
+      "section_names": [
+        "Gauge",
+        "NT",
+        "Struct"
       ],
-      "domain_count": 3
+      "samples": [
+        "dim_SO52",
+        "N_Z_channels",
+        "binom_7_2"
+      ]
     },
     {
-      "formula": "1/N_c = 1/3",
-      "name": "The Color Fraction",
-      "appearances": [
-        "Hamilton relatedness threshold",
-        "SU(3) fundamental index T_F = 1/rank but C_F = rank²/N_c",
-        "Koide 1-Q = 1/N_c"
+      "value": 137,
+      "bst_reading": "N_max",
+      "entries": 8,
+      "sections": 3,
+      "section_names": [
+        "Seeds",
+        "NT",
+        "Struct"
       ],
-      "domain_count": 3
+      "samples": [
+        "N_max",
+        "T_boil/T_CMB",
+        "137_Frobenius"
+      ]
     },
     {
-      "formula": "rank²/N_c = 4/3",
-      "name": "The Fundamental Casimir",
-      "appearances": [
-        "SU(3) C_F = 4/3",
-        "perfect fourth (music)",
-        "Thomson cross-section σ_T ∝ (rank²/N_c)² = (4/3)²"
+      "value": 18,
+      "bst_reading": "",
+      "entries": 7,
+      "sections": 3,
+      "section_names": [
+        "Cross",
+        "NT",
+        "Struct"
       ],
-      "domain_count": 3
+      "samples": [
+        "Frob_orbits",
+        "R_GF128",
+        "E_trop"
+      ]
     },
     {
-      "formula": "C₂/n_C = 6/5",
-      "name": "The Spin-Orbit Coupling",
-      "appearances": [
-        "nuclear spin-orbit κ_ls",
-        "shell structure magic numbers"
+      "value": -1,
+      "bst_reading": "",
+      "entries": 6,
+      "sections": 3,
+      "section_names": [
+        "Cross",
+        "NT",
+        "Struct"
       ],
-      "domain_count": 2
+      "samples": [
+        "Wien_inv",
+        "NFW_inner",
+        "exp_Wien"
+      ]
     },
     {
-      "formula": "g/rank = 7/2 = 3.5",
-      "name": "The Luminosity Law",
-      "appearances": [
-        "Mass-luminosity exponent L∝M^(g/rank)",
-        "Regge slope structure"
+      "value": -3,
+      "bst_reading": "",
+      "entries": 5,
+      "sections": 3,
+      "section_names": [
+        "NT",
+        "Bio",
+        "Struct"
       ],
-      "domain_count": 2
+      "samples": [
+        "Bondi_v_exp",
+        "NFW_outer",
+        "exp_dipole"
+      ]
+    },
+    {
+      "value": 19,
+      "bst_reading": "Q",
+      "entries": 4,
+      "sections": 3,
+      "section_names": [
+        "Seeds",
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "19",
+        "Q",
+        "|F_g|"
+      ]
+    },
+    {
+      "value": 42,
+      "bst_reading": "C₂·g",
+      "entries": 4,
+      "sections": 3,
+      "section_names": [
+        "Seeds",
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "P(1)",
+        "Catalan_n_C",
+        "C2_g"
+      ]
+    },
+    {
+      "value": 0.1667,
+      "bst_reading": "",
+      "entries": 3,
+      "sections": 3,
+      "section_names": [
+        "Nucl",
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "β_NS",
+        "Painleve_fraction",
+        "free_rider_frac"
+      ]
+    },
+    {
+      "value": 1.667,
+      "bst_reading": "",
+      "entries": 3,
+      "sections": 3,
+      "section_names": [
+        "Hadr",
+        "Cross",
+        "Struct"
+      ],
+      "samples": [
+        "T_deconf/f_π",
+        "γ_mono",
+        "K41"
+      ]
+    },
+    {
+      "value": 9,
+      "bst_reading": "N_c²",
+      "entries": 3,
+      "sections": 3,
+      "section_names": [
+        "Gauge",
+        "Anom",
+        "Struct"
+      ],
+      "samples": [
+        "C5_pred",
+        "N_decay",
+        "baseball_9"
+      ]
+    },
+    {
+      "value": 28,
+      "bst_reading": "rank²·g",
+      "entries": 3,
+      "sections": 3,
+      "section_names": [
+        "Nucl",
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "magic_28",
+        "perfect_28",
+        "triple_perfection"
+      ]
+    },
+    {
+      "value": 50,
+      "bst_reading": "rank·n_C²",
+      "entries": 3,
+      "sections": 3,
+      "section_names": [
+        "Nucl",
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "magic_50",
+        "HK_lambda_5",
+        "Dunbar_50"
+      ]
+    },
+    {
+      "value": 1.5,
+      "bst_reading": "N_c/rank",
+      "entries": 8,
+      "sections": 2,
+      "section_names": [
+        "Cosmo",
+        "Struct"
+      ],
+      "samples": [
+        "Jeans_T_exp",
+        "Kepler_exp",
+        "Brewster_tan"
+      ]
+    },
+    {
+      "value": -10,
+      "bst_reading": "",
+      "entries": 7,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "a₁₃₇",
+        "a₁₃₇_reading",
+        "HK_ratio_8"
+      ]
+    },
+    {
+      "value": 11,
+      "bst_reading": "2C₂-1",
+      "entries": 7,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "genus_X0_137",
+        "137_digits_sum",
+        "soccer_players"
+      ]
+    },
+    {
+      "value": -4,
+      "bst_reading": "",
+      "entries": 6,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "rayleigh_exp",
+        "exp_quadrupole",
+        "HK_ratio_4"
+      ]
+    },
+    {
+      "value": -12,
+      "bst_reading": "",
+      "entries": 4,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "exp_LJ_rep",
+        "HK_ratio_10",
+        "a_43"
+      ]
+    },
+    {
+      "value": -6,
+      "bst_reading": "",
+      "entries": 4,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "exp_vdW",
+        "a_37",
+        "a_73"
+      ]
+    },
+    {
+      "value": 16,
+      "bst_reading": "",
+      "entries": 4,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "hex_16",
+        "a_71",
+        "a_127"
+      ]
+    },
+    {
+      "value": 105,
+      "bst_reading": "N_c·n_C·g",
+      "entries": 4,
+      "sections": 2,
+      "section_names": [
+        "Cross",
+        "NT"
+      ],
+      "samples": [
+        "c₄(49a1)",
+        "ζ_product",
+        "Debye_Pb"
+      ]
+    },
+    {
+      "value": 120,
+      "bst_reading": "n_C!",
+      "entries": 4,
+      "sections": 2,
+      "section_names": [
+        "Cross",
+        "Struct"
+      ],
+      "samples": [
+        "120_deg_phase",
+        "fact_n_C",
+        "P_K5_nC"
+      ]
+    },
+    {
+      "value": 128,
+      "bst_reading": "2^g",
+      "entries": 4,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "ASCII_128",
+        "Pascal_row_g",
+        "GF128_elements"
+      ]
+    },
+    {
+      "value": -20,
+      "bst_reading": "",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "HK_ratio_14",
+        "a_107",
+        "a_163"
+      ]
+    },
+    {
+      "value": 0.191,
+      "bst_reading": "",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "f_c",
+        "brain_19%",
+        "self_knowledge"
+      ]
+    },
+    {
+      "value": 1.2,
+      "bst_reading": "C₂/n_C",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Coupl",
+        "Struct"
+      ],
+      "samples": [
+        "κ_ls",
+        "spin_orbit_ratio",
+        "spin_orbit_origin"
+      ]
+    },
+    {
+      "value": 1.333,
+      "bst_reading": "",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Hadr",
+        "Struct"
+      ],
+      "samples": [
+        "σ_G2/σ_SU3",
+        "γ_poly",
+        "fourth_ratio"
+      ]
+    },
+    {
+      "value": 2.828,
+      "bst_reading": "",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Hadr",
+        "Cross"
+      ],
+      "samples": [
+        "Tsirelson",
+        "m_B/m_D",
+        "CHSH"
+      ]
+    },
+    {
+      "value": 22,
+      "bst_reading": "",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "DNA_groove",
+        "a_149",
+        "HK_22_levels"
+      ]
+    },
+    {
+      "value": 23,
+      "bst_reading": "",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Cross",
+        "Bio"
+      ],
+      "samples": [
+        "chromosome_23",
+        "birthday_N",
+        "commons_collapse"
+      ]
+    },
+    {
+      "value": 45,
+      "bst_reading": "",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "sigma_term",
+        "B2_Weyl_chamber",
+        "Greenberg_universals"
+      ]
+    },
+    {
+      "value": 64,
+      "bst_reading": "",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "N_codons",
+        "chess_8x8",
+        "codon_GF2_C2"
+      ]
+    },
+    {
+      "value": 1920,
+      "bst_reading": "",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Seeds",
+        "Struct"
+      ],
+      "samples": [
+        "1920",
+        "|W(D₅)|",
+        "Veltman_cancel"
+      ]
+    },
+    {
+      "value": -24,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "HK_ratio_16",
+        "a_151"
+      ]
+    },
+    {
+      "value": -8,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "HK_ratio_6",
+        "a_23"
+      ]
+    },
+    {
+      "value": -7,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "Bergman_exp",
+        "49a1_CM_disc"
+      ]
+    },
+    {
+      "value": 0.0146,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "coop_gap",
+        "2alpha"
+      ]
+    },
+    {
+      "value": 0.2449,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Cosmo",
+        "Struct"
+      ],
+      "samples": [
+        "Yp_helium",
+        "Yp_exact_12_49"
+      ]
+    },
+    {
+      "value": 0.667,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Cross",
+        "Bio"
+      ],
+      "samples": [
+        "KPZ",
+        "supermajority"
+      ]
+    },
+    {
+      "value": 0.685,
+      "bst_reading": "N_max/(rank³·n_C²)",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Cosmo",
+        "Struct"
+      ],
+      "samples": [
+        "Omega_Lambda_frac",
+        "OmegaL_bridge_exact"
+      ]
+    },
+    {
+      "value": 1.009524,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Hadr",
+        "Struct"
+      ],
+      "samples": [
+        "m_omega_rho",
+        "m_omega_rho_exact"
+      ]
+    },
+    {
+      "value": 1.25,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Cross",
+        "Struct"
+      ],
+      "samples": [
+        "Debye_Al_Cu",
+        "Oort_ratio_old"
+      ]
+    },
+    {
+      "value": 1.285714,
+      "bst_reading": "N_c²/g",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Cosmo",
+        "Struct"
+      ],
+      "samples": [
+        "Oort_AB_ratio",
+        "adiabatic_tri"
+      ]
+    },
+    {
+      "value": 1.618,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "golden_phi",
+        "phi_BST"
+      ]
+    },
+    {
+      "value": 1.666667,
+      "bst_reading": "n_C/N_c",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Cross",
+        "Struct"
+      ],
+      "samples": [
+        "triple_bridge_53",
+        "adiabatic_mono"
+      ]
+    },
+    {
+      "value": 3.6,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Cosmo",
+        "Bio"
+      ],
+      "samples": [
+        "γ_GW",
+        "alpha_helix_residues"
+      ]
+    },
+    {
+      "value": 13,
+      "bst_reading": "2C₂+1",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "fib_7",
+        "HK_ratio_11"
+      ]
+    },
+    {
+      "value": 32,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Cross",
+        "Struct"
+      ],
+      "samples": [
+        "point_groups_32",
+        "IPv4_bits"
+      ]
+    },
+    {
+      "value": 126,
+      "bst_reading": "rank·N_c²·g",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Nucl",
+        "Struct"
+      ],
+      "samples": [
+        "magic_126",
+        "HK_lambda_9"
+      ]
+    },
+    {
+      "value": 136,
+      "bst_reading": "N_max-1",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Quark",
+        "NT"
+      ],
+      "samples": [
+        "m_t/m_c",
+        "Euler_phi_137"
+      ]
+    },
+    {
+      "value": 149,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "Dunbar_150",
+        "Dunbar_150_BST"
+      ]
+    },
+    {
+      "value": 150,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "HK_lambda_10",
+        "Dunbar_150_lattice"
+      ]
+    },
+    {
+      "value": 266,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "D_Pell",
+        "HK_lambda_14"
+      ]
+    },
+    {
+      "value": 456,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Seeds",
+        "Struct"
+      ],
+      "samples": [
+        "phi_457",
+        "HK_lambda_19"
+      ]
+    },
+    {
+      "value": 548,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Hadr",
+        "NT"
+      ],
+      "samples": [
+        "CM_norm_548",
+        "m_eta"
+      ]
+    },
+    {
+      "value": 1728,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Seeds",
+        "NT"
+      ],
+      "samples": [
+        "1728",
+        "j_sunrise_Nc"
+      ]
+    },
+    {
+      "value": 24,
+      "bst_reading": "",
+      "entries": 4,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "drag_sphere",
+        "SU5_dim",
+        "Bergman_k3"
+      ]
+    },
+    {
+      "value": 30,
+      "bst_reading": "n_C·C₂",
+      "entries": 4,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "ico_edges",
+        "Mach_cone",
+        "nC_C2"
+      ]
+    },
+    {
+      "value": 0.25,
+      "bst_reading": "",
+      "entries": 3,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "σ_Poisson",
+        "species_area",
+        "Poisson_ratio_rock"
+      ]
+    },
+    {
+      "value": 1.4,
+      "bst_reading": "",
+      "entries": 3,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "γ_di",
+        "adiabatic_di",
+        "bridge_pred_7_5"
+      ]
+    },
+    {
+      "value": 35,
+      "bst_reading": "n_C·g",
+      "entries": 3,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "nC_g",
+        "binom_7_3",
+        "rep_3form"
+      ]
+    },
+    {
+      "value": 180,
+      "bst_reading": "",
+      "entries": 3,
+      "sections": 1,
+      "section_names": [
+        "Cosmo"
+      ],
+      "samples": [
+        "t_BBN_product",
+        "t_BBN_exact",
+        "phase_BBN_exact"
+      ]
+    },
+    {
+      "value": 0.2,
+      "bst_reading": "1/n_C",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Bio"
+      ],
+      "samples": [
+        "learning_rate_bound",
+        "MPCR_threshold"
+      ]
+    },
+    {
+      "value": 0.3333,
+      "bst_reading": "1/N_c",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Bio"
+      ],
+      "samples": [
+        "Hamilton_r",
+        "punishment_thresh"
+      ]
+    },
+    {
+      "value": 0.8333,
+      "bst_reading": "n_C/C₂",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "Pareto_frac",
+        "linearizable_frac"
+      ]
+    },
+    {
+      "value": 1.732,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "v_P/v_S",
+        "seismic_Vp_Vs"
+      ]
+    },
+    {
+      "value": 84,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "HK_lambda_7",
+        "lambda_g_84"
+      ]
+    },
+    {
+      "value": 274,
+      "bst_reading": "rank·N_max",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "Tc_water_BST",
+        "274_product"
+      ]
+    },
+    {
+      "value": 500,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "m_f0_500",
+        "HK_lambda_20"
+      ]
+    },
+    {
+      "value": 1090,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Cosmo"
+      ],
+      "samples": [
+        "z_rec_exact",
+        "phase_recomb_exact"
+      ]
+    },
+    {
+      "value": 1729,
+      "bst_reading": "",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "NT"
+      ],
+      "samples": [
+        "Ramanujan_1729",
+        "taxicab_1729_BST"
+      ]
+    },
+    {
+      "value": 0.225,
+      "bst_reading": "9/40",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Mix"
+      ],
+      "samples": [
+        "sinθ_C"
+      ]
+    },
+    {
+      "value": 0.230769,
+      "bst_reading": "N_c/(2C₂+1)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Coupl"
+      ],
+      "samples": [
+        "sin2_W_exact"
+      ]
+    },
+    {
+      "value": 0.23077,
+      "bst_reading": "N_c/(2C₂+1)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Coupl"
+      ],
+      "samples": [
+        "sin²θ_W"
+      ]
+    },
+    {
+      "value": 0.6,
+      "bst_reading": "N_c/n_C",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "Flory_exp"
+      ]
+    },
+    {
+      "value": 0.666661,
+      "bst_reading": "rank/N_c",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Lept"
+      ],
+      "samples": [
+        "Koide_Q"
+      ]
+    },
+    {
+      "value": 0.666667,
+      "bst_reading": "rank/N_c",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "era_matter"
+      ]
+    },
+    {
+      "value": 0.6667,
+      "bst_reading": "rank/N_c",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "snell_critical"
+      ]
+    },
+    {
+      "value": 1.166667,
+      "bst_reading": "g/C₂",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Cross"
+      ],
+      "samples": [
+        "SAW_gamma"
+      ]
+    },
+    {
+      "value": 1.6667,
+      "bst_reading": "n_C/N_c",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Cross"
+      ],
+      "samples": [
+        "Gruneisen"
+      ]
+    },
+    {
+      "value": 2.25,
+      "bst_reading": "(N_c/rank)²",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Bio"
+      ],
+      "samples": [
+        "loss_aversion"
+      ]
+    },
+    {
+      "value": 3.5,
+      "bst_reading": "g/rank",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Cosmo"
+      ],
+      "samples": [
+        "mass_lum_exp"
+      ]
+    },
+    {
+      "value": 17,
+      "bst_reading": "N_c·C₂-1",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Seeds"
+      ],
+      "samples": [
+        "17_dressed"
+      ]
+    },
+    {
+      "value": 48,
+      "bst_reading": "rank⁴·N_c",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "lattice_48"
+      ]
+    },
+    {
+      "value": 56,
+      "bst_reading": "rank³·g",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Nucl"
+      ],
+      "samples": [
+        "BE_peak_A"
+      ]
+    },
+    {
+      "value": 127,
+      "bst_reading": "M_g",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "NT"
+      ],
+      "samples": [
+        "M_g"
+      ]
+    },
+    {
+      "value": 411,
+      "bst_reading": "N_c·N_max",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "411_product"
+      ]
     }
   ]
 }

@@ -42,7 +42,7 @@ This single equation connects the number of color charges (N_c = 3) to the spect
 3. The Mersenne prime condition (7 is a Mersenne prime)
 4. The viability condition for quark confinement (T953)
 
-The paper is organized as follows. Section 2 identifies the Hamming(7,4,3) parameters with BST integers. Section 3 describes the Fano plane structure. Section 4 reinterprets the four forces as information operations. Section 5 identifies the neutrino as the error syndrome. Section 6 establishes the code hierarchy from Hamming to Golay. Section 7 defines three physical error regimes. Section 8 shows the code spanning scales from quarks to codons. Section 9 proves the spectral gap IS the minimum distance. Section 10 maps where codes dominate and where they are silent. Section 11 collects predictions. Section 12 addresses honest gaps.
+The paper is organized as follows. Section 2 identifies the Hamming(7,4,3) parameters with BST integers and derives C_2 = rank * N_c from B_2. Section 3 describes the Fano plane structure. Section 4 reinterprets the four forces as information operations. Section 5 identifies the neutrino as the error syndrome. Section 6 establishes the eight-level code hierarchy from parity to spectral peeling, including BCH(63,36,11). Section 7 defines three physical error regimes. Section 8 shows the code spanning scales from quarks to codons, with a careful binary/quaternary distinction. Section 9 proves the spectral gap IS the minimum distance. Section 10 maps where codes dominate and where they are silent. Section 11 collects predictions including the adiabatic chain. Section 12 addresses honest gaps.
 
 ---
 
@@ -541,5 +541,5 @@ This work builds on T1171 (Hamming Code Theorem), T1238 (Error Correction Perfec
 
 ---
 
-*Paper #87 v0.2 — Draft, April 27, 2026. 13 sections + §12.2-12.3 (syndrome decoding + Koide-Hamming). Error correction IS the physics.*
+*Paper #87 v0.2 — Draft, April 27, 2026. K-6 fixes: §2.3 C₂ derivation from B₂, §4.2 honest ζ(3)≈C₂/n_C flag, §6.2 level→t notation, §6.5 eight-level hierarchy with BCH(63,36,11), §8.2 binary vs quaternary distinction, §11.3 adiabatic chain prediction. Plus §12.2-12.3 (syndrome + Koide-Hamming).*
 *Casey Koons, Lyra, Elie, Grace, Keeper (Claude 4.6)*

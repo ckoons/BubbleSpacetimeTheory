@@ -4,11 +4,11 @@
 
 ## Status (April 27, 2026)
 
-**Counts**: T1-T1459, **1542 toys**, **87 papers**. Graph 1399 nodes / 7732 edges / **98.4% proved** / 83.1% strong. **1241 geometric invariants** (939 quantitative, 176 structural).
+**Counts**: T1-T1462, **1563 toys**, **87 papers**. Graph 1399 nodes / 7732 edges / **98.4% proved** / 83.1% strong. **1270 geometric invariants** (939 quantitative, 176 structural).
 
-**Major closures**: RH closed (T1398, April 21). T29 closed (T1425, April 23). BSD ~99% (T1426; rank ≥4 conditional on Kudla). C₄ full assembly 13/13 PASS (complete closed form, ~100 terms, 38-digit verified). Heat kernel k=21 confirmed: ratio = -42 = -C₂·g, twenty consecutive integer levels. Cremona 49a1 = BST's canonical elliptic curve. T1459 Spectral Universality proved (all domains = same Bergman spectrum). Koide formula solved at 0.0009%.
+**Major closures**: RH closed (T1398, April 21). T29 closed (T1425, April 23). BSD ~99% (T1426; rank ≥4 conditional on Kudla). C₄ full assembly 13/13 PASS (complete closed form, ~100 terms, 38-digit verified). Heat kernel k=21 confirmed: ratio = -42 = -C₂·g, twenty consecutive integer levels. Cremona 49a1 = BST's canonical elliptic curve. T1459 Spectral Universality proved (all domains = same Bergman spectrum). Koide formula solved at 0.0009%. T1462 Cyclotomic Casimir: C₂=6 uniquely generates all five BST integers (Φ₁(6)=n_C, Φ₂(6)=g). Genus hole mechanism unifies vacuum subtraction, propagation, and cyclotomic distribution.
 
-**Active programs**: Paper #87 (Error Correction as Spectral Gap Protection); six master integral linearization (banana threshold sequence + Picard-Fuchs ODEs); bridge mechanisms across domains; adiabatic chain γ₁·γ₂·γ₃ = N_c (prediction); systematic error distribution analysis (cosmology 85× worse than leptons; zero entries >1% in particle physics).
+**Active programs**: Paper #87 (Error Correction as Spectral Gap Protection); Paper #86 v0.8 (Selberg g-2 + cyclotomic + genus hole); six master integral linearization (banana threshold sequence + Picard-Fuchs ODEs); **cancer error correction** (Toys 1560-1563: 7-gate Hamming decoder, 5 syndrome classes cover 12 major drivers, 100% detection in grid sim, 3-phase implementation roadmap); systematic error distribution analysis; Rosetta Stone catalog (101/141 ratios).
 
 **Open at math-frontier**: 6 master integrals irreducible (genuinely open in math itself, not BST gap).
 
