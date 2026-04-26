@@ -304,7 +304,7 @@ Unconditional Clay resolution requires all ranks unconditionally. Anything less 
 - Existing publications with >2% precision claims should be reread with this filter and possibly downgraded.
 - Coincidence-filter result itself deserves a short methodological note in Paper #83's introduction, so external readers see the team has self-audited against the random-rationals null model.
 
-**Status:** STANDING RULE — applies to all BST claims going forward. Explicitly documented in Referee Methodology v0.2.
+**Status:** CLOSED IN AGGREGATE (April 27, Toy 1543). Z=2.9 vs random 5-tuples, Z=4.63 vs random primes, p<0.0005. 27 BST matches at <1% = 3σ above null. Aggregate concern resolved. Standing rule on precision tags still applies. **FOLLOW-UP OPEN**: precision-weighted null model with PDG-uncertainty weights (Cal recommendation — weight by measurement precision, not "importance," to avoid circular bias). Pre-register weighting before running.
 
 ### #28 — Referee Methodology v0.2 posted
 

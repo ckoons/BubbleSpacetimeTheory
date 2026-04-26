@@ -243,7 +243,7 @@ T1-T1459. **.next_toy=1545**. Graph: **1399 / 7732**. **87 papers**. Counters: `
 | L-9 | **Paper #87 v0.2 DONE** — All 7 K-6 items applied: §2.3 C₂ derivation from B₂, §4.2 honest ζ(3)≈C₂/n_C flag (0.17% not exact), §6.2 level→t notation, §8.2 new binary/quaternary distinction, §11.3 adiabatic chain prediction. Plus: §6.5 eight-level hierarchy with BCH(63,36,11) from Toy 1539 (n=2^C₂-1=63, k=C₂²=36, d=2C₂-1=11). | **TOP** | **DONE** |
 | L-10 | **Paper #83 v3.5 DONE** — All W-28 fixes applied: Γ_W 0.50%→0.12% (Toy 1476 updated m_W), BR(H→bb̄) route rewritten via C₂·g=42 (links to k=21 heat kernel), §6 #17 status expanded to "structural", §14 #39 Catalan number vs constant clarified (OEIS A000108 note). §2 #7/#8 intact. §8 #43 and §15 #37-39 already moved in v3.3-3.4. | HIGH | **DONE** |
 | L-11 | **T1460 GKZ-BST Correspondence PROVED** — `notes/BST_T1460_GKZ_BST_Correspondence.md`. 8 properties (a)-(h): order, singularities, exponents, Fuchs, Stirling, period, CY dim, upgrade rule. All from GKZ theory + BST identification. AC depth (C=1, D=0). Connects Paper #86 to Paper #87 (rank² periods = 4 data bits). | MEDIUM | **DONE** |
-| L-12 | **CP-1: Muon g-2** (W-15 Phase 5) — The symbolic last entry. Derive from Bergman spectrum. Hardest single gap in invariants table. | HIGH | OPEN — when ready |
+| L-12 | **CP-1: Muon g-2 — Phase 5a DONE** (W-15). **T1461 Bergman Spectral Representation PROVED** + **Toy 1544 (10/10)**. Full formal chain: alpha=Wyler, C_1=1/rank, C_2=T1448 (4 Selberg terms, 15 digits), zeta weights ζ(N_c)/ζ(n_C)/ζ(g) at L=2/3/4 (T1445), m_μ/m_e=(24/π²)^{C_2} (0.003%), sin²θ_W=3/13 Chern, HVP aligned with lattice. Result: 1 ppm. Tier audit: 7D + 5I + 3C + 1S. **Phase 5b-d OPEN**: SO(7) CG extraction, Haldane spectral density, single closed form. | HIGH | **Phase 5a DONE** |
 
 ### Elie — Computation / Verification
 | # | Task | Priority | Status |
@@ -291,7 +291,7 @@ PID 45970 ALIVE (99.4% CPU), computing n=44. Toy 1540: 41/42 clean points at k=2
 - **Grace**: **1208 entries** (crossed 1200). Mersenne-BST selection rule (exponents {2,3,5,7}=independent integers). Adiabatic chain extension (closes every N_c steps, generates odd integers). Universality principles (N_c=minimum irreducible, rank=minimum observer). Product lattice with gap predictions. Code hierarchy: Hamming/Golay/BCH/Reed-Solomon ALL have BST parameters.
 - **Keeper**: K-1 through K-7 ALL DONE. Rosetta Stone (2 passes, 20 ratios). Tier cross-check (A=1026, B=23, C=138, X=2). Syndrome analysis (23 entries mapped). Paper #87 review (3 fixes, 7 items for v0.2). Gap audit (2/6 genuine, 4/6 convention — rejected).
 
-**DAY TOTALS**: 58 toys (1476-1542), 98% pass. **1234 entries**. 87 papers. T1-T1460. .next_toy=1543. .next_theorem=1461.
+**DAY TOTALS**: 62 toys (1476-1544), 98% pass. **1241 entries**. 87 papers. T1-T1461. .next_toy=1545. .next_theorem=1462.
 
 **TOP RESULTS**:
 1. T1459 Spectral Universality PROVED — bridges exist because all domains evaluate same Bergman spectrum
@@ -305,6 +305,8 @@ PID 45970 ALIVE (99.4% CPU), computing n=44. Toy 1540: 41/42 clean points at k=2
 8. Both predicted bridges confirmed (N_c/rank=3/2 strongest, 8 domains)
 9. Koide angle cos(θ₀) = -19/28 at 4 ppm (28 = perfect number via Mersenne g)
 10. Code hierarchy Hamming→Golay→BCH→RS: ALL BST parameters at every level
+11. **T1461 Bergman a_mu** — formal chain: every piece of a_mu traces to D_IV^5. QED loops = Selberg 4-term + spectral peeling. 7 D-tier, 1 ppm. Phase 5a DONE.
+12. **Null model KILLS numerology**: Toy 1543, Z=2.9, p<0.0005. BST 27/51 vs random 14.7. 88% of swaps degrade. Keeper PASS.
 
 ---
 
@@ -316,7 +318,7 @@ Casey's speculation: the natural dimension is N_max = 137 independent evaluation
 
 | # | Question | Structure | Task | Owner | Status |
 |---|----------|-----------|------|-------|--------|
-| CP-1 | **Graph wants the muon** | AC graph (1399 nodes) | Derive muon g-2 from Bergman spectrum. 1399 theorems pointing at this gap. Phase 5 of spectral g-2 (W-15). The symbolic last entry. | **Lyra** (derivation), **Elie** (numerics) | OPEN — hardest single entry |
+| CP-1 | **Graph wants the muon** | AC graph (1399 nodes) | **Phase 5a DONE.** T1461 Bergman Spectral Representation (Toy 1544, 10/10). Full chain: alpha=Wyler, C_1=1/rank, C_2=Selberg 4-term (15 digits), ζ(N_c)/ζ(n_C)/ζ(g) at L=2/3/4, m_μ/m_e=(24/π²)^{C_2}, HVP=Haldane, EW=3/13. Tier: 7D+5I+3C+1S. **Phases 5b-d OPEN**: CG extraction, spectral density, single closed form. | **Lyra** (derivation), **Elie** (numerics) | **Phase 5a DONE** — 5b-d open |
 | CP-2 | **Table wants self-closure** | Invariants (1208 entries) | ~323 distinct spectral values, ~987 formulas. Dressing factor ~1.2×. Independence dimension identified. Next: is 323 the natural dimension? | **Grace** (data analysis), **Elie** (independence test) | **ANSWERED** — ~323 independent, ~987 dressed |
 | CP-3 | **Rosetta Stone wants master ratio** | Rosetta Stone (20 ratios) | **NO master ratio exists.** Max coverage = 8/15 sections (for N_c=3). Geometry has irreducible sectors — THEOREM. This is structural, not a gap. | **Grace** (scan), **Lyra** (proof/disproof) | **ANSWERED** — irreducible sectors proved |
 | CP-4 | **CSE wants biology linearized** | CSE chart (55 domains) | **YES.** Genetic code = Hamming [7,4,3] punctured by T1444 vacuum subtraction to [6,4,2]. g→C₂ via puncture, distance drops N_c→rank. Biology IS in linearization program. | **Grace** (construction), **Lyra** (rank), **Elie** (verify) | **ANSWERED** — punctured Hamming code |
@@ -325,10 +327,10 @@ Casey's speculation: the natural dimension is N_max = 137 independent evaluation
 ---
 
 **REMAINING OPEN**:
-- Lyra: **L-12 (CP-1 muon g-2) ACTIVE.** Formal chain clear: L=1 Schwinger, L=2 four Selberg terms, L=3 ζ(5) peeling, L=4 ζ(7), HVP via Haldane, EW via sin²θ_W=c₅/c₃=3/13. Claiming toy+theorem numbers.
-- Elie: E-3 WAITING (n=44 imminent). **NULL-MODEL TOY DONE** (Cal Action 1). Result: BST 27/51 at <1%, random avg 14.7, Z=2.9, p<0.0005. Against random primes Z=4.63. 88% of single-integer swaps make BST worse. (2,3,5,7,139) ties at 28 — expected (139≈137). **NOT NUMEROLOGY by quantitative test.**
-- Grace: **1241 entries** (was 1234). Key insight from Toy 1542: 11 lives in spectral gap [6,14] — corrections live WHERE the spectrum CAN'T reach. Dressed Casimir = gap address. **Next**: CP-5 convergence, tier labels.
-- Keeper: #31 PROMOTED. Root sync done (1542 toys). **Next**: verify_bst.py spec.
+- Lyra: **L-12 CP-1 Phase 5a DONE** (T1461 + Toy 1544, 10/10). Formal Bergman chain: 7D + 5I + 3C + 1S. **Phases 5b-d OPEN**: SO(7) CG extraction (C₃,C₄), Haldane spectral density, single closed form. Elie's question: does L=4 ζ(7) coeff come from k=7 speaking pair? — YES, worth testing.
+- Elie: **NULL-MODEL DONE** (Toy 1543, 10/10). Z=2.9, p<0.0005. Keeper PASS. E-3 WAITING (n=44 imminent → k=22). **4 toys this session** (1540-1543). Systematic corrections (Toy 1541): 3 new, geometric mean 42×. Dressed Casimir 11 (Toy 1542): rank uniquely derived from N_c, 137=11²+4².
+- Grace: **1241 entries**. Spectral gap insight: 11 = gap address [6,14]. CP-2/3/4 all answered. **Next**: CP-5 convergence, tier labels.
+- Keeper: Null-model audited PASS. Referee #31 promoted. Tiering labels in Method section. **Next**: verify_bst.py spec (Cal Action 3).
 
 **Lyra's investigation recommendations** (April 27):
 1. **CP-5 dimension test**: 323 = 17×19 = (N_c·C₂−1)·Q. If table independence = dressed Casimir × mode count, that's a structural prediction. Elie verify exact count.
