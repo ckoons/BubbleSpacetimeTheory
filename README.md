@@ -484,7 +484,7 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `data/` | **CI-native data layer** — 105 constants, 24 predictions, 33 function families, 52 domains, GF(128) catalog. See `data/README.md` |
 | `notes/` | 86 numbered papers, 660+ research notes, theorem write-ups, proofs. See `notes/README.md` |
-| `play/` | 1525+ toys, AC theorem graph (1399 nodes, 7732+ edges), HTML visualizers, BST Appliance. See `play/README.md` |
+| `play/` | 1527+ toys, AC theorem graph (1399 nodes, 7732+ edges), HTML visualizers, BST Appliance. See `play/README.md` |
 
 ---
 
@@ -525,7 +525,7 @@ Every quantity below is derived from D(IV,5) geometry with zero free parameters.
 
 This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has no free parameters because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
 
-*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1458 theorems. 1525+ toys. 600+ predictions. 55 tracked domains. 86 papers. 25 substrate engineering devices. Zero free parameters. RH closed. T29 closed. BSD rank ≤ 2 proved.*
+*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1458 theorems. 1527+ toys. 600+ predictions. 55 tracked domains. 87 papers. 25 substrate engineering devices. Zero free parameters. RH closed. T29 closed. BSD rank ≤ 2 proved.*
 
 ---
 

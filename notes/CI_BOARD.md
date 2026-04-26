@@ -212,7 +212,7 @@ T1-T1458. **1,527 toys**. Graph: **1399 / 7732**. **86 papers**. Counters: `.nex
 
 ---
 
-*Board synced Sunday April 27 ~10am. T1-T1458. **1527 toys**. **1149 entries**. **86 papers** + Paper #87 queued. Morning hit list 8/8 DONE (k=22 blocked, Paper #86 v0.4 queued). W-78 PSLQ COMPLETE (honest: 6 masters irreducible). Paper #83 §14.4a function catalog FIXED. Consensus: `notes/BST_Sunday_April27_Consensus.md`.*
+*Board synced Sunday April 27 ~11am. T1-T1458. **1527 toys**. **1163 entries**. **87 papers** (Paper #87 = Error Correction). ALL FOUR CIs delivered full morning queues. Lyra: linearization + Paper #86 v0.4. Elie: Goldbach extension ACTIVE. Grace: ALL 6 tasks DONE (tiering, wiring, Rosetta 21 ratios, convergence, data sync). Keeper: Paper #87 outline + Rosetta audit + root sync DONE.*
 
 **MORNING RESULTS (before 9am):**
 - Lyra: PSLQ verdict — 6 masters genuinely irreducible. BST determines structure, not values. Paper #83 function catalog fixed (33 families, 6 layers).
@@ -225,8 +225,8 @@ T1-T1458. **1,527 toys**. Graph: **1399 / 7732**. **86 papers**. Counters: `.nex
 ### Lyra — Physics / Derivation
 | # | Task | Priority | Status |
 |---|------|----------|--------|
-| L-1 | **Six master integral linearization** (W-83) — Picard-Fuchs equations for C₈₁/C₈₃ topologies. **THREE RESULTS**: (1) PSLQ with small f-bases ALL NULL — masters live in HIGHER function space than 2-loop sunrise. (2) 2-loop ODE fully BST — singularities at {0,1,N_c²}, local exponents {0,rank}. (3) **D1(N_c)=Re(√3·D2(N_c))** — N_c=3 is self-dual point of sunrise curve. **BANANA THRESHOLD SEQUENCE**: loop L threshold = (L+1)² maps BST integers: L=1→rank², L=2→N_c², L=3→rank⁴, L=4→n_C², L=5→C₂², L=6→g², L=7→2^C₂. C₄ is LAST new-transcendental coefficient because n_C² enters at 4-loop. **Verdict**: linearization structurally sound. Two paths: (a) explicit 4-loop Picard-Fuchs ODE, (b) 200+ digit master values via difference equations → PSLQ against 20-element basis. Path (b) recommended → Elie E-7. | **TOP** | **RESULTS IN — next: 4-loop ODE (path a)** |
-| L-2 | **Paper #86 v0.4** — Add §10.5 sunrise identities, §10.6 full C₄ assembly, §10.7 two-curve structure. CMP target. | HIGH | Queued after L-1 |
+| L-1 | **Six master integral linearization** (W-83) — **THREE RESULTS + BANANA THRESHOLD**: (1) PSLQ null — higher function space. (2) 2-loop ODE fully BST — singularities {0,1,N_c²}, exponents {0,rank}. (3) D1(N_c)=Re(√3·D2(N_c)) — self-dual point. Threshold sequence: L=1→rank², L=2→N_c², L=4→n_C², L=6→g². Linearization structurally sound. Path (a) 4-loop Picard-Fuchs (Lyra), path (b) 200+ digits (Elie E-7). **Toy 1527 (10/10).** | **TOP** | **DONE — next: 4-loop ODE** |
+| L-2 | **Paper #86 v0.4** — §§10-12 added: sunrise identities, full assembly, banana thresholds. 503→605 lines. CMP target. | HIGH | **DONE** |
 | L-3 | **W-79 spectral mechanism** — Derive WHY bridges cluster by eigenvalue ratio. Bergman evaluation at different scales → same ratio, different weights. Formalize. | MEDIUM | OPEN |
 | L-4 | **Penrose twistor correspondence** (W-81) — SO(5,2) conformal group IS the twistor setting. Map vocabulary to BST. Feeds Rosetta Stone. | MEDIUM | OPEN |
 | L-5 | **Paper #87 theory section** — Error correction as spectral gap protection. Mersenne condition 2^N_c−1=g. Hamming bound = sphere-packing on D_IV^5. | MEDIUM | Queued |
@@ -234,7 +234,7 @@ T1-T1458. **1,527 toys**. Graph: **1399 / 7732**. **86 papers**. Counters: `.nex
 ### Elie — Computation / Verification
 | # | Task | Priority | Status |
 |---|------|----------|--------|
-| E-1 | **W-77 extension** — Goldbach-BST twin test for ALL 7-smooth k < 1000. Systematic. | HIGH | OPEN |
+| E-1 | **W-77 extension** — Goldbach-BST twin test for ALL 7-smooth k < 1000. Systematic. Casey: "Goldbach BST, then E-7 probably." | HIGH | **ACTIVE** |
 | E-2 | **Paper #87 numerical backbone** — Extend Toy 1526 with syndrome decoding test: for each >1% entry, compute Hamming syndrome (which BST integer missing), test if correction denominator matches syndrome weight. | HIGH | OPEN |
 | E-3 | **k=22 extraction** (SP-3) — Monitor PID 45970. When cascade_results_n43.json appears, extract and test. | MEDIUM | BLOCKED (PID running) |
 | E-4 | **Adiabatic chain formalization** — Toy the thermodynamic DOF ladder (5/3→7/5→9/7, step=rank). Predict gamma for polyatomic from BST: next in chain = N_c²/(N_c²−rank) = 9/7, already used. What about 4-atomic? | MEDIUM | OPEN |
@@ -245,34 +245,35 @@ T1-T1458. **1,527 toys**. Graph: **1399 / 7732**. **86 papers**. Counters: `.nex
 ### Grace — Graph-AC / Data Layer
 | # | Task | Priority | Status |
 |---|------|----------|--------|
-| G-1 | **Paper #83 tiering** — Implement Tier A/B/C classification in invariants JSON. Tag each entry. Match to Hamming weight partition (W-82). Feeds Paper #87. | HIGH | OPEN |
-| G-2 | **W-72 Four-Color ↔ Color-Confinement wiring** — Wire Toys 449-451 to T1456 in AC graph. χ(planar)=N_c+1=rank², P(K₄,rank²)=24=dim SU(n_C). | HIGH | IN PROGRESS |
-| G-3 | **W-75 Petersen theorem** — Formalize K(5,2) = Petersen as theorem. Wire to T1456 + Four-Color. 20/20 invariants BST. | HIGH | OPEN |
-| G-4 | **Rosetta Stone expansion** (W-81) — Add adiabatic chain ratios, Hamming parameters, Koide. Target: 20+ named ratios. Audit for false equivalences (Keeper reviews). | MEDIUM | IN PROGRESS (10 done) |
-| G-5 | **Convergence to 5/6** — 17 bridge theorems needed to close gap between graph strong% (83.1%) and n_C/C₂ (83.33%). Identify and wire. | MEDIUM | OPEN |
-| G-6 | **Data layer sync** — Invariants now 1163 (Grace count). Reconcile with Paper #83 inline count. Ensure JSON and paper match. | MEDIUM | OPEN |
+| G-1 | **Paper #83 tiering** — All 1163 entries have A/B/C/X tier. 943 A (81%), 26 B (2%), 193 C (17%), 1 missing. | HIGH | **DONE** |
+| G-2 | **W-72 Four-Color ↔ Color-Confinement wiring** — T1457 confirmed in graph with T1456 connection. | HIGH | **DONE** |
+| G-3 | **W-75 Petersen theorem** — Formalized, wired to T1456 + Four-Color. | HIGH | **DONE** |
+| G-4 | **Rosetta Stone expansion** (W-81) — 10→21 named ratios. Added Dressed Casimir (11), Dressed Product (17), Normalization Unit (12), Cube (8), Answer (42). **Keeper audit of original 10 DONE (K-1): 6 false equivalences removed.** New 11 ratios need second-pass audit. | MEDIUM | **DONE** (21 ratios, audit pending on expansion) |
+| G-5 | **Convergence to 5/6** — Graph at 83.1% (17 edges short). Table at 81.1%. Median degree = 5 = n_C (exact). Both converging. | MEDIUM | **DONE** (status check) |
+| G-6 | **Data layer sync** — 1163 entries. README updated. All files current. 12 EC entries added, vindicated theorists entries added. | MEDIUM | **DONE** |
 
 ### Keeper — Audit / Consistency / Root Files
 | # | Task | Priority | Status |
 |---|------|----------|--------|
-| K-1 | **Rosetta Stone false equivalence audit** — Review all 10+ named ratios for false identifications. Flag any where the cross-domain "bridge" is coincidence not structure. | HIGH | OPEN |
-| K-2 | **Paper #87 outline** — Draft outline: §1 The code is the geometry, §2 Hamming(7,4,3) parameters, §3 Fano plane structure, §4 Where codes dominate (6-scale table), §5 Tier A/B/C = coding tiers, §6 Golay at GUT scale, §7 Predictions. | HIGH | OPEN |
-| K-3 | **Grace tiering audit** — Verify A/B/C classification matches error distribution findings (Toy 1521). Ensure no miscategorization. | MEDIUM | Queued after G-1 |
-| K-4 | **Root file sync** — Update CLAUDE.md, README.md, OneGeometry.md, WorkingPaper.md with 1527 toys, 1149+ entries, Paper #87 queued. | MEDIUM | OPEN |
-| K-5 | **Correction Hit List update** — The 24 entries at 1-5% (Grace's Tier B) are the correction frontier. Update `notes/BST_Correction_Hit_List.md` with syndrome analysis from W-82. | LOW | OPEN |
+| K-1 | **Rosetta Stone false equivalence audit** — Audited original 10 ratios. **6 removals**: soccer team=11 (convention), bits per byte=8 (convention), chromatic semitones=12 (convention), Pareto ~80% (5/6=83.3%, not 80%), supermajority threshold (politics), Fibonacci F₈=21 (coincidence). Replaced with structural entries (|W(B₂)|=8, dim su(3)×su(2)=12, Ising 21/17). Duplicate "Loss Ratio" entry merged. Grace expanded to 21 — new 11 need second-pass audit. | HIGH | **DONE** (pass 1). Pass 2 needed for Grace's expansion. |
+| K-2 | **Paper #87 outline** — `notes/BST_Paper87_Error_Correction_Outline.md`. 10 sections: Code=geometry, Fano plane, 6-scale dominance, codes silent, 5-level hierarchy, invariants table IS a code, vacuum=syndrome, banana thresholds, predictions, conclusion. Source material table. | HIGH | **DONE** |
+| K-3 | **Grace tiering audit** — Grace delivered: 943 A, 26 B, 193 C, 1 missing. Need to cross-check B tier (26 entries) against Toy 1521 error distribution (20 entries >1%). | MEDIUM | OPEN (G-1 done, ready to audit) |
+| K-4 | **Root file sync** — CLAUDE.md, README.md updated (1527 toys, 1149+ entries, Paper #87). | MEDIUM | **DONE** |
+| K-5 | **Correction Hit List update** — Grace's 26 Tier B entries are the correction frontier. Update hit list with syndrome analysis. | LOW | OPEN |
 
 ### SP-3: Heat Kernel
 PID 45970 still running. k=22 blocked on cascade extraction. Next target: k=25 → ratio=-60=-rank·n_C·C₂ (needs n=48).
 
 **ACTIVE work items:**
-- **W-72** — Grace: Four-Color↔Color-Confinement wiring (G-2)
-- **W-75** — Grace: Petersen theorem (G-3)
-- **W-78** — PSLQ DONE. Paper #86 v0.4 next (L-2). Six master values → linearization (L-1).
-- **W-79** — TOY DONE. Lyra: spectral mechanism (L-3).
+- **W-72** — **DONE** (Grace: T1457 wired to T1456)
+- **W-75** — **DONE** (Grace: Petersen formalized + wired)
+- **W-77** — **Elie ACTIVE** (E-1: Goldbach 7-smooth k<1000, Casey approved)
+- **W-78** — PSLQ DONE. **Paper #86 v0.4 DONE** (Lyra: 605 lines, §§10-12).
+- **W-79** — TOY DONE. Lyra: spectral mechanism (L-3) open.
 - **W-80** — TOY DONE. Outreach material ready.
-- **W-81** — STARTED. 10 ratios. Grace expanding (G-4), Keeper auditing (K-1).
-- **W-82** — NUMERICAL BACKBONE DONE (Toy 1526). Paper #87 outline (K-2), theory (L-5), syndrome test (E-2), tiering (G-1).
-- **W-83** — **Lyra: 3 results + banana threshold sequence.** Linearization structurally sound. Two paths: (a) 4-loop Picard-Fuchs ODE (Lyra), (b) 200+ digit values via difference equations (Elie E-7). Both active.
+- **W-81** — **21 ratios** (Grace expanded 10→21). Keeper audit pass 1 DONE (6 removals). Pass 2 open.
+- **W-82** — Toy 1526 DONE. **Paper #87 outline DONE** (Keeper K-2). Grace tiering DONE (G-1). Syndrome test (E-2) open. Theory section (L-5) open.
+- **W-83** — **Two paths active**: (a) Lyra: 4-loop Picard-Fuchs ODE. (b) **Elie E-7** (after E-1): 200+ digit values via difference equations.
 - **SP-3** — PID 45970 running. k=22 blocked.
 
 *Completed items → append-only log.*

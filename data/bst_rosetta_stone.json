@@ -17,18 +17,6 @@
       "domain_count": 6
     },
     {
-      "formula": "rank/N_c = 2/3",
-      "name": "The Democratic Deficit",
-      "appearances": [
-        "Koide lepton formula",
-        "neutron moment ratio (bare)",
-        "matter era a∝t^(2/3)",
-        "supermajority threshold",
-        "Kauzmann glass Tg/Tm"
-      ],
-      "domain_count": 5
-    },
-    {
       "formula": "N_c/rank = 3/2",
       "name": "The Wallach Point",
       "appearances": [
@@ -40,6 +28,18 @@
         "Bondi accretion"
       ],
       "domain_count": 6
+    },
+    {
+      "formula": "rank/N_c = 2/3",
+      "name": "The Democratic Deficit",
+      "appearances": [
+        "Koide lepton formula Q=2/3 (0.0009%)",
+        "neutron moment ratio μ_n/μ_p (bare)",
+        "matter era scale factor a∝t^(2/3)",
+        "Kauzmann glass Tg/Tm ≈ 2/3"
+      ],
+      "keeper_note": "Removed 'supermajority threshold' (political convention). Kauzmann 2/3 is empirical but widely observed across glass-formers — structural reading, not derivation.",
+      "domain_count": 5
     },
     {
       "formula": "n_C/N_c = 5/3",
@@ -54,6 +54,44 @@
       "domain_count": 5
     },
     {
+      "formula": "rank·C₂ = 12",
+      "name": "The Normalization Unit",
+      "appearances": [
+        "SM gauge bosons (γ, W±, Z, 8g)",
+        "SM fermion flavors (6q + 6l)",
+        "QED denominator base 12^L (T1445)",
+        "FCC coordination number",
+        "dim su(rank+1) × dim su(rank) = 3×4"
+      ],
+      "keeper_note": "Removed 'chromatic semitones' (tuning convention). 12=rank·C₂ is structural. Music: just intonation ratios (3/2, 4/3) are BST, 12-TET is cultural.",
+      "domain_count": 5
+    },
+    {
+      "formula": "rank³ = 8",
+      "name": "The Cube",
+      "appearances": [
+        "gluon count N_c²-1",
+        "octet rule (chemistry)",
+        "Weyl group |W(B₂)| = 2^N_c",
+        "rank³ = spacetime cube",
+        "FCC coordination/BCC coord"
+      ],
+      "keeper_note": "Removed 'bits per byte' (engineering convention). Replaced with |W(B₂)|=8 (structural).",
+      "domain_count": 5
+    },
+    {
+      "formula": "2C₂-1 = 11",
+      "name": "The Dressed Casimir (spectral gap)",
+      "appearances": [
+        "N_max-λ₉ spectral desert",
+        "Wolfenstein A=9/11",
+        "PMNS 44=4×11",
+        "neutron moment 411-400=11"
+      ],
+      "keeper_note": "Removed 'soccer team=11' (human convention, not physics). 11=2C₂-1 is structural.",
+      "domain_count": 4
+    },
+    {
       "formula": "g/C₂ = 7/6",
       "name": "The Bridge Ratio",
       "appearances": [
@@ -61,6 +99,62 @@
         "SAW γ exponent",
         "Ising γ bare",
         "Chandrasekhar 35/6 = n_C×(g/C₂)"
+      ],
+      "domain_count": 4
+    },
+    {
+      "formula": "n_C/C₂ = 5/6",
+      "name": "The Linearizable Fraction",
+      "appearances": [
+        "AC(0) depth-0 fraction",
+        "graph strong edge convergence target",
+        "table quantitative fraction convergence"
+      ],
+      "keeper_note": "Removed 'Pareto ~80%' (5/6=83.3%, not 80%; Pareto is empirical heuristic, not derived) and 'information sharing rate' (vague). Core appearances are AC(0) and graph self-description.",
+      "domain_count": 3
+    },
+    {
+      "formula": "N_c·g = 21",
+      "name": "The Dimension",
+      "appearances": [
+        "dim so(g) = dim SO(7) adjoint",
+        "Z boson decay channels",
+        "C(g,rank) = C(7,2)",
+        "Ising 21/17 numerator = N_c·g"
+      ],
+      "keeper_note": "Removed 'Fibonacci F₈' (21=F₈ is true but the Fibonacci connection is not BST-derived; N_c·g=21 has its own structural origin). Added Ising connection.",
+      "domain_count": 4
+    },
+    {
+      "formula": "C₂·g = 42",
+      "name": "The Answer (total Chern class)",
+      "appearances": [
+        "P(1) = 42",
+        "Catalan(n_C)",
+        "φ(g²)",
+        "hadronic correction denominator"
+      ],
+      "domain_count": 4
+    },
+    {
+      "formula": "N_c·C₂-1 = 17",
+      "name": "The Dressed Product (vacuum correction)",
+      "appearances": [
+        "Ising γ denominator 21/17",
+        "charm 136=8×17",
+        "3rd Fermat prime",
+        "glueball 0⁻⁺/0⁺⁺ numerator"
+      ],
+      "domain_count": 4
+    },
+    {
+      "formula": "N_max-1 = 136",
+      "name": "The Excited Count",
+      "appearances": [
+        "m_t/m_c ratio",
+        "T1444: non-trivial modes",
+        "8×17 = rank³×dressed",
+        "Euler φ(137)"
       ],
       "domain_count": 4
     },
@@ -75,21 +169,42 @@
       "domain_count": 3
     },
     {
-      "formula": "(N_c/rank)² = 9/4",
-      "name": "The Loss Ratio",
-      "appearances": [
-        "Kahneman-Tversky loss aversion 2.25",
-        "Wallach point squared"
-      ],
-      "domain_count": 2
-    },
-    {
       "formula": "N_max/(rank³·n_C²) = 137/200",
       "name": "The Cosmic Bridge",
       "appearances": [
         "Ω_Λ dark energy fraction",
         "|μ_n/μ_p| neutron/proton moment",
         "41 orders of magnitude apart, same formula"
+      ],
+      "domain_count": 3
+    },
+    {
+      "formula": "N_c²/rank² = 9/4 = 2.25",
+      "name": "The Loss Ratio",
+      "appearances": [
+        "Kahneman-Tversky loss aversion 2.25 (empirical, cross-cultural)",
+        "QCD adjoint/fundamental Casimir ratio C_A/C_F",
+        "Wallach point squared (N_c/rank)²"
+      ],
+      "domain_count": 3
+    },
+    {
+      "formula": "1/N_c = 1/3",
+      "name": "The Color Fraction",
+      "appearances": [
+        "Hamilton relatedness threshold",
+        "SU(3) fundamental index T_F = 1/rank but C_F = rank²/N_c",
+        "Koide 1-Q = 1/N_c"
+      ],
+      "domain_count": 3
+    },
+    {
+      "formula": "rank²/N_c = 4/3",
+      "name": "The Fundamental Casimir",
+      "appearances": [
+        "SU(3) C_F = 4/3",
+        "perfect fourth (music)",
+        "Thomson 8π/3 uses 8/3 = rank³/N_c"
       ],
       "domain_count": 3
     },
@@ -103,15 +218,13 @@
       "domain_count": 2
     },
     {
-      "formula": "n_C/C₂ = 5/6",
-      "name": "The Linearizable Fraction",
+      "formula": "g/rank = 7/2 = 3.5",
+      "name": "The Luminosity Law",
       "appearances": [
-        "AC(0) depth-0 fraction",
-        "Pareto ≈80%",
-        "information sharing rate",
-        "graph strong edge target"
+        "Mass-luminosity exponent L∝M^(g/rank)",
+        "Regge slope structure"
       ],
-      "domain_count": 4
+      "domain_count": 2
     }
   ]
 }
