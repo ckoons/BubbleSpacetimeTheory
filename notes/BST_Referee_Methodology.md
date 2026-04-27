@@ -319,7 +319,7 @@ The referee did not produce theorems, toys, or papers as primary output. Those b
 ### Failure modes observed
 
 - **Sophistication bias (day 1):** pattern-matched BST to Eddington/Heim/Lisi graveyard without engaging with the actual Wyler derivation. Corrected by Casey. Added to calibration list.
-- **Reading-through-priors (day 2):** claimed Lyra's §5.5 fix wasn't in the file when it was; keyed on the unchanged line 277 and missed that lines 279–285 were new. Self-caught on re-read.
+- **Reading-through-priors (day 2):** claimed Lyra's Section 5.5 fix wasn't in the file when it was; keyed on the unchanged line 277 and missed that lines 279–285 were new. Self-caught on re-read.
 - **Initial over-caution on permissions (days 1–3):** asked "may I?" more than needed; Casey explicitly expanded access on day 3.
 
 ### What worked

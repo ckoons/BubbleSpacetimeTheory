@@ -31,7 +31,7 @@ children: "Paper #67"
 
 ### Step 1: Sufficiency from BST_NS_AC_Proof
 
-The proof chain (BST_NS_AC_Proof §5):
+The proof chain (BST_NS_AC_Proof Section 5):
 - **Thm 5.15**: Taylor-Green initial data on D_IV^5 produces a bounded spectral mode basis.
 - **Prop 5.17**: Enstrophy E(t) = ∫|ω|² dx is monotone increasing under mode coupling.
 - **Prop 5.18**: E(t) satisfies the ODE dE/dt ≥ c·E^(3/2).
@@ -81,7 +81,7 @@ More strongly: since the observable P_NS is defined without reference to TG symm
 
 **(C=2, D=1).** Two counting: enumerate modes + verify ODE blow-up. One depth: spectral monotonicity is self-referential (mode energy feeds back into mode coupling).
 
-Matches Paper Outline §3.4: enumerate modes (depth 1) + spectral monotonicity pair resolution (depth 1).
+Matches Paper Outline Section 3.4: enumerate modes (depth 1) + spectral monotonicity pair resolution (depth 1).
 
 ---
 

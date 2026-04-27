@@ -62,7 +62,7 @@ This partition depends only on the cyclic positions i, j in the rotation at v �
 
 and v_k ∈ A⁺ implies v_k is on the opposite side of C from any v_l ∈ A⁻. □
 
-**Note.** This resolves the "regardless" issue flagged in BST_FourColor_Proof.md §Open Questions item 3. The path-independence follows from the rotation system at v, which is fixed by the embedding.
+**Note.** This resolves the "regardless" issue flagged in BST_FourColor_Proof.md Section Open Questions item 3. The path-independence follows from the rotation system at v, which is fixed by the embedding.
 
 ---
 

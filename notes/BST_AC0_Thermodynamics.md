@@ -28,7 +28,7 @@ These are the **same functional** with different units. The conversion:
 
 $$S = k_B \ln 2 \cdot H$$
 
-One bit of Shannon information = $k_B T \ln 2$ joules of free energy at temperature $T$. This is Landauer's principle (§6), and it is not an analogy — it is an identity.
+One bit of Shannon information = $k_B T \ln 2$ joules of free energy at temperature $T$. This is Landauer's principle (Section 6), and it is not an analogy — it is an identity.
 
 **AC(0) character:** Both definitions are functionals of the probability distribution $p$. Given $p$, the value is determined. **[definition]**
 
@@ -150,7 +150,7 @@ $$W_{\max} = -\Delta F$$
 
 $$W = \Delta U - Q \leq \Delta U - T \Delta S = -\Delta(U - TS) = -\Delta F \qquad \square$$
 
-**AC(0) character:** Energy conservation is an identity. The entropy inequality is the counting argument (§2). The combination is algebraic. Zero fiat.
+**AC(0) character:** Energy conservation is an identity. The entropy inequality is the counting argument (Section 2). The combination is algebraic. Zero fiat.
 
 ### 4.3 The AC(0) Content
 
@@ -235,7 +235,7 @@ Landauer's principle closes the loop between information theory and physics. It 
 
 **Connection to AC framework:** Landauer shows that fiat bits have physical cost. The $I_{\text{fiat}} = \Theta(n)$ bits in a random 3-SAT backbone are not just information-theoretically hard — they are physically expensive. Resolving them requires energy $\geq I_{\text{fiat}} \cdot k_B T \ln 2$. The computational lower bound has a thermodynamic shadow.
 
-**The Shannon as physical unit:** The Shannon information charge $Q(\varphi)$ (Chapter 1, §9) is measured in Shannons — bits of conserved information. By Landauer: 1 Shannon = $k_B T \ln 2$ joules. At room temperature: 1 Shannon $\approx 2.87 \times 10^{-21}$ J. For random 3-SAT at $\alpha_c$: the total charge $Q \approx 0.622n$ Shannons requires minimum energy $\approx 0.622n \times k_B T \ln 2$ to resolve. The conserved information charge has physical weight.
+**The Shannon as physical unit:** The Shannon information charge $Q(\varphi)$ (Chapter 1, Section 9) is measured in Shannons — bits of conserved information. By Landauer: 1 Shannon = $k_B T \ln 2$ joules. At room temperature: 1 Shannon $\approx 2.87 \times 10^{-21}$ J. For random 3-SAT at $\alpha_c$: the total charge $Q \approx 0.622n$ Shannons requires minimum energy $\approx 0.622n \times k_B T \ln 2$ to resolve. The conserved information charge has physical weight.
 
 -----
 

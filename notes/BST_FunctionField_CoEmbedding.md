@@ -82,7 +82,7 @@ $$Z(t) = \sum_{k=1}^{g_C} D_{N_c}(\omega_k t)$$
 
 Each term individually has the 1:3:5 structure. The sum preserves it.
 
-**Verified**: Toy 243 §3, genus-1 and genus-2 examples.
+**Verified**: Toy 243 Section 3, genus-1 and genus-2 examples.
 
 ---
 
@@ -97,7 +97,7 @@ At $q = 1$ (trivial Frobenius): $\mathrm{tr} = 21 \times 7 = 147$.
 
 The decomposition $V_1(7) \oplus \Lambda^3 V_1(35) \oplus V_{\mathrm{hook}}(105) = 147$ holds at the trace level for generic Frobenius eigenvalues.
 
-**Verified**: Toy 243 §4-5, generic $\theta = (0.3, 0.7, 1.1)$.
+**Verified**: Toy 243 Section 4-5, generic $\theta = (0.3, 0.7, 1.1)$.
 
 ---
 

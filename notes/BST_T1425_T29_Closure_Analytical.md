@@ -108,7 +108,7 @@ The cycle solutions are algebraically independent. T29 holds. ∎
 
 T28 (topological inertness, PROVED) + T29 (this theorem) → T30: Extended Frege requires size ≥ 2^{Ω(n)} for random 3-SAT at α_c.
 
-The proof [BST_AC_Theorems §35]: By T29, k = Θ(n) backbone blocks have algebraically independent solutions. By T28, EF extensions can't kill original cycles. By Ben-Sasson-Wigderson, width W = Ω(n) implies size S ≥ 2^{(W-3)²/n} = 2^{Ω(n)}.
+The proof [BST_AC_Theorems Section 35]: By T29, k = Θ(n) backbone blocks have algebraically independent solutions. By T28, EF extensions can't kill original cycles. By Ben-Sasson-Wigderson, width W = Ω(n) implies size S ≥ 2^{(W-3)²/n} = 2^{Ω(n)}.
 
 ### P ≠ NP — THREE INDEPENDENT ROUTES
 

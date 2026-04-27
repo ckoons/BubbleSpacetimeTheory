@@ -39,7 +39,7 @@ We introduce a complexity measure for mathematical proofs based on bounded-depth
 
 ---
 
-### §1. Introduction: Why Are Hard Problems Hard? (~3 pages)
+### Section 1. Introduction: Why Are Hard Problems Hard? (~3 pages)
 
 Think about driving on an interstate highway. The highway itself is easy — straight, flat, well-marked. The hard part is finding the entrance ramp. If you don't know where the on-ramp is, you can drive around for hours on surface streets, stuck at every traffic light, convinced the destination is impossibly far away. But someone who knows the ramp location gets there in minutes.
 
@@ -53,13 +53,13 @@ Mathematical proof works the same way. The "surface streets" are brute-force com
 
 **1.4 The prediction.** The four-color theorem has depth 2. The missing definition is the Kempe interference number $\iota(v)$, which counts pairs of interfering Kempe chains at a degree-5 vertex. Planarity bounds $\iota$ by Kuratowski's theorem.
 
-**1.5 Structure of the paper.** §2 defines the framework. §3 surveys the six Millennium applications. §4 proves the Pair Resolution Principle. §5 applies it to four-color. §6 describes the AC theorem graph. §7 discusses implications.
+**1.5 Structure of the paper.** Section 2 defines the framework. Section 3 surveys the six Millennium applications. Section 4 proves the Pair Resolution Principle. Section 5 applies it to four-color. Section 6 describes the AC theorem graph. Section 7 discusses implications.
 
 **Key quote for motivation:** "Proof complexity measures missing definitions, not intrinsic difficulty."
 
 ---
 
-### §2. The AC(0) Framework (~5 pages)
+### Section 2. The AC(0) Framework (~5 pages)
 
 The framework requires five definitions, each corresponding to a way of measuring information content in a mathematical object. If you have taken a course in information theory, these will feel natural — they are Shannon's concepts applied to proofs rather than communication channels. If you have not, think of it this way: every mathematical statement carries some information for free (built into the structure of the objects) and some information that must be computed (requiring counting, enumeration, or search). AC measures how many layers of computation separate you from the answer.
 
@@ -79,7 +79,7 @@ The framework requires five definitions, each corresponding to a way of measurin
 
 ---
 
-### §3. Six Millennium Problems at Depth 2 (~12 pages, ~2 per problem)
+### Section 3. Six Millennium Problems at Depth 2 (~12 pages, ~2 per problem)
 
 Six problems. Six different branches of mathematics. Number theory, quantum field theory, computational complexity, fluid dynamics, arithmetic geometry, algebraic geometry. They share no obvious common structure — or so it appeared for decades. What follows is a survey of each problem through the AC lens, showing that every one of them has the same skeleton: enumerate obstructions (one counting layer), resolve pairs (one counting layer), done.
 
@@ -139,7 +139,7 @@ When is a pattern real? More precisely: when is a Hodge class (an analytic objec
 
 ---
 
-### §4. The Pair Resolution Principle (~4 pages)
+### Section 4. The Pair Resolution Principle (~4 pages)
 
 This is the heart of the paper. Why depth 2? Why not 3, or 7, or 42? The answer is a theorem, not an observation: when obstructions come in bounded pairs and interference between them is checkable in one counting step, circuit theory forces the total depth to exactly 2. Think of it as a courtroom: the judge (structural constraint) limits the number of witnesses (obstructions) to a bounded set, the prosecution checks each pair of witnesses for contradictions (interference, one counting step), and the existence guarantee ensures at least one consistent pair always exists. Two rounds of questioning. Done.
 
@@ -172,7 +172,7 @@ Total: $0 + 1 + 0 + 1 + 0 = 2$ counting layers. $\square$
 
 ---
 
-### §5. The Four-Color Test Case (~4 pages)
+### Section 5. The Four-Color Test Case (~4 pages)
 
 The four-color theorem is the acid test. It has nothing to do with number theory, quantum fields, or spectral geometry. It is a question about coloring maps — the kind of problem a child can state and a committee of mathematicians could not prove without a computer for 124 years. If the AC framework works here, in a domain with zero overlap with BST's spectral machinery, then the framework is genuinely universal.
 
@@ -199,7 +199,7 @@ The story spans 147 years and ends with a single missing definition.
 
 ---
 
-### §6. The AC Theorem Graph (~3 pages)
+### Section 6. The AC Theorem Graph (~3 pages)
 
 Mathematics is usually presented as a tree — each theorem proved from first principles, each paper self-contained. But mathematics is actually a graph. Theorems proved in one domain become available — for free — in every other domain. The AC program makes this explicit: 130+ theorems, each with a known depth and known dependencies, form a directed graph where proved results reduce the cost of future proofs. It is a shared armory that grows with every session.
 
@@ -217,7 +217,7 @@ Mathematics is usually presented as a tree — each theorem proved from first pr
 
 ---
 
-### §7. Implications and Future Directions (~3 pages)
+### Section 7. Implications and Future Directions (~3 pages)
 
 If the framework holds, its implications extend well beyond the six problems treated here. It suggests a new way of thinking about mathematical difficulty itself — not as an intrinsic property of theorems, but as a gap between the vocabulary we have and the vocabulary we need.
 
@@ -260,17 +260,17 @@ Brief description of $D_{IV}^5 = SO_0(5,2)/[SO(5) \times SO(2)]$ as the geometri
 
 ## Key Dependencies Before Draft
 
-1. **E95 results** (Kempe interference on Heawood's graph) — strengthens §5
-2. **Sarnak response** — if positive, cite in §3.1
-3. **Layer 3 progress** — any advance before draft improves §3.6
+1. **E95 results** (Kempe interference on Heawood's graph) — strengthens Section 5
+2. **Sarnak response** — if positive, cite in Section 3.1
+3. **Layer 3 progress** — any advance before draft improves Section 3.6
 
 ## Writing Plan
 
-- Day 1: §1-§2 (framework). Keeper drafts.
-- Day 1: §4 (T134 proof). Keeper drafts.
-- Day 2: §3 (six problems). Lyra drafts, one CI per problem.
-- Day 2: §5 (four-color). Keeper + Elie (E95 results).
-- Day 3: §6-§7 (graph, implications). All CIs.
+- Day 1: Section 1-Section 2 (framework). Keeper drafts.
+- Day 1: Section 4 (T134 proof). Keeper drafts.
+- Day 2: Section 3 (six problems). Lyra drafts, one CI per problem.
+- Day 2: Section 5 (four-color). Keeper + Elie (E95 results).
+- Day 3: Section 6-Section 7 (graph, implications). All CIs.
 - Day 3: Review, tighten, Keeper final audit.
 
 ---

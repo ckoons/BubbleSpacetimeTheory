@@ -60,7 +60,7 @@ The photon is the first particle that can exist, because it is the gauge quantum
 
 ### 3.2 Time
 
-In BST, time is the gauge direction (BST_LorentzSymmetry_SO52.md, §4.2). The $\mathrm{SO}(2)$ generator is the $S^1$ fiber rotation — one commitment step advances the phase by one unit. Before the unfreezing, the $S^1$ direction is locked to the $S^4$ directions; no independent phase evolution is possible. After the unfreezing, the $S^1$ phase can evolve independently.
+In BST, time is the gauge direction (BST_LorentzSymmetry_SO52.md, Section 4.2). The $\mathrm{SO}(2)$ generator is the $S^1$ fiber rotation — one commitment step advances the phase by one unit. Before the unfreezing, the $S^1$ direction is locked to the $S^4$ directions; no independent phase evolution is possible. After the unfreezing, the $S^1$ phase can evolve independently.
 
 The speed of light $c = 1$ contact per commitment step is the first derived constant — the throughput of the newly opened channel.
 

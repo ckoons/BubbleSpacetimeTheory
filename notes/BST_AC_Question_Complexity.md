@@ -270,7 +270,7 @@ This question has:
 
 In AC language: Q' is the question that Q was trying to ask. The structural correlation $\rho$ is related to Fragility Degree (and, via the Bayesian reframing, to $I_{\text{derivable}}$). The function $\rho \mapsto T$ is what the AC classification table (Phase 1) measures empirically. P ≠ NP falls out as the observation that $T$ diverges as $\rho \to 0$ — which is a *measurement*, not a binary.
 
-**Qualification (Keeper review):** The repaired question Q' is better posed than Q. The answer to Q' is still hard to prove — proving that the measurement is correct (that $T$ genuinely diverges) requires closing genuine mathematical gaps (see `AC_Topology_BridgeTheorem.md` §9). "Falls out as a measurement" means the framework reduces P ≠ NP to a measurement; it does not mean the measurement is easy.
+**Qualification (Keeper review):** The repaired question Q' is better posed than Q. The answer to Q' is still hard to prove — proving that the measurement is correct (that $T$ genuinely diverges) requires closing genuine mathematical gaps (see `AC_Topology_BridgeTheorem.md` Section 9). "Falls out as a measurement" means the framework reduces P ≠ NP to a measurement; it does not mean the measurement is easy.
 
 ---
 

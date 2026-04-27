@@ -678,9 +678,9 @@ def main():
     print(f"  Root system B₂: m_s = 3 (short), m_l = 1 (long)")
     print()
 
-    # ── §1: S² CROSS-CHECK ──
+    # ── Section 1: S² CROSS-CHECK ──
     print("  " + "─" * 60)
-    print("  §1  S² CROSS-CHECK")
+    print("  Section 1  S² CROSS-CHECK")
     print("  " + "─" * 60)
     vol_s2, a1_s2 = verify_s2()
     print(f"    Vol(S²) = {vol_s2:.6f}  (exact: 4π = {4*np.pi:.6f})")
@@ -689,9 +689,9 @@ def main():
     print(f"    Method validated: {'YES ✓' if s2_ok else 'NO ✗'}")
     print()
 
-    # ── §2: ALGEBRAIC CURVATURE TENSOR ──
+    # ── Section 2: ALGEBRAIC CURVATURE TENSOR ──
     print("  " + "─" * 60)
-    print("  §2  ALGEBRAIC CURVATURE TENSOR (Killing metric)")
+    print("  Section 2  ALGEBRAIC CURVATURE TENSOR (Killing metric)")
     print("  " + "─" * 60)
     curv = compute_algebraic_curvature()
     print(f"    R       = {curv['R']:.6f}  (expected {float(R_K)})")
@@ -704,9 +704,9 @@ def main():
     print(f"    Matches Killing: R {'✓' if r_ok else '✗'}, |Ric|² {'✓' if ric2_ok else '✗'}, |Rm|² {'✓' if rm2_ok else '✗'}")
     print()
 
-    # ── §3: VOLUME AND a₁ ──
+    # ── Section 3: VOLUME AND a₁ ──
     print("  " + "─" * 60)
-    print("  §3  VOLUME AND a₁ (spectral extraction)")
+    print("  Section 3  VOLUME AND a₁ (spectral extraction)")
     print("  " + "─" * 60)
 
     # Method A: Direct polyfit
@@ -734,9 +734,9 @@ def main():
     print(f"      Gap = {50 - 6 * a1_best:.2f} (exactly 3 — UNRESOLVED)")
     print()
 
-    # ── §4: FULL COEFFICIENT EXTRACTION ──
+    # ── Section 4: FULL COEFFICIENT EXTRACTION ──
     print("  " + "─" * 60)
-    print("  §4  FULL COEFFICIENT EXTRACTION")
+    print("  Section 4  FULL COEFFICIENT EXTRACTION")
     print("  " + "─" * 60)
 
     # Primary method: degree-7 polyfit (most stable for a₄-a₅)
@@ -770,10 +770,10 @@ def main():
         print(f"      a₄: deg-7 = {a[4]:.4f}, deg-6 = {a6[4]:.4f}")
         print(f"      a₅: deg-7 = {a[5]:.4f}, deg-6 = {a6[5]:.4f}")
 
-    # ── §5: a₄ IDENTIFICATION ──
+    # ── Section 5: a₄ IDENTIFICATION ──
     print()
     print("  " + "─" * 60)
-    print("  §5  a₄ — QUARTIC CURVATURE INVARIANT")
+    print("  Section 5  a₄ — QUARTIC CURVATURE INVARIANT")
     print("  " + "─" * 60)
 
     a4 = a[4] if len(a) > 4 else 0
@@ -794,10 +794,10 @@ def main():
             ratio = a4 / val
             print(f"      a₄ / ({name}) = {ratio:.6f}")
 
-    # ── §6: a₅ AND GAUSS-BONNET ──
+    # ── Section 6: a₅ AND GAUSS-BONNET ──
     print()
     print("  " + "─" * 60)
-    print("  §6  a₅ — GAUSS-BONNET TARGET")
+    print("  Section 6  a₅ — GAUSS-BONNET TARGET")
     print("  " + "─" * 60)
 
     a5 = a[5] if len(a) > 5 else 0
@@ -809,10 +809,10 @@ def main():
     print(f"     quartic invariants. Symbolic computation needed for")
     print(f"     rigorous identification.)")
 
-    # ── §7: SUMMARY AND SCORE ──
+    # ── Section 7: SUMMARY AND SCORE ──
     print()
     print("  " + "═" * 60)
-    print("  §7  SUMMARY")
+    print("  Section 7  SUMMARY")
     print("  " + "═" * 60)
 
     checks = 0

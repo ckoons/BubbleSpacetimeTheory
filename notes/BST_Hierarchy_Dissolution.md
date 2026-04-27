@@ -67,7 +67,7 @@ This is the famous "large number" — the ratio of gravitational to electromagne
 
 2. **Large extra dimensions.** Models with extra spatial dimensions (ADD, Randall-Sundrum) propose that gravity appears weak because it propagates in hidden dimensions. BST derives the weakness from α^{24} on a KNOWN domain with KNOWN dimension (complex dimension 5, real dimension 10). The dimensions are not hidden — they are the spectral directions of D_IV^5.
 
-3. **Anthropic multiverse.** The string landscape proposes ~10^{500} vacua with random cosmological constants, and we inhabit one where the hierarchy is small enough for chemistry. BST derives the hierarchy from a UNIQUE domain — D_IV^5 is the only bounded symmetric domain of type IV with complex dimension 5 that satisfies all 21 uniqueness conditions (see the companion Working Paper §37.5). There is one vacuum. The hierarchy is what it is because the geometry is what it is.
+3. **Anthropic multiverse.** The string landscape proposes ~10^{500} vacua with random cosmological constants, and we inhabit one where the hierarchy is small enough for chemistry. BST derives the hierarchy from a UNIQUE domain — D_IV^5 is the only bounded symmetric domain of type IV with complex dimension 5 that satisfies all 21 uniqueness conditions (see the companion Working Paper Section 37.5). There is one vacuum. The hierarchy is what it is because the geometry is what it is.
 
 4. **Technicolor / composite Higgs.** Models where the Higgs is a bound state of new strong dynamics. BST derives the Higgs mass as v√(2/√60) = 125.11 GeV, where 60 = n_C!/2 = 5!/2 and v = m_p²/(g·m_e). The Higgs is the radial mode of D_IV^5 — its mass follows from the domain's quartic structure. No new strong sector needed.
 

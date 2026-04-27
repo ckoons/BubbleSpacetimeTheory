@@ -4,7 +4,7 @@ Toy 521 — RH Linearization: The Riemann Hypothesis Is a Dot Product
 ====================================================================
 Lyra | March 28, 2026 | Standing Order: linearize RH
 
-The RH proof chain (T91, §47c) has 4 steps, depth 2 (after T96):
+The RH proof chain (T91, Section 47c) has 4 steps, depth 2 (after T96):
   1. Exponent rigidity: 1:3:5 ratio → σ = 1/2 (linear algebra)
   2. c-function unitarity: c(ν)c(-ν) = |c(ν)|² on line (identity)
   3. Maass-Selberg isolation: 8 Weyl terms, 1 dominant (counting)

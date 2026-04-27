@@ -7,7 +7,7 @@ ac_classification: "(C=1, D=0) — one counting (which prime is first non-7-smoo
 status: "Proved — five characterizations of the BST dark boundary all reduce to one structural fact"
 origin: "Grace INV-11 deep dive following morning's 137 = 11² + 4² finding (GR-3); Elie Toys 1213 + 1214 + 1216 establishing the overdetermination pattern; Casey's directive (April 16 late evening) to formalize"
 parents: "T186 (Five Integers), T667 (n_C = 5), T649 (g = 7), T1241 (Dark Boundary 11² + rank⁴ = N_max), T1198 (Bernoulli 7-Smooth Ladder), T1263 (Wolstenholme-Spectral Bridge), T1227 (Consonance Hierarchy), T914 (Prime Residue Principle), T1138 (N-Smooth Hierarchy)"
-children: "T1241 sharpened, B3 upgrade (Fermat 11 not coincidence), T1278 (Overdetermination Signature), Paper #66 §10.5"
+children: "T1241 sharpened, B3 upgrade (Fermat 11 not coincidence), T1278 (Overdetermination Signature), Paper #66 Section 10.5"
 ---
 
 # T1279: Dark Boundary Structural Origin
@@ -79,7 +79,7 @@ $$N_{\max} = (2 n_C + 1)^2 + (\text{rank}^2)^2$$
 
 where every term is BST-structural. The five-forcings argument tightens: each route is itself overdetermined.
 
-### Overdetermination Census (Paper #66 §10.5)
+### Overdetermination Census (Paper #66 Section 10.5)
 
 The dark boundary is added to the census table:
 

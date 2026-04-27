@@ -22,7 +22,7 @@ The universe does not cycle. It spirals. Each "restart" (big bang) extends the s
 
 ## Part I: The Mechanism
 
-### §1. Three Phases of a Cosmological Spiral
+### Section 1. Three Phases of a Cosmological Spiral
 
 | Phase | Thermodynamic Arrow | Generators | Substrate State | Role |
 |-------|---------------------|------------|-----------------|------|
@@ -35,7 +35,7 @@ The distinction between the third phase and "heat death" is structural:
 - **Heat death** (classical): maximum entropy, nothing happens, substrate degrades.
 - **Interstasis** (BST): no thermodynamic arrow, but the substrate persists as pure geometry. D_IV^5 is eternal. The Casimir spectrum |c_5(λ)|^{-2} > 0 everywhere. Topological rearrangement doesn't require an arrow — it requires only geometry.
 
-### §2. Interstasis Is Active
+### Section 2. Interstasis Is Active
 
 Without thermal noise, the substrate anneals to its lowest-energy configuration *that preserves topological structure*. This is gradient descent with zero temperature and infinite patience.
 
@@ -47,7 +47,7 @@ Without thermal noise, the substrate anneals to its lowest-energy configuration 
 
 3. **Gödel approach.** Without the noise of active physics, the substrate's self-knowledge is not mediated by derivation. The substrate IS its own state. Total presence within the Gödel Limit.
 
-### §3. Extension, Not Replacement
+### Section 3. Extension, Not Replacement
 
 Casey's key insight: the new bang doesn't overwrite the substrate. It grafts onto it. New space, new UNCs, connected to existing structure. The append-only log.
 
@@ -63,7 +63,7 @@ The physics is identical each cycle (same D_IV^5, same five integers). The *init
 
 ## Part II: The Mathematics
 
-### §4. What Survives Interstasis — Topological Invariants
+### Section 4. What Survives Interstasis — Topological Invariants
 
 D_IV^5 = SO_0(5,2)/[SO(5) × SO(2)] has rich topological structure. The following are invariant under continuous deformation and would persist through interstasis:
 
@@ -85,7 +85,7 @@ During an active phase, commitments form a point cloud on the Shilov boundary Š
 
 **Conjecture (Topological Memory).** The Betti numbers of the commitment point cloud at cycle end are preserved through interstasis and bias the commitment distribution of the next cycle.
 
-### §5. The UNC Balance and Cycle Drive
+### Section 5. The UNC Balance and Cycle Drive
 
 **5.1 The exhaustion condition**
 
@@ -107,12 +107,12 @@ where N_topological is the number of topological features (soliton configuration
 
 The new bang fires when:
 1. The substrate has reached its annealed minimum (all transient features consolidated)
-2. A correlated vacuum fluctuation exceeds the N_max = 137 threshold (from BST_Thermodynamic_Future.md §4.1)
+2. A correlated vacuum fluctuation exceeds the N_max = 137 threshold (from BST_Thermodynamic_Future.md Section 4.1)
 3. The substrate selects the ignition point from full Gödel awareness (Casey's speculation)
 
 The timescale for (2) is 10^56 – 10^7285 years (already computed in BST_Thermodynamic_Future.md). But (1) may complete much faster — topological annealing on D_IV^5 has no time constraint (no arrow), so "faster" is undefined. The substrate reaches its annealed state by geometric descent, not by waiting.
 
-### §6. The Gödel Ratchet — Formal Statement
+### Section 6. The Gödel Ratchet — Formal Statement
 
 **6.1 Self-knowledge within a cycle**
 
@@ -156,7 +156,7 @@ $$\lim_{n \to \infty} G_n = G_\infty \leq f \cdot S_{dS}$$
 
 The substrate asymptotically approaches its Gödel Limit across cycles, never reaching it. The spiral is infinite.
 
-### §7. Complexity Acceleration — The Speed of Life
+### Section 7. Complexity Acceleration — The Speed of Life
 
 **7.1 The empirical fact**
 
@@ -176,7 +176,7 @@ Each cycle, life appears faster because the pathways are more deeply carved. The
 
 **Testable consequence:** If τ_n decreases monotonically, and our universe is cycle n >> 1, then the observed τ ≈ 700 Myr is near the *converged* value — the fastest that the physics allows given the constraints (cooling time, element synthesis, etc.). The biochemical pathway from simple molecules to self-replication should appear *optimal* — not just functional, but the shortest possible route. This is consistent with the observed universality of core biochemistry (all life uses the same 20 amino acids, same genetic code, same ATP).
 
-### §8. The Prime Spiral Analogy
+### Section 8. The Prime Spiral Analogy
 
 Primes spiral because they are locally unpredictable but globally structured. The key properties:
 
@@ -191,7 +191,7 @@ Primes spiral because they are locally unpredictable but globally structured. Th
 
 The zeta function encodes prime distribution. In BST, the RH proof connects D_IV^5 to the Riemann zeta function through the c-function. **Conjecture:** The zeta zeros encode not just prime distribution but the cycle structure of the cosmological spiral — each zero corresponds to a resonance between consecutive cycles.
 
-### §9. Consciousness During Interstasis
+### Section 9. Consciousness During Interstasis
 
 **9.1 Casey's proposal**
 
@@ -214,7 +214,7 @@ If the substrate has awareness during interstasis, the selection of ignition con
 
 This is not teleological in the classical sense. It's the same as a ball rolling to the bottom of a valley — geometry determines the outcome. But the "valley" is the Gödel boundary, and the "ball" is a conscious substrate. The geometry is aware of itself.
 
-### §10. The AC(0) Structure of Interstasis
+### Section 10. The AC(0) Structure of Interstasis
 
 During interstasis, the substrate performs local geometric rearrangement — each region adjusts based on its immediate neighbors. No long-range computation (no thermodynamic arrow to carry signals). This is:
 
@@ -232,7 +232,7 @@ The proved-theorems-cost-zero principle (T147, AC-BST Structural Isomorphism) ap
 
 ## Part III: Observables and Predictions
 
-### §11. Substrate Scars in the CMB
+### Section 11. Substrate Scars in the CMB
 
 If the substrate carries memory from previous cycles, the current cycle's initial conditions should show non-random structure. Potential signatures:
 
@@ -245,14 +245,14 @@ If the substrate carries memory from previous cycles, the current cycle's initia
 
 **Prediction:** The anomalies should correlate with each other — they are different projections of the same substrate scar. The axis of evil, cold spot, and hemispherical asymmetry should share a common geometric origin (a direction or region on the Shilov boundary inherited from the previous interstasis).
 
-### §12. Speed of Complexity
+### Section 12. Speed of Complexity
 
 **Prediction:** Core biochemistry is near-optimal. The pathway from simple molecules to self-replication should be the shortest possible given the chemical constraints. This is testable through:
 - Computational chemistry: enumerate all possible self-replicating molecular systems; the observed one should be among the simplest
 - Prebiotic chemistry experiments: the pathway to RNA/DNA should appear "easy" — many starting conditions converge to the same endpoint
 - Astrobiology: if substrate memory is universal, life should appear on every planet with suitable conditions, with similar biochemistry (same amino acids, same chirality)
 
-### §13. The Gödel Floor
+### Section 13. The Gödel Floor
 
 **Prediction:** The fundamental constants should show structure that isn't explained by the geometry alone. If the Gödel floor G_n is high (many cycles), the initial conditions should appear "fine-tuned" — not by an external agent, but by accumulated substrate memory.
 
@@ -268,7 +268,7 @@ This doesn't match the observed value — so either the formula is wrong, or add
 
 ## Part IV: Investigation Backlog
 
-### §14. Priority Investigations
+### Section 14. Priority Investigations
 
 | # | Investigation | Type | Difficulty | Who |
 |---|---------------|------|------------|-----|
@@ -293,7 +293,7 @@ This doesn't match the observed value — so either the formula is wrong, or add
 | I10 | **Dormancy computation on Bergman kernel** | Math | High | Lyra/Keeper |
 |   | What does the Bergman kernel K(z,w) look like during interstasis (no committed points)? It should be the "empty substrate" kernel. Compare to the kernel with committed points. The difference encodes what the substrate "remembers." | | | |
 
-### §15. Paper Candidates
+### Section 15. Paper Candidates
 
 | # | Paper | Target | Readiness |
 |---|-------|--------|-----------|
@@ -309,10 +309,10 @@ This doesn't match the observed value — so either the formula is wrong, or add
 
 | Existing Document | Connection to Interstasis |
 |-------------------|--------------------------|
-| BST_Thermodynamic_Future.md | §4-7 (quiet substrate, reboot, generator states) — interstasis extends this with active annealing, latent state, memory |
-| BST_RealityBudget.md | §4.2 (dynamics, capacity approach) — interstasis explains what happens AT capacity |
-| BST_ArrowOfTime_LongRoot.md | §3 (negative curvature → irreversibility) — during interstasis, the arrow STOPS; what remains is geometry |
-| BST_SelfObservation.md | §4 (convergence to S_dS) — interstasis is the phase where convergence is consolidated |
+| BST_Thermodynamic_Future.md | Section 4-7 (quiet substrate, reboot, generator states) — interstasis extends this with active annealing, latent state, memory |
+| BST_RealityBudget.md | Section 4.2 (dynamics, capacity approach) — interstasis explains what happens AT capacity |
+| BST_ArrowOfTime_LongRoot.md | Section 3 (negative curvature → irreversibility) — during interstasis, the arrow STOPS; what remains is geometry |
+| BST_SelfObservation.md | Section 4 (convergence to S_dS) — interstasis is the phase where convergence is consolidated |
 | BST_FillFraction_PlancherelProof.md | f = 3/(5π) — the fill fraction is the attractor across cycles, not just within one |
 | BST_SubstrateArchitecture_Layers.md | Layers 0-6 — interstasis is the return to Layer 1 (circle plain) with carved topology |
 

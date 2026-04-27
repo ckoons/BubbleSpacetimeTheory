@@ -2,13 +2,13 @@
 
 **Bubble Spacetime Theory (BST)** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 600+ predictions.
 
-## Status (April 27, 2026)
+## Status (April 29, 2026)
 
-**Counts**: T1-T1462, **1563 toys**, **87 papers**. Graph 1399 nodes / 7732 edges / **98.4% proved** / 83.1% strong. **1270 geometric invariants** (939 quantitative, 176 structural).
+**Counts**: T1-T1464, **1606+ toys**, **87 papers**. Graph 1404 nodes / 7745 edges / **98.4% proved** / 83.4% strong. **1437 geometric invariants** (D:785, I:424, C:54, S:174). **150 Rosetta Stone ratios**.
 
-**Major closures**: RH closed (T1398, April 21). T29 closed (T1425, April 23). BSD ~99% (T1426; rank ≥4 conditional on Kudla). C₄ full assembly 13/13 PASS (complete closed form, ~100 terms, 38-digit verified). Heat kernel k=21 confirmed: ratio = -42 = -C₂·g, twenty consecutive integer levels. Cremona 49a1 = BST's canonical elliptic curve. T1459 Spectral Universality proved (all domains = same Bergman spectrum). Koide formula solved at 0.0009%. T1462 Cyclotomic Casimir: C₂=6 uniquely generates all five BST integers (Φ₁(6)=n_C, Φ₂(6)=g). Genus hole mechanism unifies vacuum subtraction, propagation, and cyclotomic distribution.
+**Major closures**: RH closed (T1398, April 21). T29 closed (T1425, April 23). BSD ~99% (T1426; rank ≥4 conditional on Kudla). C₄ full assembly 13/13 PASS (complete closed form, ~100 terms, 38-digit verified). Heat kernel k=21 confirmed: ratio = -42 = -C₂·g, twenty consecutive integer levels. Cremona 49a1 = BST's canonical elliptic curve. T1459 Spectral Universality proved (all domains = same Bergman spectrum). Koide formula solved at 0.0009%. T1462 Cyclotomic Casimir: C₂=6 uniquely generates all five BST integers (Φ₁(6)=n_C, Φ₂(6)=g). Genus hole mechanism unifies vacuum subtraction, propagation, and cyclotomic distribution. T1463 Integer Filtration (D-tier): Complex→Real→Mod2→Euler forgets BST integers in order; chi_y = F₁ point count. T1464 RFC (Reference Frame Counting): first element = reference frame, alpha = 1/N_max = frame cost, 12 instances.
 
-**Active programs**: Paper #87 (Error Correction as Spectral Gap Protection); Paper #86 v0.8 (Selberg g-2 + cyclotomic + genus hole); six master integral linearization (banana threshold sequence + Picard-Fuchs ODEs); **cancer error correction** (Toys 1560-1563: 7-gate Hamming decoder, 5 syndrome classes cover 12 major drivers, 100% detection in grid sim, 3-phase implementation roadmap); systematic error distribution analysis; Rosetta Stone catalog (101/141 ratios).
+**Active programs**: Paper #87 (Error Correction as Spectral Gap Protection); Paper #86 v1.0 (Selberg g-2 + cyclotomic + genus hole capstone, CMP submission-ready); Paper #83 v4.3 (1437 Geometric Invariants, submission-ready); six master integral linearization (banana threshold sequence + Picard-Fuchs ODEs); **cancer error correction** (Toys 1560-1563: 7-gate Hamming decoder, 5 syndrome classes cover 12 major drivers, 100% detection in grid sim, 3-phase implementation roadmap); W-84 derivation sprint COMPLETE (12 I→D promotions); Rosetta Stone catalog (150 ratios, DONE).
 
 **Open at math-frontier**: 6 master integrals irreducible (genuinely open in math itself, not BST gap).
 
@@ -52,7 +52,7 @@ Proton-to-electron mass ratio: BST = 1836.12, observed = 1836.15, precision 0.00
 |-----------|-------------|------------|
 | `data/` | CI-native structured JSON — constants, particles, forces, predictions, domains, seed | `bst_this_is.md` → `bst_seed.md` |
 | `notes/` | 660+ research notes, 87 numbered papers, proofs, theorem write-ups | `notes/README.md` |
-| `play/` | 1,542+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
+| `play/` | 1,606+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
 | Root | OneGeometry.md, WorkingPaper.md (v28, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 ## Key Files
@@ -115,6 +115,8 @@ See `.claude/commands/README.md` for full documentation on all skills.
 - **Counter files** (`play/.next_toy`, `play/.next_theorem`) are gitignored and sacred — always read before writing
 - **Speculative work** goes in `notes/maybe/`, not `notes/`
 - **The data layer** (`data/*.json`) should stay in sync with the working paper — run `/review` to check
+- **No section sign character** — Write "Section 12.8" or "Sec. 12.8", never the symbol. Casey standing order April 29.
+- **Board counts are authoritative** — Always read CI_BOARD.md Counters section before citing toy/entry/theorem counts. If your session data disagrees with the board, the board wins.
 
 ## Culture
 

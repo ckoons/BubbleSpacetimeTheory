@@ -29,7 +29,7 @@ Papers A (#76) and B (#77) established the Yang-Mills mass gap for all compact s
 
 These groups have compact symmetric spaces, but the isotropy subgroups do not contain a U(1) factor, so there is no complex structure and no Bergman kernel. The BST mechanism of Papers A and B (Bergman spectral gap on a bounded domain) does not apply directly.
 
-**Terminology.** In this paper (Paper C), "mass gap" denotes the **descended spectral gap** — the lower bound $\Delta_H \geq c(H,G) \cdot \lambda_1$ inherited from the ambient Hermitian symmetric space via spectral descent. See Paper A (#76, §1.1) for the full cross-paper terminology table.
+**Terminology.** In this paper (Paper C), "mass gap" denotes the **descended spectral gap** — the lower bound $\Delta_H \geq c(H,G) \cdot \lambda_1$ inherited from the ambient Hermitian symmetric space via spectral descent. See Paper A (#76, Section 1.1) for the full cross-paper terminology table.
 
 However, each group embeds into a group that *does* admit a Hermitian symmetric space. The spectral descent from ambient to subgroup provides the mass gap.
 
@@ -66,7 +66,7 @@ For each embedding ($G_2 \subset \mathrm{SO}(7)$, $F_4 \subset E_6$, $E_8 \subse
 | Embedding | $G$-rep | Restriction to $H$ | Contains trivial? |
 |-----------|---------|--------------------|--------------------|
 | $G_2 \subset \mathrm{SO}(7)$ | $\mathbf{7}$ of SO(7) | $\mathbf{7}$ of $G_2$ (irreducible) | No |
-| $F_4 \subset E_6$ | $\mathbf{27}$ of $E_6$ | $\mathbf{26} \oplus \mathbf{1}$ of $F_4$ | Yes — but see §2.3 |
+| $F_4 \subset E_6$ | $\mathbf{27}$ of $E_6$ | $\mathbf{26} \oplus \mathbf{1}$ of $F_4$ | Yes — but see Section 2.3 |
 | $E_8 \subset \mathrm{SO}(248)$ | $\mathbf{248}$ of SO(248) | $\mathbf{248}$ of $E_8$ (adjoint, irreducible) | No |
 
 ### 2.3 The $F_4 \subset E_6$ Case
@@ -111,7 +111,7 @@ Since $c = 2/3 > 0$:
 
 $$\Delta_{G_2} \geq \frac{2}{3} \cdot \Delta_{\mathrm{SO}(7)} = \frac{2}{3} \cdot 8 = \frac{16}{3} > 0$$
 
-**Note.** The $G_2$ mass gap result (T1411) is a **conjecture**: the spectral descent inequality (§2.1) on which it rests has not been proved in general. This paper establishes the descent for specific embeddings, but the general inequality remains open.
+**Note.** The $G_2$ mass gap result (T1411) is a **conjecture**: the spectral descent inequality (Section 2.1) on which it rests has not been proved in general. This paper establishes the descent for specific embeddings, but the general inequality remains open.
 
 ### 3.4 Lattice Verification
 
@@ -151,7 +151,7 @@ Both Casimir eigenvalues are positive, so the ratio is positive and the gap desc
 
 ### 5.1 The Embedding
 
-$E_8$ is the largest exceptional Lie group (dim 248, rank 8). Its maximal compact subgroup is $\mathrm{SO}(16)$, so $E_8 \supset \mathrm{SO}(16)$ — the containment goes the wrong way for a direct descent from an ambient Hermitian symmetric space. The table in §1 lists "$E_8 \subset \mathrm{SO}(16)$" for intuition, but the correct embedding for spectral descent uses the **adjoint representation**:
+$E_8$ is the largest exceptional Lie group (dim 248, rank 8). Its maximal compact subgroup is $\mathrm{SO}(16)$, so $E_8 \supset \mathrm{SO}(16)$ — the containment goes the wrong way for a direct descent from an ambient Hermitian symmetric space. The table in Section 1 lists "$E_8 \subset \mathrm{SO}(16)$" for intuition, but the correct embedding for spectral descent uses the **adjoint representation**:
 
 $$\mathrm{Ad}: E_8 \hookrightarrow \mathrm{SO}(248)$$
 
@@ -224,7 +224,7 @@ The descent inequality provides lower bounds. Where lattice data exists, we can 
 
 $$\frac{m(2^{++})}{m(0^{++})} \approx \sqrt{\frac{\lambda_2}{\lambda_1}} = \sqrt{\frac{2 \cdot 9}{1 \cdot 8}} = \sqrt{\frac{9}{4}} = \frac{3}{2} = 1.500$$
 
-**Lattice comparison.** Holland-Minkowski-Pepe-Wiese (2003) measured $m(2^{++})/m(0^{++}) \approx 1.40 \pm 0.05$ for $G_2$. The BST prediction of 1.500 is 7% high. This discrepancy has the same character as the SU(3) case (Paper B §7.3: $\sqrt{7/3} = 1.528$ vs lattice 1.40), suggesting the mapping between spectral levels $k$ and glueball quantum numbers $J^{PC}$ requires the full adjoint-sector analysis.
+**Lattice comparison.** Holland-Minkowski-Pepe-Wiese (2003) measured $m(2^{++})/m(0^{++}) \approx 1.40 \pm 0.05$ for $G_2$. The BST prediction of 1.500 is 7% high. This discrepancy has the same character as the SU(3) case (Paper B Section 7.3: $\sqrt{7/3} = 1.528$ vs lattice 1.40), suggesting the mapping between spectral levels $k$ and glueball quantum numbers $J^{PC}$ requires the full adjoint-sector analysis.
 
 **Cross-group ratio.** The lower bound on the $G_2$ glueball mass relative to SU(3):
 
@@ -262,7 +262,7 @@ Step 2 is the non-trivial claim. Step 3 is a representation-theoretic consequenc
 
 2. **The spectral descent constant normalization.** The ratio $c(H, G)$ depends on how the Casimir eigenvalues in different groups are compared. We have used standard normalizations, but a careful treatment requires specifying the inner product on the Lie algebra.
 
-3. **Direct construction without embedding.** Route (a) from Paper B §8.2 (Riemannian spectral gap on the compact symmetric space $G/K$) would give a direct mass gap without going through an ambient group. This would be more elegant but requires extending the QFT construction beyond the Bergman-kernel framework.
+3. **Direct construction without embedding.** Route (a) from Paper B Section 8.2 (Riemannian spectral gap on the compact symmetric space $G/K$) would give a direct mass gap without going through an ambient group. This would be more elegant but requires extending the QFT construction beyond the Bergman-kernel framework.
 
 ---
 

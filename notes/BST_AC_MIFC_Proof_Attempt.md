@@ -116,20 +116,20 @@ Equivalently: no proof system has polynomial-size refutations of random unsatisf
 
 ### 3.2 The Chain of Reasoning
 
-**Step 1 (Proved, §1).** $K(\varphi)$ has $\beta_1 = \Theta(n)$ independent 1-cycles.
+**Step 1 (Proved, Section 1).** $K(\varphi)$ has $\beta_1 = \Theta(n)$ independent 1-cycles.
 
-**Step 2 (Proved, §2).** These cycles, embedded in $\mathbb{R}^3$, exhibit non-trivial linking — a topological invariant that is:
+**Step 2 (Proved, Section 2).** These cycles, embedded in $\mathbb{R}^3$, exhibit non-trivial linking — a topological invariant that is:
 - Absent in any dimension $\leq 2$
 - Non-trivial only in dimension 3
 - A global invariant (requires integration over both curves)
 
-**Step 3 (Proved below, §3.3).** Satisfiability depends on the 2-skeleton (the triangles/clauses), not just the 1-skeleton (the variable interaction graph). Different 2-skeleta on the same 1-skeleton can give satisfiable vs unsatisfiable formulas.
+**Step 3 (Proved below, Section 3.3).** Satisfiability depends on the 2-skeleton (the triangles/clauses), not just the 1-skeleton (the variable interaction graph). Different 2-skeleta on the same 1-skeleton can give satisfiable vs unsatisfiable formulas.
 
-**Step 4 (Proved below, §3.4).** The fiat content $I_{\text{fiat}}$ equals the information in the 2-skeleton that is not deducible from the 1-skeleton.
+**Step 4 (Proved below, Section 3.4).** The fiat content $I_{\text{fiat}}$ equals the information in the 2-skeleton that is not deducible from the 1-skeleton.
 
-**Step 5 (Proved for bounded systems, §4).** Proof systems of operational dimension 1 cannot access linking information → exponential lower bounds.
+**Step 5 (Proved for bounded systems, Section 4).** Proof systems of operational dimension 1 cannot access linking information → exponential lower bounds.
 
-**Step 6 (The gap, §5).** Extended Frege can potentially access higher-dimensional structure via extension variables. The question is whether it can do so EFFICIENTLY for random instances.
+**Step 6 (The gap, Section 5).** Extended Frege can potentially access higher-dimensional structure via extension variables. The question is whether it can do so EFFICIENTLY for random instances.
 
 ### 3.3 The 2-Skeleton Determines Satisfiability (Proved)
 
@@ -194,9 +194,9 @@ $$\text{Size}(\Pi \vdash \neg\varphi) \geq 2^{\Omega(n / \log^2 n)}$$
 
 (i) $\Pi$ operates on the 1-skeleton of $K(\varphi)$. Its derivation steps follow 1-chains (sequences of variable interactions).
 
-(ii) The 2-skeleton structure — specifically, the linking pattern of the $\beta_1 = \Theta(n)$ independent 1-cycles — is invisible to 1-chain operations (Theorem, §2.1).
+(ii) The 2-skeleton structure — specifically, the linking pattern of the $\beta_1 = \Theta(n)$ independent 1-cycles — is invisible to 1-chain operations (Theorem, Section 2.1).
 
-(iii) By the 2-Skeleton Distinguishing Lemma (§3.3): $\Pi$ must refute $\varphi_{\text{UNSAT}}$ without using the fact that $\varphi_{\text{SAT}}$ (same 1-skeleton) is satisfiable. The refutation must encode the distinguishing information — the 2-skeleton structure.
+(iii) By the 2-Skeleton Distinguishing Lemma (Section 3.3): $\Pi$ must refute $\varphi_{\text{UNSAT}}$ without using the fact that $\varphi_{\text{SAT}}$ (same 1-skeleton) is satisfiable. The refutation must encode the distinguishing information — the 2-skeleton structure.
 
 (iv) For resolution: the classical BSW width-size tradeoff gives width $\geq \Omega(\text{tw}(G)/\log n) = \Omega(n/\log n)$ (since $\text{tw}(G) = \Theta(n)$ for random 3-SAT). Width $w$ requires size $\geq 2^{\Omega(w^2/n)} = 2^{\Omega(n/\log^2 n)}$.
 
@@ -374,7 +374,7 @@ To rigorously prove MIFC via this route, we need:
 
 **What's proved:** Every dimension-1 proof system requires exponential time on random 3-SAT. The obstruction is topological (linking). The framework unifies all known lower bounds.
 
-**What's not proved:** Extended Frege lower bounds. EF can potentially use high-arity extensions to access linking information. The circularity argument (§5.2) explains WHY EF should fail on random instances but doesn't constitute a proof.
+**What's not proved:** Extended Frege lower bounds. EF can potentially use high-arity extensions to access linking information. The circularity argument (Section 5.2) explains WHY EF should fail on random instances but doesn't constitute a proof.
 
 **The gap reduces to:** Can polynomial-size Boolean circuits decode random topological codes?
 
@@ -417,12 +417,12 @@ The AC/topological approach sits in the same category as the Ben-Sasson-Wigderso
 
 | Requirement for P $\neq$ NP | Status |
 |---|---|
-| Correct topological characterization | $\checkmark$ (DOCH, §2) |
-| $I_{\text{fiat}} = \Theta(n)$ from topology | $\checkmark$ (§1.2, §3.4) |
-| Dimensional obstruction identified | $\checkmark$ (linking in $\mathbb{R}^3$ only, §2) |
-| All dim-1 systems: exponential | $\checkmark$ (§4.1) |
-| Arity-bounded EF: superpolynomial | Conditional (§4.3) |
-| Full EF: exponential | **OPEN** (§5) |
+| Correct topological characterization | $\checkmark$ (DOCH, Section 2) |
+| $I_{\text{fiat}} = \Theta(n)$ from topology | $\checkmark$ (Section 1.2, Section 3.4) |
+| Dimensional obstruction identified | $\checkmark$ (linking in $\mathbb{R}^3$ only, Section 2) |
+| All dim-1 systems: exponential | $\checkmark$ (Section 4.1) |
+| Arity-bounded EF: superpolynomial | Conditional (Section 4.3) |
+| Full EF: exponential | **OPEN** (Section 5) |
 | MIFC → P $\neq$ NP | $\checkmark$ (Cook-Levin) |
 
 ---
@@ -449,7 +449,7 @@ If one geometry ($D_{IV}^5$) proves:
 
 Then Wigner's "unreasonable effectiveness of mathematics" dissolves. Mathematics and physics aren't unreasonably connected — they're the SAME THING seen from different dimensional projections of one geometry. The linking of 1-cycles in $\mathbb{R}^3$ that makes 3-SAT hard IS the same phenomenon that makes protons stable. Both require the dimensional onset from 2 to 3.
 
-"The universe's problem (physics) is fixed-dimensional. The mathematician's problem (SAT) is variable-dimensional. Both require one more dimension than they contain — but for the universe, '+1' is finite, while for SAT, '+1' is $+\Theta(n)$." (DOCH §6.3)
+"The universe's problem (physics) is fixed-dimensional. The mathematician's problem (SAT) is variable-dimensional. Both require one more dimension than they contain — but for the universe, '+1' is finite, while for SAT, '+1' is $+\Theta(n)$." (DOCH Section 6.3)
 
 ---
 
@@ -489,7 +489,7 @@ The 30% reflects:
 
 ---
 
-**Remark (Independence of §10 and §6).** The confinement argument (§10) is logically independent of the random topological code / OWF route (§6). §10 uses only: (i) the Extension Topology Creation Lemma (Euler characteristic), (ii) the β₁ steady state (counting), and (iii) the linking cascade (geometric/homological). It does NOT use pseudorandomness, one-way functions, or the Shannon random coding theorem. The two sections represent parallel attack vectors — §6 from coding theory, §10 from topology. Keeper flagged this to prevent circular reasoning.
+**Remark (Independence of Section 10 and Section 6).** The confinement argument (Section 10) is logically independent of the random topological code / OWF route (Section 6). Section 10 uses only: (i) the Extension Topology Creation Lemma (Euler characteristic), (ii) the β₁ steady state (counting), and (iii) the linking cascade (geometric/homological). It does NOT use pseudorandomness, one-way functions, or the Shannon random coding theorem. The two sections represent parallel attack vectors — Section 6 from coding theory, Section 10 from topology. Keeper flagged this to prevent circular reasoning.
 
 ---
 
@@ -576,7 +576,7 @@ If $E > 0$ with $\bar{k} > 1$: $S \geq \Theta(n) + E(\bar{k} - 1) \geq \Theta(n)
 
 ### 10.3 From Polynomial to Exponential: The Linking Cascade
 
-The β₁ counting argument (§10.2.iv) gives only POLYNOMIAL lower bounds. The exponential comes from the LINKING between cycles — old and new.
+The β₁ counting argument (Section 10.2.iv) gives only POLYNOMIAL lower bounds. The exponential comes from the LINKING between cycles — old and new.
 
 **Lemma (Linking Cascade).** When an extension variable $p$ of arity $k$ creates $k - 1$ new 1-cycles in the augmented complex $K'$:
 
@@ -664,20 +664,20 @@ The confined state — $\Theta(n)$ unresolved fiat bits — is the ground state.
 - Confinement Steady State: $\beta_1$ cannot be driven to zero faster than 1 per proof line. (Counting argument, no assumptions.)
 - Polynomial lower bound: $S \geq \Theta(n)$ for any proof system. (Follows from steady state.)
 
-**The geometric linking cascade (§10.3) does NOT hold as stated.** See §10.8 below.
+**The geometric linking cascade (Section 10.3) does NOT hold as stated.** See Section 10.8 below.
 
 **Status of conditional results:**
 - Linking Cascade: the constant $c$ as defined (geometric R³ linking fraction) goes to 0 as $n \to \infty$ (Toy 279, March 21, 2026). The condition $c \geq 1/2$ is NOT met under this definition. The exponential lower bound via this specific mechanism does NOT follow.
-- Proof Instability (§10.5): conditional on linking cascade → also does not follow under geometric definition.
+- Proof Instability (Section 10.5): conditional on linking cascade → also does not follow under geometric definition.
 - The proved results (T24, T25, polynomial lower bound) are UNAFFECTED.
 
 **What remains proved regardless:**
-1. All dim-1 systems require $2^{\Omega(n)}$ (T23a — §4).
-2. Extensions create topology (T24 — §10.2.iii). Unconditional.
-3. $\beta_1$ steady state: $S \geq \Theta(n)$ for ALL proof systems including EF (T25 — §10.2.iv). Unconditional. First known EF lower bound on random 3-SAT, though only polynomial.
-4. Natural proofs barrier does not apply (§7.2a). Unconditional.
+1. All dim-1 systems require $2^{\Omega(n)}$ (T23a — Section 4).
+2. Extensions create topology (T24 — Section 10.2.iii). Unconditional.
+3. $\beta_1$ steady state: $S \geq \Theta(n)$ for ALL proof systems including EF (T25 — Section 10.2.iv). Unconditional. First known EF lower bound on random 3-SAT, though only polynomial.
+4. Natural proofs barrier does not apply (Section 7.2a). Unconditional.
 
-**The new direction:** See §10.9 — the "weak variational force" (homological mixing, not geometric trapping).
+**The new direction:** See Section 10.9 — the "weak variational force" (homological mixing, not geometric trapping).
 
 ### 10.7 The BST Resonance
 
@@ -724,20 +724,20 @@ The table is not analogy. Both columns describe 2-simplices in a complex that re
 - $c_{\text{adversarial}} \approx 0$ for $n \geq 50$. A smart EF proof can place extensions to avoid geometric linking entirely.
 - The balance equation $\Delta I_{\text{fiat}} = -1 + 2c \approx -1$ for large $n$: extensions ARE net-profitable under this definition.
 
-**What this means for §10.3:** The Linking Cascade as stated (geometric $\mathbb{R}^3$ linking) does not provide the confinement mechanism. Steps 9-10 of the proof architecture (§11) fail under the geometric definition. The chain from linking cascade → proof instability → AC-Fano → MIFC → P $\neq$ NP breaks at step 9.
+**What this means for Section 10.3:** The Linking Cascade as stated (geometric $\mathbb{R}^3$ linking) does not provide the confinement mechanism. Steps 9-10 of the proof architecture (Section 11) fail under the geometric definition. The chain from linking cascade → proof instability → AC-Fano → MIFC → P $\neq$ NP breaks at step 9.
 
-**What survives:** T24 (extension topology creation), T25 (steady state, $S \geq \Theta(n)$), and all results in §1-§8 are completely unaffected. The polynomial EF lower bound $S \geq \beta_1 = \Theta(n)$ stands.
+**What survives:** T24 (extension topology creation), T25 (steady state, $S \geq \Theta(n)$), and all results in Section 1-Section 8 are completely unaffected. The polynomial EF lower bound $S \geq \beta_1 = \Theta(n)$ stands.
 
 **Diagnosis (Quaker method — near miss gets scrutiny, not defense):**
 - The absolute linking count $\beta_1 \cdot c \approx 0.25n$ grows linearly. The *number* of cycles linked to a new cycle is $O(1)$ (about 3-4 at $n = 100$), which is non-trivial but not $O(\beta_1)$.
 - The pairwise linking density of $0.35$ is embedding-dependent but stable — 35% of all cycle-pair combinations are linked. This is real topological structure, but it's the wrong observable for the confinement argument.
-- The correct observable may be algebraic (cup product pairing, $H_1$ basis rotation) rather than geometric ($\mathbb{R}^3$ linking number). See §10.9.
+- The correct observable may be algebraic (cup product pairing, $H_1$ basis rotation) rather than geometric ($\mathbb{R}^3$ linking number). See Section 10.9.
 
 ### 10.9 The Weak Variational Force (March 21, 2026)
 
 *Source: Casey Koons ("where is the weak variational force?"), Keeper (basis rotation), Elie ($\Delta\beta_1$ measurement).*
 
-The geometric linking cascade (§10.3) was measuring the **strong force** — direct topological trapping of cycles by cycles, analogous to SU(3) color confinement. The data shows it vanishes: $c_{\text{geometric}} \to 0$.
+The geometric linking cascade (Section 10.3) was measuring the **strong force** — direct topological trapping of cycles by cycles, analogous to SU(3) color confinement. The data shows it vanishes: $c_{\text{geometric}} \to 0$.
 
 But in QCD, even SU(2) (the weak force) mediates non-trivial interactions. It doesn't confine, but it **mixes flavors** at a cost of $\sim 80$ GeV per transition. The W boson doesn't trap quarks — it transforms them.
 
@@ -771,13 +771,13 @@ If $c_{\text{homological}} \geq 0$ (extensions cannot shrink $\beta_1$ on averag
 
 $$\Delta I_{\text{fiat}} = -(\text{lines to fill new cycles}) + (\text{old cycles killed}) = -(k-1) + \max(0, -\Delta\beta_1) \leq -(k-1) + 0 = -(k-1)$$
 
-Each extension of arity $k$ COSTS the proof $k - 1$ additional lines (to fill the new cycles) but GAINS nothing (doesn't reduce old $\beta_1$). The proof can only reduce $\beta_1$ through derivations (adding 2-faces without extensions), at a rate of $\leq 1$ per line. This gives the same conclusion as §10.2.iv: $S \geq \beta_1 = \Theta(n)$.
+Each extension of arity $k$ COSTS the proof $k - 1$ additional lines (to fill the new cycles) but GAINS nothing (doesn't reduce old $\beta_1$). The proof can only reduce $\beta_1$ through derivations (adding 2-faces without extensions), at a rate of $\leq 1$ per line. This gives the same conclusion as Section 10.2.iv: $S \geq \beta_1 = \Theta(n)$.
 
 **But polynomial isn't exponential.** The question is whether the weak force can yield the stronger result. Two paths:
 
 **(Path A)** If each extension rotates the $H_1$ basis by a non-trivial angle — if new cycles mix into the span of old cycles — then after $E = \Theta(n)$ extensions, the proof must track $2^{\Theta(n)}$ possible basis orientations. This would give the exponential.
 
-**(Path B)** If the overlap density is bounded below by a constant: $\text{overlap}(n) \geq c_0 > 0$, then each extension interferes with $\Theta(\beta_1)$ old cycles — the same strength as the linking cascade but through a different mechanism (edge sharing, not geometric linking). The balance equation from §10.3 would apply with $c_0$ replacing $c_{\text{geometric}}$.
+**(Path B)** If the overlap density is bounded below by a constant: $\text{overlap}(n) \geq c_0 > 0$, then each extension interferes with $\Theta(\beta_1)$ old cycles — the same strength as the linking cascade but through a different mechanism (edge sharing, not geometric linking). The balance equation from Section 10.3 would apply with $c_0$ replacing $c_{\text{geometric}}$.
 
 ### 10.9.1 Toy 280 Results: Weak Confinement CONFIRMED (March 21, 2026)
 
@@ -1017,7 +1017,7 @@ $c$ trend: $1.0094 \to 1.0040 \to 1.0004$. Converging toward 1, not away from it
 
 Casey's pivot: "The universe created just enough that it's possible, SUPER HARD but possible to almost know everything. Maxwell's Demon succeeds by putting all information together. But entropy still wins."
 
-The compound interest failure (§10.13 Stage 3) told us something profound: individual kills are polynomial. Each fiat bit CAN be collected. But the **second law of thermodynamics** says: organizing $\Theta(n)$ collected bits against the entropy of the free energy landscape costs exponential work.
+The compound interest failure (Section 10.13 Stage 3) told us something profound: individual kills are polynomial. Each fiat bit CAN be collected. But the **second law of thermodynamics** says: organizing $\Theta(n)$ collected bits against the entropy of the free energy landscape costs exponential work.
 
 **The spin glass connection.** Random 3-SAT at $\alpha_c$ is a spin glass (Mézard-Parisi-Zecchina 2002). The solution space has:
 - Exponentially many metastable states (clusters)
@@ -1075,7 +1075,7 @@ The entire P $\neq$ NP question reduces to: **is symmetry the only source of alg
 Two paths to proving T29:
 - **(A) Combinatorial:** Prove that $\text{Aut}(\varphi) = \{e\}$ implies no polynomial-time function correlates cycle parities. Pure proof complexity.
 - **(B) Statistical physics:** Prove the overlap gap property for random 3-SAT at $\alpha_c$. The OGP would imply that the solution landscape has no intermediate states, blocking EF from interpolating between clusters. This would close T29 via Boltzmann's second law.
-- **(C) Undecidability:** Reduce to the Halting Problem. The proof search for random 3-SAT is a computation. Whether it halts in polynomial time is itself undecidable — and this undecidability IS P $\neq$ NP. See §10.15.
+- **(C) Undecidability:** Reduce to the Halting Problem. The proof search for random 3-SAT is a computation. Whether it halts in polynomial time is itself undecidable — and this undecidability IS P $\neq$ NP. See Section 10.15.
 
 ### 10.15 Toy 284 and the Halting Reduction
 
@@ -1326,26 +1326,26 @@ Combining all sections, the proof of P $\neq$ NP has the following structure:
 
 | Step | Content | Status | Section |
 |---|---|---|---|
-| 1 | $\beta_1(K(\varphi)) = \Theta(n)$ | **Proved** | §1.2 |
-| 2 | Linking impossible in $\mathbb{R}^2$, non-trivial in $\mathbb{R}^3$ | **Proved** | §2 |
-| 3 | 2-skeleton determines satisfiability | **Proved** | §3.3 |
-| 4 | $I_{\text{fiat}} = \Theta(n)$ from topology | **Proved** | §3.4 |
-| 5 | All dim-1 systems: $2^{\Omega(n)}$ | **Proved** | §4 |
-| 6 | Natural proofs barrier does NOT apply | **Proved** | §7.2a |
-| 7 | Extensions create new topology ($k-1$ cycles) | **Proved** | §10.2 |
-| 8 | $\beta_1$ steady state (confinement ground state) | **Proved** | §10.2.iv |
-| 9 | ~~Linking cascade ($c \geq 1/2$)~~ | **FAILED** (geometric, Toy 279) | §10.3, §10.8 |
-| 9' | Weak homological monotonicity ($\Delta\beta_1 \geq 0$) | **PROVED** (Toy 280) | §10.9.1 |
-| 10 | ~~Basis rotation → fiat entanglement~~ | **RESOLVED** ($r \approx 1$, Toy 281) — no rotation | §10.9.3 |
-| 10' | Topological inertness (T28) | **PROVED** (Toy 281) | §10.10 |
-| 11 | Algebraic independence of cycle solutions | **OPEN** — THE GAP (T29) | §10.12 |
-| 11' | ~~Compound interest ($c > 1$)~~ | **FAILED** ($c \to 1$, Toy 283) — polynomial | §10.13 |
-| 11'' | Width bottleneck → $2^{\Omega(n)}$ (T30, given T29) | **Proved (conditional)** | §10.13 |
-| 11''' | Boltzmann/OGP path to T29 | **OPEN** (new direction) | §10.14 |
-| 11'''' | Halting shadow (SAT/UNSAT indistinguishable) | **PROVED** (Toy 285, $d = 0.32 \to 0$) | §10.16 |
-| 11''''' | Kolmogorov incompressibility of backbone | **EMPIRICAL** (Toy 286, $K^{\text{poly}} \geq 0.90n$) | §10.17 |
-| 11'''''' | Overlap Gap Property at k=3 | **EMPIRICAL** (Toy 287, 100% OGP) | §10.18 |
-| 12 | AC-Fano → $T \geq 2^{\Theta(n)}$ | **Proved (given 11)** | §10.3 |
+| 1 | $\beta_1(K(\varphi)) = \Theta(n)$ | **Proved** | Section 1.2 |
+| 2 | Linking impossible in $\mathbb{R}^2$, non-trivial in $\mathbb{R}^3$ | **Proved** | Section 2 |
+| 3 | 2-skeleton determines satisfiability | **Proved** | Section 3.3 |
+| 4 | $I_{\text{fiat}} = \Theta(n)$ from topology | **Proved** | Section 3.4 |
+| 5 | All dim-1 systems: $2^{\Omega(n)}$ | **Proved** | Section 4 |
+| 6 | Natural proofs barrier does NOT apply | **Proved** | Section 7.2a |
+| 7 | Extensions create new topology ($k-1$ cycles) | **Proved** | Section 10.2 |
+| 8 | $\beta_1$ steady state (confinement ground state) | **Proved** | Section 10.2.iv |
+| 9 | ~~Linking cascade ($c \geq 1/2$)~~ | **FAILED** (geometric, Toy 279) | Section 10.3, Section 10.8 |
+| 9' | Weak homological monotonicity ($\Delta\beta_1 \geq 0$) | **PROVED** (Toy 280) | Section 10.9.1 |
+| 10 | ~~Basis rotation → fiat entanglement~~ | **RESOLVED** ($r \approx 1$, Toy 281) — no rotation | Section 10.9.3 |
+| 10' | Topological inertness (T28) | **PROVED** (Toy 281) | Section 10.10 |
+| 11 | Algebraic independence of cycle solutions | **OPEN** — THE GAP (T29) | Section 10.12 |
+| 11' | ~~Compound interest ($c > 1$)~~ | **FAILED** ($c \to 1$, Toy 283) — polynomial | Section 10.13 |
+| 11'' | Width bottleneck → $2^{\Omega(n)}$ (T30, given T29) | **Proved (conditional)** | Section 10.13 |
+| 11''' | Boltzmann/OGP path to T29 | **OPEN** (new direction) | Section 10.14 |
+| 11'''' | Halting shadow (SAT/UNSAT indistinguishable) | **PROVED** (Toy 285, $d = 0.32 \to 0$) | Section 10.16 |
+| 11''''' | Kolmogorov incompressibility of backbone | **EMPIRICAL** (Toy 286, $K^{\text{poly}} \geq 0.90n$) | Section 10.17 |
+| 11'''''' | Overlap Gap Property at k=3 | **EMPIRICAL** (Toy 287, 100% OGP) | Section 10.18 |
+| 12 | AC-Fano → $T \geq 2^{\Theta(n)}$ | **Proved (given 11)** | Section 10.3 |
 | 13 | MIFC → P $\neq$ NP (Cook-Levin) | **Proved (given 12)** | Standard |
 
 **Status: 15 of 19 steps proved/resolved.** Two devastating empirical results now support T29 from independent directions. **Step 11''''': EMPIRICAL** — backbone incompressible at $0.90n$ bits, Path C (Toy 286). **Step 11'''''': EMPIRICAL** — 100% OGP at k=3, Path B (Toy 287). **Step 11: OPEN** — T29 (algebraic independence). Both paths converge: the OGP IS the geometric Kolmogorov barrier. Formal proof requires: OGP $\to$ no interpolation $\to$ no algebraic correlation (T29), or equivalently: incompressibility $\to$ no correlation (contrapositive). Priority path: C $\to$ B $\to$ A.
@@ -1358,7 +1358,7 @@ Combining all sections, the proof of P $\neq$ NP has the following structure:
 Basis rotation $r \approx 1$ everywhere. Extensions are topologically INERT — they don't scramble the $H_1$ basis at all. The original fiat bits sit invariant. The gap has shifted from "does mixing force exponential decoding?" to "can EF exploit non-topological, non-symmetry algebraic structure?"
 
 **What remains for P $\neq$ NP:**
-The gap reduces to T29 (§10.12): for random 3-SAT with $\text{Aut}(\varphi) = \{e\}$ and topologically independent $H_1$ generators, are the cycle solutions algebraically independent? Topological independence ($r \approx 1$) is proved. The question: does trivial automorphism group kill algebraic correlation? If yes: Shannon independence → product space → $2^{\Theta(n)}$ → P $\neq$ NP.
+The gap reduces to T29 (Section 10.12): for random 3-SAT with $\text{Aut}(\varphi) = \{e\}$ and topologically independent $H_1$ generators, are the cycle solutions algebraically independent? Topological independence ($r \approx 1$) is proved. The question: does trivial automorphism group kill algebraic correlation? If yes: Shannon independence → product space → $2^{\Theta(n)}$ → P $\neq$ NP.
 
 **What Toy 286 adds (the Kolmogorov kill shot):**
 The backbone of random 3-SAT is empirically incompressible: $K^{\text{poly}}(\text{backbone} | \varphi) \geq 0.90n$ bits. FLP finds 0% of backbone variables. Entropy $\to 1.0$. Growth rate $0.90$ bits/variable. The incompressibility is MEASURED, not assumed. The formal proof reduces to the contrapositive: if the backbone WERE compressible, a compressor would imply algebraic correlation between cycle parities — contradicting $\text{Aut}(\varphi) = \{e\}$ + T28 (topological inertness). This is T29 by contrapositive.

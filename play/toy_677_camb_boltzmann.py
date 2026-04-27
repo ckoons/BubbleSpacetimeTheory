@@ -36,7 +36,7 @@ print()
 
 # Five integers
 N_c, n_C, g, C_2, rank = 3, 5, 7, 6, 2
-N_max = 137  # From BST: α = 1/N_max (derivation in WorkingPaper §2)
+N_max = 137  # From BST: α = 1/N_max (derivation in WorkingPaper Section 2)
 
 # BST-derived cosmic fractions
 Omega_Lambda = 13.0 / 19.0   # 0.684211

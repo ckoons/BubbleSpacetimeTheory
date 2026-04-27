@@ -4,7 +4,7 @@ Toy 545 — The Second Code: Aminoacyl-tRNA Synthetases from D_IV^5
 ==================================================================
 
 The genetic code has TWO layers:
-  1. Codon → amino acid mapping (the "first code" — §1-§5)
+  1. Codon → amino acid mapping (the "first code" — Section 1-Section 5)
   2. Amino acid → tRNA charging (the "second code" — this toy)
 
 Aminoacyl-tRNA synthetases (aaRS) are the TRANSLATORS. Each one
@@ -480,7 +480,7 @@ def test_operational_code():
     print(f"    Once in the anticodon (for codon matching)")
     print(f"  Each encoding uses C₂ = 6 bits. Total = 2C₂ = 12.")
     print(f"  This is the SAME 2C₂ = 12 that appears in the error")
-    print(f"  correction hierarchy (§4 of the paper).")
+    print(f"  correction hierarchy (Section 4 of the paper).")
     print(f"  Half for identity, half for error correction — the")
     print(f"  universal allocation of the code's bandwidth.")
 

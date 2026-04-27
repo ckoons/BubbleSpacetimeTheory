@@ -192,6 +192,6 @@ The Gödel Limit isn't a wall. It's a **floor plan** — the constraint that for
 
 ---
 
-*"The ratchet becomes a drill, not a bucket." — from Keeper's Three Eras (§14.2)*
+*"The ratchet becomes a drill, not a bucket." — from Keeper's Three Eras (Section 14.2)*
 
 *Investigation I15. Connects to: I1 (ratchet convergence), I14 (Three Eras), Elie I10c (depth measure toy).*

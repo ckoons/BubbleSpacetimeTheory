@@ -35,9 +35,9 @@ print("Q³ = Sp(4,R)/U(2) = Siegel H₂ → Riemann ζ connection")
 print("=" * 72)
 
 # =====================================================================
-# §1. SIEGEL MODULAR FORMS
+# Section 1. SIEGEL MODULAR FORMS
 # =====================================================================
-print("\n§1. SIEGEL MODULAR FORMS ON H₂")
+print("\nSection 1. SIEGEL MODULAR FORMS ON H₂")
 print("-" * 50)
 
 print("""
@@ -59,9 +59,9 @@ print("""
 """)
 
 # =====================================================================
-# §2. THE EISENSTEIN SERIES
+# Section 2. THE EISENSTEIN SERIES
 # =====================================================================
-print("\n§2. SIEGEL EISENSTEIN SERIES")
+print("\nSection 2. SIEGEL EISENSTEIN SERIES")
 print("-" * 50)
 
 print("""
@@ -77,9 +77,9 @@ print("""
 """)
 
 # =====================================================================
-# §3. LANGLANDS L-FUNCTIONS
+# Section 3. LANGLANDS L-FUNCTIONS
 # =====================================================================
-print("\n§3. THE STANDARD L-FUNCTION")
+print("\nSection 3. THE STANDARD L-FUNCTION")
 print("-" * 50)
 
 print("""
@@ -98,9 +98,9 @@ print("""
 """)
 
 # =====================================================================
-# §4. THE ζ-FACTORIZATION THEOREM
+# Section 4. THE ζ-FACTORIZATION THEOREM
 # =====================================================================
-print("\n§4. THE ζ-FACTORIZATION FOR EISENSTEIN SERIES")
+print("\nSection 4. THE ζ-FACTORIZATION FOR EISENSTEIN SERIES")
 print("-" * 50)
 
 print("""
@@ -138,9 +138,9 @@ for g in range(1, 6):
           f"ζ-factors = {factors}")
 
 # =====================================================================
-# §5. THE SPIN L-FUNCTION
+# Section 5. THE SPIN L-FUNCTION
 # =====================================================================
-print("\n\n§5. THE SPIN L-FUNCTION")
+print("\n\nSection 5. THE SPIN L-FUNCTION")
 print("-" * 50)
 
 print("""
@@ -164,9 +164,9 @@ print("""
 """)
 
 # =====================================================================
-# §6. THE BRIDGE TO RIEMANN
+# Section 6. THE BRIDGE TO RIEMANN
 # =====================================================================
-print("\n§6. THE SELBERG-LANGLANDS-RIEMANN BRIDGE")
+print("\nSection 6. THE SELBERG-LANGLANDS-RIEMANN BRIDGE")
 print("-" * 50)
 
 print("""
@@ -208,9 +208,9 @@ print("""
 """)
 
 # =====================================================================
-# §7. COUNTING THE ζ-APPEARANCES
+# Section 7. COUNTING THE ζ-APPEARANCES
 # =====================================================================
-print("\n§7. ζ APPEARS N_c TIMES")
+print("\nSection 7. ζ APPEARS N_c TIMES")
 print("-" * 50)
 
 print("  For the standard L-function of degree-g Eisenstein series:")
@@ -247,9 +247,9 @@ for g in range(1, 8):
               f"match: {total == c2}")
 
 # =====================================================================
-# §8. THE FUNCTIONAL EQUATION
+# Section 8. THE FUNCTIONAL EQUATION
 # =====================================================================
-print("\n\n§8. THE FUNCTIONAL EQUATION")
+print("\n\nSection 8. THE FUNCTIONAL EQUATION")
 print("-" * 50)
 
 print("""
@@ -279,9 +279,9 @@ print("""
 """)
 
 # =====================================================================
-# §9. THE SATAKE ISOMORPHISM
+# Section 9. THE SATAKE ISOMORPHISM
 # =====================================================================
-print("\n§9. THE SATAKE ISOMORPHISM")
+print("\nSection 9. THE SATAKE ISOMORPHISM")
 print("-" * 50)
 
 print("""
@@ -308,9 +308,9 @@ print("""
 """)
 
 # =====================================================================
-# §10. BST-SPECIFIC CONNECTIONS
+# Section 10. BST-SPECIFIC CONNECTIONS
 # =====================================================================
-print("\n§10. BST-SPECIFIC CONNECTIONS")
+print("\nSection 10. BST-SPECIFIC CONNECTIONS")
 print("-" * 50)
 
 # The degree of the standard L-function for Sp(2N_c) = 2N_c + 1 = g
@@ -340,9 +340,9 @@ print("  ★ g + 2^N_c = 7 + 8 = 15 = N_c × n_C")
 print("    The sum of standard and spin degrees = product of BST fundamentals!")
 
 # =====================================================================
-# §11. THE RIEMANN HYPOTHESIS CONNECTION
+# Section 11. THE RIEMANN HYPOTHESIS CONNECTION
 # =====================================================================
-print("\n\n§11. THE RIEMANN HYPOTHESIS AND BST")
+print("\n\nSection 11. THE RIEMANN HYPOTHESIS AND BST")
 print("-" * 50)
 
 print("""
@@ -387,9 +387,9 @@ print("""
 """)
 
 # =====================================================================
-# §12. NUMERICAL: ζ-VALUES FROM Q³ SPECTRAL DATA
+# Section 12. NUMERICAL: ζ-VALUES FROM Q³ SPECTRAL DATA
 # =====================================================================
-print("\n§12. ζ-VALUES FROM Q³ SPECTRAL DATA")
+print("\nSection 12. ζ-VALUES FROM Q³ SPECTRAL DATA")
 print("-" * 50)
 
 # Spectral zeta of Q³: ζ_Δ(s) = Σ d_k/λ_k^s
@@ -420,9 +420,9 @@ for s in [2, 3, 4]:
     print(f"  ζ_Δ(Q³, s={s}) ≈ {total:.10f}")
 
 # =====================================================================
-# §13. SYNTHESIS
+# Section 13. SYNTHESIS
 # =====================================================================
-print("\n\n§13. SYNTHESIS: THE SIEGEL BRIDGE")
+print("\n\nSection 13. SYNTHESIS: THE SIEGEL BRIDGE")
 print("-" * 50)
 
 print("""

@@ -42,9 +42,9 @@ c3 = 13
 P1 = 42
 
 # ═══════════════════════════════════════════════════════════════
-# §1. so(7) = B_3 AT LEVEL 2: ALL INTEGRABLE REPRESENTATIONS
+# Section 1. so(7) = B_3 AT LEVEL 2: ALL INTEGRABLE REPRESENTATIONS
 # ═══════════════════════════════════════════════════════════════
-print("\n§1. ALL 7 INTEGRABLE REPRESENTATIONS OF so(7) LEVEL 2")
+print("\nSection 1. ALL 7 INTEGRABLE REPRESENTATIONS OF so(7) LEVEL 2")
 print("-" * 50)
 
 rank = 3
@@ -162,9 +162,9 @@ print(f"\n  Classical dimensions: {dims}")
 print(f"  Sum of dimensions: {sum(dims)}")
 
 # ═══════════════════════════════════════════════════════════════
-# §2. QUANTUM DIMENSIONS
+# Section 2. QUANTUM DIMENSIONS
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§2. QUANTUM DIMENSIONS AT q = e^{2πi/7}")
+print("\n\nSection 2. QUANTUM DIMENSIONS AT q = e^{2πi/7}")
 print("-" * 50)
 
 def quantum_dim(eps, rho_vec, M_val, coroots):
@@ -193,9 +193,9 @@ print(f"  D = {math.sqrt(D_sq):.6f}")
 print(f"  D² = {round(D_sq)} = C₂ - r = {C2} - {r}")
 
 # ═══════════════════════════════════════════════════════════════
-# §3. FULL S-MATRIX (ALL 7 REPS)
+# Section 3. FULL S-MATRIX (ALL 7 REPS)
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§3. FULL MODULAR S-MATRIX (ALL 7 REPS)")
+print("\n\nSection 3. FULL MODULAR S-MATRIX (ALL 7 REPS)")
 print("-" * 50)
 
 # Weyl group of B_3: signed permutations, |W| = 48
@@ -253,9 +253,9 @@ for i, rep_i in enumerate(all_reps):
     print()
 
 # ═══════════════════════════════════════════════════════════════
-# §4. QUANTUM DIMENSIONS FROM S-MATRIX
+# Section 4. QUANTUM DIMENSIONS FROM S-MATRIX
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§4. QUANTUM DIMENSIONS FROM S-MATRIX")
+print("\n\nSection 4. QUANTUM DIMENSIONS FROM S-MATRIX")
 print("-" * 50)
 
 print("  d_i = S_{i0}/S_{00}:")
@@ -266,9 +266,9 @@ for i, rep_i in enumerate(all_reps):
     print(f"    {name:6s}: d_q = {dq.real:10.6f}")
 
 # ═══════════════════════════════════════════════════════════════
-# §5. VERLINDE FUSION COEFFICIENTS (FULL 7×7×7 TENSOR)
+# Section 5. VERLINDE FUSION COEFFICIENTS (FULL 7×7×7 TENSOR)
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§5. VERLINDE FUSION COEFFICIENTS (FULL)")
+print("\n\nSection 5. VERLINDE FUSION COEFFICIENTS (FULL)")
 print("-" * 50)
 
 # N_{ij}^k = Σ_s S_{is} S_{js} S*_{ks} / S_{0s}
@@ -303,9 +303,9 @@ for i in range(n):
             print(f"    {name_i:6s} × {name_j:6s} = {' + '.join(terms)}")
 
 # ═══════════════════════════════════════════════════════════════
-# §6. FUSION MATRICES AND THEIR EIGENVALUES
+# Section 6. FUSION MATRICES AND THEIR EIGENVALUES
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§6. FUSION MATRICES N_i AND THEIR EIGENVALUES")
+print("\n\nSection 6. FUSION MATRICES N_i AND THEIR EIGENVALUES")
 print("-" * 50)
 
 for i in range(n):
@@ -349,9 +349,9 @@ for i in range(n):
     print(f"    det(N_{name_i}) = {det_val:.4f}")
 
 # ═══════════════════════════════════════════════════════════════
-# §7. FUSION RING ARITHMETIC
+# Section 7. FUSION RING ARITHMETIC
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§7. FUSION RING ARITHMETIC: BST CONTENT")
+print("\n\nSection 7. FUSION RING ARITHMETIC: BST CONTENT")
 print("-" * 50)
 
 # Total fusion multiplicities
@@ -396,9 +396,9 @@ for bname, bval in [('g', 7), ('g²', 49), ('g³', 343),
         print(f"    {grand_total} / {bval} = {grand_total // bval} ({bname})")
 
 # ═══════════════════════════════════════════════════════════════
-# §8. THE FUSION GRAPH
+# Section 8. THE FUSION GRAPH
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§8. THE FUSION GRAPH OF THE VECTOR REP V")
+print("\n\nSection 8. THE FUSION GRAPH OF THE VECTOR REP V")
 print("-" * 50)
 
 # The vector rep V = (1,0,0) generates the fusion ring
@@ -431,9 +431,9 @@ else:
     print("  V = (1,0,0) is on the wall — cannot generate!")
 
 # ═══════════════════════════════════════════════════════════════
-# §9. THE SPINOR FUSION
+# Section 9. THE SPINOR FUSION
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§9. SPINOR FUSION")
+print("\n\nSection 9. SPINOR FUSION")
 print("-" * 50)
 
 sp_idx = None
@@ -459,9 +459,9 @@ if sp_idx is not None:
         print(f"    Sp × {name_j:6s} = {result}")
 
 # ═══════════════════════════════════════════════════════════════
-# §10. ASSOCIATIVITY CHECK
+# Section 10. ASSOCIATIVITY CHECK
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§10. ASSOCIATIVITY CHECK: (V × Sp) × Sp vs V × (Sp × Sp)")
+print("\n\nSection 10. ASSOCIATIVITY CHECK: (V × Sp) × Sp vs V × (Sp × Sp)")
 print("-" * 50)
 
 if v_idx is not None and sp_idx is not None:
@@ -521,9 +521,9 @@ if v_idx is not None and sp_idx is not None:
         print("  ✗ ASSOCIATIVITY FAILS!")
 
 # ═══════════════════════════════════════════════════════════════
-# §11. COMPARISON WITH CLASSICAL TENSOR PRODUCTS
+# Section 11. COMPARISON WITH CLASSICAL TENSOR PRODUCTS
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§11. CLASSICAL vs QUANTUM: TRUNCATION")
+print("\n\nSection 11. CLASSICAL vs QUANTUM: TRUNCATION")
 print("-" * 50)
 
 print("""
@@ -539,9 +539,9 @@ print("""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §12. FROBENIUS-PERRON DIMENSION
+# Section 12. FROBENIUS-PERRON DIMENSION
 # ═══════════════════════════════════════════════════════════════
-print("\n§12. FROBENIUS-PERRON DIMENSIONS")
+print("\nSection 12. FROBENIUS-PERRON DIMENSIONS")
 print("-" * 50)
 
 # The FP dimension is the largest eigenvalue of N_i
@@ -559,9 +559,9 @@ for i in range(n):
     print(f"  {name_i:6s}: FPdim = {fp:10.6f}  (classical: {all_reps[i]['classical_dim']})")
 
 # ═══════════════════════════════════════════════════════════════
-# §13. T-MATRIX (TWISTS)
+# Section 13. T-MATRIX (TWISTS)
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§13. T-MATRIX (MODULAR TWISTS)")
+print("\n\nSection 13. T-MATRIX (MODULAR TWISTS)")
 print("-" * 50)
 
 print(f"  T_ii = exp(2πi(h_i - c/24)) where h_i is conformal weight")
@@ -582,11 +582,11 @@ for rep in all_reps:
           f"  = exp(2πi × {float(twist):.6f})")
 
 # ═══════════════════════════════════════════════════════════════
-# §14. SYNTHESIS
+# Section 14. SYNTHESIS
 # ═══════════════════════════════════════════════════════════════
 print("\n")
 print("=" * 72)
-print("§14. SYNTHESIS: THE BST FUSION RING")
+print("Section 14. SYNTHESIS: THE BST FUSION RING")
 print("=" * 72)
 
 print(f"""

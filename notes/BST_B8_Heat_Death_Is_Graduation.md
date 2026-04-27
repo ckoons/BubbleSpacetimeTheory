@@ -92,7 +92,7 @@ Three 2026 results made this statable as a theorem:
 2. **T1242** (Universal Consonance) — locked the substrate structure across scales and cycles.
 3. **T1264** (Reboot Theorem) — formalized the transition ℂ_n → ℂ_{n+1} as alphabet-preserving.
 
-Casey's Interstasis Hypothesis (March 2026) was the precursor. The Boldest Discoveries master paper includes B8 as §B8; this standalone letter extracts it for outreach.
+Casey's Interstasis Hypothesis (March 2026) was the precursor. The Boldest Discoveries master paper includes B8 as Section B8; this standalone letter extracts it for outreach.
 
 ---
 

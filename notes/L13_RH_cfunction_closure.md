@@ -54,7 +54,7 @@ In rank 1 (SL(2,ℝ)): the Maass-Selberg relation is scalar, and the constraint 
 ## Key references
 
 - Langlands, "On the Functional Equations Satisfied by Eisenstein Series" (1976)
-- Arthur, "An Introduction to the Trace Formula" (2005), §§26-27 on Maass-Selberg
+- Arthur, "An Introduction to the Trace Formula" (2005), Sections 26-27 on Maass-Selberg
 - Müller, "The Trace Class Conjecture in the Theory of Automorphic Forms" (1989)
 - Toy 324 data: play/toy_324_residue_matching.py
 

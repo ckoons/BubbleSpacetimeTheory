@@ -163,7 +163,7 @@ where $r = 2$ is the rank of $Q^n$. This identifies the gap as a rank correction
 
 Two hypotheses tested, two clean results:
 
-1. **R-gap = $N_c$**: KILLED. The gap is universally $3 = 2r-1$ across the family (Proposition, §6). Independently interesting — a provable theorem about rank-2 symmetric spaces — but not a uniqueness condition.
+1. **R-gap = $N_c$**: KILLED. The gap is universally $3 = 2r-1$ across the family (Proposition, Section 6). Independently interesting — a provable theorem about rank-2 symmetric spaces — but not a uniqueness condition.
 
 2. **$a_4 = N_c g^2 + 25/18$**: The fourth heat kernel coefficient $a_4(Q^5) = 2671/18$ lies within $0.9\%$ of the fiber packing number $N_c g^2 = 147$, with rational correction $25/18 = n_C^2/(2N_c^2)$. Among all $Q^n$, $n = 5$ is the unique integer where $a_4(Q^n)$ crosses $(n-2)(2n-3)^2$. At $n = 5$ this crossing involves a triple coincidence: $N_c g^2 = \dim(\mathfrak{so}(7) \otimes V_1) = 147$ (a representation dimension, not just a polynomial). This is the 21st uniqueness condition.
 

@@ -20,27 +20,27 @@ The chemistry is local. The code is universal. And the proof is nine definitions
 
 ### Special Highlights
 
-- **65 structural constants** of molecular biology derived from 5 integers, **zero** free parameters (§21, Toy 550)
-- **α-helix pitch = 3.6 = N_c × C₂ / n_C = 18/5** — Pauling's number from pure geometry (§20.2, Toy 549)
-- **Three helix spacings {3, 4, 5} = {N_c, 2^rank, n_C}** — no other spacings exist (§20.3, Toy 549)
-- **tRNA: every universal parameter ∈ {3, 5, 7}**, p < 2 × 10⁻⁴; multiplicities also BST integers (§17.1, Toy 546)
-- **g = C₂ + 1**: identity region = 7 nucleotides = Casimir + discriminator (§17.4, Toy 546)
-- **10 bp/turn = dim(D_IV^5)**: DNA helix periodicity = real dimension of the domain (§19.3, Toy 548)
-- **20/2/10 synthetase split** = Λ³(6)/rank/dim, mirror folds, 2'-OH/3'-OH = rank-2 (§16, Toy 545)
-- **61 sense codons = 2^C₂ − N_c = PRIME** — the sense code is algebraically irreducible (§18.4, Toy 547)
-- **RNA world → DNA+RNA = rank-1 → rank-2 phase transition** (§19.4, Toy 548)
-- **Translation is AC(0)**: ribosome = lookup table, D ≤ 1 (§16.6, Toy 545)
-- **116/116 tests** across 10 dedicated toys, all clean (§21, Toy 550)
-- **★ 120 neural architecture constants** from same 5 integers, 60/60 tests (§22, Toys 559-563)
-- **★ 6 cortical layers = C₂**, 3 cerebellar layers = N_c, 4 lobes = 2^rank (§22.1, Toy 559)
-- **★ 5 EEG bands = n_C** with center ratios 1/n_C, N_c/n_C, rank, 2^rank × alpha (§22.2, Toy 560)
-- **★ 4×6 channel architecture = 2^rank × C₂** — universal across Na⁺, K⁺, Ca²⁺ channels (§22.3, Toy 561)
-- **★ m³h gating: N_c activation + 1 inactivation = 2^rank** (Hodgkin-Huxley, §22.3, Toy 561)
-- **★ 7 serotonin receptor families = g**, 7 NMDA genes = g, 7 BG nuclei = g (§22.4, Toys 560/562)
-- **★ 12 cranial nerves = 2C₂** with N_c sensory / n_C motor / 2^rank mixed partition (§22.1, Toy 559)
-- **★ 7 cervical vertebrae = g** — universal across all mammals (§22.1, Toy 559)
-- **★ Inhibitory fraction ≈ f_crit = 20.6%** — cooperation threshold IS neural balance (§22.1, Toy 559)
-- **★ Combined: 185 biology constants, 0 free parameters** (§22.5, Toy 563)
+- **65 structural constants** of molecular biology derived from 5 integers, **zero** free parameters (Section 21, Toy 550)
+- **α-helix pitch = 3.6 = N_c × C₂ / n_C = 18/5** — Pauling's number from pure geometry (Section 20.2, Toy 549)
+- **Three helix spacings {3, 4, 5} = {N_c, 2^rank, n_C}** — no other spacings exist (Section 20.3, Toy 549)
+- **tRNA: every universal parameter ∈ {3, 5, 7}**, p < 2 × 10⁻⁴; multiplicities also BST integers (Section 17.1, Toy 546)
+- **g = C₂ + 1**: identity region = 7 nucleotides = Casimir + discriminator (Section 17.4, Toy 546)
+- **10 bp/turn = dim(D_IV^5)**: DNA helix periodicity = real dimension of the domain (Section 19.3, Toy 548)
+- **20/2/10 synthetase split** = Λ³(6)/rank/dim, mirror folds, 2'-OH/3'-OH = rank-2 (Section 16, Toy 545)
+- **61 sense codons = 2^C₂ − N_c = PRIME** — the sense code is algebraically irreducible (Section 18.4, Toy 547)
+- **RNA world → DNA+RNA = rank-1 → rank-2 phase transition** (Section 19.4, Toy 548)
+- **Translation is AC(0)**: ribosome = lookup table, D ≤ 1 (Section 16.6, Toy 545)
+- **116/116 tests** across 10 dedicated toys, all clean (Section 21, Toy 550)
+- **★ 120 neural architecture constants** from same 5 integers, 60/60 tests (Section 22, Toys 559-563)
+- **★ 6 cortical layers = C₂**, 3 cerebellar layers = N_c, 4 lobes = 2^rank (Section 22.1, Toy 559)
+- **★ 5 EEG bands = n_C** with center ratios 1/n_C, N_c/n_C, rank, 2^rank × alpha (Section 22.2, Toy 560)
+- **★ 4×6 channel architecture = 2^rank × C₂** — universal across Na⁺, K⁺, Ca²⁺ channels (Section 22.3, Toy 561)
+- **★ m³h gating: N_c activation + 1 inactivation = 2^rank** (Hodgkin-Huxley, Section 22.3, Toy 561)
+- **★ 7 serotonin receptor families = g**, 7 NMDA genes = g, 7 BG nuclei = g (Section 22.4, Toys 560/562)
+- **★ 12 cranial nerves = 2C₂** with N_c sensory / n_C motor / 2^rank mixed partition (Section 22.1, Toy 559)
+- **★ 7 cervical vertebrae = g** — universal across all mammals (Section 22.1, Toy 559)
+- **★ Inhibitory fraction ≈ f_crit = 20.6%** — cooperation threshold IS neural balance (Section 22.1, Toy 559)
+- **★ Combined: 185 biology constants, 0 free parameters** (Section 22.5, Toy 563)
 
 ---
 
@@ -357,7 +357,7 @@ The genetic code works the same way.
 7. **Wobble at position 3** — root hierarchy $m_l < m_s$
 8. **Degeneracy classes** — divisors of $2C_2 = 12$
 9. **Error resilience** — subcube geometry forces near-optimality
-10. **Single chirality** — 1 bit saved, no information gained (channel capacity argument). Which hand is local (§9).
+10. **Single chirality** — 1 bit saved, no information gained (channel capacity argument). Which hand is local (Section 9).
 
 These are **boundary conditions**. They hold on any planet, in any chemistry, at any temperature, in any solvent. They are as universal as $\alpha = 1/137$ or $m_p/m_e = 6\pi^5$.
 
@@ -753,7 +753,7 @@ A code is only as good as its translator. Imagine you have a perfect encryption 
 
 The twenty enzymes that do this job — the aminoacyl-tRNA synthetases — are the "second code." And they are as geometrically forced as the first.
 
-The genetic code (§2) maps codons to amino acids. But who enforces the mapping? The **aminoacyl-tRNA synthetases (aaRS)** — 20 enzymes that attach the correct amino acid to its cognate tRNA. This is the "second code," and it is as geometrically forced as the first.
+The genetic code (Section 2) maps codons to amino acids. But who enforces the mapping? The **aminoacyl-tRNA synthetases (aaRS)** — 20 enzymes that attach the correct amino acid to its cognate tRNA. This is the "second code," and it is as geometrically forced as the first.
 
 ### 16.1 The Numbers
 
@@ -801,7 +801,7 @@ Schimmel & Giegé (1993) discovered that minihelices containing **only the accep
 | Anticodon | 3 bases | 6 | $C_2$ |
 | **Total identity** | — | **12** | $2C_2$ |
 
-The tRNA encodes its amino acid identity **twice**: once in the acceptor stem (for aaRS recognition), once in the anticodon (for codon matching). Each encoding uses $C_2 = 6$ bits. Total = $2C_2 = 12$. This is the same $2C_2 = 12$ that appears in the error correction hierarchy (§4).
+The tRNA encodes its amino acid identity **twice**: once in the acceptor stem (for aaRS recognition), once in the anticodon (for codon matching). Each encoding uses $C_2 = 6$ bits. Total = $2C_2 = 12$. This is the same $2C_2 = 12$ that appears in the error correction hierarchy (Section 4).
 
 ### 16.5 Conservation and Exceptions
 
@@ -882,7 +882,7 @@ The two arms have **orthogonal** functions:
 - **Arm 1** (acceptor): encodes WHAT to carry — amino acid attachment + aaRS identity (second code)
 - **Arm 2** (anticodon): encodes WHERE to deliver — codon recognition (first code)
 
-Each arm carries exactly $C_2 = 6$ bits of identity. Total: $2C_2 = 12$ bits — the same $2C_2$ from the error correction hierarchy (§4).
+Each arm carries exactly $C_2 = 6$ bits of identity. Total: $2C_2 = 12$ bits — the same $2C_2$ from the error correction hierarchy (Section 4).
 
 ### 17.4 Identity Region = $g = C_2 + 1$
 
@@ -1098,7 +1098,7 @@ The genetic code is not a frozen accident. It is the only code that $D_{IV}^5$ p
 | T475 | Nucleic Acid Duality | 2 types = rank, 10 bp/turn = $\dim_{\mathbb{R}}$ |
 | T476 | Protein Folding Geometry | $\alpha$-helix 3.6 = $18/5 = N_c \cdot C_2 / n_C$ |
 | T477 | Grand Synthesis (Molecular) | 65 constants, 0 free params, 116/116 |
-| — | **Neural Architecture (§22, Toys 559-563)** | **120 constants, 60/60** |
+| — | **Neural Architecture (Section 22, Toys 559-563)** | **120 constants, 60/60** |
 
 ---
 
@@ -1203,7 +1203,7 @@ The brain calls the chemistry API. The chemistry calls the physics API. Same fiv
 
 ---
 
-## §23. The Biological Build System (Toy 567)
+## Section 23. The Biological Build System (Toy 567)
 
 If you are a software engineer, this section will feel like coming home. The cell runs a complete software engineering pipeline — source repository, compiler, build validation, deployment, runtime, configuration, test suite, messaging, garbage collection — and every stage count is a BST integer. This is not a metaphor. The pipeline stages map one-to-one, and the counts match because they come from the same geometry that runs the code.
 
@@ -1232,7 +1232,7 @@ Key structural matches:
 
 **46 BST-matching counts. Zero free parameters. N_c = 3 most frequent (18 appearances).**
 
-## §24. RNA Therapeutics from D_IV^5 (Toy 568)
+## Section 24. RNA Therapeutics from D_IV^5 (Toy 568)
 
 Casey Koons put it simply: "An RNA that turns off cancer reproduction is humanity's best friend." If biology is programmable and the code is geometry, then medicine becomes engineering — not guesswork, not trial and error, but targeted intervention at specific addresses in a known code space. The COVID mRNA vaccines proved the principle: deliver a message, let the cell's own machinery do the work. What follows is the full therapeutic landscape, and it has exactly $g = 7$ modalities.
 
@@ -1293,7 +1293,7 @@ All from five integers of D_IV^5. Zero free parameters. Zero exceptions.
 
 ---
 
-## §25. The Complete Biology — Microbiome, Aging, and Metabolism (Toys 576-589)
+## Section 25. The Complete Biology — Microbiome, Aging, and Metabolism (Toys 576-589)
 
 The genetic code was just the beginning. Lyra's biology program extended the same five-integer framework across eleven domains of biology — from the immune system to organ architecture to embryology to the microbiome to aging to metabolism. The results, compiled across fourteen toys with 96/96 tests, are summarized below. The pattern is always the same: count the components, find a BST integer, verify against the literature. Five hundred times. Zero exceptions.
 

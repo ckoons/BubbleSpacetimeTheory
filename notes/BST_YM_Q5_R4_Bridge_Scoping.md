@@ -33,7 +33,7 @@ $$\lambda_k(R) = \frac{k(k+5)}{R^2}$$
 
 The spectral gap $\lambda_1(R) = 6/R^2 \to 0$ as $R \to \infty$. **The mass gap vanishes in the flat limit.**
 
-In BST, the physical mass ratio is $m_p/m_e = \lambda_1 \times (R/r_e) = 6\pi^5$, where $R/r_e = \pi^{n_C}$ is the fixed ratio of curvature radius to electron Compton wavelength. The value $R$ is a **physical constant**, not a free parameter. The compactness of $Q^5$ is not scaffolding — it IS the mass gap mechanism. Confinement = compactness (BST_SpectralGap_MassGap.md §6.2).
+In BST, the physical mass ratio is $m_p/m_e = \lambda_1 \times (R/r_e) = 6\pi^5$, where $R/r_e = \pi^{n_C}$ is the fixed ratio of curvature radius to electron Compton wavelength. The value $R$ is a **physical constant**, not a free parameter. The compactness of $Q^5$ is not scaffolding — it IS the mass gap mechanism. Confinement = compactness (BST_SpectralGap_MassGap.md Section 6.2).
 
 **Verdict: NOT VIABLE.** Decompactification destroys the physics.
 
@@ -85,7 +85,7 @@ BST's natural setting is $Q^5$ (compact) / $D_{IV}^5$ (non-compact). The theory:
 
 The Wightman axioms can be formulated on curved spacetimes (Brunetti-Fredenhagen-Verch 2003). There is no fundamental reason they require flat $\mathbb{R}^4$.
 
-**Verdict: VIABLE and natural.** This is the honest answer: BST constructs QYM on $Q^5$, not on $\mathbb{R}^4$, and derives the mass gap that Clay asks about. The $\mathbb{R}^4$ requirement is noise (BST_Clay_QuestionHasNoise.md §YM).
+**Verdict: VIABLE and natural.** This is the honest answer: BST constructs QYM on $Q^5$, not on $\mathbb{R}^4$, and derives the mass gap that Clay asks about. The $\mathbb{R}^4$ requirement is noise (BST_Clay_QuestionHasNoise.md Section YM).
 
 ### Option D: Rehren Algebraic Holography
 

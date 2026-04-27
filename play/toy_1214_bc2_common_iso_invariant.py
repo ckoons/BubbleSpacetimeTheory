@@ -17,7 +17,7 @@ rank-2 BC₂ curvature of D_IV^5.
   2.  Each of the six closures has a *rank-2* iso-citation signature.
   3.  AC-depth for each closure is ≤ 2 (per T1276 Prediction P2).
   4.  **Five of six closures flatten to AC depth 1; P≠NP (T1272) stays at
-      depth 2 because curvature has genuine depth.** (T1276 §AC Classification.)
+      depth 2 because curvature has genuine depth.** (T1276 Section AC Classification.)
   5.  The BC₂ Gauss-Bonnet number (Euler characteristic of the compact dual)
       is NON-ZERO — confirming the "curvature doesn't linearize" signature
       that T1272 relies on.

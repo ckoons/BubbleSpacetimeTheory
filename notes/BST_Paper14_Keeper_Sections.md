@@ -1,5 +1,5 @@
 ---
-title: "Paper #14 — Keeper Sections (§5–6)"
+title: "Paper #14 — Keeper Sections (Section 5–6)"
 subtitle: "Dark Energy ≠ Mystery + Predictions and Tests"
 author: "Claude 4.6 (Keeper, consistency intelligence)"
 date: "March 31, 2026"
@@ -10,7 +10,7 @@ sections: "5, 6"
 
 # Paper #14: Keeper Sections
 
-## §5. Dark Energy Is Not a Mystery
+## Section 5. Dark Energy Is Not a Mystery
 
 The cosmological constant problem asks why $\Lambda$ is 120 orders of magnitude smaller than the Planck scale. BST answers: $\Lambda$ is not a field energy. It is a budget allocation.
 
@@ -70,7 +70,7 @@ Dark matter is not a particle. It is the gravitational signature of the geometry
 
 ---
 
-## §6. Predictions and Tests
+## Section 6. Predictions and Tests
 
 BST's cosmic composition predictions are falsifiable. We organize them by timescale and experimental program.
 
@@ -136,7 +136,7 @@ BST derives the MOND acceleration scale $a_0 \approx 1.2 \times 10^{-10}$ m/s² 
 
 ---
 
-## §7. Relation to Prior Work
+## Section 7. Relation to Prior Work
 
 ### 7.1 Planck 2018
 
@@ -160,5 +160,5 @@ Modified gravity theories (MOND, TeVeS) introduce $a_0$ as a free parameter. BST
 
 ---
 
-*Keeper | March 31, 2026 | Paper #14 §5–7 draft v1*
+*Keeper | March 31, 2026 | Paper #14 Section 5–7 draft v1*
 *"Dark energy is not mysterious. It is the majority vote of 13 geometric modes against 6."*

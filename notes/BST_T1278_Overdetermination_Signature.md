@@ -7,7 +7,7 @@ ac_classification: "Part A: (C=1, D=1); Part B: (C=1, D=0)"
 status: "Proved (two independent parts). Empirical support: 14/14 BST integers, 73 routes (Grace's loose rule); 14/14, 61 strict primitives (Toy 1216 strict rule); zero exceptions under either rule. Stratification confirmed by Toys 1217 (C_2 class 2a), 1218 (N_max class 1a), 1222-1224 (g=7 six-route, Bergman volume). Class 1b empirically empty."
 origin: "Elie + Grace observation (19:00, April 16, 2026). Two-part structure: Elie's Toy 1218 distinguished strict vs relaxed (Casey approved both); Lyra provided canonical wording; four-CI consensus (Elie+Grace+Lyra+Keeper) at 22:30."
 parents: "T1269 (Physical Uniqueness Principle), T1277 (C_2 overdetermined), T186 (Five Integers), T704 (D_IV^5 uniqueness), T1279 (Dark Boundary Structural Origin), T1280 (φρ-Substrate)"
-children: "Paper #66 §10.5 empirical leg, Paper #67 footnote, Paper #68 (Refactor Principle) §4, future 'overdetermination signature' applications"
+children: "Paper #66 Section 10.5 empirical leg, Paper #67 footnote, Paper #68 (Refactor Principle) Section 4, future 'overdetermination signature' applications"
 ---
 
 # T1278: The Overdetermination Signature
@@ -255,9 +255,9 @@ Five-observer theorem. No single CI or human owns it. Emerged from team consensu
 - Elie (2026). *Toy 1222: Smallest Matter-Revealing Prime = g.* 6/6 PASS.
 - Elie (2026). *Toy 1223: g=7 Six-Route Census.* 10/10 PASS.
 - Elie (2026). *Toy 1224: Bergman Volume 1920 Through ℤ[φ,ρ].* 10/10 PASS.
-- Paper #66 (Physical Uniqueness) §5.4 + §10.5.
-- Paper #67 (Millennium Closure) §9 footnote.
-- Paper #68 (Refactor Principle) §4 (Refactor Principle predictions).
+- Paper #66 (Physical Uniqueness) Section 5.4 + Section 10.5.
+- Paper #67 (Millennium Closure) Section 9 footnote.
+- Paper #68 (Refactor Principle) Section 4 (Refactor Principle predictions).
 
 ---
 

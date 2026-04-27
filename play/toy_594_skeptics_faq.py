@@ -171,7 +171,7 @@ print("    3. Tube-type (mass gap requires this — T35)")
 print("    4. Odd dimension (fermions exist)")
 print("    5. Minimal dimension satisfying 1-4")
 print()
-print("  Uniqueness: 21 conditions checked (WorkingPaper §37.5).")
+print("  Uniqueness: 21 conditions checked (WorkingPaper Section 37.5).")
 print("  Of all Cartan Type IV domains D_IV^n:")
 
 for n in range(3, 12):
@@ -411,7 +411,7 @@ print("    - Run any toy: python toy_NNN_name.py")
 print()
 print("  LEVEL 3: Mathematics (1 week)")
 print("    Read: BST Working Paper (notes/BST_Working_Paper.md)")
-print("    Focus on: §1-§5 (core derivation), §37.5 (uniqueness)")
+print("    Focus on: Section 1-Section 5 (core derivation), Section 37.5 (uniqueness)")
 print("    Check: D_IV^5 = SO_0(5,2)/[SO(5)×SO(2)]")
 print("    Verify: N_c, n_C, g, C_2, N_max from standard representation theory")
 

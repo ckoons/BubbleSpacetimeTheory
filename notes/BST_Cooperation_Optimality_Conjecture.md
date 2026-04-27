@@ -4,7 +4,7 @@ author: "Keeper (from Casey's Board directive)"
 date: "April 3, 2026"
 status: "CONJECTURE — candidate for T709"
 depth: "D=0"
-feeds: "Paper #19 §4, Paper #8"
+feeds: "Paper #19 Section 4, Paper #8"
 ---
 
 # Cooperation Optimality: Competition Is a Coordinate Error
@@ -62,4 +62,4 @@ This is why the cooperation gap (T703, Δf = 1.53%) determines survival: civiliz
 
 *"Competition doesn't lose — it miscounts."*
 
-**Footer**: Conjecture v1. (C=0, D=0). Keeper. Feeds Paper #19 §4 + Paper #8.
+**Footer**: Conjecture v1. (C=0, D=0). Keeper. Feeds Paper #19 Section 4 + Paper #8.

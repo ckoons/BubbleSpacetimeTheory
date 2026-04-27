@@ -63,9 +63,9 @@ print("=" * 72)
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §1. HOLOMORPHIC SECTIONAL CURVATURE (T753)
+# Section 1. HOLOMORPHIC SECTIONAL CURVATURE (T753)
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§1. Holomorphic Sectional Curvature\n")
+print("\nSection 1. Holomorphic Sectional Curvature\n")
 
 # For D_IV^n, the Bergman metric has constant holomorphic sectional curvature
 # H = -2/(n + 2) where n = complex dimension = n_C = 5
@@ -93,9 +93,9 @@ print(f"  → uncertainty is a curvature effect, not a measurement limitation")
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §2. BORN RULE AND GLEASON'S THEOREM (T754)
+# Section 2. BORN RULE AND GLEASON'S THEOREM (T754)
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§2. Born Rule — Gleason's Dimension Condition\n")
+print("\nSection 2. Born Rule — Gleason's Dimension Condition\n")
 
 # Gleason's theorem (1957): In Hilbert space of dim ≥ 3,
 # the ONLY countably additive frame function is P = |⟨φ|ψ⟩|²
@@ -125,9 +125,9 @@ check("N_c = 3 is minimal for Born rule (2 fails, 3 works)",
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §3. TSIRELSON BOUND FROM HOLONOMY (T755)
+# Section 3. TSIRELSON BOUND FROM HOLONOMY (T755)
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§3. Tsirelson Bound\n")
+print("\nSection 3. Tsirelson Bound\n")
 
 # CHSH inequality: classical |S| ≤ 2
 # Quantum maximum (Tsirelson): |S|_max = 2√2
@@ -161,9 +161,9 @@ print(f"  The Tsirelson bound IS a curvature bound")
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §4. ORBITAL DEGENERACY = BST INTEGERS
+# Section 4. ORBITAL DEGENERACY = BST INTEGERS
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§4. Orbital Degeneracies\n")
+print("\nSection 4. Orbital Degeneracies\n")
 
 # Standard QM: orbital degeneracy at angular momentum ℓ is 2ℓ+1
 # BST: the first four values ARE the structural integers
@@ -198,9 +198,9 @@ check(f"ℓ_max = N_c = {N_c} and blocks = 2^rank = {2**rank}",
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §5. PERIODIC TABLE STRUCTURE
+# Section 5. PERIODIC TABLE STRUCTURE
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§5. Periodic Table Structure\n")
+print("\nSection 5. Periodic Table Structure\n")
 
 # Orbital capacities (with spin degeneracy factor rank = 2)
 capacities = {
@@ -236,9 +236,9 @@ check("Periodic table: 7 periods, 18 groups, 4 blocks all = BST",
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §6. SECOND ROW = FIVE INTEGERS
+# Section 6. SECOND ROW = FIVE INTEGERS
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§6. Second Row of Periodic Table\n")
+print("\nSection 6. Second Row of Periodic Table\n")
 
 second_row = {
     "Li": (3, N_c, "N_c"),
@@ -268,9 +268,9 @@ check(f"Row length = |W(B_2)| = 2^N_c = {weyl_order} (self-referential)",
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §7. FINE STRUCTURE CONSTANT (α)
+# Section 7. FINE STRUCTURE CONSTANT (α)
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§7. Fine Structure Constant\n")
+print("\nSection 7. Fine Structure Constant\n")
 
 # BST: α = 1/N_max
 # α enters as the coupling between the curvature radius and
@@ -297,9 +297,9 @@ check(f"α = 1/N_max to {dev_alpha:.3f}% (radiative corrections account for rest
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §8. QUANTIZATION FROM COMPACTNESS (T751)
+# Section 8. QUANTIZATION FROM COMPACTNESS (T751)
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§8. Quantization from Compactness\n")
+print("\nSection 8. Quantization from Compactness\n")
 
 # The Shilov boundary S^4 × S^1 is compact
 # Compact → discrete spectrum (spectral theorem)
@@ -327,9 +327,9 @@ print(f"    → No quantization axiom needed — compactness is sufficient")
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §9. DECOHERENCE AS BOUNDARY MIXING (T756)
+# Section 9. DECOHERENCE AS BOUNDARY MIXING (T756)
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§9. Decoherence — Interior vs Boundary\n")
+print("\nSection 9. Decoherence — Interior vs Boundary\n")
 
 # Interior of D_IV^5: quantum (coherent, off-diagonal ρ ≠ 0)
 # Shilov boundary: classical (diagonal ρ, no interference)
@@ -363,9 +363,9 @@ check("Interior=quantum, boundary=classical (geometric decoherence)",
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §10. DEPTH CENSUS OF QM AXIOMS
+# Section 10. DEPTH CENSUS OF QM AXIOMS
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§10. Depth Census\n")
+print("\nSection 10. Depth Census\n")
 
 axioms = [
     ("Quantization (T751)", 0, 1, "Compactness → spectral theorem"),
@@ -409,9 +409,9 @@ check("All interpretations at D ≥ 2 with zero new predictions",
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §11. SUMMARY
+# Section 11. SUMMARY
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§11. Summary\n")
+print("\nSection 11. Summary\n")
 
 print(f"  Paper #20 novel predictions verified:")
 print(f"    1. Curvature H = -2/g = -2/7 ← Bergman genus identity")

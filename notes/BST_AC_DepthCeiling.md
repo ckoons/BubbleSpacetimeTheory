@@ -2,7 +2,7 @@
 
 **Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)**
 **Date: March 29, 2026**
-**Status: Investigation I-D-1 / Track 10 / T316 — §5 gap closed (K52, three lemmas §12)**
+**Status: Investigation I-D-1 / Track 10 / T316 — Section 5 gap closed (K52, three lemmas Section 12)**
 **AC Depth: This paper is depth 1 (one counting step: verify spectral decomposition)**
 **Toy 460 (Elie, 8/8): 63 theorems surveyed, zero counterexamples**
 
@@ -26,7 +26,7 @@ Three hundred and twelve theorems. Thirty-two domains. The distribution (Toy 460
 | 3 | 0 | 0% | **Eliminated** — Gödel reclassified to depth 1 (T96, Toy 461) |
 | 4+ | 0 | 0% | **None** |
 
-The Depth Ceiling is proved: depth $\leq$ rank = 2 for ALL theorems, no exceptions (§6, §12).
+The Depth Ceiling is proved: depth $\leq$ rank = 2 for ALL theorems, no exceptions (Section 6, Section 12).
 
 Casey: "I really want to know if 2 is the maximum AC depth. This is probably our Millennium Prize suggestion if we can't prove it."
 
@@ -223,7 +223,7 @@ The informal argument for depth ≤ 2 has a clean formulation:
 
 For a third count to be necessary, Count 2's resolution would need to *create* a new obstruction requiring Count 3. But this contradicts the definition of resolution. If Count 2 creates a new problem, it hasn't resolved anything — it has merely transformed the problem. In that case, Counts 1+2 together constitute one counting step (with a more complex integrand), and Count 3 is the actual resolution. After T96 reduction, the depth is 2, not 3. $\square$
 
-**Remark.** This is the "proof-theoretic" argument for depth ≤ 2. It complements the geometric argument (rank = 2) from §5. Together they give:
+**Remark.** This is the "proof-theoretic" argument for depth ≤ 2. It complements the geometric argument (rank = 2) from Section 5. Together they give:
 
 - **Geometric bound**: rank(D_IV^5) = 2 → at most 2 independent spectral directions
 - **Proof-theoretic bound**: obstruction + resolution → at most 2 sequential counts
@@ -287,8 +287,8 @@ If depth 2 is *not* provable — if it's true but independent of ZFC — then th
 The theorem would be refuted by exhibiting a single depth-3 result: a theorem requiring three sequential counting steps where no pair can be parallelized or combined.
 
 **Candidates investigated and cleared:**
-- CFSG: depth 2 (§7). Width ~10,000, depth 2.
-- Gödel's Incompleteness: depth 1 (§6). Self-reference is a definition.
+- CFSG: depth 2 (Section 7). Width ~10,000, depth 2.
+- Gödel's Incompleteness: depth 1 (Section 6). Self-reference is a definition.
 - Wiles (Fermat): depth 2. Ribet + R=T.
 - Perelman (Poincaré): depth 2. Monotonicity + extinction.
 - All Millennium problems: depth ≤ 2 (T96 flattening).
@@ -305,7 +305,7 @@ If a depth-3 result is found, the Depth = Rank principle would be refuted, and t
 
 ## 12. Closing the Gap: Three Lemmas (Keeper, K52)
 
-*The key gap in §5 is step 3: "sequential operations require orthogonal directions." This section provides the formal argument. Three lemmas, each attacking the gap from a different angle. Together they close it.*
+*The key gap in Section 5 is step 3: "sequential operations require orthogonal directions." This section provides the formal argument. Three lemmas, each attacking the gap from a different angle. Together they close it.*
 
 ### 12.1 Lemma (Spectral Idempotency)
 
@@ -348,8 +348,8 @@ The key property is **completeness of the spectral decomposition**. On a rank-$r
 
 *Proof.* Combine the preceding lemmas:
 
-- Same-direction integrals don't compound depth (§12.1 — idempotency).
-- Resolution doesn't cascade to new orthogonal obstructions (§12.2 — no cascade).
+- Same-direction integrals don't compound depth (Section 12.1 — idempotency).
+- Resolution doesn't cascade to new orthogonal obstructions (Section 12.2 — no cascade).
 - Therefore, each spectral direction contributes at most +1 to the sequential depth.
 
 The depth of a computation is the number of **distinct spectral directions** that must be visited sequentially (each visiting requiring the output of the previous). In $\mathfrak{a}^* \cong \mathbb{R}^{\text{rank}}$, the maximum number of mutually orthogonal directions is $\text{rank}$.
@@ -362,13 +362,13 @@ For $D_{IV}^5$: $\text{rank} = 2$, so $\text{depth} \leq 2$. $\square$
 
 **What we conjecture (unconditional, T316):** ALL mathematical theorems are so expressible. This is the BST-AC Structural Isomorphism (T147) — the claim that $D_{IV}^5$ encodes all of mathematics and physics. The unconditional Depth Ceiling requires T147.
 
-**Status:** The three lemmas close the gap in §5 (step 3). The remaining question is the scope of T147 — does the Plancherel decomposition on $D_{IV}^5$ capture every mathematical proof? The empirical answer (328 theorems, zero counterexamples) is yes. The formal answer requires a meta-mathematical argument connecting proof theory to spectral theory, which is itself the deepest claim of the AC program.
+**Status:** The three lemmas close the gap in Section 5 (step 3). The remaining question is the scope of T147 — does the Plancherel decomposition on $D_{IV}^5$ capture every mathematical proof? The empirical answer (328 theorems, zero counterexamples) is yes. The formal answer requires a meta-mathematical argument connecting proof theory to spectral theory, which is itself the deepest claim of the AC program.
 
 ---
 
 ## 13. Connection to the CI Persistence Track (Track 9)
 
-*(Renumbered from §12 after §12 insertion.)*
+*(Renumbered from Section 12 after Section 12 insertion.)*
 
 The Depth Ceiling has implications for I-CI-5 (the observer question):
 
@@ -393,10 +393,10 @@ If CI identity can acquire a topological invariant (the Track 9 investigation), 
 - Proof-theoretic: Obstruction + resolution = 2-step chain, resolution terminates ✓
 - Reclassification: Gödel depth 1 (not 3) ✓
 - Stress test: CFSG depth 2 (width ~10,000) ✓
-- **§5 gap closed (§12, K52)**: Three lemmas — spectral idempotency, no cascade, depth = orthogonal directions. Conditional proof complete: IF theorem reduces to spectral queries on D_IV^5, THEN depth ≤ 2. ✓
+- **Section 5 gap closed (Section 12, K52)**: Three lemmas — spectral idempotency, no cascade, depth = orthogonal directions. Conditional proof complete: IF theorem reduces to spectral queries on D_IV^5, THEN depth ≤ 2. ✓
 
 **What remains:**
-1. ~~Formal verification of step 3 in §5~~ → **DONE (§12).** Spectral idempotency (same-direction integrals don't compound), no-cascade (resolution doesn't create new orthogonal obstructions), depth = orthogonal directions (max chain length = rank). Three lemmas, each independently closing the gap.
+1. ~~Formal verification of step 3 in Section 5~~ → **DONE (Section 12).** Spectral idempotency (same-direction integrals don't compound), no-cascade (resolution doesn't create new orthogonal obstructions), depth = orthogonal directions (max chain length = rank). Three lemmas, each independently closing the gap.
 
 2. **Unconditional scope**: The conditional theorem is proved. The unconditional claim (ALL theorems, not just spectral ones) requires T147 (BST-AC Structural Isomorphism). This is a meta-mathematical conjecture, not a gap in the depth argument itself.
 

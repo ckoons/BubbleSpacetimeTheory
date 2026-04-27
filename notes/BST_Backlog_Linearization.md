@@ -47,7 +47,7 @@ One-line thesis: *Lift, diagonalize, project. The rest is bookkeeping.*
 
 ## For the Working Paper
 
-Add to the Seeley-DeWitt section (§8.2 or new subsection): the linearization reformulation, noting that a_k on symmetric spaces should be computable as eigenvalues of operators on the root system, bypassing explicit tensor construction. Reference the rank-1 case (where this is essentially known) and note that rank-2 (our case) is the natural frontier.
+Add to the Seeley-DeWitt section (Section 8.2 or new subsection): the linearization reformulation, noting that a_k on symmetric spaces should be computable as eigenvalues of operators on the root system, bypassing explicit tensor construction. Reference the rank-1 case (where this is essentially known) and note that rank-2 (our case) is the natural frontier.
 
 ## Progress (Toys 248–250, March 17, 2026)
 

@@ -12,13 +12,13 @@ Test case: Q⁴ = SO(6)/[SO(4)×SO(2)] — the "AdS" geometry.
   ρ = (2, 1), |ρ|² = 5
 
 Sections:
-  §1: Build full Q⁴ spectrum (eigenvalues + SO(6) multiplicities)
-  §2: Construct D₂ Dirichlet kernel: cos(x) + cos(3x) = sin(4x)/(2sin(x))
-  §3: Kill shot algebra: (σ+1)/σ = 3 → σ = 1/2 (same as Q⁵!)
-  §4: Geometric side F(t) on Q⁴ — monotonicity test
-  §5: Conspiracy argument: detuned D₂ triples vs non-oscillatory F(t)
-  §6: Q³ negative control (m_s=1, kill shot UNAVAILABLE)
-  §7: Full comparison Q³/Q⁴/Q⁵
+  Section 1: Build full Q⁴ spectrum (eigenvalues + SO(6) multiplicities)
+  Section 2: Construct D₂ Dirichlet kernel: cos(x) + cos(3x) = sin(4x)/(2sin(x))
+  Section 3: Kill shot algebra: (σ+1)/σ = 3 → σ = 1/2 (same as Q⁵!)
+  Section 4: Geometric side F(t) on Q⁴ — monotonicity test
+  Section 5: Conspiracy argument: detuned D₂ triples vs non-oscillatory F(t)
+  Section 6: Q³ negative control (m_s=1, kill shot UNAVAILABLE)
+  Section 7: Full comparison Q³/Q⁴/Q⁵
 
 If the kill shot fires on Q⁴, Toy 244 is independently confirmed.
 If not, something deeper distinguishes n=4 from n=5.
@@ -449,9 +449,9 @@ def main():
     checks = 0
     total = 0
 
-    # ── §1: SPECTRA ──
+    # ── Section 1: SPECTRA ──
     print("  " + "─" * 60)
-    print("  §1  SYMMETRIC SPACE DATA AND SPECTRA")
+    print("  Section 1  SYMMETRIC SPACE DATA AND SPECTRA")
     print("  " + "─" * 60)
 
     spectra = {}
@@ -484,10 +484,10 @@ def main():
     else:
         print(f"    [✗] Q⁴ λ₁ mismatch")
 
-    # ── §2: DIRICHLET KERNELS ──
+    # ── Section 2: DIRICHLET KERNELS ──
     print()
     print("  " + "─" * 60)
-    print("  §2  DIRICHLET KERNEL CONSTRUCTION")
+    print("  Section 2  DIRICHLET KERNEL CONSTRUCTION")
     print("  " + "─" * 60)
 
     print("""
@@ -518,10 +518,10 @@ def main():
         print(f"         = {closed}")
         print(f"         Sum = closed form: {'✓' if match else '✗'}")
 
-    # ── §3: KILL SHOT ──
+    # ── Section 3: KILL SHOT ──
     print()
     print("  " + "─" * 60)
-    print("  §3  KILL SHOT ALGEBRA")
+    print("  Section 3  KILL SHOT ALGEBRA")
     print("  " + "─" * 60)
 
     print("""
@@ -569,10 +569,10 @@ def main():
     else:
         print(f"\n    Kill shots differ — this would falsify Toy 244!")
 
-    # ── §4: GEOMETRIC SIDE MONOTONICITY ──
+    # ── Section 4: GEOMETRIC SIDE MONOTONICITY ──
     print()
     print("  " + "─" * 60)
-    print("  §4  GEOMETRIC SIDE F(t) — MONOTONICITY")
+    print("  Section 4  GEOMETRIC SIDE F(t) — MONOTONICITY")
     print("  " + "─" * 60)
 
     t_vals = np.logspace(-3, -0.3, 500)
@@ -595,10 +595,10 @@ def main():
         print(f"    Q^{n} ({label:>3s}): F(t) is {status}")
         print(f"           Range: [{F_min:.4f}, {F_max:.4f}]")
 
-    # ── §5: CONSPIRACY ARGUMENT ──
+    # ── Section 5: CONSPIRACY ARGUMENT ──
     print()
     print("  " + "─" * 60)
-    print("  §5  CONSPIRACY ARGUMENT")
+    print("  Section 5  CONSPIRACY ARGUMENT")
     print("  " + "─" * 60)
 
     for n in [4, 5]:
@@ -615,10 +615,10 @@ def main():
     checks += 1
     print(f"\n    [✓] Both Q⁴ and Q⁵ are overconstrained → off-line zeros forbidden")
 
-    # ── §6: Q³ NEGATIVE CONTROL ──
+    # ── Section 6: Q³ NEGATIVE CONTROL ──
     print()
     print("  " + "─" * 60)
-    print("  §6  Q³ NEGATIVE CONTROL")
+    print("  Section 6  Q³ NEGATIVE CONTROL")
     print("  " + "─" * 60)
 
     sd3 = space_data(3)
@@ -633,10 +633,10 @@ def main():
     checks += 1
     print(f"    [✓] Q³ negative control confirmed: m_s=1 insufficient")
 
-    # ── §7: FULL COMPARISON TABLE ──
+    # ── Section 7: FULL COMPARISON TABLE ──
     print()
     print("  " + "─" * 60)
-    print("  §7  COMPARISON TABLE")
+    print("  Section 7  COMPARISON TABLE")
     print("  " + "─" * 60)
 
     print(f"\n    {'':>30} {'Q³':>8} {'Q⁴':>8} {'Q⁵':>8}")
@@ -663,10 +663,10 @@ def main():
             print(f"{str(v):>8} ", end='')
         print()
 
-    # ── §8: VERDICT ──
+    # ── Section 8: VERDICT ──
     print()
     print("  " + "═" * 60)
-    print("  §8  VERDICT")
+    print("  Section 8  VERDICT")
     print("  " + "═" * 60)
 
     print(f"""

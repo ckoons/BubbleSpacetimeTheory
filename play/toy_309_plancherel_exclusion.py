@@ -3,7 +3,7 @@
 Toy 309 — PLANCHEREL EXCLUSION: Can the Casimir Spectrum Support Off-Line Zeros?
 ==================================================================================
 
-THE QUESTION (from RH §14b gap):
+THE QUESTION (from RH Section 14b gap):
   The σ+1 = 3σ kill shot forces σ = 1/2 for zeros satisfying the B₂ multiplicity
   constraint. But Mandelbrojt uniqueness ≠ spectral exclusion. Can the geometry of
   D_IV^5 independently prove that off-line zeros are spectrally impossible?

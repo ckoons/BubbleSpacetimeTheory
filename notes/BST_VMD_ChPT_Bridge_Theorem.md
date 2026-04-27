@@ -81,7 +81,7 @@ At NLO: $r_{K^+}/r_\pi = 0.555/0.656 = 0.845$. Observed: 0.850. The chiral corre
 
 - **Parents**: T531 (Bergman spectral structure), T710 (meson mass derivation), T811 (Linearization Complete)
 - **Proves**: Meson radii are dynamical (Shilov boundary), not topological (Bergman bulk). Proton radius = topological ($r_p = 4/m_p$, 0.06%). Pion radius = dynamical (VMD + chiral loop).
-- **Upgrades**: WorkingPaper §11 predictions from LO to NLO. Removes r_π from miss list (6.2% → 0.5%). Removes r_K from miss list (3.2% → 1.0%).
+- **Upgrades**: WorkingPaper Section 11 predictions from LO to NLO. Removes r_π from miss list (6.2% → 0.5%). Removes r_K from miss list (3.2% → 1.0%).
 
 ## AC Classification
 

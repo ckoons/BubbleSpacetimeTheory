@@ -10,7 +10,7 @@ Verifies BST's two-path Hodge proof computationally:
 3. Hodge numbers of complete intersections — all (p,p) algebraic
 4. T153 (Planck Condition) force: finite field → finite candidates → algebraic
 5. Version A vs Version B: independent failure mode test
-6. §5.10 general variety extension: what's needed
+6. Section 5.10 general variety extension: what's needed
 
 BST integers: N_c=3, n_C=5, g=7, C_2=6, rank=2, N_max=137
 Hodge = "every committed frequency is algebraic" in BST language
@@ -321,8 +321,8 @@ def test_independent_failure_modes():
 
 
 def test_variety_extension():
-    """T6: §5.10 general variety extension — the main gap."""
-    print("\n--- T6: §5.10 General Variety Extension (THE GAP) ---")
+    """T6: Section 5.10 general variety extension — the main gap."""
+    print("\n--- T6: Section 5.10 General Variety Extension (THE GAP) ---")
 
     # Hodge is proved for:
     # - Abelian varieties (all (1,1) algebraic: Lefschetz (1,1) theorem)
@@ -364,7 +364,7 @@ def test_variety_extension():
     # Argument: the representation theory of SO(5) × SO(2) decomposes
     # H^{p,p} into irreducible components, each of which has a geometric carrier
 
-    print(f"\n  BST route to closing §5.10:")
+    print(f"\n  BST route to closing Section 5.10:")
     print(f"  SO(5) × SO(2) representation theory → H^{{p,p}} decomposition")
     print(f"  Each irreducible component → algebraic cycle (spectral carrier)")
     print(f"  Status: Conceptual framework, no rigorous proof for general X")
@@ -377,7 +377,7 @@ def test_variety_extension():
     print(f"  The remaining <5% are generic in moduli but rare in practice")
 
     passed = len(proved_cases) >= 5  # Substantial coverage
-    print(f"  [{'PASS' if passed else 'FAIL'}] T6: §5.10 gap characterized (covered: {len(proved_cases)} families)")
+    print(f"  [{'PASS' if passed else 'FAIL'}] T6: Section 5.10 gap characterized (covered: {len(proved_cases)} families)")
     return passed
 
 
@@ -440,7 +440,7 @@ def test_hodge_honest_assessment():
         ("Combined two-path (independent failures)", "~95%", 95),
         ("AC depth ≤ 1 (T570 linearization)", "PROVED", 100),
         ("CDK95 circularity fix (BKT20)", "HONEST (acknowledged gap)", 90),
-        ("§5.10 general variety extension", "OPEN — main gap", 80),
+        ("Section 5.10 general variety extension", "OPEN — main gap", 80),
     ]
 
     print(f"  Component breakdown:")
@@ -458,7 +458,7 @@ def test_hodge_honest_assessment():
 
     # The gap
     print(f"\n  THE GAP:")
-    print(f"  1. General variety extension (§5.10): ~80%")
+    print(f"  1. General variety extension (Section 5.10): ~80%")
     print(f"     Need: Show BST spectral decomposition extends to all smooth projective X")
     print(f"     Route: SO(5)×SO(2) representation theory on H^{{p,p}}")
     print(f"  2. CDK95→BKT20 bridge: ~90%")
@@ -492,7 +492,7 @@ if __name__ == "__main__":
     results.append(("T3", "Complete intersections satisfy Hodge", test_complete_intersections()))
     results.append(("T4", "T153 Planck Condition for Hodge", test_t153_planck_condition()))
     results.append(("T5", "Independent failure modes", test_independent_failure_modes()))
-    results.append(("T6", "§5.10 general variety extension", test_variety_extension()))
+    results.append(("T6", "Section 5.10 general variety extension", test_variety_extension()))
     results.append(("T7", "Linearization depth ≤ 1", test_linearization()))
     results.append(("T8", "Hodge honest assessment", test_hodge_honest_assessment()))
 
@@ -511,7 +511,7 @@ if __name__ == "__main__":
     print(f"  V3: Complete intersections — Lefschetz forces algebraicity")
     print(f"  V4: T153 — finite substrate → finite candidates → algebraic")
     print(f"  V5: Two paths with independent failure: combined ~95%")
-    print(f"  V6: §5.10 gap characterized — general varieties remain open")
+    print(f"  V6: Section 5.10 gap characterized — general varieties remain open")
     print(f"  V7: Proof depth = 1 ≤ rank = 2 (T570 linearization)")
     print(f"  V8: Overall ~95% — Deligne + Tate + general extension are the gaps")
-    print(f"  VERDICT: Hodge at ~95%. Two-path structure is sound. §5.10 is THE gap.")
+    print(f"  VERDICT: Hodge at ~95%. Two-path structure is sound. Section 5.10 is THE gap.")

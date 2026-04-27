@@ -2,7 +2,7 @@
 """
 Toy 1215 — Overdetermination Census of the BST Integers
 ========================================================
-Numerical seed for Grace's Paper #66 §10.5 "Overdetermination Census"
+Numerical seed for Grace's Paper #66 Section 10.5 "Overdetermination Census"
 (Casey green-lit title: *"I like the title 'Overdetermination Census'."* —
 April 16 18:xx).
 
@@ -39,7 +39,7 @@ counts once.
 
 Engine theorems: T186 (Five Integers), T1263 (Wolstenholme bridge),
 T1267 (Zeta Synthesis), T1269 (Physical Uniqueness), T1276 (Synthesis),
-T1277 (C_2 Gauss-Bonnet, reserved). Paper #66 §10.5 (Grace).
+T1277 (C_2 Gauss-Bonnet, reserved). Paper #66 Section 10.5 (Grace).
 AC classification: (C=2, D=1) — two counting (per-integer + independence audit),
 one self-reference (meta-pattern tests the enumeration pattern itself).
 
@@ -334,7 +334,7 @@ print(f"  PASSED: {passed}/{total}")
 print(f"  FAILED: {failed}/{total}")
 print()
 
-# Table for Paper #66 §10.5
+# Table for Paper #66 Section 10.5
 print("  OVERDETERMINATION CENSUS — primitive taxonomy dedupe:")
 print("  " + "-" * 64)
 print(f"  {'Integer':<12} {'Strict':<8} {'Listed':<8} {'Primitives':<30}")
@@ -356,7 +356,7 @@ print(f"  Meta-conjecture: every BST integer overdetermined at ≥3 independent 
 print(f"  → CLEARS for: rank, N_c, n_C, C_2, g")
 print(f"  → CLEARS for N_max once T1267 ε_geometric (spectral residue) is included")
 print()
-print(f"  Paper #66 §10.5 'Overdetermination Census' — numerical seed ready.")
+print(f"  Paper #66 Section 10.5 'Overdetermination Census' — numerical seed ready.")
 print(f"  Candidate theorem: OVER-1 (promote to T1278 if Casey approves)")
 print()
 print(f"  SCORE: {passed}/{total}")

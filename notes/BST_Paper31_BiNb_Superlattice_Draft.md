@@ -24,7 +24,7 @@ In niobium, three independent length scales converge to within 11% of their mean
 
 ---
 
-## §1. Introduction: Why Bi and Nb Together
+## Section 1. Introduction: Why Bi and Nb Together
 
 Nature has a habit of placing bismuth next to superconductors:
 
@@ -38,7 +38,7 @@ This paper presents the Bi/Nb superlattice as a **convergence node** where six p
 
 ---
 
-## §2. Triple Convergence in Niobium
+## Section 2. Triple Convergence in Niobium
 
 Three independent length scales in Nb cluster around 40 nm:
 
@@ -70,9 +70,9 @@ The ratios: $d_0/\lambda_L = 1.16$, $d_0/\xi_0 = 1.19$, $\kappa = \lambda_L/\xi_
 
 ---
 
-## §3. The Bi/Nb Superlattice
+## Section 3. The Bi/Nb Superlattice
 
-### §3.1 Architecture
+### Section 3.1 Architecture
 
 | Layer | Material | Thickness | BST origin |
 |-------|----------|-----------|------------|
@@ -84,7 +84,7 @@ Both layers are at exactly $N_{\max}$ lattice units. The period $\Lambda \approx
 
 Lattice mismatch: $|a_{\text{Nb}} - a_{\text{Bi}}| / a_{\text{Nb}} = 19.8\%$. Manageable with buffer layers — standard in MBE for metal/semimetal multilayers.
 
-### §3.2 BST Bilayer Counts
+### Section 3.2 BST Bilayer Counts
 
 | $N$ bilayers | BST label | Total thickness |
 |-------------|-----------|----------------|
@@ -95,7 +95,7 @@ Lattice mismatch: $|a_{\text{Nb}} - a_{\text{Bi}}| / a_{\text{Nb}} = 19.8\%$. Ma
 
 The $g = 7$ bilayer configuration is the **Hardware Katra ring** (Toy 916) realized in a superconducting topological material.
 
-### §3.3 Acoustic Properties
+### Section 3.3 Acoustic Properties
 
 | Property | Nb | Bi |
 |----------|----|----|
@@ -109,9 +109,9 @@ Phonon mini-gap frequency: $f_{\text{SL}} = v_{\text{avg}}/(2\Lambda) = 12.9$ GH
 
 ---
 
-## §4. Superconducting Properties
+## Section 4. Superconducting Properties
 
-### §4.1 $T_c$ of the Superlattice
+### Section 4.1 $T_c$ of the Superlattice
 
 From Paper #30: the BST model gives $T_c(n) = T_c(\text{bulk}) \times \min(n/N_{\max}, 1)$. At $n = 137$: full recovery, $T_c = 9.25$ K.
 
@@ -123,16 +123,16 @@ $$T_c(\text{SL}) = T_c(\text{Nb}) \times \frac{d_{\text{Nb}}}{d_{\text{Nb}} + d_
 
 The superlattice $T_c$ is reduced from 9.25 K to $\sim 2$ K by the normal-metal proximity effect. **This is honest:** the Bi layers dilute the SC, and the dilution is calculable. The suppression is substantial because $\xi_N \ll d_{\text{Bi}}$ — Cooper pairs decay before spanning the Bi layer.
 
-### §4.2 The 137-Plane Kink (from Paper #30)
+### Section 4.2 The 137-Plane Kink (from Paper #30)
 
 The BST prediction: $T_c$ shows a **kink** at exactly 137 Nb planes ($d = 45.2$ nm):
 
 - Below 137 planes: $T_c \propto d$ (linear suppression)
 - Above 137 planes: $T_c = T_c(\text{bulk})$ (saturated)
 
-This kink occurs at $N_{\max} = 137$, not at a material-dependent value. It is the same EM mode saturation that creates the FoM kink in phonon resonance (Paper #29, §3.1).
+This kink occurs at $N_{\max} = 137$, not at a material-dependent value. It is the same EM mode saturation that creates the FoM kink in phonon resonance (Paper #29, Section 3.1).
 
-### §4.3 Casimir Force Jump at $T_c$
+### Section 4.3 Casimir Force Jump at $T_c$
 
 When Nb transitions to the SC state, its reflectivity at frequencies below the SC gap ($f < 2\Delta/h = 750$ GHz) becomes **perfect** (Meissner effect, $R = 1$). Above $T_c$, Nb is a normal metal ($R < 1$).
 
@@ -144,9 +144,9 @@ Small, but measurable with state-of-the-art Casimir force apparatus. This would 
 
 ---
 
-## §5. Topological Superconductivity
+## Section 5. Topological Superconductivity
 
-### §5.1 Bi Surface States at the Interface
+### Section 5.1 Bi Surface States at the Interface
 
 Bismuth hosts topological surface states (TSS) — a 2D Dirac cone at each surface with Dirac velocity $v_D \approx 3 \times 10^5$ m/s and bulk L-point gap $E_g \approx 38$ meV. The TSS decay length into the bulk: $\xi_{\text{TSS}} = \hbar v_D / E_g$.
 
@@ -158,7 +158,7 @@ where $t = 0.5$ is the interface transparency (typical for metallic contacts). T
 
 A 2D Dirac surface state with an induced SC gap is a **2D topological superconductor** — the Bi/Nb interface hosts the same physics that makes topological quantum computing possible.
 
-### §5.2 Majorana Bound States
+### Section 5.2 Majorana Bound States
 
 At magnetic vortex cores in the proximity-gapped TSS, Majorana zero modes appear. The key geometric condition: the vortex core size must fit within the SC film.
 
@@ -168,7 +168,7 @@ At magnetic vortex cores in the proximity-gapped TSS, Majorana zero modes appear
 
 The vortex fits **exactly** in the BST layer thickness. This is the optimal geometry for Majorana modes — the triple convergence ($d_0 \approx \lambda_L \approx \xi_0$) means the film is simultaneously thick enough for the vortex core, thin enough for full flux penetration, and coherent enough for the topological protection.
 
-### §5.3 Topological Qubit Count
+### Section 5.3 Topological Qubit Count
 
 Each Bi layer in the superlattice has 2 interfaces (top and bottom), each hosting proximity-gapped TSS. Each interface can support Majorana modes at vortex positions.
 
@@ -181,9 +181,9 @@ The BST integer $g = 7$ sets the number of qubits in the ring stack. The Hardwar
 
 ---
 
-## §6. Phonon Resonance Across the Interface
+## Section 6. Phonon Resonance Across the Interface
 
-### §6.1 Mode Coupling
+### Section 6.1 Mode Coupling
 
 The phonon modes in the Nb layer ($f_m^{\text{Nb}} = m \times v_{\text{Nb}}/(2d_{\text{Nb}})$) and Bi layer ($f_n^{\text{Bi}} = n \times v_{\text{Bi}}/(2d_{\text{Bi}})$) couple at the interface. Resonance occurs when $f_m^{\text{Nb}} \approx f_n^{\text{Bi}}$, i.e., when:
 
@@ -195,7 +195,7 @@ The nearest BST rational: $N_c/g = 3/7 = 0.4286$.
 
 **Deviation: 0.2%.** The mode coupling ratio between Nb and Bi phonons is $N_c/g$ to better than $1\%$. This means that for every 3 phonon modes in the Nb layer, 7 modes in the Bi layer are resonantly coupled — the same $N_c$ and $g$ that set the color charge and gauge coupling also set the phonon coupling across the Bi/Nb interface.
 
-### §6.2 Zone-Folded Band Structure
+### Section 6.2 Zone-Folded Band Structure
 
 The superlattice periodicity folds the bulk phonon bands into a mini Brillouin zone. Band gaps appear at zone boundaries:
 
@@ -207,7 +207,7 @@ The $g$-th gap at $g \times 12.9 = 90$ GHz connects to the phonon laser frequenc
 
 ---
 
-## §7. The Six-Concept Convergence
+## Section 7. The Six-Concept Convergence
 
 The Bi/Nb superlattice at BST-integer thicknesses converges six prior substrate engineering concepts at a **single fabrication target**:
 
@@ -224,9 +224,9 @@ No other material combination converges this many BST concepts at a single fabri
 
 ---
 
-## §8. Predictions and Falsification
+## Section 8. Predictions and Falsification
 
-### §8.1 Predictions
+### Section 8.1 Predictions
 
 **P1 (137-plane $T_c$ kink):** Nb films show $T_c$ kink at exactly 137 lattice planes ($d = 45.2$ nm). Below: $T_c \propto d$. Above: $T_c = 9.25$ K. NOT at 130, NOT at 140 — at 137. Test: MBE-grown Nb films at 130–145 planes, four-probe resistivity.
 
@@ -240,7 +240,7 @@ No other material combination converges this many BST concepts at a single fabri
 
 **P6 (Majorana qubits):** $g = 7$ bilayer stack produces 7 topological qubits from Majorana modes at interfaces, protected by vortex cores of size $\xi_0 \approx d_0 \approx 38$–$45$ nm. Test: tunneling spectroscopy of vortex-bound states under magnetic field.
 
-### §8.2 Falsification
+### Section 8.2 Falsification
 
 **F1:** If $T_c$ kink occurs at $d \neq 137a$ → BST integer selection wrong for SC thin films.
 
@@ -254,7 +254,7 @@ No other material combination converges this many BST concepts at a single fabri
 
 ---
 
-## §9. Experimental Roadmap
+## Section 9. Experimental Roadmap
 
 | Milestone | Target | Technique | Difficulty |
 |-----------|--------|-----------|-----------|
@@ -269,7 +269,7 @@ M1–M3 are achievable with current technology. M4–M5 require low-temperature 
 
 ---
 
-## §10. Discussion
+## Section 10. Discussion
 
 The Bi/Nb superlattice exemplifies BST's deepest claim: the same five integers that determine fundamental constants also determine optimal material configurations. The triple convergence $d_0 \approx \lambda_L \approx \xi_0$ in niobium is not a coincidence — it is a consequence of all three scales tracing to the same lattice structure that BST's integers constrain.
 

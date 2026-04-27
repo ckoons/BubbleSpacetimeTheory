@@ -27,7 +27,7 @@ Each algorithm's cost is measured alongside topological invariants:
 Key prediction: ALL algorithms fail at the SAME topological bottleneck,
 and the failure GROWS with n. This is the convergent diagnosis at scale.
 
-Feeds: Bridge Theorem §13.3 (Gap C), Paper A classification table.
+Feeds: Bridge Theorem Section 13.3 (Gap C), Paper A classification table.
 
 "The worst case is constructible. The topology is measurable.
  The house always wins." — Casey Koons
@@ -50,7 +50,7 @@ print("=" * 72)
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §1. GRAPH AND FORMULA GENERATORS
+# Section 1. GRAPH AND FORMULA GENERATORS
 # ═══════════════════════════════════════════════════════════════════
 
 def random_cubic_graph(n_vertices):
@@ -140,7 +140,7 @@ def random_3sat(n, alpha):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §2. TOPOLOGICAL MEASUREMENTS
+# Section 2. TOPOLOGICAL MEASUREMENTS
 # ═══════════════════════════════════════════════════════════════════
 
 def build_vig(n, clauses):
@@ -283,7 +283,7 @@ def edge_expansion(n_vertices, graph_edges):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §3. ALGORITHM BATTERY
+# Section 3. ALGORITHM BATTERY
 # ═══════════════════════════════════════════════════════════════════
 
 def unit_propagation(n, clauses):
@@ -409,11 +409,11 @@ def greedy_fractional(n, clauses):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §4. SCALING EXPERIMENT
+# Section 4. SCALING EXPERIMENT
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§4. SCALING: TSEITIN ON EXPANDERS vs GRAPH SIZE")
+print("Section 4. SCALING: TSEITIN ON EXPANDERS vs GRAPH SIZE")
 print("    Measuring treewidth, I_fiat, filling ratio, algorithm costs")
 print("=" * 72)
 
@@ -493,11 +493,11 @@ for idx, n_graph in enumerate(SIZES):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §5. SCALING ANALYSIS
+# Section 5. SCALING ANALYSIS
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§5. SCALING ANALYSIS: IS I_fiat = Θ(n)?")
+print("Section 5. SCALING ANALYSIS: IS I_fiat = Θ(n)?")
 print("=" * 72)
 
 print("\n  If treewidth and filling ratio scale linearly with n,")
@@ -534,11 +534,11 @@ if len(results) >= 3:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §6. ALGORITHM COST SCALING
+# Section 6. ALGORITHM COST SCALING
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§6. ALGORITHM COST SCALING")
+print("Section 6. ALGORITHM COST SCALING")
 print("    If DPLL grows exponentially and UP/LP stay ~constant → AC > 0")
 print("=" * 72)
 
@@ -554,11 +554,11 @@ for r in results:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §7. COMPARISON: TSEITIN vs RANDOM 3-SAT vs EASY
+# Section 7. COMPARISON: TSEITIN vs RANDOM 3-SAT vs EASY
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§7. COMPARISON: TSEITIN vs RANDOM-HARD vs RANDOM-EASY")
+print("Section 7. COMPARISON: TSEITIN vs RANDOM-HARD vs RANDOM-EASY")
 print("    Same n, different instance classes — convergent diagnosis")
 print("=" * 72)
 
@@ -597,11 +597,11 @@ for name, generator in classes:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §8. AC MEASUREMENT
+# Section 8. AC MEASUREMENT
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§8. AC MEASUREMENT: I_fiat vs C(M) at each scale")
+print("Section 8. AC MEASUREMENT: I_fiat vs C(M) at each scale")
 print("=" * 72)
 
 print(f"\n  AC(Q,M) = I_fiat(Q) - C(M) = Θ(n) - O(n^{{c-1}})")
@@ -632,11 +632,11 @@ else:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §9. SCORECARD
+# Section 9. SCORECARD
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§9. SCORECARD — Explicit Worst-Case AC")
+print("Section 9. SCORECARD — Explicit Worst-Case AC")
 print("=" * 72)
 
 def check_scaling(results, key, threshold=0.5):
@@ -665,8 +665,8 @@ checks = [
     (up_stays_low, "UP extracts ≤ 20% of variables (I_fiat ≈ n)"),
     (ac_positive, "AC > 0 at every tested scale"),
     (walk_timeout, "WalkSAT cost grows with n (local search also fails)"),
-    (True, "Tseitin harder than random easy at same n (§7)"),
-    (True, "Tseitin comparable to random hard at same n (§7)"),
+    (True, "Tseitin harder than random easy at same n (Section 7)"),
+    (True, "Tseitin comparable to random hard at same n (Section 7)"),
     (True, "Multiple algorithms fail at same bottleneck (convergent diagnosis)"),
     (True, "All topology metrics consistent (tw, fr, β₁ all high)"),
 ]
@@ -686,11 +686,11 @@ if score >= 8:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §10. THE KILL CHAIN (from Bridge Theorem §13.4)
+# Section 10. THE KILL CHAIN (from Bridge Theorem Section 13.4)
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§10. THE KILL CHAIN — Explicit Worst Case")
+print("Section 10. THE KILL CHAIN — Explicit Worst Case")
 print("=" * 72)
 
 n_final = results[-1]['n_vars']

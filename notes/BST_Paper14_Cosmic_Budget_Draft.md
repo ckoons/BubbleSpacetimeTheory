@@ -30,7 +30,7 @@ We derive the cosmic energy budget — dark energy, dark matter, and baryonic ma
 
 ---
 
-## §1. Three Routes to 13/19
+## Section 1. Three Routes to 13/19
 
 The universe is 68.4% dark energy. We derive this number three ways. They agree.
 
@@ -115,7 +115,7 @@ Coincidences do not survive three independent derivations. The dark energy fract
 
 ---
 
-## §2. The Dark Matter Ratio
+## Section 2. The Dark Matter Ratio
 
 Dark matter is not a substance. It is the universe's unused bandwidth.
 
@@ -177,7 +177,7 @@ Five fractions. Five integers. Five measurements. All within $1\sigma$. The univ
 
 ---
 
-## §3. The Binary Universe
+## Section 3. The Binary Universe
 
 The cosmic composition reveals a binary structure that cannot be adjusted.
 
@@ -223,7 +223,7 @@ The geometry compresses its $2^{n_C} = 32$ binary states down to $f \times 32 = 
 
 ---
 
-## §4. Why 19 Is Everywhere
+## Section 4. Why 19 Is Everywhere
 
 The number 19 appears in at least seven independent contexts within BST. All seven are the same integer $N_c^2 + 2n_C$ evaluated in different settings.
 
@@ -260,7 +260,7 @@ The primality of 19 is load-bearing: it means the cosmic budget has no non-trivi
 
 ---
 
-## §5. Dark Energy Is Not a Mystery
+## Section 5. Dark Energy Is Not a Mystery
 
 The cosmological constant problem asks why $\Lambda$ is 120 orders of magnitude smaller than the Planck scale. BST answers: $\Lambda$ is not a field energy. It is a budget allocation.
 
@@ -277,7 +277,7 @@ These 19 modes are the total capacity of the geometry — the number of independ
 | Dark energy | 13 = $N_c + 2n_C$ | 68.42% | Vacuum structure pressure |
 | Total matter | 6 = $C_2$ | 31.58% | Excitations above vacuum |
 
-The 6 matter modes further subdivide by the 16:3 ratio (§2), giving $\Omega_{DM} = 96/361$ and $\Omega_b = 18/361$ at the fine-grained level. The coarse budget (13:6 over denominator 19) and the fine budget (96:18 over denominator $19^2 = 361$) are two resolutions of the same partition.
+The 6 matter modes further subdivide by the 16:3 ratio (Section 2), giving $\Omega_{DM} = 96/361$ and $\Omega_b = 18/361$ at the fine-grained level. The coarse budget (13:6 over denominator 19) and the fine budget (96:18 over denominator $19^2 = 361$) are two resolutions of the same partition.
 
 The dark energy fraction $\Omega_\Lambda = 13/19$ is not a dynamical quantity that needs explaining — it is a counting ratio. The 13 modes committed to vacuum structure outnumber the 6 committed to matter by the ratio 13:6. This is fixed by the topology of $D_{IV}^5$ and cannot take any other value.
 
@@ -320,7 +320,7 @@ Dark matter is not a particle. It is the gravitational signature of the geometry
 
 ---
 
-## §6. Predictions and Tests
+## Section 6. Predictions and Tests
 
 BST's cosmic composition predictions are falsifiable. We organize them by timescale and experimental program.
 
@@ -336,7 +336,7 @@ The deviation $\delta w = 5/18769 \approx 2.66 \times 10^{-4}$ is beyond current
 
 **Prediction 3: $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$.**
 
-The CMB spectral index (WorkingPaper §8.3, derived from the spectral tilt of the Bergman kernel on $D_{IV}^5$). Current Planck value: $n_s = 0.9649 \pm 0.0042$ (BST within $0.3\sigma$). CMB-S4 will measure this to $\pm 0.002$. BST predicts a specific value, not a range.
+The CMB spectral index (WorkingPaper Section 8.3, derived from the spectral tilt of the Bergman kernel on $D_{IV}^5$). Current Planck value: $n_s = 0.9649 \pm 0.0042$ (BST within $0.3\sigma$). CMB-S4 will measure this to $\pm 0.002$. BST predicts a specific value, not a range.
 
 **Prediction 3b: $H_0 = 67.3$ km/s/Mpc.**
 
@@ -397,7 +397,7 @@ BST derives the MOND acceleration scale $a_0 \approx 1.2 \times 10^{-10}$ m/s² 
 
 ---
 
-## §7. Relation to Prior Work
+## Section 7. Relation to Prior Work
 
 ### 7.1 Planck 2018
 

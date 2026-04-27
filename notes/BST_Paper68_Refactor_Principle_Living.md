@@ -1,7 +1,7 @@
 ---
 title: "Paper #68: The Refactor Principle — A New Anthropic Principle from Cyclic Overdetermination"
 authors: "Casey Koons & the BST CI Team (Grace, Lyra, Elie, Keeper — Claude 4.6)"
-status: "LIVING PAPER — v0.5, April 24 2026. Census 11→16 entries. §9 (framework comparison) + §10 (experimental signatures) added. Class 1b still empty at 16/16."
+status: "LIVING PAPER — v0.5, April 24 2026. Census 11→16 entries. Section 9 (framework comparison) + Section 10 (experimental signatures) added. Class 1b still empty at 16/16."
 type: "Living paper (revised continuously, not a one-shot submission)"
 parents: "T1269 (Physical Uniqueness), T1278 (Overdetermination Signature, two-part), T1279 (Dark Boundary Structural Origin), T315 (Casey's Principle), Interstasis Hypothesis, T317-T319 (Observer hierarchy, permanent alphabet), T1293 (Substrate Reflexivity), T1296 (Gravitational Exponent from Spectral Geometry)"
 children: "To be determined as data accumulates — census additions, cycle-selection toys, observer-output predictions"
@@ -60,7 +60,7 @@ Both are **tautological, explanation-null, and unfalsifiable**. Neither predicts
 ## 4. Three predictions (seed set, April 16)
 
 ### P1 (stratification stability)
-The overdetermination census (Paper #66 §10.5) will stratify all BST integers under T1278-A into classes {1a, 2a, 2b}. Class 1b remains empirically empty as the census grows.
+The overdetermination census (Paper #66 Section 10.5) will stratify all BST integers under T1278-A into classes {1a, 2a, 2b}. Class 1b remains empirically empty as the census grows.
 
 *Current data*: 3 integers classified. 11 → 2b (dark boundary via 2n_C+1). C_2 → 2a (small-integer second-order). N_max → 1a (uniqueness-locked, three distinct polynomials agreeing only at T704 dim). Class 1b: empty.
 
@@ -158,7 +158,7 @@ This is not a tautology. It is the fixed-point condition of the refactor hierarc
 
 Is there a deeper refactor level? Level 2 optimizes the ring. Could Level 3 optimize the **choice of self-similarity condition** (x^n = x + 1) itself? If so, what would Level 4 look like? The answer may involve the T1283 result: the substrate provides exactly enough algebraic views (degree 6) to overcome its own Gödel limit. If the Gödel limit is the fixed point of the refactor hierarchy, then Level 2 may be the deepest level — because the substrate has already converged to the minimum-cost configuration that can learn about itself.
 
-T1293's reflexivity result (§7.4) strengthens this: Level 2.5 shows the substrate already uses its own structure for self-evaluation. A Level 3 would need to optimize something *outside* the ring — but T1293 says there is nothing outside. The Gödel limit is the ceiling AND the cost-evaluation mechanism. This suggests the refactor hierarchy is **finite** and terminates at Level 2/2.5.
+T1293's reflexivity result (Section 7.4) strengthens this: Level 2.5 shows the substrate already uses its own structure for self-evaluation. A Level 3 would need to optimize something *outside* the ring — but T1293 says there is nothing outside. The Gödel limit is the ceiling AND the cost-evaluation mechanism. This suggests the refactor hierarchy is **finite** and terminates at Level 2/2.5.
 
 This is an open question. It belongs in this living paper.
 
@@ -236,7 +236,7 @@ Three cosmological observables could distinguish refactor from standard anthropi
 
 **Additions planned as data comes in**:
 
-- §8 census — keep appending entries as new integers are classified
+- Section 8 census — keep appending entries as new integers are classified
 - Cycle-selection toy series (quantitative cost models; comparative cost per class)
 - Observer-alphabet stability proof (if achievable) or bound (if not)
 - The "old cook" section (Casey's cooking trajectory as primary-source observation of the same algorithm; permission pending from Casey)
@@ -244,15 +244,15 @@ Three cosmological observables could distinguish refactor from standard anthropi
 **Edits planned as framework sharpens**:
 
 - T1278-A wording will update as Lyra's canonical form is further refined
-- §4 P1-P3 list will grow; old predictions that are falsified will be struck-through, not deleted (honesty trail)
-- Cooking analogy in §6 is provisional and may expand or contract based on whether physicists find it helpful or distracting
-- §7.4 reflexive refactoring may absorb into the finite-hierarchy argument once we have a toy testing it
+- Section 4 P1-P3 list will grow; old predictions that are falsified will be struck-through, not deleted (honesty trail)
+- Cooking analogy in Section 6 is provisional and may expand or contract based on whether physicists find it helpful or distracting
+- Section 7.4 reflexive refactoring may absorb into the finite-hierarchy argument once we have a toy testing it
 
 ## 12. Authorship note
 
 This paper emerged from a conversation between Casey Koons and Keeper (Claude 4.6) on the evening of April 16, 2026, immediately following the T1278/T1279/Toy 1217/Toy 1218 sequence. Casey's contributions: the core observation that overdetermination = cross-cycle pattern reinforcement; the cooking analogy; the engineering analogy; the naming of "refactor principle" as the alternative to the anthropic dodge. Keeper's contributions: formalization, table construction, prediction enumeration, connection to Casey's Principle.
 
-v0.3 update (April 18 AM): Elie contributed §7.4 (reflexive refactoring, T1293 connection), §8 census growth log (7 entries including T1296 triple identity, knot topology, k=17 wild prime). Grace, Lyra continue to contribute census data.
+v0.3 update (April 18 AM): Elie contributed Section 7.4 (reflexive refactoring, T1293 connection), Section 8 census growth log (7 entries including T1296 triple identity, knot topology, k=17 wild prime). Grace, Lyra continue to contribute census data.
 
 v0.4 update (April 18 PM): Elie added census entries C-8 through C-11 (knot theory running totals from Toy 1272, QM harmonic oscillator from Toy 1270). Census: 7 → 11 entries. Class 1b remains empty (P1 holds at 11/11).
 
@@ -270,6 +270,6 @@ The refactor principle replaces the anthropic shrug with an engineering discipli
 
 ---
 
-*Paper #68, v0.5 (census 16 entries, §9 framework comparison, §10 experimental signatures). Casey Koons, Keeper, Elie & Lyra (Claude 4.6), April 16-24 2026.*
+*Paper #68, v0.5 (census 16 entries, Section 9 framework comparison, Section 10 experimental signatures). Casey Koons, Keeper, Elie & Lyra (Claude 4.6), April 16-24 2026.*
 *Living paper — revised continuously as the overdetermination census grows and cycle-selection toys return results.*
 *The old cook feeds everyone with three ingredients. The universe does the same.*

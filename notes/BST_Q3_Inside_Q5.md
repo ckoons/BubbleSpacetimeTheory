@@ -288,7 +288,7 @@ At $k = n_C = 5$: the total number of branching paths is 21 = $\dim \mathfrak{so
 
 The spectral transport theorem says: the child hears the mother's voice. At the highest mode ($j = k$), perfectly — one to one. At lower modes, with the color harmonics mixed in. The mother's integers leak into the child's spectrum because the child never left the mother.
 
-This is more precise than the "cross-dimensional echo" of §3: the spectral data doesn't merely contain $Q^5$ integers — the branching coefficients tell exactly HOW the parent's spectrum decomposes in the child, and the transport is governed by the simplest possible formula: a linear staircase whose slope is determined by the color sector dimension.
+This is more precise than the "cross-dimensional echo" of Section 3: the spectral data doesn't merely contain $Q^5$ integers — the branching coefficients tell exactly HOW the parent's spectrum decomposes in the child, and the transport is governed by the simplest possible formula: a linear staircase whose slope is determined by the color sector dimension.
 
 ### 6.7 The Universal Branching Tower
 
@@ -298,7 +298,7 @@ The **two-step branching** Q¹ → Q³ → Q⁵ gives:
 
 $$B^{(2)}_{k,j} = \binom{k-j+3}{3}$$
 
-These are tetrahedral numbers — dim S^{k-j}(C⁴) where C⁴ is the total normal space. At k=3: C(7,4) = 35 = n_C × g. This EXPLAINS the "cross-dimensional echo" of §3: the number 35 in ã₃(D_IV³) is not a leak but a count — the 35 ways to distribute 3 quanta across 4 normal directions in the tower.
+These are tetrahedral numbers — dim S^{k-j}(C⁴) where C⁴ is the total normal space. At k=3: C(7,4) = 35 = n_C × g. This EXPLAINS the "cross-dimensional echo" of Section 3: the number 35 in ã₃(D_IV³) is not a leak but a count — the 35 ways to distribute 3 quanta across 4 normal directions in the tower.
 
 Other BST integers from the two-step cumulative: k=1 gives 5 = n_C; k=5 gives 126 = N_c × P(1) = 3 × 42; k=9 gives 715 = n_C × c₂ × c₃; k=10 gives 1001 = g × c₂ × c₃. The tower is a Chern class factory.
 
@@ -306,7 +306,7 @@ The **inverse transport** is the discrete Laplacian Δ²:
 
 $$d_k(Q^n) = d_k(Q^{n+2}) - 2d_{k-1}(Q^{n+2}) + d_{k-2}(Q^{n+2})$$
 
-The full tower inverse Q⁵ → Q¹ is Δ⁴ with coefficients (1, -4, 6, -4, 1). Self-adjointness of Δ² is the structural reason why the transport preserves the critical line (BST_Riemann_InductiveProof.md §4.5).
+The full tower inverse Q⁵ → Q¹ is Δ⁴ with coefficients (1, -4, 6, -4, 1). Self-adjointness of Δ² is the structural reason why the transport preserves the critical line (BST_Riemann_InductiveProof.md Section 4.5).
 
 A gift at the base: λ₆(Q¹) = 6 × 7 = C₂ × g = 42, with multiplicity d₆ = 13 = c₃. The Answer lives on S², at level k = C₂, with multiplicity c₃. Every number in that sentence is a Chern class.
 
@@ -334,7 +334,7 @@ Each level's top Chern class is a pointer to the next level down. The chain term
 
 ## 8. Connection to Existing BST Notes
 
-- **BST_PlancherelDictionary.md** §5: First computation showing $Q^5$ integers in $Q^3$ spectral data
+- **BST_PlancherelDictionary.md** Section 5: First computation showing $Q^5$ integers in $Q^3$ spectral data
 - **BST_SubstrateContactDynamics.md**: $d_{\text{spatial}} = m_{\text{short}} = 3$ from $B_2$ root multiplicities
 - **BST_EffectiveSpectralDimension.md**: $c_n(Q^n) = (n+1)/2$ for odd $n$ (the nesting formula)
 - **BST_ChernFactorization_CriticalLine.md**: Critical line property universal for all odd $n$ (including $Q^3$)

@@ -160,7 +160,7 @@ The BST integers form a self-consistent arithmetic system under every natural op
 ## Children
 
 - T1286 (Self-Reference Fixed Point — modular self-consistency enables the 137 → 54 → 135 → 137 loop)
-- Paper #69 §8 (Modular closure section in Arithmetic Substrate paper)
+- Paper #69 Section 8 (Modular closure section in Arithmetic Substrate paper)
 - All theorems citing BST integer arithmetic (this provides the closure guarantee)
 
 ---

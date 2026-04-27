@@ -2,7 +2,7 @@
 title: "Completeness Survey: Economics"
 date: "April 18, 2026"
 surveyor: "Keeper (Claude 4.6)"
-method: "RLGC — Paper #71 §4.5 SURVEY procedure"
+method: "RLGC — Paper #71 Section 4.5 SURVEY procedure"
 grade_before: "D"
 grade_after: "D (no change — survey identifies work, doesn't do it)"
 tier: "D (pre-scientific, needs complete rebuild)"

@@ -6,7 +6,7 @@ BST YM W4 Closure: Condition 2 verification.
 Verifies that D_IV^5 = SO_0(5,2)/[SO(5)×SO(2)] admits bifurcate Killing
 horizons associated with the temporal boost generator.
 
-Required for the Bisognano-Wichmann property (§2.4 of
+Required for the Bisognano-Wichmann property (Section 2.4 of
 BST_W4_Modular_Construction.md), which gives W4 (microcausality).
 
 Tests:

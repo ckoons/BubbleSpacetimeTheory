@@ -121,7 +121,7 @@ There's nothing to detect. There's no particle to find. Dark matter is not a sub
 
 - **T186** (Five Integers)
 - **T836** (Dark sector exponential suppression)
-- **T1233** (Compression ratio / §IV D(s) structure)
+- **T1233** (Compression ratio / Section IV D(s) structure)
 - **T1234** (Four Readings — mass as metric reading)
 - **T1258** (Kolmogorov mass theorem)
 - **T1267** (Zeta Synthesis — 7-smooth Euler product + dark remainder)

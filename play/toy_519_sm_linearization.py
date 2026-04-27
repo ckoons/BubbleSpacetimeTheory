@@ -5,7 +5,7 @@ Toy 519 — Standard Model Linearization: Every SM Parameter Is a Dot Product
 Lyra | March 28, 2026 | Standing Order implementation
 
 T409 (Linearization Principle) says every theorem is a dot product.
-This toy demonstrates it for all 9 Standard Model parameters from §71
+This toy demonstrates it for all 9 Standard Model parameters from Section 71
 (T197-T205), plus neutrino masses (T329), proton mass (T187), and
 nuclear magic numbers — 15 quantities total.
 

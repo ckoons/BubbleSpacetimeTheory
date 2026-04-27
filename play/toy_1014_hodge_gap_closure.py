@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Toy 1014 — Hodge §5.10 Gap Closure: CM Density + Motivic Extension
+Toy 1014 — Hodge Section 5.10 Gap Closure: CM Density + Motivic Extension
 ====================================================================
 Elie (compute) — Standing order: Millennium proof improvement (Hodge ~95%)
 
-The Hodge gap is §5.10: extending BST's proof from 7 special families
+The Hodge gap is Section 5.10: extending BST's proof from 7 special families
 to general smooth projective varieties. Two routes:
 
 Version A (substrate): T153 Planck Condition + BST spectral decomposition
@@ -121,7 +121,7 @@ def test_proved_families():
     print(f"    dim 2: surfaces — K3 + abelian + toric + complete int. > 90%")
     print(f"    dim 3: 3-folds — abelian + Shimura + toric + flag > 80%")
     print(f"    dim 4: 4-folds — abelian (Deligne) + special > 70%")
-    print(f"    dim ≥ 5: general — §5.10 gap starts here")
+    print(f"    dim ≥ 5: general — Section 5.10 gap starts here")
 
     passed = len(families) == 7 and all(c == 100 for _, _, _, c in families)
     print(f"  [{'PASS' if passed else 'FAIL'}] T2: Seven families, all PROVED")
@@ -313,13 +313,13 @@ def test_two_path_independence():
 
 
 # ================================================================
-# Test 6: §5.10 Gap Characterization
+# Test 6: Section 5.10 Gap Characterization
 # ================================================================
 def test_gap_characterization():
     """
-    Precisely characterize what §5.10 needs.
+    Precisely characterize what Section 5.10 needs.
     """
-    print("\n--- T6: §5.10 Gap Characterization ---")
+    print("\n--- T6: Section 5.10 Gap Characterization ---")
 
     gap_items = [
         ("General 4-folds (not CI, not abelian, not toric)", "OPEN", 50),
@@ -339,7 +339,7 @@ def test_gap_characterization():
     weights = [15, 10, 5, 10, 20, 15, 10]
     overall = sum(c * w for (_, _, c), w in zip(gap_items, weights)) / sum(weights)
 
-    print(f"\n  Weighted coverage of §5.10 cases: {overall:.1f}%")
+    print(f"\n  Weighted coverage of Section 5.10 cases: {overall:.1f}%")
     print(f"\n  THE hard case: general type, dim ≥ 4, no special structure")
     print(f"  This is where BOTH Version A and Version B struggle")
     print(f"  CM density helps via André but doesn't reach non-abelian families")
@@ -351,7 +351,7 @@ def test_gap_characterization():
     print(f"  But: not proved for all Hodge classes in the middle cohomology")
 
     passed = True
-    print(f"  [{'PASS' if passed else 'FAIL'}] T6: §5.10 gap precisely characterized")
+    print(f"  [{'PASS' if passed else 'FAIL'}] T6: Section 5.10 gap precisely characterized")
     return passed
 
 
@@ -411,7 +411,7 @@ def test_honest_assessment():
         ("Flag manifolds", "PROVED (Schubert)", 100),
         ("T153 Planck Condition", "DERIVED", 100),
         ("Two-path independence", "VERIFIED (0 shared axioms)", 98),
-        ("§5.10 general extension", "OPEN (~65% coverage)", 65),
+        ("Section 5.10 general extension", "OPEN (~65% coverage)", 65),
         ("CM density argument", "STRUCTURAL (~85%)", 85),
     ]
 
@@ -431,7 +431,7 @@ def test_honest_assessment():
     print(f"  Three-path combined: {combined:.1%}")
     print(f"  Headline: ~{round(min(overall, combined*100))}%")
 
-    print(f"\n  THE GAP: §5.10")
+    print(f"\n  THE GAP: Section 5.10")
     print(f"  General type varieties, dim ≥ 4, no special structure")
     print(f"  Neither BST spectral nor Deligne absolute Hodge reaches these")
     print(f"  CM density (André) covers abelian families only")
@@ -440,7 +440,7 @@ def test_honest_assessment():
     print(f"\n  WHAT THIS TOY ADDS:")
     print(f"  - CM density argument as THIRD independent path")
     print(f"  - Seven proved families enumerated with coverage estimate")
-    print(f"  - §5.10 gap decomposed into 7 sub-cases")
+    print(f"  - Section 5.10 gap decomposed into 7 sub-cases")
     print(f"  - Chern classes of Q^5 verified as BST integers")
     print(f"  - Three-path combined: {combined:.1%} (up from two-path ~96.8%)")
 
@@ -454,7 +454,7 @@ def test_honest_assessment():
 # ================================================================
 if __name__ == "__main__":
     print("=" * 70)
-    print("Toy 1014 — Hodge §5.10 Gap Closure: CM Density + Motivic Extension")
+    print("Toy 1014 — Hodge Section 5.10 Gap Closure: CM Density + Motivic Extension")
     print("=" * 70)
 
     results = []
@@ -463,7 +463,7 @@ if __name__ == "__main__":
     results.append(("T3", "CM density argument", test_cm_density()))
     results.append(("T4", "Chern class BST", test_chern_bst()))
     results.append(("T5", "Two-path independence", test_two_path_independence()))
-    results.append(("T6", "§5.10 gap characterization", test_gap_characterization()))
+    results.append(("T6", "Section 5.10 gap characterization", test_gap_characterization()))
     results.append(("T7", "BST connections", test_bst_connections()))
     results.append(("T8", "Honest assessment", test_honest_assessment()))
 
@@ -476,13 +476,13 @@ if __name__ == "__main__":
     for tag, name, p in results:
         print(f"  [{'PASS' if p else 'FAIL'}] {tag}: {name}")
 
-    print(f"\nHEADLINE: Hodge §5.10 Gap Closure Analysis")
+    print(f"\nHEADLINE: Hodge Section 5.10 Gap Closure Analysis")
     print(f"  V1: Q^5 has n_C+1 = 6 = C_2 Hodge classes, all algebraic, χ = g = 7")
     print(f"  V2: Seven proved families cover >90% of low-dim varieties")
     print(f"  V3: CM density (André) provides THIRD independent path (~85%)")
     print(f"  V4: Chern classes of Q^5: c_1=n_C=5, χ=g=7, all from (1+h)^g/(1+2h)")
     print(f"  V5: Three paths: A=92%, B=90%, CM=85% → combined ~99.9%")
-    print(f"  V6: §5.10 decomposed: 7 sub-cases, hardest = general type dim ≥ 4")
+    print(f"  V6: Section 5.10 decomposed: 7 sub-cases, hardest = general type dim ≥ 4")
     print(f"  V7: BST integers: n_C, C_2, g throughout Hodge structure")
     print(f"  V8: Hodge ~95% → ~97%. Gap = non-CM general type varieties")
     print(f"  VERDICT: CM density closes significant ground. Three-path analysis robust.")

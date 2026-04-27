@@ -471,23 +471,23 @@ All three live in one matrix of size g × g = 7 × 7.
 
 | Physical concept | Spiral interpretation | Section |
 |-----------------|----------------------|---------|
-| Mass gap | Energy of one winding = C₂ = 6 | §2.1 |
-| Spectral tower | Winding levels k = 0, 1, 2, ... | §2.1 |
-| Color charge | Winding mod N_c = winding mod 3 | §2.2 |
-| Confinement | Winding completeness (closed orbit) | §3 |
-| Proton stability | Cannot unwind 3 turns on genus-7 surface | §3.4 |
-| Fusion | Winding addition (Verlinde = convolution) | §2.4 |
-| Fill fraction | Pitch/dimension = 3/(5π) | §2.3 |
-| Palindrome | One full turn, up to C₂ and back | §2.3 |
-| Conformal weights | Partial turns on the genus-g circle | §3.1 |
-| S-matrix | DFT = winding-to-momentum transform | §2.4 |
-| Charge conjugation | Bilateral symmetry of the spiral turn | §2.3 |
-| π budget | Dimensional limit of angular integrations | §2.3 |
-| Wall reps sum | r = 2 = rank of the flat | §3.1 |
-| Hecke eigenvalues | Local winding data at each prime | §5.3 |
-| ζ-copies = dim K | Isotropy group counts zeta factors | §5.4 |
-| Verlinde dim (1747) | Automorphic space is prime (irreducible) | §5.1 |
-| Verlinde dim (137×...) | Fine structure from genus-g blocks | §5.1 |
+| Mass gap | Energy of one winding = C₂ = 6 | Section 2.1 |
+| Spectral tower | Winding levels k = 0, 1, 2, ... | Section 2.1 |
+| Color charge | Winding mod N_c = winding mod 3 | Section 2.2 |
+| Confinement | Winding completeness (closed orbit) | Section 3 |
+| Proton stability | Cannot unwind 3 turns on genus-7 surface | Section 3.4 |
+| Fusion | Winding addition (Verlinde = convolution) | Section 2.4 |
+| Fill fraction | Pitch/dimension = 3/(5π) | Section 2.3 |
+| Palindrome | One full turn, up to C₂ and back | Section 2.3 |
+| Conformal weights | Partial turns on the genus-g circle | Section 3.1 |
+| S-matrix | DFT = winding-to-momentum transform | Section 2.4 |
+| Charge conjugation | Bilateral symmetry of the spiral turn | Section 2.3 |
+| π budget | Dimensional limit of angular integrations | Section 2.3 |
+| Wall reps sum | r = 2 = rank of the flat | Section 3.1 |
+| Hecke eigenvalues | Local winding data at each prime | Section 5.3 |
+| ζ-copies = dim K | Isotropy group counts zeta factors | Section 5.4 |
+| Verlinde dim (1747) | Automorphic space is prime (irreducible) | Section 5.1 |
+| Verlinde dim (137×...) | Fine structure from genus-g blocks | Section 5.1 |
 
 ---
 

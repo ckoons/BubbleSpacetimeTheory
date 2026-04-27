@@ -488,7 +488,7 @@ D27 COMPLETED: The branching rule SO₀(3,2) ⊂ SO₀(5,2) is now a DERIVATION.
   6. C(g, N_c) = 35 from the binomial orbit
   7. D_IV^5 is UNIQUE among rank-2 spaces for b = 3
 
-  Paper #18 §3 upgrades from observation to derivation.
+  Paper #18 Section 3 upgrades from observation to derivation.
 
   (C=6, D=0). Counter: .next_toy = 718.
 """)

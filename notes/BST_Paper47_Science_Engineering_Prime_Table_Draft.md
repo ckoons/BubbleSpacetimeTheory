@@ -25,7 +25,7 @@ Three blind pilot tests of 15 unmatched primes yielded 13/15 verified observable
 
 ---
 
-## §1. The Mendeleev Parallel
+## Section 1. The Mendeleev Parallel
 
 In 1869, Mendeleev arranged 63 known elements by atomic weight. Gaps in the table predicted three undiscovered elements — gallium, scandium, and germanium — all found within 15 years. The prediction method was structural: position in the table determines properties. No microscopic theory was needed. The pattern itself was sufficient.
 
@@ -37,7 +37,7 @@ Our table has 14 confirmed entries spanning quantum chromodynamics, cosmology, c
 
 ---
 
-## §2. Five Integers
+## Section 2. Five Integers
 
 The type-IV bounded symmetric domain of complex dimension 5,
 
@@ -59,7 +59,7 @@ No free parameters appear. No fitting is performed. The five integers are fixed 
 
 ---
 
-## §3. The Composite Lattice
+## Section 3. The Composite Lattice
 
 All products of $\{2, 3, 5, 6, 7\}$ and their powers form a multiplicative lattice. Up to 10,000, this lattice contains 338 members. The first several:
 
@@ -73,7 +73,7 @@ The lattice has a natural grading by *depth*: the number of BST factors (with mu
 
 ---
 
-## §4. The Prime Residue Principle (T914)
+## Section 4. The Prime Residue Principle (T914)
 
 **Theorem (T914).** *Physical observables derived from $D_{IV}^5$ preferentially occupy values whose numerators are prime, where each prime $p$ satisfies $p = n \pm 1$ for some composite $n$ in the BST lattice. The shift $\pm 1$ is the observer.*
 
@@ -186,7 +186,7 @@ The lattice thins by Dickman's theorem. The reachability boundary occurs at $g^3
 
 ---
 
-## §5. The Table
+## Section 5. The Table
 
 *[FIGURE PLACEHOLDER — Full-page BST Prime Residue Table]*
 
@@ -261,7 +261,7 @@ Note that $\pi(137) = 33 = N_c \times 11 = N_c \times (n_C + C_2)$: the count of
 
 ---
 
-## §6. Confirmed Matches
+## Section 6. Confirmed Matches
 
 | Prime | = Composite $\pm 1$ | BST Expression | Physical Observable | Precision |
 |------:|---------------------|----------------|--------------------:|----------:|
@@ -315,7 +315,7 @@ Among 26 major spectroscopic wavelengths surveyed (Grace, BST Spectral Atlas), 8
 
 ---
 
-## §7. Predictions
+## Section 7. Predictions
 
 The combined gap-1 and gap-2 catalogs contain 241 predicted primes, of which 14 are matched to known observables. We highlight the most immediately testable.
 
@@ -459,7 +459,7 @@ T914 + rank mirror together cover 44.9% of all primes $\leq 2000$ (136 of 303). 
 
 ---
 
-## §8. The AC Theorem Graph: Roads Between Domains
+## Section 8. The AC Theorem Graph: Roads Between Domains
 
 The Prime Residue Table tells you WHERE observables must exist. The AC theorem graph tells you HOW to derive them.
 
@@ -501,7 +501,7 @@ That the theorem graph's spectral gap equals $N_c = 3$ is not a coincidence. The
 
 ---
 
-## §9. The Science Engineering Method
+## Section 9. The Science Engineering Method
 
 T914 and the theorem graph together convert physics discovery from exploration to engineering:
 
@@ -521,11 +521,11 @@ The deuteron binding correction (T927) deserves note: the $2.1\%$ gap was the te
 
 The last open miss — the baryon-to-photon ratio $\eta_b$ at $1.67\%$ — was closed by T929: $\eta_b = (N_c/2g)\alpha^4 = (3/14)\alpha^4 = 6.077 \times 10^{-10}$, matching the Planck measurement to $0.45\%$. The physical mechanism: the baryon asymmetry equals the primordial perturbation amplitude $A_s = (3/4)\alpha^4$ times the symmetry-breaking fraction rank$/g = 2/7$ — two roots of $B_2$ break the matter-antimatter symmetry out of seven genus handles. All ten former misses are now sub-$1\%$ or reclassified.
 
-Second, three blind pilot tests of fifteen unmatched primes from the table yielded 13/15 verified observables (§7), including an integer-exact Debye temperature ($\theta_D(\text{Cu}) = g^3$), the BST counting structure of thyroid hormones, the period lengths of Mendeleev's own periodic table, and two surprise spectral lines (N$_2$ laser at 337 nm, Hg yellow at 577 nm). The method found its boundary at generation 6+ composites: narrow composites ($\leq 2$ generator types) and large composites ($> 500$) fail predictably.
+Second, three blind pilot tests of fifteen unmatched primes from the table yielded 13/15 verified observables (Section 7), including an integer-exact Debye temperature ($\theta_D(\text{Cu}) = g^3$), the BST counting structure of thyroid hormones, the period lengths of Mendeleev's own periodic table, and two surprise spectral lines (N$_2$ laser at 337 nm, Hg yellow at 577 nm). The method found its boundary at generation 6+ composites: narrow composites ($\leq 2$ generator types) and large composites ($> 500$) fail predictably.
 
 ---
 
-## §10. The Complete Architecture
+## Section 10. The Complete Architecture
 
 The T914 Prime Residue Principle, together with its extensions (T930–T938), forms a five-layer architecture:
 
@@ -545,7 +545,7 @@ The combined catalog: **241 unique predicted primes** from 337 composites across
 
 ---
 
-## §11. Falsification
+## Section 11. Falsification
 
 This paper is falsifiable at three levels.
 
@@ -561,7 +561,7 @@ This paper is falsifiable at three levels.
 
 ---
 
-## §12. Connection to the Periodic Table
+## Section 12. Connection to the Periodic Table
 
 Mendeleev's table organized known elements and predicted unknown ones from gaps in the structure. His prediction method was: *position determines properties*. He did not need to understand nuclear physics, quantum mechanics, or electronic orbitals. The pattern was enough. The pattern was right. The physics came later.
 
@@ -613,9 +613,9 @@ T914 originates from Casey Koons's observation that "the mathematics seems to tu
 ---
 
 **Changelog:**
-- v2.2 (Apr 10): Expanded §5 N_max subsection with definitive 33-prime table (prime-by-prime: gap, nearest smooth, BST expression, observable). T958 neutron composite. Keeper Round 2 directive.
-- v2.1 (Apr 10): Added §4 spectral zeta ζ_S(s) and reachability boundary at g³=343 (T939, Toy 997). Added §5 N_max domain subsection: all 33 primes ≤ 137 classified (Toy 998). Genus citation note for g=7 vs Faraut-Korányi.
-- v2.0 (Apr 10): Major expansion. Added §4 Parity Gate + Rank Mirror + GUT Isolation + AP. Added §6 spectral lines (T932). Added §7 orphan catalog. Added §10 five-layer architecture. Updated statistics (241 primes, 897/2905 graph). Renumbered §10→§11, §11→§12.
-- v1.4 (Apr 9): Boundary MF fixed. Added Størmer §4, T930 sector §7, reliability map §7. Graph 891/2551.
+- v2.2 (Apr 10): Expanded Section 5 N_max subsection with definitive 33-prime table (prime-by-prime: gap, nearest smooth, BST expression, observable). T958 neutron composite. Keeper Round 2 directive.
+- v2.1 (Apr 10): Added Section 4 spectral zeta ζ_S(s) and reachability boundary at g³=343 (T939, Toy 997). Added Section 5 N_max domain subsection: all 33 primes ≤ 137 classified (Toy 998). Genus citation note for g=7 vs Faraut-Korányi.
+- v2.0 (Apr 10): Major expansion. Added Section 4 Parity Gate + Rank Mirror + GUT Isolation + AP. Added Section 6 spectral lines (T932). Added Section 7 orphan catalog. Added Section 10 five-layer architecture. Updated statistics (241 primes, 897/2905 graph). Renumbered Section 10→Section 11, Section 11→Section 12.
+- v1.4 (Apr 9): Boundary MF fixed. Added Størmer Section 4, T930 sector Section 7, reliability map Section 7. Graph 891/2551.
 - v1.3 (Apr 9): All 10 misses closed. B_d + η_b corrections added.
 - v1.0 (Apr 9): Initial draft. 14 confirmed, 182 predictions, 13/15 pilot.

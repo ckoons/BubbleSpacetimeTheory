@@ -34,7 +34,7 @@ print("=" * 72)
 # Section 1: The spectral multiplicities
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§1. SPECTRAL MULTIPLICITIES OF Q⁵")
+print("\nSection 1. SPECTRAL MULTIPLICITIES OF Q⁵")
 print("-" * 50)
 
 def d_k(k):
@@ -58,7 +58,7 @@ for k in range(10):
 # Section 2: 27 = d₂ and E₆
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§2. THE 27 CONNECTION")
+print("\n\nSection 2. THE 27 CONNECTION")
 print("-" * 50)
 
 print(f"\n  d₂ = C(6,4)×9/5 = 15×9/5 = 27")
@@ -107,7 +107,7 @@ for n in [3, 5, 7, 9, 11]:
 # Section 3: The general d₂ formula
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§3. GENERAL d₂ FOR Q^n")
+print("\n\nSection 3. GENERAL d₂ FOR Q^n")
 print("-" * 50)
 
 print(f"\n  d₂(Q^n) = C(n+1, n-1) × (n+4)/n")
@@ -141,7 +141,7 @@ print(f"    UNIQUE at N=3 → 14th uniqueness condition!")
 # Section 4: The d₂ = N_c^N_c uniqueness proof
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§4. THE d₂ = N_c^{N_c} UNIQUENESS THEOREM")
+print("\n\nSection 4. THE d₂ = N_c^{N_c} UNIQUENESS THEOREM")
 print("=" * 50)
 
 print(f"""
@@ -180,7 +180,7 @@ print(f"""
 # Section 5: More E₆ connections
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§5. THE E₆ REPRESENTATION DICTIONARY")
+print("\nSection 5. THE E₆ REPRESENTATION DICTIONARY")
 print("-" * 50)
 
 # E₆ representations and BST spectral multiplicities
@@ -204,7 +204,7 @@ for r in e6_reps:
 # Section 6: The d_k sequence and exceptional algebras
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§6. SPECTRAL MULTIPLICITIES AS ALGEBRA DIMENSIONS")
+print("\n\nSection 6. SPECTRAL MULTIPLICITIES AS ALGEBRA DIMENSIONS")
 print("-" * 50)
 
 # Which d_k equal dimensions of simple Lie algebras?
@@ -248,7 +248,7 @@ for k in range(15):
 # Section 7: The Hilbert series connection
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§7. HILBERT SERIES H(x) = (1+x)/(1-x)⁶")
+print("\n\nSection 7. HILBERT SERIES H(x) = (1+x)/(1-x)⁶")
 print("-" * 50)
 
 # From Toy 141:
@@ -276,7 +276,7 @@ for n in [3, 5, 6, 7, 11, 13]:
 # Section 8: The generating function at ζ₇
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§8. H(x) AT THE BST QUANTUM PARAMETER")
+print("\n\nSection 8. H(x) AT THE BST QUANTUM PARAMETER")
 print("-" * 50)
 
 # The BST quantum parameter is q = ζ₇ = e^{2πi/7}
@@ -294,7 +294,7 @@ print(f"  |1+q| = {abs(1+q):.6f}")
 # Section 9: Sum rules for d_k
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§9. SUM RULES")
+print("\n\nSection 9. SUM RULES")
 print("-" * 50)
 
 # Partial sums
@@ -318,7 +318,7 @@ for K in range(10):
 # Section 10: The bulk-boundary dictionary
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§10. THE BULK-BOUNDARY DICTIONARY")
+print("\n\nSection 10. THE BULK-BOUNDARY DICTIONARY")
 print("-" * 50)
 
 print("""
@@ -357,7 +357,7 @@ print("""
 # Section 11: The 27 = N_c^N_c theorem
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§11. UNIQUENESS THEOREM SUMMARY")
+print("\nSection 11. UNIQUENESS THEOREM SUMMARY")
 print("=" * 50)
 
 print(f"""

@@ -31,7 +31,7 @@ This paper is NOT about anti-gravity or warp drives. It is about directed mechan
 
 ---
 
-## §1. Introduction: What the Integers Build
+## Section 1. Introduction: What the Integers Build
 
 The five integers of $D_{IV}^5$ have now been shown to constrain:
 
@@ -47,9 +47,9 @@ The key observation is that BST's integers select *specific cavity gaps* where v
 
 ---
 
-## §2. Two Force Sources from BST
+## Section 2. Two Force Sources from BST
 
-### §2.1 Source 1: Casimir Asymmetry (Toy 935)
+### Section 2.1 Source 1: Casimir Asymmetry (Toy 935)
 
 An asymmetric Casimir cavity — narrow gap in front, wide gap behind — creates a net force toward the narrower gap:
 
@@ -74,7 +74,7 @@ Numerical values:
 
 The cavity "falls" toward its energy minimum — directed motion from vacuum mode structure, with no fuel consumed.
 
-### §2.2 Source 2: Directed Phonon Emission (Toy 928)
+### Section 2.2 Source 2: Directed Phonon Emission (Toy 928)
 
 A Casimir cavity at $d_0$ truncates EM modes with $\lambda > 2d_0$, creating a non-equilibrium phonon distribution — a population inversion in the phonon spectrum (Toy 928). Stimulated emission from this inversion produces a coherent phonon beam: a phonon laser at $f_1 = v_s/(2d_0) = 56.67$ GHz.
 
@@ -83,20 +83,20 @@ The coherent phonon beam carries momentum: $F_{\text{phonon}} = P_{\text{phonon}
 **The phonon laser does not contribute significant thrust.** Its role is threefold:
 
 1. **Phase-locks array elements** for coherent force addition
-2. **Enables resonant cascade** between layers (§5.2)
+2. **Enables resonant cascade** between layers (Section 5.2)
 3. **Provides spectral signature** for diagnostics and feedback control
 
-### §2.3 Combined Force
+### Section 2.3 Combined Force
 
 Both mechanisms produce forward force: Casimir well pulls from the front, phonon beam pushes from behind. The Casimir term dominates by a factor of $\sim$$1.5 \times 10^6$. The phonon laser is the clock, not the engine.
 
 ---
 
-## §3. Phonon Resonance Amplification (Toy 934)
+## Section 3. Phonon Resonance Amplification (Toy 934)
 
 Casey's key insight: when the Casimir cavity gap is commensurate with the phonon spectrum, resonant coupling amplifies the vacuum-phonon energy transfer. Toy 934 (8/8 PASS) quantifies this.
 
-### §3.1 Figure of Merit and the 137-Plane Kink
+### Section 3.1 Figure of Merit and the 137-Plane Kink
 
 The resonance figure of merit for a cavity of $n$ lattice planes combines three factors:
 
@@ -119,7 +119,7 @@ The kink is measurable. Below 137 planes, FoM benefits from increasing $\tau_{\t
 
 **Honest note:** $N_{\max} = 137$ is prime — there is no divisor-based Q enhancement at 137. BST's prediction is about EM mode count and phonon lifetime saturation, not arithmetic commensuration.
 
-### §3.2 Resonance Peak Structure
+### Section 3.2 Resonance Peak Structure
 
 At BST-integer plane counts, the vacuum-phonon coupling shows sharp peaks:
 
@@ -132,7 +132,7 @@ At BST-integer plane counts, the vacuum-phonon coupling shows sharp peaks:
 
 The peaks are *sharp*, not smooth. Width scales as $1/n$ (more modes contribute to constructive interference at larger $n$), contrast scales as $n^2$ (coherent superposition of mode contributions). At $n = 137$, the peak is 0.007 lattice planes wide with contrast $\sim$18,800 — an extremely sharp resonance.
 
-### §3.3 BST Integer Hierarchy
+### Section 3.3 BST Integer Hierarchy
 
 The resonance spectrum organizes into a **hierarchy** set by the five integers:
 
@@ -153,7 +153,7 @@ Compound resonances appear at BST integer products:
 - $n_C \times g = 35$ (spectral-gauge, $F/A = 9.96 \times 10^3$ Pa)
 - $N_c \times n_C \times g = 105$ (triple BST, $F/A = 1.23 \times 10^2$ Pa)
 
-### §3.4 Metamaterial Band Structure
+### Section 3.4 Metamaterial Band Structure
 
 A periodic array of Casimir cavities with period $\Lambda = g \times d_0 = 521$ nm forms a phononic metamaterial. Bragg band gaps appear at:
 
@@ -169,9 +169,9 @@ At the band edge, phonon group velocity approaches zero ("slow phonon" regime). 
 
 ---
 
-## §4. The Phonon Propulsion Engine (Toy 935)
+## Section 4. The Phonon Propulsion Engine (Toy 935)
 
-### §4.1 Engine Element Architecture
+### Section 4.1 Engine Element Architecture
 
 Toy 935 (8/8 PASS) designs a complete propulsion element:
 
@@ -194,7 +194,7 @@ Toy 935 (8/8 PASS) designs a complete propulsion element:
 
 **Net force:** $F_{\text{net}}/A = 41.90$ Pa forward. Asymmetry $= 98.8\%$.
 
-### §4.2 Single-Element Performance
+### Section 4.2 Single-Element Performance
 
 | Parameter | Value | BST origin |
 |-----------|-------|------------|
@@ -212,7 +212,7 @@ The acceleration is high (4,900 $g$) only because the element is 372 nm thin. A 
 
 The effective specific impulse ($I_{\text{sp,eff}} = F \times \tau_{\text{life}} / (m \times g_0)$, where $\tau_{\text{life}} \approx 3$ years for MEMS) exceeds $10^{11}$ s — five orders of magnitude beyond ion engines ($\sim$3,000 s) and eight beyond chemical rockets ($\sim$300 s). This is possible because there is no propellant mass flow.
 
-### §4.3 Force Mechanism — Newton's 3rd Law and One-Shot vs. Continuous
+### Section 4.3 Force Mechanism — Newton's 3rd Law and One-Shot vs. Continuous
 
 **Critical clarification.** In a *rigid* device, all Casimir forces are internal and sum to zero by Newton's 3rd law. A rigid asymmetric body cannot accelerate itself. The mechanism therefore operates in one of two modes:
 
@@ -228,15 +228,15 @@ The Casimir force is:
 - **Not perpetual motion.** Energy comes from fabrication (Mode 1) or external power (Mode 3).
 - **Established physics.** The Casimir force between asymmetric geometries is measured and predicted by QED. The novelty is BST's selection of optimal cavity parameters.
 
-**Honest note:** The force values in §2, §4.2, and §5 assume continuous operation (Mode 2 or 3). Mode 1 gives a one-shot impulse of $I = E_C / v_{\text{exhaust}}$, not sustained thrust. The scaling tables (§5) apply only to Modes 2 and 3.
+**Honest note:** The force values in Section 2, Section 4.2, and Section 5 assume continuous operation (Mode 2 or 3). Mode 1 gives a one-shot impulse of $I = E_C / v_{\text{exhaust}}$, not sustained thrust. The scaling tables (Section 5) apply only to Modes 2 and 3.
 
 ---
 
-## §5. The Amplification Question
+## Section 5. The Amplification Question
 
 This is the section Casey most wants. The per-element thrust is 419 nN — tiny by engineering standards. Three paths convert nanoNewtons to Newtons.
 
-### §5.1 Path 1: Linear Array Scaling (HIGH Confidence)
+### Section 5.1 Path 1: Linear Array Scaling (HIGH Confidence)
 
 Each element contributes independently. Force scales as $N \times F_{\text{element}}$:
 
@@ -253,7 +253,7 @@ At $10^6$ elements (a 10 cm $\times$ 10 cm wafer), linear scaling alone delivers
 
 **This answers Casey's question:** if array scaling is even linear, the path from nanoNewton to Newton is engineering.
 
-### §5.2 Path 2: Resonant Phase-Locking ($\sqrt{N}$ Enhancement, MEDIUM Confidence)
+### Section 5.2 Path 2: Resonant Phase-Locking ($\sqrt{N}$ Enhancement, MEDIUM Confidence)
 
 If the phonon laser phase-locks adjacent cavities, the force addition becomes partially coherent. For $N$ coherently coupled layers, the force scales as $N\sqrt{N}$ rather than $N$.
 
@@ -265,15 +265,15 @@ $$F_{\text{resonant}} = N \times F_{\text{element}} \times \sqrt{N_{\text{stack}
 
 This is $\sqrt{1670} \approx 41\times$ enhancement over linear scaling.
 
-### §5.3 Path 3: Metamaterial Slow-Phonon Enhancement (LOW Confidence)
+### Section 5.3 Path 3: Metamaterial Slow-Phonon Enhancement (LOW Confidence)
 
-At the band edge of the Casimir metamaterial (§3.4), phonon group velocity approaches zero. The interaction time with the vacuum field is enhanced by the metamaterial Q-factor $\sim N_{\max} = 137$:
+At the band edge of the Casimir metamaterial (Section 3.4), phonon group velocity approaches zero. The interaction time with the vacuum field is enhanced by the metamaterial Q-factor $\sim N_{\max} = 137$:
 
 $$F_{\text{meta}} = N \times F_{\text{element}} \times N_{\max} = 10^6 \times 419 \text{ nN} \times 137 \approx 57.4 \text{ N}$$
 
 This is optimistic — it requires perfect operation at the band edge — but the $137\times$ enhancement factor is a direct BST prediction.
 
-### §5.4 Path 4: Casimir Force Amplification via 1 cm$^2$ Multilayers (Toy 934)
+### Section 5.4 Path 4: Casimir Force Amplification via 1 cm$^2$ Multilayers (Toy 934)
 
 Toy 934 presents a complementary amplification ladder starting from a single 1 cm$^2$ Casimir cavity (not a propulsion element, but a force source):
 
@@ -287,7 +287,7 @@ Toy 934 presents a complementary amplification ladder starting from a single 1 c
 
 Each stage is fabrication and metrology. No new physics enters.
 
-### §5.5 The Scaling Answer
+### Section 5.5 The Scaling Answer
 
 | Path | Force ($10^6$ elements) | Enhancement | Confidence |
 |------|------------------------|-------------|------------|
@@ -301,9 +301,9 @@ The critical insight: **this is an engineering problem, not a physics problem.**
 
 ---
 
-## §6. Performance Comparison
+## Section 6. Performance Comparison
 
-### §6.1 vs. Existing Micro-Propulsion
+### Section 6.1 vs. Existing Micro-Propulsion
 
 | Property | This work | FEEP (ion) | Colloid | Cold gas |
 |----------|-----------|-----------|---------|----------|
@@ -315,11 +315,11 @@ The critical insight: **this is an engineering problem, not a physics problem.**
 | Temperature | 4 K | 300 K | 300 K | 300 K |
 | Scalable array | Yes (MEMS) | Limited | Limited | No |
 
-### §6.2 Target Niche
+### Section 6.2 Target Niche
 
 The Casimir phonon engine wins where **propellant mass is the constraint** and **mission duration is long**: station-keeping for small satellites, attitude control, formation flying — applications where you need microNewtons for years, not milliNewtons for hours.
 
-### §6.3 Honest Disadvantages
+### Section 6.3 Honest Disadvantages
 
 1. Per-element thrust is **tiny** (419 nN vs. $\mu$N for FEEP)
 2. Requires **cryogenic operation** (4 K for phonon laser coherence)
@@ -329,7 +329,7 @@ The Casimir phonon engine wins where **propellant mass is the constraint** and *
 
 ---
 
-## §7. What This Is NOT
+## Section 7. What This Is NOT
 
 1. **Not anti-gravity.** $G = 6.674 \times 10^{-11}$ N$\cdot$m$^2$/kg$^2$. At the device scale, gravitational effects are $10^{47}$ too weak. BST uses the same integers that SET $G$, but the force mechanism is Casimir + phonon, not gravitational.
 
@@ -347,7 +347,7 @@ The Casimir phonon engine wins where **propellant mass is the constraint** and *
 
 ---
 
-## §8. Connection to the Substrate Engineering Portfolio
+## Section 8. Connection to the Substrate Engineering Portfolio
 
 The phonon propulsion engine is the **unifying device** — it combines components from half the substrate engineering portfolio:
 
@@ -366,9 +366,9 @@ The engine concept connects all substrate engineering devices through a single d
 
 ---
 
-## §9. Predictions and Falsification
+## Section 9. Predictions and Falsification
 
-### §9.1 Predictions
+### Section 9.1 Predictions
 
 **P1 (Asymmetric force):** A single Casimir cavity with $d_1 = 74$ nm, $d_2 = 223$ nm produces net force $F_{\text{net}}/A = 41.9$ Pa ($\sim$419 nN per 100 $\mu$m$^2$ element). Measurable with AFM.
 
@@ -384,7 +384,7 @@ The engine concept connects all substrate engineering devices through a single d
 
 **P7 ($d^{-4}$ scaling):** Thrust increases as $d^{-4}$ with decreasing gap. At $d = d_0/2$: thrust $\times 16$. At $d_0/3$: thrust $\times 81$. Measurable by varying gap in AFM setup.
 
-### §9.2 Falsification
+### Section 9.2 Falsification
 
 **F1:** If asymmetric cavity shows NO net force → vacuum mode asymmetry does not produce thrust. (But this would also contradict known Casimir experiments with asymmetric geometries.)
 
@@ -398,9 +398,9 @@ The engine concept connects all substrate engineering devices through a single d
 
 ---
 
-## §10. Experimental Roadmap
+## Section 10. Experimental Roadmap
 
-### §10.1 Measurement Stages
+### Section 10.1 Measurement Stages
 
 | Stage | $N$ elements | Force | Instrument |
 |-------|-------------|-------|-----------|
@@ -410,11 +410,11 @@ The engine concept connects all substrate engineering devices through a single d
 | 4. Module | $10^6$ | 0.42 N | Micro-thrust stand |
 | 5. Flight | $10^8$ | 42 N | CubeSat accelerometer |
 
-### §10.2 Key Milestones
+### Section 10.2 Key Milestones
 
 **M1:** Fabricate a single asymmetric Casimir cavity ($d_1 = 74$ nm, $d_2 = 223$ nm) and measure net force with AFM. This is the proof of concept.
 
-**M2:** Measure phonon lifetime vs. cavity gap across the $n = 137$ transition. Look for the kink (§3.1). This tests the BST-specific prediction.
+**M2:** Measure phonon lifetime vs. cavity gap across the $n = 137$ transition. Look for the kink (Section 3.1). This tests the BST-specific prediction.
 
 **M3:** Fabricate a 100-element MEMS array and measure total force. Confirm linear scaling. This validates the amplification path.
 
@@ -424,7 +424,7 @@ The engine concept connects all substrate engineering devices through a single d
 
 ---
 
-## §11. Discussion
+## Section 11. Discussion
 
 The question "can vacuum geometry produce useful force?" reduces to three sub-questions:
 
@@ -450,8 +450,8 @@ The physics is done. The question is whether the engineering can exploit the phy
 
 - v1.1 DRAFT — April 5, 2026
 - Toys 934 (8/8 PASS) and 935 (8/8 PASS) integrated
-- Toy 941 (8/8 PASS — NEGATIVE): self-amplification impossible, added §7 item 7
-- Toy 934 data: §3 (resonance), §5.2–5.4 (amplification ladder)
-- Toy 935 data: §4 (engine element), §5.1 (array scaling), §6 (comparison)
+- Toy 941 (8/8 PASS — NEGATIVE): self-amplification impossible, added Section 7 item 7
+- Toy 934 data: Section 3 (resonance), Section 5.2–5.4 (amplification ladder)
+- Toy 935 data: Section 4 (engine element), Section 5.1 (array scaling), Section 6 (comparison)
 - 7 predictions, 5 falsification conditions, 5-stage measurement roadmap
 - Keeper audit requested

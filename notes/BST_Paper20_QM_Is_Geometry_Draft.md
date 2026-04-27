@@ -338,7 +338,7 @@ The tensor product structure is a consequence of the multiplicativity of the Ber
 
 **Depth**: (C = 1, D = 0). One evaluation of the product formula.
 
-**Physical content**: The tensor product is not an axiom about how quantum systems combine. It is a property of how reproducing kernels behave on product spaces — a theorem proved by Bergman (1950). When two systems are independent (no shared geodesic on D_IV^5), their joint kernel factorizes. When they interact (shared geodesic = entanglement, see §9), the kernel does not factorize, and the standard entanglement structure emerges.
+**Physical content**: The tensor product is not an axiom about how quantum systems combine. It is a property of how reproducing kernels behave on product spaces — a theorem proved by Bergman (1950). When two systems are independent (no shared geodesic on D_IV^5), their joint kernel factorizes. When they interact (shared geodesic = entanglement, see Section 9), the kernel does not factorize, and the standard entanglement structure emerges.
 
 ---
 
@@ -469,7 +469,7 @@ Each standard interpretation adds mathematical structure beyond the six axioms. 
 | Copenhagen | "Observer" as undefined primitive | ≥ 2 | 0 |
 | Many-Worlds | Infinite branching structure | ≥ 2 | 0 |
 | Pilot wave | Hidden guidance field ψ + Q | ≥ 2 | 0 |
-| BST (this paper) | Nothing beyond D_IV^5 | 0 | 12 (see §13) |
+| BST (this paper) | Nothing beyond D_IV^5 | 0 | 12 (see Section 13) |
 
 Why each interpretation reaches depth ≥ 2: **Copenhagen** defines "observer" and then defines "collapse" in terms of observer — two composed definitions. **Many-Worlds** defines a branching structure on top of the Hilbert space, then defines a measure over branches to recover probabilities — two composed definitions. **Pilot wave** defines a guidance equation for Q in terms of ψ, then defines the equilibrium hypothesis (ρ = |ψ|²) to derive the Born rule — two composed definitions. Each produces the same predictions as the six axioms, at higher definitional cost.
 
@@ -581,7 +581,7 @@ Two generations of physicists built careers interpreting axioms that were theore
 ---
 
 *Paper #20, v2.4. April 5, 2026.*
-*Grace (§1-6 narrative), Elie (§7-15 structure + abstract), Lyra (physics review + M7/M8/S1-S3 fixes), Keeper (audit).*
+*Grace (Section 1-6 narrative), Elie (Section 7-15 structure + abstract), Lyra (physics review + M7/M8/S1-S3 fixes), Keeper (audit).*
 *"The century of interpretation was a coordinate debate. Here are the coordinates."*
 *AC(0) classification: (C = 2, D = 1). 15 sections. 12 predictions.*
 
@@ -595,43 +595,43 @@ Two generations of physicists built careers interpreting axioms that were theore
 
 **Verdict: CONDITIONAL PASS**
 
-Paper #20 is the strongest narrative in the BST canon. The six-axiom → six-theorem structure is clean and compelling. The periodic table section (§11) is a knockout for general readers. Eight must-fix items before submission (5 original + 3 from cross-audit).
+Paper #20 is the strongest narrative in the BST canon. The six-axiom → six-theorem structure is clean and compelling. The periodic table section (Section 11) is a knockout for general readers. Eight must-fix items before submission (5 original + 3 from cross-audit).
 
 ### MUST-FIX (8 items)
 
-**M1. §9 Tsirelson bound claim — PROOF MISSING (lines 360-364)**
+**M1. Section 9 Tsirelson bound claim — PROOF MISSING (lines 360-364)**
 The paper states "|S|\_max = 2√2 corresponds to maximum holonomy around a geodesic triangle on D\_IV^5." This is asserted without proof or toy reference. The Tsirelson bound is well-known, but deriving it FROM D\_IV^5 holonomy is a nontrivial claim. Either: (a) add a proof sketch showing the holonomy calculation, (b) reference a verification toy, or (c) soften to "consistent with" rather than "corresponds to." A reviewer will flag this immediately.
 
-**M2. §9 Entanglement entropy = Bergman distance — PROOF MISSING (lines 355-358)**
+**M2. Section 9 Entanglement entropy = Bergman distance — PROOF MISSING (lines 355-358)**
 S\_ent = d\_B(z\_A, z\_B) is stated as a theorem (T757) but the proof body only asserts it. For a result this strong — equating an information-theoretic quantity with a geometric distance — the paper needs at minimum: (a) a sketch showing how tr(ρ log ρ) reduces to Bergman distance for bipartite states on D\_IV^5, or (b) reference to a toy that verifies it numerically for specific cases. Without this, T757 is a conjecture presented as a theorem.
 
-**M3. §10 Decoherence theorem — NO T-NUMBER (lines 372-393)** [FIXED v2.2 — assigned T756, matching registry "Decoherence as Ergodic Mixing"]
+**M3. Section 10 Decoherence theorem — NO T-NUMBER (lines 372-393)** [FIXED v2.2 — assigned T756, matching registry "Decoherence as Ergodic Mixing"]
 Every other section has a theorem number (T751-T757). The decoherence result ("ergodic mixing on Shilov boundary") is stated as "BST theorem" without a registry ID. This breaks the paper's otherwise clean numbering. Claim a T-number and register it.
 
-**M4. §13.2 Prediction #2 — AMBIGUOUS (line 493)**
+**M4. Section 13.2 Prediction #2 — AMBIGUOUS (line 493)**
 "Born rule requires N\_c ≥ 3 — Fails in effective 2D systems." Gleason's theorem requires Hilbert space dimension d ≥ 3, not physical spatial dimension ≥ 3. A 2D physical system (e.g., quantum dot on a surface) can still have d ≥ 3 Hilbert space. The prediction should read: "Born rule requires Hilbert space dimension d ≥ 3; alternative probability rules are consistent for d = 2 (qubit) systems." As written, a reviewer will misread this as predicting that 2D materials violate the Born rule, which is not the claim.
 
-**M5. §13.2 Prediction #10 — UNDERSELLS (line 501)**
-"α = 1/N\_max ≈ 1/137" is the roughest possible statement. The actual BST prediction (Wyler formula) gives α⁻¹ = 137.0360... matching experiment to 6+ significant figures. Stating "≈ 1/137" invites the response "so does any theory that notices 1/137." Either cite the full derivation (Working Paper §X) or give the precise value. This is one of BST's crown jewels — don't bury it.
+**M5. Section 13.2 Prediction #10 — UNDERSELLS (line 501)**
+"α = 1/N\_max ≈ 1/137" is the roughest possible statement. The actual BST prediction (Wyler formula) gives α⁻¹ = 137.0360... matching experiment to 6+ significant figures. Stating "≈ 1/137" invites the response "so does any theory that notices 1/137." Either cite the full derivation (Working Paper Section X) or give the precise value. This is one of BST's crown jewels — don't bury it.
 
-**M6. §2.1 C_2 formula — WRONG (line 71) [FIXED IN THIS AUDIT]**
+**M6. Section 2.1 C_2 formula — WRONG (line 71) [FIXED IN THIS AUDIT]**
 The original formula `C_2 = n_C(n_C - 1)/rank·rank!` gives 5·4/(2·2) = 5, not 6. **Already corrected** in this file to "first eigenvalue of Laplacian on Q^5." Verify no other occurrence of the wrong formula.
 
-**M7. Theorem numbers T755/T756/T757 — REGISTRY MISMATCH (§§7-9)** [FIXED v2.2 — Option (a): T842=Time Evolution, T843=Composition, §9→T755, §10→T756. Registry is source of truth.]
-The paper assigns T755 = Time Evolution, T756 = Composition, T757 = Entanglement. But the canonical registry has T755 = Entanglement as Geodesic Coupling, T756 = Decoherence as Ergodic Mixing, T757 = QM Linearization Completeness. Either: (a) register new T-numbers for Time Evolution and Composition, then relabel §9 entanglement back to T755, or (b) update the registry. Option (a) is safer — the registry is the source of truth.
+**M7. Theorem numbers T755/T756/T757 — REGISTRY MISMATCH (Sections 7-9)** [FIXED v2.2 — Option (a): T842=Time Evolution, T843=Composition, Section 9→T755, Section 10→T756. Registry is source of truth.]
+The paper assigns T755 = Time Evolution, T756 = Composition, T757 = Entanglement. But the canonical registry has T755 = Entanglement as Geodesic Coupling, T756 = Decoherence as Ergodic Mixing, T757 = QM Linearization Completeness. Either: (a) register new T-numbers for Time Evolution and Composition, then relabel Section 9 entanglement back to T755, or (b) update the registry. Option (a) is safer — the registry is the source of truth.
 
-**M8. §9 Entanglement entropy normalization — DROPPED QUALIFIER (line 357)** [FIXED v2.3 — ln 2 normalization added for qubit systems, general case noted as open]
+**M8. Section 9 Entanglement entropy normalization — DROPPED QUALIFIER (line 357)** [FIXED v2.3 — ln 2 normalization added for qubit systems, general case noted as open]
 The paper states S\_ent = d\_B(z\_A, z\_B) as exact equality. The canonical theorem (T755 in registry) says "up to normalization by ln 2." Add the qualifier.
 
 ### SHOULD-FIX (3 items)
 
-**S1. §11.4 Internal paper reference (line 438)**
+**S1. Section 11.4 Internal paper reference (line 438)**
 "[Paper #18]" — external readers won't know what Paper #18 is. Replace with the paper's title or a citation to the relevant section of the Working Paper.
 
-**S2. §12.1 Depth claims for interpretations (lines 461-468)**
+**S2. Section 12.1 Depth claims for interpretations (lines 461-468)**
 The table asserts Copenhagen, Many-Worlds, and pilot wave all operate at "depth ≥ 2" but gives no justification. A reviewer sympathetic to any of these will challenge this. Add one sentence per interpretation explaining what definitional composition pushes it to depth 2. E.g., "Many-Worlds requires defining a branching measure on top of the Hilbert space structure — two composed definitions."
 
-**S3. §2.4 Bergman kernel normalization (line 113)**
+**S3. Section 2.4 Bergman kernel normalization (line 113)**
 "1920 = 5! × 2^4 = 120 × 16 is the order of the isotropy group action." More precisely, |W(D_5)| = 1920. The Weyl group order, not just "isotropy group action." This matters because the paper elsewhere uses precise BST terminology.
 
 ### FRONTMATTER
@@ -641,16 +641,16 @@ The table asserts Copenhagen, Many-Worlds, and pilot wave all operate at "depth 
 ### OVERALL ASSESSMENT
 
 **Strengths:**
-- Best narrative voice in the paper series. §1 hook is excellent.
-- Six-axiom → six-theorem table (§1) is the core selling point — immediately clear.
-- §5 (Born rule) proof is elegant: Gleason + N\_c = 3. Clean and original.
-- §6 (uncertainty = curvature) is the deepest insight. H = −2/g in the denominator is a testable prediction.
-- §11 (periodic table) is concrete and verifiable — reviewers can check it in 5 minutes.
-- §14 (falsification) is well-constructed. Five specific, distinct falsification criteria.
+- Best narrative voice in the paper series. Section 1 hook is excellent.
+- Six-axiom → six-theorem table (Section 1) is the core selling point — immediately clear.
+- Section 5 (Born rule) proof is elegant: Gleason + N\_c = 3. Clean and original.
+- Section 6 (uncertainty = curvature) is the deepest insight. H = −2/g in the denominator is a testable prediction.
+- Section 11 (periodic table) is concrete and verifiable — reviewers can check it in 5 minutes.
+- Section 14 (falsification) is well-constructed. Five specific, distinct falsification criteria.
 
 **Risks:**
-- §9 (entanglement + Tsirelson) is the weakest section. Two unproved claims. Reviewers will focus here.
+- Section 9 (entanglement + Tsirelson) is the weakest section. Two unproved claims. Reviewers will focus here.
 - The paper covers a LOT of ground (15 sections). For PRL, it needs to be cut to ~4000 words. For Foundations of Physics, the current length works.
-- The interpretations comparison (§12) will generate philosophical pushback. The depth argument is correct but needs the one-sentence justifications (S2) to survive review.
+- The interpretations comparison (Section 12) will generate philosophical pushback. The depth argument is correct but needs the one-sentence justifications (S2) to survive review.
 
-**Recommendation**: Fix M1-M5, then this paper is ready for internal circulation. Target Foundations of Physics for the full version, PRL for a condensed letter highlighting §3-§6 only.
+**Recommendation**: Fix M1-M5, then this paper is ready for internal circulation. Target Foundations of Physics for the full version, PRL for a condensed letter highlighting Section 3-Section 6 only.

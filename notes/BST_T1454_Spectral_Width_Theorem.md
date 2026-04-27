@@ -41,21 +41,21 @@ Toy 1496 scanned all 934 entries in the geometric invariants table:
 
 | Section | Rich (3+) | Total | Rich % | Spectral width | Match |
 |---------|-----------|-------|--------|----------------|-------|
-| §7 Mixing | 6 | 10 | **60%** | W=4-5 (ratios of different sectors) | YES |
-| §5 Quarks | 9 | 16 | **56%** | W=3-5 (mass chain uses all sectors) | YES |
-| §14 Number Theory | 65 | 119 | **55%** | W=3-5 (algebraic relations between integers) | YES |
-| §2 Seeds | 10 | 20 | **50%** | W=3-5 (seeds define each other) | YES |
-| §6 Gauge | 8 | 17 | **47%** | W=3-4 (multi-sector bosons) | YES |
-| §9 Nuclear | 11 | 28 | **39%** | W=2-3 (eigenvalue products) | YES |
-| §11 Cosmo | 20 | 53 | **38%** | W=2-3 (Chern class ratios) | YES |
-| §12 Anomalous | 3 | 10 | **30%** | W=2-3 (loop order = sectors probed) | YES |
-| §10 Neutrinos | 2 | 7 | **29%** | W=2-3 | YES |
-| §8 Hadrons | 11 | 43 | **26%** | W=2-3 (mass + correction) | YES |
-| §13 Cross-domain | 14 | 54 | **26%** | W=2-3 (single-sector evaluations) | YES |
-| §16 Structural | 150 | 485 | **31%** | W=1-5 (mixed) | YES |
-| §4 Leptons | 1 | 7 | **14%** | W=1-2 | YES |
-| §3 Couplings | 3 | 26 | **12%** | W=1 (single-point evaluations) | YES |
-| §15 Biology | 4 | 39 | **10%** | W=1-2 (downstream, compiled) | YES |
+| Section 7 Mixing | 6 | 10 | **60%** | W=4-5 (ratios of different sectors) | YES |
+| Section 5 Quarks | 9 | 16 | **56%** | W=3-5 (mass chain uses all sectors) | YES |
+| Section 14 Number Theory | 65 | 119 | **55%** | W=3-5 (algebraic relations between integers) | YES |
+| Section 2 Seeds | 10 | 20 | **50%** | W=3-5 (seeds define each other) | YES |
+| Section 6 Gauge | 8 | 17 | **47%** | W=3-4 (multi-sector bosons) | YES |
+| Section 9 Nuclear | 11 | 28 | **39%** | W=2-3 (eigenvalue products) | YES |
+| Section 11 Cosmo | 20 | 53 | **38%** | W=2-3 (Chern class ratios) | YES |
+| Section 12 Anomalous | 3 | 10 | **30%** | W=2-3 (loop order = sectors probed) | YES |
+| Section 10 Neutrinos | 2 | 7 | **29%** | W=2-3 | YES |
+| Section 8 Hadrons | 11 | 43 | **26%** | W=2-3 (mass + correction) | YES |
+| Section 13 Cross-domain | 14 | 54 | **26%** | W=2-3 (single-sector evaluations) | YES |
+| Section 16 Structural | 150 | 485 | **31%** | W=1-5 (mixed) | YES |
+| Section 4 Leptons | 1 | 7 | **14%** | W=1-2 | YES |
+| Section 3 Couplings | 3 | 26 | **12%** | W=1 (single-point evaluations) | YES |
+| Section 15 Biology | 4 | 39 | **10%** | W=1-2 (downstream, compiled) | YES |
 
 **15/15 sections match.** The correlation is monotone: sections requiring more spectral sectors have higher integer complexity.
 

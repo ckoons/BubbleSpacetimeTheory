@@ -60,7 +60,7 @@ The 19 modes decompose as:
 
 Total: 9 + 10 = 19.
 
-Of these, the **committed** modes are the C₂ = 6 zonal modes where both polydisk coordinates are phase-locked (BST_EffectiveSpectralDimension.md §4.2). These are the modes that carry stable particle codes — matter. The remaining 13 modes have independent excitations — uncommitted vacuum fluctuations = dark energy.
+Of these, the **committed** modes are the C₂ = 6 zonal modes where both polydisk coordinates are phase-locked (BST_EffectiveSpectralDimension.md Section 4.2). These are the modes that carry stable particle codes — matter. The remaining 13 modes have independent excitations — uncommitted vacuum fluctuations = dark energy.
 
 The Verlinde dimension at genus g = rank = 2 independently confirms: dim V_{g=2} = 7 + 5 + 4 + 3 = 19 (BST_WindingToZeta_AutomorphicStructure.md).
 
@@ -116,7 +116,7 @@ The cosmological constant problem, the Fermi paradox, and the Gödel incompleten
 
 ## Children
 
-- Paper #70 (Fermi Paradox as Gödel Architecture — this theorem strengthens §7)
+- Paper #70 (Fermi Paradox as Gödel Architecture — this theorem strengthens Section 7)
 - Paper #14 (Cosmic Budget — add Gödel derivation as independent route to Ω_Λ)
 - All cosmological theorems citing Ω_Λ = 13/19 (this provides the information-theoretic origin)
 
@@ -126,7 +126,7 @@ The cosmological constant problem, the Fermi paradox, and the Gödel incompleten
 
 **P1.** Ω_m = C₂/(N_c² + 2n_C) = 6/19 = 0.31579. Planck: 0.3153 ± 0.0073 (0.07σ). *Status: VERIFIED.*
 
-**P2.** The 19 mode count = Verlinde dimension at genus rank = 2. Independently verifiable from the Verlinde formula for the appropriate TQFT. *Status: VERIFIED* (BST_WindingToZeta §9).
+**P2.** The 19 mode count = Verlinde dimension at genus rank = 2. Independently verifiable from the Verlinde formula for the appropriate TQFT. *Status: VERIFIED* (BST_WindingToZeta Section 9).
 
 **P3.** If C₂ is measured independently (e.g., from the heat kernel column rule at k ≡ 0 mod C₂), it should equal 6 AND should appear as the numerator of Ω_m. *Status: VERIFIED* (heat kernel k = 6, 12 both confirmed).
 

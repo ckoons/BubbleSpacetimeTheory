@@ -149,7 +149,7 @@ The lowest value is $C_2(\pi_6) = 6 \times 1 = 6 > 0$. The continuous spectrum h
 
 - Knapp, "Representation Theory of Semisimple Groups: An Overview Based on Examples" (1986), Ch. VIII — unitarity and Casimir positivity.
 - Harish-Chandra, "Discrete Series for Semisimple Lie Groups, II," Acta Math. **116** (1966) — existence and classification of discrete series.
-- Helgason, "Groups and Geometric Analysis" (1984), Ch. V, §4 — eigenvalues of the Laplacian on compact symmetric spaces.
+- Helgason, "Groups and Geometric Analysis" (1984), Ch. V, Section 4 — eigenvalues of the Laplacian on compact symmetric spaces.
 
 ### Status: **PROVED.** Spectrum $\geq 0$ is a theorem. Mass gap $= 6$ is the spectral gap of $Q^5$.
 

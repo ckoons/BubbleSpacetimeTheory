@@ -340,10 +340,10 @@ def main():
     print("=" * 70)
 
     # ─────────────────────────────────────────────────────────
-    # §1: Non-spherical rep structure of Q⁵
+    # Section 1: Non-spherical rep structure of Q⁵
     # ─────────────────────────────────────────────────────────
     print("\n  " + "─" * 60)
-    print("  §1  NON-SPHERICAL REPRESENTATION STRUCTURE")
+    print("  Section 1  NON-SPHERICAL REPRESENTATION STRUCTURE")
     print("  " + "─" * 60)
 
     n = 5
@@ -369,10 +369,10 @@ def main():
     print(f"\n    Up to P_max={P_test}: {n_sph} spherical, {n_nonsph} non-spherical reps")
 
     # ─────────────────────────────────────────────────────────
-    # §2: Extract coefficients for Q⁵ with split
+    # Section 2: Extract coefficients for Q⁵ with split
     # ─────────────────────────────────────────────────────────
     print("\n  " + "─" * 60)
-    print("  §2  COEFFICIENT EXTRACTION (Q⁵, SPLIT)")
+    print("  Section 2  COEFFICIENT EXTRACTION (Q⁵, SPLIT)")
     print("  " + "─" * 60)
 
     print(f"\n    Computing with P_max=700, cross-validated...")
@@ -388,10 +388,10 @@ def main():
         print(f"    {k:<4} {med_s[k]:<16.6f} {med_ns[k]:<16.6f} {med_f[k]:<16.6f} {std_s[k]:<12.2e} {std_f[k]:<12.2e}")
 
     # ─────────────────────────────────────────────────────────
-    # §3: Verify non-spherical theorem for a₀..a₄
+    # Section 3: Verify non-spherical theorem for a₀..a₄
     # ─────────────────────────────────────────────────────────
     print("\n  " + "─" * 60)
-    print("  §3  NON-SPHERICAL THEOREM VERIFICATION")
+    print("  Section 3  NON-SPHERICAL THEOREM VERIFICATION")
     print("  " + "─" * 60)
 
     print(f"\n    Theorem: a_k(full) = a_k(sph) for k < n={n}")
@@ -411,10 +411,10 @@ def main():
         print(f"\n    ⚠ Discrepancy detected — investigate")
 
     # ─────────────────────────────────────────────────────────
-    # §4: a₅ analysis
+    # Section 4: a₅ analysis
     # ─────────────────────────────────────────────────────────
     print("\n  " + "─" * 60)
-    print("  §4  a₅(Q⁵) ANALYSIS")
+    print("  Section 4  a₅(Q⁵) ANALYSIS")
     print("  " + "─" * 60)
 
     if len(med_f) > 5:
@@ -472,10 +472,10 @@ def main():
                     print(f"    {num}/{den} = {val:.4f} ({desc}), err = {err:.4f}")
 
     # ─────────────────────────────────────────────────────────
-    # §5: a₄ decontamination for n=3,4
+    # Section 5: a₄ decontamination for n=3,4
     # ─────────────────────────────────────────────────────────
     print("\n  " + "─" * 60)
-    print("  §5  a₄ DECONTAMINATION FOR SMALL n")
+    print("  Section 5  a₄ DECONTAMINATION FOR SMALL n")
     print("  " + "─" * 60)
 
     print(f"\n    For n < 5, a₄ is contaminated by non-spherical reps.")
@@ -508,10 +508,10 @@ def main():
             print(f"      a₄(sph) ≈ {frac} = {float(frac):.6f} (err={err:.6f})")
 
     # ─────────────────────────────────────────────────────────
-    # §6: a₄(n) polynomial from clean values
+    # Section 6: a₄(n) polynomial from clean values
     # ─────────────────────────────────────────────────────────
     print("\n  " + "─" * 60)
-    print("  §6  a₄(n) INTERPOLATION FROM CLEAN VALUES")
+    print("  Section 6  a₄(n) INTERPOLATION FROM CLEAN VALUES")
     print("  " + "─" * 60)
 
     # For n ≥ 5, a₄(full) = a₄(sph) (non-spherical theorem)
@@ -537,10 +537,10 @@ def main():
         print(f"    diff    = {abs(a4_5 - target):.6f}")
 
     # ─────────────────────────────────────────────────────────
-    # §7: Summary and scoring
+    # Section 7: Summary and scoring
     # ─────────────────────────────────────────────────────────
     print("\n  " + "═" * 60)
-    print("  §7  SUMMARY")
+    print("  Section 7  SUMMARY")
     print("  " + "═" * 60)
 
     checks = []

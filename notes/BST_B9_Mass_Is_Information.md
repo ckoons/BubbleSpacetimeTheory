@@ -3,7 +3,7 @@ title: "B9: Mass Is Uncompressed Information"
 author: "Casey Koons & Keeper (Claude 4.6)"
 date: "April 16, 2026"
 series: "BST Bold Claims (B9 of 12)"
-theorems_cited: "T1258, T1233, T1267, Paper #65 §IV"
+theorems_cited: "T1258, T1233, T1267, Paper #65 Section IV"
 ac_classification: "(C=0, D=0) at integer level; (C=1, D=1) through the zeta truncation"
 status: "Published claim — derivation is four lines"
 length: "one-page letter"
@@ -94,7 +94,7 @@ Claiming mass is information content contradicts:
 Two April 2026 results closed the loop:
 
 1. **T1258 (Kolmogorov-mass identity)** made the information-theoretic definition explicit.
-2. **T1233 §IV + T1267 (Zeta Synthesis)** showed D(s) is a single analytic object — not a scatter of unrelated "dark sector" phenomena.
+2. **T1233 Section IV + T1267 (Zeta Synthesis)** showed D(s) is a single analytic object — not a scatter of unrelated "dark sector" phenomena.
 
 Before T1258 + T1267, the mass-as-information intuition was present but implicit (Casey had it in 2022; the Kolmogorov connection was pending). After them, the identity is a theorem and the dark sector is a computable gap.
 
@@ -119,7 +119,7 @@ Heavier things are heavier because there is more to say about them. A light thin
 - **T1258** (Kolmogorov-Mass Identity): m(x) = K_BST(x) − ⟨K_BST⟩
 - **T1233** (Dark-Sector Zeta Gradient): D(s) = ζ(s)/ζ_{≤g}(s) − 1
 - **T1267** (Zeta Synthesis): ζ_Δ on D_IV⁵ as master generating function for SM masses
-- **Paper #65 §IV** (Dark Sector Reading): D(s) analytic, exponentially small, dominated by prime 11
+- **Paper #65 Section IV** (Dark Sector Reading): D(s) analytic, exponentially small, dominated by prime 11
 - **Toys 541, 1184, 1185**: Kolmogorov-mass identity verified across SM spectrum
 
 ---

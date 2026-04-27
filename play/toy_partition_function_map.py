@@ -22,9 +22,9 @@ print("p(BST integer) = BST integer")
 print("=" * 72)
 
 # ─────────────────────────────────────────────────────
-# §1. THE MAP
+# Section 1. THE MAP
 # ─────────────────────────────────────────────────────
-print("\n§1. THE PARTITION FUNCTION ON BST INTEGERS")
+print("\nSection 1. THE PARTITION FUNCTION ON BST INTEGERS")
 print("-" * 50)
 
 # Compute partition function
@@ -90,9 +90,9 @@ for n in core_bst:
     print(f"  {n:>5}  {name:>16}  {p_n:>10}  {match}{star}")
 
 # ─────────────────────────────────────────────────────
-# §2. THE FIVE EXACT MATCHES
+# Section 2. THE FIVE EXACT MATCHES
 # ─────────────────────────────────────────────────────
-print("\n§2. THE FIVE EXACT MATCHES")
+print("\nSection 2. THE FIVE EXACT MATCHES")
 print("-" * 50)
 
 exact_matches = []
@@ -107,9 +107,9 @@ for n in range(1, 50):
 print(f"\n  Total exact BST→BST matches: {len(exact_matches)}")
 
 # ─────────────────────────────────────────────────────
-# §3. FIXED POINTS
+# Section 3. FIXED POINTS
 # ─────────────────────────────────────────────────────
-print("\n§3. FIXED POINTS: p(n) = n")
+print("\nSection 3. FIXED POINTS: p(n) = n")
 print("-" * 50)
 
 print("  Looking for p(n) = n:\n")
@@ -130,9 +130,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §4. THE CHAIN
+# Section 4. THE CHAIN
 # ─────────────────────────────────────────────────────
-print("§4. THE PARTITION CHAIN")
+print("Section 4. THE PARTITION CHAIN")
 print("-" * 50)
 
 # Starting from each BST integer, iterate p(n) and see where it goes
@@ -168,9 +168,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §5. PARTITION FUNCTION AND MODULAR FORMS
+# Section 5. PARTITION FUNCTION AND MODULAR FORMS
 # ─────────────────────────────────────────────────────
-print("§5. THE MODULAR FORM CONNECTION")
+print("Section 5. THE MODULAR FORM CONNECTION")
 print("-" * 50)
 
 # The partition generating function is:
@@ -210,9 +210,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §6. THE RAMANUJAN TAU AND BST
+# Section 6. THE RAMANUJAN TAU AND BST
 # ─────────────────────────────────────────────────────
-print("§6. THE RAMANUJAN TAU FUNCTION")
+print("Section 6. THE RAMANUJAN TAU FUNCTION")
 print("-" * 50)
 
 # τ(n) = coefficients of Δ(τ) = q ∏(1-q^n)^24
@@ -290,9 +290,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §7. THE FACTORIZATION τ(5)
+# Section 7. THE FACTORIZATION τ(5)
 # ─────────────────────────────────────────────────────
-print("§7. THE DEEP FACTORIZATION: τ(5) = 4830")
+print("Section 7. THE DEEP FACTORIZATION: τ(5) = 4830")
 print("-" * 50)
 
 t5 = 4830
@@ -328,9 +328,9 @@ print(f"  9 = c₄. So 23 = p_{{c₄}} = the c₄-th prime!")
 print(f"  Also: 23 = p_9 is the largest prime ≤ λ₃ = 24")
 
 # ─────────────────────────────────────────────────────
-# §8. PARTITION DIFFERENCES
+# Section 8. PARTITION DIFFERENCES
 # ─────────────────────────────────────────────────────
-print("\n§8. PARTITION DIFFERENCES")
+print("\nSection 8. PARTITION DIFFERENCES")
 print("-" * 50)
 
 print("  Differences p(n+1) - p(n) for small n:\n")
@@ -344,9 +344,9 @@ for n in range(1, 20):
     print(f"    p({n+1:>2}) - p({n:>2}) = {p_n1:>6} - {p_n:>5} = {diff:>5}  {name_diff}{star}")
 
 # ─────────────────────────────────────────────────────
-# §9. THE CONGRUENCE CONNECTION
+# Section 9. THE CONGRUENCE CONNECTION
 # ─────────────────────────────────────────────────────
-print("\n§9. RAMANUJAN CONGRUENCES")
+print("\nSection 9. RAMANUJAN CONGRUENCES")
 print("-" * 50)
 
 # Ramanujan discovered:
@@ -381,9 +381,9 @@ for label, mod, res in [("n_C=5", 5, 4), ("g=7", 7, 5), ("c₂=11", 11, 6)]:
     print()
 
 # ─────────────────────────────────────────────────────
-# §10. THE 24-DIMENSIONAL CONNECTION
+# Section 10. THE 24-DIMENSIONAL CONNECTION
 # ─────────────────────────────────────────────────────
-print("§10. η(τ)^24 AND THE LEECH LATTICE")
+print("Section 10. η(τ)^24 AND THE LEECH LATTICE")
 print("-" * 50)
 
 print(f"""
@@ -415,9 +415,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §11. THE PARTITION FUNCTION AS SPECTRAL DENSITY
+# Section 11. THE PARTITION FUNCTION AS SPECTRAL DENSITY
 # ─────────────────────────────────────────────────────
-print("§11. PARTITION FUNCTION AS SPECTRAL DENSITY")
+print("Section 11. PARTITION FUNCTION AS SPECTRAL DENSITY")
 print("-" * 50)
 
 print(f"""
@@ -460,9 +460,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §12. SYNTHESIS
+# Section 12. SYNTHESIS
 # ─────────────────────────────────────────────────────
-print("§12. SYNTHESIS")
+print("Section 12. SYNTHESIS")
 print("-" * 50)
 
 print(f"""

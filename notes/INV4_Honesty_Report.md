@@ -110,7 +110,7 @@ Same root cause as Ω_m — Planck PR4 shifted. Since Ω_Λ = 1 - Ω_m (flat uni
 2. **Flag J_CKM honestly** — it's 8%, not 2%. The CKM sector is BST's weakest area in core particle physics.
 3. **Recalibrate cosmological precisions** — Planck PR4 shifted several values. Our Ω_m and Ω_Λ claims were too precise.
 4. **Correct T1437** — supersingular density is 1/rank = 1/2, not N_c/g.
-5. **Include this report as §17 of Paper #83** (or as a companion). A theory that audits itself is stronger than one that doesn't.
+5. **Include this report as Section 17 of Paper #83** (or as a companion). A theory that audits itself is stronger than one that doesn't.
 
 ## WHAT BST GETS RIGHT
 
@@ -140,7 +140,7 @@ DESI Data Release 2 (March 2025) shows a 2.3σ preference for dynamical dark ene
 
 **Status:** Not yet a discovery (needs 5σ). BST's prediction is within the 2.3σ band. But this is the most important potential falsification of BST on the horizon. If DESI reaches 5σ for w ≠ -1, BST needs to explain dynamical dark energy or acknowledge a failure.
 
-**Honest position:** BST predicts w = -1. DESI hints w ≠ -1 at 2.3σ. We should state this tension explicitly in Paper #83 §19 (Falsifiability) and track DESI results.
+**Honest position:** BST predicts w = -1. DESI hints w ≠ -1 at 2.3σ. We should state this tension explicitly in Paper #83 Section 19 (Falsifiability) and track DESI results.
 
 ## HONEST CONCLUSION
 

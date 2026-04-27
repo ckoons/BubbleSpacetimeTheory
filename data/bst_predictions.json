@@ -1,7 +1,7 @@
 {
   "meta": {
-    "last_updated": "2026-04-21",
-    "total": 44
+    "last_updated": "2026-04-29",
+    "total": 52
   },
   "predictions": [
     {
@@ -20,7 +20,7 @@
         "C_2",
         "n_C"
       ],
-      "source_section": "\u00a78",
+      "source_section": "Section 8",
       "related_constants": [
         "const_001"
       ]
@@ -41,7 +41,7 @@
         "C_2",
         "n_C"
       ],
-      "source_section": "\u00a78",
+      "source_section": "Section 8",
       "related_constants": [
         "const_025",
         "const_026"
@@ -64,7 +64,7 @@
         "n_C",
         "N_max"
       ],
-      "source_section": "\u00a77",
+      "source_section": "Section 7",
       "related_constants": [
         "const_061",
         "const_062"
@@ -83,7 +83,7 @@
       "impact_if_falsified": "FATAL to BST neutrino sector. Would require Majorana masses, contradicting Z_3 topology.",
       "status": "untested",
       "bst_integers_used": [],
-      "source_section": "\u00a77",
+      "source_section": "Section 7",
       "related_constants": [
         "const_061",
         "const_062"
@@ -106,7 +106,7 @@
       "bst_integers_used": [
         "N_max"
       ],
-      "source_section": "\u00a710",
+      "source_section": "Section 10",
       "related_constants": []
     },
     {
@@ -124,7 +124,7 @@
       "bst_integers_used": [
         "N_c"
       ],
-      "source_section": "\u00a77",
+      "source_section": "Section 7",
       "related_constants": [
         "const_004"
       ]
@@ -147,7 +147,7 @@
         "n_C",
         "g"
       ],
-      "source_section": "\u00a743",
+      "source_section": "Section 43",
       "related_constants": []
     },
     {
@@ -169,7 +169,7 @@
         "C_2",
         "rank"
       ],
-      "source_section": "\u00a711",
+      "source_section": "Section 11",
       "related_constants": [
         "const_016",
         "const_017",
@@ -191,7 +191,7 @@
       "bst_integers_used": [
         "N_max"
       ],
-      "source_section": "\u00a710",
+      "source_section": "Section 10",
       "related_constants": [
         "const_002"
       ],
@@ -213,7 +213,7 @@
       "bst_integers_used": [
         "N_max"
       ],
-      "source_section": "\u00a710",
+      "source_section": "Section 10",
       "related_constants": []
     },
     {
@@ -232,7 +232,7 @@
         "n_C",
         "N_max"
       ],
-      "source_section": "\u00a711",
+      "source_section": "Section 11",
       "related_constants": []
     },
     {
@@ -251,7 +251,7 @@
         "g",
         "rank"
       ],
-      "source_section": "\u00a743",
+      "source_section": "Section 43",
       "related_constants": []
     },
     {
@@ -269,7 +269,7 @@
       "bst_integers_used": [
         "rank"
       ],
-      "source_section": "\u00a714",
+      "source_section": "Section 14",
       "related_constants": [],
       "sharpest_test": true,
       "sharpest_test_reason": "Testable immediately with existing EEG data. Extremely specific quantitative prediction."
@@ -290,7 +290,7 @@
         "n_C",
         "rank"
       ],
-      "source_section": "\u00a714",
+      "source_section": "Section 14",
       "related_constants": []
     },
     {
@@ -309,7 +309,7 @@
         "g",
         "n_C"
       ],
-      "source_section": "\u00a714",
+      "source_section": "Section 14",
       "related_constants": []
     },
     {
@@ -327,7 +327,7 @@
       "bst_integers_used": [
         "rank"
       ],
-      "source_section": "\u00a714",
+      "source_section": "Section 14",
       "related_constants": []
     },
     {
@@ -343,7 +343,7 @@
       "impact_if_falsified": "FATAL. Z_3 topological protection is the core of BST baryon physics.",
       "status": "ongoing",
       "bst_integers_used": [],
-      "source_section": "\u00a78",
+      "source_section": "Section 8",
       "related_constants": [
         "const_027"
       ],
@@ -362,7 +362,7 @@
       "impact_if_falsified": "BST hierarchy solution would need reconciliation with SUSY",
       "status": "ongoing",
       "bst_integers_used": [],
-      "source_section": "\u00a79",
+      "source_section": "Section 9",
       "related_constants": [
         "const_007"
       ],
@@ -384,7 +384,7 @@
         "rank",
         "N_c"
       ],
-      "source_section": "\u00a711",
+      "source_section": "Section 11",
       "related_constants": [
         "const_015"
       ],
@@ -406,7 +406,7 @@
         "N_c",
         "n_C"
       ],
-      "source_section": "\u00a711",
+      "source_section": "Section 11",
       "related_constants": [
         "const_014"
       ],
@@ -428,7 +428,7 @@
         "n_C",
         "C_2"
       ],
-      "source_section": "\u00a711",
+      "source_section": "Section 11",
       "related_constants": [
         "const_046"
       ],
@@ -447,7 +447,7 @@
       "impact_if_falsified": "BST phase transition model would need gravity-wave production mechanism",
       "status": "ongoing",
       "bst_integers_used": [],
-      "source_section": "\u00a711",
+      "source_section": "Section 11",
       "related_constants": [
         "const_016"
       ]
@@ -468,7 +468,7 @@
         "N_c",
         "g"
       ],
-      "source_section": "\u00a746.32",
+      "source_section": "Section 46.32",
       "related_constants": []
     },
     {
@@ -486,7 +486,7 @@
       "bst_integers_used": [
         "C_2"
       ],
-      "source_section": "\u00a746.33",
+      "source_section": "Section 46.33",
       "related_constants": [
         "const_105"
       ]
@@ -665,7 +665,13 @@
       "falsification_criterion": "Discovery of a second rank-2 BSD satisfying all four locks",
       "impact_if_falsified": "Would require additional distinguisher beyond four locks",
       "status": "proved",
-      "bst_integers_used": ["N_c", "g", "N_max", "C_2", "rank"],
+      "bst_integers_used": [
+        "N_c",
+        "g",
+        "N_max",
+        "C_2",
+        "rank"
+      ],
       "source": "Toy 1399, T1404"
     },
     {
@@ -680,8 +686,168 @@
       "falsification_criterion": "No feature detected at l ~ 3089 with <1% sensitivity rules out power-law suppression",
       "impact_if_falsified": "Confirms exponential suppression (cascade was violent, no debris survives)",
       "status": "untested",
-      "bst_integers_used": ["N_max", "N_c"],
+      "bst_integers_used": [
+        "N_max",
+        "N_c"
+      ],
       "source": "Toy 1401"
+    },
+    {
+      "id": "pred_045",
+      "name": "No supersymmetric particles",
+      "category": "particle_physics",
+      "prediction": "No superpartner of any SM particle exists. No gravitino, no squarks, no sleptons, no gluino, no photino. D_IV^5 root system B_2 excludes SUSY.",
+      "bst_value": "0 superpartners",
+      "current_measurement": "LHC: no SUSY observed up to ~2 TeV (Run 2)",
+      "experiment": "LHC Run 3, HL-LHC",
+      "timeline": "2025-2040",
+      "falsification_criterion": "Discovery of any superpartner at any mass",
+      "impact_if_falsified": "Fatal to BST - would require different root system",
+      "status": "consistent",
+      "bst_integers_used": [
+        "rank",
+        "N_c"
+      ],
+      "source_section": "Section 3",
+      "related_constants": []
+    },
+    {
+      "id": "pred_046",
+      "name": "Cosmological constant exactly w = -1",
+      "category": "not_yet_measured",
+      "prediction": "Dark energy equation of state w = -1 exactly (or w = -1 + n_C/N_max^2 = -0.99973). BST: Lambda is a spectral eigenvalue, not dynamical.",
+      "bst_value": "-1.0000 (or -0.99973)",
+      "current_measurement": "DESI DR2: 2.3 sigma hint for w != -1",
+      "experiment": "DESI, Euclid, Rubin Observatory (LSST)",
+      "timeline": "2025-2030",
+      "falsification_criterion": "w measured at >5 sigma away from -1, outside BST correction range",
+      "impact_if_falsified": "Would require BST to accommodate dynamical dark energy",
+      "status": "tension_watching",
+      "bst_integers_used": [
+        "n_C",
+        "N_max"
+      ],
+      "source_section": "Section 3",
+      "related_constants": []
+    },
+    {
+      "id": "pred_047",
+      "name": "Higgs trilinear coupling = SM prediction",
+      "category": "not_yet_measured",
+      "prediction": "Higgs self-coupling lambda_3 = 3*m_H^2/v where lambda = 1/sqrt(2*n_C*C_2). No deviation from SM prediction.",
+      "bst_value": "190.8 GeV",
+      "current_measurement": "Not yet measured precisely. HL-LHC target: 50% precision.",
+      "experiment": "HL-LHC, FCC-hh",
+      "timeline": "2030-2040",
+      "falsification_criterion": "Measured lambda_3 deviating >30% from SM/BST prediction",
+      "impact_if_falsified": "Would require revision of Higgs sector on D_IV^5",
+      "status": "untested",
+      "bst_integers_used": [
+        "n_C",
+        "C_2"
+      ],
+      "source_section": "Section 6",
+      "related_constants": []
+    },
+    {
+      "id": "pred_048",
+      "name": "Koide formula precision at FCC-ee",
+      "category": "not_yet_measured",
+      "prediction": "Koide Q = 2/3 to better than 0.001%. Koide angle cos(delta) = -19/28 to 4 ppm. FCC-ee tau mass measurement will distinguish from exact 2/3.",
+      "bst_value": "Q = 2/3, cos(delta) = -19/28",
+      "current_measurement": "Q = 0.66661 +/- 0.00007 (PDG 2025)",
+      "experiment": "FCC-ee (tau mass, e+e- threshold)",
+      "timeline": "2040+",
+      "falsification_criterion": "Q measured significantly different from 2/3 at >5 sigma",
+      "impact_if_falsified": "Would question Koide as fundamental BST identity",
+      "status": "consistent",
+      "bst_integers_used": [
+        "rank",
+        "N_c",
+        "n_C",
+        "g"
+      ],
+      "source_section": "Section 4",
+      "related_constants": []
+    },
+    {
+      "id": "pred_049",
+      "name": "CKM V_ub from BST Wolfenstein",
+      "category": "particle_physics",
+      "prediction": "|V_ub| = A*lambda^3*sqrt(rho_bar^2 + eta_bar^2) = 0.00360, using BST Wolfenstein parameters. Currently 2.25% tension with PDG.",
+      "bst_value": "0.00360",
+      "current_measurement": "0.003682 +/- 0.00007 (PDG 2025)",
+      "experiment": "Belle II (b->u transitions)",
+      "timeline": "2025-2030",
+      "falsification_criterion": "If Belle II narrows to exclude 0.00360 at >3 sigma, BST CKM needs correction",
+      "impact_if_falsified": "Would require higher-order CKM correction in BST",
+      "status": "tension",
+      "bst_integers_used": [
+        "rank",
+        "N_c",
+        "n_C",
+        "C_2"
+      ],
+      "source_section": "Section 7",
+      "related_constants": []
+    },
+    {
+      "id": "pred_050",
+      "name": "Superconductor T_c = 118 K class",
+      "category": "not_yet_measured",
+      "prediction": "BST predicts a material class with T_c = N_max - n_C*rank^2 - 1 = 118 K. Ambient-pressure room-temperature SC NOT predicted by BST.",
+      "bst_value": "118 K",
+      "current_measurement": "Highest confirmed T_c (ambient): ~138 K (Hg-Ba-Ca-Cu-O, high pressure). No 118 K ambient.",
+      "experiment": "Materials science search programs, Ames Lab",
+      "timeline": "ongoing",
+      "falsification_criterion": "Strong negative prediction: room-temperature ambient SC would challenge BST",
+      "impact_if_falsified": "Low impact \u2014 T_c prediction is C-tier (structural)",
+      "status": "untested",
+      "bst_integers_used": [
+        "N_max",
+        "n_C",
+        "rank"
+      ],
+      "source_section": "Section 10",
+      "related_constants": []
+    },
+    {
+      "id": "pred_051",
+      "name": "Error correction in biology: 7-gate Hamming decoder",
+      "category": "cross_domain",
+      "prediction": "Cancer driver mutations follow Hamming distance patterns on genetic code. 5 syndrome classes cover 12 major cancer drivers. Targeted correction via syndrome-guided therapy.",
+      "bst_value": "Hamming(7,4,3) structure in codon space",
+      "current_measurement": "Toy 1560-1563: 100% detection in grid sim for 5 syndrome classes",
+      "experiment": "Computational biology validation against COSMIC database",
+      "timeline": "2026-2028",
+      "falsification_criterion": "Cancer driver distribution does not correlate with Hamming distance in codon space",
+      "impact_if_falsified": "Would weaken biology bridge but not core physics",
+      "status": "computationally_verified",
+      "bst_integers_used": [
+        "g",
+        "rank",
+        "N_c"
+      ],
+      "source_section": "Section 13",
+      "related_constants": []
+    },
+    {
+      "id": "pred_052",
+      "name": "Ice/water density ratio = 11/12",
+      "category": "cross_domain",
+      "prediction": "Ice I_h / liquid water density = (2*C_2 - 1)/(2*C_2) = 11/12 = 0.9167. Vacuum subtraction: one mode of 12 doesn't participate.",
+      "bst_value": "0.9167",
+      "current_measurement": "0.9168 (0.01% deviation)",
+      "experiment": "Standard measurement, well-established",
+      "timeline": "verified",
+      "falsification_criterion": "Already verified to 0.01%",
+      "impact_if_falsified": "N/A \u2014 already confirmed",
+      "status": "confirmed",
+      "bst_integers_used": [
+        "C_2"
+      ],
+      "source_section": "Section 11",
+      "related_constants": []
     }
   ]
 }

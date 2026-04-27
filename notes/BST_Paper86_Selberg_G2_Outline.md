@@ -132,14 +132,14 @@ We show that the Schwinger coefficients C_L of the electron anomalous magnetic m
 
 | Theorem | Name | Role |
 |---------|------|------|
-| T1448 | Schwinger C_2 Decomposition | §5 — 15-digit match |
-| T1450 | Schwinger C_3 Reading | §6 — 13-digit match, five contributions |
-| T1451 | Vertex Selberg Trace Formula | §3 — the decomposition framework |
-| T1445 | Spectral Peeling | §9 — denominator progression |
-| T1444 | Vacuum Subtraction | §5 — the -1 in "197 = N_max + 60" |
-| T1452 | Integer Activation | §2 — Bergman eigenvalues are BST products |
-| T1453 | Schwinger C_4 Reading | §8 — predictions |
+| T1448 | Schwinger C_2 Decomposition | Section 5 — 15-digit match |
+| T1450 | Schwinger C_3 Reading | Section 6 — 13-digit match, five contributions |
+| T1451 | Vertex Selberg Trace Formula | Section 3 — the decomposition framework |
+| T1445 | Spectral Peeling | Section 9 — denominator progression |
+| T1444 | Vacuum Subtraction | Section 5 — the -1 in "197 = N_max + 60" |
+| T1452 | Integer Activation | Section 2 — Bergman eigenvalues are BST products |
+| T1453 | Schwinger C_4 Reading | Section 8 — predictions |
 
 ---
 
-*Outline v0.1. Next: draft §§1-5 (the core argument). Target length: 15-20 pages for CMP, 4-5 pages for PRL.*
+*Outline v0.1. Next: draft Sections 1-5 (the core argument). Target length: 15-20 pages for CMP, 4-5 pages for PRL.*

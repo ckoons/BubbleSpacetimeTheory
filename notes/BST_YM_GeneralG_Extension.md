@@ -79,7 +79,7 @@ The mass formula alone selects $n = 5$. But BST provides 21 independent conditio
 | 6 | Fine structure | $\alpha^{-1} = N_{\max} = 137$ | $n = 5$ (via dimensional constraint) |
 | 7 | Nuclear magic numbers | $\kappa_{ls} = C_2/(C_2-1) = 6/5$ | $n = 5$ |
 
-The full table of 21 conditions is in WorkingPaper §37.5. Each condition involves different physics (mass ratios, coupling constants, nuclear structure, cosmological parameters) and each independently gives $n = 5$.
+The full table of 21 conditions is in WorkingPaper Section 37.5. Each condition involves different physics (mass ratios, coupling constants, nuclear structure, cosmological parameters) and each independently gives $n = 5$.
 
 -----
 

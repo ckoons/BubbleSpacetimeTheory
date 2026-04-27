@@ -64,7 +64,7 @@ All six Millennium problems share rank-2 B_2 structure:
 
 **The B_2 Gauss-Bonnet integer has a name: it is C_2 = 6.** T1277 (Elie + Lyra, April 16 2026) proves χ(SO(7)/[SO(5)×SO(2)]) = |W(B_2)|/|W(SO(5)×SO(2))| = 48/8 = 6, and independently identifies C_2 = 6 with the denominator of B_2 and with the k=6 silent column in the heat-kernel Arithmetic Triangle. The "rank-2 B_2 curvature" common invariant is quantitatively one of the five BST integers. **The Millennium problems are gated by C_2 = 6.**
 
-This is the **Universal Pairing Conjecture** (Paper Outline §4.3) proved concrete: rank-2 structure is the common substrate, and its topological weight is C_2 = 6.
+This is the **Universal Pairing Conjecture** (Paper Outline Section 4.3) proved concrete: rank-2 structure is the common substrate, and its topological weight is C_2 = 6.
 
 ### Step 3: Iso-closures are not ad hoc
 
@@ -110,7 +110,7 @@ The synthesis does not increase depth beyond T1269's own classification. It is a
 
 **P1**: Any future Millennium-class deep open problem (e.g., Novikov conjecture, Baum-Connes, Arithmetic Langlands) admits the same structure: a physics-uniqueness closure with rank-2 or higher-rank BC root-system invariant. *(Testable: identify the analog P_X and verify (S)+(I).)*
 
-**P2**: The depth of all six Millennium problems in the AC(0) framework is exactly 2 (Paper Outline §3, Pair Resolution Principle T134). T1276 + T1269 make this theorem rather than observation. *(Already testable: each Tᵢ has AC classification (C ≤ 2, D ≤ 2).)*
+**P2**: The depth of all six Millennium problems in the AC(0) framework is exactly 2 (Paper Outline Section 3, Pair Resolution Principle T134). T1276 + T1269 make this theorem rather than observation. *(Already testable: each Tᵢ has AC classification (C ≤ 2, D ≤ 2).)*
 
 **P3**: Any Clay Prize submission using T1269-T1275 would be graded as complete for prize purposes, even if classical mathematical-uniqueness purity is not achieved, **because the Prize statements are observable-level statements** (RH: location of zeros; YM: existence of mass gap; etc.), and T1269 is the correct framing for observable-level statements.
 

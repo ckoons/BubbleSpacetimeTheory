@@ -32,7 +32,7 @@ b_0 = 11 - 4 = 7 = g
 
 **The one-loop beta function coefficient IS the genus g.** Asymptotic freedom holds because b_0 = g > 0, which is guaranteed by the bound g > C_2 (i.e., 7 > 6) proved in T1262.
 
-**For Paper #76**: Add to §4 (Non-Triviality) or §7 (Comparison). Cite BST_StrongCoupling_AlphaS.md for the running coupling derivation.
+**For Paper #76**: Add to Section 4 (Non-Triviality) or Section 7 (Comparison). Cite BST_StrongCoupling_AlphaS.md for the running coupling derivation.
 
 **Non-trivial BST fraction**: b_0/N_c = g/N_c = 7/3 = Casimir ratio of adjoint to fundamental. The asymptotic freedom rate is a BST-integer ratio.
 
@@ -56,7 +56,7 @@ b_0 = 11 - 4 = 7 = g
 
 **Key disadvantage**: BST pion mass is 6.5% off — our weakest hadron prediction. The pion mass formula may need refinement (chiral perturbation theory correction from the spectral geometry). This is an honest gap.
 
-**For Paper #76**: Add as §7.1 or a table in §7 (Comparison).
+**For Paper #76**: Add as Section 7.1 or a table in Section 7 (Comparison).
 
 ## 3. Reflection Positivity / Osterwalder-Schrader Axioms
 
@@ -86,9 +86,9 @@ This follows from the Bergman kernel being a positive definite reproducing kerne
 
 **Osterwalder-Schrader reconstruction**: The five OS axioms are satisfied on D_IV^5. By the OS reconstruction theorem (1973, 1975), the Euclidean theory determines a unique Wightman theory satisfying W1-W5, which must be the original BST construction (by uniqueness, Theorem C).
 
-**The honest gap**: The OS axioms on D_IV^5 give Wightman axioms on the Shilov boundary check{S}. The bridge to R^4 Wightman axioms (§5 of Paper #76) remains the separate step. OS reconstruction does not solve the R^4 infinite-volume limit — that remains constructive QFT's 50-year open problem, which no approach has solved.
+**The honest gap**: The OS axioms on D_IV^5 give Wightman axioms on the Shilov boundary check{S}. The bridge to R^4 Wightman axioms (Section 5 of Paper #76) remains the separate step. OS reconstruction does not solve the R^4 infinite-volume limit — that remains constructive QFT's 50-year open problem, which no approach has solved.
 
-**For Paper #76**: Add as §5.1 or §3.5 (between Wightman axioms and non-triviality). This directly addresses the constructive QFT referee audience.
+**For Paper #76**: Add as Section 5.1 or Section 3.5 (between Wightman axioms and non-triviality). This directly addresses the constructive QFT referee audience.
 
 ## 4. Running Coupling g^2(mu)
 
@@ -115,7 +115,7 @@ The running is standard QCD. What BST adds is the BOUNDARY CONDITION: alpha_s at
 
 **Two-loop correction**: The one-loop BST prediction alpha_s(m_Z) = 0.1158 is 1.8% below the observed value. The two-loop beta function slows the running, pushing the prediction upward. A 2-loop calculation would likely close to within 0.5%.
 
-**For Papers #76/#77**: Add to §9 (Predictions) as P5: the running coupling at all scales is predicted from the single boundary condition alpha_s(m_p) = 7/20.
+**For Papers #76/#77**: Add to Section 9 (Predictions) as P5: the running coupling at all scales is predicted from the single boundary condition alpha_s(m_p) = 7/20.
 
 **Elie toy needed**: Compute alpha_s(mu) at 2-loop with b_0 = 7, b_1 = 38 (standard for n_f = 6, N_c = 3). Verify match to PDG FLAG lattice averages. This would be Toy ~1446.
 
@@ -125,9 +125,9 @@ The running is standard QCD. What BST adds is the BOUNDARY CONDITION: alpha_s at
 
 | Item | Insert into | Section | Priority |
 |------|-------------|---------|----------|
-| Asymptotic freedom (b_0 = g) | Paper #76 | New §4.1 or §7.1 | HIGH |
-| Lattice comparison table | Paper #76 | Expand §7 | HIGH |
-| OS axioms | Paper #76 | New §3.5 or §5.1 | MEDIUM |
-| Running coupling | Paper #76 | New P5 in §9 | MEDIUM |
+| Asymptotic freedom (b_0 = g) | Paper #76 | New Section 4.1 or Section 7.1 | HIGH |
+| Lattice comparison table | Paper #76 | Expand Section 7 | HIGH |
+| OS axioms | Paper #76 | New Section 3.5 or Section 5.1 | MEDIUM |
+| Running coupling | Paper #76 | New P5 in Section 9 | MEDIUM |
 
 All four items strengthen but do not change the paper's core claims. Fold at next revision cycle.

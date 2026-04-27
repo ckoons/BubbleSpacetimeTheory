@@ -70,7 +70,7 @@ The first six values:
 - Not equally spaced: gaps are 8, 10, 12, 14, 16, ... (linearly increasing, not constant)
 - Not multi-particle tower: the ratios 2.33, 1.71, 1.50, ... do not match $((n+1)/n)^2$
 
-The linearly increasing gaps are characteristic of a **confining** theory: the bound-state tower has increasing level spacing, not the constant spacing of free particles. This is the spectral signature of confinement = compactness of $Q^5$ (BST_YM_AC_Proof.md §2).
+The linearly increasing gaps are characteristic of a **confining** theory: the bound-state tower has increasing level spacing, not the constant spacing of free particles. This is the spectral signature of confinement = compactness of $Q^5$ (BST_YM_AC_Proof.md Section 2).
 
 **Conclusion**: The BST spectrum is incompatible with any free field theory. The theory is non-Gaussian. $\square$
 
@@ -181,11 +181,11 @@ The Backlog lists Y5 (non-triviality) as the remaining ~3% of the Yang-Mills Mil
 
 | YM Component | Status | Document |
 |-------------|--------|----------|
-| W1: Hilbert space | **Exhibited** | BST_Wightman_Exhibition.md §W1 |
-| W2: Poincaré covariance | **Exhibited** | BST_Wightman_Exhibition.md §W2 |
-| W3: Positive energy + mass gap | **Proved** ($\Delta = 6\pi^5 m_e$) | BST_Wightman_Exhibition.md §W3 |
-| W4: Microcausality | **Derived** (modular localization) | BST_Wightman_Exhibition.md §W4 |
-| W5: Unique vacuum | **Proved** | BST_Wightman_Exhibition.md §W5 |
+| W1: Hilbert space | **Exhibited** | BST_Wightman_Exhibition.md Section W1 |
+| W2: Poincaré covariance | **Exhibited** | BST_Wightman_Exhibition.md Section W2 |
+| W3: Positive energy + mass gap | **Proved** ($\Delta = 6\pi^5 m_e$) | BST_Wightman_Exhibition.md Section W3 |
+| W4: Microcausality | **Derived** (modular localization) | BST_Wightman_Exhibition.md Section W4 |
+| W5: Unique vacuum | **Proved** | BST_Wightman_Exhibition.md Section W5 |
 | Non-triviality (Y5) | **Proved** (5 arguments) | **This document** |
 | $Q^5 \to \mathbb{R}^4$ bridge | **Scoped** (Option C+D) | BST_YM_Q5_R4_Bridge_Scoping.md |
 

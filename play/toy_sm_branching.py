@@ -31,9 +31,9 @@ c2 = 11
 c3 = 13
 
 # ─────────────────────────────────────────────────────
-# §1. THE BRANCHING CHAIN
+# Section 1. THE BRANCHING CHAIN
 # ─────────────────────────────────────────────────────
-print("\n§1. THE BRANCHING CHAIN")
+print("\nSection 1. THE BRANCHING CHAIN")
 print("-" * 50)
 
 print(f"""
@@ -54,9 +54,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §2. BRANCHING OF FUNDAMENTAL REPRESENTATIONS
+# Section 2. BRANCHING OF FUNDAMENTAL REPRESENTATIONS
 # ─────────────────────────────────────────────────────
-print("§2. BRANCHING OF FUNDAMENTAL REPRESENTATIONS")
+print("Section 2. BRANCHING OF FUNDAMENTAL REPRESENTATIONS")
 print("-" * 50)
 
 # Sp(6) representations and their SU(3)×U(1) branchings:
@@ -122,9 +122,9 @@ for name, desc, decomp in branchings:
     print(f"    Total: {total_dim}")
 
 # ─────────────────────────────────────────────────────
-# §3. THE GLUON ADJOINT
+# Section 3. THE GLUON ADJOINT
 # ─────────────────────────────────────────────────────
-print("\n§3. THE GLUON ADJOINT")
+print("\nSection 3. THE GLUON ADJOINT")
 print("-" * 50)
 
 print(f"""
@@ -154,9 +154,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §4. THE BARYON REPRESENTATION
+# Section 4. THE BARYON REPRESENTATION
 # ─────────────────────────────────────────────────────
-print("§4. THE BARYON AND Λ³(6)")
+print("Section 4. THE BARYON AND Λ³(6)")
 print("-" * 50)
 
 # Λ³(6): the third exterior power of the standard rep
@@ -208,9 +208,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §5. COUNTING STATES
+# Section 5. COUNTING STATES
 # ─────────────────────────────────────────────────────
-print("§5. COUNTING STATES: THE EXTERIOR ALGEBRA")
+print("Section 5. COUNTING STATES: THE EXTERIOR ALGEBRA")
 print("-" * 50)
 
 from math import comb
@@ -237,9 +237,9 @@ print(f"  ★ This is the number of CODONS: 4³ = 64 = 2^C₂")
 print(f"     (in BST: codons = Fock space of C₂ fermionic oscillators)")
 
 # ─────────────────────────────────────────────────────
-# §6. THE ELECTROWEAK EMBEDDING
+# Section 6. THE ELECTROWEAK EMBEDDING
 # ─────────────────────────────────────────────────────
-print("\n§6. THE ELECTROWEAK EMBEDDING")
+print("\nSection 6. THE ELECTROWEAK EMBEDDING")
 print("-" * 50)
 
 print(f"""
@@ -275,9 +275,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §7. THE WEINBERG ANGLE
+# Section 7. THE WEINBERG ANGLE
 # ─────────────────────────────────────────────────────
-print("§7. THE WEINBERG ANGLE FROM BRANCHING")
+print("Section 7. THE WEINBERG ANGLE FROM BRANCHING")
 print("-" * 50)
 
 # The Weinberg angle sin²θ_W = c₅/c₃ = 3/13 (from BST Chern classes)
@@ -324,9 +324,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §8. THE FULL STANDARD MODEL ASSIGNMENT
+# Section 8. THE FULL STANDARD MODEL ASSIGNMENT
 # ─────────────────────────────────────────────────────
-print("§8. THE FULL STANDARD MODEL ASSIGNMENT")
+print("Section 8. THE FULL STANDARD MODEL ASSIGNMENT")
 print("-" * 50)
 
 print(f"""
@@ -364,9 +364,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §9. CASIMIR SUM = P(1) = 42
+# Section 9. CASIMIR SUM = P(1) = 42
 # ─────────────────────────────────────────────────────
-print("§9. THE CASIMIR SUM = P(1) = 42")
+print("Section 9. THE CASIMIR SUM = P(1) = 42")
 print("-" * 50)
 
 # Casimir eigenvalues of the 5 WZW primaries at level 2:
@@ -405,9 +405,9 @@ print(f"  Differences: {[casimirs[i+1]-casimirs[i] for i in range(4)]}")
 print(f"  = [6, 4, 2, 2] = [C₂, 4, r, r]")
 
 # ─────────────────────────────────────────────────────
-# §10. SYNTHESIS
+# Section 10. SYNTHESIS
 # ─────────────────────────────────────────────────────
-print("\n§10. SYNTHESIS")
+print("\nSection 10. SYNTHESIS")
 print("-" * 50)
 
 print(f"""

@@ -149,4 +149,4 @@ The fourth Seeley-DeWitt coefficient $a_4(Q^5) = 2671/18$ decomposes as $N_c \, 
 - Luger, K., Mader, A. W., Richmond, R. K., Sargent, D. F. & Richmond, T. J. Crystal structure of the nucleosome core particle at 2.8 A resolution. *Nature* **389**, 251-260 (1997).
 - Simpson, R. T. Structure of the chromatosome, a chromatin particle containing 160 base pairs of DNA and all five histones. *Biochemistry* **17**, 5524-5531 (1978).
 - BST_SeeleyDeWitt_FiberPacking.md — full $a_4(n)$ polynomial and uniqueness analysis.
-- BST_Arithmetic_Triangle.md §9.3 — first statement of the 147 bridge within the Arithmetic Triangle paper.
+- BST_Arithmetic_Triangle.md Section 9.3 — first statement of the 147 bridge within the Arithmetic Triangle paper.

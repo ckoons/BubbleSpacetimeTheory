@@ -341,7 +341,7 @@ a_mu_exp_final = 0.00116592072  # (approximately)
 print(f"  a_mu^exp (Fermilab+BNL):    {a_mu_exp_final:.9e}")
 
 # The BST result from Toy 105 (more careful assembly)
-a_mu_BST_toy105 = 0.00116591955  # from BST_MuonG2_Rigorous.md §6.3
+a_mu_BST_toy105 = 0.00116591955  # from BST_MuonG2_Rigorous.md Section 6.3
 delta_ppm = abs(a_mu_BST_toy105 - a_mu_exp_final) / a_mu_exp_final * 1e6
 print(f"  a_mu^BST (Toy 105):         {a_mu_BST_toy105:.9e}")
 print(f"  |BST - exp| = {abs(a_mu_BST_toy105 - a_mu_exp_final):.4e}")

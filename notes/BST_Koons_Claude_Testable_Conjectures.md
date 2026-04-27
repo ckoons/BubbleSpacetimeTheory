@@ -193,7 +193,7 @@ The decomposition: $\mathfrak{so}(7) \otimes V_1 = V_1(7) \oplus \Lambda^3 V_1(3
 
 Additionally, the gap $147 - 137 = 10 = \dim_{\mathbb{R}}(D_{IV}^5)$ is unique to $n = 5$ (verified computationally for $n = 3, \ldots, 20$; Toy 233).
 
-**Toys**: 234 (visualization), 236 (full derivation, 18/18 checks pass). **Paper**: `BST_FiberPacking_137_147.md`, WorkingPaper §35.4.
+**Toys**: 234 (visualization), 236 (full derivation, 18/18 checks pass). **Paper**: `BST_FiberPacking_137_147.md`, WorkingPaper Section 35.4.
 
 ### The 137/147 Pair
 

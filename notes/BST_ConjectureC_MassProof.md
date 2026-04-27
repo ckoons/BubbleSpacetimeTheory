@@ -24,7 +24,7 @@ $$m_e = 6\pi^5 \alpha^{12} \, m_{\text{Pl}}$$
 
 Every symbol on the right side is either derived from the geometry of D_IV^5 or is a unit conversion. There is no fitting, no adjustment, no free parameter. And we prove it not once but three times — by three independent mathematical routes that use entirely different machinery and arrive at exactly the same result. Three surveyors measuring a mountain from different valleys, all reporting the same height.
 
-**Reading guide:** This note proves a single result (α² per Bergman layer) via three independent routes. **Route 1** (Harish-Chandra c-function, §1) is the most self-contained — it reads the answer from the pole structure of a function that Harish-Chandra computed in 1958. **Route 2** (Berezin symbol, §2) is shortest — it asks what "mass" even means for a particle that lives on the boundary. **Route 3** (holographic, §3) connects to the language of AdS/CFT — and reveals that the connection is not analogy but identity. Read any one route for the proof; the other two are independent cross-checks.
+**Reading guide:** This note proves a single result (α² per Bergman layer) via three independent routes. **Route 1** (Harish-Chandra c-function, Section 1) is the most self-contained — it reads the answer from the pole structure of a function that Harish-Chandra computed in 1958. **Route 2** (Berezin symbol, Section 2) is shortest — it asks what "mass" even means for a particle that lives on the boundary. **Route 3** (holographic, Section 3) connects to the language of AdS/CFT — and reveals that the connection is not analogy but identity. Read any one route for the proof; the other two are independent cross-checks.
 
 ---
 

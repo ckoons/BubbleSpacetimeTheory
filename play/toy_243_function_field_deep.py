@@ -110,11 +110,11 @@ def harmonic_ratios_from_frobenius(alpha, q, m_s):
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §1. UNIVERSALITY SWEEP
+# Section 1. UNIVERSALITY SWEEP
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§1. Universality Sweep: Multiple Curves and Fields")
+print("Section 1. Universality Sweep: Multiple Curves and Fields")
 print("=" * 72)
 
 # Genus-1 curves over various F_q
@@ -186,11 +186,11 @@ if all_baby_pass and all_full_pass:
     print(f"\n  ✓ UNIVERSAL: D₁ vs D₃ distinction holds across ALL {len(universality_table)} curves")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §2. GENUS-2 SWEEP
+# Section 2. GENUS-2 SWEEP
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§2. Genus-2 Curves: Four Frobenius Eigenvalues")
+print("Section 2. Genus-2 Curves: Four Frobenius Eigenvalues")
 print("=" * 72)
 
 # A genus-2 curve has 4 Frobenius eigenvalues (2 conjugate pairs).
@@ -256,11 +256,11 @@ else:
     print(f"\n  Some genus-2 curves failed — investigating")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §3. MULTI-EIGENVALUE SPECTRAL SUM
+# Section 3. MULTI-EIGENVALUE SPECTRAL SUM
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§3. Multi-Eigenvalue Spectral Sum")
+print("Section 3. Multi-Eigenvalue Spectral Sum")
 print("=" * 72)
 
 print("""
@@ -383,11 +383,11 @@ if all_pairs_d3:
     print(f"  ✓ Each conjugate pair produces D₃ — total is superposition of D₃ kernels")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §4. THE 147 FIXED-POINT COUNT
+# Section 4. THE 147 FIXED-POINT COUNT
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§4. The 147 Fixed-Point Count: tr(φ | so(7) ⊗ V₁)")
+print("Section 4. The 147 Fixed-Point Count: tr(φ | so(7) ⊗ V₁)")
 print("=" * 72)
 
 print("""
@@ -503,11 +503,11 @@ if np.isclose(tr_147_id.real, 147, atol=1e-10):
     print(f"  ✓ dim(so(7) ⊗ V₁) = 147 confirmed from trace")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §5. DECOMPOSITION TRACES
+# Section 5. DECOMPOSITION TRACES
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§5. Frobenius Traces on the 147 Decomposition")
+print("Section 5. Frobenius Traces on the 147 Decomposition")
 print("=" * 72)
 
 print("""
@@ -522,7 +522,7 @@ Check: does the Frobenius trace decompose consistently?
 # tr(φ | Λ³V₁) = (1/6)[p₁³ - 3p₁p₂ + 2p₃]
 # where p_k = tr(φ^k | V₁) = Σ β_i^k
 
-# Use the generic Frobenius from §4
+# Use the generic Frobenius from Section 4
 p1 = np.sum(frob_V1)
 p2 = np.sum(frob_V1**2)
 p3 = np.sum(frob_V1**3)
@@ -560,11 +560,11 @@ if np.isclose(tr_Lambda3_id, 35, atol=1e-10):
     print(f"  ✓ dim(Λ³V₁) = 35")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §6. FROBENIUS TRACE AND THE 137/147 GAP
+# Section 6. FROBENIUS TRACE AND THE 137/147 GAP
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§6. The 147 − 137 = 10 Gap in Frobenius Language")
+print("Section 6. The 147 − 137 = 10 Gap in Frobenius Language")
 print("=" * 72)
 
 print("""
@@ -612,11 +612,11 @@ if dim_Q5 == dim_R:
     print(f"  ✓ dim(Q⁵) = dim_R = {dim_R}")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §7. m_s DEPENDENCE: THE CRITICAL SWEEP
+# Section 7. m_s DEPENDENCE: THE CRITICAL SWEEP
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§7. The m_s Sweep: Kill Shot Existence vs Root Multiplicity")
+print("Section 7. The m_s Sweep: Kill Shot Existence vs Root Multiplicity")
 print("=" * 72)
 
 print("""
@@ -703,11 +703,11 @@ if all_correct:
     print("  ✓ Kill shot available iff N_c ≥ 2 (n ≥ 4), confirmed for n=3..8")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §8. THE THEOREM: CO-EMBEDDING STRUCTURE
+# Section 8. THE THEOREM: CO-EMBEDDING STRUCTURE
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§8. The Co-Embedding Theorem (Computational Form)")
+print("Section 8. The Co-Embedding Theorem (Computational Form)")
 print("=" * 72)
 
 print("""
@@ -747,7 +747,7 @@ print(f"  - Decomposition: V₁(7) ⊕ Λ³V₁(35) ⊕ V_hook(105) = 147")
 print(f"  - Kill shot threshold: N_c ≥ 2 (n ≥ 4)")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §9. VERIFICATION SUMMARY
+# Section 9. VERIFICATION SUMMARY
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)

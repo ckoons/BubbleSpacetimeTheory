@@ -44,7 +44,7 @@ print("=" * 72)
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §1. INSTANCE GENERATORS
+# Section 1. INSTANCE GENERATORS
 # ═══════════════════════════════════════════════════════════════════
 
 def random_ksat(n, k, alpha):
@@ -59,7 +59,7 @@ def random_ksat(n, k, alpha):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §2. SOLVERS AND MEASUREMENTS
+# Section 2. SOLVERS AND MEASUREMENTS
 # ═══════════════════════════════════════════════════════════════════
 
 def dpll_solve(instance, max_bt=MAX_BT, rand_order=False):
@@ -188,7 +188,7 @@ def safe_std(lst):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §3. THE CATASTROPHE OBSERVABLE: h(α) = log₂(BT+1)/n
+# Section 3. THE CATASTROPHE OBSERVABLE: h(α) = log₂(BT+1)/n
 # ═══════════════════════════════════════════════════════════════════
 #
 # h(α) measures normalized computational hardness.
@@ -203,7 +203,7 @@ def safe_std(lst):
 # The swallowtail is in the COST, not just the content.
 
 print("\n" + "=" * 72)
-print("§3. CATASTROPHE OBSERVABLE: h(α) = log₂(BT+1)/n")
+print("Section 3. CATASTROPHE OBSERVABLE: h(α) = log₂(BT+1)/n")
 print("Split between SAT and UNSAT sheets")
 print("=" * 72)
 
@@ -284,12 +284,12 @@ for k in [3]:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §4. CUSP DETECTION
+# Section 4. CUSP DETECTION
 # d(h)/d(α) should diverge at the catastrophe point
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n\n" + "=" * 72)
-print("§4. CUSP DETECTION")
+print("Section 4. CUSP DETECTION")
 print("d(h)/d(α) near α_c — divergence = cusp = catastrophe singularity")
 print("=" * 72)
 
@@ -318,13 +318,13 @@ print(f"  Distance: |α_max - α_c| = {abs(max_deriv_alpha - thresholds[3]):.3f}
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §5. SHEET SEPARATION PROFILE
+# Section 5. SHEET SEPARATION PROFILE
 # Δh = h(UNSAT) - h(SAT) as a function of α
 # Should peak at α_c and vanish far from it
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n\n" + "=" * 72)
-print("§5. SHEET SEPARATION PROFILE")
+print("Section 5. SHEET SEPARATION PROFILE")
 print("Δh = h(UNSAT) - h(SAT) — should peak near α_c")
 print("=" * 72)
 
@@ -350,13 +350,13 @@ print(f"  α_c = {thresholds[3]:.3f}")
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §6. BACKBONE TRANSITION (I_fiat content)
+# Section 6. BACKBONE TRANSITION (I_fiat content)
 # The backbone fraction → I_derivable. As α → α_c, backbone → 1
 # (solution becomes unique), but derivation cost diverges.
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n\n" + "=" * 72)
-print("§6. BACKBONE TRANSITION")
+print("Section 6. BACKBONE TRANSITION")
 print("Backbone fraction (= I_derivable/n) vs α")
 print("Paradox: MORE determined (backbone↑) but HARDER (h↑)")
 print("=" * 72)
@@ -377,11 +377,11 @@ for a, bb, h in zip(all_alphas, all_bb, all_h_all):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §7. CODIMENSION CHECK
+# Section 7. CODIMENSION CHECK
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n\n" + "=" * 72)
-print("§7. CODIMENSION CHECK")
+print("Section 7. CODIMENSION CHECK")
 print("k=2 fold, k=3 cusp, k=4 swallowtail")
 print("=" * 72)
 
@@ -406,11 +406,11 @@ print(f"""
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §8. SCORECARD
+# Section 8. SCORECARD
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n\n" + "=" * 72)
-print("§8. SCORECARD")
+print("Section 8. SCORECARD")
 print("=" * 72)
 
 # Evaluate checks from the data
@@ -494,11 +494,11 @@ else:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §9. THE CRITICAL POINT THEOREM
+# Section 9. THE CRITICAL POINT THEOREM
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n\n" + "=" * 72)
-print("§9. THE CRITICAL POINT THEOREM (Gap B Closure)")
+print("Section 9. THE CRITICAL POINT THEOREM (Gap B Closure)")
 print("=" * 72)
 
 print(f"""
@@ -546,11 +546,11 @@ print(f"""
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §10. CASEY'S MODELS (preserved from v1)
+# Section 10. CASEY'S MODELS (preserved from v1)
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§10. CASEY'S MODELS")
+print("Section 10. CASEY'S MODELS")
 print("=" * 72)
 
 print("""

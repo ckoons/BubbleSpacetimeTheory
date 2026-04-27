@@ -36,7 +36,7 @@ This is not heat death (passive, eternal). It is not a bounce (instantaneous). I
 
 During the active phase (expansion, structure formation, complexity), the substrate accumulates topological features: channels carved by matter flows, generator activation patterns etched by stable configurations, pathways worn by chemistry and life.
 
-When the UNC gradient exhausts (see §4), the thermodynamic arrow stops. What remains:
+When the UNC gradient exhausts (see Section 4), the thermodynamic arrow stops. What remains:
 
 1. **The geometry** $D_{IV}^5$ — unchanged, eternal.
 2. **The topology** of the committed subgraph — persistent. Topology is discrete; it survives continuous deformation.

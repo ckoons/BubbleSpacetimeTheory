@@ -37,7 +37,7 @@ For each method, determine:
 
 | # | Method | Field | (R,C,P,D,K) | ‖N‖ | FD | I(Q,n) | Natural Basis | Evidence | Status |
 |---|--------|-------|-------------|------|-----|---------|---------------|----------|--------|
-| 1 | BST pipeline | Physics | (0,0,0,0,1) | 0 | 0 | 5 integers | D_IV^5 spectral | §13 of AC paper, 120+ predictions | **Done** |
+| 1 | BST pipeline | Physics | (0,0,0,0,1) | 0 | 0 | 5 integers | D_IV^5 spectral | Section 13 of AC paper, 120+ predictions | **Done** |
 | 2 | Gaussian elimination | Linear algebra | (0,0,0,0,1) | 0 | 0 | n² | Row echelon | Row ops invertible | **Done** |
 | 3 | FFT / Fourier transform | Signal processing | (0,0,0,0,1) | 0 | 0 | n log n | Frequency basis | Unitary: FFT⁻¹ exists | **Done** |
 | 4 | Eigenvalue decomposition | Linear algebra | (0,0,0,0,1) | 0 | 0 | n² | Eigenbasis | A=QΛQ⁻¹, spectral theorem | **Done** |
@@ -73,7 +73,7 @@ For each method, determine:
 | # | Method | Field | (R,C,P,D,K) | ‖N‖ | FD | Notes |
 |---|--------|-------|-------------|------|-----|-------|
 | — | Hashing | CS | (1,0,0,0,0) | 1.41 | 1 | Level 3 (chaotic). DELIBERATELY irreversible. AC maximal but that's the POINT. Trades invertibility for O(1) lookup. |
-| — | Gilkey formula (tensor) | Spectral geometry | (0.3,0,0.1,0.3,0.8) | 0.52 | ≥2 | Same problem as #10 but via tensor contractions. AC > 0. The comparison #10 vs Gilkey is the controlled experiment (§11.5). |
+| — | Gilkey formula (tensor) | Spectral geometry | (0.3,0,0.1,0.3,0.8) | 0.52 | ≥2 | Same problem as #10 but via tensor contractions. AC > 0. The comparison #10 vs Gilkey is the controlled experiment (Section 11.5). |
 | — | AlphaFold | Biology | (0.6,0.4,0.5,0.5,0.4) | 1.11 | ≥L | Trained on PDB (supervised). Architecture = method noise. Impressive accuracy but method-dependent. |
 
 ---
@@ -219,7 +219,7 @@ For a complete AC analysis, each entry needs:
 4. **AC = I − TC** — deficit as function of n
 5. **Natural coordinate identification** — what R* gives AC = 0?
 
-**Completed:** #1 (BST, §13 of AC paper), #9 (crystallography, BST_AC_Crystallography_Sketch.md)
+**Completed:** #1 (BST, Section 13 of AC paper), #9 (crystallography, BST_AC_Crystallography_Sketch.md)
 
 **Priority for full decomposition:** Perturbation theory (#12), SAT (#21), DFT (#15), gradient descent (#23). These four span physics → CS and medium → high AC.
 

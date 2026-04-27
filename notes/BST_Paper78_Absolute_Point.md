@@ -104,7 +104,7 @@ This has order $2^{\text{rank}} \times \text{rank}! = 2^2 \times 2 = 8 = 2^{N_c}
 
 ### 3.1 The Function Catalog
 
-BST derives 128 physical quantities from five integers (the "function catalog"; see WorkingPaper §38). This catalog carries the algebraic structure of a finite field:
+BST derives 128 physical quantities from five integers (the "function catalog"; see WorkingPaper Section 38). This catalog carries the algebraic structure of a finite field:
 
 $$\mathrm{GF}(128) = \mathrm{GF}(2^g) = \mathbb{F}_2[x] / (x^7 + x^3 + 1)$$
 

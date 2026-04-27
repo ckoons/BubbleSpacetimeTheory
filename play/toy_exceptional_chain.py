@@ -33,7 +33,7 @@ print("=" * 72)
 # Section 1: Deligne's exceptional series
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§1. DELIGNE'S EXCEPTIONAL SERIES AT LEVEL 1")
+print("\nSection 1. DELIGNE'S EXCEPTIONAL SERIES AT LEVEL 1")
 print("-" * 50)
 
 deligne = [
@@ -67,7 +67,7 @@ for name, rank, dim, h in deligne:
 # Section 2: The pattern of integers vs fractions
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§2. INTEGER VS FRACTIONAL CENTRAL CHARGES")
+print("\n\nSection 2. INTEGER VS FRACTIONAL CENTRAL CHARGES")
 print("-" * 50)
 
 print("""
@@ -97,7 +97,7 @@ print("""
 # Section 3: The denominator primes
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§3. DENOMINATOR PRIMES")
+print("\nSection 3. DENOMINATOR PRIMES")
 print("-" * 50)
 
 print("\n  For level-1 exceptional algebras: c = dim/(1+h∨)")
@@ -122,7 +122,7 @@ print(f"  31 = Mersenne prime M₅ = 2^5 - 1 = 2^{'{n_C}'} - 1")
 # Section 4: The E-type central charge formula
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§4. THE E-TYPE FORMULA")
+print("\n\nSection 4. THE E-TYPE FORMULA")
 print("-" * 50)
 
 # E₆: dim = 78 = 6×13, h∨ = 12, c = 78/13 = 6
@@ -167,7 +167,7 @@ for name in ['E₆', 'E₇', 'E₈']:
 # Section 5: The 91 integrable representations
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§5. THE 91 INTEGRABLE REPRESENTATIONS")
+print("\n\nSection 5. THE 91 INTEGRABLE REPRESENTATIONS")
 print("-" * 50)
 
 # From Toy 181:
@@ -207,7 +207,7 @@ print(f"     = number of 2-element subsets of 2g elements")
 # Section 6: E₆ → SM decomposition
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§6. E₆ → STANDARD MODEL")
+print("\n\nSection 6. E₆ → STANDARD MODEL")
 print("-" * 50)
 
 print("""
@@ -238,7 +238,7 @@ print("""
 # Section 7: The Coxeter-BST correspondence
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§7. COXETER NUMBERS AND BST")
+print("\nSection 7. COXETER NUMBERS AND BST")
 print("-" * 50)
 
 print("\n  Coxeter numbers h (not h∨) for exceptional algebras:")
@@ -264,7 +264,7 @@ print(f"  For F₄: h = 12, h∨ = 9 → h/h∨ = 4/3")
 # Section 8: The 248 and E₈
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§8. E₈ AND THE BST MOONSHINE CHAIN")
+print("\n\nSection 8. E₈ AND THE BST MOONSHINE CHAIN")
 print("-" * 50)
 
 print(f"""
@@ -296,7 +296,7 @@ print(f"""
 # Section 9: The denominator sequence {3,4,5,7,10,13,19,31}
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§9. THE DENOMINATOR SEQUENCE")
+print("\nSection 9. THE DENOMINATOR SEQUENCE")
 print("-" * 50)
 
 print("\n  Denominators 1+h∨ for Deligne's series:")
@@ -336,7 +336,7 @@ print(f"    = 63 = |A₆| ... no, |A₆| = 360")
 # Section 10: The magic square connection
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§10. FREUDENTHAL-TITS MAGIC SQUARE")
+print("\n\nSection 10. FREUDENTHAL-TITS MAGIC SQUARE")
 print("-" * 50)
 
 print("""
@@ -380,7 +380,7 @@ print("""
 # Section 11: E₆ and the 27-dim rep
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§11. E₆ AND THE 27")
+print("\nSection 11. E₆ AND THE 27")
 print("-" * 50)
 
 print(f"\n  E₆ has a 27-dimensional fundamental representation")
@@ -411,7 +411,7 @@ print(f"  dim(E₈) = 248 = {8} × {31} = 2^N_c × M₅")
 # Section 12: The N_max connection
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§12. CONNECTION TO N_max = 137")
+print("\n\nSection 12. CONNECTION TO N_max = 137")
 print("-" * 50)
 
 # 248 - 78 = 170
@@ -447,7 +447,7 @@ print(f"  115 = 5 × 23")
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n\n" + "═" * 72)
-print("§13. SYNTHESIS")
+print("Section 13. SYNTHESIS")
 print("═" * 72)
 
 print("""

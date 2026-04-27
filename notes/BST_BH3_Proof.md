@@ -142,7 +142,7 @@ for some constant δ > 0. No variable has conditional entropy in (0, δ).
 
 3. **Physical analogy.** A measurement either collapses the state or
    it doesn't. There is no half-collapse. The substrate records or
-   it fades. (BST §11.)
+   it fades. (BST Section 11.)
 
 **If polarization holds:** Every free variable contributes ≥ δ bits.
 Total freedom ≤ 0.176n bits. So |free| ≤ 0.176n/δ, and
@@ -178,7 +178,7 @@ configurations. The committed correlations are the backbone.
 **Why cycles caused trouble (Toy 354):** Cycles share variables. At
 degree ~13, one variable participates in ~170 cycles. So counting
 faded *cycles* requires decoupling their correlations — a hard
-combinatorial problem. The bit-counting reframe (§4) bypasses this
+combinatorial problem. The bit-counting reframe (Section 4) bypasses this
 entirely by counting faded *bits* instead. Bits don't share.
 
 **XOR-SAT (fully rigorous):** For XOR-SAT (parity constraints), the
@@ -212,7 +212,7 @@ freezing to Θ(n) variables in O(1) rounds.
 
 **Critical finding:** The entropy bound gives backbone ≤ n - log₂ Z
 (upper bound, not lower). Converting "few solutions" to "large
-backbone" requires polarization — the bit-counting argument (§4).
+backbone" requires polarization — the bit-counting argument (Section 4).
 
 ### Toy 354: Cycle Commitment (5/6 PASS)
 

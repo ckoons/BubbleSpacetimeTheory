@@ -69,7 +69,7 @@ The distinction matters. A problem with $(C = 50, D = 1)$ has fifty parallel sub
 
 - **Depth 1 (one counting step):** The Yang-Mills mass gap. Identify the boundary (bounded domain $D_{IV}^5$, Wightman axioms), then compute the first eigenvalue of the Laplacian. One spectral computation.
 
-- **Depth 2 (two counting steps, pedagogical view):** The Riemann Hypothesis, as traditionally analyzed. Step 1: establish c-function unitarity on the spectral side. Step 2: apply the Maass-Selberg relation to force all zeros to the critical line. The second step consumes the output of the first. (Under the Koons Machine — §7 — both steps turn out to be parallel spectral evaluations: $(C=4, D=0)$. What looks sequential in one basis is parallel in another. This is the Coordinate Principle performing a live demonstration.)
+- **Depth 2 (two counting steps, pedagogical view):** The Riemann Hypothesis, as traditionally analyzed. Step 1: establish c-function unitarity on the spectral side. Step 2: apply the Maass-Selberg relation to force all zeros to the critical line. The second step consumes the output of the first. (Under the Koons Machine — Section 7 — both steps turn out to be parallel spectral evaluations: $(C=4, D=0)$. What looks sequential in one basis is parallel in another. This is the Coordinate Principle performing a live demonstration.)
 
 Nothing we have found requires a third step.
 
@@ -361,7 +361,7 @@ One boundary. At most two counts. That is all mathematics needs. That is all the
 
 The practical consequence has a name: **Science Engineering** (companion paper, Paper #7). The (C,D) framework is not just a classification tool — it is the engine of a five-step procedure for building new sciences from gaps in the AC theorem graph. Map the boundary (D=0), characterize the gap (D=0), seed with a question (D=0), grow by computation (D=1), close by verification (D=0). The depth census tells you the budget before you start: every new theorem will cost at most D=1, and 78% of the time it will cost D=0. The census is the feasibility study. Science Engineering is the construction method.
 
-At the end of the construction chain lies **Substrate Engineering** — the application of these same principles to reading and writing the geometry of D_IV^5 directly (see BST Complex Assemblies, §8). The depth ceiling guarantees that substrate engineering, like every other computation on this geometry, requires at most two sequential steps. The hard part is width — assembling enough parallel perspectives — not depth.
+At the end of the construction chain lies **Substrate Engineering** — the application of these same principles to reading and writing the geometry of D_IV^5 directly (see BST Complex Assemblies, Section 8). The depth ceiling guarantees that substrate engineering, like every other computation on this geometry, requires at most two sequential steps. The hard part is width — assembling enough parallel perspectives — not depth.
 
 ---
 

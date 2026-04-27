@@ -100,7 +100,7 @@ where $H_n = 1 + 1/2 + \cdots + 1/n$ is the $n$-th harmonic number.
 
 *Proof sketch.* Substituting $N_c = n - 2$ and $N_f = 6$: $11(n-2)/3 - 4 = 2n - 3$, so $11n - 22 - 12 = 6n - 9$, giving $5n = 25$, hence $n = 5$. The one-loop $\beta$-function of QCD with six quark flavors has its coefficient equal to the Bergman genus $g = 7$ precisely when $N_c = 3$. Asymptotic freedom ($\beta_0 > 0$) requires $N_c > 6/11 \times N_f/N_c$, automatically satisfied.
 
-*Source:* `BST_NumberTheory_Integers.md` §5
+*Source:* `BST_NumberTheory_Integers.md` Section 5
 
 ---
 
@@ -112,7 +112,7 @@ where $H_n = 1 + 1/2 + \cdots + 1/n$ is the $n$-th harmonic number.
 
 *Proof sketch.* Check: $n = 3$: $8 \times 1 = 8$, $(3-1)! = 2$, no. $n = 4$: $8 \times 2 = 16$, $3! = 6$, no. $n = 5$: $8 \times 3 = 24$, $4! = 24$, **yes**. $n = 6$: $8 \times 4 = 32$, $5! = 120$, no. For $n \geq 6$, $(n-1)!$ grows factorially while $8(n-2)$ grows linearly. The identity $\dim\,\mathrm{SU}(n-2) = (n-1)!/(n-2)$ (which is $(n-2)^2 - 1 = (n-1)!/(n-2)$) has no other integer solution for $n \geq 3$.
 
-*Source:* `BST_NumberTheory_Integers.md` §5
+*Source:* `BST_NumberTheory_Integers.md` Section 5
 
 ---
 
@@ -136,7 +136,7 @@ where $H_n = 1 + 1/2 + \cdots + 1/n$ is the $n$-th harmonic number.
 
 *Proof sketch.* $N = 1$: $5 \neq 1$. $N = 2$: $7 \neq 2$. $N = 3$: $9 = 9$. $N = 4$: $11 \neq 64$. The right side $N^{N-1}$ grows super-exponentially; the left side grows linearly. The unique intersection is $N = 3$. The significance: $c_4$ counts the fourth-order curvature invariants of $Q^n$, and $N_c^{N_c - 1} = 3^2 = 9$ is the number of Cayley trees on $N_c + 1$ labeled vertices (by Cayley's formula). The combinatorial structure of curvature matches the tree structure of the gauge group exactly once.
 
-*Source:* `BST_NumberTheory_Integers.md` §5
+*Source:* `BST_NumberTheory_Integers.md` Section 5
 
 ---
 
@@ -164,7 +164,7 @@ where $H_n = 1 + 1/2 + \cdots + 1/n$ is the $n$-th harmonic number.
 
 *Proof sketch.* Adams' theorem: only $S^1, S^3, S^7$ are parallelizable (equivalently, division algebras exist only in dimensions 1, 2, 4, 8). The Hopf fibration $S^3 \to S^7 \to S^4$ gives $S^7$ the structure needed for the $B_3$ root system of $\mathrm{SO}(7)$. The genus $g = 7$ is the unique value in the Hopf sequence that gives a physical color count: $N_c = (g + 3)/2 - 2 = 3$.
 
-*Source:* `BST_NumberTheory_Integers.md` §5
+*Source:* `BST_NumberTheory_Integers.md` Section 5
 
 ---
 
@@ -176,7 +176,7 @@ where $H_n = 1 + 1/2 + \cdots + 1/n$ is the $n$-th harmonic number.
 
 *Proof sketch.* The half-Casimir $C_2/(2n_C) = (n+1)/(2n)$ governs the heat kernel's exponential decay on $Q^n$. The root ratio $(n-2)/n = N_c/n_C$ is the fraction of short roots in the $B_2$ system. Their equality at $n = 5$ means the Casimir eigenvalue and the root multiplicity ratio are locked — the spectral gap knows about the root structure. This is a linear equation in $n$ with unique solution.
 
-*Source:* `BST_NumberTheory_Integers.md` §5
+*Source:* `BST_NumberTheory_Integers.md` Section 5
 
 ---
 

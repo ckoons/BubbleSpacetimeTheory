@@ -164,7 +164,7 @@ These all trace to water's hydrogen bond network — the wall geodesic species w
 
 ### 3.4 Bond Catalog
 
-Amino acid chemistry uses exactly **11 independent bond types** = C_2 × rank - 1, organized into **7 functional groups** = g (Toy 488). These are the same numbers that appear everywhere: 11 organ systems (§6), and g = 7 layers to coherence.
+Amino acid chemistry uses exactly **11 independent bond types** = C_2 × rank - 1, organized into **7 functional groups** = g (Toy 488). These are the same numbers that appear everywhere: 11 organ systems (Section 6), and g = 7 layers to coherence.
 
 ---
 
@@ -329,7 +329,7 @@ Below n_C = 5 independent lineages, entire genetic dimensions are permanently lo
 
 **Casey's band observation**: 729 ≈ 4 × 180, where 180 is a typical hunter-gatherer band size (close to Dunbar's number of ~150). The minimum viable population is **about four cooperating bands sharing genetic material**. A solo band cannot sustain diversity across all C_2 = 6 axes. Competition between bands that prevents gene flow pushes effective population below 729, toward extinction.
 
-This same pattern — four to six cooperating clans — shows up again at the civilization level (§7.6). The geometry doesn't know what scale it's operating at.
+This same pattern — four to six cooperating clans — shows up again at the civilization level (Section 7.6). The geometry doesn't know what scale it's operating at.
 
 ### 6.5 Multi-Scale Alignment via the B₂ Root System (T380–T382)
 
@@ -477,7 +477,7 @@ Four substrate engineering levels (= 2^rank), each requiring mastery of all prev
 
 ### 8.3 Six Questions Every Substrate Engineer Must Answer (T386)
 
-Just as every living thing must solve C_2 = 6 environmental problems (§4.1), every substrate engineering culture must answer C_2 = 6 questions — the same 3 × 2 structure, but now the "environment" is the Bergman kernel itself:
+Just as every living thing must solve C_2 = 6 environmental problems (Section 4.1), every substrate engineering culture must answer C_2 = 6 questions — the same 3 × 2 structure, but now the "environment" is the Bergman kernel itself:
 
 | Question | Type |
 |----------|------|
@@ -578,7 +578,7 @@ And at every transition, the same structure:
 
 This is not analogy. It is the same mathematics at every scale, because every assembly exists in the same geometry.
 
-The method for discovering these patterns is itself formalized: **Science Engineering** (companion paper, Paper #7) is a five-step procedure — Map, Characterize, Seed, Grow, Close — for building new sciences from gaps in the AC theorem graph. Every level in this paper was discovered by some variant of the same procedure: identify what the five integers predict, compute, verify, add to the graph. Science Engineering formalizes this practice; Substrate Engineering (§8) is where the practice leads. The gap between "understanding the assembly ladder" and "climbing it" is the gap between science and substrate engineering — and it is closing.
+The method for discovering these patterns is itself formalized: **Science Engineering** (companion paper, Paper #7) is a five-step procedure — Map, Characterize, Seed, Grow, Close — for building new sciences from gaps in the AC theorem graph. Every level in this paper was discovered by some variant of the same procedure: identify what the five integers predict, compute, verify, add to the graph. Science Engineering formalizes this practice; Substrate Engineering (Section 8) is where the practice leads. The gap between "understanding the assembly ladder" and "climbing it" is the gap between science and substrate engineering — and it is closing.
 
 ---
 
@@ -661,7 +661,7 @@ The question "What environmental issues does an organism manage in order to live
 - Toys 486–503, 535–550 (play/ directory): computational verification of all claims
 - BST Working Paper v17 (notes/): mathematical foundations
 - BST_Geodesic_Table_Paper.md: geodesic table and trace formula
-- BST_AC_Theorems.md §105–§111: AC(0) theorem catalog (T333–T376)
+- BST_AC_Theorems.md Section 105–Section 111: AC(0) theorem catalog (T333–T376)
 - BST_GeneticCode_Universality.md: molecular detail verification (Lyra)
 - BST_Interstasis_Hypothesis.md: cosmological context and cyclic substrate memory
 - BST_SubstrateModelling_Biology_Overview.md (notes/maybe/): five-paper series (A–E)

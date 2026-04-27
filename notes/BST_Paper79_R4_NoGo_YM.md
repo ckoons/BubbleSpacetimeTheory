@@ -27,7 +27,7 @@ This is the only Millennium Problem that prescribes the arena ($\mathbb{R}^4$). 
 
 We argue this prescription is the source of the difficulty.
 
-**Terminology.** In this paper (Paper D), "mass gap" denotes the **geometric contribution** — the spectral gap arising from intrinsic curvature of the background geometry, which is positive iff the sectional curvature $K \neq 0$. See Paper A (#76, §1.1) for the full cross-paper terminology table.
+**Terminology.** In this paper (Paper D), "mass gap" denotes the **geometric contribution** — the spectral gap arising from intrinsic curvature of the background geometry, which is positive iff the sectional curvature $K \neq 0$. See Paper A (#76, Section 1.1) for the full cross-paper terminology table.
 
 ---
 
@@ -91,7 +91,7 @@ Equivalently: **you cannot linearize curvature**. The mass gap is a manifestatio
 
 $$\Delta_{\mathrm{geom}} \leq C \cdot \sqrt{\sup_X |K|},$$
 
-where $K$ is the sectional curvature and $C$ depends only on the dimension and gauge group. This formalizes the intuition of §3.1: geometry can supply a gap only when curvature is present. In particular:
+where $K$ is the sectional curvature and $C$ depends only on the dimension and gauge group. This formalizes the intuition of Section 3.1: geometry can supply a gap only when curvature is present. In particular:
 - If $K \equiv 0$ (flat), then $\Delta \leq 0$, i.e., no mass gap from geometry.
 - If $K < 0$ (negatively curved), then $\Delta > 0$ is geometrically available.
 - If $K > 0$ (positively curved, compact), then $\Delta > 0$ is automatic (Lichnerowicz).
@@ -194,7 +194,7 @@ Einstein's insight was that the arena matters. The same physics on the wrong are
 
 ### 6.3 Honest assessment
 
-The Curvature Principle (§3.1) is stated as a conjecture, not a theorem. We do not have a rigorous proof that $\mathbb{R}^4$ cannot support a mass gap — only 50 years of negative evidence and a clear geometric obstruction. A proof would require showing that all possible dynamical mechanisms for gap generation on $\mathbb{R}^4$ fail, which is itself an open problem.
+The Curvature Principle (Section 3.1) is stated as a conjecture, not a theorem. We do not have a rigorous proof that $\mathbb{R}^4$ cannot support a mass gap — only 50 years of negative evidence and a clear geometric obstruction. A proof would require showing that all possible dynamical mechanisms for gap generation on $\mathbb{R}^4$ fail, which is itself an open problem.
 
 What we *do* have is a construction on $D_{IV}^5$ that works (Paper A), generalizes (Paper B), and produces physically correct values (938 MeV to 0.002%) with no free parameters. The contrast between the 50-year impasse on $\mathbb{R}^4$ and the clean derivation on $D_{IV}^5$ is the strongest evidence for the curvature principle.
 

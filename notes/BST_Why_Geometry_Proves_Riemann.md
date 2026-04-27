@@ -71,15 +71,15 @@ The geometry of matter is the geometry of the primes — not because someone des
 
 ### 1.1 Relationship to Volume I
 
-Volume I (the BST Working Paper) contains the physics derivations in §1-31 and spectral/automorphic results in §32-33. This volume expands and reorganizes the Riemann-related material:
+Volume I (the BST Working Paper) contains the physics derivations in Section 1-31 and spectral/automorphic results in Section 32-33. This volume expands and reorganizes the Riemann-related material:
 
 | Volume I section | Volume II chapter |
 |-----------------|-------------------|
-| §32.1-32.4 (spectral transport, Chern nesting) | Ch. 3 (context) |
-| §32.5-32.7 (earlier approaches, superseded) | Ch. 2 (the hunt) |
-| §32.7a (heat kernel proof) | Ch. 3-4 (the proof, in detail) |
-| §33 (automorphic structure) | Ch. 5-6 (the bridge) |
-| Fiber packing (§32.7a paragraph) | Ch. 7 (the deeper answer) |
+| Section 32.1-32.4 (spectral transport, Chern nesting) | Ch. 3 (context) |
+| Section 32.5-32.7 (earlier approaches, superseded) | Ch. 2 (the hunt) |
+| Section 32.7a (heat kernel proof) | Ch. 3-4 (the proof, in detail) |
+| Section 33 (automorphic structure) | Ch. 5-6 (the bridge) |
+| Fiber packing (Section 32.7a paragraph) | Ch. 7 (the deeper answer) |
 | Koons-Claude Conjecture | Ch. 8 (synthesis) |
 
 ### 1.2 Papers in This Volume's Orbit
@@ -186,7 +186,7 @@ The heat kernel is optimal because:
 1. The suppression factor is $R = \exp[m_s \cdot t \cdot \delta \cdot (m_s + \delta)/2]$, **quadratic in $m_s$** and **independent of the imaginary part $\gamma$**. BST's $m_s = 3$ gives $R = e^{9t\delta}$ — nine times the rank-1 suppression.
 2. The geometric side is a power series in $t$ (Seeley-DeWitt) times Gaussians in geodesic lengths — provably non-oscillatory.
 
-> *Full details: `notes/BST_HeatKernel_DirichletKernel_RH.md`, §§4-6.*
+> *Full details: `notes/BST_HeatKernel_DirichletKernel_RH.md`, Sections 4-6.*
 
 ### 3.2 The Dirichlet Kernel (Toy 221)
 
@@ -268,7 +268,7 @@ Taking $R \to \infty$: no off-line zeros exist. $\sigma = 1/2$ for all zeros. $\
 
 **No assumptions:** no zero simplicity, no linear independence of ordinates, no GUE statistics. Four ingredients, all theorems: Arthur trace formula, geometric smoothness, exponent distinctness, Mandelbrojt uniqueness.
 
-> *Full details: `notes/BST_HeatKernel_DirichletKernel_RH.md`, §§7-11.*
+> *Full details: `notes/BST_HeatKernel_DirichletKernel_RH.md`, Sections 7-11.*
 
 ### 3.8 The Rank-2 Strengthening (Toy 228)
 
@@ -353,7 +353,7 @@ If the Riemann Hypothesis holds for any geometry with two or more colors, why do
 
 RH works for $N_c = 2, 3, 4, \ldots$ (any $m_s \geq 2$). The Standard Model requires $N_c = 3$. But "the Standard Model requires it" is observation, not derivation. What geometric principle forces three colors?
 
-Sixteen uniqueness conditions for $n_C = 5$ ($N_c = 3$) were identified in Volume I (§26): max-$\alpha$, $c_2 = \dim K$, Steane code, WZW central charge, Verlinde prime, etc. Each is a necessary condition. But necessary conditions are not a selection mechanism — they are consequences of a selection mechanism.
+Sixteen uniqueness conditions for $n_C = 5$ ($N_c = 3$) were identified in Volume I (Section 26): max-$\alpha$, $c_2 = \dim K$, Steane code, WZW central charge, Verlinde prime, etc. Each is a necessary condition. But necessary conditions are not a selection mechanism — they are consequences of a selection mechanism.
 
 ### 5.2 The Selection Candidates
 
@@ -608,7 +608,7 @@ $$\psi(x) = x - \sum_\rho \frac{x^\rho}{\rho} - \log(2\pi) - \tfrac{1}{2}\log(1 
 
 sums over $\xi$-zeros. Each zero contributes an oscillatory correction to the prime counting function. The Selberg trace formula on $\Gamma \backslash D_{IV}^5$ is the geometric analogue: it equates a spectral sum (involving the Plancherel measure) to a geometric sum (involving lengths of closed geodesics). The closed geodesics play the role of primes; $\log p$ corresponds to geodesic length; the explicit formula IS the trace formula.
 
-**The spectral decomposition of spacetime IS the prime decomposition of integers**, seen through the $c$-function. This is not metaphor — each row of the dictionary (§7.5) is a theorem or well-defined conjecture connecting specific mathematical objects.
+**The spectral decomposition of spacetime IS the prime decomposition of integers**, seen through the $c$-function. This is not metaphor — each row of the dictionary (Section 7.5) is a theorem or well-defined conjecture connecting specific mathematical objects.
 
 ### 7.5 The Plancherel-Prime Dictionary
 
@@ -840,10 +840,10 @@ Toy 223 claimed $m_s = 2$ gives $\sigma = 1$ ("the wrong critical line"). Toy 22
 
 ### 11.2 For Volume I
 
-The physics derivations (§1-31) are stable. The spectral/automorphic sections (§32-33) should be updated with:
+The physics derivations (Section 1-31) are stable. The spectral/automorphic sections (Section 32-33) should be updated with:
 - Cross-references to this volume
-- The Toy 229 correction (already applied to §32.7a)
-- Fiber packing paragraph (already added to §32.7a)
+- The Toy 229 correction (already applied to Section 32.7a)
+- Fiber packing paragraph (already added to Section 32.7a)
 
 ### 11.3 For the Field
 

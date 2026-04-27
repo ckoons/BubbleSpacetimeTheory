@@ -488,10 +488,10 @@ The graph method lives inside a broader proof program. The current status of the
 | P != NP | ~97% | Resolution route PROVED (Toy 303) |
 | NS | ~99% | Proof chain complete March 24 |
 | BSD | ~95% | T153 DERIVED + Sha bound |Sha(E)| ≤ N^(18/(5π)) (Toy 628) |
-| Hodge | ~95% | T153 DERIVED + §5.10 general variety extension |
+| Hodge | ~95% | T153 DERIVED + Section 5.10 general variety extension |
 | Four-Color | PROVED | Computer-free, Forced Fan Lemma (March 26) |
 
-Average: ~96.8%. On March 30: BSD and Hodge each rose from ~93% to ~95% because the Planck Condition (T153) is now derived from the geometry plus explicit Sha finiteness bound (Toy 628) and general variety extension (§5.10). YM rose from ~96% to ~97% with W4 modular localization (BW + RS + Tomita-Takesaki + Borel neat descent). All six proofs improved in one day.
+Average: ~96.8%. On March 30: BSD and Hodge each rose from ~93% to ~95% because the Planck Condition (T153) is now derived from the geometry plus explicit Sha finiteness bound (Toy 628) and general variety extension (Section 5.10). YM rose from ~96% to ~97% with W4 modular localization (BW + RS + Tomita-Takesaki + Borel neat descent). All six proofs improved in one day.
 
 ### 9.2 What Can Be Automated
 

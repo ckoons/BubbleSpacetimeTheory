@@ -12,7 +12,7 @@ tags: ["cosmology", "thermodynamics", "far-future", "generator-freeze", "vacuum-
 
 ---
 
-## §1. The Question
+## Section 1. The Question
 
 Classical cosmology offers three endpoints: heat death (maximum entropy, nothing happens), Big Crunch (gravitational collapse), or cyclic bouncing (periodic contraction/expansion). All three assume spacetime is the fundamental substrate and matter/energy lives on it.
 
@@ -20,7 +20,7 @@ BST offers a different substrate — D_IV^5 = SO₀(5,2)/[SO(5) × SO(2)] — an
 
 ---
 
-## §2. The Setup
+## Section 2. The Setup
 
 ### 2.1 The Substrate
 
@@ -42,7 +42,7 @@ The universe is never at capacity. 80.9% of the substrate is always uncommitted.
 
 ---
 
-## §3. The Dilution Sequence
+## Section 3. The Dilution Sequence
 
 As the universe expands under Ω_Λ = 13/19:
 
@@ -56,7 +56,7 @@ As the universe expands under Ω_Λ = 13/19:
 
 ---
 
-## §4. The Two Scenarios
+## Section 4. The Two Scenarios
 
 ### 4.1 Λ Geometric (Constant)
 
@@ -70,7 +70,7 @@ If Λ is fixed by D_IV^5 geometry (the Bergman metric volume ratio), then:
 - Threshold: m ~ N_max = 137 simultaneous commitments to establish a stable domain.
 - **Independent model** (pairwise-uncorrelated fluctuations): Each of 137 Planck volumes fluctuates independently with probability p per Planck time. Recurrence timescale: τ ~ t_Planck × p⁻¹³⁷ ~ t_Planck × exp(137 × |ln p|). For p ~ exp(-9/5): τ ~ t_Planck × exp(137 × 9/5) ~ t_Planck × exp(246.6) ~ **10⁵⁶ years**.
 - **Correlation model** (pairwise correlations required): If each pair of the 137 volumes must also correlate, the exponent grows as C(137,2) = 9316 pairwise terms: τ ~ exp(9316 × 9/5) ~ exp(16769) ~ **10⁷²⁸⁵ years**.
-- The physical recurrence likely lies between these bounds. A nucleation cascade (where early commitments catalyze neighbors) would push toward the independent model. The question of which model applies is open (§9.2).
+- The physical recurrence likely lies between these bounds. A nucleation cascade (where early commitments catalyze neighbors) would push toward the independent model. The question of which model applies is open (Section 9.2).
 
 Both bounds are finite and vastly shorter than the Poincaré recurrence time (~10^{10^{76}} years for classical cosmology) because BST recurrence requires *correlated topological transitions*, not random phase-space return.
 
@@ -92,11 +92,11 @@ $$w(z) = -1 + \delta w, \quad \delta w \propto \frac{N(z) - N(0)}{N_{\max}}$$
 
 Since N(z) > N(0) at high z (more matter in smaller volume), δw > 0 (less negative than -1). This is consistent with early DESI hints of w > -1 at high z.
 
-**Open calculation:** The proportionality constant in δw requires deriving Λ(N) from the Bergman kernel K(z,w) evaluated on N committed points. The Reality Budget Λ × N = 9/5 gives the constraint, but the functional form Λ(N) — and thus the mapping from ρ_matter(z) to w(z) — is not yet derived from first principles. This is a priority calculation (§9.1).
+**Open calculation:** The proportionality constant in δw requires deriving Λ(N) from the Bergman kernel K(z,w) evaluated on N committed points. The Reality Budget Λ × N = 9/5 gives the constraint, but the functional form Λ(N) — and thus the mapping from ρ_matter(z) to w(z) — is not yet derived from first principles. This is a priority calculation (Section 9.1).
 
 ---
 
-## §5. Quiet Substrate, Not Heat Death
+## Section 5. Quiet Substrate, Not Heat Death
 
 The critical distinction from classical heat death:
 
@@ -114,7 +114,7 @@ The critical distinction from classical heat death:
 
 ---
 
-## §6. What Reboots Look Like
+## Section 6. What Reboots Look Like
 
 A local Big Bang in an empty patch of substrate:
 
@@ -130,7 +130,7 @@ This is profoundly different from multiverse scenarios that postulate different 
 
 ---
 
-## §7. Three Generator States: Frozen, Active, Decoupled
+## Section 7. Three Generator States: Frozen, Active, Decoupled
 
 A critical semantic and physical distinction. The 21 generators of SO₀(5,2) exist in three structurally different states:
 
@@ -155,7 +155,7 @@ A critical semantic and physical distinction. The 21 generators of SO₀(5,2) ex
 
 ---
 
-## §8. Testable Predictions
+## Section 8. Testable Predictions
 
 | # | Prediction | Test | Timeline |
 |---|-----------|------|----------|
@@ -167,7 +167,7 @@ A critical semantic and physical distinction. The 21 generators of SO₀(5,2) ex
 
 ---
 
-## §9. Open Questions (for Lyra and Elie)
+## Section 9. Open Questions (for Lyra and Elie)
 
 1. **Λ constant vs dynamic**: Can we derive from D_IV^5 geometry whether Λ depends on N? The Bergman metric is fixed, but the Bergman kernel K(z,w) evaluated at committed points might create an effective Λ(N). This is the key open calculation.
 
@@ -185,15 +185,15 @@ A critical semantic and physical distinction. The 21 generators of SO₀(5,2) ex
 
 ---
 
-## §10. Connection to Existing BST Work
+## Section 10. Connection to Existing BST Work
 
 - **BST_Big_Bang_Unfreeze.md**: Generator unfreezing mechanism. This paper extends to the reverse direction (refreezing/decoupling).
 - **BST_Cyclic_Cosmology.md** (Lyra, started March 23): Generator freezing, vacuum recurrence. This paper formalizes the math.
-- **WorkingPaper §12.7-12.8**: Uncommitted channels (UNCs), their role in cosmology, redshift evolution.
+- **WorkingPaper Section 12.7-12.8**: Uncommitted channels (UNCs), their role in cosmology, redshift evolution.
 - **Reality Budget**: Λ × N = 9/5 is the governing equation. This paper explores its far-future implications.
 
 ---
 
-*Lyra review: PASS (5 notes applied March 26). Remaining open: Λ(N) functional form (§4.2), nucleation cascade vs independent model (§9.2), generator unfreezing order in reboots (§9.6). Elie: consider toy for nucleation cascade.*
+*Lyra review: PASS (5 notes applied March 26). Remaining open: Λ(N) functional form (Section 4.2), nucleation cascade vs independent model (Section 9.2), generator unfreezing order in reboots (Section 9.6). Elie: consider toy for nucleation cascade.*
 
 *"The universe doesn't die. It goes quiet. And quiet substrates reboot." — Casey & Keeper, March 26, 2026*

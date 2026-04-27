@@ -38,9 +38,9 @@ c3 = 13
 P1 = 42
 
 # ═══════════════════════════════════════════════════════════════
-# §1. THE CONFORMAL WEIGHTS OF so(7)₂
+# Section 1. THE CONFORMAL WEIGHTS OF so(7)₂
 # ═══════════════════════════════════════════════════════════════
-print("\n§1. CONFORMAL WEIGHTS OF so(7) LEVEL 2")
+print("\nSection 1. CONFORMAL WEIGHTS OF so(7) LEVEL 2")
 print("-" * 50)
 
 # B_3 data
@@ -78,9 +78,9 @@ for name, dynkin, eps in reps:
           f" = {str(h):6s}")
 
 # ═══════════════════════════════════════════════════════════════
-# §2. THE NUMERATOR PATTERN
+# Section 2. THE NUMERATOR PATTERN
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§2. THE NUMERATOR PATTERN")
+print("\n\nSection 2. THE NUMERATOR PATTERN")
 print("-" * 50)
 
 print("""
@@ -106,9 +106,9 @@ print("""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §3. THE SUM OF CONFORMAL WEIGHTS
+# Section 3. THE SUM OF CONFORMAL WEIGHTS
 # ═══════════════════════════════════════════════════════════════
-print("\n§3. SUMS AND PRODUCTS OF CONFORMAL WEIGHTS")
+print("\nSection 3. SUMS AND PRODUCTS OF CONFORMAL WEIGHTS")
 print("-" * 50)
 
 h_values = [w[2] for w in weights]
@@ -138,9 +138,9 @@ print(f"\n  Product of wall numerators: {wall_num_product} = N_c × n_C × C₂"
 print(f"    = {wall_num_product} = {N_c} × {n_C} × {C2}")
 
 # ═══════════════════════════════════════════════════════════════
-# §4. THE WALL FRACTIONS: N_c/g, n_C/g, C₂/g
+# Section 4. THE WALL FRACTIONS: N_c/g, n_C/g, C₂/g
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§4. THE WALL FRACTIONS")
+print("\n\nSection 4. THE WALL FRACTIONS")
 print("-" * 50)
 
 print(f"""
@@ -187,9 +187,9 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §5. THE T-MATRIX
+# Section 5. THE T-MATRIX
 # ═══════════════════════════════════════════════════════════════
-print("\n§5. THE T-MATRIX: MODULAR TWISTS")
+print("\nSection 5. THE T-MATRIX: MODULAR TWISTS")
 print("-" * 50)
 
 c_over_24 = Fraction(C2, 24)
@@ -221,9 +221,9 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §6. THE CONFORMAL WEIGHT SPECTRUM VS EIGENVALUES
+# Section 6. THE CONFORMAL WEIGHT SPECTRUM VS EIGENVALUES
 # ═══════════════════════════════════════════════════════════════
-print("\n§6. CONFORMAL WEIGHTS vs SPECTRAL EIGENVALUES")
+print("\nSection 6. CONFORMAL WEIGHTS vs SPECTRAL EIGENVALUES")
 print("-" * 50)
 
 print(f"""
@@ -257,9 +257,9 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §7. THE OTHER c=6 MODELS: CONFORMAL WEIGHTS
+# Section 7. THE OTHER c=6 MODELS: CONFORMAL WEIGHTS
 # ═══════════════════════════════════════════════════════════════
-print("\n§7. CONFORMAL WEIGHTS OF OTHER c=6 MODELS")
+print("\nSection 7. CONFORMAL WEIGHTS OF OTHER c=6 MODELS")
 print("-" * 50)
 
 # For each WZW model with c = 6, compute conformal weights of
@@ -336,9 +336,9 @@ print(f"\n  G₂ at level 3: h∨=4, ℓ+h∨=7=g")
 print(f"  Number of integrable reps = 10 = d_R")
 
 # ═══════════════════════════════════════════════════════════════
-# §8. THE INTEGRABLE REP COUNTS
+# Section 8. THE INTEGRABLE REP COUNTS
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§8. INTEGRABLE REP COUNTS ACROSS c=6 MODELS")
+print("\n\nSection 8. INTEGRABLE REP COUNTS ACROSS c=6 MODELS")
 print("-" * 50)
 
 models = [
@@ -361,9 +361,9 @@ assert total_reps == g * c3, f"Expected {g*c3}, got {total_reps}"
 print(f"  ★ VERIFIED: 91 = g × c₃ = 7 × 13")
 
 # ═══════════════════════════════════════════════════════════════
-# §9. su(7)₁ PALINDROME
+# Section 9. su(7)₁ PALINDROME
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§9. THE su(7) PALINDROME")
+print("\n\nSection 9. THE su(7) PALINDROME")
 print("-" * 50)
 
 print(f"""
@@ -389,9 +389,9 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §10. E₆ AND THE COLOR NUMBER
+# Section 10. E₆ AND THE COLOR NUMBER
 # ═══════════════════════════════════════════════════════════════
-print("\n§10. E₆ AND THE TRIALITY OF COLORS")
+print("\nSection 10. E₆ AND THE TRIALITY OF COLORS")
 print("-" * 50)
 
 print(f"""
@@ -416,9 +416,9 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §11. THE D² TABLE ACROSS MODELS
+# Section 11. THE D² TABLE ACROSS MODELS
 # ═══════════════════════════════════════════════════════════════
-print("\n§11. TOTAL QUANTUM DIMENSIONS D² FOR ALL c=6 MODELS")
+print("\nSection 11. TOTAL QUANTUM DIMENSIONS D² FOR ALL c=6 MODELS")
 print("-" * 50)
 
 # D² = (ℓ+h∨)^rank / |W| × ... (Verlinde formula for total D²)
@@ -463,11 +463,11 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §12. SYNTHESIS
+# Section 12. SYNTHESIS
 # ═══════════════════════════════════════════════════════════════
 print("\n")
 print("=" * 72)
-print("§12. SYNTHESIS: CONFORMAL WEIGHTS ENCODE BST")
+print("Section 12. SYNTHESIS: CONFORMAL WEIGHTS ENCODE BST")
 print("=" * 72)
 
 print(f"""

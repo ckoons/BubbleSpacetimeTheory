@@ -268,4 +268,4 @@ Several entries could be tested against new PDG/experimental data:
 
 ---
 
-*INV-4 audit completed April 25, 2026. Next: incorporate into Paper #83 §18 (Honest Gaps) and data layer corrections.*
+*INV-4 audit completed April 25, 2026. Next: incorporate into Paper #83 Section 18 (Honest Gaps) and data layer corrections.*

@@ -5,7 +5,7 @@ Toy 687 — Post-Extinction Recovery: Logistic Channel Filling
 Test whether mass extinction recovery follows logistic dynamics
 predicted by BST's channel filling model.
 
-BST model (from Development Timeline §3.2):
+BST model (from Development Timeline Section 3.2):
   dN/dt = r × N × (K - N) / K   (logistic growth)
   Solution: N(t) = K / (1 + ((K/N₀)-1) × exp(-r×t))
 

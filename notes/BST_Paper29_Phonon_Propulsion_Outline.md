@@ -27,7 +27,7 @@ This paper is NOT about anti-gravity or warp drives. It is about directed mechan
 
 ## Outline
 
-### §1. Introduction: What the Integers Build
+### Section 1. Introduction: What the Integers Build
 
 The five integers of $D_{IV}^5$ have now been shown to constrain:
 - Fundamental forces (Papers #1-#4)
@@ -37,7 +37,7 @@ The five integers of $D_{IV}^5$ have now been shown to constrain:
 
 This paper asks: can the same integers produce directed mechanical force? Not by manipulating gravity ($G$ is $10^{47}$ too weak at the device scale) but by engineering Casimir asymmetry and directed phonon emission — forces that are small per device but potentially scalable.
 
-### §2. Two Force Sources from BST
+### Section 2. Two Force Sources from BST
 
 **Source 1: Casimir Asymmetry (Toy 921)**
 - Asymmetric Casimir cavity creates a net force toward the narrower gap
@@ -53,7 +53,7 @@ This paper asks: can the same integers produce directed mechanical force? Not by
 
 **Combined:** Casimir well pulls from the front; phonon thrust pushes from behind. Both forces vector-aligned.
 
-### §3. Phonon Resonance Amplification (Toy 934 — PENDING)
+### Section 3. Phonon Resonance Amplification (Toy 934 — PENDING)
 
 Casey's key insight: when the Casimir cavity gap is commensurate with the phonon spectrum, resonant coupling amplifies the energy transfer.
 
@@ -66,7 +66,7 @@ Casey's key insight: when the Casimir cavity gap is commensurate with the phonon
 
 [PLACEHOLDER: Insert Toy 934 numerical results]
 
-### §4. The Phonon Propulsion Engine (Toy 935 — PENDING)
+### Section 4. The Phonon Propulsion Engine (Toy 935 — PENDING)
 
 **Architecture:**
 1. **Front:** Asymmetric Casimir cavity at $d_0 = 137a$ — attractive potential well pulls structure forward
@@ -83,35 +83,35 @@ Casey's key insight: when the Casimir cavity gap is commensurate with the phonon
 
 [PLACEHOLDER: Insert Toy 935 numerical results]
 
-### §5. The Amplification Question
+### Section 5. The Amplification Question
 
 This is the section Casey most wants. Three paths from micro-Newton to macro-Newton:
 
-#### §5.1 Array Scaling (Path 1)
+#### Section 5.1 Array Scaling (Path 1)
 - $N$ devices in parallel
 - If force scales as $N$ (linear): $10^6$ MEMS devices at $1\ \mu$N each = $1$ N
 - If superlinear (coherent phonon coupling between elements): stronger
 - Array geometry: optimal spacing = BST integer × lattice constant?
 - [Insert Toy 935 array scaling law]
 
-#### §5.2 Resonant Cascade (Path 2)
+#### Section 5.2 Resonant Cascade (Path 2)
 - Phonon resonance (Toy 934) creates amplification factor $\gg 1$ at BST-integer gaps
 - If Q-factor of vacuum-phonon coupling is high (BST integers are EXACT): small input → large output at resonance
 - Cascade: resonance at stage 1 feeds stage 2 at a different BST-integer gap
 - Each stage amplifies by $Q$; $n$ stages give $Q^n$
 - [Insert Toy 934 Q-factor]
 
-#### §5.3 Metamaterial Amplification (Path 3)
+#### Section 5.3 Metamaterial Amplification (Path 3)
 - Bismuth metamaterial (Toy 923) at 137 bilayers has BST-optimal properties
 - A metamaterial engineered for phonon transparency + Casimir asymmetry
 - Constructive interference of phonon thrust across $N$ Bi layers
 - At 137 layers: 1:1 phonon-Haldane resonance within EACH layer
 - Macro amplification through bulk crystal volume ($\sim 10^{21}$ cavities/cm³)
 
-#### §5.4 The Scaling Answer
+#### Section 5.4 The Scaling Answer
 [Insert: Which path gives the best micro→macro amplification? Is it engineering or new physics?]
 
-### §6. What This Is NOT
+### Section 6. What This Is NOT
 
 1. **Not anti-gravity.** $G = 6.674 \times 10^{-11}$. At the device scale, gravitational effects are $10^{47}$ too weak. BST uses the same integers that SET $G$, but the force mechanism is Casimir + phonon, not gravitational.
 
@@ -121,7 +121,7 @@ This is the section Casey most wants. Three paths from micro-Newton to macro-New
 
 4. **Not warp drive.** No spacetime manipulation. Just directed mechanical force at the nano-to-micro scale, asking whether arrays can scale it up.
 
-### §7. Connection to the Substrate Engineering Portfolio
+### Section 7. Connection to the Substrate Engineering Portfolio
 
 The phonon propulsion engine is the UNIFYING device — it combines components from half the portfolio:
 
@@ -134,7 +134,7 @@ The phonon propulsion engine is the UNIFYING device — it combines components f
 | Bismuth metamaterial | 923 | Metamaterial amplification medium |
 | Casimir heat engine | 918 | Thermodynamic cycle context |
 
-### §8. Falsification
+### Section 8. Falsification
 
 **Predictions** (to be sharpened with Toy 934+935 data):
 - P1: Thrust peaks at $d_0 = 137a$ (not smooth optimization)
@@ -148,7 +148,7 @@ The phonon propulsion engine is the UNIFYING device — it combines components f
 - F2: If array scaling is sublinear → macro-amplification not viable
 - F3: If asymmetry ratio does not match any BST rational → Casimir asymmetry not BST-constrained
 
-### §9. Experimental Roadmap
+### Section 9. Experimental Roadmap
 
 | Milestone | Target | Technique |
 |-----------|--------|-----------|
@@ -158,7 +158,7 @@ The phonon propulsion engine is the UNIFYING device — it combines components f
 | M4 | Combined propulsion (front + rear) | MEMS test structure |
 | M5 | Array of $N > 100$ devices | MEMS array, force measurement |
 
-### §10. Discussion
+### Section 10. Discussion
 
 The question "can vacuum geometry produce useful force?" reduces to three sub-questions:
 1. **Does Casimir + phonon produce directed force?** Yes — each mechanism is experimentally verified independently. The combination is the prediction.

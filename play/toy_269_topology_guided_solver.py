@@ -43,7 +43,7 @@ print("=" * 72)
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §1. TOPOLOGY ENGINE
+# Section 1. TOPOLOGY ENGINE
 # ═══════════════════════════════════════════════════════════════════
 
 def build_vig(n, clauses):
@@ -159,7 +159,7 @@ def vig_degree(n, clauses):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §2. DPLL WITH CONFIGURABLE BRANCHING
+# Section 2. DPLL WITH CONFIGURABLE BRANCHING
 # ═══════════════════════════════════════════════════════════════════
 
 def dpll_with_order(n, clauses, var_order, max_bt=100000):
@@ -219,7 +219,7 @@ def dpll_with_order(n, clauses, var_order, max_bt=100000):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §3. FORMULA GENERATORS
+# Section 3. FORMULA GENERATORS
 # ═══════════════════════════════════════════════════════════════════
 
 def random_3sat(n, alpha):
@@ -587,7 +587,7 @@ for alpha in alphas_sweep:
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §9. SCORECARD
+# Section 9. SCORECARD
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
@@ -618,11 +618,11 @@ print(f"\nTotal: {passed}/{total}")
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §10. THE INSIGHT
+# Section 10. THE INSIGHT
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§10. THE INSIGHT")
+print("Section 10. THE INSIGHT")
 print("=" * 72)
 print("""
 WHAT THE DATA SHOWS:

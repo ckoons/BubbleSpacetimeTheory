@@ -38,7 +38,7 @@ KNOWN_ANSWERS = {
         "keywords": ["proton mass", "mass gap", "938", "6pi", "6π", "why proton heavy",
                      "mass ratio", "proton electron"],
         "ac_nodes": ["T14", "T48"],
-        "section": "WorkingPaper §5",
+        "section": "WorkingPaper Section 5",
         "answer": ("The proton mass is m_p = 6π⁵m_e = 938.272 MeV (0.002% match). "
                    "This is not a fit — it's derived from the volume of D_IV^5 = SO(5,2)/[SO(5)×SO(2)]. "
                    "The π⁵ factor IS the volume scale (Vol = π⁵/1920, Toy 307). "
@@ -49,7 +49,7 @@ KNOWN_ANSWERS = {
         "keywords": ["why SO(5,2)", "why this group", "SO(5,2)", "D_IV^5", "bounded symmetric",
                      "why five", "why dimension 5", "n_C=5"],
         "ac_nodes": ["T1", "T2", "T3"],
-        "section": "WorkingPaper §3-4",
+        "section": "WorkingPaper Section 3-4",
         "answer": ("SO(5,2) is the unique group satisfying 21 conditions simultaneously: "
                    "N_c=3 colors, n_C=5 flavor capacity, g=7 generators, C₂=6, N_max=137. "
                    "The domain D_IV^5 is the ONLY bounded symmetric domain that produces "
@@ -60,7 +60,7 @@ KNOWN_ANSWERS = {
         "keywords": ["dark matter", "MOND", "dark energy", "cosmological constant",
                      "lambda", "omega", "missing mass"],
         "ac_nodes": ["T48"],
-        "section": "WorkingPaper §15-16",
+        "section": "WorkingPaper Section 15-16",
         "answer": ("BST derives Ω_Λ = 13/19 (0.07σ from Planck). For dark matter: "
                    "BST predicts MOND acceleration a₀ = cH₀/√30 (0.4% match), suggesting "
                    "modified gravity rather than particle dark matter. The Reality Budget "
@@ -71,7 +71,7 @@ KNOWN_ANSWERS = {
         "keywords": ["string theory", "strings", "extra dimensions", "supersymmetry",
                      "SUSY", "landscape", "multiverse"],
         "ac_nodes": [],
-        "section": "WorkingPaper §1",
+        "section": "WorkingPaper Section 1",
         "answer": ("BST is NOT string theory. BST uses bounded symmetric domains (real geometry), "
                    "not Calabi-Yau manifolds. There are no extra spatial dimensions, no supersymmetry, "
                    "no landscape. BST has ZERO free parameters — the 5 integers are derived, not chosen. "
@@ -92,7 +92,7 @@ KNOWN_ANSWERS = {
         "keywords": ["quantum gravity", "planck scale", "planck length", "graviton",
                      "gravity quantum", "unification"],
         "ac_nodes": ["T48"],
-        "section": "WorkingPaper §12",
+        "section": "WorkingPaper Section 12",
         "answer": ("BST derives Newton's G from the domain geometry: G = (ℏc/m_p²)·(geometric factor). "
                    "Match: 0.07%. Gravity emerges from the same bounded symmetric domain as the "
                    "Standard Model — there is no separate 'quantum gravity' theory needed. "
@@ -133,7 +133,7 @@ KNOWN_ANSWERS = {
         "keywords": ["heat kernel", "Seeley-DeWitt", "seeley", "a_k coefficient",
                      "spectral", "asymptotic expansion"],
         "ac_nodes": ["T48"],
-        "section": "WorkingPaper §30-32",
+        "section": "WorkingPaper Section 30-32",
         "answer": ("BST computes Seeley-DeWitt coefficients a₆ through a₁₁ from the D_IV^5 spectrum. "
                    "Three theorems verified through SIX consecutive levels. a₁₂ in progress. "
                    "Key result: Golay prime 23 enters at k=11 (predicted by von Staudt-Clausen). "
@@ -143,7 +143,7 @@ KNOWN_ANSWERS = {
         "keywords": ["free parameter", "fine tuning", "fine-tuning", "why these numbers",
                      "arbitrary", "how many inputs", "zero free"],
         "ac_nodes": ["T1", "T2", "T3"],
-        "section": "WorkingPaper §3",
+        "section": "WorkingPaper Section 3",
         "answer": ("BST has ZERO free parameters. Five integers: N_c=3 (colors), n_C=5 (flavors), "
                    "g=7 (generators), C₂=6 (Casimir), N_max=137 (fine structure). "
                    "All are derived from the unique bounded symmetric domain D_IV^5. "
@@ -195,10 +195,10 @@ KNOWN_ANSWERS = {
 
 # Topics that frequently confuse people → explanation gap candidates
 EXPLANATION_GAP_TOPICS = {
-    "mass_gap": "WorkingPaper §5 (proton mass derivation)",
-    "why_so52": "WorkingPaper §3-4 (why this group)",
+    "mass_gap": "WorkingPaper Section 5 (proton mass derivation)",
+    "why_so52": "WorkingPaper Section 3-4 (why this group)",
     "ac0": "BST_AC0_Completeness_Paper.md (what AC(0) means)",
-    "free_parameters": "WorkingPaper §3 (zero free parameters claim)",
+    "free_parameters": "WorkingPaper Section 3 (zero free parameters claim)",
     "four_color": "BST_FourColor_AC_Proof.md (Conservation of Color Charge)",
 }
 

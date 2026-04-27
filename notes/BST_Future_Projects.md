@@ -31,7 +31,7 @@ For humans: the AC graph is a teaching tool. Every node has a plain-language exp
 
 | Component | Status | Reference |
 |-----------|--------|-----------|
-| AC(0) foundation (parallel operations) | Proved | BST_AC_Theorems.md §1-§10 |
+| AC(0) foundation (parallel operations) | Proved | BST_AC_Theorems.md Section 1-Section 10 |
 | Information theory in AC(0) | 6 theorems proved | BST_AC0_InformationTheory.md |
 | Thermodynamics in AC(0) | 7 theorems proved | BST_AC0_Thermodynamics.md |
 | Algebra in AC(0) | 7 theorems proved | BST_AC0_Algebra.md |

@@ -103,8 +103,8 @@ def main():
 
     np.random.seed(42)
 
-    # §1: Monte Carlo volumes
-    print("\n§1. MONTE CARLO VOLUME ESTIMATION")
+    # Section 1: Monte Carlo volumes
+    print("\nSection 1. MONTE CARLO VOLUME ESTIMATION")
     print("    Sampling uniformly in unit ball of ℂ^n\n")
 
     mc_vols = {}
@@ -119,8 +119,8 @@ def main():
         print(f"  n={n}: Vol(MC) = {vol:.6f}  Vol(analyt) = {an_vol:.6f}"
               f"  frac = {frac:.4f}  err = {err:.2f}%")
 
-    # §2: Identify rational denominator
-    print("\n§2. RATIONAL DENOMINATOR f(n) = π^n / Vol(D_IV^n)")
+    # Section 2: Identify rational denominator
+    print("\nSection 2. RATIONAL DENOMINATOR f(n) = π^n / Vol(D_IV^n)")
     print("    Analytical: Vol = π^n / [n! · 2^{n-1}]\n")
 
     for n in range(1, 8):
@@ -129,8 +129,8 @@ def main():
         print(f"  n={n}: f(MC) = {f_mc:12.4f}  f(analyt) = {f_an:12.0f}"
               f"  = {n}! × 2^{n-1} = {factorial(n)} × {2**(n-1)}")
 
-    # §3: Bergman kernel
-    print("\n§3. BERGMAN KERNEL K(0,0)")
+    # Section 3: Bergman kernel
+    print("\nSection 3. BERGMAN KERNEL K(0,0)")
     print("    For balanced domains: K(0,0) = 1/Vol")
     print("    K(0,0) = n! · 2^{n-1} / π^n\n")
 
@@ -141,8 +141,8 @@ def main():
         print(f"  n={n}: K(0,0) = {K:.6e}  Vol = {vol:.6e}"
               f"  K·Vol = {product:.6f}")
 
-    # §4: The π^n factor and mass formula
-    print("\n§4. THE π⁵ FACTOR IN THE MASS FORMULA")
+    # Section 4: The π^n factor and mass formula
+    print("\nSection 4. THE π⁵ FACTOR IN THE MASS FORMULA")
     print("""
     The proton mass in BST:
       m_p = λ₁(Q^5) × π^{n_C} × m_e = 6 × π⁵ × m_e
@@ -177,8 +177,8 @@ def main():
     print(f"  Expt:    m_p/m_e = {expt:.6f}")
     print(f"  Error:   {abs(theory - expt)/expt * 100:.4f}%")
 
-    # §5: n-hierarchy
-    print("\n§5. THE n-HIERARCHY")
+    # Section 5: n-hierarchy
+    print("\nSection 5. THE n-HIERARCHY")
     print(f"\n  {'n':>3} | {'λ₁':>3} | {'π^n':>14} | {'mass ratio':>14} | Particle")
     print("  " + "-" * 55)
     for n in [1, 2, 3, 4, 5, 6, 7, 8, 9]:
@@ -197,8 +197,8 @@ def main():
     print(f"  n = 3: too light (124). n = 7: too heavy (24,421).")
     print(f"  The gap is exponential in n — no fine-tuning possible.")
 
-    # §6: Volume table
-    print("\n§6. VOLUME TABLE — ALL D_IV^n")
+    # Section 6: Volume table
+    print("\nSection 6. VOLUME TABLE — ALL D_IV^n")
     print(f"\n  {'n':>3} | {'Vol(MC)':>12} | {'Vol(analyt)':>12} | "
           f"{'f(n)':>10} | {'K(0,0)':>12}")
     print("  " + "-" * 62)

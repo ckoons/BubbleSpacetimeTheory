@@ -2,7 +2,7 @@
 """
 Toy 1513 — Semiconductor Band Gaps and Materials Ratios
 =======================================================
-Hit List §3C: Do semiconductor band gaps and materials ratios
+Hit List Section 3C: Do semiconductor band gaps and materials ratios
 follow BST integer structure?
 
 Band gaps are fundamental electronic structure constants, measured
@@ -32,7 +32,7 @@ from fractions import Fraction
 
 print("=" * 72)
 print("Toy 1513 -- Semiconductor Band Gaps & Materials Ratios")
-print("  Hit List §3C: Materials Science")
+print("  Hit List Section 3C: Materials Science")
 print("=" * 72)
 
 # BST integers

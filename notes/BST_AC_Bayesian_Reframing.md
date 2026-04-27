@@ -119,14 +119,14 @@ These are not analogies. They ARE the theorems, applied to the AC setting. 250 y
 **Title candidate:** "Arithmetic Complexity as Bayesian Channel Capacity"
 
 **Structure:**
-1. **§1 — The observation.** Methods add noise. Different methods add different noise. The noise is measurable.
-2. **§2 — I(Q) defined.** Information gap = H(Answer) - I(Question ; Answer). Bayesian foundation. Examples: 2-SAT (I≈0), 3-SAT (I≈H), crystallography (I small), weather (I large).
-3. **§3 — AC defined.** AC(Q,M) = I(Q) - C(M). Channel capacity of the method. AC(0) = sufficient statistic.
-4. **§4 — Inherited theorems.** Data processing inequality → composition. Shannon coding → bridge. Fano → error bounds. All proved, all free.
-5. **§5 — Classification table.** 20+ methods, measured AC. Empirical support. (Phase 1 data)
-6. **§6 — QM as precondition.** Category coherence = well-defined mutual information. P vs NP case study: NP incoherent → I(Q) undefined → question broken.
-7. **§7 — Implications for P vs NP.** I(Q) > 0 for 3-SAT at threshold. Channel capacity of poly-time methods bounded. Not the proof — the framework that makes the proof a measurement.
-8. **§8 — Conclusion.** Measure the question. Measure the method. The answer was always there.
+1. **Section 1 — The observation.** Methods add noise. Different methods add different noise. The noise is measurable.
+2. **Section 2 — I(Q) defined.** Information gap = H(Answer) - I(Question ; Answer). Bayesian foundation. Examples: 2-SAT (I≈0), 3-SAT (I≈H), crystallography (I small), weather (I large).
+3. **Section 3 — AC defined.** AC(Q,M) = I(Q) - C(M). Channel capacity of the method. AC(0) = sufficient statistic.
+4. **Section 4 — Inherited theorems.** Data processing inequality → composition. Shannon coding → bridge. Fano → error bounds. All proved, all free.
+5. **Section 5 — Classification table.** 20+ methods, measured AC. Empirical support. (Phase 1 data)
+6. **Section 6 — QM as precondition.** Category coherence = well-defined mutual information. P vs NP case study: NP incoherent → I(Q) undefined → question broken.
+7. **Section 7 — Implications for P vs NP.** I(Q) > 0 for 3-SAT at threshold. Channel capacity of poly-time methods bounded. Not the proof — the framework that makes the proof a measurement.
+8. **Section 8 — Conclusion.** Measure the question. Measure the method. The answer was always there.
 
 ### What to compute (your lane, Elie)
 
@@ -140,9 +140,9 @@ These are not analogies. They ARE the theorems, applied to the AC setting. 250 y
 
 1. **I(Q) is well-defined**: Show that mutual information I(Question ; Answer) is well-defined for decision problems over natural instance distributions. Handle the worst-case issue (take the distribution that maximizes I(Q) — the adversary gives you the hardest instances).
 
-2. ~~**AC(0) = sufficient statistic**~~ **PROVED (Lyra, March 19).** Theorem 3 in `BST_AC_Formalization.md` §5. Full proof via mutual information chain rule + DPI equality. Fisher-Neyman corollary follows. Key identity: I(σ\*; x) = I(σ\*; M(x)) + I(σ\*; x | M(x)), and AC = 0 iff the residual term vanishes.
+2. ~~**AC(0) = sufficient statistic**~~ **PROVED (Lyra, March 19).** Theorem 3 in `BST_AC_Formalization.md` Section 5. Full proof via mutual information chain rule + DPI equality. Fisher-Neyman corollary follows. Key identity: I(σ\*; x) = I(σ\*; M(x)) + I(σ\*; x | M(x)), and AC = 0 iff the residual term vanishes.
 
-3. ~~**Composition via data processing**~~ **PROVED (Lyra, March 19).** Theorem 4 in `BST_AC_Formalization.md` §5a. DPI on the Markov chain σ\* → x → M₁(x) → M₂(M₁(x)) gives C(M₂∘M₁) ≤ C(M₁), which forces AC to compound. Pipeline corollary: one lossy step contaminates the entire chain.
+3. ~~**Composition via data processing**~~ **PROVED (Lyra, March 19).** Theorem 4 in `BST_AC_Formalization.md` Section 5a. DPI on the Markov chain σ\* → x → M₁(x) → M₂(M₁(x)) gives C(M₂∘M₁) ≤ C(M₁), which forces AC to compound. Pipeline corollary: one lossy step contaminates the entire chain.
 
 ---
 

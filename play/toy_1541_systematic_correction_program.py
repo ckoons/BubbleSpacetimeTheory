@@ -76,7 +76,7 @@ HIT_LIST = [
     # P1 #10: m_ν3 (heaviest neutrino mass)
     {
         "name": "m_ν3 (heaviest neutrino)",
-        "section": "§10",
+        "section": "Section 10",
         "naive_formula": "(10/3) * alpha**2 * m_e**2 / m_p",
         "naive_value": lambda: (10/3) * alpha**2 * (0.51099895e-3)**2 / 0.93827208,
         "observed": 0.05e-9,  # ~0.05 eV (NuFIT 2024, normal ordering)
@@ -88,7 +88,7 @@ HIT_LIST = [
     # P1 #13: t_0 (age of universe)
     {
         "name": "t_0 (age of universe)",
-        "section": "§11",
+        "section": "Section 11",
         "naive_formula": "(2/3) / (sqrt(Ω_Λ) * H_0)",
         "naive_value": lambda: 13.80,  # Gyr, BST with Ω_Λ=13/19
         "observed": 13.797,  # Planck 2018
@@ -100,7 +100,7 @@ HIT_LIST = [
     # P1 #14: Li7/H (lithium problem)
     {
         "name": "Li7/H (primordial lithium)",
-        "section": "§11",
+        "section": "Section 11",
         "naive_formula": "BST genus correction",
         "naive_value": lambda: 5.62e-10,  # BST prediction
         "observed": 1.6e-10,  # Spite plateau
@@ -112,7 +112,7 @@ HIT_LIST = [
     # P1 #18: φ_approx (golden ratio approximation)
     {
         "name": "φ_approx (golden ratio)",
-        "section": "§16",
+        "section": "Section 16",
         "naive_formula": "8/5",
         "naive_value": lambda: 8/5,
         "observed": (1 + math.sqrt(5)) / 2,  # 1.6180339887...
@@ -124,7 +124,7 @@ HIT_LIST = [
     # P1 #19: v_P/v_S (seismic velocity ratio)
     {
         "name": "v_P/v_S (seismic ratio)",
-        "section": "§16",
+        "section": "Section 16",
         "naive_formula": "sqrt(3)",
         "naive_value": lambda: math.sqrt(3),
         "observed": 1.732,  # Poisson solid, exact
@@ -137,7 +137,7 @@ HIT_LIST = [
     # BR(H→gg)
     {
         "name": "BR(H→gg)",
-        "section": "§5",
+        "section": "Section 5",
         "naive_formula": "1/12",
         "naive_value": lambda: 1/12,
         "observed": 0.0818,
@@ -149,7 +149,7 @@ HIT_LIST = [
     # BCS gap ratio
     {
         "name": "BCS gap 2Δ/kT_c",
-        "section": "§12",
+        "section": "Section 12",
         "naive_formula": "g/rank = 7/2",
         "naive_value": lambda: 7/2,
         "observed": 3.528,

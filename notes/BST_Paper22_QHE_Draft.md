@@ -220,12 +220,12 @@ The quantum Hall effect is counting. It always was. The integers it counts are $
 
 3. **Line 133**: Rewrite "each the dimension of an irreducible SO(2n+1) representation at rank n" → "each equaling 2n+1, the dimension of the defining representation of SO(2n+1)."
 
-4. **§3.1 proof tightening**: Show one explicit equation mapping Bergman kernel weight to Laughlin exponent. Currently asserted, not demonstrated.
+4. **Section 3.1 proof tightening**: Show one explicit equation mapping Bergman kernel weight to Laughlin exponent. Currently asserted, not demonstrated.
 
 5. **Line 42**: "State" �� "Weight m" in Laughlin table header.
 
 ### MINOR (not blocking)
-- §4 cross-domain table: shorten for PRL word limit
+- Section 4 cross-domain table: shorten for PRL word limit
 - Line 120: "QED" → □
 - Even m gives bosonic Laughlin states — note for completeness
 

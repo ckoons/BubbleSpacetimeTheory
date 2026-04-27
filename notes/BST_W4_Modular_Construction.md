@@ -99,7 +99,7 @@ More precisely, for the second-quantization construction: if $\mathcal{K}_R$ is 
 
 ### 2.4 The Bisognano-Wichmann property
 
-**Theorem (BW for BST).** The modular data $(\Delta, J)$ associated with $\mathcal{A}(W_R)$ and $\Omega$ coincide with the geometric modular data defined in §2.2:
+**Theorem (BW for BST).** The modular data $(\Delta, J)$ associated with $\mathcal{A}(W_R)$ and $\Omega$ coincide with the geometric modular data defined in Section 2.2:
 
 $$\Delta_{\mathcal{A}(W_R), \Omega} = e^{-2\pi K}, \qquad J_{\mathcal{A}(W_R), \Omega} = U(\theta)$$
 
@@ -117,7 +117,7 @@ $$W_1 \perp W_2 \quad \Longrightarrow \quad [\mathcal{A}(W_1), \mathcal{A}(W_2)]
 
 where $W_1 \perp W_2$ means the wedges are spacelike separated.
 
-*Proof.* By the BW property (§2.4), the commutant of $\mathcal{A}(W_R)$ is:
+*Proof.* By the BW property (Section 2.4), the commutant of $\mathcal{A}(W_R)$ is:
 
 $$\mathcal{A}(W_R)' = J \mathcal{A}(W_R) J = \mathcal{A}(W_L)$$
 
@@ -131,12 +131,12 @@ $$\mathcal{O}_1 \perp \mathcal{O}_2 \implies \exists W : \mathcal{O}_1 \subset W
 
 ## 3. Haag-Kastler Axioms: Verification
 
-The net $\{\mathcal{A}(\mathcal{O})\}$ constructed in §2 satisfies all Haag-Kastler axioms:
+The net $\{\mathcal{A}(\mathcal{O})\}$ constructed in Section 2 satisfies all Haag-Kastler axioms:
 
 | Axiom | Statement | Proof |
 |-------|-----------|-------|
 | **Isotony** | $\mathcal{O}_1 \subset \mathcal{O}_2 \implies \mathcal{A}(\mathcal{O}_1) \subset \mathcal{A}(\mathcal{O}_2)$ | Immediate: $\mathcal{O}_1 \subset \mathcal{O}_2 \implies$ more wedges contain $\mathcal{O}_2$ $\implies$ larger intersection |
-| **Locality** | $\mathcal{O}_1 \perp \mathcal{O}_2 \implies [\mathcal{A}(\mathcal{O}_1), \mathcal{A}(\mathcal{O}_2)] = 0$ | Theorem §2.5 (from BW + wedge duality) |
+| **Locality** | $\mathcal{O}_1 \perp \mathcal{O}_2 \implies [\mathcal{A}(\mathcal{O}_1), \mathcal{A}(\mathcal{O}_2)] = 0$ | Theorem Section 2.5 (from BW + wedge duality) |
 | **Covariance** | $U(g)\mathcal{A}(\mathcal{O})U(g)^{-1} = \mathcal{A}(g \cdot \mathcal{O})$ | $U$ is a representation of $G \supset \mathcal{P}$; wedges transform geometrically |
 | **Vacuum** | $\exists!$ $\Omega$ with $U(g)\Omega = \Omega$ | W5 (multiplicity 1 of trivial representation) |
 | **Reeh-Schlieder** | $\mathcal{A}(\mathcal{O})\Omega$ dense in $\mathcal{H}$ for any $\mathcal{O}$ | Mass gap $> 0$ + SVW (2002) |
@@ -173,7 +173,7 @@ This is the non-perturbative content: the mass gap arises from the curvature of 
 
 ## 5. Two Conditions Requiring Verification
 
-The construction in §2-3 relies on two conditions that are standard in the QFT literature but need explicit verification for BST's specific geometry:
+The construction in Section 2-3 relies on two conditions that are standard in the QFT literature but need explicit verification for BST's specific geometry:
 
 ### Condition 1: Reeh-Schlieder on $\Gamma \backslash G/K$ — EXHIBITED
 
@@ -181,7 +181,7 @@ The Reeh-Schlieder theorem requires the vacuum $\Omega$ to be cyclic for the loc
 
 **Argument for BST.** The Reeh-Schlieder property holds for $\Gamma \backslash G/K$ by the following chain:
 
-1. **AdS₆ is globally hyperbolic.** The universal cover $\widetilde{\mathrm{AdS}_6} = \mathrm{SO}_0(5,2)/\mathrm{SO}_0(5,1)$ is globally hyperbolic (Hawking-Ellis 1973, §5.2). This is the Lorentzian continuation of $D_{IV}^5$.
+1. **AdS₆ is globally hyperbolic.** The universal cover $\widetilde{\mathrm{AdS}_6} = \mathrm{SO}_0(5,2)/\mathrm{SO}_0(5,1)$ is globally hyperbolic (Hawking-Ellis 1973, Section 5.2). This is the Lorentzian continuation of $D_{IV}^5$.
 
 2. **RS on globally hyperbolic spacetimes with mass gap.** Strohmaier-Verch-Wollenberg (2002, Theorem 3.1) proves: if $(\mathcal{M}, g)$ is a globally hyperbolic stationary spacetime and $\omega$ is a ground state for the associated QFT with mass gap $\Delta > 0$, then $\omega$ satisfies Reeh-Schlieder for any non-empty causally convex open region. BST has $\Delta = 6 > 0$, so this theorem applies to the theory on $\widetilde{\mathrm{AdS}_6}$.
 
@@ -195,7 +195,7 @@ The Reeh-Schlieder theorem requires the vacuum $\Omega$ to be cyclic for the loc
 
 ### Condition 2: Bifurcate Killing horizons on $D_{IV}^5$ — VERIFIED (Toy 337)
 
-The BW property (§2.4) requires the spacetime to admit bifurcate Killing horizons — hypersurfaces where the boost Killing vector vanishes. On Minkowski space, these are the Rindler horizons. On AdS, they are the horizons of the BTZ or Schwarzschild-AdS black holes.
+The BW property (Section 2.4) requires the spacetime to admit bifurcate Killing horizons — hypersurfaces where the boost Killing vector vanishes. On Minkowski space, these are the Rindler horizons. On AdS, they are the horizons of the BTZ or Schwarzschild-AdS black holes.
 
 **Verification (Toy 337, 8/8 PASS).** The boost generator $K_{\text{phys}} = H_1 + H_2 \in \mathfrak{a} \subset \mathfrak{p}$ was analyzed numerically:
 
@@ -239,7 +239,7 @@ The remaining gap is cosmetic: explicit verification that $\Gamma$ acts freely (
 With W4 exhibited (modulo verification), the BST theory on $D_{IV}^5$ satisfies all five Wightman axioms (W1-W5) and has:
 
 - **A mass gap**: $\Delta = 6$ (spectral gap) → $m_p = 6\pi^5 m_e = 938.272$ MeV
-- **Non-triviality**: $W_3^T \neq 0$ (non-Gaussian, §4.1)
+- **Non-triviality**: $W_3^T \neq 0$ (non-Gaussian, Section 4.1)
 - **Confinement**: Discrete spectrum from compactness of $Q^5$
 
 This constitutes a construction of a non-trivial quantum field theory with a mass gap, satisfying the physical content of the Clay Yang-Mills problem. The theory is constructed on $D_{IV}^5$, not on $\mathbb{R}^4$ — see BST_YM_Q5_R4_Bridge_Scoping.md for the assessment that $\mathbb{R}^4$ is scaffolding.

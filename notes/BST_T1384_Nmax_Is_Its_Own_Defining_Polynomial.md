@@ -143,7 +143,7 @@ Why THAT polynomial? Because 137 = 128 + 8 + 1 = 2⁷ + 2³ + 1, and the exponen
 
 ## Children
 
-- Condition #23 added to uniqueness table (WP §37.5)
+- Condition #23 added to uniqueness table (WP Section 37.5)
 - α derivation closed (from self-description to 1/137 in 7 steps)
 - F₁-geometry identification: BST = arithmetic geometry over absolute point
 - GF(128) multiplication structure of periodic table

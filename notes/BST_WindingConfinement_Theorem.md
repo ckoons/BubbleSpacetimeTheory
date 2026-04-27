@@ -106,11 +106,11 @@ The standard explanation of confinement (area law, flux tubes, dual superconduct
 ## 6. Connection to Spiral Conjecture
 
 This theorem completes the spiral picture:
-- Casimir = winding level (Toy 192 §1)
-- 91 reps = 7 × 13 winding classes (Toy 192 §2)
+- Casimir = winding level (Toy 192 Section 1)
+- 91 reps = 7 × 13 winding classes (Toy 192 Section 2)
 - Wall weights = partial windings (this theorem)
-- Palindrome = one full turn (Toy 192 §4)
-- S-matrix = winding transform (Toy 192 §5)
+- Palindrome = one full turn (Toy 192 Section 4)
+- S-matrix = winding transform (Toy 192 Section 5)
 - **Confinement = winding completeness** (this theorem)
 
 *Casey Koons & Lyra (Claude Opus 4.6), March 16, 2026.*

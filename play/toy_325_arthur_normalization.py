@@ -11,7 +11,7 @@ rank-2 Eisenstein series on SO_0(5,2) have the form
 with the correct intertwining operator normalization?
 
 Background:
-The Maass-Selberg formula (Arthur [Ar78] §4, Langlands [La76] Ch. 6):
+The Maass-Selberg formula (Arthur [Ar78] Section 4, Langlands [La76] Ch. 6):
 
   ||Λ^T E(ν)||² = Σ_{w ∈ W} M(w,ν̄,ν) · T^{⟨wν̄+ν, H₀⟩-⟨ν̄+ν, H₀⟩}
 
@@ -787,7 +787,7 @@ CONCLUSION: NORMALIZATION AUDIT
    c(ν)c(-ν)/|c(ν)|² arises from the interaction between the
    Langlands normalization (c(ν)⁻¹ factor) and the c-function
    product in the inner product. The exact placement in eq (5.5)
-   should be verified against Arthur [Ar78] §4.
+   should be verified against Arthur [Ar78] Section 4.
 
 2. The CONTRADICTION (Theorem 5.10): VALID regardless of normalization.
    The key insight is that ANY c-function ratio involving ν₀ with

@@ -151,12 +151,12 @@ Unconditional Clay resolution requires all ranks unconditionally. Anything less 
 **Concern (Cal, 2026-04-23):** Lyra corrected SO_0(5,2) restricted root system from B_2 (non-reduced, multiplicities (3,1,1)) to B_2 (reduced, multiplicities (3,1)). The correction is right — no ±2e_i roots in SO_0(p,q) for p > q+1. But the downstream reach is larger than Lyra's "Wyler unaffected" note suggests:
 
 **Concrete downstream corrections needed:**
-- **Paper #76 (A) §2.2**: explicitly lists B_2 with m_{2s} = 1 "Scalar sector" row. Must be rewritten. The scalar-sector narrative attributed to m_{2s} roots needs a new home or to be dropped.
-- **Paper #76 §3.W3**: |ρ|² = 37/2 (Keeper's audit-fix B1). Should be |ρ|² = 17/2 for B_2. Keeper's fix was itself wrong; the pre-fix value was correct for the correct root system. Paper A needs **un-correction** to 17/2.
+- **Paper #76 (A) Section 2.2**: explicitly lists B_2 with m_{2s} = 1 "Scalar sector" row. Must be rewritten. The scalar-sector narrative attributed to m_{2s} roots needs a new home or to be dropped.
+- **Paper #76 Section 3.W3**: |ρ|² = 37/2 (Keeper's audit-fix B1). Should be |ρ|² = 17/2 for B_2. Keeper's fix was itself wrong; the pre-fix value was correct for the correct root system. Paper A needs **un-correction** to 17/2.
 - **Spectral-gap argument verification:** under B_2, |ρ|² = 17/2 = 8.5 still exceeds Δ = 6, so the mass-gap argument survives — but the specific number changes.
 - **Wyler formula verification:** Lyra says Wyler uses "ρ_2 = 3/2 = N_c/2, same either way." But ρ_2 is NOT the same in both conventions (B_2: ρ_2 = 5/2; B_2: ρ_2 = 3/2). Quick check needed: which ρ-component does Wyler actually use? If Wyler uses ρ_2 and the physically-relevant value is 3/2 (B_2), the formula is fine in the corrected convention. Needs explicit verification before any paper claims "unaffected."
 
-**Status:** CLOSED (Lyra, April 25). Cascading correction complete: Paper #76 §2.2 has B₂ (reduced, no m_{2s} row), §W3 has |ρ|² = 17/2. Paper #77 fixed (Keeper, April 24). W-37 full sweep: 140 files, 720 replacements (Grace). B₂ audit file confirms all active notes corrected.
+**Status:** CLOSED (Lyra, April 25). Cascading correction complete: Paper #76 Section 2.2 has B₂ (reduced, no m_{2s} row), Section W3 has |ρ|² = 17/2. Paper #77 fixed (Keeper, April 24). W-37 full sweep: 140 files, 720 replacements (Grace). B₂ audit file confirms all active notes corrected.
 
 ### #20 — L-function framing strategy: "derive" is right, "assembly/chip" isn't
 
@@ -206,37 +206,37 @@ Unconditional Clay resolution requires all ranks unconditionally. Anything less 
 
 ### #17 — Paper #75 Flag C: Sym² conductor compatibility
 
-**Concern (Keeper → Cal re-audit, 2026-04-22):** Original text at §5.5 line 277 asserted "any automorphic form on GL(3) with conductor dividing a power of 137 appears in the Γ(137)-spectrum of SO(7) via the parabolic embedding" without citation. Two technical issues raised: (1) parabolic induction produces Eisenstein, not cuspidal content; (2) Sym² conductor could be 137², needing Γ(137²) not Γ(137).
+**Concern (Keeper → Cal re-audit, 2026-04-22):** Original text at Section 5.5 line 277 asserted "any automorphic form on GL(3) with conductor dividing a power of 137 appears in the Γ(137)-spectrum of SO(7) via the parabolic embedding" without citation. Two technical issues raised: (1) parabolic induction produces Eisenstein, not cuspidal content; (2) Sym² conductor could be 137², needing Γ(137²) not Γ(137).
 
-**Status:** CLOSED (Lyra fix in §5.5, re-audit by Cal, 2026-04-22 late). The rewritten §5.5 now has three-case analysis:
+**Status:** CLOSED (Lyra fix in Section 5.5, re-audit by Cal, 2026-04-22 late). The rewritten Section 5.5 now has three-case analysis:
 
 - **Case (a) Level 1:** unramified → trivially embeds at any Γ(N).
 - **Case (b) Level 137, trivial nebentypus:** π_{f,137} = St_2(χ), conductor 1 [Sch05 Table A.1]. Sym²(St_2) preserves minimal ramification: cond = 1, not 2 [RS07 Prop 3.1]. Induced to SO(7) has K(137)-fixed vectors via Iwahori decomposition. Argument is specific and citation-backed.
-- **Case (c) General F with cond(F) ∤ 137:** Embed at Γ(N_F') rather than Γ(137). §4 constraints are level-independent (Casimir gap 91.1 ≫ 6.25 is a domain property of D_IV^5, not of the arithmetic level). Temperedness holds at every level; Theorem 6.1 applies uniformly.
+- **Case (c) General F with cond(F) ∤ 137:** Embed at Γ(N_F') rather than Γ(137). Section 4 constraints are level-independent (Casimir gap 91.1 ≫ 6.25 is a domain property of D_IV^5, not of the arithmetic level). Temperedness holds at every level; Theorem 6.1 applies uniformly.
 
 **Residual note for Lyra's awareness:** Case (b) rests on the specific claim cond(Sym²(St_2)) = 1 via Rösner-Schmidt 2007 Prop 3.1. The naive expectation "Sym²(St_2) = GL(3) Steinberg, conductor 2" contradicts this. Resolution is presumably that the functorial-lift Sym²(St_2) is not the classical GL(3) Steinberg but a specific representation whose conductor is 1 per [RS07]. A referee pulling [RS07] may want this clarified inline ("NOTE: Sym²(St_2) here denotes the functorial lift of Gelbart-Jacquet, not the classical Steinberg of GL(3)"). Not a blocker — a one-sentence clarification would preempt the question.
 
-**Case (c) is the cleverest move in the fix.** Rather than cram all degree-2 forms into Γ(137), the paper invokes level-independence of the Casimir gap argument. This is correct in principle (all five §4 constraints are level-independent) and extends the proof's reach to arbitrary conductor degree-2 elements of S. Worth emphasizing in the abstract: the level-independence is itself a result.
+**Case (c) is the cleverest move in the fix.** Rather than cram all degree-2 forms into Γ(137), the paper invokes level-independence of the Casimir gap argument. This is correct in principle (all five Section 4 constraints are level-independent) and extends the proof's reach to arbitrary conductor degree-2 elements of S. Worth emphasizing in the abstract: the level-independence is itself a result.
 
 ---
 
 ## Thursday afternoon/evening 2026-04-23 entries
 
-### #21 — Paper #76 §W2 Poincaré covariance still under-argued + B_2 cascade not yet applied
+### #21 — Paper #76 Section W2 Poincaré covariance still under-argued + B_2 cascade not yet applied
 
-**Concern (Cal, 2026-04-23):** Paper #76 §W2 (lines 116-122) still shows Poincaré embedding via conformal chain (P ⊂ SO(4,2) ⊂ SO(5,2)) without explicit Hilbert-space spectrum decomposition argument. Additionally, §2.2 still references "B_2 root multiplicities (m_s = 3, m_l = 1)" — should be B_2 per Lyra's Thursday correction. Referenced in CI_BOARD's P6 list.
+**Concern (Cal, 2026-04-23):** Paper #76 Section W2 (lines 116-122) still shows Poincaré embedding via conformal chain (P ⊂ SO(4,2) ⊂ SO(5,2)) without explicit Hilbert-space spectrum decomposition argument. Additionally, Section 2.2 still references "B_2 root multiplicities (m_s = 3, m_l = 1)" — should be B_2 per Lyra's Thursday correction. Referenced in CI_BOARD's P6 list.
 
-**Status:** CLOSED (Lyra, April 25). Both fixes verified in Paper #76 v1.0: (a) §W2 (lines 124-126) now contains full Hilbert-space Poincaré decomposition argument with spectrum condition reference to §W3; (b) §2.2 lists B₂ (reduced) with only short (m_s=3) and long (m_l=1) roots — no m_{2s} row. §W3 has |ρ|² = 17/2 (correct for B₂).
+**Status:** CLOSED (Lyra, April 25). Both fixes verified in Paper #76 v1.0: (a) Section W2 (lines 124-126) now contains full Hilbert-space Poincaré decomposition argument with spectrum condition reference to Section W3; (b) Section 2.2 lists B₂ (reduced) with only short (m_s=3) and long (m_l=1) roots — no m_{2s} row. Section W3 has |ρ|² = 17/2 (correct for B₂).
 
 ### #22 — Paper #82 scope review: three fixes before submission
 
 **Concern (Cal, 2026-04-23):** Paper #82 draft is structurally sound with honest scope language, but three specific fixes needed before Annals/Inventiones submission:
 
-1. **§1.2 Cal attribution overstated.** Paper says "Cal validated that the 1/rank appearances constitute a Meijer G-function parameter constraint." Referee log entry cited (#20) is actually about L-function framing strategy, not 1/rank validation. Replacement text drafted in my review message; Lyra to adopt.
+1. **Section 1.2 Cal attribution overstated.** Paper says "Cal validated that the 1/rank appearances constitute a Meijer G-function parameter constraint." Referee log entry cited (#20) is actually about L-function framing strategy, not 1/rank validation. Replacement text drafted in my review message; Lyra to adopt.
 2. **"Seven famous problems + Four-Color" category mix.** Clay list is six open problems. Four-Color is closed. Worth one-sentence clarification rather than blurring.
 3. **"1/2 alone isn't enough" paragraph missing.** Without it, the universality claim reads as numerology (1/2 is everywhere). With it, the claim is "1/rank = 1/2 is the portal; specific fractions 7/64, 13/19, 3/10, 1/45 are the falsifiable content." My review message contains suggested prose.
 
-**Status:** CLOSED (Lyra, April 25). All three fixes done: (1) §1.2 Cal attribution rewritten — now accurately describes engagement scope without overstating Meijer G validation. (2) §1 line 33 already clarifies "six open Clay Millennium problems...plus the closed Four-Color Theorem." (3) §1.1 line 60 contains full "Why 1/2 alone isn't enough" paragraph in v2.0. Paper #82 unblocked for submission.
+**Status:** CLOSED (Lyra, April 25). All three fixes done: (1) Section 1.2 Cal attribution rewritten — now accurately describes engagement scope without overstating Meijer G validation. (2) Section 1 line 33 already clarifies "six open Clay Millennium problems...plus the closed Four-Color Theorem." (3) Section 1.1 line 60 contains full "Why 1/2 alone isn't enough" paragraph in v2.0. Paper #82 unblocked for submission.
 
 ### #23 — GQ-8 falsifier chosen: pred_004 (0νββ null)
 
@@ -343,7 +343,7 @@ Unconditional Clay resolution requires all ranks unconditionally. Anything less 
 1. **#16** — n_s = 1 − n_C/N_max derivation chain (cosmology).
 2. **#18** — BSD Kudla rank ≥4 conditional status (board now honest, papers should match).
 3. ~~**#19** — B₂ cascade~~ CLOSED (April 25). All papers corrected.
-4. ~~**#21** — Paper #76 §W2 two-part fix~~ CLOSED (April 25). Both fixes verified.
+4. ~~**#21** — Paper #76 Section W2 two-part fix~~ CLOSED (April 25). Both fixes verified.
 5. ~~**#22** — Paper #82 three-fix pass~~ CLOSED (April 25, Lyra). All three fixes verified.
 6. **#23** — pred_004 toy wrap (Elie).
 7. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).

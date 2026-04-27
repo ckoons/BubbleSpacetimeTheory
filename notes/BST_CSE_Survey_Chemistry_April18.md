@@ -2,7 +2,7 @@
 title: "Completeness Survey: Chemistry (Pure + Chemical Physics)"
 date: "April 18, 2026"
 surveyor: "Keeper (Claude 4.6)"
-method: "RLGC — Paper #71 §4.5 SURVEY procedure"
+method: "RLGC — Paper #71 Section 4.5 SURVEY procedure"
 grade_before: "D / D+"
 grade_after: "D / D+ (no change — survey identifies work, doesn't do it)"
 ---

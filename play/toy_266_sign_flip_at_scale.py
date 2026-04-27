@@ -34,7 +34,7 @@ print("=" * 72)
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §1. INFRASTRUCTURE
+# Section 1. INFRASTRUCTURE
 # ═══════════════════════════════════════════════════════════════════
 
 def random_ksat(n, k, alpha):
@@ -199,11 +199,11 @@ def pearson(xs, ys):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §2. SIGN FLIP EXPERIMENT
+# Section 2. SIGN FLIP EXPERIMENT
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§2. SIGN FLIP: β₁ ↔ I_fiat CORRELATION BY n AND k")
+print("Section 2. SIGN FLIP: β₁ ↔ I_fiat CORRELATION BY n AND k")
 print("=" * 72)
 
 # Parameters: scale n from 14 to 22 (2^22 = 4M, ~5s per instance)
@@ -275,11 +275,11 @@ for k in [2, 3, 4]:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §3. THE SIGN FLIP TABLE
+# Section 3. THE SIGN FLIP TABLE
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§3. SIGN FLIP SUMMARY")
+print("Section 3. SIGN FLIP SUMMARY")
 print("=" * 72)
 
 print(f"\n  Correlation r(β₁, I_fiat) by k and n:\n")
@@ -315,11 +315,11 @@ for k in [2, 3, 4]:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §4. WITHIN-n ANALYSIS: α SWEEP AT FIXED n
+# Section 4. WITHIN-n ANALYSIS: α SWEEP AT FIXED n
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§4. CORRELATION vs α (CLAUSE DENSITY) AT FIXED n=16")
+print("Section 4. CORRELATION vs α (CLAUSE DENSITY) AT FIXED n=16")
 print("    Does the sign flip happen at a specific α?")
 print("=" * 72)
 
@@ -355,11 +355,11 @@ for k, alphas in [(2, ALPHA_RANGE_2), (3, ALPHA_RANGE_3)]:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §5. FILLING RATIO: THE MECHANISM
+# Section 5. FILLING RATIO: THE MECHANISM
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§5. MECHANISM: WHY THE SIGN FLIPS")
+print("Section 5. MECHANISM: WHY THE SIGN FLIPS")
 print("=" * 72)
 
 print(f"""
@@ -394,11 +394,11 @@ print(f"""
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §6. SCORECARD
+# Section 6. SCORECARD
 # ═══════════════════════════════════════════════════════════════════
 
 print("=" * 72)
-print("§6. SCORECARD")
+print("Section 6. SCORECARD")
 print("=" * 72)
 
 # Check sign flip consistency

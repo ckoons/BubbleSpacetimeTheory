@@ -199,12 +199,12 @@ The height pairing ⟨P,Q⟩ on E(Q)/tor measures the **definite-positive inform
 
 ### 6.1 GRH for L(E,s) via P₂
 
-The RH proof via D_IV^5 c-function unitarity extends to L(E,s) through the maximal parabolic P₂ of SO₀(5,2). The mechanism (BST_BSD_Proof.md v3, §3):
+The RH proof via D_IV^5 c-function unitarity extends to L(E,s) through the maximal parabolic P₂ of SO₀(5,2). The mechanism (BST_BSD_Proof.md v3, Section 3):
 
 1. **Modularity** (Wiles/BCDT): L(E,s) = L(f,s) for weight-2 newform f.
-2. **Langlands-Shahidi** (§3.2): The adjoint action of M₂ = GL(2) × SO₀(1,2) on n₂ decomposes as r₁ ⊕ r₂, giving L(f,s) and L(sym²f,s) in the intertwining operator.
-3. **4-term Weyl coset** (§3.3): |W^{P₂}| = 4 > 2, so the rank-1 cancellation fails.
-4. **c-function unitarity** (§3.4-3.5): Same B₂ Gamma conjugation identity forces all zeros to the critical line.
+2. **Langlands-Shahidi** (Section 3.2): The adjoint action of M₂ = GL(2) × SO₀(1,2) on n₂ decomposes as r₁ ⊕ r₂, giving L(f,s) and L(sym²f,s) in the intertwining operator.
+3. **4-term Weyl coset** (Section 3.3): |W^{P₂}| = 4 > 2, so the rank-1 cancellation fails.
+4. **c-function unitarity** (Section 3.4-3.5): Same B₂ Gamma conjugation identity forces all zeros to the critical line.
 
 The 1:3:5 mechanism that forces ξ-zeros onto the critical line also forces L(E,s)-zeros onto the critical line. Same D₃, same B₂ root system, same c-function unitarity constraint. The only change: ξ(s) enters via the minimal parabolic (8 Weyl terms), L(E,s) enters via P₂ (4 Weyl terms). Both exceed the threshold of 2.
 
@@ -316,7 +316,7 @@ Sha > 1 curves show positive I_analytic (+0.51 bits mean), while Sha = 1 curves 
 
 *Seven lemmas from D₃ bijection to full BSD. Theorem numbers T97-T103.*
 
-The bijection argument (§6.3) restructures the BSD proof into seven steps. Each step either (a) is already proved, (b) follows from RH machinery already in hand, or (c) requires showing the D₃ bijection preserves a specific algebraic invariant. The key gap is B4b: phantom zero exclusion.
+The bijection argument (Section 6.3) restructures the BSD proof into seven steps. Each step either (a) is already proved, (b) follows from RH machinery already in hand, or (c) requires showing the D₃ bijection preserves a specific algebraic invariant. The key gap is B4b: phantom zero exclusion.
 
 ### 10.1 B1 — Frobenius-D₃ Universality (T97) — **PROVED**
 
@@ -330,7 +330,7 @@ The bijection argument (§6.3) restructures the BSD proof into seven steps. Each
 
 **Statement**: Every L(E,s) for E/Q embeds as an automorphic L-function on D_IV^5 via the maximal parabolic P₂.
 
-**Proof** (BST_BSD_Proof.md v3, §3.1-3.2): Wiles/BCDT proves L(E,s) = L(f,s) for weight-2 newform f. The maximal parabolic P₂ of SO₀(5,2) has Levi M₂ = GL(2) × SO₀(1,2). The Eisenstein series E_{P₂}(g, s, π_f) embeds π_f into the spectral decomposition. The Langlands-Shahidi method identifies the L-functions: r₁ = std(GL(2)) ⊗ std(SO₀(1,2)) → L(f,s), r₂ = Sym²(GL(2)) ⊗ 1 → L(sym²f,s). The root-space decomposition of n₂ is explicit (5 root types, multiplicities 3,3,1,1,1).
+**Proof** (BST_BSD_Proof.md v3, Section 3.1-3.2): Wiles/BCDT proves L(E,s) = L(f,s) for weight-2 newform f. The maximal parabolic P₂ of SO₀(5,2) has Levi M₂ = GL(2) × SO₀(1,2). The Eisenstein series E_{P₂}(g, s, π_f) embeds π_f into the spectral decomposition. The Langlands-Shahidi method identifies the L-functions: r₁ = std(GL(2)) ⊗ std(SO₀(1,2)) → L(f,s), r₂ = Sym²(GL(2)) ⊗ 1 → L(sym²f,s). The root-space decomposition of n₂ is explicit (5 root types, multiplicities 3,3,1,1,1).
 
 **Status**: ~98%. The embedding is now explicit — not a general functoriality argument but a direct P₂ construction with identified representations.
 
@@ -452,7 +452,7 @@ The proof paper v3 has closed several questions and sharpened the remaining ones
 
 2. ~~**Sha creates zeros?**~~ → **CLOSED** by Proposition 6.2 (Sha-independence). L(E,s) is an Euler product of local factors; Sha is locally trivial everywhere. Sha is amplitude, not frequency. Fully rigorous.
 
-3. ~~**P₂ embedding vague?**~~ → **CLOSED** by §3.2 (Langlands-Shahidi for P₂). Root table explicit, r₁ and r₂ identified, intertwining operator written with both L-function factors.
+3. ~~**P₂ embedding vague?**~~ → **CLOSED** by Section 3.2 (Langlands-Shahidi for P₂). Root table explicit, r₁ and r₂ identified, intertwining operator written with both L-function factors.
 
 4. ~~**Spectral independence at rank ≥ 2**~~ → **CLOSED** by Toy 395 (10/10, rank-2/3 curves) + Toy 393 (10/10, D₃ encodes global rank). Height-spectral independence confirmed numerically. Formal bridge remains the D₃ bijection's irreducible claim (see Remark 6.3a).
 

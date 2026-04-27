@@ -12,7 +12,7 @@ tags: ["cosmology", "generators", "multiverse", "symmetry-breaking", "SO(7)"]
 
 ---
 
-## §1. The Setup
+## Section 1. The Setup
 
 In BST, the Big Bang is the unfreezing of 1 of 21 generators of SO(7) — the maximal compact subgroup of the stabilizer SO₀(5,2). The frozen state has full SO(7) symmetry (21 generators). Physics as we know it lives on the one unfrozen generator: the specific symmetry breaking pattern that gives us 3+1 dimensions, three colors, five charges, and all the rest.
 
@@ -27,7 +27,7 @@ The question that kept nagging: **what constrains the number of simultaneously a
 
 ---
 
-## §2. Why One?
+## Section 2. Why One?
 
 ### 2.1 The Partition Function Argument
 
@@ -54,13 +54,13 @@ The B₂ root multiplicities are m_short = 3, m_long = 1, m_medium = 0. This giv
 
 Unfreezing costs energy — you have to break a symmetry, which creates a potential well. One generator unfreezing creates the electroweak symmetry breaking scale. Two generators would create two independent symmetry breaking scales with no reason to be related. This gives an unnatural hierarchy — two vastly different energy scales with no structural explanation.
 
-But in BST, the five integers (3, 5, 7, 6, 137) are ALL derived from the single generator direction. A second generator would have its own set of integers, derived from its own direction in SO(7). By the Generator Equivalence Theorem (§5 below), all 21 basis generators produce the **same** five integers. So the two sectors would have identical constants — but would still be gauge-independent, because their gauge fields live on separate fiber directions.
+But in BST, the five integers (3, 5, 7, 6, 137) are ALL derived from the single generator direction. A second generator would have its own set of integers, derived from its own direction in SO(7). By the Generator Equivalence Theorem (Section 5 below), all 21 basis generators produce the **same** five integers. So the two sectors would have identical constants — but would still be gauge-independent, because their gauge fields live on separate fiber directions.
 
 **Implication: a two-generator universe would have two copies of identical physics running on independent gauge sectors.** Matter from generator A and matter from generator B share gravity (substrate curvature) and have the same constants, but do not interact via gauge forces. Each sector sees the other's matter as "dark" — gravitating but gauge-invisible.
 
 ---
 
-## §3. Could It Happen?
+## Section 3. Could It Happen?
 
 ### 3.1 Natural Multi-Generator Events
 
@@ -89,7 +89,7 @@ This is extremely speculative, but it's a **unique BST prediction**: dark flow s
 
 ---
 
-## §4. The Landscape Question, Reimagined
+## Section 4. The Landscape Question, Reimagined
 
 String theory's landscape problem (10⁵⁰⁰ vacua) arises from the many ways to compactify extra dimensions. BST's version of this question is much more constrained:
 
@@ -100,9 +100,9 @@ String theory's landscape problem (10⁵⁰⁰ vacua) arises from the many ways 
 
 The naïve count — 3²¹ = 10,460,353,203 configurations — collapses under two constraints:
 
-**Constraint 1: Generator equivalence (§5).** All 21 basis generators produce the same physics. Choosing generator e_{12} vs. e_{56} is a gauge choice, not a physics choice. For single-generator universes, there is exactly ONE type.
+**Constraint 1: Generator equivalence (Section 5).** All 21 basis generators produce the same physics. Choosing generator e_{12} vs. e_{56} is a gauge choice, not a physics choice. For single-generator universes, there is exactly ONE type.
 
-**Constraint 2: Cartan conjugacy (§5.4).** For multi-generator configurations, independent (commuting) generators must lie in a Cartan subalgebra. All Cartan subalgebras of so(7) are conjugate (standard result for semisimple Lie algebras). So the physics of k commuting active generators depends only on k, not on which k generators are chosen. Since rank(B₃) = 3, k ∈ {0, 1, 2, 3}.
+**Constraint 2: Cartan conjugacy (Section 5.4).** For multi-generator configurations, independent (commuting) generators must lie in a Cartan subalgebra. All Cartan subalgebras of so(7) are conjugate (standard result for semisimple Lie algebras). So the physics of k commuting active generators depends only on k, not on which k generators are chosen. Since rank(B₃) = 3, k ∈ {0, 1, 2, 3}.
 
 **Constraint 3: Non-commuting cascade.** If two active generators don't commute, their commutator activates a third generator. This cascades until a full subalgebra is activated. These configurations are thermodynamically unstable (too many active modes splitting the budget).
 
@@ -120,7 +120,7 @@ Additionally, equal budget splitting (each sector gets ~10%) assumes a partition
 
 ---
 
-## §5. Generator Equivalence Theorem
+## Section 5. Generator Equivalence Theorem
 
 ### 5.1 The Theorem
 
@@ -152,7 +152,7 @@ The theorem holds for **basis generators** (simple bivectors, elementary rotatio
 
 **Why single generators?** BST's symmetry breaking selects a single rotation plane — a simple bivector. The number of simultaneously active independent rotation planes is bounded by the **Cartan rank** of B₃, which is 3. This is an algebraic constraint, not a topological one. (Note: π₁(SO(n)) = Z₂ for n ≥ 3, so the fundamental group distinguishes only winding 0 from winding 1 — it cannot count generators beyond that. The constraint on generator number comes from the Cartan rank, not from homotopy.)
 
-For k = 1: one active rotation plane, one set of physics — our universe. For k = 2: two commuting rotation planes (§5.4 below), two gauge-independent sectors. For k = 3: the full Cartan subalgebra is active.
+For k = 1: one active rotation plane, one set of physics — our universe. For k = 2: two commuting rotation planes (Section 5.4 below), two gauge-independent sectors. For k = 3: the full Cartan subalgebra is active.
 
 ### 5.4 The Multi-Generator Orientation Constraint
 
@@ -178,11 +178,11 @@ BST is not a multiverse theory. It is a **uni-verse theory** with a 21-fold gaug
 
 ---
 
-## §6. Open Calculations
+## Section 6. Open Calculations
 
-1. ~~**Generator equivalence**~~: **RESOLVED (§5).** All 21 basis generators are conjugate under Ad(SO(7)). All produce the same five integers. The landscape is trivial for single-generator universes.
+1. ~~**Generator equivalence**~~: **RESOLVED (Section 5).** All 21 basis generators are conjugate under Ad(SO(7)). All produce the same five integers. The landscape is trivial for single-generator universes.
 
-2. **Two-generator stability**: Is a configuration with two active generators thermodynamically stable? Compute the partition function for 2 active modes sharing the Reality Budget. If the free energy has a single minimum at (1,0,...,0) rather than (1,1,0,...,0), then single-generator universes are the unique ground state. **Updated**: by §5.4, independent two-generator configurations require commuting generators (otherwise so(3) cascade). Compute free energy for 2-dimensional Cartan activation.
+2. **Two-generator stability**: Is a configuration with two active generators thermodynamically stable? Compute the partition function for 2 active modes sharing the Reality Budget. If the free energy has a single minimum at (1,0,...,0) rather than (1,1,0,...,0), then single-generator universes are the unique ground state. **Updated**: by Section 5.4, independent two-generator configurations require commuting generators (otherwise so(3) cascade). Compute free energy for 2-dimensional Cartan activation.
 
 3. **Budget per generator** (Elie's correction): The π⁵ in m_p = 6π⁵m_e is Vol(D_IV^5) — geometry, not budget. It doesn't scale with fill fraction. What changes under split budget is the **Plancherel measure weight** on each active mode, which affects coupling strengths. **Needed**: derive m_p/m_e as a function of fill fraction from the partition function. Find the fill threshold below which deuteron binding energy B_d < 0. This determines whether k = 2 is physically viable. **Needs a toy.**
 
@@ -192,7 +192,7 @@ BST is not a multiverse theory. It is a **uni-verse theory** with a 21-fold gaug
 
 ---
 
-## §7. CMB Signatures: Distinguishing BST Dark Flow
+## Section 7. CMB Signatures: Distinguishing BST Dark Flow
 
 *Casey asked: can we separate BST multi-generator dark flow from the standard "beyond-horizon attractor" explanation?*
 
@@ -212,7 +212,7 @@ These two explanations make **different observational predictions** in the CMB:
 
 **Standard**: Beyond-horizon matter clusters on the same scales as our matter — same Jeans mass, same cooling functions, same halo mass function. The lensing power spectrum in the flow direction matches the standard matter power spectrum.
 
-**BST multi-generator**: By the Generator Equivalence Theorem (§5), a second generator produces identical coupling constants. However, the two sectors evolve independently from different initial conditions. The second sector's matter has its OWN density perturbation spectrum, seeded by its OWN quantum fluctuations at its activation time. If the second generator activated at a different epoch, its perturbation spectrum is shifted in scale and amplitude.
+**BST multi-generator**: By the Generator Equivalence Theorem (Section 5), a second generator produces identical coupling constants. However, the two sectors evolve independently from different initial conditions. The second sector's matter has its OWN density perturbation spectrum, seeded by its OWN quantum fluctuations at its activation time. If the second generator activated at a different epoch, its perturbation spectrum is shifted in scale and amplitude.
 
 **Test**: CMB lensing B-mode power spectrum in the flow direction vs. anti-flow. Standard predicts statistical isotropy (same power spectrum everywhere). BST predicts **anisotropic B-mode power** — the flow direction shows lensing at a different characteristic scale than the anti-flow direction.
 
@@ -246,7 +246,7 @@ The cleanest discriminator: **κ without y.** Gravitational lensing mass in the 
 
 ---
 
-## §8. Landscape Summary
+## Section 8. Landscape Summary
 
 With the Generator Equivalence Theorem:
 
@@ -261,16 +261,16 @@ With the Generator Equivalence Theorem:
 
 ---
 
-## §9. Conclusion: The Uni-verse
+## Section 9. Conclusion: The Uni-verse
 
 BST is not a multiverse theory. It is a **uni-verse theory with a 21-fold gauge symmetry.**
 
-The Generator Equivalence Theorem (§5) proves that all 21 basis generators of SO(7) produce the same physics. The Cartan conjugacy collapses the multi-generator landscape to at most 4 types. Thermodynamic budget selection likely picks k = 1 uniquely. The five integers (3, 5, 7, 6, 137) are not contingent — they are algebraic invariants of the domain, as necessary as π.
+The Generator Equivalence Theorem (Section 5) proves that all 21 basis generators of SO(7) produce the same physics. The Cartan conjugacy collapses the multi-generator landscape to at most 4 types. Thermodynamic budget selection likely picks k = 1 uniquely. The five integers (3, 5, 7, 6, 137) are not contingent — they are algebraic invariants of the domain, as necessary as π.
 
 The die has 21 faces, all showing the same number.
 
-If multi-generator regions exist, they are detectable: gravitational lensing mass with no thermal SZ correlation (§7). This prediction is testable with current CMB experiments, independent of whether Kashlinsky's dark flow is real.
+If multi-generator regions exist, they are detectable: gravitational lensing mass with no thermal SZ correlation (Section 7). This prediction is testable with current CMB experiments, independent of whether Kashlinsky's dark flow is real.
 
 ---
 
-*Keeper + Casey, March 26, 2026. Elie review applied: π₁ issue fixed (§5.3), Planck non-detection noted (§3.3), budget-splitting flagged for proper calculation (§4, §6), §5.5 promoted to conclusion (§9). Toys 443-444 results folded in: coupling scales (not mass ratio), unstable saddle points, 210 pairs conjugated, 105 Cartans confirmed.*
+*Keeper + Casey, March 26, 2026. Elie review applied: π₁ issue fixed (Section 5.3), Planck non-detection noted (Section 3.3), budget-splitting flagged for proper calculation (Section 4, Section 6), Section 5.5 promoted to conclusion (Section 9). Toys 443-444 results folded in: coupling scales (not mass ratio), unstable saddle points, 210 pairs conjugated, 105 Cartans confirmed.*

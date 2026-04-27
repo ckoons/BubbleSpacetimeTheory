@@ -2,7 +2,7 @@
 """
 Toy 1512 — Debye Temperature Hunt
 ===================================
-Hit List §3F: Can Debye temperatures of elemental solids be expressed
+Hit List Section 3F: Can Debye temperatures of elemental solids be expressed
 as BST integer products?
 
 theta_D(Cu) = 343 = g^3 is already known (EXACT).

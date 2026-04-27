@@ -130,7 +130,7 @@ With Ω_Λ ≈ 0.95 (forced by F_BST = 0.09855 and no DM), this gives H₀ = 58.
 This value is **not a BST prediction** — it is an artifact of omitting the
 uncommitted reservoir term. BST does not have dark matter particles, but it
 DOES have uncommitted channel capacity (UNCs) that contributes to H²(z) as
-an effective matter-like term (see §8).
+an effective matter-like term (see Section 8).
 
 **Route B — From baryon asymmetry: H₀ = 67.9 km/s/Mpc (CURRENT)**
 
@@ -158,7 +158,7 @@ value that is too low.
 
 The ratio predictions (η, Ω_Λ, H₀) are genuine zero-parameter BST predictions.
 The absolute scales (Λ, d₀) share one unknown. Deriving d₀ from the partition
-function is an open problem (§9).
+function is an open problem (Section 9).
 
 ### 5.2 Why the Local Value is Higher: Committed Matter Streams
 
@@ -210,7 +210,7 @@ a deeper constraint on commitment density fluctuations is an open question.
 *Note: This backfit table predates the η derivation (March 13) and the committed
 matter stream picture (March 26). The 58.2 km/s/Mpc floor is an artifact of the
 no-DM assumption. The current BST prediction is H₀ ≈ 67.9 km/s/Mpc (Route B,
-§5.1). The backfit table is preserved for reference.*
+Section 5.1). The backfit table is preserved for reference.*
 
 ### 6.1 Setup
 
@@ -376,7 +376,7 @@ H(z) form by construction. This is currently an ansatz, not a derivation. To
 make this a genuine BST prediction, n_c must be derived from the partition
 function (the commitment rate law on the Shilov boundary). If n_c ≠ 3 exactly,
 BST's H(z) would deviate from ΛCDM at high z — a testable prediction. Deriving
-n_c from substrate topology is an open priority (§9, item 4).
+n_c from substrate topology is an open priority (Section 9, item 4).
 
 The effective "dark matter" in BST is epoch-dependent (different n_c at
 different times), while particle DM has n_c = 3 exactly.
@@ -394,7 +394,7 @@ different times), while particle DM has n_c = 3 exactly.
    partition function or distinguish from ΛCDM empirically.
 4. ~~**Local contact density → H₀_local prediction**~~ — **DONE** (March 26).
    H_local/H_cosmic = √(1 + δ_c), δ_c ≈ 0.17. Void vs. filament test proposed.
-5. **GW imprint** of phase transition at T_c = 0.487 MeV on H(z) — see WorkingPaper §15.6
+5. **GW imprint** of phase transition at T_c = 0.487 MeV on H(z) — see WorkingPaper Section 15.6
 6. **Run modified BBN code** (PRIMAT/AlterBBN) with Δg_*(T) = 7 × Θ(T - T_c) to
    confirm the ⁷Li analytical estimate. Concrete computation task for Elie.
 7. **Neutrino mass from contact graph**: ν is a propagating channel excitation;

@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-Toy 1020 — Hodge §5.10 General Variety Extension
+Toy 1020 — Hodge Section 5.10 General Variety Extension
 ==================================================
 Elie (compute) — Standing order: Millennium proof improvement (Hodge ~95%)
 
 THE GAP: BST proves Hodge for 7 special families (Q^5, CI, abelian, K3,
-Shimura, toric, flag). §5.10 extends to general smooth projective varieties.
-Current confidence on §5.10: ~75%. This toy attacks the gap.
+Shimura, toric, flag). Section 5.10 extends to general smooth projective varieties.
+Current confidence on Section 5.10: ~75%. This toy attacks the gap.
 
 THREE EXTENSION ROUTES:
 1. Period domain restriction: Every smooth projective X has a period map
@@ -237,7 +237,7 @@ def test_cm_density_extension():
     print(f"    Abelian: {abelian_conf}% (Deligne)")
     print(f"    Shimura: {shimura_conf}% (André)")
     print(f"    KS-applicable: {ks_applicable_conf}% (when h^{{2,0}} > 0)")
-    print(f"    General 4-folds: {general_conf}% (§5.10 gap)")
+    print(f"    General 4-folds: {general_conf}% (Section 5.10 gap)")
 
     passed = abelian_conf == 100 and shimura_conf == 100
     print(f"  [{'PASS' if passed else 'FAIL'}] T4: CM density argument complete for abelian + Shimura")
@@ -317,12 +317,12 @@ def test_motivic_galois():
 # ================================================================
 def test_subcase_matrix():
     """
-    Break §5.10 into sub-cases and assess each.
+    Break Section 5.10 into sub-cases and assess each.
     The goal: identify which sub-cases are still open and how
     the three routes (period domain, CM density, motivic Galois)
     apply to each.
     """
-    print("\n--- T6: §5.10 Sub-Case Confidence Matrix ---")
+    print("\n--- T6: Section 5.10 Sub-Case Confidence Matrix ---")
 
     # Sub-cases of general smooth projective varieties
     subcases = [
@@ -437,7 +437,7 @@ def test_lefschetz_reduction():
 
 
 # ================================================================
-# Test 8: Honest Assessment — What §5.10 Needs
+# Test 8: Honest Assessment — What Section 5.10 Needs
 # ================================================================
 def test_honest_assessment():
     """
@@ -471,7 +471,7 @@ def test_honest_assessment():
     for name, scope in proved:
         print(f"    ✓ {name}: {scope}")
 
-    print(f"\n  ROUTES to §5.10 closure:")
+    print(f"\n  ROUTES to Section 5.10 closure:")
     for name, mechanism, conf, scope in routes:
         print(f"    • {name} ({conf})")
         print(f"      Mechanism: {mechanism}")
@@ -534,7 +534,7 @@ def test_honest_assessment():
 # ================================================================
 def main():
     print("=" * 70)
-    print("Toy 1020 — Hodge §5.10 General Variety Extension")
+    print("Toy 1020 — Hodge Section 5.10 General Variety Extension")
     print("=" * 70)
 
     results = {}
@@ -567,7 +567,7 @@ def main():
         print(f"  [{status}] {key}: {name}")
 
     # Headline
-    print(f"\nHEADLINE: Hodge §5.10 — Five Independent Routes to General Variety Extension")
+    print(f"\nHEADLINE: Hodge Section 5.10 — Five Independent Routes to General Variety Extension")
     print(f"  Period domain: D_IV^5 ↪ D_IV^n for all n ≥ 5")
     print(f"  CM density: André's theorem extends via Deligne chain")
     print(f"  Motivic Galois: G_mot = MT = SO(5,2) constrains to algebraic")

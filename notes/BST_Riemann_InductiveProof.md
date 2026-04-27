@@ -24,7 +24,7 @@ The spectral transport theorem (B[k][j] = k−j+1 for the totally geodesic embed
 
 ### 1.1 Definition
 
-The spectral transport theorem (BST_Q3_Inside_Q5.md §6) gives branching coefficients B[k][j] = k − j + 1 for Q⁵ → Q³. Define the **transport kernel**:
+The spectral transport theorem (BST_Q3_Inside_Q5.md Section 6) gives branching coefficients B[k][j] = k − j + 1 for Q⁵ → Q³. Define the **transport kernel**:
 
 $$T_j(t) = \sum_{k \geq j} (k-j+1)\, e^{-k(k+5)t}$$
 
@@ -239,7 +239,7 @@ This note provides the **inductive structure** that was missing from the earlier
 - **BST_SelfDuality_Riemann_Codes.md**: Path B (code self-duality). The transport provides Path A's inductive version.
 - **BST_ZerosCannotLeave.md**: Code distance → no collisions. Reinforces Gap 1.
 - **BST_SeeleyDeWitt_ChernConnection.md**: Heat kernel bridge — the $a_k$ coefficients. The transport factorization gives a new representation of the heat trace.
-- **BST_Q3_Inside_Q5.md**: The embedding theorem. §6 (Spectral Transport Theorem) is the foundation of this note.
+- **BST_Q3_Inside_Q5.md**: The embedding theorem. Section 6 (Spectral Transport Theorem) is the foundation of this note.
 - **BST_CFunction_RatioTheorem.md**: The c-function ratio theorem. Closes Gap 1, partially addresses Gap 2.
 
 ---

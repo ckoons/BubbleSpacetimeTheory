@@ -35,7 +35,7 @@ BST proves that $n_C = 5$ is the unique value for which:
 - The fine structure constant is maximized among odd $n_C$ with asymptotic freedom
 - The Casimir-root coincidence holds: $(n_C+1)/(2n_C) = (n_C-2)/n_C$ uniquely at $n_C = 5$
 - The $E_8$ root count works: $|W(D_{n_C})|/|W(B_2)| = 240$ uniquely at $n_C = 5$
-- Plus nine additional conditions (see BST_NumberTheory_Integers.md §5)
+- Plus nine additional conditions (see BST_NumberTheory_Integers.md Section 5)
 
 Each condition independently eliminates all other values. Together they overconstrain the answer.
 

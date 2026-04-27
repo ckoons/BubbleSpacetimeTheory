@@ -10,7 +10,7 @@ If the BST integers (3, 7, 12, 8) are structural, they should emerge
 early and stabilize. If coincidental, they appear only at the current
 582-node snapshot.
 
-Follows Lyra's spectral interpretation (§7): re-run at every 25-theorem
+Follows Lyra's spectral interpretation (Section 7): re-run at every 25-theorem
 increment, tracking all metrics. Growth curve test.
 
 Input: play/ac_graph_data.json (582 nodes, 1150 edges, 37 domains)

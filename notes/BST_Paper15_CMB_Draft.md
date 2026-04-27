@@ -29,7 +29,7 @@ The angular power spectrum of the cosmic microwave background (CMB) is the most 
 
 ---
 
-## §1. Introduction
+## Section 1. Introduction
 
 The cosmic microwave background radiation encodes the initial conditions of the observable universe. Since its discovery by Penzias and Wilson (1965) and the precision mapping by COBE, WMAP, and Planck, the CMB angular power spectrum has served as the proving ground of modern cosmology. Planck's final 2018 release provides measurements at ~2500 independent multipoles with sub-percent accuracy — the most constrained dataset in physics.
 
@@ -47,7 +47,7 @@ This paper presents the result: BST matches Planck through $\ell \sim 2500$ with
 
 ---
 
-## §2. BST Cosmological Parameters — All Derived, Zero Fitted
+## Section 2. BST Cosmological Parameters — All Derived, Zero Fitted
 
 The BST parameter set for the CMB is derived from $D_{IV}^5$ and its five structural integers. The derivations are presented in Papers #4, #9, #14 and the supporting numerical verifications (Toys 667–678). We summarize the results here.
 
@@ -78,15 +78,15 @@ The cosmic fractions $\Omega_\Lambda = 13/19$ and $\Omega_m = 6/19$ are derived 
 
 The dark matter–baryon ratio $\Omega_{DM}/\Omega_b = 16/3$ follows from the Weyl group decomposition of $D_{IV}^5$: the symmetry group $\Gamma = S_5 \times (\mathbb{Z}_2)^4$ has order $|\Gamma| = 120 \times 16 = 1920$, giving $|\Gamma|/(|S_5| \times N_c) = 1920/(120 \times 3) = 16/3$ (T205, T297).
 
-The spectral index $n_s = 1 - 5/137$ is derived from the spectral tilt of the Bergman kernel on $D_{IV}^5$ (Paper #9, WorkingPaper §8.3). The effective number of neutrinos $N_{\text{eff}} = 3.044$ follows directly from $N_c = 3$ neutrino flavors with QED thermal corrections.
+The spectral index $n_s = 1 - 5/137$ is derived from the spectral tilt of the Bergman kernel on $D_{IV}^5$ (Paper #9, WorkingPaper Section 8.3). The effective number of neutrinos $N_{\text{eff}} = 3.044$ follows directly from $N_c = 3$ neutrino flavors with QED thermal corrections.
 
 The Hubble constant $H_0 = 67.29$ km/s/Mpc is derived from $\Omega_m = 6/19$ combined with the observed $\Omega_m h^2 = 0.1430$ (Toy 673). This value sits $0.2\sigma$ from Planck and $5.5\sigma$ from the SH0ES local measurement. BST sides unambiguously with the CMB.
 
-The only external observational input is the CMB monopole temperature $T_{\text{CMB}} = 2.7255$ K (FIRAS measurement). Whether BST can derive this quantity from the phase transition temperature $T_c$ via entropy conservation is an open question (§7).
+The only external observational input is the CMB monopole temperature $T_{\text{CMB}} = 2.7255$ K (FIRAS measurement). Whether BST can derive this quantity from the phase transition temperature $T_c$ via entropy conservation is an open question (Section 7).
 
 ---
 
-## §3. Recombination from $\alpha = 1/137$
+## Section 3. Recombination from $\alpha = 1/137$
 
 The recombination epoch — when the primordial plasma became neutral and photons last scattered — is determined by atomic physics. In BST, this physics is fixed by the fine structure constant $\alpha = 1/N_{\max} = 1/137$ and the baryon density $\Omega_b = 18/361$.
 
@@ -128,7 +128,7 @@ The visibility function $g(z) = -d\tau_T/dz \cdot e^{-\tau_T}$ — the probabili
 
 ---
 
-## §4. Acoustic Peak Predictions
+## Section 4. Acoustic Peak Predictions
 
 ### 4.1 The Sound Horizon
 
@@ -172,13 +172,13 @@ The third peak height encodes $\Omega_c h^2$. BST predicts $\Omega_c h^2 = 0.120
 
 ---
 
-## §5. The Full Power Spectrum — The Central Result
+## Section 5. The Full Power Spectrum — The Central Result
 
 This section presents the paper's central exhibit: the full CAMB Boltzmann code computation with BST parameters compared to Planck 2018 data.
 
 ### 5.1 Method
 
-We run the Code for Anisotropies in the Microwave Background (CAMB; Lewis et al. 2000) with the BST parameter set from §2. For the CAMB run, we use $A_s = 2.1 \times 10^{-9}$ and $T_{\text{CMB}} = 2.7255$ K (both now BST-derivable: $A_s = (3/4)\alpha^4 = 2.127 \times 10^{-9}$ per T705, $T_0 = 2.749$ K per Toy 681). The only non-derived parameter is $\tau = 0.054$ (Planck value — astrophysical, not fundamental). All other inputs are BST-derived with zero adjustable parameters.
+We run the Code for Anisotropies in the Microwave Background (CAMB; Lewis et al. 2000) with the BST parameter set from Section 2. For the CAMB run, we use $A_s = 2.1 \times 10^{-9}$ and $T_{\text{CMB}} = 2.7255$ K (both now BST-derivable: $A_s = (3/4)\alpha^4 = 2.127 \times 10^{-9}$ per T705, $T_0 = 2.749$ K per Toy 681). The only non-derived parameter is $\tau = 0.054$ (Planck value — astrophysical, not fundamental). All other inputs are BST-derived with zero adjustable parameters.
 
 We compute $C_\ell^{TT}$ (temperature) from $\ell = 2$ to $\ell = 2500$ and compare to the Planck 2018 best-fit $\Lambda$CDM spectrum.
 
@@ -227,11 +227,11 @@ depends on $\sigma_T = 8\pi\alpha^2/(3m_e^2)$ and the photon mean free path, bot
 
 ### 5.6 Gravitational Lensing
 
-Gravitational lensing of CMB photons by intervening large-scale structure smooths the acoustic peaks at high $\ell$. The lensing power spectrum depends on the matter distribution, which in BST is set by $\Omega_m = 6/19$ and $\sigma_8 = 0.8112$. BST's interpretation of dark matter as uncommitted geometric bandwidth (not particles) may produce subtly different lensing at small scales — a key discriminant discussed in §6.
+Gravitational lensing of CMB photons by intervening large-scale structure smooths the acoustic peaks at high $\ell$. The lensing power spectrum depends on the matter distribution, which in BST is set by $\Omega_m = 6/19$ and $\sigma_8 = 0.8112$. BST's interpretation of dark matter as uncommitted geometric bandwidth (not particles) may produce subtly different lensing at small scales — a key discriminant discussed in Section 6.
 
 ---
 
-## §6. What BST Predicts Differently
+## Section 6. What BST Predicts Differently
 
 While the BST power spectrum matches $\Lambda$CDM to $0.276\%$ for current data, the two frameworks make distinct predictions testable by next-generation experiments.
 
@@ -284,7 +284,7 @@ Milgrom's empirical value: $1.20 \pm 0.005 \times 10^{-10}$ m/s² ($0.4\%$ match
 
 The CMB exhibits five well-documented large-angle anomalies at $\ell \leq 30$ — hemispherical asymmetry (Eriksen et al. 2004), the cold spot (Vielva et al. 2004), quadrupole suppression, octupole-quadrupole alignment, and parity asymmetry (reviewed in Schwarz et al. 2016) — that $\Lambda$CDM treats as statistical flukes ($\sim 2$–$3\sigma$ each). BST predicts all five as structural consequences of substrate topology from prior interstasis cycles.
 
-**The two-layer model.** The BST CMB prediction has two layers. Layer 1 (acoustic, §5) is the standard Boltzmann-evolved power spectrum from BST-derived parameters — this matches Planck at $\chi^2/N = 0.01$. Layer 2 (substrate scars) adds the imprint of topological features that survive interstasis annealing. The scar contribution is small: $\sim 2$–$5 \, \mu\text{K}^2$ at $\ell = 2$–$30$, representing $0.3$–$0.5\%$ of the acoustic power. The scars do not touch the acoustic fit ($\Delta\chi^2/N = 0.000005$) because they are completely buried by cosmic variance (SNR $\sim 0.01$ per multipole).
+**The two-layer model.** The BST CMB prediction has two layers. Layer 1 (acoustic, Section 5) is the standard Boltzmann-evolved power spectrum from BST-derived parameters — this matches Planck at $\chi^2/N = 0.01$. Layer 2 (substrate scars) adds the imprint of topological features that survive interstasis annealing. The scar contribution is small: $\sim 2$–$5 \, \mu\text{K}^2$ at $\ell = 2$–$30$, representing $0.3$–$0.5\%$ of the acoustic power. The scars do not touch the acoustic fit ($\Delta\chi^2/N = 0.000005$) because they are completely buried by cosmic variance (SNR $\sim 0.01$ per multipole).
 
 But the scars are not random. They produce coherent, correlated anomalies:
 
@@ -306,11 +306,11 @@ But the scars are not random. They produce coherent, correlated anomalies:
 
 BST scores 5/5. $\Lambda$CDM scores 0/5. The probability of matching all five by chance is $\sim 0.4\%$.
 
-**Honest framing.** Layer 2 is speculative relative to Layer 1. The acoustic spectrum (§5) is derived from geometry with zero free parameters. The scar model involves interstasis physics — cycle count, annealing rate, coupling strength — that is structurally motivated but not yet derived with the same rigor as the acoustic parameters. We present it as a testable hypothesis: if the anomalies are substrate scars, they should exhibit the specific correlations and angular scales predicted by $D_{IV}^5$ topology. Future full-sky polarization measurements (LiteBIRD, CMB-S4) can test the predicted correlation structure at $\ell < 30$.
+**Honest framing.** Layer 2 is speculative relative to Layer 1. The acoustic spectrum (Section 5) is derived from geometry with zero free parameters. The scar model involves interstasis physics — cycle count, annealing rate, coupling strength — that is structurally motivated but not yet derived with the same rigor as the acoustic parameters. We present it as a testable hypothesis: if the anomalies are substrate scars, they should exhibit the specific correlations and angular scales predicted by $D_{IV}^5$ topology. Future full-sky polarization measurements (LiteBIRD, CMB-S4) can test the predicted correlation structure at $\ell < 30$.
 
 ---
 
-## §7. Open Questions: $T_{\text{CMB}}$ and $A_s$
+## Section 7. Open Questions: $T_{\text{CMB}}$ and $A_s$
 
 Intellectual honesty requires identifying what BST does not yet derive.
 
@@ -322,7 +322,7 @@ The CMB monopole temperature is currently an observational input (FIRAS measurem
 
 **Update (April 2, Toy 681):** Route A succeeds. Using BST's baryon asymmetry $\eta = 2\alpha^4/(3\pi)$, baryon fraction $\Omega_b = 18/361$, and $H_0 = 67.29$ km/s/Mpc, the standard relation $\Omega_b h^2 = 3.654 \times 10^{-3} \times \eta_{10} \times (T_0/2.725)^3$ gives $T_0 = 2.749$ K (**0.86% from FIRAS**). All inputs are BST-derived. External inputs for Paper #15 drop from 4 to 3. $T_{\text{CMB}}$ is no longer a free parameter — it follows from the cosmological chain.
 
-With $T_{\text{CMB}}$ (§7.1) and $A_s$ (§7.2) both now derived, BST predicts the CMB with zero fitted cosmological parameters — only $\tau$ (astrophysical) and recombination constants remain external.
+With $T_{\text{CMB}}$ (Section 7.1) and $A_s$ (Section 7.2) both now derived, BST predicts the CMB with zero fitted cosmological parameters — only $\tau$ (astrophysical) and recombination constants remain external.
 
 ### 7.2 The Primordial Amplitude $A_s$ — DERIVED (T705)
 
@@ -340,7 +340,7 @@ The CMB power spectrum is now a prediction of $D_{IV}^5$ with zero fitted cosmol
 
 ---
 
-## §8. Falsification Criteria
+## Section 8. Falsification Criteria
 
 BST makes specific, zero-parameter predictions for the CMB. Each is independently falsifiable. There are no parameters to adjust.
 
@@ -361,11 +361,11 @@ BST makes specific, zero-parameter predictions for the CMB. Each is independentl
 
 **The crucial asymmetry:** BST has no parameters to retune. If any single prediction fails beyond its stated precision, the theory is falsified. This is the sharpest test any fundamental theory has faced for cosmological observables.
 
-The CAMB comparison (§5) demonstrates that none of these criteria fail for current Planck data. The next frontier is CMB-S4 (projected first results $\sim 2030$), which will improve precision by factors of $2$–$10$ on $n_s$, $\Omega_b h^2$, $N_{\text{eff}}$, and $r$.
+The CAMB comparison (Section 5) demonstrates that none of these criteria fail for current Planck data. The next frontier is CMB-S4 (projected first results $\sim 2030$), which will improve precision by factors of $2$–$10$ on $n_s$, $\Omega_b h^2$, $N_{\text{eff}}$, and $r$.
 
 ---
 
-## §9. Conclusion
+## Section 9. Conclusion
 
 The angular power spectrum of the cosmic microwave background — 2500 independent multipoles measured to sub-percent accuracy — is a prediction of BST, not a fit. Five of six $\Lambda$CDM parameters are derived from the geometry of $D_{IV}^5$. Running the CAMB Boltzmann code with these derived inputs yields a spectrum statistically identical to Planck: RMS residual $0.276\%$, $\chi^2/N = 0.01$, all peak positions matching to within one multipole.
 

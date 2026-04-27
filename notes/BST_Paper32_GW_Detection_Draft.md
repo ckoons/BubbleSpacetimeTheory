@@ -24,7 +24,7 @@ LIGO is a single microphone. We propose a phased antenna array. Each element is 
 
 ---
 
-## §1. Introduction: The Self-Referential Loop
+## Section 1. Introduction: The Self-Referential Loop
 
 Bubble Spacetime Theory derives Newton's constant from the bounded symmetric domain $D_{IV}^5 = SO_0(5,2)/[SO(5) \times SO(2)]$:
 
@@ -40,9 +40,9 @@ This paper describes the detector: a 2D phased array of Casimir cavities operati
 
 ---
 
-## §2. Single-Cavity GW Response
+## Section 2. Single-Cavity GW Response
 
-### §2.1 Strain Coupling
+### Section 2.1 Strain Coupling
 
 A gravitational wave with strain amplitude $h$ changes proper distances by $\delta L/L = h/2$. For a Casimir cavity of gap $d_0$:
 
@@ -58,7 +58,7 @@ $$\boxed{\Delta\left(\frac{\delta F}{F}\right) = 4h}$$
 
 This is the fundamental coupling: each cavity pair is a $d^{-4}$ strain sensor.
 
-### §2.2 Force and Thermal Noise
+### Section 2.2 Force and Thermal Noise
 
 At $d_0 = 74.4$ nm (Si), the Casimir pressure is:
 
@@ -78,9 +78,9 @@ Far above any astrophysical source — but the starting point for array scaling.
 
 ---
 
-## §3. The 2D Phased Array
+## Section 3. The 2D Phased Array
 
-### §3.1 Array Geometry
+### Section 3.1 Array Geometry
 
 A 10 cm × 10 cm Si wafer with cavities at pitch $p = g \times d_0 = 7 \times 74.4\;\text{nm} = 0.521\;\mu$m holds:
 
@@ -92,7 +92,7 @@ A 10 cm × 10 cm Si wafer with cavities at pitch $p = g \times d_0 = 7 \times 74
 
 The pitch factor $g = 7$ (Bergman genus) sets the metamaterial period $\Lambda = g \times d_0 = 521$ nm, which is also the period for phonon bandgap engineering (Toy 934).
 
-### §3.2 Not the Long-Wavelength Limit
+### Section 3.2 Not the Long-Wavelength Limit
 
 At the detector frequency $f_1 = 56.67$ GHz, the GW wavelength is:
 
@@ -102,7 +102,7 @@ Across a 10 cm wafer: $L/\lambda_{\text{GW}} \approx 18.9$ wavelengths.
 
 This is **not** the long-wavelength limit. The GW creates a **spatial pattern** across the cavity array — a sinusoidal modulation of strain that the array can resolve. This is what makes it a phased array rather than a scalar detector.
 
-### §3.3 Angular Resolution
+### Section 3.3 Angular Resolution
 
 The angular resolution of an aperture $D$ at wavelength $\lambda$ is $\theta_{\text{res}} \approx \lambda/D$:
 
@@ -112,11 +112,11 @@ A single 10 cm wafer gives $\sim 3°$ angular resolution on the sky. Three ortho
 
 ---
 
-## §4. The Crystal Lattice as Signal Bus
+## Section 4. The Crystal Lattice as Signal Bus
 
 Casey's key insight: the crystal lattice is the signal bus. No wires, no optical fibers — phonons carry the strain information laterally.
 
-### §4.1 Phonon Propagation at 4 K
+### Section 4.1 Phonon Propagation at 4 K
 
 | Property | Si value |
 |----------|----------|
@@ -127,7 +127,7 @@ Casey's key insight: the crystal lattice is the signal bus. No wires, no optical
 
 At 4 K, phonon transport in high-purity Si is **ballistic** over millimeter scales — the phonon Casimir regime (ironic name). Phonons excited by GW-induced Casimir force modulation propagate laterally, carrying phase information to readout points.
 
-### §4.2 Sub-Array Architecture
+### Section 4.2 Sub-Array Architecture
 
 Because $l_{\text{mfp}} \approx 1$ mm, the natural architecture is a grid of 1 mm × 1 mm **sub-arrays**, each containing $\sim 3.7 \times 10^6$ cavities. Within each sub-array, phonon routing is coherent. Between sub-arrays, electronic readout feeds a digital beamformer.
 
@@ -138,7 +138,7 @@ Because $l_{\text{mfp}} \approx 1$ mm, the natural architecture is a grid of 1 m
 | Wafer | 10 cm | $10^4$ sub-arrays | Electronic + digital |
 | Stack | Multiple wafers | $10^2$–$10^3$ wafers | Digital beamforming |
 
-### §4.3 Signal Chain
+### Section 4.3 Signal Chain
 
 $$\text{GW strain} \to \text{Casimir force modulation} \to \text{cavity phonon excitation}$$
 $$\to \text{lateral phonon propagation} \to \text{edge readout} \to \text{pattern reconstruction}$$
@@ -147,7 +147,7 @@ The spatial resolution of the phonon bus is $\Delta x = v_L/\Delta f_{\text{sign
 
 ---
 
-## §5. Sensitivity Ladder
+## Section 5. Sensitivity Ladder
 
 The array scaling proceeds in well-defined steps:
 
@@ -167,9 +167,9 @@ Each step is a standard, well-understood noise reduction technique:
 
 ---
 
-## §6. The GHz Frequency Band: Unexplored Territory
+## Section 6. The GHz Frequency Band: Unexplored Territory
 
-### §6.1 The Detection Landscape
+### Section 6.1 The Detection Landscape
 
 | Band | Frequency | Detector | Sources |
 |------|-----------|----------|---------|
@@ -180,9 +180,9 @@ Each step is a standard, well-understood noise reduction technique:
 | MHz–GHz | $10^6$–$10^9$ Hz | (proposed) | Cosmological |
 | **GHz** | **56.7 GHz** | **This proposal** | **Primordial, phase transitions** |
 
-The GHz band is a **gap** in the detection landscape. No operating detector covers it. Several proposals exist (§7) but none combine imaging, parameter-free tuning, and scalability.
+The GHz band is a **gap** in the detection landscape. No operating detector covers it. Several proposals exist (Section 7) but none combine imaging, parameter-free tuning, and scalability.
 
-### §6.2 Target Sources
+### Section 6.2 Target Sources
 
 **1. GUT-scale phase transitions.** A phase transition at $T \sim 10^{10}$ GeV produces gravitational waves at frequencies $f \sim$ GHz today. BST derives the relevant energy scales from the same integers — the detector frequency is naturally matched.
 
@@ -192,7 +192,7 @@ The GHz band is a **gap** in the detection landscape. No operating detector cove
 
 **4. BST-specific resonance.** If the GW spectrum has structure at BST-derived frequencies — i.e., at $f_0 = v_s/(2 \times 137 \times a)$ — this detector is uniquely positioned to find it. The integers that determine $G$ would also determine where to look for its consequences.
 
-### §6.3 Honest Sensitivity Assessment
+### Section 6.3 Honest Sensitivity Assessment
 
 Standard slow-roll inflation predicts $h \sim 10^{-30}$ at GHz frequencies — far below any foreseeable detector. **We do not claim otherwise.**
 
@@ -204,7 +204,7 @@ However:
 
 ---
 
-## §7. Comparison with Existing Proposals
+## Section 7. Comparison with Existing Proposals
 
 Four approaches to GHz GW detection have been proposed:
 
@@ -230,7 +230,7 @@ Our projected sensitivity ($\sim 10^{-16}$ single wafer with $Q = 137$) is weake
 
 ---
 
-## §8. Connection to the Substrate Engineering Portfolio
+## Section 8. Connection to the Substrate Engineering Portfolio
 
 This detector is the 24th device in BST's substrate engineering program. It synthesizes concepts from six prior toys:
 
@@ -251,9 +251,9 @@ The **SC-enhanced variant** uses BiNb superlattice (Toy 936) as substrate:
 
 ---
 
-## §9. Predictions and Falsification
+## Section 9. Predictions and Falsification
 
-### §9.1 Testable Predictions
+### Section 9.1 Testable Predictions
 
 **P1 (Strain coupling).** A single Casimir cavity responds to applied strain with $\delta F/F = 4h$ for a perpendicular differential pair at $d_0 = 74.4$ nm. Test: apply known strain to MEMS Casimir device, measure force response. *This tests the coupling, not GW detection.*
 
@@ -267,7 +267,7 @@ The **SC-enhanced variant** uses BiNb superlattice (Toy 936) as substrate:
 
 **P6 (SC enhancement).** A BiNb superlattice variant shows higher sensitivity below $T_c = 9.25$ K due to Meissner-enhanced Casimir force. Test: compare strain sensitivity above and below $T_c$.
 
-### §9.2 Falsification Conditions
+### Section 9.2 Falsification Conditions
 
 **F1.** If Casimir force does NOT respond to strain as $\delta F/F = 4h$ → cavity-GW coupling model is incorrect.
 
@@ -281,7 +281,7 @@ The **SC-enhanced variant** uses BiNb superlattice (Toy 936) as substrate:
 
 ---
 
-## §10. Experimental Roadmap
+## Section 10. Experimental Roadmap
 
 | Stage | Milestone | Key Measurement | Equipment |
 |-------|-----------|----------------|-----------|
@@ -296,7 +296,7 @@ Stages 1–4 test the **detector mechanism** without requiring gravitational wav
 
 ---
 
-## §11. What This Is Not
+## Section 11. What This Is Not
 
 1. **Not a replacement for LIGO.** LIGO operates at Hz–kHz. This operates at GHz. Different frequency, different sources, different physics. Complementary, not competitive.
 
@@ -308,15 +308,15 @@ Stages 1–4 test the **detector mechanism** without requiring gravitational wav
 
 ---
 
-## §12. Discussion
+## Section 12. Discussion
 
-### §12.1 The Self-Referential Loop
+### Section 12.1 The Self-Referential Loop
 
 $G$ is derived from $\{3, 5, 7, 6, 137\}$ (T867). The Casimir gap is $d_0 = 137 \times a$ (T872). The detector frequency is $f = v_s/(2d_0)$. The Casimir force prefactor involves $240 = \text{rank} \times n_C! = 2 \times 120$. The array pitch is $g \times d_0$. The quality factor is $Q = N_{\max}$.
 
 Every parameter in the detector derives from the same five integers that determine $G$. The detector was not designed to this specification — the integers dictated it.
 
-### §12.2 Sensitivity Limitations
+### Section 12.2 Sensitivity Limitations
 
 The fundamental limitation is thermal noise. At 4 K with $Q = 137$, single-cavity sensitivity is $\sim 10^{-9}$. Array averaging and resonant enhancement bring this to $\sim 10^{-16}$ per wafer. Reaching astrophysically interesting levels ($\sim 10^{-25}$) would require either:
 
@@ -326,13 +326,13 @@ The fundamental limitation is thermal noise. At 4 K with $Q = 137$, single-cavit
 
 The honest path is Q-factor improvement through superconducting substrates, where the BiNb superlattice (Paper #31) provides a natural candidate.
 
-### §12.3 What Would Success Look Like
+### Section 12.3 What Would Success Look Like
 
 The **minimum success** is demonstrating P1–P4: that Casimir cavities respond to strain as predicted, that the array averages correctly, that phonons route the signal, and that the 2D pattern gives directional information. This validates BST-integer-tuned sensing as a platform, regardless of GW detection.
 
 The **maximum success** would be detection of a GHz GW background from exotic sources — constraining or discovering new physics in a completely unexplored frequency band.
 
-### §12.4 AC Classification
+### Section 12.4 AC Classification
 
 (C=3, D=1): three counting steps (optimal gap from $N_{\max}$, array parameters from $g$, frequency from $v_s/(2d_0)$), one definition (strain sensitivity from thermal noise model). Depth is set by the thermal noise calculation, which introduces the definition of signal-to-noise ratio.
 

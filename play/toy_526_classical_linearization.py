@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Toy 526 — Classical Physics Linearization (§73-§78)
+Toy 526 — Classical Physics Linearization (Section 73-Section 78)
 ====================================================
 
 Linearize ALL 40 classical physics theorems (T210-T249) on the BST spectral lattice.
@@ -10,8 +10,8 @@ Standing order: every theorem is a dot product ⟨w|d⟩ on a* ≅ R².
 - Depth 1 = single inner product ⟨w|d⟩
 - Depth 2 = composed inner products (NONE survive Casey strict)
 
-Six domains: Classical Mechanics (§73), Optics (§74), Electromagnetism (§75),
-Thermodynamics (§76), Fluid Mechanics (§77), Relativity (§78).
+Six domains: Classical Mechanics (Section 73), Optics (Section 74), Electromagnetism (Section 75),
+Thermodynamics (Section 76), Fluid Mechanics (Section 77), Relativity (Section 78).
 
 BST constants: N_c=3, n_C=5, g=7, C_2=6, N_max=137, rank=2.
 """
@@ -45,8 +45,8 @@ def test(name, condition, detail=""):
         failed += 1
         print(f"  ✗ {name} — {detail}")
 
-# ── Test 1: Classical Mechanics depth audit (§73, T210-T217) ──
-print("\n─── Test 1: Classical Mechanics (§73) ───")
+# ── Test 1: Classical Mechanics depth audit (Section 73, T210-T217) ──
+print("\n─── Test 1: Classical Mechanics (Section 73) ───")
 mechanics = {
     "T210 Newton F=ma":       {"depth": 0, "type": "definition", "spectral": "ground mode (p,q)=(0,0)"},
     "T211 Newton 3rd law":    {"depth": 0, "type": "conservation", "spectral": "symmetry of K(z,w)=K(w,z)"},
@@ -66,8 +66,8 @@ test("Classical mechanics: 5 at depth 0, 3 at depth 1, 0 at depth 2",
      d0 == 5 and d1 == 3 and d2 == 0,
      f"Got D0={d0}, D1={d1}, D2={d2}")
 
-# ── Test 2: Optics depth audit (§74, T218-T224) ──
-print("\n─── Test 2: Optics, Waves, Acoustics (§74) ───")
+# ── Test 2: Optics depth audit (Section 74, T218-T224) ──
+print("\n─── Test 2: Optics, Waves, Acoustics (Section 74) ───")
 optics = {
     "T218 Snell's law":       {"depth": 0, "type": "boundary", "spectral": "phase matching = boundary eigenvalue"},
     "T219 Reflection":        {"depth": 0, "type": "symmetry", "spectral": "K(z,w) mirror symmetry"},
@@ -85,8 +85,8 @@ test("Optics: 6 at depth 0, 1 at depth 1",
      d0 == 6 and d1 == 1,
      f"Got D0={d0}, D1={d1}")
 
-# ── Test 3: Electromagnetism depth audit (§75, T225-T231) ──
-print("\n─── Test 3: Electromagnetism (§75) ───")
+# ── Test 3: Electromagnetism depth audit (Section 75, T225-T231) ──
+print("\n─── Test 3: Electromagnetism (Section 75) ───")
 em = {
     "T225 Coulomb":          {"depth": 1, "type": "Gauss+sphere", "spectral": "⟨charge|1/r²⟩ = surface integral"},
     "T226 Ohm":              {"depth": 0, "type": "definition", "spectral": "linear response = ground mode"},
@@ -104,8 +104,8 @@ test("Electromagnetism: 6 at depth 0, 1 at depth 1",
      d0 == 6 and d1 == 1,
      f"Got D0={d0}, D1={d1}")
 
-# ── Test 4: Thermodynamics depth audit (§76, T232-T238) ──
-print("\n─── Test 4: Thermodynamics (§76) ───")
+# ── Test 4: Thermodynamics depth audit (Section 76, T232-T238) ──
+print("\n─── Test 4: Thermodynamics (Section 76) ───")
 thermo = {
     "T232 Ideal gas":        {"depth": 0, "type": "counting", "spectral": "⟨N/V|kT⟩ = pressure mode"},
     "T233 Clausius":         {"depth": 0, "type": "definition", "spectral": "entropy = state function (topological)"},
@@ -125,8 +125,8 @@ test("Thermodynamics: 5 at depth 0, 2 at depth 1; fermions/bosons = ±1",
      d0 == 5 and d1 == 2,
      f"Got D0={d0}, D1={d1}")
 
-# ── Test 5: Fluid Mechanics depth audit (§77, T239-T243) ──
-print("\n─── Test 5: Fluid Mechanics (§77) ───")
+# ── Test 5: Fluid Mechanics depth audit (Section 77, T239-T243) ──
+print("\n─── Test 5: Fluid Mechanics (Section 77) ───")
 fluids = {
     "T239 Bernoulli":        {"depth": 0, "type": "conservation", "spectral": "energy density constant along streamline"},
     "T240 Continuity":       {"depth": 0, "type": "conservation", "spectral": "mass current = constant"},
@@ -142,8 +142,8 @@ test("Fluid mechanics: 3 at depth 0, 2 at depth 1",
      d0 == 3 and d1 == 2,
      f"Got D0={d0}, D1={d1}")
 
-# ── Test 6: Relativity depth audit (§78, T244-T249) ──
-print("\n─── Test 6: Relativity (§78) ───")
+# ── Test 6: Relativity depth audit (Section 78, T244-T249) ──
+print("\n─── Test 6: Relativity (Section 78) ───")
 relativity = {
     "T244 Lorentz":           {"depth": 0, "type": "symmetry", "spectral": "preserving Minkowski quadratic form on a*"},
     "T245 E=mc²":             {"depth": 0, "type": "vector norm", "spectral": "4-momentum norm = mass eigenvalue"},
@@ -362,7 +362,7 @@ test("Casey strict: all 10 depth-1 theorems have bounded integrals → depth 0",
 # ── Test 14: Comparison with quantum/BST theorems ──
 print("\n─── Test 14: Classical vs Quantum Depth Distribution ───")
 
-# Classical (§73-78): 75% D0, 25% D1, 0% D2
+# Classical (Section 73-78): 75% D0, 25% D1, 0% D2
 # SM (Toy 519): 54% D0, 46% D1, 0% D2
 # Millennium problems: max D1 under Casey strict (Toy 522)
 

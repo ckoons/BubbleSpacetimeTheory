@@ -106,7 +106,7 @@ We need n_C² − 1 = (n_C − 1)!. Setting f(x) = x² − 1 − (x − 1)!:
 
 For x ≥ 6, (x−1)! grows super-exponentially while x² − 1 grows quadratically, so f(x) < 0 for all x ≥ 6. For x ≤ 4, (x−1)! < x² − 1 because the factorial is still in its slow-growth phase. The unique crossing is at x = 5.
 
-This is the 26th uniqueness condition for n_C = 5 (extending the list in WorkingPaper §37.5): the GUT group dimension equals the spectral channel count.
+This is the 26th uniqueness condition for n_C = 5 (extending the list in WorkingPaper Section 37.5): the GUT group dimension equals the spectral channel count.
 
 ### Part 3: Three routes are one route
 
@@ -124,7 +124,7 @@ The heat kernel confirmation (Part 1) shows that the spectral decomposition at k
 
 ### Part 4: Closing Gap #1
 
-The gap in BST_EinsteinEquations_FromCommitment.md §4.4 states: "a rigorous spectral-theoretic proof that gravitational coupling requires exactly C₂ iterations of the Bergman kernel is not yet available."
+The gap in BST_EinsteinEquations_FromCommitment.md Section 4.4 states: "a rigorous spectral-theoretic proof that gravitational coupling requires exactly C₂ iterations of the Bergman kernel is not yet available."
 
 This theorem closes the gap by establishing:
 
@@ -149,7 +149,7 @@ The exponent 24 is not fitted. It is the unique integer that is simultaneously a
 ## Children
 
 - Closes Gap #1 of OP-1 (Gravity Derivation)
-- BST_EinsteinEquations_FromCommitment.md §4.4 gap → CLOSED
+- BST_EinsteinEquations_FromCommitment.md Section 4.4 gap → CLOSED
 - Adds 26th uniqueness condition for n_C = 5
 
 ---

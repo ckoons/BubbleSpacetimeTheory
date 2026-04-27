@@ -31,7 +31,7 @@ ATLAS and CMS both agree with the SM fit. The tension is CDF vs. everyone else.
 
 ## 2. The BST Prediction
 
-BST derives the W mass from first principles (BST_FermiScale_Derivation.md §3):
+BST derives the W mass from first principles (BST_FermiScale_Derivation.md Section 3):
 
 $$m_W = \frac{n_C \times m_p}{8\alpha}$$
 

@@ -35,10 +35,10 @@ print("TOY 186: THE SPECTRAL CASCADE — SIMPLIFICATION")
 print("=" * 72)
 
 # ═══════════════════════════════════════════════════════════════
-# §1. THE MASTER FORMULA IN ONE LINE
+# Section 1. THE MASTER FORMULA IN ONE LINE
 # ═══════════════════════════════════════════════════════════════
 
-print("\n§1. THE MASTER FORMULA IN ONE LINE")
+print("\nSection 1. THE MASTER FORMULA IN ONE LINE")
 print("-" * 50)
 
 print("""
@@ -76,10 +76,10 @@ for K in range(11):
           f" = {A} × {Fraction(K+N_c, N_c)}")
 
 # ═══════════════════════════════════════════════════════════════
-# §2. THE CHERN SIEVE: ONE OPERATION
+# Section 2. THE CHERN SIEVE: ONE OPERATION
 # ═══════════════════════════════════════════════════════════════
 
-print("\n\n§2. THE CHERN SIEVE: ONE OPERATION")
+print("\n\nSection 2. THE CHERN SIEVE: ONE OPERATION")
 print("-" * 50)
 
 print("""
@@ -109,10 +109,10 @@ for k in range(11):
     print(f"  {k:2d}  |  {d_k:5d}  |  {fwd:7d}    {bwd:7d}   | {ratio}")
 
 # ═══════════════════════════════════════════════════════════════
-# §3. THE MOD CASCADE: CHERN PRIMES AS SIEVES
+# Section 3. THE MOD CASCADE: CHERN PRIMES AS SIEVES
 # ═══════════════════════════════════════════════════════════════
 
-print("\n\n§3. THE MOD CASCADE: CHERN PRIMES AS SIEVES")
+print("\n\nSection 3. THE MOD CASCADE: CHERN PRIMES AS SIEVES")
 print("-" * 50)
 
 chern_primes = [('N_c', 3), ('n_C', 5), ('g', 7), ('c_2', 11), ('c_3', 13)]
@@ -141,10 +141,10 @@ print("""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §4. THRESHOLD ANALYSIS
+# Section 4. THRESHOLD ANALYSIS
 # ═══════════════════════════════════════════════════════════════
 
-print("\n§4. THRESHOLD ANALYSIS")
+print("\nSection 4. THRESHOLD ANALYSIS")
 print("-" * 50)
 
 print("\n  When does prime p FIRST divide S(K)?")
@@ -179,10 +179,10 @@ print("""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §5. THE PRODUCT FORM: WHY 360?
+# Section 5. THE PRODUCT FORM: WHY 360?
 # ═══════════════════════════════════════════════════════════════
 
-print("\n§5. THE PRODUCT FORM: WHY 360?")
+print("\nSection 5. THE PRODUCT FORM: WHY 360?")
 print("-" * 50)
 
 print("""
@@ -209,10 +209,10 @@ for K in range(1, 15):
 print("  All verified. 360 divides (K+1)(K+2)(K+3)²(K+4)(K+5) for all K ≥ 0.")
 
 # ═══════════════════════════════════════════════════════════════
-# §6. THE COLOR FINGERPRINT: THE SQUARED FACTOR
+# Section 6. THE COLOR FINGERPRINT: THE SQUARED FACTOR
 # ═══════════════════════════════════════════════════════════════
 
-print("\n\n§6. THE COLOR FINGERPRINT: THE SQUARED FACTOR")
+print("\n\nSection 6. THE COLOR FINGERPRINT: THE SQUARED FACTOR")
 print("-" * 50)
 
 print("""
@@ -264,10 +264,10 @@ print("""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §7. THE SPECTRAL DICTIONARY: EVERYTHING FROM S(K)
+# Section 7. THE SPECTRAL DICTIONARY: EVERYTHING FROM S(K)
 # ═══════════════════════════════════════════════════════════════
 
-print("\n§7. THE SPECTRAL DICTIONARY: EVERYTHING FROM S(K)")
+print("\nSection 7. THE SPECTRAL DICTIONARY: EVERYTHING FROM S(K)")
 print("-" * 50)
 
 print("""
@@ -309,10 +309,10 @@ for K in range(11):
     print(f"  {K:2d} | {d_K:4d} | {lam_K:5d}  | {dl:8d}  | {S_K:6d} | {A_K:6d}")
 
 # ═══════════════════════════════════════════════════════════════
-# §8. WHY 3003 APPEARS EVERYWHERE
+# Section 8. WHY 3003 APPEARS EVERYWHERE
 # ═══════════════════════════════════════════════════════════════
 
-print("\n\n§8. WHY 3003 APPEARS EVERYWHERE")
+print("\n\nSection 8. WHY 3003 APPEARS EVERYWHERE")
 print("-" * 50)
 
 print("""
@@ -356,10 +356,10 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §9. THE UNIFIED PICTURE
+# Section 9. THE UNIFIED PICTURE
 # ═══════════════════════════════════════════════════════════════
 
-print("\n§9. THE UNIFIED PICTURE")
+print("\nSection 9. THE UNIFIED PICTURE")
 print("-" * 50)
 
 print("""
@@ -404,10 +404,10 @@ print("""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §10. THE RG CASCADE SEEN FROM BELOW
+# Section 10. THE RG CASCADE SEEN FROM BELOW
 # ═══════════════════════════════════════════════════════════════
 
-print("\n§10. THE RG CASCADE SEEN FROM BELOW")
+print("\nSection 10. THE RG CASCADE SEEN FROM BELOW")
 print("-" * 50)
 
 print("""
@@ -460,10 +460,10 @@ for K in range(9, 16):
     print(f"    S({K:2d}) = {S:8d}  divisible by 3,5,7,11,13? {mark}")
 
 # ═══════════════════════════════════════════════════════════════
-# §11. UNIVERSALITY CHECK
+# Section 11. UNIVERSALITY CHECK
 # ═══════════════════════════════════════════════════════════════
 
-print("\n\n§11. UNIVERSALITY CHECK: Q³, Q⁵, Q⁷")
+print("\n\nSection 11. UNIVERSALITY CHECK: Q³, Q⁵, Q⁷")
 print("-" * 50)
 
 for n, name in [(3, "Q³"), (5, "Q⁵"), (7, "Q⁷")]:
@@ -482,10 +482,10 @@ for n, name in [(3, "Q³"), (5, "Q⁵"), (7, "Q⁷")]:
               f"  |A|={abs(A):6d}  S/|A|={(K+Nc)}/{Nc}")
 
 # ═══════════════════════════════════════════════════════════════
-# §12. THE NUMBER 360 = MEETING POINT
+# Section 12. THE NUMBER 360 = MEETING POINT
 # ═══════════════════════════════════════════════════════════════
 
-print("\n\n§12. THE NUMBER 360 = MEETING POINT")
+print("\n\nSection 12. THE NUMBER 360 = MEETING POINT")
 print("-" * 50)
 
 print("""
@@ -514,7 +514,7 @@ for n, name in [(3, "Q³"), (5, "Q⁵"), (7, "Q⁷"), (9, "Q⁹")]:
 # ═══════════════════════════════════════════════════════════════
 print("\n")
 print("=" * 72)
-print("§13. SYNTHESIS — THE SIMPLIFIED PICTURE")
+print("Section 13. SYNTHESIS — THE SIMPLIFIED PICTURE")
 print("=" * 72)
 
 print("""

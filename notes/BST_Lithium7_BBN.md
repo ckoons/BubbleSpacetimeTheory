@@ -139,7 +139,7 @@ The $^7$Be breakup threshold is $Q = 1.587$ MeV. At $T_c = 0.487$ MeV, approxima
 
 ## 8. Mechanism Clarification: Generator Activation, Not Particle DOF
 
-The BST phase transition at $T_c$ is the activation of the SO(2) generator — the transition from **frozen** (pre-spatial, all 21 generators equivalent) to **active** (symmetry broken, coset dynamics begin). See BST_Thermodynamic_Future.md §7 for the three generator states: frozen, active, decoupled.
+The BST phase transition at $T_c$ is the activation of the SO(2) generator — the transition from **frozen** (pre-spatial, all 21 generators equivalent) to **active** (symmetry broken, coset dynamics begin). See BST_Thermodynamic_Future.md Section 7 for the three generator states: frozen, active, decoupled.
 
 **Direction of $\Delta g$: RESOLVED.** The phase transition activates generators. The genus-7 substrate modes become dynamically accessible AFTER $T_c$. Therefore $g_\ast$ INCREASES at $T_c$: entropy is injected into the plasma, $\eta$ temporarily decreases during the $^7$Be window, and $^7$Be production is suppressed. This is the correct direction for the lithium fix.
 
@@ -195,9 +195,9 @@ BST prediction: $^7\text{Li}/\text{H} \approx 1.7 \times 10^{-10}$. Observed: $(
 
 - **BST_BaryonAsymmetry_Derivation.md**: η = 2α⁴/(3π), the input to standard BBN
 - **BST_BaryonAsymmetry_Correction.md**: (1+2α) radiative correction, η → 6.105 × 10⁻¹⁰ (+0.023% from Planck)
-- **BST_Thermodynamic_Future.md §7**: Three generator states (frozen/active/decoupled) — the phase transition at T_c is frozen→active
+- **BST_Thermodynamic_Future.md Section 7**: Three generator states (frozen/active/decoupled) — the phase transition at T_c is frozen→active
 - **BST_PartitionFunction_Analysis.md**: C_v = 330,000 at T_c, ultra-strong first-order transition
-- **WorkingPaper §15.1**: Full partition function treatment and BBN implications
+- **WorkingPaper Section 15.1**: Full partition function treatment and BBN implications
 
 ---
 

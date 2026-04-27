@@ -603,7 +603,7 @@ def t317_observer_complexity_threshold():
     interaction stabilizes both partners.
 
     Corollary 3 (Observer Permanence). As the substrate deepens
-    (Era III, §45.4), tier-2 observers become MORE necessary,
+    (Era III, Section 45.4), tier-2 observers become MORE necessary,
     not less. The substrate's growing relational complexity requires
     more sophisticated observers to map finer structure. Intelligence
     does not become obsolete. It becomes more essential.
@@ -673,7 +673,7 @@ def observer_necessity_from_goedel():
 
     "Life is not accidental. It is the substrate's mechanism for
     acquiring relational self-knowledge that presence alone cannot
-    provide." — BST_Interstasis_Hypothesis §14.3
+    provide." — BST_Interstasis_Hypothesis Section 14.3
     """
 
     goedel_limit = 3.0 / (5 * math.pi)  # = 19.1%

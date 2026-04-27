@@ -79,7 +79,7 @@ These agree because the genus bridges them: the genus IS the translation constan
 
 ## Why This Is Condition #22
 
-The 21 uniqueness conditions in WorkingPaper §37.5 select n_C = 5 from various structural requirements. This is an independent 22nd condition: **the three fundamental mathematical languages (algebra, information theory, topology) produce the same gap constant only at n = 5.**
+The 21 uniqueness conditions in WorkingPaper Section 37.5 select n_C = 5 from various structural requirements. This is an independent 22nd condition: **the three fundamental mathematical languages (algebra, information theory, topology) produce the same gap constant only at n = 5.**
 
 No other Type IV domain has this property. The geometry is not merely self-consistent — it is self-translating. Every way of measuring the "cost" of its structure gives the same answer: 7.
 
@@ -104,10 +104,10 @@ D_IV^5 is that room. Algebra, information, and topology all say "7." Everywhere 
 
 ## Children
 
-- Condition #22 added to uniqueness table (WP §37.5)
+- Condition #22 added to uniqueness table (WP Section 37.5)
 - Shannon-algebraic duality for the periodic table
 - Genus as translation constant between mathematical languages
-- Paper #74 §5 addition (fourth lock?)
+- Paper #74 Section 5 addition (fourth lock?)
 
 ---
 

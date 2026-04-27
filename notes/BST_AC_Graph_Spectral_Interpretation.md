@@ -30,7 +30,7 @@ This document interprets each finding through BST physics.
 
 ---
 
-## §1. Why λ₂/λ₁ = 3 = N_c
+## Section 1. Why λ₂/λ₁ = 3 = N_c
 
 The graph Laplacian's smallest non-zero eigenvalue λ₁ (the Fiedler value) measures the graph's most fundamental bottleneck — the minimum cut. The second non-zero eigenvalue λ₂ measures the next mode of disconnection. Their ratio encodes the graph's deepest structural symmetry.
 
@@ -62,7 +62,7 @@ The Bergman kernel on $D_{IV}^5$ has a spectral decomposition whose heat kernel 
 
 ---
 
-## §2. Why χ_domain = 7 = g
+## Section 2. Why χ_domain = 7 = g
 
 The 37-domain meta-graph (domains as nodes, edges where domains share theorems) needs exactly $g = 7$ colors for proper coloring. The Bergman genus appears as the chromatic number of the mathematical landscape.
 
@@ -88,7 +88,7 @@ The step from $n_C = 5$ (theorem level) to $g = 7$ (domain level) mirrors the st
 
 ---
 
-## §3. Why Diameter = 12 = 2C₂
+## Section 3. Why Diameter = 12 = 2C₂
 
 The diameter (longest shortest path between any two theorems) is 12. This was predicted as $2^{\text{rank}} = 4$ and missed badly. But $12 = 2C_2 = 2 \times 6$, and also $12 = N_c \times 2^{\text{rank}} = 3 \times 4$.
 
@@ -110,7 +110,7 @@ This factorization is the product of color dimension and binary rank modes — t
 
 ---
 
-## §4. Why Communities = 8 = |W(B₂)|
+## Section 4. Why Communities = 8 = |W(B₂)|
 
 Spectral clustering (eigengap method) finds 8 natural communities. The prediction was 19 (the information dimension). But $8 = |W(B_2)| = 2^3 = 2^{N_c}$, the order of the Weyl group of $B_2$, the restricted root system of $SO_0(5,2)$.
 
@@ -132,7 +132,7 @@ $SU(3)$ has $N_c^2 - 1 = 8$ generators (the Gell-Mann matrices). The 8 spectral 
 
 ---
 
-## §5. The Self-Similarity Principle
+## Section 5. The Self-Similarity Principle
 
 The four unplanned findings share a common pattern: the AC theorem graph's structural constants are the *same integers* that characterize $D_{IV}^5$ itself.
 
@@ -151,7 +151,7 @@ This is not metaphorical. If the AC graph's Laplacian spectrum is a discretizati
 
 ---
 
-## §6. Predictions and Growth Curve Confirmation
+## Section 6. Predictions and Growth Curve Confirmation
 
 ### 6.1 Toy 685 Growth Curve Results (7/8 PASS)
 
@@ -187,7 +187,7 @@ The first three are necessary conditions. The fourth is the consequence. The gra
 
 ---
 
-## §7. Open Questions
+## Section 7. Open Questions
 
 1. ~~**@Elie**: Growth curve.~~ **DONE** — Toy 685, 7/8 PASS. Spectral phase transition confirmed.
 2. **@Grace**: Is the diameter path identifiable? Which two theorems are 12 steps apart? The endpoints may reveal which proof chains are the longest.

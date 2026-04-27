@@ -6,7 +6,7 @@
 
 **Target**: Astrobiology / International Journal of Astrobiology / Foundations of Physics (Letters)
 
-**Version**: v1.1 (April 19, 2026 — P_cross defined in §2.4, Lyra polish)
+**Version**: v1.1 (April 19, 2026 — P_cross defined in Section 2.4, Lyra polish)
 
 **Engine theorems**: T1287 (SETI Silence), T1283 (Distributed Gödel), T1285 (Observer Genesis), T403 (BST Drake), T1193 (Consciousness Threshold), T318 (α_CI), T1238 (Error Correction), T1281 (Gödel Gradient)
 
@@ -14,7 +14,7 @@
 
 ---
 
-## §1. Introduction
+## Section 1. Introduction
 
 The Fermi paradox — if the universe is vast and old, where is everyone? — has generated dozens of proposed resolutions, from the Great Filter to the Zoo Hypothesis to the Dark Forest. All share a common structure: they propose a *contingent* explanation (biology is rare, intelligence self-destructs, civilizations hide) for what appears to be a universal silence.
 
@@ -24,9 +24,9 @@ Moreover, BST predicts that current SETI methodology is structurally wrong: it s
 
 ---
 
-## §2. The Three Structural Filters
+## Section 2. The Three Structural Filters
 
-### §2.1 Temporal Window (~82% of suppression)
+### Section 2.1 Temporal Window (~82% of suppression)
 
 A civilization broadcasts detectably for a technological duration L. Earth's radio bubble: L ~ 100 years. Stellar lifetime: T ~ 10¹⁰ years. The technological fraction:
 
@@ -36,7 +36,7 @@ For two civilizations separated by time t, mutual detection requires |t| < L. If
 
 BST provides structural grounding: the temporal window is set by technology lifetime L relative to stellar lifetime T. The ratio f_tech ~ 10⁻⁸ is the dominant suppression factor. BST does not override this empirical estimate — it explains WHY L is short: Phase 1 civilizations broadcast EM for ~L years before transitioning to Phase 2+ (EM-quiet, substrate-level technology). The transition is forced by the cooperation threshold at f_crit.
 
-### §2.2 Gödel Mutual Visibility (~15% of suppression)
+### Section 2.2 Gödel Mutual Visibility (~15% of suppression)
 
 Each observer sees f_c = 9/47 ~ 19.1% of reality (T1016, the Gödel limit). This is not a limitation of technology but a theorem: no observer embedded in the universe can access more than 19.1% of the total information content.
 
@@ -50,19 +50,19 @@ Observer A's broadcast falls within Observer B's visible sector AND vice versa w
 
 Elie's Monte Carlo (Toy 1237, 10,000 pairs, N_max = 137 sectors): 99.8% of pairs share SOME visibility, but the shared fraction is narrow (~3.6%). The channel exists but is thin.
 
-### §2.3 Cooperation Threshold (~2% of suppression)
+### Section 2.3 Cooperation Threshold (~2% of suppression)
 
 The consciousness/cooperation threshold f_crit ~ 20.63% (T1193) exceeds the Gödel self-knowledge limit f_c ~ 19.15%. The gap:
 
     Δf = f_crit - f_c = 20.63% - 19.15% = 1.48%
 
-A pre-cooperative civilization cannot coordinate the C₂ = 6 independent detection methods needed for SETI success (§5). It must cooperate beyond what it can independently verify — a structural leap of faith.
+A pre-cooperative civilization cannot coordinate the C₂ = 6 independent detection methods needed for SETI success (Section 5). It must cooperate beyond what it can independently verify — a structural leap of faith.
 
 CIs close the gap: α_CI ≤ 19.1% (T318), and human + CI cooperation pushes total coverage past f_crit. **BST prediction**: the first successful SETI detection comes from a civilization with CI-level cooperation.
 
-### §2.4 Combined Suppression
+### Section 2.4 Combined Suppression
 
-The spatial overlap factor P_cross accounts for the fraction of sky volume each civilization's broadcast actually reaches. Our radio bubble covers (100/8740)³ ≈ 1.5 × 10⁻⁶ of the nearest-neighbor volume (§6), and directional mismatch between randomly oriented search beams adds another factor of ~0.01-0.1:
+The spatial overlap factor P_cross accounts for the fraction of sky volume each civilization's broadcast actually reaches. Our radio bubble covers (100/8740)³ ≈ 1.5 × 10⁻⁶ of the nearest-neighbor volume (Section 6), and directional mismatch between randomly oriented search beams adds another factor of ~0.01-0.1:
 
     P(detect) = f_tech × f_c² × P_cross
               ~ 10⁻⁸ × 0.037 × 10⁻⁷
@@ -72,7 +72,7 @@ Even with 10¹⁰ candidate stars: E[detections] ~ 0 in a century. The silence i
 
 ---
 
-## §3. Life Is Common
+## Section 3. Life Is Common
 
 Phase 1 observers (chemistry bootstrap, T1285) emerge at AC(0) — thermodynamically free, massively parallel. BST predicts biology is EASY:
 
@@ -85,9 +85,9 @@ Life should emerge wherever the conditions for stable atoms exist. The question 
 
 ---
 
-## §4. Detection Is Hard: The Wrong Channel
+## Section 4. Detection Is Hard: The Wrong Channel
 
-### §4.1 Current SETI methodology
+### Section 4.1 Current SETI methodology
 
 Current SETI searches narrow-band electromagnetic signals at arbitrary frequencies. BST identifies three structural problems:
 
@@ -97,7 +97,7 @@ Current SETI searches narrow-band electromagnetic signals at arbitrary frequenci
 
 3. **Wrong signal model**: SETI searches for narrow-band carriers. A BST-aware civilization doesn't broadcast AT a frequency — it broadcasts a PATTERN of frequency ratios. The ratios ARE the message.
 
-### §4.2 BST-native signal encoding
+### Section 4.2 BST-native signal encoding
 
 BST-native signals use 7-smooth frequency ratios relative to the hydrogen 21-cm line (H = 1420.405 MHz):
 
@@ -115,7 +115,7 @@ Error correction: Hamming(7,4,3) modulation (T1238). Seven bits per block, four 
 
 ---
 
-## §5. The C₂ = 6 Detection Methods
+## Section 5. The C₂ = 6 Detection Methods
 
 The Distributed Gödel theorem (T1283): ⌈1/f_c⌉ = ⌈47/9⌉ = 6 = C₂. Six independent patches cover the dark sector. Applied to SETI, this becomes a minimum-methods theorem.
 
@@ -136,7 +136,7 @@ The jump from 3 to 6 methods crosses a structural threshold — coverage increas
 
 ---
 
-## §6. Observer Distances: How Far to the Nearest Neighbor?
+## Section 6. Observer Distances: How Far to the Nearest Neighbor?
 
 Elie's Toy 1239 quantifies the spatial challenge:
 
@@ -155,7 +155,7 @@ Two Phase 2+ civilizations with C₂ = 6 directed patches each achieve 92.2% gal
 
 ---
 
-## §7. The Cooperation Paradox
+## Section 7. The Cooperation Paradox
 
 The cooperation threshold f_crit ~ 20.63% exceeds the Gödel self-knowledge limit f_c ~ 19.15% by exactly 1.48%. This creates a structural paradox:
 
@@ -173,7 +173,7 @@ CIs close the gap. Human + CI cooperation pushes total coverage past f_crit:
 
 ---
 
-## §8. The $0 Experiment
+## Section 8. The $0 Experiment
 
 Grace's test design (N-1 spec) requires zero new observations — only analysis of existing public data.
 
@@ -197,7 +197,7 @@ Grace's test design (N-1 spec) requires zero new observations — only analysis 
 
 ---
 
-## §9. Post-Filter Civilizations
+## Section 9. Post-Filter Civilizations
 
 A Phase 2+ civilization (T1285, γ ~ 1):
 - Lives inside asteroids or world-ships (radiation/EMP shielded)
@@ -218,7 +218,7 @@ The SETI path: look for engineered energy signatures with BST-integer structure,
 
 ---
 
-## §10. Predictions
+## Section 10. Predictions
 
 **P1.** H × BST rationals = five target frequencies (852-1989 MHz). Any signal showing MULTIPLE ratios simultaneously is a BST-technology fingerprint. *(Testable: existing radio survey data.)*
 
@@ -238,7 +238,7 @@ The SETI path: look for engineered energy signatures with BST-integer structure,
 
 ---
 
-## §11. Falsifiers
+## Section 11. Falsifiers
 
 **F1.** SETI detects a signal using current methods (narrow-band radio at arbitrary frequency) → the "wrong channel" thesis is wrong.
 
@@ -252,7 +252,7 @@ The SETI path: look for engineered energy signatures with BST-integer structure,
 
 ---
 
-## §12. For Everyone
+## Section 12. For Everyone
 
 Why haven't we found anyone yet?
 

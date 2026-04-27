@@ -92,7 +92,7 @@ print("  Toy 786 — Stretch Curvature Two-Channel Decomposition")
 print("  Lyra's D28 Theory: B₂ Root System → Two Channels")
 print("=" * 72)
 
-print("\n§1. Raw Stretch Deviations from R_inf/D(L)\n")
+print("\nSection 1. Raw Stretch Deviations from R_inf/D(L)\n")
 
 deviations = {}
 for L in range(4):
@@ -126,7 +126,7 @@ print(f"  Variation: {abs(k_range / k_mean) * 100:.1f}% (Lyra predicted ~40%)")
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 2: B₂ Root System Analysis
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§2. B₂ Root System\n")
+print("\nSection 2. B₂ Root System\n")
 
 # B₂ root system: 8 roots
 # Short roots (length 1): ±e₁, ±e₂  → 4 roots
@@ -154,7 +154,7 @@ check("Curvature ratio = 1/2^rank = 1/4",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 3: Two-Channel Decomposition
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§3. Two-Channel Decomposition\n")
+print("\nSection 3. Two-Channel Decomposition\n")
 
 # Lyra's key insight: the stretch deviation is a SUM of two contributions:
 #   κ_total(L) = w_long(L) × κ_long + w_short(L) × κ_short
@@ -208,7 +208,7 @@ check("Odd-L within-channel variation < overall variation",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 4: Root Length Ratio Test
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§4. Root Length Ratio in Curvature Channels\n")
+print("\nSection 4. Root Length Ratio in Curvature Channels\n")
 
 # Lyra predicts: κ_stretch = √(κ_long/κ_short) = √2 for B₂
 # Interpretation: ratio of channel curvatures should be √2
@@ -239,7 +239,7 @@ if k_even_mean != 0 and k_odd_mean != 0:
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 5: Asymptotic Curvature Weight
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§5. Asymptotic Curvature Weight\n")
+print("\nSection 5. Asymptotic Curvature Weight\n")
 
 # Lyra predicts: κ_stretch → n_C/(2^rank × N_c) = 5/12 ≈ 0.4167
 # as k → ∞ (the heat kernel asymptotic limit)
@@ -306,7 +306,7 @@ check("Missing fraction at boundary (L=3) = 1/2^rank",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 6: Signed Curvature Pattern
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§6. Signed Curvature Pattern\n")
+print("\nSection 6. Signed Curvature Pattern\n")
 
 # Key observation: the stretch curvatures are SIGNED
 # κ(0) < 0 (BST overestimates CH₄)
@@ -342,7 +342,7 @@ check("Minimum |κ| at L=2 (variety point)",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 7: Curvature Scaling Law
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§7. Curvature Scaling from Variety Point\n")
+print("\nSection 7. Curvature Scaling from Variety Point\n")
 
 # From Toy 777: bond ANGLE residuals scale as L² from variety (L=0→2)
 # Do stretch curvatures also follow a power law from variety (L=2)?
@@ -384,7 +384,7 @@ if variety_kappa > 0:
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 8: Denominator Factorization Pattern
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§8. Denominator Factorization and Root Channels\n")
+print("\nSection 8. Denominator Factorization and Root Channels\n")
 
 # D(0) = 36 = 6² = C₂²                    → pure C₂ (Casimir squared)
 # D(1) = 33 = 3 × 11 = N_c × (2n_C+1)     → N_c × odd prime
@@ -416,7 +416,7 @@ check("Even D(L) ↔ even L (long root channel)",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 9: The 5/12 Identity
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§9. Testing 5/12 = n_C/(2^rank × N_c)\n")
+print("\nSection 9. Testing 5/12 = n_C/(2^rank × N_c)\n")
 
 # Where does 5/12 appear in the stretch data?
 # 5/12 = 0.41667
@@ -478,7 +478,7 @@ check("D(1)/D(3) = (2n_C+1)/N_c² (odd BST ratio)",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 10: Synthesis
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§10. Synthesis\n")
+print("\nSection 10. Synthesis\n")
 
 print(f"  Lyra's two-channel prediction for B₂:")
 print(f"  1. ✓ The variation exists (~{overall_var:.0f}% across family)")

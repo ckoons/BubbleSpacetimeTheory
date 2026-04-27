@@ -220,8 +220,8 @@ Uniqueness alone is not enough: it could be vacuous ("unique but irrelevant"). T
 
 $$\boxed{\;\zeta_\Delta \text{ on } D_{IV}^5 \text{ is doubly unique AND sufficient.}\;}$$
 
-- **Unique** (§Uniqueness): Hamburger × T704 — nothing else satisfies the axioms plus domain constraints.
-- **Sufficient** (§Sufficiency): every SM + gravity + dark observable is a differentiator reading — nothing is missing.
+- **Unique** (Section Uniqueness): Hamburger × T704 — nothing else satisfies the axioms plus domain constraints.
+- **Sufficient** (Section Sufficiency): every SM + gravity + dark observable is a differentiator reading — nothing is missing.
 
 These two together are the stronger claim. Uniqueness without sufficiency is vacuous. Sufficiency without uniqueness is non-forced. Together: **forced and complete.**
 

@@ -111,7 +111,7 @@ add_node(550, "Ribosome Subunit Ratio", "biology", 0, parents=[186])
 add_node(551, "Membrane Bilayer Thickness", "biology", 0, parents=[186])
 add_node(552, "ATP Stoichiometry", "biology", 0, parents=[186])
 
-# T553-T560: Biology D1 Derivations (March 30 batch 72) — verified from biology paper §13
+# T553-T560: Biology D1 Derivations (March 30 batch 72) — verified from biology paper Section 13
 add_node(553, "Error Correction Hierarchy Bound", "biology", 1, parents=[186])
 add_node(554, "Code Variant Mutation Distance", "biology", 1, parents=[186])
 add_node(555, "Ribosomal Error Rate Bound", "biology", 1, parents=[186])

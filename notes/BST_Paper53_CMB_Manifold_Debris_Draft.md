@@ -34,7 +34,7 @@ abstract: |
 
 ---
 
-## §1. Introduction
+## Section 1. Introduction
 
 The cosmic microwave background (CMB) is the most precisely characterized observable in cosmology: approximately 2500 independent multipoles measured to sub-percent accuracy by WMAP and Planck. The standard $\Lambda$CDM model fits this data with six parameters and achieves $\chi^2/N \approx 1$ — an excellent fit.
 
@@ -52,7 +52,7 @@ This paper shows that Bubble Spacetime Theory (BST) predicts all five as structu
 
 ---
 
-## §2. Manifold Competition
+## Section 2. Manifold Competition
 
 ### 2.1 The competition model
 
@@ -88,7 +88,7 @@ The competition model originated with Casey's observation (April 10, 2026): "All
 
 ---
 
-## §3. Cold Spot from $D_{IV}^4$ Collapse
+## Section 3. Cold Spot from $D_{IV}^4$ Collapse
 
 ### 3.1 The mechanism
 
@@ -122,7 +122,7 @@ consistent with the observed $\sim 10^{-4}$ deficit.
 
 ---
 
-## §4. Hemispherical Asymmetry = 1/15
+## Section 4. Hemispherical Asymmetry = 1/15
 
 ### 4.1 The boundary
 
@@ -152,7 +152,7 @@ The integer $1/15 = 1/(N_c \cdot n_C)$ has a clear physical meaning: it is the i
 
 ---
 
-## §5. Quadrupole-Octupole Alignment at $\ell \leq N_c$
+## Section 5. Quadrupole-Octupole Alignment at $\ell \leq N_c$
 
 ### 5.1 The competition axis
 
@@ -182,7 +182,7 @@ The match is structural, not fitted. The cutoff at $\ell = N_c = 3$ is determine
 
 ---
 
-## §6. The Remaining Anomalies
+## Section 6. The Remaining Anomalies
 
 ### 6.1 Quadrupole suppression
 
@@ -200,7 +200,7 @@ BST predicts that these anomalies should be roughly coplanar, all within $\sim 3
 
 ---
 
-## §7. The Anthropic Principle Becomes a Theorem
+## Section 7. The Anthropic Principle Becomes a Theorem
 
 The standard anthropic principle says: "We observe these constants because they are compatible with observers." This is not falsifiable and provides no predictions.
 
@@ -221,7 +221,7 @@ The anthropic "principle" is a theorem with observational consequences. The phil
 
 ---
 
-## §8. Falsifiable Predictions
+## Section 8. Falsifiable Predictions
 
 | # | Prediction | BST value | Source | Test | Status |
 |:--|:-----------|:----------|:-------|:-----|:-------|
@@ -249,7 +249,7 @@ BST scores 5/5 on current data. $\Lambda$CDM makes no prediction for any of thes
 
 ---
 
-## §9. Relation to Paper #15
+## Section 9. Relation to Paper #15
 
 Paper #15 ("The CMB from Five Integers") presents Layer 1 of the BST CMB prediction: the full acoustic power spectrum derived from five integers, matching Planck at $\chi^2/N = 0.01$ with zero free parameters.
 
@@ -259,7 +259,7 @@ The two layers are independent but consistent. Layer 1 derives the parameters. L
 
 ---
 
-## §10. Discussion
+## Section 10. Discussion
 
 ### 10.1 Honest framing
 
@@ -280,7 +280,7 @@ If the anomalies are substrate scars, their polarization structure should differ
 
 ---
 
-## §11. Conclusion
+## Section 11. Conclusion
 
 The five CMB anomalies are not statistical flukes. They are the scars of a geometric war — the traces left by manifolds that tried to exist and failed.
 

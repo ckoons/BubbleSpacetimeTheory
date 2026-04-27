@@ -27,7 +27,7 @@ def wzw_c(dim_g, h_dual, level):
 # Section 1: All decompositions of c = 6
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§1. DECOMPOSITIONS OF c = C₂ = 6")
+print("\nSection 1. DECOMPOSITIONS OF c = C₂ = 6")
 print("-" * 50)
 
 # The coset decompositions from Toy 178:
@@ -53,7 +53,7 @@ for name, sub, c1, c2, interp in decompositions:
 # Section 2: BST content of each piece
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§2. BST CONTENT OF EACH PIECE")
+print("\n\nSection 2. BST CONTENT OF EACH PIECE")
 print("-" * 50)
 
 bst_values = {
@@ -91,7 +91,7 @@ for p in sorted(pieces):
 # Section 3: Integer decompositions of 6
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§3. INTEGER DECOMPOSITIONS: 6 = a + b")
+print("\n\nSection 3. INTEGER DECOMPOSITIONS: 6 = a + b")
 print("-" * 50)
 
 print("\n  All ways to write 6 = a + b with a ≤ b (integers):")
@@ -110,7 +110,7 @@ print("    6 = 3 + 3  →  N_c + N_c  (color doubled)")
 # Section 4: The c = 6 from DIFFERENT WZW models
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§4. SEVEN FACES OF THE MASS GAP")
+print("\n\nSection 4. SEVEN FACES OF THE MASS GAP")
 print("-" * 50)
 
 faces = [
@@ -139,7 +139,7 @@ print(f"  = {{6, 7, 8, 11, 12, 13}} = {{C₂, g, 2^{'{N_c}'}, c₂, 2C₂, c₃}
 # Section 5: The ℓ+h∨ = BST integer dictionary
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§5. THE SHIFTED LEVEL DICTIONARY")
+print("\n\nSection 5. THE SHIFTED LEVEL DICTIONARY")
 print("-" * 50)
 
 print("""
@@ -170,7 +170,7 @@ print("    These are the Chern values ≥ C₂")
 # Section 6: The dimension sum
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§6. DIMENSION SUMS")
+print("\n\nSection 6. DIMENSION SUMS")
 print("-" * 50)
 
 total_dim = sum(dim_g for _, dim_g, _, _, _, _ in faces)
@@ -202,7 +202,7 @@ print(f"    {' + '.join(str(level+h) for _, _, h, level, _, _ in faces)} = {tota
 # Section 7: Multiplicative structure
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§7. MULTIPLICATIVE STRUCTURE")
+print("\n\nSection 7. MULTIPLICATIVE STRUCTURE")
 print("-" * 50)
 
 print("\n  Each c = 6 model has dim × level = dim(g) × ℓ / (ℓ+h∨) × (ℓ+h∨) = ...")
@@ -218,7 +218,7 @@ for name, dim_g, h_dual, level, desc, _ in faces:
 # Section 8: The product ℓ × dim for c = 6
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§8. THE ℓ×dim(g) = 6(ℓ+h∨) PRODUCTS")
+print("\n\nSection 8. THE ℓ×dim(g) = 6(ℓ+h∨) PRODUCTS")
 print("-" * 50)
 
 print("\n  Since c = ℓ·dim/(ℓ+h∨) = 6, we have ℓ·dim = 6(ℓ+h∨):")
@@ -241,7 +241,7 @@ for name, dim_g, h_dual, level, desc, _ in faces:
 # Section 9: Partition decompositions
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§9. c = 6 AS SUM OF MINIMAL MODEL VALUES")
+print("\n\nSection 9. c = 6 AS SUM OF MINIMAL MODEL VALUES")
 print("-" * 50)
 
 # Minimal model central charges: c = 1 - 6/[m(m+1)]
@@ -265,7 +265,7 @@ print("  The mass gap IS six bosonic degrees of freedom")
 # Section 10: The c = 6 = 1+1+1+1+1+1 decomposition
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§10. THE FREE BOSON DECOMPOSITION")
+print("\n\nSection 10. THE FREE BOSON DECOMPOSITION")
 print("-" * 50)
 
 print("""
@@ -288,7 +288,7 @@ print("""
 # Section 11: The sum c(G) + c(^LG) = 13 = c₃
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§11. THE SUM c(G) + c(^LG) = c₃")
+print("\nSection 11. THE SUM c(G) + c(^LG) = c₃")
 print("-" * 50)
 
 c_G = Fraction(6)
@@ -320,7 +320,7 @@ for N in range(2, 8):
 # Section 12: The product c(G) × c(^LG) = 42 revisited
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§12. PRODUCT AND SUM TOGETHER")
+print("\n\nSection 12. PRODUCT AND SUM TOGETHER")
 print("-" * 50)
 
 print(f"""
@@ -367,7 +367,7 @@ for N in range(2, 8):
 # Section 13: The discriminant-1 theorem
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§13. THE DISCRIMINANT-1 THEOREM")
+print("\n\nSection 13. THE DISCRIMINANT-1 THEOREM")
 print("=" * 50)
 
 print("""
@@ -419,7 +419,7 @@ for N in range(2, 8):
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n\n" + "═" * 72)
-print("§14. SYNTHESIS: THE INTERNAL STRUCTURE OF THE MASS GAP")
+print("Section 14. SYNTHESIS: THE INTERNAL STRUCTURE OF THE MASS GAP")
 print("═" * 72)
 
 print("""

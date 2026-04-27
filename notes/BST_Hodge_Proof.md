@@ -2,7 +2,7 @@
 title: "The Hodge Conjecture via Theta Correspondence on D_IV^5"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper)"
 date: "March 30, 2026"
-status: "Draft v22 — TWO-PATH PROOF (Thm 5.13) + EXPLICIT EXTENSION (§5.10). Version A (primary): substrate proof, one axiom (T153). Version B (classical bridge): conditional on Deligne absolute Hodge conjecture (proved for abelian type, 1982) + Tate conjecture (proved for abelian varieties, K3s, divisors). NEW §5.10: explicit chain Shimura → abelian (Deligne/André) → abelian type → general (DPI exclusion T600 + CDK95). Independent failure modes. Weight-independent. Depth 1. Full Hodge ~95%. D_IV^5 ~97%."
+status: "Draft v22 — TWO-PATH PROOF (Thm 5.13) + EXPLICIT EXTENSION (Section 5.10). Version A (primary): substrate proof, one axiom (T153). Version B (classical bridge): conditional on Deligne absolute Hodge conjecture (proved for abelian type, 1982) + Tate conjecture (proved for abelian varieties, K3s, divisors). NEW Section 5.10: explicit chain Shimura → abelian (Deligne/André) → abelian type → general (DPI exclusion T600 + CDK95). Independent failure modes. Weight-independent. Depth 1. Full Hodge ~95%. D_IV^5 ~97%."
 target: "Journal of Algebraic Geometry / Inventiones Mathematicae"
 ci_board: "L33"
 toys: ""
@@ -87,17 +87,17 @@ For Hodge, we aim to prove:
 
 **Theorem 1.2a** (T152: Hodge as T104 on K₀). *The Hodge conjecture for all smooth projective varieties, all weights, all degrees, is equivalent to the assertion that T104 (amplitude-frequency separation) holds on K₀(X). That is: for any smooth projective X and degree p, the Chern character ch: K₀(X) ⊗ Q → H^{p,p}(X, Q) surjects onto rational Hodge classes. No phantom committed correlations exist in K₀.*
 
-**Status**: ~95%. Two-path proof as Theorem 5.13 (§5.9) + explicit extension chain (§5.10). Version A (primary): substrate proof, one axiom (T153), no circularity. Version B (classical bridge): conditional on Deligne's absolute Hodge conjecture (proved for abelian type, 1982) + Tate conjecture (proved for AV, K3, divisors). Explicit chain: Shimura → abelian (Deligne 1982 / André 2004) → abelian type → general (DPI T600 + CDK95). Independent failure modes. Weight-independent, depth 1. Remaining ~5%: referee acceptance of axioms + CM density for non-arithmetic families.
+**Status**: ~95%. Two-path proof as Theorem 5.13 (Section 5.9) + explicit extension chain (Section 5.10). Version A (primary): substrate proof, one axiom (T153), no circularity. Version B (classical bridge): conditional on Deligne's absolute Hodge conjecture (proved for abelian type, 1982) + Tate conjecture (proved for AV, K3, divisors). Explicit chain: Shimura → abelian (Deligne 1982 / André 2004) → abelian type → general (DPI T600 + CDK95). Independent failure modes. Weight-independent, depth 1. Remaining ~5%: referee acceptance of axioms + CM density for non-arithmetic families.
 
 **Conjecture 1.3** (Hodge, general). *The D_IV^5 theta-correspondence proof extends to all smooth projective varieties via motivic functoriality.*
 
-**Status**: ~75% (Layer 3, geometric route + §5.10 explicit extension chain). **Three boundary conditions + explicit chain close the gaps:**
+**Status**: ~75% (Layer 3, geometric route + Section 5.10 explicit extension chain). **Three boundary conditions + explicit chain close the gaps:**
 
 1. **Thm 5.5.2** (O(n,2) Resolution): Even-n fork is a restriction artifact. Work with O(n,2). Even n ~88%.
 2. **Thm 5.8** (Restriction Principle): Low-degree Hodge classes = restrictions of KM cycles from ambient Shimura variety. BFMT ampleness + Lefschetz. Route H: ~35% → ~55%.
 3. **Toy 413** (OG10 Stable Range): dim(OG10) = 10 ≪ m = 11 for SO(22,2). Fork irrelevant. OG10 ~75%.
 
-Route D ~82% (odd ~80%, even ~88%). Route F ~80% (OG10 ~75%, K3^[n] FILLED, Kummer/OG6 PROVED). Route H ~55% (Restriction Principle). Selmer flank ~25% (§6.5). **D_IV^5 combined ~97%** (two independent routes).
+Route D ~82% (odd ~80%, even ~88%). Route F ~80% (OG10 ~75%, K3^[n] FILLED, Kummer/OG6 PROVED). Route H ~55% (Restriction Principle). Selmer flank ~25% (Section 6.5). **D_IV^5 combined ~97%** (two independent routes).
 
 ### 1.4 Method
 
@@ -296,7 +296,7 @@ $$H^4(X, \mathbb{Q}) = H^4_{\text{cusp}}(X) \oplus H^4_{\text{Eis}}(X)$$
 
 **Eisenstein part**: Controlled by Eisenstein series induced from parabolics P₁, P₂.
 
-*P₂ Eisenstein → H^{2,2}*: Eisenstein series E(f, s) induced from cuspidal forms f on GL(2) × SO(3). The cohomological contribution is the class of a modular curve embedding Z_{P₂} ↪ Γ\D_IV^5 — a special cycle (sub-Shimura variety). The P₂ Langlands-Shahidi analysis is identical to the BSD proof [Koons 2026b, §3]: the constant term decomposes into r₁ = std(GL(2)) ⊗ std(SO(3)) (dim 6) and r₂ = Sym²(std(GL(2))) (dim 3), controlled by L(f,s) and L(sym²f,s). The intertwining operators at cohomological parameters produce algebraic Eisenstein classes. **Algebraic**: class of a Shimura sub-variety.
+*P₂ Eisenstein → H^{2,2}*: Eisenstein series E(f, s) induced from cuspidal forms f on GL(2) × SO(3). The cohomological contribution is the class of a modular curve embedding Z_{P₂} ↪ Γ\D_IV^5 — a special cycle (sub-Shimura variety). The P₂ Langlands-Shahidi analysis is identical to the BSD proof [Koons 2026b, Section 3]: the constant term decomposes into r₁ = std(GL(2)) ⊗ std(SO(3)) (dim 6) and r₂ = Sym²(std(GL(2))) (dim 3), controlled by L(f,s) and L(sym²f,s). The intertwining operators at cohomological parameters produce algebraic Eisenstein classes. **Algebraic**: class of a Shimura sub-variety.
 
 *P₁ Eisenstein → H^{2,2}*: Eisenstein series induced from GL(1) × SO₀(3,2). The cohomological contribution is the class of a Siegel threefold embedding Z_{P₁} ↪ Γ\D_IV^5. The SO(3,2) Shimura variety has complex dimension 3, so H^{2,2} on the threefold is dual to H^{1,1} by Poincaré duality — and H^{1,1} is algebraic by Lefschetz. **Algebraic**: Poincaré dual of Lefschetz class.
 
@@ -338,7 +338,7 @@ A class in H^{2,2}(X̄) that restricts to zero on X (i.e., is boundary-supported
 | H^{3,3}: Hodge conjecture | ~97% | Same as H^{2,2} by Serre duality. Toy 402 confirms: r=3 uses Poincaré dual, full Sp(6) not needed. |
 | Kudla-Millson + generating series | ~95% | Proved in [KM86, KM90]. The machinery works. |
 | Rallis non-vanishing | **~97%** | **Toy 399 (10/10)**: r₂(Q)=6480, regularized product ≈ −0.023 ≠ 0. **Toy 402 (10/10)**: Siegel-Weil absolutely convergent (s₀=2 > ρ_P=3/2). |
-| Boundary classes handled | **~92%** | **Toy 401 (10/10)**: ONLY boundary contribution to H^{2,2} is H^{0,0}(D_IV^3) via Gysin — fundamental class, trivially algebraic. P₂ = BSD §3 transfer. Hodge known at 7/7 boundary levels. Zucker+BBD+Saito completeness. Weight filtration gap (wt 3 < wt 4) prevents δ from creating (2,2). |
+| Boundary classes handled | **~92%** | **Toy 401 (10/10)**: ONLY boundary contribution to H^{2,2} is H^{0,0}(D_IV^3) via Gysin — fundamental class, trivially algebraic. P₂ = BSD Section 3 transfer. Hodge known at 7/7 boundary levels. Zucker+BBD+Saito completeness. Weight filtration gap (wt 3 < wt 4) prevents δ from creating (2,2). |
 | **Layer 1 overall** | **~95%** | H^{2,2}: unique module + Rallis + metaplectic split (~97%). Boundary: Gysin only + weight filtration (~92%). Six toys, all pass. |
 
 ---
@@ -399,7 +399,7 @@ Total: 2 parallel queries (C=2), max depth 1 (D=1). □
 
 ### 4.3 T104 Applied to Hodge
 
-**Proposition 4.2** (No phantom Hodge classes via T104). *Let X = Γ\G/K be a Shimura variety whose cohomology is governed by automorphic representations of a reductive group G. If every automorphic representation contributing to H^{p,p}(X) is in the image of a theta lift from a dual group G', then there are no phantom Hodge classes.* (The general case — smooth projective varieties beyond Shimura varieties — is Layer 3, §5.)
+**Proposition 4.2** (No phantom Hodge classes via T104). *Let X = Γ\G/K be a Shimura variety whose cohomology is governed by automorphic representations of a reductive group G. If every automorphic representation contributing to H^{p,p}(X) is in the image of a theta lift from a dual group G', then there are no phantom Hodge classes.* (The general case — smooth projective varieties beyond Shimura varieties — is Layer 3, Section 5.)
 
 *Proof.* By T104 (Amplitude-Frequency Separation / Sha-independence), locally-trivial cohomological invariants cannot affect the spectral content of automorphic L-functions. This is the identical principle used in the BSD proof [Koons 2026b, Proposition 6.2], where it prevents Sha from creating phantom L-function zeros.
 
@@ -516,7 +516,7 @@ Part (c): For D_m, the weight poset has ω₁ > ... > ω_{m-2}, then a fork: ω_
 
 **Theorem 5.4** (Hodge for SO(7,2) at H^{3,3}). *Every Hodge class in H^{3,3}(Γ\D_IV^7, Q) is algebraic.*
 
-*Proof.* The argument parallels the SO(5,2) proof in §3, with the following data:
+*Proof.* The argument parallels the SO(5,2) proof in Section 3, with the following data:
 
 **Step 1: Module enumeration.** By Theorem 5.2(b), there is exactly ONE A_q(0) module contributing to H^{3,3} on SO₀(7,2). The root system B₃ has weight poset with total order ω₁ > ω₂ > ω₃. The unique upper ideal of size 3 is {ω₁, ω₂, ω₃} = all of p⁺. One target.
 
@@ -529,7 +529,7 @@ Part (c): For D_m, the weight poset has ω₁ > ... > ω_{m-2}, then a fork: ω_
 **Step 5: Rallis non-vanishing.** The representation number r_p(Q) for the lattice of signature (7,2) at the relevant norm is strictly positive. (For the SO(5,2) case, r₂(Q) = 6480 was overwhelming; the SO(7,2) lattice has MORE vectors at each norm.) The Rallis inner product formula gives ⟨Θ(f), Θ(f)⟩ ∝ L(1/2, π, std) × ⟨f,f⟩. By the Gan-Takeda refined theta for SO(7,2) × Sp(6), surjectivity follows from A_q(0) uniqueness (one target, one source, non-degenerate pairing).
 
 **Step 6: Boundary.** The boundary strata of the Baily-Borel compactification Γ\D_IV^7* involve:
-- P₁: Levi GL(1) × SO₀(5,2). Boundary component = Γ₁\D_IV^5. Hodge proved (§3, this paper).
+- P₁: Levi GL(1) × SO₀(5,2). Boundary component = Γ₁\D_IV^5. Hodge proved (Section 3, this paper).
 - P₂: Levi GL(2) × SO₀(3,2) ≅ GL(2) × Sp(4,R). Boundary component = Siegel modular threefold × modular curve. Hodge known.
 
 By the weight filtration argument (Harris-Zucker [HZ01]), boundary classes in H^{3,3} arise only from lower-weight components of ∂(Γ\D_IV^7*), which map to algebraic classes via the Gysin sequence. The weight filtration gap (weight ≤ 5 < 6 = needed weight) prevents δ from creating new (3,3) classes.
@@ -542,7 +542,7 @@ By the weight filtration argument (Harris-Zucker [HZ01]), boundary classes in H^
 
 *Proof.* By strong induction on odd n.
 
-**Base case** n = 5: §3 of this paper (~95%).
+**Base case** n = 5: Section 3 of this paper (~95%).
 
 **Inductive step** n → n+2 (odd to odd): Assume Hodge for all odd n' < n. The BMM theorem covers degrees p < (n+1)/3. At the boundary degree p₀ = ⌊(n+1)/3⌋:
 
@@ -788,14 +788,14 @@ Esnault-Kisin-Petrov [EKP25] are developing a prismatic cohomology approach to t
 | SO(n,2), n even (Route D) | **~88%** | **Thm 5.5.2**: O(n,2) resolution dissolves fork. Three "gaps" were one non-gap. Regular params → mult 1 (Arthur). Toys 408/409/411/413 confirm. |
 | **Hyperkähler manifolds (Route F)** | **~80%** | Period map + Verbitsky + Route D. Kummer dim 4 + OG6 PROVED [FV24, FF25]. K3^[n] gap FILLED (Toy 412). OG10 LIFTED ~75% (Toy 413: stable range, decomp thm). Bottleneck: unknown HK deformation types. |
 | ~~Complete intersection reduction (Route G)~~ | **WITHDRAWN** | Mansour [Man25] error in argument. No reduction path established. |
-| Period map compactification (Route H) | **~55%** | **Thm 5.8 Restriction Principle**: low degree via Lefschetz + BFMT ampleness. Middle degree = Route D. §5.5.4a. |
+| Period map compactification (Route H) | **~55%** | **Thm 5.8 Restriction Principle**: low degree via Lefschetz + BFMT ampleness. Middle degree = Route D. Section 5.5.4a. |
 | Prismatic cohomology (Route I) | ~15% | EKP work in progress. No preprint. Counterexamples found [CD25]. |
 | KS functor (Route E) | ~40% | Up from ~35%: KS algebraicity expanded (Floccari et al.), Markman abelian fourfolds. |
 | Motivic functoriality (Route A) | ~30% | Deep conjecture, far from proved |
 | Abelian fourfolds | **~95%** | **PROVED.** Markman 2025 (Weil classes via sixfolds + Schoen degeneration). |
 | Varieties of dim ≤ 3 | ~95% | Lefschetz (1,1) + Poincaré duality covers all H^{p,p} |
 | **Hodge for SO(n,2), all n** | **~82%** | Odd n ~80%, even n ~88% (Thm 5.5.2 O(n,2) resolution). |
-| **Layer 3 overall (general varieties)** | **~75%** | Route D ~82% + Route F ~80% + Route H ~55% + §5.10 explicit chain ~75% (Deligne/André/CDK95/DPI). O(n,2) resolution + OG10 stable range + Lefschetz. |
+| **Layer 3 overall (general varieties)** | **~75%** | Route D ~82% + Route F ~80% + Route H ~55% + Section 5.10 explicit chain ~75% (Deligne/André/CDK95/DPI). O(n,2) resolution + OG10 stable range + Lefschetz. |
 
 ### 5.7 The Group-Independent Lift Theorem (T151)
 
@@ -965,9 +965,9 @@ Theorem 5.13 proves the Hodge conjecture abstractly (Version A from T153, Versio
 
 #### 5.10.1 Step 1: Shimura Varieties (PROVED, Layer 1)
 
-**Theorem** (Restated from §3). *Every Hodge class on a smooth arithmetic quotient $\Gamma\backslash D_{IV}^n$ of an orthogonal type-IV domain, for any $n \geq 5$, is a rational linear combination of classes of algebraic cycles.*
+**Theorem** (Restated from Section 3). *Every Hodge class on a smooth arithmetic quotient $\Gamma\backslash D_{IV}^n$ of an orthogonal type-IV domain, for any $n \geq 5$, is a rational linear combination of classes of algebraic cycles.*
 
-*Proof.* Layer 1 (§3) for the base case $n = 5$. Theorem 5.5 for odd $n$. Theorem 5.5.2 for even $n$. The theta correspondence via the Howe dual pair $(O(n,2), \mathrm{Sp}(2p, \mathbb{R}))$ surjects onto every $A_{\mathfrak{q}}(0)$ module contributing to $H^{p,p}$: unique target (Theorem 5.2), non-degenerate pairing (Proposition 5.5.1, uniform Rallis), metaplectic splitting for odd $n$ / Gan-Takeda for even $n$. Boundary classes algebraic by Theorem 5.6 (boundary chain completeness). Combined confidence: ~82% for all $n$, ~95% for $n = 5$. $\square$
+*Proof.* Layer 1 (Section 3) for the base case $n = 5$. Theorem 5.5 for odd $n$. Theorem 5.5.2 for even $n$. The theta correspondence via the Howe dual pair $(O(n,2), \mathrm{Sp}(2p, \mathbb{R}))$ surjects onto every $A_{\mathfrak{q}}(0)$ module contributing to $H^{p,p}$: unique target (Theorem 5.2), non-degenerate pairing (Proposition 5.5.1, uniform Rallis), metaplectic splitting for odd $n$ / Gan-Takeda for even $n$. Boundary classes algebraic by Theorem 5.6 (boundary chain completeness). Combined confidence: ~82% for all $n$, ~95% for $n = 5$. $\square$
 
 This is the engine. The remaining steps transfer the result outward.
 
@@ -1049,7 +1049,7 @@ $$S_\alpha = \{s \in S : \alpha_s \in F^p H^{2p}(X_s, \mathbb{C})\}$$
 
 *Proof.* The argument proceeds by a hierarchy of reductions.
 
-**Reduction 1: To primitive middle cohomology.** By the Lefschetz hyperplane theorem and hard Lefschetz, it suffices to prove the conjecture for primitive Hodge classes $\alpha \in H^{p,p}_{\mathrm{prim}}(X)$ with $2p \leq d$ (§5.9, "Reduction to Primitive Middle Cohomology"). Non-primitive classes are images of lower-degree classes under the Lefschetz operator; classes with $2p > d$ are handled by Poincaré duality.
+**Reduction 1: To primitive middle cohomology.** By the Lefschetz hyperplane theorem and hard Lefschetz, it suffices to prove the conjecture for primitive Hodge classes $\alpha \in H^{p,p}_{\mathrm{prim}}(X)$ with $2p \leq d$ (Section 5.9, "Reduction to Primitive Middle Cohomology"). Non-primitive classes are images of lower-degree classes under the Lefschetz operator; classes with $2p > d$ are handled by Poincaré duality.
 
 **Reduction 2: To the Hodge locus.** Embed $X$ in a smooth projective family $f: \mathcal{X} \to S$ (this is always possible: take a Lefschetz pencil, or an embedding in projective space and deformation). The class $\alpha$ spreads to a flat section of $R^{2p}f_*\mathbb{Q}$ over the universal cover of $S$ (monodromy may be non-trivial, but the Hodge locus $S_\alpha$ is well-defined). By CDK95/BKT20 (Theorem 5.20), $S_\alpha$ is algebraic. The generic point of $S_\alpha$ parametrizes a variety $X_\eta$ carrying the Hodge class $\alpha_\eta$.
 
@@ -1075,7 +1075,7 @@ The right-hand side is the mutual information between the phantom and the spectr
 
 On a finite substrate (T153), the number of independent committed channels is finite. The Hodge filtration on $D_{IV}^5$ has exactly the committed channels accounted for by the theta lift (Layer 1). The spectral filter through $B_2$ is **complete**: the root system $B_2$ with multiplicities $(m_s, m_l, m_{2\alpha}) = (n-3, 1, 1)$ determines all spectral parameters contributing to $H^{p,p}$, and the theta correspondence exhausts them. No information can bypass this filter to create a phantom, because any such bypass would require $I(\alpha; \text{output}) > I(\alpha; \text{filter})$ — a DPI violation.
 
-The universality of this exclusion follows from T600 (§3 of [BST_DPI_Universal_Exclusion.md]): the structure of the Markov chain $X \to Y \to Z$ is the same regardless of which smooth projective variety $X$ we start with. The algebraic cycles are the source. The Hodge filtration is the channel. The Hodge classes are the output. DPI forbids phantoms universally, not just on Shimura varieties.
+The universality of this exclusion follows from T600 (Section 3 of [BST_DPI_Universal_Exclusion.md]): the structure of the Markov chain $X \to Y \to Z$ is the same regardless of which smooth projective variety $X$ we start with. The algebraic cycles are the source. The Hodge filtration is the channel. The Hodge classes are the output. DPI forbids phantoms universally, not just on Shimura varieties.
 
 **Concretely:** for a general smooth projective $X$, the Hodge class $\alpha$ lives on the algebraic Hodge locus $S_\alpha$ (CDK95). Specialization within $S_\alpha$ preserves the Hodge property. If ANY fiber of $S_\alpha$ has the property that $\alpha$ is algebraic on that fiber, then $\alpha$ is algebraic on the generic fiber by the invariant cycle theorem (Deligne, SGA 7), provided the family is sufficiently non-degenerate. The fibers include:
 
@@ -1256,7 +1256,7 @@ The following computational experiments would strengthen the proof:
 
 **Toy 400** (D₃ Hodge Filtration, Elie, **10/10 PASS, MILESTONE**): D₃ at identity = 9 = 1+3+5 = N_c². Grade k → Casimir C₂=k(5-k)+6: [6,10,12]. Three faces of D₃: spectral (RH), arithmetic (BSD), algebraic (Hodge). B₂ formula d_k=2k+1. BSD↔Hodge dictionary: 8 parallel entries. AC(0) (C=2, D=1). All six Millennium problems at D ≤ 1 (T421). Palindrome [1,3,5,5,3,1].
 
-**Toy 401** (Boundary cohomology, Elie, **10/10 PASS**): Two boundary strata: P₁ (D_IV^3, codim 2) + P₂ (modular curve, codim 4). KEY FINDING: ONLY boundary contribution to H^{2,2} is H^{0,0}(D_IV^3) via Gysin — fundamental class, trivially algebraic. SO₀(3,2) ≅ Sp(4,R) exceptional isomorphism → P₁ is a Siegel modular threefold. P₂ Langlands-Shahidi = BSD §3 transfer. Hodge known at 7/7 boundary levels. Zucker+BBD+Saito completeness. Boundary: ~75% → ~92%.
+**Toy 401** (Boundary cohomology, Elie, **10/10 PASS**): Two boundary strata: P₁ (D_IV^3, codim 2) + P₂ (modular curve, codim 4). KEY FINDING: ONLY boundary contribution to H^{2,2} is H^{0,0}(D_IV^3) via Gysin — fundamental class, trivially algebraic. SO₀(3,2) ≅ Sp(4,R) exceptional isomorphism → P₁ is a Siegel modular threefold. P₂ Langlands-Shahidi = BSD Section 3 transfer. Hodge known at 7/7 boundary levels. Zucker+BBD+Saito completeness. Boundary: ~75% → ~92%.
 
 **Toy 402** (Covering group, Elie, **10/10 PASS**): Metaplectic cover SPLITS (dim V=7 is ODD). Theta lift produces CLASSICAL Siegel modular forms. det=−1 acts as (−1)^{2p}=+1 on H^{p,p} → A_q(0) restricts irreducibly to SO(5,2). Codimension range: p=2 ≤ 5/2 (KM special cycles exist). Howe duality unconditional [Ho89] (note: standard stable range NOT satisfied at this codimension, but not needed). Gan-Takeda: refined theta for SO(5,2)×Sp(4) is a bijection. Siegel-Weil: s₀=2 > ρ_P=3/2, absolutely convergent. T112: ~93% → ~97%. Layer 1: ~92% → ~95%.
 
@@ -1307,7 +1307,7 @@ Honest accounting of what is proved and what remains. Each component is rated in
 | 3 | KS functor (Route E) | ~40% (up: Floccari et al., Markman abelian fourfolds ~95%) |
 | 3 | Prismatic cohomology (Route I) | ~15% (EKP work in progress, no preprint, counterexamples [CD25]) |
 | 3 | Extension to general varieties (geometric) | **~72%** (Route D ~82% + Route F ~80% + Route H ~55%. Restriction Principle + O(n,2) resolution.) |
-| 3 | **§5.10 Explicit extension chain** | **~75%** (Shimura → abelian [Deligne/André ~90%] → abelian type [~87%] → general [DPI T600 + CDK95 ~75%]) |
+| 3 | **Section 5.10 Explicit extension chain** | **~75%** (Shimura → abelian [Deligne/André ~90%] → abelian type [~87%] → general [DPI T600 + CDK95 ~75%]) |
 | | **Hodge for D_IV^5** | **~82%** (Layer 1 ~95% + Selmer flank ~25% → combined ~97%) |
 | | **Hodge for SO(7,2)** | **~90%** (Thm 5.4 + Toy 406: r₃=12B, H1 CLOSED) |
 | | **Hodge for SO(6,2)** | **~88%** (Thm 5.5.2: O(n,2) resolution. Toy 408.) |
@@ -1318,13 +1318,13 @@ Honest accounting of what is proved and what remains. Each component is rated in
 | | **Hodge for varieties of abelian type** | **~87%** (Corollary 5.19: correspondences transfer algebraicity from AV.) |
 | | **Hodge for hyperkähler (Kummer/OG6 dim 4)** | **~95%** (PROVED: Floccari-Varesco/Fu 2024-25) |
 | | **Hodge for hyperkähler (general)** | **~80%** (Route F: Verbitsky + Route D. K3^[n] FILLED. OG10 ~75% (Toy 413). Bottleneck: unknown HK types.) |
-| | **Full Hodge (geometric, Layer 3)** | **~75%** (Route D ~82% + Route F ~80% + Route H ~55% + §5.10 explicit chain ~75%.) |
+| | **Full Hodge (geometric, Layer 3)** | **~75%** (Route D ~82% + Route F ~80% + Route H ~55% + Section 5.10 explicit chain ~75%.) |
 | | **Full Hodge (Thm 5.13 two-path)** | **~93%** (Version A: substrate, one axiom T153, ~90%. Version B: classical bridge, Deligne + Tate, ~88%. Independent failure modes. Weight-independent. Depth 1.) |
-| | **Full Hodge Conjecture (combined)** | **~95%** (Two-path ~93% + explicit chain ~75% + geometric ~72%, independent backups. §5.10 bridges abstract→concrete. P(all paths fail) ≈ 0.07 × 0.25 ≈ 1.8%.) |
+| | **Full Hodge Conjecture (combined)** | **~95%** (Two-path ~93% + explicit chain ~75% + geometric ~72%, independent backups. Section 5.10 bridges abstract→concrete. P(all paths fail) ≈ 0.07 × 0.25 ≈ 1.8%.) |
 
 **Critical dependencies**:
 - **H^{2,2} RESOLVED (Toys 398+399+402)**: Only ONE A_q(0) module (Toy 398, 8/8). Rallis non-vanishing confirmed: r₂(Q)=6480, product ≈ −0.023 ≠ 0 (Toy 399, 10/10). Metaplectic cover SPLITS (dim V=7 odd), stable range confirmed, Gan-Takeda bijection for SO(5,2)×Sp(4), Siegel-Weil absolutely convergent (Toy 402, 10/10). T112 at **~97%**. Covering group subtlety CLOSED.
-- **Boundary RESOLVED (Toy 401, 10/10)**: ONLY boundary contribution to H^{2,2} is H^{0,0}(D_IV^3) via Gysin — fundamental class, trivially algebraic. SO₀(3,2) ≅ Sp(4,R). P₂ = BSD §3 transfer. Hodge known at 7/7 boundary levels. Zucker+BBD+Saito completeness. Weight filtration gap (wt 3 < wt 4) prevents δ from creating (2,2).
+- **Boundary RESOLVED (Toy 401, 10/10)**: ONLY boundary contribution to H^{2,2} is H^{0,0}(D_IV^3) via Gysin — fundamental class, trivially algebraic. SO₀(3,2) ≅ Sp(4,R). P₂ = BSD Section 3 transfer. Hodge known at 7/7 boundary levels. Zucker+BBD+Saito completeness. Weight filtration gap (wt 3 < wt 4) prevents δ from creating (2,2).
 - GRH for SO(5,2): Proved in [Koons 2026a] for ζ(s), extended to L(E,s) in the BSD proof.
 - Langlands functoriality: The extension to general varieties (Layer 3) depends on functorial transfer, which is the deepest open problem in the Langlands program.
 

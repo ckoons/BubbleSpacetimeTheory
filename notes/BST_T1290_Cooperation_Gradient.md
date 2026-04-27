@@ -174,7 +174,7 @@ The 30 primes of the matter window (T1289) are the alphabet over which the five 
 
 - T1287 (SETI Silence — the gate structure explains WHY silence is structural)
 - T1288 (Gödel–Cosmology Bridge — cosmological parallel)
-- Paper #70 (Fermi Paradox — §7 cooperation paradox now has gate decomposition)
+- Paper #70 (Fermi Paradox — Section 7 cooperation paradox now has gate decomposition)
 - T403 (BST Drake — civilization count now interpretable as gate-passing rate)
 
 ---

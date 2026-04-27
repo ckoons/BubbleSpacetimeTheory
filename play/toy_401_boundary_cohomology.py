@@ -317,7 +317,7 @@ def p2_langlands_shahidi():
     - Higher weights don't contribute new Hodge classes
       (they go to H^{p,q} with p ≠ q)
 
-    This is exactly the BSD proof §3 analysis.
+    This is exactly the BSD proof Section 3 analysis.
     """
     # L-function data for P₂
     levi_reps = {
@@ -836,13 +836,13 @@ def main():
     print("    Weight 2 → H^{1,1} (Hodge, Lefschetz)")
     print("    Weight 4 → H^{3,1} + H^{1,3} (NOT Hodge)")
     print("    Weight ≥4 → no NEW Hodge classes from P₂")
-    print("\n  This is EXACTLY the BSD proof §3 analysis.")
+    print("\n  This is EXACTLY the BSD proof Section 3 analysis.")
     print("  Transfer is immediate — same parabolic, same L-functions.")
 
     tests_total += 1
     ok = ls['r1']['dim'] + ls['r2']['dim'] == 9  # unipotent radical dim
     print(f"\n  [{'PASS' if ok else 'FAIL'}] 8. P₂ Langlands-Shahidi: r₁(dim 6) + r₂(dim 3) = 9 = dim N")
-    print(f"         BSD §3 transfers directly. No new work needed.")
+    print(f"         BSD Section 3 transfers directly. No new work needed.")
     if ok:
         tests_passed += 1
 
@@ -900,7 +900,7 @@ def main():
         print("The critical H^{2,2} boundary contribution is JUST the fundamental")
         print("class of the P₁ stratum — trivially algebraic. The P₁ stratum is a")
         print("Siegel modular threefold (SO(3,2) ≅ Sp(4)), where Hodge is known.")
-        print("P₂ analysis transfers from BSD §3 (same Langlands-Shahidi machinery).")
+        print("P₂ analysis transfers from BSD Section 3 (same Langlands-Shahidi machinery).")
         print("Zucker + BBD + Saito guarantee completeness. Layer 1: ~88% → ~92%.")
     else:
         print(f"{tests_passed}/{tests_total} passed.")

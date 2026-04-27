@@ -235,7 +235,7 @@ The trace of the heat kernel:
 
 $$\Theta(t) = \text{tr}(e^{-t\Delta}) = \sum_{k=0}^{\infty} d_k \, e^{-\lambda_k t}$$
 
-is the **partition function of the geometry** — the direct analog of $Z(\beta) = \sum_i e^{-\beta E_i}$ in statistical mechanics (Chapter 2, §5), with $t$ playing the role of inverse temperature $\beta$.
+is the **partition function of the geometry** — the direct analog of $Z(\beta) = \sum_i e^{-\beta E_i}$ in statistical mechanics (Chapter 2, Section 5), with $t$ playing the role of inverse temperature $\beta$.
 
 ### 6.3 Seeley-DeWitt Coefficients
 
@@ -254,7 +254,7 @@ The coefficients $a_k$ are **spectral invariants** — geometric quantities dete
 
 For $Q^5$: the coefficients have been computed through $a_{11}$ (Toys 241-278), with $a_{12}$ in progress (Toy 308). Each coefficient is a rational number whose numerator and denominator encode the prime structure of the geometry.
 
-**AC(0) character:** Each $a_k$ is a polynomial in curvature invariants, integrated over $M$. On a symmetric space, every curvature invariant is a constant (§3), so the integral is the constant times the volume. The coefficient is a rational function of the root system data. **[algebra + integration]**
+**AC(0) character:** Each $a_k$ is a polynomial in curvature invariants, integrated over $M$. On a symmetric space, every curvature invariant is a constant (Section 3), so the integral is the constant times the volume. The coefficient is a rational function of the root system data. **[algebra + integration]**
 
 ### 6.4 The AC(0) Content
 
@@ -262,7 +262,7 @@ The heat kernel connects geometry (curvature) to analysis (eigenvalues) to physi
 
 **Connection to RH:** The heat kernel trace formula on $\Gamma \backslash \mathrm{SO}_0(5,2)/K$ connects the eigenvalues (spectral side) to the geometry (orbital integrals). The Riemann Hypothesis is the statement that the spectral side has a specific structure ($\sigma = 1/2$) — forced by the root system multiplicities $1:3:5$ of $B_2$.
 
-**Tool for practitioners:** To compute heat kernel coefficients on a symmetric space: (1) compute the curvature invariants from the root system (§3); (2) integrate over the manifold (= multiply by volume, since invariants are constant); (3) assemble the universal polynomial in curvature invariants (tabulated through $k = 6$ in Gilkey 1975, through $k = 11$ in BST Toys 241-278).
+**Tool for practitioners:** To compute heat kernel coefficients on a symmetric space: (1) compute the curvature invariants from the root system (Section 3); (2) integrate over the manifold (= multiply by volume, since invariants are constant); (3) assemble the universal polynomial in curvature invariants (tabulated through $k = 6$ in Gilkey 1975, through $k = 11$ in BST Toys 241-278).
 
 -----
 
@@ -294,7 +294,7 @@ This zeta function encodes the full mass spectrum of BST. Its relationship to th
 
 ### 7.4 The AC(0) Content
 
-The spectral zeta function plays the same role in geometry that the partition function plays in thermodynamics (Chapter 2, §5) and the moment-generating function plays in probability. It is the single function from which all spectral information can be extracted by differentiation and residue computation.
+The spectral zeta function plays the same role in geometry that the partition function plays in thermodynamics (Chapter 2, Section 5) and the moment-generating function plays in probability. It is the single function from which all spectral information can be extracted by differentiation and residue computation.
 
 **The hierarchy of generating functions:**
 
@@ -323,7 +323,7 @@ All four are the same mathematical structure: a Dirichlet series or Laplace tran
 | 7 | 8 | $8\pi^7 \approx 24{,}162$ | No — too heavy |
 | 9 | 10 | $10\pi^9 \approx 296{,}088$ | No — far too heavy |
 
-**AC(0) character:** The table is arithmetic — multiply integers by powers of $\pi$. The selection of $n = 5$ is determined by comparing to the observed ratio $m_p/m_e = 1836.15...$. But BST provides 21 independent uniqueness conditions (WorkingPaper §37.5) that select $n_C = 5$ without any experimental input. **[counting + uniqueness]**
+**AC(0) character:** The table is arithmetic — multiply integers by powers of $\pi$. The selection of $n = 5$ is determined by comparing to the observed ratio $m_p/m_e = 1836.15...$. But BST provides 21 independent uniqueness conditions (WorkingPaper Section 37.5) that select $n_C = 5$ without any experimental input. **[counting + uniqueness]**
 
 ### 8.2 The AC(0) Content
 

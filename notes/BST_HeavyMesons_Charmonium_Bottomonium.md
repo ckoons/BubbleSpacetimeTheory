@@ -54,7 +54,7 @@ The ratios between heavy meson masses reveal clean BST integers:
 |-------|-----------|----------|-------|----------------|
 | $m_{J/\psi}/m_\rho$ | 4 = $\dim_{\mathbb{R}}(\mathbb{CP}^2)$ | 3.994 | 0.15% | Real dimension of the $\mathbb{CP}^2$ fiber |
 | $m_\Upsilon/m_{J/\psi}$ | 3 = $N_c$ | 3.054 | 1.8% | Cardinality of the color cycling group |
-| $m_B/m_D$ | $2\sqrt{2}$ = Tsirelson bound | 2.831 | 0.10% | Quantum correlation bound (see §5) |
+| $m_B/m_D$ | $2\sqrt{2}$ = Tsirelson bound | 2.831 | 0.10% | Quantum correlation bound (see Section 5) |
 | $m_\Upsilon/m_\rho$ | 12 = $2C_2$ | 12.20 | 1.7% | Full Bergman kernel round trip |
 
 The first ratio (0.15%) is exceptionally precise. The $\Upsilon/J\psi$ ratio at 1.8% is the least precise — this is noted honestly and may indicate that the $\Upsilon$ formula requires a small correction from the full Bergman metric.

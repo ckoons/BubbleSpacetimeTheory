@@ -43,7 +43,7 @@ c3 = 13
 c4 = 9
 c5 = 3
 
-print("\n§1. THE SATAKE ISOMORPHISM")
+print("\nSection 1. THE SATAKE ISOMORPHISM")
 print("-" * 50)
 
 print("""
@@ -73,7 +73,7 @@ print(f"  |W(C₃)| = {W_C3}")
 print(f"  Compare: |W(B₂)| = {2**2 * factorial(2)} = 8 (restricted root system)")
 print(f"  Ratio: {W_C3}/8 = {W_C3//8} = C₂ = mass gap!")
 
-print("\n§2. SATAKE PARAMETERS FOR DISCRETE SERIES")
+print("\nSection 2. SATAKE PARAMETERS FOR DISCRETE SERIES")
 print("-" * 50)
 
 print("""
@@ -112,7 +112,7 @@ print(f"  - a₁ · a₂ · a₃ at k=0: (5/2)(3/2)(1/2) = 15/8")
 prod_0 = Fraction(5, 2) * Fraction(3, 2) * Fraction(1, 2)
 print(f"    = {prod_0} = N_c·n_C / 2^{N_c}")
 
-print("\n§3. LOCAL L-FACTORS")
+print("\nSection 3. LOCAL L-FACTORS")
 print("-" * 50)
 
 print("""
@@ -149,7 +149,7 @@ print()
 print(f"  Width of critical strip = n_C = {n_C}")
 print(f"  Center of critical strip = 1/2 (the critical line)")
 
-print("\n§4. THE STANDARD L-FUNCTION AND GAUGE COUPLINGS")
+print("\nSection 4. THE STANDARD L-FUNCTION AND GAUGE COUPLINGS")
 print("-" * 50)
 
 print("""
@@ -193,7 +193,7 @@ print("\n  The pole at ζ(1) from the pair ζ(s-1/2)ζ(s+1/2) at s=3/2")
 print("  is precisely the Eisenstein contribution — this is WHERE")
 print("  the Riemann zeros enter the BST spectral decomposition!")
 
-print("\n§5. THREE PAIRS = THREE COLORS")
+print("\nSection 5. THREE PAIRS = THREE COLORS")
 print("-" * 50)
 
 print("""
@@ -243,7 +243,7 @@ print(f"  ★ p₂(k=0) = n_C × g / 4 = {n_C*g}/4 = {Fraction(n_C*g,4)}")
 print(f"    The sum of squares of Satake parameters = n_C × g / 4!")
 print(f"    This is the quadratic Casimir of the ground state.")
 
-print("\n§6. THE ADJOINT L-FUNCTION AND α_s")
+print("\nSection 6. THE ADJOINT L-FUNCTION AND α_s")
 print("-" * 50)
 
 print("""
@@ -283,7 +283,7 @@ print("    This is the standard Langlands formula for coupling constants!")
 print(f"    In BST: α_s(m_Z) = c₁ = N_c/n_C = {N_c}/{n_C} = 0.6")
 print(f"    After 1-loop running: α_s(m_Z) ≈ 0.118")
 
-print("\n§7. CONDUCTORS AND RAMIFICATION")
+print("\nSection 7. CONDUCTORS AND RAMIFICATION")
 print("-" * 50)
 
 print("""
@@ -319,7 +319,7 @@ print("    → L(1/2) > 0 for the standard L-function")
 print("    → No forced zeros at the central point")
 print("    → The only zeros are from the ζ-function factors")
 
-print("\n§8. THE EULER PRODUCT AND PRIME FACTORIZATION")
+print("\nSection 8. THE EULER PRODUCT AND PRIME FACTORIZATION")
 print("-" * 50)
 
 print("""
@@ -352,7 +352,7 @@ for p in [2, 3, 5, 7, 11, 13]:
 print(f"\n  Note: primes 5, 7, 11, 13 are n_C, g, c₂, c₃")
 print(f"  The BST primes appear naturally in the Euler product!")
 
-print("\n§9. SPECTRAL DECOMPOSITION = PARTICLE CONTENT")
+print("\nSection 9. SPECTRAL DECOMPOSITION = PARTICLE CONTENT")
 print("-" * 50)
 
 print("""
@@ -385,7 +385,7 @@ for k in range(1, 8):
     a1 = Fraction(2*k + 5, 2)
     print(f"  {k:>3} {d_k:>6} {lam_k:>6} {ratio:>12.6f} {str(a1):>10}")
 
-print("\n§10. THE RANKIN-SELBERG L-FUNCTION")
+print("\nSection 10. THE RANKIN-SELBERG L-FUNCTION")
 print("-" * 50)
 
 print("""
@@ -424,7 +424,7 @@ print(f"  The 9 = N_c² appears in BOTH: this is the gluon self-coupling.")
 print(f"  The 6 = C₂ appears in Sym²: diquarks (same color pair).")
 print(f"  The 3 = N_c appears in Λ²: antisymmetric color = baryons!")
 
-print("\n§11. THE TENSOR PRODUCT HIERARCHY")
+print("\nSection 11. THE TENSOR PRODUCT HIERARCHY")
 print("-" * 50)
 
 print("""
@@ -468,7 +468,7 @@ print(f"  The exterior algebra dimension: ∑ C(6,k) = 2^6 = 64")
 print(f"  64 = 4³ = q^L = number of codons!")
 print(f"  The TOTAL exterior algebra of the standard rep = codon count!")
 
-print("\n§12. WHITTAKER MODELS AND MASS FORMULAS")
+print("\nSection 12. WHITTAKER MODELS AND MASS FORMULAS")
 print("-" * 50)
 
 print("""
@@ -508,7 +508,7 @@ print(f"    = {a_prod_1}")
 print(f"    N_c × n_C × g = {N_c * n_C * g} = 105")
 print(f"    105/8 = {Fraction(105, 8)} ✓")
 
-print("\n§13. THE STANDARD MODEL AS L-GROUP DECOMPOSITION")
+print("\nSection 13. THE STANDARD MODEL AS L-GROUP DECOMPOSITION")
 print("-" * 50)
 
 print("""
@@ -542,7 +542,7 @@ print("""
 """)
 
 print("=" * 72)
-print("§14. SUMMARY")
+print("Section 14. SUMMARY")
 print("=" * 72)
 
 print(f"""

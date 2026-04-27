@@ -43,11 +43,11 @@ print("=" * 72)
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §1. MONTE CARLO INTEGRATION
+# Section 1. MONTE CARLO INTEGRATION
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§1. MONTE CARLO INTEGRATION")
+print("Section 1. MONTE CARLO INTEGRATION")
 print("    AC = 0 on smooth low-d; AC > 0 on rough high-d")
 print("=" * 72)
 
@@ -122,11 +122,11 @@ for dim in [1, 2, 3, 5, 8, 12, 20]:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §2. CONVEX OPTIMIZATION
+# Section 2. CONVEX OPTIMIZATION
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§2. CONVEX OPTIMIZATION")
+print("Section 2. CONVEX OPTIMIZATION")
 print("    AC = 0 on convex (unique minimum); AC > 0 on non-convex")
 print("=" * 72)
 
@@ -202,11 +202,11 @@ print(f"  Rastrigin: exponentially many local minima → topology traps gradient
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §3. GRADIENT DESCENT — LOCAL MINIMA = TOPOLOGICAL TRAPS
+# Section 3. GRADIENT DESCENT — LOCAL MINIMA = TOPOLOGICAL TRAPS
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§3. GRADIENT DESCENT LOCAL MINIMA ANALYSIS")
+print("Section 3. GRADIENT DESCENT LOCAL MINIMA ANALYSIS")
 print("    How many distinct local minima does gradient descent find?")
 print("=" * 72)
 
@@ -248,11 +248,11 @@ print(f"  local gradient information → AC > 0.")
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §4. INFORMATION DECOMPOSITION
+# Section 4. INFORMATION DECOMPOSITION
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§4. INFORMATION DECOMPOSITION — ALL METHODS")
+print("Section 4. INFORMATION DECOMPOSITION — ALL METHODS")
 print("=" * 72)
 
 print(f"""
@@ -282,11 +282,11 @@ print(f"""
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §5. THE AC CRITERION — WHEN IS A PROBLEM HARD?
+# Section 5. THE AC CRITERION — WHEN IS A PROBLEM HARD?
 # ═══════════════════════════════════════════════════════════════════
 
 print("=" * 72)
-print("§5. THE AC CRITERION")
+print("Section 5. THE AC CRITERION")
 print("=" * 72)
 
 print(f"""
@@ -326,11 +326,11 @@ print(f"""
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §6. SCORECARD
+# Section 6. SCORECARD
 # ═══════════════════════════════════════════════════════════════════
 
 print("=" * 72)
-print("§6. SCORECARD")
+print("Section 6. SCORECARD")
 print("=" * 72)
 
 checks = [

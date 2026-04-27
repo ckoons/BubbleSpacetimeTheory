@@ -13,7 +13,7 @@ framework: "AC(0), depth 0"
 
 ---
 
-## §1. The Theorem
+## Section 1. The Theorem
 
 **Theorem T720 (α⁴ Universality).** Let $\alpha = 1/N_{\max} = 1/137$ be the fine structure constant derived from the maximal root length of $D_{IV}^5$. Every BST observable that probes the spectral decomposition of $D_{IV}^5$ through restricted root directions contains the factor $\alpha^{2 \times \text{rank}} = \alpha^4$. The fourth power encodes rank 2: each of the two restricted root directions $(e_1, e_2)$ contributes one factor of $\alpha^2$ (coupling × propagator).
 
@@ -49,7 +49,7 @@ BST's rank = 2 is determined by the Cartan decomposition of $\mathfrak{so}(5,2)$
 
 ---
 
-## §2. Detailed Analysis of Each Instance
+## Section 2. Detailed Analysis of Each Instance
 
 ### 2.1 Primordial Amplitude (T712)
 
@@ -75,7 +75,7 @@ The $\alpha^4$ factor arises from the second-order relativistic correction to th
 
 ---
 
-## §3. The Universality Pattern
+## Section 3. The Universality Pattern
 
 ### 3.1 Classification
 
@@ -103,7 +103,7 @@ and $\Lambda$ becomes $(\alpha^4)^{2g}$ times a rational function of BST integer
 
 ---
 
-## §4. Predictions
+## Section 4. Predictions
 
 1. **No BST observable will involve $\alpha^3$, $\alpha^5$, or any odd power of α.** Odd powers would require a half-integer rank, which is impossible for a bounded symmetric domain.
 
@@ -115,7 +115,7 @@ and $\Lambda$ becomes $(\alpha^4)^{2g}$ times a rational function of BST integer
 
 ---
 
-## §5. Connection to Other Theorems
+## Section 5. Connection to Other Theorems
 
 - **T712** (Primordial Amplitude): The CMB instance of α⁴ universality.
 - **T719** (Observable Algebra): α⁴ is the only transcendental that enters beyond π; it does so through $\alpha = 1/N_{\max}$.

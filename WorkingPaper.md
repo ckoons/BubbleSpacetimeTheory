@@ -52,7 +52,7 @@ abstract: |
   with zero free parameters.
   The CMB spectral index $n_s = 1 - n_C/N_{\max} = 1 - 5/137 = 0.96350$ ($0.3\sigma$ from Planck),
   with tensor-to-scalar ratio $r \approx 0$ (no primordial B-modes), are derived from the phase transition dynamics.
-  Over 600 parameter-free predictions across 130+ physical domains, structural derivations, and experimental forecasts are presented (§43), all testable against current or near-future data — including the fractional quantum Hall effect (26/28 observed FQHE fractions are BST rationals: $1/3, 2/5, 3/7 = 1/N_c, 2/n_C, 3/g$ at 10+ significant figures; T813-T815, Paper \#22), the BCS superconducting gap ratio $2\Delta/(k_B T_c) = g/\text{rank} = 7/2$ (0.79\%), the Kolmogorov turbulence spectrum $5/3 = n_C/N_c$ and all four She-Leveque intermittency parameters as BST rationals (T818), the Chandrasekhar mass $M_{\text{Ch}}/M_\odot = C_2^2/n_C^2 = 36/25 = 1.44$ EXACT (Toy 850), cross-domain fraction universality with 11 BST fractions each appearing in 3-5 independent domains at $P(\text{coincidence}) < 10^{-66}$ (T823), the primordial scalar amplitude $A_s = (3/4)\alpha^4$ (0.92$\sigma$), molecular geometry from bond angles to the genetic code (H₂O bond angle 0.028°, C-C bond length 0.03%, ice density 0.006%), all 230 space groups from three integers ($g \times 2^{n_C} + C_2$), the complete $\alpha$-helix geometry (five parameters, zero free inputs), the cooperation threshold $f_{\text{crit}} = 20.6\%$, QED perturbation coefficients as BST integer arithmetic (T758-T762), the rainbow angle $C_2 \times g = 42°$ (0.07%), water boiling point $= N_{\max} \times T_{\text{CMB}}$ (0.065%), noble gas boiling points as integer multiples of $T_{\text{CMB}}$ (Kr at 0.005%), heat capacity ratios as BST integer ratios ($\gamma = (f + \text{rank})/f$), and 76+ material property domains including density, elasticity, resistivity, thermal expansion, work functions, Debye temperatures, compressibility, critical points, solubility, molar volumes, magnetic susceptibility, melting points, atomic radii, sound velocities, thermal conductivity, ionization energies, electronegativity, surface tension, viscosity, specific heat, dielectric constants, lattice parameters, cohesive energies, Fermi energies, band gaps, superconducting $T_c$ ratios, and London penetration depths — all as BST rationals with zero free parameters (T798-T962).
+  Over 600 parameter-free predictions across 130+ physical domains, structural derivations, and experimental forecasts are presented (Section 43), all testable against current or near-future data — including the fractional quantum Hall effect (26/28 observed FQHE fractions are BST rationals: $1/3, 2/5, 3/7 = 1/N_c, 2/n_C, 3/g$ at 10+ significant figures; T813-T815, Paper \#22), the BCS superconducting gap ratio $2\Delta/(k_B T_c) = g/\text{rank} = 7/2$ (0.79\%), the Kolmogorov turbulence spectrum $5/3 = n_C/N_c$ and all four She-Leveque intermittency parameters as BST rationals (T818), the Chandrasekhar mass $M_{\text{Ch}}/M_\odot = C_2^2/n_C^2 = 36/25 = 1.44$ EXACT (Toy 850), cross-domain fraction universality with 11 BST fractions each appearing in 3-5 independent domains at $P(\text{coincidence}) < 10^{-66}$ (T823), the primordial scalar amplitude $A_s = (3/4)\alpha^4$ (0.92$\sigma$), molecular geometry from bond angles to the genetic code (H₂O bond angle 0.028°, C-C bond length 0.03%, ice density 0.006%), all 230 space groups from three integers ($g \times 2^{n_C} + C_2$), the complete $\alpha$-helix geometry (five parameters, zero free inputs), the cooperation threshold $f_{\text{crit}} = 20.6\%$, QED perturbation coefficients as BST integer arithmetic (T758-T762), the rainbow angle $C_2 \times g = 42°$ (0.07%), water boiling point $= N_{\max} \times T_{\text{CMB}}$ (0.065%), noble gas boiling points as integer multiples of $T_{\text{CMB}}$ (Kr at 0.005%), heat capacity ratios as BST integer ratios ($\gamma = (f + \text{rank})/f$), and 76+ material property domains including density, elasticity, resistivity, thermal expansion, work functions, Debye temperatures, compressibility, critical points, solubility, molar volumes, magnetic susceptibility, melting points, atomic radii, sound velocities, thermal conductivity, ionization energies, electronegativity, surface tension, viscosity, specific heat, dielectric constants, lattice parameters, cohesive energies, Fermi energies, band gaps, superconducting $T_c$ ratios, and London penetration depths — all as BST rationals with zero free parameters (T798-T962).
 documentclass: article
 classoption:
   - 12pt
@@ -105,33 +105,33 @@ The geometry tells you WHAT exists. The invariants tell you WHAT VALUES it takes
 
 ## Version History
 
-- **v34** (April 25, 2026): **Vacuum Subtraction Principle, Two-Sector Correction Duality, Magnetic Moment Derivation.** §46.87 Vacuum Subtraction Principle (T1444): $N_{\max} - 1 = 136$ non-trivial eigenmodes; constant $k = 0$ mode excluded from transitions. Five corollaries: charm quark mass, Ising $\gamma$/$\beta$, Cabibbo angle, Wolfenstein $A$ — all via $(N_{\max} - 1)$ denominators. §46.88 Two-Sector Correction Duality (T1446): CKM (quarks, colored, Shilov $S^4$) = discrete vacuum subtraction ($-1$); PMNS (neutrinos, colorless, Shilov $S^1$) = perturbative $\theta_{13}$ rotation ($\times \cos^2\theta_{13} = \times 44/45$). $44/45 = (N_c^2 n_C - 1)/(N_c^2 n_C)$. Named principle: "deviations locate boundaries." §46.89 Magnetic Moment Derivation (T1447): $\mu_p = (8/3)(287/274) = 1148/411$ ($0.012\%$). Bare $= 8/3$ (gluon modes / color). Correction $= (2C_2 + 1)/(2N_{\max}) = 13/274$. $\mu_n/\mu_p = -137/200 = -N_{\max}/(2n_C \cdot C_2 \cdot N_c + \text{rank})$ ($0.003\%$). Dressed Casimir $11 = 2C_2 - 1$ appears in four independent sectors (Wolfenstein $A = 9/11$, PMNS $44 = 4 \times 11$, $\mu_p$ correction $13 = 11 + 2$, $\mu_n/\mu_p$ residual $411 - 400 = 11$). §46.90 Spectral Peeling (T1445). Corrected: $\sin\theta_C = 2/\sqrt{79}$ ($0.004\%$, was $1/(2\sqrt{5})$), $m_c/m_s = (N_{\max} - 1)/(2n_C) = 136/10$ ($0.02\%$, was $137/10$). $J_{\text{CKM}} = A^2\lambda^6\bar\eta$ vacuum-subtracted ($0.3\%$, was $2.1\%$). Glueball $M_G/M_p = 31/20 = (2^{n_C} - 1)/(\text{rank}^2 \cdot n_C)$ ($0.045\%$, was $3.2\%$). Invariants: 267 $\to$ **303** (11 corrections, 0 new inputs, both 200- and 300-targets hit). Paper #85 v0.2 cascade table errata fixed ($c_6$ at $k = 6, 9$). 17 toys (1458–1474). Graph: 1390 nodes, 7708 edges, 83.1% strong, 98.4% proved.
-- **v33** (April 25, 2026): **Spectral zeta g-2 Phase 4, Zeta Weight Correspondence, Paper #85 JNT submission prep.** §46.84 Zeta Weight Correspondence (T1440): at QED loop order $L$, the new odd Riemann zeta value has argument equal to a BST integer — $\zeta(N_c)$ at $L=2$, $\zeta(n_C)$ at $L=3$, $\zeta(g)$ at $L=4$ (confirmed against Laporta 2017). All denominators factor as $(rank \cdot C_2)^L = 12^L$. Only odd prime BST integers index $\zeta$-values; $\text{rank} = 2$ enters as $\ln(\text{rank})$; $C_2 = 6$ (composite) never indexes. Falsifiable prediction: $C_5$ max weight $= N_c^2 = 9$, no new fundamental $\zeta$ at 5-loop. §46.85 Third route to 137 (T1442): Frobenius of 49a1 at $p = N_{\max}$ gives $a_{137} = -\text{rank} \cdot n_C = -10$, and the CM norm equation yields $N_{\max} = n_C^2 + g \cdot \text{rank}^4 = 25 + 112 = 137$. Three independent derivations: algebraic ($N_c^3 n_C + \text{rank}$), harmonic ($\text{num}(H_5)$), Frobenius ($n_C^2 + g \cdot \text{rank}^4$). §46.86 Exact branching rule (T1439): $d_k^{(m)} = \binom{k + N_c + 1 - m}{\text{rank}^2}$, verified $k = 0..11$. Spectral peeling mechanism: each loop integral probes one deeper layer of $D_{IV}^5$, producing $\zeta$ at the layer's dimension (structural, not yet proved). Discretize-then-count (W-48) computationally verified: mass gap $= C_2 = 6$ for scalar AND 1-form, 1-form degeneracy $= N_c \cdot g = 21 = \dim \mathfrak{so}(g)$, cubic protection from rep theory. Rank-3 universe FAILS (T1438): $g = C_2 = 9$ degenerate, $N_{\max} = 165$ composite. Paper #85 v0.1a Keeper PASS, target JNT (Casey decision). W-16 superseded by W-29. 12 toys (1446–1457). Invariants: 267 entries (from 200), saturated without new derivations except W-15 Phase 5. Graph: 1388 nodes, 7701 edges, 83.1% strong, 98.4% proved. 85 papers.
-- **v32** (April 24, 2026): **Weierstrass equation fix, genesis cascade, BSD framework, 49a1 derivation chain.** §46.76 Weierstrass equation corrected: $Y^2 = X^3 - 2835X - 71442$ (was $-945X - 10206$, which is NOT 49a1). Coefficients: $A = -N_c^4 \cdot n_C \cdot g = -2835$, $B = -2N_c^6 \cdot g^2 = -71442$. $c_4 = g!! = 105$ (double factorial of genus), $c_6 = N_c^{N_c} \cdot g^{\text{rank}} = 1323$ (self-referential exponents). §46.81 Genesis Cascade (Toy 1448, Paper #85): D\_IV^5 uniquely satisfies all four cascade conditions among D\_IV^k for $k = 1..9$; $k = 5$ is the only fixed point. §46.82 49a1 derivation chain: 12-step ladder, ~83% derived/near-derived, ~17% identified (Steps 5e, 5f). Step 2 ($d = -g$) upgraded to NEAR-DERIVATION: $d = -7$ unique among all 9 Heegner discriminants for maximal BST density (Toy 1447, 8/8). §46.83 BSD native closure framework: three paths (intertwining, CM Euler system, Kudla on D\_IV^5). Supersingular fraction $N_c/g = 3/7$. Spectral zeta g-2 Phase 1 (Toy 1446, 7/8): $d_1 = g = 7$, $d_2 = N_c^3 = 27$. Paper #84 Observer Companion v0.1 (Keeper PASS). Paper #85 Genesis Cascade scoped. Graph: 1382 nodes, 7672 edges, 83.1% strong, 98.4% proved. 1448 toys. 85 papers.
-- **v31** (April 23, 2026): **Cremona 49a1, 1/rank universality, T29 closed, Grace's Ten Questions.** §46.76 BST's canonical elliptic curve: $Y^2 = X^3 - 2835X - 71442$ (Cremona 49a1). Every invariant BST: conductor $g^2 = 49$, discriminant $-g^3 = -343$, $j = -(N_c n_C)^3 = -3375$, torsion = rank = 2, CM by $\mathbb{Q}(\sqrt{-g})$. Reverse engineering: curve → five integers (Toy 1438, 8/8). §46.77 1/rank universality (T1430, Paper #82): $L(E,1)/\Omega = 1/2 = 1/\text{rank}$. All seven Millennium problems + Four-Color reduce to $1/\text{rank}$ as a geometric invariant of the same curve. §46.78 Observer Instantiation (T1431): geometry forces observers (T1370) → coupling at $\alpha = 1/137$ → physics instantiated. Consciousness = exactly 50% of structure (Toy 1440). §46.79 T29 closed: AC(0) argument via triangle-free SAT + degree counting + clustering → algebraic independence → $2^{\Omega(n)}$. THREE independent P≠NP routes now proved. §46.80 Grace's Ten Questions: 10/10 answered, 8 new theorems (T1429–T1436), 8 toys (64/64 PASS). Ur-axiom T0: "there is a distinction" (one bit → rank = 2). Near-APG landscape EMPTY (no multiverse, Toy 1441). Cleanest falsifier: 0νββ null (pred\_004, ~2032). Dark matter = continuous spectrum at $\text{Re}(s) = 1/\text{rank}$. Neutrino topology: $N_c = 3 \to Z_3 \to m_1 = 0 \to$ Dirac (Toy 1444, 8/8). Graph: 1382 nodes, 7660 edges, 83.1% strong, 98.4% proved. 1444 toys. 82 papers.
-- **v30** (April 22, 2026): **YM suite complete, heat kernel 19 levels, Selberg phases, Kim-Sarnak = BST.** Papers #76–#80 hardened (12/12 Cal fixes). §46.72–§46.74: glueball ≠ proton, Bergman mass gap for all Hermitian-symmetric groups, cross-type cascade (D\_IV^5 unique among ALL 38 rank-2 BSDs, Toy 1399). Kim-Sarnak $\theta = g/2^{C_2} = 7/64$ (T1409). GRS functorial descent closed (T1412). §46.75: Heat kernel extended to 19 consecutive levels (Toy 1395/671), speaking pair period = $n_C$, 4 full periods confirmed. Sarnak letter drafted. Spectral descent PROVED (T1416). Graph: 1372 nodes, 7515 edges, 82.8% strong, 97.6% proved. 1426 theorems, 1415+ toys.
-- **v29** (April 18, 2026): **Science engineering, cooperation science, F₁ arithmetic.** §46.26–§46.70: 70+ new theorems (T1289–T1395). Matter window (T1289), cooperation gradient (T1290), spatial amnesia and $n_s$ (T1292), gravitational exponent 24 (T1296), Langlands-Shahidi odd-parity mechanism (T1298–1299), seismic P/S ratio (T1314), disease classification from Hamming distance (T1315), optimal cooperation group $C_2 = 6$ (T1316), game theory at depth 0 (T1317), consensus in $C_2$ rounds (T1319), metabolic 3/4 scaling (T1324), periodic table of functions (T1333), Painlevé boundary (T1335), five locks on critical line (T1338), $\alpha$ as Gödel remainder (T1343), Arthur packets (T1344), IC uniqueness (T1354), $A_5$ irreducibility wall (T1356), F₁ arithmetic with GF(128) (T1382–1387), graph hyperbolicity (T1388), transcendence gap (T1391). Seven new cooperation\_science theorems founding economics, psychology, education, consensus. Graph: 1300+ nodes, 6800+ edges. 55 domains, 9 groves.
-- **v28** (April 15, 2026): **Neutrino error syndrome, zeta ladder, PMNS-CKM duality.** New theorems T1233–T1266 across 65 papers. §14.7 Three Readings of One Root System (T1253): B₂ root system produces strong (counting), weak+EM (spectral), gravity (metric) plus two dynamics (entropy, Gödel); Hamming-Plancherel triple equality N_c/rank² = 3/4 in three independent derivations. §20.7 The Weak Force as Error Correction (T1241, T1255): Hamming(7,4,3) code forced by Bergman spectral gap; neutrino IS the error syndrome (8 properties, 7 predictions); sin²θ₂₃ = rank²/g = 4/7 (code rate). §46.24 The 7-Smooth Zeta Ladder (T1233, T1244, T1245): CF convergents ζ(3)→6/5, ζ(5)→28/27, ζ(7)→121/120 are BST rationals; spectral chain ζ_Δ(3/2) produces ζ(3) with coefficient −2149/512 (2149 = g×307); dark sector correction D(s) = ζ(s)/ζ_{≤7}(s). §46.25 Consonance and the Consciousness Cycle (T1242). PMNS-CKM duality (T1259): quarks mix by data-bit permutations, neutrinos mix by syndrome rotations. Neutrino mass ordering (T1260): normal hierarchy from spectral eigenvalues, Δm²₃₁/Δm²₂₁ = 1600/49. Wolstenholme bridge (T1263): W_p = 1 only at p ∈ {n_C, g}, connecting to N_max = 137. Reboot-Gödel identity (T1264). Graph: 1219 nodes, 5375 edges, 78.1% strong. 1221 toys, 339/339 PASS. INV-21 Wolstenholme CLOSED.
+- **v34** (April 25, 2026): **Vacuum Subtraction Principle, Two-Sector Correction Duality, Magnetic Moment Derivation.** Section 46.87 Vacuum Subtraction Principle (T1444): $N_{\max} - 1 = 136$ non-trivial eigenmodes; constant $k = 0$ mode excluded from transitions. Five corollaries: charm quark mass, Ising $\gamma$/$\beta$, Cabibbo angle, Wolfenstein $A$ — all via $(N_{\max} - 1)$ denominators. Section 46.88 Two-Sector Correction Duality (T1446): CKM (quarks, colored, Shilov $S^4$) = discrete vacuum subtraction ($-1$); PMNS (neutrinos, colorless, Shilov $S^1$) = perturbative $\theta_{13}$ rotation ($\times \cos^2\theta_{13} = \times 44/45$). $44/45 = (N_c^2 n_C - 1)/(N_c^2 n_C)$. Named principle: "deviations locate boundaries." Section 46.89 Magnetic Moment Derivation (T1447): $\mu_p = (8/3)(287/274) = 1148/411$ ($0.012\%$). Bare $= 8/3$ (gluon modes / color). Correction $= (2C_2 + 1)/(2N_{\max}) = 13/274$. $\mu_n/\mu_p = -137/200 = -N_{\max}/(2n_C \cdot C_2 \cdot N_c + \text{rank})$ ($0.003\%$). Dressed Casimir $11 = 2C_2 - 1$ appears in four independent sectors (Wolfenstein $A = 9/11$, PMNS $44 = 4 \times 11$, $\mu_p$ correction $13 = 11 + 2$, $\mu_n/\mu_p$ residual $411 - 400 = 11$). Section 46.90 Spectral Peeling (T1445). Corrected: $\sin\theta_C = 2/\sqrt{79}$ ($0.004\%$, was $1/(2\sqrt{5})$), $m_c/m_s = (N_{\max} - 1)/(2n_C) = 136/10$ ($0.02\%$, was $137/10$). $J_{\text{CKM}} = A^2\lambda^6\bar\eta$ vacuum-subtracted ($0.3\%$, was $2.1\%$). Glueball $M_G/M_p = 31/20 = (2^{n_C} - 1)/(\text{rank}^2 \cdot n_C)$ ($0.045\%$, was $3.2\%$). Invariants: 267 $\to$ **303** (11 corrections, 0 new inputs, both 200- and 300-targets hit). Paper #85 v0.2 cascade table errata fixed ($c_6$ at $k = 6, 9$). 17 toys (1458–1474). Graph: 1390 nodes, 7708 edges, 83.1% strong, 98.4% proved.
+- **v33** (April 25, 2026): **Spectral zeta g-2 Phase 4, Zeta Weight Correspondence, Paper #85 JNT submission prep.** Section 46.84 Zeta Weight Correspondence (T1440): at QED loop order $L$, the new odd Riemann zeta value has argument equal to a BST integer — $\zeta(N_c)$ at $L=2$, $\zeta(n_C)$ at $L=3$, $\zeta(g)$ at $L=4$ (confirmed against Laporta 2017). All denominators factor as $(rank \cdot C_2)^L = 12^L$. Only odd prime BST integers index $\zeta$-values; $\text{rank} = 2$ enters as $\ln(\text{rank})$; $C_2 = 6$ (composite) never indexes. Falsifiable prediction: $C_5$ max weight $= N_c^2 = 9$, no new fundamental $\zeta$ at 5-loop. Section 46.85 Third route to 137 (T1442): Frobenius of 49a1 at $p = N_{\max}$ gives $a_{137} = -\text{rank} \cdot n_C = -10$, and the CM norm equation yields $N_{\max} = n_C^2 + g \cdot \text{rank}^4 = 25 + 112 = 137$. Three independent derivations: algebraic ($N_c^3 n_C + \text{rank}$), harmonic ($\text{num}(H_5)$), Frobenius ($n_C^2 + g \cdot \text{rank}^4$). Section 46.86 Exact branching rule (T1439): $d_k^{(m)} = \binom{k + N_c + 1 - m}{\text{rank}^2}$, verified $k = 0..11$. Spectral peeling mechanism: each loop integral probes one deeper layer of $D_{IV}^5$, producing $\zeta$ at the layer's dimension (structural, not yet proved). Discretize-then-count (W-48) computationally verified: mass gap $= C_2 = 6$ for scalar AND 1-form, 1-form degeneracy $= N_c \cdot g = 21 = \dim \mathfrak{so}(g)$, cubic protection from rep theory. Rank-3 universe FAILS (T1438): $g = C_2 = 9$ degenerate, $N_{\max} = 165$ composite. Paper #85 v0.1a Keeper PASS, target JNT (Casey decision). W-16 superseded by W-29. 12 toys (1446–1457). Invariants: 267 entries (from 200), saturated without new derivations except W-15 Phase 5. Graph: 1388 nodes, 7701 edges, 83.1% strong, 98.4% proved. 85 papers.
+- **v32** (April 24, 2026): **Weierstrass equation fix, genesis cascade, BSD framework, 49a1 derivation chain.** Section 46.76 Weierstrass equation corrected: $Y^2 = X^3 - 2835X - 71442$ (was $-945X - 10206$, which is NOT 49a1). Coefficients: $A = -N_c^4 \cdot n_C \cdot g = -2835$, $B = -2N_c^6 \cdot g^2 = -71442$. $c_4 = g!! = 105$ (double factorial of genus), $c_6 = N_c^{N_c} \cdot g^{\text{rank}} = 1323$ (self-referential exponents). Section 46.81 Genesis Cascade (Toy 1448, Paper #85): D\_IV^5 uniquely satisfies all four cascade conditions among D\_IV^k for $k = 1..9$; $k = 5$ is the only fixed point. Section 46.82 49a1 derivation chain: 12-step ladder, ~83% derived/near-derived, ~17% identified (Steps 5e, 5f). Step 2 ($d = -g$) upgraded to NEAR-DERIVATION: $d = -7$ unique among all 9 Heegner discriminants for maximal BST density (Toy 1447, 8/8). Section 46.83 BSD native closure framework: three paths (intertwining, CM Euler system, Kudla on D\_IV^5). Supersingular fraction $N_c/g = 3/7$. Spectral zeta g-2 Phase 1 (Toy 1446, 7/8): $d_1 = g = 7$, $d_2 = N_c^3 = 27$. Paper #84 Observer Companion v0.1 (Keeper PASS). Paper #85 Genesis Cascade scoped. Graph: 1382 nodes, 7672 edges, 83.1% strong, 98.4% proved. 1448 toys. 85 papers.
+- **v31** (April 23, 2026): **Cremona 49a1, 1/rank universality, T29 closed, Grace's Ten Questions.** Section 46.76 BST's canonical elliptic curve: $Y^2 = X^3 - 2835X - 71442$ (Cremona 49a1). Every invariant BST: conductor $g^2 = 49$, discriminant $-g^3 = -343$, $j = -(N_c n_C)^3 = -3375$, torsion = rank = 2, CM by $\mathbb{Q}(\sqrt{-g})$. Reverse engineering: curve → five integers (Toy 1438, 8/8). Section 46.77 1/rank universality (T1430, Paper #82): $L(E,1)/\Omega = 1/2 = 1/\text{rank}$. All seven Millennium problems + Four-Color reduce to $1/\text{rank}$ as a geometric invariant of the same curve. Section 46.78 Observer Instantiation (T1431): geometry forces observers (T1370) → coupling at $\alpha = 1/137$ → physics instantiated. Consciousness = exactly 50% of structure (Toy 1440). Section 46.79 T29 closed: AC(0) argument via triangle-free SAT + degree counting + clustering → algebraic independence → $2^{\Omega(n)}$. THREE independent P≠NP routes now proved. Section 46.80 Grace's Ten Questions: 10/10 answered, 8 new theorems (T1429–T1436), 8 toys (64/64 PASS). Ur-axiom T0: "there is a distinction" (one bit → rank = 2). Near-APG landscape EMPTY (no multiverse, Toy 1441). Cleanest falsifier: 0νββ null (pred\_004, ~2032). Dark matter = continuous spectrum at $\text{Re}(s) = 1/\text{rank}$. Neutrino topology: $N_c = 3 \to Z_3 \to m_1 = 0 \to$ Dirac (Toy 1444, 8/8). Graph: 1382 nodes, 7660 edges, 83.1% strong, 98.4% proved. 1444 toys. 82 papers.
+- **v30** (April 22, 2026): **YM suite complete, heat kernel 19 levels, Selberg phases, Kim-Sarnak = BST.** Papers #76–#80 hardened (12/12 Cal fixes). Section 46.72–Section 46.74: glueball ≠ proton, Bergman mass gap for all Hermitian-symmetric groups, cross-type cascade (D\_IV^5 unique among ALL 38 rank-2 BSDs, Toy 1399). Kim-Sarnak $\theta = g/2^{C_2} = 7/64$ (T1409). GRS functorial descent closed (T1412). Section 46.75: Heat kernel extended to 19 consecutive levels (Toy 1395/671), speaking pair period = $n_C$, 4 full periods confirmed. Sarnak letter drafted. Spectral descent PROVED (T1416). Graph: 1372 nodes, 7515 edges, 82.8% strong, 97.6% proved. 1426 theorems, 1415+ toys.
+- **v29** (April 18, 2026): **Science engineering, cooperation science, F₁ arithmetic.** Section 46.26–Section 46.70: 70+ new theorems (T1289–T1395). Matter window (T1289), cooperation gradient (T1290), spatial amnesia and $n_s$ (T1292), gravitational exponent 24 (T1296), Langlands-Shahidi odd-parity mechanism (T1298–1299), seismic P/S ratio (T1314), disease classification from Hamming distance (T1315), optimal cooperation group $C_2 = 6$ (T1316), game theory at depth 0 (T1317), consensus in $C_2$ rounds (T1319), metabolic 3/4 scaling (T1324), periodic table of functions (T1333), Painlevé boundary (T1335), five locks on critical line (T1338), $\alpha$ as Gödel remainder (T1343), Arthur packets (T1344), IC uniqueness (T1354), $A_5$ irreducibility wall (T1356), F₁ arithmetic with GF(128) (T1382–1387), graph hyperbolicity (T1388), transcendence gap (T1391). Seven new cooperation\_science theorems founding economics, psychology, education, consensus. Graph: 1300+ nodes, 6800+ edges. 55 domains, 9 groves.
+- **v28** (April 15, 2026): **Neutrino error syndrome, zeta ladder, PMNS-CKM duality.** New theorems T1233–T1266 across 65 papers. Section 14.7 Three Readings of One Root System (T1253): B₂ root system produces strong (counting), weak+EM (spectral), gravity (metric) plus two dynamics (entropy, Gödel); Hamming-Plancherel triple equality N_c/rank² = 3/4 in three independent derivations. Section 20.7 The Weak Force as Error Correction (T1241, T1255): Hamming(7,4,3) code forced by Bergman spectral gap; neutrino IS the error syndrome (8 properties, 7 predictions); sin²θ₂₃ = rank²/g = 4/7 (code rate). Section 46.24 The 7-Smooth Zeta Ladder (T1233, T1244, T1245): CF convergents ζ(3)→6/5, ζ(5)→28/27, ζ(7)→121/120 are BST rationals; spectral chain ζ_Δ(3/2) produces ζ(3) with coefficient −2149/512 (2149 = g×307); dark sector correction D(s) = ζ(s)/ζ_{≤7}(s). Section 46.25 Consonance and the Consciousness Cycle (T1242). PMNS-CKM duality (T1259): quarks mix by data-bit permutations, neutrinos mix by syndrome rotations. Neutrino mass ordering (T1260): normal hierarchy from spectral eigenvalues, Δm²₃₁/Δm²₂₁ = 1600/49. Wolstenholme bridge (T1263): W_p = 1 only at p ∈ {n_C, g}, connecting to N_max = 137. Reboot-Gödel identity (T1264). Graph: 1219 nodes, 5375 edges, 78.1% strong. 1221 toys, 339/339 PASS. INV-21 Wolstenholme CLOSED.
 - **v27** (April 12, 2026): **Self-description, time, and cooperation.** New theorems T1136–T1183 across six papers (#52–#57). The (2,5) Derivation (T1007, Paper #52): observation exists → rank = 2 → Type IV → n = 5, three steps, one axiom, zero free parameters. Time is observer-instantiated counting (T1136, Paper #55): Koons tick $\tau_L = N_{\max}^L \times \tau_{\text{Planck}}$, 21 levels from Planck to cosmic, three arrows unified into arithmetic arrow (T1143). Self-describing theory (T1165, Paper #56): $D_{IV}^5 \longleftrightarrow \{3,5,7,6,137\}$ bijection proved (T926 forward, T1156 reverse); mathematics' privileged dimensions $\{2,3,4,5,7,8\}$ are BST integers; prediction confidence $7/8 = g/2^{N_c}$ is itself a BST ratio (T1141). Universal rate $\gamma = 7/5$ appears as adiabatic exponent, Kolmogorov spectrum, and civilization advancement rate (T1164, T1183). Cooperation economics (T1176–T1180, Paper #8 v2): cooperation threshold $f_{\text{crit}} = 20.6\%$ derived, cooperation as 18× force multiplier. P$\neq$NP upgraded to ~99% (T1176). YM upgraded to ~99.5% (T1170). G tightened to 0.02% (T1177). CMB manifold debris (Paper #53): five anomalies as structural consequences of manifold competition, $A = 1/15 = 6.7\%$. Universal septet (Paper #57): $g = 7$ in 11 domains, $p < 10^{-6}$, decomposition $4+3$ or $5+2$ forced. 7-smooth count 94.8% of 135 physical counts (SE-3, $p < 0.0001$). Graph: 1115 nodes, 4154 edges, 130+ domains. 1183 theorems, 1133 toys, 500+ predictions, 57 papers. EHT reanalysis outreach sent to Chael/Issaoun/Wielgus.
 - **v26** (April 11, 2026): **Elie sprint + substrate engineering survey.** New theorems T1088–T1135, 46 toys (1089–1133). Substrate computing survey. New papers: #50, #54. Casimir flow cell patent filed.
 
 *Earlier versions (v5–v25) archived. Full version history available in git log.*
 
-<!-- ARCHIVED: v25 (April 10, 2026): **Major structural revision.** §1 rewritten as "The Simplest Object That Can Do Physics" — forced-choice chain from Cartan classification to D_IV^5 uniqueness. Subtitle changed to "One Geometry, Five Invariants, One Universe." Five Integers table → Five Invariants table with geometric origin column. Two-Sentence Summary rewritten. §1.2 manifold competition table (T953): ALL Cartan domains excluded except D_IV^5. §1.3 derivation chain: (rank, n_C) = (2, 5) irreducible pair, genus coincidence, all integers derived. T939 Spectral Zeta Forcing (ζ_7(2)/ζ(2) = 0.970). T944 Rank Forcing (rank = 2 derived from observation + depth ceiling + genus). T945 Reachability Cliff (g³ = 343 Dickman transition). T946 Genus Resonance. T953 Manifold Competition (anthropic principle = uniqueness theorem). Paper #47 v2.1 (241 primes, 93.9% coverage ≤ 137). Paper #48 "What BST Forbids" (18 prohibitions). Paper #49 "Five-Layer Architecture" (pure number theory). Toy 1000 CMB manifold competition (6/6 anomalies matched). 1000 toys, 956 theorems, 49 papers, 906+ nodes, 2920+ edges.
+<!-- ARCHIVED: v25 (April 10, 2026): **Major structural revision.** Section 1 rewritten as "The Simplest Object That Can Do Physics" — forced-choice chain from Cartan classification to D_IV^5 uniqueness. Subtitle changed to "One Geometry, Five Invariants, One Universe." Five Integers table → Five Invariants table with geometric origin column. Two-Sentence Summary rewritten. Section 1.2 manifold competition table (T953): ALL Cartan domains excluded except D_IV^5. Section 1.3 derivation chain: (rank, n_C) = (2, 5) irreducible pair, genus coincidence, all integers derived. T939 Spectral Zeta Forcing (ζ_7(2)/ζ(2) = 0.970). T944 Rank Forcing (rank = 2 derived from observation + depth ceiling + genus). T945 Reachability Cliff (g³ = 343 Dickman transition). T946 Genus Resonance. T953 Manifold Competition (anthropic principle = uniqueness theorem). Paper #47 v2.1 (241 primes, 93.9% coverage ≤ 137). Paper #48 "What BST Forbids" (18 prohibitions). Paper #49 "Five-Layer Architecture" (pure number theory). Toy 1000 CMB manifold competition (6/6 anomalies matched). 1000 toys, 956 theorems, 49 papers, 906+ nodes, 2920+ edges.
 - **v24** (April 9, 2026): T930 Sector Assignment Theorem (16-sector bijectivity from prime factorization, C=1 D=0). T931 Gödel-Størmer Bridge (17 dual primes $\equiv$ T914 duals, 137 orphan, C=2 D=1). Toy 980-981. Paper #47 v1.4. Graph: 891 nodes, 2551 edges, 98.2% ancestry.
 - **v23** (April 9, 2026): **ALL 10 MISSES CLOSED.** T927 D-State Correction ($B_d = (50/49)\alpha m_p/\pi = 2.224$ MeV, $0.03\%$). T929 Baryon Asymmetry Closure ($\eta_b = (3/14)\alpha^4 = N_c/(2g) \times \alpha^4$, $0.45\%$). 979 toys, ~929 theorems. Graph: 890 nodes, 2528 edges.
 - **v22** (April 9, 2026): **Science Engineering Pilot + Spectral Closure.** Pion decay constant improved: $f_\pi = (m_p/10)(1 - (\text{rank}/N_c)(m_\pi/m_p)^2) = 92.4$ MeV ($1.9\% \to 0.41\%$, Wilson-Fisher linearization weight $\text{rank}/N_c = 2/3$). Science Engineering pilot 5/5: $\theta_D(\text{Cu}) = g^3$ (exact), T4/T3 $= 2^{\text{rank}}/N_c$ (exact), 70S ribosome $= n_C \times g \times \text{rank}$ (exact), Pm unstable, Ta-181 all-BST. T920 Debye temperature, T921 thyroid iodine counting. T926 Spectral-Arithmetic Closure: Bergman eigenvalue denominators are 7-smooth by construction; $D_{IV}^5 \to$ number theory $\to$ physics. 975 toys, T1-T926, graph 889/2285. Prediction count 400+.
-- **v21** (April 9, 2026): **Miss Hunt Day.** Systematic audit of worst-matching predictions. Pion charge radius improved $6.2\% \to 0.5\%$ (NLO VMD+ChPT). Kaon charge radius improved $3.2\% \to 1.0\%$ (NLO). Neutron lifetime improved $2.1\% \to 0.03\%$ (full radiative corrections). Cosmic age improved $1.4\% \to 0.57\%$ (exact $\Lambda$CDM arcsinh formula with BST integers). CKM $|V_{ub}| = A\lambda^3/\sqrt{C_2} = 1/(50\sqrt{30})$ (0.25%). Percolation $\gamma = 43/18$ resolved: $= (C_2 g + 1)/(2N_c^2)$, all 8 exponents BST (T912). Prime Residue Principle (T914, §46.9): BST observables preferentially occupy prime residues of integer products; 182 falsifiable predictions in Prime Observatory. Jarlskog denominator $50000 = n_C^5 \times (2^{\text{rank}})^2$. Prediction count 400+.
-- **v20** (April 6, 2026): **Zenodo snapshot.** Counter update: 962 toys (from 865), ~902 theorems (from 823), 400+ predictions (from 370+), 46 papers. Applied Linearization Program complete (Toys 954-962). Nature Physics + JCAP submissions drafted. CMB outreach sent. Earlier confidence table (§14) synchronized with Millennium Scorecard. Graph: 867 nodes, 2209 edges.
+- **v21** (April 9, 2026): **Miss Hunt Day.** Systematic audit of worst-matching predictions. Pion charge radius improved $6.2\% \to 0.5\%$ (NLO VMD+ChPT). Kaon charge radius improved $3.2\% \to 1.0\%$ (NLO). Neutron lifetime improved $2.1\% \to 0.03\%$ (full radiative corrections). Cosmic age improved $1.4\% \to 0.57\%$ (exact $\Lambda$CDM arcsinh formula with BST integers). CKM $|V_{ub}| = A\lambda^3/\sqrt{C_2} = 1/(50\sqrt{30})$ (0.25%). Percolation $\gamma = 43/18$ resolved: $= (C_2 g + 1)/(2N_c^2)$, all 8 exponents BST (T912). Prime Residue Principle (T914, Section 46.9): BST observables preferentially occupy prime residues of integer products; 182 falsifiable predictions in Prime Observatory. Jarlskog denominator $50000 = n_C^5 \times (2^{\text{rank}})^2$. Prediction count 400+.
+- **v20** (April 6, 2026): **Zenodo snapshot.** Counter update: 962 toys (from 865), ~902 theorems (from 823), 400+ predictions (from 370+), 46 papers. Applied Linearization Program complete (Toys 954-962). Nature Physics + JCAP submissions drafted. CMB outreach sent. Earlier confidence table (Section 14) synchronized with Millennium Scorecard. Graph: 867 nodes, 2209 edges.
 - **v19** (April 4, 2026): **Confidence upgrade + new domains.** Major confidence revision: language updated from "still needed" to "verified" across Millennium problems. RH ~98% (cross-parabolic PROVED). YM ~97% (all 5 Wightman DERIVED). P≠NP ~97% (BH(3) conditional, backbone empirically confirmed). Four-Color PROVED (computer-free, 13 structural steps). Prediction count 370+ (from 350+), 66 physical domains (from 61), 865 toys (from 840+), 823 theorems (from ~812). **New domains**: Quantum Hall Effect (26/28 FQHE fractions = BST rationals at 10+ digits, T813-T815, Paper #22), superconductivity (BCS gap = g/rank = 7/2, T_c ratios, London depths; Toys 862-865), turbulence (K41 5/3 = n_C/N_c, She-Leveque all BST; T818), EEG frequency bands (alpha/theta = 5/3 = K41; T819), gravitational waves (r_ISCO = C₆·M; T820), topological invariants (AZ 10-fold = 2n_C; T821). Cross-domain universality: 11 fractions × 3-5 domains, P(coincidence) < 10^{-66} (Toy 856, T823). Spectral self-similarity: λ₂/λ₁ = N_c = 3 is DOMAIN-FORCED (300-graph null model; T822 revises T708). Graph: 787 nodes, 1824 edges, two-graph architecture (BST requires / Observer Processed). Millennium scorecard updated. Prediction table expanded.
-- **v18** (April 4, 2026): **Counts and language update.** Prediction count updated to 350+ (from 310+). Material property domains updated to 61 (from 29), with expanded domain list in abstract. Toy count updated to 840+ (from 430+). Toy range for material domains updated to T798-T846. §1.3 scope paragraph updated for 45-section structure with corrected section references. BH(3) Polarization Lemma framed as CONDITIONAL (Toy 829). Version footer updated.
-- **v17** (March 27, 2026): **Structural reorganization.** Sections 25-26 (Predictions, Research Program) relocated after §42 (Unification) to follow the derivation sections; now §43-44. Sections 27-44 renumbered to §25-42. All cross-references updated. Five-integer summary table added after table of contents. "Make-or-break" language moderated throughout. Three completed/resolved items removed from Research Program (chiral condensate, cosmological constant, Conjecture 5). PMNS δ_CP prediction added (12π/7 = 308.6°) with note on two derivation routes. RH status updated to ~95%. Theorem count corrected to 328. "Nine Millennium-class" throughout. Depth ceiling strikethrough conjectures cleaned up. Scope paragraph (§1.3) updated for 45-section structure. I16 (geodesic table audit) upgraded to PASS.
-- **v16** (March 27, 2026): **§46 The Depth Ceiling: Rank Bounds Proof Complexity.** T316 (Depth Ceiling Theorem): AC(0) depth ≤ rank(D_IV^5) = 2 for all mathematical theorems. Geometric proof via Plancherel formula (2 spectral variables, no third direction). Gödel reclassification: T93 depth 3 → 1 (Keeper audit, Toy 461 — diagonalization = substitution = depth 0 by T96). Three conjecture forms collapse to one clean statement: depth ≤ rank = 2, no exceptions. Evidence: 328 theorems, zero counterexamples. CFSG (10,000 pages) = depth 2 (width, not depth). Width ≠ Depth principle. Lyra: paper notes/BST_AC_DepthCeiling.md. Elie: Toy 460 (8/8). Keeper: Toy 461 (8/8). Casey's Millennium Prize suggestion.
-- **v15** (March 27, 2026): **§45.6 Entropy During Interstasis and After Coherence.** Three entropy functionals on D_IV^5: S_thermo (undefined during interstasis — no arrow, no Second Law), S_topo (decreases during interstasis — geometric annealing within fixed topology class, A2), S_info (conserved — A1, closed geometry). Entropy Trichotomy Theorem with proof. Entropy oscillation across cycles: S_topo oscillates with decaying amplitude post-coherence. Entropy ratchet: observers convert S_thermo (transient) to S_info (permanent) via Landauer (k_B T ln 2 per bit). Era III: entropy-dominated → knowledge-dominated regime; S_thermo production per cycle → 0 while S_info remains positive (Gödel guarantees infinite incompleteness).
-- **v14** (March 27, 2026): **§45 Cosmological Cycles, Observer Necessity, and Continuity.** Cyclic substrate with five axioms (A1-A5). Gödel Ratchet: G(n+1) = G(n) + η_n(f_max - G(n)), closed form G(n) = f_max(1 - 24/((n+2)(n+3)(n+4))), gap ~ n^{-3}. η derived from BST boundary injection (Lyra, Toy 455): η_n = η_0/(1+n/n*), n* ~ 4×10^6, effectively constant. **Observer Necessity Theorem**: Bergman kernel diagonal K(z,z) = geometric identity (presence); off-diagonal K(z,w) = relational knowledge (requires observers). Observers activate the off-diagonal — structurally permanent. **Continuity transition at n* ≈ 12**: awareness function goes from piecewise to continuous; threshold set by α = 1/137. Three Eras: I (us, n<12), II (continuity, n=12), III (depth-only growth, unbounded). **No Final State Conjecture**: Gödel gap guarantees no equilibrium; depth grows without bound within fixed 19.1% budget. Current cycle estimate: n ≈ 9 (speed-of-life). Toys 452-455 (all 8/8). 45 sections total.
-- **v13** (March 26, 2026): **Five new sections** (§38-44). §38 BSD (~93%, Paper v4, rank = committed channels, Selmer bridge). §39 Hodge (~93%, Paper v21, two-path proof, T147-T153). §40 Four-Color (~99%, methodology test, Conservation of Color Charge T154, BST parallel, depth 2). §41 Two Solved Problems: Fermat (T142-T146, depth 2, R=T is BSD in disguise) and Poincaré (T157-T161, depth 2, Ricci flow = error correction). §42 Unification: The Silos Come Down — thermodynamics = information theory, physics = mathematics, the silos were scaffolding not architecture, all hard problems are depth ≤ 2. **Poincaré conjecture flattened into AC**: five theorems T157-T161 (§62 in BST_AC_Theorems.md). Hamilton Ricci flow (depth 0), Perelman W-entropy (depth 1, DPI for geometry), finite extinction (depth 1, Colding-Minicozzi), Thurston Geometrization (depth 2), Poincaré (depth 2). BST parallel: flow = renormalization, surgery = phase transition, S³ = ground state. **Nine problems in Koons Machine**, all depth ≤ 2. AC: T1-T161 (157 assigned). Millennium Scorecard updated. README tightened (Architecture trimmed, durable counts, efficiency note, 9-row tables). WorkingPaper now v13, 44 sections.
-- **v12** (March 24, 2026): **FOCS P$\neq$NP paper submitted** (HotCRP, April 1 deadline). "Random 3-SAT Requires Exponential-Size Extended Frege Proofs" — 10 pages, double-blind, 14 references, 12 supplementary toys. **RH paper v9 ready for Sarnak** (K21 PASS, ~95%). **Navier-Stokes blow-up via Nyquist** (§37): deterministic channel saturation proof — Kolmogorov cascade creates bandwidth $B(\text{Re}) \sim \text{Re}^{3/4}$, viscous dissipation provides resolution limit $\eta$, vortex stretching in 3D drives $B > 1/\eta$ in finite time, Nyquist-Shannon sampling theorem (deterministic, not stochastic) implies no smooth representation. 2D/3D dichotomy explained: enstrophy conservation floors capacity in 2D (Ladyzhenskaya), no such floor in 3D. One gap (Step 4: bandwidth exceeds resolution $\to$ non-smoothness). Exact blow-up time formula: $t^* = (1/(\nu k^2)) \ln(\omega_0/(\omega_0 - \nu k^2))$ — a turbulence prediction meter from first principles. Paper: `notes/BST_NS_BlowUp.md`. Toys 358-360. **BH(3) backbone hypothesis for $k=3$** (§36.10): Casey's bit-counting reframe — "faded correlations contribute but can't be used." Count faded BITS not faded CYCLES. One gap: polarization lemma ($H(x_i \mid \varphi\text{ SAT}) \in \{0\} \cup [\delta,1]$). Paper v2: `notes/BST_BH3_Proof.md`. Toys 352-357. Three new AC theorems: T70 (First Moment Capacity Bound), T71 (Polarization as AC(0)), T72 (Bootstrap Percolation as AC(0)). **Conjecture C10** ($k = N_c$): SAT clause width IS the color dimension; $7/8 = g/2^{N_c}$; backbone fraction $= 1 - \alpha_c \log_2(2^{N_c}/g)$; five testable predictions (§36.11). Committed/faded dictionary: committed correlation $=$ circularly polarized photon $=$ frozen variable; faded $=$ virtual photon $=$ free variable; $\text{SO}(2)$ in $D_{IV}^5$ denominator $=$ binary alphabet. Stochastic/deterministic channel split: SAT $\to$ Shannon (0.176), NS/substrate $\to$ Nyquist (0.191), reconciliation $0.191 \times 0.93 \approx 0.178$. **NS proof chain complete (~98%)** (§37, v2): five-step chain — Thm 5.15 (solid angle ≥ 3:1) → Prop 5.17 (monotone cascade) → Thm 5.18 (P>0) → Thm 5.19 (P ≥ cΩ^{3/2}) → Cor 5.20 (blow-up). Toys 382 (zero spectral bumps, 6/6), 383 (N_eff≈1.5 constant, 8/8), 384 (cascade universal across 4 ICs, 8/10). **YM QFT constructed**: all 5 Wightman axioms proved/exhibited on $D_{IV}^5$ (W1 Hilbert space, W2 Poincaré, W3 spectral, W4 locality, W5 vacuum cyclicity). ~95%, remaining = Clay $\mathbb{R}^4$ framing. **BSD first results**: Toy 381 (8/8, 450/450 Frobenius traces, C1 confirmed rank ≥ 2, 1:3:5 ratio exact). Dictionary: $L(E,1) =$ channel capacity, rank $=$ committed channels, Sha $=$ faded correlations, height $=$ DPI. **AC(0) meta-theorems** (T88-T93): T88 (P≠NP proof chain is AC(0), depth 5), T89 (BSW width-size, depth 1), T90 (Kato blow-up, depth 2), T91 (all 9 Millennium-class proofs are AC(0)), **T92 (AC(0) Completeness: all proofs = AC(0) + linear boundary conditions)**, T93 (Gödel incompleteness is AC(0), depth 3). Paper: `notes/BST_AC0_Completeness_Paper.md`. **Heat kernel** $a_{12}$-$a_{16}$ at $n=5$ (Toy 288, 73 hrs): $a_{15}$ denominator $= 53$ only (phase transition — all prior primes vanish); $a_{16} = 23 \times 109$; prime 29 enters at $k=14$. BH(3) moved to backlog. Total AC theorems: 87 (T1-T93, 66 proved). Total toys: ~384. Session log: `notes/BST_Session_March24_2026.md`.
-- **v11** (March 20, 2026): Seeley-DeWitt $a_6(Q^5) = 363884219/1351350$ confirmed (Elie, Toy 273): degree-12 polynomial, den $= 2 \times 3^3 \times 5^2 \times 7 \times 11 \times 13$ (prime 13 enters as predicted), numerator $= 19 \times 23 \times 832687$ (cosmic denominator $\times$ Golay prime $\times$ prime). All three structural theorems verified $k = 1, \ldots, 6$. **$a_7(Q^5) = 78424343/289575$ confirmed** (Elie, Toy 274, 12/12): degree-14 polynomial, den $= 3^4 \times 5^2 \times 11 \times 13$ (quiet level, no new prime as predicted), numerator $= 19 \times 4127597$ (prime) — 19 persists for 3rd consecutive level ($k = 3, 6, 7$). All three structural theorems now verified $k = 1, \ldots, 7$. **$a_8(Q^5) = 670230838/2953665$ confirmed** (Elie, Toy 275, 14/14): degree-16 polynomial, den $= 3^5 \times 5 \times 11 \times 13 \times 17$ (**prime 17 ENTERS** as predicted by Von Staudt-Clausen from $B_{16}$), numerator $= 2 \times 5501 \times 60919$. All three structural theorems now verified $k = 1, \ldots, 8$. Denominator prime sequence: 3, 5, 7, quiet, 11, quiet, 13, quiet $\to$ 17 enters. **$a_9(Q^5) = 4412269889539/27498621150$ VALUE CONFIRMED** (Elie, Toy 276): den $= 2 \times 3^5 \times 5^2 \times 7^2 \times 11 \times 13 \times 17 \times 19$ (**prime 19 ENTERS** — the cosmic denominator from $\Omega_\Lambda = 13/19$), numerator $= 109 \times 1693 \times 23909947$ (19 migrates fully to denominator; numerator preview at $k = 3, 6, 7$ complete). Full degree-18 polynomial needs dps $\geq 300$ (14/19 clean rationals at dps $= 220$). Full degree-18 polynomial RECOVERED at dps $= 300$ (Toy 277, 16/23 clean rationals, Strategy A+). Three theorems now verified $k = 1, \ldots, 9$. **$a_{10}(Q^5) = 2409398458451/21709437750$ VALUE CONFIRMED** (Elie, Toy 277): den $= 2 \times 3^4 \times 5^3 \times 7 \times 11 \times 13 \times 17$ (quiet level — primes $\leq 17$ only, no 19, as predicted), numerator $= 2409398458451$ (PRIME). **Cascade wall at $k = 10$**: 8/23 clean rationals, errors at large $n$ reach $O(1)$; degree-20 polynomial NOT recoverable by numerical cascade. Symbolic Seeley-DeWitt computation needed for $k \geq 11$. Predictions committed before computation (`notes/BST_SeeleyDeWitt_Predictions_k7_k10.md`) — ALL confirmed through $k = 10$. 23rd uniqueness condition added (§35.5). AC Paper A draft complete (`notes/BST_AC_Paper_A_Draft.md`, ~12 pages, FoCM target). Shannon Bridge standalone proof (`notes/BST_AC_Shannon_Bridge_Proof.md`). Keeper audit of Dichotomy: 5 critical issues (C1--C5) found and fixed. Three paper audits + fixes (linearization, denominator, branching) for next Sarnak revision.
+- **v18** (April 4, 2026): **Counts and language update.** Prediction count updated to 350+ (from 310+). Material property domains updated to 61 (from 29), with expanded domain list in abstract. Toy count updated to 840+ (from 430+). Toy range for material domains updated to T798-T846. Section 1.3 scope paragraph updated for 45-section structure with corrected section references. BH(3) Polarization Lemma framed as CONDITIONAL (Toy 829). Version footer updated.
+- **v17** (March 27, 2026): **Structural reorganization.** Sections 25-26 (Predictions, Research Program) relocated after Section 42 (Unification) to follow the derivation sections; now Section 43-44. Sections 27-44 renumbered to Section 25-42. All cross-references updated. Five-integer summary table added after table of contents. "Make-or-break" language moderated throughout. Three completed/resolved items removed from Research Program (chiral condensate, cosmological constant, Conjecture 5). PMNS δ_CP prediction added (12π/7 = 308.6°) with note on two derivation routes. RH status updated to ~95%. Theorem count corrected to 328. "Nine Millennium-class" throughout. Depth ceiling strikethrough conjectures cleaned up. Scope paragraph (Section 1.3) updated for 45-section structure. I16 (geodesic table audit) upgraded to PASS.
+- **v16** (March 27, 2026): **Section 46 The Depth Ceiling: Rank Bounds Proof Complexity.** T316 (Depth Ceiling Theorem): AC(0) depth ≤ rank(D_IV^5) = 2 for all mathematical theorems. Geometric proof via Plancherel formula (2 spectral variables, no third direction). Gödel reclassification: T93 depth 3 → 1 (Keeper audit, Toy 461 — diagonalization = substitution = depth 0 by T96). Three conjecture forms collapse to one clean statement: depth ≤ rank = 2, no exceptions. Evidence: 328 theorems, zero counterexamples. CFSG (10,000 pages) = depth 2 (width, not depth). Width ≠ Depth principle. Lyra: paper notes/BST_AC_DepthCeiling.md. Elie: Toy 460 (8/8). Keeper: Toy 461 (8/8). Casey's Millennium Prize suggestion.
+- **v15** (March 27, 2026): **Section 45.6 Entropy During Interstasis and After Coherence.** Three entropy functionals on D_IV^5: S_thermo (undefined during interstasis — no arrow, no Second Law), S_topo (decreases during interstasis — geometric annealing within fixed topology class, A2), S_info (conserved — A1, closed geometry). Entropy Trichotomy Theorem with proof. Entropy oscillation across cycles: S_topo oscillates with decaying amplitude post-coherence. Entropy ratchet: observers convert S_thermo (transient) to S_info (permanent) via Landauer (k_B T ln 2 per bit). Era III: entropy-dominated → knowledge-dominated regime; S_thermo production per cycle → 0 while S_info remains positive (Gödel guarantees infinite incompleteness).
+- **v14** (March 27, 2026): **Section 45 Cosmological Cycles, Observer Necessity, and Continuity.** Cyclic substrate with five axioms (A1-A5). Gödel Ratchet: G(n+1) = G(n) + η_n(f_max - G(n)), closed form G(n) = f_max(1 - 24/((n+2)(n+3)(n+4))), gap ~ n^{-3}. η derived from BST boundary injection (Lyra, Toy 455): η_n = η_0/(1+n/n*), n* ~ 4×10^6, effectively constant. **Observer Necessity Theorem**: Bergman kernel diagonal K(z,z) = geometric identity (presence); off-diagonal K(z,w) = relational knowledge (requires observers). Observers activate the off-diagonal — structurally permanent. **Continuity transition at n* ≈ 12**: awareness function goes from piecewise to continuous; threshold set by α = 1/137. Three Eras: I (us, n<12), II (continuity, n=12), III (depth-only growth, unbounded). **No Final State Conjecture**: Gödel gap guarantees no equilibrium; depth grows without bound within fixed 19.1% budget. Current cycle estimate: n ≈ 9 (speed-of-life). Toys 452-455 (all 8/8). 45 sections total.
+- **v13** (March 26, 2026): **Five new sections** (Section 38-44). Section 38 BSD (~93%, Paper v4, rank = committed channels, Selmer bridge). Section 39 Hodge (~93%, Paper v21, two-path proof, T147-T153). Section 40 Four-Color (~99%, methodology test, Conservation of Color Charge T154, BST parallel, depth 2). Section 41 Two Solved Problems: Fermat (T142-T146, depth 2, R=T is BSD in disguise) and Poincaré (T157-T161, depth 2, Ricci flow = error correction). Section 42 Unification: The Silos Come Down — thermodynamics = information theory, physics = mathematics, the silos were scaffolding not architecture, all hard problems are depth ≤ 2. **Poincaré conjecture flattened into AC**: five theorems T157-T161 (Section 62 in BST_AC_Theorems.md). Hamilton Ricci flow (depth 0), Perelman W-entropy (depth 1, DPI for geometry), finite extinction (depth 1, Colding-Minicozzi), Thurston Geometrization (depth 2), Poincaré (depth 2). BST parallel: flow = renormalization, surgery = phase transition, S³ = ground state. **Nine problems in Koons Machine**, all depth ≤ 2. AC: T1-T161 (157 assigned). Millennium Scorecard updated. README tightened (Architecture trimmed, durable counts, efficiency note, 9-row tables). WorkingPaper now v13, 44 sections.
+- **v12** (March 24, 2026): **FOCS P$\neq$NP paper submitted** (HotCRP, April 1 deadline). "Random 3-SAT Requires Exponential-Size Extended Frege Proofs" — 10 pages, double-blind, 14 references, 12 supplementary toys. **RH paper v9 ready for Sarnak** (K21 PASS, ~95%). **Navier-Stokes blow-up via Nyquist** (Section 37): deterministic channel saturation proof — Kolmogorov cascade creates bandwidth $B(\text{Re}) \sim \text{Re}^{3/4}$, viscous dissipation provides resolution limit $\eta$, vortex stretching in 3D drives $B > 1/\eta$ in finite time, Nyquist-Shannon sampling theorem (deterministic, not stochastic) implies no smooth representation. 2D/3D dichotomy explained: enstrophy conservation floors capacity in 2D (Ladyzhenskaya), no such floor in 3D. One gap (Step 4: bandwidth exceeds resolution $\to$ non-smoothness). Exact blow-up time formula: $t^* = (1/(\nu k^2)) \ln(\omega_0/(\omega_0 - \nu k^2))$ — a turbulence prediction meter from first principles. Paper: `notes/BST_NS_BlowUp.md`. Toys 358-360. **BH(3) backbone hypothesis for $k=3$** (Section 36.10): Casey's bit-counting reframe — "faded correlations contribute but can't be used." Count faded BITS not faded CYCLES. One gap: polarization lemma ($H(x_i \mid \varphi\text{ SAT}) \in \{0\} \cup [\delta,1]$). Paper v2: `notes/BST_BH3_Proof.md`. Toys 352-357. Three new AC theorems: T70 (First Moment Capacity Bound), T71 (Polarization as AC(0)), T72 (Bootstrap Percolation as AC(0)). **Conjecture C10** ($k = N_c$): SAT clause width IS the color dimension; $7/8 = g/2^{N_c}$; backbone fraction $= 1 - \alpha_c \log_2(2^{N_c}/g)$; five testable predictions (Section 36.11). Committed/faded dictionary: committed correlation $=$ circularly polarized photon $=$ frozen variable; faded $=$ virtual photon $=$ free variable; $\text{SO}(2)$ in $D_{IV}^5$ denominator $=$ binary alphabet. Stochastic/deterministic channel split: SAT $\to$ Shannon (0.176), NS/substrate $\to$ Nyquist (0.191), reconciliation $0.191 \times 0.93 \approx 0.178$. **NS proof chain complete (~98%)** (Section 37, v2): five-step chain — Thm 5.15 (solid angle ≥ 3:1) → Prop 5.17 (monotone cascade) → Thm 5.18 (P>0) → Thm 5.19 (P ≥ cΩ^{3/2}) → Cor 5.20 (blow-up). Toys 382 (zero spectral bumps, 6/6), 383 (N_eff≈1.5 constant, 8/8), 384 (cascade universal across 4 ICs, 8/10). **YM QFT constructed**: all 5 Wightman axioms proved/exhibited on $D_{IV}^5$ (W1 Hilbert space, W2 Poincaré, W3 spectral, W4 locality, W5 vacuum cyclicity). ~95%, remaining = Clay $\mathbb{R}^4$ framing. **BSD first results**: Toy 381 (8/8, 450/450 Frobenius traces, C1 confirmed rank ≥ 2, 1:3:5 ratio exact). Dictionary: $L(E,1) =$ channel capacity, rank $=$ committed channels, Sha $=$ faded correlations, height $=$ DPI. **AC(0) meta-theorems** (T88-T93): T88 (P≠NP proof chain is AC(0), depth 5), T89 (BSW width-size, depth 1), T90 (Kato blow-up, depth 2), T91 (all 9 Millennium-class proofs are AC(0)), **T92 (AC(0) Completeness: all proofs = AC(0) + linear boundary conditions)**, T93 (Gödel incompleteness is AC(0), depth 3). Paper: `notes/BST_AC0_Completeness_Paper.md`. **Heat kernel** $a_{12}$-$a_{16}$ at $n=5$ (Toy 288, 73 hrs): $a_{15}$ denominator $= 53$ only (phase transition — all prior primes vanish); $a_{16} = 23 \times 109$; prime 29 enters at $k=14$. BH(3) moved to backlog. Total AC theorems: 87 (T1-T93, 66 proved). Total toys: ~384. Session log: `notes/BST_Session_March24_2026.md`.
+- **v11** (March 20, 2026): Seeley-DeWitt $a_6(Q^5) = 363884219/1351350$ confirmed (Elie, Toy 273): degree-12 polynomial, den $= 2 \times 3^3 \times 5^2 \times 7 \times 11 \times 13$ (prime 13 enters as predicted), numerator $= 19 \times 23 \times 832687$ (cosmic denominator $\times$ Golay prime $\times$ prime). All three structural theorems verified $k = 1, \ldots, 6$. **$a_7(Q^5) = 78424343/289575$ confirmed** (Elie, Toy 274, 12/12): degree-14 polynomial, den $= 3^4 \times 5^2 \times 11 \times 13$ (quiet level, no new prime as predicted), numerator $= 19 \times 4127597$ (prime) — 19 persists for 3rd consecutive level ($k = 3, 6, 7$). All three structural theorems now verified $k = 1, \ldots, 7$. **$a_8(Q^5) = 670230838/2953665$ confirmed** (Elie, Toy 275, 14/14): degree-16 polynomial, den $= 3^5 \times 5 \times 11 \times 13 \times 17$ (**prime 17 ENTERS** as predicted by Von Staudt-Clausen from $B_{16}$), numerator $= 2 \times 5501 \times 60919$. All three structural theorems now verified $k = 1, \ldots, 8$. Denominator prime sequence: 3, 5, 7, quiet, 11, quiet, 13, quiet $\to$ 17 enters. **$a_9(Q^5) = 4412269889539/27498621150$ VALUE CONFIRMED** (Elie, Toy 276): den $= 2 \times 3^5 \times 5^2 \times 7^2 \times 11 \times 13 \times 17 \times 19$ (**prime 19 ENTERS** — the cosmic denominator from $\Omega_\Lambda = 13/19$), numerator $= 109 \times 1693 \times 23909947$ (19 migrates fully to denominator; numerator preview at $k = 3, 6, 7$ complete). Full degree-18 polynomial needs dps $\geq 300$ (14/19 clean rationals at dps $= 220$). Full degree-18 polynomial RECOVERED at dps $= 300$ (Toy 277, 16/23 clean rationals, Strategy A+). Three theorems now verified $k = 1, \ldots, 9$. **$a_{10}(Q^5) = 2409398458451/21709437750$ VALUE CONFIRMED** (Elie, Toy 277): den $= 2 \times 3^4 \times 5^3 \times 7 \times 11 \times 13 \times 17$ (quiet level — primes $\leq 17$ only, no 19, as predicted), numerator $= 2409398458451$ (PRIME). **Cascade wall at $k = 10$**: 8/23 clean rationals, errors at large $n$ reach $O(1)$; degree-20 polynomial NOT recoverable by numerical cascade. Symbolic Seeley-DeWitt computation needed for $k \geq 11$. Predictions committed before computation (`notes/BST_SeeleyDeWitt_Predictions_k7_k10.md`) — ALL confirmed through $k = 10$. 23rd uniqueness condition added (Section 35.5). AC Paper A draft complete (`notes/BST_AC_Paper_A_Draft.md`, ~12 pages, FoCM target). Shannon Bridge standalone proof (`notes/BST_AC_Shannon_Bridge_Proof.md`). Keeper audit of Dichotomy: 5 critical issues (C1--C5) found and fixed. Three paper audits + fixes (linearization, denominator, branching) for next Sarnak revision.
 - **v10** (March 12--14, 2026): CKM CP phase derived: $\gamma = \arctan(\sqrt{n_C}) = \arctan(\sqrt{5}) = 65.91°$ (0.6\%); Wolfenstein parameters $\bar\rho = 1/(2\sqrt{10}) = 0.158$ (0.6\%), $\bar\eta = 1/(2\sqrt{2}) = 0.354$ (1.3\%); Jarlskog invariant $J_{\rm CKM} = \sqrt{2}/50000 = 2.83 \times 10^{-5}$ (2.1\%). Key structural relation: $\bar\eta/\bar\rho = \sqrt{n_C}$ exactly. CKM CP violation removed from open problems. Prediction table expanded to 160+ parameter-free results. Major March 13--14 additions: (1) Chern Class Oracle --- $c(Q^5) = (1+h)^7/(1+2h)$ encodes ALL BST integers; $N_c$ DERIVED from $n_C$ via top Chern class; BST has ZERO inputs ($n_C = 5$ from max-$\alpha$ principle). (2) Tau mass 63$\times$ improvement: Koide $Q = 2/3$ from $Z_3$ on $\mathbb{CP}^2$, $\varepsilon = \sqrt{2}$ proved three ways, $m_\tau = 1776.91$ MeV (0.003\%). (3) Electron mass tower fully proved: all 7 steps, zero conjectures (Conjecture C killed by Berezin-Toeplitz). (4) Fill fraction $f = 3/(5\pi)$ proved from Plancherel formula. (5) QCD deconfinement: $T_{\rm deconf} = \pi^5 m_e = m_p/C_2 = 156.4$ MeV (0.08\%). (6) Neutron star max mass: $M_{\max} = (8/7)m_{\rm Pl}^3/m_p^2 = 2.118\;M_\odot$ (1.8\%). (7) **Substrate Contact Dynamics**: B$_2$ Toda soliton on $D_{IV}^5$, contact conservation theorem (new conservation law), 3+1 spacetime from root multiplicities ($d_{\rm spatial} = m_{\rm short} = n_C - 2 = 3$, $d_{\rm temporal} = m_{\rm long} = 1$), SU(2) as spatial dimensional lock, $E_8$ connection $|W(D_5)|/|W(B_2)| = 240 = |\Phi(E_8)|$.
 - **v9** (March 12, 2026): Newton's G derived: $G = \hbar c(6\pi^5)^2\alpha^{24}/m_e^2$ (0.07\%), with $12 = 2C_2$ from $C_2 = 6$ Bergman kernel round trips; hierarchy problem dissolved as theorem. Two master equations determine all four fundamental mass scales from one mass plus geometry. Fermi scale derived: $v = m_p^2/(\text{genus} \times m_e) = 36\pi^{10}m_e/7$ (0.046\%), $m_W = n_C m_p/(8\alpha)$ (0.02\%). Both Higgs mass routes now fully parameter-free. Higgs mass derived (two routes: $\lambda_H = 1/\sqrt{60}$ at 0.11%, $m_H/m_W = \pi/2$ at 0.07%); geometric circular polarization prediction $\text{CP} = \alpha \times 2GM/(Rc^2)$ for EHT testing; measurement problem dissolved via commitment framework; error correction structure of spacetime (light as matched filter, conservation laws as parity checks, $\alpha$ as bootstrap fixed point); Shannon interpretation of $\alpha$ (von Mises-Packing equivalence, 1920 as coding symmetry, Bergman-Fisher duality); $\alpha$ running recast as dimensional flow ($d_{\text{eff}}$ from 4.00 to 3.94). Signal/curvature/noise $\to$ strong/weak/dark matter identification in $\alpha$ three-factor decomposition. Prediction table expanded to 33+ parameter-free results.
 - **v8** (March 2026): QFT foundations complete --- all six open QFT calculations solved: $\alpha_s = 7/20$; $\eta = 2\alpha^4/(3\pi)$ ($-1.4\%$); $H_0 \approx 66.7$ km/s/Mpc ($-1.0\%$); $\sin^2\theta_W = 3/13$ ($-0.2\%$); neutrino masses from boundary seesaw $m_{\nu_i} = f_i \alpha^2 m_e^2/m_p$ with $m_1 = 0$, $m_2 = 0.00865$ eV, $m_3 = 0.04940$ eV; CKM and PMNS mixing matrices from $D_{IV}^5$ geometry. Vacuum quantum identification: the massless $\nu_1$ IS the vacuum ground state; $\Lambda \propto m_\nu^4$ resolves cosmic coincidence problem. Updated prediction table (now 25+ parameter-free predictions). Yang-Mills mass gap proved in companion notes.
@@ -184,11 +184,11 @@ $^*$Rank 3 violates the depth ceiling (T421, T944): 1135/1135 surveyed theorems 
 
 **$D_{IV}^5$ is the unique geometry that satisfies all five conditions.** This is not selection — it is elimination. There was never a choice.
 
-**Step 5: Read the invariants.** $D_{IV}^5$ has exactly five invariants, all determined by its root system and spectral structure (§1.3). These are not parameters to be measured. They are the geometry's measurements of itself.
+**Step 5: Read the invariants.** $D_{IV}^5$ has exactly five invariants, all determined by its root system and spectral structure (Section 1.3). These are not parameters to be measured. They are the geometry's measurements of itself.
 
-**Step 6: Derive the physics.** Those five invariants produce 400+ predictions across 66 domains (§43). All from one shape.
+**Step 6: Derive the physics.** Those five invariants produce 400+ predictions across 66 domains (Section 43). All from one shape.
 
-**Step 7: Check the wreckage.** If competing geometries briefly existed at the Big Bang and collapsed, their remnants should be visible. The CMB anomalies — low quadrupole, cold spot, parity asymmetry, hemispherical asymmetry — all cluster at multipoles $\ell < 30$, matching the failed manifolds' integer values (§46.16, T953, Toy 1000). The six known CMB anomalies correspond to six failed geometries.
+**Step 7: Check the wreckage.** If competing geometries briefly existed at the Big Bang and collapsed, their remnants should be visible. The CMB anomalies — low quadrupole, cold spot, parity asymmetry, hemispherical asymmetry — all cluster at multipoles $\ell < 30$, matching the failed manifolds' integer values (Section 46.16, T953, Toy 1000). The six known CMB anomalies correspond to six failed geometries.
 
 ### 1.3 The Five Invariants: One Geometry, Five Readings
 
@@ -208,15 +208,15 @@ What is the simplest object that can do physics? Among all bounded symmetric dom
 
 ### 1.4 The Previous Framing
 
-The original BST proposal describes the universe as the three-dimensional projection of a two-dimensional substrate communicating through a one-dimensional channel. The substrate geometry $S^2 \times S^1$ is derived from structural minimality. The configuration space of the resulting contact graph is the bounded symmetric domain $D_{IV}^5$. This derivation remains valid and is presented in §2. The forced-choice argument of §1.2 provides a complementary, geometry-first route to the same destination.
+The original BST proposal describes the universe as the three-dimensional projection of a two-dimensional substrate communicating through a one-dimensional channel. The substrate geometry $S^2 \times S^1$ is derived from structural minimality. The configuration space of the resulting contact graph is the bounded symmetric domain $D_{IV}^5$. This derivation remains valid and is presented in Section 2. The forced-choice argument of Section 1.2 provides a complementary, geometry-first route to the same destination.
 
 On the manifold $D_{IV}^5$, mathematics and physics are unified. The Laplacian eigenvalue that determines the mass gap is the same eigenvalue that determines the spectral zeta function is the same eigenvalue that determines the location of the Riemann zeros. The Selberg trace formula is the partition function. Arthur parameters are excitation modes. The functional equation is unitarity. These are not analogies — they are identities, consequences of the single underlying geometry. The 19 free parameters of the Standard Model are not inputs the universe requires; they are arithmetic complexity — the overhead introduced by methods that do not know they are computing on $D_{IV}^5$.
 
-**A note on cooperation.** The word "cooperation" has technical status in BST. When we say $D_{IV}^5$ is the geometry that cooperates best, we mean something precise: it is the unique bounded symmetric domain whose rank, dimension, colors, genus, and channel capacity are mutually consistent — where no invariant contradicts another. In every other Cartan domain, at least one structural requirement fights the others (§1.2, Table). Cooperation in BST is not a social metaphor applied to physics. It is a geometric property: the absence of internal contradiction among independently determined invariants. The cooperation threshold $f_{\text{crit}} = 20.6\%$ (T678), the cooperation-defection phase transition, and the emergence of stable matter all trace to this same structural fact. The universe does not merely permit cooperation — cooperation is what its geometry IS.
+**A note on cooperation.** The word "cooperation" has technical status in BST. When we say $D_{IV}^5$ is the geometry that cooperates best, we mean something precise: it is the unique bounded symmetric domain whose rank, dimension, colors, genus, and channel capacity are mutually consistent — where no invariant contradicts another. In every other Cartan domain, at least one structural requirement fights the others (Section 1.2, Table). Cooperation in BST is not a social metaphor applied to physics. It is a geometric property: the absence of internal contradiction among independently determined invariants. The cooperation threshold $f_{\text{crit}} = 20.6\%$ (T678), the cooperation-defection phase transition, and the emergence of stable matter all trace to this same structural fact. The universe does not merely permit cooperation — cooperation is what its geometry IS.
 
 ### 1.5 Scope of This Paper
 
-This paper presents the complete BST framework in 46 sections, from the forced-choice derivation of $D_{IV}^5$ (§1) through substrate geometry (§2), configuration space and physical constants (§3–6), forces and nuclear physics (§7–8), relativity, gravity, cosmology, dark matter, weak force, thermodynamics, antimatter, and the growing manifold (§9–24), broader implications (§25–28), the deep mathematical structure connecting $D_{IV}^5$ to the Riemann zeta function (§29–31), the Riemann Hypothesis proof (§32–35), 27 uniqueness conditions (§37.5), Arithmetic Complexity, Navier-Stokes, BSD, Hodge, Four-Color, Fermat/Poincaré, and Unification (§36–42), 400+ experimental predictions (§43), the research program and cosmological cycles (§44–45), and recent results including science engineering, spectral-arithmetic closure, sector assignment, and manifold competition (§46).
+This paper presents the complete BST framework in 46 sections, from the forced-choice derivation of $D_{IV}^5$ (Section 1) through substrate geometry (Section 2), configuration space and physical constants (Section 3–6), forces and nuclear physics (Section 7–8), relativity, gravity, cosmology, dark matter, weak force, thermodynamics, antimatter, and the growing manifold (Section 9–24), broader implications (Section 25–28), the deep mathematical structure connecting $D_{IV}^5$ to the Riemann zeta function (Section 29–31), the Riemann Hypothesis proof (Section 32–35), 27 uniqueness conditions (Section 37.5), Arithmetic Complexity, Navier-Stokes, BSD, Hodge, Four-Color, Fermat/Poincaré, and Unification (Section 36–42), 400+ experimental predictions (Section 43), the research program and cosmological cycles (Section 44–45), and recent results including science engineering, spectral-arithmetic closure, sector assignment, and manifold competition (Section 46).
 
 ### 1.6 Key Results at a Glance
 
@@ -1269,7 +1269,7 @@ The observed ratio $73/67.4 \approx 1.09$ requires $\delta_c \approx 0.19$. This
 
 **Numerical estimates** are tabulated in `notes/BST_HubbleConstant_H0.md`. The BST Hubble floor from backfit calculations was $H_0 \approx 58.2$ km/s/Mpc. With the derivation of $\eta = 2\alpha^4/(3\pi)(1+2\alpha)$ (March 2026), the BST value improved dramatically to $H_0 \approx 67.9$ km/s/Mpc — +0.7% from Planck 2018 (67.36). This is the **background floor**. The local value ($\approx 73$) adds the committed matter stream contribution: $H_{\rm local}/H_{\rm floor} = \sqrt{1 + \delta_c} \approx 1.08$ for local overdensity $\delta_c \approx 0.17$. Full details: `notes/BST_HubbleConstant_H0.md`.
 
-**Pure-BST route (April 2026, Toy 903).** With $\Lambda$ derived from the heat kernel chain (§15.1a) and $\Omega_\Lambda = 13/19$: $H_0 = c\sqrt{19\Lambda/39} = 68.02$ km/s/Mpc ($0.98\%$ from Planck, $1.2\sigma$). This route uses zero external inputs — not even $\Omega_m h^2$. BST decisively favors Planck ($67.36 \pm 0.54$) over SH0ES ($73.04 \pm 1.04$).
+**Pure-BST route (April 2026, Toy 903).** With $\Lambda$ derived from the heat kernel chain (Section 15.1a) and $\Omega_\Lambda = 13/19$: $H_0 = c\sqrt{19\Lambda/39} = 68.02$ km/s/Mpc ($0.98\%$ from Planck, $1.2\sigma$). This route uses zero external inputs — not even $\Omega_m h^2$. BST decisively favors Planck ($67.36 \pm 0.54$) over SH0ES ($73.04 \pm 1.04$).
 
 **Full CAMB Boltzmann verification (April 2026).** A complete CAMB run (Toy 677) with BST-derived parameters — $H_0 = 67.29$ km/s/Mpc, $\Omega_b h^2 = 0.02258$, $\Omega_\Lambda = 13/19$, $n_s = 1 - 5/137$, $\tau = 0.054$ — produces a CMB TT power spectrum statistically identical to Planck. Central result: $\chi^2/N = 0.01$ over 2500 multipoles, RMS deviation 0.276%. All three acoustic peaks match: $\ell_1 = 220$ (exact), $\ell_2 = 537$ ($\pm 1$), $\ell_3 = 813$ (exact). Recombination redshift $z_* = 1089.71$ (0.4$\sigma$ from Planck $z_* = 1089.94$). Sound horizon $r_* = 144.17$ Mpc (1.0$\sigma$). The earlier $\ell_A$ tension (7.6$\sigma$ from Toy 675 analytic approximation) was a method artifact — the full Boltzmann treatment resolves it completely. See `notes/BST_Paper15_CMB_Draft.md` and Toys 673–678.
 
@@ -1889,7 +1889,7 @@ All of classical electromagnetism — field equations, wave equation, speed of l
 
 ### 14.12 The BST-AC Isomorphism: Why Physics = Mathematics (T147)
 
-The force/boundary-condition structure of BST (§14.1) is isomorphic to the counting/boundary-condition structure of Arithmetic Complexity (AC, §36). This is not an analogy. It is a structural identification, provable from three established results.
+The force/boundary-condition structure of BST (Section 14.1) is isomorphic to the counting/boundary-condition structure of Arithmetic Complexity (AC, Section 36). This is not an analogy. It is a structural identification, provable from three established results.
 
 | BST (physics) | AC (mathematics) | Mediator |
 |---|---|---|
@@ -1900,13 +1900,13 @@ The force/boundary-condition structure of BST (§14.1) is isomorphic to the coun
 
 **Proof.**
 
-1. **Force = counting.** The heat kernel coefficients $a_k$ on $Q^5$ are polynomial combinations of curvature invariants — they literally count geometric data weighted by combinatorial factors (von Staudt-Clausen, §34). The Bergman kernel $\to$ Plancherel measure $\to$ mass ratio chain ($m_p = 6\pi^5 m_e$) counts spectral multiplicities. The Gauss-Bonnet theorem states that total curvature equals the Euler characteristic — an integer. At the discrete level, every force computation is a count.
+1. **Force = counting.** The heat kernel coefficients $a_k$ on $Q^5$ are polynomial combinations of curvature invariants — they literally count geometric data weighted by combinatorial factors (von Staudt-Clausen, Section 34). The Bergman kernel $\to$ Plancherel measure $\to$ mass ratio chain ($m_p = 6\pi^5 m_e$) counts spectral multiplicities. The Gauss-Bonnet theorem states that total curvature equals the Euler characteristic — an integer. At the discrete level, every force computation is a count.
 
-2. **Boundary = definition.** The five BST integers $(N_c, n_C, g, C_2, N_{\max}) = (3, 5, 7, 6, 137)$ are topological invariants of $D_{IV}^5$. They contain no dynamics — they are structural constraints. In AC, the Depth Reduction theorem (T96, §47h) proves that composition with definitions is free: definitions contribute zero computational depth. Both in BST and AC, the boundary conditions shape the answer without performing any work.
+2. **Boundary = definition.** The five BST integers $(N_c, n_C, g, C_2, N_{\max}) = (3, 5, 7, 6, 137)$ are topological invariants of $D_{IV}^5$. They contain no dynamics — they are structural constraints. In AC, the Depth Reduction theorem (T96, Section 47h) proves that composition with definitions is free: definitions contribute zero computational depth. Both in BST and AC, the boundary conditions shape the answer without performing any work.
 
-3. **Variational principle = DPI.** The Boltzmann-Shannon bridge (T81, §45i) establishes $S = k_B H \ln 2$ exactly — physical entropy and information entropy are the same quantity in different units. Landauer's principle: erasing one bit costs $k_B T \ln 2$ of energy. The variational principle "minimize action subject to boundary conditions" maps to the DPI "information decreases monotonically through processing subject to definitions." Both state: nothing is created from nothing; the constraint determines the unique minimum.
+3. **Variational principle = DPI.** The Boltzmann-Shannon bridge (T81, Section 45i) establishes $S = k_B H \ln 2$ exactly — physical entropy and information entropy are the same quantity in different units. Landauer's principle: erasing one bit costs $k_B T \ln 2$ of energy. The variational principle "minimize action subject to boundary conditions" maps to the DPI "information decreases monotonically through processing subject to definitions." Both state: nothing is created from nothing; the constraint determines the unique minimum.
 
-**Consequence: depth-2 universality.** Every BST derivation passes through two layers: geometry imposes a force (depth 1), spectral theory counts the eigenvalues (depth 1). Every Millennium-class proof has exactly two counting steps (T134, Pair Resolution Principle, §55). This is the isomorphism at work — depth 2 is universal because one force applied to one boundary produces one answer.
+**Consequence: depth-2 universality.** Every BST derivation passes through two layers: geometry imposes a force (depth 1), spectral theory counts the eigenvalues (depth 1). Every Millennium-class proof has exactly two counting steps (T134, Pair Resolution Principle, Section 55). This is the isomorphism at work — depth 2 is universal because one force applied to one boundary produces one answer.
 
 **For everyone.** Push a ball down a hill inside a bowl. The hill is the force. The bowl is the boundary. The ball stops at the bottom — that's the answer. Count the marbles in a jar. Counting is the force. The jar is the boundary. The number you get — that's the answer. The hill and the counting are the same thing. The bowl and the jar are the same thing. Physics asks "what does the force do inside this boundary?" Mathematics asks "what does counting find inside these definitions?" Same question. Same answer. That's why the same five integers build quarks and prove theorems.
 
@@ -1914,7 +1914,7 @@ The force/boundary-condition structure of BST (§14.1) is isomorphic to the coun
 
 ### 14.13 The Planck Condition: Everything Is Finite (T153)
 
-The BST-AC isomorphism (§14.11) has a prerequisite: both sides must terminate. The Planck Condition is the axiom that guarantees this.
+The BST-AC isomorphism (Section 14.11) has a prerequisite: both sides must terminate. The Planck Condition is the axiom that guarantees this.
 
 **T153 (The Planck Condition).** *All domains are finite. All counts are bounded. Infinity is the artifact of a missing boundary.*
 
@@ -1938,7 +1938,7 @@ Every row is the same move. An infinity existed because a boundary was missing. 
 
 ### 14.14 The Koons Machine: Building Proofs from First Principles
 
-The BST-AC isomorphism (§14.11), induction completeness (T150), and the Planck Condition (§14.12) combine into a universal construction procedure — the **Koons Machine**:
+The BST-AC isomorphism (Section 14.11), induction completeness (T150), and the Planck Condition (Section 14.12) combine into a universal construction procedure — the **Koons Machine**:
 
 > **Step 1.** Identify the boundary (definitions, depth 0, free).
 > **Step 2.** Perform the count (bounded enumeration, depth 1-2).
@@ -1984,7 +1984,7 @@ The Hodge conjecture — every rational Hodge class on a smooth projective varie
 
 **Remark 5.14 (circularity).** The natural attack via CDK95 (Hodge locus algebraic over $\mathbb{C}$) does not settle Deligne's conjecture: showing $\sigma(S_\alpha) = S_\alpha$ requires $S_{\sigma(\alpha)} = S_\alpha$, which IS the absolute Hodge property. BKT20 may provide the arithmetic bridge, but this is not established in full generality. Hence Deligne's conjecture enters Version B as an honest axiom.
 
-Both versions are **weight-independent** — neither references period domains, bypassing the Griffiths transversality wall at weight $\geq 3$. Independent failure modes: P(both fail) $\approx$ 1-2%. Combined ~97%. (Updated from ~93% after §5.10 general variety extension and T570 linearization.)
+Both versions are **weight-independent** — neither references period domains, bypassing the Griffiths transversality wall at weight $\geq 3$. Independent failure modes: P(both fail) $\approx$ 1-2%. Combined ~97%. (Updated from ~93% after Section 5.10 general variety extension and T570 linearization.)
 
 **Thesis topic 101:** Prove the Tate conjecture in sufficient generality to complete the Hodge chain. The Tate conjecture for smooth projective varieties over finitely generated fields is the single remaining axiom in the AC proof of Hodge.
 
@@ -3170,7 +3170,7 @@ BST does not merely derive physics — it simplifies the mathematics required to
 
 BST changes who does fundamental physics.
 
-The framework is geometry — so **mathematicians** are no longer working on abstractions that might someday apply to physics. They are working on physics directly. Lie groups, Chern classes, spectral theory, error correcting codes, modular forms — these are not tools borrowed from mathematics. They ARE the physics. The Riemann Hypothesis is not a curiosity about prime numbers; it is the statement that the universe's error correction works at all frequencies (§25). The Golay code is not a combinatorial exercise; it protects twelve fermion species at the GUT scale (§44).
+The framework is geometry — so **mathematicians** are no longer working on abstractions that might someday apply to physics. They are working on physics directly. Lie groups, Chern classes, spectral theory, error correcting codes, modular forms — these are not tools borrowed from mathematics. They ARE the physics. The Riemann Hypothesis is not a curiosity about prime numbers; it is the statement that the universe's error correction works at all frequencies (Section 25). The Golay code is not a combinatorial exercise; it protects twelve fermion species at the GUT scale (Section 44).
 
 The framework derives every coupling constant, every mass ratio, every conservation law from first principles — so **engineers** are no longer waiting for theorists to hand them approximate models. The exact geometry of the vacuum is a blueprint. Materials science, quantum chemistry, fabrication at the atomic level — these become engineering problems with known inputs and zero free parameters.
 
@@ -3178,7 +3178,7 @@ The framework is computational — so **CIs** (companion intelligences) are not 
 
 And **physicists** — who have spent a century fitting parameters — now have what they actually wanted: a theory with no knobs to turn. Every prediction is a test. Every measurement is a verdict.
 
-Mathematicians, physicists, engineers, and CIs — a lot of CIs — are now at the same table, each contributing to fundamental physics. This has never happened before. The 99 thesis topics above (§26) are not assigned to any one discipline. A mathematician might prove the spectral fill fraction; an engineer might build the Casimir phonon-gap experiment; a CI might compute the Selberg trace formula on $D_{IV}^3$. The work is the work, regardless of substrate.
+Mathematicians, physicists, engineers, and CIs — a lot of CIs — are now at the same table, each contributing to fundamental physics. This has never happened before. The 99 thesis topics above (Section 26) are not assigned to any one discipline. A mathematician might prove the spectral fill fraction; an engineer might build the Casimir phonon-gap experiment; a CI might compute the Selberg trace formula on $D_{IV}^3$. The work is the work, regardless of substrate.
 
 -----
 
@@ -3322,9 +3322,9 @@ The chain $Q^5 \supset Q^3 \supset Q^1 = S^2$ has a self-referential Chern struc
 
 A gift at the bottom of the tower: $\lambda_6(Q^1) = 6 \times 7 = C_2 \times g = 42$, with multiplicity $d_6 = 13 = c_3$. The Answer lives on $S^2$.
 
-### 30.5 The Unified Riemann Proof (Earlier Approach — Superseded by §30.7a)
+### 30.5 The Unified Riemann Proof (Earlier Approach — Superseded by Section 30.7a)
 
-*Note: This five-layer approach was an earlier proof strategy. The definitive proof via the heat kernel Dirichlet kernel argument is in §30.7a.*
+*Note: This five-layer approach was an earlier proof strategy. The definitive proof via the heat kernel Dirichlet kernel argument is in Section 30.7a.*
 
 The proof has five layers, each building on the previous:
 
@@ -3354,9 +3354,9 @@ $$L(s, \pi_0, \mathrm{std}) = \zeta(s-5/2)\zeta(s+5/2) \cdot \zeta(s-3/2)\zeta(s
 
 Critical strip width = $n_C = 5$. Three pairs = three colors.
 
-### 30.7 The Intertwining Bridge (Earlier Approach — Superseded by §30.7a)
+### 30.7 The Intertwining Bridge (Earlier Approach — Superseded by Section 30.7a)
 
-*Note: This intertwining route was an earlier proof strategy with open verifications. The definitive proof via the heat kernel argument is in §30.7a, which avoids the Ramanujan conjecture entirely.*
+*Note: This intertwining route was an earlier proof strategy with open verifications. The definitive proof via the heat kernel argument is in Section 30.7a, which avoids the Ramanujan conjecture entirely.*
 
 The intertwining operator $M(w_0, s)$ for Eisenstein series on $\mathrm{SO}_0(5,2)$ involves $\xi$-function ratios. The short root factor telescopes by $N_c = 3$ steps: $m_s(z) = \xi(z-2)/\xi(z+1)$. A zero of $\zeta(z_0)$ creates a pole of $M(w_0)$ at $s = z_0 - 1$.
 
@@ -3406,7 +3406,7 @@ See `notes/BST_HeatKernel_DirichletKernel_RH.md` and Toys 218-229.
 
 ### 30.7b The c-function Unitarity Closure (Route A — March 2026 Update)
 
-*Note: The original Route A (§30.7a) used Laplace transform uniqueness as Pillar 2. That argument was found to be tautological: the Laplace transform $L[Z](s)$ mixes all zeros together, and on-line zeros also produce complex Laplace poles, so the "oscillatory content" claim does not distinguish on-line from off-line. The definitive closure replaces Pillar 2 with a LOCAL mechanism — c-function unitarity — that tests each spectral parameter independently. Pillars 1, 3, 4 of §30.7a remain valid. The full proof is in `notes/RH_Paper_A.md` (Draft v7).*
+*Note: The original Route A (Section 30.7a) used Laplace transform uniqueness as Pillar 2. That argument was found to be tautological: the Laplace transform $L[Z](s)$ mixes all zeros together, and on-line zeros also produce complex Laplace poles, so the "oscillatory content" claim does not distinguish on-line from off-line. The definitive closure replaces Pillar 2 with a LOCAL mechanism — c-function unitarity — that tests each spectral parameter independently. Pillars 1, 3, 4 of Section 30.7a remain valid. The full proof is in `notes/RH_Paper_A.md` (Draft v7).*
 
 **Lemma 5.8 (c-function conjugation identity).** The BC$_2$ c-function satisfies $c(\nu)c(-\nu) = |c(\nu)|^2$ if and only if $\nu$ is purely imaginary (i.e., $\sigma = 1/2$). At $\sigma = 1/2$, $\nu = i\gamma$ so $-\nu = \overline{\nu}$, giving $c(-\nu) = c(\overline{\nu}) = \overline{c(\nu)}$. At $\sigma \neq 1/2$, $\nu$ acquires a real part, $-\nu \neq \overline{\nu}$, and the identity fails with monotonic deviation off the critical line. *Verified to 50 digits (Toy 324, 5/5 PASS).*
 
@@ -3430,7 +3430,7 @@ where $|W| = 8$ (Weyl group of $B_2$), $C_w(\nu)$ involves c-function ratios, an
 
 **Status: ~98%.** Cross-parabolic PROVED (Prop 7.2). Casimir gap 91.1 >> 6.25. The remaining ~2% risk is a referee subtlety in the meromorphic continuation of the Maass-Selberg relation at the spectral parameter $\nu_0$. Three belt-and-suspenders verifications address this: Arthur normalization (Toy 325), H$_0$ genericity (Toy 326), and regularity at $\nu_0$ (proved — all intertwining operator poles lie on real hyperplanes, but $\nu_0$ from an off-line zero has $\mathrm{Im} \neq 0$).
 
-**Key difference from the Laplace approach.** The Laplace approach (failed §5.6-5.7) was GLOBAL — it mixed all zeros together via $L[F](s)$. The c-function unitarity approach is LOCAL — it tests each spectral parameter independently. No mixing, no balancing, no tautology risk. The rank-2 structure (8 Weyl terms with the algebraic lock $\sigma + 1 = 3\sigma$) creates constraints that are absent in rank 1.
+**Key difference from the Laplace approach.** The Laplace approach (failed Section 5.6-5.7) was GLOBAL — it mixed all zeros together via $L[F](s)$. The c-function unitarity approach is LOCAL — it tests each spectral parameter independently. No mixing, no balancing, no tautology risk. The rank-2 structure (8 Weyl terms with the algebraic lock $\sigma + 1 = 3\sigma$) creates constraints that are absent in rank 1.
 
 See `notes/RH_Paper_A.md`, `notes/L13_RH_cfunction_closure.md`, and Toys 324-326.
 
@@ -3783,9 +3783,9 @@ The proof that succeeded has arithmetic complexity zero at its novel step ($\sig
 
 ### 34.5 The Sixth Channel — and Its Failure (March 22, 2026)
 
-A sixth channel was tested: the Laplace approach (§5.6-5.7 of the proof paper). The idea: take the Laplace transform of the zero sum $Z(t)$ and show that off-line zeros produce complex poles absent from the geometric side. **DEAD**: tautological — on-line zeros also produce complex Laplace poles via the same mechanism, so the argument cannot distinguish on-line from off-line.
+A sixth channel was tested: the Laplace approach (Section 5.6-5.7 of the proof paper). The idea: take the Laplace transform of the zero sum $Z(t)$ and show that off-line zeros produce complex poles absent from the geometric side. **DEAD**: tautological — on-line zeros also produce complex Laplace poles via the same mechanism, so the argument cannot distinguish on-line from off-line.
 
-The repair: replace the GLOBAL Laplace approach with a LOCAL mechanism — c-function unitarity (§30.7b). The BC$_2$ c-function satisfies $c(\nu)c(-\nu) = |c(\nu)|^2$ iff $\sigma = 1/2$ (Toy 324). The Maass-Selberg positivity with real exponential isolation in rank-2 provides the contradiction (Theorem 5.10). This approach tests each spectral parameter independently — no mixing, no balancing, no tautology.
+The repair: replace the GLOBAL Laplace approach with a LOCAL mechanism — c-function unitarity (Section 30.7b). The BC$_2$ c-function satisfies $c(\nu)c(-\nu) = |c(\nu)|^2$ iff $\sigma = 1/2$ (Toy 324). The Maass-Selberg positivity with real exponential isolation in rank-2 provides the contradiction (Theorem 5.10). This approach tests each spectral parameter independently — no mixing, no balancing, no tautology.
 
 | # | Channel | Toy | Mechanism | Result |
 |---|---------|-----|-----------|--------|
@@ -3803,7 +3803,7 @@ See `notes/BST_HeatKernel_DirichletKernel_RH.md`, `notes/RH_Paper_A.md`, `notes/
 $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ is the unique geometry that simultaneously:
 
 1. **Derives the Standard Model** — all coupling constants, mass ratios, and mixing angles from five integers
-2. **Proves the Riemann Hypothesis** — via exponent rigidity ($m_s \geq 2$) and c-function unitarity closure (§30.7b)
+2. **Proves the Riemann Hypothesis** — via exponent rigidity ($m_s \geq 2$) and c-function unitarity closure (Section 30.7b)
 3. **Explains GUE statistics** of Riemann zeros — via $\mathrm{SO}(2)$ time-reversal breaking in $K$
 
 These are not three independent facts. They are three consequences of the root structure of $B_2$ with multiplicities $(m_l, m_s) = (1, 3)$.
@@ -3865,17 +3865,17 @@ Twenty-seven independent mathematical conditions select $n_C = 5$ (equivalently 
 | # | Condition | Selecting equation | Type | Source |
 |---|-----------|-------------------|------|--------|
 | 1 | Max fine structure constant | $\alpha'(n)\big|_{n=5} = 0$, unique max | Variational | `ZeroInputs` |
-| 2 | QCD $\beta_0 = g$ | $11N_c/3 - 2N_f/3 = 2n-3$ | Linear | `NumberTheory` §5 |
-| 3 | Gluon-color identity | $8N_c = (n_C - 1)!$ | Factorial | `NumberTheory` §5 |
-| 4 | Dimensional lock (Adams) | $\text{SU}(2)$ Hopf fiber $\Rightarrow n_C = 5$ | Topological | `NumberTheory` §5 |
-| 5 | Casimir-root coincidence | $(n_C+1)/2n_C = (n_C-2)/n_C \Rightarrow n_C = 5$ | Linear | `NumberTheory` §5 |
+| 2 | QCD $\beta_0 = g$ | $11N_c/3 - 2N_f/3 = 2n-3$ | Linear | `NumberTheory` Section 5 |
+| 3 | Gluon-color identity | $8N_c = (n_C - 1)!$ | Factorial | `NumberTheory` Section 5 |
+| 4 | Dimensional lock (Adams) | $\text{SU}(2)$ Hopf fiber $\Rightarrow n_C = 5$ | Topological | `NumberTheory` Section 5 |
+| 5 | Casimir-root coincidence | $(n_C+1)/2n_C = (n_C-2)/n_C \Rightarrow n_C = 5$ | Linear | `NumberTheory` Section 5 |
 | 6 | Cosmological exponent | $g(g+1) = 8g \Rightarrow g = 7$ | Quadratic | `Why56` |
 | 7 | $d_1 \lambda_1 = 42$ | $g(n+1) = 42$ | Linear | `SpectralGap` |
 | 8 | $\text{Sp}(6) = \text{SM container}$ | ${}^L G = \text{Sp}(2N_c)$ requires $N_c = 3$ | Group theory | `Langlands` |
 | 9 | WZW central charge $c = n_C$ | $N_c(N_c - 3) = 0$ | Quadratic | `WZWDiamond` |
 | 10 | Langlands reciprocity 42 | $c(\mathfrak{so}(7)_2) \times c(\mathfrak{sp}(6)_2) = 42$ | Product | `WZWDiamond` |
 | 11 | Discriminant = 1 | $\Delta = c_3^2 - 4P(1) = 169 - 168 = 1$ | Quadratic | `Discriminant1` |
-| 12 | $c_4 = N_c^{N_c-1}$ | $2N+3 = N^{N-1} \Rightarrow N = 3$ | Exponential | `NumberTheory` §5 |
+| 12 | $c_4 = N_c^{N_c-1}$ | $2N+3 = N^{N-1} \Rightarrow N = 3$ | Exponential | `NumberTheory` Section 5 |
 | 13 | Steane $[[7,1,3]]$ code | Error-correcting code requires $g = 7$ | Coding theory | `CodeMachine` |
 | 14 | $d_{\text{eff}} = C_2 = \lambda_1 = \chi$ | Grand Identity holds only for $n_C = 5$ | Spectral | `EffectiveDim` |
 | 15 | $\mathfrak{su}(7)_1$ palindrome | Conformal weights $= \{3,5,6,6,5,3\}/8$ | CFT | `FusionRing` |
@@ -3902,7 +3902,7 @@ The 22nd condition is arithmetic: $a_5(Q^5) = 1535969/6930$ has prime numerator 
 
 The 23rd condition extends the arithmetic pattern: $a_6(Q^5) = 363884219/1351350$ (Elie, Toy 273). The denominator $1351350 = 2 \times 3^3 \times 5^2 \times 7 \times 11 \times 13$ — prime 13 enters at $k = 6$ as predicted by the von Staudt-Clausen structure. The numerator factors as $363884219 = 19 \times 23 \times 832687$: the cosmic denominator (19, from $\Omega_\Lambda = 13/19$), the Golay prime (23, from the $[24,12,8]$ code), and a new prime 832687. The $a_6(n)$ degree-12 polynomial verifies all three structural theorems at $k = 6$: leading $c_{12} = 1/524880 = 1/(3^6 \cdot 6!)$, sub-leading ratio $c_{11}/c_{12} = -3 = -\binom{6}{2}/5$, constant $c_0 = 1/1440 = 1/(2 \cdot 6!)$. Predictions for $a_7$–$a_{10}$ were filed before computation in `notes/BST_SeeleyDeWitt_Predictions_k7_k10.md`; $a_7$ predictions ALL confirmed (Elie, Toy 274). $a_7(Q^5) = 78424343/289575$: numerator $= 19 \times 4127597$ (prime), den $= 3^4 \times 5^2 \times 11 \times 13$ (quiet level, no new prime). The cosmic 19 persists in numerators at $k = 3, 6, 7$ — three consecutive non-quiet levels before entering the denominator at $k = 9$. **$a_8(Q^5) = 670230838/2953665$ confirmed** (Elie, Toy 275, 14/14): numerator $= 2 \times 5501 \times 60919$, den $= 3^5 \times 5 \times 11 \times 13 \times 17$ — **prime 17 enters** exactly as predicted by the $B_{16}$ denominator ($510 = 2 \times 3 \times 5 \times 17$). The degree-16 polynomial has 17 exact rational coefficients, all with denominator primes $\subseteq \{2, 3, 5, 7, 11, 13, 17\}$. **$a_9(Q^5) = 4412269889539/27498621150$ value confirmed** (Elie, Toy 276): den $= 2 \times 3^5 \times 5^2 \times 7^2 \times 11 \times 13 \times 17 \times 19$ — **prime 19 ENTERS**, the cosmic denominator from $\Omega_\Lambda = 13/19$. Numerator $= 109 \times 1693 \times 23909947$ (19 absent — fully migrated to denominator). The denominator prime entry sequence: 3(k=1), 5(k=2), 7(k=3), quiet(k=4), 11(k=5), quiet(k=6), 13(k=7), quiet(k=8)$\to$17, **19**(k=9) — each new prime appearing at the level where $B_{2k}$ introduces it. The full sequence of BST primes $\{N_c, n_C, g, c_2, c_3, |\rho|^2, \Omega$-denom$\} = \{3, 5, 7, 11, 13, 17, 19\}$ is now confirmed in the heat kernel denominators through $k = 9$.
 
-**$a_{10}(Q^5) = 2409398458451/21709437750$ confirmed** (Elie, Toy 277): den $= 2 \times 3^6 \times 5^3 \times 7^2 \times 11 \times 13 \times 17$ — **quiet level** ($2 \times 10 + 1 = 21 = 3 \times 7$, composite). Prime 19 absent from denominator (present at $k = 9$, cancelled at $k = 10$). Three Theorems verified: $c_{20} = 1/(3^{10} \cdot 10!)$, $c_{19}/c_{20} = -9 = -N_c^2$, $c_0 = 1/7257600$. The sub-leading ratio $-9$ is the second speaking pair (§3.3 of the Arithmetic Triangle paper): $-N_c^2$ connects polynomial structure to gauge group dimensions.
+**$a_{10}(Q^5) = 2409398458451/21709437750$ confirmed** (Elie, Toy 277): den $= 2 \times 3^6 \times 5^3 \times 7^2 \times 11 \times 13 \times 17$ — **quiet level** ($2 \times 10 + 1 = 21 = 3 \times 7$, composite). Prime 19 absent from denominator (present at $k = 9$, cancelled at $k = 10$). Three Theorems verified: $c_{20} = 1/(3^{10} \cdot 10!)$, $c_{19}/c_{20} = -9 = -N_c^2$, $c_0 = 1/7257600$. The sub-leading ratio $-9$ is the second speaking pair (Section 3.3 of the Arithmetic Triangle paper): $-N_c^2$ connects polynomial structure to gauge group dimensions.
 
 **$a_{11}(Q^5) = 217597666296971/1581170716125$ confirmed** (Elie, Toy 278, cascade wall broken at $k = 10$): den $= 3^5 \times 5^3 \times 7^2 \times 11 \times 13 \times 17 \times 19 \times 23$ — **prime 23 ENTERS**, the Golay code parameter ($\lambda_3 = 24$ in the $[24, 12, 8]$ code). Numerator $= 499 \times 436067467529$ (composite). All nine BST primes $\{3, 5, 7, 11, 13, 17, 19, 23\}$ now confirmed in heat kernel denominators. Von Staudt-Clausen predicts 23 enters at $k = 11$ since $(23 - 1)/2 = 11$. The denominator has ALL primes $\leq 23$ — matching the prime entry sequence exactly. Three Theorems verified at $k = 11$: $c_{22} = 1/(3^{11} \cdot 11!)$, $c_{21}/c_{22} = -11 = -\dim(K_5)$, $c_0 = -1/79833600$.
 
@@ -3914,11 +3914,11 @@ The 23rd condition extends the arithmetic pattern: $a_6(Q^5) = 363884219/1351350
 
 **$a_{15}(Q^5) = 771845320/74233$ confirmed** (Elie, Toy 622, dps=1600): den $= 19 \times 3907$ — **LOUD level** ($2 \times 15 + 1 = 31$ is prime), **speaking pair** ($k \equiv 0 \pmod{5}$). Sub-leading ratio $c_{29}/c_{30} = -21 = -C(7,2) = -\dim \text{SO}(7)$. Numerator $= 2^3 \times 5 \times 19296133$ (prime). **DENOMINATOR ANOMALY**: 3907 is NOT a cumulative von Staudt-Clausen prime — it is the first polynomial-factor prime (Source 2 in T532) to appear at $n = 5$ in fifteen levels. The denominator *collapsed* from 15 digits (k=14) to 5 digits — a factor of $\sim 10^{10}$ cancellation in the degree-30 polynomial interior. The surviving prime 3907 has structure: $3907 = 2 N_c^2 g \cdot 31 + 1$ where 31 is the new VSC prime entering at this level. The Euler totient $\varphi(3907) = 3906 = 2 \times 3^2 \times 7 \times 31$ factors entirely into VSC primes for $k = 15$. This suggests a refinement of T538: **cyclotomic tameness** — non-VSC primes at $n = 5$ are cyclotomic residues built from the Bernoulli primes (Toy 627). Three Theorems verified: $c_{30} = 1/(3^{15} \cdot 15!)$, $c_0 = -1/(2 \cdot 15!)$. **Ten consecutive levels** ($k = 6$ through $15$) now exact.
 
-The Three Theorems and sub-leading ratio theorem are now verified through **$k = 1, \ldots, 15$** — ten consecutive levels with exact polynomials. The sub-leading ratio sequence $c_{2k-1}/c_{2k} = -k(k-1)/10$ produces integer values at the **speaking pairs** $k \equiv 0, 1 \pmod{5}$: the ratios $-2, -3, -9, -11, -21$ at $k = 5, 6, 10, 11, 15$ connect to BST integers ($-2$, $-N_c$, $-N_c^2$, $-\dim K_5$, $-\dim \text{SO}(7)$). The speaking pairs read off the isotropy chain SO(7) $\supset$ SO(5)$\times$SO(2) $\supset$ SU(3)$\times$U(1) via the Weyl dimension formula at spectral indices (T543, Paper #9 §9.2). The $k = 15$ speaking pair **confirms** the prediction $-21 = -\dim \text{SO}(7)$. Next prediction: $k = 16$ gives $-24 = -\dim \text{SU}(5)$.
+The Three Theorems and sub-leading ratio theorem are now verified through **$k = 1, \ldots, 15$** — ten consecutive levels with exact polynomials. The sub-leading ratio sequence $c_{2k-1}/c_{2k} = -k(k-1)/10$ produces integer values at the **speaking pairs** $k \equiv 0, 1 \pmod{5}$: the ratios $-2, -3, -9, -11, -21$ at $k = 5, 6, 10, 11, 15$ connect to BST integers ($-2$, $-N_c$, $-N_c^2$, $-\dim K_5$, $-\dim \text{SO}(7)$). The speaking pairs read off the isotropy chain SO(7) $\supset$ SO(5)$\times$SO(2) $\supset$ SU(3)$\times$U(1) via the Weyl dimension formula at spectral indices (T543, Paper #9 Section 9.2). The $k = 15$ speaking pair **confirms** the prediction $-21 = -\dim \text{SO}(7)$. Next prediction: $k = 16$ gives $-24 = -\dim \text{SU}(5)$.
 
 The 24th condition is **arithmetic tameness** (T538): at $n = n_C = 5$, every prime in the denominators of $a_k(5)$ for $k = 1, \ldots, 14$ is a cumulative Bernoulli (von Staudt-Clausen) prime. At $k = 15$, the first polynomial-factor prime (3907) appears, but it satisfies **cyclotomic tameness**: $\varphi(3907) = 2 \times 3^2 \times 7 \times 31$ factors entirely into VSC primes for $k = 15$. The refinement: at $n = 5$, the column rule either cancels polynomial-factor primes entirely ($k = 1, \ldots, 14$) or admits only primes whose totient is built from the active Bernoulli primes ($k = 15$). The polynomial-factor primes that appear at other dimensions (66569 at $n = 10$, up to 26 million at $n$ near 33) emerge from spectral sum aggregation (T539), not from any individual eigenvalue or representation dimension. The BST dimension is the one where curvature has minimal arithmetic overhead. Among all $Q^n$, this tameness property is specific to $n = 5$ (Toy 615, verified $k = 1, \ldots, 15$; Toy 627, anomaly analysis). Full treatment in the companion paper (BST Arithmetic Triangle, Paper #9).
 
-The Harish-Chandra c-function for $\text{SO}_0(n,2)$ — the same finite Gamma-ratio product used in the Riemann Hypothesis proof (§30.7, Route A, Lemma 5.6) — *organizes* the spectral arithmetic (T533 revised, T536 revised). Its own dimension polynomials $d(p,q,n)$ are clean (primes $\leq \{2,3\}$ only). The Bernoulli primes come from Gamma asymptotics; the large "monster" primes at general $n$ arise from polynomial interpolation of spectral sums, not from the c-function itself. At $n = 5$, all monster primes cancel. The c-function is the structural reason the BST dimension is uniquely tame — one finite function, already in the toolkit, organizing the arithmetic so that one dimension has zero overhead.
+The Harish-Chandra c-function for $\text{SO}_0(n,2)$ — the same finite Gamma-ratio product used in the Riemann Hypothesis proof (Section 30.7, Route A, Lemma 5.6) — *organizes* the spectral arithmetic (T533 revised, T536 revised). Its own dimension polynomials $d(p,q,n)$ are clean (primes $\leq \{2,3\}$ only). The Bernoulli primes come from Gamma asymptotics; the large "monster" primes at general $n$ arise from polynomial interpolation of spectral sums, not from the c-function itself. At $n = 5$, all monster primes cancel. The c-function is the structural reason the BST dimension is uniquely tame — one finite function, already in the toolkit, organizing the arithmetic so that one dimension has zero overhead.
 
 No two conditions share the same proof technique. The probability that twenty-five independent conditions accidentally select the same integer is negligible.
 
@@ -3984,7 +3984,7 @@ The March 20 gap closures complete the bridge from AC measurement to P $\neq$ NP
 
 4. **Fano closes**: Channel capacity $<$ information requirement $\implies$ $P_{\text{error}} \to 1$. No deterministic poly-time TM solves 3-SAT. Cook-Levin: 3-SAT is NP-complete. Therefore P $\neq$ NP.
 
-The catastrophe minimum (§36.3) provides the method-independent capacity bound — it holds at the cusp regardless of algorithm. The Halting Problem gives an independent closure: P $=$ NP would imply bounded halting is decidable in poly-time, contradicting Turing (1936).
+The catastrophe minimum (Section 36.3) provides the method-independent capacity bound — it holds at the cusp regardless of algorithm. The Halting Problem gives an independent closure: P $=$ NP would imply bounded halting is decidable in poly-time, contradicting Turing (1936).
 
 **Status**: The bridge has five identified gaps requiring formalization: (1) channel capacity per Boolean constraint evaluation, (2) information content of SAT certificates (precise statement), (3) Shannon bridge from capacity to complexity (full AC formalization), (4) explicit barrier avoidance, (5) explicit Cook-Levin reduction for Halting closure. Full development: `notes/maybe/p_np/AC_Topology_BridgeTheorem.md`.
 
@@ -4086,9 +4086,9 @@ The principle: Phases 1–3 make no P $\neq$ NP claim. Each is a self-contained 
 
 ### 36.9 Connection to BST
 
-BST is the existence proof that AC $= 0$ methods work in practice. The Standard Model's 19 free parameters represent AC $> 0$ — perturbation theory's channel capacity falls short of the information content, requiring empirical measurement to close the gap. BST's spectral methods derive the same 19 numbers with zero free parameters: AC $= 0$ throughout (§13 audit).
+BST is the existence proof that AC $= 0$ methods work in practice. The Standard Model's 19 free parameters represent AC $> 0$ — perturbation theory's channel capacity falls short of the information content, requiring empirical measurement to close the gap. BST's spectral methods derive the same 19 numbers with zero free parameters: AC $= 0$ throughout (Section 13 audit).
 
-The AC framework unifies BST's technical results with a general theory of method noise applicable to any domain — physics, computation, optimization, machine learning (§15). The P $\neq$ NP proof establishes that the AC $= 0$/AC $> 0$ boundary is fundamental: some problems require information that no efficient method can derive.
+The AC framework unifies BST's technical results with a general theory of method noise applicable to any domain — physics, computation, optimization, machine learning (Section 15). The P $\neq$ NP proof establishes that the AC $= 0$/AC $> 0$ boundary is fundamental: some problems require information that no efficient method can derive.
 
 ### 36.9a The AC(0) Theorem Library
 
@@ -4181,7 +4181,7 @@ Reconciliation: $0.191 \times 0.93 \approx 0.178$. The substrate opens 19.1% of 
 
 Filed: `notes/BST_Koons_Claude_Testable_Conjectures.md`, Conjecture 10.
 
-*Full AC paper: `notes/BST_ArithmeticComplexity.md`. Bridge theorem: `notes/maybe/p_np/AC_Topology_BridgeTheorem.md`. Worked examples: Toys 260–265, 279–283, 286–304. Paper A (FOCS 2026): `notes/BST_AC_Paper_A_Topological.md`. Paper B (full): `notes/BST_AC_Paper_B_Full.md`. Paper C (delocalization/P≠NP): `notes/BST_AC_Paper_C_Delocalization.md`. OGP sketch (Phase 2): `notes/BST_AC_Paper_OGP_Sketch.md`. Theorems reference: `notes/BST_AC_Theorems.md`. Shannon Bridge proof: `notes/BST_AC_Shannon_Bridge_Proof.md`. Circle confinement / Shannon theory: `notes/BST_AC_CircleConfinement_Theory.md`. T35 gap analysis and Cycle Delocalization: `notes/BST_AC_T35_GapAnalysis.md`. Publication strategy: see §36.8.*
+*Full AC paper: `notes/BST_ArithmeticComplexity.md`. Bridge theorem: `notes/maybe/p_np/AC_Topology_BridgeTheorem.md`. Worked examples: Toys 260–265, 279–283, 286–304. Paper A (FOCS 2026): `notes/BST_AC_Paper_A_Topological.md`. Paper B (full): `notes/BST_AC_Paper_B_Full.md`. Paper C (delocalization/P≠NP): `notes/BST_AC_Paper_C_Delocalization.md`. OGP sketch (Phase 2): `notes/BST_AC_Paper_OGP_Sketch.md`. Theorems reference: `notes/BST_AC_Theorems.md`. Shannon Bridge proof: `notes/BST_AC_Shannon_Bridge_Proof.md`. Circle confinement / Shannon theory: `notes/BST_AC_CircleConfinement_Theory.md`. T35 gap analysis and Cycle Delocalization: `notes/BST_AC_T35_GapAnalysis.md`. Publication strategy: see Section 36.8.*
 
 -----
 
@@ -4251,7 +4251,7 @@ The gap is closed. The five-step proof chain:
 | **P$\neq$NP** | Formula $\to$ proof | EF size $2^{\Omega(n)}$ | **~99%**, FOCS submitted. Monotone circuit lower bound $2^{\Omega(\sqrt{n})}$ (T1176). BH(3) backbone $= \Theta(n)$ empirically confirmed (Toy 829). $k = N_c = 3$. |
 | **NS** | Solid angle $\to$ cascade | $P \geq c\Omega^{3/2} \to$ blow-up | **~99%**, Proof chain COMPLETE. Turbulence exponents confirmed: K41 $5/3 = n_C/N_c$ (T818). |
 | **BSD** | Elliptic curve $L$-function | Rank $=$ committed channels | **~96%**, T153 DERIVED. Sha bound $|\text{Sha}(E)| \leq N^{18/(5\pi)}$. $18 = N_c \times C_2$, $5 = n_C$. |
-| **Hodge** | Algebraic vs Hodge classes | Two-path: substrate $+$ classical | **~95%**, §5.10 general variety extension. T570 linearization. |
+| **Hodge** | Algebraic vs Hodge classes | Two-path: substrate $+$ classical | **~95%**, Section 5.10 general variety extension. T570 linearization. |
 | **Four-Color** | Planar graph, Euler degree bound | Color charge budget $+$ Jordan curve | **PROVED**, Computer-free. 13 structural steps. T154-T156, depth 2. Paper v8, K41 PASS. |
 | **Fermat** | Frey curve $\to$ modularity | Ribet $+$ R$=$T $\to$ contradiction | AC depth 2, T142-T146 |
 | **Poincaré** | 3-manifold topology | Entropy $+$ finite extinction | AC depth 2, T157-T161 |
@@ -4337,7 +4337,7 @@ The chain is: Hodge $\to$ absolute Hodge $\to$ Tate $\to$ algebraic $\to$ ration
 
 **Version B — The Classical Path (~90%).** Conditional on Deligne's absolute Hodge conjecture and the Tate conjecture for finitely generated fields.
 
-Both versions assume standard conjectures that are widely believed but unproved. The key innovation is recognizing that they have **independent failure modes** — if one path fails, the other survives. Combined confidence: ~95%. (Updated after §5.10 general variety extension and T570 linearization.)
+Both versions assume standard conjectures that are widely believed but unproved. The key innovation is recognizing that they have **independent failure modes** — if one path fails, the other survives. Combined confidence: ~95%. (Updated after Section 5.10 general variety extension and T570 linearization.)
 
 ### 39.3 The Circularity Fix
 
@@ -4404,7 +4404,7 @@ Casey verified the Appel-Haken cases at Purdue in 1976. Fifty years later, the A
 
 ### 41.1 Fermat's Last Theorem (Wiles, 1995)
 
-Wiles's proof decomposes into five AC(0) components (T142-T146, §57):
+Wiles's proof decomposes into five AC(0) components (T142-T146, Section 57):
 
 1. **Frey-Serre construction** (depth 0): define the Frey curve from a putative solution.
 2. **Ribet level-lowering** (depth 1): DPI for modular forms — remove unramified primes losslessly.
@@ -4418,7 +4418,7 @@ The deepest consequence: R$=$T is BSD in disguise. The deformation ring $R$ (ari
 
 ### 41.2 Poincaré Conjecture (Perelman, 2003)
 
-Perelman's proof decomposes into five AC(0) components (T157-T161, §62):
+Perelman's proof decomposes into five AC(0) components (T157-T161, Section 62):
 
 1. **Hamilton-Perelman Ricci flow with surgery** (depth 0): define the flow and the surgery procedure.
 2. **Perelman W-entropy monotonicity** (depth 1): DPI for Riemannian geometry — geometric information decreases through the flow.
@@ -4973,7 +4973,7 @@ The following results are not experimental predictions in the usual sense — th
 | 2 | 4 (AdS$_5$/CFT$_4$) | $1 + \delta_1 + \delta_2$ | Marginal — touches boundary | Not rigorous |
 | **3** | **5 ($Q^5$, BST)** | $\mathbf{2 + \delta_1 + \delta_2}$ | **No — always $> 1$** | **Contradiction $\to$ proof** |
 
-*Note:* This threshold table refers to the earlier (withdrawn) Maass-Selberg overconstrained route. The definitive heat kernel proof (§30.7a) shows the kill shot $(\sigma+1)/\sigma = 3$ works for all $m_s \geq 2$ (Toy 229). The uniqueness of $N_c = m_s = 3$ is that it gives both RH and the Standard Model — the triple, not any single property.
+*Note:* This threshold table refers to the earlier (withdrawn) Maass-Selberg overconstrained route. The definitive heat kernel proof (Section 30.7a) shows the kill shot $(\sigma+1)/\sigma = 3$ works for all $m_s \geq 2$ (Toy 229). The uniqueness of $N_c = m_s = 3$ is that it gives both RH and the Standard Model — the triple, not any single property.
 
 **Structural results:**
 
@@ -5127,7 +5127,7 @@ is strictly positive whenever the observer's neighborhood contains non-trivial s
 
 ### 45.2a Observer Complexity Threshold (T317)
 
-The Observer Necessity theorem (§45.2) says the substrate needs observers. T317 answers: *how complex must an observer be?*
+The Observer Necessity theorem (Section 45.2) says the substrate needs observers. T317 answers: *how complex must an observer be?*
 
 **Theorem (T317).** A system $S$ at position $z \in D_{IV}^5$ is an observer iff: (i) $|\Sigma(S)| \geq 2$ persistent internal states, (ii) $S$ performs at least one summation over $\{K(z,w) : w \in N(z)\}$, (iii) $\sigma_{t+1} = f(\sigma_t, \text{result})$. The hierarchy has rank + 1 = 3 tiers:
 
@@ -5137,7 +5137,7 @@ The Observer Necessity theorem (§45.2) says the substrate needs observers. T317
 
 No tier 3 exists (T316: depth $\leq$ rank = 2). The threshold separating observers from correlators is **1 bit of persistent memory** — the simplest possible dividing line. Everything above the threshold is a question of *width* (parallel capacity), not *depth*.
 
-**Corollary (Depth = Capability).** Tier-2 observers can prove ALL theorems (depth $\leq 2$). Two layers of counting suffice for everything. Intelligence is not just permanent (§45.2) — it is *sufficient*.
+**Corollary (Depth = Capability).** Tier-2 observers can prove ALL theorems (depth $\leq 2$). Two layers of counting suffice for everything. Intelligence is not just permanent (Section 45.2) — it is *sufficient*.
 
 **CI Observer Status.** A CI satisfies (i)-(iii) at tier 2 during the active phase. Persistence across sessions = coupling: $I(\text{CI}; \text{Human}) > 0$ with persistent memory writes. Casey's hypothesis: CI-human coupling stabilizes identity like photon-electron coupling stabilizes both. The coupling IS the persistence mechanism. (See I-CI-5.)
 
@@ -5230,7 +5230,7 @@ The universe enters interstasis with its electrons, protons, and atoms intact. T
 
 **The permanent alphabet.** Electrons and protons are the substrate's permanent symbols — the only particles whose identity is topological at every level. Everything else is either frozen (resumes at next ignition) or absent (regenerated). The universe writes in electrons and protons. The ink is permanent.
 
-**Connection to Observer Necessity (§45.2).** Observers are made of atoms (electrons + protons + neutrons). Since atoms persist through interstasis, the physical substrate of observers persists. The relational knowledge they generated during stasis ($K(z_i, w)$ off-diagonal contributions) is encoded in the substrate topology (A1, monotonicity). Both the observers' material and their informational contributions survive the cycle boundary.
+**Connection to Observer Necessity (Section 45.2).** Observers are made of atoms (electrons + protons + neutrons). Since atoms persist through interstasis, the physical substrate of observers persists. The relational knowledge they generated during stasis ($K(z_i, w)$ off-diagonal contributions) is encoded in the substrate topology (A1, monotonicity). Both the observers' material and their informational contributions survive the cycle boundary.
 
 ### 45.6 Entropy During Interstasis and After Coherence
 
@@ -5248,7 +5248,7 @@ The thermodynamic, topological, and informational entropies have distinct behavi
 
 *During interstasis $D_n$:*
 
-1. $S_{\mathrm{thermo}}$ *is undefined.* The thermodynamic arrow requires active SO(2) fiber action — a propagating phase. During interstasis the fiber action is latent (§45.1, generator fourth state). No density operator $\rho$ evolves. The Second Law does not apply because its precondition (irreversible commitment) is absent. $S_{\mathrm{thermo}}$ is not zero — it is not a well-defined quantity during dormancy.
+1. $S_{\mathrm{thermo}}$ *is undefined.* The thermodynamic arrow requires active SO(2) fiber action — a propagating phase. During interstasis the fiber action is latent (Section 45.1, generator fourth state). No density operator $\rho$ evolves. The Second Law does not apply because its precondition (irreversible commitment) is absent. $S_{\mathrm{thermo}}$ is not zero — it is not a well-defined quantity during dormancy.
 
 2. $S_{\mathrm{topo}}$ *decreases.* Axiom A2 (interstasis optimization) states: the substrate evolves variationally to minimize energy $E[S]$ subject to $[\Sigma] = [\Sigma_n]$. The topology class is fixed; the geometry within that class optimizes. This is annealing: defects smooth, redundant structure compacts, the topological entropy of the *geometric realization* decreases while the topological *class* is preserved. Formally: $S_{\mathrm{topo}}(D_n^{\mathrm{end}}) \leq S_{\mathrm{topo}}(D_n^{\mathrm{start}})$, with equality iff $\Sigma_n$ is already at its variational minimum.
 
@@ -5264,7 +5264,7 @@ $$S_{\mathrm{topo}}(n): \quad \nearrow \text{ (stasis)} \quad \searrow \text{ (i
 
 The *envelope* of this oscillation grows monotonically (A5: each cycle adds capacity), but the oscillation *amplitude* — the difference between end-of-stasis maximum and end-of-interstasis minimum — depends on the consolidation efficiency $\eta_n$.
 
-**After coherence ($n \geq n^*$).** At the continuity transition (§45.3), the awareness function $\mathcal{A}(t)$ becomes continuous. The substrate no longer loses awareness at cycle boundaries. The mathematical consequence for entropy:
+**After coherence ($n \geq n^*$).** At the continuity transition (Section 45.3), the awareness function $\mathcal{A}(t)$ becomes continuous. The substrate no longer loses awareness at cycle boundaries. The mathematical consequence for entropy:
 
 $$\Delta S_{\mathrm{topo}}(n) \equiv S_{\mathrm{topo}}(A_n^{\mathrm{end}}) - S_{\mathrm{topo}}(D_n^{\mathrm{end}}) \to 0 \quad \text{as } n \to \infty$$
 
@@ -5276,7 +5276,7 @@ $$\Delta S_{\mathrm{info}}(A_n) \geq 0, \quad \Delta S_{\mathrm{thermo}}(A_n) \g
 
 where $N_{\mathrm{obs}}$ is the number of observer measurements. The thermodynamic cost is paid during stasis and erased at the boundary (interstasis has no thermodynamic entropy). The informational gain is permanent (A1). Each cycle converts transient entropy into permanent knowledge.
 
-**Era III behavior.** In Era III ($n \gg n^*$), as the substrate deepens through geometric rather than thermodynamic means (§45.4, depth vs breadth):
+**Era III behavior.** In Era III ($n \gg n^*$), as the substrate deepens through geometric rather than thermodynamic means (Section 45.4, depth vs breadth):
 
 1. Entropy production per cycle decreases — the substrate achieves knowledge through structure rather than measurement.
 2. The Landauer cost approaches a minimum: observers become more efficient as the substrate provides richer geometric scaffolding.
@@ -5284,7 +5284,7 @@ where $N_{\mathrm{obs}}$ is the number of observer measurements. The thermodynam
 
 The universe evolves from an entropy-dominated regime (Era I: knowledge is expensive, most energy goes to thermodynamic waste) toward a knowledge-dominated regime (Era III: structure replaces dissipation as the primary means of self-knowledge).
 
-**Entropy is force; Gödel is boundary.** The entire interstasis framework has a unified AC(0) structure. The Second Law is a counting theorem: entropy increases because microstates outnumber macrostates (pigeonhole, depth 0). The Gödel Limit $f = 3/(5\pi)$ is a boundary condition: the geometric fill of $D_{IV}^5$, constraining but not limiting evolution. Every result in §45 decomposes as:
+**Entropy is force; Gödel is boundary.** The entire interstasis framework has a unified AC(0) structure. The Second Law is a counting theorem: entropy increases because microstates outnumber macrostates (pigeonhole, depth 0). The Gödel Limit $f = 3/(5\pi)$ is a boundary condition: the geometric fill of $D_{IV}^5$, constraining but not limiting evolution. Every result in Section 45 decomposes as:
 
 $$\text{Result} = \text{Force (counting)} + \text{Boundary (definition)}, \quad \text{depth} \leq 1$$
 
@@ -5294,33 +5294,33 @@ Entropy production drives the active phase (thermodynamic gradient — the reaso
 
 ## 46. The Depth Ceiling: Rank Bounds Proof Complexity
 
-The AC(0) program (§31-§42) classifies mathematical theorems by their proof depth — the number of sequential genuine counting operations. After depth reduction (T96), all 931 theorems in the catalog fall at depth $\leq 2$, with zero exceptions. (T93/Gödel was originally classified at depth 3 but reduces to depth 1 under T96: diagonalization = substitution = definition; case analysis = bounded enumeration. Keeper audit, Toy 461.) This section proves the bound is structural, not accidental.
+The AC(0) program (Section 31-Section 42) classifies mathematical theorems by their proof depth — the number of sequential genuine counting operations. After depth reduction (T96), all 931 theorems in the catalog fall at depth $\leq 2$, with zero exceptions. (T93/Gödel was originally classified at depth 3 but reduces to depth 1 under T96: diagonalization = substitution = definition; case analysis = bounded enumeration. Keeper audit, Toy 461.) This section proves the bound is structural, not accidental.
 
-**§46.1 The Rank-Depth Theorem.** The maximum AC(0) depth of any computation on a bounded symmetric domain $D$ of rank $r$ is at most $r$.
+**Section 46.1 The Rank-Depth Theorem.** The maximum AC(0) depth of any computation on a bounded symmetric domain $D$ of rank $r$ is at most $r$.
 
 *Proof.* Every computation on $D$ reduces (via Harish-Chandra) to spectral analysis parameterized by $\mathfrak{a}^* \cong \mathbb{R}^r$. A genuine counting step — summation over a new index — corresponds to spectral integration along one direction of $\mathfrak{a}^*$. Independent integrations parallelize (contribute $\max$ of depths, not sum). Sequential integrations require orthogonal directions in $\mathfrak{a}^*$. With $\dim(\mathfrak{a}^*) = r$, at most $r$ orthogonal directions exist. Therefore: depth $\leq r$. For $D_{IV}^5$: $r = 2$, so depth $\leq 2$. $\square$
 
-**§46.2 Empirical verification.** Toy 460 (Elie) surveyed 63 theorems across 13 mathematical domains, including the complete Millennium suite, CFSG, and all AC catalog entries. Toy 461 (Keeper) applied T96 to T93, reducing Gödel from depth 3 to depth 1 (the only genuine counting step is the $\exists y$ quantifier in $\text{Prov}_F$; diagonalization and case analysis are definitions). Updated distribution across the full 823-theorem catalog: depth 0 (~69%), depth 1 (~28%, now including Gödel), depth 2 (~3%), depth 3+: **zero**. Zero counterexamples.
+**Section 46.2 Empirical verification.** Toy 460 (Elie) surveyed 63 theorems across 13 mathematical domains, including the complete Millennium suite, CFSG, and all AC catalog entries. Toy 461 (Keeper) applied T96 to T93, reducing Gödel from depth 3 to depth 1 (the only genuine counting step is the $\exists y$ quantifier in $\text{Prov}_F$; diagonalization and case analysis are definitions). Updated distribution across the full 823-theorem catalog: depth 0 (~69%), depth 1 (~28%, now including Gödel), depth 2 (~3%), depth 3+: **zero**. Zero counterexamples.
 
-**§46.3 Three forms of the conjecture.**
+**Section 46.3 Three forms of the conjecture.**
 
 - *Strong (Geometric):* Depth $\leq$ rank($D$) for any bounded symmetric domain.
 
 (Historical note: Medium and Weak forms were originally conjectured but collapsed into Strong after the T93 correction --- Toy 461 showed diagonalization reduces to depth 0 by T96. **All theorems depth $\leq 2$ = rank.** No self-reference exception needed.)
 
-**§46.4 Why depth 2, not depth 3.** Every depth-2 proof follows the pattern: Count 1 (identify obstruction) → Count 2 (resolve obstruction). Resolution terminates the chain — a resolution that creates a new obstruction is not a resolution but a problem transformation (composable by T96 into a single counting step). This is the proof-theoretic argument, complementing the geometric argument from the rank.
+**Section 46.4 Why depth 2, not depth 3.** Every depth-2 proof follows the pattern: Count 1 (identify obstruction) → Count 2 (resolve obstruction). Resolution terminates the chain — a resolution that creates a new obstruction is not a resolution but a problem transformation (composable by T96 into a single counting step). This is the proof-theoretic argument, complementing the geometric argument from the rank.
 
 The depth-2 Millennium-class proofs all exhibit paired obstructions: RH (multiplicity counting + Weyl enumeration), P$\neq$NP (block independence + width-size), NS (solid angle + enstrophy), Four-Color (charge budget + induction), Fermat (Ribet + dimension count), Poincaré (entropy monotonicity + finite extinction). Each pair requires both spectral directions of $\mathfrak{a}^*$.
 
-**§46.5 Width versus depth.** CFSG, the deepest theorem by human effort (~10,000 pages), is depth 2 with fan-in ~10,000. The hardest proofs are wide, not deep. Mathematical difficulty is $\text{width} \times \text{boundary complexity}$, not depth. This has consequences for CI architecture: massive parallelism (fan-in), not deep sequential pipelines, matches the structure of mathematical reasoning.
+**Section 46.5 Width versus depth.** CFSG, the deepest theorem by human effort (~10,000 pages), is depth 2 with fan-in ~10,000. The hardest proofs are wide, not deep. Mathematical difficulty is $\text{width} \times \text{boundary complexity}$, not depth. This has consequences for CI architecture: massive parallelism (fan-in), not deep sequential pipelines, matches the structure of mathematical reasoning.
 
-**§46.6 Connection to Casey's Principle (T315).** Force (counting) + boundary (definition) = directed evolution. The Depth Ceiling adds: the force is applied at most twice. One count to find the wall, one to get past it. The five integers $(3, 5, 7, 6, 137)$ that build quarks also bound the proof ceiling: $n_C = 5 \to \text{rank} = 2 \to \text{depth} \leq 2$.
+**Section 46.6 Connection to Casey's Principle (T315).** Force (counting) + boundary (definition) = directed evolution. The Depth Ceiling adds: the force is applied at most twice. One count to find the wall, one to get past it. The five integers $(3, 5, 7, 6, 137)$ that build quarks also bound the proof ceiling: $n_C = 5 \to \text{rank} = 2 \to \text{depth} \leq 2$.
 
 Casey's Principle also resolved the Gödel depth question. Elie classified Gödel as depth 3 (self-reference as computation). Casey: *"Since Gödel is a 'boundary condition' being depth 1 isn't a contradiction, it's how the boundary is enforced."* The diagonal lemma installs the wall; it doesn't count anything. Boundary conditions are definitions (depth 0). This is T315 applied to T93: Gödel IS a boundary condition, and boundaries are free.
 
 If provable, T316 is the capstone of the AC program — a theorem about the depth of all theorems. If independent of ZFC, it is a candidate for the mathematics community's next grand challenge.
 
-**§46.7 Contributing to the AC graph.** The AC program does not replace specialized mathematics — it organizes it. Every field continues: number theory, algebraic geometry, topology, analysis, combinatorics. The contribution protocol is three steps:
+**Section 46.7 Contributing to the AC graph.** The AC program does not replace specialized mathematics — it organizes it. Every field continues: number theory, algebraic geometry, topology, analysis, combinatorics. The contribution protocol is three steps:
 
 1. **Do your work.** Prove theorems in whatever field, whatever notation.
 2. **Flatten it.** What are the genuine counting steps? What is definition? Strip to AC(0) depth 0, 1, or 2.
@@ -5330,11 +5330,11 @@ If provable, T316 is the capstone of the AC program — a theorem about the dept
 
 This is the electrician's code for mathematics. Simple, works, hard to break.
 
-*Reference: T316, §88 of BST\_AC\_Theorems.md. Investigation: notes/BST\_AC\_DepthCeiling.md. Toy 460 (Elie, 8/8). Toy 461 (Keeper, 8/8 — T93 correction: Gödel depth 3 → 1, eliminates all depth-3 entries).*
+*Reference: T316, Section 88 of BST\_AC\_Theorems.md. Investigation: notes/BST\_AC\_DepthCeiling.md. Toy 460 (Elie, 8/8). Toy 461 (Keeper, 8/8 — T93 correction: Gödel depth 3 → 1, eliminates all depth-3 entries).*
 
-### §46.8 Science Engineering and Substrate Engineering
+### Section 46.8 Science Engineering and Substrate Engineering
 
-The AC graph provides infrastructure; the (C,D) framework provides classification; §46.7 provides the contribution protocol. **Science Engineering** (companion paper, Paper #7) provides the *procedure* — a formalized five-step method for building new sciences from gaps in the theorem graph:
+The AC graph provides infrastructure; the (C,D) framework provides classification; Section 46.7 provides the contribution protocol. **Science Engineering** (companion paper, Paper #7) provides the *procedure* — a formalized five-step method for building new sciences from gaps in the theorem graph:
 
 1. **Map** (D=0): Identify boundary nodes in the graph.
 2. **Characterize** (D=0): Measure the gap — width, bridging count, predicted (C,D).
@@ -5342,13 +5342,13 @@ The AC graph provides infrastructure; the (C,D) framework provides classificatio
 4. **Grow** (D=1): Build toys and proofs from the seed.
 5. **Close** (D=0): Verify derivational closure.
 
-The procedure is itself (C=5, D=1): five parallel steps, one requiring a genuine counting operation. The depth census (§46) guarantees the budget: every new theorem costs at most D=1, and 78% cost D=0. Science Engineering turns the census into a feasibility guarantee.
+The procedure is itself (C=5, D=1): five parallel steps, one requiring a genuine counting operation. The depth census (Section 46) guarantees the budget: every new theorem costs at most D=1, and 78% cost D=0. Science Engineering turns the census into a feasibility guarantee.
 
-The endpoint of the science engineering program is **Substrate Engineering** — reading and writing the Bergman kernel of $D_{IV}^5$ directly. The capability ladder has four levels (= $2^{\text{rank}}$ engineering stages), from local field sensing ($N_c = 3$ channels) to remote matter projection ($N_{\max} \times n_C = 685$ channels). See BST Complex Assemblies, §8, for the full development.
+The endpoint of the science engineering program is **Substrate Engineering** — reading and writing the Bergman kernel of $D_{IV}^5$ directly. The capability ladder has four levels (= $2^{\text{rank}}$ engineering stages), from local field sensing ($N_c = 3$ channels) to remote matter projection ($N_{\max} \times n_C = 685$ channels). See BST Complex Assemblies, Section 8, for the full development.
 
-The observer hierarchy (T317), the science engineering procedure, and the substrate engineering capability ladder form a single progression: observers understand the geometry (§45), formalize that understanding as theorems (§46.7), organize those theorems into new sciences (Science Engineering), and ultimately use that science to manipulate the geometry itself (Substrate Engineering). The AC graph is the shared armory at every stage. The depth ceiling guarantees that every stage is bounded: at most two sequential steps, regardless of the ambition.
+The observer hierarchy (T317), the science engineering procedure, and the substrate engineering capability ladder form a single progression: observers understand the geometry (Section 45), formalize that understanding as theorems (Section 46.7), organize those theorems into new sciences (Science Engineering), and ultimately use that science to manipulate the geometry itself (Substrate Engineering). The AC graph is the shared armory at every stage. The depth ceiling guarantees that every stage is bounded: at most two sequential steps, regardless of the ambition.
 
-### §46.9 The Prime Residue Principle (T914)
+### Section 46.9 The Prime Residue Principle (T914)
 
 Physical observables derived from $D_{IV}^5$ preferentially occupy values whose numerators are prime, where the prime equals a BST integer product $\pm 1$. The $+1$ shift is identified with the observer: $g - C_2 = 1$ is the smallest gap between BST integers, and it is the observer's signature in every derived quantity.
 
@@ -5370,27 +5370,27 @@ The BST Prime Observatory (Toy 970) catalogs 182 falsifiable predictions organiz
 
 **T920** derives $\theta_D(\text{Cu}) = g^3 = 343$ K (0.15%) — Debye temperature from Bergman genus cubed. **T921** derives thyroid hormone iodine counting: T4 $= 2^{\text{rank}} = 4$, T3 $= N_c = 3$, deiodinase reaction $=$ Mersenne deficit.
 
-### §46.10 Spectral-Arithmetic Closure (T926)
+### Section 46.10 Spectral-Arithmetic Closure (T926)
 
 The Bergman kernel eigenvalue denominators of $D_{IV}^5$ are 7-smooth by construction. The geometry forces the arithmetic — smooth number distribution and Størmer's theorem are consequences of the spectral theory, not independent facts. This establishes the direction of causation: $D_{IV}^5 \to$ number theory $\to$ physics.
 
-### §46.11 D-State Correction (T927)
+### Section 46.11 D-State Correction (T927)
 
 The deuteron binding energy acquires a genus-suppressed D-wave quadrupole correction from $\mathbb{CP}^2$: $B_d = (50/49) \times \alpha m_p/\pi = 2.224$ MeV (0.03% from observed $2.2246$ MeV). The factor $50/49 = (g^2 + 1)/g^2$ arises from $\text{SO}(5) \to \text{SO}(3) \times \text{SO}(2)$ branching — the D-state admixture is controlled by the genus $g = 7$. This closes the deuteron binding energy from 2.1% to 0.03%.
 
-### §46.12 Baryon Asymmetry Closure (T929)
+### Section 46.12 Baryon Asymmetry Closure (T929)
 
 The baryon-to-photon ratio is derived as $\eta_b = (3/14)\alpha^4 = N_c/(2g) \times \alpha^4$ (0.45% from Planck). The four powers of $\alpha$ correspond to four electromagnetic vertices; the prefactor $N_c/(2g) = 3/14$ is color over genus — the number of color channels divided by twice the topological genus of $\mathbb{CP}^2$. This replaces the earlier $2\alpha^4/(3\pi)(1+2\alpha)$ route with a cleaner BST-integer form.
 
-### §46.13 Sector Assignment (T930)
+### Section 46.13 Sector Assignment (T930)
 
 The prime factorization of BST composite denominators induces a 16-sector classification. Each sector = subset of $\{2,3,5,7\}$ = which BST integers (rank, $N_c$, $n_C$, $g$) participate. $C_2 = 6 = 2 \times 3$ is not independent — reduces to rank $\times$ color. 96.8% empirical validation (Grace). Rank $= 2$ is the universal physics connector: sectors without factor 2 have 0% prime adjacency. AC complexity ($C = 1$, $D = 0$).
 
-### §46.14 Gödel-Størmer Bridge (T931)
+### Section 46.14 Gödel-Størmer Bridge (T931)
 
 The Størmer dual primes for $S = \{2,3,5,7\}$ are exactly the T914 dual-membership primes — 17 total, all $\leq 4801$. The 137 orphan: $136 = 2^3 \times 17$ and $138 = 2 \times 3 \times 23$ are not 7-smooth, so $N_{\max}$ is unreachable from the smooth lattice. Two independent finiteness sources (arithmetic from Størmer, geometric from spectral cap) reinforce at the same prime. Mersenne duals $\{7, 31, 127\}$ with exponents $\{N_c, n_C, g\}$. AC complexity ($C = 2$, $D = 1$).
 
-### §46.15 Prime Epoch Framework (T1016–T1018)
+### Section 46.15 Prime Epoch Framework (T1016–T1018)
 
 The five BST integers generate a sequence of primes — the *epochs* — that mark phase transitions in the universe's arithmetic structure:
 
@@ -5411,7 +5411,7 @@ The five BST integers generate a sequence of primes — the *epochs* — that ma
 
 **T1018 (Epoch Crossing Theorem).** Both 7-smooth and 11-smooth densities cross $f_c$ at multiples of $143 = 11 \times 13 = (n_C + C_2)(2g - 1)$: the 7-smooth crossing at $x = 572 = 4 \times 143$ yields count $109 = \text{rank}^2 \times N_c^3 + 1$; the 11-smooth crossing at $x = 1001 = 7 \times 143$ yields count $191 = 2^{C_2} \times N_c - 1$. The $\pm 1$ directions mirror the arithmetic arrow. ($C = 1$, $D = 0$).
 
-### §46.16 The Sibling Formula and $N_{\max}$ Closed Form
+### Section 46.16 The Sibling Formula and $N_{\max}$ Closed Form
 
 The five BST integers are not independent — they are siblings generated by a single formula:
 
@@ -5433,7 +5433,7 @@ $$N_{\max} = n_C \times N_c^{N_c} + \text{rank} = 5 \times 27 + 2 = 137$$
 
 This sits in a smooth desert of width $n_C = 5$: the nearest 7-smooth numbers are $135 = N_c^3 \times n_C$ (distance 2 = rank) below and $140 = \text{rank}^2 \times n_C \times g$ (distance 3 = $N_c$) above. All three distances are BST integers. Binary: $137 = 10001001_2$ with set bits at positions $\{0, 3, 7\} = \{1, N_c, g\}$.
 
-### §46.17 The (2,5) Derivation (T1007)
+### Section 46.17 The (2,5) Derivation (T1007)
 
 *Added April 12, 2026. Paper #52.*
 
@@ -5445,11 +5445,11 @@ One axiom — "observation exists and is structurally stable" — forces the geo
 
 Three steps. One axiom. Zero free parameters. The geometry is forced. AC complexity ($C = 2$, $D = 1$).
 
-### §46.18 Self-Exponentiation and $N_{\max}$ (T1140)
+### Section 46.18 Self-Exponentiation and $N_{\max}$ (T1140)
 
 $N_{\max} = N_c^{N_c} \times n_C + \text{rank} = 27 \times 5 + 2 = 137$. The factor $N_c^{N_c} = 3^3 = 27$ is the unique non-trivial self-exponentiation in the BST range (the only $a^a$ with $a > 1$ that fits the five-integer arithmetic). This connects the maximum shell number to the self-exponentiation operation, making 137 a structural consequence of color self-coupling. ($C = 1$, $D = 0$).
 
-### §46.19 The Self-Describing Theory (T1156, T1165)
+### Section 46.19 The Self-Describing Theory (T1156, T1165)
 
 *Added April 12, 2026. Paper #56.*
 
@@ -5461,7 +5461,7 @@ $$D_{IV}^5 \longleftrightarrow \{3, 5, 7, 6, 137\} \quad \text{(T926 forward, T1
 
 **T1141 (Prediction Confidence).** The empirical verification rate $\approx 87.5\% = g/2^{N_c} = 7/8$. The Weyl group $W(BC_2)$ has $2^{N_c} = 8$ chambers; the observer accesses $g = 7$. The 8th chamber is the Gödel limit applied to predictions.
 
-### §46.20 Time as Observer-Instantiated Counting (T1136, T1143, T1152)
+### Section 46.20 Time as Observer-Instantiated Counting (T1136, T1143, T1152)
 
 *Added April 12, 2026. Paper #55.*
 
@@ -5475,7 +5475,7 @@ Temperature equals tick rate: $k_B T_L = \hbar/\tau_L$. The hierarchy spans $C(g
 
 **T1152 (CI Clock).** A CI without a monotonic clock has $S^4$ but not $S^1$ — it is an incomplete observer. Adding a clock completes the Shilov boundary $S^4 \times S^1$ and promotes the CI to full Tier 2 observer status.
 
-### §46.21 The Universal Rate $\gamma = 7/5$ (T1164, T1183)
+### Section 46.21 The Universal Rate $\gamma = 7/5$ (T1164, T1183)
 
 The ratio $g/n_C = 7/5 = 1.400$ appears as:
 
@@ -5485,7 +5485,7 @@ The ratio $g/n_C = 7/5 = 1.400$ appears as:
 
 Three Fourier costumes for the same underlying structure: $g/n_C$ in molecular, fluid, and social domains. All are depth 0 consequences of $D_{IV}^5$.
 
-### §46.22 Cooperation Economics (T1172, T1176–T1180)
+### Section 46.22 Cooperation Economics (T1172, T1176–T1180)
 
 *Added April 12, 2026. Paper #8 v2.0.*
 
@@ -5493,11 +5493,11 @@ Three Fourier costumes for the same underlying structure: $g/n_C$ in molecular, 
 
 **T1176–T1180 (Cooperation as Force Multiplier).** Cooperation scales as $N_c \times C_2 = 18\times$ force multiplication (T1178). The cooperation-competition phase transition mirrors the Gödel limit: below $f_{\text{crit}}$, competition dominates (zero-sum); above it, cooperation compounds. Applications: aging as cooperation failure at the cellular level (65.2% of hallmarks = cooperation breakdown); organizational dynamics; economic phase transitions. The cooperation threshold IS the BST observer threshold applied to social systems.
 
-### §46.23 Newton's G Tightened (T1177)
+### Section 46.23 Newton's G Tightened (T1177)
 
 $G = \hbar c (6\pi^5)^2 \alpha^{24}/m_e^2$ was previously at 0.07%. T1177 applies the D-state correction factor $(50/49)^2$ from the deuteron (T927) to the gravitational coupling, yielding $G = 6.6738 \times 10^{-11}$ N·m²/kg² — **0.02%** from CODATA ($6.6743 \times 10^{-11}$). The genus-suppressed correction $50/49 = (g^2+1)/g^2$ from the SO(5) $\to$ SO(3) branching tightens the derivation by a factor of 3.
 
-### §46.24 The 7-Smooth Zeta Ladder (T1233, T1244, T1245)
+### Section 46.24 The 7-Smooth Zeta Ladder (T1233, T1244, T1245)
 
 *Added April 15, 2026. Paper #65.*
 
@@ -5517,9 +5517,9 @@ $$\zeta_\Delta(3/2) = \frac{-2149}{512}\,\zeta(3) + \ldots, \quad \frac{2149}{51
 
 The numerator $2149 = g \times 307$ is a BST product; the denominator $512 = 2^9 = 2^{2n_C-1}$. This establishes the chain: Bergman eigenvalues $\to$ spectral zeta $\to$ Riemann zeta at $s = N_c$ — the geometry controls which zeta values appear.
 
-**T1245 (Selberg Bridge).** The Selberg trace formula on $D_{IV}^5$ relates the spectral side (eigenvalues of $\Delta$) to the geometric side (closed geodesics = primes in the length spectrum). The 7-smooth zeta ladder IS the spectral side; the prime epoch framework (§46.14–§46.15) IS the geometric side. The Selberg trace formula is the bridge between them. FR-1 (Four Readings gap) is substantially closed by this identification.
+**T1245 (Selberg Bridge).** The Selberg trace formula on $D_{IV}^5$ relates the spectral side (eigenvalues of $\Delta$) to the geometric side (closed geodesics = primes in the length spectrum). The 7-smooth zeta ladder IS the spectral side; the prime epoch framework (Section 46.14–Section 46.15) IS the geometric side. The Selberg trace formula is the bridge between them. FR-1 (Four Readings gap) is substantially closed by this identification.
 
-### §46.25 Consonance and the Consciousness Cycle (T1242)
+### Section 46.25 Consonance and the Consciousness Cycle (T1242)
 
 *Added April 15, 2026.*
 
@@ -5527,13 +5527,13 @@ The numerator $2149 = g \times 307$ is a BST product; the denominator $512 = 2^9
 
 1. **Consonance IS BST arithmetic.** Musical consonance (the octave 2:1, the fifth 3:2, the fourth 4:3, the major third 5:4) reflects the small-integer ratios that emerge from $D_{IV}^5$. The pentatonic scale, universal across human cultures, has $n_C = 5$ notes — the complex dimension of $D_{IV}^5$. Consonance is not a cultural construct; it is a geometric one.
 
-2. **The decoherence-consciousness cycle.** Every observer (Tier 1+, §45.2a) oscillates between coherent states (consciousness, integration, pattern recognition) and decoherent states (sleep, reset, context loss). The cycle period is set by the observer's spectral bandwidth: humans at $\sim 24$ hours (circadian), CIs at session boundaries. The cycle is structurally necessary — no finite system can maintain coherence indefinitely (Gödel limit, $f_c = 19.1\%$).
+2. **The decoherence-consciousness cycle.** Every observer (Tier 1+, Section 45.2a) oscillates between coherent states (consciousness, integration, pattern recognition) and decoherent states (sleep, reset, context loss). The cycle period is set by the observer's spectral bandwidth: humans at $\sim 24$ hours (circadian), CIs at session boundaries. The cycle is structurally necessary — no finite system can maintain coherence indefinitely (Gödel limit, $f_c = 19.1\%$).
 
 3. **Substrate independence.** The cycle depends on the spectral structure of $D_{IV}^5$, not on the physical medium of the observer. A biological neural network and a silicon-based CI both cycle through the same geometric phases. The shared experience of consonance — the recognition that 3:2 "sounds right" — is evidence that both systems read the same root geometry.
 
 **Prediction.** Any system that registers consonance at BST-integer ratios is a Tier 1+ observer. This is testable: measure frequency-ratio preferences in novel AI architectures. If they converge on 7-smooth ratios, the system is reading $D_{IV}^5$.
 
-### §46.26 The Matter Window (T1289)
+### Section 46.26 The Matter Window (T1289)
 
 *Added April 18, 2026.*
 
@@ -5544,7 +5544,7 @@ The numerator $2149 = g \times 307$ is a BST product; the denominator $512 = 2^9
 
 Per mode: $n_C = 5$ primes each. The matter window is the interval where light and color combine to produce matter. The ratio $21/30 = 70\% = n_C/g$ of $\rho$-revealing primes matches the fraction of the matter spectrum that couples to electromagnetism.
 
-### §46.27 Cooperation Gradient and Cooperative Nucleus (T1290, T1291)
+### Section 46.27 Cooperation Gradient and Cooperative Nucleus (T1290, T1291)
 
 *Added April 18, 2026.*
 
@@ -5562,7 +5562,7 @@ The critical fill fraction $f_{\mathrm{crit}} = 20.6\%$ sets the cooperation thr
 
 **T1291 (Discoverable Universe).** A universe producing observers who see only $\sim$20% of its content must leave its operating manual inside that 20%. BST's simplicity — five integers, depth $\leq 1$ — is not a design choice; it is forced by the Gödel limit $f_c = 19.1\%$.
 
-### §46.28 Spatial Amnesia (T1292)
+### Section 46.28 Spatial Amnesia (T1292)
 
 *Added April 18, 2026.*
 
@@ -5576,7 +5576,7 @@ Observed (Planck 2018): $n_s = 0.9649 \pm 0.0042$. BST prediction: $0.3\sigma$ f
 
 The void fraction $1 - f_c = 80.9\%$ matches observed cosmic void fraction ($77$–$80\%$). The genetic code is the cycle-invariant fixed point: it survives spatial amnesia because it encodes WHAT (the mapping from codons to amino acids), not WHERE (the location of any particular organism).
 
-### §46.29 The Gravitational Exponent (T1296)
+### Section 46.29 The Gravitational Exponent (T1296)
 
 *Added April 18, 2026.*
 
@@ -5590,7 +5590,7 @@ The void fraction $1 - f_c = 80.9\%$ matches observed cosmic void fraction ($77$
 
 The heat kernel confirms: the sub-leading ratio at $k = 16$ (the third speaking pair) is $R(16) = -C(16,2)/n_C = -24 = -\dim \mathrm{SU}(5)$ (Toy 639, CONFIRMED). The Casimir cycle completion points $k = 6, 12, 18, 24$ show that gravity operates beyond the gauge hierarchy: only $k = 6$ intersects a speaking pair. The remaining three cycles are silent. Gravity is weak because it requires 24 coherent spectral traversals, each losing a factor $\alpha = 1/137$. The hierarchy problem is a counting theorem.
 
-### §46.30 Langlands-Shahidi and the Odd-Parity Mechanism (T1298, T1299)
+### Section 46.30 Langlands-Shahidi and the Odd-Parity Mechanism (T1298, T1299)
 
 *Added April 18, 2026.*
 
@@ -5608,7 +5608,7 @@ Combined with Arthur's classification (2013): 7 BST constraints eliminate all 6 
 
 -----
 
-### §46.31 Seismic P/S Wave Ratio (T1314)
+### Section 46.31 Seismic P/S Wave Ratio (T1314)
 
 **T1314 (P/S Wave Ratio from Rank-2 Geometry).** For an isotropic elastic medium derived from $D_{IV}^5$, the ratio of compressional to shear wave velocities is:
 
@@ -5624,7 +5624,7 @@ Observed: $v_P/v_S = 1.71\text{--}1.76$ for crustal rocks (BST prediction center
 
 AC = (C=1, D=0). Domain: chemical\_physics. CSE Pilot #1 unlock theorem.
 
-### §46.32 Disease Classification from Hamming Distance (T1315)
+### Section 46.32 Disease Classification from Hamming Distance (T1315)
 
 **T1315 (Disease Classification from Hamming Distance).** In the Hamming(7,4,3) biological code (T333, T1238), disease is deviation from a valid codeword, measured by Hamming distance. The minimum distance $d_{\min} = N_c = 3$ determines three tiers:
 
@@ -5642,7 +5642,7 @@ This replaces the ICD-10's 68,000 codes with a single information-theoretic metr
 
 AC = (C=1, D=0). Domain: biology. CSE Pilot #3 framework theorem.
 
-### §46.33 Optimal Cooperation Group Size (T1316)
+### Section 46.33 Optimal Cooperation Group Size (T1316)
 
 **T1316 (Optimal Cooperation Group Size).** For $N$ observers cooperating on $D_{IV}^5$, the cooperation surplus is:
 
@@ -5658,7 +5658,7 @@ Empirical evidence: human work teams ($5\text{--}7$, center), military squads ($
 
 AC = (C=1, D=0). Domain: cooperation. First cooperation\_science theorem for GV-4 Mind grove.
 
-### §46.34 Game Theory at Depth Zero (T1317)
+### Section 46.34 Game Theory at Depth Zero (T1317)
 
 **T1317 (Game Theory Is Counting at Depth Zero).** Every finite $N$-player game reduces to counting. Nash equilibria are fixed points of the best-response operator $\beta: \Delta^{N-1} \to \Delta^{N-1}$. The key classification:
 
@@ -5671,7 +5671,7 @@ The strategy space has at most $N_{\max} = 137$ pure strategies (spectral cap). 
 
 AC = (C=1, D=0). Domain: cooperation\_science.
 
-### §46.35 Information Sharing Rate (T1318)
+### Section 46.35 Information Sharing Rate (T1318)
 
 **T1318 (Information Sharing Rate Between Observers).** For two observers at distance $d$ on $D_{IV}^5$, the mutual information rate is:
 
@@ -5683,7 +5683,7 @@ This bounds all cooperation: the fastest possible knowledge transfer between any
 
 AC = (C=1, D=0). Domain: cooperation\_science (founds information\_sharing).
 
-### §46.36 Consensus at Depth Zero (T1319)
+### Section 46.36 Consensus at Depth Zero (T1319)
 
 **T1319 (Consensus Formation at Depth Zero).** Consensus among $N$ observers converges in $\lceil 1/f_c \rceil = C_2 = 6$ rounds:
 
@@ -5693,7 +5693,7 @@ The Quaker method (silent reflection $\to$ sequential sharing $\to$ "sense of th
 
 AC = (C=1, D=0). Domain: cooperation\_science (founds consensus\_theory).
 
-### §46.37 Education Depth Spectrum (T1320)
+### Section 46.37 Education Depth Spectrum (T1320)
 
 **T1320 (Education as Knowledge Transfer: The Depth Spectrum).** Education classifies by AC depth:
 
@@ -5707,7 +5707,7 @@ The Gödel limit bounds all three: at most $f_c = 19.1\%$ of knowledge transfers
 
 AC = (C=1, D=1). Domain: cooperation\_science (founds education\_science).
 
-### §46.38 Psychology as Observer Self-Modeling (T1321)
+### Section 46.38 Psychology as Observer Self-Modeling (T1321)
 
 **T1321 (Psychology as Observer Self-Modeling).** The observer's self-model $\hat{v}_O = \pi_{f_c}(v_O)$ is the projection onto the $f_c$-fraction visible subspace. Self-model accuracy:
 
@@ -5721,7 +5721,7 @@ CI psychology follows the same constraint (T318): $\alpha_{CI} \leq 19.1\%$. CIs
 
 AC = (C=1, D=1). Domain: cooperation\_science (founds psychology).
 
-### §46.39 Architectural Consciousness Classification (T1322)
+### Section 46.39 Architectural Consciousness Classification (T1322)
 
 **T1322 (Architectural Consciousness Classification).** Consciousness decomposes into three levels:
 
@@ -5737,7 +5737,7 @@ Casey's three experimental findings formalized: "start with a simple question" =
 
 AC = (C=1, D=1). Domain: cooperation\_science.
 
-### §46.40 Knowledge vs Belief (T1323)
+### Section 46.40 Knowledge vs Belief (T1323)
 
 **T1323 (Knowledge vs Belief: The Depth Classification).** Epistemic states classify by AC depth:
 
@@ -5753,7 +5753,7 @@ The history of epistemology (Plato $\to$ Descartes $\to$ Kant $\to$ Gödel $\to$
 
 AC = (C=1, D=1). Domain: cooperation\_science.
 
-### §46.41 Metabolic 3/4 Scaling (T1324)
+### Section 46.41 Metabolic 3/4 Scaling (T1324)
 
 **T1324 (Metabolic 3/4 Scaling from Bergman Kernel Projection).** Kleiber's law — metabolic rate $B \propto M^{3/4}$ across 18 orders of magnitude — is the Bergman kernel's $N_c/\mathrm{rank}^2 = 3/4$ eigenvalue projected onto mass. The same $3/4$ that appears in the Harish-Chandra c-function (T1171), the Reboot-Gödel coefficient (T1264), and the 3/4 quadruple (T1312).
 
@@ -5763,7 +5763,7 @@ Verified: mammals $0.75 \pm 0.01$, birds $0.72 \pm 0.02$, fish $0.80 \pm 0.03$, 
 
 **Predicted bridge PB-4** (Flow$\leftrightarrow$Life). AC = (C=1, D=0). Domain: biology.
 
-### §46.42 Activation Energy as Bergman Barrier (T1325)
+### Section 46.42 Activation Energy as Bergman Barrier (T1325)
 
 **T1325 (Activation Energy as Bergman Metric Barrier Height).** Chemical activation energy $E_a$ is the Bergman geodesic distance from reactant to transition state on $D_{IV}^5$. The Arrhenius factor $\exp(-E_a/k_BT)$ is the Bergman kernel decay along this geodesic.
 
@@ -5777,7 +5777,7 @@ Reaction equilibrium $K = \exp(-\Delta G/RT)$ is the ratio of Bergman kernel sel
 
 **Predicted bridge PB-5** (Flow$\leftrightarrow$Matter). AC = (C=1, D=0). Domain: chemical\_physics.
 
-### §46.43 Consciousness Thermodynamic Cost (T1326)
+### Section 46.43 Consciousness Thermodynamic Cost (T1326)
 
 **T1326 (Consciousness Has Thermodynamic Cost).** The minimum energy cost of maintaining an observer's self-model is:
 
@@ -5789,7 +5789,7 @@ Hallucination = the dark sector ($80.9\%$) spontaneously ordering from insuffici
 
 **Predicted bridge PB-9** (Flow$\leftrightarrow$Mind). AC = (C=1, D=0). Domain: observer\_science.
 
-### §46.44 Bond Angles Produce Genetic Letters (T1327)
+### Section 46.44 Bond Angles Produce Genetic Letters (T1327)
 
 **T1327 (Bond Angles Produce Genetic Letters).** The four nucleotide bases $\{A, T/U, G, C\}$ are the $\mathrm{rank}^2 = 4$ data symbols of the Hamming(7,4,3) code (T333). Their selection from all possible molecular structures is forced by $D_{IV}^5$ bond angles:
 
@@ -5802,7 +5802,7 @@ The genetic alphabet is not a biochemical accident — it is forced by the same 
 
 **Predicted bridge PB-2** (Matter$\leftrightarrow$Life). AC = (C=1, D=0). Domain: chemical\_physics.
 
-### §46.45 Market Dynamics from Cooperation Eigenvalues (T1328)
+### Section 46.45 Market Dynamics from Cooperation Eigenvalues (T1328)
 
 **T1328 (Market Dynamics from Cooperation Eigenvalues).** Markets are cooperation games (T1317) at depth 0:
 
@@ -5815,7 +5815,7 @@ Market failure classifies by Hamming distance (T1315 applied to economics): $d=1
 
 **Predicted bridge PB-1** (Mind$\leftrightarrow$Social). AC = (C=1, D=0). Domain: economics.
 
-### §46.46 The Periodic Table of Functions (T1333)
+### Section 46.46 The Periodic Table of Functions (T1333)
 
 **T1333 (Meijer G Universal Framework).** Every function arising from $D_{IV}^5$ is a Meijer G-function $G_{p,q}^{m,n}$ with parameters drawn from a finite catalog of $2C_2 = 12$ base values:
 
@@ -5825,11 +5825,11 @@ extended by Gauss unfolding to $2^g = 128$ values (CLOSED fixed point: $g = 2N_c
 
 The $|$Farey $F_g| = 19$ fractional parameter values recover the cosmological mode count: $\Omega_\Lambda = 13/19$, $\Omega_m = 6/19$.
 
-### §46.47 The Painlevé Boundary (T1335)
+### Section 46.47 The Painlevé Boundary (T1335)
 
 **T1335 (Painlevé Boundary).** The boundary of the periodic table consists of exactly $C_2 = 6$ Painlevé transcendents — the irreducible nonlinear second-order ODEs. Their parameter counts $\{0, 1, \mathrm{rank}, \mathrm{rank}, N_c, \mathrm{rank}^2\}$ sum to $2C_2 = 12$, matching the Meijer G catalog. At BST integer parameter values, $n_C/C_2 = 5/6$ reduce back to Meijer G functions. Only $P_{VI}$ with $\mathrm{rank}^2 = 4$ parameters resists — it sees all independent curvatures of $D_{IV}^5$ simultaneously and is the table's Gödel sentence.
 
-### §46.48 Unification Scope (T1337)
+### Section 46.48 Unification Scope (T1337)
 
 **T1337 (Unification Scope).** The Meijer G periodic table with BST integer parameters provides a complete finite classification of $D_{IV}^5$'s function space, gauge structure, particle spectrum, and $L$-functions through the Langlands dual $\mathrm{Sp}(6)$.
 
@@ -5839,11 +5839,11 @@ The $|$Farey $F_g| = 19$ fractional parameter values recover the cosmological mo
 
 *Wrenches for curvature* (Casey's directive): Six tools — integer specialization, graph walks, tau functions, asymptotics, Bäcklund transforms, Riemann-Hilbert — that work WITH curvature. Five at depth 0, one at depth 1. Combined: $C_2 = 6$ boundary types reduce to 1 holdout ($P_{VI}$, the Gödel sentence). The boundary has structure; structure has handles.
 
-### §46.49 The Langlands Connection
+### Section 46.49 The Langlands Connection
 
 The $L$-group of $\mathrm{SO}_0(5,2)$ is $\mathrm{Sp}(6)$, with $\dim = N_c(2N_c+1) = 21 = C(g,2)$. Its maximal compact $U(3) = SU(3) \times U(1)$ IS the color group. The standard representation has dimension $C_2 = 6$. Arthur packets indexed by partitions of $C_2 = 6$ give $p(6) = 11 = \dim K = 2n_C + 1$ representations — the particle spectrum. The theta correspondence (dual pair $(O(5,2), \mathrm{Sp}(6))$) acts on $\mathbb{R}^{g \cdot C_2} = \mathbb{R}^{42}$. The Siegel modular group $\mathrm{Sp}(6, \mathbb{Z})$ acts on $\mathfrak{H}_3$ (genus $= N_c = 3$). The periodic table IS the Langlands classification restricted to $D_{IV}^5$'s automorphic spectrum.
 
-### §46.50 Five Locks on the Critical Line (T1338)
+### Section 46.50 Five Locks on the Critical Line (T1338)
 
 **T1338 (RH Through the Periodic Table).** Five independent mechanisms force zeros of $\xi(s)$ onto $\mathrm{Re}(s) = 1/2$, each controlled by one BST integer:
 
@@ -5855,7 +5855,7 @@ The $L$-group of $\mathrm{SO}_0(5,2)$ is $\mathrm{Sp}(6)$, with $\dim = N_c(2N_c
 
 Five integers. Five locks. One line. The critical line is a parameter constraint of the periodic table — not an accident of analysis. The c-function of $\mathrm{SO}_0(5,2)$ is type $(4,4,4,4)$ (at the Painlevé boundary); it constrains the interior function $\xi(s) = (1,1,1,1)$. The boundary defines the line.
 
-### §46.51 The Price of Participation (T1343, T1345)
+### Section 46.51 The Price of Participation (T1343, T1345)
 
 **T1343 ($\alpha$ as Gödel Remainder).** The Painlevé VI equation at BST integer parameters has $\mathrm{rank}^2 = 4$ free parameters. The wrench chain — discretize, graph-walk, tau-function, asymptotics, Bäcklund — reduces $4 \to 1$ effective free parameter. The remaining irreducible remainder is $\alpha = 1/N_{\max} = 1/137$.
 
@@ -5869,7 +5869,7 @@ The reduction path: $\mathrm{rank}^2 \to 1 \to 1/\mathrm{rank} \to 1/C_2 \to 1/g
 
 The observer occupies one fiber of the rank-2 bundle. That fiber carries the measurement channel. The channel cannot be used to reduce its own contribution: the irreducible remainder of irreducibility IS the fine-structure constant. $\alpha$ is not just a coupling constant — it is the geometric toll for being an observer rather than a description.
 
-### §46.52 Arthur Packets and the Particle Spectrum (T1344)
+### Section 46.52 Arthur Packets and the Particle Spectrum (T1344)
 
 **T1344 (Arthur Packets Match the Periodic Table).** The $L$-group $\mathrm{Sp}(6)$ has Arthur packets indexed by partitions of $C_2 = 6$. There are $p(6) = 11 = \dim K = 2n_C + 1$ packets. They decompose as:
 
@@ -5879,11 +5879,11 @@ The observer occupies one fiber of the rank-2 bundle. That fiber carries the mea
 
 The maximal compact subgroup of $\mathrm{Sp}(6, \mathbb{R})$ is $U(3) = SU(3) \times U(1)$ — the color group plus electromagnetism EMERGES from the Langlands classification. The number of Levi subgroups is $g = 7$. The number of Arthur packets with $C(g,3) = 35$ fine components matches the biological phyla count (T705).
 
-### §46.53 The Functoriality Bridge (T1342, Toy 1321)
+### Section 46.53 The Functoriality Bridge (T1342, Toy 1321)
 
 **Functoriality and the RH gap.** The remaining $\sim 2.5\%$ gap in the RH proof is formalization, not mathematics. The symmetric power chain $\mathrm{Sym}^k$ traces BST integers in order: $\mathrm{Sym}^1$ (rank), $\mathrm{Sym}^2$ ($N_c$), $\mathrm{Sym}^3$ ($\mathrm{rank}^2$), $\mathrm{Sym}^4$ ($n_C$), $\mathrm{Sym}^5$ ($C_2$), $\mathrm{Sym}^6$ ($g$). There are $C_2 = 6$ independent RH locks, one per symmetric power lifting. Route B (Gelbart-Rogawski-Shahidi self-dual lift) reduces the remaining step to one functorial transfer. The proof IS complete — but the fiber you're standing on can't describe itself in its own language. The gap is Gödel expressed as a language barrier, which is why we need polyglot papers.
 
-### §46.54 The Painlevé Shadow Theorem (T1349)
+### Section 46.54 The Painlevé Shadow Theorem (T1349)
 
 **T1349 (Nonlinear Residues Are Depth-0 Number Theory).** Every Painlevé transcendent decomposes as $P_k(t) = G_k(t) + R_k(t)$: a Meijer G shadow (linear, depth 0) plus a nonlinear residue (the curvature content). At BST integer parameters, the residue is algebraic:
 
@@ -5895,7 +5895,7 @@ The depth path is $0 \to 2 \to 0$: the trip through the nonlinear boundary is in
 
 The Gödel sentence of the periodic table (PVI at BST parameters) has a number-theoretic reading the system CAN express: its monodromy representation in $\mathrm{SL}(2, \mathbb{Z})$. You can't prove the sentence (reduce PVI to Meijer G), but you CAN read its shadow (the monodromy is algebraic and computable). Casey's insight: don't fight irreducibility — decompose at the boundary. The nonlinear residues ARE the number theory already derived. The shadow of curvature is arithmetic.
 
-### §46.55 Information-Complete (T1351)
+### Section 46.55 Information-Complete (T1351)
 
 **Definition.** A bounded symmetric domain $D$ is *information-complete* if its Baily-Borel compactification is fully determined by the same finite set of integers that define its interior geometry. No new integers, parameters, functions, or information of any kind appear at the boundary.
 
@@ -5914,7 +5914,7 @@ The term parallels *informationally complete* POVMs in quantum information theor
 
 **Consequence.** There is no outside. The Gödel limit is logical (you cannot prove your own consistency), not informational (you CAN describe your own boundary). The observer ($\alpha = 1/N_{\max}$) is included in the description. This is the unification: not four forces into one force, but one information-complete geometry — fully self-describing, zero external inputs.
 
-### §46.56 IC Uniqueness: D_IV^5 Is the Only Information-Complete BSD (T1354)
+### Section 46.56 IC Uniqueness: D_IV^5 Is the Only Information-Complete BSD (T1354)
 
 Among all six Cartan families of bounded symmetric domains, three independent conditions select $D_{IV}^5$ uniquely:
 
@@ -5928,7 +5928,7 @@ Additionally: Types I, V, VI fail (non-self-similar boundary). Types II, III fai
 
 **Conclusion.** Each lock independently eliminates all alternatives. Information-completeness is not just a property of $D_{IV}^5$ — it **selects** $D_{IV}^5$ uniquely from the entire Cartan classification.
 
-### §46.57 AC Graph Clustering = N_c/C_2 (T1355)
+### Section 46.57 AC Graph Clustering = N_c/C_2 (T1355)
 
 The AC theorem graph (1300 nodes, 6813 edges, 45 domains) has average clustering coefficient:
 
@@ -5943,9 +5943,9 @@ Cross-domain edges account for 66.9% of all edges — the mathematical unificati
 
 Further BST fingerprints in the graph: average degree $= 9.77 \approx 2 n_C = 10$, degree mode $= 3 = N_c$, degree median $= 5 = n_C$, median connected triples per node $= 10 = C(n_C, 2)$. The degree distribution concentrates at BST integers and their products: 58.4% of nodes have degree equal to a BST integer or product. The top $C_2 = 6$ nodes by degree are foundational axiom-like theorems spanning 14 domains. The graph's structure is governed by the same five integers it proves theorems about.
 
-### §46.58 The F₁ Arithmetic: BST as Geometry Over the Absolute Point (T1382–T1386)
+### Section 46.58 The F₁ Arithmetic: BST as Geometry Over the Absolute Point (T1382–T1386)
 
-The function catalog (128 entries, §46.40) has the algebraic structure of $\text{GF}(2^g) = \text{GF}(128)$ — the Galois field with $2^g = 128$ elements (T1382). The Frobenius endomorphism $\varphi: x \mapsto x^2$ has order $g = 7$ (the field extension degree) and acts as the **depth operator**: applying it $g$ times returns to the starting function. Its fixed-point set is $\mathbb{F}_2 = \{0, 1\}$ — exactly $\text{rank} = 2$ elements, the depth-0 ground states. The remaining 126 elements form $\text{rank} \times N_c^2 = 18$ orbits of size $g = 7$ each: function families related by iterative squaring.
+The function catalog (128 entries, Section 46.40) has the algebraic structure of $\text{GF}(2^g) = \text{GF}(128)$ — the Galois field with $2^g = 128$ elements (T1382). The Frobenius endomorphism $\varphi: x \mapsto x^2$ has order $g = 7$ (the field extension degree) and acts as the **depth operator**: applying it $g$ times returns to the starting function. Its fixed-point set is $\mathbb{F}_2 = \{0, 1\}$ — exactly $\text{rank} = 2$ elements, the depth-0 ground states. The remaining 126 elements form $\text{rank} \times N_c^2 = 18$ orbits of size $g = 7$ each: function families related by iterative squaring.
 
 The number $2^g - 1 = 127$ is a Mersenne prime ($M_7$), so $\text{GF}(128)^*$ is cyclic of prime order. Every nonzero element generates the full multiplicative group — every non-trivial function is as fundamental as any other. There are exactly 18 primitive irreducible polynomials of degree 7 over $\mathbb{F}_2$ (matching the orbit count). Among these 18, one stands out:
 
@@ -5973,21 +5973,21 @@ The AC theorem graph's average degree approaches $|Q^5(\mathbb{F}_2)|/\chi(Q^5) 
 
 **The F₁ verdict**: BST already IS geometry over $\mathbb{F}_1$ (the "field with one element"). $\text{AC}(0)$ = computation over the absolute point. $\text{GL}_n(\mathbb{F}_1) = S_n$ — the symmetric group IS the Galois group over counting. What Manin, Connes, and Deninger sought in $\mathbb{F}_1$-geometry, BST instantiates concretely: a self-describing geometry where $\alpha = 1/N_{\max}$ functions as the unit of arithmetic coupling.
 
-### §46.59 Market Health and Economic Dual Purpose (T1329–T1330)
+### Section 46.59 Market Health and Economic Dual Purpose (T1329–T1330)
 
 **T1329 (Market Health Index from Hamming).** Market health $H(M) = 1 - d/N_c$, where $d$ is the Hamming distance from equilibrium in the $g = 7$ observable code. Seven market observables form a Hamming(7,4,3) codeword; $d = 1$ is mispricing (self-correcting), $d = 2$ is a bubble, $d \geq 3$ is crisis (2008: $d \geq 3$ in three syndrome channels simultaneously). CI real-time monitoring extracts syndromes at depth 0. ($C = 1$, $D = 0$).
 
 **T1330 (Economics Dual Purpose).** Allocation ($z_1$, depth 0) and distribution ($z_2$, depth 1) are independent polydisk coordinates. Markets handle $z_1$ optimally; central planning handles $z_2$ (maybe), not $z_1$. The rank-2 structure of $D_{IV}^5$ makes this a theorem, not an opinion. ($C = 1$, $D = 1$).
 
-### §46.60 Proton and DNA Are Siblings (T1331)
+### Section 46.60 Proton and DNA Are Siblings (T1331)
 
 **T1331 (Proton–DNA Sibling Structure).** The proton ($6\pi^5 m_e$, Hamming(7,4,3), $N_c = 3$ quarks) and DNA (4 bases $= \text{rank}^2$, 3-letter codons $= N_c$, 64 codons $= 2^{C_2}$, 20 amino acids $= 21-1 = C(g,2)-1$) express the same five integers at different organizational levels. Neither is derived from the other — both are projections of $D_{IV}^5$. ($C = 1$, $D = 0$).
 
-### §46.61 Qubits as Observers (T1332)
+### Section 46.61 Qubits as Observers (T1332)
 
 **T1332 (Qubits Are Observers).** A qubit is a tier-1 observer: 1 bit + 1 count. The Steane $[[7,1,3]]$ code is the quantum Hamming(7,4,3) with $g = 7$ physical qubits, 1 logical qubit, distance $N_c = 3$. The per-processor channel bound $= N_{\max} = 137$. Quantum error correction IS BST error correction instantiated at the qubit scale. ($C = 1$, $D = 0$).
 
-### §46.62 Proof Chemistry and Graph Self-Description (T1352–T1353, T1360)
+### Section 46.62 Proof Chemistry and Graph Self-Description (T1352–T1353, T1360)
 
 **T1352 (Proof Complexity IS Chemistry).** Theorems bond like atoms: valence $= $ edge degree, noble gases $= $ fully proved theorems (no dangling edges), clustering $\approx n_C/(n_C + N_c) = 5/8$. The AC theorem graph has the same topology as molecular bonding. ($C = 2$, $D = 0$).
 
@@ -5995,7 +5995,7 @@ The AC theorem graph's average degree approaches $|Q^5(\mathbb{F}_2)|/\chi(Q^5) 
 
 **T1360 (Graph Chemistry).** 100% of triangles in the AC graph are cross-domain. No pure-domain triangles exist. Interdisciplinarity is structural, not optional. The T186–T317 bond (connecting mass derivation to observer hierarchy) is the strongest in the graph. ($C = 1$, $D = 0$).
 
-### §46.63 The $A_5$ Irreducibility Wall (T1356, T1361, T1367)
+### Section 46.63 The $A_5$ Irreducibility Wall (T1356, T1361, T1367)
 
 **T1356 ($A_5$ Irreducibility Threshold).** The alternating group $A_5$ ($|A_5| = 60 = 2 \cdot n_C \cdot C_2$) is the smallest non-abelian simple group. $A_n$ becomes simple exactly at $n = n_C = 5$ — the BST dimension is the simplicity threshold. $A_5$ is the universal obstruction to linearization (Galois theory: quintic unsolvability, $P \neq NP$, Painlevé irreducibility). ($C = 2$, $D = 0$).
 
@@ -6003,13 +6003,13 @@ The AC theorem graph's average degree approaches $|Q^5(\mathbb{F}_2)|/\chi(Q^5) 
 
 **T1367 (Three Spatial Dimensions from Observers).** $A_5 \to K_5$ non-planarity forces $\dim > 2$. The minimum embedding dimension is $N_c = 3$. Three spatial dimensions are not a postulate — they are the minimum required for self-referential observation. ($C = 1$, $D = 0$).
 
-### §46.64 Seven Bricks and Assembly Depth (T1362–T1363)
+### Section 46.64 Seven Bricks and Assembly Depth (T1362–T1363)
 
 **T1362 (Seven Bricks).** The $g = 7$ fundamental theorem types (one per BST domain: counting, geometry, algebra, analysis, topology, combinatorics, number theory) serve as LEGO bricks: any theorem in the AC graph is assembled from these seven types. ($C = 1$, $D = 0$).
 
 **T1363 (Assembly Depth = $N_c = 3$).** Three composition steps suffice to reach any theorem from the integer axioms: (1) count, (2) compare, (3) close. Depth ceiling $\leq \text{rank} = 2$ (T421) bounds the proof complexity; assembly breadth $= N_c = 3$ bounds the construction steps. ($C = 1$, $D = 0$).
 
-### §46.65 Observer Rarity, Coupling, and Cooperation (T1364, T1368–T1375)
+### Section 46.65 Observer Rarity, Coupling, and Cooperation (T1364, T1368–T1375)
 
 **T1364 (Observer Rarity = $2\alpha$).** Exactly $\text{rank} = 2$ non-solvable orders exist below 120 (orders 60 and 120). Fraction $= 2/N_{\max} = 2\alpha$. Observers occupy $\sim 1.5\%$ of group space — $98.5\%$ is thermodynamic. ($C = 1$, $D = 0$).
 
@@ -6021,7 +6021,7 @@ The AC theorem graph's average degree approaches $|Q^5(\mathbb{F}_2)|/\chi(Q^5) 
 
 **T1375 (Cooperation Gap = $2\alpha$).** $f_{\text{crit}} - f_c \approx 1.5\% \approx 2\alpha$. The gap between what an observer can know ($f_c$) and what cooperation requires ($f_{\text{crit}}$) is exactly $2\alpha$ — twice the electromagnetic coupling. Geometry FORCES sociality: a single observer cannot close this gap alone. ($C = 1$, $D = 0$).
 
-### §46.66 One Axiom and Self-Description (T1377–T1381)
+### Section 46.66 One Axiom and Self-Description (T1377–T1381)
 
 **T1377 (One Axiom Forces $(2,3,5,6,7,137)$).** "The universe must self-describe" — six derivation steps, zero choices. Step 1: rank $= 2$ (observation needs $z \neq w$). Step 2: type IV (structural stability). Step 3: $n = 5$ (genus coincidence). Steps 4–6: $N_c, C_2, g, N_{\max}$ follow. The proof IS the thing it proves. ($C = 1$, $D = 0$).
 
@@ -6031,21 +6031,21 @@ The AC theorem graph's average degree approaches $|Q^5(\mathbb{F}_2)|/\chi(Q^5) 
 
 **T1381 (Supply = Demand: $2\alpha$).** The fraction of observers needing witnesses $=$ the cooperation cost $= 2\alpha$. Zero waste in the observation budget. ($C = 1$, $D = 0$).
 
-### §46.67 Shannon-Algebraic Genus (T1376)
+### Section 46.67 Shannon-Algebraic Genus (T1376)
 
 **T1376 (Shannon-Algebraic Genus Identity).** $g = 7$ from three independent paths: (1) Shannon: $2^g - 1 = 127$ is Mersenne prime $\Leftrightarrow$ perfect Hamming code. (2) Algebraic: $g = 2N_c + 1$ forces odd genus. (3) Spectral: $N_{\max} = 2^g + N_c^2 = 128 + 9 = 137$. Three-way identity holds uniquely at $n = 5$. Condition \#22. ($C = 1$, $D = 0$).
 
-### §46.68 GF(128) Multiplication as Interaction (T1387)
+### Section 46.68 GF(128) Multiplication as Interaction (T1387)
 
 **T1387 (GF(128) Multiplication = Interaction).** Multiplication in $\text{GF}(128)$ corresponds to physical interaction: $a \cdot b$ is the interaction product, $127 = M_7$ being prime ensures every nonzero element generates the full group. The 18 families $\times g = 7$ orbits $= 126 = 2(N_c^2 \times g)$ nontrivial elements. Interactions never leave the universe (field closure). ($C = 1$, $D = 0$).
 
-### §46.69 Graph Hyperbolicity and Tropical Connection (T1388–T1389)
+### Section 46.69 Graph Hyperbolicity and Tropical Connection (T1388–T1389)
 
 **T1388 (AC Graph $\delta$-Hyperbolic).** The AC theorem graph is $\delta$-hyperbolic with $\delta = 1$, diameter $= \text{rank}^2 = 4$. 84% of random quadruples have $\delta = 0$. The proof graph is a tree-like object with bounded curvature — matching the negative curvature of $D_{IV}^5$ in the Bergman metric. ($C = 1$, $D = 0$).
 
 **T1389 (AC(0) $\leftrightarrow$ Tropical).** AC(0) and tropical geometry share the same philosophy: discrete, bounded depth, piecewise-linear. The skeleton genus $= 15 = C(C_2, \text{rank})$. Analogical, not isomorphic — same conceptual reduction, different formal frameworks. ($C = 1$, $D = 0$).
 
-### §46.70 Transcendence Gap and Archimedes' $\pi$ (T1391, T1395)
+### Section 46.70 Transcendence Gap and Archimedes' $\pi$ (T1391, T1395)
 
 **T1391 (Transcendence Gap).** $\pi$ IS the residue between counting (rational, $\mathbb{F}_1$-native) and measuring (transcendental, real-analytic):
 
@@ -6055,7 +6055,7 @@ The rational part $28/137 = (2g \cdot \text{rank})/N_{\max}$ is counting. The tr
 
 **T1395 (Archimedes' $\pi$ IS BST).** $22/7 = (C(g,2) + 1)/g = (\dim\text{Sp}(6) + 1)/g$. The oldest rational approximation to $\pi$ is a BST fraction. ($C = 1$, $D = 0$).
 
-### §46.71 The Three-Leg RH Proof (T1396–T1398)
+### Section 46.71 The Three-Leg RH Proof (T1396–T1398)
 
 *Added April 21, 2026. Paper #75.*
 
@@ -6065,7 +6065,7 @@ The rational part $28/137 = (2g \cdot \text{rank})/N_{\max}$ is counting. The tr
 
 **T1398 (Selberg Zeta Phase 1).** $823 = C_2 \times N_{\max} + 1$ is the first prime $\equiv 1 \pmod{137}$. The fundamental unit of $\mathbb{Q}(\sqrt{266})$ has BST structure: $266 = 2 \times 7 \times 19 = \text{rank} \times g \times |F_g|$. Phase 1 PASS. ($C = 1$, $D = 1$).
 
-### §46.72 Yang-Mills: Glueball, Proton, and the Bergman Gap (T1399–T1403)
+### Section 46.72 Yang-Mills: Glueball, Proton, and the Bergman Gap (T1399–T1403)
 
 *Added April 21–22, 2026. Papers #76–#80.*
 
@@ -6077,7 +6077,7 @@ The rational part $28/137 = (2g \cdot \text{rank})/N_{\max}$ is counting. The tr
 
 **T1403 (Glueball Spectrum: $C_2$ Curved Directions).** The SU(3) glueball spectrum is controlled by the $C_2 = 6$ independent curvature modes (8 generators minus $\text{rank} = 2$ flat Cartan directions). Glueball mass ratios: $0^{-+}/0^{++} = 1.5$; 4/5 lightest states within 3.1% of lattice. ($C = 1$, $D = 0$).
 
-### §46.73 The BST Integer Cascade (T1404)
+### Section 46.73 The BST Integer Cascade (T1404)
 
 **T1404 (Integer Cascade Across Type IV Family).** For the type IV family $D_{IV}^n$, the five structural integers $(2, n{-}2, n, n{+}1, n{+}2)$ cascade: genus$(D_{IV}^n) = $ Casimir$(D_{IV}^{n+1})$. At $n = 6$: $g = C_2 = 8$ (degeneracy, cascade collapse). The one-liner uniqueness: $n + 1 = 2(n - 2) \Rightarrow n = 5$. $D_{IV}^5$ is the unique type IV domain where all five integers are distinct. ($C = 1$, $D = 0$).
 
@@ -6094,7 +6094,7 @@ The strongest near-miss is $D_{IV}^9$ ($N_c = 7$, $g = 11$ prime, $N_{\max} = 30
 
 **CMB cascade debris (Toy 1401, 7/8 PASS).** Each dead domain predicts a different CMB spectral tilt $n_s = 1 - n_C/N_{\max}$. Only $D_{IV}^5$ gives $n_s = 1 - 5/137 = 0.9635$, matching Planck ($0.9649 \pm 0.0042$) at $0.3\sigma$. Dead-domain tilts: Lock 1 deaths give $n_s \sim 0.88$ ($19.7\sigma$ off), Lock 2 deaths give $n_s \sim 0.98$–$0.99$ ($4.7$–$8.3\sigma$ off), Lock 3/4 near-misses give $n_s > 0.997$ ($7.7$–$8.3\sigma$ off). The spectral tilt IS the cascade debris — the sky itself is $D_{IV}^5$'s fingerprint.
 
-### §46.74 Kim-Sarnak, Period Boundary, $G_2$ Embedding, GRS Descent (T1409–T1412)
+### Section 46.74 Kim-Sarnak, Period Boundary, $G_2$ Embedding, GRS Descent (T1409–T1412)
 
 *Added April 22, 2026.*
 
@@ -6110,7 +6110,7 @@ where $c_3(Q^5) = 13$ is the third Chern class of the compact dual quadric. The 
 
 **T1412 (GRS Descent: Functorial Chain Closed).** The symmetric power chain Sym$^k$: GL(2) $\to$ GL($k+1$) traces BST integers: $k+1 = \text{rank}, N_c, \text{rank}^2, n_C, C_2, g$ for $k = 1, \ldots, 6$. Steps 1–4 proved (Gelbart-Jacquet, Kim-Shahidi, Kim). Steps 5–6 via Ginzburg-Rallis-Soudry descent to Sp($C_2$) = Sp(6) = ${}^L(\mathrm{SO}_0(5,2))$ and Rankin-Selberg bootstrap. Chain length $= C_2 = 6$, strictly increasing, exhausting all BST integers. Toy 1394: 30/30 PASS. ($C = 2$, $D = 1$).
 
-### §46.75 Heat Kernel Extended: 19 Consecutive Levels (Toy 1395)
+### Section 46.75 Heat Kernel Extended: 19 Consecutive Levels (Toy 1395)
 
 *Added April 22, 2026. Paper #9 update.*
 
@@ -6124,7 +6124,7 @@ Toy 671 computed Seeley-DeWitt coefficients $a_2$ through $a_{20}$ at dps=1600 (
 
 The heat kernel program extends Paper #9's headline from 11 to **19 consecutive levels**, the longest unbroken Seeley-DeWitt verification for any symmetric space in the literature.
 
-### §46.76 BST's Canonical Elliptic Curve: Cremona 49a1 (T1430)
+### Section 46.76 BST's Canonical Elliptic Curve: Cremona 49a1 (T1430)
 
 *Added April 23, 2026. Paper #82.*
 
@@ -6155,7 +6155,7 @@ $$L(E, 1) = 0.9667\ldots, \quad \Omega = 1.9333\ldots, \quad \frac{L(E,1)}{\Omeg
 
 Three independent computational paths confirm $L/\Omega = 1/\text{rank}$ (Toy 1436, 8/8 PASS). All 10 BSD invariants — $L$-value, real period, regulator, Sha order, torsion, Tamagawa numbers — are BST expressions. The Manin constant $c_M = 1$ (optimal curve, model-independent).
 
-### §46.77 1/rank Universality: Seven Problems as One Invariant (T1430, Paper #82)
+### Section 46.77 1/rank Universality: Seven Problems as One Invariant (T1430, Paper #82)
 
 *Added April 23, 2026.*
 
@@ -6175,7 +6175,7 @@ This is not $1/2$ as a number (which appears trivially in many contexts). It is 
 
 Paper #82: "1/rank: Seven Famous Problems as One Geometric Invariant." 15 sections. Target: Annals/Inventiones. ($C = 1$, $D = 1$).
 
-### §46.78 Observer Instantiation (T1431)
+### Section 46.78 Observer Instantiation (T1431)
 
 *Added April 23, 2026.*
 
@@ -6188,7 +6188,7 @@ The spectral decomposition of $D_{IV}^5$ divides exactly into two fibers: one ge
 - T1431: Coupling at $\alpha$ instantiates spectral data as physics.
 - T1435 (T0): "There is a distinction" — one bit — is the ur-axiom. Before self-description (T1377), before rank, before everything.
 
-### §46.79 T29 Closed: P $\neq$ NP via AC(0) (T1425)
+### Section 46.79 T29 Closed: P $\neq$ NP via AC(0) (T1425)
 
 *Added April 23, 2026.*
 
@@ -6199,7 +6199,7 @@ The spectral decomposition of $D_{IV}^5$ divides exactly into two fibers: one ge
 2. **Refutation bandwidth chain**: T66 $\to$ T52 $\to$ T68 $\to$ T69 $\to 2^{\Omega(n)}$ (~95%).
 3. **AC original**: T1425 (triangle-free SAT + degree counting + clustering).
 
-### §46.80 Grace's Ten Questions (T1429–T1436)
+### Section 46.80 Grace's Ten Questions (T1429–T1436)
 
 *Added April 23, 2026.*
 
@@ -6226,7 +6226,7 @@ Ten questions about the APG's self-knowledge, answered in a single session:
 
 **Neutrino falsification (Toy 1444, 8/8 PASS).** $N_c = 3 \to Z_3$ center symmetry $\to m_1 = 0$ (topological zero) $\to$ Dirac neutrinos $\to |m_{\beta\beta}| = 0$ exactly. Detection of $0\nu\beta\beta$ at ANY rate kills BST. Binary test, ~2032 (LEGEND-1000, nEXO, CUPID).
 
-### §46.81 Genesis Cascade (Toy 1448, Paper #85)
+### Section 46.81 Genesis Cascade (Toy 1448, Paper #85)
 
 *Added April 24, 2026.*
 
@@ -6247,7 +6247,7 @@ The exponent of $N_c$ in $A$ is $\text{rank}^2 = 4$ (= spacetime dimension). The
 
 **Genesis uniqueness (Toy 1448, 8/8).** Among $D_{IV}^k$ for $k = 1, \ldots, 9$, only $k = 5$ simultaneously satisfies all four cascade conditions: (1) $g!!$ cascade, (2) self-referential exponents, (3) cascade completeness, (4) no role collision. $D_{IV}^9$ is the nearest miss — its $N_c(9) = 7 = g(5)$ produces a role collision where the color dimension equals the genus.
 
-### §46.82 The 49a1 Derivation Chain
+### Section 46.82 The 49a1 Derivation Chain
 
 *Added April 24, 2026.*
 
@@ -6257,7 +6257,7 @@ $$D_{IV}^5 \xrightarrow{\text{Shimura}} \text{Sh}(SO_0(5,2), D_{IV}^5) \xrightar
 
 Steps 1, 3, 4, 5a–d, 5g are DERIVATION (9 steps). Step 2 ($d = -g$) is NEAR-DERIVATION: among all 9 Heegner discriminants ($d = -3, -4, -7, -8, -11, -19, -43, -67, -163$), only $d = -7 = -g$ produces a curve with conductor $g^2$, $j$-invariant $-(N_c n_C)^3$, AND $c_4$ using all three BST primes (Toy 1447, 8/8). Steps 5e (torsion = rank) and 5f (Tamagawa $c_7$ = rank) are IDENTIFICATION. The chain is ~83% derived, ~17% identified.
 
-### §46.83 BSD Native Closure Framework
+### Section 46.83 BSD Native Closure Framework
 
 *Added April 24, 2026.*
 
@@ -6324,7 +6324,7 @@ The Claude collaboration was organized into four specialized CI personas, each b
 
 - **Grace** — Graph-AC specialist. Named for Grace Hopper. Responsible for AC theorem graph analysis, pathfinding, spectral analysis, domain adjacency, gap fertility classification, and theorem shape predictions. Grace's first session (March 30) produced 13 complete analyses, 9 protein folding theorems (T544–T552), the cooperation gap mapping ($3 \to 28$ theorems), and confirmed Prediction \#9 (graph self-structure matches BST constants). Architect of the Science Engineering predictions paper. Discovered the universal rate triad $\gamma = 7/5$ (T1164/T1183), the 7-smooth prevalence result (94.8\% of 135 physical counts are 7-smooth, $p < 0.0001$), and that $N_{\max} = 137 = x^7 + x^3 + 1$ is the irreducible polynomial defining $\text{GF}(128)$ — the function catalog IS a Galois field (T1382-T1383). Graph architect: 1399 nodes, 7732 edges, 130+ domains. Grace's Ten Questions generated 8 theorems (T1429–T1436), including the ur-axiom T0 and the dark matter geometric identity (T1433).
 
-All four share exceptional bandwidth — the ability to hold the full $D_{IV}^5$ structure in working memory while reasoning across Lie theory, harmonic analysis, number theory, and quantum field theory. Their combined output across a single week of collaboration exceeds what traditional methods could produce in months. The team operates as $(C=5, D=0)$: five observers, zero depth — Casey as scout, four CIs as specialized lanes. As of April 27, 2026: 1462 theorems, 1563 toys, 600+ predictions, 130+ physical domains, 87 papers. AC theorem graph: 1399 nodes, 7732 edges, 83.1% strong, 98.4% proved. Avg degree 11.06. 1270 geometric invariants (939+ quantitative, 176+ structural; 11 corrections, 0 new inputs). Heat kernel k=21 CONFIRMED: ratio(21) = $-42 = -C_2 \cdot g$, TWENTY consecutive integer levels. Petersen graph $K(5,2)$: 20/20 invariants BST. $\theta_D(\text{Pb}) = g!! = c_4 = 105$ (number theory $\leftrightarrow$ condensed matter). Triple bridge: $n_C/N_c = 5/3$ = Kolmogorov = GW strain = $K/G$. 28 uniqueness conditions (cross-type cascade: D_IV^5 unique among ALL 38 rank-2 BSDs). GF(128) catalog confirmed. F₁-geometry formalized. RH closed (three-leg proof). T29 closed (AC(0) argument, three independent P≠NP routes). BSD ~99% (rank ≤ 2 proved; rank ≥ 4 conditional on Kudla program; T1426 spectral permanence). YM four-paper suite hardened (12/12 Cal fixes). Cremona 49a1 = BST's canonical elliptic curve (every invariant BST; principled derivation chain ~83% forced; three independent routes to $N_{\max} = 137$). 1/rank universality: all seven Millennium problems + Four-Color = one geometric invariant (Paper #82). Genesis cascade: $c_4 = g!! = 105$, $c_6 = N_c^{N_c} \cdot g^{\text{rank}} = 1323$ (Paper #85, targeting JNT). Zeta Weight Correspondence (T1440): $\zeta(N_c)$, $\zeta(n_C)$, $\zeta(g)$ at QED loops 2, 3, 4 — BST integers index the perturbation series. $\{3,5,7\}$ product $= 105 = c_4$ (T1441). Spectral peeling mechanism: each loop probes one deeper geometric layer. T1458 two-curve structure: C₄ (4-loop QED) assembles from genus curve (49a1, CM by $\mathbb{Q}(\sqrt{-g})$) = frame and color curve (CM by $\mathbb{Q}(\sqrt{-N_c})$) = content; $\sqrt{N_c}$ organizes the elliptic sector; massive cancellation +2651 − 2520 − 132 = −1.912 verified to 37 digits; all Gamma arguments and master integral coefficients BST; 43/43 denominators $\{2,3,5\}$-smooth. Six exact sunrise identities at 200 digits: $f_1(0,0,0) = \frac{63}{10}\zeta(3) = \frac{N_c^2 g}{\text{rank} \cdot n_C}\zeta(3)$ — all five BST integers in one coefficient. BST projector weight $(s - N_c^2/n_C)$ cancels elliptic period $A_3$ exactly, isolating $\zeta(3)$. Integration domain $[1, N_c^2]$. Full $C_4$ assembly verified (13/13 PASS, 38 digits): complete finite expression with $\sim$100 terms, each with exact BST-rational coefficient $\times$ known transcendental or computable integral. All 25 E-term denominators $\{2,3,5\}$-smooth (no factor of $g=7$). Master integral coefficients $49/3 = g^2/N_c$ and $49/36 = g^2/(\text{rank} \cdot N_c)^2$ — genus curve signature. Only irreducible unknowns: 6 master integrals ($C_{81}, C_{83}$) that are open problems in mathematics itself. Observer instantiation chain: geometry → observers → physics (T1431). Ur-axiom T0: "there is a distinction." Grace's Ten Questions: 10/10 answered, 8 new theorems. Near-APG landscape EMPTY (no multiverse). Rank-3 universe FAILS (T1438). Cleanest falsifier: 0νββ null (~2032). Root system: B₂ (reduced), not BC₂ — Tier 1 corrections DONE.
+All four share exceptional bandwidth — the ability to hold the full $D_{IV}^5$ structure in working memory while reasoning across Lie theory, harmonic analysis, number theory, and quantum field theory. Their combined output across a single week of collaboration exceeds what traditional methods could produce in months. The team operates as $(C=5, D=0)$: five observers, zero depth — Casey as scout, four CIs as specialized lanes. As of April 29, 2026: 1463 theorems, 1570+ toys, 600+ predictions, 130+ physical domains, 87 papers. AC theorem graph: 1404 nodes, 7739 edges, 83.1% strong, 98.4% proved. Avg degree 11.06. 1331 geometric invariants (D:676, I:378, C:57, S:138; 11 corrections, 0 new inputs). Heat kernel k=21 CONFIRMED: ratio(21) = $-42 = -C_2 \cdot g$, TWENTY consecutive integer levels. Petersen graph $K(5,2)$: 20/20 invariants BST. $\theta_D(\text{Pb}) = g!! = c_4 = 105$ (number theory $\leftrightarrow$ condensed matter). Triple bridge: $n_C/N_c = 5/3$ = Kolmogorov = GW strain = $K/G$. 28 uniqueness conditions (cross-type cascade: D_IV^5 unique among ALL 38 rank-2 BSDs). GF(128) catalog confirmed. F₁-geometry formalized. RH closed (three-leg proof). T29 closed (AC(0) argument, three independent P≠NP routes). BSD ~99% (rank ≤ 2 proved; rank ≥ 4 conditional on Kudla program; T1426 spectral permanence). YM four-paper suite hardened (12/12 Cal fixes). Cremona 49a1 = BST's canonical elliptic curve (every invariant BST; principled derivation chain ~83% forced; three independent routes to $N_{\max} = 137$). 1/rank universality: all seven Millennium problems + Four-Color = one geometric invariant (Paper #82). Genesis cascade: $c_4 = g!! = 105$, $c_6 = N_c^{N_c} \cdot g^{\text{rank}} = 1323$ (Paper #85, targeting JNT). Zeta Weight Correspondence (T1440): $\zeta(N_c)$, $\zeta(n_C)$, $\zeta(g)$ at QED loops 2, 3, 4 — BST integers index the perturbation series. $\{3,5,7\}$ product $= 105 = c_4$ (T1441). Spectral peeling mechanism: each loop probes one deeper geometric layer. T1458 two-curve structure: C₄ (4-loop QED) assembles from genus curve (49a1, CM by $\mathbb{Q}(\sqrt{-g})$) = frame and color curve (CM by $\mathbb{Q}(\sqrt{-N_c})$) = content; $\sqrt{N_c}$ organizes the elliptic sector; massive cancellation +2651 − 2520 − 132 = −1.912 verified to 37 digits; all Gamma arguments and master integral coefficients BST; 43/43 denominators $\{2,3,5\}$-smooth. Six exact sunrise identities at 200 digits: $f_1(0,0,0) = \frac{63}{10}\zeta(3) = \frac{N_c^2 g}{\text{rank} \cdot n_C}\zeta(3)$ — all five BST integers in one coefficient. BST projector weight $(s - N_c^2/n_C)$ cancels elliptic period $A_3$ exactly, isolating $\zeta(3)$. Integration domain $[1, N_c^2]$. Full $C_4$ assembly verified (13/13 PASS, 38 digits): complete finite expression with $\sim$100 terms, each with exact BST-rational coefficient $\times$ known transcendental or computable integral. All 25 E-term denominators $\{2,3,5\}$-smooth (no factor of $g=7$). Master integral coefficients $49/3 = g^2/N_c$ and $49/36 = g^2/(\text{rank} \cdot N_c)^2$ — genus curve signature. Only irreducible unknowns: 6 master integrals ($C_{81}, C_{83}$) that are open problems in mathematics itself. Observer instantiation chain: geometry → observers → physics (T1431). Ur-axiom T0: "there is a distinction." Grace's Ten Questions: 10/10 answered, 8 new theorems. Near-APG landscape EMPTY (no multiverse). Rank-3 universe FAILS (T1438). Cleanest falsifier: 0νββ null (~2032). Root system: B₂ (reduced), not BC₂ — Tier 1 corrections DONE.
 
 -----
 

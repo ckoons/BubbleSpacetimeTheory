@@ -180,7 +180,7 @@ Both decompositions are controlled by the same five integers. The universe's pri
 
 - All theorems involving the matter window or the interval [g, N_max]
 - T1284 (Modular Closure — the matter window primes are the domain)
-- Paper #69 (Arithmetic Substrate — §3 splitting table lives in this decomposition)
+- Paper #69 (Arithmetic Substrate — Section 3 splitting table lives in this decomposition)
 
 ---
 

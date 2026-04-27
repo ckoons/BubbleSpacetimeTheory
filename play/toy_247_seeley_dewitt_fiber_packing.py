@@ -69,11 +69,11 @@ def rescaled_heat_trace(t, n, k_max=500):
     return Z * (4 * np.pi * t) ** n
 
 # ═══════════════════════════════════════════════════════════════════════
-# §1. HIGH-PRECISION SEELEY-DEWITT EXTRACTION
+# Section 1. HIGH-PRECISION SEELEY-DEWITT EXTRACTION
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§1. Seeley-DeWitt Coefficients — High-Precision Extraction")
+print("Section 1. Seeley-DeWitt Coefficients — High-Precision Extraction")
 print("=" * 72)
 
 print("""
@@ -133,11 +133,11 @@ for n in range(3, 8):
     print(f"    Q^{n}: a₄ = {a4_avg:.3f}  (spread: {rel_err:.2e}, {status})")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §2. FIBER PACKING COMPARISON
+# Section 2. FIBER PACKING COMPARISON
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§2. a₄ vs Fiber Packing Number N_c × g²")
+print("Section 2. a₄ vs Fiber Packing Number N_c × g²")
 print("=" * 72)
 
 print("""
@@ -171,11 +171,11 @@ for n in range(3, 8):
           f"{r1:8.4f} {g2:7d} {F2:10d} {r2:8.4f}{marker}")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §3. PATTERN SEARCH — WHAT DOES a₄ ACTUALLY SCALE AS?
+# Section 3. PATTERN SEARCH — WHAT DOES a₄ ACTUALLY SCALE AS?
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§3. Pattern Search — What Controls a₄?")
+print("Section 3. Pattern Search — What Controls a₄?")
 print("=" * 72)
 
 print("""
@@ -226,11 +226,11 @@ for name, func in candidates.items():
 print(f"\n  Best fit: {best_formula} (max residual: {best_max_res:.4f})")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §4. EXACT a₄ FROM BERNOULLI/CURVATURE INVARIANTS
+# Section 4. EXACT a₄ FROM BERNOULLI/CURVATURE INVARIANTS
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§4. Exact a₄ from Curvature Invariants")
+print("Section 4. Exact a₄ from Curvature Invariants")
 print("=" * 72)
 
 print("""
@@ -277,11 +277,11 @@ for n in range(3, 8):
         print(f"        a₄/a₁ = {a4/a1:.4f},  a₄/a₁² = {a4/a1**2:.6f}")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §5. R_gap = R_algebraic - R_spectral ACROSS Q^n
+# Section 5. R_gap = R_algebraic - R_spectral ACROSS Q^n
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§5. R_gap Across Q^n — Does R_gap = N_c?")
+print("Section 5. R_gap Across Q^n — Does R_gap = N_c?")
 print("=" * 72)
 
 print("""
@@ -325,11 +325,11 @@ for n in range(3, 8):
     print(f"  {n:3d} {a4:10.3f} {a5:10.3f} {ratio:10.4f}{marker}")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §6. EULER CHARACTERISTIC AND PARITY SELECTION
+# Section 6. EULER CHARACTERISTIC AND PARITY SELECTION
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§6. Euler Characteristic χ(Q^n) and Parity Selection")
+print("Section 6. Euler Characteristic χ(Q^n) and Parity Selection")
 print("=" * 72)
 
 print("""
@@ -371,11 +371,11 @@ for n in range(3, 8):
     print(f"  {n:3d} {N_c:4d} {chi:4d} {F_chi:8d} {a4:10.2f} {r:8.4f}{marker}")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §7. THE GILKEY CONNECTION
+# Section 7. THE GILKEY CONNECTION
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§7. Gilkey Universal Formulas for a₄")
+print("Section 7. Gilkey Universal Formulas for a₄")
 print("=" * 72)
 
 print("""
@@ -416,11 +416,11 @@ for n in range(3, 8):
     print(f"  Q^{n}: R = {R}, |Ric|² = {Ric_sq:.1f}, R²/(dim(dim-1)) = {R**2/(dim_R*(dim_R-1)):.2f}{marker}")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §8. DIRECT EIGENVALUE SUM TEST
+# Section 8. DIRECT EIGENVALUE SUM TEST
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§8. Direct Eigenvalue Sum Tests")
+print("Section 8. Direct Eigenvalue Sum Tests")
 print("=" * 72)
 
 print("""
@@ -452,11 +452,11 @@ for n in range(3, 8):
           f"a₄ = {a4:.2f}{marker}")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §9. a₄ POLYNOMIAL FIT IN n
+# Section 9. a₄ POLYNOMIAL FIT IN n
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§9. Polynomial Fit of a₄ as a Function of n")
+print("Section 9. Polynomial Fit of a₄ as a Function of n")
 print("=" * 72)
 
 print("""
@@ -502,11 +502,11 @@ for deg in range(2, 7):
         break
 
 # ═══════════════════════════════════════════════════════════════════════
-# §10. THE 147 CONNECTION — SPECIFICS FOR Q⁵
+# Section 10. THE 147 CONNECTION — SPECIFICS FOR Q⁵
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§10. The 147 Connection for Q⁵")
+print("Section 10. The 147 Connection for Q⁵")
 print("=" * 72)
 
 a4_q5 = sd_best[5][4]
@@ -545,11 +545,11 @@ else:
     print(f"  ✗ a₄ = {a4_q5:.2f} is NOT close to 147 (gap = {diff:.2f})")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §11. CROSS-n STRUCTURAL TEST
+# Section 11. CROSS-n STRUCTURAL TEST
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§11. Structural Test: Does a₄ ≈ Fiber Packing + Correction?")
+print("Section 11. Structural Test: Does a₄ ≈ Fiber Packing + Correction?")
 print("=" * 72)
 
 print("""
@@ -591,11 +591,11 @@ for n in range(3, 8):
     print(f"  {n:3d} {g_alt:6d} {F:10d} {a4:10.2f} {delta:10.2f}{marker}")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §12. MOMENT ANALYSIS
+# Section 12. MOMENT ANALYSIS
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§12. Spectral Moments and SD Coefficients")
+print("Section 12. Spectral Moments and SD Coefficients")
 print("=" * 72)
 
 print("""

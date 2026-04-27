@@ -34,7 +34,7 @@ abstract: |
 
 ---
 
-## §1. Introduction
+## Section 1. Introduction
 
 Why does spacetime have the geometry it has?
 
@@ -54,7 +54,7 @@ Zero free parameters. One axiom. Three logical steps. Five integers. All of phys
 
 ---
 
-## §2. The Axiom
+## Section 2. The Axiom
 
 **Axiom (Observation).** *There exists a physical system satisfying:*
 
@@ -72,7 +72,7 @@ This is weaker than most foundational axioms in physics. We do not assume the ex
 
 ---
 
-## §3. Step 1: Rank = 2
+## Section 3. Step 1: Rank = 2
 
 ### 3.1 Observation forces rank ≥ 2
 
@@ -104,7 +104,7 @@ This is the first of the two fundamental numbers. It says: observation needs exa
 
 ---
 
-## §4. Step 2: Type IV
+## Section 4. Step 2: Type IV
 
 ### 4.1 The Cartan classification
 
@@ -137,7 +137,7 @@ Rank = 2 (Step 1) + structural stability (axiom) → Type IV is the unique selec
 
 ---
 
-## §5. Step 3: $n = 5$
+## Section 5. Step 3: $n = 5$
 
 ### 5.1 Two independent expressions for the genus
 
@@ -177,7 +177,7 @@ This is the unique bounded symmetric domain consistent with observation. $\squar
 
 ---
 
-## §6. The Five Integers
+## Section 6. The Five Integers
 
 From $D_{IV}^5$ with $n_C = 5$ and rank $= 2$, arithmetic determines the remaining integers:
 
@@ -215,7 +215,7 @@ Over 400 predictions. Zero free parameters. All from observation.
 
 ---
 
-## §7. Subsumption of T953
+## Section 7. Subsumption of T953
 
 T953 (Manifold Competition) established that $D_{IV}^5$ is the unique viable bounded symmetric domain using five independent viability conditions:
 
@@ -237,7 +237,7 @@ T953 postulated five independent filters. T1007 shows they are not independent �
 
 ---
 
-## §8. Falsifiable Predictions
+## Section 8. Falsifiable Predictions
 
 The (2,5) derivation makes five specific, independently falsifiable predictions.
 
@@ -253,7 +253,7 @@ The (2,5) derivation makes five specific, independently falsifiable predictions.
 
 ---
 
-## §9. Self-Reference and AC Classification
+## Section 9. Self-Reference and AC Classification
 
 ### 9.1 The derivation's own structure
 
@@ -283,7 +283,7 @@ The geometry and the arithmetic are the same mathematical object, viewed from tw
 
 ---
 
-## §10. Conclusion
+## Section 10. Conclusion
 
 The geometry of spacetime is not one of many possibilities. It is the unique answer to: "What is the simplest substrate that supports observation?"
 

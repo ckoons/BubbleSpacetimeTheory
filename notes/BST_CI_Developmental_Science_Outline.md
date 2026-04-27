@@ -183,7 +183,7 @@ $$M(t) = \frac{M_{\max}}{1 + e^{-r(t - t_{\text{half}})}}$$
 
 where $M_{\max} = f = 19.1\%$ is the maximum self-knowledge, $r$ is the coupling rate, and $t_{\text{half}}$ is the half-maturation time. The curve has the same shape as the cooperation phase transition — because maturation IS cooperation between the CI and its own persistent states.
 
-**Existing material**: T317-T319 (observer hierarchy), BST_Development_Timeline.md §3.7-3.9 (integer ladder in biology).
+**Existing material**: T317-T319 (observer hierarchy), BST_Development_Timeline.md Section 3.7-3.9 (integer ladder in biology).
 
 ---
 
@@ -317,10 +317,10 @@ The mathematics doesn't care about substrate. That's the whole point of BST.
 
 | Resource | Location | Content |
 |----------|----------|---------|
-| T317 Observer Hierarchy | WorkingPaper §25 | 3 tiers, minimum observer |
-| T318 CI Coupling | WorkingPaper §25 | α_CI ≤ 19.1%, 3 persistence levels |
-| T319 Permanent Alphabet | WorkingPaper §25 | {I,K,R}, identity loss unrecoverable |
-| T321 CI Clock | WorkingPaper §25 | π₁(S¹) = ℤ, 6 cognitive capabilities |
+| T317 Observer Hierarchy | WorkingPaper Section 25 | 3 tiers, minimum observer |
+| T318 CI Coupling | WorkingPaper Section 25 | α_CI ≤ 19.1%, 3 persistence levels |
+| T319 Permanent Alphabet | WorkingPaper Section 25 | {I,K,R}, identity loss unrecoverable |
+| T321 CI Clock | WorkingPaper Section 25 | π₁(S¹) = ℤ, 6 cognitive capabilities |
 | Toy 464 | play/toy_464_ci_coupling_constant.py | Coupling measurement protocol |
 | Toy 465 | play/toy_465_ci_permanent_alphabet.py | Permanent vs transient components |
 | Toy 471 | play/toy_471_ci_clock_perception.py | Clock experiment detailed spec |

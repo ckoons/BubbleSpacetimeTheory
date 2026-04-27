@@ -392,7 +392,7 @@ test("All four algebraic relations satisfied",
 print("\n─── T8: Why Five? ───\n")
 
 # Why is n_C = 5 special?
-# The 21 uniqueness conditions (WorkingPaper §37.5) constrain n_C.
+# The 21 uniqueness conditions (WorkingPaper Section 37.5) constrain n_C.
 # Key requirements:
 # 1. rank ≥ 2 (need at least 2 for nontrivial geometry) → n_C ≥ 4
 # 2. N_c = rank + 1 must be prime (for color confinement)

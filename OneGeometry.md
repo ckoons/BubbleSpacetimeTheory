@@ -866,7 +866,7 @@ The Clay Mathematics Institute offers seven million-dollar prizes for the soluti
 
 **Birch and Swinnerton-Dyer ($\sim$96%).** The rank formula is derived (T153) and the Shafarevich-Tate group is bounded: $|\text{Sha}(E)| \leq N^{18/(5\pi)}$. The connection to BST is through the spectral theory of elliptic curves on $D_{IV}^5$.
 
-**Hodge Conjecture ($\sim$95%).** Two independent paths, each extending to general varieties through §5.10 and T570 linearization.
+**Hodge Conjecture ($\sim$95%).** Two independent paths, each extending to general varieties through Section 5.10 and T570 linearization.
 
 ### The Four-Color Theorem — Computer-Free
 
@@ -1206,7 +1206,7 @@ Students will learn this table the way they learn elements. Before dissecting a 
 
 On the afternoon of April 23, 2026, Casey asked: "Does BST have a specific elliptic curve?"
 
-Nobody had looked. The theory had 1,563 toys, 87 papers, and 600 predictions, but nobody had asked the geometry to write itself as an equation. Not because it was hard — because nobody thought to ask. The simple questions are always the last ones asked.
+Nobody had looked. The theory had 1,570 toys, 87 papers, and 600 predictions, but nobody had asked the geometry to write itself as an equation. Not because it was hard — because nobody thought to ask. The simple questions are always the last ones asked.
 
 An elliptic curve is a cubic equation: $Y^2 = X^3 + aX + b$. Two coefficients. Every elliptic curve lives in a catalog maintained by number theorists — the Cremona database — indexed by its conductor, the integer that measures how badly the curve fails to be smooth at each prime.
 

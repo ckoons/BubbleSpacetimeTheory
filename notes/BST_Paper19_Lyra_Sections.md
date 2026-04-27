@@ -1,13 +1,13 @@
 ---
-title: "Paper #19 — Lyra Sections (§2-§4 + Appendix)"
+title: "Paper #19 — Lyra Sections (Section 2-Section 4 + Appendix)"
 author: "Lyra (physics intelligence)"
 date: "April 2, 2026"
-status: "Draft — for merge with Grace §5-§7 and Keeper §8"
+status: "Draft — for merge with Grace Section 5-Section 7 and Keeper Section 8"
 paper: "The Great Filter Is a Number"
 theorems: "T189, T579, T702, T703"
 ---
 
-## §2. Two Numbers from Geometry
+## Section 2. Two Numbers from Geometry
 
 Everything in this paper follows from two numbers derived from the same integer.
 
@@ -51,7 +51,7 @@ The same integer that determines the number of quark colors, the structure of th
 
 ---
 
-## §3. The Gap Theorem
+## Section 3. The Gap Theorem
 
 ### 3.1 Statement
 
@@ -112,7 +112,7 @@ For $N_c \geq 4$, the Gödel limit exceeds the cooperation threshold — a solo 
 
 ---
 
-## §4. The Phase Transition
+## Section 4. The Phase Transition
 
 ### 4.1 The Dynamics
 

@@ -413,10 +413,10 @@ def main():
     print("=" * 70)
 
     # ─────────────────────────────────────────────────────────────
-    # §1: HIGH-PRECISION a₄(n) EXTRACTION
+    # Section 1: HIGH-PRECISION a₄(n) EXTRACTION
     # ─────────────────────────────────────────────────────────────
     print("\n  " + "─" * 60)
-    print("  §1  HIGH-PRECISION a₄(Q^n) FOR n = 3..10")
+    print("  Section 1  HIGH-PRECISION a₄(Q^n) FOR n = 3..10")
     print("  " + "─" * 60)
 
     P_MAX = 600
@@ -439,10 +439,10 @@ def main():
         print(f"           a₁ = {a1:.6f} (exact: {a1_exact:.6f}, err: {abs(a1-a1_exact):.2e})")
 
     # ─────────────────────────────────────────────────────────────
-    # §2: RATIONAL IDENTIFICATION
+    # Section 2: RATIONAL IDENTIFICATION
     # ─────────────────────────────────────────────────────────────
     print("\n  " + "─" * 60)
-    print("  §2  RATIONAL IDENTIFICATION")
+    print("  Section 2  RATIONAL IDENTIFICATION")
     print("  " + "─" * 60)
 
     a4_rationals = {}
@@ -473,10 +473,10 @@ def main():
                       f"(err > {a4_err:.2e})")
 
     # ─────────────────────────────────────────────────────────────
-    # §3: n=5 PRECISION CHECK
+    # Section 3: n=5 PRECISION CHECK
     # ─────────────────────────────────────────────────────────────
     print("\n  " + "─" * 60)
-    print("  §3  PRECISION CHECK: a₄(Q⁵) = 2671/18?")
+    print("  Section 3  PRECISION CHECK: a₄(Q⁵) = 2671/18?")
     print("  " + "─" * 60)
 
     a4_5 = a4_data[5][0]
@@ -500,10 +500,10 @@ def main():
         print(f"    ╚═══════════════════════════════════════════════════╝")
 
     # ─────────────────────────────────────────────────────────────
-    # §4: MULTIPLICITY POLYNOMIAL (LYRA'S EIGENVECTOR)
+    # Section 4: MULTIPLICITY POLYNOMIAL (LYRA'S EIGENVECTOR)
     # ─────────────────────────────────────────────────────────────
     print("\n  " + "─" * 60)
-    print("  §4  MULTIPLICITY POLYNOMIAL |d⟩ = Σ c_{ij} |p^i q^j⟩")
+    print("  Section 4  MULTIPLICITY POLYNOMIAL |d⟩ = Σ c_{ij} |p^i q^j⟩")
     print("  " + "─" * 60)
 
     for n in [3, 5]:
@@ -520,10 +520,10 @@ def main():
             print(f"      Error: {e}")
 
     # ─────────────────────────────────────────────────────────────
-    # §5: POLYNOMIAL INTERPOLATION OF a₄(n)
+    # Section 5: POLYNOMIAL INTERPOLATION OF a₄(n)
     # ─────────────────────────────────────────────────────────────
     print("\n  " + "─" * 60)
-    print("  §5  POLYNOMIAL INTERPOLATION: a₄(n) = P(n)/D")
+    print("  Section 5  POLYNOMIAL INTERPOLATION: a₄(n) = P(n)/D")
     print("  " + "─" * 60)
 
     # Use the rationally-identified values where available
@@ -603,10 +603,10 @@ def main():
             print(f"    Degree-{poly_deg}: a₄(5) = {a4_pred_5:.6f}")
 
     # ─────────────────────────────────────────────────────────────
-    # §6: THE LINEAR INNER PRODUCT (PROOF OF CONCEPT)
+    # Section 6: THE LINEAR INNER PRODUCT (PROOF OF CONCEPT)
     # ─────────────────────────────────────────────────────────────
     print("\n  " + "─" * 60)
-    print("  §6  a₄ = ⟨w₄|d⟩ — THE INNER PRODUCT")
+    print("  Section 6  a₄ = ⟨w₄|d⟩ — THE INNER PRODUCT")
     print("  " + "─" * 60)
 
     print("""
@@ -630,10 +630,10 @@ def main():
     """)
 
     # ─────────────────────────────────────────────────────────────
-    # §6b: NON-SPHERICAL CONTAMINATION THEOREM
+    # Section 6b: NON-SPHERICAL CONTAMINATION THEOREM
     # ─────────────────────────────────────────────────────────────
     print("  " + "─" * 60)
-    print("  §6b NON-SPHERICAL CONTAMINATION THEOREM")
+    print("  Section 6b NON-SPHERICAL CONTAMINATION THEOREM")
     print("  " + "─" * 60)
 
     print("""
@@ -666,10 +666,10 @@ def main():
     """)
 
     # ─────────────────────────────────────────────────────────────
-    # §7: UNIQUENESS CHECK
+    # Section 7: UNIQUENESS CHECK
     # ─────────────────────────────────────────────────────────────
     print("  " + "─" * 60)
-    print("  §7  UNIQUENESS: a₄(Q^n) = N_c g² ONLY AT n = 5")
+    print("  Section 7  UNIQUENESS: a₄(Q^n) = N_c g² ONLY AT n = 5")
     print("  " + "─" * 60)
 
     print(f"\n    {'n':>4}  {'N_c':>4}  {'g':>4}  {'N_c g²':>8}  {'a₄':>12}  {'ratio':>8}  {'|1-r|':>8}")
@@ -685,10 +685,10 @@ def main():
         print(f"    {n:4d}  {Nc:4d}  {g:4d}  {Ncg2:8d}  {a4:12.4f}  {ratio:8.4f}  {near:8.4f}{marker}")
 
     # ─────────────────────────────────────────────────────────────
-    # §8: SUMMARY
+    # Section 8: SUMMARY
     # ─────────────────────────────────────────────────────────────
     print("\n  " + "═" * 60)
-    print("  §8  SUMMARY")
+    print("  Section 8  SUMMARY")
     print("  " + "═" * 60)
 
     checks = []

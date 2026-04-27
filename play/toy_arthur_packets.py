@@ -30,9 +30,9 @@ c4 = 9
 c5 = 3
 
 # ─────────────────────────────────────────────────────
-# §1. A-PARAMETERS FOR SO_0(5,2)
+# Section 1. A-PARAMETERS FOR SO_0(5,2)
 # ─────────────────────────────────────────────────────
-print("\n§1. A-PARAMETERS FOR SO₀(5,2)")
+print("\nSection 1. A-PARAMETERS FOR SO₀(5,2)")
 print("-" * 50)
 
 # An A-parameter for SO_0(5,2) is a homomorphism:
@@ -100,9 +100,9 @@ for p in parts:
     print(f"    {name:>20}  ({nparts} parts)  {phys}")
 
 # ─────────────────────────────────────────────────────
-# §2. THE TEMPERED A-PARAMETER
+# Section 2. THE TEMPERED A-PARAMETER
 # ─────────────────────────────────────────────────────
-print("\n§2. THE TEMPERED A-PARAMETER: [1,1,1,1,1,1]")
+print("\nSection 2. THE TEMPERED A-PARAMETER: [1,1,1,1,1,1]")
 print("-" * 50)
 
 # The tempered A-parameter has trivial SL(2) component:
@@ -135,9 +135,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §3. THE MOST NON-TEMPERED: [6]
+# Section 3. THE MOST NON-TEMPERED: [6]
 # ─────────────────────────────────────────────────────
-print("§3. THE MOST NON-TEMPERED A-PARAMETER: [6]")
+print("Section 3. THE MOST NON-TEMPERED A-PARAMETER: [6]")
 print("-" * 50)
 
 # The A-parameter [6] uses a single SL(2,C) representation of dim 6.
@@ -175,9 +175,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §4. THE COLOR-ANTICOLOR: [3,3]
+# Section 4. THE COLOR-ANTICOLOR: [3,3]
 # ─────────────────────────────────────────────────────
-print("§4. THE COLOR-ANTICOLOR A-PARAMETER: [3,3]")
+print("Section 4. THE COLOR-ANTICOLOR A-PARAMETER: [3,3]")
 print("-" * 50)
 
 # ψ: 6 = S₃ ⊕ S₃ (two copies of the 3-dim SL(2) rep)
@@ -222,9 +222,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §5. THE PHYSICAL PARTITION: [3,2,1]
+# Section 5. THE PHYSICAL PARTITION: [3,2,1]
 # ─────────────────────────────────────────────────────
-print("§5. THE PHYSICAL PARTITION: [3,2,1]")
+print("Section 5. THE PHYSICAL PARTITION: [3,2,1]")
 print("-" * 50)
 
 # ψ: 6 = S₃ ⊕ S₂ ⊕ S₁
@@ -272,9 +272,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §6. ALL A-PARAMETERS AND THEIR PHYSICS
+# Section 6. ALL A-PARAMETERS AND THEIR PHYSICS
 # ─────────────────────────────────────────────────────
-print("§6. COMPLETE A-PARAMETER DICTIONARY")
+print("Section 6. COMPLETE A-PARAMETER DICTIONARY")
 print("-" * 50)
 
 # For each partition of 6, determine:
@@ -310,9 +310,9 @@ print(f"  = {total_packets} (this counts packet SIZES, not types)")
 print(f"  Number of A-parameter types: {len(a_params)} = c₂ = {c2}")
 
 # ─────────────────────────────────────────────────────
-# §7. THE STUNNING OBSERVATION
+# Section 7. THE STUNNING OBSERVATION
 # ─────────────────────────────────────────────────────
-print("\n§7. THE STUNNING OBSERVATION")
+print("\nSection 7. THE STUNNING OBSERVATION")
 print("-" * 50)
 
 n_partitions = len(parts)
@@ -344,9 +344,9 @@ for val, name in bst_vals:
     print(f"    p({val:>2}) = {p_val:>4}{bst_match}")
 
 # ─────────────────────────────────────────────────────
-# §8. THE [2,2,2] PARAMETER AND FAMILIES
+# Section 8. THE [2,2,2] PARAMETER AND FAMILIES
 # ─────────────────────────────────────────────────────
-print("\n§8. THE [2,2,2] PARAMETER: THREE FAMILIES")
+print("\nSection 8. THE [2,2,2] PARAMETER: THREE FAMILIES")
 print("-" * 50)
 
 # ψ: 6 = S₂ ⊕ S₂ ⊕ S₂ (three copies of the 2-dim SL(2) rep)
@@ -411,9 +411,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §9. THE [4,2] PARAMETER AND ELECTROWEAK
+# Section 9. THE [4,2] PARAMETER AND ELECTROWEAK
 # ─────────────────────────────────────────────────────
-print("§9. THE [4,2] PARAMETER: ELECTROWEAK")
+print("Section 9. THE [4,2] PARAMETER: ELECTROWEAK")
 print("-" * 50)
 
 print(f"""
@@ -444,9 +444,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §10. THE LATTICE OF A-PARAMETERS
+# Section 10. THE LATTICE OF A-PARAMETERS
 # ─────────────────────────────────────────────────────
-print("§10. THE LATTICE OF A-PARAMETERS")
+print("Section 10. THE LATTICE OF A-PARAMETERS")
 print("-" * 50)
 
 # The partitions of 6 form a lattice under refinement:
@@ -485,9 +485,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §11. THE COMPONENT GROUP AND PARTICLE COUNT
+# Section 11. THE COMPONENT GROUP AND PARTICLE COUNT
 # ─────────────────────────────────────────────────────
-print("§11. COMPONENT GROUPS AND MULTIPLICITIES")
+print("Section 11. COMPONENT GROUPS AND MULTIPLICITIES")
 print("-" * 50)
 
 # For each A-parameter ψ, the A-packet Π(ψ) has |A(ψ)^| members.
@@ -526,9 +526,9 @@ for part, size in a_groups.items():
 print(f"\n  Total representations: {total}")
 
 # ─────────────────────────────────────────────────────
-# §12. THE SEESAW DUAL PAIR
+# Section 12. THE SEESAW DUAL PAIR
 # ─────────────────────────────────────────────────────
-print("\n§12. THE SEESAW DUAL PAIR")
+print("\nSection 12. THE SEESAW DUAL PAIR")
 print("-" * 50)
 
 # The seesaw identity for dual pairs:
@@ -570,9 +570,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §13. SYNTHESIS
+# Section 13. SYNTHESIS
 # ─────────────────────────────────────────────────────
-print("§13. SYNTHESIS")
+print("Section 13. SYNTHESIS")
 print("-" * 50)
 
 print(f"""

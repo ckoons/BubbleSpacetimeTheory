@@ -14,7 +14,7 @@ consensus_plan: "D9 — Discreteness Theorem"
 
 ---
 
-## §1. The Theorem
+## Section 1. The Theorem
 
 **Theorem T719 (Observable Algebra — Observable Closure).** Every physical observable derived from BST is an element of the algebra:
 
@@ -67,7 +67,7 @@ No BST observable involves:
 
 ---
 
-## §2. The Natural-Unit Table
+## Section 2. The Natural-Unit Table
 
 Every BST observable becomes rational (or rational × $\pi^k$) when expressed in the natural unit that reveals its geometric origin. The natural unit IS the one that makes the observable rational.
 
@@ -130,7 +130,7 @@ The geometric derivation ($\Lambda N = 9/5$) bypasses the RG route entirely, ren
 
 ---
 
-## §3. Why Only π?
+## Section 3. Why Only π?
 
 ### 3.1 Geometric Origin
 
@@ -154,7 +154,7 @@ The Euler-Mascheroni constant $\gamma$ appears in logarithmic divergences of Fey
 
 ---
 
-## §4. The Derivation Filter
+## Section 4. The Derivation Filter
 
 The Observable Closure is not just a classification — it is a **standing constraint on all future BST work**.
 
@@ -191,7 +191,7 @@ The Variety-Branch Principle (T727) states that observations branch linearly fro
 
 ---
 
-## §5. Implications
+## Section 5. Implications
 
 ### 5.1 For Computability
 
@@ -212,7 +212,7 @@ Every paper should present observables in natural-unit rational form first, SI c
 
 ---
 
-## §6. Predictions
+## Section 6. Predictions
 
 1. **No BST prediction** will ever require $\gamma$, $\zeta(3)$, $\log 2$, or $e$.
 2. **Any depth-1 correction** (branch residuals from T727) will involve at most one additional algebraic irrational, not a new transcendental.

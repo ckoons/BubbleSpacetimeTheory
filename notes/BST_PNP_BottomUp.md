@@ -30,10 +30,10 @@ The proof climbs four levels:
 | 2 | AC⁰-Frege (no extensions) | **PROVED** | Ajtai (1988) + Haken / our T12 |
 | 2b | Bounded-depth EF ($d=O(1)$) | **PROVED** | T67d: Broom Lemma + BSW |
 | 2c | NC¹-Frege ($d=O(\log n)$) | **PROVED** | T67d: width $n^{1-\epsilon}$ |
-| 3 | Extended Frege (arbitrary depth) | **PROVED** (T68) | Block counting + DPI + irreversibility (§14) |
+| 3 | Extended Frege (arbitrary depth) | **PROVED** (T68) | Block counting + DPI + irreversibility (Section 14) |
 | 4 | P | **PROVED** (T68 + Cook) | Cook reduction (EF ⊇ P) |
 
-The kill chain: CDC → P ≠ NP. **All levels PROVED.** T66 proved via 1RSB structural argument (MPZ 2002 + Ding-Sly-Sun 2015). T68 (Refutation Bandwidth, §14) + T69 (Simultaneity, §15) give a depth-independent block counting argument using irreversibility of proof commitments. BSW adversary extends to EF (extension axioms always satisfiable).
+The kill chain: CDC → P ≠ NP. **All levels PROVED.** T66 proved via 1RSB structural argument (MPZ 2002 + Ding-Sly-Sun 2015). T68 (Refutation Bandwidth, Section 14) + T69 (Simultaneity, Section 15) give a depth-independent block counting argument using irreversibility of proof commitments. BSW adversary extends to EF (extension axioms always satisfiable).
 
 ---
 
@@ -155,13 +155,13 @@ Each extension $z \leftrightarrow A(x, y)$ can be decomposed into binary gates, 
 
 The first approach to proving the Extended Frege lower bound is topological: the constraint graph has loops (cycles in homology), and abbreviations cannot fill those loops. This section develops that geometric argument.
 
-**TCC (BST_AC_Theorems.md §43).** For random 3-SAT at $\alpha_c$ with VIG $G$ having $\beta_1(G) = \Theta(n)$ independent 1-cycles, poly-many extension variables cannot create 2-chains in the augmented clique complex whose boundary detects the linking of the original $H_1$ cycles.
+**TCC (BST_AC_Theorems.md Section 43).** For random 3-SAT at $\alpha_c$ with VIG $G$ having $\beta_1(G) = \Theta(n)$ independent 1-cycles, poly-many extension variables cannot create 2-chains in the augmented clique complex whose boundary detects the linking of the original $H_1$ cycles.
 
 **The TCC has two parts:**
 
 **(a)** $\beta_1(G^+) \geq \beta_1(G)$ — extensions preserve the first Betti number. **PROVED** (T28).
 
-**(b)** No poly-size sequence of degree-2 extensions creates a 2-chain in $\Delta(G^+)$ whose boundary is homologous to a non-trivial element of $H_1(\Delta(G))$. **See §4.3 below.**
+**(b)** No poly-size sequence of degree-2 extensions creates a 2-chain in $\Delta(G^+)$ whose boundary is homologous to a non-trivial element of $H_1(\Delta(G))$. **See Section 4.3 below.**
 
 ### 4.3 TCC Part (b): Proof for Degree-2 Extensions
 
@@ -285,7 +285,7 @@ No separate random-to-worst-case reduction is needed. The Impagliazzo five-world
 
 A proof of P ≠ NP is only as strong as its weakest link. Here is the complete chain from first principles to the final conclusion, with the status of every link displayed transparently. Think of it as a supply chain for certainty: if any link breaks, the result does not hold; if every link holds, the result is proved.
 
-$$\text{Resolution CDC (§2)} \;\xrightarrow{\text{T23a}}\; \text{Dim-1 CDC} \;\xrightarrow{\text{Thm 1 + T28}}\; \text{TCC} \;\xrightarrow{\text{Thm 2}}\; \text{EF linear} \;\xrightarrow{\text{Thm 3}}\; \text{Forbidden band} \;\xrightarrow{\text{T47}}\; \text{Three-layer} \;\xrightarrow{\text{Gallager}}\; \text{EF exponential} \;\xrightarrow{\text{Cook}}\; P \neq NP$$
+$$\text{Resolution CDC (Section 2)} \;\xrightarrow{\text{T23a}}\; \text{Dim-1 CDC} \;\xrightarrow{\text{Thm 1 + T28}}\; \text{TCC} \;\xrightarrow{\text{Thm 2}}\; \text{EF linear} \;\xrightarrow{\text{Thm 3}}\; \text{Forbidden band} \;\xrightarrow{\text{T47}}\; \text{Three-layer} \;\xrightarrow{\text{Gallager}}\; \text{EF exponential} \;\xrightarrow{\text{Cook}}\; P \neq NP$$
 
 | Link | Status | What it says |
 |------|--------|-------------|
@@ -297,10 +297,10 @@ $$\text{Resolution CDC (§2)} \;\xrightarrow{\text{T23a}}\; \text{Dim-1 CDC} \;\
 | Theorem 3 (Forbidden band) | **PROVED** (new) | OGP transport: H₁ hypercube has forbidden band via Lipschitz map $\Phi$ |
 | T47 (Entanglement depth) | **PROVED** for $d < n/\log n$ | Switching lemma + BSW: exponential for bounded-depth EF |
 | Gallager (LDPC distance) | **PROVED** (T48, T66) | $d_{\min}/n \approx 0.59$ (Toy 315), width preserved (Toy 316: 0/106) |
-| $d_{\min} \to$ width under extensions | **PROVED** (T68) | Block counting + DPI + irreversibility (§14) |
+| $d_{\min} \to$ width under extensions | **PROVED** (T68) | Block counting + DPI + irreversibility (Section 14) |
 | Cook (EF $\supseteq$ P) | **PROVED** | Standard (1975) |
 
-**What's proved:** The surface layer (H₁, Theorems 1-3) gives $S_{\text{EF}} \geq \Omega(n)$ unconditionally. The depth layer (T47 substitution hierarchy) gives $S_{\text{EF}} \geq 2^{\Omega(n)}$ for all EF proofs with extension depth $< \Theta(n/\log n)$. The substrate layer (Gallager LDPC bridge, Toy 315) confirms $d_{\min} = \Theta(n)$ and empirically confirms width preservation (Toy 316: zero backbone variables changed refutation depth under extensions). **What remains:** One formal step — proving that LDPC minimum distance implies resolution width preservation under extensions. See §11.3.
+**What's proved:** The surface layer (H₁, Theorems 1-3) gives $S_{\text{EF}} \geq \Omega(n)$ unconditionally. The depth layer (T47 substitution hierarchy) gives $S_{\text{EF}} \geq 2^{\Omega(n)}$ for all EF proofs with extension depth $< \Theta(n/\log n)$. The substrate layer (Gallager LDPC bridge, Toy 315) confirms $d_{\min} = \Theta(n)$ and empirically confirms width preservation (Toy 316: zero backbone variables changed refutation depth under extensions). **What remains:** One formal step — proving that LDPC minimum distance implies resolution width preservation under extensions. See Section 11.3.
 
 ---
 
@@ -336,13 +336,13 @@ Independent of the gap at Level 3, the following are unconditional:
 
 3. **Homological injection theorem** (Theorem 1): degree-2 extensions preserve $H_1$ of the clique complex. Extensions are topologically inert.
 
-4. **Fan-out problem identified** (§9.3): BSW's bipartite expansion can be destroyed by deep circuits with high fan-out. This is the precise obstacle to the exponential bound.
+4. **Fan-out problem identified** (Section 9.3): BSW's bipartite expansion can be destroyed by deep circuits with high fan-out. This is the precise obstacle to the exponential bound.
 
-5. **Forbidden band in H₁ space** (Theorem 3, §11.5): The resolution map $\Phi$ transports Gamarnik's solution-space OGP to a forbidden band in the proof state space. Every EF proof path must cross this band, where no backbone-consistent H₁ state exists.
+5. **Forbidden band in H₁ space** (Theorem 3, Section 11.5): The resolution map $\Phi$ transports Gamarnik's solution-space OGP to a forbidden band in the proof state space. Every EF proof path must cross this band, where no backbone-consistent H₁ state exists.
 
-6. **Substitution hierarchy** (T47, §11.3): EF size $\geq 2^{c_2 n - O(d \log n)}$ where $d$ = extension circuit depth. Exponential for all $d < \Theta(n/\log n)$. Covers AC⁰ through NC¹ and beyond.
+6. **Substitution hierarchy** (T47, Section 11.3): EF size $\geq 2^{c_2 n - O(d \log n)}$ where $d$ = extension circuit depth. Exponential for all $d < \Theta(n/\log n)$. Covers AC⁰ through NC¹ and beyond.
 
-7. **Gallager LDPC bridge** (Toy 315, §11.3): The backbone-cycle encoding matrix $H$ is a random LDPC code with $O(1)$ row weight and $O(1)$ column weight. Minimum distance $d_{\min}/n \approx 0.59$, confirmed linear scaling (exponent 1.03). Width preserved under extensions: 0/106 backbone variables changed refutation depth (Toy 316).
+7. **Gallager LDPC bridge** (Toy 315, Section 11.3): The backbone-cycle encoding matrix $H$ is a random LDPC code with $O(1)$ row weight and $O(1)$ column weight. Minimum distance $d_{\min}/n \approx 0.59$, confirmed linear scaling (exponent 1.03). Width preserved under extensions: 0/106 backbone variables changed refutation depth (Toy 316).
 
 8. **CDC for four algorithm classes:** resolution, stable/Lipschitz (OGP, Gamarnik 2021), local/message-passing (Kesten-Stigum + condensation), bounded-depth (Ajtai 1988).
 
@@ -352,11 +352,11 @@ Independent of the gap at Level 3, the following are unconditional:
 
 ## 9. The Remaining Work
 
-Every honest paper identifies what is not yet proved. This section does exactly that — and in doing so, it reveals where the topological approach led to the information-theoretic breakthrough of §14 (T68), which ultimately closed the gap through a completely different argument.
+Every honest paper identifies what is not yet proved. This section does exactly that — and in doing so, it reveals where the topological approach led to the information-theoretic breakthrough of Section 14 (T68), which ultimately closed the gap through a completely different argument.
 
 ### 9.1 The precise gap
 
-The gap is at §4.4: original-original edges from extension clause encodings. Specifically:
+The gap is at Section 4.4: original-original edges from extension clause encodings. Specifically:
 
 When $z \leftrightarrow (x \wedge y)$ is encoded as $(\neg x \vee \neg y \vee z) \wedge (x \vee \neg z) \wedge (y \vee \neg z)$, the clause $(\neg x \vee \neg y \vee z)$ adds the edge $\{x, y\}$ to the VIG. With $S$ extensions, $S$ new edges are added. Each can kill at most one independent cycle. The linear bound $S \geq \beta_1 = \Theta(n)$ follows immediately.
 
@@ -456,7 +456,7 @@ For gates computing **conjunctions** of $k$ backbone-sensitive variables: $z = 1
 
 **Status:** The per-bit information argument gives the linear bound (each extension carries $\leq 1$ bit, $\Theta(n)$ bits needed). For the exponential bound, need to show each extension carries $2^{-\Omega(n)}$ bits — requires controlling correlations in deep circuits. Open.
 
-**Approach C: Shannon channel capacity + Topological OGP.** (Primary approach. See §11 for formal statement.)
+**Approach C: Shannon channel capacity + Topological OGP.** (Primary approach. See Section 11 for formal statement.)
 
 The key reframing (Casey Koons): **a prover is a searcher, not a decoder.**
 
@@ -474,13 +474,13 @@ A proof system is a SEARCHER. The formula $\varphi$ arrives, the proof must deri
 
 3. $\text{Aut}(\varphi) = \{e\}$ — trivial automorphism group for random 3-SAT at $\alpha_c$ w.h.p. No symmetry-based compression of the derivation tree. **[known: Babai-Beals-Seress]**
 
-4. **Three-layer architecture (§11.3):** The H₁ surface gives the linear bound. The exponential comes from backbone entanglement depth — the LDPC minimum distance $d_{\min} = \Theta(n)$ forces resolution width $\Theta(n)$, which BSW converts to $2^{\Omega(n)}$. **[ONE STEP REMAINING: $d_{\min} \to$ width under extensions]**
+4. **Three-layer architecture (Section 11.3):** The H₁ surface gives the linear bound. The exponential comes from backbone entanglement depth — the LDPC minimum distance $d_{\min} = \Theta(n)$ forces resolution width $\Theta(n)$, which BSW converts to $2^{\Omega(n)}$. **[ONE STEP REMAINING: $d_{\min} \to$ width under extensions]**
 
 5. Width → size → P $\neq$ NP via BSW + Cook. **[known theorems]**
 
 **Key insight (Casey):** The channels give the LINEAR bound (each carries 1 bit, $\Theta(n)$ bits total). The EXPONENTIAL comes from the CORRELATIONS between channels — the backbone entanglement depth. Shannon measures information capacity (linear); the search cost is determined by the entanglement structure (exponential).
 
-**Status:** One formal step remains (§11.3). Empirically confirmed with zero exceptions (Toy 316).
+**Status:** One formal step remains (Section 11.3). Empirically confirmed with zero exceptions (Toy 316).
 
 ### 9.6 Honest assessment
 
@@ -489,7 +489,7 @@ The bottom-up proof is:
 1. **Resolution:** PROVED unconditionally. (BSW + AC(0) chain rule.)
 2. **AC⁰-Frege:** PROVED unconditionally. (Ajtai 1988 / topological width.)
 3. **NC¹-Frege:** PROVABLE via substitution — NC¹ circuits have depth $O(\log n)$, so substituting extension variables by their definitions increases resolution width by at most $O(\log n)$. BSW's $\Omega(n)$ width lower bound still dominates. Any NC¹-Frege refutation of size $S$ converts to a resolution refutation of width $\leq w + O(\log n) = \Omega(n)$, giving $S \geq 2^{\Omega(n)}$. Needs formal writeup.
-4. **EF (general P):** OPEN. The fan-out problem (§9.3) prevents direct BSW application. The exponential bound is equivalent to P $\neq$ NP via Cook. Our contribution: the first unconditional linear lower bound (Theorem 2) and the topological framework.
+4. **EF (general P):** OPEN. The fan-out problem (Section 9.3) prevents direct BSW application. The exponential bound is equivalent to P $\neq$ NP via Cook. Our contribution: the first unconditional linear lower bound (Theorem 2) and the topological framework.
 
 **What we've achieved:**
 - Identified the PRECISE obstacle (fan-out creates low-expansion sets in the bipartite graph).
@@ -509,20 +509,20 @@ Here is the complete ledger — every component of the proof, with its status, i
 
 | Component | Status | Reference |
 |-----------|--------|-----------|
-| Resolution CDC | **PROVED** | BSW + AC(0), §2 |
-| AC⁰-Frege lower bound | **PROVED** | Ajtai (1988), §3 |
-| T28 ($\beta_1$ preservation) | **PROVED** | BST_AC_Theorems §43 |
-| Theorem 1 ($H_1$ injection) | **PROVED** (new) | §4.3, algebraic topology |
-| Theorem 2 (EF linear lower bound) | **PROVED** (new) | §9.4, topological counting + information capacity |
-| Expansion monotonicity (graphs) | **PROVED** | §9.2 |
-| Fan-out problem identified | **IDENTIFIED** | §9.3, the precise obstacle |
-| Theorem 3 (Forbidden band) | **PROVED** (new) | §11.5, OGP transport via Lipschitz map $\Phi$ |
-| Monotonicity of proof paths | **PROVED** (new) | §11.3, self-correction — kills backtracking model |
-| T47 (Substitution hierarchy) | **PROVED** for $d < n/\log n$ | §11.3, switching lemma + BSW |
-| Gallager LDPC bridge | **EMPIRICALLY CONFIRMED** | §11.3, Toy 315 ($d_{\min}/n = 0.59$) + Toy 316 (0/106) |
-| $d_{\min} \to$ width under extensions | **TO PROVE** | §11.3, the one remaining formal step |
+| Resolution CDC | **PROVED** | BSW + AC(0), Section 2 |
+| AC⁰-Frege lower bound | **PROVED** | Ajtai (1988), Section 3 |
+| T28 ($\beta_1$ preservation) | **PROVED** | BST_AC_Theorems Section 43 |
+| Theorem 1 ($H_1$ injection) | **PROVED** (new) | Section 4.3, algebraic topology |
+| Theorem 2 (EF linear lower bound) | **PROVED** (new) | Section 9.4, topological counting + information capacity |
+| Expansion monotonicity (graphs) | **PROVED** | Section 9.2 |
+| Fan-out problem identified | **IDENTIFIED** | Section 9.3, the precise obstacle |
+| Theorem 3 (Forbidden band) | **PROVED** (new) | Section 11.5, OGP transport via Lipschitz map $\Phi$ |
+| Monotonicity of proof paths | **PROVED** (new) | Section 11.3, self-correction — kills backtracking model |
+| T47 (Substitution hierarchy) | **PROVED** for $d < n/\log n$ | Section 11.3, switching lemma + BSW |
+| Gallager LDPC bridge | **EMPIRICALLY CONFIRMED** | Section 11.3, Toy 315 ($d_{\min}/n = 0.59$) + Toy 316 (0/106) |
+| $d_{\min} \to$ width under extensions | **TO PROVE** | Section 11.3, the one remaining formal step |
 | Cook's theorem | **PROVED** | Cook (1975) |
-| Barrier avoidance | **PROVED** | §7 |
+| Barrier avoidance | **PROVED** | Section 7 |
 
 **What is unconditionally proved:**
 
@@ -534,7 +534,7 @@ Here is the complete ledger — every component of the proof, with its status, i
 6. Gallager LDPC bridge: $\checkmark$ $d_{\min} = \Theta(n)$ (Toy 315), width preserved (Toy 316)
 7. Barrier avoidance: $\checkmark$ (relativization, natural proofs, algebrization)
 
-**The three-layer architecture (§11.3):**
+**The three-layer architecture (Section 11.3):**
 
 | Layer | What | Cost | Status |
 |-------|------|------|--------|
@@ -677,7 +677,7 @@ The formal connection between LDPC minimum distance and resolution width under e
 
 **E5'. LDPC minimum distance (Toy 315).** $d_{\min}/n \approx 0.59$ with linear scaling confirmed (exponent 1.03). The backbone-cycle encoding is a high-quality random LDPC code with expansion.
 
-**E6. Barrier avoidance (proved, §7).** The Topological OGP avoids all three barriers:
+**E6. Barrier avoidance (proved, Section 7).** The Topological OGP avoids all three barriers:
 - **Relativization:** the H₁ hypercube is formula-specific (fixed graph, fixed topology), not oracle-dependent.
 - **Natural proofs:** the property is of the formula description ($O(n \log n)$ bits), not the truth table ($2^n$ bits).
 - **Algebrization:** $H_1(\Delta(G); \mathbb{F}_2)$ is combinatorial over $\mathbb{F}_2$, not algebraically sensitive.
@@ -754,13 +754,13 @@ satisfies: $\Phi(\mathbf{b}) \notin \mathcal{F}$ for any backbone configuration 
 
 2. **In the forbidden band, the proof has no backbone guidance.** Outside $\mathcal{F}$, the proof's implicit backbone commitment is either "fully correct" (near $\mathbf{b}^*$) or "fully wrong" (near some $\mathbf{b}^a$). Inside $\mathcal{F}$, the commitment is **partial and inconsistent** — a "chimeric" backbone that doesn't exist in any solution cluster.
 
-3. **The forbidden band gives a LINEAR lower bound.** Since the proof path is **monotone** (§11.3: clauses never retract, $|\sigma(t)|_1$ is non-increasing), and the band has width $\Omega(\beta_1)$, the proof must spend $\geq \Omega(\beta_1)$ steps crossing it. This recovers Theorem 2 by a different route.
+3. **The forbidden band gives a LINEAR lower bound.** Since the proof path is **monotone** (Section 11.3: clauses never retract, $|\sigma(t)|_1$ is non-increasing), and the band has width $\Omega(\beta_1)$, the proof must spend $\geq \Omega(\beta_1)$ steps crossing it. This recovers Theorem 2 by a different route.
 
 **What the transport does NOT prove:** The exponential. Monotonicity means the proof crosses the band in $O(\beta_1)$ monotone steps — there is no backtracking. The H₁ surface is the wrong layer for the exponential.
 
 **Where the exponential lives (depth layer):**
 
-The exponential comes from the **backbone entanglement depth** $\tilde{D}$ (§11.3, T47), not from the H₁ surface traversal. The forbidden band tells us the proof must commit to chimeric backbone states inside $\mathcal{F}$ — states that are locally consistent but globally inconsistent. The LDPC minimum distance $d_{\min} = \Theta(n)$ (Gallager bridge, Toy 315) tells us that resolving any non-trivial backbone pattern requires touching $\Theta(n)$ bits simultaneously. The resolution width must be $\geq \Theta(n)$, giving size $\geq 2^{\Omega(n)}$ via BSW.
+The exponential comes from the **backbone entanglement depth** $\tilde{D}$ (Section 11.3, T47), not from the H₁ surface traversal. The forbidden band tells us the proof must commit to chimeric backbone states inside $\mathcal{F}$ — states that are locally consistent but globally inconsistent. The LDPC minimum distance $d_{\min} = \Theta(n)$ (Gallager bridge, Toy 315) tells us that resolving any non-trivial backbone pattern requires touching $\Theta(n)$ bits simultaneously. The resolution width must be $\geq \Theta(n)$, giving size $\geq 2^{\Omega(n)}$ via BSW.
 
 The remaining question is whether extensions can reduce the effective width. Empirically: **no** (Toy 316, 0/106 backbone variables changed). Formally: proved for extension depth $< \Theta(n/\log n)$ (T47(b)). Open for all depths — this is the one remaining step.
 
@@ -773,7 +773,7 @@ $$\boxed{d_{\min} = \Theta(n) \;\xrightarrow{\text{TO PROVE}}\; \text{width} \ge
 | Component | Layer | Status |
 |-----------|-------|--------|
 | $\beta_1 = \Theta(n)$ independent cycles | Surface | **PROVED** (Toy 282) |
-| Monotonicity of proof paths | Surface | **PROVED** (§11.3, self-correction) |
+| Monotonicity of proof paths | Surface | **PROVED** (Section 11.3, self-correction) |
 | $S \geq \Theta(n)$ (EF linear, Theorem 2) | Surface | **PROVED** |
 | Forbidden band (Theorem 3) | Surface | **PROVED** (OGP transport) |
 | LDPC structure of backbone-cycle encoding | Substrate | **PROVED** (Toy 315) |
@@ -816,9 +816,9 @@ This is the substrate — the deepest layer of the three-layer architecture. It 
 
 | Property | Full bipartite graph (BSW) | Tanner graph $T(H)$ (T49) |
 |----------|---------------------------|---------------------------|
-| Extension-invariant? | **NO** — fan-out problem (§9.3) | **YES** — extensions don't change $B$ or cycles |
+| Extension-invariant? | **NO** — fan-out problem (Section 9.3) | **YES** — extensions don't change $B$ or cycles |
 | Gives resolution width? | Yes | Yes |
-| Gives EF width? | No (destroyed by extensions) | **Partially** — see §12.2 |
+| Gives EF width? | No (destroyed by extensions) | **Partially** — see Section 12.2 |
 
 ### 12.2 The Extension Invariance Principle
 
@@ -959,7 +959,7 @@ The linear bound comes from CAPACITY (column 4). The exponential bound comes fro
 2. **Depth 2 creates a small O(1) crack** (~3-5% of backbone variables decrease in proof depth).
 3. **Depth 3-5 add NOTHING beyond depth 2** — the decrease saturates immediately.
 
-**Implication for the substitution bound.** The theoretical bound §12.4 predicts $w \geq cn - d$ — width eroding linearly with extension depth. Toy 319 shows the real behavior is dramatically stronger:
+**Implication for the substitution bound.** The theoretical bound Section 12.4 predicts $w \geq cn - d$ — width eroding linearly with extension depth. Toy 319 shows the real behavior is dramatically stronger:
 
 $$w \geq cn - O(1) \quad \text{(empirical, all tested depths)}$$
 
@@ -967,7 +967,7 @@ Width drops by a bounded constant at depth 2 and then STOPS. Each additional ext
 
 **Why saturation occurs: the Tanner graph argument.**
 
-The Extension Invariance Principle (§12.2) explains why:
+The Extension Invariance Principle (Section 12.2) explains why:
 
 1. Extensions add auxiliary variables $z_i$ but do not modify the Tanner graph $T(H)$.
 2. The Tanner graph's expansion is a property of the backbone-cycle structure, unchanged by extensions.
@@ -981,13 +981,13 @@ For random 3-SAT at $\alpha_c$ with backbone-cycle encoding $H$: any proof syste
 
 **Formal route to proving saturation.** The argument has three parts:
 
-(a) **Tanner-controlled reach.** Show that $\text{reach}(C)$ (Definition, §12.3) is contained in the Tanner neighborhood $N^{(r)}(S)$ of the direct backbone support $S = \text{Var}(C) \cap B$, for some bounded radius $r$. Since each extension at depth $d$ can reach at most $2^d$ original variables, and these variables are constrained to lie in $T(H)$'s neighborhoods, the reach grows only within the fixed graph $T(H)$.
+(a) **Tanner-controlled reach.** Show that $\text{reach}(C)$ (Definition, Section 12.3) is contained in the Tanner neighborhood $N^{(r)}(S)$ of the direct backbone support $S = \text{Var}(C) \cap B$, for some bounded radius $r$. Since each extension at depth $d$ can reach at most $2^d$ original variables, and these variables are constrained to lie in $T(H)$'s neighborhoods, the reach grows only within the fixed graph $T(H)$.
 
 (b) **Expansion absorbs reach growth.** Even if $\text{reach}(C) \supsetneq \text{Var}(C) \cap B$, the adversary's unique-neighbor argument applies to reach, not support. The Tanner expansion provides unique neighbors proportional to the reach set size. The adversary needs: for each reached backbone variable, at least one cycle where it's the ONLY reached variable. The expansion of $T(H)$ guarantees this as long as $|\text{Reach}(\mathcal{F})| < \alpha n$.
 
 (c) **Independence of depth.** By (a), reach is bounded by Tanner neighborhoods. By (b), the adversary handles any reach $< \alpha n$. The depth of extensions determines how many backbone variables each extension wire reaches, but the TOTAL reach is still controlled by the invariant Tanner graph. Adding depth doesn't help because the graph doesn't change.
 
-**Connection to §12.5 (the compression problem).** The theoretical concern was that extensions of depth $d$ could compress $d$ backbone bits into 1 wire, reducing width from $n$ to $n/d$. Toy 319 shows this compression does NOT cascade: depth-2 extensions create a small crack, but deeper extensions cannot amplify it. The reason: the Tanner graph expansion acts as a **decompression barrier**. To extract information about $k$ backbone variables, you must traverse $\geq (1+\delta)k$ check nodes, regardless of how the variables are encoded. The encoding (extension) compresses; the decoding (proof derivation) must decompress through $T(H)$.
+**Connection to Section 12.5 (the compression problem).** The theoretical concern was that extensions of depth $d$ could compress $d$ backbone bits into 1 wire, reducing width from $n$ to $n/d$. Toy 319 shows this compression does NOT cascade: depth-2 extensions create a small crack, but deeper extensions cannot amplify it. The reason: the Tanner graph expansion acts as a **decompression barrier**. To extract information about $k$ backbone variables, you must traverse $\geq (1+\delta)k$ check nodes, regardless of how the variables are encoded. The encoding (extension) compresses; the decoding (proof derivation) must decompress through $T(H)$.
 
 **Updated status with Toy 319:**
 
@@ -1006,7 +1006,7 @@ For random 3-SAT at $\alpha_c$ with backbone-cycle encoding $H$: any proof syste
 
 The "broom" picture makes the width argument intuitive. Think of each clause in the proof as a broom sweeping across the formula. Each broom has a handle (the clause's direct variables) and bristles (the backbone variables those variables depend on through extension definitions). The bristle-tips are the backbone variables the broom can reach. Elie formalized this picture and showed that the bristles cannot extend beyond a bounded neighborhood of the handle in the variable interaction graph — no matter how deep the extensions go.
 
-**The key observation.** The adversary argument in T49 (§12.1) already works for REACH, not just direct support. The Frontier Reach Lemma (§12.3) proves: some step must have $|\text{Reach}(\mathcal{F})| \geq \alpha n$. Crucially, the Tanner expansion applies to ANY subset $R \subseteq B$ with $|R| < \alpha n$, regardless of how $R$ was constructed. The adversary's success depends only on $|R|$ and the expansion of $T(H)$ — not on extension depth.
+**The key observation.** The adversary argument in T49 (Section 12.1) already works for REACH, not just direct support. The Frontier Reach Lemma (Section 12.3) proves: some step must have $|\text{Reach}(\mathcal{F})| \geq \alpha n$. Crucially, the Tanner expansion applies to ANY subset $R \subseteq B$ with $|R| < \alpha n$, regardless of how $R$ was constructed. The adversary's success depends only on $|R|$ and the expansion of $T(H)$ — not on extension depth.
 
 This means the adversary step is ALREADY depth-independent. The only depth-dependent step is the WIDTH-REACH connection: how many frontier variables are needed to collectively reach $\alpha n$ backbone variables?
 
@@ -1036,7 +1036,7 @@ For $d = O(\log n)$ (NC¹-Frege): $\Delta^d = n^{O(1)}$. Width $w \geq \alpha n 
 
 **Step (b): Neighborhood expansion in expanders (textbook).**
 
-**Vertex Expansion Composition Lemma** (Hoory-Linial-Wigderson, *Bull. AMS* 2006, §2.4). If $T(H)$ is an $(\alpha n, 1\!+\!\delta)$-vertex expander, then for the $d$-hop neighborhood $\Gamma^d(S)$ of any set $S$ with $|S| \leq \alpha' n$:
+**Vertex Expansion Composition Lemma** (Hoory-Linial-Wigderson, *Bull. AMS* 2006, Section 2.4). If $T(H)$ is an $(\alpha n, 1\!+\!\delta)$-vertex expander, then for the $d$-hop neighborhood $\Gamma^d(S)$ of any set $S$ with $|S| \leq \alpha' n$:
 
 1. The set $\Gamma^d(S)$ has vertex expansion $(1+\delta')$ for $\delta' > 0$ depending on $\delta, d, \Delta$.
 2. The unique-neighbor property is preserved: $\Gamma^d(S)$ has $\Omega(|\Gamma^d(S)|)$ unique check-node neighbors, provided $|\Gamma^d(S)| < \alpha n$.
@@ -1060,7 +1060,7 @@ The Broom Lemma gives $|\text{dep}(z)| \leq \Delta^d$, which grows exponentially
 
 **Overlap saturation.** More importantly: extensions that reach the SAME backbone variables don't increase reach. At depth $d+1$, the extension $z' = f(z, c)$ has $\text{dep}(z') = \text{dep}(z) \cup \text{dep}(c)$. If $\text{dep}(c)$ overlaps with $\text{dep}(z)$ (which it does with high probability in a bounded-degree graph), $|\text{dep}(z')|$ barely grows. Toy 319 measures exactly this: 3-5% crack at depth 2, then zero growth.
 
-**Extension Invariance seals it.** Even when $\text{dep}(z')$ does reach new backbone variables, the Tanner graph $T(H)$ hasn't changed (§12.2). The adversary's flexibility comes from unique neighbors in $T(H)$, not from the proof structure. New backbone variables in the reach set get the same unique-neighbor treatment — the expansion handles them. This is why depth 3-5 add zero: the adversary absorbs the (already small) depth-2 crack, and deeper extensions can't pry it open further.
+**Extension Invariance seals it.** Even when $\text{dep}(z')$ does reach new backbone variables, the Tanner graph $T(H)$ hasn't changed (Section 12.2). The adversary's flexibility comes from unique neighbors in $T(H)$, not from the proof structure. New backbone variables in the reach set get the same unique-neighbor treatment — the expansion handles them. This is why depth 3-5 add zero: the adversary absorbs the (already small) depth-2 crack, and deeper extensions can't pry it open further.
 
 **The remaining formal step (narrowed).**
 
@@ -1086,7 +1086,7 @@ where $H(B_{\text{reached}}) = \alpha n$ (the backbone variables in the reach se
 
 | Component | Status | Method |
 |-----------|:------:|--------|
-| Adversary works for Reach (any depth) | **PROVED** | Frontier Reach Lemma (§12.3) |
+| Adversary works for Reach (any depth) | **PROVED** | Frontier Reach Lemma (Section 12.3) |
 | Reach ⊆ $\Gamma^d(\text{supp})$ (Broom Lemma) | **PROVED** | VIG connectivity + bounded degree |
 | $d$-hop expansion in expanders | **PROVED** | HLW vertex expansion composition |
 | Width $\geq \Omega(n)$ for $d = O(1)$ | **PROVED** | (a)+(b) with $\Delta^d = O(1)$ |
@@ -1123,7 +1123,7 @@ for some constant $\alpha' > 0$ depending on $\alpha$ and the code parameters. T
 
 **The subtlety.** Step 3 requires $I(C; B_R) \geq H(B_R | B_{\bar{R}})$. This holds if $C$ DETERMINES $B_R$ given $B_{\bar{R}}$ — i.e., knowing the truth values of $C$'s variables and $B_{\bar{R}}$ determines $B_R$. This is stronger than "accesses." The adversary argument says the frontier must reach $\alpha n$ backbone variables; the information argument needs the frontier to carry enough information to DETERMINE them.
 
-**Where this connects.** The adversary argument (§12.3) proves that the frontier must reach $\alpha n$ backbone variables — the adversary cannot maintain consistency otherwise. This means the frontier's variables COLLECTIVELY determine a configuration of $B_R$ that is inconsistent with the formula. The determination is implicit in the derivation: the proof FINDS the inconsistency, which requires distinguishing the actual backbone from $2^{d_{\min}}$ alternatives.
+**Where this connects.** The adversary argument (Section 12.3) proves that the frontier must reach $\alpha n$ backbone variables — the adversary cannot maintain consistency otherwise. This means the frontier's variables COLLECTIVELY determine a configuration of $B_R$ that is inconsistent with the formula. The determination is implicit in the derivation: the proof FINDS the inconsistency, which requires distinguishing the actual backbone from $2^{d_{\min}}$ alternatives.
 
 **Synthesis.** Combining the graph argument and the information argument:
 
@@ -1158,7 +1158,7 @@ Committed variables carry ZERO fresh mutual information about the backbone, cond
 **The clean channel argument.**
 
 1. At the critical step $t^*$ (Frontier Reach Lemma): $|\text{Reach}(\mathcal{F}(t^*))| \geq \alpha n$.
-2. The frontier must carry $I(\mathcal{F}(t^*); B_R) \geq \alpha' n$ bits about the backbone (§12.10 incompressibility).
+2. The frontier must carry $I(\mathcal{F}(t^*); B_R) \geq \alpha' n$ bits about the backbone (Section 12.10 incompressibility).
 3. $I(\mathcal{F}; B_R) = I(\text{committed}; B_R) + I(\text{uncommitted}; B_R \mid \text{committed})$.
 4. By DPI: $I(\text{committed}; B_R \mid \mathcal{H}) = 0$. The committed contribution is bounded by what the history already knows.
 5. The FRESH information — the information needed to push the derivation past the adversary's threshold — must flow through uncommitted variables.
@@ -1206,8 +1206,8 @@ For LDPC-structured formulas: the shared preprocessing (extensions) cannot reduc
 
 | Component | Status | Reference |
 |-----------|:------:|-----------|
-| Adversary forces reach $\geq \alpha n$ | **PROVED** | Frontier Reach Lemma (§12.3) |
-| LDPC incompressibility ($\alpha' n$ bits) | **PROVED** | LDPC Claim (§12.10) |
+| Adversary forces reach $\geq \alpha n$ | **PROVED** | Frontier Reach Lemma (Section 12.3) |
+| LDPC incompressibility ($\alpha' n$ bits) | **PROVED** | LDPC Claim (Section 12.10) |
 | DPI: committed vars carry 0 fresh bits | **PROVED** | Data Processing Inequality (textbook) |
 | Width $\geq \Omega(n)$ for resolution | **PROVED** | reach = width (direct) |
 | Width $\geq \Omega(n)$ for $d = O(1)$ EF | **PROVED** | Broom Lemma + HLW |
@@ -1323,7 +1323,7 @@ The chain rule gives equality. Each conditional term is zero because:
 2. $I(W_i; B) = 0$ for $w < d_{\min}$ (minimum distance property)
 3. Conditioning on independent zero-information windows doesn't create information
 
-This is the coding-theoretic version of the DPI argument (§12.11): sequential probing through a zero-capacity channel accumulates zero information, regardless of the number of probes.
+This is the coding-theoretic version of the DPI argument (Section 12.11): sequential probing through a zero-capacity channel accumulates zero information, regardless of the number of probes.
 
 #### The contradiction proof, sharpened
 
@@ -1337,13 +1337,13 @@ Toy 321 sharpens the five-step contradiction to:
 
 Step 3 is now **empirically confirmed** (Toy 321) and **theoretically grounded** ($d_{\min} = \Theta(n)$ from Tanner expansion). Step 4 is the remaining formalization: proving that refutation of a satisfiable formula necessarily requires backbone information in the frontier.
 
-#### Connection to §12.11 (Uncommitted Reservoir) and §12.12 (Parallel Error Correction)
+#### Connection to Section 12.11 (Uncommitted Reservoir) and Section 12.12 (Parallel Error Correction)
 
 Toy 321 provides the empirical bedrock for both theoretical arguments:
 
-- **Uncommitted reservoir (§12.11):** The DPI argument shows committed variables carry zero fresh mutual information. Toy 321 shows this is EXACTLY what happens — the frontier at sub-threshold width is entirely committed (zero backbone info), and the uncommitted reservoir (the variables NOT in the window) carries ALL the backbone information. The reservoir is invisible at width $< w^*$.
+- **Uncommitted reservoir (Section 12.11):** The DPI argument shows committed variables carry zero fresh mutual information. Toy 321 shows this is EXACTLY what happens — the frontier at sub-threshold width is entirely committed (zero backbone info), and the uncommitted reservoir (the variables NOT in the window) carries ALL the backbone information. The reservoir is invisible at width $< w^*$.
 
-- **Parallel error correction (§12.12):** Casey's principle — "each level checks its error correction codes in parallel" — is confirmed by the step function. Below the threshold, sequential checking gives zero. At the threshold, ALL checks become simultaneously satisfiable. There is no intermediate regime. The LDPC code demands parallel access of width $\geq d_{\min}$; below that, the channel is silent.
+- **Parallel error correction (Section 12.12):** Casey's principle — "each level checks its error correction codes in parallel" — is confirmed by the step function. Below the threshold, sequential checking gives zero. At the threshold, ALL checks become simultaneously satisfiable. There is no intermediate regime. The LDPC code demands parallel access of width $\geq d_{\min}$; below that, the channel is silent.
 
 - **The threshold at 0.8n, not 0.5n:** The moat is wider than anyone would guess from the linear information bound ($w \geq \beta n \approx 0.3n$–$0.5n$). The gap between the information-theoretic minimum ($\beta n$) and the actual threshold ($0.8n$) comes from the code's rate: decoding requires not just $|B|$ bits of information, but enough REDUNDANCY to correct errors. The redundancy factor $w^*/\beta n \approx 2$ is typical for LDPC codes at practical rates.
 
@@ -1352,10 +1352,10 @@ Toy 321 provides the empirical bedrock for both theoretical arguments:
 | Scope | Width $\geq \Omega(n)$? | Method | Status |
 |-------|:-----------------------:|--------|:------:|
 | Resolution | **YES** | Tanner expansion (T49) | **PROVED** |
-| Depth $O(1)$ EF | **YES** | Broom + HLW (§12.9) | **PROVED** |
-| Depth $O(\log n)$ EF | **YES** ($n^{1-\epsilon}$) | Broom + HLW (§12.9) | **PROVED** |
+| Depth $O(1)$ EF | **YES** | Broom + HLW (Section 12.9) | **PROVED** |
+| Depth $O(\log n)$ EF | **YES** ($n^{1-\epsilon}$) | Broom + HLW (Section 12.9) | **PROVED** |
 | Arbitrary EF (graph arg) | $\geq \alpha n / \Delta^d$ | Derivation cost needed | **OPEN** |
-| Arbitrary EF (info arg) | **YES** ($\alpha n$) | Shannon MI (§12.9) | **PROVED** if entropy bound holds |
+| Arbitrary EF (info arg) | **YES** ($\alpha n$) | Shannon MI (Section 12.9) | **PROVED** if entropy bound holds |
 | Arbitrary EF (empirical) | **YES** (saturates) | Depth saturation (Toy 319) | **CONFIRMED** |
 | Backbone threshold | $w^* \approx 0.8n$ | Step function (Toy 321) | **CONFIRMED** |
 | Zero accumulation | $I = 0$ for $k \leq 20$ windows | Sequential probing (Toy 321) | **CONFIRMED** |
@@ -1397,7 +1397,7 @@ For the determined set $D$ with $|D| < \alpha n$: the Tanner graph $T(H)$ provid
 
 **Phase 2 (Determination reaches threshold).**
 
-By the Frontier Reach Lemma (§12.3): there exists step $t^*$ with $|R(t^*)| \geq \alpha n$. The question is: what is $|D(t^*)|$?
+By the Frontier Reach Lemma (Section 12.3): there exists step $t^*$ with $|R(t^*)| \geq \alpha n$. The question is: what is $|D(t^*)|$?
 
 **The Shannon bottleneck.** At step $t^*$, the frontier contains clauses of width $\leq w$. Each clause is a single boolean constraint (a disjunction), contributing at most 1 bit of backbone information. But the frontier also contains extension variable *definitions* — each defining clause $z_i \leftrightarrow A_i$ encodes a deterministic function of backbone variables. However:
 
@@ -1433,7 +1433,7 @@ This doesn't directly give $w \geq \alpha n$ — the determination could have ac
 
 **(B) Width bound (LDPC incompressibility).** The LDPC minimum distance provides the key constraint. At the critical step, the frontier has determined $|D| = \alpha n$ backbone variables. These determined variables must be **correctly** determined — the adversary's assignment must match the actual backbone (otherwise the derived clauses would not be satisfiable).
 
-**LDPC Incompressibility Claim (§12.10):** Any $\alpha n$ backbone variables, with $\alpha n \leq d_{\min} = \delta n$, carry conditional entropy $H(B_D \mid B_{B \setminus D}) = |D| = \alpha n$ bits. (From the minimum distance property: any $d_{\min} - 1$ positions in a linear code are uniformly distributed.)
+**LDPC Incompressibility Claim (Section 12.10):** Any $\alpha n$ backbone variables, with $\alpha n \leq d_{\min} = \delta n$, carry conditional entropy $H(B_D \mid B_{B \setminus D}) = |D| = \alpha n$ bits. (From the minimum distance property: any $d_{\min} - 1$ positions in a linear code are uniformly distributed.)
 
 For the frontier to determine $\alpha n$ backbone bits, it must carry $\geq \alpha n$ bits of mutual information with $B$. By (12.2), each clause carries $\leq w$ bits. At the critical step, the frontier has $|\mathcal{F}|$ active clauses. So:
 
@@ -1512,8 +1512,8 @@ The decoding threshold $w^*$ satisfies $d_{\min} \leq w^* \leq n(1 - R)$. For th
 | Adversary on determined set $D$ (Phase 1) | **PROVED** | T49 applied to $D \subseteq B$ with $|D| < \alpha n$ |
 | Shannon bottleneck: $|D| \leq w \cdot |\mathcal{F}|$ | **PROVED** | Data processing inequality |
 | LDPC incompressibility: $H(B_D) = |D|$ for $|D| < d_{\min}$ | **PROVED** | Minimum distance of linear codes |
-| Frontier Reach Lemma: reach $\geq \alpha n$ | **PROVED** | §12.3 |
-| Broom Lemma: reach $\leq w \cdot \Delta^d$ | **PROVED** | §12.9 |
+| Frontier Reach Lemma: reach $\geq \alpha n$ | **PROVED** | Section 12.3 |
+| Broom Lemma: reach $\leq w \cdot \Delta^d$ | **PROVED** | Section 12.9 |
 | Resolution width $\geq \Omega(n)$ via LDPC/DPI | **PROVED** | Tanner expansion + DPI (new proof of known result) |
 | Resolution size $\geq 2^{\Omega(n)}$ | **PROVED** | Width + Ben-Sasson-Wigderson |
 | Bounded-depth EF width $\geq \Omega(n)$ | **PROVED** | Broom Lemma + T49 |
@@ -1538,7 +1538,7 @@ The decoding threshold $w^*$ satisfies $d_{\min} \leq w^* \leq n(1 - R)$. For th
 
 #### The DPI resolution (T52, Elie)
 
-The "nonlinear encoding" concern flagged in the original §12.14 is resolved by a five-line argument. The Data Processing Inequality makes the threshold unconditional — Shannon doesn't care about circuit depth.
+The "nonlinear encoding" concern flagged in the original Section 12.14 is resolved by a five-line argument. The Data Processing Inequality makes the threshold unconditional — Shannon doesn't care about circuit depth.
 
 **Claim (DPI Unconditional).** For any EF frontier $\mathcal{F}$ of width $\leq w$:
 
@@ -1663,7 +1663,7 @@ The backbone-cycle parity structure of random 3-SAT is ANALOGOUS to a Tseitin fo
 
 **Backbone LDPC parity system** on the Tanner graph $T(H)$: for each $H_1$ cycle $\gamma_i$, $\bigoplus_{b_j \in \gamma_i} b_j = p_i$. Variables = backbone variables. Constraints = cycles. **Structural difference: each backbone variable may appear in MULTIPLE cycle constraints** (column weight empirically 11-22 at small $n$, expected to concentrate as $n$ grows).
 
-Both systems are $\mathbb{F}_2$ linear on an expander constraint graph. The LDPC system is a GENERALIZATION of Tseitin (higher variable degree). The GIRS bounded-depth Frege lower bound (§13.2) requires EXACT Tseitin structure (variable degree = 2). Whether the GIRS technique extends to higher-degree $\mathbb{F}_2$ systems is an open question, though the Austrin-Risse (2022) generalization program suggests it may be possible.
+Both systems are $\mathbb{F}_2$ linear on an expander constraint graph. The LDPC system is a GENERALIZATION of Tseitin (higher variable degree). The GIRS bounded-depth Frege lower bound (Section 13.2) requires EXACT Tseitin structure (variable degree = 2). Whether the GIRS technique extends to higher-degree $\mathbb{F}_2$ systems is an open question, though the Austrin-Risse (2022) generalization program suggests it may be possible.
 
 ### 13.2 Bounded-depth Frege lower bounds
 
@@ -1675,15 +1675,15 @@ $$\text{Size} \geq 2^{\text{tw}(G)^{\Omega(1/d)}}$$
 
 $$\text{Size} \geq 2^{n^{\Omega(1/d)}} \quad \text{for depth-}d \text{ Frege}$$
 
-**Self-correction:** The GIRS result (2019) requires EXACTLY Tseitin structure (variable degree = 2). The backbone LDPC has higher column weight, so this application is CONDITIONAL on establishing the reduction. However, the bounded-depth EF lower bound (§13.3) does NOT depend on GIRS — it follows from the Broom Lemma and VIG expansion alone.
+**Self-correction:** The GIRS result (2019) requires EXACTLY Tseitin structure (variable degree = 2). The backbone LDPC has higher column weight, so this application is CONDITIONAL on establishing the reduction. However, the bounded-depth EF lower bound (Section 13.3) does NOT depend on GIRS — it follows from the Broom Lemma and VIG expansion alone.
 
 ### 13.3 Bounded-depth EF: Broom Lemma closes the gap
 
-For Extended Frege with extension definitions of circuit depth $\leq d$: the Broom Lemma (§12.9) bounds the reach of each clause. An extension variable $z_i$ at depth $d$ in the VIG (max degree $\Delta = O(1)$) satisfies:
+For Extended Frege with extension definitions of circuit depth $\leq d$: the Broom Lemma (Section 12.9) bounds the reach of each clause. An extension variable $z_i$ at depth $d$ in the VIG (max degree $\Delta = O(1)$) satisfies:
 
 $$|\text{dep}(z_i)| \leq \Delta^d$$
 
-The adversary argument (Frontier Reach Lemma, §12.3) requires the frontier to reach $\geq \alpha n$ backbone variables. With each clause reaching $\leq w \cdot \Delta^d$ backbone variables:
+The adversary argument (Frontier Reach Lemma, Section 12.3) requires the frontier to reach $\geq \alpha n$ backbone variables. With each clause reaching $\leq w \cdot \Delta^d$ backbone variables:
 
 $$w \geq \frac{\alpha n}{\Delta^d}$$
 
@@ -1691,7 +1691,7 @@ $$w \geq \frac{\alpha n}{\Delta^d}$$
 
 **For $d = c \log n / \log \Delta$ (NC$^1$-Frege):** Width $\geq n^{1-c}$. Size $\geq 2^{n^{1-c}}$. **PROVED (super-polynomial).**
 
-**Key fact:** Extension Invariance (T49, §12.2) ensures the Tanner graph $T(H)$ is UNCHANGED by extensions. The adversary's flexibility comes from unique neighbors in $T(H)$, which extensions cannot remove. The bounded-depth EF lower bound follows from the SAME Tanner expansion that proves the resolution lower bound.
+**Key fact:** Extension Invariance (T49, Section 12.2) ensures the Tanner graph $T(H)$ is UNCHANGED by extensions. The adversary's flexibility comes from unique neighbors in $T(H)$, which extensions cannot remove. The bounded-depth EF lower bound follows from the SAME Tanner expansion that proves the resolution lower bound.
 
 ### 13.4 The depth hierarchy
 
@@ -1710,7 +1710,7 @@ T67 places random 3-SAT hardness precisely within the proof complexity landscape
 
 **The P $\neq$ NP question, precisely stated:** Does the information-theoretic width bound ($w \geq \alpha' n$, from LDPC incompressibility and DPI) hold for UNBOUNDED-depth extensions?
 
-The bounded-depth results prove that no fixed depth suffices. The information argument (§12.10-12.11) says the bound holds at ALL depths. The formal gap is showing that the LDPC incompressibility argument (which is information-theoretic, not graph-theoretic) cannot be circumvented by unbounded-depth circuits.
+The bounded-depth results prove that no fixed depth suffices. The information argument (Section 12.10-12.11) says the bound holds at ALL depths. The formal gap is showing that the LDPC incompressibility argument (which is information-theoretic, not graph-theoretic) cannot be circumvented by unbounded-depth circuits.
 
 ### 13.5 Three convergent arguments for the gap
 
@@ -1720,7 +1720,7 @@ The remaining step — proving width $\geq \Omega(n)$ for all extension depths �
 
 **(i) DPI (T52).** Committed frontier variables carry 0 fresh bits about the backbone (Data Processing Inequality). Only uncommitted variables contribute to the channel. The LDPC code requires $\alpha' n$ bits → $\alpha' n$ uncommitted variables → width $\geq \alpha' n$. The argument is INDEPENDENT of extension depth — it depends only on the information content per variable, which is bounded by 1 regardless of circuit complexity.
 
-**(ii) LDPC incompressibility (§12.10).** The minimum distance $d_{\min} = \Theta(n)$ means: any $\alpha n$ backbone bits have $\alpha' n$ bits of conditional entropy. No function of $< \alpha' n$ inputs can determine these bits. Extension variables are functions of original variables — the LDPC distance bounds their information content regardless of depth.
+**(ii) LDPC incompressibility (Section 12.10).** The minimum distance $d_{\min} = \Theta(n)$ means: any $\alpha n$ backbone bits have $\alpha' n$ bits of conditional entropy. No function of $< \alpha' n$ inputs can determine these bits. Extension variables are functions of original variables — the LDPC distance bounds their information content regardless of depth.
 
 **(iii) Within-cluster block independence (T66).** The Θ(n) independent backbone blocks (Toy 340: MI = 0.0000 within clusters) create a product decomposition. Any proof must resolve ALL blocks. Each block requires $\geq 1$ independent information bit. Product structure → $\Theta(n)$ simultaneous bits → width $\Theta(n)$.
 

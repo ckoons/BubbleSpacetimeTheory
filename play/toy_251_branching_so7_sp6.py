@@ -60,7 +60,7 @@ print("=" * 76)
 # ══════════════════════════════════════════════════════════════════════════
 # Section 1: Weyl Dimension Formulas
 # ══════════════════════════════════════════════════════════════════════════
-print("\n§1. WEYL DIMENSION FORMULAS")
+print("\nSection 1. WEYL DIMENSION FORMULAS")
 print("-" * 60)
 
 
@@ -184,7 +184,7 @@ for (a, b, c), (name, expected) in c3_fund.items():
 # ══════════════════════════════════════════════════════════════════════════
 # Section 2: The Three SO(7) Irreducibles in 147
 # ══════════════════════════════════════════════════════════════════════════
-print("\n\n§2. THE THREE SO(7) IRREDUCIBLES IN 147 = so(7) ⊗ V₁")
+print("\n\nSection 2. THE THREE SO(7) IRREDUCIBLES IN 147 = so(7) ⊗ V₁")
 print("-" * 60)
 
 print("""
@@ -312,7 +312,7 @@ assert sum(d for _, _, d in so7_irreps_in_147) == 147
 # ══════════════════════════════════════════════════════════════════════════
 # Section 3: The Langlands Dual Correspondence B₃ ↔ C₃
 # ══════════════════════════════════════════════════════════════════════════
-print("\n\n§3. THE LANGLANDS DUAL CORRESPONDENCE B₃ ↔ C₃")
+print("\n\nSection 3. THE LANGLANDS DUAL CORRESPONDENCE B₃ ↔ C₃")
 print("-" * 60)
 
 print("""
@@ -366,7 +366,7 @@ print("""
 # ══════════════════════════════════════════════════════════════════════════
 # Section 4: The Satake Parameter Map
 # ══════════════════════════════════════════════════════════════════════════
-print("\n§4. THE SATAKE PARAMETER MAP")
+print("\nSection 4. THE SATAKE PARAMETER MAP")
 print("-" * 60)
 
 print("""
@@ -409,7 +409,7 @@ print("""
 # ══════════════════════════════════════════════════════════════════════════
 # Section 5: Method 1 — Satake Label Transfer
 # ══════════════════════════════════════════════════════════════════════════
-print("\n§5. METHOD 1: SATAKE LABEL TRANSFER")
+print("\nSection 5. METHOD 1: SATAKE LABEL TRANSFER")
 print("-" * 60)
 
 print("""
@@ -447,7 +447,7 @@ print(f"  This is expected — duality is not dimension-preserving.")
 # ══════════════════════════════════════════════════════════════════════════
 # Section 6: Method 2 — Dual Diagram with Reversed Labels
 # ══════════════════════════════════════════════════════════════════════════
-print("\n\n§6. METHOD 2: REVERSED DYNKIN LABELS")
+print("\n\nSection 6. METHOD 2: REVERSED DYNKIN LABELS")
 print("-" * 60)
 
 print("""
@@ -480,7 +480,7 @@ print(f"  Sp(6) total (reversed): {total_sp6_dim_rev}")
 # ══════════════════════════════════════════════════════════════════════════
 # Section 7: The Standard L-function Decomposition
 # ══════════════════════════════════════════════════════════════════════════
-print("\n\n§7. THE STANDARD L-FUNCTION DECOMPOSITION")
+print("\n\nSection 7. THE STANDARD L-FUNCTION DECOMPOSITION")
 print("-" * 60)
 
 print("""
@@ -543,7 +543,7 @@ for (a, b, c), d in sp6_reps:
 # ══════════════════════════════════════════════════════════════════════════
 # Section 8: The Complete Langlands Dual Decomposition
 # ══════════════════════════════════════════════════════════════════════════
-print("\n\n§8. THE COMPLETE LANGLANDS DUAL DECOMPOSITION")
+print("\n\nSection 8. THE COMPLETE LANGLANDS DUAL DECOMPOSITION")
 print("-" * 60)
 
 print("""
@@ -576,7 +576,7 @@ print(f"    {'':>8}   B₃ total = 147        C₃ total = {total_sp6_dim_rev}")
 # ══════════════════════════════════════════════════════════════════════════
 # Section 9: Which Convention is Correct?
 # ══════════════════════════════════════════════════════════════════════════
-print("\n\n§9. WHICH CONVENTION? — THE SATAKE PARAMETER TEST")
+print("\n\nSection 9. WHICH CONVENTION? — THE SATAKE PARAMETER TEST")
 print("-" * 60)
 
 print("""
@@ -634,7 +634,7 @@ print("""
 # ══════════════════════════════════════════════════════════════════════════
 # Section 10: Character Restriction — The Correct Method
 # ══════════════════════════════════════════════════════════════════════════
-print("\n§10. CHARACTER RESTRICTION TO THE DUAL TORUS")
+print("\nSection 10. CHARACTER RESTRICTION TO THE DUAL TORUS")
 print("-" * 60)
 
 print("""
@@ -669,7 +669,7 @@ print("""
 # ══════════════════════════════════════════════════════════════════════════
 # Section 11: Explicit Weight Computation
 # ══════════════════════════════════════════════════════════════════════════
-print("\n§11. EXPLICIT WEIGHT DECOMPOSITION")
+print("\nSection 11. EXPLICIT WEIGHT DECOMPOSITION")
 print("-" * 60)
 
 def _weyl_orbit(wt):
@@ -871,7 +871,7 @@ def c3_weights(a1, a2, a3):
 # ══════════════════════════════════════════════════════════════════════════
 # Section 12: Compute the Decomposition via Characters
 # ══════════════════════════════════════════════════════════════════════════
-print("\n§12. COMPUTING DECOMPOSITION VIA CHARACTERS")
+print("\nSection 12. COMPUTING DECOMPOSITION VIA CHARACTERS")
 print("-" * 60)
 
 print("""
@@ -918,7 +918,7 @@ for dynkin, dim_expected in [
 # ══════════════════════════════════════════════════════════════════════════
 # Section 13: The B₃ → C₃ Character Decomposition
 # ══════════════════════════════════════════════════════════════════════════
-print("\n\n§13. THE B₃ → C₃ CHARACTER DECOMPOSITION")
+print("\n\nSection 13. THE B₃ → C₃ CHARACTER DECOMPOSITION")
 print("-" * 60)
 
 print("""
@@ -1063,7 +1063,7 @@ for name, dynkin, dim_b3 in so7_irreps_in_147:
 # ══════════════════════════════════════════════════════════════════════════
 # Section 14: The Grand Decomposition
 # ══════════════════════════════════════════════════════════════════════════
-print("\n§14. THE GRAND DECOMPOSITION OF 147")
+print("\nSection 14. THE GRAND DECOMPOSITION OF 147")
 print("-" * 60)
 
 print("""
@@ -1103,7 +1103,7 @@ print(f"\n    Grand total = {grand_total} {check_147}")
 # ══════════════════════════════════════════════════════════════════════════
 # Section 15: L-function Degrees
 # ══════════════════════════════════════════════════════════════════════════
-print("\n\n§15. L-FUNCTION DEGREES AND AUTOMORPHIC IDENTIFICATION")
+print("\n\nSection 15. L-FUNCTION DEGREES AND AUTOMORPHIC IDENTIFICATION")
 print("-" * 60)
 
 print("""
@@ -1158,7 +1158,7 @@ for c3_label in sorted(consolidated.keys()):
 # ══════════════════════════════════════════════════════════════════════════
 # Section 16: Physical Interpretation
 # ══════════════════════════════════════════════════════════════════════════
-print("\n\n§16. PHYSICAL INTERPRETATION")
+print("\n\nSection 16. PHYSICAL INTERPRETATION")
 print("-" * 60)
 
 print("""
@@ -1188,7 +1188,7 @@ print("""
 # ══════════════════════════════════════════════════════════════════════════
 # Section 17: Verification Summary
 # ══════════════════════════════════════════════════════════════════════════
-print("\n§17. VERIFICATION SUMMARY")
+print("\nSection 17. VERIFICATION SUMMARY")
 print("-" * 60)
 
 checks = [

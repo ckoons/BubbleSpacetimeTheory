@@ -86,7 +86,7 @@ print("=" * 72)
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 1: The Geometric Projection Formula
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§1. Geometric Projection Formula\n")
+print("\nSection 1. Geometric Projection Formula\n")
 
 # For a molecule XH_n with C_{3v} or higher symmetry:
 # μ = n × q × r × cos(angle to symmetry axis)
@@ -148,7 +148,7 @@ print(f"    HF  (L=3): G = 1 (diatomic)")
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 2: Extract Partial Charges
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§2. Partial Charges from Measured Dipoles\n")
+print("\nSection 2. Partial Charges from Measured Dipoles\n")
 
 # μ(HF) = q × r(HF) → q(HF) = μ/r
 r_HF = bst_lengths[3]  # a₀ × 17/10
@@ -187,7 +187,7 @@ print(f"    HF:  {q_HF_e:.4f}")
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 3: BST Charge Pattern
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§3. BST Pattern in Partial Charges\n")
+print("\nSection 3. BST Pattern in Partial Charges\n")
 
 # q increases with L: more lone pairs = more charge transfer
 # q(NH₃) < q(H₂O) < q(HF)
@@ -223,7 +223,7 @@ for L in range(1, 4):
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 4: Direct BST Dipole Formulas
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§4. Direct BST Dipole Formulas\n")
+print("\nSection 4. Direct BST Dipole Formulas\n")
 
 # Known good formulas from Toy 698:
 # NH₃: μ = ea₀/√N_c = ea₀/√3 (0.24% from NIST)
@@ -293,7 +293,7 @@ for n1, v1 in bst_nums.items():
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 5: Unified Series
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§5. Unified Dipole Series\n")
+print("\nSection 5. Unified Dipole Series\n")
 
 # Best formulas from search + Toy 698:
 mu_bst = {
@@ -375,7 +375,7 @@ check(f"μ_H₂O = ea₀√(g/(2g-1)) = {mu_h2o_best:.4f} D ({dev_h2o_best:.2f}%
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 6: Full Series Comparison
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§6. Full BST Dipole Series\n")
+print("\nSection 6. Full BST Dipole Series\n")
 
 formulas = {
     "CH₄": ("0 (symmetry)", 0.0),
@@ -411,7 +411,7 @@ check("NH₃ and HF within 1%", nh3_hf_ok,
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 7: Why the Series is Non-Monotonic
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§7. Why the Series is Non-Monotonic\n")
+print("\nSection 7. Why the Series is Non-Monotonic\n")
 
 # NIST order: CH₄ (0) < NH₃ (1.471) < HF (1.826) < H₂O (1.855)
 # Maximum at H₂O, not HF! This is because:
@@ -446,7 +446,7 @@ check("Non-monotonic order: NH₃ < HF < H₂O",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 8: Dipole Deviation Amplification (Revisited)
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§8. Deviation Amplification (Toy 698 T4 Fix)\n")
+print("\nSection 8. Deviation Amplification (Toy 698 T4 Fix)\n")
 
 # Toy 698 T4 FAILED because it tested δ(HF)/δ(H₂O) ≈ 2.5
 # But dipoles are non-monotonic, so the amplification model doesn't apply
@@ -491,7 +491,7 @@ print(f"  This gives {amp_nh3_hf:.2f} ≈ n_C/rank = 2.5 ({dev_amp:.0f}%).")
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 9: Two-Channel Dipole Structure
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§9. Two-Channel Structure (from Toy 786)\n")
+print("\nSection 9. Two-Channel Structure (from Toy 786)\n")
 
 # Even L (long root): CH₄ (L=0), H₂O (L=2)
 # Odd L (short root): NH₃ (L=1), HF (L=3)
@@ -522,7 +522,7 @@ check(f"Odd-channel ratio = n_C√N_c/g ({dev_ratio:.2f}%)",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 10: Summary
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§10. Summary\n")
+print("\nSection 10. Summary\n")
 
 print(f"  Unified BST dipole series (zero free parameters):")
 print(f"    CH₄: μ = 0 (tetrahedral cancellation)")

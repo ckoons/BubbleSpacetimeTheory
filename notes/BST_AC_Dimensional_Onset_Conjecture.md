@@ -197,7 +197,7 @@ The satisfying assignment of a 3-SAT formula at $\alpha_c$ is a point in $\{0,1\
 
 For 2-SAT (1D complex): YES. The constraint structure is a directed graph (1-complex). Its topology is fully captured by 1-chains (SCCs, walks). $I_{\text{fiat}} = 0$.
 
-For 3-SAT (2D complex): The constraint complex $K(\varphi)$ has $\beta_1 = \Theta(n)$ independent 1-cycles. These cycles can be LINKED in $\mathbb{R}^3$ — a topological property that is invisible to any 1-chain traversal (proved: §2 of BST_AC_MIFC_Proof_Attempt.md). A 1-chain can walk along individual cycles and count them, but it cannot detect which pairs are linked without a 2D computation (the Gauss linking integral). The linking pattern encodes $\Theta(n)$ fiat bits.
+For 3-SAT (2D complex): The constraint complex $K(\varphi)$ has $\beta_1 = \Theta(n)$ independent 1-cycles. These cycles can be LINKED in $\mathbb{R}^3$ — a topological property that is invisible to any 1-chain traversal (proved: Section 2 of BST_AC_MIFC_Proof_Attempt.md). A 1-chain can walk along individual cycles and count them, but it cannot detect which pairs are linked without a 2D computation (the Gauss linking integral). The linking pattern encodes $\Theta(n)$ fiat bits.
 
 **Concrete proof (Tseitin on expanders):** For Tseitin formulas on $d$-regular expanders: $I_{\text{fiat}} = \beta_1 = \Theta(n)$ exactly (Theorem 2). Resolution (1-chain) requires $2^{\Omega(n)}$ size (BSW 2001). The fiat = topology = exponential cost. This is the rigorous instance of "1-chain cannot navigate 2D topology."
 
@@ -281,7 +281,7 @@ The method lattice (T17) is an embedding hierarchy. Each level adds a dimensiona
 
 **The concrete example.** Tseitin formulas on expander graphs: $I_{\text{fiat}} = \beta_1 = \Theta(n)$ exactly (Theorem 2). Resolution requires $2^{\Omega(n)}$ (BSW 2001). The fiat IS the topology IS the exponential cost. EF handles Tseitin efficiently via GF(2) extensions — but Tseitin has ALGEBRAIC structure (parity). Random 3-SAT has no algebraic structure. The topology is non-algebraic.
 
-**The open question (EF).** EF's extension variables can potentially perform dimensional lifting — introducing new vertices connected to arbitrary variable subsets, creating higher-dimensional simplices in the augmented complex. For structured formulas (Tseitin, PHP), EF exploits algebraic handles to lift efficiently. The MIFC conjectures that for RANDOM 3-SAT, no such handles exist: the topology is formless, and EF's lifting power is circular (targeting the right simplices requires the answer). See BST_AC_MIFC_Proof_Attempt.md §5 for the full analysis, including why this approach is not blocked by the natural proofs barrier (Razborov-Rudich).
+**The open question (EF).** EF's extension variables can potentially perform dimensional lifting — introducing new vertices connected to arbitrary variable subsets, creating higher-dimensional simplices in the augmented complex. For structured formulas (Tseitin, PHP), EF exploits algebraic handles to lift efficiently. The MIFC conjectures that for RANDOM 3-SAT, no such handles exist: the topology is formless, and EF's lifting power is circular (targeting the right simplices requires the answer). See BST_AC_MIFC_Proof_Attempt.md Section 5 for the full analysis, including why this approach is not blocked by the natural proofs barrier (Razborov-Rudich).
 
 ---
 

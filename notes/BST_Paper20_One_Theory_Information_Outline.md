@@ -13,7 +13,7 @@ tagline: "Shannon, Boltzmann, and Bekenstein-Hawking are one theorem in three co
 
 ---
 
-## §1. Introduction
+## Section 1. Introduction
 
 The 20th century produced three great information-theoretic results:
 1. Shannon (1948): channel capacity C = max I(X;Y)
@@ -26,7 +26,7 @@ These are taught as separate subjects (engineering, physics, gravity). BST shows
 
 ---
 
-## §2. The Identity: S_Shannon = S_Boltzmann
+## Section 2. The Identity: S_Shannon = S_Boltzmann
 
 - Shannon: H(X) = -Σ p(x) log₂ p(x) [bits]
 - Boltzmann: S = -k_B Σ p_i ln p_i [J/K]
@@ -38,7 +38,7 @@ These are taught as separate subjects (engineering, physics, gravity). BST shows
 
 ---
 
-## §3. The Holographic Bound as Channel Coding Converse
+## Section 3. The Holographic Bound as Channel Coding Converse
 
 **T571 (Holographic-Shannon Equivalence, D=1):**
 - Bekenstein-Hawking: S ≤ A / 4l_P²
@@ -52,7 +52,7 @@ Three BST theorems (T189 Reality Budget, T196 Holographic Encoding, T325 Carnot 
 
 ---
 
-## §4. The Three Entropies on D_IV^5
+## Section 4. The Three Entropies on D_IV^5
 
 | Entropy | Domain | BST Expression | AC depth |
 |---------|--------|----------------|----------|
@@ -66,7 +66,7 @@ All five are faces of one object. The depth never exceeds 1.
 
 ---
 
-## §5. Temperature IS Information Density
+## Section 5. Temperature IS Information Density
 
 - T = (∂S/∂E)⁻¹ — energy per unit entropy
 - In bits: T = (k_B ln 2)⁻¹ × (energy per bit)
@@ -76,7 +76,7 @@ All five are faces of one object. The depth never exceeds 1.
 
 ---
 
-## §6. Landauer's Principle as AC(0)
+## Section 6. Landauer's Principle as AC(0)
 
 - Erasing one bit costs at least k_B T ln 2 energy
 - This is counting: one bit = two states, ln 2 = log of 2
@@ -85,7 +85,7 @@ All five are faces of one object. The depth never exceeds 1.
 
 ---
 
-## §7. The Reality Budget as Achievability
+## Section 7. The Reality Budget as Achievability
 
 - Shannon: if Rate < Capacity, reliable communication is possible
 - BST: Λ·N = 9/5 says the universe fills 19.1% of its channel capacity
@@ -95,7 +95,7 @@ All five are faces of one object. The depth never exceeds 1.
 
 ---
 
-## §8. Implications
+## Section 8. Implications
 
 1. **No separate theory of gravity-information needed.** The holographic principle is Shannon's converse in curved space.
 2. **Entropy = counting, always.** No mysterious "arrow of time" — just pigeonhole.
@@ -104,7 +104,7 @@ All five are faces of one object. The depth never exceeds 1.
 
 ---
 
-## §9. Predictions and Falsification
+## Section 9. Predictions and Falsification
 
 | Prediction | BST Value | Test |
 |-----------|-----------|------|
@@ -115,7 +115,7 @@ All five are faces of one object. The depth never exceeds 1.
 
 ---
 
-## §10. Conclusion
+## Section 10. Conclusion
 
 Shannon, Boltzmann, and Bekenstein-Hawking wrote the same theorem in three languages. BST proves they must be the same, because all three are counting arguments on the Shilov boundary of D_IV^5. The depth of this unification is 1. The cost of understanding is one composition.
 
@@ -125,7 +125,7 @@ Shannon, Boltzmann, and Bekenstein-Hawking wrote the same theorem in three langu
 
 - `notes/BST_AC0_Thermodynamics.md` — Full AC(0) thermodynamics toolkit
 - `notes/BST_AC0_InformationTheory.md` — Shannon in AC(0)
-- `notes/BST_Predictions_Paper.md` §5.2 — T571 prediction detail
+- `notes/BST_Predictions_Paper.md` Section 5.2 — T571 prediction detail
 - `WorkingPaper.md` — T571, Reality Budget, Carnot Bound
 - `play/toy_377_boltzmann_shannon.py` — Numerical verification
 - `play/toy_681_tcmb_derivation.py` — T₀ derivation

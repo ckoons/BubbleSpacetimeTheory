@@ -31,7 +31,7 @@ Three groups — $G_2$, $F_4$, $E_8$ — do not admit Hermitian symmetric spaces
 
 ### 1.1 Terminology
 
-The term "mass gap" carries four distinct meanings across the YM paper suite. In this paper (Paper B), Δ denotes the **spectral gap** — the first Laplacian eigenvalue λ₁ of the compact dual, equal to the Casimir eigenvalue C₂ of the defining representation. See Paper A (#76, §1.1) for the full cross-paper terminology table.
+The term "mass gap" carries four distinct meanings across the YM paper suite. In this paper (Paper B), Δ denotes the **spectral gap** — the first Laplacian eigenvalue λ₁ of the compact dual, equal to the Casimir eigenvalue C₂ of the defining representation. See Paper A (#76, Section 1.1) for the full cross-paper terminology table.
 
 ### 1.2 Main Results
 
@@ -140,7 +140,7 @@ The full-theory mass gap ratio between adjacent gauge groups uses $\lambda_1 = n
 
 $$\frac{\Delta_{\text{full}}(\text{SU}(N_c + 1))}{\Delta_{\text{full}}(\text{SU}(N_c))} = \sqrt{\frac{N_c + 4}{N_c + 3}}$$
 
-The pure-gauge (glueball) mass gap ratio uses $g = n + 2$ (see §4.4):
+The pure-gauge (glueball) mass gap ratio uses $g = n + 2$ (see Section 4.4):
 
 $$\frac{\Delta_{\text{gauge}}(\text{SU}(N_c + 1))}{\Delta_{\text{gauge}}(\text{SU}(N_c))} = \sqrt{\frac{N_c + 5}{N_c + 4}}$$
 
@@ -183,7 +183,7 @@ The BST-predicted mass gap ratios for the pure-gauge (glueball) sector, compared
 | $m_{0^{++}}$(SU(4)) / $m_{0^{++}}$(SU(3)) | $\sqrt{8/7} = 1.069$ | $1.067 \pm 0.010$ | Lucini-Teper-Wenger 2004 | **0.2%** |
 | $m_{0^{++}}$(SU(5)) / $m_{0^{++}}$(SU(3)) | $\sqrt{9/7} = 1.134$ | $1.130 \pm 0.015$ | Lucini-Teper-Wenger 2004 | **0.4%** |
 | $m_{0^{++}}$(SU(2)) / $m_{0^{++}}$(SU(3)) | $\sqrt{6/7} = 0.926$ | $0.93 \pm 0.03$ | Teper 1998 | **0.4%** |
-| $m_{0^{++}}$(SU($\infty$)) / $m_{0^{++}}$(SU(3)) | $\sqrt{\infty/7} \to \infty$ | finite (large-$N_c$ scaling) | Lucini-Teper 2001 | see §7.2 |
+| $m_{0^{++}}$(SU($\infty$)) / $m_{0^{++}}$(SU(3)) | $\sqrt{\infty/7} \to \infty$ | finite (large-$N_c$ scaling) | Lucini-Teper 2001 | see Section 7.2 |
 
 *Note on the absolute scale*: The absolute glueball mass in MeV depends on the identification of the Bergman spectral unit with physical units (the $\kappa$ factor above). This identification is an empirical step, not a derivation — the same honesty flag as the proton mass identification in Paper A. What BST derives from pure geometry are the dimensionless ratios, which are parameter-free.
 
@@ -308,7 +308,7 @@ Cal's physical scale observation: absolute masses (in MeV) require a domain-spec
 | SU(5)/SU(4) | 1.061 | $\sqrt{9/8}$ | not yet measured | prediction |
 | SU(2)/SU(3) | 0.926 | $\sqrt{6/7}$ | $0.93 \pm 0.02$ | **0.4%** |
 
-All ratios use the Bergman exponent $g = n + 2$ (gauge-sector convention; see §4.4). The lattice data, which measure pure-gauge glueball masses, confirm the $g$-based formula.
+All ratios use the Bergman exponent $g = n + 2$ (gauge-sector convention; see Section 4.4). The lattice data, which measure pure-gauge glueball masses, confirm the $g$-based formula.
 
 ### 7.2 The Large-$N_c$ Limit
 

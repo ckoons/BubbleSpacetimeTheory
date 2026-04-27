@@ -6,7 +6,7 @@ date: "March 12, 2026"
 
 # BST: Muon Anomalous Magnetic Moment — Estimate
 
-**Status:** CONFIRMED. BST predicted ≤2σ; WP25 gives 0.6σ. Full geometric calculation in BST_MuonG2_Rigorous.md §6 and play/toy_muon_g2_geometry.py (Toy 105).
+**Status:** CONFIRMED. BST predicted ≤2σ; WP25 gives 0.6σ. Full geometric calculation in BST_MuonG2_Rigorous.md Section 6 and play/toy_muon_g2_geometry.py (Toy 105).
 
 -----
 

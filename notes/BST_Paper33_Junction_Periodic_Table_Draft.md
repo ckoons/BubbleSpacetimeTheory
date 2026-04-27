@@ -24,7 +24,7 @@ In the Bi/Nb superlattice (Paper #31), the phonon mode coupling ratio $R = v_{\t
 
 ---
 
-## §1. Introduction: Does 3/7 Generalize?
+## Section 1. Introduction: Does 3/7 Generalize?
 
 In Toy 936, the Bi/Nb superlattice revealed that phonon modes across the interface couple with a ratio matching $N_c/g = 3/7$ to 0.18%. This raised Casey's question: "If 3/7 generalizes beyond BiNb, that's a periodic table for junctions."
 
@@ -38,9 +38,9 @@ BST predicts that the relevant rationals are quotients of $\{N_c = 3, n_C = 5, g
 
 ---
 
-## §2. The Survey: 22 Materials, 231 Pairs
+## Section 2. The Survey: 22 Materials, 231 Pairs
 
-### §2.1 Material Database
+### Section 2.1 Material Database
 
 The survey covers five material classes:
 
@@ -54,19 +54,19 @@ The survey covers five material classes:
 
 All values from standard references (CRC Handbook, Kittel, Ashcroft-Mermin): longitudinal sound speed and conventional lattice constant.
 
-### §2.2 Coupling Ratios
+### Section 2.2 Coupling Ratios
 
 For all 231 unique pairs, $R$ is computed and normalized to $R \leq 1$ (if $R > 1$, use $1/R$). The distribution spans $[0.05, 0.98]$ with mean $\approx 0.55$.
 
 ---
 
-## §3. BST Rational Matching
+## Section 3. BST Rational Matching
 
-### §3.1 Target Rationals
+### Section 3.1 Target Rationals
 
 52 unique BST rationals are generated from quotients $p/q$ where $p, q \in \{1, 2, 3, 5, 6, 7, 8, 15, 21, 35, 42, 137\}$ with $0.05 < p/q < 1$. These rationals cover $\sim 70\%$ of the $[0.05, 1.0]$ range at the $\pm 2\%$ matching threshold.
 
-### §3.2 Statistical Honesty
+### Section 3.2 Statistical Honesty
 
 This coverage is the critical point for intellectual honesty. With 52 rationals covering 70% of the range, many matches are expected by pure chance:
 
@@ -81,7 +81,7 @@ This coverage is the critical point for intellectual honesty. With 52 rationals 
 
 The observed count is **not above random expectation**. A claim that "most interfaces match BST rationals" would be statistically empty.
 
-### §3.3 The Strong Claim
+### Section 3.3 The Strong Claim
 
 The signal is not in the count but in the **quality distribution**:
 
@@ -93,9 +93,9 @@ The claim is: **the best interfaces match the core rationals**. This requires ex
 
 ---
 
-## §4. The Top Interfaces
+## Section 4. The Top Interfaces
 
-### §4.1 Tightest Matches
+### Section 4.1 Tightest Matches
 
 | # | Interface | $R$ | BST Rational | Deviation | Interpretation |
 |---|-----------|-----|-------------|-----------|----------------|
@@ -107,7 +107,7 @@ The claim is: **the best interfaces match the core rationals**. This requires ex
 
 The tightest match — Bi/Ti at $30/137 = 0.2190$ — has the fine structure constant $N_{\max}$ in its denominator. This is a BST-specific rational, not a generic small fraction.
 
-### §4.2 Core Integer Rationals
+### Section 4.2 Core Integer Rationals
 
 The irreducible prime quotients of BST's three prime integers:
 
@@ -123,25 +123,25 @@ These five rationals are the "row headers" of the junction periodic table: any m
 
 ---
 
-## §5. Junction Categories
+## Section 5. Junction Categories
 
-### §5.1 Superconductor Interfaces
+### Section 5.1 Superconductor Interfaces
 
 For quantum device applications, interfaces involving Nb, Pb, Sn, V, and NbN are critical. The survey finds multiple SC interfaces matching BST rationals, with Bi/Nb ($3/7$) as the prototype. Prediction: SC junctions at BST rational coupling show sharper proximity-induced gaps.
 
-### §5.2 Semiconductor Heterostructures
+### Section 5.2 Semiconductor Heterostructures
 
 Si, Ge, GaAs, InSb, and diamond form the basis of modern electronics. Several semiconductor pairs match BST rationals. Prediction: heterostructure mobility correlates with how closely $R$ approaches a BST rational.
 
-### §5.3 Topological Material Interfaces
+### Section 5.3 Topological Material Interfaces
 
 Bi and InSb are key topological materials. Both show multiple BST-rational couplings to other materials. The Bi/Ti match at $30/137$ (0.013%) is the tightest in the entire survey — and $137 = N_{\max}$ is BST's most characteristic integer.
 
 ---
 
-## §6. Physical Mechanism: Mode Commensurability
+## Section 6. Physical Mechanism: Mode Commensurability
 
-### §6.1 Why Rationals Matter
+### Section 6.1 Why Rationals Matter
 
 At a planar interface between materials A and B, phonon transmission depends on mode matching. For a cavity with $N$ atomic planes, the allowed modes are $f_m = m \cdot v/(2Na)$ for $m = 1, 2, \ldots, N$.
 
@@ -153,7 +153,7 @@ When $R = p/q$ exactly, every mode pair $(m, n) = (kq, kp)$ satisfies $f_m^{(A)}
 
 When $R$ is irrational, no exact matching occurs. The mismatch generates phonon scattering at the interface — the microscopic origin of Kapitza resistance.
 
-### §6.2 Connection to the Bergman Mechanism
+### Section 6.2 Connection to the Bergman Mechanism
 
 Paper #25 showed that bulk material properties (sound velocities, elastic moduli, thermal conductivities) appear as BST rationals because the Bergman kernel of $D_{IV}^5$ has eigenvalues that factor through $\{3, 5, 7, 6, 137\}$. The interface coupling ratio $R$ inherits this structure:
 
@@ -163,7 +163,7 @@ When both sound velocities and the lattice constant ratio are BST rationals, $R$
 
 ---
 
-## §7. The Periodic Table Structure
+## Section 7. The Periodic Table Structure
 
 The junction periodic table is organized by coupling rational $R = p/q$:
 
@@ -182,9 +182,9 @@ The table predicts: **a new pair that falls in the same column as a known good j
 
 ---
 
-## §8. Predictions and Falsification
+## Section 8. Predictions and Falsification
 
-### §8.1 Predictions
+### Section 8.1 Predictions
 
 **P1 (Phonon transmission).** Phonon transmission coefficient across an interface is higher when $R$ matches a BST rational within 1% than when $R$ is far from any BST rational. Test: measure thermal conductance across a series of interfaces with systematically varied $R$.
 
@@ -196,7 +196,7 @@ The table predicts: **a new pair that falls in the same column as a known good j
 
 **P5 (Bi/Ti prediction).** The Bi/Ti interface at $R \approx 30/137$ (0.013%) should show anomalously efficient phonon transfer for its impedance mismatch. This is the survey's tightest match and involves $N_{\max} = 137$. Test: fabricate Bi/Ti bilayer, measure thermal boundary conductance.
 
-### §8.2 Falsification
+### Section 8.2 Falsification
 
 **F1.** If phonon transmission shows no correlation with proximity to BST rationals → coupling ratio model is wrong.
 
@@ -206,15 +206,15 @@ The table predicts: **a new pair that falls in the same column as a known good j
 
 **F4.** If Kapitza resistance does not correlate with $|R - p/q|$ → BST rational coupling has no thermal transport consequence.
 
-### §8.3 Statistical Caveat
+### Section 8.3 Statistical Caveat
 
 With 52 BST rationals covering $\sim 70\%$ of the coupling range at $\pm 2\%$ threshold, many matches are expected by chance. **We do not claim statistical significance from the count alone.** The claim is qualitative: the best matches hit core BST integers, and the mechanism (mode commensurability) provides a physical explanation. Experimental verification is required.
 
 ---
 
-## §9. Discussion
+## Section 9. Discussion
 
-### §9.1 What This Changes
+### Section 9.1 What This Changes
 
 If confirmed, the junction periodic table transforms heterostructure design from empirical trial-and-error to principled selection: compute $R$, look up the nearest BST rational, and predict interface quality. This applies to:
 
@@ -223,18 +223,18 @@ If confirmed, the junction periodic table transforms heterostructure design from
 - **Semiconductor heterostructures**: predict mobility in novel stacks
 - **Phononic metamaterials**: design reflection/transmission at each layer
 
-### §9.2 The Bi/Ti Prediction
+### Section 9.2 The Bi/Ti Prediction
 
 The tightest match in the survey — Bi/Ti at $R \approx 30/137$ — is the most falsifiable single prediction. $30 = \text{lcm}(n_C, C_2) = \text{lcm}(5, 6)$ and $137 = N_{\max}$. If a fabricated Bi/Ti bilayer shows anomalous phonon transport, this would be strong evidence for BST integer control of interface physics. If it doesn't, this is an honest falsification target.
 
-### §9.3 Limitations
+### Section 9.3 Limitations
 
 1. Sound speeds used are bulk longitudinal values; thin-film speeds differ
 2. Lattice constants are conventional unit cells; some materials have complex structures
 3. Interface quality depends on epitaxy, not just mode matching
 4. The $\sim 70\%$ coverage means a "negative result" requires careful statistical treatment
 
-### §9.4 AC Classification
+### Section 9.4 AC Classification
 
 (C=2, D=0): two counting steps (compute $R$ from $v$ and $a$; match to nearest BST rational). Zero definitions — the rational matching is pure arithmetic. This is AC(0) work: a lookup table, not a derivation.
 

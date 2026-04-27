@@ -26,7 +26,7 @@ purpose: "Single source of truth for all AC research, results, and dependencies"
 
 | # | Document | Location | What it establishes | Status |
 |---|----------|----------|-------------------|--------|
-| F1 | **Arithmetic Complexity: A Theory of Method Noise** | `notes/BST_ArithmeticComplexity.md` | Core definition AC = M(Q) − I(Q). Noise hierarchy. Five classification axes. Grounding Tower (Levels 1-3). BST as AC(0) existence proof. Riemann hunt as controlled experiment. Full BST audit (§13). | **Complete** (14 sections, 645 lines) |
+| F1 | **Arithmetic Complexity: A Theory of Method Noise** | `notes/BST_ArithmeticComplexity.md` | Core definition AC = M(Q) − I(Q). Noise hierarchy. Five classification axes. Grounding Tower (Levels 1-3). BST as AC(0) existence proof. Riemann hunt as controlled experiment. Full BST audit (Section 13). | **Complete** (14 sections, 645 lines) |
 | F2 | **Is the Problem Hard, or Is the Method?** | `notes/maybe/BST_Complexity_Question_or_Method.md` | Separates substrate determinism from 3-space statistics. The philosophical grounding. | **Complete** |
 | F3 | **Catastrophe Theory Connection** | `notes/maybe/BST_ArithmeticComplexity_CatastropheTheory.md` | AC ↔ catastrophe theory (Thom). Method bifurcations. | **Complete** |
 
@@ -89,7 +89,7 @@ purpose: "Single source of truth for all AC research, results, and dependencies"
 | Natural coordinates exist for P (Thm 2) | T1 | Reversible computation | Proved |
 | AC sign is representation-invariant (Thm 7) | T1 | Thm 3 + bijectivity | Proved |
 | Hierarchy is strict (Thm 5) | T1 | Needs separating examples | Partial |
-| BST pipeline is AC(0) (audit) | F1 §13 | 6 categories verified | Complete |
+| BST pipeline is AC(0) (audit) | F1 Section 13 | 6 categories verified | Complete |
 | Crystallography is AC(0) | C2 | Pipeline decomposition | Complete |
 | 28 methods classified | C1 | Individual analysis | Complete |
 | AC predicts difficulty within domains | C1 | Empirical (5 domains) | Observed |
@@ -101,7 +101,7 @@ purpose: "Single source of truth for all AC research, results, and dependencies"
 | Conjecture | Source | Required for P ≠ NP? | Status |
 |-----------|--------|----------------------|--------|
 | Natural Coordinate Obstruction | T1 | Yes — this IS P ≠ NP | Open |
-| Shannon bridge (det. TM → channel) | P8 §6 | Yes — the load-bearing beam | Open |
+| Shannon bridge (det. TM → channel) | P8 Section 6 | Yes — the load-bearing beam | Open |
 | Rank reduction per Boolean constraint | P6 | Yes — core mechanism | Open |
 | ~~Barrier avoidance~~ | P9 | ~~Yes~~ | **Dissolved** — barriers are incompleteness of other formal systems; Shannon is outside all three |
 | Halting closure | P3, P4 | Strengthens but may not be required | Open |

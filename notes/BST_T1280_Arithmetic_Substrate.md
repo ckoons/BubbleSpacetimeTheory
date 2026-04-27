@@ -7,7 +7,7 @@ ac_classification: "(C=1, D=0) — one counting operation (enumerate ring-theore
 status: "Proved (16/16 ring-theoretic invariants map onto BST primitives). Conjectures C-φρ-1 and C-φρ-2 open. Graph-wired: 10 in / 10 out (balanced hub)."
 origin: "Elie's ring-theoretic investigation (April 16-17, 2026 late night). Toys 1219-1224, 94/94 PASS. Grace wired to graph. Lyra provided physics interpretation (signature → matter 1+2 decomposition, dark discriminant 23). Elie corrected Lyra's threshold prime (Toy 1222): g=7, not N_max=137."
 parents: "T186 (Five Integers), T704 (D_IV^5 uniqueness), T1278 (Overdetermination Signature), T1279 (Dark Boundary Origin), T1227 (Consonance Hierarchy), T1234 (Four Readings)"
-children: "T1278 ring-theoretic unification (pending), Paper #66 §10.5, Paper #68 §7.5 (level-2 refactor), C-φρ-1 and C-φρ-2 follow-up theorems"
+children: "T1278 ring-theoretic unification (pending), Paper #66 Section 10.5, Paper #68 Section 7.5 (level-2 refactor), C-φρ-1 and C-φρ-2 follow-up theorems"
 ---
 
 # T1280: BST's Arithmetic Substrate Is ℤ[φ, ρ]
@@ -155,7 +155,7 @@ Random-hit probability at 137: ~19% per prime (5:1 signal). Across all four BST 
 
 ## Connection to Paper #68 (Refactor Principle)
 
-T1280 provides the first evidence for the **level-2 refactor knob** hypothesized in Paper #68 §7.5:
+T1280 provides the first evidence for the **level-2 refactor knob** hypothesized in Paper #68 Section 7.5:
 
 - **Level 0** (saturated): prime set minimization → {2, 3, 5, 7}
 - **Level 1** (active): consonance between primes → T1227, 3/4 quadruple, zeta ladder

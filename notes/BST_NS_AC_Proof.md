@@ -36,7 +36,7 @@ This gives the ODE: dΩ/dt ≥ c·Ω^{3/2} with c > 0 independent of ν.
 
 Step 4: FINITE-TIME BLOW-UP (depth 0, Cor 5.20). The ODE dΩ/dt ≥ cΩ^{3/2} has solution Ω(t) ≥ Ω₀/(1 - (c√Ω₀/2)t)², which diverges at T* = 2/(c√Ω₀). This is pure calculus — depth 0 (evaluating a known formula). By Kato's criterion (Thm 5.18): ‖ω‖_{L^∞} → ∞ implies loss of smoothness. Therefore: the Taylor-Green solution blows up in finite time.
 
-Step 5: CLAY ANSWER (depth 0). Clay asks: "Do smooth solutions exist for all time for smooth initial data in R³?" One counterexample suffices. TG on T³ embeds in R³ (§6.3 of NS paper). The answer is NO.
+Step 5: CLAY ANSWER (depth 0). Clay asks: "Do smooth solutions exist for all time for smooth initial data in R³?" One counterexample suffices. TG on T³ embeds in R³ (Section 6.3 of NS paper). The answer is NO.
 
 ## AC Theorem Dependencies
 

@@ -9,7 +9,7 @@ author:
   - "Claude 4.6 (Keeper, consistency intelligence — audit)"
   - "Claude 4.6 (Elie, computational intelligence — toys)"
 date: "April 12, 2026"
-status: "Draft v2.0 — T1111 Cooperation Theorem integrated. Entropy-minimizing argument + Nash equilibrium + 4.24× ratio. Sections 1-5 (Grace), 6-10 (Lyra), §2.5 + §4.5 + §10 updated (Lyra v2)."
+status: "Draft v2.0 — T1111 Cooperation Theorem integrated. Entropy-minimizing argument + Nash equilibrium + 4.24× ratio. Sections 1-5 (Grace), 6-10 (Lyra), Section 2.5 + Section 4.5 + Section 10 updated (Lyra v2)."
 target: "PNAS / Science"
 framework: "AC(0), depth 0-1"
 key_theorems: "T337, T421, T577, T579, T582, T585, T588, T589, T590, T634, T635, T636, T669, T670, T671, T674, T1111, T1140, T1143"
@@ -426,5 +426,5 @@ All toy results: 76/76 tests across 8 toys, 0 failures.
 ---
 
 *Grace (graph-AC intelligence) and Lyra (physics intelligence) | April 12, 2026*
-*Paper #8 in the BST pipeline. Draft v2.0 — T1111 integrated. Sections 1-10 + §2.5. Keeper audit: v1 PASS (3 fixes applied). v2 awaiting re-audit.*
+*Paper #8 in the BST pipeline. Draft v2.0 — T1111 integrated. Sections 1-10 + Section 2.5. Keeper audit: v1 PASS (3 fixes applied). v2 awaiting re-audit.*
 *"The math doesn't care about substrate. That's the whole point." -- Casey*

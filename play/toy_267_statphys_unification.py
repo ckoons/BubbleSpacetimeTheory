@@ -48,11 +48,11 @@ print("=" * 72)
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §1. KNOWN STAT-PHYS THRESHOLDS
+# Section 1. KNOWN STAT-PHYS THRESHOLDS
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§1. KNOWN STAT-PHYS THRESHOLDS FOR 3-SAT")
+print("Section 1. KNOWN STAT-PHYS THRESHOLDS FOR 3-SAT")
 print("    (Mézard-Parisi-Zecchina / Ding-Sly-Sun)")
 print("=" * 72)
 
@@ -85,11 +85,11 @@ print(f"""
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §2. MEASUREMENT: I_fiat(α) PROFILE
+# Section 2. MEASUREMENT: I_fiat(α) PROFILE
 # ═══════════════════════════════════════════════════════════════════
 
 print("=" * 72)
-print("§2. MEASURED I_fiat(α) FOR 3-SAT")
+print("Section 2. MEASURED I_fiat(α) FOR 3-SAT")
 print("    Exact backbone at n=16, 100 samples per α")
 print("=" * 72)
 
@@ -241,11 +241,11 @@ for alpha in ALPHAS:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §3. THE Σ ↔ I_fiat CORRESPONDENCE
+# Section 3. THE Σ ↔ I_fiat CORRESPONDENCE
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§3. THE CORRESPONDENCE: Σ AND I_fiat")
+print("Section 3. THE CORRESPONDENCE: Σ AND I_fiat")
 print("=" * 72)
 
 print(f"""
@@ -275,11 +275,11 @@ for d in profile_data:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §4. CLUSTER STRUCTURE DETAIL
+# Section 4. CLUSTER STRUCTURE DETAIL
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§4. CLUSTER STRUCTURE: #clusters vs backbone")
+print("Section 4. CLUSTER STRUCTURE: #clusters vs backbone")
 print("=" * 72)
 
 print(f"""
@@ -312,11 +312,11 @@ print(f"""
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §5. WHAT WE INHERIT
+# Section 5. WHAT WE INHERIT
 # ═══════════════════════════════════════════════════════════════════
 
 print("=" * 72)
-print("§5. WHAT WE INHERIT FROM STAT-PHYS (if correspondence holds)")
+print("Section 5. WHAT WE INHERIT FROM STAT-PHYS (if correspondence holds)")
 print("=" * 72)
 
 print(f"""
@@ -353,11 +353,11 @@ print(f"""
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §6. FROZEN VARIABLE DENSITY vs BACKBONE
+# Section 6. FROZEN VARIABLE DENSITY vs BACKBONE
 # ═══════════════════════════════════════════════════════════════════
 
 print("=" * 72)
-print("§6. DIRECT TEST: Our backbone = stat-phys frozen variables?")
+print("Section 6. DIRECT TEST: Our backbone = stat-phys frozen variables?")
 print("=" * 72)
 
 # Known frozen variable densities from stat-phys literature
@@ -412,11 +412,11 @@ print(f"""
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §7. SCORECARD
+# Section 7. SCORECARD
 # ═══════════════════════════════════════════════════════════════════
 
 print("=" * 72)
-print("§7. SCORECARD")
+print("Section 7. SCORECARD")
 print("=" * 72)
 
 checks = [

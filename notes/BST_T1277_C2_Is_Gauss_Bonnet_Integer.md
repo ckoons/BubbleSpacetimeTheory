@@ -7,7 +7,7 @@ ac_classification: "(C=1, D=0) — one counting operation (Weyl group orders / B
 status: "Proved — three independent structural appearances of C_2 = 6"
 origin: "Elie's observation (18:45, April 16, 2026): after Toy 1214 (Gauss-Bonnet = C_2 verification, 14/14 PASS) the C_2 = 6 integer is now doing structural work in three places. Parallels the five-route overdetermination of N_max = 137 (Toy 1213). Evidence for the 'BST integers are overdetermined' pattern."
 parents: "T186 (Five Integers), T704 (D_IV^5 uniqueness), T1147 (B_2 root system), T1263 (Wolstenholme bridge), T531 (column rule / heat-kernel Arithmetic Triangle), T1272 (P ≠ NP Physical Uniqueness Closure), Casey's Curvature Principle"
-children: "T1272 updated, Paper #67 §9 footnote, B3 (five-forcings upgrade), B-C_2 candidate"
+children: "T1272 updated, Paper #67 Section 9 footnote, B3 (five-forcings upgrade), B-C_2 candidate"
 ---
 
 # T1277: C_2 = 6 Is Overdetermined — Three Independent Routes

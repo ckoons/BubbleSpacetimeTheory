@@ -109,7 +109,7 @@ def sp6_dim(a, b, c):
     return num // den
 
 
-print("\n§1. FUNDAMENTAL REPRESENTATIONS")
+print("\nSection 1. FUNDAMENTAL REPRESENTATIONS")
 print("-" * 50)
 
 fund_reps = [
@@ -132,7 +132,7 @@ print(f"  = 8! / 7 = 5040/... hmm")
 print(f"  Actually: 5760 = |W(B₃)| × Vol factor = 48 × 120 = 48 × 5!")
 print(f"  = |W(C₃)| × n_C! = {48 * 120}")
 
-print("\n§2. ALL REPRESENTATIONS UP TO WEIGHT 10")
+print("\nSection 2. ALL REPRESENTATIONS UP TO WEIGHT 10")
 print("-" * 50)
 
 # Collect all irreps
@@ -163,7 +163,7 @@ for d, (a, b, c) in sorted_dims:
     if d <= 200 or bst:
         print(f"  {d:>6}  ({a},{b},{c})  {mark}")
 
-print("\n§3. BST INTEGERS THAT ARE Sp(6) DIMENSIONS")
+print("\nSection 3. BST INTEGERS THAT ARE Sp(6) DIMENSIONS")
 print("-" * 50)
 
 print(f"\n  MATCHES FOUND:")
@@ -177,7 +177,7 @@ for val, name in sorted(BST_INTEGERS.items()):
     if val not in all_dim_set and val <= 2000:
         print(f"    {val:>5} = {name}")
 
-print("\n§4. STUNNING MATCHES")
+print("\nSection 4. STUNNING MATCHES")
 print("-" * 50)
 
 # Check specific interesting ones
@@ -219,7 +219,7 @@ for a, b, c, label in special:
     mark = f"★ {bst}" if bst else ""
     print(f"  ({a},{b},{c})  {d:>8}  {mark}")
 
-print("\n§5. THE 42 SEARCH")
+print("\nSection 5. THE 42 SEARCH")
 print("-" * 50)
 
 print("  Is 42 = P(1) = r × N_c × g a dimension of an Sp(6) irrep?")
@@ -238,7 +238,7 @@ if not found_42:
     print(f"  But: dim(ω₁) × g = 6 × 7 = 42 = C₂ × g")
     print(f"  42 = P(1) comes from the CHERN polynomial, not the representation ring")
 
-print("\n§6. THE 137 SEARCH")
+print("\nSection 6. THE 137 SEARCH")
 print("-" * 50)
 
 print("  Is 137 = N_max = 1/α a dimension of an Sp(6) irrep?")
@@ -256,7 +256,7 @@ if not found_137:
     print(f"  (because the Weyl formula gives products of small factors)")
     print(f"  137 comes from H₅ = 137/60, the harmonic number route")
 
-print("\n§7. TENSOR PRODUCT DECOMPOSITIONS")
+print("\nSection 7. TENSOR PRODUCT DECOMPOSITIONS")
 print("-" * 50)
 
 print("""
@@ -309,7 +309,7 @@ print(f"    Remaining: {remaining}")
 # V⊗³ = S³V ⊕ [hook] ⊕ Λ³V
 # hook = (2,1,0) in partition notation... for Sp it's more complex
 
-print("\n§8. DIMENSION PATTERNS")
+print("\nSection 8. DIMENSION PATTERNS")
 print("-" * 50)
 
 print("  Dimensions of Sym^k(6) = (k,0,0):\n")
@@ -335,7 +335,7 @@ for k in range(1, 8):
     mark = f"  ★ {bst}" if bst else ""
     print(f"    (0,0,{k}): dim = {d}{mark}")
 
-print("\n§9. THE DARK: WHAT THE REPRESENTATION RING REVEALS")
+print("\nSection 9. THE DARK: WHAT THE REPRESENTATION RING REVEALS")
 print("-" * 50)
 
 # Look for dimensions that factor into BST primes
@@ -374,7 +374,7 @@ for d, (a, b, c) in sorted_dims:
 
 print(f"\n  Total with pure BST-prime factorization: {count_bst_factor}")
 
-print("\n§10. VIRTUAL REPRESENTATIONS AND BST")
+print("\nSection 10. VIRTUAL REPRESENTATIONS AND BST")
 print("-" * 50)
 
 print("""
@@ -399,7 +399,7 @@ for k in range(1, 9):
     print(f"    Sym^{k} - Sym^{k-1} = {d} - {prev} = {diff}{mark}")
     prev = d
 
-print("\n§11. THE CASIMIR EIGENVALUES")
+print("\nSection 11. THE CASIMIR EIGENVALUES")
 print("-" * 50)
 
 print("""
@@ -443,7 +443,7 @@ for a, b, c in cas_special:
     note_str = "; ".join(notes)
     print(f"  ({a},{b},{c})  {d:>6} {cas:>6}  {note_str}")
 
-print("\n§12. THE DEEP PATTERN")
+print("\nSection 12. THE DEEP PATTERN")
 print("-" * 50)
 
 print("""
@@ -475,7 +475,7 @@ print("""
 """)
 
 print("=" * 72)
-print("§13. SUMMARY")
+print("Section 13. SUMMARY")
 print("=" * 72)
 
 print(f"""

@@ -33,9 +33,9 @@ print("=" * 72)
 N_c = 3; n_C = 5; g = 7; C2 = 6; r = 2; c2 = 11; c3 = 13
 
 # ═══════════════════════════════════════════════════════════════
-# §1. THE su(N)₁ PALINDROME FOR ALL N
+# Section 1. THE su(N)₁ PALINDROME FOR ALL N
 # ═══════════════════════════════════════════════════════════════
-print("\n§1. THE su(N)₁ CONFORMAL WEIGHT PALINDROME")
+print("\nSection 1. THE su(N)₁ CONFORMAL WEIGHT PALINDROME")
 print("-" * 50)
 
 print("""
@@ -71,9 +71,9 @@ for N in range(2, 12):
     print()
 
 # ═══════════════════════════════════════════════════════════════
-# §2. WHY su(7)₁ IS SPECIAL
+# Section 2. WHY su(7)₁ IS SPECIAL
 # ═══════════════════════════════════════════════════════════════
-print("\n§2. WHY su(7) IS SPECIAL: BST INTEGER MATCHING")
+print("\nSection 2. WHY su(7) IS SPECIAL: BST INTEGER MATCHING")
 print("-" * 50)
 
 print("""
@@ -129,9 +129,9 @@ for N in range(3, 12):
     print(f"    su({N:2d})₁: {sorted(nums)}")
 
 # ═══════════════════════════════════════════════════════════════
-# §3. THE k(N-k)/2 FORMULA
+# Section 3. THE k(N-k)/2 FORMULA
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§3. THE TRIANGULAR NUMBER CONNECTION")
+print("\n\nSection 3. THE TRIANGULAR NUMBER CONNECTION")
 print("-" * 50)
 
 print("""
@@ -170,9 +170,9 @@ print(f"  6 ≠ 6... actually they ARE equal! C₂ = T_{{N_c}} = 2N_c... no")
 print(f"  T_3 = 6 and C₂ = 6 and C₂ = n_C + 1 = 6. All consistent.")
 
 # ═══════════════════════════════════════════════════════════════
-# §4. E₆ AT LEVEL 1: FULL MODULAR DATA
+# Section 4. E₆ AT LEVEL 1: FULL MODULAR DATA
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§4. E₆ AT LEVEL 1: THE COLOR CONFINEMENT RING")
+print("\n\nSection 4. E₆ AT LEVEL 1: THE COLOR CONFINEMENT RING")
 print("-" * 50)
 
 print(f"""
@@ -260,9 +260,9 @@ for i in range(3):
           f"= exp(2πi × {float(twist):.4f})")
 
 # ═══════════════════════════════════════════════════════════════
-# §5. THE CASIMIR-EIGENVALUE BRIDGE
+# Section 5. THE CASIMIR-EIGENVALUE BRIDGE
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§5. THE CASIMIR-EIGENVALUE BRIDGE")
+print("\n\nSection 5. THE CASIMIR-EIGENVALUE BRIDGE")
 print("-" * 50)
 
 # so(7) reps and their Casimir values
@@ -346,9 +346,9 @@ for k in range(6):
     print(f"    S^{k}V: C₂ = {cas} {match}")
 
 # ═══════════════════════════════════════════════════════════════
-# §6. THE SYMMETRIC POWER THEOREM
+# Section 6. THE SYMMETRIC POWER THEOREM
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§6. THE SYMMETRIC POWER THEOREM")
+print("\n\nSection 6. THE SYMMETRIC POWER THEOREM")
 print("-" * 50)
 
 print(f"""
@@ -383,9 +383,9 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §7. WHAT THIS MEANS FOR THE su(7) PALINDROME
+# Section 7. WHAT THIS MEANS FOR THE su(7) PALINDROME
 # ═══════════════════════════════════════════════════════════════
-print("\n§7. THE su(7) PALINDROME MEETS THE EIGENVALUE BRIDGE")
+print("\nSection 7. THE su(7) PALINDROME MEETS THE EIGENVALUE BRIDGE")
 print("-" * 50)
 
 print(f"""
@@ -415,9 +415,9 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §8. THE BABY CASE: su(3)₁ AND Q³
+# Section 8. THE BABY CASE: su(3)₁ AND Q³
 # ═══════════════════════════════════════════════════════════════
-print("\n§8. THE BABY CASE: su(3)₁ AND Q³")
+print("\nSection 8. THE BABY CASE: su(3)₁ AND Q³")
 print("-" * 50)
 
 # For Q³: n_C = 3, N_c = 2, g(Q³) = 3 (odd!!  g = 2N_c - 1 = 3)
@@ -461,9 +461,9 @@ print(f"  Simplified numerators: {su5_nums_simp}")
 print(f"  = [0, 2, 3, 3, 2]  — palindromic, max = 3 = N_c at center")
 
 # ═══════════════════════════════════════════════════════════════
-# §9. su(g)₁ vs su(n_C)₁ vs su(2^{N_c})₁
+# Section 9. su(g)₁ vs su(n_C)₁ vs su(2^{N_c})₁
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§9. THE THREE su(N)₁ MODELS WITH c = 6")
+print("\n\nSection 9. THE THREE su(N)₁ MODELS WITH c = 6")
 print("-" * 50)
 
 print("""
@@ -495,9 +495,9 @@ for N in range(3, 16):
     print(f"    su({N:2d})₁: {str(sorted(simp_nums)):30s}  {mark}")
 
 # ═══════════════════════════════════════════════════════════════
-# §10. THE CONFORMAL WEIGHT DENOMINATOR THEOREM
+# Section 10. THE CONFORMAL WEIGHT DENOMINATOR THEOREM
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§10. THE CONFORMAL WEIGHT DENOMINATOR THEOREM")
+print("\n\nSection 10. THE CONFORMAL WEIGHT DENOMINATOR THEOREM")
 print("-" * 50)
 
 print("""
@@ -536,9 +536,9 @@ for name, h in [('V', Fraction(3,7)), ('A', Fraction(5,7)),
     print(f"    {name:6s}: h = {num_bst}/{den_bst} = {h}")
 
 # ═══════════════════════════════════════════════════════════════
-# §11. THE CONFORMAL WEIGHT SUM RULES
+# Section 11. THE CONFORMAL WEIGHT SUM RULES
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§11. CONFORMAL WEIGHT SUM RULES")
+print("\n\nSection 11. CONFORMAL WEIGHT SUM RULES")
 print("-" * 50)
 
 wall_sum = Fraction(3,7) + Fraction(5,7) + Fraction(6,7)
@@ -568,7 +568,7 @@ print(f"      = {all_nums}")
 # ═══════════════════════════════════════════════════════════════
 print("\n")
 print("=" * 72)
-print("§12. SYNTHESIS")
+print("Section 12. SYNTHESIS")
 print("=" * 72)
 
 print(f"""

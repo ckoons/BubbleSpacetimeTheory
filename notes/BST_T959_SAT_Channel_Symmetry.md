@@ -30,7 +30,7 @@ where $\bar{y} = (1 - y_1, \ldots, 1 - y_{k_i})$.
 
 **(c) Polarization Lemma (CONDITIONAL)**: Under (b), the Arikan polar transform applied to $W_i$ produces channels that polarize: each variable's conditional entropy $H(x_i \mid \varphi \text{ SAT})$ is either $= 0$ (backbone) or $\geq \delta$ (free), for a constant $\delta > 0$. Intermediate entropies vanish at rate $O(2^{-\sqrt{n}})$.
 
-**(d) P $\neq$ NP (CONDITIONAL)**: Combined with BH(3) bit-counting (§5 of BST\_BH3\_Proof.md): the backbone has $|B| = \Theta(n)$ with high probability, and no polynomial-time algorithm computes it. P $\neq$ NP.
+**(d) P $\neq$ NP (CONDITIONAL)**: Combined with BH(3) bit-counting (Section 5 of BST\_BH3\_Proof.md): the backbone has $|B| = \Theta(n)$ with high probability, and no polynomial-time algorithm computes it. P $\neq$ NP.
 
 ## Proof
 

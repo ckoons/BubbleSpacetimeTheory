@@ -57,11 +57,11 @@ def rescaled_heat_trace(t, n, k_max=300):
     return Z * (4 * np.pi * t) ** n
 
 # ═══════════════════════════════════════════════════════════════════════
-# §1. SPECTRUM AND BASIC PARAMETERS
+# Section 1. SPECTRUM AND BASIC PARAMETERS
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§1. Spectrum and Root Data for D_IV^n Family")
+print("Section 1. Spectrum and Root Data for D_IV^n Family")
 print("=" * 72)
 
 print(f"\n  {'n':>3} {'dim_R':>5} {'N_c':>4} {'m_s':>4} {'g':>3} {'λ₁':>4} "
@@ -94,11 +94,11 @@ for n in range(3, 9):
           f"{d1:4d} {rho_sq:8.2f} {rho1:6.2f} {rho2:6.2f}{marker}")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §2. SEELEY-DEWITT COEFFICIENTS
+# Section 2. SEELEY-DEWITT COEFFICIENTS
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§2. Seeley-DeWitt Coefficients from Heat Trace")
+print("Section 2. Seeley-DeWitt Coefficients from Heat Trace")
 print("=" * 72)
 
 print("""
@@ -167,14 +167,14 @@ else:
     # This is also interesting — it means the distinction isn't in the SD coefficients
     checks += 1
     print(f"  ✓ Q⁴ also has non-negative coefficients — Pillar 2 may not be the selector!")
-    print(f"    (This is a NEW FINDING — see §6)")
+    print(f"    (This is a NEW FINDING — see Section 6)")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §3. RESCALED HEAT TRACE MONOTONICITY
+# Section 3. RESCALED HEAT TRACE MONOTONICITY
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§3. Rescaled Heat Trace F(t) — Monotonicity Test")
+print("Section 3. Rescaled Heat Trace F(t) — Monotonicity Test")
 print("=" * 72)
 
 print("""
@@ -203,11 +203,11 @@ for n in [3, 4, 5, 6]:
     print(f"        F range: [{F_min:.4f}, {F_max:.4f}]")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §4. GAUSSIAN SUPPRESSION: |ρ|² COMPARISON
+# Section 4. GAUSSIAN SUPPRESSION: |ρ|² COMPARISON
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§4. Gaussian Suppression Factor exp(-|ρ|²t)")
+print("Section 4. Gaussian Suppression Factor exp(-|ρ|²t)")
 print("=" * 72)
 
 print("""
@@ -230,11 +230,11 @@ print(f"  Q⁵ suppresses better than Q⁴ but worse than Q⁶.")
 print(f"  → Gaussian suppression alone does NOT select n=5.")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §5. c-FUNCTION POLE STRUCTURE: EVEN vs ODD m_s
+# Section 5. c-FUNCTION POLE STRUCTURE: EVEN vs ODD m_s
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§5. c-Function Pole Structure: Even vs Odd m_s")
+print("Section 5. c-Function Pole Structure: Even vs Odd m_s")
 print("=" * 72)
 
 print("""
@@ -288,20 +288,20 @@ So WHY does AdS (D₂) fail and BST (D₃) succeed?
 """)
 
 # ═══════════════════════════════════════════════════════════════════════
-# §6. THE REAL DISTINCTION: WHAT CHANGES AT n=5?
+# Section 6. THE REAL DISTINCTION: WHAT CHANGES AT n=5?
 # ═══════════════════════════════════════════════════════════════════════
 
 print("=" * 72)
-print("§6. The Real Distinction — Testing Every Candidate")
+print("Section 6. The Real Distinction — Testing Every Candidate")
 print("=" * 72)
 
 print("""
 Candidate A: Seeley-DeWitt sign structure (Pillar 2)
-  → Tested in §2. If both Q⁴ and Q⁵ have non-negative a_j,
+  → Tested in Section 2. If both Q⁴ and Q⁵ have non-negative a_j,
     then Pillar 2 is NOT the selector.
 
 Candidate B: Gaussian suppression |ρ|²
-  → Tested in §4. Monotonic in n, does not select n=5.
+  → Tested in Section 4. Monotonic in n, does not select n=5.
 
 Candidate C: Kill shot existence (Pillar 1)
   → Both D₂ and D₃ have the kill shot. Not the selector.
@@ -362,11 +362,11 @@ This actually HELPS n=5 over n=4, but it doesn't explain a QUALITATIVE break.
 """)
 
 # ═══════════════════════════════════════════════════════════════════════
-# §7. THE ANSWER: WHAT ACTUALLY SELECTS n=5?
+# Section 7. THE ANSWER: WHAT ACTUALLY SELECTS n=5?
 # ═══════════════════════════════════════════════════════════════════════
 
 print("=" * 72)
-print("§7. The Answer — All Four Pillars Work for n ≥ 4")
+print("Section 7. The Answer — All Four Pillars Work for n ≥ 4")
 print("=" * 72)
 
 print("""
@@ -401,11 +401,11 @@ print("    The kill shot, geometric smoothness, exponent distinctness,")
 print("    and Mandelbrojt uniqueness are all generic for N_c ≥ 2.")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §8. REINTERPRETATION OF TOY 209
+# Section 8. REINTERPRETATION OF TOY 209
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§8. Reinterpretation of Toy 209 (AdS vs BST)")
+print("Section 8. Reinterpretation of Toy 209 (AdS vs BST)")
 print("=" * 72)
 
 print("""
@@ -436,11 +436,11 @@ print("  ✓ Toy 209 reinterpreted: its claim was about the WITHDRAWN proof,")
 print("    not the current Route A proof. The correction is honest.")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §9. THE STRENGTHENED RESULT
+# Section 9. THE STRENGTHENED RESULT
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§9. The Strengthened Result")
+print("Section 9. The Strengthened Result")
 print("=" * 72)
 
 print("""
@@ -468,11 +468,11 @@ This is STRONGER than "only BST proves RH":
 """)
 
 # ═══════════════════════════════════════════════════════════════════════
-# §10. QUANTITATIVE COMPARISON TABLE
+# Section 10. QUANTITATIVE COMPARISON TABLE
 # ═══════════════════════════════════════════════════════════════════════
 
 print("=" * 72)
-print("§10. Quantitative Summary Table")
+print("Section 10. Quantitative Summary Table")
 print("=" * 72)
 
 print(f"\n  {'Property':>35} ", end="")

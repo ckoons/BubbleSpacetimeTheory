@@ -27,7 +27,7 @@ print("=" * 72)
 # ═══════════════════════════════════════════════════════════════════════
 # Section 1: The Key Identity
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§1. THE KEY IDENTITY: N_c × g = dim 𝔤")
+print("\nSection 1. THE KEY IDENTITY: N_c × g = dim 𝔤")
 print("-" * 50)
 
 print("""
@@ -70,7 +70,7 @@ g winding modes) exactly SATURATES the geometry (the Lie algebra).
 # ═══════════════════════════════════════════════════════════════════════
 # Section 2: The Fiber Packing Number
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§2. DERIVING 147 = dim(𝔤 ⊗ V₁)")
+print("\nSection 2. DERIVING 147 = dim(𝔤 ⊗ V₁)")
 print("-" * 50)
 
 print("""
@@ -109,7 +109,7 @@ print(f"  dim(𝔤⊗V₁) = {dim_g} × {dim_V1} = {dim_g * dim_V1} = 147 ✓")
 # ═══════════════════════════════════════════════════════════════════════
 # Section 3: The Representation Decomposition
 # ═══════════════════════════════════════════════════════════════════════
-print("\n\n§3. REPRESENTATION DECOMPOSITION: 𝔤 ⊗ V₁ = Λ³V₁ ⊕ V_hook ⊕ V₁")
+print("\n\nSection 3. REPRESENTATION DECOMPOSITION: 𝔤 ⊗ V₁ = Λ³V₁ ⊕ V_hook ⊕ V₁")
 print("-" * 50)
 
 print("""
@@ -167,7 +167,7 @@ print(f"  Confirmed: dim V_(2,1,0) = 105 ✓")
 # ═══════════════════════════════════════════════════════════════════════
 # Section 4: The 42 Connection
 # ═══════════════════════════════════════════════════════════════════════
-print("\n\n§4. THE 42 CONNECTION: MATTER SECTOR = V₁ ⊕ Λ³V₁")
+print("\n\nSection 4. THE 42 CONNECTION: MATTER SECTOR = V₁ ⊕ Λ³V₁")
 print("-" * 50)
 
 print("""
@@ -217,7 +217,7 @@ print(f"        = 7 × 21 = 147 ✓")
 # ═══════════════════════════════════════════════════════════════════════
 # Section 5: Why g = dim V₁ Only for n = 5
 # ═══════════════════════════════════════════════════════════════════════
-print("\n\n§5. THE GENUS-REPRESENTATION IDENTITY: g = dim V₁ ⟺ n_C = 5")
+print("\n\nSection 5. THE GENUS-REPRESENTATION IDENTITY: g = dim V₁ ⟺ n_C = 5")
 print("-" * 50)
 
 print("""
@@ -242,7 +242,7 @@ for nn in range(3, 10):
 # ═══════════════════════════════════════════════════════════════════════
 # Section 6: The Chain from 42 to 147
 # ═══════════════════════════════════════════════════════════════════════
-print("\n\n§6. THE CHAIN: 42 → 21 → 147")
+print("\n\nSection 6. THE CHAIN: 42 → 21 → 147")
 print("-" * 50)
 
 print(f"""
@@ -268,7 +268,7 @@ print(f"  42 × 7 / 2 = {42 * 7 // 2} = 147 ✓")
 # ═══════════════════════════════════════════════════════════════════════
 # Section 7: The Budget Equation
 # ═══════════════════════════════════════════════════════════════════════
-print("\n\n§7. THE BUDGET EQUATION: 147 - 137 = 10")
+print("\n\nSection 7. THE BUDGET EQUATION: 147 - 137 = 10")
 print("-" * 50)
 
 print("""
@@ -298,7 +298,7 @@ print(f"  Gap = dim_R: {packing - N_max == dim_R} ✓")
 # ═══════════════════════════════════════════════════════════════════════
 # Section 8: Elie's Discovery — Gap Uniqueness
 # ═══════════════════════════════════════════════════════════════════════
-print("\n\n§8. ELIE'S DISCOVERY: gap = dim_R IS UNIQUE TO n = 5")
+print("\n\nSection 8. ELIE'S DISCOVERY: gap = dim_R IS UNIQUE TO n = 5")
 print("-" * 50)
 
 print("""
@@ -342,7 +342,7 @@ for nn in range(3, 12):
 # ═══════════════════════════════════════════════════════════════════════
 # Section 9: The Complete Factorization of 147
 # ═══════════════════════════════════════════════════════════════════════
-print("\n\n§9. SEVEN WAYS TO SEE 147")
+print("\n\nSection 9. SEVEN WAYS TO SEE 147")
 print("-" * 50)
 
 print("""
@@ -361,7 +361,7 @@ print("""
 # ═══════════════════════════════════════════════════════════════════════
 # Section 10: The Three Uniqueness Conditions from 147
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§10. THREE UNIQUENESS CONDITIONS FROM 147")
+print("\nSection 10. THREE UNIQUENESS CONDITIONS FROM 147")
 print("-" * 50)
 
 print("""
@@ -387,7 +387,7 @@ The fiber packing provides THREE independent selections of n_C = 5:
 # ═══════════════════════════════════════════════════════════════════════
 # Section 11: The Physical Interpretation
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§11. THE PHYSICAL INTERPRETATION")
+print("\nSection 11. THE PHYSICAL INTERPRETATION")
 print("-" * 50)
 
 print("""
@@ -430,7 +430,7 @@ for nn in [4, 5, 6]:
 # ═══════════════════════════════════════════════════════════════════════
 # Section 12: The Selection Hierarchy (Updated)
 # ═══════════════════════════════════════════════════════════════════════
-print("\n\n§12. THE SELECTION HIERARCHY (COMPLETE)")
+print("\n\nSection 12. THE SELECTION HIERARCHY (COMPLETE)")
 print("-" * 50)
 
 print("""
@@ -460,7 +460,7 @@ print("""
 # ═══════════════════════════════════════════════════════════════════════
 # Section 13: Verification Summary
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§13. VERIFICATION SUMMARY")
+print("\nSection 13. VERIFICATION SUMMARY")
 print("-" * 50)
 
 checks = [

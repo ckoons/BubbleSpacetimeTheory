@@ -400,7 +400,7 @@ print(f"    Absent (U in DNA) = DAMAGE (repair it)")
 print(f"    Present (T in DNA) = INTENDED (leave it)")
 print(f"  Minimum error detection: 1 bit per base")
 
-# Connection to Paper A §7 (channel identification):
+# Connection to Paper A Section 7 (channel identification):
 # T/U flag + 2'-OH flag = 2 1-bit flags = rank
 # Both flags serve double duty:
 # T flag: error correction + archive marking
@@ -505,7 +505,7 @@ print("\n" + "=" * 60)
 print("Test 11: Spliceosome = the protocol layer processor")
 print("=" * 60)
 
-# The spliceosome removes introns (Paper B §7: "protocol layer").
+# The spliceosome removes introns (Paper B Section 7: "protocol layer").
 # Major spliceosome (U2-dependent):
 # 5 snRNPs: U1, U2, U4, U5, U6
 snrnps = 5  # = n_C
@@ -530,7 +530,7 @@ print(f"  Chemical steps: {splicing_steps} transesterifications = rank = {rank}"
 # Average alternatively spliced transcripts per gene: ~5-7
 # Median ~3 (simple genes) to ~10+ (complex genes)
 # The MECHANISM of alternative splicing involves choosing among
-# splice sites — this is SELECTION at the protocol layer (Paper B §3)
+# splice sites — this is SELECTION at the protocol layer (Paper B Section 3)
 print(f"\n  Alternative splicing = selection at the protocol layer")
 print(f"  Same code, different builds = compile-time options")
 

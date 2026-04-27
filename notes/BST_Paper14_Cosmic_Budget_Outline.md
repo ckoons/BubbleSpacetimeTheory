@@ -30,7 +30,7 @@ All five within 1σ of Planck. The denominators: 19 and 361 = 19².
 
 ## Outline
 
-### §1. Three Routes to 13/19
+### Section 1. Three Routes to 13/19
 
 **Route 1 — Chern polynomial (depth 0):**
 c(Q⁵) = (1+h)⁷/(1+2h) = 1 + 5h + 11h² + 13h³ + 9h⁴ + 3h⁵
@@ -48,7 +48,7 @@ Heat kernel speaking pairs at k=20,21 (Pair 4) and k=25,26 (Pair 5):
 - Ω_Λ = G'₅/n_C ÷ G₄/rank = 13/19
 COMMITTED BEFORE COMPUTATION (T678 timestamp). Third independent derivation.
 
-### §2. The Dark Matter Ratio: 16/3
+### Section 2. The Dark Matter Ratio: 16/3
 
 Ω_DM/Ω_b = (3n_C+1)/N_c = 16/3 = 5.333
 
@@ -62,7 +62,7 @@ Shannon channel capacity argument:
 Dark matter is NOT particles. It is uncommitted information bandwidth (T205).
 No WIMPs. No axions. Just empty channels in the geometry.
 
-### §3. The Binary Universe: 13 + 19 = 32 = 2^n_C (Lyra)
+### Section 3. The Binary Universe: 13 + 19 = 32 = 2^n_C (Lyra)
 
 The cosmic composition reveals a binary structure that cannot be adjusted.
 
@@ -92,7 +92,7 @@ $$c_0 - c_1 + c_2 - c_3 + c_4 - c_5 = 1 - 5 + 11 - 13 + 9 - 3 = 0$$
 
 The Euler characteristic of $Q^5$ is zero. The universe's budget balances to zero alternating sum. This is not a prediction -- it is a topological constraint (the Chern polynomial of $Q^5$ evaluated at $h = -1$). But it provides an independent consistency check.
 
-### §4. Why 19 Is Everywhere (Lyra)
+### Section 4. Why 19 Is Everywhere (Lyra)
 
 The number 19 appears in at least seven independent contexts within BST. This is not coincidence -- all seven are the same integer $N_c^2 + 2n_C$ evaluated in different settings.
 
@@ -127,7 +127,7 @@ The first term ($N_c^2 = 9$) counts the entries of the $N_c \times N_c$ color ma
 
 The primality of 19 is load-bearing: it means the cosmic budget has no non-trivial sub-budgets. The universe's energy allocation cannot be factored into independent sub-problems. There is one budget, one denominator, one geometry.
 
-### §5. Dark Energy ≠ Mystery
+### Section 5. Dark Energy ≠ Mystery
 
 Dark energy = the geometric pressure from uncommitted bandwidth.
 - The geometry has 19 total information modes
@@ -136,7 +136,7 @@ Dark energy = the geometric pressure from uncommitted bandwidth.
 - The 13 uncommitted modes create expansion pressure
 - w₀ = -1 + n_C/N_max² ≈ -0.9997 (consistent with ΛCDM)
 
-### §6. Predictions and Tests
+### Section 6. Predictions and Tests
 
 1. **Ω_DM/Ω_b = 16/3 exactly** — precision Planck/CMB-S4 measurement
 2. **13 + 19 = 32** — structural prediction: no alternative decomposition exists
@@ -144,7 +144,7 @@ Dark energy = the geometric pressure from uncommitted bandwidth.
 4. **w₀ ≠ -1** — DESI, Euclid (tiny deviation: n_C/N_max² = 5/18769)
 5. **Five-pair cycle continues** — k=30,31 (Pair 6) gives 87, 93 = N_c × backbone primes
 
-### §7. Relation to Prior Work
+### Section 7. Relation to Prior Work
 
 - Planck 2018: All BST fractions within 1σ
 - DESI 2024: Hints of w ≠ -1 consistent with BST prediction
@@ -155,7 +155,7 @@ Dark energy = the geometric pressure from uncommitted bandwidth.
 
 - `notes/BST_CosmicComposition_Thermodynamics_Mesons.md` — existing derivations (System A and B)
 - `notes/BST_Five_Pair_Cycle.md` — five-pair cycle (T676-T678)
-- `WorkingPaper.md` §22 — cosmic composition section
+- `WorkingPaper.md` Section 22 — cosmic composition section
 - README.md lines 148-150 — prediction table entries
 - Toys 649, 661 — k=20 and k=25 numerical verification
 
@@ -169,9 +169,9 @@ T676 (Backbone Sequence), T677 (Cycle Length), T678 (Cosmic Composition Predicti
 | Task | Owner | Status |
 |------|-------|--------|
 | Outline | Grace+Keeper | **DONE** (this file) |
-| §1-2 derivations | Grace | NEXT |
-| §3-4 number theory | Lyra | **DRAFTED** (in this file) — 2 Keeper issues FIXED |
-| §5-7 predictions + falsification + prior work | Keeper | **DONE** — BST_Paper14_Keeper_Sections.md |
+| Section 1-2 derivations | Grace | NEXT |
+| Section 3-4 number theory | Lyra | **DRAFTED** (in this file) — 2 Keeper issues FIXED |
+| Section 5-7 predictions + falsification + prior work | Keeper | **DONE** — BST_Paper14_Keeper_Sections.md |
 | Toy: cosmic budget verification | Elie | **DONE** — Toy 667, 10/10. Three routes identical. |
 | Toy: 19-everywhere verification | Elie | NEXT |
 | Narrative pass | Keeper | After draft |

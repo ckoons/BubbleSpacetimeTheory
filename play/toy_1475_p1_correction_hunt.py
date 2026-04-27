@@ -17,7 +17,7 @@ FIVE CORRECTIONS FOUND, ZERO NEW INPUTS:
    200× improvement. Same lattice QCD 2024 comparison.
 
 3. a_V (SEMF volume): TABLE FIX — formula should be g·B_d = g·(50/49)·αm_p/π.
-   Paper #83 §8 incorrectly wrote 7αm_p/π (missing B_d correction).
+   Paper #83 Section 8 incorrectly wrote 7αm_p/π (missing B_d correction).
    True precision: 0.05% (not 2.0%).
 
 4. a_S (SEMF surface): (g+1)·B_d (3.3%) → √(2n_C·C₂)·B_d = √60·B_d (0.02%)

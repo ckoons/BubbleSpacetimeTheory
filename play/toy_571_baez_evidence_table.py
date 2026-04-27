@@ -156,7 +156,7 @@ m_H_measured = 125.25  # GeV, PDG 2022 (CMS+ATLAS combined)
 m_H_bst = 125.11  # GeV, from BST derivation (WorkingPaper)
 add_prediction(
     "Higgs mass",
-    "BST derivation (WorkingPaper §8)",
+    "BST derivation (WorkingPaper Section 8)",
     m_H_bst, m_H_measured, "GeV",
     "PDG 2022 (ATLAS+CMS)",
     threshold=0.005

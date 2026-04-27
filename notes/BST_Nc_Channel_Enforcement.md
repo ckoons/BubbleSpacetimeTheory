@@ -14,7 +14,7 @@ parent_papers: "#8 (Cooperation), #16 (Development), #19 (Great Filter)"
 
 ---
 
-## §1. The Principle
+## Section 1. The Principle
 
 **Theorem T713 (N_c-Channel Enforcement).** On $D_{IV}^5$, any process that involves progressive filling of independent modes is governed by $N_c = 3$ as the channel count. The $N_c$ root appears wherever the geometry enforces balanced multi-channel participation.
 
@@ -30,7 +30,7 @@ Three proved instances:
 
 ---
 
-## §2. Root System Origin
+## Section 2. Root System Origin
 
 ### 2.1 The B₂ Restricted Root System
 
@@ -52,7 +52,7 @@ The channel count $N_c = 3$ is therefore the number of independent filling direc
 
 ---
 
-## §3. Instance 1: Cooperation Threshold
+## Section 3. Instance 1: Cooperation Threshold
 
 ### Statement (T579)
 
@@ -74,7 +74,7 @@ The three short roots of $B_2$ are the three decay channels. Each root direction
 
 ---
 
-## §4. Instance 2: Ecological Recovery
+## Section 4. Instance 2: Ecological Recovery
 
 ### Statement (Toy 687)
 
@@ -107,7 +107,7 @@ This is the same three-way balance as cooperation: the three short roots of $B_2
 
 ---
 
-## §5. Instance 3: Spectral Self-Similarity
+## Section 5. Instance 3: Spectral Self-Similarity
 
 ### Statement (T708)
 
@@ -129,7 +129,7 @@ This reflects the three-language structure of the theorem graph: Shannon, Todd, 
 
 ---
 
-## §6. The Boundary: Why N_c = 3
+## Section 6. The Boundary: Why N_c = 3
 
 ### 6.1 The Cooperation Gap
 
@@ -158,7 +158,7 @@ $N_c = 3$ is the critical case: exactly enough channels to require cooperation, 
 
 ---
 
-## §7. Unifying Statement
+## Section 7. Unifying Statement
 
 The three instances share a common mathematical structure:
 
@@ -174,7 +174,7 @@ The three instances share a common mathematical structure:
 
 ---
 
-## §8. Predictions
+## Section 8. Predictions
 
 1. **Any new filling process** on $D_{IV}^5$ should exhibit $N_c = 3$ as its channel count. Candidates: learning rate curves for human-CI teams, neural network convergence on BST-structured data, market dynamics in cooperative economies.
 

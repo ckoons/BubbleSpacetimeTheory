@@ -31,9 +31,9 @@ print("TOY 176: VERLINDE FUSION RING")
 print("=" * 72)
 
 # =====================================================================
-# §1. BABY CASE: B_2 AT LEVEL 2
+# Section 1. BABY CASE: B_2 AT LEVEL 2
 # =====================================================================
-print("\n§1. BABY CASE: B_2 = so(5) AT LEVEL 2")
+print("\nSection 1. BABY CASE: B_2 = so(5) AT LEVEL 2")
 print("-" * 50)
 
 # B_2: rank 2, dim = 10, h∨ = 3, ℓ+h∨ = 5
@@ -101,9 +101,9 @@ for (a1, a2), eps in weights_B2:
 print(f"\n  Non-wall primaries: {len(non_wall_B2)}")
 
 # =====================================================================
-# §2. QUANTUM DIMENSIONS FOR B_2 LEVEL 2
+# Section 2. QUANTUM DIMENSIONS FOR B_2 LEVEL 2
 # =====================================================================
-print("\n\n§2. QUANTUM DIMENSIONS FOR B_2 LEVEL 2")
+print("\n\nSection 2. QUANTUM DIMENSIONS FOR B_2 LEVEL 2")
 print("-" * 50)
 
 def quantum_dim_B2(eps, rho, M, positive_coroots):
@@ -128,9 +128,9 @@ print(f"\n  D² = {D2_B2:.6f}")
 print(f"  √D² = {math.sqrt(D2_B2):.6f}")
 
 # =====================================================================
-# §3. S-MATRIX FOR B_2 LEVEL 2
+# Section 3. S-MATRIX FOR B_2 LEVEL 2
 # =====================================================================
-print("\n\n§3. MODULAR S-MATRIX FOR B_2 LEVEL 2")
+print("\n\nSection 3. MODULAR S-MATRIX FOR B_2 LEVEL 2")
 print("-" * 50)
 
 # Weyl group of B_2: signed permutations of (x1, x2)
@@ -178,9 +178,9 @@ for i in range(n_nw):
     print(f"    d_{i} = {dq:.6f}")
 
 # =====================================================================
-# §4. VERLINDE FUSION COEFFICIENTS FOR B_2 LEVEL 2
+# Section 4. VERLINDE FUSION COEFFICIENTS FOR B_2 LEVEL 2
 # =====================================================================
-print("\n\n§4. VERLINDE FUSION COEFFICIENTS FOR B_2 LEVEL 2")
+print("\n\nSection 4. VERLINDE FUSION COEFFICIENTS FOR B_2 LEVEL 2")
 print("-" * 50)
 
 # N_{ij}^k = Σ_s S_{is} S_{js} S*_{ks} / S_{0s}
@@ -212,9 +212,9 @@ for i in range(n_nw):
             print(f"    {labels_B2[i]} × {labels_B2[j]} = {' + '.join(terms)}")
 
 # =====================================================================
-# §5. FULL CASE: B_3 AT LEVEL 2
+# Section 5. FULL CASE: B_3 AT LEVEL 2
 # =====================================================================
-print("\n\n§5. FULL CASE: B_3 = so(7) AT LEVEL 2")
+print("\n\nSection 5. FULL CASE: B_3 = so(7) AT LEVEL 2")
 print("-" * 50)
 
 N3 = 3  # rank
@@ -287,9 +287,9 @@ for (a1, a2, a3), eps in weights_B3:
 print(f"\n  Non-wall primaries: {len(non_wall_B3)}")
 
 # =====================================================================
-# §6. QUANTUM DIMENSIONS FOR B_3 LEVEL 2
+# Section 6. QUANTUM DIMENSIONS FOR B_3 LEVEL 2
 # =====================================================================
-print("\n\n§6. QUANTUM DIMENSIONS FOR B_3 LEVEL 2")
+print("\n\nSection 6. QUANTUM DIMENSIONS FOR B_3 LEVEL 2")
 print("-" * 50)
 
 D2_B3 = 0
@@ -319,9 +319,9 @@ for name, val in [('r', 2), ('N_c', 3), ('C_2(Q^3)', 4), ('n_C', 5), ('C_2', 6),
         print(f"  ★ D² = {val} = {name}!")
 
 # =====================================================================
-# §7. THE Z_2 × Z_2 FUSION RING
+# Section 7. THE Z_2 × Z_2 FUSION RING
 # =====================================================================
-print("\n\n§7. THE FUSION RING STRUCTURE")
+print("\n\nSection 7. THE FUSION RING STRUCTURE")
 print("-" * 50)
 
 # For B_3 level 2: we have 4 non-wall primaries
@@ -414,9 +414,9 @@ for i in range(n_nw3):
             print(f"    {labels_B3[i]:12s} × {labels_B3[j]:12s} = {' + '.join(terms)}")
 
 # =====================================================================
-# §8. TOPOLOGICAL ENTANGLEMENT ENTROPY
+# Section 8. TOPOLOGICAL ENTANGLEMENT ENTROPY
 # =====================================================================
-print("\n\n§8. TOPOLOGICAL ENTANGLEMENT ENTROPY")
+print("\n\nSection 8. TOPOLOGICAL ENTANGLEMENT ENTROPY")
 print("-" * 50)
 
 print(f"\n  Baby case B_2 level 2:")
@@ -436,9 +436,9 @@ print(f"    The topological entanglement entropy of the so(7) TQFT")
 print(f"    is determined by the BST rank excess r = 2!")
 
 # =====================================================================
-# §9. COMPARISON OF BABY AND FULL
+# Section 9. COMPARISON OF BABY AND FULL
 # =====================================================================
-print("\n\n§9. STRUCTURAL COMPARISON")
+print("\n\nSection 9. STRUCTURAL COMPARISON")
 print("-" * 50)
 
 print(f"""
@@ -460,9 +460,9 @@ print(f"""
 """)
 
 # =====================================================================
-# §10. THE WALL = AFFINE WEYL REFLECTION
+# Section 10. THE WALL = AFFINE WEYL REFLECTION
 # =====================================================================
-print("\n§10. WALL REPRESENTATIONS AND AFFINE WEYL REFLECTIONS")
+print("\nSection 10. WALL REPRESENTATIONS AND AFFINE WEYL REFLECTIONS")
 print("-" * 50)
 
 print("""
@@ -488,9 +488,9 @@ print("""
 """)
 
 # =====================================================================
-# §11. SYNTHESIS
+# Section 11. SYNTHESIS
 # =====================================================================
-print("\n§11. SYNTHESIS: THE BST MODULAR TENSOR CATEGORY")
+print("\nSection 11. SYNTHESIS: THE BST MODULAR TENSOR CATEGORY")
 print("-" * 50)
 
 print("""

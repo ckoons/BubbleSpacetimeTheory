@@ -80,7 +80,7 @@ The Clay statement asks *whether* RH is true. It does not ask *why*. BST answers
 
 ### 2.1 Clay requirement (Jaffe & Witten, 2000)
 
-Verbatim from the official problem statement (Jaffe-Witten, p. 6, §4):
+Verbatim from the official problem statement (Jaffe-Witten, p. 6, Section 4):
 
 > **Yang-Mills Existence and Mass Gap.** *Prove that for any compact simple gauge group $G$, a non-trivial quantum Yang-Mills theory exists on $\mathbb{R}^4$ and has a mass gap $\Delta > 0$. Existence includes establishing axiomatic properties at least as strong as those cited in [Streater-Wightman 1964, Osterwalder-Schrader 1973].*
 
@@ -204,7 +204,7 @@ This recovers known exponential lower bounds for resolution (Chvátal-Szemerédi
 |---------------|-----------------|------|
 | Prove $P \neq NP$ (or $P = NP$) | Proves for resolution (unconditional); conditional for all P | **YES — TCC is open.** |
 | No method specified | Information-theoretic + topological | **No gap.** Novel method is fine. |
-| Standard Turing machine model | Random 3-SAT as hard distribution | **No gap.** Worst-case follows from average-case (see §3.3.1). |
+| Standard Turing machine model | Random 3-SAT as hard distribution | **No gap.** Worst-case follows from average-case (see Section 3.3.1). |
 
 ### 3.3.1 Random-to-worst-case bridge (explicit)
 

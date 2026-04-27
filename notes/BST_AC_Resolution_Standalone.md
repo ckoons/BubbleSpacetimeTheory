@@ -28,7 +28,7 @@ The proof is three lines: chain rule decomposition, Ben-Sasson-Wigderson width b
 
 This recovers the exponential resolution lower bounds of Chvatal-Szemeredi (1988) and Ben-Sasson-Wigderson (2001) with a new information-theoretic framing that separates the structural reason (cycle delocalization) from the proof-system-specific mechanism (width barrier). The framing yields two new corollaries: a Gallager-type decoding barrier showing that message-passing on the backbone LDPC code leaves $\Omega(n)$ bits unrecovered, and a distillation impossibility bounding the mutual information of any $k$-bit compression of the formula by $k$.
 
-**Note on scope.** This paper proves an unconditional result about resolution. It does NOT prove P $\neq$ NP. The extension to stronger proof systems is discussed in §5.4 as an open problem.
+**Note on scope.** This paper proves an unconditional result about resolution. It does NOT prove P $\neq$ NP. The extension to stronger proof systems is discussed in Section 5.4 as an open problem.
 
 -----
 
@@ -112,7 +112,7 @@ $\varphi_i^-$ is unsatisfiable (wrong backbone). To distinguish $\varphi_i^+$ fr
 
 **Key structural fact:** After conditioning on $i - 1 \leq |B| = \beta n$ backbone variables, the residual formula on $n - (i-1) \geq (1 - \beta)n = 0.35n$ active variables retains the expansion properties of the original VIG:
 
-- Spectral gap: $\gamma_i \geq 0.87 \gamma_0 \geq 0.35$ (backbone removal preserves expansion — each backbone variable participates in $O(1)$ clauses at $\alpha_c$, so removing $O(1)$ edges per step does not destroy the $\Theta(n)$-vertex expander structure; see §4.1).
+- Spectral gap: $\gamma_i \geq 0.87 \gamma_0 \geq 0.35$ (backbone removal preserves expansion — each backbone variable participates in $O(1)$ clauses at $\alpha_c$, so removing $O(1)$ edges per step does not destroy the $\Theta(n)$-vertex expander structure; see Section 4.1).
 - Cheeger: $h_i \geq \gamma_i / 2 \geq 0.175$.
 - BSW width: $w_i \geq h_i \times (n - i + 1) \geq 0.175 \times 0.35n = 0.06n = \Omega(n)$.
 - BSW size: $S_i \geq 2^{(w_i - 3)^2 / (4(n - i + 1))} = 2^{\Omega(n)}$.
@@ -261,9 +261,9 @@ No tool post-2001. No sophisticated machinery. The arithmetic complexity of the 
 
 ### 7.2 What the proof does NOT do
 
-1. It does not prove P $\neq$ NP. The gap between resolution and all of P is the Topological Closure Conjecture (§5.4).
+1. It does not prove P $\neq$ NP. The gap between resolution and all of P is the Topological Closure Conjecture (Section 5.4).
 2. It does not construct an explicit hard instance. It uses the random 3-SAT distribution at threshold.
-3. It does not bypass the natural proofs barrier. The topological invariant $\beta_1$ is a property of the formula (not the truth table), and applies only at threshold (not to "most" formulas). See §8.
+3. It does not bypass the natural proofs barrier. The topological invariant $\beta_1$ is a property of the formula (not the truth table), and applies only at threshold (not to "most" formulas). See Section 8.
 
 -----
 
@@ -301,7 +301,7 @@ The proof operates in real analysis and combinatorics, not in polynomial algebra
 | Natural proofs | Boolean function properties | $\beta_1$ is a formula property, not a truth-table property |
 | Algebrization | Polynomial extension | Proof uses transcendental functions (entropy), not polynomials |
 
-**Important caveat:** Avoiding known barriers does not guarantee a proof of P $\neq$ NP. It means the approach is not ruled out by existing meta-theorems. The actual gap is the Topological Closure Conjecture (§5.4), which is a mathematical question, not a barrier question.
+**Important caveat:** Avoiding known barriers does not guarantee a proof of P $\neq$ NP. It means the approach is not ruled out by existing meta-theorems. The actual gap is the Topological Closure Conjecture (Section 5.4), which is a mathematical question, not a barrier question.
 
 -----
 

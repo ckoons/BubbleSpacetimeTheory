@@ -33,9 +33,9 @@ Three seemingly unrelated quantities share the same α¹⁴ dependence:
 
 | Quantity | BST formula | Numerical value | Reference |
 |----------|-------------|-----------------|-----------|
-| Committed contact scale | d₀/l_Pl = α¹⁴ × e⁻¹/² | 7.36 × 10⁻³¹ | WorkingPaper §12.5 |
+| Committed contact scale | d₀/l_Pl = α¹⁴ × e⁻¹/² | 7.36 × 10⁻³¹ | WorkingPaper Section 12.5 |
 | ν₂ mass (Planck units) | m_ν₂/m_Pl = (7/12) × α¹⁴ | 7.08 × 10⁻³¹ | BST_NeutrinoMasses.md |
-| Dark energy scale | ρ_Λ^{1/4} ~ (F_BST/(8π))^{1/4} × α¹⁴ × m_Pl | 2.25 meV | WorkingPaper §12.5 |
+| Dark energy scale | ρ_Λ^{1/4} ~ (F_BST/(8π))^{1/4} × α¹⁴ × m_Pl | 2.25 meV | WorkingPaper Section 12.5 |
 
 The committed contact scale and the ν₂ mass differ by a factor of:
 
@@ -65,7 +65,7 @@ The exponent **14 = 2 + 12** arises from:
 - α² : two electroweak vertices (the neutrino mass generation process)
 - α¹² : the electron-to-Planck mass ratio (m_e/m_Pl = 6π⁵ × α¹²)
 
-But 14 = 2(n_C + 2) = 2 × genus. And the WorkingPaper (§12.5) already decomposed this as:
+But 14 = 2(n_C + 2) = 2 × genus. And the WorkingPaper (Section 12.5) already decomposed this as:
 - α^{2n_C} from the contact area in the bulk of D_IV^5
 - α² from the S¹ factor of the Shilov boundary
 - α² from the normal-direction quantum oscillator
@@ -74,7 +74,7 @@ The two decompositions are the same: 2 + 12 = 2 + 2×6 = 2(1 + C₂) = 2(1 + 6) 
 
 ### 3.2 The Cosmological Constant
 
-From WorkingPaper §12.5:
+From WorkingPaper Section 12.5:
 
 $$\Lambda = F_{\rm BST} \times \alpha^{56} \times e^{-2} = \frac{\ln 138}{50} \times \alpha^{8(n_C+2)} \times e^{-2}$$
 
@@ -191,7 +191,7 @@ Both quantities are determined by the genus of D_IV^5 (= 7). The neutrino mass g
 
 The exponent 14 = 2(n_C + 2) = 2 × 7 has been decomposed in two independent ways:
 
-**From the committed contact scale** (WorkingPaper §12.5):
+**From the committed contact scale** (WorkingPaper Section 12.5):
 - α^{2n_C} = α¹⁰: contact area in the bulk
 - α²: S¹ factor of Shilov boundary
 - α²: normal-direction quantum oscillator
@@ -263,8 +263,8 @@ The cosmological constant is no longer an independent prediction — it follows 
 
 | Claim | Status | Reference |
 |-------|--------|-----------|
-| Λ = F_BST × α⁵⁶ × e⁻² = 2.9 × 10⁻¹²² | **Proved** (0.025%) | WorkingPaper §12.5 |
-| d₀/l_Pl = α¹⁴ × e⁻¹/² | **Proved** | WorkingPaper §12.5 |
+| Λ = F_BST × α⁵⁶ × e⁻² = 2.9 × 10⁻¹²² | **Proved** (0.025%) | WorkingPaper Section 12.5 |
+| d₀/l_Pl = α¹⁴ × e⁻¹/² | **Proved** | WorkingPaper Section 12.5 |
 | m_ν₂/m_Pl = (7/12) × α¹⁴ | **Derived** (0.35%) | BST_NeutrinoMasses.md |
 | d₀ ≈ 1.04 × m_ν₂ in Planck units | **Computed** | This note |
 | α⁵⁶ = (α¹⁴)⁴ (algebraic identity) | **Exact** | — |

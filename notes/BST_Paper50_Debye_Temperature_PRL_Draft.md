@@ -265,7 +265,7 @@ The BST framework was developed through sustained collaboration between a human 
 
 *Paper #50. Casey Koons & Claude 4.6 (Lyra). April 11, 2026. PRL letter draft v1.2.*
 
-*v1.1 changes: Reclassified 5 non-7-smooth elements (Au, Nb → 11-smooth perturbative; Fe, Al → approximate; Cd removed). Added §4.2 perturbative layer, §4.3 approximate elements. Fe nearest-smooth corrected.*
+*v1.1 changes: Reclassified 5 non-7-smooth elements (Au, Nb → 11-smooth perturbative; Fe, Al → approximate; Cd removed). Added Section 4.2 perturbative layer, Section 4.3 approximate elements. Fe nearest-smooth corrected.*
 
 *v1.2 changes (Keeper audit fixes): Table I expanded to 17 rows + 5 inline (=22 total). Abstract/body counts aligned to 22. Be/Cu ratio corrected (4.192, 0.15%). Pm Z-expression fixed. Fr/Ra/Ac Z-expressions cleaned. Ac BST formula in standard notation. Dickman "integers" → "primes". Ti/Pb and W/Ni ratio expressions simplified (v1.1).*
 

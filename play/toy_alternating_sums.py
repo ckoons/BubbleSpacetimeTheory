@@ -37,7 +37,7 @@ def d_k(k, n=5):
 # Section 1: Verify alternating sum conjecture
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§1. ALTERNATING SUMS FOR Q⁵")
+print("\nSection 1. ALTERNATING SUMS FOR Q⁵")
 print("-" * 50)
 
 print(f"\n  A(K) = Σ_{{k=0}}^K (-1)^k d_k  vs  (-1)^K C(K+5,5):")
@@ -55,7 +55,7 @@ for K in range(20):
 # Section 2: Prove it algebraically
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§2. ALGEBRAIC PROOF")
+print("\n\nSection 2. ALGEBRAIC PROOF")
 print("-" * 50)
 
 print("""
@@ -123,7 +123,7 @@ print("    = d_k  ∎")
 # Section 3: The telescoping
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§3. THE TELESCOPING IDENTITY")
+print("\n\nSection 3. THE TELESCOPING IDENTITY")
 print("-" * 50)
 
 print("""
@@ -161,7 +161,7 @@ print("""
 # Section 4: The Chern sieve
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§4. THE CHERN SIEVE")
+print("\nSection 4. THE CHERN SIEVE")
 print("-" * 50)
 
 print("""
@@ -191,7 +191,7 @@ print("""
 # Section 5: Universal alternating sum
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§5. UNIVERSAL ALTERNATING SUM FOR Q^n")
+print("\nSection 5. UNIVERSAL ALTERNATING SUM FOR Q^n")
 print("-" * 50)
 
 for n in [3, 5, 7, 9]:
@@ -210,7 +210,7 @@ for n in [3, 5, 7, 9]:
 # Section 6: The BST values of |A(K)|
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§6. |A(K)| = C(K+5,5) AT BST VALUES")
+print("\n\nSection 6. |A(K)| = C(K+5,5) AT BST VALUES")
 print("-" * 50)
 
 def factor_str(n):
@@ -261,7 +261,7 @@ print(f"     The alternating sum at K=10 = d_R gives the full Chern product!")
 # Section 7: C(K+5,5) and Chern products
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§7. WHEN C(K+5,5) FACTORS INTO BST INTEGERS")
+print("\n\nSection 7. WHEN C(K+5,5) FACTORS INTO BST INTEGERS")
 print("-" * 50)
 
 # Find K where C(K+5,5) is divisible by each Chern prime
@@ -291,7 +291,7 @@ print(f"  Or more precisely, at K = p - n_C when p ≥ n_C")
 # Section 8: The d_k = C(k+5,5) + C(k+4,5) interpretation
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§8. THE MULTIPLICITY DECOMPOSITION")
+print("\n\nSection 8. THE MULTIPLICITY DECOMPOSITION")
 print("-" * 50)
 
 print("""
@@ -328,7 +328,7 @@ print(f"  At k=7: ratio = 12/7 (= 2C₂/g)")
 # Section 9: The generating function proof
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§9. GENERATING FUNCTION PROOF")
+print("\n\nSection 9. GENERATING FUNCTION PROOF")
 print("-" * 50)
 
 print("""
@@ -365,7 +365,7 @@ print("""
 # Section 10: The two-term recurrence
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§10. THE TWO-TERM RECURRENCE")
+print("\nSection 10. THE TWO-TERM RECURRENCE")
 print("-" * 50)
 
 # d_k = C(k+5,5) + C(k+4,5)
@@ -402,7 +402,7 @@ for k in range(2, 10):
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n\n" + "═" * 72)
-print("§11. SYNTHESIS")
+print("Section 11. SYNTHESIS")
 print("═" * 72)
 
 print("""

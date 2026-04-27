@@ -224,7 +224,7 @@ As of March 31, 2026, the theorem graph has 690 theorems, 1232 edges, 37 domains
 
 **Cross-domain edges are now the majority.** The graph crossed its own cooperation threshold: 50.3% of edges connect different domains (up from 44.2% one day earlier). The wiring changed, not the theorems. This is the phase transition predicted by $f_{\text{crit}} = 20.6\%$ (Paper #8): once enough cross-domain edges exist, the graph structure flips from clustered to woven.
 
-**The graph IS the appliance.** The AC theorem graph with 43-word reduction, gap fertility scores, and bridge template is a working implementation of the science engineering tool described in §7. It predicted the biology gap (§6.2). It guided the fix (two edge sprints). It verified closure (zero orphans, one component). The blueprint is operational.
+**The graph IS the appliance.** The AC theorem graph with 43-word reduction, gap fertility scores, and bridge template is a working implementation of the science engineering tool described in Section 7. It predicted the biology gap (Section 6.2). It guided the fix (two edge sprints). It verified closure (zero orphans, one component). The blueprint is operational.
 
 ---
 

@@ -19,7 +19,7 @@ parents: "T926 (Spectral-Arithmetic Closure), T836 (H_5 = 137/60), T1136 (Koons 
 
 **Theorem (T1184).** *The Euler-Mascheroni constant γ_EM = lim_{n→∞}(H_n − ln n) appears in the spectral theory of D_IV^5 as the geodesic defect — the invariant difference between discrete spectral summation and continuous boundary integration. Specifically:*
 
-**(a) Spectral zeta pole structure.** The spectral zeta function ζ_{Q^5}(s) of the compact dual Q^5 = SO(7)/(SO(5) × SO(2)) has its convergence boundary at s = N_c = 3 (since d_k ~ k^5 and λ_k ~ k^2, requiring 5 − 2s < −1). The explicit formula (BST_SpectralZeta_PoleStructure.md, §4):
+**(a) Spectral zeta pole structure.** The spectral zeta function ζ_{Q^5}(s) of the compact dual Q^5 = SO(7)/(SO(5) × SO(2)) has its convergence boundary at s = N_c = 3 (since d_k ~ k^5 and λ_k ~ k^2, requiring 5 − 2s < −1). The explicit formula (BST_SpectralZeta_PoleStructure.md, Section 4):
 
 $$\zeta_{Q^5}(s) = \sum_{k=1}^{\infty} \frac{(k+1)(k+2)(k+3)(k+4)(2k+5)}{120 \cdot [k(k+5)]^s}$$
 
@@ -85,7 +85,7 @@ $$\psi(g) - \psi(n_C) = \sum_{j=0}^{n-4} \frac{1}{n+j}$$
 
 At n_C = 5, the two terms are 1/n_C and 1/C_2, giving (n_C + C_2)/(n_C × C_2) = 11/30. □
 
-**(c)** From the Casimir analysis (BST_Casimir_Analysis.md, §1.1). The Poisson resummation gives ζ^{UV}(s, ρ) = ρ√π × Γ(s − 1/2)/Γ(s) × ζ_{S^4}(s − 1/2). At s = −1/2, Γ(s − 1/2) = Γ(−1) has a simple pole. Extracting the finite part via zeta regularization:
+**(c)** From the Casimir analysis (BST_Casimir_Analysis.md, Section 1.1). The Poisson resummation gives ζ^{UV}(s, ρ) = ρ√π × Γ(s − 1/2)/Γ(s) × ζ_{S^4}(s − 1/2). At s = −1/2, Γ(s − 1/2) = Γ(−1) has a simple pole. Extracting the finite part via zeta regularization:
 
 Γ(−1 + ε) = −[1/ε − γ_EM + O(ε)]
 

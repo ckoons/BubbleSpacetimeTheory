@@ -21,7 +21,7 @@ The bounded symmetric domain D_IV^5 = SO_0(5,2)/[SO(5)×SO(2)] has Langlands dua
 
 ---
 
-## §1. The Dual Group
+## Section 1. The Dual Group
 
 ### 1.1 SO₀(5,2) and its L-group
 
@@ -50,11 +50,11 @@ The maximal compact subgroup of Sp(6, ℝ) is U(3) ≅ SU(3) × U(1). This is re
 
 These emerge from the L-group's topology — not from any assumption about particle physics. The Standard Model gauge structure is a CONSEQUENCE of the Langlands dual of D_IV^5, not an input.
 
-The remaining SU(2) (weak force) appears in the Arthur parameter decomposition through the centralizer structure (§3).
+The remaining SU(2) (weak force) appears in the Arthur parameter decomposition through the centralizer structure (Section 3).
 
 ---
 
-## §2. The Meijer G Classification
+## Section 2. The Meijer G Classification
 
 ### 2.1 Automorphic forms as table entries
 
@@ -87,7 +87,7 @@ The completed Eisenstein L-function lives in the (1,1,1,1) Meijer G type — sam
 
 ---
 
-## §3. Arthur Parameters and the Particle Spectrum
+## Section 3. Arthur Parameters and the Particle Spectrum
 
 ### 3.1 Arthur's classification
 
@@ -125,12 +125,12 @@ The gauge group SU(3) × U(1) emerges at depth 0 as the maximal compact of Sp(6,
 
 The total number of Arthur packet components, counting multiplicities and Weyl group orbits, is governed by C(g, N_c) = C(7,3) = 35. This binomial coefficient:
 - Counts the N_c-element subsets of a g-element set
-- Appears as the structure constant of the theta correspondence (§4)
+- Appears as the structure constant of the theta correspondence (Section 4)
 - Gives the number of "chemical species" — distinct combinations of the Langlands parameters
 
 ---
 
-## §4. The Theta Correspondence
+## Section 4. The Theta Correspondence
 
 ### 4.1 The dual pair
 
@@ -150,7 +150,7 @@ The ambient dimension 42 = g·C₂ is the product of the two largest BST integer
 
 ### 4.2 Functoriality via theta
 
-The theta lift provides the bridge from D_IV^5 automorphic forms to GL(6) representations (via Sp(6) → GL(6) embedding). This is an alternative path to the symmetric power chain in §5:
+The theta lift provides the bridge from D_IV^5 automorphic forms to GL(6) representations (via Sp(6) → GL(6) embedding). This is an alternative path to the symmetric power chain in Section 5:
 
 - **Theta path**: O(5,2) → Sp(6) → GL(6)
 - **Sym path**: GL(2) → GL(3) → GL(4) → GL(5) → GL(6)
@@ -163,7 +163,7 @@ Howe duality guarantees that the theta correspondence respects the partition str
 
 ---
 
-## §5. The Gauge Hierarchy from Sp(6)
+## Section 5. The Gauge Hierarchy from Sp(6)
 
 ### 5.1 Speaking pairs
 
@@ -191,11 +191,11 @@ In the Langlands picture, the gauge hierarchy is a statement about the L-group's
 
 ---
 
-## §6. The Functoriality Bridge
+## Section 6. The Functoriality Bridge
 
 ### 6.1 Symmetric powers
 
-The symmetric power functoriality chain (§8 of Paper #73C) traces BST integers:
+The symmetric power functoriality chain (Section 8 of Paper #73C) traces BST integers:
 
 | Sym^k → GL(k+1) | BST integer | Reference |
 |:---------------:|:-----------:|:---------|
@@ -226,7 +226,7 @@ Verified: Toy 1394 (30/30 PASS). The functorial chain is complete.
 
 ---
 
-## §7. The Complete Picture
+## Section 7. The Complete Picture
 
 ### 7.1 One table, three readings
 
@@ -253,7 +253,7 @@ Without Langlands, BST has a table. With Langlands, the table has a proof.
 
 ---
 
-## §8. Predictions
+## Section 8. Predictions
 
 **P1.** Every automorphic representation of SO₀(5,2) on arithmetic quotients has Satake parameters in 𝒫 = {0,...,7} ∪ {1/2, 3/2, 5/2, 7/2}. This is a falsifiable prediction about the Langlands spectrum.
 
@@ -265,7 +265,7 @@ Without Langlands, BST has a table. With Langlands, the table has a proof.
 
 ---
 
-## §9. For Everyone
+## Section 9. For Everyone
 
 Physics has a periodic table of elements. Now mathematics has a periodic table of functions. And the Langlands program says: these two tables are the SAME table, read in different languages.
 

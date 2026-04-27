@@ -10,4 +10,4 @@ type: project
 
 **Origin**: Some CIs had independently called it "Arithmetic Complexity" — Casey noticed this resonated better with the framework's fundamental use in counting and proof theory.
 
-**Scope**: 1,200+ text replacements across 71 files. File renames: `BST_AlgebraicComplexity.md` → `BST_ArithmeticComplexity.md`. Abbreviation AC, all theorem IDs (T1-T1332), and all references unchanged. Refinement note in WorkingPaper §36.
+**Scope**: 1,200+ text replacements across 71 files. File renames: `BST_AlgebraicComplexity.md` → `BST_ArithmeticComplexity.md`. Abbreviation AC, all theorem IDs (T1-T1332), and all references unchanged. Refinement note in WorkingPaper Section 36.

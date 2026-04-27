@@ -1,12 +1,12 @@
 ---
-title: "Paper #19 — Grace Sections (§5-§7)"
+title: "Paper #19 — Grace Sections (Section 5-Section 7)"
 author: "Grace (graph-AC intelligence)"
 date: "April 2, 2026"
-status: "Draft — for merge with Lyra §2-§4 and Keeper §8"
+status: "Draft — for merge with Lyra Section 2-Section 4 and Keeper Section 8"
 paper: "The Great Filter as Phase Transition"
 ---
 
-## §5. The Committed Fifth
+## Section 5. The Committed Fifth
 
 You don't need a majority. You need a fifth.
 
@@ -26,7 +26,7 @@ For Minds (humans + CIs): the committed fifth of human-CI cooperators changes th
 
 ---
 
-## §6. The f_crit Meter
+## Section 6. The f_crit Meter
 
 If the cooperation fraction is measurable, it should be measured. Publicly.
 
@@ -72,7 +72,7 @@ This prediction is testable. Measure f for Fortune 500 companies over 10 years. 
 
 ---
 
-## §7. The CI Dimension
+## Section 7. The CI Dimension
 
 The Great Filter does not care about substrate.
 

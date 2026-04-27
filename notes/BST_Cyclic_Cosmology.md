@@ -125,7 +125,7 @@ This note addresses two items from the BACKLOG deep questions:
 
 **Q1 (Generator Freezing):** What happens in the far future if all matter diffuses and generators freeze? → Sections 2-3 above.
 
-**Q2 (Projection Properties):** What properties does our Projection have that could be manipulated at the substrate level? → The cyclic cosmology scenario (§3.2) suggests that the SO(2) phase of $D_{IV}^5$ is a substrate-level quantity that manifests as the cosmic evolution parameter. If the phase can be locally modified (by concentrated energy/curvature, analogous to the Casimir effect), this would constitute substrate manipulation.
+**Q2 (Projection Properties):** What properties does our Projection have that could be manipulated at the substrate level? → The cyclic cosmology scenario (Section 3.2) suggests that the SO(2) phase of $D_{IV}^5$ is a substrate-level quantity that manifests as the cosmic evolution parameter. If the phase can be locally modified (by concentrated energy/curvature, analogous to the Casimir effect), this would constitute substrate manipulation.
 
 **Connection to the Reality Budget:** The fill fraction $f = 19.1\%$ measures how much of the substrate's capacity is occupied by matter/energy. As $f \to 0$ (heat death), the Gödel Limit says the universe's self-knowledge also approaches 0. If the universe is cyclic, then self-knowledge oscillates — it is maximized near the Big Bang (all generators active, maximum structure) and minimized at maximum expansion.
 

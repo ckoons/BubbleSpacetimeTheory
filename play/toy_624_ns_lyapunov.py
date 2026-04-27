@@ -602,7 +602,7 @@ print(f"""
     NS moves from ~98% to ~99%.
 
   For Lyra: The Lyapunov functional proof replaces the informal
-  self-erasing bump argument in §5.9.7 with a one-line proof:
+  self-erasing bump argument in Section 5.9.7 with a one-line proof:
   "V(t) = Σ max(0, δ_k)² has V' < 0 whenever V > 0, so monotone
   E(k) is a stable attractor of the cascade dynamics."
 

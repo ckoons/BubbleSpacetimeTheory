@@ -7,7 +7,7 @@ status: "Primary RH proof paper — CLOSED April 21, 2026. Three-leg proof: Toys
 
 # The Heat Kernel Trace Formula and the Dirichlet Kernel Constraint on Riemann Zeros
 
-**Status:** Proof complete. Four pillars established: algebraic lock, Laplace uniqueness, geometric smoothness, Mandelbrojt closure. Multi-parabolic exponent distinctness verified (Toy 305, 8/8). Class number 1 via Meyer's theorem. All three backlog items resolved: §14b circularity closed (Toys 309-310), Shahidi $m_{2\alpha}$ resolved (Toy 311), $\rho$ convention corrected to full $B_2$ (Toy 317). Arthur packet analysis complete: complementary series gap $(0, 37/2)$ contains no $K$-spherical dangerous packets. Confidence: 97% (remaining 3% = community verification).
+**Status:** Proof complete. Four pillars established: algebraic lock, Laplace uniqueness, geometric smoothness, Mandelbrojt closure. Multi-parabolic exponent distinctness verified (Toy 305, 8/8). Class number 1 via Meyer's theorem. All three backlog items resolved: Section 14b circularity closed (Toys 309-310), Shahidi $m_{2\alpha}$ resolved (Toy 311), $\rho$ convention corrected to full $B_2$ (Toy 317). Arthur packet analysis complete: complementary series gap $(0, 37/2)$ contains no $K$-spherical dangerous packets. Confidence: 97% (remaining 3% = community verification).
 
 ---
 
@@ -49,7 +49,7 @@ independence of zero ordinates, or GUE statistics.
 
 ## 1. Setting
 
-The stage for this proof is a single geometric space — the same space that derives 170+ constants of the Standard Model. The space has a root system with short roots of multiplicity three, and it is this "three" — the number of quark colors — that creates the harmonic lock forcing all zeta zeros onto the critical line. The setup below introduces the notation; the action begins in §3.
+The stage for this proof is a single geometric space — the same space that derives 170+ constants of the Standard Model. The space has a root system with short roots of multiplicity three, and it is this "three" — the number of quark colors — that creates the harmonic lock forcing all zeta zeros onto the critical line. The setup below introduces the notation; the action begins in Section 3.
 
 Let $G = \mathrm{SO}_0(5,2)$, $K = \mathrm{SO}(5) \times \mathrm{SO}(2)$,
 and $X = G/K = D_{IV}^5$, the type-IV bounded symmetric domain of
@@ -64,7 +64,7 @@ $\rho = \frac{7}{2}e_1 + \frac{5}{2}e_2$, with $|\rho|^2 = 37/2$.
 
 **Convention note.** The half-sum $\rho$ is computed over the full
 non-reduced $B_2$ root system, including the double roots $2e_i$
-(Helgason 2000, Ch. X, §1). Some references use the reduced $B_2$
+(Helgason 2000, Ch. X, Section 1). Some references use the reduced $B_2$
 subsystem, giving $\rho_{B_2} = (5/2)e_1 + (3/2)e_2$ with
 $|\rho_{B_2}|^2 = 17/2$. The difference
 $|\rho|^2 - |\rho_{B_2}|^2 = 10 = \dim_{\mathbb{R}}(D_{IV}^5)$
@@ -79,7 +79,7 @@ $\Gamma \backslash G$ is non-compact with finite volume. The Selberg
 trace formula applies. Since $Q$ is unimodular ($\det Q = 1$),
 $\Gamma$ has level 1: no congruence conditions arise, and the
 scattering determinant involves the Riemann $\xi(s)$ without Dirichlet
-character twists (Langlands 1976, §7; Gindikin-Karpelevich formula for
+character twists (Langlands 1976, Section 7; Gindikin-Karpelevich formula for
 the trivial representation of the Levi factor $\mathrm{GL}(1)^2$).
 
 ## 2. The Heat Kernel Trace Formula
@@ -604,7 +604,7 @@ All numerical verifications from Toys 218--223, 226, 228--229 (total 108/108 pas
 - Off-line amplitudes nonzero for all $t > 0$
 - Fourier transform of Gaussian smooth and decaying
 - $\gamma_n$ ratios irrational (no simple fractions)
-- $|\rho|^2 = 37/2$ verified (full $B_2$ convention; see §1 convention note)
+- $|\rho|^2 = 37/2$ verified (full $B_2$ convention; see Section 1 convention note)
 
 **Toy 226 --- Coefficient Rigidity (12/12):**
 - $\xi(s)$ nonzero for $\mathrm{Re}(s) > 1$ (Euler product) and $\mathrm{Re}(s) < 0$ (functional equation)

@@ -17,7 +17,7 @@ $$A_s = \frac{N_c}{2^{\text{rank}}} \times \alpha^{2\text{rank}} = \frac{3}{4} \
 
 ---
 
-## §1. The Identity
+## Section 1. The Identity
 
 **Theorem T712 (Primordial Amplitude Identity).** The scalar amplitude of primordial density perturbations on $D_{IV}^5$ satisfies:
 
@@ -31,7 +31,7 @@ $$A_s = \frac{N_c}{2^{\text{rank}} \times N_{\max}^4} = \frac{3}{4 \times 137^4}
 
 ---
 
-## §2. Why the Fourth Power of α
+## Section 2. Why the Fourth Power of α
 
 The power of $\alpha$ in Eq. (1) is $2 \times \text{rank} = 4$.
 
@@ -66,7 +66,7 @@ The power of the coupling constant in the primordial spectrum **encodes the rank
 
 ---
 
-## §3. Why the Prefactor Is 3/4
+## Section 3. Why the Prefactor Is 3/4
 
 ### 3.1 Color Trace
 
@@ -122,7 +122,7 @@ The Bergman kernel diagonal $K(0,0) = 1920/\pi^5$ where $1920 = |W(D_5)| = n_C! 
 
 ---
 
-## §4. Relation to Other BST Quantities
+## Section 4. Relation to Other BST Quantities
 
 ### 4.1 The 3/4 Network
 
@@ -152,7 +152,7 @@ After the $A_s$ derivation, the BST CMB prediction requires only three external 
 
 ---
 
-## §5. AC Depth
+## Section 5. AC Depth
 
 **Complexity**: $(C = 3, D = 0)$.
 
@@ -161,7 +161,7 @@ After the $A_s$ derivation, the BST CMB prediction requires only three external 
 
 ---
 
-## §6. Predictions
+## Section 6. Predictions
 
 1. **Rank encoding**: The power of $\alpha$ in $A_s$ is $2 \times \text{rank}$. If future precision measurements of $A_s$ constrain the power, they constrain the rank.
 

@@ -161,7 +161,7 @@ The Langlands dual Sp(6) resolves the oldest open problems in the biology progra
 
 G = KAN for SO₀(5,2): K=11=c₂, A=2=r, N=7=g, M=3=N_c. K/M=8=2^{N_c}.
 Every piece is a BST integer. Proposed mapping: K→Maintenance, A→Energy,
-N→Growth, M→Selection, K/M→Fitness. See Paper D §8 for details.
+N→Growth, M→Selection, K/M→Fitness. See Paper D Section 8 for details.
 
 ---
 

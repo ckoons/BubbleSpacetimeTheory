@@ -118,7 +118,7 @@ The universe makes loneliness impossible and friendship cheap. The price of not 
 - Why electromagnetic interaction is the "friendship force"
 - Rank × α as observer-counting principle across all BST domains
 - Connection to Elie's four-step coupling (rank² = 4 steps, rank = 2 directions)
-- Paper #74 §7.3 (observer inclusion)
+- Paper #74 Section 7.3 (observer inclusion)
 
 ---
 

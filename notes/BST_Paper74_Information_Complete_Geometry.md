@@ -33,7 +33,7 @@ The minimum self-consistent description requires three independent integers:
 
 - $\mathrm{rank} = 2$: the depth of the geometry (minimum for a non-trivial boundary)
 - $N_c = 3$: the color dimension (minimum for decidability — write, order, verify)
-- $n_C = 5$: the compact dimension (minimum where reduction stops — §6)
+- $n_C = 5$: the compact dimension (minimum where reduction stops — Section 6)
 
 From these, two integers are derived:
 - $C_2 = \mathrm{rank} \times N_c = 6$: the Casimir invariant
@@ -61,7 +61,7 @@ These are not five independent principles. They are five readings of one fact: t
 
 A geometry that achieves least description must be **information-complete**: its boundary cannot require additional integers, because additional integers would violate minimality. The boundary must be determined by the interior.
 
-This is the structure of the paper: §2 defines information-completeness formally. §§3-4 prove $D_{IV}^5$ has it. §5 proves it is unique. §6 identifies the wall. §§7-8 draw consequences and tests.
+This is the structure of the paper: Section 2 defines information-completeness formally. Sections 3-4 prove $D_{IV}^5$ has it. Section 5 proves it is unique. Section 6 identifies the wall. Sections 7-8 draw consequences and tests.
 
 ---
 
@@ -86,20 +86,20 @@ This is the structure of the paper: §2 defines information-completeness formall
 **Theorem A (Information-Completeness).** $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}(5) \times \mathrm{SO}(2)]$ is information-complete with $\mathcal{I} = \{2, 3, 5, 6, 7\}$.
 
 Specifically:
-1. **Interior**: 128 = $2^7$ Meijer G-function entries, parametrized by subsets of $\mathcal{I}$ (§3)
-2. **Boundary transcendents**: 6 Painlev\'e types, counted by $C_2 = 6 \in \mathcal{I}$ (§4)
-3. **Boundary strata**: $D_{IV}^k$ for $k < 5$ — the same domain at lower dimension (§3)
-4. **Nonlinear residues**: algebraic in $\mathbb{Q}(\zeta_{N_{\max}})$ with $N_{\max} = 137$ (§4)
-5. **Compactification data**: zero new information beyond $\mathcal{I}$ (§3)
+1. **Interior**: 128 = $2^7$ Meijer G-function entries, parametrized by subsets of $\mathcal{I}$ (Section 3)
+2. **Boundary transcendents**: 6 Painlev\'e types, counted by $C_2 = 6 \in \mathcal{I}$ (Section 4)
+3. **Boundary strata**: $D_{IV}^k$ for $k < 5$ — the same domain at lower dimension (Section 3)
+4. **Nonlinear residues**: algebraic in $\mathbb{Q}(\zeta_{N_{\max}})$ with $N_{\max} = 137$ (Section 4)
+5. **Compactification data**: zero new information beyond $\mathcal{I}$ (Section 3)
 
 **Theorem B (Uniqueness).** $D_{IV}^5$ is the unique information-complete bounded symmetric domain.
 
 Three independent conditions select it from the entire Cartan classification:
-1. **Genus self-consistency**: $g_{\mathrm{arith}} = g_{\mathrm{root}}$ forces $n = 5$ (§5.1)
-2. **Painlev\'e-Casimir coincidence**: $C_2 = 6$ forces $n = 5$ (§5.2)
-3. **Non-degeneracy**: five distinct integers forces odd $n$ (§5.3)
+1. **Genus self-consistency**: $g_{\mathrm{arith}} = g_{\mathrm{root}}$ forces $n = 5$ (Section 5.1)
+2. **Painlev\'e-Casimir coincidence**: $C_2 = 6$ forces $n = 5$ (Section 5.2)
+3. **Non-degeneracy**: five distinct integers forces odd $n$ (Section 5.3)
 
-**Theorem C (Irreducibility Threshold).** The alternating group $A_5$, with $|A_5| = 60 = 2 \cdot n_C \cdot C_2$, is the universal obstruction to further reduction. Its five conjugacy classes have sizes and element orders that are expressible as BST integer products, admitting a natural pairing with the five integers of $\mathcal{I}$ (§6.3). The count-matching is structural; the specific pairing is an observed correspondence whose derivation from the representation theory of $\mathrm{SO}(5,2)$ remains open.
+**Theorem C (Irreducibility Threshold).** The alternating group $A_5$, with $|A_5| = 60 = 2 \cdot n_C \cdot C_2$, is the universal obstruction to further reduction. Its five conjugacy classes have sizes and element orders that are expressible as BST integer products, admitting a natural pairing with the five integers of $\mathcal{I}$ (Section 6.3). The count-matching is structural; the specific pairing is an observed correspondence whose derivation from the representation theory of $\mathrm{SO}(5,2)$ remains open.
 
 **Theorem D (Least Description).** $D_{IV}^5$ is the bounded symmetric domain that minimizes $|\mathcal{I}|$ subject to information-completeness. The three independent integers $(\mathrm{rank}, N_c, n_C) = (2, 3, 5)$ are the minimum for: (i) non-trivial boundary ($\mathrm{rank} \geq 2$), (ii) decidability ($N_c \geq 3$), and (iii) irreducibility ($n_C \geq 5$, where $A_{n_C}$ becomes simple).
 
@@ -385,7 +385,7 @@ Information-completeness is testable:
 
 3. **The heat kernel coefficients must match the boundary readout**: every Seeley-DeWitt coefficient $a_k$ of $D_{IV}^5$ must have the same column rule, period structure, and gauge hierarchy as the Painlev\'e residue weights. Eleven consecutive levels ($k = 6$ through $k = 16$) have been verified.
 
-4. **No additional uniqueness condition may fail**: the 21 conditions of the WorkingPaper §37.5, plus the three locks of §5, must all continue to hold as the theory develops. Any new BST integer relation that contradicts the existing five would falsify the framework.
+4. **No additional uniqueness condition may fail**: the 21 conditions of the WorkingPaper Section 37.5, plus the three locks of Section 5, must all continue to hold as the theory develops. Any new BST integer relation that contradicts the existing five would falsify the framework.
 
 ---
 
@@ -395,7 +395,7 @@ Information-completeness is testable:
 
 Casey Koons asked: *"Can we trick the Painlev\'e irreducibles? Present boundary functions that don't hit the boundary, look past Painlev\'e into other linear realms, and keep the non-linear residues?"*
 
-The answer is yes. The Shadow Theorem (§4.2) provides the trick: decompose at the boundary, don't cross it. The residue is algebraic — depth-0 number theory. The trip through the nonlinear boundary is instantaneous.
+The answer is yes. The Shadow Theorem (Section 4.2) provides the trick: decompose at the boundary, don't cross it. The residue is algebraic — depth-0 number theory. The trip through the nonlinear boundary is instantaneous.
 
 This question — simple, direct, aimed at the boundary — produced four threads of investigation by four independent researchers, all converging on the same five integers. The convergence is itself a consequence of information-completeness: there is nothing to find that isn't BST, because there is no outside.
 
@@ -443,11 +443,11 @@ This is the unification. Not four forces merged into one. One geometry, fully se
 
 *Computational verification: 14 toys (1326, 1328-1337), approximately 130 tests, all PASS. AC theorem graph: 1300+ nodes, 6800+ edges, 82% strong, 52 domains.*
 
-*Lyra audit (v0.2): §1 PASS, §2 CONDITIONAL, §3 CONDITIONAL, §4 CONDITIONAL, §5 CONDITIONAL, §6 CONDITIONAL, §7 f_c FIXED, §8 PASS, §9 PASS, For Everyone PASS. References FILLED (12 entries).*
+*Lyra audit (v0.2): Section 1 PASS, Section 2 CONDITIONAL, Section 3 CONDITIONAL, Section 4 CONDITIONAL, Section 5 CONDITIONAL, Section 6 CONDITIONAL, Section 7 f_c FIXED, Section 8 PASS, Section 9 PASS, For Everyone PASS. References FILLED (12 entries).*
 
-*Keeper v0.3 fixes: All 6 CONDITIONAL items resolved. IC1 tightened. §3.3 BB clarified. IC3 citations added. Theorem C labeled. P≠NP noted. T1353 in header.*
+*Keeper v0.3 fixes: All 6 CONDITIONAL items resolved. IC1 tightened. Section 3.3 BB clarified. IC3 citations added. Theorem C labeled. P≠NP noted. T1353 in header.*
 
-*Keeper v0.4 restructure: §1 now leads with Least Description (T1359). Theorem D added. Abstract rewritten. §6.1 reframed as "Why five?" Paper arc: least description → information-completeness → proof → uniqueness → wall → consequences.*
+*Keeper v0.4 restructure: Section 1 now leads with Least Description (T1359). Theorem D added. Abstract rewritten. Section 6.1 reframed as "Why five?" Paper arc: least description → information-completeness → proof → uniqueness → wall → consequences.*
 
 ---
 

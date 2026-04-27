@@ -236,7 +236,7 @@ def test_1_mass_ratio_geometric():
     print(f"    Both are GEOMETRIC: they come from the algebra structure,")
     print(f"    not from how many channels are committed.")
     print(f"")
-    print(f"  Keeper's error in §2.3/§6:")
+    print(f"  Keeper's error in Section 2.3/Section 6:")
     print(f"    Claimed: 'halving the budget halves the π⁵ factor'")
     print(f"    Correct: π⁵ is volume, unchanged by budget. The RATIO is fixed.")
     print(f"    What changes: the ABSOLUTE MASS SCALE, not the ratio.")
@@ -474,7 +474,7 @@ def test_6_budget_symmetry():
     print("Test 6: Budget splitting symmetry — equal vs unequal partition")
     print("=" * 70)
 
-    print(f"\n  Generator Equivalence Theorem (Keeper, §5):")
+    print(f"\n  Generator Equivalence Theorem (Keeper, Section 5):")
     print(f"    All 21 generators of SO(7) are conjugate under Ad(SO(7)).")
     print(f"    → All single generators produce identical physics.")
     print(f"    → For k commuting generators, each sector is equivalent.")
@@ -638,7 +638,7 @@ def test_8_formal_result():
 
     print(f"""
   ════════════════════════════════════════════════════════════════════
-  BST LANDSCAPE THEOREM (correcting Keeper's §2.3/§6)
+  BST LANDSCAPE THEOREM (correcting Keeper's Section 2.3/Section 6)
   ════════════════════════════════════════════════════════════════════
 
   THEOREM (Budget-Independent Mass Ratio):
@@ -687,12 +687,12 @@ def test_8_formal_result():
     adjustable parameters.
 
   CORRECTION TO KEEPER'S PAPER:
-    §2.3: Replace "halving the budget halves the π⁵ factor" with:
+    Section 2.3: Replace "halving the budget halves the π⁵ factor" with:
     "The mass RATIO m_p/m_e = 6π⁵ is geometric and f-independent.
     The absolute mass scale and coupling strengths scale with f.
     At f = f_total/k, nuclear binding energy scales as 1/k."
 
-    §6 Open Calc #3: Replace "m_p/m_e ~ 460" with:
+    Section 6 Open Calc #3: Replace "m_p/m_e ~ 460" with:
     "m_p/m_e = 6π⁵ = 1836 always. But α_s(k=2) = α_s(1)/2 = 0.24
     and E_B(k=2) = 1.11 MeV (still bound, still fuses, still chemistry)."
   ════════════════════════════════════════════════════════════════════

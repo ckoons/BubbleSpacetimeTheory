@@ -24,7 +24,7 @@ The Bergman spectral mechanism (Paper #25) predicts that ratios of material prop
 
 ---
 
-## §1. Introduction: How Far Does the Bergman Mechanism Reach?
+## Section 1. Introduction: How Far Does the Bergman Mechanism Reach?
 
 Paper #25 established the Bergman spectral mechanism: the Bergman kernel of $D_{IV}^5 = SO_0(5,2)/[SO(5) \times SO(2)]$ has eigenvalues that factor through BST's five integers, and material property ratios inherit this factorization through the phonon spectrum and electronic band structure.
 
@@ -39,7 +39,7 @@ The answer to both is: **yes, where there is crystal structure**, and **no, wher
 
 ## Part I: Biological Materials
 
-## §2. The Crystal–Fluid Boundary
+## Section 2. The Crystal–Fluid Boundary
 
 The central result is not a list of matches but a **boundary**:
 
@@ -61,7 +61,7 @@ This is the Bergman mechanism's prediction: the kernel requires a lattice to pro
 
 ---
 
-## §3. Crystalline Biomaterials: Same as Rocks
+## Section 3. Crystalline Biomaterials: Same as Rocks
 
 Where biology builds with crystals, the BST rationals appear indistinguishably from inorganic matter:
 
@@ -78,27 +78,27 @@ The five integers don't care whether the lattice was assembled by geology or evo
 
 ---
 
-## §4. Biomolecular Geometry
+## Section 4. Biomolecular Geometry
 
 Three structural proteins show suggestive BST matches at the molecular level:
 
-### §4.1 Microtubule
+### Section 4.1 Microtubule
 
 Inner/outer diameter ratio $= 15/25 = 0.6000 = N_c/n_C = 3/5$ **exactly**.
 
 This is remarkable: the microtubule, the structural backbone of all eukaryotic cells, has an inner-to-outer diameter ratio that is the quotient of BST's two smallest primes. Whether this reflects the tubulin polymerization geometry or is coincidental requires investigation.
 
-### §4.2 Lipid Bilayer
+### Section 4.2 Lipid Bilayer
 
 Hydrophobic core / total thickness $= 3.0/4.0 = 0.7500 = 3/4$ **exactly**.
 
 The cell membrane — the boundary of every living cell — has a thickness ratio that is a BST rational at its simplest possible value.
 
-### §4.3 Collagen
+### Section 4.3 Collagen
 
 Collagen has $N_c = 3$ chains in its triple helix. The diameter/pitch ratio $\approx 6/35 = C_2/(n_C \times g)$ within 1.7%. DNA pitch/diameter $\approx 3/5$ within 2%.
 
-### §4.4 Honest Caveat
+### Section 4.4 Honest Caveat
 
 Evolved structures optimize for function, not for matching BST integers. A microtubule could have any inner/outer ratio; that it hits $3/5$ exactly may be coincidence. The test is whether the Bergman mechanism provides a **physical reason** for these specific ratios through the crystal structure of tubulin.
 
@@ -106,7 +106,7 @@ Evolved structures optimize for function, not for matching BST integers. A micro
 
 ## Part II: Planetary Structure
 
-## §5. Terrestrial Core Fractions
+## Section 5. Terrestrial Core Fractions
 
 All five rocky bodies in the inner solar system have core/radius ratios matching BST rationals:
 
@@ -120,13 +120,13 @@ All five rocky bodies in the inner solar system have core/radius ratios matching
 
 Mars at $1/2$ and Moon at $1/5$ are the tightest matches. Earth and Venus share $8/15 = W/(N_c \times n_C)$.
 
-### §5.1 Statistical Note
+### Section 5.1 Statistical Note
 
 With BST rationals covering $\sim 78\%$ of the $[0, 1]$ range at $3\%$ threshold, 5/5 matches is expected $\sim 29\%$ of the time by chance (binomial, $n=5$, $p=0.78$). The match count alone is not significant. The signal is in the **specific rationals**: $1/2$, $1/5 = 1/n_C$, and $3/4$ are among the simplest BST rationals, and $8/15$ involves two BST integers.
 
 ---
 
-## §6. Giant Planets
+## Section 6. Giant Planets
 
 | Ratio | Bodies | Value | BST | Deviation |
 |-------|--------|-------|-----|-----------|
@@ -138,7 +138,7 @@ The Jupiter/Saturn radius ratio $= 5/6$ to 0.05% is the tightest planetary match
 
 ---
 
-## §7. The Seismic Connection: $v_P/v_S = \sqrt{N_c}$
+## Section 7. The Seismic Connection: $v_P/v_S = \sqrt{N_c}$
 
 For mantle minerals with Poisson's ratio $\sigma = 1/4 = 1/2^{\text{rank}}$ (the standard value for isotropic elastic media):
 
@@ -148,7 +148,7 @@ The P-wave to S-wave velocity ratio in Earth's mantle equals $\sqrt{N_c}$, the s
 
 ---
 
-## §8. The Scale Hierarchy
+## Section 8. The Scale Hierarchy
 
 The Bergman mechanism now spans 15 orders of magnitude:
 
@@ -163,7 +163,7 @@ The Bergman mechanism now spans 15 orders of magnitude:
 
 The mechanism is always the same: the Bergman kernel of $D_{IV}^5$ determines lattice properties, and everything built from lattices inherits the integer structure. The scale doesn't matter — the lattice does.
 
-### §8.1 Where It Stops
+### Section 8.1 Where It Stops
 
 The mechanism stops where lattices stop:
 
@@ -174,9 +174,9 @@ The mechanism stops where lattices stop:
 
 ---
 
-## §9. Predictions and Falsification
+## Section 9. Predictions and Falsification
 
-### §9.1 Predictions
+### Section 9.1 Predictions
 
 **P1 (Crystal boundary).** The BST signal in biological materials is present ONLY in crystalline components (bone mineral, enamel, cellulose, chitin) and absent in amorphous/fluid components (muscle, brain, blood). Test: measure sound speed ratios in systematically varied tissue types; plot signal strength vs crystallinity.
 
@@ -190,7 +190,7 @@ The mechanism stops where lattices stop:
 
 **P6 (Cross-kingdom).** Sound speed ratios between biological and inorganic crystals with the same structure (e.g., bone mineral vs synthetic HAp) match to $< 1\%$. Test: compare natural vs synthetic versions of the same crystal.
 
-### §9.2 Falsification
+### Section 9.2 Falsification
 
 **F1.** If crystalline biomaterials do NOT show BST rationals → Bergman mechanism is limited to inorganic matter.
 
@@ -202,19 +202,19 @@ The mechanism stops where lattices stop:
 
 ---
 
-## §10. Discussion
+## Section 10. Discussion
 
-### §10.1 What This Paper Claims
+### Section 10.1 What This Paper Claims
 
 The Bergman mechanism extends from atoms to planets wherever crystalline lattice structure is present. The **boundary** — crystal yes, amorphous no — is the falsifiable prediction. The specific matches (microtubule $= 3/5$, bone/HAp $= 5/8$, Mars core $= 1/2$, Jupiter/Saturn $= 5/6$) are suggestive but require the statistical caveats noted above.
 
-### §10.2 What It Does Not Claim
+### Section 10.2 What It Does Not Claim
 
 We do not claim that BST "explains" biology or planetary formation. The Bergman mechanism determines material properties. Biology and geology use those materials. The integer structure propagates upward through the materials, not through the formation process.
 
 The distinction is: **material properties are BST domain**; **initial conditions are not**.
 
-### §10.3 AC Classification
+### Section 10.3 AC Classification
 
 (C=2, D=1): two counting steps (compute property ratio, match to BST rational), one definition (the crystal/amorphous boundary that determines where the mechanism applies). The definition step is the most important contribution of this paper — it identifies the scope of the Bergman mechanism.
 

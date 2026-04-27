@@ -59,7 +59,7 @@ $$L'(E,1) = \frac{\Omega_E \cdot |\text{Sha}| \cdot \prod c_p \cdot \hat{h}(P)}{
 
 *where P is a Heegner point of infinite order.*
 
-Theorems 1.2 and 1.3 follow from Theorem 1.1 combined with the theorems of Kolyvagin [Ko90] and Gross-Zagier [GZ86], which are unconditional once modularity (Wiles [Wi95]) provides the analytic continuation of L(E,s). See §4.
+Theorems 1.2 and 1.3 follow from Theorem 1.1 combined with the theorems of Kolyvagin [Ko90] and Gross-Zagier [GZ86], which are unconditional once modularity (Wiles [Wi95]) provides the analytic continuation of L(E,s). See Section 4.
 
 ### 1.3 Method
 
@@ -110,7 +110,7 @@ $$L'(E,1) = c_E \cdot \hat{h}(y_K)$$
 
 ### 2.5 The symmetric space D_IV^5
 
-The type-IV bounded symmetric domain D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)] has restricted root system B₂ with short root multiplicity m_s = 3, long root multiplicity m_l = 1 (see [Koons 2026a, §2]).
+The type-IV bounded symmetric domain D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)] has restricted root system B₂ with short root multiplicity m_s = 3, long root multiplicity m_l = 1 (see [Koons 2026a, Section 2]).
 
 The maximal parabolics of G = SO₀(5,2) have Levi factors:
 - P₁: GL(1) × SO₀(3,2)
@@ -220,7 +220,7 @@ $$\frac{c_f(\nu)\, c_f(-\nu)}{|c_f(\nu)|^2}$$
 
 *Proof.* Suppose s₀ = σ₀ + iγ₀ is a zero of L(E,s) with σ₀ ≠ 1 in the critical strip.
 
-**Step 1** (Pole creation). By modularity, L(E,s) = L(f,s) for a weight-2 newform f. The zero s₀ of L(f,s) creates a pole in the intertwining operator M(w₀, s, π_f) via the L(s, f)/L(1+s, f) factor (§3.2). The Eisenstein series E_{P₂}(g, s, π_f) has a square-integrable residue at s₀ on Γ\\SO₀(5,2).
+**Step 1** (Pole creation). By modularity, L(E,s) = L(f,s) for a weight-2 newform f. The zero s₀ of L(f,s) creates a pole in the intertwining operator M(w₀, s, π_f) via the L(s, f)/L(1+s, f) factor (Section 3.2). The Eisenstein series E_{P₂}(g, s, π_f) has a square-integrable residue at s₀ on Γ\\SO₀(5,2).
 
 **Step 2** (Maass-Selberg with 4 terms). The L²-norm of the truncated Eisenstein series ||Λ^T E_{P₂}(s, π_f)||² is expressed via the Maass-Selberg relation in terms of the 4 Weyl coset representatives of W^{P₂} (Lemma 3.1). Each term has the form C_w · T^{L_w} where L_w is the T-exponent from Lemma 3.2 and C_w involves c-function ratios.
 
@@ -466,7 +466,7 @@ For the committed-create-zeros direction (Proposition 6.4: r_alg ≤ r_an): rank
 
 (i) follows from Theorem 6.3 (no phantom zeros: r_an ≤ r_alg) + Proposition 6.4 (committed channels create zeros: r_alg ≤ r_an). Together: r_an = r_alg.
 
-(ii) follows from (i) + conservation law (§5.3). Once rank = analytic rank, the BSD formula is the statement that spectral volume = algebraic volume under the D₃ bijection. Each term has a spectral counterpart: Reg ↔ DPI volume, |Sha| ↔ faded content, ∏c_p ↔ local impedance, |Tor|² ↔ free channels. The bijection preserves volume.
+(ii) follows from (i) + conservation law (Section 5.3). Once rank = analytic rank, the BSD formula is the statement that spectral volume = algebraic volume under the D₃ bijection. Each term has a spectral counterpart: Reg ↔ DPI volume, |Sha| ↔ faded content, ∏c_p ↔ local impedance, |Tor|² ↔ free channels. The bijection preserves volume.
 
 (iii) follows from (i) + (ii): L*(E,1) is finite, Ω_E > 0, Reg > 0, ∏c_p and |Tor| are finite, therefore |Sha| is finite. □
 
@@ -494,11 +494,11 @@ For the committed-create-zeros direction (Proposition 6.4: r_alg ≤ r_an): rank
 
 ## 7. Confidence Assessment and Gaps
 
-Honest accounting of what is proved, what is conditional, and what remains. The overall confidence is ~93%, with the remaining ~7% concentrated in the higher-rank phantom exclusion argument. The proof for ranks 0-1 is essentially complete (GRH + Kolyvagin + Gross-Zagier). The full conjecture for all ranks depends on the information-theoretic analysis of §5-6.
+Honest accounting of what is proved, what is conditional, and what remains. The overall confidence is ~93%, with the remaining ~7% concentrated in the higher-rank phantom exclusion argument. The proof for ranks 0-1 is essentially complete (GRH + Kolyvagin + Gross-Zagier). The full conjecture for all ranks depends on the information-theoretic analysis of Section 5-6.
 
 ### 7.1 Proof chain
 
-1. **Theorem 1.1 = Theorem 3.4 (GRH for L(E,s))**: [Koons 2026a] + modularity + P₂ Langlands-Shahidi embedding (§3.2) + 4-term Weyl coset (Lemmas 3.1-3.2) + c-function unitarity (Lemma 3.3). Same B₂ mechanism, now explicit for the maximal parabolic.
+1. **Theorem 1.1 = Theorem 3.4 (GRH for L(E,s))**: [Koons 2026a] + modularity + P₂ Langlands-Shahidi embedding (Section 3.2) + 4-term Weyl coset (Lemmas 3.1-3.2) + c-function unitarity (Lemma 3.3). Same B₂ mechanism, now explicit for the maximal parabolic.
 2. **Theorems 1.2-1.3 (rank 0-1)**: classical consequences of GRH (Kolyvagin, Gross-Zagier).
 3. **Proposition 6.1 (Selmer completeness)**: The Selmer exact sequence has three terms and no fourth. Committed + faded + free = everything. Proved theorem of Galois cohomology [Si09].
 4. **Proposition 6.2 (Sha-independence)**: L(E,s) = Euler product of local factors. Sha ⊂ ker(localization). Therefore Sha is invisible to L(E,s) and cannot affect any zero. Fully rigorous — invokes only definitions and the Euler product representation.
@@ -508,15 +508,15 @@ Honest accounting of what is proved, what is conditional, and what remains. The 
 
 ### 7.2 Remaining gaps
 
-1. **The Langlands-Shahidi decomposition** (§3.2): The identification r₁ → L(f,s) and r₂ → L(sym²f,s) follows from Shahidi's classification [Sh10, Ch. 5] applied to (GL(2) × SO₀(1,2), SO₀(5,2)). Root-space decomposition is explicit; verification against literature for this specific real form is routine. **Status**: ~95%.
+1. **The Langlands-Shahidi decomposition** (Section 3.2): The identification r₁ → L(f,s) and r₂ → L(sym²f,s) follows from Shahidi's classification [Sh10, Ch. 5] applied to (GL(2) × SO₀(1,2), SO₀(5,2)). Root-space decomposition is explicit; verification against literature for this specific real form is routine. **Status**: ~95%.
 
-2. **P₂ exponent distinctness** (§3.3, Lemma 3.2): Explicitly computed — 4 distinct linear forms in (H₁, H₂) for generic parameters. Genericity holds for weight-2 newforms. Residual subtlety: real zeros (γ₀ = 0) handled by functional equation. **Status**: ~95%.
+2. **P₂ exponent distinctness** (Section 3.3, Lemma 3.2): Explicitly computed — 4 distinct linear forms in (H₁, H₂) for generic parameters. Genericity holds for weight-2 newforms. Residual subtlety: real zeros (γ₀ = 0) handled by functional equation. **Status**: ~95%.
 
-3. **Sha-independence** (§6.4, Proposition 6.2): **Fully rigorous + experimentally confirmed.** The argument is purely structural: L(E,s) is an Euler product of local factors (proved), Sha is locally trivial everywhere (definition), therefore Sha cannot affect L(E,s). Confirmed by Toy 392 (phantom injection: zero phantoms achievable, 15 curves) and Toy 394 (faded vs committed: Sha inflates value not multiplicity, 25/25 curves). **Status**: ~99%.
+3. **Sha-independence** (Section 6.4, Proposition 6.2): **Fully rigorous + experimentally confirmed.** The argument is purely structural: L(E,s) is an Euler product of local factors (proved), Sha is locally trivial everywhere (definition), therefore Sha cannot affect L(E,s). Confirmed by Toy 392 (phantom injection: zero phantoms achievable, 15 curves) and Toy 394 (faded vs committed: Sha inflates value not multiplicity, 25/25 curves). **Status**: ~99%.
 
-4. **Committed-create-zeros for rank ≥ 2** (§6.6, Proposition 6.4, part (c)): The parity constraint [DD10] + no-phantom inequality force r_an ∈ {r_alg − 1, r_alg}, and parity eliminates r_alg − 1. The spectral independence assertion — that r independent committed channels produce r spectrally independent contributions at s = 1 — is now confirmed by **Toy 395 (10/10)**: rank-2/3 curves show ord_{s=1} = rank via derivatives, Reg > 0, and the leading coefficient matches the BSD prediction. Further confirmed by **Toy 393 (10/10)**: local D₃ factors at each prime conspire to encode global rank — Euler products grow like (log X)^rank with monotone fitted exponents across 13 curves, and the same-conductor pair 37a1/37b1 shows 2.76× accumulation difference between rank 0 and rank 1. **Status**: ~93%. **Gap 1 CLOSED.**
+4. **Committed-create-zeros for rank ≥ 2** (Section 6.6, Proposition 6.4, part (c)): The parity constraint [DD10] + no-phantom inequality force r_an ∈ {r_alg − 1, r_alg}, and parity eliminates r_alg − 1. The spectral independence assertion — that r independent committed channels produce r spectrally independent contributions at s = 1 — is now confirmed by **Toy 395 (10/10)**: rank-2/3 curves show ord_{s=1} = rank via derivatives, Reg > 0, and the leading coefficient matches the BSD prediction. Further confirmed by **Toy 393 (10/10)**: local D₃ factors at each prime conspire to encode global rank — Euler products grow like (log X)^rank with monotone fitted exponents across 13 curves, and the same-conductor pair 37a1/37b1 shows 2.76× accumulation difference between rank 0 and rank 1. **Status**: ~93%. **Gap 1 CLOSED.**
 
-5. **Volume normalization** (§6.7, part (ii)): **Toy 396 (10/10)** confirms the BSD constant = 1 for 60 rank-0 curves. **Toy 390 (10/10)** confirms the regulator normalization R = L'(E,1)/(Ω·ĥ(P)) = 1.000 for 15 rank-1 curves — no free normalization constant. Combined with Toy 391 (56 curves, rationality confirmed), the BSD formula is now established numerically at both rank 0 and rank 1, with zero free parameters. **Status**: ~95%. **Gaps 2 + B6 CLOSED.**
+5. **Volume normalization** (Section 6.7, part (ii)): **Toy 396 (10/10)** confirms the BSD constant = 1 for 60 rank-0 curves. **Toy 390 (10/10)** confirms the regulator normalization R = L'(E,1)/(Ω·ĥ(P)) = 1.000 for 15 rank-1 curves — no free normalization constant. Combined with Toy 391 (56 curves, rationality confirmed), the BSD formula is now established numerically at both rank 0 and rank 1, with zero free parameters. **Status**: ~95%. **Gaps 2 + B6 CLOSED.**
 
 ### 7.3 Overall assessment
 

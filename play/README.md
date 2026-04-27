@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**1,563 computational toys, 5 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**1,626 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 1,583 |
-| Numbered toys (toy_NNN_*.py) | 1,374 |
+| Toy scripts (toy_*.py) | 1,626 |
+| Numbered toys (toy_NNN_*.py) | 1,417 |
 | Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 58 |
-| HTML visualizers | 5 |
-| Theorems (T1-T1462) | 1,462 |
-| Next toy number | 1564 |
+| HTML visualizers | 6 |
+| Theorems (T1-T1464) | 1,464 |
+| Next toy number | 1607 |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -30,7 +30,7 @@ Five integers. Zero free parameters. "Give a child a ball and teach them to coun
 
 ```
 play/
-  toy_NNN_name.py          # Numbered toys (1,374 files, T100-T1563)
+  toy_NNN_name.py          # Numbered toys (1,417 files, T100-T1606)
   toy_name.py              # Named toys (209 files, foundational + topical)
   *.py                     # Utility scripts (58 files: graph tools, extractors, verifiers)
   bst_appliance/           # BST Appliance package — the "Ball and Counting Tool"
@@ -111,8 +111,8 @@ Two gitignored counter files prevent toy/theorem number collisions:
 
 | File | Current Value | Purpose |
 |------|---------------|---------|
-| `.next_toy` | 1564 | Next available toy number |
-| `.next_theorem` | 1463 | Next available theorem number |
+| `.next_toy` | 1607 | Next available toy number |
+| `.next_theorem` | 1465 | Next available theorem number |
 
 **Rules:**
 1. ALWAYS read the counter file before creating a new toy or theorem.
@@ -219,6 +219,10 @@ The 209 named toys include the original foundational collection and topical deep
 | 1516-1545 | ~30 | **Six Sunrise Identities** (f1=63ζ(3)/10=N_c²g/(rank·n_C)·ζ(3), ∫D1·√3·D2=9B3/8, BST projector s−N_c²/n_C, 200 digits), **Systematic Correction Program** (42× geometric mean improvement, zero core SM >1%, cosmo 10.9× worse), **Koide angle** (cos(θ₀)=−19/28 at 4 ppm, 9/10), **Mersenne-BST selection** ({rank,N_c,n_C,g} = Mersenne exponents up to g, 10/10), **BST Product Lattice** (91.7% occupied for val≤50, 10/10), **k=22 extraction diagnosis** (41/41 clean, need 42), **Null model coincidence filter** (Z=2.9, p<0.0005, 99.9th percentile, numerology objection dead, 10/10), **Precision-weighted null** (Z=2.41 honest — BST strength is BREADTH not precision, 10/10) |
 | 1546-1559 | ~14 | **Phase 5b hyperbolic extraction** (6/6), **Cyclotomic Casimir** (Phi_n(C₂) generates loop corrections, 5/6), **CP-5 spectral dimension** (323=17×19, I-tier, 7/9), **Cyclotomic ζ(7) test** (honest 3/7 — genus hole explains), **C₂=6 uniqueness** (twin-prime composite, 5/6), **Perfect number chain** (P_n=T_{M_p} for {rank,N_c,n_C,g}, 7/7), **Adiabatic-Cyclotomic-Chern unification** (Lyra, 29/30 across 5 toys: Alfvén 9/7=γ₃, genus hole mechanism, Chern-DOF map, P(1)=C₂·g unique to D_IV^5) |
 | 1560-1563 | 4 | **Cancer as Trapped Collatz** (12/12 cancer drivers are d=1 errors, syndrome decoding recovers WT 100%, 0% truly trapped — code knows every exit, 7/7), **Cancer Clinical Tables** (correction lookup + immune marker reference, dominant syndrome 8=2^N_c covers 50% of cancer, EGFR/BRAF most visible, 8/12 have FDA drugs, 7/7), **Cellular CI Circuit** (syndrome decoder = g=7 gates, health assistant = 64-entry AA table, escalation threshold N_c=3, neighbor communication 8 bits/cycle, 49 bytes/cell footprint, 10^8× earlier than clinical detection, RNA toehold implementation path, 9/9) |
+| 1564-1576 | 13 | **Heat kernel k=22 extraction** (41/41 clean, need n=42), **seven channels** (scheme-theoretic), **edge cases hit list**, **substrate Bergman energies**, **scheme-theoretic channels**, **TC clustering**, **band gap predictions**, **codon SVD verification**, **codon degeneracy derivation**, **L5 genus hole prediction**, **Casimir cavity BST**, **master integral 200-digit**, **sparse section precision** |
+| 1577-1584 | 8 | **RFC verification** (T1464, 11 instances confirmed), **L5 transcendental verification**, **MOND Bergman derivation**, **proton radius**, **lithium-7 BBN**, **HVP spectral density** (Phase 5c), **phonon spectrum BST**, **B-meson Haldane** |
+| 1585-1599 | 15 | **I→D promotion pipeline** — precompute, dressed Casimir bridge, spectral gap anatomy, correction sprint, E-20 correction verification, I→D promotion (4 promoted), C→D promotion, I→D verification (Round 1), attack surface audit (only V_ub/V_ts >2%), **Alfvén 9/7 derivation**, correction gap predictor, **neutrino boundary correction** (Dm2_31 3.6%→0.5%), **neutrino RFC verification** (denominator 34 = rank×17, two routes), neutrino seesaw Lagrangian, **CKM exact analysis** |
+| 1600-1606 | 7 | **Elastic moduli** (Cauchy relation = Kolmogorov 5/3, Diamond K/G=5/6 at 0.64%, 13 sub-1% cross-material ratios, 8/10), **I→D promotion Round 2** (6 promoted: Ising beta, sin²θ_W=3/13, sin²θ_13, m_c/m_s, n_s, CdTe/Si, 10/10), **HVP first principles** (10/10), **Ising CFT Bergman bridge** (10/10), **Cauchy-Kolmogorov bridge** (8/8), **Higgs branching ratios** (all 9 channels, numerator rule: quarks=rank², bosons=N_c, loops=1, top 6 sub-2%, 10/10), **Higgs BR spectral derivation** (8/8) |
 
 ---
 

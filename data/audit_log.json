@@ -22,7 +22,7 @@
       "auditor": "claude",
       "status": "current",
       "last_modified": "2026-04-14",
-      "notes": "Created. 162-line BST kernel. Source: WorkingPaper §1-5."
+      "notes": "Created. 162-line BST kernel. Source: WorkingPaper Section 1-5."
     },
     {
       "path": "data/bst_constants.json",

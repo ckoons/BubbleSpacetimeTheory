@@ -67,8 +67,8 @@ Note: YM is the shallowest Millennium proof. The mass gap exists because the dom
 - Toy 307: Vol(D_IV^5) = π⁵/1920 (8/8) — the volume determines K(0,0) = 1920/π⁵
 - Toy 337: W4 bifurcate Killing horizons (8/8) — all Wightman axioms exhibited
 - Toy 305: Multi-parabolic exponent distinctness (8/8) — B₂ structure verified
-- WorkingPaper §6: m_p = 6π⁵m_e = 938.272 MeV (0.002%)
-- WorkingPaper §7: G derived from Vol(D_IV^5) (0.07%)
+- WorkingPaper Section 6: m_p = 6π⁵m_e = 938.272 MeV (0.002%)
+- WorkingPaper Section 7: G derived from Vol(D_IV^5) (0.07%)
 
 ## For Everyone
 

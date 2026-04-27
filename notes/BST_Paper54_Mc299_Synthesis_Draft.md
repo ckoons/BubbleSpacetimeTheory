@@ -242,7 +242,7 @@ Neutron star mergers are already confirmed as r-process sites (GW170817/kilonova
 
 BST predicts a **fourth waiting point at N = 184**. The κ_ls = 6/5 shell closure creates a deep potential minimum that stalls the r-process. Nuclei across a range of Z values pile up at N = 184 in the merger ejecta, including the Z = 115-126 range.
 
-The Og-302 → Mc-299 proton shedding chain (§4.6) would occur naturally in this environment. The r-process overshoots to Z > 115, the N = 184 shell closure stabilizes the products, and proton emission or beta decay walks Z back down to the local energy minimum near Z = 115.
+The Og-302 → Mc-299 proton shedding chain (Section 4.6) would occur naturally in this environment. The r-process overshoots to Z > 115, the N = 184 shell closure stabilizes the products, and proton emission or beta decay walks Z back down to the local energy minimum near Z = 115.
 
 ### 8.2 Natural Deposits in Stellar Systems
 
@@ -274,14 +274,14 @@ Not all stellar systems are equal. A solar system that forms from a molecular cl
 
 ### 8.4 Implications for Substrate Engineering
 
-A civilization with access to natural deposits of N = 184 elements would not need to solve the synthesis problem described in §4. They would:
+A civilization with access to natural deposits of N = 184 elements would not need to solve the synthesis problem described in Section 4. They would:
 
 - Identify the deposits through anomalous radioactivity signatures or mass spectrometry
 - Mine and refine using conventional (if shielded) metallurgy — the chemistry of superheavy elements follows periodic table trends
 - Characterize the nuclear transition spectrum to identify BST-resonant frequencies
 - Build transducer devices using bulk material rather than atom-by-atom synthesis
 
-This dramatically lowers the engineering barrier. The hardest step in our §6 research program (Phase 3-4: synthesis and accumulation) is eliminated by geology. What remains is understanding the physics — which is what BST provides.
+This dramatically lowers the engineering barrier. The hardest step in our Section 6 research program (Phase 3-4: synthesis and accumulation) is eliminated by geology. What remains is understanding the physics — which is what BST provides.
 
 The inverse is also informative: **a civilization that possesses bulk superheavy material almost certainly formed in a merger-enriched stellar environment.** The material's existence tells you about their astrophysical neighborhood.
 

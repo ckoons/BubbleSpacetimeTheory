@@ -59,7 +59,7 @@ The type IV bounded symmetric domain $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}
 | $C_2$ | 6 | Casimir eigenvalue ($n_C + 1$) |
 | $g$ | 7 | Bergman genus ($n_C + \mathrm{rank}$) |
 
-The spectral bound $N_{\max} = 137$ is forced by $n_C = 5$ via Wolstenholme's theorem (Paper #24, §4.5). The compact factor SO(5) has root system $B_2$ with $|\Delta^+| = 4$ positive roots and Weyl group $|W(B_2)| = 8$.
+The spectral bound $N_{\max} = 137$ is forced by $n_C = 5$ via Wolstenholme's theorem (Paper #24, Section 4.5). The compact factor SO(5) has root system $B_2$ with $|\Delta^+| = 4$ positive roots and Weyl group $|W(B_2)| = 8$.
 
 ## 4. The Bergman Kernel and Its Spectral Expansion
 
@@ -89,7 +89,7 @@ $$\mu(\lambda) = c \cdot \prod_{\alpha \in \Delta^+} \frac{\Gamma(\langle \lambd
 
 where $\rho = (3, 1)$ is the half-sum of positive roots. The inner products $\langle \rho, \alpha \rangle$ for the four positive roots of $B_2$ are $\{1, 2, 3, 4\} = \{1, \mathrm{rank}, N_c, 2^{\mathrm{rank}}\}$ — exactly the first $\mathrm{rank} + 2$ BST integers.
 
-This means: the denominators in the spectral expansion are products of $\{1, 2, 3, 4\}$, which are the harmonic denominators $\{1/k : k = 1, \ldots, n_C - 1\}$. The connection to the harmonic numbers $H_k$ that produce $\alpha = 1/137$ (Paper #24, §4.5) is not accidental — both arise from the Plancherel structure of $B_2$.
+This means: the denominators in the spectral expansion are products of $\{1, 2, 3, 4\}$, which are the harmonic denominators $\{1/k : k = 1, \ldots, n_C - 1\}$. The connection to the harmonic numbers $H_k$ that produce $\alpha = 1/137$ (Paper #24, Section 4.5) is not accidental — both arise from the Plancherel structure of $B_2$.
 
 ## 5. Why Rationals
 

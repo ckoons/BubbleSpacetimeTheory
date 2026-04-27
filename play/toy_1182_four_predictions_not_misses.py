@@ -91,7 +91,7 @@ print(f"""
   PREDICTION 1: Bottom Quark Mass
 {'─'*72}""")
 
-# Two BST routes to m_b (from BST_QuarkMassSpectrum_Complete.md §8.5, §9):
+# Two BST routes to m_b (from BST_QuarkMassSpectrum_Complete.md Section 8.5, Section 9):
 m_b_via_c   = (10.0/3.0) * 1287   # (dim_R/N_c) * m_c = 4291 MeV (2.6% off)
 m_b_via_tau = (g / N_c) * m_tau    # (7/3) * m_tau = 4146 MeV (0.6% off)
 m_b_pdg     = 4180.0               # PDG MS-bar at m_b, MeV
@@ -101,15 +101,15 @@ dev_route_c   = (m_b_via_c - m_b_pdg) / m_b_pdg * 100
 dev_route_tau = (m_b_via_tau - m_b_pdg) / m_b_pdg * 100
 
 print(f"""
-  TWO ROUTES to m_b (from QuarkMassSpectrum §8.5):
+  TWO ROUTES to m_b (from QuarkMassSpectrum Section 8.5):
 
   Route A: m_b/m_c = dim_R/N_c = 10/3
     m_b = (10/3) × 1287 = {m_b_via_c:.0f} MeV → {dev_route_c:+.1f}% from PDG
 
-  Route B: m_b/m_tau = g/N_c = 7/3  [PREFERRED — §9 revised table]
+  Route B: m_b/m_tau = g/N_c = 7/3  [PREFERRED — Section 9 revised table]
     m_b = (7/3) × {m_tau:.2f} = {m_b_via_tau:.0f} MeV → {dev_route_tau:+.1f}% from PDG
 
-  The spectrum document ALREADY recommends Route B (§8.5):
+  The spectrum document ALREADY recommends Route B (Section 8.5):
     "The m_b/m_tau = 7/3 route (0.6%) should be preferred
      over m_b/m_c = 10/3 (2.6%)."
 

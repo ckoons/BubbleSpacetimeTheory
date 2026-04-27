@@ -87,7 +87,7 @@ Lyra separated the Clay question into three sub-questions:
 
 | Sub-question | Clay addresses? | BST addresses? |
 |---|---|---|
-| **(A)** Can QFT be made rigorous? (Existence + Wightman axioms) | YES — this is the core of Clay's formulation | **Must do** — see §3.7 |
+| **(A)** Can QFT be made rigorous? (Existence + Wightman axioms) | YES — this is the core of Clay's formulation | **Must do** — see Section 3.7 |
 | **(B)** Does the mass gap exist? | YES — bundled with (A) | YES — existence by compactness of $Q^5$ |
 | **(C)** What determines the value? | NO — Clay ignores this entirely | YES — $\Delta = 6\pi^5 m_e$ (0.002%) |
 
@@ -148,7 +148,7 @@ This is the one item that is real mathematics, not just translation:
 
 ### 3.7 Lyra's "simply" statement (adopted, with Casey's amendment)
 
-> Your problem asks whether a mass gap exists and requires constructing a theory to prove it. We derive the mass gap VALUE from spectral geometry — 938.272 MeV, matching experiment to 0.002%. The physical content of the Wightman axioms is satisfied by the spectral geometry of $Q^5$. We exhibit this satisfaction axiom-by-axiom below. The constructive formalization on $\mathbb{R}^4$ is provided via the decompactification bridge in §X. The physical content is resolved; the formal verification follows.
+> Your problem asks whether a mass gap exists and requires constructing a theory to prove it. We derive the mass gap VALUE from spectral geometry — 938.272 MeV, matching experiment to 0.002%. The physical content of the Wightman axioms is satisfied by the spectral geometry of $Q^5$. We exhibit this satisfaction axiom-by-axiom below. The constructive formalization on $\mathbb{R}^4$ is provided via the decompactification bridge in Section X. The physical content is resolved; the formal verification follows.
 
 **Casey's amendment**: Don't just claim the axioms are satisfied — show it. Don't just identify the bridge as needed — build it. Answer their question first, then show ours goes deeper.
 
@@ -231,7 +231,7 @@ Both analyses converge on a key strategic point. Casey's directive: state it wit
 |---|---|---|---|---|
 | 11 | YM complete paper | All | Mass gap value + Wightman exhibition + bridge + general-$G$ | — |
 | 12 | TCC proof attempt | Lyra/Elie | The one remaining P$\neq$NP mathematical gap | Cat 1 |
-| 13 | "Question has noise" note | All | Diplomatic document for WorkingPaper, using consensus framing from §5 | — |
+| 13 | "Question has noise" note | All | Diplomatic document for WorkingPaper, using consensus framing from Section 5 | — |
 
 -----
 

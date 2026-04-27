@@ -48,7 +48,7 @@ We show it is not a prediction problem. It is a derivation problem. All three co
 | $H_0$ | $c\sqrt{19\Lambda/39}$ | $67.36 \pm 0.54$ km/s/Mpc | 0.98% |
 | $T_0$ | Entropy budget from $\{H_0, \Omega_m, z_{\mathrm{eq}}\}$ | 2.7255 K | 0.43% |
 
-The derivation chain is sequential: geometry $\to$ heat kernel $\to$ $\alpha$ $\to$ $\Lambda$ $\to$ $H_0$ $\to$ $T_0$. Each step uses only BST-derived inputs. The single external input to the entire chain is the electron mass $m_e$ (which sets the unit system; BST derives $m_p/m_e = 6\pi^5$ but not $m_e$ itself in SI units). As of this version, every multiplicative factor in $\Lambda$ — including $\alpha = 1/137$ (forced by $H_5 = 137/60$, §4.5) and $e^{-1/2}$ (derived from $\mathrm{td}_5(Q^5) = 1/2$, §4.3) — traces to the defining parameters of $D_{IV}^5$.
+The derivation chain is sequential: geometry $\to$ heat kernel $\to$ $\alpha$ $\to$ $\Lambda$ $\to$ $H_0$ $\to$ $T_0$. Each step uses only BST-derived inputs. The single external input to the entire chain is the electron mass $m_e$ (which sets the unit system; BST derives $m_p/m_e = 6\pi^5$ but not $m_e$ itself in SI units). As of this version, every multiplicative factor in $\Lambda$ — including $\alpha = 1/137$ (forced by $H_5 = 137/60$, Section 4.5) and $e^{-1/2}$ (derived from $\mathrm{td}_5(Q^5) = 1/2$, Section 4.3) — traces to the defining parameters of $D_{IV}^5$.
 
 ## 2. The Five Integers
 
@@ -62,7 +62,7 @@ The type IV bounded symmetric domain $D_{IV}^5 = \mathrm{SO}_0(5,2)/[\mathrm{SO}
 | $C_2$ | 6 | Casimir eigenvalue ($n_C + 1$) |
 | $g$ | 7 | Bergman genus ($n_C + \mathrm{rank}$) |
 
-The spectral bound $N_{\max} = 137 = \mathrm{numer}(H_{n_C})$ is forced by $n_C = 5$ via Wolstenholme's theorem (§4.5). The fine-structure constant $\alpha = 1/N_{\max}$.
+The spectral bound $N_{\max} = 137 = \mathrm{numer}(H_{n_C})$ is forced by $n_C = 5$ via Wolstenholme's theorem (Section 4.5). The fine-structure constant $\alpha = 1/N_{\max}$.
 
 For this paper, the key derived quantities are:
 - $\Omega_\Lambda = 13/19$ (dark energy fraction; three independent derivations: Chern class readout, Reality Budget, Five-Pair Cycle [T678])
@@ -72,7 +72,7 @@ For this paper, the key derived quantities are:
 - $z_{\mathrm{eq}} = 3433$ (matter-radiation equality; BST structural prediction from the spectral decomposition of $D_{IV}^5$, not derived from $T_0$)
 - $m_p = 6\pi^5 m_e$ (proton mass)
 
-All are derived in the companion papers; none is fitted. One semi-external input enters the $T_0$ derivation: the QED thermal correction $N_{\mathrm{eff}} = 3.044$ (BST gives $N_\nu = N_c = 3$ neutrino species; the 0.044 correction requires QED loop calculations beyond the BST integer framework). The winding amplitude $e^{-1/2}$ in the contact scale $d_0$, previously listed as semi-external, is now derived from the Todd class of $Q^5$ (see §4.3).
+All are derived in the companion papers; none is fitted. One semi-external input enters the $T_0$ derivation: the QED thermal correction $N_{\mathrm{eff}} = 3.044$ (BST gives $N_\nu = N_c = 3$ neutrino species; the 0.044 correction requires QED loop calculations beyond the BST integer framework). The winding amplitude $e^{-1/2}$ in the contact scale $d_0$, previously listed as semi-external, is now derived from the Todd class of $Q^5$ (see Section 4.3).
 
 ## 3. $\Omega_\Lambda = 13/19$
 
@@ -235,7 +235,7 @@ $$\xrightarrow{\text{Wolstenholme}} \alpha = 1/\mathrm{numer}(H_5) = 1/137 \xrig
 
 $$\xrightarrow{\Omega_\Lambda = 13/19} H_0 = c\sqrt{19\Lambda/39} \xrightarrow{\text{entropy}} T_0 = 2.737 \text{ K}$$
 
-At each step, the input is the output of the previous step plus BST-derived constants. The $e^{-1/2}$ winding amplitude, previously semi-external, is now derived as $e^{-\mathrm{td}_5(Q^5)}$ from the Todd class of the compact dual (§4.3, Toy 910). The $\alpha = 1/137$ forcing, previously conjectural, is now established via Wolstenholme's theorem at $n_C = 5$ (§4.5, Toy 909). The sole remaining semi-external element is $N_{\mathrm{eff}} = 3.044$ in the $T_0$ calculation (§6.4) — BST gives $N_\nu = 3$; the 0.044 QED loop correction lies outside the integer framework.
+At each step, the input is the output of the previous step plus BST-derived constants. The $e^{-1/2}$ winding amplitude, previously semi-external, is now derived as $e^{-\mathrm{td}_5(Q^5)}$ from the Todd class of the compact dual (Section 4.3, Toy 910). The $\alpha = 1/137$ forcing, previously conjectural, is now established via Wolstenholme's theorem at $n_C = 5$ (Section 4.5, Toy 909). The sole remaining semi-external element is $N_{\mathrm{eff}} = 3.044$ in the $T_0$ calculation (Section 6.4) — BST gives $N_\nu = 3$; the 0.044 QED loop correction lies outside the integer framework.
 
 | Step | Output | Key BST input | Status | Accuracy |
 |------|--------|--------------|--------|----------|

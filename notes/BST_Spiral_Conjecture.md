@@ -101,18 +101,18 @@ The spiral IS the organizing principle. The fusion data confirms it.
 
 | # | Claim | Status | Source |
 |:--|:------|:-------|:-------|
-| 1 | Fill fraction = pitch / dimension, 1/π = angular period | **PROVED** | §2.1, Toy 190 |
-| 2 | Color = winding mod 3 | **PROVED** | §2.2, Toy 189–190 |
-| 3 | Substrate = maximal flat, curvature −1/g | **PROVED** | §2.3, established |
-| 4 | Democratic spiral: equal area per color at decay 1/N_c | **ESTABLISHED** | §2.4, consistent but not independently verified |
-| 5 | Cosmological flatness forced by least action | **PROVED** | §2.5, maximal flat = ground state |
+| 1 | Fill fraction = pitch / dimension, 1/π = angular period | **PROVED** | Section 2.1, Toy 190 |
+| 2 | Color = winding mod 3 | **PROVED** | Section 2.2, Toy 189–190 |
+| 3 | Substrate = maximal flat, curvature −1/g | **PROVED** | Section 2.3, established |
+| 4 | Democratic spiral: equal area per color at decay 1/N_c | **ESTABLISHED** | Section 2.4, consistent but not independently verified |
+| 5 | Cosmological flatness forced by least action | **PROVED** | Section 2.5, maximal flat = ground state |
 | 6 | Casimir = winding levels (Q1) | **PROVED** | Toy 189, C₂(S^k V) = λ_k all k |
 | 7 | 91 reps = 7 winding classes × 13 per class (Q2) | **PROVED** | Toy 187–189, fusion data |
 | 8 | Wall weights = partial windings, sum = r (Q3) | **PROVED** | Toy 188–189, confinement theorem |
 | 9 | Palindrome = one full turn around Z₇ (Q4) | **PROVED** | Toy 189, charge conjugation = bilateral symmetry |
 | 10 | S-matrix = DFT on Z₇ (Q5) | **PROVED** | Toy 189, fusion = winding addition |
-| 11 | Critical strip = boundary of maximal flat | **CONJECTURE** | §3, awaits Riemann specialist engagement |
-| 12 | Expansion = winding accumulation, w > −1 always | **CONJECTURE** | §4, testable by DESI/Euclid |
+| 11 | Critical strip = boundary of maximal flat | **CONJECTURE** | Section 3, awaits Riemann specialist engagement |
+| 12 | Expansion = winding accumulation, w > −1 always | **CONJECTURE** | Section 4, testable by DESI/Euclid |
 
 **Bonus theorem (new):** Confinement = incomplete orbit. Wall reps have fractional winding (3/7, 5/7, 6/7). Physical states require completed winding ≡ 0 mod N_c. Baryon = simplest closed orbit with nontrivial color.
 

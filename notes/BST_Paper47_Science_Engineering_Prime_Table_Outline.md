@@ -20,11 +20,11 @@ Everyone. A physicist, a chemist, a number theorist, a grad student, a bright hi
 
 ## Structure
 
-### §1. The Mendeleev Parallel (1 page)
+### Section 1. The Mendeleev Parallel (1 page)
 
 In 1869, Mendeleev arranged 63 elements by atomic weight. Gaps in the table predicted three undiscovered elements — all found within 15 years. We present an analogous table for physical observables, organized by algebraic structure rather than atomic weight. Our table has 14 confirmed entries and 182 gaps. Each gap is a falsifiable prediction.
 
-### §2. Five Integers (1 page)
+### Section 2. Five Integers (1 page)
 
 The bounded symmetric domain D_IV^5 = SO_0(5,2)/[SO(5)×SO(2)] is characterized by five integers:
 
@@ -40,13 +40,13 @@ These generate a sixth: N_max = 137 (the fine structure constant).
 
 No free parameters. No fitting. Five integers from one geometric object.
 
-### §3. The Composite Lattice (1 page)
+### Section 3. The Composite Lattice (1 page)
 
 All products of {2, 3, 5, 6, 7} and their powers form a lattice of composite numbers. Up to 10000, this lattice contains 338 members. Examples: 6, 10, 12, 14, 15, 18, 21, 30, 35, 36, 42, 60, 84, 90, 126, 210...
 
 This lattice is pure algebra — a machine that generates, factors, and closes. Nothing in it needs to be observed. It is structure talking to itself.
 
-### §4. The Prime Residue Principle (T914) (2 pages)
+### Section 4. The Prime Residue Principle (T914) (2 pages)
 
 **Theorem**: Physical observables derived from D_IV^5 preferentially occupy values whose numerators are prime, where the prime equals a BST composite ±1.
 
@@ -69,7 +69,7 @@ g    = 6 + 1 = 7   (prime residue of C₂)
 
 **g = 7 has unique dual membership**: Both 6+1 (observer shift from C₂) AND 8−1 (Mersenne deficit from 2^N_c). The genus sits at the prime wall from both directions. This is unique among BST integers.
 
-### §5. The Table (THE FIGURE — 1-2 pages)
+### Section 5. The Table (THE FIGURE — 1-2 pages)
 
 The BST Prime Residue Table. Full-page poster figure.
 
@@ -77,7 +77,7 @@ Rows = generation (number of BST factors). Columns = sector (which integers part
 
 Color code: green (matched), gold (predicted), blue border (dual-membership), red (137 orphan), gray (no prime).
 
-### §6. Confirmed Matches (2 pages)
+### Section 6. Confirmed Matches (2 pages)
 
 | Prime | = Composite ±1 | BST Expression | Physical Observable | Deviation |
 |-------|----------------|----------------|--------------------:|----------:|
@@ -97,7 +97,7 @@ Color code: green (matched), gold (predicted), blue border (dual-membership), re
 
 *91 is composite (7×13) but factors into catalog primes — confirming closure.
 
-### §7. Predictions (2 pages)
+### Section 7. Predictions (2 pages)
 
 182 predicted primes without known observables. Highlight the most testable:
 
@@ -113,7 +113,7 @@ Prediction: elements at BST prime walls have anomalous physical properties (supe
 
 **Selectivity**: BST primes = 15.9% of all primes ≤10000. At 4+ digits, only 10.3%. The lattice has resolving power — it rejects 84% of primes.
 
-### §8. The AC Theorem Graph: Roads Between Domains (2 pages)
+### Section 8. The AC Theorem Graph: Roads Between Domains (2 pages)
 
 The Prime Residue Table tells you WHERE observables must exist. The AC theorem graph tells you HOW to derive them.
 
@@ -149,7 +149,7 @@ The tool that finds the physics IS physics. The graph's own structure obeys the 
 
 Science engineering = Table + Graph + Bridge. The table is the map. The graph is the roads. The bridges are what we build.
 
-### §9. The Science Engineering Method (1 page)
+### Section 9. The Science Engineering Method (1 page)
 
 T914 + the AC theorem graph convert physics discovery from exploration to engineering:
 
@@ -163,7 +163,7 @@ This search runs in AC(0) for steps 1-3 and polynomial BFS for step 4. The cost 
 
 "Science engineering" = constructing new sciences from algebraic structure rather than discovering them from experiment. The table is the engineering spec. The graph is the construction manual. The primes are the requirements. The composites are the infrastructure.
 
-### §10. Falsification (0.5 page)
+### Section 10. Falsification (0.5 page)
 
 This paper is falsifiable at three levels:
 
@@ -171,7 +171,7 @@ This paper is falsifiable at three levels:
 2. **Statistical**: BST primes should be enriched among physically significant numbers (atomic numbers of special elements, dimensions of important groups, coefficients of universal quantities) relative to random primes.
 3. **Structural**: The dual-membership primes should appear in more domains than single-membership primes.
 
-### §11. Connection to the Periodic Table (0.5 page)
+### Section 11. Connection to the Periodic Table (0.5 page)
 
 Mendeleev's table organized known elements and predicted unknown ones from gaps in the structure. The prediction method was: position determines properties. Our table does the same: algebraic position (which BST integers participate, and how many) determines physical domain. The method is identical. The substrate is different. The logic is the same.
 
@@ -191,7 +191,7 @@ Mendeleev's table organized known elements and predicted unknown ones from gaps 
 
 - Mendeleev (1869) — the original periodic table
 - BST WorkingPaper v21 (Zenodo, 2026) — the five integers
-- T914 proof (this paper, §4)
+- T914 proof (this paper, Section 4)
 - Toy 970 data (supplementary, GitHub)
 
 ## Production Notes

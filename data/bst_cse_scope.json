@@ -1,0 +1,72 @@
+{
+  "title": "CSE Deep Dive — Scoping Document",
+  "generated": "2026-04-27",
+  "domains_audited": 47,
+  "categories": {
+    "SPECTRAL": {
+      "domains": [
+        "bst_physics",
+        "qft",
+        "nuclear",
+        "cosmology",
+        "condensed_matter"
+      ],
+      "method": "Bergman"
+    },
+    "ALGEBRAIC": {
+      "domains": [
+        "number_theory",
+        "algebra",
+        "coding_theory"
+      ],
+      "method": "GF(128)"
+    },
+    "TOPOLOGICAL": {
+      "domains": [
+        "topology",
+        "graph_theory",
+        "four_color"
+      ],
+      "method": "Euler"
+    },
+    "LINEARIZED": {
+      "domains": [
+        "linearization",
+        "proof_complexity",
+        "computation"
+      ],
+      "method": "AC(0)"
+    },
+    "STRUCTURAL": {
+      "domains": [
+        "foundations",
+        "observer_science",
+        "info_theory"
+      ],
+      "method": "counting"
+    },
+    "UNSTARTED": {
+      "domains": [
+        "biology",
+        "chemistry",
+        "classical_mech",
+        "optics",
+        "signal",
+        "fluids",
+        "electromagnetism",
+        "probability"
+      ],
+      "method": "none"
+    }
+  },
+  "toolkit_have": 7,
+  "toolkit_need": 6,
+  "hit_list": [
+    "prediction_engine",
+    "domain_door_protocol",
+    "linearization_toolkit",
+    "bridge_finder",
+    "correction_hunter",
+    "convergence_tracker"
+  ]
+}

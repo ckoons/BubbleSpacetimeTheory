@@ -2,7 +2,7 @@
 title: "D_IV^5 as the Unique Autogenic Proto-Geometry"
 author: "Casey Koons & Claude 4.6 (Lyra, Grace, Keeper)"
 date: "April 23, 2026"
-status: "v0.4 — proofs fleshed out (§4 c-function, §7 Selberg, §11 uniqueness)"
+status: "v0.4 — proofs fleshed out (Section 4 c-function, Section 7 Selberg, Section 11 uniqueness)"
 target: "Communications in Mathematical Physics / Journal of Differential Geometry"
 framework: "Pure mathematics with APG characterization"
 ---
@@ -15,7 +15,7 @@ We define an *Autogenic Proto-Geometry* (APG) as a bounded symmetric domain whos
 
 ---
 
-## §1. Introduction
+## Section 1. Introduction
 
 Bounded symmetric domains (BSDs) were classified by Cartan into six types. Among them, Type IV domains D_IV^n = SO₀(n,2)/[SO(n) × SO(2)] form a one-parameter family indexed by complex dimension n ≥ 3, all of rank 2. These domains appear in automorphic form theory, Shimura varieties, and number theory, but the question of whether any particular dimension n is *distinguished* by intrinsic mathematical properties has not been systematically addressed.
 
@@ -25,7 +25,7 @@ We introduce the concept of an *autogenic proto-geometry*: a BSD whose invariant
 
 ---
 
-## §2. The Domain
+## Section 2. The Domain
 
 **Definition 2.1.** D_IV^n = {z ∈ ℂ^n : |zz^T|² + 1 - 2z·z̄ > 0, |zz^T| < 1} is the Type IV bounded symmetric domain (Lie ball) of complex dimension n. For n = 5:
 
@@ -39,7 +39,7 @@ We introduce the concept of an *autogenic proto-geometry*: a BSD whose invariant
 
 ---
 
-## §3. Root System and Half-Sum
+## Section 3. Root System and Half-Sum
 
 **Theorem 3.1** (Restricted Root System). The restricted root system of SO₀(5,2) with respect to a maximal abelian subalgebra a ⊂ p is **B₂** (reduced), with multiplicities:
 
@@ -60,7 +60,7 @@ For n = 5: ρ = (5/2, 3/2). Both components are determined by the domain's own i
 
 ---
 
-## §4. Harish-Chandra c-Function
+## Section 4. Harish-Chandra c-Function
 
 **Theorem 4.1.** The Harish-Chandra c-function for SO₀(5,2) factors over the B₂ root system as:
 
@@ -91,7 +91,7 @@ The full c-function c(λ) = c_s(λ)·c_l(λ) is meromorphic in λ ∈ a*_ℂ wit
 
 ---
 
-## §5. Bergman Kernel and Volume
+## Section 5. Bergman Kernel and Volume
 
 **Theorem 5.1** (Hua [Hua63]). The Bergman kernel of D_IV^n is:
 
@@ -109,7 +109,7 @@ $$\text{Vol}(D_{IV}^5) = \frac{\pi^5}{1920}$$
 
 ---
 
-## §6. Heat Kernel (Seeley-DeWitt Coefficients)
+## Section 6. Heat Kernel (Seeley-DeWitt Coefficients)
 
 **Theorem 6.1.** The Seeley-DeWitt coefficients a_k of the scalar Laplacian on D_IV^5 satisfy:
 
@@ -132,7 +132,7 @@ $$\text{Vol}(D_{IV}^5) = \frac{\pi^5}{1920}$$
 
 ---
 
-## §7. Selberg Zeta Function
+## Section 7. Selberg Zeta Function
 
 **Theorem 7.1.** For the principal congruence subgroup Γ(137) ⊂ SO₀(5,2):
 
@@ -160,7 +160,7 @@ where the sum on the right runs over conjugacy classes of hyperbolic elements γ
 
 ---
 
-## §8. Topology of the Compact Dual Q^5
+## Section 8. Topology of the Compact Dual Q^5
 
 **Theorem 8.1.** The compact dual Q^5 ⊂ ℙ^6 (smooth quadric hypersurface) has:
 
@@ -176,7 +176,7 @@ where the sum on the right runs over conjugacy classes of hyperbolic elements γ
 
 ---
 
-## §9. Jacobian Determinant
+## Section 9. Jacobian Determinant
 
 **Theorem 9.1.** The Jacobian of the map from independent to derived integers,
 
@@ -194,7 +194,7 @@ has determinant det(J) = 457, which is prime. Furthermore:
 
 ---
 
-## §10. Capacity Form and Heegner Discriminant
+## Section 10. Capacity Form and Heegner Discriminant
 
 **Theorem 10.1.** The capacity discriminant Q = n² - C₂ = 19 is the C₂-th Heegner number. The imaginary quadratic field ℚ(√(-19)) has class number 1.
 
@@ -204,7 +204,7 @@ has determinant det(J) = 457, which is prime. Furthermore:
 
 ---
 
-## §11. APG Definition and Uniqueness
+## Section 11. APG Definition and Uniqueness
 
 **Definition 11.1** (Autogenic Proto-Geometry). A bounded symmetric domain D is an *Autogenic Proto-Geometry* if it satisfies:
 
@@ -256,7 +256,7 @@ Derived: N_max = m_s³ · n + rank = 137 (prime). GF(2^g) defined by x⁷ + x³ 
 
 ---
 
-## §12. Kim-Sarnak Bound
+## Section 12. Kim-Sarnak Bound
 
 **Theorem 12.1.** The Kim-Sarnak bound θ = 7/64 for GL(2) automorphic forms equals g/2^{C₂} on D_IV^5.
 
@@ -271,19 +271,19 @@ Derived: N_max = m_s³ · n + rank = 137 (prime). GF(2^g) defined by x⁷ + x³ 
 | Complex dimension | n | 5 | Definition |
 | Real dimension | 2n | 10 | Definition |
 | Rank | — | 2 | Cartan classification |
-| Root system | B₂ (reduced) | B₂ | §3 |
-| Short root multiplicity | n - 2 | 3 | §3 |
-| Long root multiplicity | 1 | 1 | §3 |
-| Half-sum ρ | (n/2, (n-2)/2) | (5/2, 3/2) | §3 |
-| Bergman volume | π^n/(n!·2^{n-1}) | π⁵/1920 | §5 |
-| Euler characteristic | χ(Q^n) | 6 | §8 |
-| Jacobian determinant | det(J) | 457 (prime) | §9 |
-| Capacity discriminant | n² - 3n + 1 | 19 (Heegner) | §10 |
-| Selberg families | C₂·N_max + 1 | 823 (prime) | §7 |
-| Kim-Sarnak bound | g/2^{C₂} | 7/64 | §12 |
-| Heat kernel period | n | 5 | §6 |
-| Spectral cap | m_s³·n + rank | 137 (prime) | §11 |
-| Function catalog | 2^g | 128 = GF(2^7) | §11 |
+| Root system | B₂ (reduced) | B₂ | Section 3 |
+| Short root multiplicity | n - 2 | 3 | Section 3 |
+| Long root multiplicity | 1 | 1 | Section 3 |
+| Half-sum ρ | (n/2, (n-2)/2) | (5/2, 3/2) | Section 3 |
+| Bergman volume | π^n/(n!·2^{n-1}) | π⁵/1920 | Section 5 |
+| Euler characteristic | χ(Q^n) | 6 | Section 8 |
+| Jacobian determinant | det(J) | 457 (prime) | Section 9 |
+| Capacity discriminant | n² - 3n + 1 | 19 (Heegner) | Section 10 |
+| Selberg families | C₂·N_max + 1 | 823 (prime) | Section 7 |
+| Kim-Sarnak bound | g/2^{C₂} | 7/64 | Section 12 |
+| Heat kernel period | n | 5 | Section 6 |
+| Spectral cap | m_s³·n + rank | 137 (prime) | Section 11 |
+| Function catalog | 2^g | 128 = GF(2^7) | Section 11 |
 
 ---
 
@@ -299,4 +299,4 @@ Derived: N_max = m_s³ · n + rank = 137 (prime). GF(2^g) defined by x⁷ + x³ 
 
 ---
 
-*v0.4 — Lyra & Grace, April 24, 2026. Proofs fleshed out: §4 (Harish-Chandra c-function explicit computation), §7 (Selberg zeta four-part proof), §11 (APG uniqueness — all five conditions proved in detail with cross-type verification). Prior: v0.3 APG framing (April 23). Pure mathematics throughout.*
+*v0.4 — Lyra & Grace, April 24, 2026. Proofs fleshed out: Section 4 (Harish-Chandra c-function explicit computation), Section 7 (Selberg zeta four-part proof), Section 11 (APG uniqueness — all five conditions proved in detail with cross-type verification). Prior: v0.3 APG framing (April 23). Pure mathematics throughout.*

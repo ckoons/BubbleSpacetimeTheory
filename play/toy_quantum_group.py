@@ -36,9 +36,9 @@ c2 = 11
 c3 = 13
 
 # ─────────────────────────────────────────────────────
-# §1. QUANTUM DIMENSIONS
+# Section 1. QUANTUM DIMENSIONS
 # ─────────────────────────────────────────────────────
-print("\n§1. QUANTUM DIMENSIONS AT ROOTS OF UNITY")
+print("\nSection 1. QUANTUM DIMENSIONS AT ROOTS OF UNITY")
 print("-" * 50)
 
 # The quantum integer [n]_q = (q^n - q^{-n}) / (q - q^{-1})
@@ -86,9 +86,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §2. THE QUANTUM DIMENSION FORMULA
+# Section 2. THE QUANTUM DIMENSION FORMULA
 # ─────────────────────────────────────────────────────
-print("§2. QUANTUM DIMENSIONS OF so(7) REPRESENTATIONS")
+print("Section 2. QUANTUM DIMENSIONS OF so(7) REPRESENTATIONS")
 print("-" * 50)
 
 # For so(7) = B₃, the quantum dimension of the irrep with
@@ -229,9 +229,9 @@ for a, b, c, d in survivors_2:
 print(f"\n  ★ At level 2 (q^g = 1), {len(survivors_2)} representations survive")
 
 # ─────────────────────────────────────────────────────
-# §3. LEVEL 2 FUSION RING
+# Section 3. LEVEL 2 FUSION RING
 # ─────────────────────────────────────────────────────
-print("\n§3. THE LEVEL 2 FUSION RING")
+print("\nSection 3. THE LEVEL 2 FUSION RING")
 print("-" * 50)
 
 # At level 2 with so(7), the surviving representations form a fusion ring.
@@ -249,9 +249,9 @@ for a, b, c, d in survivors_2:
     pass  # just to see the last few
 
 # ─────────────────────────────────────────────────────
-# §4. DUAL COXETER = n_C
+# Section 4. DUAL COXETER = n_C
 # ─────────────────────────────────────────────────────
-print("\n§4. THE DEEP IDENTITY: h∨(B₃) = n_C = 5")
+print("\nSection 4. THE DEEP IDENTITY: h∨(B₃) = n_C = 5")
 print("-" * 50)
 
 print("""
@@ -285,9 +285,9 @@ print("""
 """)
 
 # ─────────────────────────────────────────────────────
-# §5. VERLINDE FORMULA
+# Section 5. VERLINDE FORMULA
 # ─────────────────────────────────────────────────────
-print("§5. THE VERLINDE FORMULA")
+print("Section 5. THE VERLINDE FORMULA")
 print("-" * 50)
 
 # The Verlinde formula gives fusion coefficients:
@@ -332,9 +332,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §6. THE WZW MODEL
+# Section 6. THE WZW MODEL
 # ─────────────────────────────────────────────────────
-print("§6. THE WZW MODEL: so(7) AT LEVEL 2")
+print("Section 6. THE WZW MODEL: so(7) AT LEVEL 2")
 print("-" * 50)
 
 # The Wess-Zumino-Witten model for so(7) at level 2:
@@ -383,9 +383,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §7. CHERN-SIMONS AND THE QUANTUM INVARIANT
+# Section 7. CHERN-SIMONS AND THE QUANTUM INVARIANT
 # ─────────────────────────────────────────────────────
-print("§7. CHERN-SIMONS THEORY")
+print("Section 7. CHERN-SIMONS THEORY")
 print("-" * 50)
 
 # Chern-Simons theory with gauge group SO(7) at level 2:
@@ -421,9 +421,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §8. THE (n_C, C₂, g) TRIPLE
+# Section 8. THE (n_C, C₂, g) TRIPLE
 # ─────────────────────────────────────────────────────
-print("§8. THE CONSECUTIVE TRIPLE (n_C, C₂, g) = (5, 6, 7)")
+print("Section 8. THE CONSECUTIVE TRIPLE (n_C, C₂, g) = (5, 6, 7)")
 print("-" * 50)
 
 print(f"""
@@ -455,9 +455,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §9. QUANTUM GROUP AT q^137 = 1
+# Section 9. QUANTUM GROUP AT q^137 = 1
 # ─────────────────────────────────────────────────────
-print("§9. THE FINE STRUCTURE ROOT: q^137 = 1")
+print("Section 9. THE FINE STRUCTURE ROOT: q^137 = 1")
 print("-" * 50)
 
 # At q = e^{2πi/137}, level = 137 - 5 = 132 for so(7)
@@ -491,9 +491,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §10. THE QUANTUM CASIMIR
+# Section 10. THE QUANTUM CASIMIR
 # ─────────────────────────────────────────────────────
-print("§10. THE QUANTUM CASIMIR")
+print("Section 10. THE QUANTUM CASIMIR")
 print("-" * 50)
 
 # At level ℓ, the quantum Casimir of the standard rep (1,0,0) of B₃:
@@ -540,9 +540,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §11. SYNTHESIS
+# Section 11. SYNTHESIS
 # ─────────────────────────────────────────────────────
-print("§11. SYNTHESIS")
+print("Section 11. SYNTHESIS")
 print("-" * 50)
 
 print(f"""

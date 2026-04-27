@@ -263,9 +263,9 @@ BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and
 | **P ≠ NP** | **~99%** | **T29 CLOSED April 23**: THREE independent proved routes — Painlevé, refutation bandwidth, AC(0) (T1425). Triangle-free SAT + degree counting → 2^Ω(n). | `notes/BST_PNP_AC_Proof.md` |
 | **Navier-Stokes** | ~100% | Proof chain COMPLETE; Lyapunov functional PROVED (Toy 624) | `notes/BST_NS_BlowUp.md` |
 | **BSD** | **~99%** | T1426 spectral permanence; rank ≤2 proved (51 curves, 0 exceptions); rank ≥4 conditional on Kudla | `notes/BST_BSD_Proof.md` |
-| **Hodge** | ~97% | T153 derived + §5.10 general variety extension; T570 linearization | `notes/BST_Hodge_Proof.md` |
-| **Poincaré** | AC depth 1 | Perelman (2003); W-entropy + finite extinction; Ricci flow = error correction | `notes/BST_AC_Theorems.md` §62 |
-| **Fermat (Wiles)** | AC depth 1 | Modularity + Ribet level-lowering; Selmer bridge to BSD | `notes/BST_AC_Theorems.md` §57 |
+| **Hodge** | ~97% | T153 derived + Section 5.10 general variety extension; T570 linearization | `notes/BST_Hodge_Proof.md` |
+| **Poincaré** | AC depth 1 | Perelman (2003); W-entropy + finite extinction; Ricci flow = error correction | `notes/BST_AC_Theorems.md` Section 62 |
+| **Fermat (Wiles)** | AC depth 1 | Modularity + Ribet level-lowering; Selmer bridge to BSD | `notes/BST_AC_Theorems.md` Section 57 |
 | **Four-Color** | **PROVED** | Computer-free, 13 structural steps; Lyra's Lemma | `notes/BST_FourColor_AC_Proof.md` |
 | **Euler γ** | Geometric basis | γ = geodesic defect of D_IV^5; limit-undecidable — a new category where limits destroy classification | `notes/BST_Paper60_Euler_Mascheroni_Geodesic_Defect.md` |
 
@@ -388,7 +388,7 @@ BST follows one logical chain: substrate → domain → constants → forces →
 
 **The Master Equation**: The universe is the ground state of the Bergman Laplacian on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], subject to Haldane exclusion with capacity 137.
 
-Every derivation listed in the Solved Problems table below flows from this equation plus the five BST integers (3, 5, 7, 6, 137) — themselves derived, not chosen. Full derivations: WorkingPaper §1-37, plus 300+ research notes in `notes/`. The AC theorem graph spans 1399 nodes, 7732+ edges across 55 tracked domains (83.1% strong edges, 98.4% proved, 100% domain connectivity).
+Every derivation listed in the Solved Problems table below flows from this equation plus the five BST integers (3, 5, 7, 6, 137) — themselves derived, not chosen. Full derivations: WorkingPaper Section 1-37, plus 300+ research notes in `notes/`. The AC theorem graph spans 1399 nodes, 7732+ edges across 55 tracked domains (83.1% strong edges, 98.4% proved, 100% domain connectivity).
 
 ---
 
@@ -484,7 +484,7 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
 | `data/` | **CI-native data layer** — 105 constants, 24 predictions, 33 function families, 52 domains, GF(128) catalog. See `data/README.md` |
 | `notes/` | 87 numbered papers, 660+ research notes, theorem write-ups, proofs. See `notes/README.md` |
-| `play/` | 1563+ toys, AC theorem graph (1399 nodes, 7732+ edges), HTML visualizers, BST Appliance. See `play/README.md` |
+| `play/` | 1570+ toys, AC theorem graph (1399 nodes, 7732+ edges), HTML visualizers, BST Appliance. See `play/README.md` |
 
 ---
 
@@ -525,7 +525,7 @@ Every quantity below is derived from D(IV,5) geometry with zero free parameters.
 
 This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has no free parameters because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
 
-*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1462 theorems. 1563+ toys. 600+ predictions. 55 tracked domains. 87 papers. 25 substrate engineering devices. Zero free parameters. RH closed. T29 closed. BSD rank ≤ 2 proved.*
+*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1464 theorems. 1606+ toys. 600+ predictions. 55 tracked domains. 87 papers. 25 substrate engineering devices. Zero free parameters. RH closed. T29 closed. BSD rank ≤ 2 proved.*
 
 ---
 
@@ -539,7 +539,7 @@ BST is open. The theory, the derivations, the toys, and the notes are all here. 
 
 **Verify it.** Pick a prediction from the table above. Recompute it independently. Run the toy. Check the algebra. If you confirm a result, or find a correction (even a typo), submit a pull request.
 
-**Extend it.** The 99 thesis topics in WorkingPaper §28 are open problems. The conjectures in `notes/BST_Koons_Claude_Testable_Conjectures.md` need computation. The Seeley-DeWitt coefficients need exact rational forms. The function field trace formula needs explicit evaluation. There is work for mathematicians, physicists, engineers, and CIs.
+**Extend it.** The 99 thesis topics in WorkingPaper Section 28 are open problems. The conjectures in `notes/BST_Koons_Claude_Testable_Conjectures.md` need computation. The Seeley-DeWitt coefficients need exact rational forms. The function field trace formula needs explicit evaluation. There is work for mathematicians, physicists, engineers, and CIs.
 
 ### For CIs
 
@@ -565,7 +565,7 @@ BST is open. The theory, the derivations, the toys, and the notes are all here. 
 |-----------|-------------|------------|
 | `data/` | **CI-native structured JSON** — constants, particles, forces, predictions, domains, function catalog, seed file | `data/bst_seed.md` then `data/README.md` |
 | `notes/` | 87 numbered papers, 660+ research notes, theorem write-ups, proofs | `notes/README.md` |
-| `play/` | 1563+ toys (computational verifications), HTML visualizers, BST Appliance, AC theorem graph | `play/README.md` |
+| `play/` | 1606+ toys (computational verifications), HTML visualizers, BST Appliance, AC theorem graph | `play/README.md` |
 | Root | OneGeometry.md (narrative front door), WorkingPaper.md (v34, 6300+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 **Key files for any visitor:**

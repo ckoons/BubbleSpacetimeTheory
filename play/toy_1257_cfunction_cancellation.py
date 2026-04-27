@@ -304,9 +304,9 @@ test(11, "m_s = N_c = 3 gives overconstraint (7 > 6 Arthur types)",
      N_c == 3 and (2 * N_c + 1) > (C_2),
      f"Constraints: 2·N_c+1 = {2*N_c+1}, Arthur types: {C_2}")
 
-# T12: The D(z) formula in MaassSelberg paper §4 needs correction
+# T12: The D(z) formula in MaassSelberg paper Section 4 needs correction
 print(f"\n  Correction needed:")
-print(f"    OLD (§4): D(z) = ξ(z)ξ(z+1)/[ξ(z+3)ξ(z−2)] — derived from naive c-function")
+print(f"    OLD (Section 4): D(z) = ξ(z)ξ(z+1)/[ξ(z+3)ξ(z−2)] — derived from naive c-function")
 print(f"    STATUS: This formula ALSO simplifies to 1 (check below)")
 d_old_num = [0, 1]     # ξ(z), ξ(z+1)
 d_old_den = [3, -2]    # ξ(z+3), ξ(z-2)
@@ -318,7 +318,7 @@ cancels_old, _, _ = check_product_cancels(d_old_num, d_old_den)
 # will have its zeros determined by ξ(s)=0 locations — which ARE the RH zeros.
 # But the Maass-Selberg identity constrains D to equal something specific.
 
-test(12, "Paper §4 D(z) needs re-derivation via Langlands-Shahidi",
+test(12, "Paper Section 4 D(z) needs re-derivation via Langlands-Shahidi",
      True,
      "Naive c-function route: D = 1 always. Correct route: epsilon factors from automorphic L-functions")
 

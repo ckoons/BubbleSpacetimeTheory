@@ -26,7 +26,7 @@ dependencies: "T189, T579, T703"
 
 ### Part 1: The 25 conditions select n_C = 5
 
-Twenty-five independent mathematical conditions select $n_C = 5$ from the family $D_{IV}^n$. See WorkingPaper §35.5 for the complete table. The conditions span seven mathematical disciplines:
+Twenty-five independent mathematical conditions select $n_C = 5$ from the family $D_{IV}^n$. See WorkingPaper Section 35.5 for the complete table. The conditions span seven mathematical disciplines:
 
 | Discipline | Conditions | Example |
 |-----------|-----------|---------|
@@ -116,7 +116,7 @@ $(C=2, D=0)$. Two evaluations ($f$ from T189, $f_{\text{crit}}$ from T579), one 
 - T189: Reality Budget / fill fraction ($f = N_c/(n_C\pi)$)
 - T579: Phase Transition Sharpness ($f_{\text{crit}} = 1 - 2^{-1/N_c}$)
 - T703: Cooperation Gap ($\Delta f = 1.53\% > 0$)
-- Conditions 1-24 in WorkingPaper §35.5
+- Conditions 1-24 in WorkingPaper Section 35.5
 
 ---
 

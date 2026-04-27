@@ -27,7 +27,7 @@ We present a topological framework for proof complexity that identifies P $\neq$
 
 ### 1. The Constraint Complex
 
-[See Paper A §2 for full details.]
+[See Paper A Section 2 for full details.]
 
 For a $k$-CNF formula $\varphi$ on $n$ variables, the VIG clique complex $K(\varphi)$ is a 2-dimensional simplicial complex. At the satisfiability threshold $\alpha_c \approx 4.267$:
 
@@ -49,7 +49,7 @@ Layer 1 (PROVED): Bounded-width systems exponential.
 Layer 2 (PROVED): Extensions topologically inert.
 Layer 3 (OPEN): Algebraic back door question.
 
-[See Paper A §§3-7 for complete proofs.]
+[See Paper A Sections 3-7 for complete proofs.]
 
 ---
 

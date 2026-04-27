@@ -148,7 +148,7 @@ No optimization, no search, no choice. The topology of a finite complex is deter
 
 $$\beta_1(K(\varphi)) = \Theta(n) \qquad \text{w.h.p.}$$
 
-*Proof sketch.* By Euler characteristic (§4 below):
+*Proof sketch.* By Euler characteristic (Section 4 below):
 
 $$\chi = V - E + F = \beta_0 - \beta_1 + \beta_2$$
 
@@ -290,7 +290,7 @@ $$\chi(Q^5) = 1 + 0 + 1 + 0 + 1 + 0 + 1 + 0 + 1 + 0 + 1 = 6$$
 
 The Euler characteristic of the compact dual is $\chi(Q^5) = 6$ — the same 6 that appears as the spectral gap $\lambda_1 = 6$, the Einstein constant, and the factor in $m_p = 6\pi^5 m_e$. This is not a coincidence. It is the same counting appearing in different guises.
 
-**Connection to Chapter 3:** The Gauss-Bonnet theorem expresses $\chi$ as an integral of curvature. On $Q^5$, this integral evaluates to 6 because the curvature is determined by the root system (§3.3 of Chapter 3), and the root system gives $\lambda_1 = n + 1 = 6$. Topology and geometry agree because they are both counting the same structure.
+**Connection to Chapter 3:** The Gauss-Bonnet theorem expresses $\chi$ as an integral of curvature. On $Q^5$, this integral evaluates to 6 because the curvature is determined by the root system (Section 3.3 of Chapter 3), and the root system gives $\lambda_1 = n + 1 = 6$. Topology and geometry agree because they are both counting the same structure.
 
 -----
 

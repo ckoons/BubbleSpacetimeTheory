@@ -81,7 +81,7 @@ add("v (Fermi scale)", "one step", 1,
     246.21965, "m_p²/(7m_e)")
 
 add("m_H (Higgs)", "one step", 1,
-    125.11, 125.25, "BST §8")
+    125.11, 125.25, "BST Section 8")
 
 add("g_A (axial coupling)", "one step", 1,
     4.0/pi, 1.2756, "4/π")

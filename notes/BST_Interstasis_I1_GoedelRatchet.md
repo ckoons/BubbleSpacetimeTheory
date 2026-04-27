@@ -163,7 +163,7 @@ $$t_{\text{life}}(n) = t_{\min} + (t_0 - t_{\min}) \cdot e^{-n \cdot f}$$
 
 Solving for $t_{\text{life}} = 700$ Myr: **n ≈ 9**.
 
-This is accurate because η is effectively constant (§3.5), so the exponential model is correct.
+This is accurate because η is effectively constant (Section 3.5), so the exponential model is correct.
 
 ### 5.2 CMB Scars May Give n_total > 9
 
@@ -198,7 +198,7 @@ Whether n_total = 9 or n_total = 200 matters for:
 
 *In a $d$-dimensional substrate with boundary injection, the consolidation efficiency satisfies $\eta_n = \eta_0 (1 + n/n^*)^{-1}$ where $n^* = d \cdot V_0^{1/d}/c$.*
 
-*Proof.* From §3.2–3.4. The volume growth ODE $dV/dn = cV^{(d-1)/d}$ has solution $V(n) = (V_0^{1/d} + cn/d)^d$. Then $\eta_n = cV^{-1/d} = c(V_0^{1/d} + cn/d)^{-1} = \eta_0(1 + n/n^*)^{-1}$. $\square$
+*Proof.* From Section 3.2–3.4. The volume growth ODE $dV/dn = cV^{(d-1)/d}$ has solution $V(n) = (V_0^{1/d} + cn/d)^d$. Then $\eta_n = cV^{-1/d} = c(V_0^{1/d} + cn/d)^{-1} = \eta_0(1 + n/n^*)^{-1}$. $\square$
 
 ### Theorem 2 (Dimensional Efficiency)
 

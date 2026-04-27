@@ -9,7 +9,7 @@ Lyra's E1 Route C request: Search all x <= 2000 for the triple condition:
   (3) x factors into BST-related primes only
 
 If x=1001 is the ONLY integer satisfying all three, that's a STRONG
-uniqueness result for Paper #51 §3 and T1016.
+uniqueness result for Paper #51 Section 3 and T1016.
 
 Extended: also check B=7 (Ψ(x,7) triple condition) and B=13, B=17
 to see if the 143-base pattern is universal.
@@ -721,7 +721,7 @@ print("qualifies, and they're ADJACENT (observer ±1 shift between (2n_C)^N_c an
 print("g×(n_C+C_2)×(2g-1)). The 143 base is specific to B=11, not universal.")
 print("CORRECTION: B=7 best crossing is at x=576 (composite Ψ=110), not x=572.")
 print("Honest: the T1018 claim about Ψ(572,7)=109 is about a NEARBY prime count,")
-print("not the exact closest crossing. Paper #51 §3 should note both x=1000 and x=1001.")
+print("not the exact closest crossing. Paper #51 Section 3 should note both x=1000 and x=1001.")
 print()
 
 # Predictions

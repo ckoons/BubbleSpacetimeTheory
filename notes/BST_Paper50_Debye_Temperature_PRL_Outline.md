@@ -22,7 +22,7 @@ The paper does NOT derive BST. It states the result, shows the data, makes predi
 
 ## Section Outline
 
-### §1. Introduction (0.5 pages)
+### Section 1. Introduction (0.5 pages)
 
 The Debye temperature $\theta_D$ of a metal is determined by its elastic constants, atomic mass, and crystal structure — quantities that have never been derived from first principles for real materials. We report that the Debye temperature of copper is given exactly by an algebraic expression:
 
@@ -34,7 +34,7 @@ This is not an isolated coincidence. The ratios of Debye temperatures across 14 
 
 **Key sentence**: No solid-state physics input (elastic moduli, atomic mass, crystal structure) enters the calculation. The result is purely algebraic.
 
-### §2. Framework (0.5 pages)
+### Section 2. Framework (0.5 pages)
 
 Brief statement of the five integers and their origin in the Cartan classification. One paragraph on the bounded symmetric domain $D_{IV}^n$ (rank = $\min(n, 2)$ for $n \geq 2$, complex dimension = $n$). At $n = 5$: rank = 2, and three conditions uniquely select this geometry:
 
@@ -46,9 +46,9 @@ The five derived invariants: $N_c = 3$ (color), $n_C = 5$ (spectral), $g = 7$ (g
 
 **Note**: This section is intentionally minimal. The reader does not need BST to check the predictions. Full details in Ref. [WP].
 
-### §3. The Debye Temperature of Copper (1 page)
+### Section 3. The Debye Temperature of Copper (1 page)
 
-#### §3.1 The $g^3$ formula
+#### Section 3.1 The $g^3$ formula
 
 The maximum phonon wavevector scales as $k_D \propto n^{1/3}$ in $d = 3$ spatial dimensions. In BST, $d_{\text{spatial}} = N_c = 3$. The Debye temperature inherits three powers of the genus:
 
@@ -56,19 +56,19 @@ $$\theta_D = g^{N_c} = g^3 = 343 \text{ K}$$
 
 **Why copper?** The atomic number $Z(\text{Cu}) = 29 = n_C \times C_2 - 1 = 30 - 1$ sits at a "prime wall" — adjacent to a product of BST integers. The Prime Residue Principle (T914) predicts that observables are located at primes adjacent to products of $\{2, 3, 5, 7\}$ — the primes dividing the five integers. Copper is the canonical example: its $Z$ is adjacent to $n_C \times C_2$, and its Debye temperature equals $g^3$ exactly.
 
-#### §3.2 The lattice constant confirmation
+#### Section 3.2 The lattice constant confirmation
 
 Independent check: $a_{\text{Cu}}/a_0 = 3.615/0.529 = 6.833 = g - 1/C_2 = 41/6$. Deviation: $0.03\%$. The same integers control both thermal and structural scales.
 
-#### §3.3 The Dickman boundary
+#### Section 3.3 The Dickman boundary
 
 The formula $\theta_D = g^3$ has number-theoretic significance: $g^3 = 343$ is the Dickman $u = 3$ cliff for $B$-smooth numbers with $B = 7$. Below this threshold, 7-smooth numbers are dense (83.8% of primes are gap-$\leq 2$ from a smooth number). Above it, the density drops sharply. The Debye temperature of copper is the physical realization of an arithmetic phase transition.
 
 All chemical elements ($Z \leq 118$) lie below this cliff. The periodic table lives entirely in the dense regime of the smooth-number lattice.
 
-### §4. Predictions for Other Elements (1 page)
+### Section 4. Predictions for Other Elements (1 page)
 
-#### §4.1 Debye temperature ratios
+#### Section 4.1 Debye temperature ratios
 
 From Toy 869 (14 metals, 8/8 PASS):
 
@@ -84,7 +84,7 @@ From Toy 869 (14 metals, 8/8 PASS):
 
 *(Note: some ratios need refinement — table to be finalized with Elie's data. Best matches < 2% deviation.)*
 
-#### §4.2 Direct predictions (Debye temperatures from BST)
+#### Section 4.2 Direct predictions (Debye temperatures from BST)
 
 Using $\theta_D(\text{Cu}) = g^3 = 343$ K as the anchor:
 
@@ -100,7 +100,7 @@ Using $\theta_D(\text{Cu}) = g^3 = 343$ K as the anchor:
 
 *(Table to be finalized — Elie requested for a systematic verification toy.)*
 
-#### §4.3 New predictions
+#### Section 4.3 New predictions
 
 Elements where high-precision Debye temperatures are needed:
 
@@ -112,7 +112,7 @@ Elements where high-precision Debye temperatures are needed:
 
 *(Predictions need Elie verification before publication. Some will be refined.)*
 
-### §5. Falsification Criteria (0.5 pages)
+### Section 5. Falsification Criteria (0.5 pages)
 
 This paper is falsifiable on multiple fronts:
 
@@ -126,7 +126,7 @@ This paper is falsifiable on multiple fronts:
 
 5. **Non-BST formula**: If a simpler formula (e.g., depending on $\sqrt{M/Z}$ for atomic mass $M$) explains the data equally well with fewer assumptions, Occam kills BST.
 
-### §6. Discussion (0.5 pages)
+### Section 6. Discussion (0.5 pages)
 
 The Debye temperature of copper is $g^3 = 343$ K. This result requires zero inputs from solid-state physics — no elastic constants, no atomic masses, no crystal structure. The five integers emerge from a uniqueness theorem in the Cartan classification of bounded symmetric domains: $D_{IV}^5$ is the only geometry compatible with observation and quantum confinement [cite T953].
 

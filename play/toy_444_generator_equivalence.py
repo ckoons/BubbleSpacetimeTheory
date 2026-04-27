@@ -2,7 +2,7 @@
 """
 Toy 444 — Generator Equivalence: SO(7) Transitivity on 2-Planes
 
-Verifies Keeper's Generator Equivalence Theorem (BST_MultiGenerator_Speculation §5):
+Verifies Keeper's Generator Equivalence Theorem (BST_MultiGenerator_Speculation Section 5):
   All 21 standard generators of SO(7) are conjugate under Ad(SO(7)).
   Therefore unfreezing any single basis generator produces identical physics.
 
@@ -468,7 +468,7 @@ def test_5_cartan_subalgebra():
     # All are conjugate under SO(7)
     print(f"\n  Conjugacy theorem (semisimple Lie algebras):")
     print(f"    All Cartan subalgebras of so(7) are conjugate under Ad(SO(7)).")
-    print(f"    This is a standard result (Humphreys, §16.4).")
+    print(f"    This is a standard result (Humphreys, Section 16.4).")
     print(f"    CONSEQUENCE: k-generator physics depends only on k ∈ {{0,1,2,3}}.")
 
     t5 = commuting and commuting2 and len(all_cartans) == 105
@@ -582,7 +582,7 @@ def test_7_pi1_correction():
     print("=" * 70)
 
     print(f"""
-  Keeper's claim (§5.3): "The winding number IS the number of
+  Keeper's claim (Section 5.3): "The winding number IS the number of
   independent rotation planes activated."
 
   CORRECTION (Elie's review):
@@ -609,7 +609,7 @@ def test_7_pi1_correction():
     with k=1 being the global minimum (Test 6 of Toy 443).
 
   PROPOSED FIX FOR KEEPER'S PAPER:
-    Replace §5.3's "winding number IS the number of generators" with:
+    Replace Section 5.3's "winding number IS the number of generators" with:
     "The topological classification π₁(SO(7)) = Z₂ distinguishes
     active from frozen states. The number of simultaneously active
     generators is constrained by the Cartan rank (algebraic, not
@@ -700,7 +700,7 @@ def test_8_formal_theorem():
     Thermodynamics selects k=1 uniquely (free energy minimum).
 
   CORRECTION TO KEEPER'S PAPER:
-    §5.3: Replace "winding number IS the number of generators" with
+    Section 5.3: Replace "winding number IS the number of generators" with
     "number of active generators = dim of activated subalgebra ≤ rank(B₃) = 3"
     The topological invariant π₁(SO(7)) = Z₂ gives active/frozen (binary),
     not a generator count. Multi-generator analysis is algebraic (Cartan theory).
@@ -755,7 +755,7 @@ if __name__ == "__main__":
 
     print(f"\n  Generator Equivalence Theorem: VERIFIED.")
     print(f"  21 generators, 210 pairs, all conjugate under Ad(SO(7)).")
-    print(f"  105 Cartan subalgebras, all conjugate (Humphreys §16.4).")
+    print(f"  105 Cartan subalgebras, all conjugate (Humphreys Section 16.4).")
     print(f"  Cascade: non-commuting → so(3) → k ≤ rank(B₃) = 3.")
     print(f"  π₁(SO(7)) = Z₂: active/frozen binary, not generator count.")
     print(f"  BST landscape: 4 types, 1 stable. The die shows the same number. ∎")

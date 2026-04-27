@@ -81,7 +81,7 @@ gamma_above_knee = 3.1
 gamma_above_2nd = 3.3
 gamma_above_ankle = 2.6
 
-print("\n§1. Measured Spectral Breaks\n")
+print("\nSection 1. Measured Spectral Breaks\n")
 print(f"  E_knee     = {E_knee:.1e} eV  (γ: {gamma_below_knee} → {gamma_above_knee})")
 print(f"  E_2nd_knee = {E_2nd_knee:.1e} eV  (γ → {gamma_above_2nd})")
 print(f"  E_ankle    = {E_ankle:.1e} eV  (γ → {gamma_above_ankle})")
@@ -92,7 +92,7 @@ print(f"  E_hard     = {E_hardening:.1e} eV  (low-energy hardening)")
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 2: Energy Ratios Between Breaks
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§2. Energy Ratios Between Spectral Breaks\n")
+print("\nSection 2. Energy Ratios Between Spectral Breaks\n")
 
 passed = 0
 failed = 0
@@ -170,7 +170,7 @@ print(f"  BST: (2n_C)^rank × (N_max+n_C×C₂) = {bst_gzk2} ({dev_gzk2:.1f}%)")
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 3: Spectral Indices as BST Ratios
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§3. Spectral Indices as BST Ratios\n")
+print("\nSection 3. Spectral Indices as BST Ratios\n")
 
 # Below knee: γ ≈ 2.7
 # Standard Fermi acceleration: γ = (r+2)/(r-1) where r = compression ratio
@@ -218,7 +218,7 @@ check(f"γ_ankle = (2g-1)/n_C = 13/5 = 2.6 ({dev_26:.2f}%)",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 4: Spectral Index Changes (Δγ)
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§4. Spectral Index Changes at Each Break\n")
+print("\nSection 4. Spectral Index Changes at Each Break\n")
 
 # Δγ at knee: 3.1 - 2.7 = 0.4
 delta_knee = gamma_above_knee - gamma_below_knee
@@ -265,7 +265,7 @@ check("Spectral index quantum = 1/(2n_C) = 0.1",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 5: Energy Scales in Proton Mass Units
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§5. Energy Scales in Proton Mass Units\n")
+print("\nSection 5. Energy Scales in Proton Mass Units\n")
 
 # Express break energies relative to proton rest energy
 knee_mp = E_knee / m_p_eV
@@ -304,7 +304,7 @@ check(f"E_knee/m_p ≈ N_c × (2n_C)^C₂ = 3×10⁶ ({dev_knee:.1f}%)",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 6: GZK Cutoff from BST
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§6. GZK Cutoff Energy\n")
+print("\nSection 6. GZK Cutoff Energy\n")
 
 # GZK cutoff: proton + CMB photon → pion production
 # Threshold: E_GZK ≈ m_π² c⁴ / (4 × E_CMB)
@@ -342,7 +342,7 @@ check(f"m_π/m_p ≈ 1/g = 1/7 ({dev_pi_ratio:.1f}%)",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 7: Diffusive Shock Acceleration (DSA) and BST
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§7. DSA Compression Ratio from BST\n")
+print("\nSection 7. DSA Compression Ratio from BST\n")
 
 # Standard DSA: γ = (r+2)/(r-1) where r = compression ratio
 # For strong shock: r = 4 → γ = 6/3 = 2.0
@@ -371,7 +371,7 @@ check("DSA inversion: γ=N_c³/(2n_C) → consistent r",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 8: Spectral Index Sequence
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§8. The Complete Spectral Index Sequence\n")
+print("\nSection 8. The Complete Spectral Index Sequence\n")
 
 # All four spectral indices on the grid of 1/(2n_C):
 # γ₁ = 27/(2n_C) = 27/10 = 2.7  (below knee)
@@ -405,7 +405,7 @@ check("All 4 spectral indices decompose into BST integers",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 9: Knee Energy from Proton Confinement Scale
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§9. Knee Energy as BST Confinement Scale\n")
+print("\nSection 9. Knee Energy as BST Confinement Scale\n")
 
 # The knee at ~3 PeV corresponds to the maximum energy galactic accelerators
 # can confine protons magnetically. In Larmor radius terms:
@@ -436,7 +436,7 @@ check(f"E_2nd/(Z_Fe × E_knee) ≈ C₂ + rank/n_C = 6.4 ({dev_corr:.1f}%)",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 10: Iron Abundance and BST
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§10. Iron: The BST Terminus Element\n")
+print("\nSection 10. Iron: The BST Terminus Element\n")
 
 # Z(Fe) = 26 = 2(2g - 1)
 # Fe has 26 protons, 30 neutrons (most common isotope: Fe-56)
@@ -466,7 +466,7 @@ check("N(Fe) = n_C × C_2 = 30",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 11: Acceleration Efficiency and Channel Filling
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§11. Cosmic Ray Energy Budget\n")
+print("\nSection 11. Cosmic Ray Energy Budget\n")
 
 # Cosmic ray energy density in galaxy: ε_CR ≈ 1 eV/cm³
 # Total galaxy luminosity in CR: L_CR ≈ 5 × 10^40 erg/s
@@ -490,7 +490,7 @@ check("CR efficiency ~ 1/(2n_C) = 10% (within 5-10% range)",
 # ═══════════════════════════════════════════════════════════════════════
 # SECTION 12: Synthesis
 # ═══════════════════════════════════════════════════════════════════════
-print("\n§12. Synthesis\n")
+print("\nSection 12. Synthesis\n")
 
 print("  The cosmic ray spectrum is a BST integer sequence:")
 print(f"  1. Spectral indices are multiples of 1/(2n_C) = 0.1")

@@ -98,7 +98,7 @@ $$\Delta_{\mathrm{phys}} = \lambda_1 \cdot \pi^{n_C} \cdot m_e = 6 \cdot \pi^5 \
 
 This matches the observed proton mass to $0.002\%$ (five significant figures). The factor $\pi^{n_C}$ arises from the volume of $D_{IV}^5$ in Bergman metric units.
 
-**Important clarification (T1399):** This is the mass gap of the *full* QFT on $D_{IV}^5$, which includes both gauge and matter sectors (the root system $B_2$ carries gauge fields in the short roots and matter in the long roots). The 938 MeV corresponds to the lightest baryon (the proton), not the lightest glueball of pure Yang-Mills theory. The pure-gauge mass gap requires isolating the adjoint-representation sector of the Bergman Laplacian, which is a separate computation (see §8).
+**Important clarification (T1399):** This is the mass gap of the *full* QFT on $D_{IV}^5$, which includes both gauge and matter sectors (the root system $B_2$ carries gauge fields in the short roots and matter in the long roots). The 938 MeV corresponds to the lightest baryon (the proton), not the lightest glueball of pure Yang-Mills theory. The pure-gauge mass gap requires isolating the adjoint-representation sector of the Bergman Laplacian, which is a separate computation (see Section 8).
 
 ---
 
@@ -119,7 +119,7 @@ $$\mathcal{P} \subset \mathrm{SO}_0(4,2) = \mathrm{Conf}(\mathbb{R}^{3,1}) \subs
 
 The 3+1 spacetime structure is derived from the $B_2$ root multiplicities ($m_s = 3$ spatial, $m_l = 1$ temporal), not assumed.
 
-The spectrum condition required for W2's physical content — that the joint spectrum of the translation generators lies in the forward light cone — is established below in §W3.
+The spectrum condition required for W2's physical content — that the joint spectrum of the translation generators lies in the forward light cone — is established below in Section W3.
 
 **Poincaré embedding argument.** The embedding $\mathcal{P} \subset \mathrm{SO}_0(5,2)$ is not merely group-theoretic but Hilbert-space compatible: the unitary representation $U$ of $G = \mathrm{SO}_0(5,2)$ on $\mathcal{H} = L^2(\Gamma \backslash D_{IV}^5)$ restricts to a strongly continuous unitary representation of $\mathcal{P}$, since $\mathcal{P}$ is a closed subgroup of $G$ and the representation is already continuous on $G$ (Harish-Chandra). The translation generators $P_\mu$ are identified with elements of the parabolic subalgebra $\mathfrak{n}^+ \subset \mathfrak{g}$, inheriting self-adjointness from the unitarity of $U$.
 
@@ -210,7 +210,7 @@ The Clay Millennium Problem asks for a QFT on $\mathbb{R}^4$. The BST constructi
 
 We address a distinction raised in the refereeing process (T1399, Cal):
 
-The mass gap $\Delta = 938$ MeV derived in §2.4 is the lightest state of the *full* QFT on $D_{IV}^5$, which includes both gauge fields (from short roots, multiplicity $m_s = 3$) and matter fields (from long roots, multiplicity $m_l = 1$). The proton is a composite state containing quarks.
+The mass gap $\Delta = 938$ MeV derived in Section 2.4 is the lightest state of the *full* QFT on $D_{IV}^5$, which includes both gauge fields (from short roots, multiplicity $m_s = 3$) and matter fields (from long roots, multiplicity $m_l = 1$). The proton is a composite state containing quarks.
 
 Pure Yang-Mills theory (no matter) has its mass gap at the lightest glueball, which lattice QCD computes at $\sim 1.5{-}1.7$ GeV for SU(3). The pure-gauge mass gap in the BST framework requires computing the spectral gap of the Bergman Laplacian restricted to the adjoint representation of SU(3).
 

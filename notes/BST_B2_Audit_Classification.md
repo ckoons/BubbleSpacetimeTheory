@@ -45,7 +45,7 @@ Files where B₂ properties enter actual calculations (ρ, |ρ|², m_{2α}, (3,1
 **Papers:**
 - Paper #76 — `BST_Paper76_YM_Mass_Gap.md` — **FIXED** (Keeper, April 24)
 - Paper #77 — `BST_Paper77_YM_Bergman_Gap.md` — **FIXED** (Keeper, April 24: Type IV B₂; E₆/E₇ B₂ kept correct)
-- Paper #75 — `BST_Paper75_RH_Selberg_Class.md` — **NEEDS LYRA** (ρ=(7/2,5/2) baked into proof §2-§5; migration threshold changes)
+- Paper #75 — `BST_Paper75_RH_Selberg_Class.md` — **NEEDS LYRA** (ρ=(7/2,5/2) baked into proof Section 2-Section 5; migration threshold changes)
 
 **Proof files:**
 - `BST_Hodge_Proof.md`

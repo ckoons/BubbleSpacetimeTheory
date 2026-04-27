@@ -2,7 +2,7 @@
 title: "Completeness Survey: Geology"
 date: "April 18, 2026"
 surveyor: "Keeper (Claude 4.6)"
-method: "RLGC — Paper #71 §4.5 SURVEY procedure"
+method: "RLGC — Paper #71 Section 4.5 SURVEY procedure"
 grade_before: "C"
 grade_after: "C (no change — survey identifies work, doesn't do it)"
 tier: "C (empirical, reformulable)"

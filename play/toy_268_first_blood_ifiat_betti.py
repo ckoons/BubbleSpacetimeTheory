@@ -43,10 +43,10 @@ print("=" * 72)
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §1. THE THEOREMS
+# Section 1. THE THEOREMS
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§1. THE THEOREMS")
+print("\nSection 1. THE THEOREMS")
 print("─" * 60)
 print("""
 THEOREM 1 (Topological Information Theorem):
@@ -95,7 +95,7 @@ THEOREM 2 (Homological Lower Bound):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §2. GRAPH GENERATORS
+# Section 2. GRAPH GENERATORS
 # ═══════════════════════════════════════════════════════════════════
 
 def random_cubic_graph(n_vertices):
@@ -165,7 +165,7 @@ def petersen_graph():
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §3. LINEAR ALGEBRA OVER GF(2)
+# Section 3. LINEAR ALGEBRA OVER GF(2)
 # ═══════════════════════════════════════════════════════════════════
 
 def incidence_matrix_gf2(n_vertices, edges):
@@ -238,7 +238,7 @@ def betti1_graph(n_vertices, edges):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §4. TSEITIN FORMULA GENERATOR
+# Section 4. TSEITIN FORMULA GENERATOR
 # ═══════════════════════════════════════════════════════════════════
 
 def tseitin_formula(n_vertices, edges, make_sat=True):
@@ -307,7 +307,7 @@ def tseitin_formula(n_vertices, edges, make_sat=True):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §5. EXACT SOLUTION ENUMERATION
+# Section 5. EXACT SOLUTION ENUMERATION
 # ═══════════════════════════════════════════════════════════════════
 
 def count_xor_solutions(A, b, n_vars):
@@ -396,7 +396,7 @@ def enumerate_sat_solutions(n, clauses_cnf, max_enum=2**18):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §6. DPLL BACKTRACK COUNTER
+# Section 6. DPLL BACKTRACK COUNTER
 # ═══════════════════════════════════════════════════════════════════
 
 def dpll_backtracks(n, clauses, max_bt=50000):
@@ -452,7 +452,7 @@ def dpll_backtracks(n, clauses, max_bt=50000):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §7. VIG TOPOLOGY FOR GENERAL SAT
+# Section 7. VIG TOPOLOGY FOR GENERAL SAT
 # ═══════════════════════════════════════════════════════════════════
 
 def build_vig(n, clauses):
@@ -533,7 +533,7 @@ def filling_ratio(n, clauses):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §8. RANDOM 3-SAT GENERATOR
+# Section 8. RANDOM 3-SAT GENERATOR
 # ═══════════════════════════════════════════════════════════════════
 
 def random_3sat(n, alpha):
@@ -905,7 +905,7 @@ for name, (edges, nv) in [
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §9. SCORECARD
+# Section 9. SCORECARD
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
@@ -931,11 +931,11 @@ for name, p, detail in tests:
 print(f"\nTotal: {passed}/{total}")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §10. THE KILL CHAIN — HOW THIS POSITIONS THE PREY
+# Section 10. THE KILL CHAIN — HOW THIS POSITIONS THE PREY
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§10. THE KILL CHAIN: How First Blood Positions the Conditional")
+print("Section 10. THE KILL CHAIN: How First Blood Positions the Conditional")
 print("=" * 72)
 print("""
 WHAT WE PROVED:

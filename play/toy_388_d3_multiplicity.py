@@ -118,7 +118,7 @@ def compute_L_general(an, conductor, s_val, w):
     """
     Compute L(E, s) for weight 2 using the incomplete gamma method.
 
-    Correct formula (Cremona §2.13):
+    Correct formula (Cremona Section 2.13):
     L(E, s) = (1/Gamma(s)) sum_{n=1}^M a_n/n *
               [n^{-(s-1)} Gamma(s, x_n) + w * (4pi^2 n/N)^{s-1} * Gamma(2-s, x_n)]
 

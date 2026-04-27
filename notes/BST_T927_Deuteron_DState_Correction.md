@@ -134,7 +134,7 @@ The correction $1/g^2 = 1/49$ is NOT a prime-adjacency effect (49 is composite).
 | Claim | Verification | Source |
 |-------|-------------|--------|
 | $B_d^{(0)} = \alpha m_p/\pi = 2.179$ MeV | Direct computation | BST_DeuteronBinding.md |
-| SO(5) → SO(3)×SO(2) branching: $14 \to 5_0 \oplus \ldots$ | Standard Lie theory | Fulton-Harris, §19 |
+| SO(5) → SO(3)×SO(2) branching: $14 \to 5_0 \oplus \ldots$ | Standard Lie theory | Fulton-Harris, Section 19 |
 | D-wave channel exists at $L=2$, $I=0$ | Branching selection rules | Step 2 |
 | Genus suppression of rank-2 tensor: $1/g^2$ | Bergman multipole on genus-$g$ surface | Step 3 |
 | $B_d = 2.224$ MeV at $-0.03\%$ | Numerical verification | This theorem |

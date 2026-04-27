@@ -34,9 +34,9 @@ c2 = 11
 c3 = 13
 
 # ─────────────────────────────────────────────────────
-# §1. THE PRIMARY FIELDS
+# Section 1. THE PRIMARY FIELDS
 # ─────────────────────────────────────────────────────
-print("\n§1. THE PRIMARY FIELDS AT LEVEL 2")
+print("\nSection 1. THE PRIMARY FIELDS AT LEVEL 2")
 print("-" * 50)
 
 # From Toy 171: at level 2 (k = l + h∨ = 7), the integrable
@@ -74,9 +74,9 @@ print(f"  D² = Σ d_i² = {total_dq_sq} = n_C² - c₂ = 25 - 11")
 print(f"  D = √14 = √(n_C² - c₂)")
 
 # ─────────────────────────────────────────────────────
-# §2. CONFORMAL WEIGHTS
+# Section 2. CONFORMAL WEIGHTS
 # ─────────────────────────────────────────────────────
-print("\n§2. CONFORMAL WEIGHTS")
+print("\nSection 2. CONFORMAL WEIGHTS")
 print("-" * 50)
 
 # Conformal weight h_λ = C₂(λ) / (2(ℓ + h∨))
@@ -119,9 +119,9 @@ for i, ((a,b,c), name, dq) in enumerate(primaries):
     print(f"  φ_{i}     ({a},{b},{c})     {cas:>8.1f}  {h:>10.6f}  {num}/{den}")
 
 # ─────────────────────────────────────────────────────
-# §3. THE MODULAR S-MATRIX
+# Section 3. THE MODULAR S-MATRIX
 # ─────────────────────────────────────────────────────
-print("\n§3. THE MODULAR S-MATRIX")
+print("\nSection 3. THE MODULAR S-MATRIX")
 print("-" * 50)
 
 # For B_n at level ℓ, the S-matrix is:
@@ -244,9 +244,9 @@ for i in range(n_prim):
     print(f"    (S×S†)_{{{i},{i}}} = {diag:.6f}")
 
 # ─────────────────────────────────────────────────────
-# §4. THE S-MATRIX IN TERMS OF sin(nπ/7)
+# Section 4. THE S-MATRIX IN TERMS OF sin(nπ/7)
 # ─────────────────────────────────────────────────────
-print("\n§4. THE S-MATRIX AND HEPTAGONAL GEOMETRY")
+print("\nSection 4. THE S-MATRIX AND HEPTAGONAL GEOMETRY")
 print("-" * 50)
 
 # The S-matrix entries should be expressible in terms of
@@ -275,9 +275,9 @@ for i in range(n_prim):
     print(f"    d_{i} = {qi:.6f}  (expected {dq_expected})")
 
 # ─────────────────────────────────────────────────────
-# §5. VERLINDE FUSION COEFFICIENTS
+# Section 5. VERLINDE FUSION COEFFICIENTS
 # ─────────────────────────────────────────────────────
-print("\n§5. VERLINDE FUSION COEFFICIENTS")
+print("\nSection 5. VERLINDE FUSION COEFFICIENTS")
 print("-" * 50)
 
 # N_{ij}^k = Σ_ℓ S_{iℓ} S_{jℓ} S*_{kℓ} / S_{0ℓ}
@@ -315,9 +315,9 @@ for i in range(n_prim):
 print(f"\n  Total fusion rules: {fusion_count}")
 
 # ─────────────────────────────────────────────────────
-# §6. THE T-MATRIX (TWISTS)
+# Section 6. THE T-MATRIX (TWISTS)
 # ─────────────────────────────────────────────────────
-print("\n§6. THE T-MATRIX (MODULAR TWISTS)")
+print("\nSection 6. THE T-MATRIX (MODULAR TWISTS)")
 print("-" * 50)
 
 # T_{ij} = δ_{ij} exp(2πi(h_i - c/24))
@@ -339,9 +339,9 @@ for i, ((a,b,c), name, dq) in enumerate(primaries):
     print(f"    T_{i} = exp(2πi × {phase:.6f}) = {t_real:.6f} + {t_imag:.6f}i  [{name}]")
 
 # ─────────────────────────────────────────────────────
-# §7. MODULAR DATA AND BST
+# Section 7. MODULAR DATA AND BST
 # ─────────────────────────────────────────────────────
-print("\n§7. MODULAR DATA AND BST INTEGERS")
+print("\nSection 7. MODULAR DATA AND BST INTEGERS")
 print("-" * 50)
 
 # Check if S-matrix ratios give BST integers
@@ -361,9 +361,9 @@ print(f"\n  D² = 1/S_{{00}}² = {D_sq:.6f}")
 print(f"  Expected: 14 = n_C² - c₂ = 25 - 11")
 
 # ─────────────────────────────────────────────────────
-# §8. THE PARTITION FUNCTION
+# Section 8. THE PARTITION FUNCTION
 # ─────────────────────────────────────────────────────
-print("\n§8. THE PARTITION FUNCTION")
+print("\nSection 8. THE PARTITION FUNCTION")
 print("-" * 50)
 
 # The partition function Z(τ) = Σ_i |χ_i(τ)|²
@@ -403,9 +403,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §9. TOPOLOGICAL ENTANGLEMENT ENTROPY
+# Section 9. TOPOLOGICAL ENTANGLEMENT ENTROPY
 # ─────────────────────────────────────────────────────
-print("§9. TOPOLOGICAL ENTANGLEMENT ENTROPY")
+print("Section 9. TOPOLOGICAL ENTANGLEMENT ENTROPY")
 print("-" * 50)
 
 # The topological entanglement entropy (TEE) is:
@@ -443,9 +443,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §10. THE LEVEL-RANK DUALITY
+# Section 10. THE LEVEL-RANK DUALITY
 # ─────────────────────────────────────────────────────
-print("§10. LEVEL-RANK DUALITY")
+print("Section 10. LEVEL-RANK DUALITY")
 print("-" * 50)
 
 # Level-rank duality for so(N) WZW:
@@ -483,9 +483,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §11. SYNTHESIS
+# Section 11. SYNTHESIS
 # ─────────────────────────────────────────────────────
-print("§11. SYNTHESIS")
+print("Section 11. SYNTHESIS")
 print("-" * 50)
 
 print(f"""

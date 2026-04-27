@@ -6,7 +6,7 @@ QUESTION: The Gödel Limit caps fill fraction at f_max = 19.1% (breadth).
 But depth — structural richness within that budget — is conjectured unbounded.
 Can we define operational depth measures and show they grow without limit?
 
-From BST_Interstasis_Hypothesis.md §14.2:
+From BST_Interstasis_Hypothesis.md Section 14.2:
   "A painting that can only cover 19.1% of the canvas. The coverage is fixed.
    But the brushstrokes can become infinitely finer."
 

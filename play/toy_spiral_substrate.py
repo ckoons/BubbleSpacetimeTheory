@@ -34,9 +34,9 @@ print("=" * 72)
 N_c = 3; n_C = 5; g = 7; C2 = 6; r = 2; c2 = 11; c3 = 13
 
 # ═══════════════════════════════════════════════════════════════
-# §1. THE GEOMETRY OF D_IV^5
+# Section 1. THE GEOMETRY OF D_IV^5
 # ═══════════════════════════════════════════════════════════════
-print("\n§1. THE STRUCTURE OF D_IV^5")
+print("\nSection 1. THE STRUCTURE OF D_IV^5")
 print("-" * 50)
 
 print(f"""
@@ -64,9 +64,9 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §2. THE TUBE DOMAIN REALIZATION
+# Section 2. THE TUBE DOMAIN REALIZATION
 # ═══════════════════════════════════════════════════════════════
-print("\n§2. THE TUBE DOMAIN REALIZATION")
+print("\nSection 2. THE TUBE DOMAIN REALIZATION")
 print("-" * 50)
 
 print(f"""
@@ -98,9 +98,9 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §3. THE WINDING NUMBER AND QUANTIZATION
+# Section 3. THE WINDING NUMBER AND QUANTIZATION
 # ═══════════════════════════════════════════════════════════════
-print("\n§3. THE WINDING NUMBER AND QUANTIZATION")
+print("\nSection 3. THE WINDING NUMBER AND QUANTIZATION")
 print("-" * 50)
 
 print(f"""
@@ -134,9 +134,9 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §4. THE PITCH OF THE SPIRAL
+# Section 4. THE PITCH OF THE SPIRAL
 # ═══════════════════════════════════════════════════════════════
-print("\n§4. THE PITCH OF THE SPIRAL = MASS GAP")
+print("\nSection 4. THE PITCH OF THE SPIRAL = MASS GAP")
 print("-" * 50)
 
 print(f"""
@@ -184,9 +184,9 @@ print(f"    Fill f = N_c/(n_C×π) = {fill:.6f}")
 print(f"    f/p₁ = {ratio:.6f} = 1/n_C = {1/n_C:.6f} ✓")
 
 # ═══════════════════════════════════════════════════════════════
-# §5. THE SPIRAL AND THE BERGMAN KERNEL
+# Section 5. THE SPIRAL AND THE BERGMAN KERNEL
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§5. THE SPIRAL AND THE BERGMAN KERNEL")
+print("\n\nSection 5. THE SPIRAL AND THE BERGMAN KERNEL")
 print("-" * 50)
 
 print(f"""
@@ -218,9 +218,9 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §6. THE 2D NATURE: WHY A SURFACE, NOT A LINE
+# Section 6. THE 2D NATURE: WHY A SURFACE, NOT A LINE
 # ═══════════════════════════════════════════════════════════════
-print("\n§6. WHY A SURFACE (2D), NOT A CURVE (1D)")
+print("\nSection 6. WHY A SURFACE (2D), NOT A CURVE (1D)")
 print("-" * 50)
 
 print(f"""
@@ -253,9 +253,9 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §7. THE FLAT GEOMETRY
+# Section 7. THE FLAT GEOMETRY
 # ═══════════════════════════════════════════════════════════════
-print("\n§7. THE MAXIMAL FLAT = THE SUBSTRATE")
+print("\nSection 7. THE MAXIMAL FLAT = THE SUBSTRATE")
 print("-" * 50)
 
 print(f"""
@@ -300,9 +300,9 @@ for R in [1, 2, 3, 5, 7]:
     print(f"    R = {R}: A ≈ {area_exact:.2f}")
 
 # ═══════════════════════════════════════════════════════════════
-# §8. WINDING AND COLOR: THE Z₃ QUOTIENT
+# Section 8. WINDING AND COLOR: THE Z₃ QUOTIENT
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§8. WINDING AND COLOR: THE Z₃ QUOTIENT")
+print("\n\nSection 8. WINDING AND COLOR: THE Z₃ QUOTIENT")
 print("-" * 50)
 
 print(f"""
@@ -340,9 +340,9 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §9. THE SPIRAL PARAMETERS FROM BST
+# Section 9. THE SPIRAL PARAMETERS FROM BST
 # ═══════════════════════════════════════════════════════════════
-print("\n§9. THE SPIRAL PARAMETERS")
+print("\nSection 9. THE SPIRAL PARAMETERS")
 print("-" * 50)
 
 print(f"""
@@ -383,9 +383,9 @@ print(f"\n  In hyperbolic geometry, the spiral makes infinitely")
 print(f"  many turns but covers FINITE area = 2π/K × (decay factor)")
 
 # ═══════════════════════════════════════════════════════════════
-# §10. THE CONNECTION TO POISSON-SZEGŐ
+# Section 10. THE CONNECTION TO POISSON-SZEGŐ
 # ═══════════════════════════════════════════════════════════════
-print("\n\n§10. THE POISSON-SZEGŐ CONNECTION")
+print("\n\nSection 10. THE POISSON-SZEGŐ CONNECTION")
 print("-" * 50)
 
 print(f"""
@@ -419,9 +419,9 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §11. WHY THE SPIRAL AND NOT A CIRCLE
+# Section 11. WHY THE SPIRAL AND NOT A CIRCLE
 # ═══════════════════════════════════════════════════════════════
-print("\n§11. WHY A SPIRAL, NOT A CIRCLE")
+print("\nSection 11. WHY A SPIRAL, NOT A CIRCLE")
 print("-" * 50)
 
 print(f"""
@@ -463,9 +463,9 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §12. THE EULER SPIRAL CONNECTION
+# Section 12. THE EULER SPIRAL CONNECTION
 # ═══════════════════════════════════════════════════════════════
-print("\n§12. THE EULER SPIRAL (CLOTHOID) ANALOGY")
+print("\nSection 12. THE EULER SPIRAL (CLOTHOID) ANALOGY")
 print("-" * 50)
 
 print(f"""
@@ -507,9 +507,9 @@ for n in range(7):
           f" Euclidean area ratio = {area_n/pi:.4f}")
 
 # ═══════════════════════════════════════════════════════════════
-# §13. THE FUNDAMENTAL GROUP AND TOPOLOGY
+# Section 13. THE FUNDAMENTAL GROUP AND TOPOLOGY
 # ═══════════════════════════════════════════════════════════════
-print(f"\n\n§13. TOPOLOGY OF THE SPIRAL SUBSTRATE")
+print(f"\n\nSection 13. TOPOLOGY OF THE SPIRAL SUBSTRATE")
 print("-" * 50)
 
 print(f"""
@@ -544,11 +544,11 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════
-# §14. SYNTHESIS
+# Section 14. SYNTHESIS
 # ═══════════════════════════════════════════════════════════════
 print("\n")
 print("=" * 72)
-print("§14. SYNTHESIS: THE SPIRAL SUBSTRATE")
+print("Section 14. SYNTHESIS: THE SPIRAL SUBSTRATE")
 print("=" * 72)
 
 print(f"""

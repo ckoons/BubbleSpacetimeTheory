@@ -2,7 +2,7 @@
 """
 Toy 1511 — Astrophysical Power Laws from BST
 =============================================
-Casey Priority: Hit list §4D-ext items. BUILD TOY for disk mass fraction.
+Casey Priority: Hit list Section 4D-ext items. BUILD TOY for disk mass fraction.
 
 Every power-law exponent and dimensionless ratio in astrophysics should
 be a ratio of BST integers — if the geometry is universal.
@@ -27,7 +27,7 @@ from fractions import Fraction
 
 print("=" * 72)
 print("Toy 1511 -- Astrophysical Power Laws from BST")
-print("  Casey Priority: Hit List §4D-ext")
+print("  Casey Priority: Hit List Section 4D-ext")
 print("=" * 72)
 
 # BST integers

@@ -470,7 +470,7 @@ The original conjectured path:
 3. Arthur-Selberg trace formula $\Rightarrow$ spectral-geometric duality
 4. Langlands $\Rightarrow$ automorphic $L$-functions $\Rightarrow$ $\zeta(s)$
 
-The trace formula approach (§11.1–11.3) bypasses steps 1, 2, and 4 entirely. It works directly at step 3 — the trace formula — and adds the heat kernel test function and the $m_s = 3$ harmonic constraint. The proof is shorter and operates at a lower level of abstraction than originally anticipated.
+The trace formula approach (Section 11.1–11.3) bypasses steps 1, 2, and 4 entirely. It works directly at step 3 — the trace formula — and adds the heat kernel test function and the $m_s = 3$ harmonic constraint. The proof is shorter and operates at a lower level of abstraction than originally anticipated.
 
 ## 12. Why These Three Integers?
 

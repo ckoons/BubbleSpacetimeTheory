@@ -37,7 +37,7 @@ abstract: |
 
 ---
 
-## §1. Introduction: What Makes BST Testable
+## Section 1. Introduction: What Makes BST Testable
 
 Most extensions of the Standard Model add parameters. BST subtracts them. The bounded symmetric domain $D_{IV}^5$ determines five structural integers $\{N_c = 3, n_C = 5, g = 7, C_2 = 6, N_{max} = 137\}$ from which all fundamental constants follow arithmetically, with zero adjustable inputs (Papers #1, #52).
 
@@ -46,18 +46,18 @@ This creates a unique experimental situation: every BST prediction is an exact n
 This precision is both BST's greatest strength and its greatest vulnerability. A single confirmed disagreement at the 0.1% level would falsify the theory. After 500+ predictions across 130+ physical domains, no such disagreement has been found (T1158). But absence of disconfirmation is not the same as active confirmation. This paper provides the protocols for active testing.
 
 **What this paper provides:**
-- §2: The three-level evidence framework (when is a match meaningful?)
-- §3: The NULL experiment methodology (how do we ensure BST can die?)
-- §4: The experiment ladder (six experiments, $0 to $102k)
-- §5-§10: Detailed protocols for each experiment
-- §11: Ongoing null experiments (the rest of physics testing BST for free)
-- §12: What BST forbids (the kill chain)
-- §13: The engineering prerequisite chain (from theory to device)
-- §14: Cross-domain universality as falsification multiplier
+- Section 2: The three-level evidence framework (when is a match meaningful?)
+- Section 3: The NULL experiment methodology (how do we ensure BST can die?)
+- Section 4: The experiment ladder (six experiments, $0 to $102k)
+- Section 5-Section 10: Detailed protocols for each experiment
+- Section 11: Ongoing null experiments (the rest of physics testing BST for free)
+- Section 12: What BST forbids (the kill chain)
+- Section 13: The engineering prerequisite chain (from theory to device)
+- Section 14: Cross-domain universality as falsification multiplier
 
 ---
 
-## §2. Three Evidence Levels
+## Section 2. Three Evidence Levels
 
 Not all matches between BST predictions and observations carry equal weight. The evidence framework (Elie, Toy 1089; Casey endorsement) distinguishes three levels:
 
@@ -89,7 +89,7 @@ Not all matches between BST predictions and observations carry equal weight. The
 
 ---
 
-## §3. The NULL Experiment Methodology
+## Section 3. The NULL Experiment Methodology
 
 ### Casey's criterion
 
@@ -120,7 +120,7 @@ Every prediction in this paper has an explicit kill criterion. Examples:
 
 ---
 
-## §4. The Experiment Ladder
+## Section 4. The Experiment Ladder
 
 Six experiments ordered by Casey's criterion: cheapest first, most decisive first, easiest to replicate first.
 
@@ -140,7 +140,7 @@ The individual $p$-values are conservative estimates. The experiments are indepe
 
 ---
 
-## §5. Step 0: EHT Circular Polarization (HIGHEST PRIORITY)
+## Section 5. Step 0: EHT Circular Polarization (HIGHEST PRIORITY)
 
 **The diamond experiment.** Cost: $0. The data already exists.
 
@@ -168,7 +168,7 @@ $$\text{CP}_{\text{horizon}} = \alpha = \frac{1}{N_{max}} = 0.730\%$$
 
 ---
 
-## §6. Step 1: Nuclear Magic Numbers from $\kappa_{ls} = 6/5$
+## Section 6. Step 1: Nuclear Magic Numbers from $\kappa_{ls} = 6/5$
 
 **Cost:** $0 (computation with existing nuclear physics data).
 
@@ -188,7 +188,7 @@ $$\kappa_{ls} = \frac{C_2}{n_C} = \frac{6}{5} = 1.200$$
 
 ---
 
-## §7. Step 2: Debye Temperature Triple
+## Section 7. Step 2: Debye Temperature Triple
 
 **Cost:** ~$5,000 (PPMS rental at any university condensed matter lab).
 
@@ -218,7 +218,7 @@ BST predicts Debye temperatures as exact products of the five integers:
 
 ---
 
-## §8. Step 3: T914 Spectral Line Clustering
+## Section 8. Step 3: T914 Spectral Line Clustering
 
 **Cost:** ~$2,000 (spectrometer time).
 
@@ -226,7 +226,7 @@ T914 (Prime Residue Principle) predicts that physically significant wavelengths 
 
 **Level 1 reading (Toy 1148):** NIST database clustering analysis — adjacency to 7-smooth verified.
 
-**Enrichment test (Toy 1089):** Blind test of BST-predicted values specifically: 89.5% of 135 BST predictions across 15 domains land on 7-smooth numbers, vs 46% expected from uniform distribution. Enrichment 1.9$\times$. $p < 0.0001$ ($z = 4.0$). (Note: Toy 1127 in §14 is a separate analysis testing all physical counts regardless of BST prediction status — 94.8% of 135 counts are 7-smooth vs 51.2% expected. The two analyses differ in selection criteria: Toy 1089 tests BST's own predictions; Toy 1127 tests nature's counts independently.)
+**Enrichment test (Toy 1089):** Blind test of BST-predicted values specifically: 89.5% of 135 BST predictions across 15 domains land on 7-smooth numbers, vs 46% expected from uniform distribution. Enrichment 1.9$\times$. $p < 0.0001$ ($z = 4.0$). (Note: Toy 1127 in Section 14 is a separate analysis testing all physical counts regardless of BST prediction status — 94.8% of 135 counts are 7-smooth vs 51.2% expected. The two analyses differ in selection criteria: Toy 1089 tests BST's own predictions; Toy 1127 tests nature's counts independently.)
 
 **NULL:** Spectral lines are determined by quantum mechanics. Their wavelengths in nm have no relationship to factorization. The null baseline in $[300, 700]$ nm: $\sim 40\%$ of integers are within $\pm 2$ of a 7-smooth number (Dickman function).
 
@@ -243,7 +243,7 @@ T914 (Prime Residue Principle) predicts that physically significant wavelengths 
 
 ---
 
-## §9. Step 4: BiNb Superlattice
+## Section 9. Step 4: BiNb Superlattice
 
 **Cost:** ~$70,000 (MBE growth + characterization). The most expensive experiment but the most powerful.
 
@@ -265,7 +265,7 @@ Five independent predictions from five integers in one device. If 4/5 pass, $p <
 
 ---
 
-## §10. Step 5: Casimir Force Anomaly
+## Section 10. Step 5: Casimir Force Anomaly
 
 **Cost:** ~$25,000 (MEMS + AFM).
 
@@ -284,7 +284,7 @@ BST predicts periodic deviations from the Lifshitz formula at $d_n = n \times N_
 
 ---
 
-## §11. Ongoing Null Experiments
+## Section 11. Ongoing Null Experiments
 
 The rest of physics is already testing BST's strongest prohibitions at zero cost:
 
@@ -301,7 +301,7 @@ The rest of physics is already testing BST's strongest prohibitions at zero cost
 
 ---
 
-## §12. What BST Forbids — The Kill Chain
+## Section 12. What BST Forbids — The Kill Chain
 
 Any ONE of these observations kills BST:
 
@@ -318,7 +318,7 @@ BST's survival after 500+ predictions: zero kills. Expected failure rate from T1
 
 ---
 
-## §13. The Engineering Prerequisite Chain
+## Section 13. The Engineering Prerequisite Chain
 
 For experiments beyond Steps 0-3 (which use existing data or standard equipment), T1154 provides the five-level engineering chain:
 
@@ -339,7 +339,7 @@ The decision tree for which engineering operation to use (T1159):
 
 ---
 
-## §14. Cross-Domain Universality
+## Section 14. Cross-Domain Universality
 
 BST's falsifiability is multiplied by cross-domain appearance. If $g = 7$ appears as the Bergman genus, the number of crystal systems, the diatonic scale length, the number of cervical vertebrae, the boundary of consonance, and the leading coefficient in the Weyl group — these are either six independent coincidences or one structure viewed six ways.
 
@@ -349,7 +349,7 @@ The cross-domain enrichment (SE-3, Toy 1127): 94.8% of 135 physical counts acros
 
 ---
 
-## §15. Conclusion
+## Section 15. Conclusion
 
 BST is testable. The experiment ladder provides six independent tests across six physical domains, ordered from free to $102k, from weeks to six months. The NULL framework ensures each test can kill the theory. The three evidence levels prevent counting coincidences as confirmations.
 

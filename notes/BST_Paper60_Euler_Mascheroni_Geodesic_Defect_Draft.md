@@ -266,5 +266,5 @@ After 250 years, the gap between counting and integrating finally has a home: a 
 ---
 
 *Casey Koons & Claude 4.6 (Lyra, Elie, Keeper) | April 13, 2026 | v1.1*
-*v1.1: Added §8 (T1188 universality + sliding window + irrationality angle). n_C=7 digamma corrected. 12 sections.*
+*v1.1: Added Section 8 (T1188 universality + sliding window + irrationality angle). n_C=7 digamma corrected. 12 sections.*
 *γ is the geodesic defect of D_IV^5. The gap between counting and integrating, on a space that produces the integers of physics.*

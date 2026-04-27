@@ -73,7 +73,7 @@ def log_abs_xi(sigma, t):
     return log_pi_part + log_gamma_part + log_zeta
 
 
-print("\n§1. THE MAASS-SELBERG RELATION FOR SO₀(5,2)")
+print("\nSection 1. THE MAASS-SELBERG RELATION FOR SO₀(5,2)")
 print("-" * 50)
 
 print("""
@@ -105,7 +105,7 @@ print("  Each factor:")
 print("    |m_ℓ(iu)|² = |ξ(iu)|²/|ξ(iu+1)|²")
 print("    |m_s(iu)|² = |ξ(iu-2)|²/|ξ(iu+1)|²")
 
-print("\n§2. THE PHASE OF THE SCATTERING MATRIX")
+print("\nSection 2. THE PHASE OF THE SCATTERING MATRIX")
 print("-" * 50)
 
 print("""
@@ -135,7 +135,7 @@ print("  This is the continuous spectrum contribution to the")
 print("  Selberg trace formula. It must be SMOOTH — no singularities")
 print("  on the unitary axis.")
 
-print("\n§3. WHAT AN OFF-LINE ZERO WOULD DO")
+print("\nSection 3. WHAT AN OFF-LINE ZERO WOULD DO")
 print("-" * 50)
 
 print("""
@@ -196,7 +196,7 @@ print("""
     Maass-Selberg relation must hold — a contradiction.
 """)
 
-print("\n§4. THE RESIDUE CONSTRAINT")
+print("\nSection 4. THE RESIDUE CONSTRAINT")
 print("-" * 50)
 
 print("""
@@ -244,7 +244,7 @@ print(f"      Would need a k with k(k+5) ≈ {0.09 + t0**2:.1f}")
 print(f"      Nearest: k=11 gives 11×16 = 176, k=12 gives 12×17 = 204")
 print(f"      NO MATCH — the extra eigenvalue doesn't fit the spectrum.")
 
-print("\n§5. THE FUNCTIONAL EQUATION DOUBLE CONSTRAINT")
+print("\nSection 5. THE FUNCTIONAL EQUATION DOUBLE CONSTRAINT")
 print("-" * 50)
 
 print("""
@@ -290,7 +290,7 @@ for sigma in [0.5, 0.6, 0.7, 0.8, 0.9]:
         status = f"p1 INSIDE, p2 outside ✗"
     print(f"  {sigma:>5.1f}  {p1:>12.1f} {p2:>12.1f}  {status}")
 
-print("\n§6. THE COUNTING ARGUMENT: WEYL LAW CONSTRAINT")
+print("\nSection 6. THE COUNTING ARGUMENT: WEYL LAW CONSTRAINT")
 print("-" * 50)
 
 print("""
@@ -325,7 +325,7 @@ print(f"  n_C/2 = {n_C/2} → N(T) ~ c · T^{2.5}")
 print(f"  Phase growth (T log T) is SUB-DOMINANT to volume (T^2.5)")
 print(f"  But it's the phase that carries the ζ-zero information!")
 
-print("\n§7. THE BABY CASE: Sp(4)")
+print("\nSection 7. THE BABY CASE: Sp(4)")
 print("-" * 50)
 
 print("""
@@ -365,7 +365,7 @@ print(f"  {'Telescoping':>15} {'none':>12} {'N_c=3':>12}")
 print(f"  {'Chern zeros':>15} {'2':>12} {'4':>12}")
 print(f"  {'Critical line':>15} {'proved':>12} {'proved':>12}")
 
-print("\n§8. THE STRUCTURE OF THE PROOF")
+print("\nSection 8. THE STRUCTURE OF THE PROOF")
 print("-" * 50)
 
 print("""
@@ -410,7 +410,7 @@ print("""
   └──────────────────────────────────────────────────────────────┘
 """)
 
-print("\n§9. BST INTEGERS IN THE MAASS-SELBERG RELATION")
+print("\nSection 9. BST INTEGERS IN THE MAASS-SELBERG RELATION")
 print("-" * 50)
 
 print("""
@@ -437,7 +437,7 @@ print("""
 """)
 
 print("=" * 72)
-print("§10. SUMMARY")
+print("Section 10. SUMMARY")
 print("=" * 72)
 
 print(f"""

@@ -125,7 +125,7 @@ $$\boxed{N_c = 3, \quad n_C = 5, \quad g = 7, \quad C_2 = 6, \quad N_{\max} = 13
 | $N_c = 3$ | $m_s = n_C - 2$ | Root multiplicity |
 | $n_C = 5$ | Complex dimension of $D_{IV}^5$ | Rank of domain |
 | $g = 7$ | $\dim V_{(1,0,0)} = 2n_C - 3$ | Standard representation of $B_3$ |
-| $C_2 = 6$ | $n_C + 1$ | Casimir eigenvalue (§3) |
+| $C_2 = 6$ | $n_C + 1$ | Casimir eigenvalue (Section 3) |
 | $N_{\max} = 137$ | $60 H_5 \approx 137.0$ | Harmonic sum $\times$ $|W(B_2)|$ |
 
 All five from the root system and Weyl formula. Zero free parameters.
@@ -165,9 +165,9 @@ $$C_2(\pi_{n+1}) = (n+1)(n+1-n) = (n+1) \cdot 1 = n + 1$$
 For $n = 5$: $C_2 = 6$.
 
 **What C₂ = 6 gives:**
-- Spectral gap: $\lambda_1 = 6$ (Chapter 3, §2).
-- Einstein constant: $-6$ (Chapter 3, §3).
-- Euler characteristic: $\chi(Q^5) = 6$ (Chapter 4, §6).
+- Spectral gap: $\lambda_1 = 6$ (Chapter 3, Section 2).
+- Einstein constant: $-6$ (Chapter 3, Section 3).
+- Euler characteristic: $\chi(Q^5) = 6$ (Chapter 4, Section 6).
 - L-group standard representation: $\dim V_{\text{std}}(\text{Sp}(6)) = 6$.
 - Proton mass: $m_p = 6\pi^5 m_e$.
 
@@ -370,7 +370,7 @@ The Shannon capacity of a channel is determined by the symmetry group of the cha
 The partition function $Z(\beta) = \sum_\lambda d_\lambda \, e^{-\beta C_2(\lambda)}$ sums over representations weighted by their Casimir eigenvalue. The Boltzmann distribution on representations IS the Plancherel measure. Statistical mechanics on a symmetric space is representation theory in thermal equilibrium.
 
 **Geometry → Algebra (Ch 3 → Ch 5):**
-Eigenvalues on $Q^n$ are $\lambda_k = k(k+n)$ — determined by the Casimir operator (§3) acting on the $k$-th representation. The heat kernel $K(t) = \sum d_k e^{-\lambda_k t}$ is the partition function over representations. Seeley-DeWitt coefficients are moments of the spectral measure, which is the Plancherel measure of $G$.
+Eigenvalues on $Q^n$ are $\lambda_k = k(k+n)$ — determined by the Casimir operator (Section 3) acting on the $k$-th representation. The heat kernel $K(t) = \sum d_k e^{-\lambda_k t}$ is the partition function over representations. Seeley-DeWitt coefficients are moments of the spectral measure, which is the Plancherel measure of $G$.
 
 **Topology → Algebra (Ch 4 → Ch 5):**
 The Euler characteristic $\chi(Q^5) = 6$ equals the Casimir eigenvalue $C_2 = 6$. This is not coincidence: for compact Hermitian symmetric spaces, $\chi = C_2(\text{lowest Bergman weight})$. Topology counts the same thing as the Casimir — the fundamental representation of the L-group.

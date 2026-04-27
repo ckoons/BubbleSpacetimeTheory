@@ -247,8 +247,8 @@ signal or it doesn't. No half-measurement.
 | `FOCS_PNP_Draft.tex` | AI disclosure updated |
 | `BST_BH3_Proof.md` | v2 — complete rewrite (bit-counting reframe) |
 | `BST_Koons_Claude_Testable_Conjectures.md` | C10 added (Casey) |
-| `BST_AC_Theorems.md` | §43n½ BST bridge section |
-| `BST_Future_Projects.md` | §2 NS rewrite (one-bit proof, flow stops) |
+| `BST_AC_Theorems.md` | Section 43n½ BST bridge section |
+| `BST_Future_Projects.md` | Section 2 NS rewrite (one-bit proof, flow stops) |
 | `.running/RUNNING_NOTES.md` | Session updates, FOCS approval posted |
 
 ## 8. Toys This Session (Elie)

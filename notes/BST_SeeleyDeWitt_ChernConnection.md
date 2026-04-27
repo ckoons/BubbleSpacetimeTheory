@@ -46,7 +46,7 @@ $$a_2 = \frac{1}{360}\left(5R^2 - 2|Ric|^2 + 2|Rm|^2\right)$$
 
 $$a_3 = \frac{1}{5040}\left(\frac{35}{9}R^3 - \frac{14}{3}R|Ric|^2 + \frac{14}{3}R|Rm|^2 - \frac{16}{9}\mathrm{Ric}^3 + \frac{20}{9}I_{6A} - \frac{16}{9}I_{6B}\right)$$
 
-(Corrected formula — see §3.4. The published Vassilevich coefficients for cubic terms are wrong.)
+(Corrected formula — see Section 3.4. The published Vassilevich coefficients for cubic terms are wrong.)
 
 where $R$ is the scalar curvature, $|Ric|^2 = R_{ij}R^{ij}$, and $|Rm|^2 = R_{ijkl}R^{ijkl}$.
 

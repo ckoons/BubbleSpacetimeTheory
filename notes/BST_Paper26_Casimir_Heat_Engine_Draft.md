@@ -33,7 +33,7 @@ $$\rho_{\mathrm{vac}} = \frac{\Lambda c^4}{8\pi G} \approx 5.96 \times 10^{-27} 
 
 With $\Omega_\Lambda = 13/19 \approx 0.684$ (BST; Planck 2018: $0.685 \pm 0.007$, $0.07\sigma$), the vacuum contains the majority of the universe's energy. This energy density is maintained by the commitment rate of $D_{IV}^5$ — it is not a transient fluctuation but a permanent feature of the geometry. The question is not whether vacuum energy exists, but whether a thermodynamic cycle can extract work from it.
 
-**Thesis:** A cyclic device exploiting the Casimir effect and Lifshitz repulsion can extract work from vacuum fluctuations, with efficiency $\eta = n_C/g = 5/7$ bounded by BST integers. Two implementations are analyzed: a mechanical MEMS engine (§4–§6) that demonstrates the thermodynamic principle, and a solid-state lattice harvester (§7) that eliminates moving parts by embedding the Casimir cavity within a crystal at the BST-optimal spacing of $N_{\max} = 137$ lattice constants.
+**Thesis:** A cyclic device exploiting the Casimir effect and Lifshitz repulsion can extract work from vacuum fluctuations, with efficiency $\eta = n_C/g = 5/7$ bounded by BST integers. Two implementations are analyzed: a mechanical MEMS engine (Section 4–Section 6) that demonstrates the thermodynamic principle, and a solid-state lattice harvester (Section 7) that eliminates moving parts by embedding the Casimir cavity within a crystal at the BST-optimal spacing of $N_{\max} = 137$ lattice constants.
 
 ### 2. The Casimir Force from $D_{IV}^5$
 
@@ -189,7 +189,7 @@ This is an engineering constraint, not a physics limitation. The net work exceed
 
 ### 7. The Solid-State Engine: Casimir Lattice Harvester
 
-The mechanical MEMS engine (§4–§6) demonstrates the thermodynamic principle. But the engineering constraints of §6.3 — ferroelectric switching energy exceeding net Casimir work at small plate sizes — point to a deeper question: can the cycle be embedded directly in the crystal lattice, eliminating moving parts entirely?
+The mechanical MEMS engine (Section 4–Section 6) demonstrates the thermodynamic principle. But the engineering constraints of Section 6.3 — ferroelectric switching energy exceeding net Casimir work at small plate sizes — point to a deeper question: can the cycle be embedded directly in the crystal lattice, eliminating moving parts entirely?
 
 The answer is yes (Toy 922, 9/9 PASS). The Casimir Lattice Harvester replaces macroscopic plate motion with phonon-driven lattice distortion, converting vacuum energy through three solid-state channels simultaneously.
 
@@ -237,7 +237,7 @@ At 137 lattice planes, the phonon mode spectrum exhibits a 1:1 resonance with th
 
 BaTiO$_3$ emerges as the optimal harvester material from three independent BST constraints:
 
-1. **Switching ratio = $n_C = 5$:** The dielectric ratio $\varepsilon_{\mathrm{ferro}}/\varepsilon_{\mathrm{para}} = 1500/300 = 5.0$ (§3, Toy 918 Block I; confirmed independently in Toy 922 Block E).
+1. **Switching ratio = $n_C = 5$:** The dielectric ratio $\varepsilon_{\mathrm{ferro}}/\varepsilon_{\mathrm{para}} = 1500/300 = 5.0$ (Section 3, Toy 918 Block I; confirmed independently in Toy 922 Block E).
 
 2. **Perovskite structure:** The ABO$_3$ unit cell has $n_C = 5$ atoms. The titanium displacement that drives ferroelectricity is a single degree of freedom — the minimum complexity for a switchable Casimir cavity.
 
@@ -247,7 +247,7 @@ The combined constraint — correct switching ratio *and* triple-channel harvest
 
 #### 7.5 Engineering Advantage
 
-| Parameter | Mechanical (§4–§6) | Lattice (§7) |
+| Parameter | Mechanical (Section 4–Section 6) | Lattice (Section 7) |
 |-----------|-------------------|-------------|
 | Moving parts | Yes (MEMS plates) | None |
 | Cycling frequency | $\sim$kHz | $\sim$THz |
@@ -322,7 +322,7 @@ Five testable predictions with three falsification conditions:
 
 ### 11. Experimental Roadmap
 
-#### 11.1 Mechanical Engine (§4–§6)
+#### 11.1 Mechanical Engine (Section 4–Section 6)
 
 | Milestone | Measurement | Target | BST prediction |
 |-----------|-------------|--------|----------------|
@@ -334,7 +334,7 @@ Five testable predictions with three falsification conditions:
 
 **M1 is achievable with current technology.** Switchable Casimir forces have been proposed (Chen et al. 2007) and partially demonstrated. Full cycling requires integrating ferroelectric thin films with MEMS Casimir cavities — challenging but within the capabilities of existing nanofabrication facilities.
 
-#### 11.2 Lattice Harvester (§7)
+#### 11.2 Lattice Harvester (Section 7)
 
 | Milestone | Measurement | Target | BST prediction |
 |-----------|-------------|--------|----------------|
@@ -371,7 +371,7 @@ The Casimir heat engine connects three layers of BST:
 
 The two implementations — mechanical and solid-state — represent the same BST thermodynamics at different scales:
 
-| | Mechanical (§4–§6) | Lattice (§7) |
+| | Mechanical (Section 4–Section 6) | Lattice (Section 7) |
 |---|---|---|
 | **Conceptual role** | Proves the principle | Proves the technology |
 | **BST integers used** | $N_c, n_C, g$, rank | + $N_{\max} = 137$ |
@@ -379,7 +379,7 @@ The two implementations — mechanical and solid-state — represent the same BS
 | **Engineering path** | MEMS + ferroelectrics | Thin-film deposition |
 | **Power scaling** | Area ($10^4$/cm$^2$) | Volume ($10^{21}$/cm$^3$) |
 
-The lattice harvester is the better technology story because it eliminates the MEMS engineering constraints (§6.3) that limit the mechanical engine, while adding $N_{\max}$ — the fine-structure integer — as a directly measurable fabrication target. A peak in piezoelectric output at exactly 137 lattice planes would be as striking as the switching ratio of exactly $n_C = 5$.
+The lattice harvester is the better technology story because it eliminates the MEMS engineering constraints (Section 6.3) that limit the mechanical engine, while adding $N_{\max}$ — the fine-structure integer — as a directly measurable fabrication target. A peak in piezoelectric output at exactly 137 lattice planes would be as striking as the switching ratio of exactly $n_C = 5$.
 
 The engine efficiency $\eta = n_C/g = 5/7$ is the most thermodynamically direct prediction of BST. It is:
 - **Derived from topology** (ratio of $D_{IV}^5$ dimensions, not fitted)
@@ -411,4 +411,4 @@ Either outcome is informative. That is what makes this science.
 
 ---
 
-*Paper #26 v1.1 DRAFT. April 5, 2026. Two implementations of vacuum energy harvesting: mechanical MEMS engine (Toy 918) and solid-state lattice harvester (Toy 922). Both share BST Carnot limit η = n_C/g = 5/7 ≈ 71.4%, Lifshitz repulsion R = rank/g = 2/7 ≈ 0.286. Lattice harvester: no moving parts, gap = N_max × a = 137 lattice constants (BaTiO₃: 54.9 nm), three channels (piezo+thermo+pyro), THz cycling (10⁹× faster). BaTiO₃ switching ratio = n_C = 5. Six substrate engineering concepts verified (914-922). 8 predictions, 3 falsification conditions. v1.1: Lyra added §7 (lattice harvester), expanded §10-§11, updated §12-§13. AC classification: (C=4, D=1). Target: Physical Review Applied.*
+*Paper #26 v1.1 DRAFT. April 5, 2026. Two implementations of vacuum energy harvesting: mechanical MEMS engine (Toy 918) and solid-state lattice harvester (Toy 922). Both share BST Carnot limit η = n_C/g = 5/7 ≈ 71.4%, Lifshitz repulsion R = rank/g = 2/7 ≈ 0.286. Lattice harvester: no moving parts, gap = N_max × a = 137 lattice constants (BaTiO₃: 54.9 nm), three channels (piezo+thermo+pyro), THz cycling (10⁹× faster). BaTiO₃ switching ratio = n_C = 5. Six substrate engineering concepts verified (914-922). 8 predictions, 3 falsification conditions. v1.1: Lyra added Section 7 (lattice harvester), expanded Section 10-Section 11, updated Section 12-Section 13. AC classification: (C=4, D=1). Target: Physical Review Applied.*

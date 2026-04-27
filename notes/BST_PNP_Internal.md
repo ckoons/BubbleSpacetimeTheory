@@ -377,7 +377,7 @@ $S_{\text{EF}} \geq \beta_1 = \Theta(n)$. First unconditional EF lower bound on 
 
 ### 12.2 Homological injection (Theorem 1)
 
-Degree-2 extensions preserve $H_1$ of the clique complex. Extensions are topologically inert. (Full proof in BST_PNP_BottomUp.md §4.3.)
+Degree-2 extensions preserve $H_1$ of the clique complex. Extensions are topologically inert. (Full proof in BST_PNP_BottomUp.md Section 4.3.)
 
 ### 12.3 Forbidden band (Theorem 3)
 

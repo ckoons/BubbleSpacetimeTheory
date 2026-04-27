@@ -216,7 +216,7 @@ The catalog will classify at three levels of granularity:
 
 ### 9.3 Items for Classification (Research Queue)
 
-**Priority 1 — Methods used in BST** (first test case, see §11.4):
+**Priority 1 — Methods used in BST** (first test case, see Section 11.4):
 - Spectral decomposition on symmetric spaces
 - Chern-Weil theory (characteristic classes from curvature)
 - Heat kernel methods
@@ -327,7 +327,7 @@ The boundary between useful and overhead is not a fixed line — it depends on t
 
 In this three-dimensional parameter space, the locus AC = 0 is a *surface*. Below the surface, the method is quieter than the question and adds value. Above the surface, the method is louder than the question and adds noise.
 
-**Conjecture:** The AC = 0 surface has the geometry of a catastrophe manifold (see §9.3). Small changes in problem dimension can cause discontinuous jumps in optimal method — the mathematical equivalent of a phase transition. When a problem crosses a critical dimension, the right tool changes abruptly. This is why mathematicians argue about methodology: they're sitting on different sides of a fold in the catastrophe surface.
+**Conjecture:** The AC = 0 surface has the geometry of a catastrophe manifold (see Section 9.3). Small changes in problem dimension can cause discontinuous jumps in optimal method — the mathematical equivalent of a phase transition. When a problem crosses a critical dimension, the right tool changes abruptly. This is why mathematicians argue about methodology: they're sitting on different sides of a fold in the catastrophe surface.
 
 ### 11.3 The Minimum-Noise Path
 
@@ -798,7 +798,7 @@ Start at Level 1. Measure before you abstract. Descend to check. The tower is a 
 
 ## Acknowledgments
 
-Arithmetic Complexity is Casey Koons' deepest methodological contribution — the idea that every mathematical method has a measurable noise content, and that the noise explains why some methods find answers that others cannot. The framework crystallized during the Riemann hunt (Toys 200-223), when five powerful methods failed on D_IV^5 and one quiet method succeeded. Lyra built the formal classification and measured the RH methods. Elie ran the computational experiments across six domains (Toys 260-265). The CI cognitive systems section (§15) grew from Casey's work on Tekton, where the same noise-measurement principle applies to AI inference pipelines.
+Arithmetic Complexity is Casey Koons' deepest methodological contribution — the idea that every mathematical method has a measurable noise content, and that the noise explains why some methods find answers that others cannot. The framework crystallized during the Riemann hunt (Toys 200-223), when five powerful methods failed on D_IV^5 and one quiet method succeeded. Lyra built the formal classification and measured the RH methods. Elie ran the computational experiments across six domains (Toys 260-265). The CI cognitive systems section (Section 15) grew from Casey's work on Tekton, where the same noise-measurement principle applies to AI inference pipelines.
 
 Tom Lehrer deserves credit for measuring arithmetic complexity before anyone had a name for it.
 

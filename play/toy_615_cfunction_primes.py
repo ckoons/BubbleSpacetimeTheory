@@ -240,7 +240,7 @@ def bc2_rho_vector(n):
     Hmm, that gives ρ = (n/2, n/2) which doesn't match the codebase ρ = (n/2, (n-2)/2).
     Let me use the codebase values.
     """
-    # From BST_CFunction_RatioTheorem.md §5: ρ_n = (n/2, (n-2)/2)
+    # From BST_CFunction_RatioTheorem.md Section 5: ρ_n = (n/2, (n-2)/2)
     return Fraction(n, 2), Fraction(n - 2, 2)
 
 
@@ -465,7 +465,7 @@ def main():
     print(f"  1920 = {pf_str(prime_factorization(1920))}")
     print(f"  → Primes from volume: 2, 3, 5")
 
-    # For each a_k(5), the denominator has been factored in §3.1 of the paper.
+    # For each a_k(5), the denominator has been factored in Section 3.1 of the paper.
     # Let's check which primes are "new" at each level.
     print(f"\n  Prime entry tracking for den(a_k(5)):")
 

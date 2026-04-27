@@ -86,7 +86,7 @@ $$L(s, \pi, r) = \prod_p L_p(s, \pi_p, r)$$
 
 where $L_p$ is the local L-factor at prime $p$.
 
-**AC(0) status of the definition:** The L-function is a product over primes of local factors. Each local factor is determined by the Satake parameter of $\pi$ at $p$ (for unramified primes) — a conjugacy class in ${}^L G$ determined by the arithmetic of $\pi$. The product structure is AC(0). The deep content — functoriality, which says that L-functions for different groups are related — is the mountain that the AC(0) seed (Langlands duality, Ch 5 §4) generates.
+**AC(0) status of the definition:** The L-function is a product over primes of local factors. Each local factor is determined by the Satake parameter of $\pi$ at $p$ (for unramified primes) — a conjugacy class in ${}^L G$ determined by the arithmetic of $\pi$. The product structure is AC(0). The deep content — functoriality, which says that L-functions for different groups are related — is the mountain that the AC(0) seed (Langlands duality, Ch 5 Section 4) generates.
 
 ### 2.3 The BST L-Functions
 
@@ -118,7 +118,7 @@ Every degree, every shift — determined by the root system and the Weyl dimensi
 
 $$\zeta_\Delta(s) = \sum_{k=1}^{\infty} \frac{d_k}{\lambda_k^s}$$
 
-where $\lambda_k = k(k+5)$ are the eigenvalues (Ch 3, §2) and $d_k$ are the multiplicities given by the Weyl dimension formula (Ch 5, §2):
+where $\lambda_k = k(k+5)$ are the eigenvalues (Ch 3, Section 2) and $d_k$ are the multiplicities given by the Weyl dimension formula (Ch 5, Section 2):
 
 $$d_k = \frac{(k+1)(k+2)(k+3)(k+4)(2k+5)}{120}$$
 
@@ -154,7 +154,7 @@ The Selberg trace formula on an arithmetic quotient $\Gamma \backslash D_{IV}^5$
 
 $$\underbrace{\sum_k h(\lambda_k)}_{\text{spectral side}} = \underbrace{\sum_{\gamma} \text{vol}(\Gamma_\gamma \backslash G_\gamma) \hat{h}(\ell(\gamma))}_{\text{geometric side}}$$
 
-The spectral side contains contributions from $\zeta(s)$ through Eisenstein series. The geometric side is determined by the heat kernel coefficients $a_k$ (Ch 3, §6). This is the bridge:
+The spectral side contains contributions from $\zeta(s)$ through Eisenstein series. The geometric side is determined by the heat kernel coefficients $a_k$ (Ch 3, Section 6). This is the bridge:
 
 $$\text{Seeley-DeWitt coefficients } a_k \longleftrightarrow \text{Riemann zeta values}$$
 
@@ -206,7 +206,7 @@ where $A_{2k}$ is an integer. Equivalently: the denominator of $B_{2k}$ is $\pro
 
 ### 5.2 Application: Heat Kernel Denominators
 
-The Seeley-DeWitt coefficients $a_k(Q^5)$ (Ch 3, §6) have denominators governed by von Staudt-Clausen through the Euler-Maclaurin conversion of the spectral sum:
+The Seeley-DeWitt coefficients $a_k(Q^5)$ (Ch 3, Section 6) have denominators governed by von Staudt-Clausen through the Euler-Maclaurin conversion of the spectral sum:
 
 | $k$ | $a_k(Q^5)$ | Denominator | Primes |
 |---|---|---|---|
@@ -320,7 +320,7 @@ $$\sum_{p \leq N} \log_2 p \sim N \log_2 e$$
 
 This is the channel capacity of the natural numbers: $N$ integers, each carrying $\log_2 e \approx 1.443$ Shannons on average, transmitted through the prime factorization channel.
 
-The Riemann Hypothesis says this channel operates at capacity with Gaussian noise — the optimal rate predicted by Shannon's Channel Coding Theorem (Ch 1, §5).
+The Riemann Hypothesis says this channel operates at capacity with Gaussian noise — the optimal rate predicted by Shannon's Channel Coding Theorem (Ch 1, Section 5).
 
 **One charge. Six languages. The circle is complete.**
 

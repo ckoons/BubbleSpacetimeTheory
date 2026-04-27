@@ -253,7 +253,7 @@ Strong approximation for $\mathrm{Spin}(5,2)$ (rank $\geq 5$) → class number 1
 
 ### 5.5 Both Sides Positive
 
-Combining §5.3 and §5.4:
+Combining Section 5.3 and Section 5.4:
 
 - **Spectral side**: $c$-function ratio has poles on critical line, Plancherel ratio positive (Layer III)
 - **Geometric side**: discriminant ratio positive, class number 1, orbital integrals factor cleanly
@@ -338,7 +338,7 @@ The bridge mechanism is now explicit (Toy 165):
 
 **Step 2.** The spectral transport $Q^1 \to Q^3 \to Q^5$ maps this to the noncompact spectral theory (Layer II).
 
-**Step 3.** The Selberg trace formula on $\Gamma \backslash D_{IV}^5$ introduces the Eisenstein contribution, whose continuous spectrum involves $M(w_0, s)$ — a product of $\xi$-ratios (§5.1).
+**Step 3.** The Selberg trace formula on $\Gamma \backslash D_{IV}^5$ introduces the Eisenstein contribution, whose continuous spectrum involves $M(w_0, s)$ — a product of $\xi$-ratios (Section 5.1).
 
 **Step 4.** The poles of $M(w_0)$ at $\zeta$-zeros must lie at $\mathrm{Re}(s_j) = -1/2$ for trace formula consistency. This forces $\mathrm{Re}(z) = 1/2$.
 
@@ -458,7 +458,7 @@ Path D (the inductive transport) has all three identified gaps closed:
 
 ### 11.2 What a Complete Proof Requires
 
-The bridge mechanism is identified (§5.1, §7.3). Two verification steps remain:
+The bridge mechanism is identified (Section 5.1, Section 7.3). Two verification steps remain:
 
 **(i) Maass-Selberg rigidity.** Verify that the Maass-Selberg relation for $\mathrm{SO}_0(5,2)$, combined with the Chern palindromic constraint ($\varepsilon = +1$), forces $M(w_0)$ poles to the tempered boundary $\mathrm{Re}(s_j) = -1/2$. The key: the discrete spectrum is FIXED by the Chern polynomial (compact $Q^5$ data), leaving no room for residual contributions from off-line poles.
 

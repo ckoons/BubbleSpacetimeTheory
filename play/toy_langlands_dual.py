@@ -27,7 +27,7 @@ print("=" * 72)
 # ============================================================
 # Section 1: The L-group of SO(7)
 # ============================================================
-print("\n§1. THE L-GROUP")
+print("\nSection 1. THE L-GROUP")
 print("-" * 50)
 
 print("""
@@ -51,7 +51,7 @@ print("""
 # ============================================================
 # Section 2: Representations of Sp(6)
 # ============================================================
-print("\n§2. REPRESENTATIONS OF Sp(6)")
+print("\nSection 2. REPRESENTATIONS OF Sp(6)")
 print("-" * 50)
 
 # Sp(6) representations
@@ -109,7 +109,7 @@ print(f"    21 = dim so(5,2) = total branching at k=5")
 # ============================================================
 # Section 3: The maximal compact subgroup
 # ============================================================
-print("\n§3. THE MAXIMAL COMPACT: U(3) = SU(3) × U(1)")
+print("\nSection 3. THE MAXIMAL COMPACT: U(3) = SU(3) × U(1)")
 print("-" * 50)
 
 print("""
@@ -136,7 +136,7 @@ print("""
 # ============================================================
 # Section 4: Branching under SU(3)
 # ============================================================
-print("\n§4. BRANCHING UNDER SU(3)")
+print("\nSection 4. BRANCHING UNDER SU(3)")
 print("-" * 50)
 
 print("  Standard representation under U(3) ⊂ Sp(6):")
@@ -171,7 +171,7 @@ print(f"  ★ The gluon number is both a Lie algebra dimension AND a code parame
 # ============================================================
 # Section 5: The electroweak embedding
 # ============================================================
-print("\n§5. THE ELECTROWEAK SECTOR")
+print("\nSection 5. THE ELECTROWEAK SECTOR")
 print("-" * 50)
 
 print("  Sp(6) ⊃ Sp(4) × Sp(2)")
@@ -203,7 +203,7 @@ print("    2 of Sp(2) = doublet of SU(2)")
 # ============================================================
 # Section 6: The dimension counting
 # ============================================================
-print("\n§6. BST INTEGERS IN THE L-GROUP")
+print("\nSection 6. BST INTEGERS IN THE L-GROUP")
 print("-" * 50)
 
 print("  Complete dimension table:")
@@ -230,7 +230,7 @@ print("    The diquark sector has the SAME dimension as the spectral gap.")
 # ============================================================
 # Section 7: The Langlands functorial lift
 # ============================================================
-print("\n§7. THE LANGLANDS FUNCTORIAL LIFT")
+print("\nSection 7. THE LANGLANDS FUNCTORIAL LIFT")
 print("-" * 50)
 
 print("""
@@ -260,7 +260,7 @@ print("""
 # ============================================================
 # Section 8: Root system duality
 # ============================================================
-print("\n§8. ROOT SYSTEM DUALITY: B₃ ↔ C₃")
+print("\nSection 8. ROOT SYSTEM DUALITY: B₃ ↔ C₃")
 print("-" * 50)
 
 print("  B₃ roots (SO(7)):")
@@ -294,7 +294,7 @@ print("    is the Langlands dual of spatial universality!")
 # ============================================================
 # Section 9: The Standard Model from Langlands duality
 # ============================================================
-print("\n§9. THE STANDARD MODEL FROM LANGLANDS DUALITY")
+print("\nSection 9. THE STANDARD MODEL FROM LANGLANDS DUALITY")
 print("-" * 50)
 
 print("""
@@ -331,7 +331,7 @@ print("""
 # ============================================================
 # Section 10: Why N_c = 3 (five independent derivations)
 # ============================================================
-print("\n§10. WHY N_c = 3 — FIVE DERIVATIONS")
+print("\nSection 10. WHY N_c = 3 — FIVE DERIVATIONS")
 print("-" * 50)
 
 print("""
@@ -359,7 +359,7 @@ print("""
 # ============================================================
 # Section 11: Predictions from the L-group
 # ============================================================
-print("\n§11. PREDICTIONS FROM THE L-GROUP")
+print("\nSection 11. PREDICTIONS FROM THE L-GROUP")
 print("-" * 50)
 
 print("  The L-group Sp(6) makes structural predictions:")
@@ -407,7 +407,7 @@ print("     → The proton mass IS the dimension of the Langlands lift")
 # ============================================================
 # Section 12: Connection to the Riemann proof
 # ============================================================
-print("\n§12. CONNECTION TO THE RIEMANN PROOF")
+print("\nSection 12. CONNECTION TO THE RIEMANN PROOF")
 print("-" * 50)
 
 print("""
@@ -436,7 +436,7 @@ print("""
 # Section 13: Summary
 # ============================================================
 print("\n" + "=" * 72)
-print("§13. SUMMARY")
+print("Section 13. SUMMARY")
 print("=" * 72)
 
 print("""

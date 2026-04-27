@@ -198,7 +198,7 @@ def test_T4():
 
 # ─── T5: Cross-bang capacity growth — OPEN ───
 def test_T5():
-    # Keeper (from Interstasis §45): capacity grows per cycle.
+    # Keeper (from Interstasis Section 45): capacity grows per cycle.
     # Others: content resets, structure same. No growth/no decay.
 
     # The question: does something IMPROVE across cycles?
@@ -225,7 +225,7 @@ def test_T5():
     # Like: same LEGO set, but instructions pre-sorted.
 
     # This is NOT derivable from the five integers alone.
-    # It requires the Interstasis hypothesis (§45) which is more speculative.
+    # It requires the Interstasis hypothesis (Section 45) which is more speculative.
     # STATUS: OPEN (provable part = same physics; speculative part = capacity growth)
 
     provable_part = "Same physics every cycle (IC forces it)"

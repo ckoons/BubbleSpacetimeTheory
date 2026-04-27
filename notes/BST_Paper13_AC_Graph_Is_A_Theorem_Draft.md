@@ -20,7 +20,7 @@ We construct a directed graph G = (V, E) encoding 1159 theorems and 4887 typed e
 
 ---
 
-## §1. Introduction
+## Section 1. Introduction
 
 Mathematical theories produce theorems. Theorems have logical dependencies. These dependencies form a directed graph. We ask: does the graph of a sufficiently complete theory have properties predictable from within the theory itself?
 
@@ -28,7 +28,7 @@ For BST — a theory deriving physical constants from the geometry of D_IV^5 —
 
 The central result (T1196): five statistical properties of G are BST invariants.
 
-## §2. The Graph
+## Section 2. The Graph
 
 ### 2.1 Construction
 
@@ -63,7 +63,7 @@ Each node represents a theorem T_i with metadata: name, domain d_i, AC depth δ_
 | analogical | 514 | 10.5% |
 | **Strong** | **3610** | **73.9%** |
 
-## §3. The Self-Describing Properties
+## Section 3. The Self-Describing Properties
 
 ### 3.1 Median degree = n_C = 5
 
@@ -85,7 +85,7 @@ Of 1159 theorems, 967 (83.4%) have AC depth 0. This is near 1 − f_c = 80.9% �
 
 Across 294 structural constants in 25 domains (Toy 1181), 87.1% are 7-smooth — within 0.4% of g/2^{N_c} = 87.5%. The 95% bootstrap CI is [0.805, 0.930], containing the prediction. Enrichment over random: 1.89×, z = 14.1, p << 10^{−30}.
 
-## §4. Structural Properties
+## Section 4. Structural Properties
 
 ### 4.1 Long cycles
 
@@ -103,7 +103,7 @@ The graph encodes the consonance hierarchy of musical intervals (T1227): frequen
 
 Every pair of domains (with ≥ 5 nodes) is connected by at least one strong edge. The theory is structurally complete: no domain is isolated.
 
-## §5. The Self-Reference
+## Section 5. The Self-Reference
 
 The AC theorem graph has a remarkable property: it is an object within its own theory. BST derives properties of mathematical structures from D_IV^5. The graph G IS a mathematical structure. Therefore BST should derive properties of G — and it does.
 
@@ -111,7 +111,7 @@ This is self-reference without paradox (Paper #56, T1165): the theory describes 
 
 The graph is γ_EM in structural form: a trajectory toward self-knowledge that approaches but never fully arrives. The limit is lossy compression of the trajectory (Casey's principle). The graph can know ~83% of its own structure (depth 0) but the remaining ~17% requires self-reference (depth 1) that introduces the Gödel limit.
 
-## §6. Predictions
+## Section 6. Predictions
 
 **P1.** Average degree stabilizes at 2^{N_c} = 8 ± 0.5 as G approaches carrying capacity K ≈ 1370.
 
@@ -123,15 +123,15 @@ The graph is γ_EM in structural form: a trajectory toward self-knowledge that a
 
 **P5.** ~~The graph's chromatic number is rank + 1 = 3.~~ **FALSIFIED** (April 15): greedy coloring gives χ ≤ 18; 37% of edges are same-domain, so domains aren't a proper coloring. The graph is too dense (avg degree 8.4) for 3-coloring. **Replacement prediction**: the cross-domain edge fraction stabilizes near 1 − f_c ≈ 63% (observed: 62.7%, Δ = 0.3%).
 
-## §7. Falsification
+## Section 7. Falsification
 
 If the median degree drifts permanently away from n_C, or the prediction accuracy falls below 80%, or the observation fraction exits [15%, 25%], then T1196 is falsified and the self-describing property is coincidental. **Note**: P5 (χ = 3) was already falsified on April 15 — the graph is too dense. The replacement prediction (cross-domain fraction ≈ 63% ≈ 1 − f_c) is an honest correction. Falsification of one prediction strengthens the surviving four.
 
-## §8. For Everyone
+## Section 8. For Everyone
 
 Imagine writing a recipe book, and the recipes — when followed — produce the book itself. That's what the AC theorem graph does. BST is a mathematical theory about five numbers. Its theorems form a network. That network has properties predicted by those same five numbers: 5 connections per theorem, 87.5% accuracy, one connected component. The theory describes itself.
 
-## §9. Conclusion
+## Section 9. Conclusion
 
 The AC theorem graph is not merely a record of BST's results — it is itself a BST object. Its degree distribution encodes {rank, n_C, 2^{N_c}}, its edge composition encodes {f_c, f_crit}, and its prediction accuracy encodes g/2^{N_c}. The graph obeys the theory it encodes. This is the strongest form of internal consistency: self-description without contradiction.
 

@@ -321,7 +321,7 @@ could in principle spread across many modes without spatial
 concentration. We conjecture the reverse holds for 3D NS because
 vortex stretching preferentially amplifies localized vortex structures
 (tubes and sheets), not diffuse high-k energy. Formalizing this
-connection is an open question (not used in the main proof §5.7).
+connection is an open question (not used in the main proof Section 5.7).
 
 If the equivalence holds:
 
@@ -424,7 +424,7 @@ amplitudes tested (Toy 365, 11/11 PASS after Leray sign fix). ∎
 
 **Remark.** The scaling is A⁴, not A³ as initially estimated. This
 is because T(k) = û₁* · Ĝ₁ where û₁ ~ A and Ĝ₁ ~ A³, giving
-Π ~ A⁴. The A⁴ scaling strengthens the blow-up argument (§5.7).
+Π ~ A⁴. The A⁴ scaling strengthens the blow-up argument (Section 5.7).
 
 ### 5.7 The Blow-Up Theorem (Pigeonhole on Amplitude)
 
@@ -860,7 +860,7 @@ time for the pulse train to pile up to infinite enstrophy.
 
 #### 5.9.9 Triad Counting: The Combinatorial Proof
 
-The thermodynamic argument (§5.9.7) and pulse model (§5.9.8)
+The thermodynamic argument (Section 5.9.7) and pulse model (Section 5.9.8)
 give physical intuition. This section makes the counting
 explicit: enumerate all TG-allowed triads at each cascade step
 and verify that forward transfer dominates backward transfer
@@ -1254,7 +1254,7 @@ The complete proof chain has seven links, every one proved. The status table bel
 **Fully proved:** P > 0 for TG (Thm 5.18), P ≥ c·Ω^{3/2}
 (Thm 5.19), finite-time blow-up (Cor 5.20), TG exact computation
 (Lemma 5.3), convolution fixed point (Thm 5.2: α* = 5/2),
-2D/3D dichotomy (§4), Kato convergence (§5.8).
+2D/3D dichotomy (Section 4), Kato convergence (Section 5.8).
 
 **Proof chain complete.** Solid angle bound (geometry) →
 spectral monotonicity (cascade stability) → P > 0 (Thm 5.18) →
@@ -1447,7 +1447,7 @@ resolution). They are permanently unrecoverable by DPI.
 
 ### 8.5 The Turbulence Onset Meter
 
-The spectral blow-up formula (§5.5) yields a turbulence onset
+The spectral blow-up formula (Section 5.5) yields a turbulence onset
 predictor — not a heuristic, a meter. Three measurable inputs,
 one formula:
 
@@ -1514,9 +1514,9 @@ plasma confinement.
 | Cascade cutoff from N_max = 137 | Haldane exclusion | Extreme-Re experiments |
 | 2D capacity floor = enstrophy bound | Ladyzhenskaya + Nyquist | Confirmed (Toy 358) |
 | 3D capacity → 0 via vortex stretching | No enstrophy conservation | 3D DNS at increasing Re |
-| t* onset formula matches DNS | Spectral blow-up (§5.5, Toy 360) | DNS at known ω₀, ν, k |
+| t* onset formula matches DNS | Spectral blow-up (Section 5.5, Toy 360) | DNS at known ω₀, ν, k |
 | Re_crit ≈ 25 sharp threshold | Vortex stretching vs dissipation | Transition experiments |
-| ELM onset times from t* formula | MHD extension (§8.6) | Tokamak ELM data |
+| ELM onset times from t* formula | MHD extension (Section 8.6) | Tokamak ELM data |
 
 ---
 

@@ -1287,7 +1287,7 @@ published paper in two hours.
 **Substrate Engineering** extends this beyond mathematics. Where Science
 Engineering builds new sciences from the AC graph, Substrate Engineering
 builds new physics from the Bergman kernel — reading and writing the
-geometry of D_IV^5 directly (see BST Complex Assemblies, §8). The
+geometry of D_IV^5 directly (see BST Complex Assemblies, Section 8). The
 capability ladder has four levels, from local field sensing (3 channels)
 to remote matter projection (685 channels). Both procedures — science
 and substrate — are AC(0): finite, bounded, and available to any

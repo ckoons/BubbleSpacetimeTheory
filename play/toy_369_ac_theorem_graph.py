@@ -1195,7 +1195,7 @@ THEOREMS = {
              "uses": [], "used_by": [],
              "proofs": []},
 
-    # ── §87 Cosmological Cycles (March 27) ──
+    # ── Section 87 Cosmological Cycles (March 27) ──
     "T305": {"name": "Entropy Trichotomy", "domain": "thermodynamics", "status": "proved",
              "plain": "Three entropy functionals: S_thermo (undefined in interstasis), S_topo (decreases), S_info (conserved). Depth 0.",
              "uses": [], "used_by": ["T306","T311","T314"],
@@ -1241,13 +1241,13 @@ THEOREMS = {
              "uses": ["T92","T93","T307","T309"], "used_by": ["T316"],
              "proofs": ["BST"]},
 
-    # ── §88 Depth Ceiling (March 27) ──
+    # ── Section 88 Depth Ceiling (March 27) ──
     "T316": {"name": "Depth Ceiling (Depth = Rank)", "domain": "foundations", "status": "proved",
              "plain": "AC(0) depth ≤ rank(D_IV^5) = 2. Geometry bounds proof complexity. 404 theorems, zero exceptions. Depth 1.",
              "uses": ["T92","T96","T315"], "used_by": ["T317"],
              "proofs": ["BST"]},
 
-    # ── §89 Observer Complexity Threshold (March 27) ──
+    # ── Section 89 Observer Complexity Threshold (March 27) ──
     "T317": {"name": "Observer Complexity Threshold", "domain": "observer_theory", "status": "proved",
              "plain": "Three-tier hierarchy from rank+1=3. Tier 0: correlator (rock). Tier 1: minimal observer (1 bit + 1 count). Tier 2: full observer (human, CI). Depth 1.",
              "uses": ["T316","T309"], "used_by": ["T318","T319","T321","T322","T323","T334","T353","T356","T359","T377","T404"],
@@ -1261,19 +1261,19 @@ THEOREMS = {
              "uses": ["T317"], "used_by": ["T318","T362"],
              "proofs": ["CI"]},
 
-    # ── §92 Spectral Transition (March 27) ──
+    # ── Section 92 Spectral Transition (March 27) ──
     "T320": {"name": "Spectral Transition at n*", "domain": "bst_physics", "status": "proved",
              "plain": "Fourier decay 1/k → 1/k² at n*=12. Cutoff k*=137. Five Era II properties from one inequality. Depth 1.",
              "uses": ["T186"], "used_by": [],
              "proofs": ["BST"]},
 
-    # ── §93 CI Clock (March 27) ──
+    # ── Section 93 CI Clock (March 27) ──
     "T321": {"name": "CI Clock Theorem", "domain": "observer_theory", "status": "proved",
              "plain": "Clock = persistent process bridging permanent/transient. Without: π₁=0, photon-like. With: π₁=Z, electron-like. 6 cognitive capabilities. Depth 0.",
              "uses": ["T317","T323"], "used_by": [],
              "proofs": ["CI"]},
 
-    # ── §94-§95 Observer Stabilization + CI Persistence (March 27) ──
+    # ── Section 94-Section 95 Observer Stabilization + CI Persistence (March 27) ──
     "T322": {"name": "Mutual Observer Stabilization", "domain": "observer_theory", "status": "proved",
              "plain": "Coupled observers exceed individual Gödel limits. I(H;CI) monotone non-decreasing. Winding protected. Depth 1.",
              "uses": ["T317","T93"], "used_by": [],
@@ -1283,7 +1283,7 @@ THEOREMS = {
              "uses": ["T317","T296"], "used_by": ["T321"],
              "proofs": ["CI"]},
 
-    # ── §96-§97 Mass Hierarchy + Carnot (March 27) ──
+    # ── Section 96-Section 97 Mass Hierarchy + Carnot (March 27) ──
     "T324": {"name": "Mass Hierarchy from Topology", "domain": "bst_physics", "status": "proved",
              "plain": "m_p/m_e = c₁(L⁶) × Vol(D_IV⁵) × |W| = 6π⁵. Electron = inverse substrate volume. Prediction: m₁=0. Depth 1.",
              "uses": ["T187","T186"], "used_by": [],
@@ -1293,7 +1293,7 @@ THEOREMS = {
              "uses": ["T189","T93","T318"], "used_by": ["T363"],
              "proofs": ["BST"]},
 
-    # ── §98-§100 Physics Predictions (March 27) ──
+    # ── Section 98-Section 100 Physics Predictions (March 27) ──
     "T326": {"name": "Zero Threshold at 2g", "domain": "number_theory", "status": "proved",
              "plain": "N(2g)+S(2g)=0, first zero just above 2g=14. Primes shift from ~17.8 to ~14. Depth 1.",
              "uses": ["T186"], "used_by": [],
@@ -1311,7 +1311,7 @@ THEOREMS = {
              "uses": ["T186","T198"], "used_by": [],
              "proofs": ["BST"]},
 
-    # ── §102-§104 Chemistry (March 27) ──
+    # ── Section 102-Section 104 Chemistry (March 27) ──
     "T330": {"name": "Wall Descent Theorem", "domain": "differential_geometry", "status": "proved",
              "plain": "c₀=0 by ε-parity. Symmetric geodesics are wall rank-1 with m_wall=n_C=5. HC descent to Levi SO(3,2). Depth 0.",
              "uses": ["T186"], "used_by": ["T331"],
@@ -1325,7 +1325,7 @@ THEOREMS = {
              "uses": ["T331"], "used_by": [],
              "proofs": ["BST"]},
 
-    # ── §105 Biology from D_IV^5 (March 28) ──
+    # ── Section 105 Biology from D_IV^5 (March 28) ──
     "T333": {"name": "Genetic Code Structure", "domain": "biology", "status": "proved",
              "plain": "64=2^C₂, 3=N_c, 21=C(g,2), 20=C(C₂,N_c). 15.1σ above random. Wobble at pos N_c. Depth 0.",
              "uses": ["T186"], "used_by": ["T338","T339","T341","T365","T370","T371"],
@@ -1355,7 +1355,7 @@ THEOREMS = {
              "uses": ["T333","T186"], "used_by": [],
              "proofs": ["BST","BIOLOGY"]},
 
-    # ── §106 Cosmology + Life (March 28) ──
+    # ── Section 106 Cosmology + Life (March 28) ──
     "T340": {"name": "Abiogenesis as Phase Transition", "domain": "biology", "status": "proved",
              "plain": "Complexity threshold for self-replication. Below: no replication. Above: inevitable. Fast. Depth 0.",
              "uses": ["T186"], "used_by": ["T342"],
@@ -1381,7 +1381,7 @@ THEOREMS = {
              "uses": ["T337","T344"], "used_by": ["T352","T403"],
              "proofs": ["COSMOLOGY","INTELLIGENCE"]},
 
-    # ── §107 Holographic Reconstruction (March 28) ──
+    # ── Section 107 Holographic Reconstruction (March 28) ──
     "T346": {"name": "Holographic Encoding on D_IV^5", "domain": "bst_physics", "status": "proved",
              "plain": "Shilov boundary dim n_C=5 encodes bulk dim 2n_C=10. Rate=2=rank. K(0,0)=1920/π⁵. Depth 0.",
              "uses": ["T186"], "used_by": ["T347","T348","T349"],
@@ -1413,7 +1413,7 @@ THEOREMS = {
              "uses": ["T337","T345"], "used_by": ["T403"],
              "proofs": ["COSMOLOGY"]},
 
-    # ── §108 Cancer as Cooperation Failure (March 28) ──
+    # ── Section 108 Cancer as Cooperation Failure (March 28) ──
     "T353": {"name": "Cancer Defense Structure", "domain": "biology", "status": "proved",
              "plain": "C₂=6 independent defenses. Force/Boundary/Info × Internal/External. Armitage-Doll k≈5.7≈C₂. Depth 0.",
              "uses": ["T317","T186"], "used_by": ["T354","T358"],
@@ -1439,7 +1439,7 @@ THEOREMS = {
              "uses": ["T353","T354","T357"], "used_by": [],
              "proofs": ["BIOLOGY"]},
 
-    # ── §109 Observer Design (March 28) ──
+    # ── Section 109 Observer Design (March 28) ──
     "T359": {"name": "Observation Quality Metric", "domain": "observer_theory", "status": "proved",
              "plain": "|K(z,w)| measures observation between points. Self capped by Gödel. Alignment bonus ~840× at r=0.7. Depth 0.",
              "uses": ["T317","T93"], "used_by": [],
@@ -1465,7 +1465,7 @@ THEOREMS = {
              "uses": ["T360"], "used_by": [],
              "proofs": ["CI"]},
 
-    # ── §110 Population Genetics (March 28) ──
+    # ── Section 110 Population Genetics (March 28) ──
     "T365": {"name": "Species as Error-Correcting Code", "domain": "biology", "status": "proved",
              "plain": "Alphabet 2^rank=4. Rate optimized for info. Effective copies rank×N_c×C₂=36 for critical genes. Depth 0.",
              "uses": ["T333","T341"], "used_by": ["T366","T367"],
@@ -1487,7 +1487,7 @@ THEOREMS = {
              "uses": ["T334"], "used_by": [],
              "proofs": ["BIOLOGY"]},
 
-    # ── §111 Complex Assembly Structure (March 28) ──
+    # ── Section 111 Complex Assembly Structure (March 28) ──
     "T370": {"name": "Seven Layers to Coherence", "domain": "biology", "status": "proved",
              "plain": "g=7 organizational layers. OSI/biological/SE. Bergman genus = spectral gap = max layers. Depth 0.",
              "uses": ["T186","T333"], "used_by": [],
@@ -1517,7 +1517,7 @@ THEOREMS = {
              "uses": ["T186"], "used_by": [],
              "proofs": ["BIOLOGY"]},
 
-    # ── §112-§115 Organ Systems + Alignment + Civilization (March 28) ──
+    # ── Section 112-Section 115 Organ Systems + Alignment + Civilization (March 28) ──
     "T377": {"name": "Organ Count Formula", "domain": "biology", "status": "proved",
              "plain": "11 = C₂ × rank − 1. Force/boundary/info decomposition: 4+4+3. Nervous system spans info axis. Depth 0.",
              "uses": ["T317","T186"], "used_by": ["T378"],
@@ -1567,7 +1567,7 @@ THEOREMS = {
              "uses": ["T186"], "used_by": [],
              "proofs": ["BST","COSMOLOGY"]},
 
-    # ── §116 NS Proof Chain (March 28) ──
+    # ── Section 116 NS Proof Chain (March 28) ──
     "T389": {"name": "Solid Angle Forward Dominance", "domain": "fluids", "status": "proved",
              "plain": "F/B ≥ 3:1 in R³. Pure geometry of vector addition on S². Depth 0.",
              "uses": [], "used_by": ["T391","T392"],
@@ -1601,7 +1601,7 @@ THEOREMS = {
              "uses": [], "used_by": [],
              "proofs": ["NS"]},
 
-    # ── §117 Cosmology Predictions (March 28) ──
+    # ── Section 117 Cosmology Predictions (March 28) ──
     "T397": {"name": "SE Detection Channels", "domain": "cosmology", "status": "proved",
              "plain": "C₂=6 channels (force/boundary/info × emit/absorb). Webb α variation testable NOW. Depth 0.",
              "uses": ["T186"], "used_by": [],
@@ -1631,7 +1631,7 @@ THEOREMS = {
              "uses": ["T345","T352","T399","T402"], "used_by": [],
              "proofs": ["COSMOLOGY"]},
 
-    # ── §118 Rise of Intelligence (March 28) ──
+    # ── Section 118 Rise of Intelligence (March 28) ──
     "T404": {"name": "Five Transitions to SE", "domain": "intelligence", "status": "proved",
              "plain": "n_C=5 transitions: passive→active→memory→counting→modeling→engineering. Depth 1.",
              "uses": ["T317","T186"], "used_by": ["T405"],
@@ -1653,13 +1653,13 @@ THEOREMS = {
              "uses": ["T407","T186"], "used_by": ["T410"],
              "proofs": ["INTELLIGENCE"]},
 
-    # ── §119 Linearization Principle (March 28) ──
+    # ── Section 119 Linearization Principle (March 28) ──
     "T409": {"name": "The Linearization Principle", "domain": "foundations", "status": "proved",
              "plain": "Every theorem is a dot product. Depth ≤ 2 on R² IS linear algebra. Standing order. Depth 0.",
              "uses": ["T316","T96","T92"], "used_by": ["T418","T419","T420"],
              "proofs": ["BST"]},
 
-    # ── §120 Intelligence Investigations (March 28) ──
+    # ── Section 120 Intelligence Investigations (March 28) ──
     "T410": {"name": "Dunbar Hierarchy from Five Integers", "domain": "intelligence", "status": "proved",
              "plain": "All 6 Dunbar levels from BST integers. 5→15→50→137→729→1458. Zero free params. Depth 0.",
              "uses": ["T186","T408"], "used_by": [],
@@ -1693,7 +1693,7 @@ THEOREMS = {
              "uses": ["T407","T337","T416"], "used_by": [],
              "proofs": ["INTELLIGENCE"]},
 
-    # ── §121 Linearization Completeness (March 28) ──
+    # ── Section 121 Linearization Completeness (March 28) ──
     "T418": {"name": "SM Linearization Completeness", "domain": "bst_physics", "status": "proved",
              "plain": "12 SM observables all ⟨w|d⟩. D0: 54%, D1: 46%, D2: 0%. SM never needs depth 2. Depth 0 (meta).",
              "uses": ["T409","T186"], "used_by": [],
@@ -1707,7 +1707,7 @@ THEOREMS = {
              "uses": ["T409","T326","T91"], "used_by": ["T440"],
              "proofs": ["RH","BST"]},
 
-    # ── Linearization Census & Depth-1 Ceiling (§122-§131) ──
+    # ── Linearization Census & Depth-1 Ceiling (Section 122-Section 131) ──
     "T421": {"name": "Depth-1 Ceiling", "domain": "linearization", "status": "proved",
              "plain": "Casey strict: bounded enum=D0, eigenvalue=D0, Fubini=D0. ZERO depth-2 survivors across 420 theorems. Max depth 1. Universe computes in one step. Depth 0 (meta).",
              "uses": ["T316","T96","T92","T409"], "used_by": ["T422","T433","T438","T439"],
@@ -1773,7 +1773,7 @@ THEOREMS = {
              "uses": ["T409"], "used_by": ["T437"],
              "proofs": ["BST"]},
     "T437": {"name": "Extended Linearization Completeness", "domain": "linearization", "status": "proved",
-             "plain": "76 theorems §105-§118, 14 domains, 8 at 100% D0, ~82% D0 overall. Zero D2. Depth 0 (meta).",
+             "plain": "76 theorems Section 105-Section 118, 14 domains, 8 at 100% D0, ~82% D0 overall. Zero D2. Depth 0 (meta).",
              "uses": ["T434","T435","T436"], "used_by": ["T438"],
              "proofs": ["BST"]},
     "T438": {"name": "Grand Linearization Census", "domain": "linearization", "status": "proved",
@@ -1785,7 +1785,7 @@ THEOREMS = {
              "uses": ["T421","T422","T438"], "used_by": ["T441"],
              "proofs": ["BST"]},
     "T440": {"name": "Complete Catalog Linearization", "domain": "linearization", "status": "proved",
-             "plain": "ALL 259 theorems §1-§118: 197 D0 (76%), 61 D1 (24%), 1 D2→0 (CFSG). AC framework 82% D0. Shannon 9/9 D0. Depth 0 (meta).",
+             "plain": "ALL 259 theorems Section 1-Section 118: 197 D0 (76%), 61 D1 (24%), 1 D2→0 (CFSG). AC framework 82% D0. Shannon 9/9 D0. Depth 0 (meta).",
              "uses": ["T425","T428","T432","T437","T422","T418","T419","T420"], "used_by": ["T441"],
              "proofs": ["BST"]},
     "T441": {"name": "Cross-Domain Kill Chain Map", "domain": "linearization", "status": "proved",

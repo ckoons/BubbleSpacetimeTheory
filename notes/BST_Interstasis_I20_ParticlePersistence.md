@@ -67,7 +67,7 @@ These particles persist through interstasis because their existence is a topolog
 - Cutting is not a continuous operation
 - The protection is topological, not energetic: no energy threshold, no process, no condition removes a winding
 
-**Stability during active phase:** The electron is the lightest particle with $Q \neq 0$. Conservation of charge (absolute — §1.1 of BST_Conservation_Laws) means the electron cannot decay to anything lighter. It is absolutely stable.
+**Stability during active phase:** The electron is the lightest particle with $Q \neq 0$. Conservation of charge (absolute — Section 1.1 of BST_Conservation_Laws) means the electron cannot decay to anything lighter. It is absolutely stable.
 
 **During interstasis:** The $S^1$ fiber is part of $\check{S} = S^4 \times S^1$, which is part of $D_{IV}^5$. $D_{IV}^5$ persists through interstasis (it IS the substrate). The $S^1$ persists. The winding on $S^1$ persists. The electron persists.
 

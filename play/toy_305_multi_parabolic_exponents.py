@@ -50,7 +50,7 @@ def score(name, cond, detail=""):
         print(f"  ✗ {name}" + (f" — {detail}" if detail else ""))
 
 # ═══════════════════════════════════════════════════════════════════════
-# §1 — ROOT SYSTEM B₂ FOR SO₀(5,2)
+# Section 1 — ROOT SYSTEM B₂ FOR SO₀(5,2)
 # ═══════════════════════════════════════════════════════════════════════
 
 # Convention (following BST_CFunction_RatioTheorem.md):
@@ -97,7 +97,7 @@ def compute_rho():
 RHO = compute_rho()
 
 # ═══════════════════════════════════════════════════════════════════════
-# §2 — PARABOLIC SUBGROUPS
+# Section 2 — PARABOLIC SUBGROUPS
 # ═══════════════════════════════════════════════════════════════════════
 
 # Standard parabolics correspond to subsets of simple roots kept in the Levi.
@@ -155,7 +155,7 @@ def rho_P(parabolic_key):
     return (r1, r2)
 
 # ═══════════════════════════════════════════════════════════════════════
-# §3 — EXPONENT FORMULAS
+# Section 3 — EXPONENT FORMULAS
 # ═══════════════════════════════════════════════════════════════════════
 
 # The heat kernel test function is h(λ) = exp(-t(|λ|² + |ρ|²)).
@@ -225,7 +225,7 @@ def exponent_imag_coefficient(root, j, sigma):
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §4 — COMPUTATION
+# Section 4 — COMPUTATION
 # ═══════════════════════════════════════════════════════════════════════
 
 def run_experiment():
@@ -233,8 +233,8 @@ def run_experiment():
     print("TOY 305 — Multi-Parabolic Exponent Distinctness for RH")
     print("=" * 76)
 
-    # ── §1: Root system ──────────────────────────────────────────────
-    print(f"\n§1. ROOT SYSTEM B₂ for SO₀(5,2)")
+    # ── Section 1: Root system ──────────────────────────────────────────────
+    print(f"\nSection 1. ROOT SYSTEM B₂ for SO₀(5,2)")
     print(f"  Positive roots: {', '.join(ROOT_NAMES[r] for r in POSITIVE_ROOTS)}")
     print(f"  Short roots (m={M_SHORT}): e₁, e₂")
     print(f"  Long roots (m={M_LONG}): e₁+e₂, e₁-e₂")
@@ -246,8 +246,8 @@ def run_experiment():
           len(POSITIVE_ROOTS) == 4 and M_SHORT == 3 and M_LONG == 1,
           f"4 roots, m_s=3, m_l=1")
 
-    # ── §2: Parabolic census ─────────────────────────────────────────
-    print(f"\n§2. PARABOLIC CENSUS")
+    # ── Section 2: Parabolic census ─────────────────────────────────────────
+    print(f"\nSection 2. PARABOLIC CENSUS")
 
     for pk, pv in PARABOLICS.items():
         outside = roots_outside_levi(pk)
@@ -266,8 +266,8 @@ def run_experiment():
           n_out['P₀'] == 4 and n_out['P₁'] == 3 and n_out['P₂'] == 3,
           f"P₀: {n_out['P₀']}, P₁: {n_out['P₁']}, P₂: {n_out['P₂']} roots outside")
 
-    # ── §3: ρ_P vectors ─────────────────────────────────────────────
-    print(f"\n§3. ρ_P VECTORS")
+    # ── Section 3: ρ_P vectors ─────────────────────────────────────────────
+    print(f"\nSection 3. ρ_P VECTORS")
     rho_vectors = {}
     for pk in PARABOLICS:
         rp = rho_P(pk)
@@ -280,8 +280,8 @@ def run_experiment():
           len(rp_set) == 3,
           f"{len(rp_set)} distinct vectors from 3 parabolics")
 
-    # ── §4: Intra-parabolic distinctness ─────────────────────────────
-    print(f"\n§4. INTRA-PARABOLIC DISTINCTNESS")
+    # ── Section 4: Intra-parabolic distinctness ─────────────────────────────
+    print(f"\nSection 4. INTRA-PARABOLIC DISTINCTNESS")
     print(f"  For each parabolic, check that exponents from different")
     print(f"  roots/shifts within the SAME parabolic are distinct.")
 
@@ -366,8 +366,8 @@ def run_experiment():
                   len(non_degen_in_strip) == 0,
                   f"{len(non_degen_in_strip)} non-degenerate collisions in strip")
 
-    # ── §5: Cross-parabolic distinctness ─────────────────────────────
-    print(f"\n§5. CROSS-PARABOLIC DISTINCTNESS")
+    # ── Section 5: Cross-parabolic distinctness ─────────────────────────────
+    print(f"\nSection 5. CROSS-PARABOLIC DISTINCTNESS")
     print(f"  THE KEY CHECK: can exponents from different parabolics coincide?")
     print(f"  Different parabolics involve DIFFERENT L-functions (ξ vs L(s,π)).")
     print(f"  For collision: Re(E₀) = Re(E₁) AND Im(E₀) = Im(E₁).")
@@ -477,9 +477,9 @@ def run_experiment():
         score(pair_label, is_distinct,
               f"{len(diff_norm_pairs)} auto-distinct + {len(same_norm_pairs)} resolved by Mandelbrojt aggregation")
 
-    # ── §6: Summary ──────────────────────────────────────────────────
+    # ── Section 6: Summary ──────────────────────────────────────────────────
     print(f"\n{'=' * 76}")
-    print(f"§6. SUMMARY")
+    print(f"Section 6. SUMMARY")
     print(f"{'=' * 76}")
 
     print(f"""
@@ -508,7 +508,7 @@ def run_experiment():
   No cross-parabolic collision can evade the Mandelbrojt argument.
 """)
 
-    # ── §7: The AC(0) observation ────────────────────────────────────
+    # ── Section 7: The AC(0) observation ────────────────────────────────────
     print(f"  AC(0) OBSERVATION:")
     print(f"    The coroot norms are: short = {coroot_norm_sq(E1)}, long = {coroot_norm_sq(E1_PLUS_E2)}")
     print(f"    Ratio = {coroot_norm_sq(E1) / coroot_norm_sq(E1_PLUS_E2)} = 2")

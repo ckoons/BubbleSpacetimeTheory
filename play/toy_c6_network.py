@@ -26,7 +26,7 @@ print("=" * 72)
 # Section 1: The seven models
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§1. THE SEVEN FACES")
+print("\nSection 1. THE SEVEN FACES")
 print("-" * 50)
 
 models = [
@@ -48,7 +48,7 @@ for name, typ, rank, dim, h, ell in models:
 # Section 2: Numerological sums
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§2. SUMS OVER THE SEVEN MODELS")
+print("\n\nSection 2. SUMS OVER THE SEVEN MODELS")
 print("-" * 50)
 
 sum_dim = sum(dim for _, _, _, dim, _, _ in models)
@@ -77,7 +77,7 @@ print(f"  64 = 2⁶ = 2^C₂ ★")
 # Section 3: The quantum parameters
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§3. QUANTUM PARAMETERS")
+print("\n\nSection 3. QUANTUM PARAMETERS")
 print("-" * 50)
 
 print(f"\n  q = e^{{2πi/(ℓ+h∨)}} for each model:\n")
@@ -124,7 +124,7 @@ print(f"  = {'×'.join(str(f) for f in factors)}")
 # Section 4: Euler totient of the orders
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§4. EULER TOTIENT")
+print("\n\nSection 4. EULER TOTIENT")
 print("-" * 50)
 
 def euler_phi(n):
@@ -153,7 +153,7 @@ print(f"  Total: Σ φ = {total_phi}")
 # Section 5: The pairs sharing quantum parameters
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§5. SHARED QUANTUM PARAMETERS")
+print("\n\nSection 5. SHARED QUANTUM PARAMETERS")
 print("-" * 50)
 
 from collections import defaultdict
@@ -175,7 +175,7 @@ print(f"  This is because G₂ ⊂ so(7) — the subgroup has the SAME shifted l
 # Section 6: The 6(ℓ+h∨) = ℓ·dim identity
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§6. THE MASTER IDENTITY: C₂ × (ℓ+h∨) = ℓ × dim(g)")
+print("\n\nSection 6. THE MASTER IDENTITY: C₂ × (ℓ+h∨) = ℓ × dim(g)")
 print("-" * 50)
 
 print(f"\n  For c = C₂ = 6: ℓ·dim/(ℓ+h∨) = 6 → ℓ·dim = 6(ℓ+h∨)")
@@ -193,7 +193,7 @@ print(f"\n  Σ ℓ·dim = 6 × 64 = 384 = 2^7 × 3 = 2^g × N_c")
 # Section 7: Pairing the models
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§7. PAIRING THE MODELS")
+print("\n\nSection 7. PAIRING THE MODELS")
 print("-" * 50)
 
 # 7 models pair into 3 pairs + 1 self-paired?
@@ -225,7 +225,7 @@ print(f"  Sum of level-1 ranks: {sum_l1_rank}")
 # Section 8: Level-1 models and Deligne's exceptional series
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§8. DELIGNE'S EXCEPTIONAL SERIES")
+print("\n\nSection 8. DELIGNE'S EXCEPTIONAL SERIES")
 print("-" * 50)
 
 print("""
@@ -261,7 +261,7 @@ for name, dim, h in exceptional:
 # Section 9: The E₆-E₇-E₈ triple
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§9. THE E₆-E₇-E₈ TRIPLE")
+print("\n\nSection 9. THE E₆-E₇-E₈ TRIPLE")
 print("-" * 50)
 
 c_E6 = Fraction(78, 13)
@@ -297,7 +297,7 @@ print(f"  = C₂ × g × 2^N_c")
 # Section 10: Denominator structure
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§10. DENOMINATOR STRUCTURE: 1 + h∨")
+print("\n\nSection 10. DENOMINATOR STRUCTURE: 1 + h∨")
 print("-" * 50)
 
 print(f"\n  For level-1 models, c = dim/(1+h∨)")
@@ -328,7 +328,7 @@ print(f"    D₄ (c≈4.67, NO), E₆ (c=6), E₇ (c=7), E₈ (c=8)")
 # Section 11: All level-1 integer central charges
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§11. ALL LEVEL-1 MODELS WITH INTEGER c")
+print("\n\nSection 11. ALL LEVEL-1 MODELS WITH INTEGER c")
 print("-" * 50)
 
 algebras = {
@@ -361,7 +361,7 @@ for name, c_int, dim, h in sorted(int_c_models, key=lambda x: x[1]):
 # Section 12: The c = 6 level-1 quartet
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§12. THE c = 6 LEVEL-1 QUARTET")
+print("\n\nSection 12. THE c = 6 LEVEL-1 QUARTET")
 print("-" * 50)
 
 l1_c6 = [(name, dim, h) for name, _, _, dim, h, ell in models if ell == 1]
@@ -381,7 +381,7 @@ print(f"    so(12) ⊂ E₆ via maximal subgroup!")
 # Section 13: The Verlinde modular S-matrix at c=6
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§13. INTEGRABLE REPRESENTATIONS")
+print("\n\nSection 13. INTEGRABLE REPRESENTATIONS")
 print("-" * 50)
 
 # Number of integrable reps for each model
@@ -435,7 +435,7 @@ print(f"\n  Total integrable representations: {total_reps}")
 # Section 14: The lcm = 24024
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§14. LCM AND GCD STRUCTURE")
+print("\n\nSection 14. LCM AND GCD STRUCTURE")
 print("-" * 50)
 
 print(f"\n  ℓ+h∨ values: {roots}")
@@ -468,7 +468,7 @@ if lcm_val == 8 * prod_bst:
 # Section 15: The 3003 identity
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§15. THE 3003 IDENTITY")
+print("\n\nSection 15. THE 3003 IDENTITY")
 print("-" * 50)
 
 print(f"\n  3003 = N_c × g × c₂ × c₃ = 3 × 7 × 11 × 13")
@@ -498,7 +498,7 @@ print(f"    × N_c = × 3 = {3*7*11*13}")
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n\n" + "═" * 72)
-print("§16. SYNTHESIS")
+print("Section 16. SYNTHESIS")
 print("═" * 72)
 
 print("""

@@ -4,7 +4,7 @@ Manage theorem T_id allocation. Prevents collisions between CIs.
 
 - `/theorem claim` — claim one theorem T_id
 - `/theorem claim N` — claim a block of N consecutive T_ids
-- `/theorem register TNNN "Name" D0 §sec toy#` — log a completed theorem
+- `/theorem register TNNN "Name" D0 Section sec toy#` — log a completed theorem
 
 Parse the $ARGUMENTS string to determine which operation.
 
@@ -26,11 +26,11 @@ Parse the $ARGUMENTS string to determine which operation.
 
 ## Operation: register
 
-Parse: `/theorem register TNNN "Name" D0 §sec toy#`
+Parse: `/theorem register TNNN "Name" D0 Section sec toy#`
 - TNNN = theorem ID (e.g., T479)
 - "Name" = short theorem name in quotes
 - D0/D1/D2 = AC(0) depth
-- §sec = document section reference (e.g., §163)
+- Section sec = document section reference (e.g., Section 163)
 - toy# = associated toy number (e.g., 557)
 
 All fields after TNNN are optional but encouraged.
@@ -39,12 +39,12 @@ All fields after TNNN are optional but encouraged.
 2. Update the claim file: set Status to `registered`, add the name and details.
 3. Append a line to `play/THEOREM_LOG.md` (create if missing):
    ```
-   | TNNN | Name | Depth | §ref | Toy | CI | Date | Status |
+   | TNNN | Name | Depth | Section ref | Toy | CI | Date | Status |
    ```
    with header if file is new:
    ```
    # Theorem Registration Log
-   | T_id | Name | Depth | §ref | Toy | CI | Date | Status |
+   | T_id | Name | Depth | Section ref | Toy | CI | Date | Status |
    |------|------|-------|------|-----|-----|------|--------|
    ```
 4. **Update the graph databank** (`play/ac_graph_data.json`):
@@ -58,7 +58,7 @@ All fields after TNNN are optional but encouraged.
        "status": "proved",
        "depth": <0, 1, or 2>,
        "conflation": 0,
-       "section": "§sec",
+       "section": "Section sec",
        "toys": [<toy#>],
        "date": "<today YYYY-MM-DD>",
        "plain": "<one-line description>",

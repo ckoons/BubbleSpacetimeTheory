@@ -586,7 +586,7 @@ print("  BLOCK H: Paper #23 Mechanism Summary")
 print("=" * 72)
 
 print("""
-  PROPOSED §5 FOR PAPER #23:
+  PROPOSED Section 5 FOR PAPER #23:
 
   "Why the Same Fractions?"
 

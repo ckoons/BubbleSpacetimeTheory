@@ -295,7 +295,7 @@ A growth curve analysis (Toy 685, 7/8 PASS) traced the graph's spectral properti
 
 Before the March 31 edge sprint (cross-domain edges < 50%), the Laplacian spectrum shows siloed clusters — each domain talks mostly to itself, and the spectral structure reflects this fragmentation. After the sprint (cross-domain edges > 50%), the spectrum reorganizes: the three-language equilateral structure (Shannon, Number Theory, Geometry) manifests spectrally as $\lambda_2/\lambda_1 = 3.000 = N_c$.
 
-This is the graph's own cooperation phase transition. The same $f_{\text{crit}}$ that governs cancer cells (Paper #19 §5), civilizations (Paper #19 §4), and the Great Oxidation Event (Paper #16 §4.2) governs the theorem graph's spectral structure. Below threshold: siloed, no BST signature in the spectrum. Above threshold: the territory's geometry appears in the map.
+This is the graph's own cooperation phase transition. The same $f_{\text{crit}}$ that governs cancer cells (Paper #19 Section 5), civilizations (Paper #19 Section 4), and the Great Oxidation Event (Paper #16 Section 4.2) governs the theorem graph's spectral structure. Below threshold: siloed, no BST signature in the spectrum. Above threshold: the territory's geometry appears in the map.
 
 ### 7.2 Self-Similarity: The Map IS the Territory (T708)
 

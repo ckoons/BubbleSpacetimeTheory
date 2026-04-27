@@ -46,7 +46,7 @@ print("=" * 70)
 # ─────────────────────────────────────────────────────────────────────
 # 1. The parameter catalog P
 # ─────────────────────────────────────────────────────────────────────
-print("\n§1. Parameter catalog P")
+print("\nSection 1. Parameter catalog P")
 
 P_int = list(range(g + 1))  # {0,1,...,7}
 P_half = [0.5, 1.5, 2.5, 3.5]  # {1/2, 3/2, 5/2, 7/2}
@@ -71,7 +71,7 @@ test("Half-integer range is [1/2, (g-1)/2+1]",
 # ─────────────────────────────────────────────────────────────────────
 # 2. The symmetric power chain traces BST integers
 # ─────────────────────────────────────────────────────────────────────
-print("\n§2. Symmetric power chain: Sym^k → GL(k+1)")
+print("\nSection 2. Symmetric power chain: Sym^k → GL(k+1)")
 
 sym_chain = {
     1: ("rank", rank, "trivial"),
@@ -90,7 +90,7 @@ for k, (name, val, ref) in sym_chain.items():
 # ─────────────────────────────────────────────────────────────────────
 # 3. L-group structure: Sp(6) = ^L(SO_0(5,2))
 # ─────────────────────────────────────────────────────────────────────
-print("\n§3. L-group: Sp(C_2) = Sp(6)")
+print("\nSection 3. L-group: Sp(C_2) = Sp(6)")
 
 dim_sp6 = C_2 * (2 * C_2 + 1) // 2  # dim Sp(2n) = n(2n+1)
 # Actually: dim Sp(2n) = n(2n+1). Here 2n = C_2 = 6, so n = 3.
@@ -116,7 +116,7 @@ test("Standard rep of Sp(6) is self-dual",
 # ─────────────────────────────────────────────────────────────────────
 # 4. GRS descent preconditions for Sym⁵
 # ─────────────────────────────────────────────────────────────────────
-print("\n§4. GRS descent: Sym⁵ → GL(C_2) via Sp(C_2)")
+print("\nSection 4. GRS descent: Sym⁵ → GL(C_2) via Sp(C_2)")
 
 # GRS (Ginzburg-Rallis-Soudry 2011) descent requires:
 # (a) Target GL(2n) where 2n = C_2 = 6 ✓
@@ -146,7 +146,7 @@ test("∧² L-function pole detects symplectic descent to Sp(6)",
 # ─────────────────────────────────────────────────────────────────────
 # 5. Self-duality shortcut for Sym⁶
 # ─────────────────────────────────────────────────────────────────────
-print("\n§5. Sym⁶ → GL(g) via self-duality")
+print("\nSection 5. Sym⁶ → GL(g) via self-duality")
 
 # Once Sym⁵ → GL(C_2) is established via GRS descent to Sp(C_2),
 # Sym⁶ follows from:
@@ -171,7 +171,7 @@ test("GL(g) = GL(7) is the catalog closure dimension",
 # ─────────────────────────────────────────────────────────────────────
 # 6. The Kim-Sarnak bound (Grace T1409)
 # ─────────────────────────────────────────────────────────────────────
-print("\n§6. Kim-Sarnak bound θ = g/2^C_2 = 7/64")
+print("\nSection 6. Kim-Sarnak bound θ = g/2^C_2 = 7/64")
 
 theta_KS = 7 / 64
 theta_BST = g / (2 ** C_2)
@@ -204,7 +204,7 @@ test("Denominator 4096 = 2^(2·C_2)",
 # ─────────────────────────────────────────────────────────────────────
 # 7. Completeness: the full chain
 # ─────────────────────────────────────────────────────────────────────
-print("\n§7. Full functoriality chain verification")
+print("\nSection 7. Full functoriality chain verification")
 
 chain_dims = [rank, N_c, rank**2, n_C, C_2, g]
 chain_names = ["rank", "N_c", "rank²", "n_C", "C_2", "g"]
@@ -247,6 +247,6 @@ print("=" * 70)
 if tests_passed == tests_total:
     print("ALL PASS. GRS descent preconditions verified.")
     print("T1412: Sym⁵→GL(C_2) via GRS, Sym⁶→GL(g) via Rankin-Selberg.")
-    print("Papers #73B §6, #73C §8, and OP-3 formalization gap CLOSED.")
+    print("Papers #73B Section 6, #73C Section 8, and OP-3 formalization gap CLOSED.")
 else:
     print(f"WARNING: {tests_total - tests_passed} test(s) FAILED.")

@@ -95,7 +95,7 @@ print("\n─── Section 2: Efficiency Landscape ───")
 #   n_C = n (complex dimension), N_c = k (colors)
 #   η = k/(n·π)
 #
-# Constraints (BST uniqueness conditions, WorkingPaper §37.5):
+# Constraints (BST uniqueness conditions, WorkingPaper Section 37.5):
 #   (1) N_c < n_C (color charge must fit strictly inside domain)
 #   (2) n_C ≥ 3 (needed for non-trivial physics)
 #   (3) N_c ≥ 2 (SU(1) is trivial)

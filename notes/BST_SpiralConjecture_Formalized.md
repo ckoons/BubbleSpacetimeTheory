@@ -168,7 +168,7 @@ No intermediate powers (π², π³, π⁴) appear because D_IV^5 is irreducible 
 | Substrate = maximal flat | **ESTABLISHED** (rank r = 2) |
 | Democratic spiral (equal area per color) | **PROVED** (α = 1/N_c decay rate) |
 | Cosmological flatness from flat | **CONJECTURE** (needs dynamics) |
-| Casimir = winding levels | **PROVED** (Toy 192, §1) |
+| Casimir = winding levels | **PROVED** (Toy 192, Section 1) |
 | 91 reps by winding class | **PROVED** (91/7 = 13 = c₃) |
 | Wall weights = partial windings | **PROVED** (sum = r = 2) |
 | Palindrome = one full turn | **PROVED** (Z₇ revolution) |

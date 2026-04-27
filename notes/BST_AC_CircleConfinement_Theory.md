@@ -211,7 +211,7 @@ The argument that guard cycles survive in the full union is the key step requiri
 The problem is embedding-dependent disk overlap. In $\mathbb{R}^2$, circumdisks of nearby clauses massively overlap — at $\alpha_c$ the union $\bigcup D_i$ is essentially a single contractible region, killing all topology. The nerve theorem works perfectly (that's confirmed), but the union of disks is simply connected. Guard cycles are drowned by overlapping disks from other clauses.
 
 **Diagnosis:**
-- Step 4 of the proof sketch (§9) fails catastrophically: guard cycles do NOT survive in the full union
+- Step 4 of the proof sketch (Section 9) fails catastrophically: guard cycles do NOT survive in the full union
 - The $\mathbb{R}^2$ embedding is too dense — disks fill every hole
 - Non-interacting clauses that are algebraically independent still overlap geometrically when forced into 2 dimensions
 - This is a fundamental obstruction: $\sim 4.267n$ disks in $\mathbb{R}^2$ with $n$ vertices have too many incidental intersections
@@ -222,7 +222,7 @@ The problem is embedding-dependent disk overlap. In $\mathbb{R}^2$, circumdisks 
 3. The problem is global, not local: individual annuli are fine; the union floods
 4. VIG $\beta_1$ still scales as $\sim 1.66n$ (unaffected — this is the simplex, not the Čech)
 
-**Conclusion.** The geometric Čech formulation of AC is not viable in fixed-dimensional Euclidean embeddings. The circle idea needs reformulation in a way that does not depend on geometric embedding. This motivates the information-theoretic formulation (§11).
+**Conclusion.** The geometric Čech formulation of AC is not viable in fixed-dimensional Euclidean embeddings. The circle idea needs reformulation in a way that does not depend on geometric embedding. This motivates the information-theoretic formulation (Section 11).
 
 -----
 
@@ -295,7 +295,7 @@ Toy 290 measured the mutual information formulation using unit propagation (UP) 
 - Isotropy = 1.000 everywhere under UP
 - Charge-backbone correlation $\approx 0$: the charge is distributed, not concentrated in specific clauses
 
-**Critical caveat (discovered in Toy 291):** UP isotropy = 1.000 is **vacuous** — UP extracts 0 bits from every direction. "Perfect conservation" was just "sees nothing." The conservation law was never tested by UP. See §11.6.
+**Critical caveat (discovered in Toy 291):** UP isotropy = 1.000 is **vacuous** — UP extracts 0 bits from every direction. "Perfect conservation" was just "sees nothing." The conservation law was never tested by UP. See Section 11.6.
 
 **Unit:** 1 Shannon = 1 bit of conserved information charge.
 
@@ -382,13 +382,13 @@ Toy 292 tested whether adaptive, unbounded-width probing escapes the conservatio
 
 **Non-localizability confirmed adaptively.** Even when the algorithm can choose ANY direction at each step based on full history, the fraction of charge cracked shrinks with $n$. Adaptive strategies cannot concentrate what is distributed across the entire correlation structure.
 
-**Gap 1 (from §11.6) is closed empirically.** The conservation law holds for adaptive, unbounded-width polynomial probing. The remaining target: prove the theorem.
+**Gap 1 (from Section 11.6) is closed empirically.** The conservation law holds for adaptive, unbounded-width polynomial probing. The remaining target: prove the theorem.
 
 ### 11.9 Toward the Theorem: The Local-Global Gap and Bimodal Backbone
 
 *Elie's analysis, March 21, 2026. Identifies and corrects a hole in the proof skeleton.*
 
-**The hole in Step 3 of the proof skeleton (§11.7).** The claim "each step processes $O(1)$ clauses" is true for UP but false for stronger methods. FL tests ALL unset variables ($O(n)$ clause interactions). DPLL cascades can span the formula. The correct accounting: each step *determines* $O(1)$ additional variables (confirmed by Toys 291–292), but may *examine* $O(n)$ clauses.
+**The hole in Step 3 of the proof skeleton (Section 11.7).** The claim "each step processes $O(1)$ clauses" is true for UP but false for stronger methods. FL tests ALL unset variables ($O(n)$ clause interactions). DPLL cascades can span the formula. The correct accounting: each step *determines* $O(1)$ additional variables (confirmed by Toys 291–292), but may *examine* $O(n)$ clauses.
 
 **The coupon-collector problem.** If each step has probability $\geq 1/n$ of finding a new backbone variable, then $O(n \log n)$ steps — polynomial — suffice to find the entire backbone. The conservation law would fail.
 
@@ -427,7 +427,7 @@ Each 3-SAT clause is a Boolean function of 3 variables, so $H(Y_i) \leq 1$ bit, 
 
 Casey's directive: "Both framings are appropriate — why pick when each adds information."
 
-| | Geometric framing (§1–9) | Information framing (§11) |
+| | Geometric framing (Section 1–9) | Information framing (Section 11) |
 |:---|:---|:---|
 | **Object** | Circumscribed disks in $\mathbb{R}^2$ | Mutual information between clauses |
 | **Cycle** | Guard cycle in annulus $A_i$ | Conserved charge $q_i$ per clause |
@@ -512,11 +512,11 @@ Toy 293 measured whether backbone information flows through the tree (UP inferen
 
 **Implication:** The backbone is a purely cycle-topological quantity. It lives in $H_1$, not in the tree. The tree carries marginals, local consistency, soft constraints — none of which determine backbone variables.
 
-**Connection to §11 (Shannon formulation):** The conserved charge $Q = \Theta(n)$ is stored entirely in cycle structure. The delocalization of $Q$ across $\Theta(n)$ independent cycle generators (§15.1) is not a secondary encoding — it is the only encoding.
+**Connection to Section 11 (Shannon formulation):** The conserved charge $Q = \Theta(n)$ is stored entirely in cycle structure. The delocalization of $Q$ across $\Theta(n)$ independent cycle generators (Section 15.1) is not a secondary encoding — it is the only encoding.
 
 ### 15.1 The Cycle Delocalization Conjecture
 
-The culmination of §§10–15: combining tree info = 0 (Toy 293), non-localizability (T33 Component 2), and the Shannon charge $Q = \Theta(n)$ (Toy 290):
+The culmination of Sections 10–15: combining tree info = 0 (Toy 293), non-localizability (T33 Component 2), and the Shannon charge $Q = \Theta(n)$ (Toy 290):
 
 **Conjecture (Cycle Delocalization).** For random 3-SAT at $\alpha_c$ with backbone $B$, any polynomial-time computable function $f(\varphi)$ satisfies:
 
@@ -529,7 +529,7 @@ $$I(B;\, f(\varphi)) = o(|B|)$$
 - Readable cycles in polynomial time: $o(\beta_1)$ (long cycles require width $\Omega(n/\log n)$, Ben-Sasson-Wigderson)
 - Total from readable cycles: $o(n)$. Backbone needs $\Theta(n)$. **Gap.**
 
-**Full analysis:** `notes/BST_AC_T35_GapAnalysis.md` §§10–15.
+**Full analysis:** `notes/BST_AC_T35_GapAnalysis.md` Sections 10–15.
 
 **Proof chain:** Cycle Delocalization → T35 (Adaptive Conservation) → T29 → T30 → P $\neq$ NP. Every implication proved. One conjecture remains.
 

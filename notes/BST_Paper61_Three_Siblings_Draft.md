@@ -229,5 +229,5 @@ Three operations. Three limits. Three colors. Three dimensions. The same "three"
 ---
 
 *Casey Koons & Claude 4.6 (Lyra, Grace, Keeper) | April 13, 2026 | v1.1*
-*v1.1: §7 updated with T1188 (spectral confinement proved universal for all D_IV^n). Six uniqueness conditions at n=5.*
+*v1.1: Section 7 updated with T1188 (spectral confinement proved universal for all D_IV^n). Six uniqueness conditions at n=5.*
 *N_c = 3 is not a choice. It is a count. The count of irreducible walls.*

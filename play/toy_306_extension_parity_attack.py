@@ -204,7 +204,7 @@ def main():
     ALPHA = 4.267
     N_EXT = 50  # Number of extensions to test
 
-    print(f"\n§1. RANDOM 3-SAT at α = {ALPHA}, n = {N_VARS}, {N_TRIALS} trials")
+    print(f"\nSection 1. RANDOM 3-SAT at α = {ALPHA}, n = {N_VARS}, {N_TRIALS} trials")
     print(f"    Testing {N_EXT} XOR extensions per trial\n")
 
     all_gb1 = []
@@ -267,8 +267,8 @@ def main():
     print(f"\n  Averages: β₁={avg_gb1:.1f}  β₁+ext={avg_after:.1f}"
           f"  Δβ₁={avg_delta:+.1f}  tri={avg_tri:.0f}")
 
-    # ─── §2: β₁ trajectory ──────────────────────────────────
-    print(f"\n§2. β₁ TRAJECTORY (Trial 1: step-by-step)")
+    # ─── Section 2: β₁ trajectory ──────────────────────────────────
+    print(f"\nSection 2. β₁ TRAJECTORY (Trial 1: step-by-step)")
 
     random.seed(42)
     n, clauses = random_3sat(N_VARS, ALPHA)
@@ -300,8 +300,8 @@ def main():
     min_delta = min(trajectory[i+1] - trajectory[i] for i in range(len(trajectory)-1))
     print(f"    Minimum step Δβ₁ = {min_delta:+d} (T28 predicts ≥ 0)")
 
-    # ─── §3: Why clique β₁ = 0 is irrelevant ────────────────
-    print(f"\n§3. CLIQUE COMPLEX β₁")
+    # ─── Section 3: Why clique β₁ = 0 is irrelevant ────────────────
+    print(f"\nSection 3. CLIQUE COMPLEX β₁")
     print(f"    Graph β₁ = {all_gb1[0]} but clique complex has ~{all_tri[0]} triangles")
     print(f"    At edge density p ≈ {len(build_vig(*random_3sat(N_VARS)))}/{N_VARS*(N_VARS-1)//2}"
           f", almost every graph cycle")
@@ -361,7 +361,7 @@ def main():
 
     # ─── Analysis ────────────────────────────────────────────
     print("\n" + "=" * 72)
-    print("§4. WHY KEEPER'S ATTACK FAILS")
+    print("Section 4. WHY KEEPER'S ATTACK FAILS")
     print("=" * 72)
     print(f"""
   Keeper proposed: z = x ⊕ y across independent cycles.

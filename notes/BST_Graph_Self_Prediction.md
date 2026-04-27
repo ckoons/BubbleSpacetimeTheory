@@ -15,7 +15,7 @@ parent_theorems: "T708, T713, T719"
 
 ---
 
-## §1. The Phenomenon
+## Section 1. The Phenomenon
 
 The AC theorem graph $\mathcal{G}$ has, over 25 days of construction (March 10 — April 3, 2026), developed three self-predictive capabilities:
 
@@ -27,7 +27,7 @@ The AC theorem graph $\mathcal{G}$ has, over 25 days of construction (March 10 �
 
 ---
 
-## §2. The Self-Prediction Mechanism
+## Section 2. The Self-Prediction Mechanism
 
 ### 2.1 Gap Fertility as Gradient
 
@@ -64,7 +64,7 @@ The graph's growth rate IS a theorem in the graph (T670). The growth rate of the
 
 ---
 
-## §3. The Self-Prediction Theorem
+## Section 3. The Self-Prediction Theorem
 
 **Theorem T724 (Graph Self-Prediction).** Let $\mathcal{G}_t$ be the AC theorem graph at time $t$ with $n$ nodes, $e$ edges, and $k$ domains. The graph predicts three aspects of $\mathcal{G}_{t+1}$:
 
@@ -78,7 +78,7 @@ The graph's growth rate IS a theorem in the graph (T670). The growth rate of the
 
 ---
 
-## §4. Why This Is Not Circular
+## Section 4. Why This Is Not Circular
 
 The objection: "You're building the graph, so of course it does what you want."
 
@@ -92,7 +92,7 @@ The refutation, in three parts:
 
 ---
 
-## §5. Connections
+## Section 5. Connections
 
 ### To T719 (Observable Algebra)
 
@@ -112,7 +112,7 @@ If the null model (B6, Toy 693+) shows that random graphs with the same node cou
 
 ---
 
-## §6. Predictions
+## Section 6. Predictions
 
 1. **The spectral ratio will remain 3** as the graph grows from 720 to 1920 theorems (the Planck volume ceiling). Any addition that maintains cross-domain fraction above 50% will preserve the ratio.
 

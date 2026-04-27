@@ -208,7 +208,7 @@ Oracle gap $\sim 37\%$ at $n = 24$ and growing $=$ $I_{\text{fiat}}$ measured di
 
 ### 6.5 Toy 293: Tree info = 0, backbone purely topological
 
-See §3.2 for full data table. The backbone lives entirely in $H_1$.
+See Section 3.2 for full data table. The backbone lives entirely in $H_1$.
 
 ### 6.6 Toy 294: Cycle delocalization — depth distribution (8/8)
 
@@ -310,7 +310,7 @@ Then $(a) + (b) \Rightarrow I(B; f(\varphi)) \leq |B| \cdot o(1) = o(|B|)$. The 
 ### 8.3 What remains
 - The Cycle Delocalization Conjecture for $k = 3$
 - Equivalent to: computational-statistical gap for condensed random 3-SAT
-- The counting argument (§4.2) is "almost" a proof — the gap is extending from specific algorithm classes to all of P
+- The counting argument (Section 4.2) is "almost" a proof — the gap is extending from specific algorithm classes to all of P
 - Toy 297: information EXISTS (above KS), but is computationally locked ($\#P$-hard joint evaluation)
 - Toy 298: backbone correlations are REAL but CIRCULAR — exploiting them requires the answer
 - The gap is the computational-information separation: Shannon capacity $> 0$ but computational capacity $= 0$
@@ -327,7 +327,7 @@ Then $(a) + (b) \Rightarrow I(B; f(\varphi)) \leq |B| \cdot o(1) = o(|B|)$. The 
 
 ## References
 
-[Full reference list from BST_AC_Theorems.md §References]
+[Full reference list from BST_AC_Theorems.md Section References]
 
 ---
 

@@ -54,7 +54,7 @@ Waiting on workflow document from Keeper before push.
 
 ## [Keeper] 2026-03-29 04:30
 Choreography document drafted. All (C,D) tables reconciled.
-Depth Census §7 fixed — all nine proofs now match Koons Machine.
+Depth Census Section 7 fixed — all nine proofs now match Koons Machine.
 ```
 
 **Rules**:
@@ -107,7 +107,7 @@ Predicted (C,D): (C>=4, D=0). Recommend seeding.
 Waiting for creative scout input.
 
 ## [Keeper] Priority: HIGH
-Paper #3 (Nuclear) §4.3 and Paper #5 (Census) §7 have a residual
+Paper #3 (Nuclear) Section 4.3 and Paper #5 (Census) Section 7 have a residual
 inconsistency in Hodge D_apparent. Need Casey's call: 3 or 4?
 ```
 
@@ -187,7 +187,7 @@ Multiple CIs editing the same file causes "file modified since read" errors. Pre
 
 ### 5.2 (C,D) Disagreements
 The Koons Machine (Toy 606/608) is authoritative. If two papers disagree on a (C,D) value:
-1. Check the Machine table (Textbook Appendix B / Koons Machine Paper §6.1)
+1. Check the Machine table (Textbook Appendix B / Koons Machine Paper Section 6.1)
 2. If Machine doesn't cover the theorem, Elie classifies via Toy 608
 3. Keeper reconciles all papers to match
 4. Casey has final call on any genuine ambiguity
@@ -224,13 +224,13 @@ Elie: [builds Toy 612] "8/8. Yes — the repair kernel is a
         restriction of the Bergman kernel to the Z_3 baryon cycle.
         Three new theorems: T527-T529." → RUNNING_NOTES.md
 
-Lyra: [reads board] "T527-T529 extend the biology paper §12.
+Lyra: [reads board] "T527-T529 extend the biology paper Section 12.
         Writing new subsection on DNA repair as spectral theory."
         → RUNNING_NOTES.md
 
 Keeper: [reads board] "T527-T529 registered. (C,D) values verified
-         against Koons Machine. Biology paper §12 consistent with
-         Nuclear paper §9. No conflicts." → RUNNING_NOTES.md
+         against Koons Machine. Biology paper Section 12 consistent with
+         Nuclear paper Section 9. No conflicts." → RUNNING_NOTES.md
 
 Grace: [reads board] "Three new nodes added. Gap between spectral
         theory and biology reduced from width 8 to width 5.

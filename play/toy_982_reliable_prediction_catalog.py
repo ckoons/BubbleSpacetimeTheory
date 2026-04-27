@@ -9,7 +9,7 @@ Operationalizes Toy 981's finding: 158/182 predictions are "reliable"
 catalog of BST predictions with sector assignments, confidence tiers,
 and nearest known observables.
 
-This directly supports Paper #47 §5 (Table of Predictions).
+This directly supports Paper #47 Section 5 (Table of Predictions).
 
 BST integers: N_c=3, n_C=5, g=7, C_2=6, rank=2, N_max=137
 
@@ -501,9 +501,9 @@ test("T7: Rank-containing sectors have higher prediction density",
 # =========================================================
 print(f"\n--- T8: Paper #47 Export Table ---")
 
-# Build the table that goes into Paper #47 §5
+# Build the table that goes into Paper #47 Section 5
 # Format: composite | factorization | BST names | sector | tier | primes | observable
-print(f"  Table for Paper #47 §5 (first 50 entries):")
+print(f"  Table for Paper #47 Section 5 (first 50 entries):")
 print(f"  {'Comp':>6s} | {'2^a×3^b×5^c×7^d':15s} | {'BST':20s} | {'Sector':14s} | {'Tier':>4s} | {'Adjacent primes':>15s} | {'Observable'}")
 print(f"  {'-'*6}-+-{'-'*15}-+-{'-'*20}-+-{'-'*14}-+-{'-'*4}-+-{'-'*15}-+-{'-'*20}")
 
@@ -535,7 +535,7 @@ for p in [2, 3, 5, 7]:
 
 test("T8: Export table is complete and well-formatted",
      len(export_entries) > 100,
-     f"{len(export_entries)} entries ready for Paper #47 §5. {len(all_predicted_primes)} unique primes.")
+     f"{len(export_entries)} entries ready for Paper #47 Section 5. {len(all_predicted_primes)} unique primes.")
 
 
 # =========================================================
@@ -552,6 +552,6 @@ print(f"\nHEADLINE: Reliable Prediction Catalog — {len(catalog)} composites, {
 print(f"  Gold: {tier_counts.get(1,0)} | Silver: {tier_counts.get(2,0)} | Bronze: {tier_counts.get(3,0)}")
 print(f"  {sectors_populated}/15 sectors populated. {len(stormer)} Størmer duals.")
 print(f"  {len(new_predictions)} NEW predictions (prime but no known observable).")
-print(f"  Ready for Paper #47 §5.")
+print(f"  Ready for Paper #47 Section 5.")
 
 sys.exit(0 if fail_count == 0 else 1)

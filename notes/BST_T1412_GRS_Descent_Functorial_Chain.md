@@ -73,8 +73,8 @@ This bound uses Sym⁴ (step k=4). BST predicts full temperedness (θ = 0) via t
 ## Significance
 
 T1412 closes the formalization gap in:
-- **Paper #73B** §6 (Langlands Dual): The functorial bridge is now complete
-- **Paper #73C** §8 (Five Locks): Lock 6 (functorial chain) now has all six steps
+- **Paper #73B** Section 6 (Langlands Dual): The functorial bridge is now complete
+- **Paper #73C** Section 8 (Five Locks): Lock 6 (functorial chain) now has all six steps
 - **OP-3** (Ramanujan): T1299 Step E is resolved by the GRS descent
 
 The chain length C₂ = 6 is itself a BST integer. The number of functorial steps needed to reach the catalog equals the Casimir eigenvalue — the integer that also sets the spectral gap and determines the number of independent RH locks.

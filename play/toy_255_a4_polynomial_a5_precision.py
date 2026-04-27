@@ -265,10 +265,10 @@ def main():
     print("=" * 70)
 
     # ─────────────────────────────────────────────────────────
-    # §1: Compute a₄(Q^n) for n=3..12
+    # Section 1: Compute a₄(Q^n) for n=3..12
     # ─────────────────────────────────────────────────────────
     print("\n  " + "─" * 60)
-    print("  §1  a₄(Q^n) HIGH-PRECISION EXTRACTION")
+    print("  Section 1  a₄(Q^n) HIGH-PRECISION EXTRACTION")
     print("  " + "─" * 60)
 
     a4_values = {}
@@ -307,10 +307,10 @@ def main():
             print(f"      (no clean rational found, den ≤ 2000)")
 
     # ─────────────────────────────────────────────────────────
-    # §2: Rational identification table
+    # Section 2: Rational identification table
     # ─────────────────────────────────────────────────────────
     print("\n  " + "─" * 60)
-    print("  §2  RATIONAL IDENTIFICATION TABLE")
+    print("  Section 2  RATIONAL IDENTIFICATION TABLE")
     print("  " + "─" * 60)
 
     print(f"\n    {'n':<4} {'a₄(num)':<14} {'a₄(rational)':<18} {'den':<6} {'N_c g²':<8} {'ratio':<8}")
@@ -325,10 +325,10 @@ def main():
         print(f"    {n:<4} {a4_values[n]:<14.6f} {frac_str:<18} {den_str:<6} {Ncg2:<8} {ratio:<8.4f}")
 
     # ─────────────────────────────────────────────────────────
-    # §3: Lagrange interpolation
+    # Section 3: Lagrange interpolation
     # ─────────────────────────────────────────────────────────
     print("\n  " + "─" * 60)
-    print("  §3  LAGRANGE INTERPOLATION → a₄(n) POLYNOMIAL")
+    print("  Section 3  LAGRANGE INTERPOLATION → a₄(n) POLYNOMIAL")
     print("  " + "─" * 60)
 
     # Use the identified rationals for interpolation
@@ -411,10 +411,10 @@ def main():
         print(f"    Identified: {[(int(x), str(y)) for x, y in interp_points]}")
 
     # ─────────────────────────────────────────────────────────
-    # §4: a₅(Q⁵) precision push
+    # Section 4: a₅(Q⁵) precision push
     # ─────────────────────────────────────────────────────────
     print("\n  " + "─" * 60)
-    print("  §4  a₅(Q⁵) PRECISION PUSH")
+    print("  Section 4  a₅(Q⁵) PRECISION PUSH")
     print("  " + "─" * 60)
 
     # High-precision extraction with large P_max
@@ -538,10 +538,10 @@ def main():
                 print(f"    {expr} = {val:.4f}")
 
     # ─────────────────────────────────────────────────────────
-    # §5: Summary
+    # Section 5: Summary
     # ─────────────────────────────────────────────────────────
     print("\n  " + "═" * 60)
-    print("  §5  SUMMARY")
+    print("  Section 5  SUMMARY")
     print("  " + "═" * 60)
 
     checks = []

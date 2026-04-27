@@ -19,7 +19,7 @@ $$\lambda_k = k(k + n), \qquad k = 0, 1, 2, 3, \ldots$$
 
 with multiplicities determined by the representation theory of $SO(n+2)$. The $k$-th eigenspace carries the representation with highest weight $k \omega_1$, where $\omega_1$ is the first fundamental weight.
 
-This spectrum is standard (see Helgason, *Groups and Geometric Analysis*, Ch. V; or Berger, *A Panoramic View of Riemannian Geometry*, §12.4).
+This spectrum is standard (see Helgason, *Groups and Geometric Analysis*, Ch. V; or Berger, *A Panoramic View of Riemannian Geometry*, Section 12.4).
 
 -----
 

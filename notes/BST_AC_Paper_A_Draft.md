@@ -191,7 +191,7 @@ The dichotomy was verified computationally by measuring $I_{\text{fiat}}$ direct
 
 **Width sweep.** For 2-SAT, $I_{\text{derivable}}$ jumps to its maximum at $w = 2$ (the natural width of implication clauses) and plateaus — additional width buys nothing. For 3-SAT, $I_{\text{derivable}}$ remains near zero across all constant widths: the fiat bits are topologically locked and cannot be extracted by wider clauses.
 
-**Phase transition.** Scanning the clause-to-variable ratio $\alpha$ for random 3-SAT: $I_{\text{fiat}}/n$ jumps from 0.016 ($\alpha \leq 3$, underconstrained) to 0.899 ($\alpha \geq 4.27$, phase transition). The jump is sharp — consistent with the swallowtail catastrophe structure of §5.3 in the companion document.
+**Phase transition.** Scanning the clause-to-variable ratio $\alpha$ for random 3-SAT: $I_{\text{fiat}}/n$ jumps from 0.016 ($\alpha \leq 3$, underconstrained) to 0.899 ($\alpha \geq 4.27$, phase transition). The jump is sharp — consistent with the swallowtail catastrophe structure of Section 5.3 in the companion document.
 
 **Three-way budget.** The measurement confirms that the three-way budget $n = I_{\text{derivable}} + I_{\text{free}} + I_{\text{fiat}}$ is essential. Underconstrained 2-SAT has low $I_{\text{derivable}}$ not because resolution fails, but because most variables are genuinely free ($I_{\text{free}} \gg 0$). The dichotomy lives in $I_{\text{fiat}}$, not in $I_{\text{derivable}}$ alone.
 
@@ -337,7 +337,7 @@ This conditional rests on exponential lower bounds proved for eight proof system
 
 2. **Continuous AC.** Extend the framework from discrete operations to continuous methods (PDEs, variational calculus), defining information loss for differential operators.
 
-3. **The classification program.** Systematically measure AC for computational methods across mathematics and science, building the noise landscape of §6 into a comprehensive classification.
+3. **The classification program.** Systematically measure AC for computational methods across mathematics and science, building the noise landscape of Section 6 into a comprehensive classification.
 
 4. **Lifting theorems.** Connect AC to communication complexity via Beame-Pitassi-Segerlind (2007), providing proof-system-independent lower bounds through the constraint topology.
 

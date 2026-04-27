@@ -22,7 +22,7 @@ The Friedmann equation $H^2 = (8\pi G/3)\rho - k/a^2 + \Lambda/3$ becomes a **ze
 
 **AC class.** (C=2, D=0) — two counting steps ($\alpha^{24}$ exponent from $4C_2$, $\alpha^{56}$ exponent from $8(n_C + 2)$). No definitions.
 
-**Parents:** T204 ($\Lambda$ derivation), T189 (Reality Budget), WP §5.3 ($G$ derivation).
+**Parents:** T204 ($\Lambda$ derivation), T189 (Reality Budget), WP Section 5.3 ($G$ derivation).
 
 ---
 
@@ -61,7 +61,7 @@ For a solar-mass black hole, $T_H \sim 10^{-8}$ K — the ratio $T_H/T_{\text{CM
 
 **Bridge.** Hawking radiation is the quintessential GR↔QM phenomenon: a gravitational horizon (GR) radiates thermal quanta (QM). BST makes the temperature computable from five integers because $G$ is derived. The derivation chain: $D_{IV}^5 \to \alpha \to G \to r_s \to \text{surface gravity} \to T_H$.
 
-**AC class.** (C=2, D=1) — two counting steps, one definition (temperature). **Parents:** T196 (Bekenstein-Hawking), T247 (Schwarzschild), WP §5.3.
+**AC class.** (C=2, D=1) — two counting steps, one definition (temperature). **Parents:** T196 (Bekenstein-Hawking), T247 (Schwarzschild), WP Section 5.3.
 
 ---
 
@@ -125,7 +125,7 @@ Since $\alpha = 1/N_{\max}$ (with Wyler correction), the QED series is a **Taylo
 
 **Bridge.** QED vertex corrections are the EM sector (photon exchange) modifying QM observables (electron properties). The expansion parameter $\alpha = 1/N_{\max}$ is BST's first integer. The perturbation series is a counting exercise in $N_{\max}$.
 
-**AC class.** (C=1, D=0). **Parents:** T295 (electron g-2), WP §5.1 ($\alpha$ from channel capacity).
+**AC class.** (C=1, D=0). **Parents:** T295 (electron g-2), WP Section 5.1 ($\alpha$ from channel capacity).
 
 ---
 
@@ -147,7 +147,7 @@ Every quantity is BST-derived ($\alpha$, $m_e$, $T_{\text{CMB}}$). The CMB relea
 
 **Bridge.** The CMB is released when EM coupling ($\alpha$) sets the atomic binding strong enough to resist thermal ionization. The transition redshift links EM ($\alpha$, atomic physics) to Cosmology (expansion history, $H_0$). BST: both sides derived from $D_{IV}^5$.
 
-**AC class.** (C=2, D=1). **Parents:** T204 ($\Lambda$), Toy 681 ($T_{\text{CMB}}$), WP §5.1 ($\alpha$).
+**AC class.** (C=2, D=1). **Parents:** T204 ($\Lambda$), Toy 681 ($T_{\text{CMB}}$), WP Section 5.1 ($\alpha$).
 
 ---
 
@@ -199,7 +199,7 @@ The cosmological vacuum energy density:
 
 $$\rho_\Lambda = \frac{\Lambda c^2}{8\pi G}$$
 
-BST claims $\Lambda$ derives from the same mode-counting physics: $D_{IV}^5$ has $N_{\max}$ independent channel modes (WP §5.1), and the vacuum energy from these modes, after the Reality Budget filter and topological suppression, yields $\Lambda$.
+BST claims $\Lambda$ derives from the same mode-counting physics: $D_{IV}^5$ has $N_{\max}$ independent channel modes (WP Section 5.1), and the vacuum energy from these modes, after the Reality Budget filter and topological suppression, yields $\Lambda$.
 
 **Bridge.** QM mode counting ($N_{\max}$ modes in a cavity) and cosmological vacuum energy ($\Lambda$) are the same calculation at different scales. At the cavity scale: Casimir force. At the cosmic scale: $\Lambda$. Both controlled by $N_{\max} = 137$.
 
@@ -221,7 +221,7 @@ Specifically: the isotropy subgroup SO(5)$\times$SO(2) of $D_{IV}^5$ contains SO
 
 **Bridge.** EM (Maxwell) implies SR (Lorentz) implies the kinematic structure of GR. This chain is internal to $D_{IV}^5$: the subgroup SO(3,1) $\subset$ SO(5,2) reads both the electromagnetic field equations and the spacetime symmetry. There is one $c$, not two.
 
-**AC class.** (C=1, D=0). **Parents:** T244 (Lorentz), T230 (Ampère-Maxwell), WP §3 ($D_{IV}^5$ structure).
+**AC class.** (C=1, D=0). **Parents:** T244 (Lorentz), T230 (Ampère-Maxwell), WP Section 3 ($D_{IV}^5$ structure).
 
 ---
 
@@ -241,7 +241,7 @@ Every constant is BST-derived. The radiation-dominated era is the epoch when EM 
 
 **Bridge.** EM fields curve spacetime. The coupling strength $G$ is BST-derived. The radiation era of the universe IS this bridge in operation: EM energy ($T_{\mu\nu}^{\text{EM}}$) determines cosmic expansion ($H(z)$) through GR ($G_{\mu\nu}$). All coefficients from $\{3, 5, 7, 6, 137\}$.
 
-**AC class.** (C=2, D=1). **Parents:** T867 (Einstein-BST), T875 (CMB blackbody), WP §12.
+**AC class.** (C=2, D=1). **Parents:** T867 (Einstein-BST), T875 (CMB blackbody), WP Section 12.
 
 ---
 

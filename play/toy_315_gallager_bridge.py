@@ -753,7 +753,7 @@ print("""
   (B) T47(b) for arbitrary depth: equivalent to P ≠ NP.
 
   WHAT TODAY PRODUCED:
-  — §14b CLOSED (Toys 309-310)
+  — Section 14b CLOSED (Toys 309-310)
   — Shahidi RESOLVED (Toy 311)
   — T37-T42 proved (Toys 312-313)
   — T47 formalized (Toy 314) — the substrate theorem

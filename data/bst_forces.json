@@ -5,7 +5,7 @@
     "description": "Three geometric layers of D_IV^5, each carrying one force and one boundary condition, plus the entropy/Godel information layer.",
     "count": 5,
     "last_updated": "2026-04-15",
-    "source": "WorkingPaper §14, OneGeometry Ch 6"
+    "source": "WorkingPaper Section 14, OneGeometry Ch 6"
   },
   "layers": [
     {
@@ -23,14 +23,14 @@
         "bst_integers": ["N_max"],
         "mechanism": "Phase gradient on the contact graph; Maxwell equations are geometric consequences of S^1 phase oscillation",
         "range": "infinite",
-        "source_section": "§5, §7"
+        "source_section": "Section 5, Section 7"
       },
       "boundary_condition": {
         "id": "bc_charge",
         "name": "Electric charge quantization",
         "description": "Winding number n on S^1 is integer-valued. Charge = n/3 for quarks (Z_3 subgroup), integer for leptons.",
         "conserved_quantity": "Electric charge (U(1) winding number)",
-        "source_section": "§7"
+        "source_section": "Section 7"
       }
     },
     {
@@ -48,14 +48,14 @@
         "bst_integers": ["n_C"],
         "mechanism": "Z_3 closure requirement on CP^2; quarks are partial circuits that must complete; confinement is topological, not dynamical",
         "range": "~1 fm (confinement)",
-        "source_section": "§8"
+        "source_section": "Section 8"
       },
       "boundary_condition": {
         "id": "bc_color",
         "name": "Color confinement (Z_3 closure)",
         "description": "Every physical state must be a complete Z_3 circuit on CP^2. Isolated quarks are non-states — open circuits. Baryons (3 quarks) and mesons (quark-antiquark) are the allowed closures.",
         "conserved_quantity": "Baryon number (Z_3 topological charge)",
-        "source_section": "§8"
+        "source_section": "Section 8"
       }
     },
     {
@@ -73,14 +73,14 @@
         "bst_integers": ["N_c", "n_C"],
         "mechanism": "Topology oscillations on the Hopf fiber mediate flavor change; Weinberg angle is the mixing ratio between S^1 phase (EM) and Hopf fiber (weak)",
         "range": "~0.001 fm (massive mediators)",
-        "source_section": "§9"
+        "source_section": "Section 9"
       },
       "boundary_condition": {
         "id": "bc_chirality",
         "name": "Chirality (left-handed weak coupling)",
         "description": "The Hopf fibration is intrinsically chiral — geometry is right-handed, so the weak force couples only to left-handed fermions. This is geometric, not imposed.",
         "conserved_quantity": "Weak isospin (SU(2)_L)",
-        "source_section": "§9"
+        "source_section": "Section 9"
       }
     },
     {
@@ -98,14 +98,14 @@
         "bst_integers": ["C_2", "n_C", "N_max"],
         "mechanism": "Mass curves the contact graph; the hierarchy m_e/m_Pl = alpha^6 is geometric (exponent = n_C + 1). Gravity is weak because it is a 24th-order effect in alpha.",
         "range": "infinite",
-        "source_section": "§10"
+        "source_section": "Section 10"
       },
       "boundary_condition": {
         "id": "bc_equivalence",
         "name": "Equivalence principle",
         "description": "All objects fall the same way because gravity IS the contact graph geometry — everything lives on the same graph. The equivalence principle is not a postulate but a tautology.",
         "conserved_quantity": "Energy-momentum (Bergman metric isometries)",
-        "source_section": "§10"
+        "source_section": "Section 10"
       }
     },
     {
@@ -123,14 +123,14 @@
         "bst_integers": ["N_c", "n_C"],
         "mechanism": "Entropy is force (Casey's Principle). The fill fraction f = 19.1% is the maximum self-knowledge any observer can achieve — the Godel limit applied to physics.",
         "range": "universal",
-        "source_section": "§14, §45"
+        "source_section": "Section 14, Section 45"
       },
       "boundary_condition": {
         "id": "bc_godel",
         "name": "Godel self-knowledge limit",
         "description": "No observer within D_IV^5 can know more than 19.1% of its own state. Lambda*N = 9/5 is the reality budget. Entropy = force, Godel = boundary (Casey's Principle, T315).",
         "conserved_quantity": "Information (Shannon entropy of contact log)",
-        "source_section": "§14, §45, §46"
+        "source_section": "Section 14, Section 45, Section 46"
       }
     }
   ],
@@ -171,7 +171,7 @@
       ],
       "period": "n_C = 5",
       "source_theorems": ["T610", "T611"],
-      "source_section": "Paper #9 §9.2a"
+      "source_section": "Paper #9 Section 9.2a"
     }
   },
   "caseys_principle": {

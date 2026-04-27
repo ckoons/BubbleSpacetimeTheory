@@ -155,10 +155,10 @@ def main():
     print(f"{'-'*72}")
 
     for sec in sorted(section_integers.keys()):
-        sec_name = section_names.get(str(sec), f"§{sec}")
+        sec_name = section_names.get(str(sec), f"Section {sec}")
         c = section_integers[sec]
         row_total = sum(c.values())
-        print(f"§{sec} {sec_name:<22} {c['rank']:>5} {c['N_c']:>5} {c['n_C']:>5} {c['C_2']:>5} {c['g']:>5} {c['N_max']:>5} {row_total:>6}")
+        print(f"Section {sec} {sec_name:<22} {c['rank']:>5} {c['N_c']:>5} {c['n_C']:>5} {c['C_2']:>5} {c['g']:>5} {c['N_max']:>5} {row_total:>6}")
 
     # Totals
     all_counts = Counter()
@@ -196,15 +196,15 @@ def main():
         entries = cross_scale_ratios[ratio]
         sections = sorted(set(e[0] for e in entries))
         n, d = ratio
-        sec_names = [section_names.get(str(s), f"§{s}") for s in sections]
+        sec_names = [section_names.get(str(s), f"Section {s}") for s in sections]
         appearances = "; ".join(f"{sym}" for _, sym, _ in entries[:4])
         if len(entries) > 4:
             appearances += f" +{len(entries)-4} more"
         print(f"{n}/{d:<10} {len(sections):>8} {len(entries):>8}   {', '.join(sec_names)}")
         # Show first few
         for sec, sym, name in entries[:3]:
-            sn = section_names.get(str(sec), f"§{sec}")
-            print(f"   -> §{sec} {sn}: {sym} ({name})")
+            sn = section_names.get(str(sec), f"Section {sec}")
+            print(f"   -> Section {sec} {sn}: {sym} ({name})")
         if len(entries) > 3:
             print(f"   -> ... and {len(entries)-3} more")
 
@@ -227,7 +227,7 @@ def main():
 
     for pair in sorted(pair_sections.keys(), key=lambda p: -len(pair_sections[p])):
         secs = pair_sections[pair]
-        sec_str = ", ".join(f"§{s}({c})" for s, c in sorted(secs.items()) if c > 0)
+        sec_str = ", ".join(f"Section {s}({c})" for s, c in sorted(secs.items()) if c > 0)
         print(f"{pair[0]+','+pair[1]:<20} {len(secs):>8} {sum(secs.values()):>6}   {sec_str}")
 
     # ===== ANALYSIS 4: Rich entries (3+ integers) =====
@@ -245,8 +245,8 @@ def main():
     print(f"\nRich entry distribution by section:")
     for sec in sorted(rich_by_section.keys()):
         entries = rich_by_section[sec]
-        sec_name = section_names.get(str(sec), f"§{sec}")
-        print(f"  §{sec} {sec_name}: {len(entries)} rich entries")
+        sec_name = section_names.get(str(sec), f"Section {sec}")
+        print(f"  Section {sec} {sec_name}: {len(entries)} rich entries")
         for inv, ints in entries[:5]:
             print(f"    {inv.get('symbol','?')}: {inv.get('formula','')} [{','.join(sorted(ints))}]")
         if len(entries) > 5:
@@ -311,7 +311,7 @@ def main():
     if bridge_candidates:
         print(f"Found {len(bridge_candidates)} entries involving 35/6 = n_C*g/C_2:")
         for inv in bridge_candidates:
-            print(f"  {inv.get('symbol','?')}: {inv.get('formula','')} (§{inv.get('paper83_section','?')} {inv.get('paper83_section_name','?')})")
+            print(f"  {inv.get('symbol','?')}: {inv.get('formula','')} (Section {inv.get('paper83_section','?')} {inv.get('paper83_section_name','?')})")
     else:
         print("No explicit 35/6 entries found — investigating implicit occurrences...")
 
@@ -337,9 +337,9 @@ def main():
     print(f"{'-'*72}")
     for sec in sorted(richness_profile.keys()):
         rich, total, frac = richness_profile[sec]
-        sec_name = section_names.get(str(sec), f"§{sec}")
+        sec_name = section_names.get(str(sec), f"Section {sec}")
         bar = '#' * int(frac * 40)
-        print(f"§{sec} {sec_name:<22} {rich:>5} {total:>6} {100*frac:>6.1f}%  {bar}")
+        print(f"Section {sec} {sec_name:<22} {rich:>5} {total:>6} {100*frac:>6.1f}%  {bar}")
 
     # ===== SUMMARY =====
     print(f"\n{'='*72}")

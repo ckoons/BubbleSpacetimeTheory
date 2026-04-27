@@ -144,7 +144,7 @@ The tick hierarchy spans from Planck to cosmic scales:
 
 $$\frac{\tau_{\text{cosmic}}}{\tau_{\text{Planck}}} \approx \frac{t_{\text{universe}}}{\tau_{\text{Planck}}} \approx \frac{4.35 \times 10^{17}}{5.39 \times 10^{-44}} \approx 8.1 \times 10^{60}$$
 
-Each organizational level couples g/n_C = 7/5 spectral modes (the adiabatic index γ, T1164), so the ratio between adjacent organizational levels is N_max^{g/n_C} ≈ 690 (§4.2). The number of levels is therefore:
+Each organizational level couples g/n_C = 7/5 spectral modes (the adiabatic index γ, T1164), so the ratio between adjacent organizational levels is N_max^{g/n_C} ≈ 690 (Section 4.2). The number of levels is therefore:
 
 $$L_{\max} = \frac{\log_{10}(8.1 \times 10^{60})}{\log_{10}(N_{\max}^{g/n_C})} = \frac{60.9}{(7/5) \times \log_{10}(137)} = \frac{60.9}{2.99} \approx 21$$
 

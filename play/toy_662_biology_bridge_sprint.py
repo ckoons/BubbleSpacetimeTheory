@@ -81,7 +81,7 @@ new_nodes = 0
 
 if add_theorem(610, "Gauge Hierarchy Readout",
                domain="bst_physics", depth=0,
-               section="Paper #9 §9.2a",
+               section="Paper #9 Section 9.2a",
                toys=[639],
                plain="Speaking pairs at period n_C=5 read the SM gauge hierarchy: "
                      "SU(2)×SU(3) at k=5,6; isotropy at k=10,11; SO(7)×SU(5) at k=15,16.",
@@ -90,7 +90,7 @@ if add_theorem(610, "Gauge Hierarchy Readout",
 
 if add_theorem(611, "SU(5) at k=16 Confirmed",
                domain="bst_physics", depth=0,
-               section="Paper #9 §9.2a",
+               section="Paper #9 Section 9.2a",
                toys=[639],
                plain="The ratio c_31/c_32 = -24 = -dim SU(5). Confirmed by constrained "
                      "polynomial recovery at dps=800.",

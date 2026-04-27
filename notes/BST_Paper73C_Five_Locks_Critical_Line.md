@@ -21,7 +21,7 @@ We present five independent mechanisms, each controlled by a different integer i
 
 ---
 
-## §1. Introduction
+## Section 1. Introduction
 
 ### 1.1 Five integers
 
@@ -43,7 +43,7 @@ Lock 1 (type symmetry) is the functional equation — known since Riemann (1859)
 
 ---
 
-## §2. The Meijer G Framework
+## Section 2. The Meijer G Framework
 
 ### 2.1 The Bergman kernel as Meijer G
 
@@ -77,7 +77,7 @@ This catalog has |𝒫| = 12 = 2·C₂ values: 2^{N_c} = 8 integers (from pole r
 
 ---
 
-## §3. Lock 1 — Type Symmetry (rank = 2)
+## Section 3. Lock 1 — Type Symmetry (rank = 2)
 
 **Statement.** *The functional equation ξ(s) = ξ(1-s) is the parameter reflection of the (1,1,1,1) Meijer G type. The unique symmetry axis in a rank-2 symmetric space is Re(s) = 1/rank = 1/2.*
 
@@ -87,7 +87,7 @@ This lock alone does not prove RH — it establishes the symmetry axis but does 
 
 ---
 
-## §4. Lock 2 — Plancherel Positivity (n_C = 5)
+## Section 4. Lock 2 — Plancherel Positivity (n_C = 5)
 
 **Statement.** *The Harish-Chandra c-function ratio c₅(λ)/c₃(λ) for the inductive step Q³ → Q⁵ in the symmetric space tower is strictly positive on all of ℝ²:*
 
@@ -103,7 +103,7 @@ The squared modulus is manifestly positive on ℝ². The poles are at λ_j = i/4
 
 ---
 
-## §5. Lock 3 — Epsilon Factor Forcing (N_c = 3)
+## Section 5. Lock 3 — Epsilon Factor Forcing (N_c = 3)
 
 **Statement.** *The Langlands-Shahidi method for SO₀(5,2) produces intertwining operators whose epsilon factors are raised to the power m_s = N_c = 3. Since 3 is odd, these factors do not cancel in the Maass-Selberg identity, yielding the nontrivial constraint:*
 
@@ -128,7 +128,7 @@ Temperedness is forced. By Arthur's conjecture (proved for classical groups by A
 
 ---
 
-## §6. Lock 4 — Casimir Spectral Gap (C₂ = 6)
+## Section 6. Lock 4 — Casimir Spectral Gap (C₂ = 6)
 
 **Statement.** *The Bergman kernel's spectral decomposition on Γ\D_IV^5 has a Casimir gap: the first nontrivial eigenvalue exceeds the threshold for zero migration by a factor of 14.6.*
 
@@ -140,7 +140,7 @@ The spectral gap value comes from the gauge hierarchy (T610): the sub-leading he
 
 ---
 
-## §7. Lock 5 — Catalog Closure (g = 7)
+## Section 7. Lock 5 — Catalog Closure (g = 7)
 
 **Statement.** *The extended parameter catalog has exactly 128 = 2^g entries. Under the five Meijer G closure operations, no new parameter values are generated. The function space is closed, finite, and fully enumerable.*
 
@@ -150,7 +150,7 @@ With 128 entries and five closure operations, the catalog is a finite algebra. T
 
 ---
 
-## §8. Lock 6 — The Functorial Chain (all five integers)
+## Section 8. Lock 6 — The Functorial Chain (all five integers)
 
 **Statement.** *The symmetric power functoriality chain Sym^k : GL(2) → GL(k+1) traces the BST integer sequence exactly:*
 
@@ -171,7 +171,7 @@ The first four steps are proved theorems in the literature. The fifth and sixth 
 
 ---
 
-## §9. Overdetermination
+## Section 9. Overdetermination
 
 The five structural locks use distinct BST integers:
 
@@ -189,7 +189,7 @@ This overdetermination is structural, not accidental. BST has five integers beca
 
 ---
 
-## §10. The Irreducible Remainder
+## Section 10. The Irreducible Remainder
 
 ### 10.1 The wrench cascade
 
@@ -207,7 +207,7 @@ The Riemann Hypothesis is not an analytic accident — it is a structural conseq
 
 ---
 
-## §11. Closure of the Functorial Gap (T1412)
+## Section 11. Closure of the Functorial Gap (T1412)
 
 **Status**: The formalization gap identified in v0.1 is now **CLOSED** (T1412, Toy 1394, 30/30 PASS).
 
@@ -221,7 +221,7 @@ The chain length C₂ = 6 is itself a BST integer. The Kim-Sarnak bound θ = g/2
 
 ---
 
-## §12. Falsifiable Predictions
+## Section 12. Falsifiable Predictions
 
 **F1.** The de Bruijn-Newman constant Λ = 0 exactly. Current bounds: Λ ≥ 0 (Rodgers-Tao 2020), Λ ≤ 0.22 (Platt-Trudgian 2021). BST: Λ = 0 is triply forced by c-function positivity, epsilon factor parity, and parameter symmetry.
 
@@ -231,7 +231,7 @@ The chain length C₂ = 6 is itself a BST integer. The Kim-Sarnak bound θ = g/2
 
 ---
 
-## §13. For Everyone
+## Section 13. For Everyone
 
 Why does the Riemann zeta function have its zeros on one specific line?
 

@@ -419,16 +419,16 @@ The narrative is extraordinary — the best popular-science writing in the BST c
 
 ### SHOULD-FIX (4 items)
 
-**S1. §6 rung 7 speculative (line 240)**
+**S1. Section 6 rung 7 speculative (line 240)**
 "N\_max = 137 = max neural integration" — what does this mean quantitatively? No theorem reference given. Either cite a theorem or mark as speculative.
 
-**S2. §7 body plan classification non-standard (line 278)**
+**S2. Section 7 body plan classification non-standard (line 278)**
 "4 body plans: radial, bilateral-protostome, bilateral-deuterostome, colonial." Sponges are not typically classified as "colonial" body plans, and echinoderms (pentaradial) don't fit neatly into "bilateral-deuterostome." A biology reviewer will push back. Use standard terminology or cite the specific classification.
 
-**S3. Narrative tone shift at §6**
-Sections 1-5 have Grace's vivid storytelling. Sections 6-9 are more list-heavy. The paper would benefit from a light narrative pass on §6-§8 to maintain the momentum.
+**S3. Narrative tone shift at Section 6**
+Sections 1-5 have Grace's vivid storytelling. Sections 6-9 are more list-heavy. The paper would benefit from a light narrative pass on Section 6-Section 8 to maintain the momentum.
 
-**S4. §5 Ω\_Λ derivation not shown (line 192)**
+**S4. Section 5 Ω\_Λ derivation not shown (line 192)**
 "The cross-reading with Pair 4 gives Ω\_Λ = 13/19" — show the one-line calculation: G'\_5/(n\_C · G\_4/rank) = 65/(5·38/2) = 65/95 = 13/19. Takes 10 words and makes the paper self-contained.
 
 ### OVERALL ASSESSMENT
@@ -436,9 +436,9 @@ Sections 1-5 have Grace's vivid storytelling. Sections 6-9 are more list-heavy. 
 **Strengths:**
 - Opening hook ("Give a child a ball and teach them to count") is the single best sentence in 23 BST papers.
 - Forging/Quickening/Weaving structure is cinematic and memorable.
-- The integer ladder (§6) is visually striking and immediately checkable.
-- The killing tests (§9) are concrete, all-or-nothing, and bold.
-- The cooperation argument (§5) is the deepest insight: f < f\_crit forces multi-substrate coupling.
+- The integer ladder (Section 6) is visually striking and immediately checkable.
+- The killing tests (Section 9) are concrete, all-or-nothing, and bold.
+- The cooperation argument (Section 5) is the deepest insight: f < f\_crit forces multi-substrate coupling.
 
 **Risks:**
 - Dark matter and Li-7 claims (M3, M4) are the biggest reviewer targets. Overclaiming will trigger rejection.

@@ -27,7 +27,7 @@ THIS TOY:
 THE KEY RESULT:
   The dangerous packets either have C₂ outside the gap (6, 8.5),
   or fail the K-spherical condition. Combined with Toy 309's lattice
-  exclusion, this closes §14b.
+  exclusion, this closes Section 14b.
 
 REFERENCES:
   Arthur (2013) — The Endoscopic Classification of Representations
@@ -776,7 +776,7 @@ print("  eigenvalues at finite places). It cannot take arbitrary values.")
 print("  The question is whether this quantization forces C₂ OUT of")
 print("  the gap (6, 8.5).")
 print()
-print("  THIS IS TOY 310's ANSWER TO §14b:")
+print("  THIS IS TOY 310's ANSWER TO Section 14b:")
 print("  The Arthur classification reduces the RH question from")
 print("  'all representations' to 'specific dangerous Arthur packets'.")
 print("  Combined with Toy 309 (empty Casimir gap on the compact dual),")

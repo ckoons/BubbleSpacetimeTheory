@@ -94,7 +94,7 @@ def main():
     # R_{αβ̄γδ̄} as a bilinear form on (α,γ) indexed by (β,δ):
     # M_{αγ,βδ} = R_{αβ̄γδ̄}
     #
-    # From the note (BST_SeeleyDeWitt_ChernConnection.md §3.3):
+    # From the note (BST_SeeleyDeWitt_ChernConnection.md Section 3.3):
     # eigenvalues proportional to {5, 2, 0} with multiplicities {1, 10, 14}
     # Raw eigenvalues: {200, 80, 0} = 40 × {5, 2, 0}
     # In the Killing normalization with g₀ = 10:

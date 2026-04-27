@@ -207,13 +207,13 @@ For constants, always include `formula_code` — this enables automated verifica
 | Category | What to Add | Count | Source |
 |----------|-------------|-------|--------|
 | **Heat kernel coefficients** | a_6 through a_16, ratios, patterns | ~11 | Toys 278-639 |
-| **CKM matrix elements** | V_ud, V_us, V_ub, V_cd, V_cs, V_cb, V_td, V_ts, V_tb | 9 | WorkingPaper §20 |
-| **PMNS matrix elements** | U_e1..U_e3, U_mu1..U_mu3, U_tau1..U_tau3 | 9 | WorkingPaper §21 |
-| **Nuclear magic numbers** | 2, 8, 20, 28, 50, 82, 126, 184 (prediction) | 8 | WorkingPaper §17 |
+| **CKM matrix elements** | V_ud, V_us, V_ub, V_cd, V_cs, V_cb, V_td, V_ts, V_tb | 9 | WorkingPaper Section 20 |
+| **PMNS matrix elements** | U_e1..U_e3, U_mu1..U_mu3, U_tau1..U_tau3 | 9 | WorkingPaper Section 21 |
+| **Nuclear magic numbers** | 2, 8, 20, 28, 50, 82, 126, 184 (prediction) | 8 | WorkingPaper Section 17 |
 | **Material properties** | BCS gap, Kolmogorov 5/3, water bond angle, Debye temps | ~10 | Toys 700-706 |
-| **Cosmological parameters** | H_0, T_CMB, eta_b, n_s, r, sigma_8 | ~8 | WorkingPaper §14 |
-| **Meson masses** | pi, K, rho, omega, phi, J/psi, Upsilon | ~10 | WorkingPaper §12 |
-| **Lepton masses** | mu, tau mass ratios | 2 | WorkingPaper §11 |
+| **Cosmological parameters** | H_0, T_CMB, eta_b, n_s, r, sigma_8 | ~8 | WorkingPaper Section 14 |
+| **Meson masses** | pi, K, rho, omega, phi, J/psi, Upsilon | ~10 | WorkingPaper Section 12 |
+| **Lepton masses** | mu, tau mass ratios | 2 | WorkingPaper Section 11 |
 
 ### Medium-term (next 100 sessions)
 

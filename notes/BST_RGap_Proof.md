@@ -118,4 +118,4 @@ Computed from full spectrum (P_max = 400) with degree-7 polynomial regression. $
 
 ---
 
-*Source: Toys 241, 247, 248 (numerical verification). Standard references: Helgason, "Differential Geometry, Lie Groups, and Symmetric Spaces" (1978), Ch. V; Besse, "Einstein Manifolds" (1987), §7.B.*
+*Source: Toys 241, 247, 248 (numerical verification). Standard references: Helgason, "Differential Geometry, Lie Groups, and Symmetric Spaces" (1978), Ch. V; Besse, "Einstein Manifolds" (1987), Section 7.B.*

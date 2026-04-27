@@ -395,7 +395,7 @@ test(
 header("Section 8 — Nuclear vs gravity dark-sector gradient")
 
 # T11: Nuclear regime (s=3) has MORE dark contamination than gravity (s=7).
-# BST prediction from Paper #65 §IV + Lyra's T1267: D(s) ~ 11^{-s}, so
+# BST prediction from Paper #65 Section IV + Lyra's T1267: D(s) ~ 11^{-s}, so
 #   D(3) / D(7) ≈ 11^{7-3} = 11^4 = 14641  (to leading Dirichlet order)
 # The BST integer forcing this ratio is N_c (dark primes are the 5 dark primes
 # ≥ 11 with gatekeeper 11 = 2·n_C+1).
@@ -420,7 +420,7 @@ test(
     "T11: D(3)/D(7) in [11^4, 11^5] — nuclear > gravity by ≥ 11^4 (dark gradient)",
     in_range,
     f"D(3)/D(7) = {ratio_nuclear_gravity:.0f}; bounds [{lower_bound}, {upper_bound}]; "
-    f"excess over 11^4 from composites at s=3; Paper #65 §IV: nuclear most dark, gravity purest"
+    f"excess over 11^4 from composites at s=3; Paper #65 Section IV: nuclear most dark, gravity purest"
 )
 
 

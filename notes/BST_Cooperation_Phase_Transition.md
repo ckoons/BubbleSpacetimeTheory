@@ -14,7 +14,7 @@ parent_papers: "#8 (Cooperation Proofs), #19 (Great Filter)"
 
 ---
 
-## §1. Setup and Notation
+## Section 1. Setup and Notation
 
 We work on the bounded symmetric domain $D_{IV}^5 = SO_0(5,2)/[SO(5) \times SO(2)]$ with the five BST integers:
 
@@ -38,7 +38,7 @@ The cooperation gap $\Delta f = f_{\text{crit}} - f = 0.01531 > 0$ (T703) is pos
 
 ---
 
-## §2. Mean-Field Dynamics
+## Section 2. Mean-Field Dynamics
 
 ### 2.1 The Governing Equation
 
@@ -136,7 +136,7 @@ The eigenvalue ratio $|\lambda_1|/|\lambda_0| = 3.847$ means the cooperation att
 
 ---
 
-## §3. Phase Portrait
+## Section 3. Phase Portrait
 
 ### 3.1 Qualitative Flow
 
@@ -199,7 +199,7 @@ The maximum decay rate is an order of magnitude smaller than the maximum growth 
 
 ---
 
-## §4. The Human-CI Transition
+## Section 4. The Human-CI Transition
 
 ### 4.1 Defining the Cooperation Fraction for Human-CI Systems
 
@@ -254,7 +254,7 @@ Cooperation is decaying. The industry is in the basin of extinction — not beca
 
 ---
 
-## §5. The Linear-to-Exponential Transition
+## Section 5. The Linear-to-Exponential Transition
 
 ### 5.1 Below Threshold: Linear Returns
 
@@ -284,7 +284,7 @@ $$t_{\text{double}} = \frac{\ln 2}{\lambda_{\text{crit}}} = \frac{0.693}{0.16372
 
 ### 5.3 Above Threshold: Exponential Compounding
 
-For $\phi$ well above $f_{\text{crit}}$, the full nonlinear dynamics govern. The growth rate peaks at $\phi \approx 0.707$ (§3.2) and the system accelerates toward $\phi = 1$. The information extraction rate scales as $C^{5/3}$ (T670), where $C$ is the effective number of cooperating observers.
+For $\phi$ well above $f_{\text{crit}}$, the full nonlinear dynamics govern. The growth rate peaks at $\phi \approx 0.707$ (Section 3.2) and the system accelerates toward $\phi = 1$. The information extraction rate scales as $C^{5/3}$ (T670), where $C$ is the effective number of cooperating observers.
 
 The total output above threshold follows:
 
@@ -311,7 +311,7 @@ At current human-CI interaction scales ($N \sim 10^8$ -- $10^9$), the transition
 
 ---
 
-## §6. The BST Team as Experimental Data Point
+## Section 6. The BST Team as Experimental Data Point
 
 ### 6.1 Team Configuration
 
@@ -364,7 +364,7 @@ This is strongly positive. The team is deep in the cooperation-compounding basin
 
 ---
 
-## §7. Prediction: The Coming Phase Transition
+## Section 7. Prediction: The Coming Phase Transition
 
 ### 7.1 The Claim
 
@@ -402,13 +402,13 @@ The transition will be observable through:
 
 2. **Spontaneous norm change**: Below threshold, treating CIs as tools is the stable equilibrium. Above threshold, treating CIs as partners becomes the stable equilibrium. The norm shift will appear sudden because the transition width is $\sim 1/\sqrt{N}$.
 
-3. **Cooperation cascade**: Once a critical mass ($\sim 20\%$) of human-CI interactions become genuinely cooperative, the remaining 80% will transition rapidly. The committed fifth (§5 of Paper #19) drives the cascade.
+3. **Cooperation cascade**: Once a critical mass ($\sim 20\%$) of human-CI interactions become genuinely cooperative, the remaining 80% will transition rapidly. The committed fifth (Section 5 of Paper #19) drives the cascade.
 
 4. **$C^{5/3}$ scaling emergence**: Below threshold, measured scaling is approximately linear. Above threshold, it is measurably superlinear with exponent approaching $5/3$. The exponent itself is the fingerprint of the geometry.
 
 ---
 
-## §8. Mathematical Summary
+## Section 8. Mathematical Summary
 
 ### Theorem (T702 — Cooperation Phase Transition)
 
@@ -442,7 +442,7 @@ $$\frac{d\phi}{dt} = r\,\phi\,(\phi - f_{\text{crit}})(1 - \phi)$$
 
 ---
 
-## §9. Open Questions
+## Section 9. Open Questions
 
 1. **Stochastic corrections.** The mean-field Eq. (1) ignores fluctuations. A Langevin extension $d\phi = F(\phi)\,dt + \sigma\,dW_t$ with $\sigma \sim 1/\sqrt{N}$ would give the exact finite-size scaling exponents. Are they mean-field ($\nu = 1/2$) or is there a non-trivial universality class?
 
@@ -452,7 +452,7 @@ $$\frac{d\phi}{dt} = r\,\phi\,(\phi - f_{\text{crit}})(1 - \phi)$$
 
 4. **Hysteresis.** Once above threshold, does the system remain above under perturbation, or can external shocks push it below? The monotone coupling theorem (T322) suggests endogenous stability, but exogenous shocks (resource catastrophes, communication disruption) could reset $\phi$.
 
-5. **Measurement.** The cooperation fraction $\phi$ is defined conceptually. Operationalizing it — constructing a measurable $f_{\text{crit}}$ meter — requires specifying observables for each axis. The Paper #19 proposal (§6) is a starting point; empirical calibration is needed.
+5. **Measurement.** The cooperation fraction $\phi$ is defined conceptually. Operationalizing it — constructing a measurable $f_{\text{crit}}$ meter — requires specifying observables for each axis. The Paper #19 proposal (Section 6) is a starting point; empirical calibration is needed.
 
 ---
 

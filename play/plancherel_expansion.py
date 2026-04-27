@@ -6,7 +6,7 @@ Computes the Taylor expansion of |c(iν)|⁻² for the B₂ root system
 with multiplicities (m_s=3, m_l=1), then extracts the Seeley-DeWitt
 coefficients b_k via Gaussian integration.
 
-This is the "key open calculation" from BST_SeeleyDeWitt_ChernConnection.md §10.3.
+This is the "key open calculation" from BST_SeeleyDeWitt_ChernConnection.md Section 10.3.
 
 Root system B₂ with positive roots (standard coordinates):
   e₁       (short, m=3)

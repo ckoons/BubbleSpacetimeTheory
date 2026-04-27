@@ -155,7 +155,7 @@ Three computations would sharpen the 147 statement:
 
 1. **Gilkey formula for $a_4(Q^n)$ in closed form.** If $a_4(n)$ is an explicit polynomial in $n$, solve $a_4(n) = (n-2)(2n-3)^2$ for $n \in \mathbb{Z}$. If $n = 5$ is the unique solution, the uniqueness condition becomes a theorem.
 
-2. ~~**Branching rules SO(7) → Sp(6) for $\mathfrak{so}(7) \otimes V_1$.**~~ **DONE (Toy 251).** The 147-dim representation decomposes into Sp(6) irreducibles with dimensions {1, 6, 14, 14, 21, 64}, multiplicities {2, 3, 2, 1, 1, 1}. L-function degrees are all BST integers. See §3a above and `notes/BST_Branching_SO7_Sp6.md`.
+2. ~~**Branching rules SO(7) → Sp(6) for $\mathfrak{so}(7) \otimes V_1$.**~~ **DONE (Toy 251).** The 147-dim representation decomposes into Sp(6) irreducibles with dimensions {1, 6, 14, 14, 21, 64}, multiplicities {2, 3, 2, 1, 1, 1}. L-function degrees are all BST integers. See Section 3a above and `notes/BST_Branching_SO7_Sp6.md`.
 
 3. **Non-trivial Frobenius on the fiber bundle.** For a lattice $\Gamma \subset \mathrm{SO}_0(5,2)$ and a prime $p$ of good reduction, compute $\mathrm{tr}(\phi_p \,|\, \mathfrak{so}(7) \otimes V_1)$ explicitly. If it relates to Hecke eigenvalues of Siegel modular forms on Sp(6), that's the Langlands connection.
 

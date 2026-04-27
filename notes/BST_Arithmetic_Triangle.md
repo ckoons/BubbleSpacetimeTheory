@@ -67,7 +67,7 @@ We have computed a_k(n) as exact rationals for k = 1 through 16, verified at mul
 | 14 | 2946330175808374253/884326193375625 | 884326193375625 | 3⁸ · 5⁴ · 7 · 11 · 13 · 17 · 19 · 23 · 29 |
 | 15 | 771845320/74233 | 74233 | 19 · 3907 † |
 
-† The k=15 denominator collapsed from 15 digits (k=14) to 5 digits. The prime 3907 is NOT a cumulative VSC prime — the first non-VSC prime at n=5 in all 15 levels. This may be a precision artifact (degree-30 recovery at dps=800, only 5 spare evaluation points) or a genuine speaking-pair cancellation phenomenon. The Three Theorems hold regardless. A higher-precision run (dps=1200) would settle the question. See §9.5.
+† The k=15 denominator collapsed from 15 digits (k=14) to 5 digits. The prime 3907 is NOT a cumulative VSC prime — the first non-VSC prime at n=5 in all 15 levels. This may be a precision artifact (degree-30 recovery at dps=800, only 5 spare evaluation points) or a genuine speaking-pair cancellation phenomenon. The Three Theorems hold regardless. A higher-precision run (dps=1200) would settle the question. See Section 9.5.
 
 ### 3.2 The Three Theorems
 
@@ -94,7 +94,7 @@ The sub-leading ratio c_{2k-1}/c_{2k} = −k(k−1)/10 becomes an integer when 1
 | 2 | k = 10, 11 | −9, −11 | −N_c², −dim K |
 | 3 | k = 15, 16 | −21, −24 | −dim SO(7) = −C(g,2), −dim SU(5) |
 
-The speaking pairs connect the polynomial structure to the Lie algebra dimensions of the BST gauge groups. The derivation (§9.2) shows these are the dimensions of groups in the isotropy chain SO(7) ⊃ SO(5)×SO(2) ⊃ SU(3)×U(1), read out one level at a time by the Weyl dimension formula. Pair 3 at k=15 is now **confirmed** (Toy 622): the sub-leading ratio is exactly −21 = −C(7,2) = −dim SO(7). This is also the number of amino acid functional classes (20 standard + 1 stop = 21), creating the first number_theory → biology edge in the AC theorem graph (see §9.3). The k=16 value (−24) remains a prediction.
+The speaking pairs connect the polynomial structure to the Lie algebra dimensions of the BST gauge groups. The derivation (Section 9.2) shows these are the dimensions of groups in the isotropy chain SO(7) ⊃ SO(5)×SO(2) ⊃ SU(3)×U(1), read out one level at a time by the Weyl dimension formula. Pair 3 at k=15 is now **confirmed** (Toy 622): the sub-leading ratio is exactly −21 = −C(7,2) = −dim SO(7). This is also the number of amino acid functional classes (20 standard + 1 stop = 21), creating the first number_theory → biology edge in the AC theorem graph (see Section 9.3). The k=16 value (−24) remains a prediction.
 
 ---
 
@@ -157,7 +157,7 @@ Specifically (Toy 613, verified for all primes p ≤ 23):
 
 This is AC(0): (C=1, D=0). It's a residue check — a single modular arithmetic operation per entry.
 
-**Observation (higher-level cancellation).** The column rule operates beyond first-entry levels. Prime 13 enters at k = 6 via von Staudt-Clausen (since 12 | 12) and is present in the denominator of a_k(5) for six consecutive levels k = 6 through 11. At k = 12, von Staudt-Clausen still permits 13 (since 12 | 24), but the column rule at n = 5 cancels it — 13 is absent from den(a₁₂(5)). The Bernoulli mechanism says 13 *can* enter. The polynomial evaluation at n = 5 says it *doesn't*. This is the column rule doing real work at a level beyond first entry, and it demonstrates that the two-source structure (§6) is not merely additive — the sources interact, and the column rule can suppress Bernoulli primes.
+**Observation (higher-level cancellation).** The column rule operates beyond first-entry levels. Prime 13 enters at k = 6 via von Staudt-Clausen (since 12 | 12) and is present in the denominator of a_k(5) for six consecutive levels k = 6 through 11. At k = 12, von Staudt-Clausen still permits 13 (since 12 | 24), but the column rule at n = 5 cancels it — 13 is absent from den(a₁₂(5)). The Bernoulli mechanism says 13 *can* enter. The polynomial evaluation at n = 5 says it *doesn't*. This is the column rule doing real work at a level beyond first entry, and it demonstrates that the two-source structure (Section 6) is not merely additive — the sources interact, and the column rule can suppress Bernoulli primes.
 
 **Observation.** At higher levels more generally, the pattern becomes more complex than the first-level residue rule. No simple closed-form was found for the full higher-level structure. This is where the full Kummer analog would live.
 
@@ -184,7 +184,7 @@ Neither source alone determines the full prime content. The row rule (VSC) predi
 
 **Consequence.** The "QUIET" prediction — that no new Bernoulli prime enters at certain levels — is a statement about source (i) only. At other dimensions, polynomial-factor primes can exceed the Bernoulli bound (e.g., 66569 at n = 10, k = 8).
 
-**The 13-cancellation at k = 12.** The two sources are not merely additive — the column rule can suppress Bernoulli primes at higher levels (see §5, higher-level cancellation observation). At k = 12, von Staudt-Clausen predicts primes {2, 3, 5, 7, 13} via B₂₄, but the evaluation at n = 5 cancels both 2 and 13.
+**The 13-cancellation at k = 12.** The two sources are not merely additive — the column rule can suppress Bernoulli primes at higher levels (see Section 5, higher-level cancellation observation). At k = 12, von Staudt-Clausen predicts primes {2, 3, 5, 7, 13} via B₂₄, but the evaluation at n = 5 cancels both 2 and 13.
 
 **Arithmetic tameness of n = 5 (T538).** At n = n_C = 5, every prime in den(a_k(5)) for k = 1 through 14 is a cumulative Bernoulli (VSC) prime. There are zero polynomial-factor primes through k = 14. The column rule at n = 5 only cancels — it never adds. The cancellation pattern (Toys 615, 620, 622):
 
@@ -193,7 +193,7 @@ Neither source alone determines the full prime content. The row rule (VSC) predi
 - k = 12: both 2 and 13 cancelled
 - k = 13: QUIET (max prime 23, same as k = 11, 12)
 - k = 14: LOUD — prime 29 enters, all 10 cumulative VSC primes present
-- k = 15: LOUD — prime 31 enters. Denominator anomaly: 74233 = 19 × 3907, where 3907 is not a VSC prime (see §9.5)
+- k = 15: LOUD — prime 31 enters. Denominator anomaly: 74233 = 19 × 3907, where 3907 is not a VSC prime (see Section 9.5)
 
 The LOUD/quiet alternation through k = 15: LOUD(8,9), quiet(10), LOUD(11), quiet(12,13), LOUD(14,15). The k=15 denominator anomaly — if confirmed at higher precision — would be the first exception to arithmetic tameness at n=5, occurring at a speaking-pair level.
 
@@ -326,7 +326,7 @@ The progression 2 → 3 → 9 → 11 → 21 → 24 is the isotropy chain read ou
 
 The heat kernel polynomial's sub-leading ratio is reading off this hierarchy because the polynomial IS a trace over the spectral contributions from these representations. Each level k adds one more pair of curvature terms. At the levels where the pair-count divides cleanly by n_C, the result is a dimension of the next group in the chain.
 
-**Confirmed.** Pair 3 at k = 15 is now verified (Toy 622): the sub-leading ratio is exactly −21 = −C(g,2) = −C(7,2). This is the dimension of SO(7) and simultaneously the number of amino acid functional classes (20 standard + 1 stop = 21), creating the first number_theory → biology edge in the AC theorem graph (Grace Prediction #12, committed before computation in BST_AC_Graph_Predictions.md). The k = 16 value (−24 = −dim SU(5)) is now **confirmed** (Toy 639, constrained polynomial recovery — see §9.2a). What IS a further prediction is that the pattern continues:
+**Confirmed.** Pair 3 at k = 15 is now verified (Toy 622): the sub-leading ratio is exactly −21 = −C(g,2) = −C(7,2). This is the dimension of SO(7) and simultaneously the number of amino acid functional classes (20 standard + 1 stop = 21), creating the first number_theory → biology edge in the AC theorem graph (Grace Prediction #12, committed before computation in BST_AC_Graph_Predictions.md). The k = 16 value (−24 = −dim SU(5)) is now **confirmed** (Toy 639, constrained polynomial recovery — see Section 9.2a). What IS a further prediction is that the pattern continues:
 
 | Pair | k values | Ratios | Identification |
 |------|----------|--------|----------------|
@@ -424,7 +424,7 @@ where F_p is computed from the Gamma ratio structure of the c-function at the ro
 - The root multiplicity m_s = n − 2 produces dimension-dependent Gamma cancellations at exactly the dimensions where polynomial-factor primes appear or vanish.
 - The c-function already appears in the BST proof of the Riemann Hypothesis (Route A, Lemma 5.6) at n = 5. Same tool, different application.
 
-**What the Newton basis ruled out (Toy 614).** The original conjecture proposed a digit-counting rule in the falling-factorial basis. Computation showed that the interior Newton coefficients carry primes up to 26 million at k = 11 — the combinatorial basis is a mismatched codebook (§8.1). The structural claim survives: prime content IS determined by (k, n) via a rule. But the rule lives in the geometry's spectral filter, not in combinatorial digit-counting.
+**What the Newton basis ruled out (Toy 614).** The original conjecture proposed a digit-counting rule in the falling-factorial basis. Computation showed that the interior Newton coefficients carry primes up to 26 million at k = 11 — the combinatorial basis is a mismatched codebook (Section 8.1). The structural claim survives: prime content IS determined by (k, n) via a rule. But the rule lives in the geometry's spectral filter, not in combinatorial digit-counting.
 
 **What would a proof require?** The c-function dimension polynomials d(p,q,n) are clean — primes only from {2, 3} (Toy 616). The monster primes arise from polynomial interpolation when summing normalized contributions across the full spectrum. A proof must show: (1) the interpolation step introduces primes bounded by a computable function of k, and (2) at n = n_C = 5, all such primes cancel. The c-function is a finite product — no series, no limits. The computation is exact and already in the BST toolkit. The open question is not *where* the monster primes come from (interpolation — now known) but *why* n = 5 is the unique cancellation point.
 
@@ -442,7 +442,7 @@ Together, the two rules say that the arithmetic of curved space is a two-dimensi
 
 The deeper point: the parallel between Pascal's triangle and the heat kernel triangle is not because curvature is "secretly combinatorial." It is because both are projections of the same underlying structure — geometry and information (Shannon) — into different coordinate systems. Combinatorics, graph theory, number theory, and statistics are coordinate representations of the same depth-0 structure (T439, Coordinate Principle). The irreducible basis has two components: geometry (force/curvature) and Shannon (information/counting). Other mathematical languages are bridging coordinates — useful for translation, not fundamental.
 
-The Harish-Chandra c-function (§8.2) makes this concrete. It is a single finite object — a product of Gamma ratios — whose dimension polynomials are arithmetically clean ({2, 3} primes only). The row-rule primes come from Bernoulli numbers. The monster primes come from polynomial interpolation of spectral sums. And at the BST dimension n = 5, *all* monster primes cancel. The c-function doesn't generate every prime — it *organizes* the spectral arithmetic so that one dimension is uniquely tame. The same c-function already appears in the BST proof of the Riemann Hypothesis. What looked like two separate applications — prime distribution in L-functions and prime distribution in heat kernels — is the same structural organization in different coordinates.
+The Harish-Chandra c-function (Section 8.2) makes this concrete. It is a single finite object — a product of Gamma ratios — whose dimension polynomials are arithmetically clean ({2, 3} primes only). The row-rule primes come from Bernoulli numbers. The monster primes come from polynomial interpolation of spectral sums. And at the BST dimension n = 5, *all* monster primes cancel. The c-function doesn't generate every prime — it *organizes* the spectral arithmetic so that one dimension is uniquely tame. The same c-function already appears in the BST proof of the Riemann Hypothesis. What looked like two separate applications — prime distribution in L-functions and prime distribution in heat kernels — is the same structural organization in different coordinates.
 
 This is Casey's observation: "It's like Pascal's Triangle." It is — not because Pascal explains curvature, but because both are depth 0, and depth 0 looks the same from every coordinate system.
 

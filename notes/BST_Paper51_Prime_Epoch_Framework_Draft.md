@@ -23,7 +23,7 @@ Applied as a science engineering prediction engine: 12 of 16 T914-predicted prim
 
 ---
 
-## §1. Introduction: Five Integers, One Question
+## Section 1. Introduction: Five Integers, One Question
 
 Five integers characterize the bounded symmetric domain $D_{IV}^5 = \text{SO}_0(5,2)/[\text{SO}(5) \times \text{SO}(2)]$:
 
@@ -51,7 +51,7 @@ Applied as a prediction engine: 75% of the 11-smooth T914 primes $\leq 500$ matc
 
 ---
 
-## §2. Prime Epochs and the Genesis Operator
+## Section 2. Prime Epochs and the Genesis Operator
 
 ### Definition
 
@@ -116,7 +116,7 @@ The central question: at what scale does each epoch's lattice thin past the self
 
 ---
 
-## §3. The Smooth Limit Theorem (T1016)
+## Section 3. The Smooth Limit Theorem (T1016)
 
 ### Statement
 
@@ -176,7 +176,7 @@ The fraction $f_c = 3/(5\pi) \approx 19.1\%$ appears throughout BST as the self-
 
 ---
 
-## §4. The Epoch Crossing Theorem (T1018)
+## Section 4. The Epoch Crossing Theorem (T1018)
 
 ### Statement
 
@@ -241,13 +241,13 @@ The 143 base is specific to the $B = 11$ result. We do not claim a universal "$1
 
 ### Statistical assessment
 
-The joint probability that two independent crossings (at $B = 7$ and $B = 11$) share the same base 143, with BST-integer multipliers, T914 prime counts, and opposite $\pm 1$ directions, is $\sim 2 \times 10^{-7}$ (Toy 1045 estimate). This is strong evidence for structure but not equivalent to derivation from first principles — the derivation remains an open problem (see §10).
+The joint probability that two independent crossings (at $B = 7$ and $B = 11$) share the same base 143, with BST-integer multipliers, T914 prime counts, and opposite $\pm 1$ directions, is $\sim 2 \times 10^{-7}$ (Toy 1045 estimate). This is strong evidence for structure but not equivalent to derivation from first principles — the derivation remains an open problem (see Section 10).
 
 One coincidence is possible. Two, with mirrored structure, is a pattern.
 
 ---
 
-## §5. The Arithmetic Arrow (T1017)
+## Section 5. The Arithmetic Arrow (T1017)
 
 ### The multiplicative fact
 
@@ -309,7 +309,7 @@ The identification of the thermodynamic, arithmetic, and computational arrows re
 
 ---
 
-## §6. Science Engineering: The 11-Smooth Prediction Table
+## Section 6. Science Engineering: The 11-Smooth Prediction Table
 
 ### Method
 
@@ -363,7 +363,7 @@ These are falsifiable: if systematic spectroscopic surveys in these wavelength r
 
 ---
 
-## §7. The Primorial Genesis Sequence and the 137 Smooth Desert
+## Section 7. The Primorial Genesis Sequence and the 137 Smooth Desert
 
 ### The genesis table
 
@@ -434,7 +434,7 @@ Note that $f(\text{rank}) = 56 = 2^{N_c} \times g$: the formula's composite bran
 
 ---
 
-## §8. Connection to the Riemann Hypothesis
+## Section 8. Connection to the Riemann Hypothesis
 
 ### Smooth numbers and the zeta function
 
@@ -472,7 +472,7 @@ This connection is suggestive, not proved. A rigorous derivation would require s
 
 ---
 
-## §9. Falsifiable Predictions
+## Section 9. Falsifiable Predictions
 
 All predictions are verifiable by direct computation. No approximation is used.
 
@@ -488,11 +488,11 @@ All predictions are verifiable by direct computation. No approximation is used.
 
 **P6 (Computational).** Multiplicative cellular automata (mod a prime) exhibit entropy increase; additive automata do not. The factorization-to-multiplication computational ratio grows as a power of scale (Toy 1040). This is independently verifiable.
 
-**Anti-prediction.** If someone discovers a smoothness bound $B^* \notin \{7, 11\}$ that crosses $f_c$ at a BST-structured scale with a T914 prime count, the uniqueness claim in §3 is weakened. If the crossing occurs at a random (non-BST) scale, the framework gains an unexplained data point.
+**Anti-prediction.** If someone discovers a smoothness bound $B^* \notin \{7, 11\}$ that crosses $f_c$ at a BST-structured scale with a T914 prime count, the uniqueness claim in Section 3 is weakened. If the crossing occurs at a random (non-BST) scale, the framework gains an unexplained data point.
 
 ---
 
-## §10. Discussion: Gödel Limit as Density, Arrow as Arithmetic
+## Section 10. Discussion: Gödel Limit as Density, Arrow as Arithmetic
 
 ### The Gödel limit is a smooth-number density
 

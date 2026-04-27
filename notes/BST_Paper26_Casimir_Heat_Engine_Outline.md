@@ -154,10 +154,10 @@ Either outcome is informative. That is what makes this science.
 
 ## Sections Pending Toy 918 Results
 
-- §5: Numerical efficiency values
-- §6: Power density estimates
-- §3: Optimal switching material dielectric constant
-- §9.3: Quantitative frequency prediction
+- Section 5: Numerical efficiency values
+- Section 6: Power density estimates
+- Section 3: Optimal switching material dielectric constant
+- Section 9.3: Quantitative frequency prediction
 
 ---
 

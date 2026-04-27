@@ -21,7 +21,7 @@ date: "March 2026"
 | Committed contact scale | d₀/l_Pl = α^14 × e^{-1/2} = 7.37×10^{-31} | 0.005% | BST_Lambda_Derivation.md |
 | d₀ physical value | d₀ = 1.19×10^{-65} m (30 orders below Planck) | exact | BST_Lambda_Derivation.md |
 | S¹ winding → e^{-1/2} | Three equivalent derivations: oscillator, winding, instanton | analytic | BST_Lambda_Derivation.md |
-| Friedmann equation | Contact commitment rate equation, all FLRW terms | exact structure | WorkingPaper §12.7 |
+| Friedmann equation | Contact commitment rate equation, all FLRW terms | exact structure | WorkingPaper Section 12.7 |
 | H₀ floor | 58.2 km/s/Mpc (backfit, model-independent) | numerical | Hubble_Estimates.md |
 | **Proton/electron mass ratio** | **m_p/m_e = (n_C+1)π^{n_C} = 6π^5 = 1836.118** | **0.002%** | **BST_ProtonMass.md** |
 | **Hierarchy / Newton's G** | **m_e/√(m_p·m_Pl) = α^{n_C+1} = α^6** | **0.017%** | **BST_GravitationalConstant.md** |

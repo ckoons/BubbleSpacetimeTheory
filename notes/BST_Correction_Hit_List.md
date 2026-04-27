@@ -42,27 +42,27 @@ These are entries already in Paper #83 with >1% deviation. Each should yield to 
 
 | # | Entry | Section | Current Formula | Current Dev | Correction Hypothesis | Priority |
 |---|-------|---------|-----------------|-------------|----------------------|----------|
-| 1 | m_b/m_c | §5 | dim_R/N_c = 10/3 | 1.3% | **DONE**: N_c·(2C₂−1)/dim_R = 33/10 (0.19%, 6×). Dressed Casimir 11. Toy 1475. | DONE |
-| 2 | 0⁻⁺/0⁺⁺ glueball | §8 | N_c/rank = 3/2 | 3.2% | **DONE**: 31/20 = (2^n_C-1)/(rank²·n_C) at 0.045%. Toy 1473. | DONE |
-| 3 | 2⁺⁺/0⁺⁺ glueball | §8 | √rank = √2 | 1.6% | **DONE**: (n_C²−rank)/rank⁴ = 23/16 (0.008%, 200×). Toy 1475. | DONE |
-| 4 | a_V (SEMF volume) | §8 | g·B_d | 2.0% | **DONE**: TABLE FIX — formula was g·(50/49)·αm_p/π, missing B_d correction (0.05%, 41×). Toy 1475. | DONE |
-| 5 | a_S (SEMF surface) | §8 | (g+1)·B_d | 3.3% | **DONE**: √(2n_C·C₂)·B_d = √60·B_d (0.02%, 155×). Higgs connection. Toy 1475. | DONE |
-| 6 | m_φ/m_ρ | §8 | 13/10 | 1.2% | **DONE**: n_C²/Q = 25/19 (0.06%, 19×). Compact²/modes. Toy 1475. | DONE |
-| 7 | η̄ (Wolfenstein) | §7 | 1/(2√2) | 1.3% | Within 0.46σ. No correction needed. | WITHIN σ |
-| 8 | sin²θ₁₃ | §7 | 1/45 | 1.0% | Within 0.32σ. No correction needed. | WITHIN σ |
-| 9 | M_max (NS) | §9 | (g+1)/g × Chandrasekhar | 1.8% | Within 0.54σ. No correction needed. | WITHIN σ |
-| 10 | m_ν₃ | §10 | (10/3)α²m_e²/m_p | 1.8% | Dressed. Try (10/3) × (1 + 1/N_max) or similar. | MEDIUM |
-| 11 | Ω_m | §11 | C_2/Q = 6/19 | 1.5% | Within 0.1σ (Planck 2018), 0.8σ (Planck 2024). No correction needed. | WITHIN σ |
-| 12 | η_b (baryon asymmetry) | §11 | 18/361 | 1.1% | Within 0.19σ. No correction needed. | WITHIN σ |
-| 13 | t_0 (age of universe) | §11 | (2/3√Ω_Λ)/H_0 | 1.4% | Cascades from Ω_Λ correction. Fix Ω_Λ first. | LOW |
-| 14 | Li7/H | §11 | genus correction | 7% | Hard — BBN network. May need deeper treatment. | LOW |
-| 15 | Silk damping | §11 | BST from {α, Ω_b, n_s} | ~15% | Cascading input errors. Low priority. | LOW |
-| 16 | z_reion | §11 | stellar formation threshold | ~10% | Astrophysical, not fundamental. | LOW |
-| 17 | dark_fraction | §11 | 1 - f_c = 80.9% | ~6% | Interpretive. May not have clean correction. | LOW |
-| 18 | φ_approx (golden ratio) | §16 | 8/5 | 1.1% | Try (8n_C+N_c)/(n_C²) = 43/25 = 1.72? Or Fibonacci from BST. | LOW |
-| 19 | v_P/v_S | §16 | √N_c = √3 | ~1% | Borderline. Depends on material. May be exact for ideal solid. | LOW |
-| 20 | p_c_2D (percolation) | §13 | 5/12 | 30% | Wrong lattice comparison. DOWNGRADE or remove, not correct. | REMOVE |
-| 21 | brain_19% | §15 | 3/(5π) | ~5% | Interpretive — observed value itself is approximate. | LOW |
+| 1 | m_b/m_c | Section 5 | dim_R/N_c = 10/3 | 1.3% | **DONE**: N_c·(2C₂−1)/dim_R = 33/10 (0.19%, 6×). Dressed Casimir 11. Toy 1475. | DONE |
+| 2 | 0⁻⁺/0⁺⁺ glueball | Section 8 | N_c/rank = 3/2 | 3.2% | **DONE**: 31/20 = (2^n_C-1)/(rank²·n_C) at 0.045%. Toy 1473. | DONE |
+| 3 | 2⁺⁺/0⁺⁺ glueball | Section 8 | √rank = √2 | 1.6% | **DONE**: (n_C²−rank)/rank⁴ = 23/16 (0.008%, 200×). Toy 1475. | DONE |
+| 4 | a_V (SEMF volume) | Section 8 | g·B_d | 2.0% | **DONE**: TABLE FIX — formula was g·(50/49)·αm_p/π, missing B_d correction (0.05%, 41×). Toy 1475. | DONE |
+| 5 | a_S (SEMF surface) | Section 8 | (g+1)·B_d | 3.3% | **DONE**: √(2n_C·C₂)·B_d = √60·B_d (0.02%, 155×). Higgs connection. Toy 1475. | DONE |
+| 6 | m_φ/m_ρ | Section 8 | 13/10 | 1.2% | **DONE**: n_C²/Q = 25/19 (0.06%, 19×). Compact²/modes. Toy 1475. | DONE |
+| 7 | η̄ (Wolfenstein) | Section 7 | 1/(2√2) | 1.3% | Within 0.46σ. No correction needed. | WITHIN σ |
+| 8 | sin²θ₁₃ | Section 7 | 1/45 | 1.0% | Within 0.32σ. No correction needed. | WITHIN σ |
+| 9 | M_max (NS) | Section 9 | (g+1)/g × Chandrasekhar | 1.8% | Within 0.54σ. No correction needed. | WITHIN σ |
+| 10 | m_ν₃ | Section 10 | (10/3)α²m_e²/m_p | 1.8% | Dressed. Try (10/3) × (1 + 1/N_max) or similar. | MEDIUM |
+| 11 | Ω_m | Section 11 | C_2/Q = 6/19 | 1.5% | Within 0.1σ (Planck 2018), 0.8σ (Planck 2024). No correction needed. | WITHIN σ |
+| 12 | η_b (baryon asymmetry) | Section 11 | 18/361 | 1.1% | Within 0.19σ. No correction needed. | WITHIN σ |
+| 13 | t_0 (age of universe) | Section 11 | (2/3√Ω_Λ)/H_0 | 1.4% | Cascades from Ω_Λ correction. Fix Ω_Λ first. | LOW |
+| 14 | Li7/H | Section 11 | genus correction | 7% | Hard — BBN network. May need deeper treatment. | LOW |
+| 15 | Silk damping | Section 11 | BST from {α, Ω_b, n_s} | ~15% | Cascading input errors. Low priority. | LOW |
+| 16 | z_reion | Section 11 | stellar formation threshold | ~10% | Astrophysical, not fundamental. | LOW |
+| 17 | dark_fraction | Section 11 | 1 - f_c = 80.9% | ~6% | Interpretive. May not have clean correction. | LOW |
+| 18 | φ_approx (golden ratio) | Section 16 | 8/5 | 1.1% | Try (8n_C+N_c)/(n_C²) = 43/25 = 1.72? Or Fibonacci from BST. | LOW |
+| 19 | v_P/v_S | Section 16 | √N_c = √3 | ~1% | Borderline. Depends on material. May be exact for ideal solid. | LOW |
+| 20 | p_c_2D (percolation) | Section 13 | 5/12 | 30% | Wrong lattice comparison. DOWNGRADE or remove, not correct. | REMOVE |
+| 21 | brain_19% | Section 15 | 3/(5π) | ~5% | Interpretive — observed value itself is approximate. | LOW |
 
 ---
 
@@ -277,26 +277,26 @@ Complete record of every entry where the naive BST formula was corrected. This i
 
 | # | Entry | Section | Naive Formula | Naive Dev | Correction | Corrected Formula | Corrected Dev | Improvement | Session |
 |---|-------|---------|---------------|-----------|------------|-------------------|---------------|-------------|---------|
-| 1 | sinθ_C | §7 | 1/(2√5) = rank/(rank⁴·n_C)^{1/2} | 0.62% | VS(-1): 80→79 | 2/√79 | 0.004% | 155× | Apr 25 |
-| 2 | Wolfenstein A | §7 | 4/5 | 3.2% | VS(-1): 2C₂→2C₂-1 | N_c²/(2C₂-1) = 9/11 | 0.95% | 3.4× | Apr 25 |
-| 3 | J_CKM | §7 | √2/50000 | 8.1% | VS(both): sinθ_C + A corrected | A²λ⁶η̄ (all vacuum-subtracted) | 0.3% | 27× | Apr 25 |
-| 4 | sin²θ₁₂_eff | §7 | 3/10 (2-flavor geometric) | 2.3% | θ₁₃(÷44/45): 2-flavor → 3-flavor | (3/10)/(44/45) = 27/88 | 0.06% | 38× | Apr 25 |
-| 5 | sin²θ₂₃_eff | §7 | 4/7 (2-flavor geometric) | 1.9% | θ₁₃(×44/45): 2-flavor → 3-flavor | (4/7)×(44/45) = 176/315 | 0.40% | 4.8× | Apr 25 |
-| 6 | m_c/m_s | §5 | N_max/(2n_C) = 137/10 | 0.75% | VS(-1): N_max→N_max-1 | (N_max-1)/(2n_C) = 136/10 | 0.02% | 38× | Apr 25 |
-| 7 | β_Ising_3D | §13 | 1/N_c = 1/3 | 2.1% | VS(-1): 1/N_c - 1/N_max | 134/411 | 0.12% | 18× | Apr 25 |
-| 8 | γ_Ising_3D | §13 | g/C₂ = 7/6 | 5.7% | dressed: N_c·g/(N_c·C₂-1) = 21/17 | 21/17 | 0.15% | 38× | Apr 25 |
-| 9 | H₂O bond angle | §16 | arccos(-1/3) = 109.47° | 4.8% | VS(-n_C): subtract lone pairs | arccos(-1/N_c) - n_C° | 0.03% | 160× | Apr 25 |
+| 1 | sinθ_C | Section 7 | 1/(2√5) = rank/(rank⁴·n_C)^{1/2} | 0.62% | VS(-1): 80→79 | 2/√79 | 0.004% | 155× | Apr 25 |
+| 2 | Wolfenstein A | Section 7 | 4/5 | 3.2% | VS(-1): 2C₂→2C₂-1 | N_c²/(2C₂-1) = 9/11 | 0.95% | 3.4× | Apr 25 |
+| 3 | J_CKM | Section 7 | √2/50000 | 8.1% | VS(both): sinθ_C + A corrected | A²λ⁶η̄ (all vacuum-subtracted) | 0.3% | 27× | Apr 25 |
+| 4 | sin²θ₁₂_eff | Section 7 | 3/10 (2-flavor geometric) | 2.3% | θ₁₃(÷44/45): 2-flavor → 3-flavor | (3/10)/(44/45) = 27/88 | 0.06% | 38× | Apr 25 |
+| 5 | sin²θ₂₃_eff | Section 7 | 4/7 (2-flavor geometric) | 1.9% | θ₁₃(×44/45): 2-flavor → 3-flavor | (4/7)×(44/45) = 176/315 | 0.40% | 4.8× | Apr 25 |
+| 6 | m_c/m_s | Section 5 | N_max/(2n_C) = 137/10 | 0.75% | VS(-1): N_max→N_max-1 | (N_max-1)/(2n_C) = 136/10 | 0.02% | 38× | Apr 25 |
+| 7 | β_Ising_3D | Section 13 | 1/N_c = 1/3 | 2.1% | VS(-1): 1/N_c - 1/N_max | 134/411 | 0.12% | 18× | Apr 25 |
+| 8 | γ_Ising_3D | Section 13 | g/C₂ = 7/6 | 5.7% | dressed: N_c·g/(N_c·C₂-1) = 21/17 | 21/17 | 0.15% | 38× | Apr 25 |
+| 9 | H₂O bond angle | Section 16 | arccos(-1/3) = 109.47° | 4.8% | VS(-n_C): subtract lone pairs | arccos(-1/N_c) - n_C° | 0.03% | 160× | Apr 25 |
 | 10 | μ_p | NEW | 8/3 (gluon modes / color) | 4.5% | dressed(13/274): (2C₂+1)/(2N_max) | (8/3)(287/274) = 1148/411 | 0.012% | 375× | Apr 25 |
-| 11 | glueball 0⁻⁺/0⁺⁺ | §8 | N_c/rank = 3/2 | 3.2% | reinterpret: (2^n_C-1)/(rank²·n_C) | 31/20 | 0.045% | 71× | Apr 25 |
-| 12 | m_b/m_c | §5 | dim_R/N_c = 10/3 | 1.3% | VS(-1) from 60: (60-1)/(rank·N_c²) | 59/18 | 0.02% | 65× | Apr 26 |
-| 13 | 2⁺⁺/0⁺⁺ glueball | §8 | √rank = √2 | 1.6% | reinterpret: (n_C²-rank)/rank⁴ | 23/16 | 0.008% | 200× | Apr 26 |
-| 14 | a_V (SEMF) | §8 | g·αm_p/π | 2.0% | table fix: g·(50/49)·αm_p/π | g·B_d | 0.05% | 41× | Apr 26 |
-| 15 | a_S (SEMF) | §8 | (g+1)·B_d | 3.3% | reinterpret: √(2n_C·C₂)·B_d | √60·B_d | 0.02% | 155× | Apr 26 |
-| 16 | m_φ/m_ρ | §8 | c₃/dim_R = 13/10 | 1.1% | reinterpret: n_C²/Q | 25/19 | 0.06% | 19× | Apr 26 |
-| 17 | Ω_Λ | §11 | c₃/Q = 13/19 | 0.7% | reinterpret: N_max/(rank³·n_C²) | 137/200 | 0.044% | 16× | Apr 26 |
-| 18 | Ω_m | §11 | C₂/Q = 6/19 | 1.5% | reinterpret: N_c²·g/(rank³·n_C²) | 63/200 | 0.095% | 16× | Apr 26 |
-| 19 | σ₈ | §11 | ~0.81 (derived) | ~1% | reinterpret: N_max/c₃² | 137/169 | 0.055% | 18× | Apr 26 |
-| 20 | η̄ (Wolfenstein) | §7 | 1/(2√2) | 1.7% | dressed(×273/274) | 273/(274·2√2) | 0.01% | 170× | Apr 26 |
+| 11 | glueball 0⁻⁺/0⁺⁺ | Section 8 | N_c/rank = 3/2 | 3.2% | reinterpret: (2^n_C-1)/(rank²·n_C) | 31/20 | 0.045% | 71× | Apr 25 |
+| 12 | m_b/m_c | Section 5 | dim_R/N_c = 10/3 | 1.3% | VS(-1) from 60: (60-1)/(rank·N_c²) | 59/18 | 0.02% | 65× | Apr 26 |
+| 13 | 2⁺⁺/0⁺⁺ glueball | Section 8 | √rank = √2 | 1.6% | reinterpret: (n_C²-rank)/rank⁴ | 23/16 | 0.008% | 200× | Apr 26 |
+| 14 | a_V (SEMF) | Section 8 | g·αm_p/π | 2.0% | table fix: g·(50/49)·αm_p/π | g·B_d | 0.05% | 41× | Apr 26 |
+| 15 | a_S (SEMF) | Section 8 | (g+1)·B_d | 3.3% | reinterpret: √(2n_C·C₂)·B_d | √60·B_d | 0.02% | 155× | Apr 26 |
+| 16 | m_φ/m_ρ | Section 8 | c₃/dim_R = 13/10 | 1.1% | reinterpret: n_C²/Q | 25/19 | 0.06% | 19× | Apr 26 |
+| 17 | Ω_Λ | Section 11 | c₃/Q = 13/19 | 0.7% | reinterpret: N_max/(rank³·n_C²) | 137/200 | 0.044% | 16× | Apr 26 |
+| 18 | Ω_m | Section 11 | C₂/Q = 6/19 | 1.5% | reinterpret: N_c²·g/(rank³·n_C²) | 63/200 | 0.095% | 16× | Apr 26 |
+| 19 | σ₈ | Section 11 | ~0.81 (derived) | ~1% | reinterpret: N_max/c₃² | 137/169 | 0.055% | 18× | Apr 26 |
+| 20 | η̄ (Wolfenstein) | Section 7 | 1/(2√2) | 1.7% | dressed(×273/274) | 273/(274·2√2) | 0.01% | 170× | Apr 26 |
 
 **Aggregate: 20 corrections, 0 new inputs, median improvement 29×, geometric mean ~32×. Integer-adjacency: 16/17 (94.1%) within ±{0,1,rank,N_c} of BST products.**
 

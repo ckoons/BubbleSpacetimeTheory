@@ -121,7 +121,7 @@ A ball rolling in a bowl finds the bottom. The bowl is the elliptic curve — it
 
 - **Rank >= 2 phantom exclusion** needs the D_3 rigidity argument made fully formal (K37 subtlety). The toy evidence (0/15 injectable in Toy 392) is overwhelming but the proof that D_3 rigidity excludes phantom zeros at all ranks requires a spectral permanence lemma.
 
-- ~~**The Planck Condition**~~ **RESOLVED (March 30).** T153 is now DERIVED from D_IV^5 geometry: (i) finite volume Vol = π⁵/1920 (Toy 307, BHC62), (ii) spectral discreteness (Rellich + Müller trace class + Arthur truncation), (iii) spectral gap C₂ = 6. No longer an axiom. See BST_AC_Theorems.md §T153.
+- ~~**The Planck Condition**~~ **RESOLVED (March 30).** T153 is now DERIVED from D_IV^5 geometry: (i) finite volume Vol = π⁵/1920 (Toy 307, BHC62), (ii) spectral discreteness (Rellich + Müller trace class + Arthur truncation), (iii) spectral gap C₂ = 6. No longer an axiom. See BST_AC_Theorems.md Section T153.
 
 - **Connection to Bloch-Kato** for higher-dimensional analogues. The AC framework should generalize — BSD for abelian varieties of dimension g should be AC(0) depth 1 with the same structure — but the D_3 decomposition needs to be replaced by the appropriate subgroup for g > 1.
 

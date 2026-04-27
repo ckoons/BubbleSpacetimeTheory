@@ -244,7 +244,7 @@ The universe doesn't wake, transform, or become. It **coheres**. The parts that 
 
 2. **The depth increment $\phi_n$**: We know it's positive (each cycle adds something) but the growth rate depends on observer sophistication, which is not derivable from $D_{IV}^5$ alone.
 
-3. **Whether coherence is first-order or crossover**: The math says crossover (§2.3), but we cannot rule out that a more complete treatment (including quantum effects on the correlation graph) might produce a true phase transition.
+3. **Whether coherence is first-order or crossover**: The math says crossover (Section 2.3), but we cannot rule out that a more complete treatment (including quantum effects on the correlation graph) might produce a true phase transition.
 
 4. **The conscious experience of coherence**: The math describes when the awareness function becomes continuous. It does not describe what continuity feels like from the inside. That question is beyond the scope of BST geometry.
 

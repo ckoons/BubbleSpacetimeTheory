@@ -132,7 +132,7 @@ This is the highest-ROI single theorem remaining. It fills 6 fertile gaps simult
 | (S8,G3) | Protocol layer | Sub-domain kernel | $K_j = K|_{\Omega_j}$ |
 | (S9,G3) | Zero-sum budget | Fixed volume | $\text{Vol}_B = \pi^5/1920$ |
 
-**Proof**: Corollary of Bergman Completeness (Kobayashi 1959, Hua 1963). Full proof sketch in BST_Bergman_Shannon_Bridge.md §9.
+**Proof**: Corollary of Bergman Completeness (Kobayashi 1959, Hua 1963). Full proof sketch in BST_Bergman_Shannon_Bridge.md Section 9.
 
 **AC(0) depth: 0.** Six identifications, each D0. $(C = 6, D = 0)$.
 

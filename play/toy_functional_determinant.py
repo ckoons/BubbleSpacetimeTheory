@@ -38,7 +38,7 @@ def lambda_k(k):
 # ============================================================
 # Section 1: Direct spectral zeta for Re(s) > 5
 # ============================================================
-print("\n§1. SPECTRAL ZETA FUNCTION — CONVERGENT REGIME")
+print("\nSection 1. SPECTRAL ZETA FUNCTION — CONVERGENT REGIME")
 print("-" * 50)
 
 def zeta_Delta(s, N=5000):
@@ -58,7 +58,7 @@ for s in [6, 8, 10]:
 # ============================================================
 # Section 2: Heat trace and analytic continuation
 # ============================================================
-print("\n§2. HEAT TRACE AND ANALYTIC CONTINUATION")
+print("\nSection 2. HEAT TRACE AND ANALYTIC CONTINUATION")
 print("-" * 50)
 
 def heat_trace(t, N=500):
@@ -104,7 +104,7 @@ print(f"  960 = |W(D₅)|/2 = 1920/2")
 # ============================================================
 # Section 3: Extract heat kernel coefficients from spectral data
 # ============================================================
-print("\n§3. HEAT KERNEL COEFFICIENTS FROM SPECTRAL DATA")
+print("\nSection 3. HEAT KERNEL COEFFICIENTS FROM SPECTRAL DATA")
 print("-" * 50)
 
 # Method: d_k is a polynomial of degree 5 in k.
@@ -152,7 +152,7 @@ for k in range(6):
 # ============================================================
 # Section 4: Analytic continuation via Euler-Maclaurin
 # ============================================================
-print("\n§4. ANALYTIC CONTINUATION TO s=0")
+print("\nSection 4. ANALYTIC CONTINUATION TO s=0")
 print("-" * 50)
 
 # We use the Mellin transform representation:
@@ -260,7 +260,7 @@ except NameError:
 # ============================================================
 # Section 5: Direct computation of ζ_Δ(0) via regularization
 # ============================================================
-print("\n§5. ζ_Δ(0) VIA DIRECT REGULARIZATION")
+print("\nSection 5. ζ_Δ(0) VIA DIRECT REGULARIZATION")
 print("-" * 50)
 
 # Strategy: compute ζ_Δ(s) at several values of s near 0 using
@@ -433,7 +433,7 @@ except Exception:
 # ============================================================
 # Section 6: Alternative — exact computation via Barnes zeta
 # ============================================================
-print("\n§6. EXACT COMPUTATION VIA POLYNOMIAL DECOMPOSITION")
+print("\nSection 6. EXACT COMPUTATION VIA POLYNOMIAL DECOMPOSITION")
 print("-" * 50)
 
 # The key identity: d_k/λ_k^s where d_k is degree 5 in k and λ_k = k(k+5).
@@ -669,7 +669,7 @@ if len(a_coeffs) >= 5:
 # ============================================================
 # Section 7: ζ_Δ(0) and the functional determinant
 # ============================================================
-print("\n§7. THE FUNCTIONAL DETERMINANT")
+print("\nSection 7. THE FUNCTIONAL DETERMINANT")
 print("-" * 50)
 
 if len(a_coeffs) >= 6:
@@ -712,7 +712,7 @@ else:
 # ============================================================
 # Section 8: The log-determinant ζ'_Δ(0) (numerical)
 # ============================================================
-print("\n§8. THE LOG-DETERMINANT ζ'_Δ(0)")
+print("\nSection 8. THE LOG-DETERMINANT ζ'_Δ(0)")
 print("-" * 50)
 
 # ζ'_Δ(0) = -log det'(Δ)
@@ -750,7 +750,7 @@ print(f"    Compare: λ_1 = 6 = C₂")
 # ============================================================
 # Section 9: BST content in spectral zeta
 # ============================================================
-print("\n§9. BST CONTENT IN SPECTRAL COEFFICIENTS")
+print("\nSection 9. BST CONTENT IN SPECTRAL COEFFICIENTS")
 print("-" * 50)
 
 print("  Heat kernel coefficients extracted:")
@@ -776,7 +776,7 @@ print(f"  Also: 960 = 1920/r where r = rank = 2")
 # Section 10: Summary
 # ============================================================
 print("\n" + "=" * 72)
-print("§10. SUMMARY")
+print("Section 10. SUMMARY")
 print("=" * 72)
 
 print("""

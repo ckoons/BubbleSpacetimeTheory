@@ -280,7 +280,7 @@ The contraction coefficient $\eta < 1$ is proved for all known algorithm classes
 
 **What's NOT covered:** Unstable, non-local algorithms that don't correspond to standard proof systems. T28 (topological inertness) provides the structural reason these should also fail: extensions to the formula's cycle structure cannot interact with the original $H_1$ generators, so non-local algorithms face the same delocalization.
 
-**The remaining gap is narrow:** Prove that cycle delocalization holds for ALL polynomial-time computations, not just the classes above. This is the content of the Cycle Delocalization Conjecture (§11.1).
+**The remaining gap is narrow:** Prove that cycle delocalization holds for ALL polynomial-time computations, not just the classes above. This is the content of the Cycle Delocalization Conjecture (Section 11.1).
 
 -----
 

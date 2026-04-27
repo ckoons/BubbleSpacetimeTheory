@@ -339,7 +339,7 @@ print()
 print(f"  Every BST integer in Grace's census clears the ≥ 3 strict threshold.")
 print(f"  The overdetermination signature survives the stricter rule.")
 print()
-print(f"  Paper #66 §10.5 gets BOTH:")
+print(f"  Paper #66 Section 10.5 gets BOTH:")
 print(f"    • Grace's loose-rule table (73 routes, avg 5.2)")
 print(f"    • This strict-taxonomy floor ({total_strict} primitives, avg "
       f"{total_strict / 14:.2f})")

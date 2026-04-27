@@ -54,7 +54,7 @@ $$n_C = \frac{(g-1)(g-2)}{6} = \frac{(2n_C-4)(2n_C-5)}{6}$$
 
 $$\implies n_C^2 - 6n_C + 5 = 0 \implies (n_C - 1)(n_C - 5) = 0$$
 
-**This identity holds uniquely for $n_C = 5$** (excluding the trivial $n_C = 1$). The fact that the matter content of the fiber tiling equals $C_2 \times g$ is not an accident — it is condition (C) from the fiber tiling uniqueness theorem (§35.4 of WorkingPaper).
+**This identity holds uniquely for $n_C = 5$** (excluding the trivial $n_C = 1$). The fact that the matter content of the fiber tiling equals $C_2 \times g$ is not an accident — it is condition (C) from the fiber tiling uniqueness theorem (Section 35.4 of WorkingPaper).
 
 -----
 
@@ -90,9 +90,9 @@ $$\boxed{\Omega_m^{(B)} = \frac{\dim(V_1 \oplus \Lambda^3 V_1)}{N_{\max}} = \fra
 
 $$147 = \underbrace{42}_{\text{matter}} + \underbrace{105}_{\text{vacuum}}$$
 
-by the $\mathrm{SO}(7)$ representation theory of the fiber tiling (§35.4).
+by the $\mathrm{SO}(7)$ representation theory of the fiber tiling (Section 35.4).
 
-The channel capacity $N_{\max} = 137 = N_{\text{fiber}} - \dim_{\mathbb{R}}$ (the 147–137 gap identity, §35.3).
+The channel capacity $N_{\max} = 137 = N_{\text{fiber}} - \dim_{\mathbb{R}}$ (the 147–137 gap identity, Section 35.3).
 
 The matter content is topologically fixed at 42 by the $Z_3$ closure and uniqueness condition (C). The vacuum sector absorbs the geometric overhead:
 

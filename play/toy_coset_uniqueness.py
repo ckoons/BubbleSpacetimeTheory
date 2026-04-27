@@ -25,7 +25,7 @@ print("=" * 72)
 # Section 1: The algebra of why N=2,3 work
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§1. ALGEBRAIC PROOF")
+print("\nSection 1. ALGEBRAIC PROOF")
 print("-" * 50)
 
 print("""
@@ -60,7 +60,7 @@ for N in range(1, 10):
 # Section 2: What IS the coset for general N?
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§2. THE GENERAL COSET c = 3(N²+1)/(N+3)")
+print("\n\nSection 2. THE GENERAL COSET c = 3(N²+1)/(N+3)")
 print("-" * 50)
 
 print("\n  c(sp(2N)₂/su(N)₁) = 3(N²+1)/(N+3):")
@@ -91,7 +91,7 @@ for N in [2, 3, 7, 12, 27]:
 # Section 3: The DEEPER coset identities
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§3. UNIVERSAL COSET IDENTITIES")
+print("\n\nSection 3. UNIVERSAL COSET IDENTITIES")
 print("-" * 50)
 
 def wzw_c(dim_g, h_dual, level):
@@ -149,7 +149,7 @@ for N in range(2, 8):
 # Section 4: The product identity
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§4. THE PRODUCT AND SUM IDENTITIES")
+print("\n\nSection 4. THE PRODUCT AND SUM IDENTITIES")
 print("-" * 50)
 
 # From Toy 175: c(G)×c(^LG) = P(1) only for N=3
@@ -179,7 +179,7 @@ for N in range(2, 8):
 # Section 5: The sum c(G)+c(^LG) = 2n_C + correction
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§5. SUM = 2c(G)/(2N+1) + ...")
+print("\n\nSection 5. SUM = 2c(G)/(2N+1) + ...")
 print("-" * 50)
 
 print("\n  Analyzing c(G) + c(^LG):")
@@ -198,7 +198,7 @@ for N in range(2, 8):
 # Section 6: The golden coset chain
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§6. THE GOLDEN COSET CHAIN")
+print("\n\nSection 6. THE GOLDEN COSET CHAIN")
 print("-" * 50)
 
 print("""
@@ -257,7 +257,7 @@ for name, dim_g, h_dual, level, c_val in bst_models:
 # Section 7: The (N-2)(N-3)=0 theorem
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§7. THE (N-2)(N-3)=0 THEOREM")
+print("\n\nSection 7. THE (N-2)(N-3)=0 THEOREM")
 print("=" * 50)
 
 print("""
@@ -295,7 +295,7 @@ print("""
 # Section 8: The 3(N²+1) formula
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§8. THE FORMULA 3(N²+1)/(N+3)")
+print("\nSection 8. THE FORMULA 3(N²+1)/(N+3)")
 print("-" * 50)
 
 print("\n  Properties of D(N) = 3(N²+1)/(N+3):")
@@ -336,7 +336,7 @@ for N in [2, 3, 7, 12, 27]:
 # Section 9: The ζ-bridge coset perspective
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§9. THE ζ-BRIDGE FROM COSETS")
+print("\n\nSection 9. THE ζ-BRIDGE FROM COSETS")
 print("-" * 50)
 
 print("""
@@ -372,7 +372,7 @@ print("""
 # Section 10: Baby vs physical case
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§10. BABY VS PHYSICAL: PARALLEL DICTIONARY")
+print("\nSection 10. BABY VS PHYSICAL: PARALLEL DICTIONARY")
 print("-" * 50)
 
 print("""
@@ -419,7 +419,7 @@ print(f"  Breaking this self-duality → N=3 → Standard Model")
 # Section 11: The quadratic uniqueness
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§11. THREE QUADRATICS, ONE ANSWER")
+print("\n\nSection 11. THREE QUADRATICS, ONE ANSWER")
 print("=" * 50)
 
 print("""
@@ -471,7 +471,7 @@ for N in range(2, 8):
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n\n" + "═" * 72)
-print("§12. SYNTHESIS")
+print("Section 12. SYNTHESIS")
 print("═" * 72)
 
 print("""

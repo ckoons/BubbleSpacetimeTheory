@@ -1192,9 +1192,9 @@ def main():
     print("=" * 70)
     print()
 
-    # ── §1: RIEMANN TENSOR IN CLOSED FORM ──
+    # ── Section 1: RIEMANN TENSOR IN CLOSED FORM ──
     print("  " + "─" * 60)
-    print("  §1  RIEMANN TENSOR OF Q^n FROM LIE ALGEBRA")
+    print("  Section 1  RIEMANN TENSOR OF Q^n FROM LIE ALGEBRA")
     print("  " + "─" * 60)
     print()
     print("    R_{(ia)(jb)(kc)(ld)} = -2δ_{ij}δ_{kl}(δ_{bc}δ_{ad} - δ_{ac}δ_{bd})")
@@ -1203,9 +1203,9 @@ def main():
     print("    (Derived from [P_{i,a}, P_{j,b}] = -δ_{ij}E_{n+a,n+b} - δ_{ab}E_{ij})")
     print()
 
-    # ── §2: CURVATURE INVARIANTS FOR n = 3..8 ──
+    # ── Section 2: CURVATURE INVARIANTS FOR n = 3..8 ──
     print("  " + "─" * 60)
-    print("  §2  CURVATURE INVARIANTS (orthonormal frame)")
+    print("  Section 2  CURVATURE INVARIANTS (orthonormal frame)")
     print("  " + "─" * 60)
 
     n_vals = [3, 4, 5, 6, 7, 8]
@@ -1228,10 +1228,10 @@ def main():
         ein_err = abs(inv['Ric2'] - R**2 / d) / abs(inv['Ric2'])
         print(f"      Einstein: {'✓' if ein_err < 1e-10 else '✗'} (|Ric|² = R²/d, err={ein_err:.2e})")
 
-    # ── §3: COMPUTE NUMERICAL a₄ ──
+    # ── Section 3: COMPUTE NUMERICAL a₄ ──
     print()
     print("  " + "─" * 60)
-    print("  §3  NUMERICAL a₄(n) FROM HEAT TRACES")
+    print("  Section 3  NUMERICAL a₄(n) FROM HEAT TRACES")
     print("  " + "─" * 60)
 
     a4_numerical = {}
@@ -1241,10 +1241,10 @@ def main():
         a4_numerical[n] = a4
         print(f" a₄ = {a4:.4f}")
 
-    # ── §4: GILKEY COEFFICIENT EXTRACTION ──
+    # ── Section 4: GILKEY COEFFICIENT EXTRACTION ──
     print()
     print("  " + "─" * 60)
-    print("  §4  GILKEY FORMULA: a₄ = Σ α_j Q_j")
+    print("  Section 4  GILKEY FORMULA: a₄ = Σ α_j Q_j")
     print("  " + "─" * 60)
 
     # On an Einstein space, the independent quartic invariants are:
@@ -1293,10 +1293,10 @@ def main():
         print(f"    ║  α[{name:>10s}] = {a:>20.12e}  ║")
     print(f"    ╚═══════════════════════════════════════════════╝")
 
-    # ── §5: VERIFICATION AND a₄(5) ──
+    # ── Section 5: VERIFICATION AND a₄(5) ──
     print()
     print("  " + "─" * 60)
-    print("  §5  VERIFICATION: Gilkey vs Numerical")
+    print("  Section 5  VERIFICATION: Gilkey vs Numerical")
     print("  " + "─" * 60)
 
     a4_gilkey = {}
@@ -1314,10 +1314,10 @@ def main():
     print(f"\n    Max relative error: {max_err:.2e}")
     fit_ok = max_err < 0.001
 
-    # ── §6: EXACT a₄(5) ──
+    # ── Section 6: EXACT a₄(5) ──
     print()
     print("  " + "─" * 60)
-    print("  §6  EXACT a₄(Q⁵)")
+    print("  Section 6  EXACT a₄(Q⁵)")
     print("  " + "─" * 60)
 
     inv5 = invariants[5]
@@ -1339,10 +1339,10 @@ def main():
     exact_match = abs(a4_gilkey_5 - 2671 / 18) < 0.01
     cross147 = abs(a4_gilkey_5 - 147) < 2  # crossing ≈ 147
 
-    # ── §7: CLOSED-FORM INVARIANTS AS POLYNOMIALS IN n ──
+    # ── Section 7: CLOSED-FORM INVARIANTS AS POLYNOMIALS IN n ──
     print()
     print("  " + "─" * 60)
-    print("  §7  CURVATURE INVARIANTS AS POLYNOMIALS IN n")
+    print("  Section 7  CURVATURE INVARIANTS AS POLYNOMIALS IN n")
     print("  " + "─" * 60)
 
     print(f"\n    In orthonormal frame (code metric / 4):")
@@ -1384,10 +1384,10 @@ def main():
                         print(f"      n^{k}: {c:.6f}")
                 break
 
-    # ── §8: a₄(n) IN CLOSED FORM ──
+    # ── Section 8: a₄(n) IN CLOSED FORM ──
     print()
     print("  " + "─" * 60)
-    print("  §8  a₄(n) IN CLOSED FORM")
+    print("  Section 8  a₄(n) IN CLOSED FORM")
     print("  " + "─" * 60)
 
     # a₄(n) = Σ α_j Q_j(n) where Q_j(n) are polynomials in n (in ON frame)
@@ -1456,10 +1456,10 @@ def main():
 
     match_2671_18 = abs(a4_spec_5 - 2671 / 18) < 0.1
 
-    # ── §9: SUMMARY ──
+    # ── Section 9: SUMMARY ──
     print()
     print("  " + "═" * 60)
-    print("  §9  SUMMARY")
+    print("  Section 9  SUMMARY")
     print("  " + "═" * 60)
 
     checks_pass = 0

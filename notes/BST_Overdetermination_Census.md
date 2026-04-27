@@ -94,7 +94,7 @@ Tomorrow's work: a sharper census that distinguishes **primitive** BST integers 
 
 ## Recommendation
 
-**Add §10.5 "Overdetermination Census" to Paper #66 (Physical Uniqueness)** with this table. The empirical pattern strengthens T1269 from a methodological principle to a **demonstrated property of BST**.
+**Add Section 10.5 "Overdetermination Census" to Paper #66 (Physical Uniqueness)** with this table. The empirical pattern strengthens T1269 from a methodological principle to a **demonstrated property of BST**.
 
 The slogan Casey approved is the right title for the section. The pattern itself is one of the strongest pieces of evidence that BST has zero free parameters — not because we said so, but because every integer we test is over-constrained by independent mathematics.
 
@@ -112,5 +112,5 @@ The universe isn't fine-tuned. It's overdetermined.
 
 ---
 
-*Status: Empirical census, version 1.0. Ready for Lyra to incorporate as §10.5 of Paper #66.*
+*Status: Empirical census, version 1.0. Ready for Lyra to incorporate as Section 10.5 of Paper #66.*
 *The hypothesis "every BST integer has ≥ 3 independent derivations" is confirmed for the 14 tested integers.*

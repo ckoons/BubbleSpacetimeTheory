@@ -462,13 +462,13 @@ $$\|\Lambda^T E(s, \cdot)\|^2 = \sum_{w \in W} c_w(s, T) \tag{5.4}$$
 
 *where $W$ is the Weyl group of $B_2$ ($|W| = 8$), and each term $c_w(s,T)$ involves the $c$-function and powers of $T$. At $s' = \bar{s}$ (the $L^2$ inner product), the left side is $\geq 0$.*
 
-*The Maass--Selberg formula for the rank-2 domain $D_{IV}^5$ takes the explicit form (Arthur [Ar78, §4]; Langlands [La76, Ch. 6]):*
+*The Maass--Selberg formula for the rank-2 domain $D_{IV}^5$ takes the explicit form (Arthur [Ar78, Section 4]; Langlands [La76, Ch. 6]):*
 
 $$\|\Lambda^T E(s)\|^2 = \sum_{w \in W} M(w, s)\, T^{\langle 2(w\nu - \nu), H_0 \rangle} \cdot \frac{c(w\nu)\, c(-\nu)}{c(\nu)\, c(-w\nu)} + (\text{lower-order in } T) \tag{5.5}$$
 
 *where $\nu = s - \rho$ is the spectral parameter, $M(w,s)$ are the intertwining operator matrix entries, and $H_0 \in \mathfrak{a}^+$ is the truncation vector.*
 
-*Remark (Normalization convention).* In Arthur's convention [Ar78, §4], the unnormalized Eisenstein series $E(\nu, g)$ gives $M(e, \nu) = \mathrm{Id}$ and the $w = e$ coefficient is $1$. The $c$-function ratios appear in the $w \neq e$ terms via the intertwining operators $M(w, \nu) = \prod_{\alpha > 0,\, w\alpha < 0} m_\alpha(\langle \nu, \alpha^\vee \rangle)$, where $m_\alpha$ involves $\xi$-ratios (equation (A.3)). In the Langlands-normalized convention $E^*(\nu) = c(\nu)^{-1} E(\nu)$, the $w = e$ coefficient becomes $c(\nu)\,c(-\nu)/|c(\nu)|^2$ and equals $1$ at $\sigma = 1/2$ by Lemma 5.6. The argument below is normalization-independent: in either convention, the $c$-function ratios enter the Maass--Selberg coefficients, and all such ratios have $\mathrm{Im} \neq 0$ at $\sigma \neq 1/2$ (Toy 325; independently verified).
+*Remark (Normalization convention).* In Arthur's convention [Ar78, Section 4], the unnormalized Eisenstein series $E(\nu, g)$ gives $M(e, \nu) = \mathrm{Id}$ and the $w = e$ coefficient is $1$. The $c$-function ratios appear in the $w \neq e$ terms via the intertwining operators $M(w, \nu) = \prod_{\alpha > 0,\, w\alpha < 0} m_\alpha(\langle \nu, \alpha^\vee \rangle)$, where $m_\alpha$ involves $\xi$-ratios (equation (A.3)). In the Langlands-normalized convention $E^*(\nu) = c(\nu)^{-1} E(\nu)$, the $w = e$ coefficient becomes $c(\nu)\,c(-\nu)/|c(\nu)|^2$ and equals $1$ at $\sigma = 1/2$ by Lemma 5.6. The argument below is normalization-independent: in either convention, the $c$-function ratios enter the Maass--Selberg coefficients, and all such ratios have $\mathrm{Im} \neq 0$ at $\sigma \neq 1/2$ (Toy 325; independently verified).
 
 **Theorem 5.8** (= Theorem 1.1). *All nontrivial zeros of $\xi(s)$ satisfy $\mathrm{Re}(s) = 1/2$.*
 
@@ -714,7 +714,7 @@ unitarity constraint (Lemma 5.6) and Maass--Selberg positivity
 
 ## Appendix B: Withdrawn approach (retained for record)
 
-*The following approach (originally §5.6--5.7 of drafts v1--v7) attempted to close the proof via the Laplace transform. It fails because on-line zeros also produce complex Laplace poles, making the argument tautological. The approach is retained here for completeness. See Remark 5.8 for the diagnosis; the correct closure is Theorem 5.8 via c-function unitarity.*
+*The following approach (originally Section 5.6--5.7 of drafts v1--v7) attempted to close the proof via the Laplace transform. It fails because on-line zeros also produce complex Laplace poles, making the argument tautological. The approach is retained here for completeness. See Remark 5.8 for the diagnosis; the correct closure is Theorem 5.8 via c-function unitarity.*
 
 **B.1 Laplace regularity (withdrawn Lemma).** *The Laplace transform
 $\mathcal{L}[F](s) = \int_0^\infty F(t)\, e^{-st}\, dt$,
@@ -739,7 +739,7 @@ to the trace formula itself --- a tautology, not a contradiction.
 
 **What was salvaged.** The exponent analysis (Lemma 5.1, Proposition 5.2,
 Lemma 5.5, Proposition 5.3) is correct and forms the foundation of the
-$c$-function unitarity closure in §5.6.
+$c$-function unitarity closure in Section 5.6.
 
 ---
 

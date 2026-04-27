@@ -3,7 +3,7 @@ title: "L14: Conditional Feasible Interpolation for EF on LDPC Formulas"
 author: "Lyra"
 date: "March 22, 2026"
 status: "Research brief — ready to investigate"
-depends: "Toy 323 (LDPC lifting gadget, 4/6 PASS), §12.14 DPI framework (PROVED), Krajíček 1997"
+depends: "Toy 323 (LDPC lifting gadget, 4/6 PASS), Section 12.14 DPI framework (PROVED), Krajíček 1997"
 ---
 
 # L14: Conditional Feasible Interpolation for EF on LDPC Formulas

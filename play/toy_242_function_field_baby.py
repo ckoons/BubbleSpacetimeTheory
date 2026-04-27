@@ -26,7 +26,7 @@ print("=" * 72)
 
 # ─── Section 1: The zeta function of a curve over F_q ─────────────────
 
-print("\n§1. Zeta function of an elliptic curve over F_q")
+print("\nSection 1. Zeta function of an elliptic curve over F_q")
 print("-" * 50)
 
 # Use q = 5, genus 1 elliptic curve (simplest case with nontrivial zeros)
@@ -71,7 +71,7 @@ if np.isclose(sigma_frob, 0.5, atol=1e-10):
 
 # ─── Section 2: Baby case — Sp(4), m_s = 1, D₁ kernel ────────────────
 
-print("\n§2. Baby Case: Sp(4) ≅ SO₀(3,2), m_s = 1")
+print("\nSection 2. Baby Case: Sp(4) ≅ SO₀(3,2), m_s = 1")
 print("-" * 50)
 
 m_s_baby = 1
@@ -116,7 +116,7 @@ if len(shifts_baby) == 1:
 
 # ─── Section 3: Full case — SO₀(5,2), m_s = 3, D₃ kernel ─────────────
 
-print("\n§3. Full Case: SO₀(5,2), m_s = 3")
+print("\nSection 3. Full Case: SO₀(5,2), m_s = 3")
 print("-" * 50)
 
 m_s_full = 3
@@ -167,7 +167,7 @@ if np.isclose(kill_shot, 3.0):
 
 # ─── Section 4: Dirichlet kernel comparison ───────────────────────────
 
-print("\n§4. Dirichlet Kernel Comparison")
+print("\nSection 4. Dirichlet Kernel Comparison")
 print("-" * 50)
 
 # D_1(x) = cos(x)
@@ -197,7 +197,7 @@ print("These are fixed spectral locations — the filter's null directions")
 
 # ─── Section 5: The co-embedding structure ────────────────────────────
 
-print("\n§5. Co-Embedding: Function Field vs Number Field")
+print("\nSection 5. Co-Embedding: Function Field vs Number Field")
 print("-" * 50)
 
 print("""
@@ -228,7 +228,7 @@ print("  ✓ Positive test: m_s = 3 sufficient over Q")
 
 # ─── Section 6: Off-line test — detuning from Frobenius ───────────────
 
-print("\n§6. Off-Line Test: What If |α| ≠ q^(1/2)?")
+print("\nSection 6. Off-Line Test: What If |α| ≠ q^(1/2)?")
 print("-" * 50)
 
 # Hypothetical off-line Frobenius eigenvalue
@@ -259,7 +259,7 @@ print(f"The D₃ kernel forces σ = 1/2 regardless of Frobenius")
 
 # ─── Section 7: The 147 connection ────────────────────────────────────
 
-print("\n§7. Connection to Fiber Packing")
+print("\nSection 7. Connection to Fiber Packing")
 print("-" * 50)
 
 N_c = 3
@@ -294,7 +294,7 @@ if 7 + 35 + 105 == fiber_packing:
 
 # ─── Section 8: The information-theoretic summary ─────────────────────
 
-print("\n§8. Information-Theoretic Summary")
+print("\nSection 8. Information-Theoretic Summary")
 print("-" * 50)
 
 print("""

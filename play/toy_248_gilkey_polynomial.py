@@ -436,18 +436,18 @@ def main():
     print("=" * 70)
     print()
 
-    # ── §1: VERIFY DIMENSION FORMULAS ──
+    # ── Section 1: VERIFY DIMENSION FORMULAS ──
     print("  " + "─" * 60)
-    print("  §1  SO(N) WEYL DIMENSION FORMULA VERIFICATION")
+    print("  Section 1  SO(N) WEYL DIMENSION FORMULA VERIFICATION")
     print("  " + "─" * 60)
     checks, total = verify_dim_formulas()
     dim_ok = (checks == total)
     print(f"    {checks}/{total} dimension checks passed: {'ALL ✓' if dim_ok else 'FAILURES ✗'}")
     print()
 
-    # ── §2: COMPUTE a₁(n) ACROSS FAMILY (quick validation) ──
+    # ── Section 2: COMPUTE a₁(n) ACROSS FAMILY (quick validation) ──
     print("  " + "─" * 60)
-    print("  §2  a₁(n) VALIDATION: should give (2n²-3)/6")
+    print("  Section 2  a₁(n) VALIDATION: should give (2n²-3)/6")
     print("  " + "─" * 60)
 
     n_range = list(range(3, 13))  # n = 3, 4, ..., 12
@@ -472,9 +472,9 @@ def main():
     print(f"\n    a₁ formula R_spec = 2n²-3 confirmed for n=3..12: {'YES ✓' if a1_ok else 'FAILURES'}")
     print()
 
-    # ── §3: COMPUTE a₄(n) ACROSS FAMILY ──
+    # ── Section 3: COMPUTE a₄(n) ACROSS FAMILY ──
     print("  " + "─" * 60)
-    print("  §3  a₄(n) EXTRACTION: n = 3, ..., 12")
+    print("  Section 3  a₄(n) EXTRACTION: n = 3, ..., 12")
     print("  " + "─" * 60)
 
     a4_data = {}
@@ -516,9 +516,9 @@ def main():
 
     print()
 
-    # ── §4: POLYNOMIAL INTERPOLATION ──
+    # ── Section 4: POLYNOMIAL INTERPOLATION ──
     print("  " + "─" * 60)
-    print("  §4  POLYNOMIAL RECONSTRUCTION (Lagrange, exact rational)")
+    print("  Section 4  POLYNOMIAL RECONSTRUCTION (Lagrange, exact rational)")
     print("  " + "─" * 60)
 
     n_vals = sorted(a4_data.keys())
@@ -584,10 +584,10 @@ def main():
     if len(terms) > 5:
         print(f"           + {' + '.join(terms[5:])}")
 
-    # ── §5: THE ANSWER ──
+    # ── Section 5: THE ANSWER ──
     print()
     print("  " + "─" * 60)
-    print("  §5  P(5): THE ANSWER")
+    print("  Section 5  P(5): THE ANSWER")
     print("  " + "─" * 60)
 
     a4_exact_5 = eval_polynomial(poly_coeffs, 5)
@@ -619,10 +619,10 @@ def main():
         print(f"      n={n_val:2d}: P(n) = {a4_poly:>12.4f}, numerical = {a4_num:>12.4f}, "
               f"err = {err:.2e}, N_c g² = {Ncg2:>6d}, ratio = {ratio:.6f}")
 
-    # ── §6: SOLVE a₄(n) = (n-2)(2n-3)² ──
+    # ── Section 6: SOLVE a₄(n) = (n-2)(2n-3)² ──
     print()
     print("  " + "─" * 60)
-    print("  §6  UNIQUENESS: Solve P(n) = (n-2)(2n-3)²")
+    print("  Section 6  UNIQUENESS: Solve P(n) = (n-2)(2n-3)²")
     print("  " + "─" * 60)
 
     # Check which integer values of n satisfy P(n) = (n-2)(2n-3)²
@@ -648,10 +648,10 @@ def main():
     else:
         print(f"    n = 5 is NOT a root — 21st uniqueness condition FAILS")
 
-    # ── §7: SUMMARY ──
+    # ── Section 7: SUMMARY ──
     print()
     print("  " + "═" * 60)
-    print("  §7  SUMMARY")
+    print("  Section 7  SUMMARY")
     print("  " + "═" * 60)
 
     checks_total = 0

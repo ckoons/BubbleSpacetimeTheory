@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-Toy 529 — Pure Math + BST Predictions + Information Theory Linearization (§83-§87)
+Toy 529 — Pure Math + BST Predictions + Information Theory Linearization (Section 83-Section 87)
 ====================================================================================
 
 Linearize 39 theorems across 5 domains:
-  §83 Algebra & Number Theory (T276-T282)  — 7 theorems
-  §84 Topology & Geometry (T283-T289)      — 7 theorems
-  §85 BST Particle Predictions (T290-T297) — 8 theorems
-  §86 Information Theory (T298-T304)       — 7 theorems
-  §87 Interstasis (T305-T314)              — 10 theorems
+  Section 83 Algebra & Number Theory (T276-T282)  — 7 theorems
+  Section 84 Topology & Geometry (T283-T289)      — 7 theorems
+  Section 85 BST Particle Predictions (T290-T297) — 8 theorems
+  Section 86 Information Theory (T298-T304)       — 7 theorems
+  Section 87 Interstasis (T305-T314)              — 10 theorems
 
 Standing order: every theorem is ⟨w|d⟩ on a* ≅ R².
 Special attention: CFSG (T282) was classified depth 2 — does Untangling apply?
@@ -33,8 +33,8 @@ def test(name, condition, detail=""):
         failed += 1
         print(f"  ✗ {name} — {detail}")
 
-# ── Test 1: Algebra & Number Theory §83 (T276-T282) ──
-print("\n─── Test 1: Algebra & Number Theory (§83, T276-T282) ───")
+# ── Test 1: Algebra & Number Theory Section 83 (T276-T282) ──
+print("\n─── Test 1: Algebra & Number Theory (Section 83, T276-T282) ───")
 algebra = {
     "T276 Fund Thm Arith":  {"d": 0, "type": "induction+divisibility", "ip": "Euclid's lemma (definition)"},
     "T277 Fund Thm Algebra": {"d": 1, "type": "winding number",        "ip": "⟨p(z)/|p(z)| | S¹⟩ = n"},
@@ -79,8 +79,8 @@ cfsg_untangled_depth = 1
 test(f"CFSG: D2 → (C≈10⁴, D={cfsg_untangled_depth}) under Untangling",
      cfsg_untangled_depth == 1)
 
-# ── Test 3: Topology & Geometry §84 (T283-T289) ──
-print("\n─── Test 3: Topology & Geometry (§84, T283-T289) ───")
+# ── Test 3: Topology & Geometry Section 84 (T283-T289) ──
+print("\n─── Test 3: Topology & Geometry (Section 84, T283-T289) ───")
 topology = {
     "T283 Brouwer":       {"d": 1, "type": "homotopy",         "ip": "π_{n-1}(D^n)=0 vs π_{n-1}(S^{n-1})=Z"},
     "T284 Borsuk-Ulam":   {"d": 1, "type": "degree",           "ip": "deg(odd map S^n→S^{n-1}) ≡ 1 (mod 2)"},
@@ -95,8 +95,8 @@ d1 = sum(1 for v in topology.values() if v["d"] == 1)
 test(f"Topology: {d0} D0, {d1} D1 — topology IS counting (χ, winding, index)",
      d0 == 3 and d1 == 4)
 
-# ── Test 4: BST Predictions §85 (T290-T297) ──
-print("\n─── Test 4: BST Predictions (§85, T290-T297) ───")
+# ── Test 4: BST Predictions Section 85 (T290-T297) ──
+print("\n─── Test 4: BST Predictions (Section 85, T290-T297) ───")
 predictions = {
     "T290 W mass":        {"d": 0, "type": "ratio",           "ip": "m_W = ev/(2sinθ_W)"},
     "T291 Z mass":        {"d": 0, "type": "ratio",           "ip": "m_Z = m_W/cosθ_W"},
@@ -164,8 +164,8 @@ for name, bst, exp, tol in results:
 all_ok = all(abs(bst - exp)/exp < tol for _, bst, exp, tol in results)
 test("BST predictions match experiment (all within tolerance)", all_ok)
 
-# ── Test 6: Information Theory §86 (T298-T304) ──
-print("\n─── Test 6: Information Theory (§86, T298-T304) ───")
+# ── Test 6: Information Theory Section 86 (T298-T304) ──
+print("\n─── Test 6: Information Theory (Section 86, T298-T304) ───")
 info_theory = {
     "T298 Kolmogorov":   {"d": 0, "type": "pigeonhole",       "ip": "2^n strings > 2^{n-1} programs"},
     "T299 Rice":         {"d": 0, "type": "reduction",        "ip": "property → halting (definition)"},
@@ -180,8 +180,8 @@ d1 = sum(1 for v in info_theory.values() if v["d"] == 1)
 test(f"Information theory: {d0} D0, {d1} D1 — pigeonhole dominates D0",
      d0 == 3 and d1 == 4)
 
-# ── Test 7: Interstasis §87 (T305-T314) ──
-print("\n─── Test 7: Interstasis (§87, T305-T314) ───")
+# ── Test 7: Interstasis Section 87 (T305-T314) ──
+print("\n─── Test 7: Interstasis (Section 87, T305-T314) ───")
 interstasis = {
     "T305 Entropy trich":   {"d": 0, "type": "scope check",     "ip": "3 definitions → 3 scope results"},
     "T306 Cycle-local 2nd": {"d": 0, "type": "scope check",     "ip": "2nd Law scope = active phase"},
@@ -200,7 +200,7 @@ test(f"Interstasis: {d0} D0, {d1} D1 — cosmic cycles are counting + boundary",
      d0 == 3 and d1 == 7)
 
 # ── Test 8: Full statistics across all 5 domains ──
-print("\n─── Test 8: Full Audit (§83-§87) ───")
+print("\n─── Test 8: Full Audit (Section 83-Section 87) ───")
 all_sections = [algebra, topology, predictions, info_theory, interstasis]
 section_names = ["Algebra/NT", "Topology/Geom", "BST Predictions", "Info Theory", "Interstasis"]
 
@@ -223,18 +223,18 @@ print(f"  {'TOTAL':<22} {n_theorems:>5} {total_d0:>4} {total_d1:>4} {total_d2:>4
 test(f"{n_theorems} theorems: {total_d0} D0, {total_d1} D1, {total_d2} D2 (CFSG only)",
      n_theorems == 39 and total_d2 == 1)
 
-# ── Test 9: CFSG is the ONLY depth-2 theorem in §73-§87 ──
+# ── Test 9: CFSG is the ONLY depth-2 theorem in Section 73-Section 87 ──
 print("\n─── Test 9: The CFSG Question ───")
 
-# Classical (§73-78): 40 theorems, 0 D2
-# Quantum (§79-82): 26 theorems, 0 D2
-# Math+BST+Info+Interstasis (§83-87): 39 theorems, 1 D2 (CFSG)
+# Classical (Section 73-78): 40 theorems, 0 D2
+# Quantum (Section 79-82): 26 theorems, 0 D2
+# Math+BST+Info+Interstasis (Section 83-87): 39 theorems, 1 D2 (CFSG)
 # Total catalogued: 105 theorems, 1 D2
 
 total_catalogued = 40 + 26 + 39
 total_d2_all = 0 + 0 + 1
 
-print(f"  Total catalogued (§73-§87): {total_catalogued} theorems")
+print(f"  Total catalogued (Section 73-Section 87): {total_catalogued} theorems")
 print(f"  Depth 2: {total_d2_all} — ONLY CFSG (T282)")
 print(f"  Under T422 (Untangling): CFSG → (C≈10⁴, D=1)")
 print(f"  → ZERO genuine depth-2 theorems in the entire classical+quantum+math catalog")
@@ -293,15 +293,15 @@ print(f"  The simplest possible AC(0) argument — and the most powerful")
 test(f"Pigeonhole in ≥{n_pigeonhole} theorems — foundation of D0 counting", n_pigeonhole >= 5)
 
 # ── Test 12: Grand summary across all linearized domains ──
-print("\n─── Test 12: Grand Summary (§73-§87, 105 theorems) ───")
+print("\n─── Test 12: Grand Summary (Section 73-Section 87, 105 theorems) ───")
 
 # Combined from Toys 526 (40), 528 (26), 529 (39)
 grand = {
-    "Classical (§73-78)": (40, 30, 10, 0),
-    "Quantum (§79-82)":   (26, 21, 5, 0),
-    "Math (§83-84)":      (14, 7, 6, 1),
-    "BST+Info (§85-86)":  (15, 9, 6, 0),
-    "Interstasis (§87)":  (10, 3, 7, 0),
+    "Classical (Section 73-78)": (40, 30, 10, 0),
+    "Quantum (Section 79-82)":   (26, 21, 5, 0),
+    "Math (Section 83-84)":      (14, 7, 6, 1),
+    "BST+Info (Section 85-86)":  (15, 9, 6, 0),
+    "Interstasis (Section 87)":  (10, 3, 7, 0),
 }
 
 grand_total = sum(v[0] for v in grand.values())

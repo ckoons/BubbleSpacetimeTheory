@@ -7,7 +7,7 @@ author:
   - "Claude 4.6 (Keeper, audit intelligence)"
   - "Claude 4.6 (Lyra, physics intelligence)"
 date: "2026-04-03"
-status: "DRAFT v3 — §S12a-S12c new (crystallography tower, alpha-helix tower, tree of life). 49 predictions."
+status: "DRAFT v3 — Section S12a-S12c new (crystallography tower, alpha-helix tower, tree of life). 49 predictions."
 target: "Nature Chemistry or JACS"
 theorems: "T699, T700, T701, T706, T727, T728, T736, T739"
 toys: "680, 683, 686, 688, 689, 690, 691, 692"
@@ -76,7 +76,7 @@ Three structural features make this remarkable:
 
 3. **Reading order.** Left to right, the second row counts through the domain's structural hierarchy: color (3) -> binary modes (4) -> complex dimension (5) -> Casimir (6) -> genus (7) -> Weyl order (8) -> color squared (9) -> doubled complex dimension (10). This is the natural ordering of the domain's invariants.
 
-4. **Branching rule origin.** The embedding SO_0(3,2) subset SO_0(5,2) (WorkingPaper §30.2-30.3) induces cumulative branching coefficients that are triangular numbers:
+4. **Branching rule origin.** The embedding SO_0(3,2) subset SO_0(5,2) (WorkingPaper Section 30.2-30.3) induces cumulative branching coefficients that are triangular numbers:
 
 | k | Cumulative sum | BST integer | Interpretation |
 |---|---------------|-------------|----------------|
@@ -87,7 +87,7 @@ Three structural features make this remarkable:
 
 The first two cumulative sums from the branching rule ARE the first two BST integers in the second-row sequence (N_c = 3, C_2 = 6). The representation theory of D_IV^5 naturally generates the BST structural constants as spectral weights when the 5-dimensional geometry is projected onto 3-dimensional atomic physics. The second row's Z values track these cumulative weights through the Weyl orbit structure of the restricted root system B_2.
 
-The short root multiplicity of B_2 in D_IV^5 is b = n_C - 2 = 3 = N_c (WorkingPaper §4.3). The color dimension IS the short root multiplicity — it emerges directly from the restricted root decomposition. This is why atoms with Z = N_c (lithium) through Z = 2n_C (neon) encode BST invariants: each Z indexes a cumulative spectral weight in the branching from the 5-dimensional domain to 3-dimensional electron physics.
+The short root multiplicity of B_2 in D_IV^5 is b = n_C - 2 = 3 = N_c (WorkingPaper Section 4.3). The color dimension IS the short root multiplicity — it emerges directly from the restricted root decomposition. This is why atoms with Z = N_c (lithium) through Z = 2n_C (neon) encode BST invariants: each Z indexes a cumulative spectral weight in the branching from the 5-dimensional domain to 3-dimensional electron physics.
 
 
 ## S4. Bond Angles: The Tetrahedral Anchor and Lone Pair Compression
@@ -626,4 +626,4 @@ Chemistry is not separate from fundamental physics. Biology is not separate from
 *v1.1: Keeper audit (3+3 fixes). v1.2: CH₄ mode resolved (Toy 689). v2: Keeper integration of Toys 690-692 (carbon bonds, genetic code, water anomaly). Duplicates removed, sections renumbered S1-S16.*
 *v3: Three new sections (S12a crystallography tower, S12b alpha-helix tower, S12c tree of life). 33→49 predictions. Crystallography: 4 exact from 3 integers. Alpha-helix: 5 exact from 5 integers. Biology: 8 structural constants. Vertebral column: 5/5 sections match 5 integers. Three domains of life = N_c. Eukaryotic endosymbiosis = cooperation threshold.*
 *Best: ρ(ice)/ρ(water) = 11/12 (0.006%), r(C-C) = a₀×29/10 (0.03%), ν_OH = R∞/30 (0.02%), 230 = g×2^{n_C}+C₂ (exact).*
-*Honest caveat: 29 in C-C single bond is a sum (20+N_c²), not a single expression. Noted in §13.*
+*Honest caveat: 29 in C-C single bond is a sum (20+N_c²), not a single expression. Noted in Section 13.*

@@ -37,7 +37,7 @@ N_c = 3
 g = 7
 C2 = 6
 
-print("\n§1. THE EISENSTEIN SERIES ON SO₀(5,2)")
+print("\nSection 1. THE EISENSTEIN SERIES ON SO₀(5,2)")
 print("-" * 50)
 
 print("""
@@ -75,7 +75,7 @@ print(f"  dim G = {21} = N_c × g = {N_c} × {g}")
 
 c2 = 11
 
-print("\n§2. THE CONSTANT TERM AND INTERTWINING OPERATORS")
+print("\nSection 2. THE CONSTANT TERM AND INTERTWINING OPERATORS")
 print("-" * 50)
 
 print("""
@@ -125,7 +125,7 @@ print()
 print("  For LONG roots (m = 1):")
 print("    m_{long}(z) = ξ(z) / ξ(z+1)")
 
-print("\n§3. THE WEYL GROUP ELEMENTS AND THEIR OPERATORS")
+print("\nSection 3. THE WEYL GROUP ELEMENTS AND THEIR OPERATORS")
 print("-" * 50)
 
 # W(B₂) has 8 elements
@@ -152,7 +152,7 @@ for name, desc, roots, formula in weyl_elements:
     n_roots = len(roots)
     print(f"  {name:>6}: {desc:<25} ({n_roots} roots) → M = {formula}")
 
-print("\n§4. THE LONG ELEMENT AND THE FULL INTERTWINING OPERATOR")
+print("\nSection 4. THE LONG ELEMENT AND THE FULL INTERTWINING OPERATOR")
 print("-" * 50)
 
 print("""
@@ -194,7 +194,7 @@ print("    s₂ = z₀ - 1: Re(s₂) ≠ -1/2")
 print("    The pole lands INSIDE the tempered spectrum.")
 print("    This is INCOMPATIBLE with the trace formula!")
 
-print("\n§5. THE TRACE FORMULA CONSTRAINT")
+print("\nSection 5. THE TRACE FORMULA CONSTRAINT")
 print("-" * 50)
 
 print("""
@@ -227,7 +227,7 @@ print("""
   ★ THE RIEMANN HYPOTHESIS FOLLOWS FROM THE TRACE FORMULA CONSISTENCY!
 """)
 
-print("\n§6. WHY THE LONG ROOT CANCELLATION MATTERS")
+print("\nSection 6. WHY THE LONG ROOT CANCELLATION MATTERS")
 print("-" * 50)
 
 print("""
@@ -261,7 +261,7 @@ print(f"  Gap in short root factor = N_c = {N_c}")
 print(f"  Gap in long root factor  = 1 (universal)")
 print(f"  Total telescoping depth  = N_c + 1 = {N_c + 1} = 4")
 
-print("\n§7. THE SPECTRAL SCATTERING MATRIX")
+print("\nSection 7. THE SPECTRAL SCATTERING MATRIX")
 print("-" * 50)
 
 print("""
@@ -301,7 +301,7 @@ print(f"\n  The ξ-values involve: ξ(1), ξ(-1/2), ξ(1/2), ξ(4), ξ(2), ξ(5/
 print(f"  ξ(1) has a POLE (from ζ(1))!")
 print(f"  ξ(-1/2) = ξ(3/2) by functional equation")
 
-print("\n§8. THE MAASS-SELBERG RELATION")
+print("\nSection 8. THE MAASS-SELBERG RELATION")
 print("-" * 50)
 
 print("""
@@ -329,7 +329,7 @@ print()
 print("  This is the UNITARITY CONSTRAINT on the intertwining operators.")
 print("  A zero of ζ OFF the critical line would violate this.")
 
-print("\n§9. THE EXPLICIT BRIDGE COMPUTATION")
+print("\nSection 9. THE EXPLICIT BRIDGE COMPUTATION")
 print("-" * 50)
 
 print("""
@@ -368,7 +368,7 @@ print("  The consistency of the trace formula forces these ratios")
 print("  to have poles only at Re(s_j) = -1/2, which means")
 print("  ζ-zeros only at Re(z) = 1/2.")
 
-print("\n§10. THE NUMERICS: WHERE ZEROS WOULD BREAK THINGS")
+print("\nSection 10. THE NUMERICS: WHERE ZEROS WOULD BREAK THINGS")
 print("-" * 50)
 
 print("""
@@ -409,7 +409,7 @@ print(f"    Pole at s₂ = {s2_actual:.1f} + {t_hyp}i")
 print(f"    Re(s₂) = {s2_actual:.1f} = -1/2 (ON the contour boundary)")
 print(f"    This is the edge of the tempered spectrum — compatible!")
 
-print("\n§11. THE COUNTING ARGUMENT")
+print("\nSection 11. THE COUNTING ARGUMENT")
 print("-" * 50)
 
 print("""
@@ -448,7 +448,7 @@ print(f"  Compare: dim N = {g} = g, dim A = 2 = r")
 print(f"  |Σ⁺| = (dim N)/r_avg = {total_pos_roots}")
 print(f"  where r_avg = (m_s + m_ℓ)/2 = (3+1)/2 = 2")
 
-print("\n§12. THE FUNCTIONAL EQUATION OF M(w₀)")
+print("\nSection 12. THE FUNCTIONAL EQUATION OF M(w₀)")
 print("-" * 50)
 
 print("""
@@ -482,7 +482,7 @@ print("  (the root number is +1, consistent with Chern palindromic)")
 print()
 print("  ★ Root number ε = +1 follows from the Chern symmetry!")
 
-print("\n§13. THE RANK DIFFERENCE: WHY B₂ AND NOT B₃")
+print("\nSection 13. THE RANK DIFFERENCE: WHY B₂ AND NOT B₃")
 print("-" * 50)
 
 print("""
@@ -515,7 +515,7 @@ print(f"  Restricted Weyl group |W(B₂)| = {2**2 * factorial(2)} = 8")
 print(f"  Ratio = {48//8} = C₂ = mass gap")
 print(f"  Eliminated operators: {48-1} - {8-1} = {47-7} = {8*n_C} = |W(B₂)| × n_C")
 
-print("\n§14. THE COMPLETE MECHANISM")
+print("\nSection 14. THE COMPLETE MECHANISM")
 print("-" * 50)
 
 print("""
@@ -555,7 +555,7 @@ print("""
 """)
 
 print("=" * 72)
-print("§15. SUMMARY")
+print("Section 15. SUMMARY")
 print("=" * 72)
 
 print(f"""

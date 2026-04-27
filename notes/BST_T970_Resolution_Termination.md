@@ -90,10 +90,10 @@ The proof-theoretic depth ceiling (depth $\leq 2$) matches the geometric rank of
 | Resolution | Spectral integration along $e_2 \perp e_1$ |
 | No third step | No third orthogonal direction in $\mathfrak{a}^* \cong \mathbb{R}^2$ |
 
-The three lemmas of §12 (DepthCeiling.md) prove the geometric version:
-- **Spectral Idempotency** (§12.1): Same-direction integrals don't compound $\leftrightarrow$ parallel identification is depth 1
-- **No Cascade** (§12.2): Resolution doesn't create orthogonal obstructions $\leftrightarrow$ Resolution Termination
-- **Depth = Orthogonal Directions** (§12.3): Sequential steps need orthogonal directions $\leftrightarrow$ identification $\perp$ resolution
+The three lemmas of Section 12 (DepthCeiling.md) prove the geometric version:
+- **Spectral Idempotency** (Section 12.1): Same-direction integrals don't compound $\leftrightarrow$ parallel identification is depth 1
+- **No Cascade** (Section 12.2): Resolution doesn't create orthogonal obstructions $\leftrightarrow$ Resolution Termination
+- **Depth = Orthogonal Directions** (Section 12.3): Sequential steps need orthogonal directions $\leftrightarrow$ identification $\perp$ resolution
 
 T970 proves the same result WITHOUT the geometric assumption. The depth ceiling is structural, not geometric. The geometry then follows:
 
@@ -116,7 +116,7 @@ T970 proves the same result WITHOUT the geometric assumption. The depth ceiling 
 - (i) Observation: rank $\geq 2$ (triangulation)
 - (ii) All computations: depth $\leq 2$ (T970)
 
-Since depth $\leq$ rank (T316 conditional; §12 lemmas), rank $= 2$ satisfies both. Rank $= 1$ fails (i). Rank $\geq 3$ exceeds (ii) — the extra spectral directions support computations that never occur.
+Since depth $\leq$ rank (T316 conditional; Section 12 lemmas), rank $= 2$ satisfies both. Rank $= 1$ fails (i). Rank $\geq 3$ exceeds (ii) — the extra spectral directions support computations that never occur.
 
 **Status**: This is a physical principle (like Occam's razor), not a mathematical theorem. It asserts the physical domain is minimal/optimal. The mathematical content of T970 (depth $\leq 2$) is unconditional.
 
@@ -136,11 +136,11 @@ Since depth $\leq$ rank (T316 conditional; §12 lemmas), rank $= 2$ satisfies bo
 - Principle: Spectral Economy (rank $= 2$, not more)
 - Everything else follows by mathematics.
 
-## Relationship to §12 (DepthCeiling.md)
+## Relationship to Section 12 (DepthCeiling.md)
 
-The three lemmas of §12 prove depth $\leq 2$ **geometrically** (conditional on the domain being $D_{IV}^5$). T970 proves the same bound **proof-theoretically** (unconditional). The two arguments converge:
+The three lemmas of Section 12 prove depth $\leq 2$ **geometrically** (conditional on the domain being $D_{IV}^5$). T970 proves the same bound **proof-theoretically** (unconditional). The two arguments converge:
 
-| §12 (geometric) | T970 (proof-theoretic) |
+| Section 12 (geometric) | T970 (proof-theoretic) |
 |-----------------|----------------------|
 | Spectral Idempotency | Parallel identification is depth 1 |
 | No Cascade | Resolution Termination |

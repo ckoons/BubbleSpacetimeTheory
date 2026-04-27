@@ -234,7 +234,7 @@ In both cases, $\Delta\beta_1 \geq 0$. $\square$
 
 This means: **a $k$-clause extension definition can reduce $\beta_1$ by at most $k - 1$.** The first clause (introducing $p$) preserves or increases $\beta_1$; the remaining $k - 1$ clauses can each fill at most one cycle. For constant-arity extensions ($k = O(1)$), each extension definition reduces $\beta_1$ by $O(1)$. To drain $\beta_1 = \Theta(n)$, the proof requires $\Theta(n/k) = \Theta(n)$ extension definitions. This is the content of Corollary 5.2.
 
-For unbounded-arity extensions: a single extension with $k = \Theta(n)$ clauses could, in principle, drain $\beta_1$ in one step. However, the extension's clauses must form a specific topological structure (coning off existing cycles), which requires the extension to "know" the cycle structure — precisely the information-theoretic barrier identified in §7. The value of Theorem 5.1 is qualitative: it shows that the act of introducing extension variables is topologically inert; only the constraining clauses can reduce topology, and they do so at most one cycle per clause.
+For unbounded-arity extensions: a single extension with $k = \Theta(n)$ clauses could, in principle, drain $\beta_1$ in one step. However, the extension's clauses must form a specific topological structure (coning off existing cycles), which requires the extension to "know" the cycle structure — precisely the information-theoretic barrier identified in Section 7. The value of Theorem 5.1 is qualitative: it shows that the act of introducing extension variables is topologically inert; only the constraining clauses can reduce topology, and they do so at most one cycle per clause.
 
 ### 5.1 Computational Verification
 
@@ -453,7 +453,7 @@ Toy 282 directly measured the structure of $H_1$ generators and the cost of reso
 
 Three findings: (1) Generator supports are nearly disjoint — mean 4 edges per generator, Jaccard $\to 0$; (2) Kill probability $P_{\text{kill}} \sim n^{-2}$; (3) Compound cost trend increases ($0.85 \to 1.60 \to 1.92$): each cycle kill makes the next harder.
 
-**Proposition A.1 (Conditional exponential).** If Open Question 7.2 (algebraic independence) holds, then the width argument of §7.5 combined with the compound cost data gives EF $\geq 2^{\Omega(n)}$:
+**Proposition A.1 (Conditional exponential).** If Open Question 7.2 (algebraic independence) holds, then the width argument of Section 7.5 combined with the compound cost data gives EF $\geq 2^{\Omega(n)}$:
 
 *Stage 1.* By Theorem 6.1 and Open Question 7.2, encoding $t$ cycle parities requires extension arity $\Theta(t)$ (disjoint supports). No width reduction below $\Omega(n)$.
 
@@ -505,7 +505,7 @@ Toy 287 tested whether random 3-SAT at $\alpha_c$ exhibits the Overlap Gap Prope
 
 **Result: 100% OGP** at every instance and every size tested. No pair of solutions has normalized Hamming distance in the forbidden interval. The solution space clusters cleanly: intra-cluster $d \approx 0.2$, inter-cluster $d \approx 0.5$.
 
-**Connection to the topological framework.** $\beta_1$ grows at $\sim 1.66n$ at $\alpha_c$. Each independent $H_1$ generator corresponds to an axis along which the solution space splits. The OGP is the geometric manifestation of the Kolmogorov barrier (§A.5): solutions cluster because the fiat vector is incompressible, and the gap exists because no polynomial-time procedure can interpolate between clusters.
+**Connection to the topological framework.** $\beta_1$ grows at $\sim 1.66n$ at $\alpha_c$. Each independent $H_1$ generator corresponds to an axis along which the solution space splits. The OGP is the geometric manifestation of the Kolmogorov barrier (Section A.5): solutions cluster because the fiat vector is incompressible, and the gap exists because no polynomial-time procedure can interpolate between clusters.
 
 **Convergence of Paths B and C.** The OGP evidence and the Kolmogorov evidence arrive at the same conclusion from independent directions. A formal proof of OGP at $k = 3$ would establish that no local algorithm interpolates between clusters, implying algebraic independence of cycle parities (Open Question 7.2).
 

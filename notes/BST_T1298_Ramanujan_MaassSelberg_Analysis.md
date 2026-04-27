@@ -26,7 +26,7 @@
 
 The double root 2α with m_{2α} = 1 modifies the c-function factor, preventing the ξ(s) = ξ(1−s) cancellation that makes the naive formula trivial.
 
-**(c) The non-trivial D(z).** The correct D(z) (from the Harish-Chandra/Gindikin-Karpelevič c-function including double-root contributions) has the form stated in BST_MaassSelberg_RiemannProof.md §4:
+**(c) The non-trivial D(z).** The correct D(z) (from the Harish-Chandra/Gindikin-Karpelevič c-function including double-root contributions) has the form stated in BST_MaassSelberg_RiemannProof.md Section 4:
 
     D(z) = ξ(z)ξ(z+1) / [ξ(z+3)ξ(z−2)]
 
@@ -150,7 +150,7 @@ The BST prediction is unchanged: m_s = N_c = 3 provides the overconstrained stru
 ## Children
 
 - Closes OP-3 when Steps A-E are completed
-- Corrects BST_MaassSelberg_RiemannProof.md §4 formula
+- Corrects BST_MaassSelberg_RiemannProof.md Section 4 formula
 - Identifies the epsilon factor mechanism as the constraint source
 
 ---

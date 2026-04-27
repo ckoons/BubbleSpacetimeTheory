@@ -38,7 +38,7 @@ We argue this is:
 3. **Historically ubiquitous** — most successful "uniqueness in physics" claims already implicitly meet this weaker standard.
 4. **Newly explicit** — no prior literature formalizes it under this name, though isolated components (iso-invariance of observables, categorical equivalence) are standard.
 
-The paper proceeds as follows: §2 motivates the problem via three classical examples; §3 states the principle formally; §4 presents the worked BST example; §5 discusses relationships to no-go theorems, category theory, the philosophy of scientific realism, and the empirical signature of physical uniqueness (the Overdetermination Census, §5.4); §6 concludes.
+The paper proceeds as follows: Section 2 motivates the problem via three classical examples; Section 3 states the principle formally; Section 4 presents the worked BST example; Section 5 discusses relationships to no-go theorems, category theory, the philosophy of scientific realism, and the empirical signature of physical uniqueness (the Overdetermination Census, Section 5.4); Section 6 concludes.
 
 ---
 
@@ -131,7 +131,7 @@ X = (D_IV^5, Δ_B, ζ_Δ), where:
 
 ### 4.3 Sufficiency
 
-Per T1267 §Sufficiency, each observable in P_SM+Gr+D corresponds to a differentiator of ζ_Δ:
+Per T1267 Section Sufficiency, each observable in P_SM+Gr+D corresponds to a differentiator of ζ_Δ:
 
 - Particle masses ← poles of ζ_Δ.
 - Couplings ← 7-smooth ladder values ζ_{≤7}(3,5,7) and residues.
@@ -234,7 +234,7 @@ Every time a physics program claims to be "forced by mathematics," the claim is 
 
 We have formalized this as the **Physical Uniqueness Principle** (T1269), verified it for BST's ζ_Δ on D_IV^5, and argued it subsumes the historical no-free-parameter claims we have examined (Dirac's large-numbers hypothesis, Wheeler-DeWitt, BST itself). We conjecture — as a testable pattern, not as a theorem — that successful no-free-parameter programs in physics generally satisfy this standard implicitly, and that proposed zero-parameter programs which fail the (S)+(I) test have a harder road. The scope of the conjecture is limited by the examples available; a broader survey of past "forced by mathematics" claims would be welcome.
 
-The reason this matters for BST specifically is that BST's "doubly unique AND sufficient" (T1267 §Sufficiency) is exactly physical uniqueness. The theory is forced — not in the infinite absolute sense, but in the finite actionable sense that physics actually requires.
+The reason this matters for BST specifically is that BST's "doubly unique AND sufficient" (T1267 Section Sufficiency) is exactly physical uniqueness. The theory is forced — not in the infinite absolute sense, but in the finite actionable sense that physics actually requires.
 
 > *Physics decides mathematics up to isomorphism. That is enough.*
 

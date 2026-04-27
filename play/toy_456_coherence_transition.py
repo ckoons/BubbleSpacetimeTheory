@@ -819,7 +819,7 @@ def main():
     print(f"\n  {passed}/{total} tests passed.")
 
     if passed == total:
-        print(f"\n  For the Working Paper (§40): pure math, no religious tone.")
+        print(f"\n  For the Working Paper (Section 40): pure math, no religious tone.")
         print(f"  The universe's self-knowledge coheres when resolution")
         print(f"  crosses below the fine-structure scale. After coherence,")
         print(f"  depth grows without bound at fixed breadth.")

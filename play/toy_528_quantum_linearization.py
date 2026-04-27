@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Toy 528 — Quantum & Particle Physics Linearization (§79-§82)
+Toy 528 — Quantum & Particle Physics Linearization (Section 79-Section 82)
 =============================================================
 
 Linearize 26 theorems across 4 quantum/particle domains:
-  §79 Signal Processing (T250-T254)  — 5 theorems
-  §80 Condensed Matter (T255-T261)   — 7 theorems
-  §81 Quantum Field Theory (T262-T268) — 7 theorems
-  §82 Nuclear/Particle (T269-T275)   — 7 theorems
+  Section 79 Signal Processing (T250-T254)  — 5 theorems
+  Section 80 Condensed Matter (T255-T261)   — 7 theorems
+  Section 81 Quantum Field Theory (T262-T268) — 7 theorems
+  Section 82 Nuclear/Particle (T269-T275)   — 7 theorems
 
 Standing order: every theorem is ⟨w|d⟩ on a* ≅ R².
 Casey's Untangling Principle (T422): apparent depth 2 = entangled depth-1 problems.
@@ -32,8 +32,8 @@ def test(name, condition, detail=""):
         failed += 1
         print(f"  ✗ {name} — {detail}")
 
-# ── Test 1: Signal Processing §79 (T250-T254) ──
-print("\n─── Test 1: Signal Processing (§79, T250-T254) ───")
+# ── Test 1: Signal Processing Section 79 (T250-T254) ──
+print("\n─── Test 1: Signal Processing (Section 79, T250-T254) ───")
 signal = {
     "T250 Heisenberg":    {"d": 0, "type": "Cauchy-Schwarz",  "ip": "⟨Δx·ψ|Δp·ψ⟩ ≥ ℏ/2"},
     "T251 Fourier uncert": {"d": 0, "type": "Cauchy-Schwarz",  "ip": "⟨Δt·f|Δω·F⟩ ≥ 1/2"},
@@ -44,8 +44,8 @@ signal = {
 d0 = sum(1 for v in signal.values() if v["d"] == 0)
 test(f"Signal processing: ALL {d0}/5 at depth 0 — Cauchy-Schwarz dominates", d0 == 5)
 
-# ── Test 2: Condensed Matter §80 (T255-T261) ──
-print("\n─── Test 2: Condensed Matter (§80, T255-T261) ───")
+# ── Test 2: Condensed Matter Section 80 (T255-T261) ──
+print("\n─── Test 2: Condensed Matter (Section 80, T255-T261) ───")
 cond_matter = {
     "T255 BCS":           {"d": 1, "type": "variational",     "ip": "min ⟨Ψ_BCS|H|Ψ_BCS⟩ → gap Δ"},
     "T256 Meissner":      {"d": 0, "type": "definition",      "ip": "B=0 boundary condition"},
@@ -59,8 +59,8 @@ d0 = sum(1 for v in cond_matter.values() if v["d"] == 0)
 d1 = sum(1 for v in cond_matter.values() if v["d"] == 1)
 test(f"Condensed matter: {d0} D0, {d1} D1 — 10²³ particles still depth 0-1", d0 == 5 and d1 == 2)
 
-# ── Test 3: QFT §81 (T262-T268) ──
-print("\n─── Test 3: Quantum Field Theory (§81, T262-T268) ───")
+# ── Test 3: QFT Section 81 (T262-T268) ──
+print("\n─── Test 3: Quantum Field Theory (Section 81, T262-T268) ───")
 qft = {
     "T262 Goldstone":      {"d": 0, "type": "counting",       "ip": "#bosons = dim(G/H)"},
     "T263 Higgs mechanism": {"d": 0, "type": "bookkeeping",    "ip": "2+1=3 DOF conservation"},
@@ -74,8 +74,8 @@ d0 = sum(1 for v in qft.values() if v["d"] == 0)
 d1 = sum(1 for v in qft.values() if v["d"] == 1)
 test(f"QFT: {d0} D0, {d1} D1 — no-go theorems ARE depth 0", d0 == 5 and d1 == 2)
 
-# ── Test 4: Nuclear/Particle §82 (T269-T275) ──
-print("\n─── Test 4: Nuclear/Particle Physics (§82, T269-T275) ───")
+# ── Test 4: Nuclear/Particle Section 82 (T269-T275) ──
+print("\n─── Test 4: Nuclear/Particle Physics (Section 82, T269-T275) ───")
 nuclear = {
     "T269 Yukawa":       {"d": 0, "type": "Fourier",         "ip": "F⁻¹{1/(k²+m²)} = e^{-mr}/r"},
     "T270 Isospin":      {"d": 0, "type": "definition",      "ip": "SU(2) when m_u ≈ m_d"},
@@ -240,8 +240,8 @@ print("\n─── Test 12: Classical vs Quantum Depth Distribution ───")
 classical_d0_pct = 30/40  # from Toy 526
 quantum_d0_pct = total_d0 / n_theorems
 
-print(f"  Classical (§73-78): 75% D0, 25% D1")
-print(f"  Quantum  (§79-82): {100*quantum_d0_pct:.0f}% D0, {100*(1-quantum_d0_pct):.0f}% D1")
+print(f"  Classical (Section 73-78): 75% D0, 25% D1")
+print(f"  Quantum  (Section 79-82): {100*quantum_d0_pct:.0f}% D0, {100*(1-quantum_d0_pct):.0f}% D1")
 print(f"  Quantum is {'shallower' if quantum_d0_pct > classical_d0_pct else 'comparable'}")
 print(f"  NO-GO theorems (Goldstone, Coleman-Mandula, Weinberg-Witten) are D0")
 print(f"  The constraints that SHAPE physics are definitions, not computations")

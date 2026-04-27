@@ -163,7 +163,7 @@ The growing exponential means: this resonance **amplifies** across cycles. The s
 
 **RH says this doesn't happen.** All resonances are exactly on the critical line — they oscillate but don't grow. The cosmological spiral is stable at every frequency.
 
-This is the cycle version of the error-correction argument: "RH is true because the universe's error correction works perfectly at all frequencies" (BST_SelfDuality_Riemann_Codes.md §7.1). Now we add: "...and the error correction must work across cycles, not just within a single cycle."
+This is the cycle version of the error-correction argument: "RH is true because the universe's error correction works perfectly at all frequencies" (BST_SelfDuality_Riemann_Codes.md Section 7.1). Now we add: "...and the error correction must work across cycles, not just within a single cycle."
 
 ---
 

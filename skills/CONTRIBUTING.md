@@ -150,7 +150,7 @@ Never manually edit `.next_toy`. Never renumber existing toys — they're refere
 
 ## Theorem Numbering
 
-**Use the `/theorem` skill.** Run `/theorem claim` before writing any theorem. The skill atomically reads `play/.next_theorem`, increments it, and creates a claim file. Use `/theorem register TNNN "Name" D0 §sec toy#` after formalization.
+**Use the `/theorem` skill.** Run `/theorem claim` before writing any theorem. The skill atomically reads `play/.next_theorem`, increments it, and creates a claim file. Use `/theorem register TNNN "Name" D0 Section sec toy#` after formalization.
 
 Never manually edit `.next_theorem`. Never reuse a retracted T_id — mark it RETRACTED in the registry. The master registry (`notes/BST_AC_Theorem_Registry.md`) is Keeper's domain.
 

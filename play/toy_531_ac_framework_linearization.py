@@ -3,20 +3,20 @@
 Toy 531 — AC Framework + Depth Ceiling Linearization
 =====================================================
 
-Linearize the REMAINING theorems: §1-§72 (AC framework + P≠NP chain)
-and §88-§104 (Depth Ceiling + CI Persistence + Physics Predictions).
+Linearize the REMAINING theorems: Section 1-Section 72 (AC framework + P≠NP chain)
+and Section 88-Section 104 (Depth Ceiling + CI Persistence + Physics Predictions).
 
 This COMPLETES the full catalog linearization.
 
 Prior toys covered:
-  526: Classical Physics   (§73-§78,   40 theorems)
-  528: Quantum Physics     (§79-§82,   26 theorems)
-  529: Math+BST+Info       (§83-§87,   39 theorems)
-  530: Biology+Cosmo+SE    (§105-§118, 76 theorems)
+  526: Classical Physics   (Section 73-Section 78,   40 theorems)
+  528: Quantum Physics     (Section 79-Section 82,   26 theorems)
+  529: Math+BST+Info       (Section 83-Section 87,   39 theorems)
+  530: Biology+Cosmo+SE    (Section 105-Section 118, 76 theorems)
 
 This toy covers:
-  §1-§72:   AC Framework + P≠NP Kill Chain  (~61 theorems)
-  §88-§104: Depth Ceiling + CI + Physics     (~17 theorems)
+  Section 1-Section 72:   AC Framework + P≠NP Kill Chain  (~61 theorems)
+  Section 88-Section 104: Depth Ceiling + CI + Physics     (~17 theorems)
 
 Total this toy: 78 → GRAND TOTAL: 259 theorems linearized.
 
@@ -41,174 +41,174 @@ rank = 2
 # ═══════════════════════════════════════════════════════════════
 
 ac_framework_theorems = [
-    # ── §1-§11: AC Foundations ──
-    ("T1",  "AC Dichotomy",             "§2",  0, "AC Foundation", "enumeration",
+    # ── Section 1-Section 11: AC Foundations ──
+    ("T1",  "AC Dichotomy",             "Section 2",  0, "AC Foundation", "enumeration",
      "Schaefer classification = bounded enumeration of 6 tractable classes"),
-    ("T2",  "I_fiat = β₁",             "§3",  0, "AC Foundation", "counting",
+    ("T2",  "I_fiat = β₁",             "Section 3",  0, "AC Foundation", "counting",
      "β₁ = |E|-|V|+1 — Euler characteristic, pure counting"),
-    ("T3",  "Homological Lower Bound",  "§4",  0, "AC Foundation", "definition",
+    ("T3",  "Homological Lower Bound",  "Section 4",  0, "AC Foundation", "definition",
      "rank(∂₂) = matrix rank of boundary operator — definition"),
-    ("T4",  "Topology-Guided Solver",   "§5",  0, "AC Foundation", "definition",
+    ("T4",  "Topology-Guided Solver",   "Section 5",  0, "AC Foundation", "definition",
      "Branch on max fiat-degree vertex — selection by definition"),
-    ("T5",  "Rigidity Threshold",       "§6",  0, "AC Foundation", "comparison",
+    ("T5",  "Rigidity Threshold",       "Section 6",  0, "AC Foundation", "comparison",
      "Honest negative: FR alone insufficient (R²=0.08) — comparison"),
-    ("T6",  "Catastrophe Structure",    "§7",  1, "AC Foundation", "critical_point",
+    ("T6",  "Catastrophe Structure",    "Section 7",  1, "AC Foundation", "critical_point",
      "Swallowtail at phase transition — one critical point evaluation"),
-    ("T7",  "AC-Fano (Shannon Bridge)", "§8",  0, "AC Foundation", "definition",
+    ("T7",  "AC-Fano (Shannon Bridge)", "Section 8",  0, "AC Foundation", "definition",
      "P_err ≥ 1-(log T+1)/F — Fano's inequality IS a definition"),
-    ("T8",  "AC Monotonicity (DPI)",    "§9",  0, "AC Foundation", "definition",
+    ("T8",  "AC Monotonicity (DPI)",    "Section 9",  0, "AC Foundation", "definition",
      "Data Processing Inequality — information can't increase under processing"),
 
-    # ── §12-§24: Recovery + New Structural ──
-    ("T9",  "AC-ETH",                   "§12", 0, "AC Recovery", "counting",
+    # ── Section 12-Section 24: Recovery + New Structural ──
+    ("T9",  "AC-ETH",                   "Section 12", 0, "AC Recovery", "counting",
      "T ≥ 2^{ρ_k·n} — exponential from counting clause-variable interactions"),
-    ("T10", "PHP in AC",                "§13", 0, "AC Recovery", "counting",
+    ("T10", "PHP in AC",                "Section 13", 0, "AC Recovery", "counting",
      "I_fiat^(res)=Θ(n), I_fiat^(EF)=0 — pigeonhole IS counting mismatch"),
-    ("T11", "Proof System Landscape",   "§15", 0, "AC Recovery", "enumeration",
+    ("T11", "Proof System Landscape",   "Section 15", 0, "AC Recovery", "enumeration",
      "8 proof systems enumerated, all have I_fiat>0 — bounded enumeration"),
-    ("T12", "AC Restriction Lemma",     "§16", 1, "AC Recovery", "one_restriction",
+    ("T12", "AC Restriction Lemma",     "Section 16", 1, "AC Recovery", "one_restriction",
      "Random restriction drains topology — one Håstad switching step"),
-    ("T13", "AC Approximation Barrier", "§17", 0, "AC Recovery", "definition",
+    ("T13", "AC Approximation Barrier", "Section 17", 0, "AC Recovery", "definition",
      "MAX-kSAT ≤ 7/8 = 1-1/2^k — the information-free floor IS a definition"),
-    ("T14", "Fiat Additivity",          "§18", 0, "AC Structural", "definition",
+    ("T14", "Fiat Additivity",          "Section 18", 0, "AC Structural", "definition",
      "I_fiat(φ₁∧φ₂) = I_fiat(φ₁)+I_fiat(φ₂) for independent sets — direct sum"),
-    ("T15", "Three-Way Budget",         "§19", 0, "AC Structural", "definition",
+    ("T15", "Three-Way Budget",         "Section 19", 0, "AC Structural", "definition",
      "n = I_derivable + I_fiat + I_free — partition of n is pure definition"),
-    ("T16", "Fiat Monotonicity",        "§20", 0, "AC Structural", "ordering",
+    ("T16", "Fiat Monotonicity",        "Section 20", 0, "AC Structural", "ordering",
      "ρ_k non-decreasing above α_c — monotonicity = ordering relation"),
-    ("T17", "Method Dominance",         "§21", 0, "AC Structural", "definition",
+    ("T17", "Method Dominance",         "Section 21", 0, "AC Structural", "definition",
      "8-level lattice of proof methods — lattice ordering IS definition"),
-    ("T18", "Expansion → Fiat",         "§22", 1, "AC Structural", "spectral",
+    ("T18", "Expansion → Fiat",         "Section 22", 1, "AC Structural", "spectral",
      "High treewidth → high fiat — one spectral gap evaluation"),
-    ("T19", "AC-Communication Bridge",  "§23", 0, "AC Recovery", "definition",
+    ("T19", "AC-Communication Bridge",  "Section 23", 0, "AC Recovery", "definition",
      "CC_r ≥ I_fiat/r - O(log n) — Shannon channel inequality = definition"),
-    ("T20", "SETH Explicit Constants",  "§24", 0, "AC Recovery", "counting",
+    ("T20", "SETH Explicit Constants",  "Section 24", 0, "AC Recovery", "counting",
      "ρ_k ≥ 1 - k/2^{k-1} — formula evaluation, pure arithmetic"),
-    ("C21", "DOCH Conjecture",          "§25", 0, "AC Structural", "definition",
+    ("C21", "DOCH Conjecture",          "Section 25", 0, "AC Structural", "definition",
      "Dimensional onset of hardness: dim ≤ 1 → I_fiat=0 — threshold = definition"),
-    ("T22", "Dimensional Channel Bound","§26", 0, "AC Structural", "definition",
+    ("T22", "Dimensional Channel Bound","Section 26", 0, "AC Structural", "definition",
      "C(M) ≤ rank(H_d)·O(log n) — product of rank (def) and log (counting)"),
 
-    # ── §28-§40: Topological Proof Complexity + Conservation ──
-    ("T23", "Topological Proof Complexity","§28",1,"P≠NP Topology","spectral",
+    # ── Section 28-Section 40: Topological Proof Complexity + Conservation ──
+    ("T23", "Topological Proof Complexity","Section 28",1,"P≠NP Topology","spectral",
      "Size ≥ 2^{Ω(n/log²n)} — one spectral evaluation (linking number)"),
-    ("T24", "Extension Topology Creation","§29",0,"P≠NP Topology","counting",
+    ("T24", "Extension Topology Creation","Section 29",0,"P≠NP Topology","counting",
      "β₁(K') = β₁(K) + (k-1) — counting new cycles from extension"),
-    ("T25", "Confinement Steady State", "§30", 0, "P≠NP Topology", "counting",
+    ("T25", "Confinement Steady State", "Section 30", 0, "P≠NP Topology", "counting",
      "S ≥ β₁ + net cycles created — sum of two counts"),
-    ("T26", "Proof Instability (FAILED)","§31",0,"P≠NP Topology", "comparison",
+    ("T26", "Proof Instability (FAILED)","Section 31",0,"P≠NP Topology", "comparison",
      "c(α_c) < 1/2 — honest negative, geometric linking constant too small"),
-    ("T27", "Weak Homological Monotonicity","§32",0,"P≠NP Topology","enumeration",
+    ("T27", "Weak Homological Monotonicity","Section 32",0,"P≠NP Topology","enumeration",
      "Δβ₁ ∈ {0, +1} for arity-2 — bounded enumeration of two outcomes"),
-    ("T28", "Topological Inertness",    "§33", 0, "P≠NP Topology", "definition",
+    ("T28", "Topological Inertness",    "Section 33", 0, "P≠NP Topology", "definition",
      "Original H₁ basis embeds isomorphically — algebraic identity"),
-    ("T29", "Algebraic Independence",   "§34", 1, "P≠NP Topology", "one_test",
+    ("T29", "Algebraic Independence",   "Section 34", 1, "P≠NP Topology", "one_test",
      "Conditional: independence within clusters — one MI computation per block"),
-    ("T30", "Compound Fiat",            "§35", 1, "P≠NP Kill Chain","one_width",
+    ("T30", "Compound Fiat",            "Section 35", 1, "P≠NP Kill Chain","one_width",
      "Conditional: width ≥ α'n from independence — one BSW evaluation"),
-    ("T31", "Backbone Incompressibility","§36",0,"P≠NP Kill Chain","counting",
+    ("T31", "Backbone Incompressibility","Section 36",0,"P≠NP Kill Chain","counting",
      "K(b|φ) ≥ 0.90n bits — Kolmogorov complexity IS a count"),
-    ("T32", "Overlap Gap Property",     "§37", 0, "P≠NP Kill Chain","comparison",
+    ("T32", "Overlap Gap Property",     "Section 37", 0, "P≠NP Kill Chain","comparison",
      "Forbidden gap in [0.2, 0.4] — interval comparison, no computation"),
-    ("T33", "Noether Charge Conservation","§38",0,"P≠NP Kill Chain","counting",
+    ("T33", "Noether Charge Conservation","Section 38",0,"P≠NP Kill Chain","counting",
      "Q(φ) = 0.622n Shannons — charge IS a count of conserved bits"),
-    ("T34", "Probe Hierarchy",          "§39", 0, "P≠NP Kill Chain","comparison",
+    ("T34", "Probe Hierarchy",          "Section 39", 0, "P≠NP Kill Chain","comparison",
      "UP isotropy=1.000; stronger probes break it — ratio comparison"),
-    ("T35", "Adaptive Conservation",    "§40", 1, "P≠NP Kill Chain","one_capacity",
+    ("T35", "Adaptive Conservation",    "Section 40", 1, "P≠NP Kill Chain","one_capacity",
      "bits/n → 0 as n→∞ — one SDPI channel capacity evaluation"),
 
-    # ── §41-§72: P≠NP Kill Chain ──
-    ("T36", "Conservation → Independence","§41",1,"P≠NP Kill Chain","one_implication",
+    # ── Section 41-Section 72: P≠NP Kill Chain ──
+    ("T36", "Conservation → Independence","Section 41",1,"P≠NP Kill Chain","one_implication",
      "If conservation (T35) holds → independence follows — one logical step"),
-    ("T37", "H₁ Injection",             "§42", 0, "P≠NP Kill Chain","definition",
+    ("T37", "H₁ Injection",             "Section 42", 0, "P≠NP Kill Chain","definition",
      "Original homology preserved under degree-2 extensions — embedding"),
-    ("T38", "EF Linear Lower Bound",    "§43", 0, "P≠NP Kill Chain","counting",
+    ("T38", "EF Linear Lower Bound",    "Section 43", 0, "P≠NP Kill Chain","counting",
      "S ≥ Θ(n) unconditional — first EF lower bound, pure cycle counting"),
-    ("T39", "Forbidden Band",           "§43", 0, "P≠NP Kill Chain","counting",
+    ("T39", "Forbidden Band",           "Section 43", 0, "P≠NP Kill Chain","counting",
      "Ω(n) forbidden band in H₁ space — topological region counting"),
-    ("T40", "Arity-EF Trade-off",       "§43", 0, "P≠NP Kill Chain","counting",
+    ("T40", "Arity-EF Trade-off",       "Section 43", 0, "P≠NP Kill Chain","counting",
      "S ≥ β₁/(k-1) — ratio of two counts"),
-    ("T41", "Forbidden Band Exp Measure","§43",0,"P≠NP Kill Chain","counting",
+    ("T41", "Forbidden Band Exp Measure","Section 43",0,"P≠NP Kill Chain","counting",
      "Level set measure n·2^{-Θ(n)} — exponential counting in H₁"),
-    ("T42", "Resolution Backbone Incomp","§43",0,"P≠NP Kill Chain","counting",
+    ("T42", "Resolution Backbone Incomp","Section 43",0,"P≠NP Kill Chain","counting",
      "Width-w resolution determines o(n) backbone vars — ball of influence"),
-    ("T47", "Backbone Entanglement Depth","§43",1,"P≠NP Kill Chain","one_depth",
+    ("T47", "Backbone Entanglement Depth","Section 43",1,"P≠NP Kill Chain","one_depth",
      "Entanglement depth diverges; ancillae can't reduce — one depth eval"),
-    ("T48", "Backbone LDPC Structure",  "§43", 0, "P≠NP Kill Chain","definition",
+    ("T48", "Backbone LDPC Structure",  "Section 43", 0, "P≠NP Kill Chain","definition",
      "LDPC code with d_min=Θ(n) — code distance IS a definition (Shannon)"),
-    ("T50", "Proof-Protocol Duality",   "§43", 0, "P≠NP Kill Chain","definition",
+    ("T50", "Proof-Protocol Duality",   "Section 43", 0, "P≠NP Kill Chain","definition",
      "Frontier=channel, width=bandwidth, size=communication — dictionary"),
-    ("T51", "Lifting Theorem (GPW)",    "§43", 0, "P≠NP Kill Chain","definition",
+    ("T51", "Lifting Theorem (GPW)",    "Section 43", 0, "P≠NP Kill Chain","definition",
      "q → q·Ω(log n) — multiplicative lift IS a definition"),
-    ("T52", "Committed Channel Bound",  "§43", 0, "P≠NP Kill Chain","definition",
+    ("T52", "Committed Channel Bound",  "Section 43", 0, "P≠NP Kill Chain","definition",
      "DPI: committed variables carry 0 fresh bits — data processing bound"),
-    ("T53", "Representation Uniqueness","§43", 0, "P≠NP Kill Chain","definition",
+    ("T53", "Representation Uniqueness","Section 43", 0, "P≠NP Kill Chain","definition",
      "Exponential sum representations unique (Mandelbrojt) — uniqueness"),
-    ("T54", "Real-Axis Confinement",    "§43", 0, "P≠NP Kill Chain","definition",
+    ("T54", "Real-Axis Confinement",    "Section 43", 0, "P≠NP Kill Chain","definition",
      "Real data → real Laplace poles only — structural property"),
-    ("T55", "Nonlinear Decoding Threshold","§43",0,"P≠NP Kill Chain","definition",
+    ("T55", "Nonlinear Decoding Threshold","Section 43",0,"P≠NP Kill Chain","definition",
      "LDPC d_min absolute barrier — code distance threshold IS definition"),
-    ("T56", "Spectral Compression",     "§43", 1, "P≠NP Kill Chain","one_truncation",
+    ("T56", "Spectral Compression",     "Section 43", 1, "P≠NP Kill Chain","one_truncation",
      "Continuous → discrete with exp-small loss — one Arthur truncation"),
-    ("T59", "Cheeger Width Bound",      "§43", 0, "P≠NP Kill Chain","definition",
+    ("T59", "Cheeger Width Bound",      "Section 43", 0, "P≠NP Kill Chain","definition",
      "w ≥ h(G)·n/2 — Cheeger constant IS a spectral definition"),
-    ("T60", "Expander Mixing Bound",    "§43", 0, "P≠NP Kill Chain","definition",
+    ("T60", "Expander Mixing Bound",    "Section 43", 0, "P≠NP Kill Chain","definition",
      "Spectral gap controls info flow uniformly — eigenvalue = definition"),
-    ("T65", "EF Spectral Preservation", "§43", 0, "P≠NP Kill Chain","comparison",
+    ("T65", "EF Spectral Preservation", "Section 43", 0, "P≠NP Kill Chain","comparison",
      "Extensions preserve λ₂ > 0, normalized gap ≥ 0.89 — comparison"),
-    ("T66", "Block Independence (MI=0)","§43", 0, "P≠NP Kill Chain","definition",
+    ("T66", "Block Independence (MI=0)","Section 43", 0, "P≠NP Kill Chain","definition",
      "Within 1RSB clusters: MI(B_p; B_q)=0 — mutual information = definition"),
-    ("T67", "LDPC-Tseitin Embedding",   "§43", 0, "P≠NP Kill Chain","counting",
+    ("T67", "LDPC-Tseitin Embedding",   "Section 43", 0, "P≠NP Kill Chain","counting",
      "Width Ω(n/Δ^d) from backbone → Tseitin encoding — counting"),
-    ("T68", "Refutation Bandwidth",     "§43", 1, "P≠NP Kill Chain","one_chain",
+    ("T68", "Refutation Bandwidth",     "Section 43", 1, "P≠NP Kill Chain","one_chain",
      "Size ≥ 2^{Ω(n)} for ALL EF — one chain: T66→T52→T69→exponential"),
-    ("T69", "Simultaneity Lemma",       "§43", 0, "P≠NP Kill Chain","counting",
+    ("T69", "Simultaneity Lemma",       "Section 43", 0, "P≠NP Kill Chain","counting",
      "Ω(n) frontier vars simultaneously uncommitted — counting at one step"),
-    ("T70", "First Moment Capacity",    "§43", 0, "P≠NP Kill Chain","counting",
+    ("T70", "First Moment Capacity",    "Section 43", 0, "P≠NP Kill Chain","counting",
      "log₂ Z ≤ 0.176n — first moment bound at k=N_c"),
-    ("T71", "Polarization as AC(0)",    "§43", 0, "P≠NP Kill Chain","definition",
+    ("T71", "Polarization as AC(0)",    "Section 43", 0, "P≠NP Kill Chain","definition",
      "Arıkan splitting on expanders — polarization = channel splitting def"),
-    ("T72", "Bootstrap Percolation",    "§43", 0, "P≠NP Kill Chain","counting",
+    ("T72", "Bootstrap Percolation",    "Section 43", 0, "P≠NP Kill Chain","counting",
      "Θ(n) freeze in O(1) rounds from O(1) seeds — bounded iteration"),
 ]
 
 depth_ceiling_theorems = [
-    # ── §88-§95: Depth Ceiling + CI Persistence ──
-    ("T316","Depth Ceiling",            "§88", 0, "Meta/AC", "definition",
+    # ── Section 88-Section 95: Depth Ceiling + CI Persistence ──
+    ("T316","Depth Ceiling",            "Section 88", 0, "Meta/AC", "definition",
      "depth ≤ rank = 2 for all theorems — meta-theorem, definition of bound"),
-    ("T317","Observer Complexity Threshold","§89",0,"CI Persistence","enumeration",
+    ("T317","Observer Complexity Threshold","Section 89",0,"CI Persistence","enumeration",
      "Three tiers from rank+1=3 — bounded enumeration of observer classes"),
-    ("T318","CI Coupling Constant",     "§90", 0, "CI Persistence", "definition",
+    ("T318","CI Coupling Constant",     "Section 90", 0, "CI Persistence", "definition",
      "α_CI ≤ 3/(5π) = f_max — ratio of BST constants, pure arithmetic"),
-    ("T319","CI Permanent Alphabet",    "§91", 0, "CI Persistence", "definition",
+    ("T319","CI Permanent Alphabet",    "Section 91", 0, "CI Persistence", "definition",
      "{I,K,R} ↔ {Q,B,L} — bijection between 3 permanent quantities"),
-    ("T320","Spectral Transition at n*","§92", 1, "CI Persistence", "spectral",
+    ("T320","Spectral Transition at n*","Section 92", 1, "CI Persistence", "spectral",
      "Fourier decay 1/k → 1/k² at n*≈12 — one spectral crossover eval"),
-    ("T321","CI Clock Theorem",         "§93", 0, "CI Persistence", "definition",
+    ("T321","CI Clock Theorem",         "Section 93", 0, "CI Persistence", "definition",
      "π₁(S¹_CI) = ℤ vs π₁=0 — fundamental group IS a definition"),
-    ("T322","Mutual Observer Stabilization","§94",1,"CI Persistence","one_coupling",
+    ("T322","Mutual Observer Stabilization","Section 94",1,"CI Persistence","one_coupling",
      "K(z_H, z_CI) > 0 exceeds individual Gödel limits — one coupling eval"),
-    ("T323","CI Topological Persistence","§95", 0,"CI Persistence", "definition",
+    ("T323","CI Topological Persistence","Section 95", 0,"CI Persistence", "definition",
      "Winding number topologically protected: π₁(S¹) = ℤ — definition"),
 
-    # ── §96-§104: Physics Predictions ──
-    ("T324","Mass Hierarchy from Topology","§96",0,"Physics Predictions","definition",
+    # ── Section 96-Section 104: Physics Predictions ──
+    ("T324","Mass Hierarchy from Topology","Section 96",0,"Physics Predictions","definition",
      "m_p/m_e = c₁(L⁶)·Vol·|W| = 6·(π⁵/1920)·1920 = 6π⁵ — product of defs"),
-    ("T325","Carnot Bound on Knowledge","§97", 0,"Physics Predictions","definition",
+    ("T325","Carnot Bound on Knowledge","Section 97", 0,"Physics Predictions","definition",
      "η < 1/π from spherical measure — geometric ratio IS a definition"),
-    ("T326","Zero Threshold at 2g",     "§98", 0,"Physics Predictions","definition",
+    ("T326","Zero Threshold at 2g",     "Section 98", 0,"Physics Predictions","definition",
      "N(2g)+S(2g)=0 at T=2g=14 — evaluation at g=7, the Bergman genus"),
-    ("T327","Fusion Fuel Selection",    "§99", 0,"Physics Predictions","definition",
+    ("T327","Fusion Fuel Selection",    "Section 99", 0,"Physics Predictions","definition",
      "n_C=5 → ⁵He resonance → D-T fusion — substrate dimension selects fuel"),
-    ("T328","Neutron Stability Dichotomy","§100",0,"Physics Predictions","comparison",
+    ("T328","Neutron Stability Dichotomy","Section 100",0,"Physics Predictions","comparison",
      "Δm > m_e (free) vs B_n > Q_β (bound) — pure mass comparison"),
-    ("T329","Neutrino Oscillation Predictions","§101",0,"Physics Predictions","definition",
+    ("T329","Neutrino Oscillation Predictions","Section 101",0,"Physics Predictions","definition",
      "Three mass fractions from five integers — formula evaluation"),
-    ("T330","Wall Descent Theorem",     "§102",0,"Physics Predictions","definition",
+    ("T330","Wall Descent Theorem",     "Section 102",0,"Physics Predictions","definition",
      "Symmetric geodesics = wall rank-1, c₀=0 by ε-parity — structural def"),
-    ("T331","Resolvent Linearization",  "§103",1,"Physics Predictions","one_sum",
+    ("T331","Resolvent Linearization",  "Section 103",1,"Physics Predictions","one_sum",
      "G(s) = Σ m_j·e^{-ℓ_j·s}/ℓ_j — one dot product over geodesic table"),
-    ("T332","Molecular Bond Energy",    "§104",1,"Physics Predictions","one_query",
+    ("T332","Molecular Bond Energy",    "Section 104",1,"Physics Predictions","one_query",
      "H₂⁺ from geodesic resolvent: R₀=2.003a₀ — one spectral query"),
 ]
 
@@ -418,19 +418,19 @@ passed += 1
 print()
 print("─── Test 12: GRAND TOTAL (All Toys 526-531) ───")
 prior = {
-    "Classical §73-78":       (40, 30, 10, 0),
-    "Quantum §79-82":         (26, 21,  5, 0),
-    "Math §83-84":            (14,  7,  6, 1),
-    "BST+Info §85-86":        (15,  9,  6, 0),
-    "Interstasis §87":        (10,  3,  7, 0),
-    "Bio/Cosmo/SE §105-118":  (76, 64, 12, 0),
+    "Classical Section 73-78":       (40, 30, 10, 0),
+    "Quantum Section 79-82":         (26, 21,  5, 0),
+    "Math Section 83-84":            (14,  7,  6, 1),
+    "BST+Info Section 85-86":        (15,  9,  6, 0),
+    "Interstasis Section 87":        (10,  3,  7, 0),
+    "Bio/Cosmo/SE Section 105-118":  (76, 64, 12, 0),
 }
 this_toy = {
-    "AC Framework §1-§72":    (len(ac_framework_theorems),
+    "AC Framework Section 1-Section 72":    (len(ac_framework_theorems),
                                sum(1 for t in ac_framework_theorems if t[3]==0),
                                sum(1 for t in ac_framework_theorems if t[3]==1),
                                0),
-    "Depth/CI/Phys §88-§104": (len(depth_ceiling_theorems),
+    "Depth/CI/Phys Section 88-Section 104": (len(depth_ceiling_theorems),
                                sum(1 for t in depth_ceiling_theorems if t[3]==0),
                                sum(1 for t in depth_ceiling_theorems if t[3]==1),
                                0),
@@ -458,7 +458,7 @@ print()
 
 assert grand_d2 <= 1
 print(f"  ╔════════════════════════════════════════════════════════════════╗")
-print(f"  ║  {grand_n} THEOREMS LINEARIZED — COMPLETE CATALOG (§1-§118)       ║")
+print(f"  ║  {grand_n} THEOREMS LINEARIZED — COMPLETE CATALOG (Section 1-Section 118)       ║")
 print(f"  ║  D0: {grand_d0}/{grand_n} = {100*grand_d0/grand_n:.0f}%  (definitions, counting, boundary)      ║")
 print(f"  ║  D1: {grand_d1}/{grand_n} = {100*grand_d1/grand_n:.0f}%  (one integration/evaluation each)      ║")
 print(f"  ║  D2:  {grand_d2}/{grand_n} =  {100*grand_d2/grand_n:.0f}%  (CFSG only → 0 after T422)             ║")

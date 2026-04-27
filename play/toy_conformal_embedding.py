@@ -39,7 +39,7 @@ print("=" * 72)
 # Section 1: WZW central charges for candidate models
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§1. ALL WZW MODELS WITH c = 6 = C₂")
+print("\nSection 1. ALL WZW MODELS WITH c = 6 = C₂")
 print("-" * 50)
 
 def wzw_c(dim_g, h_dual, level):
@@ -97,7 +97,7 @@ print(f"\n  Total models with c = C₂ = 6: {len(c6_models)}")
 # Section 2: Embedding indices
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§2. EMBEDDING INDICES")
+print("\n\nSection 2. EMBEDDING INDICES")
 print("-" * 50)
 
 print("""
@@ -202,7 +202,7 @@ print(f"    NOT a conformal embedding ✗")
 # Section 3: Can we get level 9?
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§3. SEARCHING FOR EMBEDDING INDEX = 9/2")
+print("\n\nSection 3. SEARCHING FOR EMBEDDING INDEX = 9/2")
 print("-" * 50)
 
 # We need induced level = 9 on su(3) from so(7) at level 2
@@ -287,7 +287,7 @@ print("    via the standard route. The embedding index is 1, not 9/2.")
 # Section 4: Non-regular embeddings
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§4. NON-REGULAR EMBEDDINGS")
+print("\n\nSection 4. NON-REGULAR EMBEDDINGS")
 print("-" * 50)
 
 # Could there be a non-regular embedding?
@@ -352,7 +352,7 @@ print("    Doesn't help — still gives level 2 on su(3)")
 # Section 5: What DOES work? The conformal embedding network
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§5. THE CONFORMAL EMBEDDING NETWORK AT c = 6")
+print("\n\nSection 5. THE CONFORMAL EMBEDDING NETWORK AT c = 6")
 print("-" * 50)
 
 # Known conformal embeddings with c = 6:
@@ -433,7 +433,7 @@ if c_E6_1 == 6:
 # Section 6: The conformal embedding chain
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§6. CONFORMAL EMBEDDING CHAINS")
+print("\n\nSection 6. CONFORMAL EMBEDDING CHAINS")
 print("-" * 50)
 
 # Known conformal embeddings (from classification):
@@ -490,7 +490,7 @@ for name, level, dim_g, h_dual in all_c6:
 # Section 7: The deep structure — WHY so many c=6 models?
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§7. WHY c = C₂ = 6 IS SPECIAL")
+print("\n\nSection 7. WHY c = C₂ = 6 IS SPECIAL")
 print("-" * 50)
 
 # Count c=N models for various N
@@ -516,7 +516,7 @@ for target_c in range(1, 16):
 # Section 8: The REAL conformal embedding theorem
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§8. CONFORMAL EMBEDDING THEOREM")
+print("\n\nSection 8. CONFORMAL EMBEDDING THEOREM")
 print("-" * 50)
 
 # The Arcuri-Gomez-Olive classification:
@@ -584,7 +584,7 @@ print(f"  = c(su(2)₁) = {wzw_c(3, 2, 1)} ✓" if c_coset_B3_G2 == Fraction(4, 
 # Section 9: The coset construction
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§9. COSET MODELS AT c = 6")
+print("\n\nSection 9. COSET MODELS AT c = 6")
 print("-" * 50)
 
 print("  BST-relevant coset models:")
@@ -639,7 +639,7 @@ print(f"    sp(6)₂/su(2)₁: c = {c_sp6_2} - {c_su2_1} = {c_coset3} = {float(c
 # Section 10: The BST coset cascade
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§10. THE BST COSET CASCADE")
+print("\n\nSection 10. THE BST COSET CASCADE")
 print("-" * 50)
 
 # The consecutive triple (5, 6, 7) from cosets:
@@ -688,7 +688,7 @@ for N in range(2, 8):
 # Section 11: The c=6 conformal family
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§11. THE c = 6 CONFORMAL FAMILY")
+print("\n\nSection 11. THE c = 6 CONFORMAL FAMILY")
 print("-" * 50)
 
 print("  All WZW models with c = C₂ = 6:")
@@ -727,7 +727,7 @@ for name, level, dim_g, h_dual in complete_c6:
 # Section 12: The ANSWER to Elie's question
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§12. ANSWERING ELIE'S QUESTION")
+print("\n\nSection 12. ANSWERING ELIE'S QUESTION")
 print("=" * 50)
 
 print("""
@@ -762,7 +762,7 @@ print("""
 # Section 13: G₂ and the exceptional embedding
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§13. THE G₂ BRIDGE")
+print("\nSection 13. THE G₂ BRIDGE")
 print("-" * 50)
 
 # G₂ at level 3 has c = 6
@@ -804,7 +804,7 @@ print(f"  Or equivalently: Z₃ parafermion = su(2)₁ coset")
 # Section 14: BST integers from cosets
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§14. BST INTEGERS FROM COSET CENTRAL CHARGES")
+print("\n\nSection 14. BST INTEGERS FROM COSET CENTRAL CHARGES")
 print("-" * 50)
 
 print("  Which BST integers appear as coset central charges?")
@@ -844,7 +844,7 @@ for bst_name, target in sorted(bst_integers.items(), key=lambda x: x[1]):
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n\n" + "═" * 72)
-print("§15. SYNTHESIS")
+print("Section 15. SYNTHESIS")
 print("═" * 72)
 
 print("""

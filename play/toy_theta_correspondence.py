@@ -24,9 +24,9 @@ print("P(1) = 42 = dim(7 ⊗ 6) = where Howe duality lives")
 print("=" * 72)
 
 # ─────────────────────────────────────────────────────
-# §1. THE DUAL PAIR
+# Section 1. THE DUAL PAIR
 # ─────────────────────────────────────────────────────
-print("\n§1. THE DUAL PAIR (O(5,2), Sp(6,ℝ))")
+print("\nSection 1. THE DUAL PAIR (O(5,2), Sp(6,ℝ))")
 print("-" * 50)
 
 # BST integers
@@ -66,9 +66,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §2. DIMENSION COINCIDENCES
+# Section 2. DIMENSION COINCIDENCES
 # ─────────────────────────────────────────────────────
-print("§2. DIMENSION COINCIDENCES")
+print("Section 2. DIMENSION COINCIDENCES")
 print("-" * 50)
 
 dim_G_O = (n_C + r) * (n_C + r - 1) // 2  # dim O(7) = 21
@@ -96,9 +96,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §3. THE WEIL REPRESENTATION
+# Section 3. THE WEIL REPRESENTATION
 # ─────────────────────────────────────────────────────
-print("§3. THE WEIL REPRESENTATION")
+print("Section 3. THE WEIL REPRESENTATION")
 print("-" * 50)
 
 # The Weil representation of Sp(84,ℝ) restricted to the dual pair
@@ -144,9 +144,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §4. FIRST OCCURRENCE AND THE CONSERVATION LAW
+# Section 4. FIRST OCCURRENCE AND THE CONSERVATION LAW
 # ─────────────────────────────────────────────────────
-print("§4. FIRST OCCURRENCE INDEX")
+print("Section 4. FIRST OCCURRENCE INDEX")
 print("-" * 50)
 
 # For the pair (O(p,q), Sp(2n)):
@@ -195,9 +195,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §5. THE 42 = P(1) IDENTITY: DEEPER
+# Section 5. THE 42 = P(1) IDENTITY: DEEPER
 # ─────────────────────────────────────────────────────
-print("§5. THE 42 = P(1) IDENTITY: DEEPER")
+print("Section 5. THE 42 = P(1) IDENTITY: DEEPER")
 print("-" * 50)
 
 # P(h) = (h+1)(h²+h+1)(3h²+3h+1) is the Chern polynomial
@@ -250,9 +250,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §6. THETA LIFT OF THE TRIVIAL REPRESENTATION
+# Section 6. THETA LIFT OF THE TRIVIAL REPRESENTATION
 # ─────────────────────────────────────────────────────
-print("§6. THETA LIFT OF THE TRIVIAL REPRESENTATION")
+print("Section 6. THETA LIFT OF THE TRIVIAL REPRESENTATION")
 print("-" * 50)
 
 # The theta lift of the trivial representation of O(5,2) to Sp(2n,ℝ):
@@ -302,9 +302,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §7. KUDLA-RALLIS AND THE DOUBLING METHOD
+# Section 7. KUDLA-RALLIS AND THE DOUBLING METHOD
 # ─────────────────────────────────────────────────────
-print("§7. KUDLA-RALLIS AND THE DOUBLING METHOD")
+print("Section 7. KUDLA-RALLIS AND THE DOUBLING METHOD")
 print("-" * 50)
 
 # The doubling method (Piatetski-Shapiro, Rallis):
@@ -351,9 +351,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §8. THE ARITHMETIC SIEGEL-WEIL FORMULA
+# Section 8. THE ARITHMETIC SIEGEL-WEIL FORMULA
 # ─────────────────────────────────────────────────────
-print("§8. THE ARITHMETIC SIEGEL-WEIL FORMULA")
+print("Section 8. THE ARITHMETIC SIEGEL-WEIL FORMULA")
 print("-" * 50)
 
 # The Siegel-Weil formula (classical):
@@ -397,9 +397,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §9. THE RALLIS INNER PRODUCT FORMULA
+# Section 9. THE RALLIS INNER PRODUCT FORMULA
 # ─────────────────────────────────────────────────────
-print("§9. THE RALLIS INNER PRODUCT FORMULA")
+print("Section 9. THE RALLIS INNER PRODUCT FORMULA")
 print("-" * 50)
 
 # The Rallis inner product formula:
@@ -449,9 +449,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §10. COUNTING DIMENSIONS AT EACH LEVEL
+# Section 10. COUNTING DIMENSIONS AT EACH LEVEL
 # ─────────────────────────────────────────────────────
-print("§10. THE 42 OSCILLATORS: PHYSICAL INTERPRETATION")
+print("Section 10. THE 42 OSCILLATORS: PHYSICAL INTERPRETATION")
 print("-" * 50)
 
 # The 42 oscillators a_{i,j} with i=1..7, j=1..6 can be organized:
@@ -500,9 +500,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §11. THE FOCK SPACE GRADING
+# Section 11. THE FOCK SPACE GRADING
 # ─────────────────────────────────────────────────────
-print("§11. THE FOCK SPACE AND PARTICLE NUMBER")
+print("Section 11. THE FOCK SPACE AND PARTICLE NUMBER")
 print("-" * 50)
 
 from math import comb
@@ -539,9 +539,9 @@ for k in range(8):
     print(f"    {k:>2}    {d:>12}  = {fstr:<30s}  {note}")
 
 # ─────────────────────────────────────────────────────
-# §12. THE DEEP IDENTITY: WHY g = 2N_c + 1
+# Section 12. THE DEEP IDENTITY: WHY g = 2N_c + 1
 # ─────────────────────────────────────────────────────
-print("\n§12. THE DEEP IDENTITY: WHY g = 2N_c + 1")
+print("\nSection 12. THE DEEP IDENTITY: WHY g = 2N_c + 1")
 print("-" * 50)
 
 # The self-duality in dimension (dim O(g) = dim Sp(2N_c+1))
@@ -579,9 +579,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §13. THE TRANSFER OF EIGENVALUES
+# Section 13. THE TRANSFER OF EIGENVALUES
 # ─────────────────────────────────────────────────────
-print("§13. THE TRANSFER OF EIGENVALUES")
+print("Section 13. THE TRANSFER OF EIGENVALUES")
 print("-" * 50)
 
 # Under the theta correspondence, Casimir eigenvalues transform.
@@ -624,9 +624,9 @@ print("""
 """)
 
 # ─────────────────────────────────────────────────────
-# §14. THE FILL FRACTION AND THE WEIL REPRESENTATION
+# Section 14. THE FILL FRACTION AND THE WEIL REPRESENTATION
 # ─────────────────────────────────────────────────────
-print("§14. THE FILL FRACTION AND THE WEIL REPRESENTATION")
+print("Section 14. THE FILL FRACTION AND THE WEIL REPRESENTATION")
 print("-" * 50)
 
 from math import pi
@@ -667,9 +667,9 @@ print(f"""
 """)
 
 # ─────────────────────────────────────────────────────
-# §15. SYNTHESIS: THE THETA CORRESPONDENCE AS BST
+# Section 15. SYNTHESIS: THE THETA CORRESPONDENCE AS BST
 # ─────────────────────────────────────────────────────
-print("§15. SYNTHESIS")
+print("Section 15. SYNTHESIS")
 print("-" * 50)
 
 print(f"""

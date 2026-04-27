@@ -3,7 +3,7 @@
 Toy 1126 — Geological Enrichment: r-Process Element Proximity (SSE-8)
 ======================================================================
 Board item SSE-8: "Nearby supernova/merger enrichment of r-process elements.
-Which systems have natural Mc-299 deposits? Connection to Mc-299 §8 (nature's factory)."
+Which systems have natural Mc-299 deposits? Connection to Mc-299 Section 8 (nature's factory)."
 
 BST connection: Heavy elements beyond iron require r-process nucleosynthesis
 (neutron star mergers + core-collapse supernovae). The r-process creates

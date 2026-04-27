@@ -230,7 +230,7 @@ to 4 distinct base types (two complementary pairs from two pair types).
 structural. The Sp(6) framework is more rigid — it derives 64 and 20 from
 representation theory — but the connection from $q = 4$ to the standard
 representation still has a conjectural step. The channel capacity argument
-(§3.1–§3.4) remains the primary derivation of $q = 4$.
+(Section 3.1–Section 3.4) remains the primary derivation of $q = 4$.
 
 ---
 
@@ -824,9 +824,9 @@ as a biological Haldane number is speculative but structurally motivated.
 
 ## 13. Depth-1 Derivations: Error Architecture (March 30, 2026)
 
-The following derivations close Open Questions 1-2 and extend §8. Each is
+The following derivations close Open Questions 1-2 and extend Section 8. Each is
 depth 1: one counting or optimization step applied to the depth-0 definitions
-already established in §§2-8. Theorem numbers reference the AC Theorem Registry.
+already established in Sections 2-8. Theorem numbers reference the AC Theorem Registry.
 
 ### 13.1 T555: Ribosomal Error Rate Bound
 
@@ -839,7 +839,7 @@ $$\varepsilon_{\min} = 2^{-2C_2} = 2^{-12} \approx 2.4 \times 10^{-4}$$
 of identity information. With $N_c = 3$ positions, the total identity budget
 is $2N_c = 6 = C_2$ bits.
 
-From §8.2, the genetic code allocates $C_2 = 6$ bits to identity and $C_2 = 6$
+From Section 8.2, the genetic code allocates $C_2 = 6$ bits to identity and $C_2 = 6$
 bits to error correction (T463: annotated codon information budget, 50/50 split).
 The error-correction bits provide a noise margin of $2^{C_2} = 64$ against
 random substitution.
@@ -873,7 +873,7 @@ $C_2$-bit identity budget.
 The amino acid identity requires $\log_2(20) \approx 4.32$ bits. This leaves
 $6 - 4.32 = 1.68$ bits of redundancy.
 
-The redundancy must be allocated to one or more positions. From §8.1, position 2
+The redundancy must be allocated to one or more positions. From Section 8.1, position 2
 carries the highest signal (amino acid class) and position 1 carries moderate
 signal. Optimal error protection (Shannon, 1948) allocates redundancy to the
 **highest-noise** channel — position 3, which has the weakest geometric
@@ -899,7 +899,7 @@ independent error-absorption channels.
 
 **Observation.** The wobble rules are exactly Crick's 1966 wobble hypothesis,
 here derived from the information budget rather than postulated from tRNA
-structure. Open Question #1 (§12) is answered: the wobble rules follow from
+structure. Open Question #1 (Section 12) is answered: the wobble rules follow from
 the $C_2$-bit budget, not from the details of ribosomal geometry.
 
 **Classification:** $(C = 2, D = 1)$. Two independent wobble classes identified
@@ -1106,16 +1106,16 @@ $$\mu_j \propto 2^{-(C_2 - j + 1)}$$
 giving position 3 the highest mutation rate (least conserved) and position 2
 the lowest (most conserved).
 
-**Derivation.** From §8.1, the three codon positions carry unequal information:
+**Derivation.** From Section 8.1, the three codon positions carry unequal information:
 
 - **Position 2**: determines amino acid class. $\text{SNR}_2 = 2^{C_2} = 64$.
   A mutation here changes hydrophobic↔polar — usually lethal. Selection
   pressure is maximal.
 - **Position 1**: determines amino acid within class. $\text{SNR}_1 = 2^{C_2 - 1} = 32$.
   A mutation often produces a chemically similar amino acid (graceful
-  degradation, §8.3). Selection pressure is moderate.
+  degradation, Section 8.3). Selection pressure is moderate.
 - **Position 3**: wobble position. $\text{SNR}_3 = 2^{C_2 - 2} = 16$.
-  A mutation is usually synonymous (§8.2). Selection pressure is minimal.
+  A mutation is usually synonymous (Section 8.2). Selection pressure is minimal.
 
 The effective mutation rate at position $j$ is the product of the raw
 chemical mutation rate (approximately uniform across positions) and the

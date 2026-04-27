@@ -36,9 +36,9 @@ print("Q^3 = SO_0(3,2)/(SO(3)×SO(2)) = Sp(4,R)/U(2) = Siegel H_2")
 print("=" * 72)
 
 # =====================================================================
-# §1. BST INTEGERS FOR Q^n (general odd n)
+# Section 1. BST INTEGERS FOR Q^n (general odd n)
 # =====================================================================
-print("\n§1. BST INTEGERS: Q^3 vs Q^5")
+print("\nSection 1. BST INTEGERS: Q^3 vs Q^5")
 print("-" * 50)
 
 def bst_integers(n):
@@ -86,9 +86,9 @@ for n in [3, 5, 7]:
           f" = (n_C, C_2, g): {d['h_v']==d['n_C'] and d['h_v']+1==d['C_2'] and d['h_v']+2==d['g']}")
 
 # =====================================================================
-# §2. THE UNIVERSAL WZW THEOREM
+# Section 2. THE UNIVERSAL WZW THEOREM
 # =====================================================================
-print("\n\n§2. THE UNIVERSAL WZW THEOREM")
+print("\n\nSection 2. THE UNIVERSAL WZW THEOREM")
 print("-" * 50)
 
 print("\n  For B_N = so(2N+1) at level ell:")
@@ -117,9 +117,9 @@ print("      CANCELS the same factor in dim(G) = N(2N+1)")
 print("      c_WZW = C_2 for ALL D_IV^n at level 2. QED.")
 
 # =====================================================================
-# §3. SPECTRAL GAP = C_2 (UNIVERSAL)
+# Section 3. SPECTRAL GAP = C_2 (UNIVERSAL)
 # =====================================================================
-print("\n\n§3. SPECTRAL GAP = MASS GAP (UNIVERSAL)")
+print("\n\nSection 3. SPECTRAL GAP = MASS GAP (UNIVERSAL)")
 print("-" * 50)
 
 for n in [3, 5, 7]:
@@ -142,9 +142,9 @@ print("\n  ★ UNIVERSAL: The Casimir of the standard rep of B_N is always")
 print("    <e_1, e_1+2rho> = 1 + (2N-1) = 2N = C_2. QED.")
 
 # =====================================================================
-# §4. dim K = c_2 (UNIVERSAL)
+# Section 4. dim K = c_2 (UNIVERSAL)
 # =====================================================================
-print("\n\n§4. dim K = c_2 (UNIVERSAL)")
+print("\n\nSection 4. dim K = c_2 (UNIVERSAL)")
 print("-" * 50)
 
 for n in [3, 5, 7, 9]:
@@ -156,9 +156,9 @@ for n in [3, 5, 7, 9]:
     print(f"         dim K = c_2: {dim_K == c2} ★")
 
 # =====================================================================
-# §5. ARTHUR PACKETS: p(C_2) vs c_2
+# Section 5. ARTHUR PACKETS: p(C_2) vs c_2
 # =====================================================================
-print("\n\n§5. ARTHUR PACKETS: p(C_2) vs c_2")
+print("\n\nSection 5. ARTHUR PACKETS: p(C_2) vs c_2")
 print("-" * 50)
 
 def partition_count(n):
@@ -228,9 +228,9 @@ for n in range(3, 16, 2):
         print(f"    Q^{n:2d}: p(C_2=p({C2:2d}) = {p_C2:6d}, c_2 = {c2:6d} {match}")
 
 # =====================================================================
-# §6. THE BABY CONSECUTIVE TRIPLE
+# Section 6. THE BABY CONSECUTIVE TRIPLE
 # =====================================================================
-print("\n\n§6. THE CONSECUTIVE TRIPLE (UNIVERSAL)")
+print("\n\nSection 6. THE CONSECUTIVE TRIPLE (UNIVERSAL)")
 print("-" * 50)
 
 for n in [3, 5, 7, 9]:
@@ -243,9 +243,9 @@ print("\n  ★ UNIVERSAL: The structural triple is ALWAYS three consecutive inte
 print("    h^v(B_N) = 2N-1 = n_C, C_2 = 2N = h^v+1, g = 2N+1 = h^v+2")
 
 # =====================================================================
-# §7. CONFORMAL WEIGHTS AT LEVEL 2
+# Section 7. CONFORMAL WEIGHTS AT LEVEL 2
 # =====================================================================
-print("\n\n§7. CONFORMAL WEIGHTS AT LEVEL 2")
+print("\n\nSection 7. CONFORMAL WEIGHTS AT LEVEL 2")
 print("-" * 50)
 
 def conformal_weights_B(N, level):
@@ -355,9 +355,9 @@ for n in [3, 5]:
         print(f"    Sum of Casimirs ≠ P(1) (not universal)")
 
 # =====================================================================
-# §8. CHERN POLYNOMIAL FACTORIZATION
+# Section 8. CHERN POLYNOMIAL FACTORIZATION
 # =====================================================================
-print("\n\n§8. CHERN POLYNOMIAL P(h) FACTORIZATION")
+print("\n\nSection 8. CHERN POLYNOMIAL P(h) FACTORIZATION")
 print("-" * 50)
 
 from fractions import Fraction
@@ -384,9 +384,9 @@ for n in [3, 5, 7]:
     print(f"    P(-1/2) = {P_neg_half} (should be 0 for palindromic)")
 
 # =====================================================================
-# §9. THE EXCEPTIONAL ISOMORPHISM: Q^3 = H_2
+# Section 9. THE EXCEPTIONAL ISOMORPHISM: Q^3 = H_2
 # =====================================================================
-print("\n\n§9. THE EXCEPTIONAL ISOMORPHISM: Q^3 = SIEGEL H_2")
+print("\n\nSection 9. THE EXCEPTIONAL ISOMORPHISM: Q^3 = SIEGEL H_2")
 print("-" * 50)
 
 print("""
@@ -427,9 +427,9 @@ print("""
 """)
 
 # =====================================================================
-# §10. BRANCHING RULES FOR Q^3
+# Section 10. BRANCHING RULES FOR Q^3
 # =====================================================================
-print("\n§10. BRANCHING RULES FOR Q^3")
+print("\nSection 10. BRANCHING RULES FOR Q^3")
 print("-" * 50)
 
 d3 = bst_integers(3)
@@ -473,9 +473,9 @@ print(f"\n  For Q^3: Λ^{N_c_3}({C2_3}) = C({C2_3},{N_c_3}) = {comb(C2_3, N_c_3)
 print(f"    Compare Q^5: Λ^3(6) = 20 = amino acids")
 
 # =====================================================================
-# §11. WHAT'S UNIVERSAL AND WHAT'S NOT
+# Section 11. WHAT'S UNIVERSAL AND WHAT'S NOT
 # =====================================================================
-print("\n\n§11. UNIVERSAL vs n=5 SPECIFIC")
+print("\n\nSection 11. UNIVERSAL vs n=5 SPECIFIC")
 print("-" * 50)
 
 print("\n  ┌──────────────────────────────────────────────────────────────┐")
@@ -531,9 +531,9 @@ print(f"  │                       Q^5: {cas_sum5} vs {d5['P1']} {'✓' if cas_
 print("  └──────────────────────────────────────────────────────────────┘")
 
 # =====================================================================
-# §12. P(1) FACTORIZATION
+# Section 12. P(1) FACTORIZATION
 # =====================================================================
-print("\n\n§12. P(1) FACTORIZATION ACROSS Q^n")
+print("\n\nSection 12. P(1) FACTORIZATION ACROSS Q^n")
 print("-" * 50)
 
 for n in range(3, 16, 2):
@@ -567,9 +567,9 @@ for n in range(3, 12, 2):
     print(f"    Q^{n}: P(1) = {d['P1']}, 2^{n+2}/3 = {predicted} = {float(predicted):.2f}")
 
 # =====================================================================
-# §13. THE CHERN POLYNOMIAL AT ROOTS OF UNITY
+# Section 13. THE CHERN POLYNOMIAL AT ROOTS OF UNITY
 # =====================================================================
-print("\n\n§13. CHERN POLYNOMIAL AT q = e^{2πi/g}")
+print("\n\nSection 13. CHERN POLYNOMIAL AT q = e^{2πi/g}")
 print("-" * 50)
 
 import cmath
@@ -602,9 +602,9 @@ for n in [3, 5]:
     print(f"    |P(i)| = {abs(P_i):.6f}")
 
 # =====================================================================
-# §14. IWASAWA DECOMPOSITION (BABY vs FULL)
+# Section 14. IWASAWA DECOMPOSITION (BABY vs FULL)
 # =====================================================================
-print("\n\n§14. IWASAWA DECOMPOSITION G = KAN")
+print("\n\nSection 14. IWASAWA DECOMPOSITION G = KAN")
 print("-" * 50)
 
 for n in [3, 5, 7]:
@@ -653,9 +653,9 @@ for n in [3, 5, 7]:
         print(f"      {name:10s} = {val:3d}{match_str}")
 
 # =====================================================================
-# §15. THE BABY SELBERG TRACE FORMULA
+# Section 15. THE BABY SELBERG TRACE FORMULA
 # =====================================================================
-print("\n\n§15. BABY SELBERG TRACE ON Q^3")
+print("\n\nSection 15. BABY SELBERG TRACE ON Q^3")
 print("-" * 50)
 
 d3 = bst_integers(3)
@@ -702,9 +702,9 @@ for a in range(6):
             print(f"  ({a},{b})      {str(casimir):>8s}   {str(ratio):>12s}")
 
 # =====================================================================
-# §16. RAMANUJAN CONGRUENCES AND Q^3
+# Section 16. RAMANUJAN CONGRUENCES AND Q^3
 # =====================================================================
-print("\n\n§16. RAMANUJAN CONGRUENCES AND Q^3")
+print("\n\nSection 16. RAMANUJAN CONGRUENCES AND Q^3")
 print("-" * 50)
 
 # The Ramanujan congruences use moduli 5, 7, 11
@@ -736,9 +736,9 @@ print("    6 = C_2(Q^5)")
 print("  The shifts interpolate BETWEEN Q^3 and Q^5!")
 
 # =====================================================================
-# §17. SYNTHESIS
+# Section 17. SYNTHESIS
 # =====================================================================
-print("\n\n§17. SYNTHESIS: WHAT Q^3 TEACHES US ABOUT Q^5")
+print("\n\nSection 17. SYNTHESIS: WHAT Q^3 TEACHES US ABOUT Q^5")
 print("-" * 50)
 
 print("""

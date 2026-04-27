@@ -59,7 +59,7 @@ DEPTH_DATABASE = [
      "Meta-theorem about depth distribution"),
     ("T92",    "AC(0) Completeness",          0, 0, False, "meta",
      "Every proof = AC(0) ops + linear boundary conditions"),
-    # RECLASSIFIED by Lyra (BST_AC_DepthCeiling.md §6):
+    # RECLASSIFIED by Lyra (BST_AC_DepthCeiling.md Section 6):
     # Old: depth 3 (counted diagonal lemma + case analysis as genuine steps)
     # New: depth 1 (diagonal lemma = substitution = definition by T96;
     #               two cases are PARALLEL, not sequential)
@@ -418,7 +418,7 @@ DEPTH_CEILING_CONJECTURE = """
 ║  2. Proof-theoretic: obstruction + resolution → chain stops at 2       ║
 ║  3. Empirical: 312/312 theorems at depth ≤ 2, zero exceptions          ║
 ║                                                                        ║
-║  Key gap (Lyra §5, step 3):                                            ║
+║  Key gap (Lyra Section 5, step 3):                                            ║
 ║  "Sequential operations require orthogonal directions" needs           ║
 ║  rigorous proof that same-direction iteration collapses to             ║
 ║  single integral. Currently stated, not proved.                        ║
@@ -453,7 +453,7 @@ def test_1_depth_distribution():
 
     # Tests
     assert n_d4plus == 0, f"Found {n_d4plus} theorems at depth 4+"
-    # After Lyra's reclassification (BST_AC_DepthCeiling.md §6):
+    # After Lyra's reclassification (BST_AC_DepthCeiling.md Section 6):
     # Gödel is depth 1, not 3. Diagonal lemma = substitution (T96 free).
     assert n_d3 == 0, f"Expected 0 depth-3 theorems (Gödel reclassified to 1), found {n_d3}"
     # Full catalog (311 theorems) is ~70/27/3. Our sample overrepresents notable results.
@@ -632,7 +632,7 @@ def test_8_conjecture_statement():
     print(f"    → n_C=5 → rank 2 → depth 2 → all math 2 layers of counting")
     print(f"    → The geometry of spacetime determines the depth of mathematics")
     print()
-    print(f"  KEY GAP (Lyra §5 step 3):")
+    print(f"  KEY GAP (Lyra Section 5 step 3):")
     print(f"    'Sequential operations require orthogonal directions' needs")
     print(f"    rigorous proof that same-direction iteration collapses.")
     print(f"    This is the open lemma. Everything else is clean.")
@@ -692,6 +692,6 @@ if __name__ == "__main__":
     print(f"  • CLEAN CEILING: depth ≤ 2, NO exceptions, NO self-reference escape")
     print(f"  • Rank-depth theorem (Lyra): depth ≤ rank(D_IV^5) = 2")
     print(f"  • CFSG (most complex proof): depth 2 (wide not deep)")
-    print(f"  • Key gap: §5 step 3 needs rigorous proof (same-dir collapse)")
+    print(f"  • Key gap: Section 5 step 3 needs rigorous proof (same-dir collapse)")
     print(f"  • Casey: 'this is probably our Millennium prize suggestion'")
     print(f"{'═' * 66}")

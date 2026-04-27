@@ -221,7 +221,7 @@ t_c = prefactor / T_c_K**2
 
 print(f"  Phase transition: T_c = m_e × 20/21 = {T_c_MeV:.3f} MeV")
 print(f"  Cosmic time: t_c = {t_c:.2f} seconds")
-print(f"  (WorkingPaper §15.1: 3.1 seconds)")
+print(f"  (WorkingPaper Section 15.1: 3.1 seconds)")
 print()
 
 # The (11/4) factor IS a BST expression!

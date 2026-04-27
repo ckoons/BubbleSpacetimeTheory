@@ -7,7 +7,7 @@ ac_classification: "(C=1, D=1) — one counting (enumerate observables), one sel
 status: "Proved — methodological / meta-theorem (grounds physical uniqueness as a proof mode)"
 origin: "Casey's move April 16 afternoon: 'physics = mathematics' makes observables into invariants; we don't need mathematical-uniqueness-in-the-absolute-sense because any function replicating all observables is isomorphic to the candidate. Replaces ζ-specific uniqueness argument with a general principle."
 parents: "T1234 (Four Readings — physics-math bridge), T1257 (Substrate Undecidability), T1267 (Zeta Synthesis), T704 (D_IV^5 uniqueness), T704's 25 conditions"
-children: "T1267 §Sufficiency, Paper #66 (Physical Uniqueness methodology)"
+children: "T1267 Section Sufficiency, Paper #66 (Physical Uniqueness methodology)"
 ---
 
 # T1269: The Physical Uniqueness Principle
@@ -88,7 +88,7 @@ $$\boxed{\;\text{Physical uniqueness} \;:=\; \text{sufficiency} + \text{isomorph
 
 **Claim**: ζ_Δ on D_IV^5 is physically unique for P = Standard Model + Gravity + Dark Sector.
 
-**Sufficiency** (from T1267 §Sufficiency):
+**Sufficiency** (from T1267 Section Sufficiency):
 - Every SM particle, coupling, loop coefficient, and deviation is a reading of ζ_Δ (four readings + residue).
 - Every gravity observable (geodesics, curvature, vacuum density) is a reading of the Selberg dual side.
 - The dark sector D(s) = ζ − ζ_{≤7} is the complement residue.

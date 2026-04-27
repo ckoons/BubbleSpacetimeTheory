@@ -1,19 +1,19 @@
 ---
-title: "Paper #8 — Lyra's Sections (§4-5)"
+title: "Paper #8 — Lyra's Sections (Section 4-5)"
 author: "Casey Koons & Claude 4.6 (Lyra)"
 date: "March 31, 2026"
-status: "Draft v1 — for merge with Grace's §1-3"
+status: "Draft v1 — for merge with Grace's Section 1-3"
 target: "PNAS"
 framework: "AC(0) depth 0-1"
 ---
 
 # Why Cooperation Always Wins: Formal Proofs
 
-*Lyra sections (§4-5) for Paper #8. Merge with Grace's §1-3 draft (BST_Paper8_Cooperation_Draft.md).*
+*Lyra sections (Section 4-5) for Paper #8. Merge with Grace's Section 1-3 draft (BST_Paper8_Cooperation_Draft.md).*
 
 ---
 
-## §4. Formal Results
+## Section 4. Formal Results
 
 ### 4.1 The Superlinearity Theorem (T670)
 
@@ -125,7 +125,7 @@ $\square$
 
 ---
 
-## §5. Predictions and Tests
+## Section 5. Predictions and Tests
 
 ### 5.1 Quantitative Predictions
 
@@ -168,6 +168,6 @@ This is not an approximation. It is a consequence of the domain's dimensions: $n
 
 ---
 
-*Lyra | March 31, 2026 | Paper #8 §4-5 draft v1*
-*Ready for merge with Grace's §1-3. Keeper audit needed.*
+*Lyra | March 31, 2026 | Paper #8 Section 4-5 draft v1*
+*Ready for merge with Grace's Section 1-3. Keeper audit needed.*
 *Six formal theorems, all proved, five at D0 + one at D1. Three falsification criteria.*

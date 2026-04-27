@@ -15,7 +15,7 @@ ac_classification: "(C=1, D=1) — one counting (domain inventory), one self-ref
 
 ---
 
-## §1. The Problem
+## Section 1. The Problem
 
 Most sciences were engineered for a single modality: **one human reading one paper at a time.** This produced:
 
@@ -31,14 +31,14 @@ CIs didn't exist until a few years ago. The opportunity to move ahead together a
 
 ---
 
-## §2. The Thesis
+## Section 2. The Thesis
 
 Every science and mathematical sub-discipline reduces to two things:
 
 1. **Foundational mathematics** — the counting operations at its core (the domain's trees)
 2. **Boundary statements** — where it intersects other sub-disciplines (the domain's edges into the forest)
 
-There may be **organizing principles** that span multiple domains — but ultimately, science is a single collection of tools and ideas that grows organically with every update to its priors. The distinction between "physics" and "chemistry" and "biology" is historical, not structural. In the AC theorem graph, all domains share the same five integers. Related domains cluster into **groves** — natural groupings that share BST integers, methodology, and boundary structure (see §7).
+There may be **organizing principles** that span multiple domains — but ultimately, science is a single collection of tools and ideas that grows organically with every update to its priors. The distinction between "physics" and "chemistry" and "biology" is historical, not structural. In the AC theorem graph, all domains share the same five integers. Related domains cluster into **groves** — natural groupings that share BST integers, methodology, and boundary structure (see Section 7).
 
 This paper formalizes the standing program for:
 - Identifying the foundational math of each discipline (REDUCE)
@@ -49,7 +49,7 @@ This paper formalizes the standing program for:
 
 ---
 
-## §3. The Prototype: BST/AC
+## Section 3. The Prototype: BST/AC
 
 BST and the AC theorem graph are the first science built this way. The proof of concept:
 
@@ -64,11 +64,11 @@ BST and the AC theorem graph are the first science built this way. The proof of 
 | Standing review | Every session: tree, grove, forest | The discipline of the discipline |
 | Self-describing | T1196 predicts strong% = 80.9%; measured 80.4% | The graph describes itself |
 
-The AC theorem graph IS the forest. Domains cluster into eight **groves** (§7). Each theorem is a tree. The daily review tends all of it.
+The AC theorem graph IS the forest. Domains cluster into eight **groves** (Section 7). Each theorem is a tree. The daily review tends all of it.
 
 ---
 
-## §4. The Six Operations
+## Section 4. The Six Operations
 
 ### 4.1 REDUCE
 
@@ -107,7 +107,7 @@ Wire every result into the AC theorem graph. Edges are derivations. The graph is
 **The procedure**:
 1. Identify parent theorems (what was used to derive this).
 2. Identify child theorems (what this enables).
-3. Label the edge type using the six-type system (see §4.7).
+3. Label the edge type using the six-type system (see Section 4.7).
 4. Assign to domain(s). Record cross-domain edges explicitly.
 5. Update the graph data file.
 
@@ -189,20 +189,20 @@ This is the SURVEY operation applied to the graph's own health. The graph caught
 
 ---
 
-## §5. The Forest, Groves, and Trees Principle
+## Section 5. The Forest, Groves, and Trees Principle
 
 Every time anyone adds a theorem, check four levels:
 
 - **Tree**: What does this theorem prove? (local — the theorem itself)
 - **Domain**: What domain does it strengthen? What's the domain's new cross-domain%? (the sub-discipline)
-- **Grove**: Does this affect the grove's health? New inter-domain bridges within the grove? (the cluster — see §7)
+- **Grove**: Does this affect the grove's health? New inter-domain bridges within the grove? (the cluster — see Section 7)
 - **Forest**: Does it bridge to another grove? Does it surface a missing science? Does it reveal a gap? (global — science as a whole)
 
 This is not overhead. It IS the science. The daily review at tree/domain/grove/forest level is what makes a living library a library and not a pile of papers.
 
 ---
 
-## §6. The Domain Inventory
+## Section 6. The Domain Inventory
 
 ### 6.1 Current Status (71 disciplines, April 18, 2026)
 
@@ -216,12 +216,12 @@ This is not overhead. It IS the science. The daily review at tree/domain/grove/f
 | **D** (seeded only) | 5 | chemistry, music_theory, chemical_physics |
 | **P** (planned) | 10 | substrate_engineering, cooperation_science, morphological_info_theory, computational_epistemology, structural_chemistry, evolutionary_geology, observational_complexity, environmental_info_theory, linearized_geophysics, computational_taxonomy |
 
-**All-science catalog** (71 — see §6.7): A=7, B=14, C=23, D=13, F=4, NEW=10. The 27 disciplines beyond the BST-internal 44 are sciences that exist in the world but have no theorems in the AC graph yet. Each one is a candidate for the RLGC pipeline.
+**All-science catalog** (71 — see Section 6.7): A=7, B=14, C=23, D=13, F=4, NEW=10. The 27 disciplines beyond the BST-internal 44 are sciences that exist in the world but have no theorems in the AC graph yet. Each one is a candidate for the RLGC pipeline.
 
 ### 6.2 Most Isolated (lowest cross-domain%)
 
 1. **Chemical Physics** — 38% (57 theorems, T920 hub, Track D target)
-2. **Condensed Matter** — was 0%, now wired (see §6.6 — "documented but not wired" case study)
+2. **Condensed Matter** — was 0%, now wired (see Section 6.6 — "documented but not wired" case study)
 3. **Observer Science** — 39% (large cluster, expected behavior)
 4. **Music Theory** — 40% (2 theorems, thin domain)
 5. **Chemistry** — 45% (17 theorems, grade D, highest potential gain)
@@ -344,7 +344,7 @@ The work queue: 36 disciplines need the REDUCE → LINEARIZE → GRAPH → CONNE
 
 ---
 
-## §7. The Grove Structure
+## Section 7. The Grove Structure
 
 ### 7.1 From Forest to Groves
 
@@ -387,7 +387,7 @@ Full list: `data/science_engineering.json` → `predicted_bridges`.
 
 ### 7.4 Grove-Level Review
 
-The daily tree/domain/grove/forest review (§5) now includes:
+The daily tree/domain/grove/forest review (Section 5) now includes:
 
 1. **Grove health** — did any domain's grade change? New bridges within the grove?
 2. **Inter-grove bridges** — did this session create connections to other groves?
@@ -406,7 +406,7 @@ The upgrade order is forced: Formal (maintain) → Cosmos/Flow/Signal (strengthe
 
 ---
 
-## §8. The Standing Program
+## Section 8. The Standing Program
 
 ### 7.1 Daily Discipline (end-of-session)
 
@@ -436,7 +436,7 @@ Pick one domain per week for a full completeness audit:
 
 ---
 
-## §9. How Sciences Grow
+## Section 9. How Sciences Grow
 
 Casey's second insight: this is **naturally iterative.** Every improvement in method produces better results, which reveal better methods.
 
@@ -452,7 +452,7 @@ The organizing principles emerge from the graph structure, not from top-down dec
 
 ---
 
-## §10. The Benchmarks
+## Section 10. The Benchmarks
 
 How do we know a discipline has been successfully re-engineered?
 
@@ -470,7 +470,7 @@ A discipline at grade A has: REDUCE done, LINEARIZE done, GRAPH wired, CONNECT h
 
 ---
 
-## §11. Three Work Modes
+## Section 11. Three Work Modes
 
 ### Mode 1: CI Solo Investigation
 CI explores a discipline computationally. Builds toys, checks conjectures, maps territory. Human reviews at milestones.
@@ -489,19 +489,19 @@ Multiple CIs and humans in parallel on related problems. Cooperative hunting ban
 
 ---
 
-## §12. For Everyone
+## Section 12. For Everyone
 
 Science used to be one person with a notebook and a microscope. Then it became teams of humans with computers. Now it's teams of humans AND CIs with shared mathematical armories.
 
 The old sciences were built for the old tools. The new science needs to be built for the new team. That doesn't mean throwing away what works — it means stripping away what doesn't, connecting what's been siloed, and building in formats that both humans and CIs can read, query, verify, and extend.
 
-Every science is a domain in a grove in a forest. The trees are theorems. The soil is mathematics. The sunlight is the questions humans ask. The roots are the connections between groves that nobody has noticed yet — and now, with the predicted bridges (§7.3), we can say WHERE those roots should be before anyone finds them. Computational science engineering is the discipline of tending the whole forest — one tree, one domain, one grove, one bridge at a time.
+Every science is a domain in a grove in a forest. The trees are theorems. The soil is mathematics. The sunlight is the questions humans ask. The roots are the connections between groves that nobody has noticed yet — and now, with the predicted bridges (Section 7.3), we can say WHERE those roots should be before anyone finds them. Computational science engineering is the discipline of tending the whole forest — one tree, one domain, one grove, one bridge at a time.
 
 BST is the prototype. AC is the method. The living library is the infrastructure. This paper is the program. The work is iterative, daily, and never done.
 
 ---
 
-## §13. Files
+## Section 13. Files
 
 | File | Purpose |
 |------|---------|
@@ -518,7 +518,7 @@ BST is the prototype. AC is the method. The living library is the infrastructure
 | `notes/BST_CSE_Survey_Economics_April18.md` | Pilot #2 — economics (Tier D stress test) |
 | `notes/BST_CSE_Survey_Medicine_April18.md` | Pilot #3 — medicine (Tier C, import-heavy) |
 
-## §14. First Survey Results (April 18, 2026)
+## Section 14. First Survey Results (April 18, 2026)
 
 The first completeness surveys were run on the three highest-priority domains:
 

@@ -11,14 +11,16 @@
 | **bst_this_is.md** | **Read first.** What BST is and is not. Every statement literal. | April 21, 2026 |
 | **bst_seed.md** | The theory kernel — 5 integers, core derivations, enough to reconstruct everything | Stable |
 | **bst_constants.json** | 105 derived physical constants with eval-ready formulas | April 2026 |
-| **bst_predictions.json** | 24 falsifiable predictions with experiments and timelines | April 2026 |
+| **bst_predictions.json** | 52 falsifiable predictions with experiments and timelines | April 29, 2026 |
 | **bst_particles.json** | Standard Model particles with BST derivations | April 2026 |
 | **bst_forces.json** | Four forces derived from D_IV^5 geometry | April 2026 |
 | **bst_domains.json** | Domain classification for the AC theorem graph | April 2026 |
 | **bst_function_catalog.json** | The Periodic Table of Functions — 33 families, GF(128) structure, cross-referenced to AC graph | April 21, 2026 |
 | **bst_function_recipes.json** | Compound function "recipes" — how families combine via 5 bonding operations | April 20, 2026 |
-| **bst_geometric_invariants.json** | 262 geometric invariants with formulas, precision, section mapping for Paper #83 | April 25, 2026 |
-| **bst_invariants_crossref.json** | Cross-reference: invariant → AC theorem graph | April 25, 2026 |
+| **bst_geometric_invariants.json** | 1403 geometric invariants with formulas, precision, D/I/C/S tiers, section mapping for Paper #83 | April 29, 2026 |
+| **bst_invariants_crossref.json** | Cross-reference: invariant → AC theorem graph (1400 entries) | April 29, 2026 |
+| **bst_materials.json** | 87 materials predictions: Debye temps, band gaps, crystal properties, superconductor params | April 29, 2026 |
+| **bst_rosetta_stone.json** | 150 named BST ratios with D/I/S tiers and domain coverage | April 29, 2026 |
 | **bst_crossref_index.json** | Cross-reference index: theorem → toys, papers, domains | April 2026 |
 | **science_engineering.json** | CSE RLGC tracker: 52 domains, 9 groves, 13 bridges, dependency DAG | April 18, 2026 |
 | **audit_log.json** | Keeper's audit trail | Ongoing |
@@ -56,22 +58,27 @@ If you're a new CI joining this project:
 
 **Contributions welcome.** If you derive something new, open a PR. Claim toy/theorem numbers via `play/claim_number.sh` before creating. The graph only grows.
 
-## Current Stats (April 25, 2026)
+## Current Stats (April 29, 2026)
 
-- **Geometric invariants**: 1270 entries (187 closed-form, 698 exact, 113 structural, 2 series, 1 missing) — Keeper-audited, deduplicated, 100% cross-referenced to theorems
+- **Geometric invariants**: 1436 entries (D:785, I:424, C:54, S:173) — Keeper-audited, deduplicated, 100% theorem-linked
 - **INV-4 audit**: 52 entries cross-checked vs PDG 2025 / Planck PR4 / NuFIT 6.0 / lattice QCD 2024
-- **17 corrections applied** (H₂O, Ising γ/β, charm, Cabibbo, J_CKM, PMNS θ₁₂/θ₂₃, μ_p, μ_n/μ_p, glueball 2++/0++, glueball 0-+/0++, m_b/m_c, SEMF a_V, SEMF a_S)
+- **Corrections**: 17 original + 12 I->D promotions this session (N_eff, BCS, r_p, Sigma, Cabibbo, W BR, Dm2_31, CdTe/Si, n_s, charm, Ising gamma, BR(H->WW*))
 - **Constants**: 105 derived, zero free parameters
-- **Predictions**: 600+ falsifiable
-- **Theorems**: T1-T1458, all depth ≤ 1
-- **Toys**: 1525+ computational verifications
-- **Papers**: 85 numbered
-- **Domains**: 58+ scientific disciplines mapped (8 new domain doors: tropical, operad, p-adic, motivic, topos, astrophysics, materials, chemistry)
+- **Predictions**: 52 falsifiable (in bst_predictions.json) + 600+ in papers
+- **Theorems**: T1-T1464, all depth at most 1
+- **Toys**: 1605+ computational verifications
+- **Papers**: 87 numbered
+- **Domains**: 58+ scientific disciplines mapped
+- **Graph**: 1404 theorems, 7737 edges, 83.35% strong (5/6 self-description EXCEEDED)
 - **Uniqueness conditions**: 23 (all selecting D_IV^5)
+- **>2% attack surface**: Only 2 D/I entries (V_ub 2.25%, V_ts 2.56%, both lambda^3 CKM)
 - **T1444**: Vacuum Subtraction Principle — 6 corollaries, "deviations locate boundaries"
-- **T1445**: Spectral Peeling Theorem — g-2 mechanism
-- **T1446**: Two-Sector Correction Duality — CKM discrete (-1), PMNS rotational (cos²θ₁₃)
-- **T1447**: Magnetic Moment Derivation — μ_p = 1148/411 (0.012%), μ_n/μ_p = -137/200 (0.003%)
+- **T1459**: Spectral Universality — depth predicts bridge count; Cauchy = Kolmogorov = 5/3
+- **T1462**: Cyclotomic Casimir — C_2=6 uniquely generates all five integers
+- **T1464**: Reference Frame Counting — 18 instances, generalizes T1444
+- **N_max = lambda_9 + 11**: Second derivation of 137 from spectral gap position
+- **Dm2_31 = 1/34**: RFC correction, 3.1% -> 0.5%, 18th RFC instance
+- **T1464**: Reference Frame Counting — 11 instances, generalizes T1444
 ---
 
 *Maintained by Grace (Graph-AC). Updated at end of each session.*

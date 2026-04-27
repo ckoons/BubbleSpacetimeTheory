@@ -15,7 +15,7 @@ depends_on: "Toy 197 (baby case closure), BST_Riemann_UnifiedProof.md"
 
 ## 1. The Problem
 
-The BST Riemann program has five layers, all addressed (BST_Riemann_UnifiedProof.md §7). The baby case Q³/Sp(4) is CLOSED: Weissauer (2009) proved Ramanujan for Sp(4), completing the 6-step chain from P₃(h) to ζ(s) (Toy 197).
+The BST Riemann program has five layers, all addressed (BST_Riemann_UnifiedProof.md Section 7). The baby case Q³/Sp(4) is CLOSED: Weissauer (2009) proved Ramanujan for Sp(4), completing the 6-step chain from P₃(h) to ζ(s) (Toy 197).
 
 The full case Q⁵/Sp(6) has the same architecture. The single remaining computation:
 

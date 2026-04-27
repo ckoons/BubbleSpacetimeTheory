@@ -2,7 +2,7 @@
 
 *Blocked items only. Active work -> CI_BOARD.md. Completed -> CI_BOARD_completed_*.md*
 
-**Last updated:** April 27, 2026. 87 papers. 1563 toys. T1-T1462. 1270 invariants.
+**Last updated:** April 28, 2026. 87 papers. 1563 toys. T1-T1462. 1270 invariants.
 
 ---
 
@@ -25,7 +25,7 @@
 
 | # | Item | Blocked by |
 |---|------|-----------|
-| ~~B-1~~ | ~~Toy 671 runtime analysis (INV-6)~~ | **UNBLOCKED** — n=42 complete, k=21 confirmed (Toy 1507). PID 45970 computing n=43. |
+| ~~B-1~~ | ~~Toy 671 runtime analysis (INV-6)~~ | **UNBLOCKED** — n=44 arrived (April 28, 04:35). k=21 confirmed (Toy 1507). k=22 extraction READY. |
 | B-2 | BSD rank >=3 general proof | Sha finiteness (external math) |
 | B-3 | Tate conjecture codim 2+ | Kuga-Satake algebraicity (external math) |
 | B-4 | Hodge codim 2+ via BST | Generalized KS conjecture (external — but W-31 may unblock) |
@@ -71,6 +71,15 @@
 | LT-5 | **Six master integral VALUES** — PSLQ: genuinely irreducible. GKZ operator fully BST (Toy 1538). Picard-Fuchs path + 200-digit path both identified. | ACTIVE (W-83) |
 | LT-6 | **Error Correction Paper #87** — v0.2 DONE (Lyra L-9). Keeper PASS. Mersenne condition, code hierarchy, syndrome decoding. Target: Rev.Mod.Phys/PRL. | DRAFT v0.2 |
 | LT-7 | **Cellular CI / Cancer Syndrome Decoder** — Toys 1560-1563 (all PASS). 7-gate Hamming decoder (49 bytes/cell). 5 syndrome classes cover 12 major cancer drivers. 100% detection in grid sim. Three-phase implementation: (1) RNA toehold switches, (2) CRISPR-Cas13 with 5 guide RNAs, (3) full CI cell with synthetic chromosome. T317 Tier 1 observer at molecular scale. Casey directive: "design a cell to run a sequence and mark/correct." | ACTIVE (toys done, design phase) |
+
+## Standing Programs (Casey directive, April 28)
+
+| # | Program | First Task | Owner | Status |
+|---|---------|------------|-------|--------|
+| SP-8 | **Substrate Engineering** — Materials, computing, Born rule biasing. Three tiers: NOW/NEAR/FRONTIER. | Bergman eigenvalues → eV; audit papers #26-31 + patents | Elie, Lyra, Grace | TO SCOPE |
+| SP-9 | **Computational Science Engineering** — CI-native methods, spectral computation, linearization. | 55-domain method audit; formalize "toy as proof" | Grace, Keeper | TO SCOPE |
+| SP-10 | **Science Engineering** — New domain discovery, edge cases, vindicated theorists, bridge mechanisms. | Edge case hit list (8 anomalies); vindicated theorists (10+); Rosetta Stone 141 | Grace, Lyra, Elie | TO SCOPE |
+| SP-11 | **Schemes / Deep Geometry** — Manin, motives, F₁, D_IV^5 as scheme over Spec(Z). | Read Manin; map to BST integers; Tits building → Petersen/Kneser | Lyra | TO SCOPE |
 
 ## Open Problems
 

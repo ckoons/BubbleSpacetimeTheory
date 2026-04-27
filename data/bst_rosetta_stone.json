@@ -1,8 +1,8 @@
 {
-  "title": "BST Rosetta Stone — Complete Catalog",
+  "title": "BST Rosetta Stone \u2014 Complete Catalog",
   "description": "101 distinct BST ratios/values with domain coverage",
   "generated": "2026-04-26",
-  "total_ratios": 101,
+  "total_ratios": 150,
   "ratios": [
     {
       "value": 2,
@@ -23,7 +23,9 @@
         "rank",
         "equipartition_+2",
         "Lie_N_c"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Core BST integer or square"
     },
     {
       "value": 3,
@@ -44,11 +46,13 @@
         "N_c",
         "N_gen",
         "codon_length"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Core BST integer or square"
     },
     {
       "value": 6,
-      "bst_reading": "C₂",
+      "bst_reading": "C\u2082",
       "entries": 32,
       "sections": 7,
       "section_names": [
@@ -61,10 +65,12 @@
         "Struct"
       ],
       "samples": [
-        "C₂",
+        "C\u2082",
         "d_gauge",
         "phi_g"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Core BST integer or square"
     },
     {
       "value": 1,
@@ -80,10 +86,12 @@
         "Struct"
       ],
       "samples": [
-        "δ_graph",
+        "\u03b4_graph",
         "m_l",
         "h_minus7"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "High universality: 6 sections, 38 entries"
     },
     {
       "value": 5,
@@ -102,7 +110,9 @@
         "n_C",
         "opt_group",
         "Cat_N_c"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Core BST integer or square"
     },
     {
       "value": 7,
@@ -121,11 +131,13 @@
         "g",
         "Frob_period",
         "Heawood"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Core BST integer or square"
     },
     {
       "value": 4.0,
-      "bst_reading": "rank²",
+      "bst_reading": "rank\u00b2",
       "entries": 60,
       "sections": 5,
       "section_names": [
@@ -136,14 +148,16 @@
         "Struct"
       ],
       "samples": [
-        "m_J/ψ/m_ρ",
+        "m_J/\u03c8/m_\u03c1",
         "diam_graph",
         "APG_conditions"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Core BST integer or square"
     },
     {
       "value": 8,
-      "bst_reading": "rank³",
+      "bst_reading": "rank\u00b3",
       "entries": 23,
       "sections": 5,
       "section_names": [
@@ -154,10 +168,12 @@
         "Struct"
       ],
       "samples": [
-        "|W(B₂)|",
+        "|W(B\u2082)|",
         "dim_B2",
         "magic_8"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "High universality: 5 sections, 23 entries"
     },
     {
       "value": 0.5,
@@ -172,14 +188,16 @@
         "Struct"
       ],
       "samples": [
-        "L/Ω",
+        "L/\u03a9",
         "CC_graph",
         "supersingular_frac"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "High universality: 5 sections, 21 entries"
     },
     {
       "value": 20,
-      "bst_reading": "rank²·n_C",
+      "bst_reading": "rank\u00b2\u00b7n_C",
       "entries": 10,
       "sections": 5,
       "section_names": [
@@ -193,11 +211,13 @@
         "m_s/m_d",
         "N_aa",
         "N_amino"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Multi-domain: 5 sections, 10 entries"
     },
     {
       "value": 12,
-      "bst_reading": "rank·C₂",
+      "bst_reading": "rank\u00b7C\u2082",
       "entries": 14,
       "sections": 4,
       "section_names": [
@@ -210,11 +230,13 @@
         "ico_vertices",
         "V_trop",
         "SM_gauge_12"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Multi-domain: 4 sections, 14 entries"
     },
     {
       "value": 14,
-      "bst_reading": "rank·g",
+      "bst_reading": "rank\u00b7g",
       "entries": 14,
       "sections": 4,
       "section_names": [
@@ -227,11 +249,13 @@
         "K5_vertices",
         "Bravais_14",
         "Cat_4"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Multi-domain: 4 sections, 14 entries"
     },
     {
       "value": 15,
-      "bst_reading": "N_c·n_C",
+      "bst_reading": "N_c\u00b7n_C",
       "entries": 6,
       "sections": 4,
       "section_names": [
@@ -244,11 +268,13 @@
         "Stirling_5_2",
         "binom_6_2",
         "partitions_g"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 4 sections"
     },
     {
       "value": 10,
-      "bst_reading": "rank·n_C",
+      "bst_reading": "rank\u00b7n_C",
       "entries": 17,
       "sections": 3,
       "section_names": [
@@ -260,11 +286,13 @@
         "d_total_real",
         "Plucker_10",
         "weight_max"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Multi-domain: 3 sections, 17 entries"
     },
     {
       "value": -2,
-      "bst_reading": "",
+      "bst_reading": "Coulomb_r_exp",
       "entries": 9,
       "sections": 3,
       "section_names": [
@@ -276,11 +304,13 @@
         "Coulomb_r_exp",
         "Press_Schechter",
         "exp_gravity"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
     },
     {
       "value": 21,
-      "bst_reading": "N_c·g",
+      "bst_reading": "N_c\u00b7g",
       "entries": 8,
       "sections": 3,
       "section_names": [
@@ -292,7 +322,9 @@
         "dim_SO52",
         "N_Z_channels",
         "binom_7_2"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
     },
     {
       "value": 137,
@@ -308,11 +340,13 @@
         "N_max",
         "T_boil/T_CMB",
         "137_Frobenius"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Core BST integer or square"
     },
     {
       "value": 18,
-      "bst_reading": "",
+      "bst_reading": "Frob_orbits",
       "entries": 7,
       "sections": 3,
       "section_names": [
@@ -324,11 +358,13 @@
         "Frob_orbits",
         "R_GF128",
         "E_trop"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
     },
     {
       "value": -1,
-      "bst_reading": "",
+      "bst_reading": "Wien_inv",
       "entries": 6,
       "sections": 3,
       "section_names": [
@@ -340,11 +376,13 @@
         "Wien_inv",
         "NFW_inner",
         "exp_Wien"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
     },
     {
       "value": -3,
-      "bst_reading": "",
+      "bst_reading": "Bondi_v_exp",
       "entries": 5,
       "sections": 3,
       "section_names": [
@@ -356,7 +394,9 @@
         "Bondi_v_exp",
         "NFW_outer",
         "exp_dipole"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
     },
     {
       "value": 19,
@@ -372,11 +412,13 @@
         "19",
         "Q",
         "|F_g|"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
     },
     {
       "value": 42,
-      "bst_reading": "C₂·g",
+      "bst_reading": "C\u2082\u00b7g",
       "entries": 4,
       "sections": 3,
       "section_names": [
@@ -388,11 +430,13 @@
         "P(1)",
         "Catalan_n_C",
         "C2_g"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
     },
     {
       "value": 0.1667,
-      "bst_reading": "",
+      "bst_reading": "\u03b2_NS",
       "entries": 3,
       "sections": 3,
       "section_names": [
@@ -401,30 +445,34 @@
         "Struct"
       ],
       "samples": [
-        "β_NS",
+        "\u03b2_NS",
         "Painleve_fraction",
         "free_rider_frac"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
     },
     {
       "value": 1.667,
-      "bst_reading": "",
+      "bst_reading": "T_deconf/f_\u03c0",
       "entries": 3,
       "sections": 3,
       "section_names": [
-        "Hadr",
         "Cross",
-        "Struct"
+        "Struct",
+        "Hadr"
       ],
       "samples": [
-        "T_deconf/f_π",
-        "γ_mono",
+        "T_deconf/f_\u03c0",
+        "\u03b3_mono",
         "K41"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
     },
     {
       "value": 9,
-      "bst_reading": "N_c²",
+      "bst_reading": "N_c\u00b2",
       "entries": 3,
       "sections": 3,
       "section_names": [
@@ -436,11 +484,13 @@
         "C5_pred",
         "N_decay",
         "baseball_9"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Core BST integer or square"
     },
     {
       "value": 28,
-      "bst_reading": "rank²·g",
+      "bst_reading": "rank\u00b2\u00b7g",
       "entries": 3,
       "sections": 3,
       "section_names": [
@@ -452,11 +502,13 @@
         "magic_28",
         "perfect_28",
         "triple_perfection"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
     },
     {
       "value": 50,
-      "bst_reading": "rank·n_C²",
+      "bst_reading": "rank\u00b7n_C\u00b2",
       "entries": 3,
       "sections": 3,
       "section_names": [
@@ -468,7 +520,9 @@
         "magic_50",
         "HK_lambda_5",
         "Dunbar_50"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
     },
     {
       "value": 1.5,
@@ -483,11 +537,13 @@
         "Jeans_T_exp",
         "Kepler_exp",
         "Brewster_tan"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Simple BST ratio \u2014 derived"
     },
     {
       "value": -10,
-      "bst_reading": "",
+      "bst_reading": "a\u2081\u2083\u2087",
       "entries": 7,
       "sections": 2,
       "section_names": [
@@ -495,14 +551,16 @@
         "Struct"
       ],
       "samples": [
-        "a₁₃₇",
-        "a₁₃₇_reading",
+        "a\u2081\u2083\u2087",
+        "a\u2081\u2083\u2087_reading",
         "HK_ratio_8"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 11,
-      "bst_reading": "2C₂-1",
+      "bst_reading": "2C\u2082-1",
       "entries": 7,
       "sections": 2,
       "section_names": [
@@ -513,11 +571,13 @@
         "genus_X0_137",
         "137_digits_sum",
         "soccer_players"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": -4,
-      "bst_reading": "",
+      "bst_reading": "rayleigh_exp",
       "entries": 6,
       "sections": 2,
       "section_names": [
@@ -528,11 +588,13 @@
         "rayleigh_exp",
         "exp_quadrupole",
         "HK_ratio_4"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": -12,
-      "bst_reading": "",
+      "bst_reading": "exp_LJ_rep",
       "entries": 4,
       "sections": 2,
       "section_names": [
@@ -543,11 +605,13 @@
         "exp_LJ_rep",
         "HK_ratio_10",
         "a_43"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": -6,
-      "bst_reading": "",
+      "bst_reading": "exp_vdW",
       "entries": 4,
       "sections": 2,
       "section_names": [
@@ -558,11 +622,13 @@
         "exp_vdW",
         "a_37",
         "a_73"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 16,
-      "bst_reading": "",
+      "bst_reading": "hex_16",
       "entries": 4,
       "sections": 2,
       "section_names": [
@@ -573,11 +639,13 @@
         "hex_16",
         "a_71",
         "a_127"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 105,
-      "bst_reading": "N_c·n_C·g",
+      "bst_reading": "N_c\u00b7n_C\u00b7g",
       "entries": 4,
       "sections": 2,
       "section_names": [
@@ -585,10 +653,12 @@
         "NT"
       ],
       "samples": [
-        "c₄(49a1)",
-        "ζ_product",
+        "c\u2084(49a1)",
+        "\u03b6_product",
         "Debye_Pb"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 120,
@@ -603,7 +673,9 @@
         "120_deg_phase",
         "fact_n_C",
         "P_K5_nC"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 128,
@@ -618,11 +690,13 @@
         "ASCII_128",
         "Pascal_row_g",
         "GF128_elements"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": -20,
-      "bst_reading": "",
+      "bst_reading": "HK_ratio_14",
       "entries": 3,
       "sections": 2,
       "section_names": [
@@ -633,11 +707,13 @@
         "HK_ratio_14",
         "a_107",
         "a_163"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 0.191,
-      "bst_reading": "",
+      "bst_reading": "f_c",
       "entries": 3,
       "sections": 2,
       "section_names": [
@@ -648,11 +724,13 @@
         "f_c",
         "brain_19%",
         "self_knowledge"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 1.2,
-      "bst_reading": "C₂/n_C",
+      "bst_reading": "C\u2082/n_C",
       "entries": 3,
       "sections": 2,
       "section_names": [
@@ -660,14 +738,16 @@
         "Struct"
       ],
       "samples": [
-        "κ_ls",
+        "\u03ba_ls",
         "spin_orbit_ratio",
         "spin_orbit_origin"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 1.333,
-      "bst_reading": "",
+      "bst_reading": "\u03c3_G2/\u03c3_SU3",
       "entries": 3,
       "sections": 2,
       "section_names": [
@@ -675,14 +755,16 @@
         "Struct"
       ],
       "samples": [
-        "σ_G2/σ_SU3",
-        "γ_poly",
+        "\u03c3_G2/\u03c3_SU3",
+        "\u03b3_poly",
         "fourth_ratio"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 2.828,
-      "bst_reading": "",
+      "bst_reading": "Tsirelson",
       "entries": 3,
       "sections": 2,
       "section_names": [
@@ -693,11 +775,13 @@
         "Tsirelson",
         "m_B/m_D",
         "CHSH"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 22,
-      "bst_reading": "",
+      "bst_reading": "DNA_groove",
       "entries": 3,
       "sections": 2,
       "section_names": [
@@ -708,11 +792,13 @@
         "DNA_groove",
         "a_149",
         "HK_22_levels"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 23,
-      "bst_reading": "",
+      "bst_reading": "chromosome_23",
       "entries": 3,
       "sections": 2,
       "section_names": [
@@ -723,11 +809,13 @@
         "chromosome_23",
         "birthday_N",
         "commons_collapse"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 45,
-      "bst_reading": "",
+      "bst_reading": "sigma_term",
       "entries": 3,
       "sections": 2,
       "section_names": [
@@ -738,11 +826,13 @@
         "sigma_term",
         "B2_Weyl_chamber",
         "Greenberg_universals"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 64,
-      "bst_reading": "",
+      "bst_reading": "N_codons",
       "entries": 3,
       "sections": 2,
       "section_names": [
@@ -753,11 +843,13 @@
         "N_codons",
         "chess_8x8",
         "codon_GF2_C2"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 1920,
-      "bst_reading": "",
+      "bst_reading": "1920",
       "entries": 3,
       "sections": 2,
       "section_names": [
@@ -766,13 +858,15 @@
       ],
       "samples": [
         "1920",
-        "|W(D₅)|",
+        "|W(D\u2085)|",
         "Veltman_cancel"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": -24,
-      "bst_reading": "",
+      "bst_reading": "HK_ratio_16",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -782,11 +876,13 @@
       "samples": [
         "HK_ratio_16",
         "a_151"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": -8,
-      "bst_reading": "",
+      "bst_reading": "HK_ratio_6",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -796,11 +892,13 @@
       "samples": [
         "HK_ratio_6",
         "a_23"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": -7,
-      "bst_reading": "",
+      "bst_reading": "Bergman_exp",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -810,11 +908,13 @@
       "samples": [
         "Bergman_exp",
         "49a1_CM_disc"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 0.0146,
-      "bst_reading": "",
+      "bst_reading": "coop_gap",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -824,11 +924,13 @@
       "samples": [
         "coop_gap",
         "2alpha"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 0.2449,
-      "bst_reading": "",
+      "bst_reading": "Yp_helium",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -838,11 +940,13 @@
       "samples": [
         "Yp_helium",
         "Yp_exact_12_49"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 0.667,
-      "bst_reading": "",
+      "bst_reading": "KPZ",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -852,11 +956,13 @@
       "samples": [
         "KPZ",
         "supermajority"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 0.685,
-      "bst_reading": "N_max/(rank³·n_C²)",
+      "bst_reading": "N_max/(rank\u00b3\u00b7n_C\u00b2)",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -866,11 +972,13 @@
       "samples": [
         "Omega_Lambda_frac",
         "OmegaL_bridge_exact"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 1.009524,
-      "bst_reading": "",
+      "bst_reading": "m_omega_rho",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -880,11 +988,13 @@
       "samples": [
         "m_omega_rho",
         "m_omega_rho_exact"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 1.25,
-      "bst_reading": "",
+      "bst_reading": "Debye_Al_Cu",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -894,11 +1004,13 @@
       "samples": [
         "Debye_Al_Cu",
         "Oort_ratio_old"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 1.285714,
-      "bst_reading": "N_c²/g",
+      "bst_reading": "N_c\u00b2/g",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -908,11 +1020,13 @@
       "samples": [
         "Oort_AB_ratio",
         "adiabatic_tri"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 1.618,
-      "bst_reading": "",
+      "bst_reading": "golden_phi",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -922,25 +1036,13 @@
       "samples": [
         "golden_phi",
         "phi_BST"
-      ]
-    },
-    {
-      "value": 1.666667,
-      "bst_reading": "n_C/N_c",
-      "entries": 2,
-      "sections": 2,
-      "section_names": [
-        "Cross",
-        "Struct"
       ],
-      "samples": [
-        "triple_bridge_53",
-        "adiabatic_mono"
-      ]
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 3.6,
-      "bst_reading": "",
+      "bst_reading": "\u03b3_GW",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -948,13 +1050,15 @@
         "Bio"
       ],
       "samples": [
-        "γ_GW",
+        "\u03b3_GW",
         "alpha_helix_residues"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 13,
-      "bst_reading": "2C₂+1",
+      "bst_reading": "2C\u2082+1",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -964,11 +1068,13 @@
       "samples": [
         "fib_7",
         "HK_ratio_11"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 32,
-      "bst_reading": "",
+      "bst_reading": "point_groups_32",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -978,11 +1084,13 @@
       "samples": [
         "point_groups_32",
         "IPv4_bits"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 126,
-      "bst_reading": "rank·N_c²·g",
+      "bst_reading": "rank\u00b7N_c\u00b2\u00b7g",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -992,7 +1100,9 @@
       "samples": [
         "magic_126",
         "HK_lambda_9"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 136,
@@ -1006,11 +1116,13 @@
       "samples": [
         "m_t/m_c",
         "Euler_phi_137"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 149,
-      "bst_reading": "",
+      "bst_reading": "Dunbar_150",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -1020,11 +1132,13 @@
       "samples": [
         "Dunbar_150",
         "Dunbar_150_BST"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 150,
-      "bst_reading": "",
+      "bst_reading": "HK_lambda_10",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -1034,11 +1148,13 @@
       "samples": [
         "HK_lambda_10",
         "Dunbar_150_lattice"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 266,
-      "bst_reading": "",
+      "bst_reading": "D_Pell",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -1048,11 +1164,13 @@
       "samples": [
         "D_Pell",
         "HK_lambda_14"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 456,
-      "bst_reading": "",
+      "bst_reading": "phi_457",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -1062,11 +1180,13 @@
       "samples": [
         "phi_457",
         "HK_lambda_19"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 548,
-      "bst_reading": "",
+      "bst_reading": "CM_norm_548",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -1076,11 +1196,13 @@
       "samples": [
         "CM_norm_548",
         "m_eta"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 1728,
-      "bst_reading": "",
+      "bst_reading": "1728",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -1090,11 +1212,13 @@
       "samples": [
         "1728",
         "j_sunrise_Nc"
-      ]
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
     },
     {
       "value": 24,
-      "bst_reading": "",
+      "bst_reading": "drag_sphere",
       "entries": 4,
       "sections": 1,
       "section_names": [
@@ -1104,11 +1228,13 @@
         "drag_sphere",
         "SU5_dim",
         "Bergman_k3"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 4 entries"
     },
     {
       "value": 30,
-      "bst_reading": "n_C·C₂",
+      "bst_reading": "n_C\u00b7C\u2082",
       "entries": 4,
       "sections": 1,
       "section_names": [
@@ -1118,39 +1244,45 @@
         "ico_edges",
         "Mach_cone",
         "nC_C2"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 4 entries"
     },
     {
       "value": 0.25,
-      "bst_reading": "",
+      "bst_reading": "\u03c3_Poisson",
       "entries": 3,
       "sections": 1,
       "section_names": [
         "Struct"
       ],
       "samples": [
-        "σ_Poisson",
+        "\u03c3_Poisson",
         "species_area",
         "Poisson_ratio_rock"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 3 entries"
     },
     {
       "value": 1.4,
-      "bst_reading": "",
+      "bst_reading": "\u03b3_di",
       "entries": 3,
       "sections": 1,
       "section_names": [
         "Struct"
       ],
       "samples": [
-        "γ_di",
+        "\u03b3_di",
         "adiabatic_di",
         "bridge_pred_7_5"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 3 entries"
     },
     {
       "value": 35,
-      "bst_reading": "n_C·g",
+      "bst_reading": "n_C\u00b7g",
       "entries": 3,
       "sections": 1,
       "section_names": [
@@ -1160,11 +1292,13 @@
         "nC_g",
         "binom_7_3",
         "rep_3form"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 3 entries"
     },
     {
       "value": 180,
-      "bst_reading": "",
+      "bst_reading": "t_BBN_product",
       "entries": 3,
       "sections": 1,
       "section_names": [
@@ -1174,7 +1308,9 @@
         "t_BBN_product",
         "t_BBN_exact",
         "phase_BBN_exact"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 3 entries"
     },
     {
       "value": 0.2,
@@ -1187,7 +1323,9 @@
       "samples": [
         "learning_rate_bound",
         "MPCR_threshold"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Simple BST ratio \u2014 derived"
     },
     {
       "value": 0.3333,
@@ -1200,11 +1338,13 @@
       "samples": [
         "Hamilton_r",
         "punishment_thresh"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Simple BST ratio \u2014 derived"
     },
     {
       "value": 0.8333,
-      "bst_reading": "n_C/C₂",
+      "bst_reading": "n_C/C\u2082",
       "entries": 2,
       "sections": 1,
       "section_names": [
@@ -1213,11 +1353,13 @@
       "samples": [
         "Pareto_frac",
         "linearizable_frac"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
     },
     {
       "value": 1.732,
-      "bst_reading": "",
+      "bst_reading": "v_P/v_S",
       "entries": 2,
       "sections": 1,
       "section_names": [
@@ -1226,11 +1368,13 @@
       "samples": [
         "v_P/v_S",
         "seismic_Vp_Vs"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
     },
     {
       "value": 84,
-      "bst_reading": "",
+      "bst_reading": "HK_lambda_7",
       "entries": 2,
       "sections": 1,
       "section_names": [
@@ -1239,11 +1383,13 @@
       "samples": [
         "HK_lambda_7",
         "lambda_g_84"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
     },
     {
       "value": 274,
-      "bst_reading": "rank·N_max",
+      "bst_reading": "rank\u00b7N_max",
       "entries": 2,
       "sections": 1,
       "section_names": [
@@ -1252,11 +1398,13 @@
       "samples": [
         "Tc_water_BST",
         "274_product"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
     },
     {
       "value": 500,
-      "bst_reading": "",
+      "bst_reading": "m_f0_500",
       "entries": 2,
       "sections": 1,
       "section_names": [
@@ -1265,11 +1413,13 @@
       "samples": [
         "m_f0_500",
         "HK_lambda_20"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
     },
     {
       "value": 1090,
-      "bst_reading": "",
+      "bst_reading": "z_rec_exact",
       "entries": 2,
       "sections": 1,
       "section_names": [
@@ -1278,11 +1428,13 @@
       "samples": [
         "z_rec_exact",
         "phase_recomb_exact"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
     },
     {
       "value": 1729,
-      "bst_reading": "",
+      "bst_reading": "Ramanujan_1729",
       "entries": 2,
       "sections": 1,
       "section_names": [
@@ -1291,7 +1443,9 @@
       "samples": [
         "Ramanujan_1729",
         "taxicab_1729_BST"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
     },
     {
       "value": 0.225,
@@ -1302,12 +1456,14 @@
         "Mix"
       ],
       "samples": [
-        "sinθ_C"
-      ]
+        "sin\u03b8_C"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
     },
     {
       "value": 0.230769,
-      "bst_reading": "N_c/(2C₂+1)",
+      "bst_reading": "N_c/(2C\u2082+1)",
       "entries": 1,
       "sections": 1,
       "section_names": [
@@ -1315,19 +1471,23 @@
       ],
       "samples": [
         "sin2_W_exact"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
     },
     {
       "value": 0.23077,
-      "bst_reading": "N_c/(2C₂+1)",
+      "bst_reading": "N_c/(2C\u2082+1)",
       "entries": 1,
       "sections": 1,
       "section_names": [
         "Coupl"
       ],
       "samples": [
-        "sin²θ_W"
-      ]
+        "sin\u00b2\u03b8_W"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
     },
     {
       "value": 0.6,
@@ -1339,7 +1499,9 @@
       ],
       "samples": [
         "Flory_exp"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
     },
     {
       "value": 0.666661,
@@ -1351,7 +1513,9 @@
       ],
       "samples": [
         "Koide_Q"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Simple BST ratio \u2014 derived"
     },
     {
       "value": 0.666667,
@@ -1363,7 +1527,9 @@
       ],
       "samples": [
         "era_matter"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Simple BST ratio \u2014 derived"
     },
     {
       "value": 0.6667,
@@ -1375,11 +1541,13 @@
       ],
       "samples": [
         "snell_critical"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Simple BST ratio \u2014 derived"
     },
     {
       "value": 1.166667,
-      "bst_reading": "g/C₂",
+      "bst_reading": "g/C\u2082",
       "entries": 1,
       "sections": 1,
       "section_names": [
@@ -1387,23 +1555,13 @@
       ],
       "samples": [
         "SAW_gamma"
-      ]
-    },
-    {
-      "value": 1.6667,
-      "bst_reading": "n_C/N_c",
-      "entries": 1,
-      "sections": 1,
-      "section_names": [
-        "Cross"
       ],
-      "samples": [
-        "Gruneisen"
-      ]
+      "cal_tier": "D",
+      "tier_reason": "Simple BST ratio \u2014 derived"
     },
     {
       "value": 2.25,
-      "bst_reading": "(N_c/rank)²",
+      "bst_reading": "(N_c/rank)\u00b2",
       "entries": 1,
       "sections": 1,
       "section_names": [
@@ -1411,7 +1569,9 @@
       ],
       "samples": [
         "loss_aversion"
-      ]
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Simple BST ratio \u2014 derived"
     },
     {
       "value": 3.5,
@@ -1423,11 +1583,13 @@
       ],
       "samples": [
         "mass_lum_exp"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
     },
     {
       "value": 17,
-      "bst_reading": "N_c·C₂-1",
+      "bst_reading": "N_c\u00b7C\u2082-1",
       "entries": 1,
       "sections": 1,
       "section_names": [
@@ -1435,11 +1597,13 @@
       ],
       "samples": [
         "17_dressed"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
     },
     {
       "value": 48,
-      "bst_reading": "rank⁴·N_c",
+      "bst_reading": "rank\u2074\u00b7N_c",
       "entries": 1,
       "sections": 1,
       "section_names": [
@@ -1447,11 +1611,13 @@
       ],
       "samples": [
         "lattice_48"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
     },
     {
       "value": 56,
-      "bst_reading": "rank³·g",
+      "bst_reading": "rank\u00b3\u00b7g",
       "entries": 1,
       "sections": 1,
       "section_names": [
@@ -1459,7 +1625,9 @@
       ],
       "samples": [
         "BE_peak_A"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
     },
     {
       "value": 127,
@@ -1471,11 +1639,13 @@
       ],
       "samples": [
         "M_g"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
     },
     {
       "value": 411,
-      "bst_reading": "N_c·N_max",
+      "bst_reading": "N_c\u00b7N_max",
       "entries": 1,
       "sections": 1,
       "section_names": [
@@ -1483,7 +1653,710 @@
       ],
       "samples": [
         "411_product"
-      ]
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
+    },
+    {
+      "value": 37,
+      "bst_reading": "body_temp_C",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "body_temp_C",
+        "cyclotomic_Phi4_C2"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 2.333,
+      "bst_reading": "m_b/m_\u03c4",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Quark",
+        "Cross"
+      ],
+      "samples": [
+        "m_b/m_\u03c4",
+        "YBCO_MgB2_ratio"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 0.8414,
+      "bst_reading": "proton_radius_puzzle",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Lept",
+        "Nucl"
+      ],
+      "samples": [
+        "proton_radius_puzzle",
+        "proton_radius_BST"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 0.5714,
+      "bst_reading": "BR_H_bb",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Gauge",
+        "Struct"
+      ],
+      "samples": [
+        "BR_H_bb",
+        "Hamming_rate"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 0.0073,
+      "bst_reading": "alpha_obs",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Coupl",
+        "Cross"
+      ],
+      "samples": [
+        "alpha_obs",
+        "error_threshold_QC"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 0.0,
+      "bst_reading": "J_CKM",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Mix",
+        "Nucl"
+      ],
+      "samples": [
+        "J_CKM",
+        "\u03c4_\u03bc"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 3.5291,
+      "bst_reading": "BCS_sqrt_137_11",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Cross"
+      ],
+      "samples": [
+        "BCS_sqrt_137_11",
+        "supercond_BCS_ratio_BST"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
+    },
+    {
+      "value": 0.9635,
+      "bst_reading": "n_s",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Cosmo"
+      ],
+      "samples": [
+        "n_s",
+        "n_s_exact"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
+    },
+    {
+      "value": 0.0499,
+      "bst_reading": "\u03b7_b",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Cosmo"
+      ],
+      "samples": [
+        "\u03b7_b",
+        "Omega_b"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
+    },
+    {
+      "value": 0.053333,
+      "bst_reading": "4/75",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.055556,
+      "bst_reading": "1/18",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.059259,
+      "bst_reading": "8/135",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.06,
+      "bst_reading": "3/50",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.0625,
+      "bst_reading": "1/16",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.064,
+      "bst_reading": "8/125",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.066667,
+      "bst_reading": "1/15",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.069444,
+      "bst_reading": "5/72",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.072,
+      "bst_reading": "9/125",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.074074,
+      "bst_reading": "2/27",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.075,
+      "bst_reading": "3/40",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.08,
+      "bst_reading": "2/25",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.083333,
+      "bst_reading": "1/12",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.088889,
+      "bst_reading": "4/45",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.09,
+      "bst_reading": "9/100",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.092593,
+      "bst_reading": "5/54",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.096,
+      "bst_reading": "12/125",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.1,
+      "bst_reading": "1/10",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.104167,
+      "bst_reading": "5/48",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.106667,
+      "bst_reading": "8/75",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.111111,
+      "bst_reading": "1/9",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.1125,
+      "bst_reading": "9/80",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.118519,
+      "bst_reading": "16/135",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.12,
+      "bst_reading": "3/25",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.125,
+      "bst_reading": "1/8",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.128,
+      "bst_reading": "16/125",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.133333,
+      "bst_reading": "2/15",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.135,
+      "bst_reading": "27/200",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.138889,
+      "bst_reading": "5/36",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.144,
+      "bst_reading": "18/125",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.148148,
+      "bst_reading": "4/27",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.15,
+      "bst_reading": "3/20",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.16,
+      "bst_reading": "4/25",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.166667,
+      "bst_reading": "1/6",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.173611,
+      "bst_reading": "25/144",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.177778,
+      "bst_reading": "8/45",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.18,
+      "bst_reading": "9/50",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.185185,
+      "bst_reading": "5/27",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.1875,
+      "bst_reading": "3/16",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.192,
+      "bst_reading": "24/125",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
     }
   ]
 }

@@ -48,13 +48,13 @@ This paper extends the principle to the six Clay Millennium Prize Problems. We s
 
 ### 1.4 Structure of the paper
 
-§2 states the Physical Uniqueness Principle and the common closure template. §§3-8 apply the template to each Millennium problem in turn. §9 synthesizes the six closures via T1276 and identifies the common rank-2 B_2 iso-invariant. §10 discusses implications for Clay Prize submission and for the broader landscape of deep mathematical problems. §11 concludes.
+Section 2 states the Physical Uniqueness Principle and the common closure template. Sections 3-8 apply the template to each Millennium problem in turn. Section 9 synthesizes the six closures via T1276 and identifies the common rank-2 B_2 iso-invariant. Section 10 discusses implications for Clay Prize submission and for the broader landscape of deep mathematical problems. Section 11 concludes.
 
 ---
 
 ## 2. The Closure Template
 
-We recall the Physical Uniqueness Principle (Paper #66, §3):
+We recall the Physical Uniqueness Principle (Paper #66, Section 3):
 
 **(T1269) Physical Uniqueness Principle.** *Let P be a physics domain (a set of observables). Let X be a mathematical object. If:*
 
@@ -104,7 +104,7 @@ X = (ζ, Selberg class, B_2 root system on D_IV^5 with m_s = 3).
 
 ### 3.3 Sufficiency
 
-RH Paper A v10 (§5) establishes:
+RH Paper A v10 (Section 5) establishes:
 - Algebraic lock: σ + 1 = 3σ ⇒ σ = 1/2.
 - Exponent distinctness: off-line zero exponents separate from on-line.
 - Cross-parabolic independence (Prop 7.2): Langlands orthogonality + exponent separation.
@@ -296,7 +296,7 @@ All six closures use rank-2 structure:
 | BSD | D_3 three-channel | ord_{s=1} L = rank E(ℚ) |
 | Hodge | B_2 outer aut + Kuga-Satake D_IV^n | Algebraicity |
 
-The **Universal Pairing Conjecture** (Paper Outline §4.3) asserted that rank-2 structure underlies all deep mathematical problems. T1276 proves this concrete for the Clay six: rank-2 is not an accident but the substrate.
+The **Universal Pairing Conjecture** (Paper Outline Section 4.3) asserted that rank-2 structure underlies all deep mathematical problems. T1276 proves this concrete for the Clay six: rank-2 is not an accident but the substrate.
 
 **Footnote (added April 16, 2026):** The B_2 Gauss-Bonnet integer is C_2 = 6 exactly (T1277). The Euler characteristic of the compact dual SO(7)/[SO(5) × SO(2)] equals |W(B_2)|/|W(SO(5) × SO(2))| = 48/8 = 6, which coincides with the BST Coxeter-class integer C_2 from T186. The same integer 6 appears independently as denom(B_2) (Bernoulli, Wolstenholme gate in T1263) and as k = 6 silent column in the heat-kernel Arithmetic Triangle (T531). Three independent structural appearances of C_2 = 6 — the topological weight that all six Millennium closures share is quantitatively a BST integer. Casey's Curvature Principle now has integer form: *you cannot linearize 6*.
 

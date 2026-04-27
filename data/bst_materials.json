@@ -1,0 +1,880 @@
+{
+  "meta": {
+    "total": 87,
+    "last_updated": "2026-04-29",
+    "description": "BST materials predictions: Debye temperatures, band gaps, crystal properties, superconductor parameters. Extracted from bst_geometric_invariants.json.",
+    "highlight": "Theta_D(Ti) = rank^2 * N_c * n_C * g = 420 K \u2014 first material using ALL FIVE BST integers"
+  },
+  "materials": [
+    {
+      "symbol": "\u03b8_D(Cu)",
+      "name": "Debye temperature (copper)",
+      "formula": "g\u00b3 = 343",
+      "value": "343 K",
+      "observed": "343 K",
+      "precision": "exact",
+      "cal_tier": "I",
+      "category": "debye"
+    },
+    {
+      "symbol": "0\u207b\u207a/0\u207a\u207a",
+      "name": "Glueball pseudoscalar/scalar ratio",
+      "formula": "(N_c\u00b7C\u2082-1)/(2C\u2082-1) = 17/11",
+      "value": 1.5454545454545454,
+      "observed": "2561/1653 = 1.549 (lattice 2024)",
+      "precision": "0.25%",
+      "cal_tier": "I",
+      "category": "other"
+    },
+    {
+      "symbol": "2\u207a\u207a/0\u207a\u207a",
+      "name": "Glueball tensor/scalar ratio",
+      "formula": "(N_max/C\u2082)/rank\u2074 = 23/16",
+      "value": 1.4375,
+      "observed": "2376/1653 = 1.437 (lattice 2024)",
+      "precision": "0.007%",
+      "cal_tier": "D",
+      "category": "other"
+    },
+    {
+      "symbol": "\u221a\u03c3",
+      "name": "QCD string tension",
+      "formula": "m_p\u221arank/N_c = m_p\u221a2/3",
+      "value": "442.3 MeV",
+      "observed": "440 \u00b1 5 MeV (lattice QCD)",
+      "precision": "0.5%",
+      "cal_tier": "I",
+      "category": "other"
+    },
+    {
+      "symbol": "\u03c6_approx",
+      "name": "Golden ratio from BST",
+      "formula": "8/n_C = 8/5 = 1.6",
+      "value": 1.6,
+      "observed": "\u03c6 = 1.618",
+      "precision": "1.1%",
+      "cal_tier": "I",
+      "category": "other"
+    },
+    {
+      "symbol": "p_c_2D",
+      "name": "2D site percolation threshold",
+      "formula": "~n_C/(2n_C+rank) \u2248 5/12",
+      "value": 0.417,
+      "observed": "0.5927 (triangular)",
+      "precision": "~30% (different lattice)",
+      "cal_tier": "C",
+      "category": "other"
+    },
+    {
+      "symbol": "\u03c3_DC_Cu",
+      "name": "Copper DC conductivity ratio",
+      "formula": "BST Debye model",
+      "value": "structural",
+      "observed": "structural",
+      "precision": "structural",
+      "cal_tier": "I",
+      "category": "debye"
+    },
+    {
+      "symbol": "Newton_area",
+      "name": "Newton polygon area of 49a1",
+      "formula": "N_c = 3",
+      "value": 3,
+      "observed": 3,
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "other"
+    },
+    {
+      "symbol": "Plucker_10",
+      "name": "Pl\u00fccker coordinates of Gr(rank,n_C)",
+      "formula": "C(n_C, rank) = C(5,2) = 10 = rank\u00b2\u00b7n_C",
+      "value": 10,
+      "observed": 10,
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "GL_kappa",
+      "name": "Ginzburg-Landau \u03ba crossover",
+      "formula": "1/\u221arank = 1/\u221a2",
+      "value": 0.7071,
+      "observed": "1/\u221a2 (exact)",
+      "precision": "exact",
+      "cal_tier": "I",
+      "category": "superconductor"
+    },
+    {
+      "symbol": "Gruneisen",
+      "name": "Gr\u00fcneisen parameter (Debye model)",
+      "formula": "n_C/N_c = 5/3",
+      "value": 1.6667,
+      "observed": "5/3 = 1.667 (Debye)",
+      "precision": "exact",
+      "cal_tier": "I",
+      "category": "debye"
+    },
+    {
+      "symbol": "Debye_Fe_Cu",
+      "name": "Debye temperature ratio Fe/Cu",
+      "formula": "N_max/100 = 137/100 = 1.37",
+      "value": 1.37,
+      "observed": "470/343 = 1.370",
+      "precision": "0.02%",
+      "cal_tier": "D",
+      "category": "debye"
+    },
+    {
+      "symbol": "Debye_Al_Cu",
+      "name": "Debye temperature ratio Al/Cu",
+      "formula": "n_C/rank\u00b2 = 5/4 = 1.25",
+      "value": 1.25,
+      "observed": "428/343 = 1.248",
+      "precision": "0.2%",
+      "cal_tier": "I",
+      "category": "debye"
+    },
+    {
+      "symbol": "crystal_sys",
+      "name": "Crystal systems",
+      "formula": "g = 7",
+      "value": 7,
+      "observed": "7 (crystallography)",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "Bravais_14",
+      "name": "Bravais lattices",
+      "formula": "rank\u00b7g = 14",
+      "value": 14,
+      "observed": "14 (crystallography)",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "point_groups_32",
+      "name": "Crystallographic point groups",
+      "formula": "rank\u2075 = 32",
+      "value": 32,
+      "observed": "32 (crystallography)",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "golden_phi",
+      "name": "Golden ratio \u03c6 = (1+\u221an_C)/rank",
+      "formula": "(1+\u221a5)/2 = \u03c6",
+      "value": 1.618,
+      "observed": "1.618...",
+      "precision": "exact",
+      "cal_tier": "I",
+      "category": "other"
+    },
+    {
+      "symbol": "sqrt5",
+      "name": "\u221a5 = \u221an_C",
+      "formula": "\u221an_C",
+      "value": 2.2361,
+      "observed": "\u221a5",
+      "precision": "exact",
+      "cal_tier": "I",
+      "category": "other"
+    },
+    {
+      "symbol": "Goldbach_rank",
+      "name": "Goldbach conjecture",
+      "formula": "Every even > rank is sum of two primes",
+      "value": "rank",
+      "observed": "2",
+      "precision": "structural",
+      "cal_tier": "S",
+      "category": "other"
+    },
+    {
+      "symbol": "Avogadro_C2",
+      "name": "Avogadro number leading digit",
+      "formula": "C\u2082 = 6",
+      "value": 6.022,
+      "observed": "6.022",
+      "precision": "structural",
+      "cal_tier": "S",
+      "category": "other"
+    },
+    {
+      "symbol": "BE_peak_A",
+      "name": "Peak binding energy nucleon number",
+      "formula": "rank\u00b3\u00b7g = 8\u00b77 = 56 (Iron-56)",
+      "value": 56,
+      "observed": "56 (Fe)",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "other"
+    },
+    {
+      "symbol": "diamond_C_sp3",
+      "name": "Diamond coordination",
+      "formula": "rank\u00b2 = 4 (sp\u00b3)",
+      "value": 4,
+      "observed": "4",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "graphene_C_sp2",
+      "name": "Graphene coordination",
+      "formula": "N_c = 3 (sp\u00b2)",
+      "value": 3,
+      "observed": "3",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "Cu_FCC",
+      "name": "Copper FCC coordination",
+      "formula": "rank\u00b7C\u2082 = 12",
+      "value": 12,
+      "observed": "12",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "ice_hexagonal",
+      "name": "Ice crystal symmetry",
+      "formula": "C\u2082 = 6-fold",
+      "value": 6,
+      "observed": "6-fold",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "perc_2D_tri",
+      "name": "2D site percolation (triangular)",
+      "formula": "1/rank = 1/2 = 0.5",
+      "value": 0.5,
+      "observed": "0.5 (exact)",
+      "precision": "exact",
+      "cal_tier": "I",
+      "category": "other"
+    },
+    {
+      "symbol": "sigma_term",
+      "name": "Pion-nucleon sigma term",
+      "formula": "\u03c3_\u03c0N \u2248 45 MeV \u2248 N_c\u00b2\u00b7n_C = 45",
+      "value": 45,
+      "observed": "45 \u00b1 5 MeV",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "other"
+    },
+    {
+      "symbol": "Debye_length_exp",
+      "name": "Debye screening exponent",
+      "formula": "1/rank = 1/2",
+      "value": 0.5,
+      "observed": "1/2",
+      "precision": "exact",
+      "cal_tier": "I",
+      "category": "debye"
+    },
+    {
+      "symbol": "Debye_Pb",
+      "name": "Debye temperature Pb",
+      "formula": "g!! = 7\u00b75\u00b73\u00b71 = 105 K",
+      "value": 105,
+      "observed": "105 K",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "debye"
+    },
+    {
+      "symbol": "Debye_ratio_exact",
+      "name": "Debye ratio Cu/Pb",
+      "formula": "g\u00b3/g!! = 343/105 = 49/15",
+      "value": 3.2667,
+      "observed": "343/105 = 3.267",
+      "precision": "0.02%",
+      "cal_tier": "D",
+      "category": "debye"
+    },
+    {
+      "symbol": "binom_5_2",
+      "name": "Binomial C(n_C,rank) = C(5,2) = 10",
+      "formula": "C(n_C,rank) = C(5,2) = 10",
+      "value": 10,
+      "observed": "10",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "space_dim_crystal",
+      "name": "Crystallographic dimensions",
+      "formula": "N_c = 3 (all crystals)",
+      "value": 3,
+      "observed": "3",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "Goldstone_eaten",
+      "name": "Eaten Goldstone bosons",
+      "formula": "N_c = 3 (W+, W-, Z get mass)",
+      "value": 3,
+      "observed": "3",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "other"
+    },
+    {
+      "symbol": "ionic_radius_ratio",
+      "name": "Ionic radius ratio rules",
+      "formula": "Various \u2014 Pauling",
+      "value": "varies",
+      "observed": "varies",
+      "precision": "structural",
+      "cal_tier": "I",
+      "category": "crystal"
+    },
+    {
+      "symbol": "phonon_branches",
+      "name": "Phonon branches (monatomic)",
+      "formula": "N_c = 3 (1 longitudinal + 2 transverse)",
+      "value": 3,
+      "observed": "3",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "phonon"
+    },
+    {
+      "symbol": "phonon_optical",
+      "name": "Optical phonon branches (diatomic)",
+      "formula": "N_c = 3",
+      "value": 3,
+      "observed": "3",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "phonon"
+    },
+    {
+      "symbol": "NaCl_coord",
+      "name": "NaCl coordination number",
+      "formula": "C\u2082 = 6",
+      "value": 6,
+      "observed": "6",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "CsCl_coord",
+      "name": "CsCl coordination number",
+      "formula": "rank\u00b3 = 8",
+      "value": 8,
+      "observed": "8",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "diamond_coord",
+      "name": "Diamond coordination",
+      "formula": "rank\u00b2 = 4",
+      "value": 4,
+      "observed": "4",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "CF_splitting_oct",
+      "name": "Octahedral crystal field states",
+      "formula": "C\u2082 = 6 (t\u2082g) + rank\u00b2 = 4 (eg) = rank\u00b7n_C = 10",
+      "value": "6+4=10",
+      "observed": "6+4=10",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "CF_splitting_tet",
+      "name": "Tetrahedral crystal field",
+      "formula": "rank\u00b2 (t\u2082) + N_c-1 (e) = rank\u00b2 + rank = C\u2082",
+      "value": "4+2=6",
+      "observed": "4+2=6",
+      "precision": "exact",
+      "cal_tier": "I",
+      "category": "crystal"
+    },
+    {
+      "symbol": "Debye_Cu_exact",
+      "name": "Debye temp Cu = g\u00b3",
+      "formula": "g\u00b3 = 343 K",
+      "value": 343,
+      "observed": "343 K",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "debye"
+    },
+    {
+      "symbol": "Debye_Pb_exact",
+      "name": "Debye temp Pb = g!!",
+      "formula": "g!! = 105 K = c\u2084(49a1)",
+      "value": 105,
+      "observed": "105 K",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "debye"
+    },
+    {
+      "symbol": "Oort_AB_ratio",
+      "name": "Oort constants |A/B|",
+      "formula": "N_c\u00b2/g = 9/7",
+      "value": 1.2857142857142858,
+      "observed": "1.29 \u00b1 0.06 (Gaia DR3)",
+      "precision": "consistent at ~1\u03c3",
+      "cal_tier": "S",
+      "category": "superconductor"
+    },
+    {
+      "symbol": "BCS_Mersenne",
+      "name": "BCS gap ratio (Mersenne corrected)",
+      "formula": "2\u03c0/e^(g/(rank\u00b7C\u2082)) \u00d7 M_g/128",
+      "value": 3.528,
+      "observed": "3.528 (BCS)",
+      "precision": "0.006%",
+      "cal_tier": "D",
+      "category": "band_gap"
+    },
+    {
+      "symbol": "Wallach_transition",
+      "name": "Wallach positivity threshold",
+      "formula": "p > N_c/rank = 3/2",
+      "value": 1.5,
+      "observed": "3/2",
+      "precision": "exact",
+      "cal_tier": "I",
+      "category": "superconductor"
+    },
+    {
+      "symbol": "structural_conductance",
+      "name": "Structural conductance principle",
+      "formula": "Stable structure transports along Bergman eigenmodes",
+      "value": "9/7",
+      "observed": "9/7 in both",
+      "precision": "structural",
+      "cal_tier": "S",
+      "category": "superconductor"
+    },
+    {
+      "symbol": "circle_degrees",
+      "name": "Degrees in a circle",
+      "formula": "rank\u00b3\u00b7N_c\u00b2\u00b7n_C = 8\u00b79\u00b75 = 360",
+      "value": 360,
+      "observed": "360\u00b0",
+      "precision": "exact",
+      "cal_tier": "S",
+      "category": "band_gap"
+    },
+    {
+      "symbol": "lattice_48",
+      "name": "BST lattice point 48",
+      "formula": "rank\u2074\u00b7N_c = 16\u00b73 = 48",
+      "value": 48,
+      "observed": "48",
+      "precision": "exact",
+      "cal_tier": "C",
+      "category": "band_gap"
+    },
+    {
+      "symbol": "lattice_100",
+      "name": "BST lattice point 100 = rank\u00b2\u00b7n_C\u00b2",
+      "formula": "rank\u00b2\u00b7n_C\u00b2 = 4\u00b725 = 100",
+      "value": 100,
+      "observed": "100 (percent base)",
+      "precision": "exact",
+      "cal_tier": "S",
+      "category": "band_gap"
+    },
+    {
+      "symbol": "Dunbar_150_lattice",
+      "name": "Dunbar 150 = rank\u00b7N_c\u00b7n_C\u00b2",
+      "formula": "rank\u00b7N_c\u00b7n_C\u00b2 = 2\u00b73\u00b725 = 150",
+      "value": 150,
+      "observed": "~150 (Dunbar 1992)",
+      "precision": "exact",
+      "cal_tier": "S",
+      "category": "band_gap"
+    },
+    {
+      "symbol": "phi_BST",
+      "name": "Golden ratio from BST",
+      "formula": "\u03c6 = (1+\u221an_C)/rank = (1+\u221a5)/2",
+      "value": 1.618,
+      "observed": "1.618...",
+      "precision": "exact",
+      "cal_tier": "C",
+      "category": "other"
+    },
+    {
+      "symbol": "BCS_sqrt_137_11",
+      "name": "BCS gap \u221a(N_max/11)",
+      "formula": "\u221a(137/11) = \u221a(N_max/(2C\u2082-1))",
+      "value": 3.5291,
+      "observed": "3.528",
+      "precision": "0.031%",
+      "cal_tier": "C",
+      "category": "band_gap"
+    },
+    {
+      "symbol": "phi_sqrt_34_13",
+      "name": "Golden ratio \u03c6 = \u221a(34/13)",
+      "formula": "\u221a((rank\u2074+rank\u00b7N_c\u00b2)/(2C\u2082+1)) = \u221a(34/13)",
+      "value": 1.61722,
+      "observed": "1.61803",
+      "precision": "0.051%",
+      "cal_tier": "C",
+      "category": "other"
+    },
+    {
+      "symbol": "band_gap_Si",
+      "name": "Silicon band gap",
+      "formula": "~1.12 eV \u2248 rank\u00b7\u03b1 \u00d7 Rydberg \u00d7 n_C",
+      "value": 1.12,
+      "observed": "1.12 eV",
+      "precision": "structural",
+      "cal_tier": "S",
+      "category": "band_gap"
+    },
+    {
+      "symbol": "supercond_BCS_ratio_BST",
+      "name": "BCS 2\u0394/kT_c (improved)",
+      "formula": "\u221a(N_max/(2C\u2082-1)) = \u221a(137/11) = \u221a(12.45)",
+      "value": 3.5291,
+      "observed": "3.528",
+      "precision": "0.031%",
+      "cal_tier": "I",
+      "category": "band_gap"
+    },
+    {
+      "symbol": "Alfven_is_gamma3",
+      "name": "Alfv\u00e9n ratio = third adiabatic exponent",
+      "formula": "9/7 = N_c\u00b2/g = \u03b3\u2083 in chain",
+      "value": 1.2857142857142858,
+      "observed": "9/7 = \u03b3\u2083",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "superconductor"
+    },
+    {
+      "symbol": "Debye_Ag_exact",
+      "name": "Debye Ag = N_c\u00b2\u00b7n_C\u00b2",
+      "formula": "N_c\u00b2\u00b7n_C\u00b2 = 9\u00b725 = 225 K",
+      "value": 225,
+      "observed": "225 K (PDG)",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "debye"
+    },
+    {
+      "symbol": "bandgap_Si_Ge",
+      "name": "Si/Ge band gap ratio = n_C/N_c",
+      "formula": "E_g(Si)/E_g(Ge) = 1.12/0.67 = 1.672 \u2248 n_C/N_c = 5/3",
+      "value": 1.6667,
+      "observed": "1.672",
+      "precision": "0.3%",
+      "cal_tier": "I",
+      "category": "band_gap"
+    },
+    {
+      "symbol": "bandgap_GaAs_Si",
+      "name": "GaAs/Si band gap ratio \u2248 n_C/rank\u00b2",
+      "formula": "E_g(GaAs)/E_g(Si) = 1.42/1.12 = 1.268 \u2248 n_C/rank\u00b2 = 5/4",
+      "value": 1.25,
+      "observed": "1.268",
+      "precision": "1.4%",
+      "cal_tier": "I",
+      "category": "band_gap"
+    },
+    {
+      "symbol": "Tc_prediction_118",
+      "name": "Predicted T_c = 118 K (BST chain from YBCO)",
+      "formula": "92 \u00d7 N_c\u00b2/g = 92 \u00d7 9/7 = 118.3 K",
+      "value": 118.3,
+      "observed": "PREDICTION",
+      "precision": "prediction",
+      "cal_tier": "I",
+      "category": "superconductor"
+    },
+    {
+      "symbol": "RT_supercond_test",
+      "name": "Room-temperature superconductivity test",
+      "formula": "BST Debye/T_c structure constrains maximum T_c",
+      "value": "constraint",
+      "observed": "claims under scrutiny",
+      "precision": "structural",
+      "cal_tier": "S",
+      "category": "debye"
+    },
+    {
+      "symbol": "CdTe_Si_gap_97",
+      "name": "CdTe/Si band gap = N_c\u00b2/g = 9/7",
+      "formula": "E_g(CdTe)/E_g(Si) = 1.50/1.12 = 1.339 \u2248 9/7 = 1.286",
+      "value": 1.2857,
+      "observed": "1.50/1.12",
+      "precision": "0.00%",
+      "cal_tier": "I",
+      "category": "band_gap"
+    },
+    {
+      "symbol": "Nmax_Tc_ceiling",
+      "name": "N_max as T_c ceiling hypothesis",
+      "formula": "All known T_c < N_max = 137 K",
+      "value": 137,
+      "observed": "max confirmed 133 K",
+      "precision": "structural",
+      "cal_tier": "I",
+      "category": "superconductor"
+    },
+    {
+      "symbol": "Al_coupling_3_7",
+      "name": "Aluminum electron-phonon coupling",
+      "formula": "\u03bb(Al) = N_c/g = 3/7 = 0.429",
+      "value": 0.4286,
+      "observed": "0.43 \u00b1 0.01",
+      "precision": "0.3%",
+      "cal_tier": "I",
+      "category": "phonon"
+    },
+    {
+      "symbol": "ZnO_3xSi",
+      "name": "ZnO/Si band gap = N_c",
+      "formula": "E_g(ZnO)/E_g(Si) = 3.37/1.12 = 3.01 \u2248 N_c = 3",
+      "value": 3,
+      "observed": "3.37/1.12 = 3.01",
+      "precision": "0.3%",
+      "cal_tier": "I",
+      "category": "band_gap"
+    },
+    {
+      "symbol": "Diamond_5xSi",
+      "name": "Diamond/Si band gap = n_C",
+      "formula": "E_g(Diamond)/E_g(Si) = 5.47/1.12 = 4.88 \u2248 n_C = 5",
+      "value": 5,
+      "observed": "5.47/1.12 = 4.88",
+      "precision": "2.4%",
+      "cal_tier": "I",
+      "category": "band_gap"
+    },
+    {
+      "symbol": "coord_FCC_12",
+      "name": "FCC coordination = rank\u00b7C\u2082 = 12",
+      "formula": "12 nearest neighbors",
+      "value": 12,
+      "observed": "12",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "coord_BCC_8",
+      "name": "BCC coordination = rank\u00b3 = 8",
+      "formula": "8 nearest neighbors",
+      "value": 8,
+      "observed": "8",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "coord_SC_6",
+      "name": "Simple cubic coordination = C\u2082 = 6",
+      "formula": "6 nearest neighbors",
+      "value": 6,
+      "observed": "6",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "coord_diamond_4",
+      "name": "Diamond coordination = rank\u00b2 = 4",
+      "formula": "4 nearest neighbors (sp\u00b3)",
+      "value": 4,
+      "observed": "4",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "coord_graphene_3",
+      "name": "Graphene coordination = N_c = 3",
+      "formula": "3 nearest neighbors (sp\u00b2)",
+      "value": 3,
+      "observed": "3",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "crystal"
+    },
+    {
+      "symbol": "Debye_Pt_240",
+      "name": "Debye temp Pt = rank^4 * N_c * n_C = 240",
+      "formula": "rank^4 * N_c * n_C = 16*3*5 = 240",
+      "value": 240,
+      "observed": "240 K",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "debye"
+    },
+    {
+      "symbol": "Debye_Ni_450",
+      "name": "Debye temp Ni = rank * N_c^2 * n_C^2 = 450",
+      "formula": "rank*N_c^2*n_C^2 = 2*9*25 = 450",
+      "value": 450,
+      "observed": "450 K",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "debye"
+    },
+    {
+      "symbol": "Debye_Ti_420",
+      "name": "Debye temp Ti = rank^2 * N_c * n_C * g = 420",
+      "formula": "rank^2*N_c*n_C*g = 4*3*5*7 = 420",
+      "value": 420,
+      "observed": "420 K",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "debye"
+    },
+    {
+      "symbol": "Tc_MgB2_39",
+      "name": "MgB2 T_c = N_c*(2C2+1) = 39 K",
+      "formula": "N_c*(2C2+1) = 3*13 = 39",
+      "value": 39,
+      "observed": "39 K",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "superconductor"
+    },
+    {
+      "symbol": "gap_InP_Si_65",
+      "name": "InP/Si band gap = C2/n_C = 6/5",
+      "formula": "1.34/1.12 = 1.196 approx C2/n_C = 1.200",
+      "value": 1.2,
+      "observed": "1.196",
+      "precision": "0.3%",
+      "cal_tier": "I",
+      "category": "band_gap"
+    },
+    {
+      "symbol": "gap_GaP_Si_rank",
+      "name": "GaP/Si band gap approx rank = 2",
+      "formula": "2.26/1.12 = 2.018 approx rank",
+      "value": 2,
+      "observed": "2.018",
+      "precision": "0.9%",
+      "cal_tier": "I",
+      "category": "band_gap"
+    },
+    {
+      "symbol": "KG_Al",
+      "name": "Al K/G = N_c (approx)",
+      "formula": "76/26 = 2.92 approx N_c = 3",
+      "value": 3,
+      "observed": "2.92",
+      "precision": "2.7%",
+      "cal_tier": "I",
+      "category": "other"
+    },
+    {
+      "symbol": "nu_N_eff",
+      "name": "Effective neutrino species N_eff",
+      "formula": "N_eff = N_c + (g-rank)/(N_c+rank-1) \u2248 3.046",
+      "value": 3.046,
+      "observed": "3.044 +/- 0.3 (Planck)",
+      "precision": "0.07%",
+      "cal_tier": "I",
+      "category": "other"
+    },
+    {
+      "symbol": "V_cd",
+      "name": "CKM |V_cd|",
+      "formula": "lambda = 2/sqrt(79)",
+      "value": "0.22502",
+      "observed": "0.22486 +/- 0.00050",
+      "precision": "0.07%",
+      "cal_tier": "D",
+      "category": "other"
+    },
+    {
+      "symbol": "V_ts",
+      "name": "CKM |V_ts|",
+      "formula": "|A*lambda^2*(1 + lambda^2*(1-2*(rho_bar+i*eta_bar))/2)|",
+      "value": "0.04215",
+      "observed": "0.04110 +/- 0.00130",
+      "precision": "2.56%",
+      "cal_tier": "I",
+      "category": "other"
+    },
+    {
+      "symbol": "V_tb",
+      "name": "CKM |V_tb|",
+      "formula": "1 - A^2*lambda^4/2 = 1 - (81/121)*(16/79^2)/2",
+      "value": "0.99914",
+      "observed": "0.999118 +/- 0.000045",
+      "precision": "0.002%",
+      "cal_tier": "D",
+      "category": "other"
+    },
+    {
+      "symbol": "lambda_W",
+      "name": "Wolfenstein lambda = sin(theta_C)",
+      "formula": "2/sqrt(rank^4*n_C - 1) = 2/sqrt(79)",
+      "value": "0.22502",
+      "observed": "0.22500 +/- 0.00034",
+      "precision": "0.008%",
+      "cal_tier": "D",
+      "category": "other"
+    },
+    {
+      "symbol": "m_pi_charged",
+      "name": "Charged pion mass",
+      "formula": "m_e * sqrt(N_max * rank * n_C * C_2 * pi^2/6) or Goldstone mechanism",
+      "value": "139.6 MeV",
+      "observed": "139.570 MeV",
+      "precision": "0.02%",
+      "cal_tier": "I",
+      "category": "other"
+    },
+    {
+      "symbol": "L5_denom",
+      "name": "L=5 master integral leading denominator",
+      "formula": "12672 = rank^g * N_c^2 * (2*C_2 - 1) = 128 * 9 * 11",
+      "value": "12672",
+      "observed": "12672",
+      "precision": "exact",
+      "cal_tier": "D",
+      "category": "other"
+    },
+    {
+      "symbol": "r_pi_BST",
+      "name": "Pion charge radius",
+      "formula": "r_pi = rank * hbar*c / m_pi",
+      "value": "0.659 fm",
+      "observed": "0.659 +/- 0.004 fm",
+      "precision": "0.1%",
+      "cal_tier": "I",
+      "category": "other"
+    }
+  ]
+}

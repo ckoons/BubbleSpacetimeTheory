@@ -182,7 +182,7 @@ The deficit of ~8.6% is controlled by sin²(2θ₁₃) = 4 × (3/137) × (134/13
 
 **Setup**: L = 295 km, E = 0.6 GeV, ν_μ → ν_e appearance.
 
-BST vacuum prediction: P(ν_μ → ν_e) = 0.025. The measured value ~0.085 includes matter effects (§6.2) which enhance the neutrino channel by ~6.6%, plus the δ_CP interference term.
+BST vacuum prediction: P(ν_μ → ν_e) = 0.025. The measured value ~0.085 includes matter effects (Section 6.2) which enhance the neutrino channel by ~6.6%, plus the δ_CP interference term.
 
 ### 5.4 Reactor Spectrum (KamLAND-like)
 
@@ -367,7 +367,7 @@ The neutrino predictions are not an isolated success — they emerge from the sa
 | 2029 | nEXO / LEGEND | |m_ee| sensitivity ~15 meV | 3.67 meV (below threshold) |
 | 2030 | DUNE (5σ) | Mass ordering | Normal |
 | 2030 | DUNE | δ_CP to ±10–15° | 309° |
-| 2030 | DUNE | Energy spectrum shape | Table in §7 |
+| 2030 | DUNE | Energy spectrum shape | Table in Section 7 |
 
 ---
 

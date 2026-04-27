@@ -386,7 +386,7 @@ The function field / number field parallel is an AC phenomenon. Function field p
 | 7 | Hierarchy is strict (Theorem 6) | Theorem | Partial (needs examples) |
 | 8 | AC sign is representation-invariant (Theorem 8) | Theorem | Proved |
 | 9 | Natural coordinate obstruction ⟹ P ≠ NP | Conjecture | Open |
-| 10 | BST has AC = 0, FD = 0 | Classification | Verified (§13 of AC paper) |
+| 10 | BST has AC = 0, FD = 0 | Classification | Verified (Section 13 of AC paper) |
 
 ---
 

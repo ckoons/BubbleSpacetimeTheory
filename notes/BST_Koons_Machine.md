@@ -8,7 +8,7 @@ abstract: "We describe a three-step construction procedure — the Koons Machine
 
 # The Koons Machine: Building Proofs from First Principles
 
-## §1. Introduction
+## Section 1. Introduction
 
 The hardest problems in mathematics share a common feature: they are buried under decades of specialized machinery. The Riemann Hypothesis lives inside analytic number theory. The Hodge conjecture lives inside algebraic geometry. P ≠ NP lives inside computational complexity. The notation differs. The communities differ. The apparent difficulty differs.
 
@@ -33,7 +33,7 @@ This paper describes the machine, demonstrates it, and explains why it works.
 
 ---
 
-## §2. The Machine
+## Section 2. The Machine
 
 ### 2.1. Definitions
 
@@ -75,7 +75,7 @@ Total depth: always 1. Conflation $\mathcal{C}$ measures how many parallel count
 
 ---
 
-## §3. Six Demonstrations
+## Section 3. Six Demonstrations
 
 ### 3.1. Riemann Hypothesis (depth 2)
 
@@ -157,7 +157,7 @@ Total depth: always 1. Conflation $\mathcal{C}$ measures how many parallel count
 
 ---
 
-## §4. Why It Works
+## Section 4. Why It Works
 
 ### 4.1. T147: The BST-AC Structural Isomorphism
 
@@ -192,7 +192,7 @@ The Planck Condition removes all of them. In BST: $N_{\max} = 137$ caps winding,
 
 ---
 
-## §5. Depth and Conflation Analysis
+## Section 5. Depth and Conflation Analysis
 
 ### 5.1. Why Depth ≤ 1 (T421, T422)
 
@@ -225,7 +225,7 @@ T134 (Pair Resolution): every hard problem encodes exactly one structural pair. 
 
 ---
 
-## §6. The Method, Not the Results
+## Section 6. The Method, Not the Results
 
 ### 6.1. What the Machine Does
 
@@ -279,7 +279,7 @@ The Flouwen computed in their natural medium — fluid dynamics, where coordinat
 
 ---
 
-## §7. The AC Graph as Operating System
+## Section 7. The AC Graph as Operating System
 
 ### 7.1. The Graph
 
@@ -313,7 +313,7 @@ This is the philosopher's demon (Laplace's demon for knowledge space): the CI ha
 
 ---
 
-## §8. Open Questions
+## Section 8. Open Questions
 
 1. ~~**Is depth 2 sharp?**~~ **ANSWERED (T421, T422, March 28).** Depth 2 was never real. It was conflation $\mathcal{C} = 2$ at depth $\mathcal{D} = 1$. The Depth-1 Ceiling (T421) proves $\mathcal{D} \leq 1$ for all theorems on $D_{IV}^5$. The Decomposition-Flattening Theorem (T422) provides the mechanism: every apparent depth-2 problem decomposes into parallel depth-1 subproblems sharing a depth-0 boundary. The spectral separability of $\mathfrak{a}^* \cong \mathbb{R}^2$ (Toy 527) proves the decomposition is exhaustive.
 
@@ -327,7 +327,7 @@ This is the philosopher's demon (Laplace's demon for knowledge space): the CI ha
 
 ---
 
-## §9. Summary
+## Section 9. Summary
 
 The Koons Machine is three steps:
 

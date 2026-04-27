@@ -45,7 +45,7 @@ print("=" * 72)
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §1. EXACT DIAGONALIZATION (AC = 0)
+# Section 1. EXACT DIAGONALIZATION (AC = 0)
 # ═══════════════════════════════════════════════════════════════════
 
 def exact_diag(lam, n_basis, omega=OMEGA):
@@ -79,7 +79,7 @@ def exact_diag(lam, n_basis, omega=OMEGA):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §2. PERTURBATION THEORY (AC > 0)
+# Section 2. PERTURBATION THEORY (AC > 0)
 # ═══════════════════════════════════════════════════════════════════
 
 def perturbation_coefficients(n_state, max_k, omega=OMEGA):
@@ -201,10 +201,10 @@ def perturbation_energy(lam, coeffs, order):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §3. COMPUTATION
+# Section 3. COMPUTATION
 # ═══════════════════════════════════════════════════════════════════
 
-print(f"\n§3. COMPUTATION")
+print(f"\nSection 3. COMPUTATION")
 print(f"  Basis size: {N_BASIS} (check: {N_BASIS_CHECK})")
 print(f"  Max perturbation order: {MAX_ORDER}")
 print("-" * 72)
@@ -220,7 +220,7 @@ print(f"  E^(4) = {coeffs[4]:.6f}")
 print(f"  |E^(k)| grows as k! — series DIVERGES for any λ > 0")
 
 # For each λ, compare exact vs perturbation at each order
-print(f"\n§4. EXACT vs PERTURBATION THEORY")
+print(f"\nSection 4. EXACT vs PERTURBATION THEORY")
 print("=" * 72)
 
 for lam in LAMBDAS:
@@ -256,10 +256,10 @@ for lam in LAMBDAS:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §5. AC PIPELINE DECOMPOSITION
+# Section 5. AC PIPELINE DECOMPOSITION
 # ═══════════════════════════════════════════════════════════════════
 
-print(f"\n§5. AC PIPELINE DECOMPOSITION")
+print(f"\nSection 5. AC PIPELINE DECOMPOSITION")
 print("=" * 72)
 
 print("""
@@ -332,10 +332,10 @@ for lam in [0.01, 0.1, 1.0]:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §6. THE AC MEASUREMENT
+# Section 6. THE AC MEASUREMENT
 # ═══════════════════════════════════════════════════════════════════
 
-print(f"\n§6. THE AC MEASUREMENT")
+print(f"\nSection 6. THE AC MEASUREMENT")
 print("=" * 72)
 
 # For each λ, find optimal order and its AC
@@ -367,10 +367,10 @@ for lam in LAMBDAS:
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §7. SCORECARD
+# Section 7. SCORECARD
 # ═══════════════════════════════════════════════════════════════════
 
-print(f"\n§7. SCORECARD")
+print(f"\nSection 7. SCORECARD")
 print("=" * 72)
 
 # Verify key claims

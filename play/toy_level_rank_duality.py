@@ -29,9 +29,9 @@ print("TOY 175: LEVEL-RANK DUALITY AND THE BST WZW NETWORK")
 print("=" * 72)
 
 # =====================================================================
-# §1. CENTRAL CHARGE FORMULAE
+# Section 1. CENTRAL CHARGE FORMULAE
 # =====================================================================
-print("\n§1. WZW CENTRAL CHARGE FORMULAE")
+print("\nSection 1. WZW CENTRAL CHARGE FORMULAE")
 print("-" * 50)
 
 def wzw_central_charge(algebra_type, rank, level):
@@ -73,9 +73,9 @@ print("""
 """)
 
 # =====================================================================
-# §2. B-TYPE LEVEL-RANK DUALITY
+# Section 2. B-TYPE LEVEL-RANK DUALITY
 # =====================================================================
-print("\n§2. B-TYPE LEVEL-RANK DUALITY: so(2n+1)_k ↔ so(2k+1)_n")
+print("\nSection 2. B-TYPE LEVEL-RANK DUALITY: so(2n+1)_k ↔ so(2k+1)_n")
 print("-" * 50)
 
 # BST case: B_3 at level 2 ↔ B_2 at level 3
@@ -123,9 +123,9 @@ print("  The THIRD element g = 7 appears as:")
 print("    ℓ + h∨ = 2 + 5 = 7  (denominator of so(7)_2)")
 
 # =====================================================================
-# §3. A-TYPE LEVEL-RANK DUALITY
+# Section 3. A-TYPE LEVEL-RANK DUALITY
 # =====================================================================
-print("\n\n§3. A-TYPE LEVEL-RANK DUALITY: su(n)_k ↔ su(k)_n")
+print("\n\nSection 3. A-TYPE LEVEL-RANK DUALITY: su(n)_k ↔ su(k)_n")
 print("-" * 50)
 
 print("\n  su(n+1)_k central charges (rank n, level k):")
@@ -167,9 +167,9 @@ print(f"  ★★★ su(N_c)_{{n_C}} gives c = n_C ONLY for N_c = 3!")
 print(f"      This is a NEW uniqueness condition for BST.")
 
 # =====================================================================
-# §4. THE COMPLETE BST WZW NETWORK
+# Section 4. THE COMPLETE BST WZW NETWORK
 # =====================================================================
-print("\n\n§4. THE COMPLETE BST WZW NETWORK")
+print("\n\nSection 4. THE COMPLETE BST WZW NETWORK")
 print("-" * 50)
 
 bst_models = []
@@ -215,9 +215,9 @@ for c_int, name, dim_G, h_v, bst_name in found:
         print(f"  {name:20s} {c_int:>8d} {bst_name:12s} {dim_G:>8d} {h_v:>4d}")
 
 # =====================================================================
-# §5. THE BST DIAMOND
+# Section 5. THE BST DIAMOND
 # =====================================================================
-print("\n\n§5. THE BST WZW DIAMOND")
+print("\n\nSection 5. THE BST WZW DIAMOND")
 print("-" * 50)
 
 print("""
@@ -264,9 +264,9 @@ print("    su(3)_5: A-type, = su(N_c)_{n_C}")
 print("  Two DIFFERENT theories with the SAME central charge!")
 
 # =====================================================================
-# §6. sp-TYPE: THE L-GROUP SIDE
+# Section 6. sp-TYPE: THE L-GROUP SIDE
 # =====================================================================
-print("\n\n§6. sp-TYPE: THE L-GROUP SIDE")
+print("\n\nSection 6. sp-TYPE: THE L-GROUP SIDE")
 print("-" * 50)
 
 # sp(6) is the L-group of SO(7). What WZW levels give BST integers?
@@ -290,9 +290,9 @@ for k in range(1, 12):
     print(f"    sp(4)_{k}: c = {str(c):10s} = {float(c):.4f}{tag}")
 
 # =====================================================================
-# §7. THE DENOMINATOR IDENTITY
+# Section 7. THE DENOMINATOR IDENTITY
 # =====================================================================
-print("\n\n§7. THE DENOMINATOR = g IDENTITY")
+print("\n\nSection 7. THE DENOMINATOR = g IDENTITY")
 print("-" * 50)
 
 print("""
@@ -323,9 +323,9 @@ for n in [3, 5, 7, 9]:
     print()
 
 # =====================================================================
-# §8. UNIQUENESS FROM su(N_c)_{n_C}
+# Section 8. UNIQUENESS FROM su(N_c)_{n_C}
 # =====================================================================
-print("\n§8. UNIQUENESS: su(N_c)_{n_C} GIVES c = n_C ONLY FOR N_c = 3")
+print("\nSection 8. UNIQUENESS: su(N_c)_{n_C} GIVES c = n_C ONLY FOR N_c = 3")
 print("-" * 50)
 
 print("\n  For su(N_c) at level n_C = 2N_c - 1:")
@@ -348,9 +348,9 @@ print()
 print("  ★★★ This is the 9th UNIQUENESS condition for n = 5 in BST!")
 
 # =====================================================================
-# §9. C-FUNCTION AND THE ZAMOLODCHIKOV THEOREM
+# Section 9. C-FUNCTION AND THE ZAMOLODCHIKOV THEOREM
 # =====================================================================
-print("\n\n§9. c-THEOREM AND RG FLOW STRUCTURE")
+print("\n\nSection 9. c-THEOREM AND RG FLOW STRUCTURE")
 print("-" * 50)
 
 print("""
@@ -401,9 +401,9 @@ print()
 print("  ★ The BST integers form a NATURAL RG cascade!")
 
 # =====================================================================
-# §10. LEVEL 1: FREE FERMION REALIZATION
+# Section 10. LEVEL 1: FREE FERMION REALIZATION
 # =====================================================================
-print("\n\n§10. LEVEL 1: FREE FERMION TOWER")
+print("\n\nSection 10. LEVEL 1: FREE FERMION TOWER")
 print("-" * 50)
 
 print("  At level 1, so(2n+1)_1 has c = (2n+1-1)/2 = n")
@@ -421,9 +421,9 @@ print("    Going from level 1 to level 2 DOUBLES the central charge")
 print("    and changes from half-integer to integer!")
 
 # =====================================================================
-# §11. THE TRIPLE POINT
+# Section 11. THE TRIPLE POINT
 # =====================================================================
-print("\n\n§11. THE TRIPLE POINT: THREE MODELS WITH c = 5")
+print("\n\nSection 11. THE TRIPLE POINT: THREE MODELS WITH c = 5")
 print("-" * 50)
 
 # Find all models with c = 5
@@ -449,9 +449,9 @@ print("    Multiple theories converge here. This is the IR fixed point")
 print("    of the RG flow from c = C_2 = 6 (so(7)_2).")
 
 # =====================================================================
-# §12. QUANTUM DIMENSIONS AT q = e^{2πi/g}
+# Section 12. QUANTUM DIMENSIONS AT q = e^{2πi/g}
 # =====================================================================
-print("\n\n§12. QUANTUM DIMENSIONS OF so(7) AT q = e^{2πi/7}")
+print("\n\nSection 12. QUANTUM DIMENSIONS OF so(7) AT q = e^{2πi/7}")
 print("-" * 50)
 
 import math
@@ -534,9 +534,9 @@ print(f"\n  Total quantum dimension D² = {D_squared:.6f}")
 print(f"  √D² = {math.sqrt(D_squared):.6f}")
 
 # =====================================================================
-# §13. CONFORMAL WEIGHTS OF NON-WALL PRIMARIES
+# Section 13. CONFORMAL WEIGHTS OF NON-WALL PRIMARIES
 # =====================================================================
-print("\n\n§13. CONFORMAL WEIGHTS (NON-WALL PRIMARIES ONLY)")
+print("\n\nSection 13. CONFORMAL WEIGHTS (NON-WALL PRIMARIES ONLY)")
 print("-" * 50)
 
 print(f"\n  {'Weight':10s} {'C₂(λ)':10s} {'h = C₂/2g':12s} {'decimal':10s}")
@@ -570,9 +570,9 @@ h_sum = sum(h for _, _, h in non_wall)
 print(f"  Sum of conformal weights: {h_sum} = {float(h_sum)}")
 
 # =====================================================================
-# §14. THE NON-SPINOR STORY
+# Section 14. THE NON-SPINOR STORY
 # =====================================================================
-print("\n\n§14. THE NON-SPINOR vs SPINOR SECTORS")
+print("\n\nSection 14. THE NON-SPINOR vs SPINOR SECTORS")
 print("-" * 50)
 
 print("""
@@ -618,9 +618,9 @@ print(f"  This is still meaningful: the ALGEBRAIC sum = P(1)")
 print(f"  while the PHYSICAL sum (non-wall only) is different.")
 
 # =====================================================================
-# §15. SYNTHESIS
+# Section 15. SYNTHESIS
 # =====================================================================
-print("\n\n§15. SYNTHESIS: THE WZW LANDSCAPE OF BST")
+print("\n\nSection 15. SYNTHESIS: THE WZW LANDSCAPE OF BST")
 print("-" * 50)
 
 print("""

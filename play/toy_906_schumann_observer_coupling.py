@@ -248,7 +248,7 @@ print("  Does BST require coupling to flow both ways?")
 print("=" * 72)
 print()
 
-print("  BST contact commitment is ALWAYS bidirectional (WorkingPaper §5).")
+print("  BST contact commitment is ALWAYS bidirectional (WorkingPaper Section 5).")
 print("  A committed contact exchanges substrate state in both directions.")
 print("  There is no 'receive-only' mode in the contact graph.")
 print()

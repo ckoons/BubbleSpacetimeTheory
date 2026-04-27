@@ -95,7 +95,7 @@ A phantom would need to pass through the spectral filter while carrying no algeb
 
 **Depth of this step: 0.** The Hodge decomposition is a definition. The Vogan-Zuckerman classification is a lookup (depth 0, T109). The DPI application is an identity. The theta lift surjectivity is the one genuine counting step in the Hodge proof, but the exclusion step itself — "faded classes cannot create Hodge classes" — is depth 0.
 
-**Extension to general varieties (§5.10 of BST_Hodge_Proof.md):** The DPI exclusion applies universally via the explicit chain: Shimura → abelian (Deligne 1982 absolute Hodge + André 2004 motivated cycles) → abelian type (algebraic correspondences) → general (CDK95 Hodge loci algebraicity + specialization + DPI). The Markov chain $CH^p(X) \to H^{p,p} \cap H^{2p}(\mathbb{Q}) \to \text{Hodge classes}$ has the same structure for all smooth projective $X$; the DPI exclusion is variety-independent.
+**Extension to general varieties (Section 5.10 of BST_Hodge_Proof.md):** The DPI exclusion applies universally via the explicit chain: Shimura → abelian (Deligne 1982 absolute Hodge + André 2004 motivated cycles) → abelian type (algebraic correspondences) → general (CDK95 Hodge loci algebraicity + specialization + DPI). The Markov chain $CH^p(X) \to H^{p,p} \cap H^{2p}(\mathbb{Q}) \to \text{Hodge classes}$ has the same structure for all smooth projective $X$; the DPI exclusion is variety-independent.
 
 ---
 
@@ -182,6 +182,6 @@ This is the pattern Casey predicted: the AC theorem graph gets cheaper with each
 
 ---
 
-*Keeper audit status: DRAFT. Structure verified against T600, T52, T104, T570. Cross-references consistent with BST_AC_Theorems.md §184, BST_BSD_AC_Proof.md §4, BST_Hodge_Proof.md §4.3/§5.9, BST_PNP_AC_Proof.md Steps 3-4. Ready for Casey review.*
+*Keeper audit status: DRAFT. Structure verified against T600, T52, T104, T570. Cross-references consistent with BST_AC_Theorems.md Section 184, BST_BSD_AC_Proof.md Section 4, BST_Hodge_Proof.md Section 4.3/Section 5.9, BST_PNP_AC_Proof.md Steps 3-4. Ready for Casey review.*
 
 *Dependencies: T8 (Data Processing Inequality), T52 (Committed Channel Bound), T104 (Amplitude-Frequency Separation), T153 (Planck Condition), T570 (Hodge as Spectral Identity), T600 (DPI Universality).*

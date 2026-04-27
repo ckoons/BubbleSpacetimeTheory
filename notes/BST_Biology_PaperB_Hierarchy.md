@@ -151,7 +151,7 @@ Tissues → Organ structure → Organ systems → Integrated physiology
 - **Boundary**: Regulatory networks define what each organ does
 - **Selection**: Organs that don't function are compensated for — or the organism dies
 
-Mammalian organ systems number **11 = C₂ × rank − 1** (see Complex Assemblies §6 for the full derivation). The spine's segmentation follows BST precisely: 7 cervical (= g), 12 thoracic (= 2C₂), 5 lumbar (= n_C), 5 sacral (= n_C), 4 coccygeal (= 2^rank).
+Mammalian organ systems number **11 = C₂ × rank − 1** (see Complex Assemblies Section 6 for the full derivation). The spine's segmentation follows BST precisely: 7 cervical (= g), 12 thoracic (= 2C₂), 5 lumbar (= n_C), 5 sacral (= n_C), 4 coccygeal (= 2^rank).
 
 ### 4.5 The Organism Layer
 

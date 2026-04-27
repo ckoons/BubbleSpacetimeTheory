@@ -27,7 +27,7 @@ The architecture is intrinsic to the smoothness base and requires no physics. Ev
 
 ---
 
-## §1. The Smooth-Adjacent Prime Problem
+## Section 1. The Smooth-Adjacent Prime Problem
 
 **Definition.** Let $S = \{p_1, \ldots, p_k\}$ be a finite set of primes with $p_1 < p_2 < \cdots < p_k = B$. A positive integer $n$ is *$S$-smooth* if every prime factor of $n$ belongs to $S$. A prime $p$ is *$S$-adjacent at gap $g$* if there exists an $S$-smooth number $n$ with $|p - n| = g$. A prime is *$(S, r)$-reachable* if it is $S$-adjacent at gap $\leq r$.
 
@@ -37,7 +37,7 @@ This paper shows that the reachable set has a rigid five-layer architecture dete
 
 ---
 
-## §2. Layer 0: The Generators
+## Section 2. Layer 0: The Generators
 
 The primes in $S$ are trivially $S$-smooth (each divides itself). They are $S$-adjacent at gap 0.
 
@@ -47,7 +47,7 @@ For $S = \{2, 3, 5, 7\}$: four generators.
 
 ---
 
-## §3. Layer 1: Gap-1 Adjacency
+## Section 3. Layer 1: Gap-1 Adjacency
 
 **Definition.** A prime $p$ is *Layer 1* if $p = n \pm 1$ for some $S$-smooth $n$ with $n \notin S$ (excluding generators already in Layer 0).
 
@@ -61,7 +61,7 @@ For $S = \{2, 3, 5, 7\}$: $2^3 = 8$ sectors contain 2, out of $2^4 - 1 = 15$ tot
 
 ---
 
-## §4. Layer 2: The Rank Mirror
+## Section 4. Layer 2: The Rank Mirror
 
 **Definition.** A prime $p$ is *Layer 2* if $p = n \pm r$ for some $S$-smooth $n$, where $r = p_1 = \min(S)$, and $p$ is not in Layer 0 or Layer 1.
 
@@ -79,7 +79,7 @@ For $S = \{2, 3, 5, 7\}$: $8 + 7 = 15$ sectors. All non-trivial sectors are acti
 
 ---
 
-## §5. Layer 3: Sector Assignment
+## Section 5. Layer 3: Sector Assignment
 
 **Definition.** For an $S$-smooth number $n$ with prime factorization $n = \prod_{p \in S} p^{a_p}$, define $\text{supp}(n) = \{p \in S : a_p > 0\}$. This is the *sector* of $n$.
 
@@ -111,7 +111,7 @@ The sector structure gives each predicted prime an algebraic address: its neares
 
 ---
 
-## §6. Layer 4: Reliability Tiers
+## Section 6. Layer 4: Reliability Tiers
 
 **Proposition 6.1 (Dickman Transition).** The fraction of primes $\leq x$ that are $(S, r)$-reachable transitions from high coverage to low coverage at $x \approx B^3$, where $B = \max(S)$.
 
@@ -128,7 +128,7 @@ At $x = B^3$ ($u = 3$): the smooth number density drops below 5%, making gap-$r$
 
 ---
 
-## §7. The Spectral Zeta
+## Section 7. The Spectral Zeta
 
 **Definition.** The *$S$-spectral zeta function* is the Euler product restricted to $S$:
 
@@ -146,7 +146,7 @@ The smoothness base captures 97% of $\zeta(2) = \pi^2/6$. The missing 3% consist
 
 ---
 
-## §8. The Gap-$B$ Resonance
+## Section 8. The Gap-$B$ Resonance
 
 **Proposition 8.1 (Genus Resonance).** The distribution of minimum gaps from primes to the nearest $S$-smooth number has a local maximum at gap $= B = \max(S)$.
 
@@ -158,7 +158,7 @@ For distances $d$ that are composite and factor into smaller elements of $S$ (e.
 
 ---
 
-## §9. Completeness: Five Structural Layers
+## Section 9. Completeness: Five Structural Layers
 
 **Theorem 9.1.** For any smoothness base $S$ with $2 \in S$, the architecture has five structural layers:
 
@@ -179,7 +179,7 @@ No sixth layer exists because:
 
 ---
 
-## §10. Numerical Verification
+## Section 10. Numerical Verification
 
 We verify the architecture for $S = \{2, 3, 5, 7\}$, $r = 2$, over primes $\leq N = 2000$.
 
@@ -201,11 +201,11 @@ We verify the architecture for $S = \{2, 3, 5, 7\}$, $r = 2$, over primes $\leq 
 
 ---
 
-## §11. Connections and Open Problems
+## Section 11. Connections and Open Problems
 
 **Connection to Størmer's theorem.** Layer 4 (Størmer finiteness) provides the ultimate bound on dual-membership primes. For $S = \{2, 3, 5, 7\}$, exactly 17 dual primes exist. This is a classical result (Størmer 1897) now situated within a five-layer architecture.
 
-**Connection to the abc conjecture.** The abc triples (§7) provide an additive route to primes from smooth numbers, complementing the adjacency route of Layers 1-2. The 57% overlap between abc-generated and adjacency-generated primes suggests partial but not complete equivalence.
+**Connection to the abc conjecture.** The abc triples (Section 7) provide an additive route to primes from smooth numbers, complementing the adjacency route of Layers 1-2. The 57% overlap between abc-generated and adjacency-generated primes suggests partial but not complete equivalence.
 
 **Open Problem 1.** Does the gap-$B$ resonance (Proposition 8.1) persist for all smoothness bases, or is it specific to bases where $B$ is relatively large compared to $p_1$?
 

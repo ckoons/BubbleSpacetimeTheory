@@ -31,7 +31,7 @@ children: "Paper #67 (Physical Uniqueness Closes the Millennium Problems)"
 
 ### Step 1: Sufficiency from RH Paper A
 
-RH Paper A §5 establishes that on Γ\D_IV^5 the following hold:
+RH Paper A Section 5 establishes that on Γ\D_IV^5 the following hold:
 - Algebraic lock (Lemma 5.1): σ + 1 = 3σ ⇒ σ = 1/2.
 - Exponent distinctness (Prop 5.2): off-line zero exponents separate from on-line configurations.
 - Cross-parabolic independence (Prop 7.2): Langlands orthogonality + explicit exponent separation forbids hidden cancellation.
@@ -48,7 +48,7 @@ Let L' be any L-function in the Selberg class (R1-R6) realizing P_RH. By Hamburg
 - Meromorphic continuation with simple pole at s = 1 (R3),
 - Riemann functional equation (R4),
 
-is uniquely determined up to Dirichlet twist. The Selberg class axioms R5-R6 (polynomial growth, Ramanujan bound) force the twist to be trivial on D_IV^5 (no internal U(1) character on a bounded symmetric domain of type IV, rank 2; see T704 §25 conditions).
+is uniquely determined up to Dirichlet twist. The Selberg class axioms R5-R6 (polynomial growth, Ramanujan bound) force the twist to be trivial on D_IV^5 (no internal U(1) character on a bounded symmetric domain of type IV, rank 2; see T704 Section 25 conditions).
 
 Hence L' ≅ ζ in the Selberg category.
 
@@ -78,7 +78,7 @@ The remaining ~2% was never a gap in the proof — it was a gap in the **framing
 
 **(C=2, D=1).** Two counting operations: (i) enumerate Selberg-class representatives, (ii) check iso-equivalence via functional equation + Euler product. One depth layer: Selberg-class closure is self-referential (the class is defined by axioms that each member must satisfy).
 
-This matches the AC(0) Pair Resolution profile of RH (Paper Outline §3.1): enumerate exponents (depth 1) + conjugation pair resolution (depth 1). T1269 composition keeps the depth constant.
+This matches the AC(0) Pair Resolution profile of RH (Paper Outline Section 3.1): enumerate exponents (depth 1) + conjugation pair resolution (depth 1). T1269 composition keeps the depth constant.
 
 ---
 

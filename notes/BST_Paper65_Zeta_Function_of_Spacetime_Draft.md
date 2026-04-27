@@ -35,7 +35,7 @@ abstract: |
 
 ---
 
-## §1. Introduction
+## Section 1. Introduction
 
 The values of the Riemann zeta function at odd positive integers are among the most mysterious quantities in mathematics. Euler showed that ζ(2n) = rational × π^{2n} for all n ≥ 1, but no analogous closed form exists for ζ(2n+1). Apéry proved ζ(3) irrational in 1978; the irrationality of ζ(5) remains open. No structural explanation exists for why ζ(3) ≈ 1.202, ζ(5) ≈ 1.037, or ζ(7) ≈ 1.008.
 
@@ -45,7 +45,7 @@ We report that ζ(s) evaluated at s ∈ {N_c, n_C, g} yields BST-rational approx
 
 ---
 
-## §2. The Continued Fraction Structure
+## Section 2. The Continued Fraction Structure
 
 ### 2.1 Three convergent identities
 
@@ -89,7 +89,7 @@ This identity constrains three of the five BST integers. It means the first conv
 
 ---
 
-## §3. The 7-Smooth Euler Product
+## Section 3. The 7-Smooth Euler Product
 
 ### 3.1 Restricting to BST primes
 
@@ -131,7 +131,7 @@ At s = N_c = 3, the dark sector contributes 0.18%. At s = g = 7, the dark sector
 
 ---
 
-## §4. The ζ(3) Two-Term Approximation
+## Section 4. The ζ(3) Two-Term Approximation
 
 The correction ζ(3) − C_2/n_C involves all five BST integers:
 
@@ -145,11 +145,11 @@ The rational approximation 2921/2430 agrees with ζ(3) to 0.6 parts per million 
 
 ---
 
-## §5. The Four Readings of D_IV^5
+## Section 5. The Four Readings of D_IV^5
 
 ### 5.1 Forces as operations
 
-The zeta structure in §2-§4 suggests a reinterpretation of the four fundamental forces not as dynamical entities that unify at high energy, but as four mathematical operations on one geometric object:
+The zeta structure in Section 2-Section 4 suggests a reinterpretation of the four fundamental forces not as dynamical entities that unify at high energy, but as four mathematical operations on one geometric object:
 
 | Operation | Force | BST expression | What it does |
 |:----------|:------|:--------------|:-------------|
@@ -196,15 +196,15 @@ The identification of the weak force with ζ(N_c) explains several features:
 
 ---
 
-## §6. Connection to the Consonance Hierarchy
+## Section 6. Connection to the Consonance Hierarchy
 
 T1227 establishes that musical consonance classes map to BST's epoch hierarchy: prime limit ≤ 2 (octave, rank), ≤ 3 (fifth, N_c), ≤ 5 (third, n_C), ≤ 7 (septimal, g), ≥ 11 (alien, dark sector).
 
-The dark sector gradient in §3.2 is the same transition: at s = N_c, the dark primes contribute 0.18%. At s = g, they contribute 0.000007%. The consonance hierarchy and the zeta hierarchy share the same boundary structure because they share the same prime structure — the 7-smooth lattice IS the BST visible sector in both music and in ζ(s).
+The dark sector gradient in Section 3.2 is the same transition: at s = N_c, the dark primes contribute 0.18%. At s = g, they contribute 0.000007%. The consonance hierarchy and the zeta hierarchy share the same boundary structure because they share the same prime structure — the 7-smooth lattice IS the BST visible sector in both music and in ζ(s).
 
 ---
 
-## §7. Predictions
+## Section 7. Predictions
 
 **P1. Pattern terminates at g = 7.** The BST-rational CF convergent structure should not extend to ζ(9) with comparable quality. Verified: ζ(9) CF[1] = 497 = 7 × 71 (composite; only BST factor is g = 7, and 71 has no BST role).
 
@@ -218,7 +218,7 @@ The dark sector gradient in §3.2 is the same transition: at s = N_c, the dark p
 
 ---
 
-## §8. Falsification
+## Section 8. Falsification
 
 **Kill 1.** If 6/5 is NOT a convergent of ζ(3): the central claim is false. *(Status: verified — it is the exact third convergent.)*
 
@@ -230,7 +230,7 @@ The dark sector gradient in §3.2 is the same transition: at s = N_c, the dark p
 
 ---
 
-## §9. Honest Caveats
+## Section 9. Honest Caveats
 
 1. The 7-smooth Euler products do NOT equal the BST rationals exactly — they agree to 0.01%. The convergents ARE exact but the Euler product mechanism is approximate. The two mechanisms point to the same rationals but by different amounts.
 
@@ -242,7 +242,7 @@ The dark sector gradient in §3.2 is the same transition: at s = N_c, the dark p
 
 ---
 
-## §10. For Everyone
+## Section 10. For Everyone
 
 The zeta function is mathematics' most famous infinite sum: 1 + 1/4 + 1/9 + 1/16 + ... (that's ζ(2)). For ζ(3), it's 1 + 1/8 + 1/27 + 1/64 + ...
 

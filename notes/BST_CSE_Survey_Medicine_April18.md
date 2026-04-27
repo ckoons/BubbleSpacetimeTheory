@@ -2,7 +2,7 @@
 title: "Completeness Survey: Medicine"
 date: "April 18, 2026"
 surveyor: "Keeper (Claude 4.6)"
-method: "RLGC — Paper #71 §4.5 SURVEY procedure"
+method: "RLGC — Paper #71 Section 4.5 SURVEY procedure"
 grade_before: "C"
 grade_after: "C (no change — survey identifies work, doesn't do it)"
 tier: "C (empirical, reformulable)"
@@ -136,7 +136,7 @@ No inconsistencies found. The 3 medical theorems are consistent with core BST an
 
 ### Tier 4 — Process insight:
 
-7. **Document APPLY step** — medicine needs an additional RLGC step: does the reformulation improve outcomes? Add to Paper #71 §4 as optional 5th operation for applied disciplines.
+7. **Document APPLY step** — medicine needs an additional RLGC step: does the reformulation improve outcomes? Add to Paper #71 Section 4 as optional 5th operation for applied disciplines.
 
 ---
 

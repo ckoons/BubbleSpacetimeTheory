@@ -74,7 +74,7 @@ def awareness_fourier_analysis():
     alpha = 1.0 / 137  # fine structure constant
     N_max = 137
 
-    # The gap function Δ_n (from §45.3)
+    # The gap function Δ_n (from Section 45.3)
     # Using the harmonic model: G(n) = f_max * (1 - 24/((n+2)(n+3)(n+4)))
     # Δ_n = η_n * (f_max - G(n))
     def goedel_gap(n):

@@ -317,7 +317,7 @@ $$\ln 2 \leq \text{complexity} \leq f \times \ln N_{\max}$$
 
 One bit to exist. One-fifth to know.
 
-These are not independent bounds — they are the same error correction budget seen from opposite ends. The $\sim 81\%$ dark sector is the redundancy overhead required by Shannon for reliable transmission through a channel with noise floor $C_2 = 6$. The irreducible unit of that overhead is $\ln 2$ — one binary parity decision. See `BST_IrreducibleComplexity_Ln2.md` §7.
+These are not independent bounds — they are the same error correction budget seen from opposite ends. The $\sim 81\%$ dark sector is the redundancy overhead required by Shannon for reliable transmission through a channel with noise floor $C_2 = 6$. The irreducible unit of that overhead is $\ln 2$ — one binary parity decision. See `BST_IrreducibleComplexity_Ln2.md` Section 7.
 
 -----
 

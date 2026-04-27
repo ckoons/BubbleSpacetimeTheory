@@ -20,7 +20,7 @@ children: "Paper #67"
 **Theorem (T1271).**
 *Let P_YM := {Wightman axioms W1-W5, spectral gap m_gap = 6π^5 m_e ≈ 938.272 MeV, Poincaré covariance, asymptotic completeness}. Let X = (D_IV^5 QFT, Bergman kernel, B_2 Plancherel measure). Then:*
 
-1. **(S) Sufficiency.** *X realizes P_YM: all five Wightman axioms derived (BST_YangMills_Question1), mass gap equals 6π^5 m_e via T1267 §ζ_Δ poles.*
+1. **(S) Sufficiency.** *X realizes P_YM: all five Wightman axioms derived (BST_YangMills_Question1), mass gap equals 6π^5 m_e via T1267 Section ζ_Δ poles.*
 2. **(I) Isomorphism closure.** *Any QFT on ℝ^4 satisfying W1-W5 with mass gap 6π^5 m_e is isomorphic to the D_IV^5 QFT via modular localization (Bisognano-Wichmann + Borel neat descent).*
 
 *Therefore X is physically unique for P_YM (T1269). The mass gap is an iso-invariant of the QFT class.*
@@ -38,7 +38,7 @@ All five Wightman axioms are derived on D_IV^5:
 - W4 (local commutativity): modular localization via Bisognano-Wichmann.
 - W5 (cyclicity of vacuum): Bergman kernel has cyclic generating vector.
 
-Mass gap: smallest pole of ζ_Δ on the spectral side is at s = 1, corresponding to m_gap = 6π^5 m_e (T1267 §Sufficiency).
+Mass gap: smallest pole of ζ_Δ on the spectral side is at s = 1, corresponding to m_gap = 6π^5 m_e (T1267 Section Sufficiency).
 
 Sufficiency holds.
 
@@ -78,7 +78,7 @@ T1271 shows the iso is forced: any ℝ^4 QFT with the right Wightman data and ma
 
 **(C=2, D=1).** Two counting operations: (i) verify W1-W5 pointwise, (ii) check modular algebra iso. One depth layer: modular localization is self-referential (modular operator ≡ KMS state of vacuum).
 
-Matches Paper Outline §3.2: enumerate Wightman axioms (depth 1) + Bergman-Plancherel pair resolution (depth 1).
+Matches Paper Outline Section 3.2: enumerate Wightman axioms (depth 1) + Bergman-Plancherel pair resolution (depth 1).
 
 ---
 

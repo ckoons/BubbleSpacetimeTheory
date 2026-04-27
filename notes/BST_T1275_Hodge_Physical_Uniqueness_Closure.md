@@ -84,7 +84,7 @@ The residual question — do **all** smooth projective varieties admit a Kuga-Sa
 
 **(C=2, D=1).** Two counting: enumerate A_q(0) modules + check theta surjectivity. One depth: Howe duality is self-dual (input and output representations pair via the metaplectic group).
 
-Matches Paper Outline §3.6: enumerate modules (depth 1) + theta-lift pair resolution (depth 1).
+Matches Paper Outline Section 3.6: enumerate modules (depth 1) + theta-lift pair resolution (depth 1).
 
 ---
 

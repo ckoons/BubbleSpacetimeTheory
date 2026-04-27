@@ -131,7 +131,7 @@ Properties:
 2. **A complexity cliff at $g^3 = 343$** (Dickman)
 3. **Maximum 19.1% efficiency** (Gödel)
 4. **Five-layer output hierarchy** (spectral distance from BST lattice)
-5. **Irreversibility** — evolution's arrow is the Gödel Ratchet (BST_Interstasis_Hypothesis, §I1)
+5. **Irreversibility** — evolution's arrow is the Gödel Ratchet (BST_Interstasis_Hypothesis, Section I1)
 
 These are not analogies. They are CONSEQUENCES of the same five integers governing every domain.
 

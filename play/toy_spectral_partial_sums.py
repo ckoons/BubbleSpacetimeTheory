@@ -32,7 +32,7 @@ print("=" * 72)
 # Section 1: The partial sums
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§1. PARTIAL SUMS S(K) = Σ d_k (k=0 to K)")
+print("\nSection 1. PARTIAL SUMS S(K) = Σ d_k (k=0 to K)")
 print("-" * 50)
 
 def d_k(k):
@@ -109,7 +109,7 @@ for K in range(20):
 # Section 2: Closed form for S(K)
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§2. CLOSED FORM FOR S(K)")
+print("\n\nSection 2. CLOSED FORM FOR S(K)")
 print("-" * 50)
 
 # d_k = C(k+4,4) × (2k+5)/5
@@ -171,7 +171,7 @@ for K in range(12):
 # Section 3: The closed form in BST terms
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§3. BST INTERPRETATION OF THE CLOSED FORM")
+print("\n\nSection 3. BST INTERPRETATION OF THE CLOSED FORM")
 print("-" * 50)
 
 print("""
@@ -203,7 +203,7 @@ for K in range(8):
 # Section 4: Simplification
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§4. SIMPLIFIED FORM")
+print("\n\nSection 4. SIMPLIFIED FORM")
 print("-" * 50)
 
 # 2·C(K+6,6) - C(K+5,5)
@@ -241,7 +241,7 @@ for K in range(12):
 # Section 5: The master formula
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§5. THE MASTER FORMULA")
+print("\n\nSection 5. THE MASTER FORMULA")
 print("=" * 50)
 
 print("""
@@ -282,7 +282,7 @@ print(f"      = n_C! × N_c = 120 × 3 = 360")
 # Section 6: The (K+3)² factor
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§6. THE SQUARED FACTOR")
+print("\n\nSection 6. THE SQUARED FACTOR")
 print("-" * 50)
 
 print("""
@@ -305,7 +305,7 @@ print("""
 # Section 7: S(K) at BST special values
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§7. S(K) AT BST INTEGER VALUES OF K")
+print("\nSection 7. S(K) AT BST INTEGER VALUES OF K")
 print("-" * 50)
 
 bst_K_values = [
@@ -333,7 +333,7 @@ for K, label in bst_K_values:
 # Section 8: Alternating sums
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§8. ALTERNATING SUMS")
+print("\n\nSection 8. ALTERNATING SUMS")
 print("-" * 50)
 
 print(f"\n  A(K) = Σ (-1)^k d_k (k=0 to K):")
@@ -353,7 +353,7 @@ print(f"  The full alternating sum vanishes: Σ (-1)^k d_k = 0")
 # Section 9: The ratio S(K)/C(K+5,5)
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§9. THE RATIO S(K)/C(K+n_C, n_C)")
+print("\n\nSection 9. THE RATIO S(K)/C(K+n_C, n_C)")
 print("-" * 50)
 
 print(f"\n  S(K)/C(K+5,5) = (K+3)/3 = (K+N_c)/N_c:")
@@ -368,7 +368,7 @@ print(f"  and intercept 1 (when K=0)")
 # Section 10: Universal partial sum formula
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§10. UNIVERSAL PARTIAL SUM FOR Q^n")
+print("\n\nSection 10. UNIVERSAL PARTIAL SUM FOR Q^n")
 print("-" * 50)
 
 # For general Q^n with n_C = n, N_c = (n+1)/2:
@@ -412,7 +412,7 @@ print(f"""
 # Section 11: The density of states
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n§11. DENSITY OF STATES")
+print("\nSection 11. DENSITY OF STATES")
 print("-" * 50)
 
 # S(K) ~ K^{n+1}/n! × K/N_c = K^{n+2}/(n!·N_c) for large K
@@ -435,7 +435,7 @@ print(f"  Since 360 = C₂!/r = 720/2")
 # Section 12: S(K) mod primes
 # ═══════════════════════════════════════════════════════════════════
 
-print("\n\n§12. S(K) MODULO BST PRIMES")
+print("\n\nSection 12. S(K) MODULO BST PRIMES")
 print("-" * 50)
 
 for p in [3, 5, 7, 11, 13]:
@@ -459,7 +459,7 @@ for p in [3, 5, 7, 11, 13]:
 # ═══════════════════════════════════════════════════════════════════
 
 print("\n\n" + "═" * 72)
-print("§13. SYNTHESIS")
+print("Section 13. SYNTHESIS")
 print("═" * 72)
 
 print("""

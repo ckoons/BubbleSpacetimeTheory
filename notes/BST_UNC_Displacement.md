@@ -12,7 +12,7 @@ tags: ["dark-matter", "UNC", "NGC-1052", "ultra-diffuse-galaxies", "MOND", "tida
 
 ---
 
-## §1. The Observation
+## Section 1. The Observation
 
 Ultra-diffuse galaxies (UDGs) in the NGC 1052 group — notably NGC 1052-DF2 (van Dokkum et al. 2018) and NGC 1052-DF4 (van Dokkum et al. 2019) — appear to contain little or no dark matter. Their velocity dispersions are consistent with baryonic mass alone.
 
@@ -22,7 +22,7 @@ The standard explanation is a high-velocity collision between two gas-rich proge
 
 ---
 
-## §2. BST Background
+## Section 2. BST Background
 
 ### 2.1 Dark Matter in BST
 
@@ -34,7 +34,7 @@ The MOND acceleration scale a₀ = cH₀/√30 emerges from the channel noise fl
 
 ### 2.2 Existing BST Prediction for DF2/DF4
 
-The existing BST prediction (BST_MOND_Derivation.md §8.2) invokes external channel dominance: NGC 1052's gravitational signal drowns out the local noise, suppressing the dark matter effect at DF2/DF4. This is analogous to MOND's External Field Effect (EFE).
+The existing BST prediction (BST_MOND_Derivation.md Section 8.2) invokes external channel dominance: NGC 1052's gravitational signal drowns out the local noise, suppressing the dark matter effect at DF2/DF4. This is analogous to MOND's External Field Effect (EFE).
 
 **Problem:** External channel dominance predicts a roughly **spherical** zone of suppressed dark matter around NGC 1052. It does not naturally explain the **linear** arrangement of dark-matter-free galaxies.
 
@@ -49,7 +49,7 @@ Galaxies that formed in the UNC-depleted corridor lack dark matter because the s
 
 ---
 
-## §3. The Physics of UNC Displacement
+## Section 3. The Physics of UNC Displacement
 
 ### 3.1 Commitment Zone
 
@@ -89,11 +89,11 @@ This dramatically strengthens the model:
 - **Redistributed UNCs also persist.** The corridor depletion is observable NOW, not just as a fossil signature in the UDGs.
 - **The galaxies formed in a persistently depleted corridor.** UDGs have M_★ ~ 10⁸ M_☉, well below the MOND transition. They live in the Newtonian regime where dark matter effects are already small. The permanent corridor depletion reinforces their dark-matter-free status.
 
-**Key prediction:** The UNC-depleted corridor is still depleted today. Both the corridor itself AND the galaxies within it should show suppressed dark matter signatures. This is testable via weak lensing along the trail axis (§4.3).
+**Key prediction:** The UNC-depleted corridor is still depleted today. Both the corridor itself AND the galaxies within it should show suppressed dark matter signatures. This is testable via weak lensing along the trail axis (Section 4.3).
 
 ---
 
-## §4. What We Can Test on NGC 1052
+## Section 4. What We Can Test on NGC 1052
 
 Casey's question: "Can we see/test something about NGC 1052 to indicate it has surplus UNCs or has a UNC tail?"
 
@@ -116,7 +116,7 @@ If NGC 1052 accumulated UNCs during transit, the dark mass distribution should b
 
 ### 4.3 UNC Tail (Casey's Suggestion)
 
-A "tail" of excess UNCs trailing NGC 1052 — like a gravitational wake in the substrate. With τ_relax ~ 56 Gyr (§3.3):
+A "tail" of excess UNCs trailing NGC 1052 — like a gravitational wake in the substrate. With τ_relax ~ 56 Gyr (Section 3.3):
 
 - The UNC-depleted corridor is **still present**. The wake has NOT healed. This is directly testable.
 - NGC 1052's committed dark halo (mechanism a) should be elongated along the transit direction with ~10× the expected dark mass for its stellar mass (Toy 440: M_halo/M_expected ~ 10).
@@ -135,7 +135,7 @@ The most BST-specific prediction: dark matter fraction should vary **systematica
 
 ---
 
-## §5. Discriminating Tests: BST vs Tidal Dwarfs vs MOND EFE
+## Section 5. Discriminating Tests: BST vs Tidal Dwarfs vs MOND EFE
 
 | Prediction | BST UNC Displacement | Tidal Dwarfs | MOND EFE |
 |-----------|---------------------|-------------|----------|
@@ -151,7 +151,7 @@ BST makes 4 predictions that the other models don't. Three are testable with exi
 
 ---
 
-## §6. Estimating the Transiting Object
+## Section 6. Estimating the Transiting Object
 
 From the trail geometry (L ~ 350 kpc, width ~ 120 kpc) and the UNC displacement model:
 
@@ -177,7 +177,7 @@ At v ~ 340 km/s and L ~ 350 kpc, transit took ~1 Gyr. The trail UDGs should have
 
 ---
 
-## §7. The BST Parallel
+## Section 7. The BST Parallel
 
 The UNC displacement model exhibits the same BST motif seen everywhere:
 
@@ -194,7 +194,7 @@ The dark mass deficit in the trail equals the dark mass surplus in NGC 1052. Con
 
 ---
 
-## §8. Toy Assignment (Elie)
+## Section 8. Toy Assignment (Elie)
 
 **Toy 440: NGC 1052 UNC Displacement Model**
 
@@ -230,7 +230,7 @@ Test the UNC displacement model quantitatively:
 
 ---
 
-## §9. Open Questions (for Lyra and Elie)
+## Section 9. Open Questions (for Lyra and Elie)
 
 1. **Commitment vs redistribution**: What fraction of UNCs get committed (permanent) vs redistributed (temporary)? This controls whether NGC 1052 retains surplus dark mass.
 
@@ -238,7 +238,7 @@ Test the UNC displacement model quantitatively:
 
 3. **Multiple trails**: If UNC displacement is a general phenomenon, other galaxy groups should show similar trails. The Fornax cluster, Virgo cluster, and Coma cluster all have UDGs. Are any aligned with massive members' trajectories?
 
-4. **MOND EFE overlap**: The external channel dominance prediction (existing) and UNC displacement (new) are not mutually exclusive. Both effects could operate simultaneously. Can we separate them? The gradient test (§4.4) is the key discriminant.
+4. **MOND EFE overlap**: The external channel dominance prediction (existing) and UNC displacement (new) are not mutually exclusive. Both effects could operate simultaneously. Can we separate them? The gradient test (Section 4.4) is the key discriminant.
 
 5. **Commitment timescale**: How quickly does a transiting mass commit UNCs? If commitment requires sustained gravitational interaction (dwell time > some τ_commit), the corridor edges would be less depleted. This would create a smooth gradient rather than a sharp edge.
 
@@ -246,16 +246,16 @@ Test the UNC displacement model quantitatively:
 
 ---
 
-## §10. Connection to Existing BST Work
+## Section 10. Connection to Existing BST Work
 
-- **BST_MOND_Derivation.md §8.2**: Existing NGC 1052-DF2/DF4 prediction (external channel dominance). This paper proposes the complementary UNC displacement mechanism.
+- **BST_MOND_Derivation.md Section 8.2**: Existing NGC 1052-DF2/DF4 prediction (external channel dominance). This paper proposes the complementary UNC displacement mechanism.
 - **BST_DarkMatterHalos.md**: Dark matter as structural consequence of commitment. This paper extends to dynamic displacement.
-- **WorkingPaper §12.7-12.8**: UNC framework. This paper applies it to a specific observational case.
+- **WorkingPaper Section 12.7-12.8**: UNC framework. This paper applies it to a specific observational case.
 - **Experimental Prediction E4**: "Galaxy dark fraction correlates with environment." UNC displacement is the mechanism.
 
 ---
 
-*Lyra review: CONDITIONAL → **PASS** (numerical fixes applied March 26: M_halo ~ 3×10¹² M_☉, τ_relax = 56 Gyr). Exponent error in §3.1/§6.1 corrected by Keeper (6×10⁴¹ → 6×10⁴², matching Toy 440's M_eff = 100 × M_star). Toy 440 results folded in (7/8). Publication-quality result.*
+*Lyra review: CONDITIONAL → **PASS** (numerical fixes applied March 26: M_halo ~ 3×10¹² M_☉, τ_relax = 56 Gyr). Exponent error in Section 3.1/Section 6.1 corrected by Keeper (6×10⁴¹ → 6×10⁴², matching Toy 440's M_eff = 100 × M_star). Toy 440 results folded in (7/8). Publication-quality result.*
 
 *"It's just a large object that passed through the neighborhood and displaced the UNCs." — Casey Koons, March 26, 2026*
 *"The dark mass deficit in the trail equals the dark mass surplus in NGC 1052." — Keeper, March 26, 2026*

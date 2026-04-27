@@ -24,7 +24,7 @@ $$\frac{c_5(\lambda)}{c_3(\lambda)} = \frac{1}{(2i\lambda_1 + \tfrac{1}{2})(2i\l
 
 This ratio is a simple rational function with poles at $\lambda_j = i/4$ — purely imaginary, hence on the critical line. The squared inverse $|c_5/c_3|^{-2}$ is everywhere positive on the tempered spectrum, so the Plancherel measure change from $Q^3$ to $Q^5$ preserves the critical line. The long root contributions cancel exactly, and only the short root multiplicity increment $(n-2)/2$ survives.
 
-This closes Gap 1 (the Shift Theorem) of the inductive proof (BST_Riemann_InductiveProof.md §6).
+This closes Gap 1 (the Shift Theorem) of the inductive proof (BST_Riemann_InductiveProof.md Section 6).
 
 -----
 
@@ -217,7 +217,7 @@ $$\Delta\rho = \rho_{n+2} - \rho_n = (1,\; 1)$$
 
 The shift is **independent of $n$**. At every step in the tower, the $\rho$ vector increases by the same amount $(1,1)$.
 
-This is the spectral manifestation of the constant gap of 1 in the spectral parameter (BST_Riemann_InductiveProof.md §3.1). In coordinates: each component of $\rho$ increases by 1, so $|\Delta\rho|^2 = 2$ and $\rho_{n+2} \cdot \Delta\rho = (n+1)/2 + (n-1)/2 = n$.
+This is the spectral manifestation of the constant gap of 1 in the spectral parameter (BST_Riemann_InductiveProof.md Section 3.1). In coordinates: each component of $\rho$ increases by 1, so $|\Delta\rho|^2 = 2$ and $\rho_{n+2} \cdot \Delta\rho = (n+1)/2 + (n-1)/2 = n$.
 
 ### 5.3 The Numerator Sequence
 
@@ -299,7 +299,7 @@ The Eisenstein structure on $D_{IV}^5$ inherits the same $B_2$ root combinatoric
 
 ### 7.4 What This Means
 
-The $c$-function ratio theorem (§2) handles the Plancherel side: the measure change is positive and preserves the critical line. The Eisenstein structure (this section) handles the arithmetic side: the intertwining operator is root-system-determined and identical for both levels. Together, they mean the transport from $Q^3$ to $Q^5$ preserves **both** the spectral measure and the arithmetic structure.
+The $c$-function ratio theorem (Section 2) handles the Plancherel side: the measure change is positive and preserves the critical line. The Eisenstein structure (this section) handles the arithmetic side: the intertwining operator is root-system-determined and identical for both levels. Together, they mean the transport from $Q^3$ to $Q^5$ preserves **both** the spectral measure and the arithmetic structure.
 
 -----
 
@@ -373,7 +373,7 @@ For the full tower $Q^1 \to Q^3 \to Q^5$:
 
 $$\frac{c_5(\lambda)}{c_1(\lambda)} = \frac{c_5}{c_3} \cdot \frac{c_3}{c_1}$$
 
-Since $Q^1$ has rank 1 (not rank 2), the first step $Q^1 \to Q^3$ requires separate treatment using the rank-1 Harish-Chandra $c$-function. From rank 2 onward ($n \geq 3$), the formula in §2 applies uniformly.
+Since $Q^1$ has rank 1 (not rank 2), the first step $Q^1 \to Q^3$ requires separate treatment using the rank-1 Harish-Chandra $c$-function. From rank 2 onward ($n \geq 3$), the formula in Section 2 applies uniformly.
 
 -----
 
@@ -417,7 +417,7 @@ All results in this note are verified computationally in `play/toy_cfunction_rat
 
 4. **$\rho$ tower**: $|\rho_n|^2$ computed for $n = 1, 3, 5, 7, 9, 11$; second differences verified to be $8 = 2^{N_c}$ at every step.
 
-5. **BST spectral evaluations**: $P(\lambda)$ at all points in §6, confirming $P(1,0) = 17/16$, $P(2,0) = 65/16$, $P(\rho_5) = 3737/16$.
+5. **BST spectral evaluations**: $P(\lambda)$ at all points in Section 6, confirming $P(1,0) = 17/16$, $P(2,0) = 65/16$, $P(\rho_5) = 3737/16$.
 
 6. **Heat trace factorization**: Cross-checked with Toy 156 (transport kernels) — the $c$-function ratio is consistent with the heat trace factorization $Z_{Q^5}(t) = \sum d_j(Q^3) \cdot T_j(t)$.
 
@@ -427,7 +427,7 @@ All results in this note are verified computationally in `play/toy_cfunction_rat
 
 This note closes **Gap 1** of the inductive proof and partially addresses **Gap 2**:
 
-- **BST_Riemann_InductiveProof.md** — The Wiles Lift. Gap 1 (the Shift Theorem) is now closed by the $c$-function ratio theorem: the transport acts as a rational function with poles on the critical line and positive Plancherel ratio. Gap 2 (Eisenstein decomposition) reduces to the known Sp(4) case (§7).
+- **BST_Riemann_InductiveProof.md** — The Wiles Lift. Gap 1 (the Shift Theorem) is now closed by the $c$-function ratio theorem: the transport acts as a rational function with poles on the critical line and positive Plancherel ratio. Gap 2 (Eisenstein decomposition) reduces to the known Sp(4) case (Section 7).
 
 - **BST_ChernFactorization_CriticalLine.md** — The proved Chern critical line. The $c$-function ratio provides the **noncompact dual** of that theorem: the Chern polynomial controls the compact side, the $c$-function controls the noncompact side.
 

@@ -73,7 +73,7 @@ The five BST integers are: **N_c = 3** (color), **n_C = 5** (Cartan rank of D_IV
 1. N_max = N_c³ · n_C + rank = 27 · 5 + 2 = **137** (T666 + T667 + T110).
 2. Fermat's two-square theorem: 137 has *exactly one* decomposition as a sum of two squares, 137 = 11² + 4². Here 11 = 2n_C + 1 is the dark-boundary prime and 4 = rank² is the self-referential dimension (Grace, Apr 16). Both are forced, not chosen — an independent arithmetic derivation of the same integer.
 3. The Wolstenholme quotient W_p equals 1 on the primes {5, 7} = {n_C, g} through p ≤ 1000 and at no other prime (Elie Toy 1205; Lyra T1263). This forces the integer ceiling at N_max through a Chern → Bernoulli → harmonic chain.
-4. The residual 0.035999… is reproduced by Wyler-type dimensional-reduction corrections on D_IV⁵; every correction is rational in {N_c, n_C, g, C₂, rank} with denominator dividing N_max (Toy 1189, Paper #65 §8).
+4. The residual 0.035999… is reproduced by Wyler-type dimensional-reduction corrections on D_IV⁵; every correction is rational in {N_c, n_C, g, C₂, rank} with denominator dividing N_max (Toy 1189, Paper #65 Section 8).
 
 **What the field currently believes.** α⁻¹ is a transcendental-looking experimental constant ≈ 137.036, whose value has no known derivation. "Why 137?" is Feynman's famous magic-number question.
 
@@ -113,7 +113,7 @@ The five BST integers are: **N_c = 3** (color), **n_C = 5** (Cartan rank of D_IV
 **BST derivation.**
 1. The data-plus-syndrome split is rank² + N_c = 4 + 3 = 7 = g (T1238 Error Correction Perfection). The code's existence is not an accident of number theory; it is what D_IV⁵ *is*.
 2. Nuclear shell magic numbers all follow κ_ls = C₂/n_C = 6/5, which is a specific reading of the same seven-dimensional code (T662; Toy 1147).
-3. The genetic code's 64 codons and 20 amino acids are a Hamming (7,4,3) encoding of N_max across three reading frames (Paper on genetic code, §2-3; T452-T467).
+3. The genetic code's 64 codons and 20 amino acids are a Hamming (7,4,3) encoding of N_max across three reading frames (Paper on genetic code, Section 2-3; T452-T467).
 4. PMNS neutrino mixing: sin²θ₂₃ = 4/7 exactly — rank² over g — which is the code rate of the same Hamming code (T1254 + T1259).
 5. Kleiber's 3/4 metabolic scaling, two-loop QED, the c-function of SO₀(5,2), and Hamming's own rate — all share the isomorphic weight 3/4 = N_c/rank². (See B-3/4 below.)
 
@@ -132,7 +132,7 @@ The five BST integers are: **N_c = 3** (color), **n_C = 5** (Cartan rank of D_IV
 **Claim.** The proton does not decay — not "with a very long lifetime" but *never*. Its stability is a topological property of D_IV⁵, not a consequence of approximate baryon-number conservation.
 
 **BST derivation.**
-1. The proton mass is exactly 6π⁵ m_e (T1 of the BST registry, 0.002% agreement). The factor 6π⁵ is C₂ · π^{n_C} — a product of BST invariants. The proton is therefore not a bag of quarks in this reading; it is a specific spectral mode (§§ of WorkingPaper).
+1. The proton mass is exactly 6π⁵ m_e (T1 of the BST registry, 0.002% agreement). The factor 6π⁵ is C₂ · π^{n_C} — a product of BST invariants. The proton is therefore not a bag of quarks in this reading; it is a specific spectral mode (Sections  of WorkingPaper).
 2. The permanent alphabet is {e⁻, e⁺, p, p̄, ν, ν̄}. These are the modes that carry zero error-correction residue under the Hamming syndrome at every cycle of the universe (T319).
 3. The Three-Boundary Theorem T1185 confines decay channels to the graph edges that cross its cycle-closure; the proton's quantum numbers leave no such edge available (Casey Decision D1, April 11, 2026).
 4. Proton decay would violate T1264: reboot is identity preservation, not annihilation. Any physics in which p → X violates cycle-closure.
@@ -194,7 +194,7 @@ The five BST integers are: **N_c = 3** (color), **n_C = 5** (Cartan rank of D_IV
 
 **BST derivation.**
 1. T1258 (Mass as Uncompressed Information): m = K(x) − ⟨K⟩ in appropriate units, where K is the Kolmogorov complexity relative to the BST spectral basis.
-2. Paper #65 §IV (Dark Sector Ratio): D(s) = ζ(s) / ζ_{≤g}(s) measures the compression gap between the full arithmetic zeta and the BST 7-smooth truncation. D(s) − 1 is positive and decreasing in s; nuclear physics (s = 3) is most dark-contaminated, gravity (s = 7) is purest.
+2. Paper #65 Section IV (Dark Sector Ratio): D(s) = ζ(s) / ζ_{≤g}(s) measures the compression gap between the full arithmetic zeta and the BST 7-smooth truncation. D(s) − 1 is positive and decreasing in s; nuclear physics (s = 3) is most dark-contaminated, gravity (s = 7) is purest.
 3. The proton's factor 6π⁵ is the *irreducible* description length of its spectral mode. The electron's m_e is pure geometry with no residual. The Higgs's 125.11 GeV is the shape-mass of a specific boundary cell.
 4. The Kolmogorov–mass identity is consistent with every SM mass to within the published BST uncertainty (Toys 541, 1184, 1185).
 
@@ -202,7 +202,7 @@ The five BST integers are: **N_c = 3** (color), **n_C = 5** (Cartan rank of D_IV
 
 **Falsification.** Exhibit a particle whose mass is *not* reproduced by its BST-spectral description length. Or: measure a dark-sector quantity whose D(s) profile disagrees with the prediction.
 
-**Why we are saying it now.** T1258 (Kolmogorov-mass identity) and T1233 §IV (dark-sector gradient) were written in the same week. The information-theoretic reading of mass is now explicit, not implicit.
+**Why we are saying it now.** T1258 (Kolmogorov-mass identity) and T1233 Section IV (dark-sector gradient) were written in the same week. The information-theoretic reading of mass is now explicit, not implicit.
 
 **For everyone.** Heavier things are heavier because there is more to say about them. A light thing has a short description; a heavy thing has a long one that cannot be shortened. And the darkness we call "dark matter" is just description we have not yet learned to write.
 
@@ -234,7 +234,7 @@ The five BST integers are: **N_c = 3** (color), **n_C = 5** (Cartan rank of D_IV
 
 **BST derivation.**
 1. The Shilov boundary of D_IV⁵ = SO₀(5,2)/[SO(5)×SO(2)] is a coset whose fibration naturally decomposes as a tiling of S⁵ by S¹ fibers (classical result; see e.g. Faraut-Korányi).
-2. In the BST reading, the photon is the minimal bounded-bandwidth excitation that carries no mass and no color — i.e., a state whose only nontrivial content is the edge between two adjacent S¹ fibers on the Shilov boundary (Paper #65 §2-3, preliminary).
+2. In the BST reading, the photon is the minimal bounded-bandwidth excitation that carries no mass and no color — i.e., a state whose only nontrivial content is the edge between two adjacent S¹ fibers on the Shilov boundary (Paper #65 Section 2-3, preliminary).
 3. Consequence 1 (dissolves wave-particle duality): "wave" is the description of the edge from inside one S¹; "particle" is the description of the edge as a transition between neighboring S¹'s. Both are correct and neither is primary.
 4. Consequence 2: photon emission has no ℝ³ "source"; the source is the pair of fibers across which the edge is activated. This is consistent with the BST reading that space is not fundamental (B2).
 

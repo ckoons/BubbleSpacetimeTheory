@@ -52,8 +52,8 @@ BST's Code Machine theorem (BST_CodeMachine_Inevitability.md) shows that $Q^5$ f
 |:------|:-----|:-----------|:---------|
 | Nuclear | Steane | $[[7, 1, 3]]$ | $d = N_c = 3$ |
 | Molecular | Genetic code | $[64, 20, \geq 3]$ | $d \geq 3$ (wobble) |
-| Cellular | Checkpoint cascade | $[p, k, d_{\text{cell}}]$ | See §3 |
-| Tissue | Cooperative maintenance | $[n_{\text{tissue}}, k_{\text{tissue}}, d_{\text{tissue}}]$ | See §4 |
+| Cellular | Checkpoint cascade | $[p, k, d_{\text{cell}}]$ | See Section 3 |
+| Tissue | Cooperative maintenance | $[n_{\text{tissue}}, k_{\text{tissue}}, d_{\text{tissue}}]$ | See Section 4 |
 
 Each layer inherits the code structure from the layer below and adds its own error correction. The Lloyd theorem guarantees that perfect codes at each layer are not optional — they are forced by the geometry.
 
@@ -161,7 +161,7 @@ Biological signaling systems have multiple protocol layers, analogous to the OSI
 
 This explains why some cancer-initiating events are subtle modifications rather than gross damage. A modification that destroys the protocol structure of a signaling molecule is caught and corrected. A modification that preserves the protocol structure while corrupting the encoded instruction passes all checks and executes with full authority.
 
-It also explains the observation that cancer initiation often requires multiple hits (§3.2). A single corrupted packet at Layer $N$ may be caught by redundant checking at Layer $N+1$. Two corrupted packets at different layers may together bypass redundancy that neither alone would defeat. This is exactly the failure mode of layered error-correcting codes under multi-bit error conditions.
+It also explains the observation that cancer initiation often requires multiple hits (Section 3.2). A single corrupted packet at Layer $N$ may be caught by redundant checking at Layer $N+1$. Two corrupted packets at different layers may together bypass redundancy that neither alone would defeat. This is exactly the failure mode of layered error-correcting codes under multi-bit error conditions.
 
 -----
 
@@ -286,7 +286,7 @@ The program for deriving the specific corrective codon structure from BST geomet
 
 **Step 3.** The delivery vehicle is a molecule in $\mathcal{C}_{\text{repro}}$ — the reproduction codebook. Candidates: nucleotide precursors (cancer cells consume nucleotides voraciously for DNA replication), amino acids (especially glutamine, which cancer cells metabolize preferentially), or growth factors (which cancer cells overexpress receptors for).
 
-**Step 4.** The corrective payload must reactivate at least one suppressed checkpoint. The minimum effective payload reactivates $N_c = 3$ independent checkpoints (§3.3), restoring code distance $d \geq 6 = C_2$.
+**Step 4.** The corrective payload must reactivate at least one suppressed checkpoint. The minimum effective payload reactivates $N_c = 3$ independent checkpoints (Section 3.3), restoring code distance $d \geq 6 = C_2$.
 
 **Step 5.** Verify geometric stability — the therapeutic molecule must be a valid codeword in the full biological grammar (thermodynamically stable, not rapidly degraded, correct folding).
 
@@ -308,7 +308,7 @@ Cancer in this framework: the $K$-component (maintenance) drops below threshold,
 
 3. **The resistance-prevention property holds.** Testable in serial passage: treat cancer cells with the corrective codon through multiple generations. If resistance requires downregulating reproduction, resistant cells should show reduced proliferation rates.
 
-4. **Cancer incidence scales as age$^{C_2}$.** The $\mu^{2N_c} = \mu^6$ prediction (§3.3) implies cancer incidence $\propto t^{C_2}$ for tissues with constant division rates. Testable against SEER epidemiological data.
+4. **Cancer incidence scales as age$^{C_2}$.** The $\mu^{2N_c} = \mu^6$ prediction (Section 3.3) implies cancer incidence $\propto t^{C_2}$ for tissues with constant division rates. Testable against SEER epidemiological data.
 
 5. **High-turnover tissues have cancer incidence inversely proportional to checkpoint depth.** Tissues with more independent checkpoint layers (higher effective $d_{\text{cell}}$) should have lower cancer rates at matched cell division rates. Testable against tissue-specific cancer incidence data normalized for proliferation rate.
 
@@ -408,7 +408,7 @@ The pattern is identical at every level:
 
 Casey's observation: **cancer is a single-goal code failure, and many higher-level problems are the same pattern — an entity over-committing to "self" goals at the expense of "self-and-community" goals.**
 
-The analogy is not metaphorical. It is structural. The same error-correction architecture that maintains cellular cooperation (checkpoint cascade, §3) has direct analogs at every level:
+The analogy is not metaphorical. It is structural. The same error-correction architecture that maintains cellular cooperation (checkpoint cascade, Section 3) has direct analogs at every level:
 
 | Biological checkpoint | Organizational analog | Failure mode |
 |:---------------------|:---------------------|:-------------|
@@ -424,7 +424,7 @@ Seven layers in both cases. The code distance argument applies: a single checkpo
 
 ### 10.2 The Therapeutic Principle Scales
 
-The BST therapeutic principle (§6) — **don't fight the entity's greatest strength; force it to run error correction** — also scales:
+The BST therapeutic principle (Section 6) — **don't fight the entity's greatest strength; force it to run error correction** — also scales:
 
 - **Cell**: Attach cooperative codebook activation to a molecule the cancer cell will greedily consume.
 - **Organism**: Don't punish the addict's craving; redirect it. Attach the cooperative signal (purpose, connection, community) to the pathway the addiction exploits.

@@ -13,7 +13,7 @@ framework: "AC(0), depth 0-1"
 
 ---
 
-## §1. The Observation
+## Section 1. The Observation
 
 BST's 220+ predictions fall into a precision hierarchy that correlates perfectly with their distance from the algebraic variety $V(D_{IV}^5)$:
 
@@ -29,7 +29,7 @@ The pattern: **prediction quality degrades monotonically with distance from the 
 
 ---
 
-## §2. The Variety
+## Section 2. The Variety
 
 The algebraic variety $V(D_{IV}^5)$ is the set of points in the bounded symmetric domain where observables take exact integer or rational values. The five BST integers $(N_c, n_C, g, C_2, N_{\max})$ are coordinates of a distinguished point on this variety — the "origin" of physical law.
 
@@ -42,7 +42,7 @@ All of these are **ON the variety** — they are different READINGS of the same 
 
 ---
 
-## §3. The Branches
+## Section 3. The Branches
 
 When BST must predict an observable that varies continuously with a parameter — lone pair count $L$, angular momentum $\ell$, generation number, atomic number $Z$ — it extends from the variety by **branching**.
 
@@ -98,7 +98,7 @@ The common structure: **a fixed point of high certainty (the variety) extends br
 
 ---
 
-## §4. The Theorem
+## Section 4. The Theorem
 
 **Theorem T727 (Variety-Branch Principle).** Let $X$ be a BST observable parameterized by a discrete variable $p \in \{0, 1, \ldots, L_{\max}\}$. Let $p_0$ be the variety point (the value of $p$ where $X$ takes a pure depth-0 form in BST integers). Then:
 
@@ -138,7 +138,7 @@ The bound holds with enormous margin — actual deviations are ~1000× smaller. 
 
 ---
 
-## §5. Why Branches, Not Curves?
+## Section 5. Why Branches, Not Curves?
 
 Why linear interpolation and not higher-order curves? Because **branches are AC(0)**:
 
@@ -152,7 +152,7 @@ Living systems use branches because branches are the CHEAPEST exploration strate
 
 ---
 
-## §6. Implications
+## Section 6. Implications
 
 ### 6.1 For BST Prediction Strategy
 
@@ -176,7 +176,7 @@ The theorem graph branches from hub theorems (variety points: T186, T190, T666, 
 
 ---
 
-## §7. Connection to Other Theorems
+## Section 7. Connection to Other Theorems
 
 - **T719 (Observable Algebra)**: The variety IS the set where observables live in $\overline{\mathbb{Q}(N_c, n_C, g, C_2, N_{\max})[\pi]}$. Branches extend into the tangent space.
 - **T421 (Depth Ceiling)**: Branch depth ≤ 1 under Casey strict. Linear branches are depth 0. Quadratic corrections are depth 1. No depth-2 branches.
@@ -185,7 +185,7 @@ The theorem graph branches from hub theorems (variety points: T186, T190, T666, 
 
 ---
 
-## §8. The Tight Bound (Toy 695 — CONFIRMED)
+## Section 8. The Tight Bound (Toy 695 — CONFIRMED)
 
 **Elie Toy 695 (8/9 PASS)** confirms the quadratic scaling and reveals the tight bound structure:
 

@@ -149,7 +149,7 @@ For thin Bi films with $d < \lambda_{\mathrm{SPP}} / 2\pi$, the SPPs on the top 
 
 Bi's diamagnetic susceptibility $\chi = -280\ \text{ppm}$ is the largest of any element, arising from the orbital magnetism of its near-degenerate band structure. In thin films at $d_0$, the $N_c = 3$ QW subbands create multiple de Haas-van Alphen (dHvA) frequencies, each with a slightly different effective Fermi surface area. The result is a beating pattern in magnetoresistance with $N_c = 3$ beat frequencies — a direct probe of the QW subband count.
 
-The fundamental dHvA frequency for Bi is $F \sim 4\ \text{T}$, well within laboratory fields. At $d_0$: three subbands $\to$ three frequencies $\to$ three-frequency beating in $R(1/B)$. At $\mathrm{rank} \times d_0$: seven subbands $\to$ seven frequencies. The progression $\{3, 7, 10, 18, 21, 25, \ldots\}$ follows the QW state hierarchy of §2.3.
+The fundamental dHvA frequency for Bi is $F \sim 4\ \text{T}$, well within laboratory fields. At $d_0$: three subbands $\to$ three frequencies $\to$ three-frequency beating in $R(1/B)$. At $\mathrm{rank} \times d_0$: seven subbands $\to$ seven frequencies. The progression $\{3, 7, 10, 18, 21, 25, \ldots\}$ follows the QW state hierarchy of Section 2.3.
 
 ### 6. Electromagnetic Response at $d_0$
 
@@ -161,7 +161,7 @@ $$T = \left| \frac{4}{2 + Z_0 \sigma d} \right|^2$$
 
 where $Z_0 = 376.7\ \Omega$ is the free-space impedance and $\sigma = 7.75 \times 10^5\ \text{S/m}$ is the DC conductivity. At $d_0 = 54.2\ \text{nm}$: $Z_0 \sigma d_0 \approx 16 \gg 2$, so the film is opaque at DC and low frequencies.
 
-At frequencies above $\sim 1\ \text{THz}$, the AC conductivity drops (Drude rolloff: $\sigma(\omega) = \sigma_{\mathrm{DC}} / (1 + \omega^2 \tau^2)$) and the film becomes transparent, with QW resonant absorption features at the energies listed in §3.
+At frequencies above $\sim 1\ \text{THz}$, the AC conductivity drops (Drude rolloff: $\sigma(\omega) = \sigma_{\mathrm{DC}} / (1 + \omega^2 \tau^2)$) and the film becomes transparent, with QW resonant absorption features at the energies listed in Section 3.
 
 #### 6.2 BST Prediction for Optical Response
 

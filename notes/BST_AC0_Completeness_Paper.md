@@ -98,7 +98,7 @@ Each of the six Clay Millennium Prize problems engaged by BST — plus Fermat's 
 
 ### 4.1 P $\neq$ NP (Depth 5)
 
-As detailed in §3. Premise: LDPC backbone structure (Gallager 1963, Ding-Sly-Sun 2015).
+As detailed in Section 3. Premise: LDPC backbone structure (Gallager 1963, Ding-Sly-Sun 2015).
 
 ### 4.2 Riemann Hypothesis (Depth 4)
 

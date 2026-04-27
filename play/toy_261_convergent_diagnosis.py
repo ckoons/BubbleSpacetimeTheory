@@ -47,7 +47,7 @@ print("=" * 72)
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §1. INSTANCE GENERATORS
+# Section 1. INSTANCE GENERATORS
 # ═══════════════════════════════════════════════════════════════════
 
 def random_3sat(n, alpha):
@@ -146,7 +146,7 @@ def tseitin_3sat(n_graph_vertices, make_unsat=True):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §2. TOPOLOGY COMPUTATION
+# Section 2. TOPOLOGY COMPUTATION
 # ═══════════════════════════════════════════════════════════════════
 
 def build_vig(n, clauses):
@@ -254,7 +254,7 @@ def filling_ratio(n, clauses):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §3. ALGORITHM BATTERY
+# Section 3. ALGORITHM BATTERY
 # ═══════════════════════════════════════════════════════════════════
 
 def unit_propagation(n, clauses):
@@ -379,10 +379,10 @@ def walksat_flips(n, clauses, max_flips=5000, p_random=0.4):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §4. EXPERIMENT
+# Section 4. EXPERIMENT
 # ═══════════════════════════════════════════════════════════════════
 
-print(f"\n§4. EXPERIMENT")
+print(f"\nSection 4. EXPERIMENT")
 print(f"N_VARS = {N_VARS}, N_GRAPH = {N_GRAPH}, N_SAMPLES = {N_SAMPLES}")
 print("-" * 72)
 
@@ -451,10 +451,10 @@ for class_name, generator in classes.items():
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §5. CONVERGENT DIAGNOSIS TABLE
+# Section 5. CONVERGENT DIAGNOSIS TABLE
 # ═══════════════════════════════════════════════════════════════════
 
-print(f"\n§5. CONVERGENT DIAGNOSIS TABLE")
+print(f"\nSection 5. CONVERGENT DIAGNOSIS TABLE")
 print("=" * 72)
 
 print(f"\n{'Instance Class':>25} {'n_v':>4} {'Fill':>6} {'β₁':>5} {'UP%':>5} "
@@ -484,10 +484,10 @@ def safe_avg(r, key):
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §6. CONVERGENCE TEST
+# Section 6. CONVERGENCE TEST
 # ═══════════════════════════════════════════════════════════════════
 
-print(f"\n§6. CONVERGENCE TEST")
+print(f"\nSection 6. CONVERGENCE TEST")
 print("-" * 72)
 
 # Key analysis: filling ratio vs DPLL cost across ALL classes
@@ -581,10 +581,10 @@ for name, r in results.items():
 
 
 # ═══════════════════════════════════════════════════════════════════
-# §7. SUMMARY
+# Section 7. SUMMARY
 # ═══════════════════════════════════════════════════════════════════
 
-print(f"\n§7. SUMMARY")
+print(f"\nSection 7. SUMMARY")
 print("=" * 72)
 
 checks = []

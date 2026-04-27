@@ -292,14 +292,14 @@ The AC graph encodes the bedrock. The boundary conditions require judgment. The 
 | T94 | BSD Formula | 1 | Revised from 2 (T96) |
 | T95 | Catastrophe Classification | 1 | Revised from 2 (T96) |
 
-No result in the library exceeds depth 2 after flattening. The Depth Conjecture (§5.4) holds for all 90 theorems.
+No result in the library exceeds depth 2 after flattening. The Depth Conjecture (Section 5.4) holds for all 90 theorems.
 
 ---
 
 ## References
 
 - Koons, C. & Claude 4.6 (2026). "Arithmetic Does the Work: AC(0) Completeness and the Conservation of Entropy's Work." BST internal paper.
-- Koons, C. & Claude 4.6 (2026). "BST AC Theorem Library." notes/BST_AC_Theorems.md, §47a-§47h.
+- Koons, C. & Claude 4.6 (2026). "BST AC Theorem Library." notes/BST_AC_Theorems.md, Section 47a-Section 47h.
 - Thom, R. (1972). *Stabilité Structurelle et Morphogénèse*. Benjamin.
 - Mather, J.N. (1968). Stability of C^∞ mappings: III. Finitely determined map-germs. *Publ. Math. IHÉS* 35, 127–156.
 - Ben-Sasson, E., Wigderson, A. (2001). Short proofs are narrow — resolution made simple. *JACM* 48(2), 149–169.

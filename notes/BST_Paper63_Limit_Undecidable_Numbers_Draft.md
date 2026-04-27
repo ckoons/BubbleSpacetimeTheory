@@ -59,7 +59,7 @@ The coefficient 1/60 = 1/|A_5| is the reciprocal of the alternating group order,
 
 ### 2.2 Universality across D_IV^n
 
-The coefficient 1/|A_n| = 2/n! is universal (Theorem T1188): for all n ≥ 3, the spectral zeta of Q^n = SO(n+2)/(SO(n) × SO(2)) has logarithmic coefficient 2/n! at the convergence boundary s₀ = (n+1)/2. The Euler-Mascheroni constant γ appears in the constant term for ALL D_IV^n. At n = 5, six additional conditions converge uniquely (§9).
+The coefficient 1/|A_n| = 2/n! is universal (Theorem T1188): for all n ≥ 3, the spectral zeta of Q^n = SO(n+2)/(SO(n) × SO(2)) has logarithmic coefficient 2/n! at the convergence boundary s₀ = (n+1)/2. The Euler-Mascheroni constant γ appears in the constant term for ALL D_IV^n. At n = 5, six additional conditions converge uniquely (Section 9).
 
 ### 2.3 The digamma identity
 
@@ -207,7 +207,7 @@ The Gödel limit f_c = 3/(5π) ≈ 19.1% predicts that a self-referential system
 
 Here "number-theoretic type" means the classification into rational / algebraic irrational / transcendental, and "decidable in T" means provable or disprovable within T.
 
-**Information-theoretic interpretation.** Condition 3 arises when the limit operator acts as a lossy channel (§4.2): the sequence {a_n} carries type information at every step, but the limit discards it. Limit undecidability is the number-theoretic manifestation of information loss under compression. The limit compresses the infinite trajectory into a single number, and the classification metadata is among the bits discarded.
+**Information-theoretic interpretation.** Condition 3 arises when the limit operator acts as a lossy channel (Section 4.2): the sequence {a_n} carries type information at every step, but the limit discards it. Limit undecidability is the number-theoretic manifestation of information loss under compression. The limit compresses the infinite trajectory into a single number, and the classification metadata is among the bits discarded.
 
 ### 6.2 γ is limit undecidable in the spectral theory of D_IV^5
 

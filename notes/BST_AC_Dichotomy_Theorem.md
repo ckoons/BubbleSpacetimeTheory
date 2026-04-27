@@ -27,7 +27,7 @@ This paper proves both directions, derives the classification from information-t
 
 ## 2. Definitions
 
-We use the AC definitions from the Bridge Theorem (§1) adapted for CSPs, with tightened formalization.
+We use the AC definitions from the Bridge Theorem (Section 1) adapted for CSPs, with tightened formalization.
 
 **Definition 1 (Constraint Satisfaction Problem).** A CSP instance $\varphi$ over a constraint language $\Gamma$ (a finite set of Boolean relations) consists of $n$ variables $x_1, \ldots, x_n$ and $m$ constraints, each applying a relation $R \in \Gamma$ to a scope of variables. An assignment $\sigma \in \{0,1\}^n$ satisfies $\varphi$ if it satisfies every constraint.
 
@@ -360,7 +360,7 @@ The theorem positions AC for its intended use: classifying *new* problems. For a
 2. If $I_{\text{fiat}} = 0$: AC predicts $\Gamma$ is tractable. Look for the natural coordinate system. The algorithm IS the coordinate transformation.
 3. If $I_{\text{fiat}} > 0$: AC predicts $\Gamma$ is NP-hard. The fiat bits measure *how* hard. The topology identifies *where* the hardness lives.
 
-For the full CSP dichotomy (§8), this would extend to all finite-domain CSPs — a universal classification tool derived from one information-theoretic principle.
+For the full CSP dichotomy (Section 8), this would extend to all finite-domain CSPs — a universal classification tool derived from one information-theoretic principle.
 
 ### 9.4 The Positioning
 
@@ -382,17 +382,17 @@ The Bridge Theorem (separate paper) argues: $I_{\text{fiat}} > 0$ with bounded c
 | Lemma 4: XOR-SAT | **Complete** | Gaussian elimination |
 | Lemma 5: 0-valid | **Complete** | Trivial |
 | Lemma 6: 1-valid | **Complete** | Trivial |
-| Part (b): NP-complete $\to$ $I_{\text{fiat}} > 0$ | **Complete** | Schaefer reduction + topology preservation lemma (proved §5) + AD + BSW |
+| Part (b): NP-complete $\to$ $I_{\text{fiat}} > 0$ | **Complete** | Schaefer reduction + topology preservation lemma (proved Section 5) + AD + BSW |
 | Part (c): Prescriptive | **Complete** | Parts (a) + (b) + case analysis |
-| Full dichotomy (§8) | **Conjecture** | Bulatov-Zhuk + Taylor $\leftrightarrow$ derivation flow |
+| Full dichotomy (Section 8) | **Conjecture** | Bulatov-Zhuk + Taylor $\leftrightarrow$ derivation flow |
 
 ### Closed (March 20, 2026)
 
-1. ~~**Topology preservation lemma (Part b, Step 2).**~~ **PROVED** (§5). Gadget reduction preserves treewidth: $\text{tw}(B(\varphi')) \leq g \cdot \text{tw}(B(\varphi)) + g - 1$. Part (b) is now a complete proof, not a sketch.
+1. ~~**Topology preservation lemma (Part b, Step 2).**~~ **PROVED** (Section 5). Gadget reduction preserves treewidth: $\text{tw}(B(\varphi')) \leq g \cdot \text{tw}(B(\varphi)) + g - 1$. Part (b) is now a complete proof, not a sketch.
 
 2. ~~**Elie's toys.**~~ **DONE (Toy 271, 10/10)**. All 6 tractable classes: $I_{\text{fiat}} = 0$ exactly. Random 3-SAT: $I_{\text{fiat}} = \Theta(n)$. Prescriptive table verified. Clean separation confirmed.
 
-3. ~~**I_derivable definition vague.**~~ **TIGHTENED (§2)**. Defined as width-$w_0$ resolution derivability ($w_0 = O(1)$). Equivalence to topological flow stated. Free/fiat/derivable distinction formalized (Definition 5a).
+3. ~~**I_derivable definition vague.**~~ **TIGHTENED (Section 2)**. Defined as width-$w_0$ resolution derivability ($w_0 = O(1)$). Equivalence to topological flow stated. Free/fiat/derivable distinction formalized (Definition 5a).
 
 4. ~~**Width-sweep verification (Toy 272).**~~ **DONE (Toy 272, 7/7)**. Three-way budget $n = I_{\text{derivable}}(w) + I_{\text{free}} + I_{\text{fiat}}(w)$ measured exactly. 2-SAT: $I_{\text{fiat}} = 0$ at $w=2$ (all 8 trials). Horn: $I_{\text{fiat}} = 0$ (forward chaining). 3-SAT at threshold: $I_{\text{fiat}}/n = 0.567$. Width sweep: 2-SAT jumps at $w=2$ then plateaus; 3-SAT flat at zero. Phase transition: $I_{\text{fiat}}$ jumps from 0.016 ($\alpha \leq 3$) to 0.899 ($\alpha \geq 4.27$).
 
@@ -415,11 +415,11 @@ This theorem is a section of Paper A (AC Foundations). It provides:
 3. **The bridge to P $\neq$ NP.** Part (b) shows that NP-complete classes have $I_{\text{fiat}} > 0$. The Bridge Theorem argues this implies P $\neq$ NP. The AC Dichotomy validates the measurement; the Bridge Theorem draws the conclusion.
 
 Paper A structure with this result:
-- §1-5: AC definitions, noise content, reversibility
-- §6-10: Noise landscape, method map, grounding tower
-- §11: Extended classification (Toys 260-265) — 14 method/problem pairs
-- **§NEW: AC Dichotomy Theorem** — complete classification of Boolean CSPs
-- §12-14: QM, cognitive systems, principle
+- Section 1-5: AC definitions, noise content, reversibility
+- Section 6-10: Noise landscape, method map, grounding tower
+- Section 11: Extended classification (Toys 260-265) — 14 method/problem pairs
+- **Section NEW: AC Dichotomy Theorem** — complete classification of Boolean CSPs
+- Section 12-14: QM, cognitive systems, principle
 - Future: Bridge Theorem (separate, conditional)
 
 ---

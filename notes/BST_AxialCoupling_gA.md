@@ -526,12 +526,12 @@ exact numerical value:
 
 | Component | Status | Reference |
 |:----------|:-------|:----------|
-| g_A = 4/π = 1.2732 | **Derived** (−0.23%) | This note, §3 |
-| g_V = 1 (CVC from winding number) | **Proved** (exact) | This note, §3.1 |
-| 1 + 3g_A² = 1 + 48/π² | **Computed** (−0.38%) | This note, §6.3 |
-| g_A/μ_n = −2/N_c | **Structural** (0.07%) | This note, §4.3 |
-| Bjorken sum = 2/(3π) | **Computed** (0.8%) | This note, §5.1 |
-| g_πNN = 40/π | **Computed** (−3.3%) | This note, §8 |
+| g_A = 4/π = 1.2732 | **Derived** (−0.23%) | This note, Section 3 |
+| g_V = 1 (CVC from winding number) | **Proved** (exact) | This note, Section 3.1 |
+| 1 + 3g_A² = 1 + 48/π² | **Computed** (−0.38%) | This note, Section 6.3 |
+| g_A/μ_n = −2/N_c | **Structural** (0.07%) | This note, Section 4.3 |
+| Bjorken sum = 2/(3π) | **Computed** (0.8%) | This note, Section 5.1 |
+| g_πNN = 40/π | **Computed** (−3.3%) | This note, Section 8 |
 
 ### Open
 

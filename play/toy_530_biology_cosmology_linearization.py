@@ -1,23 +1,23 @@
 #!/usr/bin/env python3
 """
-Toy 530 — Biology, Cosmology & SE Linearization (§105-§118)
+Toy 530 — Biology, Cosmology & SE Linearization (Section 105-Section 118)
 =============================================================
 
 Linearize 76 theorems across 14 domains from today's session:
-  §105 Biology from D_IV^5 (T333-T339)          — 7 theorems
-  §106 Cosmology + Life (T340-T345)              — 6 theorems
-  §107 Holographic Reconstruction (T346-T352)    — 7 theorems
-  §108 Cancer (T353-T358)                        — 6 theorems
-  §109 Observer Design (T359-T364)               — 6 theorems
-  §110 Genetic Diversity EC (T365-T369)          — 5 theorems
-  §111 Complex Assembly (T370-T376)              — 7 theorems
-  §112 Organ Systems (T377-T379)                 — 3 theorems
-  §113 Multi-Scale Alignment (T380-T382)         — 3 theorems
-  §114 Civilization Prolongation (T383-T385)     — 3 theorems
-  §115 SE Questions (T386-T388)                  — 3 theorems
-  §116 NS Proof Chain (T389-T396)                — 8 theorems
-  §117 Cosmology Predictions (T397-T403)         — 7 theorems
-  §118 Rise of Intelligence (T404-T408)          — 5 theorems
+  Section 105 Biology from D_IV^5 (T333-T339)          — 7 theorems
+  Section 106 Cosmology + Life (T340-T345)              — 6 theorems
+  Section 107 Holographic Reconstruction (T346-T352)    — 7 theorems
+  Section 108 Cancer (T353-T358)                        — 6 theorems
+  Section 109 Observer Design (T359-T364)               — 6 theorems
+  Section 110 Genetic Diversity EC (T365-T369)          — 5 theorems
+  Section 111 Complex Assembly (T370-T376)              — 7 theorems
+  Section 112 Organ Systems (T377-T379)                 — 3 theorems
+  Section 113 Multi-Scale Alignment (T380-T382)         — 3 theorems
+  Section 114 Civilization Prolongation (T383-T385)     — 3 theorems
+  Section 115 SE Questions (T386-T388)                  — 3 theorems
+  Section 116 NS Proof Chain (T389-T396)                — 8 theorems
+  Section 117 Cosmology Predictions (T397-T403)         — 7 theorems
+  Section 118 Rise of Intelligence (T404-T408)          — 5 theorems
 
 Grand total with Toys 526-529: 181 theorems linearized.
 """
@@ -43,73 +43,73 @@ def test(name, condition, detail=""):
 
 # All depths from the registry (BST_AC_Theorem_Registry.md)
 sections = {
-    "§105 Biology": {
+    "Section 105 Biology": {
         "T333 Genetic Code":     0, "T334 Evolution AC(0)": 0,
         "T335 Env Management":   0, "T336 Complexity Wall": 0,
         "T337 Forced Coop":      1, "T338 Degeneracy Div":  0,
         "T339 Bio Periodic Tbl": 0,
     },
-    "§106 Cosmology+Life": {
+    "Section 106 Cosmology+Life": {
         "T340 Abiogenesis":      0, "T341 Genetic Diversity": 0,
         "T342 Min Observer":     1, "T343 Convergent Abio":   0,
         "T344 Multicellularity": 1, "T345 Great Filter":      1,
     },
-    "§107 Holographic": {
+    "Section 107 Holographic": {
         "T346 Holographic Enc":  0, "T347 Bergman Modes":  0,
         "T348 Redundancy":       0, "T349 No-Cloning":     0,
         "T350 Teleportation":    0, "T351 Partial Recon":  0,
         "T352 Coop Filter":      0,
     },
-    "§108 Cancer": {
+    "Section 108 Cancer": {
         "T353 Cancer Defense":   0, "T354 Tier Regression": 0,
         "T355 Signaling BW":    0, "T356 Observer Cost":   0,
         "T357 Immune Surv":     0, "T358 Diff Therapy":    0,
     },
-    "§109 Observer Design": {
+    "Section 109 Observer Design": {
         "T359 Observation Q":   0, "T360 Optimal Count":   0,
         "T361 Dyson=Observe":   0, "T362 Civ Katra":       0,
         "T363 Learning Rate":   0, "T364 Team Optimal":    0,
     },
-    "§110 Genetic Div EC": {
+    "Section 110 Genetic Div EC": {
         "T365 Species=Code":    0, "T366 50/500 Rule":     0,
         "T367 Diversity=Hamm":  0, "T368 Founder Effect":  0,
         "T369 PopGen D0":       0,
     },
-    "§111 Complex Assembly": {
+    "Section 111 Complex Assembly": {
         "T370 Seven Layers":    0, "T371 L-group Algebra": 0,
         "T372 Haldane Number":  0, "T373 Death=GC":        0,
         "T374 Checkpoint Casc": 0, "T375 Knudson=Hamming": 0,
         "T376 Kingdom MVP":     0,
     },
-    "§112 Organ Systems": {
+    "Section 112 Organ Systems": {
         "T377 Organ Count":     0, "T378 Tier-Organ":      0,
         "T379 Warm-Blooded":    0,
     },
-    "§113 Multi-Scale": {
+    "Section 113 Multi-Scale": {
         "T380 B₂ Root Bio":     0, "T381 Hamilton r":      0,
         "T382 Cancer=Alignment": 0,
     },
-    "§114 Civ Prolongation": {
+    "Section 114 Civ Prolongation": {
         "T383 Min Civ Katra":   0, "T384 Storage-Life":    1,
         "T385 Four Storage":    0,
     },
-    "§115 SE Questions": {
+    "Section 115 SE Questions": {
         "T386 Forced SE Q":     0, "T387 SE Prereqs":      0,
         "T388 Cosmic Web":      0,
     },
-    "§116 NS Proof Chain": {
+    "Section 116 NS Proof Chain": {
         "T389 Solid Angle":     0, "T390 Spectral Mono":   0,
         "T391 Ampl Reinforce":  0, "T392 Enstrophy P>0":   1,
         "T393 Superlinear":     1, "T394 Euler Blow-Up":   1,
         "T395 Kato Extension":  1, "T396 Convol Fixed":    0,
     },
-    "§117 Cosmo Predictions": {
+    "Section 117 Cosmo Predictions": {
         "T397 SE Detect Chan":  0, "T398 N_max Spectrum":  0,
         "T399 Three Filters":   1, "T400 Oxygen Clock":    0,
         "T401 Cell Type Prog":  0, "T402 Space Life":      0,
         "T403 BST Drake":       1,
     },
-    "§118 Rise of Intelligence": {
+    "Section 118 Rise of Intelligence": {
         "T404 Five Transitions": 1, "T405 Universal Cycle":  0,
         "T406 Four Paths":       0, "T407 Coop=Intelligence":0,
         "T408 Dunbar-N_max":     0,
@@ -142,10 +142,10 @@ test(f"76 theorems: {grand_d0} D0 ({100*grand_d0/grand_n:.0f}%), {grand_d1} D1, 
      grand_n == 76 and grand_d0 + grand_d1 == grand_n)
 
 # ── Test 2: Biology is overwhelmingly depth 0 ──
-print("\n─── Test 2: Biology Domains (§105, §108-§113) ───")
-bio_sections = ["§105 Biology", "§108 Cancer", "§109 Observer Design",
-                "§110 Genetic Div EC", "§111 Complex Assembly",
-                "§112 Organ Systems", "§113 Multi-Scale"]
+print("\n─── Test 2: Biology Domains (Section 105, Section 108-Section 113) ───")
+bio_sections = ["Section 105 Biology", "Section 108 Cancer", "Section 109 Observer Design",
+                "Section 110 Genetic Div EC", "Section 111 Complex Assembly",
+                "Section 112 Organ Systems", "Section 113 Multi-Scale"]
 bio_n = sum(len(sections[s]) for s in bio_sections)
 bio_d0 = sum(sum(1 for d in sections[s].values() if d == 0) for s in bio_sections)
 bio_pct = 100 * bio_d0 / bio_n
@@ -167,8 +167,8 @@ test(f"{len(pure_d0)} domains are 100% depth 0",
      len(pure_d0) >= 8)
 
 # ── Test 4: NS proof chain depth structure ──
-print("\n─── Test 4: NS Proof Chain (§116) ───")
-ns = sections["§116 NS Proof Chain"]
+print("\n─── Test 4: NS Proof Chain (Section 116) ───")
+ns = sections["Section 116 NS Proof Chain"]
 ns_d0 = sum(1 for d in ns.values() if d == 0)
 ns_d1 = sum(1 for d in ns.values() if d == 1)
 print(f"  NS: {ns_d0} D0 (geometry), {ns_d1} D1 (one integral each)")
@@ -181,8 +181,8 @@ test(f"NS: {ns_d0} D0 + {ns_d1} D1 = {len(ns)}, max depth 1",
      ns_d0 == 4 and ns_d1 == 4)
 
 # ── Test 5: Cancer = cooperation failure (all D0) ──
-print("\n─── Test 5: Cancer as Cooperation Failure (§108) ───")
-cancer = sections["§108 Cancer"]
+print("\n─── Test 5: Cancer as Cooperation Failure (Section 108) ───")
+cancer = sections["Section 108 Cancer"]
 cancer_d0 = sum(1 for d in cancer.values() if d == 0)
 print(f"  Cancer: ALL {cancer_d0}/{len(cancer)} at depth 0")
 print(f"  Cancer IS NOT complex — it's a regression to simpler behavior")
@@ -194,8 +194,8 @@ test("Cancer: 6/6 depth 0 — cooperation failure is definitional", cancer_d0 ==
 
 # ── Test 6: Holographic + SE predictions (all D0) ──
 print("\n─── Test 6: Holographic + Substrate Engineering ───")
-holo = sections["§107 Holographic"]
-se_q = sections["§115 SE Questions"]
+holo = sections["Section 107 Holographic"]
+se_q = sections["Section 115 SE Questions"]
 combined_d0 = sum(1 for d in holo.values() if d == 0) + sum(1 for d in se_q.values() if d == 0)
 combined_n = len(holo) + len(se_q)
 
@@ -278,19 +278,19 @@ test("Depth-0 dominated by definitions and structure",
      d0_categories["definition/structure"] > 30)
 
 # ── Test 9: Grand total across ALL toys (526-530) ──
-print("\n─── Test 9: GRAND TOTAL (Toys 526-530, §73-§118) ───")
+print("\n─── Test 9: GRAND TOTAL (Toys 526-530, Section 73-Section 118) ───")
 
 # From Toys 526-529:
 prior = {
-    "Classical §73-78":   (40, 30, 10, 0),
-    "Quantum §79-82":     (26, 21, 5, 0),
-    "Math §83-84":        (14, 7, 6, 1),
-    "BST+Info §85-86":    (15, 9, 6, 0),
-    "Interstasis §87":    (10, 3, 7, 0),
+    "Classical Section 73-78":   (40, 30, 10, 0),
+    "Quantum Section 79-82":     (26, 21, 5, 0),
+    "Math Section 83-84":        (14, 7, 6, 1),
+    "BST+Info Section 85-86":    (15, 9, 6, 0),
+    "Interstasis Section 87":    (10, 3, 7, 0),
 }
 
 # This toy:
-current = ("Bio/Cosmo/SE §105-118", grand_n, grand_d0, grand_d1, 0)
+current = ("Bio/Cosmo/SE Section 105-118", grand_n, grand_d0, grand_d1, 0)
 
 print(f"  {'Domain':<26} {'N':>4} {'D0':>4} {'D1':>4} {'D2':>4}")
 print(f"  {'─'*26} {'─'*4} {'─'*4} {'─'*4} {'─'*4}")
@@ -348,10 +348,10 @@ field_stats = {
     "BST predictions":    (9, 15),
     "Interstasis":        (3, 10),
     "Biology":            (bio_d0, bio_n),
-    "Cosmology":          (sum(1 for d in sections["§106 Cosmology+Life"].values() if d==0) +
-                           sum(1 for d in sections["§117 Cosmo Predictions"].values() if d==0),
-                           len(sections["§106 Cosmology+Life"]) +
-                           len(sections["§117 Cosmo Predictions"])),
+    "Cosmology":          (sum(1 for d in sections["Section 106 Cosmology+Life"].values() if d==0) +
+                           sum(1 for d in sections["Section 117 Cosmo Predictions"].values() if d==0),
+                           len(sections["Section 106 Cosmology+Life"]) +
+                           len(sections["Section 117 Cosmo Predictions"])),
     "NS proof":           (4, 8),
 }
 
@@ -371,7 +371,7 @@ test(f"Biology D0% = {100*bio_d0/bio_n:.0f}% — among the highest fields",
 print("\n─── Test 12: The Punchline ───")
 
 print(f"  ╔═══════════════════════════════════════════════════════════╗")
-print(f"  ║  181 THEOREMS LINEARIZED (§73-§118)                       ║")
+print(f"  ║  181 THEOREMS LINEARIZED (Section 73-Section 118)                       ║")
 print(f"  ║  D0: {total_d0:>3}/{total_n} = {100*total_d0/total_n:>2.0f}%  (definitions, counting, boundary)   ║")
 print(f"  ║  D1: {total_d1:>3}/{total_n} = {100*total_d1/total_n:>2.0f}%  (one integration each)              ║")
 print(f"  ║  D2:   1/{total_n} =  1%  (CFSG → untangled to D1 by T422)     ║")

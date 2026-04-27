@@ -12,7 +12,7 @@ children: "Lightest neutrino mass prediction, cosmological neutrino mass sum, ma
 
 # T1260: Neutrino Mass Ordering — Normal Hierarchy from Spectral Eigenvalues
 
-*The three neutrino mass eigenstates are ordered m_1 < m_2 < m_3 (normal hierarchy). This is forced by the spectral eigenvalue ordering of the Bergman kernel on D_IV^5: the syndrome values s = 1, 2, 3 of the Hamming(7,4,3) code correspond to increasing spectral levels, and mass is monotone in spectral level. The mass-squared ratio Δm²₂₁/Δm²₃₂ = 49/1551 = g²/((8n_C)² − g²) follows from the boundary seesaw mass factors f₃/f₂ = 40/7 (see §7.6 of the Working Paper).*
+*The three neutrino mass eigenstates are ordered m_1 < m_2 < m_3 (normal hierarchy). This is forced by the spectral eigenvalue ordering of the Bergman kernel on D_IV^5: the syndrome values s = 1, 2, 3 of the Hamming(7,4,3) code correspond to increasing spectral levels, and mass is monotone in spectral level. The mass-squared ratio Δm²₂₁/Δm²₃₂ = 49/1551 = g²/((8n_C)² − g²) follows from the boundary seesaw mass factors f₃/f₂ = 40/7 (see Section 7.6 of the Working Paper).*
 
 ---
 
@@ -32,7 +32,7 @@ children: "Lightest neutrino mass prediction, cosmological neutrino mass sum, ma
 
 *Since λ_1 < λ_2 < λ_3, the mass ordering is m_1 < m_2 < m_3 (normal hierarchy).*
 
-*(c) The mass-squared ratio from the boundary seesaw (§7.6 of the Working Paper):*
+*(c) The mass-squared ratio from the boundary seesaw (Section 7.6 of the Working Paper):*
 
 *The boundary seesaw gives m_νi = f_i × α² × m_e²/m_p with f₁ = 0, f₂ = 7/12 = (n_C + 2)/(4N_c), f₃ = 10/3 = 2n_C/N_c. Since m₁ = 0:*
 
@@ -82,7 +82,7 @@ Since s = 1 < s = 2 < s = 3 and λ_1 < λ_2 < λ_3, and mass INCREASES with corr
 
 ### Step 3: The mass-squared ratio
 
-The mass-squared differences are related to the oscillation parameters. The boundary seesaw (§7.6 of the Working Paper) gives:
+The mass-squared differences are related to the oscillation parameters. The boundary seesaw (Section 7.6 of the Working Paper) gives:
 
 m_νi = f_i × α² × m_e²/m_p
 

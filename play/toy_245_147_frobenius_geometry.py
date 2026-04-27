@@ -62,11 +62,11 @@ def trace_exterior(eigs, r):
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# §1. THE VARIETY: Q⁵ OVER F_q
+# Section 1. THE VARIETY: Q⁵ OVER F_q
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§1. Point Counts on Q⁵ over F_q")
+print("Section 1. Point Counts on Q⁵ over F_q")
 print("=" * 72)
 
 print("""
@@ -97,11 +97,11 @@ print(f"  tr(φ | H*) = 1+q+q²+q³+q⁴+q⁵ = #Q⁵(F_q)")
 print(f"  All eigenvalues are powers of q — NO nontrivial Frobenius!")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §2. THE FIBER BUNDLE: so(7) ⊗ V₁ OVER Q⁵
+# Section 2. THE FIBER BUNDLE: so(7) ⊗ V₁ OVER Q⁵
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§2. The 147-Dimensional Fiber Bundle over Q⁵")
+print("Section 2. The 147-Dimensional Fiber Bundle over Q⁵")
 print("=" * 72)
 
 print("""
@@ -149,11 +149,11 @@ if np.isclose(tr_id.real, 147):
     print(f"  ✓ Identity trace = 147 = dim(so(7)⊗V₁)")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §3. THE 147 = 137 + 10 SPLIT IN FROBENIUS
+# Section 3. THE 147 = 137 + 10 SPLIT IN FROBENIUS
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§3. The 147-137=10 Split: Arithmetic vs Geometric")
+print("Section 3. The 147-137=10 Split: Arithmetic vs Geometric")
 print("=" * 72)
 
 print("""
@@ -201,11 +201,11 @@ print("The 137/10 split is between number theory and geometry,")
 print("not between representation-theoretic summands.")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §4. THE FIBER CLOSING CONDITION
+# Section 4. THE FIBER CLOSING CONDITION
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§4. The Fiber Closing Condition in Arithmetic")
+print("Section 4. The Fiber Closing Condition in Arithmetic")
 print("=" * 72)
 
 print("""
@@ -253,11 +253,11 @@ print(f"\n  At q=1: Gr(3,7) = C(7,3) = 35 = dim(Λ³V₁)")
 print(f"  And 147/35 = {147/35:.2f} ≈ 4.2 = 42/10 = (C₂×g)/dim_R")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §5. THE ADJOINT VARIETY
+# Section 5. THE ADJOINT VARIETY
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§5. The Adjoint Orbit Variety")
+print("Section 5. The Adjoint Orbit Variety")
 print("=" * 72)
 
 print("""
@@ -324,11 +324,11 @@ print(f"\n  Q⁵(F_2) = {pts_q5_f2} (not 147)")
 print(f"  Q⁵(F_3) = {sum(3**k for k in range(6))} (not 147)")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §6. THE EULER CHARACTERISTIC CONNECTION
+# Section 6. THE EULER CHARACTERISTIC CONNECTION
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§6. Euler Characteristic and Topological Fixed Points")
+print("Section 6. Euler Characteristic and Topological Fixed Points")
 print("=" * 72)
 
 # Euler characteristic of Q^n = SO(n+2)/[SO(n)×SO(2)]
@@ -375,11 +375,11 @@ checks += 1
 print(f"  ✓ χ(Q^n) = C₂ selects odd n (including n=5)")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §7. THE 147 AS A POINT COUNT: DEEPER SEARCH
+# Section 7. THE 147 AS A POINT COUNT: DEEPER SEARCH
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§7. Deeper: 147 as Representation-Theoretic Invariant")
+print("Section 7. Deeper: 147 as Representation-Theoretic Invariant")
 print("=" * 72)
 
 print("""
@@ -420,11 +420,11 @@ print(f"    L(s, Λ³V₁): pole order {35} = dim Λ³V₁")
 print(f"    L(s, matter): pole order {42} = g + 35 = C₂ × g")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §8. THE FIBER CLOSING IN ARITHMETIC
+# Section 8. THE FIBER CLOSING IN ARITHMETIC
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§8. The Fiber Closing Condition — Arithmetic Version")
+print("Section 8. The Fiber Closing Condition — Arithmetic Version")
 print("=" * 72)
 
 print("""
@@ -476,11 +476,11 @@ checks += 1
 print(f"\n  ✓ Fiber closing = L-function pole order matching")
 
 # ═══════════════════════════════════════════════════════════════════════
-# §9. SYNTHESIS
+# Section 9. SYNTHESIS
 # ═══════════════════════════════════════════════════════════════════════
 
 print("\n" + "=" * 72)
-print("§9. Synthesis: What Frobenius Sees")
+print("Section 9. Synthesis: What Frobenius Sees")
 print("=" * 72)
 
 print("""

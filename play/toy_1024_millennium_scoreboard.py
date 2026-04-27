@@ -461,7 +461,7 @@ def test_session_summary():
 
     toys = [
         (1019, "RH Casimir gap verification", 8, 8),
-        (1020, "Hodge §5.10 general variety extension", 8, 8),
+        (1020, "Hodge Section 5.10 general variety extension", 8, 8),
         (1021, "YM Wightman R^4 framing", 8, 8),
         (1022, "BSD analytic rank formula", 8, 8),
         (1023, "NS Euler singularity", 8, 8),

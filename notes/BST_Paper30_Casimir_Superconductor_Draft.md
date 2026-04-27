@@ -169,7 +169,7 @@ The Casimir superconductor connects to four prior devices:
 | BCS gap modification | Toy 930 (this paper's numerical backing) | $T_c(n)/T_c = n/137$ |
 | Casimir force in SC | Toy 918 (Heat Engine) | Vacuum mode structure |
 
-The $d_0 \approx \lambda_L$ coincidence (§4) is especially significant: it connects the phonon spectral cutoff (which determines $T_c$) to the electromagnetic screening length (which determines the Casimir force). Both are $\sim 50\ \text{nm}$ for conventional superconductors. Both are set by $N_{\max} = 137$. The Casimir superconductor may be the device where these two manifestations of $D_{IV}^5$ interact most directly.
+The $d_0 \approx \lambda_L$ coincidence (Section 4) is especially significant: it connects the phonon spectral cutoff (which determines $T_c$) to the electromagnetic screening length (which determines the Casimir force). Both are $\sim 50\ \text{nm}$ for conventional superconductors. Both are set by $N_{\max} = 137$. The Casimir superconductor may be the device where these two manifestations of $D_{IV}^5$ interact most directly.
 
 ### 9. Falsification
 

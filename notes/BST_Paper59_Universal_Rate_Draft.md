@@ -56,7 +56,7 @@ The numerator f + 2 = n_C + rank = g. The "+2" is rank — the number of strongl
 
 $$\gamma_{\text{mono}} = \frac{N_c + \text{rank}}{N_c} = \frac{n_C}{N_c} = \frac{5}{3} = 1.667$$
 
-This equals the Kolmogorov turbulence exponent (§6). Both are n_C/N_c because both involve the ratio of total accessible dimensions to spatial dimensions.
+This equals the Kolmogorov turbulence exponent (Section 6). Both are n_C/N_c because both involve the ratio of total accessible dimensions to spatial dimensions.
 
 ---
 
@@ -110,13 +110,13 @@ The Lane-Emden equation models stellar structure with polytropic index n = 1/(γ
 
 $$n = \frac{1}{\gamma - 1} = \frac{1}{2/5} = \frac{5}{2} = \frac{n_C}{\text{rank}}$$
 
-A γ = 7/5 polytrope (n = 5/2) models the Sun's convective envelope — the outer ~30% where energy transport is dominated by convection. The same ratio n_C/rank that determines the stellar structure also appears as the Rényi entropy coefficient (§7).
+A γ = 7/5 polytrope (n = 5/2) models the Sun's convective envelope — the outer ~30% where energy transport is dominated by convection. The same ratio n_C/rank that determines the stellar structure also appears as the Rényi entropy coefficient (Section 7).
 
 ---
 
 ## 6. Turbulence: The Kolmogorov Sibling
 
-The K41 energy spectrum E(k) ∝ k^{−5/3} has exponent n_C/N_c = 5/3 — the monatomic adiabatic index (§2). The full Kolmogorov exponent ladder:
+The K41 energy spectrum E(k) ∝ k^{−5/3} has exponent n_C/N_c = 5/3 — the monatomic adiabatic index (Section 2). The full Kolmogorov exponent ladder:
 
 | Exponent | Value | BST expression | Role |
 |:---------|:-----:|:--------------:|:-----|
@@ -148,7 +148,7 @@ The Rényi entropy at order α = γ = 7/5:
 
 $$H_{7/5}(X) = \frac{1}{1 - 7/5} \log \sum p_i^{7/5} = -\frac{5}{2} \log \sum p_i^{7/5}$$
 
-The coefficient −5/2 = −n_C/rank is the SAME as the Lane-Emden polytropic index (§5). Information entropy and stellar structure share a coefficient because both involve the ratio of the space's dimension to its rank.
+The coefficient −5/2 = −n_C/rank is the SAME as the Lane-Emden polytropic index (Section 5). Information entropy and stellar structure share a coefficient because both involve the ratio of the space's dimension to its rank.
 
 ---
 
@@ -174,7 +174,7 @@ The ODE has a finite-time singularity at the cooperation phase transition (T1172
 
 $$K(t) = \left[ K_0^{-2/5} - \frac{2\lambda}{5}(t - t_0) \right]^{-n_C/\text{rank}}$$
 
-The exponent −n_C/rank = −5/2 is the same coefficient from §5 and §7.
+The exponent −n_C/rank = −5/2 is the same coefficient from Section 5 and Section 7.
 
 **Prediction:** The cooperation singularity occurs at K_crit = (4.24)^{5/2} ≈ 37 fundamental techniques, where 4.24 = (1 − f_c)/f_c is the cooperation gain from T1172. Historical data: the Bronze Age → Iron Age transition involved ~30-40 core techniques (Toy 1133).
 

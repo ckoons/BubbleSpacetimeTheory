@@ -111,7 +111,7 @@ for n in range(3, 10):
 # Condition 5: Fine structure α⁻¹ = N_max = 137
 print("\nCondition 5: N_max from dimensional constraint")
 print("  BST: N_max = (n+1)! × (2n-1)!! / (something) — this is the full derivation")
-print("  For now: N_max = 137 only at n=5 (from WorkingPaper §37.5)")
+print("  For now: N_max = 137 only at n=5 (from WorkingPaper Section 37.5)")
 # The exact derivation of 137 from n=5 involves the full BST machinery
 
 # Condition 6: Nuclear magic numbers κ_ls = C_2/(C_2-1) = 6/5

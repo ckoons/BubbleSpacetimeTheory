@@ -29,7 +29,7 @@ N_c, n_C, g, C_2, N_max, rank = 3, 5, 7, 6, 137, 2
 # 1=one evaluation/integration, 2=genuine composition.
 # ═══════════════════════════════════════════════════════════
 
-# ── Group 1: AC(0) Foundations (T73-T82, §45) ──
+# ── Group 1: AC(0) Foundations (T73-T82, Section 45) ──
 # These ARE AC(0) by definition — info theory classics
 ac0_foundations = [
     ("T73",  "Nyquist Sampling",              0, "AC(0) Foundation", "definition"),
@@ -44,7 +44,7 @@ ac0_foundations = [
     ("T82",  "Spectral Gap → Mixing Time",     0, "AC(0) Foundation", "definition"),
 ]
 
-# ── Group 2: NS AC(0) (T83-T87, §46) ──
+# ── Group 2: NS AC(0) (T83-T87, Section 46) ──
 ns_ac0 = [
     ("T83",  "TG Symmetry Group (order 16)",   0, "NS AC(0)", "counting"),
     ("T84",  "Fourier Parity Selection",       0, "NS AC(0)", "definition"),
@@ -53,7 +53,7 @@ ns_ac0 = [
     ("T87",  "Conditional Blow-Up ODE",        1, "NS AC(0)", "one_ode"),
 ]
 
-# ── Group 3: Meta-AC (T88-T96, §47) ──
+# ── Group 3: Meta-AC (T88-T96, Section 47) ──
 meta_ac = [
     ("T88",  "P≠NP Proof is AC(0)",           0, "Meta-AC", "definition"),
     ("T89",  "BSW Width-Size Relation",        0, "Meta-AC", "definition"),
@@ -66,7 +66,7 @@ meta_ac = [
     ("T96",  "Depth Reduction",                0, "Meta-AC", "definition"),
 ]
 
-# ── Group 4: BSD Framework (T97-T107, §10+§48) ──
+# ── Group 4: BSD Framework (T97-T107, Section 10+Section 48) ──
 bsd_framework = [
     ("T97",  "Frobenius-D₃ Universality",      0, "BSD", "definition"),
     ("T98",  "Modularity Embedding",           1, "BSD", "one_embedding"),
@@ -81,7 +81,7 @@ bsd_framework = [
     ("T107", "Weyl Coset Threshold",           0, "BSD", "definition"),
 ]
 
-# ── Group 5: Hodge (T108-T127, §49-§53) ──
+# ── Group 5: Hodge (T108-T127, Section 49-Section 53) ──
 hodge = [
     ("T108", "BMM H^{1,1} (codim 1)",         0, "Hodge", "definition"),
     ("T109", "Vogan-Zuckerman Filtration",     0, "Hodge", "definition"),
@@ -105,7 +105,7 @@ hodge = [
     ("T127", "Chromatic-Confinement Parallel", 0, "Hodge", "definition"),
 ]
 
-# ── Group 6: External Classics (T128-T146, §54-§57) ──
+# ── Group 6: External Classics (T128-T146, Section 54-Section 57) ──
 external = [
     ("T128", "Type B Uniqueness (odd SO)",     0, "External", "definition"),
     ("T129", "Boundary Chain Termination",     0, "External", "definition"),
@@ -444,14 +444,14 @@ passed += 1
 print()
 print("─── Test 12: GRAND TOTAL (All Toys 526-532) ───")
 prior = {
-    "Classical §73-78":       (40,  30, 10, 0),
-    "Quantum §79-82":         (26,  21,  5, 0),
-    "Math §83-84":            (14,   7,  6, 1),
-    "BST+Info §85-86":        (15,   9,  6, 0),
-    "Interstasis §87":        (10,   3,  7, 0),
-    "Bio/Cosmo/SE §105-118":  (76,  64, 12, 0),
-    "AC Framework §1-§72":    (61,  50, 11, 0),
-    "Depth/CI/Phys §88-§104": (17,  13,  4, 0),
+    "Classical Section 73-78":       (40,  30, 10, 0),
+    "Quantum Section 79-82":         (26,  21,  5, 0),
+    "Math Section 83-84":            (14,   7,  6, 1),
+    "BST+Info Section 85-86":        (15,   9,  6, 0),
+    "Interstasis Section 87":        (10,   3,  7, 0),
+    "Bio/Cosmo/SE Section 105-118":  (76,  64, 12, 0),
+    "AC Framework Section 1-Section 72":    (61,  50, 11, 0),
+    "Depth/CI/Phys Section 88-Section 104": (17,  13,  4, 0),
 }
 this_toy = {
     "Remaining catalog":      (gn, gd0, gd1, gd2),

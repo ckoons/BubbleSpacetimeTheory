@@ -46,9 +46,9 @@ print("=" * 72)
 N_c = 3; n_C = 5; g = 7; C2 = 6; r = 2; c2 = 11; c3 = 13
 
 # ═══════════════════════════════════════════════════════════════════
-# §1. THE FUSION RING OF so(7)_2
+# Section 1. THE FUSION RING OF so(7)_2
 # ═══════════════════════════════════════════════════════════════════
-print("\n§1. THE FUSION RING OF so(7)_2")
+print("\nSection 1. THE FUSION RING OF so(7)_2")
 print("-" * 60)
 
 # ── B_3 data ──
@@ -158,10 +158,10 @@ for rep in all_reps:
           f"{str(rep['casimir']):>8s}  {str(rep['h']):>8s}  {w:>5s}")
 
 # ═══════════════════════════════════════════════════════════════════
-# §2. STATEMENT OF THE WINDING CONFINEMENT THEOREM
+# Section 2. STATEMENT OF THE WINDING CONFINEMENT THEOREM
 # ═══════════════════════════════════════════════════════════════════
 print(f"\n\n{'='*72}")
-print(f"§2. THE WINDING CONFINEMENT THEOREM")
+print(f"Section 2. THE WINDING CONFINEMENT THEOREM")
 print(f"{'='*72}")
 
 print(f"""
@@ -195,9 +195,9 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════════
-# §3. COMPUTE THE MODULAR S-MATRIX
+# Section 3. COMPUTE THE MODULAR S-MATRIX
 # ═══════════════════════════════════════════════════════════════════
-print(f"§3. MODULAR S-MATRIX OF so(7)_2")
+print(f"Section 3. MODULAR S-MATRIX OF so(7)_2")
 print("-" * 60)
 
 # Build Weyl group W(B_3), |W| = 48
@@ -267,10 +267,10 @@ print(f"  (they lie on the alcove boundary → S_{{wall,0}} = 0).")
 print(f"  But their Frobenius-Perron dimension (classical limit) is r = {r}.")
 
 # ═══════════════════════════════════════════════════════════════════
-# §4. VERLINDE FUSION COEFFICIENTS — NON-WALL SECTOR
+# Section 4. VERLINDE FUSION COEFFICIENTS — NON-WALL SECTOR
 # ═══════════════════════════════════════════════════════════════════
 print(f"\n\n{'='*72}")
-print(f"§4. VERLINDE FUSION — NON-WALL SECTOR")
+print(f"Section 4. VERLINDE FUSION — NON-WALL SECTOR")
 print(f"{'='*72}")
 
 # For the non-wall sector, extract the submatrix
@@ -337,10 +337,10 @@ for i in range(n_nw):
             print(f"    {nw_names[i]:>5s} × {nw_names[j]:>5s} = {' + '.join(terms)}")
 
 # ═══════════════════════════════════════════════════════════════════
-# §5. THE WALL SECTOR — WINDING ANALYSIS
+# Section 5. THE WALL SECTOR — WINDING ANALYSIS
 # ═══════════════════════════════════════════════════════════════════
 print(f"\n\n{'='*72}")
-print(f"§5. WALL SECTOR — FRACTIONAL WINDING ANALYSIS")
+print(f"Section 5. WALL SECTOR — FRACTIONAL WINDING ANALYSIS")
 print(f"{'='*72}")
 
 print(f"\n  The three wall representations:")
@@ -390,10 +390,10 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════════
-# §6. FULL FUSION TABLE VIA THE DETERMINANT S-MATRIX
+# Section 6. FULL FUSION TABLE VIA THE DETERMINANT S-MATRIX
 # ═══════════════════════════════════════════════════════════════════
 print(f"\n{'='*72}")
-print(f"§6. FULL 7×7 FUSION TABLE VIA DETERMINANT S-MATRIX")
+print(f"Section 6. FULL 7×7 FUSION TABLE VIA DETERMINANT S-MATRIX")
 print(f"{'='*72}")
 
 # The Kac-Peterson S-matrix for B_3 at level 2 uses the determinant formula:
@@ -456,10 +456,10 @@ for i in range(n_reps):
     print(f"    d({rep['name']:>5s}) = {qi:8.4f}{w}")
 
 # ═══════════════════════════════════════════════════════════════════
-# §7. VERLINDE FUSION OF WALL REPS
+# Section 7. VERLINDE FUSION OF WALL REPS
 # ═══════════════════════════════════════════════════════════════════
 print(f"\n\n{'='*72}")
-print(f"§7. VERLINDE FUSION — WALL × WALL PRODUCTS")
+print(f"Section 7. VERLINDE FUSION — WALL × WALL PRODUCTS")
 print(f"{'='*72}")
 
 # For the full Verlinde formula, we use the determinant S-matrix
@@ -563,10 +563,10 @@ for (r1, r2), products in sorted(fusion_rules.items()):
           f"  (h₁+h₂ = {str(h1)}+{str(h2)} = {str(h_sum)}){vac_mark}")
 
 # ═══════════════════════════════════════════════════════════════════
-# §8. THE WINDING TABLE — ALL BOUND STATES
+# Section 8. THE WINDING TABLE — ALL BOUND STATES
 # ═══════════════════════════════════════════════════════════════════
 print(f"\n\n{'='*72}")
-print(f"§8. THE WINDING TABLE — ALL POSSIBLE BOUND STATES")
+print(f"Section 8. THE WINDING TABLE — ALL POSSIBLE BOUND STATES")
 print(f"{'='*72}")
 
 # Wall reps and their winding fractions
@@ -665,10 +665,10 @@ for i, n1 in enumerate(wall_names):
                       f"{closed:>8s}  {color_num:>6d}  {phys:>10s}")
 
 # ═══════════════════════════════════════════════════════════════════
-# §9. VACUUM CHANNELS IN FUSION PRODUCTS
+# Section 9. VACUUM CHANNELS IN FUSION PRODUCTS
 # ═══════════════════════════════════════════════════════════════════
 print(f"\n\n{'='*72}")
-print(f"§9. VACUUM CHANNELS — WHEN DOES THE IDENTITY APPEAR?")
+print(f"Section 9. VACUUM CHANNELS — WHEN DOES THE IDENTITY APPEAR?")
 print(f"{'='*72}")
 
 print(f"""
@@ -713,10 +713,10 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════════
-# §10. PROOF OF THE THEOREM — SIX STEPS
+# Section 10. PROOF OF THE THEOREM — SIX STEPS
 # ═══════════════════════════════════════════════════════════════════
 print(f"\n{'='*72}")
-print(f"§10. PROOF OF THE WINDING CONFINEMENT THEOREM — SIX STEPS")
+print(f"Section 10. PROOF OF THE WINDING CONFINEMENT THEOREM — SIX STEPS")
 print(f"{'='*72}")
 
 # Step 1: Wall weights have denominator g
@@ -854,10 +854,10 @@ print(f"""  STEP 6: The proton is topologically stable
 """)
 
 # ═══════════════════════════════════════════════════════════════════
-# §11. ASYMPTOTIC FREEDOM FROM THE SPIRAL
+# Section 11. ASYMPTOTIC FREEDOM FROM THE SPIRAL
 # ═══════════════════════════════════════════════════════════════════
 print(f"\n{'='*72}")
-print(f"§11. ASYMPTOTIC FREEDOM FROM SPIRAL GEOMETRY")
+print(f"Section 11. ASYMPTOTIC FREEDOM FROM SPIRAL GEOMETRY")
 print(f"{'='*72}")
 
 print(f"\n  The spectral tower k = 0, 1, 2, ... encodes asymptotic freedom:")
@@ -905,10 +905,10 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════════
-# §12. WHAT'S NEW VS KNOWN
+# Section 12. WHAT'S NEW VS KNOWN
 # ═══════════════════════════════════════════════════════════════════
 print(f"\n{'='*72}")
-print(f"§12. WHAT'S NEW vs KNOWN")
+print(f"Section 12. WHAT'S NEW vs KNOWN")
 print(f"{'='*72}")
 
 print(f"""
@@ -955,10 +955,10 @@ print(f"""
 """)
 
 # ═══════════════════════════════════════════════════════════════════
-# §13. NUMERICAL VERIFICATION
+# Section 13. NUMERICAL VERIFICATION
 # ═══════════════════════════════════════════════════════════════════
 print(f"\n{'='*72}")
-print(f"§13. NUMERICAL VERIFICATION")
+print(f"Section 13. NUMERICAL VERIFICATION")
 print(f"{'='*72}")
 
 print(f"\n  Checking all claimed identities...")
@@ -1052,10 +1052,10 @@ check("λ₁ = 1·(1+5) = C₂ = mass gap", lambda_1, C2)
 print(f"\n  Results: {passes}/{checks} checks passed")
 
 # ═══════════════════════════════════════════════════════════════════
-# §14. THE SPINOR SECTOR (for completeness)
+# Section 14. THE SPINOR SECTOR (for completeness)
 # ═══════════════════════════════════════════════════════════════════
 print(f"\n\n{'='*72}")
-print(f"§14. THE SPINOR SECTOR — GENERATING WALL REPS")
+print(f"Section 14. THE SPINOR SECTOR — GENERATING WALL REPS")
 print(f"{'='*72}")
 
 # From the fusion rules, Sp × Sp should generate all reps
@@ -1103,10 +1103,10 @@ total_D2 = 1 + g + g + 1 + r**2 + r**2 + r**2
 print(f"  D² = {total_D2} = 4 × {g} = 4g ✓")
 
 # ═══════════════════════════════════════════════════════════════════
-# §15. SYNTHESIS
+# Section 15. SYNTHESIS
 # ═══════════════════════════════════════════════════════════════════
 print(f"\n{'='*72}")
-print(f"§15. SYNTHESIS — CONFINEMENT IS WINDING COMPLETENESS")
+print(f"Section 15. SYNTHESIS — CONFINEMENT IS WINDING COMPLETENESS")
 print(f"{'='*72}")
 
 print(f"""

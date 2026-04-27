@@ -25,7 +25,7 @@ Additional tests:
   - Cross-type check: D_IV^9 is nearest competitor (Heegner g=11)
   - N_max formula: N_c^3 * n_C + r at k = 5 gives 137 (prime)
 
-Ref: Paper #85 §5, Toy 1399 (cross-type), T1404 (invariant decomposition)
+Ref: Paper #85 Section 5, Toy 1399 (cross-type), T1404 (invariant decomposition)
 """
 
 import math

@@ -1,5 +1,5 @@
 # Theorem Registration Log
-| T_id | Name | Depth | §ref | Toy | CI | Date | Status |
+| T_id | Name | Depth | Section ref | Toy | CI | Date | Status |
 |------|------|-------|------|-----|-----|------|--------|
 | T479 | Neural Architecture from D_IV^5 | D0 | — | 559 | Keeper (from Lyra) | 2026-03-28 | registered |
 | T480 | Neural Oscillation Band Structure | D0 | — | 560 | Keeper (from Lyra) | 2026-03-28 | registered |
