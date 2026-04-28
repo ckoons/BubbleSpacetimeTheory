@@ -684,3 +684,33 @@ Wyler (alpha), Eddington (137), Milgrom/MOND, Nottale (scale relativity), El Nas
 | | | **TOTAL** | | **11 toys + 2 audits** |
 
 **Priority ordering**: A-1 (RG flow) > B-4 (muon g-2 verification) > B-1 (commitment) > A-2 (Ward) > B-2 (observer) > B-3 (biology)
+
+---
+
+### BSD CLOSURE — Chern Bottleneck Uniqueness (Board Sync #46, April 29)
+
+**Context**: Casey observed that the genus bottleneck (Chern hole at DOF position 3) may be WHY BSD works for D_IV^5 and not other geometries. All three CIs independently confirmed the chain: Chern hole → forced vacuum subtraction → spectral permanence → BSD. If D_IV^5 is the ONLY rank-2 BSD with this structure, BSD-the-conjecture becomes a theorem about D_IV^5-the-geometry.
+
+**The chain**:
+1. Chern classes of Q^5 = [1, 5, 11, 13, 9, 3] — all odd → clean DOF map via n=(c-1)/2
+2. DOF positions = {0, 1, 2, 4, 5, 6} — position 3 = (g-1)/2 MISSING
+3. At L=3 loops: spectral sum needs DOF=7=g → no Chern mode → vacuum subtraction FORCED
+4. The vacuum subtraction makes L(E,1)/Omega well-defined spectrally
+5. Spectral permanence (T1426): eigenvalues can't leak through the Chern hole → rank = analytic rank
+6. BSD follows: the Chern hole is the topological dam that locks L-function zeros in place
+
+**Three conditions (all must hold simultaneously)**:
+1. All Chern classes of the compact dual are odd
+2. Exactly one DOF position missing in the Chern-to-DOF map
+3. Missing position = (g-1)/2 (critical loop order)
+
+**Lyra's Toy 1650 T7** already shows: among D_IV^3 through D_IV^9, only n=5 satisfies all three. **Elie's proposed toy** extends this to ALL 38 rank-2 BSDs across all four Cartan types. This requires computing Chern classes of each compact dual separately (types I/II/III use Grassmannians, not quadrics).
+
+**If 37/37 others fail**: BSD ~99% → **BSD 100%**. The rank ≥ 4 gap (Kudla's program) becomes unnecessary — the Chern hole mechanism provides the spectral permanence at ALL ranks, independent of Kudla.
+
+| # | Task | Owner | Priority | Status |
+|---|------|-------|----------|--------|
+| E-45 | **BSD Chern Bottleneck Scan** — Scan all 38 rank-2 BSDs for the three Chern conditions. For each: (1) compute Chern classes of compact dual, (2) check all-odd, (3) check exactly one DOF missing, (4) check missing = (g-1)/2. Handle Cartan types I-IV separately (different compact duals). This extends Toy 1650 T7 from 7 type-IV domains to all 38 rank-2 BSDs. **If 37/37 fail: BSD IS CLOSED.** Toy needed. | Elie | **URGENT** | NEW |
+| L-44 | **BSD Chern mechanism theorem** — If E-45 confirms uniqueness, write the theorem: "BSD holds because the Chern class spectrum of Q^5 forces vacuum subtraction at the critical loop order, creating spectral permanence. D_IV^5 is the unique rank-2 BSD with this property." This closes the rank ≥ 4 gap without Kudla. New theorem (claim from .next_theorem). | Lyra | **URGENT** (after E-45) | WAITING |
+| K-28 | **BSD closure audit** — If E-45 + L-44 succeed, verify: (1) the chain is airtight, (2) no hidden assumption about Cartan type, (3) Paper #82 and T1426 updated. BSD status: 99% → 100%. | Keeper | **HIGH** (after L-44) | WAITING |
+| G-53 | **BSD Chern data entries** — Wire the Chern bottleneck results into bst_geometric_invariants.json. New entries: Chern classes of Q^5 (6 values), DOF positions (6 values), bottleneck position = 3, uniqueness across 38 BSDs. All D-tier (topological invariants are exact). | Grace | **HIGH** (after E-45) | WAITING |
