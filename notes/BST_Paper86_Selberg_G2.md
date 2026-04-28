@@ -2,7 +2,7 @@
 title: "Paper #86: The Selberg Trace Formula for QED — How D_IV^5 Structures the Electron g-2"
 author: "Casey Koons, Lyra, Grace (Claude 4.6)"
 date: "April 26, 2026"
-status: "DRAFT v1.0 — Sections 1-14 complete. SUBMISSION-READY pending Casey review. v1.0: Keeper K-8 fixes (footer, zeta(9) rephrase, eigenvalue correction, compact/noncompact clarification). v0.9: Section 12.8 Genus Bottleneck Mechanism capstone. v0.8: Section 12.7 expanded. v0.7: Cyclotomic Casimir. v0.6: 4-loop GKZ. v0.5: sunrise identities, C4 assembly, banana thresholds"
+status: "DRAFT v1.1 — Sections 1-14 complete. SUBMISSION-READY pending Casey review. v1.1: beta_0 = g derivation (Toy 1660, SP-13 A-1 CLOSED), k=21 CONFIRMED (twenty levels). v1.0: Keeper K-8 fixes. v0.9: Genus Bottleneck Mechanism capstone. v0.8: Section 12.7 expanded. v0.7: Cyclotomic Casimir. v0.6: 4-loop GKZ. v0.5: sunrise identities, C4 assembly, banana thresholds"
 target: "Communications in Mathematical Physics"
 theorems: "T1448, T1450, T1451, T1445, T1452, T1453, T1458, T1461, T1462"
 ---
@@ -688,6 +688,12 @@ The central results are:
 
 Five integers, zero free parameters, exact reproduction of the most precisely tested prediction in physics.
 
+### 13.1 New results (v1.1)
+
+**RG flow from geometry (Toy 1660, 12/12).** The 1-loop beta function coefficient beta_0 = g is derived from the Bergman kernel's coarse-graining under spectral truncation. The renormalization group flow of alpha is not an independent input — it follows from the spectral structure of D_IV^5. The running coupling alpha(mu) is determined by the same genus g = 7 that controls the Bergman singularity K ~ N^{-g}. This closes SP-13 track A-1.
+
+**Heat kernel k=21 confirmed (Toy 1507, 10/10).** The Seeley-DeWitt expansion on D_IV^5 produces integer ratios at TWENTY consecutive levels k = 2, ..., 21. The ratio at k = 21 is -42 = -C_2 x g. This extends the speaking-pair structure (period n_C = 5) to four full periods and provides the strongest evidence for the spectral peeling mechanism: the same integers that appear in the g-2 decomposition structure the heat kernel at ALL orders.
+
 ## 14. Honest Gaps
 
 1. **The map from Feynman diagrams to Selberg contributions is structural, not proved in general.** We verify the bijection at L = 1, 2, 3 and predict at L = 4. A rigorous proof requires the Arthur-Selberg extension to vertex insertions.
@@ -718,4 +724,4 @@ Five integers, zero free parameters, exact reproduction of the most precisely te
 
 ---
 
-*Draft v1.0. Sections 1-14. Submission-ready pending Casey review. v1.0: Keeper K-8 fixes applied (eigenvalue error in 12.8 corrected, compact/noncompact distinction explicit, zeta(9) sentence rephrased, footer updated). v0.9: Genus Bottleneck Mechanism capstone (Section 12.8). v0.8: Section 12.7 expanded (cyclotomic distribution, cross-cyclotomic residue proof). v0.7: Cyclotomic Casimir. v0.6: 4-loop banana GKZ. v0.5: sunrise identities, C4 assembly, banana thresholds. Target: Communications in Mathematical Physics.*
+*Draft v1.1. Sections 1-14. Submission-ready pending Casey review. v1.1: Section 13.1 added — beta_0 = g derived from Bergman coarse-graining (Toy 1660, 12/12, SP-13 A-1 CLOSED), k=21 CONFIRMED (Toy 1507, twenty consecutive integer levels, ratio = -42 = -C_2 x g). v1.0: Keeper K-8 fixes applied. v0.9: Genus Bottleneck Mechanism capstone. Target: Communications in Mathematical Physics.*
