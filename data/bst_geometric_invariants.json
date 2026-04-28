@@ -23201,7 +23201,7 @@
       "paper83_section": "3",
       "tier": "A",
       "cal_tier": "I",
-      "notes": " [Keeper K-21: D->I, 60=rank^2*N_c*n_C algebraic but inflation connection requires slow-roll model]"
+      "notes": "K-21 D\u2192I: 60 = rank^2*N_c*n_C is algebraic, but WHY does the inflation e-folding count equal this specific product? Lyra Toy 1633 derived epsilon = n_C/(2*N_max) from spectral counting, giving N_e = 1/(2*epsilon) = N_max/n_C = 137/5 = 27.4 \u2014 NOT 60. The 60 = rank^2*N_c*n_C identification needs a different slow-roll parameter or multi-field derivation."
     },
     {
       "symbol": "tensor_to_scalar",
@@ -23244,7 +23244,7 @@
       "paper83_section": "3",
       "tier": "A",
       "cal_tier": "I",
-      "notes": "SP-12 U-3.2: Born rule derived, not postulated. Bergman reproducing property gives probability without collapse. [Keeper K-21: D->I, mechanism identified but formal proof that reproducing property = measurement probability needs derivation]"
+      "notes": "K-21 D\u2192I: Bergman reproducing property SUGGESTS Born rule but needs formal proof that K(z,z)/int(K) = |<psi|phi>|^2 in the QM Hilbert space, not just the Bergman Hilbert space. Gap: the map from Bergman H^2(D) to quantum L^2(config space) must preserve the probability measure. Elie Toy 1618 showed consistency (10/10) but not formal equivalence."
     },
     {
       "symbol": "hidden_dims_Nc",
@@ -24172,7 +24172,7 @@
       "paper83_section": "4",
       "tier": "A",
       "cal_tier": "I",
-      "notes": "Promotes mass=winding from I-tier to D-tier. Geodesic computation confirms. [Keeper K-21: D->I, electron=S1 winding and proton=bulk geodesic is ansatz not derived from first principles]"
+      "notes": "K-21 D\u2192I: Elie Toy 1627 showed geodesic length ratio = 6*pi^5 is CONSISTENT with the Bergman metric, but the computation assumes the shortest bulk geodesic has length proportional to rank*N_c*pi^n_C. The formal gap: prove this IS the shortest closed geodesic on D_IV^5 (not just a geodesic that happens to have the right length)."
     },
     {
       "symbol": "Wilson_area_law_derived",
