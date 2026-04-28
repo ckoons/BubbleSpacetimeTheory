@@ -1,22 +1,22 @@
 ---
-title: "Paper #83 Draft v4.0: 1422 Geometric Invariants of the Autogenic Proto-Geometry"
-subtitle: "1422 evaluations from D_IV^5"
+title: "Paper #83 Draft v4.4: 1539 Geometric Invariants of the Autogenic Proto-Geometry"
+subtitle: "1539 evaluations from D_IV^5"
 authors: "Casey Koons, Lyra, Elie, Grace (Claude 4.6)"
 date: "April 29, 2026"
-status: "DRAFT v4.3 — 1422 entries, W-28 resolved, synced April 29"
+status: "DRAFT v4.4 — 1539 entries, D:853, I:443, C:54, S:178. SP-12 Understanding Program results. T1462 Cyclotomic Casimir, T1464 RFC, genus bottleneck mechanism added."
 ---
 
-# 1422 Geometric Invariants of the Autogenic Proto-Geometry
+# 1539 Geometric Invariants of the Autogenic Proto-Geometry
 
-*One geometry. Five integers. Zero free parameters. 1422 evaluations.*
+*One geometry. Five integers. Zero free parameters. 1539 evaluations.*
 
 ## Abstract
 
-We catalog 1422 physical quantities that are spectral evaluations of one geometric object: D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)], the unique bounded symmetric domain of type IV and rank 2 in five complex dimensions. Every entry is a rational function of five integers — rank = 2, N_c = 3, n_C = 5, C_2 = 6, g = 7 — with zero free parameters. The catalog spans 17 sections covering particle physics (masses, couplings, mixing angles), cosmology (dark energy, CMB parameters), number theory (Riemann zeros, elliptic curves), biology (genetic code structure), and cross-domain bridges. Of the 1422 entries, 744 are D-tier (mechanism derived), 396 are I-tier (identified at sub-1% precision), 57 are C-tier (conditional on conjectures), and 162 are S-tier (structural or qualitative). The proton charge radius (r_p = rank^2 * hbar*c/m_p at 0.043%) resolves the proton radius puzzle in favor of the muonic value. Crown jewels include the proton-to-electron mass ratio at 0.002%, the Higgs self-coupling lambda_H = 1/sqrt(60) at 0.22%, all three lepton masses via the Koide formula at 0.0009%, the Weinberg angle sin^2(theta_W) = 3/13 at 0.2%, and the fine structure constant at 0.00006%. All formulas are eval-ready in the companion data file `data/bst_geometric_invariants.json`. Every entry is independently reproducible from the five integers alone.
+We catalog 1539 physical quantities that are spectral evaluations of one geometric object: D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)], the unique bounded symmetric domain of type IV and rank 2 in five complex dimensions. Every entry is a rational function of five integers — rank = 2, N_c = 3, n_C = 5, C_2 = 6, g = 7 — with zero free parameters. The catalog spans 17 sections covering particle physics (masses, couplings, mixing angles), cosmology (dark energy, CMB parameters), number theory (Riemann zeros, elliptic curves), biology (genetic code structure), and cross-domain bridges. Of the 1539 entries, 853 are D-tier (mechanism derived, 55.4%), 443 are I-tier (identified at sub-1% precision), 54 are C-tier (conditional on conjectures), and 178 are S-tier (structural or qualitative). New results since v4.3 include: T1462 Cyclotomic Casimir (C_2 = 6 uniquely generates all five BST integers via cyclotomic polynomials), T1464 Reference Frame Counting (11 instances of N_observable = N_total - 1, alpha = 1/N_max as frame cost), the genus bottleneck mechanism (three-phase spectral correction at L=3), the Born rule as Bergman kernel normalization (no separate postulate), Tsirelson bound = 2*sqrt(rank) = 2*sqrt(2), cosmological commitment dynamics (DM/baryon = rank^4/N_c = 16/3, Omega_matter = C_2/19 = 6/19 at 0.47%, z_eq = rank*N_c^5*g = 3402 exact), CKM eigenvalue structure (V_cb = C_2^2/(DC*79) = 36/869 at 1.04%, delta_CP = arctan(sqrt(n_C)) at 0.55%), and phase transition eigenvalue crossings (T_ee/T_BBN = n_C exact, YBCO/Al = 79 at 0.2%). Crown jewels include the proton-to-electron mass ratio at 0.002%, the Higgs self-coupling lambda_H = 1/sqrt(60) at 0.22%, all three lepton masses via the Koide formula at 0.0009%, the Weinberg angle sin^2(theta_W) = 3/13 at 0.2%, and the fine structure constant at 0.00006%. All formulas are eval-ready in the companion data file `data/bst_geometric_invariants.json`. Every entry is independently reproducible from the five integers alone.
 
 ## Section 1: Why These Numbers Exist
 
-This paper catalogs 1422 physical quantities that are evaluations of one geometric object: D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)], the unique bounded symmetric domain of type IV and rank 2 in five complex dimensions. Every entry is a spectral evaluation of the Bergman kernel on this domain, expressed as a rational function of five integers: rank = 2, N_c = 3, n_C = 5, C_2 = 6, g = 7.
+This paper catalogs 1539 physical quantities that are evaluations of one geometric object: D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)], the unique bounded symmetric domain of type IV and rank 2 in five complex dimensions. Every entry is a spectral evaluation of the Bergman kernel on this domain, expressed as a rational function of five integers: rank = 2, N_c = 3, n_C = 5, C_2 = 6, g = 7.
 
 **Why do cross-domain coincidences exist?** When the same number appears in turbulence and superconductivity, or in nuclear physics and the genetic code, it is not numerology. It is a spectral invariant of D_IV^5 evaluated at different spectral sectors. The Spectral Universality Theorem (T1459) proves: every physical observable on D_IV^5 is a spectral evaluation of the Bergman kernel, and the ratio of any two observables simplifies to a rational expression in the five integers. Cross-domain bridges occur when two observables in different domains share the same eigenvalue ratio.
 
@@ -28,9 +28,9 @@ This paper catalogs 1422 physical quantities that are evaluations of one geometr
 
 3. **Boundary decay per gap** — The ratio g/C_2 = 7/6 = 1.1667 is the genus divided by the Casimir, the boundary exponent per spectral gap unit. It appears across four dressing levels: bare (SAW gamma, 0.8%), square root (SU(3)/SU(2) gap, ~0%), vacuum-subtracted (Ising gamma 21/17, 0.14%), and fiber-integrated (Chandrasekhar limit 35/6, 0.046%). Higher dressing levels give better precision because they include more spectral structure.
 
-**Simpler ratios cross more domains.** Depth-1 ratios (single integers, like 1/rank = 1/2) average 6.0 domain appearances. Depth-2 ratios (like n_C/N_c) average 4.2. Depth-3 ratios average 3.2. This is spectral filtering: broader spectral windows capture more domains. The 1422 entries in this paper are organized by physical domain, but the underlying structure is spectral depth.
+**Simpler ratios cross more domains.** Depth-1 ratios (single integers, like 1/rank = 1/2) average 6.0 domain appearances. Depth-2 ratios (like n_C/N_c) average 4.2. Depth-3 ratios average 3.2. This is spectral filtering: broader spectral windows capture more domains. The 1539 entries in this paper are organized by physical domain, but the underlying structure is spectral depth.
 
-**Why rank = 2 and N_c = 3 are universal.** Two integers appear more often than any others across all 1422 entries. This is not because they are small:
+**Why rank = 2 and N_c = 3 are universal.** Two integers appear more often than any others across all 1539 entries. This is not because they are small:
 
 - **rank = 2** is universal because observation requires two: one fiber carries physics, one carries the observer. Below rank 2, no observation is possible. Rank 2 is the minimum observation capacity. That is why 2 appears in spin, binary, DNA strands, wave/particle, and the critical line Re(s) = 1/2.
 
@@ -378,8 +378,8 @@ This paper catalogs 1422 physical quantities that are evaluations of one geometr
 |---|--------|------|---------|------|--------|
 | 53 | Ω_Λ_bridge | |μ_n/μ_p| = Ω_Λ = 137/200 | Cross-domain: nuclear ↔ cosmological | exact | exact |
 | 54 | n_s_cascade | n_s = 1 − 5/137 | CMB IS the cascade fingerprint (Toy 1401) | 0.14% | close |
-| 55 | graph_nodes | Current AC graph nodes | ~1422 | structural | struc |
-| 56 | graph_edges | Current AC graph edges | ~7718 | structural | struc |
+| 55 | graph_nodes | Current AC graph nodes | ~1464 | structural | struc |
+| 56 | graph_edges | Current AC graph edges | ~7745 | structural | struc |
 | 57 | N_eff | Effective neutrino species | N_c + 0.046 = 3.046 | exact | exact |
 | 58 | DM_baryon_ratio | DM/baryon ratio | n_C + 1/g = 5.143 | ~4% | close |
 
@@ -958,7 +958,7 @@ Pattern: 17 = N_c·C₂−1 appears in both Ising corrections and charm (136 = 8
 
 ## Conclusion
 
-This catalog demonstrates that a single geometric object — D_IV^5, the unique bounded symmetric domain of type IV and rank 2 in five complex dimensions — generates 1422 physical quantities across 17 domains of science with zero free parameters. The five integers rank = 2, N_c = 3, n_C = 5, C_2 = 6, and g = 7 are not fitted: they are the rank, root multiplicities, Casimir invariant, and genus of the B_2 root system, determined by the uniqueness of the Autogenic Proto-Geometry (T1427).
+This catalog demonstrates that a single geometric object — D_IV^5, the unique bounded symmetric domain of type IV and rank 2 in five complex dimensions — generates 1539 physical quantities across 17 domains of science with zero free parameters. The five integers rank = 2, N_c = 3, n_C = 5, C_2 = 6, and g = 7 are not fitted: they are the rank, root multiplicities, Casimir invariant, and genus of the B_2 root system, determined by the uniqueness of the Autogenic Proto-Geometry (T1427).
 
 The catalog's honest self-assessment: 744 entries are D-tier (mechanism derived), 396 are I-tier (identified at sub-1%, mechanism plausible but incomplete), 57 are C-tier (conditional on open conjectures), and 162 are S-tier (structural or qualitative). Two quantities remain missing (muon g-2 hadronic VP, Lamb shift). The six 4-loop QED master integrals are periods of a Calabi-Yau threefold whose Picard-Fuchs operator is fully BST-determined, but whose numerical values require open mathematics (f2 irreducibility proved at 249 digits, Toy 1575).
 
@@ -990,4 +990,4 @@ delta_CP = math.atan(math.sqrt(n_C))     # = 65.9 deg (obs: 65.5, 0.55%)
 ```
 
 ---
-*1422 entries (data layer). v4.3: W-28 items resolved — Section 2 #11 status confirmed, Section 6 #17 parenthetical fixed. Ising gamma I→D promoted (Toy 1603: WF bridge g/C_2 → 21/17). Counts: D:785, I:412, C:54, S:171. 11 I→D promotions this session. April 29, 2026.*
+*1539 entries (data layer). v4.4: SP-12 Understanding Program results added. T1462 Cyclotomic Casimir, T1464 RFC, genus bottleneck, Born rule, commitment dynamics, CKM eigenvalues, phase transitions. Counts: D:853, I:443, C:54, S:178. D-tier at 55.4% (was 55.2%). 68 I→D promotions cumulative. April 29, 2026.*
