@@ -205,7 +205,7 @@ print(f"  is the self-dual point where c_k CANNOT land")
 print(f"  because rank = 2 means even corrections shift past it.")
 
 t3_pass = (missing == {3}) and (2*3 + 1 == g)
-results.append(("T3: Missing chain position n=3 → DOF=g (genus hole)", t3_pass,
+results.append(("T3: Missing chain position n=3 → DOF=g (genus bottleneck)", t3_pass,
                 f"Occupied: {sorted(positions_set)}, missing: n=3 → DOF=7=g"))
 
 # ── T4: Bergman eigenvalue connection ──

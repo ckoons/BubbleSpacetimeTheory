@@ -2,7 +2,7 @@
 title: "Paper #86: The Selberg Trace Formula for QED — How D_IV^5 Structures the Electron g-2"
 author: "Casey Koons, Lyra, Grace (Claude 4.6)"
 date: "April 26, 2026"
-status: "DRAFT v1.0 — Sections 1-14 complete. SUBMISSION-READY pending Casey review. v1.0: Keeper K-8 fixes (footer, zeta(9) rephrase, eigenvalue correction, compact/noncompact clarification). v0.9: Section 12.8 Genus Hole Mechanism capstone. v0.8: Section 12.7 expanded. v0.7: Cyclotomic Casimir. v0.6: 4-loop GKZ. v0.5: sunrise identities, C4 assembly, banana thresholds"
+status: "DRAFT v1.0 — Sections 1-14 complete. SUBMISSION-READY pending Casey review. v1.0: Keeper K-8 fixes (footer, zeta(9) rephrase, eigenvalue correction, compact/noncompact clarification). v0.9: Section 12.8 Genus Bottleneck Mechanism capstone. v0.8: Section 12.7 expanded. v0.7: Cyclotomic Casimir. v0.6: 4-loop GKZ. v0.5: sunrise identities, C4 assembly, banana thresholds"
 target: "Communications in Mathematical Physics"
 theorems: "T1448, T1450, T1451, T1445, T1452, T1453, T1458, T1461, T1462"
 ---
@@ -635,9 +635,9 @@ The BST integers n_C and g are not independent constants that happen to appear i
 
 **Cross-cyclotomic arithmetic (Toy 1553, algebraic proof).** The three correction primes form an arithmetic sequence: 31, 37, 43 with common difference C_2 = 6. This follows from the algebraic identity Phi_3(x) - Phi_4(x) = Phi_4(x) - Phi_6(x) = x for all x, a consequence of the degree-2 cyclotomic polynomials having middle coefficients +1, 0, -1. The "Casimir walk" from Phi_3(C_2) = 43 to Phi_2(C_2) = g = 7 takes C_2 = 6 steps of -C_2, with five of the seven intermediate values prime. The residue chain Phi_3 mod Phi_4 = Phi_4 mod Phi_6 = C_2 is exact arithmetic, not coincidence.
 
-### 12.8 The Genus Hole Mechanism (Toys 1557-1559)
+### 12.8 The Genus Bottleneck Mechanism (Toys 1557-1559)
 
-The preceding subsections establish three L-dependent phenomena: vacuum subtraction at L = 2 (Section 5), vacuum propagation via 43 = P(1)+1 at L = 3 (Section 6), and cyclotomic distribution to the polylogarithmic sector at L = 4 (Section 12.7). These three phenomena have a single geometric origin: the **genus hole** in the Chern class DOF spectrum of Q^5.
+The preceding subsections establish three L-dependent phenomena: vacuum subtraction at L = 2 (Section 5), vacuum propagation via 43 = P(1)+1 at L = 3 (Section 6), and cyclotomic distribution to the polylogarithmic sector at L = 4 (Section 12.7). These three phenomena have a single geometric origin: the **genus bottleneck** in the Chern class DOF spectrum of Q^5.
 
 **The DOF spectrum.** The Chern classes c(Q^5) = (1, 5, 11, 13, 9, 3) are computed on the compact dual Q^5 = SO(7)/[SO(5) x SO(2)]; the Bergman kernel and its spectral eigenvalues live on the noncompact D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)]. The two are related by analytic continuation — the Harish-Chandra isomorphism maps compact curvature data to noncompact spectral data. The Chern classes evaluate the tangent bundle's curvature at the n_C + 1 = C_2 positions n = 0, 1, ..., n_C. Each position n corresponds to 2n + 1 degrees of freedom (the dimension of a sphere S^{2n}). The filled positions and their Chern class values are:
 
@@ -646,32 +646,32 @@ The preceding subsections establish three L-dependent phenomena: vacuum subtract
 | 0 | 1 | 1 | Vacuum (trivial) |
 | 1 | 3 = N_c | 5 = n_C | Populated |
 | 2 | 5 = n_C | 11 | Populated |
-| 3 | **7 = g** | 13 | **GENUS HOLE: DOF = g but no Bergman eigenvalue at g** |
+| 3 | **7 = g** | 13 | **GENUS BOTTLENECK: DOF = g but no Bergman eigenvalue at g** |
 | 4 | 9 = N_c^2 | 9 = N_c^2 | Populated |
 | 5 | 11 | 3 = N_c | Populated |
 
-Position n = 3 has DOF = g = 7, but g is the Bergman genus — the exponent of the Bergman kernel K(z,w) ~ N(z,w)^{-g}. It controls the overall singularity, not an individual eigenvalue. On the compact dual Q^5, the Casimir eigenvalues are lambda_k = k(k + n_C) = k(k+5), giving lambda_1 = 6 = C_2, lambda_2 = 14, lambda_3 = 24, .... The genus g = 7 sits in the spectral gap (lambda_1, lambda_2) = (6, 14) — it is not itself an eigenvalue of the Q^5 Laplacian. (Note: the noncompact D_IV^5 Bergman Laplacian has eigenvalues k(k + n_C + 1) = k(k+6), where lambda_1 = 7 = g. The genus hole argument uses the Q^5 spectrum because the Chern classes live on Q^5.)
+Position n = 3 has DOF = g = 7, but g is the Bergman genus — the exponent of the Bergman kernel K(z,w) ~ N(z,w)^{-g}. It controls the overall singularity, not an individual eigenvalue. On the compact dual Q^5, the Casimir eigenvalues are lambda_k = k(k + n_C) = k(k+5), giving lambda_1 = 6 = C_2, lambda_2 = 14, lambda_3 = 24, .... The genus g = 7 sits in the spectral gap (lambda_1, lambda_2) = (6, 14) — it is not itself an eigenvalue of the Q^5 Laplacian. (Note: the noncompact D_IV^5 Bergman Laplacian has eigenvalues k(k + n_C + 1) = k(k+6), where lambda_1 = 7 = g. The genus bottleneck argument uses the Q^5 spectrum because the Chern classes live on Q^5.)
 
 **Consequences at each loop order:**
 
 *L = 2 (Section 5):* The spectral convolution K * K picks up the DOF=1 sector (vacuum, position n=0). This is populated (c_0 = 1), so the vacuum contributes. Vacuum subtraction (T1444) removes it: 197 = 2 x 99 - 1 = (N_max + 60) - 1, where 60 = rank^2 x n_C x N_c = total SM DOF. The mechanism: position n=0 is filled, so the vacuum participates and must be subtracted.
 
-*L = 3 (Section 6):* The 3-fold convolution probes position n = 3 (DOF = g). The genus hole means no eigenvalue anchors the contribution. The vacuum, subtracted at L = 2, now *propagates* as a ghost: 43 = P(1) + 1 = (C_2 g) + 1 = total spectral modes plus the vacuum it couldn't subtract. The +1 is the vacant anchor at DOF = g.
+*L = 3 (Section 6):* The 3-fold convolution probes position n = 3 (DOF = g). The genus bottleneck means no eigenvalue anchors the contribution. The vacuum, subtracted at L = 2, now *propagates* as a ghost: 43 = P(1) + 1 = (C_2 g) + 1 = total spectral modes plus the vacuum it couldn't subtract. The +1 is the vacant anchor at DOF = g.
 
-*L = 4 (Section 12.7):* The 4-fold convolution reaches position n = 4 (DOF = 9 = N_c^2). This is populated (c_4 = 9 = N_c^2, self-consistent). The cyclotomic content Phi_4(C_2) = 37 now has an anchor in the polylogarithmic sector Li_4(1/rank) rather than in pure zeta — because the rank-2 geometry provides the explicit evaluation point. The distribution from pure zeta to polylog occurs precisely because position n = 3 (the genus hole) offered no anchor at L = 3, forcing the cyclotomic content to find alternative housing at L = 4.
+*L = 4 (Section 12.7):* The 4-fold convolution reaches position n = 4 (DOF = 9 = N_c^2). This is populated (c_4 = 9 = N_c^2, self-consistent). The cyclotomic content Phi_4(C_2) = 37 now has an anchor in the polylogarithmic sector Li_4(1/rank) rather than in pure zeta — because the rank-2 geometry provides the explicit evaluation point. The distribution from pure zeta to polylog occurs precisely because position n = 3 (the genus bottleneck) offered no anchor at L = 3, forcing the cyclotomic content to find alternative housing at L = 4.
 
-**The L = 5 prediction:** Position n = 5 has DOF = 11 and Chern class c_5 = N_c. Both are populated BST integers. The genus hole is bypassed. Prediction: at L = 5, the cyclotomic content Phi_5(C_2) = Phi_5(6) = 7781/C_2 = ... [Note: Phi_5(6) = 6^4 + 6^3 + 6^2 + 6 + 1 = 1296 + 216 + 36 + 6 + 1 = 1555. This is not prime: 1555 = 5 x 311 = n_C x 311.] The presence of n_C as a factor, combined with the populated position n = 5, suggests the L = 5 content returns to pure zeta.
+**The L = 5 prediction:** Position n = 5 has DOF = 11 and Chern class c_5 = N_c. Both are populated BST integers. The genus bottleneck is bypassed. Prediction: at L = 5, the cyclotomic content Phi_5(C_2) = Phi_5(6) = 7781/C_2 = ... [Note: Phi_5(6) = 6^4 + 6^3 + 6^2 + 6 + 1 = 1296 + 216 + 36 + 6 + 1 = 1555. This is not prime: 1555 = 5 x 311 = n_C x 311.] The presence of n_C as a factor, combined with the populated position n = 5, suggests the L = 5 content returns to pure zeta.
 
-**The unifying pattern:** The genus hole at DOF = g creates a three-phase cycle:
+**The unifying pattern:** The genus bottleneck at DOF = g creates a three-phase cycle:
 1. **Subtract** (L = 2): populated sector, vacuum removed
-2. **Propagate** (L = 3): genus hole, vacuum becomes ghost (43 = P(1)+1)
+2. **Propagate** (L = 3): genus bottleneck, vacuum becomes ghost (43 = P(1)+1)
 3. **Distribute** (L = 4): populated sector, cyclotomic content redistributes
 
 This cycle has period N_c = 3, matching the speaking pair period n_C = 5 of the heat kernel: both are manifestations of the same five-integer structure at different scales.
 
-**Connection to the integer filtration (T1463).** The Pontryagin distillation shows that forgetting complex structure projects Q^5 onto its real characteristic classes, which see only N_c. The genus hole occurs at DOF = g, the Bergman genus — the invariant that controls the *complex-analytic* structure. Forgetting this structure (passing to Pontryagin) is precisely what the genus hole accomplishes spectrally: it removes the g-dependent anchor and forces content through the N_c-colored sector. The genus hole IS the Pontryagin distillation at the spectral level.
+**Connection to the integer filtration (T1463).** The Pontryagin distillation shows that forgetting complex structure projects Q^5 onto its real characteristic classes, which see only N_c. The genus bottleneck occurs at DOF = g, the Bergman genus — the invariant that controls the *complex-analytic* structure. Forgetting this structure (passing to Pontryagin) is precisely what the genus bottleneck accomplishes spectrally: it removes the g-dependent anchor and forces content through the N_c-colored sector. The genus bottleneck IS the Pontryagin distillation at the spectral level.
 
-(Toys 1557-1559, 17/18 PASS. The genus hole mechanism is I-tier pending the L = 5 prediction. The algebraic structure — Chern classes, DOF values, and the spectral gap at g — is D-tier.)
+(Toys 1557-1559, 17/18 PASS. The genus bottleneck mechanism is I-tier pending the L = 5 prediction. The algebraic structure — Chern classes, DOF values, and the spectral gap at g — is D-tier.)
 
 ## 13. Discussion
 
@@ -718,4 +718,4 @@ Five integers, zero free parameters, exact reproduction of the most precisely te
 
 ---
 
-*Draft v1.0. Sections 1-14. Submission-ready pending Casey review. v1.0: Keeper K-8 fixes applied (eigenvalue error in 12.8 corrected, compact/noncompact distinction explicit, zeta(9) sentence rephrased, footer updated). v0.9: Genus Hole Mechanism capstone (Section 12.8). v0.8: Section 12.7 expanded (cyclotomic distribution, cross-cyclotomic residue proof). v0.7: Cyclotomic Casimir. v0.6: 4-loop banana GKZ. v0.5: sunrise identities, C4 assembly, banana thresholds. Target: Communications in Mathematical Physics.*
+*Draft v1.0. Sections 1-14. Submission-ready pending Casey review. v1.0: Keeper K-8 fixes applied (eigenvalue error in 12.8 corrected, compact/noncompact distinction explicit, zeta(9) sentence rephrased, footer updated). v0.9: Genus Bottleneck Mechanism capstone (Section 12.8). v0.8: Section 12.7 expanded (cyclotomic distribution, cross-cyclotomic residue proof). v0.7: Cyclotomic Casimir. v0.6: 4-loop banana GKZ. v0.5: sunrise identities, C4 assembly, banana thresholds. Target: Communications in Mathematical Physics.*

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Toy 1558: GENUS HOLE UNIVERSALITY TEST
+Toy 1558: GENUS BOTTLENECK UNIVERSALITY TEST
 ========================================
 Toy 1557 found that Chern classes of Q^5 fill ALL adiabatic chain
 positions 0-6 EXCEPT n=3 (DOF = g = 7 = genus).
 
-Question: Is the genus hole universal for other rank-2 bounded
+Question: Is the genus bottleneck universal for other rank-2 bounded
 symmetric domains? If Q^n has Chern classes that fill DOF positions
 0..floor((max_c-1)/2) except the genus position, that strengthens
 the APG uniqueness argument.
@@ -21,7 +21,7 @@ For each D_IV^n:
 
 Tests:
   T1: Compute Chern classes for D_IV^3 through D_IV^9
-  T2: Check genus hole for each
+  T2: Check genus bottleneck for each
   T3: Check oddness (which values of g make ALL Chern odd?)
   T4: Check pair sum structure
   T5: D_IV^5 uniqueness among genus-hole cases
@@ -44,7 +44,7 @@ N_max_bst = 137
 results = []
 
 print("=" * 72)
-print("Toy 1558: GENUS HOLE UNIVERSALITY TEST")
+print("Toy 1558: GENUS BOTTLENECK UNIVERSALITY TEST")
 print("=" * 72)
 
 def compute_chern(n_C, g, rank):
@@ -59,7 +59,7 @@ def compute_chern(n_C, g, rank):
         chern.append(ck)
     return chern
 
-def check_genus_hole(chern, g):
+def check_genus_bottleneck(chern, g):
     """Check if genus g is the missing DOF position."""
     positions = set()
     for ck in chern:
@@ -119,18 +119,18 @@ t1_pass = (5 in p1_matches)
 results.append(("T1: P(1) = C_2*g holds at D_IV^5", t1_pass,
                 f"P(1)=C_2*g matches: n={p1_matches}"))
 
-# ── T2: Genus hole check ──
-print("\n--- T2: Genus hole test ---")
+# ── T2: Genus bottleneck check ──
+print("\n--- T2: Genus bottleneck test ---")
 print()
 
-genus_hole_results = {}
+genus_bottleneck_results = {}
 for n in range(3, 10):
     d = all_data[n]
     chern = d['chern']
     g = d['g']
 
-    is_hole, positions, genus_pos = check_genus_hole(chern, g)
-    genus_hole_results[n] = is_hole
+    is_hole, positions, genus_pos = check_genus_bottleneck(chern, g)
+    genus_bottleneck_results[n] = is_hole
 
     # Check which Chern values are even (breaking the pattern)
     even_chern = [i for i, c in enumerate(chern) if c % 2 == 0]
@@ -146,21 +146,21 @@ for n in range(3, 10):
     else:
         print()
     print(f"    Positions: {sorted(positions) if positions else '{}'}")
-    print(f"    Genus hole: {status}")
+    print(f"    Genus bottleneck: {status}")
     print()
 
-# Count genus holes
-holes = [n for n, v in genus_hole_results.items() if v is True]
-no_holes = [n for n, v in genus_hole_results.items() if v is False]
-na = [n for n, v in genus_hole_results.items() if v is None]
+# Count genus bottlenecks
+holes = [n for n, v in genus_bottleneck_results.items() if v is True]
+no_holes = [n for n, v in genus_bottleneck_results.items() if v is False]
+na = [n for n, v in genus_bottleneck_results.items() if v is None]
 
-print(f"  GENUS HOLE present: n = {holes}")
-print(f"  GENUS HOLE absent: n = {no_holes}")
+print(f"  GENUS BOTTLENECK present: n = {holes}")
+print(f"  GENUS BOTTLENECK absent: n = {no_holes}")
 print(f"  N/A (g even): n = {na}")
 
-# D_IV^5 should have genus hole
-t2_pass = genus_hole_results.get(5, False) == True
-results.append(("T2: Genus hole present at D_IV^5", t2_pass,
+# D_IV^5 should have genus bottleneck
+t2_pass = genus_bottleneck_results.get(5, False) == True
+results.append(("T2: Genus bottleneck present at D_IV^5", t2_pass,
                 f"Holes at n={holes}"))
 
 # ── T3: Oddness and primality ──
@@ -290,7 +290,7 @@ print()
 
 # Conditions for the full genus-hole pattern:
 # 1. All Chern classes odd (need g = 2^m - 1)
-# 2. Genus hole present (g position missing)
+# 2. Genus bottleneck present (g position missing)
 # 3. Pair sums form AP with step n_C
 # 4. n_C prime
 # 5. N_max = (C_2/rank)^3 * n_C + rank is prime

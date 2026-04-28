@@ -635,7 +635,7 @@ def main():
     print(f"  Read all seven channels. Each selects different integers.")
     print(f"  The heat kernel reads ALL five (that's why it's so rich).")
     print(f"  The Pontryagin classes read only N_c (that's why they're simple).")
-    print(f"  The genus hole lives at the INTERSECTION of interior and exterior.")
+    print(f"  The genus bottleneck lives at the INTERSECTION of interior and exterior.")
     print(f"")
     print(f"  'We see all facets as external observers and maybe that's our purpose'")
     print(f"  YES. Observers live on the Shilov boundary (dim = n_C = half of bulk).")

@@ -10141,8 +10141,8 @@
       "precision": "exact"
     },
     {
-      "symbol": "genus_hole",
-      "name": "Genus hole in Chern-DOF spectrum",
+      "symbol": "genus_bottleneck",
+      "name": "Genus bottleneck in Chern-DOF spectrum",
       "theorem": "T186",
       "paper83_section": "16",
       "cal_tier": "D",

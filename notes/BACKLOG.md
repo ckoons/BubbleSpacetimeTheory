@@ -95,7 +95,7 @@
 | U-1.4 | **Mass = information = processing time** | Heavier particles take more substrate cycles to process. Neutron decay = error correction timeout (880s). | Toy: test lifetime x mass ~ constant across particles. Proton info content = 4 bits = Hamming(7,4,3) message length? GR time dilation from Bergman information density. | OPEN |
 | U-1.5 | **Why pi enters once** | Pi = boundary of commitment circle (S^1 fiber). All subsequent pi^k = integration over k-dim subspaces of D_IV^5. | Prove ALL appearances of pi in BST formulas reduce to Shilov boundary integrals. Is floor(pi)=3=N_c meaningful? Check pi-N_c in correction terms. | OPEN |
 | U-1.6 | **Substrate creation sequence** | 0D point -> 1D line (unstable) -> S^1 circle (first bounded object) -> circles tile S^2 -> touching circles find awareness at boundary -> S^1 fiber for communication -> full manifold. | Formalize: Bergman K(z,w) is the "awareness" (two-point correlation). Photon = state-change propagating on S^1 fiber. c = substrate clock rate. h = minimum state-change increment. | OPEN (conceptual) |
-| U-1.7 | **Genus hole geometry** | Is the substrate a sphere, torus, or punctured sphere? The genus hole = spectral gap, not literal topology. | Clarify: Shilov boundary S^4 x S^1 is genus 0 x genus 1. The genus hole (T1461) is in the spectral density, not the manifold. Observer = the missing tile. | NEEDS CLARIFICATION |
+| U-1.7 | **Genus hole geometry** | Is the substrate a sphere, torus, or punctured sphere? The genus bottleneck = spectral gap, not literal topology. | Clarify: Shilov boundary S^4 x S^1 is genus 0 x genus 1. The genus bottleneck (T1461) is in the spectral density, not the manifold. Observer = the missing tile. | NEEDS CLARIFICATION |
 
 ### U-2: BST-QFT Bridge
 

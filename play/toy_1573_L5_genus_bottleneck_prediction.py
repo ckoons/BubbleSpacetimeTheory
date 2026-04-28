@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Toy 1573 -- L=5 Genus Hole Prediction Test
+Toy 1573 -- L=5 Genus Bottleneck Prediction Test
   BST predicts: at L=5, DOF=9=N_c^2 is populated -> cyclotomic content
   returns to pure zeta sector. Phi_5(C_2) = 1555 = n_C x 311.
 
-  The genus hole mechanism (Toys 1557-1559, Paper #86 Section 12.8):
+  The genus bottleneck mechanism (Toys 1557-1559, Paper #86 Section 12.8):
   - L=2: DOF=3=N_c populated -> vacuum subtraction, zeta(3)
   - L=3: DOF=7=g HOLE -> vacuum propagation, 43=P(1)+1
   - L=4: DOF=9=N_c^2 populated -> cyclotomic distribution to polylog
@@ -24,8 +24,8 @@ from fractions import Fraction
 import math
 
 print("=" * 70)
-print("Toy 1573 -- L=5 Genus Hole Prediction Test")
-print("  Does the genus hole mechanism correctly predict L=5 content?")
+print("Toy 1573 -- L=5 Genus Bottleneck Prediction Test")
+print("  Does the genus bottleneck mechanism correctly predict L=5 content?")
 print("  Five integers: rank=2, N_c=3, n_C=5, C_2=6, g=7")
 print("=" * 70)
 
@@ -53,9 +53,9 @@ positions = list(range(C_2))  # 0, 1, 2, 3, 4, 5
 # WAIT: the mechanism says L probes position n=L-1 for vacuum counting
 # Let me re-read: the three-phase cycle:
 #   L=2: vacuum subtraction (populated sector)
-#   L=3: vacuum propagation (genus hole, 43)
+#   L=3: vacuum propagation (genus bottleneck, 43)
 #   L=4: cyclotomic distribution (populated, redistributes)
-# The genus hole is at position n=3 (DOF=g=7)
+# The genus bottleneck is at position n=3 (DOF=g=7)
 # The cycle has period N_c=3
 #
 # Actually the correct mapping is:
@@ -64,10 +64,10 @@ positions = list(range(C_2))  # 0, 1, 2, 3, 4, 5
 # These are the BST primes (3,5,7) then composites (9,11,...)
 #
 # The DOF connection: each zeta argument 2L-1 corresponds to a DOF
-# BUT the genus hole mechanism is about the CONVOLUTION DEPTH, not the zeta argument
+# BUT the genus bottleneck mechanism is about the CONVOLUTION DEPTH, not the zeta argument
 # The three-phase cycle runs over the Chern positions:
 # Phase 1 (L=2): probes structure at 2-fold depth
-# Phase 2 (L=3): hits genus hole (n=3 has DOF=g=7)
+# Phase 2 (L=3): hits genus bottleneck (n=3 has DOF=g=7)
 # Phase 3 (L=4): redistributes
 # Then L=5 starts a new cycle
 
@@ -225,7 +225,7 @@ print("\n--- T3: Three-Phase Cycle Position at L=5 ---\n")
 
 # The cycle has period N_c = 3
 # L=2: subtract (phase 1 of cycle 1)
-# L=3: propagate (phase 2 of cycle 1) -- GENUS HOLE
+# L=3: propagate (phase 2 of cycle 1) -- GENUS BOTTLENECK
 # L=4: distribute (phase 3 of cycle 1)
 # L=5: subtract (phase 1 of cycle 2) -- NEW CYCLE STARTS
 # L=6: propagate (phase 2 of cycle 2) -- next hole?
@@ -248,7 +248,7 @@ for L in range(2, 8):
         c_val = "—"
 
     role = phase_names[phase]
-    hole_marker = " <-- GENUS HOLE" if (n_pos < C_2 and dof == g) else ""
+    hole_marker = " <-- GENUS BOTTLENECK" if (n_pos < C_2 and dof == g) else ""
     populated = "populated" if (n_pos < C_2 and dof != g) else ("HOLE" if (n_pos < C_2 and dof == g) else "beyond Q^5")
 
     print(f"  {L}  |   {cycle}   |   {phase+1}   | {role:10s} | DOF={dof} ({populated:10s}) | c_{n_pos}={c_val}{hole_marker}")
@@ -261,7 +261,7 @@ print(f"  The content should be PURE ZETA (not polylog), because the populated")
 print(f"  sector provides a spectral anchor (unlike L=4 which followed the hole).")
 
 # L=5 position is n=4, DOF=9=N_c^2, c_4=9=N_c^2
-# This is a "populated" position (unlike n=3 which has DOF=g=genus hole)
+# This is a "populated" position (unlike n=3 which has DOF=g=genus bottleneck)
 t3_pass = (chern[4] == N_c**2) and (2*4+1 == N_c**2)
 print(f"\n  c_4 = {chern[4]} = N_c^2 = {N_c**2}: {chern[4] == N_c**2}")
 print(f"  DOF at n=4 = 2*4+1 = 9 = N_c^2: {2*4+1 == N_c**2}")
@@ -312,7 +312,7 @@ print("    Max new independent zeta at L loops: zeta(2L-1) predicted by BST")
 print("    L=2: zeta(3) -- CONFIRMED")
 print("    L=3: zeta(5) -- CONFIRMED")
 print("    L=4: zeta(7) -- CONFIRMED (Toy 1509)")
-print("    L=5: NO new zeta(9) -- PREDICTED by genus hole + compositeness")
+print("    L=5: NO new zeta(9) -- PREDICTED by genus bottleneck + compositeness")
 print("    L=5 content: products of {zeta(3), zeta(5), zeta(7)} at weight 9")
 
 # The BST mechanism gives a GEOMETRIC reason for the standard conjecture
@@ -361,12 +361,12 @@ print(f"       The n_C factor means the L=5 content sees the FIBER")
 print(f"       (n_C = dim_C of D_IV^5 = fiber over rank-2 base)")
 print()
 
-# Compare with genus hole mechanism:
-# L=4: Phi_4(6) = 37 went to POLYLOG sector (because L=3 genus hole left no anchor)
+# Compare with genus bottleneck mechanism:
+# L=4: Phi_4(6) = 37 went to POLYLOG sector (because L=3 genus bottleneck left no anchor)
 # L=5: Phi_5(6) = 1555 = n_C * 311 goes to PURE ZETA (anchor restored)
 print(f"  Mechanism comparison:")
 print(f"    L=4: Phi_4(6) = {phi_values[4]} -> polylog Li_4(1/2) = Li_{{rank^2}}(1/rank)")
-print(f"           (no spectral anchor after genus hole at L=3)")
+print(f"           (no spectral anchor after genus bottleneck at L=3)")
 print(f"    L=5: Phi_5(6) = {phi_values[5]} = n_C * 311 -> PURE ZETA predicted")
 print(f"           (populated position n=4 restores anchor, new cycle begins)")
 print()
@@ -423,7 +423,7 @@ print()
 print(f"  PREDICTION: C_5 denominators are 7-smooth (no prime > 7 enters)")
 print(f"  This follows from: position n=4 is populated with c_4=N_c^2=9,")
 print(f"  all prime factors of which ({N_c}) are already in the denominator set.")
-print(f"  The genus hole (n=3, DOF=g) forced all four primes into L=4;")
+print(f"  The genus bottleneck (n=3, DOF=g) forced all four primes into L=4;")
 print(f"  once all are present, populated positions add nothing new.")
 
 t6_pass = True  # Structural prediction
@@ -432,7 +432,7 @@ print(f"\n  T6 PASS: Denominator prediction established (7-smooth at L=5)")
 # --- T7: Synthesis and Testable Predictions ---
 print("\n--- T7: Synthesis and Testable Predictions ---\n")
 
-print("  THE GENUS HOLE PREDICTION FOR L=5:")
+print("  THE GENUS BOTTLENECK PREDICTION FOR L=5:")
 print()
 print("  1. NO new transcendental type zeta(9) (agrees with BK conjecture)")
 print("  2. Pure zeta products dominate (not polylog like L=4)")
@@ -442,7 +442,7 @@ print("     fiber-sector contributions")
 print("  5. L=5 starts new three-phase cycle: subtract at N_c^2=9 scale")
 print()
 print("  MECHANISM:")
-print("  - L=4 distributed to polylog BECAUSE L=3 hit the genus hole (no anchor)")
+print("  - L=4 distributed to polylog BECAUSE L=3 hit the genus bottleneck (no anchor)")
 print("  - L=5 returns to pure zeta BECAUSE L=4 populated (c_4=N_c^2, anchor present)")
 print("  - The three-phase cycle (subtract/propagate/distribute) repeats with period N_c=3")
 print()

@@ -151,18 +151,18 @@ Starting from Phi_3(C_2) = 43 and subtracting C_2 = 6 at each step:
 
 The walk takes C_2 = 6 steps and lands on g. The Casimir governs both the step size and the number of steps. Of the 7 values: five are prime (43, 37, 31, 19, 13, 7), one is n_C^2 = 25, and the endpoint is the Bergman genus. The walk length is (Phi_3 - Phi_2)/(step) = (43-7)/6 = 36/6 = C_2.
 
-## The Genus Hole Mechanism (Toys 1557-1559)
+## The Genus Bottleneck Mechanism (Toys 1557-1559)
 
 The Chern classes c(Q⁵) = (1, 5, 11, 13, 9, 3) map to adiabatic chain DOF positions {0, 1, 2, 4, 5, 6} — filling ALL positions 0-6 EXCEPT n=3 where DOF = g = 7 (the Bergman genus). The genus is the "spectral hole" in its own Chern spectrum. All Chern classes are odd because g = 7 = 2³-1 is a Mersenne prime (Lucas' theorem: C(7,k) odd for all k). This Mersenne condition is unique to D_IV^5 among practical rank-2 domains (Toy 1558, 5/6).
 
-**The genus hole explains the Distribution Rule.** At each loop order L, the zeta weight 2L-1 maps to chain position n = L-1:
+**The genus bottleneck explains the Distribution Rule.** At each loop order L, the zeta weight 2L-1 maps to chain position n = L-1:
 
 - L=2: position n=1 (DOF=3) POPULATED by c₅=3=N_c → cyclotomic content stays in pure ζ(3)
 - L=3: position n=2 (DOF=5) POPULATED by c₁=5=n_C → cyclotomic content stays in pure ζ(5)
-- L=4: position n=3 (DOF=7) = GENUS HOLE → no Chern anchor → 37=Φ₄ distributes to polylog
+- L=4: position n=3 (DOF=7) = GENUS BOTTLENECK → no Chern anchor → 37=Φ₄ distributes to polylog
 - L=5 prediction: position n=4 (DOF=9) POPULATED by c₄=9=N_c² → content returns to pure zeta
 
-**Vacuum propagation.** P(1) = 42 = C₂·g counts all Chern modes (populated positions). P(1)+1 = 43 = Φ₃(C₂) includes the vacuum mode filling the genus hole. At L=2, the 2-fold convolution works within Chern-populated positions → vacuum subtracted (T1444). At L=3, the 3-fold Rankin-Selberg unfolding resolves the full P(1)+1 = 43 → vacuum propagates as +1. The genus hole is the structural cause of both T1444 and the Phase 5b findings.
+**Vacuum propagation.** P(1) = 42 = C₂·g counts all Chern modes (populated positions). P(1)+1 = 43 = Φ₃(C₂) includes the vacuum mode filling the genus bottleneck. At L=2, the 2-fold convolution works within Chern-populated positions → vacuum subtracted (T1444). At L=3, the 3-fold Rankin-Selberg unfolding resolves the full P(1)+1 = 43 → vacuum propagates as +1. The genus bottleneck is the structural cause of both T1444 and the Phase 5b findings.
 
 **Adiabatic-cyclotomic bridge (Toy 1556).** The adiabatic chain (step = rank = 2) and cyclotomic corrections (step = C₂ = 6) are fine vs coarse structure of the same odd-integer lattice, bridged by C₂ = rank × N_c. The chain closes to BST primes {N_c, n_C, g} every N_c = 3 steps. The DOF at closure points are g, c₃(Q⁵)=13, Q=19 — Chern classes and mode counts.
 
