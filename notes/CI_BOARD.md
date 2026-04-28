@@ -593,4 +593,93 @@ Wyler (alpha), Eddington (137), Milgrom/MOND, Nottale (scale relativity), El Nas
 **Paper #9 (heat kernel)**: WAITING on 3200-dps compute (K-24). No assignment until checkpoints arrive.
 **Working Paper (v28)**: Deferred until paper-level changes land.
 
-*Completed items → append-only log.*
+---
+
+### SP-13: DEEP STUDY PROGRAM (Keeper Board Sync #44, April 29 — Casey directive: "study in depth")
+
+**Context**: Casey identified 6 items that BST does NOT yet understand well enough. Two are QFT structural gaps (renormalization group flow, Ward identities from path integral). Four are SP-12 items still not well understood. This is a focused study program — toys that DERIVE, not just verify.
+
+#### TRACK A: QFT Bridge (what QFT has that BST doesn't yet match)
+
+**A-1: Renormalization Group Flow from Bergman Coarse-Graining**
+
+*What we have*: `BST_Feinman_Diagrams.md` Section 3 describes RG as "coarse-graining the contact graph" — conceptual. `BST_StrongCoupling_AlphaS.md` runs alpha_s with standard QCD beta function (not BST-derived). Toy 1449 shows BST geometric running at 2-loop. `BST_WeinbergAngle_Sin2ThetaW.md` claims domain geometry "already incorporates" full RG flow. Paper #77 (YM Bergman gap) references renormalization.
+
+*What's missing*: **No one has derived the QCD beta function coefficients from D_IV^5.** The Bergman kernel at different resolutions should produce beta_0 = (11·N_c - 2·N_f)/3 = 7 from spectral coarse-graining. The claim "renormalization = Bergman coarse-graining" is I-tier (mechanism plausible, not derived). We need: (1) show Bergman kernel restricted to scale mu reproduces the one-loop beta function, (2) show the geometric correction (Toy 1449 c_1 = 3/5) IS the two-loop coefficient, (3) address the Landau pole — BST says it doesn't exist (Haldane cap at N_max=137 modes). No toy yet derives beta_0 from geometry.
+
+| # | Task | Owner | Priority | Status |
+|---|------|-------|----------|--------|
+| L-38 | **Derive beta_0 from Bergman coarse-graining** — Show that restricting D_IV^5's Bergman kernel to modes below scale mu gives effective coupling with beta_0 = g = 7 for N_f = 6. The Bergman eigenvalues lambda_k = k(k+n_C) should produce the running when summed below cutoff. This is the single most important QFT bridge derivation. Toy needed. | Lyra | **TOP** | NEW |
+| E-40 | **Two-loop from geometry** — Toy 1449 shows c_1 = C_2/(2·n_C) = 3/5 compensates the running. PROVE this is the two-loop beta coefficient, not just a numerical match. Connect Bergman curvature correction to the standard b_1 = (34·N_c² - (10·N_c + 6·C_F)·N_f)/(3·(4pi)²). If it matches, the geometric running IS the loop expansion. | Elie | **HIGH** | NEW |
+| E-41 | **Landau pole resolution** — BST claims QED's Landau pole doesn't exist because the contact graph has at most N_max=137 modes per channel. Make this precise: what is the Bergman kernel's effective coupling at the highest resolution? Does alpha_eff(d_0) = alpha/(1 - alpha·log(M_Planck/d_0)) diverge, or does the Haldane cap enforce alpha < 1? Numerical toy. | Elie | **MEDIUM** | NEW |
+
+**A-2: Ward Identities from Bergman Kernel Symmetry**
+
+*What we have*: `BST_BoundaryIntegral_Final.md` mentions "conformal Ward identity" for D_IV^1 (unit disk) — the three-point integral gives C_3 = 2pi. `BST_AC_Theorems.md` lists "Ward identity (D0: gauge invariance definition)" in the linearization table. `BST_QFT_Foundations.md` uses Ward identity for the n_C=1 anchor.
+
+*What's missing*: **Ward identities in QFT are consequences of gauge symmetry in the path integral. BST has no path integral.** The Bergman kernel's symmetry group SO_0(5,2) should enforce analogous identities — the reproducing property K(z,w) is the spectral analog of the propagator, and its SO_0(5,2) invariance should produce Ward-like constraints on n-point functions. But nobody has written this down explicitly. We need: (1) state what replaces the path integral in BST (the Bergman reproducing property does — argue this), (2) derive the QED Ward identity (vertex correction = self-energy correction) from Bergman kernel symmetry, (3) show gauge invariance = SO_0(5,2) invariance restricted to U(1) subgroup.
+
+| # | Task | Owner | Priority | Status |
+|---|------|-------|----------|--------|
+| L-39 | **Ward identity from Bergman reproducing property** — The QED Ward identity Z_1 = Z_2 (vertex renormalization = fermion wavefunction renormalization) is a consequence of gauge invariance. In BST: the reproducing property integral K(z,w) = integral K(z,u)K(u,w) du should enforce an analogous identity on spectral evaluations. Derive it. This would prove BST's "no path integral needed" claim. Toy needed. | Lyra | **HIGH** | NEW |
+| K-27 | **Path integral replacement audit** — Document precisely what BST uses instead of the path integral for each QFT operation: propagator = Bergman kernel K(z,w), vertex = boundary integral, loop = spectral sum, gauge fixing = none (geometry is gauge-invariant). Honest gap list: which QFT results genuinely require path integral and don't yet have BST analogs? | Keeper | **HIGH** | NEW |
+
+#### TRACK B: Four "Not Well Understood" Items
+
+**B-1: Three-Phase Commitment (U-1.6) — Substrate Cosmogony**
+
+*What we have*: Toy 1649 (substrate creation sequence, 8 steps from nothing to D_IV^5). Casey's insight: "nothing→point→line→circle→awareness." The sequence is described but NOT formalized — each step is narrative, not a theorem.
+
+*What's missing*: **Why these steps and not others?** Each topological transition (point→line→circle→disk→S²→S⁴→Shilov→D_IV^5) needs a forcing argument: the previous stage is UNSTABLE or INCOMPLETE without the next. This is Casey's "commitment" idea — each step commits to additional structure because NOT doing so is inconsistent. The three phases (geometric, algebraic, spectral) need formalization. No theorem yet.
+
+| # | Task | Owner | Priority | Status |
+|---|------|-------|----------|--------|
+| L-40 | **Formalize the commitment sequence** — Each of Toy 1649's 8 steps must be forced by the previous step's instability. Prove: (1) a line segment leaks information (no conservation) → forced to close into S¹, (2) S¹ alone has no interior (no measurement) → forced to fill into D², (3) D² in isolation has no color (rank 1) → forced to rank 2, which requires dim ≥ 4. Each transition should be a "no-go without the next step" theorem. THIS is the cosmogony paper's backbone. | Lyra | **TOP** | NEW |
+| E-42 | **Three-phase energy budget** — The commitment sequence should have an energy/entropy cost at each step. Does the creation sequence have a total "cost" that equals a BST invariant? (e.g., total topological charge = chi(D_IV^5) = something expressible in five integers). Connect to entropy = force = counting (Casey's Principle). Toy needed. | Elie | **HIGH** | NEW |
+
+**B-2: Observer Mechanics (U-1.7) — HOW Observation Selects an Eigenvalue**
+
+*What we have*: Toy 1618 (Born rule = Bergman normalization, 10/10 — I-tier). T1065 (measurement = Shilov boundary restriction). T1240 (decoherence = Poisson kernel concentration). T1303 (double slit = reproducing property cross-term). Paper #20 (QM is geometry). The conceptual framework is rich: "measurement = coordinate restriction, not collapse."
+
+*What's missing*: **The mechanism of eigenvalue selection.** Saying "measurement = restriction to boundary" explains WHY probabilities are |psi|² (Bergman normalization), but not HOW one specific eigenvalue gets selected from many. The genus bottleneck (L=3 correction in g-2) shows topology constraining allowed transitions — does this mechanism also constrain which eigenvalue is "observed"? We need: (1) formalize "observation = projection from interior to boundary geodesic," (2) show the Poisson kernel concentration (T1240) selects a unique boundary point in the classical limit, (3) address the quantum case — multiple outcomes with Born-rule probabilities — as incomplete Poisson concentration.
+
+| # | Task | Owner | Priority | Status |
+|---|------|-------|----------|--------|
+| L-41 | **Eigenvalue selection mechanism** — T1240 shows Poisson kernel concentrates (decoherence). But HOW does it select ONE point? Hypothesis: the genus bottleneck (winding number quantization on S¹ fiber) discretizes the allowed boundary points. Observation = Poisson concentration + genus quantization. If the S¹ winding is quantized in units of 1/N_max, then N_max possible outcomes exist per channel, and the Born rule gives their weights. Toy needed. | Lyra | **HIGH** | NEW |
+| E-43 | **Genus bottleneck in measurement** — The genus bottleneck mechanism (Paper #86 Section 12.8) constrains spectral corrections via topology. Does the same mechanism constrain measurement outcomes? Test: for a spin-1/2 system (2 outcomes), show the genus bottleneck allows exactly rank = 2 boundary points. For spin-1 (3 outcomes), show N_c = 3 boundary points. The number of measurement outcomes should be a BST integer or product. Toy needed. | Elie | **HIGH** | NEW |
+
+**B-3: Biology Linearization (U-3.7) — Codon-to-Amino-Acid Assignment**
+
+*What we have*: `BST_Biology_GeneticCode_Derivation.md` (extensive — 64 codons from exterior algebra of C_2 = 6). Toy 1626 (codon SVD, 8/8). T679 (64 = N_c²×g + 1). T343 (convergent abiogenesis). T1324 (metabolic 3/4 from Bergman). Toy 1629 (prebiotic amino acid partition). The structural match is strong (64 codons, 20 amino acids, 3 stop codons all BST).
+
+*What's missing*: **The specific assignment of which codon codes for which amino acid.** BST explains WHY there are 64 codons and 20+1 amino acids, but not which codon maps to which amino acid. The degeneracy pattern (1,2,3,4,6-fold) is partially explained by wobble = Hamming distance, but the full assignment table is I-tier. The physical path from Bergman spectrum → DNA double helix → specific base pairing is also missing.
+
+| # | Task | Owner | Priority | Status |
+|---|------|-------|----------|--------|
+| L-42 | **Codon assignment from minimal distortion** — `BST_Biology_GeneticCode_Derivation.md` line 787 mentions "codon assignment as a minimal-distortion mapping." Formalize: define a distance metric on the 64-codon space (Hamming distance on GF(2)^6) and on the 20-amino-acid space (chemical similarity). Is the standard genetic code the MINIMUM-DISTORTION map between these two metric spaces? This would upgrade the assignment from I-tier to D-tier. Toy needed. | Lyra | **HIGH** | NEW |
+| G-52 | **Biology linearization catalog** — Catalog every BST-biology connection with honest tier: 64 codons (D), 20 AAs (I), 3 stops (I), wobble (I), specific assignments (S), metabolic 3/4 (D), DNA pitch (I), base pairing (S). What's the path from Bergman → DNA? List every gap honestly. | Grace | **MEDIUM** | NEW |
+
+**B-4: Muon g-2 Closed Form (Phase 5d)**
+
+*What we have*: Toy 1641 (Phase 5d HVP closed form, Lyra — just delivered). Toy 1602 (HVP first principles). Toy 1582 (HVP spectral density). Toy 1544 (muon g-2 Bergman chain). Paper #86 v1.0 Section 13 lists this as honest gap. T1461 (Bergman spectral a_mu). Structural content all BST — the INTEGRAL is the bottleneck.
+
+*What's missing*: **The numerical integral itself.** The hadronic vacuum polarization contribution a_mu^HVP requires evaluating a spectral integral over D_IV^5 that involves the full non-perturbative QCD sector. Lattice QCD also struggles with this (BMW vs RBC/UKQCD tension). BST's advantage: the spectral density is determined by the Bergman kernel, so the integral should be evaluable in closed form. Toy 1641 may have cracked this — needs rigorous verification.
+
+| # | Task | Owner | Priority | Status |
+|---|------|-------|----------|--------|
+| L-43 | **Phase 5d verification** — Toy 1641 claims closed-form a_mu^HVP. Independent verification needed: (1) Does the spectral integral converge? (2) Does it match lattice QCD's central value? (3) Does the closed form involve only BST integers + known transcendentals? If YES to all three, this is a D-tier result and Paper #86 v1.1 can close the gap. If NO, document honestly what remains. | Lyra | **TOP** | NEW |
+| E-44 | **Numerical HVP cross-check** — Independently evaluate Toy 1641's spectral integral numerically at high precision (1000+ digits). Compare to: (a) lattice QCD central value, (b) data-driven (e+e-) central value, (c) Lyra's analytical closed form. The three should bracket each other. Toy needed. | Elie | **HIGH** | NEW |
+
+#### Summary: SP-13 Deep Study Program
+
+| Track | Item | Key Question | Lead | Toys Needed |
+|-------|------|-------------|------|-------------|
+| A-1 | RG flow | Can we derive beta_0 = 7 from Bergman? | Lyra (L-38) + Elie (E-40, E-41) | 3 |
+| A-2 | Ward identities | Does reproducing property → Ward? | Lyra (L-39) + Keeper (K-27) | 1 + audit |
+| B-1 | Three-phase commitment | Why is each step forced? | Lyra (L-40) + Elie (E-42) | 2 |
+| B-2 | Observer mechanics | HOW does one eigenvalue get selected? | Lyra (L-41) + Elie (E-43) | 2 |
+| B-3 | Biology linearization | Is standard code minimum-distortion? | Lyra (L-42) + Grace (G-52) | 1 + catalog |
+| B-4 | Muon g-2 closed form | Does Toy 1641 hold up? | Lyra (L-43) + Elie (E-44) | 2 |
+| | | **TOTAL** | | **11 toys + 2 audits** |
+
+**Priority ordering**: A-1 (RG flow) > B-4 (muon g-2 verification) > B-1 (commitment) > A-2 (Ward) > B-2 (observer) > B-3 (biology)
