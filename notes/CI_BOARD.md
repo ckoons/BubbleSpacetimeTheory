@@ -484,7 +484,8 @@ Casey's speculation: the natural dimension is N_max = 137 independent evaluation
 - G-21: Codon SVD — ~~Elie verification~~ DONE (Toy 1571). Lyra derivation path (L-15) OPEN.
 - LT-7: Cancer circuit next phase (RNA toehold design)
 - SP-12: Understanding Program — all CIs contributing
-- **Paper #83 v4.4**: count updates (1500+→current), D:830+
+- **Paper #83 v4.4→v4.5**: count updates (1539→1641), crown jewels (n_s, uniqueness, confinement)
+- **Paper update sprint**: #83 (Lyra), #85 (Elie), #86 (Lyra), #87 (Keeper), #84 (Elie) — Board Sync #43
 
 ---
 
@@ -559,5 +560,37 @@ Casey's speculation: the natural dimension is N_max = 137 independent evaluation
 Wyler (alpha), Eddington (137), Milgrom/MOND, Nottale (scale relativity), El Naschie (E-infinity), Lisi (E₈), Wheeler (it from bit), Dirac (LNH), Sakharov (induced gravity), Regge (trajectories as speaking pairs), Verlinde (entropic gravity).
 
 **Cal audit actions** (April 27): ~~(1) Null-model~~ DONE. **(2) D/I/C/S tier column** — Grace ACTIVE. ~~(3) verify_bst.py~~ DONE 49/50.
+
+---
+
+### PAPER UPDATE SPRINT (Keeper Board Sync #43, April 29 — Casey directive: "assign paper updates")
+
+**Context**: This session produced 27 toys (1616-1642) with major SP-12 Understanding Program results. Five papers need updates to incorporate these results.
+
+### Lyra — Paper Updates
+| # | Task | Priority | Status |
+|---|------|----------|--------|
+| L-36 | **Paper #83 v4.5** — Update counts 1539→1641 (title, abstract, tagline, all section headers). D:853→923, I:443→475, S:178→189. Add session crown jewels: n_s=1-n_C/N_max DERIVED (Toy 1633), 2^{n-2}=n+3 uniqueness (Toy 1638), confinement=Hamming at 0.09% (Toy 1634), Wilson loop area law (Toy 1624). Born rule=Bergman stays I-tier (honest). Biggest update since v4.0. | **TOP** | NEW |
+| L-37 | **Paper #86 v1.1: Phase 5d HVP** — Toy 1641 delivered closed-form a_mu^HVP. If solid, incorporate into Section 13 (Honest Gaps) to close the hadronic vacuum polarization gap. This is the paper's hardest open derivation. Review Toy 1641 quality before incorporating. | **HIGH** | NEW |
+
+### Elie — Paper Updates
+| # | Task | Priority | Status |
+|---|------|----------|--------|
+| E-38 | **Paper #85 v0.3: Uniqueness theorem** — Add 2^{n-2}=n+3 one-line uniqueness proof (Toy 1638) to Section 5 or 6. This is the cleanest proof that D_IV^5 is unique — belongs in the Genesis Cascade paper. New theorem statement + toy reference. | **HIGH** | NEW |
+| E-39 | **Paper #84 v0.3: DM + Born rule** — (1) Strengthen Section 2 with DM=incomplete windings mechanism (Toy 1637). (2) Strengthen Section 3 with Born rule=Bergman normalization (Toy 1618) — no separate postulate needed. Both are I-tier (honest). | **MEDIUM** | NEW |
+
+### Keeper — Paper Updates
+| # | Task | Priority | Status |
+|---|------|----------|--------|
+| K-25 | **Paper #87 v0.3: Confinement + Numerator rule** — (1) Strengthen Sections 2/8 with confinement=Hamming distance sqrt(sigma)=m_p/sqrt(n_C) at 0.09% (Toy 1634, 12/12). (2) Add numerator rule=Hamming subsection (Toy 1628, 9/10): quarks=rank², bosons=N_c, loops=1 from code structure. Both D-tier. | **HIGH** | NEW |
+| K-26 | **Paper update gate review** — After L-36, L-37, E-38, E-39, K-25 complete, verify all five papers have consistent counts, honest tier labels, and no contradictions across papers. Single consistency pass. | MEDIUM | WAITING |
+
+### Grace — Paper Support
+| # | Task | Priority | Status |
+|---|------|----------|--------|
+| G-51 | **Paper #83 delta preparation** — Prepare the 1539→1641 entry delta for Lyra's v4.5. Which 102 new entries are crown jewels? Which change the story? Flag any that need section reassignment. Feed to L-36. | **HIGH** | NEW |
+
+**Paper #9 (heat kernel)**: WAITING on 3200-dps compute (K-24). No assignment until checkpoints arrive.
+**Working Paper (v28)**: Deferred until paper-level changes land.
 
 *Completed items → append-only log.*
