@@ -23200,7 +23200,8 @@
       "status": "closed-form",
       "paper83_section": "3",
       "tier": "A",
-      "cal_tier": "D"
+      "cal_tier": "I",
+      "notes": " [Keeper K-21: D->I, 60=rank^2*N_c*n_C algebraic but inflation connection requires slow-roll model]"
     },
     {
       "symbol": "tensor_to_scalar",
@@ -23242,8 +23243,8 @@
       "status": "structural",
       "paper83_section": "3",
       "tier": "A",
-      "cal_tier": "D",
-      "notes": "SP-12 U-3.2: Born rule derived, not postulated. Bergman reproducing property gives probability without collapse."
+      "cal_tier": "I",
+      "notes": "SP-12 U-3.2: Born rule derived, not postulated. Bergman reproducing property gives probability without collapse. [Keeper K-21: D->I, mechanism identified but formal proof that reproducing property = measurement probability needs derivation]"
     },
     {
       "symbol": "hidden_dims_Nc",
@@ -24170,8 +24171,8 @@
       "status": "closed-form",
       "paper83_section": "4",
       "tier": "A",
-      "cal_tier": "D",
-      "notes": "Promotes mass=winding from I-tier to D-tier. Geodesic computation confirms."
+      "cal_tier": "I",
+      "notes": "Promotes mass=winding from I-tier to D-tier. Geodesic computation confirms. [Keeper K-21: D->I, electron=S1 winding and proton=bulk geodesic is ansatz not derived from first principles]"
     },
     {
       "symbol": "Wilson_area_law_derived",
