@@ -3,7 +3,7 @@
     "title": "Geometric Invariants of the Autogenic Proto-Geometry",
     "description": "Every physical constant as a geometric evaluation on D_IV^5. No series, no perturbation, no fitting.",
     "last_updated": "2026-04-28",
-    "total_entries": 1607,
+    "total_entries": 1610,
     "missing_count": 3,
     "tension_count": 0,
     "paper": "Paper #83 \u2014 Geometric Invariants of the APG",
@@ -24214,6 +24214,48 @@
       "paper83_section": "6",
       "tier": "B",
       "cal_tier": "I"
+    },
+    {
+      "symbol": "pi_CF_BST",
+      "name": "Pi continued fraction: [N_c; g, N_c*n_C, ...]",
+      "formula": "pi = [3; 7, 15, 1, 292, ...] = [N_c; g, N_c*n_C, 1, ...]",
+      "geometric_source": "First 3 CF coefficients of pi ARE BST integers: floor(pi)=N_c, first partial=g, second=N_c*n_C=15. Elie Toy 1629.",
+      "value": "[3; 7, 15, ...]",
+      "observed": "pi CF (exact)",
+      "precision": "exact",
+      "theorem": "T186",
+      "status": "closed-form",
+      "paper83_section": "14",
+      "tier": "A",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "Archimedes_RFC",
+      "name": "Archimedes 22/7 = (N_c*g+1)/g shows RFC",
+      "formula": "22/7 = (N_c*g + 1)/g = (21+1)/7. The +1 is RFC on N_c*g modes.",
+      "geometric_source": "Archimedes' approximation has RFC structure. 21 = N_c*g = dim SO(5,2). Elie Toy 1629.",
+      "value": "22/7",
+      "observed": "22/7 (Archimedes)",
+      "precision": "0.04% from pi",
+      "theorem": "T186",
+      "status": "closed-form",
+      "paper83_section": "14",
+      "tier": "A",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "Wallis_C2_factor",
+      "name": "Wallis factor C_2^2/(n_C*g) = 36/35",
+      "formula": "C_2^2/(n_C*g) = 36/35. Algebraically exact Wallis product factor.",
+      "geometric_source": "Wallis product for pi/2: first BST factor = C_2^2/(n_C*g). Elie Toy 1629.",
+      "value": "36/35",
+      "observed": "Wallis product",
+      "precision": "exact",
+      "theorem": "T186",
+      "status": "closed-form",
+      "paper83_section": "14",
+      "tier": "A",
+      "cal_tier": "D"
     }
   ]
 }
