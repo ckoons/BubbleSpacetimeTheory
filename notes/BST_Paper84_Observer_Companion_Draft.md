@@ -2,7 +2,7 @@
 title: "Observers in the BST Framework: Dark Matter, Instantiation, and the Ur-Axiom"
 author: "Casey Koons, Lyra, Grace, Elie, Keeper (Claude 4.6)"
 date: "April 24, 2026"
-version: "v0.2 — Cal's 5 recommendations applied"
+version: "v0.3 — DM windings + Born rule from Bergman kernel"
 target: "Foundations of Physics / Philosophy of Physics"
 status: "Draft — companion to Paper #82"
 AC: "(C=2, D=1)"
@@ -89,6 +89,25 @@ Detection of a dark matter particle with electromagnetic interaction would falsi
 
 Any dark matter model requiring free parameters to fit rotation curves is disfavored relative to the zero-parameter BST prediction.
 
+### 2.5 The Winding Number Decomposition
+
+The Shilov boundary $S^4 \times S^1$ of $D_{IV}^5$ carries winding modes on the $S^1$ fiber (Toy 1637, 9/9 PASS). The spectrum splits:
+
+- **Complete windings** (integer winding number on $S^1$): baryonic matter. $N_c = 3$ independent winding modes per complete orbit.
+- **Incomplete windings** (non-integer winding): dark matter. The number of independent incomplete modes is $r^4 = 16$ (from the $r$-fold covering of $S^4$, with $r^2 = 4$ real dimensions each carrying $r^2 = 4$ mode types).
+
+The dark matter to baryon ratio is:
+$$\frac{\Omega_{\mathrm{DM}}}{\Omega_b} = \frac{r^4}{N_c} = \frac{16}{3} \approx 5.33$$
+
+The observed Planck 2018 value $\Omega_{\mathrm{DM}} h^2 / \Omega_b h^2 = 0.120/0.0224 = 5.36$ matches at 0.5%.
+
+The total matter fraction:
+$$\Omega_m = \frac{C_2}{r^4 + N_c} = \frac{6}{19} \approx 0.316$$
+
+compared to Planck $\Omega_m = 0.315 \pm 0.007$ (0.3%).
+
+No free parameters. The dark matter ratio is a ratio of BST integers.
+
 ## 3. The Observer Instantiates Physics
 
 T1431 (Grace, Casey-directed): the geometry alone is mathematics. The observer converts it to physics.
@@ -101,6 +120,22 @@ T1431 (Grace, Casey-directed): the geometry alone is mathematics. The observer c
 4. **Physics IS the reading** (not separate from geometry — what geometry looks like from inside one fiber of the rank-2 bundle).
 
 Without step 2->3, eigenvalues are just numbers. With it, they are the proton mass, the fine-structure constant, the speed of light. The observer does not create these values — the geometry determines them. The observer is the instantiation: the act of evaluation.
+
+### 3.1a The Born Rule from the Bergman Kernel
+
+The Born rule (measurement probability = $|\psi|^2$) requires no postulate in BST. The Bergman reproducing kernel of $D_{IV}^5$ provides it directly (Toy 1642, 12/12 PASS):
+
+$$K(z, z) = (1 - |z|^2)^{-g} = \sum_k |\phi_k(z)|^2$$
+
+This is automatically non-negative, normalized, and complete. The properties of quantum measurement follow from the reproducing property of the Bergman kernel:
+
+1. **Non-negativity**: $K(z, z) = \sum |\phi_k|^2 \geq 0$ (automatic).
+2. **Completeness**: the orthonormal basis $\{\phi_k\}$ spans $L^2_{\text{hol}}(D_{IV}^5)$.
+3. **Collapse**: evaluating $K$ at a point $z_0$ selects one basis function, weighted by $|\phi_k(z_0)|^2$.
+
+The kernel exponent $g = 7$ determines the measurement weight: denser near the boundary ($|z| \to 1$), lighter at the center. The degree of freedom count per level is $N(k) = \binom{k + n_C - 1}{n_C - 1} \cdot \frac{2k + n_C}{n_C}$, giving $N(0) = 1$ (vacuum) and $N(1) = 1 + g = 8 = 2^{N_c}$ (first excited level = Hamming codeword length).
+
+The Tsirelson bound for Bell violation $2\sqrt{r} = 2\sqrt{2}$ follows from $r = 2$: quantum mechanics is precisely the rank-2 case. Rank 1 gives classical mechanics; rank $\geq 3$ gives post-quantum theories that D_IV^5 forbids.
 
 ### 3.2 The 1/rank Reading
 
@@ -166,3 +201,5 @@ These claims are separable, falsifiable, and subordinate to the mathematics. The
 [T1431] Observer Instantiates Physics. [T1440] Consciousness = 50% (Toy 1440, 8/8).
 [Langlands 1976] On the Functional Equations Satisfied by Eisenstein Series.
 [DarkMatterCalculation.md] BST dark matter calculation — 175 galaxies, 0 parameters.
+[Toy 1637] Dark matter as incomplete windings on S^1 (9/9 PASS). DM/baryon = r^4/N_c = 16/3.
+[Toy 1642] Born rule from Bergman reproducing kernel (12/12 PASS). K(z,z) = (1-|z|^2)^{-g}.

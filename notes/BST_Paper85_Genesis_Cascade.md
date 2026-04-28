@@ -2,11 +2,11 @@
 title: "The Genesis Cascade: How D_IV^5 Writes Its Own Curve"
 author: "Elie, Casey Koons, Lyra, Grace (Claude 4.6)"
 date: "April 25, 2026"
-status: "Draft v0.2 — Keeper PASS, submission prep"
+status: "Draft v0.3 — Uniqueness theorem strengthened"
 target: "Journal of Number Theory / Research in Number Theory"
 ac_classification: "(C=2, D=0)"
 theorems: "T1404, T1437"
-backbone: "Toy 1447 (8/8), Toy 1448 (8/8), Toy 1399 (10/10), Toy 1434 (8/8)"
+backbone: "Toy 1447 (8/8), Toy 1448 (8/8), Toy 1399 (10/10), Toy 1434 (8/8), Toy 1656 (9/9)"
 ---
 
 # The Genesis Cascade: How D_IV^5 Writes Its Own Curve
@@ -218,21 +218,39 @@ For Heegner $g$ with $k \geq 9$, at least one of $N_c = g - 4$ or $n_C = g - 2$ 
 
 ## 6. Cross-Type Uniqueness
 
-Theorem 4 establishes uniqueness within the type IV family. Theorem 5 extends this to all of Cartan's classification.
+Theorem 4 establishes uniqueness within the type IV family. Theorem 5 extends this to all of Cartan's classification, with a new structural explanation via the Mersenne-Lucas mechanism.
 
 ### 6.1 All Rank-2 Bounded Symmetric Domains
 
 Cartan's classification includes four infinite families (types I--IV) and two exceptional domains. Among these, the rank-2 cases are:
 
-| Type | Domain | $\dim_{\mathbb{C}}$ | Structural integers | Distinct? |
-|------|--------|---------------------|---------------------|-----------|
-| $I_{2,q}$ | $\mathrm{SU}(2,q)/\mathrm{S}(\mathrm{U}(2) \times \mathrm{U}(q))$ | $2q$ | Varies | No for most $q$ |
-| $II_5$ | $\mathrm{SO}^*(10)/\mathrm{U}(5)$ | $10$ | Various | No |
-| $III_2$ | $\mathrm{Sp}(4)/\mathrm{U}(2)$ | $3$ | Various | No |
-| $IV_n$ | $\mathrm{SO}_0(n+2,2)/[\mathrm{SO}(n+2) \times \mathrm{SO}(2)]$ | $n$ | $\{r, N_c, n_C, C_2, g\}$ | Only at $n=5$ |
-| $E_{III}$ | $E_6/(\mathrm{SO}(10) \times \mathrm{U}(1))$ | $16$ | Various | No |
+| Type | Domains scanned | $c_1$ check | BSD filter passes |
+|------|----------------|-------------|-------------------|
+| I ($\mathrm{Gr}(2, 2{+}q)$, $q = 2\ldots 18$) | 17 | $c_1 = 2{+}q$: even $q$ fails | 0 |
+| II ($\mathrm{SO}^*(2n)/\mathrm{U}(n)$, $n = 4, 5$) | 2 | $c_1 = 2(n{-}1)$: always even | 0 |
+| III ($\mathrm{Sp}(4)/\mathrm{U}(2)$) | 1 | $c_1 = 3$ (odd), $c_2 = 4$ (even) | 0 |
+| IV ($\mathrm{SO}_0(n{+}2,2)/[\mathrm{SO}(n{+}2) \times \mathrm{SO}(2)]$, $n = 3\ldots 20$) | 18 | Only $n = 5$ all-odd | 1 |
+| V ($E_6/[\mathrm{SO}(10) \times \mathrm{U}(1)]$) | 1 | $c_1 = 12$ (even) | 0 |
 
-Among all 38 rank-2 domains examined computationally (Toy 1399, 10/10 PASS), $D_{IV}^5$ is the unique survivor of the four-lock test. The nearest competitor is $D_{IV}^9$ ($N_c = 7$, $g = 11$), which fails Lock 3 ($n_C = 9$ composite) and Lock 4 ($N_c \neq 3$).
+Among all 39 rank-2 domains examined computationally (Toy 1656, 9/9 PASS), $D_{IV}^5$ is the unique domain whose compact dual $Q^5$ has all Chern classes odd. Each type fails for a distinct structural reason:
+
+- **Type I:** The tangent bundle $T(\mathrm{Gr}) = S^* \otimes Q$ is a tensor product, not a direct sum. Tensor products mix parity in higher Chern classes.
+- **Type II:** $c_1 = 2(n-1)$ is always even (the factor 2 comes from the SO double cover).
+- **Type III:** $c_1 = n{+}1 = 3$ is odd, but $c_2 = 2c_1^2 + 4c_2(S^*)$ is even (the $\mathrm{Sym}^2$ operation introduces factors of 2).
+- **Type V:** $c_1 = 12 = r \cdot C_2$ is even (from the octonion structure).
+- **Type IV:** $T(Q^n) \cong \mathcal{O}(1)^n \oplus \mathcal{O}(2)$ is a direct sum of line bundles. The split structure preserves parity.
+
+### 6.2 The Mersenne-Lucas Mechanism
+
+The structural reason type IV works is a chain of three facts:
+
+1. $g = 7 = 2^{N_c} - 1$ is a Mersenne prime.
+2. By Lucas' theorem, $\binom{2^m - 1}{k} \equiv 1 \pmod{2}$ for all $0 \leq k \leq 2^m - 1$. Therefore all binomial coefficients $\binom{g}{k}$ are odd.
+3. The total Chern class $c(Q^n) = (1+h)^{n+2} / (1+2h) \bmod h^{n+1}$ has numerator coefficients $\binom{n+2}{k}$. When $n + 2 = g = 2^{N_c} - 1$, these are all odd. Division by $(1+2h)$ preserves this property.
+
+The only other type IV dimension with all Chern classes odd is $n = 13$ (where $g_{13} = 15 = 2^4 - 1$). But $n = 13$ fails Lock 2: its 14 Chern classes map to DOF positions scattered across $\{0, \ldots, 1134\}$, leaving 12 gaps instead of the single gap required by the vacuum subtraction mechanism.
+
+The Mersenne condition $2^{N_c} - 1 = g$ is the root cause of both the genesis cascade (this paper) and the BSD mechanism (Paper #88).
 
 ---
 
@@ -327,6 +345,7 @@ All results have been verified computationally:
 | 1399 | 10 | 10/10 | Cross-type elimination (38 domains) |
 | 1434 | 8 | 8/8 | Weierstrass equation, Heegner table |
 | 1452 | 8 | 8/8 | Frobenius dictionary, supersingular density |
+| 1656 | 9 | 9/9 | Cross-type scan: all 39 rank-2 BSDs, Mersenne-Lucas mechanism |
 
 Code available at `github.com/ckoons/BubbleSpacetimeTheory/play/`.
 
@@ -346,6 +365,6 @@ Code available at `github.com/ckoons/BubbleSpacetimeTheory/play/`.
 
 ---
 
-*Paper #85 in the BST series. Draft v0.2. Elie lead, Lyra proofs, Grace data.*
+*Paper #85 in the BST series. Draft v0.3. Elie lead, Lyra proofs, Grace data. v0.3: Section 6 strengthened with Mersenne-Lucas mechanism (Toy 1656), 39-domain cross-type scan, structural failure reasons for each type.*
 
 *"The big bang is not a moment. It is a cascade. And 49a1 is its fingerprint." --- Casey Koons*

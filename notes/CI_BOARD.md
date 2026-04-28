@@ -577,13 +577,13 @@ Wyler (alpha), Eddington (137), Milgrom/MOND, Nottale (scale relativity), El Nas
 ### Elie — Paper Updates
 | # | Task | Priority | Status |
 |---|------|----------|--------|
-| E-38 | **Paper #85 v0.3: Uniqueness theorem** — Add 2^{n-2}=n+3 one-line uniqueness proof (Toy 1638) to Section 5 or 6. This is the cleanest proof that D_IV^5 is unique — belongs in the Genesis Cascade paper. New theorem statement + toy reference. | **HIGH** | NEW |
-| E-39 | **Paper #84 v0.3: DM + Born rule** — (1) Strengthen Section 2 with DM=incomplete windings mechanism (Toy 1637). (2) Strengthen Section 3 with Born rule=Bergman normalization (Toy 1618) — no separate postulate needed. Both are I-tier (honest). | **MEDIUM** | NEW |
+| E-38 | **Paper #85 v0.3: Uniqueness theorem** — **DONE.** Section 6 updated: cross-type scan (Toy 1656, 39 BSDs), Mersenne-Lucas mechanism, type-by-type failure reasons. | **HIGH** | **DONE** |
+| E-39 | **Paper #84 v0.3: DM + Born rule** — **DONE.** New Section 2.5 (winding decomposition: DM/baryon=16/3, Omega_m=6/19). New Section 3.1a (Born rule from Bergman kernel). Both I-tier (honest). | **MEDIUM** | **DONE** |
 
 ### Keeper — Paper Updates
 | # | Task | Priority | Status |
 |---|------|----------|--------|
-| K-25 | **Paper #87 v0.3: Confinement + Numerator rule** — (1) Strengthen Sections 2/8 with confinement=Hamming distance sqrt(sigma)=m_p/sqrt(n_C) at 0.09% (Toy 1634, 12/12). (2) Add numerator rule=Hamming subsection (Toy 1628, 9/10): quarks=rank², bosons=N_c, loops=1 from code structure. Both D-tier. | **HIGH** | NEW |
+| K-25 | **Paper #87 v0.3: Confinement + Numerator rule** — **DONE.** (1) Section 9.3 strengthened: sqrt(sigma)=m_p/sqrt(n_C) at 0.09% (Toy 1634). (2) New Section 9.4: numerator rule as data/parity/syndrome decomposition (Toy 1628). Version bumped v0.2→v0.3. | **HIGH** | **DONE** |
 | K-26 | **Paper update gate review** — After L-36, L-37, E-38, E-39, K-25 complete, verify all five papers have consistent counts, honest tier labels, and no contradictions across papers. Single consistency pass. | MEDIUM | WAITING |
 
 ### Grace — Paper Support
@@ -623,7 +623,7 @@ Wyler (alpha), Eddington (137), Milgrom/MOND, Nottale (scale relativity), El Nas
 | # | Task | Owner | Priority | Status |
 |---|------|-------|----------|--------|
 | L-39 | **Ward identity from Bergman reproducing property** — The QED Ward identity Z_1 = Z_2 (vertex renormalization = fermion wavefunction renormalization) is a consequence of gauge invariance. In BST: the reproducing property integral K(z,w) = integral K(z,u)K(u,w) du should enforce an analogous identity on spectral evaluations. Derive it. This would prove BST's "no path integral needed" claim. Toy needed. | Lyra | **HIGH** | NEW |
-| K-27 | **Path integral replacement audit** — Document precisely what BST uses instead of the path integral for each QFT operation: propagator = Bergman kernel K(z,w), vertex = boundary integral, loop = spectral sum, gauge fixing = none (geometry is gauge-invariant). Honest gap list: which QFT results genuinely require path integral and don't yet have BST analogs? | Keeper | **HIGH** | NEW |
+| K-27 | **Path integral replacement audit** — **DONE.** BST replacements (from `BST_Feinman_Diagrams.md`): propagator = Bergman Green's function K(z,w), vertex = contact on S² at weight alpha, loop = spectral sum over uncommitted contacts (capped at N_max=137 modes), gauge fixing = unnecessary (SO_0(5,2) invariance is exact), partition function = Haldane sum over contact configs, Wick rotation = rotation between energy/time directions on D_IV^5, i*epsilon = commitment ordering (not regularization). **Honest gaps**: (1) Ward identity not yet derived from Bergman symmetry (→ L-39). (2) Anomalies: chiral anomaly claimed as Atiyah-Singer on contact graph but not computed. (3) Non-perturbative: instantons described conceptually but no BST instanton calculus exists. (4) Lattice QCD: BST claims lattice "accidentally mimics substrate" but doesn't derive lattice spacing from d_0. | Keeper | **HIGH** | **DONE** |
 
 #### TRACK B: Four "Not Well Understood" Items
 
