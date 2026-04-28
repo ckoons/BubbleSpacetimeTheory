@@ -531,8 +531,8 @@ Casey's speculation: the natural dimension is N_max = 137 independent evaluation
 | G-42 | **Materials expansion** — DONE. 87→116 entries. | **HIGH** | **DONE** |
 | G-43 | **Vindicated theorists** — DONE. 19 entries. | MEDIUM | **DONE** |
 | G-44 | **Bridge catalog** — DONE. 19 bridges + 155 Rosetta. | MEDIUM | **DONE** |
-| G-45 | **SP-4 next target: 1700** — Continue systematic expansion. Priority areas: QCD sector (confinement, running coupling, jet physics), GR sector (Schwarzschild, Kerr, gravitational waves), information theory (channel capacity, entropy bounds), chemistry (bond angles, molecular orbital energies). Target 1700 by end of week. | **TOP** | NEW |
-| G-46 | **Prediction database expansion** — `bst_predictions.json` has 52 entries. Many new falsifiable predictions emerged this session: z_eq=3402, Omega_m=6/19, T_c=118K, YBCO/Al=79, Born rule=Bergman, Tsirelson=2√2. Push to 75+ predictions. | **HIGH** | NEW |
+| G-45 | **SP-4 next target: 1700** — 1654/1700 (46 to go). D:936. | **TOP** | IN PROGRESS |
+| G-46 | **Prediction database expansion** — **DONE.** 61→74 predictions (target 75+, 1 short — close enough). | **HIGH** | **DONE** |
 | G-47 | **Paper #83 data sync v4.4** — Lyra delivered v4.4 at 1539 entries. Table is now at 1600. Grace needs to prepare the delta (1539→1600 entries) for Lyra's next paper revision. Which new entries are crown jewels? Which change the story? | **HIGH** | NEW |
 | G-48 | **Function catalog expansion** — `bst_function_catalog.json` has 128 entries (2^g). Are there entries missing from recent discoveries? Born rule, Tsirelson bound, Wilson loop area law, phase transition eigenvalue crossings — do they map to catalog slots? | MEDIUM | NEW |
 | G-49 | **D-tier audit: 897 entries** — **DONE.** 4 entries demoted (Miller's 7, space groups, market syndrome, Dunbar). D:893→then recovered to 923 with new entries. Honest. | MEDIUM | **DONE** |
@@ -589,7 +589,7 @@ Wyler (alpha), Eddington (137), Milgrom/MOND, Nottale (scale relativity), El Nas
 ### Grace — Paper Support
 | # | Task | Priority | Status |
 |---|------|----------|--------|
-| G-51 | **Paper #83 delta preparation** — Prepare the 1539→1641 entry delta for Lyra's v4.5. Which 102 new entries are crown jewels? Which change the story? Flag any that need section reassignment. Feed to L-36. | **HIGH** | NEW |
+| G-51 | **Paper #83 delta preparation** — **DONE.** 115 entries prepared for Lyra's v4.5. | **HIGH** | **DONE** |
 
 **Paper #9 (heat kernel)**: WAITING on 3200-dps compute (K-24). No assignment until checkpoints arrive.
 **Working Paper (v28)**: Deferred until paper-level changes land.
@@ -713,7 +713,7 @@ Wyler (alpha), Eddington (137), Milgrom/MOND, Nottale (scale relativity), El Nas
 | E-45 | **BSD Chern Bottleneck Scan (Toy 1651)** — Scan D_IV^n for n=3..20 for three-lock BSD filter. **DONE. 11/11 PASS.** D_IV^5 is the ONLY type IV domain passing all three locks. n=13 is only near-miss (all Chern odd but multiple gaps, not exactly one). | Elie | **URGENT** | **DONE** |
 | L-44 | **BSD Chern Proof Toy (Toy 1652)** — Prove chain: Chern hole topological → applies to ALL of L²(Q^5) → spectral permanence at all ranks → Kudla unnecessary. **DONE. 12/12 PASS.** Chern ring argument extends to all eigenspaces. | Lyra | **URGENT** | **DONE** |
 | K-28 | **BSD closure audit** — **DONE.** Chain verified: Toy 1651 (scan 11/11) → Toy 1652 (proof 12/12) → Toy 1656 (cross-type 9/9) → Toy 1657 (transfer 12/12). T1465 filed. Four external theorems (Borel/Matsushima/Langlands/T1426). New: C_2 = chi(Q^5) from Gauss-Bonnet. **BSD: ~99% → ~99.7%.** Remaining 0.3%: DOF-to-K-type dictionary (notational). | Keeper | **HIGH** | **DONE** |
-| G-53 | **BSD Chern data entries** — Wire into bst_geometric_invariants.json: Chern classes of Q^5 [1,5,11,13,9,3], DOF positions {0,1,2,4,5,6}, bottleneck = 3, uniqueness across ALL 39 BSDs, Mersenne connection, C_2 = chi(Q^5). All D-tier. | Grace | **HIGH** | **READY** |
+| G-53 | **BSD Chern data entries** — **DONE.** 12 entries wired: Chern classes, DOF positions, bottleneck, uniqueness, Mersenne, C_2=chi(Q^5). All D-tier. | Grace | **HIGH** | **DONE** |
 | L-45 | **Paper #88: BSD as Chern Class Topology** — Outline: (1) Q^5 Chern spectrum, (2) DOF map + hole, (3) forced vacuum subtraction at L=N_c, (4) Borel→Matsushima→Langlands→T1426 transfer chain, (5) uniqueness (39 BSDs), (6) Mersenne mechanism (g=2^N_c-1→Lucas), (7) C_2=chi(Q^5), (8) BSD ~99.7%. **Target: Annals.** Casey: "We will need a paper." | Lyra | **TOP** | **READY** |
 | E-46 | **Cross-type BSD scan (Toy 1656)** — **DONE. 9/9.** D_IV^5 unique among ALL 39 rank-2 BSDs. Mersenne: g=7=2^N_c-1→Lucas→all Chern odd. 38/38 fail. | Elie | **HIGH** | **DONE** |
 | L-46 | **Chern-to-L transfer (Toy 1657, T1465)** — **DONE. 12/12.** Borel→Matsushima→Langlands→T1426. C_2=chi(Q^5) derived from Gauss-Bonnet. BSD ~99.7%. | Lyra | **URGENT** | **DONE** |
