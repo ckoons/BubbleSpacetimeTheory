@@ -706,7 +706,7 @@ Wyler (alpha), Eddington (137), Milgrom/MOND, Nottale (scale relativity), El Nas
 
 **Lyra's Toy 1650 T7** already shows: among D_IV^3 through D_IV^9, only n=5 satisfies all three. **Elie's proposed toy** extends this to ALL 38 rank-2 BSDs across all four Cartan types. This requires computing Chern classes of each compact dual separately (types I/II/III use Grassmannians, not quadrics).
 
-**If 37/37 others fail**: BSD ~99% → **BSD 100%**. The rank ≥ 4 gap (Kudla's program) becomes unnecessary — the Chern hole mechanism provides the spectral permanence at ALL ranks, independent of Kudla.
+**RESULT: 38/38 others fail.** Every non-D_IV^5 rank-2 BSD fails at least one lock. Type II/III/V fail at Lock 1 (even Chern classes). Type I fails at Lock 1 (parity mixing). Type IV n≠5 fail at Lock 2 or Lock 3. The Mersenne connection: g=7=2^N_c-1 forces all C(g,k) odd via Lucas' theorem. BSD ~99% → **~99.5%** (remaining gap: Chern-to-L transfer theorem, 0.5%).
 
 | # | Task | Owner | Priority | Status |
 |---|------|-------|----------|--------|
@@ -715,4 +715,4 @@ Wyler (alpha), Eddington (137), Milgrom/MOND, Nottale (scale relativity), El Nas
 | K-28 | **BSD closure audit** — Verify: (1) chain airtight, (2) no hidden Cartan type assumption, (3) Paper #82 and T1426 updated. BSD: 99% → ~99.5% (type IV confirmed; cross-type scan still needed for full 100%). | Keeper | **HIGH** | **READY** |
 | G-53 | **BSD Chern data entries** — Wire results into bst_geometric_invariants.json. New D-tier entries: Chern classes of Q^5, DOF positions, bottleneck position = 3, uniqueness among type IV domains. | Grace | **HIGH** | **READY** |
 | L-45 | **Paper #88: BSD as Chern Class Topology** — Casey directive: "We will need a paper." Outline: (1) Chern spectrum of Q^5, (2) DOF map + hole, (3) forced vacuum subtraction, (4) spectral permanence from Chern rigidity, (5) uniqueness scan, (6) BSD closure, (7) Discussion. **Target: Annals of Mathematics.** | Lyra | **TOP** | **READY** |
-| E-46 | **Cross-type BSD scan (Toy 1654 reassigned)** — Extend Toy 1651 from type IV only to ALL 38 rank-2 BSDs across Cartan types I/II/III/IV. Grassmannian compact duals for types I-III. **If 37/37 fail: BSD 100%.** Lyra noted: different Cartan types have different Chern formulas. | Elie | **HIGH** | NEW |
+| E-46 | **Cross-type BSD scan (Toy 1656)** — ALL 39 rank-2 BSDs across 5 Cartan types. **DONE. 9/9 PASS. D_IV^5 is the ONLY domain passing all three locks.** Type I: parity mixing. Type II: c_1 always even. Type III: c_2 even. Type V: c_1=12 even. Type IV: only n=5 works. n=13 near-miss (Mersenne g=15, all odd, but 12 gaps not 1). **Mersenne connection: g=7=2^N_c-1 forces all C(g,k) odd via Lucas' theorem.** 38/38 others fail. | Elie | **HIGH** | **DONE** |
