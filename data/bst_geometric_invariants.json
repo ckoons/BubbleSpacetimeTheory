@@ -3,7 +3,7 @@
     "title": "Geometric Invariants of the Autogenic Proto-Geometry",
     "description": "Every physical constant as a geometric evaluation on D_IV^5. No series, no perturbation, no fitting.",
     "last_updated": "2026-04-28",
-    "total_entries": 1600,
+    "total_entries": 1607,
     "missing_count": 3,
     "tension_count": 0,
     "paper": "Paper #83 \u2014 Geometric Invariants of the APG",
@@ -3705,7 +3705,7 @@
       "paper83_section_name": "Biology",
       "theorem": "T333",
       "tier": "A",
-      "cal_tier": "D"
+      "cal_tier": "S"
     },
     {
       "symbol": "self_update",
@@ -7192,7 +7192,7 @@
       "paper83_section": "15",
       "paper83_section_name": "Various",
       "tier": "A",
-      "cal_tier": "D"
+      "cal_tier": "S"
     },
     {
       "symbol": "Dunbar_150",
@@ -8553,7 +8553,7 @@
       "paper83_section": "16",
       "paper83_section_name": "Various",
       "tier": "A",
-      "cal_tier": "D"
+      "cal_tier": "S"
     },
     {
       "symbol": "Flory_exp",
@@ -14619,7 +14619,7 @@
       "paper83_section": "15",
       "paper83_section_name": "V",
       "tier": "A",
-      "cal_tier": "D"
+      "cal_tier": "S"
     },
     {
       "symbol": "Dunbar_15",
@@ -24114,6 +24114,106 @@
       "paper83_section": "14",
       "tier": "A",
       "cal_tier": "D"
+    },
+    {
+      "symbol": "quark_spinor_Spin5",
+      "name": "Quarks = spinors of Spin(5), dim = rank^2 = 4",
+      "formula": "Quark Higgs coupling numerator = dim(spinor rep of Spin(n_C)) = rank^2 = 4",
+      "geometric_source": "Representation-theoretic derivation: Spin(5) spinor = 4-dim. Quarks ARE spinors on the compact dual. Elie Toy 1628.",
+      "value": "4",
+      "observed": "rank^2 = 4 in all quark BRs",
+      "precision": "exact",
+      "theorem": "T186",
+      "status": "closed-form",
+      "paper83_section": "6",
+      "tier": "A",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "boson_Cartan_Nc",
+      "name": "Bosons = Cartan subalgebra, dim = N_c",
+      "formula": "Gauge boson Higgs coupling numerator = dim(Cartan of K) = N_c = 3",
+      "geometric_source": "Bosons see the Cartan subalgebra of the maximal compact. Elie Toy 1628.",
+      "value": "3",
+      "observed": "N_c = 3 in all boson BRs",
+      "precision": "exact",
+      "theorem": "T186",
+      "status": "closed-form",
+      "paper83_section": "6",
+      "tier": "A",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "Higgs_level1_Hamming",
+      "name": "Level-1 Bergman = Hamming(7,4,3): spinor + Cartan",
+      "formula": "rank^2 + N_c = 4 + 3 = 7 = g = Hamming codeword length",
+      "geometric_source": "First Bergman level decomposes as spinor(4) + Cartan(3) = 7. This IS the Hamming code structure. Elie Toy 1628.",
+      "value": "4 + 3 = 7",
+      "observed": "Hamming(7,4,3)",
+      "precision": "exact",
+      "theorem": "T186",
+      "status": "closed-form",
+      "paper83_section": "6",
+      "tier": "A",
+      "cal_tier": "D",
+      "notes": "Bridge: Higgs decay hierarchy = error correction code. quarks=data bits, bosons=parity bits."
+    },
+    {
+      "symbol": "proton_geodesic",
+      "name": "Proton mass = bulk geodesic on D_IV^5",
+      "formula": "m_p/m_e = length ratio of bulk geodesic to fiber geodesic = rank*N_c*pi^n_C = 6*pi^5",
+      "geometric_source": "Proton = shortest closed geodesic through bulk. Electron = fiber winding. Length ratio = mass ratio. Elie Toy 1626 (10/10).",
+      "value": "6*pi^5 = 1836.12",
+      "observed": "1836.15",
+      "precision": "0.002%",
+      "theorem": "T187",
+      "status": "closed-form",
+      "paper83_section": "4",
+      "tier": "A",
+      "cal_tier": "D",
+      "notes": "Promotes mass=winding from I-tier to D-tier. Geodesic computation confirms."
+    },
+    {
+      "symbol": "Wilson_area_law_derived",
+      "name": "Wilson loop area law from rank-2 Bergman",
+      "formula": "W(C) ~ exp(-sigma*Area(C)). sigma = C_2/a^2. rank=2 gives 2D minimal surface = area law.",
+      "geometric_source": "Area law from rank-2 projection: error detection on 2D surface. Rank=1 would give perimeter law (no confinement). Elie Toy 1624 (10/10).",
+      "value": "area law",
+      "observed": "area law (lattice QCD)",
+      "precision": "structural",
+      "theorem": "T186",
+      "status": "structural",
+      "paper83_section": "8",
+      "tier": "A",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "Debye_Mo_450",
+      "name": "Debye temperature Molybdenum = rank*N_c^2*n_C^2 = 450 K",
+      "formula": "Theta_D(Mo) = rank*N_c^2*n_C^2 = 2*9*25 = 450 K",
+      "geometric_source": "EXACT. Elie Toy 1625. 7th material with exact BST Debye temp.",
+      "value": "450 K",
+      "observed": "450 K",
+      "precision": "exact",
+      "theorem": "T186",
+      "status": "closed-form",
+      "paper83_section": "13",
+      "tier": "A",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "BR_ZZ_WW_rank3",
+      "name": "BR(ZZ*)/BR(WW*) = 1/rank^3 = 1/8",
+      "formula": "1/rank^3 = 1/8 (from rep theory: ZZ needs extra rank factor)",
+      "geometric_source": "Elie Toy 1628. Independent derivation from Spin(5) decomposition.",
+      "value": "0.125",
+      "observed": "~0.123",
+      "precision": "1.2%",
+      "theorem": "T186",
+      "status": "closed-form",
+      "paper83_section": "6",
+      "tier": "B",
+      "cal_tier": "I"
     }
   ]
 }

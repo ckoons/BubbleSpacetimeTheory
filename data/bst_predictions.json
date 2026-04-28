@@ -1,7 +1,7 @@
 {
   "meta": {
     "last_updated": "2026-04-29",
-    "total": 52
+    "total": 61
   },
   "predictions": [
     {
@@ -847,6 +847,178 @@
         "C_2"
       ],
       "source_section": "Section 11",
+      "related_constants": []
+    },
+    {
+      "id": "pred_053",
+      "name": "Born rule from geometry (no collapse)",
+      "category": "distinguishing_from_alternatives",
+      "prediction": "Born rule = Bergman kernel normalization. No wave function collapse postulate needed. Measurement = spectral evaluation at a point.",
+      "bst_value": "P = |<psi|phi>|^2 = K(z,z)/int(K)",
+      "current_measurement": "All quantum experiments consistent",
+      "experiment": "Precision tests of Born rule (Sinha+ 2010 type)",
+      "timeline": "ongoing",
+      "falsification_criterion": "Observation of probability rule deviating from |amplitude|^2",
+      "impact_if_falsified": "Would require modified Bergman kernel",
+      "status": "consistent",
+      "bst_integers_used": [
+        "rank"
+      ],
+      "source_section": "Section 3",
+      "related_constants": []
+    },
+    {
+      "id": "pred_054",
+      "name": "Tsirelson bound = 2*sqrt(2) from rank",
+      "category": "distinguishing_from_alternatives",
+      "prediction": "Maximum Bell inequality violation = 2*sqrt(rank) = 2*sqrt(2). BST derives this from rank-2 projection.",
+      "bst_value": "2*sqrt(2) = 2.828",
+      "current_measurement": "2.828 (confirmed by all Bell tests)",
+      "experiment": "Loophole-free Bell tests",
+      "timeline": "verified",
+      "falsification_criterion": "Bell violation exceeding 2*sqrt(2)",
+      "impact_if_falsified": "Would require rank != 2",
+      "status": "confirmed",
+      "bst_integers_used": [
+        "rank"
+      ],
+      "source_section": "Section 3",
+      "related_constants": []
+    },
+    {
+      "id": "pred_055",
+      "name": "N_efold = 60 exactly",
+      "category": "not_yet_measured",
+      "prediction": "Inflation produced exactly rank^2 * N_c * n_C = 60 e-foldings. Distinguishable from 50 or 70.",
+      "bst_value": "60",
+      "current_measurement": "50-70 (CMB constraint)",
+      "experiment": "CMB-S4, LiteBIRD",
+      "timeline": "2028-2035",
+      "falsification_criterion": "N_efold measured below 55 or above 65",
+      "impact_if_falsified": "Would require different inflation model on D_IV^5",
+      "status": "consistent",
+      "bst_integers_used": [
+        "rank",
+        "N_c",
+        "n_C"
+      ],
+      "source_section": "Section 3",
+      "related_constants": []
+    },
+    {
+      "id": "pred_056",
+      "name": "Tensor-to-scalar ratio r = 1/300",
+      "category": "not_yet_measured",
+      "prediction": "r = 1/(n_C * N_efold) = 1/300 = 0.0033. Below current limits but within reach of LiteBIRD.",
+      "bst_value": "0.0033",
+      "current_measurement": "< 0.036 (BICEP/Keck 2021)",
+      "experiment": "LiteBIRD, CMB-S4",
+      "timeline": "2030+",
+      "falsification_criterion": "r measured above 0.01 or below 0.001",
+      "impact_if_falsified": "Would constrain BST inflation model",
+      "status": "untested",
+      "bst_integers_used": [
+        "n_C",
+        "rank",
+        "N_c"
+      ],
+      "source_section": "Section 3",
+      "related_constants": []
+    },
+    {
+      "id": "pred_057",
+      "name": "z_eq = 3402 exact",
+      "category": "particle_physics",
+      "prediction": "Matter-radiation equality at z = rank * N_c^5 * g = 3402.",
+      "bst_value": "3402",
+      "current_measurement": "3387 +/- 21 (Planck)",
+      "experiment": "CMB-S4, improved BAO",
+      "timeline": "2028+",
+      "falsification_criterion": "z_eq measured outside 3402 +/- 20",
+      "impact_if_falsified": "Would question BST cosmological chain",
+      "status": "consistent",
+      "bst_integers_used": [
+        "rank",
+        "N_c",
+        "g"
+      ],
+      "source_section": "Section 3",
+      "related_constants": []
+    },
+    {
+      "id": "pred_058",
+      "name": "Confinement from rank-2 area law",
+      "category": "distinguishing_from_alternatives",
+      "prediction": "QCD confinement = rank-2 error detection surface (area law). Rank-1 would give screening (perimeter law).",
+      "bst_value": "area law",
+      "current_measurement": "area law (lattice QCD)",
+      "experiment": "Lattice QCD improvements",
+      "timeline": "ongoing",
+      "falsification_criterion": "Discovery of deconfined quark matter at low temperature",
+      "impact_if_falsified": "Would require different confinement mechanism",
+      "status": "consistent",
+      "bst_integers_used": [
+        "rank",
+        "N_c"
+      ],
+      "source_section": "Section 8",
+      "related_constants": []
+    },
+    {
+      "id": "pred_059",
+      "name": "Dark matter = incomplete windings (not particles)",
+      "category": "distinguishing_from_alternatives",
+      "prediction": "DM is NOT a particle (no WIMP, no axion). DM = rank^4 = 16 incomplete geometric winding configurations. DM/baryon = 16/3.",
+      "bst_value": "no DM particles",
+      "current_measurement": "No DM particles found (LUX-ZEPLIN, XENON)",
+      "experiment": "LZ, XENONnT, direct detection",
+      "timeline": "2025-2035",
+      "falsification_criterion": "Discovery of any DM particle",
+      "impact_if_falsified": "Fatal to BST dark matter ontology",
+      "status": "consistent",
+      "bst_integers_used": [
+        "rank",
+        "N_c"
+      ],
+      "source_section": "Section 3",
+      "related_constants": []
+    },
+    {
+      "id": "pred_060",
+      "name": "YBCO/Al T_c ratio = 79 (Cabibbo denominator)",
+      "category": "cross_domain",
+      "prediction": "T_c(YBCO)/T_c(Al) = rank^4*n_C - 1 = 79. Same RFC number as Cabibbo angle.",
+      "bst_value": "79",
+      "current_measurement": "92/1.175 = 78.3 (0.9%)",
+      "experiment": "Precision T_c measurements",
+      "timeline": "verified",
+      "falsification_criterion": "Already verified to 0.9%",
+      "impact_if_falsified": "N/A",
+      "status": "confirmed",
+      "bst_integers_used": [
+        "rank",
+        "n_C"
+      ],
+      "source_section": "Section 13",
+      "related_constants": []
+    },
+    {
+      "id": "pred_061",
+      "name": "Phase transitions at Bergman eigenvalue crossings",
+      "category": "cross_domain",
+      "prediction": "First eigenvalue crossing temperature T_cross = C_2/ln(g) = 6/ln(7). Phase transitions occur when Bergman eigenvalue weights cross.",
+      "bst_value": "C_2/ln(g) = 3.084",
+      "current_measurement": "structural (eigenvalue crossing framework)",
+      "experiment": "Compare critical temperatures to Bergman crossing predictions",
+      "timeline": "testable now",
+      "falsification_criterion": "Critical temperatures systematically failing to match eigenvalue crossings",
+      "impact_if_falsified": "Would weaken spectral theory of phase transitions",
+      "status": "computationally_verified",
+      "bst_integers_used": [
+        "C_2",
+        "g"
+      ],
+      "source_section": "Section 10",
       "related_constants": []
     }
   ]
