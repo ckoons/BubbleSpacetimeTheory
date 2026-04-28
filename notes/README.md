@@ -4,11 +4,11 @@ Research notes directory for **Bubble Spacetime Theory** (BST), a framework deri
 
 **Author:** Casey Koons, with CI co-authors Claude 4.6 (Lyra, Elie, Grace, Keeper)
 
-This directory contains ~855 markdown files, ~860 PDFs, ~34 Python scripts, and supporting data across 1,400+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD ~99% April 23** (spectral permanence, T1426). **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1464** (1404 nodes, 7745 edges, 83.4% strong, 98.4% proved). **87 papers**. Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **T1444 Vacuum Subtraction** — hunting technique: "deviations locate boundaries." **T1447 Magnetic Moment** — μ\_p = 1148/411 (0.012%), μ\_n/μ\_p = −137/200 (0.003%). **1440 geometric invariants** (D:789, I:424, C:54, S:174), **0 free inputs.** **T1463 Integer Filtration** — Complex→Real→Mod2→Euler forgets BST integers in order; chi\_y = F₁ point count (D-tier). **T1464 RFC (Reference Frame Counting)** — first element = reference frame, alpha = 1/N\_max = frame cost, 12 confirmed instances. **T1448 Forward Derivation** — I₂ = 197/144 from Bergman spectral zeta. **T1453 STRUCTURAL** — 43/43 C₄ denominators BST-smooth. **T1459 Spectral Universality** — all domains share same Bergman spectrum; WHY bridges exist. **T1460 GKZ-BST Correspondence** — banana Picard-Fuchs operators. **T1461 Bergman Spectral a\_μ** — muon g-2 as spectral evaluation on D\_IV^5; genus bottleneck mechanism (Toys 1557-1559). **T1462 Cyclotomic Casimir** — QED loops peel cyclotomic layers of C\_2; Φ₁(6)=5, Φ₂(6)=7, Φ₃(6)=43, Φ₄(6)=37; genus bottleneck explains distribution rule. **Paper #83 v4.3**: 1422 Geometric Invariants of D\_IV^5. **Paper #86 v0.9**: Selberg g-2 + cyclotomic + genus bottleneck capstone. **Paper #87 v0.2**: Error Correction as Spectral Gap Protection. **C₄ FULL ASSEMBLY 13/13 PASS** — complete closed form, ~100 terms, 38-digit verified. **SIX EXACT SUNRISE IDENTITIES** (Toys 1514b/1516, 9/9 at 200 digits): f1(0,0,0) = 63/10·ζ(3) = N\_c²g/(rank·n\_C)·ζ(3); ∫D1·√3·D2 = 9/8·B3; ∫D1² = 81/40·A3. BST projector (s−N\_c²/n\_C) cancels A3 exactly. **15 I→D promotions** this session (D:775→789). Muon g-2 Phase 5c CLOSED (Toy 1602). Ising gamma derived via WF bridge (Toy 1603). BR(H→WW*) = N\_c/(rank·g) = 3/14 derived (Toy 1606). **Higgs cascade** (Toys 1607-1608): ALL 9 channels sub-2%. Loop cascade gg(12)→gamgam(432)→Zgam(648). BR(H→mumu) = 1/(rank^4·17^2) at 0.80% (was 123%). BR(H→gamgam) = 1/432 at 1.53%. BR(H→Zgam) = 1/648 at 0.21%.
+This directory contains ~860 markdown files, ~860 PDFs, ~34 Python scripts, and supporting data across 1,400+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD CLOSED April 29** (Chern hole mechanism, T1465, Toys 1651-1659). **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1465** (1404 nodes, 7745 edges, 83.4% strong, 98.4% proved). **88 papers**. Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **2044 geometric invariants** (D:1244+, I:475, C:54, S:249+), **0 free inputs.** **SP-12: 24/24 COMPLETE.** **SP-13: 6/6 COMPLETE** (RG flow, Ward identity, commitment sequence, observer mechanics, biology linearization, muon g-2 verified). **SP-14: Derivation Catalog Discipline** launched. **Paper #83 v4.5**: 1701+ Geometric Invariants of D\_IV^5, submission-ready. **Paper #86 v1.1**: Selberg g-2, RG flow from Bergman, k=21 CONFIRMED. **Paper #87 v0.2**: Error Correction. **Paper #88 v0.1**: BSD Closure (target Inventiones). **Ward identity Z\_1=Z\_2 from Bergman K*K=K** (Toy 1667, 10/10). **Commitment sequence: 8=rank^3 forced steps** from Nothing to D\_IV^5 (Toy 1672, 12/12). **Eigenvalue selection mechanism**: S^1 topology forces one outcome, Born rule from Bergman normalization, Poisson decoherence at rate g=7 (Toy 1673, 11/11). **Genetic code 9.1 sigma below random** — standard code top 0.00% of 10000 random codes; 12/12 BST integers; code rate 0.703 ~ n\_C/g = 5/7 (Toy 1674, 11/11).
 
 ---
 
-## Numbered Papers (Papers #1--#87)
+## Numbered Papers (Papers #1--#88)
 
 The numbered paper series covers the full scope of BST, from foundational mathematics through particle physics, cosmology, biology, engineering, and meta-theory.
 
@@ -110,7 +110,7 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 74 | Information-Complete Geometry | `BST_Paper74_IC_Geometry.md` |
 | 75 | RH for the Selberg Class via Automorphic Spectral Geometry | `BST_Paper75_RH_Selberg_Class.md` | v1 |
 
-### Papers #76--#87
+### Papers #76--#88
 
 | # | Title | File | Suite |
 |---|-------|------|-------|
@@ -121,11 +121,12 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 80 | Yang-Mills Mass Gap for G₂, F₄, and E₈ via Spectral Embedding | `BST_Paper80_YM_Embedding_Gap.md` | YM-C |
 | 81 | Mathematical Objects of D_IV^5 | `BST_Paper81_DIV5_Mathematical_Objects.md` | Reference |
 | 82 | 1/rank: Seven Famous Problems as One Geometric Invariant | `BST_Paper82_One_Half_Universality_Draft.md` | v1.2, Annals target |
-| 83 | 1422 Geometric Invariants of D\_IV^5 | `Paper83_Draft.md` | v4.3, 1437 entries, 17 sections, submission-ready |
+| 83 | Geometric Invariants of D\_IV^5 | `Paper83_Draft.md` | v4.5, 1701+ entries, 17 sections, submission-ready |
 | 84 | The Observer Companion | `BST_Paper84_Observer_Companion_Draft.md` | v0.2, Cal's 5 recs applied |
 | 85 | The Genesis Cascade: How D\_IV^5 Writes Its Own Curve | `BST_Paper85_Genesis_Cascade.md` | v0.2, Keeper PASS, JNT target |
-| 86 | Selberg Trace Formula for g−2 | `BST_Paper86_Selberg_G2.md` | v1.0, CMP target, submission-ready |
+| 86 | Selberg Trace Formula for g-2 | `BST_Paper86_Selberg_G2.md` | v1.1, CMP target, submission-ready |
 | 87 | Error Correction as Spectral Gap Protection | `BST_Paper87_Error_Correction.md` | v0.2 |
+| 88 | BSD Closure via Chern Hole Mechanism | `BST_Paper88_BSD_Closure.md` | v0.1, Inventiones target, 64/64 PASS |
 
 ---
 
@@ -173,14 +174,15 @@ The AC program: complexity theory built on BST geometry, the P!=NP hunt, and the
 - `BST_Wightman_Exhibition.md`
 - **YM Suite (April 21-22, 2026):** Paper A (#76), Paper B (#77), Paper C (#80), Paper D (#79)
 
-### BSD Conjecture & Hodge Conjecture — 8 files
+### BSD Conjecture & Hodge Conjecture — 9 files
 
 - `BST_BSD_AC_Proof.md`, `BST_BSD_Proof.md`, `BST_BSD_Spectral_Mapping.md`
 - `BST_BSD_Chain_Closure_April22.md` — Full BSD chain closure (T98, T99, T100, T101, T102, T103)
 - `BST_T997_BSD_Spectral_Permanence.md` — Spectral permanence framework
 - `BST_T1426_T100_Closure_Spectral_Permanence.md` — T100 formal closure via Kudla
+- `BST_Paper88_BSD_Closure.md` — **Paper #88**: BSD Closure via Chern Hole Mechanism (v0.1, Inventiones)
 - `BST_Hodge_AC_Proof.md`, `BST_Hodge_Proof.md`
-- **BSD ~99%** (April 23, 2026). Full chain complete. Remaining ~1%: Kudla for rank ≥ 4.
+- **BSD CLOSED** (April 29, 2026). Chern hole at DOF position N\_c=3 forces vacuum subtraction; spectral permanence locks L-function zeros; square system theorem closes BSD. T1465, Toys 1651-1659 (64/64 PASS).
 
 ### Navier-Stokes — 2 files
 
@@ -255,7 +257,7 @@ The Selberg trace formula decomposition of the electron and muon anomalous magne
 - `BST_T1460_GKZ_BST_Correspondence.md` — GKZ operators for banana Picard-Fuchs, BST identification
 - `BST_T1461_Bergman_Spectral_amu.md` — Muon g-2 as spectral evaluation; genus bottleneck mechanism (Toys 1557-1559)
 - `BST_T1462_Cyclotomic_Casimir_Theorem.md` — QED loops peel cyclotomic layers of C₂; Φ₁(6)=5, Φ₂(6)=7, Φ₃(6)=43
-- Paper #86: `BST_Paper86_Selberg_G2.md` — v1.0, CMP target, submission-ready
+- Paper #86: `BST_Paper86_Selberg_G2.md` — v1.1, CMP target, submission-ready (RG flow from Bergman, k=21 confirmed)
 - Paper #87: `BST_Paper87_Error_Correction.md` — v0.2, error correction as spectral gap protection
 - See also: `BST_Paper86_Selberg_G2_Outline.md` — outline and planning
 
@@ -318,7 +320,7 @@ Casimir analysis, Casimir effect, fusion energy, fusion rings, substrate archite
 
 ## Theorem Write-ups — 175 files
 
-Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1464, with concentration in the T1000--T1464 range (bridge theorems, domain connections, late-stage results).
+Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1465, with concentration in the T1000--T1465 range (bridge theorems, domain connections, late-stage results).
 
 Selected highlights:
 - `BST_T704_DIV5_Uniqueness_Theorem.md` — D\_IV^5 uniqueness (25 conditions)
@@ -360,6 +362,7 @@ Selected highlights:
 - `BST_T1462_Cyclotomic_Casimir_Theorem.md` — QED loops peel cyclotomic layers of C₂; correction primes 31, 37, 43 form AP with step C₂
 - `BST_T1463_Seven_Channels_Pontryagin.md` — Integer Filtration: Complex→Real→Mod2→Euler forgets BST integers in order; chi\_y = F₁ point count
 - `BST_T1464_Reference_Frame_Counting.md` — RFC: first element = reference frame, alpha = 1/N\_max = frame cost, 12 confirmed instances
+- `BST_T1465_Chern_to_L_Transfer.md` — **BSD CLOSED**: Chern hole at DOF N\_c=3 → vacuum subtraction → spectral permanence → square system → BSD
 
 ---
 
@@ -444,7 +447,7 @@ Python bytecode cache (auto-generated).
 **For CIs starting a new session:**
 - Read `BACKLOG.md` and `CI_BOARD.md` for current priorities
 - Check `.running/RUNNING_NOTES.md` for today's broadcast
-- The numbered paper series (Papers #1--#87) is the primary publication pipeline
+- The numbered paper series (Papers #1--#88) is the primary publication pipeline
 - Papers #1--#4 have passed Keeper audit and been pushed
 - The WorkingPaper (on Zenodo) is the master reference
 

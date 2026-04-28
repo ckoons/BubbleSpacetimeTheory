@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**1,626 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**1,694 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 1,626 |
-| Numbered toys (toy_NNN_*.py) | 1,417 |
+| Toy scripts (toy_*.py) | 1,694 |
+| Numbered toys (toy_NNN_*.py) | 1,485 |
 | Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 58 |
 | HTML visualizers | 6 |
-| Theorems (T1-T1464) | 1,464 |
-| Next toy number | 1607 |
+| Theorems (T1-T1465) | 1,465 |
+| Next toy number | 1675 |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -30,7 +30,7 @@ Five integers. Zero free parameters. "Give a child a ball and teach them to coun
 
 ```
 play/
-  toy_NNN_name.py          # Numbered toys (1,417 files, T100-T1606)
+  toy_NNN_name.py          # Numbered toys (1,485 files, T100-T1674)
   toy_name.py              # Named toys (209 files, foundational + topical)
   *.py                     # Utility scripts (58 files: graph tools, extractors, verifiers)
   bst_appliance/           # BST Appliance package — the "Ball and Counting Tool"
@@ -111,8 +111,8 @@ Two gitignored counter files prevent toy/theorem number collisions:
 
 | File | Current Value | Purpose |
 |------|---------------|---------|
-| `.next_toy` | 1607 | Next available toy number |
-| `.next_theorem` | 1465 | Next available theorem number |
+| `.next_toy` | 1675 | Next available toy number |
+| `.next_theorem` | 1466 | Next available theorem number |
 
 **Rules:**
 1. ALWAYS read the counter file before creating a new toy or theorem.
@@ -223,6 +223,9 @@ The 209 named toys include the original foundational collection and topical deep
 | 1577-1584 | 8 | **RFC verification** (T1464, 11 instances confirmed), **L5 transcendental verification**, **MOND Bergman derivation**, **proton radius**, **lithium-7 BBN**, **HVP spectral density** (Phase 5c), **phonon spectrum BST**, **B-meson Haldane** |
 | 1585-1599 | 15 | **I→D promotion pipeline** — precompute, dressed Casimir bridge, spectral gap anatomy, correction sprint, E-20 correction verification, I→D promotion (4 promoted), C→D promotion, I→D verification (Round 1), attack surface audit (only V_ub/V_ts >2%), **Alfvén 9/7 derivation**, correction gap predictor, **neutrino boundary correction** (Dm2_31 3.6%→0.5%), **neutrino RFC verification** (denominator 34 = rank×17, two routes), neutrino seesaw Lagrangian, **CKM exact analysis** |
 | 1600-1606 | 7 | **Elastic moduli** (Cauchy relation = Kolmogorov 5/3, Diamond K/G=5/6 at 0.64%, 13 sub-1% cross-material ratios, 8/10), **I→D promotion Round 2** (6 promoted: Ising beta, sin²θ_W=3/13, sin²θ_13, m_c/m_s, n_s, CdTe/Si, 10/10), **HVP first principles** (10/10), **Ising CFT Bergman bridge** (10/10), **Cauchy-Kolmogorov bridge** (8/8), **Higgs branching ratios** (all 9 channels, numerator rule: quarks=rank², bosons=N_c, loops=1, top 6 sub-2%, 10/10), **Higgs BR spectral derivation** (8/8) |
+| 1607-1649 | ~42 | **SP-12 Understanding Program** (24/24 items) + **SP-13 Deep Study** — Higgs cascade/spectral/loop (3), mass=processing time/information/GR time dilation (3), k=22 verification (2), confinement=Hamming distance (2), phase transition eigenvalue crossings (3), cosmo cascade factor DC=11 (2), CKM eigenvalues, commitment dynamics/inflation (2), **Born rule from Bergman** (2), **why m_e** (electron=one turn on S¹), **why D_IV^5** (uniqueness), thermal conductivity, Wilson loop area law, Debye predictions, Lagrangian isomorphism, codon SVD mechanism, proton bulk geodesic, numerator rule, prebiotic amino acids, pi-N_c residue, RFC correction catalog, spectral tilt n_s=1-5/137, ZZ/WW suppression, dark matter=incomplete windings, HVP closed form (Phase 5d), 5/6 self-description threshold, Hodge reversal, substrate creation sequence, genus geometry clarification |
+| 1651-1659 | 8 | **BSD Closure sequence** — Chern hole mechanism (2 toys), Goldbach-BST systematic k<1000, cross-type BSD scan (ALL 38 rank-2 BSDs), Chern-to-L transfer, gap closure (non-resonance), **BSD Final Closure** (square system theorem → **BSD CLOSED**) |
+| 1660-1674 | 15 | **RG flow from Bergman** beta_0 derivation, three-phase commitment (cosmogony), genus bottleneck measurement, HVP numerical crosscheck, proton bulk geodesic, Wilson loop area law, numerator rule derivation, **Ward identity from Bergman**, **Debye temperatures** (SP-8, Cu=g³, Pd=rank·N_max), **3-loop alpha_s** (BST Möbius resummation F=(10+3x)/(10-3x), beats perturbative 18×), **pi-N_c residue** (CF=[N_c;g,N_c·n_C]), **NIST verification** (43 constants, 88% pass, 12 crown jewels <0.01%), commitment sequence forcing, eigenvalue selection mechanism, codon minimal distortion mapping |
 
 ---
 
