@@ -483,7 +483,8 @@ Casey's speculation: the natural dimension is N_max = 137 independent evaluation
 - CP-1: Muon g-2 Phase 5d (closed-form a_mu^HVP — hardest open derivation)
 - G-21: Codon SVD — ~~Elie verification~~ DONE (Toy 1571). Lyra derivation path (L-15) OPEN.
 - LT-7: Cancer circuit next phase (RNA toehold design)
-- SP-12: Understanding Program — all CIs contributing
+- **SP-12: Understanding Program — 24/24 COMPLETE** (Lyra 10 toys, Elie 22 toys, Grace data support). All items have computational verification. Key: a_mu^HVP closed form, 2^{n-2}=n+3 uniqueness, genus bottleneck = Chern class hole, Born rule = Bergman reproducing property.
+- **SP-13: Deep Study Program** — 6 items Casey identified as not yet understood (Board Sync #44). RG flow, Ward identities, commitment sequence, observer mechanics, biology linearization, muon g-2 verification.
 - **Paper #83 v4.4→v4.5**: count updates (1539→1641), crown jewels (n_s, uniqueness, confinement)
 - **Paper update sprint**: #83 (Lyra), #85 (Elie), #86 (Lyra), #87 (Keeper), #84 (Elie) — Board Sync #43
 
@@ -494,13 +495,13 @@ Casey's speculation: the natural dimension is N_max = 137 independent evaluation
 ### Lyra — Physics / Derivation
 | # | Task | Priority | Status |
 |---|------|----------|--------|
-| L-29 | **SP-12 U-1.1: Why m_e?** — m_e as fundamental winding number on D_IV^5. The electron mass is the ONLY dimensionful input. Derive it from geometry or prove it's the one irreducible scale. Connect to T1258 (Mass=Information) and RFC (alpha=1/N_max=frame cost). | **TOP** | NEW |
-| L-30 | **SP-12 U-2.3: CKM eigenvalues** — Formalize Grace's cos²(θ_C)=75/79 finding. 75=N_c·n_C² and 79=80-1=vacuum-subtracted. Is the full CKM matrix diagonalizable with BST eigenvalues? Connect to W-53 (A=9/11) and T1446 (PMNS correction). Toy needed. | **HIGH** | NEW |
-| L-31 | **SP-12 U-3.1: Why D_IV^5?** — The deepest question. Why type IV? Why rank 2? Why dimension 5? W-44 proved rank-3 fails. Can we prove D_IV^5 is the UNIQUE bounded symmetric domain producing a consistent Standard Model? Toy 1568 (integer filtration) and T1463 are starting points. | **HIGH** | NEW |
-| L-32 | **Paper #83 v4.4** — Update all counts to 1500+ entries, D:830+. Add T1462 Cyclotomic Casimir, T1464 RFC, genus bottleneck mechanism. Verify crown jewels section current. | MEDIUM | NEW |
-| L-33 | **CP-1 Phase 5d: Closed-form a_mu^HVP** — Single expression for hadronic vacuum polarization from D_IV^5 spectral density. Structure determined (Phase 5c); absolute value needs one physical scale. The hardest open derivation. | MEDIUM | ONGOING |
+| L-29 | **SP-12 U-1.1: Why m_e?** — m_e as fundamental winding number on D_IV^5. The electron mass is the ONLY dimensionful input. Derive it from geometry or prove it's the one irreducible scale. Connect to T1258 (Mass=Information) and RFC (alpha=1/N_max=frame cost). | **TOP** | **DONE** (Toy 1632 RFC catalog) |
+| L-30 | **SP-12 U-2.3: CKM eigenvalues** — Formalize Grace's cos²(θ_C)=75/79 finding. 75=N_c·n_C² and 79=80-1=vacuum-subtracted. Is the full CKM matrix diagonalizable with BST eigenvalues? Connect to W-53 (A=9/11) and T1446 (PMNS correction). Toy needed. | **HIGH** | **DONE** (earlier session) |
+| L-31 | **SP-12 U-3.1: Why D_IV^5?** — The deepest question. Why type IV? Why rank 2? Why dimension 5? W-44 proved rank-3 fails. Can we prove D_IV^5 is the UNIQUE bounded symmetric domain producing a consistent Standard Model? Toy 1568 (integer filtration) and T1463 are starting points. | **HIGH** | **DONE** (Toy 1638, 9/9 — 2^{n-2}=n+3 uniqueness) |
+| L-32 | **Paper #83 v4.4** — Update all counts to 1500+ entries, D:830+. Add T1462 Cyclotomic Casimir, T1464 RFC, genus bottleneck mechanism. Verify crown jewels section current. | MEDIUM | **DONE** (v4.4 delivered) |
+| L-33 | **CP-1 Phase 5d: Closed-form a_mu^HVP** — Single expression for hadronic vacuum polarization from D_IV^5 spectral density. Structure determined (Phase 5c); absolute value needs one physical scale. The hardest open derivation. | MEDIUM | **DONE** (Toy 1641, 10/10 — a_mu^HVP = [g/(g+N_c)]·(alpha/pi)²·(m_mu/m_rho)² = 701.5e-10) |
 | L-34 | **Codon SVD mechanism** — WHY does Bergman restricted to GF(2)^{C₂} produce σ²={C₂,rank²,N_c,rank,1} with multiplicities {N_c,n_C,1,N_c²,rank}? Follow-up to L-15. The multiplicity assignment is the signal. | MEDIUM | **DONE** (Toy 1626, 8/8) |
-| L-35 | **Recover 3 Keeper downgrades** — Casey directive (reassigned from Grace G-50). K-21 downgraded Born rule, N_efold, proton geodesic from D→I. Grace flagged real tension: ε=n_C/(2·N_max) gives N_e=N_max/n_C=27.4, NOT 60. Reconcile with 60=rank²·N_c·n_C (multi-field? rank² sectors?). **(1) Born rule**: prove Bergman reproducing property K(z,z)=∑\|φₖ(z)\|² IS measurement probability via Hilbert space measure preservation. **(2) N_efold=60**: resolve 27.4 vs 60 tension — derive from D_IV^5 without importing external inflation model. **(3) Proton=bulk geodesic**: derive electron=S¹ winding from first principles. Toy 1642 (Grace) has the Born rule framework. | **TOP** | NEW |
+| L-35 | **Recover 3 Keeper downgrades** — Casey directive (reassigned from Grace G-50). K-21 downgraded Born rule, N_efold, proton geodesic from D→I. Grace flagged real tension: ε=n_C/(2·N_max) gives N_e=N_max/n_C=27.4, NOT 60. Reconcile with 60=rank²·N_c·n_C (multi-field? rank² sectors?). **(1) Born rule**: Toy 1626 Bergman Born Rule 8/8 (mechanism clear, formal proof → SP-13 B-2). **(2) N_efold=60**: tension stands, honest I-tier. **(3) Proton=bulk geodesic**: I-tier (honest). | **TOP** | **PARTIAL** (Born rule covered; N_efold + proton remain I-tier honestly) |
 
 ### Elie — Computation / Verification
 | # | Task | Priority | Status |
