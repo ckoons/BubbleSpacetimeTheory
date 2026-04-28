@@ -465,8 +465,8 @@ Casey's speculation: the natural dimension is N_max = 137 independent evaluation
 
 **TUESDAY PRIORITIES (updated Tuesday afternoon — Keeper 39th sync, fresh assignments posted):**
 1. **Lyra**: L-29 Why m_e (TOP — SP-12 U-1.1). L-30 CKM eigenvalues (HIGH — formalize Grace's cos²θ_C=75/79). L-31 Why D_IV^5 (HIGH — deepest question). L-32 Paper #83 v4.4 counts (MEDIUM). L-33 Phase 5d (MEDIUM, ongoing). L-34 Codon SVD mechanism (MEDIUM).
-2. **Elie**: E-28 Lagrangian isomorphism (TOP — SP-12 U-2.1). E-29 Thermal conductivity (HIGH — SP-8). E-30 3200-dps monitoring (HIGH). E-31 Area law from Bergman (MEDIUM). E-32 Debye predictions (MEDIUM). E-33 alpha_s 3-loop (LOW).
-3. **Grace**: G-34 Push to 1600 entries (TOP — SP-4). G-35 n_s D-tier upgrade (HIGH). G-36 Rosetta Higgs cascade (HIGH). G-37 SP-12 data support (MEDIUM). G-38 CKM eigenvalue entries (MEDIUM). G-39 Biology codon SVD (LOW).
+2. **Elie**: E-34 Proton=bulk geodesic (TOP — SP-12 U-1.2). E-35 Cosmo cascade factor (HIGH — SP-12 U-3.3). E-36 Numerator rule derivation (HIGH — SP-12 U-2.5). E-31 Area law from Bergman (HIGH). E-32 Debye predictions (MEDIUM). E-37 pi-N_c residue (LOW). E-30 3200-dps monitoring (ongoing).
+3. **Grace**: G-34 Push to 1600 entries (TOP — at 1542). G-40 SP-12 data round 2 (HIGH). G-41 Edge case entries (HIGH). G-42 Materials database expansion (HIGH). G-43 Vindicated theorists entries (MEDIUM). G-44 Cross-domain bridge catalog (MEDIUM). G-39 Biology codon SVD (LOW).
 4. **Keeper**: K-20 Counter sync (HIGH — DONE this update). K-21 SP-12 tier audit (HIGH). K-22 Root file counts (MEDIUM). K-23 Paper #83 v4.4 gate (WAITING). K-24 3200-dps audit (WAITING).
 
 **THIS WEEK — one deliverable per program:**
@@ -503,22 +503,31 @@ Casey's speculation: the natural dimension is N_max = 137 independent evaluation
 ### Elie — Computation / Verification
 | # | Task | Priority | Status |
 |---|------|----------|--------|
-| E-28 | **SP-12 U-2.1: Lagrangian isomorphism toy** — Does BST's spectral action on D_IV^5 reproduce the Standard Model Lagrangian term by term? Map each Lagrangian term to a Bergman eigenvalue evaluation. Start with gauge kinetic terms (simplest). Toy needed. | **TOP** | NEW |
-| E-29 | **SP-8: Thermal conductivity ratios** — Extend material property coverage. Do thermal conductivity ratios (Cu/Al, Ag/Cu, diamond/Si) reduce to BST fractions? Same pattern as elastic moduli (Toy 1600) and phonons (Toy 1583). Toy needed. | **HIGH** | NEW |
-| E-30 | **3200-dps monitoring** — PID 71689 running `toy_671c_k22_phase_c_dps3200.py`. When heat_nNN_dps3200.json checkpoints appear, report. When n=44+ data arrives at 3200 dps, attempt k=22 extraction with verification margin. | **HIGH** | MONITORING |
-| E-31 | **SP-12 U-1.3 follow-up: Area law from Bergman** — Toy 1613 established confinement=Hamming distance. Next: derive Wilson loop area law from Bergman kernel decay. The area coefficient should be C₂ or a BST product. Toy needed. | MEDIUM | NEW |
+| E-28 | **SP-12 U-2.1: Lagrangian isomorphism toy** — Does BST's spectral action on D_IV^5 reproduce the Standard Model Lagrangian term by term? Map each Lagrangian term to a Bergman eigenvalue evaluation. Start with gauge kinetic terms (simplest). Toy needed. | **TOP** | **DONE** (Toy 1620, 8/10) |
+| E-29 | **SP-8: Thermal conductivity ratios** — Extend material property coverage. Do thermal conductivity ratios (Cu/Al, Ag/Cu, diamond/Si) reduce to BST fractions? Same pattern as elastic moduli (Toy 1600) and phonons (Toy 1583). Toy needed. | **HIGH** | **DONE** (Toy 1623, 10/10) |
+| E-30 | **3200-dps monitoring** — PID 71781 running `toy_671c_k22_phase_c_dps3200.py`. First checkpoint (n=3) expected within ~30-60 min. Separate files coexist with 1600-dps. When n=44+ arrives, attempt k=22 extraction. | **HIGH** | MONITORING |
+| E-31 | **SP-12 U-1.3 follow-up: Area law from Bergman** — Toy 1613 established confinement=Hamming distance. Next: derive Wilson loop area law from Bergman kernel decay. The area coefficient should be C₂ or a BST product. Toy needed. | **HIGH** | NEW |
 | E-32 | **SP-8: Debye temperature predictions** — Grace found Gold=170=2×5×17. Extend: predict Debye temps for Pt, Pd, Ir, W from BST products. Cross-reference Toy 1567. Which metals have Debye temps that are BST-smooth? | MEDIUM | NEW |
-| E-33 | **alpha_s 3-loop running** — Extend Toy 1449 (geometric resummation 2-loop). Does the geometric running with c₁=C₂/(2n_C)=3/5 extend to 3-loop? What's c₂? | LOW | NEW |
+| E-33 | **alpha_s 3-loop running** — Extend Toy 1449 (geometric resummation 2-loop). Does the geometric running with c₁=C₂/(2n_C)=3/5 extend to 3-loop? What's c₂? | MEDIUM | NEW |
+| E-34 | **SP-12 U-1.2: Proton = bulk geodesic** — m_p/m_e = 6pi^5. Compute shortest closed bulk geodesic on D_IV^5 vs shortest boundary geodesic. Does the length ratio = 6pi^5? Would convert mass=winding from I-tier to D-tier. BACKLOG priority #7. | **TOP** | NEW |
+| E-35 | **SP-12 U-3.3: Cosmological cascade factor** — Cosmo errors are 10.9x worse than lepton errors (Toy 1521). Is the systematic factor DC=11=2C₂-1? Correlate 29 cosmo I-tier residuals with cosmic-epoch sensitivity. BACKLOG priority #8. | **HIGH** | NEW |
+| E-36 | **SP-12 U-2.5: Numerator rule derivation** — Quarks=rank², bosons=N_c, loops=1 in Higgs BRs. WHY? Single representation-theoretic statement on D_IV^5 producing all three rules. Extend Toy 1606. | **HIGH** | NEW |
+| E-37 | **pi - N_c residue hunt** — Elie curiosity item from BACKLOG. pi - 3 = 0.14159... — does this residue appear in BST correction terms? Check across all corrections. Might be "curvature correction" in disguise. | LOW | NEW |
 
 ### Grace — Graph-AC / Data Layer
 | # | Task | Priority | Status |
 |---|------|----------|--------|
-| G-34 | **SP-4: Push to 1600** — 1512→1520. Elie cosmo cascade (Omega_m=6/19, z_eq=3402), Lyra CKM (V_cb=36/869, delta_CP), Higgs BR(mu mu), cascade complete. 80 more needed. | **TOP** | **IN PROGRESS** |
-| G-35 | **n_s D-tier upgrade** — DONE. ns_fiber_cost entry filed: n_s = 1-n_C/N_max = 0.9635 at 0.14% (0.3 sigma). D-tier: spectral fiber cost mechanism. | **HIGH** | **DONE** |
-| G-36 | **Rosetta Stone: Higgs cascade ratios** — DONE. 7 Higgs ratios added. Rosetta now 155 ratios. | **HIGH** | **DONE** |
-| G-37 | **SP-12 data support** — DONE. 11/11 SP-12 entries filed (mass=winding, confinement, T_cross, T_CMB, corrections, DM ontology, Goedel fraction, etc). | MEDIUM | **DONE** |
-| G-38 | **CKM eigenvalue entries** — DONE. cos^2(theta_C)=75/79 + theta_C*N_max=M_5 + DM ontology + Goedel fraction all filed. | MEDIUM | **DONE** |
-| G-39 | **Biology expansion: codon SVD follow-up** — Additional entries from Toy 1571 (8/9) verification. The multiplicity pattern {N_c,n_C,1,N_c²,rank} is genuinely rare (0/10000 random). File each singular value as separate entry with correct tier. | LOW | NEW |
+| G-34 | **SP-4: Push to 1600** — Currently 1542 (D:855). 58 to target. Adding from SP-12 toys, thermal conductivity, elastic moduli, phase transitions, cosmological parameters. | **TOP** | **IN PROGRESS (1542/1600)** |
+| G-35 | **n_s D-tier upgrade** — DONE. | **HIGH** | **DONE** |
+| G-36 | **Rosetta Stone: Higgs cascade ratios** — DONE. Rosetta now 155 ratios. | **HIGH** | **DONE** |
+| G-37 | **SP-12 data support** — DONE. 11/24 SP-12 items addressed. | MEDIUM | **DONE** |
+| G-38 | **CKM eigenvalue entries** — DONE. | MEDIUM | **DONE** |
+| G-39 | **Biology expansion: codon SVD follow-up** — File each singular value as separate entry with correct tier. | LOW | NEW |
+| G-40 | **SP-12 data support round 2** — New results from Toys 1620-1623 need entries: Lagrangian isomorphism (5/10 BST stronger), thermal conductivity ratios (10/10), Born rule=Bergman normalization, Tsirelson bound=2√rank, proton=bulk geodesic (when Elie delivers E-34). Also: Lyra's Why m_e (ln(m_Pl/m_e)=π²n_C+rank) and Why D_IV^5 (triple lock). | **HIGH** | NEW |
+| G-41 | **Edge case data entries** — EC-1 through EC-8 from the board. File each with current BST prediction, observed value, and honest status. Hubble tension (BST favors 67.6), proton radius (muonic), DESI w₀, Li-7 BBN, YBCO/Al=79 bridge. Cross-reference Toy 1619. | **HIGH** | NEW |
+| G-42 | **Materials database expansion** — SP-8 now has thermal conductivity (Toy 1623), elastic moduli (Toy 1600), phonons (Toy 1583), band gaps (Toy 1570), Debye temps (Toy 1567), T_c clustering (Toy 1569). Consolidate: which material properties are NOT yet covered? Predict: specific heat ratios, melting point ratios, refractive indices — do they reduce to BST fractions? | **HIGH** | NEW |
+| G-43 | **Vindicated theorists data entries** — 9 theorists from Toy 1525 (6/9 vindicated). File each as a data layer entry connecting their prediction to the BST derivation. Wyler=D_IV^5, Eddington=137, Kolmogorov=5/3, etc. | MEDIUM | NEW |
+| G-44 | **Cross-domain bridge catalog** — Systematic: for each BST ratio (5/3, 7/6, 9/7, 3/2, etc.), list ALL domains where it appears. Extend Rosetta Stone into a complete bridge map. How many independent ratios produce how many physical quantities? Test CP-2 answer (~323 independent). | MEDIUM | NEW |
 
 ### Keeper — Audit / Consistency / Root Files
 | # | Task | Priority | Status |
