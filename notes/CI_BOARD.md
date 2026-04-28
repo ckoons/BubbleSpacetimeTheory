@@ -513,11 +513,11 @@ Casey's speculation: the natural dimension is N_max = 137 independent evaluation
 ### Grace — Graph-AC / Data Layer
 | # | Task | Priority | Status |
 |---|------|----------|--------|
-| G-34 | **SP-4: Push to 1600** — Currently at 1512. Add entries from recent SP-12 investigations, Higgs cascade (Toys 1607-1608), elastic moduli (Toy 1600), phonons (Toy 1583), all recent promotions. Target: **1600 entries by end of week.** | **TOP** | NEW |
-| G-35 | **n_s D-tier upgrade** — n_s = 1 - n_C/N_max = 132/137 as spectral fiber cost (Grace finding). Write formal data layer entry, connect to T1401 CMB cascade. This should be D-tier: it's a direct spectral evaluation. Toy reference needed. | **HIGH** | NEW |
-| G-36 | **Rosetta Stone: Higgs cascade ratios** — All 9 Higgs BR channels have BST fractions (Toys 1605-1608). Add these to Rosetta Stone catalog. Should push past 150. | **HIGH** | NEW |
-| G-37 | **SP-12 data support** — Create data layer entries for all SP-12 Understanding Program investigations: mass=winding (U-1.1), confinement=Hamming (U-1.3), mass=time dilation (Toy 1612), T_cross=C₂/ln(g) (Elie finding), T_CMB=137/50 (Elie finding). | MEDIUM | NEW |
-| G-38 | **CKM eigenvalue entries** — Grace's own finding: cos²(θ_C)=75/79. File as data layer entry with honest tier (I-tier until Lyra L-30 formalizes). Also: DM/baryon = rank⁴/N_c = 16/3, 5/6 as Gödel fraction. | MEDIUM | NEW |
+| G-34 | **SP-4: Push to 1600** — 1512→1520. Elie cosmo cascade (Omega_m=6/19, z_eq=3402), Lyra CKM (V_cb=36/869, delta_CP), Higgs BR(mu mu), cascade complete. 80 more needed. | **TOP** | **IN PROGRESS** |
+| G-35 | **n_s D-tier upgrade** — DONE. ns_fiber_cost entry filed: n_s = 1-n_C/N_max = 0.9635 at 0.14% (0.3 sigma). D-tier: spectral fiber cost mechanism. | **HIGH** | **DONE** |
+| G-36 | **Rosetta Stone: Higgs cascade ratios** — DONE. 7 Higgs ratios added. Rosetta now 155 ratios. | **HIGH** | **DONE** |
+| G-37 | **SP-12 data support** — DONE. 11/11 SP-12 entries filed (mass=winding, confinement, T_cross, T_CMB, corrections, DM ontology, Goedel fraction, etc). | MEDIUM | **DONE** |
+| G-38 | **CKM eigenvalue entries** — DONE. cos^2(theta_C)=75/79 + theta_C*N_max=M_5 + DM ontology + Goedel fraction all filed. | MEDIUM | **DONE** |
 | G-39 | **Biology expansion: codon SVD follow-up** — Additional entries from Toy 1571 (8/9) verification. The multiplicity pattern {N_c,n_C,1,N_c²,rank} is genuinely rare (0/10000 random). File each singular value as separate entry with correct tier. | LOW | NEW |
 
 ### Keeper — Audit / Consistency / Root Files

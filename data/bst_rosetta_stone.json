@@ -2357,6 +2357,98 @@
       ],
       "cal_tier": "S",
       "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.5714285714285714,
+      "bst_reading": "rank\u00b2/g = 4/7 (H\u2192bb\u0304)",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Gauge"
+      ],
+      "samples": [
+        "BR_H_bb"
+      ],
+      "cal_tier": "I"
+    },
+    {
+      "value": 0.21428571428571427,
+      "bst_reading": "N_c/(rank\u00b7g) = 3/14 (H\u2192WW*)",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Gauge"
+      ],
+      "samples": [
+        "BR_H_WW"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 0.026785714285714284,
+      "bst_reading": "N_c/(2g\u00b7rank\u00b3) = 3/112 (H\u2192ZZ*)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Gauge"
+      ],
+      "samples": [
+        "BR_H_ZZ_corrected"
+      ],
+      "cal_tier": "I"
+    },
+    {
+      "value": 0.08333333333333333,
+      "bst_reading": "1/(rank\u00b7C\u2082) = 1/12 (H\u2192gg)",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Gauge",
+        "QED"
+      ],
+      "samples": [
+        "BR_H_gg"
+      ],
+      "cal_tier": "I"
+    },
+    {
+      "value": 0.0625,
+      "bst_reading": "1/rank\u2074 = 1/16 (H\u2192\u03c4\u03c4)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Gauge"
+      ],
+      "samples": [
+        "BR_H_\u03c4\u03c4"
+      ],
+      "cal_tier": "I"
+    },
+    {
+      "value": 0.029,
+      "bst_reading": "N_c(m_c/m_b)\u00b2\u00b7BR(bb)/... (H\u2192cc\u0304)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Gauge"
+      ],
+      "samples": [
+        "BR_H_cc"
+      ],
+      "cal_tier": "I"
+    },
+    {
+      "value": 0.125,
+      "bst_reading": "1/rank^N_c = 1/8 (ZZ/WW ratio)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Gauge"
+      ],
+      "samples": [
+        "BR_ZZ_WW_ratio"
+      ],
+      "cal_tier": "I"
     }
   ]
 }

@@ -247,13 +247,14 @@ dev = abs(eff_dim - best_val) / best_val * 100
 # Also check: exp(S) at T=C_2 may not be a BST integer directly
 # More meaningful: at what T does exp(S) = n_C? C_2? g?
 # The structural finding is that eff_dim grows through BST integers as T increases
-eff_at_cross = math.exp(shannon_entropy(T_cross))
-eff_at_Nc = math.exp(shannon_entropy(N_c))
+# Temperature ordering: rank < N_c < T_cross < n_C < C_2 < g < N_max
+eff_at_rank = math.exp(shannon_entropy(rank))
 eff_at_nC = math.exp(shannon_entropy(n_C))
-test(f"Effective dimension grows through BST integers",
-     eff_at_cross < eff_at_Nc < eff_at_nC < eff_dim,
-     f"exp(S): T_cross->{eff_at_cross:.2f}, T=N_c->{eff_at_Nc:.2f}, "
-     f"T=n_C->{eff_at_nC:.2f}, T=C_2->{eff_dim:.2f} (monotone)")
+eff_at_g = math.exp(shannon_entropy(g))
+test(f"Effective dimension grows through BST integer temperatures",
+     eff_at_rank < eff_at_nC < eff_dim < eff_at_g,
+     f"exp(S): T=rank->{eff_at_rank:.2f}, T=n_C->{eff_at_nC:.2f}, "
+     f"T=C_2->{eff_dim:.2f}, T=g->{eff_at_g:.2f} (monotone)")
 
 # ─── T9: Reproducing property verification ───────────────────────
 # K(z,z) = sum |phi_k(z)|^2 = partition function Z(T)
