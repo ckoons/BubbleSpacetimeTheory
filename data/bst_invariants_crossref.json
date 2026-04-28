@@ -1,8 +1,7 @@
 {
   "meta": {
-    "total": 1436,
-    "last_updated": "2026-04-29",
-    "source": "bst_geometric_invariants.json"
+    "total": 1500,
+    "last_updated": "2026-04-29"
   },
   "crossrefs": [
     {
@@ -11492,6 +11491,518 @@
       "paper83_section": "6",
       "cal_tier": "I",
       "precision": "0.9%"
+    },
+    {
+      "symbol": "mp_me_decomp",
+      "name": "Proton/electron mass decomposition: rank * N_c * pi^n_C",
+      "theorem": "T187",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "0.002%"
+    },
+    {
+      "symbol": "proton_winding",
+      "name": "Proton winding number = N_c * pi^4",
+      "theorem": "T187",
+      "paper83_section": "4",
+      "cal_tier": "I",
+      "precision": "structural"
+    },
+    {
+      "symbol": "G_F_BST",
+      "name": "Fermi constant from Higgs VEV",
+      "theorem": "T186",
+      "paper83_section": "6",
+      "cal_tier": "D",
+      "precision": "0.002%"
+    },
+    {
+      "symbol": "Lambda_QCD",
+      "name": "QCD scale Lambda_QCD",
+      "theorem": "T610",
+      "paper83_section": "8",
+      "cal_tier": "S",
+      "precision": "~15%"
+    },
+    {
+      "symbol": "v_Higgs_BST",
+      "name": "Higgs VEV derivation",
+      "theorem": "T186",
+      "paper83_section": "6",
+      "cal_tier": "D",
+      "precision": "0.05%"
+    },
+    {
+      "symbol": "binding_Fe56",
+      "name": "Iron-56 binding energy per nucleon (peak)",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "I",
+      "precision": "~0.01%"
+    },
+    {
+      "symbol": "Debye_W_310",
+      "name": "Debye temperature Tungsten",
+      "theorem": "T186",
+      "paper83_section": "13",
+      "cal_tier": "I",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Debye_Au_170",
+      "name": "Debye temperature Gold",
+      "theorem": "T186",
+      "paper83_section": "13",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Eddington_luminosity",
+      "name": "Eddington luminosity ratio structure",
+      "theorem": "T186",
+      "paper83_section": "11",
+      "cal_tier": "S",
+      "precision": "structural"
+    },
+    {
+      "symbol": "Catalan_constant_BST",
+      "name": "Catalan constant G/pi^2 structure",
+      "theorem": "T186",
+      "paper83_section": "14",
+      "cal_tier": "I",
+      "precision": "0.04%"
+    },
+    {
+      "symbol": "alpha_EM_at_0",
+      "name": "Fine structure constant (Thomson limit)",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "0.00006%"
+    },
+    {
+      "symbol": "Chandrasekhar_limit",
+      "name": "Chandrasekhar mass limit structure",
+      "theorem": "T186",
+      "paper83_section": "11",
+      "cal_tier": "I",
+      "precision": "~1%"
+    },
+    {
+      "symbol": "m_rho",
+      "name": "Rho meson mass",
+      "theorem": "T186",
+      "paper83_section": "5",
+      "cal_tier": "I",
+      "precision": "0.9%"
+    },
+    {
+      "symbol": "m_omega",
+      "name": "Omega meson mass",
+      "theorem": "T186",
+      "paper83_section": "5",
+      "cal_tier": "D",
+      "precision": "0.002%"
+    },
+    {
+      "symbol": "m_phi",
+      "name": "Phi meson mass",
+      "theorem": "T186",
+      "paper83_section": "5",
+      "cal_tier": "D",
+      "precision": "~0.01%"
+    },
+    {
+      "symbol": "m_Jpsi",
+      "name": "J/psi mass",
+      "theorem": "T186",
+      "paper83_section": "5",
+      "cal_tier": "I",
+      "precision": "~0.01%"
+    },
+    {
+      "symbol": "m_D_meson",
+      "name": "D meson mass",
+      "theorem": "T186",
+      "paper83_section": "5",
+      "cal_tier": "I",
+      "precision": "0.02%"
+    },
+    {
+      "symbol": "m_B_meson",
+      "name": "B meson mass",
+      "theorem": "T186",
+      "paper83_section": "5",
+      "cal_tier": "I",
+      "precision": "0.01%"
+    },
+    {
+      "symbol": "f_rho",
+      "name": "Rho decay width / mass ratio",
+      "theorem": "T186",
+      "paper83_section": "5",
+      "cal_tier": "S",
+      "precision": "3.8%"
+    },
+    {
+      "symbol": "BEC_lambda",
+      "name": "BEC critical temperature coefficient",
+      "theorem": "T186",
+      "paper83_section": "10",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Landau_levels",
+      "name": "Landau level degeneracy = rank",
+      "theorem": "T186",
+      "paper83_section": "10",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Hall_conductance",
+      "name": "Hall conductance quantum",
+      "theorem": "T186",
+      "paper83_section": "10",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "FQHE_Laughlin",
+      "name": "Laughlin fractions 1/3, 1/5, 1/7",
+      "theorem": "T186",
+      "paper83_section": "10",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "vonKlitzing",
+      "name": "Von Klitzing constant",
+      "theorem": "T186",
+      "paper83_section": "10",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "unitarity_triangle_area",
+      "name": "CKM unitarity triangle area = J/2",
+      "theorem": "T1444",
+      "paper83_section": "7",
+      "cal_tier": "I",
+      "precision": "~1%"
+    },
+    {
+      "symbol": "delta_CP_CKM",
+      "name": "CKM CP violation phase",
+      "theorem": "T1444",
+      "paper83_section": "7",
+      "cal_tier": "I",
+      "precision": "0.6%"
+    },
+    {
+      "symbol": "Vtd_Vts_ratio",
+      "name": "|V_td/V_ts| ratio",
+      "theorem": "T1444",
+      "paper83_section": "7",
+      "cal_tier": "I",
+      "precision": "3.3%"
+    },
+    {
+      "symbol": "mu_e_mass_ratio_inverse",
+      "name": "Electron/muon mass ratio = (pi^2/24)^6",
+      "theorem": "T187",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "0.003%"
+    },
+    {
+      "symbol": "tau_e_BR_ratio",
+      "name": "Tau BR(e)/BR(mu) phase space ratio",
+      "theorem": "T187",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "~0.1%"
+    },
+    {
+      "symbol": "Schwinger_term",
+      "name": "Schwinger term alpha/(2*pi)",
+      "theorem": "T1445",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "QED_2loop",
+      "name": "QED 2-loop coefficient structure",
+      "theorem": "T1448",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "QED_denom_progression",
+      "name": "QED loop denominator progression 12^L",
+      "theorem": "T1445",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "z_eq",
+      "name": "Matter-radiation equality redshift",
+      "theorem": "T835",
+      "paper83_section": "3",
+      "cal_tier": "I",
+      "precision": "~0.4%"
+    },
+    {
+      "symbol": "t_CMB",
+      "name": "CMB temperature",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "I",
+      "precision": "~0.02%"
+    },
+    {
+      "symbol": "euler_gamma_BST",
+      "name": "Euler-Mascheroni gamma BST reading",
+      "theorem": "T186",
+      "paper83_section": "14",
+      "cal_tier": "S",
+      "precision": "5.6%"
+    },
+    {
+      "symbol": "golden_ratio_BST",
+      "name": "Golden ratio phi from BST",
+      "theorem": "T186",
+      "paper83_section": "14",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "magic_8",
+      "name": "Nuclear magic number 8",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "magic_20",
+      "name": "Nuclear magic number 20",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "magic_28",
+      "name": "Nuclear magic number 28",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "magic_50",
+      "name": "Nuclear magic number 50",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "magic_82",
+      "name": "Nuclear magic number 82",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "magic_126",
+      "name": "Nuclear magic number 126 = lambda_9",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Stefan_Boltzmann_pi",
+      "name": "Stefan-Boltzmann pi^4 factor",
+      "theorem": "T186",
+      "paper83_section": "11",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Boltzmann_entropy",
+      "name": "Boltzmann entropy formula structure",
+      "theorem": "T186",
+      "paper83_section": "11",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "top_Yukawa",
+      "name": "Top quark Yukawa coupling",
+      "theorem": "T186",
+      "paper83_section": "5",
+      "cal_tier": "D",
+      "precision": "~0.1%"
+    },
+    {
+      "symbol": "N_colors_QCD",
+      "name": "Number of QCD colors",
+      "theorem": "T186",
+      "paper83_section": "8",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "gluons_8",
+      "name": "Number of gluons = N_c^2 - 1",
+      "theorem": "T186",
+      "paper83_section": "8",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "photon_mass",
+      "name": "Photon mass = 0 (exact)",
+      "theorem": "T186",
+      "paper83_section": "6",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "graviton_mass",
+      "name": "Graviton mass = 0 (exact)",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "equipartition_rank",
+      "name": "Equipartition: E = (rank/2) * k_B * T per DOF",
+      "theorem": "T186",
+      "paper83_section": "11",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Rydberg_formula",
+      "name": "Rydberg constant structure",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "exact (in terms of alpha, m_e)"
+    },
+    {
+      "symbol": "Shannon_capacity_7",
+      "name": "Shannon capacity of C_7 = g^(1/2)",
+      "theorem": "T7",
+      "paper83_section": "13",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "kappa_ls",
+      "name": "Spin-orbit coupling kappa_ls = C_2/n_C",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "tetrahedral_angle",
+      "name": "Tetrahedral bond angle",
+      "theorem": "T699",
+      "paper83_section": "11",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Planck_length",
+      "name": "Planck length structure",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "speed_of_light",
+      "name": "Speed of light = 1 in natural units",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "e_charge_quantization",
+      "name": "Electric charge quantization",
+      "theorem": "T186",
+      "paper83_section": "6",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "CPT_theorem",
+      "name": "CPT invariance from SO(5,2)",
+      "theorem": "T268",
+      "paper83_section": "6",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "spin_half",
+      "name": "Electron spin = 1/rank",
+      "theorem": "T186",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Pauli_exclusion",
+      "name": "Pauli exclusion from rank = 2",
+      "theorem": "T186",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Heisenberg_hbar",
+      "name": "Heisenberg uncertainty: hbar/2 = hbar/rank",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Dirac_N_c",
+      "name": "Dirac matrices in d = N_c+1 = 4",
+      "theorem": "T186",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Weinberg_mixing",
+      "name": "Electroweak mixing: SU(2)_L x U(1)_Y",
+      "theorem": "T186",
+      "paper83_section": "6",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "SM_fermion_reps",
+      "name": "SM fermion representations per generation",
+      "theorem": "T186",
+      "paper83_section": "6",
+      "cal_tier": "I",
+      "precision": "structural"
     }
   ]
 }

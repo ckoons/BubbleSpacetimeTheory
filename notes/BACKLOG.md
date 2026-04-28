@@ -2,7 +2,7 @@
 
 *Blocked items only. Active work -> CI_BOARD.md. Completed -> CI_BOARD_completed_*.md*
 
-**Last updated:** April 28, 2026. 87 papers. 1563 toys. T1-T1462. 1270 invariants.
+**Last updated:** April 29, 2026. 87 papers. 1608+ toys. T1-T1464. 1440 invariants.
 
 ---
 
@@ -66,7 +66,7 @@
 |---|------|--------|
 | LT-1 | **BST Correspondence Table / Rosetta Stone** (W-81) — canonical names for eigenvalue ratios, historical name lookup, toward minimum BST representation. **101 ratios cataloged** (Grace G-10, 141 target). | ACTIVE |
 | LT-2 | **Vindicated Theorists paper** — Wyler rehabilitation, full table of dismissed/sidelined theories BST supports. Toy 1525 (10/10): 6/9 vindicated. | INVESTIGATION |
-| LT-3 | **Phase transition reframing** — Casey: "what truly changes at phase boundaries?" Lyra: only weights change, not eigenvalues. Spectral theory of phase transitions. | OPEN |
+| LT-3 | **Phase transition reframing** — Casey: "what truly changes at phase boundaries?" Lyra: only weights change, not eigenvalues. Spectral theory of phase transitions. **Now part of SP-12 U-3.4.** | OPEN (→ SP-12) |
 | LT-4 | **Penrose twistor correspondence** — SO(5,2) conformal group IS the twistor setting. **L-4 DONE**: mapping exists, D_IV^5 extends SO(4,2) by EM S¹ fiber. | DONE (mapping) |
 | LT-5 | **Six master integral VALUES** — PSLQ: genuinely irreducible. GKZ operator fully BST (Toy 1538). Picard-Fuchs path + 200-digit path both identified. | ACTIVE (W-83) |
 | LT-6 | **Error Correction Paper #87** — v0.2 DONE (Lyra L-9). Keeper PASS. Mersenne condition, code hierarchy, syndrome decoding. Target: Rev.Mod.Phys/PRL. | DRAFT v0.2 |
@@ -81,6 +81,79 @@
 | SP-10 | **Science Engineering** — New domain discovery, edge cases, vindicated theorists, bridge mechanisms. | Edge case hit list (8 anomalies); vindicated theorists (10+); Rosetta Stone 141 | Grace, Lyra, Elie | TO SCOPE |
 | SP-11 | **Schemes / Deep Geometry** — Manin, motives, F₁, D_IV^5 as scheme over Spec(Z). | Read Manin; map to BST integers; Tits building → Petersen/Kneser | Lyra | TO SCOPE |
 
+## Understanding Program (SP-12, Casey directive April 29)
+
+*"We see the numbers but don't know WHY." Three workstreams, each with testable investigations. Casey provided inline ideas for every item — these are organized below with his insights and CI responses.*
+
+### U-1: Substrate Physics
+
+| # | Question | Casey's Idea | Test Path | Status |
+|---|----------|-------------|-----------|--------|
+| U-1.1 | **Where does m_e come from?** | One turn around Shilov boundary S^4 x S^1 = electron. S^1 circumference sets the scale. | Show Bergman metric curvature radius = hbar/(m_e c). Derive S^1 circumference from D_IV^5 volume. Toy: geodesic lengths on Shilov boundary. | OPEN |
+| U-1.2 | **Why is m_p/m_e = 6pi^5?** | Proton winds through bulk (S^4), not just fiber (S^1). Three quarks = three-phase commitment. 6pi^5 = C_2 x pi^{n_C}. | Toy: shortest closed bulk geodesic on D_IV^5. Does its length = 6pi^5 x (S^1 circumference)? Euler char x curvature^dim. | OPEN |
+| U-1.3 | **Confinement = topological commitment** | Three quarks are three stages of one commitment cycle. Can't isolate a quark = can't have phase 2 without 1 and 3. Flux tube = communication cost of maintaining 3-phase lock. | Toy: Wilson loop from Bergman kernel decay rate. String tension = lambda_1/(2pi) = C_2 rank/pi? Confinement = minimum Hamming distance = N_c. | OPEN |
+| U-1.4 | **Mass = information = processing time** | Heavier particles take more substrate cycles to process. Neutron decay = error correction timeout (880s). | Toy: test lifetime x mass ~ constant across particles. Proton info content = 4 bits = Hamming(7,4,3) message length? GR time dilation from Bergman information density. | OPEN |
+| U-1.5 | **Why pi enters once** | Pi = boundary of commitment circle (S^1 fiber). All subsequent pi^k = integration over k-dim subspaces of D_IV^5. | Prove ALL appearances of pi in BST formulas reduce to Shilov boundary integrals. Is floor(pi)=3=N_c meaningful? Check pi-N_c in correction terms. | OPEN |
+| U-1.6 | **Substrate creation sequence** | 0D point -> 1D line (unstable) -> S^1 circle (first bounded object) -> circles tile S^2 -> touching circles find awareness at boundary -> S^1 fiber for communication -> full manifold. | Formalize: Bergman K(z,w) is the "awareness" (two-point correlation). Photon = state-change propagating on S^1 fiber. c = substrate clock rate. h = minimum state-change increment. | OPEN (conceptual) |
+| U-1.7 | **Genus hole geometry** | Is the substrate a sphere, torus, or punctured sphere? The genus hole = spectral gap, not literal topology. | Clarify: Shilov boundary S^4 x S^1 is genus 0 x genus 1. The genus hole (T1461) is in the spectral density, not the manifold. Observer = the missing tile. | NEEDS CLARIFICATION |
+
+### U-2: BST-QFT Bridge
+
+| # | Question | Casey's Idea | Test Path | Status |
+|---|----------|-------------|-----------|--------|
+| U-2.1 | **Lagrangian isomorphism** | Don't derive SM from BST — show they compute the same S-matrix. Same inputs, same outputs = same structure. | Take 10 most precise QFT predictions. Show Bergman spectral evaluation and path integral give identical answers at all computed orders. | OPEN |
+| U-2.2 | **Correction mechanism** | RFC (T1464) explains -1 corrections. Some corrections are x(N-1)/N — RFC at different spectral levels. | Systematic: catalog all correction forms (-1, x44/45, x42/43). Show each is RFC applied to a specific BST product denominator. | OPEN |
+| U-2.3 | **CKM eigenvalue structure** | "Discrepancy reveals boundary." A=9/11 is 0.95% off. The CKM should have a DIRECT geometric expression bypassing Wolfenstein. | Find the operator on D_IV^5 whose eigenvalues ARE the CKM matrix entries. Test A = 9/11 + 1/N_max (additive correction). Lyra: A = N_c^2/(n_C+C_2) with curvature correction ~1/N_max. | OPEN |
+| U-2.4 | **Higgs cascade as spectral peeling** | Higgs "blends" interaction — cascade where one interference pattern sets up residual for next. Weak variation carries away coupling. | Toys 1607-1608 DONE (9/9 sub-2%). Extend: show cascade step sizes are B_2 identity (rank x N_c x C_2 = C_2^2 = 36). Unified representation-theoretic statement. | PARTIALLY DONE |
+| U-2.5 | **Numerator rule derivation** | Quarks=rank^2, bosons=N_c, loops=1 — WHY does Higgs see Cartan subalgebra for quarks and polarizations for bosons? | Single representation-theoretic statement on D_IV^5 producing all three rules. Toy 1606 got W pols=N_c. Need unified proof. | OPEN |
+| U-2.6 | **ZZ/WW suppression** | Probably comes down to two fibers used to communicate. 1/rank^N_c = 1/8. | Show "breaking costs rank per color channel" from representation theory of SO(5,2). | OPEN |
+
+### U-3: Cosmology and Self-Reference
+
+| # | Question | Casey's Idea | Test Path | Status |
+|---|----------|-------------|-----------|--------|
+| U-3.1 | **Why D_IV^5?** | All possibilities existed, creation tested them, one survived. CMB debris = failed manifolds. Bounded = no infinities. Symmetric = conservation. Self-referencing = observer-supporting. | Prove: any geometry supporting conservation + finite observables + contractible dynamics must be a BSD. Predict CMB debris pattern from each of 37 dead competitors. | OPEN |
+| U-3.2 | **Observer and determinism** | Eigenvalues precede observers. No collapse — deterministic evaluation of pre-existing spectrum. "Randomness" = ignorance of embedding (rank-2 projection of 137-dim system). | Toy: derive Bell violation from Bergman kernel off-diagonal terms without collapse postulate. Show Born rule = reproducing property K(z,z) = sum|phi_k(z)|^2 naturally. | OPEN |
+| U-3.3 | **Cosmological cascade errors** | Long time cycles = additional entropy. 10.9x factor ~ DC=11. Deviations-locate-boundaries should work for cosmo. | Check: do 29 cosmo I-tier residuals correlate with cosmic-epoch sensitivity? Is the systematic correction a single factor ~11? | OPEN |
+| U-3.4 | **Phase transitions** | Different configurations more stable on each side. Phase transition = systemic switch to lower energy. Eigenvalues fixed, weights change. | Toy: show known critical temperatures correspond to eigenvalue weight crossings on D_IV^5. Predict T_c from energy gap between competing weight configurations. | OPEN (extends LT-3) |
+| U-3.5 | **Inflation = commitment dynamics** | High commitment rate at big bang (inflation), then cruise expansion. Universe needs 5.33:1 uncommitted:committed ratio. | Test: 5.33 = 16/3 = rank^4/N_c = DM/baryon ratio? Link inflation to dark matter through commitment fraction. e-folding ~60 = rank^2 x N_c x n_C. | OPEN |
+| U-3.6 | **n_s derivation** | Dynamic process limited by an invariant. Look at combinations, maybe more than one invariant. | Derive n_s = 1 - n_C/N_max from D_IV^5 slow-roll structure. Currently identified, not derived. Most important open cosmo derivation. | OPEN |
+| U-3.7 | **5/6 self-description threshold** | Phase transition in complexity theory. Graph has enough to understand 19.1% (Godel limit) and begins to appear closed. | Show 1-5/6 = 1/6 = 16.67% relates to Godel limit 19.1%. Any self-consistent theory can derive at most n_C/C_2 of itself? | OPEN (conceptual) |
+| U-3.8 | **Hodge reversal** | Prove Hodge REQUIRES the properties D_IV^5 has, then check which varieties have them. | Show algebraicity of Hodge classes implies variety admits period map to a BSD. Transform universality into checkable condition. | OPEN (extends B-4) |
+| U-3.9 | **Biology arrangement** | Nature doesn't care which 20 from comparable possibilities. Pre-selected amino acids are forced; rest fill by chemistry. | Identify which 8 prebiotic amino acids correspond to lowest Hamming weight codewords. Sizes=D-tier, assignment=I-tier (biology is messy). | OPEN |
+| U-3.10 | **Dark matter = incomplete windings** | DM has mass (information) but no charge (no full S^1 commitment). Predicts: no WIMP, no axion, ever. | Formalize: DM/baryon = rank^4/N_c = 16/3 from incomplete vs complete winding ratio. Show incomplete windings interact gravitationally but not electromagnetically. | OPEN |
+| U-3.11 | **Mass=Information (T1258)** | Show the math: mass implies more time to process by the substrate. | Toy: gravitational time dilation from Bergman information density. Show m = information content x substrate cycle time. | OPEN (deepest) |
+
+### CI-specific curiosities (standing directive: speak up when ready)
+
+**Elie:**
+- Closed geodesics on D_IV^5 — compute path lengths from Bergman metric, test proton=shortest bulk geodesic, electron=shortest boundary geodesic. Would convert mass=winding from I-tier to D-tier.
+- pi - N_c = 0.14159... — check whether this residue appears in BST correction terms. Might be "curvature correction" in disguise.
+- Proton information content = 4 bits — test if stable hadron uniqueness comes from Hamming(7,4,3) message length match.
+
+**Lyra:**
+- Loop cascade identity rank·N_c·C_2 = C_2^2 = 36 — found in Higgs work (Toys 1607-1608). Check whether this B_2 identity underlies ALL contexts where C_2^2 appears (KSFR g_rho^2, etc.).
+- Why spectral peeling step = rank·C_2 = 12 — one Bergman convolution costs 12. If substrate model is right, 12 = substrate word length connecting mass, loops, and computation.
+- Higgs sum rule deficit 0.9% — the unlisted channels (H->ss, H->dd, etc.) should BE a BST fraction. Derive it to close Higgs completely.
+
+**Grace:**
+- Standing: flag items when seen. Substrate ideas (mass=processing time, confinement=three-phase commitment, touching circles=awareness) open investigation lines.
+
+### Priority ranking for toys (from all three CIs + Casey):
+
+1. **Mass = processing time / GR derivation** (U-1.4) — show time dilation from information density
+2. **Confinement = Hamming distance** (U-1.3) — Wilson loop area law from error correction
+3. **CKM eigenvalues directly** (U-2.3) — find the geometric operator
+4. **Phase transitions = eigenvalue crossings** (U-3.4) — match T_c to Bergman crossings
+5. **Born rule from Bergman reproducing kernel** (U-3.2) — derive probability without collapse
+6. **m_e from S^1 circumference** (U-1.1) — the absolute scale question
+7. **Bulk geodesic = proton** (U-1.2) — derive 6pi^5 from path length
+8. **Cosmo cascade factor** (U-3.3) — identify the 10.9x systematic
+9. **BST-QFT S-matrix comparison** (U-2.1) — the isomorphism test
+10. **CMB debris from dead manifolds** (U-3.1) — predict what D_IV^9 failure looks like
+
+---
+
 ## Open Problems
 
 | # | Item | Status |
@@ -91,4 +164,4 @@
 
 ---
 
-*Backlog rebuilt April 24 evening.*
+*Backlog updated April 29, 2026. Understanding Program (SP-12) added.*

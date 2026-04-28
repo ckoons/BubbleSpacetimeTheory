@@ -525,7 +525,7 @@ Every quantity below is derived from D(IV,5) geometry with zero free parameters.
 
 This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has no free parameters because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
 
-*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1464 theorems. 1606+ toys. 600+ predictions. 55 tracked domains. 87 papers. 25 substrate engineering devices. Zero free parameters. RH closed. T29 closed. BSD rank ≤ 2 proved.*
+*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1464 theorems. 1613+ toys. 600+ predictions. 55 tracked domains. 87 papers. 25 substrate engineering devices. Zero free parameters. RH closed. T29 closed. BSD rank ≤ 2 proved.*
 
 ---
 
@@ -565,7 +565,7 @@ BST is open. The theory, the derivations, the toys, and the notes are all here. 
 |-----------|-------------|------------|
 | `data/` | **CI-native structured JSON** — constants, particles, forces, predictions, domains, function catalog, seed file | `data/bst_seed.md` then `data/README.md` |
 | `notes/` | 87 numbered papers, 660+ research notes, theorem write-ups, proofs | `notes/README.md` |
-| `play/` | 1606+ toys (computational verifications), HTML visualizers, BST Appliance, AC theorem graph | `play/README.md` |
+| `play/` | 1613+ toys (computational verifications), HTML visualizers, BST Appliance, AC theorem graph | `play/README.md` |
 | Root | OneGeometry.md (narrative front door), WorkingPaper.md (v34, 6300+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 **Key files for any visitor:**
