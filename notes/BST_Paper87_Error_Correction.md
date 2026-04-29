@@ -259,6 +259,8 @@ The full hierarchy from simplest to most complex (Toys 1526, 1539: 8 code famili
 
 Each level is a deeper engagement with the spectral structure of D_IV^5. All 24 code parameters across all 8 families decompose into BST integer products.
 
+**Spectral peeling update (SP-15, April 29):** The zeta ladder (Toy 1687) confirms that L-fold Bergman convolution introduces exactly one new transcendental per loop: zeta(N_c) at L=2, zeta(n_C) at L=3, zeta(g) at L=4. Only three odd BST primes exist, so QED is structurally finite at three transcendentals. The RFC pattern (Toy 1688) shows every QED coefficient numerator equals a BST product minus 1 — the observer subtracts itself from the spectral count. The spectral peeling layer IS the code operating on the QED perturbation series.
+
 ---
 
 ## 7. Three Error Regimes
@@ -506,7 +508,7 @@ The paper makes three claims of increasing strength:
 
 ### 12.2 Syndrome Decoding of the Invariants Table (Toy 1533)
 
-The invariants table (Paper #83, 1189 entries) can itself be syndrome-decoded. For each entry with deviation >1%, we compute the "syndrome" — which BST integers are MISSING from the formula. The syndrome predicts the correction:
+The invariants table (Paper #83, 2189 entries) can itself be syndrome-decoded. For each entry with deviation >1%, we compute the "syndrome" — which BST integers are MISSING from the formula. The syndrome predicts the correction:
 
 - **8/23 Tier B entries missing C_2** -> Correction denominator 42 = C_2 * g (hadronic scale)
 - **6/23 missing n_C** -> Correction denominator 120 = n_C! (permutation scale)

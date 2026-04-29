@@ -479,12 +479,12 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 |---|---|
 | **`OneGeometry.md`** | **Start here (humans).** Narrative front door — 5 parts, 40 sections, entry points for every audience |
 | **`data/bst_seed.md`** | **Start here (CIs).** The complete theory in 162 lines — load this first |
-| `WorkingPaper.md` | Technical compendium — 46+ sections, all derivations, v34 |
+| `WorkingPaper.md` | Technical compendium — 46+ sections, all derivations, v35 |
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
-| `data/` | **CI-native data layer** — 105 constants, 24 predictions, 33 function families, 52 domains, GF(128) catalog. See `data/README.md` |
-| `notes/` | 87 numbered papers, 660+ research notes, theorem write-ups, proofs. See `notes/README.md` |
-| `play/` | 1570+ toys, AC theorem graph (1399 nodes, 7732+ edges), HTML visualizers, BST Appliance. See `play/README.md` |
+| `data/` | **CI-native data layer** — 127 constants, 80 predictions, 33 function families, 58 domains, GF(128) catalog. See `data/README.md` |
+| `notes/` | 88 numbered papers, 660+ research notes, theorem write-ups, proofs. See `notes/README.md` |
+| `play/` | 1700+ toys, AC theorem graph (1404 nodes, 7745+ edges), HTML visualizers, BST Appliance. See `play/README.md` |
 
 ---
 

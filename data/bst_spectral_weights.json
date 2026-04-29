@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "description": "Bergman eigenvalue degeneracies on Q^5 from generating function G(t)",
+    "generating_function": "G(t) = (1+t)^rank / (1-t)^(rank^2) + t - t^3",
+    "last_updated": "2026-04-29"
+  },
+  "eigenvalues": [
+    {
+      "k": 0,
+      "lambda_k": 0,
+      "d_k": 1
+    },
+    {
+      "k": 1,
+      "lambda_k": 6,
+      "d_k": 7
+    },
+    {
+      "k": 2,
+      "lambda_k": 14,
+      "d_k": 19
+    },
+    {
+      "k": 3,
+      "lambda_k": 24,
+      "d_k": 43
+    },
+    {
+      "k": 4,
+      "lambda_k": 36,
+      "d_k": 85
+    },
+    {
+      "k": 5,
+      "lambda_k": 50,
+      "d_k": 146
+    },
+    {
+      "k": 6,
+      "lambda_k": 66,
+      "d_k": 231
+    },
+    {
+      "k": 7,
+      "lambda_k": 84,
+      "d_k": 344
+    },
+    {
+      "k": 8,
+      "lambda_k": 104,
+      "d_k": 489
+    },
+    {
+      "k": 9,
+      "lambda_k": 126,
+      "d_k": 670
+    }
+  ]
+}

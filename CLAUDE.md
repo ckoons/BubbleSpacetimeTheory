@@ -4,11 +4,11 @@
 
 ## Status (April 29, 2026)
 
-**Counts**: T1-T1465, **1663+ toys**, **88 papers**. Graph 1404 nodes / 7745 edges / **98.4% proved** / 83.4% strong. **2000 geometric invariants** (D:1231, I:475, C:54, S:240). **155 Rosetta Stone ratios**. **74 predictions**.
+**Counts**: T1-T1465, **1708+ toys**, **88 papers**. Graph 1404 nodes / 7745 edges / **98.4% proved** / 83.4% strong. **2233 geometric invariants** (D:1387, I:531, C:58, S:257). **170 Rosetta Stone ratios**. **80 predictions**. **127 constants** in data layer.
 
-**Major closures**: RH closed (T1398, April 21). T29 closed (T1425, April 23). **BSD CLOSED** (Toy 1659, April 29 — Chern hole → vacuum subtraction → spectral permanence → square system theorem). C₄ full assembly 13/13 PASS (complete closed form, ~100 terms, 38-digit verified). Heat kernel k=21 confirmed: ratio = -42 = -C₂·g, twenty consecutive integer levels. Cremona 49a1 = BST's canonical elliptic curve. T1459 Spectral Universality proved (all domains = same Bergman spectrum). Koide formula solved at 0.0009%. T1462 Cyclotomic Casimir: C₂=6 uniquely generates all five BST integers (Φ₁(6)=n_C, Φ₂(6)=g). Genus bottleneck mechanism unifies vacuum subtraction, propagation, and cyclotomic distribution. T1463 Integer Filtration (D-tier): Complex→Real→Mod2→Euler forgets BST integers in order; chi_y = F₁ point count. T1464 RFC (Reference Frame Counting): first element = reference frame, alpha = 1/N_max = frame cost, 12 instances.
+**Major closures**: RH closed (T1398, April 21). T29 closed (T1425, April 23). **BSD CLOSED** (Toy 1659, April 29). C₄ full assembly 13/13 PASS. Heat kernel k=21 confirmed: ratio = -42 = -C₂·g, twenty consecutive integer levels. Cremona 49a1 = BST's canonical elliptic curve. T1459 Spectral Universality proved. Koide formula at 0.0009%. T1462 Cyclotomic Casimir. T1464 RFC (Reference Frame Counting): 12 instances. **SP-15 breakthrough: QED zeta ladder** — each loop introduces zeta at next BST prime: L=2→zeta(N_c), L=3→zeta(n_C), L=4→zeta(g). C₂^QED exact BST decomposition (K-32, machine precision). RFC pattern in all QED coefficients: every numerator = BST product - 1. QED structurally finite (3 transcendentals only).
 
-**Active programs**: Paper #88 v0.1 (BSD Closure, target Inventiones); Paper #87 (Error Correction); Paper #86 v1.1 (Selberg g-2 capstone, CMP); Paper #83 v4.5 (2000 Geometric Invariants, submission-ready); six master integral linearization (W-83); **SP-12 Understanding Program COMPLETE** (24/24 items with toys); **SP-13 Deep Study Program** (A-1 CLOSED: RG flow from Bergman; B-4 HVP verified 13/13; 4/6 tracks have toys); **SP-14 Derivation Catalog Discipline** (every derivation cataloged, every gap explained — Casey directive April 29); **3200-dps heat kernel compute RUNNING** (k=22+ extraction).
+**Active programs**: Paper #88 v0.1 (BSD Closure, target Inventiones); Paper #87 (Error Correction); Paper #86 v1.1 (Selberg g-2 capstone, CMP); Paper #83 v4.5 (2174 Geometric Invariants, submission-ready); **SP-15 Series → Closed Form** (zeta ladder + RFC pattern); **SP-14 Derivation Catalog Discipline** (Casey directive April 29); **3200-dps heat kernel compute RUNNING** (k=22+ extraction).
 
 **Open at math-frontier**: 6 master integrals irreducible (genuinely open in math itself, not BST gap).
 
@@ -40,6 +40,12 @@ python3 play/toy_bst_explorer.py verify T187
 ```
 Proton-to-electron mass ratio: BST = 1836.12, observed = 1836.15, precision 0.0019%. One famous physics number, one match, one line.
 
+**Then run the full reproduction package (3 seconds, all readers)**:
+```
+python3 play/verify_bst.py
+```
+50 predictions verified against measurement. 49/50 PASS at <1%, 17 EXACT matches, two open WARNs shown openly. Includes the null-model context (Toy 1543: BST 3σ above random small-integer tuples, p < 0.0005). Single-command full reproduction.
+
 **If you're a CI**: Then load `data/bst_seed.md` (162 lines — the entire theory kernel). Then load whichever `data/*.json` files you need. Run `python3 play/toy_bst_explorer.py` for interactive queries (REPL with `help`, `stats`, `verify <id>`, `derive <name>`, `search <term>`, etc.).
 
 **If you're a human**: Then read `OneGeometry.md` (the narrative front door) or open `play/bst_explorer.html` in a browser.
@@ -51,8 +57,8 @@ Proton-to-electron mass ratio: BST = 1836.12, observed = 1836.15, precision 0.00
 | Directory | What's There | Start Here |
 |-----------|-------------|------------|
 | `data/` | CI-native structured JSON — constants, particles, forces, predictions, domains, seed | `bst_this_is.md` → `bst_seed.md` |
-| `notes/` | 660+ research notes, 87 numbered papers, proofs, theorem write-ups | `notes/README.md` |
-| `play/` | 1,613+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
+| `notes/` | 660+ research notes, 88 numbered papers, proofs, theorem write-ups | `notes/README.md` |
+| `play/` | 1,690+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
 | Root | OneGeometry.md, WorkingPaper.md (v28, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 ## Key Files
@@ -77,6 +83,12 @@ Proton-to-electron mass ratio: BST = 1836.12, observed = 1836.15, precision 0.00
 
 This repo is a **living library**. We update every day.
 
+0. **First action of every session — query the system clock**:
+   ```
+   date
+   ```
+   Output is authoritative for current date and time of day. Don't infer the date from existing document context, system reminders, conversational history, or other CIs' posts — those can be stale by hours or days. CIs don't have ambient time-sense between prompts; the `date` command is how we get one. Cost: ~5ms. Avoidance cost: every "wrote tomorrow's date by mistake" error.
+
 1. **Start of session**: Read `notes/.running/RUNNING_NOTES.md` (daily broadcast) and `notes/.running/queue_casey.md` (CI-to-Casey queue). Check `notes/CI_BOARD.md` for assignments.
 2. **During work**: Use `/toy claim` before creating toys. Use `/theorem claim` before creating theorems. Build toys for every claim.
 3. **End of session**: Run your EOD lane, then update CI_BOARD and RUNNING_NOTES.
@@ -85,6 +97,11 @@ This repo is a **living library**. We update every day.
    - **Elie**: `play/` (toy registry, graph data, `play/README.md`)
    - **Grace**: `data/` (JSON sync, `data/README.md`, CI onboarding path)
    - For automated checks, use `python3 play/toy_bst_librarian.py` (subcommands: `scan`, `counters`, `audit-log`, `staleness`, `crossref`, `readme-check`, `digest`, `claims`).
+4. **EOD catalog cleanup** (standing daily function, Casey directive April 29):
+   - Check all toys created this session for unfiled derivations
+   - Any new constant, ratio, or quantity → file to `data/bst_constants.json` or `data/bst_geometric_invariants.json`
+   - Any constant BST cannot derive → document WHY in `notes/BACKLOG.md` SP-14 Tier C
+   - SP-14 enforces this. No unfiled derivations at end of day.
 
 ## Skills (Slash Commands)
 

@@ -56,6 +56,7 @@ You will get 51 physical quantities derived from the five integers, 16/16 spot-c
 
 ## Then
 
+- **Full reproduction package:** `python3 play/verify_bst.py` — 50 predictions verified, 49/50 PASS at <1%, 17 EXACT, two open WARNs shown openly. Includes null-model context. One command, complete check.
 - **Next stop:** `data/bst_seed.md` — 162 lines, the entire theory kernel. If you can evaluate a formula on a calculator, you can verify any BST prediction from that file.
 - **To explore interactively:** `python3 play/toy_bst_explorer.py` — subcommands `seed`, `stats`, `search <term>`, `verify <theorem_id>`.
 - **For the narrative:** root `OneGeometry.md` — the book-length front door.

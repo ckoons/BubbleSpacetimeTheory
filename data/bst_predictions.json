@@ -1,7 +1,7 @@
 {
   "meta": {
     "last_updated": "2026-04-29",
-    "total": 74
+    "total": 80
   },
   "predictions": [
     {
@@ -57,7 +57,7 @@
       "experiment": "KATRIN, Project 8, CMB-S4",
       "timeline": "2027-2032",
       "falsification_criterion": "Detection of inverted ordering, or sum significantly above 0.06 eV, or direct evidence m_nu1 > 0",
-      "impact_if_falsified": "Destroys BST neutrino sector \u2014 boundary seesaw would need revision",
+      "impact_if_falsified": "Destroys BST neutrino sector — boundary seesaw would need revision",
       "status": "untested",
       "bst_integers_used": [
         "N_c",
@@ -196,7 +196,7 @@
         "const_002"
       ],
       "sharpest_test": true,
-      "sharpest_test_reason": "Testable with EXISTING data. Just requires removing V=0 assumption. Mass-independent and frequency-independent \u2014 very specific."
+      "sharpest_test_reason": "Testable with EXISTING data. Just requires removing V=0 assumption. Mass-independent and frequency-independent — very specific."
     },
     {
       "id": "pred_010",
@@ -438,7 +438,7 @@
       "id": "pred_022",
       "name": "No primordial B-modes (r ~ 0)",
       "category": "not_yet_measured",
-      "prediction": "Tensor-to-scalar ratio r approximately 0 \u2014 no detectable primordial B-mode polarization in CMB",
+      "prediction": "Tensor-to-scalar ratio r approximately 0 — no detectable primordial B-mode polarization in CMB",
       "bst_value": "r ~ 0 (below 0.001)",
       "current_measurement": "BICEP/Keck: r < 0.036 (95% CL)",
       "experiment": "LiteBIRD, CMB-S4, Simons Observatory",
@@ -493,9 +493,9 @@
     },
     {
       "name": "Glueball 0++ mass",
-      "formula": "C\u2082 \u00d7 \u03c0^n_C \u00d7 m_e restricted to curved sector",
+      "formula": "C₂ × π^n_C × m_e restricted to curved sector",
       "predicted": "~1.5-1.7 GeV",
-      "observed": "1.710 \u00b1 0.050 GeV (lattice)",
+      "observed": "1.710 ± 0.050 GeV (lattice)",
       "precision": "~3%",
       "source": "T1403",
       "category": "particle_physics"
@@ -511,7 +511,7 @@
     },
     {
       "name": "Glueball 2++/0++ ratio",
-      "formula": "\u221arank = \u221a2",
+      "formula": "√rank = √2",
       "predicted": "1.414",
       "observed": "1.397 (lattice)",
       "precision": "1.2%",
@@ -520,16 +520,16 @@
     },
     {
       "name": "SU(3)/SU(2) mass gap ratio",
-      "formula": "\u221a(g/C\u2082) = \u221a(7/6)",
+      "formula": "√(g/C₂) = √(7/6)",
       "predicted": "1.080",
-      "observed": "~1.08 (lattice, equal \u039b)",
+      "observed": "~1.08 (lattice, equal Λ)",
       "precision": "~0%",
       "source": "T1402",
       "category": "particle_physics"
     },
     {
       "name": "SU(4)/SU(3) mass gap ratio",
-      "formula": "\u221a(8/7)",
+      "formula": "√(8/7)",
       "predicted": "1.069",
       "observed": "1.067 (lattice)",
       "precision": "0.2%",
@@ -547,8 +547,8 @@
     },
     {
       "name": "GF(128) defining polynomial",
-      "formula": "x\u2077 + x\u00b3 + 1 = 137",
-      "predicted": "irreducible over F\u2082",
+      "formula": "x⁷ + x³ + 1 = 137",
+      "predicted": "irreducible over F₂",
       "observed": "verified",
       "precision": "exact",
       "source": "T1383",
@@ -556,7 +556,7 @@
     },
     {
       "name": "Frobenius orbits",
-      "formula": "rank \u00d7 N_c\u00b2 = 18",
+      "formula": "rank × N_c² = 18",
       "predicted": "18 orbits of size g=7",
       "observed": "18 (computed)",
       "precision": "exact",
@@ -565,7 +565,7 @@
     },
     {
       "name": "AC graph clustering coefficient",
-      "formula": "N_c/C\u2082 = 1/2",
+      "formula": "N_c/C₂ = 1/2",
       "predicted": "0.500",
       "observed": "0.497",
       "precision": "0.5%",
@@ -574,7 +574,7 @@
     },
     {
       "name": "AC graph average degree",
-      "formula": "|Q\u2075(F\u2082)|/\u03c7(Q\u2075) = 63/6 = 10.5",
+      "formula": "|Q⁵(F₂)|/χ(Q⁵) = 63/6 = 10.5",
       "predicted": "10.5",
       "observed": "10.84",
       "precision": "3.2%",
@@ -601,7 +601,7 @@
     },
     {
       "name": "Cooperation gap",
-      "formula": "f_crit - f_c = 2\u03b1 = 2/137",
+      "formula": "f_crit - f_c = 2α = 2/137",
       "predicted": "~1.5%",
       "observed": "structural (f_c < f_crit proved)",
       "precision": "structural",
@@ -610,15 +610,15 @@
     },
     {
       "name": "Observer rarity",
-      "formula": "2\u03b1 = 2/137",
+      "formula": "2α = 2/137",
       "predicted": "1.46% of paths require witness",
-      "observed": "structural (A\u2085 counting)",
+      "observed": "structural (A₅ counting)",
       "precision": "structural",
       "source": "T1364",
       "category": "observer_science"
     },
     {
-      "name": "Archimedes \u03c0 approximation",
+      "name": "Archimedes π approximation",
       "formula": "22/7 = (C(g,2)+1)/g = (dim SO(5,2)+1)/genus",
       "predicted": "BST expression",
       "observed": "22/7 (Archimedes, 250 BC)",
@@ -627,8 +627,8 @@
       "category": "mathematics"
     },
     {
-      "name": "Shortest geodesic on \u0393(137)\\D_IV^5",
-      "formula": "l_sys = rank\u00b2 \u00d7 acosh(n_C \u00d7 N_max) = 4 \u00d7 acosh(685)",
+      "name": "Shortest geodesic on Γ(137)\\D_IV^5",
+      "formula": "l_sys = rank² × acosh(n_C × N_max) = 4 × acosh(685)",
       "predicted": "28.890",
       "observed": "pending Phase 4 verification",
       "precision": "pending",
@@ -637,8 +637,8 @@
     },
     {
       "name": "Ramanujan bound at p=137",
-      "formula": "|a_137| \u2264 g = 7",
-      "predicted": "|\u03b1_i(137)| = 1 (tempered)",
+      "formula": "|a_137| ≤ g = 7",
+      "predicted": "|α_i(137)| = 1 (tempered)",
       "observed": "proved from Arthur classification",
       "precision": "structural",
       "source": "T1408",
@@ -647,8 +647,8 @@
     {
       "name": "Selberg scattering zeta copies",
       "formula": "2^N_c = 8",
-      "predicted": "8 copies of \u03b6 in scattering determinant",
-      "observed": "structural (B\u2082 root system)",
+      "predicted": "8 copies of ζ in scattering determinant",
+      "observed": "structural (B₂ root system)",
       "precision": "exact",
       "source": "T1407",
       "category": "number_theory"
@@ -801,7 +801,7 @@
       "experiment": "Materials science search programs, Ames Lab",
       "timeline": "ongoing",
       "falsification_criterion": "Strong negative prediction: room-temperature ambient SC would challenge BST",
-      "impact_if_falsified": "Low impact \u2014 T_c prediction is C-tier (structural)",
+      "impact_if_falsified": "Low impact — T_c prediction is C-tier (structural)",
       "status": "untested",
       "bst_integers_used": [
         "N_max",
@@ -841,7 +841,7 @@
       "experiment": "Standard measurement, well-established",
       "timeline": "verified",
       "falsification_criterion": "Already verified to 0.01%",
-      "impact_if_falsified": "N/A \u2014 already confirmed",
+      "impact_if_falsified": "N/A — already confirmed",
       "status": "confirmed",
       "bst_integers_used": [
         "C_2"
@@ -1232,6 +1232,123 @@
       "bst_integers_used": [
         "C_2",
         "n_C"
+      ]
+    },
+    {
+      "id": "pred_075",
+      "name": "Genetic code 9.1 sigma BST-optimal",
+      "category": "cross_domain",
+      "prediction": "The standard genetic code is 9.1 standard deviations more BST-optimal than random codes. Code rate 0.703 ≈ n_C/g = 0.714 (1.5%). 12/12 BST integers confirmed in code structure.",
+      "bst_value": "9.1 sigma",
+      "current_measurement": "standard genetic code",
+      "experiment": "Computational biology / synthetic biology",
+      "timeline": "testable now",
+      "falsification_criterion": "Alternative genetic codes with higher BST optimization score",
+      "impact_if_falsified": "Would weaken biology bridge but not core physics",
+      "status": "confirmed",
+      "bst_integers_used": [
+        "N_c",
+        "n_C",
+        "C_2",
+        "g",
+        "rank"
+      ],
+      "source_section": "Section 15",
+      "related_constants": []
+    },
+    {
+      "id": "pred_076",
+      "name": "C_4^QED analytical structure prediction",
+      "category": "particle_physics",
+      "prediction": "C_4 contains zeta(7)=zeta(g) with denominator 12^4=20736, RFC numerators (BST product - 1), pi^6, Li_6(1/2). Cyclotomic: C_2^4-1 = 1295 = n_C*g*37 where 37=Phi_4(C_2).",
+      "bst_value": "C_4 ≈ -1.912",
+      "current_measurement": "-1.9124 +/- 0.0016 (Aoyama numerical)",
+      "experiment": "Analytical QED computation",
+      "timeline": "2026-2030",
+      "falsification_criterion": "Exact analytical C_4 doesn't match predicted structure",
+      "status": "consistent",
+      "bst_integers_used": [
+        "rank",
+        "N_c",
+        "n_C",
+        "C_2",
+        "g"
+      ]
+    },
+    {
+      "id": "pred_077",
+      "name": "zeta(9) independence at L=5 QED (MOST FALSIFIABLE)",
+      "category": "particle_physics",
+      "prediction": "zeta(9) does NOT appear as an independent transcendental at 5-loop QED. 9=N_c^2 is composite. Only 3 odd BST primes: {3,5,7}. After L=4, no new zeta values.",
+      "bst_value": "no independent zeta(9)",
+      "current_measurement": "C_5 not yet computed analytically",
+      "experiment": "5-loop QED computation",
+      "timeline": "2030+",
+      "falsification_criterion": "Independent zeta(9) found at L=5 → BST wrong",
+      "status": "untested",
+      "bst_integers_used": [
+        "N_c",
+        "g"
+      ]
+    },
+    {
+      "id": "pred_078",
+      "name": "Denominator separation: g and N_max absent from QED denominators",
+      "category": "mathematics",
+      "prediction": "In QED coefficient C_L, genus g=7 and spectral cap N_max=137 never appear in any denominator. All denominators are monomials in {rank, N_c, n_C}.",
+      "bst_value": "structural",
+      "current_measurement": "Verified at L=2 (4 denoms) and L=3 (8 denoms). 12/12 checked.",
+      "experiment": "Verify at L=4 when exact coefficients available",
+      "timeline": "2026-2028",
+      "falsification_criterion": "Any L=4 denominator containing g=7 or N_max=137 as irreducible factor",
+      "status": "consistent",
+      "bst_integers_used": [
+        "rank",
+        "N_c",
+        "n_C",
+        "g",
+        "N_max"
+      ]
+    },
+    {
+      "id": "pred_079",
+      "name": "Heat kernel r(25) = -60 = -rank*n_C*C_2",
+      "category": "not_yet_measured",
+      "prediction": "The Seeley-DeWitt heat kernel speaking pair ratio at k=25 equals -60 = -rank*n_C*C_2 = -|A_5| = -H_5 denominator. Predicted by D-finite ODE of order n_C=5 (Toy 1690). Nuclear-spectral bridge: r(26) = -65 = -n_C*c_3(Q^5) uses same Chern class as alpha particle binding.",
+      "bst_value": "-60",
+      "current_measurement": "Not yet computed (needs n>=48 at 3200+ dps precision)",
+      "experiment": "High-precision Seeley-DeWitt coefficient computation at 3200 decimal digits",
+      "timeline": "2026-2027",
+      "falsification_criterion": "r(25) != -60 after reliable extraction with verification margin (>= 2 spare dimensions)",
+      "impact_if_falsified": "Would break D-finite heat kernel model; twenty confirmed integer levels (k=2..21) still hold",
+      "status": "untested",
+      "bst_integers_used": [
+        "rank",
+        "n_C",
+        "C_2"
+      ],
+      "source_section": "SP-15",
+      "related_constants": []
+    },
+    {
+      "id": "pred_080",
+      "name": "Heat kernel r(26) = -65 = -n_C*c_3(Q^5)",
+      "category": "not_yet_measured",
+      "prediction": "The heat kernel ratio at k=26 equals -65 = -n_C*c_3(Q^5) where c_3=13 is the third Chern class of the compact dual Q^5. Same Chern class gives alpha particle binding energy B_alpha = c_3*alpha*m_p/pi. Nuclear physics and spectral geometry connected through one topological invariant.",
+      "bst_value": "-65",
+      "current_measurement": "Not yet computed (needs n>=49 at 3200+ dps)",
+      "experiment": "3200-dps Seeley-DeWitt computation",
+      "timeline": "2026-2027",
+      "falsification_criterion": "r(26) != -65 after reliable extraction",
+      "impact_if_falsified": "Would sever nuclear-spectral bridge; Chern class c_3 connection would need revision",
+      "status": "untested",
+      "bst_integers_used": [
+        "n_C",
+        "N_c"
+      ],
+      "source_section": "SP-15",
+      "related_constants": [
+        "const_125"
       ]
     }
   ]

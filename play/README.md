@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**1,694 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**1,728 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 1,694 |
-| Numbered toys (toy_NNN_*.py) | 1,485 |
+| Toy scripts (toy_*.py) | 1,728 |
+| Numbered toys (toy_NNN_*.py) | 1,519 |
 | Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 58 |
 | HTML visualizers | 6 |
 | Theorems (T1-T1465) | 1,465 |
-| Next toy number | 1675 |
+| Next toy number | 1709 |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -30,7 +30,7 @@ Five integers. Zero free parameters. "Give a child a ball and teach them to coun
 
 ```
 play/
-  toy_NNN_name.py          # Numbered toys (1,485 files, T100-T1674)
+  toy_NNN_name.py          # Numbered toys (1,519 files, T100-T1708)
   toy_name.py              # Named toys (209 files, foundational + topical)
   *.py                     # Utility scripts (58 files: graph tools, extractors, verifiers)
   bst_appliance/           # BST Appliance package — the "Ball and Counting Tool"
@@ -111,7 +111,7 @@ Two gitignored counter files prevent toy/theorem number collisions:
 
 | File | Current Value | Purpose |
 |------|---------------|---------|
-| `.next_toy` | 1675 | Next available toy number |
+| `.next_toy` | 1709 | Next available toy number |
 | `.next_theorem` | 1466 | Next available theorem number |
 
 **Rules:**
@@ -226,6 +226,9 @@ The 209 named toys include the original foundational collection and topical deep
 | 1607-1649 | ~42 | **SP-12 Understanding Program** (24/24 items) + **SP-13 Deep Study** — Higgs cascade/spectral/loop (3), mass=processing time/information/GR time dilation (3), k=22 verification (2), confinement=Hamming distance (2), phase transition eigenvalue crossings (3), cosmo cascade factor DC=11 (2), CKM eigenvalues, commitment dynamics/inflation (2), **Born rule from Bergman** (2), **why m_e** (electron=one turn on S¹), **why D_IV^5** (uniqueness), thermal conductivity, Wilson loop area law, Debye predictions, Lagrangian isomorphism, codon SVD mechanism, proton bulk geodesic, numerator rule, prebiotic amino acids, pi-N_c residue, RFC correction catalog, spectral tilt n_s=1-5/137, ZZ/WW suppression, dark matter=incomplete windings, HVP closed form (Phase 5d), 5/6 self-description threshold, Hodge reversal, substrate creation sequence, genus geometry clarification |
 | 1651-1659 | 8 | **BSD Closure sequence** — Chern hole mechanism (2 toys), Goldbach-BST systematic k<1000, cross-type BSD scan (ALL 38 rank-2 BSDs), Chern-to-L transfer, gap closure (non-resonance), **BSD Final Closure** (square system theorem → **BSD CLOSED**) |
 | 1660-1674 | 15 | **RG flow from Bergman** beta_0 derivation, three-phase commitment (cosmogony), genus bottleneck measurement, HVP numerical crosscheck, proton bulk geodesic, Wilson loop area law, numerator rule derivation, **Ward identity from Bergman**, **Debye temperatures** (SP-8, Cu=g³, Pd=rank·N_max), **3-loop alpha_s** (BST Möbius resummation F=(10+3x)/(10-3x), beats perturbative 18×), **pi-N_c residue** (CF=[N_c;g,N_c·n_C]), **NIST verification** (43 constants, 88% pass, 12 crown jewels <0.01%), commitment sequence forcing, eigenvalue selection mechanism, codon minimal distortion mapping |
+| 1675-1692 | 18 | **SP-15 theta function program**: Plancherel proton mass (d(g)·π⁵=360, 15/15), cosmological cascade vs boundary (BOTH, 10/10), string tension σ=m_p²·N_c/(rank·g), HVP spectral fraction, CKM Casimir gaps, **spectral zeta closed form** (ζ_Q(n_C)=π^{n_C}/720, 12/12), heat kernel theta, spectral Hurwitz, nuclear binding (N-14 rank⁴·N_c=48 EXACT), spectral weight a_e, **zeta ladder QED** (L=2→ζ(N_c), L=3→ζ(n_C), L=4→ζ(g)), a_e spectral structure, heat kernel generating function, D-finite ODE, **C₄ QED prediction** (ζ(g)=ζ(7) at 4 loops, 13/13), C₄ systematic reconstruction |
+| 1693-1702 | 10 | **SP-16 board sprint**: mu_p at **0.0001%** (2000× improvement, 10/13), **I→D promotion** (7 constants promoted, 21/21), **Lamb shift + hyperfine** (21-cm=rank⁴·g/(N_c·n_C), 11/11), **QCD beta ladder** (beta_0=g, g+C_2=13, 12/12), **cyclotomic tower** (C_2=6 UNIQUE in [2,20], 20/20), **decay width dictionary** (W/Z/H, G_F formulation, 10/12), **nuclear binding He→Fe** (all sub-1%, Li-7 at 0.011%, Fe-56=(N_c·n_C)², 10/10), **anomalous dimension dictionary** (R(k)→physics, 13/13), **partition function=spectral theta** (Z(β)=Θ(t), stat mech IS spectral geometry, 13/13), alpha_s(m_Z) closed form |
+| 1703-1708 | 6 | **Running alpha** (N_max→2^g, range=N_c²=9, 0.038%, 12/12), **Born rule=Bergman** (c₅=n_C/(rank·π^{n_C}), 11/11), **theta evaluation table** (QED/QCD ratio exact, Θ(1/C₂)~g, 3/4), **theta functional equation** (**spectral dimension=C₂=6**, spectrum self-dual, sqrt(m_t·m_e)=m_p/π at 0.45%, 6/7), **theta near-integer corrections** (t*=N_max/(C₂·N_max-g) for Θ_exc=g at 0.10%, color decomposition 1/N_c, 6/8), theta correction hunt (Hilbert series (1+t)/(1-t)^{C₂}) |
 
 ---
 

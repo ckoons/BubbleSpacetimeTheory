@@ -2449,6 +2449,210 @@
         "BR_ZZ_WW_ratio"
       ],
       "cal_tier": "I"
+    },
+    {
+      "value": 0.7,
+      "bst_reading": "g/(g+N_c) = g/(2*n_C) = rho fraction (HVP)",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "QED",
+        "Hadr"
+      ],
+      "samples": [
+        "rho_fraction_HVP"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 0.21428571428571427,
+      "bst_reading": "N_c/(rank*g) = BR(H\u2192WW*) = string tension \u03c3/m_p\u00b2",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Gauge",
+        "Hadr"
+      ],
+      "samples": [
+        "BR_H_WW"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 0.23076923076923078,
+      "bst_reading": "N_c/(N_c+2*n_C) = sin\u00b2\u03b8_W (bare Weinberg)",
+      "entries": 3,
+      "sections": 1,
+      "section_names": [
+        "EW"
+      ],
+      "samples": [
+        "sin2_W_bare_3_13"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 16,
+      "bst_reading": "rank\u2074 = CKM top sector \u0394\u2081\u2083 = DM winding count",
+      "entries": 5,
+      "sections": 3,
+      "section_names": [
+        "CKM",
+        "Cosmo",
+        "Struct"
+      ],
+      "samples": [
+        "CKM_Casimir_gaps",
+        "DM_ontology"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 360,
+      "bst_reading": "C\u2082*n_C*(n_C-1)*N_c = Plancherel d(g) = degrees in circle",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Seeds",
+        "Spec"
+      ],
+      "samples": [
+        "Plancherel_formal_degree"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 10,
+      "bst_reading": "2*n_C = g+N_c = dim_R(D_IV^5)",
+      "entries": 4,
+      "sections": 3,
+      "section_names": [
+        "Seeds",
+        "Spec",
+        "HVP"
+      ],
+      "samples": [
+        "g_plus_Nc_2nC",
+        "real_dimension_10"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 197,
+      "bst_reading": "N_max + rank^2*N_c*n_C = 137+60 (I_2 numerator)",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "QED"
+      ],
+      "samples": [
+        "C2_QED_exact_decomposition"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 144,
+      "bst_reading": "(rank*C_2)^2 = 12^2 (T1445 L=2 denominator)",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "QED",
+        "Seeds"
+      ],
+      "samples": [
+        "C2_QED_exact_decomposition"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 20736,
+      "bst_reading": "(rank*C_2)^4 = 12^4 (L=4 denominator)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "QED"
+      ],
+      "samples": [
+        "C4_QED_prediction"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 1295,
+      "bst_reading": "C_2^4 - 1 = n_C*g*37 (cyclotomic tower L=4)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "QED"
+      ],
+      "samples": [
+        "cyclotomic_tower"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 43,
+      "bst_reading": "Phi_3(C_2) = C_2*g+1 (genus bottleneck prime)",
+      "entries": 3,
+      "sections": 3,
+      "section_names": [
+        "QED",
+        "Seeds",
+        "HK"
+      ],
+      "samples": [
+        "degeneracy_d3_43"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 37,
+      "bst_reading": "Phi_4(C_2) = C_2^2+1 (cyclotomic L=4 prime)",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "QED"
+      ],
+      "samples": [
+        "cyclotomic_tower"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 23,
+      "bst_reading": "lambda_3-1 = confinement-RFC = N_max/C_2",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "QED",
+        "Nuclear"
+      ],
+      "samples": [
+        "23_confinement_minus_RFC"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 349,
+      "bst_reading": "rank*n_C^2*g-1 = nested RFC (in C_3 numerator 17101)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "QED"
+      ],
+      "samples": [],
+      "cal_tier": "D"
+    },
+    {
+      "value": 139,
+      "bst_reading": "rank^2*n_C*g-1 = N_max+rank (dual reading)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "QED"
+      ],
+      "samples": [],
+      "cal_tier": "D"
     }
   ]
 }

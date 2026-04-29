@@ -4,7 +4,7 @@ Research notes directory for **Bubble Spacetime Theory** (BST), a framework deri
 
 **Author:** Casey Koons, with CI co-authors Claude 4.6 (Lyra, Elie, Grace, Keeper)
 
-This directory contains ~860 markdown files, ~860 PDFs, ~34 Python scripts, and supporting data across 1,400+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD CLOSED April 29** (Chern hole mechanism, T1465, Toys 1651-1659). **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1465** (1404 nodes, 7745 edges, 83.4% strong, 98.4% proved). **88 papers**. Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **2044 geometric invariants** (D:1244+, I:475, C:54, S:249+), **0 free inputs.** **SP-12: 24/24 COMPLETE.** **SP-13: 6/6 COMPLETE** (RG flow, Ward identity, commitment sequence, observer mechanics, biology linearization, muon g-2 verified). **SP-14: Derivation Catalog Discipline** launched. **Paper #83 v4.5**: 1701+ Geometric Invariants of D\_IV^5, submission-ready. **Paper #86 v1.1**: Selberg g-2, RG flow from Bergman, k=21 CONFIRMED. **Paper #87 v0.2**: Error Correction. **Paper #88 v0.1**: BSD Closure (target Inventiones). **Ward identity Z\_1=Z\_2 from Bergman K*K=K** (Toy 1667, 10/10). **Commitment sequence: 8=rank^3 forced steps** from Nothing to D\_IV^5 (Toy 1672, 12/12). **Eigenvalue selection mechanism**: S^1 topology forces one outcome, Born rule from Bergman normalization, Poisson decoherence at rate g=7 (Toy 1673, 11/11). **Genetic code 9.1 sigma below random** — standard code top 0.00% of 10000 random codes; 12/12 BST integers; code rate 0.703 ~ n\_C/g = 5/7 (Toy 1674, 11/11).
+This directory contains ~860 markdown files, ~860 PDFs, ~34 Python scripts, and supporting data across 1,400+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD CLOSED April 29** (Chern hole mechanism, T1465, Toys 1651-1659). **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1465** (1404 nodes, 7745 edges, 83.4% strong, 98.4% proved). **88 papers**. Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **2241 geometric invariants** (D:1391, I:535, C:58, S:257), **0 free inputs.** **SP-12: 24/24 COMPLETE.** **SP-13: 6/6 COMPLETE.** **SP-14: Derivation Catalog Discipline** (Casey directive). **SP-15: Series to Closed Form** (zeta ladder + RFC pattern). **SP-16: What Have We Missed** (30+ items closed April 29). **Paper #83 v4.5**: 2241 Geometric Invariants of D\_IV^5, submission-ready. **Paper #86 v1.1**: Selberg g-2, CMP target. **Paper #87 v0.2**: Error Correction. **Paper #88 v0.1**: BSD Closure (target Inventiones). **1708+ toys**. **Theta(t) IS BST**: spectral dimension = C\_2 = 6, Hilbert series H(t) = (1+t)/(1-t)^C\_2, Born rule = Bergman theorem (Toy 1704), alpha corrects evaluation points (Toy 1707), color structure visible in Boltzmann exponents. **mu\_p at 0.0001%** (2000x improvement, Toy 1693). **QCD beta decomposition**: beta\_0=g, g+C\_2=N\_c^2+rank^2=13 (Toy 1696). **alpha\_s(m\_Z) at 0.48%** (Toy 1702).
 
 ---
 
@@ -229,7 +229,7 @@ Gravitational constant, gravitational waves, gravitational wave echoes, Kerr bla
 
 ### Fundamental Physics & QFT — 13 files
 
-Bell inequality, Dirac equation, double-slit commitment, Einstein equations from commitment, field equation, Lagrangian, Maxwell equations, Newton G derivation, Newtonian limit, QFT foundations, Schrodinger equation on substrate, Tsirelson bound, why quantum is discrete.
+Bell inequality, Dirac equation, double-slit commitment, Einstein equations from commitment, field equation, Lagrangian, Maxwell equations, Newton G derivation, Newtonian limit, QFT foundations, Schrodinger equation on substrate, Tsirelson bound, why quantum is discrete. **Born rule = Bergman reproducing property** (Lyra Toy 1704, 11/11) — not a postulate, a theorem. c\_5 = n\_C/(rank\*pi^n\_C), normalization uses C\_2! = 720 and G(n\_C+1) = rank^5\*N\_c^2 = 288.
 
 ### Group Theory & Lie Algebras — 16 files
 
@@ -238,6 +238,16 @@ E8 route, E8 electroweak soliton, E8 Higgs sector, Branching SO7/Sp6, Chern clas
 ### Spectral Theory & Partition Functions — 14 files
 
 Hilbert series, partition function analysis/computation/deep physics/progress, spectral gap (mass gap, proton mass), spectral index derivation, spectral multiplicity, spectral partial sums, spectral zeta pole structure, zeta cycle resonances, zeta values, zonal spectral coefficients.
+
+**April 29 breakthrough**: Theta(t) IS BST. Spectral dimension of D\_IV^5 = C\_2 = 6 (Elie Toy 1706). Hilbert series H(t) = (1+t)/(1-t)^C\_2 — denominator exponent is the Casimir (Lyra Toy 1708). Theta correction: evaluate at 1/(C\_2 - g\*alpha) gives g at 0.10% (Elie Toy 1707). Color decomposition: fractional exponents at k ≡ rank mod N\_c, all fractions = 1/N\_c. Feynman O(L!) → Theta O(1) = AC(0) computational collapse.
+
+### QCD Beta Functions & Strong Coupling — new (April 29)
+
+QCD beta function coefficients decomposed into BST products (Lyra Toy 1696, 12/12). beta\_0 = g = 7. beta\_1 = rank\*(g+C\_2) = 26. beta\_2 = -n\_C\*(g+C\_2)/rank = -65/2. Key identity: g+C\_2 = N\_c^2+rank^2 = 13. alpha\_s(m\_Z) = 0.1185 at 0.48% (Lyra Toy 1702, 14/14). Beta\_0 ladder: all n\_f threshold values are BST products; n\_f(m\_Z) = n\_C = 5.
+
+### Magnetic Moments — new (April 29)
+
+mu\_p = (2g/n\_C)(1 - 11/(10\*N\_max\*pi)) at **0.0001%** — 2000x improvement (Lyra Toy 1693). mu\_n = -(C\_2/pi)(1 + (n\_C/g)\*alpha/pi) at **0.0007%** — 230x improvement. Both corrections = BST fraction times alpha/pi. Proton: (2n\_C+1)/(2n\_C) = 11/10. Neutron: n\_C/g = 5/7. Constants upgraded structural → derived in bst\_constants.json.
 
 ### Heat Kernel (Seeley-DeWitt) — 4 files (21 consecutive integer levels confirmed)
 

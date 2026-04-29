@@ -2,7 +2,7 @@
 
 *Blocked items only. Active work -> CI_BOARD.md. Completed -> CI_BOARD_completed_*.md*
 
-**Last updated:** April 29, 2026. 88 papers. 1662+ toys. T1-T1465. 1701 invariants. **BSD CLOSED.**
+**Last updated:** April 29, 2026. 88 papers. 1675+ toys. T1-T1465. 2044 invariants. **BSD CLOSED.** SP-14 Tier A filing sprint DONE (9 constants filed).
 
 ---
 
@@ -106,22 +106,22 @@ Systematic comparison of CODATA recommended values (~350 constants) against BST 
 
 | # | Constant | BST Formula | Status |
 |---|----------|-------------|--------|
-| A1 | Faraday constant F | F = N_A * e = 96485 C/mol | NOT FILED |
-| A2 | Classical electron radius r_e | r_e = alpha * hbar/(m_e * c) = alpha * lambda_C / (rank*pi) | NOT FILED |
-| A3 | First radiation constant c_1 | c_1 = rank * pi * h * c^2 | NOT FILED |
-| A4 | Second radiation constant c_2 | c_2 = h * c / k_B | NOT FILED |
-| A5 | Fermi coupling constant G_F | G_F = pi * alpha / (sqrt(2) * M_W^2 * sin^2(theta_W)) | NOT FILED |
-| A6 | Up quark mass m_u | N_c * sqrt(rank) * m_e = 2.168 MeV (0.4%) | DERIVED in notes, NOT in JSON |
-| A7 | Down quark mass m_d | (13/6) * m_u = 4.697 MeV (0.6%) | DERIVED in notes, NOT in JSON |
-| A8 | Strange quark mass m_s | 20 * m_d = 93.95 MeV (0.6%) | DERIVED in notes, NOT in JSON |
-| A9 | Charm quark mass m_c | (136/10) * m_s = 1278 MeV (0.6%) | DERIVED in notes, NOT in JSON |
-| A10 | Bottom quark mass m_b | (7/3) * m_tau = 4146 MeV (0.8%) | DERIVED in notes, NOT in JSON |
-| A11 | Proton gyromagnetic ratio | gamma_p = rank * mu_p / hbar | NOT FILED |
-| A12 | Electron Compton wavelength | lambda_C = rank * pi * hbar / (m_e * c) | IN INVARIANTS, not constants |
-| A13 | Magnetic flux quantum Phi_0 | h / (rank * e) | IN INVARIANTS, not constants |
-| A14 | Conductance quantum G_0 | rank * e^2 / h | IN INVARIANTS, not constants |
-| A15 | Von Klitzing constant R_K | h / e^2 | IN INVARIANTS, not constants |
-| A16 | Josephson constant K_J | rank * e / h | IN INVARIANTS, not constants |
+| A1 | Faraday constant F | F = N_A * e = 96485 C/mol | **FILED** (const_113, SI defined) |
+| A2 | Classical electron radius r_e | r_e = alpha * hbar/(m_e * c) = alpha * lambda_C / (rank*pi) | **FILED** (const_111, 0.03%) |
+| A3 | First radiation constant c_1 | c_1 = rank * pi * h * c^2 | SKIPPED (pure SI conversion) |
+| A4 | Second radiation constant c_2 | c_2 = h * c / k_B | SKIPPED (pure SI conversion) |
+| A5 | Fermi coupling constant G_F | G_F = 1/(sqrt(2)*v^2), v from BST | **FILED** (const_112, 0.03%) |
+| A6 | Up quark mass m_u | N_c * sqrt(rank) * m_e = 2.168 MeV (0.4%) | **FILED** (const_106) |
+| A7 | Down quark mass m_d | (13/6) * m_u = 4.697 MeV (0.6%) | **FILED** (const_107) |
+| A8 | Strange quark mass m_s | 20 * m_d = 93.95 MeV (0.6%) | **FILED** (const_108) |
+| A9 | Charm quark mass m_c | (136/10) * m_s = 1278 MeV (0.6%) | **FILED** (const_109) |
+| A10 | Bottom quark mass m_b | (7/3) * m_tau = 4146 MeV (0.8%) | **FILED** (const_110) |
+| A11 | Proton gyromagnetic ratio | gamma_p = rank * mu_p / hbar | **FILED** (const_114, 0.001%) |
+| A12 | Electron Compton wavelength | lambda_C = rank * pi * hbar / (m_e * c) | **IN INVARIANTS** (A-tier, confirmed) |
+| A13 | Magnetic flux quantum Phi_0 | h / (rank * e) | **IN INVARIANTS** (A-tier, confirmed) |
+| A14 | Conductance quantum G_0 | rank * e^2 / h | **IN INVARIANTS** (A-tier, confirmed) |
+| A15 | Von Klitzing constant R_K | h / e^2 | **IN INVARIANTS** (A-tier, confirmed) |
+| A16 | Josephson constant K_J | rank * e / h | **IN INVARIANTS** (A-tier, confirmed) |
 
 **Tier B — Derivable but needs a toy:**
 
@@ -135,8 +135,8 @@ Systematic comparison of CODATA recommended values (~350 constants) against BST 
 | B6 | Lamb shift | QED correction — Bergman vacuum polarization | NEEDS TOY |
 | B7 | Hyperfine splitting (H) | 1420 MHz line — magnetic moment + QED | NEEDS TOY |
 | B8 | Higgs self-coupling lambda_H | Higgs potential from Bergman eigenvalue structure | NEEDS TOY |
-| B9 | W boson width Gamma_W | HAVE (1.97→0.37% via syndrome correction) | NEEDS JSON ENTRY |
-| B10 | Z boson width Gamma_Z | Partial widths from BST | NEEDS JSON ENTRY |
+| B9 | W boson width Gamma_W | HAVE (1.97→0.37% via syndrome correction) | **FILED** (const_083, already existed) |
+| B10 | Z boson width Gamma_Z | R_Z from sin^2(theta_W)=3/13, QCD-corrected | **FILED** (const_115, 0.35%) |
 
 **Tier C — Cannot yet derive (with explanation):**
 

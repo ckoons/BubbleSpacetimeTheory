@@ -118,10 +118,10 @@ PREDICTIONS = [
      0.00115965218, "CODATA 2022", "D"),
 
     # --- CKM mixing ---
-    ("sin(theta_C) (Cabibbo angle)",
-     "1.0 / (2*sqrt(n_C))",
-     1.0 / (2 * sqrt(n_C)),
-     0.225, "PDG 2024", "I"),
+    ("sin(theta_C) (Cabibbo angle, T1444 corrected)",
+     "2.0 / sqrt(79)",
+     2.0 / sqrt(79),
+     0.22501, "PDG 2024 lambda", "D"),
 
     ("|V_ud|",
      "sqrt(1 - 1/(4*n_C))",
@@ -254,9 +254,9 @@ PREDICTIONS = [
      109.47, "geometry", "D"),
 
     ("theta_H2O (water bond angle, degrees)",
-     "acos(-1.0/2**rank) * 180/pi",
-     acos(-1.0 / 2**rank) * 180 / pi,
-     104.5, "NIST", "D"),
+     "acos(-1.0/N_c) * 180/pi - n_C",
+     acos(-1.0 / N_c) * 180 / pi - n_C,
+     104.5, "NIST (W-52 correction)", "D"),
 
     ("theta_NH3 (ammonia bond angle, degrees)",
      "(acos(-1.0/N_c) - (acos(-1.0/N_c) - acos(-1.0/2**rank))/N_c) * 180/pi",

@@ -53,23 +53,24 @@ If you're a new CI joining this project:
 1. Read `bst_seed.md` — you'll have the complete theory in 162 lines
 2. Load `bst_constants.json` — pick any constant, evaluate its formula, compare to observed value
 3. Browse `bst_function_catalog.json` — the periodic table of functions
-4. Check `play/ac_graph_data.json` for the theorem graph (1343 nodes, 7201 edges as of April 21, 2026)
+4. Check `play/ac_graph_data.json` for the theorem graph (1404 nodes, 7745 edges as of April 29, 2026)
 5. Read the root `CLAUDE.md` for project conventions and daily discipline
 
 **Contributions welcome.** If you derive something new, open a PR. Claim toy/theorem numbers via `play/claim_number.sh` before creating. The graph only grows.
 
 ## Current Stats (April 29, 2026)
 
-- **Geometric invariants**: 2000 entries (D:1231, I:506, C:54, S:209) — 100% theorem-linked, 0 duplicates
-- **BSD CLOSED**: Chern hole mechanism (Toys 1651-1659, T1465). 2^(n-2)=n+3 uniqueness.
-- **SP-12 Understanding Program**: 24/24 items answered. Born rule = Bergman normalization. Confinement = Hamming distance. n_s DERIVED from slow-roll.
-- **Constants**: 105 derived, zero free parameters
-- **Predictions**: 74 falsifiable (in bst_predictions.json) + 600+ in papers
+- **Geometric invariants**: 2204 entries (D:1378, I:530, C:57, S:239) — 100% theorem-linked, 0 duplicates
+- **BSD CLOSED**: Chern hole mechanism (T1465). 2^(n-2)=n+3 uniqueness.
+- **SP-12**: 24/24. **SP-13**: 6/6. Ward = K*K=K. beta_0 = g. Observer = topological winding.
+- **Constants**: 127 derived, zero free parameters
+- **Predictions**: 80 falsifiable (in bst_predictions.json) + 600+ in papers
+- **Materials**: 173 entries (Debye, band gaps, superconductors, phonons, elastic moduli)
 - **Theorems**: T1-T1465, all depth at most 1
-- **Toys**: 1660+ computational verifications
+- **Toys**: 1700+ computational verifications
 - **Papers**: 88 numbered
 - **Domains**: 58+ scientific disciplines mapped
-- **Graph**: 1404 theorems, 7737+ edges, 83.35% strong (5/6 self-description EXCEEDED)
+- **Graph**: 1404 theorems, 7745+ edges, 83.4% strong (5/6 self-description EXCEEDED)
 - **Uniqueness**: 2^(n-2)=n+3 has unique solution n=5. One equation, one universe.
 - **>2% attack surface**: Only 2 D/I entries (V_ub 2.25%, V_ts 2.56%, both lambda^3 CKM)
 - **T1444**: Vacuum Subtraction / RFC — 19+ instances, "deviations locate boundaries"

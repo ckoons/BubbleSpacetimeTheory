@@ -1,6 +1,6 @@
 {
   "meta": {
-    "total": 2000,
+    "total": 2238,
     "last_updated": "2026-04-29"
   },
   "crossrefs": [
@@ -16001,6 +16001,1910 @@
       "name": "Entry #2000: rank^4 * n_C^3 = 2000",
       "theorem": "T186",
       "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "fine_structure_splitting",
+      "name": "Fine structure: alpha^2 splitting",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Zeeman_effect",
+      "name": "Zeeman splitting: g_J * mu_B * B",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Stark_effect",
+      "name": "Stark effect: electric field splitting",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "tau_to_pi_nu",
+      "name": "Tau \u2192 pi + nu_tau BR = 10.8%",
+      "theorem": "T186",
+      "paper83_section": "4",
+      "cal_tier": "I",
+      "precision": "~0.1%"
+    },
+    {
+      "symbol": "charm_lifetime",
+      "name": "D meson lifetime = 1.04 ps",
+      "theorem": "T186",
+      "paper83_section": "5",
+      "cal_tier": "I",
+      "precision": "~5%"
+    },
+    {
+      "symbol": "b_quark_lifetime",
+      "name": "B meson lifetime = 1.5 ps",
+      "theorem": "T186",
+      "paper83_section": "5",
+      "cal_tier": "I",
+      "precision": "~5%"
+    },
+    {
+      "symbol": "Seebeck_effect",
+      "name": "Seebeck thermoelectric effect",
+      "theorem": "T186",
+      "paper83_section": "10",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "Kondo_temperature",
+      "name": "Kondo temperature: T_K ~ exp(-1/(J*N(0)))",
+      "theorem": "T186",
+      "paper83_section": "10",
+      "cal_tier": "S",
+      "precision": "structural"
+    },
+    {
+      "symbol": "Mott_insulator",
+      "name": "Mott insulator: U/t > critical ratio",
+      "theorem": "T186",
+      "paper83_section": "10",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "superconductor_London",
+      "name": "London penetration depth: lambda_L = sqrt(m_e/(n_s*mu_0*e^2))",
+      "theorem": "T186",
+      "paper83_section": "10",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "Gamow_peak",
+      "name": "Gamow peak energy: E_G = (pi*alpha*Z_1*Z_2)^2 * mu*c^2 / 2",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "nuclear_binding_curve",
+      "name": "Nuclear binding curve shape from SEMF",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "~1%"
+    },
+    {
+      "symbol": "neutron_drip_line",
+      "name": "Neutron drip line: N/Z approaches N_c for heavy nuclei",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "I",
+      "precision": "structural"
+    },
+    {
+      "symbol": "Sachs_Wolfe",
+      "name": "Sachs-Wolfe effect: Delta_T/T = Phi/N_c",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Silk_damping_scale",
+      "name": "Silk damping scale from photon diffusion",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "S",
+      "precision": "structural"
+    },
+    {
+      "symbol": "reionization_z",
+      "name": "Reionization redshift z_re \u2248 g-rank = 5 to 10",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "S",
+      "precision": "~10%"
+    },
+    {
+      "symbol": "Gamma_function_BST",
+      "name": "Gamma function: Gamma(n) = (n-1)! connects to C_2!",
+      "theorem": "T186",
+      "paper83_section": "14",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Ramanujan_partition",
+      "name": "Partition function p(n): p(g) = 15 = N_c*n_C",
+      "theorem": "T186",
+      "paper83_section": "14",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "amino_acid_essential_9",
+      "name": "Essential amino acids = N_c^2 = 9",
+      "theorem": "T186",
+      "paper83_section": "15",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "heart_rate_BST",
+      "name": "Resting heart rate \u2248 60-80 bpm \u2248 N_efold per minute",
+      "theorem": "T186",
+      "paper83_section": "15",
+      "cal_tier": "S",
+      "precision": "structural"
+    },
+    {
+      "symbol": "turbo_code_BST",
+      "name": "Turbo codes: interleaver length near Shannon limit",
+      "theorem": "T186",
+      "paper83_section": "13",
+      "cal_tier": "S",
+      "precision": "structural"
+    },
+    {
+      "symbol": "LDPC_BST",
+      "name": "LDPC codes: sparse parity-check (BST backbone structure)",
+      "theorem": "T48",
+      "paper83_section": "13",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "Ward_Z1_Z2_Bergman",
+      "name": "Ward identity Z_1 = Z_2 from Bergman K*K = K",
+      "theorem": "T186",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "QFT_replacements_C2",
+      "name": "C_2 = 6 QFT concepts replaced by Bergman",
+      "theorem": "T186",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "a_mu_HVP_1000_digit",
+      "name": "HVP closed form verified to 1000 digits (Elie Toy 1663)",
+      "theorem": "T1461",
+      "paper83_section": "12",
+      "cal_tier": "I",
+      "precision": "1.2%"
+    },
+    {
+      "symbol": "d_1_harmonic",
+      "name": "First harmonic dimension on D_IV^5",
+      "theorem": "T186",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "d_2_harmonic",
+      "name": "Second harmonic dimension on D_IV^5",
+      "theorem": "T186",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "delta_0_spectral_gap",
+      "name": "Spectral gap at k=0 (mass gap)",
+      "theorem": "T186",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "n_U1_levels",
+      "name": "U(1) charge levels below N_max",
+      "theorem": "T186",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "H2_total_dim_k9",
+      "name": "Total H^2 dimension through k=9",
+      "theorem": "T186",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "n_commitment_steps",
+      "name": "Commitment sequence length: Nothing to D_IV^5",
+      "theorem": "T186",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "g_1_D_IV_1",
+      "name": "Genus of D_IV^1 = D^2 (disk)",
+      "theorem": "T186",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "n_commitment_phases",
+      "name": "Number of commitment phases",
+      "theorem": "T186",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "n_consistency_requirements",
+      "name": "Requirements for consistent observation",
+      "theorem": "T186",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "poisson_exponent",
+      "name": "Poisson kernel exponent on D_IV^5",
+      "theorem": "T1240",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "measurement_stages",
+      "name": "Three stages of quantum measurement",
+      "theorem": "T1240",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "eigenvalue_selection_chain",
+      "name": "Eigenvalue selection: 5-link chain",
+      "theorem": "T1240",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "born_rule_layers",
+      "name": "Born rule: 3 justification layers",
+      "theorem": "T1240",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "unused_winding_sectors",
+      "name": "Unused winding sectors = reference frame",
+      "theorem": "T1464",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "classical_exponent",
+      "name": "Classical threshold exponent",
+      "theorem": "T1240",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "genetic_code_distortion_sigma",
+      "name": "Standard genetic code: 9.1 sigma below random mean distortion",
+      "theorem": "T186",
+      "paper83_section": "15",
+      "cal_tier": "I",
+      "precision": "p < 10^{-19}"
+    },
+    {
+      "symbol": "genetic_code_rate",
+      "name": "Genetic code information rate ~ n_C/g",
+      "theorem": "T186",
+      "paper83_section": "15",
+      "cal_tier": "I",
+      "precision": "1.5%"
+    },
+    {
+      "symbol": "wobble_distortion_ratio",
+      "name": "Wobble (pos-3) distortion 58% of pos-1",
+      "theorem": "T186",
+      "paper83_section": "15",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "transition_transversion_ratio",
+      "name": "Transition:transversion mutation ratio = 1:rank",
+      "theorem": "T186",
+      "paper83_section": "15",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "eigenvalue_selection_topological",
+      "name": "Eigenvalue selection = topological resolution (S^1 winding pi_1=Z)",
+      "theorem": "T317",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "genetic_code_9sigma",
+      "name": "Standard genetic code 9.1 sigma below random distortion",
+      "theorem": "T445",
+      "paper83_section": "15",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "commitment_sequence_8step",
+      "name": "8-step substrate creation sequence (topologically forced)",
+      "theorem": "T186",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "sin2_W_bare_3_13",
+      "name": "Weinberg angle bare value = N_c/(N_c+2*n_C) = 3/13",
+      "theorem": "T186",
+      "paper83_section": "6",
+      "cal_tier": "D",
+      "precision": "0.19% (bare vs running)"
+    },
+    {
+      "symbol": "m_u_from_seed",
+      "name": "Up quark mass = N_c*sqrt(rank)*m_e",
+      "theorem": "T187",
+      "paper83_section": "5",
+      "cal_tier": "I",
+      "precision": "0.5%"
+    },
+    {
+      "symbol": "PMNS_theta12_corrected",
+      "name": "PMNS theta_12 corrected: 27/88 (T1446)",
+      "theorem": "T1446",
+      "paper83_section": "7",
+      "cal_tier": "D",
+      "precision": "0.06%"
+    },
+    {
+      "symbol": "PMNS_theta23_corrected",
+      "name": "PMNS theta_23 corrected: 176/315 (T1446)",
+      "theorem": "T1446",
+      "paper83_section": "7",
+      "cal_tier": "D",
+      "precision": "0.31%"
+    },
+    {
+      "symbol": "PMNS_theta13_corrected",
+      "name": "PMNS theta_13 corrected: 2/91 (T1446)",
+      "theorem": "T1446",
+      "paper83_section": "7",
+      "cal_tier": "D",
+      "precision": "0.1%"
+    },
+    {
+      "symbol": "Cabibbo_corrected_T1444",
+      "name": "Cabibbo angle corrected: 2/sqrt(79) (T1444)",
+      "theorem": "T1444",
+      "paper83_section": "7",
+      "cal_tier": "D",
+      "precision": "0.008%"
+    },
+    {
+      "symbol": "H2O_corrected_W52",
+      "name": "Water bond angle corrected: arccos(-1/N_c) - n_C (W-52)",
+      "theorem": "T700",
+      "paper83_section": "11",
+      "cal_tier": "D",
+      "precision": "0.02%"
+    },
+    {
+      "symbol": "classical_electron_radius",
+      "name": "Classical electron radius = alpha * Compton / (2*pi)",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "0.03%"
+    },
+    {
+      "symbol": "proton_gyro_ratio",
+      "name": "Proton gyromagnetic ratio = mu_p * rank / hbar",
+      "theorem": "T1447",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "0.001%"
+    },
+    {
+      "symbol": "P1_hilbert_Q5",
+      "name": "Hilbert function P(1) of Q^5 = g = 7",
+      "theorem": "T186",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "P2_hilbert_Q5",
+      "name": "Hilbert function P(2) of Q^5 = N_c^3 = 27",
+      "theorem": "T186",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "hilbert_pole_order",
+      "name": "Hilbert series pole order of Q^5 = C_2 = 6",
+      "theorem": "T186",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "casimir_offset",
+      "name": "Casimir offset for SO_0(5,2) = rank^2 = n_C - 1 = 4",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "casimir_1",
+      "name": "First Casimir eigenvalue C(1) = n_C = 5",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "casimir_3",
+      "name": "Third Casimir eigenvalue C(3) = N_c * g = 21",
+      "theorem": "T186",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "vol_polydisc",
+      "name": "Unit polydisc volume Vol(D^5) = pi^5",
+      "theorem": "T186",
+      "paper83_section": "8",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "proton_composite_k",
+      "name": "Proton Bergman level k = 93.84 (non-integer, composite)",
+      "theorem": "T186",
+      "paper83_section": "8",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "vol_ratio_polydisc_DIV5",
+      "name": "Vol(D^5)/Vol(D_IV^5) = n_C! * 2^{rank^2} = 1920",
+      "theorem": "T186",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "f_rho_spectral",
+      "name": "Rho spectral fraction in HVP",
+      "theorem": "T186",
+      "paper83_section": "6",
+      "cal_tier": "D",
+      "precision": "D-tier (pure geometry, no physical input)"
+    },
+    {
+      "symbol": "f_non_rho_spectral",
+      "name": "Non-rho spectral fraction in HVP",
+      "theorem": "T186",
+      "paper83_section": "6",
+      "cal_tier": "D",
+      "precision": "D-tier (pure geometry)"
+    },
+    {
+      "symbol": "dim_R_DIV5",
+      "name": "Real dimension of D_IV^5",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "casimir_gap_12",
+      "name": "Casimir gap C(2)-C(1) = genus",
+      "theorem": "T186",
+      "paper83_section": "7",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "casimir_gap_23",
+      "name": "Casimir gap C(3)-C(2) = N_c^2",
+      "theorem": "T186",
+      "paper83_section": "7",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "casimir_gap_13",
+      "name": "Casimir gap C(3)-C(1) = rank^4",
+      "theorem": "T186",
+      "paper83_section": "7",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "ckm_casimir_identity",
+      "name": "CKM Casimir gap identity: g + N_c^2 = rank^4",
+      "theorem": "T186",
+      "paper83_section": "7",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "casimir_gap_general",
+      "name": "General Casimir gap Delta(k,k+1) = 2k + n_C",
+      "theorem": "T186",
+      "paper83_section": "7",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "rho_fraction_derived",
+      "name": "Rho fraction DERIVED: f_rho = g/(2*n_C) = genus/real_dimension",
+      "theorem": "T1461",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "2.3%"
+    },
+    {
+      "symbol": "g_plus_Nc_2nC",
+      "name": "Identity: g + N_c = 2*n_C = dim_R(D_IV^5)",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "CKM_Casimir_gaps",
+      "name": "CKM matrix from Casimir spectral gaps on Q^5",
+      "theorem": "T1444",
+      "paper83_section": "7",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "CKM_gap_identity",
+      "name": "CKM telescoping: g + N_c^2 = rank^4 (7+9=16)",
+      "theorem": "T1444",
+      "paper83_section": "7",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Plancherel_formal_degree",
+      "name": "Plancherel formal degree at s=g: d(g) = C_2*n_C*(n_C-1)*N_c = 360",
+      "theorem": "T186",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "cosmo_cascade_closed",
+      "name": "Cosmological cascade gap: 10.9x \u2192 0.6x (CLOSED)",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "string_tension_3_14",
+      "name": "QCD string tension sigma = m_p^2 * 3/14 = m_p^2 * N_c/(rank*g)",
+      "theorem": "T186",
+      "paper83_section": "8",
+      "cal_tier": "I",
+      "precision": "1.29%"
+    },
+    {
+      "symbol": "a_e_spectral_conjecture",
+      "name": "a_e as spectral zeta evaluation (conjectured)",
+      "theorem": "T1445",
+      "paper83_section": "12",
+      "cal_tier": "C",
+      "precision": "structural"
+    },
+    {
+      "symbol": "alpha_s_geometric_closed",
+      "name": "alpha_s geometric resummation (closed form)",
+      "theorem": "T610",
+      "paper83_section": "8",
+      "cal_tier": "D",
+      "precision": "0.08%"
+    },
+    {
+      "symbol": "Lamb_shift_BST",
+      "name": "Lamb shift 2S-2P from BST QED",
+      "theorem": "T186",
+      "paper83_section": "12",
+      "cal_tier": "I",
+      "precision": "~0.01%"
+    },
+    {
+      "symbol": "hyperfine_hydrogen_BST",
+      "name": "Hydrogen hyperfine splitting from BST",
+      "theorem": "T186",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact (in terms of alpha, m_e/m_p)"
+    },
+    {
+      "symbol": "fine_structure_hydrogen_n2",
+      "name": "Fine structure H(n=2): alpha^2/16 splitting",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "I",
+      "precision": "~0.5%"
+    },
+    {
+      "symbol": "Casimir_gap_general",
+      "name": "Casimir gap formula: Delta(k,k+1) = 2k + n_C",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Hilbert_P1_g",
+      "name": "Hilbert function P(1) = g on Q^5",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Hilbert_P2_Nc3",
+      "name": "Hilbert function P(2) = N_c^3 on Q^5",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "HK_generating_rational",
+      "name": "Heat kernel generating function is rational (conjectured)",
+      "theorem": "T531",
+      "paper83_section": "12",
+      "cal_tier": "C",
+      "precision": "structural"
+    },
+    {
+      "symbol": "hilbert_Q5_closed",
+      "name": "Hilbert function of Q^5 closed form",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "hilbert_Q5_shifted",
+      "name": "Shifted Hilbert function Q(u) on Q^5",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "theta_operator_roots",
+      "name": "Heat kernel theta operator factorization roots",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "heat_kernel_growth_rate",
+      "name": "Heat kernel leading growth rate n_C^2/N_c",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "hilbert_normalization_60",
+      "name": "Hilbert function normalization = rank^2 * N_c * n_C",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "QED_4loop_C4",
+      "name": "QED 4-loop: C_4 full assembly 13/13 PASS",
+      "theorem": "T1453",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "38 digits verified"
+    },
+    {
+      "symbol": "QED_5loop_pred",
+      "name": "QED 5-loop: zeta(9) independence predicted",
+      "theorem": "T1453",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "prediction"
+    },
+    {
+      "symbol": "Selberg_g2_bridge",
+      "name": "Selberg trace formula \u2194 QED vertex corrections",
+      "theorem": "T1445",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "alpha_at_Z_128_9",
+      "name": "alpha(m_Z)^-1 = 128.9 from BST running",
+      "theorem": "T186",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "~0.05%"
+    },
+    {
+      "symbol": "CKM_A_from_gaps",
+      "name": "Wolfenstein A = Delta_23/DC = N_c^2/(2*C_2-1) = 9/11",
+      "theorem": "T1444",
+      "paper83_section": "7",
+      "cal_tier": "D",
+      "precision": "0.95%"
+    },
+    {
+      "symbol": "CKM_full_matrix_BST",
+      "name": "Full CKM matrix from BST (all 9 elements)",
+      "theorem": "T1444",
+      "paper83_section": "7",
+      "cal_tier": "D",
+      "precision": "7/9 < 1%"
+    },
+    {
+      "symbol": "PMNS_full_matrix_BST",
+      "name": "Full PMNS matrix from BST (3 angles + phase)",
+      "theorem": "T1446",
+      "paper83_section": "7",
+      "cal_tier": "D",
+      "precision": "0.06-0.55%"
+    },
+    {
+      "symbol": "CKM_unitarity_exact",
+      "name": "CKM unitarity: V\u2020V = I (exact from BST)",
+      "theorem": "T186",
+      "paper83_section": "7",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "tau_mass_Koide",
+      "name": "Tau mass from Koide formula",
+      "theorem": "T187",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "0.006%"
+    },
+    {
+      "symbol": "lepton_mass_hierarchy",
+      "name": "Lepton mass hierarchy: e \u2192 mu \u2192 tau from Koide",
+      "theorem": "T187",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "0.003%"
+    },
+    {
+      "symbol": "electron_g_factor",
+      "name": "Electron g-factor = 2 + a_e = 2 + alpha/(2*pi) + ...",
+      "theorem": "T186",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "<1e-12"
+    },
+    {
+      "symbol": "muon_anomalous_BST",
+      "name": "Muon g-2: a_mu^HVP fully D-tier",
+      "theorem": "T1461",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "1.2%"
+    },
+    {
+      "symbol": "Kolmogorov_6th_domain",
+      "name": "5/3 = n_C/N_c in 6th domain: Cauchy elastic K/G",
+      "theorem": "T1459",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "magic_all_7_BST",
+      "name": "All 7 nuclear magic numbers: BST products (exact)",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "cosmo_10_of_13_sub1pct",
+      "name": "10/13 cosmological entries now below 1% (E-54)",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "series_are_artifacts",
+      "name": "Series are method artifacts, not physics (SP-15)",
+      "theorem": "T186",
+      "paper83_section": "16",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "degeneracy_GF",
+      "name": "Q^5 degeneracy generating function: G(t) = (1+t)^2/(1-t)^4 + t(1-t)(1+t)",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "degeneracy_d1_g",
+      "name": "First degeneracy d_1 = g = 7 (from GF)",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "degeneracy_d3_43",
+      "name": "Third degeneracy d_3 = 43 = C_2*g + 1 (genus bottleneck prime)",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "alpha_s_closed_form_SP15",
+      "name": "alpha_s(m_Z) closed form: 0.060% (SP-15 Attack 1)",
+      "theorem": "T610",
+      "paper83_section": "8",
+      "cal_tier": "D",
+      "precision": "0.060%"
+    },
+    {
+      "symbol": "RFC_46_45_inverse_PMNS",
+      "name": "RFC correction 46/45 = inverse of PMNS 44/45",
+      "theorem": "T1446",
+      "paper83_section": "8",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "heat_kernel_theta",
+      "name": "Heat kernel = spectral theta function (the series was never a series)",
+      "theorem": "T531",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Hilbert_function_closed",
+      "name": "Hilbert function P(k) = (k+1)(k+2)(k+3)(k+4)(2k+5)/120",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "diff_op_factorization",
+      "name": "Differential operator: (D+1/rank^2)(D+N_c^2/rank^2)",
+      "theorem": "T186",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "g_plus_Nc3_34",
+      "name": "Third identity: g + N_c^3 = 34 = rank*(N_c*C_2-1) = rank*17",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Plancherel_d_g_360",
+      "name": "Plancherel degree d(g) = 360 = C_2*n_C*(n_C-1)*N_c",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Plancherel_ratio_15",
+      "name": "Plancherel ratio d(g)/d(n_C) = C(C_2,rank) = 15",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "cosmo_boundary_cascade",
+      "name": "Cosmo: cascade = boundary (same correction)",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "string_tension_N_c_rank_g",
+      "name": "String tension: sigma = m_p^2 * N_c/(rank*g)",
+      "theorem": "T186",
+      "paper83_section": "8",
+      "cal_tier": "I",
+      "precision": "1.29%"
+    },
+    {
+      "symbol": "g_Nc_hierarchy",
+      "name": "g + N_c^n hierarchy: linear\u2192quadratic\u2192cubic",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "theta_modularity",
+      "name": "Heat kernel modularity: 20 integer ratios from Jacobi identity",
+      "theorem": "T531",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "spectral_d2_Q",
+      "name": "Second eigenspace dimension d_2 = Q = n_C^2 - C_2 = 19",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "m_proton_exact",
+      "name": "Proton mass = 6*pi^5*m_e = 938.272 MeV (0.002%)",
+      "theorem": "T187",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "0.002%"
+    },
+    {
+      "symbol": "m_Z_from_W_and_angle",
+      "name": "Z mass from W and Weinberg: m_Z = m_W/cos(theta_W)",
+      "theorem": "T186",
+      "paper83_section": "6",
+      "cal_tier": "D",
+      "precision": "0.002%"
+    },
+    {
+      "symbol": "Omega_m_exact",
+      "name": "Omega_m = C_2/Q = C_2/(n_C^2-C_2) = 6/19",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "0.47%"
+    },
+    {
+      "symbol": "gf_sub_leading",
+      "name": "Generating function sub-leading = -(n_C/N_c)^2/2",
+      "theorem": "T1682",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "EXACT"
+    },
+    {
+      "symbol": "gf_em_correction_1",
+      "name": "First Euler-Maclaurin correction = -1/C_2!",
+      "theorem": "T1682",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "EXACT"
+    },
+    {
+      "symbol": "Q_prime_half",
+      "name": "Q'(1/2) = -1/(rank^2*N_c*n_C) = -1/60",
+      "theorem": "T1682",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "EXACT"
+    },
+    {
+      "symbol": "theta_boundary_vanishing",
+      "name": "Q(1/2)=Q(3/2)=0: spectral boundary zeros",
+      "theorem": "T1682",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "EXACT"
+    },
+    {
+      "symbol": "g_plus_Nc_linear",
+      "name": "g + N_c = 2*n_C = dim_R(D_IV^5)",
+      "theorem": "T1679",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "EXACT"
+    },
+    {
+      "symbol": "g_plus_Nc2_quadratic",
+      "name": "g + N_c^2 = rank^4 = 16",
+      "theorem": "T1680",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "EXACT"
+    },
+    {
+      "symbol": "g_plus_Nc3_cubic",
+      "name": "g + N_c^3 = rank*17 = 34",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "I",
+      "precision": "EXACT"
+    },
+    {
+      "symbol": "B_deuteron_exact",
+      "name": "Deuteron binding B_d = (50/49)*alpha*m_p/pi",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "0.003%"
+    },
+    {
+      "symbol": "B_alpha_c3",
+      "name": "Alpha particle binding B_alpha = c_3(Q^5)*alpha*m_p/pi",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "0.16%"
+    },
+    {
+      "symbol": "B_He3_39_11",
+      "name": "He-3 binding B_h = (39/11)*alpha*m_p/pi",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "0.14%"
+    },
+    {
+      "symbol": "B_triton",
+      "name": "Triton binding B_t = B_h + alpha*m_p/9",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "0.10%"
+    },
+    {
+      "symbol": "B_alpha_B_h_ratio",
+      "name": "B_alpha/B_He3 = DC/N_c = 11/3",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "0.014%"
+    },
+    {
+      "symbol": "Schwinger_spectral_identity",
+      "name": "Schwinger term: d_1 = lambda_1 = C_2 = 6 (spectral identity)",
+      "theorem": "T186",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "C2_QED_BST",
+      "name": "QED 2-loop: C_2^QED = -23/(rank*n_C*g) = -23/70",
+      "theorem": "T1448",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "0.028%"
+    },
+    {
+      "symbol": "H5_Nmax_60",
+      "name": "5th harmonic number H_5 = N_max/(rank^2*N_c*n_C) = 137/60",
+      "theorem": "T186",
+      "paper83_section": "14",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "spectral_zeta_GF",
+      "name": "Spectral zeta GF = (1+x)/(1-x)^5 (D-finite, order n_C)",
+      "theorem": "T186",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Hilbert_zeros_half_int",
+      "name": "Hilbert polynomial Q(u) zeros at u = 1/rank, N_c/rank",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Euler_Maclaurin_C6_factorial",
+      "name": "First Euler-Maclaurin correction = -1/C_2! = -1/720",
+      "theorem": "T186",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Bergman_gap_C2",
+      "name": "Bergman eigenvalue gap: Delta_k = 2k + C_2 (PROVED)",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Bergman_Casimir_gap_RFC",
+      "name": "Bergman gap - Casimir gap = 1 = RFC (for all k)",
+      "theorem": "T1464",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "lambda_3_confinement",
+      "name": "lambda_3 = rank^2*C_2 = 24 = confinement eigenvalue",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "23_confinement_minus_RFC",
+      "name": "23 = lambda_3 - 1 = confinement eigenvalue minus RFC",
+      "theorem": "T186",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "C2_QED_exact_decomposition",
+      "name": "C_2^QED exact BST decomposition (every integer BST)",
+      "theorem": "T1448",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "zeta_ladder_BST",
+      "name": "Zeta ladder: L=2\u2192zeta(N_c), L=3\u2192zeta(n_C), L=4\u2192zeta(g)",
+      "theorem": "T1445",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "pion_over_alpha_mp_pi",
+      "name": "m_pi / (alpha*m_p/pi) = 2^C_2 = 64",
+      "theorem": "T186",
+      "paper83_section": "9",
+      "cal_tier": "I",
+      "precision": "0.30%"
+    },
+    {
+      "symbol": "C2_QED_rational",
+      "name": "C_2^QED rational part = 197/144",
+      "theorem": "T1445",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "EXACT"
+    },
+    {
+      "symbol": "C2_QED_zeta3_coeff",
+      "name": "zeta(3) coefficient in C_2^QED = N_c/rank^2 = 3/4",
+      "theorem": "T1445",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "EXACT"
+    },
+    {
+      "symbol": "RFC_in_C2_QED",
+      "name": "23 = lambda_3 - 1 = confinement - RFC in C_2^QED",
+      "theorem": "T1445",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "EXACT"
+    },
+    {
+      "symbol": "RFC_in_C3_zeta5",
+      "name": "215 = C_2^3 - 1 in C_3^QED zeta(5) coefficient",
+      "theorem": "T1445",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "EXACT"
+    },
+    {
+      "symbol": "RFC_in_C3_mixed",
+      "name": "83 = rank*C_2*g - 1 in C_3^QED zeta(3)*pi^2 coefficient",
+      "theorem": "T1445",
+      "paper83_section": "4",
+      "cal_tier": "D",
+      "precision": "EXACT"
+    },
+    {
+      "symbol": "eigenvalue_gap_bergman",
+      "name": "Bergman eigenvalue gap = 2k + C_2",
+      "theorem": "T1686",
+      "paper83_section": "9",
+      "cal_tier": "D",
+      "precision": "EXACT"
+    },
+    {
+      "symbol": "zeta_ladder_L4_prediction",
+      "name": "L=4 prediction: zeta(7) = zeta(g) enters",
+      "theorem": "T1445",
+      "paper83_section": "4",
+      "cal_tier": "C",
+      "precision": "structural"
+    },
+    {
+      "symbol": "RFC_in_QED_numerators",
+      "name": "RFC pattern in QED: every numerator = BST product - 1",
+      "theorem": "T1464",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "QED_structurally_finite",
+      "name": "QED structurally finite: only 3 new transcendentals",
+      "theorem": "T1445",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "zeta_ladder_formal",
+      "name": "Zeta ladder PROVED: L=2\u2192zeta(3), L=3\u2192zeta(5), L=4\u2192zeta(7) (10/10)",
+      "theorem": "T1445",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "n_C^2/N_c",
+      "name": "Heat kernel growth rate = n_C^2/N_c = 25/3",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "-k(k-1)/(2*n_C)",
+      "name": "Sub-leading heat kernel ratio: -k(k-1)/(2*n_C) = -k(k-1)/10",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "rank^2*N_c*n_C",
+      "name": "Hilbert normalization constant = rank^2*N_c*n_C = 60",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "1/(rank^2*C_2)",
+      "name": "Spectral zeta pole residue: 1/(rank^2*C_2) = 1/24",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "alpha*m_p/pi",
+      "name": "Nuclear binding scale: alpha*m_p/pi = 2.180 MeV",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "(2C_2-1)/N_c",
+      "name": "Alpha/helion binding ratio: DC/N_c = 11/3 (0.014%)",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "-rank^2*n_C^2/N_c",
+      "name": "C_3^QED zeta(5) coefficient: -rank^2*n_C^2/N_c = -100/3",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "(rank*C_2)^L",
+      "name": "QED loop denominator: (rank*C_2)^L = 12^L",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "g+N_c^n",
+      "name": "Grace's identity chain: g+N_c=2n_C, g+N_c^2=rank^4, g+N_c^3=rank*17",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "N_c/(rank*g)",
+      "name": "String tension ratio: N_c/(rank*g) = 3/14",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "HK_r25_prediction",
+      "name": "Heat kernel prediction: r(25) = -60 = -rank*n_C*C_2 = -|A_5|",
+      "theorem": "T531",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "prediction"
+    },
+    {
+      "symbol": "HK_r26_prediction",
+      "name": "Heat kernel prediction: r(26) = -65 = -n_C*c_3(Q^5)",
+      "theorem": "T531",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "prediction"
+    },
+    {
+      "symbol": "HK_r22_prediction",
+      "name": "Heat kernel prediction: r(22) = -231/5 (non-integer, non-speaking)",
+      "theorem": "T531",
+      "paper83_section": "12",
+      "cal_tier": "I",
+      "precision": "prediction"
+    },
+    {
+      "symbol": "lambda_{n_C} - 1",
+      "name": "RFC identity: lambda_{n_C} - 1 = g^2 = 49",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "r(25)",
+      "name": "Heat kernel ratio r(25) = -60 = -rank*n_C*C_2 (D-finite prediction)",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "r(26)",
+      "name": "Heat kernel ratio r(26) = -65 = -n_C*c_3(Q^5) (nuclear-spectral bridge)",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "r(k) domain table",
+      "name": "Speaking pair domain table: heat kernel = periodic table of physics, indexed by k mod n_C",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "C_2^L - 1",
+      "name": "Cyclotomic tower: C_2^L - 1 = product of Phi_d(C_2), all factors prime for L=1..4",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "C_4^QED structure",
+      "name": "C_4^QED predicted structure: rational/20736 + zeta(3,5,7) + pi^6 + Li_6(1/2)",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "C4_QED_prediction",
+      "name": "C_4^QED predicted: zeta(7) + pi^6 + Li_6(1/2) + RFC numerators",
+      "theorem": "T1453",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "structural prediction"
+    },
+    {
+      "symbol": "cyclotomic_tower",
+      "name": "Cyclotomic tower: C_2^L - 1 factors into cyclotomic primes",
+      "theorem": "T1462",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "zeta9_falsification",
+      "name": "Prediction P-T1453e: zeta(9) does NOT appear independently at L=5",
+      "theorem": "T1453",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "prediction"
+    },
+    {
+      "symbol": "QED denominator rule",
+      "name": "QED denominator/numerator separation: {rank,N_c,n_C} in denominators only, {g,C_2,N_max} in numerators only",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "17101 = g^2 * (rank*n_C^2*g - 1)",
+      "name": "Nested RFC: 17101 = g^2 * 349 where 349 = rank*n_C^2*g - 1",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "139 = N_max + rank",
+      "name": "Dual RFC reading: 139 = rank^2*n_C*g - 1 = N_max + rank",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "mu_p_corrected",
+      "name": "Proton magnetic moment with EM correction",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "mu_n_corrected",
+      "name": "Neutron magnetic moment with EM correction",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "mu_p/mu_n",
+      "name": "Proton-to-neutron magnetic moment ratio",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "mu_p_EM_factor",
+      "name": "Proton magnetic moment EM correction factor",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "mu_n_EM_factor",
+      "name": "Neutron magnetic moment EM correction factor",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "g+C_2=N_c^2+rank^2",
+      "name": "BST sum identity: g + C_2 = N_c^2 + rank^2 = 13",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "beta_1_QCD",
+      "name": "QCD two-loop beta function coefficient",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "beta_2_QCD",
+      "name": "QCD three-loop beta function coefficient (MS-bar)",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "beta_ratio_21",
+      "name": "QCD beta_2/beta_1 ratio = -n_C/rank^2",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "11=2n_C+1",
+      "name": "QCD one-loop coefficient 11 = 2*n_C + 1",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "g+N_c^4=88",
+      "name": "g + N_c^4 = rank^3 * (2*n_C+1) = 88",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "g+N_c^5=250",
+      "name": "g + N_c^5 = rank * n_C^3 = 250",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "g+N_c^6=736",
+      "name": "g + N_c^6 = rank^5 * 23 = rank^5 * (rank^2*C_2 - 1)",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "theta_QCD=0",
+      "name": "Strong CP theta parameter = 0 from D_IV^5 uniqueness",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "C_2^QED_BST_form",
+      "name": "QED C_2 coefficient: full BST decomposition",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "alpha_s_mZ_closed",
+      "name": "Strong coupling at Z mass: BST closed form",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "nf_mZ=nC",
+      "name": "Active quark flavors at m_Z = compact dimension n_C",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "beta_0_ladder",
+      "name": "QCD beta_0 ladder: all 4 threshold values are BST products",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "partition_fn_IS_theta",
+      "name": "Partition function = Bergman spectral theta (PROVED)",
+      "theorem": "T186",
+      "paper83_section": "11",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "BCS_gap_exact_0038",
+      "name": "BCS gap ratio corrected: sqrt(N_max/DC) at 0.038%",
+      "theorem": "T186",
+      "paper83_section": "10",
+      "cal_tier": "D",
+      "precision": "0.038%"
+    },
+    {
+      "symbol": "Stefan_coeff_15",
+      "name": "Stefan-Boltzmann coefficient: pi^2/15 where 15 = N_c*n_C",
+      "theorem": "T186",
+      "paper83_section": "11",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "c_5_Bergman",
+      "name": "Bergman kernel normalization on D_IV^5",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "Born_rule_Bergman",
+      "name": "Born rule = Bergman reproducing property",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "G6_Barnes",
+      "name": "Barnes G-function G(n_C+1) = rank^5 * N_c^2 = 288",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "Born_rule_theorem",
+      "name": "Born rule = theorem about Bergman spaces (PROVED, not postulate)",
+      "theorem": "T186",
+      "paper83_section": "3",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "alpha_running_range_Nc2",
+      "name": "EM running range: N_max - 2^g = N_c^2 = 9",
+      "theorem": "T186",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "theta_functional_eq_test",
+      "name": "Functional equation test: \u0398(t) \u2194 \u0398(c/t) (pending)",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "C",
+      "precision": "pending"
+    },
+    {
+      "symbol": "t_QED_QCD_ratio",
+      "name": "QED/QCD spectral parameter ratio = 4*n_C/(g*N_max*pi)",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": "0.0000%"
+    },
+    {
+      "symbol": "P1_over_lambda1",
+      "name": "First spectral weight ratio P(1)/lambda_1 = g/C_2",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": "exact"
+    },
+    {
+      "symbol": "theta_phase_crossing_1",
+      "name": "First eigenvalue crossing: t_cross = ln(P(2)/P(1)) / (lambda_2 - lambda_1)",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": ""
+    },
+    {
+      "symbol": "theta_at_1_over_C2",
+      "name": "Theta at 1/C_2: Theta(1/6) ~ 7 = g",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": "2.3%"
+    },
+    {
+      "symbol": "theta_at_1_over_nC",
+      "name": "Theta at 1/n_C: Theta(1/5) ~ 5 = n_C",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": "9.2%"
+    },
+    {
+      "symbol": "feynman_to_theta_depth",
+      "name": "Computational depth: Feynman O(L!) -> Theta O(1)",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": "exact"
+    },
+    {
+      "symbol": "spectral_dimension_C2",
+      "name": "Spectral dimension of D_IV^5 = C_2 = 6 (NOT 10, NOT 5)",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "spectrum_self_dual",
+      "name": "Spectrum self-dual under k \u2192 -(k+n_C)",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "geometric_mean_fermion",
+      "name": "sqrt(m_t * m_e) = m_p/pi at 0.45%",
+      "theorem": "T186",
+      "paper83_section": "4",
+      "cal_tier": "I",
+      "precision": "0.45%"
+    },
+    {
+      "symbol": "theta_QED_QCD_ratio",
+      "name": "QED/QCD scale ratio = BST fraction (EXACT)",
+      "theorem": "T186",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "theta_near_integer",
+      "name": "Theta(1/C_2) ~ g, Theta(1/n_C) ~ n_C (near-integer, S-tier)",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "S",
+      "precision": "2-9%"
+    },
+    {
+      "symbol": "Schwinger_from_theta",
+      "name": "Schwinger term = P(1)/lambda_1 = g/C_2 = 7/6",
+      "theorem": "T186",
+      "paper83_section": "12",
+      "cal_tier": "D",
+      "precision": "structural"
+    },
+    {
+      "symbol": "Hilbert_series_Q5",
+      "name": "Hilbert series of Q^5: H(t) = (1+t)/(1-t)^C_2",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": "exact"
+    },
+    {
+      "symbol": "d_spectral_C2",
+      "name": "Spectral dimension of D_IV^5 = C_2 = 6",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": "0.24%"
+    },
+    {
+      "symbol": "Theta_first_Boltzmann",
+      "name": "First Boltzmann weight at 1/C_2: exactly g*e^{-1}",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": "exact"
+    },
+    {
+      "symbol": "mass_geometric_mean_fixed_point",
+      "name": "sqrt(m_t * m_e) = m_p/pi at 0.52%",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": "0.52%"
+    },
+    {
+      "symbol": "spectrum_Weyl_antisymmetry",
+      "name": "Spectrum self-duality: P(k) -> -P(k) under k -> -(k+n_C)",
+      "theorem": "T186",
+      "paper83_section": "",
+      "cal_tier": "",
+      "precision": "exact"
+    },
+    {
+      "symbol": "theta_g_correction",
+      "name": "Theta correction: evaluate at 1/(C_2 - g*alpha) gives g at 0.10%",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "I",
+      "precision": "0.10%"
+    },
+    {
+      "symbol": "theta_color_decomp",
+      "name": "Theta exponential color decomposition: 1/N_c fractional parts",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Hilbert_series_exact",
+      "name": "Hilbert series H(t) = (1+t)/(1-t)^C_2 VERIFIED",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Boltzmann_weight_g_over_e",
+      "name": "First Boltzmann weight at t=1/C_2: P(1)*exp(-1) = g/e",
+      "theorem": "T186",
+      "paper83_section": "2",
+      "cal_tier": "D",
+      "precision": "exact"
+    },
+    {
+      "symbol": "Nmax_plus_g_144",
+      "name": "N_max + g = 144 = (rank*C_2)^rank = 12^2",
+      "theorem": "T186",
+      "paper83_section": "2",
       "cal_tier": "D",
       "precision": "exact"
     }
