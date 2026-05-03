@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**1,728 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**1,844 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 1,728 |
-| Numbered toys (toy_NNN_*.py) | 1,519 |
+| Toy scripts (toy_*.py) | 1,844 |
+| Numbered toys (toy_NNN_*.py) | 1,635 |
 | Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 58 |
 | HTML visualizers | 6 |
-| Theorems (T1-T1465) | 1,465 |
-| Next toy number | 1709 |
+| Theorems (T1-T1643) | 1,643 |
+| Next toy number | 1825 |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -30,7 +30,7 @@ Five integers. Zero free parameters. "Give a child a ball and teach them to coun
 
 ```
 play/
-  toy_NNN_name.py          # Numbered toys (1,519 files, T100-T1708)
+  toy_NNN_name.py          # Numbered toys (1,635 files, T100-T1824)
   toy_name.py              # Named toys (209 files, foundational + topical)
   *.py                     # Utility scripts (58 files: graph tools, extractors, verifiers)
   bst_appliance/           # BST Appliance package — the "Ball and Counting Tool"
@@ -111,8 +111,8 @@ Two gitignored counter files prevent toy/theorem number collisions:
 
 | File | Current Value | Purpose |
 |------|---------------|---------|
-| `.next_toy` | 1709 | Next available toy number |
-| `.next_theorem` | 1466 | Next available theorem number |
+| `.next_toy` | 1825 | Next available toy number |
+| `.next_theorem` | 1644 | Next available theorem number |
 
 **Rules:**
 1. ALWAYS read the counter file before creating a new toy or theorem.
@@ -229,6 +229,9 @@ The 209 named toys include the original foundational collection and topical deep
 | 1675-1692 | 18 | **SP-15 theta function program**: Plancherel proton mass (d(g)·π⁵=360, 15/15), cosmological cascade vs boundary (BOTH, 10/10), string tension σ=m_p²·N_c/(rank·g), HVP spectral fraction, CKM Casimir gaps, **spectral zeta closed form** (ζ_Q(n_C)=π^{n_C}/720, 12/12), heat kernel theta, spectral Hurwitz, nuclear binding (N-14 rank⁴·N_c=48 EXACT), spectral weight a_e, **zeta ladder QED** (L=2→ζ(N_c), L=3→ζ(n_C), L=4→ζ(g)), a_e spectral structure, heat kernel generating function, D-finite ODE, **C₄ QED prediction** (ζ(g)=ζ(7) at 4 loops, 13/13), C₄ systematic reconstruction |
 | 1693-1702 | 10 | **SP-16 board sprint**: mu_p at **0.0001%** (2000× improvement, 10/13), **I→D promotion** (7 constants promoted, 21/21), **Lamb shift + hyperfine** (21-cm=rank⁴·g/(N_c·n_C), 11/11), **QCD beta ladder** (beta_0=g, g+C_2=13, 12/12), **cyclotomic tower** (C_2=6 UNIQUE in [2,20], 20/20), **decay width dictionary** (W/Z/H, G_F formulation, 10/12), **nuclear binding He→Fe** (all sub-1%, Li-7 at 0.011%, Fe-56=(N_c·n_C)², 10/10), **anomalous dimension dictionary** (R(k)→physics, 13/13), **partition function=spectral theta** (Z(β)=Θ(t), stat mech IS spectral geometry, 13/13), alpha_s(m_Z) closed form |
 | 1703-1708 | 6 | **Running alpha** (N_max→2^g, range=N_c²=9, 0.038%, 12/12), **Born rule=Bergman** (c₅=n_C/(rank·π^{n_C}), 11/11), **theta evaluation table** (QED/QCD ratio exact, Θ(1/C₂)~g, 3/4), **theta functional equation** (**spectral dimension=C₂=6**, spectrum self-dual, sqrt(m_t·m_e)=m_p/π at 0.45%, 6/7), **theta near-integer corrections** (t*=N_max/(C₂·N_max-g) for Θ_exc=g at 0.10%, color decomposition 1/N_c, 6/8), theta correction hunt (Hilbert series (1+t)/(1-t)^{C₂}) |
+| 1709-1760 | ~52 | **Fermion mass Bergman evaluations** (10 masses from spectral ladder, FE confirmation), **master integral topology** (C81a/C83a=-N_c/13, Hecke a_p=0 at BST primes, Mersenne primality=zeta independence), **spectral zeta FE hunt** (Hurwitz root decomposition, mirror map P(s) exact, Selberg zeta construction), **BST Pythagorean** (g²=N_c²·n_C+rank²=49), **N_c=rank²-rank+1** (one integer generates all five), **Fibonacci-BST** (rank,N_c,n_C=F₃,F₄,F₅), **phi⁴=(g+N_c√n_C)/2** (golden ratio coordinates), **Hurwitz binomial divergence** (CRITICAL: non-integer Hurwitz values wrong, integer-point ok) |
+| 1761-1800 | ~40 | **Lyra overnight spectral sprint** (ζ_B(0)=-483473/483840 EXACT, log cancellation to log(n_C), det'≈9/20 at 0.008%), **spectral determinant** (I-tier honest, Glaisher-Kinkelin gap real), **Wallach gap=n_C/rank=5/2** (n_C=5 unique: Hamming+stability), **Fox H identification** (α=2 from rank, z=(n_C/rank)²), **scattering matrix** (S(5/2)=C₂=6, polynomial c-function), **Selberg zeta** (Z(s)=∏(1-λ_k^{-s})^{d_k}), **Faulhaber correction** (ALL polynomial-in-k regularizations wrong, Hurwitz at a=7/2 correct) |
+| 1801-1824 | ~24 | **May Program ALL 8 TRACKS** (materials, chemistry, biology, astrophysics, geophysics, info theory), **FE CLOSED** (Toy 1810: Z(s)/Z(5-s)=(s-1)(s-2)/[(s-3)(s-4)], rational), **C₅ QED prediction** (no new transcendentals, genus bound), **Board sprint** (NIST verification 28/40, proton geodesic, cascade factor 11=c₂(Q⁵), numerator rule 2^n=n², **nuclear masses** B/A(He-4)=m_π/(rank·π²) at 0.046%, **string tension** √σ=√(10)·m_π at 0.3%, hyperfine 21cm=N_c·g, **QGP g_eff=n_C·g+rank=37**, Hamming measurement=confinement, Debye temps 6 EXACT, muon g-2 loop ratios, **beta_0(N_f=6)=g=7**) |
 
 ---
 

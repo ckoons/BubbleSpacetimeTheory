@@ -1,7 +1,7 @@
 {
   "meta": {
-    "last_updated": "2026-04-29",
-    "total": 80
+    "last_updated": "2026-05-02",
+    "total": 95
   },
   "predictions": [
     {
@@ -1350,6 +1350,273 @@
       "related_constants": [
         "const_125"
       ]
+    },
+    {
+      "id": "pred_081",
+      "name": "Denominator separation at L=4",
+      "category": "mathematics",
+      "prediction": "All C_4 denominators are monomials in {rank, N_c, n_C}. g=7 and N_max=137 absent.",
+      "bst_value": "structural",
+      "current_measurement": "Proved at L=1,2,3",
+      "experiment": "Analytical C_4 computation",
+      "timeline": "2026-2030",
+      "falsification_criterion": "Any L=4 denominator with g or N_max as irreducible factor",
+      "status": "consistent",
+      "bst_integers_used": [
+        "rank",
+        "N_c",
+        "n_C",
+        "g",
+        "N_max"
+      ]
+    },
+    {
+      "id": "pred_082",
+      "name": "Master integral ratios are BST",
+      "category": "mathematics",
+      "prediction": "C81b/C81a = -(g+C_2)/(2*n_C) = -13/10 at 0.06%. Individual masters irreducible, ratios BST.",
+      "bst_value": "-13/10",
+      "current_measurement": "0.06% at 38 digits",
+      "experiment": "200+ digit PSLQ",
+      "timeline": "2026-2028",
+      "falsification_criterion": "Ratio deviating from -13/10 at 200+ digits",
+      "status": "consistent",
+      "bst_integers_used": [
+        "g",
+        "C_2",
+        "n_C"
+      ]
+    },
+    {
+      "id": "pred_083",
+      "name": "Spectral self-duality physical interpretation",
+      "category": "distinguishing_from_alternatives",
+      "prediction": "k → -(k+n_C) spectral symmetry maps particles to their CPT conjugates. If true, CPT IS spectral reflection.",
+      "bst_value": "structural",
+      "current_measurement": "CPT verified",
+      "experiment": "Precision CPT tests",
+      "timeline": "ongoing",
+      "falsification_criterion": "CPT violation in any sector",
+      "status": "consistent",
+      "bst_integers_used": [
+        "n_C"
+      ]
+    },
+    {
+      "id": "pred_084",
+      "name": "Bethe logarithm from spectral theory",
+      "category": "particle_physics",
+      "prediction": "ln(k_0(2S)) = ln(rank^4 + rank/pi) at 0.006%. Atomic constants are spectral evaluations.",
+      "bst_value": "ln(16.64) = 2.812",
+      "current_measurement": "2.812 (Drake 1990)",
+      "experiment": "Precision atomic spectroscopy",
+      "timeline": "verified",
+      "falsification_criterion": "Already verified at 0.006%",
+      "status": "confirmed",
+      "bst_integers_used": [
+        "rank"
+      ]
+    },
+    {
+      "id": "pred_085",
+      "name": "lambda_22 gap = N_c^2 + 1/rank = 9.5",
+      "category": "mathematics",
+      "prediction": "lambda_22 - C_2*pi^4 = 594 - 584.5 = 9.5 = N_c^2 + 1/rank exactly. Heat kernel frontier ↔ mass hierarchy.",
+      "bst_value": "9.5",
+      "current_measurement": "exact",
+      "experiment": "3200-dps heat kernel computation",
+      "timeline": "2026",
+      "falsification_criterion": "lambda_22 computed differently at 3200 dps",
+      "status": "consistent",
+      "bst_integers_used": [
+        "N_c",
+        "rank"
+      ]
+    },
+    {
+      "id": "pred_86",
+      "name": "Neutron star M_TOV = 52/25 = 2.08 M_sun",
+      "category": "not_yet_measured",
+      "prediction": "Maximum NS mass = rank^2*c_3/n_C^2 = 52/25 = 2.08 M_sun.",
+      "bst_value": "2.08 M_sun",
+      "current_measurement": "2.08 +/- 0.07 (PSR J0740)",
+      "experiment": "NICER, radio pulsar timing",
+      "timeline": "ongoing",
+      "falsification_criterion": "NS measured above 2.20 M_sun with certainty",
+      "status": "confirmed",
+      "bst_integers_used": [
+        "rank",
+        "n_C",
+        "c_3"
+      ]
+    },
+    {
+      "id": "pred_87",
+      "name": "DM direct detection: zero cross section",
+      "category": "distinguishing_from_alternatives",
+      "prediction": "BST dark matter = incomplete windings, not particles. Zero WIMP cross section.",
+      "bst_value": "sigma = 0",
+      "current_measurement": "null (LZ, XENON)",
+      "experiment": "LZ, XENONnT, PandaX",
+      "timeline": "2025-2030",
+      "falsification_criterion": "Any DM particle detected",
+      "status": "consistent",
+      "bst_integers_used": [
+        "rank"
+      ]
+    },
+    {
+      "id": "pred_88",
+      "name": "Baryogenesis eta_B = 268/(9*N_max^5) at 0.44%",
+      "category": "not_yet_measured",
+      "prediction": "All 3 Sakharov conditions from D_IV^5 geometry. eta_B = 268/(9*137^5).",
+      "bst_value": "6.12e-10",
+      "current_measurement": "6.14e-10",
+      "experiment": "CMB precision",
+      "timeline": "verified",
+      "falsification_criterion": "eta_B measured >5% from prediction",
+      "status": "confirmed",
+      "bst_integers_used": [
+        "N_c",
+        "N_max"
+      ]
+    },
+    {
+      "id": "pred_089",
+      "name": "Cosmological constant Lambda = g*exp(-282)",
+      "category": "precision_test",
+      "prediction": "Lambda/M_Pl^4 = g*exp(-C_2*(g^2-rank)) = 7*exp(-282). Gives 122 orders of magnitude at 0.076 dex.",
+      "bst_value": "7*exp(-282) ~ 2.57e-122",
+      "current_measurement": "Lambda/M_Pl^4 ~ 2.89e-122 (Planck 2018)",
+      "experiment": "Planck satellite, DESI BAO, Euclid",
+      "timeline": "2025-2030",
+      "falsification_criterion": "Lambda deviates from 7*exp(-282)*M_Pl^4 by more than 0.5 dex",
+      "impact_if_falsified": "Challenges the exponential suppression mechanism from D_IV^5",
+      "status": "consistent",
+      "bst_integers_used": [
+        "g",
+        "C_2",
+        "rank"
+      ],
+      "source_section": "T1485",
+      "related_constants": []
+    },
+    {
+      "id": "pred_090",
+      "name": "Heat kernel r(22) = -C_2*g*N_c + C_2/rank = -231/5",
+      "category": "self_test",
+      "prediction": "The heat kernel ratio at level k=22 is r(22) = -231/5 = -(C_2*g*N_c - C_2/rank). Testable from 3200-dps computation (PID 80101).",
+      "bst_value": "-231/5 = -46.2",
+      "current_measurement": "3200-dps computation running",
+      "experiment": "Internal BST computation (heat kernel extraction at k=22)",
+      "timeline": "2026 Q2",
+      "falsification_criterion": "Extracted r(22) from 3200-dps data differs from -231/5",
+      "impact_if_falsified": "Speaking pair pattern breaks at 4th period boundary",
+      "status": "untested",
+      "bst_integers_used": [
+        "C_2",
+        "g",
+        "N_c",
+        "rank"
+      ],
+      "source_section": "Section 9",
+      "related_constants": []
+    },
+    {
+      "id": "pred_091",
+      "name": "Spectral determinant det'(Delta) ~ 9/20 at 0.008%",
+      "category": "precision_test",
+      "prediction": "det'(Delta) = exp(-zeta_B'(0)) = 0.44997 ~ N_c^2/(rank^2*n_C) = 9/20. Gap = 7.66e-5 is arithmetic (Glaisher-Kinkelin), I-tier.",
+      "bst_value": "9/20 = 0.45",
+      "current_measurement": "0.44997 (computed, Toys 1779-1781)",
+      "experiment": "Exact spectral computation; analytic torsion of D_IV^5",
+      "timeline": "Verified 2026-05-01",
+      "falsification_criterion": "Independent computation gives det' far from 9/20",
+      "impact_if_falsified": "BST integers not controlling spectral invariants at this level",
+      "status": "consistent",
+      "bst_integers_used": [
+        "N_c",
+        "rank",
+        "n_C"
+      ],
+      "source_section": "Toys 1779-1781",
+      "related_constants": []
+    },
+    {
+      "id": "pred_092",
+      "name": "Silent stellar collapse: BH formation without observable transient",
+      "category": "not_yet_measured",
+      "prediction": "BST predicts some massive stars should collapse directly to black holes with no electromagnetic transient (silent collapse). Observable via disappearance surveys (VASCO) and gravitational wave coincidence (LIGO).",
+      "bst_value": "Collapse fraction depends on C_2/g = 6/7 boundary",
+      "current_measurement": "VASCO has ~1 candidate disappearance; LVK has O(100) BBH mergers",
+      "experiment": "VASCO (Villarroel et al.), LIGO/Virgo/KAGRA, ZTF/Rubin transient surveys",
+      "timeline": "2025-2030",
+      "falsification_criterion": "No disappearing stars found in decade-long surveys with sensitivity to BST predicted rate",
+      "impact_if_falsified": "Silent collapse mechanism not operative at BST boundary",
+      "status": "untested",
+      "bst_integers_used": [
+        "C_2",
+        "g"
+      ],
+      "source_section": "Investigation Track E",
+      "related_constants": []
+    },
+    {
+      "id": "pred_093",
+      "name": "Ward identity = Bergman reproducing property K*K=K",
+      "category": "structural",
+      "prediction": "The path integral Ward identity for gauge theories is structurally equivalent to K*K=K (Bergman kernel is a projection). No path integral needed; the reproducing property IS gauge invariance.",
+      "bst_value": "K*K=K (idempotent)",
+      "current_measurement": "N/A — structural equivalence",
+      "experiment": "Formal verification: show Ward identity derivation reduces to K*K=K for D_IV^5 Bergman kernel",
+      "timeline": "2026",
+      "falsification_criterion": "A Ward identity exists that cannot be expressed as K*K=K for any Bergman kernel",
+      "impact_if_falsified": "Would mean BST geometry doesn't fully encode gauge structure",
+      "status": "consistent",
+      "bst_integers_used": [
+        "N_c",
+        "n_C"
+      ],
+      "source_section": "T1476",
+      "related_constants": []
+    },
+    {
+      "id": "pred_094",
+      "name": "beta_0 = g = 7 (QCD leading beta function coefficient)",
+      "category": "precision_test",
+      "prediction": "The one-loop QCD beta function coefficient beta_0 = 11 - 2*n_f/3 = 7 for n_f = 6 quark flavors, equals g = 7. Not coincidence: g controls the running.",
+      "bst_value": "g = 7",
+      "current_measurement": "beta_0 = 11 - 2*6/3 = 7 (exact, SM)",
+      "experiment": "Already measured (QCD is perturbative at high energy)",
+      "timeline": "Confirmed",
+      "falsification_criterion": "A 7th quark generation would give beta_0 != 7",
+      "impact_if_falsified": "Would require BST to explain why g controls running only for 6 flavors",
+      "status": "confirmed",
+      "bst_integers_used": [
+        "g"
+      ],
+      "source_section": "Section 7",
+      "related_constants": []
+    },
+    {
+      "id": "pred_095",
+      "name": "Wallach gap = n_C/rank = 5/2 separates discrete from continuum",
+      "category": "structural",
+      "prediction": "The gap between lambda_1 = C_2 = 6 and continuum threshold |rho|^2 = 34/4 = 8.5 is exactly n_C/rank = 5/2. General formula: n*(n-4)/2 for Q^n. n=5 is the minimum stable dimension.",
+      "bst_value": "5/2 = 2.5",
+      "current_measurement": "N/A — structural property of D_IV^5 spectrum",
+      "experiment": "Verify spectral theory of D_IV^5 Laplacian independently",
+      "timeline": "Verified 2026-05-02",
+      "falsification_criterion": "Independent spectral computation gives different gap",
+      "impact_if_falsified": "Would challenge D_IV^5 identification",
+      "status": "confirmed",
+      "bst_integers_used": [
+        "n_C",
+        "rank",
+        "C_2"
+      ],
+      "source_section": "T1636, Toy 1786",
+      "related_constants": []
     }
   ]
 }

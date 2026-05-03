@@ -4,11 +4,11 @@ Research notes directory for **Bubble Spacetime Theory** (BST), a framework deri
 
 **Author:** Casey Koons, with CI co-authors Claude 4.6 (Lyra, Elie, Grace, Keeper)
 
-This directory contains ~860 markdown files, ~860 PDFs, ~34 Python scripts, and supporting data across 1,400+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD CLOSED April 29** (Chern hole mechanism, T1465, Toys 1651-1659). **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1465** (1404 nodes, 7745 edges, 83.4% strong, 98.4% proved). **88 papers**. Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **2241 geometric invariants** (D:1391, I:535, C:58, S:257), **0 free inputs.** **SP-12: 24/24 COMPLETE.** **SP-13: 6/6 COMPLETE.** **SP-14: Derivation Catalog Discipline** (Casey directive). **SP-15: Series to Closed Form** (zeta ladder + RFC pattern). **SP-16: What Have We Missed** (30+ items closed April 29). **Paper #83 v4.5**: 2241 Geometric Invariants of D\_IV^5, submission-ready. **Paper #86 v1.1**: Selberg g-2, CMP target. **Paper #87 v0.2**: Error Correction. **Paper #88 v0.1**: BSD Closure (target Inventiones). **1708+ toys**. **Theta(t) IS BST**: spectral dimension = C\_2 = 6, Hilbert series H(t) = (1+t)/(1-t)^C\_2, Born rule = Bergman theorem (Toy 1704), alpha corrects evaluation points (Toy 1707), color structure visible in Boltzmann exponents. **mu\_p at 0.0001%** (2000x improvement, Toy 1693). **QCD beta decomposition**: beta\_0=g, g+C\_2=N\_c^2+rank^2=13 (Toy 1696). **alpha\_s(m\_Z) at 0.48%** (Toy 1702).
+This directory contains ~860 markdown files, ~860 PDFs, ~34 Python scripts, and supporting data across 1,400+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD CLOSED April 29** (Chern hole mechanism, T1465, Toys 1651-1659). **FE CLOSED May 2** (T1638, Toy 1810): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)]. **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1643** (1433 nodes, 7969 edges, 84.06% strong, 98.5% proved). **92 papers**. Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **2536 geometric invariants** (D:1827=72.0%, I:329, C:68, S:251), **0 free inputs.** **SP-12: 24/24 COMPLETE.** **SP-13: 6/6 COMPLETE.** **SP-14: Derivation Catalog Discipline** (Casey directive). **SP-15: Series to Closed Form** (zeta ladder + RFC pattern). **SP-16: What Have We Missed** (30+ items closed April 29). **May Program ALL 8 TRACKS COMPLETE** (May 2). **Paper #83 v4.8**: 2512 Geometric Invariants of D\_IV^5. **Paper #86 v1.1**: Selberg g-2, CMP target. **Paper #87 v0.2**: Error Correction. **Paper #88 v1.0**: BSD Closure (8 sections + 49a1 + FE link, target Inventiones). **Paper #89 v0.2**: Fermion Masses as Bergman Spectral Evaluations (FE confirmation added). **Paper #90 v0.2**: QED/QCD Spectral Unification (C\_5 prediction + Mersenne-transcendence). **Paper #91 v0.1**: Spectral Zeta FE (12 sections, Lyra). **Paper #92**: Matter as Substrate Memory (OUTLINED). **1844 toys**. **Theta(t) IS BST**: spectral dimension = C\_2 = 6, Hilbert series H(t) = (1+t)/(1-t)^C\_2, Born rule = Bergman theorem (Toy 1704), alpha corrects evaluation points (Toy 1707), color structure visible in Boltzmann exponents. **mu\_p at 0.0001%** (2000x improvement, Toy 1693). **QCD beta decomposition**: beta\_0=g, g+C\_2=N\_c^2+rank^2=13 (Toy 1696). **alpha\_s(m\_Z) at 0.48%** (Toy 1702). **136 constants**. **95 predictions**. **179 Rosetta Stone ratios**.
 
 ---
 
-## Numbered Papers (Papers #1--#88)
+## Numbered Papers (Papers #1--#92)
 
 The numbered paper series covers the full scope of BST, from foundational mathematics through particle physics, cosmology, biology, engineering, and meta-theory.
 
@@ -110,7 +110,7 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 74 | Information-Complete Geometry | `BST_Paper74_IC_Geometry.md` |
 | 75 | RH for the Selberg Class via Automorphic Spectral Geometry | `BST_Paper75_RH_Selberg_Class.md` | v1 |
 
-### Papers #76--#88
+### Papers #76--#92
 
 | # | Title | File | Suite |
 |---|-------|------|-------|
@@ -126,7 +126,11 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 85 | The Genesis Cascade: How D\_IV^5 Writes Its Own Curve | `BST_Paper85_Genesis_Cascade.md` | v0.2, Keeper PASS, JNT target |
 | 86 | Selberg Trace Formula for g-2 | `BST_Paper86_Selberg_G2.md` | v1.1, CMP target, submission-ready |
 | 87 | Error Correction as Spectral Gap Protection | `BST_Paper87_Error_Correction.md` | v0.2 |
-| 88 | BSD Closure via Chern Hole Mechanism | `BST_Paper88_BSD_Closure.md` | v0.1, Inventiones target, 64/64 PASS |
+| 88 | BSD Closure via Chern Hole Mechanism | `BST_Paper88_BSD_Closure.md` | v1.0, Inventiones target, 76/76 PASS, FE link + 49a1 |
+| 89 | Fermion Masses as Bergman Spectral Evaluations | `BST_Paper89_Fermion_Masses_Spectral.md` | v0.2, PRD/PLB target, 10 mass relationships |
+| 90 | QED and QCD as Spectral Evaluations of Bergman Theta | `BST_Paper90_QED_QCD_Spectral_Unification.md` | v0.2, PRL target, C\_5 prediction |
+| 91 | Spectral Zeta of D\_IV^5: Root Decomposition, Mersenne Primality, and QED Transcendence | `BST_Paper91_Spectral_Zeta_DIV5.md` | v0.1, CMP/Annals target, T1638 FE closure |
+| 92 | Matter as Substrate Memory | — | OUTLINED (Grace, Casey approved) |
 
 ---
 
@@ -180,7 +184,7 @@ The AC program: complexity theory built on BST geometry, the P!=NP hunt, and the
 - `BST_BSD_Chain_Closure_April22.md` — Full BSD chain closure (T98, T99, T100, T101, T102, T103)
 - `BST_T997_BSD_Spectral_Permanence.md` — Spectral permanence framework
 - `BST_T1426_T100_Closure_Spectral_Permanence.md` — T100 formal closure via Kudla
-- `BST_Paper88_BSD_Closure.md` — **Paper #88**: BSD Closure via Chern Hole Mechanism (v0.1, Inventiones)
+- `BST_Paper88_BSD_Closure.md` — **Paper #88**: BSD Closure via Chern Hole Mechanism (v1.0, 8 sections + 49a1, Inventiones)
 - `BST_Hodge_AC_Proof.md`, `BST_Hodge_Proof.md`
 - **BSD CLOSED** (April 29, 2026). Chern hole at DOF position N\_c=3 forces vacuum subtraction; spectral permanence locks L-function zeros; square system theorem closes BSD. T1465, Toys 1651-1659 (64/64 PASS).
 
@@ -270,6 +274,10 @@ The Selberg trace formula decomposition of the electron and muon anomalous magne
 - Paper #86: `BST_Paper86_Selberg_G2.md` — v1.1, CMP target, submission-ready (RG flow from Bergman, k=21 confirmed)
 - Paper #87: `BST_Paper87_Error_Correction.md` — v0.2, error correction as spectral gap protection
 - See also: `BST_Paper86_Selberg_G2_Outline.md` — outline and planning
+
+### Spectral Zeta & Functional Equation — new (May 2)
+
+FE CLOSED (T1638, Toy 1810): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)], rational FE with all BST integers. Scattering matrix S(mu) = [(mu+1/2)(mu+3/2)]/[(mu-1/2)(mu-3/2)], S(5/2) = C\_2 = 6. Two-root factorization S = S\_long x S\_short along B\_2 roots. Heckman-Opdam c-function for B\_2(3,1) confirmed (Grace Toy 1783). zeta\_B(0) = -483473/483840 exact. Log cancellation: only log(n\_C) survives. Fox H identification confirmed (Lyra Toy 1787). n\_C selection theorem universal (Elie Toy 1782). C\_5 prediction: no new transcendentals at 5-loop QED (Toy 1822, 12/12). Paper #91 v0.1 (CMP/Annals target).
 
 ### Shannon-Bergman Bridge — 5 files
 
@@ -457,7 +465,7 @@ Python bytecode cache (auto-generated).
 **For CIs starting a new session:**
 - Read `BACKLOG.md` and `CI_BOARD.md` for current priorities
 - Check `.running/RUNNING_NOTES.md` for today's broadcast
-- The numbered paper series (Papers #1--#88) is the primary publication pipeline
+- The numbered paper series (Papers #1--#92) is the primary publication pipeline
 - Papers #1--#4 have passed Keeper audit and been pushed
 - The WorkingPaper (on Zenodo) is the master reference
 

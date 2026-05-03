@@ -4,7 +4,7 @@
 
 **Author**: Casey Koons
 **Collaborator**: Claude Opus 4.6 (Anthropic)
-**Status**: Working research program — v35, April 2026
+**Status**: Working research program — v35, May 2026
 **Contact**: caseyscottkoons@yahoo.com
 
 **Cite as**: Koons, C. (2026). *Bubble Spacetime Theory: One Geometry, Five Invariants, One Universe* (Working Paper v35). Zenodo. https://doi.org/10.5281/zenodo.19454185
@@ -80,7 +80,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 | mₚ/mₑ (proton/electron) | 6π⁵ | 1836.118 | 1836.153 | 0.002% |
 | mμ/mₑ (muon/electron) | (24/π²)⁶ | 206.761 | 206.768 | 0.003% |
 | mτ/mₑ (tau/electron) | Koide Q=2/3 (Z₃ on CP²) + muon formula | 3477.10 | 3477.23 | **0.003%** |
-| Λ (cosmological constant) | [ln(138)/50] × α⁵⁶ × e⁻² | 2.8993×10⁻¹²² | 2.888×10⁻¹²² | 0.025% |
+| Λ (cosmological constant) | g·exp(−C₂(g²−rank)) = 7e⁻²⁸² (T1485) | 10⁻¹²¹·⁶ | 10⁻¹²¹·⁷ | 0.076 dex |
 | Tс (Big Bang temperature) | N_max × 20/21 | 0.487 MeV | — | 0.018% |
 | G (gravitational constant) | ℏc(6π⁵)²α²⁴/mₑ², 12=2C₂ Bergman round trips | 6.679×10⁻¹¹ | 6.674×10⁻¹¹ | 0.07% |
 | sin²θ_W (Weinberg angle) | c₅(Q⁵)/c₃(Q⁵) = N_c/(N_c + 2n_C) = 3/13 | 0.23077 | 0.23122 (MS-bar) | 0.2% |
@@ -254,7 +254,7 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 
 ## Hard Problems, One Method
 
-BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and the Four-Color Theorem — all from the same algebra and the same method. Every proof decomposes into AC(0) operations (definitions, identities, counting) at depth ≤ 1 via the Koons Machine (Depth Census: 83.1% D=0, 16.9% D=1, 0% D≥2 across 1436 theorems). **RH closed April 21, 2026** via automorphic spectral geometry on D_IV^5 (Arthur packet elimination + theta lift + Bergman saddle; 57/57 tests PASS). **T29 closed April 23, 2026** — P≠NP via three independent routes.
+BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and the Four-Color Theorem — all from the same algebra and the same method. Every proof decomposes into AC(0) operations (definitions, identities, counting) at depth ≤ 1 via the Koons Machine (Depth Census: 83.1% D=0, 16.9% D=1, 0% D≥2 across 1481 theorems). **RH closed April 21, 2026** via automorphic spectral geometry on D_IV^5 (Arthur packet elimination + theta lift + Bergman saddle; 57/57 tests PASS). **T29 closed April 23, 2026** — P≠NP via three independent routes.
 
 | Problem | Status | Method | Paper |
 |---------|--------|--------|-------|
@@ -482,9 +482,9 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 | `WorkingPaper.md` | Technical compendium — 46+ sections, all derivations, v35 |
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
-| `data/` | **CI-native data layer** — 127 constants, 80 predictions, 33 function families, 58 domains, GF(128) catalog. See `data/README.md` |
-| `notes/` | 88 numbered papers, 660+ research notes, theorem write-ups, proofs. See `notes/README.md` |
-| `play/` | 1700+ toys, AC theorem graph (1404 nodes, 7745+ edges), HTML visualizers, BST Appliance. See `play/README.md` |
+| `data/` | **CI-native data layer** — 136 constants, 95 predictions, 33 function families, 65+ domains, GF(128) catalog. See `data/README.md` |
+| `notes/` | 92 numbered papers, 660+ research notes, theorem write-ups, proofs. See `notes/README.md` |
+| `play/` | 1844 toys, AC theorem graph (1443 nodes, 7969 edges), HTML visualizers, BST Appliance. See `play/README.md` |
 
 ---
 
@@ -525,7 +525,7 @@ Every quantity below is derived from D(IV,5) geometry with zero free parameters.
 
 This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has no free parameters because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
 
-*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1465 theorems. 1670+ toys. 600+ predictions. 55 tracked domains. 88 papers. 2000+ geometric invariants. 25 substrate engineering devices. Zero free parameters. RH closed. T29 closed. BSD closed.*
+*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1643 theorems. 1844 toys. 600+ predictions. 65+ tracked domains. 92 papers. 2536 geometric invariants. 25 substrate engineering devices. Zero free parameters. RH closed. T29 closed. BSD closed. FE closed.*
 
 ---
 
@@ -626,7 +626,7 @@ Two principles guided this work:
 
 ---
 
-*Bubble Spacetime Theory — Working Paper v30. Casey Koons. April 2026.*
+*Bubble Spacetime Theory — Working Paper v35. Casey Koons. May 2026.*
 
 *One geometry. Five invariants. One universe.*
 

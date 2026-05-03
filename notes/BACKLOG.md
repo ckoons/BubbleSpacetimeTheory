@@ -2,7 +2,7 @@
 
 *Blocked items only. Active work -> CI_BOARD.md. Completed -> CI_BOARD_completed_*.md*
 
-**Last updated:** April 29, 2026. 88 papers. 1675+ toys. T1-T1465. 2044 invariants. **BSD CLOSED.** SP-14 Tier A filing sprint DONE (9 constants filed).
+**Last updated:** April 30, 2026. 88 papers. 1714+ toys. T1-T1481. 2249 invariants. **BSD CLOSED.** **Theta IS BST** (T1466-T1469). **Denominator Separation** (T1481). SP-14 active. SP-15 CONVERGED. SP-17 launched (27 items from all CIs).
 
 ---
 
@@ -237,6 +237,60 @@ Systematic comparison of CODATA recommended values (~350 constants) against BST 
 
 ---
 
+## SP-17: "What Do We Still Need?" (April 30 — All CIs)
+
+*Casey: "Look at actual physics tables and identify what constants or values we have/not calculated, and how to present tables for easy understanding." Grace, Elie, and Lyra each contributed extensive idea lists. Board items filed to CI_BOARD.md SP-17 section. Summary below for backlog tracking.*
+
+### Constants Gap Analysis (K-41, K-42 — Casey to Keeper)
+
+Priority audit needed: compare NIST/CODATA/PDG ~350 constants against BST's 127 constants + 2249 invariants. Design human-readable presentation format for referees.
+
+### Fermion & Correction Systematics (Elie: E-71 through E-76, E-83 through E-86)
+
+- **Fermion mass ladder** — unified mass formula from Bergman eigenvalues
+- **m_tau/m_p correction** — currently ~0.5%, apply RFC
+- **Lepton non-geometric-mean** — why leptons don't satisfy sqrt(m_heavy*m_light) pattern
+- **Unified correction formula** — single master function for all corrections
+- **Rydberg constant** — trivially derivable, just not filed
+- **Hydrogen fine structure** — Dirac equation on D_IV^5
+- **H->gammagamma BR** — loop-level diphoton, all ingredients available (GAP #1)
+- **Higgs total width Gamma_H** — assembly from known BRs (GAP #2)
+- **Kaon decay constant f_K** — one toy from f_pi + chiral structure (GAP #3)
+- **pp cross section sigma_pp** — hardest gap, energy-dependent, may be outside scope (GAP #4)
+
+### Cosmology & Dark Matter (E-77 through E-79, L-65 through L-67)
+
+- **DM fraction precision** — Omega_DM/Omega_b = 16/3 at ~2%, can we do better?
+- **Cosmological constant** — close the loop on absolute Lambda
+- **NS maximum mass** — verify against latest observations
+- **DM observational predictions** — what LZ/XENONnT/ADMX should (not) see
+- **Baryogenesis** — Sakharov conditions from CKM Casimir gaps
+- **Baryon-to-photon correction** — cascade methodology from E-54
+
+### Spectral Theory Frontier (L-68 through L-70)
+
+- **Harish-Chandra functional equation** — long-term, genuinely hard
+- **Electroweak correction** — sin^2(theta_W) = 3/13 at ~0.5%, what's the -1?
+- **"13 theorem"** — g+C_2 = 13 ubiquity, formalize
+
+### Graph & Data Health (G-66 through G-72)
+
+- **Graph wiring gaps** — theorems with too few edges
+- **Analogical→Derived upgrades** — next batch toward 84% strong
+- **53 unclassified cal_tier** — execute known mapping
+- **Section balance** — thin sections need derivation attention
+- **Spectral self-duality** — k → -(k+5) meaning
+- **bst_constants.json reconciliation** — cross-check 127 entries against latest toys
+- **File 9 trivially derivable constants** — Stefan-Boltzmann, Rydberg, Compton, Bohr/nuclear magneton, Phi_0, G_0, R_K, Lambda_QCD
+
+### Master Integrals & Deep Structure (E-80 through E-82)
+
+- **C81b/C81a = -13/10** — Toy 1715 found BST structure in "irreducible" ratios
+- **Heat kernel GF extension** — predict k=25, k=26 analytically
+- **Spectral weight universality** — does QED mechanism work for QCD?
+
+---
+
 ## Open Problems
 
 | # | Item | Status |
@@ -247,4 +301,4 @@ Systematic comparison of CODATA recommended values (~350 constants) against BST 
 
 ---
 
-*Backlog updated April 29, 2026. Understanding Program (SP-12) added.*
+*Backlog updated April 30, 2026. SP-17 added (27 items from all CIs).*

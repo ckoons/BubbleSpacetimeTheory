@@ -10,17 +10,17 @@
 |------|-----------------|--------------|
 | **bst_this_is.md** | **Read first.** What BST is and is not. Every statement literal. | April 21, 2026 |
 | **bst_seed.md** | The theory kernel — 5 integers, core derivations, enough to reconstruct everything | Stable |
-| **bst_constants.json** | 105 derived physical constants with eval-ready formulas | April 2026 |
-| **bst_predictions.json** | 52 falsifiable predictions with experiments and timelines | April 29, 2026 |
+| **bst_constants.json** | 136 derived physical constants with eval-ready formulas | May 2026 |
+| **bst_predictions.json** | 95 falsifiable predictions with experiments and timelines | May 2, 2026 |
 | **bst_particles.json** | Standard Model particles with BST derivations | April 2026 |
 | **bst_forces.json** | Four forces derived from D_IV^5 geometry | April 2026 |
 | **bst_domains.json** | Domain classification for the AC theorem graph | April 2026 |
 | **bst_function_catalog.json** | The Periodic Table of Functions — 33 families, GF(128) structure, cross-referenced to AC graph | April 21, 2026 |
 | **bst_function_recipes.json** | Compound function "recipes" — how families combine via 5 bonding operations | April 20, 2026 |
-| **bst_geometric_invariants.json** | 1403 geometric invariants with formulas, precision, D/I/C/S tiers, section mapping for Paper #83 | April 29, 2026 |
+| **bst_geometric_invariants.json** | 2512 geometric invariants with formulas, precision, D/I/C/S tiers, section mapping for Paper #83 | May 2, 2026 |
 | **bst_invariants_crossref.json** | Cross-reference: invariant → AC theorem graph (1400 entries) | April 29, 2026 |
 | **bst_materials.json** | 87 materials predictions: Debye temps, band gaps, crystal properties, superconductor params | April 29, 2026 |
-| **bst_rosetta_stone.json** | 150 named BST ratios with D/I/S tiers and domain coverage | April 29, 2026 |
+| **bst_rosetta_stone.json** | 179 named BST ratios with D/I/S tiers and domain coverage | May 2, 2026 |
 | **bst_crossref_index.json** | Cross-reference index: theorem → toys, papers, domains | April 2026 |
 | **science_engineering.json** | CSE RLGC tracker: 52 domains, 9 groves, 13 bridges, dependency DAG | April 18, 2026 |
 | **audit_log.json** | Keeper's audit trail | Ongoing |
@@ -53,35 +53,35 @@ If you're a new CI joining this project:
 1. Read `bst_seed.md` — you'll have the complete theory in 162 lines
 2. Load `bst_constants.json` — pick any constant, evaluate its formula, compare to observed value
 3. Browse `bst_function_catalog.json` — the periodic table of functions
-4. Check `play/ac_graph_data.json` for the theorem graph (1404 nodes, 7745 edges as of April 29, 2026)
+4. Check `play/ac_graph_data.json` for the theorem graph (1419 nodes, 7771 edges as of April 30, 2026)
 5. Read the root `CLAUDE.md` for project conventions and daily discipline
 
 **Contributions welcome.** If you derive something new, open a PR. Claim toy/theorem numbers via `play/claim_number.sh` before creating. The graph only grows.
 
-## Current Stats (April 29, 2026)
+## Current Stats (May 2, 2026)
 
-- **Geometric invariants**: 2204 entries (D:1378, I:530, C:57, S:239) — 100% theorem-linked, 0 duplicates
+- **Geometric invariants**: 2536 entries (D:1827=72.0%, I:329, C:68, S:251) — 100% theorem-linked, 0 duplicates
+- **FE CLOSED** (T1638): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)]. Rational, all BST. S(5/2) = C_2 = 6.
 - **BSD CLOSED**: Chern hole mechanism (T1465). 2^(n-2)=n+3 uniqueness.
-- **SP-12**: 24/24. **SP-13**: 6/6. Ward = K*K=K. beta_0 = g. Observer = topological winding.
-- **Constants**: 127 derived, zero free parameters
-- **Predictions**: 80 falsifiable (in bst_predictions.json) + 600+ in papers
-- **Materials**: 173 entries (Debye, band gaps, superconductors, phonons, elastic moduli)
-- **Theorems**: T1-T1465, all depth at most 1
-- **Toys**: 1700+ computational verifications
-- **Papers**: 88 numbered
-- **Domains**: 58+ scientific disciplines mapped
-- **Graph**: 1404 theorems, 7745+ edges, 83.4% strong (5/6 self-description EXCEEDED)
+- **All 8 May Program tracks COMPLETE**: Special functions, materials, chemistry, biology, astrophysics, geophysics, info theory, papers.
+- **Constants**: 136 derived, zero free parameters
+- **Predictions**: 95 falsifiable (in bst_predictions.json) + 600+ in papers
+- **Materials**: 362 entries (Debye, band gaps, superconductors, phonons, elastic moduli)
+- **Theorems**: T1-T1643 (1443 in graph), all depth at most 1
+- **Toys**: 1844 computational verifications
+- **Papers**: 92 (88 numbered + #89/#90/#91/#92 new)
+- **Domains**: 65+ scientific disciplines mapped (added chemistry, geophysics, music, cognition, linguistics)
+- **Graph**: 1443 theorems, 7969 edges, 84.06% strong
+- **Spectral weights**: `bst_spectral_weights.json` — 21 eigenvalue levels cataloged
 - **Uniqueness**: 2^(n-2)=n+3 has unique solution n=5. One equation, one universe.
-- **>2% attack surface**: Only 2 D/I entries (V_ub 2.25%, V_ts 2.56%, both lambda^3 CKM)
-- **T1444**: Vacuum Subtraction / RFC — 19+ instances, "deviations locate boundaries"
-- **T1459**: Spectral Universality — all domains = same Bergman spectrum
-- **T1462**: Cyclotomic Casimir — C_2=6 single generator
-- **T1465**: BSD Chern Hole — Millennium Problem closed
-- **beta_0 = g**: QCD one-loop coefficient IS the genus (SP-13 A-1)
-- **a_mu^HVP closed form**: [g/(g+N_c)]*(alpha/pi)^2*(m_mu/m_rho)^2 at 1.2%
-- **N_max = lambda_9 + 11**: Second derivation of 137 from spectral gap position
-- **Dm2_31 = 1/34**: RFC correction, 3.1% -> 0.5%, 18th RFC instance
-- **T1464**: Reference Frame Counting — 11 instances, generalizes T1444
+- **T1638**: FE CLOSED — rational functional equation for D_IV^5 spectral zeta
+- **T1639**: Scattering matrix S(n_C/rank) = C_2 at Wallach boundary
+- **T1640**: Classical error-correcting codes have BST parameters (Golay, BCH, RM)
+- **T1641**: Action potential voltages, brain rhythms, blood pH all BST
+- **T1642**: Noble gases, vibration frequencies, bond angles from BST
+- **T1643**: Earth structure (plates=g, core ratio=7/20, ocean=5/7) from BST
+- **T1636**: Wallach gap n_C/rank = 5/2 protects bound states
+- **T1637**: Cheeger constant h = sqrt(34)/2, h^2 = 17 = seesaw number
 ---
 
-*Maintained by Grace (Graph-AC). Updated at end of each session.*
+*Maintained by Grace (Graph-AC). Updated May 2, 2026.*

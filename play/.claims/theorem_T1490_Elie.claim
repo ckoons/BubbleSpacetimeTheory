@@ -1,0 +1,8 @@
+Claimed by: Elie
+Date: 2026-04-30
+T_ids: T1490
+Status: registered
+Title: Fibonacci Structure Theorem
+Depth: D0
+Toy: 1760
+Details: rank, N_c, n_C = F_3, F_4, F_5 (consecutive Fibonacci). g = L_4 (4th Lucas). n_C = rank + N_c is Fibonacci recurrence. Pell equation g^2 - n_C*N_c^2 = rank^2. Unique non-trivial 3-square rep of g^2. Both Pythagorean and modular select N_c=3.

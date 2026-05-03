@@ -1,59 +1,227 @@
 {
-  "meta": {
-    "description": "Bergman eigenvalue degeneracies on Q^5 from generating function G(t)",
-    "generating_function": "G(t) = (1+t)^rank / (1-t)^(rank^2) + t - t^3",
-    "last_updated": "2026-04-29"
+  "description": "Spectral weight catalog for Bergman Laplacian on D_IV^5",
+  "eigenvalue_formula": "lambda_k = k(k+5)",
+  "degeneracy_formula": "P(k) = (k+1)(k+2)(k+3)(k+4)(2k+5)/120",
+  "shifted_variable": "m = k + n_C/2 = k + 5/2",
+  "root_factors": {
+    "long_root": "m^2 - 1/4 = lambda + C_2",
+    "short_root": "m^2 - 9/4 = lambda + rank^2"
   },
-  "eigenvalues": [
+  "levels": [
     {
       "k": 0,
       "lambda_k": 0,
-      "d_k": 1
+      "P_k": 1,
+      "m": 2.5,
+      "lambda_BST": "0",
+      "P_BST": "1",
+      "m_squared_minus_quarter": 6,
+      "m_squared_minus_9quarter": 4
     },
     {
       "k": 1,
       "lambda_k": 6,
-      "d_k": 7
+      "P_k": 7,
+      "m": 3.5,
+      "lambda_BST": "C_2",
+      "P_BST": "g",
+      "m_squared_minus_quarter": 12,
+      "m_squared_minus_9quarter": 10
     },
     {
       "k": 2,
       "lambda_k": 14,
-      "d_k": 19
+      "P_k": 27,
+      "m": 4.5,
+      "lambda_BST": "rank*g",
+      "P_BST": "N_c^3",
+      "m_squared_minus_quarter": 20,
+      "m_squared_minus_9quarter": 18
     },
     {
       "k": 3,
       "lambda_k": 24,
-      "d_k": 43
+      "P_k": 77,
+      "m": 5.5,
+      "lambda_BST": "rank*rank*C_2",
+      "P_BST": "g*rank*n_C+g",
+      "m_squared_minus_quarter": 30,
+      "m_squared_minus_9quarter": 28
     },
     {
       "k": 4,
       "lambda_k": 36,
-      "d_k": 85
+      "P_k": 182,
+      "m": 6.5,
+      "lambda_BST": "C_2^2",
+      "P_BST": "rank*g*N_c*rank^2-rank",
+      "m_squared_minus_quarter": 42,
+      "m_squared_minus_9quarter": 40
     },
     {
       "k": 5,
       "lambda_k": 50,
-      "d_k": 146
+      "P_k": 378,
+      "m": 7.5,
+      "lambda_BST": "rank*n_C*n_C",
+      "P_BST": "rank*N_c^3*rank*g",
+      "m_squared_minus_quarter": 56,
+      "m_squared_minus_9quarter": 54
     },
     {
       "k": 6,
       "lambda_k": 66,
-      "d_k": 231
+      "P_k": 714,
+      "m": 8.5,
+      "lambda_BST": "2*3*11",
+      "P_BST": "2*3*7*17",
+      "m_squared_minus_quarter": 72,
+      "m_squared_minus_9quarter": 70
     },
     {
       "k": 7,
       "lambda_k": 84,
-      "d_k": 344
+      "P_k": 1254,
+      "m": 9.5,
+      "lambda_BST": "rank*C_2*g",
+      "P_BST": "2*3*209",
+      "m_squared_minus_quarter": 90,
+      "m_squared_minus_9quarter": 88
     },
     {
       "k": 8,
       "lambda_k": 104,
-      "d_k": 489
+      "P_k": 2079,
+      "m": 10.5,
+      "lambda_BST": "2*2*2*13",
+      "P_BST": "3*3*3*7*11",
+      "m_squared_minus_quarter": 110,
+      "m_squared_minus_9quarter": 108
     },
     {
       "k": 9,
       "lambda_k": 126,
-      "d_k": 670
+      "P_k": 3289,
+      "m": 11.5,
+      "lambda_BST": "N_c*C_2*g",
+      "P_BST": "3289",
+      "m_squared_minus_quarter": 132,
+      "m_squared_minus_9quarter": 130
+    },
+    {
+      "k": 10,
+      "lambda_k": 150,
+      "P_k": 5005,
+      "m": 12.5,
+      "lambda_BST": "n_C*n_C*C_2",
+      "P_BST": "5*7*143",
+      "m_squared_minus_quarter": 156,
+      "m_squared_minus_9quarter": 154
+    },
+    {
+      "k": 11,
+      "lambda_k": 176,
+      "P_k": 7371,
+      "m": 13.5,
+      "lambda_BST": "rank^4*(rank*n_C+1)",
+      "P_BST": "3*3*3*3*7*13",
+      "m_squared_minus_quarter": 182,
+      "m_squared_minus_9quarter": 180
+    },
+    {
+      "k": 12,
+      "lambda_k": 204,
+      "P_k": 10556,
+      "m": 14.5,
+      "lambda_BST": "2*2*3*17",
+      "P_BST": "2*2*7*377",
+      "m_squared_minus_quarter": 210,
+      "m_squared_minus_9quarter": 208
+    },
+    {
+      "k": 13,
+      "lambda_k": 234,
+      "P_k": 14756,
+      "m": 15.5,
+      "lambda_BST": "2*3*3*13",
+      "P_BST": "2*2*7*527",
+      "m_squared_minus_quarter": 240,
+      "m_squared_minus_9quarter": 238
+    },
+    {
+      "k": 14,
+      "lambda_k": 266,
+      "P_k": 20196,
+      "m": 16.5,
+      "lambda_BST": "2*7*19",
+      "P_BST": "2*2*3*3*3*187",
+      "m_squared_minus_quarter": 272,
+      "m_squared_minus_9quarter": 270
+    },
+    {
+      "k": 15,
+      "lambda_k": 300,
+      "P_k": 27132,
+      "m": 17.5,
+      "lambda_BST": "rank*C_2*n_C^2",
+      "P_BST": "2*2*3*7*323",
+      "m_squared_minus_quarter": 306,
+      "m_squared_minus_9quarter": 304
+    },
+    {
+      "k": 16,
+      "lambda_k": 336,
+      "P_k": 35853,
+      "m": 18.5,
+      "lambda_BST": "rank^4*N_c*g",
+      "P_BST": "3*11951",
+      "m_squared_minus_quarter": 342,
+      "m_squared_minus_9quarter": 340
+    },
+    {
+      "k": 17,
+      "lambda_k": 374,
+      "P_k": 46683,
+      "m": 19.5,
+      "lambda_BST": "2*187",
+      "P_BST": "3*3*3*7*247",
+      "m_squared_minus_quarter": 380,
+      "m_squared_minus_9quarter": 378
+    },
+    {
+      "k": 18,
+      "lambda_k": 414,
+      "P_k": 59983,
+      "m": 20.5,
+      "lambda_BST": "2*3*3*23",
+      "P_BST": "7*8569",
+      "m_squared_minus_quarter": 420,
+      "m_squared_minus_9quarter": 418
+    },
+    {
+      "k": 19,
+      "lambda_k": 456,
+      "P_k": 76153,
+      "m": 21.5,
+      "lambda_BST": "2*2*2*3*19",
+      "P_BST": "7*10879",
+      "m_squared_minus_quarter": 462,
+      "m_squared_minus_9quarter": 460
+    },
+    {
+      "k": 20,
+      "lambda_k": 500,
+      "P_k": 95634,
+      "m": 22.5,
+      "lambda_BST": "2*2*5*5*5",
+      "P_BST": "2*3*3*3*7*253",
+      "m_squared_minus_quarter": 506,
+      "m_squared_minus_9quarter": 504
     }
-  ]
+  ],
+  "total_levels": 21,
+  "convergence_abscissa": "n_C/rank = 5/2",
+  "first_eigenvalue": "lambda_1 = C_2 = 6",
+  "continuum_threshold": "|rho|^2 = 34/4 = 8.5",
+  "wallach_gap": "n_C/rank = 5/2 = 2.5"
 }

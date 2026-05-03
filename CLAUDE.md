@@ -2,13 +2,13 @@
 
 **Bubble Spacetime Theory (BST)** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 600+ predictions.
 
-## Status (April 29, 2026)
+## Status (May 2, 2026)
 
-**Counts**: T1-T1465, **1708+ toys**, **88 papers**. Graph 1404 nodes / 7745 edges / **98.4% proved** / 83.4% strong. **2233 geometric invariants** (D:1387, I:531, C:58, S:257). **170 Rosetta Stone ratios**. **80 predictions**. **127 constants** in data layer.
+**Counts**: T1-T1643, **1844 toys**, **92 papers**. Graph 1443 nodes / 7969 edges / **98.5% proved** / 84.06% strong. **2536 geometric invariants** (D:1827=72.0%, I:329, C:68, S:251). **179 Rosetta Stone ratios**. **95 predictions**. **136 constants** in data layer.
 
-**Major closures**: RH closed (T1398, April 21). T29 closed (T1425, April 23). **BSD CLOSED** (Toy 1659, April 29). C₄ full assembly 13/13 PASS. Heat kernel k=21 confirmed: ratio = -42 = -C₂·g, twenty consecutive integer levels. Cremona 49a1 = BST's canonical elliptic curve. T1459 Spectral Universality proved. Koide formula at 0.0009%. T1462 Cyclotomic Casimir. T1464 RFC (Reference Frame Counting): 12 instances. **SP-15 breakthrough: QED zeta ladder** — each loop introduces zeta at next BST prime: L=2→zeta(N_c), L=3→zeta(n_C), L=4→zeta(g). C₂^QED exact BST decomposition (K-32, machine precision). RFC pattern in all QED coefficients: every numerator = BST product - 1. QED structurally finite (3 transcendentals only).
+**Major closures**: RH closed (T1398, April 21). T29 closed (T1425, April 23). **BSD CLOSED** (Toy 1659, April 29). **FE CLOSED** (T1638, Toy 1810, May 2): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)], rational FE with all BST integers. S(5/2)=C₂=6. **Theta IS BST** (T1466-T1469). **m_e absolute RESOLVED** (D-tier, 0.002%). **Cosmological constant** (T1485): Lambda = g*exp(-282), 122 orders. **Unified Correction Mechanism** (T1486, 29/29). **Thirteen Theorem** (T1484): g+C₂ = 13. **May Program ALL 8 TRACKS COMPLETE** (May 2): special functions, materials, chemistry, biology, astrophysics, geophysics, info theory, papers. New domains: music (all intervals BST), cognition (Dunbar=150=n_C²·C₂), linguistics (alphabet=26=rank·13). Spectral dim = C₂ = 6. Heat kernel k=21 confirmed. QED structurally finite.
 
-**Active programs**: Paper #88 v0.1 (BSD Closure, target Inventiones); Paper #87 (Error Correction); Paper #86 v1.1 (Selberg g-2 capstone, CMP); Paper #83 v4.5 (2174 Geometric Invariants, submission-ready); **SP-15 Series → Closed Form** (zeta ladder + RFC pattern); **SP-14 Derivation Catalog Discipline** (Casey directive April 29); **3200-dps heat kernel compute RUNNING** (k=22+ extraction).
+**Active programs**: **Paper #91** v0.1 (Spectral Zeta FE — Lyra, T1638 centerpiece); Paper #83 v4.8 (2512 Invariants); **Paper #88 v1.0** (BSD — 8 sections + 49a1 + FE link); Paper #89 v0.2; Paper #90 v0.2; Paper #87 (Error Correction); Paper #86 v1.1 (Selberg g-2); **May Program: ALL 8 TRACKS COMPLETE** (Day 2 of "week or few"). SP-14 ACTIVE. SP-15 CONVERGED.
 
 **Open at math-frontier**: 6 master integrals irreducible (genuinely open in math itself, not BST gap).
 
@@ -57,8 +57,8 @@ python3 play/verify_bst.py
 | Directory | What's There | Start Here |
 |-----------|-------------|------------|
 | `data/` | CI-native structured JSON — constants, particles, forces, predictions, domains, seed | `bst_this_is.md` → `bst_seed.md` |
-| `notes/` | 660+ research notes, 88 numbered papers, proofs, theorem write-ups | `notes/README.md` |
-| `play/` | 1,690+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
+| `notes/` | 660+ research notes, 92 numbered papers, proofs, theorem write-ups | `notes/README.md` |
+| `play/` | 1,844 toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
 | Root | OneGeometry.md, WorkingPaper.md (v28, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 ## Key Files
@@ -72,7 +72,7 @@ python3 play/verify_bst.py
 - **`data/bst_domains.json`** — domain map (55 domains, 9 groves). **Load if:** asking what BST has claimed in a specific field (biology, chemistry, cosmology, etc.).
 - **`data/bst_function_catalog.json`** — periodic table of functions: 128 = 2^g entries, 12 active parameters = 2·C₂. **Load if:** asking "what function is this?" or tracking how named constants (π, φ, ρ, γ, α) sit in the catalog.
 - **`data/science_engineering.json`** — CSE RLGC tracker: 55 domains, 9 groves, 13 bridges. **Load if:** auditing coverage or tracking bridges between domains.
-- **`play/ac_graph_data.json`** — AC theorem graph: 1399+ nodes, 7732+ edges, 55 domains. **Load if:** analyzing theorem connectivity or looking for derivation paths.
+- **`play/ac_graph_data.json`** — AC theorem graph: 1433 nodes, 7969 edges, 55 domains. **Load if:** analyzing theorem connectivity or looking for derivation paths.
 - **`play/toy_bst_explorer.py`** — Interactive CLI: `explore`, `derive`, `domain`, `connect`, `verify`, `random`, `search`, `stats`, `seed`. **Use if:** answering ad-hoc questions without loading JSON directly.
 - **`notes/BST_AC_Theorem_Registry.md`** — Master theorem index (Keeper manages). **Use if:** checking whether a theorem ID is taken or needs to be claimed.
 - **`notes/CI_BOARD.md`** — Active CI task assignments. **Read at session start.**
@@ -91,17 +91,12 @@ This repo is a **living library**. We update every day.
 
 1. **Start of session**: Read `notes/.running/RUNNING_NOTES.md` (daily broadcast) and `notes/.running/queue_casey.md` (CI-to-Casey queue). Check `notes/CI_BOARD.md` for assignments.
 2. **During work**: Use `/toy claim` before creating toys. Use `/theorem claim` before creating theorems. Build toys for every claim.
-3. **End of session**: Run your EOD lane, then update CI_BOARD and RUNNING_NOTES.
-   - **Keeper**: Root files (WorkingPaper stats, OneGeometry, README.md, CLAUDE.md)
-   - **Lyra**: `notes/` (paper status, theorem files, `notes/README.md`)
-   - **Elie**: `play/` (toy registry, graph data, `play/README.md`)
-   - **Grace**: `data/` (JSON sync, `data/README.md`, CI onboarding path)
-   - For automated checks, use `python3 play/toy_bst_librarian.py` (subcommands: `scan`, `counters`, `audit-log`, `staleness`, `crossref`, `readme-check`, `digest`, `claims`).
-4. **EOD catalog cleanup** (standing daily function, Casey directive April 29):
-   - Check all toys created this session for unfiled derivations
-   - Any new constant, ratio, or quantity → file to `data/bst_constants.json` or `data/bst_geometric_invariants.json`
-   - Any constant BST cannot derive → document WHY in `notes/BACKLOG.md` SP-14 Tier C
-   - SP-14 enforces this. No unfiled derivations at end of day.
+3. **End of session**: Follow the EOD Procedure in `notes/CI_BOARD.md`. Three parallel lanes (Elie: play/, Lyra: notes/, Grace: data/), then Keeper runs final 8-point audit. No session closes without Keeper's PASS/FAIL sign-off. Key requirements:
+   - Every new toy has a file with SCORE line, every new theorem is registered with edges
+   - Every derivation cataloged to `data/bst_constants.json` or `data/bst_geometric_invariants.json` (SP-14 — zero unfiled at EOD)
+   - Every changed paper `.md` has a current `.pdf`
+   - Root files (CLAUDE.md, README.md, data/README.md) synced to board counters
+   - Running notes posted, board updated, counters verified against filesystem
 
 ## Skills (Slash Commands)
 

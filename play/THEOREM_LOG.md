@@ -48,3 +48,12 @@
 | T523 | Big Bang to Life | D1 | — | 603 | Keeper (from Elie) | 2026-03-29 | registered |
 | T524 | Forced Cooperation Theorem | D1 | — | 604 | Keeper (from Elie) | 2026-03-29 | registered |
 | T525 | Great Filter = f_crit | D1 | — | 605 | Keeper (from Elie) | 2026-03-29 | registered |
+| T1490 | Fibonacci Structure Theorem | D0 | — | 1760 | Elie | 2026-04-30 | registered |
+| T1636 | Wallach Stability Theorem | D0 | — | — | Keeper | 2026-05-02 | registered |
+| T1637 | Cheeger Constant of D_IV^5 | D0 | — | 1783 | Keeper (from Grace) | 2026-05-02 | registered |
+| T1638 | Spectral Zeta Functional Equation | D0 | — | 1810 | Keeper (from Lyra+Elie) | 2026-05-02 | registered |
+| T1639 | Scattering Matrix of D_IV^5 | D0 | — | 1792 | Keeper (from Lyra) | 2026-05-02 | registered |
+| T1640 | Heckman-Opdam Identification | D0 | — | 1783 | Keeper (from Grace) | 2026-05-02 | registered |
+| T1641 | Fox H Classification | D0 | — | 1787 | Keeper (from Lyra) | 2026-05-02 | registered |
+| T1642 | n_C Selection Theorem | D0 | — | 1782 | Keeper (from Elie) | 2026-05-02 | registered |
+| T1643 | Spectral Domain Extensions | D0 | — | 1805 | Keeper (from Grace) | 2026-05-02 | registered |
