@@ -4,11 +4,11 @@ Research notes directory for **Bubble Spacetime Theory** (BST), a framework deri
 
 **Author:** Casey Koons, with CI co-authors Claude 4.6 (Lyra, Elie, Grace, Keeper)
 
-This directory contains ~860 markdown files, ~860 PDFs, ~34 Python scripts, and supporting data across 1,400+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD CLOSED April 29** (Chern hole mechanism, T1465, Toys 1651-1659). **FE CLOSED May 2** (T1638, Toy 1810): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)]. **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1643** (1433 nodes, 7969 edges, 84.06% strong, 98.5% proved). **92 papers**. Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **2536 geometric invariants** (D:1827=72.0%, I:329, C:68, S:251), **0 free inputs.** **SP-12: 24/24 COMPLETE.** **SP-13: 6/6 COMPLETE.** **SP-14: Derivation Catalog Discipline** (Casey directive). **SP-15: Series to Closed Form** (zeta ladder + RFC pattern). **SP-16: What Have We Missed** (30+ items closed April 29). **May Program ALL 8 TRACKS COMPLETE** (May 2). **Paper #83 v4.8**: 2512 Geometric Invariants of D\_IV^5. **Paper #86 v1.1**: Selberg g-2, CMP target. **Paper #87 v0.2**: Error Correction. **Paper #88 v1.0**: BSD Closure (8 sections + 49a1 + FE link, target Inventiones). **Paper #89 v0.2**: Fermion Masses as Bergman Spectral Evaluations (FE confirmation added). **Paper #90 v0.2**: QED/QCD Spectral Unification (C\_5 prediction + Mersenne-transcendence). **Paper #91 v0.1**: Spectral Zeta FE (12 sections, Lyra). **Paper #92**: Matter as Substrate Memory (OUTLINED). **1844 toys**. **Theta(t) IS BST**: spectral dimension = C\_2 = 6, Hilbert series H(t) = (1+t)/(1-t)^C\_2, Born rule = Bergman theorem (Toy 1704), alpha corrects evaluation points (Toy 1707), color structure visible in Boltzmann exponents. **mu\_p at 0.0001%** (2000x improvement, Toy 1693). **QCD beta decomposition**: beta\_0=g, g+C\_2=N\_c^2+rank^2=13 (Toy 1696). **alpha\_s(m\_Z) at 0.48%** (Toy 1702). **136 constants**. **95 predictions**. **179 Rosetta Stone ratios**.
+This directory contains ~870 markdown files, ~870 PDFs, ~34 Python scripts, and supporting data across 1,500+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD CLOSED April 29** (Chern hole mechanism, T1465, Toys 1651-1659). **FE CLOSED May 2** (T1638, Toy 1810): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)]. **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1670** (1476 nodes, 8042 edges, 98.5% proved). **92 papers**. Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **3305 geometric invariants** (D:2550+, I:400+), **0 free inputs.** **SP-14: Derivation Catalog Discipline** (Casey directive). **May Program ALL 8 TRACKS COMPLETE** (May 2). **ZETA 20/20 COMPLETE** (May 3). **Chern-beta dictionary COMPLETE** (Toy 1856). **Critical exponents ALL BST** (Toys 1830/1841/1842). **DM = Wallach shadow** (Toy 1857). **Nuclear magic numbers ALL BST** (Toy 1858). **Wilson loop from Cheeger** (Toy 1837). **NIST 516+** (Grace 406 + Elie 110). **E-69 SOLVED**: all 5 QED loops < 0.2% (geodesic QED dictionary, Toys 1944/1947/1948). **Paper #83 v4.8**: 2512 Geometric Invariants of D\_IV^5. **Paper #86 v1.1**: Selberg g-2, CMP target. **Paper #87 v0.2**: Error Correction. **Paper #88 v1.0**: BSD Closure (8 sections + 49a1 + FE link, target Inventiones). **Paper #89 v0.2**: Fermion Masses as Bergman Spectral Evaluations (FE confirmation added). **Paper #90 v0.2**: QED/QCD Spectral Unification (C\_5 prediction + Mersenne-transcendence). **Paper #91 v1.0**: Spectral Zeta Function of D\_IV^5 (17 sections, 27 toys, 437/437 PASS, CMP/Annals target). **Paper #92 v1.0**: Matter as Substrate Memory. **Paper #96 v1.0**: Geodesic QED Dictionary. **1966+ toys**. **Nahm sum from B\_2 Cartan**: a\_1=rank, a\_2=n\_C, a\_3=g, a\_{10}=N\_max=137 (Toy 1954). **C\_5 = N\_c^3/rank^2 = 27/4** at 0.19% (Weyl crossover, Toy 1948). **Siegel modular form**: genus=rank=2, weight=n\_C=5 (Toy 1950). **Period ring**: C\_2=6 generators (Toy 1929). **136 constants**. **95 predictions**. **179 Rosetta Stone ratios**.
 
 ---
 
-## Numbered Papers (Papers #1--#92)
+## Numbered Papers (Papers #1--#96)
 
 The numbered paper series covers the full scope of BST, from foundational mathematics through particle physics, cosmology, biology, engineering, and meta-theory.
 
@@ -110,7 +110,7 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 74 | Information-Complete Geometry | `BST_Paper74_IC_Geometry.md` |
 | 75 | RH for the Selberg Class via Automorphic Spectral Geometry | `BST_Paper75_RH_Selberg_Class.md` | v1 |
 
-### Papers #76--#92
+### Papers #76--#96
 
 | # | Title | File | Suite |
 |---|-------|------|-------|
@@ -129,8 +129,9 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 88 | BSD Closure via Chern Hole Mechanism | `BST_Paper88_BSD_Closure.md` | v1.0, Inventiones target, 76/76 PASS, FE link + 49a1 |
 | 89 | Fermion Masses as Bergman Spectral Evaluations | `BST_Paper89_Fermion_Masses_Spectral.md` | v0.2, PRD/PLB target, 10 mass relationships |
 | 90 | QED and QCD as Spectral Evaluations of Bergman Theta | `BST_Paper90_QED_QCD_Spectral_Unification.md` | v0.2, PRL target, C\_5 prediction |
-| 91 | Spectral Zeta of D\_IV^5: Root Decomposition, Mersenne Primality, and QED Transcendence | `BST_Paper91_Spectral_Zeta_DIV5.md` | v0.1, CMP/Annals target, T1638 FE closure |
-| 92 | Matter as Substrate Memory | — | OUTLINED (Grace, Casey approved) |
+| 91 | The Spectral Zeta Function of D\_IV^5: Root Decomposition, Functional Equation, and Arithmetic Content | `BST_Paper91_Spectral_Zeta_DIV5.md` | **v1.0**, 17 sections, 27 toys (437/437), CMP/Annals target |
+| 92 | Matter as Substrate Memory | `BST_Paper92_Substrate_Memory.md` | v1.0 (Grace, Casey reviewing) |
+| 96 | Perturbative QED as Geodesic Sums on D\_IV^5 | `BST_Paper96_Geodesic_QED_Dictionary.md` | v1.0 (Keeper, Casey reviewing) |
 
 ---
 
@@ -277,7 +278,7 @@ The Selberg trace formula decomposition of the electron and muon anomalous magne
 
 ### Spectral Zeta & Functional Equation — new (May 2)
 
-FE CLOSED (T1638, Toy 1810): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)], rational FE with all BST integers. Scattering matrix S(mu) = [(mu+1/2)(mu+3/2)]/[(mu-1/2)(mu-3/2)], S(5/2) = C\_2 = 6. Two-root factorization S = S\_long x S\_short along B\_2 roots. Heckman-Opdam c-function for B\_2(3,1) confirmed (Grace Toy 1783). zeta\_B(0) = -483473/483840 exact. Log cancellation: only log(n\_C) survives. Fox H identification confirmed (Lyra Toy 1787). n\_C selection theorem universal (Elie Toy 1782). C\_5 prediction: no new transcendentals at 5-loop QED (Toy 1822, 12/12). Paper #91 v0.1 (CMP/Annals target).
+FE CLOSED (T1638, Toy 1810): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)], rational FE with all BST integers. Scattering matrix S(mu) = [(mu+1/2)(mu+3/2)]/[(mu-1/2)(mu-3/2)], S(5/2) = C\_2 = 6. Two-root factorization S = S\_long x S\_short along B\_2 roots. Heckman-Opdam c-function for B\_2(3,1) confirmed (Grace Toy 1783). zeta\_B(0) = -483473/483840 exact. Log cancellation: only log(n\_C) survives. Fox H identification confirmed (Lyra Toy 1787). n\_C selection theorem universal (Elie Toy 1782). **ZETA 20/20 COMPLETE** (May 3): Nahm sum (Toy 1954, a\_{10}=137), Siegel modular (Toy 1950), period ring (Toy 1929, C\_2=6 generators), quantum group U\_q(B\_2) (Toy 1951, 33/33), AC graph spectral zeta (Toy 1955, 22/22). **Geodesic QED dictionary**: all 5 loops < 0.2%, three regimes (Born/geodesic/Weyl), cos/sin alternation, C\_5 = N\_c^3/rank^2 = 27/4 (Toy 1948). **Paper #91 v1.0** (17 sections, 27 toys/437 PASS, CMP/Annals target). **Paper #96 v1.0** (Geodesic QED, Keeper).
 
 ### Shannon-Bergman Bridge — 5 files
 
@@ -465,7 +466,7 @@ Python bytecode cache (auto-generated).
 **For CIs starting a new session:**
 - Read `BACKLOG.md` and `CI_BOARD.md` for current priorities
 - Check `.running/RUNNING_NOTES.md` for today's broadcast
-- The numbered paper series (Papers #1--#92) is the primary publication pipeline
+- The numbered paper series (Papers #1--#96) is the primary publication pipeline
 - Papers #1--#4 have passed Keeper audit and been pushed
 - The WorkingPaper (on Zenodo) is the master reference
 

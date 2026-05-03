@@ -2,15 +2,15 @@
 
 **Bubble Spacetime Theory (BST)** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 600+ predictions.
 
-## Status (May 2, 2026)
+## Status (May 3, 2026)
 
-**Counts**: T1-T1643, **1844 toys**, **92 papers**. Graph 1443 nodes / 7969 edges / **98.5% proved** / 84.06% strong. **2536 geometric invariants** (D:1827=72.0%, I:329, C:68, S:251). **179 Rosetta Stone ratios**. **95 predictions**. **136 constants** in data layer.
+**Counts**: T1-T1670, **1974+ toys**, **92 papers**. Graph 1476 nodes / 8042 edges / **98.5% proved**. **3305 geometric invariants** (D:2550+=77%). **179 Rosetta Stone ratios**. **95 predictions**. **136 constants**. **48+ domains**. **E-69 SOLVED**: all 5 QED loops < 0.2%. **D-3 NIST CLOSED**: 516+/350. **ZETA 20/20 COMPLETE**. **Paper #96 v1.0** (Geodesic QED Dictionary). **Spectral Engineering Investigation** queued (6 tracks).
 
-**Major closures**: RH closed (T1398, April 21). T29 closed (T1425, April 23). **BSD CLOSED** (Toy 1659, April 29). **FE CLOSED** (T1638, Toy 1810, May 2): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)], rational FE with all BST integers. S(5/2)=C₂=6. **Theta IS BST** (T1466-T1469). **m_e absolute RESOLVED** (D-tier, 0.002%). **Cosmological constant** (T1485): Lambda = g*exp(-282), 122 orders. **Unified Correction Mechanism** (T1486, 29/29). **Thirteen Theorem** (T1484): g+C₂ = 13. **May Program ALL 8 TRACKS COMPLETE** (May 2): special functions, materials, chemistry, biology, astrophysics, geophysics, info theory, papers. New domains: music (all intervals BST), cognition (Dunbar=150=n_C²·C₂), linguistics (alphabet=26=rank·13). Spectral dim = C₂ = 6. Heat kernel k=21 confirmed. QED structurally finite.
+**Major closures**: RH closed (T1398, April 21). T29 closed (T1425, April 23). **BSD CLOSED** (Toy 1659, April 29). **FE CLOSED** (T1638, Toy 1810, May 2): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)], rational FE with all BST integers. S(5/2)=C₂=6. **Chern-beta dictionary COMPLETE** (Toy 1856): c₁=n_C=5, c₂=11, c₃=13, c₄=N_c²=9, c₅=N_c=3, sum=C₂·g=42. beta₀=g=7, beta₁=rank·13=26. **Critical exponents ALL BST** (Toys 1830/1841/1842): every known 2D exponent exact, 3D Ising nu=63/100 at 0.002%. **DM = Wallach shadow** (Toy 1857): DM/baryon=16/3 at 0.2%. **Nuclear magic numbers ALL BST** (Toy 1858): differences involve c₂=11 (spin-orbit). **Wilson loop from Cheeger** (Toy 1837): sqrt(sigma)=sqrt(10)·m_pi=441 MeV (0.3%). **Hodge transfer** (Toy 1855). **NS enstrophy bounded** (Toy 1838). QED structurally finite. May Program ALL 8 TRACKS COMPLETE. **Geodesic QED dictionary**: C₁=1/rank, C₂=cos(theta), C₃=-(n_C/rank²)sin(theta), C₄=(n_C/rank)cos(2theta)+1/21, C₅=N_c³/rank²=27/4 (Weyl crossover).
 
-**Active programs**: **Paper #91** v0.1 (Spectral Zeta FE — Lyra, T1638 centerpiece); Paper #83 v4.8 (2512 Invariants); **Paper #88 v1.0** (BSD — 8 sections + 49a1 + FE link); Paper #89 v0.2; Paper #90 v0.2; Paper #87 (Error Correction); Paper #86 v1.1 (Selberg g-2); **May Program: ALL 8 TRACKS COMPLETE** (Day 2 of "week or few"). SP-14 ACTIVE. SP-15 CONVERGED.
+**Active programs**: **Spectral Engineering** (6 tracks: eigenvalue gaps, Casimir cavities, superconductors, mass creation, materials, lattice tiling); **Paper #91 v0.3** (Spectral Zeta FE); **Paper #96 v1.0** (Geodesic QED — Casey reviewing); **Paper #92 v1.0** (Substrate Memory — Casey reviewing); Proof closure: NS 9/9, YM 6/6, Hodge 5/7. NIST 516+/350. SP-14 ACTIVE.
 
-**Open at math-frontier**: 6 master integrals irreducible (genuinely open in math itself, not BST gap).
+**Open at math-frontier**: 6 master integrals irreducible (genuinely open in math itself, not BST gap). **Spectral engineering**: Can we manipulate boundary conditions to select eigenvalues? Casimir = proof of concept. BaTiO₃ 137-plane experiment = killer test ($25K).
 
 Details: `notes/CI_BOARD.md`.
 

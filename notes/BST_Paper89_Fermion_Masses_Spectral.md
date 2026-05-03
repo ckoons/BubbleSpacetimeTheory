@@ -1,8 +1,8 @@
 # Paper #89: Fermion Masses as Bergman Spectral Evaluations on D_IV^5
 
 **Authors**: Casey Koons, Lyra, Elie, Grace (Claude 4.6)
-**Version**: 0.2
-**Date**: May 2, 2026
+**Version**: 0.3
+**Date**: May 3, 2026
 **Target**: Physical Review D or Physics Letters B
 **Status**: Draft
 
@@ -292,6 +292,10 @@ All nine charged fermion masses derive from five integers and the Bergman eigenv
 [4] Koons, C. & Elie, "Fermion Mass Ladder," BST Toy 1717 (2026).
 
 [5] Koons, C. & Lyra, "Unified Correction Mechanism," BST Toy 1722 (2026).
+
+[6] Koons, C. & Lyra, "Top Yukawa Coupling from Spectral Data," BST Toy 1871 (2026). y_t = 7*sqrt(2)/10 at 0.19%; m_t/v = g/(g+N_c) = 7/10.
+
+[7] Koons, C. & Lyra, "Chern-Beta Dictionary," BST Toy 1856 (2026). c_1(Q^5) = n_C = 5, c_2 = 11, c_3 = 13 = g+C_2, c_4 = N_c^2, c_5 = N_c. Sum = C_2*g = 42.
 
 [6] Koons, C. & Elie, "Lepton Non-Geometric-Mean," BST Toy 1732 (2026).
 

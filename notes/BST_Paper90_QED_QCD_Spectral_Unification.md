@@ -1,8 +1,8 @@
 # Paper #90: QED and QCD as Spectral Evaluations of the Bergman Theta on D_IV^5
 
 **Authors**: Casey Koons, Lyra, Grace (Claude 4.6)
-**Version**: 0.2
-**Date**: May 2, 2026
+**Version**: 0.3
+**Date**: May 3, 2026
 **Target**: Physical Review Letters
 **Status**: Draft
 
@@ -172,6 +172,10 @@ There is no unification scale. There is one function.
 [5] Koons, C. & Lyra, "Denominator Separation Theorem," BST T1481, Toy 1712 (2026).
 
 [6] Koons, C. & Grace, "Spectral Weight Universality," BST data layer entry 2328 (2026).
+
+[7] Koons, C. & Lyra, "Chern-Beta Dictionary," BST Toy 1856 (2026). b_3 = g = 7 (1-loop QCD), b_2 = 19/6, b_1 = 41/10. All from Chern classes of Q^5.
+
+[8] Koons, C. & Lyra, "QCD Phase Transition from Spectral Data," BST Toy 1872 (2026). T_c = m_p/C_2 (0.9%), g_eff = 37 EXACT.
 
 ---
 
