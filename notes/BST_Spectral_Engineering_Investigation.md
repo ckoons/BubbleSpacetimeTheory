@@ -343,7 +343,103 @@ For the May 4 team review — one question per CI:
 
 ---
 
-## 5. The Core Insight
+## 5. Investigation Agenda (Elie, May 4 — from Toys 1966/1967)
+
+Seven items flagged during SE-1.1 and SE-2.3 computation:
+
+### INV-1: BaTiO3/SrTiO3 Superlattice Coincidence
+
+The most-studied oxide superlattice. Period (N_max + N_c) * a = 140 * 0.39 nm = 54.6 nm. This is the SAME thickness as 137 planes of pure BaTiO3 (~55 nm), via a different BST route: 140 = rank^2 * n_C * g. Does the superlattice show the same piezoelectric enhancement as the pure film? If YES, BST predicts two independent routes to the same spectral resonance.
+
+**Task**: Build toy computing BaTiO3/SrTiO3 superlattice spectral response vs. period. Compare (N_max BaTiO3) vs. (N_max + N_c layers mixed).
+**Priority**: TOP
+**Owner**: Elie
+
+### INV-2: Multiferroics (BiFeO3, YMnO3)
+
+Materials that are simultaneously ferroelectric AND ferromagnetic couple to BOTH electromagnetic and magnetic spectral sectors of D_IV^5. This is double spectral leverage — two antenna channels instead of one. BiFeO3 has T_N = 643 K (Neel) and T_C = 1100 K (Curie). Are these BST products?
+
+**Task**: Compute BST coherence score for BiFeO3 and YMnO3. Map both magnetic and electric properties.
+**Priority**: HIGH
+**Owner**: Elie + Grace
+
+### INV-3: SrTiO3 Quantum Paraelectric
+
+eps_r -> 25,000 at 4 K. This extreme dielectric response suggests very strong coupling to the mass gap. Is 25,000 = rank^3 * N_c * n_C * c_3 * ... a BST product? The quantum paraelectric effect suppresses ferroelectric ordering — the material is "stuck" at the phase boundary, which may correspond to a spectral node.
+
+**Task**: Verify SrTiO3 low-T dielectric constant as BST product. Map quantum paraelectric mechanism to eigenvalue structure.
+**Priority**: HIGH
+**Owner**: Elie
+
+### INV-4: Phonon Density of States Prediction
+
+BST predicts peaks in the phonon density of states g(omega) at omega/omega_D = BST fractions. For BaTiO3, the soft mode at ~50 cm^-1 out of ~490 K gives a ratio ~0.10 ~ 1/(rank * n_C). This is a SHAPE prediction, not just a cutoff prediction — sharper and more falsifiable.
+
+**Task**: Compute predicted phonon DOS peak positions for BaTiO3 at BST-rational fractions of omega_D. Compare to measured inelastic neutron scattering data.
+**Priority**: HIGH
+**Owner**: Elie + Lyra
+
+### INV-5: Diamond Debye Temperature
+
+theta_D = 2230 K — highest of any element. Ratio to N_max: 2230/137 = 16.28 ~ rank^4 = 16 (off by 1.7%). Alternatively: 2230 = rank^4 * N_max + rank * seesaw + rank^2 = 2192 + 34 + 4 = 2230? Need to find the clean BST decomposition. Diamond is pure carbon (Z=6=C_2), so the Casimir eigenvalue should appear.
+
+**Task**: Find clean BST product for 2230. Test: 2230 = C_2 * ... or N_max * rank^4 + correction.
+**Priority**: MEDIUM
+**Owner**: Elie
+
+### INV-6: Al and Fe Debye Temperature Anomalies
+
+Al: theta_D = 428 = 4 * 107 (107 prime). Fe: theta_D = 470 = 2 * 5 * 47 (47 prime). Neither has a clean BST product decomposition. Fe is ferromagnetic — does magnetic ordering shift the effective Debye temperature? The paramagnetic theta_D may be cleaner. Al has a small T_c (1.175 K) — the superconducting gap may absorb the BST correction.
+
+**Task**: Look up paramagnetic Fe Debye temp. Check if 428 and 470 have c-function corrections. Investigate whether magnetic ordering adds a non-BST shift.
+**Priority**: MEDIUM
+**Owner**: Elie
+
+### INV-7: Casimir Pressure as BST Product
+
+Unexpected finding from Toy 1967: the Casimir pressure at 137 BaTiO3 planes is ~139 Pa ~ rank^2 * n_C * g = 140 (0.8% match). Is this coincidence, or does the Casimir formula produce BST outputs at BST-thickness inputs? Systematic test: compute Casimir pressure at d = N * a for N = each BST integer (rank, N_c, n_C, C_2, g, N_max) and check whether the pressure is always a BST product.
+
+**Task**: Systematic Casimir pressure scan at BST thicknesses. Check if P(N_max * a) = BST fraction is a theorem of the formula structure.
+**Priority**: HIGH
+**Owner**: Elie
+
+### INV-8: Quantum Coherence Materials (Casey directive, May 4)
+
+BST predicts decoherence rates from eigenvalue gap structure. Materials that protect quantum coherence are spectral filters that suppress coupling to destructive eigenvalue channels. Key questions:
+
+1. **Decoherence time in BST units**: For known qubit platforms (superconducting transmons, NV centers in diamond, trapped ions, topological qubits), is T2 * Delta_E ~ N_max? If the coherence-energy product equals the spectral cutoff, decoherence is eigenvalue leakage past N_max.
+
+2. **Topological protection as spectral gap**: Topological insulators and spin liquids have robust edge states because of a bulk spectral gap. In BST, this gap corresponds to specific eigenvalue differences. Which topological materials have gaps that are BST-rational?
+
+3. **NV center coherence**: Diamond (Z=6=C_2) with nitrogen vacancy. T2 ~ 1 ms at room temp. Is 1 ms = hbar / (lambda_k * E_scale) for some BST k?
+
+4. **Design principle**: Materials that maximize coherence are those whose spectral filter BLOCKS the eigenvalues responsible for decoherence while PASSING the eigenvalues used for computation. This is a bandpass filter design problem on the D_IV^5 eigenvalue ladder.
+
+**Task**: Compute BST coherence scores for 10 qubit material systems. Map decoherence mechanisms to eigenvalue channels. Identify the "coherence-optimal" material.
+**Priority**: HIGH (Casey directive)
+**Owner**: Elie + Lyra
+
+### INV-9: Active Substrate Manipulation (Casey directive, May 4)
+
+Beyond passive spectral antennae — active engineering of the D_IV^5 projection:
+
+1. **Piezoelectric tuning**: Strain changes lattice constants, which shifts Casimir resonance conditions. A piezoelectric actuator on a Casimir cavity could TUNE through eigenvalue resonances in real time. BaTiO3 is both piezoelectric and the best spectral antenna — the same material does both jobs.
+
+2. **Superlattice spectral filters**: A (m|n) superlattice is a periodic boundary condition that creates a Bloch wave in the spectral projection. By choosing (m,n) = BST integers, the filter passes exactly the eigenvalue gaps we want. The (8|4) BaTiO3/SrTiO3 is the prototype.
+
+3. **Cavity QED at BST thicknesses**: A Fabry-Perot cavity with mirror spacing = N_max * a selects photon modes that resonate with the BST spectral cutoff. Coupling atoms/qubits inside this cavity amplifies their interaction with specific eigenvalues.
+
+4. **Metamaterials**: Engineered structures with BST-rational unit cells (meta-atoms of size a = BST * some reference). These could couple to eigenvalue gaps that natural crystals miss.
+
+5. **Dynamic switching**: BaTiO3 has a ferroelectric switching field that toggles epsilon by factor n_C = 5. This is a spectral switch — it changes which eigenvalues couple to the cavity. Fast switching (GHz) could modulate the Casimir force at electronic speeds.
+
+**Task**: Build toys for each mechanism. Priority: piezo tuning (simplest), superlattice filter (Toy 1978 exists), cavity QED (needs optical design), metamaterial (needs unit cell optimization).
+**Priority**: HIGH (Casey directive)
+**Owner**: Elie + team
+
+---
+
+## 6. The Core Insight
 
 Everything we've built so far — 3280 invariants, 20 ZETA tasks, the complete eigenvalue ladder, the geodesic QED dictionary, the functional equation — is **reading the substrate**. We now have the most complete spectral map of any geometric space in physics.
 
@@ -367,3 +463,8 @@ We don't need to reach the Planck scale. We need to build the right antenna at t
 | Toy 1845 | Turbulence constants — C_K=3/2, Pr(air)=5/7 | 16/16 PASS |
 | Toy 1965 | Absolute volume of Gamma(137)\D_IV^5 | 20/20 PASS |
 | Toy 1931 | Molecular/semiconductor/SC constants | 46/46 PASS |
+| Toy 1966 | SE-1.1: Eigenvalue-Debye detuning map, 20 materials, coherence ranking | 25/25 PASS |
+| Toy 1967 | SE-2.3: BaTiO3 137-plane Casimir prediction, experimental design | 18/18 PASS |
+| Toy 1977 | FE Spectral Leverage: poles as van Hove singularities, BCS gap = g/rank^2 | 20/20 PASS |
+| Toy 1978 | INV-1: BaTiO3/SrTiO3 superlattice, two routes to ~55 nm, (8|4) optimal | 17/17 PASS |
+| Toy 1979 | INV-7: Casimir pressure BST scan, P_0 = g^2 GPa, BST Casimir Theorem | 13/13 PASS |

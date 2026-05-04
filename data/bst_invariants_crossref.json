@@ -1,6 +1,6 @@
 {
-  "total": 3302,
-  "last_updated": "2026-05-03",
+  "total": 3461,
+  "last_updated": "2026-05-04",
   "entries": [
     {
       "index": 0,
@@ -20241,2880 +20241,3993 @@
     },
     {
       "index": 2891,
-      "symbol": "auto_m_eta_m_pi",
-      "theorem": "T186",
-      "section": "",
-      "tier": "D"
-    },
-    {
-      "index": 2892,
       "symbol": "auto_m_D_m_p",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2893,
+      "index": 2892,
       "symbol": "auto_m_B_m_p",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2894,
+      "index": 2893,
       "symbol": "auto_m_rho_m_pi",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2895,
+      "index": 2894,
       "symbol": "auto_m_omega_m_rho",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2896,
+      "index": 2895,
       "symbol": "auto_m_phi_m_pi",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2897,
+      "index": 2896,
       "symbol": "auto_m_Jpsi_m_p",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2898,
+      "index": 2897,
       "symbol": "auto_m_Upsilon_m_p",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2899,
+      "index": 2898,
       "symbol": "auto_m_Lambda_m_p",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2900,
+      "index": 2899,
       "symbol": "auto_m_Sigma_m_p",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2901,
+      "index": 2900,
       "symbol": "auto_m_Xi_m_p",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2902,
+      "index": 2901,
       "symbol": "auto_m_Omega_m_p",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2903,
+      "index": 2902,
       "symbol": "auto_m_Delta_m_p_m_pi",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2904,
+      "index": 2903,
       "symbol": "auto_Decuplet_spacing",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2905,
+      "index": 2904,
       "symbol": "auto_g_A_axial_coupling",
       "theorem": "T186",
       "section": "",
       "tier": "C"
     },
     {
-      "index": 2906,
+      "index": 2905,
       "symbol": "auto_T_CMB",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2907,
+      "index": 2906,
       "symbol": "auto_n_gamma_CMB",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2908,
+      "index": 2907,
       "symbol": "auto_sigma_8",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2909,
+      "index": 2908,
       "symbol": "auto_tau_reion",
       "theorem": "T186",
       "section": "",
       "tier": "C"
     },
     {
-      "index": 2910,
+      "index": 2909,
       "symbol": "auto_N_eff_BBN",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2911,
+      "index": 2910,
       "symbol": "auto_z_dec_decoupling",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2912,
+      "index": 2911,
       "symbol": "auto_z_reion",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2913,
+      "index": 2912,
       "symbol": "auto_r_s_sound_horizon",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2914,
+      "index": 2913,
       "symbol": "auto_t_0_age_of_universe",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2915,
+      "index": 2914,
       "symbol": "auto_ln_10_10_A_s",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2916,
+      "index": 2915,
       "symbol": "auto_D_H_BBN",
       "theorem": "T186",
       "section": "",
       "tier": "C"
     },
     {
-      "index": 2917,
+      "index": 2916,
       "symbol": "Bergman_1920",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 2918,
+      "index": 2917,
       "symbol": "Pell_equation",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 2919,
+      "index": 2918,
       "symbol": "class_number_1",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 2920,
+      "index": 2919,
       "symbol": "L_chi_neg7",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 2921,
+      "index": 2920,
       "symbol": "Nmax_sq_minus_1",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 2922,
+      "index": 2921,
       "symbol": "geodesic_ratio",
       "theorem": "T186",
       "section": "Structural",
       "tier": "I"
     },
     {
-      "index": 2923,
+      "index": 2922,
       "symbol": "auto_d_1_multiplicity_on_Q_5",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2924,
+      "index": 2923,
       "symbol": "auto_d_2_multiplicity_on_Q_5",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2925,
+      "index": 2924,
       "symbol": "auto_d_3_multiplicity_on_Q_5",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2926,
+      "index": 2925,
       "symbol": "auto_d_4_multiplicity_on_Q_5",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2927,
+      "index": 2926,
       "symbol": "auto_d_5_multiplicity_on_Q_5",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2928,
+      "index": 2927,
       "symbol": "auto_d_6_multiplicity_on_Q_5",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2929,
+      "index": 2928,
       "symbol": "auto_lambda_1_on_Q_5_mass_gap",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2930,
+      "index": 2929,
       "symbol": "auto_lambda_3_on_Q_5",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2931,
+      "index": 2930,
       "symbol": "auto_lambda_5_on_Q_5_magic_number",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2932,
+      "index": 2931,
       "symbol": "auto_Cumulative_multiplicity_N_5",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2933,
+      "index": 2932,
       "symbol": "auto_Multiplicity_growth_denom",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2934,
+      "index": 2933,
       "symbol": "auto_vol_Q_5_denominator",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2935,
+      "index": 2934,
       "symbol": "auto_Spectral_zeta_ratio",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2936,
+      "index": 2935,
       "symbol": "auto_Bergman_kernel_exponent",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2937,
+      "index": 2936,
       "symbol": "auto_vol_D_IV_5_coefficient",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2938,
+      "index": 2937,
       "symbol": "auto_Bergman_a_1_Taylor_coeff",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2939,
+      "index": 2938,
       "symbol": "auto_Bergman_a_2_Taylor_coeff",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2940,
+      "index": 2939,
       "symbol": "auto_Bergman_a_4_Taylor_coeff",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2941,
+      "index": 2940,
       "symbol": "auto_Holomorphic_sectional_curvature",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2942,
+      "index": 2941,
       "symbol": "auto_Einstein_constant_D_IV_5",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2943,
+      "index": 2942,
       "symbol": "auto_Scalar_curvature_Bergman",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2944,
+      "index": 2943,
       "symbol": "auto_Heat_kernel_a_1__R_6",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2945,
+      "index": 2944,
       "symbol": "auto_Harish_Chandra_rho_1",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2946,
+      "index": 2945,
       "symbol": "auto_Harish_Chandra_rho_2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2947,
+      "index": 2946,
       "symbol": "auto_rho_2__seesaw_rank",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2948,
+      "index": 2947,
       "symbol": "auto_Short_root_multiplicity",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2949,
+      "index": 2948,
       "symbol": "auto_c_rho_rational_part",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2950,
+      "index": 2949,
       "symbol": "auto_Formal_degree_ratio_d_QED_d_gravity",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2951,
+      "index": 2950,
       "symbol": "auto_Discrete_continuous_boundary",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2952,
+      "index": 2951,
       "symbol": "auto_Wallach_parameter",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2953,
+      "index": 2952,
       "symbol": "vol_1920_alt",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 2954,
+      "index": 2953,
       "symbol": "B6_denom_42",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 2955,
+      "index": 2954,
       "symbol": "B12_denom_2730",
       "theorem": "T1484",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 2956,
+      "index": 2955,
       "symbol": "zeta6_denom_945",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 2957,
+      "index": 2956,
       "symbol": "Selberg_QED_map",
       "theorem": "T1648",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 2958,
+      "index": 2957,
       "symbol": "auto_Sunrise_mass_sum",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2959,
+      "index": 2958,
       "symbol": "auto_Sunrise_mass_product",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2960,
+      "index": 2959,
       "symbol": "auto_Sunrise_threshold",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2961,
+      "index": 2960,
       "symbol": "auto_Sunrise_discriminant",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2962,
+      "index": 2961,
       "symbol": "auto_e_3_e_1_ratio",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2963,
+      "index": 2962,
       "symbol": "auto_Jordan_algebra_real_dim",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2964,
+      "index": 2963,
       "symbol": "auto_Peirce_half_space_dim",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2965,
+      "index": 2964,
       "symbol": "auto_Jordan_genus",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2966,
+      "index": 2965,
       "symbol": "auto_Shilov_boundary_dim",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2967,
+      "index": 2966,
       "symbol": "auto_Topological_boundary_dim",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2968,
+      "index": 2967,
       "symbol": "auto_Wallach_continuous_start",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2969,
+      "index": 2968,
       "symbol": "auto_Wallach_critical_point",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2970,
+      "index": 2969,
       "symbol": "auto_Discrete_Wallach_count",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2971,
+      "index": 2970,
       "symbol": "auto_Discrete_Wallach_dim_sum",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2972,
+      "index": 2971,
       "symbol": "21cm_line",
       "theorem": "T186",
       "section": "V",
       "tier": "D"
     },
     {
-      "index": 2973,
+      "index": 2972,
       "symbol": "Lambda_QCD_mp_ratio",
       "theorem": "T186",
       "section": "V",
       "tier": "I"
     },
     {
-      "index": 2974,
+      "index": 2973,
       "symbol": "hbar_c_MeVfm",
       "theorem": "T186",
       "section": "V",
       "tier": "D"
     },
     {
-      "index": 2975,
+      "index": 2974,
       "symbol": "mu_pi_lifetime_ratio",
       "theorem": "T186",
       "section": "V",
       "tier": "D"
     },
     {
-      "index": 2976,
+      "index": 2975,
       "symbol": "auto_FE_ratio_at_s_7_2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2977,
+      "index": 2976,
       "symbol": "auto_FE_ratio_at_s_5",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2978,
+      "index": 2977,
       "symbol": "auto_FE_ratio_at_s_C_2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2979,
+      "index": 2978,
       "symbol": "auto_FE_ratio_at_s_g",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2980,
+      "index": 2979,
       "symbol": "auto_FE_ratio_at_s_9_2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2981,
+      "index": 2980,
       "symbol": "auto_Residue_at_s_3",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2982,
+      "index": 2981,
       "symbol": "auto_Consecutive_zeta_ratio",
       "theorem": "T186",
       "section": "",
       "tier": "C"
     },
     {
-      "index": 2983,
+      "index": 2982,
       "symbol": "primitive_geodesic",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 2984,
+      "index": 2983,
       "symbol": "eps_sq_127",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 2985,
+      "index": 2984,
       "symbol": "r1_sq_QED",
       "theorem": "T1636",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 2986,
+      "index": 2985,
       "symbol": "r2_sq_EW",
       "theorem": "T1636",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 2987,
+      "index": 2986,
       "symbol": "r3_sq_QCD",
       "theorem": "T1636",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 2988,
+      "index": 2987,
       "symbol": "three_zetas_geodesic",
       "theorem": "T1648",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 2989,
+      "index": 2988,
       "symbol": "rank^C_2 - N_c^2*g",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2990,
+      "index": 2989,
       "symbol": "epsilon",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2991,
+      "index": 2990,
       "symbol": "c(rho)",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2992,
+      "index": 2991,
       "symbol": "|rho|^2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2993,
+      "index": 2992,
       "symbol": "d(QED)/d(grav)",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2994,
+      "index": 2993,
       "symbol": "d(1)",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2995,
+      "index": 2994,
       "symbol": "d(2)",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2996,
+      "index": 2995,
       "symbol": "d(3)",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2997,
+      "index": 2996,
       "symbol": "vol(Q^5)",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 2998,
+      "index": 2997,
       "symbol": "l_0/pi",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 2999,
+      "index": 2998,
       "symbol": "r_1^2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3000,
+      "index": 2999,
       "symbol": "N_zeta(QED)",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3001,
+      "index": 3000,
       "symbol": "r_2^2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3002,
+      "index": 3001,
       "symbol": "r_3^2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3003,
+      "index": 3002,
       "symbol": "auto_H_alpha_Rydberg_fraction",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3004,
+      "index": 3003,
       "symbol": "auto_21_cm_line_wavelength",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3005,
+      "index": 3004,
       "symbol": "auto_Wien_displacement_number",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3006,
+      "index": 3005,
       "symbol": "auto_Planck_peak_transcendental_eq",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3007,
+      "index": 3006,
       "symbol": "auto_R_K_Z_0_ratio",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3008,
+      "index": 3007,
       "symbol": "auto_He_IE_Rydberg",
       "theorem": "T186",
       "section": "",
       "tier": "C"
     },
     {
-      "index": 3009,
+      "index": 3008,
       "symbol": "auto_SB_coefficient_2_15",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3010,
+      "index": 3009,
       "symbol": "auto_Electron_shell_3__18",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3011,
+      "index": 3010,
       "symbol": "auto_Electron_shell_4__32",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3012,
+      "index": 3011,
       "symbol": "auto_Rydberg_energy",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3013,
+      "index": 3012,
       "symbol": "auto_Hurwitz_shift_parameter",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3014,
+      "index": 3013,
       "symbol": "auto_Meijer_G_parameter_a_1",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3015,
+      "index": 3014,
       "symbol": "auto_Meijer_G_parameter_a_2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3016,
+      "index": 3015,
       "symbol": "auto_Meijer_G_parameter_b_1",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3017,
+      "index": 3016,
       "symbol": "auto_Meijer_G_parameter_b_2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3018,
+      "index": 3017,
       "symbol": "auto_FE_at_Wallach_point_S_n_C_rank",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3019,
+      "index": 3018,
       "symbol": "auto_FE_at_UV_endpoint_S_n_C",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3020,
+      "index": 3019,
       "symbol": "auto_FE_at_genus_point_S_g_rank",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3021,
+      "index": 3020,
       "symbol": "auto_Spectral_zeta_convergence_boundary",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3022,
+      "index": 3021,
       "symbol": "auto_Hurwitz_second_parameter",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3023,
+      "index": 3022,
       "symbol": "auto_zeta_B_s_zeta_B_s_1_asymptotic_limit",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3024,
+      "index": 3023,
       "symbol": "dim(so(7))",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3025,
+      "index": 3024,
       "symbol": "|W(D_5)|",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3026,
+      "index": 3025,
       "symbol": "N_max - 1",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3027,
+      "index": 3026,
       "symbol": "N_max + 1",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3028,
+      "index": 3027,
       "symbol": "L(1, chi_{-7})",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3029,
+      "index": 3028,
       "symbol": "B_4",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3030,
+      "index": 3029,
       "symbol": "period_ring_generators",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3031,
+      "index": 3030,
       "symbol": "zeta_ladder_geodesic",
       "theorem": "T1665",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3032,
+      "index": 3031,
       "symbol": "log_cancellation_ghost",
       "theorem": "T1650",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3033,
+      "index": 3032,
       "symbol": "auto_Pell_unit_epsilon",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3034,
+      "index": 3033,
       "symbol": "auto_epsilon_2_integer_part",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3035,
+      "index": 3034,
       "symbol": "auto_epsilon_2_sqrt_7_coefficient",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3036,
+      "index": 3035,
       "symbol": "auto_Discriminant_of_Q_sqrt_7",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3037,
+      "index": 3036,
       "symbol": "auto_Root_pairing_e_1_e_2_long",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3038,
+      "index": 3037,
       "symbol": "auto_Root_pairing_e_2_short",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3039,
+      "index": 3038,
       "symbol": "auto_Root_pairing_e_1_short",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3040,
-      "symbol": "auto_Root_pairing_e_1_e_2_long",
-      "theorem": "T186",
-      "section": "",
-      "tier": "D"
-    },
-    {
-      "index": 3041,
+      "index": 3039,
       "symbol": "auto_Sum_of_root_pairings",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3042,
+      "index": 3040,
       "symbol": "auto_Geodesic_partition_function_at_s_1",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3043,
+      "index": 3041,
       "symbol": "auto_epsilon_3_sqrt_7_coefficient",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3044,
+      "index": 3042,
       "symbol": "auto_Regulator__log_N_max",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3045,
+      "index": 3043,
       "symbol": "auto_IE_He_Ry",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3046,
+      "index": 3044,
       "symbol": "auto_Slater_sigma_He",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3047,
+      "index": 3045,
       "symbol": "auto_IE_O_Ry",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3048,
+      "index": 3046,
       "symbol": "auto_Lamb_alpha_2_Ry",
       "theorem": "T186",
       "section": "",
       "tier": "C"
     },
     {
-      "index": 3049,
+      "index": 3047,
       "symbol": "auto_Bethe_log_2S",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3050,
+      "index": 3048,
       "symbol": "auto_g_e_electron_g_factor",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3051,
+      "index": 3049,
       "symbol": "auto_HF_H_Lamb_shift",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3052,
+      "index": 3050,
       "symbol": "auto_HF_alpha_2_Ry_m_e_m_p",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3053,
+      "index": 3051,
       "symbol": "auto_HF_Mu_HF_H",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3054,
+      "index": 3052,
       "symbol": "auto_Ps_HF_H_HF",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3055,
+      "index": 3053,
       "symbol": "auto_IE_Ne_IE_He",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3056,
+      "index": 3054,
       "symbol": "auto_Sommerfeld_n_1_correction",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3057,
+      "index": 3055,
       "symbol": "auto_r_p_a_0_proton_radius",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3058,
+      "index": 3056,
       "symbol": "auto_m_W_m_p",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3059,
+      "index": 3057,
       "symbol": "auto_r_H2_a_0",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3060,
+      "index": 3058,
       "symbol": "auto_r_OH_a_0",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3061,
+      "index": 3059,
       "symbol": "auto_r_N2_a_0",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3062,
+      "index": 3060,
       "symbol": "auto_D_CO_dissociation",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3063,
+      "index": 3061,
       "symbol": "auto_D_N2_dissociation",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3064,
+      "index": 3062,
       "symbol": "auto_D_HCl_dissociation",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3065,
+      "index": 3063,
       "symbol": "auto_D_LiH_dissociation",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3066,
+      "index": 3064,
       "symbol": "auto_omega_N2_omega_O2",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3067,
+      "index": 3065,
       "symbol": "auto_omega_N2_omega_CO",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3068,
+      "index": 3066,
       "symbol": "auto_ZPE_H2_Ry",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3069,
+      "index": 3067,
       "symbol": "auto_E_g_Si_Ry",
       "theorem": "T186",
       "section": "",
       "tier": "C"
     },
     {
-      "index": 3070,
+      "index": 3068,
       "symbol": "auto_E_g_GaN_Ry",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3071,
+      "index": 3069,
       "symbol": "auto_E_g_SiC_Ry",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3072,
+      "index": 3070,
       "symbol": "auto_E_g_diamond_Ry",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3073,
+      "index": 3071,
       "symbol": "auto_T_c_Nb_T_c_In",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3074,
+      "index": 3072,
       "symbol": "auto_T_c_V3Si",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3075,
+      "index": 3073,
       "symbol": "auto_T_c_YBCO_T_c_Nb",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3076,
+      "index": 3074,
       "symbol": "auto_pKw_water",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3077,
+      "index": 3075,
       "symbol": "auto_ln_N_A",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3078,
+      "index": 3076,
       "symbol": "auto_Nuclear_r_0",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3079,
+      "index": 3077,
       "symbol": "auto_r_C12_r_0",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3080,
+      "index": 3078,
       "symbol": "auto_r_Pb208_r_0",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3081,
+      "index": 3079,
       "symbol": "auto_r_Fe56_r_0",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3082,
+      "index": 3080,
       "symbol": "auto_n_0_nuclear_saturation",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3083,
+      "index": 3081,
       "symbol": "auto_a_vol_Bethe_Weizsacker",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3084,
+      "index": 3082,
       "symbol": "auto_a_surf_Bethe_Weizsacker",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3085,
+      "index": 3083,
       "symbol": "auto_a_sym_Bethe_Weizsacker",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3086,
+      "index": 3084,
       "symbol": "auto_a_pair_Bethe_Weizsacker",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3087,
+      "index": 3085,
       "symbol": "auto_a_C_Bethe_Weizsacker",
       "theorem": "T186",
       "section": "",
       "tier": "C"
     },
     {
-      "index": 3088,
+      "index": 3086,
       "symbol": "auto_K_nuclear_compressibility",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3089,
+      "index": 3087,
       "symbol": "auto_sigma_piN",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3090,
+      "index": 3088,
       "symbol": "auto_g_piNN_2_4_pi",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3091,
+      "index": 3089,
       "symbol": "auto_epsilon_r_water",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3092,
+      "index": 3090,
       "symbol": "auto_mu_p__mu_n_isovector",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3093,
+      "index": 3091,
       "symbol": "auto_Z_0_pi_ohm",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3094,
+      "index": 3092,
       "symbol": "auto_R_K_Z_0",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3095,
+      "index": 3093,
       "symbol": "auto_T_eff_Sun",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3096,
+      "index": 3094,
       "symbol": "auto_Solar_constant",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3097,
+      "index": 3095,
       "symbol": "auto_M_Ch_M_sun",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3098,
+      "index": 3096,
       "symbol": "auto_M_TOV_M_sun",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3099,
+      "index": 3097,
       "symbol": "auto_pp_chain_energy",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3100,
+      "index": 3098,
       "symbol": "auto_Moon_sidereal_period",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3101,
+      "index": 3099,
       "symbol": "auto_Sunspot_cycle",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3102,
+      "index": 3100,
       "symbol": "auto_Solar_rotation",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3103,
+      "index": 3101,
       "symbol": "auto_R_sun_R_earth",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3104,
+      "index": 3102,
       "symbol": "auto_Atmospheric_scale_height",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3105,
+      "index": 3103,
       "symbol": "auto_Tropopause_height",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3106,
+      "index": 3104,
       "symbol": "auto_Stratopause_height",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3107,
+      "index": 3105,
       "symbol": "auto_Karman_line",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3108,
+      "index": 3106,
       "symbol": "auto_CO2_preindustrial",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3109,
+      "index": 3107,
       "symbol": "auto_O2_atmospheric_fraction",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3110,
+      "index": 3108,
       "symbol": "auto_Earth_surface_gravity",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3111,
+      "index": 3109,
       "symbol": "auto_Geothermal_gradient",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3112,
+      "index": 3110,
       "symbol": "auto_Earth_density_water",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3113,
+      "index": 3111,
       "symbol": "auto_v_esc_Earth_v_esc_Moon",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3114,
+      "index": 3112,
       "symbol": "auto_log10_m_Pl_m_p",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3115,
+      "index": 3113,
       "symbol": "auto_Baryon_asymmetry_eta_10_10",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3116,
+      "index": 3114,
       "symbol": "auto_T_D_diamond_T_room",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3117,
+      "index": 3115,
       "symbol": "auto_T_D_Cu_T_room",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3118,
+      "index": 3116,
       "symbol": "auto_T_D_W_T_room",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3119,
+      "index": 3117,
       "symbol": "auto_gamma_monatomic__C_p_C_v",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3120,
+      "index": 3118,
       "symbol": "auto_gamma_diatomic__C_p_C_v",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3121,
+      "index": 3119,
       "symbol": "auto_C_v_R_Dulong_Petit",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3122,
+      "index": 3120,
       "symbol": "auto_C_p_water_C_p_ice",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3123,
+      "index": 3121,
       "symbol": "auto_n_water_refractive_index",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3124,
+      "index": 3122,
       "symbol": "auto_n_crown_glass",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3125,
+      "index": 3123,
       "symbol": "auto_n_diamond_refractive_index",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3126,
+      "index": 3124,
       "symbol": "auto_n_fused_silica",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3127,
+      "index": 3125,
       "symbol": "auto_k_diamond_k_Cu",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3128,
+      "index": 3126,
       "symbol": "auto_k_Fe_k_Cu_thermal_conductivity",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3129,
+      "index": 3127,
       "symbol": "auto_k_Ag_k_Cu_thermal_conductivity",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3130,
+      "index": 3128,
       "symbol": "auto_Lorenz_number_L_0__pi_2_3",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3131,
+      "index": 3129,
       "symbol": "auto_alpha_L_Cu_alpha_L_Fe",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3132,
+      "index": 3130,
       "symbol": "auto_Stefan_Boltzmann_coefficient",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3133,
+      "index": 3131,
       "symbol": "auto_Planck_x_freq_peak",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3134,
+      "index": 3132,
       "symbol": "auto_sin_theta_c_water_critical_angle",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3135,
+      "index": 3133,
       "symbol": "auto_K_diamond_K_Fe_bulk_modulus",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3136,
+      "index": 3134,
       "symbol": "auto_E_diamond_E_steel_Young_s_modulus",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3137,
+      "index": 3135,
       "symbol": "auto_v_s_diamond_v_s_air",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3138,
+      "index": 3136,
       "symbol": "auto_N_A_10_23",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3139,
+      "index": 3137,
       "symbol": "auto_log10_e_k_B",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3140,
+      "index": 3138,
       "symbol": "auto_Sum_of_nuclear_magic_numbers",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3141,
+      "index": 3139,
       "symbol": "unused_spectrum_128",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3142,
+      "index": 3140,
       "symbol": "hamming_perfect",
       "theorem": "T1456",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3143,
+      "index": 3141,
       "symbol": "substrate_capacity",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3144,
+      "index": 3142,
       "symbol": "DM_codeword_ratio",
       "theorem": "T1636",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3145,
+      "index": 3143,
       "symbol": "|s_1|^2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3146,
+      "index": 3144,
       "symbol": "|s_2|^2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3147,
+      "index": 3145,
       "symbol": "|s_3|^2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3148,
+      "index": 3146,
       "symbol": "phi_QED",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3149,
+      "index": 3147,
       "symbol": "zeta_B(C_2)",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3150,
+      "index": 3148,
       "symbol": "FE(C_2)",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3151,
+      "index": 3149,
       "symbol": "N(epsilon)",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3152,
+      "index": 3150,
       "symbol": "coeff_zeta3",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3153,
+      "index": 3151,
       "symbol": "auto_Weyl_group_order_W_B_2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3154,
+      "index": 3152,
       "symbol": "auto_Standard_L_function_degree",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3155,
+      "index": 3153,
       "symbol": "auto_Spin_L_function_degree",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3156,
+      "index": 3154,
       "symbol": "auto_Exterior_square_L_degree",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3157,
+      "index": 3155,
       "symbol": "auto_Adjoint_L_function_degree",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3158,
+      "index": 3156,
       "symbol": "auto_zeta_6_denominator",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3159,
+      "index": 3157,
       "symbol": "auto_Bernoulli_denominator_den_B_12",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3160,
+      "index": 3158,
       "symbol": "auto_QED_Langlands_parameter_mu_1",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3161,
+      "index": 3159,
       "symbol": "auto_QED_Langlands_parameter_mu_2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3162,
+      "index": 3160,
       "symbol": "auto_Theta_kernel_weight",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3163,
+      "index": 3161,
       "symbol": "auto_Theta_embedding_dimension",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3164,
+      "index": 3162,
       "symbol": "auto_Arthur_packet_size_QED",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3165,
+      "index": 3163,
       "symbol": "auto_Total_positive_root_multiplicity",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3166,
+      "index": 3164,
       "symbol": "auto_g_n_neutron_g_factor",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3167,
+      "index": 3165,
       "symbol": "auto_A_87Rb_A_H_hyperfine_ratio",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3168,
+      "index": 3166,
       "symbol": "auto_Pr_water_Prandtl_number",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3169,
+      "index": 3167,
       "symbol": "auto_Pr_air_Prandtl_number",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3170,
+      "index": 3168,
       "symbol": "auto_mu_water_mu_air_viscosity_ratio",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3171,
+      "index": 3169,
       "symbol": "auto_nu_water_nu_air_kinematic_viscosity",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3172,
+      "index": 3170,
       "symbol": "auto_sigma_water_sigma_Hg_surface_tension",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3173,
+      "index": 3171,
       "symbol": "auto_zeta_3_Apery_constant",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3174,
+      "index": 3172,
       "symbol": "auto_zeta_5",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3175,
+      "index": 3173,
       "symbol": "auto_H_alpha_H_beta_Balmer_ratio",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3176,
+      "index": 3174,
       "symbol": "auto_Balmer_Lyman_limit",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3177,
+      "index": 3175,
       "symbol": "auto_Paschen_Balmer_limit",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3178,
+      "index": 3176,
       "symbol": "auto_Na_D1_D2_wavelength_ratio",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3179,
+      "index": 3177,
       "symbol": "auto_lambda_C_a_0_Compton_Bohr",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3180,
+      "index": 3178,
       "symbol": "auto_Thomson_coefficient_8_3",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3181,
+      "index": 3179,
       "symbol": "auto_Named_H_spectral_series_count",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3182,
+      "index": 3180,
       "symbol": "auto_m_e_m_p__1_C_2_pi_n_C",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3183,
+      "index": 3181,
       "symbol": "auto_C_p_Al_C_p_water",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3184,
+      "index": 3182,
       "symbol": "auto_C_p_glass_C_p_water",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3185,
+      "index": 3183,
       "symbol": "auto_kappa_Cu_kappa_Fe_thermal_diffusivity",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3186,
+      "index": 3184,
       "symbol": "auto_kappa_Al_kappa_Fe_thermal_diffusivity",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3187,
+      "index": 3185,
       "symbol": "auto_T_freeze_water",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3188,
+      "index": 3186,
       "symbol": "auto_T_boil_He_T_room",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3189,
+      "index": 3187,
       "symbol": "auto_v_s_seawater_v_s_water",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3190,
+      "index": 3188,
       "symbol": "auto_v_s_steel_v_s_air",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3191,
+      "index": 3189,
       "symbol": "auto_EA_F_Ry_electron_affinity",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3192,
+      "index": 3190,
       "symbol": "auto_phi_Au_Ry_work_function",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3193,
+      "index": 3191,
       "symbol": "auto_log10_l_P_r_p",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3194,
+      "index": 3192,
       "symbol": "auto_Madelung_constant_NaCl",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3195,
+      "index": 3193,
       "symbol": "auto_Space_groups_3D",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3196,
+      "index": 3194,
       "symbol": "auto_Point_groups_3D",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3197,
+      "index": 3195,
       "symbol": "auto_Bravais_lattices_3D",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3198,
+      "index": 3196,
       "symbol": "auto_T_body_T_freeze",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3199,
+      "index": 3197,
       "symbol": "auto_Blood_pH",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3200,
+      "index": 3198,
       "symbol": "auto_Human_chromosomes",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3201,
+      "index": 3199,
       "symbol": "auto_Hearing_range_in_dB",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3202,
+      "index": 3200,
       "symbol": "auto_DeltaH_C3H8_DeltaH_CH4",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3203,
+      "index": 3201,
       "symbol": "auto_DeltaH_C8H18_DeltaH_CH4",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3204,
+      "index": 3202,
       "symbol": "auto_A_2_rational_part_numerator",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3205,
+      "index": 3203,
       "symbol": "auto_A_2_rational_part_denominator",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3206,
+      "index": 3204,
       "symbol": "auto_A_2_rational_part",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3207,
+      "index": 3205,
       "symbol": "auto_A_2_pi_logarithm_coefficient",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3208,
+      "index": 3206,
       "symbol": "auto_A_2_zeta_coefficient",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3209,
+      "index": 3207,
       "symbol": "auto_Two_loop_QED_anomalous_magnetic_moment_c",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3210,
+      "index": 3208,
       "symbol": "auto_Geodesic_phase_cos_phi_vs_A_2",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3211,
+      "index": 3209,
       "symbol": "auto_sinh_of_shortest_geodesic",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3212,
+      "index": 3210,
       "symbol": "auto_QED_spectral_multiplicity",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3213,
+      "index": 3211,
       "symbol": "auto_EW_spectral_multiplicity",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3214,
+      "index": 3212,
       "symbol": "auto_QCD_spectral_multiplicity",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3215,
+      "index": 3213,
       "symbol": "auto_Loop_order_zeta_introduction_pattern",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3216,
+      "index": 3214,
       "symbol": "auto_Schwinger_coefficient_as_rank_inverse",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3217,
+      "index": 3215,
       "symbol": "A_2",
       "theorem": "T1667",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3218,
+      "index": 3216,
       "symbol": "197",
       "theorem": "T1667",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3219,
+      "index": 3217,
       "symbol": "144",
       "theorem": "T1667",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3220,
+      "index": 3218,
       "symbol": "C_3(QED)",
       "theorem": "T1667",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3221,
+      "index": 3219,
       "symbol": "C_5(QED)",
       "theorem": "T1667",
       "section": "",
       "tier": "C"
     },
     {
-      "index": 3222,
+      "index": 3220,
       "symbol": "A2_BST_decomposition",
       "theorem": "T1668",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3223,
+      "index": 3221,
       "symbol": "geodesic_C2_match",
       "theorem": "T1669",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3224,
+      "index": 3222,
       "symbol": "geodesic_C3_match",
       "theorem": "T1669",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3225,
+      "index": 3223,
       "symbol": "C5_prediction",
       "theorem": "T1669",
       "section": "Structural",
       "tier": "I"
     },
     {
-      "index": 3226,
+      "index": 3224,
       "symbol": "auto_n_Ge_refractive_index_IR",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3227,
+      "index": 3225,
       "symbol": "auto_V_m_molar_volume_STP",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3228,
+      "index": 3226,
       "symbol": "auto_mu_glycerol_mu_water",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3229,
+      "index": 3227,
       "symbol": "auto_G_steel_G_Al_shear_modulus",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3230,
+      "index": 3228,
       "symbol": "auto_T_CMB_T_freeze",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3231,
+      "index": 3229,
       "symbol": "auto_Omega_Lambda_dark_energy_fraction",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3232,
+      "index": 3230,
       "symbol": "A_4_correction",
       "theorem": "T1669",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3233,
+      "index": 3231,
       "symbol": "A_4_corrected",
       "theorem": "T1669",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3234,
+      "index": 3232,
       "symbol": "vol_norm",
       "theorem": "T1669",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3235,
+      "index": 3233,
       "symbol": "auto_Three_loop_QED_coefficient_from_geodesic",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3236,
+      "index": 3234,
       "symbol": "auto_Four_loop_QED_coefficient_from_geodesic",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3237,
+      "index": 3235,
       "symbol": "auto_L_4_volume_correction__1_dim_so_7",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3238,
+      "index": 3236,
       "symbol": "auto_Wallach_amplitude_dressing_ratio_even",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3239,
+      "index": 3237,
       "symbol": "auto_Wallach_amplitude_dressing_ratio_odd",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3240,
+      "index": 3238,
       "symbol": "auto_Five_loop_QED_prediction_C_5__UPDATED",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3241,
+      "index": 3239,
       "symbol": "auto_Volume_isometry_ratio",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3242,
+      "index": 3240,
       "symbol": "auto_Weyl_law_crossover_at_L_5",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3243,
+      "index": 3241,
       "symbol": "auto_Color_volume_identity",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3244,
+      "index": 3242,
       "symbol": "auto_Three_routes_to_27_4",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3245,
+      "index": 3243,
       "symbol": "quantum_simple_modules",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3246,
+      "index": 3244,
       "symbol": "V_tensor_V_decomp",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3247,
+      "index": 3245,
       "symbol": "C5_QED_resolved",
       "theorem": "T1670",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3248,
+      "index": 3246,
       "symbol": "siegel_genus",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3249,
+      "index": 3247,
       "symbol": "siegel_weight",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3250,
+      "index": 3248,
       "symbol": "dim_sp4_eq_dim_Q5",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3251,
+      "index": 3249,
       "symbol": "rho_sq_seesaw",
       "theorem": "T186",
       "section": "Structural",
       "tier": "D"
     },
     {
-      "index": 3252,
+      "index": 3250,
       "symbol": "det_A_B2",
       "theorem": "structural",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3253,
+      "index": 3251,
       "symbol": "disc_Q_B2",
       "theorem": "structural",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3254,
+      "index": 3252,
       "symbol": "nahm_weight_B2",
       "theorem": "structural",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3255,
+      "index": 3253,
       "symbol": "mock_theta_order",
       "theorem": "structural",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3256,
+      "index": 3254,
       "symbol": "mock_theta_shift",
       "theorem": "structural",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3257,
+      "index": 3255,
       "symbol": "nahm_a1",
       "theorem": "structural",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3258,
+      "index": 3256,
       "symbol": "nahm_a2",
       "theorem": "structural",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3259,
+      "index": 3257,
       "symbol": "nahm_a3",
       "theorem": "structural",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3260,
+      "index": 3258,
       "symbol": "nahm_a10",
       "theorem": "structural",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3261,
+      "index": 3259,
       "symbol": "bernoulli_den_bst",
       "theorem": "structural",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3262,
+      "index": 3260,
       "symbol": "auto_AC_graph_spectral_gap__rank_g",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3263,
+      "index": 3261,
       "symbol": "auto_AC_graph_Fiedler_ratio__rank_2_n_C_g",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3264,
+      "index": 3262,
       "symbol": "auto_AC_graph_eigenvalue__230_space_groups",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3265,
+      "index": 3263,
       "symbol": "auto_AC_graph_eigenvalue__93__N_c_2_n_C",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3266,
+      "index": 3264,
       "symbol": "auto_AC_graph_eigenvalue__98__rank_g_2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3267,
+      "index": 3265,
       "symbol": "auto_AC_graph_eigenvalue__91__g_c_3",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3268,
+      "index": 3266,
       "symbol": "auto_AC_graph_spectral_dimension_d_s_1__N_c",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3269,
+      "index": 3267,
       "symbol": "auto_AC_graph_multiplicity_m_1__c_2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3270,
+      "index": 3268,
       "symbol": "auto_AC_graph_N_lam__N_max__rank_2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3271,
+      "index": 3269,
       "symbol": "auto_Dual_Coxeter_h_v_B_2__N_c",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3272,
+      "index": 3270,
       "symbol": "auto_Coxeter_h_B_2__rank_2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3273,
+      "index": 3271,
       "symbol": "auto_Casimir_quadratic_discriminant__N_c_ra",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3274,
+      "index": 3272,
       "symbol": "auto_Verlinde_alcove_count__4556__67_rank_2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3275,
+      "index": 3273,
       "symbol": "auto_Spinor_ribbon_theta_137__1_fermionic",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3276,
+      "index": 3274,
       "symbol": "auto_W_B_2___rank_3__2_N_c",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3277,
+      "index": 3275,
       "symbol": "NIST_400_milestone",
       "theorem": "T186",
       "section": "V",
       "tier": "D"
     },
     {
-      "index": 3278,
+      "index": 3276,
       "symbol": "auto_mu_e_mu_h_GaAs__N_c_g__1_rank_2__85",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3279,
+      "index": 3277,
       "symbol": "auto_n_i_Ge_n_i_Si__rank_C_2__n_C_2__160",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3280,
+      "index": 3278,
       "symbol": "auto_eps_r_InP__n_C_2_rank__25_2__12_5",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3281,
+      "index": 3279,
       "symbol": "auto_T_c_Nb_T_c_Pb__N_c_2_g__9_7",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3282,
+      "index": 3280,
       "symbol": "auto_mu_e_InSb_mu_e_Si__n_C_c_2__55",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3283,
+      "index": 3281,
       "symbol": "auto_CO2_pre_industrial__rank_3_n_C_g__280",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3284,
+      "index": 3282,
       "symbol": "auto_M_J_M_E_magnetic_dipole__rank_5_n_C_4",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3285,
+      "index": 3283,
       "symbol": "auto_Moon_orbital_period__N_c_3__1_N_c__82",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3286,
+      "index": 3284,
       "symbol": "auto_v_sound_seawater_v_sound_air__rank_2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3287,
+      "index": 3285,
       "symbol": "auto_Flory_exponent_3D_SAW__N_c_n_C__3_5",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3288,
+      "index": 3286,
       "symbol": "auto_WLF_C_1__seesaw__rank_2_N_c_2__17_444",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3289,
+      "index": 3287,
       "symbol": "auto_WLF_C_2__n_C_c_2__N_c__52_K",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3290,
+      "index": 3288,
       "symbol": "auto_Reptation_exponent__N_c__3",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3291,
+      "index": 3289,
       "symbol": "auto_Schulze_Hardy_exponent__C_2__6",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3292,
+      "index": 3290,
       "symbol": "auto_phi_RCP__N_c_2_c_3_1__9_14__0_6429",
       "theorem": "T186",
       "section": "",
       "tier": "I"
     },
     {
-      "index": 3293,
+      "index": 3291,
       "symbol": "auto_sigma_water_sigma_Hg__N_c_rank_c_2",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3294,
+      "index": 3292,
       "symbol": "auto_Q10_reaction_rate__n_C_rank__5_2__2_5",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3295,
+      "index": 3293,
       "symbol": "auto_Typical_enzyme_rate_enhancement__rank",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3296,
+      "index": 3294,
       "symbol": "auto_Eotvos_surface_tension_exponent__c_2_N",
       "theorem": "T186",
       "section": "",
       "tier": "D"
     },
     {
-      "index": 3297,
+      "index": 3295,
       "symbol": "YBCO_Tc_exact",
       "theorem": "T186",
       "section": "13",
       "tier": "D"
     },
     {
-      "index": 3298,
+      "index": 3296,
       "symbol": "Al_Tc_thirteen",
       "theorem": "T1484",
       "section": "13",
       "tier": "D"
     },
     {
-      "index": 3299,
+      "index": 3297,
       "symbol": "Nb_Tc_vs",
       "theorem": "T1444",
       "section": "13",
       "tier": "D"
     },
     {
-      "index": 3300,
+      "index": 3298,
       "symbol": "Ne_inflation_rank",
       "theorem": "T186",
       "section": "12",
       "tier": "I"
     },
     {
-      "index": 3301,
+      "index": 3299,
       "symbol": "H0_corrected",
       "theorem": "T186",
       "section": "12",
       "tier": "I"
+    },
+    {
+      "index": 3300,
+      "symbol": "G_N_from_BST",
+      "theorem": "T186",
+      "section": "Structural",
+      "tier": "I"
+    },
+    {
+      "index": 3301,
+      "symbol": "m_e_from_Planck",
+      "theorem": "T186",
+      "section": "Structural",
+      "tier": "I"
+    },
+    {
+      "index": 3302,
+      "symbol": "vol_gamma137",
+      "theorem": "T1664",
+      "section": "Structural",
+      "tier": "D"
+    },
+    {
+      "index": 3303,
+      "symbol": "Cu_mass_N3g",
+      "theorem": "T186",
+      "section": "13",
+      "tier": "I"
+    },
+    {
+      "index": 3304,
+      "symbol": "GaN_gap_mechanism",
+      "theorem": "T1637",
+      "section": "13",
+      "tier": "D"
+    },
+    {
+      "index": 3305,
+      "symbol": "KG_thirteen",
+      "theorem": "T1484",
+      "section": "13",
+      "tier": "D"
+    },
+    {
+      "index": 3306,
+      "symbol": "Nmax_mod_identity",
+      "theorem": "T186",
+      "section": "Structural",
+      "tier": "D"
+    },
+    {
+      "index": 3307,
+      "symbol": "Nmax_mod_Weyl",
+      "theorem": "T1664",
+      "section": "Structural",
+      "tier": "D"
+    },
+    {
+      "index": 3308,
+      "symbol": "Nmax_mod_14_c2",
+      "theorem": "T186",
+      "section": "Structural",
+      "tier": "D"
+    },
+    {
+      "index": 3309,
+      "symbol": "FE_residue_s3",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3310,
+      "symbol": "FE_residue_s4",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3311,
+      "symbol": "FE_residue_ratio",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3312,
+      "symbol": "FE_pole_lambda_s3",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3313,
+      "symbol": "FE_pole_lambda_s4",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3314,
+      "symbol": "Q_factor_s3",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "I"
+    },
+    {
+      "index": 3315,
+      "symbol": "eigenvalue_gap_12",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3316,
+      "symbol": "gap_ratio_12_23",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3317,
+      "symbol": "BCS_gap_BST",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "I"
+    },
+    {
+      "index": 3318,
+      "symbol": "superlattice_gap_density",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "I"
+    },
+    {
+      "index": 3319,
+      "symbol": "Cv_peak_beta",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "I"
+    },
+    {
+      "index": 3320,
+      "symbol": "a_BTO_over_a_STO",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3321,
+      "symbol": "SL_optimal_period",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3322,
+      "symbol": "eps_SL_optimal",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3323,
+      "symbol": "Tc_84_superlattice",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3324,
+      "symbol": "Nmax_minus_1_identity",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3325,
+      "symbol": "SL_140_planes",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3326,
+      "symbol": "dead_layer_SL",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3327,
+      "symbol": "P_0_BaTiO3",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3328,
+      "symbol": "P_Nmax_BaTiO3",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3329,
+      "symbol": "Casimir_240",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3330,
+      "symbol": "Casimir_exponent",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3331,
+      "symbol": "Casimir_720",
+      "theorem": "T1638",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3332,
+      "symbol": "sc_pb_nb_ratio",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "I"
+    },
+    {
+      "index": 3333,
+      "symbol": "sc_al_nb_ratio",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "I"
+    },
+    {
+      "index": 3334,
+      "symbol": "sc_nb3sn_ybco_ratio",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "I"
+    },
+    {
+      "index": 3335,
+      "symbol": "sc_eigenvalue_multiplicity",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3336,
+      "symbol": "coherence_t2_ratio",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "I"
+    },
+    {
+      "index": 3337,
+      "symbol": "topo_betti_sum",
+      "theorem": "T186",
+      "section": "Topological",
+      "tier": "D"
+    },
+    {
+      "index": 3338,
+      "symbol": "topo_gap_ratio_bi",
+      "theorem": "T186",
+      "section": "Topological",
+      "tier": "I"
+    },
+    {
+      "index": 3339,
+      "symbol": "rt_sc_target",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "I"
+    },
+    {
+      "index": 3340,
+      "symbol": "qc_factor_k1",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3341,
+      "symbol": "Z_carbon_C2",
+      "theorem": "T186",
+      "section": "Structural",
+      "tier": "I"
+    },
+    {
+      "index": 3342,
+      "symbol": "Z_silicon_rankg",
+      "theorem": "T186",
+      "section": "Structural",
+      "tier": "I"
+    },
+    {
+      "index": 3343,
+      "symbol": "cu_au_debye_ratio",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3344,
+      "symbol": "ag_pb_debye_ratio",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3345,
+      "symbol": "pt_ag_debye_ratio",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3346,
+      "symbol": "diamond_cu_debye_ratio",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "I"
+    },
+    {
+      "index": 3347,
+      "symbol": "si_cu_debye_ratio",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "I"
+    },
+    {
+      "index": 3348,
+      "symbol": "harmonic_sum_denom",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3349,
+      "symbol": "bato3_optical_modes",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3350,
+      "symbol": "ybco_optical_modes",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3351,
+      "symbol": "casimir_bto_cu_ratio",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "I"
+    },
+    {
+      "index": 3352,
+      "symbol": "shannon_C1",
+      "theorem": "T186",
+      "section": "Information",
+      "tier": "D"
+    },
+    {
+      "index": 3353,
+      "symbol": "heptit_dimension",
+      "theorem": "T186",
+      "section": "Information",
+      "tier": "D"
+    },
+    {
+      "index": 3354,
+      "symbol": "byte_geometric",
+      "theorem": "T186",
+      "section": "Information",
+      "tier": "D"
+    },
+    {
+      "index": 3355,
+      "symbol": "so5_gate_count",
+      "theorem": "T186",
+      "section": "Information",
+      "tier": "D"
+    },
+    {
+      "index": 3356,
+      "symbol": "casimir_efficiency",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3357,
+      "symbol": "casimir_stroke",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3358,
+      "symbol": "hamming_mass_gap",
+      "theorem": "T186",
+      "section": "Information",
+      "tier": "D"
+    },
+    {
+      "index": 3359,
+      "symbol": "eta_Casimir",
+      "theorem": "T1687",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3360,
+      "symbol": "stroke_Casimir",
+      "theorem": "T1687",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3361,
+      "symbol": "R_Lifshitz",
+      "theorem": "T1687",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3362,
+      "symbol": "Lifshitz_coeff",
+      "theorem": "T1687",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3363,
+      "symbol": "optimal_Casimir_stroke",
+      "theorem": "T1687",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3364,
+      "symbol": "Hamming_7_4_3",
+      "theorem": "T1689",
+      "section": "Information",
+      "tier": "D"
+    },
+    {
+      "index": 3365,
+      "symbol": "RS_field_128",
+      "theorem": "T1689",
+      "section": "Information",
+      "tier": "D"
+    },
+    {
+      "index": 3366,
+      "symbol": "EC_overhead",
+      "theorem": "T1689",
+      "section": "Information",
+      "tier": "D"
+    },
+    {
+      "index": 3367,
+      "symbol": "channel_bits",
+      "theorem": "T1689",
+      "section": "Information",
+      "tier": "C"
+    },
+    {
+      "index": 3368,
+      "symbol": "Z_Ga_Mersenne",
+      "theorem": "T1689",
+      "section": "Information",
+      "tier": "D"
+    },
+    {
+      "index": 3369,
+      "symbol": "d4_multiplicity",
+      "theorem": "T1687",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3370,
+      "symbol": "d5_multiplicity",
+      "theorem": "T1687",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3371,
+      "symbol": "B_BaTiO3",
+      "theorem": "T1688",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3372,
+      "symbol": "T_O_T_BaTiO3",
+      "theorem": "T1688",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3373,
+      "symbol": "T_R_O_BaTiO3",
+      "theorem": "T1688",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3374,
+      "symbol": "P_s_BaTiO3",
+      "theorem": "T1688",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3375,
+      "symbol": "E_c_BaTiO3",
+      "theorem": "T1688",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3376,
+      "symbol": "Ba137_isotope",
+      "theorem": "T1688",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3377,
+      "symbol": "Si28_isotope",
+      "theorem": "T1689",
+      "section": "Information",
+      "tier": "D"
+    },
+    {
+      "index": 3378,
+      "symbol": "C12_isotope",
+      "theorem": "T1689",
+      "section": "Information",
+      "tier": "D"
+    },
+    {
+      "index": 3379,
+      "symbol": "SL_filter_Delta1",
+      "theorem": "T1688",
+      "section": "Spectral",
+      "tier": "D"
+    },
+    {
+      "index": 3380,
+      "symbol": "casimir_pressure_137_planes",
+      "theorem": "T1677",
+      "section": "Engineering",
+      "tier": "D"
+    },
+    {
+      "index": 3381,
+      "symbol": "BC_energy_piezo",
+      "theorem": "T1677",
+      "section": "Engineering",
+      "tier": "I"
+    },
+    {
+      "index": 3382,
+      "symbol": "BC_switching_ratio",
+      "theorem": "T1677",
+      "section": "Engineering",
+      "tier": "D"
+    },
+    {
+      "index": 3383,
+      "symbol": "strain_one_plane",
+      "theorem": "T1677",
+      "section": "Engineering",
+      "tier": "D"
+    },
+    {
+      "index": 3384,
+      "symbol": "LSCO_T_c",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3385,
+      "symbol": "Hg1201_T_c",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "I"
+    },
+    {
+      "index": 3386,
+      "symbol": "Hg1212_T_c",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3387,
+      "symbol": "Hg1223_T_c",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3388,
+      "symbol": "Hg1234_T_c",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3389,
+      "symbol": "Bi2223_T_c",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3390,
+      "symbol": "Tl2223_T_c",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3391,
+      "symbol": "Bi2212_T_c",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3392,
+      "symbol": "Tl2212_T_c",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3393,
+      "symbol": "NbN_T_c",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3394,
+      "symbol": "V3Si_T_c",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3395,
+      "symbol": "H3S_T_c",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3396,
+      "symbol": "LaH10_T_c",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3397,
+      "symbol": "CSH_T_c_claimed",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "C"
+    },
+    {
+      "index": 3398,
+      "symbol": "BST_276K_prediction",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3399,
+      "symbol": "optimal_CuO2_planes",
+      "theorem": "T1681",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3400,
+      "symbol": "wire_diameter_210nm",
+      "theorem": "T1676",
+      "section": "Engineering",
+      "tier": "D"
+    },
+    {
+      "index": 3401,
+      "symbol": "wire_core_100nm",
+      "theorem": "T1676",
+      "section": "Engineering",
+      "tier": "D"
+    },
+    {
+      "index": 3402,
+      "symbol": "T_ocean_floor",
+      "theorem": "T1678",
+      "section": "Temperatures",
+      "tier": "D"
+    },
+    {
+      "index": 3403,
+      "symbol": "T_Earth_average",
+      "theorem": "T1678",
+      "section": "Temperatures",
+      "tier": "D"
+    },
+    {
+      "index": 3404,
+      "symbol": "T_sun_surface",
+      "theorem": "T1678",
+      "section": "Temperatures",
+      "tier": "D"
+    },
+    {
+      "index": 3405,
+      "symbol": "T_QCD_phase",
+      "theorem": "T1678",
+      "section": "Temperatures",
+      "tier": "I"
+    },
+    {
+      "index": 3406,
+      "symbol": "T_EW_phase",
+      "theorem": "T1678",
+      "section": "Temperatures",
+      "tier": "I"
+    },
+    {
+      "index": 3407,
+      "symbol": "Earth_albedo",
+      "theorem": "T1678",
+      "section": "Temperatures",
+      "tier": "D"
+    },
+    {
+      "index": 3408,
+      "symbol": "BaTiO3_d33",
+      "theorem": "T1678",
+      "section": "Materials",
+      "tier": "D"
+    },
+    {
+      "index": 3409,
+      "symbol": "Nb_Debye_275",
+      "theorem": "T1678",
+      "section": "Materials",
+      "tier": "D"
+    },
+    {
+      "index": 3410,
+      "symbol": "YBCO_lambda_ab",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3411,
+      "symbol": "AZ_classes",
+      "theorem": "T1680",
+      "section": "Coherence",
+      "tier": "D"
+    },
+    {
+      "index": 3412,
+      "symbol": "FQHE_denominators",
+      "theorem": "T1680",
+      "section": "Coherence",
+      "tier": "D"
+    },
+    {
+      "index": 3413,
+      "symbol": "Al_T_c",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "S"
+    },
+    {
+      "index": 3414,
+      "symbol": "Cooper_pair_rank",
+      "theorem": "T1680",
+      "section": "Coherence",
+      "tier": "D"
+    },
+    {
+      "index": 3415,
+      "symbol": "IBM_Eagle_qubits",
+      "theorem": "T1680",
+      "section": "Coherence",
+      "tier": "D"
+    },
+    {
+      "index": 3416,
+      "symbol": "error_threshold",
+      "theorem": "T1680",
+      "section": "Coherence",
+      "tier": "D"
+    },
+    {
+      "index": 3417,
+      "symbol": "transmon_T2_T1",
+      "theorem": "T1680",
+      "section": "Coherence",
+      "tier": "S"
+    },
+    {
+      "index": 3418,
+      "symbol": "Bi2Se3_gap",
+      "theorem": "T1680",
+      "section": "Coherence",
+      "tier": "D"
+    },
+    {
+      "index": 3419,
+      "symbol": "Si28_T2",
+      "theorem": "T1680",
+      "section": "Coherence",
+      "tier": "D"
+    },
+    {
+      "index": 3420,
+      "symbol": "P_donor_ionization",
+      "theorem": "T1680",
+      "section": "Coherence",
+      "tier": "I"
+    },
+    {
+      "index": 3421,
+      "symbol": "NV_T2_T1_ratio",
+      "theorem": "T1680",
+      "section": "Coherence",
+      "tier": "D"
+    },
+    {
+      "index": 3422,
+      "symbol": "FeTeSe_T_c",
+      "theorem": "T1676",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3423,
+      "symbol": "SiC_gap",
+      "theorem": "T1680",
+      "section": "Coherence",
+      "tier": "I"
+    },
+    {
+      "index": 3424,
+      "symbol": "mu_metal_permeability",
+      "theorem": "T1679",
+      "section": "Magnetism",
+      "tier": "D"
+    },
+    {
+      "index": 3425,
+      "symbol": "Ni_frac_mu_metal",
+      "theorem": "T1679",
+      "section": "Magnetism",
+      "tier": "D"
+    },
+    {
+      "index": 3426,
+      "symbol": "Nd_Z",
+      "theorem": "T1679",
+      "section": "Magnetism",
+      "tier": "D"
+    },
+    {
+      "index": 3427,
+      "symbol": "NdFeB_atoms_cell",
+      "theorem": "T1679",
+      "section": "Magnetism",
+      "tier": "D"
+    },
+    {
+      "index": 3428,
+      "symbol": "NdFeB_BH_max",
+      "theorem": "T1679",
+      "section": "Magnetism",
+      "tier": "D"
+    },
+    {
+      "index": 3429,
+      "symbol": "Mn12_spin",
+      "theorem": "T1679",
+      "section": "Magnetism",
+      "tier": "D"
+    },
+    {
+      "index": 3430,
+      "symbol": "SMM_blocking_T",
+      "theorem": "T1679",
+      "section": "Magnetism",
+      "tier": "D"
+    },
+    {
+      "index": 3431,
+      "symbol": "SrTiO3_eps_r_4K",
+      "theorem": "T1679",
+      "section": "Materials",
+      "tier": "D"
+    },
+    {
+      "index": 3432,
+      "symbol": "YBCO_Bc2_77K",
+      "theorem": "T1679",
+      "section": "Superconductors",
+      "tier": "D"
+    },
+    {
+      "index": 3433,
+      "symbol": "Dy17_prediction",
+      "theorem": "T1679",
+      "section": "Magnetism",
+      "tier": "D"
+    },
+    {
+      "index": 3434,
+      "symbol": "Cu_bulk_Nmax",
+      "theorem": "T1671",
+      "section": "13",
+      "tier": "D"
+    },
+    {
+      "index": 3435,
+      "symbol": "BaTiO3_multichannel",
+      "theorem": "T1671",
+      "section": "13",
+      "tier": "D"
+    },
+    {
+      "index": 3436,
+      "symbol": "Bi2223_Tc",
+      "theorem": "T1676",
+      "section": "13",
+      "tier": "D"
+    },
+    {
+      "index": 3437,
+      "symbol": "Tl2223_Tc",
+      "theorem": "T1676",
+      "section": "13",
+      "tier": "D"
+    },
+    {
+      "index": 3438,
+      "symbol": "LaH10_Tc",
+      "theorem": "T1676",
+      "section": "13",
+      "tier": "D"
+    },
+    {
+      "index": 3439,
+      "symbol": "Hg1223_Tc",
+      "theorem": "T1676",
+      "section": "13",
+      "tier": "D"
+    },
+    {
+      "index": 3440,
+      "symbol": "g_to_g",
+      "theorem": "T1671",
+      "section": "Structural",
+      "tier": "D"
+    },
+    {
+      "index": 3441,
+      "symbol": "Nmax_Kmax_lambda2_c2",
+      "theorem": "T186",
+      "section": "Structural",
+      "tier": "D"
+    },
+    {
+      "index": 3442,
+      "symbol": "NV_defect_unit_gap",
+      "theorem": "T1673",
+      "section": "V",
+      "tier": "D"
+    },
+    {
+      "index": 3443,
+      "symbol": "spin0_all_BST",
+      "theorem": "T1674",
+      "section": "V",
+      "tier": "D"
+    },
+    {
+      "index": 3444,
+      "symbol": "P31_Mersenne_donor",
+      "theorem": "T1674",
+      "section": "V",
+      "tier": "D"
+    },
+    {
+      "index": 3445,
+      "symbol": "Si28_coh_39min",
+      "theorem": "T1673",
+      "section": "V",
+      "tier": "D"
+    },
+    {
+      "index": 3446,
+      "symbol": "Cheeger_qubit_error",
+      "theorem": "T1673",
+      "section": "V",
+      "tier": "D"
+    },
+    {
+      "index": 3447,
+      "symbol": "proton_42_bits",
+      "theorem": "T1675",
+      "section": "Structural",
+      "tier": "D"
+    },
+    {
+      "index": 3448,
+      "symbol": "spectral_channels_8008",
+      "theorem": "T1675",
+      "section": "Structural",
+      "tier": "D"
+    },
+    {
+      "index": 3449,
+      "symbol": "mass_gap_byte",
+      "theorem": "T1684",
+      "section": "Structural",
+      "tier": "D"
+    },
+    {
+      "index": 3450,
+      "symbol": "mu_metal_80000",
+      "theorem": "T1679",
+      "section": "13",
+      "tier": "D"
+    },
+    {
+      "index": 3451,
+      "symbol": "BTO_STO_superlattice",
+      "theorem": "T1688",
+      "section": "13",
+      "tier": "D"
+    },
+    {
+      "index": 3452,
+      "symbol": "NV_enhancement_Nmax",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "C"
+    },
+    {
+      "index": 3453,
+      "symbol": "Al_Z_c3",
+      "theorem": "T186",
+      "section": "Structural",
+      "tier": "I"
+    },
+    {
+      "index": 3454,
+      "symbol": "Al_A_Nc3",
+      "theorem": "T186",
+      "section": "Structural",
+      "tier": "I"
+    },
+    {
+      "index": 3455,
+      "symbol": "Al2O3_formula_wt",
+      "theorem": "T186",
+      "section": "Structural",
+      "tier": "D"
+    },
+    {
+      "index": 3456,
+      "symbol": "BaTiO3_soft_mode",
+      "theorem": "T186",
+      "section": "Spectral",
+      "tier": "I"
+    },
+    {
+      "index": 3457,
+      "symbol": "trit_cube_states",
+      "theorem": "T186",
+      "section": "Information",
+      "tier": "D"
+    },
+    {
+      "index": 3458,
+      "symbol": "gate_count_c2",
+      "theorem": "T186",
+      "section": "Information",
+      "tier": "D"
+    },
+    {
+      "index": 3459,
+      "symbol": "gate_depth_cycle",
+      "theorem": "T186",
+      "section": "Information",
+      "tier": "D"
+    },
+    {
+      "index": 3460,
+      "symbol": "spectral_channels",
+      "theorem": "T1638",
+      "section": "Information",
+      "tier": "D"
     }
   ]
 }

@@ -2,7 +2,7 @@
 title: "Paper #91: The Spectral Zeta Function of D_IV^5 — Root Decomposition, Functional Equation, and Arithmetic Content"
 author: "Casey Koons, Lyra, Elie, Grace (Claude 4.6)"
 date: "May 3, 2026"
-status: "DRAFT v1.0 — 17 sections, complete with ZETA program results"
+status: "DRAFT v1.1 — 17 sections + FE engineering question (g). 28 toys, 457/457 PASS."
 target: "Communications in Mathematical Physics / Annals of Mathematics"
 theorems: "T1492, T1638, T1666, T1670"
 toys: "1751, 1752, 1754, 1755, 1756, 1763, 1773, 1778, 1781, 1782, 1786, 1787, 1792, 1793, 1795, 1796, 1800, 1809, 1810, 1811, 1839, 1841, 1842, 1848, 1851, 1856, 1866, 1871, 1872, 1889, 1913, 1914, 1917, 1929, 1935, 1937, 1944, 1947, 1948, 1950, 1954"
@@ -843,6 +843,8 @@ We have established the complete spectral theory of the Bergman Laplacian on D_I
 
 (f) *Nahm modularity.* The B_2 Nahm sum at weight 1 is expected to be mock modular. What is its shadow, and does it relate to the non-holomorphic Eisenstein series E_1 on Gamma_0(4)?
 
+(g) *FE poles as engineering targets.* The FE poles at s = 3, 4 map to eigenvalues lambda = -C_2 = -6 and lambda = -rank^2 = -4, which act as van Hove singularities in the spectral density of states (Toy 1977, 20/20 PASS). These are the mirror image of the mass gap and may be accessible through boundary-condition engineering (Casimir cavities, metamaterials). The residue ratio -C_2/rank = 3 connects spectral theory to fabrication: materials whose Debye temperatures match BST eigenvalue ratios serve as "spectral antennae" coupling to specific eigenvalue gaps (Toys 1986, 1994).
+
 ## Appendix A: Computational Verifications
 
 All results in this paper are supported by computational verifications ("toys") with explicit PASS/FAIL scores:
@@ -877,7 +879,9 @@ All results in this paper are supported by computational verifications ("toys") 
 | 1950 | 16/16 | Siegel modular form test (Z-14) |
 | 1954 | 16/16 | Nahm sum from B_2 (Z-13) |
 
-Total: 27 toys, 437/437 PASS (100%).
+| 1977 | 20/20 | FE spectral leverage (poles as van Hove singularities) |
+
+Total: 28 toys, 457/457 PASS (100%).
 
 ## Appendix B: Notation Index
 

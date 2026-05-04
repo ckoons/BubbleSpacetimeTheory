@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**1,974 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**2,026 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 1,974 |
-| Numbered toys (toy_NNN_*.py) | ~1,765 |
+| Toy scripts (toy_*.py) | 2,026 |
+| Numbered toys (toy_NNN_*.py) | ~1,817 |
 | Named toys (toy_name.py) | ~209 |
 | Utility scripts (non-toy .py) | 58 |
 | HTML visualizers | 6 |
-| Theorems (T1-T1670) | 1,670 |
-| Next toy number | 1966 |
+| Theorems (T1-T1692+) | 1,692+ |
+| Next toy number | 2025 |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -30,7 +30,7 @@ Five integers. Zero free parameters. "Give a child a ball and teach them to coun
 
 ```
 play/
-  toy_NNN_name.py          # Numbered toys (~1,765 files, T100-T1965)
+  toy_NNN_name.py          # Numbered toys (~1,817 files, T100-T2024)
   toy_name.py              # Named toys (209 files, foundational + topical)
   *.py                     # Utility scripts (58 files: graph tools, extractors, verifiers)
   bst_appliance/           # BST Appliance package — the "Ball and Counting Tool"
