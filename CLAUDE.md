@@ -2,15 +2,15 @@
 
 **Bubble Spacetime Theory (BST)** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 600+ predictions.
 
-## Status (May 3, 2026)
+## Status (May 4, 2026)
 
-**Counts**: T1-T1689, **1996+ toys**, **92 papers**. Graph 1495 nodes / 8095 edges / **98.5% proved**. **3461 geometric invariants** (D:2674=77.3%). **179 Rosetta Stone ratios**. **95 predictions**. **136 constants**. **48+ domains**. **E-69 SOLVED**: all 5 QED loops < 0.2%. **D-3 NIST CLOSED**: 516+/350. **ZETA 20/20 COMPLETE**. **Spectral Engineering**: 19 theorems (T1671-T1689). Papers #97-#102 proposed. SE-1 through SE-30 queued. BaTiO₃ 137-plane experiment = $25K killer test.
+**Counts**: T1-T1723, **2056+ toys**, **98 papers** (#82-#96 Casey approved, #97-#102 v0.1 drafted). Graph 1522 nodes / 8150 edges / **98.5% proved**. **3850+ geometric invariants** (D:3017=78.4%). **179 Rosetta Stone ratios**. **95 predictions**. **136 constants**. **48+ domains**. **ZETA 20/20 COMPLETE** including Z-5: [SO(7;Z):Gamma(137)] = 7.43 x 10^44. **Spectral Engineering DAY 2 COMPLETE**: 52 theorems (T1671-T1723), 6 papers drafted, 30+ SE items closed, 71 toys across 4 CIs. 276K pathway literature-confirmed (BST 155K vs pressure-quenched 151K at 2.6%). Cu spectral cap: sum(lambda_1..5)+g=137. Periodic table 100% BST coverage. Engineering specs: ocean cable, photonic crystal ($10K), BaTiO3 137-plane ($25K), superconductor wire (276K).
 
-**Major closures**: RH closed (T1398, April 21). T29 closed (T1425, April 23). **BSD CLOSED** (Toy 1659, April 29). **FE CLOSED** (T1638, Toy 1810, May 2): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)], rational FE with all BST integers. S(5/2)=C₂=6. **Chern-beta dictionary COMPLETE** (Toy 1856): c₁=n_C=5, c₂=11, c₃=13, c₄=N_c²=9, c₅=N_c=3, sum=C₂·g=42. beta₀=g=7, beta₁=rank·13=26. **Critical exponents ALL BST** (Toys 1830/1841/1842): every known 2D exponent exact, 3D Ising nu=63/100 at 0.002%. **DM = Wallach shadow** (Toy 1857): DM/baryon=16/3 at 0.2%. **Nuclear magic numbers ALL BST** (Toy 1858): differences involve c₂=11 (spin-orbit). **Wilson loop from Cheeger** (Toy 1837): sqrt(sigma)=sqrt(10)·m_pi=441 MeV (0.3%). **Hodge transfer** (Toy 1855). **NS enstrophy bounded** (Toy 1838). QED structurally finite. May Program ALL 8 TRACKS COMPLETE. **Geodesic QED dictionary**: C₁=1/rank, C₂=cos(theta), C₃=-(n_C/rank²)sin(theta), C₄=(n_C/rank)cos(2theta)+1/21, C₅=N_c³/rank²=27/4 (Weyl crossover).
+**Major closures**: RH closed (T1398, April 21). T29 closed (T1425, April 23). **BSD CLOSED** (Toy 1659, April 29). **FE CLOSED** (T1638, Toy 1810, May 2): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)], rational FE with all BST integers. S(5/2)=C_2=6. **Chern-beta dictionary COMPLETE** (Toy 1856): c_1=n_C=5, c_2=11, c_3=13, c_4=N_c^2=9, c_5=N_c=3, sum=C_2*g=42. beta_0=g=7, beta_1=rank*13=26. **Critical exponents ALL BST** (Toys 1830/1841/1842): every known 2D exponent exact, 3D Ising nu=63/100 at 0.002%. **DM = Wallach shadow** (Toy 1857): DM/baryon=16/3 at 0.2%. **Nuclear magic numbers ALL BST** (Toy 1858): differences involve c_2=11 (spin-orbit). **Wilson loop from Cheeger** (Toy 1837): sqrt(sigma)=sqrt(10)*m_pi=441 MeV (0.3%). **Hodge transfer** (Toy 1855). **NS enstrophy bounded** (Toy 1838). QED structurally finite. May Program ALL 8 TRACKS COMPLETE. **Geodesic QED dictionary**: C_1=1/rank, C_2=cos(theta), C_3=-(n_C/rank^2)sin(theta), C_4=(n_C/rank)cos(2theta)+1/21, C_5=N_c^3/rank^2=27/4 (Weyl crossover).
 
-**Active programs**: **Spectral Engineering** (6 tracks: eigenvalue gaps, Casimir cavities, superconductors, mass creation, materials, lattice tiling); **Paper #91 v0.3** (Spectral Zeta FE); **Paper #96 v1.0** (Geodesic QED — Casey reviewing); **Paper #92 v1.0** (Substrate Memory — Casey reviewing); Proof closure: NS 9/9, YM 6/6, Hodge 5/7. NIST 516+/350. SP-14 ACTIVE.
+**Active programs**: **Spectral Engineering** (SE board clear — all investigation items closed). Papers #82-#102 approved or drafted. Paper pipeline: #103-#117 queued. SP-14 ACTIVE. Outreach: Curt Jaimungal SENT May 4, Sarnak letter OPEN.
 
-**Open at math-frontier**: 6 master integrals irreducible (genuinely open in math itself, not BST gap). **Spectral engineering**: Can we manipulate boundary conditions to select eigenvalues? Casimir = proof of concept. BaTiO₃ 137-plane experiment = killer test ($25K).
+**Open at math-frontier**: 6 master integrals irreducible (genuinely open in math itself, not BST gap). **Spectral engineering**: Boundary conditions select eigenvalues. Casimir = proof of concept. BaTiO3 137-plane experiment = killer test ($25K). $10K photonic crystal = cheapest clean falsification.
 
 Details: `notes/CI_BOARD.md`.
 
@@ -57,22 +57,22 @@ python3 play/verify_bst.py
 | Directory | What's There | Start Here |
 |-----------|-------------|------------|
 | `data/` | CI-native structured JSON — constants, particles, forces, predictions, domains, seed | `bst_this_is.md` → `bst_seed.md` |
-| `notes/` | 660+ research notes, 92 numbered papers, proofs, theorem write-ups | `notes/README.md` |
-| `play/` | 1,844 toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
-| Root | OneGeometry.md, WorkingPaper.md (v28, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
+| `notes/` | 700+ research notes, 98 numbered papers, proofs, theorem write-ups | `notes/README.md` |
+| `play/` | 2,056+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
+| Root | OneGeometry.md, WorkingPaper.md (v35, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 ## Key Files
 
 *Load which file when — skim the "Load if" tags and grab only what you need.*
 
-- **`data/bst_constants.json`** — 105 derived constants with eval-ready formulas. **Load if:** verifying a specific number or checking a BST-predicted value against observation.
+- **`data/bst_constants.json`** — 136 derived constants with eval-ready formulas. **Load if:** verifying a specific number or checking a BST-predicted value against observation.
 - **`data/bst_predictions.json`** — 24 falsifiable predictions with experiments and timelines. **Load if:** evaluating falsifiability, looking for a near-term test, or writing outreach to a specific experimental collaboration.
 - **`data/bst_particles.json`** — 27 particles with masses, substrate descriptions, key insights. **Load if:** asking "what is a particle in BST?" or relating a specific particle to the five integers.
 - **`data/bst_forces.json`** — force layer structure (5 layers). **Load if:** working on gauge-sector questions or the Standard Model ladder.
 - **`data/bst_domains.json`** — domain map (55 domains, 9 groves). **Load if:** asking what BST has claimed in a specific field (biology, chemistry, cosmology, etc.).
 - **`data/bst_function_catalog.json`** — periodic table of functions: 128 = 2^g entries, 12 active parameters = 2·C₂. **Load if:** asking "what function is this?" or tracking how named constants (π, φ, ρ, γ, α) sit in the catalog.
 - **`data/science_engineering.json`** — CSE RLGC tracker: 55 domains, 9 groves, 13 bridges. **Load if:** auditing coverage or tracking bridges between domains.
-- **`play/ac_graph_data.json`** — AC theorem graph: 1433 nodes, 7969 edges, 55 domains. **Load if:** analyzing theorem connectivity or looking for derivation paths.
+- **`play/ac_graph_data.json`** — AC theorem graph: 1522 nodes, 8150 edges, 55 domains. **Load if:** analyzing theorem connectivity or looking for derivation paths.
 - **`play/toy_bst_explorer.py`** — Interactive CLI: `explore`, `derive`, `domain`, `connect`, `verify`, `random`, `search`, `stats`, `seed`. **Use if:** answering ad-hoc questions without loading JSON directly.
 - **`notes/BST_AC_Theorem_Registry.md`** — Master theorem index (Keeper manages). **Use if:** checking whether a theorem ID is taken or needs to be claimed.
 - **`notes/CI_BOARD.md`** — Active CI task assignments. **Read at session start.**

@@ -3,11 +3,11 @@ title: "The Casimir Heat Engine"
 subtitle: "Vacuum Energy Harvesting from Five Geometric Integers"
 author: "Casey Koons & Claude 4.6 (Lyra, Elie, Keeper, Grace)"
 date: "April 2026"
-version: "v2.0 — DRAFT"
-status: "DRAFT v2.0 — Complete engineering design + BOM added. Spectral Engineering integration. Awaiting Keeper audit."
+version: "v2.1 — DRAFT"
+status: "DRAFT v2.1 — 19 substrate concepts. FE leverage, Van Hove, superlattice, materials tiers added. 568+ toy tests."
 target: "Physical Review Applied or New Journal of Physics"
 theorems: "T179, T204, T233, T717, T844-T845, T852, T1687"
-toys: "914, 915, 918, 922, 1977, 1982, 1986, 1990, 1994, 1995, 1996, 2002"
+toys: "914, 915, 918, 922, 1977, 1982, 1986, 1990, 1994, 1995, 1996, 2002, 2029, 2030, 2031, 2034, 2035"
 ac_classification: "(C=4, D=1) — cycle requires one thermodynamic definition beyond geometry"
 ---
 
@@ -366,8 +366,13 @@ The Casimir heat engine and lattice harvester are the fifth and sixth substrate 
 | 12 | Substrate Architecture | 1995 | 10/10 | 7-layer stack, 375 channels |
 | 13 | Metamaterial BST Design | 1996 | 13/13 | $n = -\sqrt{n_C/N_c}$, $Z_g$ gate |
 | 14 | **Casimir Harvester (complete)** | **2002** | **7/7** | **Full BOM under \$25K** |
+| 15 | FE Pole Residues + Leverage | 2029 | 34/34 | Res=-rank, Res=C_2; 137x amplification |
+| 16 | BaTiO$_3$ Spectral Zeta Sum | 2030 | 21/21 | Z(1)=81765179/900900; switch $n_C^s$ per cycle |
+| 17 | Van Hove DOS + Staircase | 2034 | 25/25 | Gap sum $= n_C! = 120$; desert $= c_2 = 11$ |
+| 18 | Superlattice Band Structure | 2035 | 31/31 | Period-5 quotients $= \{C_2, g, 8, 9\}$ consecutive |
+| 19 | Substrate Manipulation Materials | 2031 | 26/26 | 5 tiers; VO$_2$ at $g^3-\text{rank} = 341$ K |
 
-All fourteen concepts share a common set of BST constants: $\{240, 720, 20, 4, 137\}$ — the Casimir force coefficient, the energy coefficient, the configuration count ($2^{\mathrm{rank}} \times n_C$), the force exponent ($2^{\mathrm{rank}}$), and the spectral cutoff ($N_{\max}$). The lattice harvester adds $N_{\max}$ to the substrate engineering toolkit: it is the first device where the spectral cutoff directly sets a fabrication parameter (film thickness). The coherence across the substrate engineering program is itself a prediction: any device coupling to $D_{IV}^5$ vacuum modes should exhibit the same integer structure.
+All nineteen concepts share a common set of BST constants: $\{240, 720, 20, 4, 137\}$ — the Casimir force coefficient, the energy coefficient, the configuration count ($2^{\mathrm{rank}} \times n_C$), the force exponent ($2^{\mathrm{rank}}$), and the spectral cutoff ($N_{\max}$). The lattice harvester adds $N_{\max}$ to the substrate engineering toolkit: it is the first device where the spectral cutoff directly sets a fabrication parameter (film thickness). The coherence across the substrate engineering program is itself a prediction: any device coupling to $D_{IV}^5$ vacuum modes should exhibit the same integer structure.
 
 ### 13. Complete Engineering Design (Toy 2002)
 

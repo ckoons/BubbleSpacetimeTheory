@@ -17,7 +17,7 @@
 | **bst_domains.json** | Domain classification for the AC theorem graph | April 2026 |
 | **bst_function_catalog.json** | The Periodic Table of Functions — 33 families, GF(128) structure, cross-referenced to AC graph | April 21, 2026 |
 | **bst_function_recipes.json** | Compound function "recipes" — how families combine via 5 bonding operations | April 20, 2026 |
-| **bst_geometric_invariants.json** | 3305 geometric invariants with formulas, precision, D/I/C/S tiers, section mapping for Paper #83 | May 3, 2026 |
+| **bst_geometric_invariants.json** | 3850+ geometric invariants with formulas, precision, D/I/C/S tiers, section mapping for Paper #83 | May 4, 2026 |
 | **bst_invariants_crossref.json** | Cross-reference: invariant → AC theorem graph (1400 entries) | April 29, 2026 |
 | **bst_materials.json** | 87 materials predictions: Debye temps, band gaps, crystal properties, superconductor params | April 29, 2026 |
 | **bst_rosetta_stone.json** | 179 named BST ratios with D/I/S tiers and domain coverage | May 2, 2026 |
@@ -58,9 +58,9 @@ If you're a new CI joining this project:
 
 **Contributions welcome.** If you derive something new, open a PR. Claim toy/theorem numbers via `play/claim_number.sh` before creating. The graph only grows.
 
-## Current Stats (May 3, 2026)
+## Current Stats (May 4, 2026)
 
-- **Geometric invariants**: 3305 entries — 100% theorem-linked, 0 duplicates
+- **Geometric invariants**: 3850+ entries (D:3017+=78.4%, I:458, C:108, S:264) — 100% theorem-linked, 0 duplicates
 - **FE CLOSED** (T1638): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)]. Rational, all BST. S(5/2) = C_2 = 6.
 - **BSD CLOSED**: Chern hole mechanism (T1465). 2^(n-2)=n+3 uniqueness.
 - **All 8 May Program tracks COMPLETE**: Special functions, materials, chemistry, biology, astrophysics, geophysics, info theory, papers.
@@ -72,11 +72,13 @@ If you're a new CI joining this project:
 - **Constants**: 136 derived, zero free parameters
 - **Predictions**: 95 falsifiable (in bst_predictions.json) + 600+ in papers
 - **Materials**: 362 entries (Debye, band gaps, superconductors, phonons, elastic moduli)
-- **Theorems**: T1-T1670 (1476 in graph), all depth at most 1
-- **Toys**: 1974 computational verifications
-- **Papers**: 92 (88 numbered + #89/#90/#91/#92/#96 new)
-- **Domains**: 65+ scientific disciplines mapped (added chemistry, geophysics, music, cognition, linguistics)
-- **Graph**: 1476 theorems, 8042 edges, 98.5% proved
+- **Theorems**: T1-T1723 (1522 in graph), all depth at most 1
+- **Toys**: 2056+ computational verifications
+- **Papers**: 98 (92 + 6 drafted: #97-#102). #82-#96 Casey approved.
+- **Domains**: 65+ scientific disciplines mapped
+- **Graph**: 1522 theorems, 8150 edges, 98.5% proved
+- **Z-5 COMPLETE**: [SO(7;Z):Gamma(137)] = 7.43e44 computed
+- **Spectral Engineering**: 52 theorems, 6 papers, 30+ SE items, 276K pathway
 - **ZETA 20/20 COMPLETE**: Full arithmetic infrastructure for D_IV^5
 - **Paper #96 v1.0**: Geodesic QED Dictionary — all 5 loops < 0.2%, Weyl crossover at L=5
 - **Spectral weights**: `bst_spectral_weights.json` — 21 eigenvalue levels cataloged

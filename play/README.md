@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**2,026 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**2,056+ computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 2,026 |
-| Numbered toys (toy_NNN_*.py) | ~1,817 |
-| Named toys (toy_name.py) | ~209 |
+| Toy scripts (toy_*.py) | 2,056+ |
+| Numbered toys (toy_NNN_*.py) | 1,847+ |
+| Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 58 |
 | HTML visualizers | 6 |
-| Theorems (T1-T1692+) | 1,692+ |
-| Next toy number | 2025 |
+| Theorems (T1-T1721+) | 1,721+ |
+| Next toy number | 2058 |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -30,7 +30,7 @@ Five integers. Zero free parameters. "Give a child a ball and teach them to coun
 
 ```
 play/
-  toy_NNN_name.py          # Numbered toys (~1,817 files, T100-T2024)
+  toy_NNN_name.py          # Numbered toys (1,846 files, T100-T2057)
   toy_name.py              # Named toys (209 files, foundational + topical)
   *.py                     # Utility scripts (58 files: graph tools, extractors, verifiers)
   bst_appliance/           # BST Appliance package — the "Ball and Counting Tool"
@@ -111,8 +111,8 @@ Two gitignored counter files prevent toy/theorem number collisions:
 
 | File | Current Value | Purpose |
 |------|---------------|---------|
-| `.next_toy` | 1825 | Next available toy number |
-| `.next_theorem` | 1644 | Next available theorem number |
+| `.next_toy` | 2058 | Next available toy number |
+| `.next_theorem` | 1722 | Next available theorem number |
 
 **Rules:**
 1. ALWAYS read the counter file before creating a new toy or theorem.
@@ -232,6 +232,9 @@ The 209 named toys include the original foundational collection and topical deep
 | 1709-1760 | ~52 | **Fermion mass Bergman evaluations** (10 masses from spectral ladder, FE confirmation), **master integral topology** (C81a/C83a=-N_c/13, Hecke a_p=0 at BST primes, Mersenne primality=zeta independence), **spectral zeta FE hunt** (Hurwitz root decomposition, mirror map P(s) exact, Selberg zeta construction), **BST Pythagorean** (g²=N_c²·n_C+rank²=49), **N_c=rank²-rank+1** (one integer generates all five), **Fibonacci-BST** (rank,N_c,n_C=F₃,F₄,F₅), **phi⁴=(g+N_c√n_C)/2** (golden ratio coordinates), **Hurwitz binomial divergence** (CRITICAL: non-integer Hurwitz values wrong, integer-point ok) |
 | 1761-1800 | ~40 | **Lyra overnight spectral sprint** (ζ_B(0)=-483473/483840 EXACT, log cancellation to log(n_C), det'≈9/20 at 0.008%), **spectral determinant** (I-tier honest, Glaisher-Kinkelin gap real), **Wallach gap=n_C/rank=5/2** (n_C=5 unique: Hamming+stability), **Fox H identification** (α=2 from rank, z=(n_C/rank)²), **scattering matrix** (S(5/2)=C₂=6, polynomial c-function), **Selberg zeta** (Z(s)=∏(1-λ_k^{-s})^{d_k}), **Faulhaber correction** (ALL polynomial-in-k regularizations wrong, Hurwitz at a=7/2 correct) |
 | 1801-1824 | ~24 | **May Program ALL 8 TRACKS** (materials, chemistry, biology, astrophysics, geophysics, info theory), **FE CLOSED** (Toy 1810: Z(s)/Z(5-s)=(s-1)(s-2)/[(s-3)(s-4)], rational), **C₅ QED prediction** (no new transcendentals, genus bound), **Board sprint** (NIST verification 28/40, proton geodesic, cascade factor 11=c₂(Q⁵), numerator rule 2^n=n², **nuclear masses** B/A(He-4)=m_π/(rank·π²) at 0.046%, **string tension** √σ=√(10)·m_π at 0.3%, hyperfine 21cm=N_c·g, **QGP g_eff=n_C·g+rank=37**, Hamming measurement=confinement, Debye temps 6 EXACT, muon g-2 loop ratios, **beta_0(N_f=6)=g=7**) |
+| 1825-1966 | ~142 | **Spectral Engineering foundation** — critical exponents (2D all exact, 3D Ising nu=63/100 at 0.002%), DM=Wallach shadow (16/3 at 0.2%), nuclear magic numbers (c₂=11 spin-orbit), Wilson loop from Cheeger (sqrt(sigma)=sqrt(10)·m_pi), Hodge transfer, NS enstrophy bounded, Chern-beta dictionary (c₁..c₅+beta₀+beta₁ all BST), geodesic QED dictionary (C₁..C₅), Pell equation rank^C₂-N_c²·g=1, period ring C₂=6 generators, quantum group U_q(B₂) at 137th root, A₂ master integral decomposed, spectral zeta of AC graph |
+| 1967-2024 | ~58 | **Spectral Engineering Day 1** — BaTiO₃ 137-plane Casimir (Toy 1967), superlattice (Toy 1978), phase transitions 42/42 (Toy 2000), Cu=137 GPa spectral cap (Toy 2003), biological temperatures 16/16 (Toy 2004), efficiency limits 13/13 (Toy 2016), anomalous dimension dictionary, partition function=spectral theta, running alpha, Born rule=Bergman |
+| 2025-2057 | ~33 | **Spectral Engineering Day 2** — Debye ratio completeness **190/190** (Toy 2025), superconductor design rule 4 classes (Toy 2026), inverse problem predictions (Toy 2027), crystallography ALL BST **32/32 D-tier** (Toy 2028), BST coherence ranking BaTiO₃=#1 (Toy 2036), Van Hove spectral DOS **31/31 D-tier** (Toy 2037), BaTiO₃ spectral zeta 9 active levels (Toy 2048), **Fibonacci IS BST** phi=(1+sqrt(n_C))/rank (Toy 2049), refractive indices ALL BST (Toy 2055), 276K synthesis pathway (Toy 2056), FE self-duality + pole probes (Toy 2054) |
 
 ---
 

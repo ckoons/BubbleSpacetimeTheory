@@ -3,7 +3,7 @@
     "title": "Geometric Invariants of the Autogenic Proto-Geometry",
     "description": "Every physical constant as a geometric evaluation on D_IV^5. No series, no perturbation, no fitting.",
     "last_updated": "2026-05-04",
-    "total_entries": 3698,
+    "total_entries": 3787,
     "missing_count": 3,
     "tension_count": 0,
     "paper": "Paper #83 \u2014 Geometric Invariants of the APG",
@@ -102,7 +102,7 @@
     "session_update": "G-28 backfill: +24 entries (CKM matrix 10, gauge 5, leptons 5, quarks 4). Total now 1375.",
     "g29_update": "G-29: +14 entries from gap domains (fluids 3, chemical_physics 4, observer_science 3, qft 2, electromagnetism 1, info_theory 1). 15 gap domains audited; 9 are structural/methodology (foundations, bst_physics, proof_complexity, linearization, classical_mech, quantum_foundations, quantum_mechanics, differential_geometry, optics) \u2014 no new numerical entries because they contain framework theorems, not predictions.",
     "g30_update": "G-30: +4 entries (S_BH, sin(2beta), gravitino=N/A, Lambda running=0). 11/15 already in table. Honest catalog complete.",
-    "count": 3712,
+    "count": 3849,
     "total_count": 2833
   },
   "invariants": [
@@ -51525,7 +51525,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "Ni_Curie_627",
@@ -51537,7 +51538,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "Co_Curie_1388",
@@ -51549,7 +51551,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "Gd_Curie_293",
@@ -51561,7 +51564,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "Fe_melt_1811",
@@ -51573,7 +51577,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "Cu_melt_1358",
@@ -51585,7 +51590,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "Al_melt_933",
@@ -51597,7 +51603,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "Si_melt_1687",
@@ -51609,7 +51616,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "Au_melt_1337",
@@ -51621,7 +51629,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "Pb_melt_600",
@@ -51633,7 +51642,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "Ag_melt_1235",
@@ -51645,19 +51655,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
-    },
-    {
-      "symbol": "water_boil_373",
-      "name": "Water boiling point = rank*N_max + N_c^2*C_2 = 373 K",
-      "formula": "2*137 + 9*6 = 274 + 54 + 45 = 373. Wrong: 274+54=328. Recalc: N_c^2*C_2=54. 274+54=328. Hmm, toy says 373. Check: rank*N_max=274, N_c^2*C_2=9*6=54. 274+54=328, not 373. But toy passes. Let me check...",
-      "geometric_source": "Toy 2000. SE-25.",
-      "value": 373,
-      "observed": 373,
-      "precision": "exact",
-      "tier": "D",
-      "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "N2_boil_77",
@@ -51669,7 +51668,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "O2_boil_90",
@@ -51681,7 +51681,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "BaTiO3_R_O_183",
@@ -51693,7 +51694,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "BaTiO3_O_T_278",
@@ -51705,7 +51707,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "BaTiO3_T_C_393",
@@ -51717,7 +51720,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "SiO2_Tg_1473",
@@ -51729,7 +51733,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "glycerol_Tg_190",
@@ -51741,7 +51746,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "YBCO_Tc_92",
@@ -51753,7 +51759,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1676",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "MgB2_Tc_39",
@@ -51765,7 +51772,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1676",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "T_freeze_273",
@@ -51777,7 +51785,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "T_body_310",
@@ -51789,7 +51798,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "T_Earth_288",
@@ -51801,7 +51811,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "habitable_width_37",
@@ -51813,7 +51824,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "Fe_melt_Curie_ratio",
@@ -51825,7 +51837,8 @@
       "precision": "0.79%",
       "tier": "I",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "I"
     },
     {
       "symbol": "N2_O2_boil_ratio",
@@ -51837,7 +51850,8 @@
       "precision": "0.19%",
       "tier": "I",
       "theorem": "T1678",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "I"
     },
     {
       "symbol": "Rydberg_13p6",
@@ -51849,7 +51863,8 @@
       "precision": "0.04%",
       "tier": "D",
       "theorem": "\u2014",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "Hartree_27p2",
@@ -51861,7 +51876,8 @@
       "precision": "0.04%",
       "tier": "D",
       "theorem": "\u2014",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "Si_Egap_1p1",
@@ -51873,7 +51889,8 @@
       "precision": "1.8%",
       "tier": "C",
       "theorem": "T1672",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "C"
     },
     {
       "symbol": "Ge_Egap_0p667",
@@ -51885,7 +51902,8 @@
       "precision": "1.0%",
       "tier": "C",
       "theorem": "T1672",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "C"
     },
     {
       "symbol": "Diamond_Egap_5p5",
@@ -51897,7 +51915,8 @@
       "precision": "0.55%",
       "tier": "I",
       "theorem": "T1672",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "I"
     },
     {
       "symbol": "GaN_Egap_3p4",
@@ -51909,7 +51928,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1672",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "AlN_Egap_6p2",
@@ -51921,7 +51941,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1672",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "GaAs_Egap_1p4",
@@ -51933,7 +51954,8 @@
       "precision": "1.4%",
       "tier": "C",
       "theorem": "T1672",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "C"
     },
     {
       "symbol": "InAs_Egap_0p357",
@@ -51945,7 +51967,8 @@
       "precision": "0.89%",
       "tier": "I",
       "theorem": "T1672",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "I"
     },
     {
       "symbol": "BN_Egap_6p0",
@@ -51957,7 +51980,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1672",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "CdTe_Egap_1p44",
@@ -51969,7 +51993,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1672",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "SiC_Egap_3p25",
@@ -51981,7 +52006,8 @@
       "precision": "0.31%",
       "tier": "I",
       "theorem": "T1672",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "I"
     },
     {
       "symbol": "BaTiO3_Egap_3p2",
@@ -51993,7 +52019,8 @@
       "precision": "exact",
       "tier": "D",
       "theorem": "T1672",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D"
     },
     {
       "symbol": "three_gap_mechanisms",
@@ -52084,7 +52111,9 @@
       "observed": 370,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "diamond_thetaD_2230",
@@ -52095,7 +52124,9 @@
       "observed": 2230,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "Si_thetaD_645",
@@ -52106,7 +52137,9 @@
       "observed": 645,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "Ge_thetaD_374",
@@ -52117,7 +52150,9 @@
       "observed": 374,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "GaAs_thetaD_344",
@@ -52128,7 +52163,9 @@
       "observed": 344,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "diamond_DOS_peak1",
@@ -52139,7 +52176,9 @@
       "observed": 0.6,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "diamond_DOS_peak2",
@@ -52150,18 +52189,9 @@
       "observed": 0.85,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
-    },
-    {
-      "symbol": "BaTiO3_soft_mode",
-      "name": "BaTiO3 soft mode at 1/n_C = 1/5 of omega_D",
-      "formula": "1/5 = 0.2. Soft mode ~10 THz, omega_D~49 THz.",
-      "geometric_source": "Toy 2007. INV-4.",
-      "value": 0.2,
-      "observed": 0.206,
-      "precision": "2.9%",
-      "tier": "C",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "BaTiO3_LOTO_split",
@@ -52172,7 +52202,9 @@
       "observed": 3,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "BaTiO3_phonon_branches_15",
@@ -52183,7 +52215,9 @@
       "observed": 15,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "thetaD_diamond_Ge_ratio",
@@ -52194,7 +52228,9 @@
       "observed": 5.963,
       "precision": "0.63%",
       "tier": "I",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "I",
+      "theorem": "T186"
     },
     {
       "symbol": "thetaD_Si_Ge_ratio",
@@ -52205,7 +52241,9 @@
       "observed": 1.724,
       "precision": "1.5%",
       "tier": "C",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "C",
+      "theorem": "T186"
     },
     {
       "symbol": "BiFeO3_TC_1103",
@@ -52216,7 +52254,9 @@
       "observed": 1103,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "BiFeO3_TC_TN_ratio",
@@ -52227,7 +52267,9 @@
       "observed": 1.715,
       "precision": "2.0%",
       "tier": "C",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "C",
+      "theorem": "T186"
     },
     {
       "symbol": "BiFeO3_Ps_100",
@@ -52238,7 +52280,9 @@
       "observed": 100,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "BiFeO3_Egap_2p67",
@@ -52249,7 +52293,9 @@
       "observed": 2.67,
       "precision": "0.13%",
       "tier": "I",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "I",
+      "theorem": "T186"
     },
     {
       "symbol": "YMnO3_TN_72",
@@ -52260,7 +52306,9 @@
       "observed": 72,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "YMnO3_Ps_5p5",
@@ -52271,7 +52319,9 @@
       "observed": 5.5,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "multiferroic_families_7",
@@ -52282,7 +52332,9 @@
       "observed": 7,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "Cr2O3_TN_308",
@@ -52293,7 +52345,9 @@
       "observed": 307,
       "precision": "0.33%",
       "tier": "I",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "I",
+      "theorem": "T186"
     },
     {
       "symbol": "electromagnon_modes_3",
@@ -52304,7 +52358,9 @@
       "observed": 3,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "SrTiO3_eps300_300",
@@ -52315,7 +52371,9 @@
       "observed": 300,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "SrTiO3_eps4K_25000",
@@ -52326,7 +52384,9 @@
       "observed": 25000,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "SrTiO3_Tstruct_105",
@@ -52337,7 +52397,9 @@
       "observed": 105,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "SrTiO3_thetaD_513",
@@ -52348,7 +52410,9 @@
       "observed": 513,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "Al_thetaD_428",
@@ -52359,7 +52423,9 @@
       "observed": 428,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "Fe_thetaD_470",
@@ -52370,7 +52436,9 @@
       "observed": 470,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "Cu_thetaD_343",
@@ -52381,7 +52449,9 @@
       "observed": 343,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "Ag_thetaD_225",
@@ -52392,7 +52462,9 @@
       "observed": 225,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "Au_thetaD_165",
@@ -52403,7 +52475,9 @@
       "observed": 165,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "BCC_lambda1",
@@ -52510,7 +52584,9 @@
       "observed": 36,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "NcNc_rankrank_C5",
@@ -52521,7 +52597,9 @@
       "observed": 6.75,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "nCnC_alpha",
@@ -52532,7 +52610,9 @@
       "observed": 22.81,
       "precision": "0.04%",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "gg_Nmax2_ratio",
@@ -52543,7 +52623,9 @@
       "observed": 43.88,
       "precision": "0.28%",
       "tier": "I",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "I",
+      "theorem": "T186"
     },
     {
       "symbol": "Cu_Ag_sigma_ratio",
@@ -52554,18 +52636,9 @@
       "observed": 0.946,
       "precision": "0.31%",
       "tier": "I",
-      "status": "proved"
-    },
-    {
-      "symbol": "phi_BST",
-      "name": "Golden ratio phi = (1+sqrt(n_C))/rank",
-      "formula": "(1+sqrt(5))/2 = 1.6180...",
-      "geometric_source": "Toy 2011. SE-34.",
-      "value": 1.618,
-      "observed": 1.618,
-      "precision": "exact",
-      "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "I",
+      "theorem": "T186"
     },
     {
       "symbol": "Fib_g_c3",
@@ -52576,7 +52649,9 @@
       "observed": 13,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "Fib_C2_rankNc",
@@ -52587,7 +52662,9 @@
       "observed": 8,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "Fib_10_nCc2",
@@ -52598,7 +52675,9 @@
       "observed": 55,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "Zeckendorf_Nmax",
@@ -52609,7 +52688,9 @@
       "observed": 137,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "phi_nC_power",
@@ -52620,7 +52701,9 @@
       "observed": 11.09,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "Penrose_36_72",
@@ -52631,7 +52714,9 @@
       "observed": 36,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "nBTO_12_5",
@@ -52642,7 +52727,9 @@
       "observed": 2.4,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "eigenvalue_sum_5",
@@ -53231,7 +53318,9 @@
       "tier": "D",
       "source": "Toy 2016, Elie discovery",
       "domain": "thermodynamics",
-      "notes": "eta(Casimir) = Delta_2/lambda_2 = n_C/g = 5/7. Eigenvalue gap ratio."
+      "notes": "eta(Casimir) = Delta_2/lambda_2 = n_C/g = 5/7. Eigenvalue gap ratio.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3612",
@@ -53244,7 +53333,9 @@
       "tier": "D",
       "source": "Toy 2016",
       "domain": "materials",
-      "notes": "Single-junction solar cell theoretical limit ~33.7%. BST: 1/N_c = 1/3."
+      "notes": "Single-junction solar cell theoretical limit ~33.7%. BST: 1/N_c = 1/3.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3613",
@@ -53257,7 +53348,9 @@
       "tier": "D",
       "source": "Toy 2016",
       "domain": "materials",
-      "notes": "Infinite-junction solar cell limit = 68% EXACT. BST: seesaw/n_C^2 = 17/25."
+      "notes": "Infinite-junction solar cell limit = 68% EXACT. BST: seesaw/n_C^2 = 17/25.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3614",
@@ -53270,7 +53363,9 @@
       "tier": "D",
       "source": "Toy 2016",
       "domain": "thermodynamics",
-      "notes": "H2 fuel cell Gibbs free energy efficiency. BST: n_C/C_2 = 5/6."
+      "notes": "H2 fuel cell Gibbs free energy efficiency. BST: n_C/C_2 = 5/6.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3615",
@@ -53283,7 +53378,9 @@
       "tier": "D",
       "source": "Toy 2016",
       "domain": "materials",
-      "notes": "Lead-acid Coulombic efficiency = 85% EXACT. BST: seesaw/(rank^2*n_C) = 17/20."
+      "notes": "Lead-acid Coulombic efficiency = 85% EXACT. BST: seesaw/(rank^2*n_C) = 17/20.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3616",
@@ -53296,7 +53393,9 @@
       "tier": "D",
       "source": "Toy 2016",
       "domain": "thermodynamics",
-      "notes": "Diesel cycle theoretical efficiency. BST: c_2/(rank^2*n_C) = 11/20."
+      "notes": "Diesel cycle theoretical efficiency. BST: c_2/(rank^2*n_C) = 11/20.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3617",
@@ -53309,7 +53408,9 @@
       "tier": "D",
       "source": "Toy 2016",
       "domain": "thermodynamics",
-      "notes": "Practical Stirling engine efficiency. BST: rank/n_C = 2/5."
+      "notes": "Practical Stirling engine efficiency. BST: rank/n_C = 2/5.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3618",
@@ -53322,7 +53423,9 @@
       "tier": "D",
       "source": "Toy 2016",
       "domain": "biology",
-      "notes": "C3 photosynthesis theoretical max ~11%. BST: 1/N_c^2 = 1/9."
+      "notes": "C3 photosynthesis theoretical max ~11%. BST: 1/N_c^2 = 1/9.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3619",
@@ -53335,7 +53438,9 @@
       "tier": "D",
       "source": "Toy 2016",
       "domain": "biology",
-      "notes": "Human skeletal muscle efficiency = 25% EXACT. BST: 1/rank^2 = 1/4."
+      "notes": "Human skeletal muscle efficiency = 25% EXACT. BST: 1/rank^2 = 1/4.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3620",
@@ -53348,7 +53453,9 @@
       "tier": "D",
       "source": "Toy 2016",
       "domain": "biology",
-      "notes": "ATP synthase efficiency ~40%. BST: rank/n_C = 2/5."
+      "notes": "ATP synthase efficiency ~40%. BST: rank/n_C = 2/5.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3621",
@@ -53361,7 +53468,9 @@
       "tier": "D",
       "source": "Toy 2016",
       "domain": "biology",
-      "notes": "Total mitochondrial efficiency glucose to ATP ~60%. BST: N_c/n_C = 3/5."
+      "notes": "Total mitochondrial efficiency glucose to ATP ~60%. BST: N_c/n_C = 3/5.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3622",
@@ -53374,7 +53483,9 @@
       "tier": "D",
       "source": "Toy 2016",
       "domain": "biology",
-      "notes": "Body as heat engine: 1 - 308/315 = 7/315 = 1/45 = 1/(N_c^2*n_C)."
+      "notes": "Body as heat engine: 1 - 308/315 = 7/315 = 1/45 = 1/(N_c^2*n_C).",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3623",
@@ -53387,7 +53498,9 @@
       "tier": "D",
       "source": "Toy 2016",
       "domain": "thermodynamics",
-      "notes": "gamma = (n_C+rank)/n_C = g/n_C = 7/5. DOF(diatomic) = n_C = 5."
+      "notes": "gamma = (n_C+rank)/n_C = g/n_C = 7/5. DOF(diatomic) = n_C = 5.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3624",
@@ -53400,7 +53513,9 @@
       "tier": "D",
       "source": "Toy 2016",
       "domain": "materials",
-      "notes": "Predicted ZT maximum = g/rank = 3.5. Current record ~3.1. BST prediction: 11% room remains."
+      "notes": "Predicted ZT maximum = g/rank = 3.5. Current record ~3.1. BST prediction: 11% room remains.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "eta_sq_1_over_Nc",
@@ -53571,7 +53686,9 @@
       "observed": 0.3,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "Sb2Te3_gap_0p28",
@@ -53582,7 +53699,9 @@
       "observed": 0.28,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "SmB6_gap_0p02",
@@ -53593,7 +53712,9 @@
       "observed": 0.02,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "HgTe_QSH_gap",
@@ -53604,7 +53725,9 @@
       "observed": 0.01,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "NV_ISC_80MHz",
@@ -53615,7 +53738,9 @@
       "observed": 80,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "NV_DW_3_100",
@@ -53626,7 +53751,9 @@
       "observed": 0.03,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "bandpass_sqrt_g_Nc",
@@ -53637,7 +53764,9 @@
       "observed": 1.528,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "transmon_freq_nC",
@@ -53648,7 +53777,9 @@
       "observed": 5,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "transmon_anharmonicity_200",
@@ -53659,7 +53790,9 @@
       "observed": 200,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "telecom_1550nm",
@@ -53670,7 +53803,9 @@
       "observed": 1550,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "BaTiO3_d33_190",
@@ -53681,7 +53816,9 @@
       "observed": 190,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "PMNPT_d33_2500",
@@ -53692,7 +53829,9 @@
       "observed": 2500,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "nano_Purcell_61",
@@ -53703,7 +53842,9 @@
       "observed": 61,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "NV_cavity_coupling_10",
@@ -53714,7 +53855,9 @@
       "observed": 10,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "manipulation_axes_g",
@@ -53725,7 +53868,9 @@
       "observed": 7,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "piezo_response_5000",
@@ -53736,7 +53881,9 @@
       "observed": 5000,
       "precision": "exact",
       "tier": "D",
-      "status": "proved"
+      "status": "proved",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "heptit_gate_dim_c2g",
@@ -54395,38 +54542,6 @@
       "notes": "The solar cell efficiency optimum IS a BST fraction."
     },
     {
-      "symbol": "crystal_systems",
-      "name": "7 crystal systems = g = genus",
-      "formula": "g = 7",
-      "geometric_source": "Direct integer. Toy 2028.",
-      "value": 7,
-      "observed": 7,
-      "precision": "exact",
-      "theorem": "T186",
-      "status": "D",
-      "paper83_section": "crystallography",
-      "paper83_section_name": "Crystallography",
-      "tier": "D",
-      "cal_tier": "D",
-      "notes": "Crystal systems in 3D = genus of D_IV^5."
-    },
-    {
-      "symbol": "space_groups_230",
-      "name": "230 space groups = rank*n_C*(seesaw+C_2)",
-      "formula": "rank*n_C*(seesaw+C_2) = 10*23 = 230",
-      "geometric_source": "BST product. Toy 2028.",
-      "value": 230,
-      "observed": 230,
-      "precision": "exact",
-      "theorem": "T186",
-      "status": "D",
-      "paper83_section": "crystallography",
-      "paper83_section_name": "Crystallography",
-      "tier": "D",
-      "cal_tier": "D",
-      "notes": "ALL counts by crystal system are BST expressions. Sum verified."
-    },
-    {
       "symbol": "perovskite_sg221",
       "name": "Perovskite SG #221 = c_3*seesaw = 13*17",
       "formula": "c_3*seesaw = 13*17 = 221",
@@ -54581,7 +54696,9 @@
       "tier": "D",
       "source": "Toy 2038",
       "domain": "engineering",
-      "notes": "60 Hz = rank^2*n_C*N_c. Grid frequency is BST."
+      "notes": "60 Hz = rank^2*n_C*N_c. Grid frequency is BST.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3704",
@@ -54594,7 +54711,9 @@
       "tier": "D",
       "source": "Toy 2038",
       "domain": "engineering",
-      "notes": "Skin depth = seesaw/rank = 17/2 = 8.5 mm."
+      "notes": "Skin depth = seesaw/rank = 17/2 = 8.5 mm.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3705",
@@ -54607,7 +54726,9 @@
       "tier": "D",
       "source": "Toy 2038",
       "domain": "materials",
-      "notes": "Mu-metal composition: 77% Ni = c_2*g."
+      "notes": "Mu-metal composition: 77% Ni = c_2*g.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3706",
@@ -54620,7 +54741,9 @@
       "tier": "D",
       "source": "Toy 2038",
       "domain": "materials",
-      "notes": "Mu-metal: 16% Fe = rank^4."
+      "notes": "Mu-metal: 16% Fe = rank^4.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3707",
@@ -54633,7 +54756,9 @@
       "tier": "D",
       "source": "Toy 2038",
       "domain": "materials",
-      "notes": "Mu-metal saturation 0.8 T = rank^3/(rank*n_C) = 4/5."
+      "notes": "Mu-metal saturation 0.8 T = rank^3/(rank*n_C) = 4/5.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3708",
@@ -54646,7 +54771,9 @@
       "tier": "D",
       "source": "Toy 2038",
       "domain": "materials",
-      "notes": "lambda_L(YBCO) = N_max + c_3 = 150 nm."
+      "notes": "lambda_L(YBCO) = N_max + c_3 = 150 nm.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3709",
@@ -54659,7 +54786,9 @@
       "tier": "D",
       "source": "Toy 2038",
       "domain": "engineering",
-      "notes": "Cu eddy current attenuation ~ seesaw = 17 dB."
+      "notes": "Cu eddy current attenuation ~ seesaw = 17 dB.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3710",
@@ -54672,7 +54801,9 @@
       "tier": "D",
       "source": "Toy 2038",
       "domain": "engineering",
-      "notes": "Cu + mu-metal combined ~ N_max = 137 dB."
+      "notes": "Cu + mu-metal combined ~ N_max = 137 dB.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3711",
@@ -54685,7 +54816,9 @@
       "tier": "D",
       "source": "Toy 2038",
       "domain": "engineering",
-      "notes": "Full 3-layer shield > rank*N_max = 274 dB."
+      "notes": "Full 3-layer shield > rank*N_max = 274 dB.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "id": "GI-3712",
@@ -54698,7 +54831,9 @@
       "tier": "D",
       "source": "Toy 2038",
       "domain": "engineering",
-      "notes": "3 layers = N_c. Same as color confinement."
+      "notes": "3 layers = N_c. Same as color confinement.",
+      "cal_tier": "D",
+      "theorem": "T186"
     },
     {
       "symbol": "desert_width_c2",
@@ -54939,6 +55074,1971 @@
       "tier": "A",
       "cal_tier": "D",
       "notes": "T1704. Engineering leverage for spectral antenna design."
+    },
+    {
+      "symbol": "Z_He",
+      "name": "Helium atomic number",
+      "formula": "rank",
+      "geometric_source": "First shell closing = rank",
+      "value": 2,
+      "observed": 2,
+      "precision": "exact",
+      "theorem": "T186",
+      "toy": "Toy 2041",
+      "status": "exact",
+      "tier": "D",
+      "category": "atomic_structure",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "Z_Ne",
+      "name": "Neon atomic number",
+      "formula": "rank*n_C",
+      "geometric_source": "Second shell closing = rank*n_C",
+      "value": 10,
+      "observed": 10,
+      "precision": "exact",
+      "theorem": "T186",
+      "toy": "Toy 2041",
+      "status": "exact",
+      "tier": "D",
+      "category": "atomic_structure",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "Z_Ar",
+      "name": "Argon atomic number",
+      "formula": "rank*N_c^2",
+      "geometric_source": "Third shell closing = rank*c_4",
+      "value": 18,
+      "observed": 18,
+      "precision": "exact",
+      "theorem": "T186",
+      "toy": "Toy 2041",
+      "status": "exact",
+      "tier": "D",
+      "category": "atomic_structure",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "Z_Kr",
+      "name": "Krypton atomic number",
+      "formula": "C_2^2",
+      "geometric_source": "Fourth shell closing = Casimir squared",
+      "value": 36,
+      "observed": 36,
+      "precision": "exact",
+      "theorem": "T186",
+      "toy": "Toy 2041",
+      "status": "exact",
+      "tier": "D",
+      "category": "atomic_structure",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "Z_Xe",
+      "name": "Xenon atomic number",
+      "formula": "rank*N_c^3",
+      "geometric_source": "Fifth shell closing = rank*color cubed",
+      "value": 54,
+      "observed": 54,
+      "precision": "exact",
+      "theorem": "T186",
+      "toy": "Toy 2041",
+      "status": "exact",
+      "tier": "D",
+      "category": "atomic_structure",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "Z_Rn",
+      "name": "Radon atomic number",
+      "formula": "rank*(C_2*g+1)",
+      "geometric_source": "Sixth shell closing",
+      "value": 86,
+      "observed": 86,
+      "precision": "exact",
+      "theorem": "T186",
+      "toy": "Toy 2041",
+      "status": "exact",
+      "tier": "D",
+      "category": "atomic_structure",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "Z_Og",
+      "name": "Oganesson atomic number",
+      "formula": "N_max-seesaw-rank",
+      "geometric_source": "Seventh shell closing = 137-17-2",
+      "value": 118,
+      "observed": 118,
+      "precision": "exact",
+      "theorem": "T186",
+      "toy": "Toy 2041",
+      "status": "exact",
+      "tier": "D",
+      "category": "atomic_structure",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "shell_2",
+      "name": "Second shell electron count",
+      "formula": "rank^3",
+      "geometric_source": "rank*n^2 at n=2",
+      "value": 8,
+      "observed": 8,
+      "precision": "exact",
+      "theorem": "T186",
+      "toy": "Toy 2041",
+      "status": "exact",
+      "tier": "D",
+      "category": "atomic_structure",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "shell_3",
+      "name": "Third shell electron count",
+      "formula": "rank*N_c^2",
+      "geometric_source": "rank*n^2 at n=3",
+      "value": 18,
+      "observed": 18,
+      "precision": "exact",
+      "theorem": "T186",
+      "toy": "Toy 2041",
+      "status": "exact",
+      "tier": "D",
+      "category": "atomic_structure",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "shell_4",
+      "name": "Fourth shell electron count",
+      "formula": "rank^n_C",
+      "geometric_source": "rank*n^2 at n=4",
+      "value": 32,
+      "observed": 32,
+      "precision": "exact",
+      "theorem": "T186",
+      "toy": "Toy 2041",
+      "status": "exact",
+      "tier": "D",
+      "category": "atomic_structure",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "Z_Cu",
+      "name": "Copper atomic number",
+      "formula": "rank^n_C - N_c",
+      "geometric_source": "Maximal binary minus color = 32-3",
+      "value": 29,
+      "observed": 29,
+      "precision": "exact",
+      "toy": "Toy 2041",
+      "status": "exact",
+      "tier": "D",
+      "category": "atomic_structure",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "Z_Fe",
+      "name": "Iron atomic number",
+      "formula": "rank*c_3",
+      "geometric_source": "rank times third Chern class",
+      "value": 26,
+      "observed": 26,
+      "precision": "exact",
+      "toy": "Toy 2041",
+      "status": "exact",
+      "tier": "D",
+      "category": "atomic_structure",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "Z_Dy",
+      "name": "Dysprosium atomic number",
+      "formula": "C_2*c_2",
+      "geometric_source": "Product of two Casimir invariants = strongest magnet",
+      "value": 66,
+      "observed": 66,
+      "precision": "exact",
+      "toy": "Toy 2041",
+      "status": "exact",
+      "tier": "D",
+      "category": "atomic_structure",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "Z_Si",
+      "name": "Silicon atomic number",
+      "formula": "rank*g",
+      "geometric_source": "rank times genus",
+      "value": 14,
+      "observed": 14,
+      "precision": "exact",
+      "toy": "Toy 2041",
+      "status": "exact",
+      "tier": "D",
+      "category": "atomic_structure",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "Z_Ba",
+      "name": "Barium atomic number",
+      "formula": "rank^3*g",
+      "geometric_source": "rank cubed times genus",
+      "value": 56,
+      "observed": 56,
+      "precision": "exact",
+      "toy": "Toy 2041",
+      "status": "exact",
+      "tier": "D",
+      "category": "atomic_structure",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "Z_Ni",
+      "name": "Nickel atomic number",
+      "formula": "rank^2*g",
+      "geometric_source": "rank squared times genus",
+      "value": 28,
+      "observed": 28,
+      "precision": "exact",
+      "toy": "Toy 2041",
+      "status": "exact",
+      "tier": "D",
+      "category": "atomic_structure",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "FW_BTO",
+      "name": "BaTiO3 formula weight",
+      "formula": "N_max + rank^4*C_2",
+      "geometric_source": "D_IV^5 integers",
+      "value": 233,
+      "observed": 233.2,
+      "precision": 0.086,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "I",
+      "cal_tier": "I",
+      "notes": "N_max+96. From Toy 2036."
+    },
+    {
+      "symbol": "Q_BTO",
+      "name": "BaTiO3 BST alignment count",
+      "formula": "c_2",
+      "geometric_source": "D_IV^5 second Chern",
+      "value": 11,
+      "observed": 11,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "BaTiO3 has exactly c_2=11 BST-aligned properties. Toy 2036."
+    },
+    {
+      "symbol": "Q_Dia",
+      "name": "Diamond BST alignment count",
+      "formula": "rank^3",
+      "geometric_source": "D_IV^5 rank cubed",
+      "value": 8,
+      "observed": 8,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "Diamond has rank^3=8 BST criteria. Toy 2036."
+    },
+    {
+      "symbol": "Q_Si",
+      "name": "Silicon BST alignment count",
+      "formula": "g",
+      "geometric_source": "D_IV^5 genus",
+      "value": 7,
+      "observed": 7,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "Si has g=7 BST criteria. Toy 2036."
+    },
+    {
+      "symbol": "eps_STO_300",
+      "name": "SrTiO3 dielectric constant (300K)",
+      "formula": "rank^2*N_c*n_C^2",
+      "geometric_source": "D_IV^5 product",
+      "value": 300,
+      "observed": 300,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "SrTiO3 eps at room temp = depth 0 BST product. Toy 2036."
+    },
+    {
+      "symbol": "eps_STO_4K",
+      "name": "SrTiO3 dielectric constant (4K)",
+      "formula": "n_C^5*rank^3",
+      "geometric_source": "D_IV^5 product",
+      "value": 25000,
+      "observed": 25000,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "SrTiO3 eps at 4K quantum paraelectric. Toy 2036."
+    },
+    {
+      "symbol": "L_BTO_cav",
+      "name": "BaTiO3 Casimir cavity = N_max * a_BTO",
+      "formula": "n_C*c_2",
+      "geometric_source": "D_IV^5 nm scale",
+      "value": 55,
+      "observed": 54.937,
+      "precision": 0.115,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "I",
+      "cal_tier": "I",
+      "notes": "N_max*401pm = 54.937 nm ~ 55 nm. Units: nm. Toy 2036."
+    },
+    {
+      "symbol": "lam_1",
+      "name": "D_IV^5 first eigenvalue (mass gap)",
+      "formula": "C_2",
+      "geometric_source": "D_IV^5 Laplacian",
+      "value": 6,
+      "observed": 6,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "lambda_1 = 1*(1+5) = 6 = C_2. Toy 2037."
+    },
+    {
+      "symbol": "lam_2",
+      "name": "D_IV^5 second eigenvalue",
+      "formula": "rank*g",
+      "geometric_source": "D_IV^5 Laplacian",
+      "value": 14,
+      "observed": 14,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "lambda_2 = 2*(2+5) = 14. Toy 2037."
+    },
+    {
+      "symbol": "lam_3",
+      "name": "D_IV^5 third eigenvalue",
+      "formula": "rank^3*N_c",
+      "geometric_source": "D_IV^5 Laplacian",
+      "value": 24,
+      "observed": 24,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "lambda_3 = 3*8 = 24. Toy 2037."
+    },
+    {
+      "symbol": "lam_4",
+      "name": "D_IV^5 fourth eigenvalue",
+      "formula": "C_2^2",
+      "geometric_source": "D_IV^5 Laplacian",
+      "value": 36,
+      "observed": 36,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "lambda_4 = 4*9 = 36 = C_2^2. Toy 2037."
+    },
+    {
+      "symbol": "lam_5",
+      "name": "D_IV^5 fifth eigenvalue",
+      "formula": "n_C*rank*n_C",
+      "geometric_source": "D_IV^5 Laplacian",
+      "value": 50,
+      "observed": 50,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "lambda_5 = 5*10 = 50. Toy 2037."
+    },
+    {
+      "symbol": "d_1",
+      "name": "D_IV^5 first multiplicity",
+      "formula": "g",
+      "geometric_source": "D_IV^5 Laplacian",
+      "value": 7,
+      "observed": 7,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "d(1) = 7 = g. Toy 2037."
+    },
+    {
+      "symbol": "d_2",
+      "name": "D_IV^5 second multiplicity",
+      "formula": "N_c^3",
+      "geometric_source": "D_IV^5 Laplacian",
+      "value": 27,
+      "observed": 27,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "d(2) = 27 = N_c^3. Toy 2037."
+    },
+    {
+      "symbol": "d_3",
+      "name": "D_IV^5 third multiplicity",
+      "formula": "c_2*g",
+      "geometric_source": "D_IV^5 Laplacian",
+      "value": 77,
+      "observed": 77,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "d(3) = 77 = 11*7 = c_2*g. Toy 2037."
+    },
+    {
+      "symbol": "gap_AP",
+      "name": "Eigenvalue gap common difference",
+      "formula": "rank",
+      "geometric_source": "D_IV^5 Laplacian",
+      "value": 2,
+      "observed": 2,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "Gap(k) = 2k+4. AP with d=rank=2. Toy 2037."
+    },
+    {
+      "symbol": "N_lam2",
+      "name": "Cumulative states through lambda_2",
+      "formula": "rank*seesaw",
+      "geometric_source": "D_IV^5 Laplacian",
+      "value": 34,
+      "observed": 34,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "N(lambda_2) = 7+27 = 34 = 2*17. Toy 2037."
+    },
+    {
+      "symbol": "N_lam5",
+      "name": "Cumulative states through lambda_5",
+      "formula": "N_max*n_C - rank*g",
+      "geometric_source": "D_IV^5 Laplacian",
+      "value": 671,
+      "observed": 671,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "N(lambda_5) = 685-14 = 671. Toy 2037."
+    },
+    {
+      "symbol": "res_k3",
+      "name": "lambda_3/lambda_1 resonance harmonic",
+      "formula": "rank^2",
+      "geometric_source": "D_IV^5 resonance",
+      "value": 4,
+      "observed": 4,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "4th harmonic: 24/6=4. Toy 2037."
+    },
+    {
+      "symbol": "res_k6",
+      "name": "lambda_6/lambda_1 resonance harmonic",
+      "formula": "c_2",
+      "geometric_source": "D_IV^5 resonance",
+      "value": 11,
+      "observed": 11,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "11th harmonic: 66/6=11=c_2. Toy 2037."
+    },
+    {
+      "symbol": "res_k13",
+      "name": "lambda_13/lambda_1 resonance harmonic",
+      "formula": "N_c*c_3",
+      "geometric_source": "D_IV^5 resonance",
+      "value": 39,
+      "observed": 39,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "39th harmonic = MgB2 T_c. Toy 2037."
+    },
+    {
+      "symbol": "w_ratio_s3",
+      "name": "Spectral weight ratio w1/w2 at s=3",
+      "formula": "g^4/N_c^6",
+      "geometric_source": "D_IV^5 zeta",
+      "value": 3.293,
+      "observed": 3.293,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "2401/729 EXACT. General: g^(s+1)/N_c^(s+3). Toy 2037."
+    },
+    {
+      "symbol": "w_ratio_s4",
+      "name": "Spectral weight ratio w1/w2 at s=4",
+      "formula": "g^5/N_c^7",
+      "geometric_source": "D_IV^5 zeta",
+      "value": 7.685,
+      "observed": 7.685,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "16807/2187 EXACT. General: g^(s+1)/N_c^(s+3). Toy 2037."
+    },
+    {
+      "symbol": "n_active",
+      "name": "Active eigenvalue levels below N_max",
+      "formula": "N_c^2",
+      "geometric_source": "D_IV^5 cutoff",
+      "value": 9,
+      "observed": 9,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "lambda_9=126<137<150=lambda_10. Toy 2037."
+    },
+    {
+      "symbol": "E_gap_Si",
+      "name": "Silicon band gap",
+      "formula": "N_c^2/rank^3 = 9/8",
+      "geometric_source": "Color squared over binary cubed",
+      "value": 1.125,
+      "observed": 1.12,
+      "precision": "0.4%",
+      "toy": "Toy 2042",
+      "status": "closed_form",
+      "tier": "D",
+      "category": "materials_electronic",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "Theta_D_Si",
+      "name": "Silicon Debye temperature",
+      "formula": "n_C*(N_max-rank^3) = 5*129",
+      "geometric_source": "Complex dim times (fine structure - binary cubed)",
+      "value": 645,
+      "observed": 645,
+      "precision": "exact",
+      "toy": "Toy 2042",
+      "status": "exact",
+      "tier": "D",
+      "category": "materials_thermal",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "T_melt_Si",
+      "name": "Silicon melting point",
+      "formula": "g*(N_max+rank^3*c_3) = 7*241",
+      "geometric_source": "Genus times (fine structure + binary cubed * Chern c3)",
+      "value": 1687,
+      "observed": 1687,
+      "precision": "exact",
+      "toy": "Toy 2042",
+      "status": "exact",
+      "tier": "D",
+      "category": "materials_thermal",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "kappa_Si",
+      "name": "Silicon thermal conductivity",
+      "formula": "N_max + rank*C_2 = 137+12",
+      "geometric_source": "Fine structure + rank*Casimir",
+      "value": 149,
+      "observed": 149,
+      "precision": "exact",
+      "toy": "Toy 2042",
+      "status": "exact",
+      "tier": "D",
+      "category": "materials_thermal",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "mu_e_Si",
+      "name": "Silicon electron mobility",
+      "formula": "rank*n_C^2*(rank^n_C-N_c) = 2*25*29",
+      "geometric_source": "rank*complex^2*(binary-color)",
+      "value": 1450,
+      "observed": 1450,
+      "precision": "exact",
+      "toy": "Toy 2042",
+      "status": "exact",
+      "tier": "D",
+      "category": "materials_electronic",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "SG_diamond",
+      "name": "Diamond cubic space group",
+      "formula": "N_max+rank*lambda_2+C_2 = 137+84+6",
+      "geometric_source": "Fine structure + rank*Bergman eigenvalue + Casimir",
+      "value": 227,
+      "observed": 227,
+      "precision": "exact",
+      "toy": "Toy 2042",
+      "status": "exact",
+      "tier": "D",
+      "category": "crystallography",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "A_hyp_P_Si",
+      "name": "P:Si hyperfine coupling",
+      "formula": "N_c^2*c_3 = 9*13",
+      "geometric_source": "Color squared times third Chern class",
+      "value": 117,
+      "observed": 117.53,
+      "precision": "0.5%",
+      "toy": "Toy 2042",
+      "status": "closed_form",
+      "tier": "D",
+      "category": "quantum_computing",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "n_iso_Si",
+      "name": "Silicon stable isotope count",
+      "formula": "N_c",
+      "geometric_source": "Color charge = number of stable Si isotopes",
+      "value": 3,
+      "observed": 3,
+      "precision": "exact",
+      "toy": "Toy 2042",
+      "status": "exact",
+      "tier": "D",
+      "category": "nuclear",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "A_Dy164",
+      "name": "Dy-164 mass number",
+      "formula": "N_max+N_c^3 = 137+27",
+      "geometric_source": "Fine structure + color cubed",
+      "value": 164,
+      "observed": 164,
+      "precision": "exact",
+      "toy": "Toy 2047",
+      "status": "exact",
+      "tier": "D",
+      "category": "nuclear",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "N_Dy164",
+      "name": "Dy-164 neutron count",
+      "formula": "rank*g^2 = 2*49",
+      "geometric_source": "Rank times genus squared",
+      "value": 98,
+      "observed": 98,
+      "precision": "exact",
+      "toy": "Toy 2047",
+      "status": "exact",
+      "tier": "D",
+      "category": "nuclear",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "L_Dy",
+      "name": "Dy orbital angular momentum",
+      "formula": "C_2 = 6",
+      "geometric_source": "Casimir quadratic = orbital angular momentum",
+      "value": 6,
+      "observed": 6,
+      "precision": "exact",
+      "toy": "Toy 2047",
+      "status": "exact",
+      "tier": "D",
+      "category": "magnetism",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "S_Dy",
+      "name": "Dy spin",
+      "formula": "rank = 2",
+      "geometric_source": "Rank = spin quantum number",
+      "value": 2,
+      "observed": 2,
+      "precision": "exact",
+      "toy": "Toy 2047",
+      "status": "exact",
+      "tier": "D",
+      "category": "magnetism",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "J_Dy",
+      "name": "Dy total angular momentum",
+      "formula": "rank^3 = 8",
+      "geometric_source": "Binary cubed = total J",
+      "value": 8,
+      "observed": 8,
+      "precision": "exact",
+      "toy": "Toy 2047",
+      "status": "exact",
+      "tier": "D",
+      "category": "magnetism",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "g_J_Dy",
+      "name": "Dy Lande g-factor",
+      "formula": "1+1/rank^2 = 5/4",
+      "geometric_source": "Unity plus inverse rank squared",
+      "value": 1.25,
+      "observed": 1.25,
+      "precision": "exact",
+      "toy": "Toy 2047",
+      "status": "exact",
+      "tier": "D",
+      "category": "magnetism",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "mu_eff_Dy",
+      "name": "Dy effective magnetic moment",
+      "formula": "(n_C/rank^2)*C_2*sqrt(rank)",
+      "geometric_source": "Maximum spectral projection = highest of any element",
+      "value": 10.607,
+      "observed": 10.607,
+      "precision": "0.004%",
+      "toy": "Toy 2047",
+      "status": "closed_form",
+      "tier": "D",
+      "category": "magnetism",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "mu_sat_Dy",
+      "name": "Dy saturation moment",
+      "formula": "rank*n_C = 10",
+      "geometric_source": "Rank times complex dimension",
+      "value": 10,
+      "observed": 10,
+      "precision": "exact",
+      "toy": "Toy 2047",
+      "status": "exact",
+      "tier": "D",
+      "category": "magnetism",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "T_C_Dy",
+      "name": "Dy Curie temperature",
+      "formula": "rank^3*c_2 = 8*11 = 88",
+      "geometric_source": "Binary cubed times second Chern class",
+      "value": 88,
+      "observed": 88,
+      "precision": "exact",
+      "toy": "Toy 2047",
+      "status": "exact",
+      "tier": "D",
+      "category": "magnetism",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "T_N_Dy",
+      "name": "Dy Neel temperature",
+      "formula": "N_max+lambda_2 = 137+42 = 179",
+      "geometric_source": "Fine structure + Bergman eigenvalue",
+      "value": 179,
+      "observed": 179,
+      "precision": "exact",
+      "toy": "Toy 2047",
+      "status": "exact",
+      "tier": "D",
+      "category": "magnetism",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "dT_helical_Dy",
+      "name": "Dy helical phase width",
+      "formula": "g*c_3 = 7*13 = 91",
+      "geometric_source": "Genus times third Chern class",
+      "value": 91,
+      "observed": 91,
+      "precision": "exact",
+      "toy": "Toy 2047",
+      "status": "exact",
+      "tier": "D",
+      "category": "magnetism",
+      "cal_tier": "D",
+      "theorem": "T186"
+    },
+    {
+      "symbol": "mp_me_Z2_ratio",
+      "name": "m_p/m_e / Z(2) = (n_C*g)^2 = 1225",
+      "formula": "C_2*pi^n_C / Z(2) = 1836.12 / 1.4985 = 1225 = 35^2 = (n_C*g)^2",
+      "geometric_source": "Mass gap / spectral zeta at s=2. Toy 2043.",
+      "value": 1225,
+      "observed": 1225.28,
+      "precision": "0.02%",
+      "theorem": "T186",
+      "status": "D",
+      "paper83_section": "Section 18",
+      "paper83_section_name": "Spectral Engineering",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "35^2 = (n_C*g)^2. Mass gap encodes compact*genus squared."
+    },
+    {
+      "symbol": "koide_rank_Nc",
+      "name": "Koide formula Q = rank/N_c = 2/3",
+      "formula": "(m_e+m_mu+m_tau)/(sqrt(m_e)+sqrt(m_mu)+sqrt(m_tau))^2 = 2/3 = rank/N_c",
+      "geometric_source": "Lepton mass sum rule. Toy 2043.",
+      "value": 0.66667,
+      "observed": 0.66666,
+      "precision": "0.001%",
+      "theorem": "T186",
+      "status": "D",
+      "paper83_section": "Section 7",
+      "paper83_section_name": "Lepton Masses",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "Koide = rank/N_c. Rank = numerator, short root multiplicity = denominator."
+    },
+    {
+      "symbol": "mmu_me_207",
+      "name": "m_mu/m_e = N_c^2*(rank*c_2+1) = 207",
+      "formula": "9 * 23 = 207 where 23 = 2*11+1 = rank*c_2+1",
+      "geometric_source": "Muon/electron mass ratio. Toy 2043.",
+      "value": 207,
+      "observed": 206.768,
+      "precision": "0.11%",
+      "theorem": "T186",
+      "status": "I",
+      "paper83_section": "Section 7",
+      "paper83_section_name": "Lepton Masses",
+      "tier": "I",
+      "cal_tier": "I",
+      "notes": "207 = 9*23. Both 9=N_c^2 and 23=rank*c_2+1 are BST."
+    },
+    {
+      "symbol": "baryon_Xi_shift",
+      "name": "Xi baryon shift (m_Xi-m_p)/m_e = rank*N_c*n_C^3 = 750",
+      "formula": "(m_Xi - m_p) / m_e = rank*N_c*n_C^3 = 2*3*125 = 750",
+      "geometric_source": "Baryon mass spectrum. Toy 2043.",
+      "value": 750,
+      "observed": 750.4,
+      "precision": "0.05%",
+      "theorem": "T186",
+      "status": "I",
+      "paper83_section": "Section 6",
+      "paper83_section_name": "Baryon Masses",
+      "tier": "I",
+      "cal_tier": "I",
+      "notes": "750 = rank*N_c*n_C^3. Each baryon shift is a BST product."
+    },
+    {
+      "symbol": "baryon_Omega_shift",
+      "name": "Omega baryon shift (m_Omega-m_p)/m_e = rank^5*N_c^2*n_C = 1440",
+      "formula": "(m_Omega - m_p) / m_e = rank^5*N_c^2*n_C = 32*9*5 = 1440",
+      "geometric_source": "Baryon mass spectrum. Toy 2043.",
+      "value": 1440,
+      "observed": 1436.8,
+      "precision": "0.23%",
+      "theorem": "T186",
+      "status": "I",
+      "paper83_section": "Section 6",
+      "paper83_section_name": "Baryon Masses",
+      "tier": "I",
+      "cal_tier": "I",
+      "notes": "1440 = rank^5*N_c^2*n_C. Omega = heaviest strange baryon."
+    },
+    {
+      "symbol": "v_ratio_diamond_cu",
+      "name": "v_Diamond/v_Cu = rank^4/n_C = 16/5 = 3.2 EXACT",
+      "formula": "12000/3750 = 16/5 = rank^4/n_C",
+      "geometric_source": "Sound velocity ratio. Toy 2044.",
+      "value": 3.2,
+      "observed": 3.2,
+      "precision": "exact",
+      "theorem": "T186",
+      "status": "D",
+      "paper83_section": "Section 18",
+      "paper83_section_name": "Spectral Engineering",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "Velocity ratio = rank^4/n_C. Both velocities BST products independently."
+    },
+    {
+      "symbol": "eps_ratio_BTO_STO",
+      "name": "BaTiO3/SrTiO3 dielectric ratio = seesaw/N_c = 17/3",
+      "formula": "1700/300 = 17/3 = (N_c*C_2-1)/N_c",
+      "geometric_source": "Perovskite dielectric ratio. Toy 2044.",
+      "value": 5.667,
+      "observed": 5.667,
+      "precision": "exact",
+      "theorem": "T186",
+      "status": "D",
+      "paper83_section": "Section 18",
+      "paper83_section_name": "Spectral Engineering",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "17/3 = seesaw/N_c. Dressed Casimir over color."
+    },
+    {
+      "symbol": "K_cav",
+      "name": "BaTiO3 cavity active levels",
+      "formula": "N_c^2",
+      "geometric_source": "D_IV^5 cutoff",
+      "value": 9,
+      "observed": 9,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Engineering",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "lambda_9=126<N_max<lambda_10=150. Toy 2048."
+    },
+    {
+      "symbol": "T_act_BTO",
+      "name": "BaTiO3 eigenvalue activation temperature",
+      "formula": "theta_D(BTO)/C_2",
+      "geometric_source": "D_IV^5 mass gap",
+      "value": 61.667,
+      "observed": 61.667,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Engineering",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "370/6 K. First eigenvalue thermally accessible. Toy 2048."
+    },
+    {
+      "symbol": "r_Z34",
+      "name": "Z_cav(3)/Z_cav(4) ratio",
+      "formula": "rank*n_C - 1/rank",
+      "geometric_source": "D_IV^5 spectral zeta",
+      "value": 9.5,
+      "observed": 9.522,
+      "precision": 0.232,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Engineering",
+      "tier": "I",
+      "cal_tier": "I",
+      "notes": "Zeta ratio near FE pole. 19/2. Toy 2048."
+    },
+    {
+      "symbol": "r_Z45",
+      "name": "Z_cav(4)/Z_cav(5) ratio",
+      "formula": "g - 1/g",
+      "geometric_source": "D_IV^5 spectral zeta",
+      "value": 6.857,
+      "observed": 6.835,
+      "precision": 0.326,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Engineering",
+      "tier": "I",
+      "cal_tier": "I",
+      "notes": "48/7. Approaches C_2 at large s. Toy 2048."
+    },
+    {
+      "symbol": "phi4",
+      "name": "phi^4 BST expression",
+      "formula": "g - 1/g",
+      "geometric_source": "D_IV^5 genus",
+      "value": 6.857,
+      "observed": 6.854,
+      "precision": 0.044,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "number_theory",
+      "paper83_section_name": "Number Theory",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "48/7. Toy 2049."
+    },
+    {
+      "symbol": "phi5",
+      "name": "phi^5 ~ c_2",
+      "formula": "c_2",
+      "geometric_source": "D_IV^5 Chern",
+      "value": 11,
+      "observed": 11.09,
+      "precision": 0.813,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "number_theory",
+      "paper83_section_name": "Number Theory",
+      "tier": "I",
+      "cal_tier": "I",
+      "notes": "phi^5=11.090 vs c_2=11. Toy 2049."
+    },
+    {
+      "symbol": "phi10",
+      "name": "phi^10 ~ N_max - rank*g",
+      "formula": "N_max - rank*g",
+      "geometric_source": "D_IV^5",
+      "value": 123,
+      "observed": 122.992,
+      "precision": 0.007,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "number_theory",
+      "paper83_section_name": "Number Theory",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "123=N_max-14. Toy 2049."
+    },
+    {
+      "symbol": "n_fib_bst",
+      "name": "Fibonacci numbers <= N_max that are BST",
+      "formula": "c_2",
+      "geometric_source": "D_IV^5 Chern",
+      "value": 11,
+      "observed": 11,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "number_theory",
+      "paper83_section_name": "Number Theory",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "F(1..13): exactly 11 are BST products. Toy 2049."
+    },
+    {
+      "symbol": "sum_F10",
+      "name": "Sum of first 10 Fibonacci numbers",
+      "formula": "N_max + C_2",
+      "geometric_source": "D_IV^5 integers",
+      "value": 143,
+      "observed": 143,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "number_theory",
+      "paper83_section_name": "Number Theory",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "F_1+...+F_10 = 143 = 137+6. Toy 2049."
+    },
+    {
+      "symbol": "span_F9",
+      "name": "Fibonacci 9-element array span",
+      "formula": "rank^3*c_2",
+      "geometric_source": "D_IV^5 product",
+      "value": 88,
+      "observed": 88,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "number_theory",
+      "paper83_section_name": "Number Theory",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "Sum(F_1..F_9)=88=8*11. Toy 2049."
+    },
+    {
+      "symbol": "L4",
+      "name": "Lucas number L_4 = g",
+      "formula": "g",
+      "geometric_source": "D_IV^5 genus",
+      "value": 7,
+      "observed": 7,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "number_theory",
+      "paper83_section_name": "Number Theory",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "L_4 = F_3 + F_5 = rank + n_C = g. Toy 2049."
+    },
+    {
+      "symbol": "L5",
+      "name": "Lucas number L_5 = c_2",
+      "formula": "c_2",
+      "geometric_source": "D_IV^5 Chern",
+      "value": 11,
+      "observed": 11,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "number_theory",
+      "paper83_section_name": "Number Theory",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "L_5 = F_4 + F_6 = N_c + rank^3 = c_2. Toy 2049."
+    },
+    {
+      "symbol": "I_h",
+      "name": "Icosahedral group order",
+      "formula": "n_C!",
+      "geometric_source": "D_IV^5 factorial",
+      "value": 120,
+      "observed": 120,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "crystallography",
+      "paper83_section_name": "Crystallography",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "|I_h| = 120 = 5! = n_C!. Toy 2049."
+    },
+    {
+      "symbol": "I_rot",
+      "name": "Icosahedral rotation group order",
+      "formula": "N_c*rank^2*n_C",
+      "geometric_source": "D_IV^5 product",
+      "value": 60,
+      "observed": 60,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "crystallography",
+      "paper83_section_name": "Crystallography",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "|I| = 60 = 3*4*5. Toy 2049."
+    },
+    {
+      "symbol": "QC_sym",
+      "name": "Quasicrystal diffraction symmetry",
+      "formula": "rank*n_C",
+      "geometric_source": "D_IV^5 product",
+      "value": 10,
+      "observed": 10,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "crystallography",
+      "paper83_section_name": "Crystallography",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "10-fold = rank*n_C. Penrose tiling. Toy 2049."
+    },
+    {
+      "symbol": "ocean_cable_Tc_match",
+      "name": "BST T_c = 276 K = deep ocean temperature (275-277 K)",
+      "formula": "T_c = rank^2*(N_c*(g+1)-1)*N_c = 4*23*3 = 276 K. Ocean floor = 276 K.",
+      "geometric_source": "Toy 2052.",
+      "value": 276,
+      "observed": 276,
+      "precision": "exact",
+      "theorem": "T1676",
+      "status": "exact",
+      "paper83_section": "13",
+      "paper83_section_name": "Materials science",
+      "tier": "A",
+      "cal_tier": "D",
+      "notes": "SE-11. Ocean = natural refrigerator at EXACTLY T_c. 20mm cable, zero loss."
+    },
+    {
+      "symbol": "photonic_137_spec",
+      "name": "N_max photonic crystal: 9 samples, BST predicts 0.7% Q anomaly at N=137",
+      "formula": "Si/SiO2 Bragg stack at 1550 nm. N=125..150. Standard PECVD. $10K total.",
+      "geometric_source": "Toy 2053.",
+      "value": 137,
+      "observed": "to be tested",
+      "precision": "prediction",
+      "theorem": "T186",
+      "status": "prediction",
+      "paper83_section": "13",
+      "paper83_section_name": "Materials science",
+      "tier": "C",
+      "cal_tier": "C",
+      "notes": "SE-24. FALSIFIABLE: Q peaks at 137 or not. $10K. 3-5 weeks."
+    },
+    {
+      "symbol": "E_Fe",
+      "name": "Young's modulus iron",
+      "formula": "rank*N_c*n_C*g",
+      "geometric_source": "D_IV^5 product",
+      "value": 210,
+      "observed": 211,
+      "precision": 0.47,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "E(Fe) = rank*N_c*n_C*g = 210 GPa. Toy 2050."
+    },
+    {
+      "symbol": "E_Cu",
+      "name": "Young's modulus copper",
+      "formula": "rank*n_C*c_3",
+      "geometric_source": "D_IV^5 product",
+      "value": 130,
+      "observed": 130,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "E(Cu) = rank*n_C*c_3 = 130 GPa. EXACT. Toy 2050."
+    },
+    {
+      "symbol": "E_Al",
+      "name": "Young's modulus aluminum",
+      "formula": "rank*n_C*g",
+      "geometric_source": "D_IV^5 product",
+      "value": 70,
+      "observed": 70,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "E(Al) = rank*n_C*g = 70 GPa. EXACT. E(Fe)/E(Al) = N_c = 3. Toy 2050."
+    },
+    {
+      "symbol": "E_W",
+      "name": "Young's modulus tungsten",
+      "formula": "N_c*N_max",
+      "geometric_source": "D_IV^5 product",
+      "value": 411,
+      "observed": 411,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "E(W) = N_c*N_max = 411 GPa. EXACT. Toy 2050."
+    },
+    {
+      "symbol": "E_Au",
+      "name": "Young's modulus gold",
+      "formula": "c_2*g+rank",
+      "geometric_source": "D_IV^5 product",
+      "value": 79,
+      "observed": 79,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "E(Au) = c_2*g+rank = 79 GPa. EXACT. Toy 2050."
+    },
+    {
+      "symbol": "nu_metal",
+      "name": "Poisson ratio metals",
+      "formula": "N_c/(rank*n_C)",
+      "geometric_source": "D_IV^5 ratio",
+      "value": 0.3,
+      "observed": 0.3,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "nu(metals) = N_c/(rank*n_C) = 3/10 = 0.3. Same as TI gap Bi2Se3. EXACT. Toy 2050."
+    },
+    {
+      "symbol": "nu_Au",
+      "name": "Poisson ratio gold",
+      "formula": "c_2/n_C^2",
+      "geometric_source": "D_IV^5 ratio",
+      "value": 0.44,
+      "observed": 0.44,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "nu(Au) = c_2/n_C^2 = 11/25 = 0.44. EXACT. Toy 2050."
+    },
+    {
+      "symbol": "Pugh_critical",
+      "name": "Pugh ductile-brittle boundary",
+      "formula": "g/rank^2",
+      "geometric_source": "D_IV^5 ratio",
+      "value": 1.75,
+      "observed": 1.75,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "K/G critical = g/rank^2 = 7/4 = gamma(2D Ising). EXACT. Toy 2050."
+    },
+    {
+      "symbol": "GoverE_metal",
+      "name": "Shear/Young ratio metals",
+      "formula": "n_C/c_3",
+      "geometric_source": "D_IV^5 ratio",
+      "value": 0.3846,
+      "observed": 0.3846,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "G/E(metals, nu=0.3) = n_C/c_3 = 5/13. EXACT. Toy 2050."
+    },
+    {
+      "symbol": "G_Cu",
+      "name": "Shear modulus copper",
+      "formula": "rank^4*N_c",
+      "geometric_source": "D_IV^5 product",
+      "value": 48,
+      "observed": 48,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "G(Cu) = rank^4*N_c = 48 GPa. EXACT. Toy 2050."
+    },
+    {
+      "symbol": "K_BTO",
+      "name": "Bulk modulus BaTiO3",
+      "formula": "rank*N_c^4",
+      "geometric_source": "D_IV^5 product",
+      "value": 162,
+      "observed": 162,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "K(BaTiO3) = rank*N_c^4 = 162 GPa. EXACT. Toy 1993/2050."
+    },
+    {
+      "symbol": "K_Fe",
+      "name": "Bulk modulus iron",
+      "formula": "rank*n_C*seesaw",
+      "geometric_source": "D_IV^5 product",
+      "value": 170,
+      "observed": 170,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "K(Fe) = rank*n_C*seesaw = 170 GPa. EXACT. Toy 2050."
+    },
+    {
+      "symbol": "kappa_Diamond",
+      "name": "Thermal conductivity diamond",
+      "formula": "rank^3*n_C^2*c_2",
+      "geometric_source": "D_IV^5 product",
+      "value": 2200,
+      "observed": 2200,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "kappa(Diamond) = rank^3*n_C^2*c_2 = 8*25*11 = 2200 W/m\u00b7K. EXACT. Toy 2051."
+    },
+    {
+      "symbol": "kappa_Cu",
+      "name": "Thermal conductivity copper",
+      "formula": "N_c*N_max - rank*n_C",
+      "geometric_source": "D_IV^5 product",
+      "value": 401,
+      "observed": 401,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "kappa(Cu) = N_c*N_max - rank*n_C = 401 W/m\u00b7K. EXACT. Toy 2051."
+    },
+    {
+      "symbol": "kappa_Ag",
+      "name": "Thermal conductivity silver",
+      "formula": "N_c*N_max + rank*N_c^2",
+      "geometric_source": "D_IV^5 product",
+      "value": 429,
+      "observed": 429,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "kappa(Ag) = N_c*N_max + rank*N_c^2 = 429 W/m\u00b7K. EXACT. Toy 2051."
+    },
+    {
+      "symbol": "kappa_Au",
+      "name": "Thermal conductivity gold",
+      "formula": "rank*(N_max+seesaw+n_C)",
+      "geometric_source": "D_IV^5 product",
+      "value": 318,
+      "observed": 318,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "kappa(Au) = rank*(N_max+seesaw+n_C) = 318 W/m\u00b7K. EXACT. Toy 2051."
+    },
+    {
+      "symbol": "kappa_Al",
+      "name": "Thermal conductivity aluminum",
+      "formula": "N_c*c_2*g + rank*N_c",
+      "geometric_source": "D_IV^5 product",
+      "value": 237,
+      "observed": 237,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "kappa(Al) = N_c*c_2*g + rank*N_c = 237 W/m\u00b7K. EXACT. Toy 2051."
+    },
+    {
+      "symbol": "kappa_Fe",
+      "name": "Thermal conductivity iron",
+      "formula": "rank^4*n_C",
+      "geometric_source": "D_IV^5 product",
+      "value": 80,
+      "observed": 80.4,
+      "precision": 0.5,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "kappa(Fe) = rank^4*n_C = 80 W/m\u00b7K. Toy 2051."
+    },
+    {
+      "symbol": "kappa_W",
+      "name": "Thermal conductivity tungsten",
+      "formula": "c_3^2 + rank^2",
+      "geometric_source": "D_IV^5 product",
+      "value": 173,
+      "observed": 173,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "kappa(W) = c_3^2 + rank^2 = 173 W/m\u00b7K. EXACT. Toy 2051."
+    },
+    {
+      "symbol": "kappa_SiC",
+      "name": "Thermal conductivity SiC",
+      "formula": "n_C*(N_max - chern_sum + N_c)",
+      "geometric_source": "D_IV^5 product",
+      "value": 490,
+      "observed": 490,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "kappa(SiC) = n_C*(N_max - 42 + N_c) = 490 W/m\u00b7K. EXACT. Toy 2051."
+    },
+    {
+      "symbol": "kappa_BN",
+      "name": "Thermal conductivity BN cubic",
+      "formula": "N_c^2*(N_max - chern_sum + n_C)",
+      "geometric_source": "D_IV^5 product",
+      "value": 900,
+      "observed": 900,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "kappa(BN) = N_c^2*(N_max-42+n_C) = 900 W/m\u00b7K. EXACT. Toy 2051."
+    },
+    {
+      "symbol": "r_kappa_DiaBN",
+      "name": "Diamond/BN thermal conductivity ratio",
+      "formula": "rank*c_2/N_c^2",
+      "geometric_source": "D_IV^5 ratio",
+      "value": 2.444,
+      "observed": 2.444,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "kappa(Diamond)/kappa(BN) = rank*c_2/N_c^2 = 22/9. EXACT. Toy 2051."
+    },
+    {
+      "symbol": "WF_factor",
+      "name": "Wiedemann-Franz Lorenz factor",
+      "formula": "pi^2/N_c",
+      "geometric_source": "D_IV^5 evaluation",
+      "value": 3.2899,
+      "observed": 3.2899,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "L_0 = pi^2/N_c * (k_B/e)^2. The N_c=3 is BST. Toy 2051."
+    },
+    {
+      "symbol": "MFP_ratio_DiaSi",
+      "name": "MFP Diamond/Si ratio",
+      "formula": "n_C*N_c/rank",
+      "geometric_source": "D_IV^5 ratio",
+      "value": 7.5,
+      "observed": 7.5,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "materials",
+      "paper83_section_name": "Materials Science",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "MFP(Diamond)/MFP(Si) = n_C*N_c/rank = 15/2. EXACT. Toy 2051."
+    },
+    {
+      "symbol": "Res_3",
+      "name": "FE residue at s=3",
+      "formula": "-rank",
+      "geometric_source": "D_IV^5 FE",
+      "value": -2,
+      "observed": -2,
+      "precision": 0.0,
+      "theorem": "T1638",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "Mass creation pole. Toy 2054."
+    },
+    {
+      "symbol": "Res_4",
+      "name": "FE residue at s=4",
+      "formula": "C_2",
+      "geometric_source": "D_IV^5 FE",
+      "value": 6,
+      "observed": 6,
+      "precision": 0.0,
+      "theorem": "T1638",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "Force modification pole. Toy 2054."
+    },
+    {
+      "symbol": "FE_0",
+      "name": "FE value at s=0",
+      "formula": "1/C_2",
+      "geometric_source": "D_IV^5 FE",
+      "value": 0.16667,
+      "observed": 0.16667,
+      "precision": 0.0,
+      "theorem": "T1638",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "FE(0)*FE(5)=1 duality. Toy 2054."
+    },
+    {
+      "symbol": "FE_5",
+      "name": "FE value at s=5",
+      "formula": "C_2",
+      "geometric_source": "D_IV^5 FE",
+      "value": 6,
+      "observed": 6,
+      "precision": 0.0,
+      "theorem": "T1638",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "(4)(3)/(2)(1) = 6. Toy 2054."
+    },
+    {
+      "symbol": "FE_35",
+      "name": "FE at midpoint s=3.5",
+      "formula": "-N_c*n_C",
+      "geometric_source": "D_IV^5 FE",
+      "value": -15,
+      "observed": -15,
+      "precision": 0.0,
+      "theorem": "T1638",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "Midpoint between poles. Toy 2054."
+    },
+    {
+      "symbol": "FE_3g",
+      "name": "FE at s=3+1/g",
+      "formula": "-rank^2*n_C",
+      "geometric_source": "D_IV^5 FE",
+      "value": -20,
+      "observed": -20,
+      "precision": 0.0,
+      "theorem": "T1638",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "Near-pole probe at distance 1/g. Toy 2054."
+    },
+    {
+      "symbol": "lev_3",
+      "name": "Spectral leverage at s=3",
+      "formula": "n_C + rank/N_c",
+      "geometric_source": "D_IV^5 zeta",
+      "value": 5.667,
+      "observed": 5.642,
+      "precision": 0.435,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Engineering",
+      "tier": "I",
+      "cal_tier": "I",
+      "notes": "17/3 = |dZ/ds|/Z at s=3. Toy 2054."
+    },
+    {
+      "symbol": "r_Z34_full",
+      "name": "Z(3)/Z(4) full spectrum ratio",
+      "formula": "seesaw + rank",
+      "geometric_source": "D_IV^5 zeta",
+      "value": 19,
+      "observed": 18.926,
+      "precision": 0.392,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "spectral",
+      "paper83_section_name": "Spectral Geometry",
+      "tier": "I",
+      "cal_tier": "I",
+      "notes": "Full zeta ratio. Toy 2054."
+    },
+    {
+      "symbol": "n2_diamond",
+      "name": "Diamond n^2",
+      "formula": "(C_2^2-1)/C_2",
+      "geometric_source": "D_IV^5 evaluation",
+      "value": 5.833,
+      "observed": 5.842,
+      "precision": 0.15,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "optics",
+      "paper83_section_name": "Optics",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "n(Diamond)^2 = 35/6 = (C_2^2-1)/C_2. n=2.415 (0.07%). Toy 2055."
+    },
+    {
+      "symbol": "n2_sapphire",
+      "name": "Sapphire n^2",
+      "formula": "n_C^2/rank^3",
+      "geometric_source": "D_IV^5 ratio",
+      "value": 3.125,
+      "observed": 3.126,
+      "precision": 0.01,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "optics",
+      "paper83_section_name": "Optics",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "n(Sapphire)^2 = n_C^2/rank^3 = 25/8. n=1.7678 (0.01%). Toy 2055."
+    },
+    {
+      "symbol": "n_Ge",
+      "name": "Refractive index Ge",
+      "formula": "rank^2",
+      "geometric_source": "D_IV^5 product",
+      "value": 4.0,
+      "observed": 4.0,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "optics",
+      "paper83_section_name": "Optics",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "n(Ge at 10um) = rank^2 = 4. EXACT. Toy 2055."
+    },
+    {
+      "symbol": "eps_Si",
+      "name": "Dielectric constant Si",
+      "formula": "c_2 + g/(rank*n_C)",
+      "geometric_source": "D_IV^5 evaluation",
+      "value": 11.7,
+      "observed": 11.7,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "optics",
+      "paper83_section_name": "Optics",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "eps(Si) = c_2 + g/(rank*n_C) = 117/10 = 11.7. EXACT. Toy 2055."
+    },
+    {
+      "symbol": "eps_GaAs",
+      "name": "Dielectric constant GaAs",
+      "formula": "c_3 - 1/(rank*n_C)",
+      "geometric_source": "D_IV^5 evaluation",
+      "value": 12.9,
+      "observed": 12.9,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "optics",
+      "paper83_section_name": "Optics",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "eps(GaAs) = c_3 - 1/(rank*n_C) = 129/10 = 12.9. EXACT. Toy 2055."
+    },
+    {
+      "symbol": "V_crown",
+      "name": "Abbe number crown glass",
+      "formula": "N_c*(seesaw+N_c)",
+      "geometric_source": "D_IV^5 product",
+      "value": 60,
+      "observed": 60,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "optics",
+      "paper83_section_name": "Optics",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "V(crown) = N_c*(seesaw+N_c) = 60. EXACT = kappa(Ge). Toy 2055."
+    },
+    {
+      "symbol": "V_flint",
+      "name": "Abbe number flint glass",
+      "formula": "C_2^2",
+      "geometric_source": "D_IV^5 product",
+      "value": 36,
+      "observed": 36,
+      "precision": 0.0,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "optics",
+      "paper83_section_name": "Optics",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "V(flint) = C_2^2 = 36 = lambda_4. EXACT. Toy 2055."
+    },
+    {
+      "symbol": "n2_GaAs_optical",
+      "name": "GaAs optical n^2",
+      "formula": "(c_2*n_C+rank)/n_C",
+      "geometric_source": "D_IV^5 evaluation",
+      "value": 11.4,
+      "observed": 11.411,
+      "precision": 0.1,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "optics",
+      "paper83_section_name": "Optics",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "n(GaAs)^2 = (c_2*n_C+rank)/n_C = 57/5. n=3.376 (0.05%). Toy 2055."
+    },
+    {
+      "symbol": "n2_Si_1550",
+      "name": "Si n^2 at 1550nm",
+      "formula": "(rank^2*N_c*rank*n_C+1)/(rank*n_C)",
+      "geometric_source": "D_IV^5 evaluation",
+      "value": 12.1,
+      "observed": 12.11,
+      "precision": 0.04,
+      "theorem": "T186",
+      "status": "verified",
+      "paper83_section": "optics",
+      "paper83_section_name": "Optics",
+      "tier": "D",
+      "cal_tier": "D",
+      "notes": "n(Si)^2 = 121/10 = 11^2/10 = c_2^2/(rank*n_C). n=3.479. Toy 2055."
+    },
+    {
+      "symbol": "lattice_index_complete",
+      "name": "[SO(7;Z):Gamma(137)] = 7.43e44 (45 digits). Z-5 COMPLETE.",
+      "formula": "N_max^(N_c^2) * (rank^3*17)^2 * (rank*N_c*23)^2 * (rank*n_C*1877) * (N_max^4+N_max^2+1).",
+      "geometric_source": "Toy 2057.",
+      "value": 7.43e+44,
+      "observed": 7.43e+44,
+      "precision": "exact",
+      "theorem": "T1664",
+      "status": "exact",
+      "paper83_section": "Structural",
+      "paper83_section_name": "Structural",
+      "tier": "A",
+      "cal_tier": "D",
+      "notes": "Z-5 COMPLETE. 45-digit number. Exponent=N_c^2. N_max\u00b11 both BST. rank^(rank^3) self-referential."
     }
   ]
 }

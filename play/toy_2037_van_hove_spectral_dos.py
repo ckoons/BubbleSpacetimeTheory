@@ -16,7 +16,7 @@ Derived: c_2=11, c_3=13, seesaw=17, chern_sum=42
 Author: Elie (SE-4.3 — Casey investigation sprint)
 Date: May 4, 2026
 
-SCORE: 0/0
+SCORE: 31/31 ALL D-TIER
 """
 
 import math
@@ -108,23 +108,26 @@ test("lambda_5 = n_C*rank*n_C = 50",
 test("Eigenvalue gaps: AP with common difference = rank = 2",
      rank, (lam(2)-lam(1)) - (lam(1)-lam(0)), 0.01)
 
-# Gap_k = lambda_k - lambda_{k-1} = 2k+4 = rank*(k+rank)
-# This means: gap(1)=6+2=8=rank^3, gap(2)=rank*4+2=10=rank*n_C,
-# gap(3)=12=rank^2*N_c, gap(4)=14=rank*g, gap(5)=16=rank^4
-test("Gap(1) = rank^3 = 8",
-     rank**3, lam(1)-lam(0), 0.01)
+# Gap(k->k+1) = lambda_{k+1} - lambda_k = 2(k+1)+4 = 2k+6
+# Gap(0->1)=6=C_2, Gap(1->2)=8=rank^3, Gap(2->3)=10=rank*n_C,
+# Gap(3->4)=12=rank^2*N_c, Gap(4->5)=14=rank*g, Gap(5->6)=16=rank^4
+test("Gap(0->1) = C_2 = 6 (mass gap)",
+     C_2, lam(1)-lam(0), 0.01)
 
-test("Gap(2) = rank*n_C = 10",
-     rank*n_C, lam(2)-lam(1), 0.01)
+test("Gap(1->2) = rank^3 = 8",
+     rank**3, lam(2)-lam(1), 0.01)
 
-test("Gap(3) = rank^2*N_c = 12",
-     rank**2*N_c, lam(3)-lam(2), 0.01)
+test("Gap(2->3) = rank*n_C = 10",
+     rank*n_C, lam(3)-lam(2), 0.01)
 
-test("Gap(4) = rank*g = 14 = lambda_2",
-     rank*g, lam(4)-lam(3), 0.01)
+test("Gap(3->4) = rank^2*N_c = 12",
+     rank**2*N_c, lam(4)-lam(3), 0.01)
 
-test("Gap(5) = rank^4 = 16",
-     rank**4, lam(5)-lam(4), 0.01)
+test("Gap(4->5) = rank*g = 14 = lambda_2",
+     rank*g, lam(5)-lam(4), 0.01)
+
+test("Gap(5->6) = rank^4 = 16",
+     rank**4, lam(6)-lam(5), 0.01)
 
 print()
 
@@ -248,16 +251,19 @@ w1_s3 = mult(1) / lam(1)**3
 w2_s3 = mult(2) / lam(2)**3
 w3_s3 = mult(3) / lam(3)**3
 
-# w1/w2 at s=3
-test("w(1)/w(2) at s=3 ~ N_c + 1/N_c = 10/3",
-     (N_c + 1/N_c), w1_s3/w2_s3, 1.0)
+# EXACT: w1/w2 at s = g^(s+1)/N_c^(s+3)
+# Proof: d(1)=g, d(2)=N_c^3, lambda_1=C_2, lambda_2=rank*g
+# w1/w2 = (g*(rank*g)^s)/(N_c^3*C_2^s) = g^(s+1)*rank^s/(N_c^3*C_2^s)
+#        = g^(s+1)/N_c^(s+3)  since g*rank/C_2 = g/N_c
+test("w(1)/w(2) at s=3 = g^4/N_c^6 (EXACT)",
+     g**4/N_c**6, w1_s3/w2_s3, 0.01)
 
-# At s=4: emphasized differently
+# At s=4
 w1_s4 = mult(1) / lam(1)**4
 w2_s4 = mult(2) / lam(2)**4
 
-test("w(1)/w(2) at s=4 ~ seesaw*rank/N_c = 34/3",
-     seesaw*rank/N_c, w1_s4/w2_s4, 2.0)
+test("w(1)/w(2) at s=4 = g^5/N_c^7 (EXACT)",
+     g**5/N_c**7, w1_s4/w2_s4, 0.01)
 
 # Total spectral weight in first 5 levels at s=1:
 Z1_5 = sum(mult(k)/lam(k) for k in range(1,6))
@@ -266,12 +272,10 @@ Z1_5 = sum(mult(k)/lam(k) for k in range(1,6))
 test("Z(1) first 5 levels = sum d(k)/lambda_k",
      Z1_5, sum(mult(k)/lam(k) for k in range(1,6)), 0.01)
 
-# Fraction of total weight in first level:
-# At s=2: w(1)/Z(2)_5 = (7/36) / sum(d(k)/lam(k)^2 for k=1..5)
-Z2_5 = sum(mult(k)/lam(k)**2 for k in range(1,6))
-frac_1 = (mult(1)/lam(1)**2) / Z2_5
-test("First level fraction at s=2 ~ 1/(rank+1/N_c) = 3/7",
-     N_c/(N_c*rank+1), frac_1, 5.0)
+# General formula: w1/w2 at any s = g^(s+1)/N_c^(s+3)
+# This is the spectral dominance ratio — pure BST integers.
+test("w(1)/w(2) general pattern: (g/N_c)^s * g/N_c^3",
+     (g/N_c)**2 * g/N_c**3, (mult(1)/lam(1)**2)/(mult(2)/lam(2)**2), 0.01)
 
 print()
 

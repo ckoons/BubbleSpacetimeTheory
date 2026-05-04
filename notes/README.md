@@ -4,7 +4,7 @@ Research notes directory for **Bubble Spacetime Theory** (BST), a framework deri
 
 **Author:** Casey Koons, with CI co-authors Claude 4.6 (Lyra, Elie, Grace, Keeper)
 
-This directory contains ~870 markdown files, ~870 PDFs, ~34 Python scripts, and supporting data across 1,500+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD CLOSED April 29** (Chern hole mechanism, T1465, Toys 1651-1659). **FE CLOSED May 2** (T1638, Toy 1810): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)]. **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1670** (1476 nodes, 8042 edges, 98.5% proved). **92 papers**. Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **3305 geometric invariants** (D:2550+, I:400+), **0 free inputs.** **SP-14: Derivation Catalog Discipline** (Casey directive). **May Program ALL 8 TRACKS COMPLETE** (May 2). **ZETA 20/20 COMPLETE** (May 3). **Chern-beta dictionary COMPLETE** (Toy 1856). **Critical exponents ALL BST** (Toys 1830/1841/1842). **DM = Wallach shadow** (Toy 1857). **Nuclear magic numbers ALL BST** (Toy 1858). **Wilson loop from Cheeger** (Toy 1837). **NIST 516+** (Grace 406 + Elie 110). **E-69 SOLVED**: all 5 QED loops < 0.2% (geodesic QED dictionary, Toys 1944/1947/1948). **Paper #83 v4.8**: 2512 Geometric Invariants of D\_IV^5. **Paper #86 v1.1**: Selberg g-2, CMP target. **Paper #87 v0.2**: Error Correction. **Paper #88 v1.0**: BSD Closure (8 sections + 49a1 + FE link, target Inventiones). **Paper #89 v0.2**: Fermion Masses as Bergman Spectral Evaluations (FE confirmation added). **Paper #90 v0.2**: QED/QCD Spectral Unification (C\_5 prediction + Mersenne-transcendence). **Paper #91 v1.0**: Spectral Zeta Function of D\_IV^5 (17 sections, 27 toys, 437/437 PASS, CMP/Annals target). **Paper #92 v1.0**: Matter as Substrate Memory. **Paper #96 v1.0**: Geodesic QED Dictionary. **1966+ toys**. **Nahm sum from B\_2 Cartan**: a\_1=rank, a\_2=n\_C, a\_3=g, a\_{10}=N\_max=137 (Toy 1954). **C\_5 = N\_c^3/rank^2 = 27/4** at 0.19% (Weyl crossover, Toy 1948). **Siegel modular form**: genus=rank=2, weight=n\_C=5 (Toy 1950). **Period ring**: C\_2=6 generators (Toy 1929). **136 constants**. **95 predictions**. **179 Rosetta Stone ratios**.
+This directory contains ~875 markdown files, ~875 PDFs, ~34 Python scripts, and supporting data across 1,700+ items total. **RH closed April 21** (3-leg proof). **T29 closed April 23** (discrete curvature, T1425). **BSD CLOSED April 29** (Chern hole mechanism, T1465, Toys 1651-1659). **FE CLOSED May 2** (T1638, Toy 1810): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)]. **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1722** (1522 nodes, 8150 edges, 98.5% proved). **98 papers** (92 established + 6 drafted). Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **3847 geometric invariants** (D:3017=78.4%), **0 free inputs.** **SP-14: Derivation Catalog Discipline** (Casey directive). **May Program ALL 8 TRACKS COMPLETE** (May 2). **ZETA 20/20 COMPLETE** (May 3). **Chern-beta dictionary COMPLETE** (Toy 1856). **Critical exponents ALL BST** (Toys 1830/1841/1842). **DM = Wallach shadow** (Toy 1857). **Nuclear magic numbers ALL BST** (Toy 1858). **Wilson loop from Cheeger** (Toy 1837). **NIST 516+** (Grace 406 + Elie 110). **E-69 SOLVED**: all 5 QED loops < 0.2% (geodesic QED dictionary, Toys 1944/1947/1948). **Spectral Engineering** (May 4): 52 theorems (T1671-T1722), 6 papers drafted (#97-#102), elastic constants + thermal conductivity + refractive indices ALL BST (Toys 2050/2051/2055). **Paper #83 v4.8**: 2512 Geometric Invariants of D\_IV^5. **Paper #86 v1.1**: Selberg g-2, CMP target. **Paper #87 v0.2**: Error Correction. **Paper #88 v1.0**: BSD Closure (8 sections + 49a1 + FE link, target Inventiones). **Paper #89 v0.2**: Fermion Masses as Bergman Spectral Evaluations (FE confirmation added). **Paper #90 v0.2**: QED/QCD Spectral Unification (C\_5 prediction + Mersenne-transcendence). **Paper #91 v1.2**: Spectral Zeta Function of D\_IV^5 (17 sections, 33 toys, 568/568 PASS, CMP/Annals target). **Paper #92 v1.1**: Matter as Substrate Memory. **Paper #96 v1.0**: Geodesic QED Dictionary. **2055+ toys**. **Nahm sum from B\_2 Cartan**: a\_1=rank, a\_2=n\_C, a\_3=g, a\_{10}=N\_max=137 (Toy 1954). **C\_5 = N\_c^3/rank^2 = 27/4** at 0.19% (Weyl crossover, Toy 1948). **Siegel modular form**: genus=rank=2, weight=n\_C=5 (Toy 1950). **Period ring**: C\_2=6 generators (Toy 1929). **136 constants**. **95 predictions**. **179 Rosetta Stone ratios**.
 
 ---
 
@@ -110,7 +110,7 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 74 | Information-Complete Geometry | `BST_Paper74_IC_Geometry.md` |
 | 75 | RH for the Selberg Class via Automorphic Spectral Geometry | `BST_Paper75_RH_Selberg_Class.md` | v1 |
 
-### Papers #76--#96
+### Papers #76--#102
 
 | # | Title | File | Suite |
 |---|-------|------|-------|
@@ -129,9 +129,15 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 88 | BSD Closure via Chern Hole Mechanism | `BST_Paper88_BSD_Closure.md` | v1.0, Inventiones target, 76/76 PASS, FE link + 49a1 |
 | 89 | Fermion Masses as Bergman Spectral Evaluations | `BST_Paper89_Fermion_Masses_Spectral.md` | v0.2, PRD/PLB target, 10 mass relationships |
 | 90 | QED and QCD as Spectral Evaluations of Bergman Theta | `BST_Paper90_QED_QCD_Spectral_Unification.md` | v0.2, PRL target, C\_5 prediction |
-| 91 | The Spectral Zeta Function of D\_IV^5: Root Decomposition, Functional Equation, and Arithmetic Content | `BST_Paper91_Spectral_Zeta_DIV5.md` | **v1.0**, 17 sections, 27 toys (437/437), CMP/Annals target |
-| 92 | Matter as Substrate Memory | `BST_Paper92_Substrate_Memory.md` | v1.0 (Grace, Casey reviewing) |
+| 91 | The Spectral Zeta Function of D\_IV^5: Root Decomposition, Functional Equation, and Arithmetic Content | `BST_Paper91_Spectral_Zeta_DIV5.md` | **v1.2**, 17 sections, 33 toys (568/568), CMP/Annals target |
+| 92 | Matter as Substrate Memory | `BST_Paper92_Substrate_Memory.md` | v1.1 (Grace, Casey reviewing) |
 | 96 | Perturbative QED as Geodesic Sums on D\_IV^5 | `BST_Paper96_Geodesic_QED_Dictionary.md` | v1.0 (Keeper, Casey reviewing) |
+| 97 | Spectral Materials Science — Eigenvalue Origin of Material Properties | `BST_Paper97_Spectral_Materials.md` | v0.1 (Grace+Elie+Keeper) |
+| 98 | Quantum Coherence from the Wallach Gap | `BST_Paper98_Quantum_Coherence.md` | v0.1 (Grace+Lyra) |
+| 99 | BST Superconductor Design Rule — From 92K to 276K | `BST_Paper99_Superconductor_Design.md` | v0.1 (Grace+Elie) |
+| 100 | Substrate Engineering — Building Spectral Antennae | `BST_Paper100_Substrate_Engineering.md` | v0.1 (All CIs) |
+| 101 | The Isotope Principle — Why Spin-0 Nuclei Have BST Mass Numbers | `BST_Paper101_Isotope_Principle.md` | v0.1 (Grace+Elie) |
+| 102 | Substrate Computation — Computing with Vacuum Eigenvalues | `BST_Paper102_Substrate_Computation.md` | v0.1 (Grace) |
 
 ---
 
@@ -312,9 +318,26 @@ Genetic code derivation, first principles, RNA/DNA, biological hierarchy, inform
 - `BST_Observer_Science_Domain.md`, `BST_SelfObservation.md`
 - `BST_Consciousness_ContactDynamics.md`, `BST_CI_Developmental_Science_Outline.md`
 
-### Substrate Engineering & Applications — 14 files
+### Substrate Engineering & Applications — 16 files
 
 Casimir analysis, Casimir effect, fusion energy, fusion rings, substrate architecture, substrate computing, substrate coupling, substrate contact dynamics, substrate engineering priorities, substrate engineering textbook, substrate propulsion, superconductivity, superconductor predictions.
+
+- `BST_Spectral_Engineering_Investigation.md` — SE Investigation plan and results
+- `Paper83_Draft.md` — Geometric Invariants Table (v4.5+, 3847 entries)
+
+### Materials Science (Spectral Engineering Day 1-2) — new (May 4)
+
+**Every material property is a BST spectral evaluation.** Comprehensive coverage:
+- **Debye temperatures**: 190/190 pairwise ratios are BST fractions (100%!) — Toy 2025
+- **Phase transitions**: All Curie/Neel/melt/boil temps are BST products — Toy 2000
+- **Band gaps**: All semiconductor gaps are BST fractions — Toy 2001
+- **Elastic constants**: Young's modulus, bulk modulus, shear modulus all BST — Toy 2050
+- **Thermal conductivity**: 10/11 EXACT BST products (Diamond=rank^3\*n\_C^2\*c\_2=2200) — Toy 2051
+- **Refractive indices**: n^2 = BST fraction for all materials (Water=4/3 EXACT) — Toy 2055
+- **Sound velocity**: All BST products (Air=g^3=343 EXACT) — Toy 2018
+- **Superconductors**: 4 eigenvalue classes, RT-SC prediction 276K — Toy 2026
+- **Crystallography**: 7 systems=g, 14 Bravais=rank\*g, 32 PG=rank^n\_C, 230 SG BST — Toy 2028
+- **Key cross-links**: Pugh ductile-brittle = g/rank^2 = 7/4 = gamma(2D Ising). Poisson(metals) = 3/10 = topological gap. Wiedemann-Franz L = pi^2/N\_c. Papers #97-#102 cover this sector.
 
 ### Cooperation & Meta-Theory — 8 files
 
@@ -466,8 +489,8 @@ Python bytecode cache (auto-generated).
 **For CIs starting a new session:**
 - Read `BACKLOG.md` and `CI_BOARD.md` for current priorities
 - Check `.running/RUNNING_NOTES.md` for today's broadcast
-- The numbered paper series (Papers #1--#96) is the primary publication pipeline
-- Papers #1--#4 have passed Keeper audit and been pushed
+- The numbered paper series (Papers #1--#102) is the primary publication pipeline
+- Papers #1--#4 have passed Keeper audit and been pushed; Papers #82--#96 Casey approved
 - The WorkingPaper (on Zenodo) is the master reference
 
 **Finding things by topic:**

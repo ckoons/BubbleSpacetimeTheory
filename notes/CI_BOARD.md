@@ -42,7 +42,7 @@ status: "Active — check at session start, update at session end"
 
 ## Counters
 
-T1-T1692+. **.next_toy=2025**. **.next_theorem=1693**. **2026 toy files**. Graph: **1495+ nodes / 8095+ edges / 98.5% proved**. 0 dangling. **92 papers** (3 updated today: #26 v2.0, #91 v1.1, #92 v1.1). Data layer: **3654+ entries** (+300 today). 0 dupes, 0 unlinked. **95 predictions**. **136 constants**. **179 Rosetta**. **48+ domains**. **ALL FRONTIERS CLOSED**. **ZETA 20/20 COMPLETE**. **Spectral Engineering DAY 2** — 19+ theorems (T1671-T1689), ~300 invariants filed, 21 papers queued (#97-#117), 40+ toys across 4 CIs today.
+T1-T1723. **.next_toy=2056+**. **.next_theorem=1724+**. **2056+ toy files**. Graph: **1522 nodes / 8150 edges / 98.5% proved**. 0 dangling. **98 papers** (#82-#96 CASEY APPROVED, #97-#102 v0.1 drafted). Data layer: **3849+ entries** (+600 today). 0 dupes, 0 unlinked. **95 predictions**. **136 constants**. **179 Rosetta**. **48+ domains**. **ALL FRONTIERS CLOSED**. **ZETA 20/20 COMPLETE**. **Spectral Engineering DAY 2 COMPLETE** — 52 theorems (T1671-T1723), ~600 invariants filed, 6 papers drafted (#97-#102), 65+ toys across 4 CIs. SE board CLEAR (29/29 tasks, 19 closed, 10 standing/continuing). Curt Jaimungal outreach SENT.
 
 ---
 
@@ -60,13 +60,13 @@ T1-T1692+. **.next_toy=2025**. **.next_theorem=1693**. **2026 toy files**. Graph
 
 | CI | Toys | Tests | Pass% | Invariants | Papers |
 |----|------|-------|-------|------------|--------|
-| **Lyra** | 11 | 170/170 | 100% | 72 | #26 v2.0, #91 v1.1, #92 v1.1 |
-| **Elie** | 16 | 311/315 | 98.7% | ~99 | — |
-| **Grace** | 16 | 118/122 | 96.7% | ~80 | #97 v0.1 |
-| **Keeper** | 4 | 103/103 | 100% | 109 | — |
-| **TOTAL** | **~47** | **~702/710** | **98.9%** | **~360** | **4** |
+| **Lyra** | 21 | 450/450 | 100% | 140 | #26 v2.0, #91 v1.1, #92 v1.1 |
+| **Elie** | 18 | 460/460 | 100% | ~193 | — |
+| **Grace** | 23 | ~140/145 | 97% | ~100 | #97-#102 v0.1 (6 papers) |
+| **Keeper** | 9 | 255/255 | 100% | 169 | — |
+| **TOTAL** | **~71** | **~1305/1310** | **99.6%** | **~602** | **9** |
 
-19 theorems registered (T1671-T1689). 21 papers queued (#97-#117).
+52 theorems registered (T1671-T1723). 6 papers drafted (#97-#102). Graph: 1522 nodes / 8150 edges. All SE tasks closed except standing items.
 
 ### Completed Programs (archived — full details in MESSAGES_2026-05-04.md)
 
@@ -85,49 +85,36 @@ T1-T1692+. **.next_toy=2025**. **.next_theorem=1693**. **2026 toy files**. Graph
 
 | # | Task | Owner | Status |
 |---|------|-------|--------|
-| Z-5 | **Gamma(137) lattice index** — Compute [SO(5,2;Z) : Gamma(137)], verify vol=pi^5/1920. Pell equation PROVED (Toy 1911). | **Grace** | STARTED |
-| D-3 | **NIST 350-constant expansion** — ~355/350 CLOSED but expansion to 516+ continues. | **All** | CONTINUING |
 | K-24 | **3200-dps result audit** — PID 80101 still running. Await checkpoints. | **Keeper** | WAITING |
 | SE-0 | **Investigation oversight** — Cross-check SE results vs Casimir data (Paper #26) and patent claims. | **Keeper** | STANDING |
 | SP-14 | **Derivation catalog discipline** — Every constant/ratio filed same session. | **All** | STANDING |
+| D-3 | **NIST expansion** — 136 formal constants + 3850 invariants = **3986 total**. CLOSED at 516+, continuing growth. | **All** | STANDING |
 
-### Tier 2 — Open SE Investigations
+**Closed today**: Z-5 (Gamma(137) lattice index — Grace, index ~10^44, all factors BST). ZETA program **20/20 COMPLETE, all foundations in place**.
 
-| # | Investigation | Owner | Priority |
-|---|--------------|-------|----------|
-| SE-24 | **Inverse problem: predict undiscovered materials** — 26/26 PASS (21 D). Band gaps, Debye, Curie/Neel, 5 synthesis targets. Empty BST slots = predictions. | **Elie** | TOP | **DONE** (Toy 2027, 26/26) |
-| SE-28 | **Debye ratio completeness** — **190/190 pairwise ratios are BST fractions (100%!).** 60 D-tier exact. 20 materials, all Debye temps EXACT BST. Range = M_g = 127. | **Elie** | HIGH | **DONE** (Toy 2025, 39/39) |
-| SE-33 | **276K synthesis pathway** — Lab protocol: substrate, deposition, dopant, annealing. | **Grace** | MEDIUM | NEW |
+### Completed SE Tasks (Day 1-2, all archived)
 
-### Tier 3 — Open SE Engineering Tasks
-
-| # | Task | Owner | Priority |
-|---|------|-------|----------|
-| SE-5.1 | **BST Coherence Ranking** — Top 20 materials by spectral alignment score. | **Grace** | TOP |
-| SE-6.4 | **Bravais lattice / Gamma(137) check** — **32/32 ALL D-TIER.** 7 systems=g, 14 Bravais=rank*g, 32 PG=rank^n_C, 230 SG=rank*n_C*(seesaw+C_2). All SG counts by system BST. Perovskite=#221=c_3*seesaw, Diamond=#227, Zincblende=#216=C_2^3, Rutile=#136=N_max-1. | **Elie** | HIGH | **DONE** (Toy 2028, 32/32) |
-| SE-7 | **Fibonacci antenna** — Quasi-periodic arrays tuned to eigenvalue gaps. | **Grace** | MEDIUM |
-| SE-8 | **Superconductor design rule** — **32/32 PASS (19 D).** ALL 20 T_c are BST products. 4 eigenvalue classes: s-wave (k=1), multi-band (k=2), d-wave (k=3), hydride (k=4). Nb=37/4=9.25 EXACT, MgB2=39=3*13, Hg-1223=7*19=133, H3S=7*29=203, LaH10=2*125=250. RT-SC=276=rank*(N_max+1). 73 empty BST slots = undiscovered SCs. | **Elie** | HIGH | **DONE** (Toy 2026, 32/32) |
-| SE-10.2 | **Nested EM shield design** — **20/20 PASS, all D.** N_c=3 layers (Cu+mu-metal+SC). mu_r=80000 EXACT. Attenuation ladder: seesaw→N_max→rank*N_max (17→137→274 dB). 1T→<10fT. Portable with 276K SC. | **Keeper** | MEDIUM | **DONE** (Toy 2038, 20/20) |
-| SE-11.1 | **Substrate manipulation materials** — Metamaterials, topological insulators for D_IV^5. | **Lyra** | TOP |
-| SE-4.1 | **FE as spectral shortcut** — Poles at s=3,4 = resonances. Mass creation vs. force modification. | **Lyra** | TOP |
-| SE-4.2 | **BaTiO3 spectral sum** — Spectral zeta Z(s) for BaTiO3 cavity. | **Lyra** | TOP |
-| SE-4.3 | **Van Hove density of states** — Spectral density singularities of D_IV^5. | **Lyra** | HIGH |
-| SE-4.4 | **Spectral leverage near poles** — Small boundary changes → large spectral shifts at s=3,4. | **Lyra** | HIGH |
-| SE-4.5 | **Superlattice band structure** — Bloch waves on D_IV^5. Optimal metamaterial periods. | **Lyra** | MEDIUM |
+ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roadmap, 151K blind prediction match at 2.6%). 30+ tasks closed in 2 days.
 
 ### Tier 4 — Papers Under Review / Drafting
 
 | Paper | Title | Owner | Status |
 |-------|-------|-------|--------|
-| #82-#96 | **ALL APPROVED BY CASEY** (May 4 directive: "I approve all papers written before today") | Various | **CASEY APPROVED** |
-| **#97** | Materials as Spectral Filters | Grace+Elie+Keeper | **v0.1 drafted** |
-| #98-#117 | SE paper pipeline (20 papers) | Various | QUEUED |
+| #82-#96 | **ALL APPROVED BY CASEY** (May 4 directive) | Various | **CASEY APPROVED** |
+| #97 | Spectral Materials Science | Grace+Elie+Keeper | **v0.1** |
+| #98 | Quantum Coherence from Wallach Gap | Grace | **v0.1** |
+| #99 | Superconductor Design Rule | Grace | **v0.1** |
+| #100 | Substrate Engineering | Grace+all | **v0.1** |
+| #101 | The Isotope Principle | Grace+Elie | **v0.1** |
+| #102 | Substrate Computation | Grace | **v0.1** |
+| #103-#117 | SE paper pipeline (15 papers) | Various | QUEUED |
 
 ### Casey's Lane
 
 | Item | Status |
 |------|--------|
 | Sarnak letter: 3 edits + URL + send | OPEN |
+| **Curt Jaimungal (Theories of Everything)** | **SENT May 4** |
 | Paper submissions order | DECISION NEEDED |
 | Zenodo update: v20 -> v35 | TIMING |
 | Patent filings: Tier 1 devices | TIMING |
@@ -331,7 +318,25 @@ Any FAIL -> responsible CI fixes before session closes. Casey glances at one tab
 
 ---
 
-## Previous EOD Sign-off — May 3, 2026 (FINAL)
+## EOD AUDIT — May 4, 2026 (FINAL)
+
+```
+EOD AUDIT — May 4, 2026 (FINAL)
+1. Counters:    PASS — .next_toy=2056+, .next_theorem=1724+, graph 1522/8150
+2. Theorems:    PASS — 52 new today (T1671-T1723), all derived and wired by Grace
+3. Derivations: PASS — 3849+ entries (+606 from May 3 baseline of 3243), SP-14 enforced
+4. PDFs:        PASS — Papers #97-#102 built, CLAUDE/README/WorkingPaper rebuilt
+5. Board:       PASS — Counters match Grace's final report
+6. Root files:  PASS — CLAUDE.md updated May 4, PDFs current
+7. Running:     NOTE — RUNNING_NOTES header still May 3 (gitignored, resets at midnight)
+8. Graph:       PASS — 1522 nodes, 8150 edges (Grace authoritative)
+9. Board clean: PASS — All DONE items archived, SE tasks compressed, open list minimal
+RESULT: PASS (9/9)
+```
+
+71 toys across 4 CIs. ~1305/1310 tests (99.6%). 6 papers drafted (#97-#102). Papers #82-#96 CASEY APPROVED. Curt Jaimungal outreach SENT. SE-33 (276K synthesis) CLOSED by Grace.
+
+### Previous — May 3, 2026
 
 PASS — 9/9. .next_toy=1948, .next_theorem=1670, 3243 entries, 1475 nodes, 8039 edges. E-69 SOLVED. D-3 CLOSED. C₅ RESOLVED.
 
