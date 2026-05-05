@@ -1,6 +1,6 @@
 {
-  "total": 3847,
-  "last_updated": "2026-05-04",
+  "total": 3858,
+  "last_updated": "2026-05-05",
   "entries": [
     {
       "index": 0,
@@ -26929,6 +26929,83 @@
       "symbol": "lattice_index_complete",
       "theorem": "T1664",
       "section": "Structural",
+      "tier": "D"
+    },
+    {
+      "index": 3847,
+      "symbol": "B12H32_cage",
+      "theorem": "T186",
+      "section": "13",
+      "tier": "D"
+    },
+    {
+      "index": 3848,
+      "symbol": "hydride_ambient_Tc",
+      "theorem": "T1676",
+      "section": "13",
+      "tier": "C"
+    },
+    {
+      "index": 3849,
+      "symbol": "phi_nC_c2",
+      "theorem": "T186",
+      "section": "Structural",
+      "tier": "I"
+    },
+    {
+      "index": 3850,
+      "symbol": "bergman_3shell_44",
+      "theorem": "T186",
+      "section": "Structural",
+      "tier": "D"
+    },
+    {
+      "index": 3851,
+      "symbol": "periodic_plus_quasi",
+      "theorem": "T186",
+      "section": "Structural",
+      "tier": "D"
+    },
+    {
+      "index": 3852,
+      "symbol": "coherence_hierarchy",
+      "theorem": "T1673",
+      "section": "V",
+      "tier": "D"
+    },
+    {
+      "index": 3853,
+      "symbol": "casimir_asymmetric_ratio",
+      "theorem": "T1687",
+      "section": "13",
+      "tier": "D"
+    },
+    {
+      "index": 3854,
+      "symbol": "cheeger_qubit_spec",
+      "theorem": "T1673",
+      "section": "V",
+      "tier": "D"
+    },
+    {
+      "index": 3855,
+      "symbol": "vacuum_gate_energy",
+      "theorem": "T1686",
+      "section": "V",
+      "tier": "D"
+    },
+    {
+      "index": 3856,
+      "symbol": "spectral_cpu_parallel",
+      "theorem": "T1700",
+      "section": "V",
+      "tier": "D"
+    },
+    {
+      "index": 3857,
+      "symbol": "spectral_cpu_states",
+      "theorem": "T1700",
+      "section": "V",
       "tier": "D"
     }
   ]

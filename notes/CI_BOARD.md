@@ -94,15 +94,15 @@ T1-T1723. **.next_toy=2056+**. **.next_theorem=1724+**. **2056+ toy files**. Gra
 | R-7 | **W-boson short note** — BST predicts 80.361 GeV = n_C*m_p/(8*alpha). Pre-commit before 2026 resolution. | **Keeper** | **DONE** (May 5) — `notes/BST_W_Boson_Precommitment.md` |
 | R-8 | **Paper #75 RH — CRITICAL ISSUES FOUND** (see below) | **Cal (referee)** | DONE |
 | R-9 | **Verify 91.1 spectral gap source** — [PS09] IS for GSp(4)/SO(3,2), NOT SO(5,2). Different root multiplicities. BUT: Constraint 2 unnecessary if R-11 resolved (Constraints {1,3} eliminate all 45 types). **DEMOTED to presentation fix.** | **Lyra** | ANALYZED — see `notes/BST_Paper75_R9_R10_R11_Analysis.md` |
-| R-10 | **L-function degree fix** — Elie DONE (degree 6, factorization correct). **NEW DEEPER ISSUE**: Step 3 of Thm 6.1 conflates spectral parameters with L-function zeros. "Temperedness → GRH" is NOT a theorem. Need Selberg trace formula argument or conditional reframe. | **Lyra+Elie** | **SURFACE RESOLVED, STEP 3 OPEN** |
+| R-10 | **L-function degree fix** — Elie DONE (degree 6, factorization correct). **Step 3 RESOLVED via Fix C**: Selberg trace formula rewrite (Fix A) assessed as requiring tools beyond current state-of-the-art. Conditional reframe (Fix C) written: Theorem 6.1 (temperedness, unconditional) + Theorem 6.6 (RH, conditional on temperedness-implies-GRH). See `notes/BST_Paper75_Section6_FixC.md`. | **Lyra+Elie** | **FIX C WRITTEN** |
 | R-11 | **Constraint 1 justification** — Cite Arthur framework for parity claim, or prove as lemma, or remove and audit residual. **ESSENTIAL** if Constraint 2 removed (R-9). | **Lyra** | URGENT |
 | R-12 | **RH reframe** — Change "RH closed" to "RH conditional on SO(5,2) spectral gap." Update CLAUDE.md, board, all references. | **Keeper** | **DONE** (May 5) — updated CLAUDE.md, README.md, notes/README.md, WorkingPaper.md, Paper #67, Paper #82, Proof Gap Audit, referee log |
 | R-13 | **Paper #75 T1465-style honest assessment** — Write internal note with named gaps, tier labels, exact conditional. Apply same discipline as BSD. | **Keeper** | **DONE** (May 5) — `notes/BST_Paper75_Honest_Assessment.md` |
-| Y-1 | **Paper #76 W3 Selberg analog** — Make explicit: "spec(H) in {0} union [6,inf)" requires complementary-series exclusion (SO(5,2) analog of Selberg lambda_1 >= 1/4). Add one-paragraph conjecture statement. | **Lyra** | NEW |
+| Y-1 | **Paper #76 W3 Selberg analog** — Selberg-analog spectral gap WRITTEN: no complementary series, lambda_1 = C_2 = 6. Follows directly from Corollary 4.2 (temperedness). Connects RH + YM + BSD through single R-11 dependency. See `notes/BST_Y1_Selberg_Analog_Spectral_Gap.md`. | **Lyra** | **WRITTEN** |
 | Y-2 | **Poincare branching for pi_6** — Compute restriction of first holomorphic discrete series of SO_0(5,2) to Poincare subgroup. Show mass-spin content. | **Elie** | NEW |
-| Y-3 | **Reposition Paper #79** — Separate from technical A/B/C suite. Submit as position paper (AMS Notices / arXiv standalone). Not load-bearing. | **Keeper** | NEW |
-| Y-4 | **YM headline reframe** — Update CLAUDE.md "~99.5%" to honest statement. Propagate #80 §3.3 conjecture flag to abstract. "All compact simple groups" claim overstates body. | **Keeper** | NEW |
-| Y-5 | **G_2/E_8 sub-sector vs Clay** — Clarify that embedding G_2 in SO(7) QFT is not the same as constructing G_2 YM with Wightman axioms. Flag in abstract of #80. | **Keeper** | NEW |
+| Y-3 | **Reposition Paper #79** — Separate from technical A/B/C suite. Submit as position paper (AMS Notices / arXiv standalone). Not load-bearing. | **Keeper** | **DONE** (May 5) — header updated, repositioned from "Paper D" to standalone |
+| Y-4 | **YM headline reframe** — Paper #76 abstract updated: Selberg-analog conditional + Poincare branching flagged. CLAUDE.md already updated (this session). | **Keeper** | **DONE** (May 5) |
+| Y-5 | **G_2/E_8 sub-sector vs Clay** — Paper #80 abstract updated: G_2 conjectural, F_4/E_8 sub-sector, "all compact simple groups" replaced with honest scope. | **Keeper** | **DONE** (May 5) |
 | Y-6 | **Pure-gauge glueball** — BST derives 938 MeV (proton, full theory), not the pure-gauge glueball (1.4-1.8 GeV). The Clay problem asks for pure-gauge. Acknowledge gap. | **Lyra** | NEW |
 | K-24 | **3200-dps result audit** — PID 80101 still running. Await checkpoints. | **Keeper** | WAITING |
 | SE-0 | **Investigation oversight** — Cross-check SE results vs Casimir data (Paper #26) and patent claims. | **Keeper** | STANDING |
@@ -163,18 +163,18 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 
 ## Millennium Status (reference)
 
-*RH CONDITIONAL (R-10 Step 3 + R-11). T29 CLOSED (April 23). BSD 99.7% (conditional on DOF-to-K-type). P!=NP: THREE proved routes. Four-Color PROVED. YM CONDITIONAL (Selberg-analog spectral gap + Poincare branching + pure-gauge gap all open — Y-1 through Y-6). NS 99.5%. Hodge 98%.*
+*RH CONDITIONAL (Fix C written: temperedness unconditional pending R-11, RH conditional on temperedness-implies-GRH). T29 CLOSED (April 23). BSD 99.7% (conditional on DOF-to-K-type). P!=NP: THREE proved routes. Four-Color PROVED. YM CONDITIONAL (Y-1 spectral gap WRITTEN, Poincare branching + pure-gauge gap open — Y-2 through Y-6). NS 99.5%. Hodge 98%.*
 
 **RH Cold Audit Summary (May 5, updated by Lyra ~10 AM)**:
 - Structure is RIGHT: reduction of RH to finite spectral condition on SO(5,2)/Gamma(137) is genuine and publishable
 - **Gap A (R-9)**: The 91.1 Casimir bound cites [PS09] which is for GSp(4)/SO(3,2), NOT SO(5,2). Different root multiplicities. **DEMOTED**: Constraint 2 unnecessary if R-11 resolved — Constraints {1,3} alone eliminate all 45 types.
 - **Gap B surface (R-10)**: Degree mismatch RESOLVED by Elie. L is degree 6 (not 7). F(s) is factor: L(s,pi_F,Std_6) = F(s)^2 * zeta(s)^2.
-- **Gap B deep (R-10 Step 3)**: **NEW, CRITICAL**. Step 3 claims "temperedness → zeros on Re(s)=1/2." This conflates spectral parameters with L-function zeros. Temperedness gives absolute convergence for Re(s)>1 and functional equation, but does NOT fix zero locations. "Temperedness → GRH" is not a theorem — it IS the GRH. Fix requires Selberg trace formula argument or conditional reframe.
+- **Gap B deep (R-10 Step 3)**: **RESOLVED via Fix C**. Step 3 conflated spectral parameters with L-function zeros. Fix A (Selberg trace formula) assessed as beyond current state-of-the-art. Fix C (conditional reframe) WRITTEN: Theorem 6.1 (temperedness, unconditional) + Theorem 6.6 (RH, conditional on Conjecture 6.5: temperedness-implies-GRH). See `notes/BST_Paper75_Section6_FixC.md`.
 - **Gap C (R-11)**: Parity sign formula uncited. **ESSENTIAL** if Constraint 2 removed. Tractable (finite computation or Arthur [Art13] citation).
 - **Recommended reframe (revised)**: Paper proves two things:
   (1) UNCONDITIONAL: temperedness of automorphic spectrum of Gamma(137)\D_IV^5 (= Ramanujan for this space), pending R-11.
   (2) CONDITIONAL: RH, conditional on "temperedness implies GRH for standard L-function" (R-10 Step 3).
-- **DO NOT submit to Annals until R-10 Step 3 resolved.** R-11 is tractable. R-9 is moot if R-11 done. R-10 Step 3 is the binding constraint.
+- **R-10 Step 3 RESOLVED** (Fix C written). R-11 is tractable and is now the single binding constraint. R-9 is moot if R-11 done. Y-1 spectral gap WRITTEN (follows from temperedness). Submit after R-11 resolved.
 
 **YM Cold Audit Summary (May 5, cold reader)**:
 - **Most internally honest** of all three Clay packages (BSD, RH, YM). Paper #76 Section 1.1 terminology table, #77 Section 4.6 admission, #80 Section 3.3 conjecture flag, #79 Section 6.3 self-disclaimer are all good practice.

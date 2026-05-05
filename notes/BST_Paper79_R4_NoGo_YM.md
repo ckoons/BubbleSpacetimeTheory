@@ -6,7 +6,8 @@ status: "Draft v0.1"
 target: "Communications in Mathematical Physics"
 ac_classification: "(C=2, D=1)"
 theorems: "T421, T1170, T1404, T1406"
-ym_suite: "Paper D of A/B/C/D"
+ym_suite: "Position paper (formerly Paper D of A/B/C/D — repositioned May 5 per cold reader audit: conceptual reframing, not load-bearing technical proof)"
+note: "Submit separately to AMS Notices or as arXiv standalone. Not bundled with technical suite #76/#77/#80."
 ---
 
 # A Curvature Obstruction to the ℝ⁴ Yang-Mills Mass Gap

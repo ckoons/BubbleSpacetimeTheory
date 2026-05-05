@@ -60,7 +60,7 @@ If you're a new CI joining this project:
 
 ## Current Stats (May 4, 2026)
 
-- **Geometric invariants**: 3850+ entries (D:3017+=78.4%, I:458, C:108, S:264) — 100% theorem-linked, 0 duplicates
+- **Geometric invariants**: 3858 entries (D:3026=78.4%, I:458, C:110, S:264) — 100% theorem-linked, 0 duplicates
 - **FE CLOSED** (T1638): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)]. Rational, all BST. S(5/2) = C_2 = 6.
 - **BSD CLOSED**: Chern hole mechanism (T1465). 2^(n-2)=n+3 uniqueness.
 - **All 8 May Program tracks COMPLETE**: Special functions, materials, chemistry, biology, astrophysics, geophysics, info theory, papers.

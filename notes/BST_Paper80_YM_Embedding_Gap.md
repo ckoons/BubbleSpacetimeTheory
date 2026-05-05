@@ -13,7 +13,7 @@ ym_suite: "Paper C of A/B/C/D"
 
 ## Abstract
 
-We complete the Yang-Mills mass gap program for all compact simple gauge groups by treating the three groups — $G_2$, $F_4$, $E_8$ — that lack Hermitian symmetric spaces. The argument uses spectral embedding: each group embeds naturally into one that admits a bounded symmetric domain ($G_2 \subset \mathrm{SO}(7)$, $F_4 \subset E_6$, $E_8 \subset \mathrm{SO}(16)$), and the mass gap of the ambient theory restricts to the subgroup theory via the spectral descent inequality. Combined with Papers A and B, this establishes the Yang-Mills mass gap for all compact simple gauge groups on bounded symmetric domains, completing the full Cartan classification.
+We complete the Yang-Mills mass gap program for all compact simple gauge groups by treating the three groups — $G_2$, $F_4$, $E_8$ — that lack Hermitian symmetric spaces. The argument uses spectral embedding: each group embeds naturally into one that admits a bounded symmetric domain ($G_2 \subset \mathrm{SO}(7)$, $F_4 \subset E_6$, $E_8 \subset \mathrm{SO}(16)$), and the mass gap of the ambient theory restricts to the subgroup theory via the spectral descent inequality. The $G_2$ result is conjectural: the spectral descent inequality on which it rests has not been proved in general (Section 3.3). The $F_4$ and $E_8$ results use sub-Casimir positivity within ambient theories, which is not equivalent to constructing standalone Wightman-axiom QFTs for those gauge groups. Combined with Papers A and B, this establishes the Yang-Mills mass gap program for Hermitian-type groups on bounded symmetric domains; the exceptional groups $G_2$, $F_4$, $E_8$ remain conjectural or conditional on the descent inequality.
 
 ---
 

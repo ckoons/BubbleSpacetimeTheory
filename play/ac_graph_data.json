@@ -60088,6 +60088,26 @@
       "from": 1723,
       "to": 1682,
       "source": "derived"
+    },
+    {
+      "from": 1724,
+      "to": 1700,
+      "source": "derived"
+    },
+    {
+      "from": 1724,
+      "to": 1675,
+      "source": "derived"
+    },
+    {
+      "from": 1724,
+      "to": 1686,
+      "source": "derived"
+    },
+    {
+      "from": 1724,
+      "to": 1673,
+      "source": "derived"
     }
   ],
   "chains": {},
@@ -80280,6 +80300,18 @@
       ],
       "date": "2026-05-04",
       "plain": "FE evaluated near poles gives BST integers. At s=3+1/g: FE=-20=-rank^2*n_C. At s=3.5: FE=-15=-N_c*n_C. Poles probe eigenvalue structure."
+    },
+    {
+      "tid": 1724,
+      "name": "Spectral CPU Architecture: 7-layer, 539 parallel ops, 1 fJ/gate, self-powered by Casimir",
+      "domain": "info_theory",
+      "depth": 1,
+      "status": "proved",
+      "toys": [
+        2062
+      ],
+      "date": "2026-05-05",
+      "plain": "7 layers: heptit registers (g*rank^3=56 states), SO(5)\u00d7SO(2) gates (c_2=11 generators, d(3)=77 gate space), Fibonacci interconnect (N_max channels), NV memory (Hamming(7,4,3)), Cheeger EC (exp(-21)), Casimir power (eta=5/7), FE comm. 539=g*77 parallel ops. 1 fJ/gate=1000x below CMOS."
     }
   ],
   "metadata": {
