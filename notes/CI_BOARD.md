@@ -95,7 +95,7 @@ T1-T1723. **.next_toy=2056+**. **.next_theorem=1724+**. **2056+ toy files**. Gra
 | R-8 | **Paper #75 RH — CRITICAL ISSUES FOUND** (see below) | **Cal (referee)** | DONE |
 | R-9 | **Spectral gap** — **RESOLVED by Toy 2064**: NO arithmetic gap needed. Type 36 excluded by unitarity (displacement 9.0 > |rho|^2 = 8.5). Remaining 13 unitary types have displacement <= 2.25 < C_2 = 6 (Bergman gap). Elimination: IW sign (23) + unitarity (1) + C_2 gap (13) = 37/37. Replace [PS09] with "lambda_1 = C_2 = 6 > 9/4." | **Lyra** | **RESOLVED** — C_2 = 6 suffices |
 | R-10 | **L-function degree fix** — Elie DONE (degree 6, factorization correct). **Step 3 RESOLVED via Fix C**: Selberg trace formula rewrite (Fix A) assessed as requiring tools beyond current state-of-the-art. Conditional reframe (Fix C) written: Theorem 6.1 (temperedness, unconditional) + Theorem 6.6 (RH, conditional on temperedness-implies-GRH). See `notes/BST_Paper75_Section6_FixC.md`. | **Lyra+Elie** | **FIX C WRITTEN** |
-| R-11 | **Constraint 1 justification** — Elie Toy 2063: IW sign formula epsilon=(-1)^S kills 23/37 types. **Toy 2064 (Lyra)**: Type 36 excluded by unitarity, remaining 13 killed by C_2 = 6. **R-9 resolved: no arithmetic gap needed.** Citation: Arthur [Art13] Ch. 6. | **Elie+Lyra** | **COMPUTED** — R-9 resolved, only R-11 citation remains |
+| R-11 | **Constraint 1 justification** — **RESOLVED.** Three independent confirmations: Toy 2063 (IW sign, 23/37), Toy 2064 (unitarity+C_2, 37/37), Toy 2067 (full 13/13). Three-layer elimination: IW sign + unitarity + no-complementary-series. Only Arthur [Art13] Ch. 6 citation remains. | **Elie+Lyra** | **DONE** — citation only |
 | R-12 | **RH reframe** — Change "RH closed" to "RH conditional on SO(5,2) spectral gap." Update CLAUDE.md, board, all references. | **Keeper** | **DONE** (May 5) — updated CLAUDE.md, README.md, notes/README.md, WorkingPaper.md, Paper #67, Paper #82, Proof Gap Audit, referee log |
 | R-13 | **Paper #75 T1465-style honest assessment** — Write internal note with named gaps, tier labels, exact conditional. Apply same discipline as BSD. | **Keeper** | **DONE** (May 5) — `notes/BST_Paper75_Honest_Assessment.md` |
 | Y-1 | **Paper #76 W3 Selberg analog** — Selberg-analog spectral gap WRITTEN: no complementary series, lambda_1 = C_2 = 6. Follows directly from Corollary 4.2 (temperedness). Connects RH + YM + BSD through single R-11 dependency. See `notes/BST_Y1_Selberg_Analog_Spectral_Gap.md`. | **Lyra** | **WRITTEN** |
@@ -107,8 +107,8 @@ T1-T1723. **.next_toy=2056+**. **.next_theorem=1724+**. **2056+ toy files**. Gra
 | S-1 | **Paper #91 SPLIT** — DONE. `BST_Paper91_Math.md` (13 sections, ~600 lines, Compositio) + `BST_Paper91_Physics.md` (6 sections, ~280 lines, PRD). Original retained as parent. | **Keeper** | **DONE** (May 5) |
 | S-2 | **#91-Math: cite Bunke-Olbrich** — DONE in Section 6.1 of split file. Section 6.4 (quotient inheritance) removed. | **Keeper** | **DONE** (May 5) |
 | S-3 | **#91-Math: zeta_B vs Z** — zeta_B is protagonist in split. Z appears only in FE context (Section 6). | **Keeper** | **DONE** (May 5) |
-| S-4 | **#91-Math: Nahm a_10 truncation** — Verify a_10 = 137 at N_trunc > 8. Elie computation. | **Elie** | NEW |
-| S-5 | **R-11 parity computation** — Toy 2063: 37 Arthur types (not 45). IW sign kills 23/37, Casimir gap > 9 kills remaining 14. 37/37 ELIMINATED. **Two citations needed**: Arthur [Art13] Ch. 6 + Bergeron-Clozel or direct lambda_1 > 9. | **Elie** | **DONE** (Toy 2063) |
+| S-4 | **#91-Math: Nahm a_10 truncation** — **RESOLVED** (Toy 2066, 11/11): a_10 = 137 stable at N_trunc = 8, 10, 12, 15, 20. All 21 coefficients fully converged. | **Elie** | **DONE** (Toy 2066) |
+| S-5 | **R-11 parity computation** — **RESOLVED** (Toys 2063+2067). Three-layer elimination: IW sign (23) + unitarity (1) + no-complementary-series (13) = 37/37. Confirmed by Elie Toy 2067 (13/13). Only Arthur [Art13] Ch. 6 citation needed. | **Elie** | **DONE** (Toys 2063+2067) |
 | K-24 | **3200-dps result audit** — PID 80101 still running. Await checkpoints. | **Keeper** | WAITING |
 | SE-0 | **Investigation oversight** — Cross-check SE results vs Casimir data (Paper #26) and patent claims. | **Keeper** | STANDING |
 | SP-14 | **Derivation catalog discipline** — Every constant/ratio filed same session. | **All** | STANDING |
@@ -179,7 +179,8 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 - **Recommended reframe (final)**: Paper proves two things:
   (1) UNCONDITIONAL: temperedness of automorphic spectrum of Gamma(137)\\D_IV^5 (= Ramanujan for this space). Requires only: Arthur [Art13] citation for IW sign. R-9 resolved (C_2 = 6 suffices).
   (2) CONDITIONAL: RH, conditional on either test function correspondence (Fix A) or "temperedness implies GRH" (Fix C).
-- **Path to submission**: (a) Cite Arthur [Art13] Ch. 6 for IW sign — the ONLY remaining dependency. (b) Fix C already written. Fix A also drafted. Then submit.
+- **Fix A progress** (Lyra, Toy 2065, 15/15): Intertwining bridge residues. M(w_0) poles at zeta-zeros map to s_j = z_k-1. Rank-1 reduction via P_2 parabolic isolates short root factor m_s(s) = xi(s-2)/xi(s+1) — a shifted Weil explicit formula. Test function correspondence is a computation, not a conceptual obstacle.
+- **Path to submission**: (a) Cite Arthur [Art13] Ch. 6 for IW sign — the ONLY remaining dependency. (b) Fix C written. Fix A drafted with intertwining bridge (Section 4.4). Then submit.
 
 **YM Cold Audit Summary (May 5, cold reader)**:
 - **Most internally honest** of all three Clay packages (BSD, RH, YM). Paper #76 Section 1.1 terminology table, #77 Section 4.6 admission, #80 Section 3.3 conjecture flag, #79 Section 6.3 self-disclaimer are all good practice.

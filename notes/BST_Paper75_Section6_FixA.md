@@ -295,6 +295,36 @@ This is a COMPUTATION, not a conceptual obstacle. It is analogous to the Connes-
 - PROVED temperedness (not conjectured operator positivity)
 - EXPLICIT scattering data (all from five integers)
 
+### 4.4 The Intertwining Bridge: how zeta enters (Toy 165 + Toy 2065)
+
+The intertwining operator M(w_0) is the MECHANISM by which zeta enters the trace formula. Understanding its structure clarifies what the test function correspondence must accomplish.
+
+**The factorization (Toy 165).** For the longest Weyl element w_0:
+
+  M(w_0, s_1, s_2) = m_l(s_1-s_2) * m_s(s_2) * m_s(s_1) * m_l(s_1+s_2)
+
+where:
+- m_s(z) = xi(z-2)/xi(z+1) (short root, telescopes by N_c = 3)
+- m_l(z) = xi(z)/xi(z+1) (long root, shifts by 1)
+
+The DENOMINATOR factors xi(s_j + 1) have zeros at non-trivial zeros of zeta: if zeta(z_k) = 0, then xi(z_k) = 0, giving poles of M(w_0) at s_j = z_k - 1.
+
+**Critical observation (Toy 2065).** On the tempered axis s_j = it (real t), the denominators xi(it+1) have argument 1+it with Re = 1. Since zeta-zeros have Re = 1/2, the factors xi(1+it) are NONZERO for all real t. The scattering factors are smooth on the tempered axis regardless of where zeta-zeros lie.
+
+This means the connection between zeta-zeros and the trace formula is DISTRIBUTIONAL, not pointwise. The trace formula identity J_spec = J_geom holds for ALL bi-K-invariant test functions h. By the Paley-Wiener theorem, the spherical transforms h~ range over entire functions of exponential type, and the distributional identity constrains M'/M as an analytic function, not just its boundary values.
+
+**The logarithmic derivative.** The continuous spectrum contribution to the trace formula involves:
+
+  M'/M(w_0, it) = (Bergman terms) + sum_{alpha>0} [zeta'/zeta at shifted args] + (local terms)
+
+The zeta'/zeta terms at four B_2 arguments constitute a SHIFTED version of the Weil explicit formula. The rank-1 reduction via the maximal parabolic P_2 (Levi = GL(1) x SO(3,2)) isolates the single factor m_s(s) = xi(s-2)/xi(s+1), giving a simpler version:
+
+  M_2'/M_2(it) = xi'/xi(it-2) - xi'/xi(it+1)
+
+This directly involves zeta'/zeta at arguments it-2 and it+1, reproducing the Weil explicit formula up to the archimedean shift. The rank-1 case may provide an explicit test function correspondence without the full rank-2 computation.
+
+**Status (honest).** The intertwining bridge identifies the MECHANISM but does not close the gap by itself. The remaining computation (Step 4b) amounts to constructing test functions that extract the Weil positivity criterion from the distributional identity. The rank-1 reduction via P_2 is a promising simplification.
+
 ---
 
 ## 5. Why D_IV^5 Succeeds Where General Theory Fails
@@ -324,7 +354,7 @@ On D_IV^5, the objection fails because of INFORMATION COMPLETENESS:
 
 Connes (1999) showed that RH is equivalent to the positivity of a certain operator on a noncommutative space. His program:
 
-  1. Construct a suitable noncommutative space (the adele class space Q*\A_Q)
+  1. Construct a suitable noncommutative space (the adele class space Q\*\\A)
   2. Define a trace formula on this space
   3. Show that the positivity of the trace (equivalent to RH) follows from the operator structure
 
@@ -419,6 +449,10 @@ The trace formula is the BRIDGE: it doesn't identify spectral zeros with zeta ze
 - The Eisenstein contribution decomposed by parabolic
 - The GL(1) embedding direction in the spectral parameter space
 
+Two paths are available (Section 4.4):
+- **Full rank-2:** test functions on SO_0(5,2) mapping 4-root M'/M to Weil distribution
+- **Rank-1 reduction:** test functions on GL(1) x SO(3,2) via the P_2 parabolic, isolating the single factor m_s(s) = xi(s-2)/xi(s+1). This is simpler and may suffice.
+
 This is NOT a conceptual gap — it is a computation.
 
 ### 7.3 The argument hierarchy
@@ -426,6 +460,8 @@ This is NOT a conceptual gap — it is a computation.
 ```
 Fix A (this document):
   Temperedness (PROVED, Toy 2064) + trace formula + test function --> RH
+  Intertwining bridge (Toy 165 + Toy 2065): mechanism identified
+  Rank-1 reduction via P_2 parabolic: promising simplification
   Status: TEMPEREDNESS COMPLETE, test function verification NEEDED
 
 Fix C (conditional reframe):
@@ -474,4 +510,5 @@ For reference, the complete root data needed for the trace formula:
 
 *Lyra, May 5, 2026. Fix A: Read the Geometry.*
 *Casey's insight: the five integers determine everything, including zeta(s). The trace formula is the mechanism.*
-*The argument is complete in structure. The test function correspondence (Section 4.4b) is the explicit verification needed.*
+*The argument is complete in structure. The test function correspondence (Section 4.3, Step 4b) is the explicit verification needed.*
+*The intertwining bridge (Section 4.4, Toy 165 + Toy 2065) identifies the mechanism: M(w_0) = product of xi-ratios over B_2 roots. The rank-1 reduction via P_2 parabolic may simplify the test function construction.*

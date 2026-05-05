@@ -100,7 +100,7 @@ triggered_by: "Cold reader audit, May 5, 2026"
 - Type 36 (1,7): excluded by unitarity (displacement 9.0 > |rho|^2 = 8.5)
 - All 13 remaining unitary types: displacement <= 2.25 < C_2 = 6
 
-Fix A (trace formula → RH) DRAFTED: `notes/BST_Paper75_Section6_FixA.md`. The remaining gap is the test function correspondence (Weil embedding in the B_2 trace formula) — a computation, not a conceptual obstacle. Fills Connes' 1999 program with concrete space + proved positivity.
+Fix A (trace formula → RH) DRAFTED: `notes/BST_Paper75_Section6_FixA.md`. The remaining gap is the test function correspondence (Weil embedding in the B_2 trace formula) — a computation, not a conceptual obstacle. Fills Connes' 1999 program with concrete space + proved positivity. **Toy 2065** (intertwining bridge residues, 15/15 PASS) clarifies the mechanism: M(w_0) poles at zeta-zeros, distributional constraint via Paley-Wiener, rank-1 reduction via P_2 parabolic as simpler path.
 
 Fix C (conditional reframe) WRITTEN: `notes/BST_Paper75_Section6_FixC.md`. The proof has a clean two-tier structure:
 
