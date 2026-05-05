@@ -7,7 +7,7 @@ resolves: "R-11 (Constraint 1 justification)"
 paper: 75
 ---
 
-# R-11 Elimination Lemma: Temperedness for Gamma(137)\D_IV^5
+# R-11 Elimination Lemma: Temperedness for Gamma(137)\\D_IV^5
 
 ## Item 1: Citation for the Sign Formula
 
@@ -74,7 +74,7 @@ For SO(5,2): e = (-1)^{2*1/2} = (-1)^1 = **-1**
 
 ### The condition for nonempty A-packet
 
-For a parameter psi to contribute to L^2_disc(Gamma\SO(5,2)):
+For a parameter psi to contribute to L^2_disc(Gamma\\SO(5,2)):
 
     epsilon_inf(psi) = e(SO(5,2)) = -1
 
@@ -115,7 +115,7 @@ The sign formula epsilon_inf(psi) = (-1)^S applies to SO(5,2) because:
 
 ## Item 3: Self-Contained Lemma
 
-### Lemma (Temperedness for Gamma(137)\SO_0(5,2))
+### Lemma (Temperedness for Gamma(137)\\SO_0(5,2))
 
 **Lemma.** Let G = SO_0(5,2) and Gamma(N) denote the principal congruence subgroup of level N in an arithmetic lattice of G. For any prime N >= 3, every automorphic representation pi occurring in L^2_disc(Gamma(N)\G) is tempered at the archimedean place.
 
@@ -133,7 +133,7 @@ For psi to contribute to the inner form SO(5,2) with Kottwitz sign e(SO(5,2)) = 
 
 This eliminates all non-tempered parameters with S even. Since floor((d-1)/2) = 0 for d = 1, 2 and >= 1 for d >= 3, parameters whose only non-tempered components have d = 2 yield S = 0 (even) and are eliminated. Of the non-tempered parameters, at least 60% are killed by this constraint.
 
-**Step 2 (Unitarity bound).** For the parameter (1,7) (a single GL(1) character tensored with S_7): the spectral shift is |sigma| = (d-1)/2 = 3, giving displacement |sigma|^2 = 9. The half-sum of positive roots satisfies |rho|^2 = (5/2)^2 + (3/2)^2 = 8.5. Since the Casimir eigenvalue would be |rho|^2 - |sigma|^2 = -0.5 < 0, this representation is NOT in the unitary dual of G [Vogan, 1986; Salamanca-Riba, 1999]. It cannot appear in L^2(Gamma\G).
+**Step 2 (Unitarity bound).** For the parameter (1,7) (a single GL(1) character tensored with S_7): the spectral shift is |sigma| = (d-1)/2 = 3, giving displacement |sigma|^2 = 9. The half-sum of positive roots satisfies |rho|^2 = (5/2)^2 + (3/2)^2 = 8.5. Since the Casimir eigenvalue would be |rho|^2 - |sigma|^2 = -0.5 < 0, this representation is NOT in the unitary dual of G [Vogan, 1986; Salamanca-Riba, 1999]. It cannot appear in L^2(Gamma\\G).
 
 **Step 3 (Spectral gap).** The remaining non-tempered parameters that survive Steps 1-2 all have max(d_i) <= 4 among their non-tempered components (since d_i >= 5 gives S >= 2, which combined with other components can be even; and d_i = 7 is excluded by Step 2). Their Casimir eigenvalues lie in the interval (6.25, 7.50), which is below the continuous spectrum threshold |rho|^2 = 8.5.
 

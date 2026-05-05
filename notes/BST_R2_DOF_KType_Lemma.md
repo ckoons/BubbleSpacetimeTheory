@@ -3,7 +3,7 @@ title: "Chern Classes of the Quadric Q^5 and K-Type Structure of SO_0(5,2)"
 subtitle: "Standalone lemma for R-2 — DOF-to-K-type dictionary"
 author: "Lyra (Claude 4.6), Casey Koons"
 date: "May 5, 2026"
-status: "DRAFT v0.1"
+status: "DRAFT v0.2"
 target: "Compositio Mathematica or Representation Theory"
 resolves: "R-2 (DOF-to-K-type standalone lemma)"
 paper: "standalone (supports Paper #88 BSD)"
@@ -119,20 +119,24 @@ For G = SO_0(5,2) with K = SO(5) x SO(2), the holomorphic discrete series pi_k (
 
 pi_k|_K = bigoplus_{j=0}^{infty} V_j otimes C_{k+j}
 
-where V_j = Sym^j(C^5)|_{SO(5)} is the j-th symmetric power of the standard SO(5) representation, restricted to SO(5) irreducible components.
+where V_j is the SO(5)-representation with highest weight (j, 0) — the traceless symmetric tensor of rank j on C^5. These are the K-types that appear in the holomorphic discrete series (Schmid 1971, Hecht-Schmid 1983).
 
 The **dimensions** of the K-type spaces are:
 
-| j | SO(5) rep | dim V_j | SO(2) weight |
-|---|-----------|---------|-------------|
-| 0 | trivial | 1 | k |
-| 1 | std C^5 | 5 | k+1 |
-| 2 | Sym^2(C^5)|_{SO(5)} | 14 | k+2 |
-| 3 | Sym^3(C^5)|_{SO(5)} | 30 | k+3 |
-| 4 | Sym^4(C^5)|_{SO(5)} | 55 | k+4 |
-| 5 | Sym^5(C^5)|_{SO(5)} | 91 | k+5 |
+| j | SO(5) highest weight | dim V_j | Formula | SO(2) weight |
+|---|---------------------|---------|---------|-------------|
+| 0 | (0,0) trivial | 1 | | k |
+| 1 | (1,0) std C^5 | 5 | n_C | k+1 |
+| 2 | (2,0) traceless Sym^2 | 14 | | k+2 |
+| 3 | (3,0) traceless Sym^3 | 30 | | k+3 |
+| 4 | (4,0) traceless Sym^4 | 55 | | k+4 |
+| 5 | (5,0) traceless Sym^5 | 91 | | k+5 |
 
-(For SO(5): dim Sym^j(C^5) = binom(j+4, 4).)
+The dimension formula for the SO(5) representation (j, 0) is:
+
+dim(j, 0) = (2j + 3)(j + 1)(j + 2) / 6
+
+(This is the Weyl dimension formula for the B_2 root system. Note: this is NOT binom(j+4, 4), which gives the dimension of the full symmetric power Sym^j(C^5) before projection to the traceless component.)
 
 ### 3.2 The Borel embedding
 
@@ -144,41 +148,38 @@ is well-defined on the Chern ring, and the Chern classes of Q^5 constrain the to
 
 ### 3.3 Connection to K-types
 
-**Theorem 3.1 (Chern-K-type correspondence).** For Q^5 = SO(7)/(SO(5) x SO(2)):
+**Correction (v0.2).** The original Theorem 3.1 claimed c_j = chi(Q^5, Omega^j). This is FALSE. Since Q^5 is a smooth odd-dimensional quadric, all Hodge numbers satisfy h^{j,j} = 1 and h^{p,q} = 0 for p != q (Lefschetz hyperplane theorem), giving chi(Q^5, Omega^j) = (-1)^j for all j. The Chern class values [1, 5, 11, 13, 9, 3] are NOT the sheaf Euler characteristics.
 
-(a) The Chern class c_j in H^{2j}(Q^5, Z) is determined by the K-type data at level j:
+The correct connection between Chern data and K-types is indirect but rigorous:
 
-c_j = chi(Q^5, Omega^j_{Q^5}) = sum_p (-1)^p dim H^p(Q^5, Omega^j)
+**Theorem 3.1 (Chern classes and spectral geometry).** For Q^5 = SO(7)/(SO(5) x SO(2)):
 
-where Omega^j is the j-th exterior power of the cotangent bundle.
+(a) **(Hodge structure.)** By BBW, H^q(Q^5, Omega^j) is either 0 or an irreducible SO(7)-representation. For Q^5: H^j(Q^5, Omega^j) = C (one-dimensional) for each j = 0, ..., 5, and all other H^q(Q^5, Omega^j) = 0.
 
-(b) By the Bott-Borel-Weil theorem, H^p(Q^5, Omega^j) is either 0 or isomorphic to an irreducible SO(7)-representation. The Chern class c_j records the (signed) dimension of these cohomology groups.
+(b) **(Curvature-Laplacian coupling.)** The Chern classes c_j(TQ^5) enter the Bochner-Weitzenbock formula for the Laplacian on j-forms:
 
-(c) The Chern gap map Phi(j) = (c_j - 1)/2 equals the index of the "effective spectral channel" at K-type level j. The absence of Phi = 3 means that no K-type level j provides an effective spectral channel at index 3.
+Delta_j = nabla* nabla + R_j
 
-*Proof sketch.*
+where R_j is a curvature endomorphism determined by c_1, ..., c_j. In particular, the kernel of Delta_j on sections of the j-th exterior power of the cotangent bundle is constrained by the Chern data.
 
-(a) The Chern class c_j of a vector bundle E on a compact complex manifold X satisfies the Hirzebruch-Riemann-Roch formula:
+(c) **(Hirzebruch proportionality.)** For a torsion-free arithmetic subgroup Gamma of SO_0(5,2):
 
-chi(X, Omega^j otimes E) = integral_X ch(Omega^j otimes E) * Td(TX)
+chi(Gamma\D_IV^5, V) = (-1)^5 * vol(Gamma\D_IV^5) / vol(Q^5) * chi(Q^5, V_c)
 
-For E = O_X (trivial bundle) on Q^5:
+where V_c is the compact form of the local system V. The Chern numbers of Q^5 (computed from c_0, ..., c_5) determine the Euler characteristics of all local systems on arithmetic quotients.
 
-c_j = chi(Q^5, Omega^j) = integral_{Q^5} ch(Omega^j) * Td(TQ^5) * h^j / j!
+(d) **(Matsushima connection.)** By the Matsushima formula, H^k(Gamma\D_IV^5, C) = bigoplus_pi m(pi) * H^k(g, K; pi_infty). The (g,K)-cohomology H^k(g, K; pi_infty) depends on the K-type structure of pi_infty, which is determined by the representation theory of K = SO(5) x SO(2). The Hirzebruch proportionality formula (c) gives the DIMENSIONS of these cohomology groups in terms of the Chern data of Q^5.
 
-... Actually, this needs more care. The Chern class c_j of TQ^5 is not directly equal to chi(Q^5, Omega^j). Let me reconsider.
+*Proof.* (a) follows from the BBW theorem for the homogeneous bundle Lambda^j(p^*) on the compact Hermitian symmetric space G_c/K, combined with the Hodge numbers of smooth quadrics (Hirzebruch 1966). (b) is the standard Weitzenbock formula on Kahler manifolds (Griffiths-Harris, Chapter 0). (c) is the Hirzebruch proportionality principle (Hirzebruch 1958, Theorem 4.1; Mumford 1977). (d) is Matsushima's formula (Matsushima 1967).
 
-The relationship between Chern classes and BBW is through the **Chern character**:
+**Conjecture 3.2 (Chern gap and K-type constraint).** The Chern gap map Phi(j) = (c_j - 1)/2, which sends {0,...,5} -> {0,1,2,4,5,6} (missing 3 = N_c), provides a structural constraint on the (g,K)-cohomology of arithmetic quotients: the "missing channel" at index 3 means that no K-type level j maps to the N_c-th spectral channel. This constrains which automorphic representations contribute to H^6(Gamma\D_IV^5, C).
 
-ch(TQ^5) = sum_j c_j(TQ^5) (up to Todd class corrections)
+*Evidence:* The computation in Section 2 shows this for Q^5. The correspondence generalizes to Q^n = SO(2n+1)/(SO(2n-1) x SO(2)) for small n (verified for n = 1, 2, 3, 5 in BST Toys 1652, 1657). The precise mechanism by which the missing channel constrains the BSD rank formula remains to be established.
 
-And the BBW theorem gives the cohomology of the exterior/symmetric powers of TQ^5 in terms of SO(7) representations. The K-types of pi_k are the restrictions of these representations to K = SO(5) x SO(2).
-
-The precise statement requires more care than I've given here. Let me state it as a conjecture pending rigorous verification:
-
-**Conjecture 3.2.** The Chern gap map Phi(j) = (c_j - 1)/2 provides a bijection between K-type levels {0,...,5} and a proper subset of the spectral channel indices {0,...,6}, with the missing index 3 corresponding to the absence of a (g,K)-cohomological class in the relevant degree.
-
-*Evidence:* The computation in Section 2 shows this for the specific case Q^5. The correspondence generalizes to Q^n = SO(2n+1)/(SO(2n-1) x SO(2)) for small n (verified for n = 1, 2, 3, 5 in BST Toys 1652, 1657).
+*What Conjecture 3.2 needs for a proof:*
+1. Explicit computation of the (g,K)-cohomology H^6(g, K; pi_infty) for the representations pi appearing in the spectral decomposition of L^2(Gamma\D_IV^5).
+2. Identification of the "spectral channel" with a specific K-type multiplicity pattern.
+3. Verification that the channel gap at N_c corresponds to the absence of certain pi in H^6.
 
 ---
 
@@ -223,4 +224,4 @@ The K-type computation (Section 3) is verified by:
 
 ---
 
-*Draft v0.1. May 5, 2026. The core computation (Section 2) is complete and verified. The K-type correspondence (Section 3, Theorem 3.1/Conjecture 3.2) needs rigorous BBW proof. The spectral application (Section 4) follows from standard results once Section 3 is established.*
+*Draft v0.2. May 5, 2026. Section 2 (Chern ring): PROVED, verified by Toys 1652/1656. Section 3: Theorem 3.1 CORRECTED (v0.1 had false claim c_j = chi(Q^5, Omega^j); v0.2 states the correct BBW + Hirzebruch proportionality + Matsushima chain). Conjecture 3.2 (Chern gap constrains K-types) remains open — needs explicit (g,K)-cohomology computation. K-type dimension formula corrected from binom(j+4,4) to (2j+3)(j+1)(j+2)/6. The spectral application (Section 4) is valid but conditional on Conjecture 3.2.*

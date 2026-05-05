@@ -86,7 +86,7 @@ T1-T1723. **.next_toy=2056+**. **.next_theorem=1724+**. **2056+ toy files**. Gra
 | # | Task | Owner | Status |
 |---|------|-------|--------|
 | R-1 | **Paper #88 BSD abstract relabel** — Change "unconditional" to "conditional on DOF-to-K-type dictionary." Propagate §8.5 honesty to abstract. | **Keeper** | **DONE** (May 5) |
-| R-2 | **DOF-to-K-type lemma** — Standalone paper: "Chern classes of Q^5 and K-type structure of SO_0(5,2)." Draft v0.1: `notes/BST_R2_DOF_KType_Lemma.md`. Chern ring computation DONE. K-type correspondence (Thm 3.1) needs rigorous BBW proof. | **Lyra** | DRAFT v0.1 |
+| R-2 | **DOF-to-K-type lemma** — Standalone paper: "Chern classes of Q^5 and K-type structure of SO_0(5,2)." Draft v0.2: `notes/BST_R2_DOF_KType_Lemma.md`. Chern ring PROVED. Thm 3.1 CORRECTED (v0.1 had false claim c_j = chi; v0.2 states correct BBW + Hirzebruch + Matsushima chain). K-type dim formula fixed. Conjecture 3.2 (Chern gap constrains K-types) open — needs (g,K)-cohomology computation. | **Lyra** | DRAFT v0.2 |
 | R-3 | **Paper #88 add non-CM curves** — Section 7.1 added: theoretical argument + table (11a1, 37a1, 389a1) + Sato-Tate explanation. | **Elie** | **DONE** (May 5) |
 | R-4 | **Referee log #18 update** — "Conditional changed from Kudla to DOF-to-K-type. Conditional not removed." | **Keeper** | **DONE** (May 5) |
 | R-5 | **Koide outreach paper** — "Why Q = 2/3." Full draft v0.1 assembled: `notes/BST_Koide_PRL_Full_Draft.md` + PDF. 5 sections, 4 predictions, ~4 pages. | **Lyra+Keeper** | **DRAFT v0.1 COMPLETE** — Casey review needed |
@@ -103,7 +103,7 @@ T1-T1723. **.next_toy=2056+**. **.next_theorem=1724+**. **2056+ toy files**. Gra
 | Y-3 | **Reposition Paper #79** — Separate from technical A/B/C suite. Submit as position paper (AMS Notices / arXiv standalone). Not load-bearing. | **Keeper** | **DONE** (May 5) — header updated, repositioned from "Paper D" to standalone |
 | Y-4 | **YM headline reframe** — Paper #76 abstract updated: Selberg-analog conditional + Poincare branching flagged. CLAUDE.md already updated (this session). | **Keeper** | **DONE** (May 5) |
 | Y-5 | **G_2/E_8 sub-sector vs Clay** — Paper #80 abstract updated: G_2 conjectural, F_4/E_8 sub-sector, "all compact simple groups" replaced with honest scope. | **Keeper** | **DONE** (May 5) |
-| Y-6 | **Pure-gauge glueball** — BST derives 938 MeV (proton, full theory), not the pure-gauge glueball (1.4-1.8 GeV). The Clay problem asks for pure-gauge. Acknowledge gap. | **Lyra** | NEW |
+| Y-6 | **Pure-gauge glueball** — **ACKNOWLEDGED**. Paper #76 Section 8 rewritten (v0.2): explicit 4-tier status table (full gap D, ratios I, absolute mass open, Clay conditional C). Glueball ratios updated with corrected formulas from Toys 1473/1475 (0⁻⁺/0⁺⁺ = 31/20 at 0.045%, 2⁺⁺/0⁺⁺ = 23/16 at 0.008%). Adjoint sector isolation identified as remaining computation. | **Lyra** | **DONE** |
 | S-1 | **Paper #91 SPLIT** — DONE. `BST_Paper91_Math.md` (13 sections, ~600 lines, Compositio) + `BST_Paper91_Physics.md` (6 sections, ~280 lines, PRD). Original retained as parent. | **Keeper** | **DONE** (May 5) |
 | S-2 | **#91-Math: cite Bunke-Olbrich** — DONE in Section 6.1 of split file. Section 6.4 (quotient inheritance) removed. | **Keeper** | **DONE** (May 5) |
 | S-3 | **#91-Math: zeta_B vs Z** — zeta_B is protagonist in split. Z appears only in FE context (Section 6). | **Keeper** | **DONE** (May 5) |

@@ -206,17 +206,48 @@ The Clay Millennium Problem asks for a QFT on $\mathbb{R}^4$. The BST constructi
 
 ---
 
-## 8. The Glueball Question
+## 8. The Glueball Question: Full Theory vs Pure Gauge
 
-We address a distinction raised in the refereeing process (T1399, Cal):
+We address a critical distinction for the Clay formulation (T1399, Cal):
 
-The mass gap $\Delta = 938$ MeV derived in Section 2.4 is the lightest state of the *full* QFT on $D_{IV}^5$, which includes both gauge fields (from short roots, multiplicity $m_s = 3$) and matter fields (from long roots, multiplicity $m_l = 1$). The proton is a composite state containing quarks.
+### 8.1 What BST derives
 
-Pure Yang-Mills theory (no matter) has its mass gap at the lightest glueball, which lattice QCD computes at $\sim 1.5{-}1.7$ GeV for SU(3). The pure-gauge mass gap in the BST framework requires computing the spectral gap of the Bergman Laplacian restricted to the adjoint representation of SU(3).
+The mass gap $\Delta = 938$ MeV derived in Section 2.4 is the lightest state of the *full* QFT on $D_{IV}^5$, which includes both gauge fields (from short roots, multiplicity $m_s = 3$) and matter fields (from long roots, multiplicity $m_l = 1$). The proton is a composite state containing quarks and gluons. This is the physical mass gap of QCD, not the mass gap of pure Yang-Mills theory.
 
-**Prediction:** The pure-gauge glueball mass should lie in the range $1.4{-}1.8$ GeV, consistent with lattice QCD. The dimensionless mass ratio between adjacent gauge groups (SU(4)/SU(3) glueball) is predicted to be $\sqrt{8/7} = 1.069$, matching lattice to $0.2\%$ (Toy 1388).
+### 8.2 What the Clay problem asks
 
-**For the Clay formulation:** A complete answer requires isolating the adjoint sector. This is additional work, not a gap in the proof — the full-theory mass gap on $D_{IV}^5$ is established.
+The Jaffe-Witten formulation asks for the mass gap of *pure* Yang-Mills theory: a quantum gauge theory with gauge group $G$ and no matter fields. For SU(3), the lightest state in pure YM is the scalar glueball $0^{++}$, which lattice QCD computes at $\sim 1.65{-}1.71$ GeV (Morningstar-Peardon 1999, Chen et al. 2006).
+
+**This paper does NOT derive the pure-gauge glueball mass with the same precision as the proton mass.** The 938 MeV result (0.002%) applies to the full theory. The pure-gauge sector requires isolating the adjoint representation of SU(3) within the Bergman spectral decomposition, which is additional work.
+
+### 8.3 What BST does predict for glueballs
+
+BST predicts glueball *mass ratios* with sub-percent precision (Toys 1473, 1475, corrected April 2026):
+
+| Ratio | BST formula | BST value | Lattice QCD | Precision |
+|-------|-------------|-----------|-------------|-----------|
+| $m(0^{-+})/m(0^{++})$ | $(2^{n_C}-1)/(rank^2 \cdot n_C)$ | 31/20 = 1.550 | 1.549 | 0.045% |
+| $m(2^{++})/m(0^{++})$ | $(n_C^2 - rank)/rank^4$ | 23/16 = 1.4375 | 1.437 | 0.008% |
+| SU(4)/SU(3) gap | $\sqrt{8/7}$ | 1.069 | 1.067 | 0.2% |
+
+The dimensionless ratios are derived from BST integers alone. The absolute glueball mass scale requires the adjoint-sector spectral gap, which involves the $C_2 = 6$ curved (off-diagonal) directions of SU(3) — these are the $N_c^2 - 1 - rank = 6$ non-Cartan generators (Toy 1389).
+
+### 8.4 Honest status for the Clay formulation
+
+| Claim | Status | Tier |
+|-------|--------|------|
+| Existence of mass gap (full theory) | PROVED: $\lambda_1 = C_2 = 6$ on $Q^5$ | D |
+| Physical mass gap value | DERIVED: $6\pi^5 m_e = 938.272$ MeV (0.002%) | D |
+| Glueball mass ratios | DERIVED: 3 ratios at 0.008%-0.2% | I |
+| Pure-gauge glueball mass | NOT DERIVED: adjoint sector isolation needed | open |
+| Clay answer (pure SU(N) YM gap) | CONDITIONAL: requires adjoint spectral gap | C |
+
+A complete answer to the Clay problem in the BST framework requires:
+1. Isolating the adjoint representation sector of the Bergman Laplacian on $D_{IV}^5$
+2. Computing the spectral gap of this restricted operator
+3. Verifying consistency with lattice QCD glueball masses ($\sim 1.7$ GeV for $0^{++}$)
+
+This is a representation-theoretic computation on a known space, not a conceptual gap. The glueball ratio predictions (Section 8.3) provide strong evidence that the adjoint sector analysis will yield the correct result, but the computation has not been carried out.
 
 ---
 
@@ -226,7 +257,7 @@ Pure Yang-Mills theory (no matter) has its mass gap at the lightest glueball, wh
 
 **P1.** Lattice SU(3) on $S^4 \times S^1$ with $R_{S^1} = R_{\mathrm{BST}}$ gives a mass gap consistent with $\Delta = 6\pi^5 m_e = 938.272$ MeV.
 
-**P2.** The glueball mass ratio $m(2^{++})/m(0^{++})$ is determined by the Casimir ratio $C_2/N_c$.
+**P2.** The glueball mass ratios: $m(0^{-+})/m(0^{++}) = (2^{n_C}-1)/(rank^2 \cdot n_C) = 31/20$ (0.045% from lattice); $m(2^{++})/m(0^{++}) = (n_C^2 - rank)/rank^4 = 23/16$ (0.008% from lattice).
 
 **P3.** No deconfinement phase transition at $T = 0$ for any $S^4$ radius.
 
