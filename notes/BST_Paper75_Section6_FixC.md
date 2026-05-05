@@ -49,21 +49,21 @@ The proof separates into two independent theorems: an unconditional spectral res
 
 ### 6.1 Temperedness (unconditional)
 
-**Theorem 6.1** (Ramanujan for Gamma(137)\D_IV^5). *Every automorphic representation pi contributing to the cuspidal spectrum of L^2(Gamma(137)\D_IV^5) is tempered.*
+**Theorem 6.1** (Ramanujan for Gamma(137)\\D_IV^5). *Every automorphic representation pi contributing to the cuspidal spectrum of L^2(Gamma(137)\\D_IV^5) is tempered.*
 
 *Proof.* By Corollary 4.2, all 45 non-tempered Arthur types with sum n_i * d_i = 7 are eliminated by Constraints {1, 3} (inner form restriction and root multiplicity bound). Since every automorphic representation of SO(7) has an Arthur parameter (Arthur [Art13, Theorem 1.5.2]) and every non-tempered parameter contributes a non-trivial SL(2) factor (d_i >= 2 for some i), the cuspidal spectrum consists entirely of tempered representations. QED
 
-*Remark 6.2.* Theorem 6.1 is the Generalized Ramanujan Conjecture for the specific arithmetic quotient Gamma(137)\D_IV^5. This is already a strong result: the Ramanujan conjecture is known for GL(1) (trivially) and GL(2) over function fields (Drinfeld [Dri88]), but remains open for GL(2) over Q and for all groups of higher rank. Our proof exploits the specific arithmetic level N = 137 = N_max and the structure of the type IV domain.
+*Remark 6.2.* Theorem 6.1 is the Generalized Ramanujan Conjecture for the specific arithmetic quotient Gamma(137)\\D_IV^5. This is already a strong result: the Ramanujan conjecture is known for GL(1) (trivially) and GL(2) over function fields (Drinfeld [Dri88]), but remains open for GL(2) over Q and for all groups of higher rank. Our proof exploits the specific arithmetic level N = 137 = N_max and the structure of the type IV domain.
 
 ### 6.2 Spectral Gap (unconditional consequence)
 
-**Corollary 6.3** (Selberg-analog spectral gap). *The Laplace-Beltrami operator on Gamma(137)\D_IV^5 has no complementary series in its spectral decomposition. The first nonzero eigenvalue satisfies*
+**Corollary 6.3** (Selberg-analog spectral gap). *The Laplace-Beltrami operator on Gamma(137)\\D_IV^5 has no complementary series in its spectral decomposition. The first nonzero eigenvalue satisfies*
 
 lambda_1 = C_2 = 6,
 
 *achieved by the holomorphic discrete series pi_6 of SO_0(5,2) with minimal SO(2)-weight k = n_C + 1 = 6.*
 
-*Proof.* Complementary series representations are non-tempered: they have real spectral parameters nu in a* \ {0}, giving Casimir eigenvalue lambda = |rho|^2 - |nu|^2 < |rho|^2 = 17/2. By Theorem 6.1, no such representation contributes to L^2(Gamma(137)\D_IV^5).
+*Proof.* Complementary series representations are non-tempered: they have real spectral parameters nu in a* \ {0}, giving Casimir eigenvalue lambda = |rho|^2 - |nu|^2 < |rho|^2 = 17/2. By Theorem 6.1, no such representation contributes to L^2(Gamma(137)\\D_IV^5).
 
 The holomorphic discrete series pi_k with k = 6 is tempered (it is a limit of discrete series for k = n_C + 1). Its Casimir eigenvalue is lambda_k = k(k - 1) - |rho|^2 = 30 - 17/2 = 43/2... [NOTE: exact eigenvalue formula depends on normalization convention; the claim lambda_1 = C_2 = 6 needs the correct Casimir normalization for SO_0(5,2). The qualitative result --- first nonzero eigenvalue from holomorphic discrete series, not from complementary series --- is unconditional.] QED
 
@@ -84,7 +84,7 @@ The holomorphic discrete series pi_k with k = 6 is tempered (it is a limit of di
 
 *Proof.* The argument has three steps.
 
-**Step 1.** By Theorem 5.1 and Section 5.5, the L-function F embeds into the automorphic spectrum of X = Gamma(137)\D_IV^5. Precisely, there exists an automorphic representation pi_F of SO_0(5,2) contributing to L^2(X) such that F(s) is a factor of L(s, pi_F, Std_6) (see Section 5.5(b) for the explicit factorization L(s, pi_F, Std_6) = F(s)^2 * zeta(s)^2 via Satake parameters of the theta lift).
+**Step 1.** By Theorem 5.1 and Section 5.5, the L-function F embeds into the automorphic spectrum of X = Gamma(137)\\D_IV^5. Precisely, there exists an automorphic representation pi_F of SO_0(5,2) contributing to L^2(X) such that F(s) is a factor of L(s, pi_F, Std_6) (see Section 5.5(b) for the explicit factorization L(s, pi_F, Std_6) = F(s)^2 * zeta(s)^2 via Satake parameters of the theta lift).
 
 **Step 2.** By Theorem 6.1, pi_F is tempered.
 
@@ -118,7 +118,7 @@ Conjecture 6.5 assumed
 Theorem 6.6: RH for d_F <= 2 [CONDITIONAL on Conjecture 6.5]
 ```
 
-The unconditional content (Theorems 6.1 and 6.3) is the Ramanujan conjecture and Selberg spectral gap for the specific arithmetic manifold Gamma(137)\D_IV^5. This is already extraordinary and of independent interest.
+The unconditional content (Theorems 6.1 and 6.3) is the Ramanujan conjecture and Selberg spectral gap for the specific arithmetic manifold Gamma(137)\\D_IV^5. This is already extraordinary and of independent interest.
 
 The conditional content (Theorem 6.6) reduces the Riemann Hypothesis to Conjecture 6.5, which is a specific and testable statement about L-functions of tempered automorphic representations. This reduction is itself a significant result: it shows that RH would follow from temperedness plus a natural (and widely believed) conjecture about L-function zeros.
 
@@ -128,7 +128,7 @@ The conditional content (Theorem 6.6) reduces the Riemann Hypothesis to Conjectu
 
 1. **Section 6**: Replace entirely with the text above.
 
-2. **Abstract**: Change "We prove that all nontrivial zeros..." to "We prove that the automorphic spectrum of Gamma(137)\SO_0(5,2) is entirely tempered (the Ramanujan conjecture for this space). Conditional on the natural conjecture that tempered L-functions satisfy GRH, this implies all nontrivial zeros of Selberg class elements with degree d_F <= 2 lie on Re(s) = 1/2."
+2. **Abstract**: Change "We prove that all nontrivial zeros..." to "We prove that the automorphic spectrum of Gamma(137)\\SO_0(5,2) is entirely tempered (the Ramanujan conjecture for this space). Conditional on the natural conjecture that tempered L-functions satisfy GRH, this implies all nontrivial zeros of Selberg class elements with degree d_F <= 2 lie on Re(s) = 1/2."
 
 3. **Section 7 (Comparison table)**: Update "Subsumed (100% on line)" entries to "Conditional (100%, assuming Conjecture 6.5)".
 

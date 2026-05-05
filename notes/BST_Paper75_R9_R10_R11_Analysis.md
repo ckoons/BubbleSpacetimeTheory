@@ -37,7 +37,7 @@ Citing [PS09] (Pitale-Schmidt 2009, "Bessel models for lowest weight representat
    - Sp(4) = SO(3,2): (m_short, m_long) = (1, 1), rho = (3/2, 1/2), |rho|^2 = 5/2
    - SO(5,2): (m_short, m_long) = (3, 1), rho = (5/2, 3/2), |rho|^2 = 17/2
 
-4. [PS09] proves spectral bounds for GSp(4) representations — Siegel modular forms. The bound 91.1 applies to lambda_1 on Gamma\Sp(4,R)/U(2), NOT on Gamma\SO_0(5,2)/K.
+4. [PS09] proves spectral bounds for GSp(4) representations — Siegel modular forms. The bound 91.1 applies to lambda_1 on Gamma\\Sp(4,R)/U(2), NOT on Gamma\\SO_0(5,2)/K.
 
 ### Impact: Does the proof survive without the 91.1 bound?
 

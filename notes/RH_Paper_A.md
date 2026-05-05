@@ -590,7 +590,7 @@ The Maass--Selberg formula (5.5) computes $\|\Lambda^T E_P(s, \cdot)\|^2$ for th
 
 **(B) Explicit exponent separation.** The heat kernel exponents for each parabolic have distinct functional forms:
 
-*Minimal parabolic $P_0$* (rank 2, spectral parameter $\nu = (\nu_1, \nu_2) \in \mathfrak{a}^*_\mathbb{C} \cong \mathbb{C}^2$):
+*Minimal parabolic $P_0$* (rank 2, spectral parameter $\nu = (\nu_1, \nu_2) \in \mathfrak{a}^*_{\mathbb{C}} \cong \mathbb{C}^2$):
 
 $$f^{(P_0)}_j = \left(\frac{s_0 + j}{2}\right)^2 + \rho_2^2 + |\rho|^2, \quad j = 0, 1, 2 \tag{7.1}$$
 
