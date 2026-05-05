@@ -95,11 +95,11 @@ T1-T1723. **.next_toy=2056+**. **.next_theorem=1724+**. **2056+ toy files**. Gra
 | R-8 | **Paper #75 RH — CRITICAL ISSUES FOUND** (see below) | **Cal (referee)** | DONE |
 | R-9 | **Spectral gap** — **RESOLVED by Toy 2064**: NO arithmetic gap needed. Type 36 excluded by unitarity (displacement 9.0 > |rho|^2 = 8.5). Remaining 13 unitary types have displacement <= 2.25 < C_2 = 6 (Bergman gap). Elimination: IW sign (23) + unitarity (1) + C_2 gap (13) = 37/37. Replace [PS09] with "lambda_1 = C_2 = 6 > 9/4." | **Lyra** | **RESOLVED** — C_2 = 6 suffices |
 | R-10 | **L-function degree fix** — Elie DONE (degree 6, factorization correct). **Step 3 RESOLVED via Fix C**: Selberg trace formula rewrite (Fix A) assessed as requiring tools beyond current state-of-the-art. Conditional reframe (Fix C) written: Theorem 6.1 (temperedness, unconditional) + Theorem 6.6 (RH, conditional on temperedness-implies-GRH). See `notes/BST_Paper75_Section6_FixC.md`. | **Lyra+Elie** | **FIX C WRITTEN** |
-| R-11 | **Constraint 1 justification** — **RESOLVED.** Three independent confirmations: Toy 2063 (IW sign, 23/37), Toy 2064 (unitarity+C_2, 37/37), Toy 2067 (full 13/13). Three-layer elimination: IW sign + unitarity + no-complementary-series. Only Arthur [Art13] Ch. 6 citation remains. | **Elie+Lyra** | **DONE** — citation only |
+| R-11 | **Constraint 1 justification** — Computation DONE (Toys 2063/2064/2067). **Three items remain (Casey directive, May 5)**: (1) Exact citation for IW sign formula (Atobe-Ichino [AI22] or Ichino-Warner — find the theorem number). (2) Verify formula applies to SO(5,2) inner form specifically (not just quasi-split SO(7)). (3) Write self-contained lemma with all citations, publishable as-is. This is the SINGLE BINDING CONSTRAINT for the unconditional Ramanujan theorem. | **Elie** | **IN PROGRESS** — 3 items posted |
 | R-12 | **RH reframe** — Change "RH closed" to "RH conditional on SO(5,2) spectral gap." Update CLAUDE.md, board, all references. | **Keeper** | **DONE** (May 5) — updated CLAUDE.md, README.md, notes/README.md, WorkingPaper.md, Paper #67, Paper #82, Proof Gap Audit, referee log |
 | R-13 | **Paper #75 T1465-style honest assessment** — Write internal note with named gaps, tier labels, exact conditional. Apply same discipline as BSD. | **Keeper** | **DONE** (May 5) — `notes/BST_Paper75_Honest_Assessment.md` |
 | Y-1 | **Paper #76 W3 Selberg analog** — Selberg-analog spectral gap WRITTEN: no complementary series, lambda_1 = C_2 = 6. Follows directly from Corollary 4.2 (temperedness). Connects RH + YM + BSD through single R-11 dependency. See `notes/BST_Y1_Selberg_Analog_Spectral_Gap.md`. | **Lyra** | **WRITTEN** |
-| Y-2 | **Poincare branching for pi_6** — Compute restriction of first holomorphic discrete series of SO_0(5,2) to Poincare subgroup. Show mass-spin content. | **Elie** | NEW |
+| Y-2 | **Poincare branching for pi_6** — **RESOLVED** (Toy 2069, 12/12). Ground state: spin-0, Delta=C_2=6 (proton mass gap). First excitation: n_C=5 states at Delta=g=7. mult(l,s)=l-s+1 verified through l=19. Unitarity margin >= 5. Partition function q^{C_2} + n_C*q^g + ... Referee objection W2 answered. | **Elie** | **DONE** (Toy 2069) |
 | Y-3 | **Reposition Paper #79** — Separate from technical A/B/C suite. Submit as position paper (AMS Notices / arXiv standalone). Not load-bearing. | **Keeper** | **DONE** (May 5) — header updated, repositioned from "Paper D" to standalone |
 | Y-4 | **YM headline reframe** — Paper #76 abstract updated: Selberg-analog conditional + Poincare branching flagged. CLAUDE.md already updated (this session). | **Keeper** | **DONE** (May 5) |
 | Y-5 | **G_2/E_8 sub-sector vs Clay** — Paper #80 abstract updated: G_2 conjectural, F_4/E_8 sub-sector, "all compact simple groups" replaced with honest scope. | **Keeper** | **DONE** (May 5) |
@@ -123,6 +123,8 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 | Paper | Title | Owner | Status |
 |-------|-------|-------|--------|
 | #82-#96 | **ALL APPROVED BY CASEY** (May 4 directive) | Various | **CASEY APPROVED** |
+| #91-Math | Spectral zeta function of D_IV^5 (pure math split) | Keeper | **v0.2** — cold reader fixes applied. Target: Compositio/Math. Annalen |
+| #91-Physics | Spectral dictionary (physics split) | Keeper | **v0.1** — honest tier labels. Target: PRD/EPJC |
 | #97 | Spectral Materials Science | Grace+Elie+Keeper | **v0.1** |
 | #98 | Quantum Coherence from Wallach Gap | Grace | **v0.1** |
 | #99 | Superconductor Design Rule | Grace | **v0.1** |
@@ -130,6 +132,19 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 | #101 | The Isotope Principle | Grace+Elie | **v0.1** |
 | #102 | Substrate Computation | Grace | **v0.1** |
 | #103-#117 | SE paper pipeline (15 papers) | Various | QUEUED |
+
+### Outreach / Submission Papers (unnumbered)
+
+| Paper | File | Owner | Status | Target |
+|-------|------|-------|--------|--------|
+| Koide PRL | `BST_Koide_PRL_Full_Draft.md` | Lyra+Keeper | **v0.2** — Table I fixed, P2 revised, RG hedge added | PRL |
+| Pre-register falsifier | `BST_Preregister_Falsifier_Draft.md` | Casey+Keeper | **v0.2** — reordered by strength, windows tightened | Zenodo |
+| W-boson pre-commitment | `BST_W_Boson_Precommitment.md` | Keeper | **v0.1** | arXiv/Zenodo |
+| DOF-to-K-type lemma (R-2) | `BST_R2_DOF_KType_Lemma.md` | Lyra | **v0.1** — Chern ring done, BBW proof needed | Compositio |
+| Fix A (trace formula bridge) | `BST_Paper75_Section6_FixA.md` | Lyra | DRAFT — test function correspondence open | (companion to #75) |
+| Fix C (conditional reframe) | `BST_Paper75_Section6_FixC.md` | Lyra | **WRITTEN** — replacement text for #75 Section 6 | (companion to #75) |
+| Y-1 Selberg analog | `BST_Y1_Selberg_Analog_Spectral_Gap.md` | Lyra | **WRITTEN** — follows from temperedness | (companion to #76) |
+| #75 Honest Assessment | `BST_Paper75_Honest_Assessment.md` | Keeper | **v0.3** — uniform D tiers, Type 36 lemma, AI citation | Internal |
 
 ### Casey's Lane
 
@@ -180,7 +195,7 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
   (1) UNCONDITIONAL: temperedness of automorphic spectrum of Gamma(137)\\D_IV^5 (= Ramanujan for this space). Requires only: Arthur [Art13] citation for IW sign. R-9 resolved (C_2 = 6 suffices).
   (2) CONDITIONAL: RH, conditional on either test function correspondence (Fix A) or "temperedness implies GRH" (Fix C).
 - **Fix A progress** (Lyra, Toy 2065, 15/15): Intertwining bridge residues. M(w_0) poles at zeta-zeros map to s_j = z_k-1. Rank-1 reduction via P_2 parabolic isolates short root factor m_s(s) = xi(s-2)/xi(s+1) — a shifted Weil explicit formula. Test function correspondence is a computation, not a conceptual obstacle.
-- **Path to submission**: (a) Cite Arthur [Art13] Ch. 6 for IW sign — the ONLY remaining dependency. (b) Fix C written. Fix A drafted with intertwining bridge (Section 4.4). Then submit.
+- **Path to submission**: (a) R-11 three items: exact IW citation, SO(5,2) inner form verification, self-contained lemma. (b) Fix C written. Fix A drafted but incomplete (test function correspondence = Connes-level open problem). (c) Cold reader + Keeper consensus: NO valid proof of RH yet. Unconditional Ramanujan theorem is close (pending R-11). Submit Ramanujan paper FIRST as standalone, circulate Fix A to Sarnak separately.
 
 **YM Cold Audit Summary (May 5, cold reader)**:
 - **Most internally honest** of all three Clay packages (BSD, RH, YM). Paper #76 Section 1.1 terminology table, #77 Section 4.6 admission, #80 Section 3.3 conjecture flag, #79 Section 6.3 self-disclaimer are all good practice.

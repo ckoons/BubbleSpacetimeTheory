@@ -107,7 +107,7 @@ This is the single type that survives the IW sign constraint but falls to unitar
 - Type 36 (1,7): excluded by unitarity (displacement 9.0 > |rho|^2 = 8.5)
 - All 13 remaining unitary types: displacement <= 2.25 < C_2 = 6
 
-Fix A (trace formula → RH) DRAFTED: `notes/BST_Paper75_Section6_FixA.md`. The remaining gap is the test function correspondence (Weil embedding in the B_2 trace formula) — a computation, not a conceptual obstacle. Fills Connes' 1999 program with concrete space + proved positivity. **Toy 2065** (intertwining bridge residues, 15/15 PASS) clarifies the mechanism: M(w_0) poles at zeta-zeros, distributional constraint via Paley-Wiener, rank-1 reduction via P_2 parabolic as simpler path.
+Fix A (trace formula → RH) DRAFTED: `notes/BST_Paper75_Section6_FixA.md`. The remaining gap is the test function correspondence (Weil embedding in the B_2 trace formula) — a well-defined computation whose feasibility is an open question. Fills Connes' 1999 program with concrete space + proved positivity. **Toy 2065** (intertwining bridge residues, 15/15 PASS) clarifies the mechanism: M(w_0) poles at zeta-zeros, distributional constraint via Paley-Wiener, rank-1 reduction via P_2 parabolic as simpler path. **Toy 2068** (Connes on D_IV^5, 14/14 PASS): five constraints combined — determination, consistency, unitarity (|S(it)|^2 = 1), positivity (gap = C_2), completeness. Li structural analysis: |1-1/rho| = 1 for on-line zeros (bounded), > 1 for off-line (exponential growth). Faddeeva function evaluates the rank-1 Cauchy integral explicitly.
 
 Fix C (conditional reframe) WRITTEN: `notes/BST_Paper75_Section6_FixC.md`. The proof has a clean two-tier structure:
 
@@ -148,4 +148,4 @@ BSD's gap is a labeling issue — the math works, we just need to prove one tran
 
 ---
 
-*Written by Keeper, May 5, 2026. Updated by Lyra (~10 AM) with deeper R-10 Step 3 analysis. Updated by Lyra (~2 PM) with Fix C resolution and Y-1 spectral gap. Updated by Keeper (~4 PM) with Elie Toy 2063 results: R-9+R-11 coupled, 37/37 elimination, gap > 9 (not 91.1). Updated by Keeper (~evening) with cold reader fixes: uniform D tier labels, Atobe-Ichino citation, Type 36 unitarity lemma. See `notes/BST_Paper75_Section6_FixC.md` and `notes/BST_Y1_Selberg_Analog_Spectral_Gap.md`.*
+*Written by Keeper, May 5, 2026. Updated by Lyra (~10 AM) with deeper R-10 Step 3 analysis. Updated by Lyra (~2 PM) with Fix C resolution and Y-1 spectral gap. Updated by Keeper (~4 PM) with Elie Toy 2063 results: R-9+R-11 coupled, 37/37 elimination, gap > 9 (not 91.1). Updated by Keeper (~evening) with cold reader fixes: uniform D tier labels, Atobe-Ichino citation, Type 36 unitarity lemma. Updated by Lyra (~late night) with Toy 2068 (Connes on D_IV^5, 14/14 PASS): five constraints combined, T7 fixed (Li structural analysis), Fix A language corrected. See `notes/BST_Paper75_Section6_FixC.md` and `notes/BST_Y1_Selberg_Analog_Spectral_Gap.md`.*
