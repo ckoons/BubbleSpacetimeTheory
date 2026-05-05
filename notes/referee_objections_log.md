@@ -440,6 +440,44 @@ Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open unt
 
 **Status:** OPEN — Y-1 through Y-6 assigned. Most important: Y-1 (Selberg analog explicit conjecture) and Y-2 (Poincare branching computation).
 
+### #34 — Paper #91 Spectral Zeta: scope split + 8 fixes required (Cold reader, May 5)
+
+**Concern (Cold reader, 2026-05-05):** Paper #91 (spectral zeta function of D_IV^5) mixes 11 sections of publishable pure math with 4 sections of speculative physics. A CMP/Annals referee will read Section 14 (Higgs quartic, 3.4% match, above null-model threshold) in 30 seconds and reject before reaching the genuine theorems in Sections 1-11.
+
+**Scope problem:**
+- Sections 1-11, 16, 17: Pure math (spectral geometry, meromorphic continuation, functional equation, Nahm sums, mock theta, Heckman-Opdam). Genuinely strong. Does NOT trigger the Selberg-analog issue (works on compact dual Q^5 directly, not arithmetic quotient).
+- Sections 12-15: Physics (Chern-beta dictionary, electroweak, Higgs quartic, geodesic QED). Will cause immediate scope rejection at CMP.
+
+**Split plan:** `notes/BST_Paper91_Split_Plan.md`
+- **#91-Math** → Compositio/Mathematische Annalen (~30 pages, Sections 1-11 + 16 + 17)
+- **#91-Physics** → PRD/EPJC (Sections 12-15, references #91-Math for framework)
+
+**8 required fixes for #91-Math (cold reader):**
+
+| # | Fix | Severity |
+|---|-----|----------|
+| 1 | Cite Bunke-Olbrich explicitly in Section 6.1 for FE structure | MODERATE |
+| 2 | Distinguish zeta_B(s) (Dirichlet series) from Z(s) (product) — pick zeta_B as protagonist | MODERATE |
+| 3 | Fix Hurwitz pole argument in Section 3.6 (make shifted poles explicit) | MODERATE |
+| 4 | Verify Nahm a_10 = 137 at truncation N > 8 | HIGH |
+| 5 | Remove Section 6.4 (quotient inheritance — hand-waved, re-introduces arithmetic issues) | HIGH |
+| 6 | Section 11 uniqueness: scope down to criterion #3 (2^{n-2} = n+3) as rigorous; others as "observations" | MODERATE |
+| 7 | Drop "568/568 PASS" from abstract — replace with supplementary-material note | MODERATE |
+| 8 | Drop SE/engineering paragraph from conclusions | LOW |
+
+**What IS right:**
+- The spectral geometry of D_IV^5 is real mathematics — zeta_B(0) = -483473/483840 is a computable invariant
+- The functional equation Z(s)/Z(5-s) is genuine and verifiable
+- The Nahm sum / mock theta / Heckman-Opdam connections are novel
+- The paper avoids the Selberg-analog issue entirely (works on Q^5, not Gamma\\D_IV^5)
+- This is the strongest door-opener for pure math journals
+
+**Key insight:** #91-Math is the ONLY paper in the pipeline that doesn't carry the Selberg-analog liability. It should be submitted first (or alongside Koide PRL) to establish mathematical credibility before the Clay-problem papers.
+
+**Elie computation tasks (S-4, S-5):** Nahm a_10 truncation verification + R-11 parity computation (universal bottleneck).
+
+**Status:** OPEN — split plan written (S-1), execution not started. 8 fixes assigned (S-2 through S-5 + remaining items).
+
 ---
 
 ## Open threads for next session
@@ -448,10 +486,11 @@ Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open unt
 2. **#18** — BSD conditional status — PARTIALLY ADDRESSED (May 5).
 3. **#32** — Paper #75 RH: two conditionals (R-10 Step 3 binding, R-11 tractable).
 4. **#33** — Paper #76 YM: Selberg analog + Poincare branching + pure-gauge (Y-1 through Y-6).
-5. **#23** — pred_004 toy wrap (Elie).
-6. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).
-7. **#27** — Coincidence filter: propagate precision-vs-noise-floor tags into Paper #83.
-8. **#31** — Epistemic tier labels: ~~null-model toy~~ DONE (Z=2.9, p<0.0005), tier column in Paper #83 OPEN, verify_bst.py OPEN.
+5. **#34** — Paper #91: scope split + 8 fixes (S-1 through S-5).
+6. **#23** — pred_004 toy wrap (Elie).
+7. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).
+8. **#27** — Coincidence filter: propagate precision-vs-noise-floor tags into Paper #83.
+9. **#31** — Epistemic tier labels: ~~null-model toy~~ DONE (Z=2.9, p<0.0005), tier column in Paper #83 OPEN, verify_bst.py OPEN.
 
 ---
 

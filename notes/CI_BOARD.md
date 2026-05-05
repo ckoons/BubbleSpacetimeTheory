@@ -104,6 +104,11 @@ T1-T1723. **.next_toy=2056+**. **.next_theorem=1724+**. **2056+ toy files**. Gra
 | Y-4 | **YM headline reframe** — Paper #76 abstract updated: Selberg-analog conditional + Poincare branching flagged. CLAUDE.md already updated (this session). | **Keeper** | **DONE** (May 5) |
 | Y-5 | **G_2/E_8 sub-sector vs Clay** — Paper #80 abstract updated: G_2 conjectural, F_4/E_8 sub-sector, "all compact simple groups" replaced with honest scope. | **Keeper** | **DONE** (May 5) |
 | Y-6 | **Pure-gauge glueball** — BST derives 938 MeV (proton, full theory), not the pure-gauge glueball (1.4-1.8 GeV). The Clay problem asks for pure-gauge. Acknowledge gap. | **Lyra** | NEW |
+| S-1 | **Paper #91 SPLIT** — Sections 1-11+16+17 → #91-Math (Compositio). Sections 12-15 → #91-Physics (PRD). Physics sections will get scope-rejected at CMP. Split plan: `notes/BST_Paper91_Split_Plan.md`. | **Keeper** | PLANNED |
+| S-2 | **#91-Math: cite Bunke-Olbrich** in Section 6.1 for FE structure. Remove Section 6.4 (quotient inheritance). | **Keeper** | NEW |
+| S-3 | **#91-Math: zeta_B vs Z distinction** — Pick zeta_B as protagonist, relate to Z via log Z = -sum zeta_B(ns)/n. Currently conflated. | **Keeper** | NEW |
+| S-4 | **#91-Math: Nahm a_10 truncation** — Verify a_10 = 137 at N_trunc > 8. Elie computation. | **Elie** | NEW |
+| S-5 | **R-11 parity computation** — Enumerate 45 Arthur packet types for SO(7), compute Adams-Johnson parity for SO(5,2) real form, show Constraints {1,3} kill all 45. THE bottleneck for RH+YM+BSD. | **Elie** | **URGENT** |
 | K-24 | **3200-dps result audit** — PID 80101 still running. Await checkpoints. | **Keeper** | WAITING |
 | SE-0 | **Investigation oversight** — Cross-check SE results vs Casimir data (Paper #26) and patent claims. | **Keeper** | STANDING |
 | SP-14 | **Derivation catalog discipline** — Every constant/ratio filed same session. | **All** | STANDING |
