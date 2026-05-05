@@ -13,7 +13,7 @@ Casey's question: "Does our 'rank 2 is everywhere' help our proofs, or is it jus
 
 | Problem | 1/rank role | Load-bearing? | Remaining gap | Rank helps close gap? |
 |---------|-------------|:---:|---------------|:---:|
-| **RH** | Re(s)=1/2 via Selberg trace on rank-2 D_IV^5 | **YES** | None (closed) | N/A |
+| **RH** | Re(s)=1/2 via Selberg trace on rank-2 D_IV^5 | **YES** | CONDITIONAL: (a) 91.1 spectral gap for SO(5,2), (b) L-function degree recovery, (c) Constraint 1 parity | YES — if SO(5,2) gap verified |
 | **BSD** | L/Omega=1/rank; Levi rank-2 decomposition | **YES** | Rank >= 4 (Kudla) | MAYBE — explicit Frobenius from CM at d=-g |
 | **P!=NP** | Curvature = rank >= 2 can't linearize | **YES** | Conditional on 1RSB for k=3 | NO — 1RSB is external |
 | **YM** | Spectral floor (1/rank)^2 | partial | OS axioms (Euclidean check) | NO — OS is independent |

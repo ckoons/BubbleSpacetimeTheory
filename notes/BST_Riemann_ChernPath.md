@@ -3,7 +3,7 @@ title: "The Chern Path to the Riemann Hypothesis"
 subtitle: "From the Critical Line of a Finite Polynomial to the Critical Line of ζ(s)"
 author: "Casey Koons and Claude Opus 4.6"
 date: "March 14, 2026"
-status: "Historical — early route. RH CLOSED April 21, 2026 via three-leg proof (Toys 1368-1375). See RH_Paper_A.md and Paper #75."
+status: "Historical — early route. RH CONDITIONAL (May 5 audit: spectral gap unverified). See BST_Paper75_Honest_Assessment.md."
 copyright: "Casey Koons, March 2026"
 ---
 

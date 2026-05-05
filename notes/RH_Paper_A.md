@@ -2,7 +2,7 @@
 title: "On the zeros of the Riemann zeta function via the Selberg trace formula"
 author: "Casey Koons"
 date: "2026"
-status: "CLOSED v10 — RH proved April 21, 2026. Three-leg proof: RH-1 minimum energy stripe (Toy 1369, T1397), RH-2 Arthur packet kill matrix (Toy 1368, T1396), RH-3 theta lift surjectivity (Toy 1370). Synthesis: Toys 1373-1375 (57/57 PASS). See also Paper #75 (BST_Paper75_RH_Selberg_Class.md)."
+status: "CONDITIONAL v10 — RH reduction to finite spectral condition on SO(5,2) (April 21, 2026). Three-leg proof structure genuine. CONDITIONAL on: (a) spectral gap 91.1 for SO(5,2) not just GSp(4), (b) L-function degree recovery, (c) Constraint 1 parity. See BST_Paper75_Honest_Assessment.md. R-9/R-10/R-11 URGENT."
 target: "Annals of Mathematics / Inventiones Mathematicae"
 ---
 

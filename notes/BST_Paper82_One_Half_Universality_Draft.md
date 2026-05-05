@@ -22,7 +22,7 @@ Seven famous problems. One invariant. The fraction 1/2 appears in each:
 
 | Problem | Where 1/rank = 1/2 appears | Status |
 |---------|---------------------------|--------|
-| RH | Critical line Re(s) = 1/2 | Closed (T1270) |
+| RH | Critical line Re(s) = 1/2 | Conditional (T1270 — spectral gap unverified) |
 | BSD | L(E,1)/Omega = 1/2 for BST curve | ~99% (T1274, T1426) |
 | P != NP | Half of computation is irreducibly curved | Closed (T1272, T1425) |
 | YM | Spectral floor lambda_1 >= 1/4 = (1/2)^2 | ~99.5% (T1271) |

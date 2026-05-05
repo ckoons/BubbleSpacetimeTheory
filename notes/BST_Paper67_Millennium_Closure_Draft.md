@@ -44,7 +44,7 @@ This paper extends the principle to the six Clay Millennium Prize Problems. We s
 
 **Theorem (Millennium Synthesis, T1276).** *The six Clay Millennium Prize Problems each admit a physical-uniqueness closure via T1269, supplied by theorems T1270-T1275 respectively. The rank-2 B_2 curvature invariant of D_IV^5 is the common iso-invariant across all six.*
 
-**Corollary.** *Post-T1269 completion percentages: RH ≈ 100% (closed), YM ≈ 99.5%, P ≠ NP ≈ 99% (T29 closed, three routes), NS ≈ 100%, BSD ≈ 99% (T1426 spectral permanence), Hodge ≈ 95%. Average ≈ 99% for five, ≈ 95% Hodge (honest residual: generalized Kuga-Satake).*
+**Corollary.** *Post-T1269 completion percentages: RH CONDITIONAL (spectral gap on SO(5,2) unverified — see R-9/R-10/R-11), YM ≈ 99.5%, P ≠ NP ≈ 99% (T29 closed, three routes), NS ≈ 100%, BSD ≈ 99.7% (T1465 Chern hole — conditional on DOF-to-K-type dictionary), Hodge ≈ 95%. Average ≈ 99% for five, ≈ 95% Hodge (honest residual: generalized Kuga-Satake).*
 
 ### 1.4 Structure of the paper
 

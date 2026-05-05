@@ -139,12 +139,12 @@ status: "Living document — append-only, entries close when addressed but remai
 | 3 | Empirical — 6 curves verified, not proved for general rank-3 |
 | ≥ 4 | Via "Kudla extends" — Kudla program itself is partially open |
 
-**Status:** OPEN — before Paper #67 / Paper #81 claims "BSD closed," the team must audit:
-1. What's the exact status of the "Kudla extension to rank ≥ 4"? Proved (cite) or conjectured?
-2. Is the rank-3 case a general theorem or just 6 verified curves?
-3. If either is conditional, BSD closure is CONDITIONAL — label accordingly.
+**Status:** PARTIALLY ADDRESSED (May 5, cold reader audit). Paper #88 abstract changed from "unconditional" to "conditional on DOF-to-K-type dictionary" (R-1 DONE). The Chern hole mechanism (T1465) is real mathematics — the gap is the labeling of the transfer from topology to representation theory. Specifically:
+1. The DOF-to-K-type correspondence (Bott-Borel-Weil for SO(5,2)) needs standalone proof or citation → R-2 (Lyra, target Compositio).
+2. Paper #88 Section 8.5 already has honest assessment; abstract now matches.
+3. BSD is 99.7% — conditional on the dictionary, not on Kudla anymore. Distinct from "closed."
 
-Unconditional Clay resolution requires all ranks unconditionally. Anything less must be honestly scoped. "99% closed" currently obscures whether the 1% is "a few curves to verify" or "a conjectural extension." Those are different conditions.
+Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open until R-2 submitted.
 
 ### #19 — Root system correction (B_2 not B_2) cascades beyond Paper #81
 
@@ -389,12 +389,36 @@ Unconditional Clay resolution requires all ranks unconditionally. Anything less 
 
 **Status:** STANDING TOOL — applies to all BST claims going forward. Supersedes and refines #1 (derivation/identification ladder) with finer granularity.
 
+### #32 — Paper #75 RH: Three critical gaps (Cold reader, May 5)
+
+**Concern (Cold reader, 2026-05-05):** Paper #75 (RH via Selberg class on D_IV^5) has three structural issues that prevent submission to Annals:
+
+| Gap | Issue | Severity |
+|-----|-------|----------|
+| **A** | The 91.1 Casimir bound cites [PS09] (Pitale-Schmidt 2009), which proves a bound for **p-adic GSp(4)**, not a global eigenvalue bound for SO(5,2). The spectral gap λ₁ ≥ 91.1 for Γ(137)\SO₀(5,2) is NOT established by this citation. | CRITICAL |
+| **B** | L-function recovery: Thm 6.1 Step 1 asserts L(s,π_F,std) = F(s) for the standard L-function. But the standard L-function of SO(7) is degree 7, not degree 1. How does ζ(s) (degree 1) factor out of a degree-7 L-function? Needs explicit Rankin-Selberg or Langlands-Shahidi decomposition. | CRITICAL |
+| **C** | Constraint 1 (parity kills 34/45 Arthur packets) uses a non-standard sign computation (χ_π(-1) = (-1)^{p+q} for SO(p,q)) without citation or proof. Not in Arthur's book. | SERIOUS |
+
+**What IS right (per cold reader):**
+- The *structure* of the argument (reduce RH to finite spectral condition on a locally symmetric space) is genuine and publishable
+- The numerical verifications (57/57 tests) confirm the structure works computationally
+- If the SO(5,2) spectral gap is verified, the argument is extraordinary
+
+**Recommended actions (R-9/R-10/R-11):**
+- R-9: Pull [PS09], determine what it actually bounds. Find actual SO(5,2) spectral gap bound (may require Bergeron-Clozel or Kim-Sarnak transfer).
+- R-10: Write explicit degree decomposition for Thm 6.1 Step 1.
+- R-11: Prove Constraint 1 via Arthur framework or remove and audit residual.
+- DO NOT submit to Annals until all three resolved. Circulate to Sarnak or Gan/Ichino first.
+
+**Status:** OPEN — R-9/R-10/R-11 assigned to Lyra (URGENT). R-12 (reframe "closed" → "conditional" in root files) DONE (Keeper, May 5). R-13 (honest assessment note) this week.
+
 ---
 
 ## Open threads for next session
 
 1. **#16** — n_s = 1 − n_C/N_max derivation chain (cosmology).
-2. **#18** — BSD Kudla rank ≥4 conditional status.
+2. **#18** — BSD conditional status — PARTIALLY ADDRESSED (May 5).
+3. **#32** — Paper #75 RH: three critical gaps (URGENT — R-9/R-10/R-11).
 3. **#23** — pred_004 toy wrap (Elie).
 4. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).
 5. **#27** — Coincidence filter: propagate precision-vs-noise-floor tags into Paper #83.

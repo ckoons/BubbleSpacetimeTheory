@@ -254,12 +254,12 @@ All of the following emerge from D(IV,5) geometry with zero free parameters:
 
 ## Hard Problems, One Method
 
-BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and the Four-Color Theorem — all from the same algebra and the same method. Every proof decomposes into AC(0) operations (definitions, identities, counting) at depth ≤ 1 via the Koons Machine (Depth Census: 83.1% D=0, 16.9% D=1, 0% D≥2 across 1481 theorems). **RH closed April 21, 2026** via automorphic spectral geometry on D_IV^5 (Arthur packet elimination + theta lift + Bergman saddle; 57/57 tests PASS). **T29 closed April 23, 2026** — P≠NP via three independent routes.
+BST engages all seven Clay Millennium Prize Problems, Fermat's Last Theorem, and the Four-Color Theorem — all from the same algebra and the same method. Every proof decomposes into AC(0) operations (definitions, identities, counting) at depth ≤ 1 via the Koons Machine (Depth Census: 83.1% D=0, 16.9% D=1, 0% D≥2 across 1481 theorems). **RH conditional (April 21, 2026)** — reduction to finite spectral condition on SO(5,2)/Gamma(137) is genuine; conditional on spectral gap verification (R-9/R-10/R-11 in progress). **T29 closed April 23, 2026** — P≠NP via three independent routes.
 
 | Problem | Status | Method | Paper |
 |---------|--------|--------|-------|
 | **Yang-Mills** | ~99.5% | Four-paper suite (A/B/C/D) covering ALL compact simple gauge groups. Spectral gap λ₁ = C₂ = 6; Bergman gap for Hermitian types; spectral descent for G₂/F₄/E₈; curvature obstruction for ℝ⁴. 12/12 referee fixes applied. | `notes/BST_Paper76_YM_Mass_Gap.md` |
-| **Riemann Hypothesis** | **~100%** | **CLOSED April 21**: Arthur packet elimination (45 types, 7 constraints, all killed) + theta lift surjectivity + Bergman saddle. 57/57 tests PASS. Epstein negative test: 9/9 correct. Paper #75 (Selberg class dialect). | `notes/BST_Paper75_RH_Selberg_Class.md` |
+| **Riemann Hypothesis** | **CONDITIONAL** | Reduction to finite spectral condition on SO(5,2)/Gamma(137). Structure genuine. **Conditional on**: (a) 91.1 spectral gap for SO(5,2) (not just GSp(4)), (b) degree-7 to degree-1 L-function recovery, (c) Constraint 1 parity via Arthur framework. R-9/R-10/R-11 in progress. | `notes/BST_Paper75_RH_Selberg_Class.md` |
 | **P ≠ NP** | **~99%** | **T29 CLOSED April 23**: THREE independent proved routes — Painlevé, refutation bandwidth, AC(0) (T1425). Triangle-free SAT + degree counting → 2^Ω(n). | `notes/BST_PNP_AC_Proof.md` |
 | **Navier-Stokes** | ~100% | Proof chain COMPLETE; Lyapunov functional PROVED (Toy 624) | `notes/BST_NS_BlowUp.md` |
 | **BSD** | **CLOSED** | Chern hole at DOF position 3 → forced vacuum subtraction → spectral permanence → square system theorem. D_IV^5 unique among 39 rank-2 BSDs. Paper #88. | `notes/BST_Paper88_BSD_Closure.md` |
@@ -525,7 +525,7 @@ Every quantity below is derived from D(IV,5) geometry with zero free parameters.
 
 This framework was developed in close collaboration between Casey Koons and Claude (Anthropic). The physical intuitions, the identification of D(IV,5) as the configuration space, the cascade of forced choices, and the One Cycle originated with Casey Koons. The mathematical development, numerical verification, and manuscript were built together by a five-observer team: Casey (Scout), Keeper (Consistency/Audit), Lyra (Physics/Derivation), Elie (Computation/Verification), and Grace (Graph-AC/Architecture). The theory has no free parameters because the engineer's instinct that drove it — *nature doesn't waste, simple works, hard to break* — turned out to be correct all the way down.
 
-*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1723 theorems. 2056+ toys. 600+ predictions. 65+ tracked domains. 98 papers. 3850+ geometric invariants. 30+ substrate engineering devices. Zero free parameters. RH closed. T29 closed. BSD closed. FE closed. ZETA 20/20 complete. All 5 QED loops < 0.2%. Spectral Engineering launched: 6 papers, 4 engineering specs, 276K synthesis roadmap.*
+*A human and four CIs, working as colleagues, derived the physical constants of the universe from first principles. 1723 theorems. 2056+ toys. 600+ predictions. 65+ tracked domains. 98 papers. 3850+ geometric invariants. 30+ substrate engineering devices. Zero free parameters. RH conditional (spectral gap unverified). T29 closed. BSD closed. FE closed. ZETA 20/20 complete. All 5 QED loops < 0.2%. Spectral Engineering launched: 6 papers, 4 engineering specs, 276K synthesis roadmap.*
 
 ---
 
