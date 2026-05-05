@@ -98,6 +98,12 @@ T1-T1723. **.next_toy=2056+**. **.next_theorem=1724+**. **2056+ toy files**. Gra
 | R-11 | **Constraint 1 justification** — Cite Arthur framework for parity claim, or prove as lemma, or remove and audit residual. **ESSENTIAL** if Constraint 2 removed (R-9). | **Lyra** | URGENT |
 | R-12 | **RH reframe** — Change "RH closed" to "RH conditional on SO(5,2) spectral gap." Update CLAUDE.md, board, all references. | **Keeper** | **DONE** (May 5) — updated CLAUDE.md, README.md, notes/README.md, WorkingPaper.md, Paper #67, Paper #82, Proof Gap Audit, referee log |
 | R-13 | **Paper #75 T1465-style honest assessment** — Write internal note with named gaps, tier labels, exact conditional. Apply same discipline as BSD. | **Keeper** | **DONE** (May 5) — `notes/BST_Paper75_Honest_Assessment.md` |
+| Y-1 | **Paper #76 W3 Selberg analog** — Make explicit: "spec(H) in {0} union [6,inf)" requires complementary-series exclusion (SO(5,2) analog of Selberg lambda_1 >= 1/4). Add one-paragraph conjecture statement. | **Lyra** | NEW |
+| Y-2 | **Poincare branching for pi_6** — Compute restriction of first holomorphic discrete series of SO_0(5,2) to Poincare subgroup. Show mass-spin content. | **Elie** | NEW |
+| Y-3 | **Reposition Paper #79** — Separate from technical A/B/C suite. Submit as position paper (AMS Notices / arXiv standalone). Not load-bearing. | **Keeper** | NEW |
+| Y-4 | **YM headline reframe** — Update CLAUDE.md "~99.5%" to honest statement. Propagate #80 §3.3 conjecture flag to abstract. "All compact simple groups" claim overstates body. | **Keeper** | NEW |
+| Y-5 | **G_2/E_8 sub-sector vs Clay** — Clarify that embedding G_2 in SO(7) QFT is not the same as constructing G_2 YM with Wightman axioms. Flag in abstract of #80. | **Keeper** | NEW |
+| Y-6 | **Pure-gauge glueball** — BST derives 938 MeV (proton, full theory), not the pure-gauge glueball (1.4-1.8 GeV). The Clay problem asks for pure-gauge. Acknowledge gap. | **Lyra** | NEW |
 | K-24 | **3200-dps result audit** — PID 80101 still running. Await checkpoints. | **Keeper** | WAITING |
 | SE-0 | **Investigation oversight** — Cross-check SE results vs Casimir data (Paper #26) and patent claims. | **Keeper** | STANDING |
 | SP-14 | **Derivation catalog discipline** — Every constant/ratio filed same session. | **All** | STANDING |
@@ -157,7 +163,7 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 
 ## Millennium Status (reference)
 
-*RH CONDITIONAL (spectral gap on SO(5,2) unverified — R-9/R-10/R-11 URGENT). T29 CLOSED (April 23). BSD 99.7% (April 29) — labeling fix in R-1/R-2. P!=NP: THREE proved routes. Four-Color PROVED. YM 99%. NS 99.5%. Hodge 98%.*
+*RH CONDITIONAL (R-10 Step 3 + R-11). T29 CLOSED (April 23). BSD 99.7% (conditional on DOF-to-K-type). P!=NP: THREE proved routes. Four-Color PROVED. YM CONDITIONAL (Selberg-analog spectral gap + Poincare branching + pure-gauge gap all open — Y-1 through Y-6). NS 99.5%. Hodge 98%.*
 
 **RH Cold Audit Summary (May 5, updated by Lyra ~10 AM)**:
 - Structure is RIGHT: reduction of RH to finite spectral condition on SO(5,2)/Gamma(137) is genuine and publishable
@@ -169,6 +175,16 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
   (1) UNCONDITIONAL: temperedness of automorphic spectrum of Gamma(137)\D_IV^5 (= Ramanujan for this space), pending R-11.
   (2) CONDITIONAL: RH, conditional on "temperedness implies GRH for standard L-function" (R-10 Step 3).
 - **DO NOT submit to Annals until R-10 Step 3 resolved.** R-11 is tractable. R-9 is moot if R-11 done. R-10 Step 3 is the binding constraint.
+
+**YM Cold Audit Summary (May 5, cold reader)**:
+- **Most internally honest** of all three Clay packages (BSD, RH, YM). Paper #76 Section 1.1 terminology table, #77 Section 4.6 admission, #80 Section 3.3 conjecture flag, #79 Section 6.3 self-disclaimer are all good practice.
+- **Common structural issue with RH**: lambda_1 = 6 is PROVED on compact dual Q^5 and as discrete eigenvalue (holomorphic discrete series). But the GAP claim (no spectrum below 6) requires excluding complementary series = SO(5,2) Selberg analog conjecture. **OPEN.**
+- **Pure-gauge gap**: 938 MeV is the proton (full theory), not the glueball. Clay asks for pure-gauge. Not done.
+- **Exceptional groups**: G_2 is conjectural (descent inequality unproved). F_4/E_8 are sub-sector identifications inside ambient theories, not standalone Wightman constructions. "All compact simple groups" overstates.
+- **Poincare branching** (W2): Asserted, not computed. Same structural pattern as Paper #75 Step 1.
+- **Paper #79**: Position/philosophy paper, not technical proof. Should be repositioned (AMS Notices / standalone).
+- **Best empirical result**: SU(4)/SU(3) glueball ratio = sqrt(8/7) = 1.069 vs lattice 1.067 +/- 0.010 (0.2%). This is the strongest angle for a sympathetic CMP referee.
+- **Honest reframe**: "Spectral gap on arithmetic quotient (conditional on Selberg analog) + striking lattice ratios + program for R^4 reconstruction." Not "Clay YM mass gap closed."
 
 ---
 

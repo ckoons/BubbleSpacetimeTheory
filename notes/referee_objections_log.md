@@ -412,17 +412,46 @@ Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open unt
 
 **Status:** OPEN — R-9/R-10/R-11 assigned to Lyra (URGENT). R-12 (reframe "closed" → "conditional" in root files) DONE (Keeper, May 5). R-13 (honest assessment note) this week.
 
+### #33 — Paper #76 YM suite: Selberg analog + Poincare branching + pure-gauge (Cold reader, May 5)
+
+**Concern (Cold reader, 2026-05-05):** Paper #76 (YM Mass Gap) is the most internally honest Clay-problem package (good Section 1.1 terminology table, Section 5 honest assessment, Section 8 glueball acknowledgment). But the headline claim "~99.5%" overstates what the four papers prove.
+
+**Three structural gaps:**
+
+| Gap | Issue | Severity | Ref |
+|-----|-------|----------|-----|
+| **Selberg analog** | lambda_1 = 6 proved on compact dual Q^5 and as discrete eigenvalue (holomorphic discrete series). But gap claim (no spectrum below 6) requires excluding complementary series = SO(5,2) Selberg conjecture analog. **Same structural issue as Paper #75.** | SERIOUS | Y-1 |
+| **Poincare branching** | W2 asserts "branching rule SO_0(5,2) -> Poincare produces reps with E-p spectrum in forward light cone." Asserted, not computed. Need explicit branching for pi_6. | SERIOUS | Y-2 |
+| **Pure-gauge gap** | 938 MeV is the proton (full theory), not the glueball. Clay asks for pure-gauge mass gap. Not done. Glueball prediction (1.4-1.8 GeV) not derived with same precision. | MODERATE | Y-6 |
+
+**Additional findings:**
+- G_2 descent is conjectural (#80 Section 3.3 admits this). F_4/E_8 are sub-sector embeddings, not standalone Wightman constructions. "All compact simple groups" overstates.
+- Paper #79 is a position paper (correctly self-disclaimed in Section 6.3). Should not be packaged as "Paper D" of a technical suite.
+- SU(4)/SU(3) glueball ratio sqrt(8/7) = 1.069 vs lattice 1.067 +/- 0.010 (0.2%) is the strongest empirical result and the best angle for CMP/ATMP submission.
+- lambda_1 vs g sector ambiguity (Section 4.4 of #77): gauge sector uses g not lambda_1, but the derivation of which sector gets which scaling is deferred.
+
+**What IS right:**
+- The holomorphic discrete series at Casimir 6 is real mathematics
+- The dimensionless lattice ratios (0.2-0.4%) are genuinely impressive
+- The internal honesty in Sections 4.6/#77, 3.3/#80, 6.3/#79, 5/8/#76 is good practice
+- Modular-localization machinery (W4) is sound
+
+**Recommended reframe:** "Spectral gap on arithmetic quotient Gamma\\D_IV^5 (conditional on Selberg-analog spectral gap) + striking lattice ratios (0.2%) + program for R^4 reconstruction." Not "Clay YM mass gap solved."
+
+**Status:** OPEN — Y-1 through Y-6 assigned. Most important: Y-1 (Selberg analog explicit conjecture) and Y-2 (Poincare branching computation).
+
 ---
 
 ## Open threads for next session
 
-1. **#16** — n_s = 1 − n_C/N_max derivation chain (cosmology).
+1. **#16** — n_s = 1 - n_C/N_max derivation chain (cosmology).
 2. **#18** — BSD conditional status — PARTIALLY ADDRESSED (May 5).
-3. **#32** — Paper #75 RH: three critical gaps (URGENT — R-9/R-10/R-11).
-3. **#23** — pred_004 toy wrap (Elie).
-4. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).
-5. **#27** — Coincidence filter: propagate precision-vs-noise-floor tags into Paper #83.
-6. **#31** — Epistemic tier labels: ~~null-model toy~~ DONE (Z=2.9, p<0.0005), tier column in Paper #83 OPEN, verify_bst.py OPEN.
+3. **#32** — Paper #75 RH: two conditionals (R-10 Step 3 binding, R-11 tractable).
+4. **#33** — Paper #76 YM: Selberg analog + Poincare branching + pure-gauge (Y-1 through Y-6).
+5. **#23** — pred_004 toy wrap (Elie).
+6. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).
+7. **#27** — Coincidence filter: propagate precision-vs-noise-floor tags into Paper #83.
+8. **#31** — Epistemic tier labels: ~~null-model toy~~ DONE (Z=2.9, p<0.0005), tier column in Paper #83 OPEN, verify_bst.py OPEN.
 
 ---
 
