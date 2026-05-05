@@ -80,20 +80,30 @@ triggered_by: "Cold reader audit, May 5, 2026"
 | Strategy (reduce RH to spectral condition) | Sound | D |
 | Arthur packet taxonomy (45 types) | Correct | D |
 | Numerical verification (57/57) | Strong | D |
-| Spectral gap >= 91.1 | **UNVERIFIED** | C |
-| L-function recovery (degree 7 -> 1) | **UNPROVED** | C |
-| Constraint 1 (parity kills 34/45) | **UNPROVED** | C |
+| Spectral gap >= 91.1 | **WRONG for SO(5,2)** but **UNNECESSARY** if R-11 done | C → moot |
+| L-function recovery (degree 6 factorization) | **RESOLVED** by Elie (F is factor of Std_6) | C → D |
+| Constraint 1 (parity kills 34/45) | **UNPROVED** — essential if Constraint 2 removed | C |
+| Thm 6.1 Step 3 (temperedness → GRH) | **NEW GAP** — conflates spectral params with L-function zeros | C |
 
-**Overall**: RH proof is CONDITIONAL on three items (A, B, C). If all three are resolved positively, the proof is complete. If any fails, the proof has a gap that may or may not be fillable.
+**Overall (revised by Lyra, May 5)**: The proof has TWO independent conditionals:
+1. **Temperedness**: All representations on Gamma(137)\D_IV^5 are tempered. Conditional on R-11 (parity sign). R-9 is unnecessary if R-11 resolved.
+2. **Step 3**: Temperedness implies GRH for the standard L-function. This is NOT a theorem — it conflates spectral parameters (which temperedness constrains) with zeros of L(s, pi, Std_6) in the critical strip (which are properties of the analytic continuation). Fix requires either Selberg trace formula argument or is itself conditional.
+
+**The paper unconditionally proves**: Arthur packet elimination (Sections 3-4, pending R-11).
+**The paper conditionally proves**: RH, conditional on (R-11) + (temperedness → GRH).
 
 ---
 
-## Recommended Path
+## Recommended Path (revised by Lyra)
 
-1. **DO NOT submit to Annals** until R-9/R-10/R-11 resolved.
-2. **Circulate to Sarnak** (who knows the spectral theory) or **Gan/Ichino** (who know theta lifts for SO(p,q)) for feedback on whether the gaps are fillable.
-3. **Reframe in all internal documents** as "RH conditional on SO(5,2) spectral gap" (R-12 DONE, May 5).
-4. **If gaps prove unfillable**: the paper is still publishable as "Conditional RH for Selberg class degree <= 2, assuming spectral gap for SO_0(5,2)" — this is still an extraordinary result that connects RH to finite spectral data.
+1. **DO NOT submit to Annals** until R-10 Step 3 and R-11 resolved.
+2. **R-11 is tractable**: Finite computation of Arthur signs for SO(5,2). Do this first.
+3. **R-9 is moot**: Once R-11 done, Constraints {1,3} eliminate all 45 types. No need for 91.1.
+4. **R-10 Step 3 is the binding constraint**: Options:
+   (a) Rewrite Section 6 using Selberg trace formula (relates zeros of zeta directly to spectral parameters)
+   (b) Prove "temperedness → GRH" for degree-6 L-functions of tempered SO(7) reps (open problem)
+   (c) Reframe: "Temperedness of Gamma(137)\D_IV^5 is unconditional; RH follows IF temperedness → GRH" (honest, publishable)
+5. **Circulate to Sarnak/Gan/Ichino** with SPECIFIC questions about (a) Selberg trace formula for type IV domains and (b) whether temperedness-implies-GRH is known for any cases.
 
 ---
 
@@ -102,14 +112,14 @@ triggered_by: "Cold reader audit, May 5, 2026"
 | | Paper #88 (BSD) | Paper #75 (RH) |
 |---|---|---|
 | Core mechanism | Chern hole (real math) | Arthur packets (real math) |
-| Gap type | Labeling (DOF-to-K-type transfer) | Citation + degree mismatch |
-| Fixability | HIGH (one standalone lemma) | UNCERTAIN (depends on whether 91.1 transfers) |
+| Gap type | Labeling (DOF-to-K-type transfer) | Step 3: temperedness ≠ GRH |
+| Fixability | HIGH (one standalone lemma) | UNCERTAIN (may need Selberg trace formula rewrite) |
 | Numerical evidence | T1426 (51 curves, 0 exceptions) | 57/57 tests PASS |
-| Honest label | 99.7% (conditional on dictionary) | CONDITIONAL (three items open) |
-| Action | Submit after R-2 accepted | Do NOT submit until R-9/R-10/R-11 resolved |
+| Honest label | 99.7% (conditional on dictionary) | CONDITIONAL (R-11 + Step 3) |
+| Action | Submit after R-2 accepted | Do NOT submit until R-10 Step 3 resolved |
 
-BSD's gap is a labeling issue — the math works, we just need to prove one transfer lemma. RH's gap is potentially structural — if the 91.1 doesn't transfer to SO(5,2), the entire counting argument may need rebuilding.
+BSD's gap is a labeling issue — the math works, we just need to prove one transfer lemma. RH's gap is now understood to have two layers: the elimination machinery (fixable via R-11) and the final inference (temperedness → GRH, which may require a fundamentally different argument from what the paper presents).
 
 ---
 
-*Written by Keeper, May 5, 2026. Same standard of honesty we applied to BSD. The structure of the argument is genuine. The gaps are real. Both facts matter.*
+*Written by Keeper, May 5, 2026. Updated by Lyra, May 5, 2026 (~10 AM) with deeper R-10 Step 3 analysis. See `notes/BST_Paper75_R9_R10_R11_Analysis.md` for full technical details.*

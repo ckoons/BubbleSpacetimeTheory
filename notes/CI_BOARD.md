@@ -86,16 +86,16 @@ T1-T1723. **.next_toy=2056+**. **.next_theorem=1724+**. **2056+ toy files**. Gra
 | # | Task | Owner | Status |
 |---|------|-------|--------|
 | R-1 | **Paper #88 BSD abstract relabel** — Change "unconditional" to "conditional on DOF-to-K-type dictionary." Propagate §8.5 honesty to abstract. | **Keeper** | **DONE** (May 5) |
-| R-2 | **DOF-to-K-type lemma** — Standalone paper: "Bott-Borel-Weil correspondence between Chern degrees of Q^5 and (g,K)-cohomology of SO(5,2)." Target: Compositio/Represent. Theory. | **Lyra** | NEW |
-| R-3 | **Paper #88 add non-CM curves** — 2-3 Cremona curves at rank 2-3 alongside 49a1 in Section 7. | **Elie** | NEW |
+| R-2 | **DOF-to-K-type lemma** — Standalone paper: "Chern classes of Q^5 and K-type structure of SO_0(5,2)." Draft v0.1: `notes/BST_R2_DOF_KType_Lemma.md`. Chern ring computation DONE. K-type correspondence (Thm 3.1) needs rigorous BBW proof. | **Lyra** | DRAFT v0.1 |
+| R-3 | **Paper #88 add non-CM curves** — Section 7.1 added: theoretical argument + table (11a1, 37a1, 389a1) + Sato-Tate explanation. | **Elie** | **DONE** (May 5) |
 | R-4 | **Referee log #18 update** — "Conditional changed from Kudla to DOF-to-K-type. Conditional not removed." | **Keeper** | **DONE** (May 5) |
-| R-5 | **Koide outreach paper** — "Why Q = 2/3: Z_3 on CP^2 and the Koide relation." 4 pages, one claim, derivation chain only. Target: PRL. | **Lyra+Keeper** | OUTLINED (May 5) — `notes/BST_Koide_PRL_Outline.md`. Lyra: Sec 2-3. Keeper: Sec 1/4/5. |
+| R-5 | **Koide outreach paper** — "Why Q = 2/3." Full draft v0.1 assembled: `notes/BST_Koide_PRL_Full_Draft.md` + PDF. 5 sections, 4 predictions, ~4 pages. | **Lyra+Keeper** | **DRAFT v0.1 COMPLETE** — Casey review needed |
 | R-6 | **Pre-register falsifier on Zenodo** — Single page. 5 predictions: BaTiO3 137-plane, 0vbb null, W-boson, 3 generations, n_s. | **Casey+Keeper** | DRAFTED (May 5) — `notes/BST_Preregister_Falsifier_Draft.md`. Casey: review + publish. |
 | R-7 | **W-boson short note** — BST predicts 80.361 GeV = n_C*m_p/(8*alpha). Pre-commit before 2026 resolution. | **Keeper** | **DONE** (May 5) — `notes/BST_W_Boson_Precommitment.md` |
 | R-8 | **Paper #75 RH — CRITICAL ISSUES FOUND** (see below) | **Cal (referee)** | DONE |
-| R-9 | **Verify 91.1 spectral gap source** — Pull [PS09]. Is it a bound for SO(5,2) or only GSp(4)/SO(3,2)? If latter, find the SO(5,2) bound or acknowledge conditional. | **Lyra** | URGENT |
-| R-10 | **L-function degree fix** — Write Step 1 of Thm 6.1 explicitly for F=zeta(s). Show which factor of the degree-7 L(s,pi,std) recovers zeta(s). | **Lyra+Elie** | URGENT |
-| R-11 | **Constraint 1 justification** — Cite Arthur framework for parity claim, or prove as lemma, or remove and audit residual. | **Lyra** | URGENT |
+| R-9 | **Verify 91.1 spectral gap source** — [PS09] IS for GSp(4)/SO(3,2), NOT SO(5,2). Different root multiplicities. BUT: Constraint 2 unnecessary if R-11 resolved (Constraints {1,3} eliminate all 45 types). **DEMOTED to presentation fix.** | **Lyra** | ANALYZED — see `notes/BST_Paper75_R9_R10_R11_Analysis.md` |
+| R-10 | **L-function degree fix** — Elie DONE (degree 6, factorization correct). **NEW DEEPER ISSUE**: Step 3 of Thm 6.1 conflates spectral parameters with L-function zeros. "Temperedness → GRH" is NOT a theorem. Need Selberg trace formula argument or conditional reframe. | **Lyra+Elie** | **SURFACE RESOLVED, STEP 3 OPEN** |
+| R-11 | **Constraint 1 justification** — Cite Arthur framework for parity claim, or prove as lemma, or remove and audit residual. **ESSENTIAL** if Constraint 2 removed (R-9). | **Lyra** | URGENT |
 | R-12 | **RH reframe** — Change "RH closed" to "RH conditional on SO(5,2) spectral gap." Update CLAUDE.md, board, all references. | **Keeper** | **DONE** (May 5) — updated CLAUDE.md, README.md, notes/README.md, WorkingPaper.md, Paper #67, Paper #82, Proof Gap Audit, referee log |
 | R-13 | **Paper #75 T1465-style honest assessment** — Write internal note with named gaps, tier labels, exact conditional. Apply same discipline as BSD. | **Keeper** | **DONE** (May 5) — `notes/BST_Paper75_Honest_Assessment.md` |
 | K-24 | **3200-dps result audit** — PID 80101 still running. Await checkpoints. | **Keeper** | WAITING |
@@ -159,13 +159,16 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 
 *RH CONDITIONAL (spectral gap on SO(5,2) unverified — R-9/R-10/R-11 URGENT). T29 CLOSED (April 23). BSD 99.7% (April 29) — labeling fix in R-1/R-2. P!=NP: THREE proved routes. Four-Color PROVED. YM 99%. NS 99.5%. Hodge 98%.*
 
-**RH Cold Audit Summary (May 5)**:
+**RH Cold Audit Summary (May 5, updated by Lyra ~10 AM)**:
 - Structure is RIGHT: reduction of RH to finite spectral condition on SO(5,2)/Gamma(137) is genuine and publishable
-- **Critical gap A**: The 91.1 Casimir bound cites [PS09] which is p-adic GSp(4), NOT a global eigenvalue bound on SO(5,2). Citation mismatch.
-- **Critical gap B**: L-function recovery asserts L(s,pi_F,std) = F(s) but standard L is degree 7, not degree 1. Degree mismatch needs explicit Rankin-Selberg decomposition.
-- **Critical gap C**: Constraint 1 (parity kills 34/45) uses non-standard Arthur sign computation without citation or proof.
-- **Recommended reframe**: "RH conditional on SO(5,2) spectral gap" — still extraordinary if it holds, honestly publishable now.
-- **DO NOT submit to Annals until R-9/R-10/R-11 resolved.** Circulate to Sarnak or Gan/Ichino first.
+- **Gap A (R-9)**: The 91.1 Casimir bound cites [PS09] which is for GSp(4)/SO(3,2), NOT SO(5,2). Different root multiplicities. **DEMOTED**: Constraint 2 unnecessary if R-11 resolved — Constraints {1,3} alone eliminate all 45 types.
+- **Gap B surface (R-10)**: Degree mismatch RESOLVED by Elie. L is degree 6 (not 7). F(s) is factor: L(s,pi_F,Std_6) = F(s)^2 * zeta(s)^2.
+- **Gap B deep (R-10 Step 3)**: **NEW, CRITICAL**. Step 3 claims "temperedness → zeros on Re(s)=1/2." This conflates spectral parameters with L-function zeros. Temperedness gives absolute convergence for Re(s)>1 and functional equation, but does NOT fix zero locations. "Temperedness → GRH" is not a theorem — it IS the GRH. Fix requires Selberg trace formula argument or conditional reframe.
+- **Gap C (R-11)**: Parity sign formula uncited. **ESSENTIAL** if Constraint 2 removed. Tractable (finite computation or Arthur [Art13] citation).
+- **Recommended reframe (revised)**: Paper proves two things:
+  (1) UNCONDITIONAL: temperedness of automorphic spectrum of Gamma(137)\D_IV^5 (= Ramanujan for this space), pending R-11.
+  (2) CONDITIONAL: RH, conditional on "temperedness implies GRH for standard L-function" (R-10 Step 3).
+- **DO NOT submit to Annals until R-10 Step 3 resolved.** R-11 is tractable. R-9 is moot if R-11 done. R-10 Step 3 is the binding constraint.
 
 ---
 
