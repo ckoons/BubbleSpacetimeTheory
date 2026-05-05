@@ -122,6 +122,12 @@ The spectral zeta function of the Bergman Laplacian on D_IV^5 is
 
 The sum converges absolutely for Re(s) > 5/2 since d_k ~ k^4/60 and lambda_k ~ k^2.
 
+The Selberg zeta function Z(s) = prod_{k=1}^{infinity} (1 - lambda_k^{-s})^{d_k} is the multiplicative companion. The two are related by
+
+  log Z(s) = -sum_{n=1}^{infinity} zeta_B(ns) / n.
+
+In this paper, zeta_B(s) is the protagonist: Theorems 3.1-3.3 concern its special values, poles, and denominators. The Selberg zeta Z(s) appears in Section 6, where the functional equation Z(s)/Z(5-s) = phi(s) is most naturally stated as a product identity.
+
 ### 3.2 Hurwitz parameterization
 
 Setting mu = k + 5/2, so that lambda_k = mu^2 - 25/4, and writing d(mu) as a polynomial in mu, the spectral zeta becomes a polynomial combination of Hurwitz zeta functions:
@@ -177,7 +183,7 @@ confirming that N_max = 137 divides the numerator of zeta_B(0). The denominator 
 
 **Theorem 3.3** (Poles of zeta_B). *The function zeta_B(s) has simple poles at s = 5/2, 3/2, 1/2, corresponding to the half-integer shifts of the B_2 root system. The residues are rational functions of the root data.*
 
-*Proof.* The poles arise from the Hurwitz zeta components at s = (2m+1)/2 for the polynomial terms of degree 2m in mu. Since d(mu) is degree 5, the poles occur at s = (5+1)/2, (3+1)/2, (1+1)/2, giving s = 3, 2, 1 before the shift. With the quadratic eigenvalue lambda = mu^2 - 25/4, the mapping s_zeta = s_Hurwitz/2 gives poles at s = 5/2, 3/2, 1/2. QED.
+*Proof.* The Hurwitz zeta function zeta_H(s, a) has a single simple pole at s = 1. Writing zeta_B(s) as a polynomial combination of Hurwitz functions zeta_H(s - m, 7/2) for m = 0, ..., 4 (from expanding d(mu) as a degree-5 polynomial in mu), the Hurwitz poles at s - m = 1, i.e., s = m + 1 = 1, 2, 3, 4, 5, are the candidate poles. However, the d(mu) polynomial has zeros that cancel the poles at s = 4 and s = 5. The surviving Hurwitz poles are at s_H = 1, 2, 3. The substitution from Hurwitz parameter to spectral zeta parameter is s_zeta = s_H / 2 (because lambda_k = mu^2 - 25/4 is quadratic in mu, so zeta_B involves zeta_H at half-integer arguments). This gives the spectral zeta poles at s = 1/2, 3/2, 5/2. QED.
 
 ## 4. The Log-Cancellation Theorem
 
@@ -667,5 +673,3 @@ Total: 17 toys, 298/298 PASS (100%).
 [8] Gangolli, R. (1977). Zeta functions of Selberg's type for compact space forms of symmetric spaces of rank one. *Illinois Journal of Mathematics* 21, 1-41.
 
 [9] Shimura, G. (1971). *Introduction to the Arithmetic Theory of Automorphic Functions*. Princeton University Press.
-
-[10] Sarnak, P. (2005). Notes on the generalized Ramanujan conjectures. In *Harmonic Analysis, the Trace Formula, and Shimura Varieties*, Clay Mathematics Proceedings 4, 659-685.

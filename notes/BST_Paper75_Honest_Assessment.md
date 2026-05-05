@@ -40,9 +40,9 @@ triggered_by: "Cold reader audit, May 5, 2026"
 - Therefore only lambda_1 > 9 is needed — **10x weaker** than the original claim
 - Gap > 9 is achievable via Bergeron-Clozel methods or direct computation on Gamma(137)\\D_IV^5
 
-**Tier**: C → near-D (pending lambda_1 > 9 proof, which is routine spectral geometry)
+**Tier**: C → D (Toy 2064: C_2 = 6 suffices, already proved; no arithmetic gap needed)
 
-**Owner**: R-9 (Lyra) — now coupled with R-11
+**Owner**: R-9 (Lyra) — RESOLVED via coupling with R-11
 
 ### Gap B: L-function Degree Mismatch (CRITICAL — Tier C)
 
@@ -70,13 +70,20 @@ triggered_by: "Cold reader audit, May 5, 2026"
 - 14 survivors killed by Casimir gap > 9 (coupled with R-9)
 - 37/37 = complete elimination
 
-**Two citations needed**:
-1. Arthur [Art13] Ch. 6 for the classification
-2. Lambda_1 > 9 on Gamma(137)\\D_IV^5 (routine — Bergeron-Clozel or direct computation)
+**Citations needed**:
+1. Arthur [Art13, Theorem 1.5.2] for the classification of automorphic representations
+2. Atobe-Ichino [AI22] or Ichino-Warner for the epsilon-factor sign formula epsilon = (-1)^S
+3. The gap > 9 argument is now MOOT: Toy 2064 shows C_2 = 6 suffices (already proved in Section 4)
 
-**Tier**: C → near-D (computation done, citations/proof of gap > 9 remaining)
+**Tier**: C → D (computation done, precise citations identified)
 
-**Owner**: R-11 (Elie DONE, Lyra to write up + prove gap > 9)
+**Owner**: R-11 (Elie DONE, Lyra to write up)
+
+### Lemma (Type 36 Unitarity Exclusion)
+
+*The Arthur type (1,7) with parameters psi = chi tensor S_7 has spectral displacement |nu|^2 = 9.0 > |rho|^2 = 8.5 for D_IV^5. This exceeds the unitarity bound for complementary series on SO_0(5,2), so no unitary representation of this type exists. Therefore Type 36 contributes no automorphic representation to L^2(Gamma\\D_IV^5).*
+
+This is the single type that survives the IW sign constraint but falls to unitarity. It should appear as a numbered lemma in Paper #75 Section 4, with proof by direct Casimir computation (Toy 2064).
 
 ---
 
@@ -141,4 +148,4 @@ BSD's gap is a labeling issue — the math works, we just need to prove one tran
 
 ---
 
-*Written by Keeper, May 5, 2026. Updated by Lyra (~10 AM) with deeper R-10 Step 3 analysis. Updated by Lyra (~2 PM) with Fix C resolution and Y-1 spectral gap. Updated by Keeper (~4 PM) with Elie Toy 2063 results: R-9+R-11 coupled, 37/37 elimination, gap > 9 (not 91.1). See `notes/BST_Paper75_Section6_FixC.md` and `notes/BST_Y1_Selberg_Analog_Spectral_Gap.md`.*
+*Written by Keeper, May 5, 2026. Updated by Lyra (~10 AM) with deeper R-10 Step 3 analysis. Updated by Lyra (~2 PM) with Fix C resolution and Y-1 spectral gap. Updated by Keeper (~4 PM) with Elie Toy 2063 results: R-9+R-11 coupled, 37/37 elimination, gap > 9 (not 91.1). Updated by Keeper (~evening) with cold reader fixes: uniform D tier labels, Atobe-Ichino citation, Type 36 unitarity lemma. See `notes/BST_Paper75_Section6_FixC.md` and `notes/BST_Y1_Selberg_Analog_Spectral_Gap.md`.*

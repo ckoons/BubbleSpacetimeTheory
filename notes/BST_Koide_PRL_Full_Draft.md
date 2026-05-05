@@ -17,7 +17,7 @@ ac: "(C=1, D=0)"
 
 ## Abstract
 
-The Koide sum rule Q = (m_e + m_mu + m_tau)/(sqrt(m_e) + sqrt(m_mu) + sqrt(m_tau))^2 = 2/3 has held to 0.001% for over four decades without explanation. We show it follows from the topology of the bounded symmetric domain D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)]: the ratio Q = rank/N_c = 2/3, where rank = 2 and N_c = 3 are topological invariants of the compact dual quadric Q^5. Because both integers are rigid (discrete topology), the ratio receives no perturbative corrections, explaining its extraordinary precision. The Koide angle theta_0 with cos(theta_0) = -19/28 decomposes as 19 = n_C^2 - C_2 and 28 = g(g+1)/2, where n_C = 5, C_2 = 6, g = 7 complete the five integers of D_IV^5. We predict Q remains exactly 2/3 at all future precisions, and that the same relation holds for up-type quarks (currently verified to 0.34%).
+The Koide sum rule Q = (m_e + m_mu + m_tau)/(sqrt(m_e) + sqrt(m_mu) + sqrt(m_tau))^2 = 2/3 has held to 0.001% for over four decades without explanation. We show it follows from the topology of the bounded symmetric domain D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)]: the ratio Q = rank/N_c = 2/3, where rank = 2 and N_c = 3 are topological invariants of the compact dual quadric Q^5. Because both integers are rigid (discrete topology), the ratio receives no perturbative corrections, explaining its extraordinary precision. The Koide angle theta_0 with cos(theta_0) = -19/28 decomposes as 19 = n_C^2 - C_2 and 28 = g(g+1)/2, where n_C = 5, C_2 = 6, g = 7 complete the five integers of D_IV^5. We predict Q remains exactly 2/3 at all future precisions.
 
 ---
 
@@ -49,11 +49,11 @@ Five integers characterize D_IV^5 completely (Table I):
 
 | Symbol | Name | Value | Definition |
 |--------|------|-------|------------|
-| rank | Rank | 2 | dim of maximal flat |
-| N_c | Color dimension | 3 | rank + 1 = order of restricted Weyl group mod reflections |
-| n_C | Complex dimension | 5 | N_c^2 - N_c + rank |
-| C_2 | Casimir eigenvalue | 6 | chi(Q^5) = Euler characteristic |
-| g | Genus | 7 | 2*n_C - N_c = dim of restricted root system + rank |
+| rank | Real rank | 2 | dim of maximal flat subspace |
+| N_c | Short root multiplicity | 3 | m_s = 2^rank - 1 = 3 |
+| n_C | Complex dimension | 5 | N_c + rank = 5 |
+| C_2 | Quadratic Casimir | 6 | N_c * rank = 6 |
+| g | Genus | 7 | n_C + rank = 7 |
 
 **Table I.** The five integers of D_IV^5. Each is a topological invariant of Q^5.
 
@@ -103,12 +103,12 @@ The masses are fully determined by three parameters: the overall scale r, Q = 2/
 
 cos(theta_0) = -19/28.
 
-Both integers decompose into BST invariants:
+Both integers admit decompositions into BST invariants:
 
-- 19 = n_C^2 - C_2 = 25 - 6 (independent Bergman metric entries minus Casimir eigenvalue)
-- 28 = T_g = g*(g+1)/2 = 7*8/2 (the g-th triangular number; also the second perfect number 2^2*(2^3 - 1))
+- 19 = n_C^2 - C_2 = 25 - 6
+- 28 = T_g = g*(g+1)/2 = 7*8/2 (the g-th triangular number)
 
-The angle theta_0 = arccos(-19/28) = 132.09 degrees is a geometric parameter, not a fitted value.
+The angle theta_0 = arccos(-19/28) = 132.09 degrees. **Epistemic note (tier I):** The integer decompositions above are identifications, not derivations. A geometric mechanism connecting cos(theta_0) to D_IV^5 invariants — e.g., via the Foot geometric model [3] applied to the Bergman metric — remains to be established. Without such a bridge, the decomposition 19 = n_C^2 - C_2 is consistent but not proved.
 
 ### 3.4 Why the ratio is exact
 
@@ -117,7 +117,7 @@ The integers rank = 2 and N_c = 3 are topological invariants of Q^5:
 - rank = 2 is the dimension of the maximal flat subspace
 - N_c = 3 is the order of the Z_3 symmetry group (discrete, hence rigid)
 
-Their ratio Q = 2/3 receives no perturbative corrections. Loop corrections shift individual masses m_e, m_mu, m_tau, but the Z_3-averaged ratio Q is protected by the topological origin of both numerator and denominator.
+Their ratio Q = 2/3 receives no perturbative corrections at tree level. Loop corrections shift individual masses m_e, m_mu, m_tau; the claim is that the Z_3-averaged ratio Q is protected by the topological origin of both numerator and denominator. **Caveat:** a rigorous RG stability proof — showing that radiative corrections preserve Q = 2/3 at each order — has not yet been constructed. The empirical stability of Q over four decades of improving measurements (0.001%) is strong evidence, but a formal demonstration requires establishing a non-renormalization theorem for topological ratios in BST.
 
 This explains the extraordinary precision (0.001%): Q is a ratio of two small integers, not a relation among three continuous quantities.
 
@@ -129,11 +129,7 @@ The geometric origin of Q = 2/3 generates four testable predictions:
 
 **P1. Q remains 2/3.** Any future high-precision measurement of lepton masses will confirm Q -> 2/3, never drifting away. The tau mass should converge toward 1776.97 MeV (the Koide-predicted value from exact Q = 2/3 and exact theta_0 = arccos(-19/28)).
 
-**P2. Quark Koide.** The same spectral decomposition applies to quarks within each charge sector:
-- Up-type: Q(u, c, t) = 2/3 (currently 0.34% from 2/3 using PDG central values)
-- Down-type: Q(d, s, b) = 2/3 (currently ~3%, larger deviation attributed to confinement dressing at the light-quark end)
-
-The up-type prediction is testable with improved charm and top quark mass measurements.
+**P2. Quark Koide.** If the same spectral decomposition applies to quarks, each charge sector should satisfy Q = 2/3. With PDG MS-bar masses, Q(u, c, t) approx 0.85 and Q(d, s, b) approx 0.62 — both significantly off 2/3. The deviation is expected: quark masses are scheme-dependent (unlike lepton pole masses), and confinement dressing obscures the underlying spectral parameters. The prediction is that at the energy scale where quark masses reflect the unconfined spectral eigenvalues — if such a scale exists — Q = 2/3 will hold. This is the weakest of our four predictions, and its failure at accessible scales would not invalidate the lepton result.
 
 **P3. Exactly three generations.** Z_3 is exhaustive: N_c = 3 forces exactly three generations. No fourth-generation charged lepton or quark exists at any mass. Discovery of a fourth generation would falsify the geometric mechanism.
 
