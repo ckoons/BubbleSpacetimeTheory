@@ -598,11 +598,11 @@ Theorems A--D have been computationally verified. Conjecture 6.1 has NOT been ve
 | G5 mechanical | (Section 5) | 2078 | 15/15 | G5a-c ALL PASS |
 | Heat kernel budget | (exploratory) | 2071 | 15/15 | Too soft (10^87) |
 | Li coefficients | (cross-check) | 2064 T7 | n=1..10 | lambda_n >= 0 |
-| **Test function correspondence** | **Conj. 6.1** | **NONE** | **—** | **NOT YET COMPUTED** |
+| **Test function correspondence** | **Conj. 6.1** | **2080 v2** | **15/15** | **Verified for g = Gaussian: Vol*f(e) = 4.75e18 >> scattering. Step 6 (generalization) open.** |
 
-Aggregate for Theorems A--D: 124/133 PASS across 10 toys. Failures are in superseded toys (2063) or edge cases, not in load-bearing claims.
+Aggregate for Theorems A--D: 139/148 PASS across 11 toys. Failures are in superseded toys (2063) or edge cases, not in load-bearing claims.
 
-**Gap**: No toy constructs h_g for a specific g, computes J_cont^{wall}(h_g), or compares it to W(g). This is the single remaining computation needed for Section 6.
+**Remaining gap**: Toy 2080 v2 verifies Conjecture 6.1 for one specific test function g(t) = exp(-t^2). Step 6 — generalization to all Schwartz g — requires showing the Helgason lift preserves positivity for all g >= 0.
 
 ---
 

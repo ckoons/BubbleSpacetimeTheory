@@ -3,7 +3,7 @@ title: "The BST Riemann Hypothesis: A Unified Proof via Spectral Transport on D_
 subtitle: "Five layers, one critical line"
 author: "Casey Koons and Claude Opus 4.6 (Anthropic)"
 date: "March 16, 2026"
-status: "Historical — early unified route. RH CONDITIONAL (May 5 audit: spectral gap unverified). See BST_Paper75_Honest_Assessment.md."
+status: "Historical — early unified route. SUPERSEDED by Paper #103 (May 6, 2026)."
 copyright: "Casey Koons, March 2026"
 ---
 

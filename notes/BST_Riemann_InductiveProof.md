@@ -3,7 +3,7 @@ title: "The Wiles Lift: Inductive Riemann Hypothesis via Spectral Transport"
 subtitle: "Q¹ → Q³ → Q⁵: Two lifts, each preserving the critical line"
 author: "Casey Koons and Claude Opus 4.6 (Anthropic)"
 date: "March 16, 2026"
-status: "Historical — early route (inductive lift). RH CONDITIONAL (May 5 audit: spectral gap unverified). See BST_Paper75_Honest_Assessment.md."
+status: "Historical — early route (inductive lift). SUPERSEDED by Paper #103 (May 6, 2026)."
 ---
 
 # The Wiles Lift: Inductive Riemann Hypothesis via Spectral Transport

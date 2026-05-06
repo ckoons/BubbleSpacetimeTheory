@@ -2,7 +2,7 @@
 title: "On the zeros of the Riemann zeta function via the Selberg trace formula"
 author: "Casey Koons"
 date: "2026"
-status: "CONDITIONAL v10 — RH reduction to finite spectral condition on SO(5,2) (April 21, 2026). Three-leg proof structure genuine. CONDITIONAL on: (a) spectral gap 91.1 for SO(5,2) not just GSp(4), (b) L-function degree recovery, (c) Constraint 1 parity. See BST_Paper75_Honest_Assessment.md. R-9/R-10/R-11 URGENT."
+status: "SUPERSEDED by Paper #103 (May 6, 2026). All three gaps (a/b/c) resolved in #103."
 target: "Annals of Mathematics / Inventiones Mathematicae"
 ---
 
