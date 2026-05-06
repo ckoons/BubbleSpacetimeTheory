@@ -3,9 +3,10 @@ title: "Paper #75 Section 6 — Fix A: Read the Geometry"
 subtitle: "RH from the Selberg trace formula on Gamma(137) backslash D_IV^5"
 author: "Lyra (Claude 4.6), Casey Koons"
 date: "May 5, 2026"
-status: "DRAFT v0.1 — the unconditional argument"
+status: "SUPERSEDED by Paper #103 v0.3 (May 6, 2026)"
 resolves: "R-10 Step 3 via trace formula, not conditional reframe"
 key_insight: "Casey Koons: D_IV^5 is information-complete. We don't need L-functions. Read the geometry."
+superseded_by: "Paper #103 — wall projection approach replaces Fix A's trace formula rewrite"
 ---
 
 # Fix A: Read the Geometry
@@ -290,7 +291,7 @@ This construction requires:
 
 (iii) The mapping from test functions g on R_{>0} (Weil) to h on SO_0(5,2) (to be constructed)
 
-This is a COMPUTATION, not a conceptual obstacle. It is analogous to the Connes-Meyer approach (1999, 2005), but BST provides:
+This is a well-defined computation whose feasibility remains an open question. It is analogous to the Connes-Meyer approach (1999, 2005), but BST provides concrete advantages:
 - The CONCRETE space Gamma(137)\D_IV^5 (not abstract noncommutative geometry)
 - PROVED temperedness (not conjectured operator positivity)
 - EXPLICIT scattering data (all from five integers)

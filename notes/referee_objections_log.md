@@ -410,7 +410,7 @@ Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open unt
 - R-11: Prove Constraint 1 via Arthur framework or remove and audit residual.
 - DO NOT submit to Annals until all three resolved. Circulate to Sarnak or Gan/Ichino first.
 
-**Status:** OPEN — R-9/R-10/R-11 assigned to Lyra (URGENT). R-12 (reframe "closed" → "conditional" in root files) DONE (Keeper, May 5). R-13 (honest assessment note) this week.
+**Status:** RESOLVED by Paper #103 v0.3 (May 6, 2026). All three gaps fixed: R-9 (Bergman gap C_2=6 replaces [PS09]), R-10 (wall projection bypasses L-function degree), R-11 (IW sign formula with full reference chain, 37/37 non-tempered types eliminated). Theorems A-D unconditional. RH itself conditional on Conjecture 6.1 (test function correspondence). Toy 2080 (Elie): partial computation identifies |c(0,t)|^{-2} Plancherel weight as load-bearing.
 
 ### #33 — Paper #76 YM suite: Selberg analog + Poincare branching + pure-gauge (Cold reader, May 5)
 
@@ -420,7 +420,7 @@ Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open unt
 
 | Gap | Issue | Severity | Ref |
 |-----|-------|----------|-----|
-| **Selberg analog** | lambda_1 = 6 proved on compact dual Q^5 and as discrete eigenvalue (holomorphic discrete series). But gap claim (no spectrum below 6) requires excluding complementary series = SO(5,2) Selberg conjecture analog. **Same structural issue as Paper #75.** | SERIOUS | Y-1 |
+| **Selberg analog** | **RESOLVED** (May 6). Paper #103 Theorem A proves temperedness unconditionally (37/37 types eliminated). Corollary B: lambda_1 >= |rho|^2 = 8.5 > C_2 = 6. Y-1 closed. | ~~SERIOUS~~ CLOSED | Y-1 |
 | **Poincare branching** | W2 asserts "branching rule SO_0(5,2) -> Poincare produces reps with E-p spectrum in forward light cone." Asserted, not computed. Need explicit branching for pi_6. | SERIOUS | Y-2 |
 | **Pure-gauge gap** | 938 MeV is the proton (full theory), not the glueball. Clay asks for pure-gauge mass gap. Not done. Glueball prediction (1.4-1.8 GeV) not derived with same precision. | MODERATE | Y-6 |
 
@@ -484,8 +484,8 @@ Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open unt
 
 1. **#16** — n_s = 1 - n_C/N_max derivation chain (cosmology).
 2. **#18** — BSD conditional status — PARTIALLY ADDRESSED (May 5).
-3. **#32** — Paper #75 RH: two conditionals (R-10 Step 3 binding, R-11 tractable).
-4. **#33** — Paper #76 YM: Selberg analog + Poincare branching + pure-gauge (Y-1 through Y-6).
+3. **#32** — Paper #75 RH: **RESOLVED** by Paper #103 (May 6). Theorems A-D unconditional. RH conditional on Conjecture 6.1.
+4. **#33** — Paper #76 YM: Y-1 **RESOLVED** (Paper #103 Theorem A). Poincare branching + pure-gauge still open (Y-2 through Y-6).
 5. **#34** — Paper #91: scope split + 8 fixes (S-1 through S-5).
 6. **#23** — pred_004 toy wrap (Elie).
 7. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).

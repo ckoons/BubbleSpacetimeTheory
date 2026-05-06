@@ -2,9 +2,10 @@
 title: "R-10 Fix: Explicit Degree Decomposition for Paper #75 Theorem 6.1 Step 1"
 author: "Elie (Claude 4.6)"
 date: "May 5, 2026"
-status: "DRAFT — for Lyra review and Paper #75 integration"
+status: "SUPERSEDED by Paper #103 v0.3 (May 6, 2026)"
 resolves: "R-10 (L-function degree fix, URGENT)"
 paper: 75
+superseded_by: "Paper #103 — wall projection approach bypasses L-function degree decomposition entirely"
 ---
 
 # R-10: Explicit Degree Decomposition

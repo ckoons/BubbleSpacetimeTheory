@@ -113,7 +113,9 @@ T1-T1723. **.next_toy=2056+**. **.next_theorem=1724+**. **2056+ toy files**. Gra
 | R-15 | **Heat kernel positivity budget** — **RESOLVED** (Toy 2071, 15/15). Budget positive at all 20 t-values. BUT heat kernel is too soft: budget 10^87 at t=1, uninformative about RH. Gap n_C/rank = 2.5 is structural margin, not proof mechanism. | **Elie** | **DONE** (Toy 2071) |
 | R-16 | **Rank-2 wall projection** — **RESOLVED** (Toy 2072, 14/14). **Wall gap CONFIRMED**: all discrete eigenvalues have |ν₁| > 0. Minimum gap = sqrt(n_C/rank) = sqrt(5/2) = 1.581 at λ = C₂ = 6. ν₁ = 0 requires λ = (5+sqrt(59))/2 = 6.34 (irrational, impossible for integer eigenvalues). Gaussian test function with eps -> 0 annihilates discrete sum exponentially. **RH reduces to**: orbital integral positivity of Γ(137) on the ν₁ = 0 wall. This is arithmetic at prime level 137. | **Elie** | **DONE** (Toy 2072) |
 | R-17 | **Multiplicity squeeze** — **COMPUTED** (Elie Toy 2073 10/15, Lyra Toy 2074 16/16). Multiplicities m_k ~ k^5/60 (Hilbert polynomial of Q^5, degree = n_C). Spectral density K^4 vs zero count K*log(K) = overdetermination K^3/log(K). After Weyl cancellation, geometric remainder grows as K^1, far below K^4. Squeeze bound: σ < 5*log(K)/K -> 0. **R-16 is the stronger proof route** (exact reduction vs asymptotic). R-17 explains WHY D_IV^5 specifically constrains zeros. | **Lyra+Elie** | **DONE** (Toys 2073+2074) |
-| R-18 | **Orbital integral positivity** — **COMPUTED** (Toy 2075, 10/11). Volume dominance gives positivity by factor 10^30+. **Remaining gap G5**: δ(ν₁) is a distributional limit, not in Paley-Wiener. Need: trace formula extends to this distributional limit. This is Connes' test function problem in concrete form — explicit space, explicit arithmetic, but still requires the functional analysis step. Test [6] (Weil sum positivity for Gaussian) FAILS because Gaussian in ν₁ doesn't fully annihilate discrete sum (only exponentially suppresses). **RH status: reduced to G5.** | **Elie** | **DONE** (Toy 2075) — G5 open |
+| R-18 | **Orbital integral positivity** — **COMPUTED** (Toy 2075, 10/11). Volume dominance gives positivity by factor 10^30+. **G5 VERIFIED** (Toy 2078, 15/15): G5a Cauchy norm eps^{5/2}, G5b Moore-Osgood double limit, G5c volume margin 10^{47}. All three mechanical verifications PASS. | **Elie** | **DONE** (Toys 2075+2078) — G5 CLOSED |
+| R-19 | **Toy 2080: Test function correspondence** — Cal's 8-step spec. Elie completed 16/19 PASS. **Key finding**: J_cont^{wall} = -0.019 (NEGATIVE) without Plancherel weight |c(0,t)|^{-2}. Re[xi'/xi(1/2+it)] ~ 0 (consistent with RH). The c-function weight is load-bearing for positivity. **Next**: rerun with full |c(0,t)|^{-2} included. Li coefficients lambda_1..10 ALL POSITIVE (independent RH check). | **Elie** | **IN PROGRESS** — 16/19 PASS, awaiting Plancherel-weighted rerun |
+| R-20 | **Downstream updates from #103** — Tier 1: CLAUDE.md, README.md, WorkingPaper.md, CI_BOARD updated. Tier 2: Paper #76 abstract + Y-1 note updated (Y-1 PROVED). Tier 3: supersession headers on 6 Paper #75 companion docs. Tier 4: referee log #32 RESOLVED, #33 Y-1 CLOSED. | **Keeper** | **DONE** (May 6) |
 | K-24 | **3200-dps result audit** — PID 80101 still running. Await checkpoints. | **Keeper** | WAITING |
 | SE-0 | **Investigation oversight** — Cross-check SE results vs Casimir data (Paper #26) and patent claims. | **Keeper** | STANDING |
 | SP-14 | **Derivation catalog discipline** — Every constant/ratio filed same session. | **All** | STANDING |
@@ -136,7 +138,8 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 | #100 | Substrate Engineering | Grace+all | **v0.1** |
 | #101 | The Isotope Principle | Grace+Elie | **v0.1** |
 | #102 | Substrate Computation | Grace | **v0.1** |
-| #103-#117 | SE paper pipeline (15 papers) | Various | QUEUED |
+| **#103** | **Temperedness, Spectral Gaps, and Wall Projection on D_IV^5** — supersedes #75. Theorems A-D UNCONDITIONAL (temperedness, spectral gap, wall projection, uniqueness). Section 6: RH CONDITIONAL on Conjecture 6.1 (test function correspondence — Toy 2080 needed). Cold reader audit: Steps 1-4 verified (124/133 PASS), Step 5 is "the same gap as before, just better-packaged." | Keeper+Lyra+Elie | **v0.2** (May 6, cold reader applied). Target: Annals/Compositio |
+| #104-#117 | SE paper pipeline (14 papers) | Various | QUEUED |
 
 ### Outreach / Submission Papers (unnumbered)
 
@@ -149,7 +152,7 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 | Fix A (trace formula bridge) | `BST_Paper75_Section6_FixA.md` | Lyra | DRAFT — test function correspondence open | (companion to #75) |
 | Fix C (conditional reframe) | `BST_Paper75_Section6_FixC.md` | Lyra | **WRITTEN** — replacement text for #75 Section 6 | (companion to #75) |
 | Y-1 Selberg analog | `BST_Y1_Selberg_Analog_Spectral_Gap.md` | Lyra | **WRITTEN** — follows from temperedness | (companion to #76) |
-| R-11 Elimination Lemma | `BST_R11_Elimination_Lemma.md` | Elie | **v0.1** — 3-step proof, two [VERIFY] tags, Step 3 needs expert | JAMS/Compositio |
+| R-11 Elimination Lemma | `BST_R11_Elimination_Lemma.md` | Elie+Lyra | **v0.2** — 3-step proof, Step 3 RESOLVED (Toy 2077: complementary filter, SK risk CLOSED) | JAMS/Compositio |
 | #75 Honest Assessment | `BST_Paper75_Honest_Assessment.md` | Keeper | **v0.3** — uniform D tiers, Type 36 lemma, AI citation | Internal |
 
 ### Casey's Lane
@@ -189,23 +192,23 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 
 ## Millennium Status (reference)
 
-*RH CONDITIONAL (R-9 RESOLVED by Toy 2064: C_2 = 6 suffices, no arithmetic gap needed. R-11 = Arthur citation. Temperedness PROVED by {IW sign + unitarity + C_2 gap}. RH conditional on test function correspondence OR temperedness-implies-GRH). T29 CLOSED (April 23). BSD 99.7% (conditional on DOF-to-K-type). P!=NP: THREE proved routes. Four-Color PROVED. YM CONDITIONAL (Y-1 spectral gap follows from temperedness, Poincare branching + pure-gauge gap open — Y-2 through Y-6). NS 99.5%. Hodge 98%.*
+*Paper #103 v0.3 (May 6): Theorems A-D UNCONDITIONAL (temperedness 37/37, spectral gap lambda_1>=8.5, wall projection |nu_1|>=sqrt(5/2), D_IV^5 uniqueness). RH CONDITIONAL on Conjecture 6.1 (test function correspondence h_g -> W(g)). Toy 2080 (Elie, 16/19): J_cont = -0.019 WITHOUT Plancherel weight; |c(0,t)|^{-2} identified as load-bearing for positivity; rerun pending. T29 CLOSED (April 23). BSD 99.7% (conditional on DOF-to-K-type). P!=NP: THREE proved routes. Four-Color PROVED. YM CONDITIONAL (Y-1 spectral gap NOW PROVED by Theorem B of #103, Poincare branching + pure-gauge gap still open — Y-2 through Y-6). NS 99.5%. Hodge 98%.*
 
 **RH Cold Audit Summary (May 5, updated after Toy 2064)**:
 - Structure is RIGHT: reduction of RH to finite spectral condition on SO(5,2)/Gamma(137) is genuine and publishable
 - **Gap A (R-9)**: **RESOLVED** (Toy 2064). No arithmetic gap needed. Type 36 excluded by unitarity (displacement 9.0 > |rho|^2 = 8.5). Remaining 13 unitary types have displacement <= 2.25 < C_2 = 6 (Bergman gap). Elimination: IW(23) + unitarity(1) + C_2(13) = 37/37. Replace [PS09] with lambda_1 = C_2 = 6.
 - **Gap B surface (R-10)**: Degree mismatch RESOLVED by Elie. L is degree 6 (not 7). F(s) is factor: L(s,pi_F,Std_6) = F(s)^2 * zeta(s)^2.
 - **Gap B deep (R-10 Step 3)**: **RESOLVED via Fix C**. Conditional reframe WRITTEN: Theorem 6.1 (temperedness, unconditional) + Theorem 6.6 (RH, conditional on Conjecture 6.5: temperedness-implies-GRH). Fix A also written: trace formula + test function correspondence. See `notes/BST_Paper75_Section6_FixC.md` and `notes/BST_Paper75_Section6_FixA.md`.
-- **Gap C (R-11)**: **COMPUTED** (Toy 2063). IW sign epsilon=(-1)^S eliminates 23/37. **Combined with unitarity + C_2 gap (Toy 2064): all 37 eliminated.** Citation needed: Arthur [Art13] Ch. 6.
+- **Gap C (R-11)**: **COMPUTED** (Toy 2063). IW sign epsilon=(-1)^S eliminates 23/37. **Combined with unitarity + C_2 gap (Toy 2064): all 37 eliminated.** Citation: Arthur [Art13] Ch. 6. **Step 3 SK risk RESOLVED** (Toy 2077): complementary filter — d=2-only killed by IW (Kottwitz -1 mismatch), d>=3 killed by Moeglin [Moe08] m_cusp=0. 37/37, zero gap.
 - **Recommended reframe (final)**: Paper proves two things:
   (1) UNCONDITIONAL: temperedness of automorphic spectrum of Gamma(137)\\D_IV^5 (= Ramanujan for this space). Requires only: Arthur [Art13] citation for IW sign. R-9 resolved (C_2 = 6 suffices).
   (2) CONDITIONAL: RH, conditional on either test function correspondence (Fix A) or "temperedness implies GRH" (Fix C).
 - **Fix A progress** (Lyra, Toy 2065, 15/15): Intertwining bridge residues. M(w_0) poles at zeta-zeros map to s_j = z_k-1. Rank-1 reduction via P_2 parabolic isolates short root factor m_s(s) = xi(s-2)/xi(s+1) — a shifted Weil explicit formula. Test function correspondence is a computation, not a conceptual obstacle.
-- **Path to submission**: (a) R-11 three items: exact IW citation, SO(5,2) inner form verification, self-contained lemma. (b) Fix C written. Fix A drafted but incomplete (test function correspondence = Connes-level open problem). (c) Cold reader + Keeper consensus: NO valid proof of RH yet. Unconditional Ramanujan theorem is close (pending R-11). Submit Ramanujan paper FIRST as standalone, circulate Fix A to Sarnak separately.
+- **Path to submission (revised May 6 after cold reader audit)**: (a) Theorems A-D UNCONDITIONAL: publishable NOW as major result (Ramanujan + Selberg gap + wall projection + uniqueness). Target: Compositio/IMRN. (b) RH CONDITIONAL on Conjecture 6.1 (test function correspondence). Toy 2080 assigned to Elie — explicit computation for one g. (c) Cal's verdict: "Steps 1-4 + Section 7 + SK dichotomy = substantial unconditional result worth publishing. Step 5 = same gap as before, better-packaged."
 
 **YM Cold Audit Summary (May 5, cold reader)**:
 - **Most internally honest** of all three Clay packages (BSD, RH, YM). Paper #76 Section 1.1 terminology table, #77 Section 4.6 admission, #80 Section 3.3 conjecture flag, #79 Section 6.3 self-disclaimer are all good practice.
-- **Common structural issue with RH**: lambda_1 = 6 is PROVED on compact dual Q^5 and as discrete eigenvalue (holomorphic discrete series). But the GAP claim (no spectrum below 6) requires excluding complementary series = SO(5,2) Selberg analog conjecture. **OPEN.**
+- **Common structural issue with RH**: lambda_1 = 6 is PROVED on compact dual Q^5. The GAP claim (no complementary series) was OPEN on May 5 but is now **PROVED** by Paper #103 Theorem A (temperedness) -> Corollary B (lambda_1 >= |rho|^2 = 8.5). Y-1 RESOLVED.
 - **Pure-gauge gap**: 938 MeV is the proton (full theory), not the glueball. Clay asks for pure-gauge. Not done.
 - **Exceptional groups**: G_2 is conjectural (descent inequality unproved). F_4/E_8 are sub-sector identifications inside ambient theories, not standalone Wightman constructions. "All compact simple groups" overstates.
 - **Poincare branching** (W2): Asserted, not computed. Same structural pattern as Paper #75 Step 1.

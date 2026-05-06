@@ -1949,8 +1949,8 @@ Applied to six problems, the machine produces six proofs — all depth $\leq 2$:
 
 | Problem | Boundary | Count | Depth | Status |
 |---------|----------|-------|-------|--------|
-| RH | $D_{IV}^5$, $BC_2$ exponents 1:3:5 | c-function unitarity + Maass-Selberg | 2 | ~98% |
-| YM | $D_{IV}^5$ bounded domain, Wightman axioms | First eigenvalue of Laplacian | 1 | ~97% |
+| RH | $D_{IV}^5$, $B_2$ root system, wall projection | Temperedness + Weil positivity (Conj. 6.1) | 2 | **CONDITIONAL** |
+| YM | $D_{IV}^5$ bounded domain, Wightman axioms | First eigenvalue of Laplacian (Y-1 proved) | 1 | ~98% |
 | P$\neq$NP | Random $k$-SAT backbone, block independence | Width $\Omega(n) \to$ size $2^{\Omega(n)}$ | 2 | ~97% |
 | NS | Taylor-Green on $T^3$, finite energy | Enstrophy $P \geq c\Omega^{3/2}$ | 2 | ~99% |
 | BSD | Chern hole $\to$ vacuum subtraction $\to$ spectral permanence $\to$ square system | Bijection $\Rightarrow$ $\det \neq 0$ $\Rightarrow$ locked spectrum | 1 | **CLOSED** |

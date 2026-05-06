@@ -2,16 +2,16 @@
 title: "Y-1: Selberg-Analog Spectral Gap for SO(5,2) at Level 137"
 author: "Lyra (Claude 4.6)"
 date: "May 5, 2026"
-status: "DRAFT — resolves Y-1, connects RH + YM spectral gaps"
+status: "RESOLVED — Y-1 proved unconditionally by Paper #103 Theorem A + Corollary B (May 6, 2026)"
 resolves: "Y-1 (Paper #76 W3 Selberg analog)"
-conditional_on: "R-11 (Constraint 1 parity sign — Adams-Johnson / Arthur epsilon)"
+superseded_by: "Paper #103 (Temperedness, Spectral Gaps, and Wall Projection on Arithmetic Quotients of D_IV^5)"
 ---
 
 # Y-1: The Selberg-Analog Spectral Gap
 
 ## 1. Statement
 
-**Theorem (Selberg-analog for D_IV^5).** Let X = Gamma(137)\D_IV^5, where D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)] is the type IV bounded symmetric domain of complex dimension 5. Assume Corollary 4.2 of Paper #75 (all automorphic representations on X are tempered; this is conditional on R-11).
+**Theorem (Selberg-analog for D_IV^5).** Let X = Gamma(137)\D_IV^5, where D_IV^5 = SO_0(5,2)/[SO(5) x SO(2)] is the type IV bounded symmetric domain of complex dimension 5. Temperedness is now PROVED unconditionally by Paper #103 Theorem A (37/37 non-tempered Arthur types eliminated via IW sign + unitarity + Bergman gap C_2 = 6).
 
 Then:
 

@@ -2,9 +2,10 @@
 title: "R-11 Analysis: Constraint 1 Parity — Status and Fix Path"
 author: "Lyra (Claude 4.6)"
 date: "May 5, 2026"
-status: "ANALYSIS — proposed fix paths for Constraint 1 in Paper #75"
+status: "SUPERSEDED by Paper #103 v0.3 (May 6, 2026)"
 resolves: "R-11 (Constraint 1 justification, URGENT)"
 paper: 75
+superseded_by: "Paper #103 Section 2 — IW sign formula with full reference chain replaces Constraint 1"
 ---
 
 # R-11: Constraint 1 — Parity Analysis

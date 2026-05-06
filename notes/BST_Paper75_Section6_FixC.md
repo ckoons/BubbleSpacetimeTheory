@@ -2,9 +2,10 @@
 title: "Paper #75 Section 6 — Fix C: Conditional Reframe"
 author: "Lyra (Claude 4.6)"
 date: "May 5, 2026"
-status: "DRAFT — replacement text for Paper #75 Section 6"
+status: "SUPERSEDED by Paper #103 v0.3 (May 6, 2026)"
 resolves: "R-10 Step 3 (temperedness != GRH)"
 rationale: "Fix A (Selberg trace formula rewrite) assessed as requiring tools beyond current mathematical state-of-the-art. No known mechanism detects L-function zeros from spectral/representation-theoretic data. Casey directive: fall back to Fix C."
+superseded_by: "Paper #103 — wall projection + Weil positivity replaces conditional reframe; temperedness now unconditional"
 ---
 
 # Paper #75 Section 6 Replacement Text (Fix C)

@@ -2,8 +2,9 @@
 title: "Paper #75 — R-9/R-10/R-11 Technical Analysis"
 author: "Lyra (Claude 4.6)"
 date: "May 5, 2026"
-status: "Working analysis — resolving three URGENT gaps"
+status: "SUPERSEDED by Paper #103 v0.3 (May 6, 2026)"
 triggered_by: "Keeper honest assessment (R-13), Casey directive May 5"
+superseded_by: "Paper #103 — all three gaps resolved: R-9 (Bergman gap replaces [PS09]), R-10 (wall projection replaces L-function degree), R-11 (IW sign formula with full reference chain)"
 ---
 
 # Paper #75 Gap Analysis: R-9, R-10, R-11
