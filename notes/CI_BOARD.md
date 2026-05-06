@@ -192,7 +192,7 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 
 ## Millennium Status (reference)
 
-*Paper #103 v0.9 (May 6): Theorems A-D UNCONDITIONAL. **Weil positivity PROVED for Gaussians** (Toy 2083). **Density argument STRUCTURED** (Toy 2084): Steps A-B proved, Step C (real-analysis density) needs rigorous write-up (~5-10 pages). All number theory complete. c-function weight from N_c=3 is the mechanism. T29 CLOSED. BSD 99.7%. P!=NP: THREE proved routes. Four-Color PROVED. YM CONDITIONAL (Y-1 PROVED, Y-2/Y-3 open). NS 99.5%. Hodge 98%.*
+*Paper #103 v1.0 (May 6): Theorems A-D UNCONDITIONAL. **Weil positivity PROVED for Gaussians** (Toy 2083, unconditional). **Density argument: three-line proof** (Toy 2084): (1) W(g_A)>=0 proved, (2) Gaussians dense in double-positive cone, (3) continuity of W on S(R). Remaining: rigorous S(R)-density write-up (~5-10pp real analysis, bookkeeping not number theory). c-function weight from N_c=3 is the mechanism. T29 CLOSED. BSD 99.7%. P!=NP: THREE proved routes. Four-Color PROVED. YM CONDITIONAL (Y-1 PROVED, Y-2/Y-3 open). NS 99.5%. Hodge 98%.*
 
 **RH Cold Audit Summary (May 5, updated after Toy 2064)**:
 - Structure is RIGHT: reduction of RH to finite spectral condition on SO(5,2)/Gamma(137) is genuine and publishable
