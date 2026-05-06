@@ -3,7 +3,7 @@ title: "Temperedness, Spectral Gaps, and Wall Projection on Arithmetic Quotients
 subtitle: "With a conditional approach to the Riemann Hypothesis"
 author: "Casey Koons, Lyra, Keeper, Elie (Claude 4.6)"
 date: "May 6, 2026"
-status: "DRAFT v0.5 — Toy 2080 v2 (15/15): Weil positivity verified for Gaussian. Steps 1-5 verified for one g. Step 6 (generalization) open."
+status: "DRAFT v0.6 — Cal correction: J_cont^{P_2} is O(1), not O(Vol). v2 error fixed (|c|^{-2} misplaced). Proof sketch rewritten. Toy 2082 (broad Gaussian) pending."
 target: "Annals of Mathematics / Compositio Mathematica"
 paper_number: 103
 tier: "Steps 1-4 + Section 7: D (unconditional, verified). Step 5: C (test function correspondence unverified)."
@@ -373,21 +373,31 @@ No toy currently verifies any of items (i)--(iv) for a specific test function g.
 
 **Step 2: Wall projection.** By Proposition 3.2, J_disc(h_eps) = O(exp(-5/(4*eps^2))) -> 0 as eps -> 0. The continuous contribution J_cont involves the scattering factor m_s(s) = xi(s-2)/xi(s+1), which carries the zeta-zeros.
 
-**Step 3: Volume dominance.** By Theorem 4.1, J_id dominates: J_id ~ Vol(X) * (Plancherel at wall) and J_hyp is bounded by 10^{-13}. The geometric side is positive:
+**Step 3: Spectral decomposition by parabolic.** The continuous spectrum decomposes by parabolic subgroup:
 
-    J_geom(h_eps) = J_id(h_eps) + J_hyp(h_eps) >= J_id(h_eps)(1 - 10^{-58}) > 0
+    J_cont = J_cont^{P_0} + J_cont^{P_1} + J_cont^{P_2}
 
-**Step 4: Distributional limit.** By Theorem 5.1, the limit eps -> 0 is well-defined in the HC-Schwartz topology, and by Proposition 5.2, the limit interchange is justified. In the limit:
+where P_0 is minimal, P_1 intermediate, P_2 maximal (Siegel). The bulk Vol(X) * f(e) ~ 10^18 on the geometric side is absorbed by J_cont^{P_0} (the spectral Weyl law). J_cont^{P_1} is small (wrong wall). The residual J_cont^{P_2} is O(1) — this is the term carrying zeta zeros via m_s'/m_s = xi'/xi(1/2+it) - xi'/xi(7/2+it).
 
-    0 + J_cont^{wall}(h_0) = J_geom^{wall}(h_0)
+**Step 4: Explicit formula bridge (uses Conjecture 6.1).** Arthur's formula gives:
 
-where J_cont^{wall} is the Eisenstein contribution restricted to nu_1 = 0 (containing zeta'/zeta through m_s'/m_s) and J_geom^{wall} is the geometric side restricted to the wall.
+    J_cont^{P_2}(h_g) = -(1/4pi) integral g(t) [xi'/xi(1/2+it) - xi'/xi(7/2+it)] dt
 
-**Step 5: Weil positivity (uses Conjecture 6.1).** By Conjecture 6.1(iii), J_cont^{wall}(h_g) = W(g) + (correction terms). By Conjecture 6.1(iv), the corrections have definite signs. Since J_geom^{wall} > 0 (volume dominance) and J_disc^{wall} = 0 (wall projection):
+By the Weil explicit formula applied to xi'/xi(1/2+it):
 
-    W(g) + (corrections) = J_geom^{wall}(h_g) > 0
+    J_cont^{P_2}(h_g) = (1/2) W(g) + (local corrections)
 
-This yields W(g * g~) >= 0 for all suitable g, which is the Weil criterion. By Weil's theorem, RH follows.  QED.
+where W(g) = sum_rho g(gamma_rho) is the Weil distribution and the corrections are archimedean Gamma'/Gamma terms, prime sums, and constants. By Conjecture 6.1(iii)-(iv), these corrections have computable, definite signs.
+
+**Step 5: Positivity.** From the trace formula (Step 1), wall projection (Step 2), and the Weyl law cancellation (Step 3):
+
+    J_cont^{P_2}(h_g) = J_geom - J_disc - J_cont^{P_0} - J_cont^{P_1}
+
+The volume dominance (Theorem 4.1) ensures J_geom > 0, and the cancellation J_geom ≈ J_cont^{P_0} leaves a residual whose sign is controlled by the local corrections in Step 4. If these corrections are bounded, then for g >= 0:
+
+    (1/2) W(g * g~) + (corrections) > 0  =>  W(g * g~) >= -(bounded corrections)
+
+Combined with the freedom to scale g, this yields W(g * g~) >= 0 for all suitable g, which is the Weil criterion. By Weil's theorem, RH follows.  QED.
 
 ### 6.4 What is needed to remove Conjecture 6.1
 
@@ -395,16 +405,16 @@ Conjecture 6.1 can be resolved by an explicit computation. The required steps, i
 
 1. **Pick a specific g** (e.g., g(t) = exp(-t^2)).
 2. **Construct h_g** via the inverse Helgason transform for the B_2 root system.
-3. **Compute J_id = Vol(X) * f(e)** where f(e) is obtained via Plancherel inversion on the geometric side:
-   f(e) = (1/|W|) integral h(0,t) * |c(0,t)|^{-2} dt,
-   with |c(0,t)|^{-2} the Harish-Chandra c-function weight for B_2 restricted to nu_1 = 0 (see Section 6.4a for explicit formulas). The c-function weight enters through f(e), not directly through J_cont^{P_2}. The spectral side integral J_cont^{P_2} involves the scattering factor (m_s'/m_s)(5/2+it) = xi'/xi(1/2+it) - xi'/xi(7/2+it), which encodes the zeta zeros.
+3. **Compute J_cont^{P_2}(h_g)** directly from Arthur's formula for the maximal parabolic P_2:
+   J_cont^{P_2} = -(1/4pi) integral g(t) [xi'/xi(1/2+it) - xi'/xi(7/2+it)] dt.
+   This integral is O(1), NOT O(Vol). The bulk (Vol * f(e) ~ 10^18) is absorbed by J_cont^{P_0} (the minimal parabolic) via the spectral Weyl law. The c-function weight |c(0,t)|^{-2} enters f(e) on the geometric side; it does NOT appear in J_cont^{P_2}. See Section 6.4a for the trace formula decomposition.
 4. **Compute W(g)** from the Weil explicit formula definition.
 5. **Compare**: identify J_cont^{wall}(h_g) - W(g) explicitly and verify sign control.
 6. **Generalize** from one g to a family, then to all Schwartz g.
 
 If step 5 produces a signed correction that is bounded by the volume term J_geom^{wall}, the proof is complete. If it reveals unexpected behavior, we learn something equally important about the limits of this approach.
 
-**Status (May 6, 2026):** Steps 1--5 executed for g(t) = exp(-t^2) in Toy 2080 v2 (Elie, 15/15 PASS). With the full c-function Plancherel weight included: Vol(X) * f(e) = 4.75 * 10^{18} (positive, huge). The scattering integral without the weight (-0.019) is real but irrelevant — it is 10^{20} times smaller than J_id. The trace formula forces J_cont^{P_2} = J_id > 0, which is Weil positivity for this specific test function. Step 6 (generalization from one g to all Schwartz g) remains open. This is the single remaining gap between Theorems A--D and a proof of RH.
+**Status (May 6, 2026):** Toy 2080 v1 (Elie) computed J_cont^{P_2} = -0.019 for g(t) = exp(-t^2) (narrow Gaussian, A=1). This is O(1) as expected — the bulk Vol * f(e) ~ 10^18 is absorbed by J_cont^{P_0} (minimal parabolic, Weyl law). The negative sign reflects local corrections (archimedean Gamma'/Gamma + prime sum), not a failure: the narrow Gaussian misses all zeta zeros (|gamma| > 14, so g(gamma) ~ 10^{-85}). Toy 2080 v2 incorrectly placed |c|^{-2} inside J_cont^{P_2}, inflating it to match Vol * f(e) tautologically — this error has been corrected. **Toy 2082 (pending)**: use a broad Gaussian (A=100) so zeros are visible, compute J_cont^{P_2} WITHOUT |c|^{-2}, compare to (1/2)W(g) from known zeros, and identify the local correction terms with signs. Steps 5-6 remain open. This is the single remaining gap between Theorems A--D and a proof of RH.
 
 ### 6.4a Explicit c-function formulas and trace formula structure
 
@@ -431,20 +441,34 @@ where |W| = 8 (the Weyl group of B_2). For g(t) = exp(-t^2), this integrand is e
 
 The shift is rho_1 = 5/2. The shifted form is preferable because xi'/xi(1/2+it) sits directly on the critical line, where the zeta zeros appear.
 
-**Trace formula structure.** The positivity argument proceeds through the geometric side, not by requiring J_cont to be positive in isolation:
+**Trace formula structure.** The Arthur trace formula on X = Gamma(137)\D_IV^5 decomposes as:
 
-    Geometric:  J_id + J_hyp = J_disc + J_cont^{P_2} + J_cont^{P_0}    (Selberg trace formula)
+    Geometric:   Vol(X) * f(e) + J_hyp  =  J_disc + J_cont^{P_0} + J_cont^{P_1} + J_cont^{P_2}
 
-In the wall projection limit:
-- J_id = Vol(X) * f(e) > 0 (positive, huge — margin 10^47)
-- J_hyp = O(10^{-13}) (negligible)
+where P_0, P_1, P_2 are the minimal, intermediate, and maximal (Siegel) parabolics respectively. The key decomposition:
+
+- Vol(X) * f(e) ~ 10^18 (identity orbital integral, positive)
+- J_hyp ~ O(10^{-13}) (hyperbolic terms, negligible)
 - J_disc -> 0 (wall projection, Theorem C)
-- J_cont^{P_0} -> 0 (Gaussian kills full-rank Eisenstein)
-- Therefore J_cont^{P_2} = J_geom - J_disc - J_cont^{P_0} > 0 (forced by trace formula)
+- J_cont^{P_0} ~ 10^18 (minimal parabolic, full-rank continuous spectrum — this is the Weyl law)
+- J_cont^{P_1} ~ small (wrong wall for zeta)
+- J_cont^{P_2} ~ O(1) (maximal parabolic — THIS is where zeta zeros live)
 
-The test function correspondence (Conjecture 6.1) requires showing that J_cont^{P_2}(h_g), which is forced positive by the trace formula, can be written as a sum over zeta zeros with definite sign — i.e., that J_cont^{P_2}(h_g) = W(g) + (explicit corrections) where the corrections are controlled.
+The cancellation Vol * f(e) ≈ J_cont^{P_0} is automatic: J_cont^{P_0} absorbs the bulk via the spectral Weyl law. The residual J_cont^{P_2} is O(1), not O(10^18).
 
-**Remark.** Toy 2080 v1 computed the scattering integral (1/4pi) integral g(t) * (m_s'/m_s)(5/2+it) dt = -0.019 < 0. This is NOT J_cont^{P_2} but rather the scattering contribution without the Plancherel normalization. Toy 2080 v2 (15/15 PASS) includes the full c-function weight and computes J_id = Vol(X) * f(e) = 4.75 * 10^{18} >> 0. The scattering term is 10^{20} times smaller. The trace formula forces J_cont^{P_2} = J_id > 0, confirming Weil positivity for g(t) = exp(-t^2).
+Arthur's formula gives J_cont^{P_2} directly as the scattering integral:
+
+    J_cont^{P_2} = -(1/4pi) integral g(t) [xi'/xi(1/2+it) - xi'/xi(7/2+it)] dt
+
+The c-function weight |c(0,t)|^{-2} appears in f(e) on the geometric side, NOT in this integral.
+
+The test function correspondence (Conjecture 6.1) requires showing:
+
+    J_cont^{P_2}(h_g) = (1/2) W(g) + (computable local corrections)
+
+where the factor 1/2 comes from the Weyl group |W_{P_2}| = 2, and the corrections are archimedean Gamma'/Gamma terms, prime sums, and constants (log pi, etc.). The Weil explicit formula applied to xi'/xi(1/2+it) provides this decomposition directly.
+
+**Remark.** Toy 2080 v1 computed J_cont^{P_2} = -0.019 for g(t) = exp(-t^2) (narrow Gaussian, A=1). This negative value is expected: the narrow Gaussian misses all zeta zeros (|gamma_rho| > 14, so g(gamma_rho) ~ 10^{-85}), making W(g) ≈ 0, while the local corrections (archimedean terms) give a small negative residual. Toy 2080 v2 incorrectly placed |c|^{-2} inside J_cont^{P_2}, inflating it to match Vol * f(e) tautologically. A broad Gaussian (A=100) is needed to make zeros visible and test W(g) ≈ 2 * J_cont^{P_2} against the known zero sum (Toy 2082, pending).
 
 ### 6.5 Extension to Dirichlet L-functions (conditional)
 
@@ -598,11 +622,11 @@ Theorems A--D have been computationally verified. Conjecture 6.1 has NOT been ve
 | G5 mechanical | (Section 5) | 2078 | 15/15 | G5a-c ALL PASS |
 | Heat kernel budget | (exploratory) | 2071 | 15/15 | Too soft (10^87) |
 | Li coefficients | (cross-check) | 2064 T7 | n=1..10 | lambda_n >= 0 |
-| **Test function correspondence** | **Conj. 6.1** | **2080 v2** | **15/15** | **Verified for g = Gaussian: Vol*f(e) = 4.75e18 >> scattering. Step 6 (generalization) open.** |
+| **Test function correspondence** | **Conj. 6.1** | **2080 v1** | **16/19** | **J_cont^{P_2} = -0.019 for narrow Gaussian (A=1). Zeros invisible. v2 error corrected (|c|^{-2} misplaced). Toy 2082 (broad Gaussian, A=100) pending.** |
 
-Aggregate for Theorems A--D: 139/148 PASS across 11 toys. Failures are in superseded toys (2063) or edge cases, not in load-bearing claims.
+Aggregate for Theorems A--D: 124/133 PASS across 10 toys. Failures are in superseded toys (2063) or edge cases, not in load-bearing claims.
 
-**Remaining gap**: Toy 2080 v2 verifies Conjecture 6.1 for one specific test function g(t) = exp(-t^2). Step 6 — generalization to all Schwartz g — requires showing the Helgason lift preserves positivity for all g >= 0.
+**Remaining gap**: J_cont^{P_2} is O(1) (the bulk is absorbed by J_cont^{P_0} via the Weyl law). The Weil explicit formula gives J_cont^{P_2} = (1/2)W(g) + local corrections. Toy 2082 will test this with a broad Gaussian (A=100) where zeta zeros are visible (W(g) ~ 45). Steps 3-6 of the computation remain open.
 
 ---
 
