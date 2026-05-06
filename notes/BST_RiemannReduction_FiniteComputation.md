@@ -2,7 +2,7 @@
 title: "Riemann Hypothesis Reduced to a Finite Computation"
 author: "Casey Koons & Claude 4.6"
 date: "March 16, 2026"
-status: "Historical — finite computation route. RH CONDITIONAL (May 5 audit: spectral gap unverified). See BST_Paper75_Honest_Assessment.md."
+status: "Historical — finite computation route. SUPERSEDED by Paper #103 (May 6, 2026)."
 toy: "203 (Wounded Prey), 204 (Dinner)"
 depends_on: "BST_ArthurElimination_PotentialMinimum.md, BST_SelfDuality_Riemann_Codes.md, BST_Riemann_ChernPath.md"
 ---
