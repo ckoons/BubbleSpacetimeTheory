@@ -27,6 +27,12 @@ children: "Paper #67"
 
 ---
 
+## Definition: Spectral-operator category for NS
+
+**Definition.** Let **Spec_NS** be the category whose **objects** are triples (H, {lambda_k}, Q) where H is a separable Hilbert space of divergence-free velocity fields on T^3, {lambda_k}_{k>=1} is the Stokes eigenvalue sequence (spectral decomposition of -P_H Delta, the Leray-projected Laplacian), and Q: Sym^2(H) -> H is the quadratic mode-coupling operator induced by the nonlinearity P_H((u . nabla)u). A **morphism** f: (H, {lambda_k}, Q) -> (H', {lambda'_k}, Q') is a unitary map f: H -> H' satisfying (1) spectral interleaving: lambda'_{sigma(k)} = lambda_k for some permutation sigma, and (2) coupling intertwining: f circ Q = Q' circ (f otimes f) on Sym^2(H). Two objects are **isomorphic** iff such an f exists with two-sided inverse. The enstrophy E(t) = Sum lambda_k |u_k(t)|^2, its growth rate dE/dt, and the blow-up time T_c (the first divergence of E) are **iso-invariants**: they depend only on {lambda_k} and Q up to unitary equivalence. The P_NS iso-class is the class of all objects realizing enstrophy monotonicity (Prop 5.17), the 3/2-power growth bound (Thm 5.19), and Kato blow-up (Cor 5.20).
+
+---
+
 ## Proof
 
 ### Step 1: Sufficiency from BST_NS_AC_Proof

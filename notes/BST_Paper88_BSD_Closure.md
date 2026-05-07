@@ -128,7 +128,7 @@ in the spectral decomposition, where the exponent N_c = 3 comes from dim(SO(3)) 
 
 The BBW computation (Toy 2092, 10/10 PASS) resolves the question: *in which cohomological degree does the P_2 Eisenstein class at s = 1 land?*
 
-The answer (Section 8.6, derived explicitly): nu(1) = rho_{B_3} + alpha_2^v + Delta = (5/2, 5/2, -1/2), where the cuspidal correction Delta = (0, 1, -1) is unique to weight-2 newforms. The theta-stable parabolic has nilradical with 8 roots (3 compact, 2 in p+, 3 in p-). The Hodge type is **(rank, N_c) = (2, 3)**, derived from the root inner products with nu(1) under the standard holomorphic convention (Helgason Ch. VIII).
+The answer (Section 8.6, derived explicitly): nu(1) = rho_G + s * alpha_2^v = (5/2, 3/2, 1/2) + (0, 1, -1) = (5/2, 5/2, -1/2), where the cuspidal correction Delta = 0 is unique to weight 2 (for weight k, Delta_k = (k-2)/2). The theta-stable parabolic has nilradical with 8 roots (3 compact, 2 in p+, 3 in p-). The Hodge type is **(rank, N_c) = (2, 3)**, derived from the root inner products with nu(1) under the standard holomorphic convention (Helgason Ch. VIII).
 
 The Eisenstein class at pure Hodge type (2, 3) is off-diagonal. Since Q^5 has diagonal Hodge diamond (h^{p,p} = 1, all h^{p,q} = 0 for p != q), no algebraic class from the Borel injection competes at bigrade (2, 3). The vanishing order of L(E,s) at s = 1 is therefore unconstrained by topology — purely spectral — and equals rank(E).
 
@@ -317,11 +317,11 @@ The cross-type uniqueness (Section 6) is a finite computation: check all 39 rank
 
 **Step 1. Derivation of nu(1)** (Cal review fix #1). The Harish-Chandra parameter of the P_2 Eisenstein series at s = 1 is:
 
-nu(1) = rho_{B_3} + s * alpha_2^v + Delta
+nu(1) = rho_M + Delta + rho_N + s * alpha_2^v
 
-where rho_{B_3} = (5/2, 3/2, 1/2) (half-sum of B_3 positive roots), alpha_2^v = (0, 1, 0) (coroot of the GL(2) simple root), s = 1 (the BSD-critical point), and Delta is the correction from the inducing cuspidal data. For elliptic curves (weight-2 newforms), the discrete series D_2 of GL(2,R) has infinitesimal character = rho_{GL(2)} = (1/2, -1/2). This equals the generic rho shift, so the cuspidal correction Delta = (0, 1, -1) - (0, 0, 0) = (0, 1, -1). (Key fact: this cancellation is unique to weight 2 — no other modular form weight has Delta_effective = 0.) Therefore:
+where rho_M = (1/2, -1/2, 1/2) (half-sum of 2 Levi roots), rho_N = (2, 2, 0) (half-sum of 7 = g unipotent radical roots), alpha_2^v = (0, 1, -1) (coroot of e_2 - e_3, the GL(2) simple root), s = 1 (the BSD-critical point), and Delta is the cuspidal correction. For elliptic curves (weight-2 newforms), the discrete series D_2 of GL(2,R) has infinitesimal character = rho_{GL(2)} = (1/2, -1/2). This equals the generic rho shift, so Delta = 0. (Key fact: this cancellation is unique to weight 2 — for weight k, Delta_k = (k-2)/2, and only k = 2 gives zero.) Therefore:
 
-nu(1) = (5/2, 3/2, 1/2) + (0, 1, 0) + (0, 1, -1) = (5/2, 5/2, -1/2)
+nu(1) = rho_G + s * alpha_2^v = (5/2, 3/2, 1/2) + (0, 1, -1) = (5/2, 5/2, -1/2)
 
 **Step 2. Theta-stable parabolic.** nu(1) = (5/2, 5/2, -1/2) determines a theta-stable parabolic q = l + u. The nilradical u contains the 8 roots alpha with <nu(1), alpha> > 0: 3 compact (e_1, e_2, e_1+e_2) and 5 noncompact (-e_3, e_1+e_3, e_1-e_3, e_2+e_3, e_2-e_3).
 

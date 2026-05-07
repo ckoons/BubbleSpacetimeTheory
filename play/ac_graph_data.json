@@ -61033,6 +61033,31 @@
    "from": 1732,
    "to": 1758,
    "source": "derived"
+  },
+  {
+   "from": 1759,
+   "to": 1275,
+   "source": "derived"
+  },
+  {
+   "from": 1759,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1760,
+   "to": 1269,
+   "source": "derived"
+  },
+  {
+   "from": 1760,
+   "to": 1755,
+   "source": "derived"
+  },
+  {
+   "from": 1760,
+   "to": 1756,
+   "source": "derived"
   }
  ],
  "chains": {},
@@ -81792,6 +81817,45 @@
     "Convention: Bergman center 1/2 not rho_{P_2,1}=2",
     "Cal referee #38 two errors identified and corrected",
     "19/19 numerical checks PASS"
+   ]
+  },
+  {
+   "tid": 1759,
+   "name": "Hodge KS Frontier: Simplest class without Kuga-Satake = Horikawa surfaces (K^2=1, p_g=2). h^{2,0}>=2 is NOT K3 type. D_IV^5 covers ONLY h^{2,0}=1 (type IV domain). The ~85% boundary is structural. 6/6 PASS.",
+   "domain": "differential_geometry",
+   "status": "proved",
+   "depth": 1,
+   "conflation": 0,
+   "section": "12.8",
+   "toys": [
+    2097
+   ],
+   "date": "2026-05-07",
+   "plain": "Explicit KS frontier table: 10 variety classes with KS, 3 without. Frontier at p_g>=2 general type surfaces. D_IV^5 parametrizes only K3-type (h^{2,0}=1) Hodge structures. Extending Hodge beyond ~85% requires generalized KS or non-type-IV framework.",
+   "proofs": [
+    "KS requires h^{2,0}=1 (K3 type)",
+    "p_g>=2 has h^{2,0}>=2, period domain SO(2m,...) not type IV",
+    "Horikawa surfaces are simplest without KS"
+   ]
+  },
+  {
+   "tid": 1760,
+   "name": "T1269 Role Audit: DECORATIVE for RH (T1755 direct) and BSD (T1756 direct). LOAD-BEARING for NS (TG iso-class breadth) and Hodge (KS universality). STRUCTURAL for YM and P!=NP (framing, not proof). Cal's assessment confirmed. 4/4 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 1,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2098
+   ],
+   "date": "2026-05-07",
+   "plain": "Claim-by-claim audit of T1269 across all six Millennium closures. RH and BSD have direct geometric proofs not needing T1269. NS and Hodge use iso-closure as the mechanism to extend from specific domains to full Clay scope. Papers #103 and #88 can submit without T1269.",
+   "proofs": [
+    "RH: T1755 geometric proof, T1269 absent",
+    "BSD: T1756 BBW construction, T1269 decorative",
+    "NS: T1273 iso-closure IS the argument, load-bearing",
+    "Hodge: T1275 KS universality IS iso-closure, load-bearing"
    ]
   }
  ],
