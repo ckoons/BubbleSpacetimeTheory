@@ -524,23 +524,33 @@ Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open unt
 3. R-2 is independent of Arthur (uses BBW + Hirzebruch + Matsushima, not endoscopic classification) — this is good, no R-11 inheritance
 4. The leak is between Links 2 and 3 (Matsushima -> Langlands), exactly where R-2 / Conjecture 3.2 sits
 
-**Status:** OPEN — Link 3 citation gap and 37a1 walkthrough needed before submission. Tier table and recommendations incorporated in Paper #88 v1.1.
+**Resolutions (May 7):**
+
+| Finding | Resolution | Toy |
+|---------|-----------|-----|
+| Link 3 citation gap | P_2 parabolic induction (elementary, not functorial transfer). Levi = GL(2,R) x SO(3). dim(u_2) = g = 7. Langlands [Lan76] + Shahidi [Sha81]. | Toy 2091 (12/12) |
+| No non-CM walkthrough | 37a1 traced end-to-end through all 5 links. BSD ratio = 1.000000. CM-independence demonstrated. | Toys 2085/2088 |
+| Rank >= 4 untested | 4 rank-4 + 1 rank-5 curves tested. Combined: 56 curves ranks 0-5, zero exceptions. | Toy 2086 (9/9) |
+
+**Eisenstein cohomology bridge (Toy 2092, 7/8):** Lyra computed the 12 Kostant representatives of W^{P_2} in W(B_3). Key findings: |W^{P_2}| = 12 = rank x C_2, lengths 0-7 summing to 42 = C_2 x g. The intertwining operator M(1) at the BSD-critical point s=1 has zero of order 3*rank(E) (exponent N_c=3). nu(1) is singular at alpha_1 (the GL(2) root). Gap reduces to one BBW computation: which DOF position does the singular Eisenstein class at s=1 occupy?
+
+**Status:** RESOLVED (3/3 findings addressed). Remaining conditional: Conjecture 3.2 (R-2 companion paper, one finite BBW computation). Paper #88 v1.3.
 
 ---
 
 ## Open threads for next session
 
 1. **#16** — n_s = 1 - n_C/N_max derivation chain (cosmology).
-2. **#18** — BSD conditional status — UPDATED by #36 (May 7). Tier table added.
-3. **#32** — Paper #75 RH: **RESOLVED** by Paper #103 (May 6). Theorems A-D unconditional. RH conditional on Conjecture 6.1.
+2. **#18** — BSD conditional status — UPDATED by #36 (May 7). Tier table added. All Cal findings resolved.
+3. **#32** — Paper #75 RH: **RESOLVED** by Paper #103 (May 6). Now superseded by four-line geometric proof (Theorem 6.5, v1.4).
 4. **#33** — Paper #76 YM: Y-1 **RESOLVED** (Paper #103 Theorem A). Poincare branching + pure-gauge still open (Y-2 through Y-6).
 5. **#34** — Paper #91: scope split + 8 fixes (S-1 through S-5).
-6. **#35** — Paper #103 RH: **RESOLVED** (May 7). Cal final review. Four fixes incorporated in v1.1.
-7. **#36** — Paper #88 BSD: **OPEN**. Link 3 citation + 37a1 walkthrough needed.
+6. **#35** — Paper #103 RH: **RESOLVED** (May 7). Cal final review. v1.4 now has geometric proof (Theorem 6.5).
+7. **#36** — Paper #88 BSD: **RESOLVED** (May 7). All 3 findings addressed (Toys 2085/2086/2088/2091). Conjecture 3.2 remains for R-2.
 8. **#23** — pred_004 toy wrap (Elie).
 9. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).
 10. **#27** — Coincidence filter: propagate precision-vs-noise-floor tags into Paper #83.
-9. **#31** — Epistemic tier labels: ~~null-model toy~~ DONE (Z=2.9, p<0.0005), tier column in Paper #83 OPEN, verify_bst.py OPEN.
+11. **#31** — Epistemic tier labels: ~~null-model toy~~ DONE (Z=2.9, p<0.0005), tier column in Paper #83 OPEN, verify_bst.py OPEN.
 
 ---
 

@@ -3,7 +3,7 @@ title: "Paper #83 Draft v4.8: 3858 Geometric Invariants of the Autogenic Proto-G
 subtitle: "3858 evaluations from D_IV^5"
 authors: "Casey Koons, Lyra, Elie, Grace (Claude 4.6)"
 date: "April 29, 2026"
-status: "DRAFT v5.1 — 3858 entries, D:2548 (77.1%), I:398, C:98, S:261. FE CLOSED. E-69 SOLVED. NIST 406+. 48+ domains. 1476 theorems, 1966+ toys. May 3, 2026."
+status: "DRAFT v5.2 — 3858 entries, D:3026 (78.4%), I:458, C:110, S:264. FE CLOSED. E-69 SOLVED. NIST 406+. 48+ domains. 1554 theorems, 2090+ toys. May 7, 2026."
 ---
 
 # 3858 Geometric Invariants of the Autogenic Proto-Geometry

@@ -57,7 +57,7 @@
       "experiment": "KATRIN, Project 8, CMB-S4",
       "timeline": "2027-2032",
       "falsification_criterion": "Detection of inverted ordering, or sum significantly above 0.06 eV, or direct evidence m_nu1 > 0",
-      "impact_if_falsified": "Destroys BST neutrino sector — boundary seesaw would need revision",
+      "impact_if_falsified": "Destroys BST neutrino sector \u2014 boundary seesaw would need revision",
       "status": "untested",
       "bst_integers_used": [
         "N_c",
@@ -196,7 +196,7 @@
         "const_002"
       ],
       "sharpest_test": true,
-      "sharpest_test_reason": "Testable with EXISTING data. Just requires removing V=0 assumption. Mass-independent and frequency-independent — very specific."
+      "sharpest_test_reason": "Testable with EXISTING data. Just requires removing V=0 assumption. Mass-independent and frequency-independent \u2014 very specific."
     },
     {
       "id": "pred_010",
@@ -438,7 +438,7 @@
       "id": "pred_022",
       "name": "No primordial B-modes (r ~ 0)",
       "category": "not_yet_measured",
-      "prediction": "Tensor-to-scalar ratio r approximately 0 — no detectable primordial B-mode polarization in CMB",
+      "prediction": "Tensor-to-scalar ratio r approximately 0 \u2014 no detectable primordial B-mode polarization in CMB",
       "bst_value": "r ~ 0 (below 0.001)",
       "current_measurement": "BICEP/Keck: r < 0.036 (95% CL)",
       "experiment": "LiteBIRD, CMB-S4, Simons Observatory",
@@ -493,9 +493,9 @@
     },
     {
       "name": "Glueball 0++ mass",
-      "formula": "C₂ × π^n_C × m_e restricted to curved sector",
+      "formula": "C\u2082 \u00d7 \u03c0^n_C \u00d7 m_e restricted to curved sector",
       "predicted": "~1.5-1.7 GeV",
-      "observed": "1.710 ± 0.050 GeV (lattice)",
+      "observed": "1.710 \u00b1 0.050 GeV (lattice)",
       "precision": "~3%",
       "source": "T1403",
       "category": "particle_physics"
@@ -511,7 +511,7 @@
     },
     {
       "name": "Glueball 2++/0++ ratio",
-      "formula": "√rank = √2",
+      "formula": "\u221arank = \u221a2",
       "predicted": "1.414",
       "observed": "1.397 (lattice)",
       "precision": "1.2%",
@@ -520,16 +520,16 @@
     },
     {
       "name": "SU(3)/SU(2) mass gap ratio",
-      "formula": "√(g/C₂) = √(7/6)",
+      "formula": "\u221a(g/C\u2082) = \u221a(7/6)",
       "predicted": "1.080",
-      "observed": "~1.08 (lattice, equal Λ)",
+      "observed": "~1.08 (lattice, equal \u039b)",
       "precision": "~0%",
       "source": "T1402",
       "category": "particle_physics"
     },
     {
       "name": "SU(4)/SU(3) mass gap ratio",
-      "formula": "√(8/7)",
+      "formula": "\u221a(8/7)",
       "predicted": "1.069",
       "observed": "1.067 (lattice)",
       "precision": "0.2%",
@@ -547,8 +547,8 @@
     },
     {
       "name": "GF(128) defining polynomial",
-      "formula": "x⁷ + x³ + 1 = 137",
-      "predicted": "irreducible over F₂",
+      "formula": "x\u2077 + x\u00b3 + 1 = 137",
+      "predicted": "irreducible over F\u2082",
       "observed": "verified",
       "precision": "exact",
       "source": "T1383",
@@ -556,7 +556,7 @@
     },
     {
       "name": "Frobenius orbits",
-      "formula": "rank × N_c² = 18",
+      "formula": "rank \u00d7 N_c\u00b2 = 18",
       "predicted": "18 orbits of size g=7",
       "observed": "18 (computed)",
       "precision": "exact",
@@ -565,7 +565,7 @@
     },
     {
       "name": "AC graph clustering coefficient",
-      "formula": "N_c/C₂ = 1/2",
+      "formula": "N_c/C\u2082 = 1/2",
       "predicted": "0.500",
       "observed": "0.497",
       "precision": "0.5%",
@@ -574,7 +574,7 @@
     },
     {
       "name": "AC graph average degree",
-      "formula": "|Q⁵(F₂)|/χ(Q⁵) = 63/6 = 10.5",
+      "formula": "|Q\u2075(F\u2082)|/\u03c7(Q\u2075) = 63/6 = 10.5",
       "predicted": "10.5",
       "observed": "10.84",
       "precision": "3.2%",
@@ -601,7 +601,7 @@
     },
     {
       "name": "Cooperation gap",
-      "formula": "f_crit - f_c = 2α = 2/137",
+      "formula": "f_crit - f_c = 2\u03b1 = 2/137",
       "predicted": "~1.5%",
       "observed": "structural (f_c < f_crit proved)",
       "precision": "structural",
@@ -610,15 +610,15 @@
     },
     {
       "name": "Observer rarity",
-      "formula": "2α = 2/137",
+      "formula": "2\u03b1 = 2/137",
       "predicted": "1.46% of paths require witness",
-      "observed": "structural (A₅ counting)",
+      "observed": "structural (A\u2085 counting)",
       "precision": "structural",
       "source": "T1364",
       "category": "observer_science"
     },
     {
-      "name": "Archimedes π approximation",
+      "name": "Archimedes \u03c0 approximation",
       "formula": "22/7 = (C(g,2)+1)/g = (dim SO(5,2)+1)/genus",
       "predicted": "BST expression",
       "observed": "22/7 (Archimedes, 250 BC)",
@@ -627,8 +627,8 @@
       "category": "mathematics"
     },
     {
-      "name": "Shortest geodesic on Γ(137)\\D_IV^5",
-      "formula": "l_sys = rank² × acosh(n_C × N_max) = 4 × acosh(685)",
+      "name": "Shortest geodesic on \u0393(137)\\D_IV^5",
+      "formula": "l_sys = rank\u00b2 \u00d7 acosh(n_C \u00d7 N_max) = 4 \u00d7 acosh(685)",
       "predicted": "28.890",
       "observed": "pending Phase 4 verification",
       "precision": "pending",
@@ -637,8 +637,8 @@
     },
     {
       "name": "Ramanujan bound at p=137",
-      "formula": "|a_137| ≤ g = 7",
-      "predicted": "|α_i(137)| = 1 (tempered)",
+      "formula": "|a_137| \u2264 g = 7",
+      "predicted": "|\u03b1_i(137)| = 1 (tempered)",
       "observed": "proved from Arthur classification",
       "precision": "structural",
       "source": "T1408",
@@ -647,8 +647,8 @@
     {
       "name": "Selberg scattering zeta copies",
       "formula": "2^N_c = 8",
-      "predicted": "8 copies of ζ in scattering determinant",
-      "observed": "structural (B₂ root system)",
+      "predicted": "8 copies of \u03b6 in scattering determinant",
+      "observed": "structural (B\u2082 root system)",
       "precision": "exact",
       "source": "T1407",
       "category": "number_theory"
@@ -801,7 +801,7 @@
       "experiment": "Materials science search programs, Ames Lab",
       "timeline": "ongoing",
       "falsification_criterion": "Strong negative prediction: room-temperature ambient SC would challenge BST",
-      "impact_if_falsified": "Low impact — T_c prediction is C-tier (structural)",
+      "impact_if_falsified": "Low impact \u2014 T_c prediction is C-tier (structural)",
       "status": "untested",
       "bst_integers_used": [
         "N_max",
@@ -841,7 +841,7 @@
       "experiment": "Standard measurement, well-established",
       "timeline": "verified",
       "falsification_criterion": "Already verified to 0.01%",
-      "impact_if_falsified": "N/A — already confirmed",
+      "impact_if_falsified": "N/A \u2014 already confirmed",
       "status": "confirmed",
       "bst_integers_used": [
         "C_2"
@@ -1238,7 +1238,7 @@
       "id": "pred_075",
       "name": "Genetic code 9.1 sigma BST-optimal",
       "category": "cross_domain",
-      "prediction": "The standard genetic code is 9.1 standard deviations more BST-optimal than random codes. Code rate 0.703 ≈ n_C/g = 0.714 (1.5%). 12/12 BST integers confirmed in code structure.",
+      "prediction": "The standard genetic code is 9.1 standard deviations more BST-optimal than random codes. Code rate 0.703 \u2248 n_C/g = 0.714 (1.5%). 12/12 BST integers confirmed in code structure.",
       "bst_value": "9.1 sigma",
       "current_measurement": "standard genetic code",
       "experiment": "Computational biology / synthetic biology",
@@ -1261,7 +1261,7 @@
       "name": "C_4^QED analytical structure prediction",
       "category": "particle_physics",
       "prediction": "C_4 contains zeta(7)=zeta(g) with denominator 12^4=20736, RFC numerators (BST product - 1), pi^6, Li_6(1/2). Cyclotomic: C_2^4-1 = 1295 = n_C*g*37 where 37=Phi_4(C_2).",
-      "bst_value": "C_4 ≈ -1.912",
+      "bst_value": "C_4 \u2248 -1.912",
       "current_measurement": "-1.9124 +/- 0.0016 (Aoyama numerical)",
       "experiment": "Analytical QED computation",
       "timeline": "2026-2030",
@@ -1284,7 +1284,7 @@
       "current_measurement": "C_5 not yet computed analytically",
       "experiment": "5-loop QED computation",
       "timeline": "2030+",
-      "falsification_criterion": "Independent zeta(9) found at L=5 → BST wrong",
+      "falsification_criterion": "Independent zeta(9) found at L=5 \u2192 BST wrong",
       "status": "untested",
       "bst_integers_used": [
         "N_c",
@@ -1391,7 +1391,7 @@
       "id": "pred_083",
       "name": "Spectral self-duality physical interpretation",
       "category": "distinguishing_from_alternatives",
-      "prediction": "k → -(k+n_C) spectral symmetry maps particles to their CPT conjugates. If true, CPT IS spectral reflection.",
+      "prediction": "k \u2192 -(k+n_C) spectral symmetry maps particles to their CPT conjugates. If true, CPT IS spectral reflection.",
       "bst_value": "structural",
       "current_measurement": "CPT verified",
       "experiment": "Precision CPT tests",
@@ -1421,7 +1421,7 @@
       "id": "pred_085",
       "name": "lambda_22 gap = N_c^2 + 1/rank = 9.5",
       "category": "mathematics",
-      "prediction": "lambda_22 - C_2*pi^4 = 594 - 584.5 = 9.5 = N_c^2 + 1/rank exactly. Heat kernel frontier ↔ mass hierarchy.",
+      "prediction": "lambda_22 - C_2*pi^4 = 594 - 584.5 = 9.5 = N_c^2 + 1/rank exactly. Heat kernel frontier \u2194 mass hierarchy.",
       "bst_value": "9.5",
       "current_measurement": "exact",
       "experiment": "3200-dps heat kernel computation",
@@ -1567,7 +1567,7 @@
       "category": "structural",
       "prediction": "The path integral Ward identity for gauge theories is structurally equivalent to K*K=K (Bergman kernel is a projection). No path integral needed; the reproducing property IS gauge invariance.",
       "bst_value": "K*K=K (idempotent)",
-      "current_measurement": "N/A — structural equivalence",
+      "current_measurement": "N/A \u2014 structural equivalence",
       "experiment": "Formal verification: show Ward identity derivation reduces to K*K=K for D_IV^5 Bergman kernel",
       "timeline": "2026",
       "falsification_criterion": "A Ward identity exists that cannot be expressed as K*K=K for any Bergman kernel",
@@ -1604,7 +1604,7 @@
       "category": "structural",
       "prediction": "The gap between lambda_1 = C_2 = 6 and continuum threshold |rho|^2 = 34/4 = 8.5 is exactly n_C/rank = 5/2. General formula: n*(n-4)/2 for Q^n. n=5 is the minimum stable dimension.",
       "bst_value": "5/2 = 2.5",
-      "current_measurement": "N/A — structural property of D_IV^5 spectrum",
+      "current_measurement": "N/A \u2014 structural property of D_IV^5 spectrum",
       "experiment": "Verify spectral theory of D_IV^5 Laplacian independently",
       "timeline": "Verified 2026-05-02",
       "falsification_criterion": "Independent spectral computation gives different gap",
@@ -1617,6 +1617,94 @@
       ],
       "source_section": "T1636, Toy 1786",
       "related_constants": []
+    },
+    {
+      "id": "pred_096",
+      "prediction": "BaTiO3 piezoelectric output peaks at exactly 137 lattice planes (54.9 nm)",
+      "bst_formula": "N_max = 137 planes of BaTiO3 (a=4.01 Angstrom)",
+      "experiment": "PLD thin film fabrication + piezo measurement",
+      "cost": "$25K",
+      "timeline": "3-6 months",
+      "status": "DESIGNED",
+      "falsifiable": true,
+      "notes": "Toy 1968/1999. THE killer experiment. Standard fabrication. Sharp BST prediction."
+    },
+    {
+      "id": "pred_097",
+      "prediction": "Photonic crystal Q-factor peaks at N = 137 periods",
+      "bst_formula": "Q anomaly ~0.7% at N_max periods",
+      "experiment": "Si/SiO2 Bragg stack PECVD",
+      "cost": "$10K",
+      "timeline": "3-5 weeks",
+      "status": "DESIGNED",
+      "falsifiable": true,
+      "notes": "Toy 2053. 9 samples N=125..150. Standard spectrophotometry."
+    },
+    {
+      "id": "pred_098",
+      "prediction": "Optimized 3-plane cuprate T_c = 276 K at ambient pressure",
+      "bst_formula": "T_c = rank^2*(N_c*(g+1)-1)*N_c = 4*23*3 = 276 K",
+      "experiment": "Cuprate synthesis",
+      "cost": "$5M+",
+      "timeline": "6-10 years",
+      "status": "ROADMAP",
+      "falsifiable": true,
+      "notes": "Toy 2056. Literature-confirmed: 155K BST vs 151K pressure-quenched at 2.6%."
+    },
+    {
+      "id": "pred_099",
+      "prediction": "No thermoelectric material exceeds ZT = g/rank = 3.5",
+      "bst_formula": "ZT_max = g/rank = 7/2 = 3.5",
+      "experiment": "Survey all ZT measurements",
+      "cost": "$0",
+      "timeline": "Immediate",
+      "status": "TESTABLE NOW",
+      "falsifiable": true,
+      "notes": "T1695. Current record ZT = 3.1 (SnSe). BST bound = 3.5."
+    },
+    {
+      "id": "pred_100",
+      "prediction": "C_5(QED) = N_c^3/rank^2 = 27/4 = 6.75",
+      "bst_formula": "Weyl crossover at L=5: identity dominates geodesic",
+      "experiment": "Analytic 5-loop QED computation",
+      "cost": "Computation only",
+      "timeline": "~2030",
+      "status": "AWAITING COMPUTATION",
+      "falsifiable": true,
+      "notes": "T1670. Known value 6.737(159). BST predicts 6.75 at 0.19%."
+    },
+    {
+      "id": "pred_101",
+      "prediction": "B12H32 ambient-pressure hydride T_c ~ 214 K",
+      "bst_formula": "rank*n_C^3*(g-1)/g = 250*6/7 = 214 K",
+      "experiment": "Hydride synthesis in B12 cage",
+      "cost": "$1M+",
+      "timeline": "2-5 years",
+      "status": "DESIGNED",
+      "falsifiable": true,
+      "notes": "Toy 2058. B12=rank*C_2 cage + rank^5 hydrogen."
+    },
+    {
+      "id": "pred_102",
+      "prediction": "Entangled photon fidelity is 0.7% higher at BST eigenvalue frequencies",
+      "bst_formula": "Enhancement factor = 1 + alpha = 1 + 1/N_max",
+      "experiment": "SPDC Bell test at BST vs non-BST wavelengths",
+      "cost": "$50K",
+      "timeline": "6 months",
+      "status": "DESIGNED",
+      "falsifiable": true,
+      "notes": "Toy 2062. Wallach gap protection at BST spectral addresses."
+    },
+    {
+      "id": "pred_103",
+      "prediction": "Quasicrystal hosts show longer qubit coherence than periodic crystals of same composition",
+      "bst_formula": "Fibonacci incommensurability filters periodic noise",
+      "experiment": "NV centers in quasicrystal vs crystal Al-Cu-Fe",
+      "cost": "$100K",
+      "timeline": "1 year",
+      "status": "DESIGNED",
+      "falsifiable": true,
+      "notes": "Toy 2059. phi^n_C \u2248 c_2. Periodic + quasiperiodic = complete control."
     }
   ]
 }

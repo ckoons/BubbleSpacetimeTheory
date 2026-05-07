@@ -2768,6 +2768,60 @@
         "tau_proton_ratio"
       ],
       "cal_tier": "D"
+    },
+    {
+      "ratio": "17.4",
+      "name": "Fe sound / air sound",
+      "formula": "h^2 + rank/n_C = 17 + 2/5",
+      "domains": [
+        "acoustics",
+        "materials"
+      ],
+      "tier": "D",
+      "notes": "0.01% match. Iron at Cheeger speed."
+    },
+    {
+      "ratio": "7/6",
+      "name": "R_info/R_charge (proton)",
+      "formula": "g/C_2",
+      "domains": [
+        "nuclear",
+        "information"
+      ],
+      "tier": "I",
+      "notes": "Information radius exceeds charge radius."
+    },
+    {
+      "ratio": "77/75",
+      "name": "BaTiO3/SrTiO3 lattice ratio",
+      "formula": "c_2*g/(N_c*n_C^2)",
+      "domains": [
+        "materials",
+        "engineering"
+      ],
+      "tier": "D",
+      "notes": "0.02% match. Optimal superlattice."
+    },
+    {
+      "ratio": "g^g",
+      "name": "Cu mass*Debye^2 factor",
+      "formula": "g^7 = 823543",
+      "domains": [
+        "materials"
+      ],
+      "tier": "D",
+      "notes": "Self-referential: genus to the genus."
+    },
+    {
+      "ratio": "N_c^N_c",
+      "name": "Al mass / P(2) multiplicity",
+      "formula": "N_c^3 = 27",
+      "domains": [
+        "chemistry",
+        "spectral"
+      ],
+      "tier": "D",
+      "notes": "Color to the color = second eigenvalue multiplicity."
     }
   ]
 }

@@ -223,5 +223,20 @@
   "convergence_abscissa": "n_C/rank = 5/2",
   "first_eigenvalue": "lambda_1 = C_2 = 6",
   "continuum_threshold": "|rho|^2 = 34/4 = 8.5",
-  "wallach_gap": "n_C/rank = 5/2 = 2.5"
+  "wallach_gap": {
+    "value": "n_C/rank = 5/2 = 2.5",
+    "continuum_threshold": "34/4 = 8.5",
+    "first_eigenvalue": "C_2 = 6",
+    "gap": "8.5 - 6 = 2.5 = n_C/rank"
+  },
+  "cheeger_constant": {
+    "h": "sqrt(34)/2",
+    "h_squared": 17,
+    "description": "Cheeger isoperimetric constant. h^2 = seesaw number."
+  },
+  "pell_equation": {
+    "equation": "rank^C_2 - N_c^2*g = 64 - 63 = 1",
+    "fundamental_unit": "8 + 3*sqrt(7) = rank^3 + N_c*sqrt(g)",
+    "geodesic_length": "l_0 = 2*arccosh(rank^3)"
+  }
 }

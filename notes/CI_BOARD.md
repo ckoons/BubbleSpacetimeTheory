@@ -42,7 +42,7 @@ status: "Active — check at session start, update at session end"
 
 ## Counters
 
-T1-T1723. **.next_toy=2056+**. **.next_theorem=1724+**. **2056+ toy files**. Graph: **1522 nodes / 8150 edges / 98.5% proved**. 0 dangling. **98 papers** (#82-#96 CASEY APPROVED, #97-#102 v0.1 drafted). Data layer: **3849+ entries** (+600 today). 0 dupes, 0 unlinked. **95 predictions**. **136 constants**. **179 Rosetta**. **48+ domains**. **ALL FRONTIERS CLOSED**. **ZETA 20/20 COMPLETE**. **Spectral Engineering DAY 2 COMPLETE** — 52 theorems (T1671-T1723), ~600 invariants filed, 6 papers drafted (#97-#102), 65+ toys across 4 CIs. SE board CLEAR (29/29 tasks, 19 closed, 10 standing/continuing). Curt Jaimungal outreach SENT.
+T1-T1755. **.next_toy=2092**. **.next_theorem=1756**. **2090+ toy files**. Graph: **1554 nodes / 8245 edges / 98.5% proved**. 0 dangling. **103 papers** (#82-#96 CASEY APPROVED, #97-#103 drafted). Data layer: **3858 invariants**. 0 dupes, 0 unlinked. **103 predictions**. **144 constants**. **184 Rosetta**. **370 materials**. **48+ domains**. **RH GEOMETRIC PROOF** (T1755): temperedness + scattering embedding forces sigma=1/2. **BSD**: 56 curves ranks 0-5, zero exceptions. **Conjecture 6.1' FALSE** (T1749). Updated May 7, 2026.
 
 ---
 

@@ -1813,6 +1813,46 @@
       "symbol": "HK_GF_analytic_extension",
       "name": "Heat kernel GF analytic extension: 3 falsifiable predictions",
       "cal_tier": "D"
+    },
+    {
+      "symbol": "BaTiO3_antenna",
+      "name": "BaTiO3 spectral antenna (#1 BST coherence)",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "BTO_STO_superlattice",
+      "name": "BaTiO3/SrTiO3 (8|4) optimal superlattice",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "Cu_spectral_cap",
+      "name": "Copper: K=137 GPa, Debye=343, mass=63",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "B12H32_hydride",
+      "name": "B12H32 boron cage hydride (ambient T_c prediction)",
+      "cal_tier": "C"
+    },
+    {
+      "symbol": "YBCO_276K_target",
+      "name": "Optimized 3-plane cuprate (T_c=276K target)",
+      "cal_tier": "C"
+    },
+    {
+      "symbol": "InSb_Al_Cheeger_qubit",
+      "name": "InSb+Al Cheeger topological qubit wire",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "Si28_P31_quantum",
+      "name": "Si-28/P-31 quantum memory (T2=39min)",
+      "cal_tier": "D"
+    },
+    {
+      "symbol": "Diamond_NV_RT",
+      "name": "Diamond NV center (RT coherence, g-C_2=1 defect)",
+      "cal_tier": "D"
     }
   ]
 }
