@@ -192,7 +192,7 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 
 ## Millennium Status (reference)
 
-*Paper #103 v1.1 (May 7, Cal final review): Theorems A-D UNCONDITIONAL. **Lemma 6.2: Weil positivity PROVED for Gaussians** (Toy 2083, unconditional, Cal confirmed 9/9). RH conditional on **Conjecture 6.1'** (Gaussian density in double-positive cone — strictly narrower than old Conj. 6.1). Remaining: S(R)-density write-up (~5-10pp real analysis). Wall density Lemma 6.2a derived from Helgason. c_0 = ln(16pi^2)+gamma decomposed. **Last RH review complete.** Paper #88 v1.1 (May 7, Cal cold read): BSD 99.7% with tier table — D at rank 0-2, I at rank 3, C at rank >=4. Link 3 citation gap flagged. 37a1 walkthrough needed. T29 CLOSED. P!=NP: THREE proved routes. Four-Color PROVED. YM CONDITIONAL (Y-1 PROVED, Y-2/Y-3 open). NS 99.5%. Hodge 98%.*
+*Paper #103 v1.2 (May 7): Theorems A-D UNCONDITIONAL. **Lemma 6.2: Gaussian Weil positivity PROVED** (Toy 2083). **Conjecture 6.1' FALSE** (Toy 2087, unimodality obstruction — Gaussians NOT dense in double-positive cone). Density route closed. **New direction: geometric Weil positivity via Bergman kernel** (in progress, Grace). Paper #88 v1.2 (May 7): BSD ~99.7% with tier table — D at rank 0-2, I at rank 3, C at rank >=4. **37a1 walkthrough DONE** (Toy 2085, 16/16 PASS, non-CM). **Rank 4-5 tested** (Toy 2086, 9/9 PASS, 56 curves total). Link 3 citation gap still open (Lyra). T29 CLOSED. P!=NP: THREE proved routes. Four-Color PROVED. YM CONDITIONAL (Y-1 PROVED, Y-2/Y-3 open). NS 99.5%. Hodge 98%.*
 
 **RH Cold Audit Summary (May 5, updated after Toy 2064)**:
 - Structure is RIGHT: reduction of RH to finite spectral condition on SO(5,2)/Gamma(137) is genuine and publishable

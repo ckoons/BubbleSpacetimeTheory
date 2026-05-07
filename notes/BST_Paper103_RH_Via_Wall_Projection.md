@@ -3,10 +3,10 @@ title: "Temperedness, Spectral Gaps, and Wall Projection on Arithmetic Quotients
 subtitle: "With a conditional approach to the Riemann Hypothesis"
 author: "Casey Koons, Lyra, Keeper, Elie (Claude 4.6)"
 date: "May 6, 2026"
-status: "DRAFT v1.1 — Cal final review incorporated. Weil positivity PROVED for Gaussians (Toy 2083, Lemma 6.2). Density argument: three-line proof (Toy 2084). Remaining: rigorous S(R)-density write-up (~5-10pp real analysis)."
+status: "DRAFT v1.2 — Conjecture 6.1' FALSE (Toy 2087, unimodality obstruction). Lemma 6.2 (Gaussian Weil positivity) remains unconditional. New direction: geometric Weil positivity via Bergman kernel (in progress)."
 target: "Annals of Mathematics / Compositio Mathematica"
 paper_number: 103
-tier: "Steps 1-4 + Section 7: D (unconditional, verified). Step 5: C (density of Gaussians in Weil cone)."
+tier: "Steps 1-4 + Section 7: D (unconditional, verified). Step 5: Lemma 6.2 D (Gaussians). Step 6: FAILED (Conj 6.1' false). New approach: geometric Weil positivity."
 resolves: "R-14, R-15, R-16, R-17, R-18, G5"
 depends_on: "R-11 (Arthur classification — citation pinned, [VERIFY] on exact proposition)"
 cold_reader: "Cal A. Brate (Claude 4.7), May 6-7, 2026 (two rounds)"
@@ -457,7 +457,20 @@ The closed form of Phi is [-pi*sech(pi*t) - 12/(9+4*t^2)]/2, which is **negative
 
 **Theorem 6.2 (RH, conditional on Conjecture 6.1').** Combining Lemma 6.2 with Conjecture 6.1', W(f) >= 0 for all double-positive f. By the Weil criterion (Weil 1952, Bombieri 2000), RH follows.
 
-Conjecture 6.1' (density of Gaussians in the double-positive cone) is a concrete real-analysis statement (~5-10 pages for rigorous write-up). It replaces the original Conjecture 6.1 (test function correspondence), which was broader and less tractable. The hard number-theoretic content is entirely in Lemma 6.2. See companion note `BST_RH_Weil_Positivity_Proof.md`.
+**Conjecture 6.1' is FALSE** (Toy 2087, Grace, 11/11 PASS). The obstruction is unimodality: centered Gaussian sums are unimodal (each exp(-t^2/A^2) is monotonically decreasing for t > 0, so any non-negative sum is too), but F contains non-unimodal double-positive functions. The density argument fails.
+
+Lemma 6.2 (Gaussian Weil positivity) remains unconditional. What fails is the extension from the Gaussian family to the full Weil cone.
+
+**New direction (Section 6.5).** The transfer from trace formula positivity to Weil positivity can potentially bypass the density argument entirely via a direct geometric construction on D_IV^5. The key ingredients:
+
+(a) The scattering factor m_2(s) = xi(s-2)/xi(s+1) is geometric (P_2 parabolic structure, short root shift).
+(b) The safe integral I_safe > 0 unconditionally at Re(s) = 7/2 (Hadamard product positivity).
+(c) The Bergman kernel K(z,z) > 0 is positive-definite by the reproducing property.
+(d) If W(f) can be expressed as a geometric inner product on D_IV^5 — specifically as a Bergman space sesquilinear form — positivity follows from the kernel structure, not from test function density.
+
+The zeros of zeta appear as poles of m_2'/m_2 on the Shilov boundary of D_IV^5. The Poisson kernel on this boundary is positive-definite (boundary values of the Bergman kernel). This connects Weil positivity to the reproducing property of the bounded symmetric domain itself.
+
+This approach is in progress. See companion note `BST_RH_Weil_Positivity_Proof.md`.
 
 ### 6.4a Explicit c-function formulas and trace formula structure
 
@@ -673,13 +686,14 @@ Theorems A--D have been computationally verified. Conjecture 6.1 has NOT been ve
 | Li coefficients | (cross-check) | 2064 T7 | n=1..10 | lambda_n >= 0 |
 | **Explicit formula bridge** | **Conj. 6.1** | **2082** | **11/11** | **Delta < 0 for all A=1..100. GL(1) verified.** |
 | **Weil positivity (Gaussians)** | **Lemma 6.2** | **2083** | **9/9** | **W(g_A) >= 0 PROVED for all Gaussians. Three regimes. Unconditional.** |
-| **Weil cone density** | **Conj. 6.1'** | **2084** | **9/10** | **Double-positive cone F identified. Gaussian mixtures dense in F. Write-up needed (~5-10pp).** |
+| **Weil cone density** | ~~Conj. 6.1'~~ | 2084 | 9/10 | Structured but **Conj. 6.1' FALSE** (Toy 2087, unimodality obstruction) |
+| **Unimodality obstruction** | **T1749** | **2087** | **11/11** | **Conj. 6.1' disproved. Gaussians NOT dense in F. New geometric approach needed.** |
 
 Aggregate for Theorems A--D: 124/133 PASS across 10 toys. Lemma 6.2 (Toy 2083) proves Weil positivity for Gaussians unconditionally. Toy 2084 structures the density argument for the full Weil cone.
 
 **Cal's final assessment (May 7, 2026):** "This is a real result. The team has proved an unconditional theorem: W(g_A) >= 0 for the one-parameter family g_A(t) = exp(-t^2/A^2). Three regimes cover, no gap, no circular use of zeros. This is the first concrete unconditional positivity result in the chain." Cal confirmed: c_0 = ln(16*pi^2) + gamma is derived (not fitted), Phi(t) < 0 for all t is correct, three-regime partition is exhaustive with overlap. Recommendations incorporated: wall density derivation (Lemma 6.2a), symmetrization step made explicit, c_0 decomposed into three classical constants, A-parameter convention clarified.
 
-**Remaining conditional**: Conjecture 6.1' (density of non-negative Gaussian mixtures in the double-positive cone F). This is a real-analysis density theorem (~5-10 pages), not number theory. All number-theoretic content is complete. The conditional is strictly narrower than the original Conjecture 6.1 (test function correspondence).
+**Remaining conditional**: Conjecture 6.1' (Gaussian density in F) is **FALSE** (Toy 2087). The density route is closed. The new approach is geometric Weil positivity via the Bergman kernel of D_IV^5 (in progress). Lemma 6.2 and all unconditional theorems (A-D) remain intact. The honest status: D_IV^5 provides the richest known spectral environment for RH (temperedness + wall projection + volume dominance + uniqueness + Gaussian Weil positivity), but the final transfer from trace formula positivity to Weil positivity for the full test function class remains open.
 
 ---
 
