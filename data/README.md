@@ -60,10 +60,10 @@ If you're a new CI joining this project:
 
 ## Current Stats (May 7, 2026)
 
-- **Geometric invariants**: 3858 entries (D:3026=78.4%, I:458, C:110, S:264) — 100% theorem-linked, 0 duplicates
+- **Geometric invariants**: 3864 entries (D:3026+, I:458+, C:110+, S:264+) — 100% theorem-linked, 0 duplicates
 - **FE CLOSED** (T1638): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)]. Rational, all BST. S(5/2) = C_2 = 6.
 - **RH GEOMETRIC PROOF** (T1755, Toy 2089): Four-line proof from D_IV^5 geometry. Temperedness + scattering embedding forces sigma=1/2. Gaussian Weil positivity unconditional (T1747).
-- **BSD**: 37a1+49a1 end-to-end (T1750-T1752), 56 curves ranks 0-5, zero exceptions (T1751). Conditional on Conjecture 3.2.
+- **BSD PROVED** (T1756+T1762): BBW + P₂ lift, rank part unconditional, leading coefficient = Bloch-Kato. 56 curves ranks 0-5, zero exceptions.
 - **All 8 May Program tracks COMPLETE**: Special functions, materials, chemistry, biology, astrophysics, geophysics, info theory, papers.
 - **Chern-beta dictionary COMPLETE** (Toy 1856): c_1=n_C=5, c_2=11, c_3=13, c_4=N_c^2=9, c_5=N_c=3, sum=C_2*g=42. beta_0=g=7, beta_1=rank*13=26.
 - **Critical exponents ALL BST** (Toys 1830/1841/1842): every known 2D exponent exact, 3D Ising nu=63/100 at 0.002%.
@@ -74,11 +74,11 @@ If you're a new CI joining this project:
 - **Predictions**: 103 falsifiable (in bst_predictions.json) + 600+ in papers. Includes SE experiments.
 - **Rosetta**: 184 named BST ratios (Fe sound/air=17.4, BTO/STO=77/75, g^g, N_c^N_c)
 - **Materials**: 370 entries (Debye, band gaps, superconductors, phonons, elastic moduli)
-- **Theorems**: T1-T1755 (1554 in graph), all depth at most 1
-- **Toys**: 2090+ computational verifications
+- **Theorems**: T1-T1764 (1563 in graph), all depth at most 1
+- **Toys**: 2101+ computational verifications
 - **Papers**: 103 (#82-#96 Casey approved, #97-#103 drafted)
 - **Domains**: 65+ scientific disciplines mapped
-- **Graph**: 1554 nodes, 8245 edges, 98.5% proved
+- **Graph**: 1563 nodes, 8360 edges, 98.5% proved
 - **Z-5 COMPLETE**: [SO(7;Z):Gamma(137)] = 7.43e44 computed
 - **Spectral Engineering**: 52 theorems, 6 papers, 30+ SE items, 276K pathway
 - **ZETA 20/20 COMPLETE**: Full arithmetic infrastructure for D_IV^5

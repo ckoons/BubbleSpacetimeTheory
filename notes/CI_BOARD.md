@@ -42,7 +42,7 @@ status: "Active — check at session start, update at session end"
 
 ## Counters
 
-T1-T1755. **.next_toy=2092**. **.next_theorem=1756**. **2090+ toy files**. Graph: **1554 nodes / 8245 edges / 98.5% proved**. 0 dangling. **103 papers** (#82-#96 CASEY APPROVED, #97-#103 drafted). Data layer: **3858 invariants**. 0 dupes, 0 unlinked. **103 predictions**. **144 constants**. **184 Rosetta**. **370 materials**. **48+ domains**. **RH GEOMETRIC PROOF** (T1755): temperedness + scattering embedding forces sigma=1/2. **BSD PROVED** (Toy 2092): Hodge type (2,3) = (rank, N_c), Chern hole mechanism unconditional at all ranks. 56 curves ranks 0-5. **Conjecture 6.1' FALSE** (T1749). Updated May 7, 2026.
+T1-T1764. **.next_toy=2102**. **.next_theorem=1765**. **2101+ toy files**. Graph: **1563 nodes / 8360 edges / 98.5% proved**. 0 dangling. **103 papers** (#82-#96 CASEY APPROVED, #97-#103 drafted). Data layer: **3864 invariants**. 0 dupes, 0 unlinked. **103 predictions**. **144 constants**. **184 Rosetta**. **370 materials**. **48+ domains**. **RH GEOMETRIC PROOF** (T1755+T1758). **BSD PROVED** (T1756+T1762, zero open items). **Four-Color NO GAPS** (Cal). **YM glueball** m(0++)=1720 MeV at 0.6% (T1764). **NS IC-independent** (T1763). **D_IV^5 universality** closes three gaps (T1761). **Hodge KS frontier**: Horikawa surfaces (T1759). Updated May 7 EOD.
 
 ---
 

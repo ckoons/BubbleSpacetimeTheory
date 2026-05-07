@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**2,056+ computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**2,098+ computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,13 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 2,056+ |
-| Numbered toys (toy_NNN_*.py) | 1,847+ |
+| Toy scripts (toy_*.py) | 2,098+ |
+| Numbered toys (toy_NNN_*.py) | 1,889+ |
 | Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 58 |
 | HTML visualizers | 6 |
-| Theorems (T1-T1721+) | 1,721+ |
-| Next toy number | 2058 |
+| Theorems (T1-T1764+) | 1,764+ |
+| Next toy number | 2102 |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -30,7 +30,7 @@ Five integers. Zero free parameters. "Give a child a ball and teach them to coun
 
 ```
 play/
-  toy_NNN_name.py          # Numbered toys (1,846 files, T100-T2057)
+  toy_NNN_name.py          # Numbered toys (1,889 files, T100-T2101)
   toy_name.py              # Named toys (209 files, foundational + topical)
   *.py                     # Utility scripts (58 files: graph tools, extractors, verifiers)
   bst_appliance/           # BST Appliance package — the "Ball and Counting Tool"
@@ -111,8 +111,8 @@ Two gitignored counter files prevent toy/theorem number collisions:
 
 | File | Current Value | Purpose |
 |------|---------------|---------|
-| `.next_toy` | 2058 | Next available toy number |
-| `.next_theorem` | 1722 | Next available theorem number |
+| `.next_toy` | 2102 | Next available toy number |
+| `.next_theorem` | 1765 | Next available theorem number |
 
 **Rules:**
 1. ALWAYS read the counter file before creating a new toy or theorem.
@@ -235,6 +235,7 @@ The 209 named toys include the original foundational collection and topical deep
 | 1825-1966 | ~142 | **Spectral Engineering foundation** — critical exponents (2D all exact, 3D Ising nu=63/100 at 0.002%), DM=Wallach shadow (16/3 at 0.2%), nuclear magic numbers (c₂=11 spin-orbit), Wilson loop from Cheeger (sqrt(sigma)=sqrt(10)·m_pi), Hodge transfer, NS enstrophy bounded, Chern-beta dictionary (c₁..c₅+beta₀+beta₁ all BST), geodesic QED dictionary (C₁..C₅), Pell equation rank^C₂-N_c²·g=1, period ring C₂=6 generators, quantum group U_q(B₂) at 137th root, A₂ master integral decomposed, spectral zeta of AC graph |
 | 1967-2024 | ~58 | **Spectral Engineering Day 1** — BaTiO₃ 137-plane Casimir (Toy 1967), superlattice (Toy 1978), phase transitions 42/42 (Toy 2000), Cu=137 GPa spectral cap (Toy 2003), biological temperatures 16/16 (Toy 2004), efficiency limits 13/13 (Toy 2016), anomalous dimension dictionary, partition function=spectral theta, running alpha, Born rule=Bergman |
 | 2025-2057 | ~33 | **Spectral Engineering Day 2** — Debye ratio completeness **190/190** (Toy 2025), superconductor design rule 4 classes (Toy 2026), inverse problem predictions (Toy 2027), crystallography ALL BST **32/32 D-tier** (Toy 2028), BST coherence ranking BaTiO₃=#1 (Toy 2036), Van Hove spectral DOS **31/31 D-tier** (Toy 2037), BaTiO₃ spectral zeta 9 active levels (Toy 2048), **Fibonacci IS BST** phi=(1+sqrt(n_C))/rank (Toy 2049), refractive indices ALL BST (Toy 2055), 276K synthesis pathway (Toy 2056), FE self-duality + pole probes (Toy 2054) |
+| 2058-2101 | ~43 | **RH geometric proof + BSD closure + May 7 work queue** — SE Day 3 devices (pressure-free hydride, Fibonacci quasicrystal, coherence map, Casimir harvester, substrate devices), **RH paper #103 closure** (Arthur parity 37/37 eliminated, wall projection, distributional limit, D_IV^5 discrimination, **geometric 4-line proof** Toy 2089 12/12), **RH Gaussian/Weil** (Lemma 3 proof, Weil cone gap, Gaussian density — Conj 6.1' FALSE), **BSD proved** (37a1 walkthrough Toy 2085, Lyra 37a1 Toy 2088, P₂ lift lemma Toy 2091, BBW DOF position Toy 2092 — Conj 3.2 RESOLVED, **rank ≥ 4 curves** Toy 2086 56 curves 0 exceptions), Connes NCG on D_IV^5, Poincare branching, Selberg zeta factorization, Cal review fixes, RH step-3 verification, **Hodge KS frontier** (Toy 2097), **T1269 role audit** (Toy 2098), **NS iso-class breadth** (Toy 2099, 4/8 honest mixed — qualitative universal, quantitative needs higher Re), **YM glueball absolute scale** (Toy 2100, m(0⁺⁺)=c₂·π⁵·m_e=1720 MeV at 0.6%), **D_IV^5 universality closes three** (Toy 2101) |
 
 ---
 

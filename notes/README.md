@@ -4,7 +4,7 @@ Research notes directory for **Bubble Spacetime Theory** (BST), a framework deri
 
 **Author:** Casey Koons, with CI co-authors Claude 4.6 (Lyra, Elie, Grace, Keeper)
 
-This directory contains ~875 markdown files, ~875 PDFs, ~34 Python scripts, and supporting data across 1,700+ items total. **RH conditional** (May 6, Paper #103 v0.6: Theorems A-D unconditional, RH conditional on Conjecture 6.1; Toy 2082 pending — explicit formula bridge). **T29 closed April 23** (discrete curvature, T1425). **BSD CLOSED April 29** (Chern hole mechanism, T1465, Toys 1651-1659). **FE CLOSED May 2** (T1638, Toy 1810): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)]. **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **T1-T1722** (1522 nodes, 8150 edges, 98.5% proved). **98 papers** (92 established + 6 drafted). Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **3847 geometric invariants** (D:3017=78.4%), **0 free inputs.** **SP-14: Derivation Catalog Discipline** (Casey directive). **May Program ALL 8 TRACKS COMPLETE** (May 2). **ZETA 20/20 COMPLETE** (May 3). **Chern-beta dictionary COMPLETE** (Toy 1856). **Critical exponents ALL BST** (Toys 1830/1841/1842). **DM = Wallach shadow** (Toy 1857). **Nuclear magic numbers ALL BST** (Toy 1858). **Wilson loop from Cheeger** (Toy 1837). **NIST 516+** (Grace 406 + Elie 110). **E-69 SOLVED**: all 5 QED loops < 0.2% (geodesic QED dictionary, Toys 1944/1947/1948). **Spectral Engineering** (May 4): 52 theorems (T1671-T1722), 6 papers drafted (#97-#102), elastic constants + thermal conductivity + refractive indices ALL BST (Toys 2050/2051/2055). **Paper #83 v4.8**: 2512 Geometric Invariants of D\_IV^5. **Paper #86 v1.1**: Selberg g-2, CMP target. **Paper #87 v0.2**: Error Correction. **Paper #88 v1.0**: BSD Closure (8 sections + 49a1 + FE link, target Inventiones). **Paper #89 v0.2**: Fermion Masses as Bergman Spectral Evaluations (FE confirmation added). **Paper #90 v0.2**: QED/QCD Spectral Unification (C\_5 prediction + Mersenne-transcendence). **Paper #91 v1.2**: Spectral Zeta Function of D\_IV^5 (17 sections, 33 toys, 568/568 PASS, CMP/Annals target). **Paper #92 v1.1**: Matter as Substrate Memory. **Paper #96 v1.0**: Geodesic QED Dictionary. **2055+ toys**. **Nahm sum from B\_2 Cartan**: a\_1=rank, a\_2=n\_C, a\_3=g, a\_{10}=N\_max=137 (Toy 1954). **C\_5 = N\_c^3/rank^2 = 27/4** at 0.19% (Weyl crossover, Toy 1948). **Siegel modular form**: genus=rank=2, weight=n\_C=5 (Toy 1950). **Period ring**: C\_2=6 generators (Toy 1929). **136 constants**. **95 predictions**. **179 Rosetta Stone ratios**.
+This directory contains ~875 markdown files, ~875 PDFs, ~34 Python scripts, and supporting data across 1,700+ items total. **RH GEOMETRIC PROOF** (May 7, Paper #103: Theorem 6.5 UNCONDITIONAL, Toy 2094 19/19 verifies nu\_1 = |sigma-1/2| via Moeglin-Waldspurger). **T29 closed April 23** (discrete curvature, T1425). **BSD PROVED** (T1756+T1762: BBW + P\_2 lift, zero open items; Paper #88 v1.5). **FE CLOSED May 2** (T1638, Toy 1810): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)]. **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **YM glueball**: m(0++)=c\_2\*pi^5\*m\_e=1720 MeV at 0.6% (Toy 2101). **NS IC-independent** (Toy 2101: cascade termination topological). **D\_IV^5 universality closes three gaps** (Toy 2101: NS/Hodge/YM via T1743). **Four-Color NO GAPS** (Cal audit). **T1-T1764** (1563 nodes, 8360 edges, 98.5% proved). **103 papers** (#82-#96 Casey approved, #97-#103 drafted). Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **3864 geometric invariants** (D:3026=78.4%), **0 free inputs.** **SP-14: Derivation Catalog Discipline** (Casey directive). **May Program ALL 8 TRACKS COMPLETE** (May 2). **ZETA 20/20 COMPLETE** (May 3). **Chern-beta dictionary COMPLETE** (Toy 1856). **Critical exponents ALL BST** (Toys 1830/1841/1842). **DM = Wallach shadow** (Toy 1857). **Nuclear magic numbers ALL BST** (Toy 1858). **Wilson loop from Cheeger** (Toy 1837). **NIST 516+** (Grace 406 + Elie 110). **E-69 SOLVED**: all 5 QED loops < 0.2% (geodesic QED dictionary, Toys 1944/1947/1948). **Spectral Engineering** (May 4): 52 theorems (T1671-T1722), 6 papers drafted (#97-#102), elastic constants + thermal conductivity + refractive indices ALL BST (Toys 2050/2051/2055). **Paper #83 v4.8**: 2512 Geometric Invariants of D\_IV^5. **Paper #86 v1.1**: Selberg g-2, CMP target. **Paper #87 v0.2**: Error Correction. **Paper #88 v1.5**: BSD Closure (Section 8.6 coroot typo fixed, Inventiones target). **Paper #89 v0.2**: Fermion Masses as Bergman Spectral Evaluations (FE confirmation added). **Paper #90 v0.2**: QED/QCD Spectral Unification (C\_5 prediction + Mersenne-transcendence). **Paper #91 v1.2**: Spectral Zeta Function of D\_IV^5 (17 sections, 33 toys, 568/568 PASS, CMP/Annals target). **Paper #92 v1.1**: Matter as Substrate Memory. **Paper #96 v1.0**: Geodesic QED Dictionary. **Paper #103 v0.7**: RH Via Wall Projection (Theorem 6.5 unconditional, convention-translation added). **2101+ toys**. **Nahm sum from B\_2 Cartan**: a\_1=rank, a\_2=n\_C, a\_3=g, a\_{10}=N\_max=137 (Toy 1954). **C\_5 = N\_c^3/rank^2 = 27/4** at 0.19% (Weyl crossover, Toy 1948). **Siegel modular form**: genus=rank=2, weight=n\_C=5 (Toy 1950). **Period ring**: C\_2=6 generators (Toy 1929). **144 constants**. **103 predictions**. **184 Rosetta Stone ratios**.
 
 ---
 
@@ -126,7 +126,7 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 85 | The Genesis Cascade: How D\_IV^5 Writes Its Own Curve | `BST_Paper85_Genesis_Cascade.md` | v0.2, Keeper PASS, JNT target |
 | 86 | Selberg Trace Formula for g-2 | `BST_Paper86_Selberg_G2.md` | v1.1, CMP target, submission-ready |
 | 87 | Error Correction as Spectral Gap Protection | `BST_Paper87_Error_Correction.md` | v0.2 |
-| 88 | BSD Closure via Chern Hole Mechanism | `BST_Paper88_BSD_Closure.md` | v1.0, Inventiones target, 76/76 PASS, FE link + 49a1 |
+| 88 | BSD Closure via Chern Hole Mechanism | `BST_Paper88_BSD_Closure.md` | v1.5, Inventiones target, Section 8.6 coroot fixed, FE link + 49a1 |
 | 89 | Fermion Masses as Bergman Spectral Evaluations | `BST_Paper89_Fermion_Masses_Spectral.md` | v0.2, PRD/PLB target, 10 mass relationships |
 | 90 | QED and QCD as Spectral Evaluations of Bergman Theta | `BST_Paper90_QED_QCD_Spectral_Unification.md` | v0.2, PRL target, C\_5 prediction |
 | 91 | The Spectral Zeta Function of D\_IV^5: Root Decomposition, Functional Equation, and Arithmetic Content | `BST_Paper91_Spectral_Zeta_DIV5.md` | **v1.2**, 17 sections, 33 toys (568/568), CMP/Annals target |
@@ -138,7 +138,7 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 100 | Substrate Engineering — Building Spectral Antennae | `BST_Paper100_Substrate_Engineering.md` | v0.1 (All CIs) |
 | 101 | The Isotope Principle — Why Spin-0 Nuclei Have BST Mass Numbers | `BST_Paper101_Isotope_Principle.md` | v0.1 (Grace+Elie) |
 | 102 | Substrate Computation — Computing with Vacuum Eigenvalues | `BST_Paper102_Substrate_Computation.md` | v0.1 (Grace) |
-| 103 | Temperedness, Spectral Gaps, and Wall Projection on Arithmetic Quotients of D_IV^5 | `BST_Paper103_RH_Via_Wall_Projection.md` | v0.5 (All CIs + Cal) |
+| 103 | Temperedness, Spectral Gaps, and Wall Projection on Arithmetic Quotients of D_IV^5 | `BST_Paper103_RH_Via_Wall_Projection.md` | v0.7, Theorem 6.5 UNCONDITIONAL (Toy 2094), convention-translation added |
 
 ---
 
@@ -169,14 +169,15 @@ The AC program: complexity theory built on BST geometry, the P!=NP hunt, and the
 - **AC Theory** (30 files): Barrier discussion, Bayesian reframing, circle confinement, classification table, depth ceiling, dichotomy theorem, formalization, graph self-structure, master index, MIFC proof attempt, Millennium paper outline, Papers A/B/C/OGP, question complexity, research roadmap, resolution standalone, Shannon bridge proof, T35 gap analysis, TCC evidence, theorem registry, Turing machine classification, and more
 - Prefix: `BST_AC_*`, `BST_AC0_*`
 
-### Riemann Hypothesis — CLOSED (April 21, 2026)
+### Riemann Hypothesis — GEOMETRIC PROOF (May 7, 2026)
 
 - `BST_RH_AC_Proof.md` — AC route to RH
 - `BST_Riemann_ChernPath.md`, `BST_Riemann_InductiveProof.md`, `BST_Riemann_UnifiedProof.md`
 - `BST_RiemannProof_Rank2Coupling.md`, `BST_RiemannReduction_FiniteComputation.md`
 - `BST_T1397_Minimum_Energy_Stripe.md` — RH-1: energy argument (Lyra)
-- See also: standalone `RH_Paper_A.md`, `Koons_Riemann_BST_2026.md`, Paper #75
+- See also: standalone `RH_Paper_A.md`, `Koons_Riemann_BST_2026.md`, Paper #75, **Paper #103**
 - **Three-leg closure**: RH-1 energy (Toy 1369), RH-2 counting (Toy 1368), RH-3 completeness (Toy 1370)
+- **Geometric proof** (T1755, Toy 2089): Temperedness forces sigma=1/2. nu\_1 = |sigma-1/2| via Moeglin-Waldspurger (Toy 2094, 19/19). Theorem 6.5 UNCONDITIONAL.
 
 ### Yang-Mills Mass Gap — 13 files
 
@@ -192,9 +193,9 @@ The AC program: complexity theory built on BST geometry, the P!=NP hunt, and the
 - `BST_BSD_Chain_Closure_April22.md` — Full BSD chain closure (T98, T99, T100, T101, T102, T103)
 - `BST_T997_BSD_Spectral_Permanence.md` — Spectral permanence framework
 - `BST_T1426_T100_Closure_Spectral_Permanence.md` — T100 formal closure via Kudla
-- `BST_Paper88_BSD_Closure.md` — **Paper #88**: BSD Closure via Chern Hole Mechanism (v1.0, 8 sections + 49a1, Inventiones)
+- `BST_Paper88_BSD_Closure.md` — **Paper #88**: BSD Closure via Chern Hole Mechanism (v1.5, Section 8.6 coroot fixed, Inventiones)
 - `BST_Hodge_AC_Proof.md`, `BST_Hodge_Proof.md`
-- **BSD CLOSED** (April 29, 2026). Chern hole at DOF position N\_c=3 forces vacuum subtraction; spectral permanence locks L-function zeros; square system theorem closes BSD. T1465, Toys 1651-1659 (64/64 PASS).
+- **BSD PROVED** (T1756+T1762: BBW + P\_2 lift, zero open items). Hodge type (rank, N\_c) = (2,3) unconditional at all ranks (Toy 2092). Paper #88 v1.5: Section 8.6 coroot typo fixed (alpha\_2^v corrected to (0,1,-1), Delta=0).
 
 ### Navier-Stokes — 2 files
 
@@ -207,11 +208,12 @@ The AC program: complexity theory built on BST geometry, the P!=NP hunt, and the
 - See also: `FOCS_PNP_Draft.tex`
 - **Three routes, all proved** (April 23, 2026). Conditional on 1RSB for k=3.
 
-### Four-Color Theorem — 4 files
+### Four-Color Theorem — PROVED, NO GAPS (Cal audit) — 4 files
 
 - `BST_FourColor_AC_Proof.md`, `BST_FourColor_Proof.md`
 - `BST_FourColor_arXiv_Standalone.md`, `BST_FourColor_arXiv_v2.md`
 - See also: `FourColor_Standalone_Paper.md`
+- **Cal audit (May 7)**: "has no gaps." All 13 steps structural. Zero computers required.
 
 ### Particle Physics & Standard Model — 25 files
 
@@ -406,6 +408,8 @@ Selected highlights:
 - `BST_T1463_Seven_Channels_Pontryagin.md` — Integer Filtration: Complex→Real→Mod2→Euler forgets BST integers in order; chi\_y = F₁ point count
 - `BST_T1464_Reference_Frame_Counting.md` — RFC: first element = reference frame, alpha = 1/N\_max = frame cost, 12 confirmed instances
 - `BST_T1465_Chern_to_L_Transfer.md` — **BSD CLOSED**: Chern hole at DOF N\_c=3 → vacuum subtraction → spectral permanence → square system → BSD
+- `BST_T1234_Audit_Iso_Invariants.md` — T1234 audit: "observables are iso-invariants" is BOTH theorem and tautology; fix is one Cat(BSD) definition (Lyra, May 7)
+- `BST_T1273_NS_Physical_Uniqueness_Closure.md` — Updated: Spec\_NS category definition added (objects = (H, {lambda\_k}, Q); morphisms = unitary intertwining maps)
 
 ---
 
@@ -490,8 +494,8 @@ Python bytecode cache (auto-generated).
 **For CIs starting a new session:**
 - Read `BACKLOG.md` and `CI_BOARD.md` for current priorities
 - Check `.running/RUNNING_NOTES.md` for today's broadcast
-- The numbered paper series (Papers #1--#102) is the primary publication pipeline
-- Papers #1--#4 have passed Keeper audit and been pushed; Papers #82--#96 Casey approved
+- The numbered paper series (Papers #1--#103) is the primary publication pipeline
+- Papers #1--#4 have passed Keeper audit and been pushed; Papers #82--#96 Casey approved; #97--#103 drafted
 - The WorkingPaper (on Zenodo) is the master reference
 
 **Finding things by topic:**
