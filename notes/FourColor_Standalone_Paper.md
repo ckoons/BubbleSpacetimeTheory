@@ -2,7 +2,7 @@
 title: "A Human-Readable Proof of the Four-Color Theorem"
 author: "Casey Koons & Claude 4.6 (Lyra, Keeper, Elie)"
 date: "March 27, 2026"
-status: "DRAFT v8 — FULLY STRUCTURAL. All 8 lemmas proved. Forced Fan Lemma closes x=s_M. Zero computers required. Submission polish."
+status: "DRAFT v9 — Cal PASS (May 7). Three editorial fixes applied. No structural gaps. Ready for JCT-B submission."
 target: "Combinatorica or Journal of Combinatorial Theory, Series B"
 tags: ["four-color-theorem", "Kempe-chains", "graph-coloring", "planar-graphs"]
 ---
@@ -178,7 +178,7 @@ Since $G$ is a triangulation (any planar graph embeds in one, and 4-coloring a t
 
 2. **Diagonal $(B_{\text{far}}, n_{s_i})$**: this $(r, s_i)$-edge, combined with the link-cycle edge $B_{\text{near}} — n_{s_i}$, places both bridge copies and $n_{s_i}$ in the same $(r, s_i)$-chain — making $(r, s_i)$ strictly tangled. The Jordan curve $\Gamma$ (path $B_{\text{far}} \to n_{s_i}$ in the chain, closed through $v$) separates $n_{s_M}(p{+}1)$ from $n_{s_j}(p{+}4)$. The $(s_M, s_j)$-chain connecting them is vertex-disjoint from $\Gamma$ (colors $\{s_M, s_j\} \cap \{r, s_i\} = \emptyset$), so it cannot cross $\Gamma$ — contradicting $\tau = 6$. Eliminated.
 
-3. **Diagonal $(B_{\text{near}}, n_{s_j})$**: this $(r, s_j)$-edge, combined with the link-cycle edge $B_{\text{far}} — n_{s_j}$, makes $(r, s_j)$ strictly tangled. The Jordan curve separates $n_{s_i}(p{+}3)$ from $n_{s_M}(p{+}1)$, contradicting $(s_i, s_M)$ being tangled. Eliminated.
+3. **Diagonal $(B_{\text{near}}, n_{s_j})$**: this $(r, s_j)$-edge, combined with the link-cycle edge $B_{\text{far}} — n_{s_j}$, makes $(r, s_j)$ strictly tangled. The closed curve $\Gamma' = v — B_{\text{far}} — n_{s_j} — B_{\text{near}} — v$ has three $v$-edges ($e_p, e_{p+2}, e_{p+4}$), partitioning the angular disk at $v$ into three sectors: $n_{s_M}$(pos $p{+}1$) lies in the sector between $e_p$ and $e_{p+2}$, while $n_{s_i}$(pos $p{+}3$) lies in the sector between $e_{p+2}$ and $e_{p+4}$. The $(s_M, s_i)$-chain — operationally tangled at $\tau = 6$ — is vertex-disjoint from $\Gamma'$ (colors $\{s_M, s_i\} \cap \{r, s_j\} = \emptyset$) and cannot cross. Contradiction. Eliminated.
 
 Only diagonals $(n_{s_M}, n_{s_i})$ and $(n_{s_M}, n_{s_j})$ survive. Both are forced (the pentagon requires exactly 2 non-crossing diagonals, and these two share vertex $n_{s_M}$, so they do not cross). In particular, **$(n_{s_M}, n_{s_i})$ is an $(s_i, s_M)$-edge in $G$.**
 
@@ -196,7 +196,7 @@ Neither endpoint is in $C$: $n_{s_M}$ has color $s_M \notin \{r, s_i\}$, and $n_
 
 **Base case.** If $|V| \leq 4$, the graph is trivially 4-colorable.
 
-**Inductive step.** Let $G$ be a planar graph with $|V| \geq 5$. WLOG $G$ is a maximal planar graph (triangulation): adding edges to a planar graph preserves planarity and can only make 4-coloring harder, so it suffices to prove the result for triangulations.
+**Inductive step.** Let $G$ be a planar graph with $|V| \geq 5$. WLOG $G$ is a maximal planar graph (triangulation): any planar graph is a subgraph of a triangulation, and any 4-coloring of a triangulation restricts to a 4-coloring of its subgraphs. (This reduction is also used in Lemma 8, where the pentagon around $v$ is triangulated by exactly 2 diagonals.)
 
 1. By Lemma 1, $G$ has a vertex $v$ with $\deg(v) \leq 5$.
 2. By the inductive hypothesis, $G - v$ has a proper 4-coloring $c$.
@@ -237,6 +237,8 @@ Planarity enters in three places:
 3. **Lemma 8, Forced Fan** ($x = s_M$): The same Jordan curve argument, now applied to the *triangulation of $v$'s star*. Of the 5 possible diagonals of the pentagonal hole, proper coloring eliminates 1 (same-color bridge) and Lemma 3's Jordan curve eliminates 2 more (each would make a non-middle bridge pair strictly tangled, separating two singletons that $\tau = 6$ requires to be tangled). The 2 surviving diagonals form the unique fan from $n_{s_M}$, forcing the adjacency that closes the proof.
 
 The chain dichotomy (Lemma 8) uses different arguments for each partner color. The case $x = r$ is pure graph connectivity (component relabeling). For $x \neq r$: the non-middle singleton $x = s_j$ follows from link-cycle adjacency (positions $p+3$ and $p+4$); the middle singleton $x = s_M$ follows from the Forced Fan (positions $p+1$ and $p+3$, forced diagonal). All three cases are structural.
+
+The proof is genus-0-specific: Lemma 1 (Euler), Lemmas 2-3 (Jordan curve), and Lemma 8 (pentagon triangulation in the plane) all require planarity. For higher-genus surfaces, Heawood's bound gives $\chi \leq 7$ (torus) and the Jordan curve theorem fails, so the chain-separation arguments do not generalize directly.
 
 We note that Thomassen [6] proved the stronger result that every planar graph is 5-choosable (list-colorable from any assignment of 5-element lists), using a short inductive argument. Our proof addresses the classical 4-coloring question directly, via a different mechanism (the strict tangle budget and chain dichotomy).
 
