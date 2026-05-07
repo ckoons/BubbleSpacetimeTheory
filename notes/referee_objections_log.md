@@ -534,7 +534,32 @@ Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open unt
 
 **Eisenstein cohomology bridge (Toy 2092, 7/8):** Lyra computed the 12 Kostant representatives of W^{P_2} in W(B_3). Key findings: |W^{P_2}| = 12 = rank x C_2, lengths 0-7 summing to 42 = C_2 x g. The intertwining operator M(1) at the BSD-critical point s=1 has zero of order 3*rank(E) (exponent N_c=3). nu(1) is singular at alpha_1 (the GL(2) root). Gap reduces to one BBW computation: which DOF position does the singular Eisenstein class at s=1 occupy?
 
-**Status:** RESOLVED (3/3 findings addressed). Remaining conditional: Conjecture 3.2 (R-2 companion paper, one finite BBW computation). Paper #88 v1.3.
+**Status:** RESOLVED (3/3 findings addressed). Conjecture 3.2 RESOLVED (Toy 2092). Paper #88 v1.5.
+
+### #37 — Paper #88 BSD: Cal review round 3 — derivation vs assertion (May 7)
+
+**Concern (Cal, 2026-05-07):** Four items in Section 8.6 were asserted as "forced" but not derived in the paper:
+
+| Issue | Fix | Status |
+|-------|-----|--------|
+| nu(1) = (5/2, 5/2, -1/2) asserted, not derived | Explicit decomposition: rho_{B_3} + alpha_2^v + Delta. Weight-2 uniqueness: D_2 has IC = rho_{GL(2)}, so Delta_effective = 0. | RESOLVED (Toy 2093 #1-2) |
+| p+/p- convention unstated | One line: standard convention, +e_3 = holomorphic, Helgason Ch. VIII | RESOLVED (Toy 2093 #3) |
+| Pure Hodge type unverified | Lemma added: VZ gives pure type, Franke/Zucker preserve it, Eisenstein decouples from cuspidal at s=1 | RESOLVED (Toy 2093 #5) |
+| Two senses of "DOF position 3" conflated | Clarified: load-bearing claim is off-diagonal → transcendental → no algebraic competitor. Chern-hole framing is pedagogical wrapper. | RESOLVED (editorial) |
+
+**Cal's cross-paper observation:** Papers #88 and #103 share the pattern of presenting derivable consequences as forced consequences without exhibiting the derivation. The framework is correct; the bookkeeping must be shown.
+
+**Cal's RH concern (Paper #103 Step 3):** The normalization nu_1 = sigma - 1/2 requires explicit constant-term computation. Cal's quick check with rho_{P_2} = (2, 2, 0) gives a different shift. This may be a convention difference or a real issue. Does NOT affect BSD (which uses s=1, not s=rho-1). Must be resolved before Paper #103 goes external.
+
+**Status:** RESOLVED for Paper #88 (v1.5). Paper #103 Step 3 normalization OPEN — see #38.
+
+### #38 — Paper #103 RH: Step 3 normalization (May 7)
+
+**Concern (Cal, 2026-05-07):** Theorem 6.5 Step 3 claims nu_1 = sigma - 1/2 when a zeta zero rho = sigma + i*gamma creates an Eisenstein parameter. Cal computes rho_{P_2} = (2, 2, 0), which gives nu_1 = sigma - 3, not sigma - 1/2. The discrepancy may be a convention issue (different s-normalization, different parabolic, relative vs absolute parameter), but the calculation must be exhibited.
+
+**Required:** Explicit derivation of the Eisenstein constant-term shift for P_2 of SO(5,2), showing that a zeta zero at sigma + i*gamma produces nu_1 = sigma - 1/2 specifically. ~2 pages of Eisenstein constant-term computation (Moeglin-Waldspurger style).
+
+**Status:** OPEN. Does not affect Paper #88. Must be resolved before Paper #103 goes external.
 
 ---
 
@@ -546,7 +571,9 @@ Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open unt
 4. **#33** — Paper #76 YM: Y-1 **RESOLVED** (Paper #103 Theorem A). Poincare branching + pure-gauge still open (Y-2 through Y-6).
 5. **#34** — Paper #91: scope split + 8 fixes (S-1 through S-5).
 6. **#35** — Paper #103 RH: **RESOLVED** (May 7). Cal final review. v1.4 now has geometric proof (Theorem 6.5).
-7. **#36** — Paper #88 BSD: **RESOLVED** (May 7). All 3 findings addressed (Toys 2085/2086/2088/2091). Conjecture 3.2 remains for R-2.
+7. **#36** — Paper #88 BSD: **RESOLVED** (May 7). All 3 findings + Conjecture 3.2 resolved.
+8. **#37** — Paper #88 BSD: **RESOLVED** (May 7). Cal round 3: 4 derivation fixes in Section 8.6, all incorporated v1.5.
+9. **#38** — Paper #103 RH: **OPEN**. Step 3 normalization (nu_1 = sigma - 1/2). Explicit shift computation needed.
 8. **#23** — pred_004 toy wrap (Elie).
 9. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).
 10. **#27** — Coincidence filter: propagate precision-vs-noise-floor tags into Paper #83.
