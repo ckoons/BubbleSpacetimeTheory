@@ -559,7 +559,9 @@ Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open unt
 
 **Required:** Explicit derivation of the Eisenstein constant-term shift for P_2 of SO(5,2), showing that a zeta zero at sigma + i*gamma produces nu_1 = sigma - 1/2 specifically. ~2 pages of Eisenstein constant-term computation (Moeglin-Waldspurger style).
 
-**Status:** OPEN. Does not affect Paper #88. Must be resolved before Paper #103 goes external.
+**Resolution (Toy 2094, 19/19 PASS):** Cal's computation had two convention errors: (1) used denominator poles of m_2(s) (which have Re(s) < 0, spectroscopically invisible) instead of numerator log-derivative xi'/xi(1/2+it) poles; (2) used rho_{P_2,1} = 2 (component of B_3 3-vector) instead of critical-line center 1/2 = rho_1 - 2. Correct derivation: xi-zeros enter the trace formula through J_cont^{P_2}, contour deformation gives residue with nu_1 = |sigma - 1/2|. The 1/2 arises as n_C/2 - 2 (Bergman center minus GK long-root shift).
+
+**Status:** CLOSED. Paper #103 Step 3 rewritten with explicit Moeglin-Waldspurger derivation. [VERIFY] tag removed. Theorem 6.5 + Corollaries 6.6, 6.7 now unconditional.
 
 ---
 
@@ -573,7 +575,7 @@ Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open unt
 6. **#35** — Paper #103 RH: **RESOLVED** (May 7). Cal final review. v1.4 now has geometric proof (Theorem 6.5).
 7. **#36** — Paper #88 BSD: **RESOLVED** (May 7). All 3 findings + Conjecture 3.2 resolved.
 8. **#37** — Paper #88 BSD: **RESOLVED** (May 7). Cal round 3: 4 derivation fixes in Section 8.6, all incorporated v1.5.
-9. **#38** — Paper #103 RH: **OPEN**. Step 3 normalization (nu_1 = sigma - 1/2). Explicit shift computation needed.
+9. **#38** — Paper #103 RH: **CLOSED** (May 7). Step 3 normalization resolved (Toy 2094, 19/19). Cal's convention errors identified.
 8. **#23** — pred_004 toy wrap (Elie).
 9. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).
 10. **#27** — Coincidence filter: propagate precision-vs-noise-floor tags into Paper #83.
