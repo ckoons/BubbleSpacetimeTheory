@@ -61003,6 +61003,36 @@
    "from": 1756,
    "to": 1757,
    "source": "derived"
+  },
+  {
+   "from": 1758,
+   "to": 1755,
+   "source": "derived"
+  },
+  {
+   "from": 1758,
+   "to": 1741,
+   "source": "derived"
+  },
+  {
+   "from": 1758,
+   "to": 1740,
+   "source": "derived"
+  },
+  {
+   "from": 1758,
+   "to": 1638,
+   "source": "derived"
+  },
+  {
+   "from": 1755,
+   "to": 1758,
+   "source": "derived"
+  },
+  {
+   "from": 1732,
+   "to": 1758,
+   "source": "derived"
   }
  ],
  "chains": {},
@@ -81742,6 +81772,26 @@
     "Delta correction = 0 for weight-2 forms",
     "Pure type from VZ + Zucker 1979 + Eisenstein decoupling",
     "Off-diagonal Hodge type in BOTH conventions"
+   ]
+  },
+  {
+   "tid": 1758,
+   "name": "Eisenstein Constant-Term (Paper #103 Step 3 UNCONDITIONAL): Moeglin-Waldspurger derivation confirms nu_1 = sigma - 1/2. Cal referee #38 convention mismatch resolved (denominator poles invisible, wrong center). Theorem 6.5 now unconditional. 19/19 PASS.",
+   "domain": "spectral_theory",
+   "status": "proved",
+   "depth": 1,
+   "conflation": 0,
+   "section": "12.7",
+   "toys": [
+    2094
+   ],
+   "date": "2026-05-07",
+   "plain": "Explicit constant-term computation via Moeglin-Waldspurger. Cal used denominator poles (Re(s)<0, invisible) and wrong center (rho_{P_2,1}=2 vs Bergman center 1/2). Correct: xi-zeros at sigma+igamma create poles at t = gamma - i(sigma-1/2), giving nu_1 = |sigma - 1/2|. Paper #103 Theorem 6.5 unconditional.",
+   "proofs": [
+    "Moeglin-Waldspurger constant-term formula",
+    "Convention: Bergman center 1/2 not rho_{P_2,1}=2",
+    "Cal referee #38 two errors identified and corrected",
+    "19/19 numerical checks PASS"
    ]
   }
  ],
