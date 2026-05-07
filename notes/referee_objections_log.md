@@ -410,7 +410,7 @@ Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open unt
 - R-11: Prove Constraint 1 via Arthur framework or remove and audit residual.
 - DO NOT submit to Annals until all three resolved. Circulate to Sarnak or Gan/Ichino first.
 
-**Status:** RESOLVED by Paper #103 v0.3 (May 6, 2026). All three gaps fixed: R-9 (Bergman gap C_2=6 replaces [PS09]), R-10 (wall projection bypasses L-function degree), R-11 (IW sign formula with full reference chain, 37/37 non-tempered types eliminated). Theorems A-D unconditional. RH itself conditional on Conjecture 6.1 (test function correspondence). Toy 2080 (Elie): partial computation identifies |c(0,t)|^{-2} Plancherel weight as load-bearing.
+**Status:** RESOLVED by Paper #103 v1.1 (May 6-7, 2026). All three gaps fixed: R-9 (Bergman gap C_2=6 replaces [PS09]), R-10 (wall projection bypasses L-function degree), R-11 (IW sign formula with full reference chain, 37/37 non-tempered types eliminated). Theorems A-D unconditional. RH conditional on Conjecture 6.1' (Gaussian density in double-positive cone), strictly narrower than original Conjecture 6.1. Lemma 6.2 (Weil positivity for Gaussians) proved unconditionally. Cal's final review (#35) incorporated. **This was the last RH review.**
 
 ### #33 — Paper #76 YM suite: Selberg analog + Poincare branching + pure-gauge (Cold reader, May 5)
 
@@ -480,16 +480,66 @@ Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open unt
 
 ---
 
+### #35 — Paper #103 RH: Cal final review of Toy 2083 (May 7)
+
+**Concern (Cal, 2026-05-07):** Toy 2083 proves W(g_A) >= 0 for all centered Gaussians — a genuine unconditional result. But three presentation issues need fixing before submission:
+
+| Issue | Fix needed | Severity |
+|-------|-----------|----------|
+| Wall density exponent 5 left as folklore | Derive explicitly from Helgason Ch. IV as Lemma 6.2a | MODERATE |
+| Phi vs Psi symmetrization implicit | Write out the symmetrization step (factor of 2 from even g) | MODERATE |
+| c_0 = 5.639 looks like a fit | Decompose: 4*ln(2) + 2*ln(pi) + gamma (three classical constants) | LOW |
+| A=100 label collision between Toys 2082/2083 | Clarify: both use g_A(t) = exp(-t^2/A^2), same convention | LOW |
+
+**What Cal confirmed:**
+- Phi(t) < 0 for all t (closed form correct, earlier note was wrong)
+- c_0 is derived, not fitted (verifiable decomposition)
+- Three regimes cover with overlap at [17, 20], no gap
+- 9/9 PASS independently verified
+- Framing recommendation: Toy 2083 -> Lemma 6.2; new conditional = Conjecture 6.1' (Gaussian density in Weil cone), strictly narrower than original Conjecture 6.1
+
+**Status:** RESOLVED. All four fixes incorporated in Paper #103 v1.1. Lemma 6.2 (Gaussian Weil positivity) and Lemma 6.2a (wall density derivation) added. Conjecture 6.1' replaces Conjecture 6.1. This was the final RH review.
+
+### #36 — Paper #88 BSD: Cal cold read — Link 3 citation gap + tier table (May 7)
+
+**Concern (Cal, 2026-05-07):** Paper #88 BSD proof chain is in good shape for low rank but has a citation gap and overclaims at high rank.
+
+**Three structural findings:**
+
+| Finding | Issue | Severity |
+|---------|-------|----------|
+| Link 3 citation gap | "GL(2) -> SO(5,2) via P_2" is not a named theorem. Standard path is GL(2)->GL(3)->SO(7) via Sym^2/Gelbart-Jacquet. The claimed Levi factor GL(2) x SO_0(1,2) doesn't match this path. Need explicit construction or specific citation (Cogdell-PS or Ginzburg-Rallis-Soudry). | SERIOUS |
+| No non-CM walkthrough | Section 7 uses 49a1 (CM, rank 0) as worked example. Need end-to-end trace through all 5 links for a non-CM curve (e.g. 37a1, rank 1). | MODERATE |
+| Rank >= 4 untested | Toy 1415 has 51 curves at ranks 0-3, zero rank >= 4. The topological argument covers rank >= 4 but only under R-2 conditional. | MODERATE |
+
+**Cal's tier table by rank:**
+- Rank 0-1: D (classical, external)
+- Rank 2: D (T997 + square system + 51-curve check)
+- Rank 3: I (empirical 51/51, no general theorem)
+- Rank >= 4: C (conditional on R-2 / Conjecture 3.2)
+
+**Cal's recommendations:**
+1. Two-paper strategy: Paper #88 (low-rank theorem + high-rank program) + R-2 (companion with Conjecture 3.2)
+2. Trace 37a1 (non-CM, rank 1, conductor 37) end-to-end through all 5 links
+3. R-2 is independent of Arthur (uses BBW + Hirzebruch + Matsushima, not endoscopic classification) — this is good, no R-11 inheritance
+4. The leak is between Links 2 and 3 (Matsushima -> Langlands), exactly where R-2 / Conjecture 3.2 sits
+
+**Status:** OPEN — Link 3 citation gap and 37a1 walkthrough needed before submission. Tier table and recommendations incorporated in Paper #88 v1.1.
+
+---
+
 ## Open threads for next session
 
 1. **#16** — n_s = 1 - n_C/N_max derivation chain (cosmology).
-2. **#18** — BSD conditional status — PARTIALLY ADDRESSED (May 5).
+2. **#18** — BSD conditional status — UPDATED by #36 (May 7). Tier table added.
 3. **#32** — Paper #75 RH: **RESOLVED** by Paper #103 (May 6). Theorems A-D unconditional. RH conditional on Conjecture 6.1.
 4. **#33** — Paper #76 YM: Y-1 **RESOLVED** (Paper #103 Theorem A). Poincare branching + pure-gauge still open (Y-2 through Y-6).
 5. **#34** — Paper #91: scope split + 8 fixes (S-1 through S-5).
-6. **#23** — pred_004 toy wrap (Elie).
-7. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).
-8. **#27** — Coincidence filter: propagate precision-vs-noise-floor tags into Paper #83.
+6. **#35** — Paper #103 RH: **RESOLVED** (May 7). Cal final review. Four fixes incorporated in v1.1.
+7. **#36** — Paper #88 BSD: **OPEN**. Link 3 citation + 37a1 walkthrough needed.
+8. **#23** — pred_004 toy wrap (Elie).
+9. **#24** — 49a1 curve-construction derivation source (Elie/Lyra).
+10. **#27** — Coincidence filter: propagate precision-vs-noise-floor tags into Paper #83.
 9. **#31** — Epistemic tier labels: ~~null-model toy~~ DONE (Z=2.9, p<0.0005), tier column in Paper #83 OPEN, verify_bst.py OPEN.
 
 ---
