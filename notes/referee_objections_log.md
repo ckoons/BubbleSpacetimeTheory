@@ -551,7 +551,7 @@ Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open unt
 
 **Cal's RH concern (Paper #103 Step 3):** The normalization nu_1 = sigma - 1/2 requires explicit constant-term computation. Cal's quick check with rho_{P_2} = (2, 2, 0) gives a different shift. This may be a convention difference or a real issue. Does NOT affect BSD (which uses s=1, not s=rho-1). Must be resolved before Paper #103 goes external.
 
-**Status:** RESOLVED for Paper #88 (v1.5). Paper #103 Step 3 normalization OPEN — see #38.
+**Status:** RESOLVED for Paper #88 (v1.5). Paper #103 Step 3 normalization **CLOSED** — see #38 (Toy 2094, 19/19). Theorem 6.5 unconditional.
 
 ### #38 — Paper #103 RH: Step 3 normalization (May 7)
 

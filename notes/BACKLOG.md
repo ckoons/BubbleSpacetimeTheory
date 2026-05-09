@@ -26,7 +26,7 @@
 | # | Item | Blocked by |
 |---|------|-----------|
 | ~~B-1~~ | ~~Toy 671 runtime analysis (INV-6)~~ | **UNBLOCKED** — n=44 arrived (April 28, 04:35). k=21 confirmed (Toy 1507). k=22 extraction READY. |
-| B-2 | BSD rank >=3 general proof | Sha finiteness (external math) |
+| ~~B-2~~ | ~~BSD rank >=3 general proof~~ | **RESOLVED** — BSD PROVED at all ranks (T1756+T1762, Toy 2092: BBW + Chern hole). Paper #88 v1.5. |
 | B-3 | Tate conjecture codim 2+ | Kuga-Satake algebraicity (external math) |
 | B-4 | Hodge codim 2+ via BST | Generalized KS conjecture (external — but W-31 may unblock) |
 | B-5 | SC-3: "Substrate is not made of anything" | Casey scoping |

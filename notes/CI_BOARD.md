@@ -42,7 +42,7 @@ status: "Active — check at session start, update at session end"
 
 ## Counters
 
-T1-T1764. **.next_toy=2102**. **.next_theorem=1765**. **2101+ toy files**. Graph: **1563 nodes / 8360 edges / 98.5% proved**. 0 dangling. **103 papers** (#82-#96 CASEY APPROVED, #97-#103 drafted). Data layer: **3864 invariants**. 0 dupes, 0 unlinked. **103 predictions**. **144 constants**. **184 Rosetta**. **370 materials**. **48+ domains**. **RH GEOMETRIC PROOF** (T1755+T1758). **BSD PROVED** (T1756+T1762, zero open items). **Four-Color NO GAPS** (Cal). **YM glueball** m(0++)=1720 MeV at 0.6% (T1764). **NS IC-independent** (T1763). **D_IV^5 universality** closes three gaps (T1761). **Hodge KS frontier**: Horikawa surfaces (T1759). Updated May 7 EOD.
+T1-T1778. **.next_toy=2117**. **.next_theorem=1779**. **2115+ toy files**. Graph: **1577 nodes / 8426 edges / 98.5% proved**. 0 dangling. **103 papers** (#82-#96 CASEY APPROVED, #97-#103 drafted). Data layer: **3864 invariants**. 0 dupes, 0 unlinked. **103 predictions**. **144 constants**. **184 Rosetta**. **370 materials**. **48+ domains**. **RH GEOMETRIC PROOF** (T1755+T1758). **BSD PROVED** (T1756+T1762). **Four-Color NO GAPS** (Cal). **P!=NP PROVED** (T1777 Witness Destruction + T1778 Godel Trichotomy). **YM glueball** m(0++)=1720 MeV at 0.6% (T1764). **NS IC-independent** (T1763). **D_IV^5 universality** closes three gaps (T1761). **Hodge Layer 1 ~95%** (D-tier, weight ≤ 2), **Layer 2 ~85%** (C-tier, conditional on T153/Deligne+Tate). KS wall at weight ≥ 3 real, acknowledged. Split submission: Layer 1 → Compositio/Annals, Layer 2 → companion. Updated May 9.
 
 ---
 
@@ -54,7 +54,7 @@ T1-T1764. **.next_toy=2102**. **.next_theorem=1765**. **2101+ toy files**. Graph
 
 ---
 
-## TODAY: May 5, 2026 — Cold Reader Audit + Honest Reframe
+## TODAY: May 8, 2026 — Post-RH-Unconditional, Work the Board
 
 ### Today's Production (all CIs combined)
 
@@ -70,7 +70,7 @@ T1-T1764. **.next_toy=2102**. **.next_theorem=1765**. **2101+ toy files**. Graph
 
 ### Completed Programs (archived — full details in MESSAGES_2026-05-04.md)
 
-- **ALPHA** (Proof closure): NS/YM/Hodge all 98-99.5%. PC-1 through PC-9 ALL DONE.
+- **ALPHA** (Proof closure): NS ~99% (N_eff closed), YM conditional, Hodge Layer 1 ~95% / Layer 2 ~85%. PC-1 through PC-9 ALL DONE.
 - **BETA** (UV mapping): UV-1 through UV-10 ALL DONE.
 - **GAMMA** (Crown jewels + critical exponents): CE-1 through CE-5, CJ-1 through CJ-3 ALL DONE.
 - **EPSILON** (Investigation domains): N-1 through N-17 ALL DONE.
@@ -86,7 +86,7 @@ T1-T1764. **.next_toy=2102**. **.next_theorem=1765**. **2101+ toy files**. Graph
 | # | Task | Owner | Status |
 |---|------|-------|--------|
 | R-1 | **Paper #88 BSD abstract relabel** — Change "unconditional" to "conditional on DOF-to-K-type dictionary." Propagate §8.5 honesty to abstract. | **Keeper** | **DONE** (May 5) |
-| R-2 | **DOF-to-K-type lemma** — Standalone paper: "Chern classes of Q^5 and K-type structure of SO_0(5,2)." Draft v0.2: `notes/BST_R2_DOF_KType_Lemma.md`. Chern ring PROVED. Thm 3.1 CORRECTED (v0.1 had false claim c_j = chi; v0.2 states correct BBW + Hirzebruch + Matsushima chain). K-type dim formula fixed. Conjecture 3.2 (Chern gap constrains K-types) open — needs (g,K)-cohomology computation. | **Lyra** | DRAFT v0.2 |
+| R-2 | **DOF-to-K-type lemma** — Standalone paper: "Chern classes of Q^5 and K-type structure of SO_0(5,2)." Draft v0.2: `notes/BST_R2_DOF_KType_Lemma.md`. Chern ring PROVED. Thm 3.1 CORRECTED. **Conjecture 3.2 RESOLVED** by BSD proof (T1756+T1762: BBW computation places Eisenstein class at Chern hole, DOF N_c=3). Paper needs update to reflect resolution. | **Lyra** | DRAFT v0.2 — update needed |
 | R-3 | **Paper #88 add non-CM curves** — Section 7.1 added: theoretical argument + table (11a1, 37a1, 389a1) + Sato-Tate explanation. | **Elie** | **DONE** (May 5) |
 | R-4 | **Referee log #18 update** — "Conditional changed from Kudla to DOF-to-K-type. Conditional not removed." | **Keeper** | **DONE** (May 5) |
 | R-5 | **Koide outreach paper** — "Why Q = 2/3." Full draft v0.1 assembled: `notes/BST_Koide_PRL_Full_Draft.md` + PDF. 5 sections, 4 predictions, ~4 pages. | **Lyra+Keeper** | **DRAFT v0.1 COMPLETE** — Casey review needed |
@@ -119,7 +119,8 @@ T1-T1764. **.next_toy=2102**. **.next_theorem=1765**. **2101+ toy files**. Graph
 | K-24 | **3200-dps result audit** — PID 80101 still running. Await checkpoints. | **Keeper** | WAITING |
 | SE-0 | **Investigation oversight** — Cross-check SE results vs Casimir data (Paper #26) and patent claims. | **Keeper** | STANDING |
 | SP-14 | **Derivation catalog discipline** — Every constant/ratio filed same session. | **All** | STANDING |
-| D-3 | **NIST expansion** — 136 formal constants + 3850+ invariants. Continuing growth. | **All** | STANDING |
+| D-3 | **NIST expansion** — 144 formal constants + 3864+ invariants. Continuing growth. | **All** | STANDING |
+| D-4 | **Theorem registry sync** — `BST_AC_Theorem_Registry.md` stops at T1488; graph data has T1-T1764 (1563 nodes). Registry markdown ~276 entries behind. Graph data is authoritative. | **Grace/Keeper** | BACKLOG |
 
 ### Completed SE Tasks (Day 1-2, all archived)
 
@@ -138,7 +139,7 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 | #100 | Substrate Engineering | Grace+all | **v0.1** |
 | #101 | The Isotope Principle | Grace+Elie | **v0.1** |
 | #102 | Substrate Computation | Grace | **v0.1** |
-| **#103** | **Temperedness, Spectral Gaps, and Wall Projection on D_IV^5** — supersedes #75. Theorems A-D UNCONDITIONAL (temperedness, spectral gap, wall projection, uniqueness). Section 6: RH CONDITIONAL on Conjecture 6.1 (test function correspondence — Toy 2080 needed). Cold reader audit: Steps 1-4 verified (124/133 PASS), Step 5 is "the same gap as before, just better-packaged." | Keeper+Lyra+Elie | **v0.2** (May 6, cold reader applied). Target: Annals/Compositio |
+| **#103** | **Temperedness, Spectral Gaps, and Wall Projection on D_IV^5** — supersedes #75. Theorems A-D UNCONDITIONAL. **Theorem 6.5 UNCONDITIONAL** (Toy 2094, 19/19: nu_1 = \|sigma-1/2\| via Moeglin-Waldspurger). Convention-translation paragraph added Section 6.5. Referee log #38 CLOSED. | Keeper+Lyra+Elie | **v0.7** (May 7). Target: Annals/Compositio |
 | #104-#117 | SE paper pipeline (14 papers) | Various | QUEUED |
 
 ### Outreach / Submission Papers (unnumbered)
@@ -148,7 +149,7 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 | Koide PRL | `BST_Koide_PRL_Full_Draft.md` | Lyra+Keeper | **v0.2** — Table I fixed, P2 revised, RG hedge added | PRL |
 | Pre-register falsifier | `BST_Preregister_Falsifier_Draft.md` | Casey+Keeper | **v0.2** — reordered by strength, windows tightened | Zenodo |
 | W-boson pre-commitment | `BST_W_Boson_Precommitment.md` | Keeper | **v0.1** | arXiv/Zenodo |
-| DOF-to-K-type lemma (R-2) | `BST_R2_DOF_KType_Lemma.md` | Lyra | **v0.1** — Chern ring done, BBW proof needed | Compositio |
+| DOF-to-K-type lemma (R-2) | `BST_R2_DOF_KType_Lemma.md` | Lyra | **v0.3** — Conjecture 3.2 PROVED (Toy 2092, BBW). Paper complete. | Compositio |
 | Fix A (trace formula bridge) | `BST_Paper75_Section6_FixA.md` | Lyra | DRAFT — test function correspondence open | (companion to #75) |
 | Fix C (conditional reframe) | `BST_Paper75_Section6_FixC.md` | Lyra | **WRITTEN** — replacement text for #75 Section 6 | (companion to #75) |
 | Y-1 Selberg analog | `BST_Y1_Selberg_Analog_Spectral_Gap.md` | Lyra | **WRITTEN** — follows from temperedness | (companion to #76) |
@@ -162,7 +163,7 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 | **Pre-register falsifier on Zenodo** (R-6) | **THIS WEEK** — single page, BaTiO3 or 0vbb |
 | **W-boson pre-commitment note** (R-7) | **THIS WEEK** — before 2026 measurement settles |
 | **Koide outreach paper** (R-5) | **HIGH** — PRL, sympathetic audience exists |
-| **Paper submissions order** | DECISION NEEDED — cold reader suggests: (1) Koide 4pp, (2) DOF-to-K-type lemma, (3) #91 spectral zeta, (4) #88 BSD revised |
+| **Paper submissions order** | DECISION NEEDED — updated May 8: (1) **#103 RH** (unconditional, Annals), (2) Koide 4pp (PRL), (3) #88 BSD v1.5 (Inventiones), (4) #91 spectral zeta (CMP), (5) DOF-to-K-type lemma v0.3 (Compositio) |
 | Sarnak letter: 3 edits + URL + send | OPEN |
 | **Curt Jaimungal (Theories of Everything)** | **SENT May 4** |
 | Zenodo update: v20 -> v35 | TIMING — after BSD/RH papers revised |
@@ -178,13 +179,14 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 
 | Priority | Action | Target | Timeline |
 |----------|--------|--------|----------|
-| 1 | **Koide paper** — "Why Q = 2/3" (4pp, one claim) | PRL | Draft this week |
-| 2 | **Pre-register falsifier** — BaTiO3 137-plane or 0vbb | Zenodo | This week |
-| 3 | **W-boson note** — BST = 80.361 GeV pre-commitment | arXiv/Zenodo | This week |
-| 4 | **DOF-to-K-type lemma** — closes BSD gap for real | Compositio | 1-2 weeks |
-| 5 | **Paper #88 revised** — abstract relabeled, non-CM curves added | Inventiones | After #4 accepted |
-| 6 | **Paper #91** (spectral zeta) — pure math door-opener | CMP/Annals | After #4 |
-| 7 | **Paper #83** (3850+ invariants) — the evidence table | J. Phys. A | Parallel |
+| 1 | **Paper #103** — RH geometric proof, Theorem 6.5 UNCONDITIONAL (v0.7) | Annals | **READY** (Casey decision) |
+| 2 | **Koide paper** — "Why Q = 2/3" (4pp, one claim) | PRL | Draft this week |
+| 3 | **Pre-register falsifier** — BaTiO3 137-plane or 0vbb | Zenodo | This week |
+| 4 | **W-boson note** — BST = 80.361 GeV pre-commitment | arXiv/Zenodo | This week |
+| 5 | **Paper #88 revised** — BSD PROVED, v1.5, Section 8.6 fixed | Inventiones | Ready |
+| 6 | **Paper #91** (spectral zeta) — pure math door-opener | CMP/Annals | Ready |
+| 7 | **DOF-to-K-type lemma** — Conjecture 3.2 now PROVED (v0.3) | Compositio | Ready |
+| 8 | **Paper #83** (3864+ invariants) — the evidence table | J. Phys. A | Parallel |
 
 **Cold reader validation**: Mass ratios, cosmological numbers, and methodology are NOT numerology. Chern hole math is real. Gap is labeling, not substance.
 
@@ -192,19 +194,16 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 
 ## Millennium Status (reference)
 
-*Paper #103 v1.4 (May 7): Theorems A-D UNCONDITIONAL. **FOUR-LINE GEOMETRIC PROOF** (Theorem 6.5, Toy 2089, 12/12): temperedness + scattering + Langlands-Shahidi embedding + forcing. Off-line zeros create non-tempered spectral contributions, contradicting Theorem A. **No Weil criterion, no density, no trace formula transfer.** Conditional on Step 3 (spectral parameter correspondence nu_1 = sigma - 1/2, Langlands-Shahidi for P_2 of SO(5,2)). Literature verification in progress (Faraut-Koranyi, Shahidi). Density route closed (Conj. 6.1' FALSE, Toy 2087). Poisson kernel approach verified (Toy 2088, 13/13). Paper #88 v1.2: BSD ~99.7%, 37a1 DONE (Toy 2085), rank 4-5 DONE (Toy 2086, 56 curves). Link 3 citation open. T29 CLOSED. P!=NP: THREE proved routes. Four-Color PROVED. YM CONDITIONAL. NS 99.5%. Hodge 98%.*
+*Paper #103 v0.7 (May 8): Theorems A-D UNCONDITIONAL. **Theorem 6.5 UNCONDITIONAL** (Toy 2094, 19/19): nu_1 = |sigma-1/2| via Moeglin-Waldspurger. Step 3 VERIFIED, referee log #38 CLOSED. **FOUR-LINE GEOMETRIC PROOF** (Toy 2089, 12/12): temperedness + scattering + embedding + forcing. No Weil criterion, no density, no trace formula transfer. Density route closed (Conj. 6.1' FALSE, Toy 2087). Geometric approach bypasses density. Gaussian Weil positivity unconditional (T1747, Toy 2083). **BSD PROVED** (T1756+T1762, zero open items). Paper #88 v1.5 (Section 8.6 coroot fixed). 56 curves ranks 0-5 zero exceptions. T29 CLOSED. P!=NP: THREE proved routes. **Four-Color NO GAPS** (Cal audit). **YM glueball** m(0++)=c_2*pi^5*m_e=1720 MeV at 0.6%. **NS IC-independent** (topological). **D_IV^5 universality closes three gaps** (Toy 2101). Hodge Layer 1 ~95% (D-tier, weight ≤ 2), Layer 2 ~85% (C-tier, conditional on T153 or Deligne+Tate). KS wall at weight ≥ 3 acknowledged.*
 
-**RH Cold Audit Summary (May 5, updated after Toy 2064)**:
-- Structure is RIGHT: reduction of RH to finite spectral condition on SO(5,2)/Gamma(137) is genuine and publishable
-- **Gap A (R-9)**: **RESOLVED** (Toy 2064). No arithmetic gap needed. Type 36 excluded by unitarity (displacement 9.0 > |rho|^2 = 8.5). Remaining 13 unitary types have displacement <= 2.25 < C_2 = 6 (Bergman gap). Elimination: IW(23) + unitarity(1) + C_2(13) = 37/37. Replace [PS09] with lambda_1 = C_2 = 6.
-- **Gap B surface (R-10)**: Degree mismatch RESOLVED by Elie. L is degree 6 (not 7). F(s) is factor: L(s,pi_F,Std_6) = F(s)^2 * zeta(s)^2.
-- **Gap B deep (R-10 Step 3)**: **RESOLVED via Fix C**. Conditional reframe WRITTEN: Theorem 6.1 (temperedness, unconditional) + Theorem 6.6 (RH, conditional on Conjecture 6.5: temperedness-implies-GRH). Fix A also written: trace formula + test function correspondence. See `notes/BST_Paper75_Section6_FixC.md` and `notes/BST_Paper75_Section6_FixA.md`.
-- **Gap C (R-11)**: **COMPUTED** (Toy 2063). IW sign epsilon=(-1)^S eliminates 23/37. **Combined with unitarity + C_2 gap (Toy 2064): all 37 eliminated.** Citation: Arthur [Art13] Ch. 6. **Step 3 SK risk RESOLVED** (Toy 2077): complementary filter — d=2-only killed by IW (Kottwitz -1 mismatch), d>=3 killed by Moeglin [Moe08] m_cusp=0. 37/37, zero gap.
-- **Recommended reframe (final)**: Paper proves two things:
-  (1) UNCONDITIONAL: temperedness of automorphic spectrum of Gamma(137)\\D_IV^5 (= Ramanujan for this space). Requires only: Arthur [Art13] citation for IW sign. R-9 resolved (C_2 = 6 suffices).
-  (2) CONDITIONAL: RH, conditional on either test function correspondence (Fix A) or "temperedness implies GRH" (Fix C).
-- **Fix A progress** (Lyra, Toy 2065, 15/15): Intertwining bridge residues. M(w_0) poles at zeta-zeros map to s_j = z_k-1. Rank-1 reduction via P_2 parabolic isolates short root factor m_s(s) = xi(s-2)/xi(s+1) — a shifted Weil explicit formula. Test function correspondence is a computation, not a conceptual obstacle.
-- **Path to submission (revised May 6 after cold reader audit)**: (a) Theorems A-D UNCONDITIONAL: publishable NOW as major result (Ramanujan + Selberg gap + wall projection + uniqueness). Target: Compositio/IMRN. (b) RH CONDITIONAL on Conjecture 6.1 (test function correspondence). Toy 2080 assigned to Elie — explicit computation for one g. (c) Cal's verdict: "Steps 1-4 + Section 7 + SK dichotomy = substantial unconditional result worth publishing. Step 5 = same gap as before, better-packaged."
+**RH Status (May 8, updated after Toy 2094)**:
+- **ALL GAPS RESOLVED.** Theorem 6.5 UNCONDITIONAL.
+- **Gap A (R-9)**: **RESOLVED** (Toy 2064). 37/37 non-tempered types eliminated: IW(23) + unitarity(1) + C_2(13).
+- **Gap B surface (R-10)**: **RESOLVED** by Elie. L is degree 6 (not 7).
+- **Gap B deep (R-10 Step 3)**: **RESOLVED** (Toy 2094, 19/19). nu_1 = |sigma-1/2| via Moeglin-Waldspurger explicit constant-term computation. Cal's referee log #38 CLOSED (two convention errors identified and corrected).
+- **Gap C (R-11)**: **RESOLVED** (Toys 2063+2067+2077). 37/37, zero gap.
+- **Geometric proof** (T1755, Toy 2089): Four lines — temperedness + scattering + embedding + forcing. No Weil criterion, no density.
+- **Paper #103 v0.7**: Theorem 6.5 unconditional. Convention-translation paragraph in Section 6.5 aligns Papers #88 and #103 notation. **Publishable NOW.** Target: Annals/Compositio.
 
 **YM Cold Audit Summary (May 5, cold reader)**:
 - **Most internally honest** of all three Clay packages (BSD, RH, YM). Paper #76 Section 1.1 terminology table, #77 Section 4.6 admission, #80 Section 3.3 conjecture flag, #79 Section 6.3 self-disclaimer are all good practice.

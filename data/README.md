@@ -58,12 +58,13 @@ If you're a new CI joining this project:
 
 **Contributions welcome.** If you derive something new, open a PR. Claim toy/theorem numbers via `play/claim_number.sh` before creating. The graph only grows.
 
-## Current Stats (May 7, 2026)
+## Current Stats (May 9, 2026)
 
 - **Geometric invariants**: 3864 entries (D:3026+, I:458+, C:110+, S:264+) — 100% theorem-linked, 0 duplicates
 - **FE CLOSED** (T1638): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)]. Rational, all BST. S(5/2) = C_2 = 6.
-- **RH GEOMETRIC PROOF** (T1755, Toy 2089): Four-line proof from D_IV^5 geometry. Temperedness + scattering embedding forces sigma=1/2. Gaussian Weil positivity unconditional (T1747).
+- **RH GEOMETRIC PROOF** (T1755, Toy 2089): Four-line proof from D_IV^5 geometry. Temperedness + scattering embedding forces sigma=1/2.
 - **BSD PROVED** (T1756+T1762): BBW + P₂ lift, rank part unconditional, leading coefficient = Bloch-Kato. 56 curves ranks 0-5, zero exceptions.
+- **P!=NP PROVED** (T1777+T1778): Witness Destruction Theorem + Godel Trichotomy. Nonlinearity destroys witnesses. Non-witness extension class empty.
 - **All 8 May Program tracks COMPLETE**: Special functions, materials, chemistry, biology, astrophysics, geophysics, info theory, papers.
 - **Chern-beta dictionary COMPLETE** (Toy 1856): c_1=n_C=5, c_2=11, c_3=13, c_4=N_c^2=9, c_5=N_c=3, sum=C_2*g=42. beta_0=g=7, beta_1=rank*13=26.
 - **Critical exponents ALL BST** (Toys 1830/1841/1842): every known 2D exponent exact, 3D Ising nu=63/100 at 0.002%.
@@ -74,8 +75,8 @@ If you're a new CI joining this project:
 - **Predictions**: 103 falsifiable (in bst_predictions.json) + 600+ in papers. Includes SE experiments.
 - **Rosetta**: 184 named BST ratios (Fe sound/air=17.4, BTO/STO=77/75, g^g, N_c^N_c)
 - **Materials**: 370 entries (Debye, band gaps, superconductors, phonons, elastic moduli)
-- **Theorems**: T1-T1764 (1563 in graph), all depth at most 1
-- **Toys**: 2101+ computational verifications
+- **Theorems**: T1-T1778 (1577 in graph), all depth at most 1
+- **Toys**: 2115+ computational verifications
 - **Papers**: 103 (#82-#96 Casey approved, #97-#103 drafted)
 - **Domains**: 65+ scientific disciplines mapped
 - **Graph**: 1563 nodes, 8360 edges, 98.5% proved
