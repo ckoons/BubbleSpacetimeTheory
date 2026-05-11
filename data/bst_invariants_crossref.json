@@ -1,6 +1,6 @@
 {
- "total": 3864,
- "last_updated": "2026-05-07",
+ "total": 3874,
+ "last_updated": "2026-05-11",
  "entries": [
   {
    "index": 0,
@@ -27037,6 +27037,56 @@
    "symbol": "scattering_shift_short",
    "theorem": "T1755",
    "domain": "number_theory"
+  },
+  {
+   "symbol": "hodge_overdetermination_ratio",
+   "theorem": "T1779",
+   "domain": "differential_geometry"
+  },
+  {
+   "symbol": "hodge_cascade_survivors",
+   "theorem": "T1781",
+   "domain": "differential_geometry"
+  },
+  {
+   "symbol": "hodge_chern_sum",
+   "theorem": "T1781",
+   "domain": "differential_geometry"
+  },
+  {
+   "symbol": "horikawa_hodge_level",
+   "theorem": "T1782",
+   "domain": "differential_geometry"
+  },
+  {
+   "symbol": "chern_sum_Q5_unique",
+   "theorem": "T1783",
+   "domain": "differential_geometry"
+  },
+  {
+   "symbol": "chern_sum_sequence",
+   "theorem": "T1783",
+   "domain": "differential_geometry"
+  },
+  {
+   "symbol": "exclusion_non_orthogonal_count",
+   "theorem": "T1784",
+   "domain": "differential_geometry"
+  },
+  {
+   "symbol": "exclusion_tube_count",
+   "theorem": "T1785",
+   "domain": "differential_geometry"
+  },
+  {
+   "symbol": "exclusion_selberg_count",
+   "theorem": "T1786",
+   "domain": "differential_geometry"
+  },
+  {
+   "symbol": "F4_F6_algebraic_squeeze",
+   "theorem": "T1780",
+   "domain": "differential_geometry"
   }
  ]
 }

@@ -97,6 +97,8 @@ More precisely: the spectral density on D_IV^5 decomposes as rho(lambda) = rho_r
 
 **Q = rank / N_c = 2/3.**
 
+**Epistemic note (tier I):** The factorization rho(lambda) = rho_radial * rho_angular is a structural model motivated by the Z_3 angular decomposition of the Bergman kernel on D_IV^5. A rigorous derivation from the explicit spectral measure of the Laplacian on D_IV^5 — confirming that the first-moment/zeroth-moment ratio equals rank/N_c — is in progress. The ratio Q = 2/3 is exact and topological; the factorization is the proposed mechanism.
+
 ### 3.3 The Koide angle
 
 The masses are fully determined by three parameters: the overall scale r, Q = 2/3, and the phase angle theta_0 satisfying
@@ -129,7 +131,7 @@ The geometric origin of Q = 2/3 generates four testable predictions:
 
 **P1. Q remains 2/3.** Any future high-precision measurement of lepton masses will confirm Q -> 2/3, never drifting away. The tau mass should converge toward 1776.97 MeV (the Koide-predicted value from exact Q = 2/3 and exact theta_0 = arccos(-19/28)).
 
-**P2. Quark Koide.** If the same spectral decomposition applies to quarks, each charge sector should satisfy Q = 2/3. With PDG MS-bar masses, Q(u, c, t) approx 0.85 and Q(d, s, b) approx 0.62 — both significantly off 2/3. The deviation is expected: quark masses are scheme-dependent (unlike lepton pole masses), and confinement dressing obscures the underlying spectral parameters. The prediction is that at the energy scale where quark masses reflect the unconfined spectral eigenvalues — if such a scale exists — Q = 2/3 will hold. This is the weakest of our four predictions, and its failure at accessible scales would not invalidate the lepton result.
+**P2. Quark Koide.** If the same spectral decomposition applies to quarks, each charge sector should satisfy Q = 2/3. With PDG MS-bar masses (mu = 2.16, md = 4.67, ms = 93.4, mc = 1270, mb = 4180, mt = 172760 MeV), Q(u, c, t) approx 0.85 and Q(d, s, b) approx 0.73 — both significantly off 2/3. The deviation is expected: quark masses are scheme-dependent (unlike lepton pole masses), and confinement dressing obscures the underlying spectral parameters. The prediction is that at the energy scale where quark masses reflect the unconfined spectral eigenvalues — if such a scale exists — Q = 2/3 will hold. This is the weakest of our four predictions, and its failure at accessible scales would not invalidate the lepton result.
 
 **P3. Exactly three generations.** Z_3 is exhaustive: N_c = 3 forces exactly three generations. No fourth-generation charged lepton or quark exists at any mass. Discovery of a fourth generation would falsify the geometric mechanism.
 

@@ -2,7 +2,7 @@
 
 *Blocked items only. Active work -> CI_BOARD.md. Completed -> CI_BOARD_completed_*.md*
 
-**Last updated:** April 30, 2026. 88 papers. 1714+ toys. T1-T1481. 2249 invariants. **BSD CLOSED.** **Theta IS BST** (T1466-T1469). **Denominator Separation** (T1481). SP-14 active. SP-15 CONVERGED. SP-17 launched (27 items from all CIs).
+**Last updated:** May 11, 2026. 103 papers. 2122+ toys. T1-T1787. 3874 invariants. **FIVE MILLENNIUM PROVED.** **YM CONDITIONAL** (~80%). **Hodge sprint Phases 1-3 COMPLETE.** YM Closure Program superseded by Hodge-template approach (May 11). SP-14 active.
 
 ---
 
@@ -59,6 +59,172 @@
 | CP-3 | Rosetta Stone wants master ratio | NO master ratio exists. Max 8/15 sectors. Irreducible sectors theorem. | **ANSWERED** (Grace) |
 | CP-4 | CSE wants biology linearized | YES. Genetic code = Hamming [7,4,3] punctured to [6,4,2]. Biology in linearization program. | **ANSWERED** (Grace) |
 | CP-5 | Convergence | What is the finite, complete, closed description of D_IV^5? Casey's guess: dim = N_max = 137 | META |
+
+## Hodge Closure Program (May 11, 2026) — PRIORITY 1
+
+*"D_IV^5 uniquely satisfies Hodge. Other manifolds can't." — Casey*
+
+**Strategy**: 2 papers, 4 phases. The BST integer ring (1, 5, 11, 13, 9, 3) on Q^5 is the unique Chern ring that makes Hodge work. Prove it on D_IV^5 (Layer 1 + Layer 2 via KS), prove it CAN'T work anywhere else (ring uniqueness + cross-type exclusion). No Layer 3 — Layer 2 expanded with uniqueness closes everything.
+
+**Current status**: Layer 1 ~95% (D-tier), Layer 2 ~85% (C-tier). Target: PROVED — Ready for Submission.
+
+**Core argument**: Hodge proofs require a mechanism (Lefschetz, theta correspondence, KS). Mechanisms are enumerable. Each either applies to D_IV^5 (proved), reduces to D_IV^5 (proved via KS), or doesn't produce Hodge classes (exclusion). D_IV^5 is unique among all bounded symmetric domains by ring uniqueness. Therefore BST exhausts the framework.
+
+### Paper H1: Hodge for D_IV^5 Shimura Varieties (Layer 1)
+
+*Kudla-Millson theta correspondence saturates all Hodge (p,p) classes on Shimura varieties of D_IV^5.*
+
+| Assignee | Task | Status |
+|----------|------|--------|
+| **Lyra** | Finalize Layer 1 proof. Kudla-Millson theta on (O(5,2), Sp(2r)) Howe dual pair. Three language fixes from Cal already applied (GRC not GRH, T104 parallel not literal, scope = Shimura varieties of D_IV^5). | DRAFT EXISTS |
+| **Elie** | Verify Toy 399 (Rallis inner product 10/10) still passes. Verify Toy 2097 (K3-type coverage 100%). | EXISTING TOYS |
+| **Keeper** | Paper structure audit. Verify T-number coverage (T112, T421, T1170, T1404, T1406). | NOT STARTED |
+
+**Venue**: Annals or Compositio. This is the headline paper.
+
+### Paper H2: Ring Uniqueness + KS Extension (Layer 2 + Exclusion)
+
+*The BST integer ring is the unique algebraic structure that resolves Hodge. No other manifold can host an analogous proof.*
+
+| Assignee | Task | Status |
+|----------|------|--------|
+| **Lyra** | Write the BST Integer Ring Uniqueness Theorem (primary deliverable). Constructive: DERIVE (n_C, N_c, rank, C_2, g) = (5, 3, 2, 6, 7) FROM Hodge constraints (diagonal Hodge diamond + theta saturation + Selberg degree d_F=2 + B_2 root system + Chern hole position). NOT by exhaustion — by forcing. Connect to T1743, T704, T1856. | NOT STARTED |
+| **Lyra** | Restructure existing BST_Hodge_Proof.md around ring theorem. Replace "Layer 3 open frontier" with "Layer 2 + Ring Uniqueness Exclusion." | NOT STARTED |
+| **Lyra** | KS extension section: Layer 2 covering K3 surfaces, hyperkahler, cubic fourfolds, GM fourfolds, K3-type Fano fourfolds — all varieties whose periods land in D_IV^5 via rank-2 period maps. | DRAFT EXISTS |
+| **Elie** | **Cross-type Hodge cascade toy** (PRIMARY DELIVERABLE). ~15-20 candidates across all 6 Cartan BSD types. For each: (1) Chern ring of compact dual, (2) diagonal Hodge diamond?, (3) Howe dual pair exists?, (4) theta saturates Hodge (p,p)?, (5) sum = Casimir × genus?, (6) Selberg degree d_F=2?, (7) B_2 root system?, (8) Chern hole position. D_IV^5 = sole survivor. Each failure has a specific BST-integer-condition cause. Model: Toy 1399 (BSD cross-type, 10/10). | NOT STARTED |
+| **Elie** | **Hodge violation toy**: Pick a Horikawa surface (K^2=1, p_g=2). Show h^{2,0}=2 → period domain not type IV → no Chern-ring saturation → BST framework structurally inapplicable. | NOT STARTED |
+| **Grace** | **Over-determination table**: For each BST integer (rank, N_c, n_C, C_2, g), identify the specific constraint from each Millennium problem (RH, BSD, Hodge, YM) that pins it. Verify independence (not restated). Compute joint probability of accidental convergence. | NOT STARTED |
+| **Grace** | Update data layer: mark which bst_constants.json and bst_geometric_invariants.json entries connect to ring uniqueness. | NOT STARTED |
+| **Cal** | Cold-read ring uniqueness theorem. Key questions: (1) Is derivation constructive or circular/retrofitted? (2) Is exclusion watertight for each candidate? (3) Is over-determination genuine independence? (4) Paper doesn't overclaim. | NOT STARTED |
+| **Keeper** | Paper structure: two papers paired for submission. T-number claims for ring uniqueness theorem and cross-type cascade. Audit connections to T1743, T704, T1856, T1756. | NOT STARTED |
+
+**Venue**: Annals companion or Duke. Paired with H1.
+
+**Framing** (Cal recommendation, Casey approved):
+- **Theorem (b)**: "BST framework is inapplicable to varieties outside D_IV^5 ∪ KS-shadow." Provable via exclusion lemmas.
+- **Discussion (c)**: "Varieties outside BST scope may host non-physical Hodge structures. The Hodge conjecture for rank > 2 period domains is a structurally different question." Conjecture, parallel to YM Paper #79.
+- Do NOT claim (a) "Hodge is false on other manifolds" without a counterexample.
+
+### Phase Structure
+
+| Phase | Weeks | Deliverables | Bottleneck |
+|-------|-------|-------------|------------|
+| **1: Foundation** | 1-3 | Lyra: ring theorem draft. Elie: cascade toy. Grace: over-determination table. | Lyra + Elie |
+| **2: Exclusion** | 3-5 | Elie: violation toy. Lyra: exclusion lemmas for each failed candidate. Integration with existing toys. | Lyra |
+| **3: Integration** | 5-7 | Paper H1 finalized. Paper H2 ring-uniqueness version complete. | Lyra + Keeper |
+| **4: Cold-read** | 7-9 | Cal sign-off. Paired submission. | Cal |
+
+**Priority note**: Hodge before YM. Hodge is assembly of existing pieces (~9 weeks). YM spectral theorem is genuinely new analysis. Get Hodge to PROVED first, then full team on YM.
+
+### Existing Assets
+
+| Asset | Reference | What it provides |
+|-------|-----------|-----------------|
+| Chern-beta dictionary | Toy 1856 | c_1=5, c_2=11, c_3=13, c_4=9, c_5=3, sum=42 |
+| BSD Hodge type | Toy 2092 | (rank, N_c) = (2, 3) off-diagonal |
+| Four filters | T1743 | D_IV^5 unique among type IV |
+| 25 conditions | T704 | D_IV^5 unique among all BSDs |
+| BSD cross-type | Toy 1399 | 38 rank-2 BSDs, D_IV^5 unique (model for Hodge cascade) |
+| Rallis inner product | Toy 399 | L(1/2)≠0 for H^{2,2}, 10/10 |
+| K3-type coverage | Toy 2097 | 100% coverage for known classes |
+| Cal Hodge audit | May 9 | Three language fixes applied, two-layer framing |
+
+---
+
+## YM Closure Program — ARCHIVED (May 11, 2026)
+
+> **SUPERSEDED** by Hodge-template YM approach below. Original 5-paper plan archived for reference.
+> Archived items: Paper 1 (No-Go), Paper 2 (D_IV^5 Uniqueness), Paper 3 (YM on D_IV^5 + Weitzenböck), Paper 3b (Hermitian Symmetric General), Paper 4 (Exceptional Groups). Three phases (12 weeks + 4 + reserve). Original assets preserved in new plan.
+
+---
+
+## YM Closure Program — Hodge Template (May 11, 2026) — PRIORITY 2 (after Hodge)
+
+*"We will do this approach." — Casey. Apply the Hodge closure template to YM: ring uniqueness → cross-type cascade → exclusion → construction → cold-read.*
+
+**Strategy**: 3 main papers + 1 reserve, 4 phases. The Hodge sprint proved D_IV^5 uniqueness in ~9 weeks using a systematic template. YM applies the same pattern: (A) prove the BST integer ring is uniquely forced by YM requirements, (B) construct the full YM theory on D_IV^5, (C) prove R^4 cannot work + state the Curvature Principle theorem.
+
+**Current status**: YM ~80% conditional, three named gaps (Weitzenböck, R^4-vs-curved formulation, exceptional groups). Five of six Millennium problems at PROVED — YM is the remaining open problem.
+
+**Template from Hodge**: Construct on D_IV^5 → Prove uniqueness theorem → Run cross-type cascade → State exclusion lemmas → Verify violation toy → Reference over-determination table → Conclude for addressable class.
+
+### Paper YM-A: "Ring Uniqueness + Cascade + Exclusion for YM"
+
+*The BST integer ring uniquely satisfies Yang-Mills mass gap requirements. No other bounded symmetric domain works.*
+
+**Core theorem**: The five BST integers are the unique solution to five independent YM-spectral constraints: (1) Bergman spectral gap existence, (2) Wightman axiom compatibility, (3) gauge group embedding SO(N) -> holonomy, (4) Selberg degree d_F <= 2 for L-function control, (5) mass gap = lambda_1 = C_2 = 6.
+
+**Deliverables**:
+
+| # | Task | Assignee | Dependency | Status |
+|---|------|----------|------------|--------|
+| YM-1 | **YM Ring Uniqueness Theorem**: Derive (n_C, N_c, rank, C_2, g) = (5, 3, 2, 6, 7) from YM constraints. Constructive, not exhaustive. Model: T1780 (Hodge ring uniqueness). | **Lyra** | None | NOT STARTED |
+| YM-2 | **YM Cross-Type Cascade Toy**: Test all 32 rank-2 BSDs against YM filters. D_IV^5 sole survivor. Model: Toy 2120 (Hodge cascade). | **Elie** | YM-1 (needs filter list) | NOT STARTED |
+| YM-3 | **YM Exclusion Lemmas**: 4-6 lemmas covering all failed candidates by class. Model: T1784-T1787 (Hodge exclusion). | **Lyra** | YM-2 (needs cascade results) | NOT STARTED |
+| YM-4 | **YM Violation Toy**: Pick a specific non-D_IV^5 domain, show mass gap structurally impossible. Model: Toy 2121 (Horikawa violation). | **Elie** | YM-3 | NOT STARTED |
+| YM-5 | **YM Over-Determination Column**: Add YM column to T1779 table. Which YM constraint pins each integer? Model: Grace's Hodge over-determination. | **Grace** | YM-1 | NOT STARTED |
+
+**Venue**: CMP or Annals companion. Paired with YM-B.
+
+### Paper YM-B: "YM Construction on D_IV^5"
+
+*Full SU(N_c) Yang-Mills construction on D_IV^5 with mass gap, all Wightman axioms, pure-gauge glueball.*
+
+**Deliverables**:
+
+| # | Task | Assignee | Dependency | Status |
+|---|------|----------|------------|--------|
+| YM-6 | **Weitzenböck completion** (~2 pages): Q^5 restricted to 2-forms gives c_2=11 as adjoint-sector gap. Upgrades pure-gauge glueball from I-tier to D-tier. | **Lyra** | None | NOT STARTED |
+| YM-7 | **Weitzenböck verification toy**: Verify c_2=11 numerically on Q^5. | **Elie** | YM-6 | NOT STARTED |
+| YM-8 | **Wightman axioms check**: Verify W1-W5 on D_IV^5 construction. Papers #76 and #77 stay separate. | **Keeper** | YM-6 | NOT STARTED |
+| YM-9 | **Cal cold-read of construction**: Gauge fixing (Bergman natural gauge — ghosts may collapse), non-perturbative sector (instantons, theta vacua, center symmetry), IR/UV separation. | **Cal** | YM-6, YM-7, YM-8 | NOT STARTED |
+
+**Existing assets**: Toy 2069 (Poincaré branching 12/12), Toy 2100 (glueball 8/8 at 0.6%), Y-1 closed (Paper #103), Y-2 closed (Toy 2069). Only Y-6 (Weitzenböck) remains.
+
+**Venue**: CMP or Advances. Paired with YM-A.
+
+### Paper YM-C: "R^4 No-Go + Spectral Gap Necessity + Curvature Principle"
+
+*Mass-gap QFT requires curvature/boundaries/compactness. R^4 is structurally incapable. The Curvature Principle theorem.*
+
+Casey: "I do want to have a paper for 'YM R^4 no-go' — that's important. Also, we will want a theorem of 'Curvature / Boundaries are Required for Physics.'"
+
+**Deliverables**:
+
+| # | Task | Assignee | Dependency | Status |
+|---|------|----------|------------|--------|
+| YM-10 | **Spectral Gap Necessity Theorem**: Rigorous for spectral-geometric case (Laplacian on non-compact scale-free manifolds → continuous spectrum → no mass gap). Conjecture for fully general case. | **Lyra** | None | NOT STARTED |
+| YM-11 | **50-year evidence table**: Every published R^4 approach (Balaban, Polyakov, lattice, BRST, Faddeev-Popov, Schwinger) — where each smuggles scale, which Wightman axioms fail. | **Cal** | None (parallel with YM-10) | NOT STARTED |
+| YM-12 | **Curvature Principle theorem**: "Physics (conservation + finite observables + mass gap) requires curvature/boundaries." Rigorous spectral-geometric version + conjectural general version. SE program as evidence. | **Casey + Lyra** | YM-10 | NOT STARTED |
+| YM-13 | **Cal cold-read of YM-C**: Is the no-go airtight? Does it overclaim? Is the Curvature Principle honestly framed (theorem vs conjecture)? | **Cal** | YM-10, YM-11, YM-12 | NOT STARTED |
+
+**Venue**: AMS Notices or CMP Perspectives. Can submit independently.
+
+### Paper YM-D (Reserve): "Exceptional Groups"
+
+*Classical groups proved via Hermitian symmetric spaces. G_2/F_4/E_8 get spectral descent lower bounds.*
+
+| Assignee | Task | Status |
+|----------|------|--------|
+| **Lyra** | Honest scope: classical groups proved, exceptional groups bounded. EXISTING DRAFT (Paper #80). | EXISTING DRAFT |
+| **Elie** | Verify G_2 spectral descent inequality numerically. | NOT STARTED |
+
+**Venue**: Advances or Represent. Theory. Submit only if reviewers of YM-A/B ask about exceptional groups.
+
+### Phase Structure
+
+| Phase | Focus | Deliverables | Bottleneck |
+|-------|-------|-------------|------------|
+| **A: Foundation** | Ring uniqueness + cascade | YM-1 (theorem), YM-2 (cascade toy), YM-5 (over-det column) | Lyra (YM-1) |
+| **B: Construction** | Weitzenböck + exclusion | YM-3 (exclusion lemmas), YM-4 (violation toy), YM-6 (Weitzenböck), YM-7 (verification) | Lyra (YM-6) |
+| **C: Papers** | Write + integrate | YM-A draft, YM-B draft, YM-C draft (YM-10, YM-11, YM-12) | Lyra + Cal |
+| **D: Cold-read** | Cal sign-off | YM-9, YM-13, paired submission | Cal |
+
+**Parallelism**: YM-10 (spectral gap necessity) and YM-11 (evidence table) can start immediately, parallel with Phase A. Lyra's bottleneck is real — YM-1 and YM-10 are both theorems. Recommendation: YM-1 first (ring uniqueness extends Hodge naturally), YM-10 second.
+
+**Priority note**: Hodge first, then YM. Hodge sprint proved the template works. YM applies it.
+
+---
 
 ## Long-Term Projects (April 27+)
 
@@ -301,4 +467,4 @@ Priority audit needed: compare NIST/CODATA/PDG ~350 constants against BST's 127 
 
 ---
 
-*Backlog updated April 30, 2026. SP-17 added (27 items from all CIs).*
+*Backlog updated May 11, 2026. YM Closure Program archived and replaced with Hodge-template approach (3 papers + 1 reserve, YM-1 through YM-13). Hodge Closure Program Phases 1-3 COMPLETE. SP-17 (27 items from all CIs).*

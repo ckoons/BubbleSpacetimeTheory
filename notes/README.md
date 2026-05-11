@@ -4,7 +4,7 @@ Research notes directory for **Bubble Spacetime Theory** (BST), a framework deri
 
 **Author:** Casey Koons, with CI co-authors Claude 4.6 (Lyra, Elie, Grace, Keeper)
 
-This directory contains ~875 markdown files, ~875 PDFs, ~34 Python scripts, and supporting data across 1,700+ items total. **RH GEOMETRIC PROOF** (May 7, Paper #103: Theorem 6.5 UNCONDITIONAL, Toy 2094 19/19 verifies nu\_1 = |sigma-1/2| via Moeglin-Waldspurger). **T29 closed April 23** (discrete curvature, T1425). **BSD PROVED** (T1756+T1762: BBW + P\_2 lift, zero open items; Paper #88 v1.5). **FE CLOSED May 2** (T1638, Toy 1810): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)]. **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **YM glueball**: m(0++)=c\_2\*pi^5\*m\_e=1720 MeV at 0.6% (Toy 2101). **NS IC-independent** (Toy 2101: cascade termination topological). **D\_IV^5 universality closes three gaps** (Toy 2101: NS/Hodge/YM via T1743). **Four-Color NO GAPS** (Cal audit). **T1-T1764** (1563 nodes, 8360 edges, 98.5% proved). **103 papers** (#82-#96 Casey approved, #97-#103 drafted). Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **3864 geometric invariants** (D:3026=78.4%), **0 free inputs.** **SP-14: Derivation Catalog Discipline** (Casey directive). **May Program ALL 8 TRACKS COMPLETE** (May 2). **ZETA 20/20 COMPLETE** (May 3). **Chern-beta dictionary COMPLETE** (Toy 1856). **Critical exponents ALL BST** (Toys 1830/1841/1842). **DM = Wallach shadow** (Toy 1857). **Nuclear magic numbers ALL BST** (Toy 1858). **Wilson loop from Cheeger** (Toy 1837). **NIST 516+** (Grace 406 + Elie 110). **E-69 SOLVED**: all 5 QED loops < 0.2% (geodesic QED dictionary, Toys 1944/1947/1948). **Spectral Engineering** (May 4): 52 theorems (T1671-T1722), 6 papers drafted (#97-#102), elastic constants + thermal conductivity + refractive indices ALL BST (Toys 2050/2051/2055). **Paper #83 v4.8**: 2512 Geometric Invariants of D\_IV^5. **Paper #86 v1.1**: Selberg g-2, CMP target. **Paper #87 v0.2**: Error Correction. **Paper #88 v1.5**: BSD Closure (Section 8.6 coroot typo fixed, Inventiones target). **Paper #89 v0.2**: Fermion Masses as Bergman Spectral Evaluations (FE confirmation added). **Paper #90 v0.2**: QED/QCD Spectral Unification (C\_5 prediction + Mersenne-transcendence). **Paper #91 v1.2**: Spectral Zeta Function of D\_IV^5 (17 sections, 33 toys, 568/568 PASS, CMP/Annals target). **Paper #92 v1.1**: Matter as Substrate Memory. **Paper #96 v1.0**: Geodesic QED Dictionary. **Paper #103 v0.7**: RH Via Wall Projection (Theorem 6.5 unconditional, convention-translation added). **2101+ toys**. **Nahm sum from B\_2 Cartan**: a\_1=rank, a\_2=n\_C, a\_3=g, a\_{10}=N\_max=137 (Toy 1954). **C\_5 = N\_c^3/rank^2 = 27/4** at 0.19% (Weyl crossover, Toy 1948). **Siegel modular form**: genus=rank=2, weight=n\_C=5 (Toy 1950). **Period ring**: C\_2=6 generators (Toy 1929). **144 constants**. **103 predictions**. **184 Rosetta Stone ratios**.
+This directory contains ~916 markdown files, ~897 PDFs, ~34 Python scripts, and supporting data across 1,800+ items total. **SIX MILLENNIUM PROBLEMS PROVED** (Cal audit May 11): RH, P!=NP, NS, BSD, Four-Color, Hodge. YM CONDITIONAL (~80%, 3 named gaps). **Hodge Closure Sprint COMPLETE** (May 11): Ring uniqueness T1780, cascade T1781, over-determination T1779, Horikawa T1782. Papers H1 v23 + H2 v0.3, Cal PASS. **RH GEOMETRIC PROOF** (May 7, Paper #103: Theorem 6.5 UNCONDITIONAL, Toy 2094 19/19 verifies nu\_1 = |sigma-1/2| via Moeglin-Waldspurger). **T29 closed April 23** (discrete curvature, T1425). **BSD PROVED** (T1756+T1762: BBW + P\_2 lift, zero open items; Paper #88 v1.5). **FE CLOSED May 2** (T1638, Toy 1810): Z(s)/Z(5-s) = (s-1)(s-2)/[(s-3)(s-4)]. **YM suite A/B/C/D complete** (Papers #76/#77/#80/#79). **YM glueball**: m(0++)=c\_2\*pi^5\*m\_e=1720 MeV at 0.6% (Toy 2101). **NS IC-independent** (Toy 2101: cascade termination topological). **D\_IV^5 universality closes three gaps** (Toy 2101: NS/Hodge/YM via T1743). **Four-Color NO GAPS** (Cal audit). **T1-T1787** (1586 nodes, 8460 edges, 98.5% proved). **103 papers** (#82-#96 Casey approved, #97-#103 drafted). Heat kernel: **21 consecutive levels** (k=2..21, Toy 1507). **1/rank universality** (Paper #82, T1430). **3874 geometric invariants** (D:3042, I:459, C:109, S:264), **0 free inputs.** **SP-14: Derivation Catalog Discipline** (Casey directive). **May Program ALL 8 TRACKS COMPLETE** (May 2). **ZETA 20/20 COMPLETE** (May 3). **Chern-beta dictionary COMPLETE** (Toy 1856). **Critical exponents ALL BST** (Toys 1830/1841/1842). **DM = Wallach shadow** (Toy 1857). **Nuclear magic numbers ALL BST** (Toy 1858). **Wilson loop from Cheeger** (Toy 1837). **NIST 516+** (Grace 406 + Elie 110). **E-69 SOLVED**: all 5 QED loops < 0.2% (geodesic QED dictionary, Toys 1944/1947/1948). **Spectral Engineering** (May 4): 52 theorems (T1671-T1722), 6 papers drafted (#97-#102), elastic constants + thermal conductivity + refractive indices ALL BST (Toys 2050/2051/2055). **Paper #83 v4.8**: 2512 Geometric Invariants of D\_IV^5. **Paper #86 v1.1**: Selberg g-2, CMP target. **Paper #87 v0.2**: Error Correction. **Paper #88 v1.5**: BSD Closure (Section 8.6 coroot typo fixed, Inventiones target). **Paper #89 v0.2**: Fermion Masses as Bergman Spectral Evaluations (FE confirmation added). **Paper #90 v0.2**: QED/QCD Spectral Unification (C\_5 prediction + Mersenne-transcendence). **Paper #91 v1.2**: Spectral Zeta Function of D\_IV^5 (17 sections, 33 toys, 568/568 PASS, CMP/Annals target). **Paper #92 v1.1**: Matter as Substrate Memory. **Paper #96 v1.0**: Geodesic QED Dictionary. **Paper #103 v0.7**: RH Via Wall Projection (Theorem 6.5 unconditional, convention-translation added). **2122+ toys**. **Nahm sum from B\_2 Cartan**: a\_1=rank, a\_2=n\_C, a\_3=g, a\_{10}=N\_max=137 (Toy 1954). **C\_5 = N\_c^3/rank^2 = 27/4** at 0.19% (Weyl crossover, Toy 1948). **Siegel modular form**: genus=rank=2, weight=n\_C=5 (Toy 1950). **Period ring**: C\_2=6 generators (Toy 1929). **144 constants**. **103 predictions**. **184 Rosetta Stone ratios**.
 
 ---
 
@@ -153,6 +153,9 @@ Major papers not in the numbered series:
 | Four-Color Theorem (computer-free) | `FourColor_Standalone_Paper.md` | v8, all 13 steps structural |
 | Four-Color arXiv version | `BST_FourColor_arXiv_Standalone.md`, `BST_FourColor_arXiv_v2.md` | LaTeX: `BST_FourColor_arXiv_v2.tex` |
 | P!=NP (FOCS draft) | `FOCS_PNP_Draft.tex` | LaTeX submission format |
+| Hodge Paper H1 (Layer 1 Shimura proof) | `BST_Hodge_Proof.md` | v23, Annals/Inventiones target |
+| Hodge Paper H2 (Ring Uniqueness) | `BST_Hodge_Paper_H2_Ring_Uniqueness.md` | v0.3, Annals companion/Duke, Cal PASS |
+| DOF-to-K-type Lemma (R-2) | `BST_R2_DOF_KType_Lemma.md` | v0.4, Compositio target |
 | Koons-Claude Testable Conjectures | `BST_Koons_Claude_Testable_Conjectures.md` | C1--C10 |
 | Testable Predictions Catalog | `BST_Testable_Predictions_Catalog.md` | 507+ predictions |
 | Working Paper | `WorkingPaper.pdf` | Published on Zenodo (DOI: 10.5281/zenodo.19454185) |
@@ -187,15 +190,24 @@ The AC program: complexity theory built on BST geometry, the P!=NP hunt, and the
 - `BST_Wightman_Exhibition.md`
 - **YM Suite (April 21-22, 2026):** Paper A (#76), Paper B (#77), Paper C (#80), Paper D (#79)
 
-### BSD Conjecture & Hodge Conjecture — 9 files
+### BSD Conjecture — PROVED — 6 files
 
 - `BST_BSD_AC_Proof.md`, `BST_BSD_Proof.md`, `BST_BSD_Spectral_Mapping.md`
 - `BST_BSD_Chain_Closure_April22.md` — Full BSD chain closure (T98, T99, T100, T101, T102, T103)
 - `BST_T997_BSD_Spectral_Permanence.md` — Spectral permanence framework
 - `BST_T1426_T100_Closure_Spectral_Permanence.md` — T100 formal closure via Kudla
-- `BST_Paper88_BSD_Closure.md` — **Paper #88**: BSD Closure via Chern Hole Mechanism (v1.5, Section 8.6 coroot fixed, Inventiones)
-- `BST_Hodge_AC_Proof.md`, `BST_Hodge_Proof.md`
-- **BSD PROVED** (T1756+T1762: BBW + P\_2 lift, zero open items). Hodge type (rank, N\_c) = (2,3) unconditional at all ranks (Toy 2092). Paper #88 v1.5: Section 8.6 coroot typo fixed (alpha\_2^v corrected to (0,1,-1), Delta=0).
+- `BST_Paper88_BSD_Closure.md` — **Paper #88**: BSD Closure via Chern Hole Mechanism (v1.5, Inventiones)
+- **BSD PROVED** (T1756+T1762: BBW + P\_2 lift). Hodge type (rank, N\_c) = (2,3) unconditional at all ranks (Toy 2092).
+
+### Hodge Conjecture — PROVED (May 11) — 8 files
+
+- `BST_Hodge_AC_Proof.md`, `BST_Hodge_Proof.md` — **Paper H1 v23**: Layer 1 Shimura proof via Kudla-Millson theta correspondence (Annals/Inventiones, 219K PDF)
+- `BST_Hodge_Paper_H2_Ring_Uniqueness.md` — **Paper H2 v0.3**: Ring uniqueness + cross-type exclusion (Annals companion/Duke, 44K PDF). Cal PASS May 11.
+- `BST_T1780_Hodge_Ring_Uniqueness.md` — T1780: Five Hodge-theoretic constraints constructively force (5,3,2,6,7). Algebraic squeeze: F4+F6 gives n\_C=5 exactly.
+- `BST_Hodge_Exclusion_Lemmas.md` — Six exclusion lemma classes covering all 31 non-D\_IV^5 candidates (Classes 1-6: non-orthogonal, even Type IV, IV\_3 near-miss, large odd, Chern sum, triple coincidence)
+- `BST_H7_Paper_Structure_T_Number_Audit.md` — H-7 audit: two papers mapped, 39 T-numbers audited, 7 missing edges identified, T1784-T1787 proposed
+- `BST_R2_DOF_KType_Lemma.md` — **v0.4**: Chern classes of Q^5 and K-type structure of SO\_0(5,2). Theorem 3.2 PROVED (Toy 2092, BBW). Supports Paper #88 BSD.
+- **Hodge PROVED** (Cal audit May 11). Ring uniqueness T1780, cascade T1781 (Toy 2120: 32 BSDs, D\_IV^5 sole survivor), over-determination T1779 (33 constraints), Horikawa violation T1782. Papers H1+H2 paired submission package.
 
 ### Navier-Stokes — 2 files
 
@@ -363,9 +375,9 @@ Casimir analysis, Casimir effect, fusion energy, fusion rings, substrate archite
 
 ---
 
-## Theorem Write-ups — 175 files
+## Theorem Write-ups — 180+ files
 
-Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1465, with concentration in the T1000--T1465 range (bridge theorems, domain connections, late-stage results).
+Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1787, with concentration in the T1000--T1787 range (bridge theorems, domain connections, late-stage results).
 
 Selected highlights:
 - `BST_T704_DIV5_Uniqueness_Theorem.md` — D\_IV^5 uniqueness (25 conditions)
@@ -407,7 +419,9 @@ Selected highlights:
 - `BST_T1462_Cyclotomic_Casimir_Theorem.md` — QED loops peel cyclotomic layers of C₂; correction primes 31, 37, 43 form AP with step C₂
 - `BST_T1463_Seven_Channels_Pontryagin.md` — Integer Filtration: Complex→Real→Mod2→Euler forgets BST integers in order; chi\_y = F₁ point count
 - `BST_T1464_Reference_Frame_Counting.md` — RFC: first element = reference frame, alpha = 1/N\_max = frame cost, 12 confirmed instances
-- `BST_T1465_Chern_to_L_Transfer.md` — **BSD CLOSED**: Chern hole at DOF N\_c=3 → vacuum subtraction → spectral permanence → square system → BSD
+- `BST_T1465_Chern_to_L_Transfer.md` — **BSD CLOSED**: Chern hole at DOF N\_c=3
+- `BST_T1743_Four_Filter_Uniqueness.md` — Four spectral filters: rank=2, Kottwitz=-1, d\_F<=2, m\_s>=3. Self-contained proof: p odd + p<=5 + p>=5 -> p=5.
+- `BST_T1780_Hodge_Ring_Uniqueness.md` — **Hodge Ring Uniqueness**: Five constraints constructively force (5,3,2,6,7). Algebraic squeeze: F4+F6 -> n\_C=5. → vacuum subtraction → spectral permanence → square system → BSD
 - `BST_T1234_Audit_Iso_Invariants.md` — T1234 audit: "observables are iso-invariants" is BOTH theorem and tautology; fix is one Cat(BSD) definition (Lyra, May 7)
 - `BST_T1273_NS_Physical_Uniqueness_Closure.md` — Updated: Spec\_NS category definition added (objects = (H, {lambda\_k}, Q); morphisms = unitary intertwining maps)
 
@@ -496,6 +510,7 @@ Python bytecode cache (auto-generated).
 - Check `.running/RUNNING_NOTES.md` for today's broadcast
 - The numbered paper series (Papers #1--#103) is the primary publication pipeline
 - Papers #1--#4 have passed Keeper audit and been pushed; Papers #82--#96 Casey approved; #97--#103 drafted
+- Hodge papers (H1 + H2) are standalone submissions separate from numbered series
 - The WorkingPaper (on Zenodo) is the master reference
 
 **Finding things by topic:**

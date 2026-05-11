@@ -94,7 +94,7 @@ The sub-leading ratio c_{2k-1}/c_{2k} = −k(k−1)/10 becomes an integer when 1
 | 2 | k = 10, 11 | −9, −11 | −N_c², −dim K |
 | 3 | k = 15, 16 | −21, −24 | −dim SO(7) = −C(g,2), −dim SU(5) |
 
-The speaking pairs connect the polynomial structure to the Lie algebra dimensions of the BST gauge groups. The derivation (Section 9.2) shows these are the dimensions of groups in the isotropy chain SO(7) ⊃ SO(5)×SO(2) ⊃ SU(3)×U(1), read out one level at a time by the Weyl dimension formula. Pair 3 at k=15 is now **confirmed** (Toy 622): the sub-leading ratio is exactly −21 = −C(7,2) = −dim SO(7). This is also the number of amino acid functional classes (20 standard + 1 stop = 21), creating the first number_theory → biology edge in the AC theorem graph (see Section 9.3). The k=16 value (−24) remains a prediction.
+The speaking pairs connect the polynomial structure to the Lie algebra dimensions of the BST gauge groups. The Weyl dimension formula for SO(n_C+2) representations produces dim(k,0,n_C) = product of (2p+n_C)/(2p+1) factors; at n_C=5, these evaluate to the dimensions of groups in the isotropy chain SO(7) ⊃ SO(5)×SO(2) ⊃ SU(3)×U(1). The derivation (Section 9.2) shows the groups are read out one level at a time. Pair 3 at k=15 is now **confirmed** (Toy 622): the sub-leading ratio is exactly −21 = −C(7,2) = −dim SO(7). This is also the number of amino acid functional classes (20 standard + 1 stop = 21), creating the first number_theory → biology edge in the AC theorem graph (see Section 9.3). The k=16 value (−24) remains a prediction.
 
 ---
 
@@ -201,7 +201,7 @@ The LOUD/quiet alternation through k = 15: LOUD(8,9), quiet(10), LOUD(11), quiet
 
 This is not an artifact of low k. The monster primes (66569, 506687, 26116957...) that appear at other dimensions are not present in any individual representation dimension d(p,q) or Weyl denominator — they emerge only from normalized sums across the full spectrum (T539). At n = 5, the spectral aggregation produces no new primes. The BST dimension is the one where curvature has zero arithmetic overhead beyond number theory.
 
-This constitutes a 24th uniqueness condition for n_C = 5: among all compact duals Q^n, the evaluation at n = 5 is arithmetically tame — all denominator primes are Bernoulli primes, and none are added by the polynomial structure.
+This constitutes a uniqueness condition for n_C = 5 (one of 25 conditions cataloged in T704): among all compact duals Q^n, the evaluation at n = 5 is arithmetically tame — all denominator primes are Bernoulli primes, and none are added by the polynomial structure. This condition is independent of the four spectral filters in T1743 and arises from the Weyl dimension formula structure rather than from representation-theoretic constraints.
 
 ---
 

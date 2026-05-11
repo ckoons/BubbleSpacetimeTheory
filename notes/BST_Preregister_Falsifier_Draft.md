@@ -1,14 +1,14 @@
 ---
 title: "Pre-Registered Falsification Targets for Bubble Spacetime Theory"
 author: "Casey Koons"
-date: "May 5, 2026"
-status: "DRAFT v0.2 — for Zenodo pre-registration (R-6)"
+date: "May 10, 2026"
+status: "DRAFT v0.3 — for Zenodo pre-registration (R-6)"
 target: "Zenodo (single page, CC BY 4.0)"
 ---
 
 # Pre-Registered Falsification Targets for Bubble Spacetime Theory
 
-*Filed [DATE] on Zenodo. DOI: [pending]*
+*Filed May 10, 2026 on Zenodo. DOI: [pending]*
 
 ---
 

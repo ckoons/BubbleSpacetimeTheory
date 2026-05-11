@@ -160,7 +160,7 @@ representations labeled by integers. The mass spectrum IS the Plancherel measure
 
 ## Recent Major Results (April 2026)
 
-- **BSD Conjecture CLOSED** (T1465, Toy 1659): Chern hole at DOF position 3 forces vacuum subtraction; square system theorem gives bijection -> permutation matrix -> locked spectrum. Mersenne g=7=2^N_c-1 root cause.
+- **BSD Conjecture**: Rank part PROVED unconditionally for ranks 0-2 (T1756, BBW + P₂ lift). Rank ≥ 3 conditional on Conjecture 3.2 (R-2 BBW dictionary). Chern hole at DOF position N_c=3. See Paper #88.
 - **Uniqueness equation**: 2^(n-2) = n+3 has UNIQUE solution n=5=n_C. D_IV^5 is the only BSD satisfying this.
 - **Cyclotomic Casimir** (T1462): Phi_1(C_2)=n_C, Phi_2(C_2)=g. C_2=6 uniquely generates all five BST integers via cyclotomic polynomials.
 - **Born rule = Bergman kernel**: K(z,z) = sum|phi_k(z)|^2. The reproducing property IS the Born rule.
@@ -195,4 +195,4 @@ chosen — determine all of physics.**
 
 One geometry -> five integers -> 600+ predictions. Zero free parameters.
 
-*Seed updated April 29, 2026. Corrections from T1444/T1446/W-52 applied. SP-15 zeta ladder + RFC pattern. BSD closure. 2189 invariants, 80 predictions, 127 constants.*
+*Seed updated May 10, 2026. BSD rank-tiered (ranks 0-2 unconditional, ≥3 conditional). RH geometric proof (T1755). P!=NP proved (T1777-T1778). 3864 invariants, 103 predictions, 144 constants.*

@@ -1,1858 +1,1859 @@
 {
-  "meta": {
-    "total": 362,
-    "last_updated": "2026-04-30"
+ "meta": {
+  "total": 362,
+  "last_updated": "2026-05-11",
+  "count": 370
+ },
+ "materials": [
+  {
+   "symbol": "N_magic",
+   "name": "Nuclear magic numbers",
+   "cal_tier": "I"
   },
-  "materials": [
-    {
-      "symbol": "N_magic",
-      "name": "Nuclear magic numbers",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "\u03c4_n",
-      "name": "Neutron lifetime",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "B_d",
-      "name": "Deuteron binding energy",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "T_deconf/f_\u03c0",
-      "name": "Deconfinement/pion ratio",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "r_p",
-      "name": "Proton charge radius",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "\u03b8_D(Cu)",
-      "name": "Debye temperature (copper)",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "m_\u03c0",
-      "name": "Pion mass",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "f_\u03c0",
-      "name": "Pion decay constant",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "M_max",
-      "name": "Max neutron star mass",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "R_NS",
-      "name": "Neutron star radius (1.4 M\u2609)",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "\u0394\u03a3",
-      "name": "Proton spin fraction",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "a_S",
-      "name": "SEMF surface coefficient",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "r\u2080",
-      "name": "Nuclear radius constant",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "r_K+/r_\u03c0",
-      "name": "Kaon/pion radius ratio",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "r_\u03c0",
-      "name": "Pion charge radius",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "r_K+",
-      "name": "Kaon charge radius",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "f_crit",
-      "name": "Cooperation threshold",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "coop_gap",
-      "name": "Cooperation gap",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "avg_deg",
-      "name": "AC graph average degree",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "N_unique",
-      "name": "Uniqueness conditions count",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "2alpha",
-      "name": "Observer rarity / cooperation gap",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "a_C",
-      "name": "SEMF Coulomb coefficient",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "\u03b2_NS",
-      "name": "NS compactness",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "|A\u2085|",
-      "name": "Alternating group order",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "ur_axiom",
-      "name": "The ur-axiom",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "\u0394m\u00b2_21",
-      "name": "Solar neutrino mass splitting",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "\u0394m\u00b2_31",
-      "name": "Atmospheric neutrino splitting",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "magic_184",
-      "name": "Predicted magic number 184",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "\u03b1_inv_CF",
-      "name": "\u03b1\u207b\u00b9 continued fraction",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "\u03c6_approx",
-      "name": "Golden ratio from BST",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "\u03c3_DC_Cu",
-      "name": "Copper DC conductivity ratio",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "R_NS_formula",
-      "name": "NS radius formula",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "\u03c4_\u03bc",
-      "name": "Muon lifetime",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "\u03bc_p/\u03bc_N",
-      "name": "Proton magnetic moment",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "\u03bc_n/\u03bc_p",
-      "name": "Neutron/proton moment ratio",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "d_n",
-      "name": "Neutron electric dipole moment",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "GL_kappa",
-      "name": "Ginzburg-Landau \u03ba crossover",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Gruneisen",
-      "name": "Gr\u00fcneisen parameter (Debye model)",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Debye_Fe_Cu",
-      "name": "Debye temperature ratio Fe/Cu",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Debye_Al_Cu",
-      "name": "Debye temperature ratio Al/Cu",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "crystal_sys",
-      "name": "Crystal systems",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Bravais_14",
-      "name": "Bravais lattices",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "point_groups_32",
-      "name": "Crystallographic point groups",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "E_ion_H",
-      "name": "Hydrogen ionization energy",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "cooperation_min",
-      "name": "Minimum cooperation group size",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Hamilton_r",
-      "name": "Hamilton's relatedness for cooperation",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "cooperation_3",
-      "name": "Minimum stable cooperation group",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "magic_2",
-      "name": "Nuclear magic number 2",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "magic_8",
-      "name": "Nuclear magic number 8",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "magic_20",
-      "name": "Nuclear magic number 20",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "magic_28",
-      "name": "Nuclear magic number 28",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "magic_50",
-      "name": "Nuclear magic number 50",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "magic_82",
-      "name": "Nuclear magic number 82",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "magic_126",
-      "name": "Nuclear magic number 126",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "spin_orbit_ratio",
-      "name": "Spin-orbit splitting ratio",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "golden_phi",
-      "name": "Golden ratio \u03c6 = (1+\u221an_C)/rank",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "sqrt5",
-      "name": "\u221a5 = \u221an_C",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "impedance_free",
-      "name": "Free space impedance structure",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Boltzmann_H",
-      "name": "H-theorem direction",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "actinide_count",
-      "name": "Actinide count",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Goldbach_rank",
-      "name": "Goldbach conjecture",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "continents_7",
-      "name": "Number of continents",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Avogadro_C2",
-      "name": "Avogadro number leading digit",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "BE_peak_A",
-      "name": "Peak binding energy nucleon number",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "BE_peak_val",
-      "name": "Peak binding energy per nucleon",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "heart_rate",
-      "name": "Resting heart rate",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "diamond_C_sp3",
-      "name": "Diamond coordination",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "graphene_C_sp2",
-      "name": "Graphene coordination",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Cu_FCC",
-      "name": "Copper FCC coordination",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "ice_hexagonal",
-      "name": "Ice crystal symmetry",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Weyl_law_exp",
-      "name": "Weyl law exponent",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "pion_decay_life",
-      "name": "Charged pion lifetime",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "sigma_term",
-      "name": "Pion-nucleon sigma term",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Margolus_Levitin",
-      "name": "Margolus-Levitin operations bound",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Debye_length_exp",
-      "name": "Debye screening exponent",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Omega_Lambda_frac",
-      "name": "Dark energy fraction (improved)",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Debye_Pb",
-      "name": "Debye temperature Pb",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Debye_ratio_exact",
-      "name": "Debye ratio Cu/Pb",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "fpi_improved",
-      "name": "Pion decay constant (improved)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "411_product",
-      "name": "411 = N_c \u00d7 N_max",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "spin_orbit_origin",
-      "name": "Spin-orbit origin in BST",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "pairing_gap",
-      "name": "Nuclear pairing gap",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "space_dim_crystal",
-      "name": "Crystallographic dimensions",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "m_K0",
-      "name": "K\u2070 mass",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "neutron_star_density",
-      "name": "NS central density",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "nuclear_radius_A13",
-      "name": "Nuclear radius scaling",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Goldstone_eaten",
-      "name": "Eaten Goldstone bosons",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Higgs_physical",
-      "name": "Physical Higgs states",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "CMB_S4_target",
-      "name": "CMB-S4 n_s precision",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "unknotting_3_1",
-      "name": "Trefoil unknotting number",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "phonon_branches",
-      "name": "Phonon branches (monatomic)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "phonon_optical",
-      "name": "Optical phonon branches (diatomic)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Wallach_cont",
-      "name": "Wallach continuous range",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "pi0_decay",
-      "name": "\u03c0\u2070 \u2192 2\u03b3",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "SM_particles_total",
-      "name": "Total SM particle types",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "SM_free_params",
-      "name": "SM free parameters",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "diamond_coord",
-      "name": "Diamond coordination",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "f_crit_num",
-      "name": "Cooperation threshold (numerical)",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "coop_gap_num",
-      "name": "Cooperation gap (numerical)",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "dictator_reject",
-      "name": "Ultimatum rejection threshold",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "forgetting_curve",
-      "name": "Ebbinghaus forgetting exponent",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "Arrow_impossibility",
-      "name": "Arrow's theorem minimum",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "pi_continued_frac",
-      "name": "\u03c0 continued fraction [3;7,15,1,292,...]",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "e_continued_frac",
-      "name": "e continued fraction [2;1,2,1,1,4,1,1,6,...]",
-      "cal_tier": "C"
-    },
-    {
-      "symbol": "equality_rand",
-      "name": "Equality randomized CC",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "MPCR_threshold",
-      "name": "Public goods MPCR threshold",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "free_rider_frac",
-      "name": "Free-rider equilibrium fraction",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "Weber_Fechner",
-      "name": "Weber-Fechner just-noticeable difference",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "subitizing",
-      "name": "Subitizing limit",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Nc_confinement_bridge",
-      "name": "N_c: confinement \u2194 coloring \u2194 Ramsey",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "CF_splitting_oct",
-      "name": "Octahedral crystal field states",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "CF_splitting_tet",
-      "name": "Tetrahedral crystal field",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Debye_Cu_exact",
-      "name": "Debye temp Cu = g\u00b3",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Debye_Pb_exact",
-      "name": "Debye temp Pb = g!!",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "T1456_P_K3_Nc",
-      "name": "P(K\u2083, N_c) = C\u2082 (T1456)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Oort_AB_ratio",
-      "name": "Oort constants |A/B|",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "BCS_Mersenne",
-      "name": "BCS gap ratio (Mersenne corrected)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "triple_bridge_53",
-      "name": "n_C/N_c = 5/3 triple bridge",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Wallach_transition",
-      "name": "Wallach positivity threshold",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "structural_conductance",
-      "name": "Structural conductance principle",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "Veltman_cancel",
-      "name": "Veltman's 1920 cancellation",
-      "cal_tier": "C"
-    },
-    {
-      "symbol": "Koide_eps2",
-      "name": "Koide parameter epsilon^2 = rank = dim_C(CP^2)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "proton_code",
-      "name": "Proton as quantum code [7,1,3]",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "confinement_code",
-      "name": "Confinement as error detection",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "bridge_cosmic_WHY",
-      "name": "WHY 137/200 crosses scales",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "bridge_pred_7_5",
-      "name": "Predicted bridge: g/n_C = 7/5 = 1.4",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "Verlinde_entropy",
-      "name": "Verlinde's entropic gravity (2010)",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Chew_nuclear_democracy",
-      "name": "Chew's nuclear democracy (1961)",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Noether_BST",
-      "name": "Noether's theorem in BST (1918)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "independence_dim",
-      "name": "Table independence dimension",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "code_hierarchy_BST",
-      "name": "Error correction hierarchy = BST at every level",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "phi_BST",
-      "name": "Golden ratio from BST",
-      "cal_tier": "C"
-    },
-    {
-      "symbol": "bridge_pred_rank_nC",
-      "name": "Bridge prediction: rank\u00b7n_C = 10 as universal",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "phase_BBN_exact",
-      "name": "BBN = product of 4 sub-N_max integers",
-      "cal_tier": "C"
-    },
-    {
-      "symbol": "BCS_sqrt_137_11",
-      "name": "BCS gap \u221a(N_max/11)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "phi_sqrt_34_13",
-      "name": "Golden ratio \u03c6 = \u221a(34/13)",
-      "cal_tier": "C"
-    },
-    {
-      "symbol": "independence_323",
-      "name": "Table independence count (NOT fixed)",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "Cal_weighted_null",
-      "name": "Cal recommendation: precision-weighted null model",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "band_gap_Si",
-      "name": "Silicon band gap",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "supercond_BCS_ratio_BST",
-      "name": "BCS 2\u0394/kT_c (improved)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "reheating_T",
-      "name": "Reheating temperature scale",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "28_triangular_g",
-      "name": "28 = T_g = g-th triangular = 2nd perfect",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Alfven_is_gamma3",
-      "name": "Alfv\u00e9n ratio = third adiabatic exponent",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Debye_Ag_exact",
-      "name": "Debye Ag = N_c\u00b2\u00b7n_C\u00b2",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "bandgap_Si_Ge",
-      "name": "Si/Ge band gap ratio = n_C/N_c",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "bandgap_GaAs_Si",
-      "name": "GaAs/Si band gap ratio \u2248 n_C/rank\u00b2",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Tc_prediction_118",
-      "name": "Predicted T_c = 118 K (BST chain from YBCO)",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "cancer_code_mismatch",
-      "name": "Cancer = code mismatch (Paper E)",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "code_hierarchy_bio",
-      "name": "Biological code hierarchy (4 layers)",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "aging_protocol",
-      "name": "Aging = layered protocol degradation",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "toehold_switch",
-      "name": "RNA toehold switch cancer decoder",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "RT_supercond_test",
-      "name": "Room-temperature superconductivity test",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "YBCO_MgB2_ratio",
-      "name": "YBCO/MgB\u2082 T_c ratio = g/N_c",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "CdTe_Si_gap_97",
-      "name": "CdTe/Si band gap = N_c\u00b2/g = 9/7",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Nmax_Tc_ceiling",
-      "name": "N_max as T_c ceiling hypothesis",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Al_coupling_3_7",
-      "name": "Aluminum electron-phonon coupling",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "ZnO_3xSi",
-      "name": "ZnO/Si band gap = N_c",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Diamond_5xSi",
-      "name": "Diamond/Si band gap = n_C",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "filtration_Real",
-      "name": "Integer filtration: Real level",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "chi_y_F1",
-      "name": "Hirzebruch \u03c7_y = F\u2081 point count",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "coord_diamond_4",
-      "name": "Diamond coordination = rank\u00b2 = 4",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "coord_graphene_3",
-      "name": "Graphene coordination = N_c = 3",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Lisi_E8",
-      "name": "Garrett Lisi E\u2088 theory (2007)",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "Debye_Pt_240",
-      "name": "Debye temp Pt = rank^4 * N_c * n_C = 240",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Debye_Ni_450",
-      "name": "Debye temp Ni = rank * N_c^2 * n_C^2 = 450",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Debye_Ti_420",
-      "name": "Debye temp Ti = rank^2 * N_c * n_C * g = 420",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Tc_MgB2_39",
-      "name": "MgB2 T_c = N_c*(2C2+1) = 39 K",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "gap_InP_Si_65",
-      "name": "InP/Si band gap = C2/n_C = 6/5",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "gap_GaP_Si_rank",
-      "name": "GaP/Si band gap approx rank = 2",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "KG_Al",
-      "name": "Al K/G = N_c (approx)",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "edge_Hubble_tension",
-      "name": "Edge case: Hubble tension",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "edge_GZK_cutoff",
-      "name": "Edge case: GZK cutoff",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "edge_Lithium_7",
-      "name": "Edge case: Lithium-7",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "RFC",
-      "name": "Reference Frame Counting (RFC) \u2014 Casey, 11 instances",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "V_cd",
-      "name": "CKM |V_cd|",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "V_ts",
-      "name": "CKM |V_ts|",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "V_tb",
-      "name": "CKM |V_tb|",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "m_pi_charged",
-      "name": "Charged pion mass",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "m_pi0",
-      "name": "Neutral pion mass",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "N_opt_observers",
-      "name": "Optimal cooperating observer count",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "beta_0_QCD",
-      "name": "QCD one-loop beta function coefficient",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "gravitino_mass",
-      "name": "Gravitino mass prediction",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "L5_denom",
-      "name": "L=5 master integral leading denominator",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "r_pi_BST",
-      "name": "Pion charge radius",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "r_K_BST",
-      "name": "Kaon charge radius",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "tau_tau_lifetime",
-      "name": "Tau lifetime",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "phonon_diamond_LO_TA",
-      "name": "Diamond phonon LO/TA(L) ratio",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "phonon_graphene_diamond",
-      "name": "Graphene/diamond LO frequency ratio",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "phonon_diamond_TA",
-      "name": "Diamond TA(X)/TA(L) ratio",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "gap4_42_split",
-      "name": "42 splits Gap_4 as C_2 : rank^3",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Alfven_9_7",
-      "name": "Alfven speed ratio v_A/c_s = N_c^2/g = 9/7",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Cauchy_KG",
-      "name": "Cauchy relation K/G = Kolmogorov = n_C/N_c",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "diamond_KG",
-      "name": "Diamond K/G ratio = n_C/C_2 = graph strong%",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "shear_diamond_Cu",
-      "name": "Diamond/Cu shear modulus ratio = DC = 11",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "nu_ratio_4_135",
-      "name": "Neutrino mass ratio alternative: rank^2/(N_max-rank)",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Nc2_g_rank",
-      "name": "N_c^2 = g + rank identity",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "f_pi_BST",
-      "name": "Pion decay constant from BST",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Cauchy_Kolm_bridge",
-      "name": "Cauchy = Kolmogorov = gamma = n_C/N_c (bridge theorem)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "binding_Fe56",
-      "name": "Iron-56 binding energy per nucleon (peak)",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Debye_W_310",
-      "name": "Debye temperature Tungsten",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Debye_Au_170",
-      "name": "Debye temperature Gold",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "m_D_meson",
-      "name": "D meson mass",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "m_B_meson",
-      "name": "B meson mass",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "delta_CP_CKM",
-      "name": "CKM CP violation phase",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "golden_ratio_BST",
-      "name": "Golden ratio phi from BST",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Stefan_Boltzmann_pi",
-      "name": "Stefan-Boltzmann pi^4 factor",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Boltzmann_entropy",
-      "name": "Boltzmann entropy formula structure",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "kappa_ls",
-      "name": "Spin-orbit coupling kappa_ls = C_2/n_C",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "SM_fermion_reps",
-      "name": "SM fermion representations per generation",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "muon_decay_V_A",
-      "name": "Muon decay V-A structure",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "delta_CP_exact",
-      "name": "CKM CP phase = arctan(sqrt(n_C))",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "T_QCD_fpi",
-      "name": "QCD transition / pion decay = n_C/N_c = Kolmogorov",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "QCD_conf_temp",
-      "name": "QCD confinement/deconfinement temperature",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Debye_Fe_467",
-      "name": "Debye temperature Iron",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "YBCO_Al_79",
-      "name": "YBCO/Al superconductor T_c ratio = Cabibbo denominator",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Pb_Al_Tc_C2",
-      "name": "Pb/Al superconductor T_c ratio = C_2",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "N_efold_BST",
-      "name": "Number of e-foldings = rank^2 * N_c * n_C = 60",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "g_minus_2_electron",
-      "name": "Electron g-2 leading terms all BST",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Meissner_effect",
-      "name": "Meissner effect: magnetic flux expulsion",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Cooper_pair",
-      "name": "Cooper pair = rank electrons",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Josephson_freq",
-      "name": "Josephson frequency = rank*e*V/h",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Cu_Ag_Debye",
-      "name": "Cu/Ag Debye ratio = g/N_c^2 * n_C = 35/9",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "deuteron_BE",
-      "name": "Deuteron binding energy",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "pion_lifetime",
-      "name": "Charged pion lifetime structure",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "kaon_lifetime",
-      "name": "Kaon lifetime ratio K+/pi+",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "bridge_3_2_domains",
-      "name": "Bridge N_c/rank = 3/2 in 8 domains",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "nuclear_r0",
-      "name": "Nuclear radius parameter r_0 = 1.2 fm",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "graphene_Dirac",
-      "name": "Graphene Dirac fermions: rank massless cones",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "optimal_team",
-      "name": "Optimal cooperating observers = n_C = 5",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "mu_p_exact",
-      "name": "Proton magnetic moment = 1148/411",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "vacuum_energy_ratio",
-      "name": "Vacuum energy: theory/observed = N_max^4 problem",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Debye_Mo_450",
-      "name": "Debye temperature Molybdenum = rank*N_c^2*n_C^2 = 450 K",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "pi_CF_BST",
-      "name": "Pi continued fraction: [N_c; g, N_c*n_C, ...]",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "sp2_angle",
-      "name": "sp2 bond angle = 120 degrees = n_C!",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Upsilon_mass",
-      "name": "Upsilon meson mass",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "eta_c_mass",
-      "name": "Eta_c mass (charmonium pseudoscalar)",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "BCS_gap_formula",
-      "name": "BCS gap = sqrt(N_max/DC) * k_B * T_c",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "ns_derived_slowroll",
-      "name": "Spectral index DERIVED: epsilon = n_C/(2*N_max)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "self_desc_Goedel_decomp",
-      "name": "Goedel gap = 1/C_2 + 1/(C_2*g) = 4/21",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "genus_bottleneck_mechanism",
-      "name": "Genus bottleneck: Chern-DOF gap at position (g-1)/2 = 3",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "BSD_Chern_mechanism",
-      "name": "BSD works because Chern bottleneck prevents spectral leakage",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "NS_max_mass",
-      "name": "Neutron star maximum mass = TOV limit",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "Mermin_Wagner",
-      "name": "Mermin-Wagner: no broken symmetry in d <= rank",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "pion_decay_PCAC",
-      "name": "Pion decay via PCAC: f_pi from BST",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "BKT_transition",
-      "name": "BKT transition at d = rank = 2",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "alpha_particle_BE",
-      "name": "Alpha particle binding energy/nucleon = peak for A=4",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "shell_model_SO5",
-      "name": "Nuclear shell model: SO(5) interacting boson",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "beta_0_QCD_BST",
-      "name": "QCD beta_0 = (11*N_c - 2*C_2)/(12*pi) derived from Bergman",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Delta_pp_mass",
-      "name": "Delta++ baryon mass",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "nuclear_saturation",
-      "name": "Nuclear saturation density = 0.16 fm^-3",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "golden_angle_137_5",
-      "name": "Golden angle \u2248 137.5 degrees \u2248 N_max degrees",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Benford_law_log10",
-      "name": "Benford's law: P(d) = log_10(1 + 1/d)",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "m_K_charged",
-      "name": "Charged kaon mass",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "pion_isospin",
-      "name": "Pion isospin triplet: pi+, pi0, pi-",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "deuteron_quadrupole",
-      "name": "Deuteron quadrupole moment structure",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "nuclear_force_range",
-      "name": "Nuclear force range \u2248 1/m_pi = 1.4 fm",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "phonon_modes_3N",
-      "name": "Phonon modes = N_c*N atoms in unit cell",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Bloch_theorem",
-      "name": "Bloch's theorem: psi = e^(ikx)*u(x)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "electron_phonon_coupling",
-      "name": "Electron-phonon coupling constant lambda_ep",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "bridge_5_3_six_domains",
-      "name": "5/3 = n_C/N_c now in 6+ domains",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "bridge_9_7_five_domains",
-      "name": "9/7 = N_c^2/g in 5+ domains",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "prime_counting_N_max",
-      "name": "pi(N_max) = 33 = N_c*11 = N_c*DC",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Debye_model_T3",
-      "name": "Debye T^3 law at low temperature",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "superconductor_Type_II",
-      "name": "Type II superconductor: kappa > 1/sqrt(rank)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "flux_quantum_SC",
-      "name": "SC flux quantum Phi_0 = h/(rank*e)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "beta_decay",
-      "name": "Beta decay: n \u2192 p + e + nu_e (weak, N_c-1 = 2 products + spectator)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "nuclear_spin_orbit",
-      "name": "Nuclear spin-orbit: kappa_ls = C_2/n_C = 6/5",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "G_Newton_structure",
-      "name": "Newton's G from Planck mass: G = hbar*c/m_P^2",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "lambda_9_126",
-      "name": "Bergman lambda_9 = 126 = rank*N_c^2*g = 7th magic number",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Bohr_magneton_ratio",
-      "name": "Nuclear magneton = Bohr magneton / (6*pi^5)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "tau_decay_hadrons_65",
-      "name": "Tau hadronic BR \u2248 64.8% \u2248 1 - 2/(rank + N_c*QCD)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "K_K_star_splitting",
-      "name": "K*/K mass splitting",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "GW_energy_loss",
-      "name": "GW quadrupole radiation: P ~ G/c^5 * I_ddot^2",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "golden_ratio_exact",
-      "name": "Golden ratio phi = (1+sqrt(n_C))/rank",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "sqrt2_exact",
-      "name": "sqrt(rank) = sqrt(2) = 1.41421",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "sqrt5_exact",
-      "name": "sqrt(n_C) = sqrt(5) = golden ratio related",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Debye_screening",
-      "name": "Debye screening length: kappa_D^2 = n*e^2/(epsilon*k_B*T)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "band_theory_gap",
-      "name": "Band gap from periodic potential: E_g from Bragg",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Goldstone_eaten_Nc",
-      "name": "Goldstone bosons eaten = N_c (W+, W-, Z)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "pi0_decay_2gamma",
-      "name": "pi0 \u2192 2 gamma: rank photons",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "phonon_dispersion_acoustic",
-      "name": "Acoustic phonon: omega = c_s * k (linear)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "alpha_inverse_137",
-      "name": "alpha^-1 = N_max = 137.036",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "strong_force_range_fm",
-      "name": "Strong force range \u2248 1 fm = hbar*c/m_pi",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "EMC_effect",
-      "name": "EMC effect: nuclear modification of structure functions",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "superconductor_Tc_chain",
-      "name": "BST T_c chain: Al(1.2)\u2192Pb(7.2)\u2192Nb(9.3)\u2192YBCO(92)",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "graphene_cone_angle",
-      "name": "Graphene Dirac cone: linear dispersion E = hbar*v_F*k",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "bridge_42_correction",
-      "name": "42 = C_2*g = leading SM correction denominator",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "bridge_210_primorial",
-      "name": "210 = primorial(g) = 2*3*5*7 = rank*N_c*n_C*g",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "no_SUSY_prediction",
-      "name": "BST predicts: no supersymmetric particles exist",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "eigenvalue_asymptotic",
-      "name": "Lambda_k ~ k^2 for large k (Weyl law)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "BST_zero_free_params",
-      "name": "BST has ZERO free parameters",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "BST_entry_2000",
-      "name": "Entry #2000: the table continues",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "60_alternating",
-      "name": "|A_5| = 60 = n_C!/rank = rank^2*N_c*n_C",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "kaon_CP_violation",
-      "name": "Kaon CP violation epsilon \u2248 2.3e-3",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "neutron_star_radius_12km",
-      "name": "NS radius \u2248 12 km = rank*C_2 km",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "deviations_locate_boundaries",
-      "name": "Casey's hunting principle: deviations locate boundaries",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "milestone_2000",
-      "name": "Entry #2000: rank^4 * n_C^3 = 2000",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "fine_structure_splitting",
-      "name": "Fine structure: alpha^2 splitting",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Zeeman_effect",
-      "name": "Zeeman splitting: g_J * mu_B * B",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Stark_effect",
-      "name": "Stark effect: electric field splitting",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Mott_insulator",
-      "name": "Mott insulator: U/t > critical ratio",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "superconductor_London",
-      "name": "London penetration depth: lambda_L = sqrt(m_e/(n_s*mu_0*e^2))",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Gamow_peak",
-      "name": "Gamow peak energy: E_G = (pi*alpha*Z_1*Z_2)^2 * mu*c^2 / 2",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "nuclear_binding_curve",
-      "name": "Nuclear binding curve shape from SEMF",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "heart_rate_BST",
-      "name": "Resting heart rate \u2248 60-80 bpm \u2248 N_efold per minute",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "proton_gyro_ratio",
-      "name": "Proton gyromagnetic ratio = mu_p * rank / hbar",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "f_non_rho_spectral",
-      "name": "Non-rho spectral fraction in HVP",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "hyperfine_hydrogen_BST",
-      "name": "Hydrogen hyperfine splitting from BST",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "fine_structure_hydrogen_n2",
-      "name": "Fine structure H(n=2): alpha^2/16 splitting",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "HK_generating_rational",
-      "name": "Heat kernel generating function is rational (conjectured)",
-      "cal_tier": "C"
-    },
-    {
-      "symbol": "heat_kernel_growth_rate",
-      "name": "Heat kernel leading growth rate n_C^2/N_c",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Kolmogorov_6th_domain",
-      "name": "5/3 = n_C/N_c in 6th domain: Cauchy elastic K/G",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "magic_all_7_BST",
-      "name": "All 7 nuclear magic numbers: BST products (exact)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "series_are_artifacts",
-      "name": "Series are method artifacts, not physics (SP-15)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "degeneracy_GF",
-      "name": "Q^5 degeneracy generating function: G(t) = (1+t)^2/(1-t)^4 + t(1-t)(1+t)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "degeneracy_d1_g",
-      "name": "First degeneracy d_1 = g = 7 (from GF)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "gf_sub_leading",
-      "name": "Generating function sub-leading = -(n_C/N_c)^2/2",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "B_deuteron_exact",
-      "name": "Deuteron binding B_d = (50/49)*alpha*m_p/pi",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "B_alpha_c3",
-      "name": "Alpha particle binding B_alpha = c_3(Q^5)*alpha*m_p/pi",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "B_He3_39_11",
-      "name": "He-3 binding B_h = (39/11)*alpha*m_p/pi",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "B_triton",
-      "name": "Triton binding B_t = B_h + alpha*m_p/9",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "B_alpha_B_h_ratio",
-      "name": "B_alpha/B_He3 = DC/N_c = 11/3",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "spectral_zeta_GF",
-      "name": "Spectral zeta GF = (1+x)/(1-x)^5 (D-finite, order n_C)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Euler_Maclaurin_C6_factorial",
-      "name": "First Euler-Maclaurin correction = -1/C_2! = -1/720",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "pion_over_alpha_mp_pi",
-      "name": "m_pi / (alpha*m_p/pi) = 2^C_2 = 64",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "-k(k-1)/(2*n_C)",
-      "name": "Sub-leading heat kernel ratio: -k(k-1)/(2*n_C) = -k(k-1)/10",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "alpha*m_p/pi",
-      "name": "Nuclear binding scale: alpha*m_p/pi = 2.180 MeV",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "(2C_2-1)/N_c",
-      "name": "Alpha/helion binding ratio: DC/N_c = 11/3 (0.014%)",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "HK_r25_prediction",
-      "name": "Heat kernel prediction: r(25) = -60 = -rank*n_C*C_2 = -|A_5|",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "HK_r26_prediction",
-      "name": "Heat kernel prediction: r(26) = -65 = -n_C*c_3(Q^5)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "HK_r22_prediction",
-      "name": "Heat kernel prediction: r(22) = -231/5 (non-integer, non-speaking)",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "r(25)",
-      "name": "Heat kernel ratio r(25) = -60 = -rank*n_C*C_2 (D-finite prediction)",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "r(26)",
-      "name": "Heat kernel ratio r(26) = -65 = -n_C*c_3(Q^5) (nuclear-spectral bridge)",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "r(k) domain table",
-      "name": "Speaking pair domain table: heat kernel = periodic table of physics, indexed by k mod n_C",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "mu_p_corrected",
-      "name": "Proton magnetic moment with EM correction",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "mu_n_corrected",
-      "name": "Neutron magnetic moment with EM correction",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "mu_p/mu_n",
-      "name": "Proton-to-neutron magnetic moment ratio",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "beta_ratio_21",
-      "name": "QCD beta_2/beta_1 ratio = -n_C/rank^2",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "g+N_c^6=736",
-      "name": "g + N_c^6 = rank^5 * 23 = rank^5 * (rank^2*C_2 - 1)",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "theta_QCD=0",
-      "name": "Strong CP theta parameter = 0 from D_IV^5 uniqueness",
-      "cal_tier": "S"
-    },
-    {
-      "symbol": "partition_fn_IS_theta",
-      "name": "Partition function = Bergman spectral theta (PROVED)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "BCS_gap_exact_0038",
-      "name": "BCS gap ratio corrected: sqrt(N_max/DC) at 0.038%",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Schwinger_from_theta",
-      "name": "Schwinger term = P(1)/lambda_1 = g/C_2 = 7/6",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Boltzmann_weight_g_over_e",
-      "name": "First Boltzmann weight at t=1/C_2: P(1)*exp(-1) = g/e",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Nmax_plus_g_144",
-      "name": "N_max + g = 144 = (rank*C_2)^rank = 12^2",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "QED_denom_separation_L1_L3",
-      "name": "T1481: QED Denominator Separation \u2014 13/13 denominators pure {rank,N_c,n_C}",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "dual_reading_identity_139",
-      "name": "T1481: Dual reading identity N_c^3*n_C + 2*rank + 1 = rank^2*n_C*g = 140",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "unified_correction_T1486",
-      "name": "T1486: Five correction types, one per BST integer",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "correction_AS_type",
-      "name": "Angular suppression correction: 1/g^ell (deuteron 442x improvement)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "correction_integer_adjacency",
-      "name": "Integer-adjacency rate for correction denominators: 100% (10/10)",
-      "cal_tier": ""
-    },
-    {
-      "symbol": "Debye_Al_428",
-      "name": "Debye temperature Aluminum = 428 K",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Debye_Si_645",
-      "name": "Debye temperature Silicon = 645 K",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Debye_Ge_374",
-      "name": "Debye temperature Germanium = 374 K",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Debye_C_diamond_2230",
-      "name": "Debye temperature Diamond = 2230 K",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Debye_Zn_327",
-      "name": "Debye temperature Zinc = 327 K",
-      "cal_tier": "I"
-    },
-    {
-      "symbol": "Debye_Sn_200",
-      "name": "Debye temperature Tin = 200 K = rank^3*n_C^2",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "fK_fpi_C2_nC",
-      "name": "f_K/f_pi = C_2/n_C = 6/5 at 0.3%",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "fpi_mp_5_36",
-      "name": "f_pi/m_p = n_C/(rank*C_2*N_c) = 5/36 at 0.09%",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "mK_mpi_ratio",
-      "name": "m_K/m_pi = n_C/sqrt(rank) = 5/sqrt(2) at 0.05%",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "mK2_mpi2_ratio",
-      "name": "m_K^2/m_pi^2 = rank*C_2 + 1/rank = 12.5 at 0.09%",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "sqrt_mb_md_mpi",
-      "name": "sqrt(m_b*m_d) = m_pi at 0.10%",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "HK_GF_analytic_extension",
-      "name": "Heat kernel GF analytic extension: 3 falsifiable predictions",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "BaTiO3_antenna",
-      "name": "BaTiO3 spectral antenna (#1 BST coherence)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "BTO_STO_superlattice",
-      "name": "BaTiO3/SrTiO3 (8|4) optimal superlattice",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Cu_spectral_cap",
-      "name": "Copper: K=137 GPa, Debye=343, mass=63",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "B12H32_hydride",
-      "name": "B12H32 boron cage hydride (ambient T_c prediction)",
-      "cal_tier": "C"
-    },
-    {
-      "symbol": "YBCO_276K_target",
-      "name": "Optimized 3-plane cuprate (T_c=276K target)",
-      "cal_tier": "C"
-    },
-    {
-      "symbol": "InSb_Al_Cheeger_qubit",
-      "name": "InSb+Al Cheeger topological qubit wire",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Si28_P31_quantum",
-      "name": "Si-28/P-31 quantum memory (T2=39min)",
-      "cal_tier": "D"
-    },
-    {
-      "symbol": "Diamond_NV_RT",
-      "name": "Diamond NV center (RT coherence, g-C_2=1 defect)",
-      "cal_tier": "D"
-    }
-  ]
+  {
+   "symbol": "\u03c4_n",
+   "name": "Neutron lifetime",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "B_d",
+   "name": "Deuteron binding energy",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "T_deconf/f_\u03c0",
+   "name": "Deconfinement/pion ratio",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "r_p",
+   "name": "Proton charge radius",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "\u03b8_D(Cu)",
+   "name": "Debye temperature (copper)",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "m_\u03c0",
+   "name": "Pion mass",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "f_\u03c0",
+   "name": "Pion decay constant",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "M_max",
+   "name": "Max neutron star mass",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "R_NS",
+   "name": "Neutron star radius (1.4 M\u2609)",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "\u0394\u03a3",
+   "name": "Proton spin fraction",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "a_S",
+   "name": "SEMF surface coefficient",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "r\u2080",
+   "name": "Nuclear radius constant",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "r_K+/r_\u03c0",
+   "name": "Kaon/pion radius ratio",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "r_\u03c0",
+   "name": "Pion charge radius",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "r_K+",
+   "name": "Kaon charge radius",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "f_crit",
+   "name": "Cooperation threshold",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "coop_gap",
+   "name": "Cooperation gap",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "avg_deg",
+   "name": "AC graph average degree",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "N_unique",
+   "name": "Uniqueness conditions count",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "2alpha",
+   "name": "Observer rarity / cooperation gap",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "a_C",
+   "name": "SEMF Coulomb coefficient",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "\u03b2_NS",
+   "name": "NS compactness",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "|A\u2085|",
+   "name": "Alternating group order",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "ur_axiom",
+   "name": "The ur-axiom",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "\u0394m\u00b2_21",
+   "name": "Solar neutrino mass splitting",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "\u0394m\u00b2_31",
+   "name": "Atmospheric neutrino splitting",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "magic_184",
+   "name": "Predicted magic number 184",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "\u03b1_inv_CF",
+   "name": "\u03b1\u207b\u00b9 continued fraction",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "\u03c6_approx",
+   "name": "Golden ratio from BST",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "\u03c3_DC_Cu",
+   "name": "Copper DC conductivity ratio",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "R_NS_formula",
+   "name": "NS radius formula",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "\u03c4_\u03bc",
+   "name": "Muon lifetime",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "\u03bc_p/\u03bc_N",
+   "name": "Proton magnetic moment",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "\u03bc_n/\u03bc_p",
+   "name": "Neutron/proton moment ratio",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "d_n",
+   "name": "Neutron electric dipole moment",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "GL_kappa",
+   "name": "Ginzburg-Landau \u03ba crossover",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Gruneisen",
+   "name": "Gr\u00fcneisen parameter (Debye model)",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Debye_Fe_Cu",
+   "name": "Debye temperature ratio Fe/Cu",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Debye_Al_Cu",
+   "name": "Debye temperature ratio Al/Cu",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "crystal_sys",
+   "name": "Crystal systems",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Bravais_14",
+   "name": "Bravais lattices",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "point_groups_32",
+   "name": "Crystallographic point groups",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "E_ion_H",
+   "name": "Hydrogen ionization energy",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "cooperation_min",
+   "name": "Minimum cooperation group size",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Hamilton_r",
+   "name": "Hamilton's relatedness for cooperation",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "cooperation_3",
+   "name": "Minimum stable cooperation group",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "magic_2",
+   "name": "Nuclear magic number 2",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "magic_8",
+   "name": "Nuclear magic number 8",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "magic_20",
+   "name": "Nuclear magic number 20",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "magic_28",
+   "name": "Nuclear magic number 28",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "magic_50",
+   "name": "Nuclear magic number 50",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "magic_82",
+   "name": "Nuclear magic number 82",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "magic_126",
+   "name": "Nuclear magic number 126",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "spin_orbit_ratio",
+   "name": "Spin-orbit splitting ratio",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "golden_phi",
+   "name": "Golden ratio \u03c6 = (1+\u221an_C)/rank",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "sqrt5",
+   "name": "\u221a5 = \u221an_C",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "impedance_free",
+   "name": "Free space impedance structure",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Boltzmann_H",
+   "name": "H-theorem direction",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "actinide_count",
+   "name": "Actinide count",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Goldbach_rank",
+   "name": "Goldbach conjecture",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "continents_7",
+   "name": "Number of continents",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Avogadro_C2",
+   "name": "Avogadro number leading digit",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "BE_peak_A",
+   "name": "Peak binding energy nucleon number",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "BE_peak_val",
+   "name": "Peak binding energy per nucleon",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "heart_rate",
+   "name": "Resting heart rate",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "diamond_C_sp3",
+   "name": "Diamond coordination",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "graphene_C_sp2",
+   "name": "Graphene coordination",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Cu_FCC",
+   "name": "Copper FCC coordination",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "ice_hexagonal",
+   "name": "Ice crystal symmetry",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Weyl_law_exp",
+   "name": "Weyl law exponent",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "pion_decay_life",
+   "name": "Charged pion lifetime",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "sigma_term",
+   "name": "Pion-nucleon sigma term",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Margolus_Levitin",
+   "name": "Margolus-Levitin operations bound",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Debye_length_exp",
+   "name": "Debye screening exponent",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Omega_Lambda_frac",
+   "name": "Dark energy fraction (improved)",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Debye_Pb",
+   "name": "Debye temperature Pb",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Debye_ratio_exact",
+   "name": "Debye ratio Cu/Pb",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "fpi_improved",
+   "name": "Pion decay constant (improved)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "411_product",
+   "name": "411 = N_c \u00d7 N_max",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "spin_orbit_origin",
+   "name": "Spin-orbit origin in BST",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "pairing_gap",
+   "name": "Nuclear pairing gap",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "space_dim_crystal",
+   "name": "Crystallographic dimensions",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "m_K0",
+   "name": "K\u2070 mass",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "neutron_star_density",
+   "name": "NS central density",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "nuclear_radius_A13",
+   "name": "Nuclear radius scaling",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Goldstone_eaten",
+   "name": "Eaten Goldstone bosons",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Higgs_physical",
+   "name": "Physical Higgs states",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "CMB_S4_target",
+   "name": "CMB-S4 n_s precision",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "unknotting_3_1",
+   "name": "Trefoil unknotting number",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "phonon_branches",
+   "name": "Phonon branches (monatomic)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "phonon_optical",
+   "name": "Optical phonon branches (diatomic)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Wallach_cont",
+   "name": "Wallach continuous range",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "pi0_decay",
+   "name": "\u03c0\u2070 \u2192 2\u03b3",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "SM_particles_total",
+   "name": "Total SM particle types",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "SM_free_params",
+   "name": "SM free parameters",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "diamond_coord",
+   "name": "Diamond coordination",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "f_crit_num",
+   "name": "Cooperation threshold (numerical)",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "coop_gap_num",
+   "name": "Cooperation gap (numerical)",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "dictator_reject",
+   "name": "Ultimatum rejection threshold",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "forgetting_curve",
+   "name": "Ebbinghaus forgetting exponent",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "Arrow_impossibility",
+   "name": "Arrow's theorem minimum",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "pi_continued_frac",
+   "name": "\u03c0 continued fraction [3;7,15,1,292,...]",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "e_continued_frac",
+   "name": "e continued fraction [2;1,2,1,1,4,1,1,6,...]",
+   "cal_tier": "C"
+  },
+  {
+   "symbol": "equality_rand",
+   "name": "Equality randomized CC",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "MPCR_threshold",
+   "name": "Public goods MPCR threshold",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "free_rider_frac",
+   "name": "Free-rider equilibrium fraction",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "Weber_Fechner",
+   "name": "Weber-Fechner just-noticeable difference",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "subitizing",
+   "name": "Subitizing limit",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Nc_confinement_bridge",
+   "name": "N_c: confinement \u2194 coloring \u2194 Ramsey",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "CF_splitting_oct",
+   "name": "Octahedral crystal field states",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "CF_splitting_tet",
+   "name": "Tetrahedral crystal field",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Debye_Cu_exact",
+   "name": "Debye temp Cu = g\u00b3",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Debye_Pb_exact",
+   "name": "Debye temp Pb = g!!",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "T1456_P_K3_Nc",
+   "name": "P(K\u2083, N_c) = C\u2082 (T1456)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Oort_AB_ratio",
+   "name": "Oort constants |A/B|",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "BCS_Mersenne",
+   "name": "BCS gap ratio (Mersenne corrected)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "triple_bridge_53",
+   "name": "n_C/N_c = 5/3 triple bridge",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Wallach_transition",
+   "name": "Wallach positivity threshold",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "structural_conductance",
+   "name": "Structural conductance principle",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "Veltman_cancel",
+   "name": "Veltman's 1920 cancellation",
+   "cal_tier": "C"
+  },
+  {
+   "symbol": "Koide_eps2",
+   "name": "Koide parameter epsilon^2 = rank = dim_C(CP^2)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "proton_code",
+   "name": "Proton as quantum code [7,1,3]",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "confinement_code",
+   "name": "Confinement as error detection",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "bridge_cosmic_WHY",
+   "name": "WHY 137/200 crosses scales",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "bridge_pred_7_5",
+   "name": "Predicted bridge: g/n_C = 7/5 = 1.4",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "Verlinde_entropy",
+   "name": "Verlinde's entropic gravity (2010)",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Chew_nuclear_democracy",
+   "name": "Chew's nuclear democracy (1961)",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Noether_BST",
+   "name": "Noether's theorem in BST (1918)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "independence_dim",
+   "name": "Table independence dimension",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "code_hierarchy_BST",
+   "name": "Error correction hierarchy = BST at every level",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "phi_BST",
+   "name": "Golden ratio from BST",
+   "cal_tier": "C"
+  },
+  {
+   "symbol": "bridge_pred_rank_nC",
+   "name": "Bridge prediction: rank\u00b7n_C = 10 as universal",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "phase_BBN_exact",
+   "name": "BBN = product of 4 sub-N_max integers",
+   "cal_tier": "C"
+  },
+  {
+   "symbol": "BCS_sqrt_137_11",
+   "name": "BCS gap \u221a(N_max/11)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "phi_sqrt_34_13",
+   "name": "Golden ratio \u03c6 = \u221a(34/13)",
+   "cal_tier": "C"
+  },
+  {
+   "symbol": "independence_323",
+   "name": "Table independence count (NOT fixed)",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "Cal_weighted_null",
+   "name": "Cal recommendation: precision-weighted null model",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "band_gap_Si",
+   "name": "Silicon band gap",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "supercond_BCS_ratio_BST",
+   "name": "BCS 2\u0394/kT_c (improved)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "reheating_T",
+   "name": "Reheating temperature scale",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "28_triangular_g",
+   "name": "28 = T_g = g-th triangular = 2nd perfect",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Alfven_is_gamma3",
+   "name": "Alfv\u00e9n ratio = third adiabatic exponent",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Debye_Ag_exact",
+   "name": "Debye Ag = N_c\u00b2\u00b7n_C\u00b2",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "bandgap_Si_Ge",
+   "name": "Si/Ge band gap ratio = n_C/N_c",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "bandgap_GaAs_Si",
+   "name": "GaAs/Si band gap ratio \u2248 n_C/rank\u00b2",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Tc_prediction_118",
+   "name": "Predicted T_c = 118 K (BST chain from YBCO)",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "cancer_code_mismatch",
+   "name": "Cancer = code mismatch (Paper E)",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "code_hierarchy_bio",
+   "name": "Biological code hierarchy (4 layers)",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "aging_protocol",
+   "name": "Aging = layered protocol degradation",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "toehold_switch",
+   "name": "RNA toehold switch cancer decoder",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "RT_supercond_test",
+   "name": "Room-temperature superconductivity test",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "YBCO_MgB2_ratio",
+   "name": "YBCO/MgB\u2082 T_c ratio = g/N_c",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "CdTe_Si_gap_97",
+   "name": "CdTe/Si band gap = N_c\u00b2/g = 9/7",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Nmax_Tc_ceiling",
+   "name": "N_max as T_c ceiling hypothesis",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Al_coupling_3_7",
+   "name": "Aluminum electron-phonon coupling",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "ZnO_3xSi",
+   "name": "ZnO/Si band gap = N_c",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Diamond_5xSi",
+   "name": "Diamond/Si band gap = n_C",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "filtration_Real",
+   "name": "Integer filtration: Real level",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "chi_y_F1",
+   "name": "Hirzebruch \u03c7_y = F\u2081 point count",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "coord_diamond_4",
+   "name": "Diamond coordination = rank\u00b2 = 4",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "coord_graphene_3",
+   "name": "Graphene coordination = N_c = 3",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Lisi_E8",
+   "name": "Garrett Lisi E\u2088 theory (2007)",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "Debye_Pt_240",
+   "name": "Debye temp Pt = rank^4 * N_c * n_C = 240",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Debye_Ni_450",
+   "name": "Debye temp Ni = rank * N_c^2 * n_C^2 = 450",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Debye_Ti_420",
+   "name": "Debye temp Ti = rank^2 * N_c * n_C * g = 420",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Tc_MgB2_39",
+   "name": "MgB2 T_c = N_c*(2C2+1) = 39 K",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "gap_InP_Si_65",
+   "name": "InP/Si band gap = C2/n_C = 6/5",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "gap_GaP_Si_rank",
+   "name": "GaP/Si band gap approx rank = 2",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "KG_Al",
+   "name": "Al K/G = N_c (approx)",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "edge_Hubble_tension",
+   "name": "Edge case: Hubble tension",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "edge_GZK_cutoff",
+   "name": "Edge case: GZK cutoff",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "edge_Lithium_7",
+   "name": "Edge case: Lithium-7",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "RFC",
+   "name": "Reference Frame Counting (RFC) \u2014 Casey, 11 instances",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "V_cd",
+   "name": "CKM |V_cd|",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "V_ts",
+   "name": "CKM |V_ts|",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "V_tb",
+   "name": "CKM |V_tb|",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "m_pi_charged",
+   "name": "Charged pion mass",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "m_pi0",
+   "name": "Neutral pion mass",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "N_opt_observers",
+   "name": "Optimal cooperating observer count",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "beta_0_QCD",
+   "name": "QCD one-loop beta function coefficient",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "gravitino_mass",
+   "name": "Gravitino mass prediction",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "L5_denom",
+   "name": "L=5 master integral leading denominator",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "r_pi_BST",
+   "name": "Pion charge radius",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "r_K_BST",
+   "name": "Kaon charge radius",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "tau_tau_lifetime",
+   "name": "Tau lifetime",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "phonon_diamond_LO_TA",
+   "name": "Diamond phonon LO/TA(L) ratio",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "phonon_graphene_diamond",
+   "name": "Graphene/diamond LO frequency ratio",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "phonon_diamond_TA",
+   "name": "Diamond TA(X)/TA(L) ratio",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "gap4_42_split",
+   "name": "42 splits Gap_4 as C_2 : rank^3",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Alfven_9_7",
+   "name": "Alfven speed ratio v_A/c_s = N_c^2/g = 9/7",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Cauchy_KG",
+   "name": "Cauchy relation K/G = Kolmogorov = n_C/N_c",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "diamond_KG",
+   "name": "Diamond K/G ratio = n_C/C_2 = graph strong%",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "shear_diamond_Cu",
+   "name": "Diamond/Cu shear modulus ratio = DC = 11",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "nu_ratio_4_135",
+   "name": "Neutrino mass ratio alternative: rank^2/(N_max-rank)",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Nc2_g_rank",
+   "name": "N_c^2 = g + rank identity",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "f_pi_BST",
+   "name": "Pion decay constant from BST",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Cauchy_Kolm_bridge",
+   "name": "Cauchy = Kolmogorov = gamma = n_C/N_c (bridge theorem)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "binding_Fe56",
+   "name": "Iron-56 binding energy per nucleon (peak)",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Debye_W_310",
+   "name": "Debye temperature Tungsten",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Debye_Au_170",
+   "name": "Debye temperature Gold",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "m_D_meson",
+   "name": "D meson mass",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "m_B_meson",
+   "name": "B meson mass",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "delta_CP_CKM",
+   "name": "CKM CP violation phase",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "golden_ratio_BST",
+   "name": "Golden ratio phi from BST",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Stefan_Boltzmann_pi",
+   "name": "Stefan-Boltzmann pi^4 factor",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Boltzmann_entropy",
+   "name": "Boltzmann entropy formula structure",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "kappa_ls",
+   "name": "Spin-orbit coupling kappa_ls = C_2/n_C",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "SM_fermion_reps",
+   "name": "SM fermion representations per generation",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "muon_decay_V_A",
+   "name": "Muon decay V-A structure",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "delta_CP_exact",
+   "name": "CKM CP phase = arctan(sqrt(n_C))",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "T_QCD_fpi",
+   "name": "QCD transition / pion decay = n_C/N_c = Kolmogorov",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "QCD_conf_temp",
+   "name": "QCD confinement/deconfinement temperature",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Debye_Fe_467",
+   "name": "Debye temperature Iron",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "YBCO_Al_79",
+   "name": "YBCO/Al superconductor T_c ratio = Cabibbo denominator",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Pb_Al_Tc_C2",
+   "name": "Pb/Al superconductor T_c ratio = C_2",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "N_efold_BST",
+   "name": "Number of e-foldings = rank^2 * N_c * n_C = 60",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "g_minus_2_electron",
+   "name": "Electron g-2 leading terms all BST",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Meissner_effect",
+   "name": "Meissner effect: magnetic flux expulsion",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Cooper_pair",
+   "name": "Cooper pair = rank electrons",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Josephson_freq",
+   "name": "Josephson frequency = rank*e*V/h",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Cu_Ag_Debye",
+   "name": "Cu/Ag Debye ratio = g/N_c^2 * n_C = 35/9",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "deuteron_BE",
+   "name": "Deuteron binding energy",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "pion_lifetime",
+   "name": "Charged pion lifetime structure",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "kaon_lifetime",
+   "name": "Kaon lifetime ratio K+/pi+",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "bridge_3_2_domains",
+   "name": "Bridge N_c/rank = 3/2 in 8 domains",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "nuclear_r0",
+   "name": "Nuclear radius parameter r_0 = 1.2 fm",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "graphene_Dirac",
+   "name": "Graphene Dirac fermions: rank massless cones",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "optimal_team",
+   "name": "Optimal cooperating observers = n_C = 5",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "mu_p_exact",
+   "name": "Proton magnetic moment = 1148/411",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "vacuum_energy_ratio",
+   "name": "Vacuum energy: theory/observed = N_max^4 problem",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Debye_Mo_450",
+   "name": "Debye temperature Molybdenum = rank*N_c^2*n_C^2 = 450 K",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "pi_CF_BST",
+   "name": "Pi continued fraction: [N_c; g, N_c*n_C, ...]",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "sp2_angle",
+   "name": "sp2 bond angle = 120 degrees = n_C!",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Upsilon_mass",
+   "name": "Upsilon meson mass",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "eta_c_mass",
+   "name": "Eta_c mass (charmonium pseudoscalar)",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "BCS_gap_formula",
+   "name": "BCS gap = sqrt(N_max/DC) * k_B * T_c",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "ns_derived_slowroll",
+   "name": "Spectral index DERIVED: epsilon = n_C/(2*N_max)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "self_desc_Goedel_decomp",
+   "name": "Goedel gap = 1/C_2 + 1/(C_2*g) = 4/21",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "genus_bottleneck_mechanism",
+   "name": "Genus bottleneck: Chern-DOF gap at position (g-1)/2 = 3",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "BSD_Chern_mechanism",
+   "name": "BSD works because Chern bottleneck prevents spectral leakage",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "NS_max_mass",
+   "name": "Neutron star maximum mass = TOV limit",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "Mermin_Wagner",
+   "name": "Mermin-Wagner: no broken symmetry in d <= rank",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "pion_decay_PCAC",
+   "name": "Pion decay via PCAC: f_pi from BST",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "BKT_transition",
+   "name": "BKT transition at d = rank = 2",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "alpha_particle_BE",
+   "name": "Alpha particle binding energy/nucleon = peak for A=4",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "shell_model_SO5",
+   "name": "Nuclear shell model: SO(5) interacting boson",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "beta_0_QCD_BST",
+   "name": "QCD beta_0 = (11*N_c - 2*C_2)/(12*pi) derived from Bergman",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Delta_pp_mass",
+   "name": "Delta++ baryon mass",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "nuclear_saturation",
+   "name": "Nuclear saturation density = 0.16 fm^-3",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "golden_angle_137_5",
+   "name": "Golden angle \u2248 137.5 degrees \u2248 N_max degrees",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Benford_law_log10",
+   "name": "Benford's law: P(d) = log_10(1 + 1/d)",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "m_K_charged",
+   "name": "Charged kaon mass",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "pion_isospin",
+   "name": "Pion isospin triplet: pi+, pi0, pi-",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "deuteron_quadrupole",
+   "name": "Deuteron quadrupole moment structure",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "nuclear_force_range",
+   "name": "Nuclear force range \u2248 1/m_pi = 1.4 fm",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "phonon_modes_3N",
+   "name": "Phonon modes = N_c*N atoms in unit cell",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Bloch_theorem",
+   "name": "Bloch's theorem: psi = e^(ikx)*u(x)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "electron_phonon_coupling",
+   "name": "Electron-phonon coupling constant lambda_ep",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "bridge_5_3_six_domains",
+   "name": "5/3 = n_C/N_c now in 6+ domains",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "bridge_9_7_five_domains",
+   "name": "9/7 = N_c^2/g in 5+ domains",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "prime_counting_N_max",
+   "name": "pi(N_max) = 33 = N_c*11 = N_c*DC",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Debye_model_T3",
+   "name": "Debye T^3 law at low temperature",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "superconductor_Type_II",
+   "name": "Type II superconductor: kappa > 1/sqrt(rank)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "flux_quantum_SC",
+   "name": "SC flux quantum Phi_0 = h/(rank*e)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "beta_decay",
+   "name": "Beta decay: n \u2192 p + e + nu_e (weak, N_c-1 = 2 products + spectator)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "nuclear_spin_orbit",
+   "name": "Nuclear spin-orbit: kappa_ls = C_2/n_C = 6/5",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "G_Newton_structure",
+   "name": "Newton's G from Planck mass: G = hbar*c/m_P^2",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "lambda_9_126",
+   "name": "Bergman lambda_9 = 126 = rank*N_c^2*g = 7th magic number",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Bohr_magneton_ratio",
+   "name": "Nuclear magneton = Bohr magneton / (6*pi^5)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "tau_decay_hadrons_65",
+   "name": "Tau hadronic BR \u2248 64.8% \u2248 1 - 2/(rank + N_c*QCD)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "K_K_star_splitting",
+   "name": "K*/K mass splitting",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "GW_energy_loss",
+   "name": "GW quadrupole radiation: P ~ G/c^5 * I_ddot^2",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "golden_ratio_exact",
+   "name": "Golden ratio phi = (1+sqrt(n_C))/rank",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "sqrt2_exact",
+   "name": "sqrt(rank) = sqrt(2) = 1.41421",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "sqrt5_exact",
+   "name": "sqrt(n_C) = sqrt(5) = golden ratio related",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Debye_screening",
+   "name": "Debye screening length: kappa_D^2 = n*e^2/(epsilon*k_B*T)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "band_theory_gap",
+   "name": "Band gap from periodic potential: E_g from Bragg",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Goldstone_eaten_Nc",
+   "name": "Goldstone bosons eaten = N_c (W+, W-, Z)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "pi0_decay_2gamma",
+   "name": "pi0 \u2192 2 gamma: rank photons",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "phonon_dispersion_acoustic",
+   "name": "Acoustic phonon: omega = c_s * k (linear)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "alpha_inverse_137",
+   "name": "alpha^-1 = N_max = 137.036",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "strong_force_range_fm",
+   "name": "Strong force range \u2248 1 fm = hbar*c/m_pi",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "EMC_effect",
+   "name": "EMC effect: nuclear modification of structure functions",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "superconductor_Tc_chain",
+   "name": "BST T_c chain: Al(1.2)\u2192Pb(7.2)\u2192Nb(9.3)\u2192YBCO(92)",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "graphene_cone_angle",
+   "name": "Graphene Dirac cone: linear dispersion E = hbar*v_F*k",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "bridge_42_correction",
+   "name": "42 = C_2*g = leading SM correction denominator",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "bridge_210_primorial",
+   "name": "210 = primorial(g) = 2*3*5*7 = rank*N_c*n_C*g",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "no_SUSY_prediction",
+   "name": "BST predicts: no supersymmetric particles exist",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "eigenvalue_asymptotic",
+   "name": "Lambda_k ~ k^2 for large k (Weyl law)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "BST_zero_free_params",
+   "name": "BST has ZERO free parameters",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "BST_entry_2000",
+   "name": "Entry #2000: the table continues",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "60_alternating",
+   "name": "|A_5| = 60 = n_C!/rank = rank^2*N_c*n_C",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "kaon_CP_violation",
+   "name": "Kaon CP violation epsilon \u2248 2.3e-3",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "neutron_star_radius_12km",
+   "name": "NS radius \u2248 12 km = rank*C_2 km",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "deviations_locate_boundaries",
+   "name": "Casey's hunting principle: deviations locate boundaries",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "milestone_2000",
+   "name": "Entry #2000: rank^4 * n_C^3 = 2000",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "fine_structure_splitting",
+   "name": "Fine structure: alpha^2 splitting",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Zeeman_effect",
+   "name": "Zeeman splitting: g_J * mu_B * B",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Stark_effect",
+   "name": "Stark effect: electric field splitting",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Mott_insulator",
+   "name": "Mott insulator: U/t > critical ratio",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "superconductor_London",
+   "name": "London penetration depth: lambda_L = sqrt(m_e/(n_s*mu_0*e^2))",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Gamow_peak",
+   "name": "Gamow peak energy: E_G = (pi*alpha*Z_1*Z_2)^2 * mu*c^2 / 2",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "nuclear_binding_curve",
+   "name": "Nuclear binding curve shape from SEMF",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "heart_rate_BST",
+   "name": "Resting heart rate \u2248 60-80 bpm \u2248 N_efold per minute",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "proton_gyro_ratio",
+   "name": "Proton gyromagnetic ratio = mu_p * rank / hbar",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "f_non_rho_spectral",
+   "name": "Non-rho spectral fraction in HVP",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "hyperfine_hydrogen_BST",
+   "name": "Hydrogen hyperfine splitting from BST",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "fine_structure_hydrogen_n2",
+   "name": "Fine structure H(n=2): alpha^2/16 splitting",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "HK_generating_rational",
+   "name": "Heat kernel generating function is rational (conjectured)",
+   "cal_tier": "C"
+  },
+  {
+   "symbol": "heat_kernel_growth_rate",
+   "name": "Heat kernel leading growth rate n_C^2/N_c",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Kolmogorov_6th_domain",
+   "name": "5/3 = n_C/N_c in 6th domain: Cauchy elastic K/G",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "magic_all_7_BST",
+   "name": "All 7 nuclear magic numbers: BST products (exact)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "series_are_artifacts",
+   "name": "Series are method artifacts, not physics (SP-15)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "degeneracy_GF",
+   "name": "Q^5 degeneracy generating function: G(t) = (1+t)^2/(1-t)^4 + t(1-t)(1+t)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "degeneracy_d1_g",
+   "name": "First degeneracy d_1 = g = 7 (from GF)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "gf_sub_leading",
+   "name": "Generating function sub-leading = -(n_C/N_c)^2/2",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "B_deuteron_exact",
+   "name": "Deuteron binding B_d = (50/49)*alpha*m_p/pi",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "B_alpha_c3",
+   "name": "Alpha particle binding B_alpha = c_3(Q^5)*alpha*m_p/pi",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "B_He3_39_11",
+   "name": "He-3 binding B_h = (39/11)*alpha*m_p/pi",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "B_triton",
+   "name": "Triton binding B_t = B_h + alpha*m_p/9",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "B_alpha_B_h_ratio",
+   "name": "B_alpha/B_He3 = DC/N_c = 11/3",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "spectral_zeta_GF",
+   "name": "Spectral zeta GF = (1+x)/(1-x)^5 (D-finite, order n_C)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Euler_Maclaurin_C6_factorial",
+   "name": "First Euler-Maclaurin correction = -1/C_2! = -1/720",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "pion_over_alpha_mp_pi",
+   "name": "m_pi / (alpha*m_p/pi) = 2^C_2 = 64",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "-k(k-1)/(2*n_C)",
+   "name": "Sub-leading heat kernel ratio: -k(k-1)/(2*n_C) = -k(k-1)/10",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "alpha*m_p/pi",
+   "name": "Nuclear binding scale: alpha*m_p/pi = 2.180 MeV",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "(2C_2-1)/N_c",
+   "name": "Alpha/helion binding ratio: DC/N_c = 11/3 (0.014%)",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "HK_r25_prediction",
+   "name": "Heat kernel prediction: r(25) = -60 = -rank*n_C*C_2 = -|A_5|",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "HK_r26_prediction",
+   "name": "Heat kernel prediction: r(26) = -65 = -n_C*c_3(Q^5)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "HK_r22_prediction",
+   "name": "Heat kernel prediction: r(22) = -231/5 (non-integer, non-speaking)",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "r(25)",
+   "name": "Heat kernel ratio r(25) = -60 = -rank*n_C*C_2 (D-finite prediction)",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "r(26)",
+   "name": "Heat kernel ratio r(26) = -65 = -n_C*c_3(Q^5) (nuclear-spectral bridge)",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "r(k) domain table",
+   "name": "Speaking pair domain table: heat kernel = periodic table of physics, indexed by k mod n_C",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "mu_p_corrected",
+   "name": "Proton magnetic moment with EM correction",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "mu_n_corrected",
+   "name": "Neutron magnetic moment with EM correction",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "mu_p/mu_n",
+   "name": "Proton-to-neutron magnetic moment ratio",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "beta_ratio_21",
+   "name": "QCD beta_2/beta_1 ratio = -n_C/rank^2",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "g+N_c^6=736",
+   "name": "g + N_c^6 = rank^5 * 23 = rank^5 * (rank^2*C_2 - 1)",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "theta_QCD=0",
+   "name": "Strong CP theta parameter = 0 from D_IV^5 uniqueness",
+   "cal_tier": "S"
+  },
+  {
+   "symbol": "partition_fn_IS_theta",
+   "name": "Partition function = Bergman spectral theta (PROVED)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "BCS_gap_exact_0038",
+   "name": "BCS gap ratio corrected: sqrt(N_max/DC) at 0.038%",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Schwinger_from_theta",
+   "name": "Schwinger term = P(1)/lambda_1 = g/C_2 = 7/6",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Boltzmann_weight_g_over_e",
+   "name": "First Boltzmann weight at t=1/C_2: P(1)*exp(-1) = g/e",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Nmax_plus_g_144",
+   "name": "N_max + g = 144 = (rank*C_2)^rank = 12^2",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "QED_denom_separation_L1_L3",
+   "name": "T1481: QED Denominator Separation \u2014 13/13 denominators pure {rank,N_c,n_C}",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "dual_reading_identity_139",
+   "name": "T1481: Dual reading identity N_c^3*n_C + 2*rank + 1 = rank^2*n_C*g = 140",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "unified_correction_T1486",
+   "name": "T1486: Five correction types, one per BST integer",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "correction_AS_type",
+   "name": "Angular suppression correction: 1/g^ell (deuteron 442x improvement)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "correction_integer_adjacency",
+   "name": "Integer-adjacency rate for correction denominators: 100% (10/10)",
+   "cal_tier": ""
+  },
+  {
+   "symbol": "Debye_Al_428",
+   "name": "Debye temperature Aluminum = 428 K",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Debye_Si_645",
+   "name": "Debye temperature Silicon = 645 K",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Debye_Ge_374",
+   "name": "Debye temperature Germanium = 374 K",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Debye_C_diamond_2230",
+   "name": "Debye temperature Diamond = 2230 K",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Debye_Zn_327",
+   "name": "Debye temperature Zinc = 327 K",
+   "cal_tier": "I"
+  },
+  {
+   "symbol": "Debye_Sn_200",
+   "name": "Debye temperature Tin = 200 K = rank^3*n_C^2",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "fK_fpi_C2_nC",
+   "name": "f_K/f_pi = C_2/n_C = 6/5 at 0.3%",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "fpi_mp_5_36",
+   "name": "f_pi/m_p = n_C/(rank*C_2*N_c) = 5/36 at 0.09%",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "mK_mpi_ratio",
+   "name": "m_K/m_pi = n_C/sqrt(rank) = 5/sqrt(2) at 0.05%",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "mK2_mpi2_ratio",
+   "name": "m_K^2/m_pi^2 = rank*C_2 + 1/rank = 12.5 at 0.09%",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "sqrt_mb_md_mpi",
+   "name": "sqrt(m_b*m_d) = m_pi at 0.10%",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "HK_GF_analytic_extension",
+   "name": "Heat kernel GF analytic extension: 3 falsifiable predictions",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "BaTiO3_antenna",
+   "name": "BaTiO3 spectral antenna (#1 BST coherence)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "BTO_STO_superlattice",
+   "name": "BaTiO3/SrTiO3 (8|4) optimal superlattice",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Cu_spectral_cap",
+   "name": "Copper: K=137 GPa, Debye=343, mass=63",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "B12H32_hydride",
+   "name": "B12H32 boron cage hydride (ambient T_c prediction)",
+   "cal_tier": "C"
+  },
+  {
+   "symbol": "YBCO_276K_target",
+   "name": "Optimized 3-plane cuprate (T_c=276K target)",
+   "cal_tier": "C"
+  },
+  {
+   "symbol": "InSb_Al_Cheeger_qubit",
+   "name": "InSb+Al Cheeger topological qubit wire",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Si28_P31_quantum",
+   "name": "Si-28/P-31 quantum memory (T2=39min)",
+   "cal_tier": "D"
+  },
+  {
+   "symbol": "Diamond_NV_RT",
+   "name": "Diamond NV center (RT coherence, g-C_2=1 defect)",
+   "cal_tier": "D"
+  }
+ ]
 }

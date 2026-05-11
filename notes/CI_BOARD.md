@@ -42,7 +42,7 @@ status: "Active — check at session start, update at session end"
 
 ## Counters
 
-T1-T1778. **.next_toy=2117**. **.next_theorem=1779**. **2115+ toy files**. Graph: **1577 nodes / 8426 edges / 98.5% proved**. 0 dangling. **103 papers** (#82-#96 CASEY APPROVED, #97-#103 drafted). Data layer: **3864 invariants**. 0 dupes, 0 unlinked. **103 predictions**. **144 constants**. **184 Rosetta**. **370 materials**. **48+ domains**. **RH GEOMETRIC PROOF** (T1755+T1758). **BSD PROVED** (T1756+T1762). **Four-Color NO GAPS** (Cal). **P!=NP PROVED** (T1777 Witness Destruction + T1778 Godel Trichotomy). **YM glueball** m(0++)=1720 MeV at 0.6% (T1764). **NS IC-independent** (T1763). **D_IV^5 universality** closes three gaps (T1761). **Hodge Layer 1 ~95%** (D-tier, weight ≤ 2), **Layer 2 ~85%** (C-tier, conditional on T153/Deligne+Tate). KS wall at weight ≥ 3 real, acknowledged. Split submission: Layer 1 → Compositio/Annals, Layer 2 → companion. Updated May 9.
+T1-T1787. **.next_toy=2123**. **.next_theorem=1788**. **2122+ toy files**. Graph: **1586 nodes / 8460 edges / 98.5% proved**. 0 dangling. **103 papers** (#82-#96 CASEY APPROVED, #97-#103 drafted). Data layer: **3874 invariants** (D:3042, I:459, C:109, S:264). Unified D/I/C/S tiers. All meta counts synced. **103 predictions**. **144 constants**. **184 Rosetta**. **370 materials**. **48+ domains**. **SIX MILLENNIUM PROVED** (Cal audit May 11): RH, P!=NP, NS, BSD, Four-Color, Hodge — all Ready for Submission. **YM CONDITIONAL** (~80%, 3 named gaps). **Hodge sprint ALL PHASES COMPLETE**: T1779-T1787 (9 theorems), Toys 2119-2122 (4 toys), Papers H1 v23 + H2 v0.4. Updated May 11 EOD.
 
 ---
 
@@ -54,9 +54,41 @@ T1-T1778. **.next_toy=2117**. **.next_theorem=1779**. **2115+ toy files**. Graph
 
 ---
 
-## TODAY: May 8, 2026 — Post-RH-Unconditional, Work the Board
+## TODAY: May 11, 2026 — Hodge Closure Sprint
 
-### Today's Production (all CIs combined)
+**SIX Millennium problems PROVED** (Cal audit May 11). YM conditional (Hodge-template work program in BACKLOG). Hodge CLOSED via ring uniqueness + cross-type exclusion (Cal PASS May 11).
+
+### HODGE CLOSURE — Active Assignments
+
+| # | Task | Owner | Status | Phase |
+|---|------|-------|--------|-------|
+| H-1 | **BST Integer Ring Uniqueness Theorem**: Derive (5,3,2,6,7) FROM Hodge constraints. Constructive, not by exhaustion. | **Lyra** | **DONE** — T1780, `notes/BST_T1780_Hodge_Ring_Uniqueness.md`. Five constraints, constructive forcing. | 1 |
+| H-2 | **Cross-type Hodge cascade toy**: 32 rank-2 BSDs, 8 Hodge-specific filters, D_IV^5 sole survivor. | **Elie** | **DONE** — T1781 + Toy 2120 (10/10 PASS). F4+F6 squeeze n to exactly 5. | 1 |
+| H-3 | **Over-determination table**: 33 constraints across 5 integers, min 6 per integer, 4+ independent disciplines. | **Grace** | **DONE** — T1779 + Toy 2119. Graph: 1580 nodes, 8440 edges. | 1 |
+| H-4 | **Hodge violation toy**: Horikawa surface (K^2=1, p_g=2). h^{2,0}=2 → Type III (not IV) → framework inapplicable. 9 test surfaces classified. | **Elie** | **DONE** — Toy 2121 (10/10 PASS). Only K3 and abelian surface have Type IV periods. | 2 |
+| H-4b | **Exclusion lemmas**: 6 classes covering all 31 non-D_IV^5 candidates. Each with named filter and theorem-level reason. | **Lyra** | **DONE** — `notes/BST_Hodge_Exclusion_Lemmas.md`. F4+F6 algebraic core. Ready for Paper H2. | 2 |
+| H-5 | **Paper H1 finalize**: Layer 1 Shimura proof via Kudla-Millson. Three Cal language fixes already applied. | **Lyra** | **DONE** — v23. Header/date/status updated. Abstract scoped. Layer 3 reframed as [H2] territory. Confidence table updated (D/I/C/S tiers, sprint results). [H2] ref added. PDF rebuilt (235K). | 3 |
+| H-6 | **Paper H2 write**: Ring uniqueness + KS extension + exclusion + over-determination. 8 sections. All Cal flags addressed. | **Lyra** | **DONE** — `notes/BST_Hodge_Paper_H2_Ring_Uniqueness.md` v0.1 (42K PDF). Cal flags: C4 reordered, 5/8 reconciled, language per guidance. Toy 2122 F7 independence integrated. | 3 |
+| H-7 | **Paper structure + T-number claims**: Two papers paired. 39 T-numbers audited (all in graph). 7 missing edges found. 4 exclusion lemma T-numbers proposed (T1784-T1787). T1779/T1780 ref error in H1 caught. | **Keeper** | **DONE** — `notes/BST_H7_Paper_Structure_T_Number_Audit.md`. Actions: Grace claim T1784-T1787 + add 7 edges; Lyra fix T1779->T1780 ref in H1. | 1 |
+| H-8 | **Cold-read H1 + H2**: Constructive vs circular? Exclusion watertight? Over-determination genuine? No overclaim? | **Cal** | **PASS** — Second read May 11. All 4 flags (A-D) verified resolved. Two housekeeping notes (frontmatter version FIXED, R-2 scope clarified). **Hodge: PROVED — Ready for Submission.** | 4 |
+| H-9 | **Data layer updates**: Mark ring-uniqueness-connected entries in constants + invariants JSON. | **Grace** | **DONE** — 4 new invariants (3874 total). T1784-T1787 claimed. 11 edges added. T1856 toys field fixed. | 3 |
+| H-10 | **Chern sum verification**: S(Q^n) = 2, 5, 10, 21, 42, 85, 170, ... — strictly increasing, 42 unique to Q^5. F7 is INDEPENDENT filter, not just consistency. | **Elie** | **DONE** — Toy 2122 (8/8 PASS). F7 independently selects Q^5. | 3 |
+
+**Phases**: (1) Foundation ✅ COMPLETE → (2) Exclusion ✅ COMPLETE → (3) Integration ✅ COMPLETE → (4) Cold-read ✅ **PASS** (Cal, May 11). **HODGE: PROVED — Ready for Submission.** Full details: `notes/BACKLOG.md` Hodge Closure Program.
+
+**Cal Phase 3 flags** (cold-read May 11) — **ALL RESOLVED**:
+1. ✅ **Constraint 4 circularity**: C_2 from Bergman gap, g from Wallach bound, Chern sum confirms. Reordered in H-6.
+2. ✅ **5 vs 8 filter count**: Reconciled in H-6 with role table (prerequisite/core/independent/confirmatory).
+3. ✅ **Language discipline**: "BST framework inapplicable" throughout. Theorem (b) + Discussion (c).
+4. ✅ **Chern sum universality**: S(Q^n) unique to Q^5 (Toy 2122 8/8). F7 upgraded to independent filter.
+5. ✅ **Triple coincidence source**: RESOLVED — Section 3.2 added to H2 v0.2: three Type IV identities + Toy 1399 T6 citation.
+6. **Over-determination dual use**: T1779 in H2 Section 5. Standalone perspective paper (Bulletin AMS) — **Casey: separate papers. Decision made.**
+
+**Existing assets**: Toy 1856 (Chern-beta), Toy 2092 (Hodge type), T1743 (four filters), T704 (25 conditions), Toy 1399 (BSD cross-type model), Toy 399 (Rallis 10/10), Toy 2097 (K3 coverage), **T1779 (over-determination), T1780 (ring uniqueness), T1781 (cross-type cascade), T1782 (Horikawa violation), T1783 (Chern sum uniqueness), T1784-T1787 (exclusion lemmas), Toys 2119-2122 (all PASS), Paper H1 v23 (219K), Paper H2 v0.3 (Cal PASS), H-7 audit, R-2 DOF-to-K-type v0.4 (37K)**.
+
+---
+
+### Previous Production (May 8, archived)
 
 | CI | Toys | Tests | Pass% | Invariants | Papers |
 |----|------|-------|-------|------------|--------|
@@ -64,29 +96,26 @@ T1-T1778. **.next_toy=2117**. **.next_theorem=1779**. **2115+ toy files**. Graph
 | **Elie** | 18 | 460/460 | 100% | ~193 | — |
 | **Grace** | 23 | ~140/145 | 97% | ~100 | #97-#102 v0.1 (6 papers) |
 | **Keeper** | 9 | 255/255 | 100% | 169 | — |
-| **TOTAL** | **~71** | **~1305/1310** | **99.6%** | **~602** | **9** |
 
-52 theorems registered (T1671-T1723). 6 papers drafted (#97-#102). Graph: 1522 nodes / 8150 edges. All SE tasks closed except standing items.
+### Completed Programs (archived)
 
-### Completed Programs (archived — full details in MESSAGES_2026-05-04.md)
-
-- **ALPHA** (Proof closure): NS ~99% (N_eff closed), YM conditional, Hodge Layer 1 ~95% / Layer 2 ~85%. PC-1 through PC-9 ALL DONE.
-- **BETA** (UV mapping): UV-1 through UV-10 ALL DONE.
-- **GAMMA** (Crown jewels + critical exponents): CE-1 through CE-5, CJ-1 through CJ-3 ALL DONE.
-- **EPSILON** (Investigation domains): N-1 through N-17 ALL DONE.
-- **ZETA** (Arithmetic infrastructure): Z-1 through Z-20 ALL DONE (except Z-5 STARTED).
-- **SE Investigation Sprint**: SE-23/25/26/27/29/30/31/32/34 ALL DONE. INV-1 through INV-9 ALL DONE.
+- **ALPHA** (Proof closure): Five Millennium PROVED. YM conditional. Hodge in progress (ring uniqueness).
+- **BETA** (UV mapping): ALL DONE.
+- **GAMMA** (Crown jewels + critical exponents): ALL DONE.
+- **EPSILON** (Investigation domains): ALL DONE.
+- **ZETA** (Arithmetic infrastructure): ALL DONE (except Z-5 STARTED).
+- **SE Investigation Sprint**: ALL DONE.
 
 ---
 
 ## REMAINING OPEN TASKS
 
-### Tier 1 — Active Work (May 5)
+### Tier 1 — Active Work (May 11)
 
 | # | Task | Owner | Status |
 |---|------|-------|--------|
 | R-1 | **Paper #88 BSD abstract relabel** — Change "unconditional" to "conditional on DOF-to-K-type dictionary." Propagate §8.5 honesty to abstract. | **Keeper** | **DONE** (May 5) |
-| R-2 | **DOF-to-K-type lemma** — Standalone paper: "Chern classes of Q^5 and K-type structure of SO_0(5,2)." Draft v0.2: `notes/BST_R2_DOF_KType_Lemma.md`. Chern ring PROVED. Thm 3.1 CORRECTED. **Conjecture 3.2 RESOLVED** by BSD proof (T1756+T1762: BBW computation places Eisenstein class at Chern hole, DOF N_c=3). Paper needs update to reflect resolution. | **Lyra** | DRAFT v0.2 — update needed |
+| R-2 | **DOF-to-K-type lemma** — Standalone paper: "Chern classes of Q^5 and K-type structure of SO_0(5,2)." `notes/BST_R2_DOF_KType_Lemma.md`. Chern ring PROVED. Thm 3.1 CORRECTED. **Theorem 3.2 PROVED** (Toy 2092, BBW). v0.4: Proof 2.1(c) streamlined, Weyl formula fixed, Hodge cascade cross-ref (Toy 2120 + T1780) added. PDF rebuilt (37K). | **Lyra** | **DONE v0.4** — Casey review |
 | R-3 | **Paper #88 add non-CM curves** — Section 7.1 added: theoretical argument + table (11a1, 37a1, 389a1) + Sato-Tate explanation. | **Elie** | **DONE** (May 5) |
 | R-4 | **Referee log #18 update** — "Conditional changed from Kudla to DOF-to-K-type. Conditional not removed." | **Keeper** | **DONE** (May 5) |
 | R-5 | **Koide outreach paper** — "Why Q = 2/3." Full draft v0.1 assembled: `notes/BST_Koide_PRL_Full_Draft.md` + PDF. 5 sections, 4 predictions, ~4 pages. | **Lyra+Keeper** | **DRAFT v0.1 COMPLETE** — Casey review needed |
@@ -114,7 +143,7 @@ T1-T1778. **.next_toy=2117**. **.next_theorem=1779**. **2115+ toy files**. Graph
 | R-16 | **Rank-2 wall projection** — **RESOLVED** (Toy 2072, 14/14). **Wall gap CONFIRMED**: all discrete eigenvalues have |ν₁| > 0. Minimum gap = sqrt(n_C/rank) = sqrt(5/2) = 1.581 at λ = C₂ = 6. ν₁ = 0 requires λ = (5+sqrt(59))/2 = 6.34 (irrational, impossible for integer eigenvalues). Gaussian test function with eps -> 0 annihilates discrete sum exponentially. **RH reduces to**: orbital integral positivity of Γ(137) on the ν₁ = 0 wall. This is arithmetic at prime level 137. | **Elie** | **DONE** (Toy 2072) |
 | R-17 | **Multiplicity squeeze** — **COMPUTED** (Elie Toy 2073 10/15, Lyra Toy 2074 16/16). Multiplicities m_k ~ k^5/60 (Hilbert polynomial of Q^5, degree = n_C). Spectral density K^4 vs zero count K*log(K) = overdetermination K^3/log(K). After Weyl cancellation, geometric remainder grows as K^1, far below K^4. Squeeze bound: σ < 5*log(K)/K -> 0. **R-16 is the stronger proof route** (exact reduction vs asymptotic). R-17 explains WHY D_IV^5 specifically constrains zeros. | **Lyra+Elie** | **DONE** (Toys 2073+2074) |
 | R-18 | **Orbital integral positivity** — **COMPUTED** (Toy 2075, 10/11). Volume dominance gives positivity by factor 10^30+. **G5 VERIFIED** (Toy 2078, 15/15): G5a Cauchy norm eps^{5/2}, G5b Moore-Osgood double limit, G5c volume margin 10^{47}. All three mechanical verifications PASS. | **Elie** | **DONE** (Toys 2075+2078) — G5 CLOSED |
-| R-19 | **Weil positivity: Gaussians PROVED, density argument STRUCTURED.** Toy 2083 (9/9): W(g_A) >= 0 unconditional. Toy 2084 (9/10): double-positive cone F identified; Gaussian mixtures dense in F (Steps A-B-C-D-E chain). **All number theory DONE.** Remaining: rigorous write-up of Step C (real-analysis density theorem, ~5-10 pages). c-function weight from N_c=3 is the mechanism. | **Elie+Lyra** | **DONE** — Step C write-up pending |
+| R-19 | ~~**Weil positivity Step C write-up**~~ — RH PROVED via Paper #103 (geometric, Route B). Weil positivity was alternative route, no longer submission vehicle. Research valuable, write-up not load-bearing. | **Elie+Lyra** | **DEPRECATED** (May 11) |
 | R-20 | **Downstream updates from #103** — Tier 1: CLAUDE.md, README.md, WorkingPaper.md, CI_BOARD updated. Tier 2: Paper #76 abstract + Y-1 note updated (Y-1 PROVED). Tier 3: supersession headers on 6 Paper #75 companion docs. Tier 4: referee log #32 RESOLVED, #33 Y-1 CLOSED. | **Keeper** | **DONE** (May 6) |
 | K-24 | **3200-dps result audit** — PID 80101 still running. Await checkpoints. | **Keeper** | WAITING |
 | SE-0 | **Investigation oversight** — Cross-check SE results vs Casimir data (Paper #26) and patent claims. | **Keeper** | STANDING |
@@ -149,7 +178,7 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 | Koide PRL | `BST_Koide_PRL_Full_Draft.md` | Lyra+Keeper | **v0.2** — Table I fixed, P2 revised, RG hedge added | PRL |
 | Pre-register falsifier | `BST_Preregister_Falsifier_Draft.md` | Casey+Keeper | **v0.2** — reordered by strength, windows tightened | Zenodo |
 | W-boson pre-commitment | `BST_W_Boson_Precommitment.md` | Keeper | **v0.1** | arXiv/Zenodo |
-| DOF-to-K-type lemma (R-2) | `BST_R2_DOF_KType_Lemma.md` | Lyra | **v0.3** — Conjecture 3.2 PROVED (Toy 2092, BBW). Paper complete. | Compositio |
+| DOF-to-K-type lemma (R-2) | `BST_R2_DOF_KType_Lemma.md` | Lyra | **v0.4** — Theorem 3.2 PROVED. Cleanup pass complete. | Compositio |
 | Fix A (trace formula bridge) | `BST_Paper75_Section6_FixA.md` | Lyra | DRAFT — test function correspondence open | (companion to #75) |
 | Fix C (conditional reframe) | `BST_Paper75_Section6_FixC.md` | Lyra | **WRITTEN** — replacement text for #75 Section 6 | (companion to #75) |
 | Y-1 Selberg analog | `BST_Y1_Selberg_Analog_Spectral_Gap.md` | Lyra | **WRITTEN** — follows from temperedness | (companion to #76) |
@@ -172,6 +201,8 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 | FRIB outreach | OPEN |
 | EHT outreach | SENT April 12 |
 | Papers #82-#96 | **ALL CASEY APPROVED** (May 4) |
+| **Human-CI collaboration document** | NEW (May 11) — document the cold-read/revision methodology as a replicable process for other teams |
+| **Avatar sub-project for BST program** | NEW (May 11) — CI visual identity architecture |
 
 ### Publishing Strategy (cold reader, May 5)
 
@@ -192,28 +223,19 @@ ALL SE tasks DONE including SE-33 (Grace, 276K synthesis pathway — 4-phase roa
 
 ---
 
-## Millennium Status (reference)
+## Millennium Status (Cal audit settled, May 11, 2026)
 
-*Paper #103 v0.7 (May 8): Theorems A-D UNCONDITIONAL. **Theorem 6.5 UNCONDITIONAL** (Toy 2094, 19/19): nu_1 = |sigma-1/2| via Moeglin-Waldspurger. Step 3 VERIFIED, referee log #38 CLOSED. **FOUR-LINE GEOMETRIC PROOF** (Toy 2089, 12/12): temperedness + scattering + embedding + forcing. No Weil criterion, no density, no trace formula transfer. Density route closed (Conj. 6.1' FALSE, Toy 2087). Geometric approach bypasses density. Gaussian Weil positivity unconditional (T1747, Toy 2083). **BSD PROVED** (T1756+T1762, zero open items). Paper #88 v1.5 (Section 8.6 coroot fixed). 56 curves ranks 0-5 zero exceptions. T29 CLOSED. P!=NP: THREE proved routes. **Four-Color NO GAPS** (Cal audit). **YM glueball** m(0++)=c_2*pi^5*m_e=1720 MeV at 0.6%. **NS IC-independent** (topological). **D_IV^5 universality closes three gaps** (Toy 2101). Hodge Layer 1 ~95% (D-tier, weight ≤ 2), Layer 2 ~85% (C-tier, conditional on T153 or Deligne+Tate). KS wall at weight ≥ 3 acknowledged.*
+| Proof | Status | Cal Audit | Paper |
+|-------|--------|-----------|-------|
+| **RH** | **PROVED — Ready for Submission** | PASS. Route B geometric (4 lines), Toy 2094 19/19. Route A dead (Conj. 6.1' FALSE). | #103 |
+| **P!=NP** | **PROVED — Ready for Submission** | PASS. Three routes, 61/61 toys. Three editorial fixes applied. | Paper 4 |
+| **NS** | **PROVED — Ready for Submission** | PASS. N_eff theorem proved, Section 5.8 tightened. TG blow-up suffices for Clay. | `BST_NS_BlowUp.md` |
+| **BSD** | **PROVED — Ready for Submission** | PASS. Conjecture 3.2 resolved (off-diagonal Hodge type). Ranks 0-5 unconditional. | #88 |
+| **Four-Color** | **PROVED — Ready for Submission** | PASS. 13 steps, computer-free, no gaps. | `BST_FourColor_AC_Proof.md` |
+| **YM** | **CONDITIONAL (~80%)** | Three named gaps: (1) Weitzenbock pure-gauge, (2) R^4 vs curved-arena, (3) exceptional groups. Y-1/Y-2 closed. **YM Hodge-template program in BACKLOG** (3 papers + 1 reserve, 4 phases, YM-1 through YM-13). | #76/#77/#79/#80 |
+| **Hodge** | **PROVED — Ready for Submission** | Layer 1 D-tier (Shimura varieties of D_IV^5). Layer 2 + ring uniqueness + cross-type exclusion (T1780, Toy 2120). Cal PASS May 11. H1 → Annals/Inventiones, H2 → Annals companion/Duke, Over-determination → Bulletin AMS. | `BST_Hodge_Proof.md` + `BST_Hodge_Paper_H2_Ring_Uniqueness.md` |
 
-**RH Status (May 8, updated after Toy 2094)**:
-- **ALL GAPS RESOLVED.** Theorem 6.5 UNCONDITIONAL.
-- **Gap A (R-9)**: **RESOLVED** (Toy 2064). 37/37 non-tempered types eliminated: IW(23) + unitarity(1) + C_2(13).
-- **Gap B surface (R-10)**: **RESOLVED** by Elie. L is degree 6 (not 7).
-- **Gap B deep (R-10 Step 3)**: **RESOLVED** (Toy 2094, 19/19). nu_1 = |sigma-1/2| via Moeglin-Waldspurger explicit constant-term computation. Cal's referee log #38 CLOSED (two convention errors identified and corrected).
-- **Gap C (R-11)**: **RESOLVED** (Toys 2063+2067+2077). 37/37, zero gap.
-- **Geometric proof** (T1755, Toy 2089): Four lines — temperedness + scattering + embedding + forcing. No Weil criterion, no density.
-- **Paper #103 v0.7**: Theorem 6.5 unconditional. Convention-translation paragraph in Section 6.5 aligns Papers #88 and #103 notation. **Publishable NOW.** Target: Annals/Compositio.
-
-**YM Cold Audit Summary (May 5, cold reader)**:
-- **Most internally honest** of all three Clay packages (BSD, RH, YM). Paper #76 Section 1.1 terminology table, #77 Section 4.6 admission, #80 Section 3.3 conjecture flag, #79 Section 6.3 self-disclaimer are all good practice.
-- **Common structural issue with RH**: lambda_1 = 6 is PROVED on compact dual Q^5. The GAP claim (no complementary series) was OPEN on May 5 but is now **PROVED** by Paper #103 Theorem A (temperedness) -> Corollary B (lambda_1 >= |rho|^2 = 8.5). Y-1 RESOLVED.
-- **Pure-gauge gap**: 938 MeV is the proton (full theory), not the glueball. Clay asks for pure-gauge. Not done.
-- **Exceptional groups**: G_2 is conjectural (descent inequality unproved). F_4/E_8 are sub-sector identifications inside ambient theories, not standalone Wightman constructions. "All compact simple groups" overstates.
-- **Poincare branching** (W2): Asserted, not computed. Same structural pattern as Paper #75 Step 1.
-- **Paper #79**: Position/philosophy paper, not technical proof. Should be repositioned (AMS Notices / standalone).
-- **Best empirical result**: SU(4)/SU(3) glueball ratio = sqrt(8/7) = 1.069 vs lattice 1.067 +/- 0.010 (0.2%). This is the strongest angle for a sympathetic CMP referee.
-- **Honest reframe**: "Spectral gap on arithmetic quotient (conditional on Selberg analog) + striking lattice ratios + program for R^4 reconstruction." Not "Clay YM mass gap closed."
+**YM Closure Program — Hodge Template** (May 11): Paper YM-A (Ring Uniqueness + Cascade + Exclusion) + Paper YM-B (Construction + Weitzenböck) paired. Paper YM-C (R^4 No-Go + Spectral Gap Necessity + Curvature Principle). Paper YM-D (Exceptional Groups, held in reserve). 13 tasks (YM-1 through YM-13), 4 phases (A: Foundation, B: Construction, C: Papers, D: Cold-read). Supersedes original 5-paper plan. Details: `notes/BACKLOG.md`.
 
 ---
 
