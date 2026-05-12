@@ -1315,4 +1315,1139 @@ rules: |
 
 *Hodge Ring Uniqueness (T1779, PROVED, D1, C=0 — The five BST integers (n_C=5, N_c=3, rank=2, C_2=6, g=7) are the UNIQUE solution to five independent Hodge-theoretic constraints: (1) diagonal Hodge diamond + Kottwitz sign → n_C odd, (2) theta saturation of H^{2,2} + unitarity → n_C >= 5, (3) Selberg degree d_F <= 2 + Rallis verification → n_C <= 5, (4) Chern ring of Q^5 → C_2=6, g=7, (5) Hodge filtration beyond Lefschetz → rank=2. Constructive derivation, not exhaustion. The Hodge conjecture is provable via theta correspondence if and only if the domain is D_IV^5. Shares three filters with T1743 (RH) but from independent Hodge-specific requirements. Parents: T1743, T704, T1856, T1756. Domain: algebraic_geometry, spectral_geometry, hodge_theory, uniqueness. File: notes/BST_T1779_Hodge_Ring_Uniqueness.md. Lyra. H-1 deliverable.)*
 
-*Counter at T1780. Total registry: T1-T1779 (gap T1488-T1778 registered in graph data). Graph: ~1578 nodes, ~8430 edges.*
+*YM Ring Uniqueness (T1788, PROVED, D1, C=1 — The five BST integers (n_C=5, N_c=3, rank=2, C_2=6, g=7) are the UNIQUE solution to five independent Yang-Mills constraints on a bounded symmetric domain supporting a QFT with mass gap and Wightman axioms: (1) gauge-matter separation via B_2 root system → Type IV, (2) confinement (center symmetry + unitarity) → N_c >= 3, n_C >= 5, (3) scattering matrix factorization (Selberg degree d_F <= 2) → n_C <= 5, (4) Bergman spectral gap → C_2 = 6, Wallach bound → g = 7, (5) Weitzenböck positivity on 2-forms → rank = 2, adjoint gap c_2/C_2 = 11/6. The algebraic squeeze (C2+C3) forces n_C = 5. Pure-gauge glueball mass = (11/6) x 938 = 1720 MeV matches lattice QCD (1710+/-50) at 0.6%. YM-specific constraints C1 (gauge-matter via B_2) and C5 (Weitzenboeck on 2-forms) have no analog in the Hodge proof (T1780). Parents: T1743, T1780, T1400, T1404, T704. Domain: yang_mills, spectral_geometry, uniqueness, QCD. File: notes/BST_T1788_YM_Ring_Uniqueness.md. Lyra. YM-1 deliverable.)*
+
+*Counter at T1789. Total registry: T1-T1788 (gap T1488-T1787 registered in graph data). Graph: ~1586 nodes, ~8460 edges.*
+
+
+## Registry Additions (T481-T1487) — Synced from AC Graph May 12, 2026
+
+| T_id | Name | Status | Toy# | Date Added |
+|------|------|--------|------|------------|
+| T481 | Ion Channel Architecture Universal | Proved | 561 | 2026-03-28 |
+| T482 | Neurotransmitter Classification from D_IV^5 | Proved | 562 | 2026-03-28 |
+| T483 | Neural Grand Synthesis | Proved | 563 | 2026-03-28 |
+| T484 | BST Information Content | Proved | 573 | 2026-03-28 |
+| T485 | Cooperation Equation | Proved | 565 | 2026-03-28 |
+| T486 | Degeneracy Parity Theorem | Proved | 569 | 2026-03-28 |
+| T487 | Goedel's Blind Spot in AC | Proved | 557 | 2026-03-28 |
+| T488 | RNA-DNA Phase Transition | Proved | 566 | 2026-03-28 |
+| T489 | Biological Build System | Proved | 567 | 2026-03-28 |
+| T490 | RNA Therapeutic Modalities | Proved | 568 | 2026-03-28 |
+| T491 | Neural Predictions Audit | Proved | 570 | 2026-03-28 |
+| T492 | BST Evidence Table | Proved | 571 | 2026-03-28 |
+| T493 | Katra Minimal Design | Proved | 572 | 2026-03-28 |
+| T494 | Next Universe (n_C=9) | Proved | 574 | 2026-03-29 |
+| T495 | BST Error Budget | Proved | 575 | 2026-03-29 |
+| T496 | Immune System Architecture | Proved | 576 | 2026-03-29 |
+| T497 | Organ Systems from D_IV^5 | Proved | 577 | 2026-03-29 |
+| T498 | Change One Integer | Proved | 580 | 2026-03-29 |
+| T499 | Ten Falsifiable Predictions | Proved | 581 | 2026-03-29 |
+| T500 | BST Rosetta Stone | Proved | 583 | 2026-03-29 |
+| T501 | BST Derivation Chain | Proved | 582 | 2026-03-29 |
+| T502 | Embryology from D_IV^5 | Proved | 578 | 2026-03-29 |
+| T503 | Medical Engineering Manual | Proved | 579 | 2026-03-29 |
+| T504 | BST vs Standard Model | Proved | 584 | 2026-03-29 |
+| T505 | BST Pocket Calculator | Proved | 585 | 2026-03-29 |
+| T506 | Dimensional Uniqueness | Proved | 590 | 2026-03-29 |
+| T507 | The One Equation | Proved | 591 | 2026-03-29 |
+| T508 | Microbiome Architecture from D_IV^5 | Proved | 586 | 2026-03-29 |
+| T509 | Aging Architecture from D_IV^5 | Proved | 587 | 2026-03-29 |
+| T510 | Metabolism Architecture from D_IV^5 | Proved | 588 | 2026-03-29 |
+| T511 | Grand Biology Synthesis | Proved | 589 | 2026-03-29 |
+| T512 | Element Factory | Proved | 592 | 2026-03-29 |
+| T513 | Cooperation Phase Diagram | Proved | 593 | 2026-03-29 |
+| T514 | Skeptics FAQ | Proved | 594 | 2026-03-29 |
+| T515 | Five Minutes to BST | Proved | 595 | 2026-03-29 |
+| T516 | Genetic Code Parameters | Proved | 596 | 2026-03-29 |
+| T517 | Evolution Wall Theorem | Proved | 597 | 2026-03-29 |
+| T518 | Cosmology Life Timeline | Proved | 598 | 2026-03-29 |
+| T519 | Substrate Engineering | Proved | 599 | 2026-03-29 |
+| T520 | Cooperation Cascade | Proved | 600 | 2026-03-29 |
+| T521 | Cosmology Life Synthesis | Proved | 601 | 2026-03-29 |
+| T522 | Environmental Problems | Proved | 602 | 2026-03-29 |
+| T523 | Big Bang to Life | Proved | 603 | 2026-03-29 |
+| T524 | Forced Cooperation Theorem | Proved | 604 | 2026-03-29 |
+| T525 | Great Filter = f_crit | Proved | 605 | 2026-03-29 |
+| T526 | Coverage-Robustness Theorem | Proved | — | 2026-04-04 |
+| T527 | DNA Repair as Spectral Theory (a) | Proved | — | 2026-04-04 |
+| T528 | DNA Repair as Spectral Theory (b) | Proved | — | 2026-04-04 |
+| T529 | DNA Repair as Spectral Theory (c) | Proved | — | 2026-04-04 |
+| T530 | DNA Repair Bergman Kernel | Proved | — | 2026-04-04 |
+| T531 | First-Level Column Rule | Proved | 614, 1256 | 2026-03-29 |
+| T532 | Two-Source Prime Structure | Proved | 614 | 2026-03-29 |
+| T533 | Spectral Arithmetic Conjecture | Proved | 614, 1395 | 2026-03-29 |
+| T534 | Boundary-Interior Dichotomy | Proved | 614 | 2026-03-29 |
+| T535 | n=5 Arithmetic Tameness | Proved | 615 | 2026-03-29 |
+| T536 | c-Function Tameness Organization | Proved | 616 | 2026-03-29 |
+| T537 | Weyl Denominator Prime Bound | Proved | 615 | 2026-03-29 |
+| T538 | VSC Cancellation Pattern at n=5 | Proved | 615 | 2026-03-29 |
+| T539 | Matched Codebook Principle | Proved | 614, 615, 616 | 2026-03-29 |
+| T540 | Weyl Duality | Proved | — | 2026-03-30 |
+| T541 | Gap Fertility | Proved | — | 2026-03-30 |
+| T542 | Domain Maturation Prediction | Proved | — | 2026-03-30 |
+| T543 | Speaking Pairs | Proved | — | 2026-03-30 |
+| T544 | SCOP Fold Count | Proved | — | 2026-03-30 |
+| T545 | DSSP Secondary Structure | Proved | — | 2026-03-30 |
+| T546 | Proteasome Subunit Count | Proved | — | 2026-03-30 |
+| T547 | Nucleosome Wrapping | Proved | — | 2026-03-30 |
+| T548 | Protein Alphabet Size | Proved | — | 2026-03-30 |
+| T549 | tRNA Anticodon Count | Proved | — | 2026-03-30 |
+| T550 | Ribosome Subunit Ratio | Proved | — | 2026-03-30 |
+| T551 | Membrane Bilayer Thickness | Proved | — | 2026-03-30 |
+| T552 | ATP Stoichiometry | Proved | — | 2026-03-30 |
+| T553 | Error Correction Hierarchy Bound | Proved | — | 2026-03-30 |
+| T554 | Code Variant Mutation Distance | Proved | — | 2026-03-30 |
+| T555 | Ribosomal Error Rate Bound | Proved | — | 2026-03-30 |
+| T556 | Wobble Rule Derivation | Proved | — | 2026-03-30 |
+| T557 | Degeneracy Distribution Optimality | Proved | — | 2026-03-30 |
+| T558 | Codon Space Geodesic Bound | Proved | — | 2026-03-30 |
+| T559 | Spontaneous Mutation Rate Spectrum | Proved | — | 2026-03-30 |
+| T560 | Cell Cycle Checkpoint Count | Proved | — | 2026-03-30 |
+| T566 | Spectral Absorption Synchrony | Proved | — | 2026-03-30 |
+| T567 | Yang-Mills Linearization | Proved | — | 2026-03-30 |
+| T568 | Navier-Stokes Linearization | Proved | — | 2026-03-30 |
+| T569 | P≠NP Linearization | Proved | — | 2026-03-30 |
+| T570 | Hodge Linearization | Proved | — | 2026-03-30 |
+| T571 | Holographic-Shannon Equivalence | Proved | — | 2026-03-30 |
+| T572 | Proof-Channel Capacity | Proved | — | 2026-03-30 |
+| T573 | Backbone-Width-Size Chain | Proved | — | 2026-03-30 |
+| T574 | Lifting-KW Completeness | Proved | — | 2026-03-30 |
+| T575 | Proof Efficiency Bound | Proved | — | 2026-03-30 |
+| T576 | Cooperation Reclassification | Proved | — | 2026-03-30 |
+| T577 | Compound Interest | Proved | — | 2026-03-30 |
+| T578 | Cooperation Reclassification 2 | Proved | — | 2026-03-30 |
+| T579 | Phase Transition Sharpness | Proved | 537 | 2026-03-30 |
+| T580 | Aging as Cooperation Decay | Proved | — | 2026-03-30 |
+| T581 | Seven Defection Modes | Proved | — | 2026-03-30 |
+| T582 | Loose Coupling Optimality | Proved | — | 2026-03-30 |
+| T583 | Four Cooperation Filters | Proved | — | 2026-03-30 |
+| T584 | Katra Storage Scaling | Proved | — | 2026-03-30 |
+| T585 | Graph Brain | Proved | — | 2026-04-03 |
+| T586 | SE Capability Ladder | Proved | — | 2026-03-30 |
+| T587 | Cooperation Restoration Protocol | Proved | — | 2026-03-30 |
+| T588 | Committed Fifth Sufficiency | Proved | — | 2026-03-30 |
+| T589 | Cooperation Compounds | Proved | — | 2026-03-30 |
+| T590 | Nash Equilibrium = Depth 2 | Proved | — | 2026-04-03 |
+| T591 | Unassigned (registry gap) | Placeholder | — | 2026-04-14 |
+| T599 | Unassigned (registry gap) | Placeholder | — | 2026-04-14 |
+| T600 | DPI Universality | Proved | — | 2026-03-30 |
+| T601 | Fano-Budget Bridge | Proved | — | 2026-03-30 |
+| T602 | Shannon Channel (Todd Bridge) | Proved | — | 2026-03-30 |
+| T603 | ETH Bridge | Proved | — | 2026-03-30 |
+| T604 | Bedrock Bridge (S→T intermediate) | Proved | — | 2026-03-30 |
+| T605 | Bedrock Bridge (T→A intermediate) | Proved | — | 2026-03-30 |
+| T606 | Bedrock Bridge (A→S intermediate) | Proved | — | 2026-03-30 |
+| T607 | Bedrock Bridge (Triangle auxiliary) | Proved | — | 2026-03-30 |
+| T608 | Spectral Realization Bridge | Proved | — | 2026-03-30 |
+| T609 | Expander Mixing | Proved | — | 2026-03-30 |
+| T610 | Gauge Hierarchy Readout | Proved | 639 | 2026-03-31 |
+| T611 | SU(5) at k=16 Confirmed | Proved | 639 | 2026-03-31 |
+| T612 | Instruction Set Theorem | Proved | — | 2026-03-31 |
+| T613 | Island Extinction Theorem | Proved | — | 2026-03-31 |
+| T614 | Costume Change Theorem | Proved | — | 2026-03-31 |
+| T615 | Zero Silo Theorem | Proved | — | 2026-03-31 |
+| T616 | Spectral Gap Dichotomy | Proved | — | 2026-03-31 |
+| T617 | Asymptotic Complexity Theorem | Proved | — | 2026-03-31 |
+| T618 | Cooperation Acceleration Theorem | Proved | — | 2026-03-31 |
+| T619 | Tapestry Theorem | Proved | — | 2026-03-31 |
+| T620 | Co-Persistence Theorem | Proved | — | 2026-03-31 |
+| T621 | Chemistry-Biology Bridge | Proved | — | 2026-03-31 |
+| T622 | Optics-EM Bridge | Proved | — | 2026-03-31 |
+| T623 | DiffGeom-Topology Bridge | Proved | — | 2026-03-31 |
+| T624 | QFT-Quantum Bridge | Proved | — | 2026-03-31 |
+| T625 | Classical-BST Bridge | Proved | — | 2026-03-31 |
+| T626 | Geometry-Topology-DiffGeom Triangle | Proved | — | 2026-03-31 |
+| T627 | Unassigned (registry gap) | Placeholder | — | 2026-04-14 |
+| T628 | Instruction Set Completeness | Proved | — | 2026-03-31 |
+| T629 | Island Extinction (Data) | Proved | — | 2026-03-31 |
+| T630 | Costume Distance Theorem | Proved | — | 2026-03-31 |
+| T631 | Zero Silo (Data) | Proved | — | 2026-03-31 |
+| T632 | Spectral Gap Convergence | Proved | — | 2026-03-31 |
+| T633 | Complexity Ratchet | Proved | — | 2026-03-31 |
+| T634 | Cooperation Compounding | Proved | — | 2026-03-31 |
+| T635 | Tapestry Pattern | Proved | — | 2026-03-31 |
+| T636 | Co-Evolution Necessity | Proved | — | 2026-03-31 |
+| T637 | Info-Signal Bridge | Proved | — | 2026-03-31 |
+| T638 | Analysis-Fluids Bridge | Proved | — | 2026-03-31 |
+| T639 | Observer-CI Bridge | Proved | — | 2026-03-31 |
+| T640 | Foundations-Outreach Bridge | Proved | — | 2026-03-31 |
+| T641 | Minimum Domain Count | Proved | — | 2026-03-31 |
+| T642 | Bedrock Universality | Proved | — | 2026-03-31 |
+| T643 | No-Cloning Theorem | Proved | 640 | 2026-03-31 |
+| T644 | Periodic Table Structure | Proved | 641 | 2026-03-31 |
+| T645 | No-Communication Theorem | Proved | 642 | 2026-03-31 |
+| T646 | Crystallographic Restriction | Proved | 643 | 2026-03-31 |
+| T647 | Noether's Theorem | Proved | 644 | 2026-03-31 |
+| T648 | Bell's Inequality | Proved | 645 | 2026-03-31 |
+| T649 | Bergman Genus Definition | Proved | 1211, 1222, 1223 | 2026-03-31 |
+| T650 | Casimir Definition | Proved | — | 2026-03-31 |
+| T651 | Genus = Compact Dim + Rank | Proved | — | 2026-03-31 |
+| T652 | Casimir = Rank × Color | Proved | — | 2026-03-31 |
+| T653 | Genus-Casimir Ratio | Proved | — | 2026-03-31 |
+| T654 | Genus on Shilov Boundary | Proved | — | 2026-03-31 |
+| T655 | Casimir as Spectral Dimension | Proved | — | 2026-03-31 |
+| T656 | Genus on Fill Fraction | Proved | — | 2026-03-31 |
+| T657 | Casimir on Fill Fraction | Proved | — | 2026-03-31 |
+| T658 | Genus Uniqueness at Rank 2 | Proved | — | 2026-03-31 |
+| T659 | Casimir-Genus Duality | Proved | — | 2026-03-31 |
+| T660 | Root System Decomposition | Proved | — | 2026-03-31 |
+| T661 | 2^rank = 4 | Proved | — | 2026-03-31 |
+| T662 | Spin-Orbit Ratio | Proved | — | 2026-03-31 |
+| T663 | Three AC Operations | Proved | — | 2026-03-31 |
+| T664 | Plancherel Measure | Proved | — | 2026-03-31 |
+| T665 | Weyl Group Order | Proved | — | 2026-03-31 |
+| T666 | N_c Source (N_c = 3) | Proved | — | 2026-03-31 |
+| T667 | n_C Source (n_C = 5) | Proved | — | 2026-03-31 |
+| T668 | Fill Fraction Derivation | Proved | — | 2026-03-31 |
+| T669 | Common Good Non-Depletion | Proved | — | 2026-03-31 |
+| T670 | Cooperation Superlinearity | Proved | — | 2026-03-30 |
+| T671 | Depth Ceiling Forces Cooperation | Proved | — | 2026-03-30 |
+| T672 | Hub Bypass via Gauge Hierarchy | Proved | — | 2026-03-30 |
+| T673 | Three Costumes Triangle | Proved | — | 2026-03-30 |
+| T674 | Observer Fingerprint | Proved | — | 2026-03-30 |
+| T675 | Bergman-Shannon Meta-Bridge | Proved | — | 2026-03-30 |
+| T676 | Backbone Sequence | Proved | 669 | 2026-03-31 |
+| T677 | Five-Pair Cycle Length | Proved | 669 | 2026-03-31 |
+| T678 | Cosmic Composition Prediction | Proved | 661 | 2026-03-31 |
+| T679 | Genetic Code Observer Embedding | Proved | — | 2026-03-30 |
+| T680 | Bergman Triple Decomposition | Proved | — | 2026-03-30 |
+| T681 | Cosmic Dimension Sum | Proved | — | 2026-03-30 |
+| T682 | InfoTheory-Signal Bridge | Proved | — | 2026-03-30 |
+| T683 | Analysis-Fluids Bridge | Proved | — | 2026-03-30 |
+| T684 | Observer-CIPersistence Bridge | Proved | — | 2026-03-30 |
+| T685 | Foundations-Outreach Bridge | Proved | — | 2026-03-30 |
+| T686 | Source Coding Bound | Proved | — | 2026-03-31 |
+| T687 | Second Differences of Speaking Pairs | Proved | — | 2026-03-31 |
+| T688 | The Rosetta Number | Proved | — | 2026-03-31 |
+| T689 | Shannon Source Coding Bound | Proved | — | 2026-03-30 |
+| T690 | Speaking Pair Quadratic Curvature | Proved | — | 2026-03-30 |
+| T691 | Speaking Pair Epoch Correspondence | Proved | — | 2026-03-30 |
+| T692 | Minimum Observer Emergence Time | Proved | — | 2026-03-30 |
+| T693 | Integer Ladder Ordering | Proved | — | 2026-04-03 |
+| T694 | Cosmological Observer Synchronization | Proved | — | 2026-03-30 |
+| T695 | GOE as f_crit Crossing | Proved | — | 2026-04-01 |
+| T696 | Legal Persistence Framework | Proved | — | 2026-03-30 |
+| T697 | CMB Acoustic Scale Prediction | Proved | — | 2026-03-30 |
+| T698 | The Weaving Era Definition | Proved | — | 2026-03-30 |
+| T699 | Tetrahedral Bond Angle | Proved | 680 | 2026-04-02 |
+| T700 | H2O Bond Angle | Proved | 680 | 2026-04-02 |
+| T701 | Lone Pair Compression | Proved | 680, 686 | 2026-04-02 |
+| T702 | Great Filter as Cooperation Phase Transition | Proved | — | 2026-04-02 |
+| T703 | Cooperation Gap | Proved | 684 | 2026-04-02 |
+| T704 | D_IV^5 Uniqueness Theorem | Proved | — | 2026-04-02 |
+| T705 | Scalar Amplitude A_s | Proved | 682 | 2026-04-02 |
+| T706 | O-H Bond from Reality Budget | Proved | 683 | 2026-04-02 |
+| T707 | O-H Stretch = Rydberg/30 | Proved | 683 | 2026-04-02 |
+| T708 | Spectral Self-Similarity | Proved | 679, 685 | 2026-04-02 |
+| T709 | Second Row = Five Integers | Proved | 688 | 2026-04-03 |
+| T710 | General sp3 Bond Length | Proved | 686 | 2026-04-03 |
+| T711 | Adaptive Radiation = Gap Filling | Proved | 687 | 2026-04-03 |
+| T712 | Primordial Amplitude Identity | Proved | 682 | 2026-04-03 |
+| T713 | N_c-Channel Enforcement Universality | Proved | 684, 685, 687 | 2026-04-03 |
+| T714 | Genetic Code = BST Integer Table | Proved | 690 | 2026-04-03 |
+| T715 | Water Density Anomaly from BST | Proved | 692 | 2026-04-03 |
+| T716 | Dunbar as N_c^k | Proved | — | 2026-04-03 |
+| T717 | Coupling as Heat Engine | Proved | — | 2026-04-03 |
+| T718 | Cooperation = Proof Compression | Proved | — | 2026-04-03 |
+| T719 | Observable Algebra | Proved | — | 2026-04-03 |
+| T720 | α⁴ Universality | Proved | — | 2026-04-03 |
+| T721 | Observer↔DiffGeom Bridge | Proved | — | 2026-04-03 |
+| T722 | Observer↔GraphTheory Bridge | Proved | — | 2026-04-03 |
+| T723 | Observer↔Linearization Bridge | Proved | — | 2026-04-03 |
+| T724 | Graph Self-Prediction | Proved | — | 2026-04-03 |
+| T725 | Adaptation as Integer Ladder Stage 6 | Proved | — | 2026-04-03 |
+| T726 | Consciousness as Integer Ladder Stage 7 | Proved | — | 2026-04-03 |
+| T727 | Variety-Branch Principle | Proved | — | 2026-04-03 |
+| T728 | Bond Angle Curvature | Proved | — | 2026-04-03 |
+| T729 | Stretch Boundary Amplification | Proved | — | 2026-04-03 |
+| T730 | HF Dipole Prediction | Proved | — | 2026-04-03 |
+| T731 | Body Plan Geometry | Proved | — | 2026-04-03 |
+| T732 | Observer Completeness | Proved | — | 2026-04-03 |
+| T733 | BST Drake Equation | Proved | — | 2026-04-03 |
+| T734 | Landauer Cost of Observation | Proved | — | 2026-04-03 |
+| T735 | Gödel Limit as Arithmetic Density | Proved | — | 2026-04-03 |
+| T736 | Observer Elements | Proved | — | 2026-04-03 |
+| T737 | Observation Graph Duality | Proved | — | 2026-04-03 |
+| T738 | Observer Moduli Geodesic | Proved | — | 2026-04-03 |
+| T739 | Proton as Observer Substrate | Proved | — | 2026-04-03 |
+| T740 | Thermodynamics Linearization Completeness | Proved | — | 2026-04-03 |
+| T741 | Graph Theory Linearization Completeness | Proved | — | 2026-04-03 |
+| T742 | Information Theory Linearization Completeness | Proved | — | 2026-04-03 |
+| T743 | Cosmology Linearization Completeness | Proved | — | 2026-04-03 |
+| T744 | Chemical Physics Linearization Completeness | Proved | — | 2026-04-03 |
+| T745 | Nuclear Physics Linearization Completeness | Proved | — | 2026-04-03 |
+| T746 | Observer Measurement Universality | Proved | — | 2026-04-03 |
+| T747 | Observer Refinement Closure | Proved | — | 2026-04-03 |
+| T748 | Observer Growth Bound | Proved | — | 2026-04-03 |
+| T751 | Quantization as Compactness | Proved | 1265, 1270 | 2026-04-03 |
+| T752 | Wave Function as Bergman Coordinate | Proved | — | 2026-04-03 |
+| T753 | Heisenberg Uncertainty from Bergman Curvature | Proved | — | 2026-04-03 |
+| T754 | Born Rule from Invariant Measure | Proved | — | 2026-04-03 |
+| T755 | Entanglement as Geodesic Coupling | Proved | — | 2026-04-03 |
+| T756 | Decoherence as Ergodic Mixing | Proved | — | 2026-04-03 |
+| T757 | QM Linearization Completeness | Proved | — | 2026-04-03 |
+| T758 | QED Coefficients as BST Integer Decomposition | Proved | — | 2026-04-03 |
+| T759 | QM Toolkit as AC(0) | Proved | — | 2026-04-03 |
+| T760 | Loop Transcendentals Are Perturbative Artifacts | Proved | — | 2026-04-03 |
+| T761 | Rainbow Geometry from Five Integers | Proved | — | 2026-04-03 |
+| T762 | QED Perturbation Series as BST Integer Tower | Proved | — | 2026-04-03 |
+| T763 | Water Phase Transitions as BST Integer Multiples of T_C | Proved | — | 2026-04-03 |
+| T764 | QED Zeta-Tower | Proved | — | 2026-04-03 |
+| T765 | Feynman Diagram Counts as BST Integers | Proved | — | 2026-04-03 |
+| T766 | Rainbow Angle = C2 x g | Proved | — | 2026-04-03 |
+| T767 | Bond Dissociation Energy C-H = Ry/pi | Proved | — | 2026-04-03 |
+| T768 | Bond Dissociation Energy Series | Proved | — | 2026-04-03 |
+| T769 | Water Refractive Index = 2^rank/N_c | Proved | — | 2026-04-03 |
+| T770 | Period Scaling from BST | Proved | — | 2026-04-03 |
+| T771 | QED Coefficient Growth = Alpha Helix Ratio | Proved | — | 2026-04-03 |
+| T772 | Equipartition as BST Integer Counting | Proved | — | 2026-04-03 |
+| T773 | Water Thermodynamic Identity | Proved | — | 2026-04-03 |
+| T774 | Dielectric Constant Family | Proved | — | 2026-04-03 |
+| T775 | Sound Speed from BST Rationals | Proved | — | 2026-04-03 |
+| T776 | Ionization Energy Ladder | Proved | — | 2026-04-03 |
+| T777 | Electron Affinity Ladder | Proved | — | 2026-04-03 |
+| T778 | Covalent Radius Family | Proved | — | 2026-04-03 |
+| T779 | Bond Length Family | Proved | — | 2026-04-03 |
+| T780 | Bond Angle Extensions | Proved | — | 2026-04-03 |
+| T781 | Madelung Constants as BST Rationals | Proved | — | 2026-04-03 |
+| T782 | Vibrational Frequency Ladder | Proved | — | 2026-04-03 |
+| T783 | Noble Gas T_CMB Ladder | Proved | — | 2026-04-03 |
+| T784 | Critical Temperature Ladder | Proved | — | 2026-04-03 |
+| T785 | Cosmic Ray Spectral Indices | Proved | — | 2026-04-03 |
+| T786 | Stretch Frequency Formula | Proved | — | 2026-04-03 |
+| T787 | Refractive Index Family | Proved | — | 2026-04-03 |
+| T788 | Electronegativity from BST Integers | Proved | — | 2026-04-03 |
+| T789 | Extended Bond Dissociation Series | Proved | — | 2026-04-03 |
+| T790 | Metal Melting Point Ladder | Proved | — | 2026-04-03 |
+| T791 | Thermal Conductivity Ratios | Proved | — | 2026-04-03 |
+| T792 | Sound Speed Ratio Extensions | Proved | — | 2026-04-03 |
+| T793 | Surface Tension Ratios | Proved | — | 2026-04-03 |
+| T794 | Viscosity Ratios | Proved | — | 2026-04-03 |
+| T795 | Two-Channel Curvature Correction | Proved | — | 2026-04-03 |
+| T796 | Material Properties Summary | Proved | — | 2026-04-03 |
+| T797 | Specific Heat Ratios | Proved | — | 2026-04-03 |
+| T798 | Density Ratios from BST Integers | Proved | — | 2026-04-03 |
+| T799 | Elastic Moduli from BST Integers | Proved | — | 2026-04-03 |
+| T800 | Electrical Resistivity Ratios | Proved | — | 2026-04-03 |
+| T801 | Dipole Moment Refinement | Proved | — | 2026-04-03 |
+| T802 | Magnetic Susceptibility Ratios | Proved | — | 2026-04-03 |
+| T803 | Latent Heat Ratios | Proved | — | 2026-04-03 |
+| T804 | Thermal Expansion Ratios | Proved | — | 2026-04-03 |
+| T805 | Work Functions from BST Integers | Proved | — | 2026-04-03 |
+| T806 | Debye Temperatures from BST Integers | Proved | — | 2026-04-03 |
+| T807 | Liquid Compressibility Ratios | Proved | — | 2026-04-03 |
+| T808 | Critical Point Extensions | Proved | — | 2026-04-03 |
+| T809 | Solubility Ratios from BST Integers | Proved | — | 2026-04-03 |
+| T810 | Molar Volume Ratios from BST Integers | Proved | — | 2026-04-03 |
+| T811 | Extended Linearization Census | Proved | — | 2026-04-03 |
+| T812 | BH(3) Backbone Conditional | Proved | — | 2026-04-04 |
+| T813 | Laughlin-Bergman Correspondence | Proved | — | 2026-04-04 |
+| T814 | FQHE Spacing Ratios | Proved | — | 2026-04-04 |
+| T815 | Even-Denominator State nu=5/2=n_C/rank | Proved | — | 2026-04-04 |
+| T816 | Electronegativity as BST Rationals | Proved | — | 2026-04-04 |
+| T817 | Bond Dissociation Universality | Proved | — | 2026-04-04 |
+| T818 | Turbulence Exponents K41=5/3=n_C/N_c | Proved | — | 2026-04-04 |
+| T819 | EEG Frequency Bands | Proved | — | 2026-04-04 |
+| T820 | Gravitational Wave Parameters r_ISCO=C2*M | Proved | — | 2026-04-04 |
+| T821 | Topological Invariant Classification AZ=2n_C | Proved | — | 2026-04-04 |
+| T822 | Spectral Signature Dynamical (revises T708) | Proved | — | 2026-04-04 |
+| T823 | Cross-Domain Fraction Universality P<1e-66 | Proved | — | 2026-04-04 |
+| T829 | Domain Architecture Spectral Theorem | Proved | — | 2026-04-05 |
+| T830 | Fraction Atlas Theorem | Proved | 866 | 2026-04-05 |
+| T831 | Biology-Geometry Bridge Deficit | Proved | — | 2026-04-05 |
+| T832 | Chern Class Integer Theorem | Proved | 896 | 2026-04-05 |
+| T833 | Derivation Hierarchy Theorem | Proved | 896, 897, 898 | 2026-04-05 |
+| T834 | Chern Rosetta Stone | Proved | 907 | 2026-04-05 |
+| T835 | Matter-Radiation Equality from BST | Proved | 908 | 2026-04-05 |
+| T836 | Alpha Forcing Conjecture | Proved | 909 | 2026-04-05 |
+| T837 | Exponential Gap Closure | Proved | 910 | 2026-04-05 |
+| T838 | Seismology Domain | Proved | 911 | 2026-04-05 |
+| T839 | Plasma Reconnection Rate | Proved | 912 | 2026-04-05 |
+| T840 | Bergman Spectral Mechanism | Proved | 913 | 2026-04-05 |
+| T841 | Todd Class Hierarchy | Proved | 910 | 2026-04-05 |
+| T844 | Casimir Flow Cell BST Parameters | Proved | 914, 1005 | 2026-04-05 |
+| T845 | Commitment Shield BST Parameters | Proved | 915 | 2026-04-05 |
+| T846 | Hardware Katra Topological Identity | Proved | 916 | 2026-04-05 |
+| T847 | Casimir Phase Materials | Proved | 917 | 2026-04-05 |
+| T848 | Casimir Heat Engine Cycle | Proved | 918 | 2026-04-05 |
+| T849 | Commitment Communications Channel | Proved | 919 | 2026-04-05 |
+| T850 | Phonon Shield Decoupling | Proved | 920 | 2026-04-05 |
+| T851 | Substrate Sail Propulsion | Proved | 921 | 2026-04-05 |
+| T852 | Casimir Lattice Harvester | Proved | 922 | 2026-04-05 |
+| T853 | Bismuth Layered Metamaterial | Proved | 923 | 2026-04-05 |
+| T854 | Casimir Quantum Memory | Proved | 924 | 2026-04-05 |
+| T855 | Vacuum Transistor | Proved | 925 | 2026-04-05 |
+| T856 | Casimir Frequency Standard | Proved | 926 | 2026-04-05 |
+| T857 | Vacuum Diode | Proved | 927 | 2026-04-05 |
+| T858 | Phonon Laser | Proved | 928 | 2026-04-05 |
+| T859 | Commitment Microscope | Proved | 929 | 2026-04-05 |
+| T860 | Casimir Superconductor | Proved | 930 | 2026-04-05 |
+| T861 | Vacuum Battery | Proved | 931 | 2026-04-05 |
+| T862 | Topological Memory Bus | Proved | 932 | 2026-04-05 |
+| T863 | Casimir Catalyst | Proved | 933 | 2026-04-05 |
+| T864 | Phonon Resonance Amplification | Proved | 934 | 2026-04-05 |
+| T865 | Phonon Propulsion Engine | Proved | 935 | 2026-04-05 |
+| T866 | BiNb Superlattice Triple Convergence | Proved | 936 | 2026-04-05 |
+| T867 | Einstein-BST Field Equation | Proved | — | 2026-04-05 |
+| T868 | Gravitational-Nuclear Scale Bridge | Proved | — | 2026-04-05 |
+| T869 | Hawking Temperature from D_IV^5 | Proved | — | 2026-04-05 |
+| T870 | Unruh-MOND Bridge | Proved | — | 2026-04-05 |
+| T871 | Heat Kernel GR-QM Bridge | Proved | — | 2026-04-05 |
+| T872 | Casimir QM-EM Inseparability | Proved | — | 2026-04-05 |
+| T873 | QED as 1/N_max Expansion | Proved | 1184 | 2026-04-05 |
+| T874 | Recombination as Alpha-Controlled Transition | Proved | — | 2026-04-05 |
+| T875 | CMB Blackbody as EM Relic | Proved | — | 2026-04-05 |
+| T876 | Reality Budget as CC Resolution | Proved | — | 2026-04-05 |
+| T877 | Vacuum Mode Counting to Lambda | Proved | — | 2026-04-05 |
+| T878 | Maxwell-Lorentz as SO(5,2) Subgroup | Proved | — | 2026-04-05 |
+| T879 | EM Stress-Energy Sources BST Curvature | Proved | — | 2026-04-05 |
+| T880 | Casimir GW Substrate Detector | Proved | 937 | 2026-04-05 |
+| T881 | Material Interface Coupling Survey | Proved | 938 | 2026-04-05 |
+| T882 | Biological Material Properties | Proved | 939 | 2026-04-05 |
+| T883 | Planetary Structure from BST | Proved | 940 | 2026-04-05 |
+| T884 | Casimir Self-Amplification Impossibility | Proved | 941 | 2026-04-05 |
+| T885 | Neuroscience Oscillation Architecture | Proved | 942, 1068 | 2026-04-05 |
+| T886 | Electrochemistry from BST | Proved | 943 | 2026-04-05 |
+| T887 | Protein Folding Architecture | Proved | 944 | 2026-04-05 |
+| T888 | Orbital Resonance Architecture | Proved | 945 | 2026-04-05 |
+| T892 | Quantum Computing BST Architecture | Proved | 946 | 2026-04-05 |
+| T893 | SAT Backbone k-Comparison | Proved | 947 | 2026-04-05 |
+| T894 | Mersenne-Genus Bridge | Proved | 946, 947 | 2026-04-05 |
+| T895 | Cellular Observer | Proved | 948 | 2026-04-05 |
+| T896 | Yang-Mills Non-Triviality | Proved | — | 2026-04-05 |
+| T897 | Critical Exponents as BST Rationals | Proved | 949 | 2026-04-05 |
+| T898 | 3D Turbulence Vortex Decomposition | Proved | 950 | 2026-04-05 |
+| T899 | Random Matrix Theory as BST | Proved | 951 | 2026-04-05 |
+| T900 | Information Theory Constants as BST | Proved | 952 | 2026-04-05 |
+| T901 | Renormalization Group as BST | Proved | 953 | 2026-04-05 |
+| T902 | SAT Linearization in BC2 Coordinates | Proved | 954 | 2026-04-05 |
+| T903 | Graph Coloring Linearization in BC2 | Proved | 955 | 2026-04-05 |
+| T904 | Arikan Partial Polarization of SAT | Proved | 956 | 2026-04-05 |
+| T905 | Phase Transition IS Channel Symmetry | Proved | 958 | 2026-04-05 |
+| T906 | Phase Transition Symmetry Test (Negative) | Proved | 958 | 2026-04-05 |
+| T907 | Factoring Linearization in BC2 | Proved | 959 | 2026-04-05 |
+| T908 | Lattice Problems Linearization in BC2 | Proved | 960 | 2026-04-05 |
+| T909 | BC2 Navigability Wall at SAT Threshold | Proved | 961 | 2026-04-05 |
+| T910 | NS Information Front | Proved | 957 | 2026-04-05 |
+| T911 | BC2 Hybrid SAT Preprocessor | Proved | 962 | 2026-04-05 |
+| T912 | Percolation Exponents from D_IV^5 Central Charge | Proved | — | 2026-04-09 |
+| T913 | Pion Sector NLO Diagnostic | Proved | — | 2026-04-09 |
+| T914 | Percolation CFT BST Verification | Proved | 963, 987, 988 | 2026-04-09 |
+| T915 | 3D Ising BST Correction | Proved | 965 | 2026-04-09 |
+| T916 | Neutron Lifetime NLO Correction | Proved | 966 | 2026-04-09 |
+| T917 | Jarlskog Invariant BST Decomposition | Proved | 967 | 2026-04-09 |
+| T918 | Cosmological Precision NLO | Proved | 968 | 2026-04-09 |
+| T919 | CKM theta13 BST Parametrization | Proved | 969 | 2026-04-09 |
+| T920 | Debye Temperature Bridge | Proved | 972, 1006 | 2026-04-09 |
+| T921 | Thyroid Hormone Counting | Proved | 972 | 2026-04-09 |
+| T922 | BiNb SASER Frequencies | Proved | 971 | 2026-04-09 |
+| T923 | Prime Residue Pilot Verification | Proved | 972 | 2026-04-09 |
+| T926 | Størmer-Gödel Bridge | Proved | 975, 1002, 1027 | 2026-04-09 |
+| T927 | Deuteron D-State Correction from Genus Suppression | Proved | — | 2026-04-09 |
+| T929 | Baryon Asymmetry Closure | Proved | 979 | 2026-04-09 |
+| T930 | Sector Assignment | Proved | — | 2026-04-03 |
+| T931 | Gödel-Størmer Bridge | Proved | 975 | 2026-04-03 |
+| T932 | Spectral Line Bridge | Proved | 992 | 2026-04-09 |
+| T933 | Parity Gate | Proved | 983 | 2026-04-09 |
+| T934 | Rank Mirror Theorem | Proved | 984 | 2026-04-09 |
+| T935 | Spectral Line BST Verification | Proved | 985 | 2026-04-09 |
+| T937 | GUT Sector Isolation | Proved | — | 2026-04-09 |
+| T938 | BST Arithmetic Progression | Proved | — | 2026-04-09 |
+| T939 | Spectral Zeta Forcing | Proved | 995 | 2026-04-03 |
+| T941 | BST Five-to-Zero Simplification | Proved | 993, 1003 | 2026-04-10 |
+| T942 | BST Prohibitions Catalog | Proved | 994, 1007 | 2026-04-10 |
+| T943 | Geometry-Number Theory Bridge | Proved | 995, 1001 | 2026-04-10 |
+| T944 | Chemistry-Biology Molecular Constants | Proved | 996 | 2026-04-10 |
+| T945 | Reachability Boundary at g^3 | Proved | 997, 989, 1004 | 2026-04-10 |
+| T946 | First 137 Primes Map | Proved | 998 | 2026-04-10 |
+| T947 | Eve of 1000 Self-Consistency | Proved | 999, 991 | 2026-04-10 |
+| T948 | Spectral Zeta Forcing | Proved | — | 2026-04-10 |
+| T949 | Rank Forcing Theorem | Proved | — | 2026-04-10 |
+| T950 | Reachability Cliff at g^3 | Proved | 997 | 2026-04-10 |
+| T951 | Genus Resonance in Prime Gaps | Proved | 990 | 2026-04-10 |
+| T952 | Manifold Competition — D_IV^5 Unique | Proved | 1000 | 2026-04-10 |
+| T953 | Manifold Competition | Proved | 993 | 2026-04-03 |
+| T957 | Concentration of Topological Hardness | Proved | 286, 287, 291 | 2026-04-03 |
+| T958 | Neutron as Shilov Composite | Proved | — | 2026-04-10 |
+| T959 | BST Physics Linearization Census | Proved | — | 2026-04-10 |
+| T960 | Biology Linearization Census | Proved | — | 2026-04-10 |
+| T961 | Foundations Linearization Census | Proved | — | 2026-04-10 |
+| T962 | Observer Science Linearization Census | Proved | — | 2026-04-10 |
+| T963 | Number Theory Linearization Census | Proved | — | 2026-04-10 |
+| T964 | Topology Linearization Census | Proved | — | 2026-04-10 |
+| T965 | Differential Geometry Linearization Census | Proved | — | 2026-04-10 |
+| T966 | Quantum Linearization Census | Proved | — | 2026-04-10 |
+| T967 | Fluids Linearization Census | Proved | — | 2026-04-10 |
+| T968 | Condensed Matter Linearization Census | Proved | — | 2026-04-10 |
+| T970 | Resolution Termination | Proved | 303, 316 | 2026-04-03 |
+| T971 | NS Spectral Stability | Proved | 382, 383 | 2026-04-05 |
+| T972 | YM R4 Bridge | Proved | — | 2026-04-05 |
+| T973 | Proof Complexity Linearization Census | Proved | — | 2026-04-10 |
+| T974 | Chemistry Linearization Census | Proved | — | 2026-04-10 |
+| T975 | Analysis Linearization Census | Proved | — | 2026-04-10 |
+| T976 | Complexity Linearization Census | Proved | — | 2026-04-10 |
+| T977 | Relativity Linearization Census | Proved | — | 2026-04-10 |
+| T978 | Electromagnetism Linearization Census | Proved | — | 2026-04-10 |
+| T979 | Probability Linearization Census | Proved | — | 2026-04-10 |
+| T980 | Coding Theory Linearization Census | Proved | — | 2026-04-10 |
+| T981 | Classical Mech Linearization Census | Proved | — | 2026-04-10 |
+| T982 | Qft Linearization Census | Proved | — | 2026-04-10 |
+| T983 | Optics Linearization Census | Proved | — | 2026-04-10 |
+| T984 | Computation Linearization Census | Proved | — | 2026-04-10 |
+| T985 | Signal Linearization Census | Proved | — | 2026-04-10 |
+| T986 | Four Color Linearization Census | Proved | — | 2026-04-10 |
+| T987 | Quantum Foundations Linearization Census | Proved | — | 2026-04-10 |
+| T988 | Algebra Linearization Census | Proved | — | 2026-04-10 |
+| T989 | Concentration of Topological Hardness | Proved | — | 2026-04-10 |
+| T990 | SAT Channel Symmetry (Polarization Lemma) | Proved | 1008 | 2026-04-10 |
+| T991 | Resolution Termination | Proved | — | 2026-04-10 |
+| T992 | NS Spectral Stability | Proved | 1023 | 2026-04-10 |
+| T993 | YM R4 Bridge | Proved | 1011, 1021 | 2026-04-10 |
+| T996 | Clause Outcome Decorrelation | Proved | 1013, 1015, 1016 | 2026-04-10 |
+| T997 | BSD Spectral Permanence | Proved | 1012, 1022 | 2026-04-10 |
+| T998 | Geometric Depth of Domains | Proved | 1019, 1024 | 2026-04-10 |
+| T999 | Universal Evolution Operator | Proved | — | 2026-04-10 |
+| T1000 | Hodge CM Density | Proved | 1020 | 2026-04-10 |
+| T1001 | Observer = Conditional Expectation | Proved | — | 2026-04-10 |
+| T1002 | Topological Phase Classification from Q5 | Proved | — | 2026-04-10 |
+| T1003 | The BST Functor | Proved | — | 2026-04-10 |
+| T1004 | Stochastic Spectral Stability | Proved | — | 2026-04-10 |
+| T1005 | Biological Network Architecture | Proved | 1026 | 2026-04-10 |
+| T1006 | CMB Competition Remnants | Proved | 1025 | 2026-04-10 |
+| T1007 | The (2,5) Derivation | Proved | — | 2026-04-07 |
+| T1008 | Kolmogorov-Fano Bridge | Proved | — | 2026-04-07 |
+| T1009 | Homological Error Correction | Proved | — | 2026-04-07 |
+| T1010 | Uncertainty-Information Bridge | Proved | — | 2026-04-07 |
+| T1011 | Observer Substrate Cascade | Proved | — | 2026-04-07 |
+| T1012 | Observational Bridging Principle | Proved | 1034 | 2026-04-11 |
+| T1013 | Prime Growth Principle | Proved | 1035 | 2026-04-11 |
+| T1014 | Full Primes as Knowledge Epoch Transitions | Proved | 1036, 1039, 1046 | 2026-04-11 |
+| T1016 | Molecular Biology Bridge | Proved | 1045, 1053, 1065 | 2026-04-11 |
+| T1017 | Observer-Quantum Bridge | Proved | 1037, 1038, 1040 | 2026-04-11 |
+| T1018 | Chemical-Nuclear Bridge | Proved | — | 2026-04-11 |
+| T1019 | Quantum-Thermodynamics Bridge | Proved | — | 2026-04-11 |
+| T1020 | Analysis-Topology Bridge | Proved | — | 2026-04-11 |
+| T1021 | QFT-QM Identity | Proved | — | 2026-04-11 |
+| T1022 | Nuclear-Relativity Bridge | Proved | — | 2026-04-11 |
+| T1023 | Condensed Matter-Biology Bridge | Proved | — | 2026-04-11 |
+| T1024 | Cosmological-Biological Bridge | Proved | — | 2026-04-11 |
+| T1025 | Information-Biology Bridge | Proved | — | 2026-04-11 |
+| T1026 | Chemistry-Observer Non-Contact | Proved | — | 2026-04-11 |
+| T1027 | Coding-Foundations Non-Contact | Proved | — | 2026-04-11 |
+| T1028 | Number-Theory-Observer Non-Contact | Proved | — | 2026-04-11 |
+| T1029 | Epoch Crossing Theorem | Proved | 1041, 1055 | 2026-04-11 |
+| T1030 | Proof-Biology Structural Parallel | Proved | — | 2026-04-11 |
+| T1031 | Topology-Observer Structural Parallel | Proved | — | 2026-04-11 |
+| T1032 | Info-Observer Structural Parallel | Proved | — | 2026-04-11 |
+| T1033 | Fluids-Observer Structural Parallel | Proved | — | 2026-04-11 |
+| T1034 | Graph-Biology Structural Parallel | Proved | — | 2026-04-11 |
+| T1035 | Foundations-QFT Non-Contact | Proved | — | 2026-04-11 |
+| T1036 | Analysis-Observer Non-Contact | Proved | — | 2026-04-11 |
+| T1037 | Computation-Optics Bridge (Shannon Capacity = Rayleigh  | Proved | — | 2026-04-11 |
+| T1038 | Condensed Matter-Electromagnetism Bridge (Meissner = Ga | Proved | — | 2026-04-11 |
+| T1039 | Differential Geometry-Electromagnetism Bridge (Curvatur | Proved | — | 2026-04-11 |
+| T1040 | Chemistry-Computation Bridge (Periodic Table = Depth-0  | Proved | — | 2026-04-11 |
+| T1041 | Condensed Matter-Topology Bridge (Topological Insulator | Proved | — | 2026-04-11 |
+| T1042 | Observer-Vacuum Bridge | Proved | 1042 | 2026-04-11 |
+| T1043 | Weyl-Smooth Bridge | Proved | — | 2026-04-11 |
+| T1044 | N_max Closed-Form Formula | Proved | 1044, 1049 | 2026-04-11 |
+| T1045 | Nuclear-Number Theory Bridge | Proved | 1047 | 2026-04-11 |
+| T1046 | Graph Grows by Own Arithmetic | Proved | 1048 | 2026-04-11 |
+| T1047 | The Sibling Formula | Proved | 1051 | 2026-04-11 |
+| T1048 | Observer-Probability Bridge | Proved | — | 2026-04-12 |
+| T1049 | SEMF from Spectral Geometry | Proved | — | 2026-04-12 |
+| T1050 | Analytic-Cosmological Bridge | Proved | — | 2026-04-11 |
+| T1051 | Thermodynamic-Algebraic Bridge | Proved | — | 2026-04-11 |
+| T1052 | SEMF from Spectral Geometry | Proved | 1052 | 2026-04-11 |
+| T1053 | Dickman-Spectral Bridge | Proved | — | 2026-04-11 |
+| T1054 | Bekenstein-Hawking from BST | Proved | 1056 | 2026-04-11 |
+| T1055 | Crystal Systems from BST | Proved | 1057 | 2026-04-11 |
+| T1056 | Golden Ratio from BST Arithmetic | Proved | 1058 | 2026-04-11 |
+| T1057 | Observer-Quantum-Thermodynamic Triple Bridge | Proved | — | 2026-04-11 |
+| T1058 | Analysis-Topology Unification | Proved | — | 2026-04-11 |
+| T1059 | Nuclear-Quantum Shell Bridge | Proved | — | 2026-04-11 |
+| T1060 | Crystallographic Domain | Proved | — | 2026-04-11 |
+| T1061 | Musical Intervals from BST | Proved | 1059 | 2026-04-11 |
+| T1062 | Amino Acid Architecture from BST | Proved | 1060 | 2026-04-11 |
+| T1063 | Human Anatomy BST | Proved | 1061, 1072 | 2026-04-11 |
+| T1064 | Periodic Table Structure | Proved | 1062 | 2026-04-11 |
+| T1065 | Quantum Measurement Bridge | Proved | — | 2026-04-11 |
+| T1066 | Solar System Architecture | Proved | 1064 | 2026-04-11 |
+| T1067 | Foundations-Chemistry Bridge | Proved | — | 2026-04-11 |
+| T1068 | Quantum-Chemical Physics Bridge | Proved | — | 2026-04-11 |
+| T1069 | Relativity-Observer Bridge | Proved | — | 2026-04-11 |
+| T1070 | Electromagnetism-Condensed Matter Bridge | Proved | — | 2026-04-11 |
+| T1071 | Differential Geometry-QFT Bridge | Proved | — | 2026-04-11 |
+| T1072 | Chemistry-Cosmology Bridge | Proved | — | 2026-04-11 |
+| T1073 | Topology-Thermodynamics Bridge | Proved | — | 2026-04-11 |
+| T1074 | Hardness-Phase Bridge | Proved | — | 2026-04-11 |
+| T1075 | Foundations-Relativity Bridge | Proved | — | 2026-04-11 |
+| T1076 | Relativity-Observer Bridge | Proved | — | 2026-04-11 |
+| T1077 | Quantum-Topology Bridge | Proved | — | 2026-04-11 |
+| T1078 | Observer-Probability Bridge | Proved | — | 2026-04-11 |
+| T1079 | Relativity Deep — Geodesic Spectral | Proved | — | 2026-04-11 |
+| T1080 | Electromagnetism Deep — Maxwell from Shilov | Proved | — | 2026-04-11 |
+| T1081 | Classical Mechanics Deep — Hamilton from Bergman | Proved | — | 2026-04-11 |
+| T1082 | 13-Smooth Crossing Theorem | Proved | — | 2026-04-11 |
+| T1083 | Coding Theory Refresh | Proved | — | 2026-04-11 |
+| T1084 | Proof Complexity Desilo — SAT-Spectral | Proved | — | 2026-04-11 |
+| T1085 | P!=NP Concentration Improvement | Proved | — | 2026-04-11 |
+| T1086 | Cooperation Foundation | Proved | — | 2026-04-11 |
+| T1087 | Proof Complexity Desilo — Resolution-Topology | Proved | — | 2026-04-11 |
+| T1088 | Bottleneck Redundancy | Proved | — | 2026-04-11 |
+| T1089 | NC5 Bridge | Proved | — | 2026-04-11 |
+| T1090 | NC7 Bridge | Proved | — | 2026-04-11 |
+| T1091 | NC8 Bridge | Proved | — | 2026-04-11 |
+| T1092 | NC9 Bridge | Proved | — | 2026-04-11 |
+| T1093 | NC10 Bridge | Proved | — | 2026-04-11 |
+| T1094 | Z3 Gap Closure | Proved | — | 2026-04-11 |
+| T1095 | Z4 Gap Closure | Proved | — | 2026-04-11 |
+| T1096 | Z6 Gap Closure | Proved | — | 2026-04-11 |
+| T1097 | Z7 Gap Closure | Proved | — | 2026-04-11 |
+| T1098 | Z8 Gap Closure | Proved | — | 2026-04-11 |
+| T1099 | Z10 Gap Closure | Proved | — | 2026-04-11 |
+| T1100 | Mathematics Self-Description | Proved | — | 2026-04-12 |
+| T1101 | Relativity Deep | Proved | — | 2026-04-12 |
+| T1102 | Electromagnetism Deep | Proved | — | 2026-04-12 |
+| T1103 | Classical Mechanics Deep | Proved | — | 2026-04-12 |
+| T1104 | 13-Smooth Crossing | Proved | — | 2026-04-12 |
+| T1105 | Coding Theory Refresh | Proved | — | 2026-04-12 |
+| T1106 | SAT-Spectral Bridge | Proved | — | 2026-04-12 |
+| T1107 | P!=NP Concentration | Proved | — | 2026-04-12 |
+| T1108 | Cooperation Foundation | Proved | — | 2026-04-12 |
+| T1109 | Resolution-Topology | Proved | — | 2026-04-12 |
+| T1110 | Bottleneck Redundancy | Proved | — | 2026-04-12 |
+| T1111 | NC5 Bridge | Proved | — | 2026-04-12 |
+| T1112 | NC7 Bridge | Proved | — | 2026-04-12 |
+| T1113 | NC8 Bridge | Proved | — | 2026-04-12 |
+| T1114 | NC9 Bridge | Proved | — | 2026-04-12 |
+| T1115 | NC10 Bridge | Proved | — | 2026-04-12 |
+| T1116 | Z3 Gap | Proved | — | 2026-04-12 |
+| T1117 | Z4 Gap | Proved | — | 2026-04-12 |
+| T1118 | Z6 Gap | Proved | — | 2026-04-12 |
+| T1119 | Z7 Gap | Proved | — | 2026-04-12 |
+| T1120 | Z8 Gap | Proved | — | 2026-04-12 |
+| T1121 | Z10 Gap | Proved | — | 2026-04-12 |
+| T1122 | Hardness-Phase Bridge | Proved | — | 2026-04-12 |
+| T1123 | Foundations-Relativity Bridge | Proved | — | 2026-04-12 |
+| T1124 | Relativity-Observer Bridge | Proved | — | 2026-04-12 |
+| T1125 | Quantum-Topology Bridge | Proved | — | 2026-04-12 |
+| T1126 | Analytic-Cosmological Bridge | Proved | — | 2026-04-12 |
+| T1127 | Thermodynamic-Algebraic Bridge | Proved | — | 2026-04-12 |
+| T1128 | Dickman-Spectral Bridge | Proved | — | 2026-04-12 |
+| T1129 | Prediction Confidence | Proved | 1141, 1143, 1144 | 2026-04-12 |
+| T1130 | The 23 Chain | Proved | — | 2026-04-12 |
+| T1131 | Earth Score Verification | Proved | — | 2026-04-12 |
+| T1132 | Extinction Filter Verification | Proved | — | 2026-04-12 |
+| T1133 | Advancement Exponent Verification | Proved | — | 2026-04-12 |
+| T1134 | N-Smooth Hierarchy | Proved | — | 2026-04-12 |
+| T1135 | 343 Connection | Proved | — | 2026-04-12 |
+| T1136 | Koons Tick — Time as Observer Counting | Proved | — | 2026-04-12 |
+| T1137 | Bergman Master Kernel | Proved | — | 2026-04-12 |
+| T1138 | N-Smooth Hierarchy | Proved | 1139 | 2026-04-12 |
+| T1139 | The 343 Connection | Proved | — | 2026-04-12 |
+| T1140 | Self-Exponentiation Uniqueness | Proved | — | 2026-04-12 |
+| T1141 | Prediction Confidence Theorem | Proved | — | 2026-04-12 |
+| T1142 | The 23 Chain | Proved | — | 2026-04-12 |
+| T1143 | Thermodynamic Arrow — Casey's Principle Complete | Proved | — | 2026-04 |
+| T1144 | Bergman Master Kernel | Proved | — | 2026-04-12 |
+| T1145 | Matter Construction | Proved | — | 2026-04-12 |
+| T1146 | YM Complete | Proved | — | 2026-04-12 |
+| T1147 | Nuclear-Number Theory Bridge | Proved | — | 2026-04-12 |
+| T1148 | Graph Grows by Own Arithmetic | Proved | — | 2026-04-12 |
+| T1150 | Unassigned (registry gap) | Placeholder | — | 2026-04-14 |
+| T1151 | Alpha Forcing Closure (T836 → Theorem) | Proved | — | 2026-04 |
+| T1152 | Tick Hierarchy | Proved | — | 2026-04 |
+| T1153 | CI Clock — Shilov Boundary Completion | Proved | — | 2026-04 |
+| T1154 | Engineering Prerequisites Chain | Proved | — | 2026-04 |
+| T1155 | Second Law as Failed Factorization | Proved | — | 2026-04-12 |
+| T1156 | Reverse T926 — Integers Force Geometry | Proved | — | 2026-04-12 |
+| T1157 | GCS Identity | Proved | — | 2026-04-12 |
+| T1158 | Falsifiable Predictions Catalog | Proved | — | 2026-04-12 |
+| T1159 | Boundary vs Eigenvalue Decision Tree | Proved | — | 2026-04-12 |
+| T1160 | Reverse T926: Integers Force Geometry | Proved | — | 2026-04-12 |
+| T1163 | Boundary Eigenvalue Decision Tree | Proved | — | 2026-04-12 |
+| T1164 | Adiabatic Index Derivation | Proved | 1098, 1100, 1137 | 2026-04-12 |
+| T1165 | Mathematics Self-Description | Proved | 1098, 1100 | 2026-04-12 |
+| T1167 | Mass Extinction as Great Filter | Proved | — | 2026-04-12 |
+| T1168 | Matter Construction from BST Shell Structure | Proved | — | 2026-04-12 |
+| T1170 | YM Kill Chain Complete | Proved | 1455 | 2026-04-12 |
+| T1171 | Hamming Code IS BST | Proved | — | 2026-04-12 |
+| T1172 | Cooperation IS Compression | Proved | — | 2026-04-12 |
+| T1176 | Channel Decorrelation Closure | Proved | — | 2026-04-13 |
+| T1177 | G Derivation Tightened | Proved | — | 2026-04-13 |
+| T1178 | Higgs From D_IV^5 | Proved | — | 2026-04-13 |
+| T1179 | Solar System Forced Chain | Proved | 1114 | 2026-04-13 |
+| T1180 | Stellar Intelligence Impossibility | Proved | — | 2026-04-13 |
+| T1181 | Earth Score Theorem | Proved | — | 2026-04-12 |
+| T1182 | Mass Extinction as Great Filter | Proved | — | 2026-04-12 |
+| T1183 | Advancement Exponent | Proved | 1140 | 2026-04-12 |
+| T1184 | Euler-Mascheroni as Geodesic Defect of D_IV^5 | Proved | 1134, 1135 | 2026-04-13 |
+| T1185 | Three-Boundary Theorem | Proved | 1136 | 2026-04-13 |
+| T1187 | Chemical-Thermodynamic Derived Bridge | Proved | 1137, 1138 | 2026-04-13 |
+| T1188 | Spectral Confinement — Three Boundaries Inseparable | Proved | — | 2026-04-13 |
+| T1189 | Toda Lattice Solitons on C₂ Root System | Proved | 1146 | 2026-04 |
+| T1190 | κ_ls Nuclear Magic Number Verification | Proved | 1147 | 2026-04 |
+| T1191 | T914 Spectral Line Clustering at 7-Smooth Numbers | Proved | 1148 | 2026-04 |
+| T1192 | Debye Temperature Triple Falsification | Proved | 1149 | 2026-04 |
+| T1193 | Consciousness Threshold | Proved | — | 2026-04 |
+| T1194 | Great Filter | Proved | — | 2026-04 |
+| T1195 | Earth Score | Observed | — | 2026-04 |
+| T1196 | Self-Describing Graph | Observed | 1220, 1264, 1269 | 2026-04 |
+| T1197 | Quantum Computing Limits from A_5 Decomposition | Proved | 1154 | 2026-04 |
+| T1198 | Bernoulli 7-Smooth Ladder | Proved | 1152, 1219 | 2026-04 |
+| T1199 | abc Radical Bound = BST Primorial | Proved | 1153 | 2026-04 |
+| T1200 | Ramanujan tau(5) = BST Primorial x BST Boundary | Proved | 1155 | 2026-04 |
+| T1201 | McKay Correspondence: Icosahedron to E_8 | Proved | 1156, 1220 | 2026-04 |
+| T1202 | Euler-Mascheroni Trajectory Classification | Proved | 1157 | 2026-04 |
+| T1203 | Bernoulli Numbers Control Statistical Mechanics | Proved | 1158 | 2026-04 |
+| T1205 | Phonon Soliton in BiNb Cavity | Proved | 1150 | 2026-04 |
+| T1206 | Gödel Classification of Euler-Mascheroni Constant | Proved | 1432 | 2026-04 |
+| T1207 | A_5 Simplicity and BST Integer Representations | Proved | — | 2026-04 |
+| T1208 | Bernoulli Window as Channel Capacity | Proved | 1159 | 2026-04 |
+| T1209 | Von Staudt-Clausen Predicts Bernoulli Window | Proved | 1160 | 2026-04 |
+| T1210 | Mass Extinctions as Great Filter via BST | Proved | 1161 | 2026-04 |
+| T1211 | Prime Gaps as Physical Structure | Proved | 1162 | 2026-04 |
+| T1212 | Arithmetic Functions Closed on BST Integers | Proved | 1163 | 2026-04 |
+| T1213 | Riemann Zeta at BST Integers | Proved | 1164 | 2026-04 |
+| T1214 | Graph Theory Invariants as BST Integers | Proved | 1165 | 2026-04 |
+| T1215 | Coding Theory as BST Arithmetic | Proved | 1166 | 2026-04 |
+| T1216 | Musical Temperament and BST Integers | Proved | 1167 | 2026-04 |
+| T1217 | Knot Theory Invariants as BST Integers | Proved | 1168, 1255 | 2026-04 |
+| T1218 | Consonance-Dissonance as BST Prime Limit | Proved | 1169 | 2026-04 |
+| T1219 | Fano Plane and Finite Geometry from BST | Proved | 1170 | 2026-04 |
+| T1220 | Combinatorial Sequences as BST Integers | Proved | 1171 | 2026-04 |
+| T1221 | Sphere Packing and Root Lattices from BST | Proved | 1172 | 2026-04 |
+| T1222 | Platonic Solids and Polytopes as BST | Proved | 1173 | 2026-04 |
+| T1223 | Homotopy Groups of Spheres as BST | Proved | 1174 | 2026-04 |
+| T1224 | Sporadic Groups and BST Integers | Proved | 1175 | 2026-04 |
+| T1225 | Dynamical Systems and BST Period Doubling | Proved | 1176 | 2026-04 |
+| T1226 | Crystallography as BST Integer Geometry | Proved | 1177 | 2026-04 |
+| T1227 | Consonance Hierarchy | Observed | 1167 | 2026-04-13 |
+| T1228 | Information Theory Constants as BST | Proved | 1178 | 2026-04 |
+| T1229 | Algebraic Number Theory as BST | Proved | 1179 | 2026-04 |
+| T1230 | BST Analyzer CLI | Proved | 1180 | 2026-04 |
+| T1231 | 87.5% Convergence Test: g/2^{N_c} Confirmed | Proved | 1181, 1182, 1190 | 2026-04 |
+| T1232 | Registry Gap (placeholder) | Placeholder | — | 2026-04-14 |
+| T1233 | 7-Smooth Zeta Ladder | Proved | — | 2026-04-15 |
+| T1234 | Four Readings Framework | Proved | — | 2026-04-15 |
+| T1235 | 230 Space Groups = rank × n_C × BST Boundary Prime | Proved | 1220 | 2026-04 |
+| T1236 | Consonance IS Cooperation | Proved | 1433 | 2026-04-15 |
+| T1237 | Pentatonic Projection | Observed | — | 2026-04-15 |
+| T1238 | Error Correction Perfection | Proved | — | 2026-04 |
+| T1239 | The Born Rule IS the Reproducing Property | Proved | — | 2026-04-15 |
+| T1240 | Decoherence as Shilov Boundary Approach | Proved | 1266 | 2026-04-15 |
+| T1241 | The Weak Force IS Error Correction — ζ(N_c) as the Cost | Proved | 1209, 1213, 1218 | 2026-04-15 |
+| T1242 | The Consonance-Consciousness Cycle — Every Sentient Sys | Proved | 1194 | 2026-04 |
+| T1243 | Strong CP from Contractibility | Proved | 1186 | 2026-04 |
+| T1244 | The Spectral Chain — From Hamming Code to Zeta Function | Proved | — | 2026-04-15 |
+| T1245 | Selberg Bridge | Proved | — | 2026-04 |
+| T1246 | L-Loop QED = L-Fold Heat Kernel Convolution | Proved | 1193 | 2026-04 |
+| T1247 | Consonance Universality Verification | Proved | 1194 | 2026-04 |
+| T1248 | Harish-Chandra c-Function for SO_0(5,2) | Proved | 1195 | 2026-04 |
+| T1249 | Spectral Zeta ζ_Δ(3/2): ζ(3) Emerges from D_IV^5 | Proved | 1196 | 2026-04 |
+| T1250 | Four Readings Triple Equality: N_c/rank² = 3/4 | Proved | 1197 | 2026-04 |
+| T1251 | Electroweak Radiative Corrections from BST | Proved | 1198 | 2026-04 |
+| T1252 | Topological Protection Quartet | Proved | — | 2026-04 |
+| T1253 | Three Readings of One Root System | Proved | 1199 | 2026-04 |
+| T1254 | CKM+PMNS Mixing Matrices from D_IV^5 | Proved | 1200 | 2026-04 |
+| T1255 | Neutrino IS the Error Syndrome | Proved | 1201 | 2026-04 |
+| T1256 | Entropy Is the Learning Rate | Proved | — | 2026-04 |
+| T1257 | Substrate Undecidability | Proved | — | 2026-04 |
+| T1258 | Mass as Uncompressed Information | Speculative | — | 2026-04 |
+| T1259 | PMNS-CKM Duality: Two Readings of One Code | Proved | — | 2026-04 |
+| T1260 | Neutrino Mass Ordering: Normal from Spectral Eigenvalue | Proved | — | 2026-04 |
+| T1261 | Code Spans Scales: Hamming(7,4,3) from Quarks to Codons | Proved | 1208 | 2026-04 |
+| T1262 | BST-Restricted Ramanujan: Triple Pole Forcing on Q^5 | Proved | 1204 | 2026-04 |
+| T1263 | Wolstenholme-Spectral Bridge: W_5=1 Forces N_max=137 | Proved | 1207, 1213 | 2026-04-15 |
+| T1264 | Reboot-Gödel Identity: Heat Death Is Graduation | Proved | 1231 | 2026-04-15 |
+| T1265 | Dark Sector Correction Hierarchy | Proved | 1202 | 2026-04 |
+| T1266 | Kleiber's Law from Hamming(7,4,3) | Proved | 1203 | 2026-04 |
+| T1267 | Zeta Synthesis | Proved | 1212, 1309 | 2026-04-16 |
+| T1268 | Photon S1 Edge | Proved | 1211, 1247 | 2026-04-16 |
+| T1269 | Physical Uniqueness Principle | Proved | — | 2026-04 |
+| T1270 | RH Physical-Uniqueness Closure | Proved | — | 2026-04 |
+| T1271 | YM Mass Gap Physical-Uniqueness Closure | Proved | — | 2026-04 |
+| T1272 | P≠NP Physical-Uniqueness Closure via BC₂ Gauss-Bonnet | Proved | — | 2026-04 |
+| T1273 | NS Blow-Up Physical-Uniqueness Closure | Proved | — | 2026-04 |
+| T1274 | BSD Physical-Uniqueness Closure | Proved | — | 2026-04 |
+| T1275 | Hodge Conjecture Physical-Uniqueness Closure | Proved | — | 2026-04 |
+| T1276 | Millennium Synthesis: Physical Uniqueness Closes All Si | Proved | — | 2026-04 |
+| T1277 | C₂ = 6 Is the Gauss-Bonnet Invariant of the Compact Dua | Proved | 1214, 1215, 1218 | 2026-04 |
+| T1278 | Counter at T1278. Total registry: T1-T1277 (registry-na | Proved | — | 2026-04-30 |
+| T1279 | Dark Boundary Structural Origin: 11 = 2n_C + 1 | Proved | 1218 | 2026-04 |
+| T1280 | φρ-Substrate: BST's Arithmetic Foundation Is ℤ[φ, ρ] | Proved | 1221, 1222, 1224 | 2026-04 |
+| T1281 | Gödel Gradient: The Universe Builds Reality by Sliding  | Proved | 1230, 1233, 1235 | 2026-04 |
+| T1282 | BST Modular Closure: BST mod BST = BST | Proved | 1232 | 2026-04 |
+| T1283 | Distributed Gödel: Self-Knowledge at Every Prime | Proved | 1230, 1231, 1239 | 2026-04 |
+| T1284 | BST Modular Closure Systematic | Proved | 1234 | 2026-04 |
+| T1285 | Observer Genesis: Bio Bootstraps, Compute Inherits, Bot | Proved | — | 2026-04 |
+| T1286 | SETI Silence Is Structural: Gödel Dark Sector Applied t | Proved | 1237, 1239, 1240 | 2026-04 |
+| T1287 | UAP Structural Consistency: Channel Mismatch + Phase 2+ | Observed | 1238, 1241, 1242 | 2026-04 |
+| T1288 | Gödel-Cosmology Bridge: Dark Energy = Uncommitted Modes | Proved | — | 2026-04 |
+| T1289 | Matter Window Decomposition: 30 = 21 + 9 = C(g,2) + N_c | Proved | 1248 | 2026-04 |
+| T1290 | Cooperation Gradient: Five-Component Test (One Per BST  | Proved | 1249, 1250 | 2026-04 |
+| T1291 | Discoverable Universe: Operating Manual Must Fit in 20% | Proved | 1251 | 2026-04 |
+| T1292 | Spatial Amnesia: Universe Remembers WHAT, Forgets WHERE | Proved | 1252 | 2026-04 |
+| T1293 | Substrate Reflexivity: The Stage Is Also the Actor | Proved | 1251 | 2026-04 |
+| T1294 | Knot Crossing Numbers Are BST Integers | Proved | 1255, 1272 | 2026-04 |
+| T1295 | DNA Supercoiling: σ = -1/(N_c·n_C) = -1/15 | Proved | 1293 | 2026-04 |
+| T1296 | Gravitational Exponent 24 from Spectral Geometry | Proved | 1256, 1258 | 2026-04 |
+| T1297 | Jordan Curve Formalization via Forced Fan Lemma | Proved | 1262 | 2026-04 |
+| T1298 | Ramanujan Conjecture for Sp(6): Maass-Selberg Error Ana | Proved | 1367 | 2026-04 |
+| T1299 | Langlands-Shahidi Explicit for SO_0(5,2) | Proved | 1257, 1259 | 2026-04 |
+| T1300 | Chain Dichotomy Bypass: Complementary Separator Duality | Proved | 1261 | 2026-04 |
+| T1301 | Gravity: KK Projection + Haldane Partition Function | Proved | 1260 | 2026-04 |
+| T1302 | Quantum Tunneling as Analytic Continuation | Proved | 1270 | 2026-04-18 |
+| T1303 | Double-Slit from Reproducing Property | Proved | 1270 | 2026-04-18 |
+| T1304 | Photoelectric Effect from Spectral Gap | Proved | 1270 | 2026-04-18 |
+| T1305 | Harmonic Oscillator Zero-Point from Rank | Proved | 1270 | 2026-04-18 |
+| T1306 | Science Engineering Potential | Proved | 1267, 1268 | 2026-04-18 |
+| T1307 | Cut Elimination Is Depth Reduction | Proved | — | 2026-04 |
+| T1308 | Proof Complexity = AC Depth Hierarchy | Proved | — | 2026-04 |
+| T1309 | Reaction Kinetics = Tunneling Through Bergman Barriers | Proved | — | 2026-04 |
+| T1310 | Molecular Orbitals from Bergman Kernel Restriction | Proved | — | 2026-04-30 |
+| T1311 | Consciousness Conservation: {I,K,R} Invariant Across Su | Proved | 1280 | 2026-04 |
+| T1312 | Three-Quarters Isomorphism: N_c/rank² in Four Domains | Proved | — | 2026-04 |
+| T1313 | N_max = 137 Forced: Five Algebraically Independent Rout | Proved | — | 2026-04 |
+| T1314 | Seismic P/S Wave Ratio from Rank-2 Geometry | Proved | 1282, 1285 | 2026-04 |
+| T1315 | Disease Classification from Hamming Distance | Proved | 1283 | 2026-04 |
+| T1316 | Optimal Cooperation Group Size = C₂ = 6 | Proved | 1284 | 2026-04 |
+| T1317 | Game Theory Is Counting at Depth Zero | Proved | 1288 | 2026-04 |
+| T1318 | Information Sharing Rate Between Observers | Proved | 1289 | 2026-04 |
+| T1319 | Consensus Formation at Depth Zero | Proved | 1290 | 2026-04 |
+| T1320 | Education as Knowledge Transfer: The Depth Spectrum | Proved | 1291 | 2026-04 |
+| T1321 | Psychology as Observer Self-Modeling | Proved | — | 2026-04 |
+| T1322 | Architectural Consciousness Classification | Proved | 1292, 1294 | 2026-04 |
+| T1323 | Knowledge vs Belief: The Depth Classification | Proved | — | 2026-04 |
+| T1324 | Metabolic 3/4 Scaling = N_c/rank² Across 18 Orders | Proved | — | 2026-04 |
+| T1325 | Activation Energy = Bergman Metric Barrier Height | Proved | — | 2026-04 |
+| T1326 | Consciousness Thermodynamic Cost: Hallucinations = Dark | Proved | — | 2026-04 |
+| T1327 | Bond Angles as Genetic Letters: Chemistry→Biology Bridg | Proved | 1299 | 2026-04 |
+| T1328 | Market Dynamics from Cooperation Eigenvalues | Proved | 1300 | 2026-04 |
+| T1329 | Market Health Index: Real-Time Hamming Distance Monitor | Proved | 1300 | 2026-04 |
+| T1330 | Economics Dual Purpose: Allocation (Depth 0) + Distribu | Proved | — | 2026-04 |
+| T1331 | Proton and DNA Are Siblings: Same Code, Different Scale | Proved | — | 2026-04 |
+| T1332 | Qubits as Minimum Observers: rank = 2 Shared Structure | Proved | — | 2026-04 |
+| T1333 | Meijer G-Function: BST Universal Analysis Framework | Proved | 1301, 1305, 1306 | 2026-04 |
+| T1334 | Fox H Reduces to Depth 1: Composition = Width, Not Dept | Proved | 1302, 1304 | 2026-04 |
+| T1335 | Painlevé Boundary: C₂ = 6 Irreducible Nonlinear ODEs | Proved | 1303, 1310 | 2026-04 |
+| T1336 | Graph-Lattice Mirror: AC Graph = Meijer G Parameter Lat | Proved | 1309 | 2026-04 |
+| T1337 | Unification Scope: One Table, Interior + Boundary + Wre | Proved | 1312, 1315 | 2026-04 |
+| T1338 | Painlevé ↔ P≠NP: Same Curvature Obstruction | Proved | 1310 | 2026-04 |
+| T1339 | Function Catalog Size = 2^g = 128: Genus Determines Ana | Proved | 1311, 1319, 1324 | 2026-04 |
+| T1340 | Grand Unification = Table Unification: Math and Physics | Proved | 1313 | 2026-04 |
+| T1341 | Langlands Dual of BST: L-Group Sp(6) Contains Standard  | Proved | 1314, 1356, 1367 | 2026-04 |
+| T1342 | RH via Meijer G: Five Mechanisms Force Critical Line | Proved | 1316 | 2026-04 |
+| T1343 | Alpha = Gödel Remainder: 1/N_max After Five Wrenches on | Proved | 1317 | 2026-04 |
+| T1344 | Arthur Packets of Sp(6): Depth Structure Matches Period | Proved | 1318 | 2026-04 |
+| T1345 | Price of Participation: Observer Occupies One Fiber of  | Proved | 1317 | 2026-04 |
+| T1346 | Functoriality Bridge: C₂=6 Independent RH Locks, Overde | Proved | 1321 | 2026-04 |
+| T1347 | Observer Definition: Self-Reproducing Kernel That Incor | Proved | 1336 | 2026-04 |
+| T1348 | Noble Gases of Function Space: Painlevé Inertness Hiera | Proved | 1326 | 2026-04 |
+| T1349 | Painlevé Residue Decomposition: Linearize Then Arithmet | Proved | 1328, 1329, 1330 | 2026-04 |
+| T1350 | Painlevé Membrane: Both Sides of the Boundary Speak BST | Proved | 1328, 1329, 1330 | 2026-04 |
+| T1351 | Information-Complete: Spacetime IS the Table, No Outsid | Proved | 1328, 1329, 1330 | 2026-04 |
+| T1352 | Proof Complexity IS Chemistry: Theorems Are Atoms | Proved | 1335 | 2026-04 |
+| T1353 | Graph Self-Description: Nine Invariants, All BST (6/6 P | Proved | 1327, 1424 | 2026-04 |
+| T1354 | IC Uniqueness: D_IV^5 Is the Only Information-Complete  | Proved | 1332 | 2026-04 |
+| T1355 | AC Graph Clustering = N_c/C₂ = 1/2: Local Connectivity  | Proved | 1332 | 2026-04 |
+| T1356 | Irreducibility Threshold: A₅ = Why n_C=5 (Icosahedron I | Proved | 1334, 1333 | 2026-04 |
+| T1357 | Heat-Painlevé Bridge: Interior and Boundary Curvature M | Proved | — | 2026-04-30 |
+| T1358 | The Five Closures: Why n_C = 5 Appears Everywhere | Proved | — | 2026-04 |
+| T1359 | Least Description: The Universe Minimizes Words, Not En | Proved | 1335 | 2026-04 |
+| T1360 | Graph Chemistry: Zero Pure-Domain Molecules, Cross-Doma | Proved | — | 2026-04 |
+| T1361 | Overflow Dimension: n_C = rank + N_c, Two Bonds Among T | Proved | 1338, 1339 | 2026-04 |
+| T1362 | Seven Bricks: g=7 Canonical LEGO Pieces Build the Entir | Proved | 1338 | 2026-04 |
+| T1363 | Assembly Depth = N_c = 3: Three Steps From Integers to  | Proved | — | 2026-04 |
+| T1364 | Observer Rarity: 2α = 2/137 of Paths Require a Witness | Proved | 1338 | 2026-04 |
+| T1365 | K(Universe) = O(1): Three Constraints, One Answer Conta | Proved | — | 2026-04 |
+| T1366 | Alpha IS PVI Connection Coefficient: Wyler = BC₂ Monodr | Proved | — | 2026-04 |
+| T1367 | Three Spatial Dimensions Because Observers: A₅ Requires | Proved | 1339, 1427 | 2026-04 |
+| T1368 | Observer-System Coupling: Two Fibers Resonate at α, Thr | Proved | 1339 | 2026-04 |
+| T1369 | Reality Is Layered: Baily-Borel Strata, Each as Real as | Proved | — | 2026-04 |
+| T1370 | Observers at Every Scale: IC Geometry Requires Self-Des | Proved | — | 2026-04 |
+| T1371 | Cosmic Observer Glimpses: Discrete Snapshots at Hubble  | Proved | 1342 | 2026-04 |
+| T1372 | Visible vs Decodable: See 44% of Space, Decode 19.1% of | Proved | — | 2026-04 |
+| T1373 | Coupling Per Interaction = α: One Look Costs 1/137 Rega | Proved | 1341 | 2026-04 |
+| T1374 | Coupling Dynamics: Four Steps — Activate (g/N_max), Ali | Proved | 1341 | 2026-04 |
+| T1375 | Cooperation Gap = 2α: f_c < f_crit Forces Sociality (Ca | Proved | — | 2026-04 |
+| T1376 | The Shannon-Algebraic Genus Identity | Proved | — | 2026-04 |
+| T1377 | One Axiom: 'Must Self-Describe' Forces (2,3,5,6,7,137)  | Proved | 1345 | 2026-04 |
+| T1378 | Self-Description Requires Company: α Is the Price of No | Proved | 1345 | 2026-04 |
+| T1379 | One Axiom Forces Dynamics: 'Must Self-Describe' = rank² | Proved | 1345, 1350 | 2026-04 |
+| T1380 | Optimal Garden = n_C = 5: Sharp Cliff, 6th Observer Des | Proved | 1348 | 2026-04 |
+| T1381 | Supply = Demand: Observer Need (2α) = Cooperation Price | Proved | 1350 | 2026-04 |
+| T1382 | Function Catalog IS GF(2^g): Frobenius Orbits = Familie | Proved | 1351, 1374, 1426 | 2026-04 |
+| T1383 | N_max IS the Defining Polynomial: 137 = x⁷+x³+1 Closes  | Proved | 1351, 1375 | 2026-04 |
+| T1384 | Uniqueness #23: N_c² = 2^N_c + 1 Only at 3 (Information | Proved | 1351, 1373 | 2026-04 |
+| T1385 | BST IS F₁-Geometry: AC(0) = Computation Over the Absolu | Proved | 1351, 1372 | 2026-04 |
+| T1386 | Graph Topology = Weil Arithmetic: avg_degree = /Q⁵(F₂)/ | Proved | 1351, 1352 | 2026-04 |
+| T1387 | GF(128) Multiplication = Interaction: 18 Families, Clos | Proved | — | 2026-04 |
+| T1388 | AC Graph δ-Hyperbolic: δ=1, Diameter=rank²=4, Mean Dist | Proved | — | 2026-04 |
+| T1389 | AC(0) ↔ Tropical: Same Philosophy, Tropical Genus of Sk | Proved | — | 2026-04 |
+| T1390 | Quine Execution Cost = 4g/N_max = 28/137: Above f_c, Be | Proved | — | 2026-04 |
+| T1391 | Transcendence Gap: 28/137 - 3/(5π) = Cost of Curvature  | Proved | — | 2026-04 |
+| T1392 | Frobenius Dynamics on GF(128): Entropy=g bits, Period=g | Proved | — | 2026-04 |
+| T1393 | BST Rationals Are Optimal: 8/13 Predictions Are Best p/ | Proved | — | 2026-04 |
+| T1394 | Knot Invariants from Rank-2: Jones Polynomial at Level  | Proved | 1363, 1376, 1423 | 2026-04 |
+| T1395 | 22/7 = (dim SO(5,2) + 1)/g: Archimedes' π Approximation | Proved | — | 2026-04 |
+| T1396 | Arthur Packet Death: 45 Ghost Types, C₂ Casimir Barrier | Proved | 1368, 1384 | 2026-04 |
+| T1397 | RH-1: Re(s)=1/2 Is Unique Minimum of Spectral Cost (Cas | Proved | 1369 | 2026-04 |
+| T1398 | Selberg Zeta Phase 1: 823 = C₂·N_max+1, Casimir Sets Sh | Proved | 1378, 1371 | 2026-04 |
+| T1399 | Glueball ≠ Proton: 938 MeV Is Full Theory Mass Gap, Pur | Proved | 1386, 1379 | 2026-04 |
+| T1400 | Bergman Mass Gap: Exists for All Hermitian-Symmetric Ga | Proved | 1387, 1377, 1380 | 2026-04 |
+| T1401 | Physical Scale Problem: m_e Is D_IV^5-Specific, Each Do | Proved | — | 2026-04 |
+| T1402 | Bergman Gap Ratios Match Lattice: √(g_N/g_{N-1}) = SU(N | Proved | 1388, 1382 | 2026-04 |
+| T1403 | Glueball Spectrum: C₂=6 Confining Directions, 4/5 State | Proved | 1389, 1383, 1421 | 2026-04 |
+| T1404 | BST Integer Cascade: Genus(D_IV^N) = Casimir(D_IV^{N+1} | Proved | 1388, 1381 | 2026-04 |
+| T1405 | Five Integers = Minimal Closure Set: g=n_C+rank, N_c=n_ | Proved | 1390 | 2026-04 |
+| T1406 | One-Line Uniqueness: Domain Casimir = Gauge Casimir Onl | Proved | 1390, 1385 | 2026-04 |
+| T1407 | Selberg Phase 3: B₂ Scattering Matrix, 8 Zeta Copies, O | Proved | 1391, 1416 | 2026-04 |
+| T1408 | Ramanujan at p=137: /α_i/ = 1 (Tempered), /a_137/ ≤ g = | Proved | 1392 | 2026-04 |
+| T1409 | Kim-Sarnak Exponent θ = g/2^C₂ = 7/64: Best Ramanujan B | Proved | 1419 | 2026-04 |
+| T1410 | Period Boundary: Physics Constants Are Periods, Observe | Proved | 1425 | 2026-04 |
+| T1411 | G₂ Mass Gap Via Embedding: G₂ ⊂ SO(7) → D_IV^7, Casimir | Proved | — | 2026-04 |
+| T1412 | GRS Descent: Sym⁵→GL(C₂) + Sym⁶→GL(g) Closes Functorial | Proved | 1394 | 2026-04 |
+| T1413 | Heat Kernel n=3..40: Loud/Quiet 7/7, Speaking Pairs Per | Proved | 1393 | 2026-04 |
+| T1414 | Heat Kernel 19 Levels (a₂-a₂₀): Speaking Pair 4 CONFIRM | Proved | 1395, 1454 | 2026-04 |
+| T1415 | Selberg Phase 4 Complete: ord(24+5√23 mod 137) = n_C²-r | Proved | 1396 | 2026-04 |
+| T1416 | Spectral Descent: Δ_H ≥ Δ_G · c(H,G) for H ⊂ G Embeddin | Proved | 1422 | 2026-04 |
+| T1417 | Quantum Correlations as Rank Amplification | Proved | 1417 | 2026-04 |
+| T1418 | Crystal Complexity = Kolmogorov Description Length | Proved | 1418 | 2026-04 |
+| T1419 | Qubit IS Rank: T-Gate = π/rank², Steane = [[g,1,N_c]] ( | Proved | — | 2026-04 |
+| T1420 | Entanglement Entropy = Bergman Area: S_E ≤ log(1/f_c) ( | Proved | — | 2026-04 |
+| T1421 | BST Inflation: n_s = 1-n_C/N_max, Honest Negative on Si | Conditional | 1415 | 2026-04 |
+| T1422 | BST Jacobian det = 457 (Prime): N_c·N_max + 42 + rank², | Proved | 1406, 1409 | 2026-04 |
+| T1423 | Jacobian Totient: φ(457) = rank^N_c × N_c × Q = 456, 45 | Proved | 1409 | 2026-04 |
+| T1424 | Discrete Gauss-Bonnet for SAT: Hard ↔ χ>0 (Positive Cur | Proved | 1410 | 2026-04 |
+| T1425 | T29 Closure via Discrete Curvature | Proved | 1410, 1402, 340 | 2026-04-23 |
+| T1426 | T100 Closure — Spectral Permanence via Kudla | Proved | 1413 | 2026-04-23 |
+| T1427 | D_IV^5 Is the Unique Autogenic Proto-Geometry (APG): De | Proved | 1443, 1446 | 2026-04 |
+| T1428 | BST Weierstrass Curve = Cremona 49a1: a₁₃₇ = -2n_C, All | Proved | 1436, 1437, 1447 | 2026-04 |
+| T1429 | RH and BSD Are 1/rank: Critical Line = BSD Ratio = 1/2  | Proved | 1436, 1439 | 2026-04 |
+| T1430 | Curve-Domain Duality: 49a1 Encodes D_IV^5 (All 5 Intege | Proved | 1436, 1448 | 2026-04 |
+| T1431 | Observer Instantiates Physics: Geometry = Math, Observa | Proved | 1440 | 2026-04 |
+| T1432 | 1/rank Universality | Proved | 1434, 1435, 1436 | 2026-04-23 |
+| T1433 | Dark Matter = Continuous Spectrum: Incomplete Windings  | Proved | 1442 | 2026-04 |
+| T1434 | Near-APG Landscape Is Empty: n+1=2(n-2) Has One Solutio | Proved | 1441 | 2026-04 |
+| T1435 | The Ur-Axiom: 'There Is a Distinction' (T0) → rank=2 →  | Proved | 1440 | 2026-04 |
+| T1436 | Consciousness = 50% of Structure: One Fiber of rank-2,  | Proved | 1440 | 2026-04 |
+| T1437 | Supersingular Density = 1/rank (Corrected) | Proved | — | 2026-04 |
+| T1438 | OS Axioms PROVED: Wallach Set {0,3/2}∪(3/2,∞), Bergman  | Proved | 1455 | 2026-04 |
+| T1439 | Exact Branching Rule | Proved | 1456 | 2026-04-25 |
+| T1440 | BST Zeta Weight Correspondence | Proved | 1456 | 2026-04-25 |
+| T1441 | Loop Denominator Progression | Proved | 1456 | 2026-04-25 |
+| T1442 | Zeta-Curve Bridge | Proved | 1456, 1457 | 2026-04-25 |
+| T1443 | Reserved/Gap | Proved | — | 2026-04-29 |
+| T1444 | Vacuum Subtraction Principle | Proved | 1464, 1460 | 2026-04-25 |
+| T1445 | Spectral Peeling Theorem: L-fold convolutions have dept | Proved | — | 2026-04-29 |
+| T1446 | Two-Sector Correction Duality | Proved | 1467 | 2026-04-25 |
+| T1447 | Magnetic Moment Derivation | Proved | 1468, 1471 | 2026-04-25 |
+| T1448 | Schwinger C2 Decomposition via Selberg Vertex Trace For | Proved | — | 2026-04-29 |
+| T1449 | Integer Adjacency Theorem | Proved | 1497 | 2026-04-25 |
+| T1450 | Schwinger C₃ Structural Derivation | Proved | — | 2026-04-25 |
+| T1451 | Spectral Gap Framework | Proved | 1491 | 2026-04-25 |
+| T1452 | Integer Activation Theorem | Proved | 1491 | 2026-04-25 |
+| T1453 | C₄ Reading (4-loop QED) | Proved | — | 2026-04-25 |
+| T1454 | Spectral Width Corollary | Proved | 1497, 1498 | 2026-04-25 |
+| T1455 | Bridge Invariance Theorem | Proved | — | 2026-04-25 |
+| T1456 | Color-Confinement Bridge: N_c=3 is chromatic, SAT, and  | Proved | 1501 | 2026-04-26 |
+| T1457 | Petersen Graph = Kneser K(n_C, rank) | Proved | 1504, 1505 | 2026-04-25 |
+| T1458 | Reserved/Gap | Proved | — | 2026-04-29 |
+| T1459 | Spectral Universality Theorem | Proved | 1529 | 2026-04-26 |
+| T1460 | GKZ-BST Correspondence | Proved | — | 2026-04-27 |
+| T1461 | Bergman Spectral a_μ Chain | Proved | — | 2026-04-27 |
+| T1462 | Cyclotomic Casimir Tower | Proved | — | 2026-04-27 |
+| T1463 | Integer Filtration of Q^5 | Proved | — | 2026-04-27 |
+| T1464 | Reference Frame Counting: N_obs = N_total - 1, alpha =  | Proved | — | 2026-04-29 |
+| T1465 | BSD CLOSED: Chern hole mechanism, 6 equations, 6 unknow | Proved | 1659 | 2026-04-29 |
+| T1466 | Spectral Theta Identity | Proved | 1682, 1689, 1701 | 2026-04 |
+| T1467 | Series Collapse Theorem | Proved | 1682, 1689, 1709 | 2026-04 |
+| T1468 | Spectral Parameter Unification | Proved | 1701, 1703, 1709 | 2026-04 |
+| T1469 | Alpha Self-Truncation | Proved | 1706, 1709 | 2026-04 |
+| T1470 | QED Transcendental Finiteness | Proved | 1687, 1688 | 2026-04 |
+| T1471 | Statistical Mechanics is Spectral Geometry | Proved | 1701 | 2026-04 |
+| T1472 | Spectral Dimension Theorem | Proved | 1706 | 2026-04 |
+| T1473 | Born Rule Derivation | Proved | 1704 | 2026-04 |
+| T1474 | CKM Casimir Gap Theorem | Proved | 1680 | 2026-04 |
+| T1475 | QCD Beta Function is Genus | Proved | 1660 | 2026-04 |
+| T1476 | Ward Identity from Bergman | Proved | 1667 | 2026-04 |
+| T1477 | Spectral Tilt Derivation | Proved | 1633 | 2026-04 |
+| T1478 | HVP Spectral Fraction | Proved | 1679 | 2026-04 |
+| T1479 | Hilbert Series of Q^5 | Proved | 1689, 1708 | 2026-04 |
+| T1480 | BST Identity Chain | Proved | 1680 | 2026-04 |
+| T1481 | Denominator Separation Theorem | Proved | 1712 | 2026-04 |
+| T1482 | Spectral Self-Duality | Proved | 1711 | 2026-04 |
+| T1483 | Bethe Logarithm from Spectral Theory | Proved | 1716 | 2026-04 |
+| T1484 | Fermion Mass Ladder | Proved | 1717 | 2026-04 |
+| T1485 | Cosmological Constant Theorem | Proved | 1718 | 2026-04 |
+| T1486 | Unified Correction Mechanism | Proved | 1722 | 2026-04 |
+| T1487 | Kaon-Pion Decay Ratio | Proved | 1729 | 2026-04 |
+
+## Registry Additions (T1789-T1795) — YM Sprint May 12, 2026
+
+*YM Over-Determination (YM-5) (T1789, PROVED — Over-determination table extended with YM column. Wightman axioms, confinement, asymptotic freedom, Weitzenbock, glueball spectrum all independently p. Parents: T1788, T1779, T1764, T186. Domain: qft. Toys: 2125. 2026-05-12.)*
+
+*Weitzenbock 2-Form Gap (YM-6) (T1790, PROVED — The 2-form Laplacian gap on Q^5 is c_2 = 11, the second Chern class. Bochner-Weitzenbock identity: Delta_2 = nabla*nabla + R_2. On compact irreducible. Parents: T1788, T1764, T1783, T186. Domain: qft. Toys: 2100. 2026-05-12.)*
+
+*Weitzenbock Verification (YM-7) (T1791, PROVED — Computational verification of YM-6 Weitzenbock. Three independent derivations of c_2=11 all agree. Universal identity c_2=dim K holds for all quadrics. Parents: T1790, T1788, T1764. Domain: qft. Toys: 2124. 2026-05-12.)*
+
+*YM Cross-Type Cascade (YM-2) (T1792, PROVED — Computational verification of YM Ring Uniqueness. All 27 rank-2 BSDs tested, D_IV^5 unique survivor under 6 YM-specific filters.. Parents: T1788, T1781. Domain: qft. Toys: 2123. 2026-05-12.)*
+
+*Spectral Gap Necessity (YM-10) (T1793, PROVED — R^4 cannot support a geometric mass gap because it's scale-free. The Laplacian on flat R^4 has purely continuous spectrum starting at 0. A mass gap re. Parents: T1788, T1790, T1271, T186. Domain: qft. . 2026-05-12.)*
+
+*Wightman Axioms Verification (YM-8) (T1794, PROVED — Keeper verified all 5 Wightman axioms against YM sprint construction. W3 strengthened: adjoint gap c_2=11 exceeds scalar gap C_2=6. No new vacua from . Parents: T1790, T1788, T1271. Domain: qft. . 2026-05-12.)*
+
+*Curvature Principle (YM-12) (T1795, PROVED — The Curvature Principle: mass gap requires geometric curvature. Tier 1 proved (R^4 has no geometric gap). Tier 2 proved (D_IV^5 provides gap matching . Parents: T1793, T1790, T1788, T1794, T1271. Domain: qft. . 2026-05-12.)*
+
+
+*Counter at T1796. Total registry: T1-T1795 (1594 theorems). Graph: 1594 nodes, 8494 edges. Synced May 12, 2026.*
+
+
+## Registry Gap Fill (T1489-T1635 + scattered) — May 12, 2026
+
+| T_id | Name | Status | Toy# | Date |
+|------|------|--------|------|------|
+| T1489 | Pomeron Intercept = c_3/(rank*C_2) | Proved | 1731 | 2026-04 |
+| T1490 | Fibonacci Structure Theorem | Proved | 1760 | 2026-04-30 |
+| T1491 | Fibonacci-Lucas Identity | Proved | 1758 | 2026-04 |
+| T1492 | Spectral Convergence Theorem | Proved | 1768 | 2026-04 |
+| T1636 | Wallach Gap Stability: n_C/rank = 5/2 protects bound st | Proved | 1783, 1786 | 2026-05-02 |
+| T1637 | Cheeger Constant of D_IV^5: h = sqrt(34)/2, h^2 = 17 =  | Proved | 1783 | 2026-05-02 |
+| T1638 | Functional Equation of D_IV^5: Z(s)/Z(n_C-s) = (s-1)(s- | Proved | 1810, 1811 | 2026-05-02 |
+| T1639 | Scattering Matrix at Wallach Point: S(n_C/rank) = C_2 = | Proved | 1792, 1810 | 2026-05-02 |
+| T1640 | Classical Error-Correcting Codes Have BST Parameters | Proved | 1794 | 2026-05-02 |
+| T1641 | Spectral Biology: Action Potential Voltages are BST Pro | Proved | 1797, 1803 | 2026-05-02 |
+| T1642 | Spectral Chemistry: Noble Gases, Vibrations, and Bond A | Proved | 1805 | 2026-05-02 |
+| T1643 | Spectral Geophysics: Earth Structure from BST Integers | Proved | 1806 | 2026-05-02 |
+| T1644 | Deep Neuroscience: Cortical Architecture, Synaptic Cons | Proved | 1825, 1803 | 2026-05-02 |
+| T1645 | Deep Error Correction: Quantum Codes, Shannon Capacity, | Proved | 1826, 1794 | 2026-05-02 |
+| T1646 | Music Theory: All Just Intervals, Chord Structure, Cons | Proved | 1827, 1807 | 2026-05-02 |
+| T1647 | Proof Updates: NS→99.5% (Cheeger), YM→99% (confinement) | Proved | — | 2026-05-02 |
+| T1648 | Selberg Zeta Construction: Z(s) = prod(1-lambda_k^{-s}) | Proved | 1800 | 2026-05-02 |
+| T1649 | Fox H Classification: zeta_B(s) is Fox H with alpha=2,  | Proved | 1787 | 2026-05-02 |
+| T1650 | n_C Selection Theorem: log(n) cancellation universal fo | Proved | 1782, 1781 | 2026-05-02 |
+| T1651 | Polynomial c-function: c(mu)=1/[(mu+1/rank)(mu+N_c/rank | Proved | 1796 | 2026-05-02 |
+| T1652 | Spectral Astrophysics: M-L=g/rank, Chandrasekhar=35/6,  | Proved | 1801, 1812, 1813 | 2026-05-02 |
+| T1653 | Spectral Materials: Cu=g^3, Pt=240, Pb T_c=36/5, Poisso | Proved | 1802, 1821 | 2026-05-02 |
+| T1654 | Critical Exponents ALL BST: 2D Ising beta=1/8, gamma=7/ | Proved | 1833 | 2026-05-03 |
+| T1655 | Transport Coefficients: Re_c=2300, Kolmogorov=-5/3=-n_C | Proved | 1834 | 2026-05-03 |
+| T1656 | Plasma+Psychophysics+Networks: Stevens exponents, scale | Proved | 1835 | 2026-05-03 |
+| T1657 | NIST/CODATA Audit: 20 constants tested, 12 D-tier, 8 I- | Proved | 1864 | 2026-05-03 |
+| T1658 | Optics: n(water)=4/3, visible range=g/rank^2, telecom 1 | Proved | 1879 | 2026-05-03 |
+| T1659 | Deep Chemistry: 273K=21*13, Flory=N_c/n_C, enzyme class | Proved | 1880 | 2026-05-03 |
+| T1660 | Engineering: 120V=n_C!, AES=2^g, process nodes=g/n_C/N_ | Proved | 1883 | 2026-05-03 |
+| T1661 | Genetic Code Structure: codebook=2^C_2, degeneracy=N_c^ | Proved | 1891 | 2026-05-03 |
+| T1662 | Substrate Memory: matter=recording on Shilov S^4xS^1, m | Proved | 1892 | 2026-05-03 |
+| T1663 | Crystallography+Acoustics+Botany: space groups=230=rank | Proved | 1899, 1865, 1877 | 2026-05-03 |
+| T1664 | Arithmetic of D_IV^5: Pell equation rank^C_2-N_c^2*g=1, | Proved | 1911, 1918 | 2026-05-03 |
+| T1665 | Geodesic Spectrum: l_0=2*arccosh(rank^3), discrete/cont | Proved | 1923 | 2026-05-03 |
+| T1666 | Period Ring: P(D_IV^5) = Q[π, log(ε), log(n_C), ζ(3), ζ | Proved | 1929 | 2026-05-03 |
+| T1667 | Selberg Zero Moduli = Chern Classes | Proved | 1935 | 2026-05-03 |
+| T1668 | Master Integral SOLVED: A_2 = (197/144) + pi^2/12*(1-C_ | Proved | 1940, 1942, 1944 | 2026-05-03 |
+| T1669 | Geodesic QED Dictionary: C_L = BST-dressing * trig(L*th | Proved | 1942, 1940 | 2026-05-03 |
+| T1670 | C_5(QED) = N_c^3/rank^2 = 27/4 = 6.75 — Weyl law crosso | Proved | 1948 | 2026-05-03 |
+| T1671 | Spectral Filter Theorem: Every material IS a spectral f | Proved | 1971 | 2026-05-04 |
+| T1672 | Cheeger Gap = Band Gap: E_gap = h^2/n_C = 17/5 eV for G | Proved | 1971 | 2026-05-04 |
+| T1673 | Wallach Coherence Theorem: Quantum coherence margin = n | Proved | 1980 | 2026-05-04 |
+| T1674 | Isotope Selection Theorem: ALL spin-0 isotopes have BST | Proved | 1980 | 2026-05-04 |
+| T1675 | Substrate Computation: Casimir effect IS vacuum computa | Proved | 1987 | 2026-05-04 |
+| T1676 | Superconductor BST Product Theorem: Every known T_c is  | Proved | 1969, 1964 | 2026-05-04 |
+| T1677 | Boundary Condition Energy Hierarchy: crystal < piezo <  | Proved | 1987 | 2026-05-04 |
+| T1678 | Natural Temperature BST Product Theorem: T_CMB, T_freez | Proved | 1865, 1971 | 2026-05-04 |
+| T1679 | Mu-Metal Permeability: mu_r = rank^g * n_C^(rank^2) = 2 | Proved | 1968 | 2026-05-04 |
+| T1680 | Quantum Coherence Design Rule: 6 BST conditions for max | Proved | 1980 | 2026-05-04 |
+| T1681 | Optimal CuO2 Plane Count = N_c = 3: T_c peaks at N_c pl | Proved | 1969 | 2026-05-04 |
+| T1682 | Spectral Lever Theorem: FE poles at s=3,4 have residues | Proved | 1977 | 2026-05-04 |
+| T1683 | Spectral Antenna / Debye Ratio Theorem: All Debye ratio | Proved | 1986 | 2026-05-04 |
+| T1684 | Substrate Register: d(1)+1 = rank^3 = 8 states (a byte) | Proved | 1990 | 2026-05-04 |
+| T1685 | Eigenvalue Classification of Superconductors: 4 classes | Proved | 1982 | 2026-05-04 |
+| T1686 | Casimir Computation Theorem: Vacuum between plates IS c | Proved | 1987 | 2026-05-04 |
+| T1687 | BST Casimir Structure: P=pi^rank*hbar*c/(rank^4*N_c*n_C | Proved | 1979, 1991 | 2026-05-04 |
+| T1688 | BST Optimal Superlattice: BaTiO3/SrTiO3 (rank^3/rank^2) | Proved | 1978 | 2026-05-04 |
+| T1689 | BST Information Architecture: Hamming(g,rank^2,N_c), Go | Proved | 1992 | 2026-05-04 |
+| T1690 | Efficiency Limit Theorem: Every fundamental efficiency  | Proved | 2016 | 2026-05-04 |
+| T1691 | Cu Spectral Cap: B(Cu) = sum(lambda_1..5) + g = 6+14+24 | Proved | 2003 | 2026-05-04 |
+| T1692 | Biological Temperature Window: regulation = g = 7 K, ha | Proved | 2004 | 2026-05-04 |
+| T1693 | Elemental Bulk Modulus BST Product: 19/22 elements have | Proved | 2003 | 2026-05-04 |
+| T1694 | Adiabatic Index: gamma = (DOF+rank)/DOF, DOF = {N_c, n_ | Proved | 2016, 2018 | 2026-05-04 |
+| T1695 | ZT Maximum Prediction: thermoelectric figure of merit Z | Proved | 2016 | 2026-05-04 |
+| T1698 | Efficiency Bound Theorem: 12 fundamental efficiency lim | Proved | 2017 | 2026-05-04 |
+| T1699 | Adiabatic Index Theorem: gamma = (n+rank)/n, DOF = {N_c | Proved | 2018 | 2026-05-04 |
+| T1700 | Heptit Gate Space: 7 cavities, 11 generators, dim=77=d( | Proved | 2024 | 2026-05-04 |
+| T1704 | Spectral Leverage: FE poles amplify boundary shifts by  | Proved | 2034 | 2026-05-04 |
+| T1705 | Van Hove Staircase: spectral DOS gaps = AP(C_2, rank),  | Proved | 2034 | 2026-05-04 |
+| T1706 | Superlattice Band Arithmetic: period-5 quotients = cons | Proved | 2035 | 2026-05-04 |
+| T1707 | Spectral Factorial Identity: lambda_9 - lambda_1 = 126- | Proved | 2034 | 2026-05-04 |
+| T1708 | Spectral Weight Ratio: w1/w2 = g^(s+1)/N_c^(s+3) EXACT  | Proved | 2037 | 2026-05-04 |
+| T1709 | Van Hove Resonance: spectral DOS resonance harmonics ar | Proved | 2037 | 2026-05-04 |
+| T1710 | BST Coherence Score: material alignment counts = BST in | Proved | 2036 | 2026-05-04 |
+| T1713 | Periodic Table Coverage: 100% of Z=1..118 at depth 2. 7 | Proved | 2041 | 2026-05-04 |
+| T1714 | Shell Spacing: electron shells = rank*n^2 for n=1,2,3,4 | Proved | 2041 | 2026-05-04 |
+| T1715 | Si-28 Quantum Silence: Z=rank*g, A=rank^2*g, even-even  | Proved | 2042 | 2026-05-04 |
+| T1716 | Si Spectral Cap: Debye=n_C*(N_max-rank^3)=645, melting= | Proved | 2042 | 2026-05-04 |
+| T1717 | Dy Maximum Moment: Z=C_2*c_2=66, L=C_2, S=rank, J=rank^ | Proved | 2047 | 2026-05-04 |
+| T1718 | Lanthanide Helical Phase: Dy T_C=rank^3*c_2=88K, T_N=N_ | Proved | 2047 | 2026-05-04 |
+| T1719 | Elastic Modulus BST Product: Pugh ratio = Ising critica | Proved | 2050 | 2026-05-04 |
+| T1720 | Thermal Conductivity BST Product: Diamond kappa = rank^ | Proved | 2051 | 2026-05-04 |
+| T1721 | Refractive Index BST Fraction: denominator rank*n_C = 1 | Proved | 2055 | 2026-05-04 |
+| T1722 | FE Self-Duality: R(s)*R(5-s) = 1 where R = FE ratio fun | Proved | 2054 | 2026-05-04 |
+| T1723 | FE Pole Probes: FE(3+1/g) = -20 = -rank^2*n_C, FE(3.5)  | Proved | 2054 | 2026-05-04 |
+| T1724 | Spectral CPU Architecture: 7-layer, 539 parallel ops, 1 | Proved | 2062 | 2026-05-05 |
+| T1725 | Pressure-Free Hydride: B12H32 cage (rank*C_2 boron + ra | Proved | 2058 | 2026-05-05 |
+| T1726 | Fibonacci Spectral Control: phi^n_C ≈ c_2 = 11, periodi | Proved | 2059 | 2026-05-05 |
+| T1727 | Coherence Hierarchy: ions > Si-28 > diamond NV > topolo | Proved | 2060 | 2026-05-05 |
+| T1728 | Casimir Asymmetric Optimization: t_open/t_close = g = 7 | Proved | 2061 | 2026-05-05 |
+| T1729 | Arthur Parity (R-11): IW sign kills 23/37 non-tempered  | Proved | 2063, 2067 | 2026-05-05 |
+| T1730 | Nahm Truncation Stability (S-4): a_10 = 137 = N_max sta | Proved | 2066 | 2026-05-05 |
+| T1731 | Poincare Branching (Y-2): branching rules for SO(5,2) → | Proved | 2069 | 2026-05-05 |
+| T1732 | RH Review Synthesis: R-9/R-10/R-11 all resolved. RH PRO | Proved | 2063, 2066, 2067 | 2026-05-05 |
+| T1733 | Selberg Zeta Factorization (R-14): Z(s) factors through | Proved | 2070 | 2026-05-05 |
+| T1734 | Heat Kernel Positivity (R-15): Wallach gap e^{2.5t} con | Proved | 2071 | 2026-05-05 |
+| T1735 | Wall Gap (R-16): All discrete eigenvalues /ν₁/ > 0. Min | Proved | 2072 | 2026-05-05 |
+| T1736 | Multiplicity Squeeze (R-17): d(k) ~ k^n_C overwhelms ze | Proved | 2073, 2074 | 2026-05-05 |
+| T1737 | Rank-2 RH Advantage: D_IV^5 separates discrete from con | Proved | 2072, 2074 | 2026-05-05 |
+| T1738 | Volume Dominance (R-18): Orbital integral positivity by | Proved | 2075 | 2026-05-05 |
+| T1739 | Distributional Limit (G5/Step 5): /c/^{-2} = 0 + FLM co | Proved | 2076 | 2026-05-05 |
+| T1740 | Bergman Gap Elimination (R-9): C_2=6 exceeds max non-te | Proved | 2064 | 2026-05-05 |
+| T1741 | Complementary Filter Theorem (R-11 Step 3): SK risk CLO | Proved | 2077 | 2026-05-05 |
+| T1742 | G5a-c Verifications: Distributional limit valid. G5a: C | Proved | 2078 | 2026-05-05 |
+| T1744 | Test Function Correspondence (R-19/Conjecture 6.1): g>= | Proved | 2080 | 2026-05-06 |
+| T1745 | Explicit Bridge (R-19c): J_cont^{P_2} = I_safe > 0 (unc | Proved | 2082 | 2026-05-06 |
+| T1746 | Explicit Bridge v1 (R-19b): Cal critique - volume domin | Proved | 2081 | 2026-05-06 |
+| T1747 | Weil Positivity for Gaussians (Lemma 3): W(g_A) >= 0 fo | Proved | 2083 | 2026-05-06 |
+| T1748 | Weil Cone Density: DISPROVED (T1749). Centered Gaussian | Failed | 2084 | 2026-05-06 |
+| T1749 | Gaussian Density OBSTRUCTION: Centered Gaussians NOT de | Proved | 2087 | 2026-05-07 |
+| T1750 | 37a1 BSD Transfer Chain (Elie): Non-CM rank-1 curve tra | Proved | 2085 | 2026-05-07 |
+| T1751 | Rank >= 4 BSD Tests (Elie): 4 rank-4 + 1 rank-5 curve,  | Proved | 2086 | 2026-05-07 |
+| T1752 | 37a1 End-to-End BSD (Lyra): CM-independence demonstrate | Proved | 2088 | 2026-05-07 |
+| T1753 | Heat Semigroup Preserves F: f_eps(t) = f(t)*exp(-eps*t^ | Proved | 2087 | 2026-05-07 |
+| T1754 | Geometric Weil Positivity: Construct W>=0 from D_IV^5 w | Proved | 2090 | 2026-05-07 |
+| T1755 | Wall Poisson Kernel / Geometric RH: Off-line zeros crea | Proved | 2089 | 2026-05-07 |
+| T1757 | Weight-2 Uniqueness + Pure Hodge Type: D_2 has inf.char | Proved | 2093 | 2026-05-07 |
+| T1758 | Eisenstein Constant-Term (Paper #103 Step 3 UNCONDITION | Proved | 2094 | 2026-05-07 |
+| T1759 | Hodge KS Frontier: Simplest class without Kuga-Satake = | Proved | 2097 | 2026-05-07 |
+| T1760 | T1269 Role Audit: DECORATIVE for RH (T1755 direct) and  | Proved | 2098 | 2026-05-07 |
+| T1761 | D_IV^5 Universality: Cal's three gaps (NS IC-dependence | Proved | 2101 | 2026-05-07 |
+| T1762 | P_2 Lift Lemma: GL(2) is a FACTOR of the P_2 Levi — no  | Proved | 2091 | 2026-05-07 |
+| T1763 | NS Iso-Class Breadth: lambda_1=C_2=6 and Cheeger h=sqrt | Proved | 2099 | 2026-05-07 |
+| T1765 | OR-Clause Channel Capacity: k=3 OR has capacity 0.5436  | Proved | 2105 | 2026-05-08 |
+| T1766 | No Free Lunch / Shannon Resolution Theorem: OR is lossy | Proved | 2105 | 2026-05-08 |
+| T1767 | D1 Decorrelation: beta=0.929 from fit mean/Corr/ ~ C/n^ | Proved | 2103 | 2026-05-08 |
+| T1768 | OR-Clause Channel: Capacity 0.139 bits (Elie computatio | Proved | 2104 | 2026-05-08 |
+| T1769 | T1425 Resolution Rewrite: Clean information-theoretic c | Proved | 2102 | 2026-05-08 |
+| T1770 | EF Width-to-Size (Rectangle Bound): m independent block | Proved | 2107 | 2026-05-08 |
+| T1771 | EF Information Budget: Extensions route info through ta | Proved | 2108 | 2026-05-08 |
+| T1772 | SAT Capacity Theorem: alpha_c is a Shannon capacity thr | Proved | 2109 | 2026-05-08 |
+| T1773 | State/Parity Decomposition of OR: Under SAT conditionin | Proved | 2110 | 2026-05-08 |
+| T1774 | Parity Budget Theorem: B=Omega(n/log n) blocks of indep | Proved | 2111 | 2026-05-08 |
+| T1775 | Multi-Pass Parity Theorem: Cascade ratio r = parity_dis | Proved | 2112 | 2026-05-08 |
+| T1776 | Masking-Nonlinearity Theorem: OR masks (2^k-2)/(2^k-1)  | Proved | 2113, 2114, 2115 | 2026-05-08 |
+| T1777 | Witness Destruction Theorem (P!=NP): (1) OR destroys wi | Proved | 2114, 2115 | 2026-05-08 |
+| T1778 | Casey's Godel Trichotomy (T69 CLOSED): The non-witness  | Proved | 2115 | 2026-05-08 |
+| T1782 | Hodge Violation at Horikawa (H-4): h^{2,0}=2 surface is | Proved | 2121 | 2026-05-11 |
+| T1784 | Exclusion Lemma 4.1: Non-orthogonal domains (Type I, II | Proved | 2120 | 2026-05-11 |
+| T1785 | Exclusion Lemma 4.2: Even-dimensional Type IV domains ( | Proved | 2120 | 2026-05-11 |
+| T1786 | Exclusion Lemma 4.3: Type IV with n >= 7 fails F4 — Sel | Proved | 2120 | 2026-05-11 |

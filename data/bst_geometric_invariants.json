@@ -2,7 +2,7 @@
  "meta": {
   "title": "Geometric Invariants of the Autogenic Proto-Geometry",
   "description": "Every physical constant as a geometric evaluation on D_IV^5. No series, no perturbation, no fitting.",
-  "last_updated": "2026-05-11",
+  "last_updated": "2026-05-12",
   "total_entries": 3787,
   "missing_count": 3,
   "tension_count": 0,
@@ -104,7 +104,7 @@
   "g30_update": "G-30: +4 entries (S_BH, sin(2beta), gravitino=N/A, Lambda running=0). 11/15 already in table. Honest catalog complete.",
   "count": 3849,
   "total_count": 2833,
-  "total": 3874,
+  "total": 3881,
   "cal_tiers": {
    "D": 3032,
    "I": 459,
@@ -54292,6 +54292,97 @@
    "tier": "D",
    "status": "derived",
    "notes": "Primary uniqueness mechanism. F4 (Selberg d_F<=2) forces n<=5. F6 (m_s>=3 for c-function suppression) forces n>=5. Only n=5 survives."
+  },
+  {
+   "symbol": "lambda1_2form_Q5",
+   "name": "First eigenvalue of 2-form Laplacian on Q^5",
+   "formula": "c_2(Q^5) = C_2 + n_C = 6 + 5 = 11",
+   "geometric_source": "Bochner-Weitzenbock identity on compact dual Q^5",
+   "value": 11,
+   "observed": 11,
+   "precision": "exact",
+   "theorem": "T1790",
+   "tier": "D",
+   "status": "derived",
+   "notes": "The 2-form spectral gap is c_2 = 11 (second Chern class). Determines adjoint-sector (pure gauge) mass gap. Key identity: c_2 = C_2 + n_C."
+  },
+  {
+   "symbol": "glueball_0pp_mass_derived",
+   "name": "Glueball 0++ mass from 2-form spectral gap (D-tier)",
+   "formula": "c_2 * pi^5 * m_e = 11 * 305.9 * 0.511 = 1720 MeV",
+   "geometric_source": "2-form Laplacian gap c_2=11 on Q^5 via Weitzenbock",
+   "value": 1720,
+   "observed": 1710,
+   "precision": "0.6%",
+   "theorem": "T1790",
+   "tier": "D",
+   "status": "derived",
+   "notes": "Tier upgraded from I to D via YM-6 Weitzenbock completion. Lattice: 1710 +/- 50 MeV (Morningstar-Peardon 1999). Same pi^5*m_e formula as proton but with c_2 replacing C_2."
+  },
+  {
+   "symbol": "beta0_pure_gauge_c2",
+   "name": "Pure-gauge beta_0 = 11 = c_2 (Cal's identification)",
+   "formula": "(11/3)*N_c = (11/3)*3 = 11 = c_2(Q^5)",
+   "geometric_source": "QCD one-loop beta function at n_f=0 matches second Chern class",
+   "value": 11,
+   "observed": 11,
+   "precision": "exact",
+   "theorem": "T1790",
+   "tier": "D",
+   "status": "derived",
+   "notes": "Cal's observation: pure-gauge beta_0 = 11 = c_2, not beta_0 = 7 = g (which is SM with n_f=6). Topological-physical match: Chern class = running coupling coefficient."
+  },
+  {
+   "symbol": "beta0_sm_g",
+   "name": "SM beta_0 = 7 = g (with n_f = 6 quark flavors)",
+   "formula": "11 - 2*6/3 = 11 - 4 = 7 = g",
+   "geometric_source": "QCD one-loop beta function at n_f=6 (full SM)",
+   "value": 7,
+   "observed": 7,
+   "precision": "exact",
+   "theorem": "T1788",
+   "tier": "D",
+   "status": "derived",
+   "notes": "Physical SM: beta_0 = 11*N_c/3 - 2*n_f/3 = 11 - 4 = 7 = g. Both beta_0 values (pure and SM) are BST integers: c_2=11 and g=7."
+  },
+  {
+   "symbol": "wightman_ym_sprint_pass",
+   "name": "Wightman axioms W1-W5 verification for YM sprint construction",
+   "formula": "5/5 PASS",
+   "geometric_source": "Keeper YM-8 audit against T1788+T1790",
+   "value": 5,
+   "observed": 5,
+   "precision": "exact",
+   "theorem": "T1794",
+   "tier": "D",
+   "status": "derived",
+   "notes": "W3 strengthened: adjoint gap c_2=11 > scalar gap C_2=6. Modular localization extends to 2-form bundle."
+  },
+  {
+   "symbol": "curvature_div5",
+   "name": "Sectional curvature of D_IV^5 (Bergman metric)",
+   "formula": "K = -2/g = -2/7",
+   "geometric_source": "Bergman metric on D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]",
+   "value": -0.2857142857142857,
+   "observed": -0.2857142857142857,
+   "precision": "exact",
+   "theorem": "T1795",
+   "tier": "D",
+   "status": "derived",
+   "notes": "Negative curvature provides the geometric scale for mass gap. R^4 (K=0) has no such scale. The Curvature Principle: gap requires K != 0."
+  },
+  {
+   "symbol": "lambda1_div_nc2",
+   "name": "Spectral gap of D_IV^{N_c+2} for SU(N_c) gauge theory",
+   "formula": "lambda_1(D_IV^{N_c+2}) = N_c + 4 = g(N_c)",
+   "geometric_source": "Bergman Laplacian on D_IV^{N_c+2}, Toy 1388",
+   "value": "N_c+4 (SU(3): 7, SU(4): 8, SU(5): 9)",
+   "observed": "SU(3): g=7 matches BST",
+   "precision": "exact",
+   "theorem": "T1788",
+   "tier": "D",
+   "status": "derived",
+   "notes": "The cross-SU(N) mass ratio uses g (genus), not C_2 (Casimir). m(SU(4))/m(SU(3)) = sqrt(8/7) = 1.069. Lyra's fix: lambda_1 = g = n_C+2 = N_c+4 for the SU(N_c) domain."
   }
  ]
 }

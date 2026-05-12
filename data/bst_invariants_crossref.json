@@ -1,6 +1,6 @@
 {
- "total": 3874,
- "last_updated": "2026-05-11",
+ "total": 3881,
+ "last_updated": "2026-05-12",
  "entries": [
   {
    "index": 0,
@@ -27087,6 +27087,41 @@
    "symbol": "F4_F6_algebraic_squeeze",
    "theorem": "T1780",
    "domain": "differential_geometry"
+  },
+  {
+   "symbol": "lambda1_2form_Q5",
+   "theorem": "T1790",
+   "domain": "qft"
+  },
+  {
+   "symbol": "glueball_0pp_mass_derived",
+   "theorem": "T1790",
+   "domain": "qft"
+  },
+  {
+   "symbol": "beta0_pure_gauge_c2",
+   "theorem": "T1790",
+   "domain": "qft"
+  },
+  {
+   "symbol": "beta0_sm_g",
+   "theorem": "T1788",
+   "domain": "qft"
+  },
+  {
+   "symbol": "wightman_ym_sprint_pass",
+   "theorem": "T1794",
+   "domain": "qft"
+  },
+  {
+   "symbol": "curvature_div5",
+   "theorem": "T1795",
+   "domain": "qft"
+  },
+  {
+   "symbol": "lambda1_div_nc2",
+   "theorem": "T1788",
+   "domain": "qft"
   }
  ]
 }
