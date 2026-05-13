@@ -1,6 +1,6 @@
 {
- "total": 3881,
- "last_updated": "2026-05-12",
+ "total": 3909,
+ "last_updated": "2026-05-13",
  "entries": [
   {
    "index": 0,
@@ -27122,6 +27122,146 @@
    "symbol": "lambda1_div_nc2",
    "theorem": "T1788",
    "domain": "qft"
+  },
+  {
+   "symbol": "F1_eichler_shimura_collapse",
+   "theorem": "T1808",
+   "domain": "number_theory"
+  },
+  {
+   "symbol": "poisson_kernel_symmetry",
+   "theorem": "T1810",
+   "domain": "number_theory"
+  },
+  {
+   "symbol": "boundary_interior_dim_ratio",
+   "theorem": "T1807",
+   "domain": "number_theory"
+  },
+  {
+   "symbol": "bsd_sym2_sum_identity",
+   "theorem": "T1835",
+   "domain": "number_theory"
+  },
+  {
+   "symbol": "partition_C2_chern",
+   "theorem": "T1836",
+   "domain": "bst_physics"
+  },
+  {
+   "symbol": "partition_bst_chain",
+   "theorem": "T1836",
+   "domain": "bst_physics"
+  },
+  {
+   "symbol": "sp_orbit_count",
+   "theorem": "T1836",
+   "domain": "bst_physics"
+  },
+  {
+   "symbol": "sym_k_chain_termination",
+   "theorem": "T1836",
+   "domain": "bst_physics"
+  },
+  {
+   "symbol": "arthur_packet_total",
+   "theorem": "T1836",
+   "domain": "bst_physics"
+  },
+  {
+   "symbol": "que_weyl_exponent",
+   "theorem": "T1838",
+   "domain": "spectral_geometry"
+  },
+  {
+   "symbol": "que_weyl_remainder",
+   "theorem": "T1838",
+   "domain": "spectral_geometry"
+  },
+  {
+   "symbol": "que_equidist_rate",
+   "theorem": "T1838",
+   "domain": "spectral_geometry"
+  },
+  {
+   "symbol": "kazhdan_constant_so52",
+   "theorem": "T1838",
+   "domain": "spectral_geometry"
+  },
+  {
+   "symbol": "sarnak_mobius_s500",
+   "theorem": "T1839",
+   "domain": "number_theory"
+  },
+  {
+   "symbol": "cm_inert_cancellation_49a1",
+   "theorem": "T1839",
+   "domain": "number_theory"
+  },
+  {
+   "symbol": "sarnak_triple_resolved",
+   "theorem": "T1839",
+   "domain": "spectral_geometry"
+  },
+  {
+   "symbol": "bpst_moduli_dim",
+   "theorem": "",
+   "domain": "gauge_theory"
+  },
+  {
+   "symbol": "instanton_step_size",
+   "theorem": "",
+   "domain": "gauge_theory"
+  },
+  {
+   "symbol": "unframed_bpst_dim",
+   "theorem": "",
+   "domain": "gauge_theory"
+  },
+  {
+   "symbol": "instanton_k3_dim",
+   "theorem": "",
+   "domain": "gauge_theory"
+  },
+  {
+   "symbol": "szpiro_heegner_generic",
+   "theorem": "",
+   "domain": "number_theory"
+  },
+  {
+   "symbol": "szpiro_d1_exception",
+   "theorem": "",
+   "domain": "number_theory"
+  },
+  {
+   "symbol": "szpiro_d2_exception",
+   "theorem": "",
+   "domain": "number_theory"
+  },
+  {
+   "symbol": "j_invariant_121b1",
+   "theorem": "",
+   "domain": "number_theory"
+  },
+  {
+   "symbol": "frey_a2_bst",
+   "theorem": "",
+   "domain": "number_theory"
+  },
+  {
+   "symbol": "frey_delta_bst",
+   "theorem": "",
+   "domain": "number_theory"
+  },
+  {
+   "symbol": "abc_triple_189",
+   "theorem": "",
+   "domain": "number_theory"
+  },
+  {
+   "symbol": "szpiro_wall_cm_ratio",
+   "theorem": "",
+   "domain": "number_theory"
   }
  ]
 }

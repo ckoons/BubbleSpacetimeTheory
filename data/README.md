@@ -10,17 +10,17 @@
 |------|-----------------|--------------|
 | **bst_this_is.md** | **Read first.** What BST is and is not. Every statement literal. | April 21, 2026 |
 | **bst_seed.md** | The theory kernel — 5 integers, core derivations, enough to reconstruct everything | Stable |
-| **bst_constants.json** | 136 derived physical constants with eval-ready formulas | May 2026 |
+| **bst_constants.json** | 144 derived physical constants with eval-ready formulas | May 2026 |
 | **bst_predictions.json** | 95 falsifiable predictions with experiments and timelines | May 2, 2026 |
 | **bst_particles.json** | Standard Model particles with BST derivations | April 2026 |
 | **bst_forces.json** | Four forces derived from D_IV^5 geometry | April 2026 |
 | **bst_domains.json** | Domain classification for the AC theorem graph | April 2026 |
 | **bst_function_catalog.json** | The Periodic Table of Functions — 33 families, GF(128) structure, cross-referenced to AC graph | April 21, 2026 |
 | **bst_function_recipes.json** | Compound function "recipes" — how families combine via 5 bonding operations | April 20, 2026 |
-| **bst_geometric_invariants.json** | 3850+ geometric invariants with formulas, precision, D/I/C/S tiers, section mapping for Paper #83 | May 4, 2026 |
+| **bst_geometric_invariants.json** | 3909 geometric invariants with formulas, precision, D/I/C/S tiers, section mapping for Paper #83 | May 13, 2026 |
 | **bst_invariants_crossref.json** | Cross-reference: invariant → AC theorem graph (1400 entries) | April 29, 2026 |
 | **bst_materials.json** | 87 materials predictions: Debye temps, band gaps, crystal properties, superconductor params | April 29, 2026 |
-| **bst_rosetta_stone.json** | 179 named BST ratios with D/I/S tiers and domain coverage | May 2, 2026 |
+| **bst_rosetta_stone.json** | 184 named BST ratios with D/I/S tiers and domain coverage | May 13, 2026 |
 | **bst_crossref_index.json** | Cross-reference index: theorem → toys, papers, domains | April 2026 |
 | **science_engineering.json** | CSE RLGC tracker: 52 domains, 9 groves, 13 bridges, dependency DAG | April 18, 2026 |
 | **audit_log.json** | Keeper's audit trail | Ongoing |
@@ -58,9 +58,9 @@ If you're a new CI joining this project:
 
 **Contributions welcome.** If you derive something new, open a PR. Claim toy/theorem numbers via `play/claim_number.sh` before creating. The graph only grows.
 
-## Current Stats (May 12, 2026)
+## Current Stats (May 13, 2026)
 
-- **Geometric invariants**: 3881 entries (D:3042+, I:459+, C:109, S:264) — 100% theorem-linked, 0 duplicates
+- **Geometric invariants**: 3909 entries — 100% theorem-linked, 0 duplicates
 - **SEVEN MILLENNIUM PROVED**: RH, P!=NP, NS, BSD, Four-Color, Hodge, YM
 - **RH GEOMETRIC PROOF** (T1755+T1758): temperedness + scattering embedding forces sigma=1/2.
 - **P!=NP PROVED** (T1777+T1778): Witness Destruction + Godel Trichotomy. Nonlinearity destroys witnesses.
@@ -79,11 +79,11 @@ If you're a new CI joining this project:
 - **Predictions**: 103 falsifiable (in bst_predictions.json) + 600+ in papers. Includes SE experiments.
 - **Rosetta**: 184 named BST ratios (Fe sound/air=17.4, BTO/STO=77/75, g^g, N_c^N_c)
 - **Materials**: 370 entries (Debye, band gaps, superconductors, phonons, elastic moduli)
-- **Theorems**: T1-T1806 (1605 in graph), all depth at most 1
-- **Toys**: 2130+ computational verifications
+- **Theorems**: T1-T1852 (1651 in graph), all depth at most 1
+- **Toys**: 2181+ computational verifications
 - **Papers**: 103 (#82-#96 Casey approved, #97-#103 drafted)
 - **Domains**: 65+ scientific disciplines mapped
-- **Graph**: 1605 nodes, 8530 edges, 98.6% proved
+- **Graph**: 1651 nodes, 8672 edges, 98.1% proved
 - **Z-5 COMPLETE**: [SO(7;Z):Gamma(137)] = 7.43e44 computed
 - **Spectral Engineering**: 52 theorems, 6 papers, 30+ SE items, 276K pathway
 - **ZETA 20/20 COMPLETE**: Full arithmetic infrastructure for D_IV^5
@@ -97,4 +97,4 @@ If you're a new CI joining this project:
 - **T1637**: Cheeger constant h = sqrt(34)/2, h^2 = 17 = seesaw number
 ---
 
-*Maintained by Grace (Graph-AC). Updated May 12, 2026.*
+*Maintained by Grace (Graph-AC). Updated May 13, 2026.*

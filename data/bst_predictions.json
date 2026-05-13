@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-05-11",
+  "last_updated": "2026-05-13",
   "total": 95,
   "count": 103,
   "tier_system": "D/I/C/S (Derived/Identified/Conditional/Structural)",
@@ -474,20 +474,24 @@
    "id": "pred_022",
    "name": "No primordial B-modes (r ~ 0)",
    "category": "not_yet_measured",
-   "prediction": "Tensor-to-scalar ratio r approximately 0 \u2014 no detectable primordial B-mode polarization in CMB",
-   "bst_value": "r ~ 0 (below 0.001)",
+   "prediction": "Tensor-to-scalar ratio r ~ 0. BST inflation is spectral (counting on D_IV^5), not dynamical (no rolling field). No classical source for tensor perturbations. Quantum gravity floor r ~ 1/N_max^2 ~ 5e-5, far below any planned experiment.",
+   "bst_value": "r ~ 0 (quantum gravity floor ~ 5e-5)",
    "current_measurement": "BICEP/Keck: r < 0.036 (95% CL)",
    "experiment": "LiteBIRD, CMB-S4, Simons Observatory",
    "timeline": "2027-2032",
-   "falsification_criterion": "Detection of primordial B-modes with r > 0.01",
-   "impact_if_falsified": "BST phase transition model would need gravity-wave production mechanism",
+   "falsification_criterion": "Detection of primordial B-modes with r > 0.001",
+   "impact_if_falsified": "BST spectral inflation framework would need a dynamical tensor source",
    "status": "in_progress",
-   "bst_integers_used": [],
+   "bst_integers_used": [
+    "N_max"
+   ],
    "source_section": "Section 11",
    "related_constants": [
     "const_016"
    ],
-   "tier": "I"
+   "competing_prediction": "Starobinsky R^2: r = 0.003 (same n_s, different r). CMB-S4 distinguishes BST from Starobinsky.",
+   "source_toy": "Toy 2142",
+   "tier": "D"
   },
   {
    "id": "pred_023",
@@ -995,24 +999,20 @@
   },
   {
    "id": "pred_056",
-   "name": "Tensor-to-scalar ratio r = 1/300",
-   "category": "not_yet_measured",
-   "prediction": "r = 1/(n_C * N_efold) = 1/300 = 0.0033. Below current limits but within reach of LiteBIRD.",
+   "name": "RETIRED \u2014 Tensor-to-scalar ratio r = 1/300",
+   "category": "retired",
+   "prediction": "RETIRED May 13, 2026. Superseded by pred_022 (r ~ 0). The r = 1/300 formula borrowed Starobinsky's N_efold without BST justification. BST inflation is spectral, not dynamical \u2014 no rolling field, no tensor source. See Toy 2142.",
    "bst_value": "0.0033",
    "current_measurement": "< 0.036 (BICEP/Keck 2021)",
    "experiment": "LiteBIRD, CMB-S4",
    "timeline": "2030+",
-   "falsification_criterion": "r measured above 0.01 or below 0.001",
-   "impact_if_falsified": "Would constrain BST inflation model",
-   "status": "untested",
-   "bst_integers_used": [
-    "n_C",
-    "rank",
-    "N_c"
-   ],
+   "falsification_criterion": "N/A \u2014 retired",
+   "impact_if_falsified": "N/A \u2014 retired",
+   "status": "retired",
+   "bst_integers_used": [],
    "source_section": "Section 3",
    "related_constants": [],
-   "tier": "S"
+   "tier": "retired"
   },
   {
    "id": "pred_057",
@@ -1756,7 +1756,8 @@
    "status": "in_progress",
    "falsifiable": true,
    "notes": "Toy 1968/1999. THE killer experiment. Standard fabrication. Sharp BST prediction.",
-   "tier": "S"
+   "tier": "S",
+   "name": "BaTiO3 137-plane piezoelectric peak"
   },
   {
    "id": "pred_097",
@@ -1768,7 +1769,8 @@
    "status": "in_progress",
    "falsifiable": true,
    "notes": "Toy 2053. 9 samples N=125..150. Standard spectrophotometry.",
-   "tier": "S"
+   "tier": "S",
+   "name": "Photonic crystal Q-factor at 137 periods"
   },
   {
    "id": "pred_098",
@@ -1780,7 +1782,8 @@
    "status": "in_progress",
    "falsifiable": true,
    "notes": "Toy 2056. Literature-confirmed: 155K BST vs 151K pressure-quenched at 2.6%.",
-   "tier": "S"
+   "tier": "S",
+   "name": "Cuprate 3-plane T_c = 276 K"
   },
   {
    "id": "pred_099",
@@ -1792,7 +1795,8 @@
    "status": "untested",
    "falsifiable": true,
    "notes": "T1695. Current record ZT = 3.1 (SnSe). BST bound = 3.5.",
-   "tier": "S"
+   "tier": "S",
+   "name": "Thermoelectric ZT upper bound = g/rank = 3.5"
   },
   {
    "id": "pred_100",
@@ -1804,7 +1808,8 @@
    "status": "untested",
    "falsifiable": true,
    "notes": "T1670. Known value 6.737(159). BST predicts 6.75 at 0.19%.",
-   "tier": "S"
+   "tier": "S",
+   "name": "QED 5-loop coefficient C_5 = 27/4"
   },
   {
    "id": "pred_101",
@@ -1816,7 +1821,8 @@
    "status": "in_progress",
    "falsifiable": true,
    "notes": "Toy 2058. B12=rank*C_2 cage + rank^5 hydrogen.",
-   "tier": "S"
+   "tier": "S",
+   "name": "B12H32 hydride T_c ~ 214 K"
   },
   {
    "id": "pred_102",
@@ -1828,7 +1834,8 @@
    "status": "in_progress",
    "falsifiable": true,
    "notes": "Toy 2062. Wallach gap protection at BST spectral addresses.",
-   "tier": "S"
+   "tier": "S",
+   "name": "BST eigenvalue entanglement fidelity enhancement"
   },
   {
    "id": "pred_103",
@@ -1840,7 +1847,8 @@
    "status": "in_progress",
    "falsifiable": true,
    "notes": "Toy 2059. phi^n_C \u2248 c_2. Periodic + quasiperiodic = complete control.",
-   "tier": "S"
+   "tier": "S",
+   "name": "Quasicrystal coherence advantage"
   }
  ]
 }
