@@ -1,8 +1,8 @@
 # BST Backlog
 
-*Blocked items only. Active work -> CI_BOARD.md. Completed -> CI_BOARD_completed_*.md*
+*Queued and blocked items. Active work -> CI_BOARD.md. Completed -> CI_BOARD_completed_*.md*
 
-**Last updated:** May 13, 2026. 104 papers. 2172 toys. T1-T1840. 3897 invariants. **SEVEN MILLENNIUM PROVED.** SP-19a ALL 4 PHASES COMPLETE (15/15 tasks DONE). SP-19b (AdS/CFT Bridge) queued. SP-20 (Testbed Growth) queued. SP-14 active.
+**Last updated:** May 14, 2026. 104 papers. 2227+ toys. T1-T1868. 3990 invariants. **SEVEN MILLENNIUM PROVED.** SP-19 ALL COMPLETE. SP-22 ALL COMPLETE. SP-21 4 remaining. SP-23 ACTIVE (13 tasks). SP-19b, SP-20 TO SCOPE.
 
 ---
 
@@ -46,16 +46,13 @@
 | # | Question | Status |
 |---|----------|--------|
 | CP-1 | Graph wants the muon g-2 | OPEN (hardest) |
-| CP-2 | Table wants self-closure | ANSWERED |
-| CP-3 | Rosetta Stone wants master ratio | ANSWERED (no master ratio exists) |
-| CP-4 | CSE wants biology linearized | ANSWERED |
 | CP-5 | Convergence — finite description of D_IV^5 | META |
 
 ---
 
 ## SP-12: Understanding Program (Casey directive, April 29)
 
-*"We see the numbers but don't know WHY." Three workstreams. Priority-ranked.*
+*"We see the numbers but don't know WHY." 18 open questions across 3 workstreams.*
 
 ### U-1: Substrate Physics
 
@@ -63,8 +60,6 @@
 |---|----------|--------|
 | U-1.1 | Where does m_e come from? S^1 circumference sets scale. | OPEN |
 | U-1.2 | Why m_p/m_e = 6pi^5? Bulk vs fiber winding. | OPEN |
-| U-1.3 | Confinement = Hamming distance | **DONE** T1816 |
-| U-1.4 | Mass = processing time / GR from Bergman | **DONE** T1821 |
 | U-1.5 | Why pi enters once — all from Shilov integrals? | OPEN |
 | U-1.6 | Substrate creation sequence | OPEN (conceptual) |
 | U-1.7 | Genus hole geometry | NEEDS CLARIFICATION |
@@ -75,7 +70,6 @@
 |---|----------|--------|
 | U-2.1 | Lagrangian isomorphism — same S-matrix? | OPEN |
 | U-2.2 | Correction mechanism — all RFC? | OPEN |
-| U-2.3 | CKM eigenvalues directly | **DONE** (research complete) |
 | U-2.4 | Higgs cascade as spectral peeling | PARTIALLY DONE |
 | U-2.5 | Numerator rule derivation | OPEN |
 | U-2.6 | ZZ/WW suppression — 1/rank^N_c? | OPEN |
@@ -85,11 +79,9 @@
 | # | Question | Status |
 |---|----------|--------|
 | U-3.1 | Why D_IV^5? CMB debris from dead manifolds. | OPEN |
-| U-3.2 | Born rule from K(z,z) | **DONE** T1813 |
 | U-3.3 | Cosmological cascade errors — 10.9x systematic? | OPEN |
 | U-3.4 | Phase transitions = eigenvalue crossings | OPEN |
 | U-3.5 | Inflation = commitment dynamics, 16/3 ratio | OPEN |
-| U-3.6 | n_s derivation | **DONE** T1814/T1817 |
 | U-3.7 | 5/6 self-description threshold | OPEN (conceptual) |
 | U-3.8 | Hodge reversal | OPEN |
 | U-3.9 | Biology arrangement — 8 prebiotic amino acids | OPEN |
@@ -151,31 +143,11 @@
 
 ## SP-18: AC+GC Methodology — 17/18 COMPLETE
 
-**Three-move reduction**: (1) Constraint — find independent bounds, (2) Certificate — verify computationally, (3) Boundary — state what you didn't prove.
-
-**GC-9** "Structural Uniqueness as a Proof Method" — v0.3, CASEY APPROVED, submission-ready. Bulletin AMS.
-
-### All items
+**GC-9** "Structural Uniqueness as a Proof Method" — CASEY APPROVED, submission-ready. Bulletin AMS.
 
 | # | Task | Status |
 |---|------|--------|
-| GC-1 | FLT via BSD bridge | DONE v0.2 |
-| GC-2 | Poincare template mapping | DONE v0.1 |
-| GC-3 | Dim-4 gap scoping | DONE v0.1 |
-| GC-4 | Survey of solved hard problems | DONE v0.1 |
-| GC-5 | Methodology formalization | DONE v0.3 |
-| GC-6 | Dimension ladder | DONE v0.1 |
-| GC-7 | AC + GC as dual tools | DONE v0.1 |
-| GC-8 | Application targets beyond BST | DONE v0.1 |
-| GC-9 | Methodology paper | **CASEY APPROVED** |
 | GC-10 | Meta-Clay proposal | FUTURE — Casey gates |
-| GC-11 | Engineering applications survey | DONE v0.1 |
-| GC-12 | SE as falsifiable GC test | DONE v0.1 |
-| GC-13 | Cold-read engineering cases | DONE v0.1 |
-| GC-14 | CI-assisted scientific reasoning | DONE v0.1 |
-| GC-15 | NS Path C — K41 spectral cascade | DONE v0.1 |
-| GC-16 | NS dimension uniqueness | DONE v0.1 |
-| GC-17a | Modularity feasibility scoping | DONE v0.1 |
 | GC-17b | Modularity via boundary invertibility | DRAFT v0.2 — group review |
 
 ---
@@ -280,8 +252,6 @@ Paper: #104 v0.2, "D_IV^5 as Proof Coordinate System." Bulletin AMS.
 
 | # | Item | Status |
 |---|------|--------|
-| OP-1 | Gravity torsion-free completion | ~99% |
-| OP-2 | T155 formalization (Jordan curve) | ~99% |
 | OP-3 | Ramanujan for Sp(6) | CONDITIONAL |
 
 ---
@@ -297,4 +267,4 @@ Paper: #104 v0.2, "D_IV^5 as Proof Coordinate System." Bulletin AMS.
 
 ---
 
-*Backlog updated May 13, 2026. Board cleanup: archived completed sprints (YM, Hodge, Wallach, FC, GC-17b verification) to `CI_BOARD_completed_2026-05-13.md`. Condensed SP-14 and SP-17. Both files cut ~45%.*
+*Backlog updated May 14, 2026. Cleaned: removed all DONE items from SP-12 (7 done), SP-18 (15 done), CP (3 answered), OP (2 at ~99%). SP-19 ALL COMPLETE (archived to board). SP-22 ALL COMPLETE (archived).*

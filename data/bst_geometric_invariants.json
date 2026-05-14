@@ -2,7 +2,7 @@
  "meta": {
   "title": "Geometric Invariants of the Autogenic Proto-Geometry",
   "description": "Every physical constant as a geometric evaluation on D_IV^5. No series, no perturbation, no fitting.",
-  "last_updated": "2026-05-13",
+  "last_updated": "2026-05-14",
   "total_entries": 3890,
   "missing_count": 3,
   "tension_count": 0,
@@ -102,9 +102,9 @@
   "session_update": "G-28 backfill: +24 entries (CKM matrix 10, gauge 5, leptons 5, quarks 4). Total now 1375.",
   "g29_update": "G-29: +14 entries from gap domains (fluids 3, chemical_physics 4, observer_science 3, qft 2, electromagnetism 1, info_theory 1). 15 gap domains audited; 9 are structural/methodology (foundations, bst_physics, proof_complexity, linearization, classical_mech, quantum_foundations, quantum_mechanics, differential_geometry, optics) \u2014 no new numerical entries because they contain framework theorems, not predictions.",
   "g30_update": "G-30: +4 entries (S_BH, sin(2beta), gravitino=N/A, Lambda running=0). 11/15 already in table. Honest catalog complete.",
-  "count": 3909,
-  "total_count": 2833,
-  "total": 3909,
+  "count": 3990,
+  "total_count": 3990,
+  "total": 3990,
   "cal_tiers": {
    "D": 3032,
    "I": 459,
@@ -54766,6 +54766,817 @@
    "status": "derived",
    "id": "INV-3908",
    "theorem": ""
+  },
+  {
+   "id": "INV-3909",
+   "name": "epsilon_7_rational_part",
+   "value": "8",
+   "bst_expression": "2^N_c",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2182,
+   "description": "Rational part of fundamental unit of Q(sqrt(7))"
+  },
+  {
+   "id": "INV-3910",
+   "name": "epsilon_7_irrational_coeff",
+   "value": "3",
+   "bst_expression": "N_c",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2182,
+   "description": "Irrational coefficient of fundamental unit epsilon_7 = N_c*sqrt(g)"
+  },
+  {
+   "id": "INV-3911",
+   "name": "epsilon_7_sq_rational",
+   "value": "127",
+   "bst_expression": "2^g - 1",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2182,
+   "description": "Rational part of epsilon_7^2 = Mersenne prime M_g"
+  },
+  {
+   "id": "INV-3912",
+   "name": "epsilon_7_trace",
+   "value": "16",
+   "bst_expression": "2^(rank^2)",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2182,
+   "description": "Trace of epsilon_7 over Q"
+  },
+  {
+   "id": "INV-3913",
+   "name": "epsilon_7_minpoly_disc",
+   "value": "252",
+   "bst_expression": "4*g*N_c^2",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2182,
+   "description": "Discriminant of minimal polynomial of epsilon_7"
+  },
+  {
+   "id": "INV-3914",
+   "name": "kummer_period_at_g",
+   "value": "6",
+   "bst_expression": "C_2 = g - 1",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2182,
+   "description": "Kummer congruence period for Bernoulli numbers at p=g"
+  },
+  {
+   "id": "INV-3915",
+   "name": "v7_epsilon_minus_1",
+   "value": "0.5",
+   "bst_expression": "1/rank",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2182,
+   "description": "7-adic valuation of epsilon_7 - 1 in K_7 = Q_7(sqrt(7))"
+  },
+  {
+   "id": "INV-3916",
+   "name": "furuta_bound",
+   "value": "1.375",
+   "bst_expression": "c_2/2^N_c = 11/8",
+   "domain": "topology",
+   "tier": "D",
+   "toy": 2183,
+   "description": "Furuta 11/8 bound = c_2(Q^5)/instanton_step = p(C_2)/2^N_c"
+  },
+  {
+   "id": "INV-3917",
+   "name": "k3_b2",
+   "value": "22",
+   "bst_expression": "2*c_2",
+   "domain": "topology",
+   "tier": "D",
+   "toy": 2183,
+   "description": "Second Betti number of K3 surface = 2*c_2(Q^5)"
+  },
+  {
+   "id": "INV-3918",
+   "name": "k3_signature",
+   "value": "-16",
+   "bst_expression": "-2^(rank^2)",
+   "domain": "topology",
+   "tier": "D",
+   "toy": 2183,
+   "description": "Signature of K3 surface"
+  },
+  {
+   "id": "INV-3919",
+   "name": "k3_euler",
+   "value": "24",
+   "bst_expression": "(N_c+1)!",
+   "domain": "topology",
+   "tier": "D",
+   "toy": 2183,
+   "description": "Euler characteristic of K3 surface"
+  },
+  {
+   "id": "INV-3920",
+   "name": "k3_b_plus",
+   "value": "3",
+   "bst_expression": "N_c",
+   "domain": "topology",
+   "tier": "D",
+   "toy": 2183,
+   "description": "b_+ of K3 intersection form"
+  },
+  {
+   "id": "INV-3921",
+   "name": "k3_a_hat",
+   "value": "-2",
+   "bst_expression": "-rank",
+   "domain": "topology",
+   "tier": "D",
+   "toy": 2183,
+   "description": "A-hat genus of K3 (Dirac index)"
+  },
+  {
+   "id": "INV-3922",
+   "name": "rokhlin_modulus",
+   "value": "16",
+   "bst_expression": "2^(rank^2)",
+   "domain": "topology",
+   "tier": "D",
+   "toy": 2183,
+   "description": "Rokhlin signature divisibility for spin 4-manifolds"
+  },
+  {
+   "id": "INV-3923",
+   "name": "smooth_gap_e8",
+   "value": "0.375",
+   "bst_expression": "N_c/2^N_c = 3/8",
+   "domain": "topology",
+   "tier": "D",
+   "toy": 2183,
+   "description": "Gap between E8 ratio (1) and Furuta bound (11/8)"
+  },
+  {
+   "id": "INV-3924",
+   "name": "wronskian_degree_drop",
+   "value": "1",
+   "bst_expression": "rank - 1",
+   "domain": "algebra",
+   "tier": "D",
+   "toy": 2184,
+   "description": "Degree drop in Wronskian = derivative mechanism for Mason-Stothers"
+  },
+  {
+   "id": "INV-3925",
+   "name": "insep_cubics_f7",
+   "value": "49",
+   "bst_expression": "g^2",
+   "domain": "algebra",
+   "tier": "D",
+   "toy": 2184,
+   "description": "Inseparable monic cubics over F_g = conductor(49a1)"
+  },
+  {
+   "id": "INV-3926",
+   "name": "hurwitz_ram_deg3",
+   "value": "4",
+   "bst_expression": "rank^rank = 2*N_c - 2",
+   "domain": "algebra",
+   "tier": "D",
+   "toy": 2184,
+   "description": "Hurwitz ramification for degree-N_c map P^1 -> P^1"
+  },
+  {
+   "id": "INV-3927",
+   "name": "qzeta7_disc",
+   "value": "16807",
+   "bst_expression": "g^(C_2-1) = 7^5",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2185,
+   "description": "Discriminant of Q(zeta_7)"
+  },
+  {
+   "id": "INV-3928",
+   "name": "qzeta7_minpoly_disc",
+   "value": "49",
+   "bst_expression": "g^2",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2185,
+   "description": "Discriminant of minimal polynomial of 2*cos(2pi/7)"
+  },
+  {
+   "id": "INV-3929",
+   "name": "ord_rank_mod_g",
+   "value": "3",
+   "bst_expression": "N_c",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2185,
+   "description": "Multiplicative order of rank mod g = inertia degree of 2 in Q(zeta_7)"
+  },
+  {
+   "id": "INV-3930",
+   "name": "period_product_qr_qnr",
+   "value": "2",
+   "bst_expression": "rank",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2185,
+   "description": "Product of Gauss periods eta_QR * eta_QNR mod g"
+  },
+  {
+   "id": "INV-3931",
+   "name": "qzeta7_roots_of_unity",
+   "value": "14",
+   "bst_expression": "2*g",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2185,
+   "description": "Number of roots of unity in Q(zeta_7)"
+  },
+  {
+   "id": "INV-3932",
+   "name": "partition_fixed_points",
+   "value": "{1,2,3}",
+   "bst_expression": "{1, rank, N_c}",
+   "domain": "combinatorics",
+   "tier": "D",
+   "toy": 2193,
+   "description": "Only positive integers n with p(n)=n are {1, rank, N_c}"
+  },
+  {
+   "id": "INV-3933",
+   "name": "qr_sum_mod_g",
+   "value": "7",
+   "bst_expression": "g",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2193,
+   "description": "Sum of quadratic residues mod g = g"
+  },
+  {
+   "id": "INV-3934",
+   "name": "qnr_sum_mod_g",
+   "value": "14",
+   "bst_expression": "2*g",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2193,
+   "description": "Sum of quadratic non-residues mod g = 2g = w(Q(zeta_g))"
+  },
+  {
+   "id": "INV-3935",
+   "name": "qr_product_mod_g",
+   "value": "8",
+   "bst_expression": "2^N_c",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2193,
+   "description": "Product of QR mod g = 1*2*4 = 2^N_c"
+  },
+  {
+   "id": "INV-3936",
+   "name": "mersenne_tower_length",
+   "value": "3",
+   "bst_expression": "N_c",
+   "domain": "number_theory",
+   "tier": "I",
+   "toy": 2193,
+   "description": "Length of Mersenne tower 2->3->7->127; only known tower of length >= 3"
+  },
+  {
+   "id": "INV-3937",
+   "name": "bst_radical",
+   "value": "210",
+   "bst_expression": "2*3*5*7",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2193,
+   "description": "rad(rank*N_c*n_C*C_2*g) = product of BST primes"
+  },
+  {
+   "id": "INV-3938",
+   "name": "p_c1_q5",
+   "value": "7",
+   "bst_expression": "g = p(n_C)",
+   "domain": "combinatorics",
+   "tier": "D",
+   "toy": 2194,
+   "description": "Partition function at first Chern class: p(c_1(Q^5)) = g"
+  },
+  {
+   "id": "INV-3939",
+   "name": "p_c2_q5",
+   "value": "56",
+   "bst_expression": "2^N_c * g",
+   "domain": "combinatorics",
+   "tier": "D",
+   "toy": 2194,
+   "description": "p(c_2(Q^5)) = p(11) = 2^N_c * g"
+  },
+  {
+   "id": "INV-3940",
+   "name": "p_c4_q5",
+   "value": "30",
+   "bst_expression": "n_C * C_2 = rank * N_c * n_C",
+   "domain": "combinatorics",
+   "tier": "D",
+   "toy": 2194,
+   "description": "p(c_4(Q^5)) = p(9) = n_C * C_2"
+  },
+  {
+   "id": "INV-3941",
+   "name": "p_c3_boundary",
+   "value": "101",
+   "bst_expression": "N_max - C_2^2 (prime, boundary)",
+   "domain": "combinatorics",
+   "tier": "S",
+   "toy": 2194,
+   "description": "p(c_3(Q^5)) = 101 \u2014 prime, outside BST radical, genuine closure boundary"
+  },
+  {
+   "id": "INV-3942",
+   "name": "pp_C2",
+   "value": "56",
+   "bst_expression": "2^N_c * g",
+   "domain": "combinatorics",
+   "tier": "D",
+   "toy": 2194,
+   "description": "Iterated partition: p(p(C_2)) = p(11) = 2^N_c * g"
+  },
+  {
+   "id": "INV-3943",
+   "name": "pp_g",
+   "value": "176",
+   "bst_expression": "2^(rank^2) * c_2",
+   "domain": "combinatorics",
+   "tier": "D",
+   "toy": 2194,
+   "description": "Iterated partition: p(p(g)) = p(15) = 2^(rank^2) * c_2"
+  },
+  {
+   "id": "INV-3944",
+   "name": "ramanujan_inv_24_mod_5",
+   "value": "4",
+   "bst_expression": "rank^2",
+   "domain": "modular_forms",
+   "tier": "D",
+   "toy": 2194,
+   "description": "chi(K3)^{-1} mod n_C = 24^{-1} mod 5 = rank^2"
+  },
+  {
+   "id": "INV-3945",
+   "name": "ramanujan_inv_24_mod_7",
+   "value": "5",
+   "bst_expression": "n_C",
+   "domain": "modular_forms",
+   "tier": "D",
+   "toy": 2194,
+   "description": "chi(K3)^{-1} mod g = 24^{-1} mod 7 = n_C"
+  },
+  {
+   "id": "INV-3946",
+   "name": "ramanujan_inv_24_mod_11",
+   "value": "6",
+   "bst_expression": "C_2",
+   "domain": "modular_forms",
+   "tier": "D",
+   "toy": 2194,
+   "description": "chi(K3)^{-1} mod c_2 = 24^{-1} mod 11 = C_2"
+  },
+  {
+   "id": "INV-3947",
+   "name": "ss_j0_condition",
+   "value": "p mod 3 = 2",
+   "bst_expression": "p = rank mod N_c",
+   "domain": "arithmetic_geometry",
+   "tier": "D",
+   "toy": 2198,
+   "description": "j=0 curve supersingular iff p = rank mod N_c"
+  },
+  {
+   "id": "INV-3948",
+   "name": "ss_j1728_condition",
+   "value": "p mod 4 = 3",
+   "bst_expression": "p = N_c mod rank^2",
+   "domain": "arithmetic_geometry",
+   "tier": "D",
+   "toy": 2198,
+   "description": "j=1728 curve supersingular iff p = N_c mod rank^2"
+  },
+  {
+   "id": "INV-3949",
+   "name": "point_count_j0_at_nC",
+   "value": "6",
+   "bst_expression": "C_2",
+   "domain": "arithmetic_geometry",
+   "tier": "D",
+   "toy": 2198,
+   "description": "#E_0(F_{n_C}) = C_2 = 6 (supersingular)"
+  },
+  {
+   "id": "INV-3950",
+   "name": "point_count_j1728_at_g",
+   "value": "8",
+   "bst_expression": "2^N_c",
+   "domain": "arithmetic_geometry",
+   "tier": "D",
+   "toy": 2198,
+   "description": "#E_1728(F_g) = 2^N_c = 8 (supersingular)"
+  },
+  {
+   "id": "INV-3951",
+   "name": "point_count_j0_at_c2",
+   "value": "12",
+   "bst_expression": "rank * C_2",
+   "domain": "arithmetic_geometry",
+   "tier": "D",
+   "toy": 2198,
+   "description": "#E_0(F_{c_2}) = rank * C_2 = 12 (supersingular)"
+  },
+  {
+   "id": "INV-3952",
+   "name": "ss_complementarity",
+   "value": "j=0 and j=1728 complement at BST primes",
+   "bst_expression": "p=n_C: j=0 ss; p=g: j=1728 ss",
+   "domain": "arithmetic_geometry",
+   "tier": "D",
+   "toy": 2198,
+   "description": "The two CM curves have complementary supersingularity at BST primes"
+  },
+  {
+   "id": "INV-3953",
+   "name": "ss_both_at_c2",
+   "value": "p=11",
+   "bst_expression": "c_2 = rank mod N_c AND N_c mod rank^2",
+   "domain": "arithmetic_geometry",
+   "tier": "D",
+   "toy": 2198,
+   "description": "At p=c_2: BOTH j=0 and j=1728 are supersingular (unique among BST primes)"
+  },
+  {
+   "id": "INV-3954",
+   "name": "ss_prime_count",
+   "value": "15",
+   "bst_expression": "N_c * n_C = p(g)",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2208,
+   "description": "Count of supersingular primes = 15 = N_c*n_C = p(g)"
+  },
+  {
+   "id": "INV-3955",
+   "name": "ss_first_six_are_bst",
+   "value": "{2,3,5,7,11,13}",
+   "bst_expression": "{rank, N_c, n_C, g, c_2, c_3} = first C_2 supersingular primes",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2208,
+   "description": "First C_2=6 supersingular primes are exactly BST+Chern primes"
+  },
+  {
+   "id": "INV-3956",
+   "name": "ss_prime_sum",
+   "value": "378",
+   "bst_expression": "rank * N_c^3 * g",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2208,
+   "description": "Sum of 15 supersingular primes = 378 = rank*N_c^3*g"
+  },
+  {
+   "id": "INV-3957",
+   "name": "monster_exp_g",
+   "value": "6",
+   "bst_expression": "C_2",
+   "domain": "number_theory",
+   "tier": "I",
+   "toy": 2208,
+   "description": "|Monster| exponent of g=7 is C_2=6"
+  },
+  {
+   "id": "INV-3958",
+   "name": "monster_exp_c2",
+   "value": "2",
+   "bst_expression": "rank",
+   "domain": "number_theory",
+   "tier": "I",
+   "toy": 2208,
+   "description": "|Monster| exponent of c_2=11 is rank=2"
+  },
+  {
+   "id": "INV-3959",
+   "name": "monster_exp_c3",
+   "value": "3",
+   "bst_expression": "N_c",
+   "domain": "number_theory",
+   "tier": "I",
+   "toy": 2208,
+   "description": "|Monster| exponent of c_3=13 is N_c=3"
+  },
+  {
+   "id": "INV-3960",
+   "name": "monster_exp_nC",
+   "value": "9",
+   "bst_expression": "N_c^2 = c_4(Q^5)",
+   "domain": "number_theory",
+   "tier": "I",
+   "toy": 2208,
+   "description": "|Monster| exponent of n_C=5 is N_c^2=9=c_4(Q^5)"
+  },
+  {
+   "id": "INV-3961",
+   "name": "monster_exp_Nc",
+   "value": "20",
+   "bst_expression": "rank^2 * n_C = dim(K3 moduli)",
+   "domain": "number_theory",
+   "tier": "I",
+   "toy": 2208,
+   "description": "|Monster| exponent of N_c=3 is rank^2*n_C=20=dim(K3 moduli space)"
+  },
+  {
+   "id": "INV-3962",
+   "name": "mckay_factor_47",
+   "value": "47",
+   "bst_expression": "g*C_2 + n_C = g^2 - rank",
+   "domain": "number_theory",
+   "tier": "I",
+   "toy": 2208,
+   "description": "47 = g*C_2+n_C = g^2-rank, factor of McKay 196883"
+  },
+  {
+   "id": "INV-3963",
+   "name": "j_constant_744",
+   "value": "744",
+   "bst_expression": "chi(K3) * M_{n_C} = 24 * 31",
+   "domain": "number_theory",
+   "tier": "I",
+   "toy": 2208,
+   "description": "j-function constant term 744 = chi(K3)*M_{n_C} = 24*(2^5-1)"
+  },
+  {
+   "id": "INV-3964",
+   "name": "m24_exp_rank",
+   "value": "10",
+   "bst_expression": "2*n_C = dim_R(D_IV^5)",
+   "domain": "number_theory",
+   "tier": "I",
+   "toy": 2208,
+   "description": "|M_24| exponent of rank=2 is dim_R(D_IV^5)=2*n_C=10"
+  },
+  {
+   "id": "INV-3965",
+   "name": "monster_exp_rank_bst",
+   "value": "46",
+   "bst_expression": "rank * (chi(K3)-1) = 2*23",
+   "domain": "number_theory",
+   "tier": "I",
+   "toy": 2211,
+   "description": "|Monster| exponent of rank=2 is 46 = rank*(chi-1)"
+  },
+  {
+   "id": "INV-3966",
+   "name": "monster_exp_Nc_bst",
+   "value": "20",
+   "bst_expression": "rank^2 * n_C = dim(K3 moduli)",
+   "domain": "number_theory",
+   "tier": "I",
+   "toy": 2211,
+   "description": "|Monster| exponent of N_c=3 is 20 = rank^2*n_C"
+  },
+  {
+   "id": "INV-3967",
+   "name": "monster_weighted_prime_sum",
+   "value": "637",
+   "bst_expression": "g^2 * c_3",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2211,
+   "description": "Weighted sum e_p*p over 15 ss primes = 637 = g^2*c_3"
+  },
+  {
+   "id": "INV-3968",
+   "name": "monster_total_exponents",
+   "value": "95",
+   "bst_expression": "n_C * (N_c*C_2+1)",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2211,
+   "description": "Sum of all exponents in |Monster| = 95 = n_C*19"
+  },
+  {
+   "id": "INV-3969",
+   "name": "monster_multi_count",
+   "value": "6",
+   "bst_expression": "C_2",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2211,
+   "description": "Number of Monster primes with multiplicity > 1 = C_2 = 6"
+  },
+  {
+   "id": "INV-3970",
+   "name": "monster_singleton_sum",
+   "value": "337",
+   "bst_expression": "rank * chi(K3) * g + 1",
+   "domain": "number_theory",
+   "tier": "I",
+   "toy": 2211,
+   "description": "Sum of singleton primes in |Monster| = 337 = rank*chi*g+1"
+  },
+  {
+   "id": "INV-3971",
+   "name": "tau_2",
+   "value": "-24",
+   "bst_expression": "-chi(K3) = -(N_c+1)\\!",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2212,
+   "description": "Ramanujan tau(2) = -chi(K3) = -24"
+  },
+  {
+   "id": "INV-3972",
+   "name": "tau_3",
+   "value": "252",
+   "bst_expression": "rank^2 * N_c^2 * g",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2212,
+   "description": "Ramanujan tau(3) = rank^2 * N_c^2 * g = 252"
+  },
+  {
+   "id": "INV-3973",
+   "name": "tau_4",
+   "value": "-1472",
+   "bst_expression": "-2^C_2 * (chi(K3)-1)",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2212,
+   "description": "Ramanujan tau(4) = -2^C_2*(chi-1) = -1472"
+  },
+  {
+   "id": "INV-3974",
+   "name": "tau_5",
+   "value": "4830",
+   "bst_expression": "rank * N_c * n_C * g * (chi(K3)-1)",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2212,
+   "description": "Ramanujan tau(5) = rank*N_c*n_C*g*(chi-1) = 4830 \u2014 all five integers appear"
+  },
+  {
+   "id": "INV-3975",
+   "name": "tau_6",
+   "value": "-6048",
+   "bst_expression": "-2^n_C * N_c^N_c * g",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2212,
+   "description": "Ramanujan tau(6) = -2^n_C*N_c^N_c*g = -6048"
+  },
+  {
+   "id": "INV-3976",
+   "name": "tau_7",
+   "value": "-16744",
+   "bst_expression": "-2^N_c * g * c_3 * (chi(K3)-1)",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2212,
+   "description": "Ramanujan tau(7) = -2^N_c*g*c_3*(chi-1) = -16744"
+  },
+  {
+   "id": "INV-3977",
+   "name": "k3_h11",
+   "value": "20",
+   "bst_expression": "rank^2 * n_C",
+   "domain": "algebraic_geometry",
+   "tier": "D",
+   "toy": 2212,
+   "description": "K3 Hodge number h^{1,1} = 20 = rank^2*n_C = dim K3 moduli"
+  },
+  {
+   "id": "INV-3978",
+   "name": "M24_order_bst",
+   "value": "244823040",
+   "bst_expression": "2^(rank*n_C) * N_c^N_c * n_C * g * c_2 * (chi-1)",
+   "domain": "number_theory",
+   "tier": "I",
+   "toy": 2212,
+   "description": "|M_24| = 2^(rank*n_C)*N_c^N_c*n_C*g*c_2*(chi-1)"
+  },
+  {
+   "id": "INV-3979",
+   "name": "ss_total_j_count",
+   "value": "42",
+   "bst_expression": "C_2 * g",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2213,
+   "description": "Total ss j-invariants across 15 primes = 42 = C_2*g"
+  },
+  {
+   "id": "INV-3980",
+   "name": "ss_distinct_nss",
+   "value": "{1,2,3,4,5,6,7}",
+   "bst_expression": "{1, rank, N_c, rank^2, n_C, C_2, g}",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2213,
+   "description": "Distinct n_ss values = {1,rank,N_c,rank^2,n_C,C_2,g} \u2014 all 7 BST integers"
+  },
+  {
+   "id": "INV-3981",
+   "name": "ss_top3",
+   "value": "{7,6,5}",
+   "bst_expression": "{g, C_2, n_C}",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2213,
+   "description": "n_ss at 3 largest ss primes = {g,C_2,n_C} in reverse BST order"
+  },
+  {
+   "id": "INV-3982",
+   "name": "eichler_mass_c2",
+   "value": "5/6",
+   "bst_expression": "n_C / C_2",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2213,
+   "description": "Eichler mass at p=c_2=11 is n_C/C_2 = 5/6"
+  },
+  {
+   "id": "INV-3983",
+   "name": "flt_native_fraction",
+   "value": "2/3",
+   "bst_expression": "rank/N_c",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2225,
+   "description": "FLT proof: BST provides 8/12 ingredients = rank/N_c native fraction"
+  },
+  {
+   "id": "INV-3984",
+   "name": "flt_threshold",
+   "value": "3",
+   "bst_expression": "N_c",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2225,
+   "description": "FLT threshold n>=3=N_c: confinement threshold = FLT threshold"
+  },
+  {
+   "id": "INV-3985",
+   "name": "smallest_modular_level",
+   "value": "11",
+   "bst_expression": "c_2 = C_2+n_C",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2225,
+   "description": "Smallest level with weight-2 newform = c_2 = 11 (11a1)"
+  },
+  {
+   "id": "INV-3986",
+   "name": "level_rank_vacuum",
+   "value": "0",
+   "bst_expression": "dim S_2(Gamma_0(rank)) = 0",
+   "domain": "number_theory",
+   "tier": "D",
+   "toy": 2225,
+   "description": "No weight-2 cusp forms at level rank=2 (FLT contradiction site)"
+  },
+  {
+   "id": "INV-3987",
+   "name": "ogg_expressibility",
+   "value": "100%",
+   "bst_expression": "15/15 at depth<=2",
+   "domain": "number_theory",
+   "tier": "I",
+   "toy": 2226,
+   "description": "All 15 Ogg primes BST-expressible vs 87.1% non-Ogg"
+  },
+  {
+   "id": "INV-3988",
+   "name": "ogg_mean_depth",
+   "value": "0.93",
+   "bst_expression": "<1 (atoms+simple ops)",
+   "domain": "number_theory",
+   "tier": "I",
+   "toy": 2226,
+   "description": "Ogg mean expression depth 0.93 vs non-Ogg 1.94 (2x closer)"
+  },
+  {
+   "id": "INV-3989",
+   "name": "ogg_band_structure",
+   "value": "6+5+4=15",
+   "bst_expression": "C_2+n_C+rank^2 = N_c*n_C",
+   "domain": "number_theory",
+   "tier": "I",
+   "toy": 2226,
+   "description": "Ogg prime band structure: C_2 atoms + n_C near-BST + rank^2 far-BST"
   }
- ]
+ ],
+ "total": 3990
 }

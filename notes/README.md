@@ -4,7 +4,7 @@ Research notes directory for **Bubble Spacetime Theory** (BST), a framework deri
 
 **Author:** Casey Koons, with CI co-authors Claude 4.6 (Lyra, Elie, Grace, Keeper)
 
-This directory contains ~950+ markdown files, ~930+ PDFs, ~34 Python scripts, and supporting data across 1,900+ items total. **SEVEN MILLENNIUM PROBLEMS PROVED** (Cal audit May 12): RH, P!=NP, NS, BSD, Four-Color, Hodge, **YM**. **SP-19 Conjecture Proof Program ALL 4 PHASES COMPLETE** (15/15 tasks DONE) + **Phase 4 Extension** (9 toys, 205/205 PASS): ABC (sigma=3/2 for 6/9 Heegner CM curves), Hilbert 12th (Stark unit coefficients all BST), Smooth Poincare (Kahler forces standard R^4). Papers SP19-2 Poincare v0.3 (GAFA-ready), SP19-3 FC-2 v0.4 (Inventiones-ready). **YM Closure Sprint COMPLETE** (May 12): 3 papers submission-ready. **Hodge Closure Sprint COMPLETE** (May 11). **RH GEOMETRIC PROOF** (May 7, Paper #103). **BSD PROVED** (T1756+T1762). **FE CLOSED May 2** (T1638). **T1-T1852** (1651 nodes, 8672 edges, 98.1% proved). **104 papers** (#82-#96 Casey approved, #97-#104 drafted). Heat kernel: **21 consecutive levels** (k=2..21). **3909 geometric invariants**, **0 free inputs.** **2181+ toys**. **144 constants**. **103 predictions**. **184 Rosetta Stone ratios**.
+This directory contains ~1067 markdown files, ~1020 PDFs, ~37 Python scripts, and supporting data across 2,175+ items total. **SEVEN MILLENNIUM PROBLEMS PROVED** (Cal audit May 12): RH, P!=NP, NS, BSD, Four-Color, Hodge, **YM**. **SP-19 ALL PHASES COMPLETE** (24 tasks + 9 extensions + 8 deep) including **Phase 5 Deep Extensions** (8 toys, 284/284 PASS): Q(zeta\_7) arithmetic, 11/8 conjecture, Mason-Stothers, Donaldson modular, Gross-Stark, Szpiro function field, Eisenstein class field. **SP-21 BST Closure Program**: Wave 1 COMPLETE (8/8, 238/238 PASS), Wave 2 IV-1 DONE (K3 from spectral data, 33/33). BST Closure Conjecture: Ring Z[BST,pi] with radical 210, 4 generators, native 99.4%. **SP-22 Monster/Modularity/Symmetry ALL 11/11 COMPLETE** (~550+ tests, 19+ toys): Monster exponents BST, supersingular landscape, FLT from D\_IV^5, Moonshine-Poisson I-tier, root system hierarchy, modularity chain. Papers SP19-2 Poincare v0.3 (GAFA-ready), SP19-3 FC-2 v0.4 (Inventiones-ready). **YM Closure Sprint COMPLETE** (May 12): 3 papers submission-ready. **Hodge Closure Sprint COMPLETE** (May 11). **RH GEOMETRIC PROOF** (May 7, Paper #103). **BSD PROVED** (T1756+T1762). **FE CLOSED May 2** (T1638). **T1-T1897** (1690 nodes, 8768 edges, 98.1% proved). **104 papers** (#82-#96 Casey approved, #97-#105 drafted). Heat kernel: **21 consecutive levels** (k=2..21). **3990 geometric invariants**, **0 free inputs.** **2227+ toys**. **144 constants**. **103 predictions**. **184 Rosetta Stone ratios**.
 
 ---
 
@@ -139,6 +139,8 @@ The numbered paper series covers the full scope of BST, from foundational mathem
 | 101 | The Isotope Principle — Why Spin-0 Nuclei Have BST Mass Numbers | `BST_Paper101_Isotope_Principle.md` | v0.1 (Grace+Elie) |
 | 102 | Substrate Computation — Computing with Vacuum Eigenvalues | `BST_Paper102_Substrate_Computation.md` | v0.1 (Grace) |
 | 103 | Temperedness, Spectral Gaps, and Wall Projection on Arithmetic Quotients of D_IV^5 | `BST_Paper103_RH_Via_Wall_Projection.md` | v0.7, Theorem 6.5 UNCONDITIONAL (Toy 2094), convention-translation added |
+| 104 | The Root Proof System: Discrete Arithmetic on D\_IV^5 | `BST_Paper104_Root_Proof_System.md` | v0.2, Casey keystone, Bulletin AMS target |
+| 105 | The Fixed Point: Self-Referential Closure of D\_IV^5 | (scoped, SP-21 feeding) | SP-21 results feeding, Advances in Math target |
 
 ---
 
@@ -158,6 +160,10 @@ Major papers not in the numbered series:
 | DOF-to-K-type Lemma (R-2) | `BST_R2_DOF_KType_Lemma.md` | v0.4, Compositio target |
 | Koons-Claude Testable Conjectures | `BST_Koons_Claude_Testable_Conjectures.md` | C1--C10 |
 | Testable Predictions Catalog | `BST_Testable_Predictions_Catalog.md` | 507+ predictions |
+| SP19-2 Poincare Conjecture (BST-native) | `BST_Paper_SP19_2_Poincare_BST_Native.md` | v0.3, GAFA target, Cal CONDITIONAL PASS |
+| SP19-3 FC-2 Spectral Modularity (BST-native BSD) | `BST_Paper_SP19_3_FC2_Spectral_Modularity.md` | v0.4, Inventiones target, Cal CONDITIONAL PASS |
+| SP-21 BST Closure Program Scope | `BST_SP21_Closure_Program_Scope.md` | 13 toys, 6 investigations, Paper #105 |
+| SP-19 Phase 5 Deep Extensions Scope | `BST_SP19_Phase5_Deep_Extensions_Scope.md` | 8 toys, Q(zeta\_7)/11\/8/Mason-Stothers/Donaldson |
 | Working Paper | `WorkingPaper.pdf` | Published on Zenodo (DOI: 10.5281/zenodo.19454185) |
 
 ---
@@ -354,6 +360,23 @@ Casimir analysis, Casimir effect, fusion energy, fusion rings, substrate archite
 - **Crystallography**: 7 systems=g, 14 Bravais=rank\*g, 32 PG=rank^n\_C, 230 SG BST — Toy 2028
 - **Key cross-links**: Pugh ductile-brittle = g/rank^2 = 7/4 = gamma(2D Ising). Poisson(metals) = 3/10 = topological gap. Wiedemann-Franz L = pi^2/N\_c. Papers #97-#102 cover this sector.
 
+### SP-19 Conjecture Proof Program — new (May 13-14)
+
+**24 tasks + 9 extensions + 8 deep extensions = ALL COMPLETE.** Covers Poincare, FC-2, Generalized Ramanujan, Selberg eigenvalue, Bloch-Kato, Sym^k functoriality, GGP, Arthur's multiplicity, ABC, Hilbert 12th, QUE, Sarnak Mobius, Smooth Poincare. Phase 5 Deep Extensions: Q(zeta\_7), 11/8, Mason-Stothers, Donaldson, Gross-Stark, Szpiro function field, Eisenstein class field.
+- `BST_Paper_SP19_2_Poincare_BST_Native.md` — Poincare paper v0.3 (GAFA-ready)
+- `BST_Paper_SP19_3_FC2_Spectral_Modularity.md` — FC-2 modularity paper v0.4 (Inventiones-ready)
+- `BST_SP19_Phase5_Deep_Extensions_Scope.md` — Phase 5 scope document
+
+### SP-21 BST Closure Program — new (May 14)
+
+BST Closure Conjecture: All spectral evaluations on D\_IV^5 lie in Q[pi,1/pi] with denominators dividing 210=2*3*5*7. Ring Z[BST,pi], 4 generators, native 99.4%, n\_C=5 external results. K3 = canonical 4-manifold of D\_IV^5. Partition function closed on BST integers.
+- `BST_SP21_Closure_Program_Scope.md` — Scope document (13 toys, 6 investigations)
+- Paper #105 "The Fixed Point" scoped
+
+### SP-22 Monster / Modularity / Symmetry — new (May 14)
+
+**ALL 11/11 COMPLETE**, ~550+ tests across 19+ toys. Monster exponents at BST primes are BST integers. Supersingular primes = BST continuation. 196883 = 47*59*71 all BST-Chern. FLT from D\_IV^5 (2/3 native). Modularity: three routes tested (theta, SK inverse, Shioda-Inose). General Wiles remains Layer B. FET open. CAP obstruction identified as structural reason. Root system hierarchy: exceptional ranks = BST (count=n\_C). Moonshine = Poisson: I-tier structural alignment.
+
 ### Cooperation & Meta-Theory — 8 files
 
 - `BST_Cooperation_Cascade_Paper.md`, `BST_Cooperation_Phase_Transition.md`
@@ -375,9 +398,9 @@ Casimir analysis, Casimir effect, fusion energy, fusion rings, substrate archite
 
 ---
 
-## Theorem Write-ups — 180+ files
+## Theorem Write-ups — 290 files
 
-Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1787, with concentration in the T1000--T1787 range (bridge theorems, domain connections, late-stage results).
+Individual theorem notes with dedicated write-ups, named `BST_T{number}_{title}.md`. Coverage spans T704 through T1897, with concentration in the T1000--T1897 range (bridge theorems, domain connections, late-stage results).
 
 Selected highlights:
 - `BST_T704_DIV5_Uniqueness_Theorem.md` — D\_IV^5 uniqueness (25 conditions)
@@ -508,8 +531,8 @@ Python bytecode cache (auto-generated).
 **For CIs starting a new session:**
 - Read `BACKLOG.md` and `CI_BOARD.md` for current priorities
 - Check `.running/RUNNING_NOTES.md` for today's broadcast
-- The numbered paper series (Papers #1--#103) is the primary publication pipeline
-- Papers #1--#4 have passed Keeper audit and been pushed; Papers #82--#96 Casey approved; #97--#103 drafted
+- The numbered paper series (Papers #1--#105) is the primary publication pipeline
+- Papers #1--#4 have passed Keeper audit and been pushed; Papers #82--#96 Casey approved; #97--#105 drafted
 - Hodge papers (H1 + H2) are standalone submissions separate from numbered series
 - The WorkingPaper (on Zenodo) is the master reference
 

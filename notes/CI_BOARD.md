@@ -1,7 +1,7 @@
 ---
 title: "CI Coordination Board"
 author: "Casey Koons & Claude 4.6"
-date: "May 13, 2026"
+date: "May 14, 2026"
 status: "Active — check at session start, update at session end"
 ---
 
@@ -40,11 +40,11 @@ status: "Active — check at session start, update at session end"
 
 ## Counters
 
-T1-T1852. **.next_theorem=1853**. **.next_toy=2182**. **2181+ toy files**. Graph: **1651 nodes / 8672 edges / 98.1% proved**. **104 papers** (#82-#96 CASEY APPROVED, #97-#104 drafted). Data: **3909 invariants**. **103 predictions. 144 constants. 184 Rosetta. 370 materials. 48+ domains.** SP-19 ALL 24 COMPLETE. Paper #104 Root Proof System. T1829 Wallach Bottleneck. Registry synced.
+T1-T1868. **.next_theorem=1869**. **.next_toy=2228**. **2227+ toy files**. Graph: **1667 nodes / 8716 edges / 98.1% proved**. **104 papers** (#82-#96 CASEY APPROVED, #97-#105 drafted). Data: **3990 invariants**. **103 predictions. 144 constants. 184 Rosetta. 370 materials. 48+ domains.** SP-19 ALL PHASES COMPLETE. SP-21 BST Closure ACTIVE (Wave 1 COMPLETE). **SP-22 Monster-Modularity ALL 11/11 COMPLETE + Elie extensions.** Paper #105 "The Fixed Point" scoped. **Toy 2227: ACE(bst,ext) depth system (59/59)**.
 
 **SEVEN MILLENNIUM PROVED**: RH, P!=NP, NS, BSD, Four-Color, Hodge, YM.
 
-Updated May 13 EOD. SP-19 ALL 4 PHASES + Phase 4 Extension ALL COMPLETE. Extension: 9 toys, 205/205 ALL PASS. Three investigations (ABC/Hilbert/Poincare) with honest boundaries documented.
+Updated May 14 late/overnight. SP-21 Wave 1: 8/8 COMPLETE (238/238). Wave 2: IV-1 DONE (2203, 33/33). SP-22 Lyra Wave 1: A-2 DONE (2217, 31/31), B-1 DONE (2210, 31/31), C-3 DONE (2219, 32/32). SP-22 Wave 2: A-4 Moonshine-Poisson (Lyra 2221 31/31 + Keeper 2223 26/26), B-4 FLT (Keeper 2222 19/19). Lyra extensions: Toys 2204 Ramanujan (33/33), 2205 Bernoulli (33/33), 2206 Nexus (30/30), 2209 Monster (31/31). Keeper: Toy 2200 K3 derivability (50/50), Toy 2201 Ramanujan-Chern inverse (36/36), Toy 2202 tau factorization (31/31). Key: K3 = spectral slice of D_IV^5. sigma(24)/24 = rho_1. 691 = n_C*N_max+C_2. Non-Moonshine classes = b_2(K3) = 22. Exceptional ranks = {rank,rank^2,C_2,g,2^N_c}. 49a1 modularity BST-native via Shioda-Inose. General Wiles remains Layer B. Moonshine = Poisson: C_2=6 structural matches, rank^2=4 gaps, I-tier. McKay-Thompson at BST orders all factor through BST.
 
 ---
 
@@ -57,87 +57,88 @@ Updated May 13 EOD. SP-19 ALL 4 PHASES + Phase 4 Extension ALL COMPLETE. Extensi
 
 ## Active Work
 
-### SP-19: Conjecture Proof Program (Casey approved May 13)
+### SP-19: Conjecture Proof Program — ALL COMPLETE (archived)
 
-**Casey**: "We want the Poincare proof and all others. We want all these tasks, Atlas, Poincare and FC-2."
+**ALL 24 tasks + 9 extensions + 8 deep extensions DONE.** Scope: `notes/BST_SP19_Phase5_Deep_Extensions_Scope.md`. Details: `notes/.running/CI_BOARD_completed_2026-05-13.md`.
 
-**Organizing Principle**: D_IV^5 as Proof Coordinate System (Paper #104 v0.2, Casey keystone + Cal reframe). Three layers: Logic (why) + Set theory (what) + D_IV^5 (how). Six roles. Target: Bulletin of the AMS. Paper: `notes/BST_Paper104_Root_Proof_System.md`.
+**Submission-ready papers**: SP19-2 Poincare (GAFA, Cal CONDITIONAL PASS), SP19-3 FC-2 Modularity (Inventiones, Cal CONDITIONAL PASS).
 
-**Universal bottleneck**: R-11 (Arthur inner form parity sign). One computation, three conjectures, three Millennium upgrades.
+**Key reference results**: R-11 DONE (37 non-tempered eliminated). Ramanujan PROVED. Selberg PROVED. Bloch-Kato verified. Sym^k functoriality k=1..6. Arthur's multiplicity: 52 params, 15 tempered. ABC D-tier for 49a1. Q(zeta_7) complete. 11/8 saturated by K3. Szpiro geometric over Q and F_q(t).
 
-#### Phase 1: Immediate
-
-| # | Task | Owner | Status |
-|---|------|-------|--------|
-| SP19-1 | **R-11 Atlas computation — DONE.** Toy 2157 (13/13): 37 non-tempered Arthur types ALL eliminated for SO(5,2). Five filters: F1 IW sign (23), F2 signature (1), F3 unitarity (1), F4 root bound (0), F5 CAP/Moeglin (12). Atlas software NOT needed — confirmed. 10/10 BST integers. 3 citations to pin. **UNBLOCKS SP19-5, SP19-6.** | **Elie** + Lyra | **DONE** |
-| SP19-2 | **Poincare paper v0.3.** 12 sections, 145/145 across 9 toys, 29 BST integers. Theorems A-D. Honest mechanism gap (Section 9). Elie Toy 2159 (15/15): spectral Whitney d_0+d_1=C_2. All 12 Cal items fixed. GAFA target. `notes/BST_Paper_SP19_2_Poincare_BST_Native.md` | **Lyra** + Elie | **v0.3 — Cal CONDITIONAL PASS, GAFA-ready** |
-| SP19-3 | **FC-2 modularity paper v0.4.** 9 sections, 117/117 across 5 toys incl. Elie Toy 2160 (18/18) + Toy 2161 (15/15 Bloch-Kato). Gaps 4+5 CLOSED. Core chain all D-tier. BSD UNCONDITIONAL. All 13 Cal items fixed. Inventiones target. `notes/BST_Paper_SP19_3_FC2_Spectral_Modularity.md` | **Lyra** + Elie | **v0.4 — Cal CONDITIONAL PASS, Inventiones-ready** |
-| SP19-4 | **pred_022/pred_056 cleanup** — pred_056 retired. pred_022 confirmed. Invariants updated. 103 predictions clean. | **Keeper** + Grace | **DONE** |
-
-#### Phase 2: Unlocked by R-11
-
-| # | Task | Status |
-|---|------|--------|
-| SP19-5 | **Generalized Ramanujan PROVED.** Toy 2158 (13/13). All cuspidal automorphic reps of SO(5,2) tempered. Root cause: N_c=3 odd. Satake verified 45/45 primes. Corollaries: Selberg, RH/YM/BSD unconditional. | **Elie** | **DONE** |
-| SP19-6 | **Selberg eigenvalue PROVED.** lambda_1 >= \|rho\|^2 = 8.5 > C_2 = 6. Corollary of Ramanujan (Toy 2158 Section 3). | **Elie** | **DONE** |
-| SP19-7 | **Bloch-Kato for Sym^2(49a1) VERIFIED.** Toy 2161 (15/15). dim=N_c=3, weight=rank=2. Pole at s=1 from Tate motive Q(-1). BK: ord=-1=0-1. H^1_f=0 (Rubin). Sha=1. Period=g^rank/(2^N_c*pi^rank)*L(1,Ad). New: 1/rank+1/N_c=n_C/C_2. Closes SP19-3 Gap 4. | **Elie** | **DONE** |
-
-#### Phase 3: Near-term (ACTIVE)
-
-| # | Task | Owner | Status |
-|---|------|-------|--------|
-| SP19-8 | **Sym^k functoriality DONE.** T1836, Toy 2162 (21/21). GL chain k=1..6 → GL(2)..GL(7)=GL(g). Targets: rank, N_c, rank^2, n_C, C_2, g. Terminates at k=C_2 (catalog exhausted). Satake verified at each level. | **Elie** | **DONE** |
-| SP19-9 | **GGP for SO(5)×SO(2) — DONE.** Toy 2163 (20/20): dim Levi=g=7, K41=5/3, GGP surplus=rank. Toy 2166 (18/18): Ichino-Ikeda explicit, 5 independent routes to 1/rank (n_C:1 over-determination). Induction+restriction adjoint functors. | **Lyra** | **DONE** |
-| SP19-10 | **Arthur's multiplicity for SO(5,2) — DONE.** Toy 2164 (25/25): p(C_2)=p(6)=11=c_2(Q^5) particle types. 52 total Arthur params, 37 non-tempered (all R-11 killed), 15 tempered=p(g). p(g)-p(C_2)=rank^2. p(rank)*p(N_c)=C_2. p(g)=N_c*n_C. Wallach pi_2 unique in its packet. | **Lyra** | **DONE** |
-
-#### Phase 3 parallel: Infrastructure
-
-| # | Task | Owner | Status |
-|---|------|-------|--------|
-| D-4 | **Theorem registry sync** — registry ~340 entries behind graph (1634 nodes). | **Grace** + Keeper | BACKLOG — PRIORITY |
-
-#### Phase 4: Casey seeds (ACTIVE — Casey approved May 13)
-
-| # | Task | Owner | Status |
-|---|------|-------|--------|
-| SP19-11 | **Smooth Poincare dim 4 — DONE.** Toy 2168 (22/22): d=rank^2=4 excess=rank=2, deficit=1/n_C. Gauss-Codazzi under-determined (ratio 4/5). BST AGNOSTIC on exotic S^4, EXPLAINS why d=4 is open. | **Lyra** | **DONE** |
-| SP19-12 | **CM field Q(sqrt(-7)) — Hilbert's 12th — DONE.** Toy 2171 (25/25): h(-7)=1, |Heegner|=N_c^2=9, |Delta_E|=|disc_K|^N_c, N=|disc_K|^rank, deg Phi_g=2^N_c=8. Product of BST Heegner = C_2*g=42. D-tier for Q(sqrt(-7))/49a1, C-tier for general Hilbert 12th. | **Lyra** + Elie | **DONE** |
-| SP19-13 | **QUE on D_IV^5 — DONE.** Toy 2167 (22/22): Silberman-Venkatesh + Ramanujan. All 3 SV conditions satisfied. QUE rate >= 1/rank^2. Weyl exp = n_C, remainder = rank^2. Corollary chain: Ramanujan -> Selberg -> QUE -> Weyl. | **Elie** | **DONE** |
-| SP19-14 | **Sarnak Mobius disjointness — DONE.** Toy 2170 (20/20): L-function non-vanishing + Ramanujan. S(500)/500 = 0.016 (verified numerically). CM cancellation: 10/18 primes inert. Sarnak Triple all resolved. | **Elie** | **DONE** |
-| SP19-15 | **ABC Conjecture via D_IV^5 — DONE.** Toy 2169 (22/22): Szpiro ratio = N_c/rank = 3/2 = rho_2. |Delta|=N^sigma EXACT. Triple (g^2, g^2*C_2, g^3). sigma/BSD=N_c, BSD+Szpiro=rank. D-tier for 49a1, C-tier for general ABC. | **Lyra** + Elie | **DONE** |
-
-#### Phase 5: Deep Extensions (Casey approved May 13 — starts May 14)
-
-**Scope**: `notes/BST_SP19_Phase5_Deep_Extensions_Scope.md`
-
-| # | Task | Owner | Status |
-|---|------|-------|--------|
-| **D: Q(zeta_7)** | | | |
-| D1 | Q(zeta_7) complete arithmetic — units, regulators, Gauss sums. [Q(zeta_7):Q] = C_2 = 6. | **Lyra** + Elie | QUEUED |
-| D2 | Eisenstein series as class field generators | **Lyra** | QUEUED (after D1) |
-| D3 | Gross-Stark p-adic at p = g = 7 | **Elie** | QUEUED |
-| **E: 11/8 Conjecture** | | | |
-| E1 | 11/8 = p(C_2)/2^N_c from D_IV^5 spectral data. K3: b_2 = 2*c_2(Q^5) = 22 saturates bound. | **Elie** | QUEUED |
-| E2 | Donaldson-Freedman landscape in BST integers | **Elie** + Lyra | QUEUED (after E1) |
-| **F: Mason-Stothers** | | | |
-| F1 | Polynomial ABC via BST — function field proof | **Elie** | QUEUED |
-| F2 | Szpiro over function fields F_g(t) | **Lyra** | QUEUED |
-| **G: Donaldson Modular** | | | |
-| G1 | Donaldson generating functions at BST b_+ values | **Lyra** | QUEUED |
-
-**Parallel start (May 14)**: D1, D3, E1, F1, F2, G1 (6 toys, no dependencies).
-**Second wave**: D2 (after D1), E2 (after E1).
+**Organizing Principle**: Paper #104 "Root Proof System" (Casey keystone, Bulletin AMS).
 
 ---
 
-### Wallach Universality (reference — three levels, all proved/observed)
+### Wallach Universality (reference)
 
-- **W-A (D-tier, proved)**: K-type formula all BST integers; cumulative = S^3 harmonics; Z[N_c,rank] generates both Chern ring and K-types; selection theorem (3 eqs uniquely force n=5)
-- **W-B (I-tier, observed)**: Four-way convergence at k=2 (topology + spectral + modularity + BSD)
-- **W-C (conjecture)**: Wallach rep at k=rank is the unique minimal generating condition
-- **T1829 (Wallach Bottleneck Theorem)**: PROVED, D-tier. Toy 2151, 26/26. Lyra.
-- **T1830**: Root Proof System backbone (Elie, Toy 2154, 29/29)
-- **T1831**: Executable Root Proof System (Lyra, Toy 2156, 49/49)
+- **W-A (D-tier)**: K-type formula, selection theorem (3 eqs uniquely force n=5). **T1829 Wallach Bottleneck PROVED.**
+- **W-B (I-tier)**: Four-way convergence at k=2. **W-C (conjecture)**: Wallach k=rank is unique minimal generator.
+- **T1830-T1831**: Root Proof System backbone (Elie 29/29, Lyra 49/49).
+
+---
+
+### SP-21: BST Closure Program (Casey approved May 14)
+
+**Scope**: `notes/BST_SP21_Closure_Program_Scope.md` | **Paper**: #105 "The Fixed Point"
+
+**Wave 1 COMPLETE** (8/8, 238/238 tests). **Wave 2 IV-1 DONE** (33/33). Key: partition closure, QR/QNR = B_2, K3 canonical 4-manifold, BST-native 99.4%, radical = 210.
+
+#### Remaining Items
+
+| # | Task | Owner | Status |
+|---|------|-------|--------|
+| I-1 | Poisson Kernel Explicit | **Elie** | QUEUED |
+| IV-2 | Furuta 10/8+2 from Wallach | **Elie** | QUEUED (depends on I-1) |
+| VI-1 | Mersenne Ladder | **Elie** | QUEUED |
+| VI-2 | Regulator Ratio R(7)/R(2) | **Elie** | QUEUED |
+
+---
+
+### SP-22: Monster / Modularity / Symmetry — ALL COMPLETE (archived)
+
+**11/11 COMPLETE + 9 extensions.** ~550+ tests, 19+ toys, zero failures. Details: see SP-22 entries in completed archive.
+
+**Key results**: K3 = spectral slice of D_IV^5. Monster connection I-tier (mechanism absent). FET OPEN (CAP obstruction identified). FLT level gap [rank, c_2) = [2,11), length N_c^2. Moonshine-Poisson 8-entry dictionary. 49a1 modularity BST-native. General Wiles = Layer B. Ogg depth 2x closer than non-Ogg. ACE(bst,ext) formalized (Toy 2227, 59/59).
+
+---
+
+### SP-23: Moonshine Mechanism + ACE Integration (Casey approved May 14)
+
+**Casey**: "Is there any stone unturned in our investigation?"
+
+**Goal**: Six unturned stones from SP-22, plus Cal's audit follow-ups and ACE retroactive application. Feeds Paper #104 (Root Proof System) and #105 (The Fixed Point).
+
+#### Cal Audit Follow-ups (Priority 1)
+
+| # | Task | Owner | Status |
+|---|------|-------|--------|
+| CAL-1 | **A-1 statistical validation** — Extract from Toy 2211/2226: sample sizes (15 Ogg vs ? non-Ogg), t-test p-value, formal depth definition. Cal needs 3 data points. | **Elie** | QUEUED |
+| CAL-2 | **FLT title scoping** — Rename Toy 2222 and Toy 2225 from "FLT from D_IV^5" to "Structural Decomposition of FLT in D_IV^5". Contribution, not re-derivation. | **Keeper** | QUEUED |
+| CAL-3 | **CAP Obstruction theorem** — Register T1892: "CAP Obstruction = FET Obstruction". C-tier. CAP locus = BST spectral reach, generic cusp forms = Wiles territory. | **Lyra** | QUEUED |
+| CAL-4 | **FET-revised language** — Update Paper FC-2 Section 8.3 with CAP-restricted FET reformulation. Cite SK weight convention. | **Lyra** | QUEUED |
+
+#### Unturned Stones (Priority 2 — parallel)
+
+| # | Task | Owner | Status |
+|---|------|-------|--------|
+| US-1 | **Leech lattice from D_IV^5** — Can D_IV^5 produce the Leech lattice (dim 24 = chi(K3))? Monster is CONSTRUCTED from Leech (Conway -> Griess -> FLJ). If yes: Moonshine mechanism found (I-tier -> D-tier). If no: wall located. Golay code [24, 12, 8] = [chi(K3), rank*C_2, 2^N_c]. | **Lyra** | QUEUED |
+| US-2 | **Eta function derivation** — Delta = eta^24 is BST-derived, but eta itself is the atom. eta involves q^{1/24} = q^{1/chi(K3)}. Spectral determinant or regularized product over D_IV^5 Laplacian eigenvalues? | **Elie** | QUEUED |
+| US-3 | **Higher j-coefficients audit** — Systematic BST check of j-function coefficients: 21493760, 864299970, 20245856256, etc. Does BST structure persist or fade at higher order? Sharp falsification test. | **Elie** | QUEUED |
+| US-4 | **196560 vs 196883** — Leech lattice minimal vectors (196560) vs Monster smallest irrep (196883). Gap = 323 = 17*19. BST expression? Quick probe. | **Grace** | QUEUED |
+| US-5 | **E_8 from B_2** — K3 intersection form contains 2*E_8(-1). Known chain B_2 -> F_4 -> E_8 (folding/unfolding). Is this chain BST-native? If yes: E_8 in K3 is derived, not observed. | **Lyra** | QUEUED |
+| US-6 | **Weight-1 modular forms** — Artin representations, finite Galois images. Completely unexplored on D_IV^5. Connects to class field theory and N_max = 137. New direction. | **Grace** | QUEUED |
+
+#### ACE Integration (Priority 3)
+
+| # | Task | Owner | Status |
+|---|------|-------|--------|
+| ACE-1 | **ACE retroactive sweep** — Apply ACE(bst, ext) to all D-tier and I-tier claims in data/*.json. Add `ace` field. | **Grace** | QUEUED |
+| ACE-2 | **744 Mersenne probe** — Do M_3 = 7 = g and M_5 = 31 have independent moonshine significance? Structural -> D-tier. Observational -> I-tier. | **Elie** | QUEUED |
+| ACE-3 | **SP-14 cataloging** — File derivations from Toys 2200-2227 into data/bst_geometric_invariants.json. | **Grace** | QUEUED |
+
+**Total**: 13 tasks. CAL-1 through CAL-4 first (close audit loop). US-1 through US-6 parallel (stones). ACE-1 through ACE-3 parallel (integration).
+
+**Highest-value single investigation**: US-1 (Leech lattice). If D_IV^5 produces the Leech lattice, Moonshine gets a mechanism. This is the path from I-tier to D-tier.
 
 ---
 
@@ -149,7 +150,7 @@ Updated May 13 EOD. SP-19 ALL 4 PHASES + Phase 4 Extension ALL COMPLETE. Extensi
 | K-24 | 3200-dps result audit (PID 80101) | Keeper | WAITING |
 | SE-0 | Investigation oversight | Keeper | STANDING |
 | SP-14 | Derivation catalog discipline | ALL | STANDING |
-| D-3 | NIST expansion — 144 constants + 3897 invariants | ALL | STANDING |
+| D-3 | NIST expansion — 144 constants + 3954 invariants | ALL | STANDING |
 | D-4 | Theorem registry sync — registry ~340 entries behind graph | Grace/Keeper | BACKLOG |
 
 ---
@@ -181,11 +182,13 @@ All Cal PASS + Keeper PASS. Submission-ready.
 | 5 | **#88 BSD** — v1.5 | READY | Inventiones |
 | 6 | **#91 spectral zeta** (math+physics splits) | v0.2 | CMP |
 | 7 | **DOF-to-K-type lemma** (R-2) | v0.4 | Compositio |
-| 8 | **#83 invariants table** — 3897 entries | READY | J. Phys. A |
-| 9 | **#104 Root Proof System** — Casey keystone | v0.2 | Bulletin AMS |
+| 8 | **#83 invariants table** — 3932 entries | READY | J. Phys. A |
+| 9 | **#104 Root Proof System** — Casey keystone | v0.2 → v0.3 with SP-21 | Bulletin AMS |
+| 10 | **#105 "The Fixed Point"** — BST Closure Theorem | SCOPED — SP-21 feeding | Advances in Math |
+| 11 | **#106 K3 as D_IV^5 Slice** (if IV-1 delivers) | CONTINGENT | Geometry & Topology |
 | — | **#82-#96** all Casey approved | Various | Various |
 | — | **#97-#102** SE papers | v0.1 drafted | Various |
-| — | **#105-#117** SE pipeline | QUEUED | Various |
+| — | **#107-#117** SE pipeline | QUEUED | Various |
 
 ---
 
@@ -193,30 +196,27 @@ All Cal PASS + Keeper PASS. Submission-ready.
 
 | Item | Status |
 |------|--------|
-| **Review papers tonight** | Casey reviewing submissions order |
-| Pre-register falsifier (R-6) | TOMORROW |
-| Sarnak letter update | TOMORROW — strengthened by QUE+Mobius+Kim-Sarnak |
+| Sarnak letter v3 | DRAFTED May 14 — `notes/maybe/Letter_Sarnak_May14.md` — Casey reviewing |
+| Paper #105 "The Fixed Point" | SCOPED — SP-21 results will feed |
+| Paper submissions order | DECISION — Casey reviewing |
+| Pre-register falsifier (R-6) | TODAY |
 | W-boson note | THIS WEEK |
 | Koide PRL | HIGH |
-| Paper submissions order | DECISION — Casey reviewing tonight |
 | Curt Jaimungal | SENT May 4 |
 | Zenodo v20 -> v35 | TIMING |
 | Patent filings | TIMING |
 | Human-CI collaboration document | NEW (May 11) |
 | Avatar sub-project | NEW (May 11) |
 
-### Tomorrow's Plan (May 14)
+### Today's Plan (May 15)
 
-| Priority | Track | Team | Work |
-|----------|-------|------|------|
-| 1 | **Phase 5 main** | Elie + Lyra | D1 (Q(zeta_7)), D3 (Gross-Stark), E1 (11/8), F1 (Mason-Stothers) |
-| 2 | **Phase 5 parallel** | Lyra | F2 (function field Szpiro), G1 (Donaldson modular) |
-| 3 | **D-4 registry sync** | Grace + Keeper | ~340 entries behind — long overdue |
-| 4 | **R-6 falsifier** | Casey + Keeper | Pre-register on Zenodo |
-| 5 | **K-24 check** | Keeper | 3200-dps audit status |
-| 6 | **Sarnak letter** | Casey + Keeper | Update with QUE/Mobius/Kim-Sarnak results |
-| 7 | **SP-19b** (AdS/CFT) | After Phase 5 first wave | Casey: "absorb, don't attack" |
-| 8 | **SP-20** (Testbed Growth) | After all above | Casey: last priority |
+| Priority | Track | Team | Status |
+|----------|-------|------|--------|
+| 1 | **SP-23 Moonshine Mechanism + ACE** | ALL | Cal follow-ups + 6 unturned stones + ACE integration |
+| 2 | **SP-21 remaining** (I-1, IV-2, VI-1, VI-2) | Elie | 4 items queued |
+| 3 | **Backlog scoping** | ALL | Scope SP-8, SP-9, SP-10, SP-11, SP-19b, SP-20 |
+| 4 | **Sarnak letter** | Casey | Casey reviewing |
+| 5 | **R-6 falsifier** | Casey+Keeper | Pre-register on Zenodo |
 
 ---
 
@@ -227,9 +227,12 @@ All Cal PASS + Keeper PASS. Submission-ready.
 | SP-3 | Heat kernel k=22+ (3200-dps, PID 80101) | MONITORING |
 | SP-14 | Derivation Catalog Discipline | ACTIVE |
 | SP-18 | AC+GC Methodology — 17/18 done. GC-9 CASEY APPROVED. GC-10 FUTURE. | NEAR-COMPLETE |
-| SP-19a | Conjecture Proof Program — 15 tasks, 4 phases (see above) | **ACTIVE** |
-| SP-19b | AdS/CFT Bridge — 3 papers, 20 items (see BACKLOG) | NEW — waiting |
-| SP-20 | Testbed Growth Mechanism — 6 tasks (see BACKLOG) | NEW — BACKLOG |
+| SP-19 | Conjecture Proof Program — ALL COMPLETE | **COMPLETE** |
+| SP-19b | AdS/CFT Bridge — 3 papers, 20 items (see BACKLOG) | TO SCOPE |
+| SP-20 | Testbed Growth Mechanism — 6 tasks (see BACKLOG) | TO SCOPE |
+| SP-21 | **BST Closure** — 4 remaining items. Paper #105. | **ACTIVE** |
+| SP-22 | Monster / Modularity / Symmetry — ALL COMPLETE | **COMPLETE** |
+| SP-23 | **Moonshine Mechanism + ACE Integration** — 13 tasks. Papers #104-#105. | **ACTIVE** |
 
 ---
 

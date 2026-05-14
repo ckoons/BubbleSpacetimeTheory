@@ -2546,3 +2546,73 @@ rules: |
 | T1852 | Exotic R^4 Exclusion (C3): D_IV^5 Kahler → R^4 slices i | Proved | 2181 | 2026-05-13 |
 
 *Registry synced T1-T1852. Graph: 1651 nodes, 8672 edges.*
+
+
+## Registry Sync — May 14
+
+| T_id | Name | Status | Toy# | Date |
+|------|------|--------|------|------|
+| T1853 | Gross-Stark p-adic at p=g=7 (D3): epsilon_7 = 2^N_c + N | Proved | 2182 | 2026-05-14 |
+| T1854 | 11/8 Conjecture = p(C_2)/2^N_c (E1): Furuta's 11/8 = c_ | Proved | 2183 | 2026-05-14 |
+| T1855 | Q(zeta_7) Complete Arithmetic (D1): [Q(zeta_7):Q] = phi | Proved | 2186 | 2026-05-14 |
+| T1857 | Szpiro over Function Fields F_g(t) (F2): Function field | Proved | 2187 | 2026-05-14 |
+| T1858 | Donaldson Modular Forms (G1): K3 b_+=N_c=3, CP2 b_+=1=r | Proved | 2188 | 2026-05-14 |
+| T1859 | Q(zeta_7) Arithmetic — Elie version (D1): Independent v | Proved | 2185 | 2026-05-14 |
+| T1860 | Eisenstein Class Field Generators (D2): L(1,chi_{-7}) = | Proved | 2189 | 2026-05-14 |
+| T1861 | Donaldson-Freedman Landscape (E2): b_+ classification o | Proved | 2190 | 2026-05-14 |
+| T1862 | Partition Closure on BST Integers: p(rank)=rank, p(N_c) | Proved | 2191 | 2026-05-14 |
+| T1863 | Composition Catalog (SP-21 II-3): 10 external theorems  | Proved | 2195 | 2026-05-14 |
+
+
+## Registry Sync — May 14 SP-22
+
+| T_id | Name | Status | Toy# | Date |
+|------|------|--------|------|------|
+| T1864 | Consecutive Products in Partition Chain (III-1b): p(k)* | Proved | 2192 | 2026-05-14 |
+| T1865 | Radical Closure (SP-21 II-2): rad() maps BST-derived in | Proved | 2193 | 2026-05-14 |
+| T1866 | Partition at Chern Classes (SP-21 III-2): p(c_k) evalua | Proved | 2194 | 2026-05-14 |
+| T1867 | QR/QNR = Root System B_2 (V-1): QR mod g = {1,rank,rank | Proved | 2196 | 2026-05-14 |
+| T1868 | Supersingularity at p=rank mod N_c (V-2): j=0 curves su | Proved | 2198 | 2026-05-14 |
+| T1869 | Poisson Proof Mechanism (I-2): Poisson kernel as univer | Proved | 2197 | 2026-05-14 |
+| T1870 | Abundancy = Wallach (V-3): sigma(rank)/rank = rho_2 = 3 | Identified | 2199 | 2026-05-14 |
+| T1871 | K3 Derivability Chain: 15 K3 invariants all depth 1 fro | Proved | 2200 | 2026-05-14 |
+| T1872 | Ramanujan-Chern Inverse: chi(K3)^{-1} mod BST primes =  | Proved | 2201 | 2026-05-14 |
+| T1873 | Tau BST Factorization: Ramanujan tau(n) at BST argument | Proved | 2202 | 2026-05-14 |
+| T1874 | K3 Spectral Slice + Monster: BST primes carry 90.5% of  | Proved | 2207 | 2026-05-14 |
+| T1875 | Monster-Supersingular-Modularity (Elie): Supersingulari | Identified | 2208 | 2026-05-14 |
+| T1876 | Monster-BST-Modularity Connection (Lyra): All 9 non-BST | Identified | 2209 | 2026-05-14 |
+| T1877 | 196883 Factorization (A-3): 47*59*71 all BST-Chern dept | Proved | 2214 | 2026-05-14 |
+| T1878 | Modularity Chain Map (B-3): 11 steps, 8 Layer A (BST-na | Proved | 2215 | 2026-05-14 |
+| T1879 | Sporadic Group Audit (C-1): 26 groups. Happy family avg | Proved | 2216 | 2026-05-14 |
+| T1880 | FET at Weight 2 (B-1): Sym^2 bridge weight 12->2 via Ge | Proved | 2210 | 2026-05-14 |
+| T1881 | Monster Exponent Derivation (A-2): All 6 BST-prime expo | Proved | 2217 | 2026-05-14 |
+| T1882 | Root System Hierarchy (C-3): B_2 generates hierarchy. S | Proved | 2219 | 2026-05-14 |
+| T1883 | Monster Expressibility Audit (A-1): All 15 exponents BS | Proved | 2211 | 2026-05-14 |
+| T1884 | K3 Eigenvalue Spectral Test (B-2): tau(n) at BST args f | Proved | 2212 | 2026-05-14 |
+| T1885 | Supersingular Landscape (C-2): n_ss counts via Eichler  | Proved | 2213 | 2026-05-14 |
+
+
+## Registry — May 14 EOD
+
+| T_id | Name | Status | Toy# | Date |
+|------|------|--------|------|------|
+| T1886 | Moonshine = Poisson Restriction Test (A-4): j(i)=(rank* | Identified | 2224 | 2026-05-14 |
+| T1887 | Composition Grammar (SP-21 II-1): BST closure formal st | Proved | 2220 | 2026-05-14 |
+| T1888 | Moonshine-Poisson (Lyra A-4): McKay-Thompson at BST arg | Proved | 2221 | 2026-05-14 |
+| T1889 | Moonshine-Poisson (Elie A-4): Monster Hauptmodul coeffi | Proved | 2223 | 2026-05-14 |
+| T1890 | FLT from D_IV^5 (B-4): Frey-Ribet-Wiles chain with BST  | Proved | 2225 | 2026-05-14 |
+| T1891 | Ogg vs Non-Ogg Expressibility: BST expressibility drops | Proved | 2226 | 2026-05-14 |
+
+
+## Registry Sync — May 14 Final
+
+| T_id | Name | Status | Toy# | Date |
+|------|------|--------|------|------|
+| T1892 | K3 Spectral Derivation Extension. Toy 2203. | Proved | 2203 | 2026-05-14 |
+| T1893 | Ramanujan Congruence Extension. Toy 2204. | Proved | 2204 | 2026-05-14 |
+| T1894 | Bernoulli BST Extension. Toy 2205. | Proved | 2205 | 2026-05-14 |
+| T1895 | Nexus Theorem Extension. Toy 2206. | Proved | 2206 | 2026-05-14 |
+| T1896 | BST Connection Map (6 rings, 99/99). Toy 2218. | Proved | 2218 | 2026-05-14 |
+| T1897 | ACE Depth System — Two-Component Classification. Toy 22 | Proved | 2227 | 2026-05-14 |
+
+*Registry synced T1-T1897. 1696 nodes, 8780 edges.*

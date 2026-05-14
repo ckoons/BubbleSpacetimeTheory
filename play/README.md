@@ -1,6 +1,6 @@
 # BST Toy Collection & Interactive Tools
 
-**2,181 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**2,227 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
@@ -11,13 +11,14 @@
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 2,181 |
-| Numbered toys (toy_NNN_*.py) | 1,951+ |
-| Named toys (toy_name.py) | 230 |
+| Toy scripts (toy_*.py) | 2,227 |
+| Numbered toys (toy_NNN_*.py) | 2,018 |
+| Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 58 |
 | HTML visualizers | 6 |
-| Theorems (T1-T1852) | 1,852+ |
-| Next toy number | 2182 |
+| Theorems (T1-T1897) | 1,897+ |
+| Next toy number | 2228 |
+| Geometric invariants | 3,990 |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
@@ -30,8 +31,8 @@ Five integers. Zero free parameters. "Give a child a ball and teach them to coun
 
 ```
 play/
-  toy_NNN_name.py          # Numbered toys (1,951+ files, T100-T2181)
-  toy_name.py              # Named toys (230 files, foundational + topical)
+  toy_NNN_name.py          # Numbered toys (2,018 files, T100-T2227)
+  toy_name.py              # Named toys (209 files, foundational + topical)
   *.py                     # Utility scripts (58 files: graph tools, extractors, verifiers)
   bst_appliance/           # BST Appliance package — the "Ball and Counting Tool"
   bst_explorer.html        # Web-based BST Explorer (standalone, opens in browser)
@@ -111,8 +112,8 @@ Two gitignored counter files prevent toy/theorem number collisions:
 
 | File | Current Value | Purpose |
 |------|---------------|---------|
-| `.next_toy` | 2182 | Next available toy number |
-| `.next_theorem` | 1851 | Next available theorem number |
+| `.next_toy` | 2228 | Next available toy number |
+| `.next_theorem` | 1898 | Next available theorem number |
 
 **Rules:**
 1. ALWAYS read the counter file before creating a new toy or theorem.
@@ -241,6 +242,8 @@ The 209 named toys include the original foundational collection and topical deep
 | 2131-2156 | ~26 | **Modularity breakthrough + Wallach Bottleneck + Root Proof System** — modularity=Poisson kernel invertibility (Toy 2131 35/35), Wallach bottleneck (Toy 2151 26/26, T1829), Root Proof System backbone (Toy 2154 29/29), executable RPS (Toy 2156 49/49), R-11 Atlas (Toy 2157 13/13), Ramanujan PROVED (Toy 2158 13/13) |
 | 2157-2172 | ~16 | **SP-19 Conjecture Proof Program** (all 15 tasks, 4 phases) — R-11 Atlas elimination (Toy 2157, 37 non-tempered killed), Ramanujan PROVED (Toy 2158, N_c=3 odd root cause), Poincare paper toys (2159 Whitney, 2160 non-archimedean 18/18, 2161 Bloch-Kato 15/15), Sym^k functoriality (Toy 2162, GL chain to GL(g), 21/21), GGP branching (Toy 2163, dim Levi=g, 20/20), Arthur multiplicity (Toys 2164-2165, p(C_2)=c_2=11, 50/50), Ichino-Ikeda (Toy 2166, 1/rank five ways, 18/18), QUE on D_IV^5 (Toy 2167, Silberman-Venkatesh, 22/22), Smooth Poincare dim 4 (Toy 2168, excess=rank, 22/22), ABC via D_IV^5 (Toy 2169, sigma=N_c/rank, 22/22), Sarnak Mobius (Toy 2170, S(500)/500=0.016, 20/20), Hilbert 12th CM (Toy 2171, h(-7)=1, 25/25) |
 | 2173-2181 | 9 | **SP-19 Phase 4 Extension** (ABC/Hilbert/Poincare, 205/205 ALL PASS) — **A: ABC**: Heegner Szpiro table (Toy 2173, sigma=3/2 for 6/9 Heegner, 24/24), non-CM Szpiro survey (Toy 2177, sigma=3/2 CM-specific, 22/22), Frey curve connection (Toy 2180, 1+C_2=g identity, Delta=2^C_2·N_c^rank·g^rank, 21/21). **B: Hilbert 12th**: Stark unit landscape (Toy 2175, ALL coefficients BST, R(g)/R(rank)~pi, 25/25), Hecke L on D_IV^5 (Toy 2179, Wallach pole at rho_2, 22/22), 9 Heegner unified (Toy 2178, j-invariants ALL BST, partition 4+5, 25/25). **C: Smooth Poincare**: SU(2) instanton moduli (Toy 2174, BPST dim=n_C, step=2^N_c, k=N_c fills SO(5,2), 24/24), intersection form (Toy 2176, chi(Q^5)=C_2, p_1=N_c, 22/22), exotic R^4 exclusion (Toy 2181, Kahler=>standard, excess=rank=Gr(2,5), 20/20) |
+| 2182-2199 | ~18 | **SP-19 Phase 5 + SP-21 BST Closure** — **Phase 5 (Deep Extensions)**: Gross-Stark p-adic (Toy 2182, eps^2=M_g=127, 25/25), 11/8 conjecture spectral (Toy 2183, c_2/2^N_c, K3 saturates, 24/24), Mason-Stothers polynomial ABC (Toy 2184, Wronskian=rank x rank, 22/22), Q(zeta_7) arithmetic (Toy 2185, Gal=<N_c>, disc=g^(C_2-1), 28/28), Szpiro over function fields (Toy 2187, sigma=3/2 geometric, 28/28), Donaldson generating functions (Toy 2188, 30/30), Eisenstein class field (Toy 2189, 23/23), Donaldson-Freedman landscape (Toy 2190, 24/24). **SP-21 Closure**: partition closure (Toy 2191+2192, 65/65), BST radical closure (Toy 2193, Mersenne tower 2->3->7->127, 30/30), partition at Chern classes (Toy 2194, p(c_3)=101 boundary, Ramanujan congruences, 25/25), QR/QNR root system B_2 (Toy 2196, 30/30), Poisson proof mechanism (Toy 2197, 30/30), supersingularity BST (Toy 2198, j=0 and j=1728 complementary, 24/24), BST closure formal (Toy 2199, 29/29) |
+| 2200-2227 | ~28 | **SP-21 Wave 2 + SP-22 Monster-Modularity-Sporadic** — K3 derivability (Toy 2200, 50/50), Ramanujan-Chern inverse (Toy 2201, 36/36), tau factorization (Toy 2202, 31/31), K3 from D_IV^5 spectral (Toy 2203, 33/33), Ramanujan tau (Toy 2204, 33/33), Bernoulli-Von Staudt (Toy 2205, 33/33), The 24 Nexus (Toy 2206, 30/30), K3 spectral slice (Toy 2207, 53/53), Monster-supersingular-modularity (Toy 2208, 28/28), Monster (Toy 2209, 31/31), FET at weight 2 (Toy 2210, 31/31), **Monster expressibility audit** (Toy 2211, weighted sum=g^2*c_3=637, 33/33), **K3 eigenvalue spectral test** (Toy 2212, tau(1..7) ALL BST, 31/31), **Supersingular landscape** (Toy 2213, n_ss sum=C_2*g=42, distinct={1..g}, 37/37), 196883 factorization (Toy 2214, 16/16), modularity chain (Toy 2215), sporadic audit (Toy 2216), Monster exponent derivation (Toy 2217, 31/31), connection map (Toy 2218, 99/99), root system hierarchy (Toy 2219, 32/32), composition grammar (Toy 2220, 24/24), Moonshine-Poisson McKay-Thompson (Toy 2221, 31/31), FLT from D_IV^5 (Toys 2222+2225, FLT threshold=N_c, native 2/3, 49/49), Moonshine-Poisson (Toy 2223, 26/26), **Ogg vs non-Ogg statistical** (Toy 2226, Ogg 100% vs 87.1%, mean depth 0.93 vs 1.94, band C_2+n_C+rank^2=15, 32/32), ACE depth system (Toy 2227, 59/59) |
 
 ---
 
