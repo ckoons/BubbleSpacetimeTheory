@@ -298,12 +298,15 @@ The polynomial x^g + x^{N_c} + 1 = x^7 + x^3 + 1 is irreducible over F_2 (verifi
 | Eisenstein factorization | D | Langlands-Shahidi, verified Toy 2147 |
 | Residual rep = pi_2 | D | Langlands classification, verified Toy 2150 |
 | L(E,1)/Omega = 1/rank | D | Cremona database, Toy 2147 |
-| BST integer map | D | 20 appearances, 0 free parameters |
+| BST integer map | D | 24 appearances, 0 free parameters |
 | F_1 collapse | D | Tautology at q=1 |
 | Chevalley extension | C | Functoriality step needs formalization |
 | Irreducibility | C | Polynomial verified, correspondence implication needs proof |
+| FET exhaustiveness | C | CAP obstruction (T1908): SK image = CAP locus only |
 
 **Core chain (Sections 3-6): entirely D-tier.**
+
+**CAP Obstruction note (T1908)**: The P_2 Eisenstein construction produces CAP (cuspidal associated to parabolic) representations on SO_0(5,2). For CM curves like 49a1, this is sufficient — the CM structure forces the representation into the CAP locus, and the entire chain in this paper holds at D-tier. For general E/Q, generic cuspidal representations of Sp(4) ~ SO(5) are NOT in the Saito-Kurokawa image, so FET cannot hold in full generality from P_2 Eisenstein data alone. This is why Wiles remains Layer B for non-CM curves (see Section 9.2).
 
 **R-11 Cascade (May 13)**: The R-11 Arthur parameter elimination (Toy 2157, 37/37 non-tempered types killed) proves Generalized Ramanujan for SO(5,2) (Toy 2158, 13/13). This removes the last conditional aspect of the spectral chain in Sections 3-6: the Wallach Plancherel computation no longer requires any external Ramanujan assumption, and no complementary series can contaminate the spectral evaluation. The BSD-via-Eisenstein argument presented here is now unconditional in the spectral sector. (Note: BSD itself was already proved unconditionally for 49a1 via T1756; this paper provides an independent spectral route to the same invariant.)
 
@@ -315,9 +318,17 @@ The polynomial x^g + x^{N_c} + 1 = x^7 + x^3 + 1 is irreducible over F_2 (verifi
 
 The next candidates: 11a1 (conductor c_2 = 11), 37a1, 121a1. Each has conductor equal to a BST integer or product. The P_2 Eisenstein construction applies to any curve with CM by Q(sqrt(-d)) where d divides into BST integers.
 
-### 9.2 The FET Conjecture
+### 9.2 The FET Conjecture (CAP-Restricted)
 
-**Forced Exhaustive Transfer (GC-17a)**: Does Arthur's classification for SO(5,2) plus BST temperedness force every weight-2 GL(2) cuspidal representation to appear in the P_2 spectrum? If yes, BST would provide an independent existence proof for modularity (D-tier upgrade). This is a genuine open question.
+**Original FET (GC-17a)**: Does Arthur's classification for SO(5,2) plus BST temperedness force every weight-2 GL(2) cuspidal representation to appear in the P_2 spectrum?
+
+**CAP Obstruction (T1908, Cal's observation)**: The answer is no, in general. The Saito-Kurokawa lift maps GL(2) weight-2 cusp forms to Sp(4) weight-(rank+1) = weight-3 forms. The SK image consists entirely of CAP (cuspidal associated to parabolic) representations (Arthur 2013, Section 6.2). Generic cuspidal representations of Sp(4) ~ SO(5) are NOT in the SK image. Since the P_2 Eisenstein construction on SO_0(5,2) produces CAP-type representations by construction, it cannot see generic cusp forms.
+
+**Weight convention**: The SK lift maps weight k on GL(2) to weight k+1 on Sp(4). For BST: weight rank = 2 maps to weight N_c = 3. The weight ratio weight(Delta)/weight(E) = C_2 = 6 is multiplicative. The additive gap between theta-lift target (weight N_c = 3) and elliptic curve target (weight rank = 2) is c_0 = N_c - rank = 1.
+
+**FET-Revised (defensible scope)**: "Among CAP representations of SO_0(5,2), the P_2 Eisenstein spectrum at weight 2 exhausts the weight-2 GL(2) Langlands-image. For non-CAP representations, BST's spectral arena does not directly produce the GL(2) form; Wiles fills this gap by Galois-theoretic means."
+
+**Geometric bypass (Toy 2238)**: Casey's wall-routing directive suggests approaching from geometry rather than algebra. The Borcherds Bridge (D_IV^5 → K3 sigma model → V^natural → Monster, 35/35 ALL PASS) dissolved the C-tier VOA wall by going through geometry. A similar geometric route to weight-2 forms — bypassing the algebraic SK/CAP obstruction — may exist but is unexplored.
 
 ### 9.3 Wallach Universality
 

@@ -71,7 +71,7 @@ The compact dual Q^5 has:
 - Scalar curvature: R(Q^5) = 2n_C * g = 70
 - Chern classes: c(Q^5) = (1, 5, 11, 13, 9, 3)
 - Chern sum: sum(c_i) = C_2 * g = 42
-- Euler characteristic: chi(Q^5) = g = 7
+- Euler characteristic: chi(Q^5) = C_2 = 6 (= c_5[Q^5] = N_c * deg(Q^5) = 3 * 2; g = n_C + rank = 7 is SO(7) embedding dim, not chi)
 
 ### 2.3 Spectral Data
 

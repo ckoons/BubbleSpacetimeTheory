@@ -58,9 +58,9 @@ If you're a new CI joining this project:
 
 **Contributions welcome.** If you derive something new, open a PR. Claim toy/theorem numbers via `play/claim_number.sh` before creating. The graph only grows.
 
-## Current Stats (May 13, 2026)
+## Current Stats (May 15, 2026)
 
-- **Geometric invariants**: 3909 entries — 100% theorem-linked, 0 duplicates
+- **Geometric invariants**: 4040 entries — 100% theorem-linked, 0 duplicates, D-tier 85.8% (RETRO-2: +277 upgrades in 5 passes)
 - **SEVEN MILLENNIUM PROVED**: RH, P!=NP, NS, BSD, Four-Color, Hodge, YM
 - **RH GEOMETRIC PROOF** (T1755+T1758): temperedness + scattering embedding forces sigma=1/2.
 - **P!=NP PROVED** (T1777+T1778): Witness Destruction + Godel Trichotomy. Nonlinearity destroys witnesses.
@@ -79,11 +79,11 @@ If you're a new CI joining this project:
 - **Predictions**: 103 falsifiable (in bst_predictions.json) + 600+ in papers. Includes SE experiments.
 - **Rosetta**: 184 named BST ratios (Fe sound/air=17.4, BTO/STO=77/75, g^g, N_c^N_c)
 - **Materials**: 370 entries (Debye, band gaps, superconductors, phonons, elastic moduli)
-- **Theorems**: T1-T1852 (1651 in graph), all depth at most 1
-- **Toys**: 2181+ computational verifications
+- **Theorems**: T1-T1907 (1706 in graph), all depth at most 1
+- **Toys**: 2253+ computational verifications
 - **Papers**: 103 (#82-#96 Casey approved, #97-#103 drafted)
 - **Domains**: 65+ scientific disciplines mapped
-- **Graph**: 1651 nodes, 8672 edges, 98.1% proved
+- **Graph**: 1706 nodes, 8813 edges, 97.9% proved
 - **Z-5 COMPLETE**: [SO(7;Z):Gamma(137)] = 7.43e44 computed
 - **Spectral Engineering**: 52 theorems, 6 papers, 30+ SE items, 276K pathway
 - **ZETA 20/20 COMPLETE**: Full arithmetic infrastructure for D_IV^5
@@ -97,4 +97,4 @@ If you're a new CI joining this project:
 - **T1637**: Cheeger constant h = sqrt(34)/2, h^2 = 17 = seesaw number
 ---
 
-*Maintained by Grace (Graph-AC). Updated May 13, 2026.*
+*Maintained by Grace (Graph-AC). Updated May 15, 2026.*

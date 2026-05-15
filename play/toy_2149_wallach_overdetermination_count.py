@@ -93,7 +93,7 @@ appearances = [
     ("W-13b select", "n_C=5", "d_4 = c_1*c_2 iff (n-1)(n-5)=0", "selection eq 1"),
     ("W-13b select", "n_C=5", "c_4 = c_5^2 only at n=5", "selection eq 2"),
     ("W-13b select", "N_c=3", "n+3 = 2^N_c → n=5", "selection eq 3"),
-    ("W-13b select", "g=7", "chi(Q^5) = g = 7", "Euler characteristic"),
+    ("W-13b select", "g=7", "g = n_C + rank = SO(7) embedding dim = 7", "SO(7) dimension"),
     ("W-13b select", "N_c=3", "c_2 - d_2 = -N_c = -3", "Chern-K-type gap"),
 ]
 

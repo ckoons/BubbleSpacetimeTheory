@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Toy 2225 — SP-22 Track B Investigation B-4: FLT from D_IV^5
+Toy 2225 — SP-22 Track B Investigation B-4: Structural Decomposition of FLT in D_IV^5
 
 BST context: rank=2, N_c=3, n_C=5, C_2=6, g=7, N_max=137, c_2=11, c_3=13.
 chi(K3)=24. sigma=N_c/rank=3/2. 49a1: conductor g^2, disc -g^3, j=-(N_c*n_C)^3.
@@ -71,7 +71,7 @@ def is_prime(n):
 
 # ============================================================
 print("=" * 65)
-print("Toy 2225: FLT from D_IV^5 (SP-22 B-4)")
+print("Toy 2225: Structural Decomposition of FLT in D_IV^5 (SP-22 B-4)")
 print("=" * 65)
 
 # === SECTION 1: Szpiro ratio from D_IV^5 ===

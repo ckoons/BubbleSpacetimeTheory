@@ -1,6 +1,6 @@
 {
  "meta": {
-  "last_updated": "2026-05-14",
+  "last_updated": "2026-05-15",
   "total": 95,
   "count": 103,
   "tier_system": "D/I/C/S (Derived/Identified/Conditional/Structural)",
@@ -39,7 +39,8 @@
    "related_constants": [
     "const_001"
    ],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_002",
@@ -62,7 +63,8 @@
     "const_025",
     "const_026"
    ],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_003",
@@ -86,7 +88,8 @@
     "const_061",
     "const_062"
    ],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_004",
@@ -108,7 +111,8 @@
    ],
    "sharpest_test": true,
    "sharpest_test_reason": "Binary yes/no. If seen, BST is falsified. If not seen after next-generation experiments, BST is strongly supported.",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_005",
@@ -127,7 +131,8 @@
    ],
    "source_section": "Section 10",
    "related_constants": [],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_006",
@@ -148,7 +153,8 @@
    "related_constants": [
     "const_004"
    ],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_007",
@@ -170,7 +176,8 @@
    ],
    "source_section": "Section 43",
    "related_constants": [],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_008",
@@ -197,7 +204,8 @@
     "const_017",
     "const_019"
    ],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_009",
@@ -220,7 +228,8 @@
    ],
    "sharpest_test": true,
    "sharpest_test_reason": "Testable with EXISTING data. Just requires removing V=0 assumption. Mass-independent and frequency-independent \u2014 very specific.",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_010",
@@ -239,7 +248,8 @@
    ],
    "source_section": "Section 10",
    "related_constants": [],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_011",
@@ -259,7 +269,8 @@
    ],
    "source_section": "Section 11",
    "related_constants": [],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_012",
@@ -279,7 +290,8 @@
    ],
    "source_section": "Section 43",
    "related_constants": [],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_013",
@@ -300,7 +312,8 @@
    "related_constants": [],
    "sharpest_test": true,
    "sharpest_test_reason": "Testable immediately with existing EEG data. Extremely specific quantitative prediction.",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_014",
@@ -320,7 +333,8 @@
    ],
    "source_section": "Section 14",
    "related_constants": [],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_015",
@@ -340,7 +354,8 @@
    ],
    "source_section": "Section 14",
    "related_constants": [],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_016",
@@ -359,7 +374,8 @@
    ],
    "source_section": "Section 14",
    "related_constants": [],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_017",
@@ -379,7 +395,8 @@
     "const_027"
    ],
    "competing_prediction": "Most GUTs (SU(5), SO(10)) predict proton decay with tau ~ 10^34-10^36 years",
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_018",
@@ -399,7 +416,8 @@
     "const_007"
    ],
    "competing_prediction": "MSSM predicts sparticles, many models expect gluino < 3 TeV",
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_019",
@@ -422,7 +440,8 @@
     "const_015"
    ],
    "competing_prediction": "WIMP paradigm, axion models, sterile neutrinos all predict detectable particles",
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_020",
@@ -445,7 +464,8 @@
     "const_014"
    ],
    "competing_prediction": "LAMBDACDM fits Omega_Lambda as free parameter. Quintessence models predict w != -1.",
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_021",
@@ -468,7 +488,8 @@
     "const_046"
    ],
    "competing_prediction": "Standard DM: no fundamental a_0 scale. Milgrom MOND: a_0 is a free parameter.",
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_022",
@@ -491,7 +512,8 @@
    ],
    "competing_prediction": "Starobinsky R^2: r = 0.003 (same n_s, different r). CMB-S4 distinguishes BST from Starobinsky.",
    "source_toy": "Toy 2142",
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_023",
@@ -511,7 +533,8 @@
    ],
    "source_section": "Section 46.32",
    "related_constants": [],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_024",
@@ -532,7 +555,8 @@
    "related_constants": [
     "const_105"
    ],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "name": "Glueball 0++ mass",
@@ -543,7 +567,8 @@
    "source": "T1403",
    "category": "particle_physics",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "Glueball 0-+/0++ ratio",
@@ -554,7 +579,8 @@
    "source": "T1403",
    "category": "particle_physics",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "Glueball 2++/0++ ratio",
@@ -565,7 +591,8 @@
    "source": "T1403",
    "category": "particle_physics",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "SU(3)/SU(2) mass gap ratio",
@@ -576,7 +603,8 @@
    "source": "T1402",
    "category": "particle_physics",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "SU(4)/SU(3) mass gap ratio",
@@ -587,7 +615,8 @@
    "source": "T1402",
    "category": "particle_physics",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "Function catalog size",
@@ -598,7 +627,8 @@
    "source": "T1339, T1382",
    "category": "mathematics",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "GF(128) defining polynomial",
@@ -609,7 +639,8 @@
    "source": "T1383",
    "category": "mathematics",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "Frobenius orbits",
@@ -620,7 +651,8 @@
    "source": "T1382",
    "category": "mathematics",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "AC graph clustering coefficient",
@@ -631,7 +663,8 @@
    "source": "T1355",
    "category": "graph_theory",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "AC graph average degree",
@@ -642,7 +675,8 @@
    "source": "T1386",
    "category": "graph_theory",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "AC graph depth-0 fraction",
@@ -653,7 +687,8 @@
    "source": "T1353",
    "category": "graph_theory",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "BST optimal team size",
@@ -664,7 +699,8 @@
    "source": "T1380",
    "category": "observer_science",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "Cooperation gap",
@@ -675,7 +711,8 @@
    "source": "T1375",
    "category": "observer_science",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "Observer rarity",
@@ -686,7 +723,8 @@
    "source": "T1364",
    "category": "observer_science",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "Archimedes \u03c0 approximation",
@@ -697,7 +735,8 @@
    "source": "T1395",
    "category": "mathematics",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "Shortest geodesic on \u0393(137)\\D_IV^5",
@@ -708,7 +747,8 @@
    "source": "T1398",
    "category": "number_theory",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "Ramanujan bound at p=137",
@@ -719,7 +759,8 @@
    "source": "T1408",
    "category": "number_theory",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "name": "Selberg scattering zeta copies",
@@ -730,7 +771,8 @@
    "source": "T1407",
    "category": "number_theory",
    "status": "untested",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_043",
@@ -752,7 +794,8 @@
     "rank"
    ],
    "source": "Toy 1399, T1404",
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_044",
@@ -771,7 +814,8 @@
     "N_c"
    ],
    "source": "Toy 1401",
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_045",
@@ -791,7 +835,8 @@
    ],
    "source_section": "Section 3",
    "related_constants": [],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_046",
@@ -811,7 +856,8 @@
    ],
    "source_section": "Section 3",
    "related_constants": [],
-   "tier": "C"
+   "tier": "C",
+   "ace": "(1,1)"
   },
   {
    "id": "pred_047",
@@ -831,7 +877,8 @@
    ],
    "source_section": "Section 6",
    "related_constants": [],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_048",
@@ -853,7 +900,8 @@
    ],
    "source_section": "Section 4",
    "related_constants": [],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_049",
@@ -875,7 +923,8 @@
    ],
    "source_section": "Section 7",
    "related_constants": [],
-   "tier": "C"
+   "tier": "C",
+   "ace": "(1,1)"
   },
   {
    "id": "pred_050",
@@ -896,7 +945,8 @@
    ],
    "source_section": "Section 10",
    "related_constants": [],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_051",
@@ -917,7 +967,8 @@
    ],
    "source_section": "Section 13",
    "related_constants": [],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_052",
@@ -936,7 +987,8 @@
    ],
    "source_section": "Section 11",
    "related_constants": [],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_053",
@@ -955,7 +1007,8 @@
    ],
    "source_section": "Section 3",
    "related_constants": [],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_054",
@@ -974,7 +1027,8 @@
    ],
    "source_section": "Section 3",
    "related_constants": [],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_055",
@@ -995,7 +1049,8 @@
    ],
    "source_section": "Section 3",
    "related_constants": [],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_056",
@@ -1012,7 +1067,8 @@
    "bst_integers_used": [],
    "source_section": "Section 3",
    "related_constants": [],
-   "tier": "retired"
+   "tier": "retired",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_057",
@@ -1033,7 +1089,8 @@
    ],
    "source_section": "Section 3",
    "related_constants": [],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_058",
@@ -1053,7 +1110,8 @@
    ],
    "source_section": "Section 8",
    "related_constants": [],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_059",
@@ -1073,7 +1131,8 @@
    ],
    "source_section": "Section 3",
    "related_constants": [],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_060",
@@ -1093,7 +1152,8 @@
    ],
    "source_section": "Section 13",
    "related_constants": [],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_061",
@@ -1113,7 +1173,8 @@
    ],
    "source_section": "Section 10",
    "related_constants": [],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_062",
@@ -1131,7 +1192,8 @@
     "N_c",
     "g"
    ],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_063",
@@ -1149,7 +1211,8 @@
     "g",
     "rank"
    ],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_064",
@@ -1166,7 +1229,8 @@
     "n_C",
     "N_max"
    ],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_065",
@@ -1183,7 +1247,8 @@
     "N_c",
     "rank"
    ],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_066",
@@ -1199,7 +1264,8 @@
    "bst_integers_used": [
     "n_C"
    ],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_067",
@@ -1216,7 +1282,8 @@
     "g",
     "N_c"
    ],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_068",
@@ -1233,7 +1300,8 @@
     "g",
     "N_c"
    ],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_069",
@@ -1250,7 +1318,8 @@
     "N_c",
     "g"
    ],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_070",
@@ -1267,7 +1336,8 @@
     "N_c",
     "rank"
    ],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_071",
@@ -1285,7 +1355,8 @@
     "C_2",
     "n_C"
    ],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_072",
@@ -1303,7 +1374,8 @@
     "N_c",
     "n_C"
    ],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_073",
@@ -1322,7 +1394,8 @@
     "N_c",
     "C_2"
    ],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_074",
@@ -1339,7 +1412,8 @@
     "C_2",
     "n_C"
    ],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_075",
@@ -1362,7 +1436,8 @@
    ],
    "source_section": "Section 15",
    "related_constants": [],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_076",
@@ -1382,7 +1457,8 @@
     "C_2",
     "g"
    ],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_077",
@@ -1399,7 +1475,8 @@
     "N_c",
     "g"
    ],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_078",
@@ -1419,7 +1496,8 @@
     "g",
     "N_max"
    ],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_079",
@@ -1440,7 +1518,8 @@
    ],
    "source_section": "SP-15",
    "related_constants": [],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_080",
@@ -1462,7 +1541,8 @@
    "related_constants": [
     "const_125"
    ],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_081",
@@ -1482,7 +1562,8 @@
     "g",
     "N_max"
    ],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_082",
@@ -1500,7 +1581,8 @@
     "C_2",
     "n_C"
    ],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_083",
@@ -1516,7 +1598,8 @@
    "bst_integers_used": [
     "n_C"
    ],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_084",
@@ -1532,7 +1615,8 @@
    "bst_integers_used": [
     "rank"
    ],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_085",
@@ -1549,7 +1633,8 @@
     "N_c",
     "rank"
    ],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_86",
@@ -1567,7 +1652,8 @@
     "n_C",
     "c_3"
    ],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_87",
@@ -1583,7 +1669,8 @@
    "bst_integers_used": [
     "rank"
    ],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_88",
@@ -1600,7 +1687,8 @@
     "N_c",
     "N_max"
    ],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_089",
@@ -1621,7 +1709,8 @@
    ],
    "source_section": "T1485",
    "related_constants": [],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_090",
@@ -1643,7 +1732,8 @@
    ],
    "source_section": "Section 9",
    "related_constants": [],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_091",
@@ -1664,7 +1754,8 @@
    ],
    "source_section": "Toys 1779-1781",
    "related_constants": [],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_092",
@@ -1684,7 +1775,8 @@
    ],
    "source_section": "Investigation Track E",
    "related_constants": [],
-   "tier": "S"
+   "tier": "S",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_093",
@@ -1704,7 +1796,8 @@
    ],
    "source_section": "T1476",
    "related_constants": [],
-   "tier": "I"
+   "tier": "I",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_094",
@@ -1723,7 +1816,8 @@
    ],
    "source_section": "Section 7",
    "related_constants": [],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_095",
@@ -1744,7 +1838,8 @@
    ],
    "source_section": "T1636, Toy 1786",
    "related_constants": [],
-   "tier": "D"
+   "tier": "D",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_096",
@@ -1757,7 +1852,8 @@
    "falsifiable": true,
    "notes": "Toy 1968/1999. THE killer experiment. Standard fabrication. Sharp BST prediction.",
    "tier": "S",
-   "name": "BaTiO3 137-plane piezoelectric peak"
+   "name": "BaTiO3 137-plane piezoelectric peak",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_097",
@@ -1770,7 +1866,8 @@
    "falsifiable": true,
    "notes": "Toy 2053. 9 samples N=125..150. Standard spectrophotometry.",
    "tier": "S",
-   "name": "Photonic crystal Q-factor at 137 periods"
+   "name": "Photonic crystal Q-factor at 137 periods",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_098",
@@ -1783,7 +1880,8 @@
    "falsifiable": true,
    "notes": "Toy 2056. Literature-confirmed: 155K BST vs 151K pressure-quenched at 2.6%.",
    "tier": "S",
-   "name": "Cuprate 3-plane T_c = 276 K"
+   "name": "Cuprate 3-plane T_c = 276 K",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_099",
@@ -1796,7 +1894,8 @@
    "falsifiable": true,
    "notes": "T1695. Current record ZT = 3.1 (SnSe). BST bound = 3.5.",
    "tier": "S",
-   "name": "Thermoelectric ZT upper bound = g/rank = 3.5"
+   "name": "Thermoelectric ZT upper bound = g/rank = 3.5",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_100",
@@ -1809,7 +1908,8 @@
    "falsifiable": true,
    "notes": "T1670. Known value 6.737(159). BST predicts 6.75 at 0.19%.",
    "tier": "S",
-   "name": "QED 5-loop coefficient C_5 = 27/4"
+   "name": "QED 5-loop coefficient C_5 = 27/4",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_101",
@@ -1822,7 +1922,8 @@
    "falsifiable": true,
    "notes": "Toy 2058. B12=rank*C_2 cage + rank^5 hydrogen.",
    "tier": "S",
-   "name": "B12H32 hydride T_c ~ 214 K"
+   "name": "B12H32 hydride T_c ~ 214 K",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_102",
@@ -1835,7 +1936,8 @@
    "falsifiable": true,
    "notes": "Toy 2062. Wallach gap protection at BST spectral addresses.",
    "tier": "S",
-   "name": "BST eigenvalue entanglement fidelity enhancement"
+   "name": "BST eigenvalue entanglement fidelity enhancement",
+   "ace": "(1,0)"
   },
   {
    "id": "pred_103",
@@ -1848,7 +1950,8 @@
    "falsifiable": true,
    "notes": "Toy 2059. phi^n_C \u2248 c_2. Periodic + quasiperiodic = complete control.",
    "tier": "S",
-   "name": "Quasicrystal coherence advantage"
+   "name": "Quasicrystal coherence advantage",
+   "ace": "(1,0)"
   }
  ]
 }

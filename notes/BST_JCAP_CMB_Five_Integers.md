@@ -81,7 +81,7 @@ All cosmological parameters are derived from $D_{IV}^5$ and its structural integ
 
 The dark energy fraction $\Omega_\Lambda = 13/19$ and matter fraction $\Omega_m = 6/19$ are derived via three independent routes [6]:
 
-**Route 1: Chern polynomial.** The compact dual of $D_{IV}^5$ is the quadric $Q^5 \subset \mathbb{CP}^6$. Its Chern polynomial encodes the Euler characteristic $\chi(Q^5) = 2$ and signature $\tau(Q^5) = 0$. The ratio of the Bergman genus $g = 7$ to the total dimension $N_c^2 + 2n_C = 19$ of the Bergman denominator polynomial yields the matter-energy split: geometric curvature contributes $C_2/19 = 6/19$ (matter) while the remaining $13/19$ corresponds to the uncurved (dark energy) component.
+**Route 1: Chern polynomial.** The compact dual of $D_{IV}^5$ is the quadric $Q^5 \subset \mathbb{CP}^6$. Its Chern polynomial encodes the Euler characteristic $\chi(Q^5) = C_2 = 6$ (via Gauss-Bonnet: $c_5[Q^5] = N_c \cdot \deg(Q^5) = 3 \times 2$) and signature $\tau(Q^5) = 0$. The ratio of the Bergman genus $g = 7$ to the total dimension $N_c^2 + 2n_C = 19$ of the Bergman denominator polynomial yields the matter-energy split: geometric curvature contributes $C_2/19 = 6/19$ (matter) while the remaining $13/19$ corresponds to the uncurved (dark energy) component.
 
 **Route 2: Reality budget.** The $D_{IV}^5$ reality budget — the fraction of spectral weight accessible to any single observer — gives a fill fraction of $f = 6/19$ from the Plancherel measure. Uncommitted bandwidth $1 - f = 13/19$ manifests as dark energy: real, gravitating, but not coupled to any specific particle channel.
 

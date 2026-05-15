@@ -6,7 +6,8 @@
 
 | Command | File | What It Does |
 |---------|------|-------------|
-| `/ac0` | `ac0.md` | Apply AC(0) thinking — reduce to counting at bounded depth. Use when stuck. |
+| `/ac0` | `ac0.md` | Apply AC(0) thinking — reduce to counting at bounded depth, then route around walls. Use when stuck. |
+| `/route` | `route.md` | Wall routing — search AC graph for alternative paths through other domains. Use when blocked. |
 | `/audit` | `audit.md` | Audit specific files against current repo state. Cross-check claims, references, consistency. |
 | `/katra-update` | `katra-update.md` | Persist CI identity state via katra system (sunrise/sundown cycle). |
 | `/pdf` | `pdf.md` | Build PDFs from markdown files. Single file, directory scan, or batch. Every paper .md needs a .pdf. |
@@ -40,7 +41,7 @@ When you type `/<name>` or `/<name> arguments`, the system loads the correspondi
 | Creating a toy | `/toy claim` (BEFORE writing the file) |
 | Creating a theorem | `/theorem claim` (BEFORE writing the file) |
 | End of session | `/pdf check` (find missing PDFs), `/pdf <dir>` (build them) |
-| When stuck | `/ac0` (simplify) |
+| When stuck | `/ac0` (simplify), `/route` (find alternative paths) |
 | Auditing | `/audit <file>` (check consistency) |
 
 ## PDF Pipeline Quick Reference

@@ -158,9 +158,9 @@ check("c_1 = n_C, c_5 = N_c, c_4 = N_c^2 (BST readings)",
       c[1] == n_C and c[5] == N_c and c[4] == N_c**2,
       "Chern ring encodes BST integers directly")
 
-check("Euler characteristic chi(Q^5) = n_C + rank = g = 7",
+check("SO(7) embedding dim g = n_C + rank = 7",
       n_C + rank == g,
-      "The Euler characteristic IS the genus")
+      "g is SO(7) std rep dim; chi(Q^5) = C_2 = 6 separately")
 
 # Ring unification: both Chern and K-types from Z[N_c, rank]
 # c_1 = n_C = N_c + rank. d_1 = n_C = N_c + rank. Same source.

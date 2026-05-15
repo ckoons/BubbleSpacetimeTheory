@@ -21,7 +21,20 @@ If you have a principle (like "minimum complexity" or "zero fiat"), check whethe
 ## Step 4: Fit before you theorize.
 If you have empirical data, fit it to a closed form FIRST. Integrate. Check convergence. The answer may already be in the data — you just need to read it as a function, not as a table.
 
-## Step 5: Escalate only if simple tools genuinely fail.
+## Step 5: If blocked, route around the wall.
+Don't push harder — search the graph. The AC theorem graph (1700+ nodes, 8800+ edges, 48+ domains) almost always has an alternative path.
+
+Ask:
+- What OTHER domains touch this concept? (`python3 play/toy_bst_explorer.py connect <concept> <target>`)
+- Can I restate this problem in a domain where we have proven results?
+- Is there a tool from representation theory, algebraic geometry, number theory, or topology that reaches my target from the other side?
+- What isomorphisms exist between my blocked domain and a domain where we have machinery?
+
+Three entry points to the same wall means it's a door. (Lyra's Borcherds Bridge: the VOA "wall" dissolved when approached from D_IV^5 geometry instead of FLM construction.)
+
+Use `/route <from> <to>` for structured wall analysis.
+
+## Step 6: Escalate only if simple tools AND routing genuinely fail.
 Try classical tools for at least 5 minutes before reaching for KS thresholds, OGP, SDP relaxations, or any machinery from the last 30 years.
 
 ## The motto

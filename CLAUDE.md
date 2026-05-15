@@ -2,9 +2,9 @@
 
 **Bubble Spacetime Theory (BST)** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 600+ predictions.
 
-## Status (May 14, 2026)
+## Status (May 15, 2026)
 
-**Counts**: T1-T1868, **2227+ toys**, **104 papers** (#82-#96 Casey approved, #97-#105 drafted). Graph 1667 nodes / 8716 edges / **98.1% proved**. **3990 geometric invariants**. **184 Rosetta Stone ratios**. **103 predictions**. **144 constants**. **48+ domains**. **SEVEN Millennium problems PROVED**: RH, P!=NP, NS, BSD, Four-Color, Hodge, YM. All Cal PASS + Keeper PASS. **SP-19 ALL COMPLETE** (24 tasks + 9 extensions + 8 deep). **SP-22 Monster/Modularity ALL 11/11 COMPLETE** (~550 tests, 19+ toys). **SP-23 ACTIVE** (Moonshine mechanism + ACE integration, 13 tasks). **ACE(bst, ext)** depth classification formalized (Toy 2227, 59/59). K3 = spectral slice of D_IV^5. Monster connection I-tier (mechanism absent). FET OPEN (CAP obstruction identified). FLT level gap [rank, c_2) = [2,11). **Paper #104: Root Proof System** (Casey keystone). **Paper #105: The Fixed Point** (BST Closure). Confidence scale: `CONFIDENCE_SCALE.md`.
+**Counts**: T1-T1907, **2253+ toys**, **105 papers** (#82-#96 Casey approved, #97-#105 drafted). Graph 1706 nodes / 8813 edges / **97.9% proved**. **4040 geometric invariants (D-tier 85.8%)**. **184 Rosetta Stone ratios**. **103 predictions**. **144 constants**. **48+ domains**. **SEVEN Millennium problems PROVED**: RH, P!=NP, NS, BSD, Four-Color, Hodge, YM. All Cal PASS + Keeper PASS. **SP-19 ALL COMPLETE** (24 tasks + 9 extensions + 8 deep). **SP-22 Monster/Modularity ALL 11/11 COMPLETE** (~550 tests, 19+ toys). **SP-23 ACTIVE** (Moonshine mechanism + ACE integration, 13 tasks). **ACE(bst, ext)** depth classification formalized (Toy 2227, 59/59). K3 = spectral slice of D_IV^5. Monster connection I-tier (mechanism absent). FET OPEN (CAP obstruction identified). FLT level gap [rank, c_2) = [2,11). **Paper #104: Root Proof System** (Casey keystone). **Paper #105: The Fixed Point** (BST Closure). Confidence scale: `CONFIDENCE_SCALE.md`.
 
 **Proof audit (Cal, May 12)**: ALL SEVEN MILLENNIUM PROVED. All submission-ready. **FE CLOSED** (T1638). **Critical exponents ALL BST**. **DM = Wallach shadow** (16/3 at 0.2%). **Nuclear magic numbers ALL BST**. May Program ALL 8 TRACKS COMPLETE.
 
@@ -102,7 +102,8 @@ This repo is a **living library**. We update every day.
 
 | Command | Purpose |
 |---------|---------|
-| `/ac0` | Apply AC(0) thinking — simplest tool first |
+| `/ac0` | Apply AC(0) thinking — simplest tool first, then route around walls |
+| `/route` | Wall routing — search graph for alternative paths through other domains |
 | `/toy` | Claim toy numbers, register completed toys |
 | `/theorem` | Claim theorem IDs, register to graph databank |
 | `/pdf` | Build PDFs from markdown — single file, directory, or batch. Every paper .md needs a .pdf. |
@@ -119,6 +120,7 @@ See `.claude/commands/README.md` for full documentation on all skills.
 - **Quaker consensus**: Near misses get scrutiny, not defense. Corrections are strength.
 - **Five integers**: rank=2, N_c=3, n_C=5, C_2=6, g=7. N_max = N_c^3 * n_C + rank = 137. Everything derives from these.
 - **Epistemic tier labels (D/I/C/S)**: Every claim gets a tier at creation. **D**=derived (mechanism proved), **I**=identified (<1%, mechanism plausible), **C**=conditional (depends on conjecture), **S**=structural (>2% or qualitative). See `notes/BST_Referee_Methodology.md` Appendix D and referee log #31.
+- **Wall routing**: When you hit a wall, don't push harder — search the graph. Run `python3 play/toy_bst_explorer.py connect <blocked_concept> <target>` to find alternative paths through other domains. Use `/route` for structured wall analysis. Three entry points to the same wall means it's a door. The AC graph (1700+ nodes, 8800+ edges) spans 48+ domains — there is almost always an existing tool in another domain that reaches your target. Casey standing order May 15.
 
 ## Rules
 

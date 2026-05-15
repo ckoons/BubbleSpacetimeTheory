@@ -38,7 +38,7 @@ Just as Cartesian coordinates make Newton's mechanics expressible, or polar coor
 
 1. **Parameter economy**: Five integers (rank=2, N_c=3, n_C=5, C_2=6, g=7) plus pi. Every derived quantity is a polynomial or algebraic combination of these. Proton mass = 6*pi^5 * m_e. Glueball mass = 11*pi^5 * m_e. CKM parameter A = 9/11. No experimental input beyond m_e and pi.
 
-2. **Constraints**: The five integers constrain all structures on D_IV^5. The K-type formula d_j = (2j+N_c)(j+1)(j+rank)/C_2 has every factor a BST integer. The Chern ring of Q^5 = (1, 5, 11, 13, 9, 3) sums to C_2 * g = 42. The Euler characteristic chi(Q^5) = g = 7. These are not free parameters — they are consequences of the domain's structure.
+2. **Constraints**: The five integers constrain all structures on D_IV^5. The K-type formula d_j = (2j+N_c)(j+1)(j+rank)/C_2 has every factor a BST integer. The Chern ring of Q^5 = (1, 5, 11, 13, 9, 3) sums to C_2 * g = 42. The Euler characteristic chi(Q^5) = C_2 = 6 (top Chern number c_5[Q^5] = N_c * deg(Q^5) = 3 * 2). These are not free parameters — they are consequences of the domain's structure.
 
 3. **Compatible framework**: D_IV^5 attaches naturally to existing mathematical machinery — representation theory (K-types, Arthur packets), algebraic geometry (Chern ring, Shimura varieties), number theory (Eisenstein series, L-functions), differential geometry (curvature, Ricci flow). It does not replace these; it provides the coordinate system in which their outputs become jointly legible.
 

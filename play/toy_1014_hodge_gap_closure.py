@@ -371,8 +371,8 @@ def test_bst_connections():
     hodge_classes = n_C + 1
     checks.append((f"Hodge classes on Q^5 = n_C + 1 = {hodge_classes} = C_2", hodge_classes == C_2))
 
-    # 3. χ(Q^5) = g = 7
-    checks.append(("χ(Q^5) = dim + 2 = g = 7", n_C + 2 == g))
+    # 3. g = n_C + rank = 7 (SO(7) embedding dim; note: χ(Q^5) = C_2 = 6 separately)
+    checks.append(("g = n_C + rank = SO(7) embedding dim = 7", n_C + 2 == g))
 
     # 4. c_1(Q^5) = n_C = 5
     checks.append(("c_1(Q^5) = n_C = 5", True))  # verified in T4

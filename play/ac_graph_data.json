@@ -63268,6 +63268,266 @@
    "from": 186,
    "to": 1897,
    "source": "derived"
+  },
+  {
+   "from": 1898,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1899,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1900,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1898,
+   "to": 1863,
+   "source": "derived"
+  },
+  {
+   "from": 1899,
+   "to": 1874,
+   "source": "derived"
+  },
+  {
+   "from": 1900,
+   "to": 1880,
+   "source": "derived"
+  },
+  {
+   "from": 1901,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1902,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1903,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1904,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1905,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1906,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1902,
+   "to": 1862,
+   "source": "derived"
+  },
+  {
+   "from": 1905,
+   "to": 1874,
+   "source": "derived"
+  },
+  {
+   "from": 1906,
+   "to": 1882,
+   "source": "derived"
+  },
+  {
+   "from": 1907,
+   "to": 1905,
+   "source": "derived"
+  },
+  {
+   "from": 1907,
+   "to": 1886,
+   "source": "derived"
+  },
+  {
+   "from": 1907,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1898,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1899,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1900,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1901,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1902,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1903,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1904,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1906,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1907,
+   "source": "derived"
+  },
+  {
+   "from": 1908,
+   "to": 1898,
+   "source": "derived"
+  },
+  {
+   "from": 1908,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1909,
+   "to": 1880,
+   "source": "derived"
+  },
+  {
+   "from": 1909,
+   "to": 1907,
+   "source": "derived"
+  },
+  {
+   "from": 1909,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1910,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1911,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1912,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1913,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1914,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1915,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 1916,
+   "to": 1898,
+   "source": "derived"
+  },
+  {
+   "from": 1916,
+   "to": 186,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1908,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1909,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1910,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1911,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1912,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1913,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1914,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1915,
+   "source": "derived"
+  },
+  {
+   "from": 186,
+   "to": 1916,
+   "source": "derived"
+  },
+  {
+   "from": 1917,
+   "to": 1829,
+   "source": "derived"
+  },
+  {
+   "from": 1917,
+   "to": 1743,
+   "source": "derived"
+  },
+  {
+   "from": 1917,
+   "to": 186,
+   "source": "derived"
   }
  ],
  "chains": {},
@@ -86569,6 +86829,355 @@
    "plain": "ACE Depth System \u2014 Two-Component Classification",
    "proofs": [
     "See toy"
+   ]
+  },
+  {
+   "tid": 1898,
+   "name": "Layer Migration Tracker (RED-3): Arthur and Moeglin migrating B\u2192A (one toy each). Wiles C\u2192B (significant progress). BSW/Frey-Ribet infrastructure/stuck. If Arthur internalized: RH+BSD+YM upgrade to Layer A. 6/7 Millennium BST-native. 6/6 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2228
+   ],
+   "date": "2026-05-15",
+   "plain": "Layer Migration Tracker (RED-3): Arthur and Moeglin migrating B\u2192A (one toy each). Wiles C\u2192B (significant progress). BSW/Frey-Ribet infrastructure/stuck. If Arthur internalized: RH+BSD+YM upgrade to Layer A. 6/7 Millennium BST-native. 6/6 PASS.",
+   "proofs": [
+    "See toy"
+   ]
+  },
+  {
+   "tid": 1899,
+   "name": "196560 vs 196883 (US-4): Leech kissing = chi(K3)*rank*(2^{rank*C_2}-1). Monster rep = 47*59*71. Gap = 323 = 17*19 = (rank^4+1)*b_-(K3). Both K3 invariants. Corridor Leech\u2192K3\u2192Monster via chi=24. 10/10 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2229
+   ],
+   "date": "2026-05-15",
+   "plain": "196560 vs 196883 (US-4): Leech kissing = chi(K3)*rank*(2^{rank*C_2}-1). Monster rep = 47*59*71. Gap = 323 = 17*19 = (rank^4+1)*b_-(K3). Both K3 invariants. Corridor Leech\u2192K3\u2192Monster via chi=24. 10/10 PASS.",
+   "proofs": [
+    "See toy"
+   ]
+  },
+  {
+   "tid": 1900,
+   "name": "Weight-1 Modular Forms (US-6): Weight 1 = pre-geometric = AC(0) counting. Below Wallach seed k=rank=2. Artin reps have finite image = discrete. Weight ladder: 0(vacuum), 1(Artin), 2(modularity GATE), 3=N_c(K3), 6=C_2, 12=rank*C_2(Delta). FET = crossing the gate. Monster lives at weight 1. 11/11 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2230
+   ],
+   "date": "2026-05-15",
+   "plain": "Weight-1 Modular Forms (US-6): Weight 1 = pre-geometric = AC(0) counting. Below Wallach seed k=rank=2. Artin reps have finite image = discrete. Weight ladder: 0(vacuum), 1(Artin), 2(modularity GATE), 3=N_c(K3), 6=C_2, 12=rank*C_2(Delta). FET = crossing the gate. Monster lives at weight 1. 11/11 PASS.",
+   "proofs": [
+    "See toy"
+   ]
+  },
+  {
+   "tid": 1901,
+   "name": "Statistical Validation (CAL-1): Welch t=-4.40, Cohen's d=1.53, Fisher p=1.5e-5. Ogg primes 100% BST-expressible vs non-Ogg 45% at [2,1000]. Gap WIDENS with range. 35/35 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2232
+   ],
+   "date": "2026-05-15",
+   "plain": "Statistical Validation (CAL-1): Welch t=-4.40, Cohen's d=1.53, Fisher p=1.5e-5. Ogg primes 100% BST-expressible vs non-Ogg 45% at [2,1000]. Gap WIDENS with range. 35/35 PASS.",
+   "proofs": [
+    "See toy"
+   ]
+  },
+  {
+   "tid": 1902,
+   "name": "Eta from D_IV^5 (US-2): n_C=P(2), g=P(-2) \u2014 consecutive pentagonal numbers! Euler's pentagonal theorem uses N_c and rank: exponents k(N_c*k-1)/rank. E_4=240=rank^4*N_c*n_C. E_6=504=rank^3*N_c^2*g. 38/38 PASS.",
+   "domain": "number_theory",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.9",
+   "toys": [
+    2233
+   ],
+   "date": "2026-05-15",
+   "plain": "Eta from D_IV^5 (US-2): n_C=P(2), g=P(-2) \u2014 consecutive pentagonal numbers! Euler's pentagonal theorem uses N_c and rank: exponents k(N_c*k-1)/rank. E_4=240=rank^4*N_c*n_C. E_6=504=rank^3*N_c^2*g. 38/38 PASS.",
+   "proofs": [
+    "See toy"
+   ]
+  },
+  {
+   "tid": 1903,
+   "name": "j-Coefficients Audit (US-3): BST structure persists through c(10). 196883 mod chi = c_2 = 11. Every c(n) has core BST prime. Falsification PASSED. 42/42 PASS.",
+   "domain": "number_theory",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.9",
+   "toys": [
+    2234
+   ],
+   "date": "2026-05-15",
+   "plain": "j-Coefficients Audit (US-3): BST structure persists through c(10). 196883 mod chi = c_2 = 11. Every c(n) has core BST prime. Falsification PASSED. 42/42 PASS.",
+   "proofs": [
+    "See toy"
+   ]
+  },
+  {
+   "tid": 1904,
+   "name": "Poisson Duality Map (RED-2): ACE gap ~30% interior, ~70% boundary data. All 5 externals have Shilov boundary shadows. Wiles IS Poisson reconstruction. 41/41 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2235
+   ],
+   "date": "2026-05-15",
+   "plain": "Poisson Duality Map (RED-2): ACE gap ~30% interior, ~70% boundary data. All 5 externals have Shilov boundary shadows. Wiles IS Poisson reconstruction. 41/41 PASS.",
+   "proofs": [
+    "See toy"
+   ]
+  },
+  {
+   "tid": 1905,
+   "name": "Leech from D_IV^5 (US-1): Every Leech input BST: dim=chi(K3)=24, source=N_c*E_8, Golay=[24,12,8], Steiner S(5,8,24). D_IV^5\u2192Monster chain D-D-D-I-C (6 steps = C_2). 36/36 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2236
+   ],
+   "date": "2026-05-15",
+   "plain": "Leech from D_IV^5 (US-1): Every Leech input BST: dim=chi(K3)=24, source=N_c*E_8, Golay=[24,12,8], Steiner S(5,8,24). D_IV^5\u2192Monster chain D-D-D-I-C (6 steps = C_2). 36/36 PASS.",
+   "proofs": [
+    "See toy"
+   ]
+  },
+  {
+   "tid": 1906,
+   "name": "E_8 from B_2 (US-5): 4-step folding chain B_2\u2192D_4\u2192F_4\u2192E_8. Root ratios: D_4/B_2=N_c, F_4/B_2=C_2, E_8/F_4=n_C. K3 intersection form now D-tier derived. 34/34 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2237
+   ],
+   "date": "2026-05-15",
+   "plain": "E_8 from B_2 (US-5): 4-step folding chain B_2\u2192D_4\u2192F_4\u2192E_8. Root ratios: D_4/B_2=N_c, F_4/B_2=C_2, E_8/F_4=n_C. K3 intersection form now D-tier derived. 34/34 PASS.",
+   "proofs": [
+    "See toy"
+   ]
+  },
+  {
+   "tid": 1907,
+   "name": "Borcherds Bridge (US-7): Reversal \u2014 D_IV^5 \u2192 Borcherds lift \u2192 automorphic on O(2,n) \u2192 Monster. Eliminates all C-tier steps in the corridor. The geometric chain is D-tier throughout. Borcherds lift IS the Poisson kernel on type IV domains. 35/35 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 1,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2238
+   ],
+   "date": "2026-05-15",
+   "plain": "Casey's reversal: instead of FLM algebra \u2192 Monster, use Borcherds lift (geometry) \u2192 automorphic forms on O(2,n) = type IV domain \u2192 Monster. The Borcherds lift IS a Poisson-type kernel. All steps D-tier.",
+   "proofs": [
+    "Borcherds lift: weight-1/2 \u2192 automorphic on O(2,n)",
+    "O(2,n) domains ARE type IV",
+    "D_IV^5 is O(2,5) = type IV_5",
+    "The corridor reversal eliminates VOA (C-tier)"
+   ]
+  },
+  {
+   "tid": 1908,
+   "name": "Existence Search Protocol (RED-1): A\u2192B\u2192C analysis on all 5 externals. For each: (A) Does D_IV^5 spectral data contain the information? (B) Can the Poisson kernel/boundary structure access it? (C) What prevents full internalization? Arthur and Moeglin: A=yes, B=yes, C=finite computation. Wiles: A=yes, B=partial (CAP obstruction), C=FET. 46/46 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2231
+   ],
+   "date": "2026-05-15",
+   "plain": "Systematic existence search for internalizing all 5 external results. Three-step protocol applied to each. Arthur+Moeglin most promising (finite computation). Wiles hardest (FET frontier).",
+   "proofs": [
+    "A-B-C protocol applied to 5 externals",
+    "46/46 checks pass"
+   ]
+  },
+  {
+   "tid": 1909,
+   "name": "CAP Obstruction = FET Obstruction (CAL-3): SK lifts see only CAP locus, generic Sp(4) cusp forms absent from P_2 Eisenstein. FET cannot hold in full generality. 49a1 (CM) unaffected. C-tier. Cal's insight formalized.",
+   "domain": "number_theory",
+   "status": "conditional",
+   "depth": 1,
+   "conflation": 0,
+   "section": "12.9",
+   "toys": [],
+   "date": "2026-05-15",
+   "plain": "The CAP obstruction IS the FET obstruction. Saito-Kurokawa lifts see the CAP locus but not generic cusp forms. BST's spectral reach through P_2 is limited to the CAP sector. General modularity requires going beyond P_2.",
+   "proofs": [
+    "SK sees CAP locus only",
+    "Generic Sp(4) cusp forms absent",
+    "49a1 CM unaffected",
+    "Geometric bypass via Borcherds Bridge"
+   ]
+  },
+  {
+   "tid": 1910,
+   "name": "V_1 Moonshine Computation: McKay-Thompson series at BST-order elements.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2239
+   ],
+   "date": "2026-05-15",
+   "plain": "V_1 Moonshine Computation: McKay-Thompson series at BST-order elements.",
+   "proofs": [
+    "See toy"
+   ]
+  },
+  {
+   "tid": 1911,
+   "name": "ACE-2: 744 Mersenne Probe \u2014 744 = chi(K3)*31 = 2^N_c * N_c * (2^n_C-1). j-constant = chi*M_{n_C}. 38/38 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2240
+   ],
+   "date": "2026-05-15",
+   "plain": "ACE-2: 744 Mersenne Probe \u2014 744 = chi(K3)*31 = 2^N_c * N_c * (2^n_C-1). j-constant = chi*M_{n_C}. 38/38 PASS.",
+   "proofs": [
+    "See toy"
+   ]
+  },
+  {
+   "tid": 1912,
+   "name": "SP-21 I-1: Poisson Kernel Explicit \u2014 Hua kernel on D_IV^5 with BST parameters. 31/31 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2241
+   ],
+   "date": "2026-05-15",
+   "plain": "SP-21 I-1: Poisson Kernel Explicit \u2014 Hua kernel on D_IV^5 with BST parameters. 31/31 PASS.",
+   "proofs": [
+    "See toy"
+   ]
+  },
+  {
+   "tid": 1913,
+   "name": "SP-21 IV-2: Furuta 10/8+2 from Wallach \u2014 10/8 = n_C/rank^2, +2 = rank. K3 saturates both 11/8 and 10/8+2. 32/32 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2242
+   ],
+   "date": "2026-05-15",
+   "plain": "SP-21 IV-2: Furuta 10/8+2 from Wallach \u2014 10/8 = n_C/rank^2, +2 = rank. K3 saturates both 11/8 and 10/8+2. 32/32 PASS.",
+   "proofs": [
+    "See toy"
+   ]
+  },
+  {
+   "tid": 1914,
+   "name": "SP-21 VI-1: Mersenne Ladder \u2014 M_rank=N_c, M_{N_c}=g, M_g=127. Three consecutive Mersenne primes at BST indices. Structural (B_2 forces M_rank=N_c). 33/33 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2243
+   ],
+   "date": "2026-05-15",
+   "plain": "SP-21 VI-1: Mersenne Ladder \u2014 M_rank=N_c, M_{N_c}=g, M_g=127. Three consecutive Mersenne primes at BST indices. Structural (B_2 forces M_rank=N_c). 33/33 PASS.",
+   "proofs": [
+    "See toy"
+   ]
+  },
+  {
+   "tid": 1915,
+   "name": "SP-21 VI-2: Regulator Ratio \u2014 R(g)/R(rank) = 3.1413 (near pi, 0.009% off). Not exact but striking. S-tier. 30/30 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2244
+   ],
+   "date": "2026-05-15",
+   "plain": "SP-21 VI-2: Regulator Ratio \u2014 R(g)/R(rank) = 3.1413 (near pi, 0.009% off). Not exact but striking. S-tier. 30/30 PASS.",
+   "proofs": [
+    "See toy"
+   ]
+  },
+  {
+   "tid": 1916,
+   "name": "RETRO-2 I-tier Mechanism Hunt: 87 items grouped for batch upgrade across mechanism theorems. Top groups: T186 (Five Integers), T1829 (Wallach), T1871 (K3), T920 (Debye). Domain bridge: particle_physics highest value. 3-phase action plan: auto-upgrade \u2192 batch mechanism \u2192 domain bridges. 4/5 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2247
+   ],
+   "date": "2026-05-15",
+   "plain": "Execution tool for tier retrospective. Groups non-D items by which D-tier theorem can serve as mechanism. 87 items batch-upgradeable. Projected D-tier: 76% \u2192 86%+ after full sweep.",
+   "proofs": [
+    "87 items grouped by mechanism",
+    "Top 5 mechanism groups identified",
+    "3-phase action plan"
+   ]
+  },
+  {
+   "tid": 1917,
+   "name": "TOP-3 Uniqueness Data: 38 rank-2 BSDs enumerated, 4-lock cascade \u2192 D_IV^5 sole survivor. Algebraic squeeze: m_s >= 3 AND d_F <= 2 forces n_C = 5 uniquely. Integrates T1743, T1829, Toy 1399, Toy 2120. SP-23 19/19 COMPLETE. 38/38 PASS.",
+   "domain": "foundations",
+   "status": "proved",
+   "depth": 0,
+   "conflation": 0,
+   "section": "12.0",
+   "toys": [
+    2246
+   ],
+   "date": "2026-05-15",
+   "plain": "TOP-3 integration: the cross-type cascade from ALL perspectives (Toy 1399, T1829, Toy 2120) unified. 4 locks are consequences of selection equations, not independent filters.",
+   "proofs": [
+    "38 rank-2 BSDs enumerated",
+    "4-lock cascade verified",
+    "Algebraic squeeze forces n_C=5"
    ]
   }
  ],

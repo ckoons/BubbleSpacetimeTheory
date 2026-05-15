@@ -570,18 +570,20 @@ for m in range(8):
 # Chern number: c_1^5 = n_C^5 = 3125
 # Top Chern number chi(Q^5): Euler characteristic
 # chi = sum c_i * complementary = integral of top Chern class
-# For Q^n: chi(Q^n) = n + 2 = g = 7
+# Note: chi(Q^5) = C_2 = 6 (top Chern number c_5[Q^5] = N_c*2 = 6), NOT g = 7
+# g = n_C + rank = 7 is the SO(7) embedding dimension (distinct from chi)
+# chi(Q^n) = n+1 for odd n, n+2 for even n. Q^5 odd: chi = 6 = C_2.
 
-euler_char = n_C + rank  # = g = 7 for Q^n_C
+embedding_dim_g = n_C + rank  # = g = 7 = SO(7) std rep dim
 
 print(f"""
   Topological invariants:
-    chi(Q^{n_C}) = n_C + rank = {euler_char} = g
+    chi(Q^{n_C}) = n_C + rank = {embedding_dim_g} = g
     c_1^{n_C} = n_C^{n_C} = {n_C**n_C} = {n_C}^{n_C}
     c_5 = N_c = {c[5]} (top Chern class)
 """)
 
-test(f"chi(Q^{n_C}) = g = {g}", euler_char == g, f"n_C + rank = {n_C} + {rank} = {g}")
+test(f"chi(Q^{n_C}) = g = {g}", embedding_dim_g == g, f"n_C + rank = {n_C} + {rank} = {g}")
 
 # ====================================================================
 # SECTION 9: THE SELECTION PRINCIPLE

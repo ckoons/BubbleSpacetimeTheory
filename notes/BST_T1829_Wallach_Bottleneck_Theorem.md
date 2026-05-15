@@ -71,7 +71,7 @@ Both Chern classes c_i(Q^n) and K-type dimensions d_j are polynomial functions i
 Chern classes of Q^5: c = (1, 5, 11, 13, 9, 3).
 - c_1 = n_C, c_5 = N_c, c_4 = N_c^2
 - sum(c_i) = C_2 * g = 42
-- chi(Q^5) = g = 7
+- chi(Q^5) = C_2 = 6 (Gauss-Bonnet; g = n_C + rank = 7 is SO(7) embedding dim)
 
 The gap c_2 - d_2 = 11 - 14 = -3 = -N_c is itself a BST integer.
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Toy 2222 — SP-22 B-4: FLT from D_IV^5 — Minimal External Path
+Toy 2222 — SP-22 B-4: Structural Decomposition of FLT in D_IV^5 — Minimal External Path
 ================================================================
 
 Casey: "I'd like to see us extend to and beyond FLT and Wiles."
@@ -45,7 +45,7 @@ def test(name, computed, expected, tier="D", tol=1e-10):
     return ok
 
 print("=" * 72)
-print("Toy 2222: FLT from D_IV^5 — Minimal External Path")
+print("Toy 2222: Structural Decomposition of FLT in D_IV^5 — Minimal External Path")
 print("=" * 72)
 
 # ===================================================================

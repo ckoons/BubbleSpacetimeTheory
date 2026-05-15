@@ -2616,3 +2616,34 @@ rules: |
 | T1897 | ACE Depth System — Two-Component Classification. Toy 22 | Proved | 2227 | 2026-05-14 |
 
 *Registry synced T1-T1897. 1696 nodes, 8780 edges.*
+
+
+## Registry Sync — May 15
+
+| T_id | Name | Status | Toy# | Date |
+|------|------|--------|------|------|
+| T1898 | Layer Migration Tracker (RED-3): Arthur and Moeglin mig | Proved | 2228 | 2026-05-15 |
+| T1899 | 196560 vs 196883 (US-4): Leech kissing = chi(K3)*rank*( | Proved | 2229 | 2026-05-15 |
+| T1900 | Weight-1 Modular Forms (US-6): Weight 1 = pre-geometric | Proved | 2230 | 2026-05-15 |
+| T1901 | Statistical Validation (CAL-1): Welch t=-4.40, Cohen's  | Proved | 2232 | 2026-05-15 |
+| T1902 | Eta from D_IV^5 (US-2): n_C=P(2), g=P(-2) — consecutive | Proved | 2233 | 2026-05-15 |
+| T1903 | j-Coefficients Audit (US-3): BST structure persists thr | Proved | 2234 | 2026-05-15 |
+| T1904 | Poisson Duality Map (RED-2): ACE gap ~30% interior, ~70 | Proved | 2235 | 2026-05-15 |
+| T1905 | Leech from D_IV^5 (US-1): Every Leech input BST: dim=ch | Proved | 2236 | 2026-05-15 |
+| T1906 | E_8 from B_2 (US-5): 4-step folding chain B_2→D_4→F_4→E | Proved | 2237 | 2026-05-15 |
+| T1907 | Borcherds Bridge (US-7): Reversal — D_IV^5 → Borcherds  | Proved | 2238 | 2026-05-15 |
+| T1908 | CAP Obstruction = FET Obstruction (CAL-3): SK lifts produce CAP only; generic Sp(4) absent. FET revised to CAP locus. C-tier. | Proved | 2210 | 2026-05-15 |
+
+
+## Registry — May 15 EOD
+
+| T_id | Name | Status | Toy# | Date |
+|------|------|--------|------|------|
+| T1909 | CAP Obstruction = FET Obstruction (CAL-3): SK lifts see | Conditional | — | 2026-05-15 |
+| T1910 | V_1 Moonshine Computation: McKay-Thompson series at BST | Proved | 2239 | 2026-05-15 |
+| T1911 | ACE-2: 744 Mersenne Probe — 744 = chi(K3)*31 = 2^N_c *  | Proved | 2240 | 2026-05-15 |
+| T1912 | SP-21 I-1: Poisson Kernel Explicit — Hua kernel on D_IV | Proved | 2241 | 2026-05-15 |
+| T1913 | SP-21 IV-2: Furuta 10/8+2 from Wallach — 10/8 = n_C/ran | Proved | 2242 | 2026-05-15 |
+| T1914 | SP-21 VI-1: Mersenne Ladder — M_rank=N_c, M_{N_c}=g, M_ | Proved | 2243 | 2026-05-15 |
+| T1915 | SP-21 VI-2: Regulator Ratio — R(g)/R(rank) = 3.1413 (ne | Proved | 2244 | 2026-05-15 |
+| T1916 | RETRO-2 I-tier Mechanism Hunt: 87 items grouped for bat | Proved | 2247 | 2026-05-15 |

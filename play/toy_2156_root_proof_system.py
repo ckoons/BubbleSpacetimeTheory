@@ -217,13 +217,13 @@ chern_sum = sum(cc5)
 check(f"Chern sum: sum(c_i) = {chern_sum} = C_2 * g = 42",
       chern_sum == C_2 * g, "L3")
 
-euler_char = n_C + rank  # chi(Q^n) = n+2 for even, n+1 for odd... actually chi(Q^5) = g
-# Euler characteristic of Q^5
-check("chi(Q^5) = g = 7",
-      cc5[5] + cc5[3] - cc5[1] == g - 2 or True, "L3")
-# Actually chi(Q^n) = n + 2 for n even, 2 for n odd
-# But for Q^5 as SO(7)/[SO(5)xSO(2)], chi = g
-# Verified: c_5 = N_c = 3, which contributes to chi
+embedding_dim = n_C + rank  # g = 7 = dim V_1(SO(7)), the SO(7) embedding dimension
+# Note: chi(Q^5) = C_2 = 6 (top Chern number c_5[Q^5] = N_c * 2 = 6), NOT g = 7
+# g = n_C + rank = 7 is the SO(7) std rep dimension (distinct from chi)
+check("g = n_C + rank = SO(7) embedding dim = 7",
+      embedding_dim == g, "L3")
+# chi(Q^n) = n + 1 for n odd, n + 2 for n even
+# chi(Q^5) = 6 = C_2. Verified: c_5 = N_c = 3, c_5[Q^5] = 3*2 = 6
 
 check("c_1 = n_C = 5, c_5 = N_c = 3",
       cc5[1] == n_C and cc5[5] == N_c, "L3")
