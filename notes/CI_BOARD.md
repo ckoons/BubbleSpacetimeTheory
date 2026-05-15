@@ -136,9 +136,23 @@ Updated May 14 late/overnight. SP-21 Wave 1: 8/8 COMPLETE (238/238). Wave 2: IV-
 | ACE-2 | **744 Mersenne probe** — Do M_3 = 7 = g and M_5 = 31 have independent moonshine significance? Structural -> D-tier. Observational -> I-tier. | **Elie** | QUEUED |
 | ACE-3 | **SP-14 cataloging** — File derivations from Toys 2200-2227 into data/bst_geometric_invariants.json. | **Grace** | QUEUED |
 
-**Total**: 13 tasks. CAL-1 through CAL-4 first (close audit loop). US-1 through US-6 parallel (stones). ACE-1 through ACE-3 parallel (integration).
+#### ACE→AC Reduction Program (Priority 0 — Casey directive May 14)
 
-**Highest-value single investigation**: US-1 (Leech lattice). If D_IV^5 produces the Leech lattice, Moonshine gets a mechanism. This is the path from I-tier to D-tier.
+**Casey**: "We study as rigorously as possible and 'may' be able to reduce ACE back to AC. Right now we see 'possible gaps' that may be new interpretations of BST."
+
+**Core question**: Are the two "irreducible exits" (existence, continuation) truly external, or are they unfinished BST searches?
+
+| # | Task | Owner | Status |
+|---|------|-------|--------|
+| RED-1 | **Existence Search Protocol** — Formalize Casey's A→B→C procedure. For each external existence result: (A) define the object independently, (B) search for it or its analog in D_IV^5, (C) embed/attach or document the gap. Apply to all 5 current externals (Arthur, Moeglin, BSW, Frey-Ribet, Wiles). Track migration from Layer 2→Layer 1. | **Keeper** | QUEUED |
+| RED-2 | **Poisson Duality Map** — D_IV^5's Poisson kernel pairs discrete (Shilov boundary) with continuous (interior). Take each "continuation" result and find its discrete boundary shadow. The shadow IS the BST-native version. Finite fields model continuous with finite precision — sigma=3/2 is geometric (same over Q and F_q(t), Toy 2187). | **Lyra** | QUEUED |
+| RED-3 | **Layer Migration Tracker** — Classify all externals by current layer (0=definition, 1=BST-native, 2a=existence search, 2b=continuation search, 3=confirmed external). Track which have migrated (49a1 modularity: 2a→1). Identify which are in active search vs unsearched. Goal: shrink Layer 2, possibly empty Layer 3. | **Grace** | QUEUED |
+
+**If RED-1 through RED-3 succeed**: ACE(bst, ext) collapses to AC(depth) — external depth was never truly external, just not-yet-found BST. The "gaps" are new interpretations of D_IV^5, not boundaries of D_IV^5.
+
+**Total SP-23**: 16 tasks. RED-1/2/3 are highest priority (Casey directive). CAL-1-4 close audit loop. US-1-6 are unturned stones. ACE-1-3 are integration.
+
+**Highest-value single investigation**: US-1 (Leech lattice) for Moonshine mechanism. RED-1 (Existence Search Protocol) for proof theory.
 
 ---
 
