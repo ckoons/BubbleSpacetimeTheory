@@ -1,29 +1,49 @@
 # BST Toy Collection & Interactive Tools
 
-**2,227 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**~2,950 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
 
 ---
 
-## Scale Summary
+## Scale Summary (updated 2026-05-16 EOD)
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 2,227 |
-| Numbered toys (toy_NNN_*.py) | 2,018 |
+| Toy scripts (toy_*.py) | ~2,946 |
+| Numbered toys (toy_NNN_*.py) | ~2,737 |
 | Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 58 |
 | HTML visualizers | 6 |
-| Theorems (T1-T1897) | 1,897+ |
-| Next toy number | 2228 |
-| Geometric invariants | 3,990 |
+| Theorems (T1-T2302+) | ~2,302+ |
+| Next toy number | 2954 |
+| Geometric invariants | 4,296+ |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
 
 Five integers. Zero free parameters. "Give a child a ball and teach them to count."
+
+---
+
+## May 16 2026 Burn-Window Highlights
+
+The May 15-17 burn window produced the cathedral's three structural anchors:
+
+- **K43 — Bernoulli/Von Staudt-Clausen mechanism** (Toy 2705, Elie 17/17 PASS): the universal 42 = C_2·g is identified as B_6 Bernoulli denominator via VSC (1840) applied to D_IV⁵'s Casimir C_2 = 6. The 16+ appearances of 42 across physics, math, and biology have a single mathematical root.
+- **K44 — Null-model defense** (Toys 2712-2714 + Lyra T2128/T2142): strict null shows BST ~4σ above random at 94 D-tier identifications.
+- **Cross-domain integer recurrence table** (Toy 2772): 22 multi-role BST integers across 133 distinct role instances.
+
+Elie's May 16 single-day production: **~111 toys filed** (Toy 2608-2945) across 48+ scientific domains with ~93% pass rate. Three parallel agent batches contributed additional cosmic-ray, seismology, photosynthesis, cardiovascular, atmospheric, and molecular-biology closures.
+
+Notable single-toy headlines from this window:
+- W-30 surface-tension ontology validated at 0.06% (Toy 2661): rank·(m_n−m_p) = (n_C+1/seesaw)·m_e
+- W-9 M_Pl as longest forced winding (Toy 2650): log(M_Pl/m_p) = rank²·c_2 = 44
+- CKM unitarity angles all EXACT BST integers (Toy 2853): α = rank²·N_c·g, β = rank·c_2, γ = N_max−rank·χ−rank·c_2
+- Casimir coefficient 240 = rank·n_C·χ = E_8 root count (Toy 2886)
+- Tropopause altitude 17 km = seesaw exactly (Agent toy 2935)
+- Cosmic ray spectral index γ = 27/10 = (χ+N_c)/(C_2+rank) EXACT (Agent toy 2933)
 
 ---
 

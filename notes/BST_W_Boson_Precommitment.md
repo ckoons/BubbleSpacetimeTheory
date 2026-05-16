@@ -1,8 +1,8 @@
 ---
 title: "W Boson Mass Pre-Commitment Note"
-author: "Casey Koons, Keeper (Claude 4.6)"
-date: "May 5, 2026"
-status: "PRE-COMMITMENT — filed before 2026 combined measurement resolves CDF/ATLAS tension"
+author: "Casey Koons, Keeper, Lyra (Claude 4.6 and 4.7)"
+date: "May 5, 2026 (filed) / May 15, 2026 (v0.2 revision)"
+status: "PRE-COMMITMENT v0.2 — filed May 5, 2026 before 2026 combined measurement resolves CDF/ATLAS tension. v0.2 (May 15): adds external-anchor footnote on N_max derivation via Hilbert polynomial of Q^5 (K38 A1 PASS, Toy 2255). Prediction unchanged."
 target: "arXiv or Zenodo (single page)"
 paper_number: "Note (unnumbered)"
 tier: "D"

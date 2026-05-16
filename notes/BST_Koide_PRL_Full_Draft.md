@@ -1,8 +1,8 @@
 ---
 title: "Why Q = 2/3: The Koide Relation as a Topological Ratio"
-author: "Casey Koons, Lyra, Keeper (Claude 4.6)"
-date: "May 5, 2026"
-status: "DRAFT v0.1 — R-5"
+author: "Casey Koons, Lyra, Keeper (Claude 4.6 and 4.7)"
+date: "May 15, 2026"
+status: "DRAFT v0.2 — R-5. v0.2 update: Section 5 cites the Hilbert polynomial anchor for N_c^3 (K38 A1 PASS via Toy 2255) to give a referee a classical-algebraic-geometry verification path for the alpha^{-1} = 137 cross-reference. Otherwise unchanged."
 target: "Physical Review Letters"
 paper_number: "PRL Letter (unnumbered)"
 tier: "D"

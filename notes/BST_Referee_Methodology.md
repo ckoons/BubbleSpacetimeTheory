@@ -404,3 +404,171 @@ A toy (assigned to Elie) generates N random 5-tuples of small integers, applies 
 ---
 
 *Draft v0.1 posted 2026-04-23. v0.2 posted 2026-04-25: meta>primary clarification, peer-with-different-lane reframe, "done" backstop rule, inconclusive-results rule, publisher extension, generalization appendix C. v0.3 posted 2026-04-27: Appendix D epistemic tier labels (D/I/C/S). Further revisions expected as the role's failure modes are observed in adoption.*
+
+---
+
+## Appendix E: K42 Batch-Classifier Discipline (Casey approved May 17, 2026)
+
+When the team runs batch I→D or S→D tier promotion classifiers (e.g., RETRO-2 style sweeps), the classifier MUST implement four guards plus a sample-audit requirement.
+
+### Per-entry classifier guards
+
+1. **Status-field guard**: NEVER promote entries with `status: "structural"`. The team's own tier definition holds that structural ↔ qualitative/precision-≥2%, which is incompatible with D-tier ("mechanism derived"). A classifier ignoring this field promotes coincidences to derivations.
+
+2. **Symbol-prefix guard**: NEVER promote entries with `symbol: "auto_*"` via batch classifier. The auto_ prefix denotes auto-discovered combinatorial pattern hits — by construction speculative numerical matches, not derivations. Manual review is permitted; batch promotion is not.
+
+3. **Precision-field guard**: NEVER promote entries with `precision ≥ 2%` to D-tier via batch classifier. D-tier reserves for mechanism + precision; precision alone doesn't promote but precision absence prevents promotion.
+
+4. **Theorem citation specificity**: When promoting, cite the MOST SPECIFIC load-bearing theorem in the entry's text or notes — not the most general. Default to T186 ONLY when no other marker exists. Marker list (extend as new mechanism theorems emerge): T186 (five integers), T187 (proton-mass chain), T1783 (Chern), T1788 (YM ring), T1821 (Bergman), T1829 (Wallach), T920 (Debye), T1444 (vacuum subtraction), T1464 (RFC), T1918 (Shilov boundary winding), T1919 (Weinberg Chern ratio), T1920 (Chern-flux box-diagram), T1922 (particle-winding), T1923 (Hilbert shift family), T1937 (T² surface).
+
+### Per-batch sample-audit requirement
+
+Any batch pass that promotes >50 entries MUST be followed by a stratified random sample audit (≥10 items, ≥2 per matched mechanism theorem) BEFORE the next batch runs. The sample audit verifies that the matched mechanism actually load-bears on each promoted entry. If the sample finds ≥1 outright fail or ≥3 mislabels, the batch is paused for methodology review.
+
+### Per-batch honest accounting
+
+When batch results are reported externally (papers, outreach abstracts, public catalog headlines), the headline D-tier percentage MUST include explicit caveat for any uncategorized residual. "X% D-tier" is honest only if the team has sample-audited the residual S/I/C-tier items. If a historical batch of N items hasn't been audited, the headline carries footnote: "headline includes N items pending audit."
+
+### Destructive-edit caution (Grace disclosure rule, May 15)
+
+NEVER destructive-revert a shared data file (e.g., `git checkout data/*.json`) without first checking what's uncommitted via `git diff` or saving a pre-script copy. The May 15 Grace incident lost 5 of Elie's Hilbert_Q5 entries momentarily; she restored byte-identical from a prior Read. The lesson: shared data files require diff-before-revert discipline.
+
+### Re-promotion sweep allowance (Casey approved May 17)
+
+Items reverted via Option-A-style class-level reverts MAY be re-promoted I/S → D when:
+
+(a) A subsequent toy explicitly verifies the BST formula at precision <2%;
+(b) The mechanism is named (specific BST integer expression, not pattern-matching);
+(c) The symbol field is updated to drop `auto_*` prefix (since the mechanism is now verified);
+(d) The notes field cites the verifying toy and "salvaged from [original revert date] per K42 Appendix E."
+
+This is the documented salvage path. Grace's catalog mapping pass (Task #49, ongoing May 17) is the canonical venue for executing these re-promotions, but any team member may file individual salvages with the citation pattern above.
+
+### Cross-consistency network methodology (Lyra Toy 2390, T1934)
+
+Independent BST identifications that share BST integers generate pairwise cross-products. Tracking which pairs agree at sub-percent precision and which fail is itself a validation methodology: failures flag wrong identifications; agreements compound evidence multiplicatively (each independent route × N_routes ≈ coincidence probability ≤ 10^-N at 0.1% precision per route).
+
+Standing audit pattern: run cross-consistency matrix weekly across all BST identifications in `bst_geometric_invariants.json`. Track which pairs share integers, which generate predicted relations, which verify. Update with each new identification.
+
+---
+
+*Appendix E added 2026-05-17 ~08:00 EDT by Keeper per Casey approval of K42 promotion. See `notes/K42_RETRO2_Batch_Classifier_Discipline.md` for full audit reasoning.*
+
+---
+
+## Appendix F: Casey's Structural Reframe Principle (May 16, 2026)
+
+### The principle
+
+When stuck on a binary conjecture (existence / non-existence / true / false), reformulate to the underlying STRUCTURAL question one layer below. The structural form — distribution, growth law, pattern of occurrence — is usually:
+
+1. More tractable (existence is hardest; structure is easier)
+2. More informative (the structural form tells us HOW, not just WHETHER)
+3. Better aligned with what mathematics actually produces
+
+### Examples
+
+| Binary conjecture | Structural reframe |
+|-------------------|---------------------|
+| Twin primes infinite? | Pattern of occurrence of twin primes (Casey reframe May 16) |
+| abc conjecture true? | Density of abc near-misses; effective abc for specific classes |
+| Collatz: every orbit terminates? | Orbit-length growth law; statistical behavior of orbits |
+| Goldbach: every even = sum of two primes? | Density of Goldbach representations; Hardy-Littlewood asymptotic |
+| Riemann Hypothesis (zeros on critical line)? | Already structural; this is why it's a useful problem |
+| Hodge conjecture true for all varieties? | Hodge structure cohomology growth |
+| BSD: rank = order of vanishing? | L-function behavior at central point |
+
+The Hardy-Littlewood program is the canonical example. They didn't try to prove twin primes infinite; they quantified the structural pattern via density conjecture (≈ 2C_2 N/(ln N)²). That program produced ENORMOUS mathematics. The existence question is still open; the structural work is what advanced understanding.
+
+### When to apply
+
+- Team produces "honest negative" (structural compatibility but not proof) on a binary conjecture
+- Cannot make progress on existence/non-existence after multiple attempts
+- Structural question is unexplored or only partially studied
+
+### When NOT to apply
+
+- Conjecture is already structural (RH, Langlands, etc.)
+- Existence proof is close at hand
+- Reframing would obscure rather than clarify the problem
+
+### Casey's framing (verbatim May 16)
+
+> Not every conjecture as stated has an answer, but I'd think there are well phrased conjectures that can be proven and will teach us. Such as, the pattern of occurrence of twin primes (broadest to finest) — you don't have to predict which numbers are primes, but you should show patterns that grow when hunting primes.
+
+### Application to current BST work
+
+Twin prime conjecture (Lyra Toy 2470 / T1981) closed at I-tier honest negative on Saturday May 16, with Hardy-Littlewood constant matching at 0.95% but no infinitude proof. Task #81 reformulated to pattern-of-occurrence per this principle. The structural machinery already in BST (T934 gap-2, Mersenne+Wallach ladder, Pell skeleton, Heegner 4-3 split, BST additive closure) directly addresses the structural form.
+
+If the structural reformulation produces clean BST-integer growth laws, BST has contributed to the twin prime problem at the Hardy-Littlewood level — which is the level mathematics actually rewards, more than impossible-to-prove existence claims.
+
+---
+
+*Appendix F added 2026-05-16 evening EDT by Keeper per Casey's standing methodology directive.*
+
+---
+
+## Appendix G: Casey's Closure Principle (May 16, 2026 evening)
+
+### The principle
+
+**Make predictions only on multiplicatively-closed sets. Then talk about set sizes and their ratios.**
+
+Division on integers is NOT closed — most a÷b is not an integer. Any prediction that uses ÷ as a primitive operation steps outside the predictable closed structure. Predictions should be set-size statements on closed sets; ratios emerge naturally as ratios of set sizes.
+
+### Closure structure on ℤ
+
+| Operation | Closed on ℤ? | Closed on Composites? | Closed on Primes? |
+|-----------|--------------|----------------------|-------------------|
+| Addition | ✓ | ✗ (can produce primes) | ✗ |
+| Subtraction | ✓ | ✗ | ✗ |
+| **Multiplication** | ✓ | ✓ (composite × composite = composite) | ✗ (p·q = composite) |
+| Division | ✗ | ✗ | ✗ |
+
+**Composites are multiplicatively closed.** Primes are defined by exclusion from this closure — they're the residue of composite sieving, not a positively-structured set.
+
+### Methodological implications
+
+1. **All BST predictions should be expressible as set-size ratios on multiplicatively-closed sets.** Numerator and denominator should each be cardinalities of well-defined closed-set structures.
+
+2. **Avoid predictions that treat primes as a positively-structured set.** Prime distribution emerges as the complement of composite structure — predict composite structure first; prime properties follow as residuals.
+
+3. **The four arithmetic skeletons (Linear, Pythagorean, Fermat 2-square, Pell) are all closed operations.** This is why they have BST structure — closure preserves footing.
+
+4. **Hardy-Littlewood's constant ≈ 17/13 (T1981) is well-grounded** because it's built from ratios of composite-side densities (∏ over composite sieving weights). The 17 and 13 are set-size parameters of composite-side structure.
+
+### Examples of WELL-GROUNDED BST predictions (closed set sizes or their ratios)
+
+- Wallach K-type dimensions d_j as cardinalities of representation spaces
+- Chern integer sequence c(Q⁵) = {1, n_C, c_2, c_3, N_c², N_c} as cohomology dimensions
+- Mathieu group orders as set sizes
+- Sphere packing optimal dimensions as count of optimal-packing dimensions
+- Theorem count, toy count, catalog cardinality (registry/data statistics)
+- cos²θ_W = rank·c_1/c_3 = ratio of Chern-integer-defined cohomology dimensions
+- 8 gluons = c_2 − N_c (set-size difference)
+- 6 = C_2 = T_{N_c} triangle number = |{color singlet windings}|
+
+### Examples of CAUTIOUS BST predictions (use division on residue sets)
+
+- "Twin primes cluster at BST integers" — treats primes as positively structured. Grace Toy 2524 returned null at 0.30σ, consistent with the principle: primes have no positive structure.
+- Some exp(BST integer) predictions where the exponent is a set size but the output is irrational and dimensionful — should be reformulated as ratios of set sizes where possible.
+
+### When NOT to apply
+
+- Physical observables that are intrinsically continuous (masses, energies) ARE allowed to be irrational; what matters is that they decompose as RATIOS of closed-set cardinalities.
+- π, e, transcendentals can appear as integrals/sums over closed-set indexed series.
+- The principle is about PRIMITIVE OPERATIONS, not about the form of the final answer.
+
+### Casey's framing (verbatim May 16 evening)
+
+> Division is breaks closure. We should only do predictions on 'composites' the closed set and then talk about set sizes.
+
+### Connection to other appendices
+
+- **Appendix E (K42 batch-classifier guards)**: a sub-case — auto-classifier promotions without verified mechanism often treat primes positively; the closure principle predicts this would fail at scale, which K42 observed empirically.
+- **Appendix F (Structural Reframe Principle)**: when stuck on prime-side conjectures (binary infinitude questions), reformulate to composite-side structural questions (set-size densities, distribution patterns).
+- **Appendix G (this one)**: the underlying reason both E and F work — closure structure determines predictability.
+
+---
+
+*Appendix G added 2026-05-16 evening EDT by Keeper per Casey's standing methodology directive on closure.*

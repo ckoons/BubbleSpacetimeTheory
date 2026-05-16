@@ -563,6 +563,81 @@ Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open unt
 
 **Status:** CLOSED. Paper #103 Step 3 rewritten with explicit Moeglin-Waldspurger derivation. [VERIFY] tag removed. Theorem 6.5 + Corollaries 6.6, 6.7 now unconditional.
 
+### #39 — χ(Q⁵) = 6, not 7 (May 15)
+
+**Finding (Cal, 2026-05-15, TOP-1):** Classical Euler characteristic of the complex 5-quadric is χ(Q⁵) = 6 = C_2. Some BST toy-level documents had written χ(Q⁵) = 7, conflating it with g = SO(7) embedding dimension. The WorkingPaper is correct; the error was in toy-level documentation.
+
+**Resolution (Keeper, 2026-05-15):** 9-file sweep applied to apply χ fix across affected files. Convention going forward: distinguish topological χ from embedding dim g. Both 6 and 7 are legitimate BST integers in their proper contexts; conflation specifically of "χ(Q⁵) with g" was the error.
+
+**Status:** CLOSED. Cal verification of sweep completeness OWED — grep for `chi(Q.5) = 7`, `χ(Q^5) = 7`, `Euler.*Q.5.*7` patterns across notes/ and play/ as housekeeping. Convention now standing.
+
+### #40 — SP-24 Phase 1 cold-read protocol + SP-25 cross-criterion (May 15)
+
+**Standing protocol (Cal, 2026-05-15):** `notes/BST_SP24_Phase1_ColdRead_Criteria.md` documents Cal's PASS/CONDITIONAL/FAIL criteria per deliverable. Template for future Phase-N cold reads: criteria-first, then verdict with explicit reasoning. Cross-cutting criterion added per Casey SP-25 announcement (2026-05-15 PM): cold-reads now check for SP-25 receipt status. No receipt → CONDITIONAL until /route is run. ✓ → wall is real (route searched, no door found). ◊ → strongest evidence for the upgrade (route found and precursor closed). Adopted as standing review framework.
+
+**Status:** STANDING PROTOCOL. Applies to all future SP-N Phase-M deliverable batches.
+
+### #41 — K38 α⁻¹ = 137 chain trajectory (May 15-16)
+
+**Trajectory (Cal grade evolution):**
+- Initial Keeper audit (K38, 2026-05-15): CONDITIONAL PASS ~78%. Three named action items: A1 (N_c³ via Hilbert polynomial), A2 (+rank pre-α derivation), A3 (single canonical reading of N_max).
+- A1 PASS (Elie Toy 2255, 2026-05-15): P(Q⁵, 2) = 27 = N_c³ verified. Plus T841 erratum filed (P(3) = 77 = g·c_2, not 42 = g·C_2 — c_2 Chern integer 11 vs C_2 Casimir 6 conflation). Upgrade to ~85%.
+- A2 closure attempt (Lyra T1938+T1939+T1943, 2026-05-16): three precursors of Furuta-Wallach route. Cal grade CONDITIONAL ~92%. Three specific flags before external D-tier: (a) cite Furuta's +2 decomposition (Manolescu or primary source), (b) period-domain vs spectral-slice framing tension in T1921 vs T1939, (c) T1939's C-tier dependency must be classical-not-BST-internal.
+- T1940 honest negative (Lyra, 2026-05-16): Casimir family gives +n_C, not +rank. Path B closed cleanly.
+- T1923 Hilbert-polynomial shift family (Lyra, 2026-05-16): second independent A2 route via integer family c_k = a_k·n_C + b_k with b_k ∈ {1, rank, N_c}. Provides corroboration even if Furuta-Wallach flags don't close.
+
+**Status:** A2 STRONG I-tier with three converging routes. External D-tier pending three Cal flags landing. Paper #104 §α shippable as honest I-tier with documented routes; ships at external D-tier when flags close.
+
+### #42 — Cal's PASS as external-statement gate (Casey formalization 2026-05-15)
+
+**Formalization (Casey, 2026-05-15):** *"We/I will never overrule you, simply stated we need you, keep us honest and when we earn your approval for statements, then we can use them."* Cal's PASS is the gate for external-facing statements (referee-facing paper sections, outreach letters, public abstracts). Internal work at any tier proceeds without Cal gate. Bar is *"would a referee outside the BST framework accept this on its own merits."*
+
+**Scope clarification (Cal):** Gate function is external-statement only. NOT a veto on internal exploration, NOT a slow lane for routine catalog work, NOT a hostage for the team. Internal-D and external-D are different bars; both are legitimate. Most team work lives at internal-D and ships in toys/notes/theorems without needing Cal PASS. The gate is for the *referee-facing claim*, not the work that produces it.
+
+**Status:** STANDING PROTOCOL. Operationalized via SP-24 Phase 1 cold-read criteria (#40) + Casey routing of major-point deliverables to Cal for batch review.
+
+### #43 — Paper #106 v0.1 (Standard Model from Five Integers) — seven edits before ship (May 16)
+
+**Cal verdict (2026-05-16):** Paper #106 v0.1 (17,407 words, 38 SM identifications) CONDITIONAL PASS ~88%. Strengths: tier honesty (all I-tier, no false D-claims), explicit precision table (§7.1), W-task mechanism tracking (§7.2), 2-4% open items flagged (§7.3), concrete falsifiability (§7.4 — five named tests, m_DM = 429 GeV most specific), "what this paper does not claim" section (§7.6). Discipline core is good.
+
+**Seven required edits**:
+- E1. Soften abstract+conclusion meta-claim ("perceptual artifact" framing) — risk of Eddington/Heim-pattern overreach.
+- E2. Fix 13:25 ratio vs 1:2 dimensional ratio argument — either tighten or reframe as observed pattern.
+- E3. α²·42 recurrence as identification not derivation — explicit framing; let F3 falsifier carry the derivation claim.
+- E4. Define or cite Wallach shadow mechanism (F1) before deploying in falsifier.
+- E5. Two-route cross-validation framing (§3.2, §7.5) — temper "two independent BST factorizations" since both are I-tier.
+- E6. Cal citation in §7.5 — soften "confirmed the Millennium-problem proofs" to "verdicts captured in referee_objections_log.md."
+- E7. Tier labels on the three meta-claims in Conclusion (bulk-boundary, heavy-state migration, α²·42 recurrence) — at S-tier or I-tier currently, not D-tier.
+
+**Status:** CONDITIONAL on E1-E7. Target venues after edits: J. Phys. A, Physical Review D (as identification catalog). NOT Nature/Science scope.
+
+### #44 — Sarnak letter v3 — three edits before send (May 16)
+
+**Cal verdict (2026-05-16):** Sarnak letter v3 CONDITIONAL ~85% on three edits. Strengths: Hilbert polynomial anchor in first paragraph (Sarnak can verify P(1)=7, P(2)=27, P(3)=77 in 30 seconds — externally verifiable framing); honest Kim-Sarnak framing ("structural connection I would value your perspective on"); 1.5 pages, direct, pure number theory.
+
+**Three required edits**:
+- E1 (HIGH). Link specific paper for the Ramanujan-on-SO(5,2) proof. GitHub link to 5500-line working paper is not what senior mathematicians read. Link Paper #103 directly (as hosted PDF if needed).
+- E2 (MEDIUM). Hedge headline claim slightly — "All cuspidal automorphic representations of SO(5,2) are tempered" → "We establish that... by eliminating the 37 non-tempered Arthur parameter types via [link]." Invites verification rather than demanding belief.
+- E3 (LOW). Condense 49a1 section to one sentence — letter's main hook is three conjectures + Kim-Sarnak; 49a1 risks reading scattershot.
+
+**Status:** CONDITIONAL on E1+E2 (E3 cosmetic). High stakes (4th contact attempt; new hook is "I proved three of your conjectures" — must land defensibly).
+
+### #45 — Koide PRL v0.2 — one tier-label fix (May 16)
+
+**Cal verdict (2026-05-16):** Koide PRL v0.2 CONDITIONAL on tier-label correction. Frontmatter declares `tier: D` but §3.2 contains explicit "Epistemic note (tier I): the factorization rho(lambda) = rho_radial * rho_angular is a structural model... rigorous derivation... in progress." Load-bearing derivation step is I-tier; paper tier should match.
+
+**Required edit**: Frontmatter `tier: D` → `tier: I`. The Q = rank/N_c topological identification is correct as identification; the spectral-measure derivation of the radial/angular factorization is pending. Honest I-tier label is shippable to PRL; D-tier label is not.
+
+**Status:** CONDITIONAL on one-line fix.
+
+### #46 — Null-model conditional on T1924/T1926/T1928 + TOP-3 framing revision from Toy 2248 (May 16)
+
+**Null-model concern (Cal, 2026-05-16):** Three Lyra theorems from May 16 batch are I-tier identifications where the integer ring's flexibility raises coincidence-filter concerns: T1924 (5 cross-domain edges at t_cosmo=47), T1926 (212-candidate-ratio scan × 22 SM observables = 4664 trials; some sub-1% matches expected by chance), T1928 (Mathieu group orders + Monster 194 classes decompose in BST integers — wide search space). **All three need explicit null-model attachment (Bonferroni, permutation test, or coincidence-filter Z-statistic) before any external claim.** Internal use fine; external presentation needs the null.
+
+**TOP-3 framing revision (Cal self-correction, 2026-05-16):** Toy 2248 (Lyra/Elie, 45/45) explicitly states *"Locks 2-4 are CONSEQUENCES of D_IV⁵ selection, not independent filters. The ONLY genuinely independent physical filter is Lock 1: N_c ≥ 3 for color confinement."* This is the sharper claim my TOP-3 Section 8.2 should have made. Original framing was "eight independent mechanisms converge"; honest replacement is "one independent physical filter (Lock 1) plus algebraic consequences (Locks 2-4 = primality, structural identities for C_2)." Revising TOP-3 next session.
+
+**Status:** OPEN. Three null-model attachments owed for T1924/T1926/T1928 before external use. TOP-3 §8.2 revision owed by Cal next session.
+
 ---
 
 ## Open threads for next session

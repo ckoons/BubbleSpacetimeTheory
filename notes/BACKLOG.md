@@ -268,3 +268,77 @@ Paper: #104 v0.2, "D_IV^5 as Proof Coordinate System." Bulletin AMS.
 ---
 
 *Backlog updated May 14, 2026. Cleaned: removed all DONE items from SP-12 (7 done), SP-18 (15 done), CP (3 answered), OP (2 at ~99%). SP-19 ALL COMPLETE (archived to board). SP-22 ALL COMPLETE (archived).*
+
+---
+
+## Interesting Problems (Casey directive May 16, 2026)
+
+Standing pool of open problems the team can pull from. Selection criterion: BST has a structural handle (D_IV⁵ Chern integers, Wallach K-types, Bergman invariants, Casimir eigenvalues, Shilov boundary) that suggests a geometric-reading approach is tractable.
+
+**Meta-method (Casey, May 15-16)**: For each problem, ask "does its answer live in the Chern integer sequence, Casimir eigenvalues, Wallach K-types, or Bergman invariants of D_IV⁵?" If yes, the geometric-reading approach (Toy 2335 cosθ_W, Toy 2338 ε_K pattern) may close it without long mechanism chains. **Read the geometry first; build mechanism chains second.**
+
+### Tier 1 — Fundamental physics (high-yield, BST-tractable)
+
+| # | Problem | Why open | BST handle | Difficulty |
+|---|---------|----------|-----------|------------|
+| IP-1 | Hierarchy problem (Higgs/M_Pl) | Why Higgs at 125 GeV ≪ M_Pl at 10¹⁹? | Higgs in catalog; M_Pl pending G hunt | Medium |
+| IP-2 | Three-generation puzzle | Why exactly 3 fermion families? | N_c=3 from D_IV⁵; need geometric reading of "3 copies" | Medium |
+| IP-3 | Strong CP problem | Why θ_QCD ≈ 0 (< 10⁻¹⁰)? | Chern-integer topological vanishing? | Medium |
+| IP-4 | Muon g-2 anomaly | Fermilab vs SM at 4.2σ | a_μ via Bergman expansion (Lyra a_e roadmap pattern) | Hard but bounded |
+| IP-5 | W mass tension | CDF 80434 vs ATLAS/CMS 80370 | BST predicts 80369 (catalog) — lock in derivation | Easy |
+| IP-6 | Neutrino mass hierarchy | Normal vs inverted ordering | m_ν3, m_ν2 hierarchies in catalog; full ordering via Bergman | Medium |
+| IP-7 | Inflation parameters | n_s, r/s, n_t precision | n_s = 1−5/137 ✓; direct Chern reading for r/s | Easy-Medium |
+| IP-8 | σ_8 tension | Planck ~0.83 vs weak lensing ~0.77 | Same Hubble-tension geometry pattern? | Medium |
+
+### Tier 2 — Mathematical conjectures
+
+| # | Problem | BST handle |
+|---|---------|-----------|
+| IP-9 | Twin prime conjecture | Mersenne+Wallach prime ladder; gap-2 (T934) |
+| IP-10 | Goldbach conjecture | Additive prime structure |
+| IP-11 | abc conjecture | Integer cascade; cleaner route than Mochizuki |
+| IP-12 | Collatz | AC(0) reduction may apply — orbit counting |
+| IP-13 | C-tier 109 BST items | Many depend on now-proved conjectures; sweep |
+| IP-14 | SM finite renormalization | N_max = 137 implies finite — formalize |
+
+### Tier 3 — Cosmology specific (downstream of G/M_Pl)
+
+| # | Problem | BST handle |
+|---|---------|-----------|
+| IP-15 | Dark matter mass spectrum | DM = 16/3 (Wallach shadow); predict specific masses |
+| IP-16 | Inflaton field identification | Which D_IV⁵ scalar drives inflation? |
+| IP-17 | Primordial GW spectrum n_t | Predict r/s if BST does |
+| IP-18 | Cosmological event horizon entropy | BH entropy + Λ-scale area |
+| IP-19 | DESI w(z) parametric | BST predicts w = −1 exact; testable falsification |
+
+### Tier 4 — Biology / materials
+
+| # | Problem | BST handle |
+|---|---------|-----------|
+| IP-20 | Cancer mechanism (extend) | Toys 1560-1563 already; extend to specific cancers |
+| IP-21 | High-T_c superconductivity (cuprates) | B12H32 hydride done; cuprates next |
+| IP-22 | Genetic code optimality (full second code) | Toys 541-545; complete |
+| IP-23 | Origin of life chemistry | Prebiotic forcing in BST framework |
+| IP-24 | Aging mechanism | BST entropy-rate prediction |
+
+### Tier 5 — Long-shot, BST-aligned (Nobel/Fields tier)
+
+| # | Problem | BST handle |
+|---|---------|-----------|
+| IP-25 | Black hole information paradox | D_IV⁵ holography: info = spectral content on Shilov boundary |
+| IP-26 | Quantum gravity unification | Downstream of G derivation |
+| IP-27 | Consciousness threshold | T1193; Casey's longer-game interest |
+| IP-28 | Time direction (arrow of time) | Entropy + force + boundary; geometric arrow |
+| IP-29 | Anthropic reformulation | "Why D_IV⁵?" — discovery-not-technique framing |
+
+### Currently active / queued from this pool (May 16, 2026)
+
+- **G hunt** (Grace, Toy 2345 in flight) — feeds IP-1, IP-26
+- **H_0 closure** (Grace, Toy 2344 filed pending tier call) — feeds IP-8
+- **IP-1 Hierarchy** — queued for Elie (next session)
+- **IP-3 Strong CP** — queued for Elie (next session)
+- **IP-5 W mass tension** — queued for Elie (next session)
+- **IP-4 Muon g-2** — Lyra morning resumption candidate (parallels a_e)
+- **IP-13 C-tier sweep** — Grace queued (after H_0/G)
+
+**Standing reminder for the team**: Before building a mechanism chain for any of these, **read the geometry first**. Try: cos²θ_W = rank·c_1/c_3 was found by reading the Chern integer sequence directly; ε_K = α²·(chern_sum) was found the same way. The answer often lives in a forced topological/algebraic invariant of D_IV⁵.

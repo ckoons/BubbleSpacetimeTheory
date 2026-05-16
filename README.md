@@ -388,7 +388,7 @@ BST follows one logical chain: substrate → domain → constants → forces →
 
 **The Master Equation**: The universe is the ground state of the Bergman Laplacian on D_IV^5 = SO₀(5,2)/[SO(5)×SO(2)], subject to Haldane exclusion with capacity 137.
 
-Every derivation listed in the Solved Problems table below flows from this equation plus the five BST integers (3, 5, 7, 6, 137) — themselves derived, not chosen. Full derivations: WorkingPaper Section 1-37, plus 300+ research notes in `notes/`. The AC theorem graph spans 1651 nodes, 8672 edges across 55 tracked domains (83.1% strong edges, 98.1% proved, 100% domain connectivity).
+Every derivation listed in the Solved Problems table below flows from this equation plus the five BST integers (3, 5, 7, 6, 137) — themselves derived, not chosen. Full derivations: WorkingPaper Section 1-37, plus 300+ research notes in `notes/`. The AC theorem graph spans 1730 nodes, 9332 edges across 55+ tracked domains (~98% proved, 100% domain connectivity). T1-T2302, 2954+ toys, 112 papers, 4296 catalog entries (~85% D-tier) as of May 16, 2026.
 
 ---
 
@@ -482,7 +482,7 @@ Full proposal: `notes/BST_EconomicImpact_4040_20.md`. WorkingPaper Section 30.
 | `WorkingPaper.md` | Technical compendium — 46+ sections, all derivations, v35+ |
 | `LieAlgebraVerification.md` | Explicit numerical verification of SO(5)×SO(2) isotropy |
 | `DarkMatterCalculation.md` | Channel noise dark matter: 175 SPARC galaxies, zero free parameters |
-| `data/` | **CI-native data layer** — 144 constants, 103 predictions, 33 function families, 65+ domains, GF(128) catalog. See `data/README.md` |
+| `data/` | **CI-native data layer** — 185 constants, 111 predictions, 33 function families, 65+ domains, GF(128) catalog, 4296 geometric invariants. See `data/README.md` |
 | `notes/` | 104 numbered papers, 660+ research notes, theorem write-ups, proofs. See `notes/README.md` |
 | `play/` | 2181+ toys, AC theorem graph (1651 nodes, 8672 edges), HTML visualizers, BST Appliance. See `play/README.md` |
 

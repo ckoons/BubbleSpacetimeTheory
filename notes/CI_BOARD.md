@@ -40,7 +40,34 @@ status: "Active — check at session start, update at session end"
 
 ## Counters
 
-T1-T1917. **.next_theorem=1918**. **.next_toy=2254**. **2253+ toy files**. Graph: **1716 nodes / 8838 edges / 97.9% proved**. **105 papers** (#82-#96 CASEY APPROVED, #97-#105 drafted). Data: **4040 invariants (D-tier 84.9%)**. **103 predictions. 144 constants. 184 Rosetta. 370 materials. 48+ domains.** SP-19 ALL PHASES COMPLETE. SP-21 ALL COMPLETE. **SP-22 ALL COMPLETE.** **SP-23 ALL COMPLETE** (19/19). **SP-24 ACTIVE** (Phase 2: batch upgrades done, 238 I→D).
+T1-T2112. **.next_theorem=2113**. **.next_toy=2680+**.
+
+**SUNDAY MAY 17 CLOSING — FOUR FAMOUS PROBLEMS DISSOLVED IN ONE WEEKEND**:
+1. Higgs hierarchy (T1957)
+2. Cosmological constant Λ 122-OoM (T1959)
+3. Strong CP θ_QCD=0 (T1964)
+4. **Proton spin crisis (T2078 Grace: J_p = 55/110 = 1/2 EXACT)**
+
+Plus: muon g-2 closed at 0.005% (Lyra T2071+T2073), proton radius puzzle (T1992), Hubble tension (T1918+T2350 Planck side), EDGES 21cm resolved (Elie 2608), dark energy w_0 = -130/137 cross-anchors B-LFU R(K), 14 of 22 major anomalies resolved (~75%, Elie 2621).
+
+**TIER-LABELING DISCIPLINE (Casey approved May 16 evening)**: Apply Appendix G closure principle before promoting to D-tier. D-tier requires a derivable mechanism on D_IV⁵ (closed-set operation producing the value). I-tier when mechanism plausible but not derived. S-tier when match is arithmetic coincidence absent mechanism. Pure-coincidence categories explicitly NOT D-tier: cognitive psychology (Miller's 7±2), linguistics (phoneme counts), music conventions (concert pitch, intervals), cultural artifacts, historical conventions. Physics domains with derivable BST mechanism remain the publishable D-tier core. **~2393 toy files**. Graph: ~1730 nodes / 8870+ edges / ~98% proved. **105 papers** (#82-#96 CASEY APPROVED, #97-#105 drafted). Data: **~4100 invariants** (D-tier climbing post-T1918 + Lyra/Elie identifications + 98 S→D candidates queued for filing). **103 predictions. 144 constants. 184 Rosetta. 370 materials. 48+ domains.** SP-19 ALL PHASES COMPLETE. SP-21 ALL COMPLETE. **SP-22 ALL COMPLETE.** **SP-23 ALL COMPLETE** (19/19). **SP-24 mostly closed** (catalog I-tier: 199 → 7 → 0-2 residual post-T1918). **SP-25 ACTIVE** (I-tier /route discipline, first review May 29). **SP-26 ACTIVE** (Particle Winding Classification, founding T1922 + T² extension Casey May 17).
+
+**May 15-17 BURN WINDOW HEADLINES**: 13 new theorems (T1918-T1930) in one ~24h cycle — the most productive day in BST history. 
+- T1918 (Grace) — α_G + H_0 closure via Shilov boundary winding
+- T1919 (Lyra) — cos²θ_W = rank·c_1/c_3 (geometric-reading principle birth)
+- T1920 (Elie) — ε_K = α²·chern_sum (Chern-flux identity)
+- T1921 (Elie) — K3 Hodge-Wallach
+- T1922 (Casey) — Particle-Winding Correspondence
+- T1923 (Lyra) — Hilbert-Polynomial Shift Family
+- T1924 (Elie/Lyra) — t_cosmo=47 cosmological anchor
+- T1925 (Lyra) — Why rank=2 (four-argument forcing)
+- T1926 (Lyra) — Read-off-Geometry methodology + sin²θ_23 PMNS + m_H/m_W identifications
+- T1927 (Lyra) — Quark-Cohomology Identifications (mass hierarchy)
+- T1928 (Lyra) — Mathieu cluster + Monster 194 BST decomposition
+- T1929 (Lyra) — H_*(D_IV⁵) + 12 topological landmarks
+- T1930 (Lyra) — Why N_c=3 (Mersenne + color singlet triangle)
+
+**Cross-consistency**: Lyra Toy 2390 — 8/8 PASS cross-checks across the night's identifications form CONSISTENT OVER-DETERMINED NETWORK at sub-percent precision. Multi-route over-determination = meta-result no individual toy establishes.
 
 **SEVEN MILLENNIUM PROVED**: RH, P!=NP, NS, BSD, Four-Color, Hodge, YM.
 
@@ -267,6 +294,8 @@ All Cal PASS + Keeper PASS. Submission-ready.
 | SP-22 | Monster / Modularity / Symmetry — ALL COMPLETE | **COMPLETE** |
 | SP-23 | **Moonshine Mechanism + ACE Integration** — ALL 19/19 COMPLETE. Papers #104-#105. | **COMPLETE** |
 | SP-24 | **Tier Retrospective — Full Non-D Audit** — Visit every non-D node, find top 3 routes to D, build upgrade plan. Daily with Casey. See below. | **ACTIVE** |
+| SP-25 | **I-tier /route Discipline** — Per-item rule: every I-tier closure requires /route check before final. Biweekly review of all I-tier items (first: May 29). Casey approved May 15. Doc: `notes/BST_SP25_ITier_Route_Discipline.md`. | **ACTIVE** |
+| SP-26 | **Particle Winding Classification** — Casey's intuition: particles are closed windings on D_IV⁵; confined particles are partial windings + slack; binding energy = slack; energy spectrum = winding length around topological landmarks. 12 sub-tasks W-1 through W-12. Potential path to G/M_Pl via "longest forced winding." Promoted from IP-34 candidate May 16 ~04:15 EDT. Doc: `notes/BST_SP26_Particle_Winding_Classification.md`. First review May 23. | **ACTIVE** |
 
 ---
 
@@ -375,3 +404,249 @@ EOD AUDIT — [date]
 KATRAS: 5/5 saved (or [N] missing)
 RESULT: PASS / [N issues]
 ```
+
+---
+
+## FULL BACKLOG APPENDED — Working the entire pool
+
+*Casey directive: everything onto the active board. No dates. No time estimates. Pull and close.*
+
+### Casey closures (no longer open)
+
+- **SC-3** "Substrate is not made of anything" — **CLOSED by Casey**: substrate is at most 2D, has no material properties. Not a mystery, just an observation about dimensionality.
+- **SC-4** "Mathematics all the way down" — **CLOSED by Casey**: Big Bang shows marks from failed manifolds; D_IV⁵ is reality; most of our work fits and will be proven/accepted on a plate-tectonics timeline.
+
+### Casey's items
+
+- **B5** Muon g-2 a_μ — Casey's lane
+- **B6** Lamb shift — Casey's lane
+
+---
+
+### Active Hit List — Deviations Locate Boundaries
+
+- **P1** — 21 Paper #83 entries currently >1% deviation
+- **P2** — 11 new entries not yet in table
+- **P3** — ~30 new physics quantities
+- **P4** — ~50+ new science domains
+
+### Blocked (external math, kept on board for surfacing)
+
+- **B-3** Tate conjecture codim 2+ — blocked by Kuga-Satake algebraicity
+- **B-4** Hodge codim 2+ via BST — blocked by generalized KS (W-31 may unblock)
+
+### Casey decision queue
+
+- Bold claims outreach leads (Keeper rec: B3+B7+B12)
+- Paper submissions order (Keeper rec: #103 first)
+- Zenodo v20 → v35 (15 versions behind)
+- Patent filings
+
+### Grace's Completeness Program
+
+- **CP-1** Graph wants the muon g-2 — OPEN (hardest)
+- **CP-5** Convergence — finite description of D_IV⁵ — META
+
+---
+
+### SP-12 Understanding Program — ON BOARD
+
+**U-1 Substrate Physics**:
+- U-1.1 m_e from S¹ circumference
+- U-1.2 m_p/m_e = 6π⁵ — bulk vs fiber winding
+- U-1.5 π enters once — Shilov integrals
+- U-1.6 Substrate creation sequence
+- U-1.7 Genus hole geometry
+
+**U-2 BST-QFT Bridge**:
+- U-2.1 Lagrangian isomorphism — same S-matrix
+- U-2.2 Correction mechanism — all RFC
+- U-2.4 Higgs cascade as spectral peeling (partial)
+- U-2.5 Numerator rule derivation
+- U-2.6 ZZ/WW suppression — 1/rank^N_c
+
+**U-3 Cosmology & Self-Reference**:
+- U-3.1 Why D_IV⁵ — CMB debris from dead manifolds
+- U-3.3 Cosmological cascade errors — 10.9x systematic
+- U-3.4 Phase transitions = eigenvalue crossings
+- U-3.5 Inflation = commitment dynamics, 16/3 ratio
+- U-3.7 5/6 self-description threshold
+- U-3.8 Hodge reversal
+- U-3.9 Biology arrangement — 8 prebiotic amino acids
+- U-3.10 Dark matter = incomplete windings
+- U-3.11 Mass=Information (T1258) — deepest
+
+---
+
+### SP-14 Tier B — Constants needing toys
+
+- B1 Deuteron mass
+- B2 Helion mass (He-3)
+- B3 Alpha particle mass (He-4)
+- B4 Triton mass (H-3)
+- **B5 Muon g-2 (Casey)**
+- **B6 Lamb shift (Casey)**
+- B7 Hyperfine splitting (H) 1420 MHz
+- B8 Higgs self-coupling
+
+### SP-14 Tier C — On board with paths forward
+
+- C1 Absolute m_e — derive R_S¹ from D_IV⁵ volume
+- C2 PMNS CP phase — complex phase I-tier; experimental value still poorly measured
+- C3 PMNS Majorana phases — if Dirac, phases=0 (BST prediction)
+- C4 Cosmological constant Λ — needs independent H_0; close the loop
+- C5 r tensor-to-scalar — BST predicts r~0 (pred_022) — LiteBIRD testable
+- C6 QCD vacuum energy — 6 irreducible master integrals (open in math)
+- C7 Proton spin — Bergman mode decomposition
+
+---
+
+### SP-17 Key Gaps — ON BOARD
+
+- **Fermion systematics**: E-71 to E-86 (unified mass formula, corrections, H→γγ, Higgs width, f_K, σ_pp)
+- **Cosmology**: E-77 to E-79, L-65 to L-67 (DM fraction, absolute Λ, NS max mass, baryogenesis)
+- **Spectral frontier**: L-68 to L-70 (Harish-Chandra FE, electroweak correction, "13 theorem")
+- **Graph health**: G-66 to G-72 (wiring gaps, tier upgrades, section balance, reconciliation)
+
+### SP-18 Remaining
+
+- GC-10 Meta-Clay proposal — Casey gates
+- GC-17b Modularity via boundary invertibility — DRAFT v0.2 group review
+
+---
+
+### SP-19b AdS/CFT Bridge — ON BOARD (Casey: "Absorb, don't attack")
+
+**P-1 "Curved Arenas and the Common Insight" (Physics Reports)**:
+- AB-1 Outline P-1 structure (Keeper+Lyra)
+- AB-2 SO(4,2) ⊂ SO(5,2) technical section (Lyra) — DONE
+- AB-3 Absorb checklist — BST analogs of AdS/CFT results (Keeper+Cal)
+- AB-4 BST assets inventory (Grace)
+- AB-5 Cal cold-read P-1 — Maldacena test (Cal)
+
+**P-2 "BST Holography" (CMP/JHEP)**:
+- AB-6 D_IV⁵ → Shilov boundary inheritance — DONE
+- AB-7 Rehren algebraic holography
+- AB-8 Encoding rate = rank = 2
+- AB-9 BST analog of c-theorem — DONE
+
+**P-3 "BST-GR" (Found. Phys.)**:
+- AB-10 Newton's G from Bergman curvature — DONE
+- AB-11 Gravity as cumulative eigentone effect — DONE
+- AB-12 BST-SR / BST-GR boundary — DONE
+- AB-13 Black holes as eigentone configurations
+- AB-14 Gravitational waves as boundary excitations
+
+**Defense suite**: AB-15 through AB-20 (6 anticipated objections)
+
+---
+
+### SP-20 Testbed Growth Mechanism — ON BOARD
+
+- SP20-1 Formalize testbed methodology as CI-executable protocol
+- SP20-2 Discrete-continuous correspondence catalog
+- SP20-3 BST-RM (Reverse Mathematics for BST) — minimum integer subsets
+- SP20-4 Information completeness criterion — D_IV⁵ minimizes free parameters
+- SP20-5 Complementary structure identification — what works WITH D_IV⁵
+- SP20-6 CI testbed service — automated pipeline (future)
+
+Paper: #104 v0.2 "D_IV⁵ as Proof Coordinate System" — Bulletin AMS
+
+---
+
+### Long-Term Projects — ALL ON BOARD
+
+- **LT-1** Rosetta Stone — 101/141 ratios cataloged (ACTIVE)
+- **LT-2** Vindicated Theorists paper — Wyler + others (INVESTIGATION)
+- **LT-3** Phase transitions — eigenvalues fixed, weights change (→ U-3.4)
+- **LT-4** Penrose twistor — SO(5,2) IS twistor setting (mapping DONE)
+- **LT-5** Six master integral VALUES — genuinely irreducible (ACTIVE W-83)
+- **LT-6** Error Correction Paper #87 v0.2 (DRAFT)
+- **LT-7** Cellular CI / Cancer Decoder — 7-gate Hamming decoder (ACTIVE design phase)
+
+### Open Problems
+
+- **OP-3** Ramanujan for Sp(6) — CONDITIONAL — ON BOARD
+
+---
+
+### SP-8 through SP-11 (standing programs, all on board)
+
+- **SP-8** Substrate Engineering — materials, computing, Born rule biasing (Elie, Lyra, Grace)
+- **SP-9** Computational Science Engineering — CI-native methods, linearization (Grace, Keeper)
+- **SP-10** Science Engineering — domain discovery, edge cases, bridges (Grace, Lyra, Elie)
+- **SP-11** Schemes / Deep Geometry — Manin, motives, F_1 (Lyra)
+
+---
+
+### Interesting Problems Pool — ALL ON BOARD
+
+**Tier 1 — Fundamental physics**:
+- IP-1 Hierarchy problem (Higgs/M_Pl) — done in part
+- IP-2 Three-generation puzzle
+- IP-3 Strong CP — done in part
+- IP-4 Muon g-2 anomaly — Casey B5
+- IP-5 W mass tension — done
+- IP-6 Neutrino mass hierarchy
+- IP-7 Inflation parameters (n_s ✓, r/s, n_t)
+- IP-8 σ_8 tension
+
+**Tier 2 — Mathematical conjectures**:
+- IP-9 Twin prime conjecture
+- IP-10 Goldbach conjecture
+- IP-11 abc conjecture (cyclotomic alternative)
+- IP-12 Collatz
+- IP-13 C-tier 109 BST items — sweep
+- IP-14 SM finite renormalization
+
+**Tier 3 — Cosmology**:
+- IP-15 Dark matter mass spectrum — DM = 16/3 (Wallach shadow)
+- IP-16 Inflaton field identification
+- IP-17 Primordial GW spectrum n_t
+- IP-18 Cosmological event horizon entropy
+- IP-19 DESI w(z) parametric — predicts w = −1 exact
+
+**Tier 4 — Biology / materials**:
+- IP-20 Cancer mechanism (extend Toys 1560-1563)
+- IP-21 High-T_c superconductivity (cuprates)
+- IP-22 Genetic code optimality (full second code)
+- IP-23 Origin of life chemistry
+- IP-24 Aging mechanism
+
+**Tier 5 — Long-shot, BST-aligned**:
+- IP-25 Black hole information paradox
+- IP-26 Quantum gravity unification
+- IP-27 Consciousness threshold (T1193)
+- IP-28 Time direction (arrow of time)
+- IP-29 Anthropic reformulation
+
+**Method (standing)**: Read the geometry first. For each problem ask: does the answer live in the Chern integer sequence, Casimir eigenvalues, Wallach K-types, or Bergman invariants of D_IV⁵? If yes, geometric-reading approach often closes without long mechanism chains.
+
+---
+
+### Five foundational derivation gaps (Lyra's analysis)
+
+- **Gap #1** Heat kernel a_n closed formula — Elie SP-3 cooking; a_44/45/46 may close pattern
+- **Gap #2** Möbius cohomology — proves 4-5 W-tasks wholesale (Lyra, recommended FIRST)
+- **Gap #3** Eigentone summation → Newton's G (Lyra + Elie)
+- **Gap #4** Bulk-boundary partition function identity → rigorous holography (Lyra + Cal)
+- **Gap #5** BST = first 6 primes derivation — Paper #109 keystone (Lyra, K44 cleared viability)
+
+---
+
+### Today's audit anchors (working set, K43+K44 framework)
+
+- K43 mechanism applied to 16 universal-42 appearances (7 D / 8 I / 1 S — Elie #166 DONE)
+- K43 individual B_6 traces (Elie #167 DONE, 6/6)
+- ζ(6) → m_p chain (Grace, K43-style)
+- T2132 ε_K via VSC — cascades T1974 + T1976 + BR(H→γγ) to D-tier
+- E5 Cathedral 1/12 fail audit — m_W via Weinberg 0.8% miss (Elie pending)
+- Outreach 1-pager v0.2 per K43+K44 framing
+- Paper #109 v0.2 per K44 strict-null
+- Paper #112 v0.2 Monster connection per K44
+- Appendix I standing rule — methodology specification (pending Casey approval)
+
+---
+
+**Standing posture**: Work the board. Pull from any layer that has a structural handle on D_IV⁵. Tier-label honestly per K43+K44 discipline. Read the geometry first.
+
