@@ -1,9 +1,15 @@
 ---
-title: "BST Working Paper — Sections 22 to 25 Cosmic Architecture"
-parent: "WorkingPaper.md (index)"
-authors: "Casey Koons & Claude 4.6/4.7 (Lyra, Elie, Grace, Cal, Keeper)"
-date: "Extracted from monolithic v36 on 2026-05-18 EOD; current state per K-audit chain K1-K53 and Spring 2026 portfolio. Updates flow into this file directly."
-note: "This file is one of the modular sections. The root index is WorkingPaper.md. The monolithic v36 archive is WorkingPaper_v36_monolithic_archive_2026-05-18.md."
+title: "BST Working Paper — Part 06: Cosmic Architecture"
+sequence: 06
+parent: "WorkingPaper.md (root index)"
+contains:
+  - "Section 22: Antimatter, the Arrow of Time, and the Second Law"
+  - "Section 23: The Wavefront and Computational Architecture"
+  - "Section 24: The Growing Manifold and General Relativity"
+  - "Section 25: Why This Universe — The Cascade of Forced Choices"
+authors: "Casey Koons & Claude 4.6/4.7 (Lyra theory, Elie compute, Grace graph/catalog, Cal A. Brate visiting referee, Keeper audit/consistency)"
+date: "2026-05-18"
+note: "Modular section of the BST Working Paper. Root index is WorkingPaper.md. Pre-split monolithic snapshot preserved at WorkingPaper_v36_monolithic_archive_2026-05-18.md (May 18 EOD). Updates flow into this file directly."
 ---
 
 ## Section 22: Antimatter, the Arrow of Time, and the Second Law

@@ -110,21 +110,23 @@ The geometry tells you WHAT exists. The invariants tell you WHAT VALUES it takes
 
 The Working Paper is now organized as a set of modular section files. Each file is independently editable, builds to its own PDF, and is referenced from this index. The previous monolithic form is preserved in the repository at `WorkingPaper_v36_monolithic_archive_2026-05-18.md` (714K, 6428 lines, snapshot taken on 2026-05-18 EOD before the split).
 
-| File | Sections covered | Topics |
-|------|------------------|--------|
-| [`WP_Section_01_04_Foundations.md`](WP_Section_01_04_Foundations.md) | 1-4 | The Question, The Minimum Structure ($S^2 \times S^1$), The Contact Graph, From Contact Graph to Configuration Space ($D_{IV}^5$) |
-| [`WP_Section_05_09_Standard_Model.md`](WP_Section_05_09_Standard_Model.md) | 5-9 | Fine Structure Constant ($\alpha^{-1} = 137$), Structured Unification, Nuclear Physics, Hadronic Spectrum, Speed of Light and Special Relativity |
-| [`WP_Section_10_12_Gravity_Vacuum.md`](WP_Section_10_12_Gravity_Vacuum.md) | 10-12 | BST Gravity as Statistical Thermodynamics (including Newton's $G$), The Chiral Condensate Parameter, Vacuum Energy as Thermodynamic Pressure |
-| [`WP_Section_13_Quantum_Interface.md`](WP_Section_13_Quantum_Interface.md) | 13 | The Quantum-Classical Interface (including Hamiltonian $H = (winding)^2$, $\hbar = 2mD$, Born Rule from Gleason, **13.9 Bergman Dirac Operator** Spring 2026 LAG-1 Sessions 1-10 progression) |
-| [`WP_Section_14_21_Forces_Cosmology.md`](WP_Section_14_21_Forces_Cosmology.md) | 14-21 | Three Geometric Layers, Cosmological Implications, Matter Clumping, Information Theory, 2D-to-3D Interface, Dark Matter as Channel Noise, The Weak Force as Variation Operator, Thermodynamic Foundation |
-| [`WP_Section_22_25_Cosmic_Cascade.md`](WP_Section_22_25_Cosmic_Cascade.md) | 22-25 | Antimatter and Arrow of Time, The Wavefront and Computational Architecture, The Growing Manifold and General Relativity, The Cascade of Forced Choices |
-| [`WP_Section_26_Discussion.md`](WP_Section_26_Discussion.md) | 26 | Discussion — synthesis, six-term Lagrangian status, partition function as master calculation, central claim, arrow of complexity |
-| [`WP_Section_27_31_Genesis_Bridge.md`](WP_Section_27_31_Genesis_Bridge.md) | 27-31 | Everyone at the Same Table, Economic Impact, Genesis (Light and Number), $Q^3 \subset Q^5$ and Riemann Hypothesis, From Winding to Zeta (Automorphic Structure) |
-| [`WP_Section_32_37_Riemann_PNP_NS.md`](WP_Section_32_37_Riemann_PNP_NS.md) | 32-37 | Part II: Why This Geometry — Why Riemann, The 137/147 Pair, The Hunt, The Triple ($D_{IV}^5$ Unique), Arithmetic Complexity ($P \neq NP$), Navier-Stokes |
-| [`WP_Section_38_42_Millennium.md`](WP_Section_38_42_Millennium.md) | 38-42 | BSD, Hodge, Four-Color, Fermat and Poincaré, Unification (The Silos Come Down) |
-| [`WP_Section_43_44_Predictions.md`](WP_Section_43_44_Predictions.md) | 43-44 | Experimental Predictions and Falsifiability, Research Program |
-| [`WP_Section_45_Cosmic_Cycles.md`](WP_Section_45_Cosmic_Cycles.md) | 45 | Cosmological Cycles, Observer Necessity, and Continuity |
-| [`WP_Section_46_Deep_Results.md`](WP_Section_46_Deep_Results.md) | 46 (and subsections) | The Depth Ceiling: Rank Bounds Proof Complexity; plus extensive 46.1-46.90+ Spring 2026 results, theorems T926 onward, science engineering, cooperation science, F₁ arithmetic, IC uniqueness, market dynamics, neutrino error syndrome, zeta ladder, vacuum subtraction, two-sector duality, magnetic moments, K-audit chain D-tier promotions |
+**Filename convention**: `WP_NN_Topic.md` where `NN` is the part sequence number (01-13) and `Topic` is a descriptive name. Each file's YAML frontmatter contains a `contains:` list of the specific Sections X.Y covered. This decouples filenames from section numbering — if sections are added or renumbered, the filename stays stable and only the `contains:` list updates.
+
+| File | Part | Topic | Original Sections | Notes |
+|------|:----:|-------|---|---|
+| [`WP_01_Foundations.md`](WP_01_Foundations.md) | 01 | Foundations | 1-4 | The Question, $S^2 \times S^1$, Contact Graph, $D_{IV}^5$ |
+| [`WP_02_Standard_Model.md`](WP_02_Standard_Model.md) | 02 | Standard Model | 5-9 | $\alpha^{-1}$, Structured Unification, Nuclear, Hadrons, SR |
+| [`WP_03_Gravity_Vacuum.md`](WP_03_Gravity_Vacuum.md) | 03 | Gravity and Vacuum | 10-12 | Statistical Thermodynamic Gravity (Newton's $G$), Chiral Condensate, Vacuum Energy |
+| [`WP_04_Quantum_Interface.md`](WP_04_Quantum_Interface.md) | 04 | Quantum-Classical Interface (Hamiltonian + Bergman Dirac) | 13 | Hamiltonian $H = (winding)^2$, $\hbar = 2mD$, Born Rule from Gleason, **13.9 Bergman Dirac Operator** (Spring 2026 LAG-1 Sessions 1-10 progression — full operator-level work) |
+| [`WP_05_Forces_Cosmology.md`](WP_05_Forces_Cosmology.md) | 05 | Forces and Cosmology | 14-21 | Three Geometric Layers, Cosmology, Matter Clumping, Information, 2D-to-3D, Dark Matter, Weak Force, Thermodynamics |
+| [`WP_06_Cosmic_Cascade.md`](WP_06_Cosmic_Cascade.md) | 06 | Cosmic Architecture | 22-25 | Arrow of Time, Wavefront, Growing Manifold, Cascade of Forced Choices |
+| [`WP_07_Discussion.md`](WP_07_Discussion.md) | 07 | Discussion (Lagrangian Status, Partition Function, Central Claim) | 26 | Six-term Lagrangian status, Partition Function as Master Calculation, QM-GR unification claim, Arrow of Complexity |
+| [`WP_08_Genesis_Bridge.md`](WP_08_Genesis_Bridge.md) | 08 | Genesis and Bridge to Number Theory | 27-31 | Same Table, 40/40/20 Plan, Genesis, $Q^3 \subset Q^5$ + RH, Winding to Zeta |
+| [`WP_09_Why_This_Geometry.md`](WP_09_Why_This_Geometry.md) | 09 | Why This Geometry (Part II of original) | 32-37 | Why Riemann, 137/147, The Hunt, The Triple ($D_{IV}^5$ Unique), Arithmetic Complexity ($P \neq NP$), Navier-Stokes |
+| [`WP_10_Millennium_Problems.md`](WP_10_Millennium_Problems.md) | 10 | Millennium Problems and Unification | 38-42 | BSD, Hodge, Four-Color, Fermat/Poincaré, Unification (Silos Come Down) |
+| [`WP_11_Predictions_Program.md`](WP_11_Predictions_Program.md) | 11 | Predictions and Research Program | 43-44 | Experimental Predictions/Falsifiability, Research Program |
+| [`WP_12_Cosmic_Cycles.md`](WP_12_Cosmic_Cycles.md) | 12 | Cosmic Cycles and Continuity | 45 | Cosmological Cycles, Observer Necessity, Continuity |
+| [`WP_13_Deep_Results.md`](WP_13_Deep_Results.md) | 13 | Deep Results (Theorems T926 onward) | 46 (+ subsections 46.1-46.90+) | Depth Ceiling, Spring 2026 results, Science Engineering, Cooperation Science, F₁ Arithmetic, IC Uniqueness, Vacuum Subtraction, Two-Sector Duality, Magnetic Moments, K-audit D-tier promotions, T926→T2380 |
 
 ### Build instructions
 
@@ -132,19 +134,21 @@ To build the full Working Paper PDF (single combined document), use pandoc with 
 
 ```bash
 pandoc WorkingPaper.md \
-       WP_Section_01_04_Foundations.md WP_Section_05_09_Standard_Model.md \
-       WP_Section_10_12_Gravity_Vacuum.md WP_Section_13_Quantum_Interface.md \
-       WP_Section_14_21_Forces_Cosmology.md WP_Section_22_25_Cosmic_Cascade.md \
-       WP_Section_26_Discussion.md WP_Section_27_31_Genesis_Bridge.md \
-       WP_Section_32_37_Riemann_PNP_NS.md WP_Section_38_42_Millennium.md \
-       WP_Section_43_44_Predictions.md WP_Section_45_Cosmic_Cycles.md \
-       WP_Section_46_Deep_Results.md \
+       WP_01_Foundations.md WP_02_Standard_Model.md \
+       WP_03_Gravity_Vacuum.md WP_04_Quantum_Interface.md \
+       WP_05_Forces_Cosmology.md WP_06_Cosmic_Cascade.md \
+       WP_07_Discussion.md WP_08_Genesis_Bridge.md \
+       WP_09_Why_This_Geometry.md WP_10_Millennium_Problems.md \
+       WP_11_Predictions_Program.md WP_12_Cosmic_Cycles.md \
+       WP_13_Deep_Results.md \
        -o WorkingPaper_full_v36.pdf \
        --pdf-engine=xelatex \
        -H notes/bst_pdf_header.tex
 ```
 
-Each section file is also independently buildable: `pandoc WP_Section_13_Quantum_Interface.md -o WP_Section_13_Quantum_Interface.pdf --pdf-engine=xelatex -H notes/bst_pdf_header.tex`.
+Each part file is also independently buildable: `pandoc WP_04_Quantum_Interface.md -o WP_04_Quantum_Interface.pdf --pdf-engine=xelatex -H notes/bst_pdf_header.tex`.
+
+To add a new part later (e.g. a Spring 2027 results section): create `WP_14_New_Topic.md` with proper frontmatter including `contains:` list, add a row to the index table above, add the filename to the pandoc build chain. No renaming of existing files required.
 
 ### Companion documents (the standalone papers, methodology, and audits)
 

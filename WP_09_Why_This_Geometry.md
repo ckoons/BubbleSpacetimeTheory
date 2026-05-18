@@ -1,9 +1,18 @@
 ---
-title: "BST Working Paper — Sections 32 to 37 Why Riemann PnotNP NS"
-parent: "WorkingPaper.md (index)"
-authors: "Casey Koons & Claude 4.6/4.7 (Lyra, Elie, Grace, Cal, Keeper)"
-date: "Extracted from monolithic v36 on 2026-05-18 EOD; current state per K-audit chain K1-K53 and Spring 2026 portfolio. Updates flow into this file directly."
-note: "This file is one of the modular sections. The root index is WorkingPaper.md. The monolithic v36 archive is WorkingPaper_v36_monolithic_archive_2026-05-18.md."
+title: "BST Working Paper — Part 09: Why This Geometry (Part II of original — Riemann, P≠NP, Navier-Stokes)"
+sequence: 09
+parent: "WorkingPaper.md (root index)"
+contains:
+  - "Part II marker: 'Why This Geometry'"
+  - "Section 32: Why Riemann — The Causal Chain Inverted"
+  - "Section 33: The 137/147 Pair"
+  - "Section 34: The Hunt — From Winding to Kill Shot"
+  - "Section 35: The Triple — Why D_IV⁵ Is Unique"
+  - "Section 36: Arithmetic Complexity — Method Noise and the P ≠ NP Bridge"
+  - "Section 37: Navier-Stokes — The Flow Forward Stops"
+authors: "Casey Koons & Claude 4.6/4.7 (Lyra theory, Elie compute, Grace graph/catalog, Cal A. Brate visiting referee, Keeper audit/consistency)"
+date: "2026-05-18"
+note: "Modular section of the BST Working Paper. Root index is WorkingPaper.md. Pre-split monolithic snapshot preserved at WorkingPaper_v36_monolithic_archive_2026-05-18.md (May 18 EOD). Updates flow into this file directly."
 ---
 
 # Part II: Why This Geometry

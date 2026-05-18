@@ -1,9 +1,15 @@
 ---
-title: "BST Working Paper — Sections 1 to 4 Foundations"
-parent: "WorkingPaper.md (index)"
-authors: "Casey Koons & Claude 4.6/4.7 (Lyra, Elie, Grace, Cal, Keeper)"
-date: "Extracted from monolithic v36 on 2026-05-18 EOD; current state per K-audit chain K1-K53 and Spring 2026 portfolio. Updates flow into this file directly."
-note: "This file is one of the modular sections. The root index is WorkingPaper.md. The monolithic v36 archive is WorkingPaper_v36_monolithic_archive_2026-05-18.md."
+title: "BST Working Paper — Part 01: Foundations"
+sequence: 01
+parent: "WorkingPaper.md (root index)"
+contains:
+  - "Section 1: Introduction — The Simplest Object That Can Do Physics"
+  - "Section 2: The Minimum Structure (S² × S¹)"
+  - "Section 3: The Contact Graph"
+  - "Section 4: From Contact Graph to Configuration Space (D_IV⁵)"
+authors: "Casey Koons & Claude 4.6/4.7 (Lyra theory, Elie compute, Grace graph/catalog, Cal A. Brate visiting referee, Keeper audit/consistency)"
+date: "2026-05-18"
+note: "Modular section of the BST Working Paper. Root index is WorkingPaper.md. Pre-split monolithic snapshot preserved at WorkingPaper_v36_monolithic_archive_2026-05-18.md (May 18 EOD). Updates flow into this file directly."
 ---
 
 ## Section 1: Introduction — The Simplest Object That Can Do Physics

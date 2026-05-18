@@ -1,9 +1,16 @@
 ---
-title: "BST Working Paper — Section 13 Quantum Classical Interface incl Bergman Dirac"
-parent: "WorkingPaper.md (index)"
-authors: "Casey Koons & Claude 4.6/4.7 (Lyra, Elie, Grace, Cal, Keeper)"
-date: "Extracted from monolithic v36 on 2026-05-18 EOD; current state per K-audit chain K1-K53 and Spring 2026 portfolio. Updates flow into this file directly."
-note: "This file is one of the modular sections. The root index is WorkingPaper.md. The monolithic v36 archive is WorkingPaper_v36_monolithic_archive_2026-05-18.md."
+title: "BST Working Paper — Part 04: Quantum-Classical Interface (Hamiltonian + Bergman Dirac)"
+sequence: 04
+parent: "WorkingPaper.md (root index)"
+contains:
+  - "Section 13: The Quantum-Classical Interface"
+  - "Section 13.1-13.4: Substrate vs projection, measurement problem dissolved"
+  - "Section 13.5-13.7: Hilbert space from S¹ fiber, Born rule from Gleason, unitary evolution"
+  - "Section 13.8: ℏ = 2mD (Planck's constant as substrate diffusion coefficient)"
+  - "Section 13.9: The Bergman Dirac Operator on D_IV⁵ (Spring 2026 LAG-1 Sessions 1-10 progression — full operator-level work)"
+authors: "Casey Koons & Claude 4.6/4.7 (Lyra theory, Elie compute, Grace graph/catalog, Cal A. Brate visiting referee, Keeper audit/consistency)"
+date: "2026-05-18"
+note: "Modular section of the BST Working Paper. Root index is WorkingPaper.md. Pre-split monolithic snapshot preserved at WorkingPaper_v36_monolithic_archive_2026-05-18.md (May 18 EOD). Updates flow into this file directly."
 ---
 
 ## Section 13: The Quantum-Classical Interface

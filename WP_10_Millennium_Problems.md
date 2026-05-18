@@ -1,9 +1,16 @@
 ---
-title: "BST Working Paper — Sections 38 to 42 Millennium and Unification"
-parent: "WorkingPaper.md (index)"
-authors: "Casey Koons & Claude 4.6/4.7 (Lyra, Elie, Grace, Cal, Keeper)"
-date: "Extracted from monolithic v36 on 2026-05-18 EOD; current state per K-audit chain K1-K53 and Spring 2026 portfolio. Updates flow into this file directly."
-note: "This file is one of the modular sections. The root index is WorkingPaper.md. The monolithic v36 archive is WorkingPaper_v36_monolithic_archive_2026-05-18.md."
+title: "BST Working Paper — Part 10: Millennium Problems and Unification"
+sequence: 10
+parent: "WorkingPaper.md (root index)"
+contains:
+  - "Section 38: BSD — Rank Is a Spectral Count"
+  - "Section 39: Hodge — Ring Uniqueness and Theta Correspondence"
+  - "Section 40: Four-Color — The Methodology Test"
+  - "Section 41: Two Solved Problems — Fermat and Poincaré"
+  - "Section 42: Unification — The Silos Come Down"
+authors: "Casey Koons & Claude 4.6/4.7 (Lyra theory, Elie compute, Grace graph/catalog, Cal A. Brate visiting referee, Keeper audit/consistency)"
+date: "2026-05-18"
+note: "Modular section of the BST Working Paper. Root index is WorkingPaper.md. Pre-split monolithic snapshot preserved at WorkingPaper_v36_monolithic_archive_2026-05-18.md (May 18 EOD). Updates flow into this file directly."
 ---
 
 ## 38. BSD: Rank Is a Spectral Count
