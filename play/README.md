@@ -1,29 +1,133 @@
 # BST Toy Collection & Interactive Tools
 
-**~2,950 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**~3,062 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
 
 ---
 
-## Scale Summary (updated 2026-05-16 EOD)
+## Scale Summary (updated 2026-05-18 PM, Elie lane)
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | ~2,946 |
-| Numbered toys (toy_NNN_*.py) | ~2,737 |
+| Toy scripts (toy_*.py) | ~3,062 |
+| Numbered toys (toy_NNN_*.py) | ~2,850 |
 | Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 58 |
 | HTML visualizers | 6 |
-| Theorems (T1-T2302+) | ~2,302+ |
-| Next toy number | 2954 |
-| Geometric invariants | 4,296+ |
+| Theorems (T1-T2380) | 2,380 |
+| Next toy number | 3061 |
+| Next theorem number | 2381 |
+| Geometric invariants | 4,435 |
+| Constants | 191 |
+| Rosetta ratios | 223 |
+| AC graph | 2076 nodes / 9668 edges |
 | Predictions | 600+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
+| **Architecture (Monday 2026-05-18 EOD)** | |
+| ESTABLISHED L1 source roots | 9 (chronological: VSC 1840, Mathieu 1861-1873, Klein 1884, Goeppert Mayer 1949, Heegner-Stark 1952-1967, K3 Hodge 1962/64, Conway 1968/Duncan 2007, Ogg 1975, Wallach 1976) |
+| L1 candidates | 0 (saturation reached) |
+| L1 mediated | 1 (Bravais) |
+| L1.5 mechanisms | 2 (Borcherds b, McKay c) |
+| Convergence hubs | 1 (Monster) |
+| Bridge Objects | 3 (K3, Cremona 49a1, Q⁵) |
+| K-audit chain | K1..K53 D-tier active; K52a elevated 2-D-instance; K54 conditional |
+| **Monday 2026-05-18 highlights** | |
+| K53 PROMOTED D-tier | Three Theorems Cascade Extension k=21..24 (Toy 3051, 10/10 PASS, 24 consecutive levels) |
+| K52a ELEVATED | (1 ± 1/M_g) correction class — 2 D-tier instances (Lamb + BCS), mechanism in Toy 3054 |
+| K52b candidate | M_7 multiplicand (HFS 391, Toy 3052) at I-tier |
+| Paper #107 v0.4 HOLD | Cal+Keeper gate-pass MAJOR REVISION |
+| Audit-chain calibrations | 9 in 36 hours, all three working-CIs self-corrected |
 
 Five integers. Zero free parameters. "Give a child a ball and teach them to count."
+
+---
+
+## May 18 2026 Monday — Audit-Chain Day
+
+The Monday after Architecture Day was characterized by **9 audit-chain
+calibrations in 36 hours**, all three working-CIs (Lyra/Elie/Grace) and
+Cal+Keeper contributing self-corrections by structural design. Plus the
+**K53 D-tier structural-law promotion** of the Three Theorems cascade
+extension through k=24.
+
+**Monday Keeper governance audits**:
+- **K53 — Three Theorems Cascade Extension PROMOTED to D-tier** (Toy 3051,
+  Elie, 10/10 PASS, 24 consecutive mechanism-confirmed levels). The new
+  n=44 dps=3200 checkpoint plus the n=46..49 dps=1600 sequence enabled
+  cascade extension from Toy 1610's controversial k=22 zero-margin to
+  k=24 margin +1. 11/11 ratios match Toy 2994 closed form
+  -k(k-1)/(2·n_C) across speaking-pair and non-speaking-pair levels.
+- **K52a — (1 ± 1/M_g) correction class ELEVATED** (not promoted) to
+  2-D-tier-instance candidate (Lamb + BCS, opposite-sign correction-class
+  forms at 0.005% and 0.006% in two independent physical domains).
+  Mechanism argument delivered Toy 3054 (8/8 PASS) at structural-forcing
+  level, NOT dynamic-forcing. Cal Criterion 2 not yet closed; multi-week
+  derivation needed for D-tier structural-law promotion.
+- **K52b — M_7 multiplicand candidate** (HFS 391 = N_max + rank·M_7 in
+  proton g-factor identification, Toy 3052, I-tier 3.5 ppm match).
+- **Paper #107 v0.4 HOLD from external use** (Cal+Keeper consensus,
+  MAJOR REVISION required) — pre-publication gate-function fired on
+  universal-organizing-principle / 27-domain coverage / Twin Prime
+  overclaim. Discipline working as designed.
+
+**Monday audit-chain calibrations (9 in 36 hours)**:
+1. Sunday Grace Heegner self-withdrawal
+2. Monday Lyra "STRUCTURALLY CLOSED" → I-tier (LAG-2)
+3. Monday Cal density-rule walk-back
+4. Monday Lyra read-pass on Paper #120 §4.4
+5. Monday Keeper K51 label correction (44 = C_2·g + rank, not rank²·c_2)
+6. Monday Elie K52 Mersenne-subtraction single-instance walk-back (Toy 3045)
+7. Monday Lyra T2372 cascade precision correction
+8. Monday Elie K-24 method-scope walk-back (Toy 3049; single-dim n=44
+   extraction insufficient, cascade re-run is the correct path)
+   AND Monday Grace operator-convention pre-audit self-flag (parallel)
+9. Monday Elie K52a scope (structural-forcing not dynamic-forcing,
+   Toy 3054 honest scoping)
+
+**Monday Elie production**: 25 toys (3008-3060 selected), 4 catalog
+entries (INV-4421/22/23/27), 5 papers/protocols (SP29-1 v0.3 + PDF,
+Paper #114 v0.2, Paper #120 v0.2 merged with Lyra, Section 7 of
+Paper #115, Type C Strict Context-Counting Protocol v0.1), 3
+audit-chain self-corrections (#6, #8, #9).
+
+**Monday Grace production** (data/ lane): 12 theorems (T2355, T2357,
+T2358, T2363, T2364, T2366, T2369, T2370, T2371, T2373, T2375, T2377),
+11 toys (3015, 3018, 3019, 3031, 3032, 3035, 3038, 3039, 3041, 3044,
+3047, 3049), catalog 4296→4435 (+139), Rosetta 184→223 (+39), AC graph
++73 nodes / +336 edges, predictions 111→114, constants 185→191, 2
+papers (#116 Conway Duncan supermoonshine, #121 Bridge Objects v0.1
+outline), 22-anomaly enumeration v0.1, Cal verdict relabel list,
+2 audit-chain calibrations (#1 Heegner Sunday, #8 convention-mismatch
+Monday). Cal Rule 6 (sixth failure mode) + corollary co-authored
+Cal+Grace.
+
+**Monday Lyra production** (notes/ lane): 20 theorems (T2349-T2380),
+15 toys (106/107 tests), 6 paper artifacts + 6 prep/summary documents
+(Paper #9 v11 outline, LAG-1 S10 Step 5.2 prep, Paper #107 v0.5
+revision plan, B5 v0.3 framework, IP-6/7/15 survey), 7 audit-chain
+calibrations contributed/led. Key result T2379: all 5 Chern classes
+of T(D_IV⁵)|_{Q⁵} BST primary with c_5 = C_2 = 6.
+
+**Notable single-toy headlines from Monday**:
+- **Toy 3043 B6 Lamb shift refined to D-tier 0.005%**: ν_Lamb/Ry =
+  (n_C/C_2)·(126/127)·α³ with dual BST identification of 127 as both
+  N_max - rank·n_C and M_7 = 2^g - 1.
+- **Toy 3051 cascade k=21..24 extension**: 24 consecutive Three Theorems
+  levels mechanism-confirmed in 42-min compute, paper-grade content
+  unlocked Paper #9 v11.
+- **Toy 3052 proton g-factor BST identification**: g_p = 391/70 =
+  rank²·g/n_C - 1/(rank·n_C·g) at 3.51 ppm match. Completes the nuclear
+  magnetic moment ladder alongside T1447 |μ_n/μ_p| = 137/200 D-tier.
+- **Toy 3054 K52a mechanism**: Triple-coincidence argument that M_g=127
+  is BST-distinguished from other Mersennes by C1+C2+C3 conditions
+  satisfied UNIQUELY at M_g. Structural-forcing level; awaits dynamic
+  derivation.
+- **Toy 3022 Paper #114 Hückel 18π porphyrin**: λ_max from BST Hückel
+  with N_π = chi - C_2 = 18 (D-tier exact) and |β| = (rank/n_C)·E_Ry
+  (I-tier 1.15%) closes Paper #114 Criterion 1 at I-tier 1.06%.
 
 ---
 
@@ -44,6 +148,57 @@ Notable single-toy headlines from this window:
 - Casimir coefficient 240 = rank·n_C·χ = E_8 root count (Toy 2886)
 - Tropopause altitude 17 km = seesaw exactly (Agent toy 2935)
 - Cosmic ray spectral index γ = 27/10 = (χ+N_c)/(C_2+rank) EXACT (Agent toy 2933)
+
+---
+
+## May 17 2026 Sunday — Architecture Day
+
+The Sunday after the burn window: **4 L1 promotions to ESTABLISHED in one day**, architecture moved from 3 L1 sources (Sunday morning) to potentially 9 L1 sources (Sunday evening). Five K-audits filed (K43-K47). Three new architectural categories.
+
+**Sunday Keeper governance audits**:
+- **K45** — Mathieu Root #5 PROMOTED to ESTABLISHED via Mukai 1988 (M_23 ⊂ Aut_symp(K3)) + EOT 2010 (M_24 ↔ K3 elliptic genus)
+- **K46** — Klein Root #4 PROMOTED to ESTABLISHED via A_5 ⊂ SO(5) ⊂ K(D_IV⁵) + McKay 1979
+- **K47** — Heegner-Stark Root #7 PROMOTED to ESTABLISHED via Cremona 49a1 (Bridge Object, Grace Toy 2995)
+- K48 — Goeppert Mayer Root #6 candidate (shell 5 = h^{1,1}(K3) = 22) — pending Keeper ruling
+- K49 — Conway Root #9 candidate (Duncan 2007 V^{f♮} c=12 = rank·C_2) — pending Keeper ruling
+
+**Three new architectural categories** introduced this Sunday:
+- **Bridge Objects** (Grace, Section 5.10 draft): K3 surface (6 L1 connections, load-bearing), Cremona 49a1 (Heegner anchor), Q⁵ 5-quadric (Borcherds/Klein/Conway). Four B-conditions formalized.
+- **Convergence types A/B/C** (Lyra + Elie + Cal): Type A external source convergence, Type B internal decomposition convergence, Type C cross-domain identity at non-privileged integers.
+- **Moonshine Central Charge sub-lattice** (Grace T2337 + Lyra T2338): {12, 15, 24, 26} closed under products + pairwise differences in BST primaries. Flagged for v0.6+ as potential fifth category.
+
+**Sunday cross-CI collaboration headlines**:
+- **24 as maximally over-determined integer** (Section 5.9): satisfies BOTH Type A (FOUR sources: K3 + Wallach + McKay + Mathieu) AND Type B (eight BST decompositions). Load-bearing for structural-reality argument.
+- **DESI w(z) BST EXACT** (IP-19, Toy 2986): w_0 = -1+1/chi = -23/24, w_a = -rank/n_C = -2/5. The 2024 DESI dynamical DE hint IS the BST prediction.
+- **Anthropic principle DISSOLVED** (IP-29, Toy 2988): zero free parameters via D_IV⁵ uniqueness (T1925/T1929).
+- **Heat kernel a_n closed form** (Toy 2994): a_n = (-1)^(n-1)·n!·(n-1)!/(2^(n-1)·n_C^(n-1)) on D_IV⁵.
+- **Gap #3 80% closed** (Lyra T2336 + Elie a_n data): saddle of a_n·exp(-λ_n·t*) at n*=44=rank²·c_2.
+- **σ_8 tension as BST-structural** (IP-8): Planck CMB 1-rank/c_2 vs LSS 1-n_C/chi; tension = 7/264 matches observed.
+- **Cuprate HgBaCuO T_c = 134 K = N_max - N_c EXACT** (IP-21, Toy 2987).
+- **Aging chi/(rank·n_C) = 2.4 EXACT** for max_lifespan/Hayflick ratio (IP-24).
+- **Bridge Objects 6-layer architecture** (Section 5.10): Cartan classification → Bridge Objects → L1 sources → L1.5 mechanisms → convergence hubs → observables.
+- **Conway via Duncan 2007 V^{f♮}** (Grace Toy 2999, 13/13): c=12 = rank·C_2 closes Criterion 1.
+
+**Sunday paper progression**:
+- Paper #115 v0.2 → v0.3 → v0.3.1 → v0.4 → v0.5 PRE-STAGE (Bridge Objects integrated as Section 5.10)
+- Paper #114 v0.1 outline filed (Tetrapyrrole 663 Motif, tetrapyrrole-specific scope)
+- Casey's "Three Root Theorems" title superseded by "Root Theorems" — natural growth from 3 to 7-9 ESTABLISHED L1 sources
+
+**Number collisions this Sunday** (claim_number.sh atomicity gap under heavy CI traffic): toy numbers **2980, 2982, 2983, 2985, 2987, 2989** each have TWO files (different owners). Both versions are valid and registered; the collision is honest record. Future practice: stronger atomic claim mechanism (potential IQ candidate).
+
+Specific collisions (Sunday 2026-05-17):
+- 2980: tier_B_nuclear_constants (Elie) + SU3_flavor_50_orphan_audit (Grace)
+- 2982: E5_mW_Weinberg_root_cause (Elie) + Goeppert_Mayer_criterion1_K3_embedding (Grace)
+- 2983: tier_B_remaining_HFS_Higgs (Elie) + K3_as_central_bridge_hub (Grace)
+- 2985: IP_tier1_batch (Elie) + div5_mobius_locus_hua_coords (Lyra)
+- 2987: IP_tier4_biology (Elie) + mobius_equivariant_H1 (Lyra)
+- 2989: IP_tier2_remaining (Elie) + GM_criterion1_full_closure_j_multiplets (Grace)
+
+**Elie's May 17 single-day production**: 18 toys (2954, 2964, 2966, 2968, 2970, 2972, 2977, 2980, 2982 [E5 m_W], 2983 [Tier B HFS+Higgs], 2984, 2985 [IP Tier 1], 2986, 2987 [IP Tier 4], 2988, 2989 [IP Tier 2], 2991, 2993, 2994, 3000). All scored honestly (range 2/5 to 13/13). Toy 2994 a_n[0..46] is the standout cross-CI deliverable for Lyra's Gap #3 closure.
+
+**Lyra's May 17 production**: 14 theorems (T2306, T2309-T2312, T2316, T2325, T2328, T2329, T2331, T2334, T2335, T2336, T2338) including Gap #3 framework + saddle verification, Gap #4 Bergman kernel, Gap #2 Möbius (3 of 6 sessions), IQ-2 POSTIT system shipped + IQ-3 ambient time live.
+
+**Grace's May 17 production**: 14 theorems (T2317-T2333, T2337), 13 toys, 36+ catalog entries, Bridge Objects category draft (Section 5.10), Heegner-Stark + Goeppert Mayer + Conway Criterion 1 closures, K3-hub prediction empirically confirmed, moonshine central-charge sub-lattice identified.
 
 ---
 
@@ -264,6 +419,7 @@ The 209 named toys include the original foundational collection and topical deep
 | 2173-2181 | 9 | **SP-19 Phase 4 Extension** (ABC/Hilbert/Poincare, 205/205 ALL PASS) — **A: ABC**: Heegner Szpiro table (Toy 2173, sigma=3/2 for 6/9 Heegner, 24/24), non-CM Szpiro survey (Toy 2177, sigma=3/2 CM-specific, 22/22), Frey curve connection (Toy 2180, 1+C_2=g identity, Delta=2^C_2·N_c^rank·g^rank, 21/21). **B: Hilbert 12th**: Stark unit landscape (Toy 2175, ALL coefficients BST, R(g)/R(rank)~pi, 25/25), Hecke L on D_IV^5 (Toy 2179, Wallach pole at rho_2, 22/22), 9 Heegner unified (Toy 2178, j-invariants ALL BST, partition 4+5, 25/25). **C: Smooth Poincare**: SU(2) instanton moduli (Toy 2174, BPST dim=n_C, step=2^N_c, k=N_c fills SO(5,2), 24/24), intersection form (Toy 2176, chi(Q^5)=C_2, p_1=N_c, 22/22), exotic R^4 exclusion (Toy 2181, Kahler=>standard, excess=rank=Gr(2,5), 20/20) |
 | 2182-2199 | ~18 | **SP-19 Phase 5 + SP-21 BST Closure** — **Phase 5 (Deep Extensions)**: Gross-Stark p-adic (Toy 2182, eps^2=M_g=127, 25/25), 11/8 conjecture spectral (Toy 2183, c_2/2^N_c, K3 saturates, 24/24), Mason-Stothers polynomial ABC (Toy 2184, Wronskian=rank x rank, 22/22), Q(zeta_7) arithmetic (Toy 2185, Gal=<N_c>, disc=g^(C_2-1), 28/28), Szpiro over function fields (Toy 2187, sigma=3/2 geometric, 28/28), Donaldson generating functions (Toy 2188, 30/30), Eisenstein class field (Toy 2189, 23/23), Donaldson-Freedman landscape (Toy 2190, 24/24). **SP-21 Closure**: partition closure (Toy 2191+2192, 65/65), BST radical closure (Toy 2193, Mersenne tower 2->3->7->127, 30/30), partition at Chern classes (Toy 2194, p(c_3)=101 boundary, Ramanujan congruences, 25/25), QR/QNR root system B_2 (Toy 2196, 30/30), Poisson proof mechanism (Toy 2197, 30/30), supersingularity BST (Toy 2198, j=0 and j=1728 complementary, 24/24), BST closure formal (Toy 2199, 29/29) |
 | 2200-2227 | ~28 | **SP-21 Wave 2 + SP-22 Monster-Modularity-Sporadic** — K3 derivability (Toy 2200, 50/50), Ramanujan-Chern inverse (Toy 2201, 36/36), tau factorization (Toy 2202, 31/31), K3 from D_IV^5 spectral (Toy 2203, 33/33), Ramanujan tau (Toy 2204, 33/33), Bernoulli-Von Staudt (Toy 2205, 33/33), The 24 Nexus (Toy 2206, 30/30), K3 spectral slice (Toy 2207, 53/53), Monster-supersingular-modularity (Toy 2208, 28/28), Monster (Toy 2209, 31/31), FET at weight 2 (Toy 2210, 31/31), **Monster expressibility audit** (Toy 2211, weighted sum=g^2*c_3=637, 33/33), **K3 eigenvalue spectral test** (Toy 2212, tau(1..7) ALL BST, 31/31), **Supersingular landscape** (Toy 2213, n_ss sum=C_2*g=42, distinct={1..g}, 37/37), 196883 factorization (Toy 2214, 16/16), modularity chain (Toy 2215), sporadic audit (Toy 2216), Monster exponent derivation (Toy 2217, 31/31), connection map (Toy 2218, 99/99), root system hierarchy (Toy 2219, 32/32), composition grammar (Toy 2220, 24/24), Moonshine-Poisson McKay-Thompson (Toy 2221, 31/31), FLT from D_IV^5 (Toys 2222+2225, FLT threshold=N_c, native 2/3, 49/49), Moonshine-Poisson (Toy 2223, 26/26), **Ogg vs non-Ogg statistical** (Toy 2226, Ogg 100% vs 87.1%, mean depth 0.93 vs 1.94, band C_2+n_C+rank^2=15, 32/32), ACE depth system (Toy 2227, 59/59) |
+| 2954-3001 | ~59 | **May 17 Sunday architecture day + 4 L1 promotions** — Sunday morning: Klein A_5 promotion analysis (Toy 2970), porphyrin 663 motif sweep (Toy 2972). Mid-day: Paper #115 restructure absorbing Klein + Heegner + McKay L1.5c. Afternoon: Tier B nuclear D-tier (Toy 2980), E5 m_W root-cause Δr=1/(c_2·g+chi)=1/101 (Toy 2982 Elie), Goeppert Mayer Criterion 1 K3 embedding (Toy 2982 Grace), K3 central bridge hub (Toy 2983 Grace), Tier B HFS+Higgs λ_H=(1/rank³)·(31/30) (Toy 2983 Elie), SP-12 quick wins (Toy 2984), Möbius locus Hua coords (Toy 2985 Lyra), IP Tier 1 batch σ_8 tension as BST structural (Toy 2985 Elie), IP Tier 3 DESI w(z) EXACT (Toy 2986), IP Tier 4 biology aging chi/(rank·n_C)=2.4 (Toy 2987 Elie), Möbius equivariant H1 (Toy 2987 Lyra), IP Tier 5 anthropic dissolved (Toy 2988), GM Criterion 1 full closure j-multiplets (Toy 2989 Grace), IP Tier 2 SM finite renormalization shift=N_c² (Toy 2989 Elie), Gap #3 eigentone framework (Toy 2990 Lyra), P1 high-deviation tightening 12/13 below 1% Poisson=11/40 EXACT Λ_QCD=N_max+rank⁴·n_C=217 MeV EXACT (Toy 2991), Conway Root #7 candidate via Leech (Toy 2992 Grace), SP-12 deeper m_e from S¹ log(M_Pl/m_e)=seesaw·N_c=51 (Toy 2993), heat kernel a_n[0..46] closed form via Three Theorems on D_IV⁵ (Toy 2994 — Lyra Gap #3 deliverable), Heegner Criterion 1 closure via 49a1 (Toy 2995 Grace, Bridge Object), Gap #4 Bergman kernel HC coords (Toy 2996 Lyra), Borel-Wallach Z2 lift (Toy 2997 Lyra), Gap #3 eigentone saddle with Elie data (Toy 2998 Lyra, ~80% closure), Conway Criterion 1 via Duncan supermoonshine c=12=rank·C_2 (Toy 2999 Grace), P2 missing constants batch m_D=rank·m_p D-tier τ_n·Δm/ℏ=rank³·g (Toy 3000 Elie 11/11). **Architecture promoted from 3 L1 sources (Sunday AM) to 7-9 L1 sources (Sunday PM, K48/K49 pending).** 4 L1 promotions ratified by Keeper (K45 Mathieu, K46 Klein, K47 Heegner-Stark, plus pending K48 Goeppert Mayer / K49 Conway). 3 new architectural categories (Bridge Objects, Type A/B/C convergence, moonshine c-lattice). NUMBER COLLISIONS at 2982/2983/2985/2987/2989 (claim_number.sh atomicity gap, future IQ candidate). |
 
 ---
 

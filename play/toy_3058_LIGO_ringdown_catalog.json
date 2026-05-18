@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "date": "2026-05-18",
+    "owner": "Elie",
+    "task": "SP-27 Track 1: LIGO/Virgo ringdown public data catalog",
+    "bst_prediction": "omega_R*M = N_c/rank^3 = 3/8 (Toy 3008)"
+  },
+  "events_count": 14,
+  "catalog": [
+    {
+      "event": "GW150914",
+      "M_f_Msun": 62.3,
+      "f_22_Hz": 251.5,
+      "omega_R_M": 0.4849035304290839,
+      "bst_prediction": 0.375,
+      "delta_pct": 29.307608114422376,
+      "reference": "LVC PRL 116, 061102; TGR 1903.04467"
+    },
+    {
+      "event": "GW151226",
+      "M_f_Msun": 20.5,
+      "f_22_Hz": 790.0,
+      "omega_R_M": 0.5011990768262984,
+      "bst_prediction": 0.375,
+      "delta_pct": 33.65308715367957,
+      "reference": "LVC GWTC-1; ringdown extrapolated"
+    },
+    {
+      "event": "GW170104",
+      "M_f_Msun": 48.7,
+      "f_22_Hz": 331.0,
+      "omega_R_M": 0.4988687100164793,
+      "bst_prediction": 0.375,
+      "delta_pct": 33.031656004394485,
+      "reference": "GWTC-1 1811.12907"
+    },
+    {
+      "event": "GW170608",
+      "M_f_Msun": 17.8,
+      "f_22_Hz": 925.0,
+      "omega_R_M": 0.5095549737539365,
+      "bst_prediction": 0.375,
+      "delta_pct": 35.88132633438308,
+      "reference": "GWTC-1"
+    },
+    {
+      "event": "GW170814",
+      "M_f_Msun": 53.2,
+      "f_22_Hz": 307.0,
+      "omega_R_M": 0.5054512999294744,
+      "bst_prediction": 0.375,
+      "delta_pct": 34.7870133145265,
+      "reference": "GWTC-1"
+    },
+    {
+      "event": "GW170809",
+      "M_f_Msun": 56.4,
+      "f_22_Hz": 290.0,
+      "omega_R_M": 0.5061816672164826,
+      "bst_prediction": 0.375,
+      "delta_pct": 34.98177792439537,
+      "reference": "GWTC-1"
+    },
+    {
+      "event": "GW170818",
+      "M_f_Msun": 59.4,
+      "f_22_Hz": 274.0,
+      "omega_R_M": 0.5036934667980304,
+      "bst_prediction": 0.375,
+      "delta_pct": 34.318257812808106,
+      "reference": "GWTC-1"
+    },
+    {
+      "event": "GW190521",
+      "M_f_Msun": 142.0,
+      "f_22_Hz": 108.0,
+      "omega_R_M": 0.4746149454898494,
+      "bst_prediction": 0.375,
+      "delta_pct": 26.56398546395984,
+      "reference": "LVC PRL 125, 101102; 2009.01075"
+    },
+    {
+      "event": "GW190426_152155",
+      "M_f_Msun": 4.6,
+      "f_22_Hz": 3500.0,
+      "omega_R_M": 0.4982590390184256,
+      "bst_prediction": 0.375,
+      "delta_pct": 32.869077071580165,
+      "reference": "GWTC-2; mass uncertain"
+    },
+    {
+      "event": "GW190602_175927",
+      "M_f_Msun": 100.0,
+      "f_22_Hz": 150.0,
+      "omega_R_M": 0.4642164959798997,
+      "bst_prediction": 0.375,
+      "delta_pct": 23.791065594639928,
+      "reference": "GWTC-2.1"
+    },
+    {
+      "event": "GW190706_222641",
+      "M_f_Msun": 67.0,
+      "f_22_Hz": 235.0,
+      "omega_R_M": 0.4872725819469014,
+      "bst_prediction": 0.375,
+      "delta_pct": 29.939355185840366,
+      "reference": "GWTC-2.1"
+    },
+    {
+      "event": "GW190910_112807",
+      "M_f_Msun": 71.0,
+      "f_22_Hz": 220.0,
+      "omega_R_M": 0.4834041111470689,
+      "bst_prediction": 0.375,
+      "delta_pct": 28.907762972551705,
+      "reference": "GWTC-2.1"
+    },
+    {
+      "event": "GW200129_065458",
+      "M_f_Msun": 60.0,
+      "f_22_Hz": 263.0,
+      "omega_R_M": 0.4883557537708545,
+      "bst_prediction": 0.375,
+      "delta_pct": 30.2282010055612,
+      "reference": "GWTC-3"
+    },
+    {
+      "event": "GW200224_222234",
+      "M_f_Msun": 67.0,
+      "f_22_Hz": 235.0,
+      "omega_R_M": 0.4872725819469014,
+      "bst_prediction": 0.375,
+      "delta_pct": 29.939355185840366,
+      "reference": "GWTC-3"
+    }
+  ],
+  "statistics": {
+    "mean_delta_pct": 31.299966367041645,
+    "median_delta_pct": 32.869077071580165,
+    "mean_clean_pct": 31.299966367041645,
+    "n_clean": 14
+  }
+}

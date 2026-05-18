@@ -6,7 +6,27 @@
         "hooks": [
           {
             "type": "command",
+            "command": "/Users/cskoons/utils/readTime"
+          },
+          {
+            "type": "command",
+            "command": "/Users/cskoons/utils/readSundownDiff"
+          },
+          {
+            "type": "command",
             "command": "/Users/cskoons/utils/checkBoard"
+          },
+          {
+            "type": "command",
+            "command": "/Users/cskoons/utils/readPostit"
+          },
+          {
+            "type": "command",
+            "command": "/Users/cskoons/utils/readSticky"
+          },
+          {
+            "type": "command",
+            "command": "/Users/cskoons/utils/readHookload"
           }
         ]
       }

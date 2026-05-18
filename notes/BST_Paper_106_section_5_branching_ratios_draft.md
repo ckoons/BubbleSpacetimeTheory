@@ -170,7 +170,7 @@ The empirical content of the recurrence is *cross-checkable*. ε_K is measured a
 
 matching the FNAL world average at sub-percent precision.
 
-**Fourth observable: the top-to-bottom quark mass ratio.** Lyra's analysis extends the same integer to a fourth observable not previously connected to ε_K or H → γγ: the heaviest two SM quarks satisfy
+**Fourth observable: the top-to-bottom quark mass ratio.** (Tier S Type C per Cal verdict 2026-05-18 Task #22: m_top/m_bottom = 42 has no explicit C_2·g BST primary mechanism, only Type C cross-domain recurrence; structural, not derivation. Authorized for paper-text relabel by Keeper governance 2026-05-18 PM.) Lyra's analysis extends the same integer to a fourth observable not previously connected to ε_K or H → γγ: the heaviest two SM quarks satisfy
 
 m_top / m_bottom ≈ 42
 
@@ -184,8 +184,8 @@ The integer 42 = C_2 · g now appears in **five independent observables** at the
 |------------|--------|-----------|----------|---|
 | ε_K | Kaon CP violation (ΔS=2) | α²·42 | (PDG) | 0.43% |
 | BR(H → γγ) | Higgs precision (Higgs → 2γ) | α²·42 | (PDG) | 1.3% |
-| Δa_μ | Muon g-2 anomaly (loop magnetic moment) | α²·42·factor | (FNAL) | <1% |
-| m_top/m_bottom | Yukawa heavy-quark mass ratio | 42 | (PDG) | ~2% |
+| Δa_μ | Muon g-2 anomaly (loop magnetic moment) | α²·42·factor | (FNAL) | <1% (Tier I per Cal #23) |
+| m_top/m_bottom | Yukawa heavy-quark mass ratio | 42 | (PDG) | ~2% (Tier S per Cal #22 Type C) |
 | Catalan C_5 | Pure combinatorics | 42 | (exact) | 0% |
 
 Five independent observables — four in particle physics across four different sectors (flavor CP, Higgs precision, lepton magnetic moment, heavy-quark Yukawa), one in pure combinatorics — all share the integer 42. The α²·42 recurrence is a **third structural pattern of BST**, alongside the bulk-boundary partition (Section 6) and the heavy-state migration (Section 3.7). Its geometric origin is the Chern-flux integer of Q⁵'s second cohomology class; its empirical signature is that any 2-loop observable that closes on this cohomology class will carry the same coefficient. Predictions for future falsification include rare B-meson decays through 2-photon vertices and certain electroweak penguin processes.

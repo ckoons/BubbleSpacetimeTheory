@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "date": "2026-05-18",
+    "owner": "Elie",
+    "task": "P1 correction hunt watchlist scan",
+    "discipline": "survey + suggest, NOT closure"
+  },
+  "watchlist_count": 119,
+  "watchlist": [
+    {
+      "id": "?",
+      "name": "Scalar amplitude",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "cosmology"
+    },
+    {
+      "id": "?",
+      "name": "Neutrino mass 2",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "?"
+    },
+    {
+      "id": "?",
+      "name": "Kaon charge radius",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "particle_physics"
+    },
+    {
+      "id": "?",
+      "name": "Density fluctuation amplitude",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "?"
+    },
+    {
+      "id": "?",
+      "name": "P/S wave velocity ratio",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "?"
+    },
+    {
+      "id": "?",
+      "name": "Weak coupling (at m_W)",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "particle_physics"
+    },
+    {
+      "id": "?",
+      "name": "P/S wave ratio (Poisson solid)",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "geophysics"
+    },
+    {
+      "id": "?",
+      "name": "Chandrasekhar mass value",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "astrophysics"
+    },
+    {
+      "id": "?",
+      "name": "Dark matter = geometric (no new particles)",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "cosmology"
+    },
+    {
+      "id": "?",
+      "name": "Diamond/Cu shear modulus ratio = DC = 11",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "condensed_matter"
+    },
+    {
+      "id": "?",
+      "name": "Chandrasekhar mass limit structure",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "particle_physics"
+    },
+    {
+      "id": "?",
+      "name": "CKM unitarity triangle area = J/2",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "particle_physics"
+    },
+    {
+      "id": "?",
+      "name": "Baryon-to-photon ratio",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "particle_physics"
+    },
+    {
+      "id": "?",
+      "name": "QCD transition / pion decay = n_C/N_c = Kolmogorov",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "particle_physics"
+    },
+    {
+      "id": "?",
+      "name": "Kaon lifetime ratio K+/pi+",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "particle_physics"
+    },
+    {
+      "id": "?",
+      "name": "CMB first acoustic peak l \u2248 220",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "cosmology"
+    },
+    {
+      "id": "?",
+      "name": "Wiedemann-Franz law: L = pi^2/(N_c*e^2) * k_B^2",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "condensed_matter"
+    },
+    {
+      "id": "?",
+      "name": "Radiation density Omega_r ~ 5e-5",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "cosmology"
+    },
+    {
+      "id": "?",
+      "name": "Photon-to-baryon ratio ~ 1.6e9",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "particle_physics"
+    },
+    {
+      "id": "?",
+      "name": "Nuclear force range \u2248 1/m_pi = 1.4 fm",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "nuclear_physics"
+    },
+    {
+      "id": "?",
+      "name": "Electron-phonon coupling constant lambda_ep",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "atomic_physics"
+    },
+    {
+      "id": "?",
+      "name": "Mercury perihelion: 43\"/century from GR",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "?"
+    },
+    {
+      "id": "?",
+      "name": "Strong force range \u2248 1 fm = hbar*c/m_pi",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "?"
+    },
+    {
+      "id": "?",
+      "name": "Graphene Dirac cone: linear dispersion E = hbar*v_F*k",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "condensed_matter"
+    },
+    {
+      "id": "?",
+      "name": "Chandrasekhar limit \u2248 1.44 M_sun",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "particle_physics"
+    },
+    {
+      "id": "?",
+      "name": "NS radius \u2248 12 km = rank*C_2 km",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "particle_physics"
+    },
+    {
+      "id": "?",
+      "name": "Nuclear binding curve shape from SEMF",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "nuclear_physics"
+    },
+    {
+      "id": "?",
+      "name": "Full CKM matrix from BST (all 9 elements)",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "particle_physics"
+    },
+    {
+      "id": "?",
+      "name": "Fermion mass ladder: all 9 masses from Bergman eigenvalue positions",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "particle_physics"
+    },
+    {
+      "id": "?",
+      "name": "Debye temperature Diamond = 2230 K",
+      "precision_pct": 1.0,
+      "tier": "D",
+      "domain": "condensed_matter"
+    }
+  ],
+  "candidates_by_class": {
+    "vacuum_subtraction (T1444)": 4,
+    "two_sector_duality (T1446)": 5,
+    "bridge_invariance (T1455)": 1,
+    "K52a_M_g (today)": 0,
+    "unknown / multi-week": 109
+  },
+  "top_5_predictions": [
+    {
+      "id": "?",
+      "name": "Scalar amplitude",
+      "precision_pct": 1.0,
+      "suggested_correction_class": "Pre-stage: try (1 \u00b1 small BST primary fraction) sub-leading correction"
+    },
+    {
+      "id": "?",
+      "name": "Neutrino mass 2",
+      "precision_pct": 1.0,
+      "suggested_correction_class": "Pre-stage: try (1 \u00b1 small BST primary fraction) sub-leading correction"
+    },
+    {
+      "id": "?",
+      "name": "Kaon charge radius",
+      "precision_pct": 1.0,
+      "suggested_correction_class": "Pre-stage: try (1 \u00b1 small BST primary fraction) sub-leading correction"
+    },
+    {
+      "id": "?",
+      "name": "Density fluctuation amplitude",
+      "precision_pct": 1.0,
+      "suggested_correction_class": "Pre-stage: try (1 \u00b1 small BST primary fraction) sub-leading correction"
+    },
+    {
+      "id": "?",
+      "name": "P/S wave velocity ratio",
+      "precision_pct": 1.0,
+      "suggested_correction_class": "Pre-stage: try (1 \u00b1 small BST primary fraction) sub-leading correction"
+    }
+  ]
+}

@@ -28,7 +28,7 @@
       "qed": 2,
       "uncategorized": 6
     },
-    "last_updated": "2026-05-16",
+    "last_updated": "2026-05-18",
     "source": "play/bst_appliance/knowledge_base.py + WorkingPaper.md Section 43",
     "eval_namespace": {
       "integers": {
@@ -79,7 +79,9 @@
       "tested",
       "verified"
     ],
-    "contributor_note": "Grace EOD May 16: added 13 high-precision constants from sprint."
+    "contributor_note": "Grace EOD May 16: added 13 high-precision constants from sprint.",
+    "eod_session": "2026-05-18 EOD",
+    "total_constants": 191
   },
   "constants": [
     {
@@ -1089,7 +1091,7 @@
       "theorem_id": "T700",
       "name": "H2O bond angle",
       "symbol": "theta_H2O",
-      "formula_latex": "\\theta_{H_2O} = \\arccos(-1/N_c) - n_C = 109.47\u00b0 - 5\u00b0",
+      "formula_latex": "\\theta_{H_2O} = \\arccos(-1/N_c) - n_C = 109.47° - 5°",
       "formula_display": "theta_H2O = arccos(-1/N_c) - n_C = arccos(-1/3) - 5 = 104.47 deg",
       "formula_code": "acos(-1.0/N_c) * 180/pi - n_C",
       "bst_value": 104.471,
@@ -1682,7 +1684,8 @@
       ],
       "source_toys": [],
       "status": "structural",
-      "ace": "(1,0)"
+      "ace": "(1,0)",
+      "notes": " [Cal verdict #19 applied 2026-05-18 Grace: PROVISIONAL D-tier with caveat. The rank²·ℏc/m_p form is structurally clean, but PRad-II/MUSE/JUDE convergence remains the empirical falsification gate. D-tier preserved per Cal but flagged as provisional pending experimental closure.]"
     },
     {
       "id": "const_046",
@@ -1894,7 +1897,7 @@
       "theorem_id": "T766",
       "name": "Rainbow angle",
       "symbol": "theta_rainbow",
-      "formula_latex": "\\theta_{\\text{rainbow}} = C_2 \\times g = 42\u00b0",
+      "formula_latex": "\\theta_{\\text{rainbow}} = C_2 \\times g = 42°",
       "formula_display": "theta_rainbow = C_2 * g = 42 degrees",
       "formula_code": "C_2 * g",
       "bst_value": 42.0,
@@ -2178,7 +2181,7 @@
         "N_max"
       ],
       "derivation_chain": [
-        "T408: Dunbar-N_max Isomorphism \u2014 cooperation breadth = N_max = 137",
+        "T408: Dunbar-N_max Isomorphism — cooperation breadth = N_max = 137",
         "T410: Dunbar hierarchy from five integers: 5, 15, 50, 137, 729, 1458",
         "Fourth level N_max = 137 is the Dunbar number (observed ~150, range 100-250)"
       ],
@@ -3316,7 +3319,7 @@
       "theorem_id": "T700",
       "name": "NH3 bond angle",
       "symbol": "theta_NH3",
-      "formula_latex": "\\theta_{\\rm NH_3} = \\theta_{\\rm tet} - T_1 \\Delta_1 = 107.807\u00b0",
+      "formula_latex": "\\theta_{\\rm NH_3} = \\theta_{\\rm tet} - T_1 \\Delta_1 = 107.807°",
       "formula_display": "theta_NH3 = arccos(-1/N_c) - (arccos(-1/N_c) - arccos(-1/2^rank))/N_c = 107.81 deg",
       "formula_code": "(acos(-1.0/N_c) - (acos(-1.0/N_c) - acos(-1.0/2**rank))/N_c) * 180/pi",
       "bst_value": 107.807,
@@ -3667,7 +3670,7 @@
         "Full LCDM integral: t_0 = (1/H_0) * int_0^inf dz/[(1+z)*sqrt(Omega_M*(1+z)^3 + Omega_Lambda)]",
         "BST inputs: Omega_Lambda = 13/19, H_0 = 67.29 km/s/Mpc",
         "t_0 = 13.78 Gyr vs Planck 13.797 Gyr (0.12%)",
-        "Note: matter-dominated approximation gives 13.6 Gyr (1.4%) \u2014 Toy 1182 corrected this"
+        "Note: matter-dominated approximation gives 13.6 Gyr (1.4%) — Toy 1182 corrected this"
       ],
       "mechanism": "Cosmic age from full LCDM integral with BST-derived parameters. 0.12% from Planck. Corrected from earlier 13.6 Gyr approximation.",
       "domain": "cosmology",
@@ -3794,7 +3797,7 @@
       "observed_value": 137,
       "precision": "exact",
       "source": "T1383",
-      "description": "N_max = 137 in binary IS the irreducible polynomial defining GF(128) over F\u2082",
+      "description": "N_max = 137 in binary IS the irreducible polynomial defining GF(128) over F₂",
       "id": "const_116",
       "tier": "S",
       "status": "structural",
@@ -3804,7 +3807,7 @@
       "name": "Frobenius orbit count",
       "symbol": "n_orbits",
       "value": 18,
-      "formula": "rank \u00d7 N_c\u00b2",
+      "formula": "rank × N_c²",
       "formula_code": "rank * N_c**2",
       "observed_value": 18,
       "precision": "exact",
@@ -3860,7 +3863,7 @@
       "name": "Transcendence gap",
       "symbol": "delta_trans",
       "value": 0.01339,
-      "formula": "28/137 - 3/(5\u03c0)",
+      "formula": "28/137 - 3/(5π)",
       "formula_code": "28/137 - 3/(5*pi)",
       "observed_value": null,
       "precision": "exact",
@@ -4640,7 +4643,7 @@
       "observed_value": 0.3,
       "precision": "exact",
       "unit": "dimensionless",
-      "notes": "K/G = 13/6 \u2192 nu = 3/10. Thirteen Theorem in elasticity.",
+      "notes": "K/G = 13/6 → nu = 3/10. Thirteen Theorem in elasticity.",
       "tier": "S",
       "status": "structural",
       "ace": "(1,0)"
@@ -4724,7 +4727,7 @@
       "observed_value": 3e-19,
       "precision": "0.46%",
       "unit": "GeV",
-      "notes": "Pure-BST closed form. m_\u03bc via T1948 (=N_c\u00b2\u00b723\u00b7m_e), v via T1969 (=c_2\u00b2\u00b7c_3\u00b7\u03c0^{n_C}\u00b7m_e), G_F=1/(\u221a2\u00b7v\u00b2). Adding standard \u03b4_QED=-1.81% gives \u03c4_\u03bc=2.207\u03bcs vs obs 2.197\u03bcs. Inherits I-tier from T1948 muon mass mechanism. T1995, Toy 2515.",
+      "notes": "Pure-BST closed form. m_μ via T1948 (=N_c²·23·m_e), v via T1969 (=c_2²·c_3·π^{n_C}·m_e), G_F=1/(√2·v²). Adding standard δ_QED=-1.81% gives τ_μ=2.207μs vs obs 2.197μs. Inherits I-tier from T1948 muon mass mechanism. T1995, Toy 2515.",
       "tier": "I",
       "status": "derived-pending-mass-mechanism",
       "ace": "(0,1)"
@@ -4738,7 +4741,7 @@
       "observed_value": 0.8414,
       "precision": "0.02%",
       "unit": "fm",
-      "notes": "r_p = rank\u00b2\u00b7\u210fc/m_p = 4\u00b7(reduced Compton wavelength of proton). BST sides with CREMA muonic hydrogen, deviates from old electronic-H by 4.2% \u2014 resolves the 2010-2018 proton radius puzzle. Falsifiable by future precision experiments (PRad-II, MUSE, JUDE all predicted to converge to 0.84122 fm). T1992, Toy 2512.",
+      "notes": "r_p = rank²·ℏc/m_p = 4·(reduced Compton wavelength of proton). BST sides with CREMA muonic hydrogen, deviates from old electronic-H by 4.2% — resolves the 2010-2018 proton radius puzzle. Falsifiable by future precision experiments (PRad-II, MUSE, JUDE all predicted to converge to 0.84122 fm). T1992, Toy 2512. [Cal verdict #19 applied 2026-05-18 Grace: PROVISIONAL D-tier with caveat. The rank²·ℏc/m_p form is structurally clean, but PRad-II/MUSE/JUDE convergence remains the empirical falsification gate. D-tier preserved per Cal but flagged as provisional pending experimental closure.]",
       "tier": "D",
       "status": "derived",
       "ace": "(0,1)"
@@ -4794,7 +4797,7 @@
       "observed_value": 4.18,
       "precision": "0.83%",
       "unit": "GeV",
-      "notes": "m_t/m_b = 42 = total Chern Q^5 (T1990). Fourth observable using the 42 recurrence. T2013, Toy 2539.",
+      "notes": "m_t/m_b = 42 = total Chern Q^5 (T1990). Fourth observable using the 42 recurrence. T2013, Toy 2539. [Cal verdict #18 applied 2026-05-18 Grace: BST primary form C_2·g (D-tier mechanism) drives this derivation. The standalone 'm_t/m_b=42 recurrence' framing without C_2·g specification stays S-tier Type C catalog. Current entry uses C_2·g form correctly — D-tier preserved per T1990 STRUCTURAL stands.]",
       "tier": "D",
       "status": "derived",
       "ace": "(0,1)"
@@ -5117,18 +5120,18 @@
       "bst_value": 137.0365,
       "observed_value": 137.035999084,
       "observed_source": "CODATA 2018",
-      "precision": "0.0004%",
+      "precision": "1.4% (correction term)",
       "unit": "",
       "tier": "I",
       "domain": "qed",
-      "notes": "Sub-0.0004% \u2014 one of tightest BST matches. Refines T1924 family with n_C/N_max running correction.",
+      "notes": "Sub-0.0004% — one of tightest BST matches. Refines T1924 family with n_C/N_max running correction. [Cal verdict #20 applied 2026-05-18 Grace: HONEST precision label. 0.0004% applies to FULL α⁻¹ value (137.0365 vs 137.036). The CORRECTION TERM precision is 1.4% — BST predicts correction n_C/N_max = 5/137 = 0.0365 vs observed 0.0360. The 137 baseline is exact by definition (N_max=137 is a BST integer). External-survivability framing: BST integer N_max=137 gives the leading exact value; correction term at 1.4% precision is the falsifiable BST claim.]",
       "id": "const_137"
     },
     {
       "theorem_id": "T2269",
-      "name": "BR(Z \u2192 invisible)",
+      "name": "BR(Z → invisible)",
       "symbol": "BR_Z_inv",
-      "formula_display": "BR(Z \u2192 inv) = 1/n_C = 1/5",
+      "formula_display": "BR(Z → inv) = 1/n_C = 1/5",
       "formula_code": "1/n_C",
       "bst_value": 0.2,
       "observed_value": 0.1996,
@@ -5141,9 +5144,9 @@
     },
     {
       "theorem_id": "T2276",
-      "name": "BR(Z \u2192 bb\u0304)",
+      "name": "BR(Z → bb̄)",
       "symbol": "BR_Z_bb",
-      "formula_display": "BR(Z \u2192 bb\u0304) = N_c/(rank\u00b2\u00b7n_C) = 3/20",
+      "formula_display": "BR(Z → bb̄) = N_c/(rank²·n_C) = 3/20",
       "formula_code": "N_c/(rank**2 * n_C)",
       "bst_value": 0.15,
       "observed_value": 0.1512,
@@ -5158,7 +5161,7 @@
       "theorem_id": "T2259",
       "name": "CKM Jarlskog J",
       "symbol": "J_CKM",
-      "formula_display": "J = g^4 \u00b7 c_2^2 / (n_C \u00b7 N_max^5)",
+      "formula_display": "J = g^4 · c_2^2 / (n_C · N_max^5)",
       "formula_code": "g**4 * c_2**2 / (n_C * N_max**5)",
       "bst_value": 3.01e-05,
       "observed_value": 3e-05,
@@ -5171,9 +5174,9 @@
     },
     {
       "theorem_id": "T2233",
-      "name": "Kaon-pion decay constant ratio f_K/f_\u03c0",
+      "name": "Kaon-pion decay constant ratio f_K/f_π",
       "symbol": "fK_over_fpi",
-      "formula_display": "f_K/f_\u03c0 = C_2/n_C = 6/5",
+      "formula_display": "f_K/f_π = C_2/n_C = 6/5",
       "formula_code": "C_2 / n_C",
       "bst_value": 1.2,
       "observed_value": 1.198,
@@ -5186,9 +5189,9 @@
     },
     {
       "theorem_id": "T2266",
-      "name": "D-meson-pion decay constant ratio f_D/f_\u03c0",
+      "name": "D-meson-pion decay constant ratio f_D/f_π",
       "symbol": "fD_over_fpi",
-      "formula_display": "f_D/f_\u03c0 = c_3/rank\u00b3 = 13/8",
+      "formula_display": "f_D/f_π = c_3/rank³ = 13/8",
       "formula_code": "c_3 / rank**3",
       "bst_value": 1.625,
       "observed_value": 1.624,
@@ -5201,9 +5204,9 @@
     },
     {
       "theorem_id": "T2228",
-      "name": "BR(b \u2192 s\u03b3) inclusive radiative",
+      "name": "BR(b → sγ) inclusive radiative",
       "symbol": "BR_b_sgamma",
-      "formula_display": "BR(b\u2192s\u03b3) = 1/(rank\u00b7c_2\u00b7N_max) = 1/3014",
+      "formula_display": "BR(b→sγ) = 1/(rank·c_2·N_max) = 1/3014",
       "formula_code": "1/(rank * c_2 * N_max)",
       "bst_value": 0.000332,
       "observed_value": 0.000332,
@@ -5212,14 +5215,14 @@
       "unit": "",
       "tier": "I",
       "domain": "rare_decays",
-      "notes": "Striking sub-0.1% match. Pin(2) \u00d7 Bergman \u00d7 boundary product.",
+      "notes": "Striking sub-0.1% match. Pin(2) × Bergman × boundary product.",
       "id": "const_143"
     },
     {
       "theorem_id": "T2093",
-      "name": "PMNS sin\u00b2\u03b8_12 (solar)",
+      "name": "PMNS sin²θ_12 (solar)",
       "symbol": "sin2_theta_12",
-      "formula_display": "sin\u00b2\u03b8_12 = (C_2\u00b7g)/N_max = 42/137",
+      "formula_display": "sin²θ_12 = (C_2·g)/N_max = 42/137",
       "formula_code": "(C_2 * g) / N_max",
       "bst_value": 0.3066,
       "observed_value": 0.307,
@@ -5228,14 +5231,14 @@
       "unit": "",
       "tier": "I",
       "domain": "pmns_mixing",
-      "notes": "13th appearance of 42 = C_2\u00b7g = denom(B_6).",
+      "notes": "13th appearance of 42 = C_2·g = denom(B_6).",
       "id": "const_144"
     },
     {
       "theorem_id": "T2254",
-      "name": "cos\u00b2\u03b8_W Weinberg angle (refined)",
+      "name": "cos²θ_W Weinberg angle (refined)",
       "symbol": "cos2_theta_W",
-      "formula_display": "cos\u00b2\u03b8_W = g/N_c\u00b2 = 7/9",
+      "formula_display": "cos²θ_W = g/N_c² = 7/9",
       "formula_code": "g / N_c**2",
       "bst_value": 0.7778,
       "observed_value": 0.7769,
@@ -5244,14 +5247,14 @@
       "unit": "",
       "tier": "I",
       "domain": "ew_gauge",
-      "notes": "Refines Lyra T1919 (10/13 \u2192 7/9, factor 8 tighter).",
+      "notes": "Refines Lyra T1919 (10/13 → 7/9, factor 8 tighter).",
       "id": "const_145"
     },
     {
       "theorem_id": "T2290",
-      "name": "Proton-pion mass ratio m_p/m_\u03c0",
+      "name": "Proton-pion mass ratio m_p/m_π",
       "symbol": "mp_over_mpi",
-      "formula_display": "m_p/m_\u03c0 = Ogg47/g = 47/7",
+      "formula_display": "m_p/m_π = Ogg47/g = 47/7",
       "formula_code": "47 / g",
       "bst_value": 6.7143,
       "observed_value": 6.7227,
@@ -5265,9 +5268,9 @@
     },
     {
       "theorem_id": "T2218",
-      "name": "K-meson direct CP violation \u03b5'/\u03b5",
+      "name": "K-meson direct CP violation ε'/ε",
       "symbol": "eps_prime_over_eps",
-      "formula_display": "\u03b5'/\u03b5 = M_{n_C}/N_max\u00b2 = 31/N_max\u00b2",
+      "formula_display": "ε'/ε = M_{n_C}/N_max² = 31/N_max²",
       "formula_code": "31 / N_max**2",
       "bst_value": 0.00165,
       "observed_value": 0.00166,
@@ -5281,7 +5284,7 @@
     },
     {
       "theorem_id": "T2137",
-      "name": "BR(H\u2192WW)/BR(H\u2192ZZ) Higgs rare decay ratio",
+      "name": "BR(H→WW)/BR(H→ZZ) Higgs rare decay ratio",
       "symbol": "BR_HWW_over_BR_HZZ",
       "formula_display": "BR(WW)/BR(ZZ) = rank^N_c = 2^3 = 8",
       "formula_code": "rank**N_c",
@@ -5296,9 +5299,9 @@
     },
     {
       "theorem_id": "T2143",
-      "name": "Inflaton commitment threshold \u03b5(end)",
+      "name": "Inflaton commitment threshold ε(end)",
       "symbol": "epsilon_end_inflation",
-      "formula_display": "\u03b5(end) = N_c/rank\u2074 = 3/16",
+      "formula_display": "ε(end) = N_c/rank⁴ = 3/16",
       "formula_code": "N_c / rank**4",
       "bst_value": 0.1875,
       "observed_value": 0.1875,
@@ -5307,8 +5310,154 @@
       "unit": "",
       "tier": "I",
       "domain": "cosmology",
-      "notes": "Multi-role 16/3 = K3-cohom/N_c. Also DM mass and \u03a9_DM/\u03a9_b.",
+      "notes": "Multi-role 16/3 = K3-cohom/N_c. Also DM mass and Ω_DM/Ω_b.",
       "id": "const_149"
+    },
+    {
+      "id": "const_150",
+      "theorem_id": "T2363a",
+      "name": "Omega meson mass m_ω",
+      "symbol": "m_ω",
+      "formula_latex": "m_\\omega = m_p \\cdot c_2/c_3",
+      "formula_display": "m_ω = m_p * c_2/c_3 = m_p * 11/13",
+      "formula_code": "m_p * 11/13",
+      "bst_value": 793.9225,
+      "observed_value": 782.65,
+      "observed_source": "PDG 2024",
+      "precision": "1.4%",
+      "unit": "MeV",
+      "bst_integers_used": [
+        "c_2",
+        "c_3"
+      ],
+      "tier": "I",
+      "derivation_chain": [
+        "Light vector meson mass scale via Chern numbers c_2/c_3 ratio",
+        "Coarse identification at 1.4%; full meson hierarchy framework would derive c_2/c_3 from quark substrate"
+      ],
+      "source_toy": "play/toy_3000_P2_missing_constants_batch.py"
+    },
+    {
+      "id": "const_151",
+      "theorem_id": "T2363a",
+      "name": "D meson mass m_D",
+      "symbol": "m_D",
+      "formula_latex": "m_D = \\mathrm{rank} \\cdot m_p",
+      "formula_display": "m_D = rank * m_p = 2 * m_p",
+      "formula_code": "2 * m_p",
+      "bst_value": 1876.5442,
+      "observed_value": 1869.66,
+      "observed_source": "PDG 2024",
+      "precision": "0.4%",
+      "unit": "MeV",
+      "bst_integers_used": [
+        "rank"
+      ],
+      "tier": "I",
+      "derivation_chain": [
+        "Charmed meson mass scale ≈ 2·m_p via rank-coupling identification",
+        "Charm-light substrate at rank-level doubling"
+      ],
+      "source_toy": "play/toy_3000_P2_missing_constants_batch.py"
+    },
+    {
+      "id": "const_152",
+      "theorem_id": "T2363a",
+      "name": "J/ψ charmonium mass",
+      "symbol": "m_J/ψ",
+      "formula_latex": "m_{J/\\psi} = m_p \\cdot (N_c + 1/N_c)",
+      "formula_display": "m_J/ψ = m_p * (N_c + 1/N_c) = m_p * 10/3",
+      "formula_code": "m_p * (3 + 1/3)",
+      "bst_value": 3127.5736,
+      "observed_value": 3096.9,
+      "observed_source": "PDG 2024",
+      "precision": "1.0%",
+      "unit": "MeV",
+      "bst_integers_used": [
+        "N_c"
+      ],
+      "tier": "I",
+      "derivation_chain": [
+        "Charmonium mass via SU(N_c) reciprocal coupling form",
+        "(N_c + 1/N_c) reads as ladder-coupling in color-confined cc-bar state"
+      ],
+      "source_toy": "play/toy_3000_P2_missing_constants_batch.py"
+    },
+    {
+      "id": "const_153",
+      "theorem_id": "T2363a",
+      "name": "Upsilon bottomonium 1S mass",
+      "symbol": "m_Υ",
+      "formula_latex": "m_\\Upsilon = m_p \\cdot (\\mathrm{rank} + \\chi/N_c)",
+      "formula_display": "m_Υ = m_p * (rank + chi/N_c) = m_p * (2 + 24/3) = m_p * 10",
+      "formula_code": "m_p * (2 + 24/3)",
+      "bst_value": 9382.7209,
+      "observed_value": 9460.3,
+      "observed_source": "PDG 2024",
+      "precision": "0.8%",
+      "unit": "MeV",
+      "bst_integers_used": [
+        "rank",
+        "chi",
+        "N_c"
+      ],
+      "tier": "I",
+      "derivation_chain": [
+        "Bottomonium mass via Euler characteristic chi=24 + N_c color coupling",
+        "Reads as m_p · 10 at structural level"
+      ],
+      "source_toy": "play/toy_3000_P2_missing_constants_batch.py"
+    },
+    {
+      "id": "const_154",
+      "theorem_id": "T2363a",
+      "name": "Pion-nucleon coupling g_πNN",
+      "symbol": "g_πNN",
+      "formula_latex": "g_{\\pi NN} = c_3 \\cdot (1 + 1/\\chi)",
+      "formula_display": "g_πNN = c_3 * (1 + 1/chi) = 13 * 25/24",
+      "formula_code": "13 * 25/24",
+      "bst_value": 13.5417,
+      "observed_value": 13.54,
+      "observed_source": "Particle Data Group + nucleon-nucleon scattering",
+      "precision": "0.05%",
+      "unit": "dimensionless",
+      "bst_integers_used": [
+        "c_3",
+        "chi"
+      ],
+      "tier": "I",
+      "derivation_chain": [
+        "Pion-nucleon coupling = Chern c_3=13 with chi-suppressed correction",
+        "Chern + Euler characteristic give pion-substrate coupling near-exact"
+      ],
+      "source_toy": "play/toy_3000_P2_missing_constants_batch.py"
+    },
+    {
+      "id": "const_155",
+      "theorem_id": "T2380",
+      "name": "Scalar spectral tilt n_s (Planck inflation)",
+      "symbol": "n_s",
+      "formula_latex": "n_s = 1 - n_C/N_{max}",
+      "formula_display": "n_s = 1 - n_C/N_max = 1 - 5/137 = 132/137",
+      "formula_code": "1 - 5/137",
+      "bst_value": 0.9635036496350365,
+      "observed_value": 0.9649,
+      "observed_source": "Planck 2018",
+      "precision": "0.14%",
+      "unit": "",
+      "tier": "D",
+      "domain": "cosmology",
+      "bst_integers_used": [
+        "n_C",
+        "N_max"
+      ],
+      "derivation_chain": [
+        "Inflation pivot-scale scalar spectral index",
+        "Deviation from scale-invariance n_s = 1 by BST primary ratio n_C/N_max",
+        "Cascade fingerprint per T1401 / Lyra T2380 IP-7"
+      ],
+      "source_toy": "play/toy_3055_combined_IP6_IP7_IP15.py",
+      "notes": "Same n_C/N_max correction class appears in α⁻¹ (const_137) at boundary-scale BST primary form."
     }
   ]
 }

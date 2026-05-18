@@ -15,7 +15,7 @@ Bubble Spacetime Theory (BST) derives ~140 dimensionless Standard Model and cosm
 
 ## 1. Introduction
 
-BST's predictive content is extensive: muon g-2 closed-form at 0.005%, Higgs branching ratios at <2%, cosmological parameters at <1%, Standard Model gauge group structure at integer-exact precision. The theory is now in a state where the next progress comes from EXPERIMENTAL CONFRONTATION rather than additional theoretical identification.
+BST's predictive content is extensive: muon g-2 multi-loop-convergent identification at 0.019% (Tier I per Cal verdict 2026-05-18; striking but QED-from-D_IV⁵ first-principles derivation remains open), Higgs branching ratios at <2%, cosmological parameters at <1%, Standard Model gauge group structure at integer-exact precision. The theory is now in a state where the next progress comes from EXPERIMENTAL CONFRONTATION rather than additional theoretical identification.
 
 This paper specifies ten such experiments. Each tests a SPECIFIC BST prediction at a precision where current technology can give DECISIVE answer.
 

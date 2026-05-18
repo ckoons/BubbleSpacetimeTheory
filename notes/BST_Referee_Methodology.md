@@ -572,3 +572,57 @@ Division on integers is NOT closed — most a÷b is not an integer. Any predicti
 ---
 
 *Appendix G added 2026-05-16 evening EDT by Keeper per Casey's standing methodology directive on closure.*
+
+---
+
+## Appendix I: Methodology Specification Is Part of the Claim (Casey approved May 17, 2026)
+
+### Statement
+
+For any cross-consistency, coincidence-filter, or null-model claim about BST framework performance, **the methodology used MUST be specified explicitly at every claim**. Methodology choice determines headline statistic; failure to specify methodology renders the statistic uninterpretable.
+
+### Origin
+
+Grace's T2128 null-model defense (May 16) demonstrated this empirically:
+- **Loose methodology** (sub-1% precision, depth-4 products + sums + offsets): BST scores 23/25, random rings mean 23.89 max 24. BST at **0th percentile** (methodology artifact — any rich integer ring saturates at this precision).
+- **Strict methodology** (sub-0.1% precision, pure-product formulas only): BST scores 18/25, random rings mean 4.45 max 15. BST at **100th percentile, ~4σ above random distribution mean** (genuine structural distinction).
+
+The two results are not contradictory — they answer different questions. Cal's K44 audit identified the methodology choice as the load-bearing decision.
+
+### The rule
+
+Every claim of the form "BST matches N/M observables" or "BST is X percentile" or "P(coincidence) = Y" MUST include:
+
+1. **Precision threshold** specified explicitly (sub-1%? sub-0.1%? exact integer match?)
+2. **Allowed operations** in the BST-side expression (pure products only? products + sums? products + sums + offsets? depth limit?)
+3. **Comparison ensemble** if percentile or σ claim (1000 rings? 10000? what generator constraints?)
+4. **Boundary cases** flagged (FAILs that are scope-mismatch vs FAILs that are genuine misses)
+
+### Practical application
+
+For external claims (papers, outreach letters, abstracts):
+
+- **Default to strict**: pure-product formulas at sub-0.1% precision is the publication-grade methodology. This is the metric that survives external review.
+- **Loose methodology results** are useful internally for surveying landscape but must NOT be presented externally without strict-methodology counterpart.
+- **Compound claims** (e.g., "67 cross-consistencies at sub-1%") must specify which subset survives strict null. Grace's K44 partition shows BST is ~4σ on the strict subset; that is the headline-worthy statistic.
+
+### Violations to watch for
+
+- "P(coincidence) << 10⁻²⁰⁰" without specified null model — methodology unspecified, statistic meaningless.
+- "100% match across N observables" without precision threshold — operation-loose claim.
+- "Statistically significant" without ensemble size or comparison generator constraints — vague.
+- "Striking coincidence" as defense without null-model comparison at the matching precision — rhetorical not statistical.
+
+### Connection to other appendices
+
+- **Appendix D (Epistemic Tier Labels)**: methodology choice determines D/I/C/S tier of derived claims. D-tier requires strict methodology survival; I-tier may use loose methodology if labeled.
+- **Appendix E (K42 Batch-Classifier Discipline)**: example of methodology specification — auto-classifiers default to loose methodology unless guard explicitly named.
+- **Appendix G (Closure Principle)**: closure-respecting predictions are inherently strict-methodology; non-closure operations introduce loose-methodology artifacts.
+
+### Casey's framing (verbatim May 17 governance ruling)
+
+Approved May 17, 2026 as part of the K44 audit closure and the team-wide commitment to "simple, works, hard to break, show me a counter example" standard. Methodology specification is the discipline that converts striking observations into externally-defensible claims.
+
+---
+
+*Appendix I added 2026-05-17 by Keeper per Casey approval (K44 audit follow-up).*

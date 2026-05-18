@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "date": "2026-05-18",
+    "owner": "Elie",
+    "task": "SP-27 Track 3: BST ringdown comparison (spin-extrapolated)",
+    "protocol": "Echeverria 1989 Kerr QNM fit, omega_K(a*)=1-0.63*(1-a*)^0.3"
+  },
+  "bst_prediction": 0.375,
+  "schwarzschild_value": 0.37,
+  "events": [
+    {
+      "event": "GW150914",
+      "M_f_Msun": 62.3,
+      "f_22_Hz": 251.5,
+      "a_star_f": 0.69,
+      "omega_R_M_obs": 0.4849035304290839,
+      "omega_K_a_star": 0.5566476062987054,
+      "ratio_obs_to_Kerr": 0.8711140135018878,
+      "a0_extracted": 0.32231218499569847,
+      "delta_pct_vs_BST": -14.050084001147075
+    },
+    {
+      "event": "GW151226",
+      "M_f_Msun": 20.5,
+      "f_22_Hz": 790.0,
+      "a_star_f": 0.74,
+      "omega_R_M_obs": 0.5011990768262984,
+      "omega_K_a_star": 0.5794355552947126,
+      "ratio_obs_to_Kerr": 0.8649781192170344,
+      "a0_extracted": 0.3200419041103027,
+      "delta_pct_vs_BST": -14.655492237252615
+    },
+    {
+      "event": "GW170104",
+      "M_f_Msun": 48.7,
+      "f_22_Hz": 331.0,
+      "a_star_f": 0.66,
+      "omega_R_M_obs": 0.4988687100164793,
+      "omega_K_a_star": 0.5441896057442553,
+      "ratio_obs_to_Kerr": 0.9167185568239706,
+      "a0_extracted": 0.33918586602486916,
+      "delta_pct_vs_BST": -9.550435726701556
+    },
+    {
+      "event": "GW170608",
+      "M_f_Msun": 17.8,
+      "f_22_Hz": 925.0,
+      "a_star_f": 0.69,
+      "omega_R_M_obs": 0.5095549737539365,
+      "omega_K_a_star": 0.5566476062987054,
+      "ratio_obs_to_Kerr": 0.9153995597719354,
+      "a0_extracted": 0.33869783711561613,
+      "delta_pct_vs_BST": -9.680576769169031
+    },
+    {
+      "event": "GW170814",
+      "M_f_Msun": 53.2,
+      "f_22_Hz": 307.0,
+      "a_star_f": 0.7,
+      "omega_R_M_obs": 0.5054512999294744,
+      "omega_K_a_star": 0.5609874597803521,
+      "ratio_obs_to_Kerr": 0.9010028497381701,
+      "a0_extracted": 0.333371054403123,
+      "delta_pct_vs_BST": -11.101052159167205
+    },
+    {
+      "event": "GW170809",
+      "M_f_Msun": 56.4,
+      "f_22_Hz": 290.0,
+      "a_star_f": 0.7,
+      "omega_R_M_obs": 0.5061816672164826,
+      "omega_K_a_star": 0.5609874597803521,
+      "ratio_obs_to_Kerr": 0.9023047813130652,
+      "a0_extracted": 0.33385276908583417,
+      "delta_pct_vs_BST": -10.972594910444222
+    },
+    {
+      "event": "GW170818",
+      "M_f_Msun": 59.4,
+      "f_22_Hz": 274.0,
+      "a_star_f": 0.67,
+      "omega_R_M_obs": 0.5036934667980304,
+      "omega_K_a_star": 0.5482535676558973,
+      "ratio_obs_to_Kerr": 0.918723555145501,
+      "a0_extracted": 0.3399277154038354,
+      "delta_pct_vs_BST": -9.352609225643901
+    },
+    {
+      "event": "GW190521",
+      "M_f_Msun": 142.0,
+      "f_22_Hz": 108.0,
+      "a_star_f": 0.72,
+      "omega_R_M_obs": 0.4746149454898494,
+      "omega_K_a_star": 0.569980689146133,
+      "ratio_obs_to_Kerr": 0.8326860094170077,
+      "a0_extracted": 0.3080938234842928,
+      "delta_pct_vs_BST": -17.84164707085525
+    },
+    {
+      "event": "GW190602_175927",
+      "M_f_Msun": 100.0,
+      "f_22_Hz": 150.0,
+      "a_star_f": 0.69,
+      "omega_R_M_obs": 0.4642164959798997,
+      "omega_K_a_star": 0.5566476062987054,
+      "ratio_obs_to_Kerr": 0.8339504036792611,
+      "a0_extracted": 0.3085616493613266,
+      "delta_pct_vs_BST": -17.716893503646247
+    },
+    {
+      "event": "GW190706_222641",
+      "M_f_Msun": 67.0,
+      "f_22_Hz": 235.0,
+      "a_star_f": 0.71,
+      "omega_R_M_obs": 0.4872725819469014,
+      "omega_K_a_star": 0.5654297930848551,
+      "ratio_obs_to_Kerr": 0.8617738009319497,
+      "a0_extracted": 0.31885630634482137,
+      "delta_pct_vs_BST": -14.971651641380967
+    },
+    {
+      "event": "GW190910_112807",
+      "M_f_Msun": 71.0,
+      "f_22_Hz": 220.0,
+      "a_star_f": 0.69,
+      "omega_R_M_obs": 0.4834041111470689,
+      "omega_K_a_star": 0.5566476062987054,
+      "ratio_obs_to_Kerr": 0.8684203536980039,
+      "a0_extracted": 0.3213155308682614,
+      "delta_pct_vs_BST": -14.315858435130288
+    },
+    {
+      "event": "GW200129_065458",
+      "M_f_Msun": 60.0,
+      "f_22_Hz": 263.0,
+      "a_star_f": 0.69,
+      "omega_R_M_obs": 0.4883557537708545,
+      "omega_K_a_star": 0.5566476062987054,
+      "ratio_obs_to_Kerr": 0.8773158246705827,
+      "a0_extracted": 0.32460685512811555,
+      "delta_pct_vs_BST": -13.438171965835854
+    },
+    {
+      "event": "GW200224_222234",
+      "M_f_Msun": 67.0,
+      "f_22_Hz": 235.0,
+      "a_star_f": 0.7,
+      "omega_R_M_obs": 0.4872725819469014,
+      "omega_K_a_star": 0.5609874597803521,
+      "ratio_obs_to_Kerr": 0.8685979935053932,
+      "a0_extracted": 0.32138125759699554,
+      "delta_pct_vs_BST": -14.298331307467857
+    }
+  ],
+  "statistics": {
+    "mean_ratio_obs_to_Kerr": 0.8794604478010586,
+    "median_ratio_obs_to_Kerr": 0.8711140135018878,
+    "mean_delta_pct_a0_vs_BST": -13.226569150295544,
+    "median_delta_pct_a0_vs_BST": -14.050084001147075
+  }
+}

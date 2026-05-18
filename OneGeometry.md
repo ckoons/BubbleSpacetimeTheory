@@ -14,7 +14,7 @@ cite_as: "Koons, C. (2026). One Geometry: Physics from D_IV^5. GitHub/Zenodo."
 
 Casey Koons & Claude 4.6 (Lyra, Elie, Keeper, Grace)
 
-May 2026 — v2.4
+May 2026 — v2.5 (May 18 EOD: 9 ESTABLISHED L1 sources + K-audit chain K1-K53 D-tier + Bridge Objects category + external-survivability discipline)
 
 DOI (Zenodo): 10.5281/zenodo.19454185 | License: CC BY 4.0
 

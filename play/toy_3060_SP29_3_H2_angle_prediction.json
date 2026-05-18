@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "date": "2026-05-18",
+    "owner": "Elie",
+    "task": "SP29-3 angle-dependent Casimir H2 prediction"
+  },
+  "hypothesis": "H2: angle of incidence of commitment circle matters",
+  "pre_staged_form": "F(\u03b8)/F(0) = 1 + (n_C/N_max)\u00b7sin\u00b2(2\u03b8)",
+  "amplitude_fraction": "5/137",
+  "amplitude_pct": 3.64963503649635,
+  "angular_function": "sin\u00b2(2\u03b8), 4-fold symmetric",
+  "period_deg": 90,
+  "peak_theta_deg": 45,
+  "standard_QED_prediction": "\u0394F/F \u2261 0 (rotational invariance)",
+  "predictions": [
+    {
+      "theta_deg": 0,
+      "sin2_2theta": 0.0,
+      "F_ratio": 1.0,
+      "delta_pct": 0.0
+    },
+    {
+      "theta_deg": 15,
+      "sin2_2theta": 0.24999999999999994,
+      "F_ratio": 1.0091240875912408,
+      "delta_pct": 0.9124087591240837
+    },
+    {
+      "theta_deg": 30,
+      "sin2_2theta": 0.7499999999999999,
+      "F_ratio": 1.0273722627737225,
+      "delta_pct": 2.737226277372251
+    },
+    {
+      "theta_deg": 45,
+      "sin2_2theta": 1.0,
+      "F_ratio": 1.0364963503649636,
+      "delta_pct": 3.649635036496357
+    },
+    {
+      "theta_deg": 60,
+      "sin2_2theta": 0.7500000000000001,
+      "F_ratio": 1.0273722627737227,
+      "delta_pct": 2.7372262773722733
+    },
+    {
+      "theta_deg": 75,
+      "sin2_2theta": 0.24999999999999994,
+      "F_ratio": 1.0091240875912408,
+      "delta_pct": 0.9124087591240837
+    },
+    {
+      "theta_deg": 90,
+      "sin2_2theta": 1.4997597826618576e-32,
+      "F_ratio": 1.0,
+      "delta_pct": 0.0
+    }
+  ],
+  "discrimination": {
+    "three_sigma_required_sigma_F_pct": 1.21654501216545,
+    "five_sigma_required_sigma_F_pct": 0.72992700729927,
+    "decca_class_precision_pct": 0.1,
+    "expected_significance_at_decca_precision_sigma": 36.4963503649635
+  },
+  "cost_USD": "30-50K",
+  "timeline_months": 6,
+  "alternative_forms_to_discriminate": {
+    "four_fold_sin2_2theta": "F(90\u00b0)/F(0\u00b0) \u2248 1.000",
+    "two_fold_sin2_theta": "F(90\u00b0)/F(0\u00b0) \u2248 1.037",
+    "discriminating_measurement": "F(90\u00b0) sample"
+  }
+}

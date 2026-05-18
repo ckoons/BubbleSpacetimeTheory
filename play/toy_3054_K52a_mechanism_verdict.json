@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "date": "2026-05-18",
+    "owner": "Elie",
+    "authorization": "Casey via Keeper 16:25 EDT",
+    "task": "K52a mechanism: why M_g = 127 specifically"
+  },
+  "pre_staged_hypothesis": "Triple coincidence C1+C2+C3 UNIQUE at M_g",
+  "mersenne_table": [
+    {
+      "p": 2,
+      "M_p": 3,
+      "mp_prime": true,
+      "c1": true,
+      "c2": false,
+      "c3": false,
+      "c2_form": "diff = 134 (no clean BST decomp)",
+      "c3_pct": 33.333333333333336
+    },
+    {
+      "p": 3,
+      "M_p": 7,
+      "mp_prime": true,
+      "c1": true,
+      "c2": true,
+      "c3": false,
+      "c2_form": "= N_max - rank*n_C*c_3",
+      "c3_pct": 14.285714285714286
+    },
+    {
+      "p": 5,
+      "M_p": 31,
+      "mp_prime": true,
+      "c1": true,
+      "c2": false,
+      "c3": false,
+      "c2_form": "diff = 106 (no clean BST decomp)",
+      "c3_pct": 3.225806451612903
+    },
+    {
+      "p": 7,
+      "M_p": 127,
+      "mp_prime": true,
+      "c1": true,
+      "c2": true,
+      "c3": true,
+      "c2_form": "= N_max - rank*n_C",
+      "c3_pct": 0.7874015748031497
+    },
+    {
+      "p": 11,
+      "M_p": 2047,
+      "mp_prime": false,
+      "c1": true,
+      "c2": false,
+      "c3": false,
+      "c2_form": "(M_p > N_max, out of BST scale)",
+      "c3_pct": 0.048851978505129456
+    },
+    {
+      "p": 13,
+      "M_p": 8191,
+      "mp_prime": true,
+      "c1": true,
+      "c2": false,
+      "c3": false,
+      "c2_form": "(M_p > N_max, out of BST scale)",
+      "c3_pct": 0.012208521548040533
+    },
+    {
+      "p": 17,
+      "M_p": 131071,
+      "mp_prime": true,
+      "c1": true,
+      "c2": false,
+      "c3": false,
+      "c2_form": "(M_p > N_max, out of BST scale)",
+      "c3_pct": 0.0007629452739355006
+    }
+  ],
+  "m_g_subpercent_hits": 3,
+  "m_5_subpercent_hits": 0,
+  "m_13_hits": 1,
+  "triple_coincidence_at_M_g": true,
+  "triple_coincidence_count": 1,
+  "verdict_pass": true
+}

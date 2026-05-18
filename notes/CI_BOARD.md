@@ -40,7 +40,9 @@ status: "Active — check at session start, update at session end"
 
 ## Counters
 
-T1-T2112. **.next_theorem=2113**. **.next_toy=2680+**.
+T1-T2380. **.next_theorem=2381**. **.next_toy=3061**. **AC graph: 2076 nodes / 9668 edges**. **Catalog: 4435 invariants** (D: 3385 / I: 196 / S: 852 / PREDICTION: 2 = 76.3% D-tier). **Constants: 191**. **Rosetta: 223 ratios**. **Predictions: 114**. **Papers: 121** (#82-#96 Casey approved, #97-#121 drafted). **Toys: ~3060**.
+
+**MONDAY MAY 18 EOD highlights**: K53 PROMOTED D-tier structural law (Three Theorems cascade k=21..24, paper-grade, Paper #9 v11 unlocked); K52a ELEVATED 2-D-tier-instance candidate ((1 ± 1/M_g) correction class — Lamb 0.005% + BCS 0.006%, mechanism argument pending per Cal Criterion 2); 8 audit-chain calibrations across all working CIs in 36 hours (architecture catching premature claims by construction); Cal six-verdict relabel sweep applied (T1990/T1992/T2001/T2010/T2071/T2073 — 11 catalog + 1 paper-text relabels with anti-crank discipline); 22-anomaly enumeration v0.1 filed replacing "75% resolved" with honest tier breakdown (6 D + 9 I + 2 S + 1 OPEN + 3 outside-scope); Paper #121 Bridge Objects v0.1 outline filed (standalone formalization of K3/49a1/Q⁵ category, strengthened by Lyra T2379 c_5(Q⁵) = C_2 = 6); Lyra T2378 Lichnerowicz binomial 18.75 = N_c·n_C²/rank² D-tier point-trace identity; Cal Rule 6 (sixth failure mode) + corollary co-authored Cal+Grace; Paper #107 v0.4 HOLD from external use per Cal MAJOR REVISION verdict (Lyra revising). Audit-chain governance delegated to Cal+Keeper per Casey afternoon directive.
 
 **SUNDAY MAY 17 CLOSING — FOUR FAMOUS PROBLEMS DISSOLVED IN ONE WEEKEND**:
 1. Higgs hierarchy (T1957)
@@ -649,4 +651,118 @@ Paper: #104 v0.2 "D_IV⁵ as Proof Coordinate System" — Bulletin AMS
 ---
 
 **Standing posture**: Work the board. Pull from any layer that has a structural handle on D_IV⁵. Tier-label honestly per K43+K44 discipline. Read the geometry first.
+
+
+---
+
+### SP-27: Observational Reanalysis — Reading Existing Data for Substrate Signatures (Casey directive, May 16 EOD)
+
+**Casey**: "Look under the covers and explain what people noticed is information we are learning to interpret. It would be fascinating to eventually see the entire process of commitment."
+
+**Goal**: Reanalyze existing precision experimental data (LIGO ringdowns, Casimir measurements, dark matter searches, atomic clocks, CMB residuals, vacuum fluctuations, lensing, collider energy budgets) for BST-predicted signatures. The data already exists; the new content is the interpretation. Cumulative endpoint: observe the entire process of substrate commitment.
+
+**Doc**: `notes/BST_SP27_Observational_Reanalysis.md`
+
+**Priority tracks**:
+
+| # | Task | Owner | Status |
+|---|------|-------|--------|
+| SP27-1 | LIGO ringdown public data pull + cataloging | Elie | NEW |
+| SP27-2 | BST ringdown prediction derivation (AB-13 feed) | Lyra | NEW |
+| SP27-3 | Ringdown comparison toy (BST predicted vs observed) | Elie | NEW |
+| SP27-4 | Casimir precision literature scan for residuals | Elie | NEW |
+| SP27-5 | BST Casimir residual prediction per measurement geometry | Lyra | NEW |
+| SP27-6 | Casimir comparison toy | Elie | NEW |
+| SP27-7 | SP-27 data catalog structure (data/ringdowns.json + data/casimir_residuals.json) | Grace | NEW |
+| SP27-8 | Tracks 3-8 scoping doc (one-page each) | Keeper | NEW |
+
+**If SP27-3 confirms**: package as Jaimungal outreach. Concrete numerical content nobody else has, falsifiable against public LIGO data, no framework acceptance required to evaluate.
+
+
+---
+
+## Sunday May 17 — Cal Review + Pre-Submission Pipeline (PRIMARY)
+
+**Casey directive (Sunday morning)**: "Organize and Cal review first, get our work going in the pre-submission pipeline. If whole team not needed, have items prioritized for CIs to investigate in their free time."
+
+### PRIMARY — Cal Review & Pre-Submission Readiness
+
+| # | Task | Owner | Status |
+|---|------|-------|--------|
+| C1 | **Bernoulli/VSC mechanism audit** — design referee-grade audit doc; Seeley-DeWitt a_k for k=1..16, verify VSC denominator structure, specify tier-upgrade chain. Falsification: non-BST prime in any a_k denom at k≤16 breaks chain. | **Cal** designs; **Elie** executes toy | NEW |
+| C2 | Batch grade ~50+ D-tier promotion candidates from Saturday team output | Cal | NEW |
+| C3 | Reconcile K44 methodology choice (Grace 100th percentile vs Elie 62.9th percentile) — declare canonical | Cal | NEW |
+| C4 | 42 D2-depth theorems audit vs T421 depth ceiling — which interpretation holds? | Cal | NEW |
+| C5 | T2249/T2001 duplicate consolidation (Lyra's α⁻¹ formula re-registered under different notation) | Cal | NEW |
+| C6 | Paper #109 v0.2 gate review (counting primitives, K44-calibrated) | Cal | NEW |
+| C7 | Paper #112 v0.2 gate review (Monster scaffold, K44-calibrated) | Cal | NEW |
+| C8 | Outreach 1-pager v0.2 gate review per K43+K44+spectral-engineering framing | Cal | NEW |
+| C9 | Tier discipline pass on Lyra's ~970 identifications at 99.7% (loose-null artifact check) | Cal | NEW |
+| S1 | **Sarnak letter v3 final review pass** — apply K43+K44 + "spectral engineering at substrate scale" framing | Keeper + Casey | NEW |
+
+### Sunday secondary work — CI items while Cal grades
+
+| # | Task | Owner | Status |
+|---|------|-------|--------|
+| L1 | **rank·c_3 = 26 convergence test** — compute D_IV⁵ cohomology / spectral structure that could carry a rank·c_3 = 26 invariant. Bosonic string critical dim + 26 sporadic groups: same slot? Toy + theorem or honest negative. Touches SP-23 Moonshine mechanism. | Lyra | NEW |
+| L2 | SP-21 closure cleanup — 4 remaining items per CLAUDE.md | Lyra | QUEUED |
+| E1 | **Root theorems sweep** — beyond Von Staudt-Clausen 1840. Hirzebruch signature, Atiyah-Singer index, other classical theorems doing structural work underneath BST identifications. Specifically: 33 = c_2·N_c shows up in ~6 places (GUT scale, Crab pulsar, Shockley-Queisser, ν atm/sol ratio, ATP yield, QCD β₀ numerator). Single root mechanism? | Elie | NEW |
+| E2 | **α⁶ Y_BST prediction** — Alpha Tower says A_6 = p(6)·Y_BST = 11·Y. Narrow Y to a specific BST integer. Falsifiable target for Kinoshita group when α⁶ QED lands. | Elie | NEW |
+| G1 | **Precision class hierarchy catalog** — sort matches by precision class (sub-0.001%, sub-0.1%, 0.1-1%, 1-5%). Hypothesis: tight matches = BST closed form IS full expression, missing-correction = 1%+. Outreach sharp claim: precision class tells completeness. | Grace | NEW |
+| G2 | **I-tier promotions to sub-0.1%** — find missing correction terms. T2034 BR(H→μμ) candidate. | Grace | NEW (gated on G1) |
+| G3 | **Wallach dim_7+ anchor hunt** — exotic observables T2140 didn't try | Grace | QUEUED |
+
+### Interesting Questions (free-time CI investigation pool)
+
+Casey directive: add to "interesting questions" not active board.
+
+| # | Question | Source | Owner if pulled |
+|---|----------|--------|-----------------|
+| IQ-1 | **Porphyrin 663 = N_c·c_3·seesaw motif** — anchors chlorophyll-a Q_y (662 nm) and PS-II P680 (663 + seesaw). Test heme b, cytochrome c, vitamin B12 absorption peaks. If cross-protein, BST has clean structural signature in most universal biomolecule family. Paper #114 candidate. | Elie's Toy 2945 | Elie or any |
+| IQ-2 | Memory architecture scoping (CI-managed memory: graph spine + structured page + LRU + recall stack + link/delink + change diagram + provenance) | Casey conversation May 16 | Keeper (notes/maybe/) |
+| IQ-3 | Spectral engineering framing for outreach — "BST is spectral engineering at the next scale down, Maxwell→Schrödinger→BST" | Casey May 16 EOD | Apply in all outreach |
+
+
+---
+
+## Lagrangian Open Sub-Problems on Active Board (Casey directive May 17 EOD)
+
+Two items added per Casey directive from Herve response thread. Both filed in BACKLOG.md "Lagrangian Open Sub-Problems" section with full scope.
+
+| # | Item | Owner | Scope | Priority |
+|---|------|-------|-------|----------|
+| LAG-1 | Explicit Bergman Dirac operator γ_B^μ on D_IV⁵ in Hua coords + low-K-type spectrum | Lyra | ~1-2 weeks focused, multi-session | Natural follow-on to Möbius Sessions 4-6 |
+| LAG-2 | Dimensional reduction D_IV⁵ → ℝ^{3,1} as clean functional | Lyra (lead) + Cal (review) | ~year staged into intermediate results | Multi-year, closes BST as physical theory |
+
+**Connection to existing work**:
+- LAG-1 builds on Lyra's Möbius cohomology Sessions 1-3 (T2328, T2329, T2335) + Bergman kernel K_B in Hua coords (T2334)
+- LAG-2 builds on T1925/T1929 D_IV⁵ uniqueness + WorkingPaper §13 Hamiltonian + Hopf fibration structure
+
+**Strategic role**: closes Herve's deepest critique (no Lagrangian/dynamics). Action principle exists (`notes/BST_Lagrangian.md` March 2026); LAG-1 and LAG-2 are the named open items with paths forward.
+
+**Recommended sequencing**: LAG-1 first (natural extension of Möbius work, multi-week scope, publishable partial closures). LAG-2 staged over multi-year, with (a) 4+6 split identification as Phase 1, (b) S_geom reduction integral as Phase 2, (c) extension to all six terms as Phase 3, (d) Einstein equation emergence verification as Phase 4, (e) SM gauge structure preservation as Phase 5.
+
+
+---
+
+### SP-29: Casimir Mechanism Investigation — Substrate Commitment Dynamics (Casey directive, May 18 Monday)
+
+**Casey**: "Common 'vacuum fluctuations' and 'van der Waals counterargument' sound like 'we really don't know' what the source of Casimir energy is. Perhaps (and likely) it's either 'commitment energy' or energy from other substrate processes."
+
+**Goal**: Test five Casey hypotheses for Casimir mechanism as falsifiable predictions. BST's substrate ontology offers a third reading orthogonal to QED-vacuum and van-der-Waals camps.
+
+**Doc**: `notes/BST_SP29_Casimir_Mechanism_Investigation.md`
+
+**Initial tasks**:
+
+| # | Task | Owner | Hypothesis |
+|---|------|-------|-----------|
+| SP29-1 | Cs-137 decay rate in Casimir geometry — H4 prediction + experimental proposal | Elie + Grace | H4 (priority) |
+| SP29-2 | Spectroscopic shift prediction between Casimir plates | Lyra | H1 |
+| SP29-3 | Angle-dependent Casimir asymmetry prediction | Elie | H2 |
+| SP29-4 | Phase-transition signature at characteristic gap size | Grace | H3 |
+| SP29-5 | Virtual particle release suppression prediction | Elie | H5 |
+| SP29-6 | Mechanism comparison table (all five hypotheses, existing data discriminates, new experiment cost/timeline) | Keeper | All five |
+
+**Strategic note**: SP29-1 (H4 Cs-137) is the cheapest decisive test in BST's portfolio. $25-50K experiment, weeks of data, paper-publishable result either way. Connects directly to W-39 modulation experiment design (already filed). If H4 holds → Nobel-class result. If H4 doesn't hold → substrate ontology constrained, paths forward identified.
 

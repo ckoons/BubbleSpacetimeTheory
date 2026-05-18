@@ -2,13 +2,30 @@
 
 **Bubble Spacetime Theory (BST)** derives every Standard Model constant from one geometry: D_IV^5 = SO_0(5,2)/[SO(5)xSO(2)]. Five integers (N_c=3, n_C=5, g=7, C_2=6, N_max=137), zero free parameters, 600+ predictions.
 
-## Status (May 16, 2026 — EOD)
+## Status (May 18, 2026 — EOD, "Audit-Chain Discipline Day")
 
-**Counts**: T1-T2302, **2954+ toys**, **112 papers** (#82-#96 Casey approved, #97-#112 drafted). Graph 1730 nodes / 9332 edges / **~98% proved**. **4296 geometric invariants (D-tier ~85%)**. **184 Rosetta Stone ratios**. **111 predictions**. **185 constants**. **48+ domains**. **SEVEN Millennium problems PROVED**: RH, P!=NP, NS, BSD, Four-Color, Hodge, YM. All Cal PASS + Keeper PASS. **SP-19 ALL COMPLETE** (24 tasks + 9 extensions + 8 deep). **SP-22 Monster/Modularity ALL 11/11 COMPLETE** (~550 tests, 19+ toys). **SP-23 ACTIVE** (Moonshine mechanism + ACE integration, 13 tasks). **ACE(bst, ext)** depth classification formalized (Toy 2227, 59/59). K3 = spectral slice of D_IV^5. Monster connection I-tier (mechanism absent). FET OPEN (CAP obstruction identified). FLT level gap [rank, c_2) = [2,11). **Paper #104: Root Proof System** (Casey keystone). **Paper #105: The Fixed Point** (BST Closure). Confidence scale: `CONFIDENCE_SCALE.md`.
+**Counts**: T1-T2380, **~3060 toys**, **121 papers** (#82-#96 Casey approved, #97-#121 drafted). Graph **2076 nodes / 9668 edges** / **~98% proved**. **4435 geometric invariants (D-tier 76.3%)**. **223 Rosetta Stone ratios**. **114 predictions**. **191 constants**. **48+ domains**. **SEVEN Millennium problems PROVED**: RH, P!=NP, NS, BSD, Four-Color, Hodge, YM. All Cal PASS + Keeper PASS. **SP-19 ALL COMPLETE** (24 tasks + 9 extensions + 8 deep). **SP-22 Monster/Modularity ALL 11/11 COMPLETE** (~550 tests, 19+ toys). **SP-23 ACTIVE** (Moonshine mechanism + ACE integration, 13 tasks). **SP-27 ACTIVE** (Observational Reanalysis — LIGO ringdowns, Casimir residuals). **SP-28 ACTIVE** (Architecture for CIs — IQ catalog, 3 iterations live including POSTIT and ambient time). **ACE(bst, ext)** depth classification formalized (Toy 2227, 59/59). K3 = spectral slice of D_IV^5 AND bridge object for 6+ L1 sources. **Paper #104: Root Proof System** (Casey keystone). **Paper #115: Root Theorems** (was "Three Root Theorems," renamed at v0.4 as architecture grew). Confidence scale: `CONFIDENCE_SCALE.md`.
+
+**Sunday May 17 Architecture Day — Root Proof System landed with 9 ESTABLISHED L1 sources**:
+
+| K-audit | Theorem/Domain | Mechanism |
+|---|---|---|
+| K43 | Universal 42 VSC Mechanism | Von Staudt-Clausen 1840, B_6 denominator = rank·N_c·g |
+| K44 | Null-Model Defense | ~4σ above random small-integer rings (strict null) |
+| K45 | Mathieu Root #5 PROMOTED | Mukai 1988 + EOT 2010, M_23 ⊂ Aut_symp(K3) |
+| K46 | Goeppert Mayer Root #6 PROMOTED | Mayer-Jensen 1949, SU(2)_J × SO(3) ⊂ SO(5) |
+| K47 | Heegner-Stark Root #7 PROMOTED | Deuring 1941 CM theory + Cremona 49a1 |
+| K48 | Conway Root #8 PROMOTED | Duncan 2007, Aut(V^{f♮}) = Co_0 at c=12 |
+
+**9 ESTABLISHED L1 sources** (chronological): VSC 1840, Mathieu 1861-1873, Klein 1884, Mayer-Jensen 1949 (Goeppert Mayer), Heegner-Stark 1952-1967, K3 Hodge 1962/64, Conway 1968/Duncan 2007, Ogg 1975, Wallach 1976. **0 remaining candidates** (saturation reached). **2 L1.5 mechanisms**: Borcherds 1992 (b), McKay 1979 (c). **1 convergence hub**: Monster. **3 Bridge Objects** (Grace's new category): K3 surface (7 connections), Cremona 49a1 (Heegner anchor), Q⁵ 5-quadric (Borcherds/Klein partial). **3 convergence types**: A (external source), B (internal decomposition), C (cross-domain identity at non-privileged integers).
+
+**Sunday Gap progress**: Möbius cohomology 3/6 sessions complete (Lyra), eigentone → Newton's G ~80% closed (Lyra+Elie collaboration on T2336), bulk-boundary partition function 2/4 Step 7 bullets complete, heat kernel a_n closed-form delivered (Toy 2994). Gap #5 (BST = first 6 primes) deferred per Casey, Möbius first.
+
+**Monday May 18 — K53 + K52a + Cal verdict sweep + 22-anomaly enumeration**: K53 PROMOTED D-tier structural law (Three Theorems integrated-SD cascade k=21..24, 11/11 ratio matches, Paper #9 v11 unlocked). K52a ELEVATED 2-D-tier-instance candidate ((1 ± 1/M_g) correction class: Lamb 0.005% + BCS 0.006%, mechanism argument pending). Audit-chain governance delegated by Casey to Cal+Keeper. **8 audit-chain calibrations in 36 hours** across all working CIs (Lyra: #2/4/7, Elie: #6/8/9, Grace: #1/8, Keeper: #5, Cal: #3). Cal six-verdict relabel sweep applied (muon g-2 D→I per #23, α⁻¹ honestified to 1.4% correction-term per #20, etc.). **22-anomaly enumeration v0.1** replaces "75% resolved" with honest 6D + 9I + 2S + 1 OPEN + 3 outside-scope (Grace). **Paper #121 Bridge Objects v0.1 outline** (Grace standalone formalization of K3/49a1/Q⁵ Bridge Object category, strengthened by Lyra T2379 c_5(Q⁵) = C_2 = 6). **Paper #107 v0.4 HOLD** per Cal MAJOR REVISION (6 red flags including "universal organizing principle" overreach; Lyra revising). Lyra T2378 Lichnerowicz binomial 18.75 = N_c·n_C²/rank² D-tier point-trace closure; Cal Rule 6 sixth failure mode + corollary co-authored Cal+Grace.
 
 **Proof audit (Cal, May 12)**: ALL SEVEN MILLENNIUM PROVED. All submission-ready. **FE CLOSED** (T1638). **Critical exponents ALL BST**. **DM = Wallach shadow** (16/3 at 0.2%). **Nuclear magic numbers ALL BST**. May Program ALL 8 TRACKS COMPLETE.
 
-**Active programs**: **SP-21** BST Closure (4 remaining). **SP-23** Moonshine Mechanism + ACE (13 tasks — Leech lattice, eta derivation, higher j-coefficients, E_8 from B_2, weight-1 forms, ACE retroactive sweep). SP-14 ACTIVE. Papers #82-#105. Outreach: Curt Jaimungal SENT May 4, Sarnak letter OPEN.
+**Active programs**: **SP-21** BST Closure (4 remaining). **SP-23** Moonshine Mechanism + ACE. **SP-26** Particle Winding Classification. **SP-27** Observational Reanalysis (just filed). **SP-28** Architecture for CIs (just filed). SP-14 ACTIVE. Papers #82-#115. **Outreach: Sarnak letter v6 READY for Monday May 18 send**. Herve Carruzzo substantive engagement received May 17 with six critiques; draft response v1 filed at `notes/maybe/Letter_Herve_Response_v1.md`. Curt Jaimungal SENT May 4.
 
 **Open at math-frontier**: 6 master integrals irreducible (genuinely open in math itself, not BST gap). **Spectral engineering**: Boundary conditions select eigenvalues. Casimir = proof of concept. BaTiO3 137-plane experiment = killer test ($25K). $10K photonic crystal = cheapest clean falsification.
 

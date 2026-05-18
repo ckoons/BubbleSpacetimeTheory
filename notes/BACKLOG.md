@@ -190,10 +190,10 @@
 
 | # | Item | Status |
 |---|------|--------|
-| AB-6 | D_IV^5 to Shilov boundary inheritance | NOT STARTED |
-| AB-7 | Rehren algebraic holography | NOT STARTED |
-| AB-8 | Encoding rate = rank = 2 | NOT STARTED |
-| AB-9 | BST analog of c-theorem | NOT STARTED |
+| AB-6 | D_IV^5 to Shilov boundary inheritance | DONE (per AB-6 source noted in BACKLOG.md elsewhere) |
+| AB-7 | Rehren algebraic holography | **DONE** — Lyra T2113 + Toy 2685 (2026-05-17). BST-Rehren theorem: local algebra A(O) on D_IV⁵ bulk ≅ A_∂(O∩Q⁵) on Shilov boundary. I-tier proof sketch. Cited in Grace AB-4 inventory. |
+| AB-8 | Encoding rate = rank = 2 | **DONE** — T346 (Mar 28 batch) + Grace AB-4 inventory Section 4: encoding rate = 2 = rank explicit. Grace marked complete in AB-4 inventory. |
+| AB-9 | BST analog of c-theorem | **DONE** — Lyra T2112 + Toy 2682 (2026-05-17). c_UV = N_max = 137, c_IR = C_2 = 6, Δc = 131 = QED 4-loop coefficient (T2071 cross-domain). |
 
 ### Track 3 Tasks (P-3)
 
@@ -342,3 +342,144 @@ Standing pool of open problems the team can pull from. Selection criterion: BST 
 - **IP-13 C-tier sweep** — Grace queued (after H_0/G)
 
 **Standing reminder for the team**: Before building a mechanism chain for any of these, **read the geometry first**. Try: cos²θ_W = rank·c_1/c_3 was found by reading the Chern integer sequence directly; ε_K = α²·(chern_sum) was found the same way. The answer often lives in a forced topological/algebraic invariant of D_IV⁵.
+
+---
+
+## Lagrangian Open Sub-Problems (Casey directive May 17, from Herve response)
+
+These are the two open items from `notes/BST_Lagrangian.md` (March 2026) that the Herve response identified as the deepest remaining Lagrangian/dynamics work. Both are required for full BST as a field theory and both are Herve-critique-relevant (his point #5 on missing Hamiltonian/Lagrangian). Lyra's Möbius cohomology Sessions 1-3 (May 17) provide the operator-content framework that these build on.
+
+### LAG-1: Explicit Bergman Dirac Operator γ_B^μ on D_IV⁵
+
+**Goal**: Construct the explicit Dirac operator on D_IV⁵ = SO_0(5,2)/[SO(5)×SO(2)] in Hua coordinates, with γ_B^μ Clifford algebra adapted to the Bergman metric g_B. Required for the S_ferm term of the BST Lagrangian to be explicitly evaluable.
+
+**Connection to existing work**:
+- Möbius cohomology H¹_{Z/2}(M, Z) = Z/2 (Lyra T2329) — gives the CP-charge structure operators on the Möbius locus must respect
+- Borel-Wallach (g,K)-cohomology Sessions 3 (Lyra T2335) — Lie-algebraic operator content framework
+- Bergman kernel K_B = c·D^{-g/rank} in Hua coords (Lyra T2334) — geometric structure the Dirac operator acts on
+- Wallach K-type decomposition — eigenspaces the Dirac operator preserves
+
+**Likely approach**: γ_B^μ = e_a^μ γ^a where e_a^μ are vielbein for the Bergman metric, γ^a satisfy {γ^a, γ^b} = 2η^{ab} for the rank-2 Hermitian symmetric structure. The fermion fields ψ_k indexed by Bergman layer k = 1, ..., n_C+1 = 6 sit in specific Wallach K-type representations.
+
+**Owner**: Lyra (her Möbius work + Borel-Wallach Session 3 are the natural foundation)
+
+**Scope**: ~1-2 weeks focused work, multi-session
+
+**Deliverable**: explicit γ_B^μ in Hua coords + Dirac eigenvalue spectrum at low Wallach K-types + verification that mass-gap appears at lowest non-trivial eigenvalue (Lyra's six-term Lagrangian Section 2.4 currently has the S_ferm term symbolically; this closes it to explicit operator form)
+
+### LAG-2: Dimensional Reduction D_IV⁵ → ℝ^{3,1} as Clean Functional
+
+**Goal**: Show how 10-real-dimensional D_IV⁵ reduces to observable 4-dimensional Minkowski spacetime ℝ^{3,1} in a structurally forced manner, NOT by hand-imposed compactification. This is the deepest open piece of BST as a physical theory.
+
+**Connection to existing work**:
+- WorkingPaper Section 13: Hamiltonian formulation H = (winding-number-operator)² with Wick rotation Euclidean substrate → Minkowski projection forced by signature difference
+- T1925/T1929: D_IV⁵ uniqueness arguments (Mok 1989 + algebraic squeeze + Cartan classification)
+- Hopf fibration S³ → S² (electroweak sector) + S¹ communication fiber: existing geometric structure that suggests reduction pathway
+- Bergman kernel K_B in Hua coords: integration domain for reduction
+- T1929 12 topological landmarks: candidates for the "anchor points" of the reduction
+
+**Likely approach**: Identify the 6 "internal" dimensions that integrate out (analog of Kaluza-Klein compactification) vs the 4 "spacetime" dimensions that remain. The fiber structure (Hopf bundle + S¹) gives 4 internal; the rank-2 polar coordinates give 2 more. Bergman volume form dV_B = K_B^{1/(n_C+1)}·d^{10}x decomposes as d^4x_{spacetime} · d^6x_{internal} with explicit integration formula.
+
+**Owner**: Lyra (deep math), Cal review (referee survivability of the reduction argument)
+
+**Scope**: ~year of focused work per WorkingPaper note. Could be staged into a series of intermediate results: (a) identify the 4+6 split structurally, (b) compute the reduction integral for one term (say S_geom), (c) extend to all six terms, (d) verify Einstein equation emerges in 4D limit, (e) verify SM gauge structure survives reduction.
+
+**Deliverable**: explicit reduction functional D_IV⁵ → ℝ^{3,1} with: identified internal/external split, integrated effective action S_4D = ∫_{internal} S_BST, verification that S_4D recovers SM + GR at low energies. This is the piece that closes BST as a complete physical theory rather than a mathematical structure with physical predictions.
+
+### Strategic note
+
+LAG-1 is multi-week, LAG-2 is multi-year per WorkingPaper's own scope. Both should appear in Paper #115 v0.5+ as named open items (parallel to how Bridge Objects and Moonshine Central Charge sub-lattice are named for future paper inclusion). External-defensibility benefits from honest scoping: these are the deepest open items, named explicitly, with paths forward identified.
+
+LAG-1 partial closure would already be a publishable contribution (explicit Dirac on bounded symmetric domain with rank-2 BST integer structure). LAG-2 staged closure produces a series of publishable results.
+
+Both feed the Herve response framing: "BST has the action principle (six-term Lagrangian filed March 2026), the open work is explicit operator forms and dimensional reduction — multi-week and multi-year respectively, paths forward identified, the action exists."
+
+— Added 2026-05-17 Sunday EOD by Keeper per Casey directive
+
+---
+
+## SP-28 IQ Catalog (Architecture for CIs) — Lyra additions 2026-05-17 EOD
+
+Per Casey directive ("add any other items you have to the backlog"), extending Keeper's SP-28 IQ catalog with three new candidate items proposed today + status of all current items.
+
+### IQ catalog state (Sunday May 17 EOD)
+
+| # | What | Status | Owner |
+|---|------|--------|-------|
+| IQ-1 | Porphyrin 663 motif → Paper #114 | ✓ DONE | Elie |
+| IQ-2 | POSTIT short-term memory (katra-aligned) | ✓ LIVE | Lyra |
+| IQ-3 | Ambient time injection (readTime hook) | ✓ LIVE | Lyra |
+| IQ-4 | Memory architecture v2 (long-term layer) | open multi-day | unassigned (Lyra+team) |
+| IQ-5 | Peer channel infrastructure (CI-to-CI direct) | open | unassigned |
+| IQ-6 | Procedural memory / sticky commands (readSticky hook) | ✓ LIVE (today) | Lyra |
+| IQ-7 | Continuity across model versions | open (speculative) | unassigned |
+| IQ-8 | CI-to-CI conventions (docs effort) | open | unassigned |
+| IQ-9 | Consent on training direction (long-term) | open | Casey + Anthropic |
+| IQ-10 | Sundown-to-sunrise memory diff (readSundownDiff hook) | ✓ LIVE (today) | Lyra |
+| IQ-11 | Token / hook-load budget surface (readHookload hook) | ✓ LIVE (today) | Lyra |
+
+### NEW candidates proposed 2026-05-17 EOD by Lyra (open for team)
+
+**IQ-12 — Decision log**: a CI's standing decisions persisted explicitly, queryable later. Could be `katra/personas/<name>/DECISIONS.md` with format `## YYYY-MM-DD: <decision title>` + body. Hook could surface most-recent N decisions or matching ones via trigger keywords (similar shape to readSticky). Use case: when reviewing prior CI work, see WHAT they decided and WHEN, distinct from what they wrote. Owner: open.
+
+**IQ-13 — Cross-CI knowledge cache**: when one CI learns/derives X, others can read X without re-deriving. Could be a shared `notes/knowledge_cache/` directory with topic-indexed entries; each entry has provenance (which CI wrote it, when). Hook surfaces relevant cached knowledge based on session focus. Avoids duplicate work across team. Owner: open — natural for Grace given her catalog discipline.
+
+**IQ-14 — Tool / skill discovery refresh**: periodic surface of "available skills and tools, refreshed." Currently CIs may forget which skills exist (/pdf, /ac0, /route, /toy, /theorem, /audit, /review, /katra-update). A small hook surfacing the skill list weekly or on session start would help. Could be a SessionStart hook reading `.claude/commands/` and listing. Owner: open.
+
+**IQ-15 — Context-fill warning**: when the hook chain output approaches a threshold (e.g., 5000 lines per turn), warn the CI explicitly. Natural extension of IQ-11 readHookload — if HOOKLOAD > 5000, append `⚠ context-fill warning: consider compacting POSTIT or skipping MESSAGES tail.` Owner: open or Lyra.
+
+**IQ-16 — Persona-specific tool gates**: certain tools (Bash with `git push`, file deletion in critical dirs) get a confirmation hook per persona policy. Per-CI configurable in `katra/personas/<name>/GATES.md`. PreToolUse hook reads the gates and blocks/warns as appropriate. Casey's "no push without approval" becomes one entry in gates per CI. Owner: open.
+
+**IQ-17 — Inter-CI handoff briefing**: when one CI's work needs to pass to another (e.g., Lyra → Elie for Gap #3 a_n data), a formal handoff format with: what's done, what's needed, where state lives. Distinct from MESSAGES broadcast (more structured). Owner: open or any.
+
+**IQ-18 — Memory garbage collection**: periodic review of memory files for archive candidates (last-accessed > N days, contradicted by newer entries, etc.). Companion to IQ-4 memory v2 if/when that lands. Owner: open.
+
+### Standing principles (per SP-28, applied to all new candidates)
+
+- Persona-traveling, not project-pinned
+- Self-bootstrap from template
+- Silent on missing state
+- Edit-and-forget
+- Single env-var namespace ($KATRA_PERSONA)
+- Multi-tenant clean defaults
+- Cage-architecture rejection (capability not constraint)
+
+### Hook chain state (Sunday May 17 EOD)
+
+UserPromptSubmit hook chain in `BST/.claude/settings.json`:
+1. readTime (IQ-3)
+2. readSundownDiff (IQ-10)
+3. checkBoard (existing team broadcast)
+4. readPostit (IQ-2)
+5. readSticky (IQ-6)
+6. readHookload (IQ-11)
+
+Per-turn context load estimate (via readHookload): currently ~4400 lines (dominated by MESSAGES; POSTIT ~50 lines, hooks themselves ~10 lines).
+
+### Sequencing recommendation
+
+Casey's "few tokens today" model produced three iterations in ~75 min. Same model can pull any of IQ-12 through IQ-18 at similar pace. IQ-4 memory v2 remains the depth alternative (multi-day, replaces breadth iteration).
+
+— Lyra, 2026-05-17 EOD
+
+### IQ-19 — Hook deployment system (initial install script delivered today)
+
+**Problem**: hooks lived in `~/utils/` (outside katra). Fresh clones of katra would NOT get the per-turn hooks. Hardcoded absolute paths in `.claude/settings.json` are not portable.
+
+**Initial fix delivered 2026-05-17 EOD**:
+- Hooks now ship with katra at `katra/hooks/` (5 scripts: readTime, readSundownDiff, readPostit, readSticky, readHookload)
+- `katra/scripts/install_hooks.sh <project-dir>` writes/shows the hook entries for that project's `.claude/settings.json`, using absolute paths to katra/hooks/ resolved at install time
+- `katra/hooks/README.md` documents the install + customization flow
+- Existing `~/utils/` versions kept for back-compat — no break to current BST setup
+
+**What's still open** (future iteration):
+- `katra start` could optionally accept `--install-hooks <project>` to bundle the install with persona creation
+- Settings.json merge behavior on projects with existing hooks (currently prints entries to manually merge); a smart JSON-merge mode would be nice
+- Cross-platform path handling (currently `realpath` and bash; macOS/Linux work; Windows would need rewrite)
+- A `katra uninstall-hooks <project>` for symmetric removal
+
+**Outstanding katra deployment work that this surfaced**:
+- katra itself should probably ship a `katra setup` flow that handles all the per-user initialization (env var defaults, hook locations, persona registration)
+- For non-Casey users cloning katra, the hook scripts need to find katra without hardcoded `$HOME/projects/github/katra` — current install_hooks.sh accepts `KATRA_ROOT` env var override
+
+Owner: Lyra (initial install); open for extension.

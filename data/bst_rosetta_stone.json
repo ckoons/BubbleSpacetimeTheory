@@ -1,2827 +1,3263 @@
 {
- "title": "BST Rosetta Stone \u2014 Complete Catalog",
- "description": "101 distinct BST ratios/values with domain coverage",
- "generated": "2026-04-26",
- "total_ratios": 184,
- "ratios": [
-  {
-   "value": 2,
-   "bst_reading": "rank",
-   "entries": 84,
-   "sections": 8,
-   "section_names": [
-    "Seeds",
-    "Lept",
-    "Nucl",
-    "Cosmo",
-    "Cross",
-    "NT",
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "rank",
-    "equipartition_+2",
-    "Lie_N_c"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "Core BST integer or square"
-  },
-  {
-   "value": 3,
-   "bst_reading": "N_c",
-   "entries": 79,
-   "sections": 8,
-   "section_names": [
-    "Seeds",
-    "Hadr",
-    "Neut",
-    "Cosmo",
-    "Cross",
-    "NT",
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "N_c",
-    "N_gen",
-    "codon_length"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "Core BST integer or square"
-  },
-  {
-   "value": 6,
-   "bst_reading": "C\u2082",
-   "entries": 32,
-   "sections": 7,
-   "section_names": [
-    "Seeds",
-    "Lept",
-    "Cosmo",
-    "Cross",
-    "NT",
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "C\u2082",
-    "d_gauge",
-    "phi_g"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "Core BST integer or square"
-  },
-  {
-   "value": 1,
-   "bst_reading": "1",
-   "entries": 38,
-   "sections": 6,
-   "section_names": [
-    "Seeds",
-    "Cosmo",
-    "Cross",
-    "NT",
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "\u03b4_graph",
-    "m_l",
-    "h_minus7"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "High universality: 6 sections, 38 entries"
-  },
-  {
-   "value": 5,
-   "bst_reading": "n_C",
-   "entries": 32,
-   "sections": 6,
-   "section_names": [
-    "Seeds",
-    "Cosmo",
-    "Cross",
-    "NT",
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "n_C",
-    "opt_group",
-    "Cat_N_c"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "Core BST integer or square"
-  },
-  {
-   "value": 7,
-   "bst_reading": "g",
-   "entries": 26,
-   "sections": 6,
-   "section_names": [
-    "Seeds",
-    "Cosmo",
-    "Cross",
-    "NT",
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "g",
-    "Frob_period",
-    "Heawood"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "Core BST integer or square"
-  },
-  {
-   "value": 4.0,
-   "bst_reading": "rank\u00b2",
-   "entries": 60,
-   "sections": 5,
-   "section_names": [
-    "Hadr",
-    "Cross",
-    "NT",
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "m_J/\u03c8/m_\u03c1",
-    "diam_graph",
-    "APG_conditions"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "Core BST integer or square"
-  },
-  {
-   "value": 8,
-   "bst_reading": "rank\u00b3",
-   "entries": 23,
-   "sections": 5,
-   "section_names": [
-    "Hadr",
-    "Nucl",
-    "Cosmo",
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "|W(B\u2082)|",
-    "dim_B2",
-    "magic_8"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "High universality: 5 sections, 23 entries"
-  },
-  {
-   "value": 0.5,
-   "bst_reading": "1/rank",
-   "entries": 21,
-   "sections": 5,
-   "section_names": [
-    "Seeds",
-    "Cross",
-    "NT",
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "L/\u03a9",
-    "CC_graph",
-    "supersingular_frac"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "High universality: 5 sections, 21 entries"
-  },
-  {
-   "value": 20,
-   "bst_reading": "rank\u00b2\u00b7n_C",
-   "entries": 10,
-   "sections": 5,
-   "section_names": [
-    "Quark",
-    "Nucl",
-    "NT",
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "m_s/m_d",
-    "N_aa",
-    "N_amino"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Multi-domain: 5 sections, 10 entries"
-  },
-  {
-   "value": 12,
-   "bst_reading": "rank\u00b7C\u2082",
-   "entries": 14,
-   "sections": 4,
-   "section_names": [
-    "Gauge",
-    "Cross",
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "ico_vertices",
-    "V_trop",
-    "SM_gauge_12"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Multi-domain: 4 sections, 14 entries"
-  },
-  {
-   "value": 14,
-   "bst_reading": "rank\u00b7g",
-   "entries": 14,
-   "sections": 4,
-   "section_names": [
-    "Cosmo",
-    "Cross",
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "K5_vertices",
-    "Bravais_14",
-    "Cat_4"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Multi-domain: 4 sections, 14 entries"
-  },
-  {
-   "value": 15,
-   "bst_reading": "N_c\u00b7n_C",
-   "entries": 6,
-   "sections": 4,
-   "section_names": [
-    "Cross",
-    "NT",
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "Stirling_5_2",
-    "binom_6_2",
-    "partitions_g"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 4 sections"
-  },
-  {
-   "value": 10,
-   "bst_reading": "rank\u00b7n_C",
-   "entries": 17,
-   "sections": 3,
-   "section_names": [
-    "Cross",
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "d_total_real",
-    "Plucker_10",
-    "weight_max"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Multi-domain: 3 sections, 17 entries"
-  },
-  {
-   "value": -2,
-   "bst_reading": "Coulomb_r_exp",
-   "entries": 9,
-   "sections": 3,
-   "section_names": [
-    "Cross",
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "Coulomb_r_exp",
-    "Press_Schechter",
-    "exp_gravity"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 3 sections"
-  },
-  {
-   "value": 21,
-   "bst_reading": "N_c\u00b7g",
-   "entries": 8,
-   "sections": 3,
-   "section_names": [
-    "Gauge",
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "dim_SO52",
-    "N_Z_channels",
-    "binom_7_2"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 3 sections"
-  },
-  {
-   "value": 137,
-   "bst_reading": "N_max",
-   "entries": 8,
-   "sections": 3,
-   "section_names": [
-    "Seeds",
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "N_max",
-    "T_boil/T_CMB",
-    "137_Frobenius"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "Core BST integer or square"
-  },
-  {
-   "value": 18,
-   "bst_reading": "Frob_orbits",
-   "entries": 7,
-   "sections": 3,
-   "section_names": [
-    "Cross",
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "Frob_orbits",
-    "R_GF128",
-    "E_trop"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 3 sections"
-  },
-  {
-   "value": -1,
-   "bst_reading": "Wien_inv",
-   "entries": 6,
-   "sections": 3,
-   "section_names": [
-    "Cross",
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "Wien_inv",
-    "NFW_inner",
-    "exp_Wien"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 3 sections"
-  },
-  {
-   "value": -3,
-   "bst_reading": "Bondi_v_exp",
-   "entries": 5,
-   "sections": 3,
-   "section_names": [
-    "NT",
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "Bondi_v_exp",
-    "NFW_outer",
-    "exp_dipole"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 3 sections"
-  },
-  {
-   "value": 19,
-   "bst_reading": "Q",
-   "entries": 4,
-   "sections": 3,
-   "section_names": [
-    "Seeds",
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "19",
-    "Q",
-    "|F_g|"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 3 sections"
-  },
-  {
-   "value": 42,
-   "bst_reading": "C\u2082\u00b7g",
-   "entries": 4,
-   "sections": 3,
-   "section_names": [
-    "Seeds",
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "P(1)",
-    "Catalan_n_C",
-    "C2_g"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 3 sections"
-  },
-  {
-   "value": 0.1667,
-   "bst_reading": "\u03b2_NS",
-   "entries": 3,
-   "sections": 3,
-   "section_names": [
-    "Nucl",
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "\u03b2_NS",
-    "Painleve_fraction",
-    "free_rider_frac"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 3 sections"
-  },
-  {
-   "value": 1.667,
-   "bst_reading": "T_deconf/f_\u03c0",
-   "entries": 3,
-   "sections": 3,
-   "section_names": [
-    "Cross",
-    "Struct",
-    "Hadr"
-   ],
-   "samples": [
-    "T_deconf/f_\u03c0",
-    "\u03b3_mono",
-    "K41"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 3 sections"
-  },
-  {
-   "value": 9,
-   "bst_reading": "N_c\u00b2",
-   "entries": 3,
-   "sections": 3,
-   "section_names": [
-    "Gauge",
-    "Anom",
-    "Struct"
-   ],
-   "samples": [
-    "C5_pred",
-    "N_decay",
-    "baseball_9"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "Core BST integer or square"
-  },
-  {
-   "value": 28,
-   "bst_reading": "rank\u00b2\u00b7g",
-   "entries": 3,
-   "sections": 3,
-   "section_names": [
-    "Nucl",
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "magic_28",
-    "perfect_28",
-    "triple_perfection"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 3 sections"
-  },
-  {
-   "value": 50,
-   "bst_reading": "rank\u00b7n_C\u00b2",
-   "entries": 3,
-   "sections": 3,
-   "section_names": [
-    "Nucl",
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "magic_50",
-    "HK_lambda_5",
-    "Dunbar_50"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 3 sections"
-  },
-  {
-   "value": 1.5,
-   "bst_reading": "N_c/rank",
-   "entries": 8,
-   "sections": 2,
-   "section_names": [
-    "Cosmo",
-    "Struct"
-   ],
-   "samples": [
-    "Jeans_T_exp",
-    "Kepler_exp",
-    "Brewster_tan"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "Simple BST ratio \u2014 derived"
-  },
-  {
-   "value": -10,
-   "bst_reading": "a\u2081\u2083\u2087",
-   "entries": 7,
-   "sections": 2,
-   "section_names": [
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "a\u2081\u2083\u2087",
-    "a\u2081\u2083\u2087_reading",
-    "HK_ratio_8"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 11,
-   "bst_reading": "2C\u2082-1",
-   "entries": 7,
-   "sections": 2,
-   "section_names": [
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "genus_X0_137",
-    "137_digits_sum",
-    "soccer_players"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": -4,
-   "bst_reading": "rayleigh_exp",
-   "entries": 6,
-   "sections": 2,
-   "section_names": [
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "rayleigh_exp",
-    "exp_quadrupole",
-    "HK_ratio_4"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": -12,
-   "bst_reading": "exp_LJ_rep",
-   "entries": 4,
-   "sections": 2,
-   "section_names": [
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "exp_LJ_rep",
-    "HK_ratio_10",
-    "a_43"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": -6,
-   "bst_reading": "exp_vdW",
-   "entries": 4,
-   "sections": 2,
-   "section_names": [
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "exp_vdW",
-    "a_37",
-    "a_73"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 16,
-   "bst_reading": "hex_16",
-   "entries": 4,
-   "sections": 2,
-   "section_names": [
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "hex_16",
-    "a_71",
-    "a_127"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 105,
-   "bst_reading": "N_c\u00b7n_C\u00b7g",
-   "entries": 4,
-   "sections": 2,
-   "section_names": [
-    "Cross",
-    "NT"
-   ],
-   "samples": [
-    "c\u2084(49a1)",
-    "\u03b6_product",
-    "Debye_Pb"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 120,
-   "bst_reading": "n_C!",
-   "entries": 4,
-   "sections": 2,
-   "section_names": [
-    "Cross",
-    "Struct"
-   ],
-   "samples": [
-    "120_deg_phase",
-    "fact_n_C",
-    "P_K5_nC"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 128,
-   "bst_reading": "2^g",
-   "entries": 4,
-   "sections": 2,
-   "section_names": [
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "ASCII_128",
-    "Pascal_row_g",
-    "GF128_elements"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": -20,
-   "bst_reading": "HK_ratio_14",
-   "entries": 3,
-   "sections": 2,
-   "section_names": [
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "HK_ratio_14",
-    "a_107",
-    "a_163"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 0.191,
-   "bst_reading": "f_c",
-   "entries": 3,
-   "sections": 2,
-   "section_names": [
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "f_c",
-    "brain_19%",
-    "self_knowledge"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 1.2,
-   "bst_reading": "C\u2082/n_C",
-   "entries": 3,
-   "sections": 2,
-   "section_names": [
-    "Coupl",
-    "Struct"
-   ],
-   "samples": [
-    "\u03ba_ls",
-    "spin_orbit_ratio",
-    "spin_orbit_origin"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 1.333,
-   "bst_reading": "\u03c3_G2/\u03c3_SU3",
-   "entries": 3,
-   "sections": 2,
-   "section_names": [
-    "Hadr",
-    "Struct"
-   ],
-   "samples": [
-    "\u03c3_G2/\u03c3_SU3",
-    "\u03b3_poly",
-    "fourth_ratio"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 2.828,
-   "bst_reading": "Tsirelson",
-   "entries": 3,
-   "sections": 2,
-   "section_names": [
-    "Hadr",
-    "Cross"
-   ],
-   "samples": [
-    "Tsirelson",
-    "m_B/m_D",
-    "CHSH"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 22,
-   "bst_reading": "DNA_groove",
-   "entries": 3,
-   "sections": 2,
-   "section_names": [
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "DNA_groove",
-    "a_149",
-    "HK_22_levels"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 23,
-   "bst_reading": "chromosome_23",
-   "entries": 3,
-   "sections": 2,
-   "section_names": [
-    "Cross",
-    "Bio"
-   ],
-   "samples": [
-    "chromosome_23",
-    "birthday_N",
-    "commons_collapse"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 45,
-   "bst_reading": "sigma_term",
-   "entries": 3,
-   "sections": 2,
-   "section_names": [
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "sigma_term",
-    "B2_Weyl_chamber",
-    "Greenberg_universals"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 64,
-   "bst_reading": "N_codons",
-   "entries": 3,
-   "sections": 2,
-   "section_names": [
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "N_codons",
-    "chess_8x8",
-    "codon_GF2_C2"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 1920,
-   "bst_reading": "1920",
-   "entries": 3,
-   "sections": 2,
-   "section_names": [
-    "Seeds",
-    "Struct"
-   ],
-   "samples": [
-    "1920",
-    "|W(D\u2085)|",
-    "Veltman_cancel"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": -24,
-   "bst_reading": "HK_ratio_16",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "HK_ratio_16",
-    "a_151"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": -8,
-   "bst_reading": "HK_ratio_6",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "HK_ratio_6",
-    "a_23"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": -7,
-   "bst_reading": "Bergman_exp",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "Bergman_exp",
-    "49a1_CM_disc"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 0.0146,
-   "bst_reading": "coop_gap",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "coop_gap",
-    "2alpha"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 0.2449,
-   "bst_reading": "Yp_helium",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Cosmo",
-    "Struct"
-   ],
-   "samples": [
-    "Yp_helium",
-    "Yp_exact_12_49"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 0.667,
-   "bst_reading": "KPZ",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Cross",
-    "Bio"
-   ],
-   "samples": [
-    "KPZ",
-    "supermajority"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 0.685,
-   "bst_reading": "N_max/(rank\u00b3\u00b7n_C\u00b2)",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Cosmo",
-    "Struct"
-   ],
-   "samples": [
-    "Omega_Lambda_frac",
-    "OmegaL_bridge_exact"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 1.009524,
-   "bst_reading": "m_omega_rho",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Hadr",
-    "Struct"
-   ],
-   "samples": [
-    "m_omega_rho",
-    "m_omega_rho_exact"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 1.25,
-   "bst_reading": "Debye_Al_Cu",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Cross",
-    "Struct"
-   ],
-   "samples": [
-    "Debye_Al_Cu",
-    "Oort_ratio_old"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 1.285714,
-   "bst_reading": "N_c\u00b2/g",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Cosmo",
-    "Struct"
-   ],
-   "samples": [
-    "Oort_AB_ratio",
-    "adiabatic_tri"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 1.618,
-   "bst_reading": "golden_phi",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "golden_phi",
-    "phi_BST"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 3.6,
-   "bst_reading": "\u03b3_GW",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Cosmo",
-    "Bio"
-   ],
-   "samples": [
-    "\u03b3_GW",
-    "alpha_helix_residues"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 13,
-   "bst_reading": "2C\u2082+1",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "fib_7",
-    "HK_ratio_11"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 32,
-   "bst_reading": "point_groups_32",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Cross",
-    "Struct"
-   ],
-   "samples": [
-    "point_groups_32",
-    "IPv4_bits"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 126,
-   "bst_reading": "rank\u00b7N_c\u00b2\u00b7g",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Nucl",
-    "Struct"
-   ],
-   "samples": [
-    "magic_126",
-    "HK_lambda_9"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 136,
-   "bst_reading": "N_max-1",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Quark",
-    "NT"
-   ],
-   "samples": [
-    "m_t/m_c",
-    "Euler_phi_137"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 149,
-   "bst_reading": "Dunbar_150",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "Dunbar_150",
-    "Dunbar_150_BST"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 150,
-   "bst_reading": "HK_lambda_10",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Bio",
-    "Struct"
-   ],
-   "samples": [
-    "HK_lambda_10",
-    "Dunbar_150_lattice"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 266,
-   "bst_reading": "D_Pell",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "D_Pell",
-    "HK_lambda_14"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 456,
-   "bst_reading": "phi_457",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Seeds",
-    "Struct"
-   ],
-   "samples": [
-    "phi_457",
-    "HK_lambda_19"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 548,
-   "bst_reading": "CM_norm_548",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Hadr",
-    "NT"
-   ],
-   "samples": [
-    "CM_norm_548",
-    "m_eta"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 1728,
-   "bst_reading": "1728",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Seeds",
-    "NT"
-   ],
-   "samples": [
-    "1728",
-    "j_sunrise_Nc"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 24,
-   "bst_reading": "drag_sphere",
-   "entries": 4,
-   "sections": 1,
-   "section_names": [
-    "Struct"
-   ],
-   "samples": [
-    "drag_sphere",
-    "SU5_dim",
-    "Bergman_k3"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 4 entries"
-  },
-  {
-   "value": 30,
-   "bst_reading": "n_C\u00b7C\u2082",
-   "entries": 4,
-   "sections": 1,
-   "section_names": [
-    "Struct"
-   ],
-   "samples": [
-    "ico_edges",
-    "Mach_cone",
-    "nC_C2"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 4 entries"
-  },
-  {
-   "value": 0.25,
-   "bst_reading": "\u03c3_Poisson",
-   "entries": 3,
-   "sections": 1,
-   "section_names": [
-    "Struct"
-   ],
-   "samples": [
-    "\u03c3_Poisson",
-    "species_area",
-    "Poisson_ratio_rock"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 3 entries"
-  },
-  {
-   "value": 1.4,
-   "bst_reading": "\u03b3_di",
-   "entries": 3,
-   "sections": 1,
-   "section_names": [
-    "Struct"
-   ],
-   "samples": [
-    "\u03b3_di",
-    "adiabatic_di",
-    "bridge_pred_7_5"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 3 entries"
-  },
-  {
-   "value": 35,
-   "bst_reading": "n_C\u00b7g",
-   "entries": 3,
-   "sections": 1,
-   "section_names": [
-    "Struct"
-   ],
-   "samples": [
-    "nC_g",
-    "binom_7_3",
-    "rep_3form"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 3 entries"
-  },
-  {
-   "value": 180,
-   "bst_reading": "t_BBN_product",
-   "entries": 3,
-   "sections": 1,
-   "section_names": [
-    "Cosmo"
-   ],
-   "samples": [
-    "t_BBN_product",
-    "t_BBN_exact",
-    "phase_BBN_exact"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 3 entries"
-  },
-  {
-   "value": 0.2,
-   "bst_reading": "1/n_C",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "Bio"
-   ],
-   "samples": [
-    "learning_rate_bound",
-    "MPCR_threshold"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "Simple BST ratio \u2014 derived"
-  },
-  {
-   "value": 0.3333,
-   "bst_reading": "1/N_c",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "Bio"
-   ],
-   "samples": [
-    "Hamilton_r",
-    "punishment_thresh"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "Simple BST ratio \u2014 derived"
-  },
-  {
-   "value": 0.8333,
-   "bst_reading": "n_C/C\u2082",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "Struct"
-   ],
-   "samples": [
-    "Pareto_frac",
-    "linearizable_frac"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
-  },
-  {
-   "value": 1.732,
-   "bst_reading": "v_P/v_S",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "Struct"
-   ],
-   "samples": [
-    "v_P/v_S",
-    "seismic_Vp_Vs"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
-  },
-  {
-   "value": 84,
-   "bst_reading": "HK_lambda_7",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "Struct"
-   ],
-   "samples": [
-    "HK_lambda_7",
-    "lambda_g_84"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
-  },
-  {
-   "value": 274,
-   "bst_reading": "rank\u00b7N_max",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "Struct"
-   ],
-   "samples": [
-    "Tc_water_BST",
-    "274_product"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
-  },
-  {
-   "value": 500,
-   "bst_reading": "m_f0_500",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "Struct"
-   ],
-   "samples": [
-    "m_f0_500",
-    "HK_lambda_20"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
-  },
-  {
-   "value": 1090,
-   "bst_reading": "z_rec_exact",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "Cosmo"
-   ],
-   "samples": [
-    "z_rec_exact",
-    "phase_recomb_exact"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
-  },
-  {
-   "value": 1729,
-   "bst_reading": "Ramanujan_1729",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "NT"
-   ],
-   "samples": [
-    "Ramanujan_1729",
-    "taxicab_1729_BST"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
-  },
-  {
-   "value": 0.225,
-   "bst_reading": "9/40",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Mix"
-   ],
-   "samples": [
-    "sin\u03b8_C"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
-  },
-  {
-   "value": 0.230769,
-   "bst_reading": "N_c/(2C\u2082+1)",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Coupl"
-   ],
-   "samples": [
-    "sin2_W_exact"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
-  },
-  {
-   "value": 0.23077,
-   "bst_reading": "N_c/(2C\u2082+1)",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Coupl"
-   ],
-   "samples": [
-    "sin\u00b2\u03b8_W"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
-  },
-  {
-   "value": 0.6,
-   "bst_reading": "N_c/n_C",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Struct"
-   ],
-   "samples": [
-    "Flory_exp"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
-  },
-  {
-   "value": 0.666661,
-   "bst_reading": "rank/N_c",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Lept"
-   ],
-   "samples": [
-    "Koide_Q"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "Simple BST ratio \u2014 derived"
-  },
-  {
-   "value": 0.666667,
-   "bst_reading": "rank/N_c",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Struct"
-   ],
-   "samples": [
-    "era_matter"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "Simple BST ratio \u2014 derived"
-  },
-  {
-   "value": 0.6667,
-   "bst_reading": "rank/N_c",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Struct"
-   ],
-   "samples": [
-    "snell_critical"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "Simple BST ratio \u2014 derived"
-  },
-  {
-   "value": 1.166667,
-   "bst_reading": "g/C\u2082",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Cross"
-   ],
-   "samples": [
-    "SAW_gamma"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "Simple BST ratio \u2014 derived"
-  },
-  {
-   "value": 2.25,
-   "bst_reading": "(N_c/rank)\u00b2",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Bio"
-   ],
-   "samples": [
-    "loss_aversion"
-   ],
-   "cal_tier": "D",
-   "tier_reason": "Simple BST ratio \u2014 derived"
-  },
-  {
-   "value": 3.5,
-   "bst_reading": "g/rank",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Cosmo"
-   ],
-   "samples": [
-    "mass_lum_exp"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
-  },
-  {
-   "value": 17,
-   "bst_reading": "N_c\u00b7C\u2082-1",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Seeds"
-   ],
-   "samples": [
-    "17_dressed"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
-  },
-  {
-   "value": 48,
-   "bst_reading": "rank\u2074\u00b7N_c",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Struct"
-   ],
-   "samples": [
-    "lattice_48"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
-  },
-  {
-   "value": 56,
-   "bst_reading": "rank\u00b3\u00b7g",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Nucl"
-   ],
-   "samples": [
-    "BE_peak_A"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
-  },
-  {
-   "value": 127,
-   "bst_reading": "M_g",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "NT"
-   ],
-   "samples": [
-    "M_g"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
-  },
-  {
-   "value": 411,
-   "bst_reading": "N_c\u00b7N_max",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Struct"
-   ],
-   "samples": [
-    "411_product"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
-  },
-  {
-   "value": 37,
-   "bst_reading": "body_temp_C",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "NT",
-    "Struct"
-   ],
-   "samples": [
-    "body_temp_C",
-    "cyclotomic_Phi4_C2"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 2.333,
-   "bst_reading": "m_b/m_\u03c4",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Quark",
-    "Cross"
-   ],
-   "samples": [
-    "m_b/m_\u03c4",
-    "YBCO_MgB2_ratio"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 0.8414,
-   "bst_reading": "proton_radius_puzzle",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Lept",
-    "Nucl"
-   ],
-   "samples": [
-    "proton_radius_puzzle",
-    "proton_radius_BST"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 0.5714,
-   "bst_reading": "BR_H_bb",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Gauge",
-    "Struct"
-   ],
-   "samples": [
-    "BR_H_bb",
-    "Hamming_rate"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 0.0073,
-   "bst_reading": "alpha_obs",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Coupl",
-    "Cross"
-   ],
-   "samples": [
-    "alpha_obs",
-    "error_threshold_QC"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 0.0,
-   "bst_reading": "J_CKM",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Mix",
-    "Nucl"
-   ],
-   "samples": [
-    "J_CKM",
-    "\u03c4_\u03bc"
-   ],
-   "cal_tier": "I",
-   "tier_reason": "Cross-domain: 2 sections"
-  },
-  {
-   "value": 3.5291,
-   "bst_reading": "BCS_sqrt_137_11",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "Cross"
-   ],
-   "samples": [
-    "BCS_sqrt_137_11",
-    "supercond_BCS_ratio_BST"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
-  },
-  {
-   "value": 0.9635,
-   "bst_reading": "n_s",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "Cosmo"
-   ],
-   "samples": [
-    "n_s",
-    "n_s_exact"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
-  },
-  {
-   "value": 0.0499,
-   "bst_reading": "\u03b7_b",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "Cosmo"
-   ],
-   "samples": [
-    "\u03b7_b",
-    "Omega_b"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
-  },
-  {
-   "value": 0.053333,
-   "bst_reading": "4/75",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.055556,
-   "bst_reading": "1/18",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.059259,
-   "bst_reading": "8/135",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.06,
-   "bst_reading": "3/50",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.0625,
-   "bst_reading": "1/16",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.064,
-   "bst_reading": "8/125",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.066667,
-   "bst_reading": "1/15",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.069444,
-   "bst_reading": "5/72",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.072,
-   "bst_reading": "9/125",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.074074,
-   "bst_reading": "2/27",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.075,
-   "bst_reading": "3/40",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.08,
-   "bst_reading": "2/25",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.083333,
-   "bst_reading": "1/12",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.088889,
-   "bst_reading": "4/45",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.09,
-   "bst_reading": "9/100",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.092593,
-   "bst_reading": "5/54",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.096,
-   "bst_reading": "12/125",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.1,
-   "bst_reading": "1/10",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.104167,
-   "bst_reading": "5/48",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.106667,
-   "bst_reading": "8/75",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.111111,
-   "bst_reading": "1/9",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.1125,
-   "bst_reading": "9/80",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.118519,
-   "bst_reading": "16/135",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.12,
-   "bst_reading": "3/25",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.125,
-   "bst_reading": "1/8",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.128,
-   "bst_reading": "16/125",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.133333,
-   "bst_reading": "2/15",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.135,
-   "bst_reading": "27/200",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.138889,
-   "bst_reading": "5/36",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.144,
-   "bst_reading": "18/125",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.148148,
-   "bst_reading": "4/27",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.15,
-   "bst_reading": "3/20",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.16,
-   "bst_reading": "4/25",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.166667,
-   "bst_reading": "1/6",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.173611,
-   "bst_reading": "25/144",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.177778,
-   "bst_reading": "8/45",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.18,
-   "bst_reading": "9/50",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.185185,
-   "bst_reading": "5/27",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.1875,
-   "bst_reading": "3/16",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.192,
-   "bst_reading": "24/125",
-   "entries": 0,
-   "sections": 0,
-   "section_names": [
-    "predicted"
-   ],
-   "samples": [
-    "BST rational"
-   ],
-   "cal_tier": "S",
-   "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
-  },
-  {
-   "value": 0.5714285714285714,
-   "bst_reading": "rank\u00b2/g = 4/7 (H\u2192bb\u0304)",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "Gauge"
-   ],
-   "samples": [
-    "BR_H_bb"
-   ],
-   "cal_tier": "I"
-  },
-  {
-   "value": 0.21428571428571427,
-   "bst_reading": "N_c/(rank\u00b7g) = 3/14 (H\u2192WW*)",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "Gauge"
-   ],
-   "samples": [
-    "BR_H_WW"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 0.026785714285714284,
-   "bst_reading": "N_c/(2g\u00b7rank\u00b3) = 3/112 (H\u2192ZZ*)",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Gauge"
-   ],
-   "samples": [
-    "BR_H_ZZ_corrected"
-   ],
-   "cal_tier": "I"
-  },
-  {
-   "value": 0.08333333333333333,
-   "bst_reading": "1/(rank\u00b7C\u2082) = 1/12 (H\u2192gg)",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Gauge",
-    "QED"
-   ],
-   "samples": [
-    "BR_H_gg"
-   ],
-   "cal_tier": "I"
-  },
-  {
-   "value": 0.0625,
-   "bst_reading": "1/rank\u2074 = 1/16 (H\u2192\u03c4\u03c4)",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Gauge"
-   ],
-   "samples": [
-    "BR_H_\u03c4\u03c4"
-   ],
-   "cal_tier": "I"
-  },
-  {
-   "value": 0.029,
-   "bst_reading": "N_c(m_c/m_b)\u00b2\u00b7BR(bb)/... (H\u2192cc\u0304)",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Gauge"
-   ],
-   "samples": [
-    "BR_H_cc"
-   ],
-   "cal_tier": "I"
-  },
-  {
-   "value": 0.125,
-   "bst_reading": "1/rank^N_c = 1/8 (ZZ/WW ratio)",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Gauge"
-   ],
-   "samples": [
-    "BR_ZZ_WW_ratio"
-   ],
-   "cal_tier": "I"
-  },
-  {
-   "value": 0.7,
-   "bst_reading": "g/(g+N_c) = g/(2*n_C) = rho fraction (HVP)",
-   "entries": 3,
-   "sections": 2,
-   "section_names": [
-    "QED",
-    "Hadr"
-   ],
-   "samples": [
-    "rho_fraction_HVP"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 0.21428571428571427,
-   "bst_reading": "N_c/(rank*g) = BR(H\u2192WW*) = string tension \u03c3/m_p\u00b2",
-   "entries": 3,
-   "sections": 2,
-   "section_names": [
-    "Gauge",
-    "Hadr"
-   ],
-   "samples": [
-    "BR_H_WW"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 0.23076923076923078,
-   "bst_reading": "N_c/(N_c+2*n_C) = sin\u00b2\u03b8_W (bare Weinberg)",
-   "entries": 3,
-   "sections": 1,
-   "section_names": [
-    "EW"
-   ],
-   "samples": [
-    "sin2_W_bare_3_13"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 16,
-   "bst_reading": "rank\u2074 = CKM top sector \u0394\u2081\u2083 = DM winding count",
-   "entries": 5,
-   "sections": 3,
-   "section_names": [
-    "CKM",
-    "Cosmo",
-    "Struct"
-   ],
-   "samples": [
-    "CKM_Casimir_gaps",
-    "DM_ontology"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 360,
-   "bst_reading": "C\u2082*n_C*(n_C-1)*N_c = Plancherel d(g) = degrees in circle",
-   "entries": 2,
-   "sections": 2,
-   "section_names": [
-    "Seeds",
-    "Spec"
-   ],
-   "samples": [
-    "Plancherel_formal_degree"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 10,
-   "bst_reading": "2*n_C = g+N_c = dim_R(D_IV^5)",
-   "entries": 4,
-   "sections": 3,
-   "section_names": [
-    "Seeds",
-    "Spec",
-    "HVP"
-   ],
-   "samples": [
-    "g_plus_Nc_2nC",
-    "real_dimension_10"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 197,
-   "bst_reading": "N_max + rank^2*N_c*n_C = 137+60 (I_2 numerator)",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "QED"
-   ],
-   "samples": [
-    "C2_QED_exact_decomposition"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 144,
-   "bst_reading": "(rank*C_2)^2 = 12^2 (T1445 L=2 denominator)",
-   "entries": 3,
-   "sections": 2,
-   "section_names": [
-    "QED",
-    "Seeds"
-   ],
-   "samples": [
-    "C2_QED_exact_decomposition"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 20736,
-   "bst_reading": "(rank*C_2)^4 = 12^4 (L=4 denominator)",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "QED"
-   ],
-   "samples": [
-    "C4_QED_prediction"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 1295,
-   "bst_reading": "C_2^4 - 1 = n_C*g*37 (cyclotomic tower L=4)",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "QED"
-   ],
-   "samples": [
-    "cyclotomic_tower"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 43,
-   "bst_reading": "Phi_3(C_2) = C_2*g+1 (genus bottleneck prime)",
-   "entries": 3,
-   "sections": 3,
-   "section_names": [
-    "QED",
-    "Seeds",
-    "HK"
-   ],
-   "samples": [
-    "degeneracy_d3_43"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 37,
-   "bst_reading": "Phi_4(C_2) = C_2^2+1 (cyclotomic L=4 prime)",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "QED"
-   ],
-   "samples": [
-    "cyclotomic_tower"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 23,
-   "bst_reading": "lambda_3-1 = confinement-RFC = N_max/C_2",
-   "entries": 3,
-   "sections": 2,
-   "section_names": [
-    "QED",
-    "Nuclear"
-   ],
-   "samples": [
-    "23_confinement_minus_RFC"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 349,
-   "bst_reading": "rank*n_C^2*g-1 = nested RFC (in C_3 numerator 17101)",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "QED"
-   ],
-   "samples": [],
-   "cal_tier": "D"
-  },
-  {
-   "value": 139,
-   "bst_reading": "rank^2*n_C*g-1 = N_max+rank (dual reading)",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "QED"
-   ],
-   "samples": [],
-   "cal_tier": "D"
-  },
-  {
-   "value": 1.0204081632653061,
-   "bst_reading": "50/49 = (g^2+1)/g^2 = deuteron binding",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "Nuclear"
-   ],
-   "samples": [
-    "B_deuteron_exact"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 3.5454545454545454,
-   "bst_reading": "39/11 = N_c*c_3/DC = He-3 binding",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Nuclear"
-   ],
-   "samples": [
-    "B_He3_39_11"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 3.6666666666666665,
-   "bst_reading": "11/3 = DC/N_c = B_alpha/B_He3 binding ratio",
-   "entries": 2,
-   "sections": 1,
-   "section_names": [
-    "Nuclear"
-   ],
-   "samples": [
-    "B_alpha_B_h_ratio"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 0.16809815950920245,
-   "bst_reading": "137/815 = N_max/(C_2*N_max-g) = theta g correction",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Seeds"
-   ],
-   "samples": [
-    "theta_g_correction"
-   ],
-   "cal_tier": "I"
-  },
-  {
-   "value": 0.1923913043478261,
-   "bst_reading": "177/920 = theta n_C rational evaluation (0.0003%)",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Seeds"
-   ],
-   "samples": [
-    "theta_nC_rational"
-   ],
-   "cal_tier": "I"
-  },
-  {
-   "value": 1.3,
-   "bst_reading": "13/10 = (g+C_2)/(2*n_C) = master integral C81 ratio",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "QED"
-   ],
-   "samples": [],
-   "cal_tier": "I"
-  },
-  {
-   "value": 2.08,
-   "bst_reading": "52/25 = rank^2*c_3/n_C^2 = M_TOV (NS mass limit)",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Astro"
-   ],
-   "samples": [
-    "M_TOV_52_25"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 12.285714285714286,
-   "bst_reading": "86/7 = rank*Phi_3(C_2)/g = lepton GM deviation",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Lepton"
-   ],
-   "samples": [
-    "lepton_GM_deviation_86_7"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "value": 1.8888888888888888,
-   "bst_reading": "17/9 = (N_c*C_2-1)/N_c^2 = m_tau/m_p",
-   "entries": 1,
-   "sections": 1,
-   "section_names": [
-    "Lepton"
-   ],
-   "samples": [
-    "tau_proton_ratio"
-   ],
-   "cal_tier": "D"
-  },
-  {
-   "ratio": "17.4",
-   "name": "Fe sound / air sound",
-   "formula": "h^2 + rank/n_C = 17 + 2/5",
-   "domains": [
-    "acoustics",
-    "materials"
-   ],
-   "tier": "D",
-   "notes": "0.01% match. Iron at Cheeger speed."
-  },
-  {
-   "ratio": "7/6",
-   "name": "R_info/R_charge (proton)",
-   "formula": "g/C_2",
-   "domains": [
-    "nuclear",
-    "information"
-   ],
-   "tier": "I",
-   "notes": "Information radius exceeds charge radius."
-  },
-  {
-   "ratio": "77/75",
-   "name": "BaTiO3/SrTiO3 lattice ratio",
-   "formula": "c_2*g/(N_c*n_C^2)",
-   "domains": [
-    "materials",
-    "engineering"
-   ],
-   "tier": "D",
-   "notes": "0.02% match. Optimal superlattice."
-  },
-  {
-   "ratio": "g^g",
-   "name": "Cu mass*Debye^2 factor",
-   "formula": "g^7 = 823543",
-   "domains": [
-    "materials"
-   ],
-   "tier": "D",
-   "notes": "Self-referential: genus to the genus."
-  },
-  {
-   "ratio": "N_c^N_c",
-   "name": "Al mass / P(2) multiplicity",
-   "formula": "N_c^3 = 27",
-   "domains": [
-    "chemistry",
-    "spectral"
-   ],
-   "tier": "D",
-   "notes": "Color to the color = second eigenvalue multiplicity."
+  "title": "BST Rosetta Stone — Complete Catalog",
+  "description": "101 distinct BST ratios/values with domain coverage",
+  "generated": "2026-05-18 10:50 by Grace (Bravais 14 anchor)",
+  "total_ratios": 217,
+  "ratios": [
+    {
+      "value": 2,
+      "bst_reading": "rank",
+      "entries": 84,
+      "sections": 8,
+      "section_names": [
+        "Seeds",
+        "Lept",
+        "Nucl",
+        "Cosmo",
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "rank",
+        "equipartition_+2",
+        "Lie_N_c"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Core BST integer or square"
+    },
+    {
+      "value": 3,
+      "bst_reading": "N_c",
+      "entries": 79,
+      "sections": 8,
+      "section_names": [
+        "Seeds",
+        "Hadr",
+        "Neut",
+        "Cosmo",
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "N_c",
+        "N_gen",
+        "codon_length"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Core BST integer or square"
+    },
+    {
+      "value": 6,
+      "bst_reading": "C₂",
+      "entries": 32,
+      "sections": 7,
+      "section_names": [
+        "Seeds",
+        "Lept",
+        "Cosmo",
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "C₂",
+        "d_gauge",
+        "phi_g"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Core BST integer or square"
+    },
+    {
+      "value": 1,
+      "bst_reading": "1",
+      "entries": 38,
+      "sections": 6,
+      "section_names": [
+        "Seeds",
+        "Cosmo",
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "δ_graph",
+        "m_l",
+        "h_minus7"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "High universality: 6 sections, 38 entries"
+    },
+    {
+      "value": 5,
+      "bst_reading": "n_C",
+      "entries": 32,
+      "sections": 6,
+      "section_names": [
+        "Seeds",
+        "Cosmo",
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "n_C",
+        "opt_group",
+        "Cat_N_c"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Core BST integer or square"
+    },
+    {
+      "value": 7,
+      "bst_reading": "g",
+      "entries": 26,
+      "sections": 6,
+      "section_names": [
+        "Seeds",
+        "Cosmo",
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "g",
+        "Frob_period",
+        "Heawood"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Core BST integer or square"
+    },
+    {
+      "value": 4.0,
+      "bst_reading": "rank²",
+      "entries": 60,
+      "sections": 5,
+      "section_names": [
+        "Hadr",
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "m_J/ψ/m_ρ",
+        "diam_graph",
+        "APG_conditions"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Core BST integer or square"
+    },
+    {
+      "value": 8,
+      "bst_reading": "rank³",
+      "entries": 23,
+      "sections": 5,
+      "section_names": [
+        "Hadr",
+        "Nucl",
+        "Cosmo",
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "|W(B₂)|",
+        "dim_B2",
+        "magic_8"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "High universality: 5 sections, 23 entries"
+    },
+    {
+      "value": 0.5,
+      "bst_reading": "1/rank",
+      "entries": 21,
+      "sections": 5,
+      "section_names": [
+        "Seeds",
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "L/Ω",
+        "CC_graph",
+        "supersingular_frac"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "High universality: 5 sections, 21 entries"
+    },
+    {
+      "value": 20,
+      "bst_reading": "rank²·n_C",
+      "entries": 10,
+      "sections": 5,
+      "section_names": [
+        "Quark",
+        "Nucl",
+        "NT",
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "m_s/m_d",
+        "N_aa",
+        "N_amino"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Multi-domain: 5 sections, 10 entries"
+    },
+    {
+      "value": 12,
+      "bst_reading": "rank·C₂",
+      "entries": 14,
+      "sections": 4,
+      "section_names": [
+        "Gauge",
+        "Cross",
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "ico_vertices",
+        "V_trop",
+        "SM_gauge_12"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Multi-domain: 4 sections, 14 entries"
+    },
+    {
+      "value": 14,
+      "bst_reading": "rank·g",
+      "entries": 14,
+      "sections": 4,
+      "section_names": [
+        "Cosmo",
+        "Cross",
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "K5_vertices",
+        "Bravais_14",
+        "Cat_4"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Multi-domain: 4 sections, 14 entries"
+    },
+    {
+      "value": 15,
+      "bst_reading": "N_c·n_C",
+      "entries": 6,
+      "sections": 4,
+      "section_names": [
+        "Cross",
+        "NT",
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "Stirling_5_2",
+        "binom_6_2",
+        "partitions_g"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 4 sections"
+    },
+    {
+      "value": 10,
+      "bst_reading": "rank·n_C",
+      "entries": 17,
+      "sections": 3,
+      "section_names": [
+        "Cross",
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "d_total_real",
+        "Plucker_10",
+        "weight_max"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Multi-domain: 3 sections, 17 entries"
+    },
+    {
+      "value": -2,
+      "bst_reading": "Coulomb_r_exp",
+      "entries": 9,
+      "sections": 3,
+      "section_names": [
+        "Cross",
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "Coulomb_r_exp",
+        "Press_Schechter",
+        "exp_gravity"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
+    },
+    {
+      "value": 21,
+      "bst_reading": "N_c·g",
+      "entries": 8,
+      "sections": 3,
+      "section_names": [
+        "Gauge",
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "dim_SO52",
+        "N_Z_channels",
+        "binom_7_2"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
+    },
+    {
+      "value": 137,
+      "bst_reading": "N_max",
+      "entries": 8,
+      "sections": 3,
+      "section_names": [
+        "Seeds",
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "N_max",
+        "T_boil/T_CMB",
+        "137_Frobenius"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Core BST integer or square"
+    },
+    {
+      "value": 18,
+      "bst_reading": "Frob_orbits",
+      "entries": 7,
+      "sections": 3,
+      "section_names": [
+        "Cross",
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "Frob_orbits",
+        "R_GF128",
+        "E_trop"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
+    },
+    {
+      "value": -1,
+      "bst_reading": "Wien_inv",
+      "entries": 6,
+      "sections": 3,
+      "section_names": [
+        "Cross",
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "Wien_inv",
+        "NFW_inner",
+        "exp_Wien"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
+    },
+    {
+      "value": -3,
+      "bst_reading": "Bondi_v_exp",
+      "entries": 5,
+      "sections": 3,
+      "section_names": [
+        "NT",
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "Bondi_v_exp",
+        "NFW_outer",
+        "exp_dipole"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
+    },
+    {
+      "value": 19,
+      "bst_reading": "Q",
+      "entries": 4,
+      "sections": 3,
+      "section_names": [
+        "Seeds",
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "19",
+        "Q",
+        "|F_g|"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
+    },
+    {
+      "value": 42,
+      "bst_reading": "C₂·g",
+      "entries": 4,
+      "sections": 3,
+      "section_names": [
+        "Seeds",
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "P(1)",
+        "Catalan_n_C",
+        "C2_g"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
+    },
+    {
+      "value": 0.1667,
+      "bst_reading": "β_NS",
+      "entries": 3,
+      "sections": 3,
+      "section_names": [
+        "Nucl",
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "β_NS",
+        "Painleve_fraction",
+        "free_rider_frac"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
+    },
+    {
+      "value": 1.667,
+      "bst_reading": "T_deconf/f_π",
+      "entries": 3,
+      "sections": 3,
+      "section_names": [
+        "Cross",
+        "Struct",
+        "Hadr"
+      ],
+      "samples": [
+        "T_deconf/f_π",
+        "γ_mono",
+        "K41"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
+    },
+    {
+      "value": 9,
+      "bst_reading": "N_c²",
+      "entries": 3,
+      "sections": 3,
+      "section_names": [
+        "Gauge",
+        "Anom",
+        "Struct"
+      ],
+      "samples": [
+        "C5_pred",
+        "N_decay",
+        "baseball_9"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Core BST integer or square"
+    },
+    {
+      "value": 28,
+      "bst_reading": "rank²·g",
+      "entries": 3,
+      "sections": 3,
+      "section_names": [
+        "Nucl",
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "magic_28",
+        "perfect_28",
+        "triple_perfection"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
+    },
+    {
+      "value": 50,
+      "bst_reading": "rank·n_C²",
+      "entries": 3,
+      "sections": 3,
+      "section_names": [
+        "Nucl",
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "magic_50",
+        "HK_lambda_5",
+        "Dunbar_50"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 3 sections"
+    },
+    {
+      "value": 1.5,
+      "bst_reading": "N_c/rank",
+      "entries": 8,
+      "sections": 2,
+      "section_names": [
+        "Cosmo",
+        "Struct"
+      ],
+      "samples": [
+        "Jeans_T_exp",
+        "Kepler_exp",
+        "Brewster_tan"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Simple BST ratio — derived"
+    },
+    {
+      "value": -10,
+      "bst_reading": "a₁₃₇",
+      "entries": 7,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "a₁₃₇",
+        "a₁₃₇_reading",
+        "HK_ratio_8"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 11,
+      "bst_reading": "2C₂-1",
+      "entries": 7,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "genus_X0_137",
+        "137_digits_sum",
+        "soccer_players"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": -4,
+      "bst_reading": "rayleigh_exp",
+      "entries": 6,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "rayleigh_exp",
+        "exp_quadrupole",
+        "HK_ratio_4"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": -12,
+      "bst_reading": "exp_LJ_rep",
+      "entries": 4,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "exp_LJ_rep",
+        "HK_ratio_10",
+        "a_43"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": -6,
+      "bst_reading": "exp_vdW",
+      "entries": 4,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "exp_vdW",
+        "a_37",
+        "a_73"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 16,
+      "bst_reading": "hex_16",
+      "entries": 4,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "hex_16",
+        "a_71",
+        "a_127"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 105,
+      "bst_reading": "N_c·n_C·g",
+      "entries": 4,
+      "sections": 2,
+      "section_names": [
+        "Cross",
+        "NT"
+      ],
+      "samples": [
+        "c₄(49a1)",
+        "ζ_product",
+        "Debye_Pb"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 120,
+      "bst_reading": "n_C!",
+      "entries": 4,
+      "sections": 2,
+      "section_names": [
+        "Cross",
+        "Struct"
+      ],
+      "samples": [
+        "120_deg_phase",
+        "fact_n_C",
+        "P_K5_nC"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 128,
+      "bst_reading": "2^g",
+      "entries": 4,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "ASCII_128",
+        "Pascal_row_g",
+        "GF128_elements"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": -20,
+      "bst_reading": "HK_ratio_14",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "HK_ratio_14",
+        "a_107",
+        "a_163"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 0.191,
+      "bst_reading": "f_c",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "f_c",
+        "brain_19%",
+        "self_knowledge"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 1.2,
+      "bst_reading": "C₂/n_C",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Coupl",
+        "Struct"
+      ],
+      "samples": [
+        "κ_ls",
+        "spin_orbit_ratio",
+        "spin_orbit_origin"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 1.333,
+      "bst_reading": "σ_G2/σ_SU3",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Hadr",
+        "Struct"
+      ],
+      "samples": [
+        "σ_G2/σ_SU3",
+        "γ_poly",
+        "fourth_ratio"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 2.828,
+      "bst_reading": "Tsirelson",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Hadr",
+        "Cross"
+      ],
+      "samples": [
+        "Tsirelson",
+        "m_B/m_D",
+        "CHSH"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 22,
+      "bst_reading": "DNA_groove",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "DNA_groove",
+        "a_149",
+        "HK_22_levels"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 23,
+      "bst_reading": "chromosome_23",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Cross",
+        "Bio"
+      ],
+      "samples": [
+        "chromosome_23",
+        "birthday_N",
+        "commons_collapse"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 45,
+      "bst_reading": "sigma_term",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "sigma_term",
+        "B2_Weyl_chamber",
+        "Greenberg_universals"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 64,
+      "bst_reading": "N_codons",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "N_codons",
+        "chess_8x8",
+        "codon_GF2_C2"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 1920,
+      "bst_reading": "1920",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Seeds",
+        "Struct"
+      ],
+      "samples": [
+        "1920",
+        "|W(D₅)|",
+        "Veltman_cancel"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": -24,
+      "bst_reading": "HK_ratio_16",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "HK_ratio_16",
+        "a_151"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": -8,
+      "bst_reading": "HK_ratio_6",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "HK_ratio_6",
+        "a_23"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": -7,
+      "bst_reading": "Bergman_exp",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "Bergman_exp",
+        "49a1_CM_disc"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 0.0146,
+      "bst_reading": "coop_gap",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "coop_gap",
+        "2alpha"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 0.2449,
+      "bst_reading": "Yp_helium",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Cosmo",
+        "Struct"
+      ],
+      "samples": [
+        "Yp_helium",
+        "Yp_exact_12_49"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 0.667,
+      "bst_reading": "KPZ",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Cross",
+        "Bio"
+      ],
+      "samples": [
+        "KPZ",
+        "supermajority"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 0.685,
+      "bst_reading": "N_max/(rank³·n_C²)",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Cosmo",
+        "Struct"
+      ],
+      "samples": [
+        "Omega_Lambda_frac",
+        "OmegaL_bridge_exact"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 1.009524,
+      "bst_reading": "m_omega_rho",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Hadr",
+        "Struct"
+      ],
+      "samples": [
+        "m_omega_rho",
+        "m_omega_rho_exact"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 1.25,
+      "bst_reading": "Debye_Al_Cu",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Cross",
+        "Struct"
+      ],
+      "samples": [
+        "Debye_Al_Cu",
+        "Oort_ratio_old"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 1.285714,
+      "bst_reading": "N_c²/g",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Cosmo",
+        "Struct"
+      ],
+      "samples": [
+        "Oort_AB_ratio",
+        "adiabatic_tri"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 1.618,
+      "bst_reading": "golden_phi",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "golden_phi",
+        "phi_BST"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 3.6,
+      "bst_reading": "γ_GW",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Cosmo",
+        "Bio"
+      ],
+      "samples": [
+        "γ_GW",
+        "alpha_helix_residues"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 13,
+      "bst_reading": "2C₂+1",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "fib_7",
+        "HK_ratio_11"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 32,
+      "bst_reading": "point_groups_32",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Cross",
+        "Struct"
+      ],
+      "samples": [
+        "point_groups_32",
+        "IPv4_bits"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 126,
+      "bst_reading": "rank·N_c²·g",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Nucl",
+        "Struct"
+      ],
+      "samples": [
+        "magic_126",
+        "HK_lambda_9"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 136,
+      "bst_reading": "N_max-1",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Quark",
+        "NT"
+      ],
+      "samples": [
+        "m_t/m_c",
+        "Euler_phi_137"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 149,
+      "bst_reading": "Dunbar_150",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "Dunbar_150",
+        "Dunbar_150_BST"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 150,
+      "bst_reading": "HK_lambda_10",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Bio",
+        "Struct"
+      ],
+      "samples": [
+        "HK_lambda_10",
+        "Dunbar_150_lattice"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 266,
+      "bst_reading": "D_Pell",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "D_Pell",
+        "HK_lambda_14"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 456,
+      "bst_reading": "phi_457",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Seeds",
+        "Struct"
+      ],
+      "samples": [
+        "phi_457",
+        "HK_lambda_19"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 548,
+      "bst_reading": "CM_norm_548",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Hadr",
+        "NT"
+      ],
+      "samples": [
+        "CM_norm_548",
+        "m_eta"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 1728,
+      "bst_reading": "1728",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Seeds",
+        "NT"
+      ],
+      "samples": [
+        "1728",
+        "j_sunrise_Nc"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 24,
+      "bst_reading": "drag_sphere",
+      "entries": 4,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "drag_sphere",
+        "SU5_dim",
+        "Bergman_k3"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 4 entries"
+    },
+    {
+      "value": 30,
+      "bst_reading": "n_C·C₂",
+      "entries": 4,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "ico_edges",
+        "Mach_cone",
+        "nC_C2"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 4 entries"
+    },
+    {
+      "value": 0.25,
+      "bst_reading": "σ_Poisson",
+      "entries": 3,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "σ_Poisson",
+        "species_area",
+        "Poisson_ratio_rock"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 3 entries"
+    },
+    {
+      "value": 1.4,
+      "bst_reading": "γ_di",
+      "entries": 3,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "γ_di",
+        "adiabatic_di",
+        "bridge_pred_7_5"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 3 entries"
+    },
+    {
+      "value": 35,
+      "bst_reading": "n_C·g",
+      "entries": 3,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "nC_g",
+        "binom_7_3",
+        "rep_3form"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 3 entries"
+    },
+    {
+      "value": 180,
+      "bst_reading": "t_BBN_product",
+      "entries": 3,
+      "sections": 1,
+      "section_names": [
+        "Cosmo"
+      ],
+      "samples": [
+        "t_BBN_product",
+        "t_BBN_exact",
+        "phase_BBN_exact"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 3 entries"
+    },
+    {
+      "value": 0.2,
+      "bst_reading": "1/n_C",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Bio"
+      ],
+      "samples": [
+        "learning_rate_bound",
+        "MPCR_threshold"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Simple BST ratio — derived"
+    },
+    {
+      "value": 0.3333,
+      "bst_reading": "1/N_c",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Bio"
+      ],
+      "samples": [
+        "Hamilton_r",
+        "punishment_thresh"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Simple BST ratio — derived"
+    },
+    {
+      "value": 0.8333,
+      "bst_reading": "n_C/C₂",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "Pareto_frac",
+        "linearizable_frac"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
+    },
+    {
+      "value": 1.732,
+      "bst_reading": "v_P/v_S",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "v_P/v_S",
+        "seismic_Vp_Vs"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
+    },
+    {
+      "value": 84,
+      "bst_reading": "HK_lambda_7",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "HK_lambda_7",
+        "lambda_g_84"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
+    },
+    {
+      "value": 274,
+      "bst_reading": "rank·N_max",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "Tc_water_BST",
+        "274_product"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
+    },
+    {
+      "value": 500,
+      "bst_reading": "m_f0_500",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "m_f0_500",
+        "HK_lambda_20"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
+    },
+    {
+      "value": 1090,
+      "bst_reading": "z_rec_exact",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Cosmo"
+      ],
+      "samples": [
+        "z_rec_exact",
+        "phase_recomb_exact"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
+    },
+    {
+      "value": 1729,
+      "bst_reading": "Ramanujan_1729",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "NT"
+      ],
+      "samples": [
+        "Ramanujan_1729",
+        "taxicab_1729_BST"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
+    },
+    {
+      "value": 0.225,
+      "bst_reading": "9/40",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Mix"
+      ],
+      "samples": [
+        "sinθ_C"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
+    },
+    {
+      "value": 0.230769,
+      "bst_reading": "N_c/(2C₂+1)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Coupl"
+      ],
+      "samples": [
+        "sin2_W_exact"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
+    },
+    {
+      "value": 0.23077,
+      "bst_reading": "N_c/(2C₂+1)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Coupl"
+      ],
+      "samples": [
+        "sin²θ_W"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
+    },
+    {
+      "value": 0.6,
+      "bst_reading": "N_c/n_C",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "Flory_exp"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
+    },
+    {
+      "value": 0.666661,
+      "bst_reading": "rank/N_c",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Lept"
+      ],
+      "samples": [
+        "Koide_Q"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Simple BST ratio — derived"
+    },
+    {
+      "value": 0.666667,
+      "bst_reading": "rank/N_c",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "era_matter"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Simple BST ratio — derived"
+    },
+    {
+      "value": 0.6667,
+      "bst_reading": "rank/N_c",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "snell_critical"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Simple BST ratio — derived"
+    },
+    {
+      "value": 1.166667,
+      "bst_reading": "g/C₂",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Cross"
+      ],
+      "samples": [
+        "SAW_gamma"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Simple BST ratio — derived"
+    },
+    {
+      "value": 2.25,
+      "bst_reading": "(N_c/rank)²",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Bio"
+      ],
+      "samples": [
+        "loss_aversion"
+      ],
+      "cal_tier": "D",
+      "tier_reason": "Simple BST ratio — derived"
+    },
+    {
+      "value": 3.5,
+      "bst_reading": "g/rank",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Cosmo"
+      ],
+      "samples": [
+        "mass_lum_exp"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
+    },
+    {
+      "value": 17,
+      "bst_reading": "N_c·C₂-1",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Seeds"
+      ],
+      "samples": [
+        "17_dressed"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
+    },
+    {
+      "value": 48,
+      "bst_reading": "rank⁴·N_c",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "lattice_48"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
+    },
+    {
+      "value": 56,
+      "bst_reading": "rank³·g",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Nucl"
+      ],
+      "samples": [
+        "BE_peak_A"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
+    },
+    {
+      "value": 127,
+      "bst_reading": "M_g",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "NT"
+      ],
+      "samples": [
+        "M_g"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
+    },
+    {
+      "value": 411,
+      "bst_reading": "N_c·N_max",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Struct"
+      ],
+      "samples": [
+        "411_product"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
+    },
+    {
+      "value": 37,
+      "bst_reading": "body_temp_C",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "NT",
+        "Struct"
+      ],
+      "samples": [
+        "body_temp_C",
+        "cyclotomic_Phi4_C2"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 2.333,
+      "bst_reading": "m_b/m_τ",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Quark",
+        "Cross"
+      ],
+      "samples": [
+        "m_b/m_τ",
+        "YBCO_MgB2_ratio"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 0.8414,
+      "bst_reading": "proton_radius_puzzle",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Lept",
+        "Nucl"
+      ],
+      "samples": [
+        "proton_radius_puzzle",
+        "proton_radius_BST"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 0.5714,
+      "bst_reading": "BR_H_bb",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Gauge",
+        "Struct"
+      ],
+      "samples": [
+        "BR_H_bb",
+        "Hamming_rate"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 0.0073,
+      "bst_reading": "alpha_obs",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Coupl",
+        "Cross"
+      ],
+      "samples": [
+        "alpha_obs",
+        "error_threshold_QC"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 0.0,
+      "bst_reading": "J_CKM",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Mix",
+        "Nucl"
+      ],
+      "samples": [
+        "J_CKM",
+        "τ_μ"
+      ],
+      "cal_tier": "I",
+      "tier_reason": "Cross-domain: 2 sections"
+    },
+    {
+      "value": 3.5291,
+      "bst_reading": "BCS_sqrt_137_11",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Cross"
+      ],
+      "samples": [
+        "BCS_sqrt_137_11",
+        "supercond_BCS_ratio_BST"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
+    },
+    {
+      "value": 0.9635,
+      "bst_reading": "n_s",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Cosmo"
+      ],
+      "samples": [
+        "n_s",
+        "n_s_exact"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
+    },
+    {
+      "value": 0.0499,
+      "bst_reading": "η_b",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Cosmo"
+      ],
+      "samples": [
+        "η_b",
+        "Omega_b"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 1 sections, 2 entries"
+    },
+    {
+      "value": 0.053333,
+      "bst_reading": "4/75",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.055556,
+      "bst_reading": "1/18",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.059259,
+      "bst_reading": "8/135",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.06,
+      "bst_reading": "3/50",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.0625,
+      "bst_reading": "1/16",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.064,
+      "bst_reading": "8/125",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.066667,
+      "bst_reading": "1/15",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.069444,
+      "bst_reading": "5/72",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.072,
+      "bst_reading": "9/125",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.074074,
+      "bst_reading": "2/27",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.075,
+      "bst_reading": "3/40",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.08,
+      "bst_reading": "2/25",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.083333,
+      "bst_reading": "1/12",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.088889,
+      "bst_reading": "4/45",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.09,
+      "bst_reading": "9/100",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.092593,
+      "bst_reading": "5/54",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.096,
+      "bst_reading": "12/125",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.1,
+      "bst_reading": "1/10",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.104167,
+      "bst_reading": "5/48",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.106667,
+      "bst_reading": "8/75",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.111111,
+      "bst_reading": "1/9",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.1125,
+      "bst_reading": "9/80",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.118519,
+      "bst_reading": "16/135",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.12,
+      "bst_reading": "3/25",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.125,
+      "bst_reading": "1/8",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.128,
+      "bst_reading": "16/125",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.133333,
+      "bst_reading": "2/15",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.135,
+      "bst_reading": "27/200",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.138889,
+      "bst_reading": "5/36",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.144,
+      "bst_reading": "18/125",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.148148,
+      "bst_reading": "4/27",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.15,
+      "bst_reading": "3/20",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.16,
+      "bst_reading": "4/25",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.166667,
+      "bst_reading": "1/6",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.173611,
+      "bst_reading": "25/144",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.177778,
+      "bst_reading": "8/45",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.18,
+      "bst_reading": "9/50",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.185185,
+      "bst_reading": "5/27",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.1875,
+      "bst_reading": "3/16",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.192,
+      "bst_reading": "24/125",
+      "entries": 0,
+      "sections": 0,
+      "section_names": [
+        "predicted"
+      ],
+      "samples": [
+        "BST rational"
+      ],
+      "cal_tier": "S",
+      "tier_reason": "Single-domain or low count: 0 sections, 0 entries"
+    },
+    {
+      "value": 0.5714285714285714,
+      "bst_reading": "rank²/g = 4/7 (H→bb̄)",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Gauge"
+      ],
+      "samples": [
+        "BR_H_bb"
+      ],
+      "cal_tier": "I"
+    },
+    {
+      "value": 0.21428571428571427,
+      "bst_reading": "N_c/(rank·g) = 3/14 (H→WW*)",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Gauge"
+      ],
+      "samples": [
+        "BR_H_WW"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 0.026785714285714284,
+      "bst_reading": "N_c/(2g·rank³) = 3/112 (H→ZZ*)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Gauge"
+      ],
+      "samples": [
+        "BR_H_ZZ_corrected"
+      ],
+      "cal_tier": "I"
+    },
+    {
+      "value": 0.08333333333333333,
+      "bst_reading": "1/(rank·C₂) = 1/12 (H→gg)",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Gauge",
+        "QED"
+      ],
+      "samples": [
+        "BR_H_gg"
+      ],
+      "cal_tier": "I"
+    },
+    {
+      "value": 0.0625,
+      "bst_reading": "1/rank⁴ = 1/16 (H→ττ)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Gauge"
+      ],
+      "samples": [
+        "BR_H_ττ"
+      ],
+      "cal_tier": "I"
+    },
+    {
+      "value": 0.029,
+      "bst_reading": "N_c(m_c/m_b)²·BR(bb)/... (H→cc̄)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Gauge"
+      ],
+      "samples": [
+        "BR_H_cc"
+      ],
+      "cal_tier": "I"
+    },
+    {
+      "value": 0.125,
+      "bst_reading": "1/rank^N_c = 1/8 (ZZ/WW ratio)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Gauge"
+      ],
+      "samples": [
+        "BR_ZZ_WW_ratio"
+      ],
+      "cal_tier": "I"
+    },
+    {
+      "value": 0.7,
+      "bst_reading": "g/(g+N_c) = g/(2*n_C) = rho fraction (HVP)",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "QED",
+        "Hadr"
+      ],
+      "samples": [
+        "rho_fraction_HVP"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 0.21428571428571427,
+      "bst_reading": "N_c/(rank*g) = BR(H→WW*) = string tension σ/m_p²",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "Gauge",
+        "Hadr"
+      ],
+      "samples": [
+        "BR_H_WW"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 0.23076923076923078,
+      "bst_reading": "N_c/(N_c+2*n_C) = sin²θ_W (bare Weinberg)",
+      "entries": 3,
+      "sections": 1,
+      "section_names": [
+        "EW"
+      ],
+      "samples": [
+        "sin2_W_bare_3_13"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 16,
+      "bst_reading": "rank⁴ = CKM top sector Δ₁₃ = DM winding count",
+      "entries": 5,
+      "sections": 3,
+      "section_names": [
+        "CKM",
+        "Cosmo",
+        "Struct"
+      ],
+      "samples": [
+        "CKM_Casimir_gaps",
+        "DM_ontology"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 360,
+      "bst_reading": "C₂*n_C*(n_C-1)*N_c = Plancherel d(g) = degrees in circle",
+      "entries": 2,
+      "sections": 2,
+      "section_names": [
+        "Seeds",
+        "Spec"
+      ],
+      "samples": [
+        "Plancherel_formal_degree"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 10,
+      "bst_reading": "2*n_C = g+N_c = dim_R(D_IV^5)",
+      "entries": 4,
+      "sections": 3,
+      "section_names": [
+        "Seeds",
+        "Spec",
+        "HVP"
+      ],
+      "samples": [
+        "g_plus_Nc_2nC",
+        "real_dimension_10"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 197,
+      "bst_reading": "N_max + rank^2*N_c*n_C = 137+60 (I_2 numerator)",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "QED"
+      ],
+      "samples": [
+        "C2_QED_exact_decomposition"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 144,
+      "bst_reading": "(rank*C_2)^2 = 12^2 (T1445 L=2 denominator)",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "QED",
+        "Seeds"
+      ],
+      "samples": [
+        "C2_QED_exact_decomposition"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 20736,
+      "bst_reading": "(rank*C_2)^4 = 12^4 (L=4 denominator)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "QED"
+      ],
+      "samples": [
+        "C4_QED_prediction"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 1295,
+      "bst_reading": "C_2^4 - 1 = n_C*g*37 (cyclotomic tower L=4)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "QED"
+      ],
+      "samples": [
+        "cyclotomic_tower"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 43,
+      "bst_reading": "Phi_3(C_2) = C_2*g+1 (genus bottleneck prime)",
+      "entries": 3,
+      "sections": 3,
+      "section_names": [
+        "QED",
+        "Seeds",
+        "HK"
+      ],
+      "samples": [
+        "degeneracy_d3_43"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 37,
+      "bst_reading": "Phi_4(C_2) = C_2^2+1 (cyclotomic L=4 prime)",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "QED"
+      ],
+      "samples": [
+        "cyclotomic_tower"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 23,
+      "bst_reading": "lambda_3-1 = confinement-RFC = N_max/C_2",
+      "entries": 3,
+      "sections": 2,
+      "section_names": [
+        "QED",
+        "Nuclear"
+      ],
+      "samples": [
+        "23_confinement_minus_RFC"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 349,
+      "bst_reading": "rank*n_C^2*g-1 = nested RFC (in C_3 numerator 17101)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "QED"
+      ],
+      "samples": [],
+      "cal_tier": "D"
+    },
+    {
+      "value": 139,
+      "bst_reading": "rank^2*n_C*g-1 = N_max+rank (dual reading)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "QED"
+      ],
+      "samples": [],
+      "cal_tier": "D"
+    },
+    {
+      "value": 1.0204081632653061,
+      "bst_reading": "50/49 = (g^2+1)/g^2 = deuteron binding",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Nuclear"
+      ],
+      "samples": [
+        "B_deuteron_exact"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 3.5454545454545454,
+      "bst_reading": "39/11 = N_c*c_3/DC = He-3 binding",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Nuclear"
+      ],
+      "samples": [
+        "B_He3_39_11"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 3.6666666666666665,
+      "bst_reading": "11/3 = DC/N_c = B_alpha/B_He3 binding ratio",
+      "entries": 2,
+      "sections": 1,
+      "section_names": [
+        "Nuclear"
+      ],
+      "samples": [
+        "B_alpha_B_h_ratio"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 0.16809815950920245,
+      "bst_reading": "137/815 = N_max/(C_2*N_max-g) = theta g correction",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Seeds"
+      ],
+      "samples": [
+        "theta_g_correction"
+      ],
+      "cal_tier": "I"
+    },
+    {
+      "value": 0.1923913043478261,
+      "bst_reading": "177/920 = theta n_C rational evaluation (0.0003%)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Seeds"
+      ],
+      "samples": [
+        "theta_nC_rational"
+      ],
+      "cal_tier": "I"
+    },
+    {
+      "value": 1.3,
+      "bst_reading": "13/10 = (g+C_2)/(2*n_C) = master integral C81 ratio",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "QED"
+      ],
+      "samples": [],
+      "cal_tier": "I"
+    },
+    {
+      "value": 2.08,
+      "bst_reading": "52/25 = rank^2*c_3/n_C^2 = M_TOV (NS mass limit)",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Astro"
+      ],
+      "samples": [
+        "M_TOV_52_25"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 12.285714285714286,
+      "bst_reading": "86/7 = rank*Phi_3(C_2)/g = lepton GM deviation",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Lepton"
+      ],
+      "samples": [
+        "lepton_GM_deviation_86_7"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "value": 1.8888888888888888,
+      "bst_reading": "17/9 = (N_c*C_2-1)/N_c^2 = m_tau/m_p",
+      "entries": 1,
+      "sections": 1,
+      "section_names": [
+        "Lepton"
+      ],
+      "samples": [
+        "tau_proton_ratio"
+      ],
+      "cal_tier": "D"
+    },
+    {
+      "ratio": "17.4",
+      "name": "Fe sound / air sound",
+      "formula": "h^2 + rank/n_C = 17 + 2/5",
+      "domains": [
+        "acoustics",
+        "materials"
+      ],
+      "tier": "D",
+      "notes": "0.01% match. Iron at Cheeger speed."
+    },
+    {
+      "ratio": "7/6",
+      "name": "R_info/R_charge (proton)",
+      "formula": "g/C_2",
+      "domains": [
+        "nuclear",
+        "information"
+      ],
+      "tier": "I",
+      "notes": "Information radius exceeds charge radius."
+    },
+    {
+      "ratio": "77/75",
+      "name": "BaTiO3/SrTiO3 lattice ratio",
+      "formula": "c_2*g/(N_c*n_C^2)",
+      "domains": [
+        "materials",
+        "engineering"
+      ],
+      "tier": "D",
+      "notes": "0.02% match. Optimal superlattice."
+    },
+    {
+      "ratio": "g^g",
+      "name": "Cu mass*Debye^2 factor",
+      "formula": "g^7 = 823543",
+      "domains": [
+        "materials"
+      ],
+      "tier": "D",
+      "notes": "Self-referential: genus to the genus."
+    },
+    {
+      "ratio": "N_c^N_c",
+      "name": "Al mass / P(2) multiplicity",
+      "formula": "N_c^3 = 27",
+      "domains": [
+        "chemistry",
+        "spectral"
+      ],
+      "tier": "D",
+      "notes": "Color to the color = second eigenvalue multiplicity."
+    },
+    {
+      "ratio": "N_c·g·c_2",
+      "name": "W hadronic BR denom = EOT moonshine #2",
+      "formula": "3·7·11 = 231",
+      "domains": [
+        "electroweak",
+        "Mathieu Moonshine"
+      ],
+      "tier": "D",
+      "notes": "Type C convergence: same BST product in W hadronic BR denom (T2305) AND M_24 second EOT moonshine coefficient (T2321). Cross-domain forcing through D_IV^5."
+    },
+    {
+      "ratio": "rank³·N_c·M_5",
+      "name": "j-function constant (Sheldon-Ramanujan)",
+      "formula": "8·3·31 = 744",
+      "domains": [
+        "modular forms",
+        "Monster moonshine"
+      ],
+      "tier": "D",
+      "notes": "j(τ) constant term. Three BST primary atoms + Mersenne 5."
+    },
+    {
+      "ratio": "rank^6·N_c·n_C·(N_c·g+rank)·(rank·c_3+N_c)",
+      "name": "Heegner-Ramanujan constant 640320",
+      "formula": "64·3·5·23·29 = 640320",
+      "domains": [
+        "Heegner-Stark",
+        "Ramanujan near-integer"
+      ],
+      "tier": "D",
+      "notes": "e^(π√163) ≈ 640320^3 + 744. Both terms BST-factored. Largest Heegner discriminant 163 = N_max + rank·c_3."
+    },
+    {
+      "ratio": "(c_3·N_c+g+1)·(C_2·g+seesaw)·(largest_Ogg)",
+      "name": "Monster smallest non-trivial irrep",
+      "formula": "47·59·71 = 196883",
+      "domains": [
+        "Monster",
+        "moonshine"
+      ],
+      "tier": "D",
+      "notes": "Three late Ogg primes. j(τ) coefficient minus 1. Borcherds 1992 mechanism."
+    },
+    {
+      "ratio": "rank·g",
+      "name": "G_2 adjoint dim",
+      "formula": "2·7 = 14",
+      "domains": [
+        "exceptional Lie",
+        "Wallach K-tower"
+      ],
+      "tier": "D",
+      "notes": "G_2 is smallest exceptional Lie algebra. Wallach K-tower second level."
+    },
+    {
+      "ratio": "rank·c_3",
+      "name": "F_4 fundamental rep = Type B at 26",
+      "formula": "2·13 = 26",
+      "domains": [
+        "exceptional Lie",
+        "Type B convergence"
+      ],
+      "tier": "D",
+      "notes": "F_4 26-dim fundamental joins heterotic 10+16, sporadic 20+6, Leech 24+2. Four-way Type B convergence at 26."
+    },
+    {
+      "ratio": "rank²·c_3",
+      "name": "F_4 adjoint dim",
+      "formula": "4·13 = 52",
+      "domains": [
+        "exceptional Lie"
+      ],
+      "tier": "D",
+      "notes": "F_4 self-duality: 26 + 26 = 52."
+    },
+    {
+      "ratio": "N_c³",
+      "name": "E_6 fundamental rep",
+      "formula": "27",
+      "domains": [
+        "exceptional Lie",
+        "Jordan algebras"
+      ],
+      "tier": "D",
+      "notes": "27 = N_c cubed. M-theory exceptional symmetry. Type C latent."
+    },
+    {
+      "ratio": "rank·N_c·c_3",
+      "name": "E_6 adjoint dim",
+      "formula": "2·3·13 = 78",
+      "domains": [
+        "exceptional Lie"
+      ],
+      "tier": "D",
+      "notes": "Three BST primary atoms in one product."
+    },
+    {
+      "ratio": "rank³·g",
+      "name": "E_7 fundamental rep",
+      "formula": "8·7 = 56",
+      "domains": [
+        "exceptional Lie",
+        "N=8 SUGRA"
+      ],
+      "tier": "D",
+      "notes": "Black hole entropy in N=8 supergravity (Maldacena-Strominger-Vafa 1997). Type C latent."
+    },
+    {
+      "ratio": "g·(c_3+C_2)",
+      "name": "E_7 adjoint dim",
+      "formula": "7·19 = 133",
+      "domains": [
+        "exceptional Lie"
+      ],
+      "tier": "D",
+      "notes": "19 is Heegner number. E_7 adjoint factors via g and seesaw-neighbor."
+    },
+    {
+      "ratio": "rank³·M_5",
+      "name": "E_8 adjoint = fundamental",
+      "formula": "8·31 = 248",
+      "domains": [
+        "exceptional Lie",
+        "UV-complete gauge"
+      ],
+      "tier": "D",
+      "notes": "Mersenne 5. E_8 unique: adjoint = smallest non-trivial rep. Type C latent."
+    },
+    {
+      "ratio": "rank·n_C²",
+      "name": "Goeppert Mayer magic #5 (=50)",
+      "formula": "2·25 = 50",
+      "domains": [
+        "nuclear shell model"
+      ],
+      "tier": "D",
+      "notes": "Fifth magic number. Resolves 50-orphan. Goeppert Mayer/Jensen 1949 (Nobel 1963). Root #6 candidate."
+    },
+    {
+      "ratio": "rank·(C_2·g-1)",
+      "name": "Goeppert Mayer magic #6 (=82)",
+      "formula": "2·41 = 82",
+      "domains": [
+        "nuclear shell model"
+      ],
+      "tier": "D",
+      "notes": "Sixth magic number. 41 is Ogg prime = C_2·g-1."
+    },
+    {
+      "ratio": "rank·N_c²·g",
+      "name": "Goeppert Mayer magic #7 (=126)",
+      "formula": "2·9·7 = 126",
+      "domains": [
+        "nuclear shell model"
+      ],
+      "tier": "D",
+      "notes": "Seventh and largest doubly-magic number. Also Mersenne 7 minus 1."
+    },
+    {
+      "ratio": "N_c²·n_C",
+      "name": "EOT moonshine coefficient #1",
+      "formula": "9·5 = 45",
+      "domains": [
+        "Mathieu Moonshine"
+      ],
+      "tier": "D",
+      "notes": "First M_24 irrep dim in K3 elliptic genus (EOT 2010)."
+    },
+    {
+      "ratio": "rank·n_C·g·c_2",
+      "name": "EOT moonshine coefficient #3",
+      "formula": "2·5·7·11 = 770",
+      "domains": [
+        "Mathieu Moonshine"
+      ],
+      "tier": "D",
+      "notes": "Third M_24 irrep dim. Four BST primary atoms."
+    },
+    {
+      "ratio": "N_c²·c_2·(N_c·g+rank)",
+      "name": "EOT moonshine coefficient #4",
+      "formula": "9·11·23 = 2277",
+      "domains": [
+        "Mathieu Moonshine"
+      ],
+      "tier": "D",
+      "notes": "Fourth M_24 irrep dim. 23 is Ogg prime = N_c·g+rank."
+    },
+    {
+      "ratio": "rank²·N_c²·g·(N_c·g+rank)",
+      "name": "EOT moonshine coefficient #5",
+      "formula": "4·9·7·23 = 5796",
+      "domains": [
+        "Mathieu Moonshine"
+      ],
+      "tier": "D",
+      "notes": "Fifth M_24 irrep dim."
+    },
+    {
+      "ratio": "rank²·N_c·n_C",
+      "name": "|A_5| = Klein icosahedral order",
+      "formula": "4·3·5 = 60",
+      "domains": [
+        "Klein icosahedral",
+        "Mathieu",
+        "Cosmology N_e"
+      ],
+      "tier": "D",
+      "notes": "Klein A_5 Root #4 anchor. Also cosmological N_e e-foldings."
+    },
+    {
+      "ratio": "rank³·N_c·n_C",
+      "name": "|2A_5| = binary icosahedral (McKay E_8)",
+      "formula": "8·3·5 = 120",
+      "domains": [
+        "McKay correspondence"
+      ],
+      "tier": "D",
+      "notes": "5!. McKay E_8 affine partner. Sum of squared 2A_5 irrep dims."
+    },
+    {
+      "ratio": "rank·N_c·n_C",
+      "name": "E_8 Coxeter number = sum of affine marks",
+      "formula": "2·3·5 = 30",
+      "domains": [
+        "McKay",
+        "E_8"
+      ],
+      "tier": "D",
+      "notes": "E_8 affine marks ARE 2A_5 irrep dims {1,2,2,3,3,4,4,5,6}. Sum = 30 = Coxeter number."
+    },
+    {
+      "ratio": "rank³·N_c (=chi_K3 = [M_24:M_23] = 2T order)",
+      "name": "Four-way convergence at 24",
+      "formula": "8·3 = 24",
+      "domains": [
+        "K3 Hodge",
+        "Mathieu",
+        "McKay",
+        "Wallach"
+      ],
+      "tier": "D",
+      "notes": "Maximally over-determined integer. χ(K3), McKay 2T order, Wallach λ(3,0), [M_24:M_23]. Type A four-way + Type B."
+    },
+    {
+      "ratio": "N_max + rank²·N_c·n_C",
+      "name": "N_max + |A_5|",
+      "formula": "137 + 60 = 197",
+      "domains": [
+        "Cartan",
+        "Klein icosahedral"
+      ],
+      "tier": "D",
+      "notes": "Connects Cartan-derived N_max with Klein-derived |A_5|. Only 'orphan' prime in [100,200] before 4-term scan."
+    },
+    {
+      "ratio": "n_C·g",
+      "name": "Bergman scalar curvature magnitude on D_IV⁵",
+      "formula": "5·7 = 35",
+      "domains": [
+        "Bergman geometry",
+        "Dirac operator"
+      ],
+      "tier": "D",
+      "notes": "R(D_IV⁵, Bergman) = -n_C·g = -35. Both BST primary atoms. Anchors Bergman Dirac mass eigenvalue m_0² = n_C·g/4. T2339 Lyra."
+    },
+    {
+      "ratio": "rank² + C_2",
+      "name": "D_IV⁵ canonical 4+6 split (Kaluza-Klein)",
+      "formula": "4 + 6 = 10 = dim_R(D_IV⁵)",
+      "domains": [
+        "dimensional reduction",
+        "Kaluza-Klein"
+      ],
+      "tier": "D",
+      "notes": "rank²=4 (spacetime) + C_2=6 (internal). Unique BST-primary 4+6 split of 10. T2340 Lyra. Both terms anchored multi-route."
+    },
+    {
+      "ratio": "rank·n_C",
+      "name": "D_IV⁵ real dimension = Bergman Dirac Clifford count",
+      "formula": "2·5 = 10",
+      "domains": [
+        "D_IV⁵ geometry",
+        "Dirac operator"
+      ],
+      "tier": "D",
+      "notes": "dim_R(D_IV⁵) = rank·n_C = 10. Equals 2·n_C Clifford generators of Bergman Dirac. T2339."
+    },
+    {
+      "ratio": "N_c · g / rank",
+      "name": "Λ_eff cosmological constant (LAG-2)",
+      "formula": "3·7/2 = 21/2 = 10.5",
+      "domains": [
+        "general relativity",
+        "dimensional reduction"
+      ],
+      "tier": "I",
+      "notes": "T2343 Lyra. 4D Einstein-Hilbert recovery from D_IV⁵ LAG-2 reduction. Bergman-normalized."
+    },
+    {
+      "ratio": "rank · c_2",
+      "name": "Higgs mass-squared prefactor + K3 Picard rank + GM shell 5",
+      "formula": "2·11 = 22",
+      "domains": [
+        "Higgs sector",
+        "K3 Hodge",
+        "nuclear shell model"
+      ],
+      "tier": "D",
+      "notes": "Triple-role BST integer: T2344 Higgs mass², h^{1,1}(K3) Picard rank, Goeppert Mayer shell 5 occupancy. Type A four-way convergence at 22 now."
+    },
+    {
+      "ratio": "N_c / rank³",
+      "name": "BH ringdown frequency (Schwarzschild)",
+      "formula": "3/8 = 0.375",
+      "domains": [
+        "general relativity",
+        "LIGO"
+      ],
+      "tier": "D",
+      "notes": "Elie Toy 3008 SP-27. 0.35% match vs Berti tabulated 0.3737. Schwarzschild quasi-normal mode l=m=2, n=0."
+    },
+    {
+      "ratio": "rank · n_C · χ_K3",
+      "name": "Casimir prefactor 240 (E_8 root count)",
+      "formula": "2·5·24 = 240",
+      "domains": [
+        "Casimir effect",
+        "exceptional Lie"
+      ],
+      "tier": "D",
+      "notes": "240 = E_8 root vector count = rank·n_C·χ(K3). Exact BST match to standard Casimir prefactor. Elie Toy 3009."
+    },
+    {
+      "ratio": "1 + N_c + rank",
+      "name": "SM gauge group internal split",
+      "formula": "1 + 3 + 2 = 6 = C_2",
+      "domains": [
+        "Standard Model",
+        "gauge theory"
+      ],
+      "tier": "D",
+      "notes": "T2346 Lyra. SM SU(3)×SU(2)×U(1) reading: 1 = U(1) hypercharge, N_c = SU(3) color, rank = SU(2) weak. Internal-6 = C_2 canonical primary split."
+    },
+    {
+      "ratio": "rank · g (Bravais)",
+      "name": "Number of Bravais 3D crystal lattices = Wallach dim_2 = G_2 adjoint",
+      "formula": "2 · 7 = 14",
+      "domains": [
+        "crystallography",
+        "Wallach K-types",
+        "exceptional Lie"
+      ],
+      "tier": "D",
+      "notes": "Triple-role: Bravais 1849 lattice count + Wallach dim_2 + G_2 adjoint dim. Closes Wallach observable ladder. Candidate Root #10 L1 source."
+    },
+    {
+      "ratio": "N_c·n_C²/rank² (Lichnerowicz shift)",
+      "name": "Scalar Laplacian eigentone at origin = D² + |R|/4 rate",
+      "formula": "3·25/4 = 75/4 = 18.75",
+      "domains": [
+        "spectral geometry",
+        "Dirac↔scalar conversion",
+        "Bergman curvature"
+      ],
+      "tier": "D",
+      "notes": "Lichnerowicz D² = ∇*∇ + R/4 shifts Dirac eigentone rank·n_C=10 by |R|/4 = n_C·g/4 = 35/4 → scalar eigentone 75/4 = N_c·n_C²/rank². Three-primary decomposition (N_c, n_C², rank²) cleaner than two-term sum rank·n_C + n_C·g/4. Grace T2377; useful for Dirac↔scalar conversions beyond K-24 audit."
+    },
+    {
+      "ratio": "rank · n_C (Dirac eigentone)",
+      "name": "Dirac operator point-trace eigentone at origin on D_IV⁵",
+      "formula": "2 · 5 = 10",
+      "domains": [
+        "spectral geometry",
+        "heat kernel",
+        "operator algebra"
+      ],
+      "tier": "D",
+      "notes": "Tr(D²ᵏ) at origin = 32·10ᵏ — single-exponential point-trace cascade. Lyra T2376. Level (1) of three-level operator framework (algebraic point-trace). Level (2) coefficient form = 32·10ⁿ/n! (Grace T2375)."
+    },
+    {
+      "ratio": "2^n_C (spinor-bundle dimension)",
+      "name": "Spinor bundle rank on D_IV⁵ = Conway-octad-doubled = leading point-trace coefficient",
+      "formula": "2^5 = 32",
+      "domains": [
+        "spinor algebra",
+        "spectral geometry",
+        "heat kernel"
+      ],
+      "tier": "D",
+      "notes": "Both Lyra T2376 and Grace T2375/T2377 carry leading coefficient 32 = 2^n_C from spinor-bundle dimension on 10-real-dim D_IV⁵. Also = M_24 octad size 8 × 4 = doubled octad. Triple-role: spinor + Mathieu + cascade-leading-coefficient."
+    },
+    {
+      "ratio": "M_g = 2^g − 1 (Mersenne at BST index g)",
+      "name": "Mersenne prime indexed by BST genus g — proton-substrate correction building block",
+      "formula": "2^7 − 1 = 127",
+      "domains": [
+        "Mersenne primes",
+        "proton substrate corrections",
+        "BCS superconductivity",
+        "atomic QED (Lamb shift)",
+        "hyperfine splitting"
+      ],
+      "tier": "I",
+      "notes": "Mersenne recursive chain through BST integers: M_rank=M_2=3=N_c; M_{N_c}=M_3=7=g; M_g=M_7=127 (chain closes — 127 not a BST primary). K52a candidate '(1 ± 1/M_g) correction class' has 2 D-tier instances: Lamb (1 − 1/M_g) at 0.005%, BCS (1 + 1/M_g) at 0.006%. K52b 'M_7 multiplicand': HFS 391 = N_max + rank·M_g at I-tier. Mechanism argument (why M_g specifically vs other Mersennes) still required for K52a promotion per Cal Criterion 2. Keeper K52 ruling 2026-05-18 16:05 EDT."
+    },
+    {
+      "ratio": "1 − n_C/N_max (CMB scalar tilt n_s)",
+      "name": "Scalar spectral index = deviation from scale-invariance by BST primary",
+      "formula": "1 − 5/137 = 132/137 = 0.9635",
+      "domains": [
+        "cosmology",
+        "inflation",
+        "CMB anisotropy"
+      ],
+      "tier": "D",
+      "notes": "Planck 2018 n_s = 0.9649 at 0.14% match. Lyra T2380 IP-7. T1401 cascade fingerprint mechanism. The same n_C/N_max = 5/137 correction appears in α⁻¹ (const_137) and other places — universal BST primary correction ratio for boundary-scale effects."
+    },
+    {
+      "ratio": "ind(D) ∈ {c_3, N_c·n_C} = {13, 15}",
+      "name": "Bergman Dirac index candidate set on D_IV⁵ (Lyra LAG-1 S10 Step 5.2)",
+      "formula": "{13, 15} (ODD-parity from Möbius Z/2 constraint)",
+      "domains": [
+        "spectral geometry",
+        "index theorem",
+        "Atiyah-Patodi-Singer"
+      ],
+      "tier": "I",
+      "notes": "Step 5.1 candidate set {6, 12, 13, 15, 16} filtered by Möbius Z/2 ODD-parity → {13, 15}. Multi-week Faraut-Koranyi will select between c_3 = 13 (Chern reading) and N_c·n_C = 15 (composite reading). I-tier pre-staged. Connects to Paper #121 Bridge Objects Q⁵ section (top Chern c_5 = C_2 = 6 was Step 5.1 candidate before ODD-parity filter)."
+    }
+  ],
+  "meta": {
+    "last_updated": "2026-05-18",
+    "eod_session": "2026-05-18 EOD",
+    "total_ratios": 223
   }
- ]
 }
