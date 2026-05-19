@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "Neutrino mass BST forms"
+  },
+  "observed_meV": {
+    "m_1": 0.0,
+    "m_2": 8.613942186943213,
+    "m_3": 50.14977567247933,
+    "sum": 58.76371785942254
+  },
+  "BST_forms": {
+    "Delta_m_ratio": {
+      "form": "c_2\u00b7N_c = 33",
+      "precision_pct": 2.6401590457256336,
+      "tier": "D (T1972)"
+    },
+    "m_1": {
+      "form": "0 (Bergman zero mode)",
+      "tier": "D structural"
+    },
+    "sum_below_Planck": {
+      "tier": "D consistency, 0.0588 eV < 0.12 eV bound"
+    },
+    "m_3_candidate": {
+      "form": "seesaw\u00b7N_c\u00b7meV = 51 meV",
+      "precision_pct": 1.695370150952137,
+      "tier": "I (cherry-picking flagged)"
+    }
+  },
+  "catalog_hygiene_flag": "INV-20015 \u03a3m_\u03bd n_C/N_max bound differs from computed 0.0588 eV; distinguish bound vs point estimate"
+}

@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "CMB tensor-to-scalar r BST verification"
+  },
+  "BST_prediction": {
+    "primary_form": "r = rank\u00b2\u00b7N_c / (c_2\u00b7n_C)\u00b2 = 12/3025",
+    "numerical": 0.003966942148760331,
+    "derivation": "Starobinsky R\u00b2 inflation with BST N_e = c_2\u00b7n_C = 55"
+  },
+  "observational_status": {
+    "current_bound": "r < 0.036 (Planck+BICEP 2018)",
+    "BST_passes": true,
+    "future_sensitivity": "LiteBIRD/CMB-S4 \u03c3(r) ~ 10^-3 by 2030s",
+    "detectable_significance": "~4\u03c3 at predicted r \u2248 0.004"
+  },
+  "falsification_thresholds": {
+    "refutes_BST": "r > 0.01 at >5\u03c3",
+    "confirms_BST": "r in [0.002, 0.005] at >3\u03c3"
+  },
+  "tier": "D (Starobinsky-anchored, T1968 catalog)"
+}

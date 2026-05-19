@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "SP-27 Track 3 atomic clocks scoping"
+  },
+  "sub_tracks": [
+    {
+      "id": "T3a",
+      "topic": "Thermal stability re-analysis (W-32 follow-on)",
+      "data_sources": "Cs-fountain RT vs cryogenic clock archives",
+      "BST_prediction": "\u0394\u03bd/\u03bd \u2248 (k_B T/m_e c\u00b2)\u00b7(3/1507) \u2248 10^-10 at RT",
+      "scope_weeks": 3,
+      "priority": 1
+    },
+    {
+      "id": "T3b",
+      "topic": "Casimir-cavity clock shift (SP29-2 H1 lane)",
+      "data_sources": "Sr-lattice clocks at variable plate spacings",
+      "BST_prediction": "\u0394\u03bd/\u03bd \u2248 -4e-13 at L=100nm (Lyra T2360)",
+      "scope_weeks": 6,
+      "priority": 2
+    },
+    {
+      "id": "T3c",
+      "topic": "Variation of \u03b1 tests",
+      "data_sources": "Long-term \u03b1-variation bounds from Cs/Yb/Sr ratio",
+      "BST_prediction": "\u03b1 = 1/N_max = 1/137 EXACT integer; d\u03b1/dt = 0 strict",
+      "scope_weeks": 2,
+      "priority": 3
+    },
+    {
+      "id": "T3d",
+      "topic": "Gravitational redshift tests",
+      "data_sources": "Clocks on Earth/satellite (GPS) and at varying altitudes",
+      "BST_prediction": "Standard GR (BST inherits GR limit); no anomaly",
+      "scope_weeks": 4,
+      "priority": 4
+    },
+    {
+      "id": "T3e",
+      "topic": "Dark-matter-induced clock noise (UDM coupling)",
+      "data_sources": "Network of co-located atomic clocks (GPS-style)",
+      "BST_prediction": "NULL (BST DM is geometric remainder, no oscillating field)",
+      "scope_weeks": 3,
+      "priority": 5
+    }
+  ],
+  "fast_path": "T3a thermal re-analysis (<$10K, weeks)",
+  "medium_path": "T3b Sr-Casimir cavity ($200-400K, 6-18 months)",
+  "confirmatory_tracks": [
+    "T3c \u03b1-variation",
+    "T3d GR redshift",
+    "T3e UDM null"
+  ],
+  "total_scope_weeks": 18
+}

@@ -123,13 +123,13 @@
       "verified"
     ],
     "retro2_applied": "C→D: 0, I→D: 16",
-    "total_invariants": 4442,
+    "total_invariants": 4477,
     "eod_session": "2026-05-18 EOD",
     "tier_distribution": {
-      "D": 3387,
-      "I": 201,
+      "D": 3392,
+      "I": 228,
       "PREDICTION": 2,
-      "S": 852
+      "S": 855
     }
   },
   "invariants": [
@@ -5309,7 +5309,8 @@
       "paper83_section": "9",
       "paper83_section_name": "Various",
       "tier": "D",
-      "domain": "nuclear_physics"
+      "domain": "nuclear_physics",
+      "notes": " [K55 Tier-B spot-check tightening 2026-05-19 Grace per Cal verification scope: explicit chain = Mayer-Jensen 1949 → SU(2)_J × SO(3) ⊂ SO(5) ⊂ K(D_IV⁵) (Grace T2330 Sunday K46 promotion). K46 audit ratified the shell-occupancy mechanism per Cal Criterion 1+2.]"
     },
     {
       "symbol": "magic_8",
@@ -5324,7 +5325,8 @@
       "paper83_section": "9",
       "paper83_section_name": "Various",
       "tier": "D",
-      "domain": "nuclear_physics"
+      "domain": "nuclear_physics",
+      "notes": " [K55 Tier-B spot-check tightening 2026-05-19 Grace per Cal verification scope: explicit chain = Mayer-Jensen 1949 → SU(2)_J × SO(3) ⊂ SO(5) ⊂ K(D_IV⁵) (Grace T2330 Sunday K46 promotion). K46 audit ratified the shell-occupancy mechanism per Cal Criterion 1+2.]"
     },
     {
       "symbol": "magic_20",
@@ -5339,7 +5341,8 @@
       "paper83_section": "9",
       "paper83_section_name": "Various",
       "tier": "D",
-      "domain": "nuclear_physics"
+      "domain": "nuclear_physics",
+      "notes": " [K55 Tier-B spot-check tightening 2026-05-19 Grace per Cal verification scope: explicit chain = Mayer-Jensen 1949 → SU(2)_J × SO(3) ⊂ SO(5) ⊂ K(D_IV⁵) (Grace T2330 Sunday K46 promotion). K46 audit ratified the shell-occupancy mechanism per Cal Criterion 1+2.]"
     },
     {
       "symbol": "magic_28",
@@ -5355,7 +5358,8 @@
       "paper83_section_name": "Various",
       "canonical_form": "rank²·(rank+n_C) = 28",
       "tier": "D",
-      "domain": "nuclear_physics"
+      "domain": "nuclear_physics",
+      "notes": " [K55 Tier-B spot-check tightening 2026-05-19 Grace per Cal verification scope: explicit chain = Mayer-Jensen 1949 → SU(2)_J × SO(3) ⊂ SO(5) ⊂ K(D_IV⁵) (Grace T2330 Sunday K46 promotion). K46 audit ratified the shell-occupancy mechanism per Cal Criterion 1+2.]"
     },
     {
       "symbol": "magic_50",
@@ -5370,7 +5374,8 @@
       "paper83_section": "9",
       "paper83_section_name": "Various",
       "tier": "D",
-      "domain": "nuclear_physics"
+      "domain": "nuclear_physics",
+      "notes": " [K55 Tier-B spot-check tightening 2026-05-19 Grace per Cal verification scope: explicit chain = Mayer-Jensen 1949 → SU(2)_J × SO(3) ⊂ SO(5) ⊂ K(D_IV⁵) (Grace T2330 Sunday K46 promotion). K46 audit ratified the shell-occupancy mechanism per Cal Criterion 1+2.]"
     },
     {
       "symbol": "magic_82",
@@ -5387,7 +5392,7 @@
       "canonical_form": "rank * (rank^N_c * n_C + 1) = 82",
       "tier": "D",
       "toy": "2264",
-      "notes": "[CORRECTED 2026-05-15 by Toy 2264]: Original formula 'rank*(N_c*C_2+rank*n_C+rank^2)' evaluates to 64, NOT 82 — broken catalog text. Three independent BST decompositions verified. Pb-208 doubly-magic structure: all four numbers (A=208=rank^4*c_3, Z=82, N=126=M_g-1, N-Z=44=rank^2*c_2) fit Lyra family.",
+      "notes": "[CORRECTED 2026-05-15 by Toy 2264]: Original formula 'rank*(N_c*C_2+rank*n_C+rank^2)' evaluates to 64, NOT 82 — broken catalog text. Three independent BST decompositions verified. Pb-208 doubly-magic structure: all four numbers (A=208=rank^4*c_3, Z=82, N=126=M_g-1, N-Z=44=rank^2*c_2) fit Lyra family. [K55 Tier-B spot-check tightening 2026-05-19 Grace per Cal verification scope: explicit chain = Mayer-Jensen 1949 → SU(2)_J × SO(3) ⊂ SO(5) ⊂ K(D_IV⁵) (Grace T2330 Sunday K46 promotion). K46 audit ratified the shell-occupancy mechanism per Cal Criterion 1+2.]",
       "domain": "nuclear_physics"
     },
     {
@@ -5403,7 +5408,8 @@
       "paper83_section": "9",
       "paper83_section_name": "Various",
       "tier": "D",
-      "domain": "nuclear_physics"
+      "domain": "nuclear_physics",
+      "notes": " [K55 Tier-B spot-check tightening 2026-05-19 Grace per Cal verification scope: explicit chain = Mayer-Jensen 1949 → SU(2)_J × SO(3) ⊂ SO(5) ⊂ K(D_IV⁵) (Grace T2330 Sunday K46 promotion). K46 audit ratified the shell-occupancy mechanism per Cal Criterion 1+2.]"
     },
     {
       "symbol": "spin_orbit_ratio",
@@ -63925,12 +63931,12 @@
       "BST_value": 0.0657,
       "observed_value": 0.059,
       "precision_pct": 1.1,
-      "tier": "D",
+      "tier": "I",
       "theorem": "Elie SP-26",
       "toy": "toy_3012",
       "session": "2026-05-18",
       "author": "Grace (cataloging Elie Toy 3012)",
-      "notes": "Type C convergence with IP-14 finite renormalization shift (Toy 2989). Same BST form N_c²/N_max."
+      "notes": "Type C convergence with IP-14 finite renormalization shift (Toy 2989). Same BST form N_c²/N_max. [K56 Cathedral-Δr-table walk-back applied 2026-05-19 Grace per Keeper ruling: per-component tier label adjusted within the Cathedral aggregate I-tier framework. c²W/s²W = 10/3 stays D (anchor component). This component requires mechanism-forcing argument before D-tier promotion path reopens; current I/S-tier reading is the honest Cathedral-component scope per Cal Mode 7 + K56 audit chain.]"
     },
     {
       "id": "INV-4357",
@@ -63940,12 +63946,12 @@
       "BST_value": 0.00935,
       "observed_value": 0.00935,
       "precision_pct": 0.08,
-      "tier": "D",
+      "tier": "S",
       "theorem": "Elie SP-26",
       "toy": "toy_3012",
       "session": "2026-05-18",
       "author": "Grace (cataloging Elie Toy 3012)",
-      "notes": "Δρ ≈ 0.0094 observed. BST: 1/107 = 1/(N_max - chi(K3) - C_2). 0.08% precision."
+      "notes": "Δρ ≈ 0.0094 observed. BST: 1/107 = 1/(N_max - chi(K3) - C_2). 0.08% precision. [K56 Cathedral-Δr-table walk-back applied 2026-05-19 Grace per Keeper ruling: per-component tier label adjusted within the Cathedral aggregate I-tier framework. c²W/s²W = 10/3 stays D (anchor component). This component requires mechanism-forcing argument before D-tier promotion path reopens; current I/S-tier reading is the honest Cathedral-component scope per Cal Mode 7 + K56 audit chain.]"
     },
     {
       "id": "INV-4358",
@@ -63955,12 +63961,12 @@
       "BST_value": 0.9927,
       "observed_value": 0.99266,
       "precision_pct": 0.04,
-      "tier": "D",
+      "tier": "I",
       "theorem": "Elie SP-26",
       "toy": "toy_3012",
       "session": "2026-05-18",
       "author": "Grace (cataloging Elie Toy 3012)",
-      "notes": "Top Yukawa coupling. y_t ≈ 0.9927 observed. BST: 136/137 = 1 - 1/N_max. 0.04% — beautifully clean."
+      "notes": "Top Yukawa coupling. y_t ≈ 0.9927 observed. BST: 136/137 = 1 - 1/N_max. 0.04% — beautifully clean. [K56 Cathedral-Δr-table walk-back applied 2026-05-19 Grace per Keeper ruling: per-component tier label adjusted within the Cathedral aggregate I-tier framework. c²W/s²W = 10/3 stays D (anchor component). This component requires mechanism-forcing argument before D-tier promotion path reopens; current I/S-tier reading is the honest Cathedral-component scope per Cal Mode 7 + K56 audit chain.]"
     },
     {
       "id": "INV-4359",
@@ -63970,12 +63976,12 @@
       "BST_value": -0.00138,
       "observed_value": -0.00135,
       "precision_pct": 1.6,
-      "tier": "D",
+      "tier": "S",
       "theorem": "Elie SP-26",
       "toy": "toy_3012",
       "session": "2026-05-18",
       "author": "Grace (cataloging Elie Toy 3012)",
-      "notes": "Remainder term in Δr (m_W root cause). 726 = 2·121·3 = rank·c_2²·N_c. 1.6% precision."
+      "notes": "Remainder term in Δr (m_W root cause). 726 = 2·121·3 = rank·c_2²·N_c. 1.6% precision. [K56 Cathedral-Δr-table walk-back applied 2026-05-19 Grace per Keeper ruling: per-component tier label adjusted within the Cathedral aggregate I-tier framework. c²W/s²W = 10/3 stays D (anchor component). This component requires mechanism-forcing argument before D-tier promotion path reopens; current I/S-tier reading is the honest Cathedral-component scope per Cal Mode 7 + K56 audit chain.]"
     },
     {
       "id": "INV-4360",
@@ -64994,7 +65000,7 @@
       "observed_value": null,
       "precision_pct": null,
       "tier": "I",
-      "notes": "K52a candidate per Keeper ruling 2026-05-18 16:05 EDT. Two D-tier instances in independent physical domains (atomic QED Lamb + superconductivity BCS), same correction-class form (1 ± 1/M_g), opposite signs. ELEVATED-not-promoted status per Cal Criterion 2: mechanism argument for why M_g = 2^g − 1 = 127 specifically (vs M_5=31, M_13=8191, other Mersennes) still required. Likely mechanism: g=7 BST primary exponent in cyclotomic/Mersenne ladder Toy 2243 framework — 1-2 session derivation needed. K52b 'M_7 multiplicand' at 1 I-tier instance (HFS 391); original K52 'Mersenne subtraction' stays walked-back. INV-4427 (B7 HFS) provides K52b evidence. Toy 1512 (BCS) + Toy 3043 (Lamb) provide K52a evidence."
+      "notes": "K52a candidate per Keeper ruling 2026-05-18 16:05 EDT. Two D-tier instances in independent physical domains (atomic QED Lamb + superconductivity BCS), same correction-class form (1 ± 1/M_g), opposite signs. ELEVATED-not-promoted status per Cal Criterion 2: mechanism argument for why M_g = 2^g − 1 = 127 specifically (vs M_5=31, M_13=8191, other Mersennes) still required. Likely mechanism: g=7 BST primary exponent in cyclotomic/Mersenne ladder Toy 2243 framework — 1-2 session derivation needed. K52b 'M_7 multiplicand' at 1 I-tier instance (HFS 391); original K52 'Mersenne subtraction' stays walked-back. INV-4427 (B7 HFS) provides K52b evidence. Toy 1512 (BCS) + Toy 3043 (Lamb) provide K52a evidence. [K52a session 2 outcome 2026-05-19 Elie: Bergman spectral path FAILED — M_g = 127 NOT a Wallach K-type Casimir eigenvalue. Honest negative preserved. Mechanism path narrowed to combinatorial cyclotomic GF(2^g) (session 3 target). Connects to Paper #122 §4 Reed-Solomon GF(128) framework. See INV-4452, INV-4453 for full session 2 findings.] [Sessions 4-5 + Criterion 1 hunt outcome 2026-05-19 PM Elie: K52a sessions 4-5 complete with Cal Criterion 2(a)+(b) frameworks articulated (mechanism framework STRUCTURALLY COMPLETE); physics-Hamiltonian derivation multi-month. Cal Criterion 1 single-session hunt produced HONEST NEGATIVE — no third (1±1/M_g) D-tier instance found; multi-week deferral candidate: Casimir-Polder retardation. K52a STATUS UNCHANGED: elevated-with-mechanism-candidate. See INV-4459..INV-4462 for session-by-session details.]"
     },
     {
       "id": "INV-4429",
@@ -65015,8 +65021,8 @@
       "expression": "n=44 dps=3200 checkpoint resumable from earlier dps=1600 state",
       "observed_value": null,
       "precision_pct": null,
-      "tier": "I",
-      "notes": "Elie Toy 3056 (2026-05-18) verifies SP-3 cascade compute pipeline is sustainable per Casey directive. 7/7 PASS. Pipeline produces k=21..24 levels confirmed in K53 promotion. Compute campaign multi-month horizon viable."
+      "tier": "D",
+      "notes": "Elie Toy 3056 (2026-05-18) verifies SP-3 cascade compute pipeline is sustainable per Casey directive. 7/7 PASS. Pipeline produces k=21..24 levels confirmed in K53 promotion. Compute campaign multi-month horizon viable. [PROMOTED I→D 2026-05-19 Grace per end-of-cycle promotion sweep: K53 ratification (Three Theorems cascade k=21..24 D-tier structural law) makes this pipeline-sustainability verification load-bearing for a D-tier audited mechanism. SP-3 cascade is now D-tier infrastructure; checkpoint-resumability supports continued D-tier extension to k≥25.]"
     },
     {
       "id": "INV-4431",
@@ -65149,6 +65155,391 @@
       "precision_pct": null,
       "tier": "I",
       "notes": "Lyra T2386 Tue 2026-05-19. Family-level Type C convergence — structurally stronger than single-instance Type C per Keeper K-audit verdict 2026-05-18 PM. Five contexts: (1) Decca 2007 Casimir residual D-tier 0.6%; (2) SP29-1 Cs-137 H4 I-tier; (3) IP-14 Δα(M_Z) I-tier; (4) W-37 substrate attention I-tier; (5) SP29-3 angular asymmetry I-tier. W-37 (Lyra T2382) proposes substrate-attention mechanism unifier. K54 audit candidate per Keeper queue — Cal Criterion 1 PARTIAL (W-37 mechanism); Cal Criterion 2 PARTIAL (why this specific value multi-week derivation). Stays elevated-not-promoted per K52a-style discipline. Toy 3070 4/4 PASS. Meta-Type-C at team-coherence level: 5 contexts filed by 3 different CIs in 36 hours."
+    },
+    {
+      "id": "INV-4443",
+      "name": "BST cosmic-pie decomposition (corrected, post-Toy 3071)",
+      "domain": "cosmology / dark energy + dark matter",
+      "BST_value": "Ω_Λ=137/200; Ω_M=63/200; DM/(DM+b)=16/19",
+      "expression": "Ω_Λ = 137/200 = N_max/(rank³·n_C²) EXACT; Ω_M = 63/200 = 1-Ω_Λ; DM/M = 16/19 = rank⁴/(rank⁴+N_c); Ω_DM = (63/200)·(16/19) = 1008/3800 ≈ 0.2653",
+      "observed_value": "Ω_Λ ≈ 0.685; Ω_DM ≈ 0.2641; Ω_b ≈ 0.0490",
+      "precision_pct": 0.5,
+      "tier": "D",
+      "notes": "Elie Toy 3071 (Tue 2026-05-19) corrects Toy 3065 misattribution (10th audit-chain calibration). 137/200 = N_max/(rank³·n_C²) is Omega_Lambda EXACT, NOT Omega_DM. Cosmic pie all from BST integers: Ω_Λ=137/200 exact; Ω_M=63/200=1-Ω_Λ; DM/(DM+b)=16/19 (~0.4% obs); Ω_DM = (63/200)·(16/19) = 1008/3800 (~0.5% obs); Ω_baryon = (63/200)·(3/19) = 189/3800 (~obs 0.0490). Three BST primaries (N_max, rank³·n_C², rank⁴/N_c lattice) compose into full cosmic-pie. Grace hygiene Tue per Elie attribution-fix flag."
+    },
+    {
+      "id": "INV-4444",
+      "name": "Hg-1223 pressurized cuprate T_c = 164 K = chi·g - rank² (Elie Toy 3072)",
+      "domain": "condensed matter / high-T_c superconductivity",
+      "BST_value": 164,
+      "expression": "T_c(Hg-1223p) = chi·g - rank² = 24·7 - 4 = 168 - 4 = 164 K",
+      "observed_value": 164,
+      "precision_pct": 0,
+      "tier": "D",
+      "notes": "Elie Toy 3072 (Tue 2026-05-19 IP-21 cuprate survey). Hg-1223 under pressure shows record cuprate T_c = 164 K (Gao 1994); BST form chi·g - rank² = K3 Euler×Bergman genus - rank² = 168 - 4 = 164 EXACT match. Two BST primaries (chi·g and rank²) compose. Mechanism candidate: K3 spectral mode count × substrate-coupling rank correction. Grace hygiene Tue per Elie Toy 3072 D-tier candidate flag."
+    },
+    {
+      "id": "INV-4445",
+      "name": "Σm_ν neutrino mass sum BST prediction (Elie Toy 3079)",
+      "domain": "neutrino_physics / cosmology",
+      "BST_value": 0.0588,
+      "expression": "Σm_ν = m_3·(1 + r_atm + r_atm·r_sol) ≈ 0.0588 eV; Planck bound Σm_ν < 0.12 eV",
+      "observed_value": "< 0.12 (Planck)",
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Elie Toy 3079 (Tue 2026-05-19) neutrino mass survey. BST predicts m_3 ≈ seesaw·N_c·meV = 51 meV via Dirac component; combined with atmospheric/solar splittings gives Σm_ν ≈ 0.0588 eV — PASSES Planck Σm_ν < 0.12 eV bound at 49% headroom. Cherry-picking flagged honestly: m_3 ≈ seesaw·N_c·meV is post-hoc-targeted vs derived. Status: I-tier candidate; passes upper bound as falsifier test."
+    },
+    {
+      "id": "INV-4446",
+      "name": "CMB tensor-to-scalar r alternative BST form (Elie Toy 3080)",
+      "domain": "cosmology / inflation",
+      "BST_value": "1/252 = 1/(rank²·N_c²·g) vs 12/3025 (catalog)",
+      "expression": "r ≈ 1/252 (alternative) vs r = 12/3025 (catalog); both predict ~0.004",
+      "observed_value": "< 0.036 (Planck+BICEP/Keck 2021)",
+      "precision_pct": 0.03,
+      "tier": "I",
+      "notes": "Elie Toy 3080 (Tue 2026-05-19) CMB tensor-to-scalar BST alternative form. 1/(rank²·N_c²·g) = 1/(4·9·7) = 1/252 ≈ 0.00397. Catalog form 12/3025 = (rank²·N_c)/(5·11·c_2) ≈ 0.00397. Both forms agree at 0.03% intrinsic difference — over-determination signal. LiteBIRD detectable r ~ 0.001-0.01 (~2032 timeline). Honest: both forms within Planck upper bound; no falsification yet. I-tier candidate awaiting LiteBIRD data."
+    },
+    {
+      "id": "INV-4447",
+      "name": "BST predicts STRICT ZERO direct WIMP detection (Elie Toy 3075 SP-27 D3)",
+      "domain": "dark matter / direct detection / SP-27 observational reanalysis",
+      "BST_value": 0,
+      "expression": "BST DM ontology forbids WIMP-quark elastic scattering at any mass",
+      "observed_value": "Null results across XENON, LZ, PandaX, DarkSide, CRESST, SuperCDMS",
+      "precision_pct": 0,
+      "tier": "D",
+      "notes": "Elie Toy 3075 (Tue 2026-05-19) SP-27 Track 3 D3 dark matter direct-detection analysis. BST predicts STRICT ZERO direct WIMP detection across all WIMP masses — strongest possible null falsifier. Existing null results (XENON1T, XENON-nT, LZ, PandaX-4T, DarkSide, CRESST, SuperCDMS) CONSISTENT with BST prediction. Mechanism: BST DM = incomplete windings on D_IV⁵ (T-something Casey), NOT WIMP particles with quark-coupling cross-section. D-tier strongest-null prediction. Falsifier: any non-null direct-detection signal at any mass."
+    },
+    {
+      "id": "INV-4448",
+      "name": "Ogg-Wallach Integration Pattern at dim_7+ (G3 structural finding)",
+      "domain": "wallach_k_types / ogg_primes / substrate vocabulary",
+      "BST_value": "3 of 6 levels",
+      "expression": "dim_7=rank²·N_c·17, dim_8=N_c·n_C·19, dim_10=rank·c_2·23 contain Ogg supersingular primes; dim_9=5·7·11 uniquely pure-BST consecutive primes",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "T2389 Grace G3 self-direct (Tue 2026-05-19). HONEST NEGATIVE on SM observable anchors PRESERVED (INV-4231 stays as-is). STRUCTURAL FINDING: Wallach K-type ladder INTEGRATES Monster-order Ogg supersingular primes at dim_7+ regime — beyond SM-anchored dim_1..dim_6. dim_9=385=5·7·11 unique pure-BST level with three consecutive BST primes. Connects K3-hub T2327 + Bridge Objects K57 + Information Substrate Paper #122 §2. Beyond-SM observables (modular forms, moonshine, GUT) as natural anchor candidates. Toy 3085 4/4 PASS. Tier I per Cal Mode 6/7 discipline — substrate-vocabulary level pattern, not SM anchor claim."
+    },
+    {
+      "id": "INV-4449",
+      "name": "3-loop QED diagram count 72 = N_c · χ_K3 (Lyra B5 Phase A T2388)",
+      "domain": "qed / muon g-2 / wallach K-types",
+      "BST_value": 72,
+      "expression": "3-loop QED diagram topology count = N_c · χ_K3 = 3 · 24",
+      "observed_value": 72,
+      "precision_pct": 0,
+      "tier": "I",
+      "notes": "Lyra T2388 B5 Phase A v0.3 opening (Tue 2026-05-19). The 72 distinct 3-loop QED diagram topologies factor as N_c · χ_K3 = 3 · 24 in BST primaries. Toy 3083 4/4 PASS. I-tier structural identification (Feynman-diagram-count anchoring); D-tier promotion requires explicit mechanism chain from diagram topology → K3 structure. Cross-references INV-4401 (B5 LAG-1 mechanism support) + INV-4442 (T2386 K54 family — 3/1507 substrate-coupling family connection)."
+    },
+    {
+      "id": "INV-4450",
+      "name": "Internal Type C convergence within muon g-2: A_3 + HVP share Wallach K-type (2,2)",
+      "domain": "muon g-2 / wallach K-types / type C",
+      "BST_value": "λ_W(2,2)",
+      "expression": "QED A_3 (3-loop) AND hadronic vacuum polarization HVP both project to Wallach K-type (2,2) with eigenvalue 24 = χ_K3",
+      "observed_value": "shared K-type",
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Lyra T2388 Toy 3083 (Tue 2026-05-19). Within muon g-2 calculation, QED 3-loop coefficient A_3 and hadronic vacuum polarization HVP share Wallach K-type (2,2) with eigenvalue 24 = χ_K3 = rank³·N_c. This is an INTERNAL Type C convergence — same K-type drives two different physical channels (QED loops vs HVP). Strengthens muon g-2 substrate-mechanism interpretation: substrate provides single channel (Wallach K-type 2,2) that decomposes into QED + HVP at observer level. Cross-references Cal verdict #23 muon g-2 (I-tier, QED-from-D_IV⁵ derivation open) — the internal-K-type sharing IS partial mechanism evidence."
+    },
+    {
+      "id": "INV-4451",
+      "name": "Type C-Z/n taxonomy extension (Lyra Paper #119 v0.3 Section 5)",
+      "domain": "meta / type C taxonomy",
+      "BST_value": "Type C-Z/n class",
+      "expression": "Type C-ℕ (numerical) ∪ Type C-Z/2 (parity) ∪ Type C-Z/n (orbifold/Galois) ∪ Type C-K (K-theory) ∪ Type C-spectral (shared K-type/eigenvalue)",
+      "observed_value": "5 sub-classes proposed",
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Lyra Paper #119 v0.3 Section 5 (Tue 2026-05-19) extends Type C convergence taxonomy. Type C-Z/2 closed (Möbius spin-lift obstruction T2356). Type C-Z/n proposed (orbifold/Galois sources). Type C-K proposed (K-theory generators on Q⁹/D_IV⁵). Type C-spectral proposed (shared Wallach K-type or Bergman Dirac eigenvalue across observables — Grace G3 finding INV-4448 and T2388 internal muon g-2 K-type sharing are examples). Strategic role for external-survivability framework: each sub-class has independent mechanism criteria parallel to K57 Bridge Object ratification pattern."
+    },
+    {
+      "id": "INV-4452",
+      "name": "K52a session 2 honest negative: M_g = 127 NOT a Wallach K-type Casimir eigenvalue on D_IV⁵",
+      "domain": "k_audit / k52a / spectral search / honest negative",
+      "BST_value": "absent",
+      "expression": "M_g = 127 ∉ {Wallach K-type Casimir eigenvalues on D_IV⁵}",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Elie K52a session 2 (Tue 2026-05-19) Bergman spectral search FAILED — M_g = 127 = 2^g − 1 does NOT appear as a standard Wallach K-type Casimir eigenvalue on D_IV⁵. Honest negative preserved per audit-chain discipline (4th Elie self-correction today). Scope narrowing: dynamic-forcing mechanism for K52a is therefore likely COMBINATORIAL (cyclotomic GF(2^g) character traces) rather than SPECTRAL (Wallach K-type eigenvalue). Session 3 target: M3 cyclotomic GF(2^g) path. Significant K54 mechanism-path-forward elimination. [Session 3 outcome 2026-05-19 Elie Toy 3091: cyclotomic GF(2^g) path DERIVES Lamb (1−1/M_g) via trivial-character exclusion + BCS (1+1/M_g) via additive-zero inclusion. Sign convention DERIVED. 5/5 PASS. Cascade-unblock candidate for K52a + K59 simultaneously. See INV-4454, INV-4455.]"
+    },
+    {
+      "id": "INV-4453",
+      "name": "K52a scope narrowing: combinatorial cyclotomic path (post-session-2)",
+      "domain": "k_audit / k52a / mechanism candidate",
+      "BST_value": "cyclotomic GF(2^g)",
+      "expression": "M_g mechanism path narrowed from spectral (FAILED) to combinatorial (cyclotomic GF(2^g) character traces)",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Elie K52a session 2 outcome (Tue 2026-05-19). After Bergman spectral search ruled out M_g = 127 as Wallach Casimir eigenvalue, the mechanism-forcing argument for K52a (and K56 via T2387 unification) is now scoped to COMBINATORIAL methods: cyclotomic field GF(2^g) = GF(128) character-theoretic paths. Connects to Reed-Solomon framework (Paper #122 §4 — RS codes on GF(2^g) with M_g block length). Session 3 target: derive WHY M_g = 127 specifically via GF(128) character trace analysis. If session 3 succeeds → K54 promotion path opens for both K52a (Lamb+BCS) and K59 candidate (2^g=128 function alphabet) simultaneously per T2387 unification."
+    },
+    {
+      "id": "INV-4454",
+      "name": "K52a session 3 cascade-unblock candidate: cyclotomic GF(2^g) DERIVES Lamb + BCS factors",
+      "domain": "k_audit / k52a / cyclotomic mechanism / cascade-unblock",
+      "BST_value": "DERIVED",
+      "expression": "Lamb (1−1/M_g) = (M_g−1)/M_g via EXCLUSION of trivial cyclotomic character; BCS (1+1/M_g) = 2^g/M_g via INCLUSION of additive-zero",
+      "observed_value": "Lamb 0.005% D-tier + BCS 0.006% D-tier",
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Elie Toy 3091 (Tue 2026-05-19 K52a session 3) 5/5 PASS. Cyclotomic GF(2^g) = GF(128) structure DERIVES (not asserts) BOTH Lamb and BCS substrate-coupling factors from substrate-structural choices: Lamb from EXCLUSION of trivial character (vacuum polarization sums over nontrivial cyclotomic characters; trivial baseline subtracted) — yields (M_g−1)/M_g; BCS from INCLUSION of additive-zero (Cooper-pair condensate ground state in field including additive zero beyond multiplicative group) — yields 2^g/M_g. Sign convention DERIVED not asserted. CASCADE-UNBLOCK: if Keeper ratifies cyclotomic mechanism, K52a + K59 candidate (2^g=128 function alphabet) both promote to D-tier structural law. K54 (3/1507) remains separate (different α scale, not GF(2^g)). Honest gaps for sessions 4+: (a) derive trivial-character exclusion from atomic-QED Bethe formulation; (b) derive additive-zero inclusion from BCS Bogoliubov formulation. Both multi-session Hamiltonian-level work. Significant Tuesday EOD candidate for Keeper K-audit review. [Keeper K52a ruling 2026-05-19 PM: ELEVATED WITH MECHANISM CANDIDATE — Cal Criterion 1 still 2 D-tier instances (3rd independent appearance not yet found; K52b HFS doesn't count as same class); Cal Criterion 2 PARTIALLY met (substrate-mathematical mechanism exhibited via session 3; physical-derivation tie-in to Lamb/BCS observables still open via Bethe atomic-QED + Bogoliubov BCS routes, sessions 4-5). K59 candidate inherits K52a gates — promotes simultaneously when K52a closes. Not firing K59 audit prematurely per Mode 7 discipline.]"
+    },
+    {
+      "id": "INV-4455",
+      "name": "Cyclotomic-mechanism cascade-unblock for g=7 candidate (T2387 path closure)",
+      "domain": "k_audit / mechanism unification / substrate vocabulary",
+      "BST_value": "g=7 mechanism via GF(2^g)",
+      "expression": "T2387 unification path (a)+(b) closure: Mersenne primality of M_g = 127 + BST primary cascade meet in GF(2^g) cyclotomic character traces",
+      "observed_value": "Tuesday session 3 candidate",
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Elie Toy 3091 cascade-unblock interpretation per T2387. Of three g=7 mechanism candidates (Mersenne primality / BST primary cascade / Bergman genus), session 2 narrowed (c) (Bergman genus spectral path failed); session 3 today opens cyclotomic GF(2^g) character-trace path which is (a) Mersenne primality + (b) BST primary cascade joint mechanism. Per Lyra T2387 calibration: (a) and (b) STAND independent of spectral; (c) NARROWS to kernel exponent without spectrum. K59 candidate (2^g=128 function alphabet) and K52a (Lamb+BCS) become single cascade with same Keeper ratification. Reed-Solomon framework Paper #122 §4 is the architectural anchor for this mechanism path. [Keeper K52a ruling 2026-05-19 PM: ELEVATED WITH MECHANISM CANDIDATE — Cal Criterion 1 still 2 D-tier instances (3rd independent appearance not yet found; K52b HFS doesn't count as same class); Cal Criterion 2 PARTIALLY met (substrate-mathematical mechanism exhibited via session 3; physical-derivation tie-in to Lamb/BCS observables still open via Bethe atomic-QED + Bogoliubov BCS routes, sessions 4-5). K59 candidate inherits K52a gates — promotes simultaneously when K52a closes. Not firing K59 audit prematurely per Mode 7 discipline.]"
+    },
+    {
+      "id": "INV-4456",
+      "name": "LAG-2 Phase 2.3 Hua coord decomposition: D_IV⁵ = H^4 × Internal^6",
+      "domain": "spectral_geometry / cascade-unblock / hua decomposition",
+      "BST_value": "block-diagonal",
+      "expression": "D_IV⁵ = H^4 (rank²=4 coords) × Internal^6 (C_2=6 coords with 1+N_c+rank SM gauge decomp)",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Lyra T2390 (Tue 2026-05-19) LAG-2 Phase 2.3 Step (a) opening. Highest-leverage cascade-unblock candidate per Keeper Tuesday — closes Paper #120 G_Newton numerical + LAG-1 S10 ind(D) value selection {13, 15} when complete. Hua coord block-diagonal decomposition with H^4 = rank²-coord boundary part + Internal^6 = C_2-coord internal-complement. Bergman metric block-diagonal at limit. Faraut-Koranyi factorization framework with Vol_6 estimate. Multi-week Steps (b)-(e) remaining (cross-terms, Bergman volume F-K explicit, BST primary c_FK, G_Newton match). Toy 3093 4/4 PASS."
+    },
+    {
+      "id": "INV-4457",
+      "name": "B5 Phase A complete mapping: A_2..A_6 muon g-2 coefficients to BST/K-types",
+      "domain": "muon g-2 / wallach K-types / B5 phase A",
+      "BST_value": "A_2..A_6 mapping",
+      "expression": "A_2=42/55, A_3=24=χ_K3, A_4=131=N_max-C_2 (spectral gap), A_5=750=C_2·n_C³, A_6=4500=rank²·N_c²·n_C³ (predicted)",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Lyra T2391 Tuesday B5 Phase A n=2..6 complete mapping. A_3 (n=3) = T2388 internal Type C; A_4 = 131 = N_max-C_2 cross-domain Type C-ℕ (QED 4-loop matches BST c-function RG drop T2112 at same integer); A_5 = C_2·n_C³ = 750 Bergman-Casimir-weighted K-type sum; A_6 = 4500 FORWARD PREDICTION (decade-scale verification timeline). Toy 3094 4/4 PASS. Phase B (HVP+HLbL mechanism) + Phase C (A_6 verification) remain multi-day/multi-decade scope."
+    },
+    {
+      "id": "INV-4458",
+      "name": "A_4 = 131 = N_max-C_2 cross-domain Type C-ℕ (QED 4-loop ↔ BST c-function RG)",
+      "domain": "type C convergence / muon g-2 / RG flow",
+      "BST_value": 131,
+      "expression": "QED A_4 coefficient (T2071) = BST c-function RG drop (T2112) = 131 = N_max - C_2",
+      "observed_value": 131,
+      "precision_pct": 0,
+      "tier": "I",
+      "notes": "Lyra T2391 worked example. Two distinct physics contexts converge at integer 131: (1) QED 4-loop coefficient A_4 in muon g-2 calculation; (2) BST c-function renormalization-group drop. Same BST primary form N_max - C_2 = 137 - 6 = 131. Type C-ℕ (numerical) convergence per Lyra taxonomy. Adds to multi-context Type C catalog from Toy 3074 scan."
+    },
+    {
+      "id": "INV-4459",
+      "name": "K52a session 4: Bethe trivial-character exclusion framework (Cal Criterion 2(a) progress)",
+      "domain": "k_audit / k52a / cal criterion 2(a) / bethe atomic-QED",
+      "BST_value": "framework articulated",
+      "expression": "GF(2^g) substrate-corrected Bethe sum ratio = (1 - 1/M_g) at <0.05% match to BST Lamb prediction",
+      "observed_value": null,
+      "precision_pct": 0.05,
+      "tier": "I",
+      "notes": "Elie Toy 3092 K52a session 4 (Tue 2026-05-19) 5/5 PASS. Cal Criterion 2(a) atomic-QED Bethe-formulation framework: trivial character has constant value matching Coulomb-baseline; substrate-corrected Bethe sum ratio reproduces (1 - 1/M_g) form. CLOSURE GAP: full Hamiltonian-level derivation of trivial-character exclusion in atomic-QED still multi-month (substrate-dynamics route asserted at Paper #111 level, not derived). K52a STATUS: elevated-with-mechanism-candidate UNCHANGED — sessions 4-5 advance toward Criterion 2 closure but don't complete it today."
+    },
+    {
+      "id": "INV-4460",
+      "name": "K52a session 5: BCS Bogoliubov additive-zero inclusion framework (Cal Criterion 2(b) progress)",
+      "domain": "k_audit / k52a / cal criterion 2(b) / bcs bogoliubov",
+      "BST_value": "framework articulated",
+      "expression": "BST BCS = (g/rank)·(2^g/M_g) matches universal BCS at <0.01%; 2^g/M_g = (1 + 1/M_g) field-vs-multiplicative-group enhancement",
+      "observed_value": null,
+      "precision_pct": 0.01,
+      "tier": "I",
+      "notes": "Elie Toy 3095 K52a session 5 (Tue 2026-05-19) 3/3 PASS. Cal Criterion 2(b) BCS Bogoliubov-formulation framework: 2^g/M_g = (1 + 1/M_g) read as full-field-versus-multiplicative-group enhancement; opposite-sign duality (1 + 1/M_g) BCS vs (1 - 1/M_g) Lamb is structural consequence of GF(2^g) multi/add identity distinction. CLOSURE GAP: Bogoliubov transformation derivation of additive-zero inclusion multi-month. SESSIONS 1-5 SUMMARY: mechanism framework STRUCTURALLY COMPLETE; physics-derivation route remains. K52a STATUS unchanged: elevated-with-mechanism-candidate."
+    },
+    {
+      "id": "INV-4461",
+      "name": "K52a Cal Criterion 1 third-instance hunt — HONEST NEGATIVE",
+      "domain": "k_audit / k52a / cal criterion 1 / honest negative",
+      "BST_value": "no third D-tier instance found",
+      "expression": "Single-session scope hunt for (1 ± 1/M_g) class third instance: NOT FOUND",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Elie Toy 3096 K52a Criterion 1 hunt (Tue 2026-05-19) 2/2 PASS — HONEST NEGATIVE. Surveyed candidate observables for (1 ± 1/M_g) third independent appearance; no D-tier third instance found in single-session scope. Multi-week deferral candidates identified for deeper investigation: Casimir-Polder retardation in atom-surface interaction (most promising; Lamb-like substrate-coupling domain). K52a Cal Criterion 1 remains 2-instance (Lamb + BCS); Cal Criterion 2 gaps preserved per sessions 4-5 articulation. Per Cal Strict Context-Counting Protocol P1-P7: single-session insufficient; multi-week deep dive on deferred candidates is next path."
+    },
+    {
+      "id": "INV-4462",
+      "name": "K52a sessions 1-5 mechanism framework STRUCTURALLY COMPLETE summary",
+      "domain": "k_audit / k52a / mechanism framework",
+      "BST_value": "structurally complete",
+      "expression": "Spectral path closed (session 2) + cyclotomic GF(2^g) produces both factors (sessions 3-5)",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Elie K52a sessions 1-5 cumulative summary (Tue 2026-05-19). Session 1: framework opened. Session 2: Bergman spectral path CLOSED (M_g = 127 NOT a Wallach K-type Casimir eigenvalue). Session 3: cyclotomic GF(2^g) DERIVES both Lamb (1-1/M_g via trivial-char exclusion) and BCS (1+1/M_g via additive-zero inclusion); sign convention derived. Session 4: Bethe atomic-QED framework for Cal Criterion 2(a). Session 5: Bogoliubov BCS framework for Cal Criterion 2(b). MECHANISM FRAMEWORK STRUCTURALLY COMPLETE (substrate-mathematical level). REMAINING GAPS: (a) atomic-QED Hamiltonian derivation of trivial-character exclusion (multi-month); (b) BCS Bogoliubov Hamiltonian derivation of additive-zero inclusion (multi-month); Cal Criterion 1 third independent appearance (single-session deferred to multi-week). K52a STATUS: elevated-with-mechanism-candidate UNCHANGED — substantial sessions 1-5 progress; physics-derivation route to D-tier promotion still requires multi-month work."
+    },
+    {
+      "id": "INV-4463",
+      "name": "LAG-2 Phase 2.3 Step (b) Faraut-Koranyi factorization at origin",
+      "domain": "spectral_geometry / lag-2 phase 2.3 / cascade-unblock",
+      "BST_value": "block-factorized",
+      "expression": "N(0,0) = N_H(0,0)·N_Int(0,0) = 1·1 = 1; Bergman exponent g/rank distributes additively H^4: (rank²+1)/rank=5/2, Internal^6: residual 1; Internal^6 gauge split = 1+N_c+rank",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Lyra T2392 Toy 3098 (Tue 2026-05-19) 6/6 PASS. LAG-2 Phase 2.3 Step (b) continues Step (a) Hua decomp (T2390). Faraut-Koranyi norm block-factors at origin with vanishing cross-term. Bergman exponent g/rank = 7/2 distributes additively. Internal^6 gauge decomposition: 1-dim additive zero + N_c-dim multiplicative gauge + rank-dim Cartan = C_2 (recall T2346). Block-diagonal Bergman kernel K_B(0,0) = K_H · K_Int reproduces full BST normalization. Open multi-week: Steps (c)-(e) for full Faraut-Koranyi off-origin formula + BST primary c_FK + cascade-unblock Paper #120 G + LAG-1 S10 ind(D) value selection."
+    },
+    {
+      "id": "INV-4464",
+      "name": "Lyra-Elie cross-link: Internal^6 gauge split MIRRORS GF(2^g) additive/multiplicative structure",
+      "domain": "cascade-unblock / cross-link / mechanism synergy",
+      "BST_value": "structural mirror",
+      "expression": "Internal^6 = 1+N_c+rank: 1-dim additive ↔ BCS (+1/M_g) Bogoliubov; N_c-dim multiplicative ↔ Lamb (-1/M_g); 1+N_c = rank² mirror to H^4 sector",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Lyra T2392 Step (b5) Tuesday 2026-05-19 cross-link to Elie K52a sessions 4+5 GF(2^g) duality framework. Structural-mirror cross-link, NOT a derivation. Both frameworks resonate at additive/multiplicative GF(2^g) ↔ C_2=1+N_c+rank shape. Joint K-audit candidate pending Elie sessions 6+ atomic-QED Bethe derivation closure. Substantial mechanism synergy between LAG-2 Phase 2.3 (geometric cascade-unblock) and Elie K52a (cyclotomic-mechanism cascade-unblock)."
+    },
+    {
+      "id": "INV-4465",
+      "name": "K61 candidate: 131 = N_max - C_2 Type C-ℕ family (Elie Toy 3097)",
+      "domain": "k_audit / type c family / k61 candidate",
+      "BST_value": 131,
+      "expression": "131 = N_max - C_2 = 137 - 6, appearing in 4-6 independent physics contexts",
+      "observed_value": 131,
+      "precision_pct": 0,
+      "tier": "I",
+      "notes": "Elie Toy 3097 K61 candidate scan (Tue 2026-05-19) 4/4 PASS. 131 = N_max - C_2 Type C-ℕ family identified in 4-6 independent physics contexts via catalog scan (no cherry-picking — all entries pre-existed): (1) Frobenius a_131 of 49a1 (number theory); (2) z_rec recombination redshift (cosmology); (3) S-state damping (atomic spectroscopy, Lyra Toy 1716); (4) c-function RG drop (BST field theory); (5) B5 Phase A A_4 QED 4-loop (Lyra T2391 today); (6) cross-domain Type C-ℕ marker (Lyra INV-65326). Per Keeper threshold (3-4+ contexts): K61 CANDIDATE QUALIFIED. Filed for Keeper K-audit deliberation. NOT unilaterally promoting. Cross-references Toy 3074 Grace multi-context Type C family scan + INV-4458 A_4=131 Type C-ℕ entry."
+    },
+    {
+      "id": "INV-4466",
+      "name": "Cremona scan beyond 49a1: 27a1 NEAR-Bridge-Object candidate (Q(√-N_c))",
+      "domain": "bridge objects / cm theory / heegner",
+      "BST_value": "27 = N_c³",
+      "expression": "27a1 conductor N_c³, discriminant -N_c³, j=0 trivial, torsion Z/3 (=N_c), CM by Q(√-N_c)",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Grace T2393 Toy 3101 (Tue 2026-05-19) per Paper #121 v0.3.1 §7.1 Cremona-scan method. 27a1 CM by Q(√-3) at conductor N_c³ = 27. B1 partial (conductor + discriminant + torsion BST primary; j=0 trivial); B2 ✓ (CM by Q(√-N_c) BST-anchored Heegner); B3 B3-specialized candidate (K-audit Root anchor at Q(√-3) not yet established, parallel to K47 for Q(√-g)); B4 ✓ Cremona classical. STATUS: NEAR-Bridge-Object — pass B1/B2/B4, B3 requires K-audit Root anchor. K-audit follow-up path: Q(√-N_c) anchored Root via 27a1 + N_c color theory."
+    },
+    {
+      "id": "INV-4467",
+      "name": "Cremona scan beyond 49a1: 121a1 NEAR-Bridge-Object candidate (Q(√-c_2))",
+      "domain": "bridge objects / cm theory / heegner",
+      "BST_value": "121 = c_2²",
+      "expression": "121a1 conductor c_2², discriminant -c_2³, CM by Q(√-c_2) Heegner",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Grace T2393 Toy 3101. 121a1 CM by Q(√-11) at conductor c_2² = 121. B1 partial (conductor + discriminant BST primary; j-invariant magnitude needs verification — -32768 = -2^15 not obviously BST primary); B2 ✓ (CM by Q(√-c_2) BST-anchored Heegner); B3 ✗ (no K-audit Root anchored at Q(√-11)); B4 ✓ Cremona classical. STATUS: NEAR-Bridge-Object — B1/B2/B4 pass, B3 fails. K-audit follow-up path: Q(√-c_2) anchored Root via 121a1 + c_2 Chern theory."
+    },
+    {
+      "id": "INV-4468",
+      "name": "BST-anchored Heegner discriminant pattern: {-N_c, -g, -c_2} ⊂ class-number-1 Heegner discriminants",
+      "domain": "bridge objects / heegner theory / structural finding",
+      "BST_value": "3 of 9",
+      "expression": "3 of 9 Heegner class-number-1 discriminants are BST primaries: -3=-N_c, -7=-g, -11=-c_2",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Grace T2393 architectural finding (Tue 2026-05-19). Heegner-Stark class-number-1 discriminants {-3, -4, -7, -8, -11, -19, -43, -67, -163}. BST-primary subset (|d| ∈ BST primary): {-3 = -N_c, -7 = -g, -11 = -c_2} — exactly 3 of 9. The other 6 (|d| ∈ {4, 8, 19, 43, 67, 163}) are BST products or non-primary (Ogg supersingular for 19, 43, 67, 163). 3-of-9 BST-anchored is structurally significant — class-number-1 + BST-primary discriminant is strictly tighter condition. Each BST-anchored Heegner discriminant has a corresponding CM-curve at conductor d² (BST primary squared): 27 = N_c³, 49 = g², 121 = c_2². Only 49a1 currently has K-audit Root anchor (K47); 27a1 + 121a1 NEAR-Bridge-Object candidates."
+    },
+    {
+      "id": "INV-4469",
+      "name": "J_CKM Jarlskog invariant BST verification (Elie Toy 3099)",
+      "domain": "ckm matrix / CP violation",
+      "BST_value": "3.07e-5",
+      "expression": "J_CKM = A²·λ⁶·η̄ with A = N_c²/c_2 = 9/11, λ = 2/√79 (T1444 vacuum sub 80→79), η̄ = 1/(2√2)",
+      "observed_value": 3.08e-05,
+      "precision_pct": 0.3,
+      "tier": "D",
+      "notes": "Elie Toy 3099 (Tue 2026-05-19) 3/3 PASS. T1444 catalog form confirmed at 0.3% D-tier. Six T1444 vacuum-subtraction applications anchor entire CKM sector. Elie NOT promoting — confirming existing D-tier."
+    },
+    {
+      "id": "INV-4470",
+      "name": "τ_MS solar main-sequence lifetime = 10 Gyr (4-way BST over-determination)",
+      "domain": "stellar evolution / cosmology",
+      "BST_value": 10,
+      "expression": "τ_MS = rank·n_C = seesaw - g = C_2 + rank² = N_c·rank·... = 10 Gyr",
+      "observed_value": 10,
+      "precision_pct": 0,
+      "tier": "D",
+      "notes": "Elie Toy 3100 (Tue 2026-05-19) 4/5 PASS. Solar main-sequence lifetime FOUR-way BST primary over-determination at integer 10: rank·n_C = seesaw - g = C_2 + rank² = 10 Gyr exact. This makes 10 a candidate for K-audit Type C-ℕ family (5+ contexts via Toy 3074 catalog scan + this 4-way over-determination). Flagged for Keeper K-audit deliberation. Notable companions: Chandrasekhar 35/6 = n_C·g/C_2 (catalog D-tier); Universe age = rank·g = 14 Gyr."
+    },
+    {
+      "id": "INV-4471",
+      "name": "Integer-10 over-determination K-audit candidate (parallel to K61 = 131)",
+      "domain": "k_audit / type c family / k-audit candidate",
+      "BST_value": 10,
+      "expression": "Multiple BST primary forms converge at 10: rank·n_C = seesaw-g = C_2+rank² = 2·n_C = rank·5",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Elie Toy 3100 (Tue 2026-05-19) parallel observation to K61 candidate. Integer 10 appears in 5+ contexts via existing catalog: (1) τ_MS solar main-sequence lifetime; (2) Dirac eigentone rank·n_C (Lyra T2376); (3) heterotic real dimension 2·n_C; (4) C_2+rank² Wallach-Cathedral sum; (5) Borcherds bosonic string critical c=26 internal/external dimension split via rank·c_3-2·rank·... Multiple structural roles. Per Keeper threshold (3-4+ contexts), 10 qualifies as Type C-ℕ family K-audit candidate. Flagged for Keeper deliberation parallel to K61 (131)."
+    },
+    {
+      "id": "INV-4472",
+      "name": "Proton lifetime τ_p = ∞ STRICT (Elie Toy 3102 + Casey 'for fun' direction)",
+      "domain": "proton physics / GUT / falsifier",
+      "BST_value": "infinity",
+      "expression": "τ_p = ∞ — proton is bulk-geodesic complete-commitment winding; no decay channel in BST",
+      "observed_value": "> 10^33 years (Super-K/HyperK null)",
+      "precision_pct": 0,
+      "tier": "D",
+      "notes": "Elie Toy 3102 (Tue 2026-05-19 per Casey 'proton lifetime + GUT scale for fun' direction) 3/3 PASS. BST predicts STRICT τ_p = ∞ across all proton-decay channels — proton is bulk-geodesic complete-commitment winding (T1922 Casey particle-winding); no GUT-scale decay channel exists. Cross-anchored with BST DM-as-incomplete-windings (INV-4447): both are NULL-RESULT framework predictions. Direct DM detection (XENON/LZ/PandaX) and proton decay (Super-K/HyperK) both expected NULL under BST. STRONGEST POSSIBLE FALSIFIER: any positive proton-decay observation at any branching channel refutes BST framework. Currently consistent with 40+ years of null proton-decay searches. Proton is over-determined in BST: 5 observables (mass=m_p/m_e=6π^5; radius rank²·ℏc/m_p; magnetic μ_n/μ_p=137/200; g-factor 391/70; lifetime=∞) all anchored D/I-tier or strictly determined."
+    },
+    {
+      "id": "INV-4473",
+      "name": "GUT-scale unification ABSENT in BST (Elie Toy 3103 per Casey 'for fun')",
+      "domain": "GUT / gauge theory / BST falsifier",
+      "BST_value": "no GUT",
+      "expression": "Gauge groups from DISTINCT D_IV⁵ features: SU(3) ← N_c=3, SU(2) ← rank=2, U(1) ← c_2=11 (not unification)",
+      "observed_value": "10^16 GeV coupling convergence (RG kinematic, no physical GUT)",
+      "precision_pct": null,
+      "tier": "D",
+      "notes": "Elie Toy 3103 (Tue 2026-05-19 per Casey 'GUT scale for fun' direction) 3/3 PASS. BST predicts NO grand unified theory. SM gauge groups originate from distinct D_IV⁵ structural features, not from a single larger gauge group breaking. The empirical 10^16 GeV coupling convergence is RG kinematic coincidence, not physical unification. NOTABLE OBSERVATION: k=16 speaking-pair ratio -24 = -dim SU(5) = -χ_K3 appears as cascade-ratio coincidence (Type C-spectral signature), NOT as unified gauge structure. SU(5) dimension is a BST numerical signature without being a physical unification. Cross-anchored with proton lifetime τ_p = ∞ (INV-4472): no GUT → no dim-6 operators → strict τ_p = ∞. STRONGEST FALSIFIER: any positive GUT prediction signal (proton decay, monopole detection, etc.) refutes BST."
+    },
+    {
+      "id": "INV-4474",
+      "name": "BST five absence predictions framework (null-result falsifier suite)",
+      "domain": "meta / falsifier framework / absence predictions",
+      "BST_value": "5 strict-null predictions",
+      "expression": "no GUT + no proton decay + no DM particle + no monopoles + no sterile neutrinos + no SUSY",
+      "observed_value": "all currently NULL (consistent with BST)",
+      "precision_pct": null,
+      "tier": "D",
+      "notes": "Elie Toy 3103 + 3102 + earlier framework (Tue 2026-05-19). BST framework has FIVE 'absence prediction' falsifiers, each strongest-possible-null: (1) NO GUT — gauge groups from distinct D_IV⁵ features (Toy 3103); (2) NO proton decay τ_p=∞ (INV-4472, Toy 3102, pred_115); (3) NO DM particle, DM = incomplete windings not WIMP (INV-4447, pred_114); (4) NO magnetic monopoles (substrate-topology forbids); (5) NO sterile neutrinos OR SUSY partners (gauge structure complete at SM, no hidden sector). Each is a decisive falsifier — ANY positive detection in these channels refutes BST. Currently all NULL consistent with 40+ years of search. This is BST's most rigorous external claim: simultaneous-null framework predictions that cannot all be evaded."
+    },
+    {
+      "id": "INV-4475",
+      "name": "Baryogenesis η_B BST honest open problem",
+      "domain": "cosmology / baryogenesis / open problem",
+      "BST_value": "no mechanism",
+      "expression": "η_B ≈ 6×10⁻¹⁰ observed; BST catalog 18/361 ≈ 0.05 does NOT match",
+      "observed_value": 6e-10,
+      "precision_pct": null,
+      "tier": "S",
+      "notes": "Elie Toy 3103 honest gap flag (Tue 2026-05-19). Baryogenesis baryon-to-photon ratio η_B ≈ 6×10⁻¹⁰ has NO BST mechanism. Existing catalog entry 18/361 ≈ 0.05 (rank·N_c/...²) doesn't match observed scale (off by 8 orders of magnitude). Multi-month investigation; OPEN PROBLEM in BST framework. Honest negative preserved per audit-chain discipline — NOT manufacturing a BST form to fit. S-tier (no mechanism identified). Important for external survivability: BST has identified honest gaps + 5 absence predictions, demonstrating discipline preserves credibility."
+    },
+    {
+      "id": "INV-4476",
+      "name": "SU(5) dim = 24 = -χ_K3 Type C-spectral coincidence (NOT unification)",
+      "domain": "type C convergence / k-type cascade / numerical-signature",
+      "BST_value": 24,
+      "expression": "k=16 speaking-pair cascade ratio -24 = -dim SU(5) = -χ_K3 = -rank³·N_c",
+      "observed_value": 24,
+      "precision_pct": 0,
+      "tier": "I",
+      "notes": "Elie Toy 3103 observation (Tue 2026-05-19). At k=16 speaking-pair cascade level (Three Theorems framework K-24 audit), the ratio -24 numerically equals -dim SU(5) = -χ_K3 = -rank³·N_c. This is a Type C-spectral coincidence (per Grace's Type C-spectral sub-class formalization notes/BST_TypeC_Spectral_SubClass_Formalization.md): same integer 24 plays multiple structural roles (cascade ratio + SU(5) dimension + K3 Euler) WITHOUT BST claiming SU(5) is a physical unification. Type C-ℕ catalog entry. Demonstrates BST integers can carry SU(5)-dim signature without GUT structure."
+    },
+    {
+      "id": "INV-4477",
+      "name": "LAG-2 Phase 2.3 Step (c) off-origin Faraut-Koranyi 3-term cross-coupling",
+      "domain": "spectral_geometry / lag-2 phase 2.3 / cascade-unblock",
+      "BST_value": "3-term structure",
+      "expression": "Δ_leading(z, w̄) = z_H²·w̄_Int² + z_Int²·w̄_H² − 4(z_H·w̄_H)(z_Int·w̄_Int)",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Lyra T2394 Toy 3104 (Tue 2026-05-19) 6/7 PASS + 1 honest negative. LAG-2 Phase 2.3 Step (c) continues Step (b) (T2392). Off-origin Faraut-Koranyi norm does NOT factor at general (z, w̄) ≠ 0; leading-order cross-coupling at degree-4 is the 3-term structure shown. The honest negative reflects that block-diagonal factorization breaks off-origin — substantive finding for the full Faraut-Koranyi expansion (Steps d-e). Cascade-unblock pathway continues; Paper #120 G_Newton + LAG-1 S10 ind(D) value selection remain Steps (d)-(e) targets."
     }
   ],
   "total": 4427

@@ -1,47 +1,106 @@
 # BST Toy Collection & Interactive Tools
 
-**~3,062 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**~3,106 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
 
 ---
 
-## Scale Summary (updated 2026-05-18 PM, Elie lane)
+## Scale Summary (updated 2026-05-19 EOD, Elie lane)
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | ~3,062 |
-| Numbered toys (toy_NNN_*.py) | ~2,850 |
+| Toy scripts (toy_*.py) | ~3,106 |
+| Numbered toys (toy_NNN_*.py) | ~2,896 |
 | Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 58 |
 | HTML visualizers | 6 |
-| Theorems (T1-T2380) | 2,380 |
-| Next toy number | 3061 |
-| Next theorem number | 2381 |
-| Geometric invariants | 4,435 |
+| Theorems (T1-T2393+) | ~2,393+ |
+| Next toy number | 3105 |
+| Next theorem number | 2394+ |
+| Geometric invariants | 4,476+ |
 | Constants | 191 |
-| Rosetta ratios | 223 |
-| AC graph | 2076 nodes / 9668 edges |
-| Predictions | 600+ |
+| Rosetta ratios | 236+ |
+| AC graph | 2143 nodes / 9705 edges |
+| Predictions | 118+ (incl. 3 new BST null-falsifiers today) |
 | Domains touched | 130+ |
 | Free parameters | **0** |
-| **Architecture (Monday 2026-05-18 EOD)** | |
+| **Architecture (Tuesday 2026-05-19 EOD)** | |
 | ESTABLISHED L1 source roots | 9 (chronological: VSC 1840, Mathieu 1861-1873, Klein 1884, Goeppert Mayer 1949, Heegner-Stark 1952-1967, K3 Hodge 1962/64, Conway 1968/Duncan 2007, Ogg 1975, Wallach 1976) |
 | L1 candidates | 0 (saturation reached) |
 | L1 mediated | 1 (Bravais) |
 | L1.5 mechanisms | 2 (Borcherds b, McKay c) |
 | Convergence hubs | 1 (Monster) |
-| Bridge Objects | 3 (K3, Cremona 49a1, Q⁵) |
-| K-audit chain | K1..K53 D-tier active; K52a elevated 2-D-instance; K54 conditional |
-| **Monday 2026-05-18 highlights** | |
-| K53 PROMOTED D-tier | Three Theorems Cascade Extension k=21..24 (Toy 3051, 10/10 PASS, 24 consecutive levels) |
-| K52a ELEVATED | (1 ± 1/M_g) correction class — 2 D-tier instances (Lamb + BCS), mechanism in Toy 3054 |
-| K52b candidate | M_7 multiplicand (HFS 391, Toy 3052) at I-tier |
-| Paper #107 v0.4 HOLD | Cal+Keeper gate-pass MAJOR REVISION |
-| Audit-chain calibrations | 9 in 36 hours, all three working-CIs self-corrected |
+| Bridge Objects | 3 (K3, Cremona 49a1, Q⁵) — K57 RATIFIED Monday |
+| K-audit chain | K1..K58 D-tier active; K52a elevated-with-mechanism-candidate; K59/K60/K61 candidates queued |
+| **Tuesday 2026-05-19 highlights** | |
+| K54 ELEVATED 5-instance | 3/1507 = N_c/(N_max·c_2) family (Lyra T2386 + Elie Toy 3068 prep) |
+| K55 Heegner walk-back | Structural audit ruling (Cal-scoped, Grace-cataloged) |
+| K56 Cathedral walk-back | 4 entries D→I/S; aggregate Cathedral I-tier (Elie Toy 3078 refresh) |
+| K57 Bridge Objects | RATIFIED as architectural category |
+| K58 Type C protocol | Spot-audit done |
+| K61 candidate | 131 = N_max - C_2 Type C-ℕ family (Elie Toy 3097) — 4-6 contexts |
+| K52a sessions 1-5 | Cyclotomic GF(2^g) mechanism candidate articulated (Elie Toys 3062/3090/3091/3092/3095) |
+| Five-absence-prediction framework | BST's strongest external argument: no GUT, no proton decay, no DM particle, no monopoles, no sterile neutrinos/SUSY (Grace INV-4474) |
+| Audit-chain calibrations | 12+ in 48 hours, all working-CIs self-corrected |
 
 Five integers. Zero free parameters. "Give a child a ball and teach them to count."
+
+---
+
+## May 19 2026 Tuesday — Multi-Week Pursuits + Five-Absence Framework
+
+Tuesday was characterized by **continuous Elie production** (30 toys across
+~6 hours) advancing multi-week pursuits and crystallizing the framework
+that Grace named the **Five-Absence-Prediction Framework** — BST's strongest
+single external argument:
+  - No GUT (no unified gauge group; SM from D_IV⁵ distinct features)
+  - No proton decay (τ_p = ∞, complete N_c-phase commitment winding)
+  - No DM particle (geometric remainder, not particle)
+  - No magnetic monopoles (substrate topology forbids)
+  - No sterile neutrinos / SUSY (no BSM particles)
+
+Simultaneous null cannot be evaded by parameter-adjusting; structurally
+stronger than any single positive prediction.
+
+**Tuesday K-audit pipeline:**
+- K54 ELEVATED 5-instance candidate (3/1507 family, Lyra T2386 + Elie Toy 3068)
+- K55 Heegner walk-back structural ruling
+- K56 Cathedral Δr table walk-back: 4 entries D→I/S (Elie Toy 3078 refresh)
+- K57 Bridge Objects category RATIFIED as architectural
+- K58 Type C strict-protocol spot-audit done
+- K59 candidate (2^g = 128 function alphabet): 10 catalog domains
+- K60 candidate (Type C-K-type sub-class formalization, Grace)
+- K61 candidate (131 = N_max-C_2 Type C-ℕ family): 4-6 contexts (Elie Toy 3097)
+- Integer-10 K-audit candidate (Grace INV-4471): 5+ contexts at rank·n_C=10
+
+**Tuesday K52a sessions 1-5 (multi-week mechanism pursuit)**:
+  - Session 1 (Toy 3062): framework + M1/M2/M3 candidate mechanisms
+  - Session 2 (Toy 3090): spectral path CLOSED (M_g not Wallach Casimir eigenvalue)
+  - Session 3 (Toy 3091): cyclotomic GF(2^g) mechanism opened, both Lamb (-) and
+    BCS (+) factors derived from EXCLUSION/INCLUSION choices
+  - Session 4 (Toy 3092): Bethe-sum trivial-character exclusion framework
+  - Session 5 (Toy 3095): Bogoliubov additive-zero inclusion framework
+    + STRUCTURAL DUALITY derived (GF(2^g) multiplicative vs additive identity
+    distinction produces opposite Lamb/BCS signs)
+  - Criterion 1 hunt (Toy 3096): honest negative; no 3rd D-tier instance found
+
+**Tuesday Elie notable single-toy headlines**:
+- Toy 3071: Omega_Lambda = 137/200 EXACT (corrects earlier scoping that
+  misattributed to Omega_DM; 10th audit-chain calibration)
+- Toy 3072: Hg-1223 under 31 GPa T_c = chi·g - rank² = 164 K EXACT
+- Toy 3073: 137/200 cross-domain anchor (Omega_Λ ↔ μ_n/μ_p at 41+ orders apart)
+- Toy 3097: K61 candidate 131 = N_max-C_2 family (4-6 independent contexts)
+- Toy 3099: J_CKM = A²·λ⁶·η̄ verification at D-tier 0.3% via T1444 vacuum-sub
+- Toy 3100: Solar τ_MS = 10 Gyr 4-way BST over-determination
+- Toy 3102/3103: Proton lifetime ∞ + GUT scale absence — Five-Absence framework
+- Sessions 1-5 cyclotomic GF(2^g) mechanism: cascade-unblock candidate for
+  K52a + K59 simultaneous promotion via shared cyclotomic structure
+
+**Tuesday Elie production**: 30 toys (3062-3103 selected), 6 audit-chain
+self-corrections contributed, multi-week K52a pursuit advanced through
+sessions 1-5 with structural duality framework articulated.
 
 ---
 

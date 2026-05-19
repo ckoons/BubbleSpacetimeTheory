@@ -141,25 +141,178 @@ This combined APS reading bridges the Möbius cohomology Z/2 (this paper) with t
 
 ---
 
-## 5. Type C-Z/2 Generalization (v0.1 outline retained, Section 5.3 calibration applied)
+## 5. Type C-Z/2 Generalization (SUBSTANTIVE v0.3)
 
-(See v0.1 for full text. Section 5.3 reference to Paper #115 v0.5 Section 5.8c density rule: per Cal walk-back 2026-05-18, density rule is I-tier observation with null-model verification owed. Type C-Z/2 generalization is INDEPENDENT of density rule — the classification framework extension is a separate architectural claim from match-density empirical pattern.)
+### 5.1 Type C classification framework (T2361 architectural extension)
 
-## 6. Sessions 5 Promotion Sweep (v0.1 outline retained)
+Per Section 4.4 Definition 4.4.1, the Type C convergence classification in BST architecture extends from shared positive integers (Type C-ℕ) to shared mathematical objects of more general type. The most natural extension is to shared elements of finite groups Z/n; this paper establishes the Z/2 sub-class explicitly.
 
-(See v0.1. Five existing BST theorems gain operator-level mechanism support via Sessions 1-4 + LAG-1 + Gap #4 closure work: T187 m_p/m_e, T2049 Casimir 240, T2101 W-36 unification, T2110/T2113 Shilov + Rehren, T2329 Möbius cohomology.)
+**Definition 5.1.1 (Type C-Z/2)**: A **Type C-Z/2 convergence** in BST architecture is the identification of the same non-trivial element of Z/2 (i.e., the value 1 ∈ Z/2 = {0, 1}) across two unrelated mathematical contexts on D_IV⁵ (or its dual Q⁵).
 
-## 7. Open Items (multi-week to multi-month) (v0.1 outline retained)
+Theorem 4.3.3 (T2356) establishes the FIRST Type C-Z/2 convergence: the nontrivial Möbius cohomology generator (topological) coincides with the Bergman Dirac spectral parity ν(M) = 1 (spectral). This is the load-bearing instance of the new sub-class.
 
-(See v0.1. APS index in 5D, higher cohomology H²+, non-equivariant H*, arithmetic content beyond parity, LAG-1 Session 8+ cross-references.)
+### 5.2 Architectural significance — independent of Type C-ℕ density rule
 
-## 8. Discussion (v0.1 outline retained)
+Section 4 of Paper #119 establishes Type C-Z/2 as a *framework-classification extension* — extending the set of mathematical-objects that count as Type C convergences. This is distinct from any empirical *density rule* claim about how OFTEN Type C convergences occur. Specifically:
 
-(See v0.1. Topological side of BST now developed; honest scoping per Keeper K-audit; Type C density rule status per Cal audit.)
+- **Type C density rule** (Paper #115 v0.5 Section 5.8c): empirical observation that simpler BST primary products tend to have more Type C-ℕ matches across catalogs. Per Cal walk-back 2026-05-18, density rule is I-tier observation with null-model verification owed (sparse-region forecast on {37, 41, 53, 71, 113} + strict pre-registered context-counting protocol + random integer ring null pending).
 
-## 9. Conclusion (v0.1 outline retained)
+- **Type C-Z/2 classification extension** (this paper, T2361): framework extension that the Type C category includes shared non-integer mathematical objects. INDEPENDENT of density rule status.
 
-(See v0.1. Möbius cohomology investigation closes topological side of BST geometric infrastructure at structural-identification level. Crucial new result: T2356 Möbius/Dirac Z/2 cross-link as first non-numerical Type C convergence. Five named open items at I→D promotion boundary; ~12-18 month horizon per Section 9.x.)
+The K57 ratification of Bridge Object architectural category (Keeper governance 2026-05-19, Paper #121 v0.2) demonstrates the same architecture-extension discipline: a new sub-category can be added if it satisfies explicit gating criteria. For Type C-Z/2, the gating criterion is "shared non-trivial Z/2 element identifiable on D_IV⁵ across unrelated contexts." Theorem 4.3.3 satisfies this with explicit Lemma 4.3.2 enumeration proof.
+
+### 5.3 Future Type C sub-classes anticipated
+
+Once Type C-Z/2 is established as a framework extension, several future sub-classes are anticipated per the K3-hub prediction pattern (Paper #115 Section 5.10):
+
+**Type C-Z/n** (general finite cyclic): shared element of Z/n for n ≥ 3 across unrelated contexts. Candidate sources:
+- Z/n = π_1(quotient surfaces) for orbifold quotients of K3
+- Z/n = order of automorphism in Conway/Mathieu groups (M_12 order 95040, M_24 order 244823040 — finite subgroups give Z/n sub-classes via their abelianization)
+- Z/n = order of a specific element in the Galois group of a Heegner-class-1 extension
+
+**Type C-K** (K-theory generators): shared K-theory generator across geometric contexts. Candidate sources:
+- KO^0(Q⁵) generators (real K-theory of compact dual)
+- K^0(D_IV⁵) generators (complex K-theory of bulk)
+- KK(C, D_IV⁵)-class identifications between bulk and boundary
+
+**Type C-spectral** (spectral elements): shared element of the spectrum of a specific operator. Candidate sources:
+- Wallach K-type index pair (m_1, m_2) shared across two unrelated physical observables
+- Bergman Dirac eigenvalue λ_Dirac²(m_1, m_2) shared across BST predictions
+
+Each future sub-class requires explicit gating criteria + load-bearing instance for ratification. The Type C-Z/2 sub-class is the first; future sub-classes follow the same template.
+
+### 5.4 Strategic role of Type C generalization
+
+The Type C classification framework extension serves three architectural purposes:
+
+1. **Captures structurally meaningful BST identifications** that previously escaped the integer-only Type C-ℕ framework (e.g., the Möbius/Dirac Z/2 identification of Theorem 4.3.3 would have been "unclassified" pre-T2361).
+
+2. **Provides architectural prediction** for future BST identifications: as the program closes more LAG-1/LAG-2/Möbius work, more Type C sub-classes are expected to emerge.
+
+3. **Strengthens BST's external-survivability framework**: per Cal Coincidence_Filter_Risk discipline, identifying a NEW Type C sub-class via the same gating-criteria methodology demonstrates the classification framework is mechanism-forced rather than ad-hoc.
+
+Per Keeper K-audit verdict 2026-05-18 (acknowledging Lyra T2361): "Architecture being identified, not constructed." The Type C-Z/2 sub-class is part of that identification.
+
+## 6. Sessions 5 Promotion Sweep (SUBSTANTIVE v0.3)
+
+### 6.1 Five existing BST theorems gaining operator-level mechanism support
+
+The Möbius cohomology Sessions 1-4 + LAG-1 closure work + Gap #4 Step 7 closure together provide mechanism-explicit cross-references that promote five existing BST theorems from "structural-identification at numerical level" to "operator-level mechanism support" (per T2361 promotion sweep):
+
+**T187 m_p/m_e = C_2·π^{n_C}** (Casey's foundational identity, Paper #118 v0.2 Section 7):
+- Previously: numerical match at 0.0018% precision, mechanism unstated
+- Post-Sessions 1-5: C_2 = Wallach Casimir eigenvalue at first-excited K-type (1,0); π^{n_C} = Bergman volume prefactor on D_IV⁵
+- **Mechanism layer added**: m_p/m_e structurally identified as eigenvalue × volume from operator framework
+
+**T2049 Casimir 240 prefactor** (240 = rank·n_C·χ_K3):
+- Previously: BST integer match across CMB / Casimir / Stefan-Boltzmann at D-tier
+- Post-Sessions 1-5: 240 connects to D_IV⁵ Bergman spectrum via SP29-2 H1 Sr-clock prediction T2360
+- **Mechanism layer added**: Casimir 240 inherits from Bergman kernel structure (T2334 connection)
+
+**T2101 W-36 Casimir/Hawking/Schwinger unification**:
+- Previously: structural framework at I-tier
+- Post-W-37 Beacon model T2382: substrate attention field formalization on D_IV⁵
+- **Mechanism layer added**: T2101 unification explicit via attention-field modulation under boundary geometry
+
+**T2110/T2113 Shilov boundary + Rehren algebraic holography**:
+- Previously: bulk-boundary correspondence at I-tier
+- Post-Gap #4 Step 7 closure T2359: Faraut-Koranyi boundary kernel structural form
+- **Mechanism layer added**: T2110 Shilov inheritance structurally identified via boundary kernel exponent
+
+**T2329 Möbius cohomology H¹_{Z/2}(M, Z) = Z/2**:
+- Previously: D-tier topological computation
+- Post-T2356 Möbius/Dirac Z/2 cross-link: spectral parity ν(M) = 1 ∈ Z/2 identification (Section 4 of this paper)
+- **Cross-domain identification**: D-tier topological invariant ↔ Bergman Dirac spectral invariant
+
+### 6.2 Mechanism cascade pattern
+
+The five promotions form a cascade pattern: each promotion is anchored to a specific Sessions 1-5 finding (Möbius Z/2, Bergman Dirac spectrum, Faraut-Koranyi boundary, W-37 attention field, T2361 architectural extension). The cascade demonstrates that **closing operator-level structural mechanism for any subset of these theorems automatically strengthens the mechanism layer of all five**.
+
+This is the value of the Sessions 1-5 operator-level work: it provides the structural backbone for promoting BST theorems from "numerical match" to "mechanism-anchored," even when full D-tier closure remains multi-week.
+
+## 7. Open Items (SUBSTANTIVE v0.3)
+
+### 7.1 APS Index Theorem in 5D for Bergman Dirac on D_IV⁵
+
+Per LAG-1 Session 10 v0.1 outline (Lyra 2026-05-18) + Step 5.1 opening (T2379) + Step 5.2 prep (Faraut-Koranyi framework) + Step 5.1 substantive (T2390 Hua coord decomp this afternoon, T2391 forward):
+
+The Atiyah-Patodi-Singer index theorem for Bergman Dirac on D_IV⁵ with boundary Q⁵:
+
+    ind(D, D_IV⁵) = ∫_{D_IV⁵} Td_5(T D_IV⁵) + (η(Q⁵) + h(Q⁵))/2
+
+**Current candidate set for ind(D)**: per T2379 odd-parity filter from Möbius Z/2 + Lyra Step 5.1 low-order Td_k BST primary identifications, ind(D) is constrained to **{13, 15}** (both odd; Möbius parity requires odd ind for [η/2] = ν(M) = 1 cross-link).
+
+**Resolution pending**: full Faraut-Koranyi integration (LAG-2 Phase 2.3 Step (c), multi-week) closes Q⁵ Riemann-Roch and selects between 13 = c_3 (Q⁵ third Chern) and 15 = N_c·n_C (color × compact-dim product).
+
+### 7.2 Higher cohomology H²_{Z/2}, H³_{Z/2}, ...
+
+Sessions 1-5 closed H¹_{Z/2}(M, Z) = Z/2. Higher equivariant cohomology classes — H²_{Z/2}, H³_{Z/2}, ... — remain open. Each higher class corresponds to additional spin-lift obstructions or higher-degree characteristic-class data on D_IV⁵.
+
+**Multi-month derivation**: explicit Borel-Wallach spectral sequence computation at higher cohomology degrees.
+
+### 7.3 Non-equivariant H^*(D_IV⁵, Z)
+
+The non-equivariant integer cohomology of D_IV⁵ (independent of Möbius involution) remains open. Related to but distinct from H^*(Q⁵, Z) of the compact dual.
+
+### 7.4 Arithmetic content beyond Z/2 parity (per Section 4.5 not-Heegner distinction)
+
+The Z/2 of Möbius cohomology is **topological** (spin-lift obstruction), not **arithmetic** (Heegner-class-group 2-torsion, which is trivial for Cremona 49a1 per h(-7) = 1).
+
+Future arithmetic-Z/2 candidates: genus theory of imaginary quadratic fields beyond Heegner-class-1, ideal class groups for non-Heegner discriminants, modular-form 2-torsion structures. Each is a candidate independent Z/2 source distinct from the spin-lift topological obstruction.
+
+### 7.5 LAG-1 Session 8+ explicit γ-matrix construction at non-origin Hua coordinates
+
+Per LAG-1 Session 11 v0.1 outline + Section 11.1 v0.2 substantive (today): the explicit Clifford structure at non-origin Hua coordinates with z-dependent Bergman metric. Multi-week derivation per Sections 11.1-11.2.
+
+## 8. Discussion (SUBSTANTIVE v0.3)
+
+### 8.1 Topological side of BST now developed
+
+Pre-2026-spring, BST's topological content was sparse — mostly the Chern integers of Q⁵ (T1484 family) and a few cross-domain Type C-ℕ recurrences. The Möbius cohomology Sessions 1-5 + LAG-1 Sessions 8-10 work develops the topological pillar to match the architectural completeness of the geometric (Paper #115 v0.5) and spectral (Paper #118 v0.2) pillars.
+
+### 8.2 Four-pillar architecture of BST 2026 spring
+
+Per the Three Papers Trio coordination doc (`BST_Three_Papers_Trio_External_Strategy.md`, Keeper Tuesday) + LAG-1 Sessions 2-10 + this Möbius cohomology paper:
+
+| Pillar | Lead Paper | Substantive Layer | Status |
+|---|---|---|---|
+| Arithmetic | #109 Counting Primitives | Five BST integers forced by combinatorial counting | I-tier substantive |
+| Geometry | #121 Bridge Objects v0.3 (Grace) | K3, 49a1, Q⁵ architectural anchors per K57 ratification | I-tier + K57 ratified |
+| Physics | #122 Information Substrate (Grace) | GF(2^g) = GF(128) Reed-Solomon substrate alphabet | I-tier substantive |
+| Topology | **#119 Möbius cohomology (this paper)** | Z/2 spin-lift obstruction + Bergman Dirac cross-link | I-tier + T2356 cross-link |
+
+Plus the operator-level keystone paper (#118 v0.2 Bergman Dirac, Lyra) connecting all four pillars.
+
+### 8.3 Honest scoping per Cal K-audit discipline
+
+This paper closes the structural-identification level for the topological pillar. The multi-week to multi-year derivation layer (per Section 9.x Named Open Items framework from Paper #115 v0.5) remains open. Per Cal Coincidence_Filter_Risk: not "Möbius cohomology proved as BST architecture component"; correct framing is "Möbius cohomology Sessions 1-5 closed structural-identification level; multi-week derivation per Section 7 named open items."
+
+### 8.4 Type C density rule status (per Cal audit)
+
+Cal walk-back 2026-05-18 PM applied: Type C density rule (Paper #115 v0.5 Section 5.8c) is I-tier observation with null-model verification owed. The Type C-Z/2 generalization framework (this paper Section 5) is INDEPENDENT of density rule status. Section 4 Möbius/Dirac cross-link stands at I-tier per its own audit, not dependent on density rule.
+
+## 9. Conclusion (SUBSTANTIVE v0.3)
+
+This paper develops the **topological pillar** of BST 2026 spring architecture via Möbius cohomology Sessions 1-5 work. Key results:
+
+1. **Möbius locus M(D_IV⁵) = open 5-ball** (T2328, classical from Hua coordinates)
+2. **H¹_{Z/2}(M, Z) ≅ Z/2** via Borel-Wallach (g, K)-cohomology (T2329 + T2335)
+3. **Arithmetic content** via Wallach K-type parity (T2356 — Bergman Dirac spectral parity ν(M) = 1 ∈ Z/2)
+4. **T-theorem promotion sweep** identifying five existing BST theorems with new operator-level mechanism support (T2361 + this paper Section 6)
+5. **Type C-Z/2 architectural extension** — first non-numerical Type C convergence in BST framework (Section 4 of this paper + T2361 + K60 candidate filed today)
+
+**Crucial new result**: the nontrivial generator of H¹_{Z/2}(M, Z) is identified with the spectral parity ν(M) of negative-eigenvalue Wallach K-types under Lichnerowicz shift — the **first Type C convergence in BST architecture where the shared invariant is a topological element of Z/2 rather than a positive integer**. This extends the Type C classification framework from shared integers to shared mathematical objects.
+
+**Five named open items** at the I→D promotion boundary (Section 7):
+- APS Index Theorem 5D for Bergman Dirac (ind(D) ∈ {13, 15} resolution pending Faraut-Koranyi)
+- Higher cohomology H²_{Z/2}, H³_{Z/2}, ...
+- Non-equivariant H^*(D_IV⁵, Z)
+- Arithmetic content beyond Z/2 parity
+- LAG-1 Session 8+ explicit γ-matrix construction at non-origin coordinates
+
+**Total horizon to D-tier closure across all five open items**: ~12-18 months per Paper #115 v0.5 Section 9.x scope discipline. This paper closes the structural-identification level; multi-week to multi-month derivation layer remains.
+
+**Strategic role**: this Möbius cohomology paper is the **topological pillar** of the BST 2026 spring architectural portfolio (Three Papers Trio + Bergman Dirac operator-level keystone). Cross-references throughout connect Möbius cohomology Z/2 to Bergman Dirac spectrum (Paper #118 v0.2) and to APS Index Theorem candidate ind(D) ∈ {13, 15} (LAG-1 S10 forward).
 
 ---
 

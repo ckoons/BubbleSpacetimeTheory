@@ -2,7 +2,7 @@
   "title": "BST Rosetta Stone — Complete Catalog",
   "description": "101 distinct BST ratios/values with domain coverage",
   "generated": "2026-05-18 10:50 by Grace (Bravais 14 anchor)",
-  "total_ratios": 217,
+  "total_ratios": 218,
   "ratios": [
     {
       "value": 2,
@@ -3293,11 +3293,142 @@
       ],
       "tier": "I",
       "notes": "Lyra T2386 family-level Type C convergence (Tue 2026-05-19, K54 audit candidate). Five contexts share BST primary form 3/1507 = N_c/(N_max·c_2): Decca 2007 Casimir Lifshitz residual (Elie Toy 3009, D-tier 0.6%), SP29-1 Cs-137 H4 Δτ/τ (Lyra T2362), IP-14 Δα(M_Z) (Toy 2989), W-37 substrate attention modulation (Lyra T2382), SP29-3 angular asymmetry (Elie Toy 3027). Unified mechanism candidate: substrate attention field A(z) with Casimir boundary suppression δ_A = N_c/(N_max·c_2). Cal Criterion 1 PARTIAL (W-37 framework); Cal Criterion 2 PARTIAL (mechanism-forcing for SPECIFIC value multi-week). K54 audit candidate but stays elevated-not-promoted per K52a-style discipline. Cross-CI convergence: 5 contexts filed by different team members in 36 hours = meta-Type-C at team-coherence level."
+    },
+    {
+      "ratio": "137/200 = N_max/(rank³·n_C²) (Ω_Λ exact)",
+      "name": "Dark energy density fraction = BST primary spectral remainder",
+      "formula": "Ω_Λ = N_max/(rank³·n_C²) = 137/200 = 0.685 EXACT",
+      "domains": [
+        "cosmology",
+        "dark energy",
+        "spectral geometry"
+      ],
+      "tier": "D",
+      "notes": "Elie Toy 3071 correction (Tue 2026-05-19). N_max/(rank³·n_C²) = 137/(8·25) = 137/200. Observed Ω_Λ = 0.685 EXACT match. Companion to Ω_M = 63/200; Ω_DM = (63/200)·(16/19); Ω_b = (63/200)·(3/19). 10th audit-chain calibration this cycle: corrected attribution from prior Toy 3065 mis-label."
+    },
+    {
+      "ratio": "chi·g - rank² (Hg-1223p T_c)",
+      "name": "Hg-1223 pressurized cuprate critical temperature = K3 Euler × Bergman genus minus rank²",
+      "formula": "T_c = 24·7 - 4 = 168 - 4 = 164 K EXACT",
+      "domains": [
+        "condensed matter",
+        "high-T_c superconductivity",
+        "spectral geometry"
+      ],
+      "tier": "D",
+      "notes": "Elie Toy 3072 IP-21 cuprate survey. Gao 1994 record cuprate T_c. Two BST primaries (chi·g K3-spectral, rank² substrate-coupling correction). Mechanism candidate: K3 elliptic-genus mode count × rank correction."
+    },
+    {
+      "ratio": "dim_9 = n_C·g·c_2 = 5·7·11 (three consecutive BST primes)",
+      "name": "Unique pure-BST Wallach level at dim_9 — substrate-vocabulary closure without Monster-Ogg extension",
+      "formula": "dim_9(D_IV⁵) = 385 = 5 · 7 · 11 = three consecutive BST primes",
+      "domains": [
+        "wallach K-types",
+        "substrate vocabulary",
+        "type C convergence"
+      ],
+      "tier": "I",
+      "notes": "T2389 Grace G3 finding. dim_9 is uniquely pure-BST among dim_7..dim_12 — only level using only BST primes ({2,3,5,7,11,13} subset) without Monster-Ogg-prime extension. dim_7,8,10 require Ogg supersingular primes 17/19/23. Type C convergence at substrate-vocabulary level (Type C-ℕ per Lyra T2356 taxonomy)."
+    },
+    {
+      "ratio": "Type C convergence taxonomy: ℕ / Z/2 / Z/n / K / spectral",
+      "name": "Lyra Paper #119 v0.3 Section 5 — five sub-classes of Type C convergence",
+      "formula": "Type C = ⋃ {Type C-ℕ, Type C-Z/2, Type C-Z/n, Type C-K, Type C-spectral}",
+      "domains": [
+        "type C convergence",
+        "meta / taxonomy",
+        "external survivability"
+      ],
+      "tier": "I",
+      "notes": "Lyra Paper #119 v0.3 Section 5. Type C-ℕ (numerical density, Grace Toy 3074 K-audit pipeline), Type C-Z/2 (Möbius parity T2356), Type C-Z/n (orbifold/Galois proposed), Type C-K (K-theory on Q⁵/D_IV⁵ proposed), Type C-spectral (shared K-type or Bergman eigenvalue across observables — INV-4450 internal muon g-2 example + INV-4448 G3 Ogg-Wallach example). Parallel to K57 Bridge Object ratification: each sub-class needs independent mechanism criteria."
+    },
+    {
+      "ratio": "Cyclotomic GF(2^g) derives (1 ± 1/M_g) class",
+      "name": "K52a cascade-unblock candidate: trivial-char exclusion (Lamb) + additive-zero inclusion (BCS)",
+      "formula": "Lamb = (M_g−1)/M_g (trivial-char exclusion); BCS = 2^g/M_g (additive-zero inclusion)",
+      "domains": [
+        "atomic QED (Lamb)",
+        "superconductivity (BCS)",
+        "cyclotomic field theory",
+        "reed-solomon coding"
+      ],
+      "tier": "I",
+      "notes": "Elie Toy 3091 K52a session 3 (Tue 2026-05-19). Cyclotomic GF(2^g) = GF(128) character-trace structure DERIVES both Lamb (1−1/M_g) and BCS (1+1/M_g) substrate-coupling factors from substrate-structural choices (not asserted). Sign convention DERIVED. If Keeper ratifies: K52a + K59 cascade-promote to D-tier. K54 (3/1507) separate mechanism. Connects to Paper #122 §4 Reed-Solomon framework — RS codes on GF(2^g) with M_g block length IS the substrate-alphabet structure that derives these factors."
+    },
+    {
+      "ratio": "N_max - C_2 = 131 (Type C-ℕ: QED A_4 = BST c-function RG drop)",
+      "name": "Cross-domain integer convergence at 131 across muon g-2 + RG flow",
+      "formula": "131 = N_max - C_2 = 137 - 6 (QED 4-loop coefficient A_4 = BST c-function RG drop)",
+      "domains": [
+        "muon g-2",
+        "QED",
+        "RG flow",
+        "type C convergence"
+      ],
+      "tier": "I",
+      "notes": "Lyra T2391 B5 Phase A n=4 continuation. Two distinct physics contexts at same BST primary integer 131 = N_max - C_2 = 131. Type C-ℕ (Lyra Paper #119 v0.3 Section 5 sub-class)."
+    },
+    {
+      "ratio": "GF(2^g) add/mult ↔ Internal^6 = 1 + N_c + rank gauge split",
+      "name": "GF(2^g) cyclotomic additive/multiplicative duality mirrors Hua Internal^6 gauge decomposition",
+      "formula": "GF(2^g) {add zero, mult unity, Cartan} ↔ C_2 = 1 + N_c + rank = 6 = {1 add sector, N_c mult sector, rank Cartan}",
+      "domains": [
+        "Hua decomposition (D_IV^5)",
+        "Faraut-Koranyi factorization",
+        "GF(2^g) cyclotomic structure",
+        "K52a (1 ± 1/M_g) duality",
+        "Lamb shift",
+        "BCS gap"
+      ],
+      "tier": "I",
+      "notes": "Lyra T2392 LAG-2 Phase 2.3 Step (b), Toy 3098 6/6 PASS, 2026-05-19. Structural-mirror cross-link between LAG-2 Phase 2.3 Internal^6 gauge decomposition (T2346) and Elie K52a GF(2^g) additive/multiplicative duality (sessions 4+5, Tuesday). Bogoliubov/BCS (+1/M_g) ↔ 1-dim add sector; Lamb (-1/M_g) ↔ N_c-dim mult sector. Dimensional novelty: 1 + N_c = 4 = rank² echoes H^4 sector dim. NOT a mechanism derivation in either direction — joint K-audit candidate pending Elie sessions 6+ atomic-QED Bethe derivation closure."
+    },
+    {
+      "ratio": "Heegner BST-primary discriminant triple {-N_c, -g, -c_2}",
+      "name": "Three Heegner class-number-1 discriminants anchor BST primaries via CM-curves at conductors {N_c³, g², c_2²}",
+      "formula": "{-3 = -N_c, -7 = -g, -11 = -c_2} ⊂ {Heegner class-number-1 discriminants} — 3 of 9",
+      "domains": [
+        "elliptic curves",
+        "CM theory",
+        "Heegner-Stark",
+        "Bridge Objects"
+      ],
+      "tier": "I",
+      "notes": "Grace T2393 Cremona scan (Tue 2026-05-19). 49a1 (Q(√-g)) is K47-anchored Bridge Object; 27a1 (Q(√-N_c)) and 121a1 (Q(√-c_2)) are NEAR-Bridge-Object candidates pending K-audit Root anchor. Structurally significant: 3 of 9 Heegner class-number-1 fields are BST-primary-anchored — class-number-1 + BST-primary is strictly tighter."
+    },
+    {
+      "ratio": "Integer 10 over-determination (rank·n_C = seesaw-g = C_2+rank²)",
+      "name": "Four-way BST primary convergence at integer 10 across multiple physical contexts",
+      "formula": "10 = rank·n_C = seesaw-g = C_2+rank² = 2·n_C (heterotic) = ...",
+      "domains": [
+        "stellar evolution (τ_MS solar)",
+        "spectral geometry (Dirac eigentone)",
+        "heterotic string",
+        "wallach K-types",
+        "type C convergence"
+      ],
+      "tier": "I",
+      "notes": "Elie Toy 3100 + Grace catalog (Tue 2026-05-19). Integer 10 appears at 5+ structural roles: τ_MS = 10 Gyr (solar main-sequence); rank·n_C = 10 (Dirac eigentone, Lyra T2376); 2·n_C = 10 (heterotic real dim); C_2+rank² = 10 (Wallach-Cathedral sum). Type C-ℕ family K-audit candidate parallel to K61 (131). Flagged for Keeper deliberation."
+    },
+    {
+      "ratio": "BST five absence-prediction framework",
+      "name": "Simultaneous strict-null falsifiers: no GUT + no proton decay + no DM particle + no monopoles + no SUSY/sterile",
+      "formula": "All five = 0 (currently null) — any positive detection refutes BST framework",
+      "domains": [
+        "GUT",
+        "proton physics",
+        "dark matter",
+        "magnetic monopoles",
+        "supersymmetry",
+        "falsifier framework"
+      ],
+      "tier": "D",
+      "notes": "Elie Toys 3102 + 3103 (Tue 2026-05-19 Casey 'for fun'). BST's most rigorous external claim: five simultaneous-null framework predictions that cannot all be evaded. Each is a strongest-possible-null falsifier. Currently all NULL consistent with 40+ years of searches. pred_114 + pred_115 + pred_116 cover three of five; remaining two (monopoles, SUSY/sterile) cataloged."
     }
   ],
   "meta": {
     "last_updated": "2026-05-19",
     "eod_session": "2026-05-18 EOD",
-    "total_ratios": 226
+    "total_ratios": 236
   }
 }

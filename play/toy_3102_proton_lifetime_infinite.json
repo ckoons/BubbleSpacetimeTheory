@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "Proton lifetime BST framework"
+  },
+  "BST_prediction": "\u03c4_p = \u221e (proton stable; no decay channel)",
+  "mechanism": "Proton = complete N_c-phase commitment bulk-geodesic winding on D_IV\u2075",
+  "framework_anchors": [
+    "No GUT in BST \u2192 no dim-6 proton-decay operators",
+    "Three Theorems gauge hierarchy gives SM directly, no unification",
+    "Topologically stable bulk-geodesic"
+  ],
+  "experimental_compatibility": {
+    "observed_tau_p_lower": "2.4e34 yr (Super-K 2024)",
+    "BST_value": "infinite",
+    "compatible": true
+  },
+  "falsifier": "ANY observed proton decay at any channel refutes BST framework",
+  "future_tests": {
+    "HyperK": "\u03c4 > 10^35 yr sensitivity (2027+)",
+    "DUNE": "\u03c4 > 10^34 yr kaon channel (2030+)",
+    "BST_predicts_null_at_all": true
+  },
+  "cross_anchors": {
+    "proton_mass": "T187 D-tier 0.002%",
+    "proton_radius": "T1992 D-tier 0.043%",
+    "proton_g_factor": "Toy 3052 I-tier 3.5 ppm",
+    "mu_n_mu_p": "T1447 D-tier 0.045%",
+    "proton_lifetime": "THIS toy = infinite"
+  }
+}

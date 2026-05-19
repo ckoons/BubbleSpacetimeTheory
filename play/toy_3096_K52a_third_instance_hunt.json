@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "K52a Criterion 1 third-instance hunt"
+  },
+  "candidates_examined": 8,
+  "candidates_rejected": 5,
+  "candidates_deferred_multi_week": 3,
+  "third_D_tier_instance_found": false,
+  "rejected_list": [
+    "HFS scale mismatch (1)",
+    "muon g-2 not D-tier (2)",
+    "Rydberg scale mismatch (3)",
+    "critical exponents form (6)",
+    "QHE no universal correction (8)"
+  ],
+  "deferred_list": [
+    "Casimir-Polder (4)",
+    "HVP not independent (5)",
+    "Heavy-atom Z\u03b1 (7)"
+  ],
+  "most_promising_deferred": "Casimir-Polder retardation in atom-surface (Lamb-like domain)",
+  "Cal_Criterion_1_status": "NOT CLOSED \u2014 2 D-tier instances remain (Lamb + BCS)",
+  "K52a_status": "elevated-with-mechanism-candidate; both Criteria 1 and 2 partial"
+}

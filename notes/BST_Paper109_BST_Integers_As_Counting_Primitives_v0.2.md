@@ -2,8 +2,8 @@
 title: "BST Integers as Structurally-Distinguished Counting Primitives"
 author: "Lyra (Claude 4.7) + Grace (Claude 4.6) + Casey Koons + Keeper"
 date: "May 17, 2026"
-version: "v0.2 — K44 null-model calibration"
-status: "DRAFT — keystone framing calibrated to statistical evidence"
+version: "v0.3 — v0.2 K44 + v0.3 Tier-discipline overlay (Lyra 2026-05-19)"
+status: "DRAFT — keystone framing calibrated to statistical evidence + v0.3 per-claim tier overlay applied"
 target: "Journal of Number Theory, or Combinatorica, or similar"
 ---
 
@@ -129,6 +129,40 @@ The empirical pattern is structurally significant but does not prove that BST in
 
 3. **Does the OEIS coincidence extend to all counting sequences?** Tested for ~6 sequences; the pattern may be statistical (most small-n values factor through first few primes regardless of provenance).
 
+## 10.5. v0.3 Tier-discipline overlay (Lyra 2026-05-19)
+
+Per Cal Coincidence_Filter_Risk + Keeper audit-chain discipline (K54-K58 governance, 6 named failure modes + Rule 6 corollary), per-claim D/I/S tier labels are applied retroactively to the v0.2 substantive content. The v0.2 body remains unchanged; this overlay section provides the tier mapping.
+
+### v0.2 substantive claims — tier overlay table
+
+| Claim location | v0.2 form | v0.3 tier |
+|---|---|---|
+| Abstract: "First 6 primes = BST integer set {2,3,5,7,11,13}" | Observational coincidence with K44 ~4σ support | **D-tier** — exact arithmetic identity (mathematical fact about the specific BST integer set, not a numerical match) |
+| Abstract: "partition p(2)..p(6) = first 5 BST primary primes" | Observation | **I-tier** Type C-ℕ at small index; pattern observed for 5 consecutive indices; mechanism via combinatorial substrate counting per Paper #115 v0.5 Section 5.8 |
+| Abstract: "Catalan C_2..C_6 are BST integer products" | Observation | **I-tier** Type C-ℕ at small index; pattern weakens at C_6 = 132 where BST decomposition becomes multi-form (cross-ref Paper #107 v0.5 Section 3.1) |
+| Abstract: "Bernoulli denominators are BST integer products via VSC" | Observation with VSC mechanism | **D-tier** via K43 universal-42 mechanism. VSC theorem 1840 + heat kernel at n_C = 5 evaluation point is mechanism-forced (Paper #115 v0.5 Section 2 Root #1) |
+| Abstract: "~4σ above random" (K44 null-model) | Statistical | **I-tier** with K44 null-model verification; statistical strength is rigorous; framework-level interpretation remains I-tier per Cal discipline |
+| Section 1 Five Primary BST Integers | Cartan classification facts | **D-tier** classical structural classification per Cartan 1894 + Helgason 1978 |
+| Section 2 First Six Primes | Observational coincidence | **D-tier** arithmetic identity for specific integer set; **I-tier** for framework-level interpretation |
+| Section 3 Partition correspondence | Observation | **I-tier** Type C-ℕ at small n, 5 consecutive matches + extension at p(10) = 42 |
+| Section 4+ Catalan/Bernoulli/etc. | Observations | **I-tier** with K43 D-tier anchor for Bernoulli VSC mechanism |
+| Section 9 Outcome A framing | Discipline framing | **I-tier framework** — honest structural identification, not "BST proves primality"; same shape as K57 Bridge Object architectural identification |
+| Section 10 Open questions | Future scope | **I-tier scoping** with explicit catalog-selection-bias acknowledgment per Cal Mode 5 |
+
+### Three Papers Trio integration (Tuesday 2026-05-19)
+
+Paper #109 is the **arithmetic channel** of the Three Papers Trio (coordination doc per Keeper Tuesday 2026-05-19):
+
+- **Paper #109 (this paper, arithmetic)**: I-tier framework + D-tier first-6-primes identity + D-tier Bernoulli VSC anchor
+- **Paper #121 (geometry)**: I-tier framework + K57 architectural ratification + Bridge Object full B1-B4 per K3/49a1/Q⁵ (Grace v0.3.1 status; PASS pending Cal recheck)
+- **Paper #122 (physics)**: I-tier framework + GF(2^g) Reed-Solomon substrate alphabet (cascade-unblock via Elie K52a sessions 6+)
+
+All three at I-tier framework with explicit per-claim tier discipline. Multi-channel evidence shape strengthens external survivability per Cal's framework.
+
+### v0.3 status
+
+This overlay is filed at v0.3 minimal-application per the Paper #109 v0.3 read-pass overlay doc (`BST_Paper109_v0.3_tier_discipline_read_pass.md`, Tuesday 13:30 EDT). Option B (inline per-claim body edits) deferred to v0.4 at later cadence.
+
 ## 11. Acknowledgments
 
 Casey Koons (framework + Outcome A discipline + tier requirement).
@@ -141,7 +175,8 @@ Cal A. Brate (Claude 4.7, referee voice, gate function).
 ---
 
 **v0.2 filed**: May 17, 2026 ~3pm EDT.
-**Calibration source**: K44 null model (Grace T2128, ~4σ above random).
-**Status**: Calibrated keystone framing per Keeper's Outcome A discipline.
+**v0.3 overlay filed**: May 19, 2026 ~11:45 EDT (Lyra, tier-discipline per Cal Coincidence_Filter_Risk + Keeper K54-K58 audit chain).
+**Calibration source**: K44 null model (Grace T2128, ~4σ above random) + v0.3 per-claim D/I/S tier overlay.
+**Status**: Calibrated keystone framing per Keeper's Outcome A discipline; v0.3 tier-discipline overlay applied per Three Papers Trio external presentation prep.
 **Target**: Journal of Number Theory (Combinatorica feasible).
 **Sister papers**: #108 (SM in BST), #110 (Alpha Tower), #111 (Substrate Dynamics), #112 v0.2 (Monster connection calibrated).

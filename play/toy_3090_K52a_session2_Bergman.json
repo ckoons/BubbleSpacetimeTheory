@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "K52a session 2 Bergman spectrum"
+  },
+  "session_2_finding": "No clean integer Wallach K-type yields C\u2082 = 127 via standard formulas",
+  "attempted_formulas": [
+    "C\u2082 = a(a+5) + b\u00b2",
+    "C\u2082 = a(a+6) + b\u00b2 (alt p+q-1)",
+    "C\u2082 = (a+9/2)\u00b2 + (b+2)\u00b2 - \u03c1\u00b2"
+  ],
+  "conclusion": "Spectral path (M1/M2) does NOT directly produce M_g = 127. Combinatorial M3 cyclotomic path more promising. Multi-session continues.",
+  "next_session_target": "M3 cyclotomic GF(2^g) character-sum derivation of (1 \u00b1 1/M_g)",
+  "tier_status": "K52a stays elevated-not-promoted; structural-forcing only; dynamic-forcing pending"
+}

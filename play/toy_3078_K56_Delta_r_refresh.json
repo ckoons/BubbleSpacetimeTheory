@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "K56 \u0394r per-entry tier refresh"
+  },
+  "K56_ruling": {
+    "aggregate_Cathedral_tier": "I (was D)",
+    "reason": "component-level walk-back; aggregate cap"
+  },
+  "per_entry_tiers": {
+    "alpha_MZ_inv_= N_max-N_c^2_=_128": {
+      "tier": "D",
+      "precision_pct": 0.04,
+      "unchanged": true
+    },
+    "c2W_over_s2W_=_10/3": {
+      "tier": "D",
+      "precision_pct": null,
+      "unchanged": true
+    },
+    "Delta_alpha_=_N_c^2/N_max": {
+      "tier": "I",
+      "precision_pct": 1.4,
+      "walked_from": "D"
+    },
+    "y_t_=_1-1/N_max": {
+      "tier": "I",
+      "precision_pct": 0.05,
+      "walked_from": "D"
+    },
+    "Delta_rho_=_1/107": {
+      "tier": "S",
+      "precision_pct": 0.5,
+      "walked_from": "D"
+    },
+    "Delta_r_rem_=_-1/726": {
+      "tier": "S",
+      "precision_pct": 1.6,
+      "walked_from": "D"
+    }
+  },
+  "catalog_update_spec_for_Grace": {
+    "entries_to_update": [
+      "Delta_alpha",
+      "y_t",
+      "Delta_rho_1_107",
+      "Delta_r_rem_1_726"
+    ],
+    "note_to_append": "[K56 walk-back 2026-05-19]: tier capped per Cathedral aggregate I-tier ruling",
+    "D_tier_percentage_recomputation": "required"
+  }
+}

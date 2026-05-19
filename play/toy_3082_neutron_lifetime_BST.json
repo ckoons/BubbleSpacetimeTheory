@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "Neutron lifetime tension BST analysis"
+  },
+  "observed": {
+    "beam_s": 887.7,
+    "bottle_s": 877.75,
+    "discrepancy_s": 9.950000000000045
+  },
+  "BST_form": "\u03c4_n = rank^4\u00b7n_C\u00b7c_2 = 880 s",
+  "tier": "I (sits between beam and bottle; cannot discriminate)",
+  "pre_staged_falsifiers": {
+    "bottle_wins": "877.75 \u2192 BST 0.26% I-tier",
+    "beam_wins": "887.7 \u2192 BST 0.87% I-tier",
+    "central_resolves": "880 \u00b1 0.5 \u2192 BST D-tier",
+    "persistent_tension": "BST dark-channel interpretation more plausible"
+  }
+}

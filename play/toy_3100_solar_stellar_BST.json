@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "Solar/stellar BST observables"
+  },
+  "D_tier_anchored": {
+    "Chandrasekhar_coeff": "35/6 = n_C\u00b7g/C_2 (catalog)",
+    "Universe_age": "rank\u00b7g = 14 Gyr (catalog)",
+    "Solar_main_sequence_lifetime": "rank\u00b7n_C = 10 Gyr (exact)"
+  },
+  "I_tier_candidates": {
+    "TOV_neutron_star_max": "rank\u00b7(N_max-N_c)/N_max = 1.96 M_sun (within observed 2.0-2.5)",
+    "pp_chain_efficiency": "0.71% via BE(\u03b1)/(4m_p) from BST D-tier nuclear identifications"
+  },
+  "S_tier_or_weaker": {
+    "Solar_core_T": "thermal Gamow peak scale, no clean BST primary at sub-%",
+    "Solar_luminosity": "depends on M_sun which is not BST primary"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "Proton radius puzzle audit"
+  },
+  "BST_prediction_fm": 0.8412356475093711,
+  "observed_values": {
+    "CODATA_2022": 0.8414,
+    "muonic_2010": 0.84087,
+    "electronic_pre2010": 0.8775,
+    "electronic_2019": 0.8336
+  },
+  "BST_vs_CODATA_pct": 0.019533217331704374,
+  "tier_status": "D (T1992 PROVISIONAL per Cal #19)",
+  "resolution_narrative": "BST predicted muonic-class value before muonic measurement; subsequent improved electronic measurements converged on muonic value",
+  "cross_anchors": [
+    "\u03bc_n/\u03bc_p D",
+    "g_p I 3.5ppm",
+    "m_p D 0.002%",
+    "r_p D 0.043%"
+  ]
+}

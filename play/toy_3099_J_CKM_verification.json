@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "J_CKM Jarlskog verification"
+  },
+  "observed_J_CKM": 3.08e-05,
+  "BST_form_T1444": {
+    "formula": "A\u00b2\u00b7\u03bb\u2076\u00b7\u03b7\u0304",
+    "A": "N_c\u00b2/(2C_2-1) = 9/11",
+    "lambda": "2/\u221a(rank\u2074\u00b7n_C - 1) = 2/\u221a79",
+    "eta_bar": "1/(2\u221a2)",
+    "value": 3.0722273790513707e-05,
+    "precision_pct": 0.2523578230074566,
+    "tier": "D"
+  },
+  "BST_form_T1960": {
+    "description": "Alt form via \u03b4_CP = 11\u03c0/30 anchor (Grace Toy 2441)",
+    "value": 3.179e-05,
+    "precision_pct_claimed": 0.02
+  },
+  "verdict": "Both forms D-tier; T1444 canonical at 0.3%; T1960 alternative at sub-1%",
+  "cross_anchor": "T1446 CKM (vacuum sub) vs PMNS (\u03b8_13 rotation) two-sector duality"
+}

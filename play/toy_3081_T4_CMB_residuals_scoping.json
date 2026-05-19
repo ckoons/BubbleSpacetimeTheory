@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "SP-27 Track 4 CMB residuals scoping"
+  },
+  "sub_tracks": [
+    {
+      "id": "T4a",
+      "topic": "n_s spectral tilt (BST-derived)",
+      "BST_pred": "n_s = 1 - 5/137 = 0.9635 (Toy 1401 D-tier exact)",
+      "observed": "0.9649 \u00b1 0.0042 (Planck 2018)",
+      "status": "CLOSED at D-tier; <0.2% match",
+      "priority": "done"
+    },
+    {
+      "id": "T4b",
+      "topic": "r tensor-to-scalar (BST-derived)",
+      "BST_pred": "r = 12/3025 \u2248 0.004 (T1968 + Toy 3080)",
+      "observed": "< 0.036 (Planck+BICEP)",
+      "status": "CONSISTENT; LiteBIRD/CMB-S4 future test",
+      "priority": "done"
+    },
+    {
+      "id": "T4c",
+      "topic": "CMB cold spot anomaly",
+      "BST_pred": "Pending \u2014 speculative substrate-coupling at large angular scale",
+      "observed": "Eridanus cold spot ~3\u03c3 in Planck",
+      "status": "OPEN; multi-week investigation",
+      "priority": 1
+    },
+    {
+      "id": "T4d",
+      "topic": "Hemispherical asymmetry / axis-of-evil",
+      "BST_pred": "Pending \u2014 large-scale modulation candidate",
+      "observed": "A_dipole ~ 0.07, l=2-3 alignment ~3\u03c3",
+      "status": "OPEN; multi-week",
+      "priority": 2
+    },
+    {
+      "id": "T4e",
+      "topic": "Lensing-derived sum of neutrino masses",
+      "BST_pred": "\u03a3m_\u03bd = 0.0588 eV (Toy 3079, m_1=0 + \u0394m\u00b2)",
+      "observed": "<0.12 eV (Planck CMB+BAO)",
+      "status": "BELOW BOUND; future CMB-S4 may detect at ~3\u03c3",
+      "priority": 3
+    },
+    {
+      "id": "T4f",
+      "topic": "B-mode polarization at low ell",
+      "BST_pred": "r-derived B-mode amplitude at recombination peak",
+      "observed": "BICEP/Keck constraining r < 0.036 + ongoing",
+      "status": "OPEN scaling with r; LiteBIRD definitive",
+      "priority": 4
+    },
+    {
+      "id": "T4g",
+      "topic": "spectral distortions (\u03bc-type, y-type)",
+      "BST_pred": "Pending \u2014 substrate-coupling at recombination era",
+      "observed": "PIXIE/PRISM/SAS-FIR ~10\u207b\u2078 sensitivity targets",
+      "status": "OPEN scoping; multi-week",
+      "priority": 5
+    }
+  ],
+  "closed_count": 2,
+  "open_count": 5,
+  "fast_path": "T4e \u03a3m_\u03bd \u2192 CMB-S4 future detection"
+}

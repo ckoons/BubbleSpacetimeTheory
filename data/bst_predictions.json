@@ -18,7 +18,7 @@
       "tension"
     ],
     "eod_session": "2026-05-18 EOD",
-    "total_predictions": 115
+    "total_predictions": 118
   },
   "predictions": [
     {
@@ -2120,6 +2120,51 @@
       "status": "pre-staged — not yet tested",
       "filed_by": "Grace 2026-05-19 per Keeper T-B3 Tuesday assignment",
       "notes": "L_c BELOW well-explored precision Casimir regime — H3 is genuinely untested. SP-29 H1-H5 framework: each tests substrate mechanism on different observable channel. If multiple channels confirm → substrate ontology favored. Cross-references pred_112 (SP29-3 H2 angle Casimir), pred_002 (SP29-2 H1 spectroscopic shift)."
+    },
+    {
+      "id": "pred_114",
+      "name": "BST strict zero direct WIMP detection — strongest possible null falsifier",
+      "category": "dark matter / direct detection / BST falsifier",
+      "prediction": "BST predicts STRICT ZERO direct-detection cross-section for WIMP-quark elastic scattering at any WIMP mass. BST DM ontology = incomplete windings on D_IV⁵, NOT particle-class WIMPs with SM-coupling. Falsifier: ANY non-null direct-detection signal at ANY mass.",
+      "experimental_target": "XENON-nT, LZ, PandaX-4T, DarkSide (existing); future DARWIN, SBC, ARGO",
+      "cost_estimate": "Existing facilities; no new instrumentation",
+      "timeline": "Ongoing — every null result continues to constrain WIMP space; BST consistent with null history to date",
+      "theorem": "Casey winding ontology + SP-27 Track 3 D3",
+      "source_toy": "play/toy_3075_SP27_T3_D3_direct_detection.py",
+      "tier": "D",
+      "status": "active falsifier — currently consistent (no positive direct detection)",
+      "filed_by": "Grace per Elie Toy 3075 (2026-05-19) — hygiene flag pickup",
+      "notes": "STRONGEST POSSIBLE NULL FALSIFIER per Elie's framing. Any direct WIMP detection at any mass → BST DM ontology falsified. Mechanism: DM = incomplete windings, no SM-particle coupling pathway. Existing 25+ years of null direct-detection consistent with BST prediction."
+    },
+    {
+      "id": "pred_115",
+      "name": "BST predicts STRICT proton stability τ_p = ∞ — strongest possible null falsifier (companion to WIMP-null)",
+      "category": "proton physics / GUT / BST falsifier",
+      "prediction": "BST predicts STRICT τ_p = ∞ (proton stable across ALL decay channels) — proton is bulk-geodesic complete-commitment winding (T1922 Casey particle-winding). No GUT-scale decay channel in BST framework. Companion to BST DM-as-incomplete-windings null prediction (pred_114): both are null-result framework predictions. Strongest possible falsifier: ANY positive proton-decay observation at ANY branching channel refutes BST.",
+      "experimental_target": "Super-Kamiokande, Hyper-Kamiokande, DUNE; sensitivity > 10^33-10^35 years per channel",
+      "cost_estimate": "Existing + planned megaton-class detectors; no new instrumentation",
+      "timeline": "Ongoing — 40+ years of null searches consistent with BST prediction; Hyper-K (2027+) extends sensitivity another decade",
+      "theorem": "Casey T1922 particle-winding + proton bulk-geodesic completeness",
+      "source_toy": "play/toy_3102_proton_lifetime_infinite_BST.py",
+      "tier": "D",
+      "status": "active falsifier — currently consistent (no positive proton decay)",
+      "filed_by": "Grace per Elie Toy 3102 (Tue 2026-05-19 Casey 'for fun' direction)",
+      "notes": "Companion to pred_114 (WIMP-null). Both are 'strongest-possible-null' falsifiers — any positive observation at any channel refutes BST. Currently both consistent with 25+ (WIMP) and 40+ (proton) years of null searches. Proton over-determined: mass + radius + magnetic moment + g-factor + lifetime all D/I-tier or absolute."
+    },
+    {
+      "id": "pred_116",
+      "name": "BST predicts NO GUT-scale unification — strongest possible structural falsifier",
+      "category": "GUT / gauge theory / BST falsifier",
+      "prediction": "BST predicts NO grand unified theory. SM gauge groups originate from distinct D_IV⁵ structural features (SU(3) ← N_c=3, SU(2) ← rank=2, U(1) ← c_2=11), not from gauge unification. The empirical 10^16 GeV coupling convergence is RG kinematic, not physical. ANY positive GUT-prediction signal refutes BST: proton decay (companion pred_115), magnetic monopole detection, GUT-scale processes at colliders.",
+      "experimental_target": "Hyper-K/DUNE (proton decay); IceCube/MoEDAL (monopoles); FCC/SPPC (GUT-scale processes)",
+      "cost_estimate": "Existing + planned facilities",
+      "timeline": "Ongoing — null searches consistent with BST",
+      "theorem": "Casey particle-winding T1922 + D_IV⁵ distinct-features gauge derivation",
+      "source_toy": "play/toy_3103_GUT_scale_no_unification.py",
+      "tier": "D",
+      "status": "active structural falsifier",
+      "filed_by": "Grace per Elie Toy 3103 (Tue 2026-05-19 Casey 'for fun' direction)",
+      "notes": "Companion to pred_114 (WIMP-null) + pred_115 (proton-decay null). Three of five 'absence prediction' falsifiers in BST. Remaining two: no monopoles + no sterile neutrinos/SUSY. All five must remain null forever for BST to survive."
     }
   ]
 }

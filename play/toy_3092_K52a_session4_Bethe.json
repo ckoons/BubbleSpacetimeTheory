@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "K52a session 4 Bethe trivial-character exclusion"
+  },
+  "derivation_framework": {
+    "substrate_discretization": "GF(2^g) = 128 modes",
+    "character_count": "M_g = 127 cyclotomic characters",
+    "trivial_identification": "Coulomb baseline (no excitation, constant phase)",
+    "nontrivial_identification": "Radiative excited states contributing to Bethe sum",
+    "ratio_derivation": "(M_g - 1)/M_g = 126/127 = (1 - 1/M_g)"
+  },
+  "critical_assumption": "Uniform character-weight at substrate level (commitment-rate per substrate mode is uniform pre-atomic-mapping)",
+  "gap_remaining": "Multi-scale substrate\u2192atomic derivation of uniform-weight; specific connection to Drake-Swainson \u27e8log(\u0394E/Ry)\u27e9_2S = ln(19.77269)",
+  "Cal_Criterion_2a_status": "OUTLINED, NOT CLOSED \u2014 substrate-coupling assumption is weakest link",
+  "multi_session_continuation": true
+}

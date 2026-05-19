@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "Hubble tension BST"
+  },
+  "observed": {
+    "Planck_CMB": 67.4,
+    "Cepheid_SH0ES": 73.04,
+    "midpoint": 70.22,
+    "tension_sigma": 5
+  },
+  "BST_candidate": "H_0 = rank\u00b7n_C\u00b7g = 70 km/s/Mpc (BETWEEN Planck and Cepheid)",
+  "tier": "I-tier (cherry-picking flagged; mechanism for rank\u00b7n_C\u00b7g specifically needed)",
+  "pre_staged_falsifiers": {
+    "central_resolution_70": "BST D-tier",
+    "Cepheid_wins_73": "BST I-tier 4%",
+    "Planck_wins_67": "BST I-tier 4%"
+  },
+  "catalog_hygiene_flag": "Compare BST H_0 = rank\u00b7n_C\u00b7g = 70 to existing T1918+T2350 forms"
+}

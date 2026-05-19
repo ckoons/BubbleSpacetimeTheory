@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "K52a session 3 cyclotomic GF(2^g)"
+  },
+  "mechanism_candidate": "Cyclotomic GF(2^g) character-trace structure",
+  "Lamb_derivation": "(M_g - 1)/M_g = (1 - 1/M_g) \u2014 exclude trivial character",
+  "BCS_derivation": "2^g/M_g = (1 + 1/M_g) \u2014 include additive-zero in coupling",
+  "sign_convention_derived": true,
+  "K_audit_cascade_implications": {
+    "K52a": "PROMOTION CANDIDATE \u2014 mechanism candidate strengthened",
+    "K54": "SEPARATE audit (3/1507 different scale)",
+    "K59": "2^g = 128 function alphabet derives from cyclotomic GF(2^g)"
+  },
+  "gaps_remaining": [
+    "(a) Hamiltonian-level derivation for trivial-character exclusion (Lamb)",
+    "(b) Hamiltonian-level derivation for additive-zero inclusion (BCS)"
+  ],
+  "tier_recommended": "elevated-cyclotomic-candidate; sessions 4+ to close gaps (a)/(b)"
+}

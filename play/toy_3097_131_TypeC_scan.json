@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "131 = N_max-C_2 Type C family scan"
+  },
+  "BST_primary_form": "N_max - C_2 = 137 - 6 = 131 (prime)",
+  "catalog_hits_count": 6,
+  "independent_domains": 6,
+  "known_physics_contexts": [
+    "Frobenius a_131 of Cremona 49a1 (number theory)",
+    "z_rec recombination redshift (cosmology)",
+    "Lyra Toy 1716 S-state damping (atomic spectroscopy)",
+    "C_3 c-function RG drop (BST field theory)",
+    "B5 Phase A A_4 (QED 4-loop, Lyra T2391)",
+    "Lyra T2391 cross-domain Type C-\u2115 INV-65326"
+  ],
+  "K_audit_candidate_status": "QUALIFIED for K-audit consideration (4+ independent contexts)",
+  "recommended_K_slot": "K61 candidate (after K59 2^g, K60 Type C-K-type sub-class)",
+  "NOT_claimed": [
+    "K61 promotion",
+    "Mechanism for why N_max - C_2 specifically",
+    "That all contexts are genuinely independent"
+  ]
+}

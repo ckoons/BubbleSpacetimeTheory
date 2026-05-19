@@ -1241,31 +1241,44 @@ This is analogous to:
 
 Architecture identified, not constructed.
 
-## 7. Cathedral Component-Level Closure (Keeper item 6c, NEW v0.5)
+## 7. Cathedral Component-Level Closure (Keeper item 6c v0.5, **K56-CALIBRATED 2026-05-19**)
 
-A separate verification approach to the framework's robustness: decompose each Standard Model radiative-correction component and verify it factors in BST primaries at the COMPONENT level (not just the final aggregate). Per Elie Toy 3012 (2026-05-18), the electroweak Δr radiative-correction sector achieves component-level 12/12 D-tier BST decomposition.
+A separate verification approach to the framework's robustness: decompose each Standard Model radiative-correction component and verify it factors in BST primaries at the COMPONENT level. Per Elie Toy 3012 (2026-05-18), the electroweak Δr radiative-correction sector decomposes into BST primary components.
 
-### 7.1 Δr component-level cathedral closure (Elie Toy 3012)
+**K56 Cal+Keeper audit walk-back (2026-05-19)**: per audit-chain discipline at component-level tier-review, the Cathedral aggregate framework is now classified as **I-tier framework, NOT D-tier across all components**. Four components walked back from D-tier per K56 verdict:
 
-The electroweak radiative correction Δr (m_W reconstruction sector) decomposes into 12 components, each factoring in BST primaries:
+- **Δα(M_Z) → I-tier** (1.1% precision; tier was overclaim at D given precision)
+- **y_t (top Yukawa) → I-tier** (BST identity 136/137 is striking but the residual mechanism via Yukawa scheme is multi-week)
+- **Δρ (top loop) → S-tier** (1/107 BST form 1/(N_max - χ - C_2) is structural recurrence; mechanism for "why 107 specifically" pending)
+- **Δr_rem → S-tier** (-1/726 = -1/(rank·c_2²·N_c) structural recurrence; mechanism not closed)
 
-| Component | BST form | Numerical | Precision | Tier |
-|-----------|----------|-----------|-----------|------|
-| α(M_Z)^{-1} | N_max − N_c² = 128 | 128 vs PDG 127.94 | 0.05% | D |
-| Δα(M_Z) | N_c² / N_max = 9/137 | 0.0657 vs 0.0590 | 1.1% | D |
-| Δρ (top loop) | 1 / (N_max − χ − C_2) = 1/107 | 0.00935 vs 0.00935 | 0.08% | D |
-| y_t (top Yukawa) | 1 − 1/N_max = 136/137 | 0.99270 vs 0.99266 | 0.04% | D |
-| Δr_rem | −1/(rank·c_2²·N_c) = −1/726 | −0.00138 vs −0.00135 | 1.6% | D |
-| c_W²/s_W² | rank·n_C/N_c = 10/3 | 3.333 EXACT | 0% | D |
-| Aggregate m_W reconstruction | (multi-week, scheme reconciliation) | — | — | (open) |
+**Stays D-tier per K56**:
+- **c_W²/s_W² = 10/3** (rank·n_C/N_c, EXACT BST primary ratio)
+- **α(M_Z)⁻¹ = 128** (N_max - N_c², 0.05% precision, structurally clean)
 
-Plus 6 additional structural factor components (gauge group, weak isospin, etc.) verified at D-tier per primary, totalling **12/12 D-tier component-level BST closure** before final aggregation.
+The K56 walk-back is the audit-chain discipline working at tier-review level. Same shape as today's other K56 walk-backs: D-tier preserved where mechanism is forced; D→I or D→S where mechanism is structural recurrence not yet forcing.
 
-**Significance**: the m_W aggregate has historically been characterized as "BST near-miss" at the high-precision level (sub-permille reconstruction requires scheme reconciliation between on-shell and MS-bar at multi-week scope). However, the COMPONENT-LEVEL view shows that each Δr piece factors cleanly in BST primaries. This is a Type-C-adjacent structural property: when the framework's reconstruction is "open" at the aggregate, it remains "closed" at the component decomposition.
+### 7.1 Δr component-level cathedral closure (Elie Toy 3012, K56-calibrated)
 
-**Per K43+K44 honest tier discipline** (Keeper): cathedral component-level 12/12 is D-tier ON THE COMPONENTS; the aggregate m_W reconstruction is an I-tier prediction awaiting multi-week scheme work. This calibration distinguishes "the framework is consistent at component scale" from "the framework predicts m_W to sub-permille" — both are true but at different tier levels.
+The electroweak radiative correction Δr (m_W reconstruction sector) decomposes into components, with K56-revised tier labels:
 
-**Striking sub-finding**: y_t = 1 − 1/N_max = 136/137 (top Yukawa = unity minus one substrate quantum) is the cleanest BST identity in the electroweak sector at 0.04% precision. Elie's reading: "Top quark = BST Yukawa minus one substrate quantum."
+| Component | BST form | Numerical | Precision | Tier (K56) |
+|-----------|----------|-----------|-----------|------------|
+| α(M_Z)^{-1} | N_max − N_c² = 128 | 128 vs PDG 127.94 | 0.05% | **D** |
+| Δα(M_Z) | N_c² / N_max = 9/137 | 0.0657 vs 0.0590 | 1.1% | **I** (was D) |
+| Δρ (top loop) | 1 / (N_max − χ − C_2) = 1/107 | 0.00935 vs 0.00935 | 0.08% | **S** (was D) |
+| y_t (top Yukawa) | 1 − 1/N_max = 136/137 | 0.99270 vs 0.99266 | 0.04% | **I** (was D) |
+| Δr_rem | −1/(rank·c_2²·N_c) = −1/726 | −0.00138 vs −0.00135 | 1.6% | **S** (was D) |
+| c_W²/s_W² | rank·n_C/N_c = 10/3 | 3.333 EXACT | 0% | **D** |
+| Aggregate m_W reconstruction | (multi-week, scheme reconciliation) | — | — | **I-tier framework** |
+
+**K56 calibration significance**: the "12/12 D-tier" framing from v0.4 was overclaim per Keeper+Cal audit. Walked back to "Cathedral framework I-tier with per-component tier specificity" per K56 verdict. **2 components stay D, 2 go I, 2 go S** — honest tier discipline at component level.
+
+**Significance**: the m_W aggregate had historically been characterized as "BST near-miss" at high-precision level. K56 audit clarifies: the COMPONENT-LEVEL view shows two genuinely D-tier mechanism-forced identities (α⁻¹ = 128 = N_max-N_c² and c_W²/s_W² = 10/3 = rank·n_C/N_c), four structural-recurrence-only entries (D→I or D→S walk-backs), and aggregate I-tier framework.
+
+**Per K43+K44+K56 honest tier discipline** (Keeper+Cal): cathedral aggregate becomes I-tier framework; per-component tiers honest per the K56 audit walk-back. This calibration distinguishes "framework has 2 genuinely D-tier mechanism-forced electroweak components" from "12/12 D-tier" — both are honest statements but at different specificity levels.
+
+**Striking sub-finding (now I-tier per K56)**: y_t = 1 − 1/N_max = 136/137 (top Yukawa = unity minus one substrate quantum) is the cleanest BST identity in the electroweak sector at 0.04% precision. K56 walk-back to I-tier acknowledges the structural beauty while flagging the multi-week Yukawa-scheme mechanism work required for D-tier promotion. Elie's reading "top quark = BST Yukawa minus one substrate quantum" stands as structural observation at I-tier.
 
 ### 7.2 Cathedral closure as architectural pattern
 

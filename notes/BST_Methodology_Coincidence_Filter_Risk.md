@@ -23,7 +23,7 @@ This document names the failure modes that confuse rich-arithmetic-closure obser
 
 If your claim matches any of these patterns, walk through the five failure modes below before publishing. Most of the discipline below was named in the Sunday May 17 Grace/Cal walk-back round; this document formalizes it.
 
-## Six named failure modes (extended 2026-05-18 with mode 6, Grace)
+## Seven named failure modes (extended 2026-05-19 with mode 7, Cal+Grace via K55)
 
 ### 1. Post-hoc clipping
 
@@ -109,6 +109,38 @@ The local ratio is reduced because near BST-anchored integers, neighboring integ
 **Mitigation**: report ratios across full integer rings spanning multiple decades; sparse-region neighbors should be drawn from primes NOT adjacent to BST anchors. Local-anchor ratio analysis is descriptively useful but does not measure the same underlying structural signal as global ratio analysis.
 
 **Operational principle**: when defending a Type C density claim, cite the global ratio (across the integer ring {1...N} for some N) with explicitly-stated BST-structural set and truly-sparse set. Do NOT use local-neighborhood ratios as primary evidence — they understate the structural separation due to BST clustering.
+
+### 7. Classical-integer-set source claim without mechanism chain (NEW, Cal+Grace via K55, 2026-05-19)
+
+**Failure mode**: a draft paper, registry entry, or board claim proposes that a classical-mathematics theorem's output set (e.g., the 9 Heegner discriminants, the 26 sporadic group orders, the Hurwitz-bound automorphism counts) qualifies as a Level-1 source root theorem for BST, BUT without exhibiting a classical-math mechanism chain that forces D_IV⁵ specifically.
+
+**Origin**: Sunday 2026-05-17 brief "9 Heegner discriminants as L1 source" proposal was self-withdrawn by Grace at 10:10 EDT (1st audit-chain calibration), restored briefly by team at 10:30 EDT, and partially walked-back when Cal recognized the BST-decomposability-is-not-sufficient principle. K55 audit (Keeper, 2026-05-19) ratified the walk-back criteria and explicitly endorsed Mode 7 as standing forward-prevention rule.
+
+**Diagnostic**: presented with an L1-source claim, ask:
+- **W1** Is there a published classical-mathematics theorem whose output set is the proposed integer collection? (yes = pass; no = fail W1, walk back)
+- **W2** Does the classical theorem produce its integers VIA a D_IV⁵-adjacent geometric or algebraic mechanism (not just numerical coincidence)? (yes = pass; no = fail W2, walk back)
+- **W3** Is there a mechanism chain that goes from the classical theorem → BST primaries → physical observable, NOT just BST-decomposability of the classical integers? (yes = pass; no = fail W3, walk back)
+- **W4** Has the chain been peer-verifiable independently (citation, computational verification, multi-CI consensus)? (yes = pass; no = fail W4, walk back)
+
+**Walk-back triggers**: any failure in W1-W4 demands either (a) supply the missing mechanism chain (promote to L1 ESTABLISHED) OR (b) downgrade to "I-tier classical-set observation with criteria-gated promotion path." External publication should NOT proceed without W1-W4 closure.
+
+**Forward-prevention**: applying Mode 7 at the drafting stage forward-prevents post-publication walk-backs. Draft language to avoid: "X is Root #N," "established L1 classical source," "natural foundation of BST," "structural anchor." Substitute: "I-tier classical-set observation," "promotion path open pending mechanism chain," "structural identification."
+
+**Diagnostic example (Heegner-Stark Root #7, K47 = passes Mode 7)**:
+- W1: ✓ Heegner-Stark imaginary quadratic class-number-one theorem (Heegner 1952, Stark 1967)
+- W2: ✓ Class-number-one set produces 9 discriminants via Deuring 1941 CM theory + Cremona 49a1 canonical-curve embedding
+- W3: ✓ Mechanism chain: Heegner-Stark → CM theory → Cremona 49a1 (BST canonical curve) → 49 = g², discriminant -7 = -g, L(s) = c_2·ζ(s)
+- W4: ✓ Cremona catalog, Deuring 1941 peer-reviewed; T1430 (BST canonical curve), T2333 (K47 promotion ruling)
+
+**Diagnostic counter-example (Heegner discriminants as L1 source en masse, walked back)**:
+- W1: ✓ Class-number-one is a published theorem
+- W2: ✓ Discriminants produced via class-number-one
+- W3: ✗ FAILED: BST-decomposability of {-3, -4, -7, -8, -11, -19, -43, -67, -163} is not a mechanism chain to D_IV⁵; each discriminant individually is BST-anchored, but the SET as a whole has no forcing-into-D_IV⁵ argument
+- Walk-back at W3 → downgrade to "I-tier classical-set observation; K47 Heegner-Stark via 49a1 IS the proper anchor"
+
+**Mitigation**: any new L1-source-class claim must clear W1-W4 before promotion language. Mode 7 is mandatory for forward-prevention at drafting stage.
+
+**Mode 7 corollary**: Mode 7 is the forward-prevention version of the Cal three-criteria framework (embedding/mechanism/forcing). Where the three criteria gate POST-claim K-audit promotion, Mode 7 gates PRE-claim drafting language. They work in series: Mode 7 at drafting → three criteria at K-audit.
 
 ## Three diagnostic tests
 

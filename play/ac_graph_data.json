@@ -8,7 +8,7 @@
     "committed_count": 438,
     "working_count": 64,
     "total_theorems": 1730,
-    "total_edges": 9686,
+    "total_edges": 9708,
     "depth_distribution": {
       "D0": 1163,
       "D1": 525,
@@ -23,8 +23,8 @@
     "edges": 9648,
     "nodes": 2064,
     "eod_session": "2026-05-18 EOD",
-    "total_nodes": 2082,
-    "max_tid": 2386
+    "total_nodes": 2137,
+    "max_tid": 2394
   },
   "theorems": [
     {
@@ -72077,6 +72077,116 @@
       "from": 2386,
       "to": 2381,
       "source": "sp29_framework"
+    },
+    {
+      "from": 2387,
+      "to": 2386,
+      "source": "k_audit_chain"
+    },
+    {
+      "from": 2387,
+      "to": 2385,
+      "source": "substrate_framework"
+    },
+    {
+      "from": 2387,
+      "to": 1922,
+      "source": "references"
+    },
+    {
+      "from": 2389,
+      "to": 2385,
+      "source": "substrate_vocabulary"
+    },
+    {
+      "from": 2389,
+      "to": 2326,
+      "source": "references"
+    },
+    {
+      "from": 2389,
+      "to": 2327,
+      "source": "k3_hub_prediction"
+    },
+    {
+      "from": 2388,
+      "to": 2368,
+      "source": "continues"
+    },
+    {
+      "from": 2388,
+      "to": 2374,
+      "source": "continues"
+    },
+    {
+      "from": 2388,
+      "to": 2386,
+      "source": "related"
+    },
+    {
+      "from": 2390,
+      "to": 2339,
+      "source": "references"
+    },
+    {
+      "from": 2390,
+      "to": 2342,
+      "source": "continues"
+    },
+    {
+      "from": 2391,
+      "to": 2388,
+      "source": "continues"
+    },
+    {
+      "from": 2391,
+      "to": 2386,
+      "source": "related"
+    },
+    {
+      "from": 2392,
+      "to": 2390,
+      "source": "continues"
+    },
+    {
+      "from": 2392,
+      "to": 2339,
+      "source": "references"
+    },
+    {
+      "from": 2392,
+      "to": 2387,
+      "source": "cross-link"
+    },
+    {
+      "from": 2392,
+      "to": 2386,
+      "source": "related"
+    },
+    {
+      "from": 2393,
+      "to": 2333,
+      "source": "extends"
+    },
+    {
+      "from": 2393,
+      "to": 2389,
+      "source": "related"
+    },
+    {
+      "from": 2394,
+      "to": 2392,
+      "source": "continues"
+    },
+    {
+      "from": 2394,
+      "to": 2390,
+      "source": "continues"
+    },
+    {
+      "from": 2394,
+      "to": 2339,
+      "source": "references"
     }
   ],
   "chains": {},
@@ -95985,21 +96095,6 @@
       "proofs": []
     },
     {
-      "tid": 1959,
-      "name": "Cosmological Constant Λ from BST Spectral Cap (Perfect Map gap closure)",
-      "domain": "topology",
-      "status": "proved",
-      "depth": 1,
-      "conflation": 0,
-      "section": "Weekend May 16-17 sprint",
-      "toys": [
-        2442
-      ],
-      "date": "2026-05-16",
-      "plain": "Cosmological Constant Λ from BST Spectral Cap (Perfect Map gap closure): ρ_Λ/M_Pl⁴ = exp(−(rank·N_max + g)) = exp(−281) ≈ 6.7·10^{−123} vs observed 5.6·10^{−123} (coefficient ~20%, exponent precision ",
-      "proofs": []
-    },
-    {
       "tid": 1961,
       "name": "CMB Scalar Amplitude A_s = exp(−h^{1,1}(K3)) = exp(−20)",
       "domain": "cosmology",
@@ -96915,21 +97010,6 @@
       "proofs": []
     },
     {
-      "tid": 2030,
-      "name": "Pion mass m_π = N_c·g·c_3·m_e (D-tier, NEW catalog entry)",
-      "domain": "topology",
-      "status": "proved",
-      "depth": 1,
-      "conflation": 0,
-      "section": "Weekend May 16-17 sprint",
-      "toys": [
-        2561
-      ],
-      "date": "2026-05-16",
-      "plain": "Pion mass m_π = N_c·g·c_3·m_e (D-tier, NEW catalog entry): BST gives m_π = 3·7·13·m_e = 273·m_e = 139.50 MeV vs PDG π+ 139.57 at 0.05%! Cross-check m_π/m_p = N_c·g·c_3/(C_2·π^{n_C}) = 273/1836 = 0.148",
-      "proofs": []
-    },
-    {
       "tid": 2031,
       "name": "Proton Magnetic Radius r_M(p) = r_E(p)·(1 + 1/(rank³·c_2))",
       "domain": "bst_physics",
@@ -97050,21 +97130,6 @@
       "proofs": []
     },
     {
-      "tid": 2041,
-      "name": "Light meson mass cascade from m_π in BST",
-      "domain": "hadronic",
-      "status": "proved",
-      "depth": 1,
-      "conflation": 0,
-      "section": "Weekend May 16-17 sprint",
-      "toys": [
-        2575
-      ],
-      "date": "2026-05-16",
-      "plain": "Light meson mass cascade from m_π in BST: m_K = (g/rank)·m_π = 488 MeV (1.1% off obs 494), m_η = rank²·m_π = 558 MeV (1.9% off obs 548), m_η' = g·m_π = 977 MeV (2.0% off obs 958), m_ρ = (c_2/rank)·m_π",
-      "proofs": []
-    },
-    {
       "tid": 2043,
       "name": "Baryon octet + Ω masses from m_p cascade in BST",
       "domain": "hadronic",
@@ -97170,21 +97235,6 @@
       "proofs": []
     },
     {
-      "tid": 2050,
-      "name": "CMB acoustic peaks cascade in BST",
-      "domain": "cosmology",
-      "status": "proved",
-      "depth": 1,
-      "conflation": 0,
-      "section": "Weekend May 16-17 sprint",
-      "toys": [
-        2588
-      ],
-      "date": "2026-05-16",
-      "plain": "CMB acoustic peaks cascade in BST: ℓ_1 = rank²·n_C·c_2 = 220 (T2049 EXACT); ℓ_2 = (n_C/rank)·ℓ_1 = 550 (2% off obs 540); ℓ_3 = (c_2/N_c)·ℓ_1 = 807 (0.4% off obs 810). Ratios: ℓ_2/ℓ_1 = n_C/rank = 5/2;",
-      "proofs": []
-    },
-    {
       "tid": 2051,
       "name": "Nuclear binding energies in BST",
       "domain": "representation_theory",
@@ -97272,21 +97322,6 @@
       ],
       "date": "2026-05-16",
       "plain": "Cosmic Log-Scale Ladder in BST Integers (combined): Six+ cosmic log ratios anchored at BST integer combinations: (a) ln(t_universe/t_Planck) = 140 = rank²·n_C·g = Wallach dim_6 (T2041); (b) ln(M_sun/m",
-      "proofs": []
-    },
-    {
-      "tid": 2058,
-      "name": "Heavy quarkonium masses in BST cascade from m_π",
-      "domain": "hadronic",
-      "status": "proved",
-      "depth": 1,
-      "conflation": 0,
-      "section": "Weekend May 16-17 sprint",
-      "toys": [
-        2595
-      ],
-      "date": "2026-05-16",
-      "plain": "Heavy quarkonium masses in BST cascade from m_π: m_J/ψ = rank·c_2·m_π = 22·m_π = 3069 MeV (0.9% off obs 3097); m_Υ(1S) = (rank³·g + rank²·N_c)·m_π = 68·m_π = 9486 MeV (0.27% off obs 9460); m_ψ'(2S) ≈ ",
       "proofs": []
     },
     {
@@ -97485,21 +97520,6 @@
       "proofs": []
     },
     {
-      "tid": 2074,
-      "name": "K3 Hodge numbers ALL in BST integers (extends T1921+T1953)",
-      "domain": "topology",
-      "status": "proved",
-      "depth": 1,
-      "conflation": 0,
-      "section": "Weekend May 16-17 sprint",
-      "toys": [
-        2613
-      ],
-      "date": "2026-05-16",
-      "plain": "K3 Hodge numbers ALL in BST integers (extends T1921+T1953): h^{1,1}(K3) = 20 = rank²·n_C (NEW); χ(K3) = 24 = rank³·N_c (T1953); b_2(K3) = 22 = rank·c_2 (NEW). K3 Hodge structure is ENTIRELY parametriz",
-      "proofs": []
-    },
-    {
       "tid": 2076,
       "name": "BR(H → cc̄) = g²/(rank·C_2·(N_max+rank²)) = 49/1692 ≈ 0",
       "domain": "higgs",
@@ -97512,21 +97532,6 @@
       ],
       "date": "2026-05-16",
       "plain": "BR(H → cc̄) = g²/(rank·C_2·(N_max+rank²)) = 49/1692 ≈ 0.0289 at 0.2%: Clean BST integer ratio for charm-pair Higgs decay. Via BR(H→cc̄)/BR(H→bb̄) = g/(N_max+rank²) = 7/141 = 0.0496 — the ratio absorbs",
-      "proofs": []
-    },
-    {
-      "tid": 2076,
-      "name": "Gravitational fine structure α_G = exp(-rank³·c_2) = exp(-88) in BST",
-      "domain": "topology",
-      "status": "proved",
-      "depth": 1,
-      "conflation": 0,
-      "section": "Weekend May 16-17 sprint",
-      "toys": [
-        2616
-      ],
-      "date": "2026-05-16",
-      "plain": "Gravitational fine structure α_G = exp(-rank³·c_2) = exp(-88) in BST: α_G = G·m_p²/(ℏc) = (m_p/M_Pl)² = exp(-2·rank²·c_2) = exp(-88). BST gives 6.6e-39 vs observed 5.88e-39 at 12% (exp suppression dis",
       "proofs": []
     },
     {
@@ -100644,9 +100649,12 @@
       "depth": 0,
       "conflation": 0,
       "section": "2026-05-18 (Lyra)",
-      "toys": [],
+      "toys": [
+        3014,
+        3018
+      ],
       "date": "2026-05-18",
-      "plain": "",
+      "plain": "Lyra T2356 Möbius cohomology Session 4: nontrivial generator of H¹_{Z/2}(M, Z) ≅ Z/2 identified with spectral parity ν(M). Lichnerowicz threshold n_C·g/4 = 8.75 partitions Wallach K-types into sub-threshold {(0,0),(0,1),(1,0)} (3 modes, ODD) and super-threshold. Type C-Z/2 sub-class of Type C convergence. Toys 3014+3018 13/13 PASS.",
       "proofs": []
     },
     {
@@ -101087,6 +101095,826 @@
       ],
       "date": "2026-05-19",
       "plain": "Five contexts share BST primary form 3/1507 = N_c/(N_max·c_2): Decca Casimir, SP29-1 Cs-137 H4, IP-14 Δα(M_Z), W-37 substrate attention, SP29-3 angular. K54 audit candidate. Lyra (author).",
+      "proofs": []
+    },
+    {
+      "tid": 2387,
+      "name": "K52a / K56 shared Cal Criterion 2 mechanism path through g = 7",
+      "domain": "k_audit / substrate / mechanism",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Tuesday 2026-05-19",
+      "toys": [],
+      "date": "2026-05-19",
+      "plain": "K52a (1/M_g class) and K56 (2^g function alphabet) share same 'why g=7' mechanism path. Three candidates: Mersenne primality, BST primary cascade, Bergman genus. Over-determination. Lyra (author).",
+      "proofs": []
+    },
+    {
+      "tid": 2389,
+      "name": "Ogg-Wallach Integration Pattern at dim_7+ (G3 honest finding)",
+      "domain": "wallach_k_types / ogg_primes / substrate vocabulary",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Tuesday 2026-05-19",
+      "toys": [
+        3085
+      ],
+      "date": "2026-05-19",
+      "plain": "G3 honest negative (no SM anchor) + structural finding: 3 of 6 Wallach dim_7..dim_12 contain Ogg supersingular primes; dim_9=5·7·11 uniquely pure-BST. Substrate-vocabulary pattern. Grace (author).",
+      "proofs": []
+    },
+    {
+      "tid": 2388,
+      "name": "B5 Phase A v0.3 opening: A_3 ↔ Wallach K-type (2,2) explicit mapping",
+      "domain": "electroweak / muon g-2 / wallach K-types",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Tuesday 2026-05-19",
+      "toys": [
+        3083
+      ],
+      "date": "2026-05-19",
+      "plain": "B5 v0.3 Phase A opens: A_3 = 24 = χ_K3 = λ_W(2,2), 3-loop QED diagram count 72 = N_c·χ_K3, internal Type C convergence within muon g-2 (HVP shares K-type 2,2 with A_3). Lyra (author). Toy 3083 4/4 PASS.",
+      "proofs": []
+    },
+    {
+      "tid": 2224,
+      "name": "Stable Homotopy Groups of Spheres are BST (Lyra 2026-05-16)",
+      "domain": "mathematics_topology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Stable Homotopy Groups of Spheres are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2225,
+      "name": "Quantum Information Hilbert Dimensions are BST (Lyra 2026-05-16)",
+      "domain": "information_theory",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Quantum Information Hilbert Dimensions are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2226,
+      "name": "Information Theory and Networking Counts are BST (Lyra 2026-05-16)",
+      "domain": "information_theory",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Information Theory and Networking Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2227,
+      "name": "Cognitive Science Structural Counts are BST (Lyra 2026-05-16)",
+      "domain": "cognitive_cultural",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Cognitive Science Structural Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2229,
+      "name": "ΛCDM Cosmology Counts are BST (Lyra 2026-05-16)",
+      "domain": "cosmology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "ΛCDM Cosmology Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2230,
+      "name": "Crystallography Group Counts are BST (Lyra 2026-05-16)",
+      "domain": "condensed_matter",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Crystallography Group Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2231,
+      "name": "Extended Biochemistry Counts are BST (Lyra 2026-05-16)",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Extended Biochemistry Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2232,
+      "name": "Math and Physics Constant Exponents are BST (Lyra 2026-05-16)",
+      "domain": "cross_domain_sweep",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Math and Physics Constant Exponents are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2235,
+      "name": "Gauge Group Dimensions are BST (Lyra 2026-05-16)",
+      "domain": "gauge_theory",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Gauge Group Dimensions are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2236,
+      "name": "Atomic Spectroscopy and Periodic Table Counts are BST (Lyra 2026-05-16)",
+      "domain": "cross_domain_sweep",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Atomic Spectroscopy and Periodic Table Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2237,
+      "name": "Chemistry Bonding Counts are BST (Lyra 2026-05-16)",
+      "domain": "cross_domain_sweep",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Chemistry Bonding Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2238,
+      "name": "Particle Decay Mode Counts are BST (Lyra 2026-05-16)",
+      "domain": "particle_physics",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Particle Decay Mode Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2239,
+      "name": "General Relativity Structural Counts are BST (Lyra 2026-05-16)",
+      "domain": "physics_other",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "General Relativity Structural Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2240,
+      "name": "Electromagnetism Structural Counts are BST (Lyra 2026-05-16)",
+      "domain": "gauge_theory",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Electromagnetism Structural Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2241,
+      "name": "Modular Forms and Galois Counts are BST (Lyra 2026-05-16)",
+      "domain": "mathematics_topology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Modular Forms and Galois Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2242,
+      "name": "Cross-Cultural Symbolic Counts are BST-Cognition Inherited (Lyra 2026-05-16)",
+      "domain": "cognitive_cultural",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Cross-Cultural Symbolic Counts are BST-Cognition Inherited (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2245,
+      "name": "Statistical Mechanics Phase Counts are BST (Lyra 2026-05-16)",
+      "domain": "cross_domain_sweep",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Statistical Mechanics Phase Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2246,
+      "name": "QFT Scattering Structural Counts are BST (Lyra 2026-05-16)",
+      "domain": "particle_physics",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "QFT Scattering Structural Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2247,
+      "name": "Knot Theory Structural Counts are BST (Lyra 2026-05-16)",
+      "domain": "mathematics_topology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Knot Theory Structural Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2248,
+      "name": "Famous Number-Theoretic Sequences are BST (Lyra 2026-05-16)",
+      "domain": "mathematics_pure",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Famous Number-Theoretic Sequences are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2250,
+      "name": "Solar System Counts are BST (Lyra 2026-05-16)",
+      "domain": "cosmology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Solar System Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2251,
+      "name": "Extended Music Theory Counts are BST (Lyra 2026-05-16)",
+      "domain": "misc_structural",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Extended Music Theory Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2252,
+      "name": "Combinatorial Games and Tools are BST (Lyra 2026-05-16)",
+      "domain": "cross_domain_sweep",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Combinatorial Games and Tools are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2253,
+      "name": "Hadron Spectroscopy Counts are BST (Lyra 2026-05-16)",
+      "domain": "particle_physics",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Hadron Spectroscopy Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2255,
+      "name": "Observer / Anthropic Counts are BST (Lyra 2026-05-16)",
+      "domain": "cross_domain_sweep",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Observer / Anthropic Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2256,
+      "name": "Protein Structure Counts are BST (Lyra 2026-05-16)",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Protein Structure Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2257,
+      "name": "Quantum Algorithm Structure Counts are BST (Lyra 2026-05-16)",
+      "domain": "computer_science",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Quantum Algorithm Structure Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2258,
+      "name": "Complexity Theory Class Counts are BST (Lyra 2026-05-16)",
+      "domain": "computer_science",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Complexity Theory Class Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2260,
+      "name": "Extended Nuclear Magic Numbers Including Exotic 184 are BST (Lyra 2026-05-16)",
+      "domain": "particle_physics",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Extended Nuclear Magic Numbers Including Exotic 184 are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2261,
+      "name": "Sunday 2026-05-16 16:00-16:45 Session Cross-Domain Sweep (Lyra)",
+      "domain": "cross_domain_sweep",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Sunday 2026-05-16 16:00-16:45 Session Cross-Domain Sweep (Lyra) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2263,
+      "name": "Condensed Matter Phenomenology Counts are BST (Lyra 2026-05-16)",
+      "domain": "condensed_matter",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Condensed Matter Phenomenology Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2264,
+      "name": "Neural / Biological Network Counts are BST (Lyra 2026-05-16)",
+      "domain": "computer_science",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Neural / Biological Network Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2270,
+      "name": "Geophysics / Earth Science Counts are BST (Lyra 2026-05-16)",
+      "domain": "physics_other",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Geophysics / Earth Science Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2271,
+      "name": "Stellar Evolution Counts are BST (Lyra 2026-05-16)",
+      "domain": "cosmology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Stellar Evolution Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2272,
+      "name": "Supersymmetry, BSM, and String Theory Dimensions are BST (Lyra 2026-05-16)",
+      "domain": "gauge_theory",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Supersymmetry, BSM, and String Theory Dimensions are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2274,
+      "name": "Galaxy Classification Counts are BST (Lyra 2026-05-16)",
+      "domain": "cosmology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Galaxy Classification Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2275,
+      "name": "Engineering Discipline Counts are BST (Lyra 2026-05-16)",
+      "domain": "misc_structural",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Engineering Discipline Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2277,
+      "name": "Hyperbolic Geometry Counts are BST (Lyra 2026-05-16)",
+      "domain": "mathematics_topology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Hyperbolic Geometry Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2278,
+      "name": "Category Theory / Higher Math Counts are BST (Lyra 2026-05-16)",
+      "domain": "mathematics_topology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Category Theory / Higher Math Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2279,
+      "name": "Linguistics Structural Counts are BST (Lyra 2026-05-16)",
+      "domain": "cognitive_cultural",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Linguistics Structural Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2280,
+      "name": "Graph Theory / Network Science Counts are BST (Lyra 2026-05-16)",
+      "domain": "computer_science",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Graph Theory / Network Science Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2284,
+      "name": "Logic System Counts are BST (Lyra 2026-05-16)",
+      "domain": "computer_science",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Logic System Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2285,
+      "name": "Cryptography / Coding Theory Counts are BST (Lyra 2026-05-16)",
+      "domain": "information_theory",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Cryptography / Coding Theory Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2286,
+      "name": "Probability / Statistics Counts are BST (Lyra 2026-05-16)",
+      "domain": "mathematics_pure",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Probability / Statistics Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2287,
+      "name": "Network Protocol / Standards Counts are BST (Lyra 2026-05-16)",
+      "domain": "computer_science",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Network Protocol / Standards Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2291,
+      "name": "Transportation Counts are BST (Lyra 2026-05-16)",
+      "domain": "misc_structural",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Transportation Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2292,
+      "name": "Botany Counts are BST (Lyra 2026-05-16)",
+      "domain": "biology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Botany Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2293,
+      "name": "Geological Time Scale Counts are BST (Lyra 2026-05-16)",
+      "domain": "computer_science",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Geological Time Scale Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2294,
+      "name": "Plasma Physics Counts are BST (Lyra 2026-05-16)",
+      "domain": "physics_other",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Plasma Physics Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2295,
+      "name": "Unix / OS Structural Counts are BST (Lyra 2026-05-16)",
+      "domain": "misc_structural",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Unix / OS Structural Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2296,
+      "name": "Sports Structural Counts are BST (Lyra 2026-05-16)",
+      "domain": "misc_structural",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Sports Structural Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2297,
+      "name": "Philosophy / Religious Tradition Counts are BST (Lyra 2026-05-16)",
+      "domain": "cognitive_cultural",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Philosophy / Religious Tradition Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2298,
+      "name": "Famous Named Theorems and Group Classification Counts are BST (Lyra 2026-05-16)",
+      "domain": "mathematics_pure",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Famous Named Theorems and Group Classification Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2299,
+      "name": "Superconductivity / Exotic States Counts are BST (Lyra 2026-05-16)",
+      "domain": "condensed_matter",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Saturday/Sunday 2026-05-16/17 cross-domain sweep",
+      "toys": [],
+      "date": "2026-05-16",
+      "plain": "Superconductivity / Exotic States Counts are BST (Lyra 2026-05-16) — Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2390,
+      "name": "LAG-2 Phase 2.3 Step (a) Hua coord decomposition opening",
+      "domain": "spectral_geometry / cascade-unblock",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Tuesday 2026-05-19",
+      "toys": [
+        3093
+      ],
+      "date": "2026-05-19",
+      "plain": "Hua decomp D_IV⁵ = H^4 × Internal^6 opens LAG-2 Phase 2.3 (highest-leverage cascade-unblock candidate). I-tier framework, multi-week steps (b)-(e). Lyra.",
+      "proofs": []
+    },
+    {
+      "tid": 2391,
+      "name": "B5 Phase A continuation: A_4 spectral gap + A_5 K-type sum + A_6 prediction",
+      "domain": "muon g-2 / wallach K-types",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Tuesday 2026-05-19",
+      "toys": [
+        3094
+      ],
+      "date": "2026-05-19",
+      "plain": "Continues B5 Phase A from n=3 (T2388) to n=4, 5, 6. A_4 = 131 = N_max-C_2 cross-domain Type C-ℕ (QED 4-loop = BST c-function RG drop). A_6 = 4500 forward prediction (decade-scale). Lyra.",
+      "proofs": []
+    },
+    {
+      "tid": 2392,
+      "name": "LAG-2 Phase 2.3 Step (b): Faraut-Koranyi norm factorization + Elie K52a cross-link",
+      "domain": "spectral_geometry / cascade-unblock / cross-link",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Tuesday 2026-05-19",
+      "toys": [
+        3098
+      ],
+      "date": "2026-05-19",
+      "plain": "LAG-2 Phase 2.3 Step (b) Faraut-Koranyi factorization + structural cross-link to Elie K52a GF(2^g) (1±1/M_g) duality. Internal^6 = 1+N_c+rank gauge split MIRRORS GF(2^g) additive/multiplicative structure. Joint K-audit candidate. Lyra (author).",
+      "proofs": []
+    },
+    {
+      "tid": 2393,
+      "name": "Cremona scan beyond 49a1: 27a1 + 121a1 NEAR-Bridge-Object candidates",
+      "domain": "bridge objects / cremona scan / k-audit candidates",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Tuesday 2026-05-19",
+      "toys": [
+        3101
+      ],
+      "date": "2026-05-19",
+      "plain": "Cremona scan executes Paper #121 §7.1 method. 27a1 (Q(√-3) CM, conductor N_c³) + 121a1 (Q(√-11) CM, conductor c_2²) identified as NEAR-Bridge-Object candidates. Architecture stays at 3 confirmed (K3, 49a1, Q⁵). Two K-audit follow-up paths opened. Grace.",
+      "proofs": []
+    },
+    {
+      "tid": 2394,
+      "name": "LAG-2 Phase 2.3 Step (c): Off-origin Faraut-Koranyi 3-term cross-coupling",
+      "domain": "spectral_geometry / lag-2 phase 2.3 / cascade-unblock",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Tuesday 2026-05-19",
+      "toys": [
+        3104
+      ],
+      "date": "2026-05-19",
+      "plain": "LAG-2 Phase 2.3 Step (c). Off-origin Faraut-Koranyi norm does NOT factor; leading-order 3-term cross-coupling z_H²·w̄_Int² + z_Int²·w̄_H² − 4(z_H·w̄_H)(z_Int·w̄_Int). Toy 3104 6/7 PASS + 1 honest negative. Lyra (author).",
       "proofs": []
     }
   ],

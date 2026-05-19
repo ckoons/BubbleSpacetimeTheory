@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "SP-27 Tracks 5-8 scoping omnibus"
+  },
+  "tracks": [
+    {
+      "id": "Track 5",
+      "topic": "Vacuum fluctuations observational reanalysis",
+      "BST_framework": "Substrate-coupling at boundary; Casimir at zero-T baseline",
+      "obs_targets": "Riek 2015 direct vacuum sampling, Higgs vacuum stability, ground-state nuclear fluctuations",
+      "BST_predictions": "\n    H5 hypothesis (per SP29-3): vacuum spectrum depends on Casimir geometry\n    Quantitative: spectrum gap shifted by \u0394 ~ N_c/(N_max\u00b7c_2) = 3/1507 (K54 family)\n    Riek 2015 direct-sampling technique sensitivity ~10^-15 (precision threshold)\n    BST predicts NON-NULL at sub-mm Casimir-cavity vacuum measurement",
+      "priority": 1,
+      "scope_weeks": 6
+    },
+    {
+      "id": "Track 6",
+      "topic": "Gravitational lensing observational reanalysis",
+      "BST_framework": "Substrate geometric mass (no DM particle); lensing tests",
+      "obs_targets": "Bullet Cluster 1E 0657-558 + SDSS lens samples + JWST high-z",
+      "BST_predictions": "\n    BST DM-as-geometric-remainder: lensing reflects gravitational mass without\n      requiring DM particles. Bullet Cluster offset between gas and lens mass:\n      BST consistent if geometric remainder displaces with gas-mass-displaced\n      dynamics. Multi-week simulation needed.\n    Strong lensing time delays: BST H_0 \u2248 70 (Toy 3087) \u2014 between Planck/Cepheid\n      Lens systems prefer H_0 ~ 67-69 (closer to Planck); BST mid-tension fits",
+      "priority": 2,
+      "scope_weeks": 8
+    },
+    {
+      "id": "Track 7",
+      "topic": "Collider budgets reanalysis",
+      "BST_framework": "BST tightens SM predictions; constrains BSM searches",
+      "obs_targets": "LHC Run 2/3 + HL-LHC + FCC future-projections",
+      "BST_predictions": "\n    Higgs branching ratios: BST D-tier on H\u2192bb, H\u2192\u03c4\u03c4; check against current LHC\n    Top quark Yukawa y_t = 1 - 1/N_max (Cathedral I-tier per K56)\n    No expected BSM particles: BST predicts SM-only at LHC/FCC energies\n    Future ILC/FCC-ee precision tests can DISCRIMINATE BST vs SUSY/extra-dim\n    BST: NO new particles at TeV scale \u2192 tightening constraint on alternatives",
+      "priority": 3,
+      "scope_weeks": 12
+    },
+    {
+      "id": "Track 8",
+      "topic": "SP-27 one-page summary documents per track",
+      "BST_framework": "Master overview doc enabling external collaboration outreach",
+      "obs_targets": "For each track, one-page summary with BST prediction + falsifier",
+      "BST_predictions": "\n    Per Keeper SP27-8 NEW: one-page scoping doc per track 1-7\n    Format: 1 page each, suitable for collaboration outreach materials\n    Track 1 LIGO: Toy 3008 + 3058 cataloged (need 1-page)\n    Track 2 DM: Toys 3065 + 3071 + 3075 + scoping done (need 1-page)\n    Track 3 atomic clocks: Toy 3076 scoping done (need 1-page)\n    Track 4 CMB residuals: Toy 3081 scoping done (need 1-page)\n    Tracks 5/6/7: this toy (need 1-page each going forward)",
+      "priority": 4,
+      "scope_weeks": 3
+    }
+  ],
+  "total_scope_weeks": 29,
+  "priority_sequencing": [
+    "Track 5",
+    "Track 6",
+    "Track 7",
+    "Track 8"
+  ]
+}

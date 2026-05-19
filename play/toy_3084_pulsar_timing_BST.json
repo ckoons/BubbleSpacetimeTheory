@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "Pulsar timing array BST"
+  },
+  "observed_h_c": 2e-15,
+  "observed_gamma": 4.333333333333333,
+  "BST_findings": {
+    "gamma_identification": "13/3 = c_3/N_c (BST primary, but SAME as SMBHB inspiral; no discriminator)",
+    "h_c_magnitude": "consistent with \u03b1^7 BST natural scale (order-of-magnitude only)",
+    "interpretation_compatibility": "BST compatible with SMBHB interpretation; no unique signature"
+  },
+  "tier": "NOT CLOSURE TARGET \u2014 BST consistent with NANOGrav interpretation but not discriminator",
+  "future_tests": [
+    "SKA 2030+ sensitivity h_c < 10^-17",
+    "CMB-S4 + LiteBIRD primordial GW B-modes"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "GUT scale BST framework"
+  },
+  "BST_prediction": "NO GUT \u2014 gauge groups arise from distinct D_IV^5 features",
+  "gauge_group_origins": {
+    "SU(3)_color": "N_c = 3 speaking-pair cycle period",
+    "SU(2)_weak": "rank = 2 (B\u2082 root system) electroweak doublet",
+    "U(1)_hypercharge": "c_2 = 11 dressed Casimir"
+  },
+  "GUT_predictions_BST_position": {
+    "proton_decay": "NULL (Toy 3102 strict zero)",
+    "magnetic_monopoles": "NULL (no spontaneous-symmetry-breaking source)",
+    "coupling_convergence_at_10^16_GeV": "kinematic artifact of RG; BST gives each coupling at low scale",
+    "baryogenesis": "OPEN PROBLEM in BST (no GUT-style mechanism); multi-month investigation"
+  },
+  "k_16_speaking_pair_observation": "-24 = -dim SU(5) = -\u03c7_K3 appears at heat-kernel k=16 (Toy 639), NOT as unification but as cascade-ratio coincidence",
+  "falsifiable_predictions": [
+    "No proton decay at any rate",
+    "No magnetic monopoles at any scale",
+    "Coupling running follows BST primary forms, not GUT-anchored"
+  ],
+  "cross_anchor_absences": [
+    "no GUT",
+    "no proton decay",
+    "no DM particle",
+    "no monopoles",
+    "no sterile neutrinos",
+    "no SUSY"
+  ]
+}

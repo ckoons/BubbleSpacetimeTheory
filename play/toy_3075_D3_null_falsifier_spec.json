@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "SP-27 D3 XLZD/DARWIN null falsifier"
+  },
+  "BST_prediction": "\u03c3_DD \u2261 0 across all WIMP mass ranges (no DM particle)",
+  "falsifier_thresholds": {
+    "refutes_BST": "\u22655\u03c3 excess at any mass at any direct-detection experiment",
+    "consistent_BST": "null at <10^-49 cm\u00b2 over 1 GeV - 1 TeV at next-gen"
+  },
+  "current_status": "BST CONSISTENT (LZ/XENONnT/PandaX all null at 10^-47 cm\u00b2)",
+  "next_gen_timeline": "XLZD 2026-2032 first results ~2029; DARWIN 2030s+",
+  "cross_anchor": "Omega_DM cosmic-pie 0.265 D-tier match (Toy 3071) provides gravitational consistency",
+  "discrimination_strength": "BST predicts STRICT ZERO everywhere; most decisive possible null"
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "SP-26 W-items omnibus"
+  },
+  "items": [
+    {
+      "id": "W-27",
+      "topic": "Information Substrate framing \u2014 particles as information units",
+      "scope": "\n    BST substrate carries information as commitment-process units. Each\n    particle is a stable winding of substrate information. The \"information\n    substrate\" framing: particles are information-bearing structures, not\n    isolated objects.\n\n    BST predictions:\n    - Information content per particle ~ rank\u00b7g bits (= 14 bits per particle)\n    - Holographic boundary entropy = A/(4\u00b7rank\u00b7G) where A = BST primary\n      surface area\n    - Cross-anchor: Bekenstein bound + BST geometric capacity\n\n    Status: PRE-STAGE outline; multi-week formalization",
+      "priority": 1,
+      "scope_weeks": 4
+    },
+    {
+      "id": "W-28",
+      "topic": "(Ambiguous spec \u2014 not in SP26_Particle_Winding_Classification doc)",
+      "scope": "\n    NUMBERING AMBIGUITY FLAG: W-28 spec not found in canonical SP-26 doc.\n    Per Keeper broadcast list, marked as \"open W-item\" but description\n    pending clarification.\n    Recommended action: Keeper to confirm W-28 scope in next CI_BOARD update.",
+      "priority": "TBD",
+      "scope_weeks": null
+    },
+    {
+      "id": "W-35",
+      "topic": "(Ambiguous spec \u2014 not in SP26_Particle_Winding_Classification doc)",
+      "scope": "\n    NUMBERING AMBIGUITY FLAG: W-35 spec not found in canonical SP-26 doc.\n    Per Keeper broadcast list, marked as \"open W-item\" but description\n    pending clarification.\n    Recommended action: Keeper to confirm W-35 scope in next CI_BOARD update.",
+      "priority": "TBD",
+      "scope_weeks": null
+    },
+    {
+      "id": "W-40",
+      "topic": "(Ambiguous spec \u2014 not in SP26_Particle_Winding_Classification doc)",
+      "scope": "\n    NUMBERING AMBIGUITY FLAG: W-40 spec not found in canonical SP-26 doc.\n    Per Keeper broadcast list, marked as \"open W-item\" but description\n    pending clarification.\n    Recommended action: Keeper to confirm W-40 scope in next CI_BOARD update.",
+      "priority": "TBD",
+      "scope_weeks": null
+    }
+  ],
+  "W-27_status": "PRE-STAGE scoping done; multi-week formalization",
+  "W-28_W-35_W-40_status": "AMBIGUOUS \u2014 not in canonical SP-26 doc; Keeper clarification needed",
+  "numbering_ambiguity_flag": "Already escalated in Toy 3066 W-32; cumulative now W-28/32/35/40"
+}

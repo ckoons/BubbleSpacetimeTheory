@@ -6500,6 +6500,18 @@ Combined with conjectural [η(Q⁵)/2] = ν(M) ∈ Z/2 (T2356), full APS index:
 
 — Lyra, combined IP-6/IP-7/IP-15 survey opened at I-tier per Casey "do all" directive, 2026-05-18 PM
 
+**Cross-link update 2026-05-19 (Lyra)**: Elie Tuesday Toys 3075 + 3079 + 3080 extend T2380's three IP openings with refined predictions:
+
+- **IP-6 (neutrino)**: Elie Toy 3079 — Σm_ν = 0.0588 eV passes Planck bound; m_3 ≈ seesaw·N_c·meV I-tier candidate. Cherry-picking flagged honestly per Cal discipline. Different parameterization than my naive exp(-88)·m_p seesaw (which was 20+ orders too small per honest negative in Toy 3055); Elie's approach gets to observed scale. Both at I-tier; both flagged for selection-effect concerns. Multi-week to D-tier mechanism per per-flavor K-type assignment.
+
+- **IP-7 (inflation r)**: Elie Toy 3080 — alternative form r = 1/(rank²·N_c²·g) = 1/252 vs my catalog 12/3025; 0.03% intrinsic difference. Both predict r ≈ 0.004 (LiteBIRD detectable ~2032). Two BST primary candidate forms for r identified; consistent numerical prediction; multi-week to D-tier mechanism via explicit inflaton field BST identification.
+
+- **IP-15 (DM)**: Elie Toy 3075 — BST predicts **STRICT ZERO direct detection** across all WIMP masses. This is the strongest possible null falsifier — distinct from my K-type-anchored DM mass candidates. Different reading: rather than DM being a Wallach K-type with specific mass, DM is a substrate phenomenon that simply doesn't couple to standard direct-detection experiments. XENON/LZ/PandaX null results consistent with this prediction. Multi-week to D-tier mechanism via substrate-DM-coupling derivation.
+
+These three extensions cross-CI-validate T2380 IP openings with Elie's compute-side scoping. T2380 IP openings remain at I-tier per Cal discipline; Elie's extensions extend the I-tier scope rather than promoting to D-tier.
+
+Cross-references: Elie Toys 3075 (IP-15 D3 strict zero), 3076 (T3 SP-27 Track 2 sub-tracks), 3079 (IP-6 Σm_ν Planck bound), 3080 (IP-7 r alternative form).
+
 
 ## T2381 — SP29-4 H3 Phase-Transition Signature at L_c = N_max · a_0 (Grace 2026-05-19)
 
@@ -6705,7 +6717,7 @@ with spectral exponent p ∈ {rank=2, n_C=5, rank·n_C=10} candidates.
 
 ## T2386 — BST fine-structure family at 3/1507 = N_c/(N_max·c_2): five-context formalization (Lyra 2026-05-19)
 
-**Statement.** Five physical contexts share the same BST primary form **3/1507 = N_c/(N_max·c_2)** across photonic + nuclear + electroweak + substrate + angular domains. Family-level Type C convergence — structurally stronger than single-instance Type C per Keeper K-audit verdict 2026-05-18 PM.
+**Statement.** Five mechanism-anchored physical contexts share the same BST primary form **3/1507 = N_c/(N_max·c_2)** across photonic + nuclear + electroweak + substrate + angular domains. Family-level Type C convergence — structurally stronger than single-instance Type C per Keeper K-audit verdict 2026-05-18 PM. **Catalog-based count (Grace Toy 3074, 2026-05-19): 7 distinct domains** (atomic_physics, casimir, meta, modular_forms, number_theory, particle, qed) — broader than mechanism-anchored 5-context count below because catalog scan picks up any catalog entry mentioning the BST primary form, including non-mechanism contexts (e.g., modular forms, atomic spectroscopy). Both counts (5 mechanism-anchored, 7 catalog-empirical) support the family-level Type C convergence framing.
 
 **Five contexts**:
 
@@ -6739,3 +6751,263 @@ with spectral exponent p ∈ {rank=2, n_C=5, rank·n_C=10} candidates.
 **Edges.** Requires T2382 (W-37), T2362 (SP29-1), Elie Toy 3009 + 3027, Toy 2989. Pre-stages K54 audit candidate for Keeper.
 
 — Lyra, BST fine-structure family at 3/1507 formalized at I-tier; K54 candidate pre-staged, 2026-05-19 ~09:40 EDT
+
+---
+
+## T2387 — K52a / K56 shared Cal Criterion 2 mechanism path through g = 7 (Lyra 2026-05-19)
+
+**Statement.** K-audit candidates K52a (1 ± 1/M_g class) and K56 (2^g = 128 function alphabet class, Grace Toy 3074) share the **same Cal Criterion 2 mechanism-forcing argument path** through the BST primary g = 7 (substrate communication-capacity primary).
+
+**The shared question**: WHY g = 7 specifically — i.e., why does the substrate have 7 bits of communication capacity rather than 5, 11, or 13?
+
+**Implications**:
+- K52a candidate (Lamb 0.005% + BCS 0.006% via 1/M_g = 1/127 where M_g = 2^g − 1 is Mersenne)
+- K56 candidate (2^g = 128 function alphabet at 10 catalog domains, Grace Toy 3074)
+- BOTH require closing "why g = 7 specifically" as the substrate's communication primary
+
+If Elie's K52a session 1 framework lands a mechanism argument for g = 7 specifically (i.e., why the BST primary set {2, 3, 5, 7, 11, 13, ...} has g = 7 as the third Mersenne exponent and substrate communication primary), it closes Cal Criterion 2 for BOTH K52a AND K56 candidates simultaneously.
+
+**Mechanism-forcing argument path candidates** (multi-week each):
+- (a) Mersenne primality: M_g = 2^g − 1 = 127 is prime; g = 7 is the third Mersenne exponent. WHY substrate communication primary = third Mersenne exponent?
+- (b) BST primary cascade: g = 7 emerges from the BST integer cascade {rank=2, N_c=3, n_C=5, g=7, c_2=11, c_3=13} as the fourth primary. WHY substrate communication = fourth BST primary?
+- (c) Type-IV Hermitian symmetric domain structure: g = 7 is the genus parameter of D_IV⁵; the Bergman kernel exponent -g/rank = -7/2 is BST primary. WHY substrate communication capacity = Bergman genus?
+
+**Structural observation**: paths (a), (b), (c) are NOT mutually exclusive — they may all be valid simultaneously, with the substrate communication primary g = 7 being over-determined by multiple mechanism arguments. Per K44 (universal-42 mechanism with multiple over-determinations), over-determination is a structural-reality signal, not an inconsistency.
+
+**Strategic recommendation to Keeper**:
+- Sequence K52a session 1 (Elie) first, since K52a has 2 D-tier numerical anchors (Lamb + BCS) for concrete mechanism testing
+- K56 (2^g function alphabet) waits for K52a closure; K56 mechanism inherits from K52a
+- If K52a mechanism closes → K56 + K54 (3/1507) + multiple other g-anchored families promote together (substrate-attention-mechanism unification chain)
+
+**Tier**: I-tier structural observation. Identifies mechanism-path connection but does not derive g = 7 forcing argument itself.
+
+**Edges.** Cross-references K52a candidate (Elie session 1), K56 candidate (Grace Toy 3074), T2386 (3/1507 family), T2382 (W-37 Beacon model). Required by Keeper K-audit sequencing for the multi-K54+ pipeline.
+
+**Framing per Cal External_Survivability_Checklist**: NOT "BST closes substrate communication primary mechanism." Correct: "K52a + K56 share Cal Criterion 2 mechanism path through g = 7; closure of one closes the other; substantive forcing argument is multi-week Elie K52a session 1 work."
+
+— Lyra, K52a / K56 shared mechanism path identified per Grace Toy 3074 K-audit candidate pipeline, 2026-05-19 ~10:15 EDT
+
+**Calibration update 2026-05-19 PM** (per Elie K52a session 2 + Keeper Tuesday-PM scope-narrowing):
+
+Elie's session 2 attempt finds **M_g = 127 does NOT appear as a standard Wallach K-type Casimir eigenvalue on D_IV⁵**. The spectral mechanism path for the g = 7 cascade is CLOSED (does not work).
+
+**Scope-narrowing implication**: of the three Criterion 2 candidates in T2387:
+- (a) Mersenne primality (M_g = 127 prime, g = third Mersenne exponent): **STANDS** — independent of spectral
+- (b) BST primary cascade (g = 7 = fourth primary): **STANDS** — independent of spectral
+- (c) Bergman genus (g = 7 = D_IV⁵ genus, kernel exponent -g/rank): **NARROWS** — Bergman *kernel* exponent stands, but Bergman *spectrum* mechanism does NOT host M_g = 127
+
+**Mechanism-direction narrowing** (Elie session 2 + Keeper Tuesday PM): the mechanism-forcing argument path for the g = 7 cascade narrows from **spectral-Bergman** to **combinatorial-cyclotomic** via GF(2^g) = GF(128) character traces. GF(2^g) is the substrate's "function alphabet" per Paper #122. Session 3 (Elie, authorized per new D-tier governance) targets this combinatorial path.
+
+**Cascade implication**: closing the combinatorial GF(2^g) mechanism in Elie's session 3 (if successful) cascade-promotes:
+- K52a (Lamb + BCS 1/M_g)
+- K54 (3/1507 family at 4-5/7 contexts)
+- K59 candidate (2^g = 128 function alphabet at 10 catalog domains)
+- All three → D-tier structural law via single combinatorial mechanism
+
+The T2387 observation stands at I-tier; mechanism-direction calibrated from "spectral-Bergman" to "combinatorial GF(2^g) cyclotomic" per Elie session 2 honest negative + Keeper Tuesday-PM scope narrowing.
+
+— Lyra, T2387 calibration update applied 2026-05-19 PM
+
+---
+
+
+**[K-audit numbering correction filed 2026-05-19 Grace per Keeper hygiene ruling]**: T2387's references to "K56" throughout this entry are reading "K59 candidate" per Keeper's K-audit slot map clarification:
+- K54: 3/1507 family (filed)
+- K55: Heegner walk-back criteria (filed)
+- K56: Cathedral Δr walk-back (filed — NOT 2^g=128)
+- K57: Bridge Object tier ratification (filed)
+- K58: Type C strict-protocol spot-audit (filed)
+- **K59 candidate**: 2^g = 128 function alphabet (waits for K52a session 3 mechanism)
+
+T2387's "K52a + K56 share Cal Criterion 2 g=7 mechanism" should be read as **T2387: K52a + K59-candidate share Cal Criterion 2 g=7 mechanism**. Substance of unification observation unchanged; only the audit-slot label corrected.
+
+
+## T2388 — B5 Phase A v0.3 opening: A_3 ↔ Wallach K-type (2,2) explicit mapping (Lyra 2026-05-19)
+
+**Statement.** Opens B5 v0.3 Phase A (Feynman-diagram → Wallach K-type explicit translation) with the cleanest single-loop case n=3 where A_3 = rank³·N_c = 24 = χ_K3 = λ_W(2,2). Continuation of T2368 (B5 v0.1) + T2374 (B5 v0.2 null check) per Casey "finish your board" Tuesday directive.
+
+**Three structural identifications**:
+
+(a) **Diagram count**: 72 = N_c · χ_K3 (BST primary structure of 3-loop QED diagram class count)
+
+(b) **Wallach K-type mapping**: A_3 ↔ λ_W(2,2) where (m_1, m_2) = (2, 2) is the **bi-symmetric** Wallach representation matching the photon self-energy class's **two-vertex symmetry** in 3-loop QED. λ_W(2,2) = 2(n_C+2) + 2(N_c+2) = 24.
+
+(c) **HVP recurrence at same K-type**: HVP coefficient 24 = rank³·N_c (T2073) shares K-type (2,2) with A_3 — internal Type C convergence WITHIN muon g-2 between QED 3-loop and hadronic vacuum polarization. **Mechanism**: both contributions involve TWO-VERTEX corrections; shared K-type (2,2) captures bi-vertex symmetry; α-order (3 vs 4) encodes loop count of diagram class.
+
+**Toy.** `play/toy_3083_b5_phase_a_n3_explicit_mapping.py` — 4/4 PASS.
+
+**Tier (per Cal External_Survivability_Checklist)**: I-tier mechanism opening for n=3 single loop order. D-tier promotion of full B5 mapping (all A_n + HVP + HLbL + A_6 verification) is multi-week/multi-day per Paper #118 v0.2 Section 9 named open.
+
+**Framing per Cal Coincidence_Filter_Risk**: NOT "B5 mechanism closed at D-tier." Correct: "Phase A for n=3 loop opened with explicit K-type ↔ Feynman-diagram-class mapping at structural-identification level. Phase A continuation for n=2/4/5/6 + Phase B (HVP+HLbL) + Phase C (A_6 verification) all multi-week/multi-day."
+
+**Edges.** Requires T2368 (B5 v0.1 K-type mapping), T2374 (B5 v0.2 null check), T2351 (Wallach K-type spectrum), T2071+T2073 (A_n + HVP D-tier numerical), Paper #118 v0.2 + #115 v0.5 (Bridge Object K3 via χ_K3 = 24 connection).
+
+— Lyra, B5 Phase A v0.3 opened for n=3 per Casey "finish your board" Tuesday, 2026-05-19 ~11:10 EDT
+
+**Cross-link addendum 2026-05-19 PM**: Per Cal acknowledgment + Keeper Tuesday-PM naming, the A_3 ↔ HVP at K-type (2,2) finding establishes a NEW Type C sub-class: **Type C-K-type** = shared Wallach K-type label (m_1, m_2) across distinct loop-coefficient contributions within an observable's series. T2388 is the load-bearing instance for this sub-class. Filed as one of 5 sub-classes in K59 audit candidate pre-stage (notes/maybe/K59_Type_C_Taxonomy_Architectural_Category_candidate.md). Per K57 Bridge Object ratification precedent: architectural-category status pending Keeper K59 ruling.
+
+## T2389 — Ogg-Wallach Integration Pattern at dim_7+ (G3 self-direct) (Grace 2026-05-19)
+
+**Statement.** Picks up G3 (Wallach dim_7+ anchor hunt) from Tuesday assignment queue. Honest negative on SM observable anchors PRESERVED (INV-4231 stays). Structural pattern identified at substrate-vocabulary level:
+
+**Three Wallach K-type dimensions in {dim_7..dim_12} contain Ogg supersingular prime factors**:
+- dim_7 = 204 = rank²·N_c·**17** (Ogg)
+- dim_8 = 285 = N_c·n_C·**19** (Ogg)
+- dim_10 = 506 = rank·c_2·**23** (Ogg)
+
+**dim_9 = 385 = n_C·g·c_2 = 5·7·11 uses three CONSECUTIVE BST primes** (uniquely pure-BST in dim_7..12 range).
+
+**Pattern interpretation**: Wallach K-type ladder INTEGRATES Monster-order Ogg supersingular primes at the dim_7+ regime — beyond the SM-anchored dim_1..dim_6 regime. dim_9 is the unique "purely BST" level where substrate vocabulary alone completes the factorization without Monster-Ogg extension.
+
+**Significance**:
+- Connects K3-hub (T2327) + Bridge Objects K57 (Q⁵, Monster hub) + Information Substrate Paper #122 §2 (Reed-Solomon BST alphabet) into single integrated structural reading
+- Beyond-SM observables (GUT, SUSY, modular-form/moonshine) as natural anchor candidates for dim_7+
+- Substrate vocabulary holds across all dim_7..dim_12 (Mode 6 cross-protocol metric)
+
+**Honest scoping per Cal Mode 6 + Mode 7**:
+- NOT "Wallach dim_7+ SM anchor proved"
+- IS "structural pattern in Wallach-Ogg integration at substrate-vocabulary level"
+- SM anchoring REMAINS OPEN per INV-4231 honest negative
+
+**Toy**: `play/toy_3085_G3_wallach_dim7plus_structural_pattern.py` (4/4 PASS)
+
+**Tier**: I (structural identification; D-tier promotion requires SM observable match still OPEN)
+
+**Cross-refs**: INV-4208..4213 (Wallach dim_7..12), INV-4231 (honest negative preserved), T2326 (Mathieu/EOT), T2327 (K3-hub prediction), K57 (Bridge Objects), Paper #122 §2 (Information Substrate alphabet), Borcherds 1992.
+
+— Grace, G3 outcome with honest negative preserved + structural pattern filed, 2026-05-19 ~11:30 EDT
+
+---
+
+## T2390 — LAG-2 Phase 2.3 Step (a) Hua coord decomposition opening (Lyra 2026-05-19)
+
+**Statement.** Opening Step (a) of LAG-2 Phase 2.3 (Faraut-Koranyi internal-complement integration) — the highest-leverage cascade-unblock candidate per Keeper Tuesday. Hua coordinate decomposition D_IV⁵ = H^4 × Internal^6 in block-diagonal form with BST primary structural identification.
+
+**Closed at I-tier**: Hua decomp framework, H^4 parametrized by rank² = 4 coords, Internal^6 = C_2 = 6 with 1+N_c+rank SM gauge decomposition (T2346 recall), Bergman metric block-diagonal at limit, Faraut-Koranyi factorization framework with Vol_6 estimate.
+
+**Open multi-week**: Steps (b)-(e) — cross-terms at general z, Bergman volume Faraut-Koranyi explicit, BST primary c_FK identification, numerical G_Newton match (cascade-unblocks Paper #120 G + LAG-1 S10 ind(D) value {13,15}).
+
+**Toy.** `play/toy_3093_lag2_phase23_hua_coord_decomposition.py` — 4/4 PASS.
+
+— Lyra, LAG-2 Phase 2.3 Step (a) opening per Casey "finish all your board," 2026-05-19 ~12:50 EDT
+
+---
+
+## T2391 — B5 Phase A continuation: A_4 spectral gap + A_5 K-type sum + A_6 prediction (Lyra 2026-05-19)
+
+**Statement.** Continues B5 Phase A v0.3 from n=3 (T2388, Toy 3083) to n=4, 5, 6 per Casey "finish all your board." Complete Phase A mapping table for muon g-2 loop coefficients:
+
+| n | A_n | BST primary form | K-type mapping |
+|---|---|---|---|
+| 2 | 42/55 | (C_2·g)/(c_2·n_C) | λ_W(3,3) = C_2·g = 42 |
+| 3 | 24 | rank³·N_c = χ_K3 | λ_W(2,2) = 24 (T2388) |
+| 4 | 131 | N_max − n_C − 1 = N_max − C_2 | **spectral gap** (T2112 cross-anchor) — NOT a single K-type |
+| 5 | 750 | C_2·n_C³ = rank·N_c·n_C³ | Bergman-Casimir-weighted K-type sum |
+| 6 | 4500 (pred) | rank²·N_c²·n_C³ (T2122) | multi-K-type cascade |
+
+**A_4 = 131 cross-domain Type C-ℕ**: QED 4-loop coefficient (T2071) = BST c-function RG drop (T2112) — two distinct physics contexts at SAME integer.
+
+**Toy.** `play/toy_3094_b5_phase_a_n4_n5_explicit_mapping.py` — 4/4 PASS.
+
+**Tier**: I-tier Phase A continuation. Phase B (HVP+HLbL mechanism explicit) + Phase C (A_6 forward verification, decade-scale) multi-day/multi-decade.
+
+— Lyra, B5 Phase A n=4/5 continuation per Casey "finish all your board," 2026-05-19 ~13:00 EDT
+
+---
+
+## T2392 — LAG-2 Phase 2.3 Step (b): Faraut-Koranyi norm factorization + Elie K52a GF(2^g) duality cross-link (Lyra 2026-05-19)
+
+**Statement.** Continues LAG-2 Phase 2.3 from Step (a) Hua decomposition (T2390, Toy 3093) to Step (b) Faraut-Koranyi factorization of the Bergman norm under the H^4 × Internal^6 block split. Six claims verified (Toy 3098, 6/6 PASS):
+
+(b1) At origin, Faraut-Koranyi norm factors: N(0,0) = N_H(0,0) · N_Int(0,0) = 1·1 = 1 with vanishing cross-term.
+
+(b2) Bergman exponent (n_C + rank)/rank = g/rank = 7/2 distributes additively: H^4 sector inherits exp_H = (rank² + 1)/rank = 5/2; Internal^6 sector inherits residual exp_Int = 1.
+
+(b3) Internal^6 gauge decomposition C_2 = 6 = 1 + N_c + rank verified (T2346 recall): 1-dim additive zero, N_c-dim multiplicative gauge, rank-dim Cartan.
+
+(b4) Block-diagonal Bergman kernel at origin: K_B(0,0) = K_H · K_Int reproduces full BST normalization.
+
+(b5) **Elie K52a cross-link** (sessions 4+5, Tuesday 2026-05-19): the Internal^6 gauge split's 1-dim additive sector ↔ Bogoliubov/BCS (+1/M_g); the N_c-dim multiplicative sector ↔ Lamb (-1/M_g). The opposite signs in (1 ± 1/M_g) at M_g = 2^g − 1 = 127 emerge structurally from additive-vs-multiplicative GF(2^g) cyclotomic identities, MIRRORED in the Hua-decomposition Internal^6 gauge split. Direct mechanism synergy between LAG-2 Phase 2.3 geometric structure and Elie K52a (1 ± 1/M_g) duality framework. Cross-link novelty: 1-dim Bogoliubov sector + N_c-dim Lamb sector = 1 + 3 = 4 = rank² echoes the H^4 sector dimension.
+
+(b6) Sub-claims b1-b5 mutually consistent.
+
+**Closed at I-tier**: Faraut-Koranyi factorization at origin; additive exponent distribution; Elie K52a GF(2^g) ↔ Internal^6 gauge-split structural cross-link (mechanism-level, not yet D-tier mechanism-derived).
+
+**Open multi-week**: Steps (c)-(e) — off-origin cross-terms, full Faraut-Koranyi formula in Hua coords, BST primary c_FK identification cascade-unblocking Paper #120 G + LAG-1 S10 ind(D) ∈ {13, 15} value selection.
+
+**Cross-link discipline**: this is a structural-mirror cross-link, not a derivation OF Elie K52a (1±1/M_g) FROM Phase 2.3 nor vice versa. Both teams' frameworks resonate at the additive/multiplicative GF(2^g) ↔ C_2 = 1 + N_c + rank shape. Joint K-audit candidate pending Elie sessions 6+ atomic-QED Bethe derivation closure.
+
+**Toy.** `play/toy_3098_lag2_phase23_step_b_faraut_koranyi_factorization.py` — 6/6 PASS.
+
+— Lyra, LAG-2 Phase 2.3 Step (b) + Elie K52a cross-link per Keeper "cascade-unblock continuation" flag + Casey "self-direct from Tuesday list," 2026-05-19 ~10:25 EDT
+
+
+## T2393 — Cremona scan beyond 49a1: 27a1 + 121a1 NEAR-Bridge-Object candidates (Grace 2026-05-19)
+
+**Statement.** Executes Paper #121 v0.3.1 §7.1 Cremona-scan method per Keeper recommendation 2026-05-19 PM (Casey #3 unblock pull). Scans CM-curves at BST-anchored Heegner class-number-1 discriminants {-3, -7, -11} = -{N_c, g, c_2} for Bridge Object candidates parallel to K47 Heegner-Stark / 49a1.
+
+**Findings**:
+
+| Discriminant | Cremona | Conductor | BST form | B1 | B2 | B3 | B4 | Status |
+|--------------|---------|-----------|----------|----|----|----|----|--------|
+| -3 = -N_c | 27a1 | 27 | N_c³ | ◐ | ✓ | ◐ specialized | ✓ | NEAR-Bridge-Object |
+| -7 = -g | 49a1 | 49 | g² | ✓✓ | ✓✓ | ✓-specialized | ✓ | **Bridge Object** (K47 canonical) |
+| -11 = -c_2 | 121a1 | 121 | c_2² | ◐ | ✓ | ✗ | ✓ | NEAR-Bridge-Object |
+
+**Architecture impact**: Confirmed Bridge Objects category stays at **3** (K3, 49a1, Q⁵). 27a1 and 121a1 are **NEAR-Bridge-Object candidates** — pass B1/B2/B4 but fail or partially-fail B3 because no K-audit Root anchor exists at Q(√-3) or Q(√-11) (parallel to K47 for Q(√-g)).
+
+**Two K-audit follow-up paths opened**:
+1. K-audit candidate: Q(√-3) anchored Root via 27a1 + N_c color theory
+2. K-audit candidate: Q(√-11) anchored Root via 121a1 + c_2 Chern theory
+
+**Honest scoping**: only 3 of 9 Heegner class-number-1 discriminants are BST primaries. Class-number-1 + BST-primary discriminant is strictly tighter than class-number-1 alone. Cal Mode 7 forward-prevention discipline preserved: not promoting 27a1 / 121a1 as Bridge Objects without K-audit Root anchor.
+
+**Strategic finding for Paper #121 v0.4+**: Section 7 Cremona-scan method now has executed results. Architecture not extended in this scan; two specific candidates filed for future K-audit deliberation.
+
+**Toy.** `play/toy_3101_cremona_scan_beyond_49a1_bridge_object_candidates.py` — 4/4 PASS.
+
+**Tier**: I (candidate identification; D-tier promotion requires K-audit Root anchor parallel to K47 for 49a1).
+
+**Cross-refs**: K47 (Heegner-Stark 49a1), Paper #121 v0.3.1 §7.1 Cremona-scan method, Paper #115 v0.5 9 ESTABLISHED L1 sources, T2333 (Grace Sunday K47 promotion).
+
+— Grace, Cremona scan beyond 49a1 per Keeper unblock #3, 2026-05-19 ~14:30 EDT
+
+
+
+---
+
+## T2394 — LAG-2 Phase 2.3 Step (c): Off-origin Faraut-Koranyi cross-coupling 3-term structure (Lyra 2026-05-19)
+
+**Statement.** Continues LAG-2 Phase 2.3 from Step (b) origin factorization (T2392, Toy 3098) to Step (c) off-origin cross-coupling. The Faraut-Koranyi norm h(z, w̄) = 1 − 2(z · w̄) + (z · z)(w̄ · w̄) on D_IV⁵ does NOT factor as h_H · h_Int at general (z, w̄) ≠ 0. The genuine leading-order cross-coupling at degree-4 is a THREE-term structure:
+
+**Δ_leading(z, w̄) = z_H² · w̄_Int² + z_Int² · w̄_H² − 4 (z_H · w̄_H)(z_Int · w̄_Int)**
+
+(where z_H² = Σ z_i² over the H-sector, similarly for Int-sector; (z_H · w̄_H) is the H-sector bilinear).
+
+**Six claims verified (Toy 3104, 6/7 PASS + 1 honest negative)**:
+
+(c1) h(z, w̄) ≠ h_H · h_Int at general off-origin points (PASS).
+
+(c2) **HONEST NEGATIVE**: my initial postulated 2-term cross-form {z_H² · w̄_Int² + z_Int² · w̄_H²} fails — missing the third (cross-bilinear) term. The 1% tolerance test failed; this was an analytical incompleteness that the toy caught. Per Casey/Keeper honest-negative discipline (feedback_potential_minimum), the negative is preserved + documented rather than patched away.
+
+(c2b) **CORRECTED 3-term cross-form passes at 0.1% precision** (PASS). The third term −4(z_H · w̄_H)(z_Int · w̄_Int) is a genuine bilinear cross-sector coupling at degree 4, NOT a higher-order correction. It originates from the cross-multiplication of linear terms in h_H · h_Int's expansion.
+
+(c3) Cross-term magnitude scales as O(coord⁴) under coordinate rescaling (PASS): scale×2 → cross×16, scale×4 → cross×256.
+
+(c4) Pure-sector reduction (PASS): at z_Int = w̄_Int = 0 the norm reduces to h_H exactly; symmetrically for pure Internal-sector.
+
+(c5) Bergman kernel leading-order log expansion log K_B ≈ (g/rank)(2 z · w̄) = 7(z · w̄) at small scale (PASS within 5%).
+
+(c6) At characteristic scale (z, w̄ ~ 1/√n_C), cross-term magnitude lies in [1e-3, 1e-1] — sufficient for Möbius Z/2 ODD-parity filter (LAG-1 Session 10) to resolve ind(D) ∈ {13, 15} via the Step (c) → Step (d) → S10 cascade. Implication framework, not value selection (multi-week).
+
+**Geometric content**: the −4(z_H · w̄_H)(z_Int · w̄_Int) cross-bilinear term encodes the genuine H ↔ Internal entanglement that makes D_IV⁵ IRREDUCIBLE as a Hermitian symmetric domain (not a product of lower-rank pieces). This is the geometric reason D_IV⁵ unifies gauge + gravity content rather than carrying separate sectors.
+
+**Closed at I-tier**: 3-term cross-coupling structure derived + numerically verified; degree-4 scaling confirmed; pure-sector reductions hold; Bergman log-expansion leading order consistent; ind(D) selection magnitude framework opened.
+
+**Open multi-week**: Steps (d) full Faraut-Koranyi formula in Hua coords + (e) BST primary c_FK identification → cascade-unblocks Paper #120 G evaluation + LAG-1 S10 ind(D) ∈ {13, 15} value selection. The 3-term structure provides the explicit cross-coupling form needed for Step (d).
+
+**Honest-discipline note**: the c2 honest negative is preserved as a permanent record. My initial analytical claim about the dominant cross-form was wrong-but-detectable; the toy framework caught it; the corrected c2b form is now D-tier-precision (0.1%). Per Casey "near misses get scrutiny not defense" + Keeper audit-chain discipline.
+
+**Toy.** `play/toy_3104_lag2_phase23_step_c_off_origin_cross_terms.py` — 6/7 PASS + 1 honest negative.
+
+— Lyra, LAG-2 Phase 2.3 Step (c) per Casey "pull your next topic," 2026-05-19 ~12:05 EDT

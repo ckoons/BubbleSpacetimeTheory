@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "K52a session 5 BCS Bogoliubov"
+  },
+  "BCS_derivation": {
+    "factor": "2^g/M_g = (1 + 1/M_g)",
+    "mechanism": "Bogoliubov vacuum \u2194 additive zero of GF(2^g)",
+    "inclusion": "paired ground state coherently included in coupling"
+  },
+  "structural_duality_with_Lamb": {
+    "Lamb": "EXCLUDE trivial character (multiplicative-baseline subtraction)",
+    "BCS": "INCLUDE additive zero (paired-ground-state inclusion)",
+    "duality_source": "GF(2^g) field structure: multiplicative identity 1 \u2260 additive identity 0"
+  },
+  "falsifiable_prediction": "Future (1 \u00b1 1/M_g) substrate correction must fit one of these two structural roles; no third option in pure GF(2^g) cyclotomic mechanism",
+  "critical_gap_session_5": "Substrate Bogoliubov \u2194 GF(2^g) additive-zero identification currently asserted; multi-month substrate-Hamiltonian derivation needed",
+  "sessions_1_5_summary": {
+    "1": "Framework + 3 candidate mechanisms",
+    "2": "Spectral path CLOSED (fails)",
+    "3": "Cyclotomic GF(2^g) OPENED",
+    "4": "Lamb side outlined",
+    "5": "BCS side outlined"
+  },
+  "K52a_status": "elevated-with-mechanism-candidate; sessions 6+ close substrate-Hamiltonian gaps"
+}
