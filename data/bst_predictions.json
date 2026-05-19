@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-18",
+    "last_updated": "2026-05-19",
     "total": 113,
     "count": 103,
     "tier_system": "D/I/C/S (Derived/Identified/Conditional/Structural)",
@@ -18,7 +18,7 @@
       "tension"
     ],
     "eod_session": "2026-05-18 EOD",
-    "total_predictions": 114
+    "total_predictions": 115
   },
   "predictions": [
     {
@@ -2105,6 +2105,21 @@
       "status": "pre-staged",
       "filed_by": "Grace per Elie Toy 3060 (2026-05-18)",
       "notes": "Decisive observable for substrate-coupling correction order. 3/3 PASS in Elie's pre-staging. Multi-experiment falsification gate (BST predicts SPECIFIC angle, not just 'some angle')."
+    },
+    {
+      "id": "pred_113",
+      "name": "SP29-4 H3 Phase-transition signature at L_c = N_max · a_0 ≈ 7.25 nm",
+      "category": "Casimir / substrate mechanism / BST falsifier",
+      "prediction": "Casey's H3 hypothesis (SP-29 framework) predicts an α-order kink in Casimir force F(L) at characteristic gap L_c = N_max · a_0 = N_max² · λ_C(e) ≈ 7.25 nm. Below L_c: substrate-commitment regime (boundary modes discrete). Above L_c: classical Lifshitz regime (continuous spectrum). At L = L_c: phase-transition signature with Δ F/F ~ α ≈ 0.73% and width Δ L ~ α·L_c ≈ 53 pm.",
+      "experimental_target": "Decca-class precision Casimir measurement at L ∈ [5, 15] nm with sub-percent fractional precision (~10⁻³). Existing equipment (Decca, MEMS oscillator, trapped-ion) operates at >100 nm; appropriate adaptation needed.",
+      "cost_estimate": "$200-400K (MEMS or trapped-ion Casimir apparatus adapted for 5-15 nm regime)",
+      "timeline": "2 years (apparatus + calibration + scan)",
+      "theorem": "T2381",
+      "source_toy": "play/toy_3061_SP29_4_phase_transition_Lc.py",
+      "tier": "I",
+      "status": "pre-staged — not yet tested",
+      "filed_by": "Grace 2026-05-19 per Keeper T-B3 Tuesday assignment",
+      "notes": "L_c BELOW well-explored precision Casimir regime — H3 is genuinely untested. SP-29 H1-H5 framework: each tests substrate mechanism on different observable channel. If multiple channels confirm → substrate ontology favored. Cross-references pred_112 (SP29-3 H2 angle Casimir), pred_002 (SP29-2 H1 spectroscopic shift)."
     }
   ]
 }

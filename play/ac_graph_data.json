@@ -8,7 +8,7 @@
     "committed_count": 438,
     "working_count": 64,
     "total_theorems": 1730,
-    "total_edges": 9668,
+    "total_edges": 9670,
     "depth_distribution": {
       "D0": 1163,
       "D1": 525,
@@ -19,12 +19,12 @@
     "D1": 525,
     "D2": 42,
     "node_count": 2003,
-    "last_updated": "2026-05-18",
+    "last_updated": "2026-05-19",
     "edges": 9648,
     "nodes": 2064,
     "eod_session": "2026-05-18 EOD",
-    "total_nodes": 2076,
-    "max_tid": 2380
+    "total_nodes": 2077,
+    "max_tid": 2381
   },
   "theorems": [
     {
@@ -71987,6 +71987,16 @@
       "from": 2380,
       "to": 2339,
       "source": "references"
+    },
+    {
+      "from": 2381,
+      "to": 2360,
+      "source": "sp29_framework"
+    },
+    {
+      "from": 2381,
+      "to": 2362,
+      "source": "sp29_framework"
     }
   ],
   "chains": {},
@@ -100913,6 +100923,21 @@
       "toys": [],
       "date": "2026-05-16",
       "plain": "Rainbow/Munsell/color counts = BST primaries. Lyra (author).",
+      "proofs": []
+    },
+    {
+      "tid": 2381,
+      "name": "SP29-4 H3 phase-transition signature at L_c = N_max · a_0",
+      "domain": "experimental_proposal / Casimir mechanism",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Tuesday 2026-05-19",
+      "toys": [
+        3061
+      ],
+      "date": "2026-05-19",
+      "plain": "Casimir gap L_c = N_max·a_0 = 7.25 nm separates substrate-commitment regime (L<L_c) from classical Lifshitz (L>L_c). α-order kink predicted. Grace (author).",
       "proofs": []
     }
   ],

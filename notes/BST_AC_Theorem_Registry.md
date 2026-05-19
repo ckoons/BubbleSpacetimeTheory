@@ -6500,3 +6500,74 @@ Combined with conjectural [η(Q⁵)/2] = ν(M) ∈ Z/2 (T2356), full APS index:
 
 — Lyra, combined IP-6/IP-7/IP-15 survey opened at I-tier per Casey "do all" directive, 2026-05-18 PM
 
+
+## T2381 — SP29-4 H3 Phase-Transition Signature at L_c = N_max · a_0 (Grace 2026-05-19)
+
+**Statement.** Casey's H3 hypothesis (one of six SP-29 substrate mechanism hypotheses) predicts that the Casimir force F(L) shows a phase-transition signature at a characteristic gap size L_c separating substrate-commitment regime (L < L_c) from classical Lifshitz regime (L > L_c). BST primary form:
+
+    L_c = N_max · a_0 = N_max² · λ_C(e) ≈ 7.25 nm
+
+**BST primary identities used**:
+- a_0 (Bohr radius) = N_max · λ_C(e), since 1/α ≈ N_max = 137 (BST primary form for the Bohr radius)
+- L_c = N_max · a_0 (substrate-commitment boundary at N_max Bohr-radii stacking)
+- equivalent: L_c = N_max² · λ_C(e) (Compton-scaled, manifestly BST)
+
+**Predicted signature** at L = L_c (Decca-class testable):
+- α-order kink in F_Casimir(L) — Δ F/F ~ α ≈ 0.73%
+- α-fractional width — Δ L ~ α · L_c ≈ 53 pm
+- localized to L ∈ [7.0, 7.5] nm
+- no similar signature at non-L_c scales
+
+**Status**: NOT YET TESTED by existing Casimir experiments (L_c below precision-explored regime; Decca 2007-2014 at 162-700 nm; Behunin 2014 borderline at 25 nm-5 μm). Decisive falsification test requires 10⁻³ fractional precision at 5-15 nm gap — MEMS or trapped-ion Casimir apparatus, ~$200-400K, ~2-year timeline.
+
+**Cross-consistency**: H3 fits SP-29 framework H1-H5 (Casey's six hypotheses) as the gap-scale channel; H1/H2/H4/H5 probe orthogonal observable channels (spectroscopy/angle/decay/virtual-particle).
+
+**Toy**: `play/toy_3061_SP29_4_phase_transition_Lc.py` (5/5 PASS).
+
+**Tier**: I (pre-staged structural identification; D-tier promotion requires SP-29 substrate-commitment framework closure for mechanism-forcing argument).
+
+**Cross-refs**: T2360 (SP29-2 H1 framework, Lyra); INV-4433 (SP29-3 H2 angle-Casimir, Elie Toy 3060); T2362 (SP29-1 H4 Cs-137 substrate-dynamics, Lyra). Filed under Tuesday T-B3 per Keeper assignment 2026-05-19.
+
+---
+
+## T2382 — W-37 Beacon model formalization: substrate attention as gradient field on D_IV⁵ (Lyra 2026-05-19)
+
+**Statement.** Formalizes Casey's "Beacon model" substrate-attention ontology as a scalar field A : D_IV⁵ → ℝ_+ on the Bergman manifold, with BST primary structural form:
+
+    A(z) = c_A · |K_B(z, z̄)|^{α}
+
+where K_B is the Bergman kernel (T2334, exponent -g/rank = -7/2) and α is the attention exponent (BST primary candidate set α ∈ {1, 1/rank, rank/g, ...}).
+
+**Gradient field** ∇A(z) = α · A(z) · ∇ log K_B(z, z̄). Per Helgason 1978: Bergman log-derivative at origin gives Kähler form ω = -i·∂∂̄ log K_B.
+
+**Casimir boundary modulation** (key prediction):
+
+    A_inside(z) / A_outside(z) = 1 − δ_A(L)
+    δ_A(L_0) = N_c/(N_max·c_2) = 3/1507 ≈ 0.199% at L_0 ≈ 100 nm
+
+**BST fine-structure family at family-level Type C convergence** — same 3/1507 form as Decca 2007 Casimir Lifshitz residual (Elie Toy 3009) + SP29-1 Cs-137 H4 prediction (T2362) + IP-14 finite renormalization shift.
+
+**Angular dependence** (W-37 → H2 connection): ε_A = 1/(rank·N_max²) = 2.66·10⁻⁵ (matches Elie Toy 3027 SP29-3). Mechanism: SO(2) factor in K = SO(5)×SO(2) breaks SO(7) isotropy of Q⁵.
+
+**Vacuum spectrum modulation** (W-37 → H5 connection):
+
+    S_vac(ω; inside)/S_vac(ω; outside) = 1 − (ω/ω_Casimir)^p · N_c/(N_max·c_2)
+
+with spectral exponent p ∈ {rank=2, n_C=5, rank·n_C=10} candidates.
+
+**Toy.** `play/toy_3063_w37_beacon_model_formalize.py` — 5/5 PASS.
+
+**Tier (per Cal External_Survivability_Checklist)**:
+- **D-tier** on Casimir suppression scale 3/1507 = N_c/(N_max·c_2) (BST fine-structure family, three independent contexts at same form)
+- **I-tier** on A(z) ∝ K_B^α structural form (α exponent selection multi-week)
+- **I-tier** on angular ε_A = 1/(rank·N_max²) (independently consistent with Elie SP29-3)
+- **I-tier** on spectral exponent p candidate set
+- NOT D-tier on full Beacon model derivation
+
+**Framing per Cal Coincidence_Filter_Risk**: NOT "Beacon model derived from BST." Correct: "W-37 Beacon model formalized at I-tier; substrate attention as Bergman-kernel-based scalar field; Casimir suppression at BST fine-structure family scale; angular + spectral modulations identified as candidate predictions; full derivation multi-week."
+
+**Edges.** Requires T2334 (Bergman kernel), T2107 (W-34 decay shake), T2101 (W-36 unification). Cross-refs: T2362 (SP29-1 same 3/1507), T2360 (SP29-2 H1 Sr clock), Elie Toy 3027/3060 (SP29-3 angular). Required by Paper #111 v0.2+ and SP-29 mechanism master.
+
+**W-37 status**: Formalization CLOSED at I-tier. Multi-week to D-tier: Bergman gradient explicit derivation + boundary integration + spectral-exponent selection.
+
+— Lyra, W-37 Beacon model formalized at I-tier per Tuesday T-B1/T-A3 assignment, 2026-05-19 ~08:35 EDT

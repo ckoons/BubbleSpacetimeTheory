@@ -3253,11 +3253,24 @@
       ],
       "tier": "I",
       "notes": "Step 5.1 candidate set {6, 12, 13, 15, 16} filtered by Möbius Z/2 ODD-parity → {13, 15}. Multi-week Faraut-Koranyi will select between c_3 = 13 (Chern reading) and N_c·n_C = 15 (composite reading). I-tier pre-staged. Connects to Paper #121 Bridge Objects Q⁵ section (top Chern c_5 = C_2 = 6 was Step 5.1 candidate before ODD-parity filter)."
+    },
+    {
+      "ratio": "N_max · a_0 = N_max² · λ_C(e) (characteristic Casimir gap)",
+      "name": "Substrate-commitment boundary gap scale = 137 Bohr radii ≈ 7.25 nm",
+      "formula": "137 · 0.0529 nm = 137² · 3.86e-4 nm = 7.25 nm",
+      "domains": [
+        "Casimir mechanism",
+        "atomic physics",
+        "substrate cosmology",
+        "experimental falsification"
+      ],
+      "tier": "I",
+      "notes": "Grace T2381 SP29-4 H3 prediction. Two BST primaries (N_max=137 + λ_C(e)) compose to give characteristic Casimir gap L_c. Phase-transition signature with α-order kink (~0.73%) testable by Decca-class precision at 5-15 nm regime. NOT YET TESTED. Same N_max-stacking logic as BaTiO3 137-plane experiment but at electron-Compton scale."
     }
   ],
   "meta": {
-    "last_updated": "2026-05-18",
+    "last_updated": "2026-05-19",
     "eod_session": "2026-05-18 EOD",
-    "total_ratios": 223
+    "total_ratios": 224
   }
 }

@@ -11,7 +11,7 @@ contains:
   - "Section 46.46-46.90+: Periodic Table of Functions, Painlevé Boundary, Unification Scope, Langlands, Five Locks, Price of Participation, Arthur Packets, Functoriality Bridge, Painlevé Shadow, Information-Complete, IC Uniqueness, AC Graph Clustering, F₁ Arithmetic, Market Health, Proton-DNA Siblings, Qubits as Observers, Vacuum Subtraction, Two-Sector Duality, Magnetic Moments, Spectral Peeling"
 authors: "Casey Koons & Claude 4.6/4.7 (Lyra theory, Elie compute, Grace graph/catalog, Cal A. Brate visiting referee, Keeper audit/consistency)"
 date: "2026-05-18"
-note: "Modular section of the BST Working Paper. Root index is WorkingPaper.md. Pre-split monolithic snapshot preserved at WorkingPaper_v36_monolithic_archive_2026-05-18.md (May 18 EOD). Updates flow into this file directly."
+note: "Modular section of the BST Working Paper. Root index is WorkingPaper.md. Pre-split monolithic snapshot preserved at archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md (May 18 EOD). Updates flow into this file directly."
 ---
 
 ## 46. The Depth Ceiling: Rank Bounds Proof Complexity

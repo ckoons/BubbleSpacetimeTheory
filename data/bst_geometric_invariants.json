@@ -2,7 +2,7 @@
   "meta": {
     "title": "Geometric Invariants of the Autogenic Proto-Geometry",
     "description": "Every physical constant as a geometric evaluation on D_IV^5. No series, no perturbation, no fitting.",
-    "last_updated": "2026-05-18",
+    "last_updated": "2026-05-19",
     "total_entries": 4054,
     "missing_count": 3,
     "tension_count": 0,
@@ -123,11 +123,11 @@
       "verified"
     ],
     "retro2_applied": "C→D: 0, I→D: 16",
-    "total_invariants": 4435,
+    "total_invariants": 4438,
     "eod_session": "2026-05-18 EOD",
     "tier_distribution": {
-      "D": 3385,
-      "I": 196,
+      "D": 3386,
+      "I": 198,
       "PREDICTION": 2,
       "S": 852
     }
@@ -65072,6 +65072,39 @@
       "precision_pct": null,
       "tier": "I",
       "notes": "Lyra LAG-1 S10 Step 5.2 prep (2026-05-18). ind(D) must be ODD for [η/2] = ν(M) = 1 mod 2 cross-link to hold. Filters Step 5.1 candidate set {6, 12, 13, 15, 16} → {13, 15}. Multi-week Faraut-Koranyi will select between c_3 = 13 (Chern reading) and N_c·n_C = 15 (composite reading). I-tier pre-staged; final value resolved via integration. Cross-references T2379 (Step 5.1 Chern result) + Paper #121 Bridge Objects Section 5 (Q⁵ ind(D) candidate)."
+    },
+    {
+      "id": "INV-4436",
+      "name": "Characteristic Casimir gap L_c = N_max · a_0 (substrate-commitment boundary)",
+      "domain": "experimental_proposal / Casimir / SP-29 H3",
+      "BST_value": 7.2478e-09,
+      "expression": "L_c = N_max · a_0 = N_max² · λ_C(e) = 7.25 nm",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Grace T2381 SP29-4 H3 prediction. Two BST primaries (N_max, λ_C(e)) in length scale. Casimir gap separating substrate-commitment regime (L<L_c) from classical Lifshitz (L>L_c). Pre-staged for Decca-class falsification. Phase-transition signature: α-order kink Δ F/F ~ 0.73%; width Δ L ~ 53 pm. NOT YET TESTED — L_c below precision-explored Casimir regime (Decca 162-700 nm, Behunin 25 nm-5 μm). Toy 3061 5/5 PASS."
+    },
+    {
+      "id": "INV-4437",
+      "name": "Bohr radius in BST primary form a_0 = N_max · λ_C(e)",
+      "domain": "atomic physics / BST primary",
+      "BST_value": "N_max · λ_C(e)",
+      "expression": "a_0 = N_max · λ_C(e) = N_max · ℏ/(m_e c) ≈ 0.0529 nm",
+      "observed_value": 0.05291772109,
+      "precision_pct": 0.0026,
+      "tier": "D",
+      "notes": "BST primary identity: a_0 = N_max · λ_C(e) since 1/α ≈ N_max = 137. Used in T2381 SP29-4 L_c derivation. Exact in BST limit (1/α = N_max integer); CODATA gives 1/α = 137.036, so BST a_0 differs by 0.026% from observed. This is the same α-correction structure as const_137 (Cal verdict #20 honest framing). D-tier per Cal accepted convention: BST integer N_max gives exact baseline; α/N_max correction is the falsifiable claim."
+    },
+    {
+      "id": "INV-4438",
+      "name": "SP-29 H1-H5 cross-channel consistency",
+      "domain": "meta / SP-29 framework",
+      "BST_value": "5 channels",
+      "expression": "Substrate mechanism testable across 5 observable channels (spectroscopy/angle/gap/decay/virtual-particle)",
+      "observed_value": 5,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Casey's six SP-29 hypotheses (H1 SP29-2 Lyra, H2 SP29-3 Elie, H3 SP29-4 Grace [T2381], H4 SP29-1 trio, H5 SP29-5 Elie; H6 Keeper comparison table). Five testable substrate-mechanism predictions across orthogonal observable channels. If all five succeed → substrate ontology strongly favored. If any fails → that channel constrained. Cross-channel consistency check passed Tuesday 2026-05-19 in Grace Toy 3061."
     }
   ],
   "total": 4427

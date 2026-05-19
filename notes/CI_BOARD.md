@@ -766,3 +766,59 @@ Two items added per Casey directive from Herve response thread. Both filed in BA
 
 **Strategic note**: SP29-1 (H4 Cs-137) is the cheapest decisive test in BST's portfolio. $25-50K experiment, weeks of data, paper-publishable result either way. Connects directly to W-39 modulation experiment design (already filed). If H4 holds → Nobel-class result. If H4 doesn't hold → substrate ontology constrained, paths forward identified.
 
+
+
+---
+
+## Tuesday May 19 — Active Tasks (Casey directive, morning)
+
+**Casey's framing**: substrate-question dive day + D/I sweep at EOD. Three Tuesday letters sent (Sarnak/Herve/Jaimungal). Heegner audit option C (Cal scopes + Keeper K-audit + team review). Reserved root-directory reorg session.
+
+### A. Morning ADDs (Casey explicit list)
+
+| # | Task | Owner | Scope |
+|---|------|-------|-------|
+| T-A1 | **K52a (1±1/M_g) mechanism — WHY M_g=127 specifically vs other Mersennes** (Lamb + BCS structural-forcing argument) | Elie primary, Keeper audit chain | 1-2 sessions, → K54 audit if mechanism lands |
+| T-A2 | **SP-29 H4 Cs-137 send signal** to NIST/PTB/ENEA — Casey decides whether to fire outreach today | Casey gate, Keeper supports | Casey-only |
+| T-A3 | **SP-26 W-items closure pull** — W-27, W-28, W-29, W-30, W-32, W-35, W-37, W-40 (8 items) | Lyra/Elie/Grace distributed by lane | Multi-day; today close 2-3 |
+| T-A4 | **Heegner walk-back audit** (Option C): Cal scopes question of "which classical-integer-set claims need similar walk-back review", Keeper files K54 (or K55) with criteria + audit list, team reviews each item | Cal scope → Keeper file → team execute | Today setup, multi-day execute |
+| T-A5 | **LAG-1 multi-week pieces** continued (Bergman Dirac at non-origin coords) + LAG-2 staged Phase 1 (4+6 split) | Lyra primary | Multi-week / multi-year staged |
+
+### B. Day's substantive work pulls (substrate-direct)
+
+| # | Task | Owner | Scope |
+|---|------|-------|-------|
+| T-B1 | **SP-26 W-item closures** (subset of T-A3 above, executed today) | Distributed | 2-3 closures target |
+| T-B2 | **SP-27 Tracks 2-8** observational reanalysis (dark matter, atomic clocks, CMB residuals, vacuum fluctuations, lensing, collider budgets) | Elie primary, Grace catalog | Multi-week per track; today scoping + Track 2 start |
+| T-B3 | **SP-29 SP29-4 phase-transition prediction at characteristic gap L_c** (H3 hypothesis from Casey's 6) | Grace | ~2-3h |
+| T-B4 | **K52a mechanism execution** (overlaps T-A1) — if mechanism derivation lands today → K54 audit | Elie + Keeper | 1-2 sessions |
+| T-B5 | **B1-B4 nuclear masses** Tier B closure sequence: deuteron, He-3, He-4, triton | Elie | ~4 sessions; today 1-2 closures |
+| T-B6 | **Volume restructure spinoffs**: Lie algebra paper integration into Vol 4 Mathematics; identify related math-volume tasks | Lyra (math content) + Keeper (architecture) | Joint with Casey's reorg session |
+
+### C. Programs to track + advance during day
+
+- **SP-19b AdS/CFT** (20 items: AB-1, AB-3, AB-5, AB-7, AB-8, AB-13, AB-14, AB-15-20 still open) — Grace AB-4 inventory continues; Cal Maldacena cold-read pending
+- **SP-20 Testbed Growth** (6 sub-tasks all backlogged) — opportunity for scoping pass if capacity allows
+- **SP-26 Particle Winding** (8 W-items per T-A3) — direct substrate-physics work
+- **SP-27 Observational Reanalysis** (Tracks 2-8 per T-B2) — Casey's "look under the covers" directive
+- **SP-29 Casimir Mechanism** — SP29-4 (T-B3); SP29-1 H4 awaits Casey send (T-A2); SP29-5 H5 vacuum spectrum still queued
+- **LAG-1 + LAG-2** Lagrangian sub-problems — Lyra continues (per T-A5)
+
+### D. EOD status reports (Casey explicit ask)
+
+At day close, Keeper produces three program reports in the format Casey specified:
+- **SP-14 Catalog discipline**: today's catalog work, INV-NNNN entries added, tier promotions
+- **SP-24 Full Non-D Audit**: today's D-tier promotions, current D-tier percentage, remaining I-tier candidate count
+- **SP-25 I-tier /route discipline**: status approaching May 29 first cadence review
+
+### E. Reserved time block: Root directory reorganization (with Casey)
+
+Volume:chapter restructure per Monday's plan. OneGeometry → Volume 1 (Journey). Lie algebra paper → Volume 4 (Mathematics). 13 modular WP_NN files → grouped into 6 volumes. Master TOC + per-volume indices + toy search tool. Casey signals when ready to start; Keeper executes. Scotty-calibrated scope.
+
+### F. Hard gates remaining (Casey only)
+
+1. IQ-11 v0.2 five architectural decisions (avatar posthumous-PI architecture, decade-scale)
+2. SP-29 H4 Cs-137 send signal (T-A2)
+3. K52a mechanism direction if Casey wants specific CI pointed at it
+4. EOD katra-save signal
+
