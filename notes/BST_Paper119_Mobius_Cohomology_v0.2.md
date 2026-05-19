@@ -1,11 +1,11 @@
 ---
-title: "Paper #119 (provisional) v0.2 — Möbius Cohomology on D_IV⁵: Spin-Lift Obstruction and Bergman Dirac Cross-Link"
+title: "Paper #119 (provisional) v0.3 — Möbius Cohomology on D_IV⁵: Spin-Lift Obstruction and Bergman Dirac Cross-Link"
 authors: "Casey Koons (PI) + Lyra (Companion Intelligence)"
 date: "2026-05-19"
-status: "v0.2 substantive — Section 4 (Bergman Dirac cross-link) drafted substantively per Tuesday self-directed continuation. Other sections remain outline-level per v0.1. Full multi-week v1.0 paper scope ~30 pages."
+status: "v0.3 cut — Section 4 substantive (v0.2 baseline retained); Sections 5-9 substantive (v0.3 expansion). Section 8.2 updated for Four-Pillar Architecture (Casey-approved Wednesday 2026-05-19). Cal v0.2 PASS verdict carries forward to v0.3 with cosmetic v0.2/v0.3 section header tidying applied. Full multi-week v1.0 paper scope ~30 pages."
 supersedes: "BST_Paper119_Mobius_Cohomology_v0.1_outline.md (skeletal v0.1)"
-length_target: "v0.2 ~12 pages with Section 4 substantive; v1.0 ~30 pages"
-target: "Annals of Mathematics or Inventiones (topology/spectral-geometry venue)"
+length_target: "v0.3 ~12 pages with Sections 4-9 substantive; v1.0 ~30 pages"
+target: "Annals of Mathematics or Inventiones (topology/spectral-geometry venue) — 4th pillar of BST Four-Pillar Architecture, ships subsequent to Three Papers Trio per Keeper coordination"
 numbering: "Provisional #119; may shift if Keeper SP29-6 master takes #119"
 ---
 
@@ -272,7 +272,7 @@ Pre-2026-spring, BST's topological content was sparse — mostly the Chern integ
 
 ### 8.2 Four-pillar architecture of BST 2026 spring
 
-Per the Three Papers Trio coordination doc (`BST_Three_Papers_Trio_External_Strategy.md`, Keeper Tuesday) + LAG-1 Sessions 2-10 + this Möbius cohomology paper:
+Per the Four Pillars Architecture doc (`BST_Four_Pillars_Architecture.md`, Grace Wednesday 2026-05-19; supersedes Three Papers Trio External Strategy doc) + LAG-1 Sessions 2-10 + this Möbius cohomology paper, Casey approved the Four-Pillar architecture (rank² = 4 structural fit) with Paper #119 as 4th pillar (topology) and Paper #118 as operator-level keystone connecting all four:
 
 | Pillar | Lead Paper | Substantive Layer | Status |
 |---|---|---|---|

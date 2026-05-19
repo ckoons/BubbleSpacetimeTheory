@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "K52a Session 7 BCS Bogoliubov opening"
+  },
+  "casey_authorization": "2026-05-19 PM \"K52a Session 7\"",
+  "status": "OPENING; multi-month BCS Bogoliubov substrate-Hamiltonian derivation",
+  "five_step_path": {
+    "Step_1": "Construct H_BCS_substrate from D_IV^5 (shared with Session 6)",
+    "Step_2": "Substrate Bogoliubov transformation diagonalization",
+    "Step_3": "|\u03a9\u27e9 \u2194 additive zero of GF(2^g) identification",
+    "Step_4": "Substrate-CHSH operator \u2192 S_BST\u00b2 = 126/16 (K66 cross-link)",
+    "Step_5": "Reproduce 2\u0394/k_B T_c = 3.5278 BCS value"
+  },
+  "cross_link_session_6": "Both share H_sub construction (Step 1) and cyclotomic-symmetry preservation",
+  "cascade_unblock_5_audits": {
+    "K52a_Lamb": "Session 6 Bethe trivial-character",
+    "K52a_BCS": "Session 7 Bogoliubov additive-zero",
+    "K66_Bell": "Session 7 Step 4 substrate-CHSH",
+    "K67_Born": "Session 7 holomorphic-discrete-series (T2401)",
+    "K69_Q=126": "Shared substrate-Hamiltonian framework"
+  },
+  "mechanism_classes": "2 distinct (cyclotomic GF(2^g) + holomorphic discrete series, per Cal verdict)",
+  "multi_month_horizon": "Sessions 8+ continue derivation; full closure multi-year",
+  "tier_status": "K52a elevated-with-mechanism-candidate; sessions 6+7+8+ continue"
+}

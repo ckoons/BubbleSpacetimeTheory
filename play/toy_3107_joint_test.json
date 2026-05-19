@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "Joint test for Lyra v0.2 unified-mechanism candidate",
+    "joint_with": "Lyra T2395 Step (d) + notes/maybe/BST_unified_mechanism_five_absences_candidate.md v0.2"
+  },
+  "Delta_full_signature": {
+    "coefficients": [
+      1,
+      1,
+      -4,
+      2,
+      2,
+      -1
+    ],
+    "degrees": [
+      4,
+      4,
+      4,
+      6,
+      6,
+      8
+    ],
+    "sum_signed": 1,
+    "non_factorizable": true
+  },
+  "dimensional_accounting": {
+    "H_sector_complex_dims": 4,
+    "Internal_sector_complex_dims": 6,
+    "total_real_dims": 10,
+    "D_IV5_complex_dims": 5,
+    "D_IV5_real_dims": 10,
+    "consistent": true
+  },
+  "absences": [
+    {
+      "id": "#1",
+      "name": "NO GUT",
+      "unified_status": "STRONG (direct)",
+      "mechanism_test": "Cross-coupling \u0394_full forbids product factorization",
+      "obstruction": "\u0394_full \u2260 0 at generic off-origin point",
+      "falsifier": "Coupling convergence at 10^16 GeV with new heavy gauge boson",
+      "toy_anchor": "Elie Toy 3103"
+    },
+    {
+      "id": "#2",
+      "name": "NO proton decay",
+      "unified_status": "STRONG",
+      "mechanism_test": "N_c-sector inside Internal^6 cross-coupled via -4(z_H \u00b7 w\u0304_H)(z_Int \u00b7 w\u0304_Int)",
+      "obstruction": "No isolated N_c-sector trajectory; complete commitment topologically protected",
+      "falsifier": "ANY positive proton decay observation at any channel",
+      "toy_anchor": "Elie Toy 3102"
+    },
+    {
+      "id": "#3",
+      "name": "NO monopoles",
+      "unified_status": "CONSEQUENCE of #1",
+      "mechanism_test": "Inherits from #1 \u2014 monopole topology needs unified G that #1 forbids",
+      "obstruction": "Same \u0394_full \u2260 0 obstruction as #1",
+      "falsifier": "Magnetic monopole detection (MoEDAL, Auger; currently null)",
+      "toy_anchor": "Lyra v0.2 doc reframe"
+    },
+    {
+      "id": "#5",
+      "name": "NO sterile/SUSY",
+      "unified_status": "WEAKEST",
+      "mechanism_test": "D_IV\u2075 irreducibility constrains but doesn't directly forbid extensions",
+      "obstruction": "\u0394_full of THIS irrep is 6-term; extensions would have different \u0394_full",
+      "falsifier": "Discovery of sterile neutrino species or SUSY partner at any scale",
+      "toy_anchor": "Catalog T1949 M\u00f6bius sterile-neutrino exclusion (separate anchor)"
+    },
+    {
+      "id": "#4",
+      "name": "NO DM particle",
+      "unified_status": "SEPARATE COMPATIBLE",
+      "mechanism_test": "Winding-completeness, NOT \u0394_full directly",
+      "obstruction": "Spectral remainder of incomplete windings = geometric DM",
+      "falsifier": "ANY direct DM detection at any cross-section/mass (XLZD/DARWIN null)",
+      "toy_anchor": "Elie Toy 3075"
+    }
+  ],
+  "tier_assessment": "Computational verification of Lyra v0.2 candidate; joint test toy",
+  "verdict": "Ready for Keeper K-audit at scope 4-unified + 1-separate"
+}

@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "SP-30-2 Casimir asymmetric"
+  },
+  "BST_prediction": "asymmetric ratio = g = 7; aspect = g/rank = 7/2",
+  "recommended_apparatus": "SP-29 H4 hybrid extension (Option C)",
+  "incremental_cost_USD": "20-30K above SP-29-1 ($40-60K base)",
+  "timeline_months": 6,
+  "three_BST_predictions_tested": [
+    "H4 decay rate 3/1507",
+    "H2 angular 5/137",
+    "SP-30-2 aspect g/rank"
+  ],
+  "falsifier": {
+    "confirms": "F(aspect=g/rank) deviation 0.5-1.5% from 1",
+    "refutes": "null at <0.05% multi-angle sweep"
+  }
+}

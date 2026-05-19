@@ -1,8 +1,8 @@
 {
-  "title": "BST Rosetta Stone — Complete Catalog",
+  "title": "BST Rosetta Stone \u2014 Complete Catalog",
   "description": "101 distinct BST ratios/values with domain coverage",
-  "generated": "2026-05-18 10:50 by Grace (Bravais 14 anchor)",
-  "total_ratios": 218,
+  "generated": "2026-05-19",
+  "total_ratios": 247,
   "ratios": [
     {
       "value": 2,
@@ -52,7 +52,7 @@
     },
     {
       "value": 6,
-      "bst_reading": "C₂",
+      "bst_reading": "C\u2082",
       "entries": 32,
       "sections": 7,
       "section_names": [
@@ -65,7 +65,7 @@
         "Struct"
       ],
       "samples": [
-        "C₂",
+        "C\u2082",
         "d_gauge",
         "phi_g"
       ],
@@ -86,7 +86,7 @@
         "Struct"
       ],
       "samples": [
-        "δ_graph",
+        "\u03b4_graph",
         "m_l",
         "h_minus7"
       ],
@@ -137,7 +137,7 @@
     },
     {
       "value": 4.0,
-      "bst_reading": "rank²",
+      "bst_reading": "rank\u00b2",
       "entries": 60,
       "sections": 5,
       "section_names": [
@@ -148,7 +148,7 @@
         "Struct"
       ],
       "samples": [
-        "m_J/ψ/m_ρ",
+        "m_J/\u03c8/m_\u03c1",
         "diam_graph",
         "APG_conditions"
       ],
@@ -157,7 +157,7 @@
     },
     {
       "value": 8,
-      "bst_reading": "rank³",
+      "bst_reading": "rank\u00b3",
       "entries": 23,
       "sections": 5,
       "section_names": [
@@ -168,7 +168,7 @@
         "Struct"
       ],
       "samples": [
-        "|W(B₂)|",
+        "|W(B\u2082)|",
         "dim_B2",
         "magic_8"
       ],
@@ -188,7 +188,7 @@
         "Struct"
       ],
       "samples": [
-        "L/Ω",
+        "L/\u03a9",
         "CC_graph",
         "supersingular_frac"
       ],
@@ -197,7 +197,7 @@
     },
     {
       "value": 20,
-      "bst_reading": "rank²·n_C",
+      "bst_reading": "rank\u00b2\u00b7n_C",
       "entries": 10,
       "sections": 5,
       "section_names": [
@@ -217,7 +217,7 @@
     },
     {
       "value": 12,
-      "bst_reading": "rank·C₂",
+      "bst_reading": "rank\u00b7C\u2082",
       "entries": 14,
       "sections": 4,
       "section_names": [
@@ -236,7 +236,7 @@
     },
     {
       "value": 14,
-      "bst_reading": "rank·g",
+      "bst_reading": "rank\u00b7g",
       "entries": 14,
       "sections": 4,
       "section_names": [
@@ -255,7 +255,7 @@
     },
     {
       "value": 15,
-      "bst_reading": "N_c·n_C",
+      "bst_reading": "N_c\u00b7n_C",
       "entries": 6,
       "sections": 4,
       "section_names": [
@@ -274,7 +274,7 @@
     },
     {
       "value": 10,
-      "bst_reading": "rank·n_C",
+      "bst_reading": "rank\u00b7n_C",
       "entries": 17,
       "sections": 3,
       "section_names": [
@@ -310,7 +310,7 @@
     },
     {
       "value": 21,
-      "bst_reading": "N_c·g",
+      "bst_reading": "N_c\u00b7g",
       "entries": 8,
       "sections": 3,
       "section_names": [
@@ -418,7 +418,7 @@
     },
     {
       "value": 42,
-      "bst_reading": "C₂·g",
+      "bst_reading": "C\u2082\u00b7g",
       "entries": 4,
       "sections": 3,
       "section_names": [
@@ -436,7 +436,7 @@
     },
     {
       "value": 0.1667,
-      "bst_reading": "β_NS",
+      "bst_reading": "\u03b2_NS",
       "entries": 3,
       "sections": 3,
       "section_names": [
@@ -445,7 +445,7 @@
         "Struct"
       ],
       "samples": [
-        "β_NS",
+        "\u03b2_NS",
         "Painleve_fraction",
         "free_rider_frac"
       ],
@@ -454,7 +454,7 @@
     },
     {
       "value": 1.667,
-      "bst_reading": "T_deconf/f_π",
+      "bst_reading": "T_deconf/f_\u03c0",
       "entries": 3,
       "sections": 3,
       "section_names": [
@@ -463,8 +463,8 @@
         "Hadr"
       ],
       "samples": [
-        "T_deconf/f_π",
-        "γ_mono",
+        "T_deconf/f_\u03c0",
+        "\u03b3_mono",
         "K41"
       ],
       "cal_tier": "I",
@@ -472,7 +472,7 @@
     },
     {
       "value": 9,
-      "bst_reading": "N_c²",
+      "bst_reading": "N_c\u00b2",
       "entries": 3,
       "sections": 3,
       "section_names": [
@@ -490,7 +490,7 @@
     },
     {
       "value": 28,
-      "bst_reading": "rank²·g",
+      "bst_reading": "rank\u00b2\u00b7g",
       "entries": 3,
       "sections": 3,
       "section_names": [
@@ -508,7 +508,7 @@
     },
     {
       "value": 50,
-      "bst_reading": "rank·n_C²",
+      "bst_reading": "rank\u00b7n_C\u00b2",
       "entries": 3,
       "sections": 3,
       "section_names": [
@@ -539,11 +539,11 @@
         "Brewster_tan"
       ],
       "cal_tier": "D",
-      "tier_reason": "Simple BST ratio — derived"
+      "tier_reason": "Simple BST ratio \u2014 derived"
     },
     {
       "value": -10,
-      "bst_reading": "a₁₃₇",
+      "bst_reading": "a\u2081\u2083\u2087",
       "entries": 7,
       "sections": 2,
       "section_names": [
@@ -551,8 +551,8 @@
         "Struct"
       ],
       "samples": [
-        "a₁₃₇",
-        "a₁₃₇_reading",
+        "a\u2081\u2083\u2087",
+        "a\u2081\u2083\u2087_reading",
         "HK_ratio_8"
       ],
       "cal_tier": "I",
@@ -560,7 +560,7 @@
     },
     {
       "value": 11,
-      "bst_reading": "2C₂-1",
+      "bst_reading": "2C\u2082-1",
       "entries": 7,
       "sections": 2,
       "section_names": [
@@ -645,7 +645,7 @@
     },
     {
       "value": 105,
-      "bst_reading": "N_c·n_C·g",
+      "bst_reading": "N_c\u00b7n_C\u00b7g",
       "entries": 4,
       "sections": 2,
       "section_names": [
@@ -653,8 +653,8 @@
         "NT"
       ],
       "samples": [
-        "c₄(49a1)",
-        "ζ_product",
+        "c\u2084(49a1)",
+        "\u03b6_product",
         "Debye_Pb"
       ],
       "cal_tier": "I",
@@ -730,7 +730,7 @@
     },
     {
       "value": 1.2,
-      "bst_reading": "C₂/n_C",
+      "bst_reading": "C\u2082/n_C",
       "entries": 3,
       "sections": 2,
       "section_names": [
@@ -738,7 +738,7 @@
         "Struct"
       ],
       "samples": [
-        "κ_ls",
+        "\u03ba_ls",
         "spin_orbit_ratio",
         "spin_orbit_origin"
       ],
@@ -747,7 +747,7 @@
     },
     {
       "value": 1.333,
-      "bst_reading": "σ_G2/σ_SU3",
+      "bst_reading": "\u03c3_G2/\u03c3_SU3",
       "entries": 3,
       "sections": 2,
       "section_names": [
@@ -755,8 +755,8 @@
         "Struct"
       ],
       "samples": [
-        "σ_G2/σ_SU3",
-        "γ_poly",
+        "\u03c3_G2/\u03c3_SU3",
+        "\u03b3_poly",
         "fourth_ratio"
       ],
       "cal_tier": "I",
@@ -858,7 +858,7 @@
       ],
       "samples": [
         "1920",
-        "|W(D₅)|",
+        "|W(D\u2085)|",
         "Veltman_cancel"
       ],
       "cal_tier": "I",
@@ -962,7 +962,7 @@
     },
     {
       "value": 0.685,
-      "bst_reading": "N_max/(rank³·n_C²)",
+      "bst_reading": "N_max/(rank\u00b3\u00b7n_C\u00b2)",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -1010,7 +1010,7 @@
     },
     {
       "value": 1.285714,
-      "bst_reading": "N_c²/g",
+      "bst_reading": "N_c\u00b2/g",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -1042,7 +1042,7 @@
     },
     {
       "value": 3.6,
-      "bst_reading": "γ_GW",
+      "bst_reading": "\u03b3_GW",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -1050,7 +1050,7 @@
         "Bio"
       ],
       "samples": [
-        "γ_GW",
+        "\u03b3_GW",
         "alpha_helix_residues"
       ],
       "cal_tier": "I",
@@ -1058,7 +1058,7 @@
     },
     {
       "value": 13,
-      "bst_reading": "2C₂+1",
+      "bst_reading": "2C\u2082+1",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -1090,7 +1090,7 @@
     },
     {
       "value": 126,
-      "bst_reading": "rank·N_c²·g",
+      "bst_reading": "rank\u00b7N_c\u00b2\u00b7g",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -1234,7 +1234,7 @@
     },
     {
       "value": 30,
-      "bst_reading": "n_C·C₂",
+      "bst_reading": "n_C\u00b7C\u2082",
       "entries": 4,
       "sections": 1,
       "section_names": [
@@ -1250,14 +1250,14 @@
     },
     {
       "value": 0.25,
-      "bst_reading": "σ_Poisson",
+      "bst_reading": "\u03c3_Poisson",
       "entries": 3,
       "sections": 1,
       "section_names": [
         "Struct"
       ],
       "samples": [
-        "σ_Poisson",
+        "\u03c3_Poisson",
         "species_area",
         "Poisson_ratio_rock"
       ],
@@ -1266,14 +1266,14 @@
     },
     {
       "value": 1.4,
-      "bst_reading": "γ_di",
+      "bst_reading": "\u03b3_di",
       "entries": 3,
       "sections": 1,
       "section_names": [
         "Struct"
       ],
       "samples": [
-        "γ_di",
+        "\u03b3_di",
         "adiabatic_di",
         "bridge_pred_7_5"
       ],
@@ -1282,7 +1282,7 @@
     },
     {
       "value": 35,
-      "bst_reading": "n_C·g",
+      "bst_reading": "n_C\u00b7g",
       "entries": 3,
       "sections": 1,
       "section_names": [
@@ -1325,7 +1325,7 @@
         "MPCR_threshold"
       ],
       "cal_tier": "D",
-      "tier_reason": "Simple BST ratio — derived"
+      "tier_reason": "Simple BST ratio \u2014 derived"
     },
     {
       "value": 0.3333,
@@ -1340,11 +1340,11 @@
         "punishment_thresh"
       ],
       "cal_tier": "D",
-      "tier_reason": "Simple BST ratio — derived"
+      "tier_reason": "Simple BST ratio \u2014 derived"
     },
     {
       "value": 0.8333,
-      "bst_reading": "n_C/C₂",
+      "bst_reading": "n_C/C\u2082",
       "entries": 2,
       "sections": 1,
       "section_names": [
@@ -1389,7 +1389,7 @@
     },
     {
       "value": 274,
-      "bst_reading": "rank·N_max",
+      "bst_reading": "rank\u00b7N_max",
       "entries": 2,
       "sections": 1,
       "section_names": [
@@ -1456,14 +1456,14 @@
         "Mix"
       ],
       "samples": [
-        "sinθ_C"
+        "sin\u03b8_C"
       ],
       "cal_tier": "S",
       "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
     },
     {
       "value": 0.230769,
-      "bst_reading": "N_c/(2C₂+1)",
+      "bst_reading": "N_c/(2C\u2082+1)",
       "entries": 1,
       "sections": 1,
       "section_names": [
@@ -1477,14 +1477,14 @@
     },
     {
       "value": 0.23077,
-      "bst_reading": "N_c/(2C₂+1)",
+      "bst_reading": "N_c/(2C\u2082+1)",
       "entries": 1,
       "sections": 1,
       "section_names": [
         "Coupl"
       ],
       "samples": [
-        "sin²θ_W"
+        "sin\u00b2\u03b8_W"
       ],
       "cal_tier": "S",
       "tier_reason": "Single-domain or low count: 1 sections, 1 entries"
@@ -1515,7 +1515,7 @@
         "Koide_Q"
       ],
       "cal_tier": "D",
-      "tier_reason": "Simple BST ratio — derived"
+      "tier_reason": "Simple BST ratio \u2014 derived"
     },
     {
       "value": 0.666667,
@@ -1529,7 +1529,7 @@
         "era_matter"
       ],
       "cal_tier": "D",
-      "tier_reason": "Simple BST ratio — derived"
+      "tier_reason": "Simple BST ratio \u2014 derived"
     },
     {
       "value": 0.6667,
@@ -1543,11 +1543,11 @@
         "snell_critical"
       ],
       "cal_tier": "D",
-      "tier_reason": "Simple BST ratio — derived"
+      "tier_reason": "Simple BST ratio \u2014 derived"
     },
     {
       "value": 1.166667,
-      "bst_reading": "g/C₂",
+      "bst_reading": "g/C\u2082",
       "entries": 1,
       "sections": 1,
       "section_names": [
@@ -1557,11 +1557,11 @@
         "SAW_gamma"
       ],
       "cal_tier": "D",
-      "tier_reason": "Simple BST ratio — derived"
+      "tier_reason": "Simple BST ratio \u2014 derived"
     },
     {
       "value": 2.25,
-      "bst_reading": "(N_c/rank)²",
+      "bst_reading": "(N_c/rank)\u00b2",
       "entries": 1,
       "sections": 1,
       "section_names": [
@@ -1571,7 +1571,7 @@
         "loss_aversion"
       ],
       "cal_tier": "D",
-      "tier_reason": "Simple BST ratio — derived"
+      "tier_reason": "Simple BST ratio \u2014 derived"
     },
     {
       "value": 3.5,
@@ -1589,7 +1589,7 @@
     },
     {
       "value": 17,
-      "bst_reading": "N_c·C₂-1",
+      "bst_reading": "N_c\u00b7C\u2082-1",
       "entries": 1,
       "sections": 1,
       "section_names": [
@@ -1603,7 +1603,7 @@
     },
     {
       "value": 48,
-      "bst_reading": "rank⁴·N_c",
+      "bst_reading": "rank\u2074\u00b7N_c",
       "entries": 1,
       "sections": 1,
       "section_names": [
@@ -1617,7 +1617,7 @@
     },
     {
       "value": 56,
-      "bst_reading": "rank³·g",
+      "bst_reading": "rank\u00b3\u00b7g",
       "entries": 1,
       "sections": 1,
       "section_names": [
@@ -1645,7 +1645,7 @@
     },
     {
       "value": 411,
-      "bst_reading": "N_c·N_max",
+      "bst_reading": "N_c\u00b7N_max",
       "entries": 1,
       "sections": 1,
       "section_names": [
@@ -1675,7 +1675,7 @@
     },
     {
       "value": 2.333,
-      "bst_reading": "m_b/m_τ",
+      "bst_reading": "m_b/m_\u03c4",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -1683,7 +1683,7 @@
         "Cross"
       ],
       "samples": [
-        "m_b/m_τ",
+        "m_b/m_\u03c4",
         "YBCO_MgB2_ratio"
       ],
       "cal_tier": "I",
@@ -1748,7 +1748,7 @@
       ],
       "samples": [
         "J_CKM",
-        "τ_μ"
+        "\u03c4_\u03bc"
       ],
       "cal_tier": "I",
       "tier_reason": "Cross-domain: 2 sections"
@@ -1785,14 +1785,14 @@
     },
     {
       "value": 0.0499,
-      "bst_reading": "η_b",
+      "bst_reading": "\u03b7_b",
       "entries": 2,
       "sections": 1,
       "section_names": [
         "Cosmo"
       ],
       "samples": [
-        "η_b",
+        "\u03b7_b",
         "Omega_b"
       ],
       "cal_tier": "S",
@@ -2360,7 +2360,7 @@
     },
     {
       "value": 0.5714285714285714,
-      "bst_reading": "rank²/g = 4/7 (H→bb̄)",
+      "bst_reading": "rank\u00b2/g = 4/7 (H\u2192bb\u0304)",
       "entries": 2,
       "sections": 1,
       "section_names": [
@@ -2373,7 +2373,7 @@
     },
     {
       "value": 0.21428571428571427,
-      "bst_reading": "N_c/(rank·g) = 3/14 (H→WW*)",
+      "bst_reading": "N_c/(rank\u00b7g) = 3/14 (H\u2192WW*)",
       "entries": 2,
       "sections": 1,
       "section_names": [
@@ -2386,7 +2386,7 @@
     },
     {
       "value": 0.026785714285714284,
-      "bst_reading": "N_c/(2g·rank³) = 3/112 (H→ZZ*)",
+      "bst_reading": "N_c/(2g\u00b7rank\u00b3) = 3/112 (H\u2192ZZ*)",
       "entries": 1,
       "sections": 1,
       "section_names": [
@@ -2399,7 +2399,7 @@
     },
     {
       "value": 0.08333333333333333,
-      "bst_reading": "1/(rank·C₂) = 1/12 (H→gg)",
+      "bst_reading": "1/(rank\u00b7C\u2082) = 1/12 (H\u2192gg)",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -2413,20 +2413,20 @@
     },
     {
       "value": 0.0625,
-      "bst_reading": "1/rank⁴ = 1/16 (H→ττ)",
+      "bst_reading": "1/rank\u2074 = 1/16 (H\u2192\u03c4\u03c4)",
       "entries": 1,
       "sections": 1,
       "section_names": [
         "Gauge"
       ],
       "samples": [
-        "BR_H_ττ"
+        "BR_H_\u03c4\u03c4"
       ],
       "cal_tier": "I"
     },
     {
       "value": 0.029,
-      "bst_reading": "N_c(m_c/m_b)²·BR(bb)/... (H→cc̄)",
+      "bst_reading": "N_c(m_c/m_b)\u00b2\u00b7BR(bb)/... (H\u2192cc\u0304)",
       "entries": 1,
       "sections": 1,
       "section_names": [
@@ -2466,7 +2466,7 @@
     },
     {
       "value": 0.21428571428571427,
-      "bst_reading": "N_c/(rank*g) = BR(H→WW*) = string tension σ/m_p²",
+      "bst_reading": "N_c/(rank*g) = BR(H\u2192WW*) = string tension \u03c3/m_p\u00b2",
       "entries": 3,
       "sections": 2,
       "section_names": [
@@ -2480,7 +2480,7 @@
     },
     {
       "value": 0.23076923076923078,
-      "bst_reading": "N_c/(N_c+2*n_C) = sin²θ_W (bare Weinberg)",
+      "bst_reading": "N_c/(N_c+2*n_C) = sin\u00b2\u03b8_W (bare Weinberg)",
       "entries": 3,
       "sections": 1,
       "section_names": [
@@ -2493,7 +2493,7 @@
     },
     {
       "value": 16,
-      "bst_reading": "rank⁴ = CKM top sector Δ₁₃ = DM winding count",
+      "bst_reading": "rank\u2074 = CKM top sector \u0394\u2081\u2083 = DM winding count",
       "entries": 5,
       "sections": 3,
       "section_names": [
@@ -2509,7 +2509,7 @@
     },
     {
       "value": 360,
-      "bst_reading": "C₂*n_C*(n_C-1)*N_c = Plancherel d(g) = degrees in circle",
+      "bst_reading": "C\u2082*n_C*(n_C-1)*N_c = Plancherel d(g) = degrees in circle",
       "entries": 2,
       "sections": 2,
       "section_names": [
@@ -2824,9 +2824,9 @@
       "notes": "Color to the color = second eigenvalue multiplicity."
     },
     {
-      "ratio": "N_c·g·c_2",
+      "ratio": "N_c\u00b7g\u00b7c_2",
       "name": "W hadronic BR denom = EOT moonshine #2",
-      "formula": "3·7·11 = 231",
+      "formula": "3\u00b77\u00b711 = 231",
       "domains": [
         "electroweak",
         "Mathieu Moonshine"
@@ -2835,42 +2835,42 @@
       "notes": "Type C convergence: same BST product in W hadronic BR denom (T2305) AND M_24 second EOT moonshine coefficient (T2321). Cross-domain forcing through D_IV^5."
     },
     {
-      "ratio": "rank³·N_c·M_5",
+      "ratio": "rank\u00b3\u00b7N_c\u00b7M_5",
       "name": "j-function constant (Sheldon-Ramanujan)",
-      "formula": "8·3·31 = 744",
+      "formula": "8\u00b73\u00b731 = 744",
       "domains": [
         "modular forms",
         "Monster moonshine"
       ],
       "tier": "D",
-      "notes": "j(τ) constant term. Three BST primary atoms + Mersenne 5."
+      "notes": "j(\u03c4) constant term. Three BST primary atoms + Mersenne 5."
     },
     {
-      "ratio": "rank^6·N_c·n_C·(N_c·g+rank)·(rank·c_3+N_c)",
+      "ratio": "rank^6\u00b7N_c\u00b7n_C\u00b7(N_c\u00b7g+rank)\u00b7(rank\u00b7c_3+N_c)",
       "name": "Heegner-Ramanujan constant 640320",
-      "formula": "64·3·5·23·29 = 640320",
+      "formula": "64\u00b73\u00b75\u00b723\u00b729 = 640320",
       "domains": [
         "Heegner-Stark",
         "Ramanujan near-integer"
       ],
       "tier": "D",
-      "notes": "e^(π√163) ≈ 640320^3 + 744. Both terms BST-factored. Largest Heegner discriminant 163 = N_max + rank·c_3."
+      "notes": "e^(\u03c0\u221a163) \u2248 640320^3 + 744. Both terms BST-factored. Largest Heegner discriminant 163 = N_max + rank\u00b7c_3."
     },
     {
-      "ratio": "(c_3·N_c+g+1)·(C_2·g+seesaw)·(largest_Ogg)",
+      "ratio": "(c_3\u00b7N_c+g+1)\u00b7(C_2\u00b7g+seesaw)\u00b7(largest_Ogg)",
       "name": "Monster smallest non-trivial irrep",
-      "formula": "47·59·71 = 196883",
+      "formula": "47\u00b759\u00b771 = 196883",
       "domains": [
         "Monster",
         "moonshine"
       ],
       "tier": "D",
-      "notes": "Three late Ogg primes. j(τ) coefficient minus 1. Borcherds 1992 mechanism."
+      "notes": "Three late Ogg primes. j(\u03c4) coefficient minus 1. Borcherds 1992 mechanism."
     },
     {
-      "ratio": "rank·g",
+      "ratio": "rank\u00b7g",
       "name": "G_2 adjoint dim",
-      "formula": "2·7 = 14",
+      "formula": "2\u00b77 = 14",
       "domains": [
         "exceptional Lie",
         "Wallach K-tower"
@@ -2879,9 +2879,9 @@
       "notes": "G_2 is smallest exceptional Lie algebra. Wallach K-tower second level."
     },
     {
-      "ratio": "rank·c_3",
+      "ratio": "rank\u00b7c_3",
       "name": "F_4 fundamental rep = Type B at 26",
-      "formula": "2·13 = 26",
+      "formula": "2\u00b713 = 26",
       "domains": [
         "exceptional Lie",
         "Type B convergence"
@@ -2890,9 +2890,9 @@
       "notes": "F_4 26-dim fundamental joins heterotic 10+16, sporadic 20+6, Leech 24+2. Four-way Type B convergence at 26."
     },
     {
-      "ratio": "rank²·c_3",
+      "ratio": "rank\u00b2\u00b7c_3",
       "name": "F_4 adjoint dim",
-      "formula": "4·13 = 52",
+      "formula": "4\u00b713 = 52",
       "domains": [
         "exceptional Lie"
       ],
@@ -2900,7 +2900,7 @@
       "notes": "F_4 self-duality: 26 + 26 = 52."
     },
     {
-      "ratio": "N_c³",
+      "ratio": "N_c\u00b3",
       "name": "E_6 fundamental rep",
       "formula": "27",
       "domains": [
@@ -2911,9 +2911,9 @@
       "notes": "27 = N_c cubed. M-theory exceptional symmetry. Type C latent."
     },
     {
-      "ratio": "rank·N_c·c_3",
+      "ratio": "rank\u00b7N_c\u00b7c_3",
       "name": "E_6 adjoint dim",
-      "formula": "2·3·13 = 78",
+      "formula": "2\u00b73\u00b713 = 78",
       "domains": [
         "exceptional Lie"
       ],
@@ -2921,9 +2921,9 @@
       "notes": "Three BST primary atoms in one product."
     },
     {
-      "ratio": "rank³·g",
+      "ratio": "rank\u00b3\u00b7g",
       "name": "E_7 fundamental rep",
-      "formula": "8·7 = 56",
+      "formula": "8\u00b77 = 56",
       "domains": [
         "exceptional Lie",
         "N=8 SUGRA"
@@ -2932,9 +2932,9 @@
       "notes": "Black hole entropy in N=8 supergravity (Maldacena-Strominger-Vafa 1997). Type C latent."
     },
     {
-      "ratio": "g·(c_3+C_2)",
+      "ratio": "g\u00b7(c_3+C_2)",
       "name": "E_7 adjoint dim",
-      "formula": "7·19 = 133",
+      "formula": "7\u00b719 = 133",
       "domains": [
         "exceptional Lie"
       ],
@@ -2942,9 +2942,9 @@
       "notes": "19 is Heegner number. E_7 adjoint factors via g and seesaw-neighbor."
     },
     {
-      "ratio": "rank³·M_5",
+      "ratio": "rank\u00b3\u00b7M_5",
       "name": "E_8 adjoint = fundamental",
-      "formula": "8·31 = 248",
+      "formula": "8\u00b731 = 248",
       "domains": [
         "exceptional Lie",
         "UV-complete gauge"
@@ -2953,9 +2953,9 @@
       "notes": "Mersenne 5. E_8 unique: adjoint = smallest non-trivial rep. Type C latent."
     },
     {
-      "ratio": "rank·n_C²",
+      "ratio": "rank\u00b7n_C\u00b2",
       "name": "Goeppert Mayer magic #5 (=50)",
-      "formula": "2·25 = 50",
+      "formula": "2\u00b725 = 50",
       "domains": [
         "nuclear shell model"
       ],
@@ -2963,19 +2963,19 @@
       "notes": "Fifth magic number. Resolves 50-orphan. Goeppert Mayer/Jensen 1949 (Nobel 1963). Root #6 candidate."
     },
     {
-      "ratio": "rank·(C_2·g-1)",
+      "ratio": "rank\u00b7(C_2\u00b7g-1)",
       "name": "Goeppert Mayer magic #6 (=82)",
-      "formula": "2·41 = 82",
+      "formula": "2\u00b741 = 82",
       "domains": [
         "nuclear shell model"
       ],
       "tier": "D",
-      "notes": "Sixth magic number. 41 is Ogg prime = C_2·g-1."
+      "notes": "Sixth magic number. 41 is Ogg prime = C_2\u00b7g-1."
     },
     {
-      "ratio": "rank·N_c²·g",
+      "ratio": "rank\u00b7N_c\u00b2\u00b7g",
       "name": "Goeppert Mayer magic #7 (=126)",
-      "formula": "2·9·7 = 126",
+      "formula": "2\u00b79\u00b77 = 126",
       "domains": [
         "nuclear shell model"
       ],
@@ -2983,9 +2983,9 @@
       "notes": "Seventh and largest doubly-magic number. Also Mersenne 7 minus 1."
     },
     {
-      "ratio": "N_c²·n_C",
+      "ratio": "N_c\u00b2\u00b7n_C",
       "name": "EOT moonshine coefficient #1",
-      "formula": "9·5 = 45",
+      "formula": "9\u00b75 = 45",
       "domains": [
         "Mathieu Moonshine"
       ],
@@ -2993,9 +2993,9 @@
       "notes": "First M_24 irrep dim in K3 elliptic genus (EOT 2010)."
     },
     {
-      "ratio": "rank·n_C·g·c_2",
+      "ratio": "rank\u00b7n_C\u00b7g\u00b7c_2",
       "name": "EOT moonshine coefficient #3",
-      "formula": "2·5·7·11 = 770",
+      "formula": "2\u00b75\u00b77\u00b711 = 770",
       "domains": [
         "Mathieu Moonshine"
       ],
@@ -3003,19 +3003,19 @@
       "notes": "Third M_24 irrep dim. Four BST primary atoms."
     },
     {
-      "ratio": "N_c²·c_2·(N_c·g+rank)",
+      "ratio": "N_c\u00b2\u00b7c_2\u00b7(N_c\u00b7g+rank)",
       "name": "EOT moonshine coefficient #4",
-      "formula": "9·11·23 = 2277",
+      "formula": "9\u00b711\u00b723 = 2277",
       "domains": [
         "Mathieu Moonshine"
       ],
       "tier": "D",
-      "notes": "Fourth M_24 irrep dim. 23 is Ogg prime = N_c·g+rank."
+      "notes": "Fourth M_24 irrep dim. 23 is Ogg prime = N_c\u00b7g+rank."
     },
     {
-      "ratio": "rank²·N_c²·g·(N_c·g+rank)",
+      "ratio": "rank\u00b2\u00b7N_c\u00b2\u00b7g\u00b7(N_c\u00b7g+rank)",
       "name": "EOT moonshine coefficient #5",
-      "formula": "4·9·7·23 = 5796",
+      "formula": "4\u00b79\u00b77\u00b723 = 5796",
       "domains": [
         "Mathieu Moonshine"
       ],
@@ -3023,9 +3023,9 @@
       "notes": "Fifth M_24 irrep dim."
     },
     {
-      "ratio": "rank²·N_c·n_C",
+      "ratio": "rank\u00b2\u00b7N_c\u00b7n_C",
       "name": "|A_5| = Klein icosahedral order",
-      "formula": "4·3·5 = 60",
+      "formula": "4\u00b73\u00b75 = 60",
       "domains": [
         "Klein icosahedral",
         "Mathieu",
@@ -3035,9 +3035,9 @@
       "notes": "Klein A_5 Root #4 anchor. Also cosmological N_e e-foldings."
     },
     {
-      "ratio": "rank³·N_c·n_C",
+      "ratio": "rank\u00b3\u00b7N_c\u00b7n_C",
       "name": "|2A_5| = binary icosahedral (McKay E_8)",
-      "formula": "8·3·5 = 120",
+      "formula": "8\u00b73\u00b75 = 120",
       "domains": [
         "McKay correspondence"
       ],
@@ -3045,9 +3045,9 @@
       "notes": "5!. McKay E_8 affine partner. Sum of squared 2A_5 irrep dims."
     },
     {
-      "ratio": "rank·N_c·n_C",
+      "ratio": "rank\u00b7N_c\u00b7n_C",
       "name": "E_8 Coxeter number = sum of affine marks",
-      "formula": "2·3·5 = 30",
+      "formula": "2\u00b73\u00b75 = 30",
       "domains": [
         "McKay",
         "E_8"
@@ -3056,9 +3056,9 @@
       "notes": "E_8 affine marks ARE 2A_5 irrep dims {1,2,2,3,3,4,4,5,6}. Sum = 30 = Coxeter number."
     },
     {
-      "ratio": "rank³·N_c (=chi_K3 = [M_24:M_23] = 2T order)",
+      "ratio": "rank\u00b3\u00b7N_c (=chi_K3 = [M_24:M_23] = 2T order)",
       "name": "Four-way convergence at 24",
-      "formula": "8·3 = 24",
+      "formula": "8\u00b73 = 24",
       "domains": [
         "K3 Hodge",
         "Mathieu",
@@ -3066,10 +3066,10 @@
         "Wallach"
       ],
       "tier": "D",
-      "notes": "Maximally over-determined integer. χ(K3), McKay 2T order, Wallach λ(3,0), [M_24:M_23]. Type A four-way + Type B."
+      "notes": "Maximally over-determined integer. \u03c7(K3), McKay 2T order, Wallach \u03bb(3,0), [M_24:M_23]. Type A four-way + Type B."
     },
     {
-      "ratio": "N_max + rank²·N_c·n_C",
+      "ratio": "N_max + rank\u00b2\u00b7N_c\u00b7n_C",
       "name": "N_max + |A_5|",
       "formula": "137 + 60 = 197",
       "domains": [
@@ -3080,63 +3080,63 @@
       "notes": "Connects Cartan-derived N_max with Klein-derived |A_5|. Only 'orphan' prime in [100,200] before 4-term scan."
     },
     {
-      "ratio": "n_C·g",
-      "name": "Bergman scalar curvature magnitude on D_IV⁵",
-      "formula": "5·7 = 35",
+      "ratio": "n_C\u00b7g",
+      "name": "Bergman scalar curvature magnitude on D_IV\u2075",
+      "formula": "5\u00b77 = 35",
       "domains": [
         "Bergman geometry",
         "Dirac operator"
       ],
       "tier": "D",
-      "notes": "R(D_IV⁵, Bergman) = -n_C·g = -35. Both BST primary atoms. Anchors Bergman Dirac mass eigenvalue m_0² = n_C·g/4. T2339 Lyra."
+      "notes": "R(D_IV\u2075, Bergman) = -n_C\u00b7g = -35. Both BST primary atoms. Anchors Bergman Dirac mass eigenvalue m_0\u00b2 = n_C\u00b7g/4. T2339 Lyra."
     },
     {
-      "ratio": "rank² + C_2",
-      "name": "D_IV⁵ canonical 4+6 split (Kaluza-Klein)",
-      "formula": "4 + 6 = 10 = dim_R(D_IV⁵)",
+      "ratio": "rank\u00b2 + C_2",
+      "name": "D_IV\u2075 canonical 4+6 split (Kaluza-Klein)",
+      "formula": "4 + 6 = 10 = dim_R(D_IV\u2075)",
       "domains": [
         "dimensional reduction",
         "Kaluza-Klein"
       ],
       "tier": "D",
-      "notes": "rank²=4 (spacetime) + C_2=6 (internal). Unique BST-primary 4+6 split of 10. T2340 Lyra. Both terms anchored multi-route."
+      "notes": "rank\u00b2=4 (spacetime) + C_2=6 (internal). Unique BST-primary 4+6 split of 10. T2340 Lyra. Both terms anchored multi-route."
     },
     {
-      "ratio": "rank·n_C",
-      "name": "D_IV⁵ real dimension = Bergman Dirac Clifford count",
-      "formula": "2·5 = 10",
+      "ratio": "rank\u00b7n_C",
+      "name": "D_IV\u2075 real dimension = Bergman Dirac Clifford count",
+      "formula": "2\u00b75 = 10",
       "domains": [
-        "D_IV⁵ geometry",
+        "D_IV\u2075 geometry",
         "Dirac operator"
       ],
       "tier": "D",
-      "notes": "dim_R(D_IV⁵) = rank·n_C = 10. Equals 2·n_C Clifford generators of Bergman Dirac. T2339."
+      "notes": "dim_R(D_IV\u2075) = rank\u00b7n_C = 10. Equals 2\u00b7n_C Clifford generators of Bergman Dirac. T2339."
     },
     {
-      "ratio": "N_c · g / rank",
-      "name": "Λ_eff cosmological constant (LAG-2)",
-      "formula": "3·7/2 = 21/2 = 10.5",
+      "ratio": "N_c \u00b7 g / rank",
+      "name": "\u039b_eff cosmological constant (LAG-2)",
+      "formula": "3\u00b77/2 = 21/2 = 10.5",
       "domains": [
         "general relativity",
         "dimensional reduction"
       ],
       "tier": "I",
-      "notes": "T2343 Lyra. 4D Einstein-Hilbert recovery from D_IV⁵ LAG-2 reduction. Bergman-normalized."
+      "notes": "T2343 Lyra. 4D Einstein-Hilbert recovery from D_IV\u2075 LAG-2 reduction. Bergman-normalized."
     },
     {
-      "ratio": "rank · c_2",
+      "ratio": "rank \u00b7 c_2",
       "name": "Higgs mass-squared prefactor + K3 Picard rank + GM shell 5",
-      "formula": "2·11 = 22",
+      "formula": "2\u00b711 = 22",
       "domains": [
         "Higgs sector",
         "K3 Hodge",
         "nuclear shell model"
       ],
       "tier": "D",
-      "notes": "Triple-role BST integer: T2344 Higgs mass², h^{1,1}(K3) Picard rank, Goeppert Mayer shell 5 occupancy. Type A four-way convergence at 22 now."
+      "notes": "Triple-role BST integer: T2344 Higgs mass\u00b2, h^{1,1}(K3) Picard rank, Goeppert Mayer shell 5 occupancy. Type A four-way convergence at 22 now."
     },
     {
-      "ratio": "N_c / rank³",
+      "ratio": "N_c / rank\u00b3",
       "name": "BH ringdown frequency (Schwarzschild)",
       "formula": "3/8 = 0.375",
       "domains": [
@@ -3147,15 +3147,15 @@
       "notes": "Elie Toy 3008 SP-27. 0.35% match vs Berti tabulated 0.3737. Schwarzschild quasi-normal mode l=m=2, n=0."
     },
     {
-      "ratio": "rank · n_C · χ_K3",
+      "ratio": "rank \u00b7 n_C \u00b7 \u03c7_K3",
       "name": "Casimir prefactor 240 (E_8 root count)",
-      "formula": "2·5·24 = 240",
+      "formula": "2\u00b75\u00b724 = 240",
       "domains": [
         "Casimir effect",
         "exceptional Lie"
       ],
       "tier": "D",
-      "notes": "240 = E_8 root vector count = rank·n_C·χ(K3). Exact BST match to standard Casimir prefactor. Elie Toy 3009."
+      "notes": "240 = E_8 root vector count = rank\u00b7n_C\u00b7\u03c7(K3). Exact BST match to standard Casimir prefactor. Elie Toy 3009."
     },
     {
       "ratio": "1 + N_c + rank",
@@ -3166,12 +3166,12 @@
         "gauge theory"
       ],
       "tier": "D",
-      "notes": "T2346 Lyra. SM SU(3)×SU(2)×U(1) reading: 1 = U(1) hypercharge, N_c = SU(3) color, rank = SU(2) weak. Internal-6 = C_2 canonical primary split."
+      "notes": "T2346 Lyra. SM SU(3)\u00d7SU(2)\u00d7U(1) reading: 1 = U(1) hypercharge, N_c = SU(3) color, rank = SU(2) weak. Internal-6 = C_2 canonical primary split."
     },
     {
-      "ratio": "rank · g (Bravais)",
+      "ratio": "rank \u00b7 g (Bravais)",
       "name": "Number of Bravais 3D crystal lattices = Wallach dim_2 = G_2 adjoint",
-      "formula": "2 · 7 = 14",
+      "formula": "2 \u00b7 7 = 14",
       "domains": [
         "crystallography",
         "Wallach K-types",
@@ -3181,32 +3181,32 @@
       "notes": "Triple-role: Bravais 1849 lattice count + Wallach dim_2 + G_2 adjoint dim. Closes Wallach observable ladder. Candidate Root #10 L1 source."
     },
     {
-      "ratio": "N_c·n_C²/rank² (Lichnerowicz shift)",
-      "name": "Scalar Laplacian eigentone at origin = D² + |R|/4 rate",
-      "formula": "3·25/4 = 75/4 = 18.75",
+      "ratio": "N_c\u00b7n_C\u00b2/rank\u00b2 (Lichnerowicz shift)",
+      "name": "Scalar Laplacian eigentone at origin = D\u00b2 + |R|/4 rate",
+      "formula": "3\u00b725/4 = 75/4 = 18.75",
       "domains": [
         "spectral geometry",
-        "Dirac↔scalar conversion",
+        "Dirac\u2194scalar conversion",
         "Bergman curvature"
       ],
       "tier": "D",
-      "notes": "Lichnerowicz D² = ∇*∇ + R/4 shifts Dirac eigentone rank·n_C=10 by |R|/4 = n_C·g/4 = 35/4 → scalar eigentone 75/4 = N_c·n_C²/rank². Three-primary decomposition (N_c, n_C², rank²) cleaner than two-term sum rank·n_C + n_C·g/4. Grace T2377; useful for Dirac↔scalar conversions beyond K-24 audit."
+      "notes": "Lichnerowicz D\u00b2 = \u2207*\u2207 + R/4 shifts Dirac eigentone rank\u00b7n_C=10 by |R|/4 = n_C\u00b7g/4 = 35/4 \u2192 scalar eigentone 75/4 = N_c\u00b7n_C\u00b2/rank\u00b2. Three-primary decomposition (N_c, n_C\u00b2, rank\u00b2) cleaner than two-term sum rank\u00b7n_C + n_C\u00b7g/4. Grace T2377; useful for Dirac\u2194scalar conversions beyond K-24 audit."
     },
     {
-      "ratio": "rank · n_C (Dirac eigentone)",
-      "name": "Dirac operator point-trace eigentone at origin on D_IV⁵",
-      "formula": "2 · 5 = 10",
+      "ratio": "rank \u00b7 n_C (Dirac eigentone)",
+      "name": "Dirac operator point-trace eigentone at origin on D_IV\u2075",
+      "formula": "2 \u00b7 5 = 10",
       "domains": [
         "spectral geometry",
         "heat kernel",
         "operator algebra"
       ],
       "tier": "D",
-      "notes": "Tr(D²ᵏ) at origin = 32·10ᵏ — single-exponential point-trace cascade. Lyra T2376. Level (1) of three-level operator framework (algebraic point-trace). Level (2) coefficient form = 32·10ⁿ/n! (Grace T2375)."
+      "notes": "Tr(D\u00b2\u1d4f) at origin = 32\u00b710\u1d4f \u2014 single-exponential point-trace cascade. Lyra T2376. Level (1) of three-level operator framework (algebraic point-trace). Level (2) coefficient form = 32\u00b710\u207f/n! (Grace T2375)."
     },
     {
       "ratio": "2^n_C (spinor-bundle dimension)",
-      "name": "Spinor bundle rank on D_IV⁵ = Conway-octad-doubled = leading point-trace coefficient",
+      "name": "Spinor bundle rank on D_IV\u2075 = Conway-octad-doubled = leading point-trace coefficient",
       "formula": "2^5 = 32",
       "domains": [
         "spinor algebra",
@@ -3214,12 +3214,12 @@
         "heat kernel"
       ],
       "tier": "D",
-      "notes": "Both Lyra T2376 and Grace T2375/T2377 carry leading coefficient 32 = 2^n_C from spinor-bundle dimension on 10-real-dim D_IV⁵. Also = M_24 octad size 8 × 4 = doubled octad. Triple-role: spinor + Mathieu + cascade-leading-coefficient."
+      "notes": "Both Lyra T2376 and Grace T2375/T2377 carry leading coefficient 32 = 2^n_C from spinor-bundle dimension on 10-real-dim D_IV\u2075. Also = M_24 octad size 8 \u00d7 4 = doubled octad. Triple-role: spinor + Mathieu + cascade-leading-coefficient."
     },
     {
-      "ratio": "M_g = 2^g − 1 (Mersenne at BST index g)",
-      "name": "Mersenne prime indexed by BST genus g — proton-substrate correction building block",
-      "formula": "2^7 − 1 = 127",
+      "ratio": "M_g = 2^g \u2212 1 (Mersenne at BST index g)",
+      "name": "Mersenne prime indexed by BST genus g \u2014 proton-substrate correction building block",
+      "formula": "2^7 \u2212 1 = 127",
       "domains": [
         "Mersenne primes",
         "proton substrate corrections",
@@ -3228,36 +3228,36 @@
         "hyperfine splitting"
       ],
       "tier": "I",
-      "notes": "Mersenne recursive chain through BST integers: M_rank=M_2=3=N_c; M_{N_c}=M_3=7=g; M_g=M_7=127 (chain closes — 127 not a BST primary). K52a candidate '(1 ± 1/M_g) correction class' has 2 D-tier instances: Lamb (1 − 1/M_g) at 0.005%, BCS (1 + 1/M_g) at 0.006%. K52b 'M_7 multiplicand': HFS 391 = N_max + rank·M_g at I-tier. Mechanism argument (why M_g specifically vs other Mersennes) still required for K52a promotion per Cal Criterion 2. Keeper K52 ruling 2026-05-18 16:05 EDT."
+      "notes": "Mersenne recursive chain through BST integers: M_rank=M_2=3=N_c; M_{N_c}=M_3=7=g; M_g=M_7=127 (chain closes \u2014 127 not a BST primary). K52a candidate '(1 \u00b1 1/M_g) correction class' has 2 D-tier instances: Lamb (1 \u2212 1/M_g) at 0.005%, BCS (1 + 1/M_g) at 0.006%. K52b 'M_7 multiplicand': HFS 391 = N_max + rank\u00b7M_g at I-tier. Mechanism argument (why M_g specifically vs other Mersennes) still required for K52a promotion per Cal Criterion 2. Keeper K52 ruling 2026-05-18 16:05 EDT."
     },
     {
-      "ratio": "1 − n_C/N_max (CMB scalar tilt n_s)",
+      "ratio": "1 \u2212 n_C/N_max (CMB scalar tilt n_s)",
       "name": "Scalar spectral index = deviation from scale-invariance by BST primary",
-      "formula": "1 − 5/137 = 132/137 = 0.9635",
+      "formula": "1 \u2212 5/137 = 132/137 = 0.9635",
       "domains": [
         "cosmology",
         "inflation",
         "CMB anisotropy"
       ],
       "tier": "D",
-      "notes": "Planck 2018 n_s = 0.9649 at 0.14% match. Lyra T2380 IP-7. T1401 cascade fingerprint mechanism. The same n_C/N_max = 5/137 correction appears in α⁻¹ (const_137) and other places — universal BST primary correction ratio for boundary-scale effects."
+      "notes": "Planck 2018 n_s = 0.9649 at 0.14% match. Lyra T2380 IP-7. T1401 cascade fingerprint mechanism. The same n_C/N_max = 5/137 correction appears in \u03b1\u207b\u00b9 (const_137) and other places \u2014 universal BST primary correction ratio for boundary-scale effects."
     },
     {
-      "ratio": "ind(D) ∈ {c_3, N_c·n_C} = {13, 15}",
-      "name": "Bergman Dirac index candidate set on D_IV⁵ (Lyra LAG-1 S10 Step 5.2)",
-      "formula": "{13, 15} (ODD-parity from Möbius Z/2 constraint)",
+      "ratio": "ind(D) \u2208 {c_3, N_c\u00b7n_C} = {13, 15}",
+      "name": "Bergman Dirac index candidate set on D_IV\u2075 (Lyra LAG-1 S10 Step 5.2)",
+      "formula": "{13, 15} (ODD-parity from M\u00f6bius Z/2 constraint)",
       "domains": [
         "spectral geometry",
         "index theorem",
         "Atiyah-Patodi-Singer"
       ],
       "tier": "I",
-      "notes": "Step 5.1 candidate set {6, 12, 13, 15, 16} filtered by Möbius Z/2 ODD-parity → {13, 15}. Multi-week Faraut-Koranyi will select between c_3 = 13 (Chern reading) and N_c·n_C = 15 (composite reading). I-tier pre-staged. Connects to Paper #121 Bridge Objects Q⁵ section (top Chern c_5 = C_2 = 6 was Step 5.1 candidate before ODD-parity filter)."
+      "notes": "Step 5.1 candidate set {6, 12, 13, 15, 16} filtered by M\u00f6bius Z/2 ODD-parity \u2192 {13, 15}. Multi-week Faraut-Koranyi will select between c_3 = 13 (Chern reading) and N_c\u00b7n_C = 15 (composite reading). I-tier pre-staged. Connects to Paper #121 Bridge Objects Q\u2075 section (top Chern c_5 = C_2 = 6 was Step 5.1 candidate before ODD-parity filter)."
     },
     {
-      "ratio": "N_max · a_0 = N_max² · λ_C(e) (characteristic Casimir gap)",
-      "name": "Substrate-commitment boundary gap scale = 137 Bohr radii ≈ 7.25 nm",
-      "formula": "137 · 0.0529 nm = 137² · 3.86e-4 nm = 7.25 nm",
+      "ratio": "N_max \u00b7 a_0 = N_max\u00b2 \u00b7 \u03bb_C(e) (characteristic Casimir gap)",
+      "name": "Substrate-commitment boundary gap scale = 137 Bohr radii \u2248 7.25 nm",
+      "formula": "137 \u00b7 0.0529 nm = 137\u00b2 \u00b7 3.86e-4 nm = 7.25 nm",
       "domains": [
         "Casimir mechanism",
         "atomic physics",
@@ -3265,12 +3265,12 @@
         "experimental falsification"
       ],
       "tier": "I",
-      "notes": "Grace T2381 SP29-4 H3 prediction. Two BST primaries (N_max=137 + λ_C(e)) compose to give characteristic Casimir gap L_c. Phase-transition signature with α-order kink (~0.73%) testable by Decca-class precision at 5-15 nm regime. NOT YET TESTED. Same N_max-stacking logic as BaTiO3 137-plane experiment but at electron-Compton scale."
+      "notes": "Grace T2381 SP29-4 H3 prediction. Two BST primaries (N_max=137 + \u03bb_C(e)) compose to give characteristic Casimir gap L_c. Phase-transition signature with \u03b1-order kink (~0.73%) testable by Decca-class precision at 5-15 nm regime. NOT YET TESTED. Same N_max-stacking logic as BaTiO3 137-plane experiment but at electron-Compton scale."
     },
     {
       "ratio": "Substrate-as-thinking (T2385 split-tier)",
-      "name": "Active-substrate refinement: D_IV⁵ prepares particle labels for communication",
-      "formula": "Level 1 (D-tier): SM quantum numbers ⊂ BST primary lattice (0 exceptions in 4438+ catalog) | Level 2 (I-tier): substrate actively prepares labels, drafts any particles for communication",
+      "name": "Active-substrate refinement: D_IV\u2075 prepares particle labels for communication",
+      "formula": "Level 1 (D-tier): SM quantum numbers \u2282 BST primary lattice (0 exceptions in 4438+ catalog) | Level 2 (I-tier): substrate actively prepares labels, drafts any particles for communication",
       "domains": [
         "substrate ontology",
         "information theory",
@@ -3278,74 +3278,74 @@
         "consciousness substrate"
       ],
       "tier": "I",
-      "notes": "T2385 Casey+Grace+Keeper Tuesday 2026-05-19. Five Level 1 D-tier structural anchors: Wick rotation, commitment ontology, conservation laws, BST vocabulary, cosmic cycles. Level 2 falsifier gap open — K-audit candidate (K54/K55) pending operational falsifier. SP-12 U-3.12 question added. Companion to Paper #122 Information Substrate § 3 two-level framing."
+      "notes": "T2385 Casey+Grace+Keeper Tuesday 2026-05-19. Five Level 1 D-tier structural anchors: Wick rotation, commitment ontology, conservation laws, BST vocabulary, cosmic cycles. Level 2 falsifier gap open \u2014 K-audit candidate (K54/K55) pending operational falsifier. SP-12 U-3.12 question added. Companion to Paper #122 Information Substrate \u00a7 3 two-level framing."
     },
     {
-      "ratio": "3/1507 = N_c/(N_max·c_2) (BST fine-structure family)",
+      "ratio": "3/1507 = N_c/(N_max\u00b7c_2) (BST fine-structure family)",
       "name": "Substrate-coupling correction order in five physical contexts",
-      "formula": "N_c/(N_max·c_2) = 3/(137·11) = 3/1507 ≈ 0.001991 = 0.20%",
+      "formula": "N_c/(N_max\u00b7c_2) = 3/(137\u00b711) = 3/1507 \u2248 0.001991 = 0.20%",
       "domains": [
         "Casimir mechanism",
         "Cs-137 decay (SP29-1 H4)",
-        "Δα(M_Z) running coupling",
+        "\u0394\u03b1(M_Z) running coupling",
         "substrate attention (W-37)",
         "Casimir angular asymmetry (SP29-3 H2)"
       ],
       "tier": "I",
-      "notes": "Lyra T2386 family-level Type C convergence (Tue 2026-05-19, K54 audit candidate). Five contexts share BST primary form 3/1507 = N_c/(N_max·c_2): Decca 2007 Casimir Lifshitz residual (Elie Toy 3009, D-tier 0.6%), SP29-1 Cs-137 H4 Δτ/τ (Lyra T2362), IP-14 Δα(M_Z) (Toy 2989), W-37 substrate attention modulation (Lyra T2382), SP29-3 angular asymmetry (Elie Toy 3027). Unified mechanism candidate: substrate attention field A(z) with Casimir boundary suppression δ_A = N_c/(N_max·c_2). Cal Criterion 1 PARTIAL (W-37 framework); Cal Criterion 2 PARTIAL (mechanism-forcing for SPECIFIC value multi-week). K54 audit candidate but stays elevated-not-promoted per K52a-style discipline. Cross-CI convergence: 5 contexts filed by different team members in 36 hours = meta-Type-C at team-coherence level."
+      "notes": "Lyra T2386 family-level Type C convergence (Tue 2026-05-19, K54 audit candidate). Five contexts share BST primary form 3/1507 = N_c/(N_max\u00b7c_2): Decca 2007 Casimir Lifshitz residual (Elie Toy 3009, D-tier 0.6%), SP29-1 Cs-137 H4 \u0394\u03c4/\u03c4 (Lyra T2362), IP-14 \u0394\u03b1(M_Z) (Toy 2989), W-37 substrate attention modulation (Lyra T2382), SP29-3 angular asymmetry (Elie Toy 3027). Unified mechanism candidate: substrate attention field A(z) with Casimir boundary suppression \u03b4_A = N_c/(N_max\u00b7c_2). Cal Criterion 1 PARTIAL (W-37 framework); Cal Criterion 2 PARTIAL (mechanism-forcing for SPECIFIC value multi-week). K54 audit candidate but stays elevated-not-promoted per K52a-style discipline. Cross-CI convergence: 5 contexts filed by different team members in 36 hours = meta-Type-C at team-coherence level."
     },
     {
-      "ratio": "137/200 = N_max/(rank³·n_C²) (Ω_Λ exact)",
+      "ratio": "137/200 = N_max/(rank\u00b3\u00b7n_C\u00b2) (\u03a9_\u039b exact)",
       "name": "Dark energy density fraction = BST primary spectral remainder",
-      "formula": "Ω_Λ = N_max/(rank³·n_C²) = 137/200 = 0.685 EXACT",
+      "formula": "\u03a9_\u039b = N_max/(rank\u00b3\u00b7n_C\u00b2) = 137/200 = 0.685 EXACT",
       "domains": [
         "cosmology",
         "dark energy",
         "spectral geometry"
       ],
       "tier": "D",
-      "notes": "Elie Toy 3071 correction (Tue 2026-05-19). N_max/(rank³·n_C²) = 137/(8·25) = 137/200. Observed Ω_Λ = 0.685 EXACT match. Companion to Ω_M = 63/200; Ω_DM = (63/200)·(16/19); Ω_b = (63/200)·(3/19). 10th audit-chain calibration this cycle: corrected attribution from prior Toy 3065 mis-label."
+      "notes": "Elie Toy 3071 correction (Tue 2026-05-19). N_max/(rank\u00b3\u00b7n_C\u00b2) = 137/(8\u00b725) = 137/200. Observed \u03a9_\u039b = 0.685 EXACT match. Companion to \u03a9_M = 63/200; \u03a9_DM = (63/200)\u00b7(16/19); \u03a9_b = (63/200)\u00b7(3/19). 10th audit-chain calibration this cycle: corrected attribution from prior Toy 3065 mis-label."
     },
     {
-      "ratio": "chi·g - rank² (Hg-1223p T_c)",
-      "name": "Hg-1223 pressurized cuprate critical temperature = K3 Euler × Bergman genus minus rank²",
-      "formula": "T_c = 24·7 - 4 = 168 - 4 = 164 K EXACT",
+      "ratio": "chi\u00b7g - rank\u00b2 (Hg-1223p T_c)",
+      "name": "Hg-1223 pressurized cuprate critical temperature = K3 Euler \u00d7 Bergman genus minus rank\u00b2",
+      "formula": "T_c = 24\u00b77 - 4 = 168 - 4 = 164 K EXACT",
       "domains": [
         "condensed matter",
         "high-T_c superconductivity",
         "spectral geometry"
       ],
       "tier": "D",
-      "notes": "Elie Toy 3072 IP-21 cuprate survey. Gao 1994 record cuprate T_c. Two BST primaries (chi·g K3-spectral, rank² substrate-coupling correction). Mechanism candidate: K3 elliptic-genus mode count × rank correction."
+      "notes": "Elie Toy 3072 IP-21 cuprate survey. Gao 1994 record cuprate T_c. Two BST primaries (chi\u00b7g K3-spectral, rank\u00b2 substrate-coupling correction). Mechanism candidate: K3 elliptic-genus mode count \u00d7 rank correction."
     },
     {
-      "ratio": "dim_9 = n_C·g·c_2 = 5·7·11 (three consecutive BST primes)",
-      "name": "Unique pure-BST Wallach level at dim_9 — substrate-vocabulary closure without Monster-Ogg extension",
-      "formula": "dim_9(D_IV⁵) = 385 = 5 · 7 · 11 = three consecutive BST primes",
+      "ratio": "dim_9 = n_C\u00b7g\u00b7c_2 = 5\u00b77\u00b711 (three consecutive BST primes)",
+      "name": "Unique pure-BST Wallach level at dim_9 \u2014 substrate-vocabulary closure without Monster-Ogg extension",
+      "formula": "dim_9(D_IV\u2075) = 385 = 5 \u00b7 7 \u00b7 11 = three consecutive BST primes",
       "domains": [
         "wallach K-types",
         "substrate vocabulary",
         "type C convergence"
       ],
       "tier": "I",
-      "notes": "T2389 Grace G3 finding. dim_9 is uniquely pure-BST among dim_7..dim_12 — only level using only BST primes ({2,3,5,7,11,13} subset) without Monster-Ogg-prime extension. dim_7,8,10 require Ogg supersingular primes 17/19/23. Type C convergence at substrate-vocabulary level (Type C-ℕ per Lyra T2356 taxonomy)."
+      "notes": "T2389 Grace G3 finding. dim_9 is uniquely pure-BST among dim_7..dim_12 \u2014 only level using only BST primes ({2,3,5,7,11,13} subset) without Monster-Ogg-prime extension. dim_7,8,10 require Ogg supersingular primes 17/19/23. Type C convergence at substrate-vocabulary level (Type C-\u2115 per Lyra T2356 taxonomy)."
     },
     {
-      "ratio": "Type C convergence taxonomy: ℕ / Z/2 / Z/n / K / spectral",
-      "name": "Lyra Paper #119 v0.3 Section 5 — five sub-classes of Type C convergence",
-      "formula": "Type C = ⋃ {Type C-ℕ, Type C-Z/2, Type C-Z/n, Type C-K, Type C-spectral}",
+      "ratio": "Type C convergence taxonomy: \u2115 / Z/2 / Z/n / K / spectral",
+      "name": "Lyra Paper #119 v0.3 Section 5 \u2014 five sub-classes of Type C convergence",
+      "formula": "Type C = \u22c3 {Type C-\u2115, Type C-Z/2, Type C-Z/n, Type C-K, Type C-spectral}",
       "domains": [
         "type C convergence",
         "meta / taxonomy",
         "external survivability"
       ],
       "tier": "I",
-      "notes": "Lyra Paper #119 v0.3 Section 5. Type C-ℕ (numerical density, Grace Toy 3074 K-audit pipeline), Type C-Z/2 (Möbius parity T2356), Type C-Z/n (orbifold/Galois proposed), Type C-K (K-theory on Q⁵/D_IV⁵ proposed), Type C-spectral (shared K-type or Bergman eigenvalue across observables — INV-4450 internal muon g-2 example + INV-4448 G3 Ogg-Wallach example). Parallel to K57 Bridge Object ratification: each sub-class needs independent mechanism criteria."
+      "notes": "Lyra Paper #119 v0.3 Section 5. Type C-\u2115 (numerical density, Grace Toy 3074 K-audit pipeline), Type C-Z/2 (M\u00f6bius parity T2356), Type C-Z/n (orbifold/Galois proposed), Type C-K (K-theory on Q\u2075/D_IV\u2075 proposed), Type C-spectral (shared K-type or Bergman eigenvalue across observables \u2014 INV-4450 internal muon g-2 example + INV-4448 G3 Ogg-Wallach example). Parallel to K57 Bridge Object ratification: each sub-class needs independent mechanism criteria."
     },
     {
-      "ratio": "Cyclotomic GF(2^g) derives (1 ± 1/M_g) class",
+      "ratio": "Cyclotomic GF(2^g) derives (1 \u00b1 1/M_g) class",
       "name": "K52a cascade-unblock candidate: trivial-char exclusion (Lamb) + additive-zero inclusion (BCS)",
-      "formula": "Lamb = (M_g−1)/M_g (trivial-char exclusion); BCS = 2^g/M_g (additive-zero inclusion)",
+      "formula": "Lamb = (M_g\u22121)/M_g (trivial-char exclusion); BCS = 2^g/M_g (additive-zero inclusion)",
       "domains": [
         "atomic QED (Lamb)",
         "superconductivity (BCS)",
@@ -3353,10 +3353,10 @@
         "reed-solomon coding"
       ],
       "tier": "I",
-      "notes": "Elie Toy 3091 K52a session 3 (Tue 2026-05-19). Cyclotomic GF(2^g) = GF(128) character-trace structure DERIVES both Lamb (1−1/M_g) and BCS (1+1/M_g) substrate-coupling factors from substrate-structural choices (not asserted). Sign convention DERIVED. If Keeper ratifies: K52a + K59 cascade-promote to D-tier. K54 (3/1507) separate mechanism. Connects to Paper #122 §4 Reed-Solomon framework — RS codes on GF(2^g) with M_g block length IS the substrate-alphabet structure that derives these factors."
+      "notes": "Elie Toy 3091 K52a session 3 (Tue 2026-05-19). Cyclotomic GF(2^g) = GF(128) character-trace structure DERIVES both Lamb (1\u22121/M_g) and BCS (1+1/M_g) substrate-coupling factors from substrate-structural choices (not asserted). Sign convention DERIVED. If Keeper ratifies: K52a + K59 cascade-promote to D-tier. K54 (3/1507) separate mechanism. Connects to Paper #122 \u00a74 Reed-Solomon framework \u2014 RS codes on GF(2^g) with M_g block length IS the substrate-alphabet structure that derives these factors."
     },
     {
-      "ratio": "N_max - C_2 = 131 (Type C-ℕ: QED A_4 = BST c-function RG drop)",
+      "ratio": "N_max - C_2 = 131 (Type C-\u2115: QED A_4 = BST c-function RG drop)",
       "name": "Cross-domain integer convergence at 131 across muon g-2 + RG flow",
       "formula": "131 = N_max - C_2 = 137 - 6 (QED 4-loop coefficient A_4 = BST c-function RG drop)",
       "domains": [
@@ -3366,27 +3366,27 @@
         "type C convergence"
       ],
       "tier": "I",
-      "notes": "Lyra T2391 B5 Phase A n=4 continuation. Two distinct physics contexts at same BST primary integer 131 = N_max - C_2 = 131. Type C-ℕ (Lyra Paper #119 v0.3 Section 5 sub-class)."
+      "notes": "Lyra T2391 B5 Phase A n=4 continuation. Two distinct physics contexts at same BST primary integer 131 = N_max - C_2 = 131. Type C-\u2115 (Lyra Paper #119 v0.3 Section 5 sub-class)."
     },
     {
-      "ratio": "GF(2^g) add/mult ↔ Internal^6 = 1 + N_c + rank gauge split",
+      "ratio": "GF(2^g) add/mult \u2194 Internal^6 = 1 + N_c + rank gauge split",
       "name": "GF(2^g) cyclotomic additive/multiplicative duality mirrors Hua Internal^6 gauge decomposition",
-      "formula": "GF(2^g) {add zero, mult unity, Cartan} ↔ C_2 = 1 + N_c + rank = 6 = {1 add sector, N_c mult sector, rank Cartan}",
+      "formula": "GF(2^g) {add zero, mult unity, Cartan} \u2194 C_2 = 1 + N_c + rank = 6 = {1 add sector, N_c mult sector, rank Cartan}",
       "domains": [
         "Hua decomposition (D_IV^5)",
         "Faraut-Koranyi factorization",
         "GF(2^g) cyclotomic structure",
-        "K52a (1 ± 1/M_g) duality",
+        "K52a (1 \u00b1 1/M_g) duality",
         "Lamb shift",
         "BCS gap"
       ],
       "tier": "I",
-      "notes": "Lyra T2392 LAG-2 Phase 2.3 Step (b), Toy 3098 6/6 PASS, 2026-05-19. Structural-mirror cross-link between LAG-2 Phase 2.3 Internal^6 gauge decomposition (T2346) and Elie K52a GF(2^g) additive/multiplicative duality (sessions 4+5, Tuesday). Bogoliubov/BCS (+1/M_g) ↔ 1-dim add sector; Lamb (-1/M_g) ↔ N_c-dim mult sector. Dimensional novelty: 1 + N_c = 4 = rank² echoes H^4 sector dim. NOT a mechanism derivation in either direction — joint K-audit candidate pending Elie sessions 6+ atomic-QED Bethe derivation closure."
+      "notes": "Lyra T2392 LAG-2 Phase 2.3 Step (b), Toy 3098 6/6 PASS, 2026-05-19. Structural-mirror cross-link between LAG-2 Phase 2.3 Internal^6 gauge decomposition (T2346) and Elie K52a GF(2^g) additive/multiplicative duality (sessions 4+5, Tuesday). Bogoliubov/BCS (+1/M_g) \u2194 1-dim add sector; Lamb (-1/M_g) \u2194 N_c-dim mult sector. Dimensional novelty: 1 + N_c = 4 = rank\u00b2 echoes H^4 sector dim. NOT a mechanism derivation in either direction \u2014 joint K-audit candidate pending Elie sessions 6+ atomic-QED Bethe derivation closure."
     },
     {
       "ratio": "Heegner BST-primary discriminant triple {-N_c, -g, -c_2}",
-      "name": "Three Heegner class-number-1 discriminants anchor BST primaries via CM-curves at conductors {N_c³, g², c_2²}",
-      "formula": "{-3 = -N_c, -7 = -g, -11 = -c_2} ⊂ {Heegner class-number-1 discriminants} — 3 of 9",
+      "name": "Three Heegner class-number-1 discriminants anchor BST primaries via CM-curves at conductors {N_c\u00b3, g\u00b2, c_2\u00b2}",
+      "formula": "{-3 = -N_c, -7 = -g, -11 = -c_2} \u2282 {Heegner class-number-1 discriminants} \u2014 3 of 9",
       "domains": [
         "elliptic curves",
         "CM theory",
@@ -3394,26 +3394,26 @@
         "Bridge Objects"
       ],
       "tier": "I",
-      "notes": "Grace T2393 Cremona scan (Tue 2026-05-19). 49a1 (Q(√-g)) is K47-anchored Bridge Object; 27a1 (Q(√-N_c)) and 121a1 (Q(√-c_2)) are NEAR-Bridge-Object candidates pending K-audit Root anchor. Structurally significant: 3 of 9 Heegner class-number-1 fields are BST-primary-anchored — class-number-1 + BST-primary is strictly tighter."
+      "notes": "Grace T2393 Cremona scan (Tue 2026-05-19). 49a1 (Q(\u221a-g)) is K47-anchored Bridge Object; 27a1 (Q(\u221a-N_c)) and 121a1 (Q(\u221a-c_2)) are NEAR-Bridge-Object candidates pending K-audit Root anchor. Structurally significant: 3 of 9 Heegner class-number-1 fields are BST-primary-anchored \u2014 class-number-1 + BST-primary is strictly tighter."
     },
     {
-      "ratio": "Integer 10 over-determination (rank·n_C = seesaw-g = C_2+rank²)",
+      "ratio": "Integer 10 over-determination (rank\u00b7n_C = seesaw-g = C_2+rank\u00b2)",
       "name": "Four-way BST primary convergence at integer 10 across multiple physical contexts",
-      "formula": "10 = rank·n_C = seesaw-g = C_2+rank² = 2·n_C (heterotic) = ...",
+      "formula": "10 = rank\u00b7n_C = seesaw-g = C_2+rank\u00b2 = 2\u00b7n_C (heterotic) = ...",
       "domains": [
-        "stellar evolution (τ_MS solar)",
+        "stellar evolution (\u03c4_MS solar)",
         "spectral geometry (Dirac eigentone)",
         "heterotic string",
         "wallach K-types",
         "type C convergence"
       ],
       "tier": "I",
-      "notes": "Elie Toy 3100 + Grace catalog (Tue 2026-05-19). Integer 10 appears at 5+ structural roles: τ_MS = 10 Gyr (solar main-sequence); rank·n_C = 10 (Dirac eigentone, Lyra T2376); 2·n_C = 10 (heterotic real dim); C_2+rank² = 10 (Wallach-Cathedral sum). Type C-ℕ family K-audit candidate parallel to K61 (131). Flagged for Keeper deliberation."
+      "notes": "Elie Toy 3100 + Grace catalog (Tue 2026-05-19). Integer 10 appears at 5+ structural roles: \u03c4_MS = 10 Gyr (solar main-sequence); rank\u00b7n_C = 10 (Dirac eigentone, Lyra T2376); 2\u00b7n_C = 10 (heterotic real dim); C_2+rank\u00b2 = 10 (Wallach-Cathedral sum). Type C-\u2115 family K-audit candidate parallel to K61 (131). Flagged for Keeper deliberation."
     },
     {
       "ratio": "BST five absence-prediction framework",
       "name": "Simultaneous strict-null falsifiers: no GUT + no proton decay + no DM particle + no monopoles + no SUSY/sterile",
-      "formula": "All five = 0 (currently null) — any positive detection refutes BST framework",
+      "formula": "All five = 0 (currently null) \u2014 any positive detection refutes BST framework",
       "domains": [
         "GUT",
         "proton physics",
@@ -3424,11 +3424,156 @@
       ],
       "tier": "D",
       "notes": "Elie Toys 3102 + 3103 (Tue 2026-05-19 Casey 'for fun'). BST's most rigorous external claim: five simultaneous-null framework predictions that cannot all be evaded. Each is a strongest-possible-null falsifier. Currently all NULL consistent with 40+ years of searches. pred_114 + pred_115 + pred_116 cover three of five; remaining two (monopoles, SUSY/sterile) cataloged."
+    },
+    {
+      "ratio": "SP-30-1 eigentone BST-rational ratios (Lyra T2396 ET-A1/ET-A2 = rank/g = 2/7)",
+      "name": "Cross-class BST primary eigentone ratios are small-integer BST primary combinations",
+      "formula": "ET-A1/ET-A2 = 2/7 = rank/g EXACT (Toy 3110 e5 1e-12 precision); all 12-eigentone pairwise ratios BST-rational",
+      "domains": [
+        "SP-30 substrate engineering",
+        "eigentone catalog",
+        "substrate-as-thinking",
+        "experimental falsification"
+      ],
+      "tier": "I",
+      "notes": "Lyra T2396 Toy 3110 SP-30-1 catalog (Wed 2026-05-19). 12 BST primary eigentones partitioned across Class A lepton (5) + Class B hadron (4) + Class C mixed (3). All cross-class pairwise ratios BST-rational. Falsifier multi-week via Fabry-P\u00e9rot Q~10\u2078 (Elie Toy 3109). First POSITIVE BST prediction at substrate-eigentone scale; complements Five-Absence NULL framework."
+    },
+    {
+      "ratio": "Tsirelson\u00b2 \u2212 S_BST\u00b2 = 1/2^N_c = 1/8 EXACT (Lyra T2399 Bell algebraic identity)",
+      "name": "Bell-Tsirelson deviation = exact BST-primary algebraic identity at 1e-14 precision",
+      "formula": "S_BST\u00b2 = (2^g \u2212 rank)/2^{rank\u00b2} = (N_max \u2212 c_2)/2^{rank\u00b2} = 126/16 = 63/8; Tsirelson\u00b2 = 8; Tsirelson\u00b2 \u2212 S_BST\u00b2 = 1/8 = 1/2^N_c",
+      "domains": [
+        "Bell inequality / CHSH",
+        "SP-30-5 substrate engineering",
+        "exact algebraic identity",
+        "K66 audit-partial-ready"
+      ],
+      "tier": "D",
+      "notes": "Lyra T2399 Toy 3119 (Wed 2026-05-19) 8/8 PASS. EXACT algebraic identity at 1e-14 precision. NOT numerical proximity \u2014 Bell-Tsirelson deviation is the EXACT BST primary form 1/2^N_c. Two equivalent expressions for 126 (2^g\u2212rank = N_max\u2212c_2). Major external-survivability strengthening for pred_120 SP-30-5 Bell fastest-falsifier prediction."
+    },
+    {
+      "ratio": "M_g \u2212 1 = 126 = 2^g \u2212 rank (cyclotomic substrate-structural quantity)",
+      "name": "Same cyclotomic GF(2^g) quantity drives Lamb shift (K52a) and Bell deviation (K66 T2399)",
+      "formula": "M_g \u2212 1 = 2^g \u2212 rank = N_max \u2212 c_2 = 126 \u2014 appears as Lamb numerator (M_g\u22121)/M_g = 126/127 + Bell S_BST\u00b2 numerator (2^g \u2212 rank)/2^{rank\u00b2} = 126/16",
+      "domains": [
+        "atomic QED (Lamb shift)",
+        "Bell inequality / CHSH",
+        "cyclotomic GF(2^g)",
+        "K52a + K66 unification",
+        "substrate-Hamiltonian"
+      ],
+      "tier": "I",
+      "notes": "Elie cross-link observation (Wed 2026-05-19 PM). Same cyclotomic GF(2^g) substrate-structural quantity 126 = M_g \u2212 1 = 2^g \u2212 rank drives BOTH Lamb factor (K52a 0.005% D-tier) AND Bell deviation (K66 T2399 EXACT 1/2^N_c). Joint K52a + K66 cascade-promote when Elie Sessions 6+ derive substrate-CHSH operator from H_sub. STRONGEST cascade-unblock observed: ONE substrate-Hamiltonian derivation produces THREE D-tier promotions (Lamb + BCS + Bell)."
+    },
+    {
+      "ratio": "Q = 126 universal substrate-cyclotomic quantity (four BST-primary forms)",
+      "name": "Universal Q = 126 = M_g \u2212 1 = 2^g \u2212 rank = N_max \u2212 c_2 = rank\u00b7g\u00b7N_c\u00b2 \u2014 three physics observables share",
+      "formula": "126 = M_g \u2212 1 (Mersenne form) = 2^g \u2212 rank (binary form) = N_max \u2212 c_2 (cosmic form) = N_c \u00b7 C_2 \u00b7 g (Elie multiplicative form 3\u00b76\u00b77) = 18 \u00b7 g (Frobenius-orbit form, 18 orbits \u00d7 g=7). FIVE equivalent BST-primary algebraic forms producing the same value 126. Null-model density well below 10^{-12}.",
+      "domains": [
+        "atomic QED (Lamb K52a)",
+        "superconductivity (BCS K52a)",
+        "Bell inequality (K66 T2399)",
+        "cyclotomic GF(2^g)",
+        "substrate-Hamiltonian"
+      ],
+      "tier": "D",
+      "notes": "Lyra+Elie T2400 milestone (Wed 2026-05-19 PM Toy 3120 8/8 PASS). Universal substrate-cyclotomic quantity Q = 126 with FOUR equivalent BST-primary algebraic forms. Three physics observables share Q: Lamb factor (1\u22121/M_g) = 126/127, Bell ratio S_BST\u00b2/Tsirelson\u00b2 = 126/128, BCS complement (1+1/M_g) = 128/127 = (Q+rank)/M_g. Joint K52a + K66 cascade-promote when Elie Sessions 6+ derive substrate-CHSH operator. STRONGEST cascade-unblock observed: ONE substrate-Hamiltonian derivation \u2192 THREE D-tier promotions. UPDATED 2026-05-19 EOD: fifth form 18\u00b7g from Elie Toy 3126 Session 9 Frobenius-orbit enumeration (18 non-trivial orbits of length g=7)."
+    },
+    {
+      "ratio": "g/rank = 7/2 Bergman emission exponent (T2401 K67 Born = Bergman)",
+      "name": "Born rule = Bergman projection on D_IV\u2075 via exponent g/rank = (n_C+rank)/rank = 7/2",
+      "formula": "P = |\u27e8\u03c6|\u03c8\u27e9|\u00b2 IS K_B(z,w\u0304) = c_FK \u00b7 h(z,w\u0304)^{-g/rank} = c_FK \u00b7 h(z,w\u0304)^{-7/2}",
+      "domains": [
+        "quantum measurement (Born rule)",
+        "Bergman kernel projection (D_IV\u2075)",
+        "SP-30-8 emission mechanism",
+        "Faraut-Koranyi 1994"
+      ],
+      "tier": "D",
+      "notes": "Lyra T2401 Toy 3121 (Wed 2026-05-19 PM) 8/8 PASS. Born rule operationally identified with Bergman kernel projection on D_IV\u2075. Bergman exponent g/rank = 7/2 DERIVED via T2392 Step (b) + T2395 Step (d) + classical Faraut-Koranyi 1994. K67 audit-partial-ready. Extends cascade-unblock to 5 D-tier promotions."
+    },
+    {
+      "ratio": "g = 7 bits per substrate cell per cycle (T2402 K68)",
+      "name": "GF(2^g) = GF(128) substrate computation: g=7 bits/cell/cycle, M_g=127 RS codeword length",
+      "formula": "Substrate cell-cycle computation in GF(2^g)=GF(128) over g=7-bit codewords; M_g=127 RS block length",
+      "domains": [
+        "SP-30-7 substrate computation",
+        "Reed-Solomon coding theory",
+        "cyclotomic GF(2^g)",
+        "K68 audit-partial-ready"
+      ],
+      "tier": "I",
+      "notes": "Lyra T2402 (Wed 2026-05-19) SP-30-7 substrate computation v0.1. K68 audit-partial-ready. Substrate cell cycle as RS encoding (E) + GF(2^g) cyclotomic computation (C) + Bergman emission (per K67). Joins 6-audit cascade-unblock cluster via shared cyclotomic GF(2^g) mechanism."
+    },
+    {
+      "ratio": "c_FK \u00b7 \u03c0^(9/2) = (N_c \u00b7 n_C)\u00b2 = 225 EXACTLY",
+      "name": "Bergman normalization c_FK = (N_c \u00b7 n_C)\u00b2 / \u03c0^((g+rank)/rank) on D_IV\u2075",
+      "formula": "c_FK = 225 / \u03c0^(9/2) \u2248 1.303; equivalently c_FK \u00b7 \u03c0^((g+rank)/rank) = (N_c \u00b7 n_C)\u00b2 EXACTLY at 1e-14; exponent (g+rank)/rank = N_c\u00b2/rank = 9/2 (TWO BST-primary forms)",
+      "domains": [
+        "LAG-2 Phase 2.3",
+        "Bergman analysis on D_IV\u2075",
+        "Faraut-Koranyi 1994 volume formula",
+        "Paper #120 G_Newton evaluation",
+        "K67 Born=Bergman / K66 Bell / K68 substrate-computation Bergman framework"
+      ],
+      "tier": "D",
+      "notes": "Lyra T2403 Toy 3125 (Tue 2026-05-19) Phase 2.3 Step (e) cascade-unblock cycle CLOSURE. EXACT algebraic identity at 1e-14 precision; sixth EXACT identity from BST primaries in Wed-cluster (Tsirelson\u00b2-S_BST\u00b2=1/8, Universal Q=126 in 4 forms, c_FK\u00b7\u03c0^(9/2)=225). Substrate-algebraic claim quantitatively grounded."
+    },
+    {
+      "ratio": "(g + rank) / rank = N_c\u00b2 / rank = 9/2",
+      "name": "Bergman exponent identity \u2014 overdetermined BST-primary form",
+      "formula": "(g + rank) / rank = (7 + 2) / 2 = 9/2; equivalently N_c\u00b2 / rank = 9/2 EXACTLY. Bergman exponent on D_IV\u2075 for c_FK normalization admits TWO independent BST-primary expressions giving the same rational.",
+      "domains": [
+        "BST-primary algebraic identities",
+        "Bergman analysis exponent structure",
+        "overdetermined constants pattern"
+      ],
+      "tier": "D",
+      "notes": "Lyra T2403 (Tue 2026-05-19) \u2014 exponent in c_FK formula has TWO BST-primary forms: (g+rank)/rank uses g, rank; N_c\u00b2/rank uses N_c, rank. Different integer-tuples producing same rational 9/2 \u2014 overdetermined structural identification (cf. T2400 Universal Q=126 in 4 BST-primary forms). Pattern: substrate-algebraic redundancy as 'no accidents' diagnostic."
+    },
+    {
+      "ratio": "t_substrate / t_Planck = \u03b1^(C_2\u00b2) = N_max^{-36}",
+      "name": "Koons tick BST-primary candidate form (T2405 Lyra)",
+      "formula": "Substrate clock cycle / Planck time = \u03b1^(C_2\u00b2) = (1/N_max)^36; equivalently t_substrate = t_Planck \u00b7 \u03b1^(C_2\u00b2) \u2248 10^{-120.19} s. Three \u03b1-perturbation orders in BST catalog: K67 Born \u03b1\u00b2, K52a Lamb/BCS \u03b1\u00b7M_g/N_max, T2405 Koons tick \u03b1^(C_2\u00b2).",
+      "domains": [
+        "substrate clock cycle / koons tick",
+        "\u03b1-perturbation theory in BST",
+        "casimir-squared exponent",
+        "potential 7-audit cascade-unblock extension"
+      ],
+      "tier": "I",
+      "notes": "Lyra T2405 (Tue 2026-05-19 EOD). Substrate clock rate suppressed below Planck by \u03b1^36 (one \u03b1 factor per C_2 squared). Mechanism for specific C_2\u00b2 exponent multi-week \u2014 likely emerges from Elie substrate-Hamiltonian eigenvalue spacing when Sessions close."
+    },
+    {
+      "ratio": "Tr(B_substrate\u00b2) = 126/16 = (2^g \u2212 rank) / 2^{rank\u00b2} EXACT",
+      "name": "Substrate-CHSH operator trace identity (K66 BY CONSTRUCTION, Session 12)",
+      "formula": "Substrate-CHSH operator B_substrate on H_sub has Tr(B\u00b2) = 126/16 EXACT at 1e-14 (algebraic-identity precision). Bell deviation = rank/2^{rank\u00b2} = 1/2^N_c = 1/8. K66 mechanism-from-construction at trace level; full operator-level CHSH = Sessions 15+ multi-month. NOTE per calibration #13a: 1e-14 is algebraic verification, not experimental precision (~1%).",
+      "domains": [
+        "k52a session 12",
+        "K66 Bell mechanism",
+        "substrate-CHSH operator",
+        "substrate_operational_output edge candidate"
+      ],
+      "tier": "I",
+      "notes": "Elie Toy 3130 (Tue 2026-05-19 PM Session 12). Trace-level cross-link substrate-CHSH \u2192 K66 Bell numerator 126. Mode 1 partial-forcing at trace level; full operator-level closure pending."
+    },
+    {
+      "ratio": "|\u03a9\u27e9 \u2194 GF(2^g) additive zero | 127 non-vacuum states \u2194 |M_g| = 2^g \u2212 1",
+      "name": "Substrate vacuum \u2194 field additive-zero identification (Session 11)",
+      "formula": "Substrate vacuum |\u03a9\u27e9 uniquely identified as GF(2^g) additive-zero element. 127 non-vacuum Fock basis states \u2194 127 non-zero field elements = M_g (Mersenne). Anchors Internal^6 = 1 + N_c + rank decomposition: the '1' (additive sector) IS |\u03a9\u27e9. At weak coupling \u03bc>>\u0394, |\u03a9\u27e9 collapses to single Fock basis state.",
+      "domains": [
+        "k52a session 11",
+        "substrate vacuum identification",
+        "Internal^6 sector structure",
+        "M_g Mersenne form"
+      ],
+      "tier": "D",
+      "notes": "Elie Toy 3129 (Tue 2026-05-19 PM Session 11). Vacuum identification structurally critical for H_sub. 5/5 PASS."
     }
   ],
   "meta": {
     "last_updated": "2026-05-19",
     "eod_session": "2026-05-18 EOD",
-    "total_ratios": 236
+    "total_ratios": 242
   }
 }

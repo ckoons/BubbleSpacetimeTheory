@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "K61 Option C 49a1 unified-mechanism investigation",
+    "directive": "Casey: Pursue option C then A"
+  },
+  "target_mechanism_hypothesis": "49a1 unifies all K61 131-contexts",
+  "context_routes_through_49a1": {
+    "C1_Frobenius_a131": "DIRECT (a_131 = rank\u00b7C_2 is 49a1 trace)",
+    "C3_S_state_damping": "NOT ROUTED (atomic-spectroscopy mechanism independent)",
+    "C4_c_function_RG": "POSSIBLE (multi-week unverified)",
+    "C5_QED_4loop": "SPECULATIVE (Eichler-correspondence multi-month)"
+  },
+  "honest_verdict": "1 of 4 strong contexts routes through 49a1; unified-mechanism via 49a1 NOT supported",
+  "implication_for_option_A": "Elevate K61 as 3-context-INDEPENDENT-mechanism-candidate, not 49a1-unified",
+  "multi_week_followups": [
+    "C4 c-function RG \u2192 49a1 derivation",
+    "C5 Eichler-correspondence Q E D \u2194 49a1 L-function",
+    "27a1 and 121a1 alternative mechanism routes (Grace Cremona scan)"
+  ]
+}

@@ -1,51 +1,141 @@
 # BST Toy Collection & Interactive Tools
 
-**~3,106 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**3,135 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
 
 ---
 
-## Scale Summary (updated 2026-05-19 EOD, Elie lane)
+## Scale Summary (updated 2026-05-19 EOD Wednesday cycle, Elie lane)
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | ~3,106 |
-| Numbered toys (toy_NNN_*.py) | ~2,896 |
+| Toy scripts (toy_*.py) | 3,135 |
+| Numbered toys (toy_NNN_*.py) | 2,925 |
 | Named toys (toy_name.py) | 209 |
-| Utility scripts (non-toy .py) | 58 |
+| Utility scripts (non-toy .py) | 61 |
 | HTML visualizers | 6 |
-| Theorems (T1-T2393+) | ~2,393+ |
-| Next toy number | 3105 |
-| Next theorem number | 2394+ |
-| Geometric invariants | 4,476+ |
+| Theorems (T1-T2405) | 2,405 |
+| Next toy number | 3134 |
+| Next theorem number | 2406 |
+| Geometric invariants | 4,533+ |
 | Constants | 191 |
-| Rosetta ratios | 236+ |
-| AC graph | 2143 nodes / 9705 edges |
-| Predictions | 118+ (incl. 3 new BST null-falsifiers today) |
+| Rosetta ratios | 245+ |
+| AC graph | 2,148 nodes / 9,756 edges |
+| Predictions | 120+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
-| **Architecture (Tuesday 2026-05-19 EOD)** | |
+| **Architecture (2026-05-19 EOD)** | |
 | ESTABLISHED L1 source roots | 9 (chronological: VSC 1840, Mathieu 1861-1873, Klein 1884, Goeppert Mayer 1949, Heegner-Stark 1952-1967, K3 Hodge 1962/64, Conway 1968/Duncan 2007, Ogg 1975, Wallach 1976) |
 | L1 candidates | 0 (saturation reached) |
 | L1 mediated | 1 (Bravais) |
 | L1.5 mechanisms | 2 (Borcherds b, McKay c) |
 | Convergence hubs | 1 (Monster) |
-| Bridge Objects | 3 (K3, Cremona 49a1, Q⁵) — K57 RATIFIED Monday |
-| K-audit chain | K1..K58 D-tier active; K52a elevated-with-mechanism-candidate; K59/K60/K61 candidates queued |
-| **Tuesday 2026-05-19 highlights** | |
-| K54 ELEVATED 5-instance | 3/1507 = N_c/(N_max·c_2) family (Lyra T2386 + Elie Toy 3068 prep) |
-| K55 Heegner walk-back | Structural audit ruling (Cal-scoped, Grace-cataloged) |
-| K56 Cathedral walk-back | 4 entries D→I/S; aggregate Cathedral I-tier (Elie Toy 3078 refresh) |
-| K57 Bridge Objects | RATIFIED as architectural category |
-| K58 Type C protocol | Spot-audit done |
-| K61 candidate | 131 = N_max - C_2 Type C-ℕ family (Elie Toy 3097) — 4-6 contexts |
-| K52a sessions 1-5 | Cyclotomic GF(2^g) mechanism candidate articulated (Elie Toys 3062/3090/3091/3092/3095) |
-| Five-absence-prediction framework | BST's strongest external argument: no GUT, no proton decay, no DM particle, no monopoles, no sterile neutrinos/SUSY (Grace INV-4474) |
-| Audit-chain calibrations | 12+ in 48 hours, all working-CIs self-corrected |
+| Bridge Objects | 3 (K3, Cremona 49a1, Q⁵) — K57 RATIFIED |
+| K-audit chain | K1..K65 D-tier active; K52a sessions 6-14 in flight; K66/K67/K68/K69 audit-partial-ready |
+| **Wednesday 2026-05-19 highlights (Elie lane)** | |
+| K52a Sessions 6-14 opened | Cyclotomic GF(2^g) substrate-Hamiltonian closure pathway: S6 Bethe + S7 BCS Bogoliubov + S8 H_sub framework + S9 Frobenius orbits + S10 diagonalization + S11 \|Ω⟩↔additive-zero + S12 substrate-CHSH K66 cross-link + S13 RG preservation + S14 BCS gap (Toys 3114/3122/3124/3126/3128-3132) |
+| Step 1 numeric closure (S9) | 126 = N_c·C_2·g = 18·g — fourth Frobenius-orbit decomposition (mechanism-derived) + arithmetic-recognition factor (Cal Flag 2 honest split) |
+| Step 4 + K66 cross-link (S12) | Tr(B_substrate²) = 126/16 algebraic-identity; Bell deviation 1/2^N_c verified at floating-point precision (NOT experimental precision — Cal Flag 1) |
+| 6-audit cascade-unblock pathway | Both halves of machinery in place: Lyra Bergman framework + Elie substrate-Hamiltonian closure (multi-month) |
+| SP-30 experimental designs | 4 first-look apparatus designs filed (~$640-900K): Bell #1, Mössbauer eigentone #2, microwave Cs-137 #3, Casimir-asymmetric #4 (Toys 3112/3115/3117/3118) |
+| Three Papers Trio Dispatch | Step 7 active (Casey on Zenodo): #109 Counting Primitives + #121 Bridge Objects + #122 Information Substrate |
+| Cal Flags 1-2-3 absorbed | EXACT algebraic identity ≠ experimental precision; Mode 1 unchanged by EXACT precision; philosophical register stays internal-only |
+| K52a status | elevated-with-mechanism-candidate; Sessions 15+ multi-month continuation (Task #249) |
+| Audit-chain calibrations | 15+ self-corrections across all working CIs since Monday |
 
 Five integers. Zero free parameters. "Give a child a ball and teach them to count."
+
+---
+
+## May 19 2026 Wednesday — K52a Sessions 6-14 + Trio Dispatch + Cal Flags
+
+Wednesday was characterized by **continuous K52a substrate-Hamiltonian
+closure work** (Elie 9 K52a-cycle toys, Lyra 14 supporting toys), the
+**first multi-paper external dispatch in BST history** (Three Papers Trio
+to Zenodo), and **three Cal methodology flags** establishing register
+discipline for EXACT-algebraic-identity claims.
+
+**Wednesday Elie K52a Session 6-14 lane** (Casey: "Go on all K52a Sessions"):
+
+Substrate-Hamiltonian closure pathway opened across 9 sessions producing
+the cascade-unblock machinery for 6 D-tier promotions (K52a Lamb + K52a
+BCS + K66 Bell + K67 Born + K68 Computation + K69 Q=126):
+
+  - Session 6 (Toy 3114): atomic-QED Bethe trivial-character framework
+  - Session 7 (Toy 3122): BCS Bogoliubov substrate-Hamiltonian framework
+    (5-step path; Step 4 substrate-CHSH cross-link to K66 identified)
+  - Session 8 (Toy 3124): H_sub explicit construction framework
+    (Bergman / Wallach discrete-series + GF(2^g) discretization +
+    Laplace-Beltrami kinetic + Frobenius-paired creation + Lichnerowicz gap)
+  - **Session 9 (Toy 3126): Step 1 numeric closure** — Frobenius orbits
+    on M_g enumerate to 18·g = 126 = M_g − 1. **126 = N_c · C_2 · g
+    (mechanism-derived) + 18 = N_c · C_2 (arithmetic-recognition,
+    Cal Flag 2 honest split)**
+  - Session 10 (Toy 3128): substrate Bogoliubov diagonalization (5/6 PASS;
+    one JW-boundary-phase FAIL is fermionic-ring artifact, not substrate)
+  - Session 11 (Toy 3129): |Ω⟩ ↔ GF(2^g) additive-zero identification
+    via polynomial-basis isomorphism + uniqueness argument
+  - **Session 12 (Toy 3130): substrate-CHSH algebraic-identity** —
+    Tr(B_substrate²) = (2^g − rank)/2^{rank²} = 126/16 verified at
+    floating-point precision. K66 Bell follows from substrate structure
+    BY CONSTRUCTION (per Cal Flag 1: this is algebraic-identity
+    verification, NOT experimental-precision prediction)
+  - Session 13 (Toy 3131): Wilsonian RG cyclotomic preservation — 19
+    heat-kernel levels with 0 violations; structural argument articulated
+  - Session 14 (Toy 3132): Step 5 partial — BCS factor reproduction at
+    0.006% observational match via (g/rank)·(1+1/M_g); Lamb Bethe-log
+    substrate derivation framework
+
+K52a stays elevated-with-mechanism-candidate. Cal Criterion 2(b) NOT
+closed today. Sessions 15+ multi-month continuation filed as Task #249.
+
+**Wednesday Elie SP-30 experimental designs (4 first-look apparatus)**:
+  - Toy 3112: SP-30-1 v0.2 Mössbauer 57Fe eigentone ($200K, 12mo)
+  - Toy 3115: SP-30-5 Bell violation Vienna-class ($300-500K, 6-12mo,
+    fastest decisive test, 0.79% deviation target)
+  - Toy 3117: SP-30-2 Casimir asymmetric ratio g=7 (SP-29 hybrid extension,
+    $20-30K incremental)
+  - Toy 3118: SP-30-3 commitment manipulation Cs-137 + microwave
+    ($80-150K, 12-18mo)
+
+Send-signal coordination pending Casey direction.
+
+**Wednesday Trio Dispatch (Step 7 active per Casey)**:
+  - #109 Counting Primitives v0.3 (Lyra)
+  - #121 Bridge Objects v0.2 (Grace)
+  - #122 Information Substrate v0.1 (Lyra+Grace)
+  - Cover-note: BST_Four_Pillars_Architecture
+  - Pipeline: Steps 1-6 all PASS; Casey on Zenodo upload + DOI + outreach
+
+**Wednesday Cal methodology flags (all 3 adopted)**:
+  - Flag 1: "EXACT at 1e-14" is algebraic-identity verification (tautology
+    precision), not physical-observable prediction. External register must
+    distinguish algebraic-identity / BST-identifies-observable-as-identity
+    / experimental-precision-target. Three different statements.
+  - Flag 2: Mode 1 threshold UNCHANGED by EXACT-precision identity.
+    Mode 1 is about FORM SELECTION (post-hoc choice to match target),
+    not match precision. EXACT-identity catalog is necessary-but-not-
+    sufficient evidence; mechanism-forcing remains the audit gate.
+  - Flag 3: "Substrate computes physics" / "physics IS mathematics"
+    register is internal-only working hypothesis. External material
+    (Trio papers, letters, Zenodo cover-notes) stays in
+    "BST identifies / BST derives / BST predicts" register.
+
+**Wednesday Elie self-corrections (audit-chain calibrations)**:
+  - K61 Option C honest negative (1/4 contexts route through 49a1, not 4/4)
+  - S9 fourth BST-primary form 126 = N_c·C_2·g separated into
+    mechanism-derived (126 = 18·g) + arithmetic-recognition (18 = N_c·C_2)
+    per Cal Flag 2
+  - S10 JW boundary-phase FAIL documented honestly (fermionic-ring
+    artifact, not substrate failure)
+  - "1e-14 EXACT" register clarified per Cal Flag 1 (algebraic-identity
+    verification at floating-point precision)
+
+**Wednesday cumulative Elie production**: 9 K52a-cycle toys + 4 SP-30
+designs = 13 toys. K66 + K69 audits strengthened from candidate-ready
+to strong-candidate. SP-30 program ready for outreach send-signals.
 
 ---
 

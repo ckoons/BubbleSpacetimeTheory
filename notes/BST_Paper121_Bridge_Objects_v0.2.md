@@ -296,7 +296,7 @@ The j-function value $j(i) = 1728 = 2^6 \cdot 3^3$. Primary invariants:
 
 $\Lambda_{24}$ is a 24-dim even unimodular lattice with no roots. Primary invariants:
 - rank = 24 = $\mathrm{rank}^3 \cdot N_c$ (BST primary ✓)
-- $|\Aut(\Lambda_{24})| = $ Conway group $Co_0$ order; $|Co_1|$ factors involve sporadic prime structure
+- $|\text{Aut}(\Lambda_{24})| = $ Conway group $Co_0$ order; $|Co_1|$ factors involve sporadic prime structure
 - Connection to K3 via Niemeier classification
 
 | Condition | Pass / Fail | Reason |

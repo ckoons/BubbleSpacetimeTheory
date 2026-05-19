@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "K52a Session 8 Step 1 H_sub construction framework"
+  },
+  "casey_authorization": "2026-05-19 PM \"Go for K52a Session 8\"",
+  "status": "Step 1 framework ARTICULATED; numeric closure Sessions 9+ multi-month",
+  "h_sub_framework": {
+    "manifold": "D_IV^5 = SO_0(5,2)/[SO(5)\u00d7SO(2)] (the APG)",
+    "hilbert_space_candidates": [
+      "Bergman holomorphic L\u00b2",
+      "Wallach discrete-series unitary reps"
+    ],
+    "discretization": "GF(2^g) = GF(128) cyclotomic field arithmetic",
+    "kinetic": "Laplace-Beltrami on D_IV^5 \u2194 Frobenius adjacency on GF(2^g)",
+    "pairing": "Frobenius-paired creation + Lichnerowicz-curvature-induced gap",
+    "cyclotomic_generator": "Frobenius \u03c6(x) = x\u00b2, order g = 7"
+  },
+  "load_bearing_anchors_consistency": {
+    "K69_M_g_minus_1_equals_126": "classification count candidate",
+    "K67_Bergman_g_over_rank_7_2": "boundary-emission projection",
+    "K59_GF_2g_cyclotomic": "underlying discretization"
+  },
+  "sessions_9_plus_roadmap": [
+    "S9: pair-enumeration on Frobenius orbits \u2192 126",
+    "S10: substrate Bogoliubov diagonalization",
+    "S11: |\u03a9\u27e9 \u2194 additive-zero (Step 3 closure)",
+    "S12: substrate-CHSH \u2192 S_BST\u00b2 = 126/16 (Step 4 closure)",
+    "S13: Wilsonian RG GF(2^g) \u2192 atomic-effective (Step 2 closure)",
+    "S14: 2\u0394/k_BT_c reproduction + Bethe-log 19.77269 (Step 5 closure)"
+  ],
+  "falsifier": "pair-count \u2260 126 OR Frobenius-\u0394_LB fails \u2192 walks back K52a candidacy",
+  "cascade_unblock_6_audits": [
+    "K52a Lamb",
+    "K52a BCS",
+    "K66 Bell",
+    "K67 Born",
+    "K68 Computation",
+    "K69 Q=126"
+  ]
+}

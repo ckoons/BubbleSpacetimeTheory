@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "SP-30-3 commitment manipulation"
+  },
+  "framework_anchor": "W-32 thermal (Toy 3066) + W-39 atomic-clock microwave + W-30/37/40 beacon",
+  "BST_amplitude": "\u0394\u03c4/\u03c4 ~ 10\u207b\u00b9\u2074 baseline; Q-amplified to 10\u207b\u00b9\u00b9 at resonance",
+  "apparatus": {
+    "extends": "SP-29-1 Cs-137 setup",
+    "added_components": [
+      "custom microwave cavity",
+      "lock-in detection",
+      "frequency sweep"
+    ],
+    "cost_USD": "80-150K incremental",
+    "timeline_months": -6
+  },
+  "falsifier": {
+    "confirms": "\u22655\u03c3 resonant decay-rate modulation at predicted eigentone",
+    "refutes": "null at <10\u207b\u00b9\u2074 over 1 GHz sweep",
+    "standard_physics_prediction": "STRICT NULL (nuclear decay decoupled from EM)"
+  },
+  "SP_30_design_hierarchy": [
+    "SP-30-5 Bell #1 (fastest)",
+    "SP-30-1 \u03b3-spec #2 (most mature)",
+    "SP-30-3 microwave #3 (THIS \u2014 middle cost/timeline)",
+    "SP-30-2 Casimir+Cs-137 #4 (incremental on SP-29-1)"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "K52a Session 9 Step 1 numeric closure"
+  },
+  "casey_authorization": "2026-05-19 PM \"Go on all K52a Sessions\"",
+  "status": "STEP 1 NUMERIC CLOSURE ACHIEVED",
+  "derivation": {
+    "GF_field": "GF(2^7) = GF(128) via primitive polynomial x^7 + x + 1",
+    "Frobenius": "\u03c6(x) = x^2, order g = 7",
+    "fixed_points_in_M_g": 1,
+    "non_trivial_orbits": 18,
+    "orbit_length": 7,
+    "total": "18 \u00b7 7 = 126 = M_g \u2212 1"
+  },
+  "new_BST_primary_form": {
+    "126_eq_N_c_C_2_g": "126 = 3 \u00b7 6 \u00b7 7 (Frobenius-orbit decomposition)",
+    "context": "FOURTH independent BST-primary form for 126"
+  },
+  "all_four_forms": {
+    "cyclotomic_M_g_minus_1": 126,
+    "field_2g_minus_rank": 126,
+    "cascade_N_max_minus_c_2": 126,
+    "Frobenius_N_c_C_2_g": 126
+  },
+  "cascade_unblock_status": "1 of 6 K52a closures advanced (Step 1 numeric)"
+}

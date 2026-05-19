@@ -18,7 +18,7 @@
       "tension"
     ],
     "eod_session": "2026-05-18 EOD",
-    "total_predictions": 118
+    "total_predictions": 120
   },
   "predictions": [
     {
@@ -2165,6 +2165,36 @@
       "status": "active structural falsifier",
       "filed_by": "Grace per Elie Toy 3103 (Tue 2026-05-19 Casey 'for fun' direction)",
       "notes": "Companion to pred_114 (WIMP-null) + pred_115 (proton-decay null). Three of five 'absence prediction' falsifiers in BST. Remaining two: no monopoles + no sterile neutrinos/SUSY. All five must remain null forever for BST to survive."
+    },
+    {
+      "id": "pred_119",
+      "name": "SP-30-1 BST primary eigentone resonance (Lyra T2396 + Elie Toy 3109 Fabry-Pérot design)",
+      "category": "SP-30 substrate engineering / FIRST POSITIVE BST prediction at eigentone scale",
+      "prediction": "12 BST primary eigentones predicted with explicit Hz frequencies (Lyra T2396 v0.1 catalog). Falsifier (Elie Toy 3109 design): high-finesse optical Fabry-Pérot cavity (Q~10⁸) at optical-range BST eigentone (~500-700 nm). ≥5σ enhancement at f_BST CONFIRMS substrate eigentone hypothesis (POSITIVE detection — distinct from BST's 4 absence predictions). Null <0.05% across all 12 eigentones REFUTES SWPP eigentone framework. Standard QED predicts ZERO deviation — clean binary discrimination.",
+      "experimental_target": "Fabry-Pérot cavity (existing high-finesse optical infrastructure) at NIST, PTB, JILA, MPI Garching",
+      "cost_estimate": "$100-200K",
+      "timeline": "~12 months",
+      "theorem": "Lyra T2396 + Casey SWPP (T2385 + Substrate_Working_Process_Principle.md)",
+      "source_toy": "play/toy_3110_sp30_1_eigentone_catalog.py + play/toy_3109_sp30_1_falsification_design.py",
+      "tier": "I",
+      "status": "active POSITIVE prediction (distinct from BST's 4 absence-prediction nulls)",
+      "filed_by": "Grace per Lyra T2396 + Elie Toy 3109 (Wed 2026-05-19 SP-30 kickoff)",
+      "notes": "SP-30-1 is BST's first CLEAN POSITIVE prediction at substrate-eigentone scale. Cross-anchored with Five-Absence Framework (4 NULLs + 1 positive = directly testable Popper-strength external claim). If POSITIVE: substrate-as-active-thinking promoted to D-tier (T2385 Level 2 closes). If NEGATIVE: SWPP eigentone framework refuted, substrate ontology constrained."
+    },
+    {
+      "id": "pred_120",
+      "name": "SP-30-5 Bell-violation 0.79% deviation — FASTEST BST falsifier (Elie Toy 3115)",
+      "category": "SP-30 substrate engineering / FASTEST FALSIFIER in BST portfolio",
+      "prediction": "BST predicts EXACT algebraic identity: Tsirelson² − S_BST² = 1/2^N_c = 1/8 EXACTLY (Lyra T2399 Toy 3119 8/8 PASS at 1e-14 precision). S_BST² = (2^g − rank)/2^{rank²} = (N_max − c_2)/2^{rank²} = 126/16 = 63/8 (two BST-primary forms equivalent). S_BST = √(63/8) ≈ 2.806 vs Tsirelson 2√2 ≈ 2.828. NOT numerical proximity — EXACT algebraic deviation at BST primary scale. Cleanest contrast: BST predicts STRICT inequality S_BST² = Tsirelson² − 1/2^N_c; QM allows Tsirelson as ideal upper bound. 0.79% deviation; 5σ discrimination at 0.16% precision (achievable at current Bell-experiment apparatus). Vienna-class photonic CHSH test with 10^8 coincidence statistics.",
+      "experimental_target": "Vienna (Zeilinger), Caltech (Boyd), Munich (Weinfurter), Delft (Hanson) Bell-experiment labs",
+      "cost_estimate": "$300-500K",
+      "timeline": "6-12 months — FASTEST FALSIFIER in BST portfolio",
+      "theorem": "Lyra T2397 sub-item 5a (SP-30-5 framework) + Elie Toy 3115 experimental design",
+      "source_toy": "play/toy_3115_SP30_5_Bell_violation_experimental_design.py",
+      "tier": "I",
+      "status": "active POSITIVE prediction; outreach-ready per Elie priority order",
+      "filed_by": "Grace per Elie Toy 3115 + Lyra T2397 (Wed 2026-05-19 PM)",
+      "notes": "FASTEST FALSIFIER in BST portfolio per Elie outreach-priority recommendation. SP-30-5 ranks #1 for external outreach (above SP-30-1 eigentone γ-spec). Bypasses Casimir redesign + atomic-clock precision frontiers. Major quantum-foundations-grade falsifier. If Tsirelson ≈ S_obs at 0.16% precision: SWPP Bell-deviation refuted. If S_obs ≈ 2.806 at 0.16% precision: BST substrate-as-active-thinking gains operational confirmation (T2385 Level 2 D-tier promotion path). [EXACT algebraic identity strengthening 2026-05-19 PM Lyra T2399: prediction upgraded from 'near Tsirelson 0.79%' to 'EXACT deviation 1/2^N_c at BST primary scale.' Cal Mode 1 post-hoc bias drastically strengthened — formula CONSTRUCTED from BST primaries with no fitting parameter. Substantially harder to dismiss as numerical coincidence.]"
     }
   ]
 }

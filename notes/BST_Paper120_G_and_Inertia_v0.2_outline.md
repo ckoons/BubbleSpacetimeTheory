@@ -44,7 +44,7 @@ We make three precise structural claims:
 The substrate's gravitational coupling saddle IS the Planck scale, encoded as C_2·g + rank = 44 e-folds of substrate hierarchy between proton and Planck. G is small because it's the *integrated* response across this 44-level hierarchy, not because the per-level coupling is weak.
 
 **(2) Inertia at the same G (structural identity, not equivalence-principle postulate)**:
-The substrate's response to mass DENSITY (gravitational) and mass VELOCITY (inertial) are projections of the same coupling along different geometric directions of D_IV⁵. Hence m_inertial = m_gravitational is a **structural theorem** in BST, not a postulate. Eötvös experiments to 10⁻¹³ confirm; BST predicts this holds at all precisions because it's a substrate-mediated identity.
+The substrate's response to mass DENSITY (gravitational) and mass VELOCITY (inertial) are projections of the same coupling along different geometric directions of D_IV⁵. Hence m_inertial = m_gravitational is a **structural identification** in BST, not a postulate. Eötvös experiments to 10⁻¹³ confirm; BST predicts this holds at all precisions because it's a substrate-mediated identity.
 
 **(3) Mach's principle and the T−U Lagrangian split as projection artifacts**:
 Local inertia depends on substrate compliance, which depends on all distant mass-as-commitment-rate distributions — Mach-like, mediated by D_IV⁵. The kinetic-potential split T − U = L is a 4D-spacetime projection of substrate commitment flowing in different geometric directions of the 5-complex-dim substrate. Energy is interconvertible because T and U are the same underlying substrate quantity wearing different 4D labels.
@@ -197,7 +197,7 @@ Gravitational and inertial coupling are projections of the SAME substrate-compli
 - **Gravitational direction**: substrate response to mass DENSITY (gradient in spatial direction along mass-mass line)
 - **Inertial direction**: substrate response to mass VELOCITY (gradient in temporal direction along motion)
 
-Both quantities = "substrate compliance per unit commitment rate." Same compliance, same magnitude, same numerical value. **m_inertial = m_gravitational is a structural theorem, not a postulate.**
+Both quantities = "substrate compliance per unit commitment rate." Same compliance, same magnitude, same numerical value. **m_inertial = m_gravitational is a structural identification, not a postulate.**
 
 ### 5.3 Eötvös experimental status
 
@@ -335,7 +335,7 @@ Per Cal Coincidence_Filter_Risk: NOT "BST has derived gravity." Correct: "BST ha
 BST provides a **substrate-mediated reading of G and inertia** in which:
 - G = substrate compliance integrated across C_2·g + rank = 44 e-folds of hierarchy
 - Inertia = substrate response to mass velocity, equal in magnitude to gravitational mass-to-mass coupling
-- m_inertial = m_gravitational is a **structural theorem**, not a postulate
+- m_inertial = m_gravitational is a **structural identification**, not a postulate
 - T − U Lagrangian separation is a 4D projection of substrate commitment flowing in different D_IV⁵ directions
 
 This reading is **falsifiable** at concrete experimental scales via the SP-29 program — same substrate-coupling mechanism appears at gravitational, photonic (Casimir), and nuclear (Cs-137 decay) scales with identical BST primary forms (e.g., 3/1507 in Decca Lifshitz residual + SP29-1 Cs-137 prediction).

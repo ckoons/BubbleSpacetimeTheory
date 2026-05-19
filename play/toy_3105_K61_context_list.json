@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "K61 audit context list with P1-P7"
+  },
+  "target": "131 = N_max - C_2 (prime)",
+  "contexts_examined": 6,
+  "contexts_pass_strict_P1_P7": 4,
+  "conditional_pending_independence_check": 1,
+  "excluded_meta_marker": 1,
+  "structurally_different": 1,
+  "honest_count": "3 strong + 1 conditional (down from raw scan 6)",
+  "K_audit_threshold": "AT 3-4+ candidate territory per Keeper policy",
+  "recommended_ruling": "Option A: ELEVATED-3-CONTEXT-CANDIDATE (parallel to K52a/K54)",
+  "contexts": [
+    {
+      "id": "K61-C1",
+      "context": "Frobenius a_131 of Cremona 49a1",
+      "BST_form": "a_131 = 12 = rank\u00b7C_2 (BST-smooth Frobenius trace)",
+      "catalog_ref": "INV ~13717 D-tier",
+      "P1_citation": "Cremona elliptic curves table; Toy ~1502 verification + Heegner-Stark K47 anchor",
+      "P2_anthropic": "PASS (number theory / elliptic curves)",
+      "P3_post_hoc": "PASS (131 arises as prime index in modular form, not post-hoc construction)",
+      "P4_pre_registration": "131 IS the prime; BST-smooth condition was tested across primes",
+      "P5_scan_protocol": "EXACT match at prime p=131; BST-smooth means a_p factors in BST primes",
+      "P6_independence": "PASS (number theory; independent of cosmology/atomic physics)",
+      "P7_tier": "D-tier per catalog",
+      "verdict": "COUNTS for K61 family"
+    },
+    {
+      "id": "K61-C2",
+      "context": "z_rec recombination redshift formula",
+      "BST_form": "z_rec = rank\u00b3\u00b7N_max - C_2 = 8\u00b7137 - 6 = 1090",
+      "catalog_ref": "INV ~23086 D-tier T1955 0.018%",
+      "P1_citation": "Planck 2018 CMB; T1955 D-tier theorem",
+      "P2_anthropic": "PASS (cosmology)",
+      "P3_post_hoc": "PASS (rank\u00b3\u00b7N_max - C_2 is BST primary product MINUS C_2)",
+      "P4_pre_registration": "z_rec \u2248 1090 observed; BST form derived from BST scale ladder",
+      "P5_scan_protocol": "Direct catalog match; 1090 has multiple BST primary identifications",
+      "P6_independence": "PASS (cosmology; independent of number theory/atomic)",
+      "P7_tier": "D-tier per catalog T1955",
+      "verdict": "COUNTS for K61 family (uses N_max - C_2 = 131 implicitly: z_rec/rank\u00b3 = N_max - C_2/rank\u00b3 = 131.X)",
+      "caveat": "Wait \u2014 z_rec = rank\u00b3\u00b7N_max - C_2 has STRUCTURE rank\u00b3\u00b7N_max - C_2, not N_max - C_2 directly. C2 is subtracted from rank\u00b3\u00b7N_max not N_max. May NOT count for K61 strict form."
+    },
+    {
+      "id": "K61-C3",
+      "context": "S-state damping in atomic spectroscopy (Lyra Toy 1716)",
+      "BST_form": "exp(k\u2080(3S))/exp(k\u2080(2S)) = 1 - C_2/N_max = 131/137",
+      "catalog_ref": "INV ~32942",
+      "P1_citation": "Lyra Toy 1716; \u03bd standard QED atomic-physics anchor",
+      "P2_anthropic": "PASS (atomic spectroscopy)",
+      "P3_post_hoc": "PASS (131/137 is direct BST primary fraction)",
+      "P4_pre_registration": "Ratio 131/137 = 1 - C_2/N_max derived from spectral structure",
+      "P5_scan_protocol": "Direct catalog match; ratio form clean BST primary",
+      "P6_independence": "PASS (atomic spectroscopy; independent of cosmology/number-theory)",
+      "P7_tier": "I-tier per Toy 1716 reading",
+      "verdict": "COUNTS for K61 family (numerator IS 131 = N_max - C_2)"
+    },
+    {
+      "id": "K61-C4",
+      "context": "c-function RG drop",
+      "BST_form": "\u0394c = C_2/N_max relative shift = 6/137 = 1 - 131/137",
+      "catalog_ref": "Toy 2112 + related BST field-theory references",
+      "P1_citation": "BST field theory framework (Lyra LAG-1 work; Toy 2112)",
+      "P2_anthropic": "PASS (BST field theory)",
+      "P3_post_hoc": "PARTIAL \u2014 same numerator-denominator structure as #C3; check independence",
+      "P4_pre_registration": "Pre-existed in BST field theory before today",
+      "P5_scan_protocol": "Direct catalog match",
+      "P6_independence": "CONCERN \u2014 overlaps with C3 (both 131/137 ratio forms). Are they really independent or same mathematical object viewed differently?",
+      "P7_tier": "I-tier",
+      "verdict": "CONDITIONAL \u2014 depends on Cal P6 independence check vs C3"
+    },
+    {
+      "id": "K61-C5",
+      "context": "B5 Phase A A_4 = 131 (QED 4-loop, Lyra T2391 today)",
+      "BST_form": "A_4 = 131 = N_max - C_2 (K-type count at 4-loop)",
+      "catalog_ref": "INV ~65318 + INV ~65326 (Lyra T2391 Tuesday)",
+      "P1_citation": "Lyra Toy 3094; T2391; standard QED muon g-2 4-loop literature",
+      "P2_anthropic": "PASS (QED / particle physics)",
+      "P3_post_hoc": "PASS (131 is K-type count at 4-loop, BST identifies with N_max - C_2)",
+      "P4_pre_registration": "BST B5 Phase A pre-registered systematic series A_2..A_5",
+      "P5_scan_protocol": "BST integers tested against QED A_n coefficients systematically",
+      "P6_independence": "PASS (QED 4-loop; independent of cosmology/atomic-spectroscopy)",
+      "P7_tier": "I-tier (Lyra T2391 internal Type C identification within Phase A I-tier)",
+      "verdict": "COUNTS for K61 family (NEW today, independent QED context)"
+    },
+    {
+      "id": "K61-C6",
+      "context": "Lyra cross-domain Type C-\u2115 marker (INV-65326)",
+      "BST_form": "QED A_4 (T2071) = BST c-function RG drop (T2112) = N_max - C_2",
+      "catalog_ref": "INV-65326 (Lyra T2391 worked example for Type C-\u2115)",
+      "P1_citation": "Lyra T2391; T2071 (QED) + T2112 (BST c-function)",
+      "P2_anthropic": "PASS",
+      "P3_post_hoc": "PASS",
+      "P4_pre_registration": "Lyra Type C-\u2115 taxonomy pre-registered today",
+      "P5_scan_protocol": "Convergence at 131 observed between two pre-existing predictions",
+      "P6_independence": "CONCERN \u2014 Lyra C-\u2115 marker is META-OBSERVATION of C4 + C5 convergence. Not an INDEPENDENT context but a synthesis of two.",
+      "P7_tier": "I-tier as marker; META not independent context",
+      "verdict": "EXCLUDE from K61 independent-context count (it IS the convergence of C4+C5, not a third independent instance)"
+    }
+  ]
+}

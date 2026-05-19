@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "K52a Session 6 opening"
+  },
+  "status": "OPENING; multi-month substrate-Hamiltonian Bethe derivation framework",
+  "three_step_path": {
+    "Step_1": "Construct H_sub explicitly from D_IV^5 geometry",
+    "Step_2": "Verify cyclotomic-symmetry preservation under Wilsonian RG",
+    "Step_3": "Reproduce Bethe-log Drake-Swainson 19.77269 from substrate"
+  },
+  "connection_to_BST_framework": [
+    "Reed-Solomon GF(2^g) (Paper #122 \u00a74)",
+    "K52a Session 3 cyclotomic mechanism (Toy 3091)",
+    "K59 candidate 2^g = 128 function alphabet",
+    "K58 Type C cyclotomic protocol"
+  ],
+  "sessions_summary": {
+    "closed": [
+      "1 framework",
+      "2 spectral negative",
+      "3 cyclotomic opened",
+      "4 Lamb outline",
+      "5 BCS outline",
+      "Criterion 1 hunt negative"
+    ],
+    "opening": "6 substrate-Hamiltonian (THIS)",
+    "pending_multi_month": [
+      "7 BCS substrate-Hamiltonian",
+      "8-N derivation Steps 1-3"
+    ]
+  },
+  "tier_status": "K52a elevated-with-mechanism-candidate; sessions 6+ continue"
+}

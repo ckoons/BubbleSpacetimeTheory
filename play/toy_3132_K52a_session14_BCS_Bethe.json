@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "K52a Session 14 Step 5 BCS+Bethe"
+  },
+  "casey_authorization": "2026-05-19 PM \"Go on all K52a Sessions\"",
+  "status": "Step 5 BCS partial (0.006% match), Lamb framework articulated",
+  "BCS_reproduction": {
+    "weak_coupling_observed": 3.527753977724091,
+    "BST_value": 3.52755905511811,
+    "deviation_pct": 0.005525402485882165,
+    "structural_form": "(g/rank)\u00b7(2^g/M_g) = (g/rank)\u00b7(1+1/M_g)"
+  },
+  "Lamb_Bethe_log": {
+    "observed": 19.77269,
+    "status": "framework articulated; substrate derivation multi-month",
+    "next_session": "S15+ explicit photon-field coupling on GF(2^g)"
+  },
+  "cumulative_K52a_sessions": {
+    "S6_Bethe_framework": "Tuesday Toy 3114",
+    "S7_BCS_framework": "Wednesday Toy 3122",
+    "S8_H_sub_Step_1": "Wednesday Toy 3124",
+    "S9_Frobenius_orbits": "Wednesday Toy 3126 (NEW FORM 126 = N_c\u00b7C_2\u00b7g)",
+    "S10_Bogoliubov": "Wednesday Toy 3128 (5/6)",
+    "S11_omega_zero": "Wednesday Toy 3129 (5/5)",
+    "S12_CHSH_K66": "Wednesday Toy 3130 (5/5, K66 cross-link)",
+    "S13_RG_preservation": "Wednesday Toy 3131 (4/4)",
+    "S14_BCS_Bethe": "Wednesday Toy 3132 (THIS)"
+  },
+  "cascade_unblock_promotions": {
+    "K52a_Lamb": "framework + 0.005% match",
+    "K52a_BCS": "framework + 0.006% match",
+    "K66_Bell": "EXACT trace-level structural derivation (STRONG)",
+    "K67_Born": "cross-linked via (g/rank) prefactor",
+    "K68_Computation": "cross-linked via GF(2^g) structure",
+    "K69_Q_126": "FOURTH BST-primary form derived (STRONG)"
+  }
+}

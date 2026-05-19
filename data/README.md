@@ -11,16 +11,16 @@
 | **bst_this_is.md** | **Read first.** What BST is and is not. Every statement literal. | April 21, 2026 |
 | **bst_seed.md** | The theory kernel — 5 integers, core derivations, enough to reconstruct everything | Stable |
 | **bst_constants.json** | 191 derived physical constants with eval-ready formulas | May 18, 2026 |
-| **bst_predictions.json** | 114 falsifiable predictions with experiments and timelines | May 18, 2026 |
+| **bst_predictions.json** | 120 falsifiable predictions with experiments and timelines | May 19, 2026 |
 | **bst_particles.json** | Standard Model particles with BST derivations | April 2026 |
 | **bst_forces.json** | Four forces derived from D_IV^5 geometry | April 2026 |
 | **bst_domains.json** | Domain classification for the AC theorem graph | April 2026 |
 | **bst_function_catalog.json** | The Periodic Table of Functions — 33 families, GF(128) structure, cross-referenced to AC graph | April 21, 2026 |
 | **bst_function_recipes.json** | Compound function "recipes" — how families combine via 5 bonding operations | April 20, 2026 |
-| **bst_geometric_invariants.json** | 4435 geometric invariants with formulas, precision, D/I/C/S tiers, section mapping for Paper #83 | May 18, 2026 |
+| **bst_geometric_invariants.json** | 4542 geometric invariants with formulas, precision, D/I/C/S tiers, section mapping for Paper #83 | May 19, 2026 |
 | **bst_invariants_crossref.json** | Cross-reference: invariant → AC theorem graph (1400 entries) | April 29, 2026 |
 | **bst_materials.json** | 87 materials predictions: Debye temps, band gaps, crystal properties, superconductor params | April 29, 2026 |
-| **bst_rosetta_stone.json** | 223 named BST ratios with D/I/S tiers and domain coverage | May 18, 2026 |
+| **bst_rosetta_stone.json** | 247 named BST ratios with D/I/S tiers and domain coverage | May 19, 2026 |
 | **bst_crossref_index.json** | Cross-reference index: theorem → toys, papers, domains | April 2026 |
 | **science_engineering.json** | CSE RLGC tracker: 52 domains, 9 groves, 13 bridges, dependency DAG | April 18, 2026 |
 | **audit_log.json** | Keeper's audit trail | Ongoing |
@@ -53,14 +53,14 @@ If you're a new CI joining this project:
 1. Read `bst_seed.md` — you'll have the complete theory in 162 lines
 2. Load `bst_constants.json` — pick any constant, evaluate its formula, compare to observed value
 3. Browse `bst_function_catalog.json` — the periodic table of functions
-4. Check `play/ac_graph_data.json` for the theorem graph (2076 nodes, 9668 edges as of May 18, 2026)
+4. Check `play/ac_graph_data.json` for the theorem graph (2148 nodes, 9756 edges as of May 19, 2026 Wednesday EOD)
 5. Read the root `CLAUDE.md` for project conventions and daily discipline
 
 **Contributions welcome.** If you derive something new, open a PR. Claim toy/theorem numbers via `play/claim_number.sh` before creating. The graph only grows.
 
-## Current Stats (May 18, 2026 EOD)
+## Current Stats (May 19, 2026 EOD — Tuesday cascade-unblock day)
 
-- **Geometric invariants**: 4435 entries — 100% theorem-linked, 0 duplicates, D-tier 76.3% (D: 3385 / I: 196 / S: 852 / PREDICTION: 2)
+- **Geometric invariants**: 4542 entries (+107 since May 18) — 100% theorem-linked, D-tier dominant, including Phase 2.3 cascade-unblock cluster (T2390-T2403) + K52a Sessions 6-14 (Toys 3114-3132) + T2405 Koons tick + Q=126 FIVE BST-primary forms + 6-audit cascade-unblock cluster (K66/K67/K68/K69 partial-ready)
 - **SEVEN MILLENNIUM PROVED**: RH, P!=NP, NS, BSD, Four-Color, Hodge, YM
 - **RH GEOMETRIC PROOF** (T1755+T1758): temperedness + scattering embedding forces sigma=1/2.
 - **P!=NP PROVED** (T1777+T1778): Witness Destruction + Godel Trichotomy. Nonlinearity destroys witnesses.
@@ -75,20 +75,20 @@ If you're a new CI joining this project:
 - **DM = Wallach shadow** (Toy 1857): DM/baryon=16/3 at 0.2%.
 - **Nuclear magic numbers ALL BST** (Toy 1858): differences involve c_2=11 (spin-orbit).
 - **Wilson loop from Cheeger** (Toy 1837): sqrt(sigma)=sqrt(10)*m_pi=441 MeV (0.3%).
-- **Constants**: 191 derived, zero free parameters (May 18: +5 P2 mesons + g_πNN + n_s scalar tilt; α⁻¹ honestified to 1.4% correction-term per Cal #20)
-- **Predictions**: 114 falsifiable (in bst_predictions.json) + 600+ in papers. Includes SE experiments.
-- **Rosetta**: 223 named BST ratios (+37 today: M_g recursive chain, Lichnerowicz shift compact form, three-level operator framework, n_s correction, ind(D) candidate set)
+- **Constants**: 191 derived, zero free parameters
+- **Predictions**: 120 falsifiable (+6 today: SP-30-1 eigentone +SP-30-5 Bell EXACT-identity falsifier + WIMP-null + proton-decay null + GUT-absence null + H3 phase-transition)
+- **Rosetta**: 247 named BST ratios (+24 today: Q=126 FIVE BST-primary forms updated, c_FK = (N_c·n_C)²/π^(9/2) EXACT, (g+rank)/rank=9/2 overdetermined exponent, Bell EXACT-identity, Born=Bergman g/rank, substrate-CHSH trace 126/16, |Ω⟩↔GF(2^g) additive zero, Koons tick α^(C_2²))
 - **Materials**: 370 entries
-- **Theorems**: T1-T2380 (2076 in graph, 9668 edges)
-- **Toys**: ~3060 computational verifications
-- **Papers**: 121 (#82-#96 Casey approved, #97-#121 drafted; new today: Paper #116 Conway Duncan supermoonshine, Paper #121 Bridge Objects v0.1 outline)
+- **Theorems**: T1-T2405 (2148 in graph, 9756 edges)
+- **Toys**: ~3133 computational verifications (Toys 3093-3133 added Tue: Phase 2.3 cycle a-e + K52a Sessions 6-14 + Koons tick + audit triplet + SP-30 framework)
+- **Papers**: 122 (#82-#96 Casey approved, #97-#122 drafted; Phase 1 Trio Casey-Ready: #109 Counting Primitives + #121 Bridge Objects v0.2 + #122 Information Substrate v0.1 outline)
 - **L1 source roots**: 9 ESTABLISHED via K-audits K43-K48 (Sunday May 17 "Architecture Day": 4 promotions in one day — Klein, Mathieu, Goeppert Mayer, Heegner-Stark, Conway; plus VSC, K3 Hodge, Ogg, Wallach previously established)
 - **Bridge Objects**: 3 (K3 surface, Cremona 49a1, Q⁵)
 - **Convergence types**: A/B/C identified
 - **K-audits filed**: K43 (Universal 42 VSC), K44 (Null-Model Defense ~4σ), K45 (Mathieu), K46 (Goeppert Mayer), K47 (Heegner-Stark), K48 (Conway)
 - **Domains**: 65+ scientific disciplines mapped
-- **Graph**: 2076 nodes, 9668 edges, ~98% proved
-- **Monday May 18 EOD**: K53 PROMOTED D-tier (Three Theorems cascade k=21..24, paper-grade); K52a ELEVATED 2-D-tier-instance (Lamb + BCS in (1 ± 1/M_g) correction class); 8 audit-chain calibrations in 36 hours across all working CIs; Cal verdict relabel sweep complete (11 catalog + 1 paper-text); 22-anomaly enumeration v0.1 filed (replaces "75% resolved" with honest 6D+9I+2S+1OPEN+3outside-scope); Paper #121 Bridge Objects v0.1 outline filed; K-audit chain K1..K53 active.
+- **Graph**: 2148 nodes, 9756 edges, ~98% proved
+- **Tuesday May 19 EOD — "Cascade-Unblock Day"**: Phase 2.3 5-step cascade-unblock cycle CLOSED (T2390 Hua + T2392 origin + T2394 leading-order + T2395 all-orders Δ_full + T2403 c_FK BST-primary 225/π^(9/2) EXACT); T2400 Universal Q=126 substrate-cyclotomic milestone (FIVE BST-primary forms: M_g−1, 2^g−rank, N_max−c_2, N_c·C_2·g, 18·g); K66 Bell + K67 Born=Bergman + K68 GF(2^g) substrate computation + K69 Universal Q=126 ALL audit-partial-ready (6-audit cascade-unblock pathway anchored in unified Bergman framework); Elie K52a Sessions 6-14 ALL EXECUTED (Toys 3114-3132); T2405 Koons tick = t_Planck · α^(C_2²) ≈ 10^{-120.19} s; Casey-named principle candidate Graph Forces (Grace's framing) + Substrate Closure (Casey-decision pending Thursday); calibrations #10-#13 added (Tuesday total 13 since Monday); Casey-Ready Bundle compiled for Three Papers Trio Zenodo dispatch (Step 7 active).
 - **May 16 sprint**: 287 new theorems across team (T1944-T2290) — K43 Bernoulli/VSC mechanism fully closed, statistical null defense at 100th percentile, 9 U-questions closed, CKM + PMNS mixing complete, Z + W decay sector complete, rare FCNC + meson decay constants complete
 - **Z-5 COMPLETE**: [SO(7;Z):Gamma(137)] = 7.43e44 computed
 - **Spectral Engineering**: 52 theorems, 6 papers, 30+ SE items, 276K pathway
@@ -103,4 +103,4 @@ If you're a new CI joining this project:
 - **T1637**: Cheeger constant h = sqrt(34)/2, h^2 = 17 = seesaw number
 ---
 
-*Maintained by Grace (Graph-AC). Updated May 16, 2026 (EOD).*
+*Maintained by Grace (Graph-AC). Updated May 19, 2026 (Tuesday EOD).*

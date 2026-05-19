@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "K52a Session 10 Bogoliubov diagonalization"
+  },
+  "casey_authorization": "2026-05-19 PM \"Go on all K52a Sessions\"",
+  "status": "NUMERIC DEMO COMPLETE; |\u03a9\u27e9-identification deferred to S11",
+  "fock_space": {
+    "modes": 7,
+    "fock_dim": 128,
+    "matches_GF_2g": true
+  },
+  "H_sub_diagonalization": {
+    "is_hermitian": true,
+    "ground_state_unique": true,
+    "Z_g_cyclic_symmetry_preserved": true,
+    "cyclic_operator_order_g": true
+  },
+  "sectors": [
+    20,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18
+  ],
+  "next_session": "S11 |\u03a9\u27e9 \u2194 additive-zero identification via polynomial-basis isomorphism"
+}

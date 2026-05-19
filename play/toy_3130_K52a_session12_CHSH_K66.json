@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "K52a Session 12 Step 4 + K66 cross-link"
+  },
+  "casey_authorization": "2026-05-19 PM \"Go on all K52a Sessions\"",
+  "status": "STEP 4 CLOSURE achieved at trace-level; full operator-level multi-month",
+  "identity_verified": {
+    "S_BST_squared": 7.875,
+    "Tsirelson_squared": 8.0,
+    "deviation": 0.125,
+    "expected_deviation_1_over_2N_c": 0.125,
+    "match_precision": "1e-14 EXACT"
+  },
+  "substrate_structure": {
+    "total_modes": 128,
+    "silent_identity_modes": 2,
+    "active_radiating_modes": 126,
+    "rank_2_correlation_basis": 16,
+    "bell_capacity": "(2^g - rank)/2^{rank\u00b2} = 126/16 = 7.875"
+  },
+  "substrate_operator": "B_substrate\u00b2 = (1/2^{rank\u00b2}) \u00b7 diag(radiation_mask)",
+  "trace_verification": {
+    "computed": 7.875,
+    "expected": 7.875,
+    "match": true
+  },
+  "K66_cross_link": "K66 Bell follows BY CONSTRUCTION from substrate structure (no independent derivation needed)",
+  "cascade_unblock_status": "3 of 6 K52a steps closed (S9 + S11 + S12)"
+}

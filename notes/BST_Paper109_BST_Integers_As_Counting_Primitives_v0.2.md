@@ -146,15 +146,15 @@ Per Cal Coincidence_Filter_Risk + Keeper audit-chain discipline (K54-K58 governa
 | Section 2 First Six Primes | Observational coincidence | **D-tier** arithmetic identity for specific integer set; **I-tier** for framework-level interpretation |
 | Section 3 Partition correspondence | Observation | **I-tier** Type C-ℕ at small n, 5 consecutive matches + extension at p(10) = 42 |
 | Section 4+ Catalan/Bernoulli/etc. | Observations | **I-tier** with K43 D-tier anchor for Bernoulli VSC mechanism |
-| Section 9 Outcome A framing | Discipline framing | **I-tier framework** — honest structural identification, not "BST proves primality"; same shape as K57 Bridge Object architectural identification |
-| Section 10 Open questions | Future scope | **I-tier scoping** with explicit catalog-selection-bias acknowledgment per Cal Mode 5 |
+| Section 9 Outcome A framing | Discipline framing | **I-tier framework** — honest structural identification, not "BST proves primality" |
+| Section 10 Open questions | Future scope | **I-tier scoping** with explicit catalog-selection-bias acknowledgment |
 
 ### Three Papers Trio integration (Tuesday 2026-05-19)
 
 Paper #109 is the **arithmetic channel** of the Three Papers Trio (coordination doc per Keeper Tuesday 2026-05-19):
 
 - **Paper #109 (this paper, arithmetic)**: I-tier framework + D-tier first-6-primes identity + D-tier Bernoulli VSC anchor
-- **Paper #121 (geometry)**: I-tier framework + K57 architectural ratification + Bridge Object full B1-B4 per K3/49a1/Q⁵ (Grace v0.3.1 status; PASS pending Cal recheck)
+- **Paper #121 (geometry)**: I-tier framework + Bridge Object full B1-B4 per K3/49a1/Q⁵
 - **Paper #122 (physics)**: I-tier framework + GF(2^g) Reed-Solomon substrate alphabet (cascade-unblock via Elie K52a sessions 6+)
 
 All three at I-tier framework with explicit per-claim tier discipline. Multi-channel evidence shape strengthens external survivability per Cal's framework.
