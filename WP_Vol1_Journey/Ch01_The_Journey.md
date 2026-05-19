@@ -8,7 +8,7 @@ status: "Second edition — calibrated confidence levels, methodology chapter ad
 cite_as: "Koons, C. (2026). One Geometry: Physics from D_IV^5. GitHub/Zenodo."
 ---
 
-<!-- Volume:Chapter library position: Volume 1 (The Journey), Chapter 1: The Journey (full narrative). Up: ./INDEX.md → ../WorkingPaper.md -->
+<!-- Volume:Chapter library position: Volume 1 (The Journey), Chapter 1: The Journey (full narrative). Up: ./INDEX.md → ../Master_Index.md -->
 
 
 # One Geometry: Physics from $D_{IV}^5$

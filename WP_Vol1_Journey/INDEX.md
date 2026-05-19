@@ -3,7 +3,7 @@ title: "Volume 1: The Journey — Index"
 volume: "Volume 1: The Journey"
 reader: "Curious public, bright high-schooler, intuition-first reader"
 voice: "Narrative — Casey's voice, story of discovery"
-parent: "../WorkingPaper.md (master library index)"
+parent: "../Master_Index.md (master library index)"
 date: "2026-05-19"
 ---
 
@@ -30,7 +30,7 @@ pandoc Ch*.md -o Volume.pdf --pdf-engine=xelatex -H ../notes/bst_pdf_header.tex
 
 ## Navigation
 
-- **Up**: [Master Library Index](../WorkingPaper.md)
+- **Up**: [Master Library Index](../Master_Index.md)
 - **All volumes**: Vol 1 Journey, Vol 2 Framework, Vol 3 Physics, Vol 4 Mathematics, Vol 5 Predictions, Vol 6 Frontier
 
 — Keeper, 2026-05-19

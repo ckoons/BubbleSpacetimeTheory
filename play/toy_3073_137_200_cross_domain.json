@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "Cross-domain analysis: 137/200 cosmology vs nuclear"
+  },
+  "BST_primary_form": "N_max/(rank^3\u00b7n_C^2) = 137/200 = 0.685",
+  "cross_domain_anchors": {
+    "Omega_Lambda": {
+      "tier": "D",
+      "precision": 0.0,
+      "source": "Toy 3071"
+    },
+    "mu_n_over_mu_p": {
+      "tier": "D",
+      "precision": 0.045,
+      "source": "T1447 catalog"
+    }
+  },
+  "scale_separation_orders": 41,
+  "classification": "Type B + Type C convergence (Lyra+Elie+Cal taxonomy)",
+  "audit_protocol_pass": {
+    "P1_citation": "YES (both catalog D-tier)",
+    "P2_anthropic_exclusion": "YES (physics not anthropic)",
+    "P3_post_hoc_exclusion": "YES (clean N_max/(rank^3\u00b7n_C^2) form)",
+    "P4_pre_registration": "YES (Lambda anchor pre-existed)",
+    "P5_scan_protocol": "YES (direct catalog match)",
+    "P6_cross_domain_independence": "YES (cosmology vs nuclear)",
+    "P7_tier": "D + D"
+  },
+  "BST_structural_reality_evidence": "Strong: same BST primary form at 41-orders-apart scales"
+}

@@ -123,11 +123,11 @@
       "verified"
     ],
     "retro2_applied": "C→D: 0, I→D: 16",
-    "total_invariants": 4438,
+    "total_invariants": 4442,
     "eod_session": "2026-05-18 EOD",
     "tier_distribution": {
-      "D": 3386,
-      "I": 198,
+      "D": 3387,
+      "I": 201,
       "PREDICTION": 2,
       "S": 852
     }
@@ -65105,6 +65105,50 @@
       "precision_pct": null,
       "tier": "I",
       "notes": "Casey's six SP-29 hypotheses (H1 SP29-2 Lyra, H2 SP29-3 Elie, H3 SP29-4 Grace [T2381], H4 SP29-1 trio, H5 SP29-5 Elie; H6 Keeper comparison table). Five testable substrate-mechanism predictions across orthogonal observable channels. If all five succeed → substrate ontology strongly favored. If any fails → that channel constrained. Cross-channel consistency check passed Tuesday 2026-05-19 in Grace Toy 3061."
+    },
+    {
+      "id": "INV-4439",
+      "name": "Substrate-Prepared Information Hypothesis Level 1: Quantum numbers are substrate-internal labels",
+      "domain": "substrate ontology / foundational",
+      "BST_value": "structural",
+      "expression": "Every SM quantum number decomposes into bit (rank), trit (N_c), or BST-primary lattice rational — zero exceptions in catalog of 4438+ entries",
+      "observed_value": "0 exceptions",
+      "precision_pct": null,
+      "tier": "D",
+      "notes": "T2385 Level 1 D-tier. Five structural anchors (Keeper 2026-05-19): (1) Wick rotation as substrate signature, (2) commitment ontology as substrate-step (T1922), (3) conservation laws as substrate consistency rules, (4) BST primaries as substrate vocabulary, (5) cosmic cycles as multi-run continuity (SP-12 U-3, T1258 Mass=Information). Falsifier: an SM observable that resists BST decomposition. Currently zero exceptions in catalog. Cross-particle BST consistency in Paper #122 §3 is the evidence FOR. Casey+Grace+Keeper Tuesday 2026-05-19. [Toy 3069 VERIFIED 4/4 PASS 2026-05-19 09:30 EDT: 43 SM quantum-number observations across 12 distinct particles all decompose into 5-channel substrate alphabet {bit, trit, BST-integer, BST-rational, trit²} — zero exceptions. Falsifier operationally testable.]"
+    },
+    {
+      "id": "INV-4440",
+      "name": "Substrate-Prepared Information Hypothesis Level 2: Active-substrate refinement",
+      "domain": "substrate ontology / hypothesis",
+      "BST_value": "active",
+      "expression": "Substrate actively prepares and maintains particle labels for substrate-internal communication purposes; particles ARE substrate instruments, not communication-carriers",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "T2385 Level 2 I-tier. Casey's USE ANY PARTICLES framing: substrate drafts whatever particles are available (electrons, photons, Cs-137, etc.) into information-maintenance work. Keeper substrate-as-thinking framing: substrate is doing more than passive recording — actively maintaining consistency. Falsifier gap: passive and active readings empirically indistinguishable through 3+1 projection. Falsifier candidates (open): (a) substrate-state divergence under eigentone driving via SP-29 H1-H5 framework, (b) cross-cosmic-cycle constant coherence (inaccessible from within one cycle), (c) non-local correlations requiring substrate-mediated propagation. K-audit candidate (K54 or K55) once Level 2 falsifier is named — currently NOT promoted. Casey+Grace+Keeper Tuesday 2026-05-19."
+    },
+    {
+      "id": "INV-4441",
+      "name": "SP-12 U-3.12 substrate-as-thinking open question (added 2026-05-19)",
+      "domain": "meta / understanding program",
+      "BST_value": "U-3.12 added",
+      "expression": "Is physics the visible trace of substrate dynamics? Active-substrate hypothesis with three falsifier-candidate paths",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "U-3.12 added to SP-12 Understanding Program (notes/BACKLOG.md) per Keeper governance 2026-05-19. The deepest U-question after U-3.11 Mass=Information. Filed alongside T2385 split-tier ruling. Falsifier candidates explicitly enumerated; K-audit standing (K54 or K55) on hold until candidate operationalized."
+    },
+    {
+      "id": "INV-4442",
+      "name": "BST fine-structure family 3/1507 — 5-context Type C convergence (K54 candidate)",
+      "domain": "meta / Type C family / K54 audit candidate",
+      "BST_value": "3/1507 = 0.001991",
+      "expression": "N_c/(N_max·c_2) appearing in 5 independent contexts",
+      "observed_value": "5 contexts",
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Lyra T2386 Tue 2026-05-19. Family-level Type C convergence — structurally stronger than single-instance Type C per Keeper K-audit verdict 2026-05-18 PM. Five contexts: (1) Decca 2007 Casimir residual D-tier 0.6%; (2) SP29-1 Cs-137 H4 I-tier; (3) IP-14 Δα(M_Z) I-tier; (4) W-37 substrate attention I-tier; (5) SP29-3 angular asymmetry I-tier. W-37 (Lyra T2382) proposes substrate-attention mechanism unifier. K54 audit candidate per Keeper queue — Cal Criterion 1 PARTIAL (W-37 mechanism); Cal Criterion 2 PARTIAL (why this specific value multi-week derivation). Stays elevated-not-promoted per K52a-style discipline. Toy 3070 4/4 PASS. Meta-Type-C at team-coherence level: 5 contexts filed by 3 different CIs in 36 hours."
     }
   ],
   "total": 4427

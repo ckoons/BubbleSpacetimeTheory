@@ -3,7 +3,7 @@ title: "Volume 3: The Physics — Index"
 volume: "Volume 3: The Physics"
 reader: "Engaged physicist working with the framework; wants full BST physics"
 voice: "Technical, dynamics-level"
-parent: "../WorkingPaper.md (master library index)"
+parent: "../Master_Index.md (master library index)"
 date: "2026-05-19"
 ---
 
@@ -23,6 +23,10 @@ date: "2026-05-19"
 | [`Ch04_Cosmic_Cascade.md`](Ch04_Cosmic_Cascade.md) | Cosmic Architecture | Sections 22-25: Arrow of Time, Wavefront, Growing Manifold, Cascade of Forced Choices |
 | [`Ch05_Discussion.md`](Ch05_Discussion.md) | Discussion — Lagrangian Status + Partition Function + Central Claim | Section 26: Six-term Lagrangian S_BST status, Partition Function as Master Calculation, QM and GR as scale limits of one substrate, Arrow of Complexity |
 
+## Supporting computational subdirectory
+
+- [`rotation_curves/`](rotation_curves/) — SPARC galaxy rotation curve data + `sparc_bst.py` analysis script + `DarkMatterCalculation.md` documenting BST's channel-noise framework for galaxy rotation curves (no dark matter particles required). Directly supports Chapter 3 (Dark Matter as Channel Noise, originally Section 19 of monolithic). Moved into Volume 3 on 2026-05-19 from repository root.
+
 ## Build instructions
 
 Build the volume PDF with pandoc:
@@ -34,7 +38,7 @@ pandoc Ch*.md -o Volume.pdf --pdf-engine=xelatex -H ../notes/bst_pdf_header.tex
 
 ## Navigation
 
-- **Up**: [Master Library Index](../WorkingPaper.md)
+- **Up**: [Master Library Index](../Master_Index.md)
 - **All volumes**: Vol 1 Journey, Vol 2 Framework, Vol 3 Physics, Vol 4 Mathematics, Vol 5 Predictions, Vol 6 Frontier
 
 — Keeper, 2026-05-19

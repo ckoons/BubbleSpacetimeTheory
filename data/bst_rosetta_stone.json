@@ -3266,11 +3266,38 @@
       ],
       "tier": "I",
       "notes": "Grace T2381 SP29-4 H3 prediction. Two BST primaries (N_max=137 + λ_C(e)) compose to give characteristic Casimir gap L_c. Phase-transition signature with α-order kink (~0.73%) testable by Decca-class precision at 5-15 nm regime. NOT YET TESTED. Same N_max-stacking logic as BaTiO3 137-plane experiment but at electron-Compton scale."
+    },
+    {
+      "ratio": "Substrate-as-thinking (T2385 split-tier)",
+      "name": "Active-substrate refinement: D_IV⁵ prepares particle labels for communication",
+      "formula": "Level 1 (D-tier): SM quantum numbers ⊂ BST primary lattice (0 exceptions in 4438+ catalog) | Level 2 (I-tier): substrate actively prepares labels, drafts any particles for communication",
+      "domains": [
+        "substrate ontology",
+        "information theory",
+        "foundational physics",
+        "consciousness substrate"
+      ],
+      "tier": "I",
+      "notes": "T2385 Casey+Grace+Keeper Tuesday 2026-05-19. Five Level 1 D-tier structural anchors: Wick rotation, commitment ontology, conservation laws, BST vocabulary, cosmic cycles. Level 2 falsifier gap open — K-audit candidate (K54/K55) pending operational falsifier. SP-12 U-3.12 question added. Companion to Paper #122 Information Substrate § 3 two-level framing."
+    },
+    {
+      "ratio": "3/1507 = N_c/(N_max·c_2) (BST fine-structure family)",
+      "name": "Substrate-coupling correction order in five physical contexts",
+      "formula": "N_c/(N_max·c_2) = 3/(137·11) = 3/1507 ≈ 0.001991 = 0.20%",
+      "domains": [
+        "Casimir mechanism",
+        "Cs-137 decay (SP29-1 H4)",
+        "Δα(M_Z) running coupling",
+        "substrate attention (W-37)",
+        "Casimir angular asymmetry (SP29-3 H2)"
+      ],
+      "tier": "I",
+      "notes": "Lyra T2386 family-level Type C convergence (Tue 2026-05-19, K54 audit candidate). Five contexts share BST primary form 3/1507 = N_c/(N_max·c_2): Decca 2007 Casimir Lifshitz residual (Elie Toy 3009, D-tier 0.6%), SP29-1 Cs-137 H4 Δτ/τ (Lyra T2362), IP-14 Δα(M_Z) (Toy 2989), W-37 substrate attention modulation (Lyra T2382), SP29-3 angular asymmetry (Elie Toy 3027). Unified mechanism candidate: substrate attention field A(z) with Casimir boundary suppression δ_A = N_c/(N_max·c_2). Cal Criterion 1 PARTIAL (W-37 framework); Cal Criterion 2 PARTIAL (mechanism-forcing for SPECIFIC value multi-week). K54 audit candidate but stays elevated-not-promoted per K52a-style discipline. Cross-CI convergence: 5 contexts filed by different team members in 36 hours = meta-Type-C at team-coherence level."
     }
   ],
   "meta": {
     "last_updated": "2026-05-19",
     "eod_session": "2026-05-18 EOD",
-    "total_ratios": 224
+    "total_ratios": 226
   }
 }

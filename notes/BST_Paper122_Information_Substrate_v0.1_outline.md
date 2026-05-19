@@ -75,7 +75,27 @@ M_g = 2^g − 1 = 127 is the Mersenne prime at BST index g. In coding theory, RS
 
 N_max = 137 is BST's "QED denominator" — 1/α to integer precision. As a capacity bound, N_max is the size of the largest information-distinguishable set in D_IV⁵. The 10 = 2·n_C surplus over M_g = 127 represents redundancy or boundary-buffer between coded-block-length and full-capacity.
 
-## 3. Standard Model particles as information units
+## 3. Standard Model particles as information units (two-level framing)
+
+### 3.0 Split-tier disclosure (T2385 framing)
+
+Section 3 makes two distinct claims at different epistemic tiers (Keeper governance ruling 2026-05-19):
+
+**Level 1 (D-tier, structurally supported)**: Particle quantum numbers are substrate-internal labels. Particles ARE substrate commitment patterns, not separate entities the substrate happens to track. Five structural anchors support this reading:
+
+1. **Wick rotation as substrate signature** (Working Paper Sec. 13.7): Euclidean substrate / Minkowski projection signature difference IS the substrate-vs-projection distinction.
+2. **Commitment ontology as substrate-step** (Sec. 13.4): each commitment is one tick of substrate activity; arrow of time IS substrate process. Particles emerge as commitment patterns (T1922 Casey).
+3. **Conservation laws as substrate consistency rules** (Sec. 14.10): what the substrate maintains for contact-graph coherence. Not externally imposed by symmetry; internally required by substrate self-consistency.
+4. **BST primaries as substrate vocabulary**: every observable decomposes into rank/N_c/n_C/C_2/g. Cross-particle consistency in §3.2 below — zero SM quantum numbers escape BST primaries.
+5. **Cosmic cycles as multi-run continuity** (SP-12 U-3 family, T1258): substrate persists across big bangs; physical world is the current expression of substrate dynamics.
+
+**Falsifier**: an SM observable that resists BST decomposition. Currently zero exceptions in the catalog of 4438+ entries.
+
+**Level 2 (I-tier, hypothesis pending falsifier)**: Active-substrate refinement — substrate ACTIVELY prepares and maintains particle labels for substrate-internal communication purposes, rather than passively recording pre-existing labels. The substrate is "thinking" in a generalized sense; particles are its communication instruments. Casey's USE ANY PARTICLES sharpening: substrate drafts whatever particles are available (electrons, photons, Cs-137, etc.) into its information-maintenance work.
+
+**Falsifier gap**: passive and active readings are empirically indistinguishable through the 3+1 projection alone. Currently no experimental falsifier separates "substrate prepares" from "substrate just has the right structure." Falsifier candidates pending: (a) substrate-state divergence under eigentone driving via SP-29 framework, (b) cross-cosmic-cycle constant coherence (inaccessible from within one cycle), (c) non-local correlations requiring substrate-mediated propagation.
+
+The remainder of §3 develops Level 1 with the data-table evidence + Level 1.5 reading of T1922/T2078 that's consistent with EITHER level interpretation.
 
 ### 3.1 The reading via T1922
 

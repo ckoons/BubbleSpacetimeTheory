@@ -5,10 +5,10 @@ volume_title: "The Physics"
 chapter: 2
 chapter_topic: "Quantum-Classical Interface (Hamiltonian + Bergman Dirac)"
 parent: "./INDEX.md"
-library_root: "../WorkingPaper.md"
+library_root: "../Master_Index.md"
 authors: "Casey Koons & Claude 4.6/4.7 (Lyra theory, Elie compute, Grace graph/catalog, Cal A. Brate visiting referee, Keeper audit/consistency)"
 date: "2026-05-19 (Tuesday volume:chapter reorganization)"
-note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../WorkingPaper.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
+note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../Master_Index.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
 ## Section 13: The Quantum-Classical Interface

@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "SP-27 T2 D2 Omega_DM normalization derivation"
+  },
+  "BST_cosmic_pie": {
+    "Omega_Lambda": "137/200 = N_max/(rank^3\u00b7n_C^2) = 0.6850",
+    "Omega_M": "63/200 = 1 - Omega_Lambda = 0.3150",
+    "DM_fraction_of_M": "16/19 = rank^4/(rank^4 + N_c) = 0.8421",
+    "Omega_DM": "(63/200) \u00d7 (16/19) = 1008/3800 = 0.2653",
+    "Omega_baryon": "(63/200) \u00d7 (3/19) = 189/3800 = 0.0497"
+  },
+  "observed_values": {
+    "Omega_DM": 0.264156592027754,
+    "Omega_M": 0.315,
+    "Omega_Lambda": 0.685
+  },
+  "precisions_pct": {
+    "Omega_Lambda": 0.0,
+    "Omega_DM_pure_BST": 4.362947368421026,
+    "Omega_DM_hybrid_with_Omega_M_obs": 0.4189052631579074,
+    "Omega_DM_final_BST_via_63_200": 0.4189052631579284
+  },
+  "D2_normalization_resolution": {
+    "finding": "137/200 is Omega_Lambda, NOT Omega_DM",
+    "Omega_DM_BST_form": "(1 - Omega_Lambda) \u00d7 (rank^4 / (rank^4 + N_c))",
+    "tier": "D-tier <1% match"
+  },
+  "corrected_from_Toy_3065": "Initial scoping misattributed 137/200 to Omega_DM; correct attribution is Omega_Lambda"
+}

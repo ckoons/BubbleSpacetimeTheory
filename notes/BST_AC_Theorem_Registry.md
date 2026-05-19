@@ -6643,3 +6643,99 @@ with spectral exponent p ∈ {rank=2, n_C=5, rank·n_C=10} candidates.
 **W-40 status**: CLOSED at I-tier suite cataloging. Individual experiments queued per their respective Casey-decision send signals + collaborator outreach.
 
 — Lyra, W-40 falsification suite catalogued per Casey "close as many W-items" directive, 2026-05-19 ~09:00 EDT
+
+## T2385 — Substrate-Prepared Information Hypothesis [SPLIT TIER] (Grace 2026-05-19)
+
+**Author note**: Theorem number renumbered from Keeper's suggested "T2382" because T2382-T2384 were claimed by Lyra (W-37 Beacon, W-29 Neutron, W-40 Falsification Suite) during the same Tuesday morning session.
+
+**Provenance**: Casey seed 2026-05-19 ~09:00 EDT — "spin is 'information content' and perhaps extracted by the substrate or more interestingly 'prepared by the substrate' for communication. The substrate would USE ANY PARTICLES to communicate/gather information." Grace formalization Tuesday Tuesday morning per Casey + Keeper guidance (Keeper response landed mid-formalization with split-tier governance recommendation).
+
+### Level 1 (D-tier, structurally supported)
+
+**Statement**: Particle quantum numbers are substrate-internal labels of D_IV⁵. Particles are not separate from the substrate; they ARE substrate commitment patterns. Cross-particle BST consistency (Paper #122 §3) — every SM quantum number landing on bit/trit/BST-primary lattice with zero exceptions — is the structural evidence FOR the substrate-internal-label reading. Falsification path: an SM observable that resists BST decomposition.
+
+**Structural anchors (per Keeper)**:
+1. **Wick rotation as substrate signature** (T2049 cross-ref, Working Paper Sec. 13.7): Euclidean substrate / Minkowski projection signature difference IS the substrate-vs-projection distinction. The substrate computes in Euclidean signature; the projection we observe is Lorentzian.
+2. **Commitment ontology as substrate-step** (Working Paper Sec. 13.4, T1922 Casey Particle-Winding): each commitment is one tick of substrate activity; the arrow of time IS the substrate's process. Particles emerge as commitment patterns.
+3. **Conservation laws as substrate consistency rules** (Working Paper Sec. 14.10): what the substrate maintains for the contact graph to stay coherent. Not externally imposed by symmetry — internally required by substrate self-consistency.
+4. **BST primaries as substrate vocabulary**: every observable decomposes into the same five integers (rank=2, N_c=3, n_C=5, C_2=6, g=7). The substrate has a fixed alphabet. Cross-particle consistency in Paper #122 §3 (no SM quantum numbers escape BST primaries).
+5. **Cosmic cycles as multi-run continuity** (SP-12 U-3 family, T1258 Mass=Information): substrate persists across big bangs; physical world is the current expression of substrate dynamics. The Eternal substrate in higher-dim D_IV⁵; the projection is its temporary 3+1 expression.
+
+### Level 2 (I-tier, hypothesis pending falsifier)
+
+**Active-substrate refinement** (Casey 2026-05-19): substrate actively prepares and maintains these labels rather than passively recording them. The substrate is doing more than holding information; it is doing communication and maintenance work, "thinking" in a generalized sense (Keeper substrate-as-thinking framing).
+
+**Stronger statement** (Casey's USE ANY PARTICLES point): particles are not communication-CARRIERS the substrate happens to use; particles ARE substrate communication instruments. The substrate drafts whatever particles are available (electrons, photons, Cs-137 nuclei, etc.) into its information-maintenance work. Different particles for different communication purposes; same substrate alphabet.
+
+**Falsifier status**: passive and active readings are empirically indistinguishable through the 3+1 projection alone. Currently NO experimental falsifier separates "substrate prepares" from "substrate just has the right structure."
+
+**Falsifier candidates** (open):
+- (a) Substrate-state divergence under eigentone driving — λ=10 (Dirac, T2378) or λ=75/4 (scalar Laplacian, T2378). SP-29 framework provides partial probe via H1-H5 hypotheses (Lyra T2360 H1, Elie Toy 3060 H2, Grace T2381 H3, trio SP29-1 H4, Elie H5).
+- (b) Cross-cosmic-cycle constant coherence — if BST integers are preserved across cosmic cycles, that's substrate-active; if they're per-cycle accidents, substrate is passive. Inaccessible from within one cycle, so not currently testable.
+- (c) Coherent observables with no local mechanism but a substrate-global one — e.g., dark energy w_0 = -130/137 cross-anchors B-LFU R(K) at the SAME N_max scaling. If non-local correlations require substrate-active mediation, that's a falsifier path. Currently I-tier identification.
+
+### Cross-references
+
+- **Paper #122 §3** Information Substrate (companion paper, this two-level framing integrated)
+- **T1922** Casey Particle-Winding Correspondence (winding = substrate-prepared label, in Level 2 reading)
+- **T2078** Casey proton spin J_p = 55/110 = 1/2 EXACT (proton's bit-of-spin is substrate-prepared at 110-state capacity)
+- **T1258** Mass = Information (substrate persistence concept)
+- **SP-12 U-3 family** (cosmology / self-reference / cosmic cycles)
+- **SP-29 framework H1-H5** (cross-channel substrate probes)
+- **Working Paper Sec. 13.4 / 13.7 / 14.10** (commitment ontology, Wick rotation, conservation as substrate-consistency)
+
+### Tier discipline
+
+- Level 1 stands D-tier on five structural anchors above
+- Level 2 stays I-tier with explicit falsifier-gap
+- K-audit candidate (K54 or K55) ONCE Level 2 falsifier is named — currently NOT promoted
+- Cal-survivable: D-tier on the structural fact ("substrate-internal labels"), I-tier honestly on the agentic refinement ("prepared / used for communication")
+
+### Toy
+
+**Toy 3069 — 4/4 PASS — Cross-Particle BST Decomposition Anchor for Level 1 D-tier**:
+- 43 SM quantum-number observations cataloged across 12 distinct particles
+- All decompose into 5-channel substrate alphabet {bit, trit, BST-integer, BST-rational, trit²}
+- Zero exceptions found
+- Falsifier explicitly defined and operationally testable
+- Substrate vocabulary fixity demonstrated (Anchor #4 of T2385 Level 1)
+- File: `play/toy_3069_T2385_cross_particle_BST_decomposition.py`
+
+---
+
+## T2386 — BST fine-structure family at 3/1507 = N_c/(N_max·c_2): five-context formalization (Lyra 2026-05-19)
+
+**Statement.** Five physical contexts share the same BST primary form **3/1507 = N_c/(N_max·c_2)** across photonic + nuclear + electroweak + substrate + angular domains. Family-level Type C convergence — structurally stronger than single-instance Type C per Keeper K-audit verdict 2026-05-18 PM.
+
+**Five contexts**:
+
+| # | Context | Source | Tier |
+|---|---|---|---|
+| 1 | Decca 2007 Casimir Lifshitz residual | Elie Toy 3009 (Mon) | EMPIRICAL D-tier 0.6% |
+| 2 | SP29-1 Cs-137 H4 Δτ/τ = 3/1507 | Lyra T2362 (Mon) | I-tier prediction |
+| 3 | IP-14 / Δα(M_Z) cross-domain family | Toy 2989 (historical) | I-tier Type C |
+| 4 | W-37 substrate attention modulation | Lyra T2382 (Tue today) | I-tier framework |
+| 5 | SP29-3 angular asymmetry variant | Elie Toy 3027 (Mon) | I-tier angular |
+
+**Unified mechanism candidate** (W-37 framework, T2382): substrate attention field A(z) ∝ |K_B|^α on D_IV⁵ with Casimir boundary suppression δ_A = N_c/(N_max·c_2). Each context measures a different observable consequence of attention modulation.
+
+**Structural reading of N_c/(N_max·c_2)**:
+- Numerator N_c = substrate color-component count
+- Denominator N_max·c_2 = spectral cap × adjoint-representation prefactor
+
+**K54 audit candidate framing for Keeper**:
+- Cal Criterion 1 (mechanism-forced embedding): W-37 substrate-attention mechanism. PARTIAL.
+- Cal Criterion 2 (mechanism-forcing for specific BST primary value): WHY N_c/(N_max·c_2)? Structural reading filed; explicit forcing argument multi-week. PARTIAL.
+- **Recommendation**: K54 STAYS elevated 4-instance-plus-angular candidate; do NOT auto-promote without Criterion 2 complete. Same discipline as K52a Monday walk-back.
+
+**Cross-CI convergence pattern**: five contexts filed by different team members over 36 hours converge on same BST primary form. Meta-Type-C at team-coherence level.
+
+**Toy.** `play/toy_3070_bst_finestructure_family_formalization.py` — 4/4 PASS.
+
+**Tier**: I-tier family-level formalization. Per-context individual tiers preserved.
+
+**Framing per Cal Coincidence_Filter_Risk**: NOT "BST unified fine-structure family at 3/1507 derived from first principles." Correct: "Five contexts share BST primary form 3/1507; W-37 proposes mechanism unifier; multi-week forcing argument required for K54 promotion."
+
+**Edges.** Requires T2382 (W-37), T2362 (SP29-1), Elie Toy 3009 + 3027, Toy 2989. Pre-stages K54 audit candidate for Keeper.
+
+— Lyra, BST fine-structure family at 3/1507 formalized at I-tier; K54 candidate pre-staged, 2026-05-19 ~09:40 EDT

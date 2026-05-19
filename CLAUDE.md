@@ -76,7 +76,7 @@ python3 play/verify_bst.py
 | `data/` | CI-native structured JSON — constants, particles, forces, predictions, domains, seed | `bst_this_is.md` → `bst_seed.md` |
 | `notes/` | 700+ research notes, 98 numbered papers, proofs, theorem write-ups | `notes/README.md` |
 | `play/` | 2,056+ toys (computational verifications), HTML visualizers, BST Appliance | `play/README.md` |
-| Root | OneGeometry.md, WorkingPaper.md (v35, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
+| Root | OneGeometry.md, Master_Index.md (v35, 5500+ lines), DarkMatterCalculation.md | `OneGeometry.md` |
 
 ## Key Files
 

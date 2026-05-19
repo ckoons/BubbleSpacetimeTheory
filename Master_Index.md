@@ -174,11 +174,11 @@ pandoc Ch*.md -o Volume_3_Physics.pdf --pdf-engine=xelatex -H ../notes/bst_pdf_h
 
 **Single combined library PDF**:
 ```bash
-pandoc WorkingPaper.md \
+pandoc Master_Index.md \
        WP_Vol1_Journey/Ch*.md WP_Vol2_Framework/Ch*.md \
        WP_Vol3_Physics/Ch*.md WP_Vol4_Mathematics/Ch*.md \
        WP_Vol5_Predictions/Ch*.md WP_Vol6_Frontier/Ch*.md \
-       -o WorkingPaper_full_library_v37.pdf \
+       -o BST_Library_full_v37.pdf \
        --pdf-engine=xelatex \
        -H notes/bst_pdf_header.tex
 ```

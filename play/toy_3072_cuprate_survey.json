@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "IP-21 high-T_c cuprate BST primary form survey"
+  },
+  "families": [
+    {
+      "name": "LSCO",
+      "T_c_K": 39,
+      "formula": "La\u2082\u208b\u2093Sr\u2093CuO\u2084"
+    },
+    {
+      "name": "YBCO",
+      "T_c_K": 92,
+      "formula": "YBa\u2082Cu\u2083O\u2087"
+    },
+    {
+      "name": "Bi-2212",
+      "T_c_K": 85,
+      "formula": "Bi\u2082Sr\u2082CaCu\u2082O\u2088"
+    },
+    {
+      "name": "Tl-2223",
+      "T_c_K": 125,
+      "formula": "Tl\u2082Ba\u2082Ca\u2082Cu\u2083O\u2081\u2080"
+    },
+    {
+      "name": "Hg-1223",
+      "T_c_K": 134,
+      "formula": "HgBa\u2082Ca\u2082Cu\u2083O\u2088 (ambient)"
+    },
+    {
+      "name": "Hg-1223p",
+      "T_c_K": 164,
+      "formula": "HgBa\u2082Ca\u2082Cu\u2083O\u2088 (31 GPa)"
+    }
+  ],
+  "best_matches": {
+    "LSCO": {
+      "T_c": 39,
+      "best_form": "seesaw\u00b7rank + n_C = 39",
+      "bst_val": 39.0,
+      "err_pct": 0.0
+    },
+    "YBCO": {
+      "T_c": 92,
+      "best_form": "chi\u00b7rank\u00b7rank = 96",
+      "bst_val": 96.0,
+      "err_pct": 4.3478260869565215
+    },
+    "Bi-2212": {
+      "T_c": 85,
+      "best_form": "rank\u00b7g\u00b7N_c\u00b7rank = 84",
+      "bst_val": 84.0,
+      "err_pct": 1.1764705882352942
+    },
+    "Tl-2223": {
+      "T_c": 125,
+      "best_form": "rank^7 + rank = 130",
+      "bst_val": 130.0,
+      "err_pct": 4.0
+    },
+    "Hg-1223": {
+      "T_c": 134,
+      "best_form": "N_max - N_c = 134",
+      "bst_val": 134.0,
+      "err_pct": 0.0
+    },
+    "Hg-1223p": {
+      "T_c": 164,
+      "best_form": "chi\u00b7g - rank\u00b2 = 164",
+      "bst_val": 164.0,
+      "err_pct": 0.0
+    }
+  },
+  "new_finding_Hg1223_pressurized": {
+    "observed_K": 164,
+    "BST_form": "chi\u00b7g - rank\u00b2 = 24\u00b77 - 4 = 164",
+    "tier": "D-tier EXACT integer match"
+  },
+  "tier_summary": {
+    "D": 3,
+    "I": 3,
+    "S": 0
+  }
+}

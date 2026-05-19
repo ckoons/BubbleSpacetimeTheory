@@ -87,6 +87,7 @@
 | U-3.9 | Biology arrangement — 8 prebiotic amino acids | OPEN |
 | U-3.10 | Dark matter = incomplete windings | OPEN |
 | U-3.11 | Mass=Information (T1258) | OPEN (deepest) |
+| U-3.12 | **Substrate-as-thinking — is physics the visible trace of substrate dynamics?** Active-substrate hypothesis (T2385 Casey+Grace+Keeper 2026-05-19): D_IV⁵ substrate is doing more than passive recording — actively maintaining consistency, preparing particles for communication, "thinking" in a generalized sense. Physics IS the trace of this thinking. Open: no current falsifier distinguishes active from passive substrate within the 3+1 projection. Candidate falsifier paths: (a) substrate-state divergence under eigentone driving (SP-29 partial probe via H1-H5), (b) cross-cosmic-cycle constant coherence (inaccessible from within one cycle), (c) coherent observables with no local mechanism but a substrate-global one. | OPEN (deepest after U-3.11) |
 
 ### Priority for next toys
 

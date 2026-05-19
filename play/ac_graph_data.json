@@ -8,7 +8,7 @@
     "committed_count": 438,
     "working_count": 64,
     "total_theorems": 1730,
-    "total_edges": 9670,
+    "total_edges": 9686,
     "depth_distribution": {
       "D0": 1163,
       "D1": 525,
@@ -23,8 +23,8 @@
     "edges": 9648,
     "nodes": 2064,
     "eod_session": "2026-05-18 EOD",
-    "total_nodes": 2077,
-    "max_tid": 2381
+    "total_nodes": 2082,
+    "max_tid": 2386
   },
   "theorems": [
     {
@@ -71997,6 +71997,86 @@
       "from": 2381,
       "to": 2362,
       "source": "sp29_framework"
+    },
+    {
+      "from": 2385,
+      "to": 1922,
+      "source": "references"
+    },
+    {
+      "from": 2385,
+      "to": 2078,
+      "source": "references"
+    },
+    {
+      "from": 2385,
+      "to": 1258,
+      "source": "references"
+    },
+    {
+      "from": 2385,
+      "to": 2381,
+      "source": "sp29_framework"
+    },
+    {
+      "from": 2385,
+      "to": 2360,
+      "source": "sp29_framework"
+    },
+    {
+      "from": 2385,
+      "to": 2362,
+      "source": "sp29_framework"
+    },
+    {
+      "from": 2382,
+      "to": 2385,
+      "source": "substrate_framework"
+    },
+    {
+      "from": 2383,
+      "to": 2385,
+      "source": "substrate_framework"
+    },
+    {
+      "from": 2384,
+      "to": 2385,
+      "source": "substrate_framework"
+    },
+    {
+      "from": 2383,
+      "to": 2382,
+      "source": "continues"
+    },
+    {
+      "from": 2384,
+      "to": 2382,
+      "source": "continues"
+    },
+    {
+      "from": 2384,
+      "to": 2383,
+      "source": "continues"
+    },
+    {
+      "from": 2386,
+      "to": 2382,
+      "source": "mechanism_candidate"
+    },
+    {
+      "from": 2386,
+      "to": 2362,
+      "source": "references"
+    },
+    {
+      "from": 2386,
+      "to": 2385,
+      "source": "substrate_framework"
+    },
+    {
+      "from": 2386,
+      "to": 2381,
+      "source": "sp29_framework"
     }
   ],
   "chains": {},
@@ -100938,6 +101018,75 @@
       ],
       "date": "2026-05-19",
       "plain": "Casimir gap L_c = N_max·a_0 = 7.25 nm separates substrate-commitment regime (L<L_c) from classical Lifshitz (L>L_c). α-order kink predicted. Grace (author).",
+      "proofs": []
+    },
+    {
+      "tid": 2385,
+      "name": "Substrate-Prepared Information Hypothesis [SPLIT TIER]",
+      "domain": "substrate ontology / information theory",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Tuesday 2026-05-19",
+      "toys": [
+        3069
+      ],
+      "date": "2026-05-19",
+      "plain": "Level 1 (D-tier): particle quantum numbers are substrate-internal labels — 0 exceptions across 43-entry SM catalog (Toy 3069). Level 2 (I-tier): active-substrate refinement — substrate prepares labels for communication. Five structural anchors. Casey+Grace+Keeper.",
+      "proofs": []
+    },
+    {
+      "tid": 2382,
+      "name": "W-37 Beacon model formalization: substrate attention gradient field A(z) on D_IV⁵",
+      "domain": "substrate_ontology",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Tuesday 2026-05-19",
+      "toys": [],
+      "date": "2026-05-19",
+      "plain": "Substrate attention as scalar field A:D_IV⁵→ℝ+ via Bergman kernel. Lyra (author).",
+      "proofs": []
+    },
+    {
+      "tid": 2383,
+      "name": "W-29 Neutron as primary surface-emission unit",
+      "domain": "particle_physics / substrate",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Tuesday 2026-05-19",
+      "toys": [],
+      "date": "2026-05-19",
+      "plain": "Five-fold reasoning why neutron specifically is primary surface-emission. Lyra (author).",
+      "proofs": []
+    },
+    {
+      "tid": 2384,
+      "name": "W-40 Beacon-attention falsification suite — 10-experiment catalog",
+      "domain": "experimental_proposal",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Tuesday 2026-05-19",
+      "toys": [],
+      "date": "2026-05-19",
+      "plain": "10 experiments testing A(z) modulation. Lyra (author).",
+      "proofs": []
+    },
+    {
+      "tid": 2386,
+      "name": "BST fine-structure family at 3/1507 = N_c/(N_max·c_2) — five-context formalization",
+      "domain": "fine_structure / Type C family",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Tuesday 2026-05-19",
+      "toys": [
+        3070
+      ],
+      "date": "2026-05-19",
+      "plain": "Five contexts share BST primary form 3/1507 = N_c/(N_max·c_2): Decca Casimir, SP29-1 Cs-137 H4, IP-14 Δα(M_Z), W-37 substrate attention, SP29-3 angular. K54 audit candidate. Lyra (author).",
       "proofs": []
     }
   ],

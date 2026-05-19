@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "K54 candidate prep: 3/1507 family catalog",
+    "parallel_to": "K52a (Monday) \u2014 same audit-chain discipline shape"
+  },
+  "BST_primary_form": "N_c / (N_max \u00b7 c_2) = 3 / (137 \u00b7 11) = 3/1507",
+  "numerical_value": 0.0019907100199071004,
+  "percentage": 0.19907100199071004,
+  "instances_total": 3,
+  "instances_measured": 1,
+  "instances_pre_staged": 2,
+  "measured_list": [
+    {
+      "id": "INV-4354",
+      "name": "Decca 2007 Lifshitz residual",
+      "tier": "D",
+      "toy": "toy_3009"
+    }
+  ],
+  "pre_staged_list": [
+    {
+      "id": "INV-4388",
+      "name": "SP29-1 Cs-137 null-model 5\u03c3 detection threshold",
+      "tier": "D",
+      "toy": "toy_3031"
+    }
+  ],
+  "external_today": {
+    "toy_3066_W32": "\u0394\u03c4/\u03c4 at 1e-10 amplitude RT thermal"
+  },
+  "mechanism_components_C1prime_C2prime_C3prime": {
+    "C1prime": "N_c factor \u2014 color weight at substrate boundary",
+    "C2prime": "N_max\u00b7c_2 denominator \u2014 substrate-Casimir composite scale",
+    "C3prime": "\u03b1\u00b2 order \u2014 sub-sub-leading correction scale"
+  },
+  "tier_assessment": "CANDIDATE elevated-not-promoted; awaiting SP29-1 measurement",
+  "comparison_to_K52a": "K54 less mature: 1 D-tier measured vs K52a 2 D-tier measured",
+  "promotion_path": "SP29-1 experimental confirmation \u2192 K54 D-tier under new governance"
+}
