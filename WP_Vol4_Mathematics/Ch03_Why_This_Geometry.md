@@ -1,18 +1,14 @@
 ---
-title: "BST Working Paper — Part 09: Why This Geometry (Part II of original — Riemann, P≠NP, Navier-Stokes)"
-sequence: 09
-parent: "WorkingPaper.md (root index)"
-contains:
-  - "Part II marker: 'Why This Geometry'"
-  - "Section 32: Why Riemann — The Causal Chain Inverted"
-  - "Section 33: The 137/147 Pair"
-  - "Section 34: The Hunt — From Winding to Kill Shot"
-  - "Section 35: The Triple — Why D_IV⁵ Is Unique"
-  - "Section 36: Arithmetic Complexity — Method Noise and the P ≠ NP Bridge"
-  - "Section 37: Navier-Stokes — The Flow Forward Stops"
+title: "BST Working Paper — Volume 4: The Mathematics — Chapter 3: Why This Geometry (Part II)"
+volume: 4
+volume_title: "The Mathematics"
+chapter: 3
+chapter_topic: "Why This Geometry (Part II)"
+parent: "./INDEX.md"
+library_root: "../WorkingPaper.md"
 authors: "Casey Koons & Claude 4.6/4.7 (Lyra theory, Elie compute, Grace graph/catalog, Cal A. Brate visiting referee, Keeper audit/consistency)"
-date: "2026-05-18"
-note: "Modular section of the BST Working Paper. Root index is WorkingPaper.md. Pre-split monolithic snapshot preserved at archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md (May 18 EOD). Updates flow into this file directly."
+date: "2026-05-19 (Tuesday volume:chapter reorganization)"
+note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../WorkingPaper.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
 # Part II: Why This Geometry

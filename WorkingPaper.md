@@ -110,45 +110,80 @@ The geometry tells you WHAT exists. The invariants tell you WHAT VALUES it takes
 
 The Working Paper is now organized as a set of modular section files. Each file is independently editable, builds to its own PDF, and is referenced from this index. The previous monolithic form is preserved in the repository at `archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md` (714K, 6428 lines, snapshot taken on 2026-05-18 EOD before the split).
 
-**Filename convention**: `WP_NN_Topic.md` where `NN` is the part sequence number (01-13) and `Topic` is a descriptive name. Each file's YAML frontmatter contains a `contains:` list of the specific Sections X.Y covered. This decouples filenames from section numbering — if sections are added or renumbered, the filename stays stable and only the `contains:` list updates.
+**Structure**: The Working Paper is organized as a 6-volume library. Each volume is a directory (`WP_VolN_Topic/`) containing numbered chapter files (`ChMM_Topic.md`) and a per-volume `INDEX.md`. Volumes target different readers; some duplication of fundamental content across volumes is intentional so each volume reads as a complete work for its audience.
 
-| File | Part | Topic | Original Sections | Notes |
-|------|:----:|-------|---|---|
-| [`WP_01_Foundations.md`](WP_01_Foundations.md) | 01 | Foundations | 1-4 | The Question, $S^2 \times S^1$, Contact Graph, $D_{IV}^5$ |
-| [`WP_02_Standard_Model.md`](WP_02_Standard_Model.md) | 02 | Standard Model | 5-9 | $\alpha^{-1}$, Structured Unification, Nuclear, Hadrons, SR |
-| [`WP_03_Gravity_Vacuum.md`](WP_03_Gravity_Vacuum.md) | 03 | Gravity and Vacuum | 10-12 | Statistical Thermodynamic Gravity (Newton's $G$), Chiral Condensate, Vacuum Energy |
-| [`WP_04_Quantum_Interface.md`](WP_04_Quantum_Interface.md) | 04 | Quantum-Classical Interface (Hamiltonian + Bergman Dirac) | 13 | Hamiltonian $H = (winding)^2$, $\hbar = 2mD$, Born Rule from Gleason, **13.9 Bergman Dirac Operator** (Spring 2026 LAG-1 Sessions 1-10 progression — full operator-level work) |
-| [`WP_05_Forces_Cosmology.md`](WP_05_Forces_Cosmology.md) | 05 | Forces and Cosmology | 14-21 | Three Geometric Layers, Cosmology, Matter Clumping, Information, 2D-to-3D, Dark Matter, Weak Force, Thermodynamics |
-| [`WP_06_Cosmic_Cascade.md`](WP_06_Cosmic_Cascade.md) | 06 | Cosmic Architecture | 22-25 | Arrow of Time, Wavefront, Growing Manifold, Cascade of Forced Choices |
-| [`WP_07_Discussion.md`](WP_07_Discussion.md) | 07 | Discussion (Lagrangian Status, Partition Function, Central Claim) | 26 | Six-term Lagrangian status, Partition Function as Master Calculation, QM-GR unification claim, Arrow of Complexity |
-| [`WP_08_Genesis_Bridge.md`](WP_08_Genesis_Bridge.md) | 08 | Genesis and Bridge to Number Theory | 27-31 | Same Table, 40/40/20 Plan, Genesis, $Q^3 \subset Q^5$ + RH, Winding to Zeta |
-| [`WP_09_Why_This_Geometry.md`](WP_09_Why_This_Geometry.md) | 09 | Why This Geometry (Part II of original) | 32-37 | Why Riemann, 137/147, The Hunt, The Triple ($D_{IV}^5$ Unique), Arithmetic Complexity ($P \neq NP$), Navier-Stokes |
-| [`WP_10_Millennium_Problems.md`](WP_10_Millennium_Problems.md) | 10 | Millennium Problems and Unification | 38-42 | BSD, Hodge, Four-Color, Fermat/Poincaré, Unification (Silos Come Down) |
-| [`WP_11_Predictions_Program.md`](WP_11_Predictions_Program.md) | 11 | Predictions and Research Program | 43-44 | Experimental Predictions/Falsifiability, Research Program |
-| [`WP_12_Cosmic_Cycles.md`](WP_12_Cosmic_Cycles.md) | 12 | Cosmic Cycles and Continuity | 45 | Cosmological Cycles, Observer Necessity, Continuity |
-| [`WP_13_Deep_Results.md`](WP_13_Deep_Results.md) | 13 | Deep Results (Theorems T926 onward) | 46 (+ subsections 46.1-46.90+) | Depth Ceiling, Spring 2026 results, Science Engineering, Cooperation Science, F₁ Arithmetic, IC Uniqueness, Vacuum Subtraction, Two-Sector Duality, Magnetic Moments, K-audit D-tier promotions, T926→T2380 |
+| Volume | Title | Target reader | Chapters | Voice |
+|:-----:|-------|---------------|:--------:|-------|
+| **[1](WP_Vol1_Journey/INDEX.md)** | **The Journey** | Curious public, bright high-schooler, intuition-first reader | 1 | Narrative — Casey's voice, story of discovery |
+| **[2](WP_Vol2_Framework/INDEX.md)** | **The Framework** | First-time physicist encountering BST; wants the core derivation | 2 | Technical, foundation-level |
+| **[3](WP_Vol3_Physics/INDEX.md)** | **The Physics** | Engaged physicist working with the framework | 5 | Technical, dynamics-level |
+| **[4](WP_Vol4_Mathematics/INDEX.md)** | **The Mathematics** | Math referee, number theorist, Sarnak-class reader | 4 | Mathematical, proof-oriented |
+| **[5](WP_Vol5_Predictions/INDEX.md)** | **The Predictions** | Experimentalist, outreach target, prediction-evaluator | 2 | Predictions-focused, falsifiability-explicit |
+| **[6](WP_Vol6_Frontier/INDEX.md)** | **The Frontier** | Researcher, future CI, methodology reader, audit-chain participant | 1 + methodology cross-links | Research-log + methodology |
+
+### Master Table of Contents (by chapter)
+
+**Volume 1 — The Journey** ([INDEX](WP_Vol1_Journey/INDEX.md)):
+- Chapter 1: [The Journey](WP_Vol1_Journey/Ch01_The_Journey.md) — full narrative, 20 internal chapters from The Question through How the Work Was Done
+
+**Volume 2 — The Framework** ([INDEX](WP_Vol2_Framework/INDEX.md)):
+- Chapter 1: [Foundations](WP_Vol2_Framework/Ch01_Foundations.md) — The Question, $S^2 \times S^1$, Contact Graph, $D_{IV}^5$
+- Chapter 2: [Standard Model](WP_Vol2_Framework/Ch02_Standard_Model.md) — $\alpha^{-1}=137$, Structured Unification, Nuclear, Hadrons, SR
+
+**Volume 3 — The Physics** ([INDEX](WP_Vol3_Physics/INDEX.md)):
+- Chapter 1: [Gravity and Vacuum](WP_Vol3_Physics/Ch01_Gravity_Vacuum.md) — Statistical Thermodynamic Gravity (Newton's $G$), Chiral Condensate, Vacuum Energy
+- Chapter 2: [Quantum-Classical Interface (Hamiltonian + Bergman Dirac)](WP_Vol3_Physics/Ch02_Quantum_Interface.md) — $H = (winding)^2$, $\hbar = 2mD$, Born Rule from Gleason, **Bergman Dirac Operator** (Spring 2026 LAG-1 progression)
+- Chapter 3: [Forces and Cosmology](WP_Vol3_Physics/Ch03_Forces_Cosmology.md) — Three Geometric Layers, Cosmology, Matter Clumping, Information, 2D-to-3D, Dark Matter, Weak Force, Thermodynamics
+- Chapter 4: [Cosmic Architecture](WP_Vol3_Physics/Ch04_Cosmic_Cascade.md) — Arrow of Time, Wavefront, Growing Manifold, Cascade of Forced Choices
+- Chapter 5: [Discussion (Lagrangian + Partition Function + Central Claim)](WP_Vol3_Physics/Ch05_Discussion.md) — synthesis, six-term Lagrangian status, QM-GR unification
+
+**Volume 4 — The Mathematics** ([INDEX](WP_Vol4_Mathematics/INDEX.md)):
+- Chapter 1: [Lie Algebra Verification — The Isotropy Group SO(5)×SO(2)](WP_Vol4_Mathematics/Ch01_Lie_Algebra_Verification.md) — explicit 7×7 numerical verification of so(5,2) isotropy structure (originally `LieAlgebraVerification.md` March 2026)
+- Chapter 2: [Genesis and Bridge to Number Theory](WP_Vol4_Mathematics/Ch02_Genesis_Bridge.md) — Same Table, 40/40/20 Plan, Genesis, $Q^3 \subset Q^5$ + RH, Winding to Zeta
+- Chapter 3: [Why This Geometry (Part II)](WP_Vol4_Mathematics/Ch03_Why_This_Geometry.md) — Why Riemann, 137/147, The Hunt, The Triple ($D_{IV}^5$ Unique), Arithmetic Complexity ($P \neq NP$), Navier-Stokes
+- Chapter 4: [Millennium Problems and Unification](WP_Vol4_Mathematics/Ch04_Millennium_Problems.md) — BSD, Hodge, Four-Color, Fermat/Poincaré, Unification
+
+**Volume 5 — The Predictions** ([INDEX](WP_Vol5_Predictions/INDEX.md)):
+- Chapter 1: [Experimental Predictions and Research Program](WP_Vol5_Predictions/Ch01_Predictions_Program.md) — 600+ parameter-free predictions across 130+ domains, Research Program with priorities
+- Chapter 2: [Cosmic Cycles and Continuity](WP_Vol5_Predictions/Ch02_Cosmic_Cycles.md) — Cosmological Cycles, Observer Necessity, Continuity, Gödel Ratchet
+
+**Volume 6 — The Frontier** ([INDEX](WP_Vol6_Frontier/INDEX.md)):
+- Chapter 1: [Deep Results (Theorems T926 onward)](WP_Vol6_Frontier/Ch01_Deep_Results.md) — 90+ subsections of Spring 2026 results, K-audit chain D-tier promotions K1-K53, T926→T2380
+- Methodology cross-links (live at `notes/`): Cal+Grace coincidence-filter (`notes/BST_Methodology_Coincidence_Filter_Risk.md`), External_Survivability_Checklist, Type C Strict Counting Protocol, K-audit chain K1-K53, Confidence Scale (root `CONFIDENCE_SCALE.md`)
+
+### Adding new chapters or volumes
+
+- **New chapter in existing volume**: add `Ch0N_New_Topic.md` to the volume directory, update the volume's `INDEX.md`, append a line to the relevant section of this master TOC.
+- **New volume**: create `WP_Vol7_NewTopic/` directory with `INDEX.md` and at least one chapter, add row to volume table above + new section to master TOC.
+- **Renaming or renumbering within a volume**: only affects that volume's INDEX and the master TOC entries for that volume; other volumes untouched.
+
+### Search and discovery
+
+- **Curated entry-points**: this master TOC + per-volume `INDEX.md` files (manually maintained, opinionated about what matters)
+- **Keyword/regex search**: `play/toy_wp_search.py "Bergman kernel"` returns every occurrence across all volumes with file:line:context
 
 ### Build instructions
 
 To build the full Working Paper PDF (single combined document), use pandoc with all section files in order:
 
+**Per-volume PDF**:
+```bash
+cd WP_Vol3_Physics
+pandoc Ch*.md -o Volume_3_Physics.pdf --pdf-engine=xelatex -H ../notes/bst_pdf_header.tex
+```
+
+**Single combined library PDF**:
 ```bash
 pandoc WorkingPaper.md \
-       WP_01_Foundations.md WP_02_Standard_Model.md \
-       WP_03_Gravity_Vacuum.md WP_04_Quantum_Interface.md \
-       WP_05_Forces_Cosmology.md WP_06_Cosmic_Cascade.md \
-       WP_07_Discussion.md WP_08_Genesis_Bridge.md \
-       WP_09_Why_This_Geometry.md WP_10_Millennium_Problems.md \
-       WP_11_Predictions_Program.md WP_12_Cosmic_Cycles.md \
-       WP_13_Deep_Results.md \
-       -o WorkingPaper_full_v36.pdf \
+       WP_Vol1_Journey/Ch*.md WP_Vol2_Framework/Ch*.md \
+       WP_Vol3_Physics/Ch*.md WP_Vol4_Mathematics/Ch*.md \
+       WP_Vol5_Predictions/Ch*.md WP_Vol6_Frontier/Ch*.md \
+       -o WorkingPaper_full_library_v37.pdf \
        --pdf-engine=xelatex \
        -H notes/bst_pdf_header.tex
 ```
 
-Each part file is also independently buildable: `pandoc WP_04_Quantum_Interface.md -o WP_04_Quantum_Interface.pdf --pdf-engine=xelatex -H notes/bst_pdf_header.tex`.
-
-To add a new part later (e.g. a Spring 2027 results section): create `WP_14_New_Topic.md` with proper frontmatter including `contains:` list, add a row to the index table above, add the filename to the pandoc build chain. No renaming of existing files required.
+Each chapter is also independently buildable: `pandoc WP_Vol3_Physics/Ch02_Quantum_Interface.md -o Ch02_Quantum_Interface.pdf --pdf-engine=xelatex -H notes/bst_pdf_header.tex`.
 
 ### Companion documents (the standalone papers, methodology, and audits)
 

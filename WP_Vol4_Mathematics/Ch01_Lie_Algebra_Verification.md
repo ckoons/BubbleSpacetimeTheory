@@ -1,3 +1,16 @@
+---
+title: "BST Working Paper — Volume 4: The Mathematics — Chapter 1: Lie Algebra Verification — The Isotropy Group SO(5)×SO(2)"
+volume: 4
+volume_title: "The Mathematics"
+chapter: 1
+chapter_topic: "Lie Algebra Verification — The Isotropy Group SO(5)×SO(2)"
+parent: "./INDEX.md"
+library_root: "../WorkingPaper.md"
+authors: "Casey Koons (March 2026, numerical verification); integrated into volume:chapter library on 2026-05-19 by Keeper"
+date: "Originally March 2026; integrated into Volume 4 on 2026-05-19"
+note: "Explicit 7×7 numerical verification of the so(5,2) isotropy structure that grounds BST's claim that the configuration space is D_IV⁵. Originally at repository root as `LieAlgebraVerification.md`; moved into Volume 4 Mathematics as Chapter 1 on 2026-05-19 Tuesday. The content is unchanged from the March 2026 verification record."
+---
+
 # Lie Algebra Verification: The BST Isotropy Group SO(5)×SO(2)
 
 **Author:** Casey Koons

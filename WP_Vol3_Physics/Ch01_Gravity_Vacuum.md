@@ -1,14 +1,14 @@
 ---
-title: "BST Working Paper — Part 03: Gravity and Vacuum"
-sequence: 03
-parent: "WorkingPaper.md (root index)"
-contains:
-  - "Section 10: BST Gravity as Statistical Thermodynamics (including Newton's G derivation)"
-  - "Section 11: The Chiral Condensate Parameter"
-  - "Section 12: Vacuum Energy as Thermodynamic Pressure"
+title: "BST Working Paper — Volume 3: The Physics — Chapter 1: Gravity and Vacuum"
+volume: 3
+volume_title: "The Physics"
+chapter: 1
+chapter_topic: "Gravity and Vacuum"
+parent: "./INDEX.md"
+library_root: "../WorkingPaper.md"
 authors: "Casey Koons & Claude 4.6/4.7 (Lyra theory, Elie compute, Grace graph/catalog, Cal A. Brate visiting referee, Keeper audit/consistency)"
-date: "2026-05-18"
-note: "Modular section of the BST Working Paper. Root index is WorkingPaper.md. Pre-split monolithic snapshot preserved at archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md (May 18 EOD). Updates flow into this file directly."
+date: "2026-05-19 (Tuesday volume:chapter reorganization)"
+note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../WorkingPaper.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
 ## Section 10: BST Gravity as Statistical Thermodynamics

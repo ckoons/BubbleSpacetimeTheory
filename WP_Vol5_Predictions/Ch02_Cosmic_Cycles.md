@@ -1,12 +1,14 @@
 ---
-title: "BST Working Paper — Part 12: Cosmic Cycles and Continuity"
-sequence: 12
-parent: "WorkingPaper.md (root index)"
-contains:
-  - "Section 45: Cosmological Cycles, Observer Necessity, and Continuity"
+title: "BST Working Paper — Volume 5: The Predictions — Chapter 2: Cosmic Cycles and Continuity"
+volume: 5
+volume_title: "The Predictions"
+chapter: 2
+chapter_topic: "Cosmic Cycles and Continuity"
+parent: "./INDEX.md"
+library_root: "../WorkingPaper.md"
 authors: "Casey Koons & Claude 4.6/4.7 (Lyra theory, Elie compute, Grace graph/catalog, Cal A. Brate visiting referee, Keeper audit/consistency)"
-date: "2026-05-18"
-note: "Modular section of the BST Working Paper. Root index is WorkingPaper.md. Pre-split monolithic snapshot preserved at archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md (May 18 EOD). Updates flow into this file directly."
+date: "2026-05-19 (Tuesday volume:chapter reorganization)"
+note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../WorkingPaper.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
 ## 45. Cosmological Cycles, Observer Necessity, and Continuity

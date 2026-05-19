@@ -8,6 +8,9 @@ status: "Second edition — calibrated confidence levels, methodology chapter ad
 cite_as: "Koons, C. (2026). One Geometry: Physics from D_IV^5. GitHub/Zenodo."
 ---
 
+<!-- Volume:Chapter library position: Volume 1 (The Journey), Chapter 1: The Journey (full narrative). Up: ./INDEX.md → ../WorkingPaper.md -->
+
+
 # One Geometry: Physics from $D_{IV}^5$
 
 **The Standard Model, General Relativity, and All Fundamental Constants from a Single Bounded Symmetric Domain**

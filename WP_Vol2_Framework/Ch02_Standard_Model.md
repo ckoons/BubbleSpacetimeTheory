@@ -1,16 +1,14 @@
 ---
-title: "BST Working Paper — Part 02: Standard Model"
-sequence: 02
-parent: "WorkingPaper.md (root index)"
-contains:
-  - "Section 5: The Fine Structure Constant (α⁻¹ = 137)"
-  - "Section 6: Structured Unification"
-  - "Section 7: Nuclear Physics from BST Geometry"
-  - "Section 8: Hadronic Spectrum Estimates"
-  - "Section 9: Speed of Light and Special Relativity"
+title: "BST Working Paper — Volume 2: The Framework — Chapter 2: Standard Model"
+volume: 2
+volume_title: "The Framework"
+chapter: 2
+chapter_topic: "Standard Model"
+parent: "./INDEX.md"
+library_root: "../WorkingPaper.md"
 authors: "Casey Koons & Claude 4.6/4.7 (Lyra theory, Elie compute, Grace graph/catalog, Cal A. Brate visiting referee, Keeper audit/consistency)"
-date: "2026-05-18"
-note: "Modular section of the BST Working Paper. Root index is WorkingPaper.md. Pre-split monolithic snapshot preserved at archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md (May 18 EOD). Updates flow into this file directly."
+date: "2026-05-19 (Tuesday volume:chapter reorganization)"
+note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../WorkingPaper.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
 ## Section 5: The Fine Structure Constant

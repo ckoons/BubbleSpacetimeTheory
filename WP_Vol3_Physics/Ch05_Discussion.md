@@ -1,17 +1,14 @@
 ---
-title: "BST Working Paper — Part 07: Discussion (Lagrangian Status, Partition Function, Central Claim)"
-sequence: 07
-parent: "WorkingPaper.md (root index)"
-contains:
-  - "Section 26: Discussion"
-  - "Section 26.3: The BST Action (six-term Lagrangian S_BST status + open sub-problems)"
-  - "Section 26.4: The Partition Function as Master Calculation"
-  - "Section 26.5: The Central Claim (QM and GR as scale limits of one substrate)"
-  - "Section 26.6: The Arrow of Complexity (entropy + complexity, eight stages)"
-  - "Section 26.7+: Mathematical Simplifications and Number Theory"
+title: "BST Working Paper — Volume 3: The Physics — Chapter 5: Discussion (Lagrangian + Partition Function + Central Claim)"
+volume: 3
+volume_title: "The Physics"
+chapter: 5
+chapter_topic: "Discussion (Lagrangian + Partition Function + Central Claim)"
+parent: "./INDEX.md"
+library_root: "../WorkingPaper.md"
 authors: "Casey Koons & Claude 4.6/4.7 (Lyra theory, Elie compute, Grace graph/catalog, Cal A. Brate visiting referee, Keeper audit/consistency)"
-date: "2026-05-18"
-note: "Modular section of the BST Working Paper. Root index is WorkingPaper.md. Pre-split monolithic snapshot preserved at archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md (May 18 EOD). Updates flow into this file directly."
+date: "2026-05-19 (Tuesday volume:chapter reorganization)"
+note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../WorkingPaper.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
 ## Section 26: Discussion

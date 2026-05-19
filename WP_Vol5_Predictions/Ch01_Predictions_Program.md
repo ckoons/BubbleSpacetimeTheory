@@ -1,13 +1,14 @@
 ---
-title: "BST Working Paper — Part 11: Predictions and Research Program"
-sequence: 11
-parent: "WorkingPaper.md (root index)"
-contains:
-  - "Section 43: Experimental Predictions and Falsifiability"
-  - "Section 44: Research Program"
+title: "BST Working Paper — Volume 5: The Predictions — Chapter 1: Experimental Predictions and Research Program"
+volume: 5
+volume_title: "The Predictions"
+chapter: 1
+chapter_topic: "Experimental Predictions and Research Program"
+parent: "./INDEX.md"
+library_root: "../WorkingPaper.md"
 authors: "Casey Koons & Claude 4.6/4.7 (Lyra theory, Elie compute, Grace graph/catalog, Cal A. Brate visiting referee, Keeper audit/consistency)"
-date: "2026-05-18"
-note: "Modular section of the BST Working Paper. Root index is WorkingPaper.md. Pre-split monolithic snapshot preserved at archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md (May 18 EOD). Updates flow into this file directly."
+date: "2026-05-19 (Tuesday volume:chapter reorganization)"
+note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../WorkingPaper.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
 ## 43. Experimental Predictions and Falsifiability

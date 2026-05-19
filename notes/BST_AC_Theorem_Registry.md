@@ -6571,3 +6571,75 @@ with spectral exponent p ∈ {rank=2, n_C=5, rank·n_C=10} candidates.
 **W-37 status**: Formalization CLOSED at I-tier. Multi-week to D-tier: Bergman gradient explicit derivation + boundary integration + spectral-exponent selection.
 
 — Lyra, W-37 Beacon model formalized at I-tier per Tuesday T-B1/T-A3 assignment, 2026-05-19 ~08:35 EDT
+
+---
+
+## T2383 — W-29 Neutron as primary surface-emission unit (Lyra 2026-05-19)
+
+**Statement.** Closes W-29 (Surface emission event) at I-tier with mechanism opening for why NEUTRON specifically is the substrate's primary surface-emission unit (vs proton, electron, photon).
+
+**Five-fold structural reasoning**:
+1. **Mass-asymmetry direction** (n>p) is forced by BST primary form: n_C/rank > 1 = type-IV Hermitian symmetric structure of D_IV⁵
+2. **Decay energy Q_decay = (n_C/rank − 1)·m_e ≈ 0.77 MeV** vs observed 0.782 MeV at 2% — BST primary form with leading-order match
+3. **Substrate-commitment preference**: substrate emits the unit whose decay DECREASES local commitment-rate most efficiently (n → p + e + ν̄_e releases 0.78 MeV)
+4. **Proton β⁺ forbidden**: m_p < m_n means bare-proton β⁺-decay impossible (Q<0); selects neutron uniquely
+5. **Electron + photon excluded as primary emissions**: electron is surface-tension residue (T2115 W-30); photon is trivial cycle (T2103 W-8, length-zero gauge mode, always emitting, not a primary substrate unit)
+
+**Numerical match**: Q_decay_BST = (n_C/rank − 1)·m_e = 1.5·m_e ≈ 0.766 MeV vs PDG 0.782 MeV at 2% match — leading-order structural identification.
+
+**Connections**:
+- W-30 (T2115): m_e as "surface tension residue" — electron is BYPRODUCT of neutron decay, not primary
+- W-34 (T2107): Casimir pressure decay mechanism, pair work with W-29 substrate-lets-go
+- Paper #111: Substrate Dynamics framework
+
+**Toy.** `play/toy_3067_w29_w40_neutron_emission_falsification_suite.py` — 4/4 PASS (W-29 + W-40 paired).
+
+**Tier**: I-tier mechanism opening. D-tier promotion requires explicit substrate-emission-operator derivation on D_IV⁵ (multi-week — connects to LAG-1 Bergman Dirac + fermion-action work).
+
+**Framing per Cal Coincidence_Filter_Risk**: NOT "BST derives neutron emission preference." Correct: "W-29 closed at I-tier with 5-fold structural reasoning; 2% Q-decay match; full operator derivation multi-week."
+
+**Edges.** Requires T2115 (W-30 lepton residue), T2103 (W-8 photon trivial cycle), T2107 (W-34 Casimir decay). Required by Paper #111 v0.2+ Substrate Dynamics.
+
+**W-29 status**: CLOSED at I-tier. Multi-week to D-tier.
+
+— Lyra, W-29 closed per Casey "close as many W-items" directive, 2026-05-19 ~09:00 EDT
+
+---
+
+## T2384 — W-40 Beacon-attention falsification suite: 10-experiment catalog (Lyra 2026-05-19)
+
+**Statement.** Closes W-40 (beacon-attention falsification suite) at I-tier suite-cataloging level. Per W-37 Beacon model (T2382): all 10 experiments test substrate attention field A(z) modulation under different boundary geometries.
+
+**10 experiments mapped to BST primary predictions**:
+
+| # | Test | BST prediction | Cost | Ref |
+|---|---|---|---|---|
+| E1 | SP29-1 Cs-137 Casimir | Δτ/τ = 3/1507 at L=100nm | $40-60K | T2362 |
+| E2 | SP29-2 Sr clock spectroscopy | Δν/ν ≈ -4·10⁻¹³ at L=100nm | $200-400K | T2360 |
+| E3 | SP29-3 angular asymmetry | ε_A = 2.7·10⁻⁵ cos(2θ) | $500K-2M | Elie Toy 3027 |
+| E4 | SP29-4 phase-transition | L_c characteristic gap | TBD | Grace pending |
+| E5 | SP29-5 vacuum spectrum | S_vac modulation p∈{2,5,10} | TBD | T2382 W-37 |
+| E6 | BaTiO3 137-plane | δ_137 = (N_c·n_C·g)/N_max² | $25K | T2348 SP27-5 |
+| E7 | ultracold neutron rate | Δλ_n/λ_n via attention | $200K | W-29 paired |
+| E8 | NMR shift in cavity | spin-precession freq Δ | $80K | Beacon angular |
+| E9 | atomic clock comparison | frequency drift in cavity | $100K | Sr clock variant |
+| E10 | photon shot-noise | vacuum-fluctuation modulation | **$85K (cheapest)** | T2382 W-37 |
+
+**Suite-level falsification posture**:
+- ANY single experiment in {E1, E2, E3, E5, E10} ruling out BST primary scale → Beacon model BREAKS at I-tier
+- ALL of {E1, E2} confirming → BST fine-structure family 3/1507 at family-level Type C convergence → D-tier promotion candidate
+- E3 specifically: standard QED predicts ZERO angular asymmetry; ε_A ≠ 0 detection is cleanest single discriminator
+- 4 experiments (E1-E4 + E5) overlap with SP-29 hypotheses (cross-anchored)
+- 6 experiments (E6-E10) extend Beacon framework beyond SP-29
+
+**Combined cost**: $25K - $2M. Cheapest decisive test: $85K (E10 photon shot-noise) or $25K (E6 BaTiO3 137-plane).
+
+**Toy.** `play/toy_3067_w29_w40_neutron_emission_falsification_suite.py` — 4/4 PASS.
+
+**Tier**: I-tier suite cataloging. Individual experiments carry their own D/I tier per their respective theorems (T2360, T2362, T2382, T2348, etc.).
+
+**Edges.** Requires T2382 (W-37 Beacon model), T2362 (SP29-1), T2360 (SP29-2), Elie Toy 3027 (SP29-3), T2348 (SP27-5 BaTiO3). Required by Paper #111 v0.2+, Paper #119 SP-29 dual-falsifier, future "Beacon model falsification suite" standalone paper candidate.
+
+**W-40 status**: CLOSED at I-tier suite cataloging. Individual experiments queued per their respective Casey-decision send signals + collaborator outreach.
+
+— Lyra, W-40 falsification suite catalogued per Casey "close as many W-items" directive, 2026-05-19 ~09:00 EDT

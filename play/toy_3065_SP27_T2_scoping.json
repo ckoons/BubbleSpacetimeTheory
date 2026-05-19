@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "SP-27 Track 2 dark matter observational reanalysis scoping"
+  },
+  "BST_DM_framework": {
+    "DM_per_baryon": "16/N_c = 16/3 = 5.333",
+    "Omega_DM_spectral": "N_max/(rank^3\u00b7n_C^2) = 137/200 = 0.685",
+    "particle_prediction": "NULL (geometric remainder, not particle)",
+    "Wallach_shadow_reading": "16/3 at 0.2% (May 17 Architecture Day)"
+  },
+  "observational_areas": [
+    {
+      "id": "D3",
+      "topic": "Direct detection null results",
+      "data_sources": "LUX-ZEPLIN, XENONnT, PandaX-4T, DARWIN/XLZD (future)",
+      "BST_prediction": "NULL (no DM particle \u2192 zero cross-section)",
+      "reanalysis": "Current state: ALL null at <10^-47 cm^2. BST STRONGLY consistent.",
+      "priority": 1,
+      "scope_weeks": 1
+    },
+    {
+      "id": "D2",
+      "topic": "CMB Omega_DM (Planck 2018)",
+      "data_sources": "Planck 2018 base-LCDM Omega_DM\u00b7h^2 ~ 0.120",
+      "BST_prediction": "Omega_DM = N_max/(rank^3\u00b7n_C^2) = 137/200 = 0.685 (catalog)",
+      "reanalysis": "Normalization audit: convert spectral-remainder fraction to physical density at z=0",
+      "priority": 2,
+      "scope_weeks": 2
+    },
+    {
+      "id": "D4",
+      "topic": "Bullet Cluster / merging clusters",
+      "data_sources": "1E 0657-558 Chandra X-ray + weak-lensing maps",
+      "BST_prediction": "Spectral remainder displaced by dynamics; geometric lensing offset",
+      "reanalysis": "Does BST predict the 1E 0657 lens-mass offset naturally vs needing DM?",
+      "priority": 3,
+      "scope_weeks": 3
+    },
+    {
+      "id": "D1",
+      "topic": "Galaxy rotation curves",
+      "data_sources": "SPARC (Lelli+2016), MaNGA, individual rotation curves Rubin+",
+      "BST_prediction": "Geometric flat-curve profile from spectral remainder",
+      "reanalysis": "Identify curves explained by BST geometry vs requiring DM particle halo",
+      "priority": 4,
+      "scope_weeks": 4
+    },
+    {
+      "id": "D5",
+      "topic": "Dwarf spheroidal cores / NFW",
+      "data_sources": "Ursa Minor, Draco, Sculptor density profiles",
+      "BST_prediction": "Geometric remainder profile at small-scale (cored, not cuspy?)",
+      "reanalysis": "Core/cusp problem resolution via BST geometric DM vs CDM particle",
+      "priority": 5,
+      "scope_weeks": 4
+    },
+    {
+      "id": "D6",
+      "topic": "sigma_8 tension + structure formation",
+      "data_sources": "Planck CMB sigma_8 vs LSS KiDS/DES sigma_8",
+      "BST_prediction": "Tension = 7/264 BST primary form between (1-rank/c_2) and (1-n_C/chi) readings",
+      "reanalysis": "Structural origin of the 2.7% sigma_8 tension via BST",
+      "priority": 6,
+      "scope_weeks": 4
+    }
+  ],
+  "priority_order": [
+    "D3",
+    "D2",
+    "D4",
+    "D1",
+    "D5",
+    "D6"
+  ],
+  "immediate_findings": {
+    "D3": "BST DM framework consistent with all current direct-detection null results",
+    "D2": "Omega_DM normalization 20% off via simple 137/200\u00b7(3/10); proper conversion derivation needed"
+  },
+  "multi_week_total_scope_weeks": 18,
+  "recommended_next": "D2 normalization derivation OR D3 future-experiment falsification spec"
+}

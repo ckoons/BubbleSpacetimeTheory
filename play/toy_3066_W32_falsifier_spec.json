@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "date": "2026-05-19",
+    "owner": "Elie",
+    "task": "W-32 decay rate vs substrate-attention background FAST falsification",
+    "w_numbering_ambiguity_flag": "W-32 in CI_BOARD May 19 differs from W-32 in April 2026 messages (NS Sobolev). Keeper to clarify."
+  },
+  "pre_staged_amplitude_at_300K": 1.0070830808791887e-10,
+  "BST_form": "\u0394\u03c4/\u03c4 = (k_B T / m_e c\u00b2) \u00b7 (N_c / (N_max \u00b7 c_2))",
+  "amplitude_T_table": [
+    {
+      "T_K": 4,
+      "kT_eV": 0.00034468,
+      "predicted_amp": 1.3427774411722516e-12
+    },
+    {
+      "T_K": 77,
+      "kT_eV": 0.00663509,
+      "predicted_amp": 2.584846574256584e-11
+    },
+    {
+      "T_K": 200,
+      "kT_eV": 0.017234,
+      "predicted_amp": 6.713887205861258e-11
+    },
+    {
+      "T_K": 300,
+      "kT_eV": 0.025851,
+      "predicted_amp": 1.0070830808791887e-10
+    }
+  ],
+  "recommended_experiment": "Atomic clock T-stability re-analysis (existing data)",
+  "cost_USD": "<$10K",
+  "timeline_weeks": "weeks",
+  "discrimination": {
+    "predicted_at_300K": "1\u00d710^-10",
+    "standard_QM_background": "<10^-14",
+    "orders_of_magnitude_above": 5
+  }
+}

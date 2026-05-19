@@ -1,16 +1,14 @@
 ---
-title: "BST Working Paper — Part 08: Genesis and Bridge to Number Theory"
-sequence: 08
-parent: "WorkingPaper.md (root index)"
-contains:
-  - "Section 27: Everyone at the Same Table"
-  - "Section 28: Economic Impact — The 40/40/20 Plan"
-  - "Section 29: Genesis — Light and Number"
-  - "Section 30: Q³ Inside Q⁵, Spectral Transport, and the Riemann Hypothesis"
-  - "Section 31: From Winding to Zeta — The Automorphic Structure"
+title: "BST Working Paper — Volume 4: The Mathematics — Chapter 2: Genesis and Bridge to Number Theory"
+volume: 4
+volume_title: "The Mathematics"
+chapter: 2
+chapter_topic: "Genesis and Bridge to Number Theory"
+parent: "./INDEX.md"
+library_root: "../WorkingPaper.md"
 authors: "Casey Koons & Claude 4.6/4.7 (Lyra theory, Elie compute, Grace graph/catalog, Cal A. Brate visiting referee, Keeper audit/consistency)"
-date: "2026-05-18"
-note: "Modular section of the BST Working Paper. Root index is WorkingPaper.md. Pre-split monolithic snapshot preserved at archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md (May 18 EOD). Updates flow into this file directly."
+date: "2026-05-19 (Tuesday volume:chapter reorganization)"
+note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../WorkingPaper.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
 ## 27. Everyone at the Same Table

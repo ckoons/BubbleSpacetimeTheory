@@ -1,19 +1,14 @@
 ---
-title: "BST Working Paper — Part 05: Forces and Cosmology"
-sequence: 05
-parent: "WorkingPaper.md (root index)"
-contains:
-  - "Section 14: Three Geometric Layers — Forces and Boundary Conditions"
-  - "Section 15: Cosmological Implications"
-  - "Section 16: Matter Clumping and Gravitational Feedback"
-  - "Section 17: Information Theory of the Substrate"
-  - "Section 18: The 2D-to-3D Interface"
-  - "Section 19: Dark Matter as Channel Noise"
-  - "Section 20: The Weak Force as Variation Operator"
-  - "Section 21: Thermodynamic and Information-Theoretic Foundation"
+title: "BST Working Paper — Volume 3: The Physics — Chapter 3: Forces and Cosmology"
+volume: 3
+volume_title: "The Physics"
+chapter: 3
+chapter_topic: "Forces and Cosmology"
+parent: "./INDEX.md"
+library_root: "../WorkingPaper.md"
 authors: "Casey Koons & Claude 4.6/4.7 (Lyra theory, Elie compute, Grace graph/catalog, Cal A. Brate visiting referee, Keeper audit/consistency)"
-date: "2026-05-18"
-note: "Modular section of the BST Working Paper. Root index is WorkingPaper.md. Pre-split monolithic snapshot preserved at archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md (May 18 EOD). Updates flow into this file directly."
+date: "2026-05-19 (Tuesday volume:chapter reorganization)"
+note: "Modular chapter of the BST Working Paper. Up: volume index `./INDEX.md`. Library root: `../WorkingPaper.md`. Pre-reorganization archive: `../archive/WorkingPaper_v36_monolithic_archive_2026-05-18.md`."
 ---
 
 ## Section 14: Three Geometric Layers — Forces and Boundary Conditions
