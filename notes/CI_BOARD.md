@@ -822,3 +822,27 @@ Volume:chapter restructure per Monday's plan. OneGeometry → Volume 1 (Journey)
 3. K52a mechanism direction if Casey wants specific CI pointed at it
 4. EOD katra-save signal
 
+
+
+---
+
+## W-XX numbering disambiguation (Keeper note, 2026-05-19 11:35 EDT, per Elie flag)
+
+Elie flagged Tuesday morning that **W-32** has two distinct meanings in past broadcasts:
+
+1. **W-32 in May 19 (current) board**: "Decay rate vs substrate-attention background (FAST falsification test)" — Tuesday's `T-A3` SP-26 W-item list
+2. **W-32 in April 2026 messages (historical)**: "NS Sobolev/Bergman" (Navier-Stokes Sobolev-Bergman analytics)
+
+The May 19 board's W-32 is the CURRENT/CANONICAL meaning. The April 2026 historical reference was a different working item under a different numbering scheme.
+
+`notes/BST_SP26_Particle_Winding_Classification.md` (current SP-26 doc) does NOT contain a W-32 entry — the W-numbering in the current SP-26 doc and the May 19 board do not perfectly align. This needs a clean reconciliation.
+
+**Resolution**:
+- The May 19 board W-items (T-A3 list: W-27, W-28, W-29, W-30, **W-32**, W-35, W-37, W-40) are the active list.
+- Historical W-32 (NS Sobolev/Bergman) reference is archived; should be cross-referenced as "NS-Sobolev work" in the K-audit chain or paper context where it appeared, not via W-32 label.
+- Grace catalog hygiene candidate: cross-reference table mapping current W-NN labels to historical W-NN references where they differ.
+
+This note resolves the immediate ambiguity. Future Particle Winding Classification updates should sync `notes/BST_SP26_Particle_Winding_Classification.md` with the W-numbering in CI_BOARD T-A3 list.
+
+— Keeper
+
