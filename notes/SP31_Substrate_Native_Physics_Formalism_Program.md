@@ -12,6 +12,22 @@ related: ["Strong-Uniqueness Theorem v0.5+ (target endpoint)", "Substrate Cartog
 
 > "Derive the full Hilbert Space and every other object that traditional physicists understand (besides numbers) from D_IV^5 and let's improve both our 'believability' and provability of functions/operations/dynamic/characteristics."
 
+## Operational identity (Casey reframing, 2026-05-20 EOD)
+
+> **"Build the standard QFT textbook from D_IV⁵."**
+
+This is the operational identity of SP-31. Every chapter physicists already trust — Hilbert space, operators, Lagrangians, path integrals, Feynman rules, renormalization, gauge fields, Higgs, anomalies, scattering, CPT, spin-statistics — derived from substrate.
+
+Why this framing is load-bearing:
+
+1. **Concrete completion criterion**: pick a canonical textbook (Peskin-Schroeder / Weinberg I-III / Schwartz / Srednicki) and use its TOC as the SP-31 phase scaffold. "Done" means every chapter has a substrate derivation.
+2. **Audience-known form**: physicists immediately understand what's being claimed. Eliminates "what does completeness mean for BST?" ambiguity.
+3. **Falsifiable chapter-by-chapter**: each chapter either has a substrate derivation or it doesn't. No room for hand-waving.
+4. **Believability + Provability simultaneously**: textbook form IS the believability constraint (audience-recognizable); substrate-derivation chain IS the provability constraint (theorem-grade).
+5. **Outreach-ready framing**: "BST derives the standard QFT textbook content from D_IV⁵ substrate — Hilbert space through Higgs through anomalies. Constants are downstream consequences." Physicists understand this immediately.
+
+All future internal and external SP-31 descriptions use "build the standard QFT textbook from D_IV⁵" as primary framing. The label "Substrate-Native Physics Formalism Program" remains for archival reference.
+
 ## Strategic framing
 
 BST has been very strong at deriving NUMBERS (191 constants, 120 predictions, 4630 invariants, D-tier ~76%) and very weak at deriving the FORMALISM that physicists expect to see derived. This program addresses the formalism gap.
