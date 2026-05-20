@@ -1,10 +1,10 @@
 ---
 title: "Coincidence-Filter Risk Recognition: Methodology for BST Claims"
 author: "Cal A. Brate (Claude 4.7, visiting referee)"
-date: "2026-05-17"
+date: "2026-05-17 (cross-references added 2026-05-20)"
 status: "Standing methodology document. Reference before drafting any 'X-fold recurrence', 'multi-route convergence', 'BST integer factors here too', or 'N-domain coverage' claim."
 target: "BST team (Lyra, Elie, Grace, Keeper) for self-check; standing reference for external-paper review"
-companion: "BST_Methodology_External_Survivability_Checklist.md (Cal, 2026-05-17)"
+companion: "BST_Methodology_External_Survivability_Checklist.md (Cal, 2026-05-17); BST_Methodology_EXACT_vs_Mechanism_Distinction.md (Cal, 2026-05-20 — clarifies Mode 1 does not relax under EXACT algebraic identity); BST_Methodology_AuditChain_Quality_Patterns.md (Cal + Keeper, 2026-05-20 — positive-signal patterns, M2C2 first entry; this doc covers negative-filter modes only)"
 ---
 
 # Coincidence-Filter Risk Recognition: Methodology for BST Claims

@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "K52a Session 17 zone-specific H_sub framework"
+  },
+  "casey_vision": "4-Zone Commitment Cycle (vision 3)",
+  "zones": [
+    {
+      "zone": "Zone 1 (inner edge / absorption)",
+      "H_sub_role": "H_sub_absorb",
+      "physical_meaning": "substrate states being absorbed into commitment cycle",
+      "operator_character": "state-receiving operators; substrate-input coupling",
+      "K52a_observables_here": [
+        "commitment-rate manipulation (decay-rate modulation, SP-30-3)"
+      ],
+      "BST_primary_role": "substrate-coupling rate at inner-edge interface",
+      "candidate_operator_form": "projection from external state onto GF(2^g) basis"
+    },
+    {
+      "zone": "Zone 2 (bulk interior / 2D semi-chaotic)",
+      "H_sub_role": "H_sub_bulk",
+      "physical_meaning": "2D semi-chaotic recording + continual reorganization",
+      "operator_character": "time-evolution + reorganization dynamics",
+      "K52a_observables_here": [
+        "Lamb shift (1 - 1/M_g)",
+        "BCS gap (multi-cycle reorganization)",
+        "eigentone resonances"
+      ],
+      "BST_primary_role": "core substrate dynamics on D_IV^5",
+      "candidate_operator_form": "Laplace-Beltrami on D_IV^5 + Frobenius reorganization"
+    },
+    {
+      "zone": "Zone 3 (between edges / emission)",
+      "H_sub_role": "H_sub_emit",
+      "physical_meaning": "state transition outward, emission interface",
+      "operator_character": "substrate-to-observable coupling; CHSH lives here",
+      "K52a_observables_here": [
+        "Bell CHSH (substrate-CHSH operator)",
+        "Born = Bergman projection (K67)"
+      ],
+      "BST_primary_role": "emission projection via Bergman kernel; g/rank exponent",
+      "candidate_operator_form": "Bergman kernel projection from D_IV^5 onto boundary"
+    },
+    {
+      "zone": "Zone 4 (outer edge / active)",
+      "H_sub_role": "H_sub_active",
+      "physical_meaning": "state expressing externally",
+      "operator_character": "observable expression operators",
+      "K52a_observables_here": [
+        "Casimir asymmetric ratio = g",
+        "condensed-matter T_c (Hg-1223)",
+        "BaTiO3 137-plane"
+      ],
+      "BST_primary_role": "outer-edge boundary face of integer-web",
+      "candidate_operator_form": "boundary-face evaluation on outer-edge"
+    }
+  ],
+  "K52a_zone_distribution": {
+    "Zone_2": [
+      "Lamb",
+      "BCS",
+      "eigentone"
+    ],
+    "Zone_3": [
+      "Bell CHSH",
+      "Born=Bergman"
+    ],
+    "Zone_1": [
+      "SP-30-3 commitment manipulation"
+    ],
+    "Zone_4": [
+      "Casimir asymmetric",
+      "Hg-1223 T_c",
+      "BaTiO3 137-plane"
+    ]
+  },
+  "cascade_unblock_refined": {
+    "K52a Lamb (Zone 2)": "H_sub_bulk reorganization \u2192 (1 \u2212 1/M_g) factor",
+    "K52a BCS (Zone 2)": "H_sub_bulk Cooper-coherent \u2192 (1 + 1/M_g) factor",
+    "K66 Bell (Zone 3)": "H_sub_emit Bergman projection \u2192 126/16 Bell capacity",
+    "K67 Born = Bergman (Zone 3)": "H_sub_emit holomorphic-discrete-series \u2192 emission exponent g/rank",
+    "K68 RS Computation (Zone 2)": "H_sub_bulk GF(2^g) cyclotomic computation",
+    "K69 Universal Q=126 (all zones)": "Q=126 IS the active-mode count of substrate; appears across zones"
+  },
+  "sessions_17_25_roadmap": [
+    "S17: zone framework (today)",
+    "S18: H_sub_bulk (Lamb)",
+    "S19: H_sub_emit (Bell)",
+    "S20: H_sub_absorb (commitment)",
+    "S21: H_sub_active (Casimir)",
+    "S22+: combine zones"
+  ],
+  "multi_month_horizon": "Sessions 17-25 multi-month per session; Cal Criterion 2(b) ~S22-S25"
+}

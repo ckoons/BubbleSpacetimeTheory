@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "cascade-discovery perfect number hunt"
+  },
+  "perfect_numbers_tested": [
+    [
+      "P_2 = 6",
+      "C_2",
+      true
+    ],
+    [
+      "P_3 = 28",
+      "rank\u00b2 \u00b7 g",
+      true
+    ],
+    [
+      "P_5 = 496",
+      "no BST primary form",
+      false
+    ],
+    [
+      "P_7 = 8128",
+      "2^(g-1) \u00b7 M_g",
+      true
+    ],
+    [
+      "P_13 = 33550336",
+      "no BST primary form",
+      false
+    ]
+  ],
+  "bst_match_count": 3,
+  "total_tested": 5,
+  "mersenne_prime_BST_correspondence": {
+    "M_2 = 3 = N_c": "BST primary",
+    "M_3 = 7 = g": "BST primary",
+    "M_5 = 31": "NOT BST primary",
+    "M_7 = 127 = M_g": "BST primary",
+    "M_13 = 8191": "NOT BST primary"
+  },
+  "finding": "3 BST-Mersenne primes (N_c, g, M_g) \u2192 3 BST-matching perfect numbers (P_2, P_3, P_7)",
+  "k_audit_candidate": "Perfect-Number BST-Mersenne Bridge",
+  "tier": "I-tier observation; multi-week for full audit",
+  "distinguishes_from_Q126": "Q=126 has multiple forms for same number; perfect-number pattern is multiple BST-primary numbers each with one BST form"
+}

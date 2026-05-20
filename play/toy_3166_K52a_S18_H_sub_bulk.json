@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "K52a S18 H_sub_bulk Zone 2 opening"
+  },
+  "casey_pipeline_status": "approved; primary thread continuation",
+  "lyra_cross_link": "T2418 \u039b/Casimir same vacuum + per-zone vacuum extension",
+  "H_bulk_framework": "Laplace-Beltrami + Frobenius reorganization on GF(2^g)",
+  "1_minus_1_M_g_emergence": "matrix-element structure (Bethe-log Drake-Swainson), not spectrum ratio",
+  "per_zone_vacuum_conjecture": "each zone has own substrate vacuum derived from same D_IV^5 algebra",
+  "multi_month_horizon": "Sessions 18+ continue; full Lamb derivation Sessions 18-22",
+  "cross_link_to_K52a_cascade": "Zone 2 vacuum derivation closes K52a Lamb + K52a BCS simultaneously"
+}

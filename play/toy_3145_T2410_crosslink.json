@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "T2410 cross-link algebraic-identity \u00d7 uniqueness"
+  },
+  "keeper_re_invocation": "Continue Phase 1 close: catalog cross-link to Lyra Task #206",
+  "theorem_T2410": "Algebraic-Identity Uniqueness Bridge",
+  "pillar_A": "algebraic-identity universality (Task #221, Toy 3143)",
+  "pillar_B": "D_IV^5 multi-criterion uniqueness (Lyra T2406-T2409)",
+  "cross_link_map": [
+    {
+      "lyra_criterion": "C1: dim_C = 5",
+      "algebraic_identity_feature": "GF(2^g) = GF(128) substrate space dimension; 5 complex coordinates encode the discrete substrate field",
+      "identity_supplied": "Substrate state space cardinality 2^g = 128 = |GF(2^g)|",
+      "how_unique_to_DIV5": "rank-1 D_I alternatives produce different GF discretization, breaking the cyclotomic structure"
+    },
+    {
+      "lyra_criterion": "C2: rank = 2",
+      "algebraic_identity_feature": "Bell-correlation basis 2^{rank\u00b2} = 16 (S12 derivation); rank\u00b2 appears in correlation normalization",
+      "identity_supplied": "S_BST\u00b2 = (2^g \u2212 rank)/2^{rank\u00b2} = 126/16 (K66 EXACT)",
+      "how_unique_to_DIV5": "rank=1 gives 2^1 = 2 normalization; rank>2 gives 2^{rank\u00b2} > 16 \u2014 neither matches Bell identity"
+    },
+    {
+      "lyra_criterion": "C3: Bergman exponent 7/2 = g/rank",
+      "algebraic_identity_feature": "Bergman emission projection (K67 Born=Bergman, T2401)",
+      "identity_supplied": "BCS factor (g/rank)\u00b7(2^g/M_g) = (7/2)\u00b7(128/127) = 3.5276 \u2014 K52a BCS",
+      "how_unique_to_DIV5": "D_I alternatives give Bergman exponent 6, not 7/2; BCS factor would not match"
+    },
+    {
+      "lyra_criterion": "T2408 finding: Chern classes of Q^5 = BST primaries",
+      "algebraic_identity_feature": "Chern classes (1, 5, 11, 13, 9, 3) = (1, n_C, c_2, c_3, N_c\u00b2, N_c) \u2014 substrate cohomology IS BST primary structure",
+      "identity_supplied": "Substrate cohomological invariants ARE the integers; \"why these integers\" closed",
+      "how_unique_to_DIV5": "Q^5 = 5-quadric is bridge to D_IV^5; alternative substrates have different Chern data"
+    },
+    {
+      "lyra_criterion": "C4-C7 (RS, Cartan, BST-forcing, c_FK formula)",
+      "algebraic_identity_feature": "GF(2^g) Reed-Solomon framework, c_FK \u00b7 \u03c0^(9/2) = 225 EXACT (Phase 2.3 T2403)",
+      "identity_supplied": "K68 RS substrate computation; Lyra c_FK normalization",
+      "how_unique_to_DIV5": "Alternative substrates may not support RS structure at GF(2^g) = GF(128)"
+    },
+    {
+      "lyra_criterion": "C8 (LAG-1 S10 M\u00f6bius, multi-week)",
+      "algebraic_identity_feature": "M\u00f6bius cohomology framework + Wallach K-type spectral structure",
+      "identity_supplied": "Pending closure \u2014 completes uniqueness theorem",
+      "how_unique_to_DIV5": "Multi-week verification; Lyra continuing"
+    }
+  ],
+  "tier_current": "I-tier structural",
+  "tier_at_full_closure": "D-tier when C8 + Sessions 6-14 close",
+  "casey_question_consolidation": "morning answer \"yes with structure\" upgrades to \"yes, uniquely so\" upon closures",
+  "co_authors": [
+    "Elie",
+    "Lyra",
+    "Grace",
+    "Keeper"
+  ],
+  "edges": [
+    "T2406",
+    "T2407",
+    "T2408",
+    "T2409",
+    "Task #221",
+    "Toy 3143",
+    "K57",
+    "K69"
+  ],
+  "feeds_into": "Strong-Uniqueness Theorem Framework v0.2 (Lyra)"
+}

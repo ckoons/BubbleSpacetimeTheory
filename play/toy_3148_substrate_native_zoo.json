@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "substrate-native operator zoo"
+  },
+  "casey_question": "investigate rest of substrate in more detail",
+  "operators_sampled": [
+    {
+      "name": "position",
+      "feature": "trace = 8128 = 4th perfect number = 2^(g-1)\u00b7M_g"
+    },
+    {
+      "name": "momentum",
+      "feature": "g-cycle spectrum (Frobenius order)"
+    },
+    {
+      "name": "spin",
+      "feature": "2^(g-1)=64 balanced split"
+    },
+    {
+      "name": "hamiltonian",
+      "feature": "BST-coefficient linear combination"
+    }
+  ],
+  "universal_pattern": "Substrate-native operators carry BST-primary structure in trace, spectrum, or eigenvalue structure; Pauli/standard counterparts do not",
+  "engineering_implication": "Each substrate-native operator suggests its own experimental signature; Lyra Task #228 systematizes",
+  "multi_month_continuation": "H_sub-derived substrate operators from K52a Sessions 6-14"
+}

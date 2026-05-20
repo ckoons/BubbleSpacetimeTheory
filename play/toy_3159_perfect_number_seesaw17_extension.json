@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "Task #246 perfect-number cascade seesaw=17 extension"
+  },
+  "M_17_value": 131071,
+  "P_17_value": 8589869056,
+  "M_17_BST_primary": false,
+  "P_17_BST_primary": false,
+  "extension_finding": "seesaw=17 does NOT extend the BST-perfect-number cascade",
+  "refined_K71_statement": "Perfect numbers P_p are BST-primary IFF Mersenne prime M_p is BST-primary; three confirmed instances at (N_c, g, M_g) \u2192 (C_2, rank\u00b2\u00b7g, 2^(g-1)\u00b7M_g)",
+  "tier": "I-tier 3-instance cluster",
+  "cluster_closure": "pattern holds; non-BST Mersenne primes excluded; cluster is closed at 3 instances"
+}

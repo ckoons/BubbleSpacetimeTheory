@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "algebraic-identity universality boundary cases"
+  },
+  "cases_cataloged": 6,
+  "categories": {
+    "LIMIT-TRAJECTORY (limit-decidable from outside substrate)": 1,
+    "CONTINUUM-LIMIT": 1,
+    "MATH-FRONTIER-OPEN": 1,
+    "COMPLEXITY-CLASS (asymptotic, not point)": 1,
+    "DISTRIBUTION (probability is exact, outcomes sampled)": 1,
+    "BOUNDARY-CONDITION (substrate-algebraic choice)": 1
+  },
+  "cases": [
+    {
+      "name": "\u03b3_EM (Euler-Mascheroni constant)",
+      "source_toy": "Toy 1157 (Casey \u03b3 trajectory classification)",
+      "why_not_algebraic": "Limit of harmonic series \u03a3(1/k \u2212 ln(k)) is NOT known to be algebraic or transcendental \u2014 trajectory-undecidable",
+      "substrate_status": "Substrate can compute partial sums at integer cycle granularity, but the LIMIT as a single number is not substrate-internal \u2014 it requires the limiting procedure, which is meta to the substrate cycles",
+      "category": "LIMIT-TRAJECTORY (limit-decidable from outside substrate)",
+      "casey_universality_impact": "\u03b3_EM is a limit of substrate-computable quantities, not a substrate-internal identity. Substrate computes the trajectory; classification of the limit is meta-level."
+    },
+    {
+      "name": "NS smooth solutions in 3D",
+      "source_toy": "NS proof chain T297+",
+      "why_not_algebraic": "Continuum-limit solutions to Navier-Stokes are functions on continuous space-time; algebraic-identity at substrate level applies to the L^\u221e bound, not to the function value at every point",
+      "substrate_status": "Substrate represents NS at discrete commitment cycles; smooth continuum solution emerges as limit",
+      "category": "CONTINUUM-LIMIT",
+      "casey_universality_impact": "Substrate observables (L^\u221e bound, blow-up criterion) are algebraic-identity; the underlying continuous function is the limit of substrate trajectories"
+    },
+    {
+      "name": "6 master integrals (math-frontier irreducible)",
+      "source_toy": "Mentioned in CLAUDE.md as math-frontier open",
+      "why_not_algebraic": "These are genuinely OPEN integrals in math \u2014 not known to reduce to known constants. Not BST-specific; math-frontier itself.",
+      "substrate_status": "Substrate may evaluate them numerically at high precision, but no closed-form algebraic identity is known",
+      "category": "MATH-FRONTIER-OPEN",
+      "casey_universality_impact": "Not BST gap \u2014 open math question. If math eventually finds closed form, substrate may identify; otherwise, irreducible."
+    },
+    {
+      "name": "Polynomial-time arithmetic complexity at large n",
+      "source_toy": "AC(0) graph, P!=NP work",
+      "why_not_algebraic": "Computational complexity classes are statements about asymptotic resource use, not about individual quantities",
+      "substrate_status": "Substrate-derivable in terms of BST primary structure (Casey Curvature Principle); but the CLASSES themselves are not point identities",
+      "category": "COMPLEXITY-CLASS (asymptotic, not point)",
+      "casey_universality_impact": "Substrate captures the asymptotic STRUCTURE algebraically (depth \u2264 1, P!=NP via curvature); individual class members are not point identities"
+    },
+    {
+      "name": "Probabilistic distributions (Bell, Born=Bergman)",
+      "source_toy": "K67 Born = Bergman (T2401), Bell experiments",
+      "why_not_algebraic": "Substrate computes probability distributions exactly; the OUTCOMES are sampled. Sampling introduces randomness, not algebra.",
+      "substrate_status": "Probability distribution IS algebraic-identity (per K67); individual outcomes are samples",
+      "category": "DISTRIBUTION (probability is exact, outcomes sampled)",
+      "casey_universality_impact": "Substrate distribution = algebraic-identity. Observed outcomes are statistical, but the underlying probability structure is exact."
+    },
+    {
+      "name": "Anti-periodic boundary phase (JW fermion ring)",
+      "source_toy": "Toy 3128 K52a S10 honest FAIL",
+      "why_not_algebraic": "Fermionic Jordan-Wigner on a ring introduces anti-periodic boundary phase from anti-commutation; algebraic-identity on the cyclic structure requires explicit BC choice",
+      "substrate_status": "Substrate-internal: choosing periodic vs anti-periodic BC is a substrate-algebraic structural decision, not a continuum artifact",
+      "category": "BOUNDARY-CONDITION (substrate-algebraic choice)",
+      "casey_universality_impact": "Algebraic-identity holds CONDITIONAL on BC choice. Substrate may have specific BC selection rule pending derivation."
+    }
+  ],
+  "universality_verdict": "algebraic-identity holds for substrate-internal point quantities; meta-structures (limit, continuum, sampling, BC) are not point identities but are part of substrate operation",
+  "register_per_cal_flag_1": "substrate IS algebraic-identity at point-quantity level; INTERFACES to observation involve meta-structures",
+  "feeds_into": [
+    "Grace Task #219 trichotomy completion",
+    "Keeper Task #223 position doc",
+    "Casey universality question"
+  ]
+}

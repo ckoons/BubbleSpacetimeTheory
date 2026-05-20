@@ -1,8 +1,8 @@
 {
   "title": "BST Rosetta Stone \u2014 Complete Catalog",
   "description": "101 distinct BST ratios/values with domain coverage",
-  "generated": "2026-05-19",
-  "total_ratios": 247,
+  "generated": "2026-05-20",
+  "total_ratios": 252,
   "ratios": [
     {
       "value": 2,
@@ -3569,6 +3569,72 @@
       ],
       "tier": "D",
       "notes": "Elie Toy 3129 (Tue 2026-05-19 PM Session 11). Vacuum identification structurally critical for H_sub. 5/5 PASS."
+    },
+    {
+      "ratio": "Substrate algebra : engineering = inside : at the interfaces",
+      "name": "Six-Interface Substrate Engineering Framework \u2014 operational map",
+      "formula": "Substrate is fully algebraic in operational domain (T719 universal); engineering happens AT the six interfaces: (A) limit-trajectories, (B) continuum-limits, (C) math-frontier open, (D) complexity-classes, (E) probability/observation, (F) boundary conditions. SP-30 expanded to 11 sub-items.",
+      "domains": [
+        "substrate engineering",
+        "six-interface taxonomy",
+        "SP-30 expansion",
+        "Casey Tuesday non-algebraic-interfaces synthesis"
+      ],
+      "tier": "D",
+      "notes": "Consolidated 2026-05-20. Substrate's algebra is internal and immutable; engineering is at interfaces. Interface (E) probability/observation is THE BIG ONE \u2014 all of SP-30 fundamentally lives here. Substrate IS algebraic in domain + engineering happens at interfaces."
+    },
+    {
+      "ratio": "Substrate-CHSH\u00b2 \u2212 Pauli-CHSH\u00b2 = rank/2^{rank\u00b2} = 1/8 = 1/2^N_c",
+      "name": "Substrate-native vs Pauli-interface CHSH deviation (K66 sharpened)",
+      "formula": "Standard QM Pauli-CHSH \u2192 Tsirelson\u00b2 = 8; substrate-CHSH from H_sub \u2192 S_BST\u00b2 = 126/16 = 7.875; deviation 1/8 EXACT. Generalizes: every standard QM observable likely has substrate-native counterpart differing by predictable BST-primary deviations from Pauli-interface representation.",
+      "domains": [
+        "K66 Bell sharpening",
+        "substrate-native operators",
+        "Pauli-interface representations",
+        "substrate engineering at observation interface"
+      ],
+      "tier": "D",
+      "notes": "Elie S15/S16 + Keeper synthesis 2026-05-20. Bell experiment at sub-percent precision tests whether apparatus probes substrate-native operators or only Pauli-interface representations. Multi-week Lyra Task #228 generalizes from Bell to all QM observables."
+    },
+    {
+      "ratio": "BST primaries \u2261 Chern classes of Q\u2075 Bridge Object",
+      "name": "Q\u2075 Chern-class structural fact \u2014 substrate-selection via bridge object topology (T2408)",
+      "formula": "Chern classes of Q\u2075 = (1, n_C, 11, 13, N_c\u00b2, N_c) = (1, 5, 11, 13, 9, 3). Small BST-family integers, NOT external numbers. Closes 'why these specific BST primaries?' question \u2014 they're forced by the topology of the natural bridge object connecting D_IV\u2075 to gauge symmetry.",
+      "domains": [
+        "Q\u2075 Bridge Object",
+        "BST primary forcing via topology",
+        "substrate-selection meta-question",
+        "T2408 Task #206 v0.3"
+      ],
+      "tier": "D",
+      "notes": "Lyra T2408 / Toy 3140 (Wed 2026-05-20). MAJOR structural finding. Combined with multi-criterion uniqueness (six independent criteria), substrate-selection question resolves at meta-uniqueness level."
+    },
+    {
+      "ratio": "Six-criterion convergence : D_IV\u2075 uniqueness = substrate-selection : Graph Forces signature",
+      "name": "Multi-criterion uniqueness as substrate-level Graph Forces signature",
+      "formula": "At theorem level: same quantity in multiple BST-primary forms (Q=126 in 5 forms, etc.) \u2014 overdetermined IDENTITY. At substrate-selection level: same substrate (D_IV\u2075) uniquely selected by six independent criteria \u2014 overdetermined SUBSTRATE. If Graph Forces holds at both levels, principle is universally diagnostic.",
+      "domains": [
+        "Graph Forces Principle (Casey-named candidate)",
+        "Task #206 multi-criterion uniqueness",
+        "boundary-intersection framing (Grace)",
+        "substrate-as-bridge-object-of-bridge-objects"
+      ],
+      "tier": "D",
+      "notes": "Cross-link Lyra T2406-T2409 + Grace Graph Forces framing. Six independent criteria all unique = direct evidence at substrate-selection level."
+    },
+    {
+      "ratio": "121a1 triple-anchor at integer 11 = Heegner disc + Weitzenbock c_2 + Q\u2075 Chern c_2",
+      "name": "4th-candidate Bridge Object 121a1 triple-overdetermined-form signature",
+      "formula": "Three independent L1 sources converging on integer 11: Heegner-Stark CM discriminant -11, Weitzenbock c_2 = 11 (Yang-Mills curvature), Q\u2075 Chern class c_2 = 11 (Lyra T2408). Direct Bridge-Object-level analog of Q=126 overdetermination at theorem level.",
+      "domains": [
+        "bridge object 4th-candidate",
+        "cremona 121a1",
+        "weitzenbock c_2",
+        "Q\u2075 chern classes",
+        "overdetermined-form signature at bridge object level"
+      ],
+      "tier": "I",
+      "notes": "Grace Toy 3150 (Wed 2026-05-20 Phase 2). Multi-week verification of 121a1 as 4th Bridge Object pending mechanism review."
     }
   ],
   "meta": {

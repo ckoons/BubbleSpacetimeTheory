@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "K52a Session 15 operator-level CHSH"
+  },
+  "casey_authorization": "2026-05-20 day plan Thread A K52a continuation",
+  "status": "operator-level derivation OPEN (multi-month); trace-level S12 verified holds",
+  "bipartite_split": {
+    "dim_A": 8,
+    "dim_B": 16,
+    "total": 128
+  },
+  "unconstrained_max": 7.999999999999998,
+  "tsirelson_squared_expected": 8.0,
+  "tsirelson_match": true,
+  "silent_mode_projection": {
+    "max_eig": 7.999999999999998,
+    "matches_126_16": false
+  },
+  "frobenius_avg_attempt": {
+    "commutator_norm": 0.0,
+    "max_eig": 3.297252140096197,
+    "matches_126_16": false
+  },
+  "honest_finding": "Simple constraints do not immediately yield 126/16 max eigenvalue. Identifying correct algebraic constraint is multi-month.",
+  "next_session_S16_targets": [
+    "Combined Frobenius-eq + silent-mode constraint",
+    "Direct construction of substrate-CHSH operator from H_sub dynamics",
+    "Algebraic argument why max \u27e8B\u00b2\u27e9 = (2^g-rank)/2^{rank\u00b2} forced by substrate"
+  ]
+}

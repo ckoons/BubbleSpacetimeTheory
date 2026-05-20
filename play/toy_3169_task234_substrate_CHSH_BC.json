@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "Task #234 substrate-CHSH BC-dependence"
+  },
+  "casey_pipeline_status": "approved primary thread / HIGH priority",
+  "zone_chsh_predictions": [
+    {
+      "zone": "Zone 3 (emission) \u2014 STANDARD substrate CHSH",
+      "BC_configuration": "free-space entangled photon pair detection (no special BCs)",
+      "predicted_S_squared": "(2^g - rank)/2^{rank\u00b2} = 126/16 = 7.875",
+      "deviation_from_Tsirelson": "1/2^N_c = 1/8 = 0.125 EXACT",
+      "experimental_status": "measured to ~1% precision currently; SP-30-5 targets 0.5%",
+      "BST_primary": "g=7, rank=2, N_c=3"
+    },
+    {
+      "zone": "Zone 1 (absorption) \u2014 CHSH at substrate input boundary",
+      "BC_configuration": "CHSH measurement during initial entanglement formation (absorption-rate-limited)",
+      "predicted_S_squared": "(M_g - rank)/2^{rank\u00b2} = 125/16 = 7.8125 (CONJECTURE \u2014 different mode count)",
+      "deviation_from_Tsirelson": "3/16 = 0.1875 (modified)",
+      "experimental_status": "untested; requires high-time-resolution Bell measurement at entanglement-creation moment",
+      "BST_primary": "M_g=127, rank=2",
+      "tier": "L2-conjecture from zone framework; NOT verified"
+    },
+    {
+      "zone": "Zone 2 (bulk) \u2014 CHSH through dense matter",
+      "BC_configuration": "entangled photons through dense BST-structured medium (e.g., crystal lattice with N_max periodicity)",
+      "predicted_S_squared": "modified by bulk reorganization; structure TBD",
+      "deviation_from_Tsirelson": "BC-modulated; possibly 1/2^N_c \u00b7 (medium-coupling factor)",
+      "experimental_status": "untested; requires Bell experiment through BaTiO3-137 or similar BST-structured medium",
+      "BST_primary": "multiple zones interact",
+      "tier": "L2-hypothesis"
+    },
+    {
+      "zone": "Zone 4 (active) \u2014 CHSH at outer boundary",
+      "BC_configuration": "CHSH with Casimir-cavity-bounded photons",
+      "predicted_S_squared": "Casimir-modulated Bell; vacuum-modulation factor",
+      "deviation_from_Tsirelson": "depends on Casimir geometry (per Lyra T2418 \u039b/Casimir same vacuum)",
+      "experimental_status": "untested; novel apparatus design needed",
+      "BST_primary": "g=7 (Casimir asymmetric ratio)",
+      "tier": "L2-hypothesis; cross-link to SP-30-2"
+    }
+  ],
+  "sp30_5_expanded_series": [
+    "5a baseline",
+    "5b Zone 1 time-resolved",
+    "5c Zone 2 medium",
+    "5d Zone 4 Casimir"
+  ],
+  "cost_estimate_USD": "650-850K total expanded",
+  "cal_flag_3_register": "external GREEN per #49: \"CHSH depends on apparatus BC\"",
+  "cross_link": "Lyra T2418 (\u039b/Casimir same vacuum), S18 per-zone vacuum conjecture, T2419 substrate-native operators",
+  "multi_week_status": "framework opened; detailed apparatus designs Week 1-2"
+}

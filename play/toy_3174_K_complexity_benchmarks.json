@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "Task #251 K-complexity multi-week continuation"
+  },
+  "AC_graph_stats": {
+    "nodes": 2116,
+    "edges_undirected": 9099,
+    "avg_clustering_coefficient": 0.4845633483034465,
+    "random_clustering_expectation": 0.00406436154816485,
+    "clustering_ratio_vs_random": 119.22250089248031,
+    "gzip_compression_ratio": 0.2670506729559035,
+    "gzip_bits_per_node": 89.04347826086956,
+    "structural_info_ratio_vs_random": 0.7772167772167772,
+    "top_10_hub_edge_fraction": 0.14627981096823828
+  },
+  "top_10_hubs": [
+    [
+      186,
+      1359
+    ],
+    [
+      317,
+      231
+    ],
+    [
+      92,
+      228
+    ],
+    [
+      110,
+      164
+    ],
+    [
+      649,
+      130
+    ],
+    [
+      666,
+      124
+    ],
+    [
+      667,
+      113
+    ],
+    [
+      920,
+      111
+    ],
+    [
+      333,
+      106
+    ],
+    [
+      914,
+      96
+    ]
+  ],
+  "task_251_progress": {
+    "item_1_clustering": "DONE",
+    "item_2_gzip_benchmark": "DONE",
+    "item_3_hub_structure": "DONE",
+    "item_4_wordnet_crossref": "pending (needs WordNet data)",
+    "item_5_edge_type_entropy": "pending"
+  },
+  "cal_mode_1_vigilance": "no forced BST primary fits \u2014 empirical numbers reported honestly"
+}

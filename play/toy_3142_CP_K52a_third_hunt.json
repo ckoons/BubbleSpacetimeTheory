@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "Casimir-Polder K52a third-instance hunt"
+  },
+  "first_look_finding": "No obvious 126/127 or 128/127 factor in raw atom-wall C_4/C_3 ratios",
+  "systems_scanned": [
+    "H-perfect conductor",
+    "Na-glass",
+    "Cs-Au"
+  ],
+  "further_candidates": [
+    "Dimensionless O(1) Casimir-Polder ratios",
+    "Muonium hyperfine splitting",
+    "Mass-dependent isotope shifts in heavy nuclei",
+    "Vacuum polarization QED corrections"
+  ],
+  "multi_week_status": "first-look negative on raw ratios; finer-grained search continues",
+  "K52a_status": "2 D-tier instances (Lamb + BCS); third-instance hunt + Sessions 6-14 mechanism track both ongoing"
+}

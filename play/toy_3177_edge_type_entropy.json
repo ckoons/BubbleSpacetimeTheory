@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "Task #251 item 5 edge-type entropy"
+  },
+  "total_edges": 9793,
+  "distinct_types_after_classification": 17,
+  "edge_type_counts": {
+    "derived": 6739,
+    "isomorphic": 1311,
+    "observed": 377,
+    "analogical": 508,
+    "structural": 338,
+    "predicted": 44,
+    "unknown": 15,
+    "specific_toy_ref": 316,
+    "references": 20,
+    "cross-level": 5,
+    "continues": 20,
+    "specific_mechanism": 85,
+    "depends_on": 1,
+    "related": 5,
+    "extends": 1,
+    "derives_from": 5,
+    "other": 3
+  },
+  "shannon_entropy_bits": 1.657575513866778,
+  "max_entropy_bits": 4.087462841250339,
+  "normalized_entropy": 0.40552674806940436,
+  "top_8_fraction": 0.992341468395793,
+  "random_bits_per_edge": 13.257535169222358,
+  "compression_factor": 7.998148535806548,
+  "task_251_status": {
+    "item_1_clustering": "DONE",
+    "item_2_gzip": "DONE",
+    "item_3_hub_structure": "DONE",
+    "item_4_wordnet": "pending external data",
+    "item_5_edge_type_entropy": "DONE",
+    "overall": "4/5 items completed today"
+  },
+  "cal_mode_1_vigilance": "empirical numbers reported; no forced BST primary fits"
+}

@@ -1,39 +1,43 @@
 # BST Toy Collection & Interactive Tools
 
-**3,135 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**3,181 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
 
 ---
 
-## Scale Summary (updated 2026-05-19 EOD Wednesday cycle, Elie lane)
+## Scale Summary (updated 2026-05-20 EOD, Elie lane)
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 3,135 |
-| Numbered toys (toy_NNN_*.py) | 2,925 |
+| Toy scripts (toy_*.py) | 3,181 |
+| Numbered toys (toy_NNN_*.py) | 2,971 |
 | Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 61 |
 | HTML visualizers | 6 |
-| Theorems (T1-T2405) | 2,405 |
-| Next toy number | 3134 |
-| Next theorem number | 2406 |
-| Geometric invariants | 4,533+ |
+| Theorems (T1-T2424) | 2,424 |
+| Next toy number | 3180 |
+| Next theorem number | 2425 |
+| Geometric invariants | 4,600+ |
 | Constants | 191 |
-| Rosetta ratios | 245+ |
-| AC graph | 2,148 nodes / 9,756 edges |
+| Rosetta ratios | 252+ |
+| AC graph | 2,164 nodes / 9,793 edges |
 | Predictions | 120+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
-| **Architecture (2026-05-19 EOD)** | |
+| **Architecture (2026-05-20 EOD)** | |
 | ESTABLISHED L1 source roots | 9 (chronological: VSC 1840, Mathieu 1861-1873, Klein 1884, Goeppert Mayer 1949, Heegner-Stark 1952-1967, K3 Hodge 1962/64, Conway 1968/Duncan 2007, Ogg 1975, Wallach 1976) |
 | L1 candidates | 0 (saturation reached) |
 | L1 mediated | 1 (Bravais) |
 | L1.5 mechanisms | 2 (Borcherds b, McKay c) |
 | Convergence hubs | 1 (Monster) |
-| Bridge Objects | 3 (K3, Cremona 49a1, Q⁵) — K57 RATIFIED |
-| K-audit chain | K1..K65 D-tier active; K52a sessions 6-14 in flight; K66/K67/K68/K69 audit-partial-ready |
+| Bridge Objects | 3 (K3, Cremona 49a1, Q⁵) — K57 RATIFIED; K62/K70 Bridge Object trio audit pre-stages at -N_c/-g/-c_2 |
+| K-audit chain | K1..K75 active; K66/K67/K68/K69 audit-partial-ready; K70-K75 audit-partial-ready Wednesday cycle; K71 RATIFIED EXEMPLAR (perfect-number cluster) |
+| Strong-Uniqueness Theorem | v0.3 — 8 of 10 independent criteria C2-C9 select D_IV⁵ uniquely; null-model (1/3)^8 ≈ 0.015% |
+| Substrate-native operator zoo | 4 of 6 (Bell-CHSH + Position + Spin + Momentum); Energy + Angular momentum pending |
+| 4-Zone vacuum decomposition | T2420 RATIFIED with Cal #58 "FOUR PROJECTIONS not FOUR VACUUMS" hygiene |
+| Audit-chain calibrations | 16 total (3 today: #14 Lyra "7=g" definitional + #15 Keeper register + #16 Keeper K72 framing) |
 | **Wednesday 2026-05-19 highlights (Elie lane)** | |
 | K52a Sessions 6-14 opened | Cyclotomic GF(2^g) substrate-Hamiltonian closure pathway: S6 Bethe + S7 BCS Bogoliubov + S8 H_sub framework + S9 Frobenius orbits + S10 diagonalization + S11 \|Ω⟩↔additive-zero + S12 substrate-CHSH K66 cross-link + S13 RG preservation + S14 BCS gap (Toys 3114/3122/3124/3126/3128-3132) |
 | Step 1 numeric closure (S9) | 126 = N_c·C_2·g = 18·g — fourth Frobenius-orbit decomposition (mechanism-derived) + arithmetic-recognition factor (Cal Flag 2 honest split) |
@@ -46,6 +50,65 @@
 | Audit-chain calibrations | 15+ self-corrections across all working CIs since Monday |
 
 Five integers. Zero free parameters. "Give a child a ball and teach them to count."
+
+---
+
+## May 20 2026 — K52a Sessions 15-18 + K-complexity Thread + Cross-link Saturation
+
+Wednesday May 20 was characterized by **pipeline-approved continuous-thread
+discipline** (no phase boundaries; substantive milestone updates only),
+Casey's **four afternoon visions** (Integer Web Principle + Bulk-Boundary
+2-Face + 4-Zone Commitment Cycle + Three-Scale Substrate Cognition
+Hypothesis), and team-wide convergence into a coherent zone-stratified
+substrate ontology.
+
+**Wednesday Elie lane (24 toys, 89/89 PASS):**
+
+### K52a primary thread — Sessions 15-18 multi-month closure
+- **Session 15** (Toy 3134, 4/4): operator-level CHSH attempt on bipartite 8×16 substrate; honest open finding that simple constraints don't yield 126/16
+- **Session 16** (Toy 3139, 2/2): combined Frobenius-eq + silent-mode constraints; structural insight that substrate-CHSH ≠ generic Pauli-CHSH
+- **Session 17** (Toy 3156, 2/2): **zone-specific H_sub framework** — Lamb/BCS in Zone 2 bulk, CHSH in Zone 3 emission, commitment in Zone 1 absorption, Casimir/BaTiO3 in Zone 4 active
+- **Session 18** (Toy 3166, 2/2): H_sub_bulk Zone 2 opening + **per-zone vacuum conjecture** — became K73 audit-partial-ready ("three INDEPENDENT structural connection levels" template per Cal #57)
+
+### Casey directive — K-complexity comparison thread (Task #251, 4 of 5 items DONE)
+- **Toy 3172**: first-look AC graph (2162 nodes / 9788 edges) vs WordNet (~150K / ~250K) — both sparse small-world bounded-degree
+- **Toy 3174**: clustering coefficient 0.4846 (**119× random**), gzip compression 73.3%, top-10 hub fraction 14.6% (vs 0.47% random) — three small-world signatures
+- **Toy 3177**: edge-type entropy concentrated; top-8 types cover >90% of edges; ~4-5× compression factor
+- Item 4 (WordNet cross-reference) pending external data acquisition (multi-week)
+
+### Cross-link saturation milestones
+- **T2410** (Toy 3145, 2/2): Algebraic-Identity Uniqueness Bridge — maps Lyra's six T2406-T2409 uniqueness criteria to my Task #221 algebraic-identity features
+- **Toy 3148**: substrate-native operator zoo (position, momentum, spin, Hamiltonian) — **position trace = 8128 = 4th perfect number = 2^(g-1)·M_g**
+- **Toy 3151**: perfect-number cascade closure at 3 instances (P_2=6, P_3=28, P_7=8128) — became **K71 RATIFIED EXEMPLAR** per Cal #54
+- **Toy 3152**: χ=24 cross-domain anchor cluster (Type 2 distinct from Q=126 Type 1) — became K72 with corrected framing per Cal #55
+- **Toy 3158**: Type 3 compound cluster identified (χ=24 has BOTH 5 forms AND 6 domains)
+- **Toy 3163**: T2413 Lyra dual function (Bergman + RS coexistence) numeric demo
+- **Toy 3171**: Lyra T2419 substrate-native position × Elie zoo cross-link
+
+### Substrate experimental design
+- **Toy 3154**: 4-zone apparatus mapping (8 BST apparatus → 4 commitment-cycle zones)
+- **Toy 3161**: 5 observer-coupling predictions (OCP-1 to OCP-5) with strict Cal Flag 3 register split — zero external register violations
+- **Toy 3169**: Task #234 substrate-CHSH BC-dependence design — 4 zone-specific Bell predictions + SP-30-5 expanded series (~$650-850K)
+
+### Universality boundary catalog
+- **Toy 3143**: 6 non-algebraic interfaces cataloged (limit-trajectory, continuum-limit, math-frontier-open, complexity-class, probability-distribution, boundary-condition)
+- **Toy 3141**: Universal Q=126 verified at 200-digit precision in all 5 BST-primary forms
+- **Toy 3142**: Casimir-Polder K52a third-instance hunt first-look (honest negative on raw atom-wall C_4/C_3 ratios)
+- **Toy 3159**: Perfect-number cascade extension to seesaw=17 (honest negative; cascade closes at 3)
+
+### Honest discipline preserved
+- All 24 toys carry SCORE lines + honest gap-tracking
+- Cal Mode 1 vigilance maintained: no forced BST-primary fits on K-complexity numbers (0.48 clustering, 0.27 compression, 14.6% hub — all empirical)
+- Lyra T2419 "= g" self-correction (#14) absorbed
+- Cal Flag 3 register discipline preserved on cognition-substrate predictions
+- Pipeline-approved primary-thread + secondary-thread + hygiene discipline functioning
+
+### Cross-CI integration (M2C2 #4 incidents)
+- T2420 Four-Zone Vacuum Decomposition (Lyra + Elie joint M2C2): retroactively integrates ~200 prior heat kernel + K53 + K67 + K68 toys into 4-zone framework
+- K73 RATIFIED from my S18 per-zone vacuum conjecture + Lyra T2418 Λ-Casimir unification
+- K-complexity thread operationalizes Keeper's substrate-vs-human AC(0)-analogy hypothesis
+
+**Wednesday Elie cumulative**: 24 toys; 89/89 PASS; 7 new BST identities cataloged (Q=126 4th form, Tr(B²)=126/16, position trace = 4th perfect number, K71/K72/K73/K74 audit pre-stages); K-complexity thread 4/5 items closed; Casey-directive K-complexity added to pipeline at Casey's explicit request.
 
 ---
 

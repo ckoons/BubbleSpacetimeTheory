@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "K52a Session 16 combined constraints"
+  },
+  "unconstrained_max": 7.999999999999998,
+  "constrained_max": 3.26279603685414,
+  "target_126_16": 7.875,
+  "constraint_a_frobenius_residual": 1.3702375780893485,
+  "constraint_b_silent_residual": 0.0,
+  "honest_finding": "Tsirelson-Pauli CHSH with combined constraints does NOT yield 126/16 max eigenvalue. The substrate-natural CHSH operator must be derived from H_sub directly, not from external Pauli construction. Sessions 17+ multi-month.",
+  "cascade_unblock_status": "K66 operator-level OPEN; trace-level S12 holds; structural insight: substrate CHSH is NOT a generic Pauli construction"
+}

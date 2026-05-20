@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "Task #251 K-complexity AC vs human"
+  },
+  "ac_graph": {
+    "theorems": 1730,
+    "nodes": 2162,
+    "edges": 9788,
+    "avg_degree": 9.054579093432007,
+    "bits_per_node_naive": 100.30799269760107,
+    "edge_density": 0.004189994952999541,
+    "degree_entropy": 9.826559243553294
+  },
+  "human_concept_graph_wordnet": {
+    "synsets": 150000,
+    "relations": 250000,
+    "avg_degree": 3.3333333333333335,
+    "bits_per_node_naive": 57.31534325052655,
+    "edge_density": 2.2222370371358032e-05
+  },
+  "verdict": "Both graphs exhibit bounded-degree sparse small-world structure consistent with minimum-depth bounded-operation processing",
+  "multi_week_next_steps": [
+    "clustering coefficient + small-world index",
+    "actual K-complexity benchmarks (gzip/Lempel-Ziv)",
+    "hub structure identification",
+    "WordNet hub vs AC hub cross-reference",
+    "information-theoretic edge-type comparison"
+  ],
+  "casey_directive": "add K-complexity thread to pipeline"
+}

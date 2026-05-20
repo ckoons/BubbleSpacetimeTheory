@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "Task #221 EXACT-identity catalog"
+  },
+  "casey_authorization": "2026-05-20 day plan Thread B substrate review",
+  "cal_flag_1_compliance": "A/B/C statements separated per entry",
+  "total_entries": 13,
+  "category_counts": {
+    "PURE_A": 2,
+    "A_B_C": 7,
+    "A_B_C_pending": 4,
+    "NOT_PURE_ALGEBRAIC": 0
+  },
+  "entries": [
+    {
+      "toy_id": 3099,
+      "claim": "J_CKM = A\u00b2\u00b7\u03bb\u2076\u00b7\u03b7\u0304 via T1444 vacuum-subtraction",
+      "BST_form": "CKM Jarlskog invariant from BST primaries",
+      "A_verified": true,
+      "B_observable": "J_CKM CP-violation parameter",
+      "B_identifies": true,
+      "C_experimental": "matches at 0.3% (D-tier vacuum-subtracted)",
+      "C_precision_pct": 0.3,
+      "category": "A_B_C",
+      "falsifier": "high-precision J_CKM measurement diverging from BST primary form"
+    },
+    {
+      "toy_id": 3100,
+      "claim": "Solar \u03c4_MS = 10 Gyr from BST 4-way over-determination",
+      "BST_form": "\u03c4_MS via Integer-10 = rank\u00b7n_C anchor",
+      "A_verified": true,
+      "B_observable": "solar main-sequence lifetime",
+      "B_identifies": true,
+      "C_experimental": "matches stellar models (D-tier)",
+      "C_precision_pct": 1.0,
+      "category": "A_B_C",
+      "falsifier": "precise solar age measurement diverging from 10 Gyr"
+    },
+    {
+      "toy_id": 3102,
+      "claim": "Proton lifetime \u03c4_p = \u221e (no proton decay)",
+      "BST_form": "Complete N_c-phase commitment winding forbids decay",
+      "A_verified": true,
+      "B_observable": "proton decay rate",
+      "B_identifies": true,
+      "C_experimental": "Super-K bound \u03c4_p > 10^34 yr CONSISTENT with infinity",
+      "C_precision_pct": "infinite (qualitative null)",
+      "category": "A_B_C",
+      "falsifier": "observed proton decay event at any rate falsifies BST"
+    },
+    {
+      "toy_id": 3103,
+      "claim": "No GUT scale (no unified gauge group)",
+      "BST_form": "SM from D_IV^5 directly, no unification scale",
+      "A_verified": true,
+      "B_observable": "gauge coupling unification at M_GUT",
+      "B_identifies": true,
+      "C_experimental": "observed gauge couplings DO NOT unify (consistent with no-GUT)",
+      "C_precision_pct": "qualitative null",
+      "category": "A_B_C",
+      "falsifier": "discovery of gauge unification at 10^15 GeV scale"
+    },
+    {
+      "toy_id": 3097,
+      "claim": "K61 Family Q=131 = N_max \u2212 C_2 (4 contexts strong + 1 conditional)",
+      "BST_form": "Type C-\u2115 family at integer 131",
+      "A_verified": true,
+      "B_observable": "multiple cross-domain quantities at 131",
+      "B_identifies": true,
+      "C_experimental": "mixed (some match, some pending)",
+      "C_precision_pct": "varies by context",
+      "category": "A_B_C_pending",
+      "falsifier": "all 5 contexts shown coincidental (independent reasons)"
+    },
+    {
+      "toy_id": 3107,
+      "claim": "Joint Five-Absence unified test (5/5 PASS)",
+      "BST_form": "No GUT + no proton decay + no DM particle + no monopoles + no SUSY/sterile",
+      "A_verified": true,
+      "B_observable": "five distinct null predictions",
+      "B_identifies": true,
+      "C_experimental": "all 5 consistent with current observations",
+      "C_precision_pct": "qualitative joint null",
+      "category": "A_B_C",
+      "falsifier": "observation of any one of the 5 (GUT/decay/DM/monopole/SUSY)"
+    },
+    {
+      "toy_id": 3122,
+      "claim": "BCS substrate-Bogoliubov factor (1 + 1/M_g) = 2^g/M_g = 128/127",
+      "BST_form": "(g/rank)\u00b7(2^g/M_g) = (7/2)\u00b7(128/127)",
+      "A_verified": true,
+      "B_observable": "2\u0394/k_B T_c weak-coupling BCS",
+      "B_identifies": true,
+      "C_experimental": "3.528 observed; BST 3.5276 (0.006% match)",
+      "C_precision_pct": 0.006,
+      "category": "A_B_C",
+      "falsifier": "high-precision BCS T_c measurement diverging from 3.528"
+    },
+    {
+      "toy_id": 3126,
+      "claim": "126 = N_c\u00b7C_2\u00b7g (fourth BST-primary form for K69 Universal Q)",
+      "BST_form": "126 = M_g \u2212 1 = 2^g \u2212 rank = N_max \u2212 c_2 = N_c\u00b7C_2\u00b7g",
+      "A_verified": true,
+      "B_observable": "none \u2014 pure substrate algebraic invariant",
+      "B_identifies": false,
+      "C_experimental": "none",
+      "C_precision_pct": "N/A",
+      "category": "PURE_A",
+      "falsifier": "arithmetic error in BST primary values (vacuous; structurally forced)",
+      "note": "Mechanism: 126 = 18\u00b7g (Frobenius orbits, g=7 prime). Recognition: 18 = N_c\u00b7C_2. Cal Flag 2 split honest."
+    },
+    {
+      "toy_id": 3129,
+      "claim": "|\u03a9\u27e9 \u2194 GF(2^g) additive zero via polynomial-basis isomorphism",
+      "BST_form": "Bijection Fock |n_0,...,n_{g-1}\u27e9 \u2194 \u03a3 n_k x^k \u2208 GF(2^g)",
+      "A_verified": true,
+      "B_observable": "none \u2014 internal substrate-structure identification",
+      "B_identifies": false,
+      "C_experimental": "none",
+      "C_precision_pct": "N/A",
+      "category": "PURE_A",
+      "falsifier": "GF(2^g) structure not natural for substrate Hilbert space"
+    },
+    {
+      "toy_id": 3130,
+      "claim": "Tr(B_substrate\u00b2) = (2^g \u2212 rank)/2^{rank\u00b2} = 126/16 = 7.875",
+      "BST_form": "Trace-level Bell-correlation capacity on substrate",
+      "A_verified": true,
+      "B_observable": "Bell CHSH expectation value (squared)",
+      "B_identifies": true,
+      "C_experimental": "Bell experiments at current precision ~1%; predicted deviation 1/2^N_c = 1/8 from Tsirelson 8",
+      "C_precision_pct": 1.0,
+      "category": "A_B_C_pending",
+      "falsifier": "high-precision Bell experiment seeing exactly Tsirelson 2\u221a2 with no deviation",
+      "note": "S12 trace-level VERIFIED; S15 operator-level OPEN (multi-month)."
+    },
+    {
+      "toy_id": 3130,
+      "claim": "Bell deviation Tsirelson\u00b2 \u2212 S_BST\u00b2 = 1/2^N_c = 1/8 EXACT",
+      "BST_form": "rank/2^{rank\u00b2} = 2/16 = 1/8",
+      "A_verified": true,
+      "B_observable": "CHSH violation deviation from Tsirelson",
+      "B_identifies": true,
+      "C_experimental": "pending high-precision Bell measurement",
+      "C_precision_pct": "TBD (target ~0.5% to detect 1/8 deviation)",
+      "category": "A_B_C_pending",
+      "falsifier": "Bell measurement at <0.1% precision agreeing with QM Tsirelson exactly"
+    },
+    {
+      "toy_id": 3132,
+      "claim": "BCS factor (g/rank)\u00b7(1+1/M_g) substrate-derived form",
+      "BST_form": "(g/rank)\u00b7(2^g/M_g) = (7/2)\u00b7(128/127) = 3.5276",
+      "A_verified": true,
+      "B_observable": "BCS weak-coupling 2\u0394/k_B T_c",
+      "B_identifies": true,
+      "C_experimental": "matches at 0.006% (Toy 1512 verified)",
+      "C_precision_pct": 0.006,
+      "category": "A_B_C",
+      "falsifier": "weak-coupling BCS measurement diverging from 3.528"
+    },
+    {
+      "toy_id": 3115,
+      "claim": "SP-30-5 Bell experiment Vienna-class apparatus",
+      "BST_form": "CHSH deviation from Tsirelson = 1/2^N_c at target 0.79%",
+      "A_verified": true,
+      "B_observable": "CHSH violation in entangled-photon experiment",
+      "B_identifies": true,
+      "C_experimental": "experiment $300-500K, 6-12mo, target precision 0.5%",
+      "C_precision_pct": "design target 0.5%",
+      "category": "A_B_C_pending",
+      "falsifier": "experiment sees QM Tsirelson with no BST deviation"
+    }
+  ],
+  "universality_verdict_sample": "ALL Wednesday-cycle entries satisfy A; full universality requires broader catalog sweep (Grace Task #219)",
+  "feeds_into": [
+    "Grace Task #219 trichotomy sweep",
+    "Keeper Task #223 position doc"
+  ]
+}

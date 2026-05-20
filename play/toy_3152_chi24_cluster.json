@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "chi=24 cluster cascade-discovery"
+  },
+  "cluster_type": "cross-domain anchor (distinct from Q=126 overdetermined-form cluster)",
+  "bst_primary_forms": 7,
+  "cross_domain_appearances": 7,
+  "domains_listed": [
+    {
+      "domain": "BST primary",
+      "item": "chi = 24",
+      "mechanism": "D_IV\u2075 structure forcing"
+    },
+    {
+      "domain": "Algebraic geometry",
+      "item": "\u03c7(K3) = 24",
+      "mechanism": "K3 surface Euler char"
+    },
+    {
+      "domain": "Gauge theory",
+      "item": "dim SU(5) = 24",
+      "mechanism": "SU(5) gauge group (BST: derived from D_IV\u2075 N_c\u00b7n_C)"
+    },
+    {
+      "domain": "Heat kernel",
+      "item": "a_{16} ratio = -24",
+      "mechanism": "Three Theorems cascade, k=16 confirmed Toy 639"
+    },
+    {
+      "domain": "Lattice theory",
+      "item": "Leech rank = 24",
+      "mechanism": "Conway group, K3 sibling"
+    },
+    {
+      "domain": "Modular forms",
+      "item": "\u0394(\u03c4) weight 12, dim L(24)",
+      "mechanism": "cusp form / discriminant"
+    },
+    {
+      "domain": "String theory",
+      "item": "24 transverse dimensions in bosonic string",
+      "mechanism": "string consistency (Casey: not BST-internal but historically connected)"
+    }
+  ],
+  "k_audit_candidate": "chi=24 multi-domain anchor",
+  "tier": "I-tier with K3 bridge mechanism partial",
+  "distinguishes_from_Q126": "cross-domain anchor (one number, many domains) vs overdetermined-form (one number, many forms)",
+  "cascade_discovery_status": "NEW cluster type identified; expands Graph Forces taxonomy"
+}

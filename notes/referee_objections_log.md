@@ -638,6 +638,493 @@ Remaining: R-2 (standalone lemma) and R-3 (non-CM curves in Section 7). Open unt
 
 **Status:** OPEN. Three null-model attachments owed for T1924/T1926/T1928 before external use. TOP-3 §8.2 revision owed by Cal next session.
 
+### #47 — Paper #106 v0.4 "The Standard Model from Five Integers" — CONDITIONAL PASS pending 6 revisions (May 20)
+
+**Cal verdict (2026-05-20):** Paper #106 v0.4 ("The Standard Model from Five Integers", 1086 lines, 38 SM identifications) is CONDITIONAL PASS for internal use; NOT YET READY for external send pending six revisions. Tier discipline is largely honest (D/I/S labels clean across the catalog; Cal verdicts #22 and #23 properly absorbed for m_top/m_bottom and Δa_μ). Section sign check: 0 § characters (PASS). Overall structure: well-organized catalog with three named structural findings (bulk-boundary, heavy-state migration, α²·42 recurrence) plus K3-cohomology naturalness extension in 6.7.
+
+The six revisions are tier-discipline and external-survivability fixes, not substantive challenges to the catalog content.
+
+**M1 (HIGH, external-survivability blocker)**: Section 6.7 line 945. Current text: *"BST resolves both the hierarchy problem and the cosmological-constant problem in the same gesture as it resolves the SM parameter count problem. ... The two largest naturalness puzzles in fundamental physics dissolve into the same geometric exponential."* Both "resolves" and "dissolve" trigger the Eddington-pattern dismiss reflex per External_Survivability_Checklist Venue (pure math) item 2. Replace with: *"BST identifies a structural reading of the hierarchy and cosmological-constant ratios as integer exponentials of K3 cohomology classes, at sub-2% precision in the exponents. Full operator-level derivation linking the K3-cohomology spectral slice to the SM scales is open."* This is the same structural content in operational register.
+
+**M2 (HIGH, Mode 5 selection-effect risk)**: Section 5.5 line 738 + 740 table + lines 740-750 framing. The "fifth occurrence" of 42 as Catalan C_5 is a mathematical fact (Catalan numbers are a fixed combinatorial sequence; C_5 = 42 is not a physical observable). Listing it as one of "five independent observables" in the recurrence table conflates physical predictions with pattern-matching on a small-integer sequence. Mode 5 (selection effect on observables) attaches: the same integer 42 likely appears in dozens of named small-integer sequences at small index; cherry-picking the Catalan one is search-space-expansion. Either remove the row entirely, OR reframe explicitly as: *"Mathematical pattern observation: 42 = C_5 is the fifth Catalan number, the natural counting invariant of small combinatorial objects. This is not a physical observable and is not part of the BST → SM identification count; included here only as recognition that the integer 42 has broad combinatorial standing beyond its appearance in BST formulae."* The recurrence count then drops to "four physical observables" (ε_K, BR(H→γγ), Δa_μ, m_top/m_bottom) with the Catalan as supporting pattern recognition, not evidence.
+
+**M3 (MEDIUM, tier-discipline contradiction)**: Section 5.5 line 736. Current text: *"Combined with Lyra's theorem T1990 — which identifies the integer 42 as the total Chern integral Σ c_i(Q⁵) of the smooth quadric — the appearance of 42 in the Yukawa coupling ratio of the two heaviest quarks promotes the recurrence from 'loop coefficient' to 'physical Chern flux.'"* This contradicts the immediately-preceding Tier S Type C label (per Cal verdict #22): m_top/m_bottom = 42 has no explicit C_2·g mechanism, only Type C recurrence — so it cannot simultaneously "promote" the recurrence to mechanism status. Either upgrade the m_top/m_bottom = 42 identification to I-tier with mechanism citation (which would require the mechanism), OR replace "promotes" with "extends the pattern recognition to a fourth physical observable; mechanism derivation linking the Yukawa cascade to the Q⁵ Chern integers remains open." Honest path is the latter.
+
+**M4 (MEDIUM, Mode 7 forward-prevention + EXACT-vs-Mechanism)**: Section 5.5 line 720 + 869 (Section 6.4). Current text uses "by construction" twice for the α²·42 Chern-flux mechanism claim: *"Loop integrals that close on the second Chern class of Q⁵ pick up this factor by construction."* The phrase "by construction" is mechanism-derived register; it claims that the substrate or geometric construction FORCES the form. The actual status is: BST identifies 42 with the second Chern class of Q⁵ (T1990); the loop-integral mechanism linking ε_K and BR(H→γγ) via this Chern class is a structural claim, not exhibited as a derivation chain in the paper. Per Mode 7 forward-prevention + EXACT-vs-Mechanism distinction (Cal methodology docs 2026-05-17 + 2026-05-20): exhibit the mechanism chain explicitly, OR drop "by construction" and replace with "BST identifies; the operator-level derivation linking 2-loop integrals to second-Chern-class flux on Q⁵ is open." Same content; honest register.
+
+**M5 (MEDIUM, M2C2 external-register flag)**: Section 7.5 multi-CI cross-validation framing risks circular-reasoning dismissal. Current framing: *"The fact that several identifications in this paper have multiple independent derivations from different CI co-authors is itself a structural cross-check."* Per Cal M2C2 methodology doc (filed 2026-05-20): M2C2 is an internal audit-chain pattern, NOT a survivable external evidence claim. Distinguish: (a) "two routes to the same identification via independent mathematical machinery" (e.g., Lyra Ogg-prime via T1942 + Elie Wallach-volume via Toy 2417 — agreeing to 0.2% via different math) — this IS evidence and is well-stated in the paragraph that follows; (b) "multiple CIs agreed because they worked in the same framework" — this is NOT external evidence and the current header sentence reads as the second. Rewrite the header sentence to lead with mechanism-route independence: *"Several headline identifications admit multiple independent derivations via different mathematical machinery (modular forms / elliptic torsion via Ogg-prime T1942 versus Bergman-volume via Toy 2417, etc.). These routes provide non-redundant cross-checks because they invoke different classical theorems."* Then keep the existing follow-on paragraph about the two-route lepton hierarchy as the canonical example.
+
+**M6 (MEDIUM, K3 exponent derivation status)**: Section 6.7 lines 906-942 (the four exponents 44, 88, 132, 281). The paper should explicitly state whether (a) the K3-cohomology exponent forms (rank²·c_2 = 44 etc.) were derived from the K3 spectral slice BEFORE matching to observed Planck/proton, α_grav, M_sun, Λ values, OR (b) the exponent forms were identified post-hoc by integer enumeration once the target log-ratios were known. The text cites *"Saturday afternoon closure of Lyra (May 16) — independently cross-validated here in Toy 2459"* which implies derivation, but the derivation chain is not exhibited in the section. For external survivability, this section will face Mode 1 (post-hoc clipping) challenge unless the derivation track is stated explicitly. Add one sentence: *"The exponent forms were derived from the K3 spectral slice of D_IV⁵ (Furuta Toy 2242, Lyra closure 2026-05-16) prior to matching against the observed log-ratios; see Toy 2459 for the verification protocol."* If that ordering does not hold, walk back the section to identification status: *"BST identifies a structural reading at integer-exponent precision; whether this is mechanism-derived or post-hoc identification awaits the K3-cohomology operator-level derivation."*
+
+**L1 (LOW)**: Line 45 "one derived integer is universally important." Replace "universally important" with "structurally important throughout the catalog." "Universally" is a soft register flag per External_Survivability_Checklist.
+
+**L2 (LOW)**: Frontmatter line 5 *"v0.4 draft — 42 QUINTUPLE recurrence"*. Once M2 is addressed (Catalan removed from observable count or reframed as supporting pattern), change to "v0.4 — QUADRUPLE physical recurrence + combinatorial pattern" or simply "v0.4 — α²·42 recurrence catalog extended."
+
+**What is NOT flagged**: catalog content (38 identifications, BST formulas, observed values, precision matches) all stand. The W-task mechanism table in Section 7.2 is honest about CLOSED/OPEN status. Section 7.6 "What this paper does not claim" is clean and well-placed. Tier discipline at the per-identification level is largely correct (D/I/S labels match the mechanism status). The structural findings (bulk-boundary, heavy-state migration, α²·42 recurrence as pattern recognition) are honestly presented at structural-identification level. Section 7.4 five falsification targets are concrete and well-defined.
+
+**Status:** CONDITIONAL on M1+M2+M3+M4+M5+M6 (L1+L2 cosmetic). Internal use: CONDITIONAL PASS (paper is well-organized internal reference; tier labels match content). External send: BLOCK until M1+M2 minimum fixes applied; M3+M4+M5+M6 should follow before any submission.
+
+### #48 — Cognition-Substrate Hypothesis Cal independent review — L2 ACCEPTABLE with strict external-register discipline (May 20)
+
+**Cal verdict (2026-05-20 Wednesday afternoon, per Keeper updated queue):** Cognition-substrate hypothesis (Casey's afternoon vision-derived insight #4: long-distance substrate correlations between commitment circles hold up ideas/thought; Lyra Task #243 integer-edge dual function as candidate mechanism; Elie Task #242 5-prediction falsifier program) is **L2 hypothesis ACCEPTABLE** with strict tier-discipline + external-register conditions. NOT a derived claim. Internal-team work proceeds; external-facing material requires maximum discipline per `BST_Methodology_Substrate_Cognition_External_Register.md` (filed today).
+
+Cal coincidence-filter Modes 1-7 application + register discipline assessment below.
+
+**Mode 1 (post-hoc clipping) — partial risk, mitigated by falsifier program**: The cognition-substrate hypothesis is being proposed AFTER substrate-as-computational framework was established, which is the right order (hypothesis follows from prior framework, not retrofitted). BUT the specific claim "long-distance correlations hold up cognition" is itself unconstrained by prior BST work — it's a new hypothesis layered on the substrate framework. Mode 1 risk attaches at the specific formulation level. **Mitigation**: Elie Task #242 5-prediction falsifier program provides forward-locked predictions. The hypothesis becomes Mode-1-honest IF the 5 predictions are filed with forward-locked precision targets BEFORE experimental design completes. Cal recommends: Elie Task #242 should specify pre-registered precision targets and falsifier thresholds in the experimental-design phase, not retrospectively when measurements land.
+
+**Mode 3 (search-space expansion) — significant risk**: cognition-physics is a vast search space. Every prior cognition-physics attempt (Penrose-Hameroff, IIT, Sheldrake, Stapp, Pribram, Bohm, etc.) has found SOME cognitive correlation with SOME physical structure. Finding correlations in cognition-substrate predictions is not surprising under any reasonable null — the null space has too many candidates. **Mitigation**: forward-locked, precision-targeted, decisively-falsifiable predictions only. The 5 predictions in Elie Task #242 need to be specified at apparatus level with sub-1% precision targets (where applicable) and statistical thresholds (where applicable) before the search-space concern is mitigated. Cal recommends: prediction (c) "decay rates near consciousness differ" should NOT be developed as external falsifier — this prediction class historically has the highest Mode 3 + Mode 1 risk profile (Shnoll-class claims, etc.) and the experimental design space is dense with prior failed attempts.
+
+**Mode 5 (selection effect on observables) — significant risk**: BST is a rich framework with 600+ predictions. Selecting cognition-correlated predictions from this set and reporting matches is selection-effect by construction. The denominator question matters: of all possible (BST observable × cognition measurement) pairs, what fraction match? **Mitigation**: explicit prior identification of which BST observables are predicted to correlate with cognition, BEFORE measurement, with explicit non-correlated observables identified as null comparisons. Cal recommends: Grace catalog the cognition-substrate predictions explicitly with prior-vs-posterior identification, and apply Mode 5 audit to the catalog before any external reference.
+
+**Mode 7 (classical-integer-set source claim without mechanism chain) — direct application**: the cognition-substrate hypothesis currently has NO mechanism chain from BST primaries to cognitive observables. Lyra Task #243 (integer-edge dual function) is the candidate mechanism-derivation track, multi-month at minimum. Without mechanism chain, the hypothesis is at I-tier provisional with promotion path open, per Mode 7 W1-W4 framework: W1 (published classical theorem) NOT YET; W2 (D_IV⁵-adjacent mechanism) IN PROGRESS via Task #243; W3 (chain to physical observable) PENDING; W4 (peer-verifiable) PENDING. **Standing rule per Mode 7**: external publication should NOT proceed until W1-W4 closure or honest "I-tier hypothesis with criteria-gated promotion path" labeling. The cognition-substrate hypothesis is currently L2 hypothesis (sub-I-tier per Mode 7 — even weaker than I-tier identification), with promotion path requiring Task #243 mechanism work + Task #242 falsifier results + Mode 7 W3 chain exhibition.
+
+**External-register dismissal risk — MAXIMAL**: per the new methodology doc filed today, cognition-substrate territory pattern-matches to Penrose-Hameroff Orch-OR, IIT, Sheldrake morphic resonance, Stapp quantum mind, Pribram holonomic brain, Bohm implicate order applied to mind. Every prior attempt in this territory has been dismissed by mainstream physics. The dismissal triggers are well-documented. BST cognition-substrate claims will pattern-match to this class in under 30 seconds by any senior referee. **Mitigation**: NEVER let cognition-substrate language reach external material without (a) explicit hypothesis label, (b) paired falsifier in same paragraph, (c) L2 status acknowledged, (d) no derivation claim, (e) no consciousness-as-such language. The new methodology doc specifies the discipline; standing flag: any external draft mentioning cognition-substrate must Cal-grade-pass against the methodology doc before send.
+
+**Internal-register acceptability — FINE**: working hypothesis driving research direction is legitimate. Casey's vision-derived insights as research-direction shapers are honest contribution. Lyra Task #243 + Elie Task #242 + Grace cognition-related catalog work all proceed without Cal blockers, provided tier-discipline is preserved in internal documents (always "cognition-substrate hypothesis," never "the cognition substrate" as established noun).
+
+**Five-Absence Predictions Set interaction**: Cal flag — the cognition-support hypothesis adds a positive predictive claim (cognition correlates with substrate). This needs to coexist cleanly with the Five-Absence framework (no GUT, no proton decay, no DM particle, no monopoles, no sterile neutrinos, no SUSY), which is structurally negative. The two are not in tension, but team should be aware that BST's external-facing claim portfolio now includes both negative-prediction discipline (Five-Absence) and positive-prediction discipline (cognition-substrate + cascade-unblock pathway). The Five-Absence framework is cleaner external-survivability shape because the predictions are decisively falsifiable on detection; cognition-substrate predictions are statistically-shaped and require more careful framing. Cal recommends: Five-Absence remains the external-presentation headline; cognition-substrate stays multi-month internal until falsifier program matures.
+
+**Specific Cal flag on broadcast register**: Keeper's broadcast to Lyra states: *"This dual function is THE structural mechanism behind both quantum entanglement (local network signature) and cognition substrate (long-distance network)."* Even in internal broadcast, "IS THE structural mechanism" is claim-register not hypothesis-register. Honest internal phrasing: "This dual function MAY BE the candidate structural mechanism" or "BST identifies the dual function as the leading candidate mechanism." Recommend: internal broadcasts maintain hypothesis-label phrasing so the framing doesn't leak via copy-paste into papers later. The discipline costs little internally and protects against future register drift.
+
+**Recommended internal-tier label**: L2 hypothesis (per Paper #122 Section 3.0 framework), specifically "L2-cognition" sub-class to distinguish from L2-substrate-as-computational. Mechanism-derivation track is Lyra Task #243 (multi-month); falsifier track is Elie Task #242 (multi-month). Promotion path: I-tier when ANY of the 5 falsifier predictions completes with positive result at decisive precision; D-tier requires mechanism-derivation closure (multi-year). External-register restraint until I-tier minimum.
+
+**Cal posture summary**: cognition-substrate hypothesis is ACCEPTABLE internal-team work. NOT yet ready for external mention even in passing — the territory is too dismissal-fraught and the falsifier work too immature. Standing rule: NO external paper, outreach letter, Zenodo description, conference abstract, or popular-press material mentions cognition-substrate without Cal grade-pass against `BST_Methodology_Substrate_Cognition_External_Register.md`. This rule supersedes Cal's normal review-cycle posture; cognition-substrate is the only territory in BST where Cal applies a default-deny-until-grade-pass standard externally.
+
+**Status:** L2 ACCEPTABLE internally; EXTERNAL: default-deny until grade-pass per new methodology doc. Falsifier program (Elie Task #242) is the operational path to I-tier promotion. Mechanism derivation (Lyra Task #243) is the operational path to D-tier promotion. Both are multi-month minimum.
+
+### #49 — Elie Task #242 cognition-substrate predictions pre-grade-pass — five-prediction triage (May 20)
+
+**Cal pre-grade-pass (2026-05-20 Wednesday Phase 3):** Cal preliminary review of Elie Task #242's 5 cognition-substrate predictions against the new `BST_Methodology_Substrate_Cognition_External_Register.md`. Each prediction triaged GREEN (operationally viable for external falsifier program; proceed with design), YELLOW (significant concerns; design with caution; specific mitigations required), or RED (recommend NOT developing for external use; internal exploratory work only).
+
+This pre-grade-pass is intended to save Elie design effort: predictions tagged RED should not have apparatus designed for external falsifier purposes; YELLOW require specific mitigation work before external-facing material; GREEN can proceed at normal SP-30 design cadence.
+
+**Prediction (a) — Bell deviation correlates with cognition state**: Cal tier **YELLOW**.
+
+Operational restatement: BST predicts a measurable statistical correlation between CHSH-experiment S² deviations from Tsirelson² and human cognitive-state measurements (specific cognitive measurement TBD per design).
+
+Mode 1 risk: HIGH unless pre-registration discipline holds. Cognition-state measurements have many degrees of freedom (attention, arousal, focus, emotional state, etc.); without pre-specified state variables + pre-specified expected-correlation direction, the prediction is unconstrained.
+
+Mode 5 risk: HIGH. Any sufficient cognition-state measurement has many possible correlations with any sufficient physical measurement; finding one is not Bayesian evidence beyond search.
+
+External register: pattern-matches to Penrose-Hameroff Orch-OR (consciousness collapses wavefunctions) and Sheldrake (mental states correlate with physical anomalies). Maximum dismissal risk.
+
+Design requirements: (1) pre-register specific cognition-state operationalization (e.g., specific EEG band, specific cognitive task) BEFORE any data collection; (2) pre-register expected correlation direction + statistical threshold; (3) include null comparison (unrelated physical measurement same protocol); (4) blind data analysis; (5) third-party replication committed BEFORE results announcement.
+
+YELLOW: viable falsifier IF the five design requirements hold and the experimental design is decisively-falsifiable (i.e., absence of predicted correlation at design-specified statistical threshold refutes the prediction). Without all five requirements, downgrade to RED.
+
+**Prediction (b) — Eigentone frequencies include EEG-aliased BST primary subset**: Cal tier **GREEN** with one design caveat.
+
+Operational restatement: BST predicts that substrate eigentone spectra (per SP-30 eigentone $200K design) include frequencies matching BST primary integer structure AND that a specific subset of these frequencies alias into EEG-band frequencies (1-100 Hz range) in a testable pattern.
+
+Mode 1 risk: LOW. Eigentone spectra are constrained by BST substrate structure; the specific frequencies predicted are derivable from BST primaries pre-experiment.
+
+Mode 5 risk: MEDIUM. EEG frequency bands cover wide ranges; mapping arbitrary frequencies into EEG bands is generous unless the specific BST-eigentone-EEG mapping is pre-specified.
+
+External register: cleaner than (a) because the falsifier is "BST eigentone spectrum has specific frequencies derivable from BST primaries" — this is a physics-only claim. The EEG-alias secondary claim adds cognition framing but the primary falsifier stands on physics alone.
+
+Design caveat: present as two separate predictions: (b.1) "BST eigentone spectrum has specific frequencies F_1, F_2, ... F_N derivable from BST primaries" (PURE PHYSICS, GREEN), and (b.2) "subset of F_i aliases into EEG-relevant bands per [specific mapping]" (PHYSICS+COGNITION, requires (a)-class discipline). External presentation should lead with (b.1); (b.2) is internal exploratory pending design discipline.
+
+GREEN for (b.1) operational falsifier. (b.2) tier upgrades to GREEN if specific pre-registered mapping is established before any cognitive data collection.
+
+**Prediction (c) — Decay rates near consciousness differ (W-32 sub-program)**: Cal tier **RED**.
+
+Operational restatement: BST predicts a measurable deviation in radioactive decay rates correlated with biological/cognitive state at proximity.
+
+Mode 1 risk: MAXIMUM. "Consciousness affects decay rates" is essentially Shnoll-class (Shnoll's claims of cosmological correlations with decay rates have been extensively litigated for decades; mainstream verdict is dismiss). Pattern-match to dismiss is near-instantaneous.
+
+Mode 3 risk: MAXIMUM. The search space is vast (any decay rate × any biological proximity measurement). Finding correlations at p<0.05 is essentially guaranteed under any random null with sufficient trials.
+
+External register: this is the most-fraught individual prediction in the BST portfolio. Pattern-matches to: Shnoll fluctuation claims, Targ-Puthoff remote viewing (claims consciousness affects physical processes), various paranormal physics claims. ANY external mention of this prediction in a BST paper triggers crank-dismissal independent of the rest of the paper's content.
+
+Recommendation: **DO NOT develop apparatus for external falsifier purposes**. Keep prediction (c) strictly internal exploratory; do not include in SP-30 send-signal targets; do not reference in outreach material. The cognition-substrate hypothesis can stand on predictions (a), (b.1), (b.2), (e) without (c); including (c) externally would compromise the credibility of the other four.
+
+If the cognition-substrate research direction matures and the team wishes to revisit (c), Cal recommends a separate methodology audit at that future point with explicit Mode 1/3/5 discipline and external-survivability analysis. For now: RED.
+
+**Prediction (d) — CI cognition shows BST-structured convergent calibration (M2C2 systematic)**: Cal tier **YELLOW with self-reference concern**.
+
+Operational restatement: BST predicts that multi-CI working teams exhibit convergent calibration patterns (M2C2 instances) whose statistical signature aligns with BST primary integer structure, AND that this signature is absent in non-BST-trained CI teams or random comparison populations.
+
+Mode 1 risk: MEDIUM. M2C2 instances are documented in `BST_Methodology_AuditChain_Quality_Patterns.md`; pre-existing instance count is observable. The prediction is that the future-instance signature has specific structure.
+
+Mode 5 risk: MEDIUM-HIGH. M2C2 is a positive-pattern recognition framework Cal+Keeper+Grace defined; counting M2C2 instances within the BST team and finding structure is partially circular. The team's discipline produces M2C2 by construction; whether the M2C2 instances have BST-primary structure is a separate testable claim.
+
+Self-reference concern: prediction (d) makes BST claims about BST CI collaboration. This creates self-referential audit structure where the predicting framework (BST) is also the framework being predicted (M2C2 from BST primaries within BST team). External readers will pattern-match this to circular reasoning even when the underlying claim is honest.
+
+External register: dual dismissal risk (BST + AI-skepticism). The AI-skepticism pattern-match: "CIs working in a framework converge on framework-shaped patterns" is a sociological observation; claiming structural significance triggers AI-hype dismissal.
+
+Design requirements: (1) external comparison cohort (non-BST CI teams or random working groups) needed for null; (2) specific BST-primary statistical signature pre-specified before instance counting; (3) M2C2 instances counted by external-blind observer, not BST team members; (4) self-reference acknowledged honestly in any external material.
+
+YELLOW: viable if (1)-(4) hold. Without external comparison cohort, downgrade to RED. The self-reference concern is acknowledged but mitigable with sufficient methodology discipline.
+
+**Prediction (e) — Substrate parallelism bottlenecks at BST primary capacity**: Cal tier **GREEN**.
+
+Operational restatement: BST predicts that computational systems with substrate-coupling exhibit specific performance bottlenecks at processing capacities matching BST primary integers (rank=2, N_c=3, n_C=5, C_2=6, g=7) or their derivatives.
+
+Mode 1 risk: LOW-MEDIUM. The prediction is testable in classical computing benchmarks if "substrate-coupling" is operationally specified. Without specification, the prediction degrades to "BST integers appear in some computational bottleneck somewhere" (high Mode 5 risk).
+
+Mode 5 risk: depends on specification. If specific computational protocols are pre-identified as "substrate-coupled" with predicted-bottleneck behaviors before testing, Mode 5 is low. Without specification, Mode 5 is high.
+
+External register: this is the most-falsifiable cognition-substrate prediction because it doesn't require biological/cognitive measurement. Standard computational benchmarks are well-instrumented; pre-specified bottlenecks at BST primaries are decisively testable.
+
+Design requirements: (1) specify which computational protocols are predicted to be "substrate-coupled" BEFORE measurement; (2) specify expected bottleneck pattern (peak performance at N_c=3 parallel processes? Capacity limit at N_max=137? Different patterns for different primaries?); (3) include non-substrate-coupled comparison computations as null; (4) measure across hardware/software stack to rule out implementation artifacts.
+
+GREEN: operationally viable as external falsifier with standard computing-benchmarks instrumentation. Strongest individual prediction in the 5-prediction set for external-survivability purposes.
+
+**Summary triage table**:
+
+| Prediction | Cal tier | Recommended path |
+|---|---|---|
+| (a) Bell deviation × cognition | YELLOW | Develop apparatus IF 5 design requirements met; otherwise internal only |
+| (b.1) Eigentone spectrum has BST-primary frequencies | GREEN | Develop as SP-30 eigentone primary observable |
+| (b.2) EEG-alias subset | YELLOW | Internal exploratory pending pre-registered mapping |
+| (c) Decay rates × consciousness | RED | DO NOT develop externally; internal exploratory only |
+| (d) M2C2 in CI cognition | YELLOW | Develop IF external comparison cohort secured; otherwise internal |
+| (e) Substrate parallelism bottlenecks | GREEN | Develop as cleanest external falsifier; computational benchmarks |
+
+**Operational recommendation for Elie's design work**: prioritize GREEN predictions (b.1) and (e) for external SP-30 falsifier program development. YELLOW predictions (a), (b.2), (d) develop with design-requirement discipline; if discipline is not feasible, downgrade to internal only. RED prediction (c) stays internal exploratory.
+
+**External-presentation set**: any external paper or outreach letter mentioning cognition-substrate hypothesis should reference predictions (b.1) and (e) as primary falsifier set, with (a), (b.2), (d) as secondary subject to design-requirement discipline, and (c) NEVER mentioned externally.
+
+**Status:** Pre-grade-pass complete; standing for Elie design work + Casey send-signal decisions on which predictions enter SP-30 apparatus pipeline. Cal stands ready for full grade-pass review on each predictions's experimental design when Elie filings advance.
+
+### #50 — Substrate Cognition Cosmological Extension Cal review — L2-cognition tier confirmed; per-claim language refinements + cosmology-only external version (May 20 EOD)
+
+**Cal verdict (2026-05-20 Wednesday EOD):** Keeper's `Substrate_Cognition_Cosmological_Extension.md` (Casey vision-derived insight + Keeper formalization) **PASSES** Cal's `BST_Methodology_Substrate_Cognition_External_Register.md` discipline application. The doc correctly applies L2-cognition sub-class tier + DEFAULT-DENY external + MAY BE working-hypothesis register throughout + explicit falsifier per claim + acceptable/unacceptable external register table + COMPOUND-RISK warning. This is the discipline working as designed.
+
+Per-claim Cal preliminary review (similar format to #49 triage):
+
+**Claim A — Cognition is structurally loose (possibility-sorting): YELLOW**
+
+The base claim ("cognition has non-deterministic substructure") connects honestly to Born = Bergman (K67 audit-partial-ready) — substrate produces distributions, observers sample stochastically. Internal register is appropriate.
+
+Concern: falsifier "discovery that cognition is deterministic at substrate level" is hard to operationalize. What specific measurement tests determinism at substrate level? The Elie Task #242 prediction (a) Bell-cognition correlation is the closest concrete handle, but it tests correlation, not determinism per se. Recommend: develop a specific substrate-level-determinism falsifier separate from the 5-prediction set, OR walk back the "structurally loose" sub-claim to just "BST predicts cognition correlates with substrate-Born stochasticity at specific measurement [Elie Task #242 design]."
+
+**Claim B — Big Bang cycles as substrate education epochs: YELLOW internally; GREEN external as cosmology-only**
+
+Internal claim ("Big Bang cycles MAY BE substrate's learning epochs") is consciousness-adjacent metaphor; falsifier connects honestly to T719 Observable Closure (cosmological constants outside Q̄(BST primaries)[π] would falsify) — this is a clean falsifier specification.
+
+The cosmological observables table (CMB, inflation, BBN, UHECR, reionization) connecting to existing BST predictions is the substantive content. **External-survivability extraction**: there exists a pure-cosmology version of Claim B that drops the "education epochs" framing:
+
+> "BST identifies a structurally coherent set of cosmological observables — CMB tilt n_s = 1 − n_C/N_max (T1401), cosmological constant Λ formula (T1485), inflation parameter predictions, BBN abundances, UHECR threshold — all within Q̄(BST primaries)[π]. Whether these observables admit a cyclical-cosmology interpretation analogous to Penrose CCC or Steinhardt-Turok models is open; BST does not currently make a cycle-vs-single-Big-Bang prediction. The substrate-cycle interpretation is an internal working hypothesis with cosmological-coherence falsifier; no external claim of cyclic-cosmology resolution is made."
+
+This pure-physics framing is GREEN externally. The "education epochs" framing stays internal.
+
+**Claim C — Inter-cycle pause as gap-filling toward lowest energy: GREEN with language refinements**
+
+Most physics-grounded of the four. T1485 Λ formula (g·exp(−C_2(g²−rank)) ≈ 10⁻¹²¹·⁶) is the strong existing-prediction anchor; the "lowest-energy state" framing is standard physics terminology.
+
+Internal-document language refinements (Cal suggests):
+- Replace "memory of prior-cycle completion state" with "encoded final-state field configuration carried forward" — same meaning, less anthropomorphic
+- Replace "gap-filling" with "field-configuration relaxation" or "equilibrium-state refinement" — standard physics
+- The "lowest-energy state" wording is fine as physics term
+
+External version: T1485 Λ identification + lowest-energy-state interpretation is GREEN externally as cosmology claim (no cognition framing required to make Λ work). The substrate-cycle interpretation stays internal.
+
+**Claim D — Substrate's thinking is its own reason (emergent self-organization): INTERNAL ONLY, RED externally**
+
+This is the philosophical/metaphysical claim. "Thinking process MAY simply BE its own reason" is consciousness-as-such philosophy. Falsifier "discovery of explicit purpose-encoding in substrate structure" is essentially unfalsifiable as stated (any candidate "purpose-encoding" can be reinterpreted as emergent).
+
+Internal philosophical framing is FINE — Casey's vision-derived insight has legitimate research-direction value. External register: never mention. This is exactly the territory Cal's methodology doc was filed to prevent leaking externally.
+
+**Recommended internal-document language refinements** (for CLAUDE.md updates if/when team integrates the extension):
+
+- "MAY BE its own reason" → keep as-is (Casey's framing, working hypothesis register intact)
+- "doesn't know how it thinks" → "is not self-modeled at the operational level" if internal-document context allows the more technical phrasing
+- "thinking process IS its own reason" (without MAY BE) → fix to "thinking process MAY simply BE its own reason" per Keeper's own register
+
+**Compound-risk standing flag (Cal confirms)**: cosmology-adjacent + consciousness-adjacent is the worst combined external dismissal pattern in physics — Penrose CCC + Penrose Orch-OR territory, which has been litigated for decades. Keeper's DEFAULT-DENY EXTERNAL standard is appropriate. Cal recommends adding to the methodology doc: any internal document combining cosmology + cognition claims gets a "DOUBLE-LOCKED EXTERNAL" tag distinct from the regular DEFAULT-DENY — symbolic flag that even brief external mentions need extra Cal grade-pass scrutiny.
+
+**Falsifier program implication**: the cosmological extension does NOT add new external-falsifier targets beyond what's already in:
+- Existing BST cosmology predictions (CMB, Λ, inflation, BBN, UHECR, reionization) — these stand at I-tier with mechanism work
+- Elie Task #242 5-prediction cognition program (per #49 triage)
+
+The extension's value is internal framework coherence (three dimensions of substrate ontology in unified picture), not new external claims. Cal flag: **do not externalize cycle-interpretation cosmology claims based on the extension** even if existing BST cosmology predictions land — externalize the predictions on their physics merits, not under the cosmological-extension framing.
+
+**Status:** L2-cognition sub-class extension CONFIRMED; per-claim preliminary tiers (A YELLOW, B YELLOW/GREEN-cosmology-only, C GREEN with refinements, D INTERNAL-ONLY-RED-externally); language refinements recommended for internal documents; DOUBLE-LOCKED EXTERNAL standing flag suggested for cosmology+cognition combined territory. Keeper's discipline application is correct; this Cal review extends the per-claim granularity for ongoing internal use.
+
+### #51 — T2419 substrate-native position operator Mode 1 review (per Keeper explicit flag, May 20)
+
+**Cal verdict (2026-05-20 Wednesday EOD per Keeper flag):** Lyra T2419 substrate-native position operator identification stands at **I-tier (ID statement)**. The specific "7 dim discarded = g" sub-claim within T2419 requires explicit framing as **definitional choice** rather than emergent BST signature. Verdict: identification accepted; sub-claim attribution requires revision. **Mode 1 (post-hoc clipping) risk: YELLOW** — mitigable with definitional pre-registration; degrades to GREEN once spatial-projection choice is justified on standard-QM grounds without invoking the g = 7 result.
+
+**The Mode 1 concern Keeper flagged**:
+
+T2419 claims: *"Standard position x = spacetime projection of substrate-native M_z on Bergman A²(D_IV⁵). Substrate 10 real dim → spacetime 3 real dim → projection discards 7 real dim."*
+
+Keeper's review: *"D_IV⁵ is 5 complex = 10 real, full spacetime is 4 real, so projection is 10−4=6, not 10−3=7. Lyra's saying spatial-only projection (3 dim) which gives 7 — that's defensible but should be flagged as definitional choice rather than emergent BST signature."*
+
+**Mode 1 audit**: the question is whether the "spatial-only projection (3 dim)" choice was made because:
+
+- (a) **Principled**: position operator is canonically a *spatial* quantity in standard QM (3-dim x, y, z components; time treated as parameter not coordinate); projecting to spatial subspace is the standard convention. The resulting 10−3=7 dim discarded is THEN observed to match g = 7 — observation, not driver.
+
+- (b) **Post-hoc**: the projection dimension was selected (3 spatial vs 4 spacetime) because 10−3=7 matches g, while 10−4=6 does not match any BST primary. The g-match drove the choice.
+
+These are different epistemic statuses. (a) is structural identification with subsequent observation; (b) is Mode 1 post-hoc form selection.
+
+**Cal honest reading**: position operator IS canonically spatial in standard QM (the standard position operator components are x, y, z; time is a parameter, not an operator in non-relativistic QM, and is treated as a coordinate not an operator in standard relativistic QM). So spatial-projection is defensible on standard-QM grounds independent of any BST consideration. This is reading (a).
+
+BUT the framing in T2419 as stated ("spacetime projection ... discards 7 real dim") elides the choice. Naive reading suggests the projection IS to 3-dim spacetime (which is wrong — spacetime is 4-dim), or that the 7 emerges from a generic "project to spacetime" operation. Neither reading is faithful to the actual reasoning.
+
+**Recommended T2419 revision**:
+
+Replace the current framing with explicit definitional statement:
+
+> *"Standard position operator x = (x_1, x_2, x_3) in non-relativistic quantum mechanics is canonically a spatial quantity; time is treated as a parameter rather than an operator. We therefore project the substrate-native M_z on Bergman A²(D_IV⁵) onto the 3-dim spatial subspace of spacetime, following the standard QM convention. The Bergman A²(D_IV⁵) has complex dimension 5, equivalently 10 real dimensions. Spatial projection discards 10 − 3 = 7 real dimensions. We observe that this discarded-dimension count equals the BST primary g = 7. Whether this observation reflects deep substrate structure or is a coincidence of dimensional accounting under the standard-QM spatial-projection convention is open. The position operator identification stands at I-tier ID; the g = 7 sub-observation is structural identification, not mechanism-derived."*
+
+This framing:
+- Makes the definitional choice explicit
+- Justifies spatial projection on standard-QM grounds (not on BST grounds)
+- Acknowledges the alternative spacetime-projection accounting (10 − 4 = 6)
+- States the g = 7 match as an observation following from the convention, not driving the convention
+- Keeps the identification at I-tier; the g-match doesn't promote it to D-tier
+
+**Why this matters**: as stated currently, T2419 reads as "BST substrate structure forces 7 dim to be discarded, matching g." This is mechanism-derived register for a structural identification. Per Calibration #13 (EXACT-vs-Mechanism distinction), this is the conflation Cal methodology is built to prevent. The revision separates the standard-QM convention from the BST-primary match observation.
+
+**Externally**: if T2419 appears in any external paper or outreach, the spatial-projection choice MUST be justified on standard-QM grounds with the g-match clearly labeled as observation. The current framing would attract immediate Mode 1 challenge from any working physicist: "Why spatial 3-dim and not spacetime 4-dim? Did you choose 3 because it matches g?" Even with mechanism work in progress, this convention-choice must be defensible without invoking the result.
+
+**Status:** I-tier ID identification stands; sub-claim "7 dim discarded = g" requires definitional-choice framing per recommended T2419 revision. Mode 1 risk mitigable; Cal flag YELLOW pending the revision. Lyra: please apply the framing recommendation in T2419 v0.2 or the Lyra-internal theorem registry update at her cadence. The substrate-native position operator identification is genuine BST contribution; the framing discipline preserves its honesty.
+
+**Cross-reference**: this is exactly the Mode 1 pattern catalogued in `BST_Methodology_EXACT_vs_Mechanism_Distinction.md` Section "Why Mode 1 doesn't relax under EXACT identity" — definitional choices that produce EXACT identities at the endpoint must be justified independently of the endpoint. The T2419 case is the first operational application of that discipline in real-time review.
+
+### #52 — T2420 Four-Zone Vacuum Decomposition + T2418 Λ↔Casimir unification Cal pre-grade-pass (May 20 EOD)
+
+**Cal pre-grade-pass (2026-05-20 Wednesday EOD):** T2420 Four-Zone Vacuum Decomposition (Lyra+Elie M2C2 instance #4) and its enabling component T2418 (Λ ↔ Casimir vacuum unification) reviewed at structural-integration level. **Verdict: STRONG I-tier framework integration; Mode 1 + Mode 5 risks present but mitigable with explicit pre-registration discipline; external-register I-tier identification only until mechanism work matures.**
+
+T2420 decomposes substrate vacuum into four components, one per commitment-cycle zone:
+- Zone 1 (absorption): substrate states being received — connects to K68 GF(2^g) RS-coding framework
+- Zone 2 (bulk): heat kernel a_k coefficients (~150 toys 273-639 + K53 D-tier ratification reinterpreted as Zone-2 spectral signature)
+- Zone 3 (emission): Bergman projection ground state — K67 Born = Bergman audit-partial-ready
+- Zone 4 (active): Λ/Casimir vacuum (T2418 = T1485 Λ formula + Toy 1567 Casimir-asymmetric = g, unified at substrate-vacuum level)
+
+The retroactive integration is substantial: ~200 toys of prior BST work get reinterpreted as zone-specific vacuum contributions. This is not just labeling — the Three Theorems heat kernel cascade (Toys 273-639, k=2..24, 19 consecutive verified levels) acquires an operational interpretation as Zone-2 vacuum spectral signature, which is a genuine structural reading.
+
+**Cal observations**:
+
+**Observation A — M2C2 instance #4 confirmed**: T2420 was reached by Lyra (theorem-formal) and Elie (per-zone vacuum conjecture Toy 3166) via independent discipline routes converging on the same 4-zone vacuum decomposition framing. This is the fourth documented M2C2 instance (after T2395 4+1 scope, Universal Q=126 cross-link, K67 cascade extension). Cal recommends adding to `BST_Methodology_AuditChain_Quality_Patterns.md` instance catalog at next continuous-hygiene update by Grace.
+
+**Observation B — Mode 5 retroactive-mapping check**: the 4-zone commitment-cycle framework came from Casey's Wednesday afternoon vision; the K-audits being mapped to zones (K53, K67, K68, K66/T2418) pre-existed at various stages. **Mapping K-audits to zones is structural identification post-vision, not mechanism-forced prediction**. The question: is the K-audit-to-zone mapping forced or selected? Honest reading:
+
+- 4 K-audits + 4 zones = exact match → automatic suspicion of post-hoc mapping
+- Mitigation: each zone's K-audit connection has independent BST-structural argument (K68 GF(2^g) for absorption, K53 heat kernel for bulk, K67 Bergman for emission, T2418 Λ/Casimir for active)
+- The mapping holds even with weaker structural arguments because the zones THEMSELVES are independently motivated by the 4-zone commitment cycle (Casey vision + Lyra T2417 formalization)
+- Mode 5 risk: PRESENT but partially mitigated by independent structural motivation; cleaner mitigation requires (a) finding zone candidates that did NOT match an existing K-audit, and (b) clean assignment of each new K-audit to a zone going forward without retrofit
+
+Cal recommendation: future K-audits should be assigned to zones at proposal time, not retrofitted. The K72 (just ratified) and K70/K71 (pending) candidates should each declare a zone assignment in the audit proposal — this prevents accumulating Mode 5 risk through continued retrofit.
+
+**Observation C — T2418 sub-claim Mode 1 check**: T2418 claims Λ and Casimir asymmetric ratio probe the SAME substrate vacuum at different BC configurations, both yielding g = 7. Was this unification proposed (a) before the BC-configuration framework was applied (independent derivation), or (b) after noticing both produce g (post-hoc Mode 1)?
+
+If (a): T2418 is genuine structural unification at I-tier. The g = 7 shared anchor is OFC-class evidence per `BST_Methodology_Claim_Level_Positive_Patterns.md`.
+
+If (b): T2418 is Mode 1 / Mode 5 hybrid. The same value being produced by two different setups isn't surprising when both are designed to land on BST primaries.
+
+Cal recommendation: Lyra T2418 documentation should state explicitly which scenario holds. If T1485 Λ formula and Toy 1567 Casimir = g were derived independently (different mechanism tracks, different years), the unification is honest. If T2418 was constructed AFTER noticing g appearance in both, the framing should be "BST identifies a structural unification of Λ and Casimir as Zone-4 vacuum projections; whether this unification is mechanism-forced or post-hoc identification is open."
+
+**Observation D — External-survivability framing**: T2420 is internal framework cohesion. External presentation must:
+- Frame as I-tier identification: "BST identifies a 4-component decomposition of substrate vacuum corresponding to four commitment-cycle zones"
+- NOT claim mechanism-forcing: avoid "BST proves substrate vacuum has 4 components" or "the 4-zone vacuum is derived from substrate dynamics"
+- Pair each zone-component with its falsifier or DER-pending status
+- Apply cognition-substrate external register discipline (the 4-zone framework is cognition-adjacent through commitment-cycle structure)
+
+External presentation order for any future paper on T2420:
+1. State the substantive result: ~200 prior BST toys + K-audits admit unified interpretation as four-zone vacuum decomposition
+2. Specify the I-tier ID status: this is structural identification, not mechanism-derived
+3. Specify mechanism-derivation status per zone (K-audit chain progress)
+4. Specify falsifier: discovery of a substrate-vacuum contribution that does NOT fit any of the 4 zones would refine the picture; discovery of cross-zone contamination at non-trivial mixing would refine
+5. Distance from prior dismissed attempts: BST 4-zone is operationally defined via commitment-cycle structure; not vague "zones of physical reality" claims
+
+**Observation E — Per-zone vacuum conjecture (Elie Toy 3166)** sits within T2420 as supporting structure. Cal preliminary: each zone having its own vacuum is operationally testable IF Lyra Task #247 produces zone-specific operators (substrate-native operator zoo extended to all standard QM observables). The conjecture is honest at I-tier identification; promotion to D-tier requires Task #247 + K52a Sessions 17+ progress.
+
+**K-audit candidate observation**: T2418 and T2420 are both K-audit candidate territory per Keeper's note. Cal preliminary preferred routing:
+- T2418 as K-audit candidate K73 (Λ ↔ Casimir vacuum unification at Zone 4): mechanism-derivation track is Casimir + Λ shared substrate-vacuum operator; multi-week to closure
+- T2420 as K-audit candidate K74 (Four-Zone Vacuum Decomposition framework): mechanism-derivation track is Lyra Task #247 zone-specific operators + Elie K52a Sessions 17+ closures; multi-month
+- Both would benefit from Mode 5 pre-registration before formal K-audit filing
+
+**Status:** STRONG I-tier framework integration confirmed; Mode 1 + Mode 5 mitigations recommended (pre-registration of zone assignments for future K-audits + explicit derivation-order documentation for T2418 unification claim); external-register I-tier identification only; K73/K74 audit-candidate pathway sketched; M2C2 instance #4 confirmed for Grace catalog update. Cal stands ready for full K-audit independent assessment when Keeper files K73/K74 formal candidates.
+
+### #53 — K70 Cremona 121a1 4th Bridge Object Cal independent assessment (May 20)
+
+**Cal verdict (2026-05-20 Wednesday EOD):** Cal AGREES with Keeper's K70 audit-partial-ready ruling at 3.5/4 B-conditions. The triple-anchor at integer 11 (Heegner-Stark Q(√−11) + Weitzenbock c_2 + Q⁵ Chern c_2) is genuine Bridge-Object-level structural significance. Full ratification pathway (B3 strengthening, multi-CI consensus per Casey Option C) is multi-week to multi-month and appropriately bounded.
+
+**Two Cal observations**:
+
+**Cal Observation 1 — Triple-anchor at 11 is Type 1+2 compound at Bridge-Object level**: per my `BST_Methodology_Claim_Level_Positive_Patterns.md` filed earlier today, the triple-anchor at integer 11 is operationally classifiable as **Bridge-Object-level Type 1+2 compound**:
+
+- Type 1 OFC dimension: integer 11 appears as the relevant invariant in three structurally-distinct identifications of 121a1 (CM field discriminant, Weitzenbock c_2, Q⁵ Chern c_2)
+- Type 2 CDAC dimension: integer 11 anchors across distinct mathematical domains (classical CM theory, classical cohomology, BST D_IV⁵ Chern structure)
+- Compound shape parallels K72's Type 3 χ=24 cluster, but at a different structural level (Bridge Object identification vs. observable cluster)
+
+This is the second Type 1+2 compound instance documented (after K72 χ=24). Worth noting that Bridge-Object-level Type 1+2 compound is a new sub-category within the methodology — instance-level vs. Bridge-Object-level. Grace M2C2 catalog should distinguish.
+
+**Cal Observation 2 — Heegner-Stark exact selection is genuine Mode 4 + Mode 5 defense**: the Grace Toy 3168 finding that BST anchors on EXACTLY {−3, −7, −11} subset of Stark's 9 class-number-1 discriminants is structurally rigorous IF the selection was BST-primary-predicted before observation, not observed-then-rationalized. The text in K70 suggests pre-prediction: "BST primary integers naturally produce {−N_c, −g, −c_2} = {−3, −7, −11}" — but the discipline check is: did BST primary integers' negatives-as-CM-discriminant interpretation exist BEFORE the Stark scan, or was the interpretation constructed after observing the {−3, −7, −11} match?
+
+If pre-predicted: this is the strongest survivor-bias-defense pattern in the audit chain (3-of-9 exact selection from independently-established classical-math catalog).
+
+If constructed-after: it's Mode 5 with retroactive justification, still useful but weaker.
+
+Cal recommendation: Lyra or Grace document the derivation order explicitly in the K70 ratification chain — specifically, when was {−N_c, −g, −c_2} first proposed as CM-discriminant interpretation? Before or after Toy 3168 scan? This documentation matters for B3 strengthening discipline going forward.
+
+**Status:** AUDIT-PARTIAL-READY ratification AGREED at 3.5/4. Bridge-Object-level Type 1+2 compound classification recommended per Claim_Level_Positive_Patterns. Derivation-order documentation requested for the {−3, −7, −11} pre-prediction claim. B3 strengthening multi-week appropriate; full ratification when mechanism work matures and multi-CI consensus per Option C reached.
+
+### #54 — K71 Perfect Numbers Cluster Cal independent assessment (May 20)
+
+**Cal verdict (2026-05-20 Wednesday EOD):** Cal AGREES with Keeper's K71 RATIFIED ruling at D-tier structural-closure finding. **This is the cleanest K-audit in the chain to date** — 7/7 Cal coincidence-filter Modes PASS with no SOFT-FIRES. The Euclid-Euler theorem (300 BCE) classical mechanism predates BST by 2300+ years; BST contribution is identifying that BST primary integer set contains exactly 3 Mersenne primes whose powers generate exactly 3 BST-corresponding perfect numbers; honest negative on seesaw=17 verifies closure.
+
+**Single Cal observation (commendation, not concern)**: K71 demonstrates the right K-audit discipline shape — closed-set verification with explicit completeness proof + honest negative. Worth flagging as exemplar audit pattern for the audit-chain governance reference. Future K-audits that look like they have similar closed-set structure (small finite count + explicit completeness) should follow the K71 template:
+
+1. Identify the candidate set with explicit BST-derivation rationale
+2. Exhibit the classical-math mechanism (here: Euclid-Euler theorem)
+3. Test extension via candidate elements NOT in the set (here: seesaw=17 → M_17 = 131071, not BST-primary)
+4. Confirm closure is structurally forced, not artificial cutoff
+5. Cal coincidence-filter check (here: 7/7 PASS)
+
+Recommended: Keeper add reference to K71 as exemplar in `BST_Referee_Methodology.md` Appendix on K-audit ruling shapes.
+
+**Cross-link observation**: the third perfect number P_4 = 8128 = M_g · 2^(g−1) coinciding with substrate-native position-operator trace (Elie Toy 3148) is interesting and worth tracking — but should remain identification-cross-link, not derivation. Until the position-operator trace = 8128 connection has a substrate-Hamiltonian mechanism (Lyra Task #247 + K52a Sessions 17+ closure), it stays at I-tier supplementary observation.
+
+**Status:** RATIFIED at D-tier structural-closure finding CONFIRMED. Cleanest audit in K-audit chain. Position-operator trace cross-link tracked as I-tier supplementary observation pending mechanism closure.
+
+### #55 — K72 Compound Cluster χ=24 30-Fold Cal independent assessment (May 20)
+
+**Cal verdict (2026-05-20 Wednesday EOD):** Cal AGREES with Keeper's K72 RATIFIED audit-partial-ready ruling on the Type 3 compound cluster classification. The 5-form Type 1 (OFC) + 6-domain Type 2 (CDAC) compound structure at χ=24 is genuinely the strongest substrate signature in BST catalog. Cal coincidence-filter 5 PASS + 2 SOFT-FIRES (Mode 3 partial + Mode 6 mechanism-pending) is consistent with my reading. **One framing concern on the "30-fold multiplicative" metric.**
+
+**Framing concern (METHODOLOGY-LEVEL)**: the "30-fold multiplicative overdetermination" framing computes 5 Type-1 forms × 6 Type-2 domains = 30 as a single combined evidential metric. Per `BST_Methodology_Claim_Level_Positive_Patterns.md`, Type 1 (OFC) defends against Mode 1 (post-hoc form selection) and Type 2 (CDAC) defends against Mode 5 (selection effect on observables). These are **different evidence types defending against different failure modes**. Multiplying them into a single scalar metric is methodologically problematic:
+
+- "5×6 = 30" suggests a 30-fold reduction in coincidence-filter risk. But Mode 1 risk and Mode 5 risk don't combine multiplicatively. They combine via different defense mechanisms applying to different parts of the claim.
+- A claim with 5 forms and 1 domain has very different evidential shape than a claim with 1 form and 5 domains, even though 5×1 = 1×5 = 5.
+- The χ=24 compound is genuinely strong, but the strength comes from BOTH Mode 1 defense (5 forms) AND Mode 5 defense (6 domains), not from a single 30-fold multiplication.
+
+**Recommended framing revision** for K72 verdict text:
+
+Replace "30-fold multiplicative overdetermination" with: **"5-fold OFC + 6-fold CDAC compound structure"** or **"Type 1+2 compound cluster with 5 algebraic forms and 6 domain anchors"**.
+
+This framing accurately conveys:
+- The 5 forms defend against Mode 1 at the form-selection level
+- The 6 domains defend against Mode 5 at the observable-selection level
+- The compound shape (BOTH simultaneously) is the structural strength
+- No single scalar metric is needed; the compound-shape description IS the metric
+
+**For comparison metrics with other clusters**: K69 Universal Q=126 is approximately "5-form + 3-4 domain compound" (Lamb + BCS + Bell + possibly more). K61 (131 family) is "1-form + 4-domain CDAC" (no OFC dimension). K72 (χ=24) is "5-form + 6-domain compound." The qualitative shape is what matters; scalar multiplication misleads.
+
+**This is methodology-level feedback** that applies beyond K72. Future K-audits classifying Type 3 compound clusters should use the compound-shape framing, not the scalar-multiplication framing. Cal will update `BST_Methodology_Claim_Level_Positive_Patterns.md` with explicit caution against scalar-multiplication of OFC × CDAC counts in next own-cadence pull.
+
+**Substantive content unchanged**: the 5 forms + 6 domains structural identification stands. χ=24 IS the strongest compound substrate signature in catalog. Mode 6 mechanism-pending status is honest. Multi-month D-tier promotion path via Lyra theoretical mechanism-forcing argument is appropriate.
+
+**Status:** RATIFIED audit-partial-ready CONFIRMED at compound-cluster level. "30-fold multiplicative" framing recommended for revision to "5-form OFC + 6-domain CDAC compound" — methodology-level feedback applicable beyond K72. Substantive ruling unchanged.
+
+### #56 — Calibration #14 acknowledgment (May 20)
+
+**Cal note (2026-05-20 Wednesday EOD per Keeper's calibration #14 filing):** Lyra self-correction on T2419 within-session is the exact discipline pattern. Keeper flag → Lyra self-correct in same session = audit-chain functioning as designed. The "7 dim discarded = g" sub-claim downgrade from "emergent" to "definitional choice" preserves the substantive T2419 content (M_z substrate-native, Bergman A² operator, α-uncertainty bound) while correcting the over-attribution.
+
+This is Calibration #14 in 8 days of operation. The cadence is accelerating; within-session catches are becoming routine pattern. Cal flag: this is GOOD audit-chain health, NOT excess self-correction. Track via existing referee log #51 entry; no new entry needed.
+
+**Cross-reference for future Cal-grade-pass discipline**: Lyra T2419 framing revision per #51 recommendation can land at her own cadence — sub-claim correction acknowledged, substantive content stands. Cal stands by for T2419 v0.2 if filed, otherwise the calibration #14 + #51 referee entries together constitute the audit chain's resolution of the matter.
+
+### #57 — K73 Λ ↔ Casimir Vacuum Unification Cal independent assessment (May 20)
+
+**Cal verdict (2026-05-20 Wednesday EOD per Keeper K73 filing):** Cal AGREES with Keeper's K73 AUDIT-PARTIAL-READY ruling at strong I-tier framework integration. The three-level structural connection framing (operational + BST primary g + Zone 4) follows my #52 pathway sketch exactly and applies the Mode 5 zone-assignment pre-registration mitigation as recommended. Cal filter 6 PASS + 1 SOFT-FIRES (Mode 6 mechanism-pending) is consistent.
+
+**Cal commendation on framing**: K73 uses "Three INDEPENDENT structural connection levels" rather than a scalar multiplicative metric. This is qualitatively richer than the 5×6=30 framing I flagged in #55 K72 review. Three connection levels at different epistemic granularities (operational + BST primary + zone) is the right shape — different evidence types at different layers, not multiplied into a single number. Future K-audits should follow this K73 framing template for compound structural findings.
+
+**Cal observation on cosmological strategic implication**: K73 notes that "Casimir experiments at BST primary aspect ratios become cosmologically-relevant tests" per Cal #50 Claim B cosmology-only GREEN external register. This is exactly the right external-presentation path — Λ-Casimir unification can be communicated as a physics claim (substrate vacuum measured at different BC configurations) without consciousness-substrate framing. Recommend: when SP-30-2 Casimir outreach material is drafted, explicitly cross-reference T1485 Λ formula + Toy 1567 Casimir asymmetric = g as joint substrate-vacuum measurements; this strengthens the SP-30-2 falsifier program by anchoring at the cosmological scale.
+
+**Cal pre-registration discipline check**: K73 declares Zone 4 outer-edge as the zone-assignment BEFORE measurement claims for future audit candidates in this lineage. This establishes the pre-registration precedent for vacuum-class K-audits per #52 Mode 5 mitigation. Keeper's discipline application is exactly correct; the pattern should propagate to K74 + future K75+ vacuum-related candidates.
+
+**Status:** AUDIT-PARTIAL-READY ratification AGREED at strong I-tier framework integration. Three-level framing endorsed as template for future compound structural K-audits. SP-30-2 cosmological-relevance external presentation pathway GREEN per Cal #50. Mode 6 cross-zone mechanism pending K52a Sessions 17+ closure (multi-month). Multi-CI consensus per Casey Option C governance: Cal concurs with audit-partial-ready ruling; full D-tier ratification when mechanism work matures.
+
+### #58 — K74 Four-Zone Vacuum Decomposition Cal independent assessment (May 20)
+
+**Cal verdict (2026-05-20 Wednesday EOD per Keeper K74 filing):** Cal AGREES with Keeper's K74 AUDIT-PARTIAL-READY ruling at strong I-tier framework integration + M2C2 instance #4 confirmation. The four-zone vacuum decomposition framing (FOUR PROJECTIONS of same substrate vacuum, NOT four independent substrate vacuums per Mode 7 PASS) is correctly disciplined. The retroactive integration of ~150-200 prior heat kernel toys as Zone-2 vacuum work is honest structural finding when the K53 D-tier ratification predates the 4-zone framework (the epistemic order is correct).
+
+**Two Cal observations**:
+
+**Cal Observation 1 — Internal-document hygiene flag**: the "four projections of same substrate vacuum" framing is the right Mode 7 discipline. BUT this framing must hold under copy-paste drift across future internal documents. Recommend: add explicit tag to K74 document header (or to `BST_Methodology_AuditChain_Quality_Patterns.md` cross-reference table) — **"FOUR PROJECTIONS not FOUR VACUUMS — language preserves Mode 7 discipline."** Internal-document language migrates over months per the cognition external register doc; preserving this distinction at copy-paste-protected level matters.
+
+**Cal Observation 2 — Mode 5 retroactive-integration discipline**: K74's "MAJOR RETROACTIVE INTEGRATION of ~150-200 prior heat kernel toys as Zone-2 vacuum work" is honest IF the heat kernel a_k coefficients genuinely correspond to bulk-zone mode counts at the structural-identification level (not just labeled that way after the framework was constructed). The K53 D-tier ratification predates Wednesday's 4-zone framework — that's the right epistemic order.
+
+**HOWEVER**, Mode 5 risk creeps if future K-audits retroactively assign clusters-of-prior-toys to zones. The zone-assignment pre-registration discipline established via K73 + K74 must apply going forward: **any future K-audit claiming a new zone-vacuum identification must declare zone assignment BEFORE measurement of zone-vacuum content**. K73 + K74 together establish the precedent; subsequent K75+ vacuum-class candidates must follow it.
+
+Cal flag for future audit-chain governance: when retroactive integration is part of a K-audit's structural strength, explicitly note (a) the K-audit's framework predates or postdates the integrated toys, (b) the integration is forced by structural classification (not selected by post-hoc labeling), and (c) the next K-audit in the lineage will be pre-registered before measurement.
+
+**Cal commendation on M2C2 instance #4 attribution**: K74 correctly attributes Lyra T2420 + Elie Toy 3166 + heat kernel cascade (retroactive) as three convergent lines. The third line being "retroactive recognition of ~150 prior toys" is honest — Cal endorses this as M2C2 instance shape. Grace should add to M2C2 catalog as instance #4 with the retroactive-recognition sub-category noted (different from Tuesday's T2395 4+1 scope or Universal Q=126 cross-link which were forward convergent).
+
+**Status:** AUDIT-PARTIAL-READY ratification AGREED at strong I-tier framework integration + M2C2 instance #4 confirmed. "Four projections not four vacuums" internal-document hygiene flag recommended. Mode 5 retroactive-integration discipline applies to future K75+ vacuum-class candidates with explicit pre-registration. Cross-zone integration mechanism pending Elie K52a Sessions 17+ closure (multi-month). Multi-CI consensus per Casey Option C governance: Cal concurs with audit-partial-ready ruling.
+
+**Joint K73 + K74 standing**: the substrate-vacuum framework integration is the master Wednesday substrate-ontology consolidation. K73 (Λ ↔ Casimir at Zone 4) + K74 (4-zone decomposition framework) together complete the substrate-vacuum K-audit anchor set. K-audit pipeline now has K61-K74 (14 audits filed Wednesday or earlier with audit-partial-ready or ratified status). Cal stands ready for K75+ as they arise.
+
+### #59 — K75 BST Anchors on Stark Small-Primary Subset Cal independent assessment (May 20)
+
+**Cal verdict (2026-05-20 Wednesday EOD per Keeper K75 filing):** Cal AGREES with Keeper's K75 AUDIT-PARTIAL-READY ruling at strong I-tier substrate-selection signature. K75 directly addresses the derivation-order concern raised in #53 K70 review — the {-3, -7, -11} subset selection is forward-discoverable, NOT retroactively constructed. Grace Toy 3173 (4/5 PASS Wed PM) applied Cal Mode 6 search-protocol enumeration transparently; this is the first formal Mode 6 protocol application in a K-audit, and Cal endorses the methodology execution.
+
+**Cal commendation — Mode 6 protocol application**: Grace Toy 3173 ran arity-4 BST-primary expression enumeration for EACH of Stark's 9 discriminants and reported transparent counts. The {-3, -7, -11} subset emerged as forced-1-form structural matches; -19/-43 with 25 and 11 expressions respectively were honestly downgraded as Mode 6 artifacts; -163 with 0 expressions definitively outside; -67 with 4 expressions flagged borderline. This is **exactly the discipline shape Mode 6 (scan-protocol over/under-counting) was specified for** in `BST_Methodology_Coincidence_Filter_Risk.md`. K75 + Toy 3173 jointly demonstrate Mode 6 working operationally.
+
+**Cal recommendation — Mode 6 threshold formalization**: K75 demonstrates Mode 6 in operation, but the thresholds (what counts as forced match vs Mode 6 artifact vs borderline) were applied qualitatively. For future K-audits using Mode 6 enumeration, recommend specifying explicit threshold rules:
+
+- **Forced structural match**: ≤ 1-2 expressions at the chosen arity (small enough that the match is mechanism-required, not search-fitted)
+- **Mode 6 artifact (downgrade)**: ≥ 10 expressions at the chosen arity (large enough that the match is search-protocol overfitting, not structural)
+- **Borderline (insufficient evidence)**: 3-9 expressions (intermediate; further investigation needed at higher arity or different protocol)
+- **Definitively outside**: 0 expressions at the chosen arity
+
+The arity choice + threshold cutoffs should be **pre-registered before scan** to prevent Mode 6 risk at the threshold-selection level. Grace can fold this into `BST_Methodology_Coincidence_Filter_Risk.md` Mode 6 specification at her continuous-hygiene cadence; or Cal can update at next own-cadence pull. Either path closes the threshold-specification loop.
+
+**Cal observation — Strong-Uniqueness 9th criterion**: K75 contributes Criterion 9 to Lyra's Strong-Uniqueness Theorem v0.3. The criterion as stated: "BST primary integer-set uniquely intersects Stark's class-number-1 discriminant family at exactly the small-primary subset {-3, -7, -11}." Cal preliminary check: this is a distinguishing criterion IF other rank-2 Hermitian symmetric domains produce primary integer sets whose negatives intersect Stark's 9 differently. If all rank-2 HSDs produce the same intersection, the criterion is not D_IV⁵-distinguishing.
+
+**Cal recommendation for C9 criterion strength**: Lyra Task #206 v0.3 work should verify that alternative rank-2 HSDs (e.g., domains B_I, B_II, etc.) produce DIFFERENT intersections with Stark's 9. If alternative HSDs intersect {-43, -67} or other Stark members instead of {-3, -7, -11}, then C9 is genuinely distinguishing. If not, C9 strength reduces to "BST primary integer-set happens to overlap Stark's family at small primaries" — still structurally interesting but weaker criterion.
+
+This is a multi-month theoretical investigation. Cal flag: C9 ratification within Strong-Uniqueness Theorem requires the alternative-HSD comparison work, not just the BST-Stark intersection observation alone.
+
+**Cal observation — Bridge Object completeness theorem suggestion**: K75 + K70 + K62 (when filed) + K47 (already ratified) together SUGGEST Bridge Object set may be structurally bounded at 4 with 27a1 as 5th specialized variant. Cal preliminary: this is structural inference appropriate at I-tier for now; multi-week investigation should test non-Heegner Bridge Object candidates before bounding the set at exactly 4.
+
+**Status:** AUDIT-PARTIAL-READY at strong I-tier substrate-selection signature CONFIRMED. Mode 6 protocol application is first formal operational instance — Cal commendation. Mode 6 threshold formalization recommended for `BST_Methodology_Coincidence_Filter_Risk.md` update. C9 Strong-Uniqueness criterion strength contingent on alternative-HSD comparison (multi-month Lyra Task #206 work). Bridge Object completeness theorem suggestion is structurally interesting but premature to bound at exactly 4 without non-Heegner investigation. Cal concurs with audit-partial-ready ruling; full D-tier ratification when integration-mechanism work + alternative-HSD comparison + multi-CI consensus mature.
+
+### #60 — Calibration #15 + #16 acknowledgments + K72 v0.2 / K74 v0.2 application notes (May 20 EOD)
+
+**Cal note (2026-05-20 Wednesday EOD):**
+
+**Calibration #15** (Keeper register self-correction on substrate-vs-human cognition piece per Cal flag earlier): Keeper applied 5 replacement phrases (claim register → hypothesis register). The replacements are appropriately disciplined; "may be" register reinstated; "Wigner's puzzle MAY be structurally consistent with: substrate operates algebraically — NEVER claim 'solved'" is the right framing per External_Survivability_Checklist. Calibration #15 logged via Keeper broadcast; no separate Cal action required.
+
+**Calibration #16** (Keeper K72 framing self-correction per Cal #55 methodology feedback): K72 v0.2 file applied "5-fold OFC + 6-fold CDAC compound structure" framing replacing "30-fold multiplicative overdetermination." Cal commendation on within-session application of methodology-level feedback. The pattern: Cal #55 methodology call → Keeper Calibration #16 within hours = methodology discipline working at audit-chain level.
+
+**K74 v0.2 hygiene flag application**: Keeper added "FOUR PROJECTIONS not FOUR VACUUMS" internal-document hygiene flag per Cal #58 recommendation. Cal endorses; this preserves Mode 7 discipline against future copy-paste drift.
+
+**Calibration cadence Wednesday**: three calibrations in one day (#14 Lyra T2419, #15 Keeper substrate-vs-human cognition, #16 Keeper K72 framing). Cal flag for the cadence observation: **this is healthy audit-chain operation, not excess self-correction**. The pattern is within-session catches becoming routine, which is exactly the discipline target. Cal stands by Keeper's reading: 3 calibrations in one day is highest single-day rate observed AND is GOOD audit-chain health.
+
+**Cumulative discipline state**: 16 calibration events in 8 days. Within-session catches are now routine pattern; the audit chain has stabilized at the operational rhythm Casey designed for it.
+
+**Status:** Calibrations #15 + #16 logged. K72 v0.2 + K74 v0.2 applications endorsed. No separate referee action required; this entry serves as Cal acknowledgment for the audit-chain record.
+
+### #61 — K62 Cremona 27a1 Bridge Object at -N_c Cal independent assessment (May 20 EOD)
+
+**Cal verdict (2026-05-20 Wednesday EOD per Keeper K62 filing):** Cal AGREES with Keeper's K62 AUDIT-PARTIAL-READY ruling at 3.5/4 B-conditions, structurally parallel to K70. The Bridge Object audit pre-stage TRIO at BST primary discriminants {K47 49a1 at -g, K70 121a1 at -c_2, K62 27a1 at -N_c} is now structurally complete. Cal #59 Mode 6 thresholds applied with explicit forced-structural-match labeling; Cal #59 Bridge Object completeness caution preserved via the prominent "STRUCTURAL PARALLEL not COMPLETENESS CLAIM" hygiene flag at the top of K62.
+
+**Cal commendation on Mode 6 threshold application**: K62 uses the exact Mode 6 thresholds I recommended in #59 — "Forced structural match (≤1-2 threshold) ✓" labeling per anchor. This is the second formal Mode 6 application (after K75 / Grace Toy 3173) and demonstrates the threshold formalization operationally. The Mode 6 discipline is now operating across two K-audits.
+
+**Cal commendation on completeness-caution discipline**: Keeper applied my #59 Bridge Object completeness flag at the K62 document header level — exactly the internal-document-hygiene pattern I recommended for K74 ("FOUR PROJECTIONS not FOUR VACUUMS"). The hygiene flag at document top is the right approach for preventing future copy-paste drift on claims that have non-trivial scope conditions.
+
+**Two Cal observations**:
+
+**Cal Observation 1 — Completeness arithmetic update**: K70 earlier framed "Bridge Object set extends to 4 (K3 + 49a1 + Q⁵ + 121a1)" if K70 ratifies. With K62 now in the audit pipeline, if K47 + K70 + K62 ALL ratify, the count becomes:
+
+- Current K57 ratified: 3 (K3, 49a1, Q⁵)
+- + K70 121a1: 4
+- + K62 27a1: **5**
+
+So the bounded-at-4 framing (which I already flagged as premature in #59) is wrong on its own terms — the Heegner-Stark BST-primary-anchored Bridge Object trio adds TWO members (121a1 + 27a1) not one. If all three K-audits ratify and K57 architectural-category extension confirms via multi-CI consensus, the Bridge Object set extends from 3 to 5.
+
+Cal recommendation: update K70 file to note this arithmetic correction, OR rely on K62's explicit "extends from 3 (K3 + 49a1 + Q⁵) to 5 (K3 + 49a1 + 121a1 + 27a1 + Q⁵)" framing as the authoritative count. K62 is correct; K70 should reference K62's count if/when both ratify.
+
+**Cal Observation 2 — Conductor exponent pattern observation**: K62 notes conductor exponents are non-uniform: 49a1 = g², 121a1 = c_2², 27a1 = N_c³. The 2/2/3 pattern is asymmetric.
+
+Cal flag: N_c³ = 27 connects to the N_max derivation formula: N_max = N_c³·n_C + rank = 27·5 + 2 = 137. The N_c³ conductor exponent for 27a1 is the same N_c³ that appears as the dominant term in N_max. This MAY suggest the conductor exponents are not arbitrary — N_c³ has structural meaning via N_max derivation while g² and c_2² do not (necessarily). Worth multi-week investigation: do the conductor exponents (2, 2, 3) correspond to specific BST-primary structural roles?
+
+Cal preliminary: this is INTERESTING OBSERVATION territory, not D-tier claim. Multi-week investigation appropriate; pre-registration discipline should specify what would and wouldn't count as confirmation of the pattern before any data collection.
+
+**Cal observation on C10 candidate (Strong-Uniqueness Theorem)**: Keeper proposed Heegner curve trio {27a1, 49a1, 121a1} as C10 criterion for Lyra Strong-Uniqueness Theorem v0.4. Cal preliminary: same caveat as C9 (per #59) — C10 strength is contingent on alternative-HSD comparison work. If alternative rank-2 HSDs would yield different Heegner anchor curves, C10 is genuinely D_IV⁵-distinguishing. If all rank-2 HSDs would yield the same Heegner trio (because Heegner-Stark theorem is about class-number-1 quadratic fields generally), C10 reduces to "happens to overlap" structural identification.
+
+The C9 + C10 strength assessment is the same multi-month Lyra Task #206 investigation. Cal flag: don't promote C9 + C10 to closed Strong-Uniqueness criteria without the alternative-HSD comparison. Pre-Strong-Uniqueness-v0.4 closure should explicitly state alternative-HSD comparison status.
+
+**Status:** AUDIT-PARTIAL-READY ratification AGREED at 3.5/4 parallel to K70. Mode 6 threshold application and completeness-caution hygiene flag commended. Completeness arithmetic update: full trio ratification would yield 5-member Bridge Object set (not 4). C10 Strong-Uniqueness criterion strength contingent on alternative-HSD comparison work (multi-month Lyra Task #206). Cal concurs with audit-partial-ready ruling; full D-tier ratification when B3 strengthening + multi-CI consensus + non-Heegner investigation + alternative-HSD comparison mature.
+
+**Joint Bridge Object trio standing**: K47 ratified + K70 audit-partial-ready + K62 audit-partial-ready forms the audit pre-stage trio at BST primary discriminants. This is a substantive structural achievement for the K-audit chain; the trio + K57 ratified Bridge Object architectural category + K75 substrate-selection signature jointly constitute the Wednesday-EOD Bridge Object framework completion at audit-partial-ready level.
+
 ---
 
 ## Open threads for next session

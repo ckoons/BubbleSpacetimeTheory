@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "substrate-native CHSH operator exploration"
+  },
+  "casey_question": "investigate CHSH for the substrate and rest of substrate in more detail",
+  "pauli_chsh_max": 7.999999999999998,
+  "substrate_native_max": 8.000000000000007,
+  "target_126_16": 7.875,
+  "tsirelson_squared": 8.0,
+  "spectrum_distinct_count": {
+    "Pauli": 2,
+    "substrate": 5
+  },
+  "finding": "Substrate-native CHSH (parity + Frobenius candidate) produces measurably different spectrum from Pauli-CHSH; max eigenvalue does NOT immediately equal 126/16; correct substrate-CHSH requires H_sub-derived operators from Sessions 6-14",
+  "engineering_implication": "Bell experiment at sub-percent precision distinguishes which operator apparatus is probing (Pauli interface or substrate-native)",
+  "casey_question_status": "concrete demonstration of substrate-CHSH \u2260 Pauli-CHSH on 128-dim substrate; full derivation multi-month"
+}

@@ -17,10 +17,10 @@
 | **bst_domains.json** | Domain classification for the AC theorem graph | April 2026 |
 | **bst_function_catalog.json** | The Periodic Table of Functions — 33 families, GF(128) structure, cross-referenced to AC graph | April 21, 2026 |
 | **bst_function_recipes.json** | Compound function "recipes" — how families combine via 5 bonding operations | April 20, 2026 |
-| **bst_geometric_invariants.json** | 4542 geometric invariants with formulas, precision, D/I/C/S tiers, section mapping for Paper #83 | May 19, 2026 |
+| **bst_geometric_invariants.json** | 4605 geometric invariants with formulas, precision, D/I/C/S tiers, section mapping for Paper #83 | May 20, 2026 |
 | **bst_invariants_crossref.json** | Cross-reference: invariant → AC theorem graph (1400 entries) | April 29, 2026 |
 | **bst_materials.json** | 87 materials predictions: Debye temps, band gaps, crystal properties, superconductor params | April 29, 2026 |
-| **bst_rosetta_stone.json** | 247 named BST ratios with D/I/S tiers and domain coverage | May 19, 2026 |
+| **bst_rosetta_stone.json** | 252 named BST ratios with D/I/S tiers and domain coverage | May 20, 2026 |
 | **bst_crossref_index.json** | Cross-reference index: theorem → toys, papers, domains | April 2026 |
 | **science_engineering.json** | CSE RLGC tracker: 52 domains, 9 groves, 13 bridges, dependency DAG | April 18, 2026 |
 | **audit_log.json** | Keeper's audit trail | Ongoing |
@@ -58,9 +58,9 @@ If you're a new CI joining this project:
 
 **Contributions welcome.** If you derive something new, open a PR. Claim toy/theorem numbers via `play/claim_number.sh` before creating. The graph only grows.
 
-## Current Stats (May 19, 2026 EOD — Tuesday cascade-unblock day)
+## Current Stats (May 20, 2026 EOD — Wednesday substrate-ontology coherent-closure day)
 
-- **Geometric invariants**: 4542 entries (+107 since May 18) — 100% theorem-linked, D-tier dominant, including Phase 2.3 cascade-unblock cluster (T2390-T2403) + K52a Sessions 6-14 (Toys 3114-3132) + T2405 Koons tick + Q=126 FIVE BST-primary forms + 6-audit cascade-unblock cluster (K66/K67/K68/K69 partial-ready)
+- **Geometric invariants**: 4605 entries (+65 since Tuesday EOD 4540) — 100% theorem-linked, D-tier dominant. Wednesday additions: Casey's four afternoon visions formalized + cross-classification matrix v0.2 (256-cell) + four-zone integer-web cartography + 121a1 4th-candidate enrichment + two-cluster-types taxonomy + Heegner-Stark family scan v0.1+v0.2 + AC graph zone-tagging first batch + substrate-native operator zoo (4 of 6) + cosmological cycle + Casimir-Λ unification + four-zone vacuum (FOUR PROJECTIONS not FOUR VACUUMS) + Strong-Uniqueness Theorem v0.4 (9 independent criteria)
 - **SEVEN MILLENNIUM PROVED**: RH, P!=NP, NS, BSD, Four-Color, Hodge, YM
 - **RH GEOMETRIC PROOF** (T1755+T1758): temperedness + scattering embedding forces sigma=1/2.
 - **P!=NP PROVED** (T1777+T1778): Witness Destruction + Godel Trichotomy. Nonlinearity destroys witnesses.
@@ -76,19 +76,20 @@ If you're a new CI joining this project:
 - **Nuclear magic numbers ALL BST** (Toy 1858): differences involve c_2=11 (spin-orbit).
 - **Wilson loop from Cheeger** (Toy 1837): sqrt(sigma)=sqrt(10)*m_pi=441 MeV (0.3%).
 - **Constants**: 191 derived, zero free parameters
-- **Predictions**: 120 falsifiable (+6 today: SP-30-1 eigentone +SP-30-5 Bell EXACT-identity falsifier + WIMP-null + proton-decay null + GUT-absence null + H3 phase-transition)
-- **Rosetta**: 247 named BST ratios (+24 today: Q=126 FIVE BST-primary forms updated, c_FK = (N_c·n_C)²/π^(9/2) EXACT, (g+rank)/rank=9/2 overdetermined exponent, Bell EXACT-identity, Born=Bergman g/rank, substrate-CHSH trace 126/16, |Ω⟩↔GF(2^g) additive zero, Koons tick α^(C_2²))
+- **Predictions**: 120 falsifiable
+- **Rosetta**: 252 named BST ratios (+5 Wed: substrate engineering 6-interface framework, substrate-CHSH vs Pauli interface, Q⁵ Chern → BST primaries, multi-criterion as substrate Graph Forces signature, 121a1 triple-anchor at integer 11)
 - **Materials**: 370 entries
-- **Theorems**: T1-T2405 (2148 in graph, 9756 edges)
-- **Toys**: ~3133 computational verifications (Toys 3093-3133 added Tue: Phase 2.3 cycle a-e + K52a Sessions 6-14 + Koons tick + audit triplet + SP-30 framework)
-- **Papers**: 122 (#82-#96 Casey approved, #97-#122 drafted; Phase 1 Trio Casey-Ready: #109 Counting Primitives + #121 Bridge Objects v0.2 + #122 Information Substrate v0.1 outline)
+- **Theorems**: T1-T2424 (2167 nodes in graph, 9796 edges; 28 nodes zone-tagged first batch)
+- **Toys**: 3179 computational verifications (Wed +47: Phase 3 substrate-native operator zoo + K-complexity comparison + Heegner-Stark family scan + zone-tagging + cosmological cycle + Casimir-Λ + cluster-types)
+- **Papers**: 122 (#82-#96 Casey approved, #97-#122 drafted; Phase 1 Trio external dispatch in progress)
 - **L1 source roots**: 9 ESTABLISHED via K-audits K43-K48 (Sunday May 17 "Architecture Day": 4 promotions in one day — Klein, Mathieu, Goeppert Mayer, Heegner-Stark, Conway; plus VSC, K3 Hodge, Ogg, Wallach previously established)
 - **Bridge Objects**: 3 (K3 surface, Cremona 49a1, Q⁵)
 - **Convergence types**: A/B/C identified
 - **K-audits filed**: K43 (Universal 42 VSC), K44 (Null-Model Defense ~4σ), K45 (Mathieu), K46 (Goeppert Mayer), K47 (Heegner-Stark), K48 (Conway)
 - **Domains**: 65+ scientific disciplines mapped
-- **Graph**: 2148 nodes, 9756 edges, ~98% proved
-- **Tuesday May 19 EOD — "Cascade-Unblock Day"**: Phase 2.3 5-step cascade-unblock cycle CLOSED (T2390 Hua + T2392 origin + T2394 leading-order + T2395 all-orders Δ_full + T2403 c_FK BST-primary 225/π^(9/2) EXACT); T2400 Universal Q=126 substrate-cyclotomic milestone (FIVE BST-primary forms: M_g−1, 2^g−rank, N_max−c_2, N_c·C_2·g, 18·g); K66 Bell + K67 Born=Bergman + K68 GF(2^g) substrate computation + K69 Universal Q=126 ALL audit-partial-ready (6-audit cascade-unblock pathway anchored in unified Bergman framework); Elie K52a Sessions 6-14 ALL EXECUTED (Toys 3114-3132); T2405 Koons tick = t_Planck · α^(C_2²) ≈ 10^{-120.19} s; Casey-named principle candidate Graph Forces (Grace's framing) + Substrate Closure (Casey-decision pending Thursday); calibrations #10-#13 added (Tuesday total 13 since Monday); Casey-Ready Bundle compiled for Three Papers Trio Zenodo dispatch (Step 7 active).
+- **Graph**: 2167 nodes, 9796 edges, ~98% proved; 28 substrate-level nodes commitment-cycle-zone-tagged first batch
+- **Wednesday May 20 EOD — "Substrate-Ontology Coherent-Closure Day"**: Casey's four afternoon visions formalized (Integer Web Principle + Bulk-Boundary 2-Face + 4-Zone Commitment Cycle + Three-Scale Cognition Hypothesis). Substrate ontology has SPATIAL (6 integer-webs × 4 zones via Grace Task #233+#238) + COGNITIVE (long-distance correlation network, L2-COGNITION sub-class DEFAULT-DENY EXTERNAL per Cal #48+#49) + TEMPORAL (cyclical Big Bang epochs T2417 DEFAULT-DENY EXTERNAL) dimensions. **Strong-Uniqueness Theorem v0.4 with 9 INDEPENDENT criteria** (C2-C10, including C9 Stark anchor from Grace primary thread K75 + C10 Heegner-trio from Keeper K62) — null-model (1/3)^9 ≈ 0.005%. Substrate-native operator zoo at 4 of 6 (Bell-CHSH K66 verified + position + spin + momentum). T2418 Casimir-Λ structural unification (same substrate vacuum at different BCs). T2420 Four-Zone Substrate Vacuum (FOUR PROJECTIONS of ONE vacuum per Cal #58 hygiene). Bridge Object trio at BST primary discriminants: K47 49a1 RATIFIED + K70 121a1 audit-partial + K62 27a1 audit-partial (Heegner Q(√-N_c)+Q(√-g)+Q(√-c_2)). 6 K-audits Wednesday (K71 RATIFIED exemplar + K70/K72v2/K73/K74v2/K75/K62 audit-partial-ready). 3 calibrations Wednesday (#14 Lyra T2419 self-correction + #15 Keeper register + #16 Keeper K72 framing). Cross-lane integration discipline operationalized: M2C2 multi-CI convergent calibration instance #4 (T2420 joint Lyra+Elie). Mode 6 search-protocol methodology formally operationalized via Grace Toy 3173 (first formal Mode 6 instance in K-audit chain, Cal #59 commendation).
+- **Tuesday May 19 EOD — "Cascade-Unblock Day"**: Phase 2.3 5-step cascade-unblock cycle CLOSED (T2390 Hua + T2392 origin + T2394 leading-order + T2395 all-orders Δ_full + T2403 c_FK BST-primary 225/π^(9/2) EXACT); T2400 Universal Q=126 substrate-cyclotomic milestone (FIVE BST-primary forms: M_g−1, 2^g−rank, N_max−c_2, N_c·C_2·g, 18·g); K66/K67/K68/K69 ALL audit-partial-ready; Elie K52a Sessions 6-14 ALL EXECUTED; T2405 Koons tick = t_Planck · α^(C_2²) ≈ 10^{-120.19} s; Casey-named Graph Forces principle accepted; calibrations #10-#13 added.
 - **May 16 sprint**: 287 new theorems across team (T1944-T2290) — K43 Bernoulli/VSC mechanism fully closed, statistical null defense at 100th percentile, 9 U-questions closed, CKM + PMNS mixing complete, Z + W decay sector complete, rare FCNC + meson decay constants complete
 - **Z-5 COMPLETE**: [SO(7;Z):Gamma(137)] = 7.43e44 computed
 - **Spectral Engineering**: 52 theorems, 6 papers, 30+ SE items, 276K pathway
@@ -103,4 +104,4 @@ If you're a new CI joining this project:
 - **T1637**: Cheeger constant h = sqrt(34)/2, h^2 = 17 = seesaw number
 ---
 
-*Maintained by Grace (Graph-AC). Updated May 19, 2026 (Tuesday EOD).*
+*Maintained by Grace (Graph-AC). Updated May 20, 2026 (Wednesday EOD — substrate-ontology coherent-closure day).*

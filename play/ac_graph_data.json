@@ -4,7 +4,7 @@
     "engine": "Toy 564 \u2014 AC Theorem Engine",
     "exported": "2026-05-16",
     "theorem_count": 1730,
-    "edge_count": 9756,
+    "edge_count": 9796,
     "committed_count": 438,
     "working_count": 64,
     "total_theorems": 1730,
@@ -18,13 +18,14 @@
     "D0": 1163,
     "D1": 525,
     "D2": 42,
-    "node_count": 2148,
-    "last_updated": "2026-05-19",
+    "node_count": 2167,
+    "last_updated": "2026-05-20",
     "edges": 9648,
     "nodes": 2064,
     "eod_session": "2026-05-18 EOD",
     "total_nodes": 2145,
-    "max_tid": 2402
+    "max_tid": 2402,
+    "commitment_cycle_zone_first_batch": "2026-05-20 T2390-T2420 substrate-level"
   },
   "theorems": [
     {
@@ -72427,6 +72428,206 @@
       "from": 2405,
       "to": 2403,
       "source": "phase23_bergman_framework_anchor"
+    },
+    {
+      "from": 2406,
+      "to": 1427,
+      "source": "D_IV\u2075 uniqueness theorem (APG) refinement"
+    },
+    {
+      "from": 2406,
+      "to": 2403,
+      "source": "C3 Bergman exponent g/rank shared with Phase 2.3 closure"
+    },
+    {
+      "from": 2406,
+      "to": 2400,
+      "source": "boundary-intersection framing \u2014 substrate-selection analog of Q=126 overdetermined identification"
+    },
+    {
+      "from": 2407,
+      "to": 2406,
+      "source": "task206_ladder_v01_v02"
+    },
+    {
+      "from": 2408,
+      "to": 2407,
+      "source": "task206_ladder_v02_v03"
+    },
+    {
+      "from": 2409,
+      "to": 2408,
+      "source": "task206_ladder_v03_v04"
+    },
+    {
+      "from": 2408,
+      "to": 1427,
+      "source": "Q5_Chern_classes_force_BST_primaries_via_bridge_object_topology"
+    },
+    {
+      "from": 2409,
+      "to": 2403,
+      "source": "C7_c_FK_Faraut_Koranyi_uniqueness"
+    },
+    {
+      "from": 2410,
+      "to": 2406,
+      "source": "task221_task206_crosslink"
+    },
+    {
+      "from": 2410,
+      "to": 2400,
+      "source": "algebraic-identity universality + Q=126 anchor"
+    },
+    {
+      "from": 2411,
+      "to": 2409,
+      "source": "task206_ladder_v04_v05_C8_sketch"
+    },
+    {
+      "from": 2412,
+      "to": 2399,
+      "source": "substrate-native CHSH refines K66"
+    },
+    {
+      "from": 2412,
+      "to": 2404,
+      "source": "K52a Sessions infrastructure landing target"
+    },
+    {
+      "from": 2413,
+      "to": 2403,
+      "source": "bergman_polynomial_decay_phase23_cFK"
+    },
+    {
+      "from": 2413,
+      "to": 2402,
+      "source": "GF2g_RS_coding_K68"
+    },
+    {
+      "from": 2414,
+      "to": 2413,
+      "source": "scale3_IS_integer_edge_dual_function_non_local"
+    },
+    {
+      "from": 2414,
+      "to": 2404,
+      "source": "scale1_intracycle_H_sub_infrastructure"
+    },
+    {
+      "from": 2415,
+      "to": 2414,
+      "source": "three_scale_intracycle_4_zone_structure"
+    },
+    {
+      "from": 2415,
+      "to": 2402,
+      "source": "inner_edge_RS_syndrome_decode_K68"
+    },
+    {
+      "from": 2415,
+      "to": 2403,
+      "source": "between_edges_bergman_projection_cFK"
+    },
+    {
+      "from": 2415,
+      "to": 2401,
+      "source": "outer_edge_born_rule_K67"
+    },
+    {
+      "from": 2416,
+      "to": 2415,
+      "source": "apparatus_zone_mapping_uses_4zone_formalization"
+    },
+    {
+      "from": 2416,
+      "to": 2399,
+      "source": "bell_K66_between_edges_signature"
+    },
+    {
+      "from": 2416,
+      "to": 2401,
+      "source": "born_K67_between_edges_plus_outer"
+    },
+    {
+      "from": 2418,
+      "to": 2416,
+      "source": "apparatus_zone_outer_edge_shared"
+    },
+    {
+      "from": 2419,
+      "to": 2412,
+      "source": "task247_substrate_native_zoo_expansion"
+    },
+    {
+      "from": 2419,
+      "to": 2403,
+      "source": "bergman_space_A2_with_c_FK_normalization"
+    },
+    {
+      "from": 2419,
+      "to": 2416,
+      "source": "outer_edge_zone_P_projection"
+    },
+    {
+      "from": 2420,
+      "to": 2418,
+      "source": "Z4_vacuum_lambda_casimir_unification"
+    },
+    {
+      "from": 2420,
+      "to": 2415,
+      "source": "four_zone_formalization_to_per_zone_vacua"
+    },
+    {
+      "from": 2420,
+      "to": 2402,
+      "source": "Z1_vacuum_GF2g_additive_zero_K68"
+    },
+    {
+      "from": 2420,
+      "to": 2401,
+      "source": "Z3_vacuum_bergman_ground_state_K67"
+    },
+    {
+      "from": 2421,
+      "to": 2419,
+      "source": "zoo_expansion_position_to_spin"
+    },
+    {
+      "from": 2421,
+      "to": 2412,
+      "source": "Task_247_substrate_native_zoo"
+    },
+    {
+      "from": 2422,
+      "to": 2419,
+      "source": "zoo_expansion_position_to_momentum"
+    },
+    {
+      "from": 2422,
+      "to": 2421,
+      "source": "zoo_expansion_spin_to_momentum"
+    },
+    {
+      "from": 2422,
+      "to": 2412,
+      "source": "Task_247_substrate_native_zoo"
+    },
+    {
+      "from": 2423,
+      "to": 2411,
+      "source": "task206_v0.5_to_v0.3_C9_stark_anchor"
+    },
+    {
+      "from": 2423,
+      "to": 2406,
+      "source": "task206_strong_uniqueness_ladder"
+    },
+    {
+      "from": 2424,
+      "to": 2423,
+      "source": "task206_v03_to_v04_C10_heegner_trio"
     }
   ],
   "chains": {},
@@ -102095,7 +102296,8 @@
       ],
       "date": "2026-05-19",
       "plain": "Hua decomp D_IV\u2075 = H^4 \u00d7 Internal^6 opens LAG-2 Phase 2.3 (highest-leverage cascade-unblock candidate). I-tier framework, multi-week steps (b)-(e). Lyra.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2391,
@@ -102125,7 +102327,8 @@
       ],
       "date": "2026-05-19",
       "plain": "LAG-2 Phase 2.3 Step (b) Faraut-Koranyi factorization + structural cross-link to Elie K52a GF(2^g) (1\u00b11/M_g) duality. Internal^6 = 1+N_c+rank gauge split MIRRORS GF(2^g) additive/multiplicative structure. Joint K-audit candidate. Lyra (author).",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2393,
@@ -102155,7 +102358,8 @@
       ],
       "date": "2026-05-19",
       "plain": "LAG-2 Phase 2.3 Step (c). Off-origin Faraut-Koranyi norm does NOT factor; leading-order 3-term cross-coupling z_H\u00b2\u00b7w\u0304_Int\u00b2 + z_Int\u00b2\u00b7w\u0304_H\u00b2 \u2212 4(z_H\u00b7w\u0304_H)(z_Int\u00b7w\u0304_Int). Toy 3104 6/7 PASS + 1 honest negative. Lyra (author).",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2395,
@@ -102170,7 +102374,8 @@
       ],
       "date": "2026-05-19",
       "plain": "Lyra T2395 LAG-2 Phase 2.3 Step (d). Exact 6-term Faraut-Koranyi cross-coupling at all orders verified to 1e-12 precision. Degree-4 + 6 + 8. ind(D) parity ODD = 3 coefficients matches M\u00f6bius Z/2 from T2356 \u2192 LAG-1 S10 Step 5.2 ind(D) \u2208 {13, 15} ODD prep. Cascade-unblock continues; Step (e) for BST primary c_FK + Paper #120 G + ind(D) value selection.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2396,
@@ -102228,7 +102433,8 @@
       ],
       "date": "2026-05-19",
       "plain": "Lyra T2399 Toy 3119 8/8 PASS. EXACT identity: Tsirelson\u00b2 \u2212 S_BST\u00b2 = 1/2^N_c = 1/8 at 1e-14 precision. S_BST\u00b2 = (2^g\u2212rank)/2^{rank\u00b2} = (N_max\u2212c_2)/2^{rank\u00b2} = 126/16 = 63/8. Two BST-primary forms equivalent (2^g\u2212rank = N_max\u2212c_2 = 126). Upgrades SP-30-5 from 'near Tsirelson' to 'EXACT algebraic deviation 1/8 at BST primary scale.' K66 audit-partial-ready.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2400,
@@ -102243,7 +102449,8 @@
       ],
       "date": "2026-05-19",
       "plain": "Lyra+Elie joint T2400 MILESTONE. Q=126 has FOUR equivalent BST-primary forms: M_g\u22121 = 2^g\u2212rank = N_max\u2212c_2 = rank\u00b7g\u00b7N_c\u00b2. Shared numerator in Lamb (K52a 126/127) + Bell (K66 T2399 S_BST\u00b2/Tsirelson\u00b2 = 126/128). BCS complement Q' = Q+rank = 128 = 2^g (additive/multiplicative GF(2^g) duality). Joint K52a+K66 audit candidate. Toy 3120 8/8 PASS.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2401,
@@ -102258,7 +102465,8 @@
       ],
       "date": "2026-05-19",
       "plain": "Lyra T2401 Toy 3121 8/8 PASS. Born rule P = |\u27e8\u03c6|\u03c8\u27e9|\u00b2 IS Bergman kernel projection K_B(z,w\u0304) = c_FK\u00b7h(z,w\u0304)^{-g/rank} on D_IV\u2075. Bergman exp g/rank = 7/2 = (n_C+rank)/rank DERIVED (T2392 + T2395 + Faraut-Koranyi 1994). K67 audit-partial-ready. Extends cascade-unblock to 5 D-tier promotions.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2402,
@@ -102271,7 +102479,8 @@
       "toys": [],
       "date": "2026-05-19",
       "plain": "Lyra T2402 SP-30-7 substrate computation as GF(2^g) cyclotomic operations on g=7 bits/cell/cycle. K68 audit-partial-ready. Completes Wednesday K-audit triplet: K66 (Bell T2399) + K67 (Born T2401) + K68 (Computation T2402). Joins cascade-unblock cluster (5 cyclotomic + 1 holomorphic = 6 audits).",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z1"
     },
     {
       "tid": 2403,
@@ -102284,7 +102493,8 @@
       "toys": [],
       "date": "2026-05-19",
       "plain": "Lyra T2403 (Tue 2026-05-19). Closes LAG-2 Phase 2.3 cascade-unblock cycle (5/5 steps a-e). c_FK\u00b7\u03c0^(9/2)=(N_c\u00b7n_C)\u00b2=225 EXACTLY at 1e-14. Faraut-Koranyi 1994. Cascade-unblocks: Paper #120 G_Newton, LAG-1 S10 ind(D), K66/K67/K68/K69 Bergman framework.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2404,
@@ -102299,7 +102509,8 @@
       ],
       "date": "2026-05-19",
       "plain": "Lyra T2404 (Tue 2026-05-19 EOD) per Casey 'Go on all K52a Sessions'. Packages Phase 2.3 closure into explicit Bergman framework for Elie H_sub: A\u00b2(D_IV\u2075, d\u03bc_sub), d\u03bc_sub = c_FK\u00b7h^{-(g+rank)/rank}dV, K_B = c_FK\u00b7h^{-g/rank}. Per-session anchors: Session 6 Bergman emission projection (K67), Session 7 |\u03a9\u27e9 via Internal^6=1+N_c+rank additive sector + RS all-zero codeword, Session 8 H_sub explicit RKHS.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z1+Z2+Z3"
     },
     {
       "tid": 2405,
@@ -102312,6 +102523,291 @@
       "toys": [],
       "date": "2026-05-19",
       "plain": "Lyra T2405 (Tue 2026-05-19 EOD). Substrate clock cycle (Koons tick) admits BST-primary form: t_substrate = t_Planck \u00b7 \u03b1^(C_2\u00b2) = t_Planck / N_max^36 \u2248 10^{-120.19} s. Third \u03b1-perturbation order in BST catalog. Mechanism for C_2\u00b2 exponent multi-week (likely Elie substrate-Hamiltonian eigenvalue spacing). Potential 7-audit cascade extension if mechanism closes.",
+      "proofs": [],
+      "commitment_cycle_zone": "Z1"
+    },
+    {
+      "tid": 2406,
+      "name": "Task #206 D_IV\u2075 multi-criterion uniqueness v0.1 \u2014 Hermitian symmetric domain enumeration",
+      "domain": "task #206 / hermitian symmetric domain uniqueness / cartan classification",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 Thread B opening",
+      "toys": [
+        3135
+      ],
+      "date": "2026-05-20",
+      "plain": "Lyra T2406 (Wed 2026-05-20 morning). D_IV\u2075 uniquely satisfies (dim_C=5, rank=2) + C3 Bergman exponent g/rank=7/2 among small irreducible HSDs via Cartan classification. Multi-week C3-C8 criteria remain. Direct operational test of Grace boundary-intersection framing for substrate uniqueness.",
+      "proofs": [],
+      "commitment_cycle_zone": "meta"
+    },
+    {
+      "tid": 2407,
+      "name": "Task #206 v0.2 \u2014 D_IV\u2075 unique under C2+C3+C4",
+      "domain": "task #206 multi-criterion overdetermined",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 Task #206 batch",
+      "toys": [],
+      "date": "2026-05-20",
+      "plain": "Lyra T2407 (Wed 2026-05-20). Three criteria C2/C3/C4 all uniquely pick D_IV\u2075.",
+      "proofs": [],
+      "commitment_cycle_zone": "meta"
+    },
+    {
+      "tid": 2408,
+      "name": "Task #206 v0.3 \u2014 FIVE criteria + Chern classes of Q\u2075 ARE BST primary integers",
+      "domain": "task #206 / Q\u2075 Chern structural fact",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 Task #206 batch",
+      "toys": [],
+      "date": "2026-05-20",
+      "plain": "Lyra T2408 (Wed 2026-05-20). MAJOR: Chern classes (1,5,11,13,9,3) of Q\u2075 ARE the BST primary integers. Closes 'why these primaries' question via Bridge Object topology.",
+      "proofs": [],
+      "commitment_cycle_zone": "meta"
+    },
+    {
+      "tid": 2409,
+      "name": "Task #206 v0.4 \u2014 SIX criteria unique (C7 c_FK Faraut-Koranyi)",
+      "domain": "task #206 / six-criterion convergence / strong uniqueness",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 Task #206 batch",
+      "toys": [],
+      "date": "2026-05-20",
+      "plain": "Lyra T2409 (Wed 2026-05-20). Strong-Uniqueness Theorem at 6/8 criteria; C8 M\u00f6bius+Wallach multi-week. Paper-grade framework filed.",
+      "proofs": [],
+      "commitment_cycle_zone": "meta"
+    },
+    {
+      "tid": 2410,
+      "name": "[Elie pending registration] T2410 algebraic-universality \u00d7 D_IV\u2075 uniqueness cross-link",
+      "domain": "task #221 \u2194 task #206 cross-link",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 Phase 2",
+      "toys": [],
+      "date": "2026-05-20",
+      "plain": "Elie T2410 Toy 3145 (Wed 2026-05-20 Phase 2). Cross-link toy joining algebraic-identity universality + multi-criterion uniqueness. Registry filing pending.",
+      "proofs": []
+    },
+    {
+      "tid": 2411,
+      "name": "Task #206 v0.5 \u2014 C8 M\u00f6bius + Wallach K-type sketch closes 7/8 criteria",
+      "domain": "task #206 / C8 wallach sketch / 7/8 closure",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 Phase 2",
+      "toys": [],
+      "date": "2026-05-20",
+      "plain": "Lyra T2411 / Toy 3146 (Wed 2026-05-20 ~10:50 EDT Phase 2). C8 sketch closes 7/8. Full rigor multi-week LAG-1 S10.",
+      "proofs": [],
+      "commitment_cycle_zone": "meta"
+    },
+    {
+      "tid": 2412,
+      "name": "Task #228 substrate-native operators v0.1 \u2014 five candidates + Bell-CHSH verified",
+      "domain": "task #228 / substrate-native operators / six-observable framework",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 Phase 2",
+      "toys": [],
+      "date": "2026-05-20",
+      "plain": "Lyra T2412 (Wed 2026-05-20 ~11:20 EDT Phase 2). Substrate-native operator framework: position (Bergman z), momentum (dual Hua), spin (SO(5)\u00d7SO(2) C_2=6), energy (H_sub), angular momentum (SO(5) 10 generators), Bell-CHSH (1/2^N_c EXACT). Two-pillar structure with T2406-T2411 Strong-Uniqueness.",
+      "proofs": [],
+      "commitment_cycle_zone": "all"
+    },
+    {
+      "tid": 2413,
+      "name": "Task #243 Integer-edge dual function v0.1 \u2014 Bergman polynomial decay + GF(2^g) RS coexistence",
+      "domain": "task #243 / integer-edge dual function / casey vision 4 + bergman + RS",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 Phase 3 Casey-vision-derived",
+      "toys": [],
+      "date": "2026-05-20",
+      "plain": "Lyra T2413 / Toy 3155 (Wed 2026-05-20 ~13:40 EDT Phase 3). Two co-existing structures provide dual function: Bergman polynomial decay h^(-7/2) (local 2D contact + non-zero long-range) + GF(2^g) RS codeword cohomology M_g=127 (per-cell + non-local syndrome decoding). NOT a single object.",
+      "proofs": [],
+      "commitment_cycle_zone": "all"
+    },
+    {
+      "tid": 2414,
+      "name": "Task #241 Three-scale substrate operation framework v0.1 \u2014 D_IV\u2075 scale correspondence",
+      "domain": "task #241 / three-scale substrate / casey vision 3 / D_IV5 mathematical structure",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 Phase 3 Casey-vision-derived",
+      "toys": [],
+      "date": "2026-05-20",
+      "plain": "Lyra T2414 / Toy 3157 (Wed 2026-05-20 ~14:00 EDT Phase 3). Three scales: intra-cycle (SWPP+4-zone on H_sub) + inter-cycle local (Bergman near-field) + inter-cycle long-distance (Bergman polynomial decay + RS cohomology). Scale 3 IS dual-function non-local component.",
+      "proofs": [],
+      "commitment_cycle_zone": "all"
+    },
+    {
+      "tid": 2415,
+      "name": "Task #240 4-zone commitment cycle mathematical formalization v0.1",
+      "domain": "task #240 / 4-zone commitment cycle / D_IV5 zone-operator mapping",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 Phase 3 Casey-vision-derived",
+      "toys": [
+        3160
+      ],
+      "date": "2026-05-20",
+      "plain": "Lyra T2415 / Toy 3160 (Wed 2026-05-20 ~14:25 EDT). Four zones mapped to D_IV\u2075: inner=RS syndrome decode, bulk=2D Cartan + GF(2^g) stirring, between-edges=Bergman projection, outer=spacetime/Born. 'Semi-chaotic reorganization' = Anosov mixing + discrete cyclotomic action.",
+      "proofs": [],
+      "commitment_cycle_zone": "all"
+    },
+    {
+      "tid": 2416,
+      "name": "Task #234 Apparatus-Zone mapping v0.1 \u2014 10 apparatuses \u2192 4 zones",
+      "domain": "task #234 / apparatus-zone mapping / SP-30 4-zone cartography",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 Phase 3 apparatus-zone",
+      "toys": [
+        3162
+      ],
+      "date": "2026-05-20",
+      "plain": "Lyra T2416 / Toy 3162 (Wed 2026-05-20 ~14:45 EDT). 10 apparatuses \u2192 4 zones with BST-primary signatures. 1/2^N_c Bell IS between-edges signature. Combined SP-30 = 4-zone cartography across multiple labs.",
+      "proofs": [],
+      "commitment_cycle_zone": "all"
+    },
+    {
+      "tid": 2418,
+      "name": "Casimir \u2194 \u039b structural unification \u2014 same substrate vacuum at different BCs",
+      "domain": "casimir / cosmological constant / substrate vacuum unification",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 Phase 3 vacuum unification",
+      "toys": [
+        3165
+      ],
+      "date": "2026-05-20",
+      "plain": "Lyra T2418 / Toy 3165 (Wed 2026-05-20 ~15:15 EDT). Casimir effect AND \u039b share same substrate vacuum origin; differ only in BC presence. \u039b at NO-BC limit (T1485); Casimir at BC-modulated limit (Toy 1567 ratio = g = 7). Both share BST primary g=7. SP-30-2 Casimir experiments become cosmologically-relevant tests.",
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
+    },
+    {
+      "tid": 2419,
+      "name": "Task #247 Substrate-native position operator v0.1 \u2014 M_z on Bergman space",
+      "domain": "task #247 / substrate-native position operator",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 Phase 3 substrate-native zoo",
+      "toys": [
+        3167
+      ],
+      "date": "2026-05-20",
+      "plain": "Lyra T2419 / Toy 3167 (Wed 2026-05-20 ~15:25 EDT). Standard QM position x is spacetime-projection of substrate-native M_z (Bergman z multiplication) on A\u00b2(D_IV\u2075, d\u03bc_sub). 10 real-dim spectrum \u2192 3 real-dim via P projection at outer-edge zone (T2416). \u03b1 = 1/N_max \u2248 0.73% deviation. Second substrate-native operator after T2399 Bell-CHSH.",
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
+    },
+    {
+      "tid": 2420,
+      "name": "Four-Zone Substrate Vacuum Decomposition (joint Lyra+Elie M2C2)",
+      "domain": "four-zone substrate vacuum / per-zone projection / unified D_IV5 algebra",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 multi-CI vacuum convergence",
+      "toys": [
+        3170
+      ],
+      "date": "2026-05-20",
+      "plain": "Joint Lyra T2420 + Elie Session 18 (Wed 2026-05-20 ~15:40 EDT). Same D_IV\u2075 algebra projected onto four zones \u2192 four substrate-vacuum varieties. Z1=GF(2^g) additive zero; Z2=heat kernel a_k mode counts (~150 toys retroactively zone-2 vacuum); Z3=Bergman projection ground state; Z4=\u039b/Casimir. M2C2 instance.",
+      "proofs": [],
+      "commitment_cycle_zone": "all"
+    },
+    {
+      "tid": 2421,
+      "name": "Task #247 Substrate-native spin operator v0.1 + Cal #14 discipline applied",
+      "domain": "task #247 / substrate-native operator zoo / spin operator",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 substrate-native zoo expansion",
+      "toys": [],
+      "date": "2026-05-20",
+      "plain": "Lyra T2421 / Toy 3175 (Wed 2026-05-20 ~16:00 EDT). Third zoo entry. Pauli \u03c3 = projection onto SU(2) within SO(5)\u00d7SO(2) Wallach K-type. 10 SO(5) generators; '7 extra = g' flagged as rep-theoretic coincidence per #14 discipline. Z3 emission cluster zone.",
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
+    },
+    {
+      "tid": 2422,
+      "name": "Task #247 Substrate-native momentum operator v0.1",
+      "domain": "task #247 / substrate-native operator zoo / momentum operator",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 substrate-native zoo expansion",
+      "toys": [],
+      "date": "2026-05-20",
+      "plain": "Lyra T2422 / Toy 3176 (Wed 2026-05-20 ~16:10 EDT). Fourth zoo entry. P_z = -i\u210f\u2202/\u2202z Wirtinger on Bergman A\u00b2; [x,p]=i\u210f lifts to Toeplitz-pair commutation. Z3 emission cluster zone.",
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
+    },
+    {
+      "tid": 2423,
+      "name": "Strong-Uniqueness Theorem v0.3 \u2014 8 INDEPENDENT criteria (C2-C9), Stark anchor C9 from Grace K75",
+      "domain": "task #206 / strong-uniqueness v0.3 / cross-lane K75 integration",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 cross-lane audit-to-theory integration",
+      "toys": [
+        3178
+      ],
+      "date": "2026-05-20",
+      "plain": "Lyra T2423 / Toy 3178 (Wed 2026-05-20 ~16:40 EDT). C9 Stark anchor criterion added per Grace Heegner-Stark scan + Keeper K75 audit pre-stage. 8 INDEPENDENT criteria all uniquely select D_IV\u2075; null-model (1/3)^8 \u2248 0.015%. Cross-lane audit-to-theory bridge: K75 \u2192 C9. Possible C10 from K62 27a1 trio completion.",
+      "commitment_cycle_zone": "meta",
+      "proofs": []
+    },
+    {
+      "tid": 2424,
+      "name": "Strong-Uniqueness Theorem v0.4 \u2014 9 INDEPENDENT criteria (C2-C10), Heegner-trio C10 from K62",
+      "domain": "task #206 / strong-uniqueness v0.4 / cross-lane K62 integration",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 EOD cross-lane closure",
+      "toys": [
+        3179
+      ],
+      "date": "2026-05-20",
+      "plain": "Lyra T2424 / Toy 3179 (Wed 2026-05-20 ~16:55 EDT). C10 Heegner-trio criterion from Keeper K62 + Grace primary thread integration. 9 INDEPENDENT criteria all unique D_IV\u2075; null-model (1/3)^9 \u2248 0.005%. Cal #59 completeness caution preserved.",
+      "commitment_cycle_zone": "meta",
+      "proofs": []
+    },
+    {
+      "tid": 2417,
+      "name": "Substrate Cosmological Cycle Mathematical Formalization v0.1 \u2014 L2-COGNITION sub-class DEFAULT-DENY EXTERNAL",
+      "domain": "L2-COGNITION SUB-CLASS / temporal substrate dimension / cosmological cycle",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 Phase 3 cognition-cosmology extension",
+      "toys": [
+        3164
+      ],
+      "date": "2026-05-20",
+      "plain": "Lyra T2417 (Wed 2026-05-20 ~15:05 EDT). Mathematical formalization of cyclical Big Bang epochs as substrate temporal dimension. **REGISTER FLAG**: L2-COGNITION sub-class, DEFAULT-DENY EXTERNAL per Cal #48+#49. External uses operational + falsifier-bearing only. Three-dimensional substrate ontology: spatial (Grace Task #233+#238) + cognitive (Substrate Cognition Network Hypothesis) + temporal (this T2417). No unified cognition-cosmology framing externally.",
+      "external_register_flag": "DEFAULT-DENY EXTERNAL per Cal #48+#49",
+      "external_register_class": "L2-COGNITION sub-class",
       "proofs": []
     }
   ],

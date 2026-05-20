@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "Phase 2 high-precision verification of K69 Q=126"
+  },
+  "precision_dps": 200,
+  "threshold": "1e-150",
+  "five_forms_verified": {
+    "M_g_minus_1": "126.0",
+    "2g_minus_rank": "126.0",
+    "N_max_minus_c_2": "126.0",
+    "N_c_C_2_g": "126.0",
+    "18_times_g": "126.0"
+  },
+  "derived_identities_verified": {
+    "Tr_B_squared_eq_126_16": true,
+    "Bell_deviation_eq_1_over_2N_c": true,
+    "Tsirelson_minus_S_BST_squared_eq_1_8": true
+  },
+  "koons_tick_log10": "-120.19025118814300389303539747809541267055579605143396965920932239406825742151144085372531564104019284716668343191714304355150016927277381451230713173196683729113018432399327327103629591428955783098471",
+  "cal_flag_1_compliance": "algebraic-identity verification at extreme precision; Statement A only",
+  "cascade_unblock_strengthening": "K69 Universal Q=126 confidence-checked at 200-digit precision"
+}

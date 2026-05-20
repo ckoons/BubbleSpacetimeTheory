@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "T2413 collaborative cross-link demonstration"
+  },
+  "collaboration_with": "Lyra T2413 integer-edge dual function",
+  "local_decay_layer": {
+    "kernel": "Bergman-like 1/(1+d_H)^(9/2) on GF(2^g) basis",
+    "decay_factor": 11585.237502960392,
+    "is_symmetric": true
+  },
+  "long_distance_layer": {
+    "code": "RS(n=127, k=24) on GF(2^g)",
+    "parity_dimension": 103,
+    "avg_positions_per_constraint": 126.04854368932038,
+    "coupling": "global across codeword length"
+  },
+  "coexistence_demonstrated": true,
+  "BST_primary_anchors": [
+    "(g+rank)/rank = 9/2 Bergman exp",
+    "n = M_g RS length",
+    "|GF(2^g)| = 128 field dim",
+    "g = 7 Hamming range"
+  ],
+  "multi_month_gap": "derivation from H_sub is Sessions 18+ multi-month",
+  "cross_link": "Lyra T2413 + Elie S17 zone framework + K52a Sessions multi-month closure"
+}
