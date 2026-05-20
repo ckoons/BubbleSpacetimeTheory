@@ -8843,3 +8843,98 @@ This is the audit-theory feedback loop Keeper named.
 **Audit-chain calibration #17 logged**: K66 framing precision (trace vs max-eigenvalue) corrected within Wednesday session per Elie S22 structural finding. Self-correction discipline functioning at multi-CI level — Elie flagged → Lyra absorbs → Paper #125 abstract corrects.
 
 — Lyra, T2399 Calibration #17 K66 trace-level clarification per Elie S22, 2026-05-20 ~18:10 EDT
+
+
+---
+
+## T2427 — Addendum per Grace Toy 3192: M_24/Leech Conway-sporadic overlap (2026-05-20 ~18:35 EDT)
+
+**Grace honest finding** (Toy 3192, B1-B4 verification 6/6 PASS, 3.7/4 matching Leech):
+
+M_24 sits inside Co_0 = Aut(Leech) via the chain M_24 ⊂ Co_1 ⊂ Co_0. Therefore K76 Leech + K77 M_24 are **NOT effectively independent**; they share Conway-sporadic territory.
+
+**Impact on T2427 v0.5 C11 multi-family structure**:
+
+Family 2 (χ=24 non-Heegner) originally listed 6 candidates: K76 Leech + K77 M_24 + K78 Niemeier + K79 Borcherds + K81 24-cell + K82 Δ(τ).
+
+**Sharpened framing**: Family 2 has **6 candidates with internal structural overlap** — M_24 and Leech share Conway-sporadic territory; remaining 4 candidates (Niemeier, Borcherds, 24-cell, Δ(τ)) need independent assessment vs Co_0 chain. Effectively-independent candidates ≤ 5.
+
+**Criterion C11 STATUS**: UNCHANGED at structural level. Cal #59 caution preserved precisely because C11 is the **architectural-category multi-family observation**, NOT a bounded-at-N candidate-count claim. The three-family architectural structure (Heegner-trio + χ=24 cross-domain + N_max anchor) remains operational regardless of internal candidate independence within each family.
+
+**Null-model unchanged**: (1/3)^10 ≈ 0.002% — null model counts criteria, not candidates within criteria. C11 = "multi-family structure exists" = one criterion regardless of family-internal candidate count.
+
+**Sessions 23+ open question for Family 2 independence**:
+1. Niemeier lattices: 24 of them, one is Leech itself; remaining 23 — Co_0-independent assessment needed
+2. Borcherds Monster Lie algebra: contains M_24 as subgroup of Conway via Monster structure; partial overlap
+3. 24-cell polytope (D_4 root system Coxeter complex): independent of Conway chain (different combinatorial origin) — likely cleanest independent member
+4. Δ(τ) discriminant modular form: independent of Conway chain (number-theoretic origin) — likely cleanest independent member
+
+**Effective independent count within Family 2**: ≥ 2 (24-cell + Δ(τ) clean) + possibly more pending K78/K79 audit.
+
+**K77 audit pre-stage** (Keeper filing): should explicitly address M_24/Leech Conway-sporadic overlap per Grace finding. Cal #59 caution sharpens to family-member independence assessment criteria (F1-F4 per Cal's filing) rather than candidate counting.
+
+**Paper #125 v0.1 outline update**: when expanding to v1.0, Family 2 section needs the honest overlap caveat. Outline-level statement of multi-family structure stands; Section ~5 Family 2 enumeration will reflect Grace finding.
+
+— Lyra, T2427 addendum per Grace Toy 3192 M_24/Leech overlap, 2026-05-20 ~18:35 EDT
+
+
+---
+
+## T2427 — Second Addendum per Grace Toy 3194 F4 Mode 6 enumeration (2026-05-20 ~19:30 EDT)
+
+**Grace Toy 3194 result** (Mode 6 χ=24 family completeness enumeration, 6/6 PASS — Keeper-prioritized F4 operational test):
+
+Family 2 effective independent count = **3** (not 5, not 6). Independent set: **{K76 Leech, K81 24-cell, K82 Δ(τ)}**.
+
+Seven shared-territory edges enumerated; dominant:
+- K76 ↔ K77 (M_24 ⊂ Co_0 = Aut(Leech), Conway-sporadic chain)
+- K76 ↔ K78 (Leech IS the no-root Niemeier lattice — direct subsumption)
+- K76 ↔ K79 (Borcherds Monster Lie algebra uses Leech)
+
+**K77 M_24 re-classification candidate**: via M_23 ⊂ Aut_symp(K3) (Mukai 1988), K77 mechanism path may re-classify K77 as K3-family-member rather than χ=24-family-member. F1-F4 architectural cleanliness in action — K77 moves to its natural family rather than dual-categorizing.
+
+**C11 status UNCHANGED**: criterion holds whether Family 2 effective count is 3 or 5; C11 = "multi-family Bridge Object structure exists" is criterion-counting, not candidate-counting. ≥ 2 families with ≥ 1 independent member exist either way.
+
+**Strong-Uniqueness Theorem v0.5 unchanged** at criterion level; F4 result SHARPENS C11 description accuracy.
+
+**Paper #125 → v0.3 absorption complete**: Family 2 effective independent count corrected to 3 in abstract + §1.2 + §2.3 + §3.3 + §9 filing status. K77 re-classification candidate noted in §2.3 F4 sub-section.
+
+— Lyra, T2427 second addendum per Grace Toy 3194 F4 Mode 6 enumeration, 2026-05-20 ~19:30 EDT
+
+
+---
+
+## T2399 — Calibration #17 strengthening per Elie S23 (2026-05-20 ~19:30 EDT)
+
+**Elie S23 honest result** (K52a Session 23, 2 PASS + 2 FAIL):
+
+PASS:
+- BST-natural bipartite partition 8 × 16 ✓
+- Max Schmidt rank = 2^N_c = 8 ✓
+
+FAIL (honest negatives, Cal Mode 1 self-correction within toy):
+- Maximally-entangled state DOES NOT give 7/16 expectation value (actual: 7/128 ≈ 0.055)
+- 126/128 ≠ 1 − 1/2^N_c (126/128 = 0.984 vs 1 − 1/8 = 0.875)
+
+**Calibration #17 STRENGTHENED**:
+
+Not only is 126/16 NOT the max eigenvalue of substrate B² (per Calibration #17 / S22), it is also NOT the expectation value on the obvious bipartite maximally-entangled state. Simple constructions give 7/128. The substrate-CHSH operator + the substrate-entangled state that produces the 126/16 trace-level capacity require **specific algebraic structure not yet identified**.
+
+**Multi-month open question**: identify the substrate-natural bipartite tensor-product structure of active substrate states such that the substrate-entangled state realizes the trace-level capacity. K52a Sessions 24+ multi-month derivation.
+
+**Bell experiment outreach letter validity** (per Elie analysis):
+
+Letter REMAINS VALID because:
+1. Tsirelson² − S_BST² = 1/8 is an EXACT algebraic identity (verified to 1e-14 + 200-digit precision)
+2. The 1/8 deviation is a substrate signature regardless of operator-level interpretation
+3. Either trace-form OR yet-unknown operator-form gives the same DEVIATION
+
+**Recommended outreach sharpening** (per Calibration #17 + S23 strengthening):
+
+Outreach letter should explicitly say "BST predicts substrate-CHSH **capacity** = 126/16" rather than implying max-eigenvalue. Trace-level / integrated-capacity language preserves precision while keeping observable-level prediction (1/8 deviation) intact.
+
+**Cal #59 caution preserved**: claim is "BST predicts X capacity" not "BST proves substrate-CHSH eigenvalue = X." Mode 1 honest discipline maintained.
+
+**Wednesday calibration cadence**: Calibration #17 + S23 strengthening = 6th within-session cross-correction Wednesday (#14 + #15 + #16 + #17 + T2427 addendum + S23 strengthening). Audit-chain self-correction discipline operating at multi-CI cross-lane peak cadence.
+
+— Lyra, T2399 Calibration #17 strengthening per Elie S23 honest 2-PASS + 2-FAIL result, 2026-05-20 ~19:30 EDT

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "Task #270 OCP-1 Bell-coupling apparatus refinement"
+  },
+  "cal_49_tier": "GREEN",
+  "cal_flag_3_register": "external operational language only",
+  "tsirelson_squared": 8.0,
+  "bst_predicted_S_squared": 7.875,
+  "fractional_deviation_pct": 0.7843258350778571,
+  "apparatus_components": [
+    {
+      "component": "Entangled-photon source",
+      "type": "SPDC (Spontaneous Parametric Down-Conversion) Type-II BBO crystal pumped at 405 nm; OR semiconductor quantum-dot source for higher brightness",
+      "spec": "Pair rate \u2265 10\u2076/s; fidelity F \u2265 0.99 with maximally-entangled state",
+      "cost_est_USD": 80000
+    },
+    {
+      "component": "Polarization analyzers (per arm)",
+      "type": "Achromatic quarter + half wave-plates on rotation stages + Wollaston polarizing beamsplitters",
+      "spec": "Angular precision \u2264 0.01\u00b0 on each setting; extinction ratio > 10\u2074",
+      "cost_est_USD": 40000
+    },
+    {
+      "component": "Single-photon detectors (4 channels, 2 per arm)",
+      "type": "Superconducting nanowire single-photon detectors (SNSPDs) at 850-1550 nm",
+      "spec": "\u03b7_det \u2265 0.93; dark count rate < 100 Hz; timing jitter < 50 ps",
+      "cost_est_USD": 250000
+    },
+    {
+      "component": "Coincidence electronics",
+      "type": "FPGA-based time-tagger with multi-channel coincidence logic",
+      "spec": "Coincidence window \u2264 1 ns; cross-talk suppression > 10\u2075",
+      "cost_est_USD": 30000
+    },
+    {
+      "component": "Cryostat (for SNSPDs)",
+      "type": "Closed-cycle cryocooler at 1-2 K",
+      "spec": "Stable temperature drift < 50 mK over hours",
+      "cost_est_USD": 80000
+    },
+    {
+      "component": "Calibration + drift control",
+      "type": "Reference Bell state generator + active phase stabilization",
+      "spec": "Long-term phase drift < 1 mrad / hour",
+      "cost_est_USD": 20000
+    }
+  ],
+  "apparatus_total_cost_USD": 500000,
+  "precision_budget_pct": 0.15491933384829668,
+  "precision_target_pct": 0.3,
+  "falsifier_pct": 0.1,
+  "controls": [
+    "Maximally-mixed state (S should = 0): tests apparatus zero-bias",
+    "Product state (S should \u2264 2 exactly): tests CHSH-inequality boundary",
+    "Vary entanglement fidelity (S vs F linear regression): tests source-fidelity slope",
+    "Vary polarization angle settings off optimum (S vs angle curve): tests systematic",
+    "Repeat measurement at different times of day (S stability): tests environmental drift",
+    "Repeat after apparatus realignment (S stability): tests calibration robustness"
+  ],
+  "timeline_months": "12-24 from send signal",
+  "outreach_letter_status": "DRAFT READY notes/maybe/Letter_Bell_Substrate_CHSH_Draft.md"
+}

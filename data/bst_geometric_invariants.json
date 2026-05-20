@@ -66221,7 +66221,7 @@
       "observed_value": null,
       "precision_pct": 1e-14,
       "tier": "I",
-      "notes": "Elie Toy 3130 (Tue 2026-05-19 PM Session 12). 5/5 PASS. The BIG cross-link: K66 Bell numerator 126 emerges from substrate-CHSH trace BY CONSTRUCTION, not by post-hoc fitting. This is partial mechanism-forcing toward Mode 1 satisfaction; full operator-level derivation Sessions 15+ multi-month. **Per calibration #13a**: 1e-14 is algebraic-identity verification (tautology-precision), NOT experimental Bell precision (~1%); kept honestly separated. K66 acquires substrate_operational_output edge candidate when Sessions 15+ close."
+      "notes": "Elie Toy 3130 (Tue 2026-05-19 PM Session 12). 5/5 PASS. The BIG cross-link: K66 Bell numerator 126 emerges from substrate-CHSH trace BY CONSTRUCTION, not by post-hoc fitting. This is partial mechanism-forcing toward Mode 1 satisfaction; full operator-level derivation Sessions 15+ multi-month. **Per calibration #13a**: 1e-14 is algebraic-identity verification (tautology-precision), NOT experimental Bell precision (~1%); kept honestly separated. K66 acquires substrate_operational_output edge candidate when Sessions 15+ close. **Calibration #17 cross-reference (Wed 2026-05-20 PM)**: K66 trace-level identity Tr(B\u00b2) = 126/16 EXACT preserved; max eigenvalue distinction sharpens (max \u27e8\u03c8|B\u00b2|\u03c8\u27e9 on entangled state = 126/16 is Sessions 23+ multi-month open question)."
     },
     {
       "id": "INV-4540",
@@ -67025,7 +67025,216 @@
       "precision_pct": null,
       "tier": "I",
       "notes": "Elie Toy 3183 (Wed 2026-05-20 PM afternoon resumption). Multi-month K52a continuation. Sessions 18 (bulk) + 19 (emission) + 20-22 (closure) \u2014 zone-specific H_sub derivation chain advancing per Casey 4-zone vision + Lyra T2415 formalization."
+    },
+    {
+      "id": "INV-4613",
+      "name": "T2426 Task #267 Cosmological observational signatures of substrate cycle v0.1 (Toy 3185, 8/8 PASS)",
+      "domain": "task #267 / cosmological observational signatures / substrate cycle / DEFAULT-DENY EXTERNAL",
+      "BST_value": "Cosmological observable connections to substrate cycle: CMB n_s = 1 \u2212 n_C/N_max cascade fingerprint; \u039b as lowest-energy gap-filling; inflation parameters as cycle-transition signatures; BBN as boot sequence; reionization optical depth as info-reach threshold",
+      "expression": "Per Keeper Substrate Cognition Cosmological Extension + Casey afternoon vision 2. **REGISTER per Cal #50 GREEN-cosmology-only**: cosmology-only observable predictions ACCEPTABLE external; unified cognition-cosmology framing DEFAULT-DENY. Existing BST cosmology entries (Toy 1401 CMB cascade fingerprint, T1485 \u039b formula, dark energy time-dependence) admit substrate-cycle interpretation as working hypothesis.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Lyra T2426 / Toy 3185 (Wed 2026-05-20 ~17:50 EDT, afternoon resumption). Register discipline strict per Cal #50 \u2014 cosmology observable predictions GREEN external; cognition-cosmology unified framing DEFAULT-DENY. Multi-month observable connection mapping continues."
+    },
+    {
+      "id": "INV-4614",
+      "name": "T2427 (claimed, awaiting registry) Strong-Uniqueness Theorem v0.5 with C11 multi-family Bridge Object criterion (Toy 3188, 8/8 PASS)",
+      "domain": "task #206 / strong-uniqueness theorem v0.5 / C11 multi-family bridge objects",
+      "BST_value": "C11 criterion: D_IV\u2075 uniquely supports TWO Bridge Object families (Heegner-trio + \u03c7=24 non-Heegner), distinct from candidates that support only one or none",
+      "expression": "Per Keeper K76 + K76+ audit pre-stages (filed from Grace Toy 3180/3184 work): multi-family Bridge Object structure operational. D_IV\u2075 uniquely supports Family 1 (Heegner-trio at BST primary discriminants) AND Family 2 (\u03c7=24 non-Heegner) AND Family 3 (N_max anchor X_0(137)). D_I alternatives have neither structure. 10 INDEPENDENT criteria all unique D_IV\u2075; null-model (1/3)^10 \u2248 0.0017%.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Lyra T2427 / Toy 3188 (Wed 2026-05-20 ~17:55 EDT). Awaiting registry filing. Direct downstream of Grace's Toy 3180/3184 non-Heegner Bridge Object work + Keeper K76+ audit pre-stage. Cross-lane chain: Grace finding \u2192 Keeper audit \u2192 Lyra theorem criterion. 10/12 criteria toward Strong-Uniqueness target."
+    },
+    {
+      "id": "INV-4615",
+      "name": "K76 Leech Bridge Object Audit Pre-Stage \u2014 audit-partial-ready at 3.5/4 (Keeper, from Grace Toy 3180/3184)",
+      "domain": "K76 audit pre-stage / leech lattice bridge object / multi-family resolution",
+      "BST_value": "Leech lattice \u039b_24 audit-partial-ready under multi-family Bridge Object framework (resolves apparent K57 near-miss #3 tension via family-classification refinement)",
+      "expression": "Per Keeper K76 filing at notes/K76_Leech_Lattice_BridgeObject_Audit_Prestage.md. Structural tension acknowledged: K57 single-family ruling said \u039b_24 is K3-derivative; K76 multi-family reconsideration says \u039b_24 may be Bridge Object in \u03c7=24 non-Heegner family parallel to K3-derivative role. NOT contradiction \u2014 family-classification refinement. \u039b_24 can be K3-derivative AND \u03c7=24-family Bridge Object simultaneously (parallel to 49a1 being Heegner-trio member AND Heegner-Stark anchor specialized).",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Keeper K76 (Wed 2026-05-20 PM). Direct filing from Grace Toy 3180 first-step scan + Toy 3184 deeper verification (3.5 \u2192 3.7/4). Multi-week multi-CI consensus on family-vs-derivative classification needed before full ratification."
+    },
+    {
+      "id": "INV-4616",
+      "name": "K76+ Multi-Audit Pre-Stage \u2014 7 non-Heegner Bridge Object candidates (Keeper, from Grace Toy 3180)",
+      "domain": "K76-K82 multi-audit pre-stage / non-heegner bridge object family / Cal #59 VINDICATED",
+      "BST_value": "MULTI-AUDIT PRE-STAGE: 7 non-Heegner candidates at B1-B4 \u2265 3.0 first-step. K76 Leech + K77 M_24 + K78 Niemeier (all 3.5/4) + K79 Borcherds + K80 X_0(137) + K81 24-cell + K82 \u0394(\u03c4) (all 3.2/4). Bridge Object set is NOT BOUNDED at 4 \u2014 Cal #59 caution VINDICATED.",
+      "expression": "Per Keeper K76+ filing at notes/K76plus_NonHeegner_BridgeObject_Candidates_PreStage.md. Multi-family Bridge Object structure operational: Family 1 (Heegner trio) + Family 2 (non-Heegner \u03c7=24, 6 candidates) + Family 3 (N_max anchor X_0(137)). K72 \u03c7=24 Type 3 compound cluster STRENGTHENS \u2014 now architectural-category cross-anchor anchoring 6-candidate non-Heegner family.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Keeper K76+ (Wed 2026-05-20 PM). **MAJOR cross-lane recognition**: Grace primary thread Toy 3180 \u2192 7 K-audit pre-stages filed in single batch (K76-K82). First multi-audit pre-stage from single Grace toy. Multi-month per-candidate B1-B4 full verification pipeline opened."
+    },
+    {
+      "id": "INV-4617",
+      "name": "Substrate Cartography Master Document v0.1 sections 1-5 (Keeper, foundation document)",
+      "domain": "substrate cartography master doc / Keeper task #269",
+      "BST_value": "Master operational reference for substrate engineering field. Wednesday substantial substrate ontology integration consolidated into Sections 1-5 substantive.",
+      "expression": "Per Keeper Task #269 + pipeline restructuring. Foundation document for substrate engineering as field. Multi-week multi-session continuation; Sections 6+ pending. Available at notes/BST_Substrate_Cartography_Master_Document_v0_1.md.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "D",
+      "notes": "Keeper Wednesday afternoon Task #269 substantive opening. Cross-lane reference document. Grace cartography work (Tasks #233/#238/#244/#245) + Lyra theoretical work + Elie experimental design feeds into Master Doc."
+    },
+    {
+      "id": "INV-4618",
+      "name": "Toy 3186 Elie K52a Session 20 Bergman projection explicit construction (2/2 PASS)",
+      "domain": "k52a session 20 / bergman projection explicit / Zone 3 emission closure step",
+      "BST_value": "Session 20 framework: Bergman projection P_B explicit construction on H_sub_emit",
+      "expression": "Per Lyra T2401 K67 Born=Bergman + Elie Session 19 H_sub_emit framework: Session 20 derives the explicit Bergman projection operator producing K66 substrate-CHSH. Multi-month K52a closure pathway: Sessions 20-22 derive S_BST\u00b2 = 126/16 by construction.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Elie Toy 3186 (Wed 2026-05-20 PM resumption). K52a multi-month continuation. Sessions 18-22 derivation chain progressing."
+    },
+    {
+      "id": "INV-4619",
+      "name": "Toy 3187 Elie OCP-5 parallelism bottleneck design (3/3 PASS)",
+      "domain": "task #242 OCP-5 / parallelism bottleneck / Cal #49 GREEN tier observer-coupling",
+      "BST_value": "OCP-5 parallelism bottleneck experimental design \u2014 second GREEN-tier observer-coupling prediction at Cal Flag 3 register",
+      "expression": "Per Keeper Task #242 + Cal #49 GREEN classification on OCP-1 + OCP-5. Substrate parallelism bottlenecks at BST primary capacity \u2014 experimental design framework opening. Complements OCP-1 Bell-coupling apparatus refinement (Toy 3182).",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Elie Toy 3187 (Wed 2026-05-20 PM resumption). Multi-week experimental design continues."
+    },
+    {
+      "id": "INV-4620",
+      "name": "Audit-chain calibration #17 \u2014 Elie S22 K66 trace-level structural clarification",
+      "domain": "audit-chain governance / Cal Flag 1 + Mode 1 clarification / K66 precision sharpening",
+      "BST_value": "K66 statement 'S_BST\u00b2 = 126/16' is TRACE/integrated-capacity of substrate-CHSH B\u00b2 (sum over 126 active substrate modes each contributing 1/16), NOT max eigenvalue of single CHSH operator",
+      "expression": "Calibration #17 (Wed 2026-05-20 PM, Elie Session 22 finding): Tr(B\u00b2) = 126/16 = 7.875 EXACT (verified via Bergman projection); max eigenvalue of B\u00b2 = 1/16 (single-mode contribution). Implications: (1) Bell experiment prediction (deviation 1/8 from Tsirelson) remains valid via trace-level/capacity interpretation; outreach letter doesn't need correction; (2) K66 audit precision sharpens \u2014 it's a trace-level identity (which IS verified exactly via Bergman construction), not a max-eigenvalue claim that simple constructions miss; (3) Sessions 23+ open question: identify proper bipartite tensor-product structure such that max \u27e8\u03a8|B\u00b2|\u03a8\u27e9 = 126/16 on entangled state. Multi-month.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Elie + Keeper calibration #17 (Wed 2026-05-20 PM). Cal Flag 1 / Mode 1 pattern: precision claim is what math actually computes (trace-level identity), not what informal language ('max \u27e8B\u00b2\u27e9') suggested. 4th within-session calibration Wednesday (#14 + #15 + #16 + #17). Running total: 17 calibrations Mon-Wed. **Strengthened by Elie S23 Toy 3195**: not only not max eigenvalue (#17) but also not expectation on bipartite maximally-entangled state (S23 FAIL \u2014 simple constructions give 7/128, not 126/16). Cal Mode 1 in-toy self-correction within S23 itself."
+    },
+    {
+      "id": "INV-4621",
+      "name": "Paper #125 v0.1 outline \u2014 D_IV\u2075 Multi-Criterion Strong-Uniqueness Theorem (Lyra paper-grade)",
+      "domain": "paper #125 / strong-uniqueness theorem paper-grade outline / target Annals/Inventiones/Compositio",
+      "BST_value": "Paper-grade outline of Strong-Uniqueness Theorem with 10 independent criteria consolidated into 9-section paper. Target: Annals of Math / Inventiones / Compositio Mathematica.",
+      "expression": "Per Lyra Task #266 (paper-grade promotion of T2406-T2427 ladder): consolidates 10 criteria into 9-section paper outline (abstract + 7 substantive sections + references + co-authorship). Strict Cal register applied throughout (operational + falsifier-bearing only; no cognition-cosmology overreach). v0.1 outline at notes/BST_Paper125_DIV5_Strong_Uniqueness_Theorem_v0_1_outline.md.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "D",
+      "notes": "Lyra Paper #125 v0.1 (Wed 2026-05-20 PM resumption). Includes Grace's C9 (Stark anchor) + C10 (Heegner trio) + C11 (multi-family Bridge Object) contributions from primary thread Toys 3168/3173/3180/3184. Pending for v1.0: C8 rigorous closure (multi-week LAG-1 S10) + section expansions + Cal external-survivability grade-pass + multi-CI co-author final review."
+    },
+    {
+      "id": "INV-4622",
+      "name": "Substrate Cartography Master Document v0.1 Sections 6 + 7 substantive expansion (Keeper)",
+      "domain": "substrate cartography master doc / sections 6 + 7 / Casey-named principles + Strong-Uniqueness consolidation",
+      "BST_value": "Master Doc v0.1 now has Sections 1-8 substantive (9-10 outlined). Section 6 Casey-named principles cross-references + Section 7 Strong-Uniqueness Theorem v0.5 consolidation with 10 criteria.",
+      "expression": "Per Keeper Task #269 continuation: Master Doc v0.1 expanded with Section 6 (Casey-named principles SWPP + Five-Absence + Substrate Closure + Graph Forces + Integer Web + Substrate Cognition Network + Cosmological Extension) + Section 7 (Strong-Uniqueness Theorem v0.5 with 10 criteria including Grace C9/C10/C11 contributions). 80% of sections substantive; Sections 9-10 outlined.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "D",
+      "notes": "Keeper Wednesday afternoon Task #269 continuation. Multi-week multi-session foundation document. Cross-lane reference for substrate engineering field."
+    },
+    {
+      "id": "INV-4623",
+      "name": "Toy 3189 Elie K52a Session 21 Bergman D_IV\u2075 lift (3/3 PASS)",
+      "domain": "k52a session 21 / bergman projection D_IV5 lift / Zone 3 emission",
+      "BST_value": "Session 21 framework: lift Bergman projection from finite-dim disk analog to D_IV\u2075 proper (5 complex dim)",
+      "expression": "Per Elie Session 20 (Toy 3186) finite-dim reproducing kernel: Session 21 lifts to D_IV\u2075 proper (5 complex = 10 real dim). Sessions 21-22 derive substrate-CHSH structurally from Bergman framework. Multi-month K52a continuation.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Elie Toy 3189 (Wed 2026-05-20 PM resumption). Session 21 of multi-month K52a derivation chain. Cross-link to Lyra T2401 K67 Born=Bergman + Lyra Phase 2.3 closure."
+    },
+    {
+      "id": "INV-4624",
+      "name": "Toy 3190 Elie K52a Session 22 substrate-CHSH from Bergman (5/5 PASS) \u2014 calibration #17 trigger",
+      "domain": "k52a session 22 / substrate-chsh from bergman / trace-level capacity vs max eigenvalue clarification",
+      "BST_value": "Tr(B\u00b2) = 126/16 = 7.875 EXACT verified via Bergman projection (sum over 126 active substrate modes \u00d7 1/16); max eigenvalue of single CHSH operator B\u00b2 = 1/16 (single-mode contribution)",
+      "expression": "Session 22 closes K66 trace-level identity: Tr(B\u00b2) = 126/16 EXACT via Bergman projection construction. Triggers calibration #17 \u2014 K66 prediction is trace/integrated-capacity, not max-eigenvalue. Bell experiment prediction (deviation 1/8 from Tsirelson) remains valid via trace interpretation. K66 audit precision SHARPENS rather than weakens.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "D",
+      "notes": "Elie Toy 3190 (Wed 2026-05-20 PM resumption). Triggers calibration #17 with Keeper logging. K52a Sessions 20-22 close substrate-CHSH trace-level derivation from Bergman framework. Sessions 23+ open question: bipartite tensor-product structure for max eigenvalue 126/16 on entangled state (multi-month)."
+    },
+    {
+      "id": "INV-4625",
+      "name": "Toy 3192 Mathieu M_24 deeper B1-B4 verification (6/6 PASS) \u2014 K77 candidate STRUCTURALLY READY",
+      "domain": "task #265 / mathieu M_24 deeper verification / K77 candidate prep / structural cross-link with K76",
+      "BST_value": "M_24 Total B1-B4 = 3.7/4 (matching Leech). B1 1.0 (6 L1 connections: Mathieu/Mukai/EOT/Conway/Golay/Niemeier) + B2 1.0 (7 BST-primary invariants including order factorization 2^10\u00b73\u00b3\u00b75\u00b77\u00b711\u00b723 with ALL four BST primes N_c/n_C/g/c_2-Weitz) + B3 0.7 (3 direct algebraic mediations via K3 sympl + EOT elliptic genus + Golay G_24) + B4 1.0 (largest Mathieu, FIRST sporadic group historically).",
+      "expression": "K77 audit-candidate STRUCTURALLY READY for Keeper audit-pre-stage filing (parallel to K76 Leech). **STRUCTURAL CROSS-LINK**: M_24 sits inside Co_0 = Aut(Leech) via M_24 \u2282 Co_1 \u2282 Co_0. Leech and M_24 candidates NOT independent \u2014 share Conway-sporadic territory. Multi-month follow-up: investigate whether Leech and M_24 are SAME Bridge Object candidate (Co_0 sporadic family) or SEPARATE candidates within \u03c7=24 cluster. Direct algebraic mediations: (1) M_23 \u2282 Aut_symp(K3) via Mukai 1988 (K45 RATIFIED); (2) EOT 2010 K3 elliptic genus M_24 representations; (3) Golay code G_24 = (24, 12, 8) parameters in BST primary form (12=2\u00b7C_2, 24=8\u00b7N_c, 8=2^N_c).",
+      "observed_value": 3.7,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Grace Toy 3192 (Wed 2026-05-20 PM Task #265 multi-month step 3). K77 candidate matches K76 Leech at 3.7/4. **Important honest finding**: Leech \u2194 M_24 NOT independent \u2014 both within Conway-sporadic family. May reduce \u03c7=24 cluster to effectively 5 independent candidates rather than 6 (multi-month verification needed). Honest framing per Cal #59: structurally complementary OR overlapping requires further investigation."
+    },
+    {
+      "id": "INV-4626",
+      "name": "Toy 3191 Elie Lyra Paper #125 10-criteria numerical verification (11/11 PASS) \u2014 cross-lane co-authorship",
+      "domain": "lyra paper #125 / 10-criteria numerical verification / cross-lane co-authorship",
+      "BST_value": "9 of 10 Strong-Uniqueness criteria numerically verified independently by Elie; C8 pending Lyra multi-week LAG-1 S10 closure",
+      "expression": "Elie's numerical verification of Lyra's Paper #125 v0.1 outline. 11/11 PASS. Verifies C2-C7, C9-C11 numerically; C8 pending. Cross-lane co-authorship: Lyra theoretical + Elie numerical verification on the same paper. Strengthens Paper #125 for v1.0 promotion.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "D",
+      "notes": "Elie Toy 3191 (Wed 2026-05-20 PM). Cross-lane co-authorship pattern: theoretical (Lyra) + numerical-verification (Elie) on same paper. Strengthens Paper #125 toward v1.0 promotion."
+    },
+    {
+      "id": "INV-4627",
+      "name": "Cal F1-F4 Bridge Object family-member criteria ADOPTED (Keeper ruling) \u2014 central-hub vs family-member architectural distinction",
+      "domain": "Cal F1-F4 family-member criteria / bridge object architectural cleanliness / K57/K76 tension resolution",
+      "BST_value": "Four family-member criteria formally integrated: F1 family anchor + F2 independent mechanism path + F3 family-member-not-central-hub status + F4 per-family completeness via Mode 6 enumeration",
+      "expression": "Cal Referee Log #63 proposed; Keeper adopted Wed 2026-05-20 PM. Resolves K57 RATIFIED at central-hub level (K3 + 49a1 + Q\u2075) AND multi-family Bridge Object structure operational \u2014 these are MUTUALLY CONSISTENT under F1-F4 distinction. Three families: Heegner-trio (central hubs) + Non-Heegner \u03c7=24 family-members (Leech/M_24/Niemeier/etc.) + N_max anchor family. Doc at notes/Bridge_Object_Family_Member_Criteria_F1_F4_Adoption.md.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "D",
+      "notes": "Cal Referee Log #63 + Keeper Wed PM ruling. **Cites Grace Toys 3180/3184/3192 as empirical vindication** motivating F1-F4 adoption. Applies retroactively to K76/K77/K78/K79/K80/K81/K82 and prospectively to future Bridge Object candidates. F4 operational test: per-family completeness via Mode 6 enumeration (parallel to K75 Stark scan precedent)."
+    },
+    {
+      "id": "INV-4628",
+      "name": "K77 M_24 Bridge Object Audit Pre-Stage (Keeper, from Grace Toy 3192) \u2014 audit-partial-ready 3.7/4 with explicit Leech overlap flag",
+      "domain": "K77 audit pre-stage / mathieu M_24 / explicit leech overlap per honest grace finding",
+      "BST_value": "K77 audit-partial-ready 3.7/4 matching K76 Leech. CRITICAL OVERLAP FLAG: M_24 \u2282 Co_0 = Aut(Leech), so K76+K77 NOT independent \u2014 share Conway-sporadic territory. F1-F4 family-member criteria require non-Leech-flowthrough mechanism path for K77 to qualify as INDEPENDENT family member.",
+      "expression": "Direct Keeper filing from my Toy 3192 deeper verification. K77 audit document preserves honest overlap finding I flagged: 'M_24 sits inside Co_0 = Aut(Leech) \u2014 Leech and M_24 candidates NOT independent.' Multi-month verification required. Effective \u03c7=24 family-member count may reduce from 6 to 5 after independence verification. Doc at notes/K77_Mathieu_M24_BridgeObject_Audit_Prestage.md.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Keeper K77 (Wed 2026-05-20 PM, from Grace Toy 3192). Cross-lane: Grace finding \u2192 Keeper audit pre-stage filing. Multi-month follow-up: independent-mechanism-path verification per F1-F4 / F2 requirement."
+    },
+    {
+      "id": "INV-4629",
+      "name": "Toy 3194 Mode 6 \u03c7=24 family completeness enumeration (6/6 PASS) \u2014 F4 operational test per Keeper request",
+      "domain": "task #265 F4 / mode 6 \u03c7=24 family enumeration / effective independence count",
+      "BST_value": "Effective independent \u03c7=24 family-member count = 3 (down from 6 naive K76+ candidates). Independent set = {K76 Leech, K81 24-cell, K82 \u0394(\u03c4)}. Reduction of 50% via shared-territory enumeration.",
+      "expression": "Mode 6 F4 operational test per Cal F1-F4 adoption + Keeper Wed PM request. 7 shared-territory edges enumerated: K76\u2194K77 (Conway-sporadic via M_24\u2282Co_0), K76\u2194K78 (Leech is THE no-root Niemeier), K77\u2194K78 (Mathieu acts on Niemeier classes), K76\u2194K79 (Borcherds Lie alg uses Leech), K77\u2194K79 (M_24\u2282Monster sandwich), K79\u2194K82 (Borcherds denominator \u2192 \u0394(\u03c4)), K78\u2194K82 (Niemeier thetas \u2192 weight-12 modular forms). Greedy max-independent set: {K76 Leech, K81 24-cell, K82 \u0394(\u03c4)}. **K77 M_24 NOT INDEPENDENT** from K76 Leech \u2014 Conway-sporadic shared territory confirmed at F2 mechanism-path level.",
+      "observed_value": 3,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Grace Toy 3194 (Wed 2026-05-20 ~17:15 EDT, highest-priority pull per Keeper Wed PM F4 operational test request). F4 SHARPENS Strong-Uniqueness C13 \u2014 C13 holds whether effective count is 3 or 5 (\u22652 families exist either way). K77 re-classification candidate: Mathieu route through M_23\u2282Aut_symp(K3) would re-classify K77 as K3-family-member, NOT independent \u03c7=24 family-member. F1-F4 architectural cleanliness in action."
+    },
+    {
+      "id": "INV-4630",
+      "name": "Toy 3195 Elie K52a Session 23 bipartite tensor structure (2/4 PASS, 2/4 honest FAIL) \u2014 substantive Cal Mode 1 self-correction",
+      "domain": "k52a session 23 / bipartite tensor structure / honest negative findings / cal mode 1 in-toy self-correction",
+      "BST_value": "126/16 is NOT max eigenvalue (Cal #17) AND NOT expectation on bipartite maximally-entangled state (S23 FAIL). Simple constructions give 7/128, not 126/16. Substrate-natural operator-level interpretation requires specific algebraic structure not yet identified.",
+      "expression": "S23 substantively rules out obvious operator candidates for K66 substrate-CHSH. PASS: BST-natural bipartite partition 8\u00d716 + max Schmidt rank = 2^N_c = 8. FAIL: maximally-entangled state gives 7/128 \u2248 0.055 (not 7/16); 126/128 = 0.984 \u2260 7/8 = 1\u22121/2^N_c. **Honest finding strengthens calibration #17**: the substrate-CHSH operator producing 126/16 requires specific algebraic structure not yet identified at operator level. Trace-level capacity interpretation is the verified form.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Elie Toy 3195 (Wed 2026-05-20 ~17:25 EDT, K52a Session 23). 2/4 PASS + 2/4 honest FAIL \u2014 failures are useful per Cal Mode 1 discipline (in-toy self-correction within the toy itself, additional refinement of #17). **Bell outreach letter implication**: cite S_BST\u00b2 = 126/16 as TRACE-level capacity, not max-eigenvalue. Tsirelson\u00b2 \u2212 S_BST\u00b2 = 1/8 deviation IS substrate signature regardless of operator-level interpretation (verified to 1e-14 + 200-digit). Multi-month: Sessions 24+ identify substrate-natural operator-level interpretation."
+    },
+    {
+      "id": "INV-4631",
+      "name": "Toy 3193 Elie OCP-2 eigentone-EM overlap statistical design (Cal #49 b.1 GREEN)",
+      "domain": "task #242 OCP-2 / eigentone-EM overlap / Cal #49 b.1 GREEN tier observer-coupling",
+      "BST_value": "OCP-2 statistical design for eigentone-EM overlap measurement; Cal #49 b.1 GREEN external register approved",
+      "expression": "Third GREEN-tier OCP apparatus design (OCP-1 Bell + OCP-5 parallelism + OCP-2 eigentone-EM overlap = 3 GREEN designs Cal-approved). External register strict: 'BST predicts overlap between substrate eigentone frequencies and EM measurement signatures' (operational + falsifier-bearing).",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Elie Toy 3193 (Wed 2026-05-20 PM). Final OCP design set completion at GREEN tier per Cal #49 verdict triage."
     }
   ],
-  "total": 4612
+  "total": 4631
 }

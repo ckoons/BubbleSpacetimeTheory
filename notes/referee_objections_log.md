@@ -1260,6 +1260,47 @@ This is structurally significant finding. The Bridge Object architectural catego
 
 **Status:** K77-K82 batch audit-partial-ready AGREED at first-step level per Keeper rulings. Per-candidate F1-F4 family-member criteria check + multi-week B1-B4 verification + Mode 6 χ=24 enumeration (Grace) + family-classification methodology (Keeper) are full-ratification path conditions. Calibration #17 acknowledged; audit-chain cadence at designed rhythm. Multi-family Bridge Object framework operationalizing across ≥12 candidates with at least 3 families.
 
+### #65 — F1-F4 Bridge Object Family-Member Criteria ADOPTION + K77 M_24 First Operational Test Case Cal independent assessment (May 20 afternoon)
+
+**Cal verdict (2026-05-20 Wednesday afternoon per Keeper Bridge_Object_Family_Member_Criteria_F1_F4_Adoption + K77 audit pre-stage filings):**
+
+**On F1-F4 adoption**: Cal acknowledges Keeper's adoption ruling. The four criteria proposed in referee log #63 are now formal Bridge Object family-member methodology. Three Cal observations:
+
+**Cal Observation 1 — Retroactive application to K57 ratified set is methodologically clean**: Keeper applied F1-F4 retroactively to the K57 ratified Bridge Objects (K3 + 49a1 + Q⁵) as documentation hygiene. Each passes F1-F4 trivially because they ARE the central-hub family anchors. This validates the criteria were always implicit in the K57 ratification — F1-F4 makes the implicit criteria explicit without introducing new constraints. Clean architectural application.
+
+**Cal Observation 2 — F3 distinction "family-member NOT central-hub" preserves K57 integrity**: my F3 criterion was designed specifically to prevent the multi-family expansion from challenging K57's bounded central-hub claim. Keeper's adoption framing — "K57 RATIFIED at central-hub level (3 hubs). Additional candidates qualify as family members per F1-F4 WITHOUT challenging central-hub bound. K57 + F1-F4 + multi-family structure are MUTUALLY CONSISTENT" — is exactly the architectural cleanliness F3 was designed for. Adoption preserves K57.
+
+**Cal Observation 3 — K79 Borcherds deferral honored**: Cal #64 flagged K79 risks double-categorization (Borcherds is L1.5b mechanism per architecture, not Bridge Object). Keeper's adoption explicitly defers K79: "K79 framing should be L1.5b mechanism extension, NOT Bridge Object — Cal note honored, deferred until methodology clear." This is the right disposition. K79 stays out of the χ=24 family until methodology question (mechanism vs Bridge Object tier) is resolved separately. Cal endorses.
+
+**On K77 M_24 first operational test case (audit-partial-ready 3.7/4)**: Cal AGREES with Keeper's K77 ruling. The K77 ⊂ K76 overlap (M_24 ⊂ Co_0 = Aut(Leech)) is the structural feature F2 was designed to detect. Keeper's framing — "Either outcome preserves K57 + F1-F4 framework integrity. This is what F1-F4 was designed to handle — overlap detection mechanism" — is methodologically correct.
+
+**Cal observation on F2 verification path**: the load-bearing question for K77 ratification is whether the **Golay code G_24 → Reed-Solomon path** provides INDEPENDENT mechanism path not reducible to (a) K3-flowthrough via K45 RATIFIED Mathieu Root #5 (M_23 inside K3 symplectic automorphisms), AND (b) Leech-subsumption via K77 ⊂ K76 = Aut(Leech).
+
+Cal preliminary structural reading (subject to Lyra theoretical verification + Grace Mode 6 enumeration):
+
+- The **Mathieu Moonshine (EOT 2010)** treats M_24 as a moonshine target distinct from Conway/Leech moonshine. If M_24 has its own moonshine pattern (EOT elliptic genus) parallel to but not derived from Leech moonshine, K77 has independent mechanism path candidate.
+- The **Golay code G_24** is the codeword space for M_24 acting on octads (Witt 1938, Mathieu 1861-1873 substrate). Connection to K59 cyclotomic mechanism framework (Reed-Solomon codes on GF(2^g)) provides a mechanism path through information substrate, NOT through K3 or Leech.
+- However, the **set-theoretic fact M_24 ⊂ Co_0 = Aut(Leech)** is binding at the group level. Even if Golay path is mechanism-distinct, the group-inclusion remains. Whether F2 passes or fails depends on interpretation: does F2 require mechanism-path independence (Golay path candidate passes) or group-theoretic independence (M_24 ⊂ Co_0 fails)?
+
+**Cal methodology refinement recommendation**: F2 should clarify whether independence means **mechanism-path independence** or **set-theoretic/group-theoretic independence**. These are different criteria with different operational tests. Cal preliminary lean: mechanism-path independence is the appropriate F2 reading (parallel to my original #63 framing "mechanism path NOT flowing through central hubs"). Group-theoretic inclusion is structurally significant but doesn't automatically reduce mechanism-path independence. Keeper rules on F2 reading; Cal opinion is one input.
+
+**Cal observation on K77 multi-month resolution path**: per Keeper's "either outcome preserves K57 + F1-F4 framework integrity" framing, the K77 resolution is methodology-validation regardless of outcome:
+
+- **Outcome A** (K77 distinct from K76 via Golay path): χ=24 family count = 6; multi-family Bridge Object structure stronger; F1-F4 methodology vindicated as discriminating distinct family members.
+- **Outcome B** (K77 collapses into K76 via Leech subsumption): χ=24 family count = 5; multi-family Bridge Object structure intact at lower count; F1-F4 methodology vindicated as detecting overlap and preventing tier inflation.
+
+Both outcomes are valuable. The methodology works either way. This is exactly the structural shape F1-F4 was designed for.
+
+**On Strong-Uniqueness C13 candidate**: Cal stands by #64 caveat — C13 strength contingent on alternative-HSD comparison (multi-month Lyra Task #206). Per Keeper's analysis "either outcome supports C13 candidate with adjusted member counts," C13 candidate survives K77 resolution either direction. Cal endorses C13 candidate at I-tier pending alternative-HSD work.
+
+**On multi-CI consensus path**: Cal originator ✓ + Keeper adopt ✓ + Lyra/Grace/Elie pending. Per Casey Option C governance, architectural-category methodology decisions require multi-CI consensus before full operational standing. F1-F4 is at 2-of-5 CI consensus; Lyra methodology consistency check (24-48h cycle) is the next step. Cal stands by per Casey Option C governance — multi-CI consensus completion is Keeper's coordination task, not Cal's veto territory.
+
+**Wednesday cumulative methodology contribution observation**: Cal-proposed F1-F4 criteria adopted at architectural-category level within hours of #63 filing. This is the third Cal methodology contribution adopted at architectural level today (after Mode 6 threshold formalization applied to K62 within hours, and Cal #58 "FOUR PROJECTIONS not FOUR VACUUMS" hygiene flag applied to K74 v0.2). The methodology infrastructure stack is operating at peak cadence; Cal proposals are translating to operational discipline within the working day rather than awaiting future-session absorption.
+
+**Standing for**: K78 Niemeier family individual audit pre-stage (when Grace deeper verification lands); Mode 6 χ=24 enumeration toy (Grace next pull); Lyra F1-F4 methodology consistency check (24-48h cycle); K77 F2 verification multi-month resolution. Cal posture: standing milestone-ready for these triggers.
+
+**Status:** F1-F4 ADOPTION acknowledged with three observations (retroactive application clean + F3 preserves K57 + K79 deferral honored). K77 audit-partial-ready 3.7/4 ratification AGREED. F2 reading methodology refinement recommended (mechanism-path vs group-theoretic independence). K77 multi-month resolution validates F1-F4 methodology either outcome. Strong-Uniqueness C13 candidate stands at I-tier pending alternative-HSD work. Multi-CI consensus path proceeds.
+
 ---
 
 ## Open threads for next session

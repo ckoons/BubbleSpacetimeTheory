@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "OCP-2 b.1 eigentone-EM overlap design"
+  },
+  "cal_49_tier": "b.1 GREEN (catalog overlap statistical test); b.2 YELLOW (EEG-cognition NOT external)",
+  "bst_freq_candidates_in_eeg_range": [
+    3,
+    6,
+    7,
+    9,
+    11,
+    11,
+    13,
+    19,
+    24,
+    48,
+    68.5
+  ],
+  "eeg_bands": [
+    [
+      "Delta (deep sleep)",
+      "0.5-4",
+      2
+    ],
+    [
+      "Theta (light sleep/meditation)",
+      "4-8",
+      6
+    ],
+    [
+      "Alpha (relaxed waking)",
+      "8-13",
+      10
+    ],
+    [
+      "Beta (active waking)",
+      "13-30",
+      20
+    ],
+    [
+      "Gamma (active cognition)",
+      "30-100",
+      40
+    ]
+  ],
+  "schumann_resonances": [
+    7.83,
+    14,
+    20,
+    26,
+    32
+  ],
+  "schumann_overlap_count": 1,
+  "schumann_random_null_expectation": 1.1,
+  "first_look_finding": "BST frequencies in EEG range; g=7 \u2248 Schumann 7.83 most notable; proper statistical test multi-week",
+  "apparatus": "literature + statistical software",
+  "cost_USD": "5-10K",
+  "timeline_months": "3-6",
+  "cal_flag_3_register_compliance": "external operational only; no cognition framing"
+}

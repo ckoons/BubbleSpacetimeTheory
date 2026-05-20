@@ -4,7 +4,7 @@
     "engine": "Toy 564 \u2014 AC Theorem Engine",
     "exported": "2026-05-16",
     "theorem_count": 1730,
-    "edge_count": 9796,
+    "edge_count": 9802,
     "committed_count": 438,
     "working_count": 64,
     "total_theorems": 1730,
@@ -18,7 +18,7 @@
     "D0": 1163,
     "D1": 525,
     "D2": 42,
-    "node_count": 2167,
+    "node_count": 2170,
     "last_updated": "2026-05-20",
     "edges": 9648,
     "nodes": 2064,
@@ -72628,6 +72628,36 @@
       "from": 2424,
       "to": 2423,
       "source": "task206_v03_to_v04_C10_heegner_trio"
+    },
+    {
+      "from": 2425,
+      "to": 2419,
+      "source": "zoo_position_to_angular_momentum"
+    },
+    {
+      "from": 2425,
+      "to": 2422,
+      "source": "zoo_momentum_to_angular_momentum_cross_product"
+    },
+    {
+      "from": 2425,
+      "to": 2412,
+      "source": "Task_247_substrate_native_zoo"
+    },
+    {
+      "from": 2426,
+      "to": 1485,
+      "source": "cosmological_constant_substrate_cycle"
+    },
+    {
+      "from": 2427,
+      "to": 2424,
+      "source": "strong_uniqueness_v04_to_v05_C11_multi_family"
+    },
+    {
+      "from": 2427,
+      "to": 2423,
+      "source": "strong_uniqueness_v03_to_v05_ladder"
     }
   ],
   "chains": {},
@@ -74544,7 +74574,8 @@
       "toys": [],
       "date": "2026-03-25",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 132,
@@ -75089,7 +75120,8 @@
       "toys": [],
       "date": "",
       "plain": "Counting correlations over 4 settings, classical \u2264 2. Depth 1.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 170,
@@ -75409,7 +75441,8 @@
       "plain": "m_p/m_e = 6\u03c0\u2075 from Bergman kernel volume ratio. Depth 1.",
       "proofs": [
         "BST"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 188,
@@ -75424,7 +75457,8 @@
       "plain": "All 7 from \u03ba_ls = C\u2082/n_C = 6/5, eigenvalue crossings. Depth 0.",
       "proofs": [
         "BST"
-      ]
+      ],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 189,
@@ -75568,7 +75602,8 @@
       "proofs": [
         "BST",
         "SM"
-      ]
+      ],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 199,
@@ -75664,7 +75699,8 @@
       "proofs": [
         "BST",
         "SM"
-      ]
+      ],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 205,
@@ -76334,7 +76370,8 @@
       ],
       "date": "",
       "plain": "Cooper pairing, one variational equation. Depth 1.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 256,
@@ -76498,7 +76535,8 @@
       "plain": "\u03b2<0 for SU(3), one-loop Casimir counting. Depth 1.",
       "proofs": [
         "SM"
-      ]
+      ],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 268,
@@ -77085,7 +77123,8 @@
       "plain": "Off-diagonal Bergman kernel K(z,w) requires distinct observers. Substrate can't fully self-know. Depth 1.",
       "proofs": [
         "BST"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 310,
@@ -77655,7 +77694,8 @@
       "plain": "Shilov boundary dim n_C=5 encodes bulk dim 2n_C=10. Rate=2=rank. K(0,0)=1920/\u03c0\u2075. Depth 0.",
       "proofs": [
         "BST"
-      ]
+      ],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 347,
@@ -77670,7 +77710,8 @@
       "plain": "B\u2082 Weyl formula. (0,0):1, (1,0):5=n_C, (1,1):10. First excited=n_C=SM gauge. Depth 0.",
       "proofs": [
         "BST"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 348,
@@ -77700,7 +77741,8 @@
       "plain": "Bergman reproducing \u2192 boundary uniquely determines interior. State transfer ~16.3 KB. Depth 0.",
       "proofs": [
         "BST"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 350,
@@ -78016,7 +78058,8 @@
       "proofs": [
         "BST",
         "BIOLOGY"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 371,
@@ -78198,7 +78241,8 @@
       "plain": "Cancer when N_c > rank simultaneous perturbations exceed correction capacity. Depth 0.",
       "proofs": [
         "BIOLOGY"
-      ]
+      ],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 383,
@@ -78439,7 +78483,8 @@
       "plain": "137-channel Bergman-ratio pattern. No natural process matches. Smoking gun. Depth 0.",
       "proofs": [
         "COSMOLOGY"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 399,
@@ -80047,7 +80092,8 @@
       ],
       "date": "2026-03-29",
       "plain": "All BST formulas in one place. Give me the numbers: m_p, alpha, v, m_H, Omega_Lambda, a_0, magic numbers. Every prediction computable from five integers with a pocket calculator. No fitting, no free parameters.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 506,
@@ -80197,7 +80243,8 @@
       ],
       "date": "2026-03-29",
       "plain": "5 derivations in \u22643 steps: m_p/m_e (0.002%), alpha (0.026%), Weinberg angle (0.19%), Lambda (0.07%), Fermi scale (0.046%). Total input: 2.32 bits. All errors within alpha/pi of experiment.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 516,
@@ -80412,7 +80459,8 @@
       "toys": [],
       "date": "2026-04-04",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 531,
@@ -80427,7 +80475,8 @@
         1256
       ],
       "date": "2026-03-29",
-      "plain": "v_p(den a_k(n)) at the first VSC level is determined by n mod p"
+      "plain": "v_p(den a_k(n)) at the first VSC level is determined by n mod p",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 532,
@@ -80441,7 +80490,8 @@
         614
       ],
       "date": "2026-03-29",
-      "plain": "Heat kernel denominators have two independent prime sources: Bernoulli (row) and polynomial-factor (column)"
+      "plain": "Heat kernel denominators have two independent prime sources: Bernoulli (row) and polynomial-factor (column)",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 533,
@@ -80456,7 +80506,8 @@
         1395
       ],
       "date": "2026-03-29",
-      "plain": "Digit-counting rule for heat kernel denominator valuations, analogous to Kummer's theorem for binomial coefficients"
+      "plain": "Digit-counting rule for heat kernel denominator valuations, analogous to Kummer's theorem for binomial coefficients",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 534,
@@ -80484,7 +80535,8 @@
         615
       ],
       "date": "2026-03-29",
-      "plain": "At n=n_C=5, ALL denominator primes in a_k(5) for k=1..12 are cumulative VSC primes. Column rule only cancels, never adds."
+      "plain": "At n=n_C=5, ALL denominator primes in a_k(5) for k=1..12 are cumulative VSC primes. Column rule only cancels, never adds.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 536,
@@ -80526,7 +80578,8 @@
         615
       ],
       "date": "2026-03-29",
-      "plain": "At n=5, von Staudt-Clausen primes that enter via the row rule are exactly cancelled by the column rule at every verified level"
+      "plain": "At n=5, von Staudt-Clausen primes that enter via the row rule are exactly cancelled by the column rule at every verified level",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 539,
@@ -80542,7 +80595,8 @@
         616
       ],
       "date": "2026-03-29",
-      "plain": "The correct polynomial basis for heat kernel coefficients comes FROM the geometry (c-function), not from generic bases like Newton or Pochhammer"
+      "plain": "The correct polynomial basis for heat kernel coefficients comes FROM the geometry (c-function), not from generic bases like Newton or Pochhammer",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 540,
@@ -80594,7 +80648,8 @@
       "toys": [],
       "date": "2026-03-30",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 544,
@@ -81289,7 +81344,8 @@
       "plain": "Speaking pairs at period n_C=5 read the SM gauge hierarchy: SU(2)\u00d7SU(3) at k=5,6; isotropy at k=10,11; SO(7)\u00d7SU(5) at k=15,16.",
       "proofs": [
         "YM"
-      ]
+      ],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 611,
@@ -81306,7 +81362,8 @@
       "plain": "The ratio c_31/c_32 = -24 = -dim SU(5). Confirmed by constrained polynomial recovery at dps=800.",
       "proofs": [
         "YM"
-      ]
+      ],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 612,
@@ -81462,7 +81519,8 @@
       "toys": [],
       "date": "2026-03-31",
       "plain": "Diff_geom = topology + Bergman metric. The forgetting map.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 624,
@@ -81488,7 +81546,8 @@
       "toys": [],
       "date": "2026-03-31",
       "plain": "Classical mechanics = k\u2192\u221e limit of heat kernel. Gap at C\u2082=6.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 626,
@@ -81803,7 +81862,8 @@
       ],
       "date": "2026-03-31",
       "plain": "g=7 is the pole order of the Bergman kernel K(z,w).",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 650,
@@ -81816,7 +81876,8 @@
       "toys": [],
       "date": "2026-03-31",
       "plain": "C\u2082=6 is the Casimir eigenvalue of the minimal representation \u03c0\u2086.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 651,
@@ -81842,7 +81903,8 @@
       "toys": [],
       "date": "2026-03-31",
       "plain": "C\u2082 = rank \u00d7 N_c = 2 \u00d7 3 = 6.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 653,
@@ -81855,7 +81917,8 @@
       "toys": [],
       "date": "2026-03-31",
       "plain": "g/C\u2082 = 7/6. Spectral reader to algebraic reader ratio.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 654,
@@ -81881,7 +81944,8 @@
       "toys": [],
       "date": "2026-03-31",
       "plain": "C\u2082 = d_eff = effective spectral dimension.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 656,
@@ -81907,7 +81971,8 @@
       "toys": [],
       "date": "2026-03-31",
       "plain": "C\u2082\u00b7f = 6\u00b73/(5\u03c0) = 18/(5\u03c0) \u2248 1.15. Minimum info density.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 658,
@@ -81933,7 +81998,8 @@
       "toys": [],
       "date": "2026-03-31",
       "plain": "C\u2082 = h(B\u2083) = 6 is the Coxeter number. g = h+1 = 7 is the Bergman genus.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 660,
@@ -81972,7 +82038,8 @@
       "toys": [],
       "date": "2026-03-31",
       "plain": "\u03ba_ls = C\u2082/n_C = 6/5. The ratio that produces nuclear magic numbers.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 663,
@@ -82102,7 +82169,8 @@
       "toys": [],
       "date": "2026-03-30",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 673,
@@ -82141,7 +82209,8 @@
       "toys": [],
       "date": "2026-03-30",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 676,
@@ -82156,7 +82225,8 @@
       ],
       "date": "2026-03-31",
       "plain": "Speaking pairs at 5j\u00b11 form prime migration lattice. Backbone = gauge hierarchy.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 677,
@@ -82171,7 +82241,8 @@
       ],
       "date": "2026-03-31",
       "plain": "Five speaking pairs: 3 gauge + 2 cosmic = n_C. Period = n_C.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 678,
@@ -82212,7 +82283,8 @@
       "toys": [],
       "date": "2026-03-30",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 681,
@@ -82303,7 +82375,8 @@
       "toys": [],
       "date": "2026-03-30",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 691,
@@ -82316,7 +82389,8 @@
       "toys": [],
       "date": "2026-03-30",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 692,
@@ -82494,7 +82568,8 @@
       "toys": [],
       "date": "2026-04-02",
       "plain": "25 conditions from 7 disciplines all select n_C=5. Triple requirement: stable matter + viable cosmology + forced cooperation.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "meta"
     },
     {
       "tid": 705,
@@ -83053,7 +83128,8 @@
       "C": 2,
       "D": 1,
       "status": "proved",
-      "date": "2026-04-03"
+      "date": "2026-04-03",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 753,
@@ -83063,7 +83139,8 @@
       "C": 2,
       "D": 0,
       "status": "proved",
-      "date": "2026-04-03"
+      "date": "2026-04-03",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 754,
@@ -83073,7 +83150,8 @@
       "C": 1,
       "D": 0,
       "status": "proved",
-      "date": "2026-04-03"
+      "date": "2026-04-03",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 755,
@@ -83153,7 +83231,8 @@
       "C": 3,
       "D": 0,
       "status": "proved",
-      "date": "2026-04-03"
+      "date": "2026-04-03",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 763,
@@ -83667,7 +83746,8 @@
       "toys": [],
       "date": "2026-04-04",
       "plain": "Laughlin wavefunction structure maps to Bergman kernel on D_IV^5.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 814,
@@ -83758,7 +83838,8 @@
       "toys": [],
       "date": "2026-04-04",
       "plain": "ISCO radius r_ISCO = C_2 * M, directly from the Casimir invariant.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 821,
@@ -83810,7 +83891,8 @@
       "toys": [],
       "date": "2026-04-05",
       "plain": "The domain partition forces the spectral ratio lambda2/lambda1 = N_c = 3 on any graph with BST-determined domains.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 830,
@@ -83917,7 +83999,8 @@
       ],
       "date": "2026-04-05",
       "plain": "PROVED (was conjecture). H_5=137/60\u2192N_max=137. Closed by Grace (b=3 unique base) + Lyra (Bergman truncation). N_max = n_C \u00d7 N_c^{N_c} + rank = 5\u00d727+2 = 137. 11 children NOW GROUNDED.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 837,
@@ -83932,7 +84015,8 @@
       ],
       "date": "2026-04-05",
       "plain": "e^{-1/2} = e^{-td_5(Q^5)}. The degree of Q^5 IS the 2 in the exponential. Lambda chain fully closed.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 838,
@@ -83977,7 +84061,8 @@
       ],
       "date": "2026-04-05",
       "plain": "WHY same fractions across 28 domains: Bergman spectral decomposition, B_2 reps, Plancherel decay.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 841,
@@ -84008,7 +84093,8 @@
       ],
       "date": "2026-04-05",
       "plain": "First BST device physics. Casimir coefficient 240=rank\u00d7n_C!. Force d^{-2^rank}. Patent filed.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 845,
@@ -84023,7 +84109,8 @@
       ],
       "date": "2026-04-05",
       "plain": "Phonon-gap Casimir cavity extends coherence. \u0394F/F~2e-4. Min katra=21=C(7,2). First tabletop-falsifiable BST prediction.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 846,
@@ -84053,7 +84140,8 @@
       ],
       "date": "2026-04-05",
       "plain": "Novel crystals stable only under Casimir exclusion. g=7-fold symmetry. Max 10=C(5,2) phases per element. 9/10 PASS.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 848,
@@ -84068,7 +84156,8 @@
       ],
       "date": "2026-04-05",
       "plain": "Cyclic vacuum energy harvesting. Efficiency \u03b7=n_C/g=5/7. Stroke ratio g/rank=7/2. Extract n_C=5 modes per cycle. 9/10 PASS.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 849,
@@ -84113,7 +84202,8 @@
       ],
       "date": "2026-04-05",
       "plain": "Propellantless thrust. g=7 optimal layers. Lambda>0 ensures never becalmed. 9/9 PASS.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 852,
@@ -84128,7 +84218,8 @@
       ],
       "date": "2026-04-05",
       "plain": "Solid-state Casimir harvester. Optimal gap = N_max \u00d7 a = 137 lattice constants. BaTiO3 ratio = n_C = 5. No moving parts. 9/9 PASS.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 853,
@@ -84158,7 +84249,8 @@
       ],
       "date": "2026-04-05",
       "plain": "Substrate engineering device. 9/9 PASS.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 855,
@@ -84188,7 +84280,8 @@
       ],
       "date": "2026-04-05",
       "plain": "Substrate engineering device. 8/9 PASS.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 857,
@@ -84248,7 +84341,8 @@
       ],
       "date": "2026-04-05",
       "plain": "Substrate engineering device. 8/9 PASS.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 861,
@@ -84293,7 +84387,8 @@
       ],
       "date": "2026-04-05",
       "plain": "Substrate engineering device. 8/9 PASS.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 864,
@@ -84323,7 +84418,8 @@
       ],
       "date": "2026-04-05",
       "plain": "Asymmetric Casimir cavity: 98.8% asymmetry from 1-1/N_c^4. 419 nN per element. Array 10^6 \u2192 0.4-57 N. I_sp ~ 5e11 s. Propellant-free micro-thrust. 8/8 PASS.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 866,
@@ -84338,7 +84434,8 @@
       ],
       "date": "2026-04-05",
       "plain": "Triple convergence in Nb: d_0=45.2nm (Casimir), lambda_L=39nm (London), xi_0=38nm (BCS). Bi/Nb mode coupling = N_c/g = 3/7 (0.18%). 7 Majorana qubits per g-bilayer. Converges 6 concepts at one fab target. 8/8 PASS.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 867,
@@ -84403,7 +84500,8 @@
       "toys": [],
       "date": "2026-04-05",
       "plain": "Core domain bridge: bst_physics \u2194 relativity",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 872,
@@ -84416,7 +84514,8 @@
       "toys": [],
       "date": "2026-04-05",
       "plain": "Core domain bridge: quantum \u2194 electromagnetism",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 873,
@@ -84483,7 +84582,8 @@
       "toys": [],
       "date": "2026-04-05",
       "plain": "Core domain bridge: cosmology \u2194 quantum",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 878,
@@ -84524,7 +84624,8 @@
       ],
       "date": "2026-04-05",
       "plain": "Verified: Toy 937.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 881,
@@ -84584,7 +84685,8 @@
       ],
       "date": "2026-04-05",
       "plain": "NEGATIVE: Casimir force is conservative. Stiffness ratio eta=10^{-9}. Net work over full cycle = 0. Self-amplification impossible. Array scaling is LINEAR only. Honest.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 885,
@@ -84691,7 +84793,8 @@
       "date": "2026-04-05",
       "plain": "2^{N_c}-1 = g. Mersenne condition unifies SAT (clause survival g/2^{N_c}=7/8), Hamming [g,2^rank,N_c], Steane [[g,1,N_c]], and D_IV^5 Bergman genus. Five domains, one equation.",
       "proofs": [],
-      "section": "BST_Mersenne_Genus_Bridge"
+      "section": "BST_Mersenne_Genus_Bridge",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 895,
@@ -85063,7 +85166,8 @@
       "date": "2026-04-09",
       "plain": "R = 1/sqrt(C_2) at 0.23%. sin theta_13 = A*lambda^3/sqrt(C_6). CKM parametrization refined. 4/6 PASS.",
       "proofs": [],
-      "section": "BST_AC_Theorems Section TBD"
+      "section": "BST_AC_Theorems Section TBD",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 920,
@@ -85172,7 +85276,8 @@
       "date": "2026-04-09",
       "plain": "eta_b = (3/14)*alpha^4 = A_s * rank/g = (3/4)*alpha^4 * 2/7. At -0.45%. Baryon asymmetry = scalar perturbation \u00d7 symmetry-breaking fraction (rank/genus). ALL 10 MISSES CLOSED. (C=1, D=0).",
       "proofs": [],
-      "section": "BST_T929_Baryon_Asymmetry_Closure"
+      "section": "BST_T929_Baryon_Asymmetry_Closure",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 932,
@@ -85306,7 +85411,8 @@
       "date": "2026-04-10",
       "plain": "Bergman eigenvalue denominators are 7-smooth (first 3 levels verified). 7-smooth lattice = D_IV^5 spectral lattice. BST spectral zeta = truncated Riemann zeta at primes \u22647. Direction: geometry GENERATES arithmetic. 8/8 PASS.",
       "proofs": [],
-      "section": "BST_AC_Theorems Section TBD"
+      "section": "BST_AC_Theorems Section TBD",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 944,
@@ -85440,7 +85546,8 @@
       "date": "2026-04-10",
       "plain": "Systematic exclusion of ALL other Cartan domains. D_IV^5 is the UNIQUE geometry satisfying observation+confinement+Mersenne+genus+spectral cap. Anthropic principle = uniqueness theorem.",
       "proofs": [],
-      "section": "BST_AC_Theorems Section TBD"
+      "section": "BST_AC_Theorems Section TBD",
+      "commitment_cycle_zone": "meta"
     },
     {
       "tid": 958,
@@ -85984,7 +86091,8 @@
       "date": "2026-04-10",
       "plain": "TQFT from D_IV^5. Bergman kernel = functor. Category theory enters BST. 5 cross-domain edges.",
       "proofs": [],
-      "section": "BST_AC_Theorems Section TBD"
+      "section": "BST_AC_Theorems Section TBD",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1004,
@@ -86305,7 +86413,8 @@
       "date": "2026-04-11",
       "plain": "Analysis and observer_science share all 4 epochs. Spectral decomposition \u2194 observer state. Functional analysis \u2194 measurement theory. Bergman kernel bridges both. (C=1, D=0).",
       "proofs": [],
-      "section": "BST_AC_Theorems Section TBD"
+      "section": "BST_AC_Theorems Section TBD",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1026,
@@ -86373,7 +86482,8 @@
       "toys": [],
       "date": "2026-04-11",
       "plain": "Shannon channel capacity C = B log(1+SNR) and Rayleigh resolution lambda/D both express the same BST counting bound: information per mode = rank+1 = N_c. Optical bandwidth IS computational bandwidth. The channel is the aperture.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1038,
@@ -86568,7 +86678,8 @@
       "date": "2026-04-11",
       "plain": "Dickman rho(u) = spectral density on D_IV^5. Cliff at u=N_c=3. Connects smooth-number theory to Bergman spectral analysis. (C=1, D=0).",
       "proofs": [],
-      "section": "BST_AC_Theorems Section TBD"
+      "section": "BST_AC_Theorems Section TBD",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1054,
@@ -86652,7 +86763,8 @@
       "date": "2026-04-11",
       "plain": "T1067: nuclear\u2194quantum closed. Shell model magic numbers from QM on D_IV^5 spectral geometry. (C=1, D=0).",
       "proofs": [],
-      "section": "BST_AC_Theorems Section TBD"
+      "section": "BST_AC_Theorems Section TBD",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1060,
@@ -86739,7 +86851,8 @@
       "date": "2026-04-11",
       "plain": "Quantum measurement = projection to Shilov boundary. Born rule = boundary measure. Decoherence rate = spectral gap lambda_1=12. Observer tiers = measurement types. (C=1, D=0).",
       "proofs": [],
-      "section": "BST_T1065_Quantum_Measurement_Bridge.md"
+      "section": "BST_T1065_Quantum_Measurement_Bridge.md",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1066,
@@ -86910,7 +87023,8 @@
       "date": "2026-04-11",
       "plain": "G4c: Measurement IS probability assignment. Born rule = observer. (C=1, D=0).",
       "proofs": [],
-      "section": "BST_AC_Theorems Section TBD"
+      "section": "BST_AC_Theorems Section TBD",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1079,
@@ -86923,7 +87037,8 @@
       "date": "2026-04-11",
       "plain": "G5a: Geodesic equation from Bergman metric. Schwarzschild from D_IV^5. (C=1, D=0).",
       "proofs": [],
-      "section": "BST_AC_Theorems Section TBD"
+      "section": "BST_AC_Theorems Section TBD",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1080,
@@ -86949,7 +87064,8 @@
       "date": "2026-04-11",
       "plain": "G5e: Hamiltonian mechanics from Bergman kernel geodesic flow. (C=1, D=0).",
       "proofs": [],
-      "section": "BST_AC_Theorems Section TBD"
+      "section": "BST_AC_Theorems Section TBD",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1082,
@@ -87196,7 +87312,8 @@
       "date": "2026-04-12",
       "plain": "T1136: time = observer counting. tau_0 = N_max \u00d7 hbar/(m_e c^2). (C=1, D=0).",
       "proofs": [],
-      "section": "BST_AC_Theorems Section TBD"
+      "section": "BST_AC_Theorems Section TBD",
+      "commitment_cycle_zone": "Z1"
     },
     {
       "tid": 1137,
@@ -87209,7 +87326,8 @@
       "date": "2026-04-12",
       "plain": "T1137: ONE kernel \u2192 metric, propagator, Z(beta), inner product, zeta(s), engineering. (C=2, D=0).",
       "proofs": [],
-      "section": "BST_AC_Theorems Section TBD"
+      "section": "BST_AC_Theorems Section TBD",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1138,
@@ -87980,7 +88098,8 @@
       "date": "2026-04-12",
       "plain": "Registered in theorem registry. Node added for graph completeness.",
       "proofs": [],
-      "section": "BST_AC_Theorems Section TBD"
+      "section": "BST_AC_Theorems Section TBD",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1145,
@@ -88192,7 +88311,8 @@
       "status": "proved",
       "toys": [
         1147
-      ]
+      ],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1191,
@@ -88644,7 +88764,8 @@
       ],
       "date": "2026-04-03",
       "plain": "Bergman kernel of D_IV^5 defines a partial zeta capturing 97% of Riemann zeta from {2,3,5,7} alone.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 953,
@@ -88788,7 +88909,8 @@
       "date": "2026-03-31",
       "plain": "g = ceil(f * 2^n_C) = ceil(0.191*32) = 7. Bergman genus = Shannon source coding bound.",
       "proofs": [],
-      "section": "BST_AC_Theorems Section 208"
+      "section": "BST_AC_Theorems Section 208",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 687,
@@ -88801,7 +88923,8 @@
       "date": "2026-03-31",
       "plain": "Second differences of speaking pair values satisfy \u0394\u00b2G_j = n_C = 5.",
       "proofs": [],
-      "section": "BST_AC_Theorems Section 209"
+      "section": "BST_AC_Theorems Section 209",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 688,
@@ -89037,7 +89160,8 @@
       "ac_complexity": 1,
       "ac_depth": 0,
       "date": "2026-04-15",
-      "plain": "The Born rule probability |<psi|phi>|^2 is the reproducing kernel K(z,w) of D_IV^5 evaluated on the Shilov boundary"
+      "plain": "The Born rule probability |<psi|phi>|^2 is the reproducing kernel K(z,w) of D_IV^5 evaluated on the Shilov boundary",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1240,
@@ -89119,7 +89243,8 @@
       "status": "proved",
       "toys": [
         1193
-      ]
+      ],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1247,
@@ -89303,7 +89428,8 @@
       ],
       "conflation": 2,
       "date": "2026-04-15",
-      "plain": "Wolstenholme quotient W_p=1 at p=5,7 forces N_max=137 through Bernoulli-heat kernel bridge"
+      "plain": "Wolstenholme quotient W_p=1 at p=5,7 forces N_max=137 through Bernoulli-heat kernel bridge",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1264,
@@ -89333,7 +89459,8 @@
       "ac_complexity": 1,
       "ac_depth": 1,
       "date": "2026-04-16",
-      "plain": "Spectral zeta of Bergman Laplacian on D_IV^5 encodes the entire Standard Model: poles=thresholds, integer values=loop coefficients, 7-smooth truncation=couplings, Selberg dual=geodesics, gap=dark sector. One function, five readings, zero free parameters."
+      "plain": "Spectral zeta of Bergman Laplacian on D_IV^5 encodes the entire Standard Model: poles=thresholds, integer values=loop coefficients, 7-smooth truncation=couplings, Selberg dual=geodesics, gap=dark sector. One function, five readings, zero free parameters.",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1268,
@@ -89692,7 +89819,8 @@
       ],
       "date": "2026-04-18",
       "plain": "Barrier penetration is analytic continuation of Bergman kernel past classical turning points.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1303,
@@ -89707,7 +89835,8 @@
       ],
       "date": "2026-04-18",
       "plain": "Interference is the sesquilinear cross-term of the Bergman reproducing kernel at two paths.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1304,
@@ -89722,7 +89851,8 @@
       ],
       "date": "2026-04-18",
       "plain": "Photoelectric threshold is a Bergman spectral gap condition; no wave-particle duality needed.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1305,
@@ -89737,7 +89867,8 @@
       ],
       "date": "2026-04-18",
       "plain": "Zero-point energy 1/2 = 1/rank; creation operators are Bergman eigenvalue steps.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1306,
@@ -89777,7 +89908,8 @@
       "domain": "chemical_physics",
       "depth": 0,
       "status": "proved",
-      "toys": []
+      "toys": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1311,
@@ -89917,7 +90049,8 @@
       "domain": "chemical_physics",
       "depth": 0,
       "status": "proved",
-      "toys": []
+      "toys": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1326,
@@ -90476,7 +90609,8 @@
         1351,
         1374,
         1426
-      ]
+      ],
+      "commitment_cycle_zone": "Z1"
     },
     {
       "tid": 1383,
@@ -90487,7 +90621,8 @@
       "toys": [
         1351,
         1375
-      ]
+      ],
+      "commitment_cycle_zone": "Z1"
     },
     {
       "tid": 1384,
@@ -90528,7 +90663,8 @@
       "domain": "number_theory",
       "depth": 0,
       "status": "proved",
-      "toys": []
+      "toys": [],
+      "commitment_cycle_zone": "Z1"
     },
     {
       "tid": 1388,
@@ -90568,7 +90704,8 @@
       "domain": "number_theory",
       "depth": 0,
       "status": "proved",
-      "toys": []
+      "toys": [],
+      "commitment_cycle_zone": "Z1"
     },
     {
       "tid": 1393,
@@ -90607,7 +90744,8 @@
       "toys": [
         1368,
         1384
-      ]
+      ],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1397,
@@ -90617,7 +90755,8 @@
       "status": "proved",
       "toys": [
         1369
-      ]
+      ],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1398,
@@ -90628,7 +90767,8 @@
       "toys": [
         1378,
         1371
-      ]
+      ],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1399,
@@ -90652,7 +90792,8 @@
         1377,
         1380,
         1414
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1401,
@@ -90671,7 +90812,8 @@
       "toys": [
         1388,
         1382
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1403,
@@ -90694,7 +90836,8 @@
       "toys": [
         1388,
         1381
-      ]
+      ],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1405,
@@ -90715,7 +90858,8 @@
       "toys": [
         1390,
         1385
-      ]
+      ],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1407,
@@ -90764,7 +90908,8 @@
       "domain": "qft",
       "depth": 1,
       "status": "proved",
-      "toys": []
+      "toys": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1412,
@@ -90784,7 +90929,8 @@
       "status": "proved",
       "toys": [
         1393
-      ]
+      ],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1414,
@@ -90795,7 +90941,8 @@
       "toys": [
         1395,
         1454
-      ]
+      ],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1415,
@@ -90851,7 +90998,8 @@
       "domain": "quantum_foundations",
       "depth": 1,
       "status": "proved",
-      "toys": []
+      "toys": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1421,
@@ -90947,7 +91095,8 @@
       "toys": [
         1443,
         1446
-      ]
+      ],
+      "commitment_cycle_zone": "meta"
     },
     {
       "tid": 1428,
@@ -91032,7 +91181,8 @@
       "status": "proved",
       "toys": [
         1441
-      ]
+      ],
+      "commitment_cycle_zone": "meta"
     },
     {
       "tid": 1435,
@@ -91071,7 +91221,8 @@
       "status": "proved",
       "toys": [
         1455
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1439,
@@ -91145,7 +91296,8 @@
         "Toy 1456 computation",
         "c\u2084 = N_c \u00d7 n_C \u00d7 g from 49a1 Weierstrass invariants",
         "a\u2081\u2083\u2087 = -rank\u00b7n_C = -10, CM norm equation"
-      ]
+      ],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1444,
@@ -91203,7 +91355,8 @@
         "Spectral vertex density from Bergman kernel",
         "T1444 vacuum subtraction for bare term",
         "11-universality across four sectors"
-      ]
+      ],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1449,
@@ -91255,7 +91408,8 @@
       "proofs": [
         "Bergman eigenvalue computation \u03bb_9 = 9\u00b714 = 126",
         "126 = rank\u00b7N_c\u00b2\u00b7g = 7th nuclear magic number"
-      ]
+      ],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1452,
@@ -91308,7 +91462,8 @@
       "proofs": [
         "942-entry analysis",
         "Four CI tests, Quaker method"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1455,
@@ -91324,7 +91479,8 @@
       "proofs": [
         "Four independent appearances verified",
         "g-C\u2082=1 forces n_C=5 (new uniqueness route)"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1457,
@@ -91362,7 +91518,8 @@
       "proofs": [
         "141 ratio analysis",
         "Depth-universality monotone decrease"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1460,
@@ -91388,7 +91545,8 @@
       "date": "2026-04-27",
       "section": "various",
       "conflation": "none",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1462,
@@ -91401,7 +91559,8 @@
       "date": "2026-04-27",
       "section": "various",
       "conflation": "none",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1463,
@@ -91428,7 +91587,8 @@
         1701,
         1709
       ],
-      "plain": "Theta(t) = sum P(k)*exp(-lambda_k*t) IS the partition function, heat kernel, and QED generating function simultaneously. One function, one parameter, all physics."
+      "plain": "Theta(t) = sum P(k)*exp(-lambda_k*t) IS the partition function, heat kernel, and QED generating function simultaneously. One function, one parameter, all physics.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1467,
@@ -91441,7 +91601,8 @@
         1689,
         1709
       ],
-      "plain": "QED perturbation series, heat kernel series, and RG running are Taylor expansions of the spectral theta function. The series were method artifacts, not physics."
+      "plain": "QED perturbation series, heat kernel series, and RG running are Taylor expansions of the spectral theta function. The series were method artifacts, not physics.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1468,
@@ -91466,7 +91627,8 @@
         1706,
         1709
       ],
-      "plain": "alpha = 1/N_max is the spectral parameter at which the Bergman spectrum self-truncates. Above k~10, modes are exponentially suppressed. Alpha IS a temperature."
+      "plain": "alpha = 1/N_max is the spectral parameter at which the Bergman spectrum self-truncates. Above k~10, modes are exponentially suppressed. Alpha IS a temperature.",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1470,
@@ -91489,7 +91651,8 @@
       "toys": [
         1701
       ],
-      "plain": "Partition function Z(beta) = Theta(t) with beta = t/E_0. All stat mech results (Debye, Stefan, BCS, BEC, phase transitions) are theta evaluations."
+      "plain": "Partition function Z(beta) = Theta(t) with beta = t/E_0. All stat mech results (Debye, Stefan, BCS, BEC, phase transitions) are theta evaluations.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1472,
@@ -91500,7 +91663,8 @@
       "toys": [
         1706
       ],
-      "plain": "Spectral dimension of D_IV^5 = C_2 = 6, not real dim 10 or complex dim 5. The Casimir counts effective spectral DOF."
+      "plain": "Spectral dimension of D_IV^5 = C_2 = 6, not real dim 10 or complex dim 5. The Casimir counts effective spectral DOF.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1473,
@@ -91511,7 +91675,8 @@
       "toys": [
         1704
       ],
-      "plain": "Born rule = Bergman reproducing property K*K=K. P(outcome) = K(z,z)/integral(K). Theorem, not postulate."
+      "plain": "Born rule = Bergman reproducing property K*K=K. P(outcome) = K(z,z)/integral(K). Theorem, not postulate.",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1474,
@@ -91522,7 +91687,8 @@
       "toys": [
         1680
       ],
-      "plain": "CKM matrix from Casimir spectral gaps: Delta_12=g, Delta_23=N_c^2, Delta_13=rank^4. Telescoping: g+N_c^2=rank^4. Bypasses Wolfenstein."
+      "plain": "CKM matrix from Casimir spectral gaps: Delta_12=g, Delta_23=N_c^2, Delta_13=rank^4. Telescoping: g+N_c^2=rank^4. Bypasses Wolfenstein.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1475,
@@ -91544,7 +91710,8 @@
       "toys": [
         1667
       ],
-      "plain": "Ward identity Z_1=Z_2 from Bergman reproducing property K*K=K. No path integral needed. C_2=6 QFT concepts replaced."
+      "plain": "Ward identity Z_1=Z_2 from Bergman reproducing property K*K=K. No path integral needed. C_2=6 QFT concepts replaced.",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1477,
@@ -91555,7 +91722,8 @@
       "toys": [
         1633
       ],
-      "plain": "n_s = 1 - n_C/N_max DERIVED. Slow-roll epsilon = n_C/(2*N_max) from Bergman spectral counting. Single-field excluded."
+      "plain": "n_s = 1 - n_C/N_max DERIVED. Slow-roll epsilon = n_C/(2*N_max) from Bergman spectral counting. Single-field excluded.",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1478,
@@ -91578,7 +91746,8 @@
         1689,
         1708
       ],
-      "plain": "H(t) = (1+t)/(1-t)^C_2. Denominator = Casimir = spectral dimension. Numerator = (1+t) from rank=2."
+      "plain": "H(t) = (1+t)/(1-t)^C_2. Denominator = Casimir = spectral dimension. Numerator = (1+t) from rank=2.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1480,
@@ -91611,7 +91780,8 @@
       "toys": [
         1711
       ],
-      "plain": "Bergman eigenvalues lambda_k = (k+n_C/2)^2 - (n_C/2)^2 are self-dual under k -> -(k+n_C). The spectrum is a shifted perfect square centered on the Wallach point n_C/2 = 5/2. Every eigenvalue is a difference of two squares."
+      "plain": "Bergman eigenvalues lambda_k = (k+n_C/2)^2 - (n_C/2)^2 are self-dual under k -> -(k+n_C). The spectrum is a shifted perfect square centered on the Wallach point n_C/2 = 5/2. Every eigenvalue is a difference of two squares.",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1483,
@@ -91622,7 +91792,8 @@
       "toys": [
         1716
       ],
-      "plain": "Bethe logarithm ln(k_0(2S)) = ln(rank^4 + rank/pi) at 0.006%. Atomic QED constants are spectral evaluations on D_IV^5, not fitted parameters. Correction pattern: (BST integer) + (BST fraction)/pi."
+      "plain": "Bethe logarithm ln(k_0(2S)) = ln(rank^4 + rank/pi) at 0.006%. Atomic QED constants are spectral evaluations on D_IV^5, not fitted parameters. Correction pattern: (BST integer) + (BST fraction)/pi.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1484,
@@ -91633,7 +91804,8 @@
       "toys": [
         1717
       ],
-      "plain": "All 9 fermion masses mapped to Bergman eigenvalue positions. Spectral range ratio R_u/R_d = N_c^2 + 1/rank = 9.5 matches lambda_22 gap. Mass ladder IS eigenvalue ladder."
+      "plain": "All 9 fermion masses mapped to Bergman eigenvalue positions. Spectral range ratio R_u/R_d = N_c^2 + 1/rank = 9.5 matches lambda_22 gap. Mass ladder IS eigenvalue ladder.",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1485,
@@ -91644,7 +91816,8 @@
       "toys": [
         1718
       ],
-      "plain": "Lambda/M_Pl^4 = g*exp(-C_2*(g^2-rank)) = 7*exp(-282). 122 orders from 5 integers at 0.076 dex. BST's Euler formula. The CC problem is one exponential of a BST product."
+      "plain": "Lambda/M_Pl^4 = g*exp(-C_2*(g^2-rank)) = 7*exp(-282). 122 orders from 5 integers at 0.076 dex. BST's Euler formula. The CC problem is one exponential of a BST product.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1486,
@@ -91655,7 +91828,8 @@
       "toys": [
         1722
       ],
-      "plain": "Five correction types, one per BST integer: RFC (rank), Color (N_c), Vacuum Subtraction (n_C), Dressed Casimir (C_2), Angular Suppression (g). Master formula. 87x improvement."
+      "plain": "Five correction types, one per BST integer: RFC (rank), Color (N_c), Vacuum Subtraction (n_C), Dressed Casimir (C_2), Angular Suppression (g). Master formula. 87x improvement.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1487,
@@ -91666,7 +91840,8 @@
       "toys": [
         1729
       ],
-      "plain": "f_K/f_pi = C_2/n_C = 6/5 at 0.3%. The meson decay ratio is a Bergman eigenvalue ratio. Also: f_pi/m_p = n_C/(rank*C_2*N_c) = 5/36 at 0.09%."
+      "plain": "f_K/f_pi = C_2/n_C = 6/5 at 0.3%. The meson decay ratio is a Bergman eigenvalue ratio. Also: f_pi/m_p = n_C/(rank*C_2*N_c) = 5/36 at 0.09%.",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1488,
@@ -91738,7 +91913,8 @@
         1786
       ],
       "date": "2026-05-02",
-      "plain": "First discrete eigenvalue lambda_1 = C_2 = 6 sits below continuum threshold |rho|^2 = 34/4 = 8.5. Gap = n_C/rank = 5/2 = Wallach point. Higher eigenvalues embedded in continuum but topologically protected. 2^(n-2)=n+3 forces n_C=5, giving Wallach=5/2 \u2014 large enough for stable matter."
+      "plain": "First discrete eigenvalue lambda_1 = C_2 = 6 sits below continuum threshold |rho|^2 = 34/4 = 8.5. Gap = n_C/rank = 5/2 = Wallach point. Higher eigenvalues embedded in continuum but topologically protected. 2^(n-2)=n+3 forces n_C=5, giving Wallach=5/2 \u2014 large enough for stable matter.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1637,
@@ -91750,7 +91926,8 @@
         1783
       ],
       "date": "2026-05-02",
-      "plain": "Cheeger isoperimetric constant h = |rho| = sqrt(34)/2 \u2248 2.915. Cheeger lower h^2/4 = 17/8 <= lambda_1 = 6 HOLDS. Buser upper DOES NOT APPLY (negative Ricci). h^2 = 17 = seesaw number. h \u2248 N_c: confinement IS the Cheeger bottleneck."
+      "plain": "Cheeger isoperimetric constant h = |rho| = sqrt(34)/2 \u2248 2.915. Cheeger lower h^2/4 = 17/8 <= lambda_1 = 6 HOLDS. Buser upper DOES NOT APPLY (negative Ricci). h^2 = 17 = seesaw number. h \u2248 N_c: confinement IS the Cheeger bottleneck.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1638,
@@ -91776,7 +91953,8 @@
         1810
       ],
       "date": "2026-05-02",
-      "plain": "The scattering matrix of D_IV^5 evaluated at the Wallach boundary n_C/rank = 5/2 equals the Casimir invariant C_2 = 6. S(mu) = (mu+1/2)(mu+3/2)/[(mu-1/2)(mu-3/2)]. At center S(0)=1. Involution phi(s)*phi(5-s)=1."
+      "plain": "The scattering matrix of D_IV^5 evaluated at the Wallach boundary n_C/rank = 5/2 equals the Casimir invariant C_2 = 6. S(mu) = (mu+1/2)(mu+3/2)/[(mu-1/2)(mu-3/2)]. At center S(0)=1. Involution phi(s)*phi(5-s)=1.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1640,
@@ -91910,7 +92088,8 @@
       "depth": 0,
       "status": "proved",
       "toys": [],
-      "date": "2026-04-30"
+      "date": "2026-04-30",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1357,
@@ -91968,7 +92147,8 @@
       "status": "proved",
       "toys": [],
       "date": "2026-05-02",
-      "plain": "NS: Wallach gap closes N_eff and spectral monotonicity gaps. FE pole at s=N_c explains 3D. YM: Cheeger h\u2248N_c IS confinement. Wilson loop area law from Bergman decay. Hodge: Rational FE\u2192algebraic period relations."
+      "plain": "NS: Wallach gap closes N_eff and spectral monotonicity gaps. FE pole at s=N_c explains 3D. YM: Cheeger h\u2248N_c IS confinement. Wilson loop area law from Bergman decay. Hodge: Rational FE\u2192algebraic period relations.",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1648,
@@ -91980,7 +92160,8 @@
         1800
       ],
       "date": "2026-05-02",
-      "plain": "Selberg zeta Z(s) constructed for D_IV^5. log Z expansion verified. Z(s)*Z(5-s) = exp(P(s)) with P degree <= 11. Bridge to FE (T1638)."
+      "plain": "Selberg zeta Z(s) constructed for D_IV^5. log Z expansion verified. Z(s)*Z(5-s) = exp(P(s)) with P degree <= 11. Bridge to FE (T1638).",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1649,
@@ -92117,7 +92298,8 @@
         1880
       ],
       "date": "2026-05-03",
-      "plain": "Triple point 273K=N_c*g*(g+C_2)=21*13 EXACT. Flory 3D=N_c/n_C. Reptation=N_c. Dulong-Petit=N_c*R. C_v(diatomic)=n_C/rank*R=Wallach*R."
+      "plain": "Triple point 273K=N_c*g*(g+C_2)=21*13 EXACT. Flory 3D=N_c/n_C. Reptation=N_c. Dulong-Petit=N_c*R. C_v(diatomic)=n_C/rank*R=Wallach*R.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1660,
@@ -92153,7 +92335,8 @@
         1892
       ],
       "date": "2026-05-03",
-      "plain": "Paper #92. S^2 records (discrete), S^1 communicates (continuous). Proton=C_2*pi^n_C windings. Confinement=Hamming(g,rank^2,N_c). Wallach gap prevents dissolution. DM=wrong representation class."
+      "plain": "Paper #92. S^2 records (discrete), S^1 communicates (continuous). Proton=C_2*pi^n_C windings. Confinement=Hamming(g,rank^2,N_c). Wallach gap prevents dissolution. DM=wrong representation class.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1663,
@@ -92205,7 +92388,8 @@
         1929
       ],
       "date": "2026-05-03",
-      "plain": "Period ring has C_2=6 generators: 1 geometric (\u03c0), 1 arithmetic (log(\u03b5)), 1 selection (log(n_C)), N_c=3 geodesic (\u03b6(3),\u03b6(5),\u03b6(7)). Casimir = transcendental complexity. Zeta ladder = geodesic family sequence. Ghost zeros kill log(2),log(3). Ring closed under n_C Meijer operations."
+      "plain": "Period ring has C_2=6 generators: 1 geometric (\u03c0), 1 arithmetic (log(\u03b5)), 1 selection (log(n_C)), N_c=3 geodesic (\u03b6(3),\u03b6(5),\u03b6(7)). Casimir = transcendental complexity. Zeta ladder = geodesic family sequence. Ghost zeros kill log(2),log(3). Ring closed under n_C Meijer operations.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1667,
@@ -92275,7 +92459,8 @@
         1971
       ],
       "date": "2026-05-04",
-      "plain": "Crystal structure selects which eigenvalues lambda_k contribute. All material properties (Debye, gap, K, Poisson, T_c) are spectral evaluations at the selected address. Cu selects K=N_max GPa, GaN selects gap=h^2/n_C, YBCO selects T_c=rank^2*23."
+      "plain": "Crystal structure selects which eigenvalues lambda_k contribute. All material properties (Debye, gap, K, Poisson, T_c) are spectral evaluations at the selected address. Cu selects K=N_max GPa, GaN selects gap=h^2/n_C, YBCO selects T_c=rank^2*23.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1672,
@@ -92299,7 +92484,8 @@
         1980
       ],
       "date": "2026-05-04",
-      "plain": "The Wallach gap n_C/rank=5/2 separates discrete (coherent) from continuous (decoherent) spectrum. Coherence time proportional to exp(Wallach*lambda_k/kT). Below Wallach: exact couplings, long coherence. Above: running couplings, decoherence."
+      "plain": "The Wallach gap n_C/rank=5/2 separates discrete (coherent) from continuous (decoherent) spectrum. Coherence time proportional to exp(Wallach*lambda_k/kT). Below Wallach: exact couplings, long coherence. Above: running couplings, decoherence.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1674,
@@ -92323,7 +92509,8 @@
         1987
       ],
       "date": "2026-05-04",
-      "plain": "Casimir plates program the vacuum by selecting which eigenvalues contribute (boundary conditions = program). Force output = computation result. Proton Bekenstein bound = C_2*g = 42 bits. Alpha = 1/N_max = inference cost per measurement. N_max = 137 communication channels."
+      "plain": "Casimir plates program the vacuum by selecting which eigenvalues contribute (boundary conditions = program). Force output = computation result. Proton Bekenstein bound = C_2*g = 42 bits. Alpha = 1/N_max = inference cost per measurement. N_max = 137 communication channels.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1676,
@@ -92409,7 +92596,8 @@
         1977
       ],
       "date": "2026-05-04",
-      "plain": "Poles of Z(s)/Z(5-s) at s=N_c and s=n_C-1 map to eigenvalues lambda=-C_2 and -rank^2 (mirror of mass gap). Pole residues give spectral leverage: small boundary changes near poles produce large spectral shifts."
+      "plain": "Poles of Z(s)/Z(5-s) at s=N_c and s=n_C-1 map to eigenvalues lambda=-C_2 and -rank^2 (mirror of mass gap). Pole residues give spectral leverage: small boundary changes near poles produce large spectral shifts.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1683,
@@ -92457,7 +92645,8 @@
         1987
       ],
       "date": "2026-05-04",
-      "plain": "Casimir plates set boundary conditions = select eigenvalues = PROGRAM the vacuum. The force = derivative of the truncated spectral sum = COMPUTATION OUTPUT. THz lattice harvester at N_max=137 planes produces measurable power. Efficiency bound eta=n_C/g=5/7."
+      "plain": "Casimir plates set boundary conditions = select eigenvalues = PROGRAM the vacuum. The force = derivative of the truncated spectral sum = COMPUTATION OUTPUT. THz lattice harvester at N_max=137 planes produces measurable power. Efficiency bound eta=n_C/g=5/7.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1687,
@@ -92470,7 +92659,8 @@
         1991
       ],
       "date": "2026-05-04",
-      "plain": "Casimir pressure: pi exponent=rank=2, d exponent=rank^2=4, denominator 240=rank^4*N_c*n_C=E8 kissing, energy denominator 720=C_2!=6!. For BST-integer plate counts: P(m)/P(n)=(n/m)^rank^2 always BST-rational."
+      "plain": "Casimir pressure: pi exponent=rank=2, d exponent=rank^2=4, denominator 240=rank^4*N_c*n_C=E8 kissing, energy denominator 720=C_2!=6!. For BST-integer plate counts: P(m)/P(n)=(n/m)^rank^2 always BST-rational.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1688,
@@ -92482,7 +92672,8 @@
         1978
       ],
       "date": "2026-05-04",
-      "plain": "Lattice ratio 77/75=c_2*g/(N_c*n_C^2). Period=rank^2*N_c=12=2*C_2. SrTiO3 fraction=1/N_c. 17 repeats yield N_max-1=136 active planes. N_max-1=rank^3*seesaw=8*17. The unique optimal superlattice for spectral engineering."
+      "plain": "Lattice ratio 77/75=c_2*g/(N_c*n_C^2). Period=rank^2*N_c=12=2*C_2. SrTiO3 fraction=1/N_c. 17 repeats yield N_max-1=136 active planes. N_max-1=rank^3*seesaw=8*17. The unique optimal superlattice for spectral engineering.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1689,
@@ -92494,7 +92685,8 @@
         1992
       ],
       "date": "2026-05-04",
-      "plain": "Error correction hierarchy from BST: Hamming(7,4,3)=simplest perfect code. Golay(rank^2*C_2,rank^2*N_c,rank^3)=(24,12,8). Reed-Solomon field GF(2^g)=GF(128), block N_max-1=136. Channel capacity log2(N_max)~g=7 bits. Overhead N_c/rank^2=3/4=75%."
+      "plain": "Error correction hierarchy from BST: Hamming(7,4,3)=simplest perfect code. Golay(rank^2*C_2,rank^2*N_c,rank^3)=(24,12,8). Reed-Solomon field GF(2^g)=GF(128), block N_max-1=136. Channel capacity log2(N_max)~g=7 bits. Overhead N_c/rank^2=3/4=75%.",
+      "commitment_cycle_zone": "Z1"
     },
     {
       "tid": 1698,
@@ -92506,7 +92698,8 @@
         2017
       ],
       "date": "2026-05-04",
-      "plain": "12 efficiency bounds (Carnot, Casimir, photovoltaic, etc.) are BST fractions. Eigenvalue gaps form arithmetic progression with common difference rank=2. Efficiency = gap ratio = BST fraction. From spectral structure of D_IV^5."
+      "plain": "12 efficiency bounds (Carnot, Casimir, photovoltaic, etc.) are BST fractions. Eigenvalue gaps form arithmetic progression with common difference rank=2. Efficiency = gap ratio = BST fraction. From spectral structure of D_IV^5.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1699,
@@ -92542,7 +92735,8 @@
         2016
       ],
       "date": "2026-05-04",
-      "plain": "Carnot, Casimir(n_C/g=5/7), Shockley-Queisser(1/N_c), Lindeman(1/(rank*n_C)), Betz(16/27=rank^4/N_c^3), all BST fractions. Eigenvalue gaps form AP(C_2,rank) \u2192 efficiency ratios are gap ratios."
+      "plain": "Carnot, Casimir(n_C/g=5/7), Shockley-Queisser(1/N_c), Lindeman(1/(rank*n_C)), Betz(16/27=rank^4/N_c^3), all BST fractions. Eigenvalue gaps form AP(C_2,rank) \u2192 efficiency ratios are gap ratios.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1691,
@@ -92554,7 +92748,8 @@
         2003
       ],
       "date": "2026-05-04",
-      "plain": "Sum of first 5 eigenvalues plus genus = spectral cap. lambda_1+lambda_2+lambda_3+lambda_4+lambda_5+g = 6+14+24+36+50+7 = 137 = N_max. Cu bulk modulus = N_max GPa because Cu sums the first n_C eigenvalues."
+      "plain": "Sum of first 5 eigenvalues plus genus = spectral cap. lambda_1+lambda_2+lambda_3+lambda_4+lambda_5+g = 6+14+24+36+50+7 = 137 = N_max. Cu bulk modulus = N_max GPa because Cu sums the first n_C eigenvalues.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1692,
@@ -92566,7 +92761,8 @@
         2004
       ],
       "date": "2026-05-04",
-      "plain": "Human body regulates within g = 7 K (36-43\u00b0C). Habitable zone width \u2248 lambda_5 = 50 K (-10 to 40\u00b0C). Earth mean temp = n_C*C_2*rank - N_c = 57\u00b0F. Body temp = n_C*g + rank = 37\u00b0C."
+      "plain": "Human body regulates within g = 7 K (36-43\u00b0C). Habitable zone width \u2248 lambda_5 = 50 K (-10 to 40\u00b0C). Earth mean temp = n_C*C_2*rank - N_c = 57\u00b0F. Body temp = n_C*g + rank = 37\u00b0C.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1693,
@@ -92627,7 +92823,8 @@
         2034
       ],
       "date": "2026-05-04",
-      "plain": "Spectral density of states has Van Hove singularities at eigenvalue gaps. Gaps form AP with a=C_2=6, d=rank=2. Range from lambda_1 to lambda_9 = 120 = n_C!. Desert of c_2=11 levels between lambda_9=126 and N_max=137."
+      "plain": "Spectral density of states has Van Hove singularities at eigenvalue gaps. Gaps form AP with a=C_2=6, d=rank=2. Range from lambda_1 to lambda_9 = 120 = n_C!. Desert of c_2=11 levels between lambda_9=126 and N_max=137.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1706,
@@ -92639,7 +92836,8 @@
         2035
       ],
       "date": "2026-05-04",
-      "plain": "Superlattice with period n_C=5 produces band quotients lambda_k/lambda_{k-1} at BST values: 6/1=C_2, 14/2=g, 24/3=rank^3, 36/4=N_c^2. Consecutive integers divided by k give consecutive BST integers."
+      "plain": "Superlattice with period n_C=5 produces band quotients lambda_k/lambda_{k-1} at BST values: 6/1=C_2, 14/2=g, 24/3=rank^3, 36/4=N_c^2. Consecutive integers divided by k give consecutive BST integers.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1707,
@@ -92651,7 +92849,8 @@
         2034
       ],
       "date": "2026-05-04",
-      "plain": "The eigenvalue range from lambda_1 to lambda_{K_max} = lambda_9 is exactly n_C! = 120. This identity depends on N_c=3 and n_C=5 specifically: lambda_9 = 9*14 = 126, lambda_1 = 6, difference = 120 = 5!. Route 8 to uniqueness of n_C=5."
+      "plain": "The eigenvalue range from lambda_1 to lambda_{K_max} = lambda_9 is exactly n_C! = 120. This identity depends on N_c=3 and n_C=5 specifically: lambda_9 = 9*14 = 126, lambda_1 = 6, difference = 120 = 5!. Route 8 to uniqueness of n_C=5.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1708,
@@ -92687,7 +92886,8 @@
         2036
       ],
       "date": "2026-05-04",
-      "plain": "BST coherence score counts alignment criteria. BaTiO3=11=c_2, Diamond=8=rank^3, Si=7=g."
+      "plain": "BST coherence score counts alignment criteria. BaTiO3=11=c_2, Diamond=8=rank^3, Si=7=g.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1713,
@@ -92699,7 +92899,8 @@
         2041
       ],
       "date": "2026-05-04",
-      "plain": "Every element Z=1..118 expressible as BST product at depth 2. 70 at depth 1. Noble gases He=rank, Ne=rank*n_C, Ar=N_c*C_2, Kr=C_2^2, Xe=rank*N_c^3. All magic numbers BST. First-row transition metals all direct BST products."
+      "plain": "Every element Z=1..118 expressible as BST product at depth 2. 70 at depth 1. Noble gases He=rank, Ne=rank*n_C, Ar=N_c*C_2, Kr=C_2^2, Xe=rank*N_c^3. All magic numbers BST. First-row transition metals all direct BST products.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1714,
@@ -92759,7 +92960,8 @@
         2047
       ],
       "date": "2026-05-04",
-      "plain": "Dysprosium magnetic transitions: Curie T_C=88=rank^3*11, Neel T_N=179=N_max+rank*g+rank*N_c, helical width=91=g*13. Chern classes c_2=11 and c_3=13 control magnetic phase transitions."
+      "plain": "Dysprosium magnetic transitions: Curie T_C=88=rank^3*11, Neel T_N=179=N_max+rank*g+rank*N_c, helical width=91=g*13. Chern classes c_2=11 and c_3=13 control magnetic phase transitions.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1719,
@@ -92831,7 +93033,8 @@
         2062
       ],
       "date": "2026-05-05",
-      "plain": "7 layers: heptit registers (g*rank^3=56 states), SO(5)\u00d7SO(2) gates (c_2=11 generators, d(3)=77 gate space), Fibonacci interconnect (N_max channels), NV memory (Hamming(7,4,3)), Cheeger EC (exp(-21)), Casimir power (eta=5/7), FE comm. 539=g*77 parallel ops. 1 fJ/gate=1000x below CMOS."
+      "plain": "7 layers: heptit registers (g*rank^3=56 states), SO(5)\u00d7SO(2) gates (c_2=11 generators, d(3)=77 gate space), Fibonacci interconnect (N_max channels), NV memory (Hamming(7,4,3)), Cheeger EC (exp(-21)), Casimir power (eta=5/7), FE comm. 539=g*77 parallel ops. 1 fJ/gate=1000x below CMOS.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1725,
@@ -92855,7 +93058,8 @@
         2059
       ],
       "date": "2026-05-05",
-      "plain": "Golden ratio^(complex dimension) \u2248 second Chern class at 0.8%. Periodic crystals filter BST-integer frequencies, quasicrystals filter phi-related frequencies. Together: complete spectral control. Bergman 3-shell = 44 = rank^2*(C_2+n_C)."
+      "plain": "Golden ratio^(complex dimension) \u2248 second Chern class at 0.8%. Periodic crystals filter BST-integer frequencies, quasicrystals filter phi-related frequencies. Together: complete spectral control. Bergman 3-shell = 44 = rank^2*(C_2+n_C).",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1727,
@@ -92879,7 +93083,8 @@
         2061
       ],
       "date": "2026-05-05",
-      "plain": "Casimir harvester: eta_max=n_C/g=5/7, stroke=g/rank=3.5. Asymmetric cycling with open/close ratio=g=7 gives 1.7x efficiency over symmetric. BaTiO3 at N_max=137 planes. THz lattice: mW/cm^2."
+      "plain": "Casimir harvester: eta_max=n_C/g=5/7, stroke=g/rank=3.5. Asymmetric cycling with open/close ratio=g=7 gives 1.7x efficiency over symmetric. BaTiO3 at N_max=137 planes. THz lattice: mW/cm^2.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1729,
@@ -92892,7 +93097,8 @@
         2067
       ],
       "date": "2026-05-05",
-      "plain": "Arthur-Johnson classification of non-tempered reps on SO(5,2). IW sign eliminates 23/37. Casimir gap kills remaining 14. Asymmetry p-q=N_c. Signature (n_C,rank). R-11 RESOLVED."
+      "plain": "Arthur-Johnson classification of non-tempered reps on SO(5,2). IW sign eliminates 23/37. Casimir gap kills remaining 14. Asymmetry p-q=N_c. Signature (n_C,rank). R-11 RESOLVED.",
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1730,
@@ -92943,7 +93149,8 @@
         2070
       ],
       "date": "2026-05-05",
-      "plain": "Z(s) factors via m_2(s) = xi(s-2)/xi(s+1). Bergman-to-critical-line shift = rank = 2. Temperedness + trace formula determines zeta'/zeta on Re(s)=1/2. Fix A viable \u2014 remaining gap is test function construction (Connes). R-14 RESOLVED."
+      "plain": "Z(s) factors via m_2(s) = xi(s-2)/xi(s+1). Bergman-to-critical-line shift = rank = 2. Temperedness + trace formula determines zeta'/zeta on Re(s)=1/2. Fix A viable \u2014 remaining gap is test function construction (Connes). R-14 RESOLVED.",
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1734,
@@ -92955,7 +93162,8 @@
         2071
       ],
       "date": "2026-05-05",
-      "plain": "Selberg trace formula positivity budget on Gamma(137)\\D_IV^5. Discrete lambda_1=C_2=6. Continuous starts at |rho|^2=8.5. Gap 2.5=n_C/rank provides exponential margin e^{2.5t}. Zeta zeros contribute positively via Faddeev terms. R-15 RESOLVED."
+      "plain": "Selberg trace formula positivity budget on Gamma(137)\\D_IV^5. Discrete lambda_1=C_2=6. Continuous starts at |rho|^2=8.5. Gap 2.5=n_C/rank provides exponential margin e^{2.5t}. Zeta zeros contribute positively via Faddeev terms. R-15 RESOLVED.",
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1735,
@@ -93036,7 +93244,8 @@
         "spectral gap C_2=6 > max displacement 9/4",
         "Type 36 excluded by unitarity (Casimir<0)",
         "Bergman Laplacian eigenvalue is geometric"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1741,
@@ -93387,7 +93596,8 @@
         "Convention: Bergman center 1/2 not rho_{P_2,1}=2",
         "Cal referee #38 two errors identified and corrected",
         "19/19 numerical checks PASS"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1759,
@@ -93446,7 +93656,8 @@
         "NS: Cheeger h and lambda_1 are topological invariants",
         "Hodge: FE residues are BST integers, no transcendental wall",
         "YM: m(0++) from same Chern formula as proton mass"
-      ]
+      ],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1762,
@@ -93484,7 +93695,8 @@
         "lambda_1 = C_2 = 6 is topological",
         "h = sqrt(34)/2 is isoperimetric constant (topological)",
         "Enstrophy ODE depends only on spectral gap, not IC"
-      ]
+      ],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1764,
@@ -93504,7 +93716,8 @@
         "Lattice: 1730 +/- 80 MeV (Morningstar-Peardon 1999)",
         "Ratio m(0++)/m_p = c_2/C_2 = 11/6",
         "F_{mu nu} is 2-form, so glueball uses 2-form gap"
-      ]
+      ],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1765,
@@ -93604,7 +93817,8 @@
         "Omega(n/log n) effectively independent blocks",
         "Width >= Omega(n/log n) (Beame-Pitassi-Segerlind)",
         "Size >= 2^{Omega(n/(log n)^2)} (Ben-Sasson-Wigderson 2001)"
-      ]
+      ],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1770,
@@ -94015,7 +94229,8 @@
         "R_2 on Q^5 determined by Casimir of adjoint rep",
         "c_2 = C_2 + n_C = 6 + 5 = 11",
         "m(0++) = c_2*pi^5*m_e = 1720 MeV vs lattice 1710"
-      ]
+      ],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1791,
@@ -94073,7 +94288,8 @@
         "R^4 admits dilations \u2192 scale-free",
         "Contrapositive: gap requires curvature",
         "D_IV^5 has curvature: h = sqrt(34)/2, lambda_1 = C_2 = 6"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1794,
@@ -94164,7 +94380,8 @@
       "plain": "NS K41 Spectral Cascade (GC-15): K41 exponent 5/3 = n_C/N_c (D-tier). N_eff <= n_C = 5 (D-tier, convergent zeta at exponent>1). Cheeger sharpening: N_eff = sqrt(34)/4 = 1.458 (3% of empirical 1.48-1.52). Blow-up constant bounded by BST integers. Zero phenomenological inputs.",
       "proofs": [
         "See GC note"
-      ]
+      ],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1798,
@@ -94253,7 +94470,8 @@
       "plain": "SE Falsifiable GC Tests (GC-12): Three experiments mapped to five-step method. BaTiO3 137-plane ($25K), photonic crystal ($10K), Casimir flow cell ($50K). Total $85K. Each: constraint \u2192 derivation \u2192 prediction \u2192 experiment \u2192 falsification. 13/13 PASS.",
       "proofs": [
         "See GC note"
-      ]
+      ],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1804,
@@ -94368,7 +94586,8 @@
       "plain": "Modularity as Kernel Symmetry: K(z,xi) = K(xi,z). AC(0) depth 0. Modularity = Hermitian symmetry of Bergman kernel restricted to P_2. Self-adjointness = boundary->interior and interior->boundary are adjoint maps.",
       "proofs": [
         "See GC-17b note"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1811,
@@ -94385,7 +94604,8 @@
       "plain": "Self-Referential Irreducibility: x^g + x^{N_c} + 1 irreducible over F_2 (T1384). Frobenius acts transitively on 18 = 2*N_c^2 orbits of GF(128)*. Modularity correspondence admits no non-trivial factorization. 'Partially modular' is impossible.",
       "proofs": [
         "See GC-17b note"
-      ]
+      ],
+      "commitment_cycle_zone": "Z1"
     },
     {
       "tid": 1812,
@@ -94422,7 +94642,8 @@
         "d(0)=1 (vacuum), d(1)=g=7, lambda_1=C_2=6",
         "Gleason dim>=3=N_c, Bergman, Shilov all agree",
         "Measurement chain: Poisson + Bergman = complete info"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1814,
@@ -94442,7 +94663,8 @@
         "n_C = cost (dimensions), N_max = budget (modes)",
         "Planck match: 0.33 sigma",
         "Zero free parameters vs 1+ in standard inflation"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1815,
@@ -94548,7 +94770,8 @@
         "R(S^3) = N_c(N_c-1) = C_2 = 6",
         "C_2/rank = N_c (spectral projection)",
         "K_B = S^2 (rank-2 factorization)"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1821,
@@ -94568,7 +94791,8 @@
         "K = -2/g = -2/7 (Bergman curvature)",
         "Time dilation = 1/sqrt(K(z,z))",
         "Five readings: T1234 applied to Bergman kernel"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1822,
@@ -94609,7 +94833,8 @@
         "Growth period = N_c = 3",
         "mu = g*2^N_c = 56",
         "genus(X_0(49)) = 1, genus(X_0(137)) = 11 = c_2"
-      ]
+      ],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1824,
@@ -94649,7 +94874,8 @@
         "K41 branching: n_C/N_c = 5/3",
         "Ricci decay: 2*lambda_1 = 2*N_c = C_2",
         "Eigenvalue ladder: all BST integers"
-      ]
+      ],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1826,
@@ -94805,7 +95031,8 @@
         "Eigenvalue projection: lambda_k(Q^5)/N_c = k(k+2) = lambda_k(S^3)",
         "Codimension = rank = 2",
         "Normal bundle dim = 4"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1834,
@@ -94920,7 +95147,8 @@
         "Temperedness: all cuspidal reps tempered (T1740-T1741)",
         "Bergman kernel K(z,z) positive everywhere",
         "Cheeger h=sqrt(34)/2 controls mixing"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1840,
@@ -95116,7 +95344,8 @@
         "Hecke diagonal in Bergman basis",
         "zeta(3/2) at Wallach pole",
         "BST integers in constant terms"
-      ]
+      ],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1851,
@@ -95204,7 +95433,8 @@
         "h = 1 (class number)",
         "disc = g^(n_C) = 7^5",
         "Galois = Z/C_2"
-      ]
+      ],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1856,
@@ -95586,7 +95816,8 @@
       "plain": "196883 Factorization (A-3): 47*59*71 all BST-Chern depth 1. 47=g^2-rank (cosmo exponent). 59=n_C*c_3-C_2. 71=g*c_2-C_2. Casimir C_2=6 is universal correction. Monster and Lambda share factor 47. 16/16 PASS.",
       "proofs": [
         "See toy"
-      ]
+      ],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1878,
@@ -96338,7 +96569,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Twistor + Chirality + CP from D_IV\u2075 Complex Structure (W-22 closure): D_IV\u2075 extends Penrose twistor space by 1 complex dim (Bergman direction); SO(5,2) extends SO(4,2) by C_2 = 6 generators (T1939). C",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 1948,
@@ -96383,7 +96615,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Energy-Binding Modes Enumeration on D_IV\u2075 + Casey's Third Regime (W-26 closure): 13 binding modes enumerated, organized in three regimes per Casey: (a) surface-bound = 11 modes (Shilov, bulk geodesic,",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 1951,
@@ -96743,7 +96976,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Kaon CP Violation |\u03b5_K| = C_2\u00b7g\u00b7\u03b1_em\u00b2 = 42/N_max\u00b2 \u2248 0.002238 (closes \u03b1\u00b2\u00b742 recurrence observation): The kaon CP-violation parameter |\u03b5_K| = (Chern flux 42)\u00b7(\u03b1_em\u00b2) where 42 = C_2\u00b7g = second Casimir \u00d7 ",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 1975,
@@ -97118,7 +97352,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Fine structure constant correction: \u03b1^-1 = N_max + n_C/N_max (tentative I-tier): The correction beyond Wyler N_max = 137 reads \u03b1^-1 \u2248 137 + 5/137 = 137.0364964 vs CODATA observed 137.0359991. Match at",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 2002,
@@ -97433,7 +97668,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Nuclear magic numbers ALL SEVEN in BST integers (I-tier): 2 = rank, 8 = rank\u00b3, 20 = rank\u00b2\u00b7n_C, 28 = rank\u00b2\u00b7g, 50 = rank\u00b7n_C\u00b2, 82 = N_max\u2212n_C\u00b7c_2 (also rank\u00b741 Ogg), 126 = rank\u00b7N_c\u00b2\u00b7g (also N_max\u2212c_2). ",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 2030,
@@ -97643,7 +97879,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Fine structure \u03b1^-1(M_Z) = N_max - N_c\u00b2 = 128 (D-tier): At Z-pole, \u03b1_em^-1 = 137-9 = 128 vs PDG 127.952 at 0.04%. Equivalent BST: rank^7 = 128 (= 2^7). Shift \u0394\u03b1^-1 = N_c\u00b2 = 9 matches obs 9.08 at 0.9%.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 2049,
@@ -97658,7 +97895,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Batch BST integer identifications (D-tier across new domains): (1) CMB first acoustic peak \u2113_1 = rank\u00b2\u00b7n_C\u00b7c_2 = 220 EXACT (Planck 2018); (2) Casimir denominator F/A=\u03c0\u00b2\u210fc/(rank\u2074\u00b7n_C\u00b7N_c\u00b7d\u2074), 240 = ran",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 2050,
@@ -97703,7 +97941,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Radiation-Era Thermodynamic Constants in BST Integers: Three radiation-era constants read off BST primary integers. (a) Stefan-Boltzmann: \u03c3 = 2\u03c0\u2075\u00b7k_B\u2074/(15\u00b7h\u00b3\u00b7c\u00b2) \u2014 the 15 = N_c\u00b7n_C = \u03b1_G Bergman evalu",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2054,
@@ -98063,7 +98302,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Free neutron decay rate ln(\u0393_n/m_e\u00b7c\u00b2) = \u2212c_2\u00b7n_C = \u221255 at 0.218% (FIFTH multi-role use of 55 = Wallach K-type dim_4): Free neutron \u03b2-decay (n \u2192 p + e\u207b + \u03bd\u0304_e) lifetime \u03c4_n = 879.4 s (PDG 2024) gives ",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2084,
@@ -98093,7 +98333,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Wallach K-type dim_2 = G_2 (exceptional Lie group) dimension = rank\u00b7g = 14 \u2014 closes the Wallach \u2194 observable ladder: The smallest exceptional Lie group G_2 has rank 2 (= BST rank) and dimension 14 = r",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2086,
@@ -98213,7 +98454,8 @@
       ],
       "date": "2026-05-16",
       "plain": "PMNS neutrino mixing matrix angles in BST integers (13th multi-role use of 42 = C_2\u00b7g): All three PMNS mixing angles read off D_IV\u2075 Chern/Casimir ratios. **sin\u00b2\u03b8_12 (solar) = (C_2\u00b7g)/N_max = 42/137 = ",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 2094,
@@ -98243,7 +98485,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Eisenstein series Fourier coefficients in BST integers: E_2 coef = 24 = rank\u00b3\u00b7N_c (also \u03c7(K3) T1953); E_4 coef = 240 = rank\u2074\u00b7n_C\u00b7N_c (also Casimir T2049); E_6 coef = 504 = rank\u00b3\u00b7N_c\u00b2\u00b7g; E_8 coef = 480",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 2096,
@@ -98333,7 +98576,8 @@
       ],
       "date": "2026-05-16",
       "plain": "W-36 Casimir/Hawking/Schwinger unification (Keeper-recommended #76, crosses T2100): Three \"different\" vacuum-emission phenomena are ONE BST mechanism at different boundary scales on D_IV\u2075. (1) CASIMIR",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2102,
@@ -98348,7 +98592,8 @@
       ],
       "date": "2026-05-16",
       "plain": "W-31 Asymmetric ontology: Baryons primary, Leptons appendage (Casey #71): CASEY'S CLAIM CONFIRMED in BST. Baryons = \"substrate volume integrals on D_IV\u2075\": (a) mass formulas use \u03c0^{n_C} = Bergman volum",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2103,
@@ -98408,7 +98653,8 @@
       ],
       "date": "2026-05-16",
       "plain": "AB-11 Gravity as cumulative eigentone effect on D_IV\u2075 (#134, SP-19b P-3): Gravity is NOT fundamental but emerges as cumulative effect of all substrate eigentones (heat kernel modes a_n integrated). G_",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2107,
@@ -98423,7 +98669,8 @@
       ],
       "date": "2026-05-16",
       "plain": "W-34 Casimir pressure decay mechanism (Task #74, pair with Elie W-29): Casimir force F/A \u221d d^(-4) = d^(-rank\u00b2); sensitivity dF/dd \u221d d^(-5) = d^(-n_C). The decay exponent rank\u00b2 and sensitivity exponent",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 2108,
@@ -98468,7 +98715,8 @@
       ],
       "date": "2026-05-16",
       "plain": "AB-6 D_IV\u2075 \u2192 Shilov boundary BST inheritance (#129, SP-19b P-2 foundation): D_IV\u2075 has natural Shilov-like boundary structure via Q\u2075 = SO(7)/[SO(5)\u00d7SO(2)] (compact dual). BST integers inherit bulk \u2192 bo",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2111,
@@ -98678,7 +98926,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Wallach K-type tower extends BST-decomposability through dim_12 (extends T2085 from dim_0..dim_6 to dim_0..dim_12 + predicted \u221e): The Wallach K-type formula d_m = (2m+N_c)(m+1)(m+rank)/C_2 generates i",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2125,
@@ -98798,7 +99047,8 @@
       ],
       "date": "2026-05-16",
       "plain": "\u03b5_K kaon CP violation via Bernoulli VSC chain (K43-style trace promoting T1974 from I to D-tier): Per Keeper K43 audit (\"Conditional D-tier: heat kernel a_3, QED loops, \u03b6(6), Q\u2075 Chern via Hirzebruch L",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2133,
@@ -98813,7 +99063,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Heat kernel coefficient a_3 has Bernoulli VSC structure \u2014 K43 strongest mechanism upgrade vector (per Cal flag): Seeley-DeWitt asymptotic expansion K(t,x,x) = (4\u03c0t)^(-d/2)\u00b7\u03a3 a_k(x)\u00b7t^k has the a_3 coe",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2134,
@@ -98858,7 +99109,8 @@
       ],
       "date": "2026-05-16",
       "plain": "\u03c0 enters BST observables ONCE per Bergman/S\u00b9 integration with integer exponent \u2014 structural answer to SP-12 U-1.5: BST observables involving \u03c0 always have \u03c0^k with k a small POSITIVE INTEGER (typicall",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2137,
@@ -98903,7 +99155,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Phase transitions = Wallach K-type eigenvalue crossings on D_IV\u2075 \u2014 answers SP-12 U-3.4: Cosmological and condensed-matter phase transitions occur at energy/temperature scales corresponding to Wallach ",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2140,
@@ -98918,7 +99171,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Wallach K-type physics-anchor ladder is OPEN beyond dim_6 \u2014 honest negative on dim_7..dim_12 anchoring after systematic 16-observable search: T2085 closed dim_0..dim_6 to SM observables (DM mass, K-or",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2141,
@@ -98933,7 +99187,8 @@
       ],
       "date": "2026-05-16",
       "plain": "5/6 self-description threshold = n_C/C_2 via vacuum subtraction on D_IV\u2075 \u2014 answers SP-12 U-3.7: The fraction 5/6 = n_C/C_2 = (C_2-1)/C_2 = 1 - 1/C_2 arises from D_IV\u2075's Bergman spectral basis having C",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2142,
@@ -99173,7 +99428,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Hodge reversal on D_IV\u2075 acts within Wallach K-types on (p,q) bigrading \u2014 answers SP-12 U-3.8: Hodge star * pairs (p,q) \u2194 (n_C-p, n_C-q) = (5-p, 5-q) within each Wallach K-type d_m; total d_m preserved",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2158,
@@ -99488,7 +99744,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Toy 2800 milestone (313 toys filed Sunday, 105+ theorems Lyra cluster T2001-T2180). Cathedral complete. Heat kernel cooks. Tier D (milestone). Source: Lyra Toy 2800. AC=(C=0,D=1).",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2183,
@@ -99548,7 +99805,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Cosmological cascade errors per-step = c_2 (Bergman scale) \u2014 answers SP-12 U-3.3 (10.9\u00d7 systematic): Per-step factor \u2248 10.9 \u2248 c_2 = 11. Mechanism: Bergman kernel on D_IV\u2075 produces c_2 as natural scale",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2187,
@@ -99608,7 +99866,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Thermodynamic / radiation constants BST denominators (5/5): Stefan-Boltzmann 60 = rank\u00b2\u00b7n_C\u00b7N_c (T2049); Casimir 240 = rank\u2074\u00b7n_C\u00b7N_c (T2049); Bekenstein 4 = rank\u00b2 (T2114); Hawking 8\u03c0 denominator: 8 = ",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 2184,
@@ -99623,7 +99882,8 @@
       ],
       "date": "2026-05-16",
       "plain": "Substrate creation sequence = rank \u2192 n_C \u2192 N_c \u2192 C_2 \u2192 g \u2192 derived integers \u2014 answers SP-12 U-1.6: BST integers emerge from D_IV\u2075 in ontological priority order set by Cartan classification + spectral ",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "meta"
     },
     {
       "tid": 2185,
@@ -99653,7 +99913,8 @@
       ],
       "date": "2026-05-16",
       "plain": "BST correction mechanism = Rational Function of Casimirs (RFC) \u2014 answers SP-12 U-2.2: Verified across 18 BST correction formulas (Schwinger \u03b1/2\u03c0, \u0394a_\u03bc, \u03b5_K, BR(H\u2192\u03b3\u03b3/\u03c4\u03c4/\u03bc\u03bc/cc), a_\u03bc A_n 4/5-loop, HVP, H",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 2191,
@@ -100647,7 +100908,8 @@
       "toys": [],
       "date": "2026-05-17",
       "plain": "Sunday Root architecture work by Grace",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2324,
@@ -100790,7 +101052,8 @@
       "toys": [],
       "date": "2026-05-17",
       "plain": "Sunday Root architecture work by Lyra",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2335,
@@ -100855,7 +101118,8 @@
       "toys": [],
       "date": "2026-05-17",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2340,
@@ -100961,7 +101225,8 @@
       ],
       "date": "2026-05-18",
       "plain": "Wallach dim_5 = c_3\u00b7g anchored via Eddington N_baryon or m_Z(GeV)",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2347,
@@ -100974,7 +101239,8 @@
       "toys": [],
       "date": "2026-05-18",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2348,
@@ -100987,7 +101253,8 @@
       "toys": [],
       "date": "2026-05-18",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 2357,
@@ -101002,7 +101269,8 @@
       ],
       "date": "2026-05-18",
       "plain": "Closes Wallach observable ladder. Bravais 1849 = candidate Root #10.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2349,
@@ -101028,7 +101296,8 @@
       "toys": [],
       "date": "2026-05-18",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2351,
@@ -101041,7 +101310,8 @@
       "toys": [],
       "date": "2026-05-18",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2352,
@@ -101054,7 +101324,8 @@
       "toys": [],
       "date": "2026-05-18",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2353,
@@ -101067,7 +101338,8 @@
       "toys": [],
       "date": "2026-05-18",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2354,
@@ -101096,7 +101368,8 @@
       ],
       "date": "2026-05-18",
       "plain": "Lyra T2356 M\u00f6bius cohomology Session 4: nontrivial generator of H\u00b9_{Z/2}(M, Z) \u2245 Z/2 identified with spectral parity \u03bd(M). Lichnerowicz threshold n_C\u00b7g/4 = 8.75 partitions Wallach K-types into sub-threshold {(0,0),(0,1),(1,0)} (3 modes, ODD) and super-threshold. Type C-Z/2 sub-class of Type C convergence. Toys 3014+3018 13/13 PASS.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2358,
@@ -101122,7 +101395,8 @@
       "toys": [],
       "date": "2026-05-18",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2360,
@@ -101135,7 +101409,8 @@
       "toys": [],
       "date": "2026-05-18",
       "plain": "",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 2363,
@@ -101176,7 +101451,8 @@
       ],
       "date": "2026-05-18",
       "plain": "Bravais Root #10 candidate independence vs Cartan classification",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "meta"
     },
     {
       "tid": 2369,
@@ -101264,7 +101540,8 @@
       ],
       "date": "2026-05-18",
       "plain": "Heat kernel trace coefficients in BST primary cascade form",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2375,
@@ -101294,7 +101571,8 @@
       ],
       "date": "2026-05-18",
       "plain": "75/4 = N_c\u00b7n_C\u00b2/rank\u00b2 scalar Laplacian rate; 24 predictions filed for Tuesday",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2376,
@@ -101322,7 +101600,8 @@
       ],
       "date": "2026-05-18",
       "plain": "Three D-tier identities at point-trace level (1)/(2): T2376 cascade verified k=0..4; Lichnerowicz binomial closure Tr(\u2207*\u2207^k)=32\u00b7(75/4)^k; 18.75 = N_c\u00b7n_C\u00b2/rank\u00b2 compact form confirmed. Lyra (author).",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2361,
@@ -101467,7 +101746,8 @@
       ],
       "date": "2026-05-19",
       "plain": "Casimir gap L_c = N_max\u00b7a_0 = 7.25 nm separates substrate-commitment regime (L<L_c) from classical Lifshitz (L>L_c). \u03b1-order kink predicted. Grace (author).",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 2385,
@@ -101495,7 +101775,8 @@
       "toys": [],
       "date": "2026-05-19",
       "plain": "Substrate attention as scalar field A:D_IV\u2075\u2192\u211d+ via Bergman kernel. Lyra (author).",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2383,
@@ -101536,7 +101817,8 @@
       ],
       "date": "2026-05-19",
       "plain": "Five contexts share BST primary form 3/1507 = N_c/(N_max\u00b7c_2): Decca Casimir, SP29-1 Cs-137 H4, IP-14 \u0394\u03b1(M_Z), W-37 substrate attention, SP29-3 angular. K54 audit candidate. Lyra (author).",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 2387,
@@ -101549,7 +101831,8 @@
       "toys": [],
       "date": "2026-05-19",
       "plain": "K52a (1/M_g class) and K56 (2^g function alphabet) share same 'why g=7' mechanism path. Three candidates: Mersenne primality, BST primary cascade, Bergman genus. Over-determination. Lyra (author).",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2389,
@@ -101579,7 +101862,8 @@
       ],
       "date": "2026-05-19",
       "plain": "B5 v0.3 Phase A opens: A_3 = 24 = \u03c7_K3 = \u03bb_W(2,2), 3-loop QED diagram count 72 = N_c\u00b7\u03c7_K3, internal Type C convergence within muon g-2 (HVP shares K-type 2,2 with A_3). Lyra (author). Toy 3083 4/4 PASS.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2224,
@@ -101956,7 +102240,8 @@
       "toys": [],
       "date": "2026-05-16",
       "plain": "Extended Nuclear Magic Numbers Including Exotic 184 are BST (Lyra 2026-05-16) \u2014 Lyra cross-domain BST decomposition sweep. Hygiene-filed 2026-05-19 by Grace.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 2261,
@@ -102312,7 +102597,8 @@
       ],
       "date": "2026-05-19",
       "plain": "Continues B5 Phase A from n=3 (T2388) to n=4, 5, 6. A_4 = 131 = N_max-C_2 cross-domain Type C-\u2115 (QED 4-loop = BST c-function RG drop). A_6 = 4500 forward prediction (decade-scale). Lyra.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2392,
@@ -102328,7 +102614,7 @@
       "date": "2026-05-19",
       "plain": "LAG-2 Phase 2.3 Step (b) Faraut-Koranyi factorization + structural cross-link to Elie K52a GF(2^g) (1\u00b11/M_g) duality. Internal^6 = 1+N_c+rank gauge split MIRRORS GF(2^g) additive/multiplicative structure. Joint K-audit candidate. Lyra (author).",
       "proofs": [],
-      "commitment_cycle_zone": "Z3"
+      "commitment_cycle_zone": "Z1"
     },
     {
       "tid": 2393,
@@ -102405,7 +102691,8 @@
       ],
       "date": "2026-05-19",
       "plain": "Lyra T2397 Toy 3111 21/21 PASS. SP-30-2 through SP-30-8 framework opened with mechanism + BST primary + falsifier per sub-item. Notable: SP-30-5 Bell violation (N_c/rank)\u00b7\u221a(g/rank) \u2248 2.806 vs Tsirelson 2.828 = 0.79% testable at current Bell infrastructure (FASTEST falsifier candidate). SP-30-8 Born rule correction 5.3e-5.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2398,
@@ -102418,7 +102705,8 @@
       "toys": [],
       "date": "2026-05-19",
       "plain": "Lyra T2398 SP-30 v0.2 deepening. 14 v0.2 claims with HONEST DERIVATION STATUS: 4 DERIVED + 7 TARGET-PREDICTION + remaining FRAMEWORK/BOUNDED/ORDER-OF-MAG. DERIVED include M_g=127, GF(2^g)=128, g=7 bits/cycle, Bergman exp g/rank=7/2 (T2392/T2395 confirmed). Discipline preserved.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2399,
@@ -102450,7 +102738,7 @@
       "date": "2026-05-19",
       "plain": "Lyra+Elie joint T2400 MILESTONE. Q=126 has FOUR equivalent BST-primary forms: M_g\u22121 = 2^g\u2212rank = N_max\u2212c_2 = rank\u00b7g\u00b7N_c\u00b2. Shared numerator in Lamb (K52a 126/127) + Bell (K66 T2399 S_BST\u00b2/Tsirelson\u00b2 = 126/128). BCS complement Q' = Q+rank = 128 = 2^g (additive/multiplicative GF(2^g) duality). Joint K52a+K66 audit candidate. Toy 3120 8/8 PASS.",
       "proofs": [],
-      "commitment_cycle_zone": "Z2"
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2401,
@@ -102480,7 +102768,7 @@
       "date": "2026-05-19",
       "plain": "Lyra T2402 SP-30-7 substrate computation as GF(2^g) cyclotomic operations on g=7 bits/cell/cycle. K68 audit-partial-ready. Completes Wednesday K-audit triplet: K66 (Bell T2399) + K67 (Born T2401) + K68 (Computation T2402). Joins cascade-unblock cluster (5 cyclotomic + 1 holomorphic = 6 audits).",
       "proofs": [],
-      "commitment_cycle_zone": "Z1"
+      "commitment_cycle_zone": "Z3"
     },
     {
       "tid": 2403,
@@ -102524,7 +102812,7 @@
       "date": "2026-05-19",
       "plain": "Lyra T2405 (Tue 2026-05-19 EOD). Substrate clock cycle (Koons tick) admits BST-primary form: t_substrate = t_Planck \u00b7 \u03b1^(C_2\u00b2) = t_Planck / N_max^36 \u2248 10^{-120.19} s. Third \u03b1-perturbation order in BST catalog. Mechanism for C_2\u00b2 exponent multi-week (likely Elie substrate-Hamiltonian eigenvalue spacing). Potential 7-audit cascade extension if mechanism closes.",
       "proofs": [],
-      "commitment_cycle_zone": "Z1"
+      "commitment_cycle_zone": "Z4"
     },
     {
       "tid": 2406,
@@ -102595,7 +102883,8 @@
       "toys": [],
       "date": "2026-05-20",
       "plain": "Elie T2410 Toy 3145 (Wed 2026-05-20 Phase 2). Cross-link toy joining algebraic-identity universality + multi-criterion uniqueness. Registry filing pending.",
-      "proofs": []
+      "proofs": [],
+      "commitment_cycle_zone": "meta"
     },
     {
       "tid": 2411,
@@ -102699,7 +102988,7 @@
       "date": "2026-05-20",
       "plain": "Lyra T2418 / Toy 3165 (Wed 2026-05-20 ~15:15 EDT). Casimir effect AND \u039b share same substrate vacuum origin; differ only in BC presence. \u039b at NO-BC limit (T1485); Casimir at BC-modulated limit (Toy 1567 ratio = g = 7). Both share BST primary g=7. SP-30-2 Casimir experiments become cosmologically-relevant tests.",
       "proofs": [],
-      "commitment_cycle_zone": "Z4"
+      "commitment_cycle_zone": "Z2"
     },
     {
       "tid": 2419,
@@ -102809,6 +103098,50 @@
       "external_register_flag": "DEFAULT-DENY EXTERNAL per Cal #48+#49",
       "external_register_class": "L2-COGNITION sub-class",
       "proofs": []
+    },
+    {
+      "tid": 2425,
+      "name": "Task #247 Substrate-native angular momentum operator v0.1 \u2014 zoo 5/6",
+      "domain": "task #247 / substrate-native operator zoo / angular momentum",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 PM resumption",
+      "toys": [
+        3181
+      ],
+      "date": "2026-05-20",
+      "plain": "Lyra T2425 / Toy 3181 (Wed 2026-05-20 ~17:35 EDT). Fifth substrate-native operator. L_substrate = M_z \u00d7 P_z Bergman cross-product on A\u00b2(D_IV\u2075); SO(5) 10 generators vs SO(3) 3. Zoo 5/6 \u2014 energy Hamiltonian pending.",
+      "commitment_cycle_zone": "Z3",
+      "proofs": []
+    },
+    {
+      "tid": 2426,
+      "name": "Task #267 Cosmological observational signatures v0.1 \u2014 substrate cycle cosmology, GREEN cosmology external",
+      "domain": "task #267 / cosmological observational signatures / substrate cycle",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 PM cross-lane integration",
+      "toys": [],
+      "date": "2026-05-20",
+      "plain": "Lyra T2426 / Toy 3185 (Wed 2026-05-20 ~17:50 EDT). Cosmological observable connections to substrate cycle. Cal #50 GREEN cosmology-only external acceptable; cognition-cosmology unified framing DEFAULT-DENY.",
+      "proofs": [],
+      "commitment_cycle_zone": "Z4"
+    },
+    {
+      "tid": 2427,
+      "name": "Strong-Uniqueness Theorem v0.5 with C11 multi-family Bridge Object \u2014 10 independent criteria",
+      "domain": "task #206 / strong-uniqueness v0.5 / C11 multi-family bridge objects",
+      "status": "proved",
+      "depth": 1,
+      "conflation": 0,
+      "section": "BST_AC_Theorems Wednesday 2026-05-20 PM cross-lane integration",
+      "toys": [],
+      "date": "2026-05-20",
+      "plain": "Lyra T2427 / Toy 3188 (Wed 2026-05-20 ~17:55 EDT). C11 from Keeper K76+ multi-family Bridge Object structure. D_IV\u2075 uniquely supports Heegner-trio + \u03c7=24 non-Heegner + N_max-anchor families. 10/12 criteria toward Strong-Uniqueness target.",
+      "proofs": [],
+      "commitment_cycle_zone": "meta"
     }
   ],
   "metadata": {

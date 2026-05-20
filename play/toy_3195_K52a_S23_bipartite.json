@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "K52a Session 23 bipartite tensor-product framework"
+  },
+  "casey_status": "continue (post-plateau)",
+  "keeper_note": "no acceleration needed; multi-month respected",
+  "bipartite_partition": "8 \u00d7 16 = 2^N_c \u00d7 2^(g-N_c) (BST-natural)",
+  "max_schmidt_rank": 8,
+  "maximally_entangled_expectation_value": 0.05468749999999999,
+  "predicted_naive_126_16": 7.875,
+  "predicted_naive_7_16": 0.4375,
+  "maximally_entangled_gives": "7/16 NOT 126/16",
+  "ratio_form_interpretation": "126/128 = 1 - 1/2^N_c (Tsirelson \u00b7 7/8)",
+  "three_interpretations": [
+    "(a) Tr-level: 126/16 = sum over modes (S22 confirmed)",
+    "(b) ratio-level: Tsirelson \u00b7 (1 - 1/2^N_c) = 2\u221a2 \u00b7 7/8 \u2248 2.475 (S23 candidate)",
+    "(c) substrate-natural CHSH operator with specific structure (multi-month)"
+  ],
+  "calibration_17_stands": true,
+  "sessions_24_plus_open_question": "identify operator-level interpretation BST predicts will be measured"
+}

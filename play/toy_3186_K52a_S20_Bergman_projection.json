@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "K52a Session 20 Bergman projection explicit"
+  },
+  "finite_dim_analog": {
+    "N_sample": 64,
+    "bergman_exponent": 4.5,
+    "reproducing_correlation": 0.5196995850625334,
+    "boundary_points": 4
+  },
+  "lyra_T2425_cross_link": "L_substrate likely Zone 4; structural reading",
+  "discipline_14_propagation": "rep-theoretic vs emergent distinctions flagged",
+  "substrate_chsh_construction_preview": "B_substrate = (1/2^{rank\u00b2}) \u00b7 \u03a3 radiation(\u03b1) \u00b7 P_\u03b1",
+  "sessions_21_22_roadmap": [
+    "S21: lift to D_IV\u2075 proper (5 complex dim)",
+    "S22: substrate-CHSH operator + max eigenvalue = 126/16",
+    "S23+: multi-zone H_sub combination"
+  ],
+  "zoo_status": "5 of 6 (Lyra zoo); energy (6/6) emerges from K52a full closure"
+}

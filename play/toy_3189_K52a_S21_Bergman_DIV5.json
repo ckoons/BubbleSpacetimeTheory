@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "K52a Session 21 Bergman lift to D_IV\u2075"
+  },
+  "D_IV5_realization": "Lie ball: {z \u2208 C\u2075 : 1 + |z\u00b7z|\u00b2 \u2212 2|z|\u00b2 > 0, |z\u00b7z| < 1}",
+  "bergman_exponent": 4.5,
+  "c_FK": 1.3031910569202776,
+  "c_FK_times_pi_9_2": 225.0,
+  "slice_dim": 1,
+  "sample_size": 100,
+  "hermitian_residual": 0.0,
+  "top_5_eigenvalues": [
+    32783312.639793895,
+    9763819.197941568,
+    3569458.0803780006,
+    1449601.1636971384,
+    630844.1205089742
+  ],
+  "positivity_verified": true,
+  "sessions_22_24_roadmap": [
+    "S22: substrate-CHSH operator construction from Bergman projection",
+    "S23: max eigenvalue derivation = 126/16",
+    "S24: full 5-complex-dim D_IV\u2075 lift + K66 D-tier closure"
+  ],
+  "multi_month_status": "Sessions 21-24 multi-month; K66 D-tier promotion at Session ~24"
+}

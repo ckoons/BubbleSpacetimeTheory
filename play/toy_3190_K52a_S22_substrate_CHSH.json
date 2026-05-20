@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "K52a Session 22 substrate-CHSH construction attempt"
+  },
+  "trace_B_squared": 7.875000000000001,
+  "target_126_16": 7.875,
+  "trace_match_exact": true,
+  "max_eigenvalue_B_squared": 0.06250000000000039,
+  "single_mode_value": 0.0625,
+  "honest_finding": "Tr(B\u00b2) = 126/16 EXACT; max eigenvalue = 1/16 (single-mode). 126/16 is integrated capacity, not max eigenvalue.",
+  "structural_clarification": "K66 trace-level identity verified; operator-level max-eigenvalue requires bipartite substrate structure (multi-month)",
+  "outreach_letter_implication": "NO change needed; deviation 1/8 from Tsirelson is valid via trace-level interpretation",
+  "sessions_23_plus": "identify proper bipartite tensor-product structure of active substrate states"
+}

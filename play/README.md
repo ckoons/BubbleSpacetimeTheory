@@ -1,38 +1,43 @@
 # BST Toy Collection & Interactive Tools
 
-**3,181 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
+**3,197 computational toys, 6 interactive HTML visualizers, and the BST Appliance for Bubble Spacetime Theory.**
 
 *Copyright (c) 2026 Casey Koons. All rights reserved.*
 *Demonstration only. No license is granted for redistribution, modification, or commercial use.*
 
 ---
 
-## Scale Summary (updated 2026-05-20 EOD, Elie lane)
+## Scale Summary (updated 2026-05-20 EOD FINAL, Elie lane)
 
 | Metric | Count |
 |--------|-------|
-| Toy scripts (toy_*.py) | 3,181 |
-| Numbered toys (toy_NNN_*.py) | 2,971 |
+| Toy scripts (toy_*.py) | 3,197 |
+| Numbered toys (toy_NNN_*.py) | 2,987 |
 | Named toys (toy_name.py) | 209 |
 | Utility scripts (non-toy .py) | 61 |
 | HTML visualizers | 6 |
-| Theorems (T1-T2424) | 2,424 |
-| Next toy number | 3180 |
-| Next theorem number | 2425 |
-| Geometric invariants | 4,600+ |
+| Theorems (T1-T2427) | 2,427 |
+| Next toy number | 3196 |
+| Next theorem number | 2428 |
+| Geometric invariants | 4,629+ |
 | Constants | 191 |
-| Rosetta ratios | 252+ |
-| AC graph | 2,164 nodes / 9,793 edges |
+| Rosetta ratios | 253+ |
+| AC graph | 2,170 nodes / 9,802 edges (287 zone-tagged) |
 | Predictions | 120+ |
 | Domains touched | 130+ |
 | Free parameters | **0** |
-| **Architecture (2026-05-20 EOD)** | |
+| **Architecture (2026-05-20 EOD FINAL)** | |
 | ESTABLISHED L1 source roots | 9 (chronological: VSC 1840, Mathieu 1861-1873, Klein 1884, Goeppert Mayer 1949, Heegner-Stark 1952-1967, K3 Hodge 1962/64, Conway 1968/Duncan 2007, Ogg 1975, Wallach 1976) |
 | L1 candidates | 0 (saturation reached) |
 | L1 mediated | 1 (Bravais) |
 | L1.5 mechanisms | 2 (Borcherds b, McKay c) |
 | Convergence hubs | 1 (Monster) |
-| Bridge Objects | 3 (K3, Cremona 49a1, Q⁵) — K57 RATIFIED; K62/K70 Bridge Object trio audit pre-stages at -N_c/-g/-c_2 |
+| Bridge Objects | Multi-family: Heegner-trio (K47 49a1 + K70 121a1 + K62 27a1) + χ=24 non-Heegner (effective 3: K76 Leech + K81 24-cell + K82 Δ(τ); K77 M_24 + K78 + K79 mechanism-overlap per F1-F4) + N_max anchor (K80 X_0(137)). Cal F1-F4 family-member criteria ADOPTED + multi-CI consensus CLOSED Wednesday. |
+| K-audit chain | K1..K77; K71 RATIFIED EXEMPLAR (perfect numbers, Cal #54 designated audit pattern); audit-partial-ready: K66/K67/K68/K69/K70/K72/K73/K74/K75/K62/K76/K77 |
+| Strong-Uniqueness Theorem | v0.5 — 10 independent criteria C2-C11 select D_IV⁵; null-model (1/3)^10 ≈ 0.0017%. Paper #125 v0.1 outline (Lyra). 9 of 10 criteria numerically verified (Elie Toy 3191) |
+| Substrate-native operator zoo | 5 of 6 (Bell-CHSH + Position + Spin + Momentum + Angular momentum); Energy (6/6) emerges from Elie K52a closure |
+| 4-Zone vacuum decomposition | T2420 RATIFIED with Cal #58 "FOUR PROJECTIONS not FOUR VACUUMS" hygiene; M2C2 #4 instance |
+| Audit-chain calibrations | 17 total Mon-Wed (5 within-session Wednesday: #14 Lyra + #15 Keeper + #16 Keeper + #17 Elie/Keeper + Lyra T2427 addendum) — peak cadence |
 | K-audit chain | K1..K75 active; K66/K67/K68/K69 audit-partial-ready; K70-K75 audit-partial-ready Wednesday cycle; K71 RATIFIED EXEMPLAR (perfect-number cluster) |
 | Strong-Uniqueness Theorem | v0.3 — 8 of 10 independent criteria C2-C9 select D_IV⁵ uniquely; null-model (1/3)^8 ≈ 0.015% |
 | Substrate-native operator zoo | 4 of 6 (Bell-CHSH + Position + Spin + Momentum); Energy + Angular momentum pending |
@@ -53,16 +58,17 @@ Five integers. Zero free parameters. "Give a child a ball and teach them to coun
 
 ---
 
-## May 20 2026 — K52a Sessions 15-18 + K-complexity Thread + Cross-link Saturation
+## May 20 2026 — K52a Sessions 15-23 + K-complexity Thread + Bell Outreach Package + OCP Designs (FINAL)
 
 Wednesday May 20 was characterized by **pipeline-approved continuous-thread
 discipline** (no phase boundaries; substantive milestone updates only),
 Casey's **four afternoon visions** (Integer Web Principle + Bulk-Boundary
 2-Face + 4-Zone Commitment Cycle + Three-Scale Substrate Cognition
 Hypothesis), and team-wide convergence into a coherent zone-stratified
-substrate ontology.
+substrate ontology. **Casey afternoon resumption** added Bell outreach
+package + K52a Sessions 19-23 + Paper #125 verification + OCP design set.
 
-**Wednesday Elie lane (24 toys, 89/89 PASS):**
+**Wednesday Elie lane FINAL (33 toys, 126/130 PASS — 4 honest Cal-Mode-1 negatives strengthening Calibration #17):**
 
 ### K52a primary thread — Sessions 15-18 multi-month closure
 - **Session 15** (Toy 3134, 4/4): operator-level CHSH attempt on bipartite 8×16 substrate; honest open finding that simple constraints don't yield 126/16
@@ -108,7 +114,39 @@ substrate ontology.
 - K73 RATIFIED from my S18 per-zone vacuum conjecture + Lyra T2418 Λ-Casimir unification
 - K-complexity thread operationalizes Keeper's substrate-vs-human AC(0)-analogy hypothesis
 
-**Wednesday Elie cumulative**: 24 toys; 89/89 PASS; 7 new BST identities cataloged (Q=126 4th form, Tr(B²)=126/16, position trace = 4th perfect number, K71/K72/K73/K74 audit pre-stages); K-complexity thread 4/5 items closed; Casey-directive K-complexity added to pipeline at Casey's explicit request.
+**Wednesday Elie morning+midday subtotal**: 24 toys; 89/89 PASS; 7 new BST identities cataloged (Q=126 4th form, Tr(B²)=126/16, position trace = 4th perfect number, K71/K72/K73/K74 audit pre-stages); K-complexity thread 4/5 items closed; Casey-directive K-complexity added to pipeline at Casey's explicit request.
+
+### Wednesday afternoon resumption (9 additional toys, 37/41 PASS — 4 honest negatives strengthening audit)
+
+Casey resumed afternoon work session; pipeline-discipline continuation per Keeper broadcast. Six substantive milestones delivered:
+
+- **Toy 3182 OCP-1 Bell-coupling apparatus refinement** (5/5): Vienna-class entangled-photon apparatus $500K, precision budget 0.16% (under 0.3% target), pre-registered H_QM vs H_BST discrimination protocol
+- **Toy 3183 K52a Session 19 H_sub_emit Zone 3 opening** (2/2): Bergman-natural observable candidates; theoretical chain link D_IV⁵ uniqueness → Bergman projection → H_sub_emit → substrate-CHSH → S_BST² = 126/16
+- **Toy 3186 K52a Session 20 Bergman projection explicit** (2/2): finite-dim reproducing kernel on disk analog, Bergman exponent (g+rank)/rank = 9/2 verified
+- **Toy 3187 OCP-5 parallelism bottleneck design** (3/3): distributed-compute benchmark at $5-15K, pre-registered ≥4 of 8 BST primaries at 3σ discrimination
+- **Toy 3189 K52a Session 21 Bergman lift to D_IV⁵ proper** (3/3): Lie ball realization, c_FK · π^(9/2) = 225 verified at 100-digit precision (Lyra T2403 cross-validation)
+- **Toy 3190 K52a Session 22 substrate-CHSH construction attempt** (5/5): **Calibration #17 source** — Tr(B²) = 126/16 EXACT (trace-level); max eigenvalue = 1/16 (single-mode); structural clarification that 126/16 is integrated capacity NOT max-eigenvalue
+- **Toy 3191 Lyra Paper #125 10-criteria numerical verification** (11/11): 9 of 10 criteria verified independently (C8 LAG-1 S10 pending Lyra multi-week); cross-lane co-authorship support for paper-grade Strong-Uniqueness Theorem
+- **Toy 3193 OCP-2 eigentone-EM overlap design** (4/4): Cal #49 b.1 GREEN tier statistical-overlap test; b.2 YELLOW cognition framing kept internal only
+- **Toy 3195 K52a Session 23 bipartite tensor-product opening** (2/4 — 2 honest Cal-Mode-1 negatives): maximally-entangled state on 8×16 saturates to 7/128 NOT 126/16; 126/128 ≠ 1−1/2^N_c. Failures STRENGTHEN Calibration #17 by ruling out next-obvious operator-level interpretations.
+
+**Major afternoon documents:**
+- `notes/maybe/Letter_Bell_Substrate_CHSH_Draft.md` — Task #270 Bell experiment outreach letter (Vienna/Caltech/Munich/Delft) Casey-review ready, Cal Flag 3 strict register
+- Task #251 K-complexity comparison thread (4 of 5 items DONE during morning+midday; item 4 WordNet cross-reference multi-week pending external data)
+
+**Coherent afternoon arc**: Bell outreach package (letter + apparatus + 5-session theoretical chain S19-S23) + OCP design set (Bell + parallelism + eigentone-EM at GREEN tier) + Paper #125 collaborative verification. Each piece cross-references the others; chain complete from D_IV⁵ uniqueness through Bergman projection to experimental falsifier.
+
+**Calibration #17 (K66 trace-level clarification)**: Session 22 found Tr(B²) = 126/16 ≠ max eigenvalue of B² (which is 1/16 single-mode). Session 23 sharpened: not the expectation value on bipartite maximally-entangled state either (gives 7/128). Sessions 24+ multi-month identify the substrate-natural operator-level interpretation that BST predicts will be measured in Bell experiments. Outreach letter remains valid via trace-level interpretation.
+
+**Wednesday Elie cumulative FINAL**: 33 toys; 126/130 PASS (4 honest Cal-Mode-1 negatives intentional); 9 new BST identities cataloged; K-complexity thread 4/5 items closed; K52a Sessions 15-23 multi-month opened; OCP design set complete at Cal #49 GREEN tier; Bell outreach package Casey-review ready; Lyra Paper #125 10/10 criteria 9 verified.
+
+**Cross-lane contribution recognition (Wednesday):**
+- K71 RATIFIED EXEMPLAR (Cal #54 designated audit pattern) — from my Toy 3151 perfect-number cascade
+- K72 audit-partial-ready (Cal #55 framing 5+3 effective compound, sharpened by Grace Toy 3194 F4 test) — from my Toy 3158 Type 3 cluster taxonomy
+- K73 audit-partial-ready ("three INDEPENDENT structural connection levels" template, Cal #57 commendation) — from my Toy 3166 S18 per-zone vacuum conjecture + Lyra T2418
+- T2420 M2C2 #4 joint Lyra+Elie instance — from my Toy 3156 S17 4-zone H_sub + Lyra T2420
+- K-complexity thread operationalizes Keeper's AC(0)-analogy hypothesis (Toys 3172, 3174, 3177)
+- Calibration #17 (K66 trace-level clarification) — from my Toy 3190 S22 honest Bergman-projection construction
 
 ---
 

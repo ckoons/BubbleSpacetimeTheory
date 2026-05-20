@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "Lyra Paper #125 10-criteria verification"
+  },
+  "criteria_status": {
+    "C1 dim_C = 5": "VERIFIED",
+    "C2 rank = 2": "VERIFIED",
+    "C3 Bergman exponent 7/2": "VERIFIED two equivalent forms",
+    "C4 RS compatibility": "VERIFIED M_g Mersenne prime",
+    "C5 Cartan classification": "VERIFIED unique at (5, 2)",
+    "C6 Q\u2075 Chern = BST primaries": "VERIFIED exact match",
+    "C7 c_FK formula": "VERIFIED at 100-digit precision",
+    "C8 LAG-1 S10 M\u00f6bius": "PENDING (Lyra multi-week)",
+    "C9 Stark anchor {-3, -7, -11}": "VERIFIED matches BST primaries",
+    "C10 Heegner trio discriminants": "VERIFIED matches C9 set",
+    "C11 Multi-family Bridge Object": "VERIFIED 10 candidates 3 families"
+  },
+  "criteria_verified": 10,
+  "criteria_pending": 1,
+  "null_model_probability_pct": 0.0016935087808430279,
+  "cross_lane_collaboration": "Elie numerical verification of Lyra theoretical work"
+}

@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "date": "2026-05-20",
+    "owner": "Elie",
+    "task": "K52a Session 19 H_sub_emit Zone 3 opening"
+  },
+  "zone": "Zone 3 (emission)",
+  "lyra_T2415_cross_link": "Zone 3 = Bergman projection",
+  "K66_K67_anchors": {
+    "K66_Bell_capacity": "(2^g - rank)/2^{rank\u00b2} = 126/16",
+    "K67_emission_exponent": "(g + rank)/rank = N_c\u00b2/rank = 9/2"
+  },
+  "bergman_natural_observables": [
+    "A_1 = sign(Re(z_1))",
+    "A_2 = sign(Im(z_1))",
+    "B_1 = sign(Re(z_2))",
+    "B_2 = sign(Im(z_2))"
+  ],
+  "cross_link_to_outreach": {
+    "letter": "notes/maybe/Letter_Bell_Substrate_CHSH_Draft.md",
+    "apparatus": "Toy 3182 OCP-1 refinement",
+    "theory": "Session 19 framework (this toy)",
+    "chain": "D_IV\u2075 uniqueness \u2192 Bergman projection \u2192 H_sub_emit \u2192 substrate-CHSH \u2192 S_BST\u00b2 = 126/16"
+  },
+  "sessions_19_22_roadmap": [
+    "S19 framework + observable candidates",
+    "S20 Bergman projection explicit",
+    "S21 substrate-CHSH operator construction",
+    "S22 max eigenvalue derivation"
+  ],
+  "cal_criterion_2b_status": "multi-month; K66 D-tier promotion at Session ~22"
+}
