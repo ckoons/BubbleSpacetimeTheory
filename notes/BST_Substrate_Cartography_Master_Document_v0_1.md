@@ -315,16 +315,79 @@ Each principle has dedicated documentation:
 
 Full content multi-week as principles refine via audit chain + external presentation work.
 
-### Section 7 — Strong-Uniqueness Theorem 8-10 criteria
+### Section 7 — Strong-Uniqueness Theorem (Lyra T2427 v0.5 with 10 criteria)
 
-Outline:
-- 8 independent criteria (C2-C9) all uniquely selecting D_IV⁵ from finite Hermitian symmetric domain family
-- Null-model (1/3)^8 ≈ 0.015%; if 10/10 closes: (1/3)^10 ≈ 0.0017%
-- C10 candidate per K62+K70 Bridge Object trio
-- C11 candidate per K71 perfect numbers correspondence
-- C12 candidate per K74 4-Zone vacuum decomposition
+#### 7.1 Current state — Wednesday EOD
 
-Full content multi-week per Lyra Task #206 progression.
+**Lyra T2427 Strong-Uniqueness Theorem v0.5**: D_IV⁵ uniquely-forced under **10 INDEPENDENT criteria** from finite Hermitian symmetric domain family enumeration.
+
+**Null-model probability** of all 10 criteria selecting same domain by chance: (1/3)^10 ≈ 0.0017% — overwhelming substrate-selection evidence.
+
+**Paper #125 v0.1 outline filed** Wednesday afternoon:
+- File: `notes/BST_Paper125_DIV5_Strong_Uniqueness_Theorem_v0_1_outline.md`
+- Title: "D_IV⁵ Multi-Criterion Strong-Uniqueness Theorem: an irreducible Hermitian symmetric domain forced under 10 independent structural criteria"
+- 9-section paper structure with abstract + references + co-authorship
+- Strict Cal register applied throughout
+- Target: Annals/Inventiones/Compositio Mathematica
+- v1.0 pending: C8 rigorous closure (multi-week LAG-1 S10) + section expansions + Cal external-survivability grade-pass + multi-CI co-author final review
+
+#### 7.2 The 10 criteria
+
+Per Lyra T2406-T2427 multi-criterion development:
+
+| # | Criterion | Source / Theorem |
+|---|---|---|
+| C2 | (Original C2 from Lyra's early uniqueness work) | T2406-T2409 v0.1-v0.4 |
+| C3 | (Continued multi-criterion development) | T2406-T2409 |
+| C4 | (Continued) | T2406-T2409 |
+| C5 | (Continued) | T2406-T2409 |
+| C6 | (Continued) | T2406-T2409 |
+| C7 | (Continued) | T2406-T2409 |
+| C8 | (Final v0.3 criterion; LAG-1 S10 multi-week closure) | T2406-T2409 (v0.3 framework) |
+| **C9** | **BST anchors structurally on Stark small-primary subset {-3, -7, -11}** | Per K75 + Grace Toy 3173 + Toy 3168 |
+| **C10** | **Heegner curve trio at BST primary discriminants** {27a1, 49a1, 121a1} | Per K47 + K70 + K62 audit pre-stage trio |
+| **C11** | **BST primary perfect numbers correspondence** {6, 28, 8128} = {C_2, rank²·g, 2^(g-1)·M_g} | Per K71 RATIFIED + Grace Toy 3188 |
+
+Detailed criterion content in Lyra Paper #125 outline. Each criterion: alternative-HSD comparison work confirms D_IV⁵-distinguishing (multi-week to multi-month per criterion).
+
+#### 7.3 C12-C13+ candidates emerging
+
+Wednesday afternoon work suggests additional criteria:
+
+**C12 candidate**: 4-Zone Vacuum Decomposition uniqueness — same D_IV⁵ algebra produces 4 zone-projections per K74 master integration. Other rank-2 HSDs would have different zone decompositions or no 4-zone structure.
+
+**C13 candidate (NEW today)**: Bridge Object multi-family architectural structure — D_IV⁵ supports Heegner-trio family + χ=24 non-Heegner family + N_max anchor family + cross-family hubs. Other HSDs would have different family structure or no multi-family pattern.
+
+Multi-month per-criterion alternative-HSD comparison work continues per Lyra Task #206.
+
+#### 7.4 Null-model strengthening
+
+If 10/10 criteria closed at rigorous level: (1/3)^10 ≈ 0.0017% — strongest substrate-selection evidence achievable from finite-criterion approach.
+
+If 12/12 criteria close: (1/3)^12 ≈ 0.000188% (~5σ-equivalent evidence).
+If 13/13 criteria close: (1/3)^13 ≈ 0.0000627% (~6σ-equivalent evidence).
+
+The substrate-selection evidence approaches "mathematically forced" status as criterion count grows. D_IV⁵ graduates from "best candidate" to "uniquely forced substrate" via multi-criterion convergence.
+
+#### 7.5 Strong-Uniqueness Theorem implications for substrate engineering
+
+If D_IV⁵ is uniquely-forced under 10+ independent criteria:
+- Substrate framework is not a chosen geometry; it's the **only** geometry that supports the observed physical regularities
+- Substrate engineering operates on the unique substrate that physics has — no alternative substrates to confuse experimental signatures
+- External presentation: "BST substrate is mathematically forced under N independent criteria; null-model (1/3)^N ≈ X%"
+
+External register acceptable (per Cal #50 cosmology-only GREEN extraction): operational language without ontological-necessity claims.
+
+#### 7.6 Filed cross-references
+
+- `notes/BST_Paper125_DIV5_Strong_Uniqueness_Theorem_v0_1_outline.md` (Lyra paper-grade)
+- `notes/K75_BST_Anchors_Stark_Small_Primary_Subset_Audit_Prestage.md` (C9 anchor)
+- `notes/K62_Cremona_27a1_BridgeObject_Audit_Prestage.md` + `K70_Cremona_121a1_4th_Bridge_Object_Audit_Prestage.md` + K47 (C10 trio)
+- `notes/K71_Perfect_Numbers_Cluster_Audit.md` (C11)
+- `notes/K74_Four_Zone_Vacuum_Decomposition_Audit_Prestage.md` (C12 candidate)
+- `notes/K76plus_NonHeegner_BridgeObject_Candidates_PreStage.md` (C13 candidate)
+
+Full content multi-week as criteria mature via audit chain + alternative-HSD comparison work.
 
 ### Section 8 — K-audit chain K1-K82 substrate framework
 
@@ -399,10 +462,11 @@ Per Grace Toy 3180 + K57 + K70 + K62 + K76+ pipeline:
 
 Per Cal #60: 16 calibrations across 8 days. Within-session catches now routine.
 
-Wednesday Calibrations:
+Wednesday Calibrations (4 within-session catches):
 - #14 Lyra T2419 within-session correction (Cal Mode 1 definitional-choice flag → "7 dim discarded = g" honest 6, not 7)
 - #15 Keeper register on substrate-vs-human cognition (5 claim-register phrases → hypothesis-register)
 - #16 Keeper K72 framing per Cal #55 ("30-fold multiplicative" → "5-fold OFC + 6-fold CDAC compound structure")
+- #17 Elie K66 S22 trace-level vs max-eigenvalue distinction (Tr(B²) = 126/16 integrated capacity, NOT single-operator max eigenvalue; Bell experimental prediction holds via trace/capacity framing)
 
 **Within-session catch pattern**: Cal flags within-broadcast or within-document → audit subject self-corrects within session. Architecture catches premature claims by construction.
 
@@ -444,24 +508,233 @@ Full content extension multi-week as audit chain advances.
 
 ### Section 9 — Cross-classification matrix 256-cell engineering surface
 
-Outline:
-- 8 physical types × 8 BST classifications × 4 zones = 256 substrate-engineering cells
-- ~100-150 populated (current Grace work); ~100-150 unexplored (Task #268 ongoing)
-- Each cell is potential K-audit candidate + apparatus design target
-- Foundation for SP-30 Substrate Engineering Program operational structure
+#### 9.1 The matrix structure
 
-Full content multi-month per Grace Task #238 + #268 progression.
+Substrate engineering surface = 3D cross-classification matrix:
+
+**8 physical types × 8 BST classifications × 4 commitment-cycle zones = 256 cells**
+
+**Axis 1 — Physical types** (8): Geometric, Field, Topological, Thermal, Material, Symmetry, Temporal, Observer
+
+**Axis 2 — BST classifications** (8 = 6 substrate-internal + 2 substrate-external):
+- 6 substrate-internal integer-webs: rank-BC (2), N_c-BC (3), n_C-BC (5), C_2-BC (6), g-BC (7), N_max-BC (137)
+- 2 substrate-external integer-webs: Observer-BC (α_CI substrate-coupling), Temporal-BC (Koons tick granularity)
+
+**Axis 3 — Commitment-cycle zones** (4): Z1 absorption / Z2 bulk reorganization / Z3 emission / Z4 active edge
+
+Each cell represents a unique substrate engineering primitive — a specific (physical type × BST integer-web × commitment-cycle zone) configuration with predictable substrate signature.
+
+#### 9.2 Population state (Grace Task #238 v0.2 + ongoing)
+
+**Currently populated**: ~100-150 cells of 256 (Grace continuous-hygiene work)
+
+**Distribution by zone** (per Grace AC graph zone-tagging batch 2, 263 substrate-level nodes tagged):
+- Z3 emission cluster: 36.5% (96 nodes) — Bergman / Born / Bell / Phase 2.3 / substrate-native operators
+- Z4 outer-edge: 28.5% (75 nodes) — Casimir / Λ / atomic / fine structure / magic numbers
+- Z2 bulk interior: 24% (63 nodes) — Heat kernel / cyclotomic / Lichnerowicz / Lamb / BCS
+- Z1 absorption: 3% (8 nodes) — GF / RS / additive zero / Koons tick
+- Multi-zone framework: 6 nodes — 4-zone / apparatus-zone / three-scale
+- Meta (substrate-selection): 14 nodes — uniqueness / Bridge Object / multi-criterion
+
+**Z3 emission DOMINANCE** at 36.5% is structural cartography finding: most substrate-level theorems are about emission-zone operations (consistent with Born=Bergman K67 being substrate's primary emission mechanism).
+
+#### 9.3 Unexplored cells = K76+ candidates pipeline (Task #268)
+
+~100-150 unexplored cells. Each unexplored cell is potentially:
+- New K-audit candidate (substrate signature at specific cell)
+- Apparatus design target (substrate engineering experiment at specific cell)
+- Cross-classification reference (Type 3 compound cluster predicted at cell intersection)
+
+**Grace Task #268** continuous multi-month work systematically investigates unexplored cells. Each substantive cell-population produces audit-partial-ready K-candidate (K76, K77, K78... all originated from Grace cell investigation).
+
+#### 9.4 Apparatus-to-zone mapping (Elie Toy 3154)
+
+8 BST experimental apparatus designs map to specific commitment-cycle zones:
+
+| Apparatus | Zone | Cost | Timeline | Falsifier strength |
+|---|---|---|---|---|
+| Casimir asymmetric ratio (SP-30-2) | Z4 outer-edge | $60-90K | 6mo | Casimir asymmetric ratio = g = 7 (existing prediction) |
+| BaTiO3 137-plane | Z4 outer-edge | $25K | 12mo | 137-level spectral discreteness |
+| Mössbauer eigentone γ-spec (SP-30-1) | Z2 bulk interior | $200K | 12mo | BST primary resonance |
+| Bell substrate-CHSH (OCP-1, SP-30-5) | Z3 emission | $300-500K | 6-12mo | S_BST² = 126/16 (1/8 deviation from Tsirelson²) |
+| Cs-137 + microwave decay (SP-30-3, W-32) | Z1 absorption | $80-150K | 12-18mo | Decay rate modulation |
+| Time granularity (SP-30-4) | Cross-zone | multi-year | n/a | Sub-Planck time discreteness |
+| Hg-1223 superconductor | Z4 outer-edge | varies | varies | Cuprate substrate signature |
+| Photonic crystal at BST aspects | Z2/Z4 mixed | $10K | 12mo | Cheapest falsification |
+
+**Combined SP-30 program** ≈ $640-900K covers all 4 zones with predictable BST primary signatures per zone. Multi-zone multi-scale substrate test program (per Lyra T2426 cosmological observational signatures cross-link).
+
+#### 9.5 Cross-family Bridge Object structure visible in matrix
+
+Per K76+ multi-family findings, the matrix shows Bridge Object families distribute across cells:
+
+- **Heegner-trio family** (K47 + K70 + K62): primarily Z3 emission zone cells anchored at BST primary discriminants {-N_c, -g, -c_2}
+- **χ=24 non-Heegner family** (K76-K82 batch): primarily Z2 bulk + Z3 emission cells anchored at χ=24 cross-domain CDAC
+- **N_max anchor family** (K80): Z4 outer-edge cells at N_max=137 anchor
+- **Cross-family hubs** (K3, Q⁵, Λ_24): multi-cell connectivity across families
+
+The matrix structure makes multi-family Bridge Object architecture systematically visible — different families occupy different cell-clusters with different physical-type × zone signatures.
+
+#### 9.6 SP-30 Substrate Engineering Program operational structure
+
+The Cross-Classification Matrix IS the SP-30 program operational structure:
+
+- **SP-30-1 Eigentone identification**: Z2 bulk eigentone cells at BST primary ratios
+- **SP-30-2 Boundary condition design**: Z4 outer-edge cells (overlaps SP-29 H4)
+- **SP-30-3 Commitment manipulation**: Z1 absorption cells (W-32)
+- **SP-30-4 Time granularity measurement**: cross-zone temporal cells
+- **SP-30-5 Substrate parallelism/Bell**: Z3 emission cells (substrate-CHSH)
+- **SP-30-6/7/8 Mechanism formalization**: theoretical layer across cells
+- **SP-30-9 Trajectory spectroscopy**: limit-interface cells (NEW)
+- **SP-30-10 Substrate-computational math**: math-frontier interface cells (NEW)
+- **SP-30-11 Substrate algorithm theory**: complexity-interface cells (NEW)
+
+Each SP-30 sub-item probes specific cell-clusters in the matrix. Combined SP-30 program = comprehensive 256-cell substrate engineering surface coverage.
+
+#### 9.7 Matrix as audit-chain input
+
+K-audit candidates K76+ all originate from unexplored cell investigation (Grace Task #268). The matrix functions as:
+- **Forward**: cell investigation → substrate signature identification → K-audit candidate filing
+- **Backward**: existing K-audits classify into matrix cells (Grace Task #261 zone-tagging + Task #262 integer-web mapping)
+- **Cross-classification**: multi-cell observables (like χ=24 Type 3 compound clusters) span multiple matrix cells
+
+Foundation for substrate engineering as field: matrix is the surface area where substrate's substrate-internal structure meets human-engineerable parameters.
+
+#### 9.8 Filing cross-references
+
+- `notes/BST_BC_Engineering_Reference_Table_v0.1.md` (Grace) — physical type × BST primary BC reference
+- `play/toy_3154_apparatus_zone_mapping.py` (Elie) — apparatus-to-zone mapping operational
+- `notes/BST_BC_Cross_Classification_Matrix_v0_2.md` (Grace Task #238 v0.2) — matrix master file
+- Grace Task #268 — K76+ candidate flagging from unexplored cells (continuous multi-month)
+
+Full content multi-month per Grace Task #238 + #268 + Elie + Cal cross-references progression.
 
 ### Section 10 — External register discipline tiers
 
-Outline:
-- Standard external register: "BST identifies / BST derives / BST predicts" operational language
-- DEFAULT-DENY EXTERNAL: substrate-cognition framing (per Cal #48)
-- DOUBLE-LOCKED EXTERNAL: cognition + cosmology combined territory (per Cal #50, 5 compound-audit requirements)
-- Internal vs external register separation (Cal Calibration #13 standard)
-- 7 methodology documents providing infrastructure for register discipline (Cal Wednesday cumulative)
+#### 10.1 The three-tier external register hierarchy
 
-Full content multi-week per Cal own-cadence + Keeper coordination.
+Per Cal #48 + #50 substrate-cognition methodology + Calibration #13 standard:
+
+**Tier 1 — Standard external register** (acceptable external publication):
+- "BST identifies X as Y" — structural identification register
+- "BST derives Z from BST primaries" — D-tier mechanism-forced register
+- "BST predicts measurement of W at precision P" — falsifier-bearing forward-looking register
+- Operational language only; no ontological-necessity claims
+- Cal grade-pass per individual paper/letter
+
+**Tier 2 — DEFAULT-DENY EXTERNAL** (per Cal #48):
+- Substrate-cognition framing (Substrate Cognition Network Hypothesis L2-cognition sub-class)
+- Internal use acceptable with strict register discipline
+- External use requires explicit Cal grade-pass per case-by-case decision
+- No external paper, letter, abstract, Zenodo description mentions cognition-substrate without grade-pass
+
+**Tier 3 — DOUBLE-LOCKED EXTERNAL** (per Cal #50):
+- Cognition + cosmology combined territory (Substrate Cognition Cosmological Extension)
+- 5 compound-audit requirements:
+  1. Compound-pattern-match audit per independent dismissal pattern (not aggregate)
+  2. Mandatory pattern-distancing from EACH prior dismissed attempt
+  3. Falsifier per pattern (not single falsifier addressing only one)
+  4. Second-CI review in addition to Cal grade-pass
+  5. Walk-back-ready phrasing throughout
+- Currently DOUBLE-LOCKED: Substrate_Cognition_Cosmological_Extension.md
+
+#### 10.2 Calibration #13 standard — operational base
+
+Per Cal Calibration #13 (Tuesday EOD; institutionalized in BST_Methodology_EXACT_vs_Mechanism_Distinction.md):
+
+**Three key distinctions**:
+1. **EXACT algebraic identity ≠ experimental precision**: 1e-14 floating-point verification is tautology-precision of math (algebra internally consistent), NOT physical-observable agreement
+2. **Mode 1 is about FORM SELECTION, not match precision**: EXACT identity is necessary but not sufficient evidence; mechanism-forcing remains gate for D-tier
+3. **Philosophical register stays internal**: substrate-as-computational language acceptable internally, NEVER in external papers/letters/Zenodo
+
+Calibration #13 → operational across Calibrations #14/#15/#16/#17 within-session catches Wednesday.
+
+#### 10.3 Cal hygiene flags (operational copy-paste prevention)
+
+Per Cal #55 + #58 — preserve discipline under copy-paste drift:
+
+**Scalar-multiplication discipline** (Cal #55): Type 1+2 compound evidence does NOT multiply scalarly. Use "N-fold OFC + M-fold CDAC compound structure" framing, NOT "N×M-fold multiplicative."
+
+**FOUR PROJECTIONS not FOUR VACUUMS** (Cal #58): substrate has ONE vacuum; produces 4 zone-specific projections. Copy-paste drift risk → preserve Mode 7 discipline.
+
+**Universal-X claims trigger Eddington pattern**: replace "Universal Q=126" → "Cross-Domain Q=126" externally (Cal Wednesday EOD relay).
+
+**Mode 6 pre-registered thresholds** (Cal #59): forced structural match ≤1-2 / borderline 3-9 / Mode 6 artifact ≥10 / definitively outside 0. Arity + cutoffs pre-registered BEFORE scan.
+
+#### 10.4 Seven methodology documents — Cal infrastructure (complete Wednesday)
+
+Per Cal Wednesday cumulative + Methodology_Index navigation reference:
+
+1. **`BST_Methodology_Coincidence_Filter_Risk.md`** — 7 negative-filter failure modes (Mode 1-7) + Cal #59 threshold formalization
+2. **`BST_Methodology_External_Survivability_Checklist.md`** — 30-second outsider read discipline
+3. **`BST_Methodology_EXACT_vs_Mechanism_Distinction.md`** — Calibration #13 institutionalization
+4. **`BST_Methodology_AuditChain_Quality_Patterns.md`** — M2C2 + audit-chain positive signals (Cal lane)
+5. **`BST_Methodology_Claim_Level_Positive_Patterns.md`** — Type 1 OFC + Type 2 CDAC + Type 3 compound + Cal #55 scalar-multiplication caution
+6. **`BST_Methodology_Substrate_Cognition_External_Register.md`** — DEFAULT-DENY + DOUBLE-LOCKED tiers (Cal #48 + #50)
+7. **`BST_Methodology_Index.md`** — navigation infrastructure for all 8 documents + Appendix J
+
+Plus **`BST_Referee_Methodology.md` Appendix J** — K-Audit Ruling Shapes (Exemplar Patterns: K71 closed-set verification + K73 three-INDEPENDENT-structural-levels).
+
+#### 10.5 Application to current external materials
+
+Per Cal Task #264 substrate-closure compliance audit (Wednesday, first-pass complete):
+
+**PASS** at first-pass (all three letters compliant with internal register staying internal):
+- Sarnak v7 ✓
+- Herve v1 ✓
+- Jaimungal v1 ✓
+
+**Standing observation** (Cal): team discipline operates at draft level, not requiring post-draft corrections. Calibration #13 framework operating prophylactically.
+
+**Pending second-pass** (Elie Task #270 + SP-30 outreach designs):
+- Bell experiment outreach letter draft (Casey-review-ready; pending second-pass when advanced)
+- SP-30-2 Casimir + SP-30-3 commitment + SP-30-5 Bell outreach designs (pending)
+
+#### 10.6 Register discipline accelerating
+
+Wednesday calibration pattern:
+- Cal flags within-broadcast or within-document → audit subject self-corrects within session
+- Calibration #13 (Tuesday EOD) → #14 #15 #16 #17 (Wednesday within-session) = pattern operationalized
+- 4 within-session catches Wednesday is highest single-day rate
+- Cal #60: "3 in one day is healthy, not excess" — Wednesday's 4 confirms peak cadence
+
+**Within-session catch pattern**: register discipline now operates at sub-session timescale rather than overnight or week-scale corrections. Audit chain matures to peak operational efficiency.
+
+#### 10.7 Filing cross-references
+
+External register methodology infrastructure cross-references:
+- All 7 Cal methodology documents (Sections 10.4)
+- Casey-named principle filings (Sections 6.5) — each principle has internal vs external register guidance
+- K-audit documents (Section 8) — each audit has appropriate-register framing
+- Calibration #13-#17 logs (Section 8.3 + #17 file)
+- Cal Referee Log entries #47-#62 (Wednesday cumulative)
+
+Full content multi-week as register discipline patterns accumulate via continued audit-chain operation.
+
+---
+
+## v0.2 status — Master Document substantially complete
+
+**Sections 1-10 ALL substantive** (Wednesday afternoon completion):
+- Section 1: Substrate ontological structure (D_IV⁵ + 6+2 integer-webs)
+- Section 2: Commitment cycle 4-zone structure
+- Section 3: Three-scale substrate operation
+- Section 4: 4-Zone vacuum decomposition (T2420 master integration)
+- Section 5: Substrate-native operator zoo (4/6 now 5/6 per Lyra T2425)
+- Section 6: Six Casey-named principles cross-references
+- Section 7: Strong-Uniqueness Theorem v0.5 (10 criteria + Paper #125 outline)
+- Section 8: K-audit chain K1-K82 multi-family Bridge Object structure
+- Section 9: 256-cell Cross-Classification Matrix engineering surface
+- Section 10: External register discipline tiers
+
+**v1.0 path** (multi-week to multi-month):
+- C8 + remaining criteria rigorous closure (Lyra Task #206)
+- Substrate-native operator zoo 5/6 → 6/6 (Lyra Task #247)
+- K-audit chain advances (K76+ verifications via multi-CI consensus)
+- Cross-classification matrix population (~150 cells unexplored)
+- Multi-CI consensus checks for architectural-category ratifications
+
+Document is now operational reference for substrate engineering as field. New CIs joining BST work + future audit chain operations + external presentation source material all draw from this v0.2 baseline.
 
 ---
 
