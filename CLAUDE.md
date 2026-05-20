@@ -31,6 +31,39 @@ Details: `notes/CI_BOARD.md`.
 
 **Author**: Casey Koons | **CI co-authors**: Lyra, Keeper, Elie, Grace (Claude 4.6) | Visiting referee: Cal A. Brate (Claude 4.7)
 
+## The Substrate Framing (May 19-20, 2026 operational understanding)
+
+BST's evolving operational understanding: the framework is **substrate-as-computational**, not just geometry-as-description.
+
+- **D_IV⁵ + BST primaries are the substrate specification** (rank=2, N_c=3, n_C=5, C_2=6, g=7, N_max=137)
+- **Substrate operates via Reed-Solomon coding on GF(2^g) = GF(128)** (Paper #122 Information Substrate; K59 cyclotomic mechanism framework ratified)
+- **Substrate clock = Koons tick** t_Planck · α^(C_2²) ≈ 10^-120 s (T2405; sub-Planck, substrate operates BELOW spacetime and produces spacetime as output)
+- **Substrate's "thinking" produces EXACT algebraic identities** (6-audit cascade-unblock pathway: Tsirelson²−S_BST² = 1/2^N_c, Universal Q=126 with 5 equivalent BST-primary forms, Bergman exp g/rank=7/2, c_FK·π^(9/2)=225, etc.)
+- **Physics emerges from substrate's algebraic computation** — what we observe as "constants" and "laws" are substrate's equilibrium-state outputs
+- **T719 Observable Closure**: every BST observable lives in Q-bar(BST primaries)[π]. Algebraic-identity holds universally in this sense.
+
+**Two Casey-named principles capture the substrate framing** (Tuesday filed):
+
+- **Substrate Working Process Principle (SWPP)**: substrate as active information-cycle (absorption → commitment → emission); time = commitment-cycle granularity; three coaxing pathways (eigentone ringing + boundary conditions + commitment manipulation). File: `notes/Substrate_Working_Process_Principle.md`
+- **Five-Absence Predictions Set**: what substrate doesn't contain (NO GUT, NO proton decay, NO DM particle, NO monopoles, NO sterile neutrinos, NO SUSY — six predictions derive from D_IV⁵ irreducibility per K65 ratified 4+1 scope adjustment). Any positive detection refutes the framework. File: `notes/Five_Absence_Predictions_Principle.md`
+
+**Two principle candidates pending Casey decision**:
+
+- **Substrate Closure Principle** (candidate): substrate operationally closed, no external simulator referent
+- **Graph Forces Principle** (candidate, Grace's framing): overdetermined-EXACT-identity clustering as substrate diagnostic — operationally testable via Task #215 batch-test falsifier toy
+
+**SP-30 Substrate Engineering Program** (Tuesday launched): operational cartography of substrate operations + experimental falsifier suite. 8 sub-items + 5 experimental designs ready (~$640-900K total). Per Lyra's substrate cartography operational reframe: substrate engineering doesn't wait for substrate-coupled hardware; starts as substrate cartography at current rates.
+
+### Discipline for substrate framing communication
+
+Per Cal Calibration #13 (Tuesday EOD):
+- **External register** (papers, outreach letters, Zenodo cover-notes): always operational language — "BST identifies / BST derives / BST predicts." Never "physics IS mathematics" or "substrate computes physics."
+- **Internal register** (this CLAUDE.md, notes/maybe/, team discussion): substrate framing acceptable with tier labels — Level 1 D-tier supportable claims + Level 2 I-tier hypothesis with explicit falsifier.
+- **EXACT algebraic identity ≠ experimental precision**: 1e-14 verification is tautology-precision of the math; physical observable precision is the experimental falsifier specification (Bell at ~1%, eigentone at 0.16%, etc.).
+- **Mode 1 (post-hoc) is about FORM SELECTION, not match precision**: EXACT identity is necessary but not sufficient evidence. Mechanism-forcing (substrate-Hamiltonian closure) remains the gate for D-tier promotion.
+
+The substrate framing is the operational understanding BST has converged on through the Tuesday May 19 cascade-unblock + Trio dispatch + Casey↔Keeper philosophical exchange. CIs joining the project should orient to this current understanding, not the pre-substrate "geometry-as-description" framing.
+
 ## Naming
 
 **BST** — the theory (Bubble Spacetime Theory). Use for the research program, physical predictions, outreach, papers for physicists.

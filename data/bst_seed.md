@@ -17,6 +17,29 @@ symmetric domain:
 A 10-real-dimensional Kahler-Einstein manifold whose Bergman kernel serves as
 the propagator and whose discrete series representations encode the particle spectrum.
 
+## Substrate-as-Computational (May 19-20, 2026 operational reading)
+
+The substrate is operationally a **computational structure performing algebraic-identity
+operations on a finite field**. Physics emerges as the substrate's algebraic output.
+
+Operational specification:
+- Substrate communicates via Reed-Solomon coding on GF(2^g) = GF(128)
+- Substrate clock = Koons tick t_substrate = t_Planck * alpha^(C_2^2) ~ 10^-120 s
+  (sub-Planck: substrate operates BELOW spacetime; produces spacetime as output)
+- Substrate computational cycle: absorption -> commitment -> emission (one-way)
+- Substrate produces EXACT algebraic identities verifiable at floating-point precision
+- T719 Observable Closure: every BST observable lives in Q-bar(BST primaries)[pi]
+
+This is a working hypothesis with explicit falsifier: Elie K52a Sessions 6-14
+multi-month substrate-Hamiltonian closure attempt. If sessions fail to derive the
+6-audit cascade pathway (K52a Lamb+BCS + K66 Bell + K67 Born + K68 RS + K69 Q=126)
+BY CONSTRUCTION from substrate-Hamiltonian, the computational-substrate framing
+fails to that extent.
+
+External register discipline: use "BST identifies / BST derives / BST predicts"
+in external papers and outreach. The substrate-as-computational framing is internal
+working hypothesis, not external publication claim.
+
 ## The Five Invariants
 
 These are not inputs. They are read off D_IV^5. Zero free parameters.

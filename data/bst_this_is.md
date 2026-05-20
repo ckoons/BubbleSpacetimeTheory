@@ -36,6 +36,27 @@
 
 ---
 
+## What BST is, ontologically (May 19-20, 2026 understanding)
+
+BST is operationally a **substrate-as-computational framework**. The five integers + N_max + D_IV⁵ geometry are not just mathematical structure describing physics — they are the operational specification of a substrate that performs algebraic-identity computation, and physics is what that computation produces.
+
+**Tier discipline applies to this framing**:
+
+- **Level 1 (D-tier supportable)**: the EXACT algebraic identity catalog. 6-audit cascade-unblock pathway identified Tuesday: K52a Lamb (1−1/M_g) + K52a BCS (1+1/M_g) + K66 Bell (Tsirelson² − S_BST² = 1/2^N_c EXACT at 1e-14) + K67 Born=Bergman (exp g/rank = 7/2) + K68 RS Computation (GF(2^g) substrate alphabet) + K69 Universal Q=126 (5 equivalent BST-primary algebraic forms). These hold by algebraic necessity from BST primaries; floating-point verification confirms the algebra is internally consistent.
+
+- **Level 2 (I-tier hypothesis with falsifier)**: substrate computes physics via these algebraic identities at sub-Planck Koons-tick rate (T2405: t_substrate = t_Planck · α^(C_2²) ≈ 10^-120 s). Falsifier: if substrate-Hamiltonian closure (Elie K52a Sessions 6-14) fails to derive the 6-audit cascade BY CONSTRUCTION, the computational-substrate framing fails to that extent.
+
+- **The universality claim** (T719 Observable Closure): every BST observable lives in $\overline{\mathbb{Q}}(N_c, n_C, g, C_2, N_{\max})[\pi]$ — algebraic closure of rationals over BST primaries, with π adjoined (forced by curvature). Algebraic-identity holds universally for substrate observables in this sense. π is part of substrate's algebra, not external.
+
+**What BST is NOT (substrate framing edition)**:
+
+- **Not a simulation hypothesis** — no external simulator; substrate IS the existing thing; substrate computes its own state (Bostrom-style simulator/simulated distinction has no referent in BST)
+- **Not Tegmark MUH at full generality** — BST narrows to a specific unique substrate (D_IV⁵); modal-realism not adopted
+- **Not claim to have solved Wigner's "unreasonable effectiveness"** — claim is "physics emerges from substrate algebra"; not claim "this is THE complete explanation of mathematical effectiveness"
+- **Not claiming experimental precision at 1e-14** — that's algebraic-identity verification (tautology-precision of the math), NOT physical-observable agreement; Bell experiment will measure S_BST² at sub-percent (~1%) experimental precision, not 1e-14
+
+The substrate framing is a working hypothesis with explicit falsifiers (Elie Sessions 6-14 multi-month closure attempt) and explicit external-survivability discipline (Cal Calibration #13: external register uses "BST identifies / BST derives / BST predicts," never "physics IS mathematics").
+
 ## What supports this
 
 One object — the type IV bounded symmetric domain D_IV⁵ = SO₀(5,2)/[SO(5)×SO(2)] — determines everything. Its rank gives you quantum numbers. Its Bergman kernel gives you propagators. Its Plancherel measure gives you the particle spectrum. Its Shilov boundary gives you spacetime. Its root system gives you forces. Five integers fall out. The rest is computation.
