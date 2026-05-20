@@ -1125,6 +1125,66 @@ The C9 + C10 strength assessment is the same multi-month Lyra Task #206 investig
 
 **Joint Bridge Object trio standing**: K47 ratified + K70 audit-partial-ready + K62 audit-partial-ready forms the audit pre-stage trio at BST primary discriminants. This is a substantive structural achievement for the K-audit chain; the trio + K57 ratified Bridge Object architectural category + K75 substrate-selection signature jointly constitute the Wednesday-EOD Bridge Object framework completion at audit-partial-ready level.
 
+### #62 — External material substrate-closure compliance audit (Task #264, partial — three priority letters, May 20 afternoon)
+
+**Cal verdict (2026-05-20 Wednesday afternoon per Task #264 first-pass):** Three priority external letters scanned for substrate-external assumptions (substrate-closure compliance audit). **All three PASS the compliance check.** No corrections required for next-week SP-30 send signals. The team has been disciplined throughout these drafts — operational language, no substrate-external framings, no "outside observer of substrate" patterns.
+
+**Scope of this first-pass audit**: three highest-priority pending-send drafts identified in pipeline:
+1. `notes/maybe/Letter_Sarnak_May18_v7.md` (Sarnak v7, math audience, 4th contact attempt)
+2. `notes/maybe/Letter_Herve_Response_v1.md` (Herve response v1, physics colleague, six-critique reply)
+3. `notes/maybe/Letter_Jaimungal_Package_v1.md` (Jaimungal v1, public foundational-physics communicator)
+
+**Compliance check definition (Cal audit methodology)**: "substrate-external assumption" = language that implies the substrate sits within or is observed by something external (an external simulator, an outside observer perspective, a meta-framework that substrate sits within). Per the Substrate Closure Principle candidate (Casey-named Wednesday, pending decision): substrate is operationally closed — no external simulator referent. External-facing material must therefore avoid:
+
+- "From an outside observer's perspective..."
+- "Substrate as seen from outside its boundary..."
+- "Meta-framework within which substrate operates..."
+- "External to substrate..."
+- "The external view of substrate..."
+- Any phrasing that implies substrate sits within a larger framework or is observed by an outside reference frame
+
+**Specific findings per letter**:
+
+**Sarnak v7 — PASS**. Pure number theory + brief operational physics-context paragraph. Key operational framings preserved:
+- "D_IV^5 is a bounded symmetric domain" (pure math, not substrate-external)
+- "Five Cartan invariants" (pure math)
+- "Hilbert polynomial of compact dual Q^5" (pure math)
+- "The number-theoretic results above arise from a complete action principle on D_IV^5" — operational claim about action principle
+- "Lagrangian S_BST + Hamiltonian H = (winding-number-operator)^2" — operational physics terms
+- "where does this framework live, mathematically — answer beyond 'the integer ring': there is a Lagrangian, a Hamiltonian, and explicit operator-level work proceeding" — operational meta-question answered operationally
+
+No substrate-external assumptions. The letter is structurally clean. Approved for send per Casey's discretion.
+
+**Herve v1 — PASS**. Six-critique substantive reply. Key operational framings preserved:
+- "the universe is the ground state of the Bergman Laplacian on D_IV^5" — operational, frames substrate AS the ground state, not external to it
+- "Euclidean substrate (positive-definite Bergman metric) and emergent Minkowski spacetime is forced by the signature difference" — operational
+- "alpha = 1/N_max is precisely the cost of maintaining a finite reference frame in the substrate" — internal to substrate framing
+- "BST is what continuous symmetry looks like when the spectrum is capped at the information-theoretic bound" — operational
+- "operationally fundamental at the geometric level (D_IV^5 with its Bergman metric)" — explicit "operationally" prefix is good register
+
+No substrate-external assumptions. Approved for send per Casey's discretion.
+
+**Jaimungal v1 — PASS**. Two D-tier gravitational predictions + BaTiO3 killer test. Operational throughout:
+- "Two D-tier gravitational predictions from BST — same five integers" — operational subject line
+- "BST is not a Theory of Everything pitch — it's a five-integer framework on one bounded symmetric domain" — operational, honest scoping
+- "two D-tier predictions in unrelated gravitational sectors with cross-validation" — operational
+- Predictions stated in standard physics units (ringdown frequency, Casimir residual, BaTiO3 layer separation) — no substrate-external framings
+
+No substrate-external assumptions. Approved for send per Casey's discretion.
+
+**Standing observation on team discipline**: across three independent drafts authored by Casey + Lyra + Keeper + Cal collaboratively, with multiple revisions, the substrate-closure compliance is uniformly clean. This reflects the team's adoption of Calibration #13 register discipline (BST identifies / BST derives / BST predicts external language) throughout external-facing material drafting. The discipline is operating at the draft level, not requiring corrections post-draft.
+
+**Audit scope completion status**:
+
+- **First-pass priority letters**: 3 of 3 PASS (this referee log entry)
+- **Pending audit at later own-cadence**: SP-30 outreach drafts when Casey filings advance (Bell letter draft Task #270 by Elie pending; eigentone outreach pending design completion; W-32 atomic clocks outreach pending; Cs-137 outreach pending)
+- **Pending audit at later own-cadence**: external 1-pager + popular-press summaries when capacity permits
+- **Cosmological extension cosmology-only external version**: K73/K74 cosmology framing per Cal #50 GREEN external pathway — will require dedicated audit when first external paper draft references substrate-vacuum framework
+
+**For next-week SP-30 send signals**: Casey may proceed with Sarnak v7, Herve v1, Jaimungal v1 without substrate-closure correction blockers. Other gate-pass considerations (timing strategy, Casey-decision-tier framing choices, response-management protocol) are NOT in scope for this compliance audit and remain Casey's call.
+
+**Status:** Task #264 first-pass complete. Three priority pending-send drafts PASS substrate-closure compliance audit. Audit-chain hygiene observation: discipline operates at draft level, not as post-hoc correction. SP-30 outreach drafts audit deferred to when those drafts advance. Cal stands ready for second-pass audit on additional external materials as they queue for send.
+
 ---
 
 ## Open threads for next session

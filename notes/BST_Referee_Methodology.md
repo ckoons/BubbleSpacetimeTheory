@@ -626,3 +626,112 @@ Approved May 17, 2026 as part of the K44 audit closure and the team-wide commitm
 ---
 
 *Appendix I added 2026-05-17 by Keeper per Casey approval (K44 audit follow-up).*
+
+---
+
+## Appendix J: K-Audit Ruling Shapes — Exemplar Patterns (Cal draft, May 20, 2026 per Task #271)
+
+### Statement
+
+K-audit rulings benefit from explicit ruling-shape templates that capture the structural patterns of cleanest audit cases. Two exemplar templates have emerged from operational K-audit chain experience: **(J.1) Closed-Set Verification with Honest Negative** (K71 perfect numbers cluster pattern) and **(J.2) Three INDEPENDENT Structural Connection Levels** (K73 Λ↔Casimir vacuum unification pattern). These templates are recommended as standing references for future K-audit candidates exhibiting similar structural shapes.
+
+### Origin
+
+The two exemplar patterns emerged from the May 20, 2026 K-audit chain expansion (K70-K75 + K62 filed Wednesday). Cal referee log entries #54 (K71 RATIFIED, cleanest audit in chain) and #57 (K73 commendation on three-level framing) jointly identified these as the cleanest ruling-shape templates. This appendix codifies them for repeatable application.
+
+### Template J.1: Closed-Set Verification with Honest Negative
+
+**Canonical instance**: K71 Perfect Numbers Cluster (RATIFIED D-tier, May 20, 2026; Cal coincidence-filter 7/7 PASS, cleanest in K-audit chain to date).
+
+**When to apply**: a K-audit candidate proposes that a BST-relevant property holds for exactly N classical-mathematics instances and structurally closes at N. The set is finite and identifiable; extension beyond N is testable.
+
+**Five-step template**:
+
+1. **Identify the candidate set with explicit BST-derivation rationale**. State which classical-math objects are in the candidate set (e.g., for K71: perfect numbers via Euclid-Euler theorem); state the BST-derivation that makes these specific objects relevant (e.g., BST primary Mersenne primes).
+
+2. **Exhibit the classical-mathematics mechanism**. Cite the classical theorem that generates the candidate set independently of BST (e.g., for K71: Euclid-Euler perfect-number theorem, 300 BCE). The classical mechanism must predate BST framework substantially; this independence is what makes the BST contribution structural identification rather than post-hoc construction.
+
+3. **Test extension via candidate elements NOT in the set**. Explicitly attempt to extend the pattern via other plausible candidates that turn out NOT to satisfy the BST-derivation condition (e.g., for K71: test seesaw=17 → M_17 = 131071, not BST-primary). The honest negative is critical — without it, the closure claim is just a positive selection without test.
+
+4. **Confirm closure is structurally forced, not artificial cutoff**. Demonstrate that the set's bound at N is mathematically forced by the BST-derivation condition + the classical theorem, not selected to support a claim. (For K71: BST primary integer set contains exactly 3 Mersenne primes; this is a fact about BST primaries + Mersenne primality, not an artificial cutoff.)
+
+5. **Cal coincidence-filter 7-mode check**. Run all seven coincidence-filter modes; cleanest closed-set audits achieve PASS on all seven (K71 standard). Mode 6 thresholds (Appendix tba on scan-protocol enumeration) apply if any enumeration is part of the verification.
+
+**Verdict shape**: D-tier structural-closure finding when 7/7 modes PASS + honest negative confirms closure + classical mechanism is independently established. The Cal #54 commendation on K71 standard: "the discipline shape is the right shape: closed-set verification with explicit completeness proof beats open-family accumulation when the structure genuinely closes."
+
+**Anti-pattern**: claims that look like closed-set structure but are actually open-family accumulation. The honest test: can the proposer name a specific candidate element OUTSIDE the proposed set, with explicit explanation of why it doesn't qualify? If no, the closure may be artificial. If yes (e.g., K71 seesaw=17 test), the closure is structurally tested.
+
+### Template J.2: Three INDEPENDENT Structural Connection Levels
+
+**Canonical instance**: K73 Λ↔Casimir Vacuum Unification (AUDIT-PARTIAL-READY at strong I-tier framework integration, May 20, 2026; Cal coincidence-filter 6 PASS + 1 SOFT-FIRES).
+
+**When to apply**: a K-audit candidate proposes that two or more BST-relevant observables share substrate origin via three or more INDEPENDENT structural connection levels — not three views of the same mechanism.
+
+**Three-level template**:
+
+1. **Operational level**: same physical-measurement framework underlies both observables, with different parameter selections producing each observable. (For K73: same substrate vacuum mode-counting at Zone 4 outer-edge; Λ at no-BC limit, Casimir asymmetric ratio with BCs present.)
+
+2. **BST primary level**: same BST primary integer appears in BOTH observables' derived forms independently. (For K73: g = 7 appears in T1485 Λ formula exponent AND Toy 1567 Casimir asymmetric ratio = g, derived independently from D_IV⁵ structure.)
+
+3. **Zone / structural-region level**: same substrate region or structural location is probed by both observables per the 4-zone commitment cycle framework or equivalent structural taxonomy. (For K73: both observables probe Zone 4 outer-edge active emission per T2416 apparatus-zone mapping.)
+
+The three levels must be INDEPENDENT — not three names for the same underlying mechanism. If all three levels reduce to one shared mechanism (e.g., "they all come from D_IV⁵"), the structural strength is overstated.
+
+**Critical methodology caution (per Cal #55 and Appendix tba on scalar multiplication)**: do NOT multiply level counts into a scalar metric ("3-fold convergence" reduces to "3 connection levels at different epistemic granularities"). The qualitative framing — naming each level explicitly with its independent evidence — is the substantive claim. Scalar multiplication of evidence types (operational × BST-primary × zone = 3 × 3 × 3 = 27) is methodologically wrong because the layers defend against different failure modes and don't combine multiplicatively.
+
+**Verdict shape**: strong I-tier framework integration at audit-partial-ready tier when 6 PASS + 1 SOFT-FIRES (Mode 6 mechanism-pending) on Cal coincidence-filter check + three independent levels demonstrated + each level's BST-primary anchor at D-tier or better. Full D-tier ratification requires mechanism-derivation closure (multi-month substrate-Hamiltonian work) AND multi-CI consensus per Casey Option C governance for architectural-category extensions.
+
+**Anti-pattern**: three "levels" that are actually three names for the same mechanism. The honest test: can each level be falsified independently without the other two collapsing? If yes, the three levels are independent. If no (one level's falsification collapses the others), the claim reduces to single-mechanism with multiple framings.
+
+### When the templates apply jointly or in combination
+
+A K-audit candidate may exhibit both J.1 closed-set verification AND J.2 three-level structural connection. The K70 121a1 4th Bridge Object audit-partial-ready (May 20, 2026) is a structural example: triple-anchor at integer 11 across three INDEPENDENT levels (Heegner CM + Weitzenbock + Q⁵ Chern) — J.2 pattern — AND part of the Heegner-Stark BST-primary discriminant trio with K47 + K62, suggesting a closed-set structure pending non-Heegner candidate investigation — J.1 pattern (incomplete).
+
+When templates combine, the verdict shape is layered: J.1 contributes to whether the candidate set is closed; J.2 contributes to the structural strength of each member. Both templates apply independently to their respective scope; combined application is additive evidence, not multiplicative.
+
+### Templates do NOT replace per-claim discipline
+
+Both templates are ruling-shape patterns for K-audit verdicts, NOT shortcuts that bypass per-claim audit. Each K-audit candidate still requires:
+
+- P1-P7 strict counting verification (Appendix D / Appendix E references)
+- Mode 1-7 coincidence-filter check (referenced in Coincidence_Filter_Risk methodology doc)
+- Mechanism status assessment per EXACT-vs-Mechanism distinction (Mode 1 doesn't relax under EXACT precision per Calibration #13)
+- Multi-CI consensus check for architectural-category extensions per Casey Option C governance
+- External-register discipline per Substrate-Cognition External Register doc when applicable
+
+Templates J.1 and J.2 are recognizable patterns for ruling-shape, not certification mechanisms. Cal independent assessment still applies per K-audit.
+
+### Practical application
+
+For future K-audit candidates:
+
+- **K-audit appears closed-set?** Apply J.1 template. The five-step verification + Cal 7-mode check produces D-tier RATIFIED ruling when the closure is genuine.
+- **K-audit appears compound-structural at multiple levels?** Apply J.2 template. The three-level framing produces strong I-tier framework integration at audit-partial-ready ruling. Avoid scalar-multiplication of evidence types.
+- **K-audit appears to combine?** Apply both templates. Verdict shapes layer as per the joint-application discussion above.
+- **K-audit fits neither template?** Standard K-audit ruling proceeds without explicit template; the templates document patterns observed in cleanest cases, not exhaustive coverage.
+
+### Violations to watch for
+
+- Claiming closed-set structure (J.1) without testing for extension beyond the proposed set — the honest-negative step is critical
+- Claiming three INDEPENDENT levels (J.2) when two or more reduce to the same mechanism — the independence test must be applied
+- Multiplying level counts into scalar evidential metrics (e.g., "3-level × 5-form = 15-fold" combining J.2 with OFC counts) — qualitative framing per Cal #55 + Cal Claim_Level_Positive_Patterns
+- Using template recognition as a shortcut around per-claim P1-P7 + Mode 1-7 discipline — templates document ruling-shapes, not certification mechanisms
+
+### Cross-references
+
+- **K71 Perfect Numbers Cluster Audit** — canonical J.1 instance, RATIFIED D-tier May 20, 2026
+- **K73 Λ↔Casimir Vacuum Unification Audit** — canonical J.2 instance, audit-partial-ready May 20, 2026
+- **K70 Cremona 121a1 Bridge Object** + **K62 Cremona 27a1 Bridge Object** — joint J.1 + J.2 application examples (audit-partial-ready May 20, 2026)
+- **Cal referee log #54 (K71 RATIFIED)** — first Cal recommendation to designate K71 as exemplar audit pattern
+- **Cal referee log #57 (K73 audit-partial-ready)** — first Cal recommendation to designate K73 framing as template for compound K-audits
+- **BST_Methodology_Coincidence_Filter_Risk.md** — 7-mode coincidence-filter check used in both templates
+- **BST_Methodology_EXACT_vs_Mechanism_Distinction.md** — mechanism-forcing requirement for D-tier promotion still applies; templates document ruling-shape, not promotion gate
+- **BST_Methodology_Claim_Level_Positive_Patterns.md** — Type 1 OFC + Type 2 CDAC + scalar-multiplication caution apply when K-audit claims involve cluster patterns
+
+### Casey approval status
+
+Drafted by Cal 2026-05-20 Wednesday afternoon per Task #271 (jointly assigned with Keeper). Pending Keeper review and Casey ratification. Cal proposes adoption; Keeper rules on inclusion in standing Referee Methodology.
+
+---
+
+*Appendix J added 2026-05-20 by Cal per Task #271 (with Keeper) — exemplar audit ruling-shape patterns from K-audit chain experience. Keeper review + Casey ratification pending.*

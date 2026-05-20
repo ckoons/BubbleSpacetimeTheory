@@ -2,7 +2,7 @@
   "title": "BST Rosetta Stone \u2014 Complete Catalog",
   "description": "101 distinct BST ratios/values with domain coverage",
   "generated": "2026-05-20",
-  "total_ratios": 252,
+  "total_ratios": 253,
   "ratios": [
     {
       "value": 2,
@@ -3635,6 +3635,20 @@
       ],
       "tier": "I",
       "notes": "Grace Toy 3150 (Wed 2026-05-20 Phase 2). Multi-week verification of 121a1 as 4th Bridge Object pending mechanism review."
+    },
+    {
+      "ratio": "\u03c7 = 24 Bridge Object cluster: K3 + Leech + M_24 + Niemeier + 24-cell + Borcherds + \u0394(\u03c4) all anchored on \u03c7=24",
+      "name": "\u03c7=24 cross-domain anchor cluster \u2014 non-Heegner Bridge Object candidate family (Task #265 first-step)",
+      "formula": "Seven independent BST-meaningful structures anchored on \u03c7=24: K3 Euler characteristic (existing Bridge Object); Leech lattice rank; M_24 sporadic dim; Niemeier rank-24 lattices (24 of them); 24-cell vertices; Borcherds Monster Lie algebra central charge c=24=2\u00b7C_2; modular discriminant \u0394(\u03c4) weight 12 = 2\u00b7C_2 with \u03c4(2)=-24. Six new candidates extending K3 to non-Heegner Bridge Object family.",
+      "domains": [
+        "non-heegner bridge object candidates",
+        "\u03c7=24 cross-domain anchor cluster",
+        "Type 2 cross-domain anchor extended to bridge object level",
+        "Cal #59 caution preservation",
+        "K76+ audit candidate territory"
+      ],
+      "tier": "I",
+      "notes": "Grace Toy 3180 (Wed 2026-05-20 PM). Substantive expansion of Bridge Object family beyond Heegner trio. Multi-month verification per candidate continues. Cal #59 caution VINDICATED \u2014 bounded-at-N claim not supportable at first-step scan."
     }
   ],
   "meta": {

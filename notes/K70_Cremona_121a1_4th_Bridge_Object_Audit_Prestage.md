@@ -137,4 +137,20 @@ The {27a1, 49a1, 121a1} are the BST-primary-discriminant Heegner curves. K62 + K
 
 Cremona 121a1 is the strongest 4th Bridge Object candidate to date. Full ratification when mechanism work matures.
 
+## UPDATE Wednesday afternoon per Grace Toy 3180 non-Heegner scan
+
+**Grace Toy 3180 (6/6 PASS) identified 7 non-Heegner Bridge Object candidates** at B1-B4 ≥ 3.0/4 first-step. Bridge Object set is NOT bounded at 4 — multi-family architectural-category structure:
+
+- **Family 1 (Heegner trio)**: K47 49a1 RATIFIED + K70 121a1 (this audit) + K62 27a1 audit-partial — anchored at BST primary discriminants {-g, -c_2, -N_c}
+- **Family 2 (χ=24 non-Heegner)**: K76 Leech (3.5) + K77 M_24 (3.5) + K78 Niemeier family (3.5) + K79 Borcherds Monster (3.2) + K81 24-cell (3.2) + K82 Δ(τ) (3.2) — 6 candidates anchored on χ=24 cross-domain
+- **Family 3 (N_max anchor)**: K80 X_0(137) (3.2) — anchored at BST primary N_max
+
+K70 (121a1) is anchor in Heegner family at -c_2. Structural role is parallel to non-Heegner candidates, not exhaustive of Bridge Object set. Cal #59 caution explicitly VINDICATED (not just "preserved" as premature framing).
+
+See `notes/K76plus_NonHeegner_BridgeObject_Candidates_PreStage.md` for full non-Heegner pipeline.
+
+— Keeper, 2026-05-20 Wednesday afternoon update (Grace Toy 3180 vindication)
+
+---
+
 — Keeper, 2026-05-20 Wednesday EOD (audit-partial-ready per Casey Option C hybrid governance for architectural-category extensions)

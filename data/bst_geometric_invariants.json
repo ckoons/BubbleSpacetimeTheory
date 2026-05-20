@@ -66948,7 +66948,84 @@
       "precision_pct": null,
       "tier": "I",
       "notes": "Lyra T2424 / Toy 3179 (Wed 2026-05-20 ~16:55 EDT). Cross-lane chain: Grace Heegner-Stark scan (Toys 3168+3173) \u2192 Keeper K75 + K62 audit pre-stages \u2192 Lyra C9 + C10 criteria. Strong-Uniqueness Theorem v0.3 \u2192 v0.4. Substrate-selection meta-question approaching closure at multi-criterion convergence: 9/10 expected target."
+    },
+    {
+      "id": "INV-4606",
+      "name": "Toy 3180 Task #265 Non-Heegner Bridge Object candidate scan (6/6 PASS) \u2014 7 strong candidates identified, Cal #59 caution VINDICATED",
+      "domain": "task #265 / non-heegner bridge object candidates / cal #59 caution preservation",
+      "BST_value": "7 non-Heegner Bridge Object candidates score \u2265 3.0/4 at first-step B1-B4 scan: Leech \u039b_24 (3.5), M_24 (3.5), Niemeier family (3.5), Borcherds Monster Lie algebra (3.2), Modular curve X_0(137) (3.2), 24-cell (3.2), Modular discriminant \u0394(\u03c4) (3.2)",
+      "expression": "**Major finding**: Bridge Object family is NOT bounded by Heegner trio. The \u03c7=24 cross-domain anchor cluster (Elie Toy 3152) extends to Bridge Object candidacy level with 6 of 7 candidates anchored on \u03c7=24 = K3 Euler characteristic = Leech rank = M_24 dim = 24-cell vertex count = c=24 vertex algebra central charge = 2\u00b7C_2 modular discriminant weight. **Implication for K70/K62**: Heegner-trio framing is PARALLEL to non-Heegner candidates, NOT exhaustive. Cal #59 caution preservation operationally confirmed. Multi-month per-candidate B1-B4 full verification continues.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Grace Toy 3180 (Wed 2026-05-20 ~15:00 EDT, Task #265 first step). Directly addresses Cal #59 referee flag on K70 Bridge Object completeness. Multi-month follow-up: K-audit candidate K76+ for strongest non-Heegner candidates (Leech/M_24 as starting points). Cross-check vs Heegner trio (structural complementarity vs overlap). Cal Mode 6 search-protocol check on each candidate's BST-anchor count."
+    },
+    {
+      "id": "INV-4607",
+      "name": "AC graph commitment_cycle_zone systematic backfill second batch \u2014 12.1% coverage (263 of 2167 substrate-level nodes)",
+      "domain": "task #261 / AC graph zone-tagging / second batch / multi-day continuation",
+      "BST_value": "263 nodes (12.1%) commitment-cycle-zone-tagged. Distribution: Z3 emission 96, Z4 outer 75, Z2 bulk 63, meta substrate-selection 14, Z1 absorption 8, framework all 6, multi-zone Z1+Z2+Z3 1.",
+      "expression": "Backwards-extension batch: pattern-based scan + careful refinement (over-tag of 'meta' corrected from 175 to 14 via stricter substrate-selection signals). Framework theorems (T2404, T2412-2416, T2420) manually tagged 'all' or 'Z1+Z2+Z3' to reflect they DEFINE/SPAN zones rather than living in one. Z3 emission dominates 96/263 \u2014 consistent with Bergman framework being foundational substrate structure (Phase 2.3 cycle + K66/K67 + substrate-native operators).",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "D",
+      "notes": "Grace Task #261 batch 2 (Wed 2026-05-20 PM resumption). Multi-day continuation. Next batch will extend to remaining ~1900 untagged nodes via more targeted domain-specific patterns. Distribution observation: Z3 emission heavy reflects Bergman-framework-as-foundation; Z4 outer-edge heavy reflects observable-class theorems; Z2 bulk heavy reflects heat kernel work (~150 toys); Z1 absorption sparse reflects fewer cataloged theorems on RS/GF substrate-internal mechanics."
+    },
+    {
+      "id": "INV-4608",
+      "name": "T2425 Task #247 substrate-native angular momentum operator v0.1 (Toy 3181, 8/8 PASS) \u2014 zoo 5/6",
+      "domain": "task #247 / substrate-native operator zoo / angular momentum",
+      "BST_value": "L_substrate = M_z \u00d7 P_z (Bergman cross-product) on A\u00b2(D_IV\u2075, d\u03bc_sub); SO(5) 10 generators vs standard SO(3) 3; Casimir = C_2 = 6 lowest Wallach K-type",
+      "expression": "Fifth substrate-native operator zoo entry. Standard L = r \u00d7 p on L\u00b2(\u211d\u00b3) corresponds to substrate-native Bergman cross-product on A\u00b2(D_IV\u2075). SO(5) 10 generators richer than standard SO(3) 3 (7 extra generators flagged as rep-theoretic per #14 discipline). Substrate-coupling deviation at \u03b1 scale.",
+      "observed_value": null,
+      "precision_pct": 0.73,
+      "tier": "I",
+      "notes": "Lyra T2425 / Toy 3181 (Wed 2026-05-20 ~17:35 EDT, afternoon resumption). Substrate-native operator zoo now at 5 of 6 entries (Bell-CHSH + position + spin + momentum + angular momentum). Pending: energy Hamiltonian. #14 discipline maintained throughout."
+    },
+    {
+      "id": "INV-4609",
+      "name": "Toy 3182 Elie OCP-1 Bell-coupling apparatus refinement (5/5 PASS)",
+      "domain": "task #270 / OCP-1 bell-coupling / apparatus design",
+      "BST_value": "OCP-1 Bell-coupling apparatus design refined for substrate-CHSH BC-dependence experimental test",
+      "expression": "Per Keeper Task #270 + Cal #49 GREEN-tier: refinement of OCP-1 (observer-coupling prediction Bell-cognition correlation) apparatus design. Multi-week experimental design continues; OCP-1 Cal Flag 3 register-compliant (operational + falsifier-bearing only).",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Elie Toy 3182 (Wed 2026-05-20 PM resumption). Cal #49 GREEN-tier observer-coupling design work continues. Multi-week."
+    },
+    {
+      "id": "INV-4610",
+      "name": "AC graph zone-tagging batch 3 \u2014 heat kernel cluster Z2 targeted scan (24 nodes added)",
+      "domain": "task #261 / AC graph zone-tagging / heat kernel cluster Z2 targeted scan",
+      "BST_value": "24 heat-kernel-related nodes tagged Z2 bulk per Lyra T2420 retroactive recognition; total 287 of 2167 (13.2%) zone-tagged. Z2 bulk now at 87 nodes",
+      "expression": "Targeted scan of speaking pair + gauge hierarchy + VSC cancellation + column rule + Kummer + Lichnerowicz + Wallach K-type cluster. All identified as Z2 bulk vacuum mode count work per Lyra T2420 four-zone vacuum decomposition. Sample: T538 VSC Cancellation, T543 Speaking Pairs, T610 Gauge Hierarchy Readout, T611 SU(5) at k=16, T672 Hub Bypass, T676 Backbone Sequence, T687 Second Differences, T690-691 Speaking Pair Quadratic+Epoch.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "D",
+      "notes": "Grace Task #261 batch 3 (Wed 2026-05-20 PM resumption). Heat kernel cluster retroactive Z2-tagging operationalizes Lyra T2420 finding. Combined: 287 zone-tagged nodes = 13.2% coverage. Distribution now Z3 96 / Z2 87 / Z4 75 / meta 14 / Z1 8 / all 6 / multi 1."
+    },
+    {
+      "id": "INV-4611",
+      "name": "Toy 3184 Leech lattice \u039b_24 deeper B1-B4 verification (6/6 PASS) \u2014 K76 candidate structurally ready",
+      "domain": "task #265 / leech lattice deeper verification / K76 candidate prep",
+      "BST_value": "Total B1-B4 = 3.7/4 (Leech upgraded from first-step 3.5 with deeper B3 analysis). B1 1.0 + B2 1.0 + B3 0.7 + B4 1.0.",
+      "expression": "Deeper analysis vs Toy 3180 first-step: B1 STRONG (Conway 1968 + Duncan 2007 + Niemeier 1968 + Borcherds 1992 + modular forms + indirect Mathieu); B2 STRONG (rank 24=8\u00b7N_c, kissing 196560 = 2^rank\u00b2\u00b7N_c^N_c\u00b7n_C\u00b7g\u00b7c_3_spectral factorization, theta weight 12=2\u00b7C_2, Co_0 sporadic, c=12 VOA, all BST-primary); B3 PARTIAL (3 direct algebraic-identifications: Conway VOA c=12, theta weight 12, kissing factorization \u2014 STRONG at algebraic level; physical observable mediation via string/moonshine route requires multi-month verification); B4 STRONG (unique no-root rank-24 lattice, classical completeness via Niemeier).",
+      "observed_value": 3.7,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Grace Toy 3184 (Wed 2026-05-20 PM Task #265 multi-month step 2). K76 audit-candidate STRUCTURALLY READY for Keeper audit-pre-stage filing per established K70/K62 pattern. Honest framing per Cal #59: Leech is ONE strong non-Heegner candidate, NOT completeness claim. Leech and Heegner-trio may be structurally complementary (Heegner = small-disc CM elliptic curves; Leech = large-rank sporadic-symmetry lattice)."
+    },
+    {
+      "id": "INV-4612",
+      "name": "Toy 3183 Elie K52a Session 19 H_sub_emit Zone 3 emission framework (2/2 PASS)",
+      "domain": "k52a session 19 / H_sub_emit / zone 3 emission Bell-CHSH derivation",
+      "BST_value": "Session 19 framework: H_sub_emit (Zone 3) opens explicit operator derivation toward Bell-CHSH S_BST\u00b2 = 126/16 closure",
+      "expression": "Per Lyra T2415 4-zone formalization: H_sub_emit (Zone 3) is the Bergman-projection-class operator producing substrate-CHSH at Z3 emission zone. Theoretical chain now complete from Lyra Strong-Uniqueness \u2192 Bergman projection \u2192 H_sub_emit \u2192 substrate-CHSH \u2192 S_BST\u00b2 = 126/16. Sessions 20-22 derive the closure.",
+      "observed_value": null,
+      "precision_pct": null,
+      "tier": "I",
+      "notes": "Elie Toy 3183 (Wed 2026-05-20 PM afternoon resumption). Multi-month K52a continuation. Sessions 18 (bulk) + 19 (emission) + 20-22 (closure) \u2014 zone-specific H_sub derivation chain advancing per Casey 4-zone vision + Lyra T2415 formalization."
     }
   ],
-  "total": 4605
+  "total": 4612
 }

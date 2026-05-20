@@ -118,19 +118,20 @@ Audit-partial-ready findings:
 
 **Conductor exponents**: 49a1 has g², 121a1 has c_2², 27a1 has N_c³. The exponent varies (2, 2, 3) — not a uniform pattern. Worth multi-week investigation: is the exponent significant or is it the BST primary base that matters?
 
-## Cal #59 Bridge Object completeness caution preserved
+## Cal #59 caution → UPDATED Wednesday afternoon per Grace Toy 3180
 
-**Per Cal #59**: bounded-at-4 framing is "structurally interesting but premature to bound at exactly 4 without non-Heegner candidate investigation."
+**UPDATE**: Cal #59 caution ("bounded-at-4 premature") VINDICATED by Grace Toy 3180 non-Heegner Bridge Object scan. 7 candidates at B1-B4 ≥ 3.0/4 first-step: Leech (3.5) + M_24 (3.5) + Niemeier family (3.5) + Borcherds Monster Lie algebra (3.2) + X_0(137) (3.2) + 24-cell (3.2) + Δ(τ) (3.2).
 
-**Honest framing**: K62 + K70 + K47 complete the audit pre-stage TRIO at BST primary Heegner-Stark discriminants. This DOES NOT mean Bridge Object set is bounded at exactly 4 (K3 + 49a1 + 121a1 + Q⁵ + possible 27a1).
+**Bounded-at-4 framing now DISCONFIRMED at first-step level**, not just "premature."
 
-Non-Heegner Bridge Object candidates remain open multi-week investigation:
-- Calabi-Yau threefolds with BST-primary cohomology
-- Niemeier lattices (24 non-Leech ones)
-- Riemann surfaces with BST-primary automorphism orders
-- Other Hermitian symmetric domain compact duals beyond Q⁵
+**Updated K62 framing**: Heegner-trio Bridge Object family (K47 49a1 + K70 121a1 + K62 27a1) is **ONE OF MULTIPLE FAMILIES**:
+- **Family 1 (Heegner trio)**: 3 members anchored at BST primary discriminants {-g, -c_2, -N_c}
+- **Family 2 (χ=24 non-Heegner)**: 6 candidates anchored on χ=24 cross-domain (K76-K79 + K81-K82)
+- **Family 3 (N_max anchor)**: K80 X_0(137) anchored at BST primary N_max
 
-Until non-Heegner candidates investigated, Bridge Object completeness is open question, not bounded claim.
+K62 (27a1) is the -N_c anchor in Heegner family. Its structural role is parallel to non-Heegner candidates, not exhaustive of Bridge Object set. Multi-family architectural-category extension of K57 ratification.
+
+See `notes/K76plus_NonHeegner_BridgeObject_Candidates_PreStage.md` for full non-Heegner pipeline. Multi-month per-candidate B1-B4 verification + Cal independent review + multi-CI consensus per Casey Option C governance.
 
 ## Implications
 

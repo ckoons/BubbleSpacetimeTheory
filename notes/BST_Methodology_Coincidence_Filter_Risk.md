@@ -110,6 +110,61 @@ The local ratio is reduced because near BST-anchored integers, neighboring integ
 
 **Operational principle**: when defending a Type C density claim, cite the global ratio (across the integer ring {1...N} for some N) with explicitly-stated BST-structural set and truly-sparse set. Do NOT use local-neighborhood ratios as primary evidence — they understate the structural separation due to BST clustering.
 
+### Mode 6 threshold formalization (NEW, Cal 2026-05-20 per Task #272)
+
+The Mode 6 discipline was first applied operationally in Grace Toy 3173 (K75 audit-partial-ready, Wed PM) and a second time in K62 27a1 Bridge Object audit (parallel application). The first application demonstrated the protocol works; explicit threshold rules are now formalized to support future Mode 6 applications across K-audits.
+
+**Background**: K75 enumerated BST-primary arity-4 expressions for each of Stark's 9 class-number-1 discriminants. The {-3, -7, -11} subset emerged as forced-1-form structural matches; -19/-43 with 25/11 expressions respectively were honestly downgraded as Mode 6 artifacts; -163 with 0 expressions definitively outside; -67 with 4 expressions flagged borderline. The Mode 6 protocol worked, but the thresholds were applied qualitatively. K62 then used "Forced structural match (≤1-2 threshold) ✓" labeling per anchor — the first explicit threshold application. This formalization codifies the rules.
+
+**Pre-registered Mode 6 threshold rules**:
+
+| Verdict | Expression count at chosen arity | Interpretation |
+|---|---|---|
+| **Forced structural match** | ≤ 1-2 expressions | Match is mechanism-required, not search-fitted. Small enough that the algebraic form is essentially determined by BST primary structure. |
+| **Mode 6 artifact (downgrade)** | ≥ 10 expressions | Match is search-protocol overfitting. Large enough that BST-primary arithmetic could produce the value via many combinations; finding one is not evidence beyond enumeration. |
+| **Borderline (insufficient evidence)** | 3-9 expressions | Intermediate. Further investigation needed at higher arity or via different protocol. |
+| **Definitively outside** | 0 expressions | BST-primary arithmetic cannot produce the value at the chosen arity. Strong evidence the candidate is NOT BST-anchored. |
+
+**Pre-registration discipline (CRITICAL)**:
+
+The arity choice AND the threshold cutoffs MUST be pre-registered BEFORE running the scan. Pre-registration discipline prevents Mode 6 at the threshold-selection level — i.e., the failure case where the thresholds are adjusted after the scan to produce a desired verdict.
+
+Pre-registration steps:
+
+1. **Choose arity**: state the expression arity (depth of BST-primary combinations) before scanning. Typical choice: arity-4 (operations like rank·N_c·g·c_2 with at most 4 primaries combined). Lower arity (2-3) is more conservative; higher arity (5+) admits more expressions per value and is generally less informative.
+
+2. **Set thresholds**: state the cutoff numbers (the 1-2 / 10 / 0 boundaries) before scanning. The default rules above are sensible starting points but may be adjusted upward or downward for specific applications — the adjustment must be justified and pre-registered, not back-fitted.
+
+3. **Specify target catalog**: state which integer family is being scanned (e.g., Stark's 9 class-number-1 discriminants, Niemeier lattice dimensions, classical perfect numbers). The family must be classically-established (not BST-constructed) for the Mode 6 protocol to defend against selection effect.
+
+4. **Specify what counts as an expression**: state the operational definition of "BST-primary expression at arity-K" — typically a polynomial expression in {rank, N_c, n_C, C_2, g, N_max, c_2, c_3, seesaw, χ} using addition, subtraction, multiplication, and small-integer division, with operation count ≤ K. Specify whether nested operations count toward arity (typically yes).
+
+5. **Run scan transparently**: enumerate expressions for EACH candidate in the target family, report counts honestly, apply thresholds.
+
+6. **Report verdict per candidate**: forced match / artifact-downgrade / borderline / outside per pre-registered thresholds.
+
+**Operational applications to date**:
+
+| Application | Date | Target catalog | Arity | Thresholds | Outcome |
+|---|---|---|---|---|---|
+| **K75 Grace Toy 3173** (FIRST formal Mode 6 application) | 2026-05-20 Wed PM | Stark's 9 class-number-1 discriminants | 4 | applied qualitatively (~1 forced / 11-25 artifact / 4 borderline / 0 outside) | {-3, -7, -11} forced; -19/-43 artifact-downgraded; -67 borderline; -163 definitively outside |
+| **K62 27a1 Bridge Object audit** | 2026-05-20 Wed EOD | Integer 3 anchor (Heegner CM + N_c root-system + Q⁵ Chern c_1) | 4 | explicit "≤1-2 forced match" labeling | All three anchors forced-1-form structural matches; no artifacts |
+
+**What Mode 6 thresholds defend against**: the failure case where claim "BST primary integers appear at value X via Y operations" is reported as evidence without acknowledging that BST-primary arithmetic can produce many values via many operations. When ≥10 distinct BST-primary expressions evaluate to a value, finding ONE that matches a target observable is search-protocol overfitting, not structural evidence.
+
+**What Mode 6 thresholds do NOT defend against**: pre-registered threshold rules do not address Mode 1 (post-hoc form selection within the chosen arity), Mode 3 (search-space expansion across multiple target values), or Mode 5 (selection effect on which targets to scan). Mode 6 is one layer of defense; other negative-filter modes apply independently.
+
+**Combined with Mode 6 + Cal pre-registration discipline**: Mode 6 protocol now operates as a structured pre-registered scan with explicit thresholds. The combination of (a) pre-specified arity, (b) pre-specified thresholds, (c) classically-established target catalog, and (d) transparent enumeration reporting eliminates the failure modes that loose-scan or tight-scan analysis alone would introduce. This is the discipline shape Mode 6 was specified for; it now has operational infrastructure for repeatable application.
+
+**Future Mode 6 applications**: when running a Type C density claim through Mode 6 enumeration, file the pre-registration record explicitly in the toy or audit document. Pre-registration record should include arity choice + threshold cutoffs + target catalog + expression definition + scan protocol — BEFORE the scan results. This pre-registration discipline is now standard for any Mode 6 application in K-audit chain rulings.
+
+**Cross-references**:
+
+- **K75 audit (Grace Toy 3173)**: first formal operational Mode 6 application
+- **K62 audit (27a1 Bridge Object)**: second operational application with explicit threshold labeling
+- **referee_objections_log.md entries #59 + #61**: Cal recommendation + Cal threshold formalization commitment + K62 commendation on Mode 6 threshold application
+- **BST_Methodology_EXACT_vs_Mechanism_Distinction.md**: Mode 6 thresholds intersect with EXACT-vs-Mechanism — even when EXACT precision is achieved at a forced-match expression, mechanism-forcing remains the D-tier gate per Calibration #13
+
 ### 7. Classical-integer-set source claim without mechanism chain (NEW, Cal+Grace via K55, 2026-05-19)
 
 **Failure mode**: a draft paper, registry entry, or board claim proposes that a classical-mathematics theorem's output set (e.g., the 9 Heegner discriminants, the 26 sporadic group orders, the Hurwitz-bound automorphism counts) qualifies as a Level-1 source root theorem for BST, BUT without exhibiting a classical-math mechanism chain that forces D_IV⁵ specifically.
