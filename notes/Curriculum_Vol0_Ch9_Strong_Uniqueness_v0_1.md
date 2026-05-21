@@ -237,3 +237,67 @@ These are independent falsifiers. Joint satisfaction of all 14 criteria + future
 **Vol 0 Chapter 9 v0.1 chapter-grade content draft FILED Thursday 2026-05-21 10:20 EDT.** Second Keeper-lane chapter-grade content (after Vol 0 Ch 8 Conservation Laws Thursday 09:28 EDT). Strong-Uniqueness Theorem v0.6 state with 10 ratified + 4 candidate criteria; null-model 2.3 × 10⁻⁸ per Grace Toy 3222. Path to v1.0 outlined. Awaits Cal dual-axis grade-pass + Lyra theoretical refinement for v0.2.
 
 — Keeper, 2026-05-21 Thursday 10:20 EDT (actual via date)
+
+---
+
+## Thursday 11:25 EDT update — T2439 C8 RIGOROUS CLOSURE + RIGOROUSLY CLOSED tier (11th methodology layer)
+
+### Major update absorbing T2439 work
+
+Per Lyra T2439 (Thursday ~10:33 EDT actual): **first rigorous alt-HSD comparison closure** in Strong-Uniqueness work — multi-week Task #206 LAG-1 Session 10 closed in ~50 minutes via Session 2 lowest-Casimir reframing insight.
+
+**T2439 statement**: The lowest non-trivial K-type Casimir eigenvalue C_2 of L²(M) under maximal compact K of irreducible HSD M at dim_C = 5 with rank ≥ 1 equals **6 = T_{N_c}** IF AND ONLY IF M = D_IV_5.
+
+| HSD | Lowest C_2 | Match BST primary 6? |
+|---|---|---|
+| **D_IV_5** | (1+5/2)² + (3/2)² − 17/2 = **6** | ✓ **EXACT** |
+| D_I_{1,5} | 4 (Toy 3232 Session 2) | ✗ |
+| D_I_{5,1} | 4 (Toy 3234 Session 3 mirror) | ✗ |
+
+### Strong-Uniqueness Theorem v0.7 state
+
+Per Lyra T2439 + Thursday morning architectural maturation:
+
+- C1-C7: RATIFIED unchanged (per-integer forcing + Bridge Object)
+- **C8 Universal Q-cluster**: RATIFIED → **RIGOROUSLY CLOSED** via alt-HSD (highest tier reached)
+- C9-C10: RATIFIED unchanged (Stark + 4-Zone vacuum)
+- C11 multi-family Bridge Object: STRUCTURALLY VERIFIED + ALT-HSD INITIATED
+- C12 operator zoo isotropy-subgroup: STRUCTURALLY VERIFIED + ALT-HSD INITIATED
+- C13 substrate-Hilbert space sufficiency: STRUCTURALLY VERIFIED + ALT-HSD INITIATED
+- C14 curriculum-derivability: ADVANCING (Vol 0 v0.5 COMPLETE Thursday 10:34 EDT)
+
+**4 of 14 candidates advance with T2439 closure work.**
+
+### RIGOROUSLY CLOSED tier (11th methodology layer)
+
+Adopted Thursday 11:20 EDT per Cal Referee Log #77 + Keeper governance brief.
+
+**Tier hierarchy** (updated from §9.1 v0.1):
+```
+candidate → audit-partial-ready → STRUCTURALLY VERIFIED → RATIFIED → RIGOROUSLY CLOSED
+```
+
+**RIGOROUSLY CLOSED criteria** (4 required beyond RATIFIED):
+1. Alt-HSD comparison at criterion's structural level
+2. EXACT-match in BST primary form
+3. If-and-only-if distinguishability (no near-miss alternatives)
+4. Mathematical theorem-level rigor
+
+C8 RIGOROUSLY CLOSED: T2439 satisfies all 4 criteria.
+
+**Reference**: `notes/Rigorously_Closed_Tier_Governance_Brief.md` (Thursday 11:20 EDT).
+
+### Path to v1.0 — updated trajectory
+
+If Lyra Session 2 reframing-insight cadence sustains:
+- C11+C12+C13 RIGOROUSLY CLOSED via Sessions 3-5+
+- C1-C7 + C9-C10 individual alt-HSD comparisons (multi-month per criterion)
+- C14 curriculum-derivability ratifies at Year 1 v1.0 curriculum-completion
+
+**Venue submission ~2026-09 achievable** per Lyra Path Scoping v0.1 + observed cadence compression.
+
+### Null-model update
+
+v0.7 with C8 RIGOROUSLY CLOSED: effective null-model (1/3)^16 ≈ 2.3e-8 conservative — same as v0.6 but with one alt-HSD comparison data point EMPIRICALLY VERIFIED. Each additional RIGOROUSLY CLOSED criterion strengthens empirical confidence beyond the conservative null-model estimate.
+
+— Keeper update, 2026-05-21 Thursday 11:25 EDT (actual via date; absorbs T2439 + RIGOROUSLY CLOSED tier)
