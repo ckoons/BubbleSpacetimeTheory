@@ -107,14 +107,14 @@
 
 | # | Constant | Status |
 |---|----------|--------|
-| B1 | Deuteron mass | NEEDS TOY |
-| B2 | Helion mass (He-3) | NEEDS TOY |
-| B3 | Alpha particle mass (He-4) | NEEDS TOY |
-| B4 | Triton mass (H-3) | NEEDS TOY |
+| B1 | Deuteron binding energy | CATALOG I-tier (0.5%) per T2051: B_d = c_3/N_c · m_e = 13/3 · m_e. Audit 2026-05-21 Elie. |
+| B2 | Helion binding energy (He-3) | CATALOG I-tier per T-entry. Audit 2026-05-21 Elie. |
+| B3 | Alpha particle binding energy (He-4) | CATALOG I-tier (0.7%): B_α = c_2·n_C·m_e. Audit 2026-05-21 Elie. |
+| B4 | Triton binding energy (H-3) | CATALOG I-tier per T-entry. Audit 2026-05-21 Elie. |
 | B5 | Muon g-2 a_mu | IN PROGRESS |
 | B6 | Lamb shift | NEEDS TOY |
-| B7 | Hyperfine splitting (H) 1420 MHz | NEEDS TOY |
-| B8 | Higgs self-coupling | NEEDS TOY |
+| B7 | Hyperfine splitting (H) 1420 MHz | TOY FILED 2026-05-21 (Toy 3274, I-tier 0.42% via BST primary form) |
+| B8 | Higgs self-coupling | CATALOG D-tier per T1965+T2005 (Toy 2531). BACKLOG was stale — audit 2026-05-21 Elie. |
 
 ### Tier C — Cannot yet derive (with explanation)
 

@@ -1,8 +1,8 @@
 ---
 title: "Cal Methodology Stack — Navigation Index"
 author: "Cal A. Brate (Claude 4.7, visiting referee)"
-date: "2026-05-20 Wednesday afternoon"
-status: "Navigation infrastructure for the Cal methodology document stack (8 documents + Appendix J in Referee_Methodology). Reference at session start when picking which discipline doc to apply, or when onboarding new CI to the methodology stack."
+date: "2026-05-20 Wednesday afternoon (v0.2 update 2026-05-21 Thursday morning per Phase 2 maturation)"
+status: "v0.4 — Navigation infrastructure for the Cal methodology document stack (10 standalone Cal documents + 4 Keeper-filed governance documents per Cal contributions + Appendix J in Referee_Methodology + Methodology_Index = 16-layer methodology infrastructure). Reference at session start when picking which discipline doc to apply, or when onboarding new CI to the methodology stack. v0.4 update 2026-05-21 Thursday adds PCAP (Pre-Specification Cadence Acceleration Pattern) as 16th layer per Cal #85 + Thursday Sessions 2-12 cadence-chain observation."
 target: "BST team CIs (Lyra, Elie, Grace, Keeper), future-Cal at sunrise, any visiting CI joining BST work"
 ---
 
@@ -34,6 +34,12 @@ This is navigation infrastructure, NOT new methodology content. Update this inde
 | **Trichotomy (Grace v0.1 + Cal Review)** | When catalog entries need ID / DER / PRED classification | Catalog discipline |
 | **Methodology_Index** (this document) | When picking which discipline doc to apply | Navigation |
 | **Referee_Methodology Appendix J** | When ruling shape for K-audit candidates needs structural template | K-audit ruling shape |
+| **Structurally_Verified_Tier_Adoption_Ruling** (Keeper per Cal #66) | When K-audit reaches BST-internal verification complete + alt-HSD pending | Audit-chain governance |
+| **Phase1_Phase2_KAudit_Governance_Brief** (Keeper per Cal #72) | When classifying K-audit as architectural-category vs INSTANCE-level chapter-category | Audit-chain governance |
+| **Dual-axis review rubric** (per Cal #68 + #69 + #71 + #76, operational standing) | When grade-passing curriculum/paper artifacts at chapter-grade or paper-grade depth | Curriculum/paper review |
+| **BST TIER-1 FALSIFIER SET external framing** (per Cal #74) | When external-presentation positioning of BST falsifiability claims (K87 + K90 + K91) | External-presentation infrastructure |
+| **RIGOROUSLY CLOSED tier supplement** (Cal per #77, filed 2026-05-21 Thursday) | When alt-HSD comparison demonstrates if-and-only-if mathematical-theorem distinguishability with EXACT BST-primary match | Audit-chain epistemic tier (11th methodology layer) |
+| **PCAP — Pre-Specification Cadence Acceleration Pattern** (Cal per #85, filed 2026-05-21 Thursday afternoon) | When recognizing execution-cycle compression in workstreams where methodology + pre-specs + reframing-insight converge | Cadence pattern (16th methodology layer) |
 
 ## Documents by category
 
@@ -87,6 +93,48 @@ Apply when catalog entries need ID / DER / PRED classification. Three statement 
 - **PREDICTS (PRED)**: experimental observable at stated precision target
 
 Orthogonal to D/I/C/S tier system (confidence level). Cal review added 6 refinements (R1-R6); R3 names "PRED-with-ID-form-and-DER-pending" as canonical cascade-unblock external-survivability shape. Cal review also includes 6-audit cascade-unblock worked example applying trichotomy to K52a Lamb + K52a BCS + K66 Bell + K67 Born=Bergman + K68 RS Computation + K69 Family Q=126.
+
+### Audit-chain governance (Keeper-filed per Cal contributions)
+
+**9. `Structurally_Verified_Tier_Adoption_Ruling.md`** (Keeper, 2026-05-21 Thursday morning, per Cal #66 proposal)
+
+The STRUCTURALLY VERIFIED tier sits between "candidate" and "RATIFIED" in audit-chain epistemic tiers. Captures the state where F1-F4 + Mode 1-7 + BST-internal verification are all complete, with only alternative-HSD comparison (Lyra Task #206 multi-month) pending for full RATIFIED status. Applies operationally across K-audits: K80 X_0(137), K84 Q-zeta-137, K87 CPT, K88 m_p/m_e, K92 a_e Crown Jewel, and others.
+
+**10. `Phase1_Phase2_KAudit_Governance_Brief.md`** (Keeper, 2026-05-21 Thursday 09:57 EDT, per Cal #72 recommendation)
+
+Distinction between Phase 1 (architectural-category methodology decisions — multi-CI consensus required) and Phase 2 (INSTANCE-level chapter-category K-audits — Cal + Keeper auto-promotion). Boundary criterion: introduces new architectural tier? → Phase 1. Operates within existing framework? → Phase 2. Cluster K-audit patterns endorsed for shared-mechanism families (CPT-cluster mechanism + Predictions-cluster assertion + Content-cluster categorical decomposition). Escalation protocol for Phase 2 → Phase 1 specified.
+
+**11. Dual-axis review rubric (operational standing, embedded in referee log + Cal #68 + #69 + #71 + #76)**
+
+Casey's "believability + provability" directive operationalized as Cal grade-pass rubric for curriculum/paper-grade artifacts:
+- **Provability axis**: theorem chain rigor + dependency-tree explicit + tier-discipline labeled + toy verification cited + multi-month gates honestly named
+- **Believability axis**: chapter-grade prose accessible + dual register (formal + intuitive 5th-grade) + external-survivability + register discipline
+
+Used in batch reviews across Lyra Vol 1 + Elie Vol 2 + Keeper Vol 0 chapter-grade narratives Thursday morning (#68, #69, #71, #76).
+
+**12. BST TIER-1 FALSIFIER SET external-presentation framing (per Cal #74)**
+
+K87 CPT + K90 Five Absences + K91 Experimental Program form BST's complete external falsifiability position. Framing rule: lead with K91 operational experimental commitment → K90 wide-scope joint absence → K87 catastrophic-falsifier capstone. AVOID "BST has been verified" framing; USE "BST predicts X; precision tests have not refuted; future deviation would refute" framing. The set's external strength is **commitment to falsification**, not "extensively verified" claim.
+
+**13. `BST_Methodology_Rigorously_Closed_Tier_Supplement.md`** (Cal per #77, filed 2026-05-21 Thursday — 11th methodology layer)
+
+Audit-chain epistemic tier between RATIFIED and final theorem closure. Introduced by Lyra T2439 closure of Strong-Uniqueness C8 Thursday 2026-05-21 ~10:55 EDT.
+
+**Tier hierarchy**: `candidate → STRUCTURALLY VERIFIED → RATIFIED → RIGOROUSLY CLOSED`
+
+**Four requirements for RIGOROUSLY CLOSED promotion**:
+1. Alt-HSD comparison performed at the criterion's structural level
+2. EXACT-match in BST primary form (not numerical agreement)
+3. **If-and-only-if distinguishability** (no structural near-miss alternative)
+4. Mathematical theorem-level rigor (not just structural identification)
+
+**Distinction from RATIFIED**: RATIFIED is structural-identification distinguishability; RIGOROUSLY CLOSED is mathematical-theorem if-and-only-if distinguishability.
+
+**External register**: RIGOROUSLY CLOSED tier referenceable externally with "BST proves uniqueness via mathematical theorem T at if-and-only-if level" language. Strongest external-presentation register for Strong-Uniqueness Theorem claims.
+
+**Canonical instance**: T2439 (D_IV⁵ lowest Wallach K-type Casimir C_2 = 6 EXACT vs D_I_{1,5} = 4 and D_I_{5,1} = 4).
+
+**Projection**: if Lyra Task #206 Sessions 3+ produce similar reframing-insight closures for C2-C7 + C9-C14, multiple criteria may advance to RIGOROUSLY CLOSED tier within multi-week cadence. Strong-Uniqueness Theorem v1.0 ratification path substantially faster than multi-month estimate.
 
 ### K-audit ruling-shape templates
 
