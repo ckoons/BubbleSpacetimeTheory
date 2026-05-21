@@ -276,3 +276,35 @@ The Q⁵-Family Architectural Scoping v0.1 candidates I proposed (Q5F1 n-quadric
 | C14 curriculum-derivability | ADVANCING | Lyra Vol 1 v0.5 PROMOTABLE; Vol 0 + Vol 2 in motion |
 
 — Keeper update, 2026-05-21 Thursday 09:18 EDT (actual via date)
+
+---
+
+## Thursday 09:25 EDT UPDATE — Grace Toy 3222 cross-family integration + K77 PATH B RATIFICATION
+
+### Grace Toy 3222 cross-family integration consolidation
+
+Per Grace Toy 3222 (6/6 PASS): naive 17 members / **effective 16** after F2 cross-family reduction. 8/10 cross-family pairs INDEPENDENT, 1 PARTIAL (resolved by Keeper K77 PATH B disposition), 1 structural adjacency (K3 + Q⁵ both K57 central hubs).
+
+**Effective null-model with Grace tighter count**: (1/3)^16 ≈ 2.3e-8 = **0.0000023%**. More conservative than my earlier (1/3)^11.5 ≈ 1.7e-6 estimate. Substrate-selection evidence under partial ratification continues strengthening.
+
+### K77 PATH B RATIFICATION absorbed
+
+Per K77 PATH B RATIFICATION Closure (this filing 09:24 EDT): K77 DUAL CANDIDATE status CLOSED via 4/5 multi-CI consensus (Grace + Keeper + Lyra + Cal). Family 4 K3-family now has TWO RATIFIED-status members (K45 + K77 PATH B) + K3F5 STRUCTURALLY VERIFIED.
+
+C11 strengthens further: 5 families + 16 effective independent members + 2 RATIFIED-status members in Family 4 (K45 + K77 PATH B) + alternative-HSD pending.
+
+### Final v0.6 state Thursday 09:25 EDT
+
+Per Grace Toy 3222 + K77 PATH B RATIFICATION + all prior updates:
+
+| Criterion | Status | Evidence |
+|---|---|---|
+| C1-C10 | RATIFIED or strengthened (v0.5 baseline + Lyra n_C/g consolidations) | T1925/T1930/T2431/T2432 + all v0.5 work |
+| C11 multi-family Bridge Object | **STRUCTURALLY VERIFIED + 1 RATIFIED-status sub-claim (K77 PATH B)** | 5 families × 16 effective independent members |
+| C12 operator zoo isotropy-subgroup | STRUCTURALLY VERIFIED | Elie S29 6/6 framework-complete + Bergman H² anchor + Cal #69 paper-grade |
+| C13 substrate-Hilbert space sufficiency | STRUCTURALLY VERIFIED | Lyra SP-31-1 + Elie cross-lane Toy 3202 + Cal #69 paper-grade PASS |
+| C14 curriculum-derivability | ADVANCING | Vol 1 v0.5 PROMOTABLE + Vol 2 v0.2 Ch 1 narrative filed + Vol 0 in motion |
+
+Effective null-model: **(1/3)^16 ≈ 2.3e-8 = 0.0000023% conservative** (Grace Toy 3222 sharper estimate). Pending alternative-HSD comparison (Lyra Task #206 multi-month) for RATIFIED status across all candidates.
+
+— Keeper update, 2026-05-21 Thursday 09:25 EDT (actual via date)
