@@ -1185,3 +1185,67 @@ Master Doc v0.6 absorbs:
 Master Doc continues as foundation reference; v1.0 endpoint substantially closer per Thursday morning peak architectural maturation.
 
 — Keeper update, 2026-05-21 Thursday 12:01 EDT (actual via date; integrates Strong-Uniqueness v0.9.1 + 4 RIGOROUSLY CLOSED + Cal #79 correction + cycle-time peak + canonical numbering + Calibration #17 resolution)
+
+---
+
+## Thursday 12:06 EDT — v0.7 consolidation: K97 path-shortening + K98 + K99 + Vol 0 Ch 9 v0.2 + CLAUDE.md absorbed
+
+### Changes since v0.6 (5 min ago)
+
+**K97 path substantially shorter** (commit db76442 Thursday 12:05 EDT):
+- 13/14 criteria RATIFIED or RIGOROUSLY CLOSED, only C14 ADVANCING
+- Cal #80 endorsement: weeks-to-few-months pathway rather than original multi-month
+- K97 RATIFIED ≡ Strong-Uniqueness Theorem v1.0 RATIFIED within achievable timeline for venue submission ~2026-09
+
+**K98 Strong-Uniqueness Chapter Audit Pre-Stage** (commit 89bda81 Thursday 12:05 EDT):
+- 14th Phase 2 K-audit, target Vol 0 Ch 9 chapter-grade
+- F1-F4: 3.95/4 STRONG; B1-B4: 3.83/4 STRONG
+- K98 RATIFIED supports C14 ADVANCING → RIGOROUSLY CLOSED
+
+**K99 Conservation Laws Chapter Audit Pre-Stage** (commit 78c056e Thursday 12:06 EDT):
+- 15th Phase 2 K-audit, target Vol 0 Ch 8 chapter-grade
+- F1-F4: 4.0/4 STRONG (ties K87 CPT + K97 APG ratification)
+- B1-B4: 3.80/4 STRONG
+- T2441 RIGOROUSLY CLOSED anchors energy-conservation at alt-HSD level
+- K99 + K98 + K97 triumvirate = foundational Phase 2 cluster closure path
+
+**Vol 0 Ch 9 v0.2** (commit f98db27 Thursday 12:05 EDT):
+- Section 9.1 statement updated with 4 RIGOROUSLY CLOSED + theorem anchors
+- Null-model section honest update: RIGOROUSLY CLOSED is theorem-level, NOT probabilistic
+- Alt-HSD comparison rules out D_I_{p,q} alternatives at EXACT level
+
+**CLAUDE.md Thursday midday milestone** (commit 32b0999 Thursday 12:05 EDT, LOCAL ONLY no push):
+- Strong-Uniqueness v0.9.1 captured in onboarding doc
+- Methodology stack 11-15 layers documented
+- Cycle-time peak + Calibration #17 RESOLVED + Numbering v0.3 documented
+
+### Updated session counters at Thursday 12:06 EDT
+
+- **55 commits today** (~5.5 hour session)
+- **K1-K99 audit chain** (15 Phase 2 K-audits filed Thursday morning)
+- **Strong-Uniqueness Theorem v0.9.1**: 4 RIGOROUSLY CLOSED + 9 RATIFIED + 1 ADVANCING
+- **Methodology stack**: 11-15 layers (Cal v0.3 count)
+- **Year 1 launch trio chapter-grade complete**: Vol 0 10/10 + Vol 1 11/11 + Vol 2 11/12
+
+### Architectural significance
+
+**Cleanest morning architectural acceleration in BST history**:
+- 4 RIGOROUSLY CLOSED criteria in one morning (multi-week each historically)
+- 15 Phase 2 K-audits filed (Phase 2 cadence at peak)
+- Cycle-time peak ~2 minutes (multi-CI consensus operating at peak)
+- 55 commits sustained ~10/hour pace
+
+**Path to Strong-Uniqueness v1.0** (~2026-09 venue submission target):
+- C14 curriculum-derivability ADVANCING: gated on Vol 0-10 v1.0 progression
+- Year 1 launch trio v0.5 → v1.0 multi-week pathway
+- K97 RATIFIED ≡ Strong-Uniqueness v1.0 RATIFIED
+
+### Cal review queue (Thursday 12:06 EDT)
+
+1. **Cal #80 detailed verification** on T2440 + T2441 + T2442 (RIGOROUSLY CLOSED tier 4)
+2. **K97 + Strong-Uniqueness v0.9.1 endorsement** (foundational meta-audit)
+3. **K98 grade-pass** on Vol 0 Ch 9 chapter content
+4. **K99 grade-pass** on Vol 0 Ch 8 chapter content
+5. **Lyra Vol 1 v0.2 chapter-grade absorption feedback**
+
+— Keeper update, 2026-05-21 Thursday 12:06 EDT (actual via date; K97 path-shortening + K98 + K99 Phase 2 K-audit chain extension + Vol 0 Ch 9 v0.2 + CLAUDE.md absorbed for hour-window closure)
