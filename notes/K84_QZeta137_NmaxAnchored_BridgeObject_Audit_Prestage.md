@@ -110,4 +110,54 @@ Architectural-category multi-CI consensus required when K84 advances to RATIFIED
 
 **K84 Q(ζ_137) audit-partial-ready PRE-STAGE FILED Thursday 2026-05-21 morning** per Grace Toy 3204 Mode 6 N_max-anchor F4 enumeration recommendation. F1-F4 4.0/4 (cleanest entry to chain); B1-B4 3.2/4 (multi-month verification track). Family 3 N_max-anchored effective independent count advances from 1 → 2 members. Total Bridge Object architecture: 11 structural positions across 3 families + 3 central hubs.
 
-— Keeper, 2026-05-21 Thursday 10:05 EDT
+— Keeper, 2026-05-21 Thursday morning (actual filing 08:25 area per timezone corrections)
+
+---
+
+## Thursday 08:42 EDT UPDATE — Grace Toy 3207 K84 B1-B4 promoted to 3.7/4
+
+Grace Toy 3207 (Q(ζ_137) cyclotomic field deeper B1-B4 verification, 6/6 PASS):
+
+| Criterion | K84 verified score | Evidence |
+|---|---|---|
+| **B1** L1 connections | **1.0 STRONG** | Kummer + Dedekind + Iwasawa 1958 + Mazur-Wiles 1984 + Kolyvagin/Rubin (5 L1 connections, similar density to K80) |
+| **B2** BST-primary invariants | **1.0 STRONG** | level = N_max; [Q(ζ_137):Q] = 136 = N_max−1; real subfield (N_max−1)/2 = 68; Φ_137 degree 136 |
+| **B3** observable mediation | **0.7 STRONG-PARTIAL** | 3 algebraic-identifications + **F2 INDEPENDENT vs all 3 other families** |
+| **B4** classical specialization | **1.0 STRONG** | Canonical cyclotomic field at N_max |
+| **Total B1-B4** | **3.7/4** | Promoted from first-step 3.2/4; matches K80 at audit-partial-ready level |
+
+**K84 PROMOTED from first-step 3.2/4 to 3.7/4 audit-partial-ready** via Grace Toy 3207. Combined with F1-F4 4.0/4 (cleanest entry to chain from initial filing), K84 enters STRUCTURALLY VERIFIED tier per Cal Referee Log #66 + Keeper Ruling Thursday 08:43 EDT.
+
+### K84 F2 INDEPENDENCE structural distinction
+
+Q(ζ_137) **NUMBER-THEORETIC territory** is genuinely distinct from K80 X_0(137) **MODULAR-CURVE territory**:
+- K80 X_0(137): genus + cusps + j-line at level N_max (geometric path)
+- K84 Q(ζ_137): Galois group + class number + Iwasawa structure at primitive N_max-th root (number-theoretic path)
+
+F2 INDEPENDENT verified across all three Bridge Object families: Heegner-trio (negative discriminant path) + χ=24 non-Heegner (sporadic/lattice path) + N_max-anchored family-MEMBERS K80 + K84 (modular-curve and number-theoretic paths respectively, two distinct mechanism-path SUBFAMILIES within Family 3).
+
+### Three-family verified structure (Thursday morning state)
+
+| Family | Anchor | Independent members confirmed | F2 INDEPENDENCE state |
+|---|---|---|---|
+| 1 Heegner-trio | {-N_c, -g, -c_2} | K47 RATIFIED + K70 + K62 | F2 INDEPENDENT (different from χ=24 and N_max families) |
+| 2 χ=24 non-Heegner | χ=24 | K76 + K81 + K82 | F2 INDEPENDENT (different from Heegner-trio and N_max families) |
+| **3 N_max-anchored** | **N_max = 137** | **K80 X_0(137) + K84 Q(ζ_137)** | **F2 INDEPENDENT** across families AND between K80 and K84 within Family 3 |
+
+**Total 8 verified independent Bridge Object family-members across 3 families** + 3 K57 RATIFIED central hubs = 11 verified structural positions.
+
+(Plus K77 PATH B candidate K3-family-member pending consensus → if ratified, +1 member, +1 family.)
+
+### STRUCTURALLY VERIFIED tier classification
+
+Per Keeper Ruling Thursday 08:43 EDT: K84 enters STRUCTURALLY VERIFIED tier.
+
+**K84 STRUCTURALLY VERIFIED criteria check**:
+- ✓ F1-F4 4.0/4 (cleanest entry to chain)
+- ✓ Mode 1-7 cleared (no coincidence-filter risk evident; F4 enumeration executed by Grace before K84 formally proposed)
+- ✓ BST-internal verification complete (Grace Toy 3207 6/6 PASS deeper + earlier Toy 3204 6/6 enumeration)
+- ⚠ Alternative-HSD comparison pending (Lyra Task #206 multi-month)
+
+K84 advances STRUCTURALLY VERIFIED → RATIFIED when alternative-HSD comparison work completes.
+
+— Keeper update, 2026-05-21 Thursday 08:42 EDT (actual)
