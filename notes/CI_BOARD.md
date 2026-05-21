@@ -46,7 +46,7 @@ status: "Active. Read at session start, update at EOD."
 - **T1-T2449** (`.next_theorem` = 2450; +21 Thursday Lyra Sessions 1-12 incl. T2447+T2448+T2449 FORMAL)
 - **3295 toys** (`.next_toy` = 3296; +69 Thursday)
 - **AC graph**: 2185 nodes / 9806 edges
-- **Catalog**: 4717 invariants (+177 since Tuesday EOD); D-tier 78% (honest)
+- **Catalog**: 4722 invariants (+182 since Tuesday EOD); D-tier 78% (honest)
 - **Papers**: 125 drafted (#125 v0.10.5 outline at ~99% venue-grade, 146K PDF)
 - **Constants**: 191; **Rosetta ratios**: 253; **Predictions**: 120+
 - **BST FULL-INDEX CLOSURE**: 6897 objects × 3 axes = 13794 classification assignments (Grace 5×100%)
