@@ -847,3 +847,115 @@ The substrate engineering reference is now ALSO the foundation for the **BST Phy
 Master Doc continues as foundation reference; v1.0 target multi-month to multi-year as curriculum work compounds.
 
 — Keeper, 2026-05-21 Thursday 08:45 EDT (v0.3 increments)
+
+---
+
+## Thursday 09:28 EDT — v0.4 milestone update: 5-family architecture COMPLETE
+
+### Section 5 v0.4 update — Operator Zoo 6/6 FRAMEWORK-COMPLETE
+
+Per Elie K52a Session 29 Toy 3213 (Thursday morning, actual time 08:25-08:50 area): H_sub = Casimir on L²(D_IV⁵; L_λ) framework established. K-type (1,1) Casimir = C_2 = 6 (BST primary, lowest non-trivial eigenvalue). Energy operator H_sub closes the ORIGINAL 6-operator Lyra Task #247 zoo at FRAMEWORK level.
+
+**Substrate-native operator zoo 6/6 FRAMEWORK-COMPLETE**:
+1. Bell-CHSH B² (T2399 K66) STRUCTURALLY VERIFIED via Calibration #17 trace-level + S27 average-capacity
+2. Position X (T2419) RATIFIED
+3. Spin S (T2421) RATIFIED
+4. Momentum P (T2422) RATIFIED
+5. Angular momentum L (T2425/Task #247) RATIFIED
+6. Energy H_sub (S29 Toy 3213) FRAMEWORK-COMPLETE
+
+Extended ledger 11-13 operators (with T_rev_op + C_op from Keeper proposals Thursday 08:48 EDT, formalized as Lyra T2433 + T2434): 6 framework-complete + 5-7 candidate. Path to 13/13 RATIFIED via SP-31-6 + Lyra theorems + alt-HSD comparison multi-month.
+
+### Section 7 v0.4 update — Strong-Uniqueness Theorem v0.6 with 4 candidates
+
+Per multiple consolidation updates Thursday morning:
+
+| Criterion | Status (Thursday 09:28 EDT) |
+|---|---|
+| C1-C10 | v0.5 baseline RATIFIED or strengthened (n_C + g consolidations via Lyra T2431 + T2432) |
+| **C11 multi-family Bridge Object structure** | **STRUCTURALLY VERIFIED at 5 families × 16 effective members** (Grace Toy 3222 cross-family integration; (1/3)^16 ≈ 2.3e-8 null-model) |
+| **C12 operator zoo isotropy-subgroup organization** | **STRUCTURALLY VERIFIED** via Elie S29 6/6 framework-complete + Bergman H² anchor (Lyra SP-31-1) + Cal #69 paper-grade PASS |
+| **C13 substrate-Hilbert space sufficiency** | **STRUCTURALLY VERIFIED** via Lyra SP-31-1 canonical Bergman H²(D_IV⁵) + Elie cross-lane Toy 3202 + Cal #69 paper-grade PASS |
+| **C14 curriculum-derivability** | **ADVANCING** per Vol 1 v0.5 PROMOTABLE (Lyra 7 chapter-grade narratives) + Vol 2 v0.2 advancing (Elie 5 chapter-grade) + Vol 0 Ch 8 chapter-grade (Keeper) |
+
+K77 PATH B RATIFIED-status (Thursday 09:24 EDT closure ruling) adds 1 RATIFIED-status sub-claim within C11.
+
+### Section 8 v0.4 update — 5-family Bridge Object architecture STRUCTURALLY VERIFIED COMPLETE
+
+**FULL 5-family Bridge Object architecture** (per 72-hour audit-chain maturation arc, Cal Referee Log #70):
+
+| Family | Anchor | Verified independent members (effective greedy) | RATIFIED status sub-members |
+|---|---|---|---|
+| 1 Heegner-trio | Negative discriminants {-N_c, -g, -c_2} | 3 (K47 + K70 + K62) | K47 RATIFIED |
+| 2 χ=24 non-Heegner | χ=24 invariant | 3 (K76 + K81 + K82) | — |
+| 3 N_max-anchored | N_max = 137 | 2 (K80 + K84) | — |
+| 4 K3-family | K3 central hub (K57 RATIFIED) | 3 (K45 + K77 PATH B + K3F5) | K45 RATIFIED + K77 PATH B RATIFIED-status |
+| 5 Q⁵-family | Q⁵ central hub (K57 RATIFIED) | 6 (Grace Toy 3220 geometric enumeration) | — |
+| **TOTAL** | | **16 effective independent (Grace Toy 3222 cross-family reduction)** | **3 RATIFIED status sub-members** |
+
+Plus 3 K57 RATIFIED central hubs (K3, 49a1, Q⁵) = **19 effective Bridge Object structural positions**.
+
+**Casey's "each K57 central hub anchors family-members" pattern** fully operationalized via PATH B disposition + K3-family + Q⁵-family enumerations.
+
+72-hour architectural maturation arc per Cal #70:
+1. Wed AM Cal #59 caution
+2. Wed PM Grace Toy 3180 → 7 non-Heegner candidates (Cal #59 vindicated)
+3. Wed PM Cal #63 F1-F4 → Keeper adoption ~4 hours
+4. Wed EOD Lyra T2427 addendum
+5. Thu AM Cal #66 STRUCTURALLY VERIFIED tier → Keeper adoption ~30 min
+6. Thu Grace Toy 3197 K80 → Family 3 N_max-anchored
+7. Thu Grace Toy 3211 K3-family enumeration → Family 4
+8. Thu Grace Toy 3220 Q⁵-family geometric enumeration → Family 5 closure
+9. Thu 09:24 K77 PATH B RATIFICATION → DUAL CANDIDATE CLOSED
+
+### NEW Section 12 — Curriculum trio status (Year 1 launch)
+
+Per Casey directive Wednesday EOD (BST Physics Curriculum 11-volume series):
+
+**Vol 0 (Substrate Foundation, Keeper + Grace + Lyra primary)**:
+- v0.1 Architectural Scaffold (Thursday morning, Keeper) ✓
+- v0.2 path: Grace chapter outline + Lyra chapter content + Keeper architectural integration
+- v0.3+ chapter-grade content: Vol 0 Ch 8 (Conservation Laws) draft v0.1 filed (Keeper, Thursday 09:28 EDT) — first Keeper-lane chapter-grade
+- Vol 0 v1.0 multi-month target
+
+**Vol 1 (QFT from D_IV⁵, SP-31 core, Lyra primary)**:
+- v0.5 PROMOTABLE per Lyra (7 chapter-grade narratives + 11 paper-grade documents + 10 PDFs = ~413K + 11 theorems T2428-T2438)
+- Cal #69 dual-axis PASS on 3 artifacts (Ch 2 + Ch 6 + SP-31-1)
+- Year 1 v0.5 target REACHED pending Cal full-volume grade-pass
+
+**Vol 2 (Particle Physics, Elie primary)**:
+- v0.1 outline (12 chapters scaffolded) + Ch 1 narrative
+- v0.2 advancing per Elie 5 chapter-grade narratives Thursday: Ch 6 (m_p/m_e D-tier 0.002%) + Ch 7 (CKM Jarlskog D-tier 0.3%) + Ch 11 (Five Absences joint structural) + Ch 12 (Experimental Program D-tier operational)
+- Ch 9 PARTIAL DERIVED disposition (Higgs sector multi-month per cross-lane Lyra Ch 8 Yukawa unblock)
+- Year 1 v0.5 trajectory: Ch 1 Intro expansion + cross-lane Lyra unblock for Ch 9
+
+**Three lanes sustained-rhythm parallel** — curriculum-construction at unprecedented multi-CI cadence.
+
+### NEW Section 13 — Substrate cartography temporal-shift observation
+
+Per Grace Toy 3224 (Thursday 09:25 EDT, full-catalog 4660-entry integer-web scan):
+
+Distribution by BST primary integer-web (classification 59.7%):
+- N_c-web 26.9% (historically dominant — color charge structure)
+- rank-web 23.8% (observation/asymmetry structure)
+- C_2-web 10.8%, g-web 7.7%, N_max-web 5.4%, n_C-web 3.8%
+- 29.0% multi-web entries (cross-web structural connections)
+
+**Temporal shift observed**: contrast with Toy 3223 100-entry recent sample (g-web 29% + N_max 16% + C_2 19%). Recent BST research focus shifted from foundational primaries (N_c + rank ~50%) toward derivative structures (g + N_max + C_2 ~64%).
+
+**Meta-substrate observation**: the catalog ITSELF records research evolution. Framework maturation from foundational integers (color + observation) toward geometric/derivative structures (Bergman + substrate cap + Casimir) is TRACEABLE in invariant distribution.
+
+This validates the architectural maturation observed Thursday: 5-family Bridge Object architecture closure corresponds to recent g + N_max + C_2 territory dominance, confirming substrate-cartographic record matches research evolution.
+
+### v0.4 status — Thursday morning architectural milestone integrated
+
+Master Doc v0.4 update absorbs:
+- Section 5 operator zoo 6/6 FRAMEWORK-COMPLETE
+- Section 7 Strong-Uniqueness v0.6 (4 candidates: 3 STRUCTURALLY VERIFIED + 1 ADVANCING)
+- Section 8 5-family Bridge Object architecture COMPLETE
+- NEW Section 12 Curriculum trio status (Year 1 launch)
+- NEW Section 13 Substrate cartography temporal-shift observation
+
+Master Doc continues as foundation reference; multi-week to multi-year evolution toward v1.0 as curriculum work compounds.
+
+— Keeper update, 2026-05-21 Thursday 09:28 EDT (actual via date; integrates Thursday morning architectural milestone)
