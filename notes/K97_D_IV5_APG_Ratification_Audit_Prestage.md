@@ -214,3 +214,39 @@ K97 + Strong-Uniqueness v0.9.1 external presentation:
 Per Cal #67 + #74 + #80 external register discipline.
 
 — Keeper update, 2026-05-21 Thursday 12:05 EDT (actual via date; K97 path substantially shorter per Strong-Uniqueness v0.9.1)
+
+---
+
+## Thursday 12:25 EDT — Cal #81 absorption + K97 path REVISED
+
+### Cal #81 preliminary verification on RIGOROUSLY CLOSED tier
+
+Per Cal #81 with v0.3 canonical mapping:
+- **T2439** (C4 Casimir) ✓ VERIFIED
+- **T2440** (C11 Multi-family) preliminary AGREE pending detailed verification
+- **T2441** (C12 Operator zoo) preliminary AGREE pending detailed verification
+- **T2442** (C13 Substrate-Hilbert) preliminary AGREE pending detailed verification
+
+### K97 RATIFIED path REVISED per Cal #81
+
+Per Cal #81 substantive statement:
+> "Per v0.3 canonical numbering + 4 RIGOROUSLY CLOSED + 9 RATIFIED + 1 ADVANCING = 13/14 complete. K97 RATIFIED path: ~few weeks per accelerated cadence (was: ~few months per #80)."
+
+**K97 RATIFIED estimated timeline**:
+- Cal #80 (12:00 EDT): weeks-to-few-months
+- **Cal #81 (12:15 EDT): ~few weeks**
+
+Substantial timeline acceleration based on Thursday morning peak architectural advancement.
+
+### K97 + K98-K106 = 10-audit foundational cluster
+
+Vol 0 K-audit coverage now COMPLETE (K97-K106 cover all 10 Vol 0 chapters).
+
+K97 RATIFIED endpoint:
+1. Lyra Sessions 6-9 (Friday-Sunday) → v0.9.5 (4 additional RIGOROUSLY CLOSED)
+2. Year 1 trio v0.7 cadence (~1-2 weeks)
+3. Year 1 trio v1.0 (~multi-month, gates C14 ADVANCING → RIGOROUSLY CLOSED)
+4. K97 RATIFIED ≡ Strong-Uniqueness v1.0 RATIFIED
+5. Venue submission ~2026-09 substantially achievable
+
+— Keeper update, 2026-05-21 Thursday 12:25 EDT (actual via date; Cal #81 absorbed; K97 RATIFIED path REVISED to ~few weeks)
