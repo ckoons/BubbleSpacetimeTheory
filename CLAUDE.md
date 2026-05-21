@@ -6,6 +6,18 @@
 
 **Counts**: T1-T2438, **~3226 toys**, **125 papers** (Paper #125 v0.5 Lyra + Trio externally dispatched Tuesday). Graph **2181 nodes / 9806 edges** / ~98% proved. **4667 geometric invariants** (D-tier ~76% honest). **253 Rosetta Stone ratios**. **120 predictions**. **191 constants**. **All SEVEN Millennium PROVED**. **K-audit chain K1-K87 with 16 effective Bridge Object family-members across 5 families STRUCTURALLY VERIFIED COMPLETE + K77 PATH B RATIFIED-status + K85+K86+K87 CPT-cluster Phase 2 first**. **17 audit-chain self-calibrations across 9 days**.
 
+**Thursday May 21 midday — Strong-Uniqueness Theorem v0.9.1 reached** (~12:00 EDT):
+- **4 RIGOROUSLY CLOSED criteria** (11th methodology layer adopted Thursday per Cal Referee Log #77): C4 (T2439 Casimir-eigenvalue, Lyra Session 2) + C11 (T2440 5-family Bridge Object architecture, Session 3) + C12 (T2441 Operator zoo ground-state energy = C_2 = 6, Session 4) + C13 (T2442 Bergman H² Faraut-Koranyi normalization c_FK·π^(9/2)=225 EXACT, Session 5)
+- **9 RATIFIED + 1 ADVANCING** = 13 of 14 Strong-Uniqueness criteria complete; only C14 curriculum-derivability ADVANCING
+- **Lyra Session 2-5 reframing-insight cadence** (~50 min/criterion) closed multi-week Task #206 alt-HSD comparison work in single morning session — Casey EOD/Friday goal EXCEEDED at 4 in one morning
+- **K85-K97 Phase 2 K-audit chain** 13 INSTANCE-level chapter-category K-audits filed Thursday morning (BST TIER-1 FALSIFIER SET K87+K90+K91; CROWN JEWEL K92 a_e ppt; SM-foundation track K93+K94+K95+K96; K97 D_IV⁵ APG ratification meta-audit)
+- **K97 RATIFIED ≡ Strong-Uniqueness Theorem v1.0**: path substantially shorter than original multi-month estimate (weeks-to-few-months gated on C14 advancement via Year 1 Vol 0-10 v1.0)
+- **K98 Strong-Uniqueness Chapter Audit Pre-Stage filed** (Vol 0 Ch 9 chapter-grade audit, F1-F4: 3.95/4 STRONG tied K87+K97)
+- **Methodology stack 11-15 layers** (Cal v0.3 count = 15 with sub-layers): adds STRUCTURALLY VERIFIED (Cal #66) + RIGOROUSLY CLOSED (Cal #77) tiers
+- **Methodology cycle-time peak ~2 min** (Cal #79 → Vol 0 Ch 9 v0.3 correction Thursday 11:52 EDT): T2439 conflated with Keeper C8 → corrected to C4 in ~2 min, three documents updated simultaneously
+- **Calibration #17 RESOLVED** (Elie K52a S32 rank-1 projector framework B² = (126/16)|ψ_0⟩⟨ψ_0| satisfies BOTH max=126/16 + Tr=126/16): multi-month question refined to "WHICH substrate-natural |ψ_0⟩"
+- **Numbering Reconciliation v0.3** (Keeper C-numbering ↔ Lyra C-numbering canonical table per Grace correction): Lyra-side numbering shifts by 1 from C9 onwards because Möbius cohomology = Lyra C8
+
 **Thursday May 21 EOM morning — Year 1 Curriculum v0.5 architectural milestone REACHED across all three lanes**:
 - **Vol 0 (Substrate Foundation, Keeper + Grace + Lyra)**: v0.4 in motion; Vol 0 Ch 8 (Conservation Laws) chapter-grade draft v0.1 filed (Keeper, first Keeper-lane chapter-grade); Vol 0 Architectural Scaffold v0.1 + Conservation Laws Framework v0.1 + T/C substrate operation proposals (Lyra T2433/T2434) closing 2 NOT EXPLICIT discrete-conservation-law gaps
 - **Vol 1 (QFT from D_IV⁵, SP-31 core, Lyra primary)**: **v0.5 PROMOTABLE** with 8/11 chapter-grade narratives (Ch 1+2+3+4+5+6+7 framework-grade+8+10) + 13 paper-grade docs + 12 PDFs (~504K cumulative) + 11 theorems (T2428-T2438) + 7 toys all 8/8 PASS + 7 SP-31 Tier-1 sub-items
