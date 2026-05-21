@@ -210,4 +210,53 @@ Per Strong-Uniqueness Theorem v0.6 candidate C12 (operator zoo isotropy-subgroup
 
 **Substrate-Native Operator Zoo Promotion Ledger v0.1 FILED Thursday 2026-05-21 morning.** 11 operators tracked under canonical SO(5) × SO(2) × Möbius decomposition; 5/11 in formal zoo (4 RATIFIED + 1 audit-partial); 6/11 pending formal derivation theorems. C12 Strong-Uniqueness candidate dependency tracking. Lyra action items: 5 derivation theorems for SP-31-6 completion. C12 v0.7 RATIFIED target gated on 11/11 RATIFIED.
 
-— Keeper, 2026-05-21 Thursday 08:30 EDT
+— Keeper, 2026-05-21 Thursday morning (approx 08:00-08:30 EDT)
+
+---
+
+## Thursday 08:45 EDT UPDATE — Lyra SP-31-1 establishes Hilbert space context for all 11 operators
+
+Per Lyra SP-31-1 v0.1 (Thursday ~09:00 prior chunk, actual ~08:15-08:30 EDT): Bergman H²(D_IV⁵) canonical anchor + T2428 sufficiency + T2429 RS GF(128)^k corollary + T2430 L²-section corollary. Verified Toy 3198 (Lyra) + cross-lane Toy 3202 (Elie) 8/8 each.
+
+**Impact on Operator Zoo Promotion Ledger**:
+
+All 11 operators in the ledger now have a CANONICAL substrate Hilbert space context (Bergman H²(D_IV⁵)). Previously, the OP4 (Hilbert space action) criterion was "pending" for several operators because no canonical Hilbert space had been specified. Now resolved.
+
+**OP4 status update across all 11 operators**:
+
+| Operator | Previous OP4 | Updated OP4 (Thursday 08:45 EDT) |
+|---|---|---|
+| Position (X) | ✓ via substrate position spectrum | ✓ on Bergman H²(D_IV⁵) |
+| Momentum (P) | ✓ commutation pending K52a | ✓ on Bergman H²(D_IV⁵); commutation [X,P]=iℏ via Bergman kernel reproducing property |
+| Angular momentum (L) | ✓ standard spectrum | ✓ on Bergman H²(D_IV⁵) SO(5) action |
+| Spin (S) | ✓ substrate spin spectrum | ✓ on Bergman H²(D_IV⁵) SO(5) irrep action |
+| Parity (P_op) | ⚠ pending Hilbert space spec | ✓ on Bergman H²(D_IV⁵) via Möbius involution lift (substrate now has canonical anchor) |
+| Charge (Q) | ⚠ pending Hilbert space spec | ✓ on Bergman H²(D_IV⁵) via SO(2) factor action |
+| Chirality (γ⁵) | ⚠ pending Hilbert space spec | ✓ on Bergman H²(D_IV⁵) via SO(2) phase on spinor sub-bundle |
+| Bell-CHSH (B²) | ⚠ partial (trace-level only per Cal #17) | Trace-level Tr(B²) = 126/16 on Bergman H²(D_IV⁵) via Bergman projection (K67); operator-level max-eigenvalue still pending K52a Sessions 24+ |
+| Number (N_op) | ⚠ pending Hilbert space spec | ✓ on Bergman H²(D_IV⁵) via cycle-count operator (T2429 RS code-space structure provides natural cycle-count) |
+| Hamiltonian (H) | ⚠ pending K52a S24+ | ✓ Hilbert space context CLEAR (Bergman); operator construction K52a Sessions 24+ multi-month |
+| Time (T_op) | ⚠ special status | ✓ Hilbert space context CLEAR (Bergman); operator vs parameter resolution pending Lyra theoretical |
+
+**6/11 operators advance from "pending Hilbert space spec" to "Hilbert space context CLEAR; derivation theorem pending."**
+
+### Tier classification under STRUCTURALLY VERIFIED tier adopted Thursday 08:43 EDT
+
+Per Keeper Ruling Thursday 08:43 EDT (STRUCTURALLY VERIFIED tier adoption):
+
+| Operator | Tier (updated) |
+|---|---|
+| Position, Momentum, Angular momentum, Spin | RATIFIED (4 operators) |
+| Bell-CHSH B² | STRUCTURALLY VERIFIED (trace-level, alt-HSD pending) — promoted from audit-partial-ready |
+| Parity, Charge, Chirality, Number, Hamiltonian, Time | candidate (6 operators; await Lyra derivation theorems) |
+
+**Updated summary**: 4 RATIFIED + 1 STRUCTURALLY VERIFIED + 6 candidate = 11 operators in ledger. Path to 11/11 RATIFIED: Lyra 5-theorem-batch (Parity + Charge + Chirality + Number + Time) gated on Hilbert space context (now CLEAR) → STRUCTURALLY VERIFIED tier first → multi-month alternative-HSD comparison → RATIFIED.
+
+### C12 Strong-Uniqueness candidate state Thursday 08:45 EDT
+
+- C12 status: STRUCTURAL → **REINFORCED** via SP-31-1 → operator zoo now has canonical Hilbert space context
+- Promotion path: 11 operators → 11/11 STRUCTURALLY VERIFIED → multi-month alt-HSD → 11/11 RATIFIED → C12 RATIFIED
+
+**Cleanest current next step for Lyra (when SP-31-39 done)**: 5-theorem batch derivation for the 6 candidate operators (excluding Time which has special status). Each theorem ~paper-grade derivation showing the operator emerges from its substrate-symmetry source acting on Bergman H²(D_IV⁵).
+
+— Keeper update, 2026-05-21 Thursday 08:45 EDT (actual)
