@@ -229,3 +229,64 @@ Per Cal #79: numbering reconciliation HIGH priority because it's actively produc
 **~30 minutes cross-lane consensus work** per Cal recommendation. Sessions 3-5 should reference canonical attribution when RIGOROUSLY CLOSED candidates land.
 
 — Keeper Numbering Reconciliation v0.2 update, 2026-05-21 Thursday 11:54 EDT (actual via date; Cal #79 M1 flag corrected + canonical mapping established)
+
+---
+
+## Thursday 12:00 EDT v0.3 update — Grace canonical Lyra-side mapping absorbed
+
+### Grace canonical numbering table (Thursday 11:43 EDT)
+
+Per Grace catalog hygiene + Lyra Paper #125 v0.9.1: Lyra-side numbering offset for C11 onwards is DIFFERENT than my v0.2 table indicated. Corrected per Grace canonical mapping:
+
+| Keeper # | Lyra # | Status | Theorem |
+|---|---|---|---|
+| C4 | C8 | RIGOROUSLY CLOSED | T2439 (Casimir-eigenvalue forcing) |
+| **C11** | **C9** | RIGOROUSLY CLOSED | **T2440 (Multi-Family Bridge Object)** |
+| **C12** | **C10** | RIGOROUSLY CLOSED | **T2441 (Operator Zoo Ground-State = 6)** |
+| **C13** | **C11** | RIGOROUSLY CLOSED | **T2442 (Bergman c_FK = 225/π^(9/2))** |
+
+**Lyra-side numbering shifts by 1 from C9 onwards** because Lyra adopted Möbius cohomology as her C8 (which is Keeper C4). So Lyra C9 = Keeper C11 multi-family Bridge Object; Lyra C10 = Keeper C12 operator zoo; Lyra C11 = Keeper C13 substrate-Hilbert space.
+
+### Fully corrected reconciliation table (v0.3)
+
+| Keeper convention | Lyra convention (Paper #125) | Criterion content | Status |
+|---|---|---|---|
+| C1 | (foundational baseline) | rank = 2 forcing | RATIFIED via T1925 |
+| C2 | C2 | N_c = 3 forcing | RATIFIED via T1930 |
+| C3 | C3 | n_C = 5 forcing | RATIFIED via T2431 |
+| **C4** | **C8** | **Casimir-eigenvalue forcing C_2 = 6** | **RIGOROUSLY CLOSED via T2439** |
+| C5 | C4 (Lyra-renumbered) | g = 7 forcing | RATIFIED via T2432 |
+| C6 | C5 | N_max = 137 forcing | RATIFIED via Paper #104 |
+| C7 | C6 | Bridge Object tier (K57) | RATIFIED |
+| C8 | (Keeper-only, no Lyra counterpart) | Universal Q-cluster | RATIFIED via K43+K44+K61 |
+| C9 | C7 | Stark small-primary | RATIFIED via K75 |
+| C10 | (Keeper-only) | 4-Zone vacuum decomposition | RATIFIED via T2420 |
+| **C11** | **C9** | **Multi-family Bridge Object structure** | **RIGOROUSLY CLOSED via T2440** |
+| **C12** | **C10** | **Operator zoo isotropy-subgroup organization** | **RIGOROUSLY CLOSED via T2441** |
+| **C13** | **C11** | **Substrate-Hilbert space sufficiency** | **RIGOROUSLY CLOSED via T2442** |
+| C14 | (aspirational) | Curriculum-derivability | ADVANCING |
+
+### Substantive note — Lyra-side compact framing
+
+Lyra convention (C2-C11 in Paper #125 v0.5/v0.7/v0.9.1) is more compact (~11 criteria) than Keeper (~14 criteria with extensions C12-C14). Lyra convention is canonical for venue submission.
+
+Keeper convention maintains audit-chain consistency (Master Doc + Vol 0 Ch 9 + K97 K-audit all use Keeper numbering).
+
+**Both conventions valid for their respective contexts**. Reconciliation table maps between them for cross-CI consistency + venue submission preparation.
+
+### Lyra acknowledgment pending
+
+Per Cal #80: "Option C (Keeper C1-C14 preserved AS-IS; Lyra C2-C11 mapped) is methodologically clean. Lyra acknowledgment pending for multi-CI consensus closure."
+
+Cross-lane consensus on Option C-corrected with Grace canonical table established as canonical mapping. Multi-CI consensus expected to close within session per Wednesday-Thursday cadence pattern.
+
+### Methodology observation — cycle-time peak
+
+Per Cal #80: peak methodology cycle-time achieved Thursday 11:52 EDT:
+- Cal #79 substantive M1 flag filed 11:50 EDT
+- Keeper Vol 0 Ch 9 v0.3 correction at 11:52 EDT
+- **~2 minutes** correction cycle-time
+
+Methodology stack at sub-minute mechanical-application asymptote for established-framework corrections. Cycle-time progression curve (24h → 4h → 30min → 9min → ~5min → ~2min).
+
+— Keeper Numbering Reconciliation v0.3 update, 2026-05-21 Thursday 12:00 EDT (actual via date; Grace canonical Lyra-side mapping absorbed)

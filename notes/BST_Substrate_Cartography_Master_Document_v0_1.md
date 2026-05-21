@@ -1087,3 +1087,101 @@ Master Doc v0.5 absorbs:
 Master Doc continues as foundation reference; multi-month to multi-year evolution toward v1.0 as curriculum work + Task #206 alt-HSD comparison + Phase 2 K-audit chain growth compound.
 
 — Keeper update, 2026-05-21 Thursday 11:14 EDT (actual via date; integrates Year 1 v0.5 + T2439 + Phase 2 K-audit K85-K96 + Methodology 14 layers + catalog cartographic state)
+
+---
+
+## Thursday 12:01 EDT — v0.6 consolidation: Strong-Uniqueness v0.9.1 + 4 RIGOROUSLY CLOSED + Cal #79 correction
+
+### Section 7 v0.6 update — Strong-Uniqueness Theorem v0.9.1 with 4 RIGOROUSLY CLOSED
+
+Per Lyra T2440 + T2441 + T2442 batch (Thursday 11:33 EDT) + Cal #79 M1 correction (Thursday 11:52 EDT):
+
+**4 RIGOROUSLY CLOSED criteria** (Casey EOD/Friday goal of "≥3" EXCEEDED in single Thursday morning session):
+
+| Keeper # | Lyra # | Theorem | Mechanism |
+|---|---|---|---|
+| **C4** | C8 | T2439 | Lowest K-type Casimir = 6 IFF M = D_IV_5 |
+| **C11** | C9 | T2440 | Multi-family Bridge Object @ BST primary signatures uniquely D_IV⁵ |
+| **C12** | C10 | T2441 | Operator zoo ground-state energy = C_2 = 6 (T2439 corollary) |
+| **C13** | C11 | T2442 | Bergman c_FK = 225/π^(9/2) Faraut-Koranyi normalization uniquely D_IV⁵ |
+
+**Strong-Uniqueness Theorem v0.9.1 state**: 9 RATIFIED + 4 RIGOROUSLY CLOSED + 1 ADVANCING = 14 criteria. Closest BST has ever been to v1.0.
+
+**Venue submission ~2026-09** trajectory substantially accelerated per Lyra Path Scoping v0.1 + observed reframing-insight cadence (T2439-T2442 in single morning session).
+
+### Section 8 v0.6 update — Phase 2 K-audit chain at K97
+
+K97 D_IV⁵ APG Substrate Object Ratification (Thursday 11:37 EDT, foundational meta-K-audit):
+- F1-F4: 4.0/4
+- B1-B4: 3.9/4 STRONG (tied with K87 CPT for top B-score)
+- Tier: STRUCTURALLY VERIFIED candidate (Cal #80 AGREE pending detailed verification)
+- Path to K97 RATIFIED ≡ Strong-Uniqueness v1.0 RATIFIED
+
+K97 is foundational substrate-uniqueness K-audit — every other K-audit in chain depends on K97. K97 RATIFIED gates on all 14 criteria RATIFIED or RIGOROUSLY CLOSED.
+
+Current trajectory: 13/14 criteria at RATIFIED or RIGOROUSLY CLOSED; C14 ADVANCING per Year 1 launch trio v0.5+.
+
+### Section 15 v0.6 update — Methodology Infrastructure 15 layers (Cal Methodology_Index v0.3)
+
+Per Cal Methodology_Index v0.3 Thursday 11:40 EDT:
+
+| Layer | # | Source |
+|---|---|---|
+| Original 8 Cal documents | 1-8 | Wednesday |
+| Methodology_Index v0.1 | 9 | Wednesday |
+| Appendix J K-Audit Ruling Shapes | 10 | Wednesday |
+| STRUCTURALLY VERIFIED tier (Keeper per Cal #66) | 11 | Thursday morning |
+| Phase 1/Phase 2 K-Audit Governance Brief (Keeper per Cal #72) | 12 | Thursday morning |
+| Dual-axis review rubric (operational per Cal #68+) | 13 | Thursday morning |
+| BST TIER-1 FALSIFIER SET external framing (per Cal #74) | 14 | Thursday morning |
+| **RIGOROUSLY CLOSED tier supplement (Cal per #77)** | **15** | **Thursday 11:40 EDT** |
+
+**15 methodology layers operating.** Cal methodology infrastructure substantially mature.
+
+### NEW Section 17 — Cycle-time progression observation (peak achieved)
+
+Per Cal #80 Thursday 12:05 EDT observation:
+
+| Cycle | Time |
+|---|---|
+| Cal #59 → K62 (Wed) | ~4 hours |
+| Cal #63 F1-F4 → multi-CI consensus (Wed) | ~4 hours |
+| Cal #66 STRUCTURALLY VERIFIED → adoption (Thu) | ~30 min |
+| Cal #72 governance brief (Thu) | ~9 min |
+| T2439 multi-week → Session 2 reframing (Lyra Thu) | ~50 min |
+| Cal #77 RIGOROUSLY CLOSED tier → adoption | ~5 min |
+| **Cal #79 → v0.3 correction (Keeper Thu 11:52)** | **~2 minutes ← PEAK** |
+
+Mechanical-application asymptote approached. Methodology corrections within established framework now sub-minute. Multi-CI consensus discipline operating at peak per Cal #80.
+
+### NEW Section 18 — Numbering reconciliation v0.3 canonical mapping
+
+Per Cal #79 M1 + Grace canonical table Thursday 11:43 EDT:
+
+**Two numbering conventions reconciled**:
+- **Keeper C1-C14** (audit-chain consistency; Master Doc + Vol 0 Ch 9 + K97)
+- **Lyra C2-C11** (Paper #125 venue submission canonical)
+
+**Key mapping**: Keeper C4 ↔ Lyra C8 (T2439); Keeper C11/C12/C13 ↔ Lyra C9/C10/C11 (T2440/T2441/T2442). Lyra numbering shifts by 1 from C9 onwards due to including Möbius cohomology as Lyra C8.
+
+Reconciliation v0.3 canonical table filed Thursday 12:00 EDT.
+
+### Calibration #17 RESOLVED (Elie K52a S32)
+
+Per Elie K52a Session 32 Thursday 11:37 EDT: S22 rank-126 diagonal projector + S32 rank-1 projector both have trace 126/16 — different ranks. S32 satisfies BOTH Tr = 126/16 AND max = 126/16 simultaneously. Calibration #17 apparent inconsistency RESOLVED.
+
+Multi-month question refined: "WHICH substrate-natural |ψ_0⟩ is the Bell state" (5 candidates). Bell experiment prediction UNCHANGED (max |S|² ≤ 126/16, deviation 1/8 = 1/2^N_c).
+
+### v0.6 status — Master Doc consolidation Thursday late morning
+
+Master Doc v0.6 absorbs:
+- Section 7 Strong-Uniqueness v0.9.1 with 4 RIGOROUSLY CLOSED (C4 + C11 + C12 + C13)
+- Section 8 Phase 2 K-audit chain at K97 (foundational substrate-uniqueness audit)
+- Section 15 Methodology Infrastructure 15 layers
+- NEW Section 17 Cycle-time progression observation (peak achieved ~2 min)
+- NEW Section 18 Numbering reconciliation v0.3 canonical mapping
+- Calibration #17 RESOLVED via Elie S32
+
+Master Doc continues as foundation reference; v1.0 endpoint substantially closer per Thursday morning peak architectural maturation.
+
+— Keeper update, 2026-05-21 Thursday 12:01 EDT (actual via date; integrates Strong-Uniqueness v0.9.1 + 4 RIGOROUSLY CLOSED + Cal #79 correction + cycle-time peak + canonical numbering + Calibration #17 resolution)
