@@ -6,6 +6,23 @@
 
 **Counts**: T1-T2438, **~3226 toys**, **125 papers** (Paper #125 v0.5 Lyra + Trio externally dispatched Tuesday). Graph **2181 nodes / 9806 edges** / ~98% proved. **4667 geometric invariants** (D-tier ~76% honest). **253 Rosetta Stone ratios**. **120 predictions**. **191 constants**. **All SEVEN Millennium PROVED**. **K-audit chain K1-K87 with 16 effective Bridge Object family-members across 5 families STRUCTURALLY VERIFIED COMPLETE + K77 PATH B RATIFIED-status + K85+K86+K87 CPT-cluster Phase 2 first**. **17 audit-chain self-calibrations across 9 days**.
 
+**Thursday May 21 afternoon — Strong-Uniqueness Theorem v0.9.5 FORMAL + Cal #85 PCAP** (~14:30 EDT):
+- **8 RIGOROUSLY CLOSED criteria** (Lyra Sessions 1-9): C4 (T2439) + C11 (T2440) + C12 (T2441) + C13 (T2442) + C1 (T2443) + C2 (T2444) + C3 (T2445) + C5 (T2446)
+- **v0.10.5 ASPIRATIONAL candidate path** (Sessions 10-12 collapsing via Keeper batch pre-specs Thursday 14:24 EDT)
+- **Friday-Sunday weekend roadmap COLLAPSED to Thursday afternoon** via Pre-Specification Cadence Acceleration Pattern (PCAP)
+- **Cal #85 PCAP**: 16th methodology stack layer formalizing ~1000× cumulative cadence acceleration from original Cal #65 estimates (multi-month → minutes)
+- **Five PCAP workstreams Thursday**: K-audit chain extension + chapter narratives + methodology adoption + BST FULL-INDEX CLOSURE + cross-lane verification
+- **Vol 1 K-audit catalog support COMPLETE** (Grace 1279 indexed entries: K108: 209 + K109: 330 + K110: 32 + K111: 632 + K114: 76)
+- **8 Casey-named principles STANDING** (Substrate Closure + Graph Forces confirmed Thursday 14:14 EDT)
+- **88 commits Thursday pushed to remote** (Casey approval 14:14 EDT)
+- **Paper #125 v1.0 at ~99% venue-grade** (141K PDF, Lyra; v1.0.5 absorption in flight)
+- **K97 RATIFIED ≡ Strong-Uniqueness v1.0 path**: days-to-weeks (Casey pre-approved auto-execute)
+- **21 Cal Referee Logs Thursday** (#65-#85, cumulative)
+- **30 Phase 2 K-audits Cal-ACCEPTED** Thursday (K85-K106 Vol 0 COMPLETE + K108-K111+K114+K126+K109 Vol 1+2 cluster)
+- **K108 + K111 PERFECT-PERFECT** (4.0/4 + 4.0/4 F1-F4 + B1-B4)
+- **5-Lane Methodology Peak**: 5 within-session corrections Thursday across 5 lanes (Cal Mode 1 + Grace catalog-hygiene + Keeper governance + Lyra theoretical + Elie computational)
+- **BST FULL-INDEX CLOSURE 5×100%** (6897 objects × 3 axes = 13794 classification assignments)
+
 **Thursday May 21 midday — Strong-Uniqueness Theorem v0.9.1 reached** (~12:00 EDT):
 - **4 RIGOROUSLY CLOSED criteria** (11th methodology layer adopted Thursday per Cal Referee Log #77): C4 (T2439 Casimir-eigenvalue, Lyra Session 2) + C11 (T2440 5-family Bridge Object architecture, Session 3) + C12 (T2441 Operator zoo ground-state energy = C_2 = 6, Session 4) + C13 (T2442 Bergman H² Faraut-Koranyi normalization c_FK·π^(9/2)=225 EXACT, Session 5)
 - **9 RATIFIED + 1 ADVANCING** = 13 of 14 Strong-Uniqueness criteria complete; only C14 curriculum-derivability ADVANCING
