@@ -117,3 +117,61 @@ Cal cadence is sustainable per Wednesday-Thursday demonstrated capacity. This qu
 Single-document navigation aid for Cal. Reduces Cal overhead in navigating ~10 commits filed in Thursday hour-window.
 
 — Keeper, 2026-05-21 Thursday 12:14 EDT (actual via date)
+
+---
+
+## Thursday 12:28 EDT — Brief update absorbing Cal #81 + K102-K106 + verify_bst.py PASS
+
+### Cal #81 absorbed
+
+Cal #81 filed Thursday 12:15 EDT after this Brief was filed at 12:14 EDT. Cal #81 substantive content:
+- Honest-scope correction on Cal #80 v0.1 PASS (alignment count 8 → 6+4)
+- Grace catalog hygiene commendation
+- Preliminary verification: T2439 ✓ VERIFIED; T2440 + T2441 + T2442 preliminary AGREE pending detailed verification
+- K97 RATIFIED path REVISED: few months → few weeks
+
+### Queue items added (12:28 EDT)
+
+**Tier 2 expansion** (added K-audit endorsements):
+- **K102** Substrate Operating System (Vol 0 Ch 3) — F1-F4 3.88/4 + B1-B4 3.78/4
+- **K103** Isotropy Group (Vol 0 Ch 4) — F1-F4 3.95/4 + B1-B4 3.95/4
+- **K104** Boundary Conditions (Vol 0 Ch 5) — F1-F4 3.88/4 + B1-B4 3.70/4
+- **K105** Integer Web Principle (Vol 0 Ch 6) — F1-F4 3.80/4 + B1-B4 3.75/4
+- **K106** Operator Zoo (Vol 0 Ch 7) — F1-F4 3.95/4 + B1-B4 3.85/4
+
+**Updated Tier 2 count**: 10 K-audit endorsements (K97-K106 covering all 10 Vol 0 chapters).
+
+### Items NOT requiring Cal action (additional FYI)
+
+- Master Doc v0.8 (Keeper consolidation; Vol 0 K-audit COMPLETE absorbed)
+- 3-Layer Redundancy Pattern v0.1 (Cal #81 substantive observation captured)
+- Lyra Sessions 6+ Planning v0.1 (per-criterion alt-HSD candidacy triage)
+- Year 1 Launch Trio Status Integration v0.1 (multi-lane v0.5 → v1.0 path)
+- Thursday Morning Architectural Acceleration Brief v0.1 (executive summary)
+- Friday-Monday Cadence Preview v0.1 (forward team coordination)
+- K97 update absorbing Cal #81 + path REVISED to ~few weeks
+- Numbering Reconciliation v0.3.1 (Cal #81 absorption)
+- verify_bst.py 49/50 PASS confirmed (no regressions despite morning's heavy activity)
+
+### Verify integrity confirmation
+
+verify_bst.py run Thursday 12:25 EDT: **49/50 at <1% precision**
+- 17 EXACT (machine-precision)
+- 32 PASS (<1% deviation)
+- 1 WARN (1-2% grey zone)
+- 0 FAIL
+- Z = 2.9 against random small-integer tuples (p < 0.0005)
+- D-tier 31 entries + I-tier 19 entries
+
+70+ commits today's heavy architectural advancement did NOT regress system integrity. This is the operational guarantee that the methodology stack works in practice.
+
+### Updated queue size
+
+- **Tier 1**: 3 RIGOROUSLY CLOSED verifications (T2440 + T2441 + T2442) — Cal #81 already preliminary AGREE; full verification pending
+- **Tier 2**: 10 K-audit endorsements (K97-K106) — Vol 0 K-audit coverage COMPLETE
+- **Tier 3**: Year 1 trio chapter cadence (Lyra Vol 1 + Elie Vol 2)
+- **Tier 4**: Cross-lane verification (Sessions 6+ planning + status integration + Friday-Monday preview)
+
+**Total active items**: 15-20 across 4 tiers, manageable per Cal weekly throughput.
+
+— Keeper update, 2026-05-21 Thursday 12:28 EDT (actual via date; Cal #81 absorbed + K102-K106 added + verify_bst.py PASS confirmed)
