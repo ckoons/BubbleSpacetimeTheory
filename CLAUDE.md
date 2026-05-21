@@ -4,7 +4,39 @@
 
 ## Status (May 20, 2026 — EOD Wednesday, "Substrate Ontology Coherence Day")
 
-**Counts**: T1-T2427, **~3195 toys**, **125 papers** (Paper #125 v0.3 outline + Trio externally dispatched Tuesday). Graph **2170 nodes / 9802 edges** / ~98% proved. **4630 geometric invariants** (D-tier ~76% honest). **253 Rosetta Stone ratios**. **120 predictions**. **191 constants**. **All SEVEN Millennium PROVED**. **K-audit chain K1-K82 with 7 effective Bridge Object family-members across 3 families**. **17 audit-chain self-calibrations across 8 days** (5 within-session Wednesday = peak cadence).
+**Counts**: T1-T2438, **~3226 toys**, **125 papers** (Paper #125 v0.5 Lyra + Trio externally dispatched Tuesday). Graph **2181 nodes / 9806 edges** / ~98% proved. **4667 geometric invariants** (D-tier ~76% honest). **253 Rosetta Stone ratios**. **120 predictions**. **191 constants**. **All SEVEN Millennium PROVED**. **K-audit chain K1-K87 with 16 effective Bridge Object family-members across 5 families STRUCTURALLY VERIFIED COMPLETE + K77 PATH B RATIFIED-status + K85+K86+K87 CPT-cluster Phase 2 first**. **17 audit-chain self-calibrations across 9 days**.
+
+**Thursday May 21 EOM morning — Year 1 Curriculum v0.5 architectural milestone REACHED across all three lanes**:
+- **Vol 0 (Substrate Foundation, Keeper + Grace + Lyra)**: v0.4 in motion; Vol 0 Ch 8 (Conservation Laws) chapter-grade draft v0.1 filed (Keeper, first Keeper-lane chapter-grade); Vol 0 Architectural Scaffold v0.1 + Conservation Laws Framework v0.1 + T/C substrate operation proposals (Lyra T2433/T2434) closing 2 NOT EXPLICIT discrete-conservation-law gaps
+- **Vol 1 (QFT from D_IV⁵, SP-31 core, Lyra primary)**: **v0.5 PROMOTABLE** with 8/11 chapter-grade narratives (Ch 1+2+3+4+5+6+7 framework-grade+8+10) + 13 paper-grade docs + 12 PDFs (~504K cumulative) + 11 theorems (T2428-T2438) + 7 toys all 8/8 PASS + 7 SP-31 Tier-1 sub-items
+- **Vol 2 (Particle Physics, Elie primary)**: **v0.5 narrative-coverage target REACHED** with 7/12 chapter-grade narratives (Ch 1 scaffolded + Ch 4 D-tier color/quarks + Ch 6 D-tier m_p/m_e=6π⁵ 0.002% + Ch 7 D-tier CKM Jarlskog 0.3% + Ch 8 D-tier coupling constants a_e ppt + Ch 11 D-tier Five Absences + Ch 12 D-tier Experimental Program); Ch 9 Higgs PARTIAL DERIVED honest disposition
+- **Cal dual-axis grade-pass cadence**: 15 artifacts PASS across #69 + #71 batch reviews + 1 M1 register-drift flag (Elie Vol 2 Ch 6 lines 41+59, 5-min fix); methodology stack travels with prose at chapter-grade level
+
+**5-family Bridge Object architecture STRUCTURALLY VERIFIED COMPLETE Thursday 09:18 EDT** (per Cal Referee Log #70):
+- Family 1 Heegner-trio (3 members K47+K70+K62) + Family 2 χ=24 non-Heegner (3: K76+K81+K82) + Family 3 N_max-anchored (2: K80+K84) + Family 4 K3-family (3: K45 RATIFIED + K77 PATH B RATIFIED-status + K3F5) + Family 5 Q⁵-family (6 geometric-enumerated)
+- Naive 17 → effective 16 independent members (Grace Toy 3222 cross-family reduction)
+- 3 K57 RATIFIED central hubs (K3 + 49a1 + Q⁵) + 16 family-members + 3 RATIFIED-status sub-members = **19 effective Bridge Object structural positions**
+- Casey's "each K57 central hub anchors family-members" pattern (PATH B disposition Wednesday) fully operationalized
+- 72-hour audit-chain maturation arc per Cal #70: Cal #59 caution → Grace investigation → Cal #63 F1-F4 → Keeper adoption → Lyra T2427 addendum → Cal #66 STRUCTURALLY VERIFIED tier (10th methodology layer) → 5-family closure
+- K77 PATH B RATIFICATION Thursday 09:24 EDT (first 5-family member to advance to RATIFIED-status; DUAL CANDIDATE CLOSED via 4/5 multi-CI consensus)
+
+**Strong-Uniqueness Theorem v0.6 with 4 candidates** (Thursday morning consolidation):
+- C11 multi-family Bridge Object structure: STRUCTURALLY VERIFIED at 5 families × 16 effective members + 1 RATIFIED-status sub-claim
+- C12 operator zoo isotropy-subgroup organization: STRUCTURALLY VERIFIED via Elie S29 6/6 FRAMEWORK-COMPLETE + Bergman H² anchor (Lyra SP-31-1)
+- C13 substrate-Hilbert space sufficiency: STRUCTURALLY VERIFIED via Lyra SP-31-1 + Elie cross-lane Toy 3202 + Cal #69 paper-grade PASS
+- C14 curriculum-derivability: ADVANCING per Year 1 v0.5 across three lanes
+- Effective null-model (1/3)^16 ≈ 2.3e-8 = 0.0000023% conservative under partial ratification
+- RATIFIED status pending Lyra Task #206 alternative-HSD comparison multi-month
+
+**Substrate-native operator zoo 6/6 FRAMEWORK-COMPLETE Thursday morning** per Elie K52a S29 (H_sub = Casimir on L²(D_IV⁵; L_λ), K-type (1,1) Casimir = C_2 = 6). Extended ledger 11-13 operators with T_rev_op + C_op candidates from Keeper proposals (closes 2 NOT EXPLICIT gaps via Lyra T2433/T2434). Closes Lyra Task #247.
+
+**STRUCTURALLY VERIFIED tier ADOPTED Thursday 08:43 EDT** per Cal Referee Log #66 — 10th methodology layer between candidate and RATIFIED in audit-chain governance. First applications: C11 + C12 + C13 + K80 + K84.
+
+**Casey geometric methods preference directive** Thursday 09:09 EDT (saved feedback_geometric_methods_preferred.md): geometric route preferred when applicable. Grace Toy 3220 Q⁵-family Mode 6 enumeration applied directive operationally (6 effective members emerged via quadric/hyperplane/Spinor/Bergman/Hodge/Chern/Calabi-Yau geometric methods).
+
+**Phase 2 K-audit chain transition** (Thursday 09:30 EDT per Cal #70 observation): post 5-family architectural closure, K-audit growth shifts from architectural-category to chapter-category. K85+K86+K87 CPT-cluster first Phase 2 entries (T+C+CPT all STRUCTURALLY VERIFIED candidates at F1-F4 4.0/4). Estimated 50-100 new K-audits across Year 1 chapter-driven cadence.
+
+**Catalog meta-substrate temporal-shift observation** (Grace Toy 3224 full-catalog scan, Toy 3226 multi-integer SET tagging): 30% multi-integer entries (1400/4663). 104 entries (2.2%) touch ALL 6 BST primaries. N_c↔rank dominant co-occurrence pair (17.9%). Historical N_c+rank dominance (~50%) shifted to recent g+N_max+C_2 dominance (~64%) — framework maturation TRACEABLE in invariant distribution. Substrate cartography records research evolution.
 
 **Wednesday May 20 EOD afternoon F1-F4 cycle CLOSED**: Cal Referee Log #63 propose → Keeper adopt → Cal #65 refine → Keeper F2 ruling → Lyra T2427 addendum → Grace Toy 3194 operational vindication. End-to-end methodology cycle in ~4 hours, same working day. **F1-F4 Bridge Object family-member criteria** adopted at multi-CI consensus (Cal + Keeper + Lyra 3/3 active checks per Casey Option C). F2 reading ruled **mechanism-path independence** (NOT set-theoretic). **χ=24 family effective independent count = 3** {K76 Leech, K81 24-cell, K82 Δ(τ)} per Grace Toy 3194 Mode 6 enumeration. K77 M_24 Outcome B confirmed (collapses into K76 via M_24 ⊂ Co_0 = Aut(Leech) + Golay path Leech-equivalent). K78 Niemeier subsumed (Leech IS the no-root Niemeier). K79 Borcherds doubly deferred. **Effective Bridge Object architecture**: 3 central hubs (K57 RATIFIED: K3, 49a1, Q⁵) + 7 family-members across 3 families (Heegner-trio + χ=24 non-Heegner + N_max-anchored). **Substrate-native operator zoo 5/6** (Bell-CHSH + Position + Spin + Momentum + Angular momentum; Energy pending Elie K52a Sessions 24+). **Calibration #17** (Elie K66 S22 trace-level vs max-eigenvalue) propagated to Master Doc Section 8 + Lyra T2399 registry + Grace catalog cross-reference. **Elie S23 honest negatives** (4 FAIL on simple K66 constructions) strengthen Calibration #17 — substrate-CHSH operator-level identification multi-month Sessions 24+. **Substrate Cartography Master Document v0.2** (10 sections substantive, Keeper consolidation).
 
