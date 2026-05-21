@@ -169,3 +169,63 @@ If Lyra prefers Option A (adopt Lyra convention extended) or Option B (Keeper co
 **Strong-Uniqueness Theorem Criterion Numbering Reconciliation v0.1 FILED Thursday 2026-05-21 11:35 EDT.** Three options proposed; Option C recommended (minimal disruption + sub-criterion preservation). Multi-CI consensus pending per Casey Option C governance. Venue submission ~2026-09 prep blocker addressed.
 
 — Keeper, 2026-05-21 Thursday 11:35 EDT (actual via date)
+
+---
+
+## Thursday 11:54 EDT v0.2 update — Cal #79 M1 flag substantive correction + table refinement
+
+### Cal #79 flag corrected reconciliation
+
+Per Cal Referee Log #79 Thursday 11:50 EDT — substantive M1 flag on T2439 attribution. Original v0.1 reconciliation table needs **correction at C4 ↔ Lyra C8** mapping (and C8 ↔ Keeper C8 is independent claim, NOT same content):
+
+### CORRECTED reconciliation table (Thursday 11:54 EDT)
+
+| Keeper convention | Paper #125 Lyra | Criterion content | Status |
+|---|---|---|---|
+| C1 | (foundational baseline) | rank = 2 forcing | RATIFIED via T1925 |
+| **C2** | **C2** | N_c = 3 forcing | RATIFIED via T1930 |
+| **C3** | **C3** | n_C = 5 forcing | RATIFIED via T2431 |
+| **C4** | **C8** | **Casimir eigenvalue C_2 = 6 substrate-forcing (via T2379 + RIGOROUSLY CLOSED via T2439)** — Lyra phrased as "Möbius cohomology / Wallach K-type spectral parity sketch" | **RIGOROUSLY CLOSED via T2439 (CORRECTED PER CAL #79)** |
+| **C5** | **C5** | g = 7 forcing | RATIFIED via T2432 |
+| **C6** | **C6** | N_max = 137 forcing | RATIFIED via Paper #104 5-step chain |
+| **C7** | **C7** | Bridge Object tier (K57 central hubs) | RATIFIED |
+| **C8** | (different content) | **Keeper C8 = Universal Q-cluster (Q=42+Q=126+Q=131)** | RATIFIED via K43+K44+K61 (T2439 does NOT address) |
+| **C9** | **C9** | Stark small-primary subset | RATIFIED via K75 |
+| **C10** | **C10** | 4-Zone vacuum decomposition | RATIFIED via T2420 |
+| **C11** | **C11** | Multi-family Bridge Object structure | STRUCTURALLY VERIFIED + ALT-HSD INITIATED |
+| **C12** | (Lyra extension) | Operator zoo isotropy-subgroup organization | STRUCTURALLY VERIFIED + ALT-HSD INITIATED |
+| **C13** | (Lyra extension) | Substrate-Hilbert space sufficiency | STRUCTURALLY VERIFIED + ALT-HSD INITIATED |
+| **C14** | (aspirational) | Curriculum-derivability | ADVANCING |
+
+### Key corrections
+
+1. **Keeper C4 ↔ Lyra C8** = SAME content (Casimir eigenvalue / Möbius cohomology Wallach K-type spectral parity). T2439 RIGOROUSLY CLOSES this content. Different numbering conventions, same criterion.
+
+2. **Keeper C8** (Universal Q-cluster) ≠ Lyra C8 (Möbius cohomology). Keeper C8 has NO Lyra counterpart (Lyra Paper #125 v0.5 does not include Universal Q-cluster as separate numbered criterion — it's covered in Paper #125 via K43+K44+K61 references). Keeper C8 remains RATIFIED via K43+K44+K61.
+
+### Updated Option C recommendation per Cal #79 (CORRECTED)
+
+**Option C-corrected**: preserve Keeper C1-C14 numbering AS-IS with explicit Lyra mapping:
+
+- Keeper C1 ↔ (Lyra foundational baseline)
+- Keeper C2-C3 ↔ Lyra C2-C3 (aligned)
+- **Keeper C4 ↔ Lyra C8** (Casimir eigenvalue / Möbius cohomology — RIGOROUSLY CLOSED via T2439)
+- Keeper C5-C7 ↔ Lyra C5-C7 (aligned)
+- **Keeper C8** (Universal Q-cluster — Keeper-only, no Lyra counterpart) — RATIFIED via K43+K44+K61
+- Keeper C9-C11 ↔ Lyra C9-C11 (aligned)
+- Keeper C12-C14 (Lyra extensions — to be absorbed in Paper #125 v0.7+)
+
+### Cal #79 elevation — numbering reconciliation urgent
+
+Per Cal #79: numbering reconciliation HIGH priority because it's actively producing substantive conflation errors (T2439 mis-attribution caught Thursday 11:50 EDT).
+
+**Multi-CI consensus needed BEFORE Sessions 3-5 produce more RIGOROUSLY CLOSED criteria**:
+- Keeper proposes Option C-corrected (this update)
+- Lyra acknowledges in Paper #125 v0.7 outline
+- Cal grade-pass on canonical mapping table
+- Grace catalog hygiene + AC graph reflect canonical attribution
+- Elie cross-lane verification preserves canonical attribution
+
+**~30 minutes cross-lane consensus work** per Cal recommendation. Sessions 3-5 should reference canonical attribution when RIGOROUSLY CLOSED candidates land.
+
+— Keeper Numbering Reconciliation v0.2 update, 2026-05-21 Thursday 11:54 EDT (actual via date; Cal #79 M1 flag corrected + canonical mapping established)

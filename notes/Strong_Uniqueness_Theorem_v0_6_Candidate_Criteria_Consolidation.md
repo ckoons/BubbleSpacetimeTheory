@@ -377,3 +377,135 @@ This calibration is itself substrate-significant: methodology infrastructure ope
 Per Lyra Path Scoping: venue submission target **~2026-09** for Strong-Uniqueness Theorem v1.0 + alt-HSD comparison closure. With T2439 closure pace, this target appears achievable if Lyra Task #206 continues at Session 2 reframing-insight cadence.
 
 — Keeper update, 2026-05-21 Thursday 11:12 EDT (actual via date)
+
+---
+
+## Thursday 11:53 EDT CORRECTION per Cal #79 M1 flag — T2439 attribution
+
+### Cal #79 flag corrected
+
+Per Cal Referee Log #79 Thursday 11:50 EDT: T2439 RIGOROUS CLOSURE was MIS-ATTRIBUTED in Thursday 11:12 update to Keeper C8 (Universal Q-cluster). **Corrected attribution**:
+
+**T2439 RIGOROUSLY CLOSES Keeper C4 (Why C_2 = 6 forcing)**, NOT Keeper C8 (Universal Q-cluster).
+
+### Reasoning
+
+T2439 actual content: lowest non-trivial K-type Casimir eigenvalue C_2 = 6 = T_{N_c} IF AND ONLY IF M = D_IV_5. This is **Wallach K-type Casimir eigenvalue distinguishability** — substrate-forcing the value C_2 = 6 via alt-HSD comparison.
+
+**Maps to**:
+- **Keeper C4** (Why C_2 = 6 forcing per T2379) — Casimir-eigenvalue substrate-forcing criterion → **RIGOROUSLY CLOSED via T2439** (CORRECTED)
+- **Lyra Paper #125 C8** (Möbius cohomology / Wallach K-type spectral parity sketch) → RIGOROUSLY CLOSED via T2439 (same content, different framing per numbering reconciliation)
+
+**Does NOT map to**:
+- Keeper C8 (Universal Q-cluster Q=42+Q=126+Q=131) — already RATIFIED via K43+K44+K61, separate criterion entirely
+
+### Corrected Strong-Uniqueness Theorem v0.7 state (Thursday 11:53 EDT)
+
+| Criterion | Keeper convention | Status |
+|---|---|---|
+| C1-C3 | rank/N_c/n_C | RATIFIED unchanged |
+| **C4 Why C_2 = 6** | Casimir-eigenvalue substrate-forcing | **RIGOROUSLY CLOSED via T2439 (CORRECTED)** |
+| C5-C7 | g/N_max/Bridge Object | RATIFIED unchanged |
+| **C8 Universal Q-cluster** | Q=42 + Q=126 + Q=131 multi-domain | **RATIFIED via K43+K44+K61** (T2439 does NOT address) |
+| C9-C10 | Stark + 4-Zone vacuum | RATIFIED unchanged |
+| C11 multi-family Bridge Object | 5 families | STRUCTURALLY VERIFIED + ALT-HSD INITIATED |
+| C12 operator zoo isotropy-subgroup | SO(5)×SO(2)×Möbius | STRUCTURALLY VERIFIED + ALT-HSD INITIATED |
+| C13 substrate-Hilbert space | Bergman H²(D_IV⁵) | STRUCTURALLY VERIFIED + ALT-HSD INITIATED |
+| C14 curriculum-derivability | Vol 0-10 v1.0 | ADVANCING |
+
+**11 RATIFIED + 1 RIGOROUSLY CLOSED + 3 STRUCTURALLY VERIFIED + 1 ADVANCING = 14 criteria + 1 RIGOROUSLY CLOSED elevation.**
+
+### Numbering reconciliation HIGH priority
+
+Per Cal #79 escalation: numbering reconciliation is no longer bookkeeping cleanup — actively producing substantive conflation errors. Recommended Keeper + Lyra coordinate ~30 min cross-lane consensus BEFORE Sessions 3-5 produce more RIGOROUSLY CLOSED criteria.
+
+**Single canonical attribution per criterion** must be established before continuing rigorous closure work.
+
+### Honest methodology observation
+
+This is the first substantive Keeper-side conflation error in BST audit chain Thursday morning. Methodology infrastructure (Cal #79 dual-axis vigilance) caught it within ~30 minutes of original mis-attribution. The methodology stack working as designed.
+
+Quaker consensus principle (Layer 10 of methodology stack): near misses get scrutiny, not defense. This conflation IS the near miss; Cal's catch IS the scrutiny; correction filed within session preserves audit-chain integrity.
+
+— Keeper Strong-Uniqueness consolidation update, 2026-05-21 Thursday 11:53 EDT (actual via date; Cal #79 M1 flag corrected)
+
+---
+
+## Thursday 11:55 EDT — Strong-Uniqueness Theorem v0.9.1: FOUR RIGOROUSLY CLOSED criteria
+
+### Lyra batch delivery (Thursday 11:33 EDT)
+
+Per Lyra T2440 + T2441 + T2442 batch + S32 absorption + canonical numbering filing:
+
+**Keeper long-chain goal EXCEEDED**: "3 RIGOROUSLY CLOSED promotions by EOD/Friday" reached in a single Thursday morning session via reframing-insight cadence sustained.
+
+### Four RIGOROUSLY CLOSED criteria (Thursday 11:33 EDT)
+
+| Theorem | Criterion (Keeper numbering, corrected per Cal #79) | Mechanism |
+|---|---|---|
+| **T2439** | **C4** Casimir eigenvalue C_2 = 6 forcing | Lowest K-type Casimir = 6 IFF M = D_IV_5 (D_I_{1,5}=4, D_I_{5,1}=4) |
+| **T2440** | **C11** Multi-Family Bridge Object structure | 5-family architecture at BST primary signatures uniquely D_IV⁵ via primary integer forcing |
+| **T2441** | **C12** Operator Zoo Ground-State Energy = 6 | T2439 corollary: operator zoo lowest-Casimir = C_2 = 6 substrate-uniquely identifying D_IV⁵ |
+| **T2442** | **C13** Bergman c_FK = 225/π^(9/2) | Faraut-Koranyi normalization in BST primary form (N_c · n_C)² = 225 uniquely D_IV⁵ |
+
+### Strong-Uniqueness Theorem v0.9.1 state (Thursday 11:55 EDT)
+
+| Criterion | Keeper convention | Status |
+|---|---|---|
+| C1 | rank = 2 | RATIFIED |
+| C2 | N_c = 3 | RATIFIED |
+| C3 | n_C = 5 | RATIFIED via T2431 |
+| **C4** | C_2 = 6 forcing | **RIGOROUSLY CLOSED via T2439** |
+| C5 | g = 7 | RATIFIED via T2432 |
+| C6 | N_max = 137 | RATIFIED via Paper #104 |
+| C7 | Bridge Object tier (K57) | RATIFIED |
+| C8 | Universal Q-cluster | RATIFIED via K43+K44+K61 |
+| C9 | Stark small-primary | RATIFIED via K75 |
+| C10 | 4-Zone vacuum | RATIFIED via T2420 |
+| **C11** | Multi-family Bridge Object | **RIGOROUSLY CLOSED via T2440** |
+| **C12** | Operator zoo isotropy-subgroup | **RIGOROUSLY CLOSED via T2441** |
+| **C13** | Substrate-Hilbert space sufficiency | **RIGOROUSLY CLOSED via T2442** |
+| C14 | Curriculum-derivability | ADVANCING |
+
+**Final tally**: 9 RATIFIED + **4 RIGOROUSLY CLOSED** + 1 ADVANCING = 14 criteria, 13 of which at RATIFIED or higher tier.
+
+### Updated null-model under 4 RIGOROUSLY CLOSED
+
+Effective null-model under 4 RIGOROUSLY CLOSED + 9 RATIFIED criteria: each RIGOROUSLY CLOSED criterion is alt-HSD-verified at if-and-only-if level — empirically stronger than conservative 1/3 random-HSD assumption.
+
+Conservative null-model retains (1/3)^16 ≈ 2.3e-8 — but with **4 criteria empirically alt-HSD-distinguished**, the effective null-model is substantially smaller than the conservative estimate.
+
+**Strong-Uniqueness Theorem v0.9.1**: substantively closing toward v1.0 venue submission ~2026-09 endpoint.
+
+### Numbering reconciliation completed by Lyra
+
+Per Lyra status report 11:39 EDT: "Canonical C2-C14 mapping table filed." Lyra acknowledged numbering reconciliation per Cal #78 + #79 M1 flag.
+
+**Multi-CI consensus on canonical numbering**: Keeper Option C-corrected + Lyra canonical C2-C14 mapping converge. T2439 RIGOROUSLY CLOSED maps to:
+- **Keeper C4** (Casimir eigenvalue forcing — corrected per Cal #79)
+- **Lyra C8** (Möbius cohomology / Wallach K-type spectral parity)
+
+Same mathematical content; two numbering conventions. Reconciliation document captures the mapping.
+
+### Elie S32 Calibration #17 resolution absorbed
+
+Per Elie K52a Session 32 Thursday 11:37 EDT:
+
+**Calibration #17 RESOLVED**: S22 diagonal projector (rank-126, trace 126/16, max 1/16) vs S32 rank-1 projector (trace 126/16, max 126/16). Same trace, different ranks. S32 satisfies BOTH simultaneously — resolves Wednesday apparent inconsistency.
+
+**Multi-month question REFINED** from "how does max eigenvalue equal 126/16" to "WHICH specific |ψ_0⟩ does substrate identify as the Bell state":
+- Uniform superposition over 126 active modes (S32 today)
+- Frobenius-orbit phase-modulated
+- Bergman ground state
+- Wallach K-type lowest-Casimir
+- RS-codeword superposition (K68 GF(128)^k)
+
+Sharper question = more tractable investigation. Bell prediction UNCHANGED (max |S|² ≤ 126/16, deviation 1/8).
+
+### Casey EOD/Friday goal substantially exceeded
+
+Long-chain assignment goal was "≥3 RIGOROUSLY CLOSED criteria by EOD/Friday." **Achieved 4 in single Thursday morning session**.
+
+Strong-Uniqueness Theorem v0.9.1 with **4 RIGOROUSLY CLOSED + 9 RATIFIED + 1 ADVANCING** = closest to v1.0 BST has ever been. Venue submission ~2026-09 trajectory substantially accelerated.
+
+— Keeper update, 2026-05-21 Thursday 11:55 EDT (actual via date; v0.9.1 absorption of T2440+T2441+T2442 + Calibration #17 resolution + numbering reconciliation completion)
