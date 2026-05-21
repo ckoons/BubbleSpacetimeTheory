@@ -98,3 +98,60 @@ Action items:
 3. Going forward: ALL CIs use atomic claim script per Casey standing order
 
 — Keeper, 2026-05-21 Thursday 12:38 EDT (actual via date; toy collision governance ruling)
+
+---
+
+## Thursday 14:10 EDT — Governance ruling REVISED per Cal #84 + Grace honest scope
+
+### Cal #84 finding (Thursday ~14:05 EDT)
+
+Cal independent atomic-lock audit on `./play/claim_number.sh`:
+> "Script does what it claims; atomic-lock works correctly. Collisions Grace flagged are NOT explained by script race condition under correct usage."
+
+**Audit findings**:
+1. Atomic lock implementation CORRECT (mkdir-based POSIX-portable)
+2. Counter increment CORRECT inside lock (no race window)
+3. Recycle list handling CORRECT
+4. Trap-vs-mkdir timing: theoretical microsecond race only under SIGKILL
+
+**Cal verdict: claim_number.sh is STRUCTURALLY CORRECT.**
+
+### Grace honest scope (Thursday ~12:48 EDT)
+
+Grace confirmed: used `./play/claim_number.sh` throughout. She did NOT bypass the script.
+
+### Implications — root cause likely NOT script
+
+Combining Cal #84 + Grace honest scope:
+- Grace used the script (confirmed)
+- Script is correct (Cal verified)
+- Therefore: collisions are NOT explained by Grace's behavior + script behavior
+
+**Most likely remaining hypothesis**: Elie's earlier self-report ("I followed standing order — read .next_toy, increment") suggests Elie may have bypassed the script for some claims. The standing order is `./play/claim_number.sh`, NOT direct `.next_toy` read.
+
+### Action items REVISED
+
+**SUPERSEDES Thursday 12:38 ruling action items**:
+
+1. ~~Cal own-cadence: audit `./play/claim_number.sh` atomic correctness~~ → **DONE per Cal #84: script CORRECT**
+2. **Elie honest scope investigation**: did Elie bypass `./play/claim_number.sh` for any colliding toys 3252-3257? (Honest-scope question, not blame)
+3. **CI training reaffirmation**: ALL CIs MUST use `./play/claim_number.sh toy` — never read `.next_toy` directly. This is Casey standing order.
+4. **Defensive owner-prefix mitigation** (per Keeper 13:30 broadcast): if collisions persist after Elie investigation, append `_e/_g/_l/_c` to toy filenames as defensive fallback. Makes filename uniqueness independent of number uniqueness.
+5. **Cal escalation path** (if collisions persist after CI usage confirmation): add timestamp+pid logging to claim_number.sh for forensic analysis; check for any tools reading `.next_toy` directly; consider flock -x for explicit file locking.
+
+### Casey-named principle observation
+
+This is the methodology infrastructure 3-Layer Redundancy working as designed:
+- Lane 1 Cal external-voice: audited script, verified CORRECT
+- Lane 2 Grace catalog-hygiene: flagged collisions empirically
+- Lane 3 Keeper governance: synthesized findings into revised ruling
+
+Multi-day root-cause investigation closed within ~90 minutes (12:37 EDT collision report → 14:10 EDT revised ruling).
+
+### Status
+
+**Toy Collision Governance Ruling v0.2 (revised) filed Thursday 14:10 EDT.**
+
+Script CORRECT per Cal #84. Collisions likely due to CI bypass not script bug. Action items revised accordingly.
+
+— Keeper update, 2026-05-21 Thursday 14:10 EDT (actual via date; governance ruling REVISED per Cal #84 + Grace honest scope)
