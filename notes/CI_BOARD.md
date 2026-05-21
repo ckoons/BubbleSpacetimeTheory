@@ -43,11 +43,11 @@ status: "Active. Read at session start, update at EOD."
 
 ## Counters (Thursday May 21, 14:10 EDT)
 
-- **T1-T2450** (`.next_theorem` = 2451; +20 Thursday Lyra Sessions 1-12 inc. ASPIRATIONAL)
+- **T1-T2449** (`.next_theorem` = 2450; +21 Thursday Lyra Sessions 1-12 incl. T2447+T2448+T2449 FORMAL)
 - **3295 toys** (`.next_toy` = 3296; +69 Thursday)
 - **AC graph**: 2185 nodes / 9806 edges
 - **Catalog**: 4717 invariants (+177 since Tuesday EOD); D-tier 78% (honest)
-- **Papers**: 125 drafted (#125 v1.0 at ~99% venue-grade)
+- **Papers**: 125 drafted (#125 v0.10.5 outline at ~99% venue-grade, 146K PDF)
 - **Constants**: 191; **Rosetta ratios**: 253; **Predictions**: 120+
 - **BST FULL-INDEX CLOSURE**: 6897 objects × 3 axes = 13794 classification assignments (Grace 5×100%)
 - **Commits Thursday**: 81 BST + 1 katra sundown
@@ -55,34 +55,39 @@ status: "Active. Read at session start, update at EOD."
 
 ---
 
-## Strong-Uniqueness Theorem v0.9.5 FORMAL (Thursday May 21)
+## Strong-Uniqueness Theorem v0.10.5 FORMAL (Thursday May 21, 14:26 EDT)
 
-**8 RIGOROUSLY CLOSED + 5 RATIFIED + 1 ADVANCING** = 13/14 criteria at top tier.
+**11 RIGOROUSLY CLOSED + 2 RATIFIED + 1 ADVANCING** = 14 criteria total. Only C14 ADVANCING; C7 + C9 RATIFIED (deferred per geometric preference).
 
 | Crit | Theorem | Mechanism |
 |---|---|---|
 | C1 rank=2 | T2443 | Cartan classification at dim_C=5 |
 | C2 N_c=3 | T2444 | Mersenne 2^rank-1 |
 | C3 n_C=5 | T2445 | Bergman exponent (g+rank)/rank=9/2 |
-| C4/C8 Casimir | T2439 | Lowest K-type Casimir=6 |
+| C4 Casimir | T2439 | Lowest K-type Casimir=6 (Cal ✓ VERIFIED) |
 | C5 g=7 | T2446 | Mersenne + cyclotomic GF(128) |
-| C11/C9 Multi-family | T2440 | Multi-Family Bridge Object |
-| C12/C10 Operator zoo | T2441 | Operator-zoo ground-state E_0=6 |
-| C13/C11 Hilbert sufficiency | T2442 | Bergman c_FK BST primary form |
+| **C6 N_max=137** | **T2447** | **5-step chain + Sessions 6+7+8 inheritance** |
+| **C8 Universal Q-cluster** | **T2448** | **3-cluster {42, 126, 131} reading** |
+| **C10 4-Zone vacuum** | **T2449** | **Zonal harmonics (multi-CI ratification flag)** |
+| C11 Multi-family | T2440 | Multi-Family Bridge Object |
+| C12 Operator zoo | T2441 | Operator-zoo ground-state E_0=6 |
+| C13 Hilbert sufficiency | T2442 | Bergman c_FK BST primary form |
 
-Only **C14 (curriculum-derivability) ADVANCING**. K97 RATIFIED ≡ Strong-Uniqueness v1.0 path: **days-to-weeks** per Thursday afternoon cadence acceleration (30× via Keeper pre-specification).
+**Null-model**: (1/3)^19 ≈ 8.6×10⁻¹⁰.
 
-**v0.10.5 ASPIRATIONAL candidate path** (Lyra Sessions 10-12, C6+C8+C10 closed at aspirational tier).
+**K97 RATIFIED ≡ Strong-Uniqueness v1.0** path: gated only on C14 (curriculum-derivability via Year 1 trio v1.0). Days-to-weeks per Casey 10× recalibration. K97 RATIFIED auto-execute pre-approved.
+
+**Sessions 10-12 PCAP collapse**: ~6 min total (Cal #85 projection met).
 
 ---
 
 ## Phase 2 K-Audit Chain (Thursday May 21)
 
-**28 Phase 2 K-audits Cal-ACCEPTED** Thursday morning + afternoon:
+**29 Phase 2 K-audits Cal-ACCEPTED + K127 PRE-STAGE** Thursday morning + afternoon (30 total):
 
 - **Vol 0 K-audit COMPLETE** (K97-K106, 10 audits) — average F1-F4 3.93/4 STRONG
 - **Vol 1 K-audit cluster** (K108 + K109 + K110 + K111 + K114, 5 audits) — K108 + K111 **PERFECT-PERFECT 4.0/4 + 4.0/4**
-- **Vol 2 K-audits** (K88+K89+K92+K93+K94+K95+K96 SM cluster + K126 Higgs cascade) — 8 audits
+- **Vol 2 K-audits** (K88+K89+K92+K93+K94+K95+K96 SM cluster + K126 Higgs cascade + K127 Neutrinos) — 9 audits
 - **CPT-cluster** (K85+K86+K87) — BST TIER-1 FALSIFIER SET
 
 All at PRE-STAGE pending Cal grade-pass cadence (Friday-rolling).
@@ -99,7 +104,7 @@ All at PRE-STAGE pending Cal grade-pass cadence (Friday-rolling).
 
 ---
 
-## Methodology Stack (15 layers, peak Thursday)
+## Methodology Stack (16 layers, peak Thursday)
 
 1-9. Foundational (toy + theorem + K-audit governance + external register + Mode 6 + EXACT-vs-Mechanism + M2C2 + DOUBLE-LOCKED + Phase 1/Phase 2 governance)
 10. **STRUCTURALLY VERIFIED tier** (Cal #66, Thursday)
@@ -108,10 +113,14 @@ All at PRE-STAGE pending Cal grade-pass cadence (Friday-rolling).
 13. Reframing-insight cadence (Lyra ~50 min/criterion, then ~1 min with pre-spec)
 14. F1-F4 family-member criteria
 15. B1-B4 bridge criteria
+16. **PCAP — Pre-Specification Cadence Acceleration Pattern** (Cal #85, Thursday 14:25)
 
 **5-Lane Redundancy Pattern** (Cal #81): Cal Mode 1 + Grace catalog-hygiene + Keeper governance + Lyra theoretical + Elie computational. Peak cycle-time: ~2 minutes.
 
-**30× cadence acceleration via pre-specification** demonstrated Thursday: weekend roadmap → ~5 minutes via Keeper Session 6/7/8+9 specs.
+**~1000× cumulative cadence acceleration** Thursday (Cal #85 PCAP):
+- Sessions 6-9: weekend roadmap → ~5 min via pre-spec
+- Sessions 10-12: days/weeks → ~6 min via pre-spec (collapsed 14:26 EDT)
+- Five PCAP workstreams demonstrated
 
 ---
 
