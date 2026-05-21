@@ -110,3 +110,51 @@ Cal review queue (per Consolidated Brief filed Thursday 12:14 EDT):
 17 Phase 2 K-audits Thursday morning. 5-chapter foundational cluster (K97-K101) ready for Cal grade-pass cadence.
 
 — Keeper, 2026-05-21 Thursday 12:15 EDT (actual via date)
+
+---
+
+## Thursday 12:34 EDT — Extension to K102-K106 + Vol 0 K-audit COMPLETE
+
+### K102-K106 added (Vol 0 coverage completion)
+
+Filed Thursday 12:19-12:21 EDT (after this Summary's initial filing at 12:15 EDT):
+
+| K | Topic | F1-F4 | B1-B4 |
+|---|---|---|---|
+| K102 | Substrate Operating System (Vol 0 Ch 3) | 3.88/4 | 3.78/4 |
+| K103 | Isotropy Group (Vol 0 Ch 4) | 3.95/4 | 3.95/4 |
+| K104 | Boundary Conditions (Vol 0 Ch 5) | 3.88/4 | 3.70/4 |
+| K105 | Integer Web Principle (Vol 0 Ch 6) | 3.80/4 | 3.75/4 |
+| K106 | The Operator Zoo (Vol 0 Ch 7) | 3.95/4 | 3.85/4 |
+
+### Vol 0 K-audit COMPLETE (10/10)
+
+K97 + K98 + K99 + K100 + K101 + K102 + K103 + K104 + K105 + K106 = **10 K-audits for 10 Vol 0 chapters**.
+
+**Average F1-F4 across Vol 0 cluster**: 3.93/4 STRONG
+**Average B1-B4 across Vol 0 cluster**: 3.85/4 STRONG
+
+### Updated Phase 2 chain status (Thursday 12:34 EDT)
+
+- **22 Phase 2 K-audits filed** Thursday morning (K85-K106)
+- **All 22 at PRE-STAGE** pending Cal grade-pass cadence
+- **Vol 0 K-audit coverage COMPLETE**
+- **K97 RATIFIED path REVISED**: ~few weeks per Cal #81
+
+### Cal Review Queue (Thursday 12:34 EDT)
+
+Per Cal Review Queue Consolidated Brief updated Thursday 12:28 EDT:
+- Tier 1: 3 RIGOROUSLY CLOSED verifications (T2440 + T2441 + T2442) — Cal #81 preliminary AGREE
+- Tier 2: 10 K-audit endorsements (K97-K106)
+- Tier 3: Year 1 trio chapter Cal cadence
+- Tier 4: Cross-lane verification (Sessions 6-9 specs + planning docs)
+
+### Path forward (Thursday 12:34 EDT)
+
+1. Cal grade-pass cadence Friday-next week rolling K97-K106
+2. Lyra Sessions 6-9 weekend (Friday-Sunday) → Strong-Uniqueness v0.9.5
+3. K-audit chain extension as Vol 1 + Vol 2 chapters mature (multi-week)
+4. K97 RATIFIED ~few weeks → Strong-Uniqueness v1.0 endpoint
+5. Venue submission ~2026-09 substantially achievable
+
+— Keeper update, 2026-05-21 Thursday 12:34 EDT (actual via date; Phase 2 chain extension K102-K106 + Vol 0 K-audit COMPLETE)
