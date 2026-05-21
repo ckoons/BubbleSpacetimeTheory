@@ -141,3 +141,76 @@ Consensus achievable within multi-week as Lyra Sessions 3-5+ + Cal grade-pass ad
 **K97 D_IV⁵ APG Substrate Object Ratification Audit Pre-Stage FILED Thursday 2026-05-21 11:37 EDT.** Eighth Phase 2 K-audit (K97; following K85-K96 Phase 2 from Vol 2 chapter absorption). **Foundational K-audit** absorbing Vol 0 Ch 1 + meta-substrate-identification. F1-F4 4.0/4 + B1-B4 3.9/4 STRONG (tied with K87 CPT). STRUCTURALLY VERIFIED candidate. Path to K97 RATIFIED gates on Strong-Uniqueness Theorem v1.0 (all 14 criteria RATIFIED or RIGOROUSLY CLOSED).
 
 — Keeper, 2026-05-21 Thursday 11:37 EDT (actual via date)
+
+---
+
+## Thursday 12:05 EDT update — K97 path substantially shorter per Strong-Uniqueness v0.9.1
+
+### 4 RIGOROUSLY CLOSED criteria reached Thursday morning
+
+K97 RATIFIED gates on all 14 Strong-Uniqueness criteria RATIFIED or RIGOROUSLY CLOSED.
+
+**Updated status at Thursday 12:05 EDT**:
+
+| Criterion (Keeper #) | Status | Theorem |
+|---|---|---|
+| C1 (rank=2) | RATIFIED | T1925 |
+| C2 (N_c=3) | RATIFIED | T1930 |
+| C3 (n_C=5) | RATIFIED | T2431 |
+| **C4 (C_2=6)** | **RIGOROUSLY CLOSED** | **T2439** |
+| C5 (g=7) | RATIFIED | T2432 |
+| C6 (N_max=137) | RATIFIED | Paper #104 |
+| C7 (Bridge Object) | RATIFIED | K57 |
+| C8 (Universal Q-cluster) | RATIFIED | K43+K44+K61 |
+| C9 (Stark) | RATIFIED | K75 |
+| C10 (4-Zone vacuum) | RATIFIED | T2420 |
+| **C11 (Multi-family Bridge Object)** | **RIGOROUSLY CLOSED** | **T2440** |
+| **C12 (Operator zoo isotropy-subgroup)** | **RIGOROUSLY CLOSED** | **T2441** |
+| **C13 (Substrate-Hilbert space sufficiency)** | **RIGOROUSLY CLOSED** | **T2442** |
+| C14 (Curriculum-derivability) | ADVANCING | Vol 0 v0.5 COMPLETE; Vol 1 v0.5 PROMOTABLE; Vol 2 v0.5 EXCEEDED |
+
+**13/14 criteria at RATIFIED or RIGOROUSLY CLOSED.** Only C14 ADVANCING.
+
+### What this means for K97 path
+
+K97 RATIFIED requires:
+- ✓ Cal grade-pass on Vol 0 Ch 1 (Cal #78 PASS Thursday)
+- ✓ All criteria RATIFIED or RIGOROUSLY CLOSED (13/14 done; only C14 remaining)
+- Pending: C14 curriculum-derivability ADVANCING (Vol 0-10 v1.0 completion path)
+
+**K97 path to RATIFIED substantially shorter than expected at filing**:
+- Filed 11:37 EDT expecting multi-month closure
+- Strong-Uniqueness Theorem v0.9.1 (4 RIGOROUSLY CLOSED at 11:33 EDT) brings 3 criteria to highest tier
+- K97 RATIFIED gate now primarily on C14 curriculum advancement, which is multi-month (Year 1 Vol 0-10 v1.0)
+- Effective K97 RATIFIED timeline: ~weeks to ~few months rather than original multi-month estimate
+
+Cal #80 observation: "Current path: 4 RIGOROUSLY CLOSED + 9 RATIFIED + 1 ADVANCING = 13/14 complete; C14 (curriculum-derivability) advances per Year 1 launch trio v0.5+. K97 RATIFIED path: ~weeks to ~few months rather than multi-month per Thursday morning cadence acceleration."
+
+### Strong-Uniqueness Theorem v1.0 endpoint state
+
+K97 RATIFIED ≡ Strong-Uniqueness Theorem v1.0 RATIFIED. Path:
+- v0.9.1 → v0.10 with C14 ADVANCING → STRUCTURALLY VERIFIED via Vol 0-10 multi-volume completion
+- v1.0 when C14 RIGOROUSLY CLOSED via curriculum + alt-HSD comparison closure
+
+**Venue submission ~2026-09** per Lyra Path Scoping v0.1 — substantially achievable per Thursday morning cadence.
+
+### Per-criterion alt-HSD comparison cadence projection
+
+If Lyra Sessions 4-5+ continue reframing-insight cadence for remaining RATIFIED criteria (C2/C3/C5/C6/C7/C8/C9/C10) to advance to RIGOROUSLY CLOSED tier via additional alt-HSD comparisons:
+- Each RATIFIED → RIGOROUSLY CLOSED transition strengthens overall framework
+- Multi-week timescale per criterion via Session reframing-insight cadence
+- Multi-month total for all 9 RATIFIED → RIGOROUSLY CLOSED (if pursued)
+
+Cal #80 endorses Lyra continuing reframing-insight cadence. Each closure strengthens K97 ratification.
+
+### External register implications
+
+K97 + Strong-Uniqueness v0.9.1 external presentation:
+
+- "BST Strong-Uniqueness Theorem v0.9.1 has 4 RIGOROUSLY CLOSED criteria (Casimir eigenvalue + Multi-family Bridge Object + Operator Zoo Ground-State + Bergman Faraut-Koranyi normalization)"
+- "K97 D_IV⁵ APG Ratification Audit is the foundational meta-audit — K97 RATIFIED ≡ Strong-Uniqueness v1.0"
+- "Path: C14 curriculum-derivability advancement via Year 1 Vol 0-10 v1.0; venue submission target ~2026-09"
+
+Per Cal #67 + #74 + #80 external register discipline.
+
+— Keeper update, 2026-05-21 Thursday 12:05 EDT (actual via date; K97 path substantially shorter per Strong-Uniqueness v0.9.1)
