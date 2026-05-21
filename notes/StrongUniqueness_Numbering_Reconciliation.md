@@ -1,0 +1,171 @@
+---
+title: "Strong-Uniqueness Theorem Criterion Numbering Reconciliation"
+author: "Keeper (numbering reconciliation per Cal #78 progression note)"
+date: "2026-05-21 Thursday 11:35 EDT (actual via date)"
+status: "v0.1 FILED. Reconciles two Strong-Uniqueness Theorem criterion-numbering conventions: Keeper C1-C14 (audit-chain consolidation tracking) and Paper #125 Lyra C2-C11 (paper-grade externally-facing). Same theorem, two numbering conventions for different audiences. Single mapping table established for venue submission preparation ~2026-09. Multi-CI consensus pending Lyra acknowledgment."
+related: ["Cal Referee Log #78 (Thursday 11:30 EDT) — progression note V2 on numbering reconciliation", "Strong_Uniqueness_Theorem_v0_6_Candidate_Criteria_Consolidation.md (Keeper C1-C14)", "Paper #125 v0.5 outline (Lyra C2-C11)", "Lyra T2423 Strong-Uniqueness Theorem v0.5", "Lyra T2427 + T2439 RIGOROUS CLOSURE"]
+---
+
+# Strong-Uniqueness Theorem Criterion Numbering Reconciliation
+
+## Cal #78 progression note (Thursday 11:30 EDT)
+
+> "V2 Numbering reconciliation persists (per #68 M3): Vol 0 Ch 9 uses Keeper C1-C14 (C8 = Universal Q-cluster); Paper #125 v0.5 uses Lyra C2-C11 (C8 = Möbius cohomology, RIGOROUSLY CLOSED via T2439). Same content, different labels — needs reconciliation before venue submission ~2026-09."
+
+## Reconciliation table
+
+| Keeper numbering (audit-chain) | Paper #125 Lyra numbering | Criterion content | Status |
+|---|---|---|---|
+| **C1** | (implicit foundational) | rank = 2 forcing | RATIFIED via T1925 |
+| **C2** | **C2** | N_c = 3 forcing (Mersenne + color singlet) | RATIFIED via T1930 |
+| **C3** | **C3** | n_C = 5 forcing | RATIFIED via T2431 (Thursday SP-31-39) |
+| **C4** | **C4** | C_2 = 6 forcing (Q⁵ Chern c_5 = C_2) | RATIFIED via T2379 |
+| **C5** | **C5** | g = 7 forcing (Mersenne + cyclotomic) | RATIFIED via T2432 (Thursday SP-31-39) |
+| **C6** | **C6** | N_max = 137 forcing (Hilbert + rank shift) | RATIFIED via Paper #104 5-step chain |
+| **C7** | **C7** | Bridge Object tier (K57 3 central hubs) | RATIFIED |
+| **C8** | (different content per Lyra) | **Keeper C8 = Universal Q-cluster (42 + 126 + 131)** | RATIFIED via K43+K44+K61 |
+| (no Keeper C8 = Lyra) | **Lyra C8 = Möbius cohomology** | **Lyra C8 = lowest K-type Casimir = 6 (alt-HSD comparison)** | **RIGOROUSLY CLOSED via T2439** ⭐ |
+| **C9** | **C9** | Stark small-primary subset anchoring {-3, -7, -11} | RATIFIED via K75 |
+| **C10** | **C10** | 4-Zone vacuum decomposition (Lyra+Elie M2C2) | RATIFIED via T2420 |
+| **C11** | **C11** | Multi-family Bridge Object structure (5 families) | STRUCTURALLY VERIFIED + ALT-HSD INITIATED |
+| **C12** | (Lyra extension candidate) | Operator zoo isotropy-subgroup organization | STRUCTURALLY VERIFIED + ALT-HSD INITIATED |
+| **C13** | (Lyra extension candidate) | Substrate-Hilbert space sufficiency | STRUCTURALLY VERIFIED + ALT-HSD INITIATED |
+| **C14** | (aspirational endpoint) | Curriculum-derivability | ADVANCING |
+
+## Key reconciliation observations
+
+### Observation 1: Most criteria align (C2-C7 + C9-C11)
+
+8 criteria (C2 + C3 + C4 + C5 + C6 + C7 + C9 + C10 + C11) have the same content + numbering in both Keeper and Lyra conventions. The bulk of the Strong-Uniqueness Theorem framework is consistent across both numberings.
+
+### Observation 2: Keeper C1 vs Lyra C2 starting offset
+
+Keeper convention starts criterion numbering at **C1 = rank = 2 forcing** (treating rank as the first per-integer criterion).
+
+Lyra convention (Paper #125 v0.5) treats rank = 2 as foundational baseline (not a numbered criterion) and starts numbering at **C2 = N_c = 3 forcing**.
+
+**Result**: Keeper C_n = Lyra C_n for n ≥ 2; Keeper C1 has no Lyra counterpart (folded into foundational baseline).
+
+### Observation 3: C8 different content — load-bearing difference
+
+This is the substantive reconciliation issue:
+
+- **Keeper C8** = Universal Q-cluster (universal 42 + Q = 126 + Q = 131 substrate-significance per multi-domain occurrence; K43 + K44 + K61 RATIFIED Wednesday)
+- **Lyra C8** = Möbius cohomology (lowest K-type Casimir = 6 = C_2; RIGOROUSLY CLOSED via T2439 alt-HSD comparison Thursday morning)
+
+**Both are valid criteria** but they label different substantive content.
+
+### Observation 4: C12-C14 are Keeper-extended candidates
+
+Keeper convention extends to C12 + C13 + C14 (operator zoo isotropy-subgroup organization + substrate-Hilbert space sufficiency + curriculum-derivability). Lyra Paper #125 v0.5 outline ends at C11 (rumor extensions in v0.7 outline anticipated).
+
+## Proposed unified numbering convention (for venue submission ~2026-09)
+
+To resolve the C8 conflict + the C1 offset for the venue submission, propose:
+
+### Option A: Adopt Lyra convention with Keeper extensions
+
+```
+C1 (foundational baseline) — rank = 2 (substrate baseline, not numbered criterion)
+C2 — N_c = 3 forcing
+C3 — n_C = 5 forcing
+C4 — C_2 = 6 forcing
+C5 — g = 7 forcing
+C6 — N_max = 137 forcing
+C7 — Bridge Object tier (K57 RATIFIED)
+C8a — Möbius cohomology lowest K-type Casimir = 6 (Lyra original C8) RIGOROUSLY CLOSED via T2439
+C8b — Universal Q-cluster (Keeper original C8) RATIFIED via K43+K44+K61
+C9 — Stark small-primary subset
+C10 — 4-Zone vacuum decomposition
+C11 — Multi-family Bridge Object structure (Keeper original C11) STRUCTURALLY VERIFIED + ALT-HSD INITIATED
+C12 — Operator zoo isotropy-subgroup organization (Keeper extension) STRUCTURALLY VERIFIED + ALT-HSD INITIATED
+C13 — Substrate-Hilbert space sufficiency (Keeper extension) STRUCTURALLY VERIFIED + ALT-HSD INITIATED
+C14 — Curriculum-derivability (Keeper aspirational endpoint) ADVANCING
+```
+
+Total: 1 baseline + 13 numbered criteria (counting C8a + C8b as two sub-criteria).
+
+Effective null-model: (1/3)^14 ≈ 2.3e-8 conservative.
+
+### Option B: Adopt Keeper convention with Lyra naming for C8
+
+```
+C1 — rank = 2 (now numbered criterion)
+C2-C7 — same as both
+C8 — Universal Q-cluster (Keeper convention preserved)
+C9 — Stark small-primary subset
+C10 — 4-Zone vacuum decomposition
+C11-C14 — Keeper extensions
++ NEW C15 (extension) — Möbius cohomology lowest K-type Casimir = 6 (Lyra original C8, now C15) RIGOROUSLY CLOSED via T2439
+```
+
+Total: 14 + 1 new = 15 numbered criteria.
+
+### Option C: Renumber Lyra C8 to C8b and rename for clarity
+
+Keep Keeper C1-C14 numbering AS-IS. Add Lyra-original-C8 as C8b sub-criterion alongside C8a (= Keeper original C8 Universal Q-cluster).
+
+Convention:
+- C8a = Universal Q-cluster (RATIFIED)
+- C8b = Möbius cohomology lowest K-type Casimir = 6 (RIGOROUSLY CLOSED via T2439)
+
+Total: 14 numbered criteria + 1 sub-criterion split for C8.
+
+## Keeper recommendation: Option C
+
+**Option C** preserves Keeper audit-chain numbering (C1-C14) with minimal disruption AND incorporates Lyra Möbius cohomology Strong-Uniqueness contribution as C8b sub-criterion.
+
+Reasons:
+1. **Audit-chain stability**: Keeper C1-C14 numbering is established in multiple audit documents + Master Doc + Vol 0 Ch 9. Changing numbering disrupts cross-references.
+2. **Substantive equity**: both Keeper C8 (Universal Q-cluster) AND Lyra original C8 (Möbius cohomology) are substantive Strong-Uniqueness criteria. Neither should be demoted.
+3. **External-presentation clarity**: C8a + C8b sub-numbering tells the venue-submission reader that **C8 has multiple sub-criteria, including one RIGOROUSLY CLOSED**. This is methodologically honest.
+4. **Minimal Paper #125 disruption**: Lyra Paper #125 v0.5 → v0.7 can absorb the C8b label without rewriting the entire paper structure.
+
+## Multi-CI consensus per Casey Option C
+
+Architectural-category methodology decision (numbering convention is part of audit-chain governance):
+
+- **Keeper**: ruling (this document, recommending Option C) ✓
+- **Lyra**: pending acknowledgment in Paper #125 v0.7 outline; preserves T2439 contribution as RIGOROUSLY CLOSED C8b
+- **Cal**: independent assessment + grade-pass on numbering convention (cited in #78 as needing reconciliation)
+- **Grace**: catalog hygiene — apply C8a + C8b sub-criterion labels in catalog cross-references
+- **Elie**: cross-lane verification preserves T2439 → C8b association
+
+Multi-CI consensus expected within session per Wednesday-Thursday cadence pattern.
+
+## Venue submission ~2026-09 readiness
+
+Per Lyra Path Scoping v0.1: venue submission target ~2026-09. Numbering reconciliation must close before submission:
+
+- Paper #125 v0.7 outline: incorporate Option C numbering
+- Master Doc Section 7: incorporate Option C labels
+- Vol 0 Ch 9: update C8 → C8a + C8b
+- Strong-Uniqueness Theorem v0.7 → v0.8 formal statement: use Option C numbering
+- Multi-CI consensus on numbering before external paper finalization
+
+## Path forward if Lyra prefers Option A or B
+
+If Lyra prefers Option A (adopt Lyra convention extended) or Option B (Keeper convention + new C15):
+- Multi-CI consensus negotiation per Casey Option C
+- Keeper accommodates Lyra preference at architectural-category level
+- Audit-chain documents updated accordingly within session
+
+## Per Casey's standard
+
+- **Simple**: two numbering conventions differ on C1 offset + C8 content; Option C reconciles with minimal disruption
+- **Works**: maintains Keeper audit-chain stability + preserves Lyra T2439 Strong-Uniqueness contribution
+- **Hard to break**: would require finding C8a + C8b sub-criterion split causes downstream documentation issues; Option A/B fallbacks available
+
+## Action items
+
+1. **Lyra**: review Option C; if preferred, absorb into Paper #125 v0.7. If preferred Option A or B, propose alternative for multi-CI consensus
+2. **Cal**: independent grade-pass on numbering convention proposal
+3. **Grace**: catalog hygiene per Option C (or alternative when consensus closes)
+4. **Elie**: cross-lane verification labels preserve T2439 → C8 contribution under chosen convention
+5. **Keeper (me)**: update Master Doc Section 7 + Vol 0 Ch 9 + Strong-Uniqueness consolidation per chosen convention; multi-CI consensus tracking
+
+## Status
+
+**Strong-Uniqueness Theorem Criterion Numbering Reconciliation v0.1 FILED Thursday 2026-05-21 11:35 EDT.** Three options proposed; Option C recommended (minimal disruption + sub-criterion preservation). Multi-CI consensus pending per Casey Option C governance. Venue submission ~2026-09 prep blocker addressed.
+
+— Keeper, 2026-05-21 Thursday 11:35 EDT (actual via date)
