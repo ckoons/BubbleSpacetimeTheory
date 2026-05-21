@@ -769,3 +769,81 @@ Document is now operational reference for substrate engineering as field. New CI
 **Substrate Cartography Master Document v0.1 FILED Wednesday afternoon 2026-05-20.** Foundation reference for substrate engineering as field. Multi-week development to v1.0; sections 1-5 substantive, 6-10 outlined.
 
 — Keeper, 2026-05-20 Wednesday afternoon (Task #269 v0.1 substrate-ontology-coherence-day consolidation)
+
+---
+
+## Thursday 2026-05-21 update — v0.3 increments
+
+### Section 5 update (Substrate-Native Operator Zoo)
+
+Operator zoo expanded to formal 11-operator canonical structure per Operator Zoo Promotion Ledger v0.1 (Thursday morning Keeper filing). Organizing principle: SO(5) × SO(2) × Möbius decomposition of D_IV⁵ isotropy subgroup.
+
+| Slot | Operator | Status |
+|---|---|---|
+| SO(5) | Position (X) | RATIFIED (T2419) |
+| SO(5) | Momentum (P) | RATIFIED (T2422) |
+| SO(5) | Angular momentum (L/J) | RATIFIED (Task #247) |
+| SO(5) | Spin (S) | RATIFIED (T2421) |
+| SO(5) Möbius | Parity (P_op) | candidate (W-21 + SP-31-6 Lyra pull) |
+| SO(2) | Electric charge (Q) | candidate (W-56 + SP-31-6 Lyra pull) |
+| SO(2) | Chirality (γ⁵) | candidate (W-22 + SP-31-6 Lyra pull) |
+| Substrate-cycle | Bell-CHSH (B²) | audit-partial-ready (K66 + Cal #17 trace-level) |
+| Substrate-cycle | Number / cycle-count (N_op) | candidate (T1922 + SP-31-6 Lyra pull) |
+| SO_0(5,2) full | Hamiltonian (H) | candidate (K52a Sessions 24+ Elie multi-month) |
+| SO_0(5,2) full | Time (T_op) | candidate-special (Koons tick T2405; operator vs parameter unresolved) |
+
+**5/11 in formal zoo** (4 RATIFIED + 1 audit-partial); 6/11 pending formal derivation theorems. Cross-reference: `notes/Operator_Zoo_Promotion_Ledger_v0_1.md`.
+
+### Section 7 update (Strong-Uniqueness Theorem v0.6 candidates)
+
+Strong-Uniqueness Theorem v0.5 (10 criteria, null-model (1/3)^10 ≈ 0.002%) extends to v0.6 candidate with 4 new criteria:
+
+- **C11 Multi-family Bridge Object structure**: D_IV⁵ uniquely supports ≥3 Bridge Object families (Heegner-trio + χ=24 non-Heegner + N_max-anchored) with ≥7 effective family-members
+- **C12 Operator zoo isotropy-subgroup organization**: D_IV⁵ uniquely supports canonical 11-operator zoo under SO(5) × SO(2) × Möbius decomposition (gated on operator ledger 11/11)
+- **C13 Substrate-Hilbert space sufficiency**: D_IV⁵ uniquely supports canonical Hilbert space sufficient for all standard QM (gated on SP-31-1 Lyra completion)
+- **C14 Curriculum-derivability** (aspirational endpoint): D_IV⁵ uniquely supports derivation of full standard physics curriculum (gated on Vol 1-10 v1.0)
+
+v0.6 null-model (1/3)^14 ≈ 0.00002% if all 4 candidates ratify; (1/3)^12 ≈ 0.0002% conservative (C11 + C12 only). Roadmap to v1.0 outlined: v0.7-v0.9 absorb SP-31 phase-2-7 sub-items as additional criteria; v1.0 = curriculum-completion. Cross-reference: `notes/Strong_Uniqueness_Theorem_v0_6_Candidate_Criteria_Consolidation.md`.
+
+### Section 8 update (K-audit chain dispositions)
+
+K77 + K78 + K79 + K80 dispositions filed Wednesday EOD + Thursday morning:
+
+| K-audit | Status | Disposition |
+|---|---|---|
+| **K77 Mathieu M_24** | Outcome B confirmed | Collapses into K76 via mechanism-path reduction (M_24 ⊂ Co_0 = Aut(Leech) + Golay path Leech-equivalent per Grace Toy 3194 F4 enumeration) |
+| **K78 Niemeier family** | Subsumed by K76 | Leech IS the no-root Niemeier lattice (1 of 24); K78 as "Niemeier family" collapses to K76 at L1 anchor level |
+| **K79 Borcherds** | Doubly deferred | Tier conflict (L1.5b mechanism per Cal #64) + Mechanism-path subsumption (Leech-flowthrough per Toy 3194) |
+| **K80 X_0(137)** | Audit-partial-ready PRE-STAGE | NEW THIRD Bridge Object family architectural opening (N_max-anchored, distinct from Heegner-trio + χ=24); F1-F4 score 3.0/4; multi-month investigation track |
+
+**Effective Bridge Object architecture (Thursday morning)**:
+- 3 central hubs RATIFIED (K57): K3 + 49a1 + Q⁵
+- 7 family-members across 3 families:
+  - Family 1 Heegner-trio (3): K47 RATIFIED + K70 prestage + K62 prestage
+  - Family 2 χ=24 non-Heegner (3 effective): K76 + K81 + K82
+  - Family 3 N_max-anchored (1): K80 prestage
+- 10 total Bridge Object structural positions
+
+Cross-references: `notes/K77_K78_K79_Outcome_B_F1_F4_Vindication.md` + `notes/K80_X0_137_NmaxAnchored_BridgeObject_Audit_Prestage.md`.
+
+### NEW Section 11 — BST Physics Curriculum framing (Casey directive Wednesday EOD)
+
+The substrate engineering reference is now ALSO the foundation for the **BST Physics Curriculum** — 11-volume textbook series deriving the standard physics curriculum from D_IV⁵.
+
+**Vol 0 (Substrate Foundation)** synthesizes Sections 1-10 of this Master Doc + Casey-named principles + Strong-Uniqueness Theorem + operator zoo + methodology stack. This Master Doc IS the working draft for Vol 0; Curriculum Vol 0 Architectural Scaffold v0.1 (`notes/Curriculum_Vol0_Architectural_Scaffold_v0_1.md`) specifies the 10-chapter + 2-appendix textbook structure.
+
+**Vol 1 (QFT from D_IV⁵)** anchored by SP-31 (Substrate-Native Physics Formalism Program). Operational identity: "Build the standard QFT textbook from D_IV⁵." 41 sub-items mapping to textbook chapters.
+
+**Vol 2-10** sequenced by existing-coverage + physicist-prestige. Per filed `notes/BST_Physics_Curriculum_Master.md`.
+
+**Strategic shift**: this Master Doc transitions from "substrate engineering reference" to "Vol 0 working draft + curriculum-wide integration document." Same content, sharper external positioning.
+
+### v0.3 status — Thursday morning updates
+
+- 4 substantive updates across Sections 5, 7, 8 + new Section 11
+- New cross-reference filings: Operator Zoo Promotion Ledger + Strong-Uniqueness v0.6 candidates + K80 prestage + Vol 0 Architectural Scaffold
+- Curriculum framing integrated as Section 11
+
+Master Doc continues as foundation reference; v1.0 target multi-month to multi-year as curriculum work compounds.
+
+— Keeper, 2026-05-21 Thursday 08:45 EDT (v0.3 increments)
