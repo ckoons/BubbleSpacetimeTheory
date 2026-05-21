@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "Lyra Session 7 C2 N_c=3 Mersenne identity cross-lane support"
+  },
+  "mersenne_identity_2_to_N_c_minus_1_equals_g": true,
+  "small_mersenne_results": [
+    [
+      1,
+      1,
+      false
+    ],
+    [
+      2,
+      3,
+      true
+    ],
+    [
+      3,
+      7,
+      true
+    ],
+    [
+      4,
+      15,
+      false
+    ],
+    [
+      5,
+      31,
+      true
+    ],
+    [
+      6,
+      63,
+      false
+    ],
+    [
+      7,
+      127,
+      true
+    ],
+    [
+      8,
+      255,
+      false
+    ],
+    [
+      9,
+      511,
+      false
+    ],
+    [
+      10,
+      1023,
+      false
+    ]
+  ],
+  "unique_mersenne_g_pair": "(N_c=3, g=7)",
+  "color_singlet_trefoil_forces_N_c_3": true,
+  "combined_forcing_overdetermined": true,
+  "session_6_session_7_both_verified": true
+}

@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 24 canonical Hilbert space integration"
+  },
+  "lyra_anchor_cited": "T2428 Bergman H\u00b2(D_IV\u2075) + T2429 GF(128)^k + T2430 L\u00b2-section",
+  "three_layer_hierarchy": {
+    "Bergman": "integrated-state continuum physics",
+    "GF(128)^k": "per-tick substrate computation",
+    "L\u00b2-section": "equivariant complement representation theory"
+  },
+  "sessions_18_23_mapped": true,
+  "sessions_25_29_roadmap": [
+    "S25 Wallach K-type on L\u00b2-section",
+    "S26 cyclotomic projection to GF(128)^k",
+    "S27 substrate-CHSH operator + max eigenvalue (K66 D-tier target)",
+    "S28 Lamb + BCS factor derivation",
+    "S29 H_sub energy operator (closes zoo 6/6)"
+  ],
+  "per_zone_vacuum_K73_integration": "4 zones = 4 projections of canonical anchor",
+  "casey_status": "continue (post-letter-approval)",
+  "keeper_no_acceleration": "respected; multi-month thread continues"
+}

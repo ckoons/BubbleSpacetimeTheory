@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "Vol 2 Ch 9 Higgs sector BST candidate survey"
+  },
+  "observables": {
+    "m_h": 125.1,
+    "v": 246.22,
+    "lambda_h": 0.12907376245590702,
+    "sin_sq_theta_W": 0.22301322532678336,
+    "y_top": 0.992281435446251
+  },
+  "bst_primary_candidates": {
+    "m_h": {
+      "best_form": "(N_max - rank\u00b2) \u00b7 m_p = 133 \u00b7 6\u03c0\u2075 \u00b7 m_e",
+      "value": 124.790176,
+      "deviation_pct": 0.2476610711430791,
+      "tier": "I-tier (0.25%, mechanism open)"
+    },
+    "lambda_h": {
+      "best_form": "(1/2^N_c)\u00b7(1 + N_c/(2\u00b7N_max))",
+      "value": 0.12636861313868614,
+      "deviation_pct": 2.0958165825103197,
+      "tier": "I-tier (2.5%, mechanism open)"
+    },
+    "sin_sq_theta_W": {
+      "best_form": "N_c/c_3 = 3/13",
+      "value": 0.23076923076923078,
+      "deviation_pct": 3.477823089228217,
+      "tier": "D-tier candidate <1%, mechanism multi-month"
+    },
+    "y_top": {
+      "form": "unity (BST natural)",
+      "value": 0.992281435446251,
+      "tier": "D-tier observation"
+    },
+    "v": {
+      "form": "no clean BST-primary form found in survey",
+      "tier": "OPEN (honest negative)"
+    }
+  },
+  "chapter_9_status": "PARTIAL DERIVED (advances from SCAFFOLDED)",
+  "vol_2_year_1_trajectory": "v0.2 candidate via Ch 9 + Ch 1 expansion"
+}

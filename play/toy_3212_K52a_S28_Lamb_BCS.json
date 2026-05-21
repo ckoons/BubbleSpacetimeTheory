@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 28 Lamb/BCS derivation in canonical anchor"
+  },
+  "lamb_factor": {
+    "form": "(M_g \u2212 1)/M_g = 1 \u2212 1/M_g",
+    "value": 0.9921259842519685,
+    "numerator_K69": "M_g \u2212 1 = 126 = Universal Q (4 BST-primary forms)",
+    "mechanism": "substrate trivial-character exclusion in cyclotomic Fourier basis"
+  },
+  "bcs_factor": {
+    "form": "(M_g + 1)/M_g = 1 + 1/M_g",
+    "value": 1.0078740157480315,
+    "numerator": "M_g + 1 = 128 = 2^g (substrate state-count)",
+    "mechanism": "substrate additive-zero inclusion in Bogoliubov vacuum"
+  },
+  "bst_BCS_full_ratio": {
+    "form": "(g/rank)\u00b7(1 + 1/M_g) = (7/2)\u00b7(128/127)",
+    "value": 3.52755905511811,
+    "weak_coupling_target": 3.527753977724091,
+    "match_precision_pct": 0.005525402485882165
+  },
+  "structural_duality": "Lamb excludes multiplicative-identity character; BCS includes additive-identity state. Dual identity-mode operations.",
+  "multi_month_continuation": "full Bethe-log matrix-element derivation in canonical anchor",
+  "sessions_29_next": "H_sub energy operator via Casimir on L\u00b2-section K-types"
+}

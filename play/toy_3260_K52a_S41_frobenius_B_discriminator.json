@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 41 Frobenius B-candidate"
+  },
+  "frobenius_B_tr_squared": 7.875,
+  "frobenius_B_eigenvalue_range": [
+    -0.35355339059327384,
+    0.3535533905932737
+  ],
+  "overlap_results_frobenius_B": {
+    "S32 uniform": 0.05555555555555564,
+    "S33 Frobenius": 0.055555555555555594,
+    "S34 Bergman": 0.0010457082080337987,
+    "S35 Wallach": 0.007159687447863413,
+    "S36 RS": 0.010583624470080839
+  },
+  "frobenius_B_max_overlap_candidate": "S32 uniform",
+  "frobenius_B_max_overlap_value": 0.05555555555555564,
+  "s40_winner_diagonal_B": "S32 uniform",
+  "s41_winner_frobenius_B": "S32 uniform",
+  "robust_across_both_Bs": true
+}

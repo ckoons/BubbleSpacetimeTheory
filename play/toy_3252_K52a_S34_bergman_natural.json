@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 34 Bergman-natural |\u03c8_0\u27e9"
+  },
+  "bergman_exponent": {
+    "value_g_plus_rank_over_rank": 4.5,
+    "amplitude_exponent_half": 2.25,
+    "c_FK_identity_pi9over2": 225
+  },
+  "rank1_construction_with_bergman": {
+    "trace": 7.875000000000014,
+    "max_eigenvalue": 7.875000000000021,
+    "non_zero_eigenvalues": 1,
+    "rank_1_satisfied": true
+  },
+  "inner_products_three_candidates": {
+    "uniform_frobenius": 1.0258260693374081e-16,
+    "uniform_bergman": 0.516164682083927,
+    "frobenius_bergman": 0.15019389502465075
+  },
+  "amplitude_by_hamming_weight": {
+    "1": 0.3710505352850403,
+    "2": 0.07800376624979058,
+    "3": 0.03132638198774434,
+    "4": 0.016398271853934394,
+    "5": 0.0099254579251273,
+    "6": 0.006585560579090686,
+    "7": 0.00465545863754016
+  },
+  "bergman_decay_ratio_check": {
+    "w7_over_w1_predicted": 0.012546696999005394,
+    "w7_over_w1_actual": 0.012546696999005394
+  },
+  "sessions_35plus_roadmap": [
+    "S35 Wallach K-type lowest-Casimir-eigenstate",
+    "S36 Reed-Solomon codeword superposition",
+    "S37+ discriminating principle identification"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 39 Bell prediction by candidate"
+  },
+  "bst_bell_prediction": {
+    "S_tsirelson": 2.8284271247461903,
+    "S_BST_squared": 8.062992125984252,
+    "S_BST": 2.839540830131564,
+    "absolute_deviation": 0.011113705385373596,
+    "relative_deviation_percent": 0.39292882210535607,
+    "formula": "1/(2\u00b7M_g) = 1/254"
+  },
+  "candidate_predictions": [
+    {
+      "candidate": "S32 uniform",
+      "expectation_B": 0.0,
+      "variance_B": 0.0625
+    },
+    {
+      "candidate": "S33 Frobenius",
+      "expectation_B": 0.0,
+      "variance_B": 0.0625
+    },
+    {
+      "candidate": "S34 Bergman",
+      "expectation_B": 0.004374,
+      "variance_B": 0.062481
+    },
+    {
+      "candidate": "S35 Wallach",
+      "expectation_B": 0.084034,
+      "variance_B": 0.055438
+    },
+    {
+      "candidate": "S36 RS",
+      "expectation_B": 0.0,
+      "variance_B": 0.0625
+    }
+  ],
+  "sharpest_predictor": "S35 Wallach",
+  "sp30_falsifier_windows": {
+    "BST_prediction_window": [
+      2.8344,
+      2.8505
+    ],
+    "tsirelson_falsifier_window": [
+      2.8284,
+      2.8294
+    ],
+    "required_experimental_precision_percent": 0.1
+  },
+  "s40_plus_roadmap": [
+    "substrate-CHSH B exact form (Lyra Sessions 6+ multi-month)",
+    "Bell experiment data fit (after SP-30 dispatch)",
+    "discriminating-principle closure"
+  ]
+}

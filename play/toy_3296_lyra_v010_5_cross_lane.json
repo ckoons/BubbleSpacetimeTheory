@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "Lyra v0.10.5 C6+C8+C10 consolidated cross-lane verification"
+  },
+  "C6_N_max_137_verified": true,
+  "C8_Q_cluster_size_3_verified": true,
+  "C10_4_zones_forced_by_rank_2_verified": true,
+  "cross_lane_toy_count": 11,
+  "v0_10_5_path_supported": true
+}

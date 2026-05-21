@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "T2439 C8 RIGOROUS CLOSURE independent verification"
+  },
+  "D_IV5_lowest_casimir": 6,
+  "D_IV5_via_rho_shifted_formula": "<(7/2,3/2), (7/2,3/2)> - <(5/2,3/2), (5/2,3/2)> = 6",
+  "D_IV5_match_C_2_BST_primary": true,
+  "D_I_alternatives_via_lyra_toys": {
+    "D_I_{1,5}": 4,
+    "D_I_{5,1}": 4,
+    "match_BST_primary": false,
+    "source_lyra_toys": "3232 + 3234"
+  },
+  "if_and_only_if_structure": "D_IV_5 uniquely satisfies lowest Casimir = 6 = C_2 BST primary at C8 criterion",
+  "cross_reinforcement_with_S29": "H_sub Casimir = 6 lowest is THE substrate Hamiltonian eigenvalue AND structurally unique to D_IV_5",
+  "strong_uniqueness_v0_7_status": "10/10 criteria + 1 RIGOROUSLY CLOSED (C8)",
+  "venue_submission_target": "2026-09"
+}

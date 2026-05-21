@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a S43 substrate-CHSH B constraint specification"
+  },
+  "eight_constraints": [
+    "Hermitian B = B\u2020",
+    "Tr(B\u00b2) = 126/16 = (M_g-1)/2^(2\u00b7rank)",
+    "Rank-1 B\u00b2 dominant eigenvalue at 126/16",
+    "Frobenius-orbit compatible (18 orbits of length g=7)",
+    "K-type compatible (lowest = C_2 = 6 floor)",
+    "Bell expectation near Tsirelson (framework reconciliation pending)",
+    "BST primary eigenvalue structure (\u00b11/4 or related forms)",
+    "SUT v0.9.5 chain compatible (T2439 + T2441 + T2442)"
+  ],
+  "Tr_B_squared": 7.875,
+  "Tr_B_squared_decomposition": "(M_g - 1) / 2^(2\u00b7rank) = 126 / 16",
+  "s44_s46_roadmap": "Multi-month substrate-CHSH B exact form via Lyra Sessions 6+"
+}

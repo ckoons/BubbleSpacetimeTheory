@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "(chi/\u03c0\u00b2)^exp family investigation"
+  },
+  "chi_over_pi_squared": 2.4317084074161066,
+  "m_mu_over_m_e_form": {
+    "formula": "(chi/\u03c0\u00b2)^(n_C+1) = (24/\u03c0\u00b2)^6",
+    "value": 206.76116852130178,
+    "measured": 206.768,
+    "rel_dev_percent": 0.003303934215264014
+  },
+  "m_tau_over_m_e_form": {
+    "formula": "(chi/\u03c0\u00b2)^6 \u00b7 (g/N_c)^(10/3)",
+    "value": 3483.840489454247,
+    "measured": 3477.23,
+    "rel_dev_percent": 0.19010791504291685
+  },
+  "family_matches_under_5_percent": [
+    {
+      "ratio": "m_mu/m_e",
+      "best_exp": "n_C + 1",
+      "value": 206.76116852130178,
+      "measured": 206.768,
+      "rel_dev": 0.003303934215264014
+    },
+    {
+      "ratio": "m_h/m_e",
+      "best_exp": "2\u00b7g",
+      "value": 252790.61619599693,
+      "measured": 244000.0,
+      "rel_dev": 3.6027115557364477
+    }
+  ],
+  "cal_mode_1_fitting_risk": "132 candidate pairs tested; close matches expected by chance \u2014 mechanism needed for D-tier"
+}

@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "SUT v0.10.5 null-model verification"
+  },
+  "null_model_value": 8.603915972377315e-10,
+  "null_model_match_lyra_claim": true,
+  "effective_bridge_object_positions": 19,
+  "rigorously_closed_criteria": 11,
+  "strong_uniqueness_v010_5": "11 RIGOROUSLY CLOSED + 5 RATIFIED + 1 ADVANCING",
+  "elie_cross_lane_verification_toys": 13
+}

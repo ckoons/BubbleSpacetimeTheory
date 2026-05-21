@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "CP hunt multi-week continuation - muonium"
+  },
+  "muonium_HFS_measured_Hz": 4463302765,
+  "k52a_target_factor": 0.007874015748031496,
+  "muonium_alpha2_finding": "K52a (1\u00b11/M_g) NOT at \u03b1\u00b2 level (honest negative)",
+  "next_candidate": "a_\u03bc/a_e ratio (0.54% deviation, order of magnitude of 1/M_g = 0.79%)",
+  "k52a_status_unchanged": "2 D-tier instances; third-instance hunt multi-week"
+}

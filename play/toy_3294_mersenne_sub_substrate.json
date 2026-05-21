@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "Mersenne sub-substrate identity exploration"
+  },
+  "identity_M_g_minus_1_equals_N_c_squared_times_g_at_BST_primaries": true,
+  "solutions_g_in_2_to_14": [
+    [
+      3,
+      1
+    ],
+    [
+      7,
+      3
+    ]
+  ],
+  "bst_solution_unique_in_small_range": false,
+  "sub_substrate_hierarchy_observation": "GF(128) \u2283 GF(64); 127 - 63 = 64 = 2^6 substrate-internal hierarchy"
+}

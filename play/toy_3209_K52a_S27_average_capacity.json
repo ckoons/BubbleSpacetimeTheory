@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 27 average-capacity interpretation"
+  },
+  "three_session_consistency": {
+    "S22": "Tr(B\u00b2)=126/16 trace, max eig = 1/16",
+    "S23": "bipartite max-entangled gives 7/128 NOT 126/16",
+    "S26": "P_cyc Fourier confirms trace = 126/16"
+  },
+  "refined_calibration_17": {
+    "statement": "126/16 is INTEGRATED Bell capacity over 126 active substrate channels",
+    "bell_experiment_predicts": "max |S|\u00b2 \u2264 126/16, sub-Tsirelson at 1/8 = 1/2^N_c",
+    "silent_modes": "rank = 2 (additive zero + multiplicative identity)",
+    "active_modes": "2^g \u2212 rank = 126 saturatable channels"
+  },
+  "outreach_letter_stands_valid": true,
+  "sessions_28_29_roadmap_unchanged": true
+}

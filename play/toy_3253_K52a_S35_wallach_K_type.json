@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 35 Wallach K-type |\u03c8_0\u27e9"
+  },
+  "wallach_K_type_structure": {
+    "lowest_Casimir_BST_primary": 6,
+    "K_type_label_range": [
+      6,
+      23
+    ],
+    "amplitude_exponent_bergman": 2.25
+  },
+  "rank1_construction_with_wallach": {
+    "trace": 7.874999999999998,
+    "max_eigenvalue": 7.875000000000009,
+    "non_zero_eigenvalues": 1,
+    "rank_1_satisfied": true
+  },
+  "four_candidate_inner_products": {
+    "uniform_vs_wallach": 0.6990670543013207,
+    "frobenius_vs_wallach": 0.3432578147068019,
+    "bergman_vs_wallach": 0.6571711250293815
+  },
+  "amplitude_by_K_type_casimir": {
+    "6": 0.2513408221939559,
+    "7": 0.17767763087085023,
+    "8": 0.13156818211373186,
+    "9": 0.10093869801040192,
+    "10": 0.07963488271735272,
+    "11": 0.06426430323161356,
+    "12": 0.0528378990974547,
+    "13": 0.04412968242475319,
+    "14": 0.03735212071751768,
+    "15": 0.03198143981361552,
+    "16": 0.027658803175221253,
+    "17": 0.024131997501897408,
+    "18": 0.021219747329331056,
+    "19": 0.01878917635157945,
+    "20": 0.016741171851542974,
+    "21": 0.015000644941967007,
+    "22": 0.013509905554060387,
+    "23": 0.012224066778940773
+  },
+  "k_type_decay_ratio_check": {
+    "C23_over_C6_predicted": 0.04863542130656215,
+    "C23_over_C6_actual": 0.04863542130656215
+  },
+  "sessions_36plus_roadmap": [
+    "S36 Reed-Solomon codeword superposition",
+    "S37+ discriminating principle identification"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "Tr(B\u00b2) substrate-natural decomposition"
+  },
+  "identity_126_16_equal_M_g_minus_1_over_2_to_2rank": true,
+  "alternative_form_63_8_equal_g_times_N_c_squared_over_rank_2rank": true,
+  "126_decomposition": "N_c \u00b7 C_2 \u00b7 g = 3\u00b76\u00b77 = 126 = M_g - 1",
+  "structural_reading": "substrate-active-modes/Bell-CHSH-measurement\u00b2",
+  "cal_mode_1_scope": "Bell-CHSH-specific decomposition, not universal"
+}

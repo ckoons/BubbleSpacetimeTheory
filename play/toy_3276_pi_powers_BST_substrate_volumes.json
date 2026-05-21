@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "\u03c0 powers in BST formulas substrate-volume reading"
+  },
+  "pi_exponents_catalog": [
+    {
+      "formula": "m_p/m_e = 6\u03c0\u2075",
+      "pi_exponent": 5.0,
+      "description": "m_p/m_e = C_2\u00b7\u03c0^(n_C)\u00b7m_e. \u03c0 exponent = n_C BST primary."
+    },
+    {
+      "formula": "m_\u03bc/m_e = (24/\u03c0\u00b2)^6",
+      "pi_exponent": 12.0,
+      "description": "m_\u03bc/m_e formula has \u03c0^12 total in denominator. exponent 12 = 2\u00b7n_C+2 = 2(n_C+1)"
+    },
+    {
+      "formula": "c_FK = 225/\u03c0^(9/2)",
+      "pi_exponent": 4.5,
+      "description": "Bergman normalization c_FK has \u03c0^(9/2) = \u03c0^((g+rank)/rank) in denominator"
+    },
+    {
+      "formula": "Standard sphere V_3 = (4/3)\u03c0\u00b7r\u00b3",
+      "pi_exponent": 1.0,
+      "description": "volume of 3-sphere uses \u03c0^1"
+    },
+    {
+      "formula": "Standard sphere V_5 = (8/15)\u03c0\u00b2\u00b7r^5",
+      "pi_exponent": 2.0,
+      "description": "volume of 5-sphere uses \u03c0^2"
+    },
+    {
+      "formula": "Bergman volume Vol(D_IV\u2075)",
+      "pi_exponent": null,
+      "description": "TBD: D_IV\u2075 Bergman volume in terms of \u03c0"
+    },
+    {
+      "formula": "Hyperfine f_HF ~ \u03b1^4 ~ (1/N_max)^4",
+      "pi_exponent": 0.0,
+      "description": "\u03b1 has no explicit \u03c0 in BST lowest order"
+    }
+  ],
+  "m_p_over_m_e_pi_reading": "\u03c0^(n_C) = \u03c0^5; C_2 numerical coefficient; D_IV\u2075 real-10-ball volume",
+  "c_FK_pi_reading": "\u03c0^((g+rank)/rank) = \u03c0^(9/2); Bergman kernel exponent",
+  "m_mu_over_m_e_pi_reading": "\u03c0^(2\u00b7(n_C+1)) = \u03c0^12; rank-2 squared Bergman correction",
+  "chi_decomposition": {
+    "formula": "N_c! \u00b7 2^rank",
+    "value": 24,
+    "matches_BST_primary": true
+  },
+  "hypothesis": "All \u03c0 exponents in BST formulas are BST primary integer/ratio combinations"
+}

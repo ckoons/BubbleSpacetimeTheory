@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "Lyra Session 6 C1 rank=2 alt-HSD comparison cross-lane support"
+  },
+  "dim_C_target": 5,
+  "hsds_at_dim_5": [
+    {
+      "name": "D_I_{1,5}",
+      "type": "I",
+      "params": [
+        1,
+        5
+      ],
+      "dim_C": 5,
+      "rank": 1
+    },
+    {
+      "name": "D_I_{5,1}",
+      "type": "I",
+      "params": [
+        5,
+        1
+      ],
+      "dim_C": 5,
+      "rank": 1
+    },
+    {
+      "name": "D_IV_5",
+      "type": "IV",
+      "params": [
+        5
+      ],
+      "dim_C": 5,
+      "rank": 2
+    }
+  ],
+  "total_hsds_at_dim_5": 3,
+  "rank_2_count": 1,
+  "rank_1_count": 2,
+  "rank_2_uniqueness": true,
+  "cross_lane_verification_provided": true,
+  "lyra_session6_compatibility": "VERIFIED \u2014 spec claim confirmed numerically"
+}

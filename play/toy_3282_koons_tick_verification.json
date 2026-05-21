@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "Koons tick T2405 verification"
+  },
+  "t_Planck_s": 5.391247e-44,
+  "alpha_BST_lowest": 0.0072992700729927005,
+  "C_2_squared": 36,
+  "koons_tick_s": 6.452809021760143e-121,
+  "log10_koons_tick": -120.19025118814301,
+  "magnitude_in_expected_range": true,
+  "substrate_tick_per_universe_age": 6.818735817474736e+137
+}

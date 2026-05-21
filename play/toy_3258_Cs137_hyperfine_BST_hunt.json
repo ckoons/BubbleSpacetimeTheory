@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "Casimir-Polder hunt Cs-137 hyperfine"
+  },
+  "cs_hyperfine_SI_Hz": 9192631770,
+  "cs_hyperfine_GHz": 9.19263177,
+  "value_per_N_max_GHz": 0.06709950197080292,
+  "power_of_pi_estimate": -2.360014087708688,
+  "algebraic_search_results": [
+    {
+      "form": "N_max \u00b7 g / (2\u00b7C_2 \u00b7 \u03c0\u00b2)",
+      "value": 8.097251259416828,
+      "relative_diff_percent_vs_f_hf_per_N_max": 11967.528106155234
+    },
+    {
+      "form": "N_max \u00b7 g / \u03c0\u00b2 / n_C",
+      "value": 19.433403022600384,
+      "relative_diff_percent_vs_f_hf_per_N_max": 28862.06745477256
+    },
+    {
+      "form": "N_max / (4 \u00b7 \u03c0\u00b2)",
+      "value": 3.4702505397500687,
+      "relative_diff_percent_vs_f_hf_per_N_max": 5071.797759780814
+    },
+    {
+      "form": "N_max \u00b7 n_C / \u03c0\u00b3",
+      "value": 22.092301086741653,
+      "relative_diff_percent_vs_f_hf_per_N_max": 32824.6871256283
+    },
+    {
+      "form": "N_max \u00b7 g \u00b7 n_C / (24 \u00b7 \u03c0\u00b2)",
+      "value": 20.24312814854207,
+      "relative_diff_percent_vs_f_hf_per_N_max": 30068.82026538809
+    }
+  ],
+  "honest_negative_no_clean_BST_match": true,
+  "alpha_framework_crosslink": {
+    "alpha_inv_measured": 137.035999,
+    "N_max_BST_lowest_order": 137,
+    "deviation_relative_percent": 0.02627664233576926
+  },
+  "sp30_cs137_commitment_target": "~$80-150K NIST/PTB/ENEA",
+  "multi_week_hunt_continuation": true
+}

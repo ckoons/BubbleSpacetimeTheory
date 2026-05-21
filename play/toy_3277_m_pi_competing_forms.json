@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "m_\u03c0 pion mass competing forms disambiguation"
+  },
+  "measured_m_pi_charged_MeV": 139.57039,
+  "form_A": {
+    "formula": "N_c \u00b7 g \u00b7 c_3 \u00b7 m_e",
+    "coefficient": 273,
+    "value_MeV": 139.50271335,
+    "deviation_percent": 0.04848926050862929,
+    "source": "T2030, Toy 2561",
+    "cleanliness": "pure BST primary integer product"
+  },
+  "form_B": {
+    "formula": "sqrt(n_C\u00b7(n_C+1)) \u00b7 rank \u00b7 n_C\u00b2 \u00b7 m_e",
+    "coefficient": 273.8612787525831,
+    "value_MeV": 139.94282588822725,
+    "deviation_percent": 0.2668444848704973,
+    "source": "T2068 (earlier catalog entry)",
+    "cleanliness": "irrational sqrt(30) coefficient; less BST-primary-clean"
+  },
+  "recommendation": "Form A canonical for Vol 2 work; Form B catalog status TBD per Keeper governance",
+  "cal_mode_1_observation": "TWO competing D-tier forms in catalog for same observable \u2014 governance cleanup needed"
+}

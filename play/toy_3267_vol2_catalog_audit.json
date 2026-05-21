@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "Vol 2 catalog audit"
+  },
+  "catalog_d_tier_count": 98,
+  "key_observables_d_tier_status": {
+    "m_mu/m_e": true,
+    "m_mu": true,
+    "m_tau": false,
+    "sin2_theta_12": true,
+    "sin2_theta_13": true,
+    "sin2_theta_23": false,
+    "delta_CP": true,
+    "sin2_theta_W": false,
+    "sin2_theta_c": true,
+    "a_e": true,
+    "a_mu": false,
+    "alpha": true,
+    "m_p/m_e": true,
+    "Lambda": true,
+    "m_h": false
+  },
+  "key_observables_d_tier_count": 10,
+  "key_observables_total": 15,
+  "corrections_applied_today": [
+    {
+      "location": "Vol 2 Ch 10 PMNS section",
+      "change": "sin\u00b2\u03b8_12 + sin\u00b2\u03b8_13 + sin\u00b2\u03b8_23 + \u03b4_CP all D-tier"
+    },
+    {
+      "location": "Vol 2 Ch 5 m_\u03bc/m_e",
+      "change": "(24/\u03c0\u00b2)^6 = 206.76 D-tier at 0.003% per T190"
+    },
+    {
+      "location": "Vol 2 Ch 8 sin\u00b2\u03b8_W",
+      "change": "3/13 D-tier at 0.2% per T280"
+    }
+  ],
+  "cal_mode_1_lesson": "Always check data/bst_constants.json before proposing new forms or claiming I-tier framework pending",
+  "remaining_systematic_audit_chapters": [
+    "Vol 2 Ch 2",
+    "Vol 2 Ch 3",
+    "Vol 2 Ch 6",
+    "Vol 2 Ch 7",
+    "Vol 2 Ch 9",
+    "Vol 2 Ch 11",
+    "Vol 2 Ch 12"
+  ]
+}

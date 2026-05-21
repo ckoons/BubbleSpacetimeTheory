@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "BST primary ratio exponent hunt across observables"
+  },
+  "small_ratios_count": 81,
+  "known_catalog_uses": [
+    {
+      "label": "(g+rank)/rank = 9/2",
+      "value": 4.5,
+      "context": "Bergman exponent K_FK = c_FK \u00b7 \u03be^((g+rank)/rank); T2442 RIGOROUSLY CLOSED"
+    },
+    {
+      "label": "(g+N_c)/N_c = 10/3",
+      "value": 3.3333333333333335,
+      "context": "m_\u03c4/m_e extension exponent (Toy 3271 today)"
+    },
+    {
+      "label": "(rank+N_c)/N_c = 5/3",
+      "value": 1.6666666666666667,
+      "context": "Possible structural ratio? Investigate."
+    },
+    {
+      "label": "(C_2+rank)/rank = 4",
+      "value": 4.0,
+      "context": "Integer ratio; potential substrate exponent"
+    },
+    {
+      "label": "(g+n_C)/n_C = 12/5",
+      "value": 2.4,
+      "context": "Substrate genus extension per domain dim"
+    },
+    {
+      "label": "(c_2+1)/N_c = 4",
+      "value": 4.0,
+      "context": "C_2\u00b7N_c/N_c = 4? Investigate."
+    },
+    {
+      "label": "(N_max-1)/n_C = 136/5",
+      "value": 27.2,
+      "context": "Fine structure - 1 per substrate"
+    }
+  ],
+  "clean_physics_matches": [
+    {
+      "physics_value": 1.5,
+      "physics_label": "3/2",
+      "bst_ratio_label": "(N_c+C_2)/C_2",
+      "bst_ratio": "3/2"
+    },
+    {
+      "physics_value": 2.5,
+      "physics_label": "5/2",
+      "bst_ratio_label": "(N_c+rank)/rank",
+      "bst_ratio": "5/2"
+    },
+    {
+      "physics_value": 1.6666666666666667,
+      "physics_label": "5/3",
+      "bst_ratio_label": "(rank+N_c)/N_c",
+      "bst_ratio": "5/3"
+    },
+    {
+      "physics_value": 3.5,
+      "physics_label": "7/2",
+      "bst_ratio_label": "(n_C+rank)/rank",
+      "bst_ratio": "7/2"
+    },
+    {
+      "physics_value": 4.5,
+      "physics_label": "9/2",
+      "bst_ratio_label": "(g+rank)/rank",
+      "bst_ratio": "9/2"
+    },
+    {
+      "physics_value": 3.3333333333333335,
+      "physics_label": "10/3",
+      "bst_ratio_label": "(g+N_c)/N_c",
+      "bst_ratio": "10/3"
+    },
+    {
+      "physics_value": 1.25,
+      "physics_label": "5/4",
+      "bst_ratio_label": "(C_2+chi)/chi",
+      "bst_ratio": "5/4"
+    }
+  ],
+  "hypothesis": "Every fractional exponent in BST physical observable is (BST primary sum)/(BST primary)",
+  "cal_mode_1_scope": "Hypothesis not theorem; multi-month systematic verification needed"
+}

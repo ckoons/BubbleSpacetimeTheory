@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 37 5-candidate Gram"
+  },
+  "candidates": [
+    "S32_uniform",
+    "S33_Frobenius",
+    "S34_Bergman",
+    "S35_Wallach",
+    "S36_RS"
+  ],
+  "gram_matrix_absolute_values": [
+    [
+      1.0000000000000016,
+      1.0258260693374081e-16,
+      0.516164682083927,
+      0.6990670543013207,
+      0.007936507936507516
+    ],
+    [
+      9.82861571836292e-17,
+      0.9999999999999991,
+      0.15019389502465075,
+      0.3432578147068019,
+      0.12432387090991667
+    ],
+    [
+      0.516164682083927,
+      0.15019389502465075,
+      1.0000000000000016,
+      0.6571711250293815,
+      0.2214520342225999
+    ],
+    [
+      0.6990670543013207,
+      0.34325781470680183,
+      0.6571711250293815,
+      0.9999999999999996,
+      0.1360335401732999
+    ],
+    [
+      0.007936507936507516,
+      0.12432387090991669,
+      0.22145203422259988,
+      0.13603354017329994,
+      0.9999999999999969
+    ]
+  ],
+  "gram_eigenvalues": [
+    0.1952415935774516,
+    0.43348708346690656,
+    0.9107934869731791,
+    1.1065963761158117,
+    2.35388145986665
+  ],
+  "effective_rank": 5,
+  "orthogonal_pairs_count": 2,
+  "overlap_pairs_count": 8,
+  "gram_trace_equals_n_C": 4.999999999999998,
+  "top_principal_direction_weights": [
+    {
+      "candidate": "S32_uniform",
+      "weight_re": -0.5163374553203756,
+      "weight_im": 0.0,
+      "weight_mag": 0.5163374553203756
+    },
+    {
+      "candidate": "S33_Frobenius",
+      "weight_re": -0.18001366473417113,
+      "weight_im": 0.13508549162479494,
+      "weight_mag": 0.2250622348119273
+    },
+    {
+      "candidate": "S34_Bergman",
+      "weight_re": -0.5406007037126455,
+      "weight_im": 0.003926184986348096,
+      "weight_mag": 0.5406149607466986
+    },
+    {
+      "candidate": "S35_Wallach",
+      "weight_re": -0.6025781841793868,
+      "weight_im": -0.0022110251516464434,
+      "weight_mag": 0.6025822405955458
+    },
+    {
+      "candidate": "S36_RS",
+      "weight_re": -0.15395168548962776,
+      "weight_im": 0.06059380137720932,
+      "weight_mag": 0.16544706171593968
+    }
+  ],
+  "s38_plus_roadmap": [
+    "discriminating principle identification (multi-month)",
+    "Bell experiment fit comparison (Cal #49 register)",
+    "cross-candidate coherent superposition test"
+  ]
+}

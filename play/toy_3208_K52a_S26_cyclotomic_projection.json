@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 26 cyclotomic projection P_cyc"
+  },
+  "lyra_T2429_anchor": "P_cyc: H\u00b2(D_IV\u2075) \u2192 GF(128)^k via cyclotomic projection",
+  "cyclotomic_action": "M_g-th roots of unity on disk slice",
+  "sample_grid_size": 889,
+  "fourier_mode_correspondence": {
+    "GF128_zero": "Fourier mode n=0 (DC)",
+    "GF128_star": "Fourier modes n=1..126 (non-trivial)",
+    "k_radial_slices": "GF(128)^k structure"
+  },
+  "substrate_chsh_in_P_cyc_picture": {
+    "Tr_B_sq": "126/16 (sum over 126 active Fourier modes \u00d7 1/16)",
+    "eigenvalue_spectrum": "126 \u00d7 1/16 + 2 \u00d7 0",
+    "max_eigenvalue": "1/16 (per Calibration #17)",
+    "operator_level_interpretation": "multi-month identification"
+  },
+  "sessions_27_29_clarified": true,
+  "calibration_17_confirmed_in_P_cyc_picture": true
+}

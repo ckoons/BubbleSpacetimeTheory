@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "Phase 2 K-audit K85-K91 independent verification"
+  },
+  "k_audits_verified": [
+    "K85",
+    "K86",
+    "K87",
+    "K88",
+    "K89",
+    "K90",
+    "K91"
+  ],
+  "numerical_verifications": {
+    "K88_m_p_m_e_6pi5": {
+      "BST": "1836.118108711688361",
+      "measured": "1836.15267343",
+      "deviation_pct": 0.0018824533935443476
+    },
+    "K89_J_CKM": {
+      "BST": 3.080593872587109e-05,
+      "measured": 3.18e-05,
+      "deviation_pct": 3.1259788494619793
+    }
+  },
+  "structural_verifications": [
+    "K85 T",
+    "K86 C",
+    "K87 CPT",
+    "K90 Five Absences",
+    "K91 Experimental Program"
+  ],
+  "cross_lane_pattern": "parallel to Toy 3202 SP-31-1 verification template",
+  "cal_72_73_acceptance_acknowledged": true
+}

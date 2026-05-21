@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "AC graph K-complexity fair baseline (Toy 3279 correction)"
+  },
+  "ac_graph": {
+    "size_bytes": 2953008,
+    "compressed_bytes": 350251,
+    "compression_ratio": 0.1186082123719272
+  },
+  "random_matched": {
+    "size_bytes": 13072485,
+    "compressed_bytes": 2221380,
+    "compression_ratio": 0.16992790582662745
+  },
+  "comparison_fair_baseline": {
+    "ac_more_compressible": true,
+    "difference_percentage_points": 5.131969345470025
+  },
+  "cal_mode_1_lesson": "K-complexity proxies require structurally-matched baselines"
+}

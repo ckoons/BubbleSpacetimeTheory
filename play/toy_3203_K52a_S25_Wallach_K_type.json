@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 25 Wallach K-type framework"
+  },
+  "lyra_T2430_anchor": "L\u00b2(D_IV\u2075; L_\u03bb) equivariant complement with K-type decomposition",
+  "K_structure": "SO(5) \u00d7 SO(2); SO(5) rank=2 K-types (m_1, m_2; n)",
+  "SO5_irrep_dimensions_small": {
+    "(0,0)": 1,
+    "(1,0)": 5,
+    "(1,1)": 10,
+    "(2,0)": 14,
+    "(2,1)": 35,
+    "(2,2)": 35,
+    "(3,0)": 30
+  },
+  "bergman_ground_state_K_type": "(0,0; n_0) with n_0 ~ (g+rank)/2 = 9/2 (convention dependent)",
+  "substrate_CHSH_K_type_conjecture": "B\u00b2 = \u03a3_\u03bc active(\u03bc) \u00b7 P_\u03bc \u00b7 (1/2^{rank\u00b2})",
+  "trace_decomposition_126": "multiple sum decompositions exist; substrate-natural identification multi-month",
+  "sessions_26_29_roadmap_unchanged": true,
+  "casey_4_zone_K_type_mapping": {
+    "Z1": "GF(128) additive zero (discrete input)",
+    "Z2": "(0,0; n_0) lowest K-type (Bergman ground)",
+    "Z3": "boundary projection (Born=Bergman emission)",
+    "Z4": "trivial K-type expression (outer edge)"
+  }
+}

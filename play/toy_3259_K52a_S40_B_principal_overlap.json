@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 40 B principal eigenvector overlap"
+  },
+  "B_unique_eigenvalues": [
+    0.25,
+    0.0,
+    -0.25
+  ],
+  "principal_eigenvalue_multiplicity": 63,
+  "overlap_results": {
+    "S32 uniform": 0.4999999999999998,
+    "S33 Frobenius": 0.00047534875322427603,
+    "S34 Bergman": 0.14244966890406902,
+    "S35 Wallach": 0.32121846913799573,
+    "S36 RS": 3.151335873051187e-05
+  },
+  "maximum_overlap_candidate": "S32 uniform",
+  "maximum_overlap_value": 0.4999999999999998,
+  "framework_complete_awaiting_B_exact_form": true,
+  "multi_day_arc_summary": {
+    "S32": "rank-1 framework (Wed)",
+    "S33-S36": "4 candidates (Thu morning)",
+    "S37": "Gram consolidation n_C=5 (Thu midday)",
+    "S38": "variance discrimination (Thu midday)",
+    "S39": "Bell prediction table (Thu midday)",
+    "S40": "principal eigenvector overlap (Thu midday)"
+  }
+}

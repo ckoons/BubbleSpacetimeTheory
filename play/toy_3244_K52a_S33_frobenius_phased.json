@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 33 Frobenius-orbit phased |\u03c8_0\u27e9"
+  },
+  "frobenius_orbit_count": {
+    "fixed_points": 1,
+    "full_orbits_length_g": 18,
+    "orbit_count_18_eq_N_c_C_2": true
+  },
+  "rank1_construction_with_phasing": {
+    "trace": 7.875,
+    "max_eigenvalue": 7.874999999999998,
+    "non_zero_eigenvalues": 1,
+    "rank_1_satisfied": true
+  },
+  "comparison_with_uniform_psi_0": {
+    "inner_product_magnitude": 9.828615718362919e-17,
+    "orthogonal_distinct_states": true
+  },
+  "substrate_natural_assessment": "Frobenius-orbit phased is one of several substrate-natural candidates; multi-month identification continues",
+  "sessions_34_37_roadmap": [
+    "S34 Bergman-natural ground state",
+    "S35 Wallach K-type lowest-Casimir",
+    "S36 RS codeword superposition",
+    "S37 discriminating principle identification"
+  ]
+}

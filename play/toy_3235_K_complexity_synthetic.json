@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "Task #251 item 4 synthetic substitute"
+  },
+  "synthetic_graph_stats": {
+    "nodes": 49999,
+    "edges": 40646,
+    "avg_degree": 1.625872517450349,
+    "avg_clustering": 0.0,
+    "clustering_ratio_random": 0.0,
+    "gzip_compression_ratio": 0.37553936271016547
+  },
+  "ac_graph_comparison": {
+    "avg_degree_AC": 9.05,
+    "clustering_AC": 0.4846,
+    "compression_AC": 0.2671
+  },
+  "honest_scope": "synthetic substitute for WordNet; real-data pipeline still gated on external acquisition",
+  "k_complexity_hypothesis_status": "AC(0)-analogy supported by both AC + synthetic graphs (bounded-degree sparse structure)"
+}

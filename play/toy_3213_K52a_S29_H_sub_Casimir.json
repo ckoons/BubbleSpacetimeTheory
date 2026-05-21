@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 29 H_sub energy operator"
+  },
+  "lyra_T2430_anchor": "Casimir action on L\u00b2(D_IV\u2075; L_\u03bb)",
+  "h_sub_framework": "H_sub = Casimir on K-type decomposition",
+  "lowest_nontrivial_casimir": {
+    "K_type": "(1, 1)",
+    "casimir_value": 6,
+    "bst_primary_match": "C_2"
+  },
+  "casimir_spectrum_sample": {
+    "(0,0)": 0,
+    "(1,0)": 4,
+    "(1,1)": 6,
+    "(2,0)": 10,
+    "(2,1)": 12,
+    "(2,2)": 16,
+    "(3,0)": 18,
+    "(3,1)": 20,
+    "(3,2)": 24,
+    "(3,3)": 30,
+    "(4,0)": 28,
+    "(4,1)": 30,
+    "(4,2)": 34,
+    "(4,3)": 40,
+    "(4,4)": 48
+  },
+  "k_types_with_bst_primary_casimir": 2,
+  "substrate_native_zoo_status": "6/6 framework-complete (entry 6 = H_sub via S29)",
+  "multi_month_open": [
+    "substrate-CHSH operator max-eigenvalue (Calibration #17)",
+    "Lamb Bethe-log matrix elements numerical",
+    "BCS gap value reproduction",
+    "H_sub spectrum higher K-types"
+  ]
+}

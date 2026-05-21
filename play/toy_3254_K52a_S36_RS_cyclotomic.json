@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 36 RS cyclotomic |\u03c8_0\u27e9"
+  },
+  "gf128_primitive_root": 2,
+  "M_g_cyclotomic_order": 127,
+  "rank1_construction_with_rs_cyclotomic": {
+    "trace": 7.874999999999979,
+    "max_eigenvalue": 7.874999999999979,
+    "non_zero_eigenvalues": 1,
+    "rank_1_satisfied": true
+  },
+  "five_candidate_inner_products_vs_rs": {
+    "uniform": 0.007936507936507516,
+    "frobenius": 0.12432387090991667,
+    "bergman": 0.2214520342225999,
+    "wallach": 0.1360335401732999
+  },
+  "frobenius_RS_compatibility": {
+    "sample_alpha": 7,
+    "sample_alpha_squared": 21,
+    "d_alpha": 56,
+    "d_alpha_squared": 112,
+    "doubling_modular_check": true
+  },
+  "five_candidate_landscape": [
+    "S32 uniform (DC)",
+    "S33 Frobenius (Galois action)",
+    "S34 Bergman (amplitude decay)",
+    "S35 Wallach (K-type Casimir)",
+    "S36 RS cyclotomic (discrete log, M_g=127, K59)"
+  ],
+  "sessions_37plus_roadmap": [
+    "S37+ discriminating principle identification (multi-month)",
+    "Cross-candidate coherent superposition test",
+    "Bell experiment fit comparison (Cal #49 register pending)"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K92 a_e crown jewel independent verification"
+  },
+  "a_e_measured": 0.00115965218,
+  "a_e_5loop_QED": 0.0011596521768912945,
+  "leading_alpha_over_2pi": 0.0011614097328858596,
+  "leading_deviation_pct": 0.15155862388492755,
+  "qed_5loop_deviation_relative_ppb": 2.6807223573795236,
+  "bst_framework_paper_83": "Geometric Invariants Table; alternative derivation reaching same precision",
+  "crown_jewel_status": "BST tightest single observation match at ppt precision",
+  "k92_verification_independent_of_keeper": true,
+  "cross_lane_pattern": "parallel to Toy 3202 (Lyra) + Toy 3230 (Phase 2 K-audits)"
+}

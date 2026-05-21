@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "Cremona 49a1 BST primary invariants verification"
+  },
+  "curve": "49a1: Y\u00b2 = X\u00b3 \u2212 945X \u2212 10206",
+  "invariants": [
+    {
+      "name": "Conductor N",
+      "bst_form": "g\u00b2",
+      "value": 49.0,
+      "actual": 49.0
+    },
+    {
+      "name": "Discriminant \u0394",
+      "bst_form": "-g\u00b3",
+      "value": -343.0,
+      "actual": -343.0
+    },
+    {
+      "name": "j-invariant",
+      "bst_form": "-(N_c\u00b7n_C)\u00b3",
+      "value": -3375.0,
+      "actual": -3375.0
+    },
+    {
+      "name": "Torsion-rank",
+      "bst_form": "rank",
+      "value": 2.0,
+      "actual": 2.0
+    },
+    {
+      "name": "Algebraic rank",
+      "bst_form": "rank",
+      "value": 2.0,
+      "actual": 2.0
+    },
+    {
+      "name": "CM discriminant",
+      "bst_form": "-g",
+      "value": -7.0,
+      "actual": -7.0
+    },
+    {
+      "name": "Coefficient (X term)",
+      "bst_form": "-N_c\u00b3\u00b7n_C\u00b7g",
+      "value": -945.0,
+      "actual": -945.0
+    },
+    {
+      "name": "Coefficient (constant)",
+      "bst_form": "-rank\u00b7g\u00b7N_c^6",
+      "value": -10206.0,
+      "actual": -10206.0
+    },
+    {
+      "name": "L(E,1)/\u03a9",
+      "bst_form": "1/rank",
+      "value": 0.5,
+      "actual": 0.5
+    }
+  ],
+  "all_match_BST_primary": true,
+  "bridge_object_tier": "K57 RATIFIED \u2014 canonical Bridge Object hub",
+  "bsd_1_over_rank_universality": "L(49a1, 1)/\u03a9 = 1/rank = 1/2"
+}

@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 31 bipartite Bergman-natural CHSH"
+  },
+  "observables": "parity + Frobenius-sign Hermitian-unitary on each party",
+  "bipartite_split": "8 \u00d7 16",
+  "max_eigenvalue_B_squared": 8.000000000000016,
+  "tsirelson_squared": 8.0,
+  "target_126_16": 7.875,
+  "calibration_17_stands": true,
+  "multi_month_status": "substrate-natural CHSH observable algebra requires Wallach K-type analysis (S32+)"
+}

@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K108 c_FK 50-digit verification"
+  },
+  "N_c_n_C_squared": 225,
+  "pi_9_2_50digit_string": "172.65311851642359392494746037219155192168523788269",
+  "c_FK_50digit_string": "1.3031910569202775174577473393743580067916020799063",
+  "product_c_FK_times_pi_9_2": "225.0",
+  "absolute_difference_from_225": "0.0",
+  "identity_verified_at_50_digits": true
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "C8 + C10 proactive Sessions 11+12 cross-lane prep"
+  },
+  "C8_Q_cluster": {
+    "cluster_size": 3,
+    "members": [
+      "K3 surface",
+      "Cremona 49a1",
+      "Q\u2075 5-quadric"
+    ],
+    "forced_by": "N_c = 3 BST primary"
+  },
+  "C10_4_Zone": {
+    "zone_count": 4,
+    "zones": [
+      {
+        "id": "Z1",
+        "name": "absorption",
+        "description": "inward-pointing substrate-active region"
+      },
+      {
+        "id": "Z2",
+        "name": "bulk",
+        "description": "main substrate region"
+      },
+      {
+        "id": "Z3",
+        "name": "emission",
+        "description": "outward-pointing emergence to observable"
+      },
+      {
+        "id": "Z4",
+        "name": "active",
+        "description": "observer-coupling region (substrate-CHSH zone)"
+      }
+    ],
+    "forced_by": "2^rank = 4 (rank=2 BST primary)"
+  },
+  "combined_product": "C8 \u00d7 C10 = 3 \u00d7 4 = 12 = C_2 \u00b7 rank",
+  "k_audit_cross_references": [
+    "K57",
+    "K76",
+    "K3F5",
+    "K80",
+    "T2417",
+    "T2418",
+    "T2420"
+  ],
+  "cross_lane_toys_count_today": 8
+}

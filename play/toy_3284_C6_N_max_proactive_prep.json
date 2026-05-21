@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "C6 N_max=137 forcing proactive cross-lane prep"
+  },
+  "arithmetic_identity_primary": "N_max = N_c\u00b3\u00b7n_C + rank = 27\u00b75 + 2 = 137",
+  "is_prime_137": true,
+  "bst_primary_identities_count": 3,
+  "observable_appearances_count": 10,
+  "C6_5_step_chain": [
+    "Step 1: N_max = N_c\u00b3\u00b7n_C + rank arithmetic identity",
+    "Step 2: 137 IS PRIME (cyclotomic substrate)",
+    "Step 3: X_0(137) Bridge Object (K80 RATIFIED)",
+    "Step 4: \u03b1\u207b\u00b9 = N_max prime cyclotomic",
+    "Step 5: 10+ unrelated observable appearances (overdetermined)"
+  ],
+  "cross_lane_target": "Lyra Friday Session 10 \u2192 C6 RIGOROUSLY CLOSED \u2192 v0.10 SUT"
+}

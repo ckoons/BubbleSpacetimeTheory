@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 32 rank-1 projector resolution"
+  },
+  "rank1_construction": {
+    "B_squared": "(126/16) \u00b7 |\u03c8_0\u27e9\u27e8\u03c8_0|",
+    "psi_0": "(1/\u221a126) \u03a3_active |\u03b1\u27e9",
+    "trace": 7.875,
+    "max_eigenvalue": 7.875,
+    "rank": 1
+  },
+  "comparison_with_S22_diagonal": {
+    "S22_diagonal_rank_126": {
+      "trace": 7.875,
+      "max_eigenvalue": 0.0625
+    },
+    "S32_rank_1": {
+      "trace": 7.875,
+      "max_eigenvalue": 7.875
+    },
+    "same_trace_different_max_eigenvalue": true
+  },
+  "calibration_17_refined": "rank-1 projector resolves Tr-vs-max-eigenvalue distinction; both equal 126/16",
+  "multi_month_open": "identify which substrate-natural |\u03c8_0\u27e9 candidate BST predicts",
+  "candidates": [
+    "uniform over 126 active modes (this toy)",
+    "Frobenius-orbit phase-modulated",
+    "Bergman-natural ground state",
+    "Wallach K-type lowest-Casimir",
+    "RS-codeword superposition"
+  ]
+}

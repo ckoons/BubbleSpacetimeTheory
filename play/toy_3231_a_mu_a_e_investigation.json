@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "a_\u03bc/a_e BST primary investigation for K52a"
+  },
+  "a_e_codata": 0.00115965218091,
+  "a_mu_combined": 0.0011659181,
+  "ratio_a_mu_a_e": 1.0054032745276114,
+  "deviation_pct": 0.5403274527611391,
+  "best_explanation": "QED leading log \u03b1 \u00b7 log(m_\u03bc/m_e) / \u03c0",
+  "m_mu_m_e_BST_primary_form": "NOT FOUND at <1% precision (honest negative)",
+  "k52a_third_instance_status": "a_\u03bc/a_e is NOT clean instance; honest negative; multi-week hunt continues",
+  "next_candidates": [
+    "Mass-dependent isotope shifts (multi-week)",
+    "Atomic parity violation (multi-week)",
+    "Positronium 1S-2S (recent measurements)",
+    "Specific lattice QCD corrections (multi-week)"
+  ]
+}

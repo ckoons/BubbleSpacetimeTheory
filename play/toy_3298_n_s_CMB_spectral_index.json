@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "n_s CMB spectral index BST primary verification"
+  },
+  "n_s_BST": 0.9635036496350365,
+  "n_s_measured": 0.9649,
+  "n_s_error": 0.0044,
+  "deviation_sigma": 0.31735235567350883,
+  "bst_within_1_sigma": true,
+  "substrate_mechanism": "CMB debris from dead manifolds (Casey April 29)"
+}

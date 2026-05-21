@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "SP-31-1 T2428/T2429/T2430 independent verification"
+  },
+  "lyra_theorems_verified": {
+    "T2428_Bergman_sufficiency": true,
+    "T2429_RS_cyclotomic_discretization": true,
+    "T2430_L_section_equivariant_complement": true
+  },
+  "independent_path": "distinct from Lyra Toy 3198",
+  "cross_check_with_K52a_sessions": {
+    "S20_Toy_3186": "verifies T2428 Bergman 1922 + c_FK",
+    "S21_Toy_3189": "verifies T2428 Bergman lift to D_IV\u2075",
+    "S9_Toy_3126": "verifies T2429 Frobenius orbits",
+    "S22_Toy_3190": "uses T2428; Calibration #17 source",
+    "S24_Toy_3199": "integrates T2428-T2430 into K52a roadmap"
+  },
+  "strong_uniqueness_C13": "STRUCTURALLY VERIFIED via cross-lane convergence",
+  "keeper_recommendation_status": "completed (cross-lane verification then K52a background)"
+}

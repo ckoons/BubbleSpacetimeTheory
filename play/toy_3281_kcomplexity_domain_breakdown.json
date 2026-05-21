@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K-complexity domain-specific breakdown"
+  },
+  "top_domains_analyzed": 10,
+  "positive_advantage_count": 10,
+  "mean_advantage_percent": 2.1490588444689256,
+  "per_domain_results": [
+    {
+      "domain": "observer_science",
+      "n_nodes": 136,
+      "n_edges": 380,
+      "ac_ratio": 0.12039173334642383,
+      "random_ratio": 0.12645159706366157,
+      "advantage_percent": 4.792239764426957
+    },
+    {
+      "domain": "chemical_physics",
+      "n_nodes": 61,
+      "n_edges": 123,
+      "ac_ratio": 0.1113401397790589,
+      "random_ratio": 0.11558516801853998,
+      "advantage_percent": 3.672640973104927
+    },
+    {
+      "domain": "bst_physics",
+      "n_nodes": 216,
+      "n_edges": 542,
+      "ac_ratio": 0.14390035853727887,
+      "random_ratio": 0.14833220965712815,
+      "advantage_percent": 2.9877874334195966
+    },
+    {
+      "domain": "foundations",
+      "n_nodes": 258,
+      "n_edges": 399,
+      "ac_ratio": 0.14031663809141648,
+      "random_ratio": 0.1435133148228032,
+      "advantage_percent": 2.227442614180899
+    },
+    {
+      "domain": "biology",
+      "n_nodes": 138,
+      "n_edges": 254,
+      "ac_ratio": 0.13182765896350676,
+      "random_ratio": 0.13461154383862592,
+      "advantage_percent": 2.0680877699883715
+    },
+    {
+      "domain": "cosmology",
+      "n_nodes": 93,
+      "n_edges": 122,
+      "ac_ratio": 0.15816199943761683,
+      "random_ratio": 0.1607385104059822,
+      "advantage_percent": 1.6029207698004613
+    },
+    {
+      "domain": "number_theory",
+      "n_nodes": 204,
+      "n_edges": 308,
+      "ac_ratio": 0.16142545783916895,
+      "random_ratio": 0.16383501156956956,
+      "advantage_percent": 1.470719663224998
+    },
+    {
+      "domain": "proof_complexity",
+      "n_nodes": 60,
+      "n_edges": 108,
+      "ac_ratio": 0.19222377378251004,
+      "random_ratio": 0.19422308582407266,
+      "advantage_percent": 1.0293894946008608
+    },
+    {
+      "domain": "qft",
+      "n_nodes": 47,
+      "n_edges": 87,
+      "ac_ratio": 0.20778046811945117,
+      "random_ratio": 0.20970767041779848,
+      "advantage_percent": 0.9189946626691157
+    },
+    {
+      "domain": "topology",
+      "n_nodes": 80,
+      "n_edges": 78,
+      "ac_ratio": 0.1683405509997236,
+      "random_ratio": 0.169562016930438,
+      "advantage_percent": 0.7203652992730677
+    }
+  ]
+}

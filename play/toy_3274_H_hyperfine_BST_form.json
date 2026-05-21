@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "SP-14 B7 H hyperfine splitting BST primary form"
+  },
+  "f_HF_BST_lowest_MHz": 1426.3236282201995,
+  "f_HF_measured_MHz": 1420.405751767,
+  "rel_dev_percent_BST_lowest_vs_measured": 0.4166328139573828,
+  "bst_primary_inputs": {
+    "alpha_lowest": 0.0072992700729927005,
+    "m_e_over_m_p": 0.000544627273842231,
+    "g_p": 5.6
+  },
+  "tier": "I (limited by g_p 0.25%)",
+  "sp14_b7_status": "TOY FILED \u2014 was NEEDS TOY",
+  "catalog_update_recommendation": "add f_HF entry with BST primary form (8\u00b7rank\u00b7g)/(3\u00b7n_C\u00b76\u00b7N_max^4\u00b7\u03c0^5)\u00b7m_e c\u00b2/h"
+}

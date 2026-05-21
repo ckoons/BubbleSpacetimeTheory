@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 38 B-candidate discriminator"
+  },
+  "B_operator_tr_squared": 7.875,
+  "expectation_values_B": {
+    "S32 uniform": 0.0,
+    "S33 Frobenius": -3.469446951953614e-18,
+    "S34 Bergman": 0.00437449073063322,
+    "S35 Wallach": 0.08403400484719728,
+    "S36 RS": 6.938893903907228e-18
+  },
+  "squared_expectations_B2": {
+    "S32 uniform": 0.0625000000000001,
+    "S33 Frobenius": 0.062499999999999944,
+    "S34 Bergman": 0.0625000000000001,
+    "S35 Wallach": 0.06249999999999997,
+    "S36 RS": 0.062499999999999806
+  },
+  "variances_B": {
+    "S32 uniform": 0.0625000000000001,
+    "S33 Frobenius": 0.062499999999999944,
+    "S34 Bergman": 0.0624808638308477,
+    "S35 Wallach": 0.0554382860293412,
+    "S36 RS": 0.062499999999999806
+  },
+  "variance_spread": 0.007061713970658898,
+  "any_exact_eigenstate": false,
+  "lowest_variance_candidate": "S35 Wallach",
+  "lowest_variance_value": 0.0554382860293412
+}

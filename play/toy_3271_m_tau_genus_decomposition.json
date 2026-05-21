@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "m_\u03c4/m_e genus exponent (g+N_c)/N_c BST primary decomposition"
+  },
+  "exponent_decomposition": {
+    "numerical_value": 3.3333333333333335,
+    "bst_primary_form": "(g + N_c)/N_c",
+    "g": 7,
+    "N_c": 3,
+    "g_plus_N_c": 10,
+    "verified_equal": true
+  },
+  "m_tau_form_value": 3483.840489454247,
+  "m_tau_measured": 3477.23,
+  "m_tau_relative_deviation_percent": 0.19010791504291685,
+  "fully_BST_primary": true,
+  "three_generation_pattern": {
+    "gen1_e": "bare unit",
+    "gen2_mu": "(chi/\u03c0\u00b2)^(n_C+1) Bergman second-order",
+    "gen3_tau": "gen2 \u00b7 (g/N_c)^((g+N_c)/N_c) substrate-genus correction",
+    "gen4": "BST predicts NO 4th generation (Five Absences)"
+  },
+  "catalog_update_suggestion": "m_\u03c4/m_e mechanism should reference (g+N_c)/N_c decomposition of 10/3 exponent"
+}

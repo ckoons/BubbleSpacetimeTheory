@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "D_IV\u2075 K-type Casimir \u03c1-shifted formula (corrected)"
+  },
+  "rho": "(5/2, 3/2)",
+  "casimir_formula_corrected": "C(\u03bc_1, \u03bc_2) = \u03bc_1\u00b7(\u03bc_1 + 5) + \u03bc_2\u00b7(\u03bc_2 + 3)",
+  "lowest_nontrivial": {
+    "k_type": [
+      0,
+      1
+    ],
+    "casimir": 4
+  },
+  "k_type_for_casimir_6": [
+    [
+      1,
+      0
+    ]
+  ],
+  "bst_primaries_in_spectrum": [
+    6,
+    24
+  ],
+  "spectrum_low_region": {
+    "0": [
+      [
+        0,
+        0
+      ]
+    ],
+    "4": [
+      [
+        0,
+        1
+      ]
+    ],
+    "6": [
+      [
+        1,
+        0
+      ]
+    ],
+    "10": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "14": [
+      [
+        2,
+        0
+      ]
+    ],
+    "16": [
+      [
+        1,
+        2
+      ]
+    ],
+    "18": [
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "24": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "28": [
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        1
+      ]
+    ]
+  },
+  "cal_mode_1_correction_from_toy_3272": "Simplified formula replaced with \u03c1-shifted highest-weight version"
+}

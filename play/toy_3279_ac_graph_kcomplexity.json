@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "AC graph K-complexity via gzip compression"
+  },
+  "ac_graph": {
+    "original_size_bytes": 2953008,
+    "compressed_size_bytes": 350251,
+    "compression_ratio": 0.1186082123719272,
+    "n_nodes": 2185,
+    "n_edges": 9806
+  },
+  "random_graph": {
+    "original_size_bytes": 577333,
+    "compressed_size_bytes": 58140,
+    "compression_ratio": 0.10070444613420677
+  },
+  "comparison": {
+    "ac_more_compressible": false,
+    "compression_advantage_percent": -17.778526097904795
+  },
+  "cal_mode_1_limitations": [
+    "Gzip is UPPER bound on Kolmogorov complexity",
+    "Random graph baseline uses uniform distribution",
+    "Task #251 multi-week continues for more sophisticated proxies"
+  ]
+}

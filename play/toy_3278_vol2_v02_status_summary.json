@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "Vol 2 v0.2 status summary post-Cal-Mode-1 audit"
+  },
+  "vol2_chapters": [
+    {
+      "ch": "Ch 1",
+      "title": "Introduction",
+      "status": "v0.2 (Cal #81 v0.3.1 numbering reconciliation added)",
+      "tier": "meta",
+      "key_observables": [],
+      "absorption_today": "Numbering reconciliation reference + Lyra-canonical convention noted"
+    },
+    {
+      "ch": "Ch 2",
+      "title": "SM Gauge Group",
+      "status": "v0.1 (no corrections needed; hypercharge I-tier legitimate)",
+      "tier": "D (gauge structure) + I (specific assignments)",
+      "key_observables": [
+        "SU(3)\u00d7SU(2)\u00d7U(1) forced by D_IV\u2075"
+      ],
+      "absorption_today": "None \u2014 narrative consistent with catalog state"
+    },
+    {
+      "ch": "Ch 3",
+      "title": "Three Generations",
+      "status": "v0.2 (mass ratio I-tier \u2192 D-tier per catalog)",
+      "tier": "D (generation count + individual mass ratios)",
+      "key_observables": [
+        "N_gen = N_c = 3 (Q\u2075 Chern)",
+        "m_\u03bc/m_e = (24/\u03c0\u00b2)^6 D-tier",
+        "m_\u03c4, m_t, m_u, m_d all D-tier"
+      ],
+      "absorption_today": "Catalog-D-tier mass ratios added; v0.1 \"I-tier multi-week\" corrected"
+    },
+    {
+      "ch": "Ch 4",
+      "title": "Color and Quarks",
+      "status": "v0.2 (hadron mass D-tier table added)",
+      "tier": "D (N_c=3 + confinement + hadron masses)",
+      "key_observables": [
+        "m_\u03c0 = N_c\u00b7g\u00b7c_3 = 273\u00b7m_e (0.05%)",
+        "m_K, m_n - m_p, m_b all D-tier"
+      ],
+      "absorption_today": "Hadron mass D-tier table added per Toy 3277 disambiguation"
+    },
+    {
+      "ch": "Ch 5",
+      "title": "Lepton Sector",
+      "status": "v0.2 (m_\u03bc/m_e + m_\u03c4/m_e D-tier with (g+N_c)/N_c BST primary decomposition)",
+      "tier": "D (charged lepton sector)",
+      "key_observables": [
+        "m_\u03bc/m_e = (24/\u03c0\u00b2)^6 D-tier 0.003%",
+        "m_\u03c4/m_e = (24/\u03c0\u00b2)^6\u00b7(g/N_c)^((g+N_c)/N_c) D-tier 0.19%"
+      ],
+      "absorption_today": "Toy 3271 m_\u03c4 exponent (g+N_c)/N_c decomposition added"
+    },
+    {
+      "ch": "Ch 6",
+      "title": "m_p/m_e = 6\u03c0\u2075",
+      "status": "v0.1 (no corrections needed; already all D-tier)",
+      "tier": "D (0.002% match)",
+      "key_observables": [
+        "m_p/m_e = 6\u03c0\u2075 = C_2 \u00b7 \u03c0^(n_C) BST primary"
+      ],
+      "absorption_today": "None \u2014 Cal #71 register-drift fix Thursday morning preserved"
+    },
+    {
+      "ch": "Ch 7",
+      "title": "CKM Mixing",
+      "status": "v0.1 (Cal Mode 1 T1444 vacuum-subtraction already addressed Thursday morning)",
+      "tier": "D (CKM Jarlskog 0.3% via T1444)",
+      "key_observables": [
+        "J_CKM = A\u00b2\u00b7\u03bb\u2076\u00b7\u03b7\u0304 at 0.3% via T1444"
+      ],
+      "absorption_today": "None \u2014 earlier corrections held"
+    },
+    {
+      "ch": "Ch 8",
+      "title": "Coupling Constants",
+      "status": "v0.2 (sin\u00b2\u03b8_W = 3/13 D-tier added to gauge-coupling section)",
+      "tier": "D (a_e crown jewel + sin\u00b2\u03b8_W + Weinberg) + I (\u03b1 corrections, \u03b1_s, \u03b1_w)",
+      "key_observables": [
+        "\u03b1\u207b\u00b9 = N_max lowest order",
+        "sin\u00b2\u03b8_W = 3/13 D-tier 0.2%",
+        "a_e ppt"
+      ],
+      "absorption_today": "Weinberg angle D-tier identified; gauge-coupling structure clarified"
+    },
+    {
+      "ch": "Ch 9",
+      "title": "Higgs sector",
+      "status": "HOLD per Keeper (gated on Lyra Vol 1 Ch 8 Yukawa unblock multi-week)",
+      "tier": "D (m_H per T230/T231 dual-route) \u2014 for when unblocked",
+      "key_observables": [
+        "m_H = v\u00b7sqrt(2\u00b7sqrt(2/n_C!)) D-tier 0.11%",
+        "m_H = (\u03c0/2)(1-\u03b1)m_W D-tier 0.07%"
+      ],
+      "absorption_today": "Catalog finding noted (running notes); chapter narrative not built per HOLD"
+    },
+    {
+      "ch": "Ch 10",
+      "title": "Neutrinos",
+      "status": "v0.2 chapter-grade expansion (PMNS sector all D-tier corrected)",
+      "tier": "D (PMNS observables + seesaw=17)",
+      "key_observables": [
+        "sin\u00b2\u03b8_12 = 4/13 D-tier 0.04\u03c3",
+        "sin\u00b2\u03b8_13 = 1/45 D-tier 0.17\u03c3",
+        "sin\u00b2\u03b8_23 = 176/315 D-tier 0.40%",
+        "\u03b4_CP = 3\u03c0/7 D-tier"
+      ],
+      "absorption_today": "Major expansion + PMNS Cal Mode 1 self-correction; chapter grew 162 \u2192 285+ lines"
+    },
+    {
+      "ch": "Ch 11",
+      "title": "Five Absences",
+      "status": "v0.1 (already substantively complete; no corrections needed)",
+      "tier": "D (each absence mechanism-derived)",
+      "key_observables": [
+        "NO GUT, NO proton decay, NO DM particle, NO monopoles, NO SUSY/sterile"
+      ],
+      "absorption_today": "None \u2014 chapter already complete"
+    },
+    {
+      "ch": "Ch 12",
+      "title": "Experimental Program",
+      "status": "v0.2 (multi-candidate Bell framework + framework-reconciliation flag added)",
+      "tier": "mixed (SP-30 falsifier predictions, multi-candidate framework)",
+      "key_observables": [
+        "Bell substrate-CHSH",
+        "M\u00f6ssbauer eigentone",
+        "Casimir asymmetric",
+        "BaTiO3 137-plane"
+      ],
+      "absorption_today": "Bell prediction multi-candidate framework added per Toy 3257 + Cal review queue"
+    }
+  ],
+  "afternoon_cal_mode_1_corrections": [
+    "Ch 3: m_\u03bc/m_e + m_\u03c4 + m_t + m_u + m_d D-tier per catalog (was I-tier framework pending)",
+    "Ch 4: m_\u03c0 = N_c\u00b7g\u00b7c_3 D-tier table + Toy 3277 disambiguation",
+    "Ch 5: m_\u03bc/m_e + m_\u03c4/m_e D-tier; (g+N_c)/N_c = 10/3 exponent decomposition (NEW Toy 3271)",
+    "Ch 8: sin\u00b2\u03b8_W = 3/13 D-tier added",
+    "Ch 10: PMNS sin\u00b2\u03b8_12 + sin\u00b2\u03b8_13 + sin\u00b2\u03b8_23 + \u03b4_CP all D-tier per catalog",
+    "Ch 12: Multi-candidate Bell framework + reconciliation flag",
+    "Ch 1: Cal #81 v0.3.1 numbering reconciliation reference (earlier session)"
+  ],
+  "vol2_v05_remaining_work": [
+    "Ch 2: hypercharge derivation framework (legitimate I-tier; multi-week)",
+    "Ch 8: a_\u03bc correction framework (I-tier multi-week)",
+    "Ch 9: Higgs sector chapter narrative (HELD pending Lyra)",
+    "Ch 10: sin\u00b2\u03b8_23 framework gap (catalog has 0.4% but framework reading multi-week)",
+    "All chapters: bibliography updates, cross-reference polish, PDF generation"
+  ],
+  "substantive_new_contributions_today": [
+    "Toy 3271: m_\u03c4 exponent (g+N_c)/N_c = 10/3 BST primary decomposition (Vol 2 Ch 5)",
+    "Toy 3274: SP-14 B7 H hyperfine BST primary form filed",
+    "Toy 3275: BST primary ratio exponent hypothesis (substrate-natural exponent class)",
+    "Toy 3276: \u03c0 exponent decomposition hypothesis across BST formulas",
+    "Toy 3277: m_\u03c0 disambiguation between two competing D-tier forms (Form A canonical)",
+    "Toys 3269+3270: Cross-lane verification for Lyra Sessions 6+7 (Friday cadence prep)",
+    "Cal review queue: substrate-CHSH B form disambiguation filed",
+    "Methodology infrastructure: Toy 3267 catalog-audit procedure formalized"
+  ],
+  "cal_mode_1_lesson_formalized": "Catalog-checking procedure (Toy 3267)"
+}

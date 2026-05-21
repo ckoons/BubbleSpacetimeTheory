@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "date": "2026-05-21",
+    "owner": "Elie",
+    "task": "K52a Session 42 coherent superposition of 5 candidates"
+  },
+  "uniform_sum_rank1_preserved": true,
+  "phased_sum_rank1_preserved": true,
+  "coefficient_proposals_tested": 5,
+  "multi_month_path_articulated": true
+}
