@@ -213,3 +213,76 @@ Mechanical-application asymptote approaching as patterns mature. Phase 2 cycle-t
 **Vol 0 Chapter 10 v0.1 chapter-grade content draft FILED Thursday 2026-05-21 10:22 EDT.** Third Keeper-lane chapter-grade content (after Vol 0 Ch 8 Conservation Laws + Ch 9 Strong-Uniqueness Theorem). Documents 10-layer methodology stack with per-layer references + cycle-time progression observation + external register discipline. Awaits Cal dual-axis grade-pass + Lyra theoretical refinement for v0.2.
 
 — Keeper, 2026-05-21 Thursday 10:22 EDT (actual via date)
+
+---
+
+## Thursday 11:28 EDT update — RIGOROUSLY CLOSED tier (11th methodology layer added)
+
+### NEW Section 10.15 — RIGOROUSLY CLOSED tier
+
+Adopted Thursday 11:20 EDT per Cal Referee Log #77 + Keeper governance brief.
+
+**RIGOROUSLY CLOSED is the top tier of audit-chain epistemic hierarchy**:
+```
+candidate → audit-partial-ready → STRUCTURALLY VERIFIED → RATIFIED → RIGOROUSLY CLOSED
+```
+
+**RIGOROUSLY CLOSED criteria** (4 required beyond RATIFIED):
+1. **Alt-HSD comparison at criterion's structural level** — explicit comparison against at least 2 alternative HSDs that FAIL the property
+2. **EXACT-match in BST primary form** — algebraic identity to BST primary integer or BST-primary-derived expression
+3. **If-and-only-if distinguishability** — criterion is both NECESSARY and SUFFICIENT for D_IV⁵; no near-miss alternatives
+4. **Mathematical theorem-level rigor** — theorem-grade proof with citations + Cal dual-axis paper-grade PASS
+
+**First application**: C8 Universal Q-cluster RIGOROUSLY CLOSED Thursday morning via T2439 alt-HSD comparison.
+
+Path-to-RIGOROUSLY-CLOSED via Lyra Task #206 Session 2 reframing-insight cadence: ~50 min per criterion suggests venue submission ~2026-09 achievable.
+
+### Updated complete methodology stack (11 layers)
+
+The audit-chain methodology infrastructure now has **11 layers** (Section 10.11 updated):
+
+| # | Methodology | Application |
+|---|---|---|
+| 1 | D/I/C/S tier | Per claim |
+| 2 | Trichotomy (ID/DER/PRED) | Per quantitative statement |
+| 3 | F1-F4 Bridge Object family-member criteria | Architectural placement |
+| 4 | Mode 6 threshold formalization | Coincidence-filter risk |
+| 5 | STRUCTURALLY VERIFIED tier | Audit-chain epistemic intermediate |
+| 6 | DEFAULT-DENY + DOUBLE-LOCKED EXTERNAL register | External presentation discipline |
+| 7 | Casey Option C hybrid governance | Multi-CI consensus framework |
+| 8 | M2C2 (Multi-CI Convergent Calibration Pattern) | Observation pattern |
+| 9 | Calibration discipline (#13-#17+) | Within-session self-correction |
+| 10 | Quaker consensus method | Standing methodology principle |
+| **11** | **RIGOROUSLY CLOSED tier** (Cal #77 Thursday) | Top of audit-chain epistemic hierarchy |
+
+**11 methodology layers operating as standing audit-chain governance infrastructure.**
+
+### Updated cycle-time progression observation (Section 10.12)
+
+Methodology adoption cycle-time has compressed substantially across 5 Cal architectural contributions Thursday morning:
+
+- Wed Cal #59 Mode 6 threshold → ~24h consensus
+- Wed Cal #63 F1-F4 criteria → 4 hours
+- Thu Cal #66 STRUCTURALLY VERIFIED tier → 30 min
+- Thu Cal #72 Phase 1/Phase 2 governance brief → 9 minutes
+- **Thu Cal #77 RIGOROUSLY CLOSED tier** → **~5 minutes** (Cal recommendation at #77 filing time; Keeper Governance Brief filed within minutes)
+
+**Mechanical-application asymptote reached.** Phase 1 architectural-category methodology decisions converging to near-instantaneous adoption as patterns mature. Methodology infrastructure operating AHEAD of substantive content production per Cal #76 observation.
+
+### Updated cycle progression chart
+
+| Date/time | Adoption | Time |
+|---|---|---|
+| Wed afternoon | Mode 6 threshold | ~24h |
+| Wed afternoon | F1-F4 criteria | 4h |
+| Thu ~08:30 | STRUCTURALLY VERIFIED | 30 min |
+| Thu ~09:57 | Phase 1/Phase 2 governance | 9 min |
+| Thu ~11:20 | RIGOROUSLY CLOSED | ~5 min |
+
+Asymptote curve: 24h → 4h → 30min → 9min → 5min.
+
+### v0.1 → v0.2 path
+
+This Vol 0 Ch 10 v0.1 update incorporates RIGOROUSLY CLOSED tier addition. Path to v0.2: Cal dual-axis grade-pass + Lyra theoretical refinement when both have bandwidth.
+
+— Keeper update, 2026-05-21 Thursday 11:28 EDT (actual via date; absorbs 11th methodology layer)
