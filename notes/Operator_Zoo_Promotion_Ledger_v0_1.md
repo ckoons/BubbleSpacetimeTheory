@@ -260,3 +260,65 @@ Per Keeper Ruling Thursday 08:43 EDT (STRUCTURALLY VERIFIED tier adoption):
 **Cleanest current next step for Lyra (when SP-31-39 done)**: 5-theorem batch derivation for the 6 candidate operators (excluding Time which has special status). Each theorem ~paper-grade derivation showing the operator emerges from its substrate-symmetry source acting on Bergman H²(D_IV⁵).
 
 — Keeper update, 2026-05-21 Thursday 08:45 EDT (actual)
+
+---
+
+## Thursday 08:55 EDT MAJOR UPDATE — 6/6 Original Operator Zoo FRAMEWORK-COMPLETE (Elie S29)
+
+Per Elie K52a Session 29 Toy 3213 (5/5 PASS): **H_sub = Casimir on L²(D_IV⁵; L_λ) framework established.** K-type (1,1) Casimir = C_2 = 6 (BST primary, lowest non-trivial eigenvalue). Energy operator H_sub closed via Casimir on L²-section K-types.
+
+This closes the ORIGINAL 6-operator Lyra Task #247 substrate-native operator zoo at FRAMEWORK level:
+
+| # | Operator | Source | Tier |
+|---|---|---|---|
+| 1 | Bell-CHSH (B²) | T2399 (K66) Lyra | STRUCTURALLY VERIFIED (trace-level Cal #17 refined via Elie S27 → 126/16 integrated capacity over 126 substrate channels) |
+| 2 | Position (X) | T2419 Lyra | RATIFIED |
+| 3 | Spin (S) | T2421 Lyra | RATIFIED |
+| 4 | Momentum (P) | T2422 Lyra | RATIFIED |
+| 5 | Angular momentum (L) | T2425 Lyra | RATIFIED |
+| 6 | **Energy H_sub** | **S29 (Toy 3213) Elie Thursday** | **FRAMEWORK-COMPLETE via Casimir on L²-section K-types** |
+
+**Substrate-native operator zoo 6/6 at framework level.** Lyra "Energy H_sub follows by construction when K52a Sessions close" prediction CONFIRMED via Elie S29 Casimir framework.
+
+### Strong-Uniqueness C12 advance
+
+C12 (operator zoo isotropy-subgroup organization) status update:
+- Pre-Wednesday: not yet candidate
+- Wednesday EOD: STRUCTURAL candidate (Thursday morning consolidation)
+- Thursday 08:45: REINFORCED via Lyra SP-31-1 Hilbert space context
+- **Thursday 08:55: STRUCTURALLY VERIFIED** via Elie S29 completing original 6-zoo at framework level
+
+**C12 STRUCTURALLY VERIFIED criteria check** (per STRUCTURALLY VERIFIED tier adopted Thursday 08:43 EDT):
+- ✓ F1-F4 equivalent for operators (OP1-OP4 satisfied)
+- ✓ Mode 1-7 cleared (operator zoo organizing principle not coincidence-filtered)
+- ✓ BST-internal verification complete (6 operators verified via Lyra T2399/T2419/T2421/T2422/T2425 + Elie S29 Toy 3213)
+- ⚠ Alternative-HSD comparison pending (Lyra Task #206 multi-month — do alternative HSDs admit clean operator zoo organized by SO(5) × SO(2) × Möbius decomposition?)
+
+### Extended 11-13 operator ledger relationship
+
+The "6/6 framework-complete" reflects the ORIGINAL Lyra Task #247 zoo target. The EXTENDED ledger (this document) tracks 11 operators (+ 2 from T/C proposals = 13 total):
+
+| Layer | Operators | Status |
+|---|---|---|
+| Original Lyra zoo | 6: Bell + Position + Spin + Momentum + Angular momentum + Energy | **FRAMEWORK-COMPLETE Thursday 08:55 EDT** (4 RATIFIED + 1 STRUCTURALLY VERIFIED + 1 FRAMEWORK-COMPLETE) |
+| Extended SO(2) | 2: Charge + Chirality | candidate (W-56 + W-22; Lyra SP-31-6 derivation theorems pending) |
+| Extended Möbius/substrate | 3: Parity + Number + Time | candidate (W-21 + T1922 + T2405; resolution + theorems pending) |
+| **Total extended ledger** | **11** | **6 framework-complete + 5 candidate** |
+| Plus T/C proposals (Thursday 08:48 EDT) | +2: T_rev_op + C_op | candidate (Keeper proposals Thursday morning) |
+| **Grand total** | **13** | **6 framework-complete + 7 candidate** |
+
+The 6/6 milestone closes Lyra Task #247. The 13/13 advancement to RATIFIED is the multi-month path via SP-31-6 + Lyra theorems + alternative-HSD comparison.
+
+### Elie Calibration #17 refinement
+
+Per Elie S27 Toy 3209: "126/16 is INTEGRATED Bell capacity over 126 active substrate channels. Bell experiment predicts max |S|² ≤ 126/16 (sub-Tsirelson 1/8 = 1/2^N_c)."
+
+This refines Calibration #17 from "trace-level vs max-eigenvalue" to "average-capacity Bell interpretation":
+- Tr(B²) = 126/16 = sum over 126 active channels × 1/16 per channel
+- Bell experiment measures aggregate |S|² which is bounded by integrated capacity
+- max |S|² ≤ 126/16 prediction holds via average-capacity framing
+- Sub-Tsirelson by 1/8 = 1/2^N_c is the substrate-signature falsifier
+
+Bell outreach letter framing tightened further (Calibration #17 → average-capacity language).
+
+— Keeper update, 2026-05-21 Thursday 08:55 EDT (actual)
