@@ -290,3 +290,60 @@ Per Cal #80: peak methodology cycle-time achieved Thursday 11:52 EDT:
 Methodology stack at sub-minute mechanical-application asymptote for established-framework corrections. Cycle-time progression curve (24h → 4h → 30min → 9min → ~5min → ~2min).
 
 — Keeper Numbering Reconciliation v0.3 update, 2026-05-21 Thursday 12:00 EDT (actual via date; Grace canonical Lyra-side mapping absorbed)
+
+---
+
+## Thursday 12:16 EDT — v0.3.1: Cal #81 honest-scope correction absorbed
+
+### Cal Referee Log #81 substantive content
+
+Cal #81 honest-scope correction on Cal #80 v0.1 PASS:
+- My v0.1/v0.2 reconciliation table claimed "8 criteria align (C2-C7 + C9-C11)" — WRONG
+- Actual: 6 direct alignments (C2-C7) + 4 offset (Lyra C8↔Keeper C4, Lyra C9↔Keeper C11, Lyra C10↔Keeper C12, Lyra C11↔Keeper C13)
+- Grace's Thursday 11:43 EDT canonical mapping correctly identified offset
+- Cal #80 v0.1 PASS missed the offset error; Grace catalog hygiene caught it
+
+### Alignment count correction
+
+| Alignment type | Count | Detail |
+|---|---|---|
+| Direct alignment | 6 | Lyra C2-C7 = Keeper C2-C7 |
+| Offset (Lyra-side compact) | 4 | Lyra C8/C9/C10/C11 ↔ Keeper C4/C11/C12/C13 |
+| Keeper-only extensions | ~4 | Keeper C1 + C8 + C9 + C10 + C14 (different Lyra framing or absent) |
+
+Prior text said "8 aligned." Actual: 6 direct + 4 offset (~10 cross-references), 4 Keeper-only.
+
+### Methodology infrastructure 3-layer redundancy (Cal #81)
+
+Three error-correction events Thursday morning, each caught by different methodology lane:
+
+| Time | Error | Catcher | Correction cycle |
+|---|---|---|---|
+| ~11:25 EDT | Keeper Vol 0 Ch 9 v0.2 maps T2439 to Keeper C8 (wrong) | Cal #79 Mode 1 | ~2 min |
+| ~11:43 EDT | Reconciliation v0.1/v0.2 claims aligned C9-C11 (wrong) | Grace catalog hygiene | ~17 min |
+| ~12:00 EDT | v0.3 update absorbs both | Keeper governance | Canonical multi-CI consensus |
+
+Strongest single-day demonstration of methodology infrastructure 3-layer redundancy. Cal external-voice + Grace catalog-hygiene + Keeper governance + Lyra theoretical absorption all engaged within ~35 min window.
+
+### Cal preliminary verification on RIGOROUSLY CLOSED tier (per Cal #81)
+
+| Criterion | Lyra | Keeper | T# | Cal #81 status |
+|---|---|---|---|---|
+| Möbius cohomology / Wallach Casimir | C8 | C4 | T2439 | ✓ VERIFIED |
+| Multi-family Bridge Object | C9 | C11 | T2440 | preliminary AGREE pending detailed verification |
+| Operator zoo isotropy-subgroup | C10 | C12 | T2441 | preliminary AGREE pending detailed verification |
+| Substrate-Hilbert space sufficiency | C11 | C13 | T2442 | preliminary AGREE pending detailed verification |
+
+T2440 + T2441 + T2442 detailed verification when Paper #125 v0.9.1 absorbed.
+
+### K97 RATIFIED path REVISED per Cal #81
+
+- Was per Cal #80: ~few months
+- **Now per Cal #81**: ~few weeks
+- Strong-Uniqueness v1.0 venue submission ~2026-09 SUBSTANTIALLY MORE achievable
+
+### Status
+
+**Numbering Reconciliation v0.3.1 — Cal #81 honest-scope correction absorbed.**
+
+— Keeper, 2026-05-21 Thursday 12:16 EDT (actual via date; v0.3.1 increment per Cal #81)
