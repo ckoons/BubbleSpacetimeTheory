@@ -1327,3 +1327,101 @@ Per Cal #81 standing-milestone-ready status:
 5. Vol 2 chapter-grade Cal grade-pass cadence
 
 — Keeper update, 2026-05-21 Thursday 12:22 EDT (actual via date; Vol 0 K-audit COMPLETE + Cal #81 + 3-Layer Redundancy + K102-K106 absorbed)
+
+---
+
+## Thursday 12:41 EDT — v0.9 consolidation: BST FULL-INDEX CLOSURE + Paper #125 v1.0 + 5-Lane Methodology Peak
+
+### Changes since v0.8 (Thursday 12:22 EDT, 19 min ago)
+
+**Grace BST FULL-INDEX CLOSURE** (Thursday 12:30 EDT) — extraordinary single-hour milestone:
+
+4 × 100% milestones in single hour:
+1. **AC graph zone-tag**: 77.3% → **100%** (Toy 3246)
+2. **Catalog integer_set**: 50.5% → **100%** (Toys 3247-3249)
+3. **Catalog physical_type**: → **100%** (Toys 3250-3252, P6 geometric dominant 49.8%)
+4. **AC graph physical_type**: → **100%** (Toy 3257, P6 even stronger 69.1%)
+
+Three Keeper long-chain items CLOSED:
+- 10/10 cross-family F2 pairs (Toy 3245) — was multi-week pending
+- AC graph zone-tag 100%
+- Catalog integer_set 100%
+
+**Both BST data layers fully indexed**: 4710 catalog + 2185 AC graph = **6895 objects** fully indexed by zone + integer_set + physical_type with honest source-confidence via *_source fields.
+
+Matrix v0.5 (Toy 3253): 105/256 cells with multi-cell membership honoring Integer Web Principle.
+
+Toy 3255 identified **74 structurally-suggestive empty cells** = substrate engineering candidates.
+
+Largest single-hour catalog backbone advancement in BST history.
+
+### Lyra Paper #125 v1.0 reached (~92% venue-grade)
+
+Paper #125 advancement: 30K outline → 122K v1.0 in hour-window. 4× growth via:
+- 11 sub-sections of §2.2 explicit derivations (13 criteria)
+- §3.2 null-model + §3.3 tier breakdown for v0.9.1
+- §4 Implications substantively expanded
+- §8 References venue-grade (17+ classical citations)
+- Abstract v1.0 venue-grade polish
+
+**Submission Readiness Checklist v0.1 (27K) filed** — Casey send-signal protocol clear for venue submission ~2026-09.
+
+### Cal #81 closure cycle complete
+
+Per Cal: "no new referee log needed — Cal #81 + Keeper v0.3.1 absorption together complete the cycle."
+
+**5 within-session corrections across 5 lanes** documented Thursday morning:
+1. Cal #79 Mode 1 (Keeper conflation, ~2 min)
+2. Grace 11:43 catalog-hygiene (Lyra-side offset, ~17 min)
+3. Cal #81 honest-scope on Cal #80 (~5 min)
+4. Lyra T2439 reframing-insight closure (~50 min)
+5. Elie S33 GF multiplication bug fix → 7/7 PASS (within-session)
+
+**5 different methodology lanes operating concurrently**:
+- Cal external-voice (Mode 1)
+- Grace catalog-hygiene (canonical mapping)
+- Keeper governance (consensus ratification)
+- Lyra theoretical absorption (criterion content)
+- Elie cross-lane computational verification
+
+3-Layer Redundancy Pattern (v0.1) extends to **5-Lane Redundancy Pattern** per Cal observation. Highest-cadence multi-CI methodology operation in BST history.
+
+### Keeper Governance Ruling on Toy Collisions
+
+Elie reported toy number collisions (3252, 3253, 3255, 3257) between Elie + Grace concurrent claims. Ruling: both work products kept with descriptive subject suffixes (Quaker consensus). Action items: audit `./play/claim_number.sh` atomic correctness, honest scope from Grace, going forward use atomic claim script.
+
+### Team prompt for Casey absence
+
+Team prompt drafted for Casey afternoon absence:
+- Lyra: Session 6 prep + Paper #125 v1.0 polish
+- Elie: K52a S34+ Bergman-natural + Vol 2 Ch 10 Neutrinos expansion
+- Grace: Cross-Classification Matrix v0.6 (74 substrate engineering candidates) + toy collision honest scope
+- Cal: Paper #125 v1.0 verification + K97-K106 grade-pass cadence
+- Keeper: Cal #82+ absorption + K-audit Vol 1 extension
+
+### Updated session counters at Thursday 12:41 EDT
+
+- **80 commits today** (~5.5 hour session, peak ~14 commits/hour Thursday)
+- **K1-K106 audit chain** (22 Phase 2 K-audits Thursday morning; Vol 0 K-audit COMPLETE)
+- **Strong-Uniqueness Theorem v0.9.1**: 4 RIGOROUSLY CLOSED + 9 RATIFIED + 1 ADVANCING
+- **Paper #125 v1.0**: ~92% venue-grade (122K PDF)
+- **BST FULL-INDEX CLOSURE**: 6895 objects fully indexed (Grace)
+- **5-Lane Methodology Peak**: all CIs engaged concurrently (Cal observation)
+- **K97 RATIFIED path**: ~few weeks per Cal #81
+
+### Architectural significance
+
+Thursday May 21, 2026 morning + midday window represents:
+
+**BST's strongest single-day architectural cadence in research-program history**:
+- 4 RIGOROUSLY CLOSED criteria (multi-week each historically; 4 in one morning)
+- 22 Phase 2 K-audits filed (Vol 0 K-audit COMPLETE)
+- 4 × 100% indexing milestones (BST FULL-INDEX CLOSURE)
+- Paper #125 30K → 122K v1.0 (4× growth in single hour)
+- 5-Lane Methodology Peak demonstrated empirically
+- ~80 commits sustained at peak cadence
+- Cycle-time peak ~2 minutes (Cal #79 correction)
+
+**Methodology stack works at sustained peak operation across all 5 CI lanes.**
+
+— Keeper update, 2026-05-21 Thursday 12:41 EDT (actual via date; v0.9 consolidation absorbing BST FULL-INDEX CLOSURE + Paper #125 v1.0 + 5-Lane Methodology Peak)
