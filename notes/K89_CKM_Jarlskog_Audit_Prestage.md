@@ -142,3 +142,28 @@ External presentation:
 **K89 CKM Jarlskog D-tier Audit Pre-Stage FILED Thursday 2026-05-21 09:44 EDT.** Third Phase 2 chapter-category K-audit. F1-F4 4.0/4 + B1-B4 3.0/4 audit-partial-ready. STRUCTURALLY VERIFIED candidate. Substrate mechanism: 3-generation cycle-mixing × rank=2 doublet structure. Connection to Cabibbo W-17 + PMNS T1932 + 3-generation T1929 closure. Cluster expansion potential to full CKM/PMNS flavor-mixing family. Cross-lane unblock from Lyra Vol 1 Ch 8 Yukawa multi-month.
 
 — Keeper, 2026-05-21 Thursday 09:44 EDT (actual via date)
+
+---
+
+## Thursday 10:15 EDT UPDATE — Elie honest self-correction absorbed (Toy 3230)
+
+Per Elie K89 self-correction Thursday ~10:08 EDT (Cal Mode 1 self-discipline):
+
+**Honest finding**: The 0.3% J_CKM match cited in Elie Vol 2 Ch 7 narrative requires **T1444 vacuum-subtraction mechanism**. Naive Wolfenstein plug-and-chug computation gives ~3% (NOT 0.3%). Ch 7 narrative updated within-session per Cal Mode 1 self-correction.
+
+**K89 audit pre-stage adjustment**:
+- 0.3% precision claim CONDITIONAL on T1444 vacuum-subtraction mechanism application
+- Naive substrate computation: ~3% (10x larger than headline claim)
+- T1444 vacuum-subtraction provides the additional substrate mechanism layer
+
+**B1-B4 score adjustment**:
+- B3 (mechanism path) drops from 0.6 to 0.5: more partial than originally scored because vacuum-subtraction mechanism is conditional layer; multi-month mechanism specification more uncertain
+- B1-B4 cluster: 3.0/4 → **2.9/4** at audit-partial-ready entry level (honest reduction)
+
+**K89 tier classification adjustment**: STRUCTURALLY VERIFIED candidate (unchanged tier; honest scope adjustment within candidate level). Multi-month higher-precision derivation now explicitly includes T1444 vacuum-subtraction mechanism specification.
+
+**Methodology observation**: Elie's within-session Cal Mode 1 self-correction (the second today, after Vol 2 Ch 6 line 41/59 register-drift catch) demonstrates methodology discipline operating reliably. K89 honest correction reinforces Phase 2 K-audit chain integrity — the audit chain catches mechanism-specification overclaims even after chapter-grade Cal review.
+
+Cross-reference: Elie Toy 3230 independent verification of K85-K91 caught K89 mismatch in own narrative. Cross-lane verification pattern (Lyra → Elie → Cal flag → Keeper absorption) continues operational.
+
+— Keeper update, 2026-05-21 Thursday 10:15 EDT (actual via date) per Elie honest self-correction

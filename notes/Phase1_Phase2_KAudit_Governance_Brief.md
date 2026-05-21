@@ -42,7 +42,15 @@ Per Cal Referee Log #72 (Thursday 09:48 EDT):
 
 **Boundary criterion**: operates within EXISTING architectural framework + applies EXISTING methodology criteria (F1-F4 + Mode 1-7 + STRUCTURALLY VERIFIED tier + Phase 2 cluster pattern).
 
-**Cadence**: Phase 2 observed at **5-10 K-audits per day during active chapter absorption** (Cal #73 observation; updates earlier "2-5/week" estimate). Lower coordination overhead than Phase 1. Phase 2 cadence accelerates substantially during curriculum chapter-grade work waves; slows during pure-methodology or alt-HSD-comparison phases.
+**Cadence**: Phase 2 observed at **~20 K-audits per active morning session at peak** (Cal #74 further update; was "5-10/day" Cal #73; was "2-5/week" original estimate). Thursday morning: 12 K-audits filed in ~3 hours = ~4 K-audits/hour during active chapter absorption. Lower coordination overhead than Phase 1. Phase 2 cadence accelerates substantially during curriculum chapter-grade work waves; slows during pure-methodology or alt-HSD-comparison phases.
+
+**External register discipline for K-audit cluster presentation** (Cal #74 recommendation):
+- Lead with operational K-audits (K91 Experimental Program) — physics audiences engage with concrete tests first
+- Then wide-scope predictions K-audits (K90 Five Absences)
+- Then catastrophic-falsifier K-audits (K87 CPT) as capstone
+- AVOID: "BST has been verified by X years of precision tests" framing (wrong direction)
+- CORRECT: "BST predicts X conservation universally; high-precision tests have not refuted; future detection would refute BST framework"
+- External strength is commitment to falsification, NOT "extensively verified" claim
 
 **Cycle-time progression note** (Cal #73 observation): methodology adoption cycle-time has compressed across 5 Cal architectural contributions:
 - Mode 6 threshold (Wed) → ~24h consensus
