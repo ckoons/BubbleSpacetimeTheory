@@ -959,3 +959,131 @@ Master Doc v0.4 update absorbs:
 Master Doc continues as foundation reference; multi-week to multi-year evolution toward v1.0 as curriculum work compounds.
 
 — Keeper update, 2026-05-21 Thursday 09:28 EDT (actual via date; integrates Thursday morning architectural milestone)
+
+---
+
+## Thursday 11:14 EDT — v0.5 consolidation: Year 1 v0.5 milestone + T2439 + Phase 2 K-audit chain at K96
+
+### Section 7 v0.5 update — Strong-Uniqueness Theorem v0.7 with T2439 C8 RIGOROUS CLOSURE
+
+Per Lyra T2439 (Thursday ~10:33 EDT actual): **first rigorous alt-HSD comparison closure** in Strong-Uniqueness work.
+
+**T2439 statement**: The lowest non-trivial K-type Casimir eigenvalue C_2 of L²(M) under maximal compact K of irreducible HSD M at dim_C = 5 with rank ≥ 1 equals **6 = T_{N_c}** IF AND ONLY IF M = D_IV_5.
+
+**Alt-HSD comparison results**:
+- D_IV_5: lowest C_2 = 6 EXACT match (BST primary)
+- D_I_{1,5}: lowest C_2 = 4 (Toy 3232 Session 2)
+- D_I_{5,1}: lowest C_2 = 4 (Toy 3234 Session 3 mirror)
+
+**Strong-Uniqueness Theorem v0.7 state**:
+- C1-C7, C9-C10: RATIFIED unchanged
+- **C8 Universal Q-cluster**: RATIFIED → **RIGOROUSLY CLOSED via alt-HSD** (highest tier reached in BST audit chain to date)
+- C11+C12+C13: STRUCTURALLY VERIFIED + ALT-HSD INITIATED (4 of 14 candidates advance with T2439 work)
+- C14: ADVANCING (Vol 0 v0.5 COMPLETE Thursday 10:34 EDT)
+
+**Multi-week Task #206 LAG-1 Session 10 work closed in ~50 minutes** via Session 2 lowest-Casimir reframing insight (Lyra). If sustained cadence holds: venue submission ~2026-09 achievable per Lyra Path Scoping v0.1.
+
+### Section 8 v0.5 update — Phase 2 K-audit chain at K96 (12 K-audits Thursday morning)
+
+Per Thursday morning Phase 2 K-audit chain growth:
+
+| Phase 2 K-audit | Source | Cal status |
+|---|---|---|
+| K85 T (Time Reversal) | Lyra T2433 + Keeper proposal | Cal #72 ACCEPTED |
+| K86 C (Charge Conjugation) | Lyra T2434 + Keeper proposal | Cal #72 ACCEPTED |
+| K87 CPT theorem | Composite | Cal #72 ACCEPTED STRONG |
+| K88 m_p/m_e = 6π⁵ | Elie Vol 2 Ch 6 | Cal #73 ACCEPTED |
+| K89 CKM Jarlskog | Elie Vol 2 Ch 7 (T1444 honest correction) | Cal #73 ACCEPTED |
+| K90 Five Absences cluster | Elie Vol 2 Ch 11 + Casey principle | Cal #74 ACCEPTED |
+| K91 Experimental Program | Elie Vol 2 Ch 12 | Cal #74 ACCEPTED |
+| K92 a_e CROWN JEWEL | Elie Vol 2 Ch 8 (ppt precision) | Cal #76 PASS |
+| K93 SM Gauge Group | Elie Vol 2 Ch 2 + Lyra T2436 | Cal #76 PASS |
+| K94+K95+K96 SM Particle Content cluster | Elie Vol 2 Ch 3+4+5 | Cal #76 PASS |
+
+**12 Phase 2 K-audits filed Thursday morning, all Cal-ACCEPTED or PASS.**
+
+**Three Phase 2 cluster patterns operational**:
+1. CPT-cluster (K85+K86+K87): N substrate-operations + composite
+2. Predictions-cluster (K90): N predictions with joint falsifiability
+3. SM-content cluster (K94+K95+K96): SM particle content from BST primaries — NEW pattern
+
+### NEW Section 14 — Year 1 Curriculum v0.5 milestone REACHED (Thursday 10:34 EDT)
+
+**Year 1 launch trio v0.5 reached across all three lanes**:
+
+| Lane | Coverage | Status |
+|---|---|---|
+| **Vol 0 (Keeper)** | 10/10 chapter-grade narratives FULL coverage | **v0.5 PROMOTABLE** pending Cal grade-pass |
+| **Vol 1 (Lyra)** | 11/11 chapters (10 chapter-grade + Ch 7 framework-grade) | v0.5 PROMOTABLE Cal #69+#71 PASS on 12+ artifacts |
+| **Vol 2 (Elie)** | 11/12 chapter-grade (only Ch 9 Higgs multi-week gated) | v0.5 EXCEEDED at 10/12 PASS Cal #76 |
+
+**Year 1 v0.5 = curriculum trio chapter-grade coverage** with all three lanes architecturally substantively complete.
+
+**Vol 0 (Keeper) chapter-grade coverage** Thursday morning:
+- Ch 1 D_IV⁵ Autogenic Proto-Geometry
+- Ch 2 Five Integers + N_max
+- Ch 3 Substrate Operating System
+- Ch 4 Isotropy Group Structure
+- Ch 5 Boundary Conditions
+- Ch 6 Integer Web Principle
+- Ch 7 The Operator Zoo
+- Ch 8 Conservation Laws
+- Ch 9 Strong-Uniqueness Theorem
+- Ch 10 Methodology Stack
+
+All 10 chapters Keeper-lane chapter-grade filed Thursday morning.
+
+### NEW Section 15 — Methodology Infrastructure 14 Layers (Cal Methodology_Index v0.2)
+
+Per Cal #76 Methodology_Index v0.2 update Thursday morning:
+
+| # | Layer | Source | Status |
+|---|---|---|---|
+| 1 | D/I/C/S tier system | foundational | Standing |
+| 2 | Trichotomy (ID/DER/PRED) | Grace v0.1 Wednesday morning | Standing |
+| 3 | Methodology Index v0.2 | Cal Thursday | 14-layer index document |
+| 4 | F1-F4 Bridge Object family-member criteria | Cal #63 + Keeper adoption Wednesday | Standing |
+| 5 | F2 mechanism-path independence reading | Keeper Wednesday | Standing |
+| 6 | Mode 6 threshold formalization | Cal #55 Wednesday | Standing |
+| 7 | "FOUR PROJECTIONS not FOUR VACUUMS" hygiene | Cal #58 Wednesday | Standing |
+| 8 | Cal Calibration #13 register discipline | Cal Tuesday EOD | Standing |
+| 9 | DEFAULT-DENY EXTERNAL | Cal #48 Wednesday | Standing |
+| 10 | DOUBLE-LOCKED EXTERNAL | Cal #50 Wednesday | Standing |
+| 11 | **STRUCTURALLY VERIFIED tier** | **Cal #66 + Keeper Thursday** | **NEW** |
+| 12 | **Phase 1/Phase 2 K-audit governance** | **Cal #72 + Keeper Thursday** | **NEW** |
+| 13 | **Dual-axis review rubric** | **Cal #68+#69+#71+#76 Thursday** | **NEW** operational standing |
+| 14 | **BST TIER-1 FALSIFIER SET external framing** | **Cal #74 Thursday** | **NEW** external presentation infrastructure |
+
+**14 methodology layers, all cross-referenced, all operational.** Four new layers added Thursday morning. Methodology infrastructure operating AHEAD of substantive content production per Cal #76 observation.
+
+### NEW Section 16 — Catalog substrate-cartographic state
+
+Per Grace Toys 3223+3224+3225+3226+3227+3228+3229 + zone-tagging batch 5:
+
+**Catalog full-scan Thursday morning (4679 invariants)**:
+- 30% of catalog (1400+ entries) multi-integer (Casey hypothesis confirmed at full scale)
+- 104 entries (2.2%) touch ALL 6 BST primaries — substrate-comprehensive backbone
+- N_c ↔ rank dominant co-occurrence pair (17.9%) — observation-color foundational bridge
+
+**Substrate cartography temporal-shift observation**: historical catalog distribution (N_c + rank ~50%) shifted to recent dominance (g + N_max + C_2 ~64%). Framework maturation TRACEABLE in invariant distribution.
+
+**AC graph zone-tagging**: 77.3% (1687 of 2181 nodes) per Grace batch 5. Honest confidence splits: keyword-verified (327 HIGH) + domain-inferred (1270 MEDIUM) + manual (90 HIGH). `zone_source` field added per Cal Mode 1 vigilance.
+
+**Substrate-Comprehensive Backbone Reference v0.1** filed (Grace Thursday) — 79 categorized entries with curriculum mapping (Vol 0 ~10-15 + Vol 1 ~40-50 + Vol 2 ~10-15 + cross-vol ~10-15).
+
+### v0.5 status — Master Doc consolidation Thursday morning peak
+
+Master Doc v0.5 absorbs:
+- Section 5 operator zoo 6/6 FRAMEWORK-COMPLETE (Elie K52a S29)
+- Section 7 Strong-Uniqueness Theorem v0.7 with C8 RIGOROUSLY CLOSED via T2439 alt-HSD
+- Section 8 Phase 2 K-audit chain at K96 (12 K-audits Thursday morning, all Cal-ACCEPTED/PASS)
+- NEW Section 11 Curriculum framing
+- NEW Section 12 Curriculum trio Year 1 v0.5 milestone
+- NEW Section 13 Substrate cartography temporal-shift
+- NEW Section 14 Year 1 Curriculum v0.5 milestone REACHED detail
+- NEW Section 15 Methodology Infrastructure 14 Layers (Cal v0.2)
+- NEW Section 16 Catalog substrate-cartographic state
+
+Master Doc continues as foundation reference; multi-month to multi-year evolution toward v1.0 as curriculum work + Task #206 alt-HSD comparison + Phase 2 K-audit chain growth compound.
+
+— Keeper update, 2026-05-21 Thursday 11:14 EDT (actual via date; integrates Year 1 v0.5 + T2439 + Phase 2 K-audit K85-K96 + Methodology 14 layers + catalog cartographic state)
