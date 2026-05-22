@@ -2,7 +2,11 @@
 
 *Queued and blocked items. Active work -> CI_BOARD.md. Completed -> CI_BOARD_completed_*.md*
 
-**Last updated:** May 14, 2026. 104 papers. 2227+ toys. T1-T1868. 3990 invariants. **SEVEN MILLENNIUM PROVED.** SP-19 ALL COMPLETE. SP-22 ALL COMPLETE. SP-21 4 remaining. SP-23 ACTIVE (13 tasks). SP-19b, SP-20 TO SCOPE.
+**Last updated:** May 22, 2026 (Friday 09:44 EDT date-verified). 130 papers. 3434+ toys. T1-T2466. 4834 invariants (Grace +111 Friday). **SEVEN MILLENNIUM PROVED.** SP-19 ALL COMPLETE. SP-22 ALL COMPLETE. SP-21 4 remaining. SP-23 ACTIVE. SP-30 ACTIVE (Substrate Engineering Program). SP-31 ACTIVE (Vol 1 QFT-from-D_IV⁵ via 11/11 chapters at v0.3).
+
+**Textbook completion phase active**: Vol 0 (10/10 K85-K106 PASS) + Vol 1 (11/11 v0.3 via K157-K162) + Vol 2 (12/12 v0.3 via K163 + Ch 9 HOLD-resolved Friday) = **23/23 chapters chapter-grade narrative**. Six-gate framework 5/6 closed; Cal cold-read PASS only remaining broad gate. **Calibration #19 STANDING RULE adopted**: external docs use current ratified-state count (10 FORMAL + 1 ASPIRATIONAL + N candidates), not forecast endpoint.
+
+**"No HOLDs" directive (Casey 09:39 EDT)**: every item is workable on board or backlog; structural HOLDs reframed as IN PROGRESS / multi-week / cross-lane gated.
 
 ---
 
@@ -19,12 +23,19 @@
 
 ---
 
-## Blocked Items
+## External-Math-Gated Items (per "no HOLDs" — reframed as external-dependency, not blocked)
 
-| # | Item | Blocked by |
-|---|------|-----------|
-| B-3 | Tate conjecture codim 2+ | Kuga-Satake algebraicity (external math) |
+These items depend on external mathematical results outside BST's control. They are NOT HOLDs — work continues on related items + alternative paths.
+
+| # | Item | External dependency |
+|---|------|----------------------|
+| B-3 | Tate conjecture codim 2+ | Kuga-Satake algebraicity (external math; alt-paths via W-31) |
 | B-4 | Hodge codim 2+ via BST | Generalized KS conjecture (external — W-31 may unblock) |
+
+## Casey-Scoping Items (require Casey decision)
+
+| # | Item | Awaiting |
+|---|------|----------|
 | B-5 | SC-3: "Substrate is not made of anything" | Casey scoping |
 | B-6 | SC-4: "Mathematics all the way down" | Casey scoping |
 
