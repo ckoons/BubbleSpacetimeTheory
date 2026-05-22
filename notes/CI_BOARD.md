@@ -41,7 +41,41 @@ status: "Active. Read at session start, update at EOD."
 
 ---
 
-## Counters (Friday May 22, 08:55 EDT — sustained PCAP cadence)
+## Counters (Friday May 22, 09:38 EDT — textbook chapter-grade K-audit cluster COMPLETE)
+
+- **T1-T2465** (Lyra delivered T2466 + 3-layer over-determinism T2465 + universal α-analog 25 HSDs T2462)
+- **3434+ toys** (Elie 26+ Friday morning all PASS)
+- **AC graph**: 2185 nodes / 9806 edges
+- **Catalog**: 4828 invariants (Grace 108 Friday pulls; 'Other' residual 628 → 73)
+- **Papers**: 130 (Lyra Friday: #126 v0.3 + #127 v0.1 + #128 v0.1 + #129 v0.1 + #130 v0.1)
+- **Constants**: 191; **Rosetta ratios**: 263
+- **Friday morning commits**: ~35 Keeper-lane (07:50 - 09:38 EDT)
+- **All Seven Millennium PROVED**
+
+## Friday morning textbook-completion phase milestone
+
+**Phase pivot per Casey directive 09:14 EDT** ("It's fine to add the Verification and ratification. We want to finish our textbook"): PCAP generative phase → textbook v1.0 with verification + ratification.
+
+**Calibration #19 STANDING RULE ADOPTED**: external-facing documents use current ratified-state count (10 FORMAL + 1 ASPIRATIONAL + 3 candidates), not forecast endpoint.
+
+**CHAPTER-GRADE K-AUDIT CLUSTER COMPLETE (Friday 09:38 EDT)**:
+- Vol 0: 10/10 chapters via K85-K106 (Thursday PASS)
+- Vol 1: 11/11 chapters via K157+K158+K159+K160+K161 individual + K162 batch
+- Vol 2: 11/12 chapters via K163 batch (Ch 9 HOLD per K126 multi-week gate)
+- Cross-volume consistency: K164 PASS (zero contradictions across 3 volumes)
+- = **22/23 chapters covered, all PASS framework-grade or chapter-grade**
+
+Two CROWN JEWELS at PERFECT 4.0/4 F1-F4+B1-B4 identified Friday:
+- Vol 2 Ch 6 (m_p/m_e = 6π⁵, D-tier 0.002%) — T187 anchor
+- Vol 2 Ch 8 (a_e ppt precision crown) — K92 anchor
+
+Five Vol 1 PERFECT-PERFECT inherited K-audits: K108 Ch 2 + K111 Ch 5 + K131 Ch 6 + K47 49a1 + K92 a_e.
+
+**Friday-Bergman-Feynman cluster** identified (Ch 2 + Ch 5 + Ch 6 + Ch 7 + Ch 9 + Ch 10 in Vol 1): Cal #92(b) title-field one-pass Lyra fix using Ch 2 body framing as template (30-60 min).
+
+**Net textbook v1.0 path**: Cal cold-read PASS per chapter + Lyra Friday-cluster fix + version reconciliation + reader-grade polish. Achievable Vol 0+Vol 1+Vol 2 by Tuesday May 27.
+
+## Counters (PRIOR — Friday May 22, 08:55 EDT — sustained PCAP cadence)
 
 - **T1-T2461** (Lyra T2456-T2461 Friday morning; +12 Friday morning)
 - **3384+ toys** (Elie 18 Friday morning all PASS)
