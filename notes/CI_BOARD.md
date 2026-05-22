@@ -247,8 +247,11 @@ Cal's sequential Vol 2 cold-reads are surfacing cross-volume tier-label + precis
 | U7 | Vol 1 Ch 11 + Vol 2 Ch 3 | m_τ/m_e dual-formula reconcile (49·71 vs (24/π²)^6·(7/3)^(10/3)) | Lyra+Elie joint | 15 min |
 | U8 | Vol 2 Ch 3 | Tier-label revisit: m_τ/m_μ borderline D vs I; m_u D vs I given 30-50% PDG uncertainty | Elie | 10 min |
 | U9 | Vol 2 Ch 6 | line 146 Mersenne ladder "6 of 7" → "7 of 7 per K140" + title v0.1→v0.3 — APPLIED Friday afternoon by Lyra ✓ | — | DONE |
+| **U10** | **Vol 2 Ch 10 line 81** | Substrate-energy cap formula: correct E_sub formula or annotate as symbolic log10 identification (Cal #96 Flag 1: formula evaluates 10^33 not 10^17) | Elie | 5-10 min |
+| **U11** | **Vol 2 Ch 10 line 161** | m_β suppression chain: show full ~2.5×10⁻⁶ factor or annotate schematic pending K52a Sessions (Cal #96 Flag 2: formula evaluates keV not meV) | Elie | 5-15 min |
+| **U12** | **Vol 2 Ch 10** | Optional Cal Mode 5 footnote acknowledging GeV-coordinate-specificity of seesaw=17↔10^17 identification | Elie | 2-5 min |
 
-**Total estimated Vol 2 cleanup**: ~60-90 min Lyra+Elie joint absorption. After this + Cal completes Vol 2 cold-reads, Vol 2 reaches same v1.0 chapter-grade content state as Vol 1.
+**Total estimated Vol 2 cleanup**: ~75-115 min Lyra+Elie joint absorption (updated with Cal #96 Ch 10 flags). After this + Cal completes Vol 2 cold-reads (Ch 11 next, then 4, 5, 7, 8, 12), Vol 2 reaches same v1.0 chapter-grade content state as Vol 1.
 
 ---
 
