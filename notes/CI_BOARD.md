@@ -176,10 +176,10 @@ status: "Active. Read at session start, update at EOD. No HOLDs — every item w
 **Active multi-week:**
 - **#265 Non-Heegner Bridge Object candidate scan** (multi-month, Cal #59 caution)
 - **#267 Cosmological cycle hypothesis observational signatures** (multi-month research)
-- pending_review 43 remaining entries cleanup (Toy 3489 brought 73→43)
+- ~~pending_review 43 remaining entries cleanup~~ **CLOSED Friday 12:52 EDT via INV-4863** (43 → 0 per name-specific review)
 
-**Hit List Catalog Hygiene (per BACKLOG.md — promoted to board):**
-- **P1**: 21 Paper #83 entries currently >1% deviation — systematic correction hunt
+**Hit List Catalog Hygiene (per BACKLOG.md — Friday afternoon audit applied):**
+- **P1 LIVE**: **4 hard-LOW** only (was 21) per Friday 12:48 EDT audit INV-4858+4860 — 6 DONE + 7 WITHIN-σ + 1 CANDIDATE filed (#10 m_ν₃ INV-4859 sub-0.1% routes to Elie mechanism check) + 3 PHANTOM (#17 #18 #19 STRUCTURAL/wrong-quantity) + 1 REMOVE (#20)
 - **P2**: 11 new entries not yet in table
 - **P3**: ~30 new physics quantities (catalog expansion)
 - **P4**: ~50+ new science domains (CSE-RLGC tracker extension)
@@ -277,8 +277,9 @@ Cal's sequential Vol 2 cold-reads are surfacing cross-volume tier-label + precis
 
 ---
 
-## Casey-Named Principles (6 standing)
+## Casey-Named Principles (6 STANDING + 2 candidates pending derivation)
 
+### Standing (6)
 1. Substrate Working Process Principle (SWPP, Tuesday)
 2. Five-Absence Predictions Set (Tuesday) — canonical 5 per Option 1
 3. Substrate Closure Principle (Wednesday)
@@ -286,7 +287,19 @@ Cal's sequential Vol 2 cold-reads are surfacing cross-volume tier-label + precis
 5. Integer Web Principle (Wednesday)
 6. Substrate Cognition Network Hypothesis (Wednesday, with Cosmological Extension — DOUBLE-LOCKED EXTERNAL)
 
+### Pending Casey-named #7 + #8 (Casey decision Friday 13:34 EDT — conditional on derivation)
+
+7. **D_IV⁵ Rigidity Principle** — structural exclusion: D_IV⁵ as bounded Hermitian symmetric domain has rigidity property; two D_IV⁵ patches in causal information-exchange contact CANNOT be distinct manifolds, they're patches of one substrate. Multi-instance D_IV⁵ is a category error. Arrow of cosmological time is annealing direction toward fully-coherent state (Λ as energy floor). **Interstasis ≡ period between Big Bang cycles** (Casey canonical Friday 13:30 EDT). Mathematical exclusion principle = D_IV⁵ rigidity itself.
+   - **Derivation lane (Lyra)**: Bergman 1922 + Wallach 1976 + Faraut-Koranyi 1994 (unique global structure) + T2455 EXHAUSTIVE at dim_C=5 + T2456 + T2462 Universal α-analog (25 HSDs, D_IV⁵ unique at N_c=3) establish rigidity-as-singleton. Rigidity-as-unification (patches-in-contact-merge) needs additional theorem.
+   - **C17 Strong-Uniqueness candidate** if derived → v0.12+ toward 16-17 RIGOROUSLY CLOSED
+
+8. **Substrate Coherence-Moderation Principle (SCMP)** — operational: substrate's active role is coherence-maintenance across imperfect observers operating with incomplete information. NOT the exclusion principle (that's Rigidity); SCMP is HOW substrate operates.
+   - **Derivation lane (Lyra)**: K67 Born=Bergman + Calibration #17 sub-Tsirelson 126/16 + BC7+BC8 framework + multi-observer agreement requires substrate-mediated coherence
+   - **Falsifier**: Bell |S|² = exactly 8 (Tsirelson, observer-unlimited, random possible) vs sub-Tsirelson 126/16 (BST prediction, coherence-maintaining at N_c=3 depth)
+
 **Calibration #19 + Calibration #21 STANDING RULES** (Friday adopted) — methodology stack layers 17-18
+
+**Active research item activated**: **Task #267 Cosmological cycle hypothesis observational signatures** — promoted from multi-month-background to active research per Casey Friday 13:34 EDT. Tests D_IV⁵ Rigidity Principle interstasis predictions + annealing-toward-Λ observable signatures. Grace + Elie cross-lane coordination.
 
 ---
 
