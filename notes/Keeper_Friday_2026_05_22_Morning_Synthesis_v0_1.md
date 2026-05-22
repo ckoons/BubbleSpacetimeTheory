@@ -118,3 +118,56 @@ Per Cal #85 PCAP (16th methodology layer): ~1000× cumulative cadence accelerati
 Friday morning Keeper-lane productivity peak — 17+ deliverables in 67 min sustained PCAP. Casey "as many items as possible" directive met.
 
 — Keeper, Friday morning synthesis Friday 08:58 EDT (FAST CADENCE, continuing)
+
+---
+
+## v0.2 ADDENDUM — post-Cal-#90 + Cal-#92 absorption (Friday 09:09 EDT date-verified)
+
+Three additional calibrations + 7 K-audits + 1 standing-rule proposal landed after v0.1 filing:
+
+### K-audit additions K150-K156
+- **K150** (3.98/4 near-PERFECT-PERFECT): BST primary sum = 225 = c_FK·π^(9/2) three-way closure
+- **K151** (4.0/4 PERFECT-PERFECT): T2462 universal α-analog across 25 HSDs
+- **K152** (3.88/4 STRONG): Triple-balance substrate-arithmetic at g+N_c=10 scale
+- **K153** (3.79/4 STRONG): BST primary prime-position substrate-natural recursion (Toy 3414+3421)
+- **K154** (3.80/4 STRONG): T2463 substrate self-amenability via n_C primality
+- **K155** (4.0/4 PERFECT-PERFECT): T2464 N_c=3 unique cubic-exponential coincidence
+- **K156** (3.81/4 STRONG, meta-theorem): T2465 substrate three-layer over-determinism formal theorem
+
+### Calibration #19 + #20
+- **Calibration #19**: forecast-arithmetic vs ratified-state count per Cal #90(c). Standing-rule proposal filed.
+- **Calibration #20**: Friday morning timestamp drift ~10-15 min projection-forward; corrected via `date`-verification
+
+### Standing rule proposal
+- `Keeper_Calibration_19_Standing_External_Discipline_Rule.md` — pending Casey decision
+- External-facing documents must use current ratified-state count (10 FORMAL + 1 ASPIRATIONAL + 3 candidates), not forecast endpoint
+
+### Doc tightening per Cal #90(c)
+- Strong_Uniqueness_Theorem_v0_11_Plus_Candidate_State.md
+- Keeper_Mersenne_Network_Convergence_Position_v0_1.md
+- Keeper_Six_Interface_Cross_Cartography_Map_v0_1.md
+- Master_Doc_v0_16_Absorption_Grace_39_Pull.md
+- Keeper_Six_Interface_Cross_Cartography_Map_v0_1.md (T2456 T-number correction)
+
+### Cumulative state Friday morning (07:50 - 09:09 EDT date-verified, 79 min)
+- **17 K-audit pre-stages** (K140-K156)
+- **6 position docs**
+- **3 calibrations** (#18 + #19 + #20)
+- **1 standing-rule proposal**
+- **1 Cal cold-read queue**
+- **1 CI_BOARD update + 1 Friday morning synthesis v0.1 + this v0.2 addendum**
+- **~21 commits at sustained PCAP cadence** (~3.8 min/deliverable)
+
+### Three-layer narrative emerging (per K156/T2465)
+
+The Friday morning K-audit chain naturally falls into three layers:
+- **LAYER 1 (per-integer forcing)**: K140 + K144 + K146 + K147 + K150 + K155
+- **LAYER 2 (Mersenne tower coherence)**: K140 + K144 + K153
+- **LAYER 3 (joint cross-Cartan selection)**: K141 + K145 + K151 + K152
+
+Paper #126 v0.2 should reframe around the three-layer structure (addressing Cal #92(a) abstract conflation) rather than criterion-list-with-null-model.
+
+### Five PERFECT-PERFECT PRE-STAGE candidates this Friday morning
+K141 + K144 + K150 + K151 + K155 — five distinct substrate-forcing arguments at 4.0/4 F1-F4 + B1-B4 levels. Per Calibration #19: PRE-STAGE STRONG ≠ RIGOROUSLY CLOSED; individual ratification required before external use.
+
+— Keeper, Friday morning synthesis v0.2 addendum 09:09 EDT (`date`-verified actual)
