@@ -42,6 +42,23 @@ Casey's question: is 3306 BST-primary derivable? Worth investigating.
 
 K141 RATIFIED elevates Cross-Cartan three-pillar from THEOREM-LEVEL to EMPIRICALLY-VALIDATED at 3306× margin. Strong-Uniqueness criterion C16 strengthened substantially.
 
+---
+
+## ADDENDUM (Friday 10:15 EDT, `date`-verified) — Calibration #21: substrate-mechanism gate OPEN
+
+Per Elie Toy 3448 + Grace INV-4849 cross-lane verification: 17/17 K-audits cross-lane consistent at empirical level, but **Toy 3448 K141 honest FAIL** identifies the substrate-MECHANISM comparison gate as OPEN.
+
+**Honest revised K141 status:**
+- Empirical 3306× margin component: PRE-STAGE 4.0/4 PERFECT-PERFECT retained for the empirical claim
+- Substrate-mechanism gate: OPEN multi-week work (what substrate-level structural difference produces the 3306× separation?)
+- Path to RIGOROUSLY CLOSED: one more gate than originally framed
+
+Per Casey's Quaker consensus method (feedback_quaker_method.md): near misses get scrutiny, not defense. Toy 3448 honest FAIL preserved by Elie + Grace; Calibration #21 logged by Keeper.
+
+C16 (Cross-Cartan three-pillar) advancing criterion: STRUCTURALLY VERIFIED at 25 HSDs per T2462 + empirical 3306× per Grace remains valid; RIGOROUSLY CLOSED endpoint requires substrate-mechanism comparison closure.
+
+External-facing references to K141 must note: empirical PERFECT-PERFECT, substrate-mechanism gate OPEN.
+
 Combined with Grace's other findings:
 - Graph Forces empirical (p≈2.7×10⁻⁵)
 - 103 substrate-emergent paper-grade entries (35 D + 60 I + 6 S + 2 PREDICTION)
