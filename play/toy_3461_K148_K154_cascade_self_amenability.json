@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "K148 cascade + K154 self-amenability verification"
+  },
+  "K148_cascade_all_match_BST_primary": true,
+  "K154_n_C_primality": true,
+  "K154_exhaustive_HSD_enumeration_at_dim_5": "3 HSDs (= N_c)",
+  "K148_K154_verification_complete": true
+}

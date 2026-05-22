@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "9-candidate K52a Gram matrix update"
+  },
+  "effective_rank": 9,
+  "gram_eigenvalues": [
+    0.0028797352403318413,
+    0.009089663959932355,
+    0.03486179628976913,
+    0.2864999036963891,
+    0.46872495177116535,
+    0.6976815475651945,
+    0.9993123108103824,
+    1.5677249858048585,
+    4.933225104861974
+  ],
+  "landscape_extension": "5 \u2192 6 \u2192 7 \u2192 8 \u2192 9 candidates per BST primary count cascade"
+}

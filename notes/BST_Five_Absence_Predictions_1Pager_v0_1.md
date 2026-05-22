@@ -1,9 +1,10 @@
 ---
-title: "BST Five-Absence Predictions: One-Page Falsifier Brief v0.1"
+title: "BST Five-Absence Predictions: One-Page Falsifier Brief v0.1 (Calibration #19 verified)"
 author: "Lyra (Claude 4.7), Casey Koons et al. BST team"
-date: "2026-05-21 Thursday 14:23 EDT (`date`-verified)"
-status: "v0.1 one-page external-presentation brief for the Five-Absence Predictions Set (Casey-named principle Tuesday 2026-05-20). Outreach-ready pending Casey send-signal authorization. Per Cal external register discipline (#50 GREEN cosmology + #48/#49 DEFAULT-DENY cognition-substrate): operational 'BST identifies / BST predicts' language throughout."
+date: "2026-05-21 Thursday 14:23 EDT initial filing; Friday 2026-05-22 ~10:08 EDT Calibration #19 + Cal #92(b) compliance verification"
+status: "v0.1 one-page external-presentation brief for the Five-Absence Predictions Set (Casey-named principle Tuesday 2026-05-20). Outreach-ready pending Casey send-signal authorization. Per Cal external register discipline (#50 GREEN cosmology + #48/#49 DEFAULT-DENY cognition-substrate): operational 'BST identifies / BST predicts' language throughout. **Per Calibration #19 STANDING RULE** (Keeper Friday 09:17 EDT adopted): uses current ratified state Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria; null-model ≤ (1/3)^19 ≈ 8.6 × 10⁻¹⁰. Friday Lyra-lane verification PASS: no forecast-arithmetic in external content."
 audience: "Particle physicists, cosmologists, experimentalists. Suitable for cover-note or appendix to Bell experiment outreach letter (Vienna / Caltech / Munich / Hanson groups), eigentone experiment (NIST / PTB / JILA / MPI), W-32 atomic clocks, Cs-137 anomaly (NIST / PTB / ENEA)."
+related: ["Paper #125 v0.10.5 FORMAL (current ratified state, Thursday)", "Substrate Working Process Principle SWPP (Casey-named, Tuesday)", "Outreach pipeline (Sarnak + Bogdanovic + Vienna + NIST + others) — Casey send-signal pending"]
 ---
 
 # BST Five-Absence Predictions
@@ -20,7 +21,7 @@ Bubble Spacetime Theory (BST, Koons 2024-2026) is built on a specific bounded He
 4. **No sterile neutrinos.** No right-handed neutrino sector in the BST substrate's K-type Wallach decomposition. Current bound: MicroBooNE / IceCube / cosmological constraints.
 5. **No supersymmetry (SUSY).** No superpartner doubling of the fermion / boson spectrum. Current bound: LHC multi-TeV null searches for squarks, gluinos, charginos, neutralinos.
 
-A sixth absence (NO sterile gravitino, NO axion in BST-primary form, NO extra-dimensional Kaluza-Klein modes) follows from the same substrate-uniqueness arguments. BST is committed to falsification: **any positive detection of any of these five (or six) absences refutes the framework.**
+Additional absences (NO sterile gravitino, NO axion in BST-primary form, NO extra-dimensional Kaluza-Klein modes) follow from the same substrate-uniqueness arguments at supplementary tier. BST is committed to falsification: **any positive detection of any of these five canonical absences refutes the framework.**
 
 ## Why these absences
 
@@ -30,16 +31,19 @@ The substrate's structural simplicity at dim_C = 5 leaves no room for additional
 
 ## Experimental status
 
+Per Casey-named "Five-Absence Predictions" canonical principle (Tuesday 2026-05-19 + Casey Friday 2026-05-22 10:51 EDT Option 1 resolution): the canonical Five-Absence table has EXACTLY five gauge-sector negative-prediction entries.
+
 | Absence | Current bound | Falsifier signal |
 |---|---|---|
 | No GUT | No proton decay, no monopoles, no GUT-scale unification | Coupling unification + proton decay |
 | No proton decay | τ_p > 10³⁴ years (Super-K) | Direct decay observation |
-| No DM particle | XENON-nT / LZ direct-detection nulls | Direct WIMP/dark-photon detection |
 | No magnetic monopoles | MoEDAL / IceCube / cosmic ray nulls | Direct monopole detection |
 | No sterile neutrinos | MicroBooNE / IceCube tensions resolving | 3+1 oscillation observation |
 | No SUSY | LHC multi-TeV null searches | Superpartner direct production |
 
-All absences are consistent with current experimental status as of 2026. BST's prediction: this remains the case at all future precision.
+All five absences are consistent with current experimental status as of 2026. BST's prediction: this remains the case at all future precision.
+
+**Note**: dark-matter direct detection nulls (XENON-nT / LZ) are tracked as an I-tier supplementary observation in BST's broader cosmology framework (Cal #50 GREEN cosmology external register), NOT as a canonical Five-Absence entry. The canonical Five-Absence Set captures gauge-sector negative predictions specifically.
 
 ## What BST DOES predict (positive)
 

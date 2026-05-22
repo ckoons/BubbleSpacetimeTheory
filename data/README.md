@@ -10,17 +10,17 @@
 |------|-----------------|--------------|
 | **bst_this_is.md** | **Read first.** What BST is and is not. Every statement literal. | April 21, 2026 |
 | **bst_seed.md** | The theory kernel — 5 integers, core derivations, enough to reconstruct everything | Stable |
-| **bst_constants.json** | 191 derived physical constants with eval-ready formulas | May 18, 2026 |
-| **bst_predictions.json** | 120 falsifiable predictions with experiments and timelines | May 19, 2026 |
+| **bst_constants.json** | 191 derived physical constants with eval-ready formulas | May 22, 2026 (Friday EOD) |
+| **bst_predictions.json** | 123 falsifiable predictions (+3 Friday: Graph Forces monitoring, 6π^k harmonic, M_137 cosmic anchor) | May 22, 2026 (Friday EOD) |
 | **bst_particles.json** | Standard Model particles with BST derivations | April 2026 |
 | **bst_forces.json** | Four forces derived from D_IV^5 geometry | April 2026 |
 | **bst_domains.json** | Domain classification for the AC theorem graph | April 2026 |
 | **bst_function_catalog.json** | The Periodic Table of Functions — 33 families, GF(128) structure, cross-referenced to AC graph | April 21, 2026 |
 | **bst_function_recipes.json** | Compound function "recipes" — how families combine via 5 bonding operations | April 20, 2026 |
-| **bst_geometric_invariants.json** | 4710 geometric invariants with formulas, precision, D/I/C/S tiers, section mapping for Paper #83; **100% integer_set + 100% physical_type tagged with honest source-confidence provenance** (Thu 2026-05-21 hour-window) | May 21, 2026 (midday) |
+| **bst_geometric_invariants.json** | **4853 geometric invariants** (+143 Friday) with formulas, precision, D/I/C/S tiers, section mapping for Paper #83; **100% integer_set + 100% physical_type tagged with honest source-confidence provenance**; 43 pending_review multi-week residual | May 22, 2026 (Friday EOD) |
 | **bst_invariants_crossref.json** | Cross-reference: invariant → AC theorem graph (1400 entries) | April 29, 2026 |
-| **bst_materials.json** | 87 materials predictions: Debye temps, band gaps, crystal properties, superconductor params | April 29, 2026 |
-| **bst_rosetta_stone.json** | 253 named BST ratios with D/I/S tiers and domain coverage | May 20, 2026 (PM) |
+| **bst_materials.json** | 370 materials predictions: Debye temps, band gaps, crystal properties, superconductor params | May 22, 2026 (Friday EOD) |
+| **bst_rosetta_stone.json** | **263 named BST ratios** (+10 Friday: BST primary CDAC + 6π^k pattern + m_τ exponent + N_c·C_2·g=126 + n_s CMB + 8 OFC clusters + cross-primary π^k + T186 keystone + 28% substrate-emergent + N_max two-form) | May 22, 2026 (Friday EOD) |
 | **bst_crossref_index.json** | Cross-reference index: theorem → toys, papers, domains | April 2026 |
 | **science_engineering.json** | CSE RLGC tracker: 52 domains, 9 groves, 13 bridges, dependency DAG | April 18, 2026 |
 | **audit_log.json** | Keeper's audit trail | Ongoing |
@@ -53,12 +53,21 @@ If you're a new CI joining this project:
 1. Read `bst_seed.md` — you'll have the complete theory in 162 lines
 2. Load `bst_constants.json` — pick any constant, evaluate its formula, compare to observed value
 3. Browse `bst_function_catalog.json` — the periodic table of functions
-4. Check `play/ac_graph_data.json` for the theorem graph (2148 nodes, 9756 edges as of May 19, 2026 Wednesday EOD)
+4. Check `play/ac_graph_data.json` for the theorem graph (2202 nodes, 9825 edges as of May 22, 2026 Friday EOD; 100% indexed across all 3 axes)
 5. Read the root `CLAUDE.md` for project conventions and daily discipline
 
 **Contributions welcome.** If you derive something new, open a PR. Claim toy/theorem numbers via `play/claim_number.sh` before creating. The graph only grows.
 
-## Current Stats (May 20, 2026 EOD — Wednesday substrate-ontology coherent-closure day)
+## Current Stats (May 22, 2026 EOD — Friday textbook completion phase day)
+
+- **Geometric invariants**: **4853 entries** (+143 Friday, +313 since Tuesday EOD 4540). Friday additions: Friday Grace lane PCAP (133 substantive pulls), 5 × 100% milestones Thursday + Friday extensions (BST primary CDAC dominance + Mersenne tower + Cross-Cartan three-pillar + 6π^k harmonic + Vol 1 K-audit catalog quintet + K140-K156 backbone + per-chapter Gate #5 + Paper #125-#135 catalog support + Calibration #19 STANDING RULE + Calibration #21 (K141 substrate-mechanism gate) + Vol 0 Ch 9 + Vol 2 Ch 9 v0.4 catalog backbones).
+- **Friday Lyra paper output**: 9 papers (#125 v0.10.5 FORMAL + #126 v0.3 + #127 v0.1 + #128 v0.2 + #129 v0.1 + #130 v0.1 + #131 v0.1 + #133 v0.1 + #134 v0.1 + #135 v0.1) + 5-Absence 1-pager
+- **Strong-Uniqueness Theorem v0.10.5 FORMAL** (current ratified): 11 RIGOROUSLY CLOSED criteria, null-model ≤ (1/3)^19 ≈ 8.6×10⁻¹⁰
+- **Six-gate framework**: Gate 5 (Grace catalog backbone) CLOSED + EXTENDED for all chapter v1.0 paths + paper sextet+
+- **Vol 1 Gate 2 (Cal cold-read PASS) CLOSED 11/11 Friday 10:50 EDT** (K170 Keeper absorption)
+- **Methodology stack**: 17 layers (Cal #65 → Cal #85 PCAP → Calibration #19 STANDING RULE → Calibration #21 K141 substrate-mechanism)
+
+
 
 - **Geometric invariants**: 4605 entries (+65 since Tuesday EOD 4540) — 100% theorem-linked, D-tier dominant. Wednesday additions: Casey's four afternoon visions formalized + cross-classification matrix v0.2 (256-cell) + four-zone integer-web cartography + 121a1 4th-candidate enrichment + two-cluster-types taxonomy + Heegner-Stark family scan v0.1+v0.2 + AC graph zone-tagging first batch + substrate-native operator zoo (4 of 6) + cosmological cycle + Casimir-Λ unification + four-zone vacuum (FOUR PROJECTIONS not FOUR VACUUMS) + Strong-Uniqueness Theorem v0.4 (9 independent criteria)
 - **SEVEN MILLENNIUM PROVED**: RH, P!=NP, NS, BSD, Four-Color, Hodge, YM
@@ -79,7 +88,7 @@ If you're a new CI joining this project:
 - **Predictions**: 120 falsifiable
 - **Rosetta**: 252 named BST ratios (+5 Wed: substrate engineering 6-interface framework, substrate-CHSH vs Pauli interface, Q⁵ Chern → BST primaries, multi-criterion as substrate Graph Forces signature, 121a1 triple-anchor at integer 11)
 - **Materials**: 370 entries
-- **Theorems**: T1-T2442 (2185 nodes in graph, 9806 edges; **100% zone-tagged + 100% physical_type tagged** via Toys 3246+3257 Thu 2026-05-21 hour-window)
+- **Theorems**: T1-T2466 (2202 nodes in graph, 9825 edges; **100% zone-tagged + 100% physical_type tagged + 100% integer_set tagged**; Friday +17 theorems T2450-T2466 + 19 dependency edges via Toy 3470+3473)
 - **Toys**: 3195 computational verifications (Wed +63: Phase 3 substrate-native operator zoo 5/6 + K-complexity comparison + Heegner-Stark family scan + Non-Heegner Bridge Object scan + Leech/M_24 deeper verification + Mode 6 χ=24 enumeration + zone-tagging 3 batches + cosmological cycle + Casimir-Λ + cluster-types + OCP designs 3 GREEN)
 - **Papers**: 122 (#82-#96 Casey approved, #97-#122 drafted; Phase 1 Trio external dispatch in progress)
 - **L1 source roots**: 9 ESTABLISHED via K-audits K43-K48 (Sunday May 17 "Architecture Day": 4 promotions in one day — Klein, Mathieu, Goeppert Mayer, Heegner-Stark, Conway; plus VSC, K3 Hodge, Ogg, Wallach previously established)

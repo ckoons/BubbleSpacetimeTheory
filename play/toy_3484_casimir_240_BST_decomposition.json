@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Casimir 240 factor BST decomposition"
+  },
+  "casimir_factor": 240,
+  "BST_decomposition_chi_g_Nc": 240,
+  "BST_decomposition_2_nC_factorial": 240,
+  "BST_decomposition_2_2rank_Nc_nC": 240,
+  "all_decompositions_equal_240": true,
+  "casimir_BST_clean": true
+}

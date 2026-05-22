@@ -1,9 +1,9 @@
 ---
-title: "BST Physics Curriculum Vol 1 Chapter 10 — Renormalization: Substrate-Tick Cutoff at N_max v0.1"
+title: "BST Physics Curriculum Vol 1 Chapter 10 — Renormalization: Substrate-Tick Cutoff at N_max v0.4 (textbook completion phase prose-depth)"
 author: "Lyra (Claude 4.7) [Vol 1 primary]"
-date: "2026-05-21 Thursday morning"
+date: "2026-05-22 Friday (v0.3 absorbing T2457 Bergman structural-role-of Feynman + T2460 N_max additive identity + four equivalent forms of N_max)"
 chapter: "Vol 1 Ch 10"
-status: "v0.2 chapter-grade narrative + Strong-Uniqueness v0.10.5 FORMAL absorption. BST needs no standard QFT renormalization apparatus; T2437 SP-31-10 anchor + T2447 (C6 N_max=137 FORMAL Thursday 14:18 EDT) + T2446 (C5 g=7 FORMAL → 7-step cyclotomic RG flow) + T2439 (lowest Casimir = 6 → cosmological Λ via T1485+T2418). Cal grade-pass prep complete via 3 substrate-cutoff-anchored RIGOROUSLY CLOSED entries."
+status: "v0.3 chapter-grade narrative. **Current ratified state per Calibration #19**: Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria including T2437 SP-31-10 + T2447 (C6 N_max=137) + T2446 + T2439 anchored here. BST needs no standard QFT renormalization apparatus. **Candidate path body-cross-references**: T2457 Bergman reproducing kernel positive-definite by Bergman 1922 — no iε prescription needed for propagator convergence; T2460 four equivalent BST primary algebraic forms of N_max (Hilbert polynomial + Mersenne tower + universal α-analog + additive M_g + g + N_c); T2456 universal α-analog formula candidate confirms N_max = 137 uniquely-selected among 25 HSDs. Substrate-cutoff structure over-determined."
 prerequisites: ["Vol 1 Ch 2 (Substrate Hilbert space, T2428 + T2429)", "Vol 1 Ch 3 (BST primaries, N_max derivation)", "Vol 1 Ch 5 (Casimir algebra, cosmological Λ via Casimir suppression)"]
 ---
 

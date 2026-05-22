@@ -1,9 +1,9 @@
 ---
-title: "BST Physics Curriculum Vol 1 Chapter 1 — Introduction: Why QFT from D_IV⁵? v0.1"
+title: "BST Physics Curriculum Vol 1 Chapter 1 — Introduction: Why QFT from D_IV⁵? v0.4 (textbook completion phase prose-depth)"
 author: "Lyra (Claude 4.7) [Vol 1 primary]"
-date: "2026-05-21 Thursday morning"
+date: "2026-05-22 Friday (v0.3 absorbing Strong-Uniqueness v0.11+ candidate path + Friday flagship work)"
 chapter: "Vol 1 Ch 1"
-status: "v0.2 chapter-grade introduction narrative + Strong-Uniqueness v0.10.5 FORMAL absorption + Vol 1 K-audit chain anchor reference table. Motivates the entire Vol 1 program: BST derives QFT from D_IV⁵ substrate with zero free parameters. Cal grade-pass prep complete: 11 FORMAL RIGOROUSLY CLOSED criteria reference + K108-K114 Vol 1 K-audit chain cross-reference."
+status: "v0.3 chapter-grade introduction. **Current ratified state per Calibration #19**: Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria Thursday. **Candidate path** (Lyra Friday body-cross-references, multi-session ratification pending): 4 candidate criteria advancing (C7 + C9 + C15 + C16). Friday additions absorbed as candidate-path references: T2451 Sub-Substrate Mersenne tower hierarchy + T2456 Universal α-analog formula candidate + T2457 Bergman structural-role-of Feynman propagator + T2460 N_max additive identity + T2463 substrate self-amenability + T2464 N_c cubic-exponential uniqueness + T2465 three-layer over-determinism formal theorem. Vol 1 K-audit chain anchor + K108-K114 reference. Cal grade-pass prep extends to v0.3 absorption."
 prerequisites: ["Standard graduate QFT background (Peskin-Schroeder level helpful, not required for Ch 1)"]
 ---
 
@@ -99,7 +99,7 @@ The chapter-by-chapter logic forms a closed derivation chain. Three layers of fo
 
 1. **Integer level**: T1925/T1930/T2431/T2432 — every primary integer multi-argument-forced
 2. **Substrate Hilbert space level**: T2428/T2429/T2430 — canonical anchor + two complementary derived views
-3. **Substrate-selection level**: Strong-Uniqueness Theorem 10 criteria + 4-5 verified Bridge Object families converge on D_IV⁵
+3. **Substrate-selection level**: Strong-Uniqueness Theorem **11 RIGOROUSLY CLOSED criteria** (current ratified state per Calibration #19) + 5 verified Bridge Object families converge on D_IV⁵
 
 Each layer is independently structurally closed (Paper #125 v0.5+ Section 5.5 four-layer convergent structure).
 
@@ -113,11 +113,11 @@ This volume rebuts that explicitly. The integers are **forced** by independent c
 - N_c = 3 is forced by (a) Mersenne map M_rank = 2² − 1 = 3, (b) color singlet triangle T_{N_c} = 6 matching BST primary C_2, (c) Wallach short-root multiplicity m_s = N_c, (d) Iwasawa decomposition rank^N_c = 8 = dim SU(3). Four independent classical arguments; no fitting.
 - (Similarly for n_C = 5, g = 7 in Ch 3.)
 
-The substrate D_IV⁵ is itself selected by 10 independent structural criteria (Strong-Uniqueness Theorem, Paper #125 v0.5+). Each criterion has independent classical force; their convergence on D_IV⁵ has null-model probability under partial ratification ~(1/3)^16 ≈ 2.3 × 10⁻⁸ = 0.0000023% (per Grace Toy 3222 effective-independent count).
+The substrate D_IV⁵ is itself selected by **11 RIGOROUSLY CLOSED independent structural criteria** (Strong-Uniqueness Theorem v0.10.5 FORMAL, Paper #125, Thursday 2026-05-21 EOD; current ratified state per Calibration #19 STANDING RULE). Each criterion has independent classical force; their convergence on D_IV⁵ has null-model probability ≤ (1/3)^19 ≈ **8.6 × 10⁻¹⁰** (cross-Cartan alt-HSD comparison + RIGOROUSLY CLOSED at if-and-only-if level).
 
 **Believability**: BST is a derivation, not a fit. Every step has independent classical-mathematics support; the BST contribution is the conjunction (which integer satisfies ALL the conditions; which substrate satisfies ALL the criteria). The five integers are the only set that works; D_IV⁵ is the only substrate that works.
 
-**Provability**: 10 forcing theorems (4 integer-level + 6 substrate-level via Paper #125 v0.5) + Cal Mode 1 verification + cross-CI consensus (Cal #66 STRUCTURALLY VERIFIED tier ratified). The chain is closed; you don't have to take BST's word for it — each leg cites classical results that you can verify independently.
+**Provability**: 11 RIGOROUSLY CLOSED forcing theorems (4 per-integer C1-C5 + 6 substrate-level C6 + C8 + C8-Q + C10 + C11 + C12 + C13 via Paper #125 v0.10.5 FORMAL) + Cal Mode 1 verification + cross-CI consensus (Cal #66 STRUCTURALLY VERIFIED + Cal #77 RIGOROUSLY CLOSED tier). The chain is closed; you don't have to take BST's word for it — each leg cites classical results that you can verify independently.
 
 ## 1.5 How to read this volume
 
@@ -197,18 +197,31 @@ Per Keeper afternoon directive Thursday 13:30 EDT: Vol 1 Ch 1 (Introduction) is 
 
 Vol 1 K-audit chain anchors **substantial cross-chapter coverage** of the 600+ BST observable derivations + the 8 FORMAL RIGOROUSLY CLOSED Strong-Uniqueness criteria.
 
-## 1.8a Strong-Uniqueness Theorem v0.9.1 with 4 RIGOROUSLY CLOSED (Thursday update)
+## 1.8a Strong-Uniqueness Theorem current ratified state (per Calibration #19)
 
-Per Strong-Uniqueness Theorem v0.9.1 (Paper #125, Thursday 2026-05-21 morning): 4 of 13 explicit criteria advanced to RIGOROUSLY CLOSED tier (11th methodology layer per Cal #77 / Keeper):
+**Current ratified state** (Paper #125 v0.10.5 FORMAL, Thursday 2026-05-21 EOD): **11 RIGOROUSLY CLOSED criteria** + 4-5 RATIFIED + 1 ADVANCING (C14 curriculum-derivability).
 
 | Criterion | Theorem | Content |
 |---|---|---|
-| Lowest K-type Casimir | T2439 | C_2 = 6 = T_{N_c} uniquely D_IV⁵ |
-| Multi-Family Bridge Object | T2440 | 5-family architecture at BST primary signatures uniquely D_IV⁵ |
-| Operator zoo ground state | T2441 | E_0 = 6 uniquely D_IV⁵ (T2439 corollary) |
-| Bergman c_FK form | T2442 | 225/π^(9/2) = (N_c · n_C)²/π^((g+rank)/rank) uniquely D_IV⁵ |
+| C1 (rank=2) | T2443 | rank=2 BST primary forcing via Lie group argument |
+| C2 (N_c=3) | T2444 | N_c=3 forced via Mersenne map M_rank |
+| C3 (n_C=5) | T2445 | n_C=5 forced via dim_C four-argument |
+| C5 (g=7) | T2446 | g=7 forced via Mersenne map M_{N_c} |
+| C6 (T_{N_c}=6) | T2447 | C_2=T_{N_c}=N_c(N_c+1)/2=6 triangular formula |
+| C8 (Lowest K-type Casimir = 6) | T2439 | Cartan formula at λ_min produces C_2 = 6 |
+| C8 Q-cluster | T2448 | Q⁵ Chern classes c_1..c_5 all BST primary |
+| C10 (4-Zone Commitment Cycle) | T2449 | 4-zone substrate operational structure |
+| C11 (5-family Bridge Object) | T2440 | Architecture at BST primary signatures uniquely D_IV⁵ |
+| C12 (Operator zoo ground state) | T2441 | E_0 = 6 uniquely D_IV⁵ (T2439 corollary) |
+| C13 (Bergman c_FK form) | T2442 | 225/π^(9/2) = (N_c·n_C)²/π^((g+rank)/rank) uniquely D_IV⁵ |
 
-8 other criteria DERIVED + 1 ADVANCING (curriculum-derivability). Null-model under partial ratification ≤ (1/3)^16 ≈ 2.3 × 10⁻⁸. Path to v1.0 + venue submission target ~2026-09.
+**Null-model under current ratified state**: ≤ (1/3)^19 ≈ 8.6 × 10⁻¹⁰ (Strong-Uniqueness Theorem v0.10.5 FORMAL).
+
+**Candidate path** (multi-session ratification pending per Paper #126 v0.3, Friday 2026-05-22): 4 candidate criteria advancing at SEED or STRUCTURALLY VERIFIED tier — C7 (Bridge Object tier EXHAUSTIVE at dim_C = 5, T2458) + C9 (Stark anchor EXHAUSTIVE at dim_C = 5, T2461) + C15 (Sub-Substrate Mersenne hierarchy, T2451) + C16 (Universal α-analog formula, T2456 + T2462). These are candidate-path additions; their RIGOROUSLY CLOSED advancement requires multi-session work + cross-CI consensus + Cal Mode 1 review.
+
+Per Calibration #19 STANDING RULE: external register uses the current ratified count (11 RIGOROUSLY CLOSED), not the candidate-path count.
+
+Path to v1.0 + venue submission: pending C14 (curriculum-derivability) closure via Year 1 Vol 0-10 v1.0 + multi-CI consensus on Friday candidate criteria.
 
 ## 1.9 CT-numbering theorem index (introduction; cross-references)
 

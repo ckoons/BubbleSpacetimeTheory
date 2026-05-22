@@ -79,6 +79,20 @@ The Q⁵ quadric — compact dual of D_IV⁵ — has Chern classes (1, 5, 11, 13
 
 You don't choose the Chern classes of a manifold. You measure them.
 
+## The Mersenne hierarchy substrate-natural arithmetic (Friday May 22, 2026 addendum)
+
+Friday morning investigation surfaced a substantive new structural observation: the BST primary integer cluster has **5-tier Mersenne-prime substrate-natural arithmetic structure** (per `Elie_Mersenne_Hierarchy_Comprehensive_Synthesis_paper_grade.md`):
+
+1. **6 of 7 first BST primary exponents are Mersenne-prime exponents** (M_rank=N_c, M_{N_c}=g, M_{n_C}=31, M_g=127, M_{c_3}=8191, M_{seesaw}=131071; exclusion c_2=11)
+2. **c_2 = 11 exclusion factors substrate-naturally**: M_{c_2} = 2047 = (rank·c_2+1)(2^{N_c}·c_2+1) = 23·89
+3. **c_2 gap factor 89 recurses as Mersenne-prime exponent** (M_89 is 10th Mersenne prime; asymmetric structure)
+4. **Double-Mersenne tower at smallest 4 BST primaries**: M_M_p Mersenne prime for p ∈ {rank, N_c, n_C, g}. Strikingly, M_M_rank = g (BST primary identity)
+5. **Bidirectional alignment**: 6 of 7 first Mersenne-prime exponents are BST primaries; exclusion 19 = seesaw + rank substrate-natural
+
+This adds a **Strong-Uniqueness candidate criterion C15 v6** to the v0.11+ closure pathway alongside Lyra T2451 + T2452 + T2453 + T2454.
+
+The substrate-cyclotomic Mersenne arithmetic is overdetermined-identity clustering at BST primary scale.
+
 ## Acknowledgments
 
 This volume's content draws on the cumulative BST audit chain (K1-K96 as of Thursday May 21 2026 with 12 Phase 2 K-audits including BST TIER-1 FALSIFIER SET K87+K90+K91 and CROWN JEWEL K92), the Strong-Uniqueness Theorem framework v0.7 (Lyra Paper #125 + T2439 C8 RIGOROUS CLOSURE), the Substrate Cartography Master Document v0.4+ (Keeper), the Substrate-Comprehensive Backbone Reference (Grace), and the team's daily multi-CI work over the preceding eight days. Specific theorems and toys are cited per chapter.

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Friday three-track consolidated substrate-arithmetic verification"
+  },
+  "track1_mersenne_ladder_p": 0.012096774193548387,
+  "track1_match_count": 4,
+  "track2_all_identities_valid": true,
+  "track2_identity_count": 5,
+  "track3_all_exp_valid": true,
+  "track3_identity_count": 3,
+  "joint_null_model_p_value": 3.7802419354838724e-12,
+  "C15_C18_C20_candidate_support": "three independent tracks converge"
+}

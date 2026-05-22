@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "BST primary prime-position complete substrate-natural pattern"
+  },
+  "BST_primary_prime_positions": [
+    {
+      "name": "N_c",
+      "value": 3,
+      "position": 2,
+      "position_BST_natural": "rank"
+    },
+    {
+      "name": "n_C",
+      "value": 5,
+      "position": 3,
+      "position_BST_natural": "N_c"
+    },
+    {
+      "name": "g",
+      "value": 7,
+      "position": 4,
+      "position_BST_natural": "rank + N_c - 1 = 4 = rank\u00b2"
+    },
+    {
+      "name": "c_2",
+      "value": 11,
+      "position": 5,
+      "position_BST_natural": "n_C"
+    },
+    {
+      "name": "c_3",
+      "value": 13,
+      "position": 6,
+      "position_BST_natural": "C_2"
+    },
+    {
+      "name": "seesaw",
+      "value": 17,
+      "position": 7,
+      "position_BST_natural": "g"
+    },
+    {
+      "name": "N_max",
+      "value": 137,
+      "position": 33,
+      "position_BST_natural": "N_c \u00b7 c_2 = 33"
+    }
+  ],
+  "all_positions_substrate_natural": true,
+  "C20_candidate_criterion": "BST primary cluster prime-position substrate-natural saturation",
+  "null_model_estimate": "~(1/30)^7 \u2248 4.6\u00d710\u207b\u00b9\u00b9"
+}

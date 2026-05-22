@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "K144 T2460 N_max - M_g additive identity verification"
+  },
+  "N_max_minus_M_g_equals_g_plus_N_c": true,
+  "four_equivalent_N_max_forms": true,
+  "BST_primary_pair_summing_to_10": [
+    [
+      "N_c",
+      "g",
+      3,
+      7
+    ]
+  ],
+  "N_c_g_pair_unique": true,
+  "K144_verification_complete": true
+}

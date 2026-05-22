@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Flagship #1 Sub-Substrate Mersenne Tower investigation"
+  },
+  "tower": [
+    {
+      "n": 7,
+      "M_n": 127,
+      "factors": [
+        127
+      ]
+    },
+    {
+      "n": 6,
+      "M_n": 63,
+      "factors": [
+        3,
+        3,
+        7
+      ]
+    },
+    {
+      "n": 5,
+      "M_n": 31,
+      "factors": [
+        31
+      ]
+    },
+    {
+      "n": 4,
+      "M_n": 15,
+      "factors": [
+        3,
+        5
+      ]
+    },
+    {
+      "n": 3,
+      "M_n": 7,
+      "factors": [
+        7
+      ]
+    },
+    {
+      "n": 2,
+      "M_n": 3,
+      "factors": [
+        3
+      ]
+    },
+    {
+      "n": 1,
+      "M_n": 1,
+      "factors": [
+        1
+      ]
+    }
+  ],
+  "flagship_answer_preliminary": "YES \u2014 sub-substrate Mersenne tower has BST primary structure at majority of levels",
+  "bst_primary_levels": {
+    "M_g": "127 (Mersenne prime; \u2260 N_max but related: N_max - M_g = g + N_c)",
+    "M_{g-1}": "63 = N_c\u00b2 \u00b7 g (sub-substrate UNIQUE at BST primaries)",
+    "M_{g-2}": "31 (Mersenne prime; tower gap)",
+    "M_{g-3}": "15 = N_c \u00b7 n_C (BST primary product)",
+    "M_{g-4}": "7 = g (BST primary self-reference)",
+    "M_{g-5}": "3 = N_c (BST primary)",
+    "M_{g-6}": "1 (unity)"
+  },
+  "v0_11_plus_criterion_candidate": "C15 Sub-Substrate Mersenne Tower BST primary saturation",
+  "multi_week_extensions": [
+    "Verify tower at higher (g, N_c) values",
+    "Identify substrate cyclotomic + Mersenne interplay mechanism",
+    "Cross-link to K59 cyclotomic + K76 Leech"
+  ]
+}

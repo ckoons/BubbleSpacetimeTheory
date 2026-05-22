@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "T2466 Mersenne-prime density extended verification"
+  },
+  "mersenne_exponents_in_N_max": [
+    2,
+    3,
+    5,
+    7,
+    13,
+    17,
+    19,
+    31,
+    61,
+    89,
+    107,
+    127
+  ],
+  "bst_prime_primaries": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    137
+  ],
+  "bst_mersenne_match": [
+    2,
+    3,
+    5,
+    7,
+    13,
+    17
+  ],
+  "bst_density_percent": 75.0,
+  "overall_density_137_percent": 36.36363636363637,
+  "null_model_p_value": 0.012096774193548387,
+  "C18_candidate_support": "observational strong, null-model significant"
+}

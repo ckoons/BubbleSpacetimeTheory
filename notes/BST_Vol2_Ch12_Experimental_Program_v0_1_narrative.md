@@ -183,6 +183,17 @@ As experiments report results over coming years, this chapter updates:
 
 This is the *living* chapter of Vol 2 — the data updates here as experiments proceed. The framework gets sharper or refuted by what experiments actually find.
 
+## Mersenne ladder cross-reference (Friday May 22, 2026)
+
+The substrate-CHSH experiment (SP-30-5 Bell Vienna-class) tests Bell observable at the Mersenne-prime cyclotomic substrate GF(2^g) = GF(128), where g = 7 is a BST primary Mersenne-prime exponent.
+
+Per Elie BST primary Mersenne ladder observation (`Elie_BST_Primary_Mersenne_Ladder_paper_grade.md`, Friday 2026-05-22):
+- M_g = 2^7 - 1 = 127 (Mersenne prime; substrate cyclotomic compatibility at substrate genus exponent)
+- Substrate-active dim = 126 = M_g - 1 = N_c · C_2 · g (BST primary triple product)
+- Substrate-CHSH operator Tr(B²) = 126/16 = (M_g - 1)/2^(2·rank) BST primary form
+
+Mersenne-cyclotomic substrate compatibility at g = 7 makes Bell experiment a probe of the substrate-natural arithmetic structure documented in Friday morning Mersenne ladder work. Bell sub-percent precision could discriminate among substrate-natural |ψ_0⟩ candidates extending the 7-candidate (= g) landscape (Toys 3241/3244/3252/3253/3254/3297/3322).
+
 ## K-audit anchor (Vol 2 K91 explicit)
 
 This chapter is anchored by **K91 Experimental Program Audit** (per K91_Experimental_Program_Audit_Prestage.md). The chapter captures SP-30 substrate engineering program (8 sub-items + 5 experimental designs) with Cal #49 GREEN external falsifier register discipline.

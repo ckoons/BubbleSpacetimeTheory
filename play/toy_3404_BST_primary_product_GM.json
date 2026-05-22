@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "BST primary product/GM observation"
+  },
+  "product": 10071341280,
+  "geometric_mean": 10.007111327848333,
+  "g_plus_N_c": 10,
+  "GM_close_to_g_plus_N_c": true,
+  "log10_product_close_to_10": true,
+  "triple_balance_observation": "GM + log + sum-FK all at g+N_c = 10 scale"
+}

@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "K152 triple-balance + K153 prime-position verification"
+  },
+  "K152_triple_balance_verified": true,
+  "K152_null_model_count": 0,
+  "K153_position_natural_count": 7,
+  "K153_all_BST_primary_positions_substrate_natural": true
+}

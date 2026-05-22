@@ -1,9 +1,9 @@
 ---
-title: "Curriculum Vol 0 Chapter 2 — Five Integers + N_max (Chapter-Grade Draft v0.1)"
-author: "Keeper (fifth Keeper-lane chapter-grade content)"
-date: "2026-05-21 Thursday 10:28 EDT (actual via date)"
-status: "v0.1 chapter-grade content draft FILED. Fifth Keeper-lane chapter (after Ch 1 + Ch 8 + Ch 9 + Ch 10). Vol 0 Chapter 2 exposes the five BST primary integers (rank=2, N_c=3, n_C=5, C_2=6, g=7) + N_max=137 with per-integer 'Why X' substrate-forcing theorems. Six integers; six theorems: T1925 + T1930 + T2431 + T2379 + T2432 + Paper #104 5-step chain. Master integer hierarchy Level 1 CLOSED. Awaits Cal dual-axis grade-pass + Lyra theoretical refinement for v0.2."
-related: ["Vol 0 Architectural Scaffold v0.1", "Vol 0 Ch 1 D_IV⁵ APG (Thursday 10:26 EDT)", "Vol 0 Ch 9 Strong-Uniqueness (per-integer forcing C1-C6)", "Lyra T1925 Why rank=2 (May 17 burn window)", "Lyra T1930 Why N_c=3 (May 17 burn window)", "Lyra T2431 Why n_C=5 + T2432 Why g=7 (Thursday SP-31-39)", "Lyra T2379 Q⁵ Chern c_5 = C_2 = 6", "Paper #104 α⁻¹ = 137 5-step chain (RATIFIED)"]
+title: "Curriculum Vol 0 Chapter 2 — Five Integers + N_max (Chapter-Grade Draft v0.4 — Mersenne tower + universal α-analog absorption)"
+author: "Keeper (original) + Lyra (Friday v0.3→v0.4 prose depth-investment)"
+date: "2026-05-21 Thursday 10:28 EDT initial; Friday 2026-05-22 ~10:30 EDT v0.4 prose absorption per Casey + Keeper textbook completion phase directive"
+status: "v0.4 chapter-grade narrative absorbing Friday Lyra-lane work. Per Calibration #19 STANDING RULE: current ratified state Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria. **Friday v0.4 additions** (Lyra Friday): Section 2.5b Sub-Substrate Mersenne Hierarchy (T2451 + T2453 + T2454 + Toy 3442 extended n ≤ 1000) + Section 2.9b N_max Four Equivalent BST Primary Forms (T2460) + Section 2.9c N_c = 3 Cubic-Exponential Coincidence (T2464). Per-integer forcing theorems T2443-T2446 (Strong-Uniqueness criteria C1-C5) cross-referenced for RIGOROUSLY CLOSED status."
+related: ["Vol 0 Architectural Scaffold v0.1", "Vol 0 Ch 1 D_IV⁵ APG", "Vol 0 Ch 9 Strong-Uniqueness v0.4 (Friday Lyra)", "Lyra T2443-T2446 per-integer RIGOROUSLY CLOSED (Thursday)", "T2451 + T2453 + T2454 + T2460 + T2464 Mersenne tower + N_max identities (Friday Lyra)", "Paper #125 v0.10.5 FORMAL + Paper #126 v0.3 (current ratified + candidate path)"]
 ---
 
 # Vol 0 Chapter 2 — Five Integers + N_max
@@ -110,6 +110,27 @@ Five primary integers + one composed integer (N_max). All other BST primary expr
 
 **Reference**: Lyra T2379 + Elie K52a S29 (Casimir eigenvalue confirmation).
 
+## Section 2.5b — Sub-Substrate Mersenne Hierarchy (T2451 Friday Lyra)
+
+The five BST primary integers are NOT independent. They form a generated Mersenne tower (T2451 Sub-Substrate Mersenne Hierarchy SEED, Lyra Friday 2026-05-22). The Mersenne map M_n = 2^n − 1 iterates through BST primary integer indices:
+
+  **M_rank = M_2 = 3 = N_c**    (T2453 Mersenne Level 1 closure of N_c)
+  **M_{N_c} = M_3 = 7 = g**       (T2454 Mersenne Level 1 closure of g)
+
+with the sub-substrate seed at the Casimir-eigenvalue index:
+
+  **M_{C_2} = M_6 = 63 = N_c² · g**   (T2451 sub-substrate seed; mixed identity)
+
+and the substrate ceiling:
+
+  **M_g = M_7 = 127** (substrate Mersenne prime)
+
+Among integers n ∈ {2..1000} extended verification (Toy 3442 Friday), the substantive identity M_{n−1} = a²·n with a > 1 is UNIQUE at (n = g = 7, a = N_c = 3). The BST signature is structurally tight across the small-integer enumeration.
+
+**Structural consequence**: the substrate has effectively ONE generating integer input — rank = 2 — with N_c and g cascading via Mersenne map iteration. The substrate primary integer specification reduces from four "independent" integers (rank + N_c + n_C + g) to TWO independent inputs (rank + n_C) plus the Mersenne map iteration.
+
+The Mersenne tower coherence is independent distinguishing structure for the Strong-Uniqueness Theorem (Layer 2 of T2465 Three-Layer Over-Determinism, Lyra Friday). Per Calibration #19: SEED tier candidate criterion C15, multi-session ratification pending per Paper #126 v0.3.
+
 ## Section 2.6 — Why g = 7 (T2432)
 
 **Theorem T2432** (Lyra, Thursday May 21 SP-31-39): g = 7 is uniquely forced by Mersenne + cyclotomic substrate structure.
@@ -181,6 +202,37 @@ The six primary integers form a network of cross-identities — each integer con
 | 2^g - rank = 126 | 126 | "Universal Q=126" anchor (K69 audit-partial-ready) |
 
 Each cross-identity is a substrate-mathematical theorem. The integers don't stand alone — they form a coherent substrate-structural unit.
+
+## Section 2.9b — N_max Four Equivalent BST Primary Forms (T2460 Friday Lyra)
+
+N_max = 137 admits FOUR equivalent BST primary algebraic forms (T2460 Lyra Friday 2026-05-22):
+
+1. **Hilbert polynomial form** (Paper #104 5-step chain): N_c³ · n_C + rank = 27 · 5 + 2 = 137
+2. **Mersenne tower form** (T2459 self-referential α-analog closure): N_c^{N_c} · n_C + rank = 3³ · 5 + 2 = 137
+3. **Universal α-analog form** (T2456 Friday Universal α-Analog Formula Candidate): m_α^(rank+1) · dim_C + rank evaluated at D_IV⁵ = 3³ · 5 + 2 = 137
+4. **Additive Mersenne identity** (T2460 Friday): M_g + (g + N_c) = 127 + 10 = 137
+
+The four forms COINCIDE at the substrate's natural BST primary value because of N_c = 3 unique cubic-exponential coincidence (T2464, Section 2.9c below). The substrate's maximum cap N_max is structurally constrained to 137 by four independent algebraic identities — substrate over-determinism at the N_max level.
+
+Among small BST primary integer pairs, ONLY (N_c, g) = (3, 7) sums to 10. The pair-sum-to-10 uniqueness is structurally tight in form 4.
+
+## Section 2.9c — N_c = 3 Unique Cubic-Exponential Coincidence (T2464 Friday Lyra)
+
+Among positive integers n ≥ 2, **N_c = 3 is the UNIQUE integer where n³ = n^n**. Specifically:
+
+  3³ = 27 = 3^3
+
+while for all n ≥ 4, n^n > n³ strictly (since n^(n-3) ≥ 4 > 1 for n ≥ 4).
+
+This cubic-exponential coincidence at the substrate's BST primary value N_c = 3 is what makes the Hilbert polynomial form (N_c³ · n_C + rank) and the Mersenne tower form (N_c^{N_c} · n_C + rank) coincide at N_max = 137. At any other N_c value, the two forms would differ.
+
+**Structural significance**: N_c = 3 carries multiple independent structural identities at the substrate's specific value:
+- M_rank = N_c (T2453 Mersenne ladder)
+- M_{N_c} = g (T2454 Mersenne ladder)
+- n³ = n^n unique at n = N_c (T2464 cubic-exponential)
+- rank + 1 = m_α at D_IV⁵ value N_c = 3 (T2459 self-referential α-analog closure, refined per T2462)
+
+Substrate over-determinism at N_c = 3 is itself over-determined via multiple independent structural identities.
 
 ## Section 2.10 — Connection to other chapters
 

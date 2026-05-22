@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Substrate GF(2^g) \u2194 Mersenne ladder connection"
+  },
+  "GF_2g_order": 128,
+  "GF_2g_mult_order": 127,
+  "M_g_is_substrate_field_mult_order": true,
+  "mersenne_ladder_ceiling": "substrate field multiplicative group order",
+  "hypothesis_for_Lyra_S17_S18": "BST primary Mersenne alignment forced by RS-coding on GF(2^g)",
+  "K59_cross_link": "substrate Reed-Solomon code provides mechanism path"
+}

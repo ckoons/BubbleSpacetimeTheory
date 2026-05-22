@@ -114,6 +114,17 @@ Lyra T2436 SP-31-8 Tier-1 sub-item (Thursday May 21) is the formal theorem-grade
 - **Cal Flag 3 lines avoided**: no "substrate computes SU(3)" or "substrate IS gauge group" framing
 - **Honest scope**: chapter identifies the gauge group structure; full anomaly-cancellation derivation in BST primary form remains multi-month
 
+## Mersenne ladder cross-reference (Friday May 22, 2026)
+
+The Standard Model gauge group SU(3) × SU(2) × U(1) involves BST primaries N_c = 3 and rank = 2 — both **Mersenne-prime exponents** at the smallest BST primary scales:
+
+- M_rank = M_2 = 3 = N_c (Mersenne, BST primary identification)
+- M_{N_c} = M_3 = 7 = g (Mersenne, BST primary identification)
+
+Per Elie Friday Mersenne hierarchy synthesis (`Elie_Mersenne_Hierarchy_Comprehensive_Synthesis_paper_grade.md`): SU(N_c) color group acts on substrate where N_c emerges from rank → M_rank Mersenne ascent; SU(rank) acts on substrate where rank is the smallest BST primary exponent itself.
+
+The substrate-cyclotomic Mersenne ladder reinforces the gauge group structure derivation: gauge group structures are anchored in BST primary Mersenne-prime-exponent hierarchy at smallest substrate scales.
+
 ## K-audit anchor (Vol 2 K93 explicit)
 
 This chapter is anchored by **K93 SM Gauge Group Audit** (foundational; per K_Audit_Pipeline_Phase2_Chapter_Category_Scoping.md; Thursday May 21 10:13 EDT filing). The chapter captures SU(3) × SU(2) × U(1) gauge group structure forced by D_IV⁵ substrate per Lyra SP-31-12 isotropy chain decomposition.

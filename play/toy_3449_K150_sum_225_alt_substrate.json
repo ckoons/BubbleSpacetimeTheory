@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "K150 sum=225 alt-substrate test verification"
+  },
+  "D_IV_5_sum_closure_verified": true,
+  "alt_HSD_canonical_primary_cluster": false,
+  "K150_substrate_mechanism_uniqueness": "D_IV\u2075 has canonical primary cluster; alt-HSDs lack it"
+}

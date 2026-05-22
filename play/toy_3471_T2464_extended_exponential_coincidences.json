@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "T2464 extended exponential coincidence search"
+  },
+  "T2464_unique_cubic_exp": "n^n = n^3 at n=3=N_c",
+  "rank_2_4_unique_pair": "(2,4) only non-trivial n^k = k^n solution",
+  "N_c_cubed_n_C_plus_rank": 137,
+  "three_substrate_exp_identities": true,
+  "C20_extension_support": "observation supports broader C20 candidate scope"
+}

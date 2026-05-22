@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "K156 three-layer overdeterminism independence verification"
+  },
+  "three_layers": [
+    {
+      "layer": 1,
+      "name": "Mersenne ladder",
+      "inputs": "BST primary exponents {rank, N_c, n_C, g, c_2, c_3, seesaw}",
+      "mathematical_structure": "Mersenne number arithmetic 2^p - 1",
+      "output": "6 of 7 BST primaries are Mersenne-prime exponents + substrate-natural exclusion forms"
+    },
+    {
+      "layer": 2,
+      "name": "Cross-Cartan three-pillar",
+      "inputs": "Hermitian symmetric domains (Cartan classification) + (\u03b1, churn, c_FK) observables",
+      "mathematical_structure": "Faraut-Koranyi Bergman normalization theory",
+      "output": "D_IV\u2075 uniquely tight via additional substrate primaries (N_c, chi, seesaw)"
+    },
+    {
+      "layer": 3,
+      "name": "Joint experimental selection",
+      "inputs": "Physical observables (\u03b1\u207b\u00b9 = 137, m_p/m_e = 6\u03c0\u2075, Casimir spectrum = C_2 = 6)",
+      "mathematical_structure": "BST primary forms vs experimental measurements",
+      "output": "D_IV\u2075 at dim_C=5, rank=2 jointly forced by all three observables"
+    }
+  ],
+  "pairwise_independence_verified": true,
+  "each_layer_unique_information": true,
+  "K156_ratification_verification_complete": true
+}

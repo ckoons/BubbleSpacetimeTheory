@@ -1,8 +1,8 @@
 ---
-title: "Curriculum Vol 0 Chapter 5 — Boundary Conditions (Chapter-Grade Draft v0.1)"
-author: "Keeper (ninth Keeper-lane chapter-grade content)"
-date: "2026-05-21 Thursday 10:33 EDT (actual via date)"
-status: "v0.1 chapter-grade content draft FILED. Ninth Keeper-lane chapter. Vol 0 Chapter 5 exposes substrate boundary condition framework: 6 internal BCs + 2 external BCs per Casey vision. Internal BCs: bulk side + Shilov boundary + 4-zone active edges. External BCs: cognition coupling (DEFAULT-DENY EXTERNAL) + cosmological coupling (DOUBLE-LOCKED EXTERNAL). Connection to Vol 0 Ch 3 (Substrate Operating System) 4-zone cycle + Vol 0 Ch 6 Integer Web Principle. SP-31-40 multi-month per-BC theorems pending."
+title: "Curriculum Vol 0 Chapter 5 — Boundary Conditions (Chapter-Grade Draft v0.4 — Λ-Casimir + cosmological absorption)"
+author: "Keeper (original) + Lyra (Friday v0.3→v0.4 prose depth-investment)"
+date: "2026-05-21 Thursday 10:33 EDT initial; Friday 2026-05-22 ~10:40 EDT v0.4 prose absorption per Casey + Keeper textbook completion phase"
+status: "v0.4 chapter-grade narrative. Per Calibration #19 STANDING RULE: current ratified state Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria. **Friday v0.4 additions** (Lyra Friday): Λ-Casimir vacuum unification (T2418 Wednesday) connects substrate cosmological boundary conditions to laboratory Casimir effect — Paper #135 v0.1 cross-link. CMB n_s = 1 - 5/137 = 0.9635 inheriting substrate cap N_max via boundary cascade (Elie Toy 1401). 4-Zone Commitment Cycle Zone 1 + Zone 4 (T2417 Wednesday + Paper #132 v0.1) operationalize boundary absorption + emission. Cal #50 GREEN cosmology external register acceptable for cosmological-BC content."
 related: ["Vol 0 Ch 1 D_IV⁵ APG (Shilov boundary structure)", "Vol 0 Ch 3 Substrate Operating System (4-zone cycle)", "Vol 0 Ch 6 Integer Web Principle", "Casey vision: 6+2 BC framework (Wednesday)", "Task #235 BST primary BC classification framework", "SP-31-40 Per-BC theorems (multi-month)"]
 ---
 

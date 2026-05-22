@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "K151 T2462 universal \u03b1-analog 25-HSDs verification"
+  },
+  "total_HSDs_enumerated": 43,
+  "HSDs_producing_alpha_137": [
+    "D_IV_5"
+  ],
+  "D_IV_5_unique_at_137": true,
+  "K151_verification_element_complete": true
+}

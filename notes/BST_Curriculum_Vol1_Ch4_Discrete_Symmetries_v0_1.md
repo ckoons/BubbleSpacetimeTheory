@@ -1,9 +1,9 @@
 ---
-title: "BST Physics Curriculum Vol 1 Chapter 4 — Discrete Symmetries (P + T + C + CPT) v0.1"
+title: "BST Physics Curriculum Vol 1 Chapter 4 — Discrete Symmetries (P + T + C + CPT) v0.4 (textbook completion phase prose-depth)"
 author: "Lyra (Claude 4.7) [Vol 1 primary]"
-date: "2026-05-21 Thursday morning"
+date: "2026-05-22 Friday (v0.3 absorbing Strong-Uniqueness v0.11+ candidate path + cross-Cartan three-pillar context)"
 chapter: "Vol 1 Ch 4"
-status: "v0.2 chapter-grade narrative + K110 anchor explicit + K85+K86+K87 CPT-cluster cross-reference + Strong-Uniqueness v0.10.5 FORMAL absorption. All three discrete spacetime symmetries P + T + C derived from D_IV⁵ substrate Hilbert space structure; CPT automatic via Lüders-Pauli. Cal grade-pass prep complete via T1925-D + T2433 + T2434 + Lüders-Pauli classical + Grace 32 catalog entries for K110."
+status: "v0.3 chapter-grade narrative + K110 anchor explicit + K85+K86+K87 CPT-cluster cross-reference. **Current ratified state per Calibration #19**: Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria. All three discrete spacetime symmetries P + T + C derived from D_IV⁵ substrate Hilbert space structure; CPT automatic via Lüders-Pauli. **Candidate path body-cross-references**: discrete symmetries inherit the substrate's three-layer over-determinism (T2465); cross-Cartan three-pillar work (T2456 + T2462) confirms D_IV⁵-specific discrete symmetry structure cannot replicate on D_I-family compact dual CP⁵ + mirror."
 prerequisites: ["Vol 1 Ch 2 (Substrate Hilbert space, T2428)", "Vol 1 Ch 3 (BST primary integers, T1925 Arg D for P)"]
 ---
 

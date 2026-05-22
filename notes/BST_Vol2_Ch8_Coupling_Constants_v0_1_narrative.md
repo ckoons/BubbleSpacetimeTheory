@@ -117,6 +117,18 @@ Per Toy 3221 (Thursday morning), this is the third-instance candidate for K52a C
 - **Cal Flag 3 register**: external "BST identifies α⁻¹ at lowest order as N_max; matches measurement at 1.4% correction-term level" — operational language only
 - **Tier discipline**: D-tier on a_e (Paper #83 mechanism + sub-ppt match); I-tier on α_s/α_w (multi-month pending RG flow); I-tier on α⁻¹ correction terms; I-tier on a_μ
 
+## Mersenne ladder cross-reference (Friday May 22, 2026)
+
+α⁻¹ at lowest order = N_max = 137 derives from the BST primary integer cluster via the **Mersenne-ladder closure**:
+
+$$N_{\max} = M_g + (g + N_c) = 127 + 10 = 137$$
+
+where M_g = 127 is the Mersenne prime at BST primary exponent g = 7. Per Elie BST primary Mersenne ladder observation (Friday May 22): BST primary integers self-generate via Mersenne ascent (rank → N_c → g) with additive closure (g + N_c) → N_max.
+
+The fine-structure inverse α⁻¹ thus has substrate-natural structure: it is the Mersenne prime at BST genus exponent shifted by the BST primary sum (g + N_c). All factors are BST primaries; no free parameters.
+
+This cross-references the **Sub-Substrate Mersenne Tower** flagship work (`Elie_Sub_Substrate_Mersenne_Tower_Flagship_1_paper_grade.md`) and the **c_2 gap resolution** (`Elie_c_2_Mersenne_Gap_Substrate_Natural_Resolution_paper_grade.md`).
+
 ## K-audit anchor (Vol 2 K88+K89+K92 explicit)
 
 This chapter is anchored by **K88 + K89 + K92 predictions-cluster audit** (per K_Audit_Pipeline_Phase2_Chapter_Category_Scoping.md). The chapter captures coupling constants and anomalous moments:

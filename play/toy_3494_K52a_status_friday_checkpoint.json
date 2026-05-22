@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "K52a multi-month Friday status checkpoint"
+  },
+  "Tr_Bsq_target": 7.875,
+  "psi_0_candidate_count": 10,
+  "mersenne_hierarchy_cross_link": "Toy 3388 + GF128 mechanism paper-grade",
+  "cal_19_status": "multi-month CANDIDATE",
+  "cal_21_empirical_gate": "PARTIAL",
+  "cal_21_mechanism_gate": "OPEN",
+  "closure_estimate": "2-4 weeks post-Lyra B exact form"
+}

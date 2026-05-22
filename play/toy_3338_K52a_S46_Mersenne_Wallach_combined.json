@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "K52a S46 Mersenne-Wallach combined |\u03c8_0\u27e9"
+  },
+  "rank1_preserved": true,
+  "landscape_count": 8,
+  "landscape": [
+    "S32 uniform (DC)",
+    "S33 Frobenius (Galois)",
+    "S34 Bergman (Hamming decay)",
+    "S35 Wallach (K-type Casimir)",
+    "S36 RS (cyclotomic M_g)",
+    "S44 Bridge Object-weighted (3 K57 hubs)",
+    "S45 Mersenne-ladder-anchored",
+    "S46 Mersenne-Wallach combined (THIS)"
+  ],
+  "BST_primary_signature": "Mersenne ladder \u00d7 Wallach K-type combined"
+}

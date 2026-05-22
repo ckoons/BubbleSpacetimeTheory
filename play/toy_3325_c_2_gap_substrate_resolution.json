@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "c_2 Mersenne ladder gap substrate-natural resolution"
+  },
+  "c_2_factorization": {
+    "M_c_2": 2047,
+    "factor_a": 23,
+    "factor_a_form": "rank \u00b7 c_2 + 1 = 23",
+    "factor_b": 89,
+    "factor_b_form": "2^N_c \u00b7 c_2 + 1 = 89",
+    "verified": true
+  },
+  "refined_C15_strengthened": "All 7 BST primary exponents have substrate-natural Mersenne structure",
+  "sub_substrate_primary_candidates": [
+    23,
+    89
+  ],
+  "mersenne_ladder_uniform_BST_primary_structure": true
+}

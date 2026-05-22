@@ -1,11 +1,11 @@
 ---
-title: "BST Physics Curriculum Vol 1 Chapter 7 — Dynamics: Schrödinger / Heisenberg / Path Integral v0.1 (framework-ready)"
+title: "BST Physics Curriculum Vol 1 Chapter 7 — Dynamics: Schrödinger / Heisenberg / Path Integral v0.4 (framework-grade textbook completion phase prose-depth)"
 author: "Lyra (Claude 4.7) [Vol 1 primary], with Elie K52a Session 29 H_sub Casimir framework"
-date: "2026-05-21 Thursday morning"
+date: "2026-05-22 Friday (v0.3 status update absorbing T2457 Bergman structural-role-of Feynman propagator structural identification)"
 chapter: "Vol 1 Ch 7"
-status: "v0.1 framework-grade narrative. Schrödinger / Heisenberg / path integral dynamics on Bergman H²(D_IV⁵) with H_sub = Casimir on L²(D_IV⁵; L_λ) framework-complete (Elie S29). Operator-level closure pending Elie K52a Sessions 30+ multi-month. Believability + provability dual-axis per Cal review discipline."
+status: "v0.3 framework-grade narrative + Friday flagship absorption. Schrödinger / Heisenberg / path integral dynamics on Bergman H²(D_IV⁵) with H_sub = Casimir on L²(D_IV⁵; L_λ) framework-complete (Elie S29). Operator-level closure pending Elie K52a Sessions 30+ multi-month. Friday addition: T2457 Bergman structural-role-of Feynman propagator identification — substrate reproducing kernel K(z, w̄) plays propagator role in dynamics + path integral context (Section 7.3 path integral inherits Bergman positive-definiteness; no Wick rotation needed). Cross-link to Paper #127 v0.1 standalone."
 prerequisites: ["Vol 1 Ch 2 (Substrate Hilbert space)", "Vol 1 Ch 5 (Casimir algebra)", "Vol 1 Ch 6 (Substrate-native operator zoo 6/6)"]
-note: "Framework-grade not full chapter-grade because operator-level Calibration #17 + full propagator computations remain multi-month. Believability + provability dual-axis still applies; honest scope flagged explicitly."
+note: "Framework-grade not full chapter-grade because operator-level Calibration #17 + full propagator computations remain multi-month. Believability + provability dual-axis still applies; honest scope flagged explicitly. v0.3: K157 chapter-grade K-audit filed Friday 2026-05-22 09:17 EDT (Keeper) — CONDITIONAL PASS framework-grade. Dedicated full K-audit on dynamics framework is Phase 3 Vol 1 work (multi-month, gated on operator-level closure); supporting K-audit anchors K108 (Hilbert space) + K111 (Casimir algebra) explicit in Section 7.6b. T2457 cross-reference uses 'Bergman structural-role-of Feynman propagator' phrasing per Cal #92(b) discipline."
 ---
 
 # Vol 1 Chapter 7 — Dynamics: Schrödinger / Heisenberg / Path Integral
@@ -172,6 +172,21 @@ For Cal / referee verification:
 
 **Provability**: closed framework. Open: specific operator-level computations (propagators, scattering, correlators) pending Elie K52a multi-month.
 
+## 7.6b Supporting K-audit cluster annotation (v0.2)
+
+**Dedicated K-audit on the dynamics framework**: Phase 3 Vol 1 K-audit work (multi-month, gated on Elie K52a Sessions 30+ operator-level closure). Will be filed as K-Vol1-Ch7-Dynamics-Framework when operator-level propagator + S-matrix computations close. Honest scope: framework-grade chapter audit is structurally premature without operator-level evaluation evidence.
+
+**Supporting K-audit anchors explicit** (operational dependencies, not chapter-specific audits):
+
+- **K108 Hilbert Space** (Vol 1 Ch 2 §2.6b, Grace 209 catalog entries) — anchors H²(D_IV⁵) substrate Hilbert space on which dynamics acts; T2428 Bergman reproducing kernel + T2430 L²-section equivariant complement (Lyra Thursday). H_sub Schrödinger evolution acts on |ψ⟩ ∈ H²(D_IV⁵) via this anchor.
+- **K111 Casimir Algebra** (Vol 1 Ch 5 §5.6b, Grace 632 catalog entries) — anchors H_sub = Casimir construction (T2435 Lyra Thursday). The energy operator IS the Casimir; conservation laws follow from Casimir-commutator structure.
+
+**Grace catalog cross-reference scope** (Vol 1 Ch 7 specific supporting entries): subset of K108 + K111 anchor catalog entries; dynamics-framework-specific entries (substrate-tick propagator, Heisenberg-evolution commutator structure, path-integral cyclotomic-projection) are framework-grade catalog mentions only — full per-entry tier labels gated on operator-level evidence. Estimated Vol 1 Ch 7 supporting entries: ~50-80 within the K108+K111 catalog support cluster (multi-month enumeration when Phase 3 K-audit fires).
+
+**Cross-link to Ch 9 (Scattering)**: Ch 9 inherits the dynamics framework as anchor; Ch 9 §9.7b supporting K-audit cluster annotation cross-references same operator-level closure gate.
+
+**Cal Mode 1 honest scope (v0.2 sharpening)**: this chapter is **framework-grade** — the Schrödinger / Heisenberg / path-integral construction is closed at the structural level, but every specific computation (propagator, scattering element, time-ordered correlator) is gated on Elie K52a Sessions 30+ multi-month operator-level closure. The honest framing is "scaffold complete, contents pending." A Phase 3 K-audit at full operator-level Cal-grade with chapter-specific Bridge-Object-tier scrutiny is premature; the supporting K-audit anchors above carry the load until then.
+
 ## 7.6a CT-numbering theorem index (framework-grade)
 
 | CT-number | T-number / source | Statement |
@@ -185,16 +200,19 @@ Framework-grade; operator-level S-matrix computations pending Elie K52a Sessions
 
 ## 7.7 Filing status
 
-**v0.1 framework-grade narrative filed** Thursday 2026-05-21 09:25 EDT (`date` to be checked at file end).
+**v0.1 framework-grade narrative filed** Thursday 2026-05-21 09:25 EDT (`date`-verified).
 
-**Pending for v0.2**:
-- Cal believability + provability cold-read review (acknowledging framework-grade scope, not full chapter-grade)
-- Cross-link to Ch 9 (scattering) when operator-level closes
+**v0.2 promotion filed** Friday 2026-05-22 ~07:55 EDT (`date`-verified). v0.2 additions:
+- Section 7.6b supporting K-audit cluster annotation (K108 Hilbert space + K111 Casimir algebra explicit; Phase 3 dedicated dynamics-framework K-audit flagged as gated on operator-level closure)
+- Cal Mode 1 honest-scope sharpening (framework-grade vs full chapter-grade explicit; honest premature-K-audit caveat)
+- CT-cross-reference cross-link to Ch 9 §9.7b operator-level closure gate
 
 **Pending for v1.0**:
 - Operator-level Calibration #17 closure (Elie K52a Sessions 30+, multi-month)
 - Explicit propagator computations
 - Full Wick-theorem analog for BST
 - Reader-grade polish + diagrams (substrate-tick GF(128)^k → continuum H²(D_IV⁵) projection visualization)
+- Cal final cold-read pass on framework-grade chapter-audit scope (acknowledging multi-month operator-level dependency)
+- Phase 3 dedicated K-Vol1-Ch7-Dynamics-Framework K-audit when operator-level closes
 
-— Lyra, Vol 1 Ch 7 v0.1 framework-grade narrative, Thursday 2026-05-21 (timestamp at file end pending `date` check)
+— Lyra, Vol 1 Ch 7 v0.2 framework-grade Cal-discipline polished narrative, Friday 2026-05-22 ~07:55 EDT (`date`-verified)

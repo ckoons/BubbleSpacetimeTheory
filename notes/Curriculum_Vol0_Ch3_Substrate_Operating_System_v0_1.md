@@ -1,8 +1,8 @@
 ---
-title: "Curriculum Vol 0 Chapter 3 — Substrate Operating System (Chapter-Grade Draft v0.1)"
-author: "Keeper (sixth Keeper-lane chapter-grade content)"
-date: "2026-05-21 Thursday 10:29 EDT (actual via date)"
-status: "v0.1 chapter-grade content draft FILED. Sixth Keeper-lane chapter (after Ch 1 + Ch 2 + Ch 8 + Ch 9 + Ch 10). Vol 0 Chapter 3 exposes how D_IV⁵ substrate operates as active information cycle: Substrate Working Process Principle (SWPP, Casey-named) + Koons tick T2405 substrate clock + 4-Zone commitment cycle T2420 + Three-Scale substrate operation + Reed-Solomon coding on GF(2^g) per K59 cyclotomic mechanism framework RATIFIED. Operational dynamics chapter."
+title: "Curriculum Vol 0 Chapter 3 — Substrate Operating System (Chapter-Grade Draft v0.4 — Friday Mersenne tower + Bergman propagator absorption)"
+author: "Keeper (original) + Lyra (Friday v0.3→v0.4 prose depth-investment)"
+date: "2026-05-21 Thursday 10:29 EDT initial; Friday 2026-05-22 ~10:39 EDT v0.4 prose absorption per Casey + Keeper textbook completion phase"
+status: "v0.4 chapter-grade narrative. Per Calibration #19 STANDING RULE: current ratified state Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria. **Friday v0.4 additions** (Lyra Friday): Mersenne Tower in substrate primaries (T2451 + T2453 + T2454 — substrate has effectively ONE generating input rank=2 via Mersenne cascade) + T2457 Bergman structural-role-of Feynman propagator at substrate operational level (Zone 3 commitment phase in 4-Zone cycle = Bergman reproducing kernel projector). SWPP + Koons tick + 4-Zone cycle Friday cross-references."
 related: ["Vol 0 Ch 1 D_IV⁵ APG (substrate object)", "Vol 0 Ch 2 Five Integers + N_max", "SWPP Casey-named principle (Tuesday filed)", "Lyra T2405 Koons tick = t_Planck · α^(C_2²)", "T2420 4-Zone Vacuum Decomposition (Lyra+Elie M2C2 instance #4)", "T2417 Three-Scale substrate operation hypothesis", "K59 Cyclotomic mechanism framework RATIFIED (Reed-Solomon on GF(128))"]
 ---
 

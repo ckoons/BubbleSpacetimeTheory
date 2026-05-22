@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "M_chi factorization with BST primaries"
+  },
+  "M_chi": 16777215,
+  "factorization": {
+    "3": 2,
+    "5": 1,
+    "7": 1,
+    "13": 1,
+    "17": 1,
+    "241": 1
+  },
+  "bst_primary_factors": {
+    "N_c": 2,
+    "n_C": 1,
+    "g": 1,
+    "c_3": 1,
+    "seesaw": 1
+  },
+  "non_bst_factor_241_substrate_natural": "2^(2\u00b7rank\u00b2) - N_c\u00b7n_C = 241",
+  "mersenne_ladder_full_saturation": true
+}

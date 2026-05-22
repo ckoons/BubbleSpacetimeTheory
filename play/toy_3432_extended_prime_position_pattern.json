@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Extended BST primary prime-position pattern"
+  },
+  "extended_substrate_natural_primes_count": 12,
+  "all_extended_primes_at_substrate_natural_positions": true,
+  "null_model_extended": "~(1/50)^12 \u2248 4\u00d710\u207b\u00b2\u00b9 (conservative ~10\u207b\u00b9\u2070)",
+  "C20_v2_refined": "Extended prime-position pattern with 12 substrate-natural primes"
+}

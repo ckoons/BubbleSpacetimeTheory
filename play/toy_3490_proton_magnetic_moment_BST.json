@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "\u03bc_p alternative BST primary form"
+  },
+  "mu_p_BST_value": 2.7931873479318736,
+  "mu_p_measured": 2.79284734,
+  "deviation_percent": 0.012174239780461163,
+  "BST_form_alternative": "8\u00b7g\u00b7(seesaw+chi) / (N_c\u00b7rank\u00b7N_max)",
+  "BST_287_form_A": "g\u00b7(seesaw+chi) = 7\u00b741",
+  "BST_287_form_B": "2\u00b7c_2\u00b7c_3 + 1 = 286+1",
+  "BST_274_form": "rank\u00b7N_max = 2\u00b7137"
+}

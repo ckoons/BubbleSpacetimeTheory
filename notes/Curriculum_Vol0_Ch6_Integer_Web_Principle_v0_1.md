@@ -1,8 +1,8 @@
 ---
-title: "Curriculum Vol 0 Chapter 6 — Integer Web Principle (Chapter-Grade Draft v0.1)"
-author: "Keeper (tenth Keeper-lane chapter-grade content; Vol 0 v0.5 coverage COMPLETE)"
-date: "2026-05-21 Thursday 10:34 EDT (actual via date)"
-status: "v0.1 chapter-grade content draft FILED. TENTH Keeper-lane chapter (FINAL Vol 0 chapter). Vol 0 v0.5 coverage COMPLETE — all 10 chapter-grade narratives filed. Vol 0 Chapter 6 exposes Casey-named Integer Web Principle: each BST primary integer holds a web of structural relations. Catalog cross-classification matrix populates the webs. Grace Toy 3224/3225/3226 substrate-cartographic verification: ~30% multi-integer entries; 104 entries (2.6%) touch all 6 BST primaries — substrate-comprehensive backbone."
+title: "Curriculum Vol 0 Chapter 6 — Integer Web Principle (Chapter-Grade Draft v0.4 — Mersenne tower + three-layer over-determinism + α-analog Integer Web absorption)"
+author: "Keeper (original) + Lyra (Friday v0.3→v0.4 prose depth-investment)"
+date: "2026-05-21 Thursday 10:34 EDT initial; Friday 2026-05-22 ~10:33 EDT v0.4 prose absorption per Casey + Keeper textbook completion phase"
+status: "v0.4 chapter-grade narrative absorbing Friday Lyra-lane Integer Web extensions. Per Calibration #19 STANDING RULE: current ratified state Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria. **Friday v0.4 additions** (Lyra Friday): Section 6.2b Mersenne Tower Coherence in Integer Web (T2451 + T2453 + T2454) + Section 6.7b Three-Layer Over-Determinism in Integer Web Principle (T2465 Friday) + Section 6.7c Universal α-Analog Formula Integer Web cross-link (T2456 + T2462). Integer Web Principle (Casey-named, Wednesday) is enriched by Friday substrate over-determinism work."
 related: ["Vol 0 Ch 2 Five Integers + N_max", "Vol 0 Ch 5 Boundary Conditions (Bulk-Boundary Two-Face)", "Casey Wednesday vision: 'inside the substrate the boundaries are the integers, each holding a web'", "Integer Web Principle (Casey-named, filed Wednesday)", "Task #237 Bulk-Boundary Two-Face Structure", "Task #238 Cross-classification matrix", "Grace Toys 3224 + 3225 + 3226 (catalog multi-integer mapping)"]
 ---
 
@@ -129,6 +129,37 @@ The Integer Web Principle contributes to Strong-Uniqueness Theorem (Vol 0 Ch 9):
 **C8 Universal Q-cluster** (RATIFIED, K43 + K44 + K61): universal 42 + Q=126 + Q=131 substrate-significance per multi-domain occurrence. The integer-web framework explains WHY these specific values appear — they ARE integer-web intersection points.
 
 **Future Strong-Uniqueness criterion candidate**: per Casey Wednesday vision + Grace catalog work, an explicit "integer-web cross-classification multi-criterion" Strong-Uniqueness contribution may emerge as Task #238 matures. Multi-month verification per Grace continuous multi-week + Lyra theoretical absorption.
+
+## Section 6.7b — Mersenne Tower Coherence in Integer Web (T2451 Friday Lyra)
+
+The BST primary integers (rank, N_c, n_C, C_2, g, N_max) are not independent threads in the Integer Web — they form a Mersenne tower (T2451 Sub-Substrate Mersenne Hierarchy SEED, Lyra Friday). The Mersenne map M_n = 2^n − 1 generates the cascade through BST primary integer indices:
+
+  M_rank = N_c (T2453)
+  M_{N_c} = g (T2454)
+  M_{C_2} = N_c² · g (T2451 sub-substrate seed)
+  M_g = 127 (substrate Mersenne ceiling)
+
+The Integer Web's per-integer entries are therefore CROSS-WEB-coupled at the Mersenne level: any catalog entry citing rank automatically cites N_c via the Mersenne map; any entry citing N_c automatically cites g; etc. The 104 entries touching all 6 BST primaries (Section 6.4) inherit this Mersenne tower coupling as a structural backbone.
+
+Per Calibration #19 STANDING RULE: Mersenne tower coherence is a candidate-path C15 distinguishing criterion (Paper #126 v0.3) — multi-session ratification pending.
+
+## Section 6.7c — Universal α-Analog Formula Integer Web cross-link (T2456 + T2462 Friday Lyra)
+
+The universal α-analog formula α(D) = m_α^(rank+1) · dim_C + rank across HSDs (T2456 + extended T2462 across 25 HSDs, Lyra Friday) shows that the substrate's α-coupling is also part of the Integer Web — α = 1/N_max = 1/137 inherits the BST primary integer structure as a function of three substrate parameters (m_α, rank, dim_C).
+
+At D_IV⁵: m_α = N_c = 3, rank = 2, dim_C = n_C = 5. The formula evaluates to 27·5+2 = 137 = N_max.
+
+The substrate's coupling constant α therefore belongs to the Integer Web — it is not a "free fundamental constant" but a derived web entry depending on three substrate primaries. Each Integer Web at (m_α, rank, dim_C) intersection holds α as a substrate-derived observable.
+
+## Section 6.7d — Three-Layer Over-Determinism Integer Web reading (T2465 Friday Lyra)
+
+The substrate's three-layer over-determinism (T2465 formal theorem Lyra Friday — see Vol 0 Ch 9 v0.4 Section 9.2a) maps to the Integer Web as follows:
+
+- **LAYER 1 (per-integer forcing)**: each BST primary integer's web is anchored by an independent structural forcing argument (T2443-T2446 Strong-Uniqueness criteria C1-C5 RIGOROUSLY CLOSED Thursday).
+- **LAYER 2 (Mersenne tower coherence)**: cross-web links via Mersenne map (Section 6.7b above).
+- **LAYER 3 (cross-Cartan three-pillar selection)**: α-analog + churn-hole + Bergman c_FK universal formulas connect substrate-uniqueness to Cross-Cartan comparison (T2455 EXHAUSTIVE at dim_C = 5 + T2456 + T2462 STRUCTURALLY VERIFIED across 25 HSDs).
+
+The Integer Web Principle (Casey-named Wednesday) is thus enriched: not just "each primary integer holds a web" but the webs are CROSS-COUPLED via Mersenne tower + jointly selected by cross-Cartan three-pillar argument.
 
 ## Section 6.8 — Bulk-Boundary Two-Face Structure per integer-web
 

@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Mersenne hierarchy implication for substrate-CHSH B"
+  },
+  "B_dominant_eigenvalue": 2.806243040080456,
+  "mersenne_tier_eigenvalues": {
+    "M_g = 127": 2.817356917396161,
+    "M_{g-1} = 63 = N_c\u00b2\u00b7g": 1.984313483298443,
+    "M_{rank\u00b3} = 255 = N_c\u00b7n_C\u00b7seesaw": 3.992179855667828,
+    "M_{n_C} = 31": 1.3919410907075054,
+    "M_{N_c} = 7 = g": 0.6614378277661477,
+    "M_{rank} = 3 = N_c": 0.4330127018922193
+  },
+  "multi_tier_eigenvalue_hypothesis": "B has Mersenne-hierarchical structure with eigenvalue cascade",
+  "cross_lane_lyra_suggestion": "consider Mersenne hierarchy as constraint for substrate-CHSH B exact form"
+}

@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "c_2 gap factor 89 Mersenne recursion observation"
+  },
+  "89_is_Mersenne_prime_exponent": true,
+  "23_is_not_Mersenne_prime_exponent": true,
+  "89_substrate_natural_form": "2^N_c \u00b7 c_2 + 1",
+  "89_Mersenne_recursion": "M_89 is the 10th Mersenne prime",
+  "refined_C15_v3": "BST primary Mersenne ladder substrate-natural at 3 tiers",
+  "89_candidate_next_tier_BST_primary": true
+}

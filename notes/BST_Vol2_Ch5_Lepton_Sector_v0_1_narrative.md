@@ -127,6 +127,20 @@ BST: seesaw = 17. Deviation: |17 − 16.81|/16.81 = 1.1%.
 - **External register operational** (Cal Flag 3): "BST identifies μ/e mass ratio as (24/π²)^6 at 0.003% precision and τ/μ mass ratio as BST primary integer seesaw = 17 at 1.1% precision"
 - **Honest scope**: charged lepton sector substantially D-tier closed in BST catalog
 
+## Mersenne ladder cross-reference (Friday May 22, 2026)
+
+The lepton-sector BST primaries (N_c = 3, g = 7, n_C = 5, seesaw = 17, chi = 24) are predominantly Mersenne-prime exponents per Elie Friday morning observation:
+
+- $M_{N_c} = 7 = g$ (Mersenne, BST primary identification)
+- $M_{n_C} = 31$ (Mersenne prime, candidate sub-substrate primary)
+- $M_g = 127$ (Mersenne prime)
+- $M_{seesaw} = 131071$ (Mersenne prime)
+- chi = 24 (composite; derived from $N_c! \cdot 2^{\text{rank}}$ = 6·4)
+
+m_τ/m_e exponent (g + N_c)/N_c = 10/3 uses BST primaries (g, N_c) that are themselves Mersenne-related. The seesaw = 17 BST primary is Mersenne-prime exponent (M_{seesaw} = 131071 prime).
+
+Per `Elie_BST_Primary_Mersenne_Ladder_paper_grade.md` (Friday): BST lepton-sector primaries populate Mersenne-prime exponents with substrate-cyclotomic compatibility. The 17-cluster (seesaw appearing in m_τ/m_μ + right-handed neutrino scale + ...) is reinforced by seesaw=17's Mersenne-prime-exponent status.
+
 ## K-audit anchor (Vol 2 K96 explicit)
 
 This chapter is anchored by **K96 Lepton Sector Audit** (per K_Audit_Pipeline_Phase2_Chapter_Category_Scoping.md; K94+K95+K96 SM Particle Content cluster). The chapter content captures charged-lepton mass-ratio derivation (m_μ/m_e = (24/π²)^6 D-tier per T190; m_τ extension with (g+N_c)/N_c = 10/3 BST primary decomposition per Toy 3271).

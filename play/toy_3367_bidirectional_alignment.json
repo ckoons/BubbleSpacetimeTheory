@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "BST primary \u2194 Mersenne-prime exponent bidirectional alignment"
+  },
+  "BST_to_Mersenne_alignment_6_of_7": true,
+  "Mersenne_to_BST_alignment_6_of_7": true,
+  "intersection": [
+    2,
+    3,
+    5,
+    7,
+    13,
+    17
+  ],
+  "BST_exclusion": "c_2 = 11 (M_11 composite)",
+  "Mersenne_exclusion": "19 (not in BST primary cluster)",
+  "null_model_probability": "~1.2e-4 (bidirectional 6/7 alignment)",
+  "refined_C15_v5": "Bidirectional alignment + double-Mersenne tower + M_{rank\u00b3} identity"
+}

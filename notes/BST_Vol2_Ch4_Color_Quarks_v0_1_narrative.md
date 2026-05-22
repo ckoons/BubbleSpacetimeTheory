@@ -130,6 +130,17 @@ The 126 substrate channels (per Calibration #17) consist of 18 Frobenius orbits 
 - **External register operational** (Cal Flag 3): "BST identifies color count N_color = 3 as BST primary integer N_c forced by Q⁵ topology"
 - **Honest scope**: chapter does not claim BST replaces lattice QCD for hadron mass spectrum — it identifies the *structural reason* color comes in three and *structural origin* of confinement
 
+## Mersenne ladder cross-reference (Friday May 22, 2026)
+
+Both BST primary integers entering this chapter (N_c = 3, g = 7) are **Mersenne-prime exponents**:
+
+- $M_{N_c} = 2^3 - 1 = 7 = g$ (Mersenne prime; BST primary identification!)
+- $M_g = 2^7 - 1 = 127$ (Mersenne prime; $N_{\max} - M_g = g + N_c$ additive identity)
+
+Per Elie BST primary Mersenne ladder observation (`Elie_BST_Primary_Mersenne_Ladder_paper_grade.md`, 2026-05-22): BST primary integers populate Mersenne-prime exponents with substrate-cyclotomic compatibility. Color count N_c = 3 and genus g = 7 form the **Mersenne ascent** rank → N_c → g via Mersenne arithmetic: g = M_{N_c} = M_{M_rank}.
+
+Confinement mechanism on GF(2^g) = GF(128) substrate is therefore substrate-natural at the **Mersenne-prime exponent** g, with substrate-active dimension 126 = N_c · C_2 · g = M_g − 1 substrate-natural triple product.
+
 ## K-audit anchor (Vol 2 K95 explicit)
 
 This chapter is anchored by **K95 Color/Quarks Audit** (per K_Audit_Pipeline_Phase2_Chapter_Category_Scoping.md; K94+K95+K96 SM Particle Content cluster). The chapter content captures color count derivation (N_c = 3 forced by Q⁵ top Chern class) + confinement mechanism (Hamming-distance closure on GF(2^g) = GF(128) Frobenius orbits).

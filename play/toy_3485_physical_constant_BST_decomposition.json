@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Physical constant factor BST decomposition"
+  },
+  "constants_checked": 14,
+  "bst_clean_count": 13,
+  "zeta_factor_pattern": {
+    "zeta_2_denom": 6,
+    "bst_form_2": "C_2 = rank\u00b7N_c",
+    "zeta_4_denom": 90,
+    "bst_form_4": "C_2\u00b7N_c\u00b7n_C",
+    "zeta_6_denom": 945,
+    "bst_form_6": "N_c\u00b3\u00b7n_C\u00b7g",
+    "zeta_8_denom": 9450,
+    "bst_form_8": "2\u00b7N_c\u00b3\u00b7n_C\u00b2\u00b7g"
+  },
+  "casimir_factor": 240,
+  "stefan_boltzmann_factor": 60
+}

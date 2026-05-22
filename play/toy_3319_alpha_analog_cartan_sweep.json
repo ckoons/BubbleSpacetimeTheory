@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "\u03b1-analog Cartan-type sweep cross-lane for Lyra T2452"
+  },
+  "hsd_enumeration_results": [
+    {
+      "name": "D_I_{1,5}",
+      "value": 6,
+      "is_prime": false
+    },
+    {
+      "name": "D_I_{5,1}",
+      "value": 6,
+      "is_prime": false
+    },
+    {
+      "name": "D_IV_5 (BST)",
+      "value": 137,
+      "is_prime": true
+    }
+  ],
+  "D_IV_5_unique_small_prime": "N_max = 137 only at m_s = N_c = 3",
+  "C16_cross_lane_support": "Toy 3319 provides \u03b1-analog uniqueness numerical verification",
+  "lyra_T2452_request_addressed": true
+}

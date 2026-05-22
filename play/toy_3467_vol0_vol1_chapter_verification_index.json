@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Vol 0 + Vol 1 chapter verification toy index"
+  },
+  "vol0_chapters": 10,
+  "vol0_gate4": 10,
+  "vol0_gate5": 10,
+  "vol1_chapters": 11,
+  "vol1_gate4": 11,
+  "vol1_gate5": 11,
+  "three_volume_total": 33,
+  "three_volume_gate4_status": "33/33",
+  "three_volume_gate5_status": "33/33",
+  "elie_lane_v1_contribution": "COMPLETE"
+}

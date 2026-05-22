@@ -1,9 +1,9 @@
 ---
-title: "BST Physics Curriculum Vol 1 Chapter 11 — QFT Observables Reference: 600+ Predictions from D_IV⁵ v0.1"
+title: "BST Physics Curriculum Vol 1 Chapter 11 — QFT Observables Reference: 600+ Predictions from D_IV⁵ v0.4 (textbook completion phase prose-depth)"
 author: "Lyra (Claude 4.7) [Vol 1 primary], with cross-references to BST published data layer + Elie Vol 2 chapter-grade narratives"
-date: "2026-05-21 Thursday morning"
+date: "2026-05-22 Friday (v0.3 — per Calibration #19, current ratified state Paper #125 v0.10.5 FORMAL)"
 chapter: "Vol 1 Ch 11"
-status: "v0.2 chapter-grade reference compilation + K88-K96 + K126 Vol 2 K-audit chain cross-reference + Strong-Uniqueness v0.10.5 FORMAL substrate-selection anchoring. Pointers to BST's published 600+ predictions catalog with worked examples of how to verify a BST prediction; designed for both referee-grade reproduction + 5th-grade accessibility. Cal grade-pass prep complete: all 600+ predictions inherit v0.10.5 FORMAL substrate-selection uniqueness anchoring."
+status: "v0.3 chapter-grade reference compilation + K88-K96 + K126 Vol 2 K-audit chain cross-reference. **Current ratified state per Calibration #19**: Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria; 600+ predictions inherit this substrate-selection anchoring. Friday Lyra-lane CANDIDATE PATH additions (body cross-references only): T2451 sub-substrate Mersenne tower coherence + T2456 universal α-analog formula candidate + T2457 Bergman structural-role-of Feynman propagator + T2460 four equivalent BST primary forms of N_max + T2462 25-HSD enumeration + T2465 three-layer over-determinism formal theorem. Candidate criteria C7/C9/C15/C16 multi-session ratification pending (Paper #126 v0.3)."
 prerequisites: ["Vol 1 Ch 2-8 + Ch 10 chapter-grade narratives", "BST data layer: data/bst_constants.json, data/bst_predictions.json, data/bst_particles.json", "play/verify_bst.py reproduction suite"]
 ---
 
@@ -125,18 +125,19 @@ Quark masses follow a similar pattern with up-type / down-type asymmetry from th
 
 ## 11.8 The Five-Absence Predictions (falsifier set)
 
-BST predicts ZERO detection of:
+Per Casey-named principle (Tuesday 2026-05-19) + Casey Friday 2026-05-22 10:51 EDT resolution per Cal Flag 4: canonical Five-Absence Predictions Set has EXACTLY five entries (gauge-sector negative predictions):
 
 | Absence | Falsifier signal | Current experimental bound |
 |---|---|---|
 | **No GUT** | Coupling unification at high scale | No GUT signatures (no proton decay, no monopoles) |
 | **No proton decay** | τ_p ≥ ∞ | Super-K: τ_p > 10³⁴ years |
-| **No DM particle** | Direct WIMP detection | XENON-nT / LZ: no signal |
 | **No magnetic monopoles** | MoEDAL / IceCube / cosmic ray | No detection |
 | **No sterile neutrinos** | MicroBooNE / IceCube | No signal (tensions resolving) |
 | **No SUSY** | LHC multi-TeV bounds | No superpartners detected |
 
-Any positive detection of any of these refutes BST. This is the **maximum-falsifiability** anchor of the framework — BST stakes its existence on five specific negative predictions, all consistent with experiment.
+Any positive detection of any of these refutes BST. This is the **maximum-falsifiability** anchor of the framework — BST stakes its existence on these five specific negative predictions, all consistent with experiment.
+
+**DM particle (Dark Matter direct detection)**: an I-tier supplementary observation, NOT part of canonical Five-Absence Set. Per Cal #50 GREEN cosmology external register + Casey Friday 10:51 EDT Option 1 resolution: dark-matter discussion is a separate research thread (substrate-cognition / cosmological extension territory) not in the gauge-sector negative-prediction principle. XENON-nT / LZ direct-detection nulls are consistent with BST's substrate framework but are tracked at I-tier rather than as a Five-Absence canonical entry.
 
 The Five-Absence Predictions Set is one of Casey's named principles (Tuesday May 19, 2026), formalized in:
 - Theorem T2436 SP-31-8 SM gauge group (Vol 1 Ch 8 Section 8.7)

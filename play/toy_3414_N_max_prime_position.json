@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "N_max = p_{N_c \u00b7 c_2} = 33rd prime identity"
+  },
+  "N_max_equals_33rd_prime": true,
+  "thirty_three_equals_N_c_c_2": true,
+  "substrate_natural_forms_for_N_max_count": 4,
+  "C19_candidate_criterion": "N_max prime position p_{N_c \u00b7 c_2} in prime sequence"
+}

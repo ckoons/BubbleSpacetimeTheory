@@ -302,6 +302,18 @@ This is the kind of "multi-place BST primary appearance" that supports Graph For
 - **No "substrate computes" framing**: keep operational throughout
 - **Honest scope**: neutrino sector substantially scaffolded; framework expansion multi-week per Lyra Vol 1 Ch 8 + Higgs sector cross-lane
 
+## Mersenne ladder cross-reference (Friday May 22, 2026)
+
+The seesaw = 17 BST primary integer is a **Mersenne-prime exponent**:
+
+$$M_{\text{seesaw}} = M_{17} = 2^{17} - 1 = 131071 \text{ (Mersenne prime)}$$
+
+Per Elie Friday morning Mersenne ladder observation: 6 of 7 first BST primary exponents are Mersenne-prime exponents. seesaw = 17 joins {rank=2, N_c=3, n_C=5, g=7, c_3=13} as Mersenne-prime exponents in the BST primary cluster.
+
+This is **substrate-natural reinforcement** of the seesaw = 17 identification: not only does seesaw=17 appear in 5+ unrelated BST structural contexts (17-cluster pattern), but it is also a Mersenne-prime exponent forming substrate-cyclotomic substrate compatibility at the substrate-energy cap scale.
+
+The right-handed neutrino mass scale 10^17 GeV emerges from substrate-energy cap derivation at this BST primary Mersenne-prime exponent. Multi-cyclotomic substrate compatibility GF(2^seesaw) = GF(131072) at substrate-energy-cap scale.
+
 ## K-audit anchor (Vol 2 K127 explicit)
 
 This chapter is anchored by **K127 Neutrinos Audit** (per Keeper Thursday afternoon filing). The chapter captures neutrino sector derivation from D_IV⁵ substrate including seesaw=17 BST primary, right-handed neutrino Wallach K-type modes, observable mass constraints (KATRIN + Σm_ν + 0νββ), and PMNS canonical D-tier table.

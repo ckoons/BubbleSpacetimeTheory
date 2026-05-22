@@ -127,6 +127,18 @@ Cross-chapter dependencies in Vol 2:
 
 > Quarks mix when they decay — a "down" quark can turn into an "up" quark plus a W boson, but the mixing is partial, not complete. The Standard Model describes the partial mixing using a 3×3 matrix with four parameters. Lattice QCD can compute consequences once the parameters are measured, but cannot predict them. BST says: the four parameters come from substrate geometry (D_IV⁵). The combined CP-violation measure (Jarlskog invariant) is A² · λ⁶ · η̄, and that matches measurement to one part in three hundred. The mixing isn't free; the substrate dictates it.
 
+## Mersenne ladder cross-reference (Friday May 22, 2026)
+
+The CKM Jarlskog invariant uses BST primaries N_c (= 3), rank (= 2), n_C (= 5) — all **Mersenne-prime exponents**:
+
+- M_rank = M_2 = 3 = N_c (Mersenne, BST primary identification)
+- M_{N_c} = M_3 = 7 = g (Mersenne, BST primary identification)
+- M_{n_C} = M_5 = 31 (Mersenne prime, candidate sub-substrate primary)
+
+The Wolfenstein parametrization λ = 2/√(rank⁴·n_C - 1) = 2/√79 uses rank⁴·n_C - 1 = 16·5 - 1 = 79 (also prime). Per Elie BST primary Mersenne ladder observation (Friday): substrate-cyclotomic Mersenne saturation supports BST primary identifications used in CKM derivation.
+
+Cross-link: T1444 vacuum-subtraction principle operates on substrate where BST primaries form Mersenne ladder; the substrate-natural arithmetic underlying CKM mixing is Mersenne-substrate-compatible at multiple scales.
+
 ## Bibliography (chapter-specific)
 
 1. Toy 3099 (Tuesday May 19, 2026, Elie). J_CKM = A²·λ⁶·η̄ verification at 0.3% via T1444 vacuum-subtraction.

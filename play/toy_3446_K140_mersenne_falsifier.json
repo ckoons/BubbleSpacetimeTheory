@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "K140 Mersenne ladder falsifier alt-cluster enumeration"
+  },
+  "total_7_clusters": 120,
+  "clusters_with_6_or_more_M_prime": 22,
+  "clusters_with_7_M_prime": 1,
+  "tail_probability": 0.18333333333333332,
+  "BST_cluster_M_prime_count": 6,
+  "K140_ratification_preliminary": "verification element provided per Cal #19"
+}

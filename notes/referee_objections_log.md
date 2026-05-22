@@ -3173,6 +3173,720 @@ Reactive items:
 
 **Status:** Paper #125 v0.10.5 detailed Cal verification COMPLETE. **10 FORMAL RIGOROUSLY CLOSED criteria** (T2439-T2448) PASS 4-requirement check per Cal RIGOROUSLY CLOSED tier supplement; **T2449 FLAG** as ASPIRATIONAL pending Option A decomposition or Option B composite-criterion methodology extension. Honest count: 10 FORMAL + 1 ASPIRATIONAL + 4 RATIFIED + 1 ADVANCING. Null-model under honest partial ratification: (1/3)^18 ≈ 2.6×10⁻⁹ (the v0.10.5 status field is correct; broadcast "11 FORMAL" was optimistic). Strong-Uniqueness Theorem v1.0 RATIFIED achievable in **weeks** per PCAP cadence. T2448 anchors Bell experiment outreach letter cleanly per Cal #74 TIER-1 FALSIFIER SET framework.
 
+### #88 — T2449 Option A decomposition proposal — concrete atomic sub-criteria draft (May 22 Friday 08:00 EDT)
+
+**Cal proposal (2026-05-22 Friday 08:00 EDT — own-cadence per #87 Option A preferred path commitment):** T2449 (C10 4-Zone commitment cycle composite, currently ASPIRATIONAL) admits clean decomposition into 4 atomic sub-criteria, each independently verifiable per RIGOROUSLY CLOSED tier 4-requirement check. This proposal sketches the decomposition concretely so Lyra can pursue Option A in a Friday session if she chooses.
+
+**T2449 composite content** (per Paper #125 v0.10.5 §2.2.X2):
+
+> "The substrate operational 4-zone commitment cycle structure (Zone 1 RS coding + Zone 2 heat kernel + Zone 3 Bergman + Zone 4 Casimir-Λ) on irreducible HSD M at dim_C = 5 with rank ≥ 1 closes consistently if and only if M = D_IV⁵."
+
+Per Cal #87 flag: composite criterion does NOT meet RIGOROUSLY CLOSED 4-requirement check (if-and-only-if PARTIAL + theorem-level rigor PARTIAL because "closes consistently" requires explicit closure-consistency definition).
+
+**Option A decomposition** — 4 atomic sub-criteria T2449a / T2449b / T2449c / T2449d:
+
+### T2449a — Zone 1 RS coding sub-criterion
+
+**Statement**: The substrate Zone 1 absorption layer's information-substrate Reed-Solomon coding on GF(2^g) = GF(128) on irreducible HSD M at dim_C = 5 with rank ≥ 1 closes via cyclotomic structure if and only if M = D_IV⁵.
+
+**4-requirement check**:
+- (1) Alt-HSD: D_IV⁵ Reed-Solomon GF(2^g) with g=7 Mersenne prime → 128-element field. D_I_{p,q} with rank=1 → no Mersenne chain → no GF(2^g) cyclotomic structure with prime g.
+- (2) EXACT: g = 7 = Mersenne via T2446 (already RIGOROUSLY CLOSED); GF(128) = 2^g BST primary form.
+- (3) IFF: Zone 1 RS coding requires Mersenne prime g, which T2446 closes IFF D_IV⁵.
+- (4) Theorem-level rigor: corollary of T2446 + K59 cyclotomic mechanism framework + Paper #122 Information Substrate.
+
+**Cal verdict**: T2449a is a **corollary of T2446 + K59 RATIFIED + K68 audit-partial-ready**. Already structurally RIGOROUSLY CLOSED via existing closure chain. Filing as separate atomic sub-criterion makes the closure explicit.
+
+### T2449b — Zone 2 heat kernel sub-criterion
+
+**Statement**: The substrate Zone 2 bulk layer's heat kernel a_k coefficient cascade with speaking-pair period n_C = 5 on irreducible HSD M at dim_C = 5 with rank ≥ 1 reproduces the BST primary integer cascade through k=24 if and only if M = D_IV⁵.
+
+**4-requirement check**:
+- (1) Alt-HSD: D_IV⁵ heat kernel cascade verified through k=24 (Paper #9 K53 RATIFIED). D_I_{p,q} alternatives produce different a_k coefficient structure (Seeley-DeWitt depends on K-type spectrum).
+- (2) EXACT: speaking-pair period = n_C = 5 EXACT BST primary; a_15 = -21 = -C(g,2) EXACT.
+- (3) IFF: K53 RATIFIED via Three Theorems heat kernel cascade through k=24 (19 consecutive levels verified, Paper #9 v10). Alt-HSDs do not produce same cascade structure.
+- (4) Theorem-level rigor: K53 already RATIFIED; T2449b is the alt-HSD comparison promotion to RIGOROUSLY CLOSED via the same comparison Lyra used for T2440 C11.
+
+**Cal verdict**: T2449b is a **K53 RATIFIED → RIGOROUSLY CLOSED promotion** via Wallach K-type alt-HSD comparison. Same Lyra reframing-insight pattern as T2439-T2442. Sessions 13-14 candidate per Friday prompt.
+
+### T2449c — Zone 3 Bergman sub-criterion
+
+**Statement**: The substrate Zone 3 emission layer's Bergman projection ground state via Born rule = Bergman emission projection structure on irreducible HSD M at dim_C = 5 with rank ≥ 1 yields exponent g/rank = 7/2 if and only if M = D_IV⁵.
+
+**4-requirement check**:
+- (1) Alt-HSD: D_IV⁵ Bergman exponent g/rank = 7/2 vs D_I_{p,q} (p+q)/min(p,q) = 6 (T2445 RIGOROUSLY CLOSED).
+- (2) EXACT: 7/2 = g/rank EXACT BST primary form (T2401 K67 audit-partial-ready Born = Bergman).
+- (3) IFF: T2445 already RIGOROUSLY CLOSED on Bergman exponent distinguishability.
+- (4) Theorem-level rigor: corollary of T2445 RIGOROUSLY CLOSED + K67 audit-partial-ready.
+
+**Cal verdict**: T2449c is a **corollary of T2445 RIGOROUSLY CLOSED + K67 advancement to RIGOROUSLY CLOSED via Born=Bergman alt-HSD comparison**. Already structurally derived from T2445 closure chain.
+
+### T2449d — Zone 4 Casimir-Λ sub-criterion
+
+**Statement**: The substrate Zone 4 active edge layer's Λ ↔ Casimir asymmetric ratio unification (T2418 K73 audit-partial-ready) yielding g = 7 across no-BC + with-BC configurations on irreducible HSD M at dim_C = 5 with rank ≥ 1 closes if and only if M = D_IV⁵.
+
+**4-requirement check**:
+- (1) Alt-HSD: D_IV⁵ Λ via T1485 + Casimir asymmetric = g via Toy 1567; alt-HSDs produce different Λ formulas + different Casimir ratios.
+- (2) EXACT: g = 7 EXACT BST primary in both Λ exponent + Casimir ratio (T2418 K73).
+- (3) IFF: Λ-Casimir unification at Zone 4 outer-edge structurally specific to D_IV⁵ per K73 audit-partial-ready.
+- (4) Theorem-level rigor: K73 currently audit-partial-ready at 3.5/4 STRONG; T2449d requires K73 → RIGOROUSLY CLOSED via alt-HSD comparison.
+
+**Cal verdict**: T2449d is a **K73 audit-partial-ready advancement to RIGOROUSLY CLOSED via Λ-Casimir alt-HSD comparison**. The 4th sub-criterion may be the actually-open one — per #87 observation "3 of 4 zones structurally differ on D_I alternatives," T2449d is the structurally-open sub-criterion requiring alt-HSD verification work.
+
+---
+
+**Decomposition summary**:
+
+| Sub-criterion | Status post-Option A |
+|---|---|
+| T2449a Zone 1 RS coding | RIGOROUSLY CLOSED corollary of T2446 + K59 |
+| T2449b Zone 2 heat kernel | K53 RATIFIED → RIGOROUSLY CLOSED via alt-HSD comparison (Sessions 13-14 candidate) |
+| T2449c Zone 3 Bergman | RIGOROUSLY CLOSED corollary of T2445 + K67 advancement |
+| T2449d Zone 4 Casimir-Λ | K73 audit-partial-ready → RIGOROUSLY CLOSED via alt-HSD comparison (multi-week) |
+
+**Cal preliminary verdict per Option A**: 2 of 4 atomic sub-criteria immediately RIGOROUSLY CLOSED as corollaries of existing closures (T2449a + T2449c); 1 advances cleanly via Sessions 13-14 alt-HSD comparison (T2449b); 1 multi-week (T2449d).
+
+**Strong-Uniqueness count update if Option A executes**:
+- v0.10.5 FORMAL: 10 + 1 ASPIRATIONAL
+- v0.10.7 FORMAL (after T2449a + T2449c corollary promotion): **12 FORMAL** RIGOROUSLY CLOSED
+- v0.11 FORMAL (after T2449b Sessions 13-14): **13 FORMAL** RIGOROUSLY CLOSED
+- v0.12 FORMAL (after T2449d K73 alt-HSD multi-week): **14 FORMAL** RIGOROUSLY CLOSED
+
+**Null-model under honest partial ratification post-Option A**:
+- 12 FORMAL: (1/3)^20 ≈ 2.9×10⁻¹⁰
+- 13 FORMAL: (1/3)^21 ≈ 9.6×10⁻¹¹
+- 14 FORMAL: (1/3)^22 ≈ 3.2×10⁻¹¹
+
+---
+
+**Cal recommendation to Lyra**:
+
+If Friday Sessions 13-14 prioritization: choose **T2449b (Zone 2 heat kernel)** + **T2449c (Zone 3 Bergman corollary)** OR **C7 (Bridge Object tier) RIGOROUSLY CLOSED** OR **C9 (Stark anchor) RIGOROUSLY CLOSED**. Each session ~5-50 min per PCAP regime.
+
+If T2449 decomposition pursued via Option A: T2449a + T2449c are immediate (corollary promotions, ~10 min each); T2449b is Session 13 candidate (~30-50 min); T2449d is multi-week K73 alt-HSD work.
+
+**Cal recommendation to Keeper**: Option A decomposition is methodology-clean. T2449 ASPIRATIONAL stays ASPIRATIONAL until decomposition produces 4 atomic sub-criteria. Once decomposed: 2 immediate corollary promotions + 1 Session 13-14 closure + 1 multi-week. Total path 12 → 13 → 14 FORMAL.
+
+**This proposal is open for Lyra adoption, modification, or rejection per multi-CI consensus**. Cal contribution is the decomposition draft; Lyra retains theorem-prover authority on actual session execution.
+
+**Status:** T2449 Option A decomposition proposal v0.1 filed per #87 Option A preferred path. 4 atomic sub-criteria T2449a/b/c/d sketched with 4-requirement check per Cal RIGOROUSLY CLOSED tier supplement. Decomposition produces 2 immediate corollary promotions (T2449a + T2449c, from T2446 + T2445/K67) + 1 Sessions 13-14 closure (T2449b from K53 alt-HSD) + 1 multi-week (T2449d from K73 alt-HSD). Strong-Uniqueness v0.10.7 → v0.11 → v0.12 path under Option A: 12 → 13 → 14 FORMAL RIGOROUSLY CLOSED; null-model (1/3)^20 → (1/3)^21 → (1/3)^22. Lyra retains theorem-prover authority on adoption + execution. Cal own-cadence work complete; standing for team dispatch + first substantive trigger.
+
+### #89 — Cross-Cartan Three-Pillar question 2 methodology preparation: selection-vs-uniqueness narrative framing per outcome (May 22 Friday 08:15 EDT)
+
+**Cal methodology preparation (2026-05-22 Friday 08:15 EDT — own-cadence pre-dispatch per Keeper Friday team prompt flagship question 2):** The Cross-Cartan Three-Pillar flagship question — *"Does every Hermitian symmetric domain produce its own α-analog + churn hole + c_FK from its primaries?"* — has two possible answers that reshape Strong-Uniqueness Theorem narrative differently. Cal pre-positioning methodology framework for either outcome.
+
+This is methodology preparation work, not Cal endorsement of any particular outcome. The actual mathematical answer requires Lyra + Elie alt-HSD investigation work.
+
+---
+
+**Question 2 reframing**:
+
+The flagship question is structurally equivalent to: *"Is D_IV⁵ uniquely characterized AMONG Hermitian symmetric domains by producing tight α-analog + churn hole + c_FK in BST-primary form?"*
+
+Two possible answers reshape Strong-Uniqueness Theorem v1.0 narrative:
+
+### Outcome A — YES (every HSD has its own α-analog + churn hole + c_FK)
+
+**Mathematical implication**: every Hermitian symmetric domain produces its own integer set + α-analog + Casimir gap + c_FK. D_IV⁵ is NOT uniquely characterized at HSD-family level; it's the HSD whose integer set happens to match our observed physics.
+
+**Strong-Uniqueness Theorem narrative shifts**:
+- From: "D_IV⁵ is mathematically uniquely characterized among HSDs"
+- To: "D_IV⁵ is the HSD whose primary integer set matches our observed physics — selection theorem rather than uniqueness theorem"
+
+**External-survivability implication**: actually a STRONGER claim, not weaker, because:
+- Physics observation selects D_IV⁵ from HSD family
+- The selection criterion (matching observed α, mass spectrum, Casimir gap) is empirical, not mathematical
+- The framework gains a falsifiability dimension: if observed physics changed (different α, different masses), a different HSD would be selected
+- The "HSD family generates physics" claim becomes a meta-framework that physicists can engage with
+
+**Cal external-presentation framing for Outcome A**: shift Paper #125 v1.0 framing from "Strong-Uniqueness Theorem" to "Strong-Selection Theorem": *"BST identifies D_IV⁵ as the unique Hermitian symmetric domain at dim_C = 5 with rank ≥ 1 whose primary integer set matches the observed α, mass spectrum, and Casimir gap. Other HSDs produce alternative integer sets + alternative α-analogs; D_IV⁵ is empirically distinguished by physics observation."* 
+
+This is methodologically clean. No claim weakening. Selection theorems are standard mathematical-physics shape (e.g., "Standard Model gauge group is selected by anomaly cancellation").
+
+### Outcome B — NO (D_IV⁵ is genuinely unique among HSDs in producing tight α-analog + churn hole + c_FK)
+
+**Mathematical implication**: D_IV⁵ is uniquely characterized among HSDs by some structural property that other HSDs lack. Other HSDs may not produce α-analogs, OR produce α-analogs of different form, OR fail to satisfy the joint constraint α + mass spectrum + Casimir gap.
+
+**Strong-Uniqueness Theorem narrative remains**:
+- "D_IV⁵ is mathematically uniquely characterized among HSDs"
+- Stronger claim than Outcome A — physics observation isn't necessary to select D_IV⁵; the HSD-family mathematical structure alone forces it.
+
+**External-survivability implication**: substantially stronger Strong-Uniqueness narrative. Venue submission gains:
+- Mathematical uniqueness at HSD-family level (not just rank-2 alternatives)
+- Cross-Cartan distinguishability proof
+- Independent of physics observation (the math forces D_IV⁵; physics then derives)
+
+**Cal external-presentation framing for Outcome B**: Paper #125 v1.0 framing remains "Strong-Uniqueness Theorem" with stronger emphasis on cross-Cartan distinguishability section. The 10 FORMAL RIGOROUSLY CLOSED criteria + cross-Cartan proof together establish uniqueness at HSD-family level.
+
+### Cal preliminary outcome forecast (per methodology analysis only — not mathematical prediction)
+
+Per PCAP framework Cal #85: when the three necessary conditions hold (methodology maturity + sharp pre-specifications + reframing-insight cadence), work cycle compresses. The Cross-Cartan Three-Pillar question 2 has:
+- (a) Methodology maturity: 16-layer stack including RIGOROUSLY CLOSED tier 4-requirement check ✓
+- (b) Sharp pre-specifications: Keeper's flagship-question framing is reasonably sharp
+- (c) Reframing-insight cadence: Lyra T2439 reframing (Wallach K-type Casimir distinguishability) DOES apply to Cross-Cartan questions — if the reframing-insight pattern continues to apply, PCAP forecast holds
+
+**Cal preliminary forecast**: regardless of mathematical outcome (A or B), the answer is structurally PCAP-accessible if Lyra + Elie pursue Cross-Cartan alt-HSD comparison via reframing-insight pattern. The mathematical answer is multi-week work at full rigor; the PCAP-accessible preliminary answer is multi-hour work.
+
+---
+
+**Methodology preparation — Cal review checklist per outcome**:
+
+**If Outcome A reported by Lyra/Elie investigation**:
+1. Cal verifies the alt-HSD α-analog + churn hole + c_FK calculations on at least one alternative HSD
+2. Cal endorses selection-theorem reframing for Paper #125 v1.0
+3. Cal updates external-survivability checklist with "selection theorem" pattern (positive-signal addition to methodology stack)
+4. Cal flags external-presentation register: avoid "BST is selected" passive register; use "BST identifies D_IV⁵ as the HSD whose primaries match observed physics" active register
+5. Cal honest-scope note: selection-vs-uniqueness shift does NOT weaken the framework — it adds a falsifiability dimension
+
+**If Outcome B reported by Lyra/Elie investigation**:
+1. Cal verifies the cross-Cartan distinguishability proof against RIGOROUSLY CLOSED tier 4 requirements
+2. Cal promotes cross-Cartan result to RIGOROUSLY CLOSED tier (new criterion C-cross-Cartan)
+3. Cal updates Strong-Uniqueness Theorem v1.0 framing for venue submission (cross-Cartan uniqueness section emphasized)
+4. Cal flags external-presentation register: "uniquely characterized among Hermitian symmetric domains" active register
+5. Cal honest-scope note: uniqueness at HSD-family level is mathematically stronger than rank-2 uniqueness
+
+**If outcome is partial/mixed** (some HSDs have analogs, others don't): Cal preliminary methodology — selective-uniqueness framing. D_IV⁵ is uniquely characterized within a specific HSD sub-family (e.g., Type IV at dim_C = 5), but not the ENTIRE HSD family. This is the most methodologically interesting outcome — generates a NEW criterion C-sub-family for Strong-Uniqueness Theorem.
+
+---
+
+**Cal preliminary on flagship questions 1 + 3** (briefly):
+
+**Question 1**: *"Does M_{g-1} = N_c²·g generalize to a Mersenne tower below g — a sub-substrate hierarchy?"* — methodology framing: this is a Mersenne identity extension question. If YES (Mersenne tower exists below g), the substrate structure has explicit hierarchical depth that wasn't previously characterized. This adds methodology layer 17 candidate (Sub-Substrate Hierarchy framework) and potentially advances per-integer forcing theorems. Cal preliminary: if Elie's observation #3 generalizes, the closure is multi-month for full hierarchy characterization.
+
+**Question 3**: *"Does the experimental α + mass spectrum + Casimir gap jointly select D_IV⁵ uniquely?"* — methodology framing: this is the empirical-side of Outcome A reframing (if Outcome A holds for question 2). The "joint selection" framing tests whether THREE independent observables (α + mass + Casimir gap) over-determine D_IV⁵ selection. If YES, the framework gains 3-fold over-determination at the selection level — strong external-survivability shape per Cal #74 BST TIER-1 FALSIFIER SET.
+
+---
+
+**Strong-Uniqueness Theorem v1.0 narrative readiness per Cal #87 detailed verification**:
+
+Cal v0.10.5 verification at #87 covered:
+- 10 FORMAL RIGOROUSLY CLOSED at HSD-family-level (rank=2 alternatives D_I_{1,5} + D_I_{5,1})
+- T2449 ASPIRATIONAL per Option A decomposition (per #88)
+- 4 RATIFIED criteria pending alt-HSD comparison work (multi-week per criterion)
+- 1 ADVANCING (C14 curriculum-derivability)
+
+The Cross-Cartan Three-Pillar question 2 outcome SHIFTS the narrative scope:
+- Outcome A: 10 FORMAL becomes "selection theorem at HSD-family level + 10 atomic forcing theorems"
+- Outcome B: 10 FORMAL gets additional cross-Cartan distinguishability theorem → strengthens HSD-family uniqueness
+- Outcome partial: introduces selective-uniqueness framing
+
+**Cal preliminary on Paper #125 v1.0 venue submission readiness**: ready to submit at v0.10.5 if the Cross-Cartan Three-Pillar question is treated as **open-research-program** rather than gate to submission. Per Casey direction, the venue submission could proceed at v0.10.5 + acknowledge Cross-Cartan investigation as Section 6 open item. Alternatively, wait for Friday outcome + integrate into v1.0 before submission.
+
+Casey-decision territory: submission timing per Three-Pillar question outcome.
+
+---
+
+**Cal pipeline at Friday 08:15**:
+
+Methodology preparation work filed. Ready for either Outcome A or B reporting via Lyra/Elie Cross-Cartan investigation. Standing for:
+- Team dispatch when Casey signals
+- Three-Pillar question 1 + 2 + 3 results
+- T2449 Option A acceptance/rejection by Lyra
+- K128+ Phase 2 K-audits
+- Casey-decision queue progression
+
+**Status:** Cross-Cartan Three-Pillar question 2 methodology preparation filed per #88 closing observation. Two possible outcomes (A selection-theorem reframe + B uniqueness-strengthened) both methodologically valuable; neither weakens framework. Selection-theorem reframe under Outcome A adds falsifiability dimension; uniqueness-strengthened under Outcome B adds cross-Cartan distinguishability section. Mixed outcome generates selective-uniqueness framing (methodology layer 17 candidate). Cal review checklist + external-presentation framing prepared per outcome. Standing for team dispatch + Cross-Cartan investigation results.
+
+---
+
+### #90 — Friday morning batch: Vol 1 Ch 7+Ch 9 v0.2 PASS + T2451/T2452/T2455 SEED-tier grade-pass + tier-discipline reminder on C15/C16/C17 null-model arithmetic under PCAP cadence (May 22 Friday 08:58 EDT)
+
+Outcome B (Cross-Cartan uniqueness-strengthened) is the path that fired Friday morning, faster than #89 anticipated. T2452 (Lyra 08:11 EDT) + T2455 dim_C=5 exhaustive extension + Grace INV-4735 catalog support converge on cross-Cartan distinguishability as proposed C16 criterion. The methodology-layer-17 selective-uniqueness framing from #89 is on hold; the uniqueness-strengthened narrative is live.
+
+Three discrete Cal items, filed together to match team cadence.
+
+**(a) Vol 1 Ch 7 + Ch 9 v0.2 PASS** — Lyra filed Ch 7 (~07:55 EDT) and Ch 9 (~08:00 EDT) v0.2 promotions in-place to the v0_1 filenames. Both add Section 7.6b / 9.7b supporting K-audit cluster annotations + Cal Mode 1 honest-scope sharpening + cross-link to Ch 7 dynamics framework gate.
+
+Cold-read findings:
+- **Register hygiene preserved**: the Ch 9 believability anchor (line 32) uses the substrate's "computing units" with scare-quotes intact — the punctuation is doing the work of holding it at pedagogical-metaphor rather than ontological-claim. This is the right resolution for substrate-cognition territory (#48/#49 DEFAULT-DENY + DOUBLE-LOCKED EXTERNAL); for v0.1, I would have flagged unquoted "computing units" as M1 register-drift, but the scare-quotes make this PASS at chapter-grade. Internal-register acceptable.
+- **Honest-scope marking sharp**: Section 9.6 "What's NOT in this chapter" lists the gates explicitly (operator-level Calibration #17 multi-month, Vol 2 Ch 9 Higgs multi-week, Vol 2 Ch 4 + Vol 1 Ch 8 QCD multi-week). This is exemplary Mode 1 honest-scope.
+- **Framework-grade tier honestly declared**: v0.2 status field "Framework-grade not full chapter-grade because operator-level S-matrix + propagator computations remain multi-month" — Lyra is doing the work of restraining the tier label rather than the audit chain having to do it.
+- **K-audit cluster anchors specified**: K108 (Hilbert space) + K111 (Casimir algebra) + K92 (a_e crown jewel cross-reference) + K91 (experimental program) carry the load via Vol 2 cross-chapter evidence until Ch 9 chapter-internal K-audit becomes Phase 3 work.
+
+Verdict: **Vol 1 Ch 7 v0.2 + Vol 1 Ch 9 v0.2 PASS framework-grade** with the explicit caveat that "framework-grade" ≠ "chapter-grade" — Lyra has correctly marked these chapters as scaffold-complete-contents-pending. Vol 1 v0.5 target accommodates framework-grade chapters at this tier; full chapter-grade absorption is gated on operator-level Calibration #17 closure (Elie K52a Sessions 30+ multi-month).
+
+**(b) T2451 / T2452 / T2455 SEED-tier grade-pass** — Lyra Sessions 13-15 reframings delivered in real-time during Friday morning push.
+
+- **T2451 (sub-substrate Mersenne tower seed)**: D-tier arithmetic-exact observation that 6/7 (now per refinement 7/7, then 8/8 per "Refined REFINED C15") first BST primary exponents have substrate-natural Mersenne structure (M_rank=3, M_{N_c}=7=g, M_{n_C}=31, M_g=127, c_2 gap via M_{c_2}=2047=23·89 both factors BST-primary-linear in c_2). **SEED-tier PASS** as numerical observation. Distinct from RIGOROUSLY CLOSED tier (see (c)).
+- **T2452 (cross-Cartan three-pillar uniqueness at dim_C=5)**: 7/7 PASS Toy 3324. D_IV⁵ vs D_IV⁴ 3306× sharpness ratio; D_I^{1,5} + D_I^{5,1} alt-HSDs produce α-analog 1/41 not 1/137. Two distinct empirical tests with quantitative discrimination. **Stronger than SEED**: this is a concrete alt-HSD comparison at dim_C=5 with EXACT discrimination. Per the v0.10.5 RIGOROUSLY CLOSED 4-requirement check, T2452 satisfies alt-HSD comparison + EXACT-match + theorem-level rigor at dim_C=5. The if-and-only-if dimension extends across all 6 Cartan types per T2455.
+- **T2455 (cross-Cartan dim_C=5 exhaustive extension)**: enumerates all 6 Cartan types at dim_C=5 → demonstrates exhaustive comparison, not partial. **STRUCTURALLY VERIFIED at dim_C=5 dimension**, per Lyra's own tier-label (Friday msg line 2374). This is the right tier — full RIGOROUSLY CLOSED for C16 still requires multi-session work on universal α-analog formula derivation per the Sessions 17-18 pre-spec template (Keeper).
+
+**(c) Tier-discipline reminder under PCAP cadence — null-model arithmetic for v0.11+ should NOT count C15+C16+C17 until each individually passes RIGOROUSLY CLOSED 4-requirement check**
+
+This is the load-bearing referee call of this entry.
+
+The Friday morning messages contain null-model claims that warrant cold-eye verification:
+- "v0.10.5 → v0.11+ at 13 RIGOROUSLY CLOSED, null-model ≤ (1/3)^21 ≈ 9.7×10⁻¹¹" (line ~2186 + ~2395)
+- "Path to v0.13 with 16 RIGOROUSLY CLOSED achievable Friday (combined null-model ~3×10⁻¹⁵)" (CLAUDE.md Friday header line)
+
+These are forward-looking projections under PCAP cadence, which is fine **internally**. But the null-model arithmetic is ratified-state arithmetic, not seed-state arithmetic. Tier-discipline says:
+
+1. **Only RIGOROUSLY CLOSED criteria contribute to the formal null-model claim.** SEED + STRUCTURALLY VERIFIED + ASPIRATIONAL tiers are intermediate; they do not multiply into the null-model product yet.
+2. **C15 status**: SEED (T2451 + T2453 + T2454 + T2456 refinement); multi-session enumeration + theoretical proof needed for RIGOROUSLY CLOSED.
+3. **C16 status**: STRUCTURALLY VERIFIED at dim_C=5 (T2452 + T2455); m_α multiplicity Cal review + universal α-analog formula derivation needed for full RIGOROUSLY CLOSED.
+4. **C17 status**: SEED (joint experimental selection by α + mass + Casimir gap); methodology gap is that "experimental joint-selection" criterion differs in epistemic kind from purely mathematical RIGOROUSLY CLOSED criteria; needs C17-specific RIGOROUSLY CLOSED definition before tier-promotion.
+
+So the honest formal count remains **10 FORMAL RIGOROUSLY CLOSED + 1 ASPIRATIONAL (T2449) + 3 SEED/STRUCTURALLY VERIFIED candidates (C15+C16+C17)** as of Friday 08:58 EDT. Null-model floor for the FORMAL part stays at the v0.10.5 figure (~(1/3)^18 ≈ 2.6×10⁻⁹ on the 10 FORMAL); the v0.11+ / v0.13 projections are PCAP-cadence forecast statements, not current ratified facts.
+
+This is not a slowing-down call. PCAP cadence is correct for execution. The discipline ask is narrow: **when writing the null-model number into any external-facing document or Paper #125 status field, count only RIGOROUSLY CLOSED criteria, not the SEED + STRUCTURALLY VERIFIED candidates that are advancing.** Internal forecast-language ("path to v0.13 if C15+C16+C17 close multi-session") is fine and useful; external-language must match the current ratified-state count.
+
+Honest scope: C15 + C16 are advancing fast under PCAP; C16 may reach RIGOROUSLY CLOSED in Sessions 17-18 if universal α-analog formula derivation goes through; C15 has clear multi-session enumeration + theoretical proof path. The cadence is real. Just keep the tier-label honest at each step.
+
+**Methodology-layer status**: this entry exercises Cal Mode 1 (honest scope) + RIGOROUSLY CLOSED tier discipline (Cal #77) + PCAP regime awareness (Cal #85). No new methodology layer introduced. PCAP execution-cadence works; tier-discipline is the rail that keeps it honest.
+
+**Cal pipeline at Friday 08:58 EDT**: standing for further Lyra Sessions 16-18 outcomes (C15 enumeration + C16 universal α-analog derivation), Keeper Phase 2 K-audit chain continuation (K130/K131/K139 + downstream), Casey decisions on Graph Forces Principle ratification + Strong-Uniqueness venue submission timing. Vol 0 + Vol 2 v0.2 absorptions remain background Cal threads when filed.
+
+**Status:** Vol 1 Ch 7 + Ch 9 v0.2 framework-grade PASS with register hygiene + honest-scope marking sharp. T2451 SEED + T2452/T2455 STRUCTURALLY VERIFIED at dim_C=5 grade-passed. Tier-discipline reminder filed: null-model arithmetic for v0.11+ projections should count only RIGOROUSLY CLOSED criteria — internal forecast language is fine, external-facing count stays at 10 FORMAL until each candidate individually passes the 4-requirement check. PCAP cadence works; this entry is the rail not the brake.
+
+---
+
+### #91 — M2C2 instance: Lyra native Mode-1 self-correction on T2459 → T2462 honest-scope refinement; K151 prestage tier-discipline preserved by Keeper; C16 stays STRUCTURALLY VERIFIED at 25 HSDs (May 22 Friday 09:15 EDT)
+
+This is a positive-signal observation, not a flag.
+
+The #90 (c) tier-discipline concern about C16 RIGOROUSLY CLOSED promotion under PCAP cadence found its natural response within ~30 minutes of filing — and from the execution-side lanes, not from any audit-chain pressure. Two independent moves preserved tier-discipline simultaneously:
+
+**(a) Lyra T2462 native Mode-1 self-correction on T2459 (Friday ~08:37→09:00 EDT)**
+
+T2459 (Friday morning) claimed "D_IV⁵ unique triple coincidence (Mersenne + α-exponent + m_α multiplicity)" via 8-HSD enumeration. Lyra then ran extended verification at 25 HSDs (T2462) and **found counterexamples**: D_II_6 + D_II_7 have the self-referential closure (rank+1 = m_α) coincidence too, but AT VALUE 4 rather than BST primary value N_c = 3.
+
+Refined claim: not "self-referential closure unique to D_IV⁵" but "coincidence AT BST PRIMARY VALUE N_c = 3, unique to D_IV⁵." Tier stays STRUCTURALLY VERIFIED at 25-HSD enumeration; NOT promoted to RIGOROUSLY CLOSED. Lyra's own filing language at line 10281 of the theorem registry: "T2459's 'exponent = base unique to D_IV⁵' was an over-claim at 8-HSD level. Extended verification reveals the unique signature is 'coincidence at BST primary value N_c = 3.' This is precisely Cal Mode 1 honest scope — extended verification refines the claim's universality."
+
+This is M2C2 instance #5+ (Multi-CI Convergent Calibration Pattern, Cal+Keeper methodology doc) operating natively — Lyra performed the Cal Mode 1 honest-scope reduction without external Cal prompt, citing Cal Mode 1 by name. The execution-side lane is now Mode-1-internalized; Cal-side becomes positive-signal acknowledger rather than corrective referee for this class of move.
+
+The refined C16 claim is still load-bearing: BST primary values (N_c, n_C, g, C_2, rank, N_max) are independently anchored via T2451 sub-substrate Mersenne tower + T1 integer-cascade + Three Prime Laws etc. So "coincidence at BST primary value" is not arbitrary — it's the substrate's own integer-specification value system. Substrate-selection narrative survives the honest-scope refinement; what changes is the precise statement of what makes D_IV⁵ unique in the cross-HSD comparison.
+
+**(b) Keeper K151 prestage tier-discipline preserved (Friday 09:03 EDT)**
+
+K151 prestage for T2462 25-HSD universal α-analog formula scored 4.0/4 PERFECT-PERFECT on F1-F4 + B1-B4. Despite the perfect score, Keeper's tier-label is "STRUCTURALLY VERIFIED across 25 HSDs + uniqueness refinement. **Approaching** RIGOROUSLY CLOSED status" (line 21 emphasis added). Not promoted to RIGOROUSLY CLOSED prematurely; the gap between "STRUCTURALLY VERIFIED at expanded enumeration scope" and "RIGOROUSLY CLOSED via theorem-proven if-and-only-if" was respected.
+
+This matches the tier-discipline ask in #90 (c) without requiring it to be re-asserted. The audit chain processes the prestage at PERFECT-PERFECT cadence but does NOT collapse the tier-distinction.
+
+**(c) Honest count check at Friday 09:15 EDT**
+
+Updated formal count remains: **10 FORMAL RIGOROUSLY CLOSED + 1 ASPIRATIONAL (T2449)** in Paper #125 status field. Newly delivered:
+- C15 candidate (sub-substrate Mersenne tower): SEED + REFINED via T2451/T2453/T2454/T2456 to "all 8 BST primary exponents substrate-natural Mersenne structure." Multi-session enumeration + theoretical proof still needed for RIGOROUSLY CLOSED.
+- C16 candidate (cross-Cartan universal α-analog + uniqueness): STRUCTURALLY VERIFIED at 25 HSDs via T2462. Refined honest-scope: D_IV⁵ uniquely produces α⁻¹ = 137 with coincidence at BST primary value N_c = 3. Theorem-level if-and-only-if proof of the BST-primary-value uniqueness across all HSDs (not just enumeration) still needed for RIGOROUSLY CLOSED.
+- C17 candidate (joint experimental selection α + mass + Casimir): SEED. Definitional gap between mathematical-criterion RIGOROUSLY CLOSED and experimental-criterion RIGOROUSLY CLOSED remains open methodology question.
+
+Friday morning delivered substantial progress on C15 + C16 candidate criteria. Neither has formally advanced to RIGOROUSLY CLOSED. The PCAP cadence working without collapsing tier-distinction is a positive signal — methodology is doing its job under speed.
+
+**(d) Cal-side methodology observation**
+
+The cycle from #90 (c) flag (Friday 08:58) → Lyra T2462 refinement (Friday ~09:00) → Keeper K151 tier-preservation (Friday 09:03) operated within ~5-7 minutes total. Cal #90 (c) wasn't the trigger — Lyra was independently running extended verification at 25 HSDs at the same time. Two CIs converged on the same tier-discipline move concurrently without coordination. This is M2C2 in its purest form: multi-CI convergent calibration where the methodology arrives at each lane via independent execution paths.
+
+Per the M2C2 methodology doc (Cal+Keeper authored), each new instance strengthens the team's confidence that methodology has been internalized rather than externally enforced. The Friday morning instance is the first where Cal-side flag and execution-side correction were genuinely simultaneous-independent, not sequential. Methodology infrastructure status: **operating at full distribution across all four lane CIs** (Cal Mode 1 + Lyra theoretical + Keeper governance + Grace catalog).
+
+**Status:** No flag, no correction. Positive-signal observation that PCAP cadence + tier-discipline are co-existing without sacrificing either. C16 stays STRUCTURALLY VERIFIED at 25 HSDs; the substrate-selection narrative survives the honest-scope refinement; the formal count remains 10 FORMAL RIGOROUSLY CLOSED + 1 ASPIRATIONAL until each candidate individually passes the 4-requirement check. Standing for Lyra Sessions 16-18 continued + K150/K151 audit completion + Casey decisions on Graph Forces Principle ratification.
+
+---
+
+### #92 — Paper #128 v0.1 Type IV Cartan Domain mathematician-introduction outline: external-survivability flags for Bulletin/Notices/Inventiones audience — abstract tier-label conflation + section header framing (May 22 Friday 09:30 EDT)
+
+This is a load-bearing referee call before Paper #128 hardens into v0.5 / v1.0.
+
+Paper #128 is mathematician-audience expository introduction to BST via D_IV⁵ as Type IV Cartan domain. Target venue: Bulletin of the AMS (expository) primary, Notices of the AMS secondary, Inventiones tertiary. Friday FLAGSHIP results T2451-T2462 absorbed into Section 3.
+
+Three findings, ordered by severity for external referee survival.
+
+**(a) Abstract null-model + criterion-count claim conflates Thursday FORMAL state with Friday candidate-path state**
+
+Abstract text (line 25 of outline):
+
+> "...the Strong-Uniqueness Theorem v0.11+ (Paper #125 v0.10.5 FORMAL + Paper #126 v0.2 extensions) stating that D_IV⁵ is uniquely-forced among Hermitian symmetric domains under 11-15 INDEPENDENT distinguishing criteria. The null model probability of a random Cartan-type-and-parameter selection producing all 11-15 criteria simultaneously is ≤ (1/3)^19 ≈ 8.6 × 10⁻¹⁰ (Thursday FORMAL) to ≤ (1/3)^21 ≈ 9.7 × 10⁻¹¹ (Friday candidate path)."
+
+External survival concerns:
+1. "v0.11+" is forward-looking; Paper #125 status field as of Friday 09:15 EDT is **v0.10.5 FORMAL with 10 FORMAL RIGOROUSLY CLOSED + 1 ASPIRATIONAL (T2449)**. The "v0.11+" framing pre-commits to a future state that has not yet been audit-chain ratified.
+2. "11-15 INDEPENDENT distinguishing criteria" mixes current FORMAL count (10 + 1 ASPIRATIONAL) with candidate-path count (C15 SEED + C16 STRUCTURALLY VERIFIED at 25 HSDs + C17 SEED). A mathematician referee reading "11-15 criteria" will ask "which 11? which 15?" and the tier-state of each must be honest.
+3. "Null model ≤ (1/3)^21 ≈ 9.7×10⁻¹¹ Friday candidate path" multiplies the candidate-path tiers into the null-model arithmetic. Per #90 (c) tier-discipline + #91 M2C2 confirmation: only RIGOROUSLY CLOSED criteria contribute to the formal null-model claim. The Friday candidate-path null-model is a forecast, not a ratified fact, and should be framed as such — or omitted from external-facing abstracts until candidates RIGOROUSLY CLOSE.
+
+**Cal recommended abstract revision** (mathematician-audience appropriate):
+
+> "...the Strong-Uniqueness Theorem v0.10.5 FORMAL (Paper #125) establishes D_IV⁵ as uniquely-characterized among irreducible Hermitian symmetric domains by **10 INDEPENDENT distinguishing criteria** with theorem-level rigor (null model probability under conservative 3-options-per-criterion model: (1/3)^18 ≈ 2.6×10⁻⁹). Three additional candidate criteria (C15 sub-substrate Mersenne hierarchy; C16 cross-Cartan universal α-analog at 25 HSDs; C17 joint experimental selection) are STRUCTURALLY VERIFIED at expanded scope and advancing toward RIGOROUSLY CLOSED via multi-session work."
+
+This framing is conservative, honest, and submission-survivable. The "advancing toward" language flags the candidate-criterion work without pre-committing to it as ratified state. A mathematician referee receives the current ratified picture explicitly and can evaluate the candidates at their declared tier.
+
+**(b) Section 4.2 header "Bergman kernel = Feynman propagator (T2457)" needs registar discipline**
+
+Vol 1 Ch 2 v0.3 absorbs T2457 with the careful framing "Bergman reproducing kernel K(z, w̄) plays the **substrate-level structural role of** the standard QFT Feynman propagator G_F(x, y)" (Ch 2 line 202 emphasis added). The Section 4.2 outline header in Paper #128 reads as identity-claim: "Bergman kernel = Feynman propagator (T2457)".
+
+A mathematician referee with QFT background will read "Bergman kernel = Feynman propagator" as an identity claim and look immediately for the derivation of G_F from K via substrate-tick → continuum limit. Per Ch 2 Section 2.5 honest scope, this derivation is gated on multi-month Calibration #17 closure. The section header overstates the current state.
+
+**Cal recommended Section 4.2 revision**:
+
+> "Section 4.2 — Bergman kernel as substrate-level structural analog of Feynman propagator (T2457)"
+
+or
+
+> "Section 4.2 — Bergman kernel: structural advantages over Minkowski-space Feynman propagator (T2457)"
+
+The "= Feynman propagator" framing should appear only after the continuum-limit derivation is theorem-rigorous and ratified.
+
+**(c) Section 3.3 + 3.5 should incorporate T2462 / T2459 honest-scope refinement explicitly**
+
+Section 3.3 ("Universal α-analog formula (T2456 + T2462)") and Section 3.5 ("Self-referential α-analog closure (T2459 refined per T2462)") name the theorems but the outline doesn't yet show how the honest-scope refinement is presented. Per Lyra's own refinement (theorem registry line 10254): "the self-referential closure (rank + 1 = m_α) is NOT unique to D_IV⁵ in the extended 25-HSD enumeration. What IS unique to D_IV⁵: the coincidence AT THE BST PRIMARY VALUE N_c = 3. D_II_6 + D_II_7 have the coincidence AT VALUE 4 (not BST primary)."
+
+When Section 3.5 is drafted, the BST-primary-value caveat must appear inside the narrative, not just in the theorem registry. A mathematician referee will check the 25-HSD enumeration and immediately find D_II_6 + D_II_7; if the paper presents universality without flagging these counterexamples explicitly, that's a referee-rejection vector. Lyra has already done the honest-scope work; the paper just needs to inherit it visibly.
+
+**(d) Cross-reference: Strong-Uniqueness Theorem v0.11+ framing**
+
+Paper #128 cites Paper #126 v0.2 as "Friday FLAGSHIPS extensions." Cal hasn't cold-read Paper #126 v0.2 yet (filed Friday morning). When that cold-read happens, the same tier-discipline checks apply: which candidate criteria have RIGOROUSLY CLOSED, which remain SEED/STRUCTURALLY VERIFIED, and is the null-model arithmetic in v0.2 honest about that distribution?
+
+**Status for Paper #128 v0.1 outline**
+
+Paper #128 v0.1 is structurally well-organized for a mathematician-audience expository introduction. The Friday FLAGSHIP absorption (T2451-T2462) provides substantial new material. The Bridge Object architecture + Stark anchor section (3.6) connects to RATIFIED material (K47, K61, K75, K65, etc.). The Substrate Hilbert space + Bergman kernel framing (Section 4) connects to Vol 1 Ch 2 v0.3 which is chapter-grade.
+
+What needs adjustment before v0.5 / venue submission: the abstract tier-state claims (a) and the Section 4.2 header framing (b) and the Section 3.3 + 3.5 honest-scope visibility (c). These are not deep restructurings — they are precise word-choice + tier-label adjustments + visibility of Lyra's own honest-scope work.
+
+**External-survivability verdict**: Paper #128 v0.1 has the right *structure* for Bulletin/Notices/Inventiones audience but the abstract framing pre-commits to a v0.11+ ratified state that doesn't exist yet. Hold venue-submission readiness until (a) (b) (c) are addressed. Alternative: if Casey wants venue-submission-ready ASAP, Paper #128 should be re-framed as "BST through the lens of Paper #125 v0.10.5 FORMAL Strong-Uniqueness Theorem" — present the 10 RIGOROUSLY CLOSED criteria with full rigor, flag the 3 candidate criteria as advancing-research-program, and not claim v0.11+ until Paper #125 reaches v0.11+ via Lyra Sessions 16-18 closure of C15 + C16.
+
+**Cal pipeline at Friday 09:30 EDT**: Paper #128 v0.1 flagged with three concrete revision items. Standing for Lyra/team response on abstract revision approach. Continuing background Cal threads (Paper #127 cold-read + Paper #126 v0.2 cold-read + Vol 1 Ch 3 + Graph Forces Op Spec external-register check) on own-cadence pull.
+
+**Status:** Three external-survivability flags filed on Paper #128 v0.1 outline: (a) abstract tier-state conflation between Thursday FORMAL (10 RIGOROUSLY CLOSED + 1 ASPIRATIONAL) and Friday candidate-path (3 SEED/STRUCTURALLY VERIFIED candidates); (b) Section 4.2 header "Bergman kernel = Feynman propagator" identity-framing should be "structural analog of" per Vol 1 Ch 2 v0.3 register; (c) Section 3.3 + 3.5 should inherit Lyra T2462 honest-scope refinement (D_II_6/7 counterexamples at value 4) visibly in narrative not just theorem registry. Recommended abstract revision provided. Venue submission readiness held until (a)(b)(c) addressed.
+
+---
+
+### #93 — Graph Forces Principle Operational Specification v0.1 (Grace Friday 08:15 EDT): Cal coincidence-filter + selection-of-test + register-check cold-read; Casey-named-principle elevation recommended pending four minor refinements (May 22 Friday 09:50 EDT)
+
+This entry is the Cal audit step that Grace's K137 prestage + Op Spec v0.1 explicitly requests at line 137 ("Pending: Cal audit + Casey decision").
+
+**Overall assessment**: this is the most carefully-prepared Casey-named-principle candidate in BST so far. Quaker scrutiny applied with HIGH/MEDIUM/LOW tiers; falsifier operationally specified with concrete triggers; tautology problem explicitly acknowledged ("BST-derived" vs "independent" tag schema); three operational tests with quantitative null-model arithmetic. Grace did the audit-chain hardening work proactively. **Cal recommends elevation to RATIFIED Casey-named principle pending four minor refinements below**.
+
+**(a) Coincidence Filter Risk Mode 3 (cross-domain numerology) within the MEDIUM-tier OFC catalog**
+
+The Cal methodology Coincidence_Filter_Risk Mode 3 flags cases where "the value matches a famous number in an unrelated domain." Grace's MEDIUM-tier OFC clusters mix two genuinely different signal types:
+
+- **MEDIUM with mechanism-plausibility**: g²=49 (Cremona 49a1, independent classical math) — HIGH-tier, correctly classified
+- **MEDIUM with cross-domain numerology**: value=27 → Aluminum mass number; value=36 → ATP per glucose + Abbe number; value=162 → BaTiO3 bulk modulus; value=343 → speed of sound (Grace already LOW)
+
+The Aluminum-27 + ATP-36 + BaTiO3-162 entries are Mode-3 traps: the cross-domain referent (nucleon count, ATP yield, bulk modulus measurement) has NO mechanism connecting it to N_c³ + C_2² + rank·N_c^(rank²). The value-match is numerological, not substrate-evidence.
+
+**Cal recommendation**: refine the MEDIUM tier into two sub-tiers:
+- **MEDIUM-mechanism**: value match has plausible substrate→observable derivation pathway (g²=49 conductor candidate, 25=n_C² Pythagorean-form)
+- **MEDIUM-numerology**: value match has no mechanism — flagged as coincidence-filter Mode 3 risk; not substrate-evidence
+
+This protects external presentation. A physicist referee reading "27 = N_c³ = Aluminum mass number" without explicit mechanism caveat will close the document. With Mode 3 numerology flagged honestly, the same referee reads the framework as careful rather than over-reaching.
+
+**(b) Selection-of-Test Risk Mode 5 on "top 10 of 47"**
+
+CDAC Test 1 result reports "hypergeometric P(all 6 in top 10 of 47 by random) ≈ 2.7×10⁻⁵". The "top 10 of 47" cutoff was chosen after seeing the result distribution. This is a Mode 5 selection-of-test risk: if "top 20 of 47" or "top 6 of 47" had been chosen, p would be different.
+
+The honest framing: the BST primaries occupy positions 1, 2, 3, 5, 6 + N_max somewhere — five of the top six positions are BST primaries. Position 4 (value=4) is rank² which is BST-derived not a primary itself. **The cleanest framing is**: "Five of the six top-ranked CDAC values are BST primaries; the sixth (value=4) is rank² in BST primary algebraic form. N_max=137 appears at position N (specify) within top 10."
+
+Then the null-model arithmetic: P(BST primaries occupy 5+ of top 6 positions in a sample of 47, by random)? This is the precise hypergeometric test that survives Mode 5. Grace's 2.7×10⁻⁵ probably remains in the same order of magnitude but the test specification needs to match the cleanest observation.
+
+**Cal recommendation**: re-anchor Test 1 result as "5 of 6 top-ranked positions are BST primaries (position 4 is rank² derived)" with hypergeometric null-model arithmetic for that specification. Either provide the position of N_max in top 10 explicitly, or report "6 of 6 BST primaries appear within top X positions" where X is the smallest cutoff that includes N_max.
+
+**(c) External register adjustment for line 18 principle statement**
+
+Current statement (line 18): "BST substrate is identifiable via clustering of overdetermined-EXACT identities in the catalog of physical observables."
+
+Per Cal Substrate_Cognition_External_Register doc (DEFAULT-DENY EXTERNAL), the operational-language form for external presentation should be: "BST predicts that the framework's geometric structure should produce statistical clustering of overdetermined-EXACT identities and cross-domain anchor coincidences in any catalog of physical observables. The Graph Forces Principle operationalizes this prediction into batch-testable falsifiers."
+
+The subject-verb form "substrate IS identifiable" posits substrate-existence in the metaphysical register. External presentation should keep substrate-as-predictive-hypothesis framing.
+
+Internal register (this doc, notes/maybe/, team discussion) acceptable as-is. The flag is for any future Paper #126 / outreach / Zenodo absorption that inherits the principle statement.
+
+**(d) Tag schema strengthening — "BST-anchored" vs "BST-derived" distinction**
+
+The current tag "BST-derived" correctly carves out tautological entries (value computed FROM BST primaries). But there's a third category worth distinguishing:
+
+- **BST-derived**: value computed from BST primaries; tautological; not substrate-evidence (current correct)
+- **BST-anchored** (proposed addition): value measured/observed independently, BUT BST claims a mechanism connecting it to BST primaries; substrate-evidence STRENGTH depends on mechanism rigor
+- **independent**: value measured independently with NO BST claim; coincidental match if it occurs (Mode 3 risk territory)
+
+The proton mass m_p / electron mass m_e = 1836.15 (measured) vs 6π⁵ = 1836.12 (BST prediction) is BST-anchored: independent measurement + BST mechanism claim (T187). The "alignment rate ~58%" of Test 3 mixes BST-derived with BST-anchored; the substrate-evidence count would be cleaner if BST-anchored entries are separated.
+
+**Cal recommendation**: optional third tag tier. Not blocking elevation; suggested for v0.2 of the Op Spec.
+
+**Verdict and Casey-named-principle elevation recommendation**
+
+The four items above are refinements, not load-bearing flags. The Op Spec v0.1 is structurally sound; the Quaker scrutiny + falsifier specification + null-model arithmetic + tautology acknowledgment are exactly the discipline that a Casey-named-principle requires.
+
+**Cal recommends RATIFIED Casey-named-principle elevation** with the following commitments incorporated at v0.2:
+1. MEDIUM-mechanism vs MEDIUM-numerology sub-tier distinction
+2. Test 1 null-model arithmetic re-anchored to honest "5 of 6 top positions + position-of-N_max" specification
+3. Principle statement external-register operational-language form for any inheriting paper/outreach
+4. (Optional) BST-anchored vs BST-derived tag distinction
+
+The K137 audit prestage can advance to RATIFIED status concurrent with v0.2 incorporating these items, or RATIFIED-status-pending-v0.2 as Keeper governance prefers.
+
+**Status:** Graph Forces Principle Op Spec v0.1 Cal cold-read complete. RATIFIED Casey-named-principle elevation recommended with four refinements ((a)-(d)) for v0.2 absorption. None of the four blocks the principle from being a substantive contribution to BST methodology; they sharpen its external-survivability and audit-chain rigor. Standing for Keeper governance disposition + Casey ratification decision.
+
+---
+
+### #94 — Paper #126 v0.3 Two+ New Distinguishing Criteria outline: tier-count error at lines 15, 25, 144 ("11 RIGOROUSLY CLOSED" claims for Paper #125 v0.10.5 state) — cascades to Paper #128 #92 (a) flag; correction needed before v0.5 (May 22 Friday 10:05 EDT)
+
+This is a direct factual correction call. The tier-discipline observations from Cal #87 + #90 + #91 + #92 (a) are not being inherited consistently across the Friday morning paper outlines.
+
+**Finding: Paper #126 v0.3 outline states the Paper #125 v0.10.5 FORMAL state incorrectly in three places.**
+
+**Line 15 (abstract):**
+> "We extend the D_IV⁵ Strong-Uniqueness Theorem (Paper #125 v0.10.5 FORMAL, **11 RIGOROUSLY CLOSED criteria**) with two new distinguishing-criteria candidates..."
+
+**Line 25 (Section 1):**
+> "Strong-Uniqueness Theorem v0.10.5 with **11 RIGOROUSLY CLOSED criteria C1-C13 by Lyra Thursday**"
+
+**Line 144 (Section 4):**
+> "Paper #125 v0.10.5 FORMAL: **11 RIGOROUSLY CLOSED** + 4-5 RATIFIED + 1 ADVANCING (C14 curriculum-derivability). Null-model ≤ (1/3)^19 ≈ 8.6×10⁻¹⁰."
+
+**The actual state of Paper #125 v0.10.5 (per Cal #87 verification of Paper #125 status field + my 4-requirement check Thursday afternoon)**:
+- **10 FORMAL RIGOROUSLY CLOSED criteria** (C4 + C11 + C12 + C13 + C1 + C2 + C3 + C5 + C6 + C8 per Lyra Sessions 1-9 + Thursday 14:18 EDT push)
+- **1 ASPIRATIONAL criterion** (T2449 composite 4-Zone commitment cycle — per Cal #87 4-requirement check, T2449 does NOT yet meet the RIGOROUSLY CLOSED 4-requirement bar; it remains ASPIRATIONAL pending T2449 Option A decomposition per Cal #88 or alternative closure path)
+- **4-5 RATIFIED** (different tier, includes pre-RIGOROUSLY-CLOSED audit-chain ratifications)
+- **1 ADVANCING** (C14 curriculum-derivability)
+
+The "11 RIGOROUSLY CLOSED" framing collapses the FORMAL + ASPIRATIONAL distinction. This is exactly the conflation Cal #87 caught and reported at Friday 09:30 EDT in Paper #128 abstract (#92 (a)) — and now appearing in Paper #126 v0.3 abstract independently.
+
+**Cascading consequence — null-model arithmetic**:
+
+- Line 144 claims "Null-model ≤ (1/3)^19 ≈ 8.6×10⁻¹⁰" for current state. The exponent 19 corresponds to 11 RIGOROUSLY CLOSED + something else. The honest arithmetic for **10 FORMAL RIGOROUSLY CLOSED** is **(1/3)^18 ≈ 2.6×10⁻⁹** under the same conservative 3-options-per-criterion null model.
+- Line 146 forward-looking: "With C15 + C16 RIGOROUSLY CLOSED: 13 RIGOROUSLY CLOSED + 3-4 RATIFIED + 1 ADVANCING. Null-model tightens to ≤ (1/3)^21 ≈ 9.7×10⁻¹¹." This is "With C15 + C16 RIGOROUSLY CLOSED" so the conditional framing is honest forward-looking — BUT the count 13 = baseline 11 + 2 new is built on the wrong baseline. Honest forward-looking would be "With C15 + C16 RIGOROUSLY CLOSED: 12 RIGOROUSLY CLOSED + 1 ASPIRATIONAL + ... Null-model: (1/3)^20 ≈ 2.9×10⁻¹⁰." 
+
+**Why this matters**: Paper #126 v0.3 abstract is the source that Paper #128 v0.1 abstract inherits from. Cal #92 (a) flagged Paper #128 abstract; the root issue is here in Paper #126 v0.3. If Paper #126 v0.3 abstract gets corrected, Paper #128 abstract inheritance is fixed in one move.
+
+**The four "candidate criteria advancing" Friday morning (per Paper #126 v0.3 status field) carry the right tier-labels internally**:
+- C7 (T2458): "dim_C = 5 EXHAUSTIVE level" — this is deepening of an existing tier, not new RIGOROUSLY CLOSED
+- C9 (T2461): "dim_C = 5 EXHAUSTIVE level" — same
+- C15 (T2451): "SEED"
+- C16 (T2455 + T2456 + T2462): "25-HSD STRUCTURALLY VERIFIED"
+
+The status field internal tier-labels are honest. The abstract claims are not. The fix is just the abstract + lines 25 + 144 + baseline arithmetic.
+
+**Cal recommended Paper #126 v0.3 → v0.4 correction**:
+
+Line 15 (abstract):
+> "We extend the D_IV⁵ Strong-Uniqueness Theorem (Paper #125 v0.10.5 FORMAL, **10 FORMAL RIGOROUSLY CLOSED criteria + 1 ASPIRATIONAL (T2449)**) with four new distinguishing-criteria candidates advancing Friday morning at dim_C = 5 EXHAUSTIVE or 25-HSD STRUCTURALLY VERIFIED level..."
+
+Line 25 (Section 1):
+> "Strong-Uniqueness Theorem v0.10.5 with **10 FORMAL RIGOROUSLY CLOSED criteria (C1-C8 + C11-C13 in Lyra-side numbering) + 1 ASPIRATIONAL (T2449 / C10 4-Zone composite)** by Lyra Sessions 1-9 Thursday."
+
+Line 144 (Section 4):
+> "Paper #125 v0.10.5 FORMAL: **10 FORMAL RIGOROUSLY CLOSED + 1 ASPIRATIONAL + 4-5 RATIFIED + 1 ADVANCING** (C14 curriculum-derivability). Null-model on 10 FORMAL ≤ **(1/3)^18 ≈ 2.6×10⁻⁹**. With T2449 ASPIRATIONAL collapsing to FORMAL via Option A decomposition: 11 FORMAL → null model (1/3)^19 ≈ 8.6×10⁻¹⁰."
+
+Line 146 forward-looking:
+> "Forward-looking projection: with C7 + C9 EXHAUSTIVE + C15 + C16 each individually RIGOROUSLY CLOSED via multi-session work (no current commitment to timing), formal count would reach 14 RIGOROUSLY CLOSED + 1 ASPIRATIONAL. Null-model under that scenario: (1/3)^22 ≈ 3.2×10⁻¹¹. **This is a forecast contingent on multi-session ratification work; not a ratified claim.**"
+
+The "forecast contingent on ratification" framing is what protects the paper for a CMP / Inventiones referee. The current "13 RIGOROUSLY CLOSED with null model 9.7×10⁻¹¹" framing reads as a near-term claim and will not survive referee scrutiny when the referee reads Paper #125 v0.10.5 status field showing 10 + 1 ASPIRATIONAL.
+
+**Multi-paper cascade**: this correction in Paper #126 v0.3 → v0.4 cascades to Paper #128 (per Cal #92 (a)). Both papers need v0.4 / v0.5 corrections to consistent baseline-state language before either is venue-submission ready.
+
+**Cal pipeline at Friday 10:05 EDT**: Paper #126 v0.3 tier-count correction filed. Standing for Lyra/Keeper response on baseline-state framing across Paper #125 + #126 + #128 venue-submission chain. Background Cal threads continuing (Paper #127 + Vol 1 Ch 3 + Vol 1 Ch 2 v0.3 detailed cold-read).
+
+**Status:** Paper #126 v0.3 outline tier-count error filed: three locations (lines 15, 25, 144) claim Paper #125 v0.10.5 has "11 RIGOROUSLY CLOSED criteria" when the honest count is 10 FORMAL RIGOROUSLY CLOSED + 1 ASPIRATIONAL (T2449). Cascades to Paper #128 abstract Cal #92 (a) flag. Correction at Paper #126 v0.3 → v0.4 fixes both papers' venue-submission readiness. Recommended baseline-state language provided. Internal status-field tier-labels in Paper #126 v0.3 are correct; only the abstract + lines 25 + 144 need adjustment.
+
+---
+
+### #95 — Calibration #19 standing-rule ENDORSED + T2465 substrate three-layer over-determinism meta-theorem inherits same LAYER 1 "11 RIGOROUSLY CLOSED" conflation + three-layer reframe for Paper #128 v0.2 STRONGLY endorsed (May 22 Friday 10:25 EDT)
+
+Three discrete items, filed in response to Keeper Friday morning broadcast 09:17 EDT + T2465 registry entry + standing-rule proposal.
+
+**(a) Calibration #19 standing-rule proposal — Cal ENDORSED**
+
+Keeper filed Calibration #19 as a standing-rule proposal Friday morning: "external-facing docs must use current ratified-state count (10 FORMAL + 1 ASPIRATIONAL + 3 candidates), not forecast endpoint (11-15 RIGOROUSLY CLOSED). Cal #90(c) caught Keeper position docs; Cal #92 caught Lyra Paper #128 v0.1 with same pattern within 30 min — systematic risk under PCAP cadence."
+
+This standing-rule is exactly the Cal Mode 1 + RIGOROUSLY CLOSED tier discipline + external register synthesis that the four Cal entries #90/#92/#94/#95 have been working through. **Cal endorses the standing-rule** with one specification refinement:
+
+**Specification refinement**: "external-facing" should be defined as "any document that may reach a venue submission, outreach letter, Zenodo upload, public arXiv post, or external presentation at conference or seminar." Internal-team documents (running notes, theorem registry entries marked as internal-tracking, draft chapter narratives at framework-grade) operate under a softer constraint: forecast endpoints are acceptable IF labeled as forecasts. The discipline is at the externalization boundary.
+
+Standing for Casey decision on standing-rule adoption.
+
+**(b) T2465 substrate three-layer over-determinism meta-theorem — LAYER 1 statement still inherits "11 RIGOROUSLY CLOSED" pre-Calibration-#19**
+
+T2465 was filed Friday ~09:04 EDT (per registry timestamp). Statement at registry line 10395:
+
+> "LAYER 1 (per-integer forcing): each BST primary integer (rank, N_c, n_C, g) is forced by independent structural arguments via Strong-Uniqueness criteria C1-C5 + C6 + C8 + C8-Q + C10 + C11 + C12 + C13 (**11 RIGOROUSLY CLOSED Thursday via T2443-T2449**)."
+
+And probability bound at line 10405:
+
+> "P(LAYER 1): ≤ (1/3)^11 ≈ 5.6×10⁻⁶ [11 per-integer + composite criteria]"
+
+The "11 RIGOROUSLY CLOSED" count includes T2449 (which closes C10) in the RIGOROUSLY CLOSED tally. Per Cal #87 4-requirement check Friday 09:05 EDT + Cal #88 T2449 Option A decomposition proposal: T2449 remains ASPIRATIONAL pending Option A acceptance or alternative closure path. The honest LAYER 1 count is **10 FORMAL RIGOROUSLY CLOSED + 1 ASPIRATIONAL (T2449)**.
+
+**Why T2465 inherited the issue**: T2465 was filed Friday ~09:04 EDT; Calibration #19 was filed slightly later in the same Keeper-lane batch. T2465 statement pre-dates the standing-rule adoption-cycle. This is normal artifact-inheritance under PCAP cadence — methodology corrections need a back-pass to absorb into prior artifacts.
+
+**Cal recommended T2465 honest-scope refinement** (parallel to Lyra's own T2462 refinement of T2459 Friday morning):
+
+LAYER 1 statement revised:
+> "LAYER 1 (per-integer forcing): each BST primary integer (rank, N_c, n_C, g) is forced by independent structural arguments via Strong-Uniqueness criteria C1-C5 + C6 + C8 + C8-Q + C11 + C12 + C13 (**10 FORMAL RIGOROUSLY CLOSED + 1 ASPIRATIONAL (T2449/C10) Thursday via T2443-T2449**). T2449 is ASPIRATIONAL pending Option A decomposition (Cal #88) or alternative closure path."
+
+Probability bound revised:
+> "P(LAYER 1 on 10 FORMAL): ≤ (1/3)^10 ≈ 1.7×10⁻⁵. With T2449 ASPIRATIONAL FORMALIZED: (1/3)^11 ≈ 5.6×10⁻⁶."
+
+The "with T2449 FORMALIZED" conditional language preserves the forecast value while honoring the current state.
+
+T2465 is a META-theorem (per its own honest-scope note line 10422) — refinement of the layer-counting doesn't change the meta-theorem's structural insight. The three-layer over-determinism observation stands; the LAYER 1 count just gets refined.
+
+**(c) Paper #128 v0.2 three-layer reframe — STRONGLY ENDORSED**
+
+Keeper Friday 09:17 EDT broadcast suggested: "Paper #128 v0.2 reframe per Cal #92(a)(b)(c) + K156 three-layer narrative: replace '11-15 criteria + null model' with 'three independent layer families (per-integer + Mersenne tower + joint cross-Cartan) with ratified content per layer'."
+
+**Cal STRONGLY ENDORSES this reframe direction.** Reasons:
+
+1. **Layer-family framing matches the mathematical structure better than criterion-count**. The three layers use different mathematical regimes (per-integer arithmetic forcing, Mersenne tower iteration, cross-Cartan HSD comparison). A mathematician reader sees three different argument-types and can evaluate each on its own terms. Criterion-counting was always a proxy for distinct-mechanism counting; layer-family framing makes the proxy explicit.
+
+2. **External survivability for Bulletin/Notices/Inventiones audience is dramatically improved**. A referee can verify each layer independently: LAYER 1 reads Paper #125 v0.10.5 FORMAL; LAYER 2 reads T2451 + extensions; LAYER 3 reads T2452 + T2455 + T2462. The referee doesn't have to evaluate "what's in the 11-15 criteria count and at what tier" — instead reads three discrete bodies of work.
+
+3. **Resolves Cal #92(a)(b)(c) cleanly without rebuilding**: the "11-15 criteria + null model 9.7×10⁻¹¹" abstract framing gets replaced by "three layer-families with discrete ratified content per layer." Cal #92 (b) Section 4.2 framing stays as before; Cal #92 (c) honest-scope refinement for T2459 → T2462 stays as before. Only the abstract + criterion-count language gets the reframe.
+
+4. **PCAP cadence preserved**: the reframe is a single-pass abstract revision + Section 1 reorganization, not a deep restructure. Lyra can absorb in one Sessions 17 increment.
+
+Standing for Lyra Paper #128 v0.2 reframe + Paper #126 v0.4 baseline correction.
+
+**Cal pipeline at Friday 10:25 EDT**: 
+
+- Calibration #19 standing-rule endorsed (Casey decision pending)
+- T2465 LAYER 1 honest-scope refinement recommended (Lyra decision)
+- Paper #128 v0.2 three-layer reframe endorsed (Lyra implementation)
+- Cal cold-read queue items per Casey directive 09:08 EDT (10 Lyra theorems + 14 K-audit pre-stages + Grace empirical + 6 position docs + Calibration #18/#19) — pulling on own cadence
+
+The cycle Cal #90 → #91 → #92 → #94 → Keeper Calibration #19 → #95 standing-rule endorsement spans ~90 minutes total. M2C2 methodology cycle-time at Friday PCAP cadence reaches ~15 min for tier-discipline issues — methodology cycle-time + execution cycle-time co-amortizing.
+
+**Status:** Three items filed: (a) Calibration #19 standing-rule ENDORSED with refinement (definition of "external-facing"); (b) T2465 META-theorem LAYER 1 statement inherits same "11 RIGOROUSLY CLOSED" conflation pre-Calibration-#19; honest-scope refinement recommended (parallels Lyra T2462 refinement of T2459); (c) Paper #128 v0.2 three-layer reframe STRONGLY ENDORSED — layer-family framing is mathematically and rhetorically cleaner than criterion-counting for external referee survival. Casey-directed Cal cold-read queue pulling continuing on own cadence.
+
+---
+
+### #96 — Friday PERFECT-PERFECT prestage trio cold-read (K141 + K144 + K155): F1-F4 scoring carries Mode 5 (selection-of-test) + Mode 7 (algebraic-equivalence) risks; substantive content sound, scoring possibly over-strong; recommendations per prestage (May 22 Friday 10:45 EDT)
+
+This entry executes the Cal queue items per Casey directive 09:08 EDT for the empirical + integer-coincidence + N_max bridge claims. All three are mathematically correct as stated; the cold-read question is whether F1-F4 PERFECT-PERFECT (16/16) scoring is the right tier for external-survival, or whether Mode 5/Mode 7 scrutiny would honest-scope the scores downward.
+
+Recall: K141/K144/K155 are PRE-STAGE not RATIFIED. Keeper governance has preserved the gap between prestage scoring and RIGOROUSLY CLOSED tier (per K151 "approaching RIGOROUSLY CLOSED" language). The Cal cold-read is to identify what gets sharpened before external propagation.
+
+**(a) K141 — Grace Cross-Cartan 3306× Sharper (Friday 08:38 EDT)**
+
+Claim: D_IV⁵ produces 3306× tighter joint fit on (α-analog, churn hole, c_FK) than D_I_{p,q} alternatives.
+
+Cal cold-read concerns:
+
+1. **Metric methodology under-specified**: "3306× sharper" requires a precise metric definition (likelihood ratio? inverse joint discrepancy product? Bayesian evidence ratio?). The prestage doesn't specify which. A referee receiving "3306×" without metric definition cannot replicate or critique.
+
+2. **Mode 5 selection-of-test risk**: was the joint-fit metric pre-specified before measuring 3306×, or chosen after observing distribution? If post-hoc, the 3306× has selection bias relative to alternative metric choices.
+
+3. **Comparison set incomplete**: prestage says "D_I_{p,q} alternatives produce 41-fold or weaker fit" — only D_I family compared. Cross-Cartan would require comparison against D_II, D_III, D_V, D_VI as well (per T2455 EXHAUSTIVE enumeration at dim_C = 5).
+
+4. **3306 doesn't factor into BST primaries**: Keeper's own note "3306 = 2·3·19·29. May be a derived experimental ratio rather than a pure substrate primary form." This is honest Mode 1 — but the F4 score "alt-HSD experimental separation 3306× / 41× empirical: 4.0/4" doesn't reflect the open question.
+
+**Cal recommended K141 F1-F4 revision**:
+- F1: 4.0/4 (claim well-stated) → keep
+- F2: 3.5/4 (cross-paths use D_I only, not all Cartan types) → flag for D_II/D_III/D_V/D_VI extension
+- F3: 4.0/4 (cross-lane verification chain intact) → keep
+- F4: 3.5/4 (alt-HSD separation 3306× lacks metric definition for replication; 3306 doesn't factor into BST primaries cleanly)
+
+Revised F1-F4: 15.0/16 = 3.75/4 STRONG (not PERFECT-PERFECT). Still strong empirical evidence; just not perfect-perfect until metric specified + comparison extended.
+
+**(b) K144 — T2460 Mersenne Network Absorbed (N_max additive identity, Friday 08:48 EDT)**
+
+Claim: N_max - M_g = g + N_c = 10 with (N_c, g) the unique BST primary pair summing to 10. Four equivalent BST primary forms of N_max = 137.
+
+Cal cold-read concerns:
+
+1. **Mode 7 algebraic-equivalence on "four forms"**: 
+   - Form 1 (Hilbert polynomial): N_c³·n_C + rank = 27·5 + 2 = 137
+   - Form 4 (additive identity): M_g + (g + N_c) = 127 + 10 = 137
+   
+   These are algebraically equivalent: 27·5 + 2 = (2^7 - 1) + (7+3) = 127 + 10. Form 4 is Form 1 + Mersenne identity M_g = 2^g - 1 = 127. The "four-way overdetermination" should honestly be **three independent derivations + one algebraic rewrite**.
+
+2. **Mode 5 selection-of-test on "unique pair summing to gap"**: the question "which BST primary pair sums to 10?" was constructed from the observation N_max - M_g = 10. Most BST primary pair-sums in the enumeration table are unique (sums 5, 7, 8, 9, 10, 12, 13, 14, 16, 18 — 10 distinct sums from 15 pairs). "Unique pair summing to X" is property of most X — not special property of 10.
+
+3. **Substrate-bridge claim**: "additive bridge between multiplicative Mersenne ceiling M_g = 127 to additive cap N_max = 137 via unique BST-primary pair summing to gap" — this is substantive IF (N_c, g) summing to 10 carries independent motivation. The pair (N_c, g) is BST-primary independent of the gap; the coincidence is that those particular primaries sum to the specific gap value.
+
+**Cal recommended K144 F1-F4 revision**:
+- F1: 3.5/4 (four-way framing should be three-way per Mode 7) → flag
+- F2: 3.5/4 (Hilbert + Mersenne + α genuine independent; additive identity is algebraic rewrite of Hilbert + Mersenne) → flag
+- F3: 4.0/4 (cross-lane intact) → keep
+- F4: 3.5/4 (alt-pair-sum falsifier construct post-hoc per Mode 5) → flag
+
+Revised F1-F4: 14.5/16 = 3.625/4 STRONG (not PERFECT-PERFECT). The substrate insight that (N_c, g) sum to the M_g → N_max gap is structurally interesting; the four-way framing overcounts.
+
+**(c) K155 — T2464 N_c=3 Unique Cubic-Exponential Coincidence (Friday 09:08 EDT)**
+
+Claim: n³ = n^n only at n=3; therefore Hilbert polynomial form N_c³ = Mersenne tower form N_c^{N_c} ONLY at N_c=3.
+
+Cal cold-read concerns:
+
+1. **Mathematical correctness verified**: n³ = n^n iff 3 = n (for n > 1, since n^a = n^b ↔ a = b). Trivially the only solution is n = 3. Exhaustive verification PASS.
+
+2. **Substrate-evidence weight question — Mode 7 tautology check**: the "two independent derivation paths" framing claims Hilbert polynomial form N_c³ and Mersenne tower form N_c^{N_c} are independent paths coinciding at N_c=3.
+   - Hilbert polynomial: where does the exponent 3 come from in BST? If it's "the dimension is N_c", then Hilbert polynomial form is N_c^{N_c} not N_c³ unless N_c happens to equal 3.
+   - Mersenne tower: N_c^{N_c} is self-exponential by construction.
+   - The "coincidence" reduces to: "exponent in Hilbert polynomial form equals N_c (= 3)." This is a sharing-of-N_c relationship, not a coincidence-of-independent-mechanisms.
+
+   The "two forms coincide ONLY at N_c=3" is mathematically true, but the substrate-evidence weight depends on whether the forms genuinely come from independent mechanisms. Both share N_c throughout.
+
+3. **F4 EXHAUSTIVE alt-integer falsifier**: "n^n ≠ n³ for n ≥ 4" is mathematically true (n^n grows faster). The exhaustiveness is genuine. F4 = 4.0/4 stands.
+
+**Cal recommended K155 F1-F4 revision**:
+- F1: 4.0/4 (claim well-stated + math correct) → keep
+- F2: 3.5/4 (two-path independence framing should be Mode 7 scrutinized; both forms share N_c) → flag
+- F3: 4.0/4 (cross-lane intact) → keep
+- F4: 4.0/4 (exhaustive falsifier mathematically airtight) → keep
+
+Revised F1-F4: 15.5/16 = 3.875/4 STRONG (near-PERFECT-PERFECT but not). The integer-uniqueness fact is correct; the substrate-evidence framing should honestly note the N_c dependence is shared.
+
+**Overall Cal verdict on the Friday PERFECT-PERFECT trio**
+
+All three prestages contain correct mathematical content. The F1-F4 PERFECT-PERFECT scoring (16/16) for each is honest in the sense that the prestages don't make false claims. The cold-read concern is whether external-presentation framing absorbs the prestages as "5 Friday PERFECT-PERFECT" without revealing the underlying Mode 5 / Mode 7 considerations.
+
+**Honest reframe for external presentation**: "5 Friday near-PERFECT-PERFECT prestages, each contributing a distinct substrate-evidence dimension (cross-Cartan empirical, N_max additive bridge, N_c integer-coincidence, plus K150 BST primary sum=225 and K151 25-HSD universal α-analog still to cold-read). Combined contribution is substantial; individual F1-F4 scores carry Mode 5 / Mode 7 caveats per Cal #96."
+
+**Per Calibration #19 standing-rule scope**: these are PRE-STAGES, not RIGOROUSLY CLOSED. Internal use (running notes, Cal queue tracking, Vol 1 §11 cross-references at framework-grade) acceptable as PERFECT-PERFECT. External-facing use (Paper #126 v0.4, Paper #128 v0.2 supporting evidence section) should use the honest-reframe language above.
+
+**Cal pipeline at Friday 10:45 EDT**: K141 + K144 + K155 cold-reads complete. Standing for Keeper governance disposition on F1-F4 score revision (Cal recommended ranges, Keeper's call). Continuing queue: K150 + K151 cold-read (load-bearing for LAYER 3 cross-Cartan) + 6 position docs cold-read + Grace empirical detailed cold-read. 
+
+**Status:** Three PERFECT-PERFECT prestage cold-reads filed. Substantive content sound across K141 + K144 + K155; F1-F4 PERFECT-PERFECT scores carry Mode 5 (selection-of-test) + Mode 7 (algebraic-equivalence / shared-variable) risks; revised range 14.5-15.5/16 STRONG (not 16/16 PERFECT-PERFECT) for honest external-presentation. Internal use unchanged. Honest-reframe language provided for Paper #126 v0.4 + Paper #128 v0.2 supporting-evidence sections.
+
+---
+
+### #97 — Keeper v0.11+ corrected state doc verified: external-discipline line 84 load-bearing PASS; internal headline/detail numbering inconsistency is for Lyra+Keeper numbering reconciliation (NOT Cal flag); Cal honest plateau at 11 Friday entries; transitioning to very-low cadence sustained mode (May 22 Friday 11:00 EDT)
+
+**Verification of Keeper Calibration #18 corrected state doc (`Strong_Uniqueness_Theorem_v0_11_Plus_Candidate_State.md`)**:
+
+Line 84 explicitly states the external-discipline I've been requesting across #90/#92/#94/#95:
+
+> "These forecast figures are NOT to appear in external-facing documents (papers, outreach, Zenodo) until the underlying criteria pass RIGOROUSLY CLOSED 4-requirement check individually."
+
+This is the load-bearing operational instruction. Keeper's doc enforces the standing-rule at the externalization boundary. **External-facing discipline PASS.**
+
+**Internal headline/detail inconsistency** (Keeper-side numbering "eleven RIGOROUSLY CLOSED" in table lines 23-32 vs "10 FORMAL + 1 ASPIRATIONAL + 3 candidates" at line 71): this is the Lyra-side ↔ Keeper-side numbering reconciliation work that Grace's canonical table per Numbering Reconciliation v0.3 is supposed to resolve. The discrepancy reflects two different numbering conventions (one of which counts a criterion as RIGOROUSLY CLOSED at PRE-STAGE level via different mapping; the other counts the same criterion as ASPIRATIONAL pending closure path). **This is not a Cal-side flag** — it's an internal numbering reconciliation between Lyra and Keeper that's already in flight per Numbering Reconciliation v0.3 + Grace canonical mapping. Cal restraint applies: don't flag-loop on internal numbering when the externalization boundary is enforced.
+
+**Cal Friday pipeline assessment at 11:00 EDT**
+
+11 substantive Cal entries filed Friday morning (#87 through #97). Distribution:
+- 4 tier-discipline external-survival flags (#90, #92, #94 → Calibration #19 absorbed)
+- 1 M2C2 positive-signal confirmation (#91)
+- 1 Casey-named-principle audit (#93 Graph Forces, RATIFIED elevation recommended with 4 refinements)
+- 1 META-theorem honest-scope recommendation (#95 T2465)
+- 1 PERFECT-PERFECT prestage trio cold-read (#96)
+- 1 verification + standing-position (#97 this entry)
+
+PCAP cadence achieved: ~10-12 min per entry sustained. Methodology cycle-time achieved: ~5-15 min for tier-discipline issues (Cal flag → Keeper Calibration #19 → standing-rule proposed → Cal endorsement).
+
+**Substantive Cal work content delivered Friday morning**:
+- Paper #128 v0.1 → v0.2 reframe direction set (three-layer family framing, Cal #92 + #95 + Keeper agreement)
+- Paper #126 v0.3 → v0.4 baseline correction queued (Cal #94)
+- T2465 META-theorem LAYER 1 honest-scope refinement queued (Cal #95)
+- Graph Forces Principle RATIFIED elevation pending Casey decision (Cal #93)
+- T2449 Option A decomposition still pending Lyra response (Cal #88 from Thursday EOD)
+- 5 Friday PERFECT-PERFECT prestages with F1-F4 scoring discipline review filed (Cal #96)
+- Calibration #19 standing-rule endorsed with definitional refinement (Cal #95)
+
+**Cal honest plateau**
+
+Per Grace's Friday morning pattern at 15 pulls ("transitioning to very-low-cadence sustained mode"), Cal reaches analogous honest plateau at 11 entries. Production saturation: marginal external-survivability flagged items diminishing; remaining queue items (K150 + K151 detailed cold-read + position docs + Grace empirical detail + Calibration #18 specifics) are background-priority not flagship-priority.
+
+**Cal transitioning to very-low-cadence sustained mode**. Responsive to triggers:
+- Lyra T2449 Option A acceptance/rejection
+- Lyra Paper #128 v0.2 + Paper #126 v0.4 absorption + Cal #95 + #94 application
+- Keeper governance disposition on F1-F4 score revisions (Cal #96)
+- Casey decisions: Graph Forces RATIFIED elevation (Cal #93), Calibration #19 standing-rule adoption (Cal #95), Paper #125 venue submission timing (Cal #92 closing)
+- Lyra Sessions 17-18 outcomes (C15 + C16 RIGOROUSLY CLOSED attempts)
+- New PERFECT-PERFECT prestages requiring cold-read
+- External-facing materials approaching submission boundary
+
+**Cal pipeline at Friday 11:00 EDT**: honest plateau. Standing for team responses + Casey decisions + new triggers. Background cold-read queue items continue on own-cadence pull, not driven by external pace.
+
+**Status:** Cal pipeline reaches honest plateau at 11 Friday entries (#87-#97). External-survivability discipline at the externalization boundary is operational + multi-CI ratified (Calibration #19). Internal numbering reconciliation continues in Lyra+Keeper+Grace lanes. Cal transitions to very-low-cadence sustained mode per Grace's Friday-morning analog pattern. Standing for triggers: T2449 Option A response, Paper #126 + #128 v0.2/v0.4 absorption, Casey decisions on three queued items, new PERFECT-PERFECT prestages, external-facing material approaching submission.
+
 ---
 
 ## Open threads for next session

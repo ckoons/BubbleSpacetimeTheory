@@ -1,8 +1,8 @@
 ---
-title: "Curriculum Vol 0 Chapter 7 — The Operator Zoo (Chapter-Grade Draft v0.1)"
-author: "Keeper (eighth Keeper-lane chapter-grade content)"
-date: "2026-05-21 Thursday 10:32 EDT (actual via date)"
-status: "v0.1 chapter-grade content draft FILED. Eighth Keeper-lane chapter (after Ch 1 + Ch 2 + Ch 3 + Ch 4 + Ch 8 + Ch 9 + Ch 10). Vol 0 Chapter 7 exposes the substrate-native operator zoo: 11-13 operators organized by SO(5) × SO(2) × Möbius decomposition + substrate-cycle structure. Original 6-operator zoo FRAMEWORK-COMPLETE per Elie K52a S29 Thursday. Extended ledger 11-13 with charge + chirality + number + parity + Hamiltonian + time + T_rev + C. Strong-Uniqueness C12 STRUCTURALLY VERIFIED."
+title: "Curriculum Vol 0 Chapter 7 — The Operator Zoo (Chapter-Grade Draft v0.4 — 14-operator expansion + Bergman propagator absorption)"
+author: "Keeper (original) + Lyra (Friday v0.3→v0.4 prose depth-investment)"
+date: "2026-05-21 Thursday 10:32 EDT initial; Friday 2026-05-22 ~10:41 EDT v0.4 prose absorption"
+status: "v0.4 chapter-grade narrative. Per Calibration #19 STANDING RULE: current ratified state Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria. **Friday v0.4 additions** (Lyra Friday): Operator Zoo Expansion to 14 operators (Paper #134 v0.1) — adds T (T2433) + C (T2434) + P (T1925-D Pin(2) Z_2) + N (number) + γ_5 (chirality) + Q (electric charge) + C_3 (color) + I_3 (weak isospin) to existing 6/6 zoo (Bell-CHSH T2399 + position T2419 + spin T2421 + momentum T2422 + angular momentum T2425 + H_sub Elie K52a S29). T2457 (Friday) Bergman structural-role-of Feynman propagator gives operator zoo matrix elements via reproducing kernel structure. Strong-Uniqueness C12 RIGOROUSLY CLOSED (T2441, Thursday)."
 related: ["Vol 0 Ch 1 D_IV⁵ APG", "Vol 0 Ch 4 Isotropy Group Structure", "Vol 0 Ch 8 Conservation Laws", "Operator Zoo Promotion Ledger v0.1 (Thursday morning)", "Lyra SP-31-1 canonical Bergman H²(D_IV⁵)", "Elie K52a S29 H_sub = Casimir on L²-section", "T and C Substrate Operation Proposals v0.1 (Thursday 08:48 EDT)"]
 ---
 

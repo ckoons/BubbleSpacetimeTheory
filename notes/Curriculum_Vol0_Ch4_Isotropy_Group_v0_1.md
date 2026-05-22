@@ -1,8 +1,8 @@
 ---
-title: "Curriculum Vol 0 Chapter 4 — Isotropy Group Structure (Chapter-Grade Draft v0.1)"
-author: "Keeper (seventh Keeper-lane chapter-grade content)"
-date: "2026-05-21 Thursday 10:31 EDT (actual via date)"
-status: "v0.1 chapter-grade content draft FILED. Seventh Keeper-lane chapter (after Ch 1 + Ch 2 + Ch 3 + Ch 8 + Ch 9 + Ch 10). Vol 0 Chapter 4 exposes D_IV⁵ isotropy subgroup decomposition SO(5) × SO(2) × Möbius — the structural organizing principle for substrate observables. Each factor produces specific physics: SO(5) → spacetime observables; SO(2) → internal symmetries (charge + chirality); Möbius → discrete symmetries (parity). This is THE chapter explaining why physics has the structural organization it does."
+title: "Curriculum Vol 0 Chapter 4 — Isotropy Group Structure (Chapter-Grade Draft v0.4 — Pin(2) Z_2 grading + spin-statistics absorption)"
+author: "Keeper (original) + Lyra (Friday v0.3→v0.4 prose depth-investment)"
+date: "2026-05-21 Thursday 10:31 EDT initial; Friday 2026-05-22 ~10:40 EDT v0.4 prose absorption per Casey + Keeper textbook completion phase"
+status: "v0.4 chapter-grade narrative. Per Calibration #19 STANDING RULE: current ratified state Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria including C1 (T2443) rank = 2 forcing. **Friday v0.4 additions** (Lyra Friday): Pin(2) Z_2 grading forced by rank=2 → spin-statistics structural derivation (Paper #133 v0.1) + T2433 + T2434 discrete symmetry operators (Thursday Lyra) — all inherit SO(5) × SO(2) × Pin(2) isotropy decomposition. Isotropy group structure foundationally underpins Friday's spin-statistics + operator zoo expansion (Paper #134) work."
 related: ["Vol 0 Ch 1 D_IV⁵ APG (substrate object)", "Vol 0 Ch 2 Five Integers (rank=2 SU(2) doublet + N_c=3 SU(3))", "Vol 0 Ch 7 Operator Zoo (operators organized by isotropy factors)", "Vol 0 Ch 8 Conservation Laws (per-factor Noether)", "Operator Zoo Promotion Ledger v0.1 (11-13 operators)"]
 ---
 

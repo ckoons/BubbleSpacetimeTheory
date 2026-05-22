@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Vol 2 chapter verification toy index (Gate 4 + Gate 5 support)"
+  },
+  "chapter_count": 12,
+  "gate4_backing_toys_complete": 12,
+  "gate5_catalog_refs_total": 13,
+  "d_tier_chapter_count": 12,
+  "elie_grace_gates_4_5_status": "12/12 ready",
+  "remaining_gates": [
+    "Gate 2 Cal cold-read",
+    "Gate 3 K-audit",
+    "Gate 6 Cal #19 sweep"
+  ]
+}

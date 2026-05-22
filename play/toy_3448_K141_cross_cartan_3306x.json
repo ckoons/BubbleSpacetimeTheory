@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "K141 cross-Cartan 3306\u00d7 alt-HSD enumeration"
+  },
+  "joint_fit_results": [
+    {
+      "name": "D_IV_7",
+      "dim_C": 7,
+      "rank": 2,
+      "g_FK": 7,
+      "best_m": 3,
+      "alpha_err": 0.39379433141656206,
+      "churn_err": 0.0,
+      "c_FK_err": 0.1288888888888889,
+      "joint_err": 0.522683220305451
+    },
+    {
+      "name": "D_IV_6",
+      "dim_C": 6,
+      "rank": 2,
+      "g_FK": 6,
+      "best_m": 3,
+      "alpha_err": 0.19676581336291193,
+      "churn_err": 1.0158730158730158,
+      "c_FK_err": 0.36,
+      "joint_err": 1.572638829235928
+    },
+    {
+      "name": "D_I_{1,5}",
+      "dim_C": 5,
+      "rank": 1,
+      "g_FK": 6,
+      "best_m": 3,
+      "alpha_err": 0.007560057211243771,
+      "churn_err": 1.0158730158730158,
+      "c_FK_err": 0.8888888888888888,
+      "joint_err": 1.9123219619731484
+    },
+    {
+      "name": "D_I_{5,1}",
+      "dim_C": 5,
+      "rank": 1,
+      "g_FK": 6,
+      "best_m": 3,
+      "alpha_err": 0.007560057211243771,
+      "churn_err": 1.0158730158730158,
+      "c_FK_err": 0.8888888888888888,
+      "joint_err": 1.9123219619731484
+    },
+    {
+      "name": "D_IV_5 (BST)",
+      "dim_C": 5,
+      "rank": 2,
+      "g_FK": 5,
+      "best_m": 3,
+      "alpha_err": 0.0002627046907382101,
+      "churn_err": 3.096774193548387,
+      "c_FK_err": 0.5555555555555556,
+      "joint_err": 3.6525924537946812
+    },
+    {
+      "name": "D_I_{2,3}",
+      "dim_C": 6,
+      "rank": 2,
+      "g_FK": 5,
+      "best_m": 3,
+      "alpha_err": 0.19676581336291193,
+      "churn_err": 3.096774193548387,
+      "c_FK_err": 0.36,
+      "joint_err": 3.6535400069112987
+    },
+    {
+      "name": "D_I_{3,2}",
+      "dim_C": 6,
+      "rank": 2,
+      "g_FK": 5,
+      "best_m": 3,
+      "alpha_err": 0.19676581336291193,
+      "churn_err": 3.096774193548387,
+      "c_FK_err": 0.36,
+      "joint_err": 3.6535400069112987
+    },
+    {
+      "name": "E_III (dim 16)",
+      "dim_C": 16,
+      "rank": 2,
+      "g_FK": 12,
+      "best_m": 2,
+      "alpha_err": 0.518374733646633,
+      "churn_err": 0.968986568986569,
+      "c_FK_err": 3.551111111111111,
+      "joint_err": 5.038472413744313
+    },
+    {
+      "name": "D_III_3",
+      "dim_C": 6,
+      "rank": 3,
+      "g_FK": 4,
+      "best_m": 3,
+      "alpha_err": 0.2040631658834175,
+      "churn_err": 7.466666666666667,
+      "c_FK_err": 0.44,
+      "joint_err": 8.110729832550085
+    },
+    {
+      "name": "D_IV_4",
+      "dim_C": 4,
+      "rank": 2,
+      "g_FK": 4,
+      "best_m": 3,
+      "alpha_err": 0.19729122274438834,
+      "churn_err": 7.466666666666667,
+      "c_FK_err": 0.7155555555555555,
+      "joint_err": 8.37951344496661
+    },
+    {
+      "name": "D_II_4",
+      "dim_C": 6,
+      "rank": 2,
+      "g_FK": 3,
+      "best_m": 3,
+      "alpha_err": 0.19676581336291193,
+      "churn_err": 17.142857142857142,
+      "c_FK_err": 0.36,
+      "joint_err": 17.699622956220054
+    },
+    {
+      "name": "E_VII (dim 27)",
+      "dim_C": 27,
+      "rank": 3,
+      "g_FK": 18,
+      "best_m": 2,
+      "alpha_err": 0.18999387022388278,
+      "churn_err": 0.9995155315991653,
+      "c_FK_err": 28.16,
+      "joint_err": 29.34950940182305
+    }
+  ],
+  "best_HSD": "D_IV_7",
+  "D_IV_5_lowest_joint_error": false,
+  "K141_ratification_verification_element": true
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "f_\u03c0 alternative BST primary form (potential new catalog observation)"
+  },
+  "BST_form_130_conv": 130.3047195,
+  "measured_130_conv": 130.41,
+  "deviation_130_percent": 0.08073038877386099,
+  "BST_form_92_conv": 92.13935077906095,
+  "measured_92_conv": 92.07,
+  "deviation_92_percent": 0.07532396987178716,
+  "BST_form": "f_\u03c0 = N_c\u00b7n_C\u00b7seesaw\u00b7m_e (130 conv) or /\u221a2 (92 conv)",
+  "Mersenne_alternative": "255 = M_{rank\u00b3} = 2^(rank\u00b3) - 1",
+  "catalog_existing": "T250 const_082 S-tier 0.41%",
+  "proposed_tier": "D-tier 0.15%"
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Double-Mersenne M_M_p recursion at BST primaries"
+  },
+  "double_mersenne_results": [
+    {
+      "name": "rank",
+      "p": 2,
+      "M_p": 3,
+      "M_p_is_M_prime_exponent": true
+    },
+    {
+      "name": "N_c",
+      "p": 3,
+      "M_p": 7,
+      "M_p_is_M_prime_exponent": true
+    },
+    {
+      "name": "n_C",
+      "p": 5,
+      "M_p": 31,
+      "M_p_is_M_prime_exponent": true
+    },
+    {
+      "name": "g",
+      "p": 7,
+      "M_p": 127,
+      "M_p_is_M_prime_exponent": true
+    }
+  ],
+  "all_4_small_BST_primaries_M_p_are_Mersenne_prime_exponents": true,
+  "M_M_rank_equals_g": true,
+  "tower_structure": "Tier 0 (BST primary) \u2192 Tier 1 (Mersenne) \u2192 Tier 2 (double Mersenne) \u2014 all Mersenne primes",
+  "refined_C15_v4": "Double-Mersenne tower at smallest 4 BST primary exponents"
+}

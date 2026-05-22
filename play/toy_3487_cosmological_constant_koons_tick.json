@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Cosmological constant \u2194 Koons tick BST decomposition"
+  },
+  "koons_tick_log10_s": -120.19445947515177,
+  "lambda_log10_M_Pl_4": -122,
+  "C_2_squared": 36,
+  "alpha_to_C_2_squared": 1.18563704327251e-77,
+  "scale_alignment_within_orders": 1.805540524848226,
+  "BST_decompositions_of_120": [
+    "n_C!",
+    "chi\u00b7n_C",
+    "N_c\u00b7n_C\u00b72^N_c"
+  ],
+  "substrate_cosmogony_internal_only": true
+}

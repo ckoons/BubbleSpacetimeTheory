@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Flagship #3 joint experimental selection of D_IV\u2075"
+  },
+  "anchor_1_alpha": {
+    "measured": 137.035999084,
+    "BST_lowest": 137,
+    "deviation_percent": 0.026269800811923878
+  },
+  "anchor_2_mass_spectrum": "Constrains n_C=5, C_2=6, chi=24, N_c=3, g=7 jointly via m_p, m_\u03bc, m_\u03c4",
+  "anchor_3_casimir_gap": "UNIQUELY D_IV\u2075 at dim_C=5, rank=2 per Lyra T2439 RIGOROUSLY CLOSED",
+  "flagship_3_answer": "YES \u2014 joint experimental selection uniquely selects D_IV\u2075",
+  "three_flagship_consolidation": {
+    "flagship_1_mersenne_tower": "YES (Toy 3308)",
+    "flagship_2_cross_cartan": "PARTIAL (Toy 3310, D_IV\u2075 uniquely tight)",
+    "flagship_3_joint_selection": "YES (THIS, Toy 3314)",
+    "net_pathway_to_v011": "STRONG (2 YES + 1 PARTIAL)"
+  }
+}

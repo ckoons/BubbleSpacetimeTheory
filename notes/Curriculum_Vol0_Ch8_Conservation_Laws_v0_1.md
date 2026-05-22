@@ -1,8 +1,8 @@
 ---
-title: "Curriculum Vol 0 Chapter 8 — Conservation Laws from D_IV⁵ Substrate (Chapter-Grade Draft v0.1)"
-author: "Keeper (chapter-grade content draft for Cal dual-axis review)"
-date: "2026-05-21 Thursday 09:28 EDT (actual via date)"
-status: "v0.1 chapter-grade content draft FILED. First chapter-grade content from Keeper lane (vs Lyra's Ch 2 + Ch 6 chapter-grade narratives). Vol 0 Chapter 8 (Conservation Laws) builds on Conservation Laws Substrate-Derivation Framework v0.1 + T/C substrate operation proposals + Operator Zoo Promotion Ledger. Casey directive: 'Build the standard physics curriculum from D_IV⁵.' This chapter exposes 15 conservation laws under Noether-on-substrate pattern. Awaits Cal dual-axis grade-pass + Lyra theoretical refinement for v0.2."
+title: "Curriculum Vol 0 Chapter 8 — Conservation Laws from D_IV⁵ Substrate (Chapter-Grade Draft v0.4 — Heisenberg + Casimir + Friday operator expansion absorption)"
+author: "Keeper (original) + Lyra (Friday v0.3→v0.4 prose depth-investment)"
+date: "2026-05-21 Thursday 09:28 EDT initial; Friday 2026-05-22 ~10:42 EDT v0.4 prose absorption per Casey + Keeper textbook completion phase"
+status: "v0.4 chapter-grade narrative. Per Calibration #19 STANDING RULE: current ratified state Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria. **Friday v0.4 additions** (Lyra Friday): Heisenberg picture dO/dt = (i/ℏ)[H_sub, O] on Bergman H²(D_IV⁵) (Paper #136 v0.1 SP-31 Time Evolution standalone) — conservation laws are operators commuting with H_sub. T_rev + C operators (T2433 + T2434 Thursday Lyra) give discrete-symmetry conservation. Operator zoo expansion (Paper #134) adds number N + chirality γ_5 + electric charge Q + color C_3 + weak isospin I_3 conservation laws via commutator algebra with H_sub Casimir. CPT theorem inherits Pin(2) Z_2 grading (Paper #133 Spin-Statistics)."
 related: ["Conservation Laws Substrate-Derivation Framework v0.1 (Thursday morning)", "T and C Substrate Operation Proposals v0.1 (Thursday 08:48 EDT)", "Operator Zoo Promotion Ledger v0.1 (extended Thursday 08:55 EDT)", "Curriculum Vol 0 Architectural Scaffold v0.1 (Thursday 07:45 EDT area)", "Lyra Vol 1 Ch 2 + Ch 6 chapter-grade Cal #69 PASS (template reference)", "SP-31-18 Per-conservation-law theorems (Task #279)"]
 ---
 

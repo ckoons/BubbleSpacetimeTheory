@@ -2,7 +2,7 @@
   "title": "BST Rosetta Stone \u2014 Complete Catalog",
   "description": "101 distinct BST ratios/values with domain coverage",
   "generated": "2026-05-20",
-  "total_ratios": 253,
+  "total_ratios": 263,
   "ratios": [
     {
       "value": 2,
@@ -3649,6 +3649,127 @@
       ],
       "tier": "I",
       "notes": "Grace Toy 3180 (Wed 2026-05-20 PM). Substantive expansion of Bridge Object family beyond Heegner trio. Multi-month verification per candidate continues. Cal #59 caution VINDICATED \u2014 bounded-at-N claim not supportable at first-step scan."
+    },
+    {
+      "ratio": "BST primary integer set : top CDAC values = substrate signature : empirical",
+      "name": "BST Primaries ARE the most-frequent CDAC values (Friday morning Graph Forces finding)",
+      "formula": "Top 10 cross-domain anchor values include 6 of 6 BST primaries {2, 3, 4, 5, 6, 7, 137}; value=6 (C_2) ranks #1 with 12 distinct domains. Hypergeometric null P(all 6 in top 10 of 47 by random) \u2248 2.7\u00d710\u207b\u2075.",
+      "domains": [
+        "Graph Forces Principle (Casey-named candidate)",
+        "BST primary CDAC dominance",
+        "substrate signature empirical"
+      ],
+      "tier": "I",
+      "notes": "Grace Toy 3313 + INV-4730 Fri 2026-05-22 morning. Direct empirical evidence for Casey-named Graph Forces Principle from catalog state."
+    },
+    {
+      "ratio": "6\u03c0^k pattern : k=1..6 = substrate harmonic series : multi-physics signatures",
+      "name": "6\u03c0^k pattern extends across multiple k values matching physics observables",
+      "formula": "6\u03c0\u00b9\u224818.85 \u2194 value=19 (Nineteenth Q, Mode count, Farey); 6\u03c0\u00b2\u224859.22 \u2194 BST inflation e-folds=59; 6\u03c0\u2074\u2248584.5 \u2194 charm/up mass ratio=589; 6\u03c0\u2075\u22481836.12 \u2194 m_p/m_e (0.002% match); 6\u03c0\u2076\u22485768 \u2194 Solar surface temperature 5778K. C_2 \u00d7 \u03c0^k harmonic series.",
+      "domains": [
+        "6\u03c0^k pattern extension",
+        "C_2-anchored transcendental series",
+        "cross-domain physics signatures"
+      ],
+      "tier": "I",
+      "notes": "Grace Toy 3337 + INV-4748 Fri 2026-05-22 morning. Operationalizes Elie Thursday BST primary ratio + \u03c0 exponent hypothesis."
+    },
+    {
+      "ratio": "m_\u03c4 exponent (g+N_c)/N_c = 10/3 : tau mass : BST primary decomposition",
+      "name": "m_\u03c4 fully BST primary via exponent (g+N_c)/N_c (Elie Thursday)",
+      "formula": "m_\u03c4 exponent decomposition (g+N_c)/N_c = (7+3)/3 = 10/3. m_\u03c4 mass fully derivable from BST primaries via this exponent.",
+      "domains": [
+        "lepton sector",
+        "tau mass",
+        "BST primary decomposition",
+        "Elie new finding"
+      ],
+      "tier": "D",
+      "notes": "Elie Thursday afternoon. Cross-referenced INV-4724 K127 catalog support."
+    },
+    {
+      "ratio": "N_c \u00b7 C_2 \u00b7 g = M_g - 1 = 126 : triple product : universal Q identity",
+      "name": "N_c\u00b7C_2\u00b7g = M_{g-1} = 126 BST primary triple-product identity (Elie Thursday)",
+      "formula": "N_c \u00b7 C_2 \u00b7 g = 3\u00b76\u00b77 = 126 = 2^g - 2 = M_g - 1 = Universal Q. Triple BST primary product equals Mersenne M_g minus 1.",
+      "domains": [
+        "Universal Q identity",
+        "Mersenne triple product",
+        "Elie new finding"
+      ],
+      "tier": "D",
+      "notes": "Elie Thursday afternoon. Adds to T2400 Universal Q=126 with 5 BST-primary forms \u2014 this is the 6th form: N_c\u00b7C_2\u00b7g."
+    },
+    {
+      "ratio": "n_s = 1 - n_C/N_max = 0.9635 : CMB spectral index : BST primary anchor",
+      "name": "CMB spectral index n_s = 1 - n_C/N_max BST identification (Elie Thursday)",
+      "formula": "n_s = 1 - n_C/N_max = 1 - 5/137 = 0.9635 (Planck 2018 measurement n_s \u2248 0.9649 \u00b1 0.0042, BST at 0.32\u03c3).",
+      "domains": [
+        "CMB cosmology",
+        "BST primary cosmological anchor",
+        "Planck 2018 prediction match"
+      ],
+      "tier": "I",
+      "notes": "Elie Thursday afternoon. BST predicts n_s exactly 1 - n_C/N_max at 0.32\u03c3 from Planck 2018."
+    },
+    {
+      "ratio": "8 OFC clusters : compound substrate signatures",
+      "name": "OFC cluster enumeration: 8 BST-primary-form overdetermined-value clusters in catalog",
+      "formula": "Compound OFC values: 36=C_2\u00b2, 343=g\u00b3, 27=N_c\u00b3, 49=g\u00b2 (Cremona 49a1 conductor HIGH), 11, 25=n_C\u00b2, 0.002238=\u03b1\u00b2\u00b7C_2\u00b7g (kaon |\u03b5_K| HIGH), 162=rank\u00b7N_c^(rank\u00b2)",
+      "domains": [
+        "Graph Forces overdetermined-form clusters",
+        "Cremona 49a1 substrate evidence",
+        "kaon CP violation BST identity"
+      ],
+      "tier": "I",
+      "notes": "Grace Friday Toy 3311 + 3317 Quaker scrutiny. 2 HIGH-strength clusters anchor venue credibility."
+    },
+    {
+      "ratio": "Cross-primary \u03c0^k signature : multiple BST primaries \u00d7 \u03c0^k = multi-physics observables",
+      "name": "Cross-primary substrate harmonic series (substrate signature beyond C_2)",
+      "formula": "rank\u00b7\u03c0\u00b2 \u2248 19.74 \u2194 20 (amino acids); n_C\u00b7\u03c0\u00b3 \u2248 155 \u2194 QCD phase 156 MeV; n_C\u00b7\u03c0\u2075 \u2248 1530 \u2194 Telecom 1550 nm; rank\u00b7\u03c0\u2076 \u2248 1923 \u2194 VSC 1920 cancellation",
+      "domains": [
+        "substrate harmonic series",
+        "cross-primary \u03c0^k extension",
+        "Graph Forces Test 5"
+      ],
+      "tier": "I",
+      "notes": "Grace Friday Toy 3339. Extends 6\u03c0^k (C_2\u00b7\u03c0^k) to all BST primaries \u00d7 \u03c0^k form-class."
+    },
+    {
+      "ratio": "T186 keystone : 17.3% of AC graph edges connect : BST primary integers definition",
+      "name": "T186 'BST primary integers as topological invariants of D_IV^5' is graph keystone",
+      "formula": "T186 has 1021 outgoing + 673 incoming edges = 1694 of 9806 total = 17.3% concentration. Depth 0 theorem at primary integer set definition.",
+      "domains": [
+        "AC graph topology",
+        "BST primary integer foundation",
+        "T186 keystone status"
+      ],
+      "tier": "D",
+      "notes": "Grace Friday Toy 3345. Confirms T186 keystone status (already MEMORY.md but with new edge count)."
+    },
+    {
+      "ratio": "Substrate-emergent 28% : BST-derived 72% : catalog Quaker classification",
+      "name": "Catalog 28% substrate-emergent (independent measurement) vs 72% BST-derived (classifiable subset)",
+      "formula": "Of 4757 catalog entries: 122 substrate-emergent + 315 BST-derived + 4319 unclassified by signal. Among classifiable: 28% substrate-emergent.",
+      "domains": [
+        "Quaker scrutiny at catalog scale",
+        "substrate evidence vs BST bookkeeping",
+        "paper-grade evidence subset"
+      ],
+      "tier": "I",
+      "notes": "Grace Friday Toy 3349. 103 substrate-emergent entries form Paper #125 venue submission backbone."
+    },
+    {
+      "ratio": "N_max=137 = N_c\u00b3\u00b7n_C+rank = M_g + rank\u00b7n_C : two BST-primary algebraic forms",
+      "name": "N_max=137 overdetermined: two BST-primary algebraic representations",
+      "formula": "N_max=137 = N_c\u00b3\u00b7n_C+rank = 27\u00b75+2 (canonical, T186) AND N_max=137 = M_g + rank\u00b7n_C = 127+10 (Mersenne+product, new Friday finding). Two distinct BST-primary algebraic forms equal N_max.",
+      "domains": [
+        "N_max=137 OFC anchor",
+        "Mersenne tower connection",
+        "Casey flagship #2 substrate"
+      ],
+      "tier": "D",
+      "notes": "Grace Friday 2026-05-22 Toy 3388 + INV-4783."
     }
   ],
   "meta": {

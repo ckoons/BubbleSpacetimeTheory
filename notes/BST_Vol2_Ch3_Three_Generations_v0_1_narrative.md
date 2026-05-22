@@ -118,6 +118,16 @@ The mass hierarchies have BST primary D-tier forms in BST catalog (data/bst_cons
 - **External register operational** (Cal Flag 3): "BST identifies generation count as N_gen = N_c = 3 forced by Q⁵ Chern class; charged-lepton mass ratios D-tier in substrate-algebraic forms"
 - **Honest scope**: generation count + individual mass ratios both D-tier; CKM/PMNS mixing extends framework (Vol 2 Ch 7 + Ch 10)
 
+## Mersenne ladder cross-reference (Friday May 22, 2026)
+
+The three-generation count N_gen = N_c = 3 has substrate-cyclotomic Mersenne-prime-exponent structure per Elie Friday observation:
+
+- $M_{N_c} = M_3 = 2^3 - 1 = 7 = g$ (Mersenne prime; BST primary identification)
+
+So N_c = 3 generation count IS the Mersenne exponent whose 2^N_c - 1 = g BST primary (substrate genus). Triple generation structure is therefore substrate-natural at the Mersenne ascent rank → N_c → g.
+
+Per Elie `Elie_BST_Primary_Mersenne_Ladder_paper_grade.md` (Friday 08:09 EDT): 6 of 7 first BST primary exponents are Mersenne primes, with the Mersenne ascent rank → N_c → g forming substrate-natural cyclotomic compatibility.
+
 ## K-audit anchor (Vol 2 K94 explicit)
 
 This chapter is anchored by **K94 Three Generations Audit** (per K_Audit_Pipeline_Phase2_Chapter_Category_Scoping.md; cluster K94+K95+K96 SM Particle Content). The chapter content captures three-generation derivation from N_c = 3 BST primary forced via Q⁵ Chern class c_5 = N_c (Lyra T2408). 

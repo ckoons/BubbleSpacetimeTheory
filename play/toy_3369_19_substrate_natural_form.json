@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "19 substrate-natural form completing bidirectional alignment"
+  },
+  "19_substrate_natural_forms": [
+    "seesaw + rank",
+    "c_2 + 2^N_c",
+    "c_2 + 2\u00b7rank\u00b7rank",
+    "2\u00b7g + N_c + rank",
+    "c_3 + c_2 - n_C",
+    "N_c\u00b2 + n_C\u00b7rank",
+    "C_2\u00b7N_c + 1"
+  ],
+  "cleanest_form": "19 = seesaw + rank",
+  "bidirectional_alignment_completion": true,
+  "c_2_exclusion_form": "(rank\u00b7c_2+1)(2^N_c\u00b7c_2+1) = 23\u00b789",
+  "19_exclusion_form": "seesaw + rank",
+  "refined_C15_v6": "Complete bidirectional alignment with substrate-natural exclusion forms"
+}

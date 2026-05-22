@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "T2459 C15-C16 bridge structural verification"
+  },
+  "C15_mersenne_picks_D_IV_5": true,
+  "C16_alpha_analog_picks_D_IV_5": true,
+  "D_IV_5_alpha_inv_value": 137,
+  "joint_null_model_p_value": 0.0016,
+  "T2459_dual_mechanism_verified": true,
+  "elie_lane_supporting_toys": [
+    "3308",
+    "3442",
+    "3462",
+    "3471",
+    "3469"
+  ]
+}

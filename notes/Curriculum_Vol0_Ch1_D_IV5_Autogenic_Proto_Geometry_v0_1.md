@@ -1,8 +1,8 @@
 ---
-title: "Curriculum Vol 0 Chapter 1 — D_IV⁵ Autogenic Proto-Geometry (Chapter-Grade Draft v0.1)"
-author: "Keeper (fourth Keeper-lane chapter-grade content)"
-date: "2026-05-21 Thursday 10:26 EDT (actual via date)"
-status: "v0.1 chapter-grade content draft FILED. Fourth Keeper-lane chapter (after Ch 8 Conservation Laws + Ch 9 Strong-Uniqueness + Ch 10 Methodology Stack). Vol 0 Chapter 1 introduces D_IV⁵ = SO_0(5,2)/[SO(5)×SO(2)] as substrate object: Lie group quotient, Bergman geometry primer, Hermitian symmetric domain classification, why this specific geometry. FOUNDATIONAL CHAPTER — every other curriculum chapter cites Ch 1 for the substrate object. Awaits Cal dual-axis grade-pass + Lyra theoretical refinement for v0.2."
+title: "Curriculum Vol 0 Chapter 1 — D_IV⁵ Autogenic Proto-Geometry (Chapter-Grade Draft v0.4 — Cross-Cartan three-pillar + substrate self-amenability absorption)"
+author: "Keeper (original) + Lyra (Friday v0.3→v0.4 prose depth-investment)"
+date: "2026-05-21 Thursday 10:26 EDT initial; Friday 2026-05-22 ~10:38 EDT v0.4 prose absorption per Casey + Keeper textbook completion phase"
+status: "v0.4 chapter-grade narrative. Per Calibration #19 STANDING RULE: current ratified state Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria. **Friday v0.4 additions** (Lyra Friday): Section 1.2b Cross-Cartan EXHAUSTIVE at dim_C = 5 (T2455) showing D_IV⁵ uniquely-selected among Helgason classification HSD candidates at substrate's natural dimension + Section 1.2c Substrate Self-Amenability via n_C primality (T2463). FOUNDATIONAL CHAPTER enriched with Friday cross-Cartan substrate-uniqueness work."
 related: ["Vol 0 Architectural Scaffold v0.1 (Thursday morning)", "Vol 0 Ch 8 Conservation Laws (Thursday 09:28 EDT)", "Vol 0 Ch 9 Strong-Uniqueness Theorem (Thursday 10:20 EDT)", "Vol 0 Ch 10 Methodology Stack (Thursday 10:22 EDT)", "BST_Autogenic_Proto_Geometry_Definition.md (T1427)", "Lyra SP-31-1 canonical Bergman H²(D_IV⁵)"]
 ---
 
@@ -72,6 +72,37 @@ Per Strong-Uniqueness Theorem Vol 0 Ch 9 multi-criterion convergence:
 - Multi-criterion convergence (per Ch 9) singles out Type IV at n = 5
 
 Type IV at n = 5 is the unique answer to the substrate uniqueness question.
+
+## Section 1.2b — Cross-Cartan EXHAUSTIVE at dim_C = 5 (T2455 Friday Lyra)
+
+A foundational structural fact (T2455 Lyra Friday 2026-05-22): at dim_C = 5, the Helgason 1978 Theorem X.6.1 classification of irreducible bounded Hermitian symmetric domains produces **EXACTLY THREE candidates**:
+
+  {D_IV⁵, D_I_{1,5}, D_I_{5,1}}
+
+No other Cartan type produces dim_C = 5:
+- D_II_n: n(n−1)/2 = 5 → n(n−1) = 10, no integer solution
+- D_III_n: n(n+1)/2 = 5 → n(n+1) = 10, no integer solution
+- E_III: dim_C = 16 ≠ 5
+- E_VII: dim_C = 27 ≠ 5
+
+The cross-Cartan comparison at dim_C = 5 is therefore **EXHAUSTIVE**, not partial. Among these three HSD candidates, only D_IV⁵ produces:
+
+- Lowest non-trivial K-type Casimir = 6 (= T_{N_c} = BST primary; D_I_{1,5} = D_I_{5,1} = 4)
+- α-analog = 137 (= N_max BST primary cap matching experimental α⁻¹ = 137.036 at 0.026%; D_I = 41 ≠ 137 per T2456 universal formula)
+- Bergman c_FK = 225/π^(9/2) (BST primary form per T2442 RIGOROUSLY CLOSED)
+
+D_IV⁵ is uniquely-forced as substrate at its natural dimension dim_C = 5 = n_C (BST primary) per Helgason 1978 classification.
+
+## Section 1.2c — Substrate Self-Amenability via n_C Primality (T2463 Friday Lyra)
+
+A methodological structural observation (T2463 Lyra Friday): n_C = 5 (BST primary forced by T2445 Strong-Uniqueness C3 Thursday) IS PRIME. At PRIME dim_C values, the Helgason 1978 classification produces minimum HSD count (typically 3 candidates: D_IV_p + D_I_{1,p} + D_I_{p,1} for prime p). At COMPOSITE dim_C values, more D_I_{p,q} factorizations + possibly D_II_n + D_III_n contributions appear.
+
+At dim_C = 5 prime: 3 HSDs total (Section 1.2b EXHAUSTIVE enumeration).
+At dim_C = 6 composite: 7+ HSDs (D_IV_6 + D_I_{1,6} + D_I_{6,1} + D_I_{2,3} + D_I_{3,2} + D_II_4 + D_III_3).
+
+The substrate's n_C = 5 PRIMALITY enables EXHAUSTIVE Cross-Cartan enumeration tractable at the substrate's natural dimension. The substrate is **methodologically self-amenable to its own uniqueness verification**: its BST primary choice n_C = 5 creates the conditions where the strong-uniqueness argument can be made EXHAUSTIVE at dim_C = n_C.
+
+Cross-link to Casey-named Substrate Working Process Principle (Tuesday): the substrate's operational efficiency includes methodological self-amenability for uniqueness verification.
 
 ## Section 1.3 — D_IV⁵ as 4D Minkowski substrate
 

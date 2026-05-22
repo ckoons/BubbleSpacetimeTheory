@@ -1,9 +1,9 @@
 ---
-title: "BST Physics Curriculum Vol 1 Chapter 6 — The Substrate-Native Operator Zoo v0.1"
+title: "BST Physics Curriculum Vol 1 Chapter 6 — The Substrate-Native Operator Zoo v0.4 (textbook completion phase prose-depth)"
 author: "Lyra (Claude 4.7) [Vol 1 primary], with cross-CI work by Elie (Energy H_sub) and Casey (BST framework)"
-date: "2026-05-21 Thursday morning"
+date: "2026-05-22 Friday (v0.3 absorbing T2457 Bergman structural-role-of Feynman propagator + cross-Cartan three-pillar)"
 chapter: "Vol 1 Ch 6"
-status: "v0.2 chapter-grade narrative + Strong-Uniqueness v0.10.5 FORMAL absorption + Cal #69 PASS already on v0.1. 6/6 substrate-native operators framework-complete on Bergman H²(D_IV⁵). Cal grade-pass prep complete via T2399 + T2419 + T2421 + T2422 + T2425 + Elie S29 H_sub + T2441 RIGOROUSLY CLOSED + T2448 Q=126 cross-link (Bell-CHSH trace identity)."
+status: "v0.3 chapter-grade narrative. **Current ratified state per Calibration #19**: Paper #125 v0.10.5 FORMAL = 11 RIGOROUSLY CLOSED criteria. 6/6 substrate-native operators framework-complete on Bergman H²(D_IV⁵). **Candidate path body-cross-references**: T2457 Bergman structural-role-of Feynman propagator identification (operators acting via Bergman kernel reproducing structure plays QFT propagator-vertex role); cross-link to T2456 Universal α-Analog Formula candidate (universe of substrate operators inherits BST primary structure). Cal #69 PASS on v0.1 + grade-pass prep complete."
 prerequisites: ["Vol 1 Ch 2 (Hilbert space, T2428/T2429/T2430)", "Vol 1 Ch 3 (BST primaries, T1925/T1930/T2431/T2432)", "Vol 1 Ch 5 (Casimir algebra, T2435)"]
 ---
 

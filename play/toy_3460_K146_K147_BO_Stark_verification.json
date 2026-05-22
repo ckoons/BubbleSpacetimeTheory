@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "K146 + K147 Bridge Object + Stark anchor dim_C=5 verification"
+  },
+  "bridge_object_5_families": 5,
+  "stark_heegner_anchors": 3,
+  "D_IV_5_specific": true,
+  "K146_K147_verification_complete": true
+}

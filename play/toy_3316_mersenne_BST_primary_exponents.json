@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Mersenne primes at BST primary exponents"
+  },
+  "mersenne_at_BST_primaries": [
+    {
+      "name": "rank",
+      "p": 2,
+      "M_p": 3,
+      "is_prime": true
+    },
+    {
+      "name": "N_c",
+      "p": 3,
+      "M_p": 7,
+      "is_prime": true
+    },
+    {
+      "name": "n_C",
+      "p": 5,
+      "M_p": 31,
+      "is_prime": true
+    },
+    {
+      "name": "g",
+      "p": 7,
+      "M_p": 127,
+      "is_prime": true
+    }
+  ],
+  "all_rank_Nc_nC_g_mersenne_prime": true,
+  "mersenne_ladder_chain": "N_c = M_rank, g = M_{N_c}, 31 = M_{n_C}, 127 = M_g",
+  "new_BST_primary_candidate": "31 = M_{n_C} 5th Mersenne prime extending the ladder",
+  "refined_C15_candidate": "BST primary exponents preferentially Mersenne prime exponents (6 of 7)"
+}

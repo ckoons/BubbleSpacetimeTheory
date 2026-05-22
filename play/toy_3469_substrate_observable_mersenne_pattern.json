@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "Substrate observable Mersenne-pattern extension"
+  },
+  "observable_count": 25,
+  "mersenne_exponent_count": 7,
+  "mersenne_exponent_density_percent": 28.000000000000004,
+  "multi_level_pattern_observed": true,
+  "C15_C18_candidate_support": "multi-tier consistent observation"
+}

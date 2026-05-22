@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "256 substrate-natural BST candidate investigation"
+  },
+  "256_BST_primary_exponent_forms": [
+    "2\u00b7rank\u00b2",
+    "2\u00b7N_c+rank",
+    "C_2+rank",
+    "c_2-N_c",
+    "g+1"
+  ],
+  "M_rank_cubed_equals_N_c_n_C_seesaw": true,
+  "substrate_natural_identity": "M_{rank^3} = M_8 = 255 = N_c \u00b7 n_C \u00b7 seesaw",
+  "multi_scale_mersenne_cyclotomic_hierarchy": "BST primary integer cluster at multiple Mersenne scales"
+}

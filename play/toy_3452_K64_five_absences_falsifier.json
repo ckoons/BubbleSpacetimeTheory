@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "date": "2026-05-22",
+    "owner": "Elie",
+    "task": "K64 Five-Absence Framework falsifier suite verification"
+  },
+  "absences": [
+    {
+      "absence": 1,
+      "name": "No Grand Unified Theory",
+      "BST_prediction": "SM gauge group SU(3)\u00d7SU(2)\u00d7U(1) forced by D_IV\u2075; no unification",
+      "current_bound": "Running couplings extrapolated to ~10^15 GeV do NOT converge",
+      "refutation_threshold": "Observation of unified-group structure at any high-energy scale",
+      "experimental_status": "Data inconclusive; multi-decade scrutiny continues"
+    },
+    {
+      "absence": 2,
+      "name": "No proton decay",
+      "BST_prediction": "\u03c4_p = \u221e via complete N_c-color commitment winding (T = strict)",
+      "current_bound": "Super-Kamiokande \u03c4_p > 1.6\u00d710^34 yr (90% CL)",
+      "refutation_threshold": "ANY proton decay event detected at any rate",
+      "experimental_status": "Strong null; Hyper-K extends to ~10^35 yr"
+    },
+    {
+      "absence": 3,
+      "name": "No dark matter particle",
+      "BST_prediction": "DM = Wallach K-type geometric shadow; \u03a9_DM/\u03a9_b = 16/3 = 5.333 (0.58% match)",
+      "current_bound": "XENONnT/LZ direct detection null at ~10^-47 cm\u00b2 SI cross-section",
+      "refutation_threshold": "Direct detection of WIMP, axion, sterile-\u03bd, or other DM particle",
+      "experimental_status": "Strong null; LZ Phase 2 + DARWIN forthcoming"
+    },
+    {
+      "absence": 4,
+      "name": "No magnetic monopoles",
+      "BST_prediction": "Substrate topology forbids; \u03c0_2(D_IV\u2075) trivial for gauge bundle",
+      "current_bound": "MoEDAL LHC + cosmic-ray null at multi-orders of magnitude",
+      "refutation_threshold": "Direct monopole detection",
+      "experimental_status": "Strong null; MoEDAL HL-LHC extension forthcoming"
+    },
+    {
+      "absence": 5,
+      "name": "No SUSY partners",
+      "BST_prediction": "D_IV\u2075 substrate has no SUSY; cancellations from Bergman geometry",
+      "current_bound": "LHC Run 2+3 null up to ~2 TeV gluino, ~1 TeV stop",
+      "refutation_threshold": "ANY SUSY partner observation at any mass",
+      "experimental_status": "Strong null; HL-LHC extends to ~3 TeV"
+    },
+    {
+      "absence": 6,
+      "name": "No sterile neutrinos at low energy",
+      "BST_prediction": "Right-handed \u03bd at substrate-energy cap (~10^17 GeV); no low-energy steriles",
+      "current_bound": "IceCube + reactor experiments constrain ~eV-mass sterile mixing",
+      "refutation_threshold": "Observation of sterile-\u03bd admixture at low energy",
+      "experimental_status": "Constrained; future precision experiments tighten"
+    }
+  ],
+  "joint_correlation_argument": true,
+  "K64_ratification_verification_complete": true
+}

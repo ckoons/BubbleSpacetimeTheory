@@ -125,6 +125,17 @@ The strength of BST's Five Absences claim is the **joint structure**: all five s
 
 If even one absence is overturned by experiment, BST's substrate-structural claim is refuted not just for that one absence but for the substrate-mechanism account of the others. This is **structurally stronger** than five independent nulls.
 
+## Mersenne ladder cross-reference (Friday May 22, 2026)
+
+The Five Absences strengthen substrate-uniqueness in conjunction with the Mersenne ladder observation (Elie Friday 2026-05-22):
+
+- Substrate D_IV⁵ is uniquely supported by Mersenne ladder BST primary saturation (refined C15)
+- Other HSDs lack the Mersenne-prime-exponent cluster (rank=2, N_c=3, n_C=5, g=7, c_3=13, seesaw=17) that D_IV⁵'s BST primaries populate
+- Substrate-natural Mersenne saturation REINFORCES Absence 1 (no GUT): no larger group structure that would replicate D_IV⁵'s Mersenne ladder organization
+- Substrate-natural Mersenne saturation REINFORCES Absence 4 (no monopoles): substrate cyclotomic GF(2^g) at Mersenne-prime exponent g doesn't admit monopole topology
+
+Cross-link: substrate-mechanism explanation of Five Absences gains Mersenne-ladder substrate-cyclotomic structural support.
+
 ## Cal Mode 1 vigilance — what to watch for
 
 - **The Five Absences are predictions, not observations.** They are predictions that align with current null observations. Future experiments at higher precision could observe any of them.
