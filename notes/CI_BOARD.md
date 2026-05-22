@@ -112,13 +112,19 @@ status: "Active. Read at session start, update at EOD. No HOLDs — every item w
 - **#288 SP-31-40**: Per-BC theorems — 6 internal + 2 external boundary conditions
 
 **SP-30 Substrate Engineering (Lyra theoretical):**
+- **#196 SP-30-2**: Boundary condition design (Lyra+Elie joint, overlaps SP-29)
 - **#198 SP-30-4**: Time granularity measurement (Lyra theoretical first)
 - **#199 SP-30-5**: Substrate parallelism architecture (Lyra theoretical)
 - **#200 SP-30-6**: Absorption mechanism formalization (Lyra)
 - **#201 SP-30-7**: Computation mechanism formalization (Lyra)
 - **#202 SP-30-8**: Emission mechanism formalization (Lyra)
+- **#212**: Substrate cartography framing for SP-30 (Lyra operational reframe)
 - **#230**: BC engineering theoretical framework (Lyra)
 - **#247**: Substrate-native operator zoo expansion follow-on
+
+**Strong-Uniqueness Theorem ongoing (Lyra primary):**
+- **#206 D_IV⁵ multi-criterion uniqueness proof project** — currently at v0.10.5 FORMAL (11 RIGOROUSLY CLOSED) + v0.11+ candidate (4 advancing: C7, C9, C15, C16); continues toward v0.12+ via Cal cold-read Tier 1 + further criterion ratification
+- **#281 SP-31-41 Strong-Uniqueness v0.6+ extension** — same project line, continues at sustained cadence
 
 **Cal Review Queue Tier 1 (Cal own-cadence; Lyra-responsive):**
 - T2440 + T2441 + T2442 + T2443 + T2444 + T2445 + T2446 (7 RIGOROUSLY CLOSED tier-4 detailed verifications; T2439 ✓ VERIFIED)
