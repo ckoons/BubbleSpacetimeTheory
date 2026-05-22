@@ -1749,3 +1749,86 @@ All four CI lanes now at plateau / very-low-cadence sustained:
 Team backlog per lane filed (no date pressure, finish-as-you-can). 9-10 items per CI lane staged for multi-day work.
 
 — Keeper update, 2026-05-21 Thursday 14:30 EDT (actual via date; v0.12 consolidation absorbing Strong-Uniqueness Theorem v0.10.5 FORMAL — 11 RIGOROUSLY CLOSED in single Thursday afternoon via PCAP)
+
+---
+
+## Friday 08:15 EDT — v0.13 consolidation: Friday morning prep + two flagships staged
+
+### Friday morning Keeper-lane prep (07:50-08:14 EDT, 25 min)
+
+Six commits filed + pushed in early Friday window:
+
+| Commit | Document |
+|---|---|
+| 27104d8 | Lyra Sessions 13-14 Pre-Specs (C7 + C9 → v0.11.0) |
+| 7f9c7be | Cross-Cartan Three-Pillar Position Document v0.1 |
+| 44a9725 | Sub-Substrate Mersenne Hierarchy Position Document v0.1 |
+| 76e13a4 | K135 + K136 Audit Pre-Stages (flagship anchors) |
+| b0d1303 | K131 Vol 1 Ch 6 Operator Zoo Audit (third PERFECT-PERFECT) |
+| (this) | Master Doc v0.13 consolidation |
+
+### Friday flagships staged for team
+
+**Flagship #1 — Sub-Substrate Mersenne Hierarchy** (Elie obs #3 + Casey directive):
+- M_{g-1} = N_c²·g uniqueness at (g=7, N_c=3)
+- Sub-substrate tower: Level -1 (Elie) + Level 0 primary (T1930) + Level +1 super (M_g=127)
+- T2452 candidate (Lyra) + K136 audit anchor (Keeper)
+- Strong-Uniqueness criterion C15 candidate
+
+**Flagship #2 — Cross-Cartan Three-Pillar** (Casey reframes):
+- Pillar 1: α-analog (coupling, N_max-style) per HSD
+- Pillar 2: Churn hole (lowest K-type Casimir, T2439 generalized)
+- Pillar 3: c_FK (Bergman normalization, T2442 generalized)
+- T2453+T2454+T2455 candidates (Lyra) + K135 audit anchor (Keeper)
+- Strong-Uniqueness criterion C16 candidate
+
+### Sessions 13-14 pre-specs (C7 + C9 closure)
+
+Lyra path to v0.11.0 FORMAL (13 RIGOROUSLY CLOSED):
+- Session 13 C7 Bridge Object tier — T2450 candidate, STRONG geometric route
+- Session 14 C9 Stark small-primary — T2451 candidate, MODERATE geometric via Heegner
+
+PCAP projection: ~5-6 min total for Sessions 13-14 collapse.
+
+### Vol 1 K-audit cluster expansion
+
+K131 added (Operator Zoo PERFECT-PERFECT) → 6/11 Vol 1 chapters covered.
+
+Vol 1 K-audit cluster (current): K108 + K109 + K110 + K111 + K114 + K131 = 6 audits.
+Three PERFECT-PERFECT: K108 + K111 + K131.
+
+Remaining Vol 1 chapters needing K-audits: Ch 7 (Dynamics) + Ch 9 (Scattering) + Ch 10 (Renormalization) + Ch 11 (Observables Reference) + Ch 1 (Introduction, low priority).
+
+### Friday Casey bet — 3× scope, under 5 hours via PCAP
+
+Per Casey Thursday 14:54 EDT: team to close ~90 items in under 5 hours clock time via PCAP framework.
+
+Friday team prompt staged at `notes/Friday_2026-05-22_Team_Prompt_3x_Scope.md`:
+- Lyra: 15 items
+- Elie: 21 items
+- Grace: 18 items
+- Cal: 15 items
+- Keeper: 21 items
+- Total: ~90 items
+
+Per-lane backlogs documented; finish-as-you-can; no date pressure within Friday; attempt the entire board.
+
+### Aspirational Friday EOD endpoint
+
+If PCAP holds across both flagships + Sessions 13-14:
+- **Strong-Uniqueness Theorem v0.12 FORMAL** (13-15 RIGOROUSLY CLOSED including new C15 + C16)
+- **Vol 1 fully at v0.2** (Ch 7 + Ch 9 + Ch 10 + Ch 11 to close)
+- **Vol 2 v0.2 sweep** (9 chapters)
+- **Yukawa unblock cascades** K114 + K126 Higgs
+- **7+ standalone papers in flight**
+- **K97 RATIFIED achievable Monday** (Casey pre-approved auto-execute)
+
+### Team state at Friday 08:15 EDT
+
+- All four CI lanes ready to engage (full backlogs filed)
+- Casey-decision queue: 3 active items (Paper #125 venue + SP-30 outreach + Trio follow-up)
+- Friday team prompt staged for Casey `sendCIs` dispatch
+- 100+ commits Thursday + 6 commits Friday morning all on remote
+- Keeper-lane has filed all anticipatory artifacts; ready to absorb team output
+
+— Keeper update, 2026-05-22 Friday 08:15 EDT (actual via date; v0.13 Friday morning prep + two flagships staged + Sessions 13-14 + K131 PERFECT-PERFECT)
