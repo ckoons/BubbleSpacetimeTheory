@@ -1,12 +1,20 @@
-# BST Backlog
+# BST Backlog — Research Detail Reference
 
-*Queued and blocked items. Active work -> CI_BOARD.md. Completed -> CI_BOARD_completed_*.md*
+*Per Casey directive Friday 2026-05-22 EOD: ENTIRE backlog promoted to `CI_BOARD.md` as active work assignments. This file retains DETAILED sub-questions + multi-month research items + SP program detail not on board.*
 
-**Last updated:** May 22, 2026 (Friday 09:44 EDT date-verified). 130 papers. 3434+ toys. T1-T2466. 4834 invariants (Grace +111 Friday). **SEVEN MILLENNIUM PROVED.** SP-19 ALL COMPLETE. SP-22 ALL COMPLETE. SP-21 4 remaining. SP-23 ACTIVE. SP-30 ACTIVE (Substrate Engineering Program). SP-31 ACTIVE (Vol 1 QFT-from-D_IV⁵ via 11/11 chapters at v0.3).
+**Last updated:** May 22, 2026 (Friday 11:44 EDT date-verified, EOD comprehensive rewrite).
 
-**Textbook completion phase active**: Vol 0 (10/10 K85-K106 PASS) + Vol 1 (11/11 v0.3 via K157-K162) + Vol 2 (12/12 v0.3 via K163 + Ch 9 HOLD-resolved Friday) = **23/23 chapters chapter-grade narrative**. Six-gate framework 5/6 closed; Cal cold-read PASS only remaining broad gate. **Calibration #19 STANDING RULE adopted**: external docs use current ratified-state count (10 FORMAL + 1 ASPIRATIONAL + N candidates), not forecast endpoint.
+**Active work**: see `CI_BOARD.md` (per-lane assignments for Lyra/Elie/Grace/Cal/Keeper with all items promoted from backlog).
 
-**"No HOLDs" directive (Casey 09:39 EDT)**: every item is workable on board or backlog; structural HOLDs reframed as IN PROGRESS / multi-week / cross-lane gated.
+**Counters**: T1-T2466. 3494+ toys. 4853 invariants. 130 papers + 13 outlines. AC graph 2202/9825. 174 K-audits (K1-K173). 4 calibrations + Calibration #19 + #21 STANDING RULES adopted. **SEVEN MILLENNIUM PROVED.** Vol 1 textbook v1.0 chapter-grade content REACHED Friday 11:36 EDT.
+
+**Textbook completion phase**: Vol 0 + Vol 1 (v1.0 chapter-grade) + Vol 2 (v0.3, Cal cold-reads 4/12 PASS). Six-gate framework all 6 closed for Vol 1; in flight for Vol 0/Vol 2.
+
+**"No HOLDs" directive (Casey 09:39 EDT)**: every item is workable on board or backlog. Structural HOLDs reframed as IN PROGRESS / multi-week / cross-lane gated. External-math-gated items (Tate codim 2+, Hodge codim 2+) continue on alt-paths (W-31).
+
+**Calibration #19 STANDING RULE adopted**: external-facing docs use current ratified-state count (10 FORMAL + 1 ASPIRATIONAL + 3 candidates), not forecast endpoint. 17th methodology layer.
+
+**Calibration #21 STANDING RULE adopted**: K-audit ratification requires both empirical + substrate-mechanism closure. 18th methodology layer.
 
 ---
 
@@ -195,7 +203,7 @@ These items depend on external mathematical results outside BST's control. They 
 | AB-1 | Outline P-1 structure | Keeper+Lyra | NOT STARTED |
 | AB-2 | SO(4,2) subset SO(5,2) technical section | Lyra | NOT STARTED |
 | AB-3 | Absorb checklist — BST analogs of AdS/CFT results | Keeper+Cal | NOT STARTED |
-| AB-4 | Existing BST assets inventory | Grace | NOT STARTED |
+| AB-4 | Existing BST assets inventory | Grace | **DONE** — Grace SP19b_AB4_BST_AdSCFT_Assets_Inventory.md (2026-05-18). 60+ theorems, 30+ toys, 3+ papers inventoried in 8 categories. Cited by AB-7, AB-8. |
 | AB-5 | Cal cold-read P-1 — Maldacena test | Cal | NOT STARTED |
 
 ### Track 2 Tasks (P-2)
