@@ -18,7 +18,42 @@ This isn't pressure — it's confidence. Today proved what's possible. Friday is
 
 ---
 
-## FLAGSHIP item — Sub-Substrate Hierarchy Investigation (NEW)
+## FLAGSHIP item #2 — Cross-Cartan α-Analog Investigation (NEW, Casey Thursday EOD)
+
+**Origin**: Casey's question Thursday 21:55 EDT — "Shouldn't the F1 geometry apply to the Bergman space and perhaps the others. I think our alpha powers should show up, tight?"
+
+**The hypothesis**: every Hermitian symmetric domain has its own tight "α-analog" constant derivable from its primaries via Hilbert-polynomial-plus-rank-shift formula (analogous to D_IV⁵'s N_max = N_c³·n_C + rank = 137).
+
+**The reframe**: BST's structural innovation isn't "α = 1/137 happens on D_IV⁵" — it's **"every HSD generates its own tight α-analog from its primaries; the experimental α = 1/137 uniquely selects D_IV⁵."** Stronger Strong-Uniqueness framing.
+
+**Investigation across lanes**:
+
+### Lyra lane
+1. **Compute α-analog for D_I_{p,q}** at small (p,q): formal Bergman exponent + K-type structure + c_FK normalization + characteristic integer
+2. **D_II_n + D_III_n + E_III + E_VII analog enumeration**: tabulate primaries + characteristic integer for each Cartan type
+3. **Theorem T2451 candidate**: universal α-analog formula across HSD types via Hilbert-polynomial machinery
+4. **Strong-Uniqueness reframing**: v0.11 candidate criterion C16 = "experimental α uniquely selects D_IV⁵ among Cartan-type α-analogs"
+
+### Elie lane
+1. **Cross-Cartan enumeration toy**: compute α-analog integers for D_I_{p,q} (p,q ∈ {1..5}), D_II_n (n ∈ {2..6}), D_III_n (n ∈ {2..6}), E_III, E_VII
+2. **Verification toy**: confirm D_IV⁵'s 137 is uniquely closest to experimental α⁻¹ = 137.036 among all enumerated candidates
+3. **α-powers signature toy**: do α^(C_2²) and other α-powers show up tight (BST-EXACT discipline) on other Cartan types with their own primaries?
+
+### Grace lane
+1. **Cross-Cartan catalog field**: tabulate primaries + α-analog + K-decomposition per Cartan type
+2. **Backbone Reference cross-Cartan section**: extends substrate framework
+
+### Cal lane
+1. **Methodology layer 18 candidate**: cross-Cartan α-analog framework as substrate-theory generalization
+2. **Verification of T2451**: alt-HSD comparison at the *generic* level (not specific D_IV⁵)
+
+### Keeper lane
+1. **Cross-Cartan position document**: framing the substrate-uniqueness argument via α-analog family
+2. **K135 candidate**: cross-Cartan α-analog framework K-audit pre-stage
+
+---
+
+## FLAGSHIP item — Sub-Substrate Hierarchy Investigation (NEW Thursday EOD)
 
 **Origin**: Elie's Thursday observation #3 — M_{g-1} = N_c²·g uniqueness at (g=7, N_c=3).
 
