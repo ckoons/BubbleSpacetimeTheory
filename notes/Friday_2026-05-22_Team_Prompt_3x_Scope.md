@@ -18,13 +18,21 @@ This isn't pressure — it's confidence. Today proved what's possible. Friday is
 
 ---
 
-## FLAGSHIP item #2 — Cross-Cartan α-Analog Investigation (NEW, Casey Thursday EOD)
+## FLAGSHIP item #2 — Cross-Cartan Three-Pillar Investigation (NEW, Casey Thursday EOD + 22:30 EDT)
 
-**Origin**: Casey's question Thursday 21:55 EDT — "Shouldn't the F1 geometry apply to the Bergman space and perhaps the others. I think our alpha powers should show up, tight?"
+**Origin**:
+- Casey Thursday 21:55 EDT: "Shouldn't the F1 geometry apply to the Bergman space and perhaps the others. I think our alpha powers should show up, tight?"
+- Casey Thursday 22:30 EDT: "Shouldn't the churn hole show up too?"
 
-**The hypothesis**: every Hermitian symmetric domain has its own tight "α-analog" constant derivable from its primaries via Hilbert-polynomial-plus-rank-shift formula (analogous to D_IV⁵'s N_max = N_c³·n_C + rank = 137).
+**The hypothesis**: every Hermitian symmetric domain has *three* tight structures derivable from its primaries via Bergman machinery:
 
-**The reframe**: BST's structural innovation isn't "α = 1/137 happens on D_IV⁵" — it's **"every HSD generates its own tight α-analog from its primaries; the experimental α = 1/137 uniquely selects D_IV⁵."** Stronger Strong-Uniqueness framing.
+1. **α-analog** (coupling) — Hilbert-polynomial-plus-rank-shift integer, analog of D_IV⁵'s N_max = N_c³·n_C + rank = 137
+2. **Churn hole** (spectral gap) — lowest non-trivial K-type Casimir, analog of D_IV⁵'s C_2 = T_{N_c} = 6 (T2439 RIGOROUSLY CLOSED partial cross-Cartan)
+3. **c_FK** (Bergman normalization) — Faraut-Koranyi constant in primary form, analog of D_IV⁵'s 225/π^(9/2) = (N_c·n_C)²/π^((g+rank)/rank)
+
+**The reframe**: BST's structural innovation isn't "α = 1/137 + mass gap + kernel-constant happen on D_IV⁵" — it's **"every HSD generates its own tight three-pillar structure from its primaries; experimental α + experimental mass spectrum + experimental Casimir gap jointly select D_IV⁵ uniquely."** Three-pillar Strong-Uniqueness framing.
+
+**What's partial via T2439**: churn-hole alt-HSD comparison was done for D_IV⁵ vs D_I_{1,5} vs D_I_{5,1} (Casimir 6 vs 4 vs 4). Full enumeration across D_II_n, D_III_n, E_III, E_VII is the gap to close Friday.
 
 **Investigation across lanes**:
 
