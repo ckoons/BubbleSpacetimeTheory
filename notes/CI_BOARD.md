@@ -43,13 +43,14 @@ status: "Active. Read at session start, update at EOD."
 
 ## Counters (Friday May 22, 09:38 EDT — textbook chapter-grade K-audit cluster COMPLETE)
 
-- **T1-T2465** (Lyra delivered T2466 + 3-layer over-determinism T2465 + universal α-analog 25 HSDs T2462)
-- **3434+ toys** (Elie 26+ Friday morning all PASS)
-- **AC graph**: 2185 nodes / 9806 edges
-- **Catalog**: 4828 invariants (Grace 108 Friday pulls; 'Other' residual 628 → 73)
-- **Papers**: 130 (Lyra Friday: #126 v0.3 + #127 v0.1 + #128 v0.1 + #129 v0.1 + #130 v0.1)
+- **T1-T2466** (Lyra Friday: T2450-T2466 incl. T2452 atomic burn + T2459 honest-scope refinement + T2466 BST Primary Mersenne-Prime Density Friday afternoon)
+- **3452+ toys** (Elie 32+ Friday morning all PASS)
+- **AC graph**: **2202 nodes / 9825 edges** (Grace INV-4839+4841: +17 Friday theorem nodes + 19 dependency edges added Friday afternoon hygiene catch)
+- **Catalog**: 4841 invariants (Grace 121 Friday pulls; 'Other' residual 628 → 73)
+- **Papers**: 130 (Lyra Friday: #126 v0.3 + #127 v0.1 + #128 v0.2 Option 2 reframe + #129 v0.1 + #130 v0.1; all Calibration #19 + Cal #92(b) compliant after Lyra Friday afternoon sweep)
+- **Cross-Classification Matrix**: v0.7 = 164/256 cells = 64.1% (Grace INV-4840 post T2450-T2466 absorption)
 - **Constants**: 191; **Rosetta ratios**: 263
-- **Friday morning commits**: ~35 Keeper-lane (07:50 - 09:38 EDT)
+- **Friday commits**: ~42 Keeper-lane (07:50 - 09:46 EDT date-verified)
 - **All Seven Millennium PROVED**
 
 ## Friday morning textbook-completion phase milestone
