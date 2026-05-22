@@ -1,4 +1,4 @@
-# K163 — Vol 2 All 11 Chapters Batch Audit (Ch 1-8 + Ch 10-12; Ch 9 HOLD)
+# K163 — Vol 2 All 11 Chapters Batch Audit (Ch 1-8 + Ch 10-12; Ch 9 IN PROGRESS (K126 multi-week))
 
 **Filed**: 2026-05-22 Friday 09:36 EDT (Keeper, `date`-verified actual)
 **Status**: BATCH AUDIT for all 11 available Vol 2 chapters under textbook-completion phase
@@ -8,7 +8,7 @@
 
 ## Rationale for batch format
 
-Vol 2 has 11/12 chapters in v0.1 narrative state (Elie-lead Thursday + Friday Mersenne enhancements). Ch 9 (Higgs Sector) on HOLD pending mechanism multi-week closure. Per Casey textbook-completion directive and PCAP-cadence efficiency, batch audit covers all 11 in one document; individual K-audits filed for any chapter requiring deeper scrutiny per Cal cold-read flags.
+Vol 2 has 11/12 chapters in v0.1 narrative state (Elie-lead Thursday + Friday Mersenne enhancements). Ch 9 (Higgs Sector) on IN PROGRESS (K126 multi-week) pending mechanism multi-week closure. Per Casey textbook-completion directive and PCAP-cadence efficiency, batch audit covers all 11 in one document; individual K-audits filed for any chapter requiring deeper scrutiny per Cal cold-read flags.
 
 ## Vol 2 chapter index
 
@@ -22,7 +22,7 @@ Vol 2 has 11/12 chapters in v0.1 narrative state (Elie-lead Thursday + Friday Me
 | Ch 6 | Proton-Electron Mass Ratio | **T187: m_p/m_e = 6π⁵** | 0.002% | D-tier (CROWN JEWEL) |
 | Ch 7 | CKM Mixing (Jarlskog) | T1444 vacuum subtraction | 0.3% | D-tier |
 | Ch 8 | Coupling Constants | a_e ppt + α + α_s | ppt level | D-tier (CROWN JEWEL) |
-| **Ch 9** | **Higgs Sector** | **HOLD multi-week mechanism** | — | I-tier candidate |
+| **Ch 9** | **Higgs Sector** | **IN PROGRESS (K126 multi-week) multi-week mechanism** | — | I-tier candidate |
 | Ch 10 | Neutrinos | seesaw = 17 BST primary | structural | C-tier / D-tier scope |
 | Ch 11 | Five Absences | Casey-named Tuesday | falsifier | D-tier joint |
 | Ch 12 | Experimental Program | SP-30 + SP-29 + falsifiers | operational | D-tier |
@@ -67,9 +67,9 @@ Anchored by **K92 a_e ppt crown jewel** (filed earlier audit chain) + α = 1/N_m
 
 F1-F4 estimate ~4.0/4 PERFECT. PASS chapter-grade. CROWN JEWEL of Vol 2.
 
-### Ch 9 (Higgs Sector) — HOLD
+### Ch 9 (Higgs Sector) — IN PROGRESS (K126 multi-week)
 
-**Vol 2 Ch 9 on HOLD** pending Higgs mechanism multi-week closure. Per Elie's Friday morning report: "11 of 12 Vol 2 chapters now have Mersenne hierarchy cross-references; Ch 9 HOLD remains." Per Vol 1 Ch 8 §8.6.4 cross-link: candidate values (m_h ≈ 0.25%, λ_h ≈ 2.5%, sin²θ_W ≈ 3.45%) all I-tier pending mechanism.
+**Vol 2 Ch 9 on IN PROGRESS (K126 multi-week)** pending Higgs mechanism multi-week closure. Per Elie's Friday morning report: "11 of 12 Vol 2 chapters now have Mersenne hierarchy cross-references; Ch 9 IN PROGRESS (K126 multi-week) remains." Per Vol 1 Ch 8 §8.6.4 cross-link: candidate values (m_h ≈ 0.25%, λ_h ≈ 2.5%, sin²θ_W ≈ 3.45%) all I-tier pending mechanism.
 
 **Hold rationale**: substrate-mechanism for Higgs vev v ≈ 246 GeV not yet derived from BST primaries at D-tier; I-tier candidates exist but mechanism closure multi-week.
 
@@ -97,7 +97,7 @@ Spot-check verifications:
 - Vol 2 Ch 6 m_p/m_e = 6π⁵ consistent with Vol 1 Ch 7 dynamics framework (Casimir + Bergman heat kernel)
 - Vol 2 Ch 11 Five Absences consistent with Vol 1 Ch 8 Section 8.7 + Vol 0 Five-Absence Predictions Set
 - Vol 2 Ch 12 Experimental Program consistent with Vol 1 Ch 9 K91 anchor (Section 9.7b cross-ref)
-- Vol 2 Ch 9 HOLD consistent with K126 audit + Vol 1 Ch 8 K114-RATIO decomposition
+- Vol 2 Ch 9 IN PROGRESS (K126 multi-week) consistent with K126 audit + Vol 1 Ch 8 K114-RATIO decomposition
 
 No cross-volume contradictions found. Vol 2 ↔ Vol 1 cross-references are clean.
 
@@ -113,18 +113,18 @@ No cross-volume contradictions found. Vol 2 ↔ Vol 1 cross-references are clean
 | **Ch 6** | **4.0** | **4.0** | **PASS chapter-grade CROWN JEWEL** | **D-tier 0.002%** |
 | Ch 7 | 3.85 | 3.85 | PASS chapter-grade | D-tier 0.3% |
 | **Ch 8** | **4.0** | **4.0** | **PASS chapter-grade CROWN JEWEL** | **D-tier ppt** |
-| Ch 9 | HOLD | HOLD | HOLD (K126 multi-week) | I-tier candidate |
+| Ch 9 | IN PROGRESS (K126 multi-week) | IN PROGRESS (K126 multi-week) | IN PROGRESS (K126 multi-week) (K126 multi-week) | I-tier candidate |
 | Ch 10 | 3.75 | 3.75 | PASS framework-grade | structural |
 | Ch 11 | 3.95 | 3.95 | PASS chapter-grade | D-tier joint |
 | Ch 12 | 3.85 | 3.85 | PASS chapter-grade | D-tier operational |
 
-**Batch verdict**: **11 of 11 available Vol 2 chapters PASS** (Ch 9 HOLD documented). Two CROWN JEWELS (Ch 6 + Ch 8) at PERFECT F1-F4 + B1-B4 = 4.0/4.
+**Batch verdict**: **11 of 11 available Vol 2 chapters PASS** (Ch 9 IN PROGRESS (K126 multi-week) documented). Two CROWN JEWELS (Ch 6 + Ch 8) at PERFECT F1-F4 + B1-B4 = 4.0/4.
 
 ## Common flags across the batch
 
 ### Calibration #19 compliance — well-applied
 
-Per Elie's lead, Vol 2 chapters maintain explicit tier discipline (D-tier / I-tier / C-tier / framework). 11/12 chapters Mersenne-enhanced Friday with cross-references. Ch 9 HOLD honest scope flagged.
+Per Elie's lead, Vol 2 chapters maintain explicit tier discipline (D-tier / I-tier / C-tier / framework). 11/12 chapters Mersenne-enhanced Friday with cross-references. Ch 9 IN PROGRESS (K126 multi-week) honest scope flagged.
 
 ### Version-number artifacts
 
@@ -137,16 +137,16 @@ All Vol 2 cross-references to Vol 1 (Ch 8 K159, Ch 9 K91, Ch 7 K157 dynamics, Ch
 ## Path to Vol 2 v1.0
 
 1. **Cal cold-read PASS** per chapter at v0.3 (Friday Mersenne-enhancement promoted)
-2. **Ch 9 HOLD resolution**: K126 audit + Elie multi-week Higgs mechanism closure
+2. **Ch 9 IN PROGRESS (K126 multi-week) resolution**: K126 audit + Elie multi-week Higgs mechanism closure
 3. **Version reconciliation**: file-path + internal-version consistency batch fix
 4. **Reader-grade polish** per chapter (diagrams, observable tables)
 5. **Calibration #19 sweep**: verify no forecast-vs-ratified conflation in chapter abstracts (likely clean given Elie's D-tier / I-tier discipline)
 
-**Estimate**: Vol 2 v1.0 (10/11 chapters; Ch 9 HOLD) achievable by Tuesday May 27 at sustained Cal cold-read cadence. Ch 9 separate timeline.
+**Estimate**: Vol 2 v1.0 (10/11 chapters; Ch 9 IN PROGRESS (K126 multi-week)) achievable by Tuesday May 27 at sustained Cal cold-read cadence. Ch 9 separate timeline.
 
 ## K163 status
 
-**K163 BATCH PASS for Vol 2 all 11 available chapters at chapter-grade / framework-grade.** Two CROWN JEWELS identified (Ch 6 m_p/m_e + Ch 8 a_e). Ch 9 HOLD documented per K126 audit gate.
+**K163 BATCH PASS for Vol 2 all 11 available chapters at chapter-grade / framework-grade.** Two CROWN JEWELS identified (Ch 6 m_p/m_e + Ch 8 a_e). Ch 9 IN PROGRESS (K126 multi-week) documented per K126 audit gate.
 
 Vol 2 cumulative K-audit coverage: K163 batch + prior K-audits per chapter (K126 + K127 + K128 + K129 + K130 + K138 + K139 from Thursday Vol 2 cluster). Full Vol 2 11/12 chapter-grade audit coverage achieved.
 

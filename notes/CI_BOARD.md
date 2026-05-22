@@ -61,7 +61,7 @@ status: "Active. Read at session start, update at EOD."
 **CHAPTER-GRADE K-AUDIT CLUSTER COMPLETE (Friday 09:38 EDT)**:
 - Vol 0: 10/10 chapters via K85-K106 (Thursday PASS)
 - Vol 1: 11/11 chapters via K157+K158+K159+K160+K161 individual + K162 batch
-- Vol 2: 11/12 chapters via K163 batch (Ch 9 HOLD per K126 multi-week gate)
+- Vol 2: **12/12 chapters at v0.3 (Friday afternoon)** — Ch 9 Higgs HOLD-RESOLVED via Lyra T2450 K114-RATIO cascade-unblock + Elie Ch 9 v0.3 narrative + Grace INV-4833 catalog support; m_H D-tier 0.07-0.11% via dual route
 - Cross-volume consistency: K164 PASS (zero contradictions across 3 volumes)
 - = **22/23 chapters covered, all PASS framework-grade or chapter-grade**
 
