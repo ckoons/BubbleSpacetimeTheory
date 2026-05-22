@@ -71,10 +71,12 @@ Joint substrate-selection null: as above, ~10⁻¹⁴ to 10⁻¹⁵.
 
 ## Next steps
 
-1. **Lyra T2456 candidate**: formalize six-interface map as theorem
+1. **Lyra theorem candidate**: formalize six-interface map as theorem (T-number TBD, NOT T2456 — that's Lyra's universal α-analog per broadcast 08:41 EDT; suggest T2462+ pending coordination)
 2. **K143 audit**: ratify six-interface cross-cartography as v0.1 → operational standard
 3. **Cross-Cartan empirical verification**: extend Grace's 3306× margin to all six interfaces on D_I, D_II, D_III
 4. **Paper #126 candidate**: "The Six Interfaces of BST" as standalone substrate-cartography paper
+
+**Calibration #18 note**: This document originally referenced T2456 as the six-interface map theorem. T2456 is actually Lyra's universal α-analog STRUCTURALLY VERIFIED across 6 Cartan types (per broadcast 08:41 EDT). The six-interface map theorem requires a separate T-number. Coordination with Lyra pending.
 
 ## Status
 
