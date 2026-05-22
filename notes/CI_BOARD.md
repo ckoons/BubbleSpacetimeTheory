@@ -250,8 +250,15 @@ Cal's sequential Vol 2 cold-reads are surfacing cross-volume tier-label + precis
 | **U10** | **Vol 2 Ch 10 line 81** | Substrate-energy cap formula: correct E_sub formula or annotate as symbolic log10 identification (Cal #96 Flag 1: formula evaluates 10^33 not 10^17) | Elie | 5-10 min |
 | **U11** | **Vol 2 Ch 10 line 161** | m_β suppression chain: show full ~2.5×10⁻⁶ factor or annotate schematic pending K52a Sessions (Cal #96 Flag 2: formula evaluates keV not meV) | Elie | 5-15 min |
 | **U12** | **Vol 2 Ch 10** | Optional Cal Mode 5 footnote acknowledging GeV-coordinate-specificity of seesaw=17↔10^17 identification | Elie | 2-5 min |
+| **U13** | **Vol 2 Ch 4** | Lines 76-78 typographic stumble + stale "Strong-Uniqueness v0.5+" → v0.10.5 FORMAL (Cal complete sweep) | Elie | 3-5 min |
+| **U14** | **Vol 2 Ch 7** | Section 5.5 BST primary forms detail (currently deferred to Working Paper §9 + Toy 3099) — reader-grade gap; add explicit forms in chapter prose | Elie | 10-20 min |
+| **U15** | **Vol 2 Ch 8 (CROWN JEWEL #2)** | "1.4% correction-term" unclear; "Cal Calibration #20" referent ambiguous; α_s tier cross-volume inconsistency (Vol 1 Ch 11 D-tier vs Vol 2 Ch 8 I-tier); a_μ/a_e "order of magnitude" loose framing — Lyra+Elie joint | Lyra+Elie | 15-25 min |
+| **U16** | **Vol 2 Ch 11** | **CASEY OPTION 1 ALIGNMENT** — Vol 2 Ch 11 has different 5-absence set (with DM, combined SUSY+sterile) vs canonical (no DM, separate SUSY/sterile per Casey decision 10:51 EDT); 6-row table internal inconsistency. Apply same fix as Lyra Vol 1 Ch 11 + 1-Pager | Elie | 5-10 min |
+| **U17** | **Vol 2 Ch 12** | Status field "v0.1 chapter-grade" → v0.3+ per Friday absorption; outreach status section dated "Thursday May 21" → Friday "engagement deferred" canonical per Casey 10:18 EDT | Elie | 3-5 min |
 
-**Total estimated Vol 2 cleanup**: ~75-115 min Lyra+Elie joint absorption (updated with Cal #96 Ch 10 flags). After this + Cal completes Vol 2 cold-reads (Ch 11 next, then 4, 5, 7, 8, 12), Vol 2 reaches same v1.0 chapter-grade content state as Vol 1.
+**Total estimated Vol 2 cleanup**: ~115-175 min Lyra+Elie joint absorption (Cal complete 12/12 Vol 2 sweep done — Vol 2 Gate 2 CLOSED contingent on Elie v0.4 absorption).
+
+**Cross-volume tier-label reconciliation** (Lyra+Elie joint sweep, ~20-30 min on top of per-chapter items): mass/coupling observables α_s, m_μ/m_e, m_τ/m_e, m_τ/m_μ, m_u — pick canonical form per observable, clean Vol 1 + Vol 2 simultaneously.
 
 ---
 
