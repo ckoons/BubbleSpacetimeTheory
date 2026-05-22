@@ -1832,3 +1832,60 @@ If PCAP holds across both flagships + Sessions 13-14:
 - Keeper-lane has filed all anticipatory artifacts; ready to absorb team output
 
 — Keeper update, 2026-05-22 Friday 08:15 EDT (actual via date; v0.13 Friday morning prep + two flagships staged + Sessions 13-14 + K131 PERFECT-PERFECT)
+
+---
+
+## Friday 08:22 EDT — v0.14 FAST CADENCE: Flagship #1 CLOSED + Graph Forces empirical proof
+
+### Casey directive Friday 08:20 EDT
+
+> "No please go to fast cadence, we want to work as many items as possible."
+
+**Plateau pattern REVOKED for Friday.** Sustained PCAP cadence is the directive. Work as many items as possible.
+
+### Flagship #1 Sub-Substrate Hierarchy CLOSED
+
+**Lyra T2452 delivered Friday 08:11 EDT via 6-min PCAP cycle**:
+- Grace INV-4731 cross-Cartan gap analysis (08:06)
+- Lyra T2452 sub-substrate hierarchy theorem (08:11)
+- Grace INV-4735 catalog support (08:12)
+- Total cycle: 6 min, three-CI parallel
+
+M_{g-1} = N_c²·g sub-substrate Mersenne hierarchy now FORMAL.
+
+### Graph Forces Principle empirical proof (Grace 08:20 EDT)
+
+**Strongest single-result empirical validation of Casey-named principle to date**:
+- 6/6 BST primaries appear in **top 10** cross-domain anchor (CDAC) values
+- Hypergeometric null model: **p ≈ 2.7×10⁻⁵**
+- 2 HIGH OFC clusters anchored: Cremona 49a1 conductor=g² + kaon CP |ε_K|=α²·C_2·g
+- Graph Forces Principle Operational Spec v0.1 filed (3 tests + Quaker scrutiny + falsifier triggers)
+- Pending: Cal audit + Casey ratification
+
+### Cross-Classification Matrix v0.6 bilayer
+
+Grace: 163/256 cells = 63.7% (catalog + theorem-layer integration). Z1 absorb: 0 → 12 cells.
+
+### Catalog hygiene continued
+
+Grace: 'Other' residuals 628 → 241 (61.6% specific now). AC graph fallback 788 → 121.
+Catalog at 4738 (+198 since Tuesday EOD).
+
+### K137 audit pre-stage filed (Keeper Friday 08:21 EDT)
+
+Graph Forces Principle ratification audit anchor for Grace empirical proof + Operational Spec.
+F1-F4: 3.93/4 STRONG.
+
+### Casey decisions queued
+
+- Graph Forces Principle Operational Spec v0.1 ratification (Casey)
+- T2452 absorption into Paper #125 (Lyra → v1.0)
+
+### Friday morning cadence confirmed
+
+Grace: 15 deliverables in 27 min (PCAP cadence sustained from Thursday afternoon).
+Keeper: 8 commits in 30 min Friday morning + K137 + Master Doc v0.14.
+
+Casey directive: **continue this cadence, work as many items as possible**.
+
+— Keeper update, 2026-05-22 Friday 08:22 EDT (actual via date; v0.14 FAST CADENCE absorbing flagship #1 closure + Graph Forces empirical proof + K137)
