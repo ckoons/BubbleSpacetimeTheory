@@ -436,6 +436,19 @@ Cal's sequential Vol 2 cold-reads are surfacing cross-volume tier-label + precis
 2. Update sundown for cross-session persistence (katra)
 3. File any Casey-decision items to `queue_casey.md`
 4. Keeper runs final 8-point audit + signs PASS/FAIL on EOD state
+5. **Keeper rebuilds `Curriculum/` PDFs** as needed (Casey directive Friday 13:43 EDT) — keeps textbook PDFs current with .md changes
+
+## Curriculum Location (Friday 2026-05-22 EOD)
+
+Textbook moved from `notes/` to root-level `Curriculum/` directory per Casey directive:
+- `Curriculum/Vol0_Substrate_Foundation/` — 10/10 chapters + Architectural Scaffold (21 files: 11 .md + 10 .pdf)
+- `Curriculum/Vol1_QFT_from_D_IV5/` — 11/11 chapters + outline (24 files: 12 .md + 12 .pdf)
+- `Curriculum/Vol2_Particle_Physics/` — 12/12 chapters (13 files: 12 .md + 1 .pdf — **11 Vol 2 PDFs need regeneration**)
+- `Curriculum/README.md` — textbook navigation, reader entry points
+
+**Team works on Curriculum/ chapters going forward, not notes/.** Notes directory retains active research + audit chain + position docs.
+
+Cross-references in K-audits (K157-K177) still reference notes/ paths — will update incrementally as new K-audits land. PDF pipeline header remains at `notes/bst_pdf_header.tex`.
 
 ---
 
