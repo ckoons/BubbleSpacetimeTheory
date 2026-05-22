@@ -66,14 +66,22 @@ For each advancing criterion to reach RIGOROUSLY CLOSED:
 
 ## Joint null-model under v0.11+
 
-Conservative (1/3)^11 ≈ **5.6 × 10⁻⁶** for current RIGOROUSLY CLOSED.
+**IMPORTANT — per Cal Referee Log #90(c) and Calibration #19**: the null-model arithmetic below is **INTERNAL FORECAST under the v0.11+ endpoint**, NOT current ratified-state count. External-facing documents must use the current ratified-state count instead:
 
-If all four advancing criteria close: (1/3)^15 ≈ **6.9 × 10⁻⁸**.
+> **Current honest ratified-state count: 10 FORMAL + 1 ASPIRATIONAL + 3 candidates (SEED/STRUCTURALLY VERIFIED at dim_C=5)**
 
-Empirically-tightened with K141 + K137 + K140 anchors:
-$$p_{\text{joint,empirical}} \lesssim (5.6 \times 10^{-6}) \cdot (2.7 \times 10^{-5}) \cdot (1/3306) \cdot (3 \times 10^{-6}) \approx 1.4 \times 10^{-19}$$
+The conservative null-model arithmetic over the *current* ratified count gives (1/3)^11 ≈ 5.6×10⁻⁶ as an upper-bound for the established criteria. Any tighter joint figure assumes future closure of advancing criteria and must be labeled as such.
 
-But this multiplicative bound assumes independence which may overcount. **Conservative joint null under v0.11+ endpoint: ~3×10⁻¹² (Lyra's broadcast figure)**.
+### Forecast arithmetic (INTERNAL ONLY, conditional on multi-session closure)
+
+IF the four advancing criteria reach RIGOROUSLY CLOSED via multi-session work, conservative (1/3)^15 ≈ **6.9 × 10⁻⁸**.
+
+Empirically-tightened forecast (still INTERNAL ONLY, conditional):
+$$p_{\text{joint,forecast}} \lesssim (5.6 \times 10^{-6}) \cdot (2.7 \times 10^{-5}) \cdot (1/3306) \cdot (3 \times 10^{-6}) \approx 1.4 \times 10^{-19}$$
+
+But this multiplicative bound assumes independence which may overcount AND assumes closure of advancing criteria. **Forecast joint null under v0.11+ endpoint: ~3×10⁻¹² (Lyra's broadcast figure, conditional on full closure)**.
+
+These forecast figures are NOT to appear in external-facing documents (papers, outreach, Zenodo) until the underlying criteria pass RIGOROUSLY CLOSED 4-requirement check individually.
 
 ## Lessons from Calibration #18
 

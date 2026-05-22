@@ -32,21 +32,23 @@ The other five are **D_IV⁵-specific** in their concrete instantiation:
 
 **These are five independent "fingerprint" interfaces** distinguishing D_IV⁵ from alt-HSDs.
 
-## Joint null-model under six-interface map
+## Joint null-model under six-interface map (INTERNAL FORECAST, per Cal #90(c))
 
-Treat each D_IV⁵-specific interface (#2-#6) as an independent (1/3)-probability substrate-selection criterion (conservative):
+**Per Cal Referee Log #90(c) and Calibration #19**: arithmetic below is INTERNAL FORECAST. External-facing documents must use current ratified-state count (10 FORMAL + 1 ASPIRATIONAL + 3 candidates), NOT the joint figures below.
 
-$$p_{\text{joint}} \lesssim (1/3)^5 \approx 4.1 \times 10^{-3}$$
+Treat each D_IV⁵-specific interface (#2-#6) as an independent (1/3)-probability substrate-selection criterion (conservative, forecast-only):
 
-But this conservative bound *understates*. Each interface has its own empirically-grounded null:
-- Interface #2 (operator zoo): K131 PERFECT-PERFECT at 4.0/4 ≈ tighter than 1/3
-- Interface #4 (Mersenne network): ~3×10⁻⁶ from K140 + Mersenne ladder enumeration
-- Interface #5 (Graph Forces): p≈2.7×10⁻⁵ from K137 + Grace hypergeometric
-- Interface #6 (Cross-Cartan): 1/3306 from K141 + Grace empirical
+$$p_{\text{joint,forecast}} \lesssim (1/3)^5 \approx 4.1 \times 10^{-3}$$
 
-Multiplicative: ~3×10⁻⁶ × 2.7×10⁻⁵ × (1/3306) × tightening ≈ **~10⁻¹⁴ to 10⁻¹⁵** for joint substrate-selection.
+Each interface has its own empirically-grounded null (forecast pending K-audit ratification):
+- Interface #2 (operator zoo): K131 PERFECT-PERFECT candidate 4.0/4 (PRE-STAGE)
+- Interface #4 (Mersenne network): K140 PRE-STAGE, ~3×10⁻⁶ enumeration null
+- Interface #5 (Graph Forces): K137 RATIFIED, p ≈ 2.7×10⁻⁵
+- Interface #6 (Cross-Cartan): K141 PRE-STAGE, 1/3306 empirical
 
-This is consistent with the Mersenne Network Convergence position doc's combined ~3×10⁻¹⁵ joint null-model under v0.13.
+Forecast multiplicative (INTERNAL ONLY, conditional on K-audits ratifying): ~3×10⁻⁶ × 2.7×10⁻⁵ × (1/3306) ≈ ~10⁻¹⁴ to 10⁻¹⁵.
+
+These joint figures are FORECASTS conditional on K140 + K141 + K131 ratification. External documents must wait for individual K-audit RIGOROUSLY CLOSED 4-requirement check.
 
 ## Interface portability — three classes
 

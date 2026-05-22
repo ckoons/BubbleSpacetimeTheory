@@ -54,13 +54,17 @@ With Grace's 39-pull findings + Elie's Friday morning Mersenne ladder + Lyra T24
 - **C16** Cross-Cartan three-pillar joint experimental selection (T2453+T2454+T2455, K141 anchor, 3306× empirical)
 - **C17** Graph Forces empirical (Grace, p ≈ 2.7×10⁻⁵, K137 anchor)
 
-**Joint substrate-selection null-model under v0.13**:
-$$p_{\text{joint}} \lesssim (2.7 \times 10^{-5}) \cdot (1/3)^{15} \approx 1.9 \times 10^{-12}$$
+**Joint substrate-selection null-model (INTERNAL FORECAST, per Cal #90(c) and Calibration #19)**:
 
-If Cross-Cartan 3306× margin adds independent factor of ~1/3306, joint approaches:
-$$p_{\text{joint}} \lesssim 5.7 \times 10^{-16}$$
+The arithmetic below assumes K-audits K140 + K141 + K137 ratify into Strong-Uniqueness as full criteria. Current state: K137 RATIFIED; K140 + K141 PRE-STAGES (candidates). External-facing documents must use current ratified-state count (10 FORMAL + 1 ASPIRATIONAL + 3 candidates).
 
-— **astronomical implausibility for alternative HSD**.
+Forecast joint (INTERNAL ONLY, conditional on K-audit closure):
+$$p_{\text{joint,forecast}} \lesssim (2.7 \times 10^{-5}) \cdot (1/3)^{15} \approx 1.9 \times 10^{-12}$$
+
+Forecast with Cross-Cartan 3306× margin (INTERNAL ONLY, conditional):
+$$p_{\text{joint,forecast}} \lesssim 5.7 \times 10^{-16}$$
+
+These figures are FORECASTS pending full ratification chain closure, not external-publication-ready arithmetic.
 
 ## Next absorption queue
 

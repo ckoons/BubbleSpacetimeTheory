@@ -69,18 +69,21 @@ This convergence is the basis for **three new Strong-Uniqueness criteria candida
 - **C16** Cross-Cartan three-pillar joint experimental selection (T2453+T2454+T2455)
 - **C17** Graph Forces empirical clustering (Grace, p ≈ 2.7×10⁻⁵)
 
-**Combined null-model** (rough estimate):
-- Graph Forces: (1/3)^1 with p ≈ 2.7×10⁻⁵
-- Mersenne tower: (1/3)^1 (sub-substrate uniqueness in small range)
-- Mersenne ladder: (1/3)^1 (5 primes from 7 small integer exponents — rare)
+**Combined null-model (INTERNAL FORECAST, per Cal #90(c) and Calibration #19)**:
 
-Joint convergence null-model: 
-$$p_{\text{joint}} \lesssim (2.7 \times 10^{-5}) \times (1/3)^2 \approx 3 \times 10^{-6}$$
+Per Cal Referee Log #90(c): null-model arithmetic that counts C15/C16/C17 candidates as ratified should NOT appear in external-facing documents. The figures below are *internal forecasts conditional on multi-session closure*, not current ratified-state.
 
-Multiplied by prior v0.10.5 null-model (1/3)^19 ≈ 8.6×10⁻¹⁰ for 11 criteria:
-$$p_{\text{combined}} \lesssim 3 \times 10^{-15}$$
+- Graph Forces: K137 RATIFIED with measured p ≈ 2.7×10⁻⁵
+- Mersenne tower: K140 PRE-STAGE (candidate, not yet ratified)
+- Mersenne ladder: K140 PRE-STAGE (candidate, not yet ratified)
 
-If v0.13 ratifies with 16 RIGOROUSLY CLOSED, the substrate-selection null-model approaches **astronomical implausibility for an alternative HSD**.
+Forecast joint convergence null (INTERNAL ONLY, conditional on closure):
+$$p_{\text{joint,forecast}} \lesssim (2.7 \times 10^{-5}) \times (1/3)^2 \approx 3 \times 10^{-6}$$
+
+Forecast combined (INTERNAL ONLY, conditional on v0.10.5 FORMAL + future criteria closure):
+$$p_{\text{combined,forecast}} \lesssim 3 \times 10^{-15}$$
+
+**External-facing arithmetic uses current ratified count only**: 10 FORMAL + 1 ASPIRATIONAL + 3 candidates (SEED/STRUCTURALLY VERIFIED). Per-criterion individual RIGOROUSLY CLOSED 4-requirement check gates promotion before the criterion can contribute to external null-model.
 
 ---
 
