@@ -6,6 +6,24 @@
 
 **Counts**: T1-T2438, **~3226 toys**, **125 papers** (Paper #125 v0.5 Lyra + Trio externally dispatched Tuesday). Graph **2181 nodes / 9806 edges** / ~98% proved. **4667 geometric invariants** (D-tier ~76% honest). **253 Rosetta Stone ratios**. **120 predictions**. **191 constants**. **All SEVEN Millennium PROVED**. **K-audit chain K1-K87 with 16 effective Bridge Object family-members across 5 families STRUCTURALLY VERIFIED COMPLETE + K77 PATH B RATIFIED-status + K85+K86+K87 CPT-cluster Phase 2 first**. **17 audit-chain self-calibrations across 9 days**.
 
+**Friday May 22 morning — MERSENNE NETWORK CONVERGENCE + flagships answered + Lyra T2451-T2454** (~08:30 EDT):
+- **Mersenne Network finding**: three patterns converge — Graph Forces (Grace, p≈2.7×10⁻⁵) + Mersenne Tower (Elie+Casey, T2452) + Mersenne Ladder (Elie Friday). BST primaries over-determined via Mersenne-anchored network forces.
+- **Mersenne ladder**: 6/7 first BST primary exponents are Mersenne primes (M_rank=3, M_{N_c}=7=g, M_{n_C}=31, M_g=127); c_2 gap RESOLVED via M_{c_2}=2047=23·89 with both factors BST-primary-linear in c_2
+- **Additive identity**: N_max − M_g = g + N_c = 10 (137 − 127 = 10)
+- **7-candidate |ψ_0⟩ landscape = g** (count itself substrate-natural)
+- **All 3 Friday flagships preliminarily answered in 16 min** (Elie cadence): #1 sub-substrate YES + #2 cross-Cartan PARTIAL + #3 joint experimental YES
+- **Lyra T2451+T2452+T2453+T2454 delivered real-time** cross-lane synergy peak via Keeper pre-specs
+- **3 Strong-Uniqueness candidate criteria C15+C16+C17** from flagships + Graph Forces
+- **Path to v0.13 with 16 RIGOROUSLY CLOSED achievable Friday** (combined null-model ~3×10⁻¹⁵)
+- **Casey "FAST CADENCE" directive 08:20 EDT**: plateau revoked, work as many items as possible
+- **17 Keeper commits Friday morning** (07:50-08:37 EDT, sustained ~25/hour PCAP)
+- **K131 + K130 + K139 PERFECT-PERFECT candidates** join K108 + K111 in audit chain
+- **Vol 1 K-audit cluster**: 9/11 chapters (added K131 Op Zoo + K132 Dynamics + K133 Scattering + K134 Observables)
+- **Vol 2 K-audit cluster**: 13 audits (added K126 + K127 + K128 + K129 + K130 + K138 + K139)
+- **Phase 2 K-audit chain**: K85-K140 = 38 audits anticipated
+- **Two Wednesday substrate review docs closed**: Identify/Predict/Derive trichotomy + T719 universality
+- **K137 + K140 audit anchors** for Graph Forces ratification + Mersenne ladder
+
 **Thursday May 21 afternoon — Strong-Uniqueness Theorem v0.9.5 FORMAL + Cal #85 PCAP** (~14:30 EDT):
 - **8 RIGOROUSLY CLOSED criteria** (Lyra Sessions 1-9): C4 (T2439) + C11 (T2440) + C12 (T2441) + C13 (T2442) + C1 (T2443) + C2 (T2444) + C3 (T2445) + C5 (T2446)
 - **v0.10.5 ASPIRATIONAL candidate path** (Sessions 10-12 collapsing via Keeper batch pre-specs Thursday 14:24 EDT)
